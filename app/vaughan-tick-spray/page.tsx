@@ -24,7 +24,7 @@ const FAQS = [
   },
   {
     question: 'How many tick treatments does a Vaughan property need per year?',
-    answer: 'BuzzSkito recommends two treatments per season for most Vaughan properties: one in late May or early June targeting spring nymphs (the smallest and most dangerous life stage for Lyme disease transmission), and one in August or September targeting fall adult ticks. Each treatment provides up to 90 days of protection.',
+    answer: 'BuzzSkito recommends two treatments per season for most Vaughan properties: one in late May or early June targeting spring nymphs (the smallest and most dangerous life stage for Lyme disease transmission), and one in August or September targeting fall adult ticks. Each treatment provides up to 30 days of protection.',
   },
 ]
 
@@ -77,7 +77,7 @@ export default function VaughanTickPage() {
           <h2>What Our Vaughan Tick Treatment Includes</h2>
           <ul>
             <li>Barrier spray targeting lawn edges, leaf litter, garden beds, fence lines, under decks, and woodpiles</li>
-            <li>Up to 90 days of tick protection per treatment</li>
+            <li>Up to 30 days of tick protection per treatment</li>
             <li>Kills adult ticks, nymphs, and larvae on contact</li>
             <li>Health Canada–approved formula, safe for children and pets after 30 minutes</li>
             <li>Free reapplication guarantee if ticks return</li>

@@ -73,7 +73,7 @@ export default function AboutPage() {
 
         <h2>Our Services</h2>
         <p>
-          We offer two core services: <Link href="/mosquito-control" className="text-brand-700 hover:underline">mosquito control</Link> with up to 30 days of protection per treatment, and <Link href="/tick-control" className="text-brand-700 hover:underline">tick control</Link> with up to 90 days of protection. Most customers bundle both services for complete backyard protection.
+          We offer two core services: <Link href="/mosquito-control" className="text-brand-700 hover:underline">mosquito control</Link> with up to 30 days of protection per treatment, and <Link href="/tick-control" className="text-brand-700 hover:underline">tick control</Link> with up to 30 days of protection. Most customers bundle both services for complete backyard protection.
         </p>
         <p>
           Our mosquito treatments are most effective as a seasonal program — five visits from May through September maintain continuous protection throughout peak season. Our tick treatments require just two seasonal applications (spring and late summer) to cover the full tick activity calendar in Ontario.

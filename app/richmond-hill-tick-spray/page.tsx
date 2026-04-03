@@ -77,7 +77,7 @@ export default function RichmondHillTickPage() {
           <h2>What Our Richmond Hill Tick Treatment Includes</h2>
           <ul>
             <li>Barrier spray targeting lawn edges, leaf litter, garden beds, fence lines, under decks, and woodpiles</li>
-            <li>Up to 90 days of tick protection per treatment</li>
+            <li>Up to 30 days of tick protection per treatment</li>
             <li>Kills adult ticks, nymphs, and larvae on contact</li>
             <li>Health Canada–approved formula, safe for children and pets after 30 minutes</li>
             <li>Free reapplication guarantee if ticks return</li>

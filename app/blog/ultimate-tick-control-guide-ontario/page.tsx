@@ -91,7 +91,7 @@ export default function TickPillarPage() {
         <p>BuzzSkito's tick control service applies a residual insecticide barrier to the specific areas where ticks concentrate: lawn edges, leaf litter zones, garden borders, fence lines, and under-deck areas. The treatment:</p>
         <ul>
           <li>Kills ticks at all life stages (larva, nymph, adult) on contact</li>
-          <li>Provides up to 90 days of residual protection per application</li>
+          <li>Provides up to 30 days of residual protection per application</li>
           <li>Is applied by licensed technicians who know exactly where to target for maximum effectiveness</li>
           <li>Uses Health Canada–approved formulas safe for children, pets, and pollinators after 30-minute drying time</li>
         </ul>

@@ -98,7 +98,7 @@ export default function TickSeasonPage() {
         <h2>Why Two Treatments Cover Both Peak Windows</h2>
         <p>BuzzSkito's recommended two-treatment tick control program is deliberately timed to cover both peak risk periods:</p>
         <ul>
-          <li><strong>Treatment 1 — Late May / Early June:</strong> Targets nymphs as they emerge. Each treatment provides up to 90 days of residual protection, covering the entire nymph season through summer.</li>
+          <li><strong>Treatment 1 — Late May / Early June:</strong> Targets nymphs as they emerge. Each treatment provides up to 30 days of residual protection, covering the entire nymph season through summer.</li>
           <li><strong>Treatment 2 — Late August / September:</strong> Applied before the adult emergence peak, ensuring protection is active through the full fall tick season into November.</li>
         </ul>
         <p>Together, these two treatments provide coverage from late May through November — the complete active tick season for Ontario's blacklegged tick population.</p>

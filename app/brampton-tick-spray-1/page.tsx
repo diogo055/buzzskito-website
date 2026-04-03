@@ -7,7 +7,7 @@ import { BUSINESS, TICK_BLOGS } from '@/lib/constants'
 export const metadata: Metadata = buildMetadata({
   title: 'Tick Spray Brampton | BuzzSkito – Free Quotes',
   description:
-    'Professional tick spray in Brampton. Serving Castlemore, Mount Pleasant, Fletcher\'s Meadow, Springdale & all Brampton neighbourhoods. 90-day protection. Call (289) 216-5030.',
+    'Professional tick spray in Brampton. Serving Castlemore, Mount Pleasant, Fletcher\'s Meadow, Springdale & all Brampton neighbourhoods. 30-day protection. Call (289) 216-5030.',
   canonical: '/brampton-tick-spray-1',
 })
 
@@ -15,7 +15,7 @@ const CITY = 'Brampton'
 const NEIGHBOURHOODS = ["Mount Pleasant","Gore Meadows","Castlemore","Springdale","Bramalea","Creditview","Fletcher's Meadow","Heart Lake","Sandringham"]
 const FAQS = [
   { question: 'Are ticks a problem in Brampton?', answer: 'Yes. Brampton\'s ravines, creeks (Etobicoke Creek, Humber River tributaries), and Heart Lake Conservation Area are confirmed tick habitat. Neighbourhoods adjacent to these natural corridors — particularly Castlemore, Heart Lake, and properties near the Humber River — face significant annual tick exposure risk.' },
-  { question: 'When should Brampton homeowners get tick treatment?', answer: 'We recommend your first tick treatment in late May or June to target the most dangerous nymph stage. The second treatment in August or September addresses adult tick activity in fall. Together, these two visits provide continuous 90-day tick protection throughout the active season.' },
+  { question: 'When should Brampton homeowners get tick treatment?', answer: 'We recommend your first tick treatment in late May or June to target the most dangerous nymph stage. The second treatment in August or September addresses adult tick activity in fall. Together, these two visits provide continuous 30-day tick protection throughout the active season.' },
 ]
 
 export default function BramptonTickPage() {
@@ -35,7 +35,7 @@ export default function BramptonTickPage() {
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-5">Tick Control in {CITY}</h1>
           <p className="text-xl text-brand-100 max-w-2xl mb-8">
-            Brampton's ravines, conservation areas, and greenbelt corridors harbour blacklegged ticks. Protect your family from Lyme disease with BuzzSkito's professional 90-day tick barrier spray.
+            Brampton's ravines, conservation areas, and greenbelt corridors harbour blacklegged ticks. Protect your family from Lyme disease with BuzzSkito's professional 30-day tick barrier spray.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Link href="/contact" className="inline-block bg-amber-500 hover:bg-amber-400 text-white font-extrabold px-8 py-4 rounded-full text-lg shadow-xl transition-colors text-center">Get a Free Quote</Link>

@@ -1,6 +1,7 @@
 'use client'
 
 import Link from 'next/link'
+import Image from 'next/image'
 import { useState } from 'react'
 import { BUSINESS } from '@/lib/constants'
 
@@ -63,9 +64,16 @@ export default function Header() {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2 shrink-0" aria-label="BuzzSkito home">
-            <span className="text-2xl" aria-hidden="true">🦟</span>
-            <span className="font-extrabold text-xl tracking-tight">
-              Buzz<span className="text-brand-400">Skito</span>
+            <Image
+              src="/logo.png"
+              alt="BuzzSkito Mosquito &amp; Tick Control"
+              width={40}
+              height={40}
+              className="rounded-full"
+              priority
+            />
+            <span className="font-extrabold text-xl tracking-tight text-white">
+              Buzz<span className="text-amber-400">Skito</span>
             </span>
           </Link>
 

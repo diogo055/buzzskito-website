@@ -7,7 +7,7 @@ import { BUSINESS, TICK_BLOGS } from '@/lib/constants'
 export const metadata: Metadata = buildMetadata({
   title: 'Tick Spray Hamilton | BuzzSkito – Free Quotes',
   description:
-    'Professional tick spray in Hamilton. Serving Ancaster, Dundas, Waterdown, Stoney Creek, Westdale & all Hamilton neighbourhoods. 90-day tick protection. Call (289) 216-5030.',
+    'Professional tick spray in Hamilton. Serving Ancaster, Dundas, Waterdown, Stoney Creek, Westdale & all Hamilton neighbourhoods. 30-day tick protection. Call (289) 216-5030.',
   canonical: '/hamilton-tick-spray-1',
 })
 
@@ -15,14 +15,14 @@ const CITY = 'Hamilton'
 const NEIGHBOURHOODS = ['Stoney Creek','Dundas','Ancaster','Westdale','Waterdown','Rymal','Mount Hope','Binbrook','Flamborough','Ainslie Wood']
 const FAQS = [
   { question: 'Is the Dundas Valley a tick risk area?', answer: 'Yes. The Dundas Valley Conservation Area is one of the most significant tick habitats in the Hamilton region. The combination of wooded trails, deer populations, and humid ravine conditions creates ideal conditions for blacklegged ticks. Properties in Dundas, Ancaster, and Westdale that back onto natural areas face meaningful tick risk.' },
-  { question: 'How many tick treatments per year does Hamilton need?', answer: 'BuzzSkito recommends two Hamilton tick treatments per season: one in May or June targeting spring nymphs (the most dangerous Lyme disease transmission stage), and one in August or September for fall adult tick emergence. Each treatment provides up to 90 days of protection.' },
+  { question: 'How many tick treatments per year does Hamilton need?', answer: 'BuzzSkito recommends two Hamilton tick treatments per season: one in May or June targeting spring nymphs (the most dangerous Lyme disease transmission stage), and one in August or September for fall adult tick emergence. Each treatment provides up to 30 days of protection.' },
 ]
 
 export default function HamiltonTickPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema({ areaServed: CITY })) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema({ name: `Tick Spray ${CITY}`, description: `Professional tick barrier spray in ${CITY}, Ontario. Up to 90-day protection.`, slug: '/hamilton-tick-spray-1', city: CITY })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema({ name: `Tick Spray ${CITY}`, description: `Professional tick barrier spray in ${CITY}, Ontario. Up to 30-day protection.`, slug: '/hamilton-tick-spray-1', city: CITY })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Tick Control', url: '/tick-control' }, { name: CITY, url: '/hamilton-tick-spray-1' }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
 
@@ -35,7 +35,7 @@ export default function HamiltonTickPage() {
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-5">Tick Control in {CITY}</h1>
           <p className="text-xl text-brand-100 max-w-2xl mb-8">
-            Hamilton's Dundas Valley, Escarpment trails, and conservation lands make it one of Southern Ontario's highest tick-risk regions. BuzzSkito protects Hamilton families with professional 90-day tick barrier spray.
+            Hamilton's Dundas Valley, Escarpment trails, and conservation lands make it one of Southern Ontario's highest tick-risk regions. BuzzSkito protects Hamilton families with professional 30-day tick barrier spray.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Link href="/contact" className="inline-block bg-amber-500 hover:bg-amber-400 text-white font-extrabold px-8 py-4 rounded-full text-lg shadow-xl transition-colors text-center">Get a Free Quote</Link>

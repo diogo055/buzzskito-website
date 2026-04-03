@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import { BUSINESS, CITIES, MOSQUITO_BLOGS, TICK_BLOGS } from '@/lib/constants'
 import { localBusinessSchema } from '@/lib/seo'
 
@@ -22,8 +23,14 @@ export default function Footer() {
           {/* Brand */}
           <div className="lg:col-span-2">
             <Link href="/" className="inline-flex items-center gap-2 mb-4">
-              <span className="text-2xl" aria-hidden="true">🦟</span>
-              <span className="font-extrabold text-xl text-white">Buzz<span className="text-brand-400">Skito</span></span>
+              <Image
+                src="/logo.png"
+                alt="BuzzSkito logo"
+                width={40}
+                height={40}
+                className="rounded-full"
+              />
+              <span className="font-extrabold text-xl text-white">Buzz<span className="text-amber-400">Skito</span></span>
             </Link>
             <p className="text-sm leading-relaxed mb-5 text-brand-400 max-w-xs">
               Professional mosquito and tick barrier spray for GTA homeowners. Health Canada–approved. Safe for kids and pets after 30 minutes. Serving 19 cities across the GTA.

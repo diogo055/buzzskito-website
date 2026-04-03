@@ -15,7 +15,7 @@ const CITY = 'Mississauga'
 const NEIGHBOURHOODS = ['Port Credit','Meadowvale','Streetsville','Malton','Lorne Park','Cooksville','Lakeview','Erin Mills','Clarkson','Churchill Meadows','Mineola','Applewood']
 const FAQS = [
   { question: 'Where are ticks most common in Mississauga?', answer: 'Ticks are concentrated in Mississauga\'s wooded and transitional areas: the Credit River valley and trail system, Rattray Marsh Conservation Area, Erindale Park, Meadowvale Conservation Area, and the forested edges of many neighbourhoods. Properties backing onto these areas have the highest tick exposure risk.' },
-  { question: 'How often does Mississauga need tick treatment?', answer: 'BuzzSkito recommends two treatments per season: one in late May or June targeting spring nymphs (the most dangerous stage for Lyme disease transmission), and one in August or September targeting adult fall ticks. Our treatments provide up to 90 days of protection each.' },
+  { question: 'How often does Mississauga need tick treatment?', answer: 'BuzzSkito recommends two treatments per season: one in late May or June targeting spring nymphs (the most dangerous stage for Lyme disease transmission), and one in August or September targeting adult fall ticks. Our treatments provide up to 30 days of protection each.' },
   { question: 'Do ticks really carry Lyme disease in Mississauga?', answer: 'Yes. The blacklegged tick (Ixodes scapularis), which transmits Lyme disease, is established in Mississauga\'s Conservation Areas. Ontario public health data shows increasing Lyme disease cases in the GTA. Professional tick control significantly reduces your risk of exposure.' },
 ]
 
@@ -68,7 +68,7 @@ export default function MississaugaTickPage() {
           <h2>What Our Mississauga Tick Treatment Includes</h2>
           <ul>
             <li>Barrier spray targeting lawn edges, leaf litter, garden beds, fence lines, under decks, and woodpiles</li>
-            <li>Up to 90 days of tick protection per treatment</li>
+            <li>Up to 30 days of tick protection per treatment</li>
             <li>Kills adult ticks, nymphs, and larvae on contact</li>
             <li>Health Canada–approved formula, safe for children and pets after 30 minutes</li>
             <li>Free reapplication guarantee if ticks return</li>

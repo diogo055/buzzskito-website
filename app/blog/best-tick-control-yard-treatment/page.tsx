@@ -58,7 +58,7 @@ export default function BestTickControlPage() {
             </thead>
             <tbody>
               {[
-                { method: 'Professional barrier spray',       eff: '★★★★★', dur: 'Up to 90 days', stages: 'All' },
+                { method: 'Professional barrier spray',       eff: '★★★★★', dur: 'Up to 30 days', stages: 'All' },
                 { method: 'Consumer tick spray (DIY)',        eff: '★★★☆☆', dur: '1–14 days',     stages: 'Adults/nymphs' },
                 { method: 'Granular tick treatment',          eff: '★★☆☆☆', dur: '1–4 weeks',     stages: 'Variable' },
                 { method: 'Cedar mulch barrier',              eff: '★★☆☆☆', dur: 'Seasonal',      stages: 'Deterrent only' },
@@ -82,7 +82,7 @@ export default function BestTickControlPage() {
         <ul>
           <li><strong>Higher active ingredient concentration:</strong> Professional products have significantly higher concentrations than consumer products, providing better knockdown and longer residual activity.</li>
           <li><strong>Targeting expertise:</strong> Effective tick control requires thorough coverage of the specific microhabitats where ticks concentrate — lawn edges, leaf litter zones, under-deck areas, fence lines. A trained technician identifies and treats all these sites. Most homeowners miss some.</li>
-          <li><strong>Up to 90-day protection:</strong> Professional tick treatments provide the longest residual protection of any residential option — three times longer than the best consumer products.</li>
+          <li><strong>Up to 30-day protection:</strong> Professional tick treatments provide the longest residual protection of any residential option — three times longer than the best consumer products.</li>
           <li><strong>All life stages:</strong> The professional formula kills adult ticks, nymphs, and larvae on contact — not just adults.</li>
           <li><strong>Guaranteed results:</strong> BuzzSkito backs every tick treatment with a free retreatment guarantee if ticks return within the protection window.</li>
         </ul>
@@ -116,7 +116,7 @@ export default function BestTickControlPage() {
         </div>
       </article>
 
-      <CTASection heading="Get the Most Effective Tick Control for Your Property" subtext="Professional tick spray with up to 90-day protection. Free quote for GTA homeowners." variant="dark" />
+      <CTASection heading="Get the Most Effective Tick Control for Your Property" subtext="Professional tick spray with up to 30-day protection. Free quote for GTA homeowners." variant="dark" />
     </>
   )
 }

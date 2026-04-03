@@ -24,7 +24,7 @@ const FAQS = [
   },
   {
     question: 'How does professional tick spray work differently from store-bought tick repellent?',
-    answer: 'Store-bought repellents like DEET or permethrin products are personal repellents — they protect you while you\'re wearing them, but they don\'t reduce tick populations in your yard. Professional barrier spray is applied to your property\'s high-risk zones — lawn edges, leaf litter, garden borders, under decks — creating a treated zone that kills ticks before they can reach your family. BuzzSkito\'s treatment provides up to 90 days of yard-level protection per application.',
+    answer: 'Store-bought repellents like DEET or permethrin products are personal repellents — they protect you while you\'re wearing them, but they don\'t reduce tick populations in your yard. Professional barrier spray is applied to your property\'s high-risk zones — lawn edges, leaf litter, garden borders, under decks — creating a treated zone that kills ticks before they can reach your family. BuzzSkito\'s treatment provides up to 30 days of yard-level protection per application.',
   },
 ]
 
@@ -77,7 +77,7 @@ export default function HaltonHillsTickPage() {
           <h2>What Our Halton Hills Tick Treatment Includes</h2>
           <ul>
             <li>Barrier spray targeting lawn edges, leaf litter, garden beds, fence lines, under decks, and woodpiles</li>
-            <li>Up to 90 days of tick protection per treatment</li>
+            <li>Up to 30 days of tick protection per treatment</li>
             <li>Kills adult ticks, nymphs, and larvae on contact</li>
             <li>Health Canada–approved formula, safe for children and pets after 30 minutes</li>
             <li>Free reapplication guarantee if ticks return</li>

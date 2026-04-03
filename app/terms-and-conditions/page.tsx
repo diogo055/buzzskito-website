@@ -25,7 +25,7 @@ export default function TermsPage() {
         <h2>Services</h2>
         <p>BuzzSkito provides residential mosquito and tick barrier spray treatments in Mississauga, Toronto, Brampton, Oakville, Burlington, Hamilton, and surrounding GTA areas. Service availability is subject to seasonal conditions.</p>
         <h2>Satisfaction Guarantee</h2>
-        <p>We will retreat your property at no additional cost if pests return within the stated protection window (up to 30 days for mosquitoes, up to 90 days for ticks), provided you contact us within that window.</p>
+        <p>We will retreat your property at no additional cost if pests return within the stated protection window (up to 30 days for mosquitoes, up to 30 days for ticks), provided you contact us within that window.</p>
         <h2>Rain Guarantee</h2>
         <p>If heavy rain occurs within one hour of treatment, we will schedule a free reapplication. This does not apply to light rain or rain occurring after the product has fully dried.</p>
         <h2>Access and Safety</h2>

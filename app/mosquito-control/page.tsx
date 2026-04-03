@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import Image from 'next/image'
 import CTASection from '@/components/CTASection'
 import BlogCard from '@/components/BlogCard'
 import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema } from '@/lib/seo'
@@ -32,30 +33,42 @@ export default function MosquitoControlPage() {
 
       {/* Hero */}
       <section className="bg-gradient-to-br from-brand-950 to-brand-800 text-white py-16 px-4">
-        <div className="max-w-4xl mx-auto">
-          <nav aria-label="Breadcrumb" className="text-brand-400 text-sm mb-4 flex items-center gap-1">
-            <Link href="/" className="hover:text-white">Home</Link>
-            <span aria-hidden="true">/</span>
-            <span className="text-white">Mosquito Control</span>
-          </nav>
-          <h1 className="text-4xl sm:text-5xl font-extrabold mb-5 leading-tight">
-            Professional Mosquito Control<br />
-            <span className="text-brand-400">for GTA Homes</span>
-          </h1>
-          <p className="text-xl text-brand-100 max-w-2xl leading-relaxed mb-8">
-            Barrier spray treatments that eliminate mosquitoes in your yard and keep them away for up to 30 days. Serving 19 cities across the Greater Toronto Area.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4">
-            <Link href="/contact" className="inline-block bg-amber-500 hover:bg-amber-400 text-white font-extrabold px-8 py-4 rounded-full text-lg shadow-xl transition-colors text-center">
-              Get a Free Quote
-            </Link>
-            <a href={BUSINESS.phoneHref} className="inline-flex items-center justify-center gap-2 border-2 border-white text-white hover:bg-white hover:text-brand-900 font-bold px-8 py-4 rounded-full text-lg transition-colors">
-              {BUSINESS.phone}
-            </a>
+        <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
+          <div>
+            <nav aria-label="Breadcrumb" className="text-brand-400 text-sm mb-4 flex items-center gap-1">
+              <Link href="/" className="hover:text-white">Home</Link>
+              <span aria-hidden="true">/</span>
+              <span className="text-white">Mosquito Control</span>
+            </nav>
+            <h1 className="text-4xl sm:text-5xl font-extrabold mb-5 leading-tight">
+              Professional Mosquito Control<br />
+              <span className="text-amber-400">for GTA Homes</span>
+            </h1>
+            <p className="text-xl text-brand-100 max-w-2xl leading-relaxed mb-8">
+              Barrier spray treatments that eliminate mosquitoes in your yard and keep them away for up to 30 days. Serving 19 cities across the Greater Toronto Area.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4">
+              <Link href="/contact" className="inline-block bg-amber-500 hover:bg-amber-400 text-white font-extrabold px-8 py-4 rounded-full text-lg shadow-xl transition-colors text-center">
+                Get a Free Quote
+              </Link>
+              <a href={BUSINESS.phoneHref} className="inline-flex items-center justify-center gap-2 border-2 border-white text-white hover:bg-white hover:text-brand-900 font-bold px-8 py-4 rounded-full text-lg transition-colors">
+                {BUSINESS.phone}
+              </a>
+            </div>
+            <p className="mt-5 text-brand-300 text-sm">
+              Also offering <Link href="/tick-control" className="text-brand-400 underline hover:text-white">tick control</Link> — bundle both services for complete yard protection.
+            </p>
           </div>
-          <p className="mt-5 text-brand-300 text-sm">
-            Also offering <Link href="/tick-control" className="text-brand-400 underline hover:text-white">tick control</Link> — bundle both services for complete yard protection.
-          </p>
+          <div className="hidden lg:block rounded-2xl overflow-hidden shadow-2xl ring-4 ring-white/10">
+            <Image
+              src="/spray-backyard.jpg"
+              alt="BuzzSkito technician treating a backyard for mosquitoes"
+              width={700}
+              height={520}
+              className="w-full h-auto object-cover"
+              priority
+            />
+          </div>
         </div>
       </section>
 

@@ -7,7 +7,7 @@ import { BUSINESS, TICK_BLOGS } from '@/lib/constants'
 export const metadata: Metadata = buildMetadata({
   title: 'Tick Spray Burlington | BuzzSkito – Free Quotes',
   description:
-    'Professional tick spray in Burlington. Serving Alton Village, Millcroft, The Orchard, Roseland & all Burlington neighbourhoods. Up to 90-day tick protection. Call (289) 216-5030.',
+    'Professional tick spray in Burlington. Serving Alton Village, Millcroft, The Orchard, Roseland & all Burlington neighbourhoods. Up to 30-day tick protection. Call (289) 216-5030.',
   canonical: '/burlington-tick-spray',
 })
 
@@ -22,7 +22,7 @@ export default function BurlingtonTickPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema({ areaServed: CITY })) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema({ name: `Tick Spray ${CITY}`, description: `Professional tick barrier spray in ${CITY}, Ontario. Up to 90-day protection.`, slug: '/burlington-tick-spray', city: CITY })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema({ name: `Tick Spray ${CITY}`, description: `Professional tick barrier spray in ${CITY}, Ontario. Up to 30-day protection.`, slug: '/burlington-tick-spray', city: CITY })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Tick Control', url: '/tick-control' }, { name: CITY, url: '/burlington-tick-spray' }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
 
@@ -35,7 +35,7 @@ export default function BurlingtonTickPage() {
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-5">Tick Control in {CITY}</h1>
           <p className="text-xl text-brand-100 max-w-2xl mb-8">
-            Burlington's Escarpment greenbelt, Bronte Creek, and Royal Botanical Gardens create significant tick habitat throughout the city. BuzzSkito protects Burlington homeowners from Lyme disease with professional 90-day tick barrier spray.
+            Burlington's Escarpment greenbelt, Bronte Creek, and Royal Botanical Gardens create significant tick habitat throughout the city. BuzzSkito protects Burlington homeowners from Lyme disease with professional 30-day tick barrier spray.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Link href="/contact" className="inline-block bg-amber-500 hover:bg-amber-400 text-white font-extrabold px-8 py-4 rounded-full text-lg shadow-xl transition-colors text-center">Get a Free Quote</Link>

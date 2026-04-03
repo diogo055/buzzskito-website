@@ -7,7 +7,7 @@ import { BUSINESS, TICK_BLOGS } from '@/lib/constants'
 export const metadata: Metadata = buildMetadata({
   title: 'Tick Spray Oakville | BuzzSkito – Free Quotes',
   description:
-    'Professional tick spray in Oakville. Serving Glen Abbey, Joshua Creek, Bronte, West Oak Trails & all Oakville neighbourhoods. Up to 90-day protection. Call (289) 216-5030.',
+    'Professional tick spray in Oakville. Serving Glen Abbey, Joshua Creek, Bronte, West Oak Trails & all Oakville neighbourhoods. Up to 30-day protection. Call (289) 216-5030.',
   canonical: '/oakville-tick-spray-1',
 })
 
@@ -22,7 +22,7 @@ export default function OakvilleTickPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema({ areaServed: CITY })) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema({ name: `Tick Spray ${CITY}`, description: `Professional tick barrier spray in ${CITY}, Ontario. Up to 90-day protection.`, slug: '/oakville-tick-spray-1', city: CITY })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema({ name: `Tick Spray ${CITY}`, description: `Professional tick barrier spray in ${CITY}, Ontario. Up to 30-day protection.`, slug: '/oakville-tick-spray-1', city: CITY })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Tick Control', url: '/tick-control' }, { name: CITY, url: '/oakville-tick-spray-1' }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
 

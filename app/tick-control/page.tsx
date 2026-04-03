@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import Image from 'next/image'
 import CTASection from '@/components/CTASection'
 import BlogCard from '@/components/BlogCard'
 import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema } from '@/lib/seo'
@@ -8,12 +9,12 @@ import { BUSINESS, CITIES, TICK_BLOGS } from '@/lib/constants'
 export const metadata: Metadata = buildMetadata({
   title: 'Tick Control GTA | Professional Tick Spray – BuzzSkito',
   description:
-    'Professional tick barrier spray for lawns across the GTA. Mississauga, Toronto, Brampton, Vaughan, Richmond Hill, Markham & more. Up to 90-day protection. Kills ticks at all life stages. Free quotes.',
+    'Professional tick barrier spray for lawns across the GTA. Mississauga, Toronto, Brampton, Vaughan, Richmond Hill, Markham & more. Up to 30-day protection. Kills ticks at all life stages. Free quotes.',
   canonical: '/tick-control',
 })
 
 const FAQS = [
-  { question: 'How long does tick spray last?', answer: "BuzzSkito's professional tick treatment provides up to 90 days of protection per application. We recommend two seasonal treatments — one in late May/June and one in August/September — for season-long coverage." },
+  { question: 'How long does tick spray last?', answer: "BuzzSkito's professional tick treatment provides up to 30 days of protection per application. We recommend two seasonal treatments — one in late May/June and one in August/September — for season-long coverage." },
   { question: 'What tick species are found in Ontario?', answer: 'The primary species in Ontario are the blacklegged tick (deer tick), which transmits Lyme disease, and the American dog tick. Both are active across the GTA and can be found in lawns, gardens, and wooded areas adjacent to conservation lands.' },
   { question: 'Does tick spray kill ticks at all life stages?', answer: 'Yes. Our professional barrier spray targets adult ticks, nymphs (the smallest and most dangerous stage for Lyme disease transmission), and larvae, providing comprehensive protection across the full tick lifecycle.' },
   { question: 'Where do ticks hide in a yard?', answer: 'Ticks concentrate at lawn edges, under leaf litter, in garden beds, along fence lines, under woodpiles, and in shaded areas bordering woods or tall grass. Our treatment specifically targets these high-risk zones.' },
@@ -32,30 +33,42 @@ export default function TickControlPage() {
 
       {/* Hero */}
       <section className="bg-gradient-to-br from-brand-950 via-brand-900 to-amber-900 text-white py-16 px-4">
-        <div className="max-w-4xl mx-auto">
-          <nav aria-label="Breadcrumb" className="text-brand-400 text-sm mb-4 flex items-center gap-1">
-            <Link href="/" className="hover:text-white">Home</Link>
-            <span aria-hidden="true">/</span>
-            <span className="text-white">Tick Control</span>
-          </nav>
-          <h1 className="text-4xl sm:text-5xl font-extrabold mb-5 leading-tight">
-            Professional Tick Control<br />
-            <span className="text-amber-400">for GTA Homes</span>
-          </h1>
-          <p className="text-xl text-brand-100 max-w-2xl leading-relaxed mb-8">
-            Barrier spray that kills ticks at all life stages and provides up to 90-day protection. Serving 19 cities across the GTA — from Mississauga to Caledon, Scarborough to King City.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4">
-            <Link href="/contact" className="inline-block bg-amber-500 hover:bg-amber-400 text-white font-extrabold px-8 py-4 rounded-full text-lg shadow-xl transition-colors text-center">
-              Get a Free Quote
-            </Link>
-            <a href={BUSINESS.phoneHref} className="inline-flex items-center justify-center gap-2 border-2 border-white text-white hover:bg-white hover:text-brand-900 font-bold px-8 py-4 rounded-full text-lg transition-colors">
-              {BUSINESS.phone}
-            </a>
+        <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
+          <div>
+            <nav aria-label="Breadcrumb" className="text-brand-400 text-sm mb-4 flex items-center gap-1">
+              <Link href="/" className="hover:text-white">Home</Link>
+              <span aria-hidden="true">/</span>
+              <span className="text-white">Tick Control</span>
+            </nav>
+            <h1 className="text-4xl sm:text-5xl font-extrabold mb-5 leading-tight">
+              Professional Tick Control<br />
+              <span className="text-amber-400">for GTA Homes</span>
+            </h1>
+            <p className="text-xl text-brand-100 max-w-2xl leading-relaxed mb-8">
+              Barrier spray that kills ticks at all life stages and provides up to 30-day protection. Serving 19 cities across the GTA — from Mississauga to Caledon, Scarborough to King City.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4">
+              <Link href="/contact" className="inline-block bg-amber-500 hover:bg-amber-400 text-white font-extrabold px-8 py-4 rounded-full text-lg shadow-xl transition-colors text-center">
+                Get a Free Quote
+              </Link>
+              <a href={BUSINESS.phoneHref} className="inline-flex items-center justify-center gap-2 border-2 border-white text-white hover:bg-white hover:text-brand-900 font-bold px-8 py-4 rounded-full text-lg transition-colors">
+                {BUSINESS.phone}
+              </a>
+            </div>
+            <p className="mt-5 text-brand-300 text-sm">
+              Also offering <Link href="/mosquito-control" className="text-brand-400 underline hover:text-white">mosquito control</Link> — bundle both services for complete yard protection.
+            </p>
           </div>
-          <p className="mt-5 text-brand-300 text-sm">
-            Also offering <Link href="/mosquito-control" className="text-brand-400 underline hover:text-white">mosquito control</Link> — bundle both services for complete yard protection.
-          </p>
+          <div className="hidden lg:block rounded-2xl overflow-hidden shadow-2xl ring-4 ring-white/10">
+            <Image
+              src="/spray-pool.jpg"
+              alt="BuzzSkito technician treating a pool-area garden for ticks"
+              width={700}
+              height={520}
+              className="w-full h-auto object-cover"
+              priority
+            />
+          </div>
         </div>
       </section>
 
@@ -89,7 +102,7 @@ export default function TickControlPage() {
             {[
               { icon: '🎯', title: 'High-Risk Zone Targeting', desc: 'Lawn edges, leaf litter, garden beds, fence lines, under decks, woodpiles — all the areas where ticks concentrate.' },
               { icon: '🔬', title: 'All Life Stages Eliminated', desc: 'Our formula kills adult ticks, nymphs (tiny and hard to spot), and larvae on contact.' },
-              { icon: '🛡️', title: 'Up to 90-Day Protection', desc: 'One treatment keeps your yard protected for up to 90 days — far longer than mosquito treatments.' },
+              { icon: '🛡️', title: 'Up to 30-Day Protection', desc: 'One treatment keeps your yard protected for up to 30 days — far longer than mosquito treatments.' },
               { icon: '💧', title: 'Health Canada–Approved', desc: 'Our tick spray is fully approved for residential use in Ontario, safe for gardens, pets, and pollinators after drying.' },
               { icon: '👶', title: 'Safe After 30 Minutes', desc: 'Kids and pets can return to the yard 30 minutes after the treatment has fully dried.' },
               { icon: '🔁', title: 'Free Retreatment Guarantee', desc: 'If ticks return within the protection window, we retreat your property at no additional cost.' },
