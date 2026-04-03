@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    scroll-behavior: smooth;
+  }
+
+  html {
+    scrollbar-gutter: stable;
+  }
+
+  /* Improve tap targets on mobile */
+  a, button {
+    @apply touch-manipulation;
+  }
+
+  /* Accessible focus ring */
+  :focus-visible {
+    @apply outline-2 outline-offset-2 outline-brand-500 rounded;
+  }
+}
+
+@layer components {
+  /* Blog/article prose styles */
+  .prose-brand {
+    @apply text-gray-700 leading-relaxed max-w-none;
+  }
+  .prose-brand h2 {
+    @apply text-2xl font-extrabold text-brand-900 mt-10 mb-4 leading-snug;
+  }
+  .prose-brand h3 {
+    @apply text-xl font-bold text-brand-800 mt-6 mb-2 leading-snug;
+  }
+  .prose-brand p {
+    @apply mb-4 leading-relaxed;
+  }
+  .prose-brand ul {
+    @apply list-disc pl-6 mb-5 space-y-1.5;
+  }
+  .prose-brand ol {
+    @apply list-decimal pl-6 mb-5 space-y-1.5;
+  }
+  .prose-brand li {
+    @apply text-gray-700 leading-relaxed;
+  }
+  .prose-brand a {
+    @apply text-brand-700 hover:text-brand-500 underline underline-offset-2 transition-colors;
+  }
+  .prose-brand strong {
+    @apply font-bold text-gray-900;
+  }
+  .prose-brand em {
+    @apply italic;
+  }
+  .prose-brand blockquote {
+    @apply border-l-4 border-brand-300 pl-5 py-1 my-6 text-gray-600 italic;
+  }
+
+  /* Utility button classes */
+  .btn-primary {
+    @apply inline-block bg-brand-700 hover:bg-brand-600 text-white font-bold px-6 py-3 rounded-full transition-colors shadow-md;
+  }
+  .btn-amber {
+    @apply inline-block bg-amber-500 hover:bg-amber-400 text-white font-bold px-6 py-3 rounded-full transition-colors shadow-md;
+  }
+}
