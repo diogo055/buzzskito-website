@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import BlogCard from '@/components/BlogCard'
 import { buildMetadata, breadcrumbSchema } from '@/lib/seo'
-import { MOSQUITO_BLOGS, TICK_BLOGS } from '@/lib/constants'
+import { MOSQUITO_BLOGS, TICK_BLOGS, NEW_BLOGS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
   title: 'Mosquito & Tick Control Blog | Expert GTA Guides – BuzzSkito',
@@ -70,10 +70,34 @@ export default function BlogIndexPage() {
         </div>
       </section>
 
+      {/* City & GEO Guides section */}
+      <section aria-labelledby="city-guides" className="py-14 px-4 bg-white">
+        <div className="max-w-6xl mx-auto">
+          <div className="flex items-center gap-3 mb-3">
+            <span className="text-3xl" aria-hidden="true">📍</span>
+            <h2 id="city-guides" className="text-3xl font-extrabold text-brand-900">City &amp; GEO Guides</h2>
+          </div>
+          <p className="text-gray-500 text-sm mb-8 max-w-2xl">Local mosquito and tick guides for specific GTA cities, neighbourhoods, and property types — covering real landmarks, waterways, and risk zones.</p>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {NEW_BLOGS.map((post) => (
+              <BlogCard key={post.slug} {...post} />
+            ))}
+          </div>
+          <div className="mt-6 flex gap-6">
+            <Link href="/service-areas" className="text-brand-700 font-semibold hover:underline text-sm">
+              → View All Service Areas
+            </Link>
+            <Link href="/mosquito-control" className="text-brand-700 font-semibold hover:underline text-sm">
+              → Mosquito Control Services
+            </Link>
+          </div>
+        </div>
+      </section>
+
       <section className="py-10 px-4 bg-brand-50">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-2xl font-extrabold text-brand-900 mb-3">Need Professional Help?</h2>
-          <p className="text-gray-600 mb-6">BuzzSkito provides professional mosquito and tick control across Mississauga, Toronto, Brampton, Oakville, Burlington, and Hamilton.</p>
+          <p className="text-gray-600 mb-6">BuzzSkito provides professional mosquito and tick control across Mississauga, Toronto, Brampton, Oakville, Burlington, Hamilton, Vaughan, Richmond Hill, Markham, and the wider GTA.</p>
           <Link href="/contact" className="inline-block bg-amber-500 hover:bg-amber-400 text-white font-extrabold px-8 py-4 rounded-full text-lg shadow-xl transition-colors">
             Get a Free Quote
           </Link>
