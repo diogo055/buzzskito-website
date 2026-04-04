@@ -38,7 +38,7 @@ export default function BlogCard({ slug, title, excerpt, date, category = 'mosqu
             className="text-sm font-semibold text-brand-700 hover:text-brand-500 flex items-center gap-1"
             aria-label={`Read: ${title}`}
           >
-            Read more
+            Read guide <span className="sr-only">: {title}</span>
             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
             </svg>

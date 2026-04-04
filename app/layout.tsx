@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from 'next'
 import { Inter } from 'next/font/google'
 import Script from 'next/script'
+import { SpeedInsights } from '@vercel/speed-insights/next'
 import './globals.css'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
@@ -110,6 +111,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             gtag('config', '${BUSINESS.gaId}', { page_path: window.location.pathname });
           `}
         </Script>
+
+        <SpeedInsights />
 
         {/* ── Facebook Pixel ───────────────────────────────────────────── */}
         <Script id="fb-pixel" strategy="afterInteractive">
