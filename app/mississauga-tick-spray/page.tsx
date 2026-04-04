@@ -75,7 +75,7 @@ export default function MississaugaTickPage() {
           </ul>
 
           <h2>Also Providing Mosquito Control in Mississauga</h2>
-          <p>Many Mississauga homeowners combine tick and mosquito control in the same visit. See our <Link href="/mosquito-control-sauga" className="text-brand-700 hover:underline">Mississauga mosquito control service</Link>.</p>
+          <p>Many Mississauga homeowners combine tick and mosquito control in the same visit. See our <Link href="/mississauga-mosquito-control" className="text-brand-700 hover:underline">Mississauga mosquito control service</Link>.</p>
 
           <h2>Related Tick Control Guides</h2>
           <ul>

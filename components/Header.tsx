@@ -24,7 +24,7 @@ const NAV: NavLink[] = [
     children: [
       { label: 'All Service Areas', href: '/service-areas' },
       { label: '', href: '#', divider: true },
-      { label: 'Mississauga', href: '/mosquito-control-sauga' },
+      { label: 'Mississauga', href: '/mississauga-mosquito-control' },
       { label: 'Toronto', href: '/toronto-mosquito-control' },
       { label: 'Brampton', href: '/brampton-mosquito-control' },
       { label: 'Oakville', href: '/oakville-mosquito-control' },

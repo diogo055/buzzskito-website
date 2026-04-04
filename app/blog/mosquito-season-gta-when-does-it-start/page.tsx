@@ -70,7 +70,7 @@ export default function MosquitoSeasonPage() {
         <h2>City-by-City: Which GTA Areas Have the Worst Mosquito Season?</h2>
         <p>Not all GTA locations experience the same mosquito pressure. The most heavily affected areas tend to be:</p>
         <ul>
-          <li><strong><Link href="/mosquito-control-sauga" className="text-brand-700">Mississauga</Link></strong> — Credit River corridor, Rattray Marsh, and Credit Valley neighbourhoods experience the earliest and most intense activity</li>
+          <li><strong><Link href="/mississauga-mosquito-control" className="text-brand-700">Mississauga</Link></strong> — Credit River corridor, Rattray Marsh, and Credit Valley neighbourhoods experience the earliest and most intense activity</li>
           <li><strong><Link href="/toronto-mosquito-control" className="text-brand-700">Toronto</Link></strong> — Ravine-adjacent properties in Don Valley, Humber Valley, and High Park neighbourhoods</li>
           <li><strong><Link href="/hamilton-mosquito-control" className="text-brand-700">Hamilton</Link></strong> — Cootes Paradise and escarpment areas see early and sustained activity</li>
           <li><strong><Link href="/oakville-mosquito-control" className="text-brand-700">Oakville</Link></strong> — Glen Abbey and Joshua Creek ravines, and the Bronte Creek corridor</li>

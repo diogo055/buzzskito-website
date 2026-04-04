@@ -56,7 +56,7 @@ export default function HamiltonMosquitoPage() {
           </div>
 
           <h2>Also Providing Tick Control in Hamilton</h2>
-          <p>Hamilton's Escarpment trails, Dundas Valley, and conservation areas are significant tick habitat. See our <Link href="/hamilton-tick-spray-1" className="text-brand-700 hover:underline">Hamilton tick control service</Link>.</p>
+          <p>Hamilton's Escarpment trails, Dundas Valley, and conservation areas are significant tick habitat. See our <Link href="/hamilton-tick-spray" className="text-brand-700 hover:underline">Hamilton tick control service</Link>.</p>
 
           <h2>Related Guides</h2>
           <ul>

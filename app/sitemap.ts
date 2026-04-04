@@ -32,6 +32,69 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   ])
 
+  // ── High-intent pages ───────────────────────────────────────────────────────
+  const highIntent: MetadataRoute.Sitemap = [
+    { url: `${SITE_URL}/how-it-works`,                    lastModified: now, changeFrequency: 'monthly' as const, priority: 0.8 },
+    { url: `${SITE_URL}/commercial-mosquito-control`,     lastModified: now, changeFrequency: 'monthly' as const, priority: 0.8 },
+    { url: `${SITE_URL}/mosquito-control-near-me`,        lastModified: now, changeFrequency: 'monthly' as const, priority: 0.8 },
+  ]
+
+  // ── Toronto neighbourhood pages ─────────────────────────────────────────────
+  const torontoNeighbourhoods: MetadataRoute.Sitemap = [
+    '/forest-hill-mosquito-control',
+    '/rosedale-mosquito-control',
+    '/leaside-mosquito-control',
+    '/east-york-mosquito-control',
+    '/don-mills-mosquito-control',
+    '/willowdale-mosquito-control',
+    '/york-mills-mosquito-control',
+    '/the-beaches-mosquito-control',
+  ].map((slug) => ({
+    url: `${SITE_URL}${slug}`,
+    lastModified: now,
+    changeFrequency: 'monthly' as const,
+    priority: 0.7,
+  }))
+
+  // ── Brampton neighbourhood pages ────────────────────────────────────────────
+  const bramptonNeighbourhoods: MetadataRoute.Sitemap = [
+    '/heart-lake-mosquito-control',
+    '/castlemore-mosquito-control',
+    '/springdale-mosquito-control',
+    '/fletcher-meadows-mosquito-control',
+  ].map((slug) => ({
+    url: `${SITE_URL}${slug}`,
+    lastModified: now,
+    changeFrequency: 'monthly' as const,
+    priority: 0.7,
+  }))
+
+  // ── Oakville neighbourhood pages ────────────────────────────────────────────
+  const oakvilleNeighbourhoods: MetadataRoute.Sitemap = [
+    '/glen-abbey-mosquito-control',
+    '/bronte-mosquito-control',
+    '/west-oak-trails-mosquito-control',
+    '/old-oakville-mosquito-control',
+    '/north-oakville-mosquito-control',
+  ].map((slug) => ({
+    url: `${SITE_URL}${slug}`,
+    lastModified: now,
+    changeFrequency: 'monthly' as const,
+    priority: 0.7,
+  }))
+
+  // ── Burlington neighbourhood pages ──────────────────────────────────────────
+  const burlingtonNeighbourhoods: MetadataRoute.Sitemap = [
+    '/alton-village-mosquito-control',
+    '/aldershot-mosquito-control',
+    '/roseland-mosquito-control',
+  ].map((slug) => ({
+    url: `${SITE_URL}${slug}`,
+    lastModified: now,
+    changeFrequency: 'monthly' as const,
+    priority: 0.7,
+  }))
+
   // ── Mosquito blog hub & spokes ──────────────────────────────────────────────
   const mosquitoBlogs: MetadataRoute.Sitemap = [
     MOSQUITO_BLOGS.pillar,
@@ -73,6 +136,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
   return [
     ...core,
     ...cityPages,
+    ...highIntent,
+    ...torontoNeighbourhoods,
+    ...bramptonNeighbourhoods,
+    ...oakvilleNeighbourhoods,
+    ...burlingtonNeighbourhoods,
     ...mosquitoBlogs,
     ...tickBlogs,
     ...newBlogs,

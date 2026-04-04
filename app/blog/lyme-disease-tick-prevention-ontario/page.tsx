@@ -63,9 +63,9 @@ export default function LymeDiseasePage() {
         <p>The highest-risk areas in Southern Ontario for Lyme disease exposure are regions with established blacklegged tick populations:</p>
         <ul>
           <li><strong>Mississauga / Peel Region:</strong> Confirmed blacklegged tick populations in Credit Valley, Rattray Marsh, and adjacent Conservation Areas. See: <Link href="/mississauga-tick-spray" className="text-brand-700 hover:underline">Mississauga tick control</Link></li>
-          <li><strong>Hamilton:</strong> Dundas Valley, Cootes Paradise, and escarpment areas are high-risk zones. See: <Link href="/hamilton-tick-spray-1" className="text-brand-700 hover:underline">Hamilton tick control</Link></li>
-          <li><strong>Toronto:</strong> Don Valley, High Park, and ravine corridors confirmed. See: <Link href="/toronto-tick-spray-1" className="text-brand-700 hover:underline">Toronto tick control</Link></li>
-          <li><strong>Oakville / Burlington:</strong> Bronte Creek, RBG, Escarpment trails. See: <Link href="/oakville-tick-spray-1" className="text-brand-700 hover:underline">Oakville</Link> and <Link href="/burlington-tick-spray" className="text-brand-700 hover:underline">Burlington tick control</Link></li>
+          <li><strong>Hamilton:</strong> Dundas Valley, Cootes Paradise, and escarpment areas are high-risk zones. See: <Link href="/hamilton-tick-spray" className="text-brand-700 hover:underline">Hamilton tick control</Link></li>
+          <li><strong>Toronto:</strong> Don Valley, High Park, and ravine corridors confirmed. See: <Link href="/toronto-tick-spray" className="text-brand-700 hover:underline">Toronto tick control</Link></li>
+          <li><strong>Oakville / Burlington:</strong> Bronte Creek, RBG, Escarpment trails. See: <Link href="/oakville-tick-spray" className="text-brand-700 hover:underline">Oakville</Link> and <Link href="/burlington-tick-spray" className="text-brand-700 hover:underline">Burlington tick control</Link></li>
         </ul>
 
         <h2>Prevention Strategies: Your Layers of Defense</h2>

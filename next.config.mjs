@@ -203,6 +203,13 @@ const nextConfig = {
       { source: '/f/mississauga-brampton-mosquito-tick-treatment-the-gta-s-best', destination: '/mosquito-control-sauga', permanent: true },
       { source: '/home/f/southern-ontario-s-top-mosquito-tick-hotspots-are-you-at-risk', destination: '/mosquito-control', permanent: true },
 
+      // ── URL canonicalization — clean slugs replace -1 variants ─────────────────
+      { source: '/mosquito-control-sauga',  destination: '/mississauga-mosquito-control', permanent: true },
+      { source: '/brampton-tick-spray-1',   destination: '/brampton-tick-spray',          permanent: true },
+      { source: '/oakville-tick-spray-1',   destination: '/oakville-tick-spray',          permanent: true },
+      { source: '/toronto-tick-spray-1',    destination: '/toronto-tick-spray',           permanent: true },
+      { source: '/hamilton-tick-spray-1',   destination: '/hamilton-tick-spray',          permanent: true },
+
       // ── Catch-all wildcards — must be LAST ───────────────────────────────────
       // These catch any /f/* or /home/f/* URL not explicitly listed above
       { source: '/f/:path*',      destination: '/mosquito-control', permanent: true },

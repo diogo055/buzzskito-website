@@ -43,7 +43,7 @@ export default function AboutPage() {
           BuzzSkito serves residential homeowners across Southern Ontario's most populated communities:
         </p>
         <ul>
-          <li><Link href="/mosquito-control-sauga" className="text-brand-700 hover:underline">Mississauga</Link> — our home base, serving all neighbourhoods from Port Credit to Meadowvale</li>
+          <li><Link href="/mississauga-mosquito-control" className="text-brand-700 hover:underline">Mississauga</Link> — our home base, serving all neighbourhoods from Port Credit to Meadowvale</li>
           <li><Link href="/toronto-mosquito-control" className="text-brand-700 hover:underline">Toronto</Link> — including High Park, Scarborough, Etobicoke, and North York</li>
           <li><Link href="/brampton-mosquito-control" className="text-brand-700 hover:underline">Brampton</Link> — including Castlemore, Mount Pleasant, and Fletcher's Meadow</li>
           <li><Link href="/oakville-mosquito-control" className="text-brand-700 hover:underline">Oakville</Link> — including Glen Abbey, Joshua Creek, and Bronte</li>

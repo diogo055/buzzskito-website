@@ -45,7 +45,7 @@ export const SITE_URL = 'https://buzzskito.ca'
 export const CITIES = [
   {
     name: 'Mississauga',
-    mosquitoSlug: '/mosquito-control-sauga',
+    mosquitoSlug: '/mississauga-mosquito-control',
     tickSlug: '/mississauga-tick-spray',
     neighbourhoods: ['Port Credit','Meadowvale','Streetsville','Malton','Lorne Park','Cooksville','Lakeview','Erin Mills','Clarkson','Churchill Meadows','Mineola','Applewood'],
     mosquitoBlurb: 'From Credit River to Lakeview, Mississauga backyards are prime mosquito breeding zones all season.',
@@ -54,7 +54,7 @@ export const CITIES = [
   {
     name: 'Toronto',
     mosquitoSlug: '/toronto-mosquito-control',
-    tickSlug: '/toronto-tick-spray-1',
+    tickSlug: '/toronto-tick-spray',
     neighbourhoods: ['High Park','East York','Don Mills','The Beaches','Scarborough','North York','Etobicoke','Leslieville','Rosedale','Forest Hill'],
     mosquitoBlurb: "Toronto's ravine system and Don Valley create ideal conditions for mosquito breeding all summer.",
     tickBlurb: "Toronto's ravines and High Park harbour ticks — risk areas extend across the city's green corridors.",
@@ -62,7 +62,7 @@ export const CITIES = [
   {
     name: 'Brampton',
     mosquitoSlug: '/brampton-mosquito-control',
-    tickSlug: '/brampton-tick-spray-1',
+    tickSlug: '/brampton-tick-spray',
     neighbourhoods: ['Mount Pleasant','Gore Meadows','Castlemore','Springdale','Bramalea','Creditview',"Fletcher's Meadow"],
     mosquitoBlurb: "Brampton's rapid growth means new green spaces — and new mosquito pressure each season.",
     tickBlurb: 'Brampton ravines, creeks, and wooded areas are hotspots for tick activity throughout the year.',
@@ -70,7 +70,7 @@ export const CITIES = [
   {
     name: 'Oakville',
     mosquitoSlug: '/oakville-mosquito-control',
-    tickSlug: '/oakville-tick-spray-1',
+    tickSlug: '/oakville-tick-spray',
     neighbourhoods: ['Bronte','Glen Abbey','Joshua Creek','West Oak Trails','Clearview','Palermo','River Oaks','Kerr Village'],
     mosquitoBlurb: "Oakville's lakefront and rain-garden landscapes create persistent mosquito pressure each season.",
     tickBlurb: 'Bronte Creek and wooded Oakville properties see elevated tick populations annually.',
@@ -86,7 +86,7 @@ export const CITIES = [
   {
     name: 'Hamilton',
     mosquitoSlug: '/hamilton-mosquito-control',
-    tickSlug: '/hamilton-tick-spray-1',
+    tickSlug: '/hamilton-tick-spray',
     neighbourhoods: ['Stoney Creek','Dundas','Ancaster','Westdale','Waterdown','Rymal','Downtown Hamilton','Mount Hope','Binbrook'],
     mosquitoBlurb: "Hamilton's escarpment, ravines, and waterfront create year-round mosquito habitat.",
     tickBlurb: "Hamilton's escarpment trails and Conservation Authority lands are prime tick habitat.",
