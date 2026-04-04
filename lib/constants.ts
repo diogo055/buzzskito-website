@@ -364,6 +364,46 @@ export const NEW_BLOGS = [
   },
 ]
 
+// ── Additional SEO blog posts (batch 2) ──────────────────────────────────────
+
+export const NEW_BLOGS_2 = [
+  {
+    slug: 'mosquito-repellent-plants-ontario',
+    title: 'Best Mosquito-Repelling Plants for Ontario Gardens (2026)',
+    excerpt: 'Lavender, citronella grass, basil, and 7 other plants that actually reduce mosquito pressure in Ontario backyards — plus how to combine them with professional barrier spray for maximum results.',
+    date: '2026-04-25',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'hidden-mosquito-breeding-spots-backyard',
+    title: 'Hidden Mosquito Breeding Spots in Your GTA Backyard (And How to Eliminate Them)',
+    excerpt: "Most homeowners miss these 12 common mosquito breeding spots — from clogged gutters to plant saucers. Find and eliminate every source before your first professional treatment of the season.",
+    date: '2026-04-28',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'tick-bite-symptoms-what-to-do-ontario',
+    title: 'Tick Bite Symptoms & What to Do in Ontario: A Complete Step-by-Step Guide',
+    excerpt: 'Found a tick on yourself or your child? This guide covers exactly what to do after a tick bite in Ontario — removal, monitoring, Lyme disease symptoms, and when to go to the ER.',
+    date: '2026-05-01',
+    category: 'tick' as const,
+  },
+  {
+    slug: 'mosquito-tick-control-hamilton-burlington',
+    title: 'Mosquito & Tick Control in Hamilton & Burlington: Escarpment & Waterfront Guide',
+    excerpt: "Hamilton's Niagara Escarpment trails and Burlington's waterfront create some of the GTA's most intense mosquito and tick pressure. Here's what homeowners in both cities need to know.",
+    date: '2026-05-05',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'tick-control-vaughan-king-city-woodbridge',
+    title: 'Tick Control in Vaughan, King City & Woodbridge: York Region Rural Property Guide',
+    excerpt: 'Boyd Conservation Area, Kortright Centre, and King Township forest edges put York Region homeowners at serious tick risk. Professional treatment schedules and what to expect.',
+    date: '2026-05-08',
+    category: 'tick' as const,
+  },
+]
+
 // ── Season helpers ─────────────────────────────────────────────────────────────
 
 export const PEAK_SEASON = 'May through July'

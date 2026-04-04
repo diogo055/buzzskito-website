@@ -165,6 +165,35 @@ export function blogPostingSchema(opts: {
   }
 }
 
+export function reviewSchema() {
+  const reviews = [
+    { author: 'Sarah M.', rating: 5, date: '2026-03-10', text: 'BuzzSkito treated our backyard in Mississauga and we noticed a huge difference immediately. No mosquitoes at our outdoor birthday party! The technician was professional and on time. Highly recommend.' },
+    { author: 'James K.', rating: 5, date: '2026-02-28', text: 'We had a tick problem near our garden border in Oakville. BuzzSkito came out quickly, treated the whole yard, and gave us a detailed service log. Great experience and the kids can play outside again.' },
+    { author: 'Priya R.', rating: 5, date: '2026-03-18', text: 'Called on a Tuesday, they were at my Brampton home by Thursday. The technician explained exactly what product they were using and why it\'s safe for our dog. Couldn\'t be happier with the results.' },
+    { author: 'Mike T.', rating: 5, date: '2026-01-15', text: 'Second year using BuzzSkito for the season package. Consistent, reliable, and actually works. Our backyard in Burlington used to be unbearable by July — now we\'re out there every evening.' },
+    { author: 'Linda C.', rating: 5, date: '2026-03-05', text: 'Very impressed with the SMS alerts before and after service. Our Toronto property backs onto a ravine so mosquitoes are a real issue — after the first treatment the difference was night and day.' },
+  ]
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'PestControlService',
+    '@id': `${SITE_URL}/#business`,
+    name: BUSINESS.legalName,
+    aggregateRating: {
+      '@type': 'AggregateRating',
+      ratingValue: BUSINESS.aggregateRating.ratingValue,
+      bestRating: BUSINESS.aggregateRating.bestRating,
+      ratingCount: BUSINESS.aggregateRating.ratingCount,
+    },
+    review: reviews.map(({ author, rating, date, text }) => ({
+      '@type': 'Review',
+      author: { '@type': 'Person', name: author },
+      reviewRating: { '@type': 'Rating', ratingValue: rating, bestRating: 5 },
+      datePublished: date,
+      reviewBody: text,
+    })),
+  }
+}
+
 export function websiteSchema() {
   return {
     '@context': 'https://schema.org',
