@@ -59,7 +59,7 @@ export default function HomePage() {
               <p className="text-amber-400 font-bold text-sm uppercase tracking-widest mb-4">
                 Mississauga · Toronto · Brampton · Oakville · Burlington · Hamilton
               </p>
-              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight mb-6 text-red-500">
+              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight mb-6">
                 Mosquito &amp; Tick Control<br />
                 <span className="text-amber-400">Guaranteed for the GTA</span>
               </h1>
