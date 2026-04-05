@@ -404,6 +404,46 @@ export const NEW_BLOGS_2 = [
   },
 ]
 
+// ── Additional SEO blog posts (batch 3) — keyword-gap posts ──────────────────
+
+export const NEW_BLOGS_3 = [
+  {
+    slug: 'mosquito-control-cost-ontario',
+    title: 'How Much Does Mosquito Control Cost in Ontario? (2026 Pricing Guide)',
+    excerpt: 'One-time spray, seasonal packages, and yard size pricing for professional mosquito barrier spray across the GTA and Ontario — transparent numbers, no surprises.',
+    date: '2026-04-15',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'outdoor-event-mosquito-control-gta',
+    title: 'Outdoor Event Mosquito Control in the GTA: Weddings, Parties & Backyard Gatherings',
+    excerpt: "Planning a backyard wedding, graduation party, or outdoor corporate event? Here's how a single pre-event barrier spray keeps mosquitoes away — and what to book, when.",
+    date: '2026-04-18',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'mosquito-tick-control-stoney-creek',
+    title: 'Mosquito & Tick Control in Stoney Creek: Red Hill Valley to the Lake Ontario Shore',
+    excerpt: "Stoney Creek's ravines, Red Hill Creek corridor, and lakeshore fringe create year-round mosquito and tick pressure. Here's what homeowners in this Hamilton community need to know.",
+    date: '2026-04-22',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'natural-eco-friendly-mosquito-control-ontario',
+    title: 'Natural & Eco-Friendly Mosquito Control in Ontario: What Actually Works in 2026',
+    excerpt: 'Garlic sprays, essential oils, mosquito dunks, and plant-based barriers — an honest breakdown of natural mosquito control options for Ontario homeowners and when to combine them with professional treatment.',
+    date: '2026-04-25',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'tick-control-ancaster-dundas-hamilton',
+    title: 'Tick Control in Ancaster & Dundas: Living on the Escarpment Edge in Hamilton',
+    excerpt: "Ancaster and Dundas sit at the base of the Niagara Escarpment — Ontario's most active tick corridor. Why these Hamilton suburbs have some of the highest tick risk in the GTA, and what to do about it.",
+    date: '2026-04-29',
+    category: 'tick' as const,
+  },
+]
+
 // ── Season helpers ─────────────────────────────────────────────────────────────
 
 export const PEAK_SEASON = 'May through July'
