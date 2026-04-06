@@ -7,18 +7,21 @@ import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema } from '@/lib
 import { BUSINESS, CITIES, TICK_BLOGS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Tick Control GTA | Professional Tick Spray – BuzzSkito',
+  title: 'Tick Control GTA | Safe for Kids & Pets – BuzzSkito',
   description:
-    'Professional tick barrier spray for lawns across the GTA. Mississauga, Toronto, Brampton, Vaughan, Richmond Hill, Markham & more. Up to 30-day protection. Kills ticks at all life stages. Free quotes.',
+    'Professional tick yard spray serving the GTA. Kills ticks at all life stages. Safe for children and pets after 30 min. Mississauga, Toronto, Brampton, Vaughan, Oakville, Burlington & more. Free quotes.',
   canonical: '/tick-control',
 })
 
 const FAQS = [
   { question: 'How long does tick spray last?', answer: "BuzzSkito's professional tick treatment provides up to 30 days of protection per application. We recommend two seasonal treatments — one in late May/June and one in August/September — for season-long coverage." },
+  { question: 'Is tick control yard spray safe for children?', answer: 'Yes. Our Health Canada–approved formula is safe for children once it has dried — approximately 30 minutes after application. During that drying window, children should stay off the treated area. After 30 minutes, kids can play on the grass and use the yard normally. The product bonds to leaf surfaces and vegetation where ticks rest — not to grass blades at ground level where children play. We also observe buffer zones around vegetable gardens and sandboxes on every property we treat.' },
+  { question: 'Is tick spray safe for dogs and cats?', answer: 'Yes. Pets can return to the treated yard 30 minutes after application, once the product has fully dried. The formula is applied to vegetation and lawn edges — not directly to pet areas like kennel runs or dog beds. We recommend keeping pets indoors during application and for the 30-minute drying period. After that, there is no exposure risk.' },
+  { question: 'Is tick control available near me in the GTA?', answer: 'BuzzSkito provides tick control across 19 GTA cities including Mississauga, Toronto, Brampton, Oakville, Burlington, Hamilton, Vaughan, Woodbridge, Richmond Hill, Markham, Etobicoke, Scarborough, North York, Caledon, Milton, Georgetown, Halton Hills, King City, and Thornhill. We also cover York Region communities including Kleinburg, Nobleton, and Schomberg. Call (289) 216-5030 to confirm service at your specific address.' },
   { question: 'What tick species are found in Ontario?', answer: 'The primary species in Ontario are the blacklegged tick (deer tick), which transmits Lyme disease, and the American dog tick. Both are active across the GTA and can be found in lawns, gardens, and wooded areas adjacent to conservation lands.' },
   { question: 'Does tick spray kill ticks at all life stages?', answer: 'Yes. Our professional barrier spray targets adult ticks, nymphs (the smallest and most dangerous stage for Lyme disease transmission), and larvae, providing comprehensive protection across the full tick lifecycle.' },
   { question: 'Where do ticks hide in a yard?', answer: 'Ticks concentrate at lawn edges, under leaf litter, in garden beds, along fence lines, under woodpiles, and in shaded areas bordering woods or tall grass. Our treatment specifically targets these high-risk zones.' },
-  { question: 'Which GTA cities have the highest tick risk?', answer: 'The highest tick activity in the GTA is found near the Oak Ridges Moraine (Richmond Hill, Caledon, King City), Rouge National Urban Park (Scarborough, Markham), Humber River valley (Vaughan, Woodbridge, Etobicoke), and Credit River corridor (Mississauga, Georgetown, Halton Hills). All 19 cities we serve have meaningful tick risk.' },
+  { question: 'Which GTA cities have the highest tick risk?', answer: 'The highest tick activity in the GTA is found near the Oak Ridges Moraine (Richmond Hill, Caledon, King City), Rouge National Urban Park (Scarborough, Markham), Humber River valley (Vaughan, Woodbridge, Etobicoke), and Credit River corridor (Mississauga, Georgetown, Halton Hills). York Region communities near the Moraine — including King City, Kleinburg, and Nobleton — are among the highest-risk areas in the GTA. All 19 cities we serve have meaningful tick risk.' },
 ]
 
 export default function TickControlPage() {

@@ -5,23 +5,31 @@ import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusines
 import { BUSINESS, CITIES } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Mosquito Control Near Me | BuzzSkito – GTA Service Areas',
+  title: 'Mosquito & Tick Control Near Me | BuzzSkito – GTA Service Areas',
   description:
-    'Looking for mosquito control near you? BuzzSkito serves Mississauga, Toronto, Brampton, Oakville, Burlington, Hamilton, Vaughan & 15+ GTA cities. Call (289) 216-5030 for a free quote.',
+    'Looking for mosquito or tick control near you? BuzzSkito serves Mississauga, Toronto, Brampton, Oakville, Burlington, Hamilton, Vaughan, York Region & 15+ GTA cities. Call (289) 216-5030.',
   canonical: '/mosquito-control-near-me',
 })
 
 const FAQS = [
   {
     question: 'How do I know if BuzzSkito serves my area?',
-    answer: "BuzzSkito serves approximately a 50 km radius from Mississauga, covering most of the GTA. Our confirmed service areas include Mississauga, Toronto, Brampton, Oakville, Burlington, Hamilton, Vaughan, Richmond Hill, Markham, Etobicoke, Scarborough, North York, Caledon, Milton, Georgetown, Halton Hills, King City, Woodbridge, and Thornhill. Call (289) 216-5030 or use our contact form to confirm availability at your specific address.",
+    answer: "BuzzSkito serves approximately a 50 km radius from Mississauga, covering most of the GTA and York Region. Our confirmed service areas include Mississauga, Toronto, Brampton, Oakville, Burlington, Hamilton, Vaughan, Richmond Hill, Markham, Etobicoke, Scarborough, North York, Caledon, Milton, Georgetown, Halton Hills, King City, Woodbridge, Thornhill, and Kleinburg. Call (289) 216-5030 or use our contact form to confirm availability at your specific address.",
+  },
+  {
+    question: 'Do you provide tick control near me as well as mosquito control?',
+    answer: "Yes — we provide both mosquito and tick control across all 19+ GTA service areas. Many homeowners bundle both services in a single visit: the same barrier spray that eliminates mosquitoes also kills ticks at all life stages, including nymphs. Tick treatment is especially important for properties in York Region, near the Oak Ridges Moraine, and along the Credit, Humber, and Don River corridors.",
   },
   {
     question: 'How quickly can BuzzSkito treat my property?',
     answer: "In most cases we can schedule your first treatment within 3–5 business days. During peak season (June–July) availability may be slightly longer. Call (289) 216-5030 to check current availability in your area and get on the schedule.",
   },
   {
-    question: 'Is there a minimum property size for mosquito treatment?',
+    question: 'Is mosquito and tick spray safe for children and pets?',
+    answer: "Yes. Our Health Canada–approved formula is safe for children and pets once dry — approximately 30 minutes after application. During that window, keep kids and pets off the treated area. After 30 minutes, the yard is fully safe for normal use. We observe buffer zones around vegetable gardens, sandboxes, and water features on every property.",
+  },
+  {
+    question: 'Is there a minimum property size for treatment?',
     answer: "No. We treat properties of all sizes — from compact urban lots and townhome backyards to large estate properties and acreages. Pricing is based on treated area. Call (289) 216-5030 for a quote based on your specific property.",
   },
   {
@@ -49,9 +57,9 @@ export default function MosquitoControlNearMePage() {
             <Link href="/mosquito-control" className="hover:text-white">Mosquito Control</Link><span>/</span>
             <span className="text-white">Near Me</span>
           </nav>
-          <h1 className="text-4xl sm:text-5xl font-extrabold mb-5">Mosquito Control Near You — GTA Service Areas</h1>
+          <h1 className="text-4xl sm:text-5xl font-extrabold mb-5">Mosquito &amp; Tick Control Near You — GTA &amp; York Region</h1>
           <p className="text-xl text-brand-100 max-w-2xl mb-8">
-            BuzzSkito serves 19+ cities across the Greater Toronto Area. Health Canada–approved barrier spray, up to 30-day protection, and a rain-back guarantee. Free quotes — call or book online.
+            BuzzSkito serves 19+ cities across the Greater Toronto Area and York Region. Health Canada–approved barrier spray eliminates both mosquitoes and ticks — up to 30-day protection, safe for kids and pets. Free quotes.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Link href="/contact" className="inline-block bg-amber-500 hover:bg-amber-400 text-white font-extrabold px-8 py-4 rounded-full text-lg shadow-xl transition-colors text-center">Get a Free Quote</Link>
@@ -97,9 +105,16 @@ export default function MosquitoControlNearMePage() {
           </div>
 
           <div className="mt-10">
-            <h2 className="text-2xl font-extrabold text-brand-900 mb-4">Why GTA Homeowners Need Professional Mosquito Control</h2>
+            <h2 className="text-2xl font-extrabold text-brand-900 mb-4">Tick Control Near Me — Also Available Across the GTA</h2>
+            <p className="text-gray-600 mb-4">BuzzSkito provides tick control alongside mosquito control in all service areas. One visit covers both — the same barrier spray that eliminates mosquitoes also kills blacklegged ticks at all life stages, including the tiny nymphs responsible for most Lyme disease cases in Ontario.</p>
+            <p className="text-gray-600 mb-4">Tick risk is highest in York Region (Vaughan, Kleinburg, King City, Richmond Hill, Markham), near the Oak Ridges Moraine, and along the Humber, Credit, and Don River corridors. Properties near conservation areas, ravines, or farmland edges in any GTA city benefit from professional tick treatment each season.</p>
+            <p className="text-gray-600">The tick spray is safe for children and pets 30 minutes after application. Many homeowners bundle mosquito and tick treatments for complete protection in one visit — ask about bundle pricing when you call.</p>
+          </div>
+
+          <div className="mt-10">
+            <h2 className="text-2xl font-extrabold text-brand-900 mb-4">Why GTA Homeowners Need Professional Mosquito &amp; Tick Control</h2>
             <p className="text-gray-600 mb-4">The Greater Toronto Area has one of the most extensive urban ravine and green corridor networks in North America. The Don Valley, Humber River, Highland Creek, Bronte Creek, and dozens of smaller tributaries create persistent, high-volume mosquito breeding habitat throughout the region. Neighbourhood properties adjacent to these corridors experience seasonal mosquito pressure that significantly exceeds what source reduction alone can address.</p>
-            <p className="text-gray-600">BuzzSkito's barrier spray creates a treated perimeter around your property — targeting the resting vegetation where mosquitoes spend most of their time — eliminating active populations and providing up to 30 days of residual protection per visit.</p>
+            <p className="text-gray-600">BuzzSkito's barrier spray creates a treated perimeter around your property — targeting the resting vegetation where mosquitoes and ticks spend most of their time — eliminating active populations and providing up to 30 days of residual protection per visit.</p>
           </div>
         </div>
       </section>
@@ -123,7 +138,7 @@ export default function MosquitoControlNearMePage() {
         </div>
       </section>
 
-      <CTASection heading="Find Mosquito Control Near You" subtext="Serving 19+ GTA cities. Free quotes. No contracts. Call or book online today." />
+      <CTASection heading="Find Mosquito &amp; Tick Control Near You" subtext="Serving 19+ GTA cities and York Region. Free quotes. No contracts. Call or book online today." />
     </>
   )
 }
