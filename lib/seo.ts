@@ -103,12 +103,6 @@ export function serviceSchema(opts: { name: string; description: string; slug: s
       validFrom: '2026-05-01',
       seller: { '@type': 'PestControlService', '@id': `${SITE_URL}/#business` },
     },
-    aggregateRating: {
-      '@type': 'AggregateRating',
-      ratingValue: BUSINESS.aggregateRating.ratingValue,
-      bestRating: BUSINESS.aggregateRating.bestRating,
-      ratingCount: BUSINESS.aggregateRating.ratingCount,
-    },
   }
 }
 
@@ -178,18 +172,13 @@ export function reviewSchema() {
     '@type': 'PestControlService',
     '@id': `${SITE_URL}/#business`,
     name: BUSINESS.legalName,
-    aggregateRating: {
-      '@type': 'AggregateRating',
-      ratingValue: BUSINESS.aggregateRating.ratingValue,
-      bestRating: BUSINESS.aggregateRating.bestRating,
-      ratingCount: BUSINESS.aggregateRating.ratingCount,
-    },
     review: reviews.map(({ author, rating, date, text }) => ({
       '@type': 'Review',
       author: { '@type': 'Person', name: author },
       reviewRating: { '@type': 'Rating', ratingValue: rating, bestRating: 5 },
       datePublished: date,
       reviewBody: text,
+      itemReviewed: { '@type': 'PestControlService', '@id': `${SITE_URL}/#business`, name: BUSINESS.legalName },
     })),
   }
 }
