@@ -28,6 +28,7 @@ const nextConfig = {
       // ── Home page duplicate ──────────────────────────────────────────────────
       { source: '/home', destination: '/', permanent: true },
       { source: '/BuzzSkito', destination: '/', permanent: true },
+      { source: '/buzzskito-history', destination: '/', permanent: true },
 
       // ── Old city/service slugs → correct new slugs ───────────────────────────
       { source: '/mosquito-mississauga',          destination: '/mosquito-control-sauga',        permanent: true },
@@ -85,8 +86,10 @@ const nextConfig = {
       { source: '/home/f/why-mosquitoes-love-mississauga',                       destination: '/mosquito-control-sauga', permanent: true },
       { source: '/f/the-mississauga-mosquito-mystery-why-your-backyard-has-ticks', destination: '/mosquito-control-sauga', permanent: true },
       { source: '/home/f/the-mississauga-mosquito-mystery-why-your-backyard-has-ticks', destination: '/mosquito-control-sauga', permanent: true },
-      { source: '/f/tick-control-services-in-mississauga---protect-your-family', destination: '/mississauga-tick-spray', permanent: true },
-      { source: '/home/f/tick-control-services-in-mississauga---protect-your-family', destination: '/mississauga-tick-spray', permanent: true },
+      { source: '/f/tick-control-services-in-mississauga---protect-your-family',          destination: '/mississauga-tick-spray', permanent: true },
+      { source: '/home/f/tick-control-services-in-mississauga---protect-your-family',     destination: '/mississauga-tick-spray', permanent: true },
+      { source: '/f/tick-control-services-in-mississauga-%E2%80%93-protect-your-family',  destination: '/mississauga-tick-spray', permanent: true },
+      { source: '/home/f/tick-control-services-in-mississauga-%E2%80%93-protect-your-family', destination: '/mississauga-tick-spray', permanent: true },
       { source: '/f/understanding-the-mosquito-problem-in-mississauga-and-the-gta', destination: '/mosquito-control-sauga', permanent: true },
       { source: '/home/f/understanding-the-mosquito-problem-in-mississauga-and-the-gta', destination: '/mosquito-control-sauga', permanent: true },
       { source: '/home/f/mosquito-control-in-port-credit-protect-your-backyard', destination: '/mosquito-control-sauga', permanent: true },
@@ -156,7 +159,8 @@ const nextConfig = {
       { source: '/home/f/5-mosquito-mistakes-gta-homeowners-make-every-summer',  destination: '/blog/how-to-prevent-mosquitoes-in-your-backyard', permanent: true },
 
       // ── Tick-specific content → tick service/blog ────────────────────────────
-      { source: '/f/tick-repellent-that-actually-works-in-ontario-yards-2025-update', destination: '/tick-control', permanent: true },
+      { source: '/f/tick-repellent-that-actually-works-in-ontario-yards-2025-update',      destination: '/tick-control', permanent: true },
+      { source: '/home/f/tick-repellent-that-actually-works-in-ontario-yards-2025-update', destination: '/tick-control', permanent: true },
       { source: '/f/tick-spray-for-yards-what-works-best-in-ontario-backyards',  destination: '/tick-control', permanent: true },
       { source: '/home/f/tick-spray-for-yards-what-works-best-in-ontario-backyards', destination: '/tick-control', permanent: true },
       { source: '/home/f/tick-repellent-for-lawns-in-ontario-everything-you-need-to-know', destination: '/tick-control', permanent: true },
