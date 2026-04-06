@@ -48,6 +48,10 @@ const FAQS = [
     question: 'Does BuzzSkito also do tick control in Toronto?',
     answer: "Yes. Toronto's ravine system harbours blacklegged ticks — Toronto Public Health has confirmed established tick populations in High Park, the Don Valley, and other green corridors. Many Toronto homeowners bundle mosquito and tick treatments for complete yard protection. See our Toronto tick control service for details.",
   },
+  {
+    question: 'How much does mosquito control cost in Toronto?',
+    answer: "A single professional mosquito treatment for a typical Toronto property (5,000–7,500 sq ft) runs $125–$200 per visit. A full season program (4–5 treatments from May to September) is $500–$800 for most Toronto homes. Properties near ravines with heavy mosquito pressure are on the higher end due to the need for thorough perimeter treatment. See our detailed 2026 Ontario pricing guide for a full breakdown by property size and service type.",
+  },
 ]
 
 export default function TorontoMosquitoPage() {
@@ -114,6 +118,36 @@ export default function TorontoMosquitoPage() {
               <span key={n} className="text-sm bg-brand-50 border border-brand-200 text-brand-700 px-3 py-1.5 rounded-full">{n}</span>
             ))}
           </div>
+
+          <h2>Toronto Mosquito Treatment Schedule</h2>
+          <p>For Toronto properties — especially ravine-adjacent ones — a 5-treatment season from May through September provides continuous protection. Here's the schedule we recommend:</p>
+          <div className="not-prose overflow-x-auto my-6">
+            <table className="w-full text-sm border-collapse">
+              <thead>
+                <tr className="bg-brand-800 text-white">
+                  <th className="px-4 py-2 text-left">Treatment</th>
+                  <th className="px-4 py-2 text-left">Timing</th>
+                  <th className="px-4 py-2 text-left">Focus</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  { t: 'Treatment 1', timing: 'Mid-May', focus: 'Season opener — establish barrier before ravine populations peak' },
+                  { t: 'Treatment 2', timing: 'Early June', focus: 'Pre-June 24 weekend — peak outdoor use begins, tick nymph overlap' },
+                  { t: 'Treatment 3', timing: 'Early July', focus: 'Peak season — highest ravine mosquito activity' },
+                  { t: 'Treatment 4', timing: 'Early August', focus: 'Late summer pressure, particularly along Don/Humber corridors' },
+                  { t: 'Treatment 5', timing: 'Early September', focus: 'Extended season — Toronto mosquitoes active well into fall' },
+                ].map(({ t, timing, focus }) => (
+                  <tr key={t} className="border-b border-gray-200 even:bg-gray-50">
+                    <td className="px-4 py-2 font-medium text-brand-700">{t}</td>
+                    <td className="px-4 py-2 text-gray-800">{timing}</td>
+                    <td className="px-4 py-2 text-gray-600">{focus}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p>Each treatment covers all vegetation on your property up to 10 feet high, with targeted coverage along ravine edges and fence lines. Protection lasts up to 30 days per visit. See our <Link href="/blog/mosquito-control-cost-ontario" className="text-brand-700 hover:underline">2026 mosquito control pricing guide</Link> for typical costs in the GTA.</p>
 
           <h2>What's Included in Our Toronto Mosquito Treatment</h2>
           <ul>

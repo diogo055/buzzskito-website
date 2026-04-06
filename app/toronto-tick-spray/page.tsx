@@ -41,6 +41,14 @@ const FAQS = [
     answer: "Yes. Our Health Canada–approved formula is designed for residential property use. We apply it to your property's vegetation — not to any municipal parkland or ravine. Once the product dries (approximately 30 minutes), it does not leach into nearby waterways or harm wildlife. We maintain buffer zones around any sensitive natural areas at your property edge.",
   },
   {
+    question: 'Is tick spray safe for children and pets?',
+    answer: "Yes. Our Health Canada–approved formula is safe for children and pets once dry — approximately 30 minutes after application. During application and while the product is wet, children and pets should stay indoors or away from the yard. Once dry, it does not rub off on skin or clothing and does not off-gas. We observe buffer zones around vegetable gardens and water features on every property we treat.",
+  },
+  {
+    question: 'Is tick spray safe for a yard where kids play?',
+    answer: "Absolutely. The 30-minute re-entry rule is the only restriction. After that, children can play on the grass, run through the yard, and use the outdoor space normally. The product remains on leaf surfaces and vegetation where ticks rest — not on grass blades at ground level where children play. Toronto parents with ravine-adjacent properties especially benefit from tick treatments, as ravine-edge yards carry the highest exposure risk for children playing outdoors.",
+  },
+  {
     question: 'Does BuzzSkito also provide mosquito control in Toronto?',
     answer: "Yes. Toronto's Don Valley, Humber River, and extensive ravine system also create significant mosquito pressure each season. Many Toronto homeowners bundle mosquito and tick treatments for complete yard protection. See our Toronto mosquito control service for details, or ask about seasonal bundle pricing when you call.",
   },
@@ -77,6 +85,71 @@ export default function TorontoTickSprayPage() {
           <h2>Ticks in Toronto: The Real Risk</h2>
           <p>Toronto Public Health conducts annual tick surveillance and has confirmed established blacklegged tick populations in High Park, the Don Valley, and other ravine-adjacent areas. Lyme disease is a reportable illness in Ontario, and confirmed case numbers have increased steadily as tick populations expand across Southern Ontario.</p>
           <p>The key insight for Toronto homeowners: ticks don't need a forest. They're found at the edge of any lawn that backs onto naturalized green space — including the thin strip of vegetation between a backyard fence and a ravine trail. If your property has any wooded edge, ravine view, or backs onto a park, annual tick treatment is a reasonable precaution.</p>
+
+          <h2>Toronto Tick Season: When Is the Risk Highest?</h2>
+          <p>Ticks don't disappear in winter — they go dormant and become active again whenever temperatures rise above 4°C. In Toronto's climate, this creates two active windows you need to protect against:</p>
+          <div className="not-prose overflow-x-auto my-6">
+            <table className="w-full text-sm border-collapse">
+              <thead>
+                <tr className="bg-amber-800 text-white">
+                  <th className="px-4 py-2 text-left">Period</th>
+                  <th className="px-4 py-2 text-left">Life Stage</th>
+                  <th className="px-4 py-2 text-left">Risk Level</th>
+                  <th className="px-4 py-2 text-left">Why It Matters</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  { period: 'March–April', stage: 'Adult ticks', risk: 'Moderate', why: 'First active period after winter dormancy' },
+                  { period: 'May–July', stage: 'Nymphs (peak season)', risk: 'Highest', why: 'Nymphs are poppy-seed sized — hard to see, most bites go undetected' },
+                  { period: 'August–September', stage: 'Nymphs + new adults', risk: 'High', why: 'Second wave — adults emerging for fall activity' },
+                  { period: 'October–November', stage: 'Adult ticks', risk: 'Moderate', why: 'Active until first hard frost; often overlooked' },
+                ].map(({ period, stage, risk, why }) => (
+                  <tr key={period} className="border-b border-gray-200 even:bg-gray-50">
+                    <td className="px-4 py-2 font-medium text-gray-800">{period}</td>
+                    <td className="px-4 py-2 text-gray-700">{stage}</td>
+                    <td className={`px-4 py-2 font-semibold ${risk === 'Highest' ? 'text-red-600' : risk === 'High' ? 'text-orange-600' : 'text-amber-600'}`}>{risk}</td>
+                    <td className="px-4 py-2 text-gray-600">{why}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p>The May–July nymph window is the most dangerous period for Lyme disease transmission in Ontario. Nymphs are the size of a poppy seed — often found and removed only after they've been attached long enough to transmit Lyme disease. A late May treatment specifically targets this peak window before nymph activity reaches its height.</p>
+
+          <h2>Is Tick Spray Safe for Children and Pets?</h2>
+          <p>This is the most common question we get from Toronto parents — and the answer is yes, with one simple rule: stay off the treated area for 30 minutes while the product dries.</p>
+          <p>The Health Canada–approved formula we use is a synthetic pyrethroid — a class of insecticides derived from the chrysanthemum plant. It's applied to vegetation (leaves, shrubs, fence lines) where ticks rest. Once dry, it does not rub off on skin or clothing and does not off-gas. Children playing on grass and pets running through the yard after the 30-minute drying period are not exposed to meaningful residue.</p>
+          <p>At BuzzSkito, we also observe buffer zones around vegetable gardens and avoid direct application to any water features, bird baths, or aquatic areas on your property. Our technician reviews these specifics before every treatment visit.</p>
+          <p>For full details, see our <Link href="/blog/is-mosquito-spray-safe-kids-pets" className="text-brand-700 hover:underline">guide to mosquito and tick spray safety for kids and pets</Link>.</p>
+
+          <h2>Toronto Tick Treatment Schedule</h2>
+          <p>Two targeted treatments cover the critical active windows for blacklegged ticks in Toronto:</p>
+          <div className="not-prose overflow-x-auto my-6">
+            <table className="w-full text-sm border-collapse">
+              <thead>
+                <tr className="bg-amber-800 text-white">
+                  <th className="px-4 py-2 text-left">Treatment</th>
+                  <th className="px-4 py-2 text-left">Timing</th>
+                  <th className="px-4 py-2 text-left">Target</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  { t: 'Treatment 1', timing: 'Late May – early June', target: 'Nymph peak — highest Lyme risk window in Ontario' },
+                  { t: 'Treatment 2', timing: 'August – early September', target: 'Adult tick emergence for fall active period' },
+                  { t: 'Treatment 3 (optional)', timing: 'Mid-July', target: 'High-pressure properties: ravine edge, Don/Humber zone' },
+                ].map(({ t, timing, target }) => (
+                  <tr key={t} className="border-b border-gray-200 even:bg-gray-50">
+                    <td className="px-4 py-2 font-medium text-amber-700">{t}</td>
+                    <td className="px-4 py-2 text-gray-800">{timing}</td>
+                    <td className="px-4 py-2 text-gray-600">{target}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p>Each treatment provides up to 30 days of residual protection. Many Toronto homeowners bundle tick and mosquito treatments — the same visit covers both, since ticks and mosquitoes rest on the same vegetation surfaces. See our <Link href="/toronto-mosquito-control" className="text-brand-700 hover:underline">Toronto mosquito control service</Link> for bundle pricing details.</p>
 
           <h2>Where Tick Risk Is Highest in Toronto</h2>
           <ul>
