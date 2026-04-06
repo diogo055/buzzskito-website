@@ -444,6 +444,16 @@ export const NEW_BLOGS_3 = [
   },
 ]
 
+export const NEW_BLOGS_4 = [
+  {
+    slug: 'mosquito-spray-companies-gta',
+    title: 'Mosquito Spray Companies in the GTA: What to Look For Before You Book (2026)',
+    excerpt: 'Not all mosquito spraying companies are the same. Here is what GTA homeowners should check before booking — Health Canada approval, guarantee policies, what lawn spraying actually involves, and red flags to avoid.',
+    date: '2026-05-02',
+    category: 'mosquito' as const,
+  },
+]
+
 // ── Season helpers ─────────────────────────────────────────────────────────────
 
 export const PEAK_SEASON = 'May through July'

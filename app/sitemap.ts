@@ -1,5 +1,5 @@
 import type { MetadataRoute } from 'next'
-import { SITE_URL, CITIES, MOSQUITO_BLOGS, TICK_BLOGS, NEW_BLOGS, NEW_BLOGS_2, NEW_BLOGS_3 } from '@/lib/constants'
+import { SITE_URL, CITIES, MOSQUITO_BLOGS, TICK_BLOGS, NEW_BLOGS, NEW_BLOGS_2, NEW_BLOGS_3, NEW_BLOGS_4 } from '@/lib/constants'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date().toISOString()
@@ -141,6 +141,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }))
 
+  // ── Keyword-gap blog posts (batch 4) ─────────────────────────────────────────
+  const newBlogs4: MetadataRoute.Sitemap = NEW_BLOGS_4.map((post) => ({
+    url: `${SITE_URL}/blog/${post.slug}`,
+    lastModified: new Date(post.date).toISOString(),
+    changeFrequency: 'monthly' as const,
+    priority: 0.8,
+  }))
+
   return [
     ...core,
     ...cityPages,
@@ -154,5 +162,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...newBlogs,
     ...newBlogs2,
     ...newBlogs3,
+    ...newBlogs4,
   ]
 }
