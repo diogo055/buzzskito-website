@@ -1,10 +1,33 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
-import { buildMetadata, breadcrumbSchema, blogPostingSchema } from '@/lib/seo'
+import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema } from '@/lib/seo'
 import { MOSQUITO_BLOGS, CITIES } from '@/lib/constants'
 
 const POST = MOSQUITO_BLOGS.supporting[3]
+
+const FAQS = [
+  {
+    question: 'Is West Nile Virus a risk in Ontario?',
+    answer: 'Yes. West Nile Virus has been present in Ontario since 2001 and is detected every year in GTA mosquito surveillance programs. Toronto Public Health, Peel Region Health, and other GTA health units conduct annual mosquito trapping and testing, confirming WNV-positive mosquito pools each season. Risk is highest in July and August when Culex mosquito populations peak.',
+  },
+  {
+    question: 'What are the symptoms of West Nile Virus?',
+    answer: 'About 80% of people infected with West Nile Virus experience no symptoms. Approximately 20% develop West Nile Fever — fever, headache, body aches, fatigue, and sometimes a skin rash. Less than 1% develop severe neurological illness including encephalitis or meningitis. Those at highest risk for severe illness are adults over 60 and people with compromised immune systems.',
+  },
+  {
+    question: 'Which mosquito species carries West Nile Virus in Ontario?',
+    answer: 'Culex mosquitoes — particularly Culex pipiens — are the primary West Nile Virus vectors in the GTA. These mosquitoes breed in stagnant water including catch basins, birdbaths, clogged gutters, and poorly draining areas. They are most active in the evening and night hours and peak in population during July and August.',
+  },
+  {
+    question: 'Does mosquito spray protect against West Nile Virus?',
+    answer: 'Professional barrier spray significantly reduces mosquito populations in and around your property, directly reducing your exposure to mosquitoes that may carry West Nile Virus. No method eliminates 100% of mosquitoes, but substantially reducing biting mosquito density in your immediate environment meaningfully lowers the probability of encountering an infected mosquito. Reducing standing water sources and using personal repellent (DEET, picaridin) when outdoors further reduces risk.',
+  },
+  {
+    question: 'When is West Nile Virus season in Ontario?',
+    answer: 'West Nile Virus risk in Ontario peaks in July and August, coinciding with peak Culex mosquito populations. Confirmed WNV activity in GTA surveillance programs typically begins in late June and declines after Labour Day as temperatures cool. This window overlaps with the period when outdoor activity is highest, making July and August the most important months for mosquito protection.',
+  },
+]
 
 export const metadata: Metadata = buildMetadata({
   title: 'West Nile Virus & Mosquito Risk in Ontario 2026 | BuzzSkito',
@@ -19,6 +42,7 @@ export default function WestNilePage() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: POST.title, description: POST.excerpt, slug: POST.slug, datePublished: POST.date })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'West Nile Virus Ontario', url: `/blog/${POST.slug}` }])) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
 
       <section className="bg-gradient-to-br from-brand-950 to-brand-800 text-white py-14 px-4">
         <div className="max-w-4xl mx-auto">
@@ -75,9 +99,29 @@ export default function WestNilePage() {
         <ul>
           <li><Link href={`/blog/${MOSQUITO_BLOGS.pillar.slug}`} className="text-brand-700 hover:underline">{MOSQUITO_BLOGS.pillar.title}</Link></li>
           <li><Link href="/blog/how-to-prevent-mosquitoes-in-your-backyard" className="text-brand-700 hover:underline">12 Ways to Prevent Mosquitoes in Your Backyard</Link></li>
+          <li><Link href="/blog/mosquito-season-gta-when-does-it-start" className="text-brand-700 hover:underline">When Does Mosquito Season Start in the GTA?</Link></li>
           <li><Link href="/mosquito-control" className="text-brand-700 hover:underline">BuzzSkito Mosquito Control Services</Link></li>
         </ul>
       </article>
+
+      <section className="py-10 px-4 bg-brand-50">
+        <div className="max-w-3xl mx-auto">
+          <h2 className="text-2xl font-extrabold text-brand-900 mb-6">Frequently Asked Questions</h2>
+          <div className="space-y-3">
+            {FAQS.map(({ question, answer }) => (
+              <details key={question} className="bg-white rounded-xl border border-brand-100 group">
+                <summary className="cursor-pointer px-5 py-4 font-semibold text-brand-900 list-none flex justify-between items-center">
+                  <span>{question}</span>
+                  <svg className="w-5 h-5 shrink-0 group-open:rotate-180 transition-transform text-brand-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                  </svg>
+                </summary>
+                <p className="px-5 pb-4 text-gray-600 text-sm">{answer}</p>
+              </details>
+            ))}
+          </div>
+        </div>
+      </section>
 
       <CTASection heading="Reduce Your Family's Mosquito Exposure This Season" subtext="Professional barrier spray significantly reduces mosquito populations in your yard. Free quote available." />
     </>

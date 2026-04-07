@@ -17,6 +17,10 @@ const TICK_SLUG = '/woodbridge-tick-spray'
 const NEIGHBOURHOODS = ['Islington Woods','Weston Downs','Pine Valley','Sonoma Heights','Vellore Village','East Woodbridge']
 const FAQS = [
   {
+    question: 'Do you provide mosquito control in Woodbridge and Kleinburg?',
+    answer: 'Yes. BuzzSkito serves all of Woodbridge including Islington Woods, Weston Downs, Pine Valley, Sonoma Heights, Vellore Village, and East Woodbridge. We also serve Kleinburg village and the surrounding rural properties along the Humber River. Call (289) 216-5030 to confirm service at your specific address.',
+  },
+  {
     question: 'Why is Islington Woods such a high-pressure mosquito area in Woodbridge?',
     answer: "Islington Woods backs directly onto the Humber River valley and is immediately adjacent to Boyd Conservation Area — two of Vaughan's most significant natural mosquito source areas. The neighbourhood's own mature tree canopy creates the cool, humid microclimate that adult mosquitoes prefer for resting, and the close proximity to the Humber River floodplain means that new adults are continuously emerging from the valley below throughout the season. Properties in Islington Woods typically see the earliest spring emergence and the longest active season of any Woodbridge neighbourhood.",
   },
@@ -27,6 +31,14 @@ const FAQS = [
   {
     question: 'Is professional barrier spray safe for my landscaped Woodbridge property?',
     answer: "Yes. Our Health Canada–approved, water-based barrier spray formula is applied as a fine mist to leaf surfaces on your vegetation and shrubs — it does not harm established trees, ornamental plants, or lawn turf. The product is safe for kids and pets to be on the treated area once the spray has dried, which typically takes 30 minutes under normal conditions. We take care around any pollinator garden areas and avoid spraying directly on open flowers. Our technicians are fully licensed and trained in urban residential applications.",
+  },
+  {
+    question: 'How many mosquito treatments does a Woodbridge property need per season?',
+    answer: 'For properties in Woodbridge — particularly those near Boyd Conservation Area, the Humber River, or Black Creek — we recommend 5 treatments from May through September, spaced 21–28 days apart. The proximity to Boyd Conservation Area and the Humber River valley means new mosquitoes are continuously emerging nearby, making consistent re-application important. Properties further from these corridors may be well-protected with 4 treatments.',
+  },
+  {
+    question: 'Does BuzzSkito provide tick control in Woodbridge as well?',
+    answer: 'Yes. Boyd Conservation Area and the Humber River valley in Woodbridge are established blacklegged tick habitat. Properties in Islington Woods that back onto the Boyd Conservation Area boundary carry meaningful tick risk throughout the active season (May through October). Many Woodbridge homeowners bundle mosquito and tick treatments — the same visit covers both for complete yard protection.',
   },
 ]
 

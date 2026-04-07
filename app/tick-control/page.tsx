@@ -3,7 +3,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import CTASection from '@/components/CTASection'
 import BlogCard from '@/components/BlogCard'
-import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema } from '@/lib/seo'
+import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { BUSINESS, CITIES, TICK_BLOGS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
@@ -33,6 +33,7 @@ export default function TickControlPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema({ name: 'Tick Control', description: 'Professional tick barrier spray service for residential lawns and properties across the Greater Toronto Area. Kills ticks at all life stages.', slug: '/tick-control' })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Tick Control', url: '/tick-control' }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema('/tick-control')) }} />
 
       {/* Hero */}
       <section className="bg-gradient-to-br from-brand-950 via-brand-900 to-amber-900 text-white py-16 px-4">

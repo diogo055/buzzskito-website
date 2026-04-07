@@ -1,10 +1,37 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
-import { buildMetadata, breadcrumbSchema, blogPostingSchema } from '@/lib/seo'
+import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema } from '@/lib/seo'
 import { MOSQUITO_BLOGS } from '@/lib/constants'
 
 const POST = MOSQUITO_BLOGS.supporting[0]
+
+const FAQS = [
+  {
+    question: 'When does mosquito season start in the GTA?',
+    answer: 'Mosquito season in the Greater Toronto Area typically begins in late April when temperatures consistently exceed 10°C. Activity ramps up through May and reaches its peak in June and July. The season runs through September, with activity declining as temperatures drop in early fall.',
+  },
+  {
+    question: 'What temperature do mosquitoes become active in Ontario?',
+    answer: 'Mosquitoes become active when air temperatures consistently reach or exceed 10°C. Below this threshold, adult mosquitoes cannot fly effectively and larval development slows dramatically. In the GTA, this typically occurs in late April, though a warm spring can trigger activity as early as the third week of April.',
+  },
+  {
+    question: 'What is the worst month for mosquitoes in Ontario?',
+    answer: 'June and July are the worst months for mosquitoes in Ontario and the GTA. Warm nights, frequent afternoon thunderstorms, and mature vegetation combine to create peak breeding conditions during these months. August remains highly active, with activity declining through September.',
+  },
+  {
+    question: 'When is the best time to start mosquito treatment in the GTA?',
+    answer: 'The best time to start mosquito treatment in the GTA is the first week of May — before populations peak. Acting early catches the first generation of adults before they breed, reducing the overall population through the season. Waiting until mosquitoes become noticeably bothersome (typically mid-June) means populations have already been building for weeks.',
+  },
+  {
+    question: 'When does mosquito season end in Ontario?',
+    answer: 'Mosquito season in Ontario effectively ends in late September to early October, when temperatures drop consistently below 10°C. Activity declines noticeably after Labour Day, though biting mosquitoes remain active through most of September. Homeowners who stop treatment in August often experience resurgent mosquito pressure through September.',
+  },
+  {
+    question: 'How many mosquito treatments do I need per season in the GTA?',
+    answer: 'For continuous protection through the GTA mosquito season, 5 treatments spaced 21–28 days apart is the recommended schedule: early May, late May/early June, late June/early July, late July/early August, and late August/early September. Properties near ravines, rivers, or wetlands benefit most from the full 5-treatment program.',
+  },
+]
 
 export const metadata: Metadata = buildMetadata({
   title: 'When Does Mosquito Season Start in the GTA? (2026 Guide) | BuzzSkito',
@@ -19,6 +46,7 @@ export default function MosquitoSeasonPage() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: POST.title, description: POST.excerpt, slug: POST.slug, datePublished: POST.date })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Mosquito Season GTA', url: `/blog/${POST.slug}` }])) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
 
       <section className="bg-gradient-to-br from-brand-950 to-brand-800 text-white py-14 px-4">
         <div className="max-w-4xl mx-auto">
@@ -112,9 +140,29 @@ export default function MosquitoSeasonPage() {
           <li><Link href={`/blog/${MOSQUITO_BLOGS.pillar.slug}`} className="text-brand-700 hover:underline">{MOSQUITO_BLOGS.pillar.title}</Link></li>
           <li><Link href="/blog/how-long-does-mosquito-spray-last" className="text-brand-700 hover:underline">How Long Does Mosquito Spray Last?</Link></li>
           <li><Link href="/blog/how-to-prevent-mosquitoes-in-your-backyard" className="text-brand-700 hover:underline">12 Ways to Prevent Mosquitoes in Your Backyard</Link></li>
+          <li><Link href="/blog/mosquito-spray-companies-gta" className="text-brand-700 hover:underline">Mosquito Spray Companies in the GTA: What to Look For</Link></li>
           <li><Link href="/mosquito-control" className="text-brand-700 hover:underline">View Our Mosquito Control Services</Link></li>
         </ul>
       </article>
+
+      <section className="py-10 px-4 bg-brand-50">
+        <div className="max-w-3xl mx-auto">
+          <h2 className="text-2xl font-extrabold text-brand-900 mb-6">Frequently Asked Questions</h2>
+          <div className="space-y-3">
+            {FAQS.map(({ question, answer }) => (
+              <details key={question} className="bg-white rounded-xl border border-brand-100 group">
+                <summary className="cursor-pointer px-5 py-4 font-semibold text-brand-900 list-none flex justify-between items-center">
+                  <span>{question}</span>
+                  <svg className="w-5 h-5 shrink-0 group-open:rotate-180 transition-transform text-brand-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                  </svg>
+                </summary>
+                <p className="px-5 pb-4 text-gray-600 text-sm">{answer}</p>
+              </details>
+            ))}
+          </div>
+        </div>
+      </section>
 
       <CTASection heading="Book Your 2026 Mosquito Season Treatment" subtext="Get your first treatment on the calendar now — before peak season hits." />
     </>

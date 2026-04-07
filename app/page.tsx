@@ -3,7 +3,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import CTASection from '@/components/CTASection'
 import BlogCard from '@/components/BlogCard'
-import { buildMetadata, localBusinessSchema, faqSchema, reviewSchema } from '@/lib/seo'
+import { buildMetadata, localBusinessSchema, faqSchema, reviewSchema, speakableSchema, websiteSchema } from '@/lib/seo'
 import { BUSINESS, CITIES, MOSQUITO_BLOGS, TICK_BLOGS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
@@ -46,6 +46,8 @@ export default function HomePage() {
       {/* Schemas */}
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(HOME_FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema()) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema()) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema('/')) }} />
 
       {/* ── Hero ────────────────────────────────────────────────────────── */}
       <section aria-label="Hero" className="relative bg-gradient-to-br from-brand-950 via-brand-900 to-brand-800 text-white overflow-hidden">

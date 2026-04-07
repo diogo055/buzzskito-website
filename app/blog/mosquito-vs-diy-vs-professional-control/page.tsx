@@ -1,10 +1,33 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
-import { buildMetadata, breadcrumbSchema, blogPostingSchema } from '@/lib/seo'
+import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema } from '@/lib/seo'
 import { MOSQUITO_BLOGS } from '@/lib/constants'
 
 const POST = MOSQUITO_BLOGS.supporting[2]
+
+const FAQS = [
+  {
+    question: 'Does professional mosquito spray actually work?',
+    answer: 'Yes. Professional barrier spray applied to vegetation and shrubs provides up to 30 days of residual mosquito reduction per treatment. Studies and field results consistently show 60–90%+ reduction in mosquito activity in treated areas, compared to 11–42% reduction from citronella candles in the immediate vicinity. The key difference is professional-grade active ingredient concentrations and the expertise to achieve thorough coverage of all resting sites.',
+  },
+  {
+    question: 'Is professional mosquito control worth it?',
+    answer: 'For homeowners who want to actually use their backyard during GTA mosquito season, yes. DIY methods — citronella, consumer foggers, DEET — either protect people individually without reducing yard-wide populations, or provide very short-term (1–7 day) reduction. Professional barrier spray treats the whole property for up to 30 days. A 5-treatment seasonal program costs $500–$800 for most GTA homes and delivers continuous protection from May through September.',
+  },
+  {
+    question: 'How effective are citronella candles against mosquitoes?',
+    answer: 'Citronella candles reduce mosquito landings by only 11–42% within approximately 1 metre of the flame. They have no residual effect and provide zero protection when unlit. They are best used as a supplement on a patio table while seated directly beside them — not as a yard-wide solution.',
+  },
+  {
+    question: 'Does DEET spray for yards work the same as professional mosquito spray?',
+    answer: 'DEET is a personal repellent applied to skin and clothing — it protects the person wearing it but does nothing to reduce mosquito populations in your yard. Professional barrier spray is applied to the vegetation where mosquitoes rest, killing them and providing residual protection for up to 30 days. They solve different problems: DEET prevents individual bites; professional spray reduces overall mosquito density in your outdoor space.',
+  },
+  {
+    question: 'How long does professional mosquito spray last compared to store-bought products?',
+    answer: 'Professional barrier spray lasts up to 30 days per application. Consumer yard foggers and hose-end sprays last 1–7 days depending on weather and conditions. The difference comes down to active ingredient concentration, adhesion chemistry that bonds the product to leaf surfaces, and thorough coverage by a trained technician who knows all the resting sites mosquitoes prefer.',
+  },
+]
 
 export const metadata: Metadata = buildMetadata({
   title: 'DIY vs. Professional Mosquito Control: What Works in Ontario | BuzzSkito',
@@ -19,6 +42,7 @@ export default function DIYvsProfessionalPage() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: POST.title, description: POST.excerpt, slug: POST.slug, datePublished: POST.date })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'DIY vs Professional Mosquito Control', url: `/blog/${POST.slug}` }])) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
 
       <section className="bg-gradient-to-br from-brand-950 to-brand-800 text-white py-14 px-4">
         <div className="max-w-4xl mx-auto">
@@ -72,10 +96,30 @@ export default function DIYvsProfessionalPage() {
         <ul>
           <li><Link href={`/blog/${MOSQUITO_BLOGS.pillar.slug}`} className="text-brand-700 hover:underline">{MOSQUITO_BLOGS.pillar.title}</Link></li>
           <li><Link href="/blog/how-long-does-mosquito-spray-last" className="text-brand-700 hover:underline">How Long Does Mosquito Spray Last?</Link></li>
-          <li><Link href="/blog/how-to-prevent-mosquitoes-in-your-backyard" className="text-brand-700 hover:underline">12 Ways to Prevent Mosquitoes in Your Backyard</Link></li>
+          <li><Link href="/blog/mosquito-control-cost-ontario" className="text-brand-700 hover:underline">How Much Does Mosquito Control Cost in Ontario?</Link></li>
+          <li><Link href="/blog/mosquito-spray-companies-gta" className="text-brand-700 hover:underline">Mosquito Spray Companies GTA: What to Look For</Link></li>
           <li><Link href="/mosquito-control" className="text-brand-700 hover:underline">BuzzSkito Mosquito Control Services</Link></li>
         </ul>
       </article>
+
+      <section className="py-10 px-4 bg-brand-50">
+        <div className="max-w-3xl mx-auto">
+          <h2 className="text-2xl font-extrabold text-brand-900 mb-6">Frequently Asked Questions</h2>
+          <div className="space-y-3">
+            {FAQS.map(({ question, answer }) => (
+              <details key={question} className="bg-white rounded-xl border border-brand-100 group">
+                <summary className="cursor-pointer px-5 py-4 font-semibold text-brand-900 list-none flex justify-between items-center">
+                  <span>{question}</span>
+                  <svg className="w-5 h-5 shrink-0 group-open:rotate-180 transition-transform text-brand-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                  </svg>
+                </summary>
+                <p className="px-5 pb-4 text-gray-600 text-sm">{answer}</p>
+              </details>
+            ))}
+          </div>
+        </div>
+      </section>
 
       <CTASection heading="Professional Mosquito Control That Actually Works" subtext="Free quote for your GTA property. No contracts, guaranteed results." />
     </>
