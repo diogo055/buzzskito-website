@@ -28,12 +28,11 @@ const nextConfig = {
       // ── Home page duplicate ──────────────────────────────────────────────────
       { source: '/home', destination: '/', permanent: true },
       { source: '/BuzzSkito', destination: '/', permanent: true },
-      { source: '/buzzskito-history', destination: '/', permanent: true },
 
       // ── Old city/service slugs → correct new slugs ───────────────────────────
-      { source: '/mosquito-mississauga',          destination: '/mosquito-control-sauga',        permanent: true },
-      { source: '/mississauga-mosquito',          destination: '/mosquito-control-sauga',        permanent: true },
-      { source: '/mississauga-protection',        destination: '/mosquito-control-sauga',        permanent: true },
+      { source: '/mosquito-mississauga',          destination: '/mississauga-mosquito-control',  permanent: true },
+      { source: '/mississauga-mosquito',          destination: '/mississauga-mosquito-control',  permanent: true },
+      { source: '/mississauga-protection',        destination: '/mississauga-mosquito-control',  permanent: true },
       { source: '/hamilton-protection',           destination: '/hamilton-mosquito-control',     permanent: true },
       { source: '/hamilton-mosquito-tick-control',destination: '/hamilton-mosquito-control',     permanent: true },
       { source: '/hamilton-mosquito-spray',       destination: '/hamilton-mosquito-control',     permanent: true },
@@ -79,20 +78,20 @@ const nextConfig = {
       { source: '/home/f/the-best-mosquito-control-for-your-backyard-in-toronto',destination: '/toronto-mosquito-control', permanent: true },
 
       // ── Mississauga content ──────────────────────────────────────────────────
-      { source: '/home/f/mosquito-control-in-mississauga---2025-guide',          destination: '/mosquito-control-sauga', permanent: true },
-      { source: '/home/f/mosquito-control-in-mississauga---2025-guide-1',        destination: '/mosquito-control-sauga', permanent: true },
-      { source: '/f/mosquito-season-in-mississauga-how-to-protect-your-home',    destination: '/mosquito-control-sauga', permanent: true },
-      { source: '/home/f/mosquito-season-in-mississauga-how-to-protect-your-home', destination: '/mosquito-control-sauga', permanent: true },
-      { source: '/home/f/why-mosquitoes-love-mississauga',                       destination: '/mosquito-control-sauga', permanent: true },
-      { source: '/f/the-mississauga-mosquito-mystery-why-your-backyard-has-ticks', destination: '/mosquito-control-sauga', permanent: true },
-      { source: '/home/f/the-mississauga-mosquito-mystery-why-your-backyard-has-ticks', destination: '/mosquito-control-sauga', permanent: true },
+      { source: '/home/f/mosquito-control-in-mississauga---2025-guide',          destination: '/mississauga-mosquito-control', permanent: true },
+      { source: '/home/f/mosquito-control-in-mississauga---2025-guide-1',        destination: '/mississauga-mosquito-control', permanent: true },
+      { source: '/f/mosquito-season-in-mississauga-how-to-protect-your-home',    destination: '/mississauga-mosquito-control', permanent: true },
+      { source: '/home/f/mosquito-season-in-mississauga-how-to-protect-your-home', destination: '/mississauga-mosquito-control', permanent: true },
+      { source: '/home/f/why-mosquitoes-love-mississauga',                       destination: '/mississauga-mosquito-control', permanent: true },
+      { source: '/f/the-mississauga-mosquito-mystery-why-your-backyard-has-ticks', destination: '/mississauga-mosquito-control', permanent: true },
+      { source: '/home/f/the-mississauga-mosquito-mystery-why-your-backyard-has-ticks', destination: '/mississauga-mosquito-control', permanent: true },
       { source: '/f/tick-control-services-in-mississauga---protect-your-family',          destination: '/mississauga-tick-spray', permanent: true },
       { source: '/home/f/tick-control-services-in-mississauga---protect-your-family',     destination: '/mississauga-tick-spray', permanent: true },
       { source: '/f/tick-control-services-in-mississauga-%E2%80%93-protect-your-family',  destination: '/mississauga-tick-spray', permanent: true },
       { source: '/home/f/tick-control-services-in-mississauga-%E2%80%93-protect-your-family', destination: '/mississauga-tick-spray', permanent: true },
-      { source: '/f/understanding-the-mosquito-problem-in-mississauga-and-the-gta', destination: '/mosquito-control-sauga', permanent: true },
-      { source: '/home/f/understanding-the-mosquito-problem-in-mississauga-and-the-gta', destination: '/mosquito-control-sauga', permanent: true },
-      { source: '/home/f/mosquito-control-in-port-credit-protect-your-backyard', destination: '/mosquito-control-sauga', permanent: true },
+      { source: '/f/understanding-the-mosquito-problem-in-mississauga-and-the-gta', destination: '/mississauga-mosquito-control', permanent: true },
+      { source: '/home/f/understanding-the-mosquito-problem-in-mississauga-and-the-gta', destination: '/mississauga-mosquito-control', permanent: true },
+      { source: '/home/f/mosquito-control-in-port-credit-protect-your-backyard', destination: '/mississauga-mosquito-control', permanent: true },
       { source: '/home/f/west-nile-tick-update---mississauga-aug-2025',          destination: '/blog/west-nile-virus-mosquito-risk-ontario', permanent: true },
 
       // ── Brampton content ─────────────────────────────────────────────────────
@@ -175,7 +174,7 @@ const nextConfig = {
       { source: '/home/f/top-5-reasons-you-need-buzzskito-for-a-safer-more-enjoyable-yard', destination: '/mosquito-control', permanent: true },
       { source: '/f/bloodsuckers-in-your-yard-kill-mosquitoes-ticks-for-good',   destination: '/mosquito-control', permanent: true },
       { source: '/home/f/bloodsuckers-in-your-yard-kill-mosquitoes-ticks-for-good', destination: '/mosquito-control', permanent: true },
-      { source: '/home/f/mosquito-control-near-me-in-ontario-what-to-do-and-who-to-trust', destination: '/mosquito-control', permanent: true },
+      { source: '/home/f/mosquito-control-near-me-in-ontario-what-to-do-and-who-to-trust', destination: '/mosquito-control-near-me', permanent: true },
       { source: '/home/f/rising-mosquito-tick-threats-why-gta-homeowners-need-buzzskito', destination: '/mosquito-control', permanent: true },
       { source: '/f/how-to-protect-your-family-from-mosquitoes-this-summer',     destination: '/mosquito-control', permanent: true },
       { source: '/home/f/how-to-protect-your-family-from-mosquitoes-this-summer', destination: '/mosquito-control', permanent: true },
@@ -203,8 +202,8 @@ const nextConfig = {
       { source: '/home/f/mosquito-vs-tick-biteshow-to-tell-the-difference-when-to-worry', destination: '/tick-control', permanent: true },
       { source: '/home/f/take-back-your-yard-the-guide-to-tick-mosquito-control', destination: '/mosquito-control', permanent: true },
       { source: '/home/f/mosquito-tick-control-in-the-gta-homes-need-a-year-round-strat', destination: '/mosquito-control', permanent: true },
-      { source: '/home/f/mississauga-brampton-mosquito-tick-treatment-the-gta-s-best', destination: '/mosquito-control-sauga', permanent: true },
-      { source: '/f/mississauga-brampton-mosquito-tick-treatment-the-gta-s-best', destination: '/mosquito-control-sauga', permanent: true },
+      { source: '/home/f/mississauga-brampton-mosquito-tick-treatment-the-gta-s-best', destination: '/mississauga-mosquito-control', permanent: true },
+      { source: '/f/mississauga-brampton-mosquito-tick-treatment-the-gta-s-best', destination: '/mississauga-mosquito-control', permanent: true },
       { source: '/home/f/southern-ontario-s-top-mosquito-tick-hotspots-are-you-at-risk', destination: '/mosquito-control', permanent: true },
 
       // ── URL canonicalization — clean slugs replace -1 variants ─────────────────

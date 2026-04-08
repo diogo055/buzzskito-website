@@ -454,6 +454,16 @@ export const NEW_BLOGS_4 = [
   },
 ]
 
+export const NEW_BLOGS_5 = [
+  {
+    slug: 'tick-bite-vs-mosquito-bite',
+    title: 'Tick Bite vs Mosquito Bite: How to Tell the Difference',
+    excerpt: 'Both leave a red mark — but the health risks are very different. What each bite looks like, when to watch for Lyme disease symptoms, and how to protect your yard.',
+    date: '2026-04-07',
+    category: 'tick' as const,
+  },
+]
+
 // ── Season helpers ─────────────────────────────────────────────────────────────
 
 export const PEAK_SEASON = 'May through July'
