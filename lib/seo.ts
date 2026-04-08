@@ -90,18 +90,16 @@ export function serviceSchema(opts: { name: string; description: string; slug: s
     name: opts.name,
     description: opts.description,
     url: `${SITE_URL}${opts.slug}`,
-    provider: { '@type': 'PestControlService', '@id': `${SITE_URL}/#business`, name: BUSINESS.legalName },
+    provider: { '@type': 'PestControlService', name: BUSINESS.legalName, url: SITE_URL },
     areaServed: opts.city
       ? { '@type': 'City', name: opts.city, addressRegion: 'ON', addressCountry: 'CA' }
       : { '@type': 'AdministrativeArea', name: 'Greater Toronto Area', addressRegion: 'ON' },
     serviceType: 'Pest Control',
-    termsOfService: `${SITE_URL}/terms-and-conditions`,
     offers: {
       '@type': 'Offer',
       priceCurrency: 'CAD',
       availability: 'https://schema.org/InStock',
-      validFrom: '2026-05-01',
-      seller: { '@type': 'PestControlService', '@id': `${SITE_URL}/#business` },
+      seller: { '@type': 'PestControlService', name: BUSINESS.legalName, url: SITE_URL },
     },
   }
 }
