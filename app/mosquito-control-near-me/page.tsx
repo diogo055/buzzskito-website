@@ -113,6 +113,12 @@ export default function MosquitoControlNearMePage() {
           </div>
 
           <div className="mt-10">
+            <h2 className="text-2xl font-extrabold text-brand-900 mb-4">Mosquito Removal &amp; Lawn Spraying Services Near You</h2>
+            <p className="text-gray-600 mb-4">Whether you call it mosquito removal, mosquito lawn spraying, yard fogging, or barrier spray — BuzzSkito provides the same professional-grade service: a residual insecticide mist applied to all vegetation on your property that eliminates mosquitoes on contact and keeps them away for up to 30 days. We serve all 19 GTA cities and can typically schedule within 3–5 business days.</p>
+            <p className="text-gray-600 mb-6">We also provide tick removal and tick yard treatment across the same service area. Many homeowners book mosquito and tick lawn spraying together for complete protection in a single visit.</p>
+          </div>
+
+          <div className="mt-4">
             <h2 className="text-2xl font-extrabold text-brand-900 mb-4">Why GTA Homeowners Need Professional Mosquito &amp; Tick Control</h2>
             <p className="text-gray-600 mb-4">The Greater Toronto Area has one of the most extensive urban ravine and green corridor networks in North America. The Don Valley, Humber River, Highland Creek, Bronte Creek, and dozens of smaller tributaries create persistent, high-volume mosquito breeding habitat throughout the region. Neighbourhood properties adjacent to these corridors experience seasonal mosquito pressure that significantly exceeds what source reduction alone can address.</p>
             <p className="text-gray-600">BuzzSkito's barrier spray creates a treated perimeter around your property — targeting the resting vegetation where mosquitoes and ticks spend most of their time — eliminating active populations and providing up to 30 days of residual protection per visit.</p>

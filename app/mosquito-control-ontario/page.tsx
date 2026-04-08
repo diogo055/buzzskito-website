@@ -112,7 +112,7 @@ export default function MosquitoControlOntarioPage() {
               <Link key={city.name} href={city.mosquitoSlug} className="text-sm bg-brand-50 border border-brand-200 text-brand-700 hover:bg-brand-700 hover:text-white px-3 py-1.5 rounded-full transition-colors font-medium">{city.name}</Link>
             ))}
           </div>
-          <p>Also serving <Link href="/york-region-mosquito-control" className="text-brand-700 hover:underline">all York Region communities</Link> including Kleinburg, Nobleton, and Schomberg. See our <Link href="/service-areas" className="text-brand-700 hover:underline">full service areas page</Link> for the complete list.</p>
+          <p>Also serving <Link href="/york-region-mosquito-control" className="text-brand-700 hover:underline">all York Region communities</Link> including Kleinburg, Nobleton, and Schomberg. See our <Link href="/service-areas" className="text-brand-700 hover:underline">full service areas page</Link> for the complete list, or see the <Link href="/tick-control-ontario" className="text-amber-700 hover:underline">Ontario tick control hub</Link>.</p>
 
           <h2>What&apos;s Included in Every Ontario Treatment</h2>
           <ul>

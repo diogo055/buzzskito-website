@@ -175,7 +175,7 @@ export default function TickControlPage() {
             ))}
           </div>
           <p className="mt-4 text-sm text-gray-500">
-            See all 19 cities on our <Link href="/service-areas" className="text-brand-700 underline">full service areas page</Link>.
+            See all 19 cities on our <Link href="/service-areas" className="text-brand-700 underline">full service areas page</Link>, or view the <Link href="/tick-control-ontario" className="text-amber-700 underline">Ontario tick control overview</Link>.
           </p>
         </div>
       </section>

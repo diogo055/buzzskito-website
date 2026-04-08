@@ -7,7 +7,7 @@ import { BUSINESS, MOSQUITO_BLOGS, TICK_BLOGS } from '@/lib/constants'
 export const metadata: Metadata = buildMetadata({
   title: 'Mosquito Control Oakville | BuzzSkito – Free Quotes',
   description:
-    'Professional mosquito control spray in Oakville. Serving Glen Abbey, Bronte, Joshua Creek, West Oak Trails, Old Oakville & all Oakville neighbourhoods. Up to 30-day protection. Call (289) 216-5030.',
+    'Professional mosquito control service in Oakville. Serving Glen Abbey, Bronte, Joshua Creek, West Oak Trails, Old Oakville & all Oakville neighbourhoods. Up to 30-day protection. Call (289) 216-5030.',
   canonical: '/oakville-mosquito-control',
 })
 
