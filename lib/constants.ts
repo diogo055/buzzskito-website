@@ -464,6 +464,16 @@ export const NEW_BLOGS_5 = [
   },
 ]
 
+export const NEW_BLOGS_6 = [
+  {
+    slug: 'tick-prevention-yard-ontario-safe-for-kids',
+    title: 'Tick Prevention in Your Yard: Ontario Safe-for-Kids Guide (2026)',
+    excerpt: 'How to make your Ontario backyard safe from ticks — yard modifications, DIY measures, and professional barrier spray safe for children and pets. For families across the GTA.',
+    date: '2026-04-07',
+    category: 'tick' as const,
+  },
+]
+
 // ── Season helpers ─────────────────────────────────────────────────────────────
 
 export const PEAK_SEASON = 'May through July'

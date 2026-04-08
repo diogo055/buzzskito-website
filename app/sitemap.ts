@@ -1,5 +1,5 @@
 import type { MetadataRoute } from 'next'
-import { SITE_URL, CITIES, MOSQUITO_BLOGS, TICK_BLOGS, NEW_BLOGS, NEW_BLOGS_2, NEW_BLOGS_3, NEW_BLOGS_4, NEW_BLOGS_5 } from '@/lib/constants'
+import { SITE_URL, CITIES, MOSQUITO_BLOGS, TICK_BLOGS, NEW_BLOGS, NEW_BLOGS_2, NEW_BLOGS_3, NEW_BLOGS_4, NEW_BLOGS_5, NEW_BLOGS_6 } from '@/lib/constants'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date().toISOString()
@@ -37,6 +37,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE_URL}/how-it-works`,                    lastModified: now, changeFrequency: 'monthly' as const, priority: 0.8 },
     { url: `${SITE_URL}/commercial-mosquito-control`,     lastModified: now, changeFrequency: 'monthly' as const, priority: 0.8 },
     { url: `${SITE_URL}/mosquito-control-near-me`,        lastModified: now, changeFrequency: 'monthly' as const, priority: 0.8 },
+    { url: `${SITE_URL}/mosquito-control-ontario`,        lastModified: now, changeFrequency: 'monthly' as const, priority: 0.9 },
     { url: `${SITE_URL}/york-region-mosquito-control`,    lastModified: now, changeFrequency: 'monthly' as const, priority: 0.8 },
     { url: `${SITE_URL}/kleinburg-mosquito-control`,      lastModified: now, changeFrequency: 'monthly' as const, priority: 0.8 },
   ]
@@ -159,6 +160,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }))
 
+  // ── Keyword-gap blog posts (batch 6) ─────────────────────────────────────────
+  const newBlogs6: MetadataRoute.Sitemap = NEW_BLOGS_6.map((post) => ({
+    url: `${SITE_URL}/blog/${post.slug}`,
+    lastModified: new Date(post.date).toISOString(),
+    changeFrequency: 'monthly' as const,
+    priority: 0.8,
+  }))
+
   return [
     ...core,
     ...cityPages,
@@ -174,5 +183,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...newBlogs3,
     ...newBlogs4,
     ...newBlogs5,
+    ...newBlogs6,
   ]
 }

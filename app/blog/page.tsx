@@ -1,8 +1,8 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import BlogCard from '@/components/BlogCard'
-import { buildMetadata, breadcrumbSchema } from '@/lib/seo'
-import { MOSQUITO_BLOGS, TICK_BLOGS, NEW_BLOGS, NEW_BLOGS_2, NEW_BLOGS_3, NEW_BLOGS_4, NEW_BLOGS_5 } from '@/lib/constants'
+import { buildMetadata, breadcrumbSchema, speakableSchema } from '@/lib/seo'
+import { MOSQUITO_BLOGS, TICK_BLOGS, NEW_BLOGS, NEW_BLOGS_2, NEW_BLOGS_3, NEW_BLOGS_4, NEW_BLOGS_5, NEW_BLOGS_6 } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
   title: 'Mosquito & Tick Control Blog | Expert GTA Guides – BuzzSkito',
@@ -15,6 +15,7 @@ export default function BlogIndexPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }])) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema('/blog')) }} />
 
       <section className="bg-gradient-to-br from-brand-950 to-brand-800 text-white py-14 px-4">
         <div className="max-w-4xl mx-auto">
@@ -79,7 +80,7 @@ export default function BlogIndexPage() {
           </div>
           <p className="text-gray-500 text-sm mb-8 max-w-2xl">Local mosquito and tick guides for specific GTA cities, neighbourhoods, and property types — covering real landmarks, waterways, and risk zones.</p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {[...NEW_BLOGS, ...NEW_BLOGS_2, ...NEW_BLOGS_3, ...NEW_BLOGS_4, ...NEW_BLOGS_5].map((post) => (
+            {[...NEW_BLOGS, ...NEW_BLOGS_2, ...NEW_BLOGS_3, ...NEW_BLOGS_4, ...NEW_BLOGS_5, ...NEW_BLOGS_6].map((post) => (
               <BlogCard key={post.slug} {...post} />
             ))}
           </div>

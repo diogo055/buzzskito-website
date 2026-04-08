@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
-import { buildMetadata, breadcrumbSchema } from '@/lib/seo'
+import { buildMetadata, breadcrumbSchema, speakableSchema } from '@/lib/seo'
 import { CITIES } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
@@ -18,6 +18,7 @@ export default function ServiceAreasPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Service Areas', url: '/service-areas' }])) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema('/service-areas')) }} />
 
       {/* Hero */}
       <section className="bg-gradient-to-br from-brand-950 to-brand-800 text-white py-14 px-4">
@@ -138,6 +139,9 @@ export default function ServiceAreasPage() {
               <ul className="space-y-1.5">
                 <li><Link href="/mosquito-control" className="text-brand-700 hover:underline">Mosquito Control Hub</Link></li>
                 <li><Link href="/tick-control" className="text-brand-700 hover:underline">Tick Control Hub</Link></li>
+                <li><Link href="/mosquito-control-ontario" className="text-brand-700 hover:underline">Ontario Coverage Hub</Link></li>
+                <li><Link href="/york-region-mosquito-control" className="text-brand-700 hover:underline">York Region Hub</Link></li>
+                <li><Link href="/kleinburg-mosquito-control" className="text-brand-700 hover:underline">Kleinburg Mosquito Control</Link></li>
                 <li><Link href="/contact" className="text-brand-700 hover:underline">Get a Free Quote</Link></li>
                 <li><Link href="/frequently-asked-question" className="text-brand-700 hover:underline">FAQ</Link></li>
                 <li><Link href="/blog" className="text-brand-700 hover:underline">Pest Control Blog</Link></li>

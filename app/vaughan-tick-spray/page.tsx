@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
-import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusinessSchema } from '@/lib/seo'
+import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusinessSchema, speakableSchema } from '@/lib/seo'
 import { BUSINESS, TICK_BLOGS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
@@ -26,6 +26,22 @@ const FAQS = [
     question: 'How many tick treatments does a Vaughan property need per year?',
     answer: 'BuzzSkito recommends two treatments per season for most Vaughan properties: one in late May or early June targeting spring nymphs (the smallest and most dangerous life stage for Lyme disease transmission), and one in August or September targeting fall adult ticks. Each treatment provides up to 30 days of protection.',
   },
+  {
+    question: 'Is tick spray safe for my family and pets in Vaughan?',
+    answer: 'Yes. Our Health Canada–approved barrier spray is safe for children and pets once the product has dried — approximately 30 minutes after application. Ontario technicians are licensed under the Pesticides Act and use water-based formulas registered specifically for residential use. After the 30-minute drying window, your yard is fully safe for outdoor activity with complete tick protection active.',
+  },
+  {
+    question: 'What does BuzzSkito actually treat on my Vaughan property for ticks?',
+    answer: 'Ticks concentrate at specific micro-habitats — not randomly across open lawn. We treat the 1–3 metre transition zone between your maintained lawn and any natural vegetation, garden bed edges, leaf litter areas, fence lines, under-deck surfaces, woodpile surroundings, and dense ornamental plantings. For Vaughan properties near the Humber River or Boyd, we pay particular attention to the property boundary facing the natural corridor.',
+  },
+  {
+    question: 'Do ticks in Vaughan carry Lyme disease?',
+    answer: 'Yes. Blacklegged ticks (deer ticks) in Vaughan and across York Region are known to carry Borrelia burgdorferi, the bacterium that causes Lyme disease. York Region Public Health conducts passive tick surveillance and has confirmed Lyme-carrying ticks in the Boyd Conservation Area and surrounding corridors. Ontario Lyme disease case numbers have increased annually, with York Region reporting cases every year. The risk is real and present in residential Vaughan neighbourhoods, not just remote trails.',
+  },
+  {
+    question: 'Should Kleinburg homeowners be especially concerned about ticks?',
+    answer: 'Yes. Kleinburg sits at the northern edge of the Oak Ridges Moraine — one of Ontario\'s most significant tick activity corridors — and is threaded by the Humber River valley. Estate properties in Kleinburg back directly onto forested ravine systems with established deer populations that distribute ticks year-round. The village\'s older tree canopy, combined with its conservation land adjacency, creates some of the highest residential tick exposure in Vaughan. We offer dedicated service to all Kleinburg addresses — see our Kleinburg mosquito control page for related coverage.',
+  },
 ]
 
 export default function VaughanTickPage() {
@@ -35,6 +51,7 @@ export default function VaughanTickPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema({ name: `Tick Spray ${CITY}`, description: `Professional tick barrier spray service in ${CITY}, Ontario. Kills ticks at all life stages.`, slug: '/vaughan-tick-spray', city: CITY })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Tick Control', url: '/tick-control' }, { name: CITY, url: '/vaughan-tick-spray' }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema('/vaughan-tick-spray')) }} />
 
       <section className="bg-gradient-to-br from-brand-950 via-brand-900 to-amber-900 text-white py-16 px-4">
         <div className="max-w-4xl mx-auto">
