@@ -94,7 +94,9 @@ export default function TickControlRichmondHillMarkhamPage() {
         <h2>Related Guides and Services</h2>
         <ul>
           <li><Link href="/richmond-hill-tick-spray" className="text-brand-700 hover:underline">Richmond Hill Tick Control Service</Link></li>
+          <li><Link href="/richmond-hill-mosquito-control" className="text-brand-700 hover:underline">Richmond Hill Mosquito Control Service</Link></li>
           <li><Link href="/markham-tick-spray" className="text-brand-700 hover:underline">Markham Tick Control Service</Link></li>
+          <li><Link href="/markham-mosquito-control" className="text-brand-700 hover:underline">Markham Mosquito Control Service</Link></li>
           <li><Link href="/thornhill-tick-spray" className="text-brand-700 hover:underline">Thornhill Tick Control Service</Link></li>
           <li><Link href="/tick-control" className="text-brand-700 hover:underline">All GTA Tick Control Services</Link></li>
           <li><Link href={`/blog/${TICK_BLOGS.pillar.slug}`} className="text-brand-700 hover:underline">{TICK_BLOGS.pillar.title}</Link></li>

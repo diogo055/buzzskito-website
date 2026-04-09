@@ -100,6 +100,8 @@ export default function MosquitoControlVaughanPage() {
 
         <h2>Related Guides and Services</h2>
         <ul>
+          <li><Link href="/vaughan-mosquito-control" className="text-brand-700 hover:underline">Vaughan Mosquito Control Service</Link></li>
+          <li><Link href="/vaughan-tick-spray" className="text-brand-700 hover:underline">Vaughan Tick Control Service</Link></li>
           <li><Link href="/woodbridge-mosquito-control" className="text-brand-700 hover:underline">Woodbridge Mosquito Control</Link></li>
           <li><Link href="/thornhill-mosquito-control" className="text-brand-700 hover:underline">Thornhill Mosquito Control</Link></li>
           <li><Link href="/king-city-mosquito-control" className="text-brand-700 hover:underline">King City Mosquito Control</Link></li>

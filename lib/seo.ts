@@ -206,13 +206,30 @@ export function websiteSchema() {
     description: BUSINESS.description,
     inLanguage: 'en-CA',
     publisher: { '@type': 'PestControlService', '@id': `${SITE_URL}/#business` },
-    potentialAction: {
-      '@type': 'SearchAction',
-      target: {
-        '@type': 'EntryPoint',
-        urlTemplate: `${SITE_URL}/search?q={search_term_string}`,
-      },
-      'query-input': 'required name=search_term_string',
+  }
+}
+
+export function organizationSchema() {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    '@id': `${SITE_URL}/#organization`,
+    name: BUSINESS.legalName,
+    url: SITE_URL,
+    logo: {
+      '@type': 'ImageObject',
+      url: `${SITE_URL}/logo.png`,
+      width: 300,
+      height: 100,
     },
+    contactPoint: {
+      '@type': 'ContactPoint',
+      telephone: BUSINESS.phone,
+      contactType: 'customer service',
+      areaServed: 'CA-ON',
+      availableLanguage: 'English',
+    },
+    sameAs: [BUSINESS.facebookUrl],
+    subOrganization: { '@type': 'PestControlService', '@id': `${SITE_URL}/#business` },
   }
 }

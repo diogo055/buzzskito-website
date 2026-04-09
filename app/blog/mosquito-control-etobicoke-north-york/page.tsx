@@ -94,6 +94,10 @@ export default function MosquitoControlEtobicokePage() {
 
         <h2>Related Guides and Services</h2>
         <ul>
+          <li><Link href="/etobicoke-mosquito-control" className="text-brand-700 hover:underline">Etobicoke Mosquito Control Service</Link></li>
+          <li><Link href="/etobicoke-tick-spray" className="text-brand-700 hover:underline">Etobicoke Tick Control Service</Link></li>
+          <li><Link href="/north-york-mosquito-control" className="text-brand-700 hover:underline">North York Mosquito Control Service</Link></li>
+          <li><Link href="/north-york-tick-spray" className="text-brand-700 hover:underline">North York Tick Control Service</Link></li>
           <li><Link href="/toronto-mosquito-control" className="text-brand-700 hover:underline">Toronto Mosquito Control</Link></li>
           <li><Link href="/mosquito-control" className="text-brand-700 hover:underline">All GTA Mosquito Control Services</Link></li>
           <li><Link href="/tick-control" className="text-brand-700 hover:underline">All GTA Tick Control Services</Link></li>
