@@ -7,8 +7,9 @@ import { TICK_BLOGS } from '@/lib/constants'
 const POST = TICK_BLOGS.supporting[4]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'When Are Ticks Active in Ontario? Seasonal Calendar 2026 | BuzzSkito',
-  description: 'Month-by-month tick activity levels in Ontario, peak Lyme disease risk windows, and when to schedule your two professional tick treatments for maximum protection.',
+  title: 'When Are Ticks Active in Ontario? | 2026 | BuzzSkito',
+  description:
+    'Month-by-month tick activity in Ontario. Peak Lyme disease risk windows, when to treat, and seasonal prevention tips.',
   canonical: `/blog/${POST.slug}`,
   type: 'article',
   publishedTime: POST.date,

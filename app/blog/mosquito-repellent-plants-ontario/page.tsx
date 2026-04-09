@@ -7,8 +7,9 @@ import { NEW_BLOGS_2, MOSQUITO_BLOGS } from '@/lib/constants'
 const POST = NEW_BLOGS_2[0]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Best Mosquito-Repelling Plants for Ontario Gardens (2026) | BuzzSkito',
-  description: 'Lavender, citronella grass, basil, and 7 other plants that reduce mosquito pressure in Ontario backyards — plus how to combine them with professional barrier spray for season-long results.',
+  title: 'Mosquito-Repelling Plants Ontario | 2026 | BuzzSkito',
+  description:
+    'Best mosquito-repelling plants for Ontario gardens — lavender, citronella grass, basil & more. What works in 2026.',
   canonical: `/blog/${POST.slug}`,
   type: 'article',
   publishedTime: POST.date,

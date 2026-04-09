@@ -7,8 +7,9 @@ import { NEW_BLOGS_4 } from '@/lib/constants'
 const POST = NEW_BLOGS_4[0]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Mosquito Spray Companies in the GTA: What to Look For Before You Book | BuzzSkito',
-  description: 'Not all mosquito spraying companies are equal. Before you book GTA mosquito lawn spraying, check these 7 things: Health Canada approval, what the spray actually covers, guarantee policies, and red flags to avoid.',
+  title: 'Mosquito Spray Companies GTA | Guide | BuzzSkito',
+  description:
+    'How to choose a mosquito spray company in the GTA. What to ask, red flags to avoid, and what good service looks like.',
   canonical: `/blog/${POST.slug}`,
   type: 'article',
   publishedTime: POST.date,

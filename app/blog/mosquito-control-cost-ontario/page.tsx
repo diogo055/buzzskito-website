@@ -7,9 +7,9 @@ import { NEW_BLOGS_3, MOSQUITO_BLOGS } from '@/lib/constants'
 const POST = NEW_BLOGS_3[0]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'How Much Does Mosquito Control Cost in Ontario? (2026 Pricing Guide) | BuzzSkito',
+  title: 'Mosquito Control Cost Ontario | 2026 Guide | BuzzSkito',
   description:
-    'Transparent 2026 pricing for professional mosquito barrier spray in Ontario — one-time treatments, seasonal packages, and what affects cost. GTA homeowner pricing guide.',
+    'How much does mosquito control cost in Ontario? 2026 pricing from $99. Compare treatment options and get a quote.',
   canonical: `/blog/${POST.slug}`,
   type: 'article',
   publishedTime: POST.date,

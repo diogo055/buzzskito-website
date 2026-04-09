@@ -5,9 +5,9 @@ import { buildMetadata, breadcrumbSchema, faqSchema, blogPostingSchema, speakabl
 import { BUSINESS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Tick Prevention in Your Yard: Ontario Safe-for-Kids Guide (2026)',
+  title: 'Tick Prevention Yard Ontario | Safe for Kids | BuzzSkito',
   description:
-    'How to make your Ontario backyard safe from ticks — safe-for-kids yard treatments, DIY prevention, and professional barrier spray that eliminates ticks without harming children or pets. GTA homeowner guide.',
+    'How to make your Ontario backyard safe from ticks. Kid-safe yard treatment strategies, prevention tips. From $99.',
   canonical: '/blog/tick-prevention-yard-ontario-safe-for-kids',
 })
 

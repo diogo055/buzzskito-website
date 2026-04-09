@@ -5,7 +5,7 @@ import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusines
 import { BUSINESS, MOSQUITO_BLOGS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Mosquito Control Etobicoke | BuzzSkito – Humber River to Lakeshore Protection',
+  title: 'Mosquito Control Etobicoke | From $99 | BuzzSkito',
   description:
     'Mosquito control in Etobicoke, Toronto. Barrier spray near Humber River from $99. Health Canada-approved. Call (289) 216-5030.',
   canonical: '/etobicoke-mosquito-control',

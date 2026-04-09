@@ -8,7 +8,8 @@ const POST = TICK_BLOGS.supporting[0]
 
 export const metadata: Metadata = buildMetadata({
   title: 'Lyme Disease Prevention in Ontario: A Homeowner\'s Complete Guide | BuzzSkito',
-  description: 'Ontario Lyme disease risk zones, blacklegged tick lifecycle, prevention strategies for your yard, and what to do after a tick bite — for GTA and Southern Ontario homeowners.',
+  description:
+    'Ontario Lyme disease risk zones, blacklegged tick info, prevention tips, and professional yard treatment options.',
   canonical: `/blog/${POST.slug}`,
   type: 'article',
   publishedTime: POST.date,

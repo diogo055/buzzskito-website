@@ -7,7 +7,7 @@ import { CITIES } from '@/lib/constants'
 export const metadata: Metadata = buildMetadata({
   title: 'Mosquito & Tick Control Service Areas – GTA | BuzzSkito',
   description:
-    'BuzzSkito serves 19 cities across the GTA with professional mosquito and tick control. Mississauga, Toronto, Brampton, Oakville, Burlington, Vaughan, Richmond Hill, Markham, and more.',
+    'BuzzSkito serves 19 GTA cities with mosquito & tick control. From $99/treatment. Find your city and get a free quote.',
   canonical: '/service-areas',
 })
 

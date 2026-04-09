@@ -5,7 +5,7 @@ import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusines
 import { BUSINESS, MOSQUITO_BLOGS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Mosquito Control Georgetown | BuzzSkito – Credit River to Silver Creek Protection',
+  title: 'Mosquito Control Georgetown | From $99 | BuzzSkito',
   description:
     'Mosquito control in Georgetown, Halton Hills. Professional barrier spray from $99. No contracts. Call (289) 216-5030.',
   canonical: '/georgetown-mosquito-control',

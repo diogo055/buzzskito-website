@@ -7,7 +7,7 @@ import { NEW_BLOGS, TICK_BLOGS, MOSQUITO_BLOGS } from '@/lib/constants'
 const POST = NEW_BLOGS[1]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Tick Control in Richmond Hill & Markham: Oak Ridges Moraine Risk | BuzzSkito',
+  title: 'Tick Control Richmond Hill & Markham | BuzzSkito',
   description:
     "The Oak Ridges Moraine runs through Richmond Hill and Markham. Here's what homeowners near Lake Wilcox, Mill Pond, and Rouge National Urban Park need to know about tick risk.",
   canonical: `/blog/${POST.slug}`,

@@ -7,7 +7,7 @@ import { NEW_BLOGS, TICK_BLOGS } from '@/lib/constants'
 const POST = NEW_BLOGS[4]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Tick Prevention in Caledon & Halton Hills: Rural Property Guide | BuzzSkito',
+  title: 'Tick Prevention Caledon & Halton Hills | BuzzSkito',
   description:
     "Rural Caledon and Halton Hills homeowners face some of Ontario's highest tick activity rates. This guide covers specific risks, hotspots on the Oak Ridges Moraine and Niagara Escarpment, and professional solutions.",
   canonical: `/blog/${POST.slug}`,

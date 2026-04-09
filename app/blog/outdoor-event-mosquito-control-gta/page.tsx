@@ -7,7 +7,7 @@ import { NEW_BLOGS_3, MOSQUITO_BLOGS } from '@/lib/constants'
 const POST = NEW_BLOGS_3[1]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Outdoor Event Mosquito Control GTA: Weddings, Parties & Backyard Gatherings | BuzzSkito',
+  title: 'Outdoor Event Mosquito Control GTA | BuzzSkito',
   description:
     'Book a pre-event barrier spray for your GTA backyard wedding, graduation, or party. One treatment keeps mosquitoes away for 21–30 days — here\'s exactly how to time it.',
   canonical: `/blog/${POST.slug}`,

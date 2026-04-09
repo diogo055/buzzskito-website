@@ -7,9 +7,9 @@ import { NEW_BLOGS_3, MOSQUITO_BLOGS } from '@/lib/constants'
 const POST = NEW_BLOGS_3[3]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Natural & Eco-Friendly Mosquito Control in Ontario: What Works in 2026 | BuzzSkito',
+  title: 'Natural Mosquito Control Ontario | 2026 | BuzzSkito',
   description:
-    'Garlic sprays, essential oils, BTi dunks, plant-based barriers — an honest breakdown of natural mosquito control options for Ontario homeowners and when professional treatment beats DIY.',
+    'Natural mosquito control options in Ontario — garlic sprays, essential oils, BTi dunks & plant-based barriers reviewed.',
   canonical: `/blog/${POST.slug}`,
   type: 'article',
   publishedTime: POST.date,

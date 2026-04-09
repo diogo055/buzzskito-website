@@ -7,7 +7,7 @@ import { NEW_BLOGS_3, TICK_BLOGS, MOSQUITO_BLOGS } from '@/lib/constants'
 const POST = NEW_BLOGS_3[4]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Tick Control in Ancaster & Dundas: Escarpment Edge Risk Guide | BuzzSkito',
+  title: 'Tick Control Ancaster & Dundas | Hamilton | BuzzSkito',
   description:
     "Ancaster and Dundas sit at the base of the Niagara Escarpment — Ontario's most active tick corridor. Professional tick spray for Hamilton's most at-risk suburbs. Free quotes.",
   canonical: `/blog/${POST.slug}`,

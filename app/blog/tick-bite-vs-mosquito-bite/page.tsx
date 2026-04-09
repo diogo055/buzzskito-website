@@ -8,9 +8,9 @@ const SLUG = 'tick-bite-vs-mosquito-bite'
 const DATE = '2026-04-07'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Tick Bite vs Mosquito Bite: How to Tell the Difference | BuzzSkito',
+  title: 'Tick Bite vs Mosquito Bite | How to Tell | BuzzSkito',
   description:
-    'Tick bite vs mosquito bite — what does each look like, what are the symptoms to watch for, and when should you see a doctor? Ontario homeowner guide with photos and warning signs for Lyme disease.',
+    'Tick bite vs mosquito bite — how to tell the difference, symptoms to watch for, and when to see a doctor.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,

@@ -30,8 +30,9 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'DIY vs. Professional Mosquito Control: What Works in Ontario | BuzzSkito',
-  description: 'Honest comparison of citronella, DEET, consumer yard foggers, and professional barrier spray for Ontario homeowners. Which actually reduces mosquito populations?',
+  title: 'DIY vs Professional Mosquito Control | BuzzSkito',
+  description:
+    'DIY vs professional mosquito control in Ontario. Honest comparison of citronella, foggers, and barrier spray.',
   canonical: `/blog/${POST.slug}`,
   type: 'article',
   publishedTime: POST.date,

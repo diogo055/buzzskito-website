@@ -5,7 +5,7 @@ import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusines
 import { BUSINESS, MOSQUITO_BLOGS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Mosquito Control Caledon | BuzzSkito – Rural Property Mosquito Spray',
+  title: 'Mosquito Control Caledon | From $99 | BuzzSkito',
   description:
     'Mosquito control in Caledon, ON. Professional barrier spray from $99. Health Canada-approved. No contracts. Call (289) 216-5030.',
   canonical: '/caledon-mosquito-control',

@@ -34,8 +34,9 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'When Does Mosquito Season Start in the GTA? (2026 Guide) | BuzzSkito',
-  description: 'Exact start dates, temperature triggers, and peak activity windows for mosquito season in Toronto, Mississauga, Brampton, Oakville, Burlington & Hamilton. Plan your 2026 protection.',
+  title: 'When Does Mosquito Season Start? GTA | BuzzSkito',
+  description:
+    'When mosquito season starts in the GTA, peak activity months, and when to book your first treatment. 2026 guide.',
   canonical: `/blog/${POST.slug}`,
   type: 'article',
   publishedTime: POST.date,

@@ -7,7 +7,7 @@ import { NEW_BLOGS, MOSQUITO_BLOGS } from '@/lib/constants'
 const POST = NEW_BLOGS[5]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Mosquito Control for New-Build Homes in Milton & Georgetown | BuzzSkito',
+  title: 'Mosquito Control Milton & Georgetown | BuzzSkito',
   description:
     "New construction near Sixteen Mile Creek and the Credit River comes with unexpected mosquito challenges. Here's why Milton and Georgetown new-build homeowners need professional treatment.",
   canonical: `/blog/${POST.slug}`,

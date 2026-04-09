@@ -7,8 +7,9 @@ import { NEW_BLOGS_2, TICK_BLOGS } from '@/lib/constants'
 const POST = NEW_BLOGS_2[2]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Tick Bite Symptoms & What to Do in Ontario | Step-by-Step Guide | BuzzSkito',
-  description: 'Found a tick on yourself or your child? This guide covers exactly what to do after a tick bite in Ontario — proper removal, monitoring for Lyme disease symptoms, and when to seek medical care.',
+  title: 'Tick Bite Symptoms & What to Do | Ontario | BuzzSkito',
+  description:
+    'Found a tick? Step-by-step guide: safe removal, Lyme disease symptoms to watch for, and when to seek medical care.',
   canonical: `/blog/${POST.slug}`,
   type: 'article',
   publishedTime: POST.date,

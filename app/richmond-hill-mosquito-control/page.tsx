@@ -5,7 +5,7 @@ import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusines
 import { BUSINESS, MOSQUITO_BLOGS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Mosquito Control Richmond Hill | BuzzSkito – Lake Wilcox to Mill Pond Protection',
+  title: 'Mosquito Control Richmond Hill | $99 | BuzzSkito',
   description:
     'Mosquito control in Richmond Hill, ON. Professional barrier spray from $99. No contracts. Call (289) 216-5030.',
   canonical: '/richmond-hill-mosquito-control',

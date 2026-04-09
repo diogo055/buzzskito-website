@@ -7,8 +7,9 @@ import { MOSQUITO_BLOGS } from '@/lib/constants'
 const POST = MOSQUITO_BLOGS.supporting[4]
 
 export const metadata: Metadata = buildMetadata({
-  title: '12 Ways to Prevent Mosquitoes in Your Backyard (Ontario) | BuzzSkito',
-  description: 'Standing water elimination, landscaping strategies, natural deterrents, and how to combine DIY prevention with professional barrier spray for Ontario homeowners.',
+  title: '12 Ways to Prevent Mosquitoes | Backyard | BuzzSkito',
+  description:
+    '12 proven ways to prevent mosquitoes in your Ontario backyard — standing water, landscaping, and when to call a pro.',
   canonical: `/blog/${POST.slug}`,
   type: 'article',
   publishedTime: POST.date,

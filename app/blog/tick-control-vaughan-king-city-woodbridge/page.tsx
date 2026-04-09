@@ -7,7 +7,7 @@ import { NEW_BLOGS_2, TICK_BLOGS, MOSQUITO_BLOGS } from '@/lib/constants'
 const POST = NEW_BLOGS_2[4]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Tick Control in Vaughan, King City & Woodbridge | York Region Guide | BuzzSkito',
+  title: 'Tick Control Vaughan & King City | BuzzSkito',
   description: "Boyd Conservation Area, Kortright Centre, and King Township's forest edges put York Region homeowners at serious tick risk. Professional tick spray schedules and what to expect from BuzzSkito.",
   canonical: `/blog/${POST.slug}`,
   type: 'article',

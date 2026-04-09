@@ -7,7 +7,7 @@ import { NEW_BLOGS, MOSQUITO_BLOGS } from '@/lib/constants'
 const POST = NEW_BLOGS[6]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Is Professional Mosquito Spray Safe for Kids and Pets? | BuzzSkito',
+  title: 'Is Mosquito Spray Safe for Kids & Pets? | BuzzSkito',
   description:
     "Health Canada approval, 30-minute re-entry windows, and the real facts about what's in professional mosquito barrier spray. Everything GTA parents and pet owners need to know.",
   canonical: `/blog/${POST.slug}`,

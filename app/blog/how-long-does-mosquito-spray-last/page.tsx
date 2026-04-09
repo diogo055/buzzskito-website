@@ -7,8 +7,9 @@ import { MOSQUITO_BLOGS } from '@/lib/constants'
 const POST = MOSQUITO_BLOGS.supporting[1]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'How Long Does Mosquito Spray Last? (Up to 30 Days) | BuzzSkito',
-  description: 'Professional barrier spray vs. store-bought: protection windows, rain resistance, re-application schedules, and what affects longevity for Ontario conditions.',
+  title: 'How Long Does Mosquito Spray Last? | BuzzSkito',
+  description:
+    'Professional mosquito barrier spray lasts up to 30 days. How weather, coverage, and products affect duration.',
   canonical: `/blog/${POST.slug}`,
   type: 'article',
   publishedTime: POST.date,

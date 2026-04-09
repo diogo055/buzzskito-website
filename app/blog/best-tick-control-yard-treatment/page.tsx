@@ -7,8 +7,9 @@ import { TICK_BLOGS } from '@/lib/constants'
 const POST = TICK_BLOGS.supporting[3]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Best Tick Control for Your Yard: Ontario Comparison Guide | BuzzSkito',
-  description: 'Comparing granular tick treatments, DIY sprays, cedar mulch barriers, permethrin, and professional barrier spray for Ontario yards. Which is actually most effective?',
+  title: 'Best Tick Control for Your Yard | Ontario | BuzzSkito',
+  description:
+    'Comparing tick treatments for Ontario yards — granular, sprays, cedar mulch, permethrin tubes & professional barrier.',
   canonical: `/blog/${POST.slug}`,
   type: 'article',
   publishedTime: POST.date,

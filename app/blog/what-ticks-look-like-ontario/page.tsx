@@ -7,8 +7,9 @@ import { TICK_BLOGS } from '@/lib/constants'
 const POST = TICK_BLOGS.supporting[1]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'How to Identify Ticks in Ontario: Blacklegged, Dog & Lone Star | BuzzSkito',
-  description: 'Visual guide to identifying Ontario tick species, nymph vs. adult size comparison, and the specific yard zones where ticks hide in GTA and Southern Ontario properties.',
+  title: 'What Ticks Look Like in Ontario | ID Guide | BuzzSkito',
+  description:
+    'Visual guide to Ontario tick species — blacklegged, American dog, and lone star ticks. Nymph vs adult identification.',
   canonical: `/blog/${POST.slug}`,
   type: 'article',
   publishedTime: POST.date,

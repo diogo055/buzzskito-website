@@ -7,7 +7,7 @@ import { NEW_BLOGS, MOSQUITO_BLOGS } from '@/lib/constants'
 const POST = NEW_BLOGS[7]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'How to Choose a Mosquito Control Company in the GTA: 8 Questions | BuzzSkito',
+  title: 'How to Choose Mosquito Control Company | BuzzSkito',
   description:
     "Not all mosquito control companies are equal. Here's exactly what to ask, what red flags to avoid, and why Health Canada approval, licensing, and guarantees matter for GTA homeowners.",
   canonical: `/blog/${POST.slug}`,

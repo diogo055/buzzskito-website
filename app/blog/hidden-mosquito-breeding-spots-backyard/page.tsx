@@ -7,8 +7,9 @@ import { NEW_BLOGS_2, MOSQUITO_BLOGS } from '@/lib/constants'
 const POST = NEW_BLOGS_2[1]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Hidden Mosquito Breeding Spots in Your GTA Backyard | BuzzSkito',
-  description: 'Most homeowners miss these 12 common mosquito breeding spots — clogged gutters, plant saucers, tarps, and more. Find and eliminate every standing water source before your first professional treatment.',
+  title: 'Hidden Mosquito Breeding Spots | GTA | BuzzSkito',
+  description:
+    '12 hidden mosquito breeding spots in your GTA backyard — gutters, saucers, tarps & more. Find and eliminate them.',
   canonical: `/blog/${POST.slug}`,
   type: 'article',
   publishedTime: POST.date,

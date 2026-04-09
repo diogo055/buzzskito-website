@@ -7,7 +7,7 @@ import { NEW_BLOGS, MOSQUITO_BLOGS, TICK_BLOGS } from '@/lib/constants'
 const POST = NEW_BLOGS[2]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Mosquito & Tick Control in Etobicoke and North York | BuzzSkito',
+  title: 'Mosquito Control Etobicoke & North York | BuzzSkito',
   description:
     "Humber River valley, Don Valley ravines, and Centennial Park — Etobicoke and North York homeowners face real mosquito and tick pressure near Toronto's natural corridors.",
   canonical: `/blog/${POST.slug}`,
