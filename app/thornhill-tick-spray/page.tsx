@@ -5,7 +5,7 @@ import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusines
 import { BUSINESS, TICK_BLOGS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Tick Spray Thornhill | BuzzSkito – Free Quotes',
+  title: 'Tick Spray Thornhill | From $99, No Contracts | BuzzSkito',
   description:
     'Professional tick spray in Thornhill. German Mills Creek and Pomona Mills Park ravines provide year-round blacklegged tick habitat. Serving Thornhill Village, Royal Orchard, Beverley Glen & all Thornhill. Call (289) 216-5030.',
   canonical: '/thornhill-tick-spray',

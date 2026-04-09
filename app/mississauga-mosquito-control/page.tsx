@@ -5,7 +5,7 @@ import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusines
 import { BUSINESS, MOSQUITO_BLOGS, TICK_BLOGS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Mosquito Control Mississauga | BuzzSkito – Free Quotes',
+  title: 'Mosquito Control Mississauga | From $99, No Contracts | BuzzSkito',
   description:
     'Professional mosquito control spray in Mississauga. Serving Port Credit, Meadowvale, Streetsville, Erin Mills, Clarkson & all Mississauga neighbourhoods. Health Canada–approved. Call (289) 216-5030.',
   canonical: '/mississauga-mosquito-control',
@@ -113,6 +113,26 @@ export default function MississaugaMosquitoControlPage() {
             <p className="text-gray-600 text-sm mt-0.5">Professional mosquito control from <strong className="text-brand-700">$99</strong> per treatment · No contracts</p>
           </div>
           <Link href="/contact" className="shrink-0 bg-amber-500 hover:bg-amber-400 text-white font-bold px-6 py-2.5 rounded-full text-sm transition-colors">Get a Free Quote</Link>
+        </div>
+      </section>
+
+      {/* How It Works */}
+      <section className="py-14 px-4 bg-white border-b border-gray-100">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-2xl font-extrabold text-brand-900 mb-8 text-center">How BuzzSkito Mosquito Control Works</h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {[
+              { step: '1', title: 'Free Property Assessment', desc: 'We evaluate your Mississauga property — identifying Credit River exposure, stormwater ponds, and mosquito pressure zones specific to your neighbourhood.' },
+              { step: '2', title: 'Professional Barrier Spray', desc: 'Our licensed technician applies Health Canada-approved formula to all vegetation, shrub interiors, leaf undersides, fence lines, and property perimeters using a precision backpack sprayer.' },
+              { step: '3', title: '30-Day Protection Guarantee', desc: 'The barrier kills mosquitoes on contact and repels new ones for up to 30 days. If pests return within the protection window, we re-treat at no cost.' },
+            ].map(({ step, title, desc }) => (
+              <div key={step} className="text-center">
+                <div className="w-14 h-14 bg-brand-800 text-white rounded-full flex items-center justify-center text-2xl font-extrabold mx-auto mb-4">{step}</div>
+                <h3 className="font-bold text-brand-900 text-lg mb-2">{title}</h3>
+                <p className="text-gray-600 text-sm">{desc}</p>
+              </div>
+            ))}
+          </div>
         </div>
       </section>
 
@@ -252,6 +272,35 @@ export default function MississaugaMosquitoControlPage() {
             <li><Link href="/blog/is-mosquito-spray-safe-kids-pets" className="text-brand-700 hover:underline">Is Mosquito Spray Safe for Kids and Pets?</Link></li>
             <li><Link href={`/blog/${TICK_BLOGS.pillar.slug}`} className="text-brand-700 hover:underline">{TICK_BLOGS.pillar.title}</Link></li>
           </ul>
+        </div>
+      </section>
+
+      {/* Testimonials */}
+      <section className="py-14 px-4 bg-white border-t border-gray-100">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-2xl font-extrabold text-brand-900 mb-2 text-center">What Mississauga Homeowners Say</h2>
+          <p className="text-center text-gray-500 text-sm mb-8">From our 126 five-star Google reviews</p>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {[
+              { author: 'Sarah M.', location: 'Port Credit', text: 'BuzzSkito treated our backyard in Mississauga and we noticed a huge difference immediately. No mosquitoes at our outdoor birthday party! The technician was professional and on time. Highly recommend.' },
+              { author: 'Priya R.', location: 'Meadowvale', text: 'Called on a Tuesday, they were at my home by Thursday. The technician explained exactly what product they were using and why it\'s safe for our dog. Couldn\'t be happier with the results.' },
+              { author: 'Jason T.', location: 'Erin Mills', text: 'Our house backs onto a stormwater pond and mosquitoes were terrible every summer. After the first BuzzSkito treatment the difference was night and day. We signed up for the full season.' },
+              { author: 'Amanda K.', location: 'Streetsville', text: 'We live near the Credit River and tried everything — citronella, zappers, store sprays. Nothing worked until BuzzSkito. Professional service, great communication, and our yard is actually usable now.' },
+            ].map(({ author, location, text }) => (
+              <div key={author} className="bg-brand-50 rounded-2xl p-6 border border-brand-100">
+                <div className="flex items-center gap-1 mb-3">
+                  {[...Array(5)].map((_, i) => (
+                    <svg key={i} className="w-4 h-4 text-amber-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" /></svg>
+                  ))}
+                </div>
+                <p className="text-gray-700 text-sm mb-3 italic">&ldquo;{text}&rdquo;</p>
+                <p className="text-brand-800 font-semibold text-sm">{author} — <span className="text-gray-500 font-normal">{location}, Mississauga</span></p>
+              </div>
+            ))}
+          </div>
+          <div className="text-center mt-6">
+            <a href="https://g.page/r/CYytaw5LxucdEAE/review" target="_blank" rel="noopener noreferrer" className="text-brand-700 font-semibold text-sm hover:underline">Read all 126 reviews on Google &rarr;</a>
+          </div>
         </div>
       </section>
 

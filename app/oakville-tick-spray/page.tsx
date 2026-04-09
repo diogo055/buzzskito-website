@@ -5,7 +5,7 @@ import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusines
 import { BUSINESS, TICK_BLOGS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Tick Control Service Oakville | BuzzSkito – Free Quotes',
+  title: 'Tick Control Service Oakville | From $99, No Contracts | BuzzSkito',
   description:
     'Professional tick control service in Oakville. Serving Glen Abbey, Bronte, Joshua Creek, West Oak Trails & all Oakville neighbourhoods. Health Canada–approved tick spray. Call (289) 216-5030.',
   canonical: '/oakville-tick-spray',

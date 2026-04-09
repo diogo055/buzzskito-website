@@ -5,7 +5,7 @@ import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusines
 import { BUSINESS, TICK_BLOGS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Tick Spray Mississauga | BuzzSkito – Free Quotes',
+  title: 'Tick Spray Mississauga | From $99, No Contracts | BuzzSkito',
   description:
     'Professional tick spray in Mississauga. Kills ticks at all life stages. Serving Port Credit, Meadowvale, Clarkson, Erin Mills & all Mississauga neighbourhoods. Call (289) 216-5030.',
   canonical: '/mississauga-tick-spray',

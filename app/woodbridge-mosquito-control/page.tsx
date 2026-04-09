@@ -5,7 +5,7 @@ import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusines
 import { BUSINESS, MOSQUITO_BLOGS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Mosquito Control Woodbridge | BuzzSkito – Free Quotes',
+  title: 'Mosquito Control Woodbridge | From $99, No Contracts | BuzzSkito',
   description:
     'Professional mosquito barrier spray in Woodbridge. Boyd Conservation Area and Humber River drive intense mosquito pressure. Serving Islington Woods, Pine Valley, Sonoma Heights & all Woodbridge. Call (289) 216-5030.',
   canonical: '/woodbridge-mosquito-control',

@@ -5,7 +5,7 @@ import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusines
 import { BUSINESS, TICK_BLOGS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Tick Spray Georgetown | BuzzSkito – Free Quotes',
+  title: 'Tick Spray Georgetown | From $99, No Contracts | BuzzSkito',
   description:
     'Professional tick spray in Georgetown. Credit River valley and Silver Creek Conservation Area are confirmed blacklegged tick habitat throughout the season. Serving Old Georgetown, Glen Williams, Norval & all Halton Hills. Call (289) 216-5030.',
   canonical: '/georgetown-tick-spray',

@@ -5,7 +5,7 @@ import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusines
 import { BUSINESS, TICK_BLOGS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Tick Spray Etobicoke | BuzzSkito – Free Quotes',
+  title: 'Tick Spray Etobicoke | From $99, No Contracts | BuzzSkito',
   description:
     'Professional tick spray in Etobicoke. Humber River valley, Centennial Park forest, and Mimico Creek valley are confirmed tick habitat. Serving Mimico, Humber Valley, Kingsway & all Etobicoke. Call (289) 216-5030.',
   canonical: '/etobicoke-tick-spray',

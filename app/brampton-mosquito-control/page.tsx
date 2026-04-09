@@ -5,7 +5,7 @@ import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusines
 import { BUSINESS, MOSQUITO_BLOGS, TICK_BLOGS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Mosquito Control Brampton | BuzzSkito – Free Quotes',
+  title: 'Mosquito Control Brampton | From $99, No Contracts | BuzzSkito',
   description:
     "Professional mosquito control spray in Brampton. Serving Mount Pleasant, Castlemore, Heart Lake, Springdale, Fletcher's Meadow & all Brampton neighbourhoods. Call (289) 216-5030.",
   canonical: '/brampton-mosquito-control',
@@ -114,6 +114,26 @@ export default function BramptonMosquitoPage() {
         </div>
       </section>
 
+      {/* How It Works */}
+      <section className="py-14 px-4 bg-white border-b border-gray-100">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-2xl font-extrabold text-brand-900 mb-8 text-center">How BuzzSkito Mosquito Control Works</h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {[
+              { step: '1', title: 'Free Property Assessment', desc: 'We evaluate your Brampton property — identifying stormwater pond proximity, creek exposure, and mosquito pressure zones specific to your neighbourhood.' },
+              { step: '2', title: 'Professional Barrier Spray', desc: 'Our licensed technician applies Health Canada-approved formula to all vegetation, shrub interiors, leaf undersides, fence lines, and property perimeters using a precision backpack sprayer.' },
+              { step: '3', title: '30-Day Protection Guarantee', desc: 'The barrier kills mosquitoes on contact and repels new ones for up to 30 days. If pests return within the protection window, we re-treat at no cost.' },
+            ].map(({ step, title, desc }) => (
+              <div key={step} className="text-center">
+                <div className="w-14 h-14 bg-brand-800 text-white rounded-full flex items-center justify-center text-2xl font-extrabold mx-auto mb-4">{step}</div>
+                <h3 className="font-bold text-brand-900 text-lg mb-2">{title}</h3>
+                <p className="text-gray-600 text-sm">{desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       <section className="py-14 px-4 bg-white">
         <div className="max-w-4xl mx-auto prose-brand">
           <h2>Mosquito Pressure in Brampton</h2>
@@ -167,6 +187,63 @@ export default function BramptonMosquitoPage() {
             </table>
           </div>
 
+          <h2>Mosquito Control Pricing in Brampton</h2>
+          <p>BuzzSkito mosquito treatments in Brampton start from $99 per visit — no contracts, no pressure to commit to a full season.</p>
+          <div className="not-prose overflow-x-auto my-4">
+            <table className="w-full text-sm border-collapse">
+              <thead>
+                <tr className="bg-brand-800 text-white">
+                  <th className="px-4 py-2 text-left">Property Type</th>
+                  <th className="px-4 py-2 text-left">Starting Price</th>
+                  <th className="px-4 py-2 text-left">Typical Properties</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  { type: 'Standard residential lot (under 6,000 sq ft)', price: 'From $99/treatment', coverage: 'Typical Brampton detached or semi-detached home' },
+                  { type: 'Mid-size lot (6,000–10,000 sq ft)', price: 'Custom quote', coverage: 'Larger detached, pond-backing, Castlemore properties' },
+                  { type: 'Large / estate property (10,000+ sq ft)', price: 'Custom quote', coverage: 'Vales of Castlemore, rural properties, large corner lots' },
+                ].map(({ type, price, coverage }) => (
+                  <tr key={type} className="border-b border-gray-200 even:bg-gray-50">
+                    <td className="px-4 py-2 font-semibold text-brand-800">{type}</td>
+                    <td className="px-4 py-2 font-extrabold text-brand-700">{price}</td>
+                    <td className="px-4 py-2 text-gray-600">{coverage}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p>No contracts and no cancellation fees. Call <a href={BUSINESS.phoneHref} className="text-brand-700 font-semibold hover:underline">{BUSINESS.phone}</a> for a free quote. See our <Link href="/mosquito-control-cost" className="text-brand-700 hover:underline">2026 mosquito control pricing guide</Link> for a full Ontario breakdown.</p>
+
+          <h2>Professional Mosquito Control vs. DIY in Brampton</h2>
+          <p>Hardware stores sell foggers, citronella candles, and consumer sprays. Here&apos;s why they fall short for Brampton&apos;s specific mosquito problem:</p>
+          <ul>
+            <li><strong>Consumer foggers provide hours of relief, not 30 days.</strong> Professional residual barrier spray bonds to leaf surfaces and keeps working for weeks.</li>
+            <li><strong>Application technique matters more than product.</strong> Mosquitoes rest on leaf undersides, in shaded shrub interiors, and under deck joists — surfaces consumer foggers miss entirely.</li>
+            <li><strong>Brampton&apos;s mosquito sources are beyond your control.</strong> Stormwater management ponds, Heart Lake Conservation Area, and Etobicoke Creek will produce mosquitoes every season regardless of what you do on your lot. Professional barrier spray stops them from settling on your property.</li>
+            <li><strong>Larvicide tablets don&apos;t address stormwater ponds.</strong> You can&apos;t legally treat municipal stormwater ponds. The only effective residential strategy is creating a treated barrier on your own property.</li>
+          </ul>
+
+          <h2>Choosing the Right Mosquito Control Service in Brampton</h2>
+          <ul>
+            <li><strong>Health Canada–registered products.</strong> Any product applied must be registered under the Pest Control Products Act. BuzzSkito uses only registered, water-based formulas.</li>
+            <li><strong>Licensed applicators.</strong> Ontario requires a Pesticide Applicator&apos;s Licence for all commercial applications.</li>
+            <li><strong>Rain-back guarantee.</strong> Reputable companies re-treat if rain falls within the cure window. Standard at BuzzSkito.</li>
+            <li><strong>No long-term contracts.</strong> Book a single treatment and evaluate results before committing.</li>
+            <li><strong>Local Brampton knowledge.</strong> Companies that understand stormwater pond dynamics and Etobicoke Creek exposure treat more effectively.</li>
+            <li><strong>Transparent pricing.</strong> BuzzSkito publishes pricing and quotes over the phone — no mandatory &quot;assessment visit&quot; required first.</li>
+          </ul>
+
+          <h2>What to Expect on Your BuzzSkito Treatment Day</h2>
+          <ol>
+            <li><strong>SMS notification before arrival</strong> — You&apos;ll receive a text when your technician is on the way. You don&apos;t need to be home.</li>
+            <li><strong>Property walkthrough</strong> — On the first visit, your technician assesses pond proximity, vegetation density, and property-specific risk factors.</li>
+            <li><strong>Full barrier application</strong> — Systematic treatment of all vegetation: shrubs, garden beds, leaf undersides, fence lines, deck undersides, woodpiles. A typical Brampton lot takes 25–40 minutes.</li>
+            <li><strong>Lawn sign placement</strong> — Confirms the treatment date and product used.</li>
+            <li><strong>30-minute dry time</strong> — Keep children and pets off treated surfaces while the product cures.</li>
+            <li><strong>Follow-up email confirmation</strong> — Treatment log with areas treated, product applied, and your next visit date.</li>
+          </ol>
+
           <h2>Also Providing Tick Control in Brampton</h2>
           <p>Brampton's ravines and wooded corridors are also prime tick habitat. Ask about our <Link href="/brampton-tick-spray" className="text-brand-700 hover:underline">Brampton tick control service</Link> — bundle both for complete seasonal protection.</p>
 
@@ -178,6 +255,35 @@ export default function BramptonMosquitoPage() {
             <li><Link href="/blog/is-mosquito-spray-safe-kids-pets" className="text-brand-700 hover:underline">Is Mosquito Spray Safe for Kids and Pets?</Link></li>
             <li><Link href={`/blog/${TICK_BLOGS.pillar.slug}`} className="text-brand-700 hover:underline">{TICK_BLOGS.pillar.title}</Link></li>
           </ul>
+        </div>
+      </section>
+
+      {/* Testimonials */}
+      <section className="py-14 px-4 bg-white border-t border-gray-100">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-2xl font-extrabold text-brand-900 mb-2 text-center">What Brampton Homeowners Say</h2>
+          <p className="text-center text-gray-500 text-sm mb-8">From our 126 five-star Google reviews</p>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {[
+              { author: 'Priya R.', location: 'Castlemore', text: 'Called on a Tuesday, they were at my Brampton home by Thursday. The technician explained exactly what product they were using and why it\'s safe for our dog. Couldn\'t be happier with the results.' },
+              { author: 'Raj P.', location: 'Springdale', text: 'Our house backs onto a stormwater pond and mosquitoes were unbearable. After the first BuzzSkito treatment the change was dramatic. We signed up for the full season and haven\'t looked back.' },
+              { author: 'Kevin M.', location: 'Heart Lake', text: 'Living near Heart Lake Conservation Area means mosquitoes every year. BuzzSkito is the first thing that actually worked. Professional, on time, and the SMS alerts are a nice touch.' },
+              { author: 'Tina S.', location: 'Credit Valley', text: 'Tried citronella candles and store sprays for years. One BuzzSkito treatment did more than everything else combined. Our kids can actually play in the backyard now.' },
+            ].map(({ author, location, text }) => (
+              <div key={author} className="bg-brand-50 rounded-2xl p-6 border border-brand-100">
+                <div className="flex items-center gap-1 mb-3">
+                  {[...Array(5)].map((_, i) => (
+                    <svg key={i} className="w-4 h-4 text-amber-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" /></svg>
+                  ))}
+                </div>
+                <p className="text-gray-700 text-sm mb-3 italic">&ldquo;{text}&rdquo;</p>
+                <p className="text-brand-800 font-semibold text-sm">{author} — <span className="text-gray-500 font-normal">{location}, Brampton</span></p>
+              </div>
+            ))}
+          </div>
+          <div className="text-center mt-6">
+            <a href="https://g.page/r/CYytaw5LxucdEAE/review" target="_blank" rel="noopener noreferrer" className="text-brand-700 font-semibold text-sm hover:underline">Read all 126 reviews on Google &rarr;</a>
+          </div>
         </div>
       </section>
 

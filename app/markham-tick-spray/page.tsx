@@ -5,7 +5,7 @@ import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusines
 import { BUSINESS, TICK_BLOGS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Tick Spray Markham | BuzzSkito – Free Quotes',
+  title: 'Tick Spray Markham | From $99, No Contracts | BuzzSkito',
   description:
     'Professional tick spray in Markham. Rouge National Urban Park boundary and Rouge River valley are significant tick habitat. Serving Unionville, Cornell, Berczy Village & all Markham. Call (289) 216-5030.',
   canonical: '/markham-tick-spray',
