@@ -22,7 +22,7 @@ const NEIGHBOURHOODS = [
 const FAQS = [
   {
     question: 'How much does mosquito control cost in Mississauga?',
-    answer: 'BuzzSkito mosquito barrier spray treatments start from $99 per application for a standard residential lot. A full 5-treatment seasonal program — covering May through September for continuous 30-day protection — starts from $399. Pricing depends on your property size and treatment frequency. Call (289) 216-5030 or use our contact form for a free, no-obligation quote specific to your Mississauga property. There are no contracts — you can book a single treatment or a full seasonal package.',
+    answer: 'BuzzSkito mosquito barrier spray treatments start from $99 per application for a standard residential lot. Pricing depends on your property size and treatment frequency. Call (289) 216-5030 or use our contact form for a free, no-obligation quote specific to your Mississauga property. There are no contracts — you can book a single treatment or a full seasonal package.',
   },
   {
     question: 'Why is mosquito pressure so high in Mississauga?',
@@ -110,7 +110,7 @@ export default function MississaugaMosquitoControlPage() {
         <div className="max-w-4xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-3">
           <div>
             <p className="font-extrabold text-brand-900 text-base">Mosquito Control Pricing in {CITY}</p>
-            <p className="text-gray-600 text-sm mt-0.5">Single treatment from <strong className="text-brand-700">$99</strong> · 5-treatment seasonal program from <strong className="text-brand-700">$399</strong> · No contracts</p>
+            <p className="text-gray-600 text-sm mt-0.5">Professional mosquito control from <strong className="text-brand-700">$99</strong> per treatment · No contracts</p>
           </div>
           <Link href="/contact" className="shrink-0 bg-amber-500 hover:bg-amber-400 text-white font-bold px-6 py-2.5 rounded-full text-sm transition-colors">Get a Free Quote</Link>
         </div>
@@ -184,34 +184,32 @@ export default function MississaugaMosquitoControlPage() {
           </div>
 
           <h2>Mosquito Control Pricing in Mississauga</h2>
-          <p>Transparent pricing is something many Mississauga pest control companies avoid. We don't. Here's exactly what mosquito control costs with BuzzSkito:</p>
+          <p>Transparent pricing is something many Mississauga pest control companies avoid. We don't. BuzzSkito mosquito treatments start from $99 per visit — no contracts, no pressure to commit to a full season upfront.</p>
           <div className="not-prose overflow-x-auto my-4">
             <table className="w-full text-sm border-collapse">
               <thead>
                 <tr className="bg-brand-800 text-white">
-                  <th className="px-4 py-2 text-left">Service</th>
-                  <th className="px-4 py-2 text-left">Treatments</th>
+                  <th className="px-4 py-2 text-left">Property Type</th>
                   <th className="px-4 py-2 text-left">Starting Price</th>
-                  <th className="px-4 py-2 text-left">Best For</th>
+                  <th className="px-4 py-2 text-left">Coverage</th>
                 </tr>
               </thead>
               <tbody>
                 {[
-                  { service: 'Single Treatment', treats: '1 visit', price: 'From $99', best: 'Events, trial visit, one-time need' },
-                  { service: '3-Treatment Program', treats: 'May, June, July', price: 'From $269', best: 'Shorter season coverage' },
-                  { service: '5-Treatment Program', treats: 'May through September', price: 'From $399', best: 'Full-season protection (recommended)' },
-                ].map(({ service, treats, price, best }) => (
-                  <tr key={service} className="border-b border-gray-200 even:bg-gray-50">
-                    <td className="px-4 py-2 font-semibold text-brand-800">{service}</td>
-                    <td className="px-4 py-2 text-gray-700">{treats}</td>
+                  { type: 'Standard residential lot (under 6,000 sq ft)', price: 'From $99/treatment', coverage: 'Typical Mississauga semi-detached or detached home' },
+                  { type: 'Mid-size lot (6,000–10,000 sq ft)', price: 'Custom quote', coverage: 'Larger detached, corner lots, ravine-backing properties' },
+                  { type: 'Large / estate property (10,000+ sq ft)', price: 'Custom quote', coverage: 'Lorne Park, Mineola, Port Credit estate lots' },
+                ].map(({ type, price, coverage }) => (
+                  <tr key={type} className="border-b border-gray-200 even:bg-gray-50">
+                    <td className="px-4 py-2 font-semibold text-brand-800">{type}</td>
                     <td className="px-4 py-2 font-extrabold text-brand-700">{price}</td>
-                    <td className="px-4 py-2 text-gray-600">{best}</td>
+                    <td className="px-4 py-2 text-gray-600">{coverage}</td>
                   </tr>
                 ))}
               </tbody>
             </table>
           </div>
-          <p>Pricing is based on a standard residential lot in Mississauga. Larger properties (double lots, ravine-backing) are quoted individually. There are no contracts and no cancellation fees. Call <a href={BUSINESS.phoneHref} className="text-brand-700 font-semibold hover:underline">{BUSINESS.phone}</a> or use our <Link href="/contact" className="text-brand-700 hover:underline">contact form</Link> for a free quote specific to your address.</p>
+          <p>There are no contracts and no cancellation fees. Call <a href={BUSINESS.phoneHref} className="text-brand-700 font-semibold hover:underline">{BUSINESS.phone}</a> or use our <Link href="/contact" className="text-brand-700 hover:underline">contact form</Link> for a free quote specific to your address. See our <Link href="/mosquito-control-cost" className="text-brand-700 hover:underline">2026 mosquito control pricing guide</Link> for a full GTA breakdown.</p>
 
           <h2>Professional Mosquito Control vs. DIY in Mississauga</h2>
           <p>Home improvement stores sell mosquito foggers, citronella torches, and consumer-grade sprays. Here's why they don't work as well as professional barrier spray — and why Mississauga's specific geography matters:</p>

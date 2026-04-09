@@ -7,7 +7,7 @@ import { BUSINESS } from '@/lib/constants'
 export const metadata: Metadata = buildMetadata({
   title: 'How Much Does Mosquito Control Cost? 2026 Ontario Price Guide | BuzzSkito',
   description:
-    'Mosquito control in Ontario costs from $99 per treatment. See exactly what you pay for single treatments, seasonal programs, and property size tiers — no hidden fees.',
+    'Mosquito control in Ontario starts from $99 per treatment. BuzzSkito provides professional barrier spray with transparent pricing, no contracts, and a rain-back guarantee.',
   canonical: '/mosquito-control-cost',
 })
 
@@ -17,12 +17,12 @@ const FAQS = [
     answer: 'A single professional mosquito barrier spray treatment in Ontario starts from $99 for a standard residential lot (under 6,000 sq ft). Mid-size properties (6,000–10,000 sq ft) typically run $129–$159. Large lots (10,000–20,000 sq ft) typically run $175–$249 per visit. BuzzSkito\'s pricing starts from $99 and is quoted by property size — call (289) 216-5030 for a free, no-obligation quote.',
   },
   {
-    question: 'How much does a full-season mosquito control program cost?',
-    answer: 'A 5-treatment seasonal program covering May through September starts from $399 for a standard residential lot with BuzzSkito. This works out to less than $80 per treatment — a significant saving over paying per visit. The program provides continuous 30-day protection across the full mosquito season.',
+    question: 'How many mosquito treatments do I need per season in Ontario?',
+    answer: 'Most GTA properties benefit from 4–5 treatments spaced 21–28 days apart from May through September for continuous protection. Properties near high-pressure areas (Credit River, Humber River valley, Rattray Marsh, stormwater ponds) typically need the full 5-treatment season. Lower-pressure properties may do well with 3–4 visits. Call (289) 216-5030 and we\'ll recommend the right frequency for your specific property.',
   },
   {
-    question: 'Is it cheaper to pay per treatment or buy a seasonal package?',
-    answer: 'Seasonal packages are consistently cheaper per treatment than single bookings, and they provide continuous protection with no gaps. BuzzSkito\'s 5-treatment seasonal program (from $399) saves you over $90 compared to booking five individual treatments at the single-visit rate. You also get priority scheduling built in.',
+    question: 'Can I book treatments one at a time, or do I have to commit to the season?',
+    answer: 'You can book a single treatment with no commitment — there are no contracts and no cancellation fees. Many customers start with a single visit to evaluate results before scheduling ongoing service. BuzzSkito offers full flexibility to match your comfort level.',
   },
   {
     question: 'What factors affect mosquito control pricing?',
@@ -34,7 +34,7 @@ const FAQS = [
   },
   {
     question: 'How does BuzzSkito\'s pricing compare to competitors like MosquitoMan or LawnSavers?',
-    answer: 'BuzzSkito\'s pricing is competitive and transparent. MosquitoMan advertises seasonal programs starting around $450. LawnSavers lists tick and mosquito treatments starting at $129 per visit. BuzzSkito\'s seasonal program starts from $399 — and our single-treatment rate starting from $99 is among the most competitive in the GTA market while maintaining the same Health Canada–approved formula and licensed technicians.',
+    answer: 'BuzzSkito\'s pricing starts from $99 per treatment — among the most competitive in the GTA market. LawnSavers lists treatments starting at $129 per visit. MosquitoMan advertises seasonal programs around $450. BuzzSkito provides the same Health Canada–approved formula and licensed technicians at a lower per-treatment starting price, with no contracts required.',
   },
   {
     question: 'Does mosquito control cost more near water or ravines in the GTA?',
@@ -63,7 +63,7 @@ export default function MosquitoControlCostPage() {
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-5">How Much Does Mosquito Control Cost in Ontario?</h1>
           <p className="text-xl text-brand-100 max-w-2xl mb-8">
-            Transparent pricing, no hidden fees. BuzzSkito mosquito barrier spray starts from $99 per treatment, with seasonal programs from $399. Here's exactly what you pay and why.
+            Transparent pricing, no hidden fees. BuzzSkito mosquito barrier spray starts from $99 per treatment. No contracts, rain-back guarantee included.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Link href="/contact" className="inline-block bg-amber-500 hover:bg-amber-400 text-white font-extrabold px-8 py-4 rounded-full text-lg shadow-xl transition-colors text-center">
@@ -98,29 +98,27 @@ export default function MosquitoControlCostPage() {
             <table className="w-full text-sm border-collapse">
               <thead>
                 <tr className="bg-brand-800 text-white">
-                  <th className="px-4 py-3 text-left">Service</th>
-                  <th className="px-4 py-3 text-left">Treatments</th>
-                  <th className="px-4 py-3 text-left">Standard Lot (under 6,000 sq ft)</th>
-                  <th className="px-4 py-3 text-left">Mid-Size (6,000–10,000 sq ft)</th>
+                  <th className="px-4 py-3 text-left">Property Type</th>
+                  <th className="px-4 py-3 text-left">Starting Price</th>
+                  <th className="px-4 py-3 text-left">Coverage</th>
                 </tr>
               </thead>
               <tbody>
                 {[
-                  { service: 'Single Treatment', treats: '1 visit', standard: 'From $99', mid: 'From $129' },
-                  { service: '3-Treatment Program', treats: 'May, June, July', standard: 'From $269', mid: 'From $349' },
-                  { service: '5-Treatment Program', treats: 'May through September', standard: 'From $399', mid: 'From $519' },
-                ].map(({ service, treats, standard, mid }) => (
-                  <tr key={service} className="border-b border-gray-200 even:bg-gray-50">
-                    <td className="px-4 py-3 font-semibold text-brand-800">{service}</td>
-                    <td className="px-4 py-3 text-gray-600">{treats}</td>
-                    <td className="px-4 py-3 font-extrabold text-brand-700">{standard}</td>
-                    <td className="px-4 py-3 font-semibold text-gray-700">{mid}</td>
+                  { type: 'Standard residential lot (under 6,000 sq ft)', price: 'From $99/treatment', coverage: 'Typical GTA semi-detached or detached home' },
+                  { type: 'Mid-size lot (6,000–10,000 sq ft)', price: 'Custom quote', coverage: 'Larger detached, corner lots, estate properties' },
+                  { type: 'Large / rural property (10,000+ sq ft)', price: 'Custom quote', coverage: 'Acreage, farm properties, hobby farms' },
+                ].map(({ type, price, coverage }) => (
+                  <tr key={type} className="border-b border-gray-200 even:bg-gray-50">
+                    <td className="px-4 py-3 font-semibold text-brand-800">{type}</td>
+                    <td className="px-4 py-3 font-extrabold text-brand-700">{price}</td>
+                    <td className="px-4 py-3 text-gray-600">{coverage}</td>
                   </tr>
                 ))}
               </tbody>
             </table>
           </div>
-          <p className="text-sm text-gray-500 not-prose mb-8">Larger properties (over 10,000 sq ft), commercial properties, and rural acreage are quoted individually. Call (289) 216-5030 or use our <Link href="/contact" className="text-brand-700 underline">contact form</Link> for a property-specific quote.</p>
+          <p className="text-sm text-gray-500 not-prose mb-8">All pricing is property-specific. Call <a href={BUSINESS.phoneHref} className="text-brand-700 underline">{BUSINESS.phone}</a> or use our <Link href="/contact" className="text-brand-700 underline">contact form</Link> for a free, no-obligation quote.</p>
 
           <h2>What's Included in Every BuzzSkito Treatment</h2>
           <p>Every treatment — whether it's a single visit or part of a seasonal program — includes the same comprehensive service:</p>
@@ -170,8 +168,7 @@ export default function MosquitoControlCostPage() {
                 {[
                   { approach: 'Citronella candles / torches', cost: '$20–$60/season', duration: 'Hours, only while burning', coverage: 'Very limited radius' },
                   { approach: 'Consumer fogger (Home Depot)', cost: '$50–$90 + product refills', duration: '2–4 hours', coverage: 'Open air only, misses resting sites' },
-                  { approach: 'Professional barrier spray (single)', cost: 'From $99', duration: 'Up to 30 days', coverage: 'Full property — all vegetation, undersides, shaded zones' },
-                  { approach: 'Professional 5-treatment program', cost: 'From $399', duration: 'May–September (full season)', coverage: 'Full property, continuous season coverage' },
+                  { approach: 'Professional barrier spray', cost: 'From $99/treatment', duration: 'Up to 30 days per visit', coverage: 'Full property — all vegetation, undersides, shaded zones' },
                 ].map(({ approach, cost, duration, coverage }) => (
                   <tr key={approach} className="border-b border-gray-200 even:bg-gray-50">
                     <td className="px-4 py-3 font-semibold text-gray-800">{approach}</td>
@@ -209,7 +206,7 @@ export default function MosquitoControlCostPage() {
           </div>
 
           <h2>Tick Control Pricing</h2>
-          <p>Need tick control too? BuzzSkito tick spray starts from $99 per application, with a 2-treatment seasonal bundle (spring + fall) from $179. Many GTA homeowners bundle mosquito and tick treatments for complete yard protection — the combined service is done in a single visit. See our <Link href="/tick-control" className="text-brand-700 hover:underline">full tick control service</Link> for details.</p>
+          <p>Need tick control too? BuzzSkito tick spray starts from $99 per application. Many GTA homeowners bundle mosquito and tick treatments for complete yard protection — the combined service is done in a single visit. See our <Link href="/tick-control" className="text-brand-700 hover:underline">full tick control service</Link> for details.</p>
 
           <h2>Related Guides</h2>
           <ul>
