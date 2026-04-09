@@ -74,12 +74,6 @@ export function localBusinessSchema(overrides: { areaServed?: string; descriptio
       { '@type': 'OpeningHoursSpecification', dayOfWeek: ['Saturday'], opens: '09:00', closes: '16:00' },
     ],
     sameAs: [BUSINESS.facebookUrl],
-    aggregateRating: {
-      '@type': 'AggregateRating',
-      ratingValue: BUSINESS.aggregateRating.ratingValue,
-      bestRating: BUSINESS.aggregateRating.bestRating,
-      ratingCount: BUSINESS.aggregateRating.ratingCount,
-    },
   }
 }
 
@@ -170,13 +164,18 @@ export function reviewSchema() {
     '@type': 'PestControlService',
     '@id': `${SITE_URL}/#business`,
     name: BUSINESS.legalName,
+    aggregateRating: {
+      '@type': 'AggregateRating',
+      ratingValue: BUSINESS.aggregateRating.ratingValue,
+      bestRating: BUSINESS.aggregateRating.bestRating,
+      ratingCount: BUSINESS.aggregateRating.ratingCount,
+    },
     review: reviews.map(({ author, rating, date, text }) => ({
       '@type': 'Review',
       author: { '@type': 'Person', name: author },
       reviewRating: { '@type': 'Rating', ratingValue: rating, bestRating: 5 },
       datePublished: date,
       reviewBody: text,
-      itemReviewed: { '@type': 'PestControlService', '@id': `${SITE_URL}/#business`, name: BUSINESS.legalName },
     })),
   }
 }
