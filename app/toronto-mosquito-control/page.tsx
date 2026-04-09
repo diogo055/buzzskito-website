@@ -50,7 +50,7 @@ const FAQS = [
   },
   {
     question: 'How much does mosquito control cost in Toronto?',
-    answer: "A single professional mosquito treatment for a typical Toronto property (5,000–7,500 sq ft) runs $125–$200 per visit. A full season program (4–5 treatments from May to September) is $500–$800 for most Toronto homes. Properties near ravines with heavy mosquito pressure are on the higher end due to the need for thorough perimeter treatment. See our detailed 2026 Ontario pricing guide for a full breakdown by property size and service type.",
+    answer: "BuzzSkito mosquito treatments in Toronto start from $99 per treatment. Pricing depends on your property size and the depth of coverage your lot requires. Ravine-adjacent properties may need more frequent or thorough application than sheltered urban lots. Call (289) 216-5030 for a free quote, or see our 2026 Ontario pricing guide for a full breakdown.",
   },
 ]
 
@@ -96,7 +96,7 @@ export default function TorontoMosquitoPage() {
         <div className="max-w-4xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-3">
           <div>
             <p className="font-extrabold text-brand-900 text-base">Mosquito Control Pricing in {CITY}</p>
-            <p className="text-gray-600 text-sm mt-0.5">Single treatment from <strong className="text-brand-700">$99</strong> · 5-treatment seasonal program from <strong className="text-brand-700">$399</strong> · No contracts</p>
+            <p className="text-gray-600 text-sm mt-0.5">Professional mosquito control from <strong className="text-brand-700">$99</strong> per treatment · No contracts</p>
           </div>
           <Link href="/contact" className="shrink-0 bg-amber-500 hover:bg-amber-400 text-white font-bold px-6 py-2.5 rounded-full text-sm transition-colors">Get a Free Quote</Link>
         </div>

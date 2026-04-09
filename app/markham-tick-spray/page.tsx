@@ -16,7 +16,7 @@ const NEIGHBOURHOODS = ['Unionville','Cornell','Milliken Mills','Berczy Village'
 const FAQS = [
   {
     question: 'How much does tick spray cost in Markham?',
-    answer: 'Tick spray in Markham starts from $99 per application. A 2-treatment seasonal program (spring + fall) starts from $179. Properties near Rouge National Urban Park or any ravine corridor in Markham typically need both spring and fall treatments for complete seasonal protection. No contracts. Call (289) 216-5030.',
+    answer: 'Tick spray in Markham starts from $99 per application. Properties near Rouge National Urban Park or any ravine corridor in Markham typically need both spring and fall treatments for complete seasonal protection. No contracts. Call (289) 216-5030.',
   },
   {
     question: 'Which Markham neighbourhoods have the highest tick risk?',
@@ -64,7 +64,7 @@ export default function MarkhamTickPage() {
         <div className="max-w-4xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-3">
           <div>
             <p className="font-extrabold text-brand-900 text-base">Tick Spray Pricing in {CITY}</p>
-            <p className="text-gray-600 text-sm mt-0.5">Single treatment from <strong className="text-amber-700">$99</strong> · 2-treatment seasonal program from <strong className="text-amber-700">$179</strong> · No contracts</p>
+            <p className="text-gray-600 text-sm mt-0.5">Professional tick spray from <strong className="text-amber-700">$99</strong> per treatment · No contracts</p>
           </div>
           <Link href="/contact" className="shrink-0 bg-amber-500 hover:bg-amber-400 text-white font-bold px-6 py-2.5 rounded-full text-sm transition-colors">Get a Free Quote</Link>
         </div>

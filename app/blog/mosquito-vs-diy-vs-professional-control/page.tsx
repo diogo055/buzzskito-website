@@ -13,7 +13,7 @@ const FAQS = [
   },
   {
     question: 'Is professional mosquito control worth it?',
-    answer: 'For homeowners who want to actually use their backyard during GTA mosquito season, yes. DIY methods — citronella, consumer foggers, DEET — either protect people individually without reducing yard-wide populations, or provide very short-term (1–7 day) reduction. Professional barrier spray treats the whole property for up to 30 days. A 5-treatment seasonal program costs $500–$800 for most GTA homes and delivers continuous protection from May through September.',
+    answer: 'For homeowners who want to actually use their backyard during GTA mosquito season, yes. DIY methods — citronella, consumer foggers, DEET — either protect people individually without reducing yard-wide populations, or provide very short-term (1–7 day) reduction. Professional barrier spray treats the whole property for up to 30 days. Professional barrier spray starts from $99 per treatment and delivers continuous protection from May through September.',
   },
   {
     question: 'How effective are citronella candles against mosquitoes?',

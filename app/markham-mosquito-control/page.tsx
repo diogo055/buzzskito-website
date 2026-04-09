@@ -18,7 +18,7 @@ const NEIGHBOURHOODS = ['Unionville','Cornell','Milliken Mills','Berczy Village'
 const FAQS = [
   {
     question: 'How much does mosquito control cost in Markham?',
-    answer: 'BuzzSkito mosquito control in Markham starts from $99 per application. A 5-treatment seasonal program covering May through September starts from $399. Properties near Rouge National Urban Park, Swan Lake, or any ravine corridor typically benefit most from the full seasonal package for continuous protection. No contracts. Call (289) 216-5030 for a free Markham quote.',
+    answer: 'BuzzSkito mosquito control in Markham starts from $99 per application. Properties near Rouge National Urban Park, Swan Lake, or any ravine corridor typically benefit most from the full seasonal package for continuous protection. No contracts. Call (289) 216-5030 for a free Markham quote.',
   },
   {
     question: 'Why do Unionville backyards have such a bad mosquito problem?',
@@ -67,7 +67,7 @@ export default function MarkhamMosquitoPage() {
         <div className="max-w-4xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-3">
           <div>
             <p className="font-extrabold text-brand-900 text-base">Mosquito Control Pricing in {CITY}</p>
-            <p className="text-gray-600 text-sm mt-0.5">Single treatment from <strong className="text-brand-700">$99</strong> · 5-treatment seasonal program from <strong className="text-brand-700">$399</strong> · No contracts</p>
+            <p className="text-gray-600 text-sm mt-0.5">Professional mosquito control from <strong className="text-brand-700">$99</strong> per treatment · No contracts</p>
           </div>
           <Link href="/contact" className="shrink-0 bg-amber-500 hover:bg-amber-400 text-white font-bold px-6 py-2.5 rounded-full text-sm transition-colors">Get a Free Quote</Link>
         </div>

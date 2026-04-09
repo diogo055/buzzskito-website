@@ -18,7 +18,7 @@ const NEIGHBOURHOODS = ["Mount Pleasant","Gore Meadows","Castlemore","Springdale
 const FAQS = [
   {
     question: 'How much does mosquito control cost in Brampton?',
-    answer: 'BuzzSkito mosquito treatments in Brampton start from $99 per application for a standard residential lot. A full 5-treatment seasonal program covering May through September starts from $399. No contracts — book a single treatment or a full season. Properties near stormwater ponds, Heart Lake Conservation Area, or Etobicoke Creek typically benefit most from the complete seasonal package. Call (289) 216-5030 for a free, no-obligation quote.',
+    answer: 'BuzzSkito mosquito treatments in Brampton start from $99 per application for a standard residential lot. No contracts. Properties near stormwater ponds, Heart Lake Conservation Area, or Etobicoke Creek typically benefit most from the complete seasonal package. Call (289) 216-5030 for a free, no-obligation quote.',
   },
   {
     question: 'Why does Brampton have so many mosquitoes?',
@@ -96,7 +96,7 @@ export default function BramptonMosquitoPage() {
         <div className="max-w-4xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-3">
           <div>
             <p className="font-extrabold text-brand-900 text-base">Mosquito Control Pricing in {CITY}</p>
-            <p className="text-gray-600 text-sm mt-0.5">Single treatment from <strong className="text-brand-700">$99</strong> · 5-treatment seasonal program from <strong className="text-brand-700">$399</strong> · No contracts</p>
+            <p className="text-gray-600 text-sm mt-0.5">Professional mosquito control from <strong className="text-brand-700">$99</strong> per treatment · No contracts</p>
           </div>
           <Link href="/contact" className="shrink-0 bg-amber-500 hover:bg-amber-400 text-white font-bold px-6 py-2.5 rounded-full text-sm transition-colors">Get a Free Quote</Link>
         </div>
