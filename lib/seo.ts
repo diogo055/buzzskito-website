@@ -91,9 +91,15 @@ export function serviceSchema(opts: { name: string; description: string; slug: s
     serviceType: 'Pest Control',
     offers: {
       '@type': 'Offer',
+      price: '99',
       priceCurrency: 'CAD',
       availability: 'https://schema.org/InStock',
-      seller: { '@type': 'PestControlService', name: BUSINESS.legalName, url: SITE_URL },
+      priceSpecification: {
+        '@type': 'UnitPriceSpecification',
+        price: '99',
+        priceCurrency: 'CAD',
+        unitText: 'treatment',
+      },
     },
   }
 }
@@ -184,7 +190,7 @@ export function reviewSchema() {
 // Pass the canonical path of the page (e.g. '/toronto-mosquito-control').
 export function speakableSchema(path: string) {
   return {
-    '@context': 'https://schema.org/',
+    '@context': 'https://schema.org',
     '@type': 'WebPage',
     '@id': `${SITE_URL}${path}#webpage`,
     url: `${SITE_URL}${path}`,
