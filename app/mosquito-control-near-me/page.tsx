@@ -123,6 +123,12 @@ export default function MosquitoControlNearMePage() {
             <p className="text-gray-600 mb-4">The Greater Toronto Area has one of the most extensive urban ravine and green corridor networks in North America. The Don Valley, Humber River, Highland Creek, Bronte Creek, and dozens of smaller tributaries create persistent, high-volume mosquito breeding habitat throughout the region. Neighbourhood properties adjacent to these corridors experience seasonal mosquito pressure that significantly exceeds what source reduction alone can address.</p>
             <p className="text-gray-600">BuzzSkito's barrier spray creates a treated perimeter around your property — targeting the resting vegetation where mosquitoes and ticks spend most of their time — eliminating active populations and providing up to 30 days of residual protection per visit.</p>
           </div>
+
+          <div className="mt-8 bg-amber-50 border border-amber-200 rounded-2xl p-6">
+            <h2 className="text-xl font-extrabold text-brand-900 mb-2">How Much Does Mosquito Control Cost Near You?</h2>
+            <p className="text-gray-600 text-sm mb-3">BuzzSkito mosquito treatments start from <strong className="text-brand-700">$99 per treatment</strong> across all GTA service areas. No contracts, rain-back guarantee included.</p>
+            <Link href="/mosquito-control-cost" className="inline-block text-sm font-bold text-brand-700 underline hover:text-brand-900">See our full 2026 Ontario pricing guide →</Link>
+          </div>
         </div>
       </section>
 

@@ -110,6 +110,8 @@ export default function Footer() {
             <ul className="space-y-2 text-sm mb-6">
               <li><Link href="/buzzskito-history" className="hover:text-white transition-colors">About BuzzSkito</Link></li>
               <li><Link href="/frequently-asked-question" className="hover:text-white transition-colors">FAQ</Link></li>
+              <li><Link href="/mosquito-control-cost" className="hover:text-white transition-colors">2026 Pricing Guide</Link></li>
+              <li><Link href="/mosquito-control-near-me" className="hover:text-white transition-colors">Service Areas Near Me</Link></li>
               <li><Link href="/service-areas" className="hover:text-white transition-colors">All Service Areas</Link></li>
               <li><Link href="/contact" className="hover:text-white transition-colors">Contact / Get a Quote</Link></li>
               <li><Link href="/privacy-policy" className="hover:text-white transition-colors">Privacy Policy</Link></li>

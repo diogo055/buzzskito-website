@@ -7,7 +7,7 @@ import { MOSQUITO_BLOGS } from '@/lib/constants'
 const POST = MOSQUITO_BLOGS.supporting[1]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'How Long Does Mosquito Spray Last? GTA Homeowner Guide | BuzzSkito',
+  title: 'How Long Does Mosquito Spray Last? (Up to 30 Days) | BuzzSkito',
   description: 'Professional barrier spray vs. store-bought: protection windows, rain resistance, re-application schedules, and what affects longevity for Ontario conditions.',
   canonical: `/blog/${POST.slug}`,
   type: 'article',
@@ -162,7 +162,7 @@ export default function MosquitoSprayLastPage() {
           <li><Link href={`/blog/${MOSQUITO_BLOGS.pillar.slug}`} className="text-brand-700 hover:underline">{MOSQUITO_BLOGS.pillar.title}</Link></li>
           <li><Link href="/blog/mosquito-vs-diy-vs-professional-control" className="text-brand-700 hover:underline">DIY vs. Professional Mosquito Control: What Actually Works</Link></li>
           <li><Link href="/blog/mosquito-season-gta-when-does-it-start" className="text-brand-700 hover:underline">When Does Mosquito Season Start in the GTA?</Link></li>
-          <li><Link href="/blog/mosquito-control-cost-ontario" className="text-brand-700 hover:underline">How Much Does Mosquito Control Cost in Ontario? (2026 Pricing Guide)</Link></li>
+          <li><Link href="/mosquito-control-cost" className="text-brand-700 hover:underline">How Much Does Mosquito Control Cost in Ontario? (2026 Pricing Guide)</Link></li>
           <li><Link href="/mosquito-control" className="text-brand-700 hover:underline">View Our Mosquito Control Services</Link></li>
         </ul>
       </article>

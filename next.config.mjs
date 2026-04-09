@@ -206,6 +206,9 @@ const nextConfig = {
       { source: '/f/mississauga-brampton-mosquito-tick-treatment-the-gta-s-best', destination: '/mississauga-mosquito-control', permanent: true },
       { source: '/home/f/southern-ontario-s-top-mosquito-tick-hotspots-are-you-at-risk', destination: '/mosquito-control', permanent: true },
 
+      // ── Blog post consolidation — old blog post → service page ──────────────────
+      { source: '/blog/mosquito-control-cost-ontario', destination: '/mosquito-control-cost', permanent: true },
+
       // ── URL canonicalization — clean slugs replace -1 variants ─────────────────
       { source: '/mosquito-control-sauga',  destination: '/mississauga-mosquito-control', permanent: true },
       { source: '/brampton-tick-spray-1',   destination: '/brampton-tick-spray',          permanent: true },
