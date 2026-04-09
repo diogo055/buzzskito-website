@@ -13,7 +13,22 @@ export const metadata: Metadata = buildMetadata({
 
 const CITY = 'Burlington'
 const SLUG = '/burlington-mosquito-spray'
-const NEIGHBOURHOODS = ['Alton Village','Millcroft','The Orchard','Roseland','Downtown Burlington','Shoreacres','Headon Forest','North Burlington','Palmer','Tyandaga','Brant Hills','Elizabeth Gardens','Aldershot','Mountainside']
+const NEIGHBOURHOODS: { name: string; href?: string }[] = [
+  { name: 'Alton Village', href: '/alton-village-mosquito-control' },
+  { name: 'Millcroft' },
+  { name: 'The Orchard' },
+  { name: 'Roseland', href: '/roseland-mosquito-control' },
+  { name: 'Downtown Burlington' },
+  { name: 'Shoreacres' },
+  { name: 'Headon Forest' },
+  { name: 'North Burlington' },
+  { name: 'Palmer' },
+  { name: 'Tyandaga' },
+  { name: 'Brant Hills' },
+  { name: 'Elizabeth Gardens' },
+  { name: 'Aldershot', href: '/aldershot-mosquito-control' },
+  { name: 'Mountainside' },
+]
 
 const FAQS = [
   {
@@ -119,8 +134,10 @@ export default function BurlingtonMosquitoPage() {
 
           <h2>Burlington Neighbourhoods We Serve</h2>
           <div className="not-prose flex flex-wrap gap-2 mb-6">
-            {NEIGHBOURHOODS.map((n) => (
-              <span key={n} className="text-sm bg-brand-50 border border-brand-200 text-brand-700 px-3 py-1.5 rounded-full">{n}</span>
+            {NEIGHBOURHOODS.map(({ name, href }) => href ? (
+              <Link key={name} href={href} className="text-sm bg-brand-50 border border-brand-200 text-brand-700 px-3 py-1.5 rounded-full hover:bg-brand-100 transition-colors">{name}</Link>
+            ) : (
+              <span key={name} className="text-sm bg-brand-50 border border-brand-200 text-brand-700 px-3 py-1.5 rounded-full">{name}</span>
             ))}
           </div>
 

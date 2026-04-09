@@ -150,7 +150,7 @@ export default function OutdoorEventMosquitoPage() {
 
         <h2>Combining Pre-Event Treatment with Your Seasonal Package</h2>
         <p>The most cost-effective approach for GTA homeowners who host regular outdoor events is a full seasonal package. Five treatments from May through September provide continuous protection — your summer parties, your everyday evenings, and your kids&apos; outdoor time are all covered without needing to schedule separate event treatments. The per-visit cost drops significantly when booked as a season, and the property stays consistently protected between visits.</p>
-        <p>See our <Link href="/blog/mosquito-control-cost-ontario" className="text-brand-700 underline">full Ontario pricing guide</Link> for package cost ranges.</p>
+        <p>See our <Link href="/mosquito-control-cost" className="text-brand-700 underline">full Ontario pricing guide</Link> for package cost ranges.</p>
 
         <h2>Frequently Asked Questions</h2>
         <div className="not-prose space-y-4 my-6">
@@ -165,7 +165,7 @@ export default function OutdoorEventMosquitoPage() {
         <h2>Related Guides</h2>
         <ul>
           <li><Link href={`/blog/${MOSQUITO_BLOGS.pillar.slug}`} className="text-brand-700 hover:underline">{MOSQUITO_BLOGS.pillar.title}</Link></li>
-          <li><Link href="/blog/mosquito-control-cost-ontario" className="text-brand-700 hover:underline">How Much Does Mosquito Control Cost in Ontario?</Link></li>
+          <li><Link href="/mosquito-control-cost" className="text-brand-700 hover:underline">How Much Does Mosquito Control Cost in Ontario?</Link></li>
           <li><Link href="/blog/how-long-does-mosquito-spray-last" className="text-brand-700 hover:underline">How Long Does Mosquito Spray Last?</Link></li>
           <li><Link href="/blog/is-mosquito-spray-safe-kids-pets" className="text-brand-700 hover:underline">Is Professional Mosquito Spray Safe for Kids and Pets?</Link></li>
           <li><Link href="/mosquito-control" className="text-brand-700 hover:underline">View Our Mosquito Control Services</Link></li>

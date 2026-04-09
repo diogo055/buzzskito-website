@@ -13,7 +13,22 @@ export const metadata: Metadata = buildMetadata({
 
 const CITY = 'Toronto'
 const SLUG = '/toronto-mosquito-control'
-const NEIGHBOURHOODS = ['High Park','East York','Don Mills','The Beaches','Scarborough','North York','Etobicoke','Leslieville','Rosedale','Forest Hill','Leaside','Willowdale','Lawrence Park','York Mills']
+const NEIGHBOURHOODS: { name: string; href?: string }[] = [
+  { name: 'High Park' },
+  { name: 'East York', href: '/east-york-mosquito-control' },
+  { name: 'Don Mills', href: '/don-mills-mosquito-control' },
+  { name: 'The Beaches', href: '/the-beaches-mosquito-control' },
+  { name: 'Scarborough' },
+  { name: 'North York' },
+  { name: 'Etobicoke' },
+  { name: 'Leslieville' },
+  { name: 'Rosedale', href: '/rosedale-mosquito-control' },
+  { name: 'Forest Hill', href: '/forest-hill-mosquito-control' },
+  { name: 'Leaside', href: '/leaside-mosquito-control' },
+  { name: 'Willowdale', href: '/willowdale-mosquito-control' },
+  { name: 'Lawrence Park' },
+  { name: 'York Mills', href: '/york-mills-mosquito-control' },
+]
 
 const FAQS = [
   {
@@ -126,8 +141,10 @@ export default function TorontoMosquitoPage() {
 
           <h2>Toronto Neighbourhoods We Serve</h2>
           <div className="not-prose flex flex-wrap gap-2 mb-6">
-            {NEIGHBOURHOODS.map((n) => (
-              <span key={n} className="text-sm bg-brand-50 border border-brand-200 text-brand-700 px-3 py-1.5 rounded-full">{n}</span>
+            {NEIGHBOURHOODS.map(({ name, href }) => href ? (
+              <Link key={name} href={href} className="text-sm bg-brand-50 border border-brand-200 text-brand-700 px-3 py-1.5 rounded-full hover:bg-brand-100 transition-colors">{name}</Link>
+            ) : (
+              <span key={name} className="text-sm bg-brand-50 border border-brand-200 text-brand-700 px-3 py-1.5 rounded-full">{name}</span>
             ))}
           </div>
 
@@ -159,7 +176,7 @@ export default function TorontoMosquitoPage() {
               </tbody>
             </table>
           </div>
-          <p>Each treatment covers all vegetation on your property up to 10 feet high, with targeted coverage along ravine edges and fence lines. Protection lasts up to 30 days per visit. See our <Link href="/blog/mosquito-control-cost-ontario" className="text-brand-700 hover:underline">2026 mosquito control pricing guide</Link> for typical costs in the GTA.</p>
+          <p>Each treatment covers all vegetation on your property up to 10 feet high, with targeted coverage along ravine edges and fence lines. Protection lasts up to 30 days per visit. See our <Link href="/mosquito-control-cost" className="text-brand-700 hover:underline">2026 mosquito control pricing guide</Link> for typical costs in the GTA.</p>
 
           <h2>What's Included in Our Toronto Mosquito Treatment</h2>
           <ul>

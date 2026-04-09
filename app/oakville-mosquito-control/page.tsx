@@ -13,7 +13,20 @@ export const metadata: Metadata = buildMetadata({
 
 const CITY = 'Oakville'
 const SLUG = '/oakville-mosquito-control'
-const NEIGHBOURHOODS = ['Bronte','Glen Abbey','Joshua Creek','West Oak Trails','Clearview','Palermo','River Oaks','Kerr Village','Old Oakville','Uptown Core','North Oakville','Iroquois Ridge']
+const NEIGHBOURHOODS: { name: string; href?: string }[] = [
+  { name: 'Bronte', href: '/bronte-mosquito-control' },
+  { name: 'Glen Abbey', href: '/glen-abbey-mosquito-control' },
+  { name: 'Joshua Creek' },
+  { name: 'West Oak Trails', href: '/west-oak-trails-mosquito-control' },
+  { name: 'Clearview' },
+  { name: 'Palermo' },
+  { name: 'River Oaks' },
+  { name: 'Kerr Village' },
+  { name: 'Old Oakville', href: '/old-oakville-mosquito-control' },
+  { name: 'Uptown Core' },
+  { name: 'North Oakville', href: '/north-oakville-mosquito-control' },
+  { name: 'Iroquois Ridge' },
+]
 
 const FAQS = [
   {
@@ -123,8 +136,10 @@ export default function OakvilleMosquitoPage() {
 
           <h2>Oakville Neighbourhoods We Serve</h2>
           <div className="not-prose flex flex-wrap gap-2 mb-6">
-            {NEIGHBOURHOODS.map((n) => (
-              <span key={n} className="text-sm bg-brand-50 border border-brand-200 text-brand-700 px-3 py-1.5 rounded-full">{n}</span>
+            {NEIGHBOURHOODS.map(({ name, href }) => href ? (
+              <Link key={name} href={href} className="text-sm bg-brand-50 border border-brand-200 text-brand-700 px-3 py-1.5 rounded-full hover:bg-brand-100 transition-colors">{name}</Link>
+            ) : (
+              <span key={name} className="text-sm bg-brand-50 border border-brand-200 text-brand-700 px-3 py-1.5 rounded-full">{name}</span>
             ))}
           </div>
 

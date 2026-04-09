@@ -121,7 +121,7 @@ export default function MosquitoSprayCompaniesPage() {
         <p>Look specifically for reviews that describe results over time — not just "friendly tech" or "on time." Reviews that say things like "we had a party two weeks later and nobody got bitten" tell you the product actually worked. Generic service reviews are useless for evaluating efficacy.</p>
 
         <h3>7. Transparent Per-Visit Pricing</h3>
-        <p>Reputable companies price by treated area. Be cautious of companies that lock you into long multi-year contracts without clear cancellation terms, or that quote you a price without assessing your property. For current pricing in Ontario, see our <Link href="/blog/mosquito-control-cost-ontario" className="text-brand-700 hover:underline">2026 mosquito control cost guide</Link>.</p>
+        <p>Reputable companies price by treated area. Be cautious of companies that lock you into long multi-year contracts without clear cancellation terms, or that quote you a price without assessing your property. For current pricing in Ontario, see our <Link href="/mosquito-control-cost" className="text-brand-700 hover:underline">2026 mosquito control cost guide</Link>.</p>
 
         <h2>Fogging vs. Barrier Spray: What Most GTA Companies Actually Use</h2>
         <p>Fogging disperses a mist into open air to knock down adult mosquitoes immediately — results last hours to a few days at most. It looks dramatic but provides no lasting protection. Most reputable residential mosquito companies in the GTA use <strong>barrier spray</strong>, not fogging, precisely because it creates residual protection that lasts up to 30 days.</p>
@@ -142,7 +142,7 @@ export default function MosquitoSprayCompaniesPage() {
 
         <h2>Related Guides</h2>
         <ul>
-          <li><Link href="/blog/mosquito-control-cost-ontario" className="text-brand-700 hover:underline">How Much Does Mosquito Control Cost in Ontario? (2026 Pricing Guide)</Link></li>
+          <li><Link href="/mosquito-control-cost" className="text-brand-700 hover:underline">How Much Does Mosquito Control Cost in Ontario? (2026 Pricing Guide)</Link></li>
           <li><Link href="/blog/mosquito-vs-diy-vs-professional-control" className="text-brand-700 hover:underline">DIY vs. Professional Mosquito Control: What Actually Works</Link></li>
           <li><Link href="/blog/how-long-does-mosquito-spray-last" className="text-brand-700 hover:underline">How Long Does Mosquito Spray Last?</Link></li>
           <li><Link href="/blog/is-mosquito-spray-safe-kids-pets" className="text-brand-700 hover:underline">Is Mosquito Spray Safe for Kids and Pets?</Link></li>
