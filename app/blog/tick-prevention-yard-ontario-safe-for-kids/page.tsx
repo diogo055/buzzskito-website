@@ -5,7 +5,7 @@ import { buildMetadata, breadcrumbSchema, faqSchema, blogPostingSchema, speakabl
 import { BUSINESS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Tick Prevention Yard Ontario | Safe for Kids | BuzzSkito',
+  title: 'Tick Prevention Yard Ontario | Kids Safe | BuzzSkito',
   description:
     'How to make your Ontario backyard safe from ticks. Kid-safe yard treatment strategies, prevention tips. From $99.',
   canonical: '/blog/tick-prevention-yard-ontario-safe-for-kids',

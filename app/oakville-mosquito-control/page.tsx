@@ -5,7 +5,7 @@ import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusines
 import { BUSINESS, MOSQUITO_BLOGS, TICK_BLOGS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Mosquito Control Oakville | $99, No Contracts | BuzzSkito',
+  title: 'Mosquito Control Oakville | $99 | BuzzSkito',
   description:
     'Mosquito control in Oakville. Barrier spray from $99. Serving Glen Abbey, Bronte, Old Oakville & all areas. Call (289) 216-5030.',
   canonical: '/oakville-mosquito-control',

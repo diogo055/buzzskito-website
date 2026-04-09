@@ -7,7 +7,7 @@ import { NEW_BLOGS, MOSQUITO_BLOGS } from '@/lib/constants'
 const POST = NEW_BLOGS[3]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Mosquito Season in Scarborough & East Toronto | BuzzSkito',
+  title: 'Mosquito Season Scarborough & East Toronto | BuzzSkito',
   description:
     "Scarborough's Rouge National Urban Park and Highland Creek valley are among the GTA's most active mosquito zones. Here's what east-end homeowners can do about it.",
   canonical: `/blog/${POST.slug}`,

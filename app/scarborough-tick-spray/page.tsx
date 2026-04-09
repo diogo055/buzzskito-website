@@ -5,7 +5,7 @@ import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusines
 import { BUSINESS, TICK_BLOGS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Tick Spray Scarborough | From $99, No Contracts | BuzzSkito',
+  title: 'Tick Spray Scarborough | $99 | BuzzSkito',
   description:
     'Professional tick spray in Scarborough. Rouge National Urban Park and Highland Creek valley are among the GTA\'s highest-risk tick areas. Serving Guildwood, West Hill, Rouge & all Scarborough. Call (289) 216-5030.',
   canonical: '/scarborough-tick-spray',
