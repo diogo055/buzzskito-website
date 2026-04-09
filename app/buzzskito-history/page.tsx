@@ -7,7 +7,7 @@ import { BUSINESS } from '@/lib/constants'
 export const metadata: Metadata = buildMetadata({
   title: 'About BuzzSkito | GTA Mosquito & Tick Control Company',
   description:
-    'BuzzSkito is a GTA-based mosquito and tick control company serving 19 cities across Southern Ontario. Health Canada–approved barrier spray, 126 five-star reviews, no contracts. Learn about our team and approach.',
+    'Learn about BuzzSkito — professional mosquito & tick control for the GTA. Health Canada-approved treatments from $99.',
   canonical: '/buzzskito-history',
 })
 

@@ -7,7 +7,7 @@ import { BUSINESS, MOSQUITO_BLOGS } from '@/lib/constants'
 export const metadata: Metadata = buildMetadata({
   title: 'Mosquito Control Rosedale Toronto | BuzzSkito',
   description:
-    'Professional mosquito control spray for Rosedale homes. Don Valley ravines create intense mosquito pressure for ravine-adjacent properties. 30-day protection. Call (289) 216-5030.',
+    'Mosquito control in Rosedale, Toronto. Barrier spray near Don Valley ravines from $99. No contracts. Call (289) 216-5030.',
   canonical: '/rosedale-mosquito-control',
 })
 

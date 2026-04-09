@@ -7,7 +7,7 @@ import { BUSINESS, MOSQUITO_BLOGS, TICK_BLOGS } from '@/lib/constants'
 export const metadata: Metadata = buildMetadata({
   title: 'Mosquito Spray Burlington | From $99, No Contracts | BuzzSkito',
   description:
-    'Professional mosquito spray and control in Burlington. Serving Alton Village, Millcroft, The Orchard, Roseland, Shoreacres, Aldershot & all Burlington neighbourhoods. Call (289) 216-5030.',
+    'Professional mosquito spray in Burlington. Serving Alton Village, Roseland, Aldershot & all neighbourhoods. From $99, no contracts. Call (289) 216-5030.',
   canonical: '/burlington-mosquito-spray',
 })
 

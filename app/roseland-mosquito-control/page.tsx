@@ -7,7 +7,7 @@ import { BUSINESS, MOSQUITO_BLOGS } from '@/lib/constants'
 export const metadata: Metadata = buildMetadata({
   title: 'Mosquito Control Roseland Burlington | BuzzSkito',
   description:
-    'Professional mosquito control spray for Roseland homes in Burlington. Mature tree canopy and Lake Ontario waterfront proximity create intense seasonal mosquito pressure. 30-day protection. Call (289) 216-5030.',
+    'Mosquito control in Roseland, Burlington. Barrier spray near the lakeshore from $99. No contracts. Call (289) 216-5030.',
   canonical: '/roseland-mosquito-control',
 })
 

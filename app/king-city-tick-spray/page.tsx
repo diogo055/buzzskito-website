@@ -7,7 +7,7 @@ import { BUSINESS, TICK_BLOGS } from '@/lib/constants'
 export const metadata: Metadata = buildMetadata({
   title: 'Tick Spray King City | From $99, No Contracts | BuzzSkito',
   description:
-    'Professional tick spray in King City. King Township sits on the Oak Ridges Moraine and reports some of the highest blacklegged tick activity in York Region. Serving King City, Nobleton, Schomberg & all King Township. Call (289) 216-5030.',
+    'Professional tick spray in King City, ON. Protect your property from blacklegged ticks. From $99. Call (289) 216-5030.',
   canonical: '/king-city-tick-spray',
 })
 

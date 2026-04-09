@@ -7,7 +7,7 @@ import { BUSINESS, MOSQUITO_BLOGS } from '@/lib/constants'
 export const metadata: Metadata = buildMetadata({
   title: 'Mosquito Control Willowdale Toronto | BuzzSkito',
   description:
-    'Professional mosquito control spray for Willowdale (North York) homes. Don River headwaters and ravine corridors drive seasonal mosquito activity. 30-day protection. Call (289) 216-5030.',
+    'Mosquito control in Willowdale, Toronto. Barrier spray from $99. Safe for kids & pets in 30 min. Call (289) 216-5030.',
   canonical: '/willowdale-mosquito-control',
 })
 

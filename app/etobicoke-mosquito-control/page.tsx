@@ -7,7 +7,7 @@ import { BUSINESS, MOSQUITO_BLOGS } from '@/lib/constants'
 export const metadata: Metadata = buildMetadata({
   title: 'Mosquito Control Etobicoke | BuzzSkito – Humber River to Lakeshore Protection',
   description:
-    'Professional mosquito spray in Etobicoke. Serving Mimico, Long Branch, The Kingsway, Humber Valley, Rexdale & all Etobicoke neighbourhoods. Humber River corridor and Lake Ontario shoreline drive intense mosquito pressure. Call (289) 216-5030.',
+    'Mosquito control in Etobicoke, Toronto. Barrier spray near Humber River from $99. Health Canada-approved. Call (289) 216-5030.',
   canonical: '/etobicoke-mosquito-control',
 })
 

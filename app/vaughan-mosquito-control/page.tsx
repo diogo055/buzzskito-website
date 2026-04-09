@@ -7,7 +7,7 @@ import { BUSINESS, MOSQUITO_BLOGS } from '@/lib/constants'
 export const metadata: Metadata = buildMetadata({
   title: 'Mosquito Control Vaughan | BuzzSkito – Barrier Spray for Vaughan Yards',
   description:
-    'Professional mosquito barrier spray in Vaughan. Serving Woodbridge, Kleinburg, Maple, Concord, Vellore Village & all Vaughan neighbourhoods. Boyd Conservation Area and Humber River drive intense local mosquito pressure. Call (289) 216-5030.',
+    'Mosquito control in Vaughan, ON. Professional barrier spray from $99. Serving Woodbridge, Thornhill & Kleinburg. Call (289) 216-5030.',
   canonical: '/vaughan-mosquito-control',
 })
 

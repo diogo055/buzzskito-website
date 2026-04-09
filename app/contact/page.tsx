@@ -7,7 +7,7 @@ import { BUSINESS } from '@/lib/constants'
 export const metadata: Metadata = buildMetadata({
   title: 'Get a Free Mosquito & Tick Control Quote | BuzzSkito',
   description:
-    'Request a free mosquito or tick control quote for your property. BuzzSkito serves Mississauga, Toronto, Brampton, Oakville, Burlington & Hamilton. Call (289) 216-5030.',
+    'Get a free mosquito or tick control quote for your GTA property. Call (289) 216-5030 or fill out our form. Same-week service available.',
   canonical: '/contact',
 })
 

@@ -7,7 +7,7 @@ import { BUSINESS, MOSQUITO_BLOGS } from '@/lib/constants'
 export const metadata: Metadata = buildMetadata({
   title: 'Mosquito Control Markham | BuzzSkito – Rouge River to Toogood Pond Protection',
   description:
-    'Professional mosquito spray in Markham. Serving Unionville, Cornell, Berczy Village, Angus Glen & all Markham neighbourhoods. Rouge River system and Don River headwaters drive intense local mosquito pressure. Call (289) 216-5030.',
+    'Mosquito control in Markham, ON. Professional barrier spray from $99. No contracts. Health Canada-approved. Call (289) 216-5030.',
   canonical: '/markham-mosquito-control',
 })
 

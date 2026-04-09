@@ -7,7 +7,7 @@ import { BUSINESS, MOSQUITO_BLOGS } from '@/lib/constants'
 export const metadata: Metadata = buildMetadata({
   title: 'Mosquito Control Castlemore Brampton | BuzzSkito',
   description:
-    'Professional mosquito control spray for Castlemore homes in Brampton. Humber River and conservation corridors drive intense seasonal mosquito activity. 30-day protection. Call (289) 216-5030.',
+    'Mosquito control in Castlemore, Brampton. Professional barrier spray from $99. Safe for kids & pets in 30 min. Call (289) 216-5030.',
   canonical: '/castlemore-mosquito-control',
 })
 

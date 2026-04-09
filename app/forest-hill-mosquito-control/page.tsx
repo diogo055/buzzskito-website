@@ -7,7 +7,7 @@ import { BUSINESS, MOSQUITO_BLOGS } from '@/lib/constants'
 export const metadata: Metadata = buildMetadata({
   title: 'Mosquito Control Forest Hill Toronto | BuzzSkito',
   description:
-    'Professional mosquito control spray for Forest Hill homes. Ravine-adjacent properties face intense mosquito pressure from the Don Valley corridor. 30-day protection. Call (289) 216-5030.',
+    'Mosquito control in Forest Hill, Toronto. Barrier spray near ravines from $99. Safe for kids & pets. Call (289) 216-5030.',
   canonical: '/forest-hill-mosquito-control',
 })
 

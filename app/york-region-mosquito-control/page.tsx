@@ -7,7 +7,7 @@ import { BUSINESS, MOSQUITO_BLOGS, TICK_BLOGS } from '@/lib/constants'
 export const metadata: Metadata = buildMetadata({
   title: 'Mosquito & Tick Control York Region | BuzzSkito',
   description:
-    'Professional mosquito and tick barrier spray across York Region. Serving Vaughan, Richmond Hill, Markham, Thornhill, King City, Kleinburg, Woodbridge & all York Region communities. Oak Ridges Moraine and Humber River valley create extreme tick risk. Call (289) 216-5030.',
+    'Mosquito control in York Region. Serving Vaughan, Richmond Hill, Markham & all cities. From $99, no contracts. Call (289) 216-5030.',
   canonical: '/york-region-mosquito-control',
 })
 

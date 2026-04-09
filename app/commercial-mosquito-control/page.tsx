@@ -7,7 +7,7 @@ import { BUSINESS } from '@/lib/constants'
 export const metadata: Metadata = buildMetadata({
   title: 'Commercial Mosquito Control GTA | BuzzSkito',
   description:
-    'Professional commercial mosquito and tick control for GTA businesses — restaurants, resorts, golf courses, property managers, HOAs, and event venues. Health Canada–approved. Call (289) 216-5030.',
+    'Commercial mosquito control for GTA businesses. Professional barrier spray for restaurants, event venues & properties. Call (289) 216-5030.',
   canonical: '/commercial-mosquito-control',
 })
 

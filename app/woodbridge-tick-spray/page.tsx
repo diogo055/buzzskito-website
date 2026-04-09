@@ -7,7 +7,7 @@ import { BUSINESS, TICK_BLOGS } from '@/lib/constants'
 export const metadata: Metadata = buildMetadata({
   title: 'Tick Spray Woodbridge | From $99, No Contracts | BuzzSkito',
   description:
-    'Professional tick spray in Woodbridge. Boyd Conservation Area and Humber River valley are established blacklegged tick habitat. Serving Islington Woods, Pine Valley, Sonoma Heights & all Woodbridge. Call (289) 216-5030.',
+    'Professional tick spray in Woodbridge, Vaughan. Protect your yard from blacklegged ticks. From $99. Call (289) 216-5030.',
   canonical: '/woodbridge-tick-spray',
 })
 

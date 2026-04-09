@@ -7,7 +7,7 @@ import { BUSINESS, MOSQUITO_BLOGS } from '@/lib/constants'
 export const metadata: Metadata = buildMetadata({
   title: 'Mosquito Control Caledon | BuzzSkito – Rural Property Mosquito Spray',
   description:
-    'Professional mosquito spray in Caledon. Serving Bolton, Caledon East, Palgrave, Inglewood, Alton & all Caledon communities. Humber River headwaters, Credit River, and Forks of the Credit drive intense rural mosquito pressure. Call (289) 216-5030.',
+    'Mosquito control in Caledon, ON. Professional barrier spray from $99. Health Canada-approved. No contracts. Call (289) 216-5030.',
   canonical: '/caledon-mosquito-control',
 })
 

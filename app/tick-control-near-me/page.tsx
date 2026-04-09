@@ -7,7 +7,7 @@ import { BUSINESS, CITIES } from '@/lib/constants'
 export const metadata: Metadata = buildMetadata({
   title: 'Tick Control Near Me | GTA Tick Spray Service – BuzzSkito',
   description:
-    'Professional tick control near you. BuzzSkito serves 19 GTA cities — Mississauga, Toronto, Brampton, Oakville, Burlington, Vaughan, York Region & more. Health Canada–approved tick spray. Call (289) 216-5030.',
+    'Tick control near you in the GTA. BuzzSkito serves Mississauga, Toronto, Brampton, Oakville, Burlington & Hamilton. From $99.',
   canonical: '/tick-control-near-me',
 })
 

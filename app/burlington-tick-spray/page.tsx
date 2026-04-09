@@ -7,7 +7,7 @@ import { BUSINESS, TICK_BLOGS } from '@/lib/constants'
 export const metadata: Metadata = buildMetadata({
   title: 'Tick Spray Burlington | From $99, No Contracts | BuzzSkito',
   description:
-    'Professional tick spray in Burlington. Serving Alton Village, Millcroft, The Orchard, Roseland & all Burlington neighbourhoods. Up to 30-day tick protection. Call (289) 216-5030.',
+    'Professional tick spray in Burlington. Protect your yard near the Escarpment & Royal Botanical Gardens. From $99. Call (289) 216-5030.',
   canonical: '/burlington-tick-spray',
 })
 

@@ -7,7 +7,7 @@ import { BUSINESS, TICK_BLOGS } from '@/lib/constants'
 export const metadata: Metadata = buildMetadata({
   title: 'Tick Spray Milton | From $99, No Contracts | BuzzSkito',
   description:
-    'Professional tick spray in Milton. Rattlesnake Point, Crawford Lake, Kelso Conservation Area, and Sixteen Mile Creek are well-documented blacklegged tick habitats. Serving all Milton neighbourhoods. Call (289) 216-5030.',
+    'Professional tick spray in Milton, ON. Protect your yard near the Escarpment & conservation areas. From $99. Call (289) 216-5030.',
   canonical: '/milton-tick-spray',
 })
 

@@ -7,7 +7,7 @@ import { BUSINESS, MOSQUITO_BLOGS } from '@/lib/constants'
 export const metadata: Metadata = buildMetadata({
   title: 'Mosquito Control Richmond Hill | BuzzSkito – Lake Wilcox to Mill Pond Protection',
   description:
-    'Professional mosquito spray in Richmond Hill. Serving Oak Ridges, Jefferson, Bayview Hill, Mill Pond & all Richmond Hill neighbourhoods. Lake Wilcox and the Oak Ridges Moraine drive peak mosquito pressure. Call (289) 216-5030.',
+    'Mosquito control in Richmond Hill, ON. Professional barrier spray from $99. No contracts. Call (289) 216-5030.',
   canonical: '/richmond-hill-mosquito-control',
 })
 

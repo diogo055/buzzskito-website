@@ -7,7 +7,7 @@ import { BUSINESS, MOSQUITO_BLOGS, TICK_BLOGS } from '@/lib/constants'
 export const metadata: Metadata = buildMetadata({
   title: 'Mosquito Control Kleinburg | From $99, No Contracts | BuzzSkito',
   description:
-    'Professional mosquito barrier spray in Kleinburg, ON. Humber River frontage and conservation land create extreme mosquito and tick pressure. Serving Kleinburg Village, Nashville Road & surrounding rural properties. Call (289) 216-5030.',
+    'Mosquito control in Kleinburg, Vaughan. Professional barrier spray from $99. Health Canada-approved. Call (289) 216-5030.',
   canonical: '/kleinburg-mosquito-control',
 })
 

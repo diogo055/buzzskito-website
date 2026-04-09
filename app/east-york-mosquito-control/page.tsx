@@ -7,7 +7,7 @@ import { BUSINESS, MOSQUITO_BLOGS } from '@/lib/constants'
 export const metadata: Metadata = buildMetadata({
   title: 'Mosquito Control East York Toronto | BuzzSkito',
   description:
-    'Professional mosquito control spray for East York homes. Don Valley and Taylor Creek corridors drive intense seasonal mosquito pressure. 30-day protection. Call (289) 216-5030.',
+    'Mosquito control in East York, Toronto. Barrier spray near Taylor Creek from $99. Safe for kids & pets. Call (289) 216-5030.',
   canonical: '/east-york-mosquito-control',
 })
 

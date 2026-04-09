@@ -7,7 +7,7 @@ import { BUSINESS, MOSQUITO_BLOGS } from '@/lib/constants'
 export const metadata: Metadata = buildMetadata({
   title: 'Mosquito Control Bronte Oakville | BuzzSkito',
   description:
-    'Professional mosquito control spray for Bronte homes in Oakville. Bronte Creek Provincial Park and Lake Ontario waterfront drive intense seasonal mosquito pressure. 30-day protection. Call (289) 216-5030.',
+    'Professional mosquito control in Bronte, Oakville. Barrier spray near Bronte Creek from $99. Safe for kids & pets. Call (289) 216-5030.',
   canonical: '/bronte-mosquito-control',
 })
 

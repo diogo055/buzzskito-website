@@ -7,7 +7,7 @@ import { BUSINESS, TICK_BLOGS } from '@/lib/constants'
 export const metadata: Metadata = buildMetadata({
   title: 'Tick Spray Halton Hills | From $99, No Contracts | BuzzSkito',
   description:
-    'Professional tick spray in Halton Hills. Among the highest tick risk in the western GTA — Credit River, Silver Creek, and Niagara Escarpment trails all host established tick populations. Serving Georgetown, Acton & all Halton Hills. Call (289) 216-5030.',
+    'Tick spray in Halton Hills. Protect your yard from blacklegged ticks near Bruce Trail. From $99. Call (289) 216-5030.',
   canonical: '/halton-hills-tick-spray',
 })
 

@@ -7,7 +7,7 @@ import { BUSINESS, MOSQUITO_BLOGS } from '@/lib/constants'
 export const metadata: Metadata = buildMetadata({
   title: 'Mosquito Control Halton Hills | BuzzSkito – Credit River & Silver Creek Spray',
   description:
-    'Professional mosquito spray in Halton Hills. Serving Georgetown, Acton, Glen Williams, Norval, Limehouse & all Halton Hills communities. Credit River, Silver Creek, and Fairy Lake drive intense seasonal mosquito pressure. Call (289) 216-5030.',
+    'Mosquito control in Halton Hills. Professional barrier spray from $99. Serving Georgetown, Acton & all areas. Call (289) 216-5030.',
   canonical: '/halton-hills-mosquito-control',
 })
 

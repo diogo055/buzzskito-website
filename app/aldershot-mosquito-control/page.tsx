@@ -7,7 +7,7 @@ import { BUSINESS, MOSQUITO_BLOGS } from '@/lib/constants'
 export const metadata: Metadata = buildMetadata({
   title: 'Mosquito Control Aldershot Burlington | BuzzSkito',
   description:
-    'Professional mosquito control spray for Aldershot homes in Burlington. Royal Botanical Gardens wetlands and Burlington Bay waterfront create intense seasonal mosquito pressure. 30-day protection. Call (289) 216-5030.',
+    'Professional mosquito control in Aldershot, Burlington. Health Canada-approved barrier spray from $99. Safe for kids & pets. Call (289) 216-5030.',
   canonical: '/aldershot-mosquito-control',
 })
 

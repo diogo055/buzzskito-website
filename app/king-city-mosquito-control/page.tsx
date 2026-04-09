@@ -7,7 +7,7 @@ import { BUSINESS, MOSQUITO_BLOGS } from '@/lib/constants'
 export const metadata: Metadata = buildMetadata({
   title: 'Mosquito Control King City | BuzzSkito – Rural Estate Mosquito Spray, King Township',
   description:
-    'Professional mosquito spray in King City and King Township. Serving King City village, Nobleton, Schomberg, Kettleby & surrounding estate communities. Humber River tributaries, Oak Ridges Moraine, and rural ponds create intense seasonal pressure. Call (289) 216-5030.',
+    'Mosquito control in King City, ON. Professional barrier spray from $99. Health Canada-approved. No contracts. Call (289) 216-5030.',
   canonical: '/king-city-mosquito-control',
 })
 

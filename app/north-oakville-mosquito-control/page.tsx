@@ -7,7 +7,7 @@ import { BUSINESS, MOSQUITO_BLOGS } from '@/lib/constants'
 export const metadata: Metadata = buildMetadata({
   title: 'Mosquito Control North Oakville | BuzzSkito',
   description:
-    'Professional mosquito control spray for North Oakville (Uptown Core, Dundas) homes. Stormwater ponds and Sixteen Mile Creek drive seasonal mosquito activity. 30-day protection. Call (289) 216-5030.',
+    'Mosquito control in North Oakville. Barrier spray near 16 Mile Creek from $99. Safe for kids & pets. Call (289) 216-5030.',
   canonical: '/north-oakville-mosquito-control',
 })
 

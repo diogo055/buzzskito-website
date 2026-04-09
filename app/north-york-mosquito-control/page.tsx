@@ -7,7 +7,7 @@ import { BUSINESS, MOSQUITO_BLOGS } from '@/lib/constants'
 export const metadata: Metadata = buildMetadata({
   title: 'Mosquito Control North York | BuzzSkito – Don Valley Ravine Protection',
   description:
-    'Professional mosquito spray in North York. Serving Don Mills, Willowdale, Lawrence Park, Bayview Village, York Mills & all North York neighbourhoods. Don River valley and ravine system create intense seasonal mosquito pressure. Call (289) 216-5030.',
+    'Mosquito control in North York, Toronto. Barrier spray near Don Valley from $99. No contracts. Call (289) 216-5030.',
   canonical: '/north-york-mosquito-control',
 })
 

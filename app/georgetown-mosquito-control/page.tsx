@@ -7,7 +7,7 @@ import { BUSINESS, MOSQUITO_BLOGS } from '@/lib/constants'
 export const metadata: Metadata = buildMetadata({
   title: 'Mosquito Control Georgetown | BuzzSkito – Credit River to Silver Creek Protection',
   description:
-    'Professional mosquito spray in Georgetown. Serving Old Georgetown, Glen Williams, Norval, Stewarttown, Limehouse & all Georgetown neighbourhoods. Credit River frontage and Silver Creek conservation lands drive intense local mosquito pressure. Call (289) 216-5030.',
+    'Mosquito control in Georgetown, Halton Hills. Professional barrier spray from $99. No contracts. Call (289) 216-5030.',
   canonical: '/georgetown-mosquito-control',
 })
 

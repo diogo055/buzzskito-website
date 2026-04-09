@@ -7,7 +7,7 @@ import { BUSINESS, MOSQUITO_BLOGS } from '@/lib/constants'
 export const metadata: Metadata = buildMetadata({
   title: 'Mosquito Control Old Oakville | BuzzSkito',
   description:
-    'Professional mosquito control spray for Old Oakville homes. Sixteen Mile Creek, the Lake Ontario waterfront, and mature tree canopy create seasonal mosquito pressure. 30-day protection. Call (289) 216-5030.',
+    'Mosquito control in Old Oakville. Barrier spray near the lakeshore from $99. Safe for kids & pets. Call (289) 216-5030.',
   canonical: '/old-oakville-mosquito-control',
 })
 

@@ -7,7 +7,7 @@ import { BUSINESS } from '@/lib/constants'
 export const metadata: Metadata = buildMetadata({
   title: 'How Much Does Mosquito Control Cost? 2026 Ontario Price Guide | BuzzSkito',
   description:
-    'Mosquito control in Ontario starts from $99 per treatment. BuzzSkito provides professional barrier spray with transparent pricing, no contracts, and a rain-back guarantee.',
+    'How much does mosquito control cost in Ontario? BuzzSkito treatments from $99. See 2026 pricing by city & property size.',
   canonical: '/mosquito-control-cost',
 })
 

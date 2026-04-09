@@ -7,7 +7,7 @@ import { MOSQUITO_BLOGS, TICK_BLOGS, NEW_BLOGS, NEW_BLOGS_2, NEW_BLOGS_3, NEW_BL
 export const metadata: Metadata = buildMetadata({
   title: 'Mosquito & Tick Control Blog | Expert GTA Guides – BuzzSkito',
   description:
-    'Expert guides on mosquito and tick control for Ontario homeowners. Learn about barrier spray, Lyme disease prevention, pest seasons, and how to protect your GTA property.',
+    'Expert mosquito and tick control tips for GTA homeowners. Seasonal guides, prevention strategies & professional advice from BuzzSkito.',
   canonical: '/blog',
 })
 

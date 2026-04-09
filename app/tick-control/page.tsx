@@ -9,7 +9,7 @@ import { BUSINESS, CITIES, TICK_BLOGS } from '@/lib/constants'
 export const metadata: Metadata = buildMetadata({
   title: 'Tick Control GTA | Safe for Kids & Pets – BuzzSkito',
   description:
-    'Professional tick yard spray serving the GTA. Kills ticks at all life stages. Safe for children and pets after 30 min. Mississauga, Toronto, Brampton, Vaughan, Oakville, Burlington & more. Free quotes.',
+    'Professional tick control across the GTA. Health Canada-approved yard spray from $99. Protect your family from Lyme disease. Call (289) 216-5030.',
   canonical: '/tick-control',
 })
 

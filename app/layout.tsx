@@ -86,12 +86,29 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <link rel="dns-prefetch" href="//connect.facebook.net" />
         <link rel="dns-prefetch" href="//d3ey4dbjkt2f6s.cloudfront.net" />
       </head>
-      <body className="bg-white text-gray-900 antialiased min-h-screen flex flex-col font-sans">
+      <body className="bg-white text-gray-900 antialiased min-h-screen flex flex-col font-sans pb-16 sm:pb-0">
         <Header />
         <main id="main-content" className="flex-1" tabIndex={-1}>
           {children}
         </main>
         <Footer />
+
+        {/* ── Sticky Mobile CTA Bar ──────────────────────────────────── */}
+        <div className="fixed bottom-0 left-0 right-0 z-50 bg-brand-950 border-t border-brand-800 px-4 py-3 flex gap-3 sm:hidden" role="complementary" aria-label="Quick actions">
+          <a
+            href={`tel:${BUSINESS.phone.replace(/[^+\d]/g, '')}`}
+            className="flex-1 bg-white text-brand-900 font-bold text-sm py-3 rounded-full text-center flex items-center justify-center gap-2"
+          >
+            <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+            Call Now
+          </a>
+          <a
+            href="/contact"
+            className="flex-1 bg-amber-500 text-white font-bold text-sm py-3 rounded-full text-center"
+          >
+            Free Quote
+          </a>
+        </div>
 
         {/* ── Google Analytics GA4 ─────────────────────────────────────── */}
         <Script

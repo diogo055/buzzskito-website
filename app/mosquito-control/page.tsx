@@ -9,7 +9,7 @@ import { BUSINESS, CITIES, MOSQUITO_BLOGS } from '@/lib/constants'
 export const metadata: Metadata = buildMetadata({
   title: 'Mosquito Control GTA | Barrier Spray Services – BuzzSkito',
   description:
-    'Professional mosquito barrier spray for lawns across the GTA. Mississauga, Toronto, Brampton, Oakville, Burlington, Vaughan, Richmond Hill, Markham & more. Up to 30-day protection. Free quotes.',
+    'Professional mosquito control across the GTA. Health Canada-approved barrier spray from $99/treatment. No contracts. Call (289) 216-5030.',
   canonical: '/mosquito-control',
 })
 

@@ -7,7 +7,7 @@ import { BUSINESS, MOSQUITO_BLOGS } from '@/lib/constants'
 export const metadata: Metadata = buildMetadata({
   title: 'Mosquito Control Scarborough | BuzzSkito – Highland Creek to Rouge Park',
   description:
-    'Professional mosquito spray in Scarborough. Serving Guildwood, West Hill, Highland Creek, Rouge, Morningside & all Scarborough neighbourhoods. Rouge National Urban Park and Highland Creek valley drive peak mosquito pressure. Call (289) 216-5030.',
+    'Mosquito control in Scarborough, Toronto. Barrier spray near Highland Creek from $99. No contracts. Call (289) 216-5030.',
   canonical: '/scarborough-mosquito-control',
 })
 

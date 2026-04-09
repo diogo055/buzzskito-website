@@ -7,7 +7,7 @@ import { BUSINESS, MOSQUITO_BLOGS } from '@/lib/constants'
 export const metadata: Metadata = buildMetadata({
   title: 'Mosquito Control West Oak Trails Oakville | BuzzSkito',
   description:
-    'Professional mosquito control spray for West Oak Trails homes in Oakville. Bronte Creek and stormwater corridors create intense seasonal mosquito pressure. 30-day protection. Call (289) 216-5030.',
+    'Mosquito control in West Oak Trails, Oakville. Barrier spray near Bronte Creek from $99. No contracts. Call (289) 216-5030.',
   canonical: '/west-oak-trails-mosquito-control',
 })
 

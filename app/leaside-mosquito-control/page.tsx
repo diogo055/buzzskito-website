@@ -7,7 +7,7 @@ import { BUSINESS, MOSQUITO_BLOGS } from '@/lib/constants'
 export const metadata: Metadata = buildMetadata({
   title: 'Mosquito Control Leaside Toronto | BuzzSkito',
   description:
-    'Professional mosquito control spray for Leaside homes. Don Valley and Taylor Creek ravines create intense seasonal mosquito pressure. 30-day protection. Call (289) 216-5030.',
+    'Mosquito control in Leaside, Toronto. Barrier spray near Don Valley from $99. Safe for kids & pets. Call (289) 216-5030.',
   canonical: '/leaside-mosquito-control',
 })
 

@@ -7,7 +7,7 @@ import { BUSINESS, MOSQUITO_BLOGS } from '@/lib/constants'
 export const metadata: Metadata = buildMetadata({
   title: 'Mosquito Control Alton Village Burlington | BuzzSkito',
   description:
-    'Professional mosquito control spray for Alton Village homes in Burlington. Stormwater ponds in this newer north Burlington community create seasonal mosquito pressure. 30-day protection. Call (289) 216-5030.',
+    'Professional mosquito control in Alton Village, Burlington. Health Canada-approved barrier spray from $99. Safe for kids & pets. Call (289) 216-5030.',
   canonical: '/alton-village-mosquito-control',
 })
 

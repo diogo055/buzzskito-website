@@ -7,7 +7,7 @@ import { BUSINESS, MOSQUITO_BLOGS } from '@/lib/constants'
 export const metadata: Metadata = buildMetadata({
   title: 'Mosquito Control Don Mills Toronto | BuzzSkito',
   description:
-    'Professional mosquito control spray for Don Mills homes. The Don Valley ravine and Flemingdon Park green corridors create significant seasonal mosquito pressure. 30-day protection. Call (289) 216-5030.',
+    'Mosquito control in Don Mills, Toronto. Professional barrier spray near Don Valley from $99. No contracts. Call (289) 216-5030.',
   canonical: '/don-mills-mosquito-control',
 })
 

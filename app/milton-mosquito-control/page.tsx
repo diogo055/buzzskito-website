@@ -7,7 +7,7 @@ import { BUSINESS, MOSQUITO_BLOGS } from '@/lib/constants'
 export const metadata: Metadata = buildMetadata({
   title: 'Mosquito Control Milton | BuzzSkito – Sixteen Mile Creek to Kelso Protection',
   description:
-    'Professional mosquito spray in Milton. Serving Hawthorne Village, Coates, Harrison, Dempsey, Timberlea & all Milton neighbourhoods. Sixteen Mile Creek, Kelso, and Crawford Lake drive mosquito pressure in Milton\'s growing communities. Call (289) 216-5030.',
+    'Mosquito control in Milton, ON. Professional barrier spray from $99. No contracts. Health Canada-approved. Call (289) 216-5030.',
   canonical: '/milton-mosquito-control',
 })
 

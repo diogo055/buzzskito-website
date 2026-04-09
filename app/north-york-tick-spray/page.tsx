@@ -7,7 +7,7 @@ import { BUSINESS, TICK_BLOGS } from '@/lib/constants'
 export const metadata: Metadata = buildMetadata({
   title: 'Tick Spray North York | From $99, No Contracts | BuzzSkito',
   description:
-    'Professional tick spray in North York. Don Valley ravines — Serena Gundy Park, Sunnybrook, Wilket Creek — are confirmed blacklegged tick habitat. Serving Don Mills, Willowdale, Lawrence Park & all North York. Call (289) 216-5030.',
+    'Professional tick spray in North York, Toronto. Protect your yard from blacklegged ticks. From $99. Call (289) 216-5030.',
   canonical: '/north-york-tick-spray',
 })
 

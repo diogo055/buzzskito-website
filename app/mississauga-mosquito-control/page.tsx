@@ -7,7 +7,7 @@ import { BUSINESS, MOSQUITO_BLOGS, TICK_BLOGS } from '@/lib/constants'
 export const metadata: Metadata = buildMetadata({
   title: 'Mosquito Control Mississauga | From $99, No Contracts | BuzzSkito',
   description:
-    'Professional mosquito control spray in Mississauga. Serving Port Credit, Meadowvale, Streetsville, Erin Mills, Clarkson & all Mississauga neighbourhoods. Health Canada–approved. Call (289) 216-5030.',
+    'Mosquito control in Mississauga. Barrier spray from $99. Serving Port Credit, Meadowvale, Streetsville & all areas. Call (289) 216-5030.',
   canonical: '/mississauga-mosquito-control',
 })
 

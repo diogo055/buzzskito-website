@@ -7,7 +7,7 @@ import { BUSINESS, MOSQUITO_BLOGS } from '@/lib/constants'
 export const metadata: Metadata = buildMetadata({
   title: 'Mosquito Control Heart Lake Brampton | BuzzSkito',
   description:
-    'Professional mosquito control spray for Heart Lake homes in Brampton. Heart Lake Conservation Area and Etobicoke Creek drive intense seasonal mosquito pressure. 30-day protection. Call (289) 216-5030.',
+    'Mosquito control in Heart Lake, Brampton. Barrier spray near conservation area from $99. No contracts. Call (289) 216-5030.',
   canonical: '/heart-lake-mosquito-control',
 })
 

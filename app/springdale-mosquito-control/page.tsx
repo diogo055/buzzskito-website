@@ -7,7 +7,7 @@ import { BUSINESS, MOSQUITO_BLOGS } from '@/lib/constants'
 export const metadata: Metadata = buildMetadata({
   title: 'Mosquito Control Springdale Brampton | BuzzSkito',
   description:
-    'Professional mosquito control spray for Springdale homes in Brampton. Stormwater ponds and creek corridors create seasonal mosquito pressure in this north Brampton neighbourhood. 30-day protection. Call (289) 216-5030.',
+    'Mosquito control in Springdale, Brampton. Barrier spray near stormwater ponds from $99. No contracts. Call (289) 216-5030.',
   canonical: '/springdale-mosquito-control',
 })
 

@@ -7,7 +7,7 @@ import { BUSINESS, MOSQUITO_BLOGS } from '@/lib/constants'
 export const metadata: Metadata = buildMetadata({
   title: 'Mosquito Control Hamilton | From $99, No Contracts | BuzzSkito',
   description:
-    'Professional mosquito barrier spray in Hamilton. Cootes Paradise, Dundas Valley, and Red Hill Creek drive intense mosquito pressure. Serving Ancaster, Dundas, Stoney Creek, Waterdown, Westdale & all Hamilton. Call (289) 216-5030.',
+    'Mosquito control in Hamilton. Professional barrier spray from $99. Serving Ancaster, Dundas, Stoney Creek & all areas. Call (289) 216-5030.',
   canonical: '/hamilton-mosquito-control',
 })
 
