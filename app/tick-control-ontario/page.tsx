@@ -85,6 +85,38 @@ export default function TickControlOntarioPage() {
         </div>
       </section>
 
+      {/* Trust bar */}
+      <section className="bg-brand-900 text-white py-4 px-4">
+        <div className="max-w-4xl mx-auto flex flex-wrap justify-center gap-6 text-sm font-medium text-brand-200">
+          <span>✓ Health Canada–Approved Formula</span>
+          <span>✓ Safe for Kids &amp; Pets (30 min dry)</span>
+          <span>✓ Up to 30-Day Protection</span>
+          <span>✓ Lyme Disease Prevention</span>
+          <span>✓ 5-Star Rated · 126 Reviews</span>
+        </div>
+      </section>
+
+      
+      {/* How It Works */}
+      <section className="py-12 px-4 bg-white border-b border-gray-100">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-2xl font-extrabold text-brand-900 mb-8 text-center">How BuzzSkito Tick Control Works</h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {[
+              { step: '1', title: 'Property Tick Assessment', desc: 'We identify tick habitat zones — lawn-to-woods transitions, leaf litter, garden bed edges, and fence lines on your property.' },
+              { step: '2', title: 'Targeted Barrier Spray', desc: 'Our licensed technician applies Health Canada-approved formula to the specific 1-3 metre zones where ticks concentrate — precision treatment, not broadcast spraying.' },
+              { step: '3', title: '30-Day Protection', desc: 'The residual formula kills ticks on contact and creates a barrier for up to 30 days. If ticks return within the window, we re-treat at no cost.' },
+            ].map(({ step, title, desc }) => (
+              <div key={step} className="text-center">
+                <div className="w-14 h-14 bg-amber-600 text-white rounded-full flex items-center justify-center text-2xl font-extrabold mx-auto mb-4">{step}</div>
+                <h3 className="font-bold text-brand-900 text-lg mb-2">{title}</h3>
+                <p className="text-gray-600 text-sm">{desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       <section className="py-14 px-4 bg-white">
         <div className="max-w-5xl mx-auto prose-brand">
           <h2>Professional Tick Control across Southern Ontario</h2>
