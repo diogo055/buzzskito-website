@@ -15,6 +15,10 @@ const CITY = 'Scarborough'
 const NEIGHBOURHOODS = ['Guildwood','West Hill','Highland Creek','Rouge','Malvern','Agincourt','Birchcliffe','Cliffside','Woburn','Morningside']
 const FAQS = [
   {
+    question: 'How much does tick spray cost in Scarborough?',
+    answer: 'Tick spray in Scarborough starts from $99 per application. A 2-treatment seasonal program (spring + fall) starts from $179. Properties near Rouge National Urban Park, Highland Creek valley, or any wooded ravine benefit most from both spring and fall treatments. No contracts. Call (289) 216-5030.',
+  },
+  {
     question: 'Is Rouge National Urban Park really a high-risk tick area?',
     answer: 'Yes — it is one of the highest-risk areas in the entire GTA. Rouge National Urban Park is a federally protected national park with thousands of hectares of forest, meadow, wetland, and river valley habitat. Toronto Public Health conducts annual tick surveillance in Rouge and consistently confirms high blacklegged tick populations, particularly in the forest and meadow transition zones that border residential Scarborough neighbourhoods.',
   },
@@ -52,6 +56,17 @@ export default function ScarboroughTickPage() {
             <Link href="/contact" className="inline-block bg-amber-500 hover:bg-amber-400 text-white font-extrabold px-8 py-4 rounded-full text-lg shadow-xl transition-colors text-center">Get a Free Quote</Link>
             <a href={BUSINESS.phoneHref} className="inline-flex items-center justify-center border-2 border-white text-white hover:bg-white hover:text-brand-900 font-bold px-8 py-4 rounded-full text-lg transition-colors">{BUSINESS.phone}</a>
           </div>
+        </div>
+      </section>
+
+      {/* Pricing bar */}
+      <section className="bg-amber-50 border-y border-amber-200 py-5 px-4">
+        <div className="max-w-4xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-3">
+          <div>
+            <p className="font-extrabold text-brand-900 text-base">Tick Spray Pricing in {CITY}</p>
+            <p className="text-gray-600 text-sm mt-0.5">Single treatment from <strong className="text-amber-700">$99</strong> · 2-treatment seasonal program from <strong className="text-amber-700">$179</strong> · No contracts</p>
+          </div>
+          <Link href="/contact" className="shrink-0 bg-amber-500 hover:bg-amber-400 text-white font-bold px-6 py-2.5 rounded-full text-sm transition-colors">Get a Free Quote</Link>
         </div>
       </section>
 

@@ -21,6 +21,10 @@ const NEIGHBOURHOODS = [
 
 const FAQS = [
   {
+    question: 'How much does mosquito control cost in Mississauga?',
+    answer: 'BuzzSkito mosquito barrier spray treatments start from $99 per application for a standard residential lot. A full 5-treatment seasonal program — covering May through September for continuous 30-day protection — starts from $399. Pricing depends on your property size and treatment frequency. Call (289) 216-5030 or use our contact form for a free, no-obligation quote specific to your Mississauga property. There are no contracts — you can book a single treatment or a full seasonal package.',
+  },
+  {
     question: 'Why is mosquito pressure so high in Mississauga?',
     answer: "Mississauga's geography creates multiple distinct mosquito pressure zones. The Credit River corridor runs the full length of the city, creating continuous breeding habitat from Streetsville to Port Credit. Rattray Marsh Conservation Area is one of the last remaining lakefront marshes in the western GTA and sustains large mosquito populations each season. Meadowvale Conservation Area, Erindale Park, and the city's many stormwater management ponds all add to the pressure. Neighbourhoods within 500–800 metres of these features consistently experience earlier and more intense mosquito activity.",
   },
@@ -101,6 +105,17 @@ export default function MississaugaMosquitoControlPage() {
         </div>
       </section>
 
+      {/* Pricing bar */}
+      <section className="bg-amber-50 border-y border-amber-200 py-5 px-4">
+        <div className="max-w-4xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-3">
+          <div>
+            <p className="font-extrabold text-brand-900 text-base">Mosquito Control Pricing in {CITY}</p>
+            <p className="text-gray-600 text-sm mt-0.5">Single treatment from <strong className="text-brand-700">$99</strong> · 5-treatment seasonal program from <strong className="text-brand-700">$399</strong> · No contracts</p>
+          </div>
+          <Link href="/contact" className="shrink-0 bg-amber-500 hover:bg-amber-400 text-white font-bold px-6 py-2.5 rounded-full text-sm transition-colors">Get a Free Quote</Link>
+        </div>
+      </section>
+
       {/* Main content */}
       <section className="py-14 px-4 bg-white">
         <div className="max-w-4xl mx-auto prose-brand">
@@ -167,6 +182,66 @@ export default function MississaugaMosquitoControlPage() {
               </tbody>
             </table>
           </div>
+
+          <h2>Mosquito Control Pricing in Mississauga</h2>
+          <p>Transparent pricing is something many Mississauga pest control companies avoid. We don't. Here's exactly what mosquito control costs with BuzzSkito:</p>
+          <div className="not-prose overflow-x-auto my-4">
+            <table className="w-full text-sm border-collapse">
+              <thead>
+                <tr className="bg-brand-800 text-white">
+                  <th className="px-4 py-2 text-left">Service</th>
+                  <th className="px-4 py-2 text-left">Treatments</th>
+                  <th className="px-4 py-2 text-left">Starting Price</th>
+                  <th className="px-4 py-2 text-left">Best For</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  { service: 'Single Treatment', treats: '1 visit', price: 'From $99', best: 'Events, trial visit, one-time need' },
+                  { service: '3-Treatment Program', treats: 'May, June, July', price: 'From $269', best: 'Shorter season coverage' },
+                  { service: '5-Treatment Program', treats: 'May through September', price: 'From $399', best: 'Full-season protection (recommended)' },
+                ].map(({ service, treats, price, best }) => (
+                  <tr key={service} className="border-b border-gray-200 even:bg-gray-50">
+                    <td className="px-4 py-2 font-semibold text-brand-800">{service}</td>
+                    <td className="px-4 py-2 text-gray-700">{treats}</td>
+                    <td className="px-4 py-2 font-extrabold text-brand-700">{price}</td>
+                    <td className="px-4 py-2 text-gray-600">{best}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p>Pricing is based on a standard residential lot in Mississauga. Larger properties (double lots, ravine-backing) are quoted individually. There are no contracts and no cancellation fees. Call <a href={BUSINESS.phoneHref} className="text-brand-700 font-semibold hover:underline">{BUSINESS.phone}</a> or use our <Link href="/contact" className="text-brand-700 hover:underline">contact form</Link> for a free quote specific to your address.</p>
+
+          <h2>Professional Mosquito Control vs. DIY in Mississauga</h2>
+          <p>Home improvement stores sell mosquito foggers, citronella torches, and consumer-grade sprays. Here's why they don't work as well as professional barrier spray — and why Mississauga's specific geography matters:</p>
+          <ul>
+            <li><strong>Consumer foggers provide hours of relief, not 30 days of protection.</strong> Professional residual barrier spray bonds to leaf surfaces and keeps working between visits. A $15 citronella candle and a professional barrier treatment are not comparable products.</li>
+            <li><strong>Application technique matters more than product.</strong> Mosquitoes rest on the undersides of leaves, in shaded shrub interiors, and under deck joists. Proper barrier spray requires a backpack precision sprayer and systematic technique to reach those surfaces. Most consumer foggers apply product to open air, missing the actual resting sites.</li>
+            <li><strong>Mississauga's mosquito sources are beyond your control.</strong> The Credit River, Rattray Marsh, and Meadowvale Conservation Area will produce mosquitoes every season regardless of what you do on your property. The only effective strategy is creating a barrier that stops them from settling on your property after dispersing from those sources.</li>
+            <li><strong>Larvicide tablets don't address your primary exposure.</strong> You can treat every standing water source on your lot and still have a serious mosquito problem because the dominant pressure comes from off-property sources. Professional barrier spray directly addresses the adult mosquitoes that arrive from those sources.</li>
+          </ul>
+
+          <h2>How to Choose a Mosquito Control Company in Mississauga</h2>
+          <p>The GTA mosquito control market has grown substantially, and not all providers are equal. Here's what to look for when evaluating companies serving Mississauga:</p>
+          <ul>
+            <li><strong>Health Canada–registered products.</strong> Any product applied to your yard must be registered under the Pest Control Products Act. Ask for the product registration number if you have concerns. BuzzSkito uses only registered, water-based formulas.</li>
+            <li><strong>Licensed applicators.</strong> Ontario requires a Pesticide Applicator's Licence (PPAL) for all commercial applications. Ask to see credentials.</li>
+            <li><strong>Rain-back guarantee.</strong> Any reputable company should offer to re-treat if significant rain falls within the cure window. This is standard at BuzzSkito.</li>
+            <li><strong>No pressure to commit to long-term contracts.</strong> Legitimate service companies let you book a single treatment and evaluate results before committing to a season. Be cautious of companies requiring 12-month contracts for seasonal outdoor service.</li>
+            <li><strong>Local Mississauga knowledge.</strong> Companies that understand the Credit River corridor, Rattray Marsh, and Mississauga's specific neighbourhood geography will treat your property more effectively than generic operators using standard templates.</li>
+            <li><strong>Transparent pricing.</strong> A company that won't quote prices on their website or over the phone until after a "free assessment" visit is using the visit as a sales tool, not a diagnostic one. BuzzSkito publishes pricing and quotes over the phone.</li>
+          </ul>
+
+          <h2>What to Expect on Your BuzzSkito Treatment Day</h2>
+          <ol>
+            <li><strong>SMS notification before arrival</strong> — You'll receive a text when your technician is on the way. You do not need to be home.</li>
+            <li><strong>Property walkthrough</strong> — On the first visit, your technician does a quick perimeter assessment to note water features, dense vegetation, and any property-specific risk factors before treatment begins.</li>
+            <li><strong>Full barrier application</strong> — Systematic treatment of all vegetation: shrubs, garden beds, leaf undersides, fence lines, deck undersides, woodpiles. Treatment of a typical Mississauga residential lot takes 25–40 minutes.</li>
+            <li><strong>Lawn sign placement</strong> — A small sign is placed confirming the treatment date and product used.</li>
+            <li><strong>30-minute dry time</strong> — Keep children and pets off treated surfaces while the product cures. After 30 minutes, your yard is fully safe and the barrier is active.</li>
+            <li><strong>Follow-up email confirmation</strong> — You'll receive a treatment log with areas treated, product applied, and your next scheduled visit date within 2 hours of the treatment.</li>
+          </ol>
 
           <h2>Also Providing Tick Control in Mississauga</h2>
           <p>Mississauga's Credit River valley, Rattray Marsh, and Erindale Park are confirmed blacklegged tick habitat areas documented by Peel Region Public Health. If your property backs onto any ravine, conservation area, or wooded edge, tick control is an important complement to mosquito spray. See our <Link href="/mississauga-tick-spray" className="text-brand-700 hover:underline">Mississauga tick control service</Link> — many homeowners bundle both for complete seasonal protection.</p>

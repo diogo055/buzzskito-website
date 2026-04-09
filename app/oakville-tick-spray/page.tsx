@@ -17,6 +17,10 @@ const NEIGHBOURHOODS = ['Bronte','Glen Abbey','Joshua Creek','West Oak Trails','
 
 const FAQS = [
   {
+    question: 'How much does tick spray cost in Oakville?',
+    answer: 'Tick spray in Oakville starts from $99 per application. A 2-treatment seasonal program (spring + fall) starts from $179. Properties near Bronte Creek Provincial Park, the Sixteen Mile Creek, or any woodland edge benefit most from both spring and fall treatments. No contracts. Call (289) 216-5030.',
+  },
+  {
     question: 'Is Bronte Creek Provincial Park a tick risk for Oakville homeowners?',
     answer: "Yes. Bronte Creek Provincial Park is established blacklegged tick habitat and one of the most significant tick risk sites in Halton Region. The creek valley itself extends north through West Oak Trails and River Oaks, creating a tick dispersal corridor into residential properties. Homes adjacent to the park or creek system — particularly in Bronte, West Oak Trails, and River Oaks — have the highest exposure in Oakville.",
   },
@@ -70,6 +74,17 @@ export default function OakvilleTickSprayPage() {
             <Link href="/contact" className="inline-block bg-amber-500 hover:bg-amber-400 text-white font-extrabold px-8 py-4 rounded-full text-lg shadow-xl transition-colors text-center">Get a Free Quote</Link>
             <a href={BUSINESS.phoneHref} className="inline-flex items-center justify-center border-2 border-white text-white hover:bg-white hover:text-brand-900 font-bold px-8 py-4 rounded-full text-lg transition-colors">{BUSINESS.phone}</a>
           </div>
+        </div>
+      </section>
+
+      {/* Pricing bar */}
+      <section className="bg-amber-50 border-y border-amber-200 py-5 px-4">
+        <div className="max-w-4xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-3">
+          <div>
+            <p className="font-extrabold text-brand-900 text-base">Tick Spray Pricing in {CITY}</p>
+            <p className="text-gray-600 text-sm mt-0.5">Single treatment from <strong className="text-amber-700">$99</strong> · 2-treatment seasonal program from <strong className="text-amber-700">$179</strong> · No contracts</p>
+          </div>
+          <Link href="/contact" className="shrink-0 bg-amber-500 hover:bg-amber-400 text-white font-bold px-6 py-2.5 rounded-full text-sm transition-colors">Get a Free Quote</Link>
         </div>
       </section>
 

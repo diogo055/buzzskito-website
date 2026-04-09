@@ -17,6 +17,10 @@ const NEIGHBOURHOODS = ["Mount Pleasant","Gore Meadows","Castlemore","Springdale
 
 const FAQS = [
   {
+    question: 'How much does mosquito control cost in Brampton?',
+    answer: 'BuzzSkito mosquito treatments in Brampton start from $99 per application for a standard residential lot. A full 5-treatment seasonal program covering May through September starts from $399. No contracts — book a single treatment or a full season. Properties near stormwater ponds, Heart Lake Conservation Area, or Etobicoke Creek typically benefit most from the complete seasonal package. Call (289) 216-5030 for a free, no-obligation quote.',
+  },
+  {
     question: 'Why does Brampton have so many mosquitoes?',
     answer: "Brampton's rapid residential development has created abundant mosquito breeding habitat. Stormwater management ponds are built into virtually every new development and serve as ideal breeding sites — shallow, still water with minimal predator populations. The Etobicoke Creek corridor, Heart Lake Conservation Area, and Humber River tributaries in northern Brampton add significant natural mosquito pressure on top of the stormwater pond baseline.",
   },
@@ -84,6 +88,17 @@ export default function BramptonMosquitoPage() {
           <span>✓ Up to 30-Day Protection</span>
           <span>✓ Rain-Back Guarantee</span>
           <span>✓ 5-Star Rated · 126 Reviews</span>
+        </div>
+      </section>
+
+      {/* Pricing bar */}
+      <section className="bg-amber-50 border-y border-amber-200 py-5 px-4">
+        <div className="max-w-4xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-3">
+          <div>
+            <p className="font-extrabold text-brand-900 text-base">Mosquito Control Pricing in {CITY}</p>
+            <p className="text-gray-600 text-sm mt-0.5">Single treatment from <strong className="text-brand-700">$99</strong> · 5-treatment seasonal program from <strong className="text-brand-700">$399</strong> · No contracts</p>
+          </div>
+          <Link href="/contact" className="shrink-0 bg-amber-500 hover:bg-amber-400 text-white font-bold px-6 py-2.5 rounded-full text-sm transition-colors">Get a Free Quote</Link>
         </div>
       </section>
 

@@ -145,7 +145,7 @@ export default function MosquitoControlPage() {
             ))}
           </div>
           <p className="mt-4 text-sm text-gray-500">
-            See all 19 cities on our <Link href="/service-areas" className="text-brand-700 underline">full service areas page</Link>, or view the <Link href="/mosquito-control-ontario" className="text-brand-700 underline">Ontario coverage overview</Link>.
+            See all 19 cities on our <Link href="/service-areas" className="text-brand-700 underline">full service areas page</Link>, view the <Link href="/mosquito-control-ontario" className="text-brand-700 underline">Ontario coverage overview</Link>, or see our <Link href="/mosquito-control-cost" className="text-brand-700 underline">2026 mosquito control pricing guide</Link>.
           </p>
         </div>
       </section>

@@ -17,6 +17,10 @@ const TICK_SLUG = '/richmond-hill-tick-spray'
 const NEIGHBOURHOODS = ['Oak Ridges','Jefferson','Bayview Hill','Mill Pond','Langstaff','Crosby','Doncrest','North Richvale']
 const FAQS = [
   {
+    question: 'How much does mosquito control cost in Richmond Hill?',
+    answer: 'BuzzSkito mosquito treatments in Richmond Hill start from $99 per application. A 5-treatment seasonal program covering May through September starts from $399. Properties near Lake Wilcox, Jefferson Forest, or Mill Pond typically benefit most from the full seasonal program for continuous protection. No contracts — book a single visit or a full season. Call (289) 216-5030 for a free Richmond Hill quote.',
+  },
+  {
     question: 'Does living near Lake Wilcox mean more mosquitoes?',
     answer: "Yes. Lake Wilcox in Oak Ridges has extensive shallow marshy margins and weedy shoreline habitat that produces significant numbers of mosquitoes each season, particularly in May and June. Properties within a few blocks of the lake consistently see earlier and heavier mosquito activity. A May treatment timed to the first adult emergence significantly reduces the season-long population on your property.",
   },
@@ -55,6 +59,17 @@ export default function RichmondHillMosquitoPage() {
             <Link href="/contact" className="inline-block bg-amber-500 hover:bg-amber-400 text-white font-extrabold px-8 py-4 rounded-full text-lg shadow-xl transition-colors text-center">Get a Free Quote</Link>
             <a href={BUSINESS.phoneHref} className="inline-flex items-center justify-center border-2 border-white text-white hover:bg-white hover:text-brand-900 font-bold px-8 py-4 rounded-full text-lg transition-colors">{BUSINESS.phone}</a>
           </div>
+        </div>
+      </section>
+
+      {/* Pricing bar */}
+      <section className="bg-amber-50 border-y border-amber-200 py-5 px-4">
+        <div className="max-w-4xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-3">
+          <div>
+            <p className="font-extrabold text-brand-900 text-base">Mosquito Control Pricing in {CITY}</p>
+            <p className="text-gray-600 text-sm mt-0.5">Single treatment from <strong className="text-brand-700">$99</strong> · 5-treatment seasonal program from <strong className="text-brand-700">$399</strong> · No contracts</p>
+          </div>
+          <Link href="/contact" className="shrink-0 bg-amber-500 hover:bg-amber-400 text-white font-bold px-6 py-2.5 rounded-full text-sm transition-colors">Get a Free Quote</Link>
         </div>
       </section>
 

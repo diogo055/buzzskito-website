@@ -15,6 +15,10 @@ const CITY = 'Caledon'
 const NEIGHBOURHOODS = ['Bolton','Caledon East','Caledon Village','Palgrave','Inglewood','Alton','Cheltenham','Belfountain']
 const FAQS = [
   {
+    question: 'How much does tick spray cost in Caledon?',
+    answer: 'Tick spray in Caledon starts from $99 per application. A 2-treatment seasonal program (spring + fall) starts from $179. Given Caledon\'s high tick activity near Forks of the Credit Provincial Park, the Bruce Trail, and the Niagara Escarpment, most properties benefit from both spring and fall treatments. No contracts. Call (289) 216-5030.',
+  },
+  {
     question: 'Why does Caledon have some of the highest tick activity in the GTA?',
     answer: 'Caledon sits at the intersection of two major natural systems: the Oak Ridges Moraine and the Credit River watershed, with the Humber River headwaters also running through the township. These aren\'t isolated pockets — they are large, continuous forested and agricultural edge habitats that support very high deer populations. More deer means more tick hosts, which means more ticks. Peel Region Public Health issues annual tick advisories specifically calling out Caledon as a high-risk area.',
   },
@@ -52,6 +56,17 @@ export default function CaledonTickPage() {
             <Link href="/contact" className="inline-block bg-amber-500 hover:bg-amber-400 text-white font-extrabold px-8 py-4 rounded-full text-lg shadow-xl transition-colors text-center">Get a Free Quote</Link>
             <a href={BUSINESS.phoneHref} className="inline-flex items-center justify-center border-2 border-white text-white hover:bg-white hover:text-brand-900 font-bold px-8 py-4 rounded-full text-lg transition-colors">{BUSINESS.phone}</a>
           </div>
+        </div>
+      </section>
+
+      {/* Pricing bar */}
+      <section className="bg-amber-50 border-y border-amber-200 py-5 px-4">
+        <div className="max-w-4xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-3">
+          <div>
+            <p className="font-extrabold text-brand-900 text-base">Tick Spray Pricing in {CITY}</p>
+            <p className="text-gray-600 text-sm mt-0.5">Single treatment from <strong className="text-amber-700">$99</strong> · 2-treatment seasonal program from <strong className="text-amber-700">$179</strong> · No contracts</p>
+          </div>
+          <Link href="/contact" className="shrink-0 bg-amber-500 hover:bg-amber-400 text-white font-bold px-6 py-2.5 rounded-full text-sm transition-colors">Get a Free Quote</Link>
         </div>
       </section>
 

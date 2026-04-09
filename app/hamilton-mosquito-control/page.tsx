@@ -18,6 +18,10 @@ const NEIGHBOURHOODS = ['Stoney Creek','Dundas','Ancaster','Westdale','Waterdown
 
 const FAQS = [
   {
+    question: 'How much does mosquito control cost in Hamilton?',
+    answer: 'BuzzSkito mosquito control in Hamilton starts from $99 per application. A 5-treatment seasonal program covering May through September starts from $399. Properties near Cootes Paradise, the Niagara Escarpment, or Red Hill Creek Valley typically benefit most from the full seasonal package for continuous protection. No contracts. Call (289) 216-5030 for a free Hamilton quote.',
+  },
+  {
     question: 'Why does Hamilton have such a significant mosquito problem?',
     answer: "Hamilton's geography creates a perfect combination of mosquito breeding habitat. Cootes Paradise — one of the Great Lakes basin's largest urban wetlands — sits directly adjacent to Hamilton's west end residential areas, producing enormous quantities of mosquitoes from May through September. Red Hill Creek, Spencer Creek, and the dozens of smaller watercourses that flow through Hamilton neighbourhoods provide additional breeding sites. The Niagara Escarpment channels moisture into the lower city, keeping vegetation wet and creating the cool, humid microclimate adult mosquitoes prefer for resting. Neighbourhoods in Westdale, Ainslie Wood, Dundas, and Ancaster — which back onto ravines, creeks, or conservation land — experience the most intense annual pressure.",
   },
@@ -71,6 +75,17 @@ export default function HamiltonMosquitoPage() {
             <Link href="/contact" className="inline-block bg-amber-500 hover:bg-amber-400 text-white font-extrabold px-8 py-4 rounded-full text-lg shadow-xl transition-colors text-center">Get a Free Quote</Link>
             <a href={BUSINESS.phoneHref} className="inline-flex items-center justify-center border-2 border-white text-white hover:bg-white hover:text-brand-900 font-bold px-8 py-4 rounded-full text-lg transition-colors">{BUSINESS.phone}</a>
           </div>
+        </div>
+      </section>
+
+      {/* Pricing bar */}
+      <section className="bg-amber-50 border-y border-amber-200 py-5 px-4">
+        <div className="max-w-4xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-3">
+          <div>
+            <p className="font-extrabold text-brand-900 text-base">Mosquito Control Pricing in {CITY}</p>
+            <p className="text-gray-600 text-sm mt-0.5">Single treatment from <strong className="text-brand-700">$99</strong> · 5-treatment seasonal program from <strong className="text-brand-700">$399</strong> · No contracts</p>
+          </div>
+          <Link href="/contact" className="shrink-0 bg-amber-500 hover:bg-amber-400 text-white font-bold px-6 py-2.5 rounded-full text-sm transition-colors">Get a Free Quote</Link>
         </div>
       </section>
 

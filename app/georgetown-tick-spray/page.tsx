@@ -15,6 +15,10 @@ const CITY = 'Georgetown'
 const NEIGHBOURHOODS = ['Old Georgetown','Glen Williams','Norval','Stewarttown','Limehouse','Silver Creek','Halton Hills']
 const FAQS = [
   {
+    question: 'How much does tick spray cost in Georgetown?',
+    answer: 'Tick spray in Georgetown starts from $99 per application. A 2-treatment seasonal program (spring + fall) starts from $179. Properties near the Credit River valley, Silver Creek Conservation Area, or any wooded area benefit most from both spring and fall treatments. No contracts. Call (289) 216-5030.',
+  },
+  {
     question: 'Is the Credit River valley near Georgetown a tick risk?',
     answer: 'Yes — the Credit River valley through Georgetown and Glen Williams is confirmed blacklegged tick habitat throughout the season. The valley provides cool, moist, forested conditions that ticks require, and the Credit River corridor connects Georgetown\'s tick habitat to a much larger regional system. Halton Region includes Georgetown in its tick monitoring program, and residents along the Credit River are encouraged to take tick precautions.',
   },
@@ -52,6 +56,17 @@ export default function GeorgetownTickPage() {
             <Link href="/contact" className="inline-block bg-amber-500 hover:bg-amber-400 text-white font-extrabold px-8 py-4 rounded-full text-lg shadow-xl transition-colors text-center">Get a Free Quote</Link>
             <a href={BUSINESS.phoneHref} className="inline-flex items-center justify-center border-2 border-white text-white hover:bg-white hover:text-brand-900 font-bold px-8 py-4 rounded-full text-lg transition-colors">{BUSINESS.phone}</a>
           </div>
+        </div>
+      </section>
+
+      {/* Pricing bar */}
+      <section className="bg-amber-50 border-y border-amber-200 py-5 px-4">
+        <div className="max-w-4xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-3">
+          <div>
+            <p className="font-extrabold text-brand-900 text-base">Tick Spray Pricing in {CITY}</p>
+            <p className="text-gray-600 text-sm mt-0.5">Single treatment from <strong className="text-amber-700">$99</strong> · 2-treatment seasonal program from <strong className="text-amber-700">$179</strong> · No contracts</p>
+          </div>
+          <Link href="/contact" className="shrink-0 bg-amber-500 hover:bg-amber-400 text-white font-bold px-6 py-2.5 rounded-full text-sm transition-colors">Get a Free Quote</Link>
         </div>
       </section>
 

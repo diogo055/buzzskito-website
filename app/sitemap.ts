@@ -38,6 +38,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE_URL}/commercial-mosquito-control`,     lastModified: now, changeFrequency: 'monthly' as const, priority: 0.8 },
     { url: `${SITE_URL}/mosquito-control-near-me`,        lastModified: now, changeFrequency: 'monthly' as const, priority: 0.8 },
     { url: `${SITE_URL}/tick-control-near-me`,            lastModified: now, changeFrequency: 'monthly' as const, priority: 0.8 },
+    { url: `${SITE_URL}/mosquito-control-cost`,           lastModified: now, changeFrequency: 'monthly' as const, priority: 0.8 },
     { url: `${SITE_URL}/mosquito-control-ontario`,        lastModified: now, changeFrequency: 'monthly' as const, priority: 0.9 },
     { url: `${SITE_URL}/tick-control-ontario`,            lastModified: now, changeFrequency: 'monthly' as const, priority: 0.9 },
     { url: `${SITE_URL}/york-region-mosquito-control`,    lastModified: now, changeFrequency: 'monthly' as const, priority: 0.8 },

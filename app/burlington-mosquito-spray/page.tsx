@@ -17,6 +17,10 @@ const NEIGHBOURHOODS = ['Alton Village','Millcroft','The Orchard','Roseland','Do
 
 const FAQS = [
   {
+    question: 'How much does mosquito control cost in Burlington?',
+    answer: 'BuzzSkito mosquito control in Burlington starts from $99 per application. A 5-treatment seasonal program covering May through September starts from $399. Waterfront neighbourhoods and properties near Bronte Creek typically benefit most from the full seasonal package for continuous protection. No contracts — single treatments or full seasonal programs available. Call (289) 216-5030 for a free Burlington quote.',
+  },
+  {
     question: 'Why are mosquitoes so bad in Burlington?',
     answer: "Burlington's geography creates mosquito pressure from multiple directions. Burlington Bay and the Lake Ontario shoreline generate waterfront mosquito activity that affects lakeshore and Aldershot properties. Bronte Creek runs north-south through the city's west end, creating a continuous breeding and dispersal corridor through West Oak Trails, Bronte, and River Oaks. The Royal Botanical Gardens — 1,100+ hectares of naturalized land on Burlington's northwest border — sustains large mosquito populations that disperse into adjacent North Burlington and Waterdown neighbourhoods. Newer developments in Alton Village and The Orchard contain stormwater ponds that become active breeding sites each season.",
   },
@@ -80,6 +84,17 @@ export default function BurlingtonMosquitoPage() {
           <span>✓ Up to 30-Day Protection</span>
           <span>✓ Rain-Back Guarantee</span>
           <span>✓ 5-Star Rated · 126 Reviews</span>
+        </div>
+      </section>
+
+      {/* Pricing bar */}
+      <section className="bg-amber-50 border-y border-amber-200 py-5 px-4">
+        <div className="max-w-4xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-3">
+          <div>
+            <p className="font-extrabold text-brand-900 text-base">Mosquito Control Pricing in {CITY}</p>
+            <p className="text-gray-600 text-sm mt-0.5">Single treatment from <strong className="text-brand-700">$99</strong> · 5-treatment seasonal program from <strong className="text-brand-700">$399</strong> · No contracts</p>
+          </div>
+          <Link href="/contact" className="shrink-0 bg-amber-500 hover:bg-amber-400 text-white font-bold px-6 py-2.5 rounded-full text-sm transition-colors">Get a Free Quote</Link>
         </div>
       </section>
 

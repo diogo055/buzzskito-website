@@ -15,6 +15,10 @@ const CITY = 'Thornhill'
 const NEIGHBOURHOODS = ['Thornhill Village','Royal Orchard','Pomona Mills','Aileen-Willowbrook','Beverley Glen','Westmount','Commerce Valley']
 const FAQS = [
   {
+    question: 'How much does tick spray cost in Thornhill?',
+    answer: 'Tick spray in Thornhill starts from $99 per application. A 2-treatment seasonal program (spring + fall) starts from $179. Properties near ravine corridors, conservation lands, or the Oak Ridges Moraine boundary benefit most from both spring and fall applications. No contracts. Call (289) 216-5030.',
+  },
+  {
     question: 'Which Thornhill neighbourhoods have the highest tick risk?',
     answer: 'Royal Orchard and Aileen-Willowbrook properties backing onto the Don River tributary ravines — including German Mills Creek — have meaningful annual tick exposure. Pomona Mills Park area backs onto naturalized ravine sections that are active tick habitat. Both the Vaughan and Markham portions of Thornhill fall within York Region\'s tick monitoring area, and both have documented tick activity in their ravine corridors.',
   },
@@ -52,6 +56,17 @@ export default function ThornhillTickPage() {
             <Link href="/contact" className="inline-block bg-amber-500 hover:bg-amber-400 text-white font-extrabold px-8 py-4 rounded-full text-lg shadow-xl transition-colors text-center">Get a Free Quote</Link>
             <a href={BUSINESS.phoneHref} className="inline-flex items-center justify-center border-2 border-white text-white hover:bg-white hover:text-brand-900 font-bold px-8 py-4 rounded-full text-lg transition-colors">{BUSINESS.phone}</a>
           </div>
+        </div>
+      </section>
+
+      {/* Pricing bar */}
+      <section className="bg-amber-50 border-y border-amber-200 py-5 px-4">
+        <div className="max-w-4xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-3">
+          <div>
+            <p className="font-extrabold text-brand-900 text-base">Tick Spray Pricing in {CITY}</p>
+            <p className="text-gray-600 text-sm mt-0.5">Single treatment from <strong className="text-amber-700">$99</strong> · 2-treatment seasonal program from <strong className="text-amber-700">$179</strong> · No contracts</p>
+          </div>
+          <Link href="/contact" className="shrink-0 bg-amber-500 hover:bg-amber-400 text-white font-bold px-6 py-2.5 rounded-full text-sm transition-colors">Get a Free Quote</Link>
         </div>
       </section>
 

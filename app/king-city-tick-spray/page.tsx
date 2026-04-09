@@ -15,6 +15,10 @@ const CITY = 'King City'
 const NEIGHBOURHOODS = ['King City village','Nobleton','Schomberg','King Township','Kettleby']
 const FAQS = [
   {
+    question: 'How much does tick spray cost in King City?',
+    answer: 'Tick spray in King City starts from $99 per application. A 2-treatment seasonal program (spring + fall) starts from $179. Given King Township\'s exceptionally high tick activity near the Oak Ridges Moraine, Humber River headwaters, and extensive horse property corridors, most properties benefit from both spring and fall applications. No contracts. Call (289) 216-5030.',
+  },
+  {
     question: 'Why is King Township considered one of the highest-risk tick areas in York Region?',
     answer: 'King Township sits directly on the Oak Ridges Moraine, which is one of Ontario\'s most significant blacklegged tick habitats. Beyond the Moraine, the township has abundant rural land with agricultural-to-forest edge transitions, Humber River tributaries, and the Schomberg River area — all of which provide ideal tick habitat. The combination of large white-tailed deer populations and these varied natural habitats drives consistently high tick activity throughout King Township, which York Region Public Health regularly flags in its advisories.',
   },
@@ -52,6 +56,17 @@ export default function KingCityTickPage() {
             <Link href="/contact" className="inline-block bg-amber-500 hover:bg-amber-400 text-white font-extrabold px-8 py-4 rounded-full text-lg shadow-xl transition-colors text-center">Get a Free Quote</Link>
             <a href={BUSINESS.phoneHref} className="inline-flex items-center justify-center border-2 border-white text-white hover:bg-white hover:text-brand-900 font-bold px-8 py-4 rounded-full text-lg transition-colors">{BUSINESS.phone}</a>
           </div>
+        </div>
+      </section>
+
+      {/* Pricing bar */}
+      <section className="bg-amber-50 border-y border-amber-200 py-5 px-4">
+        <div className="max-w-4xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-3">
+          <div>
+            <p className="font-extrabold text-brand-900 text-base">Tick Spray Pricing in {CITY}</p>
+            <p className="text-gray-600 text-sm mt-0.5">Single treatment from <strong className="text-amber-700">$99</strong> · 2-treatment seasonal program from <strong className="text-amber-700">$179</strong> · No contracts</p>
+          </div>
+          <Link href="/contact" className="shrink-0 bg-amber-500 hover:bg-amber-400 text-white font-bold px-6 py-2.5 rounded-full text-sm transition-colors">Get a Free Quote</Link>
         </div>
       </section>
 

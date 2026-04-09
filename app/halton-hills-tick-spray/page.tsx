@@ -15,6 +15,10 @@ const CITY = 'Halton Hills'
 const NEIGHBOURHOODS = ['Georgetown','Acton','Glen Williams','Norval','Limehouse','Ballinafad','Esquesing']
 const FAQS = [
   {
+    question: 'How much does tick spray cost in Halton Hills?',
+    answer: 'Tick spray in Halton Hills starts from $99 per application. A 2-treatment seasonal program (spring + fall) starts from $179. Given the high tick activity near the Credit River, Niagara Escarpment, and Hilton Falls Conservation Area, most Halton Hills properties benefit from both spring and fall treatments. No contracts. Call (289) 216-5030.',
+  },
+  {
     question: 'Why does Halton Hills have such high tick risk compared to other GTA communities?',
     answer: 'Halton Hills sits at the convergence of three significant natural systems: the Credit River watershed, Silver Creek, and the Niagara Escarpment. All three host well-established blacklegged tick populations confirmed by Halton Region Public Health. Unlike communities where ticks are limited to one ravine or creek, Halton Hills has multiple overlapping tick corridors covering both Georgetown and Acton, making it one of the consistently highest-risk areas in the western GTA.',
   },
@@ -52,6 +56,17 @@ export default function HaltonHillsTickPage() {
             <Link href="/contact" className="inline-block bg-amber-500 hover:bg-amber-400 text-white font-extrabold px-8 py-4 rounded-full text-lg shadow-xl transition-colors text-center">Get a Free Quote</Link>
             <a href={BUSINESS.phoneHref} className="inline-flex items-center justify-center border-2 border-white text-white hover:bg-white hover:text-brand-900 font-bold px-8 py-4 rounded-full text-lg transition-colors">{BUSINESS.phone}</a>
           </div>
+        </div>
+      </section>
+
+      {/* Pricing bar */}
+      <section className="bg-amber-50 border-y border-amber-200 py-5 px-4">
+        <div className="max-w-4xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-3">
+          <div>
+            <p className="font-extrabold text-brand-900 text-base">Tick Spray Pricing in {CITY}</p>
+            <p className="text-gray-600 text-sm mt-0.5">Single treatment from <strong className="text-amber-700">$99</strong> · 2-treatment seasonal program from <strong className="text-amber-700">$179</strong> · No contracts</p>
+          </div>
+          <Link href="/contact" className="shrink-0 bg-amber-500 hover:bg-amber-400 text-white font-bold px-6 py-2.5 rounded-full text-sm transition-colors">Get a Free Quote</Link>
         </div>
       </section>
 
