@@ -6,7 +6,7 @@ import './globals.css'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import { BUSINESS, SITE_URL } from '@/lib/constants'
-import { websiteSchema, localBusinessSchema } from '@/lib/seo'
+import { websiteSchema } from '@/lib/seo'
 
 const inter = Inter({
   subsets: ['latin'],
@@ -80,11 +80,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema()) }}
-        />
-        {/* LocalBusiness / PestControlService schema — every page */}
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema()) }}
         />
         {/* DNS prefetch for performance */}
         <link rel="dns-prefetch" href="//www.google-analytics.com" />

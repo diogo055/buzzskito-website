@@ -106,7 +106,7 @@ export default function HomePage() {
                   priority
                 />
                 <div className="absolute bottom-4 left-4 right-4 bg-brand-950/80 backdrop-blur-sm rounded-xl px-4 py-3 flex items-center gap-3">
-                  <Image src="/logo.png" alt="BuzzSkito" width={36} height={36} className="rounded-full shrink-0" />
+                  <Image src="/logo.webp" alt="BuzzSkito" width={36} height={36} className="rounded-full shrink-0" />
                   <div>
                     <p className="text-white font-bold text-sm">BuzzSkito GTA</p>
                     <p className="text-amber-400 text-xs">⭐⭐⭐⭐⭐ 5.0 · 126 Google reviews</p>
@@ -266,10 +266,11 @@ export default function HomePage() {
             <div className="lg:col-span-2">
               <div className="rounded-2xl overflow-hidden shadow-xl">
                 <Image
-                  src="/team.jpg"
+                  src="/team.webp"
                   alt="BuzzSkito mosquito and tick control team — GTA"
                   width={600}
                   height={400}
+                  sizes="(max-width: 1024px) 100vw, 40vw"
                   className="w-full h-auto object-cover"
                 />
               </div>

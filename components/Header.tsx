@@ -65,7 +65,7 @@ export default function Header() {
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2 shrink-0" aria-label="BuzzSkito home">
             <Image
-              src="/logo.png"
+              src="/logo.webp"
               alt="BuzzSkito Mosquito &amp; Tick Control"
               width={40}
               height={40}

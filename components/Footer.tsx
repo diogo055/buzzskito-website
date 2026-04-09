@@ -24,7 +24,7 @@ export default function Footer() {
           <div className="lg:col-span-2">
             <Link href="/" className="inline-flex items-center gap-2 mb-4">
               <Image
-                src="/logo.png"
+                src="/logo.webp"
                 alt="BuzzSkito logo"
                 width={40}
                 height={40}

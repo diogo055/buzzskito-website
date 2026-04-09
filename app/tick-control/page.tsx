@@ -65,7 +65,7 @@ export default function TickControlPage() {
           </div>
           <div className="hidden lg:block rounded-2xl overflow-hidden shadow-2xl ring-4 ring-white/10">
             <Image
-              src="/spray-pool.jpg"
+              src="/spray-pool.webp"
               alt="BuzzSkito technician treating a pool-area garden for ticks"
               width={700}
               height={520}

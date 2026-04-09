@@ -62,7 +62,7 @@ export default function MosquitoControlPage() {
           </div>
           <div className="hidden lg:block rounded-2xl overflow-hidden shadow-2xl ring-4 ring-white/10">
             <Image
-              src="/spray-backyard.jpg"
+              src="/spray-backyard.webp"
               alt="BuzzSkito technician treating a backyard for mosquitoes"
               width={700}
               height={520}
