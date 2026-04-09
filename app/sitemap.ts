@@ -140,12 +140,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
   }))
 
   // ── Keyword-gap blog posts (batch 3) ─────────────────────────────────────────
-  const newBlogs3: MetadataRoute.Sitemap = NEW_BLOGS_3.map((post) => ({
-    url: `${SITE_URL}/blog/${post.slug}`,
-    lastModified: new Date(post.date).toISOString(),
-    changeFrequency: 'monthly' as const,
-    priority: 0.8,
-  }))
+  const newBlogs3: MetadataRoute.Sitemap = NEW_BLOGS_3
+    .filter((post) => post.slug !== 'mosquito-control-cost-ontario') // redirected to /mosquito-control-cost
+    .map((post) => ({
+      url: `${SITE_URL}/blog/${post.slug}`,
+      lastModified: new Date(post.date).toISOString(),
+      changeFrequency: 'monthly' as const,
+      priority: 0.8,
+    }))
 
   // ── Keyword-gap blog posts (batch 4) ─────────────────────────────────────────
   const newBlogs4: MetadataRoute.Sitemap = NEW_BLOGS_4.map((post) => ({

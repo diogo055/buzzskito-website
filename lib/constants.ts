@@ -408,6 +408,13 @@ export const NEW_BLOGS_2 = [
 
 export const NEW_BLOGS_3 = [
   {
+    slug: 'mosquito-control-cost-ontario',
+    title: 'How Much Does Mosquito Control Cost in Ontario? (2026 Pricing Guide)',
+    excerpt: 'One-time spray, seasonal packages, and yard size pricing for professional mosquito barrier spray across the GTA and Ontario — transparent numbers, no surprises.',
+    date: '2026-04-15',
+    category: 'mosquito' as const,
+  },
+  {
     slug: 'outdoor-event-mosquito-control-gta',
     title: 'Outdoor Event Mosquito Control in the GTA: Weddings, Parties & Backyard Gatherings',
     excerpt: "Planning a backyard wedding, graduation party, or outdoor corporate event? Here's how a single pre-event barrier spray keeps mosquitoes away — and what to book, when.",
