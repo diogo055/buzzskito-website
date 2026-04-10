@@ -104,6 +104,46 @@ export function serviceSchema(opts: { name: string; description: string; slug: s
   }
 }
 
+export function howToSchema(opts: { service: 'mosquito' | 'tick'; city?: string }) {
+  const isTick = opts.service === 'tick'
+  const cityLabel = opts.city ? ` in ${opts.city}` : ''
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'HowTo',
+    name: isTick ? `How Professional Tick Control Works${cityLabel}` : `How Professional Mosquito Control Works${cityLabel}`,
+    description: isTick
+      ? `Three-step professional tick barrier spray process for residential yards${cityLabel}. Health Canada-approved.`
+      : `Three-step professional mosquito barrier spray process for residential yards${cityLabel}. Health Canada-approved.`,
+    step: [
+      {
+        '@type': 'HowToStep',
+        position: 1,
+        name: 'Free Property Assessment',
+        text: isTick
+          ? 'We evaluate your property, identifying tick habitat zones — lawn-to-woods transition areas, leaf litter, garden bed edges, and fence lines where ticks concentrate.'
+          : 'We evaluate your property, identifying water features, dense vegetation, and mosquito pressure zones specific to your area.',
+      },
+      {
+        '@type': 'HowToStep',
+        position: 2,
+        name: 'Professional Barrier Spray',
+        text: isTick
+          ? 'Our licensed technician applies Health Canada-approved formula to the specific 1-3 metre zones where ticks concentrate using a precision backpack sprayer.'
+          : 'Our licensed technician applies Health Canada-approved formula to all vegetation, shrub interiors, leaf undersides, and fence lines using a precision backpack sprayer.',
+      },
+      {
+        '@type': 'HowToStep',
+        position: 3,
+        name: '30-Day Protection Guarantee',
+        text: 'The residual formula kills pests on contact and creates a protective barrier for up to 30 days. If pests return within the protection window, we re-treat at no cost.',
+      },
+    ],
+    totalTime: 'PT40M',
+    supply: [{ '@type': 'HowToSupply', name: 'Health Canada-approved barrier spray formula' }],
+    tool: [{ '@type': 'HowToTool', name: 'Professional backpack precision sprayer' }],
+  }
+}
+
 export function breadcrumbSchema(items: { name: string; url: string }[]) {
   return {
     '@context': 'https://schema.org',
