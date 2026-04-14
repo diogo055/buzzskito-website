@@ -1,8 +1,8 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import Script from 'next/script'
 import { buildMetadata, breadcrumbSchema, speakableSchema } from '@/lib/seo'
 import { BUSINESS } from '@/lib/constants'
+import QuoteForm from '@/components/QuoteForm'
 
 export const metadata: Metadata = buildMetadata({
   title: 'Get a Free Mosquito & Tick Control Quote | BuzzSkito',
@@ -35,24 +35,10 @@ export default function ContactPage() {
       <section className="py-16 px-4 bg-white">
         <div className="max-w-5xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12">
 
-          {/* Jobber form embed */}
+          {/* Quote request form */}
           <div>
             <h2 className="text-2xl font-extrabold text-brand-900 mb-6">Request a Quote</h2>
-            {/* Jobber quote request form */}
-            <link
-              rel="stylesheet"
-              href="https://d3ey4dbjkt2f6s.cloudfront.net/assets/external/work_request_embed.css"
-              media="screen"
-            />
-            <div id="b0067eee-3c4b-4900-90f1-e7d2b3b0d3a7" />
-            <Script
-              src="https://d3ey4dbjkt2f6s.cloudfront.net/assets/static_link/work_request_embed_snippet.js"
-              // @ts-expect-error — Jobber custom attributes
-              clienthub_id="b0067eee-3c4b-4900-90f1-e7d2b3b0d3a7"
-              form_url="https://clienthub.getjobber.com/client_hubs/b0067eee-3c4b-4900-90f1-e7d2b3b0d3a7/public/work_request/embedded_work_request_form"
-              strategy="afterInteractive"
-            />
-
+            <QuoteForm />
             <p className="text-sm text-gray-500 mt-4 text-center">
               Prefer to call? <a href={BUSINESS.phoneHref} className="text-brand-700 font-semibold underline">{BUSINESS.phone}</a>
             </p>
