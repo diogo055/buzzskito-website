@@ -43,7 +43,7 @@ const nextConfig = {
       { source: '/brampton-mosquito-spray',       destination: '/brampton-mosquito-control',     permanent: true },
       { source: '/oakville-protection',           destination: '/oakville-mosquito-control',     permanent: true },
       { source: '/oakville-mosquito-spray',       destination: '/oakville-mosquito-control',     permanent: true },
-      { source: '/tick-info-toronto',             destination: '/toronto-tick-spray-1',          permanent: true },
+      { source: '/tick-info-toronto',             destination: '/toronto-tick-spray',            permanent: true },
       { source: '/frequently-asked-questions',    destination: '/frequently-asked-question',     permanent: true },
       { source: '/frequently-asked-question/f.rss', destination: '/frequently-asked-question',  permanent: true },
       { source: '/frequently-asked-question/f/why-mosquito-prevention-should-be-a-year-round-effort', destination: '/frequently-asked-question', permanent: true },
@@ -102,9 +102,9 @@ const nextConfig = {
       // ── Oakville content ─────────────────────────────────────────────────────
       { source: '/home/f/mosquito-control-in-oakville---what-works',             destination: '/oakville-mosquito-control', permanent: true },
       { source: '/home/f/mosquito-control-in-oakville---2025-guide',             destination: '/oakville-mosquito-control', permanent: true },
-      { source: '/home/f/oakville-tick-control-guide-protect-your-family-pets',  destination: '/oakville-tick-spray-1',    permanent: true },
-      { source: '/f/oakville-tick-control-guide-protect-your-family-pets',       destination: '/oakville-tick-spray-1',    permanent: true },
-      { source: '/home/f/tick-season-in-oakville-what-to-know',                  destination: '/oakville-tick-spray-1',    permanent: true },
+      { source: '/home/f/oakville-tick-control-guide-protect-your-family-pets',  destination: '/oakville-tick-spray',      permanent: true },
+      { source: '/f/oakville-tick-control-guide-protect-your-family-pets',       destination: '/oakville-tick-spray',      permanent: true },
+      { source: '/home/f/tick-season-in-oakville-what-to-know',                  destination: '/oakville-tick-spray',      permanent: true },
       { source: '/f/oakville-etobicoke-western-gta-mosquito-tick-shield-a-plan', destination: '/oakville-mosquito-control', permanent: true },
       { source: '/home/f/oakville-etobicoke-western-gta-mosquito-tick-shield-a-plan', destination: '/oakville-mosquito-control', permanent: true },
 
