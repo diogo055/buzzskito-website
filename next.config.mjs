@@ -216,6 +216,9 @@ const nextConfig = {
       { source: '/toronto-tick-spray-1',    destination: '/toronto-tick-spray',           permanent: true },
       { source: '/hamilton-tick-spray-1',   destination: '/hamilton-tick-spray',          permanent: true },
 
+      // ── Terms page consolidation ─────────────────────────────────────────────
+      { source: '/terms-and-conditions', destination: '/terms', permanent: true },
+
       // ── Catch-all wildcards — must be LAST ───────────────────────────────────
       // These catch any /f/* or /home/f/* URL not explicitly listed above
       { source: '/f/:path*',      destination: '/mosquito-control', permanent: true },
