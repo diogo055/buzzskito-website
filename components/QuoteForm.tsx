@@ -1,9 +1,30 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { BUSINESS } from '@/lib/constants'
 
 const HUB_API_URL = process.env.NEXT_PUBLIC_HUB_API_URL || 'https://app.buzzskito.ca'
+
+// Store the first landing page in a cookie so we know what brought them here
+function getLandingPage(): string {
+  if (typeof window === 'undefined') return ''
+  // Check if we already stored it
+  const stored = document.cookie.split('; ').find(c => c.startsWith('bz_landing='))
+  if (stored) return decodeURIComponent(stored.split('=')[1])
+  // First visit — store current page
+  const page = window.location.pathname
+  document.cookie = `bz_landing=${encodeURIComponent(page)};path=/;max-age=${60 * 60 * 24 * 30}` // 30 days
+  return page
+}
+
+function getReferrer(): string {
+  if (typeof window === 'undefined') return ''
+  const stored = document.cookie.split('; ').find(c => c.startsWith('bz_ref='))
+  if (stored) return decodeURIComponent(stored.split('=')[1])
+  const ref = document.referrer || ''
+  document.cookie = `bz_ref=${encodeURIComponent(ref)};path=/;max-age=${60 * 60 * 24 * 30}`
+  return ref
+}
 
 type ServiceType = 'mosquito' | 'tick' | 'both'
 
@@ -16,6 +37,13 @@ export default function QuoteForm() {
   const [loading, setLoading] = useState(false)
   const [submitted, setSubmitted] = useState(false)
   const [error, setError] = useState('')
+  const [landingPage, setLandingPage] = useState('')
+  const [referrer, setReferrer] = useState('')
+
+  useEffect(() => {
+    setLandingPage(getLandingPage())
+    setReferrer(getReferrer())
+  }, [])
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault()
@@ -32,6 +60,8 @@ export default function QuoteForm() {
           phone: phone.trim() || undefined,
           address: address.trim() || undefined,
           service_type: serviceType,
+          landing_page: landingPage || undefined,
+          referrer: referrer || undefined,
         }),
       })
 
