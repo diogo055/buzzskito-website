@@ -133,7 +133,7 @@ export default function Header() {
               {BUSINESS.phone}
             </a>
             <Link
-              href="/contact"
+              href="/free-yard-assessment"
               className="hidden sm:inline-flex bg-amber-500 hover:bg-amber-400 text-white font-bold px-4 py-2 rounded-full text-sm transition-colors shadow-md"
             >
               Free Quote
@@ -205,7 +205,7 @@ export default function Header() {
                 </svg>
                 {BUSINESS.phone}
               </a>
-              <Link href="/contact" className="block mx-3 mt-2 bg-amber-500 text-white text-center font-bold px-4 py-2 rounded-full text-sm" onClick={() => setMenuOpen(false)}>
+              <Link href="/free-yard-assessment" className="block mx-3 mt-2 bg-amber-500 text-white text-center font-bold px-4 py-2 rounded-full text-sm" onClick={() => setMenuOpen(false)}>
                 Get a Free Quote
               </Link>
             </div>

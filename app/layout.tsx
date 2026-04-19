@@ -103,7 +103,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             Call Now
           </a>
           <a
-            href="/contact"
+            href="/free-yard-assessment"
             className="flex-1 bg-amber-500 text-white font-bold text-sm py-3 rounded-full text-center"
           >
             Free Quote

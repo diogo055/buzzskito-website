@@ -26,7 +26,7 @@ export default function CTASection({
         <p className={`text-lg ${sub} mb-8 max-w-xl mx-auto leading-relaxed`}>{subtext}</p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Link
-            href="/contact"
+            href="/free-yard-assessment"
             className="inline-block bg-amber-500 hover:bg-amber-400 text-white font-extrabold px-8 py-4 rounded-full text-lg shadow-xl transition-colors"
           >
             Get a Free Quote
