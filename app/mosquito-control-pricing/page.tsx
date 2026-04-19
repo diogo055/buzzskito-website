@@ -22,7 +22,7 @@ const FAQS = [
   },
   {
     question: 'Is the season package worth it vs booking individual treatments?',
-    answer: 'Yes, if you need 3 or more treatments per season (which most GTA properties do). The Basic package ($549 for 3 treatments) works out to $183/treatment vs $99+ per individual treatment. However, the real value is consistent scheduling — gaps between treatments allow mosquito populations to rebuild. Seasonal programs maintain continuous protection from May through September.',
+    answer: 'Yes, if you need 3 or more treatments per season (which most GTA properties do). The Basic package ($549 for 5 treatments) works out to $110/treatment vs $99+ per individual treatment. However, the real value is consistent scheduling — gaps between treatments allow mosquito populations to rebuild. Seasonal programs maintain continuous protection from May through September.',
   },
   {
     question: 'What affects mosquito control pricing?',
@@ -105,15 +105,15 @@ export default function MosquitoControlPricingPage() {
               {
                 name: 'Basic',
                 price: '$549',
-                treatments: '3 treatments',
-                perTreatment: '$183/treatment',
+                treatments: '5 treatments',
+                perTreatment: '$110/treatment',
                 features: ['May through September', 'Every 35-40 days', 'Mosquito barrier spray', 'Health Canada-approved formula', 'Rain-back guarantee', 'No contracts'],
                 best: 'Lower-pressure properties away from water features',
               },
               {
                 name: 'Standard',
                 price: '$994',
-                treatments: '4 treatments',
+                treatments: '10 treatments',
                 perTreatment: '$249/treatment',
                 features: ['May through September', 'Every 28 days', 'Mosquito barrier spray', 'Health Canada-approved formula', 'Rain-back guarantee', 'No contracts', 'Priority scheduling'],
                 best: 'Most GTA suburban properties',
@@ -203,8 +203,8 @@ export default function MosquitoControlPricingPage() {
               <tbody>
                 {[
                   { approach: 'Individual bookings (5x)', cost: '$495+', per: 'From $99 each', sched: 'You manage timing' },
-                  { approach: 'Basic package (3 treatments)', cost: '$549', per: '$183 each', sched: 'Pre-scheduled' },
-                  { approach: 'Standard package (4 treatments)', cost: '$994', per: '$249 each', sched: 'Pre-scheduled + priority' },
+                  { approach: 'Basic package (5 treatments)', cost: '$549', per: '$110 each', sched: 'Pre-scheduled' },
+                  { approach: 'Standard package (10 treatments)', cost: '$994', per: '$99 each', sched: 'Pre-scheduled + priority' },
                   { approach: 'Exclusive package (5 treatments)', cost: '$2,049', per: '$410 each', sched: 'Pre-scheduled + priority + tick' },
                 ].map(({ approach, cost, per, sched }) => (
                   <tr key={approach} className="border-b border-gray-200 even:bg-gray-50">
@@ -232,7 +232,7 @@ export default function MosquitoControlPricingPage() {
               </thead>
               <tbody>
                 {[
-                  { company: 'BuzzSkito', single: 'From $99', seasonal: 'From $549 (3 treatments)', contracts: 'No contracts' },
+                  { company: 'BuzzSkito', single: 'From $99', seasonal: 'From $549 (5 treatments)', contracts: 'No contracts' },
                   { company: 'MosquitoMan', single: 'Not published', seasonal: '~$450 seasonal', contracts: 'Seasonal commitment' },
                   { company: 'LawnSavers', single: 'From $129', seasonal: 'Quote-based', contracts: 'Seasonal programs' },
                   { company: 'Mosquito.Buzz', single: 'Quote-based', seasonal: 'Quote-based', contracts: 'Seasonal programs' },

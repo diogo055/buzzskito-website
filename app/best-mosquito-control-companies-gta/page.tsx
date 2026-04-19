@@ -113,7 +113,7 @@ export default function BestMosquitoControlCompaniesGTAPage() {
           <h2>BuzzSkito</h2>
           <p>BuzzSkito is a GTA-based mosquito and tick control company serving 19+ cities across the Greater Toronto Area and York Region. Founded locally, not a franchise.</p>
           <ul>
-            <li><strong>Pricing:</strong> Single treatments from $99. Seasonal packages: Basic ($549 for 3 treatments), Standard ($994 for 4 treatments), Exclusive ($2,049 for 5 treatments with tick add-on).</li>
+            <li><strong>Pricing:</strong> Single treatments from $99. Seasonal packages: Basic ($549 for 5 treatments), Standard ($994 for 10 treatments), Exclusive ($2,049 for 20+ treatments with tick add-on).</li>
             <li><strong>Reviews:</strong> 126 Google reviews, 5.0-star average.</li>
             <li><strong>Contracts:</strong> No contracts, no cancellation fees. Book single treatments or seasonal programs with full flexibility.</li>
             <li><strong>Treatment:</strong> Health Canada-approved barrier spray applied by licensed technicians. Targets all vegetation, shrub interiors, fence lines, and structural perimeters.</li>

@@ -165,8 +165,8 @@ export default function DIYvsProfessionalPage() {
                   { approach: 'Citronella candles (weekly use)', cost: '$60-$120', time: '10+ hours setup/refuel', days: '0 — only works while burning' },
                   { approach: 'Consumer fogger (weekly use)', cost: '$150-$250', time: '15+ hours of fogging', days: '0 — 2-4 hours per use' },
                   { approach: 'DIY concentrate (5 applications)', cost: '$100-$200 + sprayer', time: '10-15 hours total', days: '35-70 days (if applied correctly)' },
-                  { approach: 'BuzzSkito Basic (3 treatments)', cost: '$549', time: '0 — we do everything', days: '~90 days of protection' },
-                  { approach: 'BuzzSkito Standard (4 treatments)', cost: '$994', time: '0 — we do everything', days: '~120 days of protection' },
+                  { approach: 'BuzzSkito Basic (5 treatments)', cost: '$549', time: '0 — we do everything', days: '~90 days of protection' },
+                  { approach: 'BuzzSkito Standard (10 treatments)', cost: '$994', time: '0 — we do everything', days: '~120 days of protection' },
                 ].map(({ approach, cost, time, days }) => (
                   <tr key={approach} className="border-b border-gray-200 even:bg-gray-50">
                     <td className="px-4 py-3 font-semibold text-gray-800">{approach}</td>
