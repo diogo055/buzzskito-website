@@ -59,7 +59,7 @@ export default function CommercialMosquitoPage() {
             Protect your guests, employees, and outdoor spaces from mosquitoes and ticks. BuzzSkito provides professional barrier spray for restaurants, event venues, golf courses, managed communities, and all commercial properties across the GTA.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
-            <Link href="/contact" className="inline-block bg-amber-500 hover:bg-amber-400 text-white font-extrabold px-8 py-4 rounded-full text-lg shadow-xl transition-colors text-center">Get a Commercial Quote</Link>
+            <Link href="/free-yard-assessment" className="inline-block bg-amber-500 hover:bg-amber-400 text-white font-extrabold px-8 py-4 rounded-full text-lg shadow-xl transition-colors text-center">Get a Commercial Quote</Link>
             <a href={BUSINESS.phoneHref} className="inline-flex items-center justify-center border-2 border-white text-white hover:bg-white hover:text-brand-900 font-bold px-8 py-4 rounded-full text-lg transition-colors">{BUSINESS.phone}</a>
           </div>
         </div>

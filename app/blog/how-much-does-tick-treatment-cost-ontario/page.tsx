@@ -161,7 +161,7 @@ export default function TickTreatmentCostPage() {
           <li>Combined tick + mosquito packages for maximum savings</li>
           <li>Free, no-obligation quotes by phone or online</li>
         </ul>
-        <p>See: <Link href="/mosquito-control-pricing" className="text-brand-700 hover:underline">Full pricing details</Link> | <Link href="/contact" className="text-brand-700 hover:underline">Get a free quote</Link></p>
+        <p>See: <Link href="/mosquito-control-pricing" className="text-brand-700 hover:underline">Full pricing details</Link> | <Link href="/free-yard-assessment" className="text-brand-700 hover:underline">Get a free quote</Link></p>
 
         <h2>How to Compare Tick Control Companies in Ontario</h2>
         <p>When evaluating quotes from different companies, compare the following:</p>

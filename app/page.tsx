@@ -72,7 +72,7 @@ export default function HomePage() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 mb-8">
                 <Link
-                  href="/contact"
+                  href="/free-yard-assessment"
                   className="inline-block bg-amber-500 hover:bg-amber-400 text-white font-extrabold px-8 py-4 rounded-full text-lg shadow-xl transition-colors text-center"
                 >
                   Get a Free Quote

@@ -55,7 +55,7 @@ export default function DIYvsProfessionalPage() {
             Citronella candles, home foggers, essential oils, and yard sprays compared to professional barrier treatment. An honest breakdown of cost, effectiveness, and safety.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
-            <Link href="/contact" className="inline-block bg-amber-500 hover:bg-amber-400 text-white font-extrabold px-8 py-4 rounded-full text-lg shadow-xl transition-colors text-center">Get a Free Quote</Link>
+            <Link href="/free-yard-assessment" className="inline-block bg-amber-500 hover:bg-amber-400 text-white font-extrabold px-8 py-4 rounded-full text-lg shadow-xl transition-colors text-center">Get a Free Quote</Link>
             <a href={BUSINESS.phoneHref} className="inline-flex items-center justify-center border-2 border-white text-white hover:bg-white hover:text-brand-900 font-bold px-8 py-4 rounded-full text-lg transition-colors">{BUSINESS.phone}</a>
           </div>
         </div>
@@ -214,7 +214,7 @@ export default function DIYvsProfessionalPage() {
             <li><Link href="/mosquito-control-pricing" className="text-brand-700 hover:underline">Mosquito Control Pricing 2026</Link> &mdash; transparent pricing by property size and program</li>
             <li><Link href="/best-mosquito-control-companies-gta" className="text-brand-700 hover:underline">Best Mosquito Control Companies GTA</Link> &mdash; compare providers</li>
             <li><Link href="/mosquito-control-cost" className="text-brand-700 hover:underline">Mosquito Control Cost Ontario</Link> &mdash; what affects pricing</li>
-            <li><Link href="/contact" className="text-brand-700 hover:underline">Contact BuzzSkito</Link> &mdash; get a free quote</li>
+            <li><Link href="/free-yard-assessment" className="text-brand-700 hover:underline">Contact BuzzSkito</Link> &mdash; get a free quote</li>
           </ul>
         </div>
       </section>

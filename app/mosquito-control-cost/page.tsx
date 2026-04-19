@@ -67,7 +67,7 @@ export default function MosquitoControlCostPage() {
             Transparent pricing, no hidden fees. BuzzSkito mosquito barrier spray starts from $99 per treatment. No contracts, rain-back guarantee included.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
-            <Link href="/contact" className="inline-block bg-amber-500 hover:bg-amber-400 text-white font-extrabold px-8 py-4 rounded-full text-lg shadow-xl transition-colors text-center">
+            <Link href="/free-yard-assessment" className="inline-block bg-amber-500 hover:bg-amber-400 text-white font-extrabold px-8 py-4 rounded-full text-lg shadow-xl transition-colors text-center">
               Get a Free Quote
             </Link>
             <a href={BUSINESS.phoneHref} className="inline-flex items-center justify-center border-2 border-white text-white hover:bg-white hover:text-brand-900 font-bold px-8 py-4 rounded-full text-lg transition-colors">
@@ -140,7 +140,7 @@ export default function MosquitoControlCostPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-sm text-gray-500 not-prose mb-8">All pricing is property-specific. Call <a href={BUSINESS.phoneHref} className="text-brand-700 underline">{BUSINESS.phone}</a> or use our <Link href="/contact" className="text-brand-700 underline">contact form</Link> for a free, no-obligation quote.</p>
+          <p className="text-sm text-gray-500 not-prose mb-8">All pricing is property-specific. Call <a href={BUSINESS.phoneHref} className="text-brand-700 underline">{BUSINESS.phone}</a> or use our <Link href="/free-yard-assessment" className="text-brand-700 underline">contact form</Link> for a free, no-obligation quote.</p>
 
           <h2>What's Included in Every BuzzSkito Treatment</h2>
           <p>Every treatment — whether it's a single visit or part of a seasonal program — includes the same comprehensive service:</p>

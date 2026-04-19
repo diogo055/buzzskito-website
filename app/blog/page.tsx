@@ -99,7 +99,7 @@ export default function BlogIndexPage() {
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-2xl font-extrabold text-brand-900 mb-3">Need Professional Help?</h2>
           <p className="text-gray-600 mb-6">BuzzSkito provides professional mosquito and tick control across Mississauga, Toronto, Brampton, Oakville, Burlington, Hamilton, Vaughan, Richmond Hill, Markham, and the wider GTA.</p>
-          <Link href="/contact" className="inline-block bg-amber-500 hover:bg-amber-400 text-white font-extrabold px-8 py-4 rounded-full text-lg shadow-xl transition-colors">
+          <Link href="/free-yard-assessment" className="inline-block bg-amber-500 hover:bg-amber-400 text-white font-extrabold px-8 py-4 rounded-full text-lg shadow-xl transition-colors">
             Get a Free Quote
           </Link>
         </div>

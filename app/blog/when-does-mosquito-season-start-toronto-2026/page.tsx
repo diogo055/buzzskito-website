@@ -152,7 +152,7 @@ export default function MosquitoSeasonToronto2026Page() {
 
         <h2>How Professional Barrier Spray Works</h2>
         <p><Link href="/mosquito-control" className="text-brand-700 hover:underline">Professional mosquito barrier spray</Link> is applied to all vegetation, fence lines, shaded areas, and perimeter zones where mosquitoes rest during the day. The Health Canada-approved formula kills mosquitoes on contact and provides residual protection for 21 to 30 days. A seasonal program of 5 to 6 treatments (mid-May through early September) covers the full Toronto mosquito season.</p>
-        <p>BuzzSkito provides mosquito control across all Toronto neighbourhoods. See: <Link href="/toronto-mosquito-spray" className="text-brand-700 hover:underline">Toronto mosquito control services</Link> | <Link href="/mosquito-control-pricing" className="text-brand-700 hover:underline">Pricing</Link> | <Link href="/contact" className="text-brand-700 hover:underline">Get a free quote</Link></p>
+        <p>BuzzSkito provides mosquito control across all Toronto neighbourhoods. See: <Link href="/toronto-mosquito-spray" className="text-brand-700 hover:underline">Toronto mosquito control services</Link> | <Link href="/mosquito-control-pricing" className="text-brand-700 hover:underline">Pricing</Link> | <Link href="/free-yard-assessment" className="text-brand-700 hover:underline">Get a free quote</Link></p>
 
         <h2>Frequently Asked Questions</h2>
         <div className="not-prose space-y-3 my-6">

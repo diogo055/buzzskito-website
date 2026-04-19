@@ -55,7 +55,7 @@ export default function MosquitoControlPricingPage() {
             Transparent pricing. No hidden fees. No contracts. BuzzSkito seasonal packages from $549. Single treatments from $99. Here&rsquo;s exactly what you&rsquo;ll pay.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
-            <Link href="/contact" className="inline-block bg-amber-500 hover:bg-amber-400 text-white font-extrabold px-8 py-4 rounded-full text-lg shadow-xl transition-colors text-center">Get a Free Quote</Link>
+            <Link href="/free-yard-assessment" className="inline-block bg-amber-500 hover:bg-amber-400 text-white font-extrabold px-8 py-4 rounded-full text-lg shadow-xl transition-colors text-center">Get a Free Quote</Link>
             <a href={BUSINESS.phoneHref} className="inline-flex items-center justify-center border-2 border-white text-white hover:bg-white hover:text-brand-900 font-bold px-8 py-4 rounded-full text-lg transition-colors">{BUSINESS.phone}</a>
           </div>
         </div>
@@ -142,7 +142,7 @@ export default function MosquitoControlPricingPage() {
                     </li>
                   ))}
                 </ul>
-                <Link href="/contact" className="block text-center bg-brand-700 hover:bg-brand-600 text-white font-bold px-4 py-3 rounded-full text-sm transition-colors">Get a Quote</Link>
+                <Link href="/free-yard-assessment" className="block text-center bg-brand-700 hover:bg-brand-600 text-white font-bold px-4 py-3 rounded-full text-sm transition-colors">Get a Quote</Link>
               </div>
             ))}
           </div>
@@ -174,7 +174,7 @@ export default function MosquitoControlPricingPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-sm text-gray-500 not-prose mb-8">All pricing is property-specific. Call <a href={BUSINESS.phoneHref} className="text-brand-700 underline">{BUSINESS.phone}</a> or use our <Link href="/contact" className="text-brand-700 underline">contact form</Link> for a free, no-obligation quote.</p>
+          <p className="text-sm text-gray-500 not-prose mb-8">All pricing is property-specific. Call <a href={BUSINESS.phoneHref} className="text-brand-700 underline">{BUSINESS.phone}</a> or use our <Link href="/free-yard-assessment" className="text-brand-700 underline">contact form</Link> for a free, no-obligation quote.</p>
 
           <h2>What Affects Mosquito Control Cost?</h2>
           <h3>1. Property Size (Lot Size)</h3>
@@ -266,7 +266,7 @@ export default function MosquitoControlPricingPage() {
             <h3 className="text-xl font-extrabold text-brand-900 mb-2">Free, No-Obligation Quote</h3>
             <p className="text-gray-600 text-sm mb-4">Tell us your address and property size. We&rsquo;ll provide an exact quote &mdash; typically within 24 hours for online requests, or immediately over the phone.</p>
             <div className="flex flex-col sm:flex-row gap-3">
-              <Link href="/contact" className="inline-block bg-amber-500 hover:bg-amber-400 text-white font-bold px-6 py-3 rounded-full text-sm transition-colors text-center">Request a Quote Online</Link>
+              <Link href="/free-yard-assessment" className="inline-block bg-amber-500 hover:bg-amber-400 text-white font-bold px-6 py-3 rounded-full text-sm transition-colors text-center">Request a Quote Online</Link>
               <a href={BUSINESS.phoneHref} className="inline-flex items-center justify-center gap-2 border-2 border-brand-700 text-brand-700 hover:bg-brand-700 hover:text-white font-bold px-6 py-3 rounded-full text-sm transition-colors">Call {BUSINESS.phone}</a>
             </div>
           </div>

@@ -161,7 +161,7 @@ export default function WestNile2026Page() {
         <h2>Professional Mosquito Control and WNV Risk Reduction</h2>
         <p>Professional barrier spray does not guarantee zero mosquito bites, but it substantially reduces the number of biting mosquitoes on your property. This directly reduces the probability of encountering a WNV-infected mosquito in your immediate environment — your yard, patio, and outdoor living space.</p>
         <p>BuzzSkito uses Health Canada-approved formulas applied by licensed technicians. Treatment targets all mosquito resting sites — foliage, fence lines, shaded areas, and perimeter vegetation — creating a treated zone that kills mosquitoes on contact for up to 21 days. Combined with standing water elimination, this approach provides the most comprehensive residential mosquito protection available.</p>
-        <p>See: <Link href="/mosquito-control-pricing" className="text-brand-700 hover:underline">Mosquito control pricing</Link> | <Link href="/contact" className="text-brand-700 hover:underline">Get a free quote</Link></p>
+        <p>See: <Link href="/mosquito-control-pricing" className="text-brand-700 hover:underline">Mosquito control pricing</Link> | <Link href="/free-yard-assessment" className="text-brand-700 hover:underline">Get a free quote</Link></p>
 
         <h2>Frequently Asked Questions</h2>
         <div className="not-prose space-y-3 my-6">

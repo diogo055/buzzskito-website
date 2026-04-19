@@ -55,7 +55,7 @@ export default function BestMosquitoControlCompaniesGTAPage() {
             An honest comparison of the top mosquito control providers serving the Greater Toronto Area in 2026. Pricing, reviews, service areas, and what each company actually offers.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
-            <Link href="/contact" className="inline-block bg-amber-500 hover:bg-amber-400 text-white font-extrabold px-8 py-4 rounded-full text-lg shadow-xl transition-colors text-center">Get a Free Quote from BuzzSkito</Link>
+            <Link href="/free-yard-assessment" className="inline-block bg-amber-500 hover:bg-amber-400 text-white font-extrabold px-8 py-4 rounded-full text-lg shadow-xl transition-colors text-center">Get a Free Quote from BuzzSkito</Link>
             <a href={BUSINESS.phoneHref} className="inline-flex items-center justify-center border-2 border-white text-white hover:bg-white hover:text-brand-900 font-bold px-8 py-4 rounded-full text-lg transition-colors">{BUSINESS.phone}</a>
           </div>
         </div>
@@ -181,7 +181,7 @@ export default function BestMosquitoControlCompaniesGTAPage() {
 
           <h2>Ready to Compare in Person?</h2>
           <p>The best way to evaluate any mosquito control company is to try a single treatment and judge results for yourself. BuzzSkito&rsquo;s no-contract model makes this easy &mdash; book one treatment from $99, see the difference, and decide if you want to continue.</p>
-          <p>Call <a href={BUSINESS.phoneHref} className="text-brand-700 hover:underline">{BUSINESS.phone}</a> or use our <Link href="/contact" className="text-brand-700 hover:underline">contact form</Link> for a free, no-obligation quote.</p>
+          <p>Call <a href={BUSINESS.phoneHref} className="text-brand-700 hover:underline">{BUSINESS.phone}</a> or use our <Link href="/free-yard-assessment" className="text-brand-700 hover:underline">contact form</Link> for a free, no-obligation quote.</p>
 
           <h2>Related Pages</h2>
           <ul>

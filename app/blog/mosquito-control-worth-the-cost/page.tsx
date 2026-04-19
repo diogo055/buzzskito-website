@@ -167,7 +167,7 @@ export default function MosquitoControlWorthCostPage() {
           <li>Combined mosquito + tick packages</li>
           <li>Free, no-obligation quotes</li>
         </ul>
-        <p>See: <Link href="/mosquito-control-pricing" className="text-brand-700 hover:underline">Full pricing details</Link> | <Link href="/contact" className="text-brand-700 hover:underline">Get a free quote</Link></p>
+        <p>See: <Link href="/mosquito-control-pricing" className="text-brand-700 hover:underline">Full pricing details</Link> | <Link href="/free-yard-assessment" className="text-brand-700 hover:underline">Get a free quote</Link></p>
 
         <h2>Frequently Asked Questions</h2>
         <div className="not-prose space-y-3 my-6">

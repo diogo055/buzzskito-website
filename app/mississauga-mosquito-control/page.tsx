@@ -85,7 +85,7 @@ export default function MississaugaMosquitoControlPage() {
             From Port Credit's waterfront to Meadowvale's conservation areas — BuzzSkito protects every Mississauga neighbourhood with professional barrier spray. Health Canada–approved. 30-day protection. 100% satisfaction guaranteed.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
-            <Link href="/contact" className="inline-block bg-amber-500 hover:bg-amber-400 text-white font-extrabold px-8 py-4 rounded-full text-lg shadow-xl transition-colors text-center">
+            <Link href="/free-yard-assessment" className="inline-block bg-amber-500 hover:bg-amber-400 text-white font-extrabold px-8 py-4 rounded-full text-lg shadow-xl transition-colors text-center">
               Get a Free Quote
             </Link>
             <a href={BUSINESS.phoneHref} className="inline-flex items-center justify-center border-2 border-white text-white hover:bg-white hover:text-brand-900 font-bold px-8 py-4 rounded-full text-lg transition-colors">
@@ -113,7 +113,7 @@ export default function MississaugaMosquitoControlPage() {
             <p className="font-extrabold text-brand-900 text-base">Mosquito Control Pricing in {CITY}</p>
             <p className="text-gray-600 text-sm mt-0.5">Professional mosquito control service from <strong className="text-brand-700">$99</strong> per treatment · No contracts</p>
           </div>
-          <Link href="/contact" className="shrink-0 bg-amber-500 hover:bg-amber-400 text-white font-bold px-6 py-2.5 rounded-full text-sm transition-colors">Get a Free Quote</Link>
+          <Link href="/free-yard-assessment" className="shrink-0 bg-amber-500 hover:bg-amber-400 text-white font-bold px-6 py-2.5 rounded-full text-sm transition-colors">Get a Free Quote</Link>
         </div>
       </section>
 
@@ -230,7 +230,7 @@ export default function MississaugaMosquitoControlPage() {
               </tbody>
             </table>
           </div>
-          <p>There are no contracts and no cancellation fees. Call <a href={BUSINESS.phoneHref} className="text-brand-700 font-semibold hover:underline">{BUSINESS.phone}</a> or use our <Link href="/contact" className="text-brand-700 hover:underline">contact form</Link> for a free quote specific to your address. See our <Link href="/mosquito-control-cost" className="text-brand-700 hover:underline">2026 mosquito control pricing guide</Link> for a full GTA breakdown.</p>
+          <p>There are no contracts and no cancellation fees. Call <a href={BUSINESS.phoneHref} className="text-brand-700 font-semibold hover:underline">{BUSINESS.phone}</a> or use our <Link href="/free-yard-assessment" className="text-brand-700 hover:underline">contact form</Link> for a free quote specific to your address. See our <Link href="/mosquito-control-cost" className="text-brand-700 hover:underline">2026 mosquito control pricing guide</Link> for a full GTA breakdown.</p>
 
           <h2>Professional Mosquito Control vs. DIY in Mississauga</h2>
           <p>Home improvement stores sell mosquito foggers, citronella torches, and consumer-grade sprays. Here's why they don't work as well as professional barrier spray — and why Mississauga's specific geography matters:</p>

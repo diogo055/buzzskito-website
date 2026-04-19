@@ -111,7 +111,7 @@ export default function SpringTickSeasonPage() {
 
         <h3>Properties With High Tick Pressure</h3>
         <p>Homeowners whose properties border conservation areas, ravines, woodlots, or the Niagara Escarpment may benefit from a three-treatment schedule: early May, late June, and early September. This provides overlapping coverage across the entire active tick season.</p>
-        <p>See: <Link href="/tick-control" className="text-brand-700 hover:underline">BuzzSkito tick control services</Link> | <Link href="/contact" className="text-brand-700 hover:underline">Get a free quote</Link></p>
+        <p>See: <Link href="/tick-control" className="text-brand-700 hover:underline">BuzzSkito tick control services</Link> | <Link href="/free-yard-assessment" className="text-brand-700 hover:underline">Get a free quote</Link></p>
 
         <h2>What You Can Do Right Now (Early Spring)</h2>
         <p>Before your professional treatment appointment, early spring is the perfect time for habitat modification that amplifies the effectiveness of barrier spray:</p>
@@ -159,7 +159,7 @@ export default function SpringTickSeasonPage() {
         <h2>The Cost of Waiting Too Long</h2>
         <p>Homeowners who wait until they find a tick on themselves or a family member before booking treatment are already behind. By the time you encounter a tick in your yard, the local population is established and actively feeding. Every week of delay during the nymph emergence window (late May through July) increases your family&apos;s cumulative Lyme disease exposure risk.</p>
         <p>Early scheduling also ensures you secure your preferred treatment date — professional tick control services in the GTA book up quickly in May as demand surges with warmer weather.</p>
-        <p>See: <Link href="/mosquito-control-pricing" className="text-brand-700 hover:underline">Pricing</Link> | <Link href="/contact" className="text-brand-700 hover:underline">Contact BuzzSkito</Link></p>
+        <p>See: <Link href="/mosquito-control-pricing" className="text-brand-700 hover:underline">Pricing</Link> | <Link href="/free-yard-assessment" className="text-brand-700 hover:underline">Contact BuzzSkito</Link></p>
 
         <h2>Frequently Asked Questions</h2>
         <div className="not-prose space-y-3 my-6">
