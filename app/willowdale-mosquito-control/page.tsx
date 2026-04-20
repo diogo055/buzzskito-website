@@ -5,7 +5,7 @@ import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusines
 import { BUSINESS, MOSQUITO_BLOGS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Mosquito Control Willowdale Toronto | BuzzSkito',
+  title: 'Mosquito Control Willowdale | From $99 · 5★ Rated',
   description:
     'Mosquito control in Willowdale, Toronto. Barrier spray from $99. Safe for kids & pets in 30 min. Call (289) 216-5030.',
   canonical: '/willowdale-mosquito-control',

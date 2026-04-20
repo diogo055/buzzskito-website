@@ -5,7 +5,7 @@ import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusines
 import { BUSINESS, MOSQUITO_BLOGS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Mosquito Control Ancaster Hamilton | BuzzSkito',
+  title: 'Mosquito Control Ancaster | From $99 · 5★ Rated',
   description:
     'Professional mosquito control in Ancaster, Hamilton. Barrier spray near Dundas Valley from $99. Safe for kids & pets. Call (289) 216-5030.',
   canonical: '/ancaster-mosquito-control',

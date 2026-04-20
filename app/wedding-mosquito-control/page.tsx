@@ -5,7 +5,7 @@ import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, speakableSch
 import { BUSINESS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Wedding & Outdoor Event Mosquito Control GTA | BuzzSkito',
+  title: 'Wedding Mosquito Control GTA | Outdoor Event Spray',
   description:
     'Mosquito-free weddings & outdoor events in the GTA. BuzzSkito treats venues 24-48 hours before your event. Health Canada-approved. Call (289) 216-5030.',
   canonical: '/wedding-mosquito-control',

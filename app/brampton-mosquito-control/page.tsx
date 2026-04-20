@@ -5,7 +5,7 @@ import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusines
 import { BUSINESS, MOSQUITO_BLOGS, TICK_BLOGS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Mosquito Control Brampton | $99 | BuzzSkito',
+  title: 'Mosquito Control Brampton | From $99 · No Contracts',
   description:
     "Professional mosquito control spray in Brampton. Serving Mount Pleasant, Castlemore, Heart Lake, Springdale, Fletcher's Meadow & all Brampton neighbourhoods. Call (289) 216-5030.",
   canonical: '/brampton-mosquito-control',

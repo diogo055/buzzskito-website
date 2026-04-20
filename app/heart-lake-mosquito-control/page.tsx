@@ -5,7 +5,7 @@ import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusines
 import { BUSINESS, MOSQUITO_BLOGS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Mosquito Control Heart Lake Brampton | BuzzSkito',
+  title: 'Mosquito Control Heart Lake | From $99 · 5★ Rated',
   description:
     'Mosquito control in Heart Lake, Brampton. Barrier spray near conservation area from $99. No contracts. Call (289) 216-5030.',
   canonical: '/heart-lake-mosquito-control',

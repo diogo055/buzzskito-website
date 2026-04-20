@@ -5,7 +5,7 @@ import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusines
 import { BUSINESS, MOSQUITO_BLOGS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Mosquito Control Eastlake Oakville | BuzzSkito',
+  title: 'Mosquito Control Eastlake | From $99 · 5★ Rated',
   description:
     'Professional mosquito control in Eastlake, Oakville. Barrier spray near Joshua Creek & Lake Ontario from $99. Safe for kids & pets. Call (289) 216-5030.',
   canonical: '/eastlake-mosquito-control',

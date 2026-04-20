@@ -5,7 +5,7 @@ import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusines
 import { BUSINESS, CITIES } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Tick Control Ontario | GTA Service | BuzzSkito',
+  title: 'Tick Control Ontario | From $99 · 5★ Rated',
   description:
     'Professional tick control across Ontario\'s Greater Toronto Area. Serving 19 cities in Southern Ontario. Health Canada–approved barrier spray kills ticks at all life stages. Licensed Ontario technicians. Call (289) 216-5030.',
   canonical: '/tick-control-ontario',

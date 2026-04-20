@@ -5,7 +5,7 @@ import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusines
 import { BUSINESS, MOSQUITO_BLOGS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Mosquito Control King City | From $99 | BuzzSkito',
+  title: 'Mosquito Control King City | From $99 · No Contracts',
   description:
     'Mosquito control in King City, ON. Professional barrier spray from $99. Health Canada-approved. No contracts. Call (289) 216-5030.',
   canonical: '/king-city-mosquito-control',

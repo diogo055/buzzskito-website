@@ -5,7 +5,7 @@ import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusines
 import { BUSINESS, MOSQUITO_BLOGS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Mosquito Control Leaside Toronto | BuzzSkito',
+  title: 'Mosquito Control Leaside | From $99 · 5★ Rated',
   description:
     'Mosquito control in Leaside, Toronto. Barrier spray near Don Valley from $99. Safe for kids & pets. Call (289) 216-5030.',
   canonical: '/leaside-mosquito-control',

@@ -5,7 +5,7 @@ import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusines
 import { BUSINESS, MOSQUITO_BLOGS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Mosquito Control Bramalea Brampton | BuzzSkito',
+  title: 'Mosquito Control Bramalea | From $99 · 5★ Rated',
   description:
     'Professional mosquito control in Bramalea, Brampton. Barrier spray near Etobicoke Creek & Professor\'s Lake from $99. Safe for kids & pets. Call (289) 216-5030.',
   canonical: '/bramalea-mosquito-control',

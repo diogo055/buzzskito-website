@@ -5,7 +5,7 @@ import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusines
 import { BUSINESS, TICK_BLOGS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Tick Spray Hamilton | $99 | BuzzSkito',
+  title: 'Tick Spray Hamilton | From $99 · Lyme Prevention',
   description:
     'Professional tick spray in Hamilton. Protect your yard near the Escarpment & Dundas Valley. From $99. Call (289) 216-5030.',
   canonical: '/hamilton-tick-spray',

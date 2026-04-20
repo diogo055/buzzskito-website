@@ -5,7 +5,7 @@ import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusines
 import { BUSINESS, MOSQUITO_BLOGS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Mosquito Control Palmer Burlington | BuzzSkito',
+  title: 'Mosquito Control Palmer | From $99 · 5★ Rated',
   description:
     'Professional mosquito control in Palmer, Burlington. Barrier spray near Grindstone Creek from $99. Safe for kids & pets. Call (289) 216-5030.',
   canonical: '/palmer-mosquito-control',

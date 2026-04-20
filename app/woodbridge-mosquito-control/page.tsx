@@ -5,7 +5,7 @@ import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusines
 import { BUSINESS, MOSQUITO_BLOGS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Mosquito Control Woodbridge | $99 | BuzzSkito',
+  title: 'Mosquito Control Woodbridge | From $99 · No Contracts',
   description:
     'Mosquito control in Woodbridge, Vaughan. Professional barrier spray from $99. No contracts. Call (289) 216-5030.',
   canonical: '/woodbridge-mosquito-control',

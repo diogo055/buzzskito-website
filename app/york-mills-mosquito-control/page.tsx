@@ -5,7 +5,7 @@ import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusines
 import { BUSINESS, MOSQUITO_BLOGS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Mosquito Control York Mills Toronto | BuzzSkito',
+  title: 'Mosquito Control York Mills | From $99 · 5★ Rated',
   description:
     'Mosquito control in York Mills, Toronto. Barrier spray near Don Valley from $99. No contracts. Call (289) 216-5030.',
   canonical: '/york-mills-mosquito-control',

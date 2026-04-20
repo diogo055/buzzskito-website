@@ -5,7 +5,7 @@ import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusines
 import { BUSINESS, MOSQUITO_BLOGS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Mosquito Control Aldershot Burlington | BuzzSkito',
+  title: 'Mosquito Control Aldershot | From $99 · 5★ Rated',
   description:
     'Professional mosquito control in Aldershot, Burlington. Health Canada-approved barrier spray from $99. Safe for kids & pets. Call (289) 216-5030.',
   canonical: '/aldershot-mosquito-control',

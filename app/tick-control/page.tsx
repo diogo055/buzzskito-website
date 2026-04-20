@@ -7,7 +7,7 @@ import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, speakableSch
 import { BUSINESS, CITIES, TICK_BLOGS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Tick Control GTA | Safe for Kids & Pets – BuzzSkito',
+  title: 'Tick Control GTA | From $99 · Lyme Prevention',
   description:
     'Professional tick control across the GTA. Health Canada-approved yard spray from $99. Protect your family from Lyme disease. Call (289) 216-5030.',
   canonical: '/tick-control',

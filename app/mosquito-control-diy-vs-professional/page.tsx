@@ -5,7 +5,7 @@ import { buildMetadata, breadcrumbSchema, faqSchema, speakableSchema, howToSchem
 import { BUSINESS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'DIY vs Professional Mosquito Control — Is It Worth It? | BuzzSkito',
+  title: 'DIY vs Professional Mosquito Control — Worth It?',
   description:
     'DIY vs professional mosquito control — cost, effectiveness & safety compared. See when DIY makes sense vs hiring a pro. From $99/treatment.',
   canonical: '/mosquito-control-diy-vs-professional',

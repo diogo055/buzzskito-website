@@ -5,7 +5,7 @@ import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusines
 import { BUSINESS, CITIES } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Mosquito & Tick Control Near Me | GTA | BuzzSkito',
+  title: 'Mosquito Control Near Me | GTA · From $99',
   description:
     'Mosquito control near you in the GTA. BuzzSkito serves Mississauga, Toronto, Brampton, Oakville, Burlington & Hamilton. From $99.',
   canonical: '/mosquito-control-near-me',

@@ -5,7 +5,7 @@ import { buildMetadata, breadcrumbSchema, faqSchema, speakableSchema, howToSchem
 import { BUSINESS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Mosquito Control Pricing Ontario 2026 — What to Expect | BuzzSkito',
+  title: 'Mosquito Control Pricing Ontario 2026 | From $99',
   description:
     'Mosquito control pricing in Ontario for 2026. BuzzSkito seasonal packages from $549. Single treatments from $99. Transparent pricing, no hidden fees.',
   canonical: '/mosquito-control-pricing',

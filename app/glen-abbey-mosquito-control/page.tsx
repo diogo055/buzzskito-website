@@ -5,7 +5,7 @@ import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusines
 import { BUSINESS, MOSQUITO_BLOGS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Mosquito Control Glen Abbey Oakville | BuzzSkito',
+  title: 'Mosquito Control Glen Abbey | From $99 · 5★ Rated',
   description:
     'Mosquito control in Glen Abbey, Oakville. Barrier spray near golf course ravines from $99. No contracts. Call (289) 216-5030.',
   canonical: '/glen-abbey-mosquito-control',
