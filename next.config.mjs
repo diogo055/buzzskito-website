@@ -219,6 +219,29 @@ const nextConfig = {
       // ── Terms page consolidation ─────────────────────────────────────────────
       { source: '/terms-and-conditions', destination: '/terms', permanent: true },
 
+      // ── Neighbourhood tick spray → parent city tick page ────────────────────
+      // These neighbourhood tick pages don't exist — redirect to parent city
+      { source: '/the-beaches-tick-spray',       destination: '/toronto-tick-spray',      permanent: true },
+      { source: '/don-mills-tick-spray',         destination: '/toronto-tick-spray',      permanent: true },
+      { source: '/leaside-tick-spray',           destination: '/toronto-tick-spray',      permanent: true },
+      { source: '/rosedale-tick-spray',          destination: '/toronto-tick-spray',      permanent: true },
+      { source: '/york-mills-tick-spray',        destination: '/toronto-tick-spray',      permanent: true },
+      { source: '/forest-hill-tick-spray',       destination: '/toronto-tick-spray',      permanent: true },
+      { source: '/willowdale-tick-spray',        destination: '/toronto-tick-spray',      permanent: true },
+      { source: '/east-york-tick-spray',         destination: '/toronto-tick-spray',      permanent: true },
+      { source: '/old-oakville-tick-spray',      destination: '/oakville-tick-spray',     permanent: true },
+      { source: '/north-oakville-tick-spray',    destination: '/oakville-tick-spray',     permanent: true },
+      { source: '/west-oak-trails-tick-spray',   destination: '/oakville-tick-spray',     permanent: true },
+      { source: '/glen-abbey-tick-spray',        destination: '/oakville-tick-spray',     permanent: true },
+      { source: '/bronte-tick-spray',            destination: '/oakville-tick-spray',     permanent: true },
+      { source: '/castlemore-tick-spray',        destination: '/brampton-tick-spray',     permanent: true },
+      { source: '/springdale-tick-spray',        destination: '/brampton-tick-spray',     permanent: true },
+      { source: '/heart-lake-tick-spray',        destination: '/brampton-tick-spray',     permanent: true },
+      { source: '/fletcher-meadows-tick-spray',  destination: '/brampton-tick-spray',     permanent: true },
+      { source: '/alton-village-tick-spray',     destination: '/burlington-tick-spray',   permanent: true },
+      { source: '/aldershot-tick-spray',         destination: '/burlington-tick-spray',   permanent: true },
+      { source: '/roseland-tick-spray',          destination: '/burlington-tick-spray',   permanent: true },
+
       // ── Catch-all wildcards — must be LAST ───────────────────────────────────
       // These catch any /f/* or /home/f/* URL not explicitly listed above
       { source: '/f/:path*',      destination: '/mosquito-control', permanent: true },
