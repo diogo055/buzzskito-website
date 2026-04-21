@@ -73,7 +73,27 @@ export function localBusinessSchema(overrides: { areaServed?: string; descriptio
       { '@type': 'OpeningHoursSpecification', dayOfWeek: ['Monday','Tuesday','Wednesday','Thursday','Friday'], opens: '08:00', closes: '18:00' },
       { '@type': 'OpeningHoursSpecification', dayOfWeek: ['Saturday'], opens: '09:00', closes: '16:00' },
     ],
-    sameAs: [BUSINESS.facebookUrl],
+    aggregateRating: {
+      '@type': 'AggregateRating',
+      ratingValue: BUSINESS.aggregateRating.ratingValue,
+      bestRating: BUSINESS.aggregateRating.bestRating,
+      ratingCount: BUSINESS.aggregateRating.ratingCount,
+    },
+    hasOfferCatalog: {
+      '@type': 'OfferCatalog',
+      name: 'Mosquito & Tick Control Services',
+      itemListElement: [
+        { '@type': 'Offer', name: 'Single Mosquito Treatment', price: '99', priceCurrency: 'CAD', description: 'One-time barrier spray treatment for standard residential lot' },
+        { '@type': 'Offer', name: 'Basic Season Package', price: '549', priceCurrency: 'CAD', description: '5 barrier spray treatments, monthly May–September' },
+        { '@type': 'Offer', name: 'Standard Season Package', price: '994', priceCurrency: 'CAD', description: '10 barrier spray treatments, bi-weekly May–September' },
+        { '@type': 'Offer', name: 'Exclusive Season Package', price: '2049', priceCurrency: 'CAD', description: '20+ weekly barrier spray treatments May–September' },
+        { '@type': 'Offer', name: 'Tick Protection Program', price: '597', priceCurrency: 'CAD', description: '5 targeted tick barrier sprays, full season' },
+      ],
+    },
+    sameAs: [
+      BUSINESS.facebookUrl,
+      BUSINESS.googleReviewUrl,
+    ],
   }
 }
 
@@ -205,17 +225,13 @@ export function reviewSchema() {
     { author: 'Mike T.', rating: 5, date: '2026-01-15', text: 'Second year using BuzzSkito for the season package. Consistent, reliable, and actually works. Our backyard in Burlington used to be unbearable by July — now we\'re out there every evening.' },
     { author: 'Linda C.', rating: 5, date: '2026-03-05', text: 'Very impressed with the SMS alerts before and after service. Our Toronto property backs onto a ravine so mosquitoes are a real issue — after the first treatment the difference was night and day.' },
   ]
+  // Reviews reference the LocalBusiness entity via @id — no duplicate AggregateRating here
+  // AggregateRating lives on the localBusinessSchema entity
   return {
     '@context': 'https://schema.org',
     '@type': 'PestControlService',
     '@id': `${SITE_URL}/#business`,
     name: BUSINESS.legalName,
-    aggregateRating: {
-      '@type': 'AggregateRating',
-      ratingValue: BUSINESS.aggregateRating.ratingValue,
-      bestRating: BUSINESS.aggregateRating.bestRating,
-      ratingCount: BUSINESS.aggregateRating.ratingCount,
-    },
     review: reviews.map(({ author, rating, date, text }) => ({
       '@type': 'Review',
       author: { '@type': 'Person', name: author },
@@ -274,7 +290,17 @@ export function organizationSchema() {
       areaServed: 'CA-ON',
       availableLanguage: 'English',
     },
-    sameAs: [BUSINESS.facebookUrl],
+    sameAs: [
+      BUSINESS.facebookUrl,
+      BUSINESS.googleReviewUrl,
+    ],
     subOrganization: { '@type': 'PestControlService', '@id': `${SITE_URL}/#business` },
+    knowsAbout: [
+      'Mosquito control',
+      'Tick control',
+      'Barrier spray treatment',
+      'Lyme disease prevention',
+      'Pest control Ontario',
+    ],
   }
 }
