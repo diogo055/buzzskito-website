@@ -30,23 +30,31 @@ export async function GET() {
 
     scanDir(appDir)
 
-    // Submit to IndexNow
-    const response = await fetch('https://www.bing.com/indexnow', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        host: HOST,
-        key: INDEXNOW_KEY,
-        keyLocation: `https://${HOST}/${INDEXNOW_KEY}.txt`,
-        urlList: urls.slice(0, 10000), // Max 10K per request
-      }),
+    // Submit to multiple IndexNow endpoints
+    const payload = JSON.stringify({
+      host: HOST,
+      key: INDEXNOW_KEY,
+      keyLocation: `https://${HOST}/${INDEXNOW_KEY}.txt`,
+      urlList: urls.slice(0, 10000),
     })
+
+    const endpoints = [
+      'https://yandex.com/indexnow',
+      'https://search.seznam.cz/indexnow',
+      'https://www.bing.com/indexnow',
+    ]
+
+    const results = await Promise.allSettled(
+      endpoints.map(async (ep) => {
+        const r = await fetch(ep, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: payload })
+        return { endpoint: ep, status: r.status, statusText: r.statusText }
+      })
+    )
 
     return NextResponse.json({
       submitted: urls.length,
-      status: response.status,
-      statusText: response.statusText,
-      urls: urls.slice(0, 20), // Show first 20 for verification
+      results: results.map(r => r.status === 'fulfilled' ? r.value : { error: 'failed' }),
+      urls: urls.slice(0, 20),
     })
   } catch (error) {
     console.error('IndexNow error:', error)
