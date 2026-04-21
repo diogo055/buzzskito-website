@@ -5,7 +5,7 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 import { MOSQUITO_BLOGS } from '@/lib/constants'
 
 const POST = {
-  title: 'When Does Mosquito Season Start in Toronto? [2026 Guide]',
+  title: 'Toronto Mosquito Season Starts Late April — 2026 Guide',
   slug: 'when-does-mosquito-season-start-toronto-2026',
   date: '2026-04-08',
   excerpt: 'Exactly when mosquito season starts in Toronto in 2026, how Lake Ontario and ravine corridors affect timing, when to book your first treatment, and what Toronto homeowners need to know.',
