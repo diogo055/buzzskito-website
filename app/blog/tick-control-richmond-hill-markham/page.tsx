@@ -9,7 +9,7 @@ const POST = NEW_BLOGS[1]
 export const metadata: Metadata = buildMetadata({
   title: 'Tick Control Richmond Hill & Markham',
   description:
-    "The Oak Ridges Moraine runs through Richmond Hill and Markham. Here's what homeowners near Lake Wilcox, Mill Pond, and Rouge National Urban Park need to know about tick risk.",
+    "Oak Ridges Moraine runs through Richmond Hill and Markham. Tick risk near Lake Wilcox, Rouge Park, and how to protect your yard.",
   canonical: `/blog/${POST.slug}`,
   type: 'article',
   publishedTime: POST.date,

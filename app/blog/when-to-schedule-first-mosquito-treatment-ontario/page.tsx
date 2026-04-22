@@ -9,7 +9,7 @@ const POST = NEW_BLOGS[9]
 export const metadata: Metadata = buildMetadata({
   title: 'First Mosquito Treatment Timing | Ontario',
   description:
-    "The right timing for your first treatment makes or breaks the whole season. Here's exactly when Ontario homeowners should schedule their first professional mosquito spray.",
+    "When to schedule your first mosquito spray in Ontario. Timing tips that make or break your whole season protection.",
   canonical: `/blog/${POST.slug}`,
   type: 'article',
   publishedTime: POST.date,

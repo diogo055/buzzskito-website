@@ -142,6 +142,8 @@ export default function ServiceAreasPage() {
                 <li><Link href="/mosquito-control-ontario" className="text-brand-700 hover:underline">Ontario Coverage Hub</Link></li>
                 <li><Link href="/york-region-mosquito-control" className="text-brand-700 hover:underline">York Region Hub</Link></li>
                 <li><Link href="/kleinburg-mosquito-control" className="text-brand-700 hover:underline">Kleinburg Mosquito Control</Link></li>
+                <li><Link href="/golf-course-mosquito-control" className="text-brand-700 hover:underline">Golf Course Mosquito Control</Link></li>
+                <li><Link href="/restaurant-patio-mosquito-control" className="text-brand-700 hover:underline">Restaurant Patio Mosquito Control</Link></li>
                 <li><Link href="/free-yard-assessment" className="text-brand-700 hover:underline">Get a Free Quote</Link></li>
                 <li><Link href="/frequently-asked-question" className="text-brand-700 hover:underline">FAQ</Link></li>
                 <li><Link href="/blog" className="text-brand-700 hover:underline">Pest Control Blog</Link></li>

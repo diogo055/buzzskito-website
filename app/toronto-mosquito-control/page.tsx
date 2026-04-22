@@ -28,6 +28,11 @@ const NEIGHBOURHOODS: { name: string; href?: string }[] = [
   { name: 'Willowdale', href: '/willowdale-mosquito-control' },
   { name: 'Lawrence Park' },
   { name: 'York Mills', href: '/york-mills-mosquito-control' },
+  { name: 'Baby Point', href: '/baby-point-mosquito-control' },
+  { name: 'Danforth', href: '/danforth-mosquito-control' },
+  { name: 'Davisville', href: '/davisville-mosquito-control' },
+  { name: 'Summerhill', href: '/summerhill-mosquito-control' },
+  { name: 'Sunnybrook', href: '/sunnybrook-mosquito-control' },
 ]
 
 const FAQS = [

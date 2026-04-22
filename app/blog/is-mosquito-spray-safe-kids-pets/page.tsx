@@ -9,7 +9,7 @@ const POST = NEW_BLOGS[6]
 export const metadata: Metadata = buildMetadata({
   title: 'Yes, Mosquito Spray Is Safe for Kids & Pets (30 Min)',
   description:
-    "Health Canada approval, 30-minute re-entry windows, and the real facts about what's in professional mosquito barrier spray. Everything GTA parents and pet owners need to know.",
+    "Health Canada approval, 30-minute re-entry, and the facts about professional mosquito spray. Safe for GTA kids and pets.",
   canonical: `/blog/${POST.slug}`,
   type: 'article',
   publishedTime: POST.date,

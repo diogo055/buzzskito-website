@@ -9,7 +9,7 @@ const POST = NEW_BLOGS[4]
 export const metadata: Metadata = buildMetadata({
   title: 'Tick Prevention Caledon & Halton Hills',
   description:
-    "Rural Caledon and Halton Hills homeowners face some of Ontario's highest tick activity rates. This guide covers specific risks, hotspots on the Oak Ridges Moraine and Niagara Escarpment, and professional solutions.",
+    "Caledon and Halton Hills face high tick activity. Risks, hotspots on the Oak Ridges Moraine, and professional tick spray solutions.",
   canonical: `/blog/${POST.slug}`,
   type: 'article',
   publishedTime: POST.date,

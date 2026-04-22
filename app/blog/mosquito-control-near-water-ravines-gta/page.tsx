@@ -9,7 +9,7 @@ const POST = NEW_BLOGS[8]
 export const metadata: Metadata = buildMetadata({
   title: 'Mosquito Control Near Ravines & Water',
   description:
-    "Properties near the Credit River, Humber River, Don Valley, Lake Ontario, or backyard ponds face elevated mosquito pressure. Here's what actually works for waterfront and ravine-adjacent GTA homes.",
+    "Near the Credit River, Humber, Don Valley, or a pond? Professional mosquito control for waterfront and ravine-adjacent GTA homes.",
   canonical: `/blog/${POST.slug}`,
   type: 'article',
   publishedTime: POST.date,

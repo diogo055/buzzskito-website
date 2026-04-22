@@ -9,7 +9,7 @@ const POST = NEW_BLOGS[3]
 export const metadata: Metadata = buildMetadata({
   title: 'Mosquito Season Scarborough & East Toronto',
   description:
-    "Scarborough's Rouge National Urban Park and Highland Creek valley are among the GTA's most active mosquito zones. Here's what east-end homeowners can do about it.",
+    "Scarborough's Rouge Park and Highland Creek are the GTA's most active mosquito zones. What east-end homeowners can do.",
   canonical: `/blog/${POST.slug}`,
   type: 'article',
   publishedTime: POST.date,

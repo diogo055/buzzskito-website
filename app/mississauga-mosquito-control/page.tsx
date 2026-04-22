@@ -13,10 +13,23 @@ export const metadata: Metadata = buildMetadata({
 
 const CITY = 'Mississauga'
 const SLUG = '/mississauga-mosquito-control'
-const NEIGHBOURHOODS = [
-  'Port Credit','Meadowvale','Streetsville','Malton','Lorne Park',
-  'Cooksville','Lakeview','Erin Mills','Clarkson','Churchill Meadows',
-  'Mineola','Applewood','Hurontario','City Centre','Lisgar',
+const NEIGHBOURHOODS: { name: string; href?: string }[] = [
+  { name: 'Port Credit' },
+  { name: 'Meadowvale' },
+  { name: 'Streetsville' },
+  { name: 'Malton' },
+  { name: 'Lorne Park' },
+  { name: 'Cooksville' },
+  { name: 'Lakeview' },
+  { name: 'Erin Mills' },
+  { name: 'Clarkson' },
+  { name: 'Churchill Meadows' },
+  { name: 'Mineola' },
+  { name: 'Applewood' },
+  { name: 'Hurontario' },
+  { name: 'City Centre' },
+  { name: 'Lisgar' },
+  { name: 'Credit Valley', href: '/credit-valley-mosquito-control' },
 ]
 
 const FAQS = [
@@ -171,8 +184,10 @@ export default function MississaugaMosquitoControlPage() {
 
           <h2>Mississauga Neighbourhoods We Serve</h2>
           <div className="not-prose flex flex-wrap gap-2 mb-6">
-            {NEIGHBOURHOODS.map((n) => (
-              <span key={n} className="text-sm bg-brand-50 border border-brand-200 text-brand-700 px-3 py-1.5 rounded-full">{n}</span>
+            {NEIGHBOURHOODS.map(({ name, href }) => href ? (
+              <Link key={name} href={href} className="text-sm bg-brand-50 border border-brand-200 text-brand-700 px-3 py-1.5 rounded-full hover:bg-brand-100 transition-colors">{name}</Link>
+            ) : (
+              <span key={name} className="text-sm bg-brand-50 border border-brand-200 text-brand-700 px-3 py-1.5 rounded-full">{name}</span>
             ))}
           </div>
 

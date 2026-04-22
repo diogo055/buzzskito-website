@@ -8,7 +8,7 @@ const POST = NEW_BLOGS_2[3]
 
 export const metadata: Metadata = buildMetadata({
   title: 'Mosquito & Tick Control Hamilton-Burlington',
-  description: "Hamilton's Niagara Escarpment trails and Burlington's waterfront create intense mosquito and tick pressure for homeowners. Professional barrier spray for both cities — free quotes available.",
+  description: "Hamilton Escarpment trails and Burlington waterfront create mosquito and tick pressure. Professional barrier spray from $99.",
   canonical: `/blog/${POST.slug}`,
   type: 'article',
   publishedTime: POST.date,

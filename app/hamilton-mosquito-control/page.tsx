@@ -14,7 +14,20 @@ export const metadata: Metadata = buildMetadata({
 const CITY = 'Hamilton'
 const SLUG = '/hamilton-mosquito-control'
 const TICK_SLUG = '/hamilton-tick-spray'
-const NEIGHBOURHOODS = ['Stoney Creek','Dundas','Ancaster','Westdale','Waterdown','Ainslie Wood','Downtown Hamilton','Mount Hope','Binbrook','Flamborough','Rymal','Glanbrook']
+const NEIGHBOURHOODS: { name: string; href?: string }[] = [
+  { name: 'Stoney Creek', href: '/stoney-creek-mosquito-control' },
+  { name: 'Dundas' },
+  { name: 'Ancaster' },
+  { name: 'Westdale' },
+  { name: 'Waterdown' },
+  { name: 'Ainslie Wood' },
+  { name: 'Downtown Hamilton' },
+  { name: 'Mount Hope' },
+  { name: 'Binbrook' },
+  { name: 'Flamborough' },
+  { name: 'Rymal' },
+  { name: 'Glanbrook' },
+]
 
 const FAQS = [
   {
@@ -130,7 +143,11 @@ export default function HamiltonMosquitoPage() {
 
           <h2>Hamilton Neighbourhoods We Serve for Mosquito Control</h2>
           <div className="not-prose flex flex-wrap gap-2 mb-6">
-            {NEIGHBOURHOODS.map((n) => <span key={n} className="text-sm bg-brand-50 border border-brand-200 text-brand-700 px-3 py-1.5 rounded-full">{n}</span>)}
+            {NEIGHBOURHOODS.map(({ name, href }) => href ? (
+              <Link key={name} href={href} className="text-sm bg-brand-50 border border-brand-200 text-brand-700 px-3 py-1.5 rounded-full hover:bg-brand-100 transition-colors">{name}</Link>
+            ) : (
+              <span key={name} className="text-sm bg-brand-50 border border-brand-200 text-brand-700 px-3 py-1.5 rounded-full">{name}</span>
+            ))}
           </div>
           <p>We serve all Hamilton addresses — from the Mountain to the Harbourfront, from Flamborough to Stoney Creek. Call <a href={BUSINESS.phoneHref} className="text-brand-700 hover:underline font-semibold">{BUSINESS.phone}</a> to confirm service at your specific address.</p>
 

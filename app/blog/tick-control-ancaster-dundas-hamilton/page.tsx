@@ -9,7 +9,7 @@ const POST = NEW_BLOGS_3[4]
 export const metadata: Metadata = buildMetadata({
   title: 'Tick Control Ancaster & Dundas | Hamilton',
   description:
-    "Ancaster and Dundas sit at the base of the Niagara Escarpment — Ontario's most active tick corridor. Professional tick spray for Hamilton's most at-risk suburbs. Free quotes.",
+    "Ancaster and Dundas sit at the Niagara Escarpment — Ontario's most active tick corridor. Professional tick spray from $99.",
   canonical: `/blog/${POST.slug}`,
   type: 'article',
   publishedTime: POST.date,

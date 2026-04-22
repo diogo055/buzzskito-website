@@ -8,7 +8,7 @@ const POST = NEW_BLOGS_2[4]
 
 export const metadata: Metadata = buildMetadata({
   title: 'Tick Control Vaughan & King City',
-  description: "Boyd Conservation Area, Kortright Centre, and King Township's forest edges put York Region homeowners at serious tick risk. Professional tick spray schedules and what to expect from BuzzSkito.",
+  description: "Boyd Conservation, Kortright Centre, and King Township forests put York Region at tick risk. Professional spray schedules for Vaughan.",
   canonical: `/blog/${POST.slug}`,
   type: 'article',
   publishedTime: POST.date,

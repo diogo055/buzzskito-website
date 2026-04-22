@@ -9,7 +9,7 @@ const POST = NEW_BLOGS[2]
 export const metadata: Metadata = buildMetadata({
   title: 'Mosquito Control Etobicoke & North York',
   description:
-    "Humber River valley, Don Valley ravines, and Centennial Park — Etobicoke and North York homeowners face real mosquito and tick pressure near Toronto's natural corridors.",
+    "Humber River, Don Valley, Centennial Park — Etobicoke and North York mosquito and tick pressure. Professional spray from $99.",
   canonical: `/blog/${POST.slug}`,
   type: 'article',
   publishedTime: POST.date,

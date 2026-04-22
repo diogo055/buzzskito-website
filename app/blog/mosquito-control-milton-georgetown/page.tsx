@@ -9,7 +9,7 @@ const POST = NEW_BLOGS[5]
 export const metadata: Metadata = buildMetadata({
   title: 'Mosquito Control Milton & Georgetown',
   description:
-    "New construction near Sixteen Mile Creek and the Credit River comes with unexpected mosquito challenges. Here's why Milton and Georgetown new-build homeowners need professional treatment.",
+    "Sixteen Mile Creek and Credit River bring mosquitoes to Milton and Georgetown. Professional treatment for new-build homeowners.",
   canonical: `/blog/${POST.slug}`,
   type: 'article',
   publishedTime: POST.date,

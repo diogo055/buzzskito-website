@@ -7,24 +7,27 @@ import { BUSINESS, MOSQUITO_BLOGS, TICK_BLOGS } from '@/lib/constants'
 export const metadata: Metadata = buildMetadata({
   title: 'Mosquito Control Brampton | From $99',
   description:
-    "Professional mosquito control spray in Brampton. Serving Mount Pleasant, Castlemore, Heart Lake, Springdale, Fletcher's Meadow & all Brampton neighbourhoods. Call (289) 216-5030.",
+    "Mosquito control spray in Brampton. Serving Castlemore, Heart Lake, Springdale & all neighbourhoods. Call (289) 216-5030.",
   canonical: '/brampton-mosquito-control',
 })
 
 const CITY = 'Brampton'
 const SLUG = '/brampton-mosquito-control'
 const NEIGHBOURHOODS: { name: string; href?: string }[] = [
-  { name: 'Mount Pleasant' },
+  { name: 'Mount Pleasant', href: '/mount-pleasant-mosquito-control' },
   { name: 'Gore Meadows' },
   { name: 'Castlemore', href: '/castlemore-mosquito-control' },
   { name: 'Springdale', href: '/springdale-mosquito-control' },
-  { name: 'Bramalea' },
+  { name: 'Bramalea', href: '/bramalea-mosquito-control' },
   { name: 'Creditview' },
   { name: "Fletcher's Meadow", href: '/fletcher-meadows-mosquito-control' },
   { name: 'Heart Lake', href: '/heart-lake-mosquito-control' },
   { name: 'Sandringham' },
   { name: 'Credit Valley' },
   { name: 'Vales of Castlemore' },
+  { name: 'Bram West', href: '/bram-west-mosquito-control' },
+  { name: 'Sandalwood', href: '/sandalwood-mosquito-control' },
+  { name: 'Snelgrove', href: '/snelgrove-mosquito-control' },
 ]
 
 const FAQS = [

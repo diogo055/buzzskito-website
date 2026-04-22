@@ -9,7 +9,7 @@ const POST = NEW_BLOGS[7]
 export const metadata: Metadata = buildMetadata({
   title: 'How to Choose Mosquito Control Company',
   description:
-    "Not all mosquito control companies are equal. Here's exactly what to ask, what red flags to avoid, and why Health Canada approval, licensing, and guarantees matter for GTA homeowners.",
+    "What to ask, red flags to avoid, and why Health Canada approval matters when choosing a GTA mosquito control company.",
   canonical: `/blog/${POST.slug}`,
   type: 'article',
   publishedTime: POST.date,
