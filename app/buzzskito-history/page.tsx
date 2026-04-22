@@ -5,7 +5,7 @@ import { buildMetadata, breadcrumbSchema, localBusinessSchema, faqSchema, speaka
 import { BUSINESS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'About BuzzSkito | GTA Mosquito & Tick Control Company',
+  title: 'Our Story | GTA Mosquito & Tick Control',
   description:
     'Learn about BuzzSkito — professional mosquito & tick control for the GTA. Health Canada-approved treatments from $99.',
   canonical: '/buzzskito-history',

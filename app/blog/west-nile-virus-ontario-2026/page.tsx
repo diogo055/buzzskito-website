@@ -5,14 +5,14 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 import { MOSQUITO_BLOGS } from '@/lib/constants'
 
 const POST = {
-  title: 'West Nile Virus Risk Ontario 2026 — What GTA Homeowners Need to Know',
+  title: 'West Nile Virus Ontario 2026 — GTA Risk',
   slug: 'west-nile-virus-ontario-2026',
   date: '2026-04-14',
   excerpt: 'Updated 2026 West Nile Virus risk assessment for Ontario homeowners. Transmission data, surveillance results, GTA-specific risk, and how professional mosquito control reduces your exposure.',
 }
 
 export const metadata: Metadata = buildMetadata({
-  title: 'West Nile Virus Ontario 2026 | GTA Risk | BuzzSkito',
+  title: 'West Nile Virus Ontario 2026 | GTA Risk',
   description:
     'West Nile Virus risk in Ontario for 2026. GTA surveillance data, transmission facts, symptoms, and professional mosquito control to protect your family.',
   canonical: `/blog/${POST.slug}`,
@@ -103,7 +103,7 @@ export default function WestNile2026Page() {
         <h2>GTA-Specific Risk Zones</h2>
         <p>While WNV-positive mosquitoes have been found across the entire GTA, certain areas face elevated risk due to the abundance of Culex mosquito breeding habitat:</p>
         <ul>
-          <li><strong>Toronto:</strong> Storm sewer catch basins, the Don and Humber river valleys, and areas with aging infrastructure that traps stagnant water. See: <Link href="/toronto-mosquito-spray" className="text-brand-700 hover:underline">Toronto mosquito control</Link></li>
+          <li><strong>Toronto:</strong> Storm sewer catch basins, the Don and Humber river valleys, and areas with aging infrastructure that traps stagnant water. See: <Link href="/toronto-mosquito-control" className="text-brand-700 hover:underline">Toronto mosquito control</Link></li>
           <li><strong>Mississauga:</strong> Credit River watershed, construction sites with standing water, and suburban retention ponds. See: <Link href="/mississauga-mosquito-control" className="text-brand-700 hover:underline">Mississauga mosquito control</Link></li>
           <li><strong>Hamilton:</strong> Cootes Paradise, Hamilton Harbour lowlands, and escarpment base areas with poor drainage. See: <Link href="/hamilton-mosquito-control" className="text-brand-700 hover:underline">Hamilton mosquito control</Link></li>
           <li><strong>Brampton:</strong> Etobicoke Creek, new-build neighbourhoods with construction runoff, and poorly draining subdivisions. See: <Link href="/brampton-mosquito-control" className="text-brand-700 hover:underline">Brampton mosquito control</Link></li>

@@ -7,7 +7,7 @@ import { TICK_BLOGS } from '@/lib/constants'
 const POST = TICK_BLOGS.supporting[1]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'What Ticks Look Like in Ontario | ID Guide | BuzzSkito',
+  title: 'What Ticks Look Like in Ontario | ID Guide',
   description:
     'Visual guide to Ontario tick species — blacklegged, American dog, and lone star ticks. Nymph vs adult identification.',
   canonical: `/blog/${POST.slug}`,

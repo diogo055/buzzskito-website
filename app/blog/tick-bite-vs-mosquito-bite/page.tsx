@@ -8,7 +8,7 @@ const SLUG = 'tick-bite-vs-mosquito-bite'
 const DATE = '2026-04-07'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Tick Bite vs Mosquito Bite | How to Tell | BuzzSkito',
+  title: 'Tick Bite vs Mosquito Bite | How to Tell',
   description:
     'Tick bite vs mosquito bite — how to tell the difference, symptoms to watch for, and when to see a doctor.',
   canonical: `/blog/${SLUG}`,

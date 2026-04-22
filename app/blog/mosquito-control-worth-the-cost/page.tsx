@@ -5,14 +5,14 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 import { MOSQUITO_BLOGS } from '@/lib/constants'
 
 const POST = {
-  title: 'Is Professional Mosquito Control Worth the Cost? ROI Breakdown',
+  title: 'Is Mosquito Control Worth the Cost?',
   slug: 'mosquito-control-worth-the-cost',
   date: '2026-04-01',
   excerpt: 'Is professional mosquito control worth the money? An honest breakdown of costs vs. benefits — health risk reduction, property enjoyment value, and how it compares to DIY alternatives.',
 }
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Is Mosquito Control Worth It? | Cost vs Value | BuzzSkito',
+  title: 'Is Mosquito Control Worth It? | Cost vs Value',
   description:
     'Is professional mosquito control worth the cost? ROI breakdown: health risks, property enjoyment, DIY comparison. Honest analysis for GTA homeowners.',
   canonical: `/blog/${POST.slug}`,

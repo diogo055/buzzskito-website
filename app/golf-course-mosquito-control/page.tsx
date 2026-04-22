@@ -5,7 +5,7 @@ import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, speakableSch
 import { BUSINESS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Golf Course Mosquito Control Ontario | BuzzSkito',
+  title: 'Golf Course Mosquito Control Ontario',
   description:
     'Golf course mosquito & tick control in Ontario. Treat tee boxes, cart paths, clubhouse patios & perimeters. Commercial pricing. Call (289) 216-5030.',
   canonical: '/golf-course-mosquito-control',

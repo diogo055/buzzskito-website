@@ -5,7 +5,7 @@ import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusines
 import { BUSINESS, MOSQUITO_BLOGS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Mosquito Control Bridle Path | From $99 · 5★ Rated',
+  title: 'Mosquito Control Bridle Path | From $99',
   description:
     'Professional mosquito control in Bridle Path, Toronto. Barrier spray near Sunnybrook Park & Wilket Creek from $99. Safe for kids & pets. Call (289) 216-5030.',
   canonical: '/bridle-path-mosquito-control',

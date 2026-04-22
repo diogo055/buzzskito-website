@@ -3,11 +3,11 @@ import Link from 'next/link'
 import Image from 'next/image'
 import CTASection from '@/components/CTASection'
 import BlogCard from '@/components/BlogCard'
-import { buildMetadata, localBusinessSchema, faqSchema, reviewSchema, speakableSchema, websiteSchema, organizationSchema } from '@/lib/seo'
+import { buildMetadata, localBusinessSchema, faqSchema, speakableSchema, organizationSchema } from '@/lib/seo'
 import { BUSINESS, CITIES, MOSQUITO_BLOGS, TICK_BLOGS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Mosquito & Tick Control GTA | Guaranteed Results – BuzzSkito',
+  title: 'Mosquito & Tick Control GTA | Guaranteed Results',
   description:
     'Professional mosquito & tick barrier spray for GTA lawns. Serving Mississauga, Toronto, Brampton, Oakville, Burlington & Hamilton. Health Canada–approved. Call (289) 216-5030.',
   canonical: '/',
@@ -24,7 +24,7 @@ const HOME_FAQS = [
   },
   {
     question: 'How long does a mosquito treatment last?',
-    answer: 'Each mosquito barrier treatment lasts up to 30 days. Tick treatments provide up to 30 days of protection. We recommend 5 seasonal mosquito treatments (May–September) and 2 tick treatments (June and August) for complete season-long coverage.',
+    answer: 'Each mosquito barrier treatment lasts up to 30 days. Tick treatments provide up to 30 days of protection. We recommend 5 seasonal mosquito treatments (May–September) and 5 tick treatments for complete season-long coverage.',
   },
   {
     question: 'What if it rains after the treatment?',
@@ -46,8 +46,6 @@ export default function HomePage() {
       {/* Schemas */}
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema()) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(HOME_FAQS)) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema()) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema()) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema()) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema('/')) }} />
 
@@ -175,7 +173,7 @@ export default function HomePage() {
                 <li className="flex items-center gap-2"><span className="text-amber-600 font-bold">✓</span> Kills nymphs, adults &amp; larvae</li>
                 <li className="flex items-center gap-2"><span className="text-amber-600 font-bold">✓</span> Up to 30-day protection</li>
                 <li className="flex items-center gap-2"><span className="text-amber-600 font-bold">✓</span> Lyme disease prevention</li>
-                <li className="flex items-center gap-2"><span className="text-amber-600 font-bold">✓</span> 2 seasonal treatments recommended</li>
+                <li className="flex items-center gap-2"><span className="text-amber-600 font-bold">✓</span> 5 seasonal treatments recommended</li>
               </ul>
               <Link href="/tick-control" className="inline-block bg-amber-600 hover:bg-amber-500 text-white font-bold px-6 py-3 rounded-full transition-colors">
                 Learn About Tick Control

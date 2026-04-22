@@ -7,7 +7,7 @@ import { NEW_BLOGS_2, MOSQUITO_BLOGS } from '@/lib/constants'
 const POST = NEW_BLOGS_2[1]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Hidden Mosquito Breeding Spots | GTA | BuzzSkito',
+  title: 'Hidden Mosquito Breeding Spots | GTA',
   description:
     '12 hidden mosquito breeding spots in your GTA backyard — gutters, saucers, tarps & more. Find and eliminate them.',
   canonical: `/blog/${POST.slug}`,

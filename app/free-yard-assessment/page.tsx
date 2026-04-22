@@ -3,7 +3,7 @@ import { buildMetadata, breadcrumbSchema, speakableSchema } from '@/lib/seo'
 import YardAssessment from '@/components/YardAssessment'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Free Yard Risk Assessment — Is Your Yard at Risk? | BuzzSkito',
+  title: 'Free Yard Risk Assessment — Quick Quiz',
   description:
     'Take our free 60-second yard risk assessment. Find out if your GTA property is at risk for mosquitoes and ticks — and get a personalized protection plan.',
   canonical: '/free-yard-assessment',

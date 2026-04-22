@@ -7,7 +7,7 @@ import { TICK_BLOGS } from '@/lib/constants'
 const POST = TICK_BLOGS.supporting[2]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'How to Remove a Tick Safely (Ontario Guide) | BuzzSkito',
+  title: 'How to Remove a Tick Safely (Ontario Guide)',
   description: 'Step-by-step tick removal using fine-tipped tweezers, what NOT to do, post-removal monitoring timeline, and when to seek medical advice in Ontario.',
   canonical: `/blog/${POST.slug}`,
   type: 'article',

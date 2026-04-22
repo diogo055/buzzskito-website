@@ -7,7 +7,7 @@ import { NEW_BLOGS, MOSQUITO_BLOGS } from '@/lib/constants'
 const POST = NEW_BLOGS[9]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'First Mosquito Treatment Timing | Ontario | BuzzSkito',
+  title: 'First Mosquito Treatment Timing | Ontario',
   description:
     "The right timing for your first treatment makes or breaks the whole season. Here's exactly when Ontario homeowners should schedule their first professional mosquito spray.",
   canonical: `/blog/${POST.slug}`,

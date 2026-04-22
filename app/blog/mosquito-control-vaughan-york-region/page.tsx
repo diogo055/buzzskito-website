@@ -7,7 +7,7 @@ import { NEW_BLOGS, MOSQUITO_BLOGS, TICK_BLOGS } from '@/lib/constants'
 const POST = NEW_BLOGS[0]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Mosquito Control in Vaughan & York Region | BuzzSkito',
+  title: 'Mosquito Control in Vaughan & York Region',
   description:
     "Boyd Conservation Area, Humber River, and Vaughan's new-build ponds create intense seasonal mosquito pressure. Here's how to protect your Vaughan property.",
   canonical: `/blog/${POST.slug}`,

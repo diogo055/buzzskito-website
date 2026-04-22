@@ -5,14 +5,14 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 import { TICK_BLOGS } from '@/lib/constants'
 
 const POST = {
-  title: 'How Much Does Tick Treatment Cost in Ontario? [2026 Pricing]',
+  title: 'Tick Treatment Cost Ontario [2026 Pricing]',
   slug: 'how-much-does-tick-treatment-cost-ontario',
   date: '2026-04-03',
   excerpt: 'How much does professional tick treatment cost in Ontario? 2026 pricing ranges, what affects cost, seasonal packages vs. one-time treatment, and BuzzSkito transparent pricing.',
 }
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Tick Treatment Cost Ontario | 2026 Pricing | BuzzSkito',
+  title: 'Tick Treatment Cost Ontario | 2026 Pricing',
   description:
     'How much does tick treatment cost in Ontario? 2026 pricing from $99. Single treatments, seasonal packages, lot size impact. Transparent pricing.',
   canonical: `/blog/${POST.slug}`,

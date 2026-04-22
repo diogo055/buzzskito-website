@@ -5,14 +5,14 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 import { TICK_BLOGS } from '@/lib/constants'
 
 const POST = {
-  title: 'Spring Tick Season Ontario — When to Start Treatment',
+  title: 'Spring Tick Season Ontario — When to Treat',
   slug: 'spring-tick-season-ontario',
   date: '2026-04-05',
   excerpt: 'When does spring tick season start in Ontario? Blacklegged tick emergence timing, when to schedule your first treatment, and how early action prevents Lyme disease risk all season long.',
 }
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Spring Tick Season Ontario | When to Treat | BuzzSkito',
+  title: 'Spring Tick Season Ontario | When to Treat',
   description:
     'Spring tick season Ontario: when ticks emerge, optimal first treatment timing, and how early action reduces Lyme disease risk for GTA homeowners.',
   canonical: `/blog/${POST.slug}`,

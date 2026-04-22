@@ -5,7 +5,7 @@ import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusines
 import { BUSINESS, MOSQUITO_BLOGS, TICK_BLOGS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Mosquito & Tick Control York Region | BuzzSkito',
+  title: 'Mosquito & Tick Control York Region',
   description:
     'Mosquito control in York Region. Serving Vaughan, Richmond Hill, Markham & all cities. From $99, no contracts. Call (289) 216-5030.',
   canonical: '/york-region-mosquito-control',

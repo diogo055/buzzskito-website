@@ -7,7 +7,7 @@ import { NEW_BLOGS, MOSQUITO_BLOGS, TICK_BLOGS } from '@/lib/constants'
 const POST = NEW_BLOGS[2]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Mosquito Control Etobicoke & North York | BuzzSkito',
+  title: 'Mosquito Control Etobicoke & North York',
   description:
     "Humber River valley, Don Valley ravines, and Centennial Park — Etobicoke and North York homeowners face real mosquito and tick pressure near Toronto's natural corridors.",
   canonical: `/blog/${POST.slug}`,
@@ -90,7 +90,7 @@ export default function MosquitoControlEtobicokePage() {
 
         <h2>How Mosquito and Tick Barrier Spray Works for These Properties</h2>
         <p>A barrier spray application targets the two things that make ravine-adjacent properties so challenging: resting cover (for mosquitoes) and questing habitat (for ticks). We treat the lawn-to-garden transition zone, shrub undersides, hedge interiors, and leaf litter margins along your fence or property line — not the open lawn or paved areas, and not the ravine itself.</p>
-        <p>For properties adjacent to the Humber or Don valley systems, we typically recommend 4–5 mosquito treatments from May to September, and 2 tick treatments (spring and fall). Both can be combined into a single visit.</p>
+        <p>For properties adjacent to the Humber or Don valley systems, we typically recommend 4–5 mosquito treatments from May to September, and 5 tick treatments (monthly, May–September). Both can be combined into a single visit.</p>
 
         <h2>Related Guides and Services</h2>
         <ul>

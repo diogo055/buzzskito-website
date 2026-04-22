@@ -5,14 +5,14 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 import { TICK_BLOGS } from '@/lib/constants'
 
 const POST = {
-  title: 'Lyme Disease Risk Areas Ontario 2026 — Complete Guide',
+  title: 'Lyme Disease Risk Areas Ontario 2026',
   slug: 'lyme-disease-risk-areas-ontario-2026',
   date: '2026-04-15',
   excerpt: 'Updated 2026 map of confirmed Lyme disease risk areas across Ontario, including GTA-specific zones, public health surveillance data, and what homeowners can do to protect their families.',
 }
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Lyme Disease Risk Areas Ontario 2026 | BuzzSkito',
+  title: 'Lyme Disease Risk Areas Ontario 2026',
   description:
     'Confirmed Lyme disease risk areas in Ontario for 2026. GTA zones, public health data, tick expansion maps, and professional yard protection.',
   canonical: `/blog/${POST.slug}`,

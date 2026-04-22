@@ -5,14 +5,14 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 import { TICK_BLOGS } from '@/lib/constants'
 
 const POST = {
-  title: 'Are Ticks Dangerous in Ontario? What Every Homeowner Should Know',
+  title: 'Are Ticks Dangerous in Ontario?',
   slug: 'are-ticks-dangerous-ontario',
   date: '2026-04-10',
   excerpt: 'Are ticks dangerous in Ontario? Yes — and the risk is growing. This guide covers which ticks carry disease, how common tick-borne illness is in the GTA, and what homeowners can do to protect their families.',
 }
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Are Ticks Dangerous in Ontario? | BuzzSkito',
+  title: 'Are Ticks Dangerous in Ontario?',
   description:
     'Are ticks dangerous in Ontario? Yes. Learn which ticks carry disease, how common Lyme disease is in the GTA, and how to protect your family.',
   canonical: `/blog/${POST.slug}`,

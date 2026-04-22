@@ -7,7 +7,7 @@ import { MOSQUITO_BLOGS } from '@/lib/constants'
 const POST = MOSQUITO_BLOGS.supporting[4]
 
 export const metadata: Metadata = buildMetadata({
-  title: '12 Ways to Prevent Mosquitoes | Backyard | BuzzSkito',
+  title: '12 Ways to Prevent Mosquitoes | Backyard',
   description:
     '12 proven ways to prevent mosquitoes in your Ontario backyard — standing water, landscaping, and when to call a pro.',
   canonical: `/blog/${POST.slug}`,

@@ -1,32 +1,39 @@
 import type { MetadataRoute } from 'next'
 import { SITE_URL, CITIES, MOSQUITO_BLOGS, TICK_BLOGS, NEW_BLOGS, NEW_BLOGS_2, NEW_BLOGS_3, NEW_BLOGS_4, NEW_BLOGS_5, NEW_BLOGS_6 } from '@/lib/constants'
 
+// Static lastModified date — update this only when making real content changes.
+// Using new Date() on every request makes Google distrust the lastmod signal.
+const LAST_CONTENT_UPDATE = '2026-04-22T12:00:00.000Z'
+
 export default function sitemap(): MetadataRoute.Sitemap {
-  const now = new Date().toISOString()
 
   // ── Core pages ──────────────────────────────────────────────────────────────
   const core: MetadataRoute.Sitemap = [
-    { url: SITE_URL,                                    lastModified: now, changeFrequency: 'weekly',  priority: 1.0 },
-    { url: `${SITE_URL}/mosquito-control`,              lastModified: now, changeFrequency: 'monthly', priority: 0.9 },
-    { url: `${SITE_URL}/tick-control`,                  lastModified: now, changeFrequency: 'monthly', priority: 0.9 },
-    { url: `${SITE_URL}/service-areas`,                 lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
-    { url: `${SITE_URL}/contact`,                       lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
-    { url: `${SITE_URL}/buzzskito-history`,             lastModified: now, changeFrequency: 'yearly',  priority: 0.6 },
-    { url: `${SITE_URL}/frequently-asked-question`,     lastModified: now, changeFrequency: 'monthly', priority: 0.7 },
-    { url: `${SITE_URL}/blog`,                          lastModified: now, changeFrequency: 'weekly',  priority: 0.8 },
+    { url: SITE_URL,                                    lastModified: LAST_CONTENT_UPDATE, changeFrequency: 'weekly',  priority: 1.0 },
+    { url: `${SITE_URL}/mosquito-control`,              lastModified: LAST_CONTENT_UPDATE, changeFrequency: 'monthly', priority: 0.9 },
+    { url: `${SITE_URL}/tick-control`,                  lastModified: LAST_CONTENT_UPDATE, changeFrequency: 'monthly', priority: 0.9 },
+    { url: `${SITE_URL}/service-areas`,                 lastModified: LAST_CONTENT_UPDATE, changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${SITE_URL}/contact`,                       lastModified: LAST_CONTENT_UPDATE, changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${SITE_URL}/free-yard-assessment`,          lastModified: LAST_CONTENT_UPDATE, changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${SITE_URL}/buzzskito-history`,             lastModified: LAST_CONTENT_UPDATE, changeFrequency: 'yearly',  priority: 0.6 },
+    { url: `${SITE_URL}/frequently-asked-question`,     lastModified: LAST_CONTENT_UPDATE, changeFrequency: 'monthly', priority: 0.7 },
+    { url: `${SITE_URL}/blog`,                          lastModified: LAST_CONTENT_UPDATE, changeFrequency: 'weekly',  priority: 0.8 },
+    { url: `${SITE_URL}/about`,                         lastModified: LAST_CONTENT_UPDATE, changeFrequency: 'yearly',  priority: 0.5 },
+    { url: `${SITE_URL}/privacy-policy`,                lastModified: LAST_CONTENT_UPDATE, changeFrequency: 'yearly',  priority: 0.3 },
+    { url: `${SITE_URL}/terms`,                         lastModified: LAST_CONTENT_UPDATE, changeFrequency: 'yearly',  priority: 0.3 },
   ]
 
   // ── All city pages — generated from CITIES array ────────────────────────────
   const cityPages: MetadataRoute.Sitemap = CITIES.flatMap((city) => [
     {
       url: `${SITE_URL}${city.mosquitoSlug}`,
-      lastModified: now,
+      lastModified: LAST_CONTENT_UPDATE,
       changeFrequency: 'monthly' as const,
       priority: 0.9,
     },
     {
       url: `${SITE_URL}${city.tickSlug}`,
-      lastModified: now,
+      lastModified: LAST_CONTENT_UPDATE,
       changeFrequency: 'monthly' as const,
       priority: 0.9,
     },
@@ -34,19 +41,31 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   // ── High-intent pages ───────────────────────────────────────────────────────
   const highIntent: MetadataRoute.Sitemap = [
-    { url: `${SITE_URL}/how-it-works`,                    lastModified: now, changeFrequency: 'monthly' as const, priority: 0.8 },
-    { url: `${SITE_URL}/commercial-mosquito-control`,     lastModified: now, changeFrequency: 'monthly' as const, priority: 0.8 },
-    { url: `${SITE_URL}/mosquito-control-near-me`,        lastModified: now, changeFrequency: 'monthly' as const, priority: 0.8 },
-    { url: `${SITE_URL}/tick-control-near-me`,            lastModified: now, changeFrequency: 'monthly' as const, priority: 0.8 },
-    { url: `${SITE_URL}/mosquito-control-cost`,           lastModified: now, changeFrequency: 'monthly' as const, priority: 0.8 },
-    { url: `${SITE_URL}/mosquito-control-ontario`,        lastModified: now, changeFrequency: 'monthly' as const, priority: 0.9 },
-    { url: `${SITE_URL}/tick-control-ontario`,            lastModified: now, changeFrequency: 'monthly' as const, priority: 0.9 },
-    { url: `${SITE_URL}/york-region-mosquito-control`,    lastModified: now, changeFrequency: 'monthly' as const, priority: 0.8 },
-    { url: `${SITE_URL}/kleinburg-mosquito-control`,      lastModified: now, changeFrequency: 'monthly' as const, priority: 0.8 },
-  ]
+    '/how-it-works',
+    '/commercial-mosquito-control',
+    '/mosquito-control-near-me',
+    '/tick-control-near-me',
+    '/mosquito-control-cost',
+    '/mosquito-control-pricing',
+    '/mosquito-control-ontario',
+    '/tick-control-ontario',
+    '/mosquito-control-diy-vs-professional',
+    '/best-mosquito-control-companies-gta',
+    '/york-region-mosquito-control',
+    '/kleinburg-mosquito-control',
+    '/golf-course-mosquito-control',
+    '/restaurant-patio-mosquito-control',
+    '/wedding-mosquito-control',
+  ].map((slug) => ({
+    url: `${SITE_URL}${slug}`,
+    lastModified: LAST_CONTENT_UPDATE,
+    changeFrequency: 'monthly' as const,
+    priority: 0.8,
+  }))
 
-  // ── Toronto neighbourhood pages ─────────────────────────────────────────────
-  const torontoNeighbourhoods: MetadataRoute.Sitemap = [
+  // ── ALL neighbourhood pages ─────────────────────────────────────────────────
+  const neighbourhoods: MetadataRoute.Sitemap = [
+    // Toronto
     '/forest-hill-mosquito-control',
     '/rosedale-mosquito-control',
     '/leaside-mosquito-control',
@@ -55,139 +74,119 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/willowdale-mosquito-control',
     '/york-mills-mosquito-control',
     '/the-beaches-mosquito-control',
-  ].map((slug) => ({
-    url: `${SITE_URL}${slug}`,
-    lastModified: now,
-    changeFrequency: 'monthly' as const,
-    priority: 0.7,
-  }))
-
-  // ── Brampton neighbourhood pages ────────────────────────────────────────────
-  const bramptonNeighbourhoods: MetadataRoute.Sitemap = [
+    '/danforth-mosquito-control',
+    '/davisville-mosquito-control',
+    '/high-park-mosquito-control',
+    '/lawrence-park-mosquito-control',
+    '/leslieville-mosquito-control',
+    '/moore-park-mosquito-control',
+    '/riverdale-mosquito-control',
+    '/sunnybrook-mosquito-control',
+    '/the-annex-mosquito-control',
+    '/the-kingsway-mosquito-control',
+    '/summerhill-mosquito-control',
+    '/baby-point-mosquito-control',
+    '/bridle-path-mosquito-control',
+    '/casa-loma-mosquito-control',
+    '/college-park-mosquito-control',
+    // Brampton
     '/heart-lake-mosquito-control',
     '/castlemore-mosquito-control',
     '/springdale-mosquito-control',
     '/fletcher-meadows-mosquito-control',
-  ].map((slug) => ({
-    url: `${SITE_URL}${slug}`,
-    lastModified: now,
-    changeFrequency: 'monthly' as const,
-    priority: 0.7,
-  }))
-
-  // ── Oakville neighbourhood pages ────────────────────────────────────────────
-  const oakvilleNeighbourhoods: MetadataRoute.Sitemap = [
+    '/bramalea-mosquito-control',
+    '/mount-pleasant-mosquito-control',
+    '/bram-west-mosquito-control',
+    '/sandalwood-mosquito-control',
+    '/snelgrove-mosquito-control',
+    // Oakville
     '/glen-abbey-mosquito-control',
     '/bronte-mosquito-control',
     '/west-oak-trails-mosquito-control',
     '/old-oakville-mosquito-control',
     '/north-oakville-mosquito-control',
-  ].map((slug) => ({
-    url: `${SITE_URL}${slug}`,
-    lastModified: now,
-    changeFrequency: 'monthly' as const,
-    priority: 0.7,
-  }))
-
-  // ── Burlington neighbourhood pages ──────────────────────────────────────────
-  const burlingtonNeighbourhoods: MetadataRoute.Sitemap = [
+    '/joshua-creek-mosquito-control',
+    '/river-oaks-mosquito-control',
+    '/falgarwood-mosquito-control',
+    '/clearview-mosquito-control',
+    '/eastlake-mosquito-control',
+    // Burlington
     '/alton-village-mosquito-control',
     '/aldershot-mosquito-control',
     '/roseland-mosquito-control',
+    '/palmer-mosquito-control',
+    '/tyandaga-mosquito-control',
+    '/millcroft-mosquito-control',
+    '/orchard-mosquito-control',
+    // Hamilton
+    '/stoney-creek-mosquito-control',
+    '/dundas-mosquito-control',
+    '/ancaster-mosquito-control',
+    '/waterdown-mosquito-control',
+    '/flamborough-mosquito-control',
+    // Mississauga
+    '/credit-valley-mosquito-control',
+    // Other GTA
+    '/bolton-mosquito-control',
+    '/ajax-mosquito-control',
+    '/pickering-mosquito-control',
+    '/caledon-east-mosquito-control',
   ].map((slug) => ({
     url: `${SITE_URL}${slug}`,
-    lastModified: now,
+    lastModified: LAST_CONTENT_UPDATE,
     changeFrequency: 'monthly' as const,
     priority: 0.7,
   }))
 
-  // ── Mosquito blog hub & spokes ──────────────────────────────────────────────
-  const mosquitoBlogs: MetadataRoute.Sitemap = [
+  // ── All blog posts ──────────────────────────────────────────────────────────
+  const allBlogArrays = [
     MOSQUITO_BLOGS.pillar,
     ...MOSQUITO_BLOGS.supporting,
-  ].map((post) => ({
-    url: `${SITE_URL}/blog/${post.slug}`,
-    lastModified: new Date(post.date).toISOString(),
-    changeFrequency: 'monthly' as const,
-    priority: 0.8,
-  }))
-
-  // ── Tick blog hub & spokes ──────────────────────────────────────────────────
-  const tickBlogs: MetadataRoute.Sitemap = [
     TICK_BLOGS.pillar,
     ...TICK_BLOGS.supporting,
-  ].map((post) => ({
+    ...NEW_BLOGS,
+    ...NEW_BLOGS_2,
+    ...NEW_BLOGS_3.filter((post) => post.slug !== 'mosquito-control-cost-ontario'),
+    ...NEW_BLOGS_4,
+    ...NEW_BLOGS_5,
+    ...NEW_BLOGS_6,
+  ]
+
+  // Add blog posts from constants
+  const blogPosts: MetadataRoute.Sitemap = allBlogArrays.map((post) => ({
     url: `${SITE_URL}/blog/${post.slug}`,
     lastModified: new Date(post.date).toISOString(),
     changeFrequency: 'monthly' as const,
     priority: 0.8,
   }))
 
-  // ── New city-targeting blog posts ───────────────────────────────────────────
-  const newBlogs: MetadataRoute.Sitemap = NEW_BLOGS.map((post) => ({
-    url: `${SITE_URL}/blog/${post.slug}`,
-    lastModified: new Date(post.date).toISOString(),
-    changeFrequency: 'monthly' as const,
-    priority: 0.8,
-  }))
-
-  // ── Additional SEO blog posts (batch 2) ─────────────────────────────────────
-  const newBlogs2: MetadataRoute.Sitemap = NEW_BLOGS_2.map((post) => ({
-    url: `${SITE_URL}/blog/${post.slug}`,
-    lastModified: new Date(post.date).toISOString(),
-    changeFrequency: 'monthly' as const,
-    priority: 0.8,
-  }))
-
-  // ── Keyword-gap blog posts (batch 3) ─────────────────────────────────────────
-  const newBlogs3: MetadataRoute.Sitemap = NEW_BLOGS_3
-    .filter((post) => post.slug !== 'mosquito-control-cost-ontario') // redirected to /mosquito-control-cost
-    .map((post) => ({
-      url: `${SITE_URL}/blog/${post.slug}`,
-      lastModified: new Date(post.date).toISOString(),
+  // Blog posts that exist on disk but aren't in the constants arrays yet
+  const extraBlogSlugs = [
+    'are-ticks-dangerous-ontario',
+    'how-much-does-tick-treatment-cost-ontario',
+    'lyme-disease-risk-areas-ontario-2026',
+    'mosquito-control-worth-the-cost',
+    'spring-tick-season-ontario',
+    'tick-borne-diseases-ontario-complete-list',
+    'west-nile-virus-ontario-2026',
+    'when-does-mosquito-season-start-toronto-2026',
+  ]
+  const registeredSlugs = new Set(allBlogArrays.map(p => p.slug))
+  const extraBlogs: MetadataRoute.Sitemap = extraBlogSlugs
+    .filter(slug => !registeredSlugs.has(slug))
+    .map((slug) => ({
+      url: `${SITE_URL}/blog/${slug}`,
+      lastModified: LAST_CONTENT_UPDATE,
       changeFrequency: 'monthly' as const,
       priority: 0.8,
     }))
-
-  // ── Keyword-gap blog posts (batch 4) ─────────────────────────────────────────
-  const newBlogs4: MetadataRoute.Sitemap = NEW_BLOGS_4.map((post) => ({
-    url: `${SITE_URL}/blog/${post.slug}`,
-    lastModified: new Date(post.date).toISOString(),
-    changeFrequency: 'monthly' as const,
-    priority: 0.8,
-  }))
-
-  // ── Keyword-gap blog posts (batch 5) ─────────────────────────────────────────
-  const newBlogs5: MetadataRoute.Sitemap = NEW_BLOGS_5.map((post) => ({
-    url: `${SITE_URL}/blog/${post.slug}`,
-    lastModified: new Date(post.date).toISOString(),
-    changeFrequency: 'monthly' as const,
-    priority: 0.8,
-  }))
-
-  // ── Keyword-gap blog posts (batch 6) ─────────────────────────────────────────
-  const newBlogs6: MetadataRoute.Sitemap = NEW_BLOGS_6.map((post) => ({
-    url: `${SITE_URL}/blog/${post.slug}`,
-    lastModified: new Date(post.date).toISOString(),
-    changeFrequency: 'monthly' as const,
-    priority: 0.8,
-  }))
 
   return [
     ...core,
     ...cityPages,
     ...highIntent,
-    ...torontoNeighbourhoods,
-    ...bramptonNeighbourhoods,
-    ...oakvilleNeighbourhoods,
-    ...burlingtonNeighbourhoods,
-    ...mosquitoBlogs,
-    ...tickBlogs,
-    ...newBlogs,
-    ...newBlogs2,
-    ...newBlogs3,
-    ...newBlogs4,
-    ...newBlogs5,
-    ...newBlogs6,
+    ...neighbourhoods,
+    ...blogPosts,
+    ...extraBlogs,
   ]
 }

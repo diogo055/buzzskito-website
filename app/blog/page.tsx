@@ -5,7 +5,7 @@ import { buildMetadata, breadcrumbSchema, speakableSchema } from '@/lib/seo'
 import { MOSQUITO_BLOGS, TICK_BLOGS, NEW_BLOGS, NEW_BLOGS_2, NEW_BLOGS_3, NEW_BLOGS_4, NEW_BLOGS_5, NEW_BLOGS_6 } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Mosquito & Tick Control Blog | GTA | BuzzSkito',
+  title: 'Mosquito & Tick Control Blog | GTA',
   description:
     'Expert mosquito and tick control tips for GTA homeowners. Seasonal guides, prevention strategies & professional advice from BuzzSkito.',
   canonical: '/blog',

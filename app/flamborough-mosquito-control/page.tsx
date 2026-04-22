@@ -5,7 +5,7 @@ import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusines
 import { BUSINESS, MOSQUITO_BLOGS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Mosquito Control Flamborough | From $99 · 5★ Rated',
+  title: 'Mosquito Control Flamborough | From $99',
   description:
     'Professional mosquito control in Flamborough, Hamilton. Barrier spray for rural properties from $99. Safe for kids & pets. Call (289) 216-5030.',
   canonical: '/flamborough-mosquito-control',

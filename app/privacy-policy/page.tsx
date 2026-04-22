@@ -4,7 +4,7 @@ import { buildMetadata } from '@/lib/seo'
 import { BUSINESS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Privacy Policy | BuzzSkito',
+  title: 'Privacy Policy',
   description: 'BuzzSkito privacy policy — how we collect, use, and protect your personal information.',
   canonical: '/privacy-policy',
   noIndex: true,

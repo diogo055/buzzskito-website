@@ -5,7 +5,7 @@ import { BUSINESS } from '@/lib/constants'
 import QuoteForm from '@/components/QuoteForm'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Get a Free Mosquito & Tick Control Quote | BuzzSkito',
+  title: 'Get a Free Mosquito & Tick Control Quote',
   description:
     'Get a free mosquito or tick control quote for your GTA property. Call (289) 216-5030 or fill out our form. Same-week service available.',
   canonical: '/contact',

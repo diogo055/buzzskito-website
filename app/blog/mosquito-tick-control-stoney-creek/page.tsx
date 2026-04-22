@@ -7,7 +7,7 @@ import { NEW_BLOGS_3, MOSQUITO_BLOGS, TICK_BLOGS } from '@/lib/constants'
 const POST = NEW_BLOGS_3[2]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Mosquito & Tick Control Stoney Creek | BuzzSkito',
+  title: 'Mosquito & Tick Control Stoney Creek',
   description:
     "Stoney Creek's Red Hill Creek corridor, lakeshore fringe, and Escarpment ravines create year-round mosquito and tick pressure. Professional barrier spray for Stoney Creek homeowners.",
   canonical: `/blog/${POST.slug}`,

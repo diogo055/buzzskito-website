@@ -7,7 +7,7 @@ import { NEW_BLOGS_2, MOSQUITO_BLOGS } from '@/lib/constants'
 const POST = NEW_BLOGS_2[0]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Mosquito-Repelling Plants Ontario | 2026 | BuzzSkito',
+  title: 'Mosquito-Repelling Plants Ontario | 2026',
   description:
     'Best mosquito-repelling plants for Ontario gardens — lavender, citronella grass, basil & more. What works in 2026.',
   canonical: `/blog/${POST.slug}`,

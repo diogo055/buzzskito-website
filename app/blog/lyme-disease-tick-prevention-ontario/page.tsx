@@ -7,7 +7,7 @@ import { TICK_BLOGS } from '@/lib/constants'
 const POST = TICK_BLOGS.supporting[0]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Lyme Disease Ontario: Symptoms, Prevention & Yard Protection | BuzzSkito',
+  title: 'Lyme Disease Ontario: Prevention Guide',
   description: 'Lyme disease Ontario symptoms, risk zones, pet warning signs, and how professional tick spray protects your GTA yard. Updated April 2026.',
   canonical: `/blog/${POST.slug}`,
   type: 'article',

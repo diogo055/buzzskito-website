@@ -5,14 +5,14 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 import { MOSQUITO_BLOGS } from '@/lib/constants'
 
 const POST = {
-  title: 'Toronto Mosquito Season Starts Late April — 2026 Guide',
+  title: 'Toronto Mosquito Season — 2026 Guide',
   slug: 'when-does-mosquito-season-start-toronto-2026',
   date: '2026-04-08',
   excerpt: 'Exactly when mosquito season starts in Toronto in 2026, how Lake Ontario and ravine corridors affect timing, when to book your first treatment, and what Toronto homeowners need to know.',
 }
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Mosquito Season Start Toronto 2026 | BuzzSkito',
+  title: 'Mosquito Season Start Toronto 2026',
   description:
     'When does mosquito season start in Toronto? 2026 timing, lake effect delays, ravine warming patterns, and when to book your first professional treatment.',
   canonical: `/blog/${POST.slug}`,
@@ -152,7 +152,7 @@ export default function MosquitoSeasonToronto2026Page() {
 
         <h2>How Professional Barrier Spray Works</h2>
         <p><Link href="/mosquito-control" className="text-brand-700 hover:underline">Professional mosquito barrier spray</Link> is applied to all vegetation, fence lines, shaded areas, and perimeter zones where mosquitoes rest during the day. The Health Canada-approved formula kills mosquitoes on contact and provides residual protection for 21 to 30 days. A seasonal program of 5 to 6 treatments (mid-May through early September) covers the full Toronto mosquito season.</p>
-        <p>BuzzSkito provides mosquito control across all Toronto neighbourhoods. See: <Link href="/toronto-mosquito-spray" className="text-brand-700 hover:underline">Toronto mosquito control services</Link> | <Link href="/mosquito-control-pricing" className="text-brand-700 hover:underline">Pricing</Link> | <Link href="/free-yard-assessment" className="text-brand-700 hover:underline">Get a free quote</Link></p>
+        <p>BuzzSkito provides mosquito control across all Toronto neighbourhoods. See: <Link href="/toronto-mosquito-control" className="text-brand-700 hover:underline">Toronto mosquito control services</Link> | <Link href="/mosquito-control-pricing" className="text-brand-700 hover:underline">Pricing</Link> | <Link href="/free-yard-assessment" className="text-brand-700 hover:underline">Get a free quote</Link></p>
 
         <h2>Frequently Asked Questions</h2>
         <div className="not-prose space-y-3 my-6">

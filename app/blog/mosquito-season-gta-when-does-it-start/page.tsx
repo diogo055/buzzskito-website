@@ -34,7 +34,7 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Mosquito Season Starts May in the GTA — Full 2026 Guide',
+  title: 'Mosquito Season GTA — 2026 Guide',
   description:
     'When mosquito season starts in the GTA, peak activity months, and when to book your first treatment. 2026 guide.',
   canonical: `/blog/${POST.slug}`,

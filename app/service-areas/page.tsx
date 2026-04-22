@@ -5,7 +5,7 @@ import { buildMetadata, breadcrumbSchema, speakableSchema } from '@/lib/seo'
 import { CITIES } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Mosquito & Tick Control Service Areas – GTA | BuzzSkito',
+  title: 'Mosquito & Tick Control Service Areas – GTA',
   description:
     'BuzzSkito serves 19 GTA cities with mosquito & tick control. From $99/treatment. Find your city and get a free quote.',
   canonical: '/service-areas',

@@ -5,7 +5,7 @@ import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusines
 import { BUSINESS, MOSQUITO_BLOGS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Mosquito Control Joshua Creek | From $99 · 5★ Rated',
+  title: 'Mosquito Control Joshua Creek | From $99',
   description:
     'Professional mosquito control in Joshua Creek, Oakville. Barrier spray near Joshua Creek ravine from $99. Safe for kids & pets. Call (289) 216-5030.',
   canonical: '/joshua-creek-mosquito-control',

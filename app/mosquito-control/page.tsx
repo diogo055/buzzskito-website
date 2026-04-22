@@ -7,7 +7,7 @@ import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, speakableSch
 import { BUSINESS, CITIES, MOSQUITO_BLOGS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Mosquito Control GTA | From $99 · 5★ Rated',
+  title: 'Mosquito Control GTA | From $99',
   description:
     'Professional mosquito control across the GTA. Health Canada-approved barrier spray from $99/treatment. No contracts. Call (289) 216-5030.',
   canonical: '/mosquito-control',

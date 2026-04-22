@@ -5,7 +5,7 @@ import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusines
 import { BUSINESS, MOSQUITO_BLOGS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Mosquito Control The Beaches | From $99 · 5★ Rated',
+  title: 'Mosquito Control The Beaches | From $99',
   description:
     'Professional mosquito control spray for The Beaches homes. Eastern Ravine, Ashbridge\'s Bay, and Lake Ontario waterfront create intense mosquito pressure. 30-day protection. Call (289) 216-5030.',
   canonical: '/the-beaches-mosquito-control',

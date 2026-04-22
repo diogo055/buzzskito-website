@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { buildMetadata, breadcrumbSchema, speakableSchema } from '@/lib/seo'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Service Agreement | BuzzSkito',
+  title: 'Service Agreement',
   description: 'BuzzSkito LTD. Service Agreement — terms and conditions for mosquito and tick control services in the Greater Toronto Area.',
   canonical: '/terms',
 })

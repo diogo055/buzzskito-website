@@ -7,7 +7,7 @@ import { NEW_BLOGS_4 } from '@/lib/constants'
 const POST = NEW_BLOGS_4[0]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Mosquito Spray Companies GTA | Guide | BuzzSkito',
+  title: 'Mosquito Spray Companies GTA | Guide',
   description:
     'How to choose a mosquito spray company in the GTA. What to ask, red flags to avoid, and what good service looks like.',
   canonical: `/blog/${POST.slug}`,

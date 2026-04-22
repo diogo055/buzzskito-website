@@ -30,7 +30,7 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'DIY vs Professional Mosquito Control | BuzzSkito',
+  title: 'DIY vs Professional Mosquito Control',
   description:
     'DIY vs professional mosquito control in Ontario. Honest comparison of citronella, foggers, and barrier spray.',
   canonical: `/blog/${POST.slug}`,

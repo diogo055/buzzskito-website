@@ -5,7 +5,7 @@ import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusines
 import { BUSINESS, TICK_BLOGS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Tick Spray Caledon | From $99 · Lyme Prevention',
+  title: 'Tick Spray Caledon | From $99',
   description:
     'Professional tick spray in Caledon. Oak Ridges Moraine and Forks of the Credit are among Ontario\'s highest tick activity zones. Serving Bolton, Caledon East, Palgrave, Alton & all Caledon. Call (289) 216-5030.',
   canonical: '/caledon-tick-spray',

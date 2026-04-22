@@ -5,7 +5,7 @@ import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusines
 import { BUSINESS, CITIES } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Mosquito Control Ontario | From $99 · No Contracts',
+  title: 'Mosquito Control Ontario | From $99',
   description:
     'Professional mosquito and tick barrier spray across Ontario\'s Greater Toronto Area. Serving 19 cities in Southern Ontario including Mississauga, Toronto, Brampton, Oakville, Vaughan, Hamilton & more. Health Canada–approved. Call (289) 216-5030.',
   canonical: '/mosquito-control-ontario',

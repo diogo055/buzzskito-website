@@ -30,7 +30,7 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'West Nile Virus & Mosquito Risk Ontario | BuzzSkito',
+  title: 'West Nile Virus & Mosquito Risk Ontario',
   description: 'West Nile Virus risk by GTA city, transmission data, symptoms, and how professional mosquito control reduces your family\'s exposure risk in Ontario.',
   canonical: `/blog/${POST.slug}`,
   type: 'article',

@@ -5,7 +5,7 @@ import { buildMetadata, breadcrumbSchema, faqSchema, speakableSchema, howToSchem
 import { BUSINESS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'How Mosquito & Tick Control Works | BuzzSkito',
+  title: 'How Mosquito & Tick Control Works',
   description:
     'See exactly how BuzzSkito\'s mosquito and tick barrier spray works — the product, application process, what to expect, and how long protection lasts. Health Canada–approved formula.',
   canonical: '/how-it-works',

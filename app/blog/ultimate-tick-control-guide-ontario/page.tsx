@@ -7,7 +7,7 @@ import { TICK_BLOGS, CITIES } from '@/lib/constants'
 const POST = TICK_BLOGS.pillar
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Tick Control Guide Ontario | Complete 2026 | BuzzSkito',
+  title: 'Tick Control Guide Ontario | Complete 2026',
   description:
     'Complete tick control guide for Ontario — species ID, Lyme disease risk, yard treatment, and prevention strategies.',
   canonical: `/blog/${POST.slug}`,

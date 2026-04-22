@@ -5,14 +5,14 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 import { TICK_BLOGS } from '@/lib/constants'
 
 const POST = {
-  title: 'Every Tick-Borne Disease in Ontario — Complete Guide',
+  title: 'Tick-Borne Diseases Ontario — Full List',
   slug: 'tick-borne-diseases-ontario-complete-list',
   date: '2026-04-12',
   excerpt: 'Complete guide to every tick-borne disease found in Ontario: Lyme disease, Anaplasmosis, Babesiosis, Powassan virus, and more. Risk levels, symptoms, and prevention for GTA homeowners.',
 }
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Tick-Borne Diseases Ontario | Complete List | BuzzSkito',
+  title: 'Tick-Borne Diseases Ontario | Complete List',
   description:
     'Every tick-borne disease in Ontario: Lyme, Anaplasmosis, Babesiosis, Powassan virus. Symptoms, risk, and professional tick control for GTA homeowners.',
   canonical: `/blog/${POST.slug}`,

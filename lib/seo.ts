@@ -24,7 +24,7 @@ export function buildMetadata(opts: {
       siteName: BUSINESS.name,
       locale: 'en_CA',
       type,
-      images: [{ url: '/og-image.jpg', width: 1200, height: 630, alt: `${title} | BuzzSkito` }],
+      images: [{ url: '/og-image.jpg', width: 1200, height: 630, alt: title }],
       ...(publishedTime && { publishedTime }),
     },
     twitter: { card: 'summary_large_image', title, description },
@@ -211,36 +211,15 @@ export function blogPostingSchema(opts: {
       url: SITE_URL,
       logo: { '@type': 'ImageObject', url: `${SITE_URL}/logo.png` },
     },
+    image: { '@type': 'ImageObject', url: `${SITE_URL}/og-image.jpg` },
     mainEntityOfPage: { '@type': 'WebPage', '@id': `${SITE_URL}/blog/${opts.slug}` },
     inLanguage: 'en-CA',
     about: { '@type': 'Thing', name: 'Pest Control' },
   }
 }
 
-export function reviewSchema() {
-  const reviews = [
-    { author: 'Sarah M.', rating: 5, date: '2026-03-10', text: 'BuzzSkito treated our backyard in Mississauga and we noticed a huge difference immediately. No mosquitoes at our outdoor birthday party! The technician was professional and on time. Highly recommend.' },
-    { author: 'James K.', rating: 5, date: '2026-02-28', text: 'We had a tick problem near our garden border in Oakville. BuzzSkito came out quickly, treated the whole yard, and gave us a detailed service log. Great experience and the kids can play outside again.' },
-    { author: 'Priya R.', rating: 5, date: '2026-03-18', text: 'Called on a Tuesday, they were at my Brampton home by Thursday. The technician explained exactly what product they were using and why it\'s safe for our dog. Couldn\'t be happier with the results.' },
-    { author: 'Mike T.', rating: 5, date: '2026-01-15', text: 'Second year using BuzzSkito for the season package. Consistent, reliable, and actually works. Our backyard in Burlington used to be unbearable by July — now we\'re out there every evening.' },
-    { author: 'Linda C.', rating: 5, date: '2026-03-05', text: 'Very impressed with the SMS alerts before and after service. Our Toronto property backs onto a ravine so mosquitoes are a real issue — after the first treatment the difference was night and day.' },
-  ]
-  // Reviews reference the LocalBusiness entity via @id — no duplicate AggregateRating here
-  // AggregateRating lives on the localBusinessSchema entity
-  return {
-    '@context': 'https://schema.org',
-    '@type': 'PestControlService',
-    '@id': `${SITE_URL}/#business`,
-    name: BUSINESS.legalName,
-    review: reviews.map(({ author, rating, date, text }) => ({
-      '@type': 'Review',
-      author: { '@type': 'Person', name: author },
-      reviewRating: { '@type': 'Rating', ratingValue: rating, bestRating: 5 },
-      datePublished: date,
-      reviewBody: text,
-    })),
-  }
-}
+// reviewSchema() REMOVED — Google rejects self-served reviews on the business's own site.
+// AggregateRating on localBusinessSchema() is sufficient and valid for star snippets.
 
 // speakableSchema — marks key sections for Google AI / voice results.
 // Pass the canonical path of the page (e.g. '/toronto-mosquito-control').

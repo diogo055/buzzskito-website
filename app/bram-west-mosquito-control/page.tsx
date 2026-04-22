@@ -5,7 +5,7 @@ import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusines
 import { BUSINESS, MOSQUITO_BLOGS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Mosquito Control Bram West | From $99 · 5★ Rated',
+  title: 'Mosquito Control Bram West | From $99',
   description:
     'Professional mosquito control in Bram West, Brampton. Barrier spray near Credit River & Churchville from $99. Safe for kids & pets. Call (289) 216-5030.',
   canonical: '/bram-west-mosquito-control',
