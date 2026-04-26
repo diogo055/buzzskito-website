@@ -169,6 +169,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'tick-borne-diseases-ontario-complete-list',
     'west-nile-virus-ontario-2026',
     'when-does-mosquito-season-start-toronto-2026',
+    'black-flies-ontario-when-they-come-out',
+    'bugs-that-look-like-ticks',
+    'do-cedar-trees-attract-mosquitoes',
+    'why-mosquitoes-bite-some-people-more',
   ]
   const registeredSlugs = new Set(allBlogArrays.map(p => p.slug))
   const extraBlogs: MetadataRoute.Sitemap = extraBlogSlugs
