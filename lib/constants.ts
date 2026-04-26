@@ -505,6 +505,44 @@ export const NEW_BLOGS_7 = [
   },
 ]
 
+export const NEW_BLOGS_8 = [
+  {
+    slug: 'how-to-remove-tick-from-dog-ontario',
+    title: 'How to Remove a Tick from a Dog (Ontario Guide 2026)',
+    excerpt: 'Step-by-step tick removal for Ontario dog owners. Safe method, what NOT to do, when to see the vet, Lyme risk, and yard prevention.',
+    date: '2026-04-26',
+    category: 'tick' as const,
+  },
+  {
+    slug: 'i-found-tick-on-my-dog-what-to-do',
+    title: 'I Found a Tick on My Dog — What to Do (Ontario 2026)',
+    excerpt: 'A clear, fast Ontario field guide for the moment of panic. What to do in the next 5 minutes, what to watch for over 5 months.',
+    date: '2026-04-26',
+    category: 'tick' as const,
+  },
+  {
+    slug: 'natural-mosquito-repellent-ontario',
+    title: 'Natural Mosquito Repellent — What Actually Works in Ontario (2026)',
+    excerpt: 'Honest, research-backed guide to natural mosquito repellents. Citronella, OLE, BTI, plants, fans — what works and what does not.',
+    date: '2026-04-26',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'tick-bite-on-dog-symptoms',
+    title: 'Tick Bite on Dog — Symptoms, What to Watch For (Ontario 2026)',
+    excerpt: 'What a tick bite looks like on a dog, Lyme disease symptoms timeline, when to call the vet, treatment, and prevention.',
+    date: '2026-04-26',
+    category: 'tick' as const,
+  },
+  {
+    slug: 'what-does-tick-look-like-on-dog',
+    title: 'What Does a Tick Look Like on a Dog? (Ontario Field Guide 2026)',
+    excerpt: 'Photos and descriptions to identify ticks on dogs. Tick vs skin tag vs flea, deer tick vs dog tick, embedded vs engorged.',
+    date: '2026-04-26',
+    category: 'tick' as const,
+  },
+]
+
 // ── Season helpers ─────────────────────────────────────────────────────────────
 
 export const PEAK_SEASON = 'May through July'

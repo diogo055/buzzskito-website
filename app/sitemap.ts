@@ -1,9 +1,9 @@
 import type { MetadataRoute } from 'next'
-import { SITE_URL, CITIES, MOSQUITO_BLOGS, TICK_BLOGS, NEW_BLOGS, NEW_BLOGS_2, NEW_BLOGS_3, NEW_BLOGS_4, NEW_BLOGS_5, NEW_BLOGS_6, NEW_BLOGS_7 } from '@/lib/constants'
+import { SITE_URL, CITIES, MOSQUITO_BLOGS, TICK_BLOGS, NEW_BLOGS, NEW_BLOGS_2, NEW_BLOGS_3, NEW_BLOGS_4, NEW_BLOGS_5, NEW_BLOGS_6, NEW_BLOGS_7, NEW_BLOGS_8 } from '@/lib/constants'
 
 // Static lastModified date — update this only when making real content changes.
 // Using new Date() on every request makes Google distrust the lastmod signal.
-const LAST_CONTENT_UPDATE = '2026-04-26T12:00:00.000Z'
+const LAST_CONTENT_UPDATE = '2026-04-26T22:00:00.000Z'
 
 export default function sitemap(): MetadataRoute.Sitemap {
 
@@ -59,6 +59,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/best-mosquito-control-companies-brampton',
     '/best-mosquito-control-companies-vaughan',
     '/best-mosquito-control-companies-oakville',
+    '/buzzskito-vs-mosquitoman',
+    '/buzzskito-vs-mosquito-buzz',
+    '/buzzskito-vs-lawnsavers',
   ].map((slug) => ({
     url: `${SITE_URL}${slug}`,
     lastModified: LAST_CONTENT_UPDATE,
@@ -154,6 +157,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...NEW_BLOGS_5,
     ...NEW_BLOGS_6,
     ...NEW_BLOGS_7,
+    ...NEW_BLOGS_8,
   ]
 
   // Add blog posts from constants

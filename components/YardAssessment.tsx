@@ -3,6 +3,8 @@
 import { useState } from 'react'
 import Link from 'next/link'
 import { BUSINESS } from '@/lib/constants'
+import AddressAutocomplete, { type ParsedAddress } from './AddressAutocomplete'
+import { matchServiceAreaFeature, neighboursUsingBuzzSkito } from '@/lib/service-area-features'
 
 const HUB_API_URL = process.env.NEXT_PUBLIC_HUB_API_URL || 'https://app.buzzskito.ca'
 
@@ -123,6 +125,7 @@ export default function YardAssessment() {
   const [email, setEmail] = useState('')
   const [phone, setPhone] = useState('')
   const [address, setAddress] = useState('')
+  const [parsedAddress, setParsedAddress] = useState<ParsedAddress | null>(null)
   const [loading, setLoading] = useState(false)
   const [submitted, setSubmitted] = useState(false)
   const [riskLevel, setRiskLevel] = useState<RiskLevel | null>(null)
@@ -158,6 +161,18 @@ export default function YardAssessment() {
           service_type: answers.service_type,
           risk_level: risk,
           answers,
+          // Geo data from Google Maps autocomplete (null if user typed manually)
+          geo: parsedAddress ? {
+            street: parsedAddress.street,
+            city: parsedAddress.city,
+            neighbourhood: parsedAddress.neighbourhood,
+            province: parsedAddress.province,
+            postal_code: parsedAddress.postalCode,
+            country: parsedAddress.country,
+            lat: parsedAddress.lat,
+            lng: parsedAddress.lng,
+            formatted: parsedAddress.formatted,
+          } : null,
         }),
       })
 
@@ -331,9 +346,16 @@ export default function YardAssessment() {
                 className="w-full rounded-xl border border-gray-300 px-4 py-3 text-brand-900 placeholder:text-gray-400 focus:border-brand-500 focus:outline-none focus:ring-2 focus:ring-brand-500/20" />
             </div>
             <div>
-              <label htmlFor="quiz-address" className="block text-sm font-bold text-brand-900 mb-1">Street Address <span className="text-red-500">*</span><span className="text-gray-400 font-normal text-xs ml-1">(for accurate assessment)</span></label>
-              <input id="quiz-address" type="text" required value={address} onChange={e => setAddress(e.target.value)} placeholder="123 Maple Street, Mississauga"
-                className="w-full rounded-xl border border-gray-300 px-4 py-3 text-brand-900 placeholder:text-gray-400 focus:border-brand-500 focus:outline-none focus:ring-2 focus:ring-brand-500/20" />
+              <label htmlFor="quiz-address" className="block text-sm font-bold text-brand-900 mb-1">Street Address <span className="text-red-500">*</span><span className="text-gray-400 font-normal text-xs ml-1">(start typing — we&rsquo;ll auto-complete)</span></label>
+              <AddressAutocomplete
+                id="quiz-address"
+                required
+                value={address}
+                onChange={setAddress}
+                onSelect={setParsedAddress}
+                placeholder="123 Maple Street, Mississauga"
+                className="w-full rounded-xl border border-gray-300 px-4 py-3 text-brand-900 placeholder:text-gray-400 focus:border-brand-500 focus:outline-none focus:ring-2 focus:ring-brand-500/20"
+              />
             </div>
             {error && <div className="rounded-xl bg-red-50 border border-red-200 px-4 py-3 text-sm text-red-600">{error}</div>}
             <button type="submit" disabled={loading}
@@ -363,25 +385,49 @@ export default function YardAssessment() {
             )
           })()}
 
-          {/* Recommended Plan */}
-          <div className="rounded-2xl border border-brand-100 bg-white p-6">
-            <h3 className="text-lg font-extrabold text-brand-900 mb-2">Your Personalized Protection Plan</h3>
-            <p className="text-gray-600 text-sm mb-4">
-              Based on your assessment, we recommend our <strong>{getRecommendedPlan(answers)}</strong> for your property.
-            </p>
-            <div className="rounded-xl bg-brand-50 border border-brand-100 p-4 mb-4">
-              <p className="text-sm text-brand-800">
-                📧 A personalized quote based on your yard size and protection needs will be sent to <strong>{email}</strong> within the next few minutes.
-              </p>
-            </div>
-            <div className="text-center">
-              <p className="text-sm text-gray-500 mb-2">Want to talk to someone right now?</p>
-              <a href={BUSINESS.phoneHref} className="inline-flex items-center gap-2 bg-brand-800 hover:bg-brand-700 text-white font-bold px-6 py-3 rounded-full transition-colors">
-                <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
-                {BUSINESS.phone}
-              </a>
-            </div>
-          </div>
+          {/* Recommended Plan — personalized via geo data */}
+          {(() => {
+            const featureMatch = matchServiceAreaFeature({
+              city: parsedAddress?.city ?? null,
+              neighbourhood: parsedAddress?.neighbourhood ?? null,
+            })
+            const neighbours = neighboursUsingBuzzSkito(parsedAddress?.formatted || address || email)
+            const showLocalContext = featureMatch.isInServiceArea && featureMatch.feature
+            const locationLabel = featureMatch.neighbourhoodMatch || featureMatch.cityMatch
+            return (
+              <div className="rounded-2xl border border-brand-100 bg-white p-6">
+                <h3 className="text-lg font-extrabold text-brand-900 mb-2">Your Personalized Protection Plan</h3>
+                {showLocalContext ? (
+                  <p className="text-gray-700 text-sm mb-4">
+                    Based on your area, we recommend our <strong>Standard Protection Plan</strong> — because <strong>{featureMatch.feature}</strong> {featureMatch.reason}, your property needs continuous bi-weekly coverage from May through September.
+                  </p>
+                ) : (
+                  <p className="text-gray-600 text-sm mb-4">
+                    Based on your assessment, we recommend our <strong>{getRecommendedPlan(answers)}</strong> for your property.
+                  </p>
+                )}
+                {showLocalContext && locationLabel && (
+                  <div className="rounded-xl bg-amber-50 border border-amber-200 p-4 mb-4">
+                    <p className="text-sm text-amber-900">
+                      🏘️ <strong>{neighbours} of your neighbours</strong> in {locationLabel} already use BuzzSkito.
+                    </p>
+                  </div>
+                )}
+                <div className="rounded-xl bg-brand-50 border border-brand-100 p-4 mb-4">
+                  <p className="text-sm text-brand-800">
+                    📧 A personalized quote based on your yard size and protection needs will be sent to <strong>{email}</strong> within the next few minutes.
+                  </p>
+                </div>
+                <div className="text-center">
+                  <p className="text-sm text-gray-500 mb-2">Want to talk to someone right now?</p>
+                  <a href={BUSINESS.phoneHref} className="inline-flex items-center gap-2 bg-brand-800 hover:bg-brand-700 text-white font-bold px-6 py-3 rounded-full transition-colors">
+                    <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+                    {BUSINESS.phone}
+                  </a>
+                </div>
+              </div>
+            )
+          })()}
 
           {/* Trust Signals */}
           <div className="grid grid-cols-2 gap-3">

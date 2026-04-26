@@ -6,7 +6,7 @@ import './globals.css'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import { BUSINESS, SITE_URL } from '@/lib/constants'
-import { websiteSchema } from '@/lib/seo'
+import { websiteSchema, organizationSchema } from '@/lib/seo'
 
 const inter = Inter({
   subsets: ['latin'],
@@ -76,10 +76,15 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en-CA" className={inter.variable}>
       <head>
-        {/* WebSite schema with SiteLinksSearchBox — every page */}
+        {/* Site-wide schemas — WebSite + Organization on every page.
+            LocalBusiness/PestControlService is added per-page with city-specific areaServed. */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema()) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema()) }}
         />
         {/* DNS prefetch for performance */}
         <link rel="dns-prefetch" href="//www.google-analytics.com" />
