@@ -7,9 +7,9 @@ import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, speakableSch
 import { BUSINESS, CITIES, MOSQUITO_BLOGS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Mosquito Control GTA · From $99 | 126 Five-Star Reviews',
+  title: 'Mosquito Control GTA · From $99 · 126 Reviews',
   description:
-    'GTA mosquito control rated 5-star by 126 customers. Health Canada-approved barrier spray from $99, no contracts, free re-spray if mosquitoes return. 19+ cities served. Call (289) 216-5030.',
+    'GTA mosquito control · 126 five-star reviews. Health Canada-approved barrier spray from $99, no contracts, free re-spray. 19+ cities served. (289) 216-5030.',
   canonical: '/mosquito-control',
 })
 
@@ -180,7 +180,7 @@ export default function MosquitoControlPage() {
             ))}
           </div>
           <p className="text-center mt-6 text-sm text-gray-500">
-            More questions? See our <Link href="/frequently-asked-question" className="text-brand-700 underline">full FAQ</Link> or call <a href={BUSINESS.phoneHref} className="text-brand-700 underline">{BUSINESS.phone}</a>.
+            More questions? See our <Link href="/frequently-asked-question" className="text-brand-700 underline">full FAQ</Link>, the <Link href="/mosquito-spray-safety" className="text-brand-700 underline">spray safety guide</Link>, or call <a href={BUSINESS.phoneHref} className="text-brand-700 underline">{BUSINESS.phone}</a>.
           </p>
         </div>
       </section>

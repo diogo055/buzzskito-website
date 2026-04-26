@@ -33,8 +33,8 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Black Flies Ontario: When They Come Out & How to Stop Them',
-  description: 'Black fly season in Ontario peaks May–July. Where they breed, how to tell them from mosquitoes, GTA risk zones, and how professional barrier spray controls them.',
+  title: 'Black Flies Ontario · When They Come Out',
+  description: 'Black fly season in Ontario peaks May–July. Where they breed, how to tell them from mosquitoes, GTA risk zones, and how barrier spray controls them.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,

@@ -7,7 +7,7 @@ import { BUSINESS, MOSQUITO_BLOGS, TICK_BLOGS } from '@/lib/constants'
 export const metadata: Metadata = buildMetadata({
   title: 'Mosquito Control Kleinburg · From $99 | 5★ Local',
   description:
-    'Kleinburg mosquito control trusted by 126 five-star GTA reviews. Health Canada-approved barrier spray from $99 — built for ravine-adjacent estate properties. Free re-spray. Call (289) 216-5030.',
+    'Kleinburg mosquito control · 126 five-star reviews. Health Canada-approved barrier spray from $99 for ravine-adjacent estate properties. (289) 216-5030.',
   canonical: '/kleinburg-mosquito-control',
 })
 

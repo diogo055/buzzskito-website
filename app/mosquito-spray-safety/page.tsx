@@ -5,9 +5,9 @@ import { buildMetadata, breadcrumbSchema, faqSchema, speakableSchema } from '@/l
 import { BUSINESS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Is Mosquito & Tick Spray Safe for Kids & Pets? | 30-Min Guide',
+  title: 'Is Mosquito Spray Safe for Kids & Pets? · 30 Min',
   description:
-    'Yes — BuzzSkito uses Health Canada-approved mosquito and tick spray. Safe for kids, dogs, cats and pollinators 30 minutes after drying. Full safety facts, ingredients, and re-entry guidelines for GTA homeowners.',
+    'Health Canada-approved mosquito and tick spray. Safe for kids, dogs, cats and pollinators 30 minutes after drying. Full safety facts and re-entry guide.',
   canonical: '/mosquito-spray-safety',
 })
 

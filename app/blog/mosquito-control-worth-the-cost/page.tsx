@@ -185,7 +185,7 @@ export default function MosquitoControlWorthCostPage() {
         <h2>Related Guides</h2>
         <ul>
           <li><Link href={`/blog/${MOSQUITO_BLOGS.pillar.slug}`} className="text-brand-700 hover:underline">{MOSQUITO_BLOGS.pillar.title}</Link></li>
-          <li><Link href="/blog/mosquito-control-cost-ontario" className="text-brand-700 hover:underline">Mosquito Control Cost Ontario — 2026 Pricing</Link></li>
+          <li><Link href="/mosquito-control-cost" className="text-brand-700 hover:underline">Mosquito Control Cost Ontario — 2026 Pricing</Link></li>
           <li><Link href="/blog/how-much-does-tick-treatment-cost-ontario" className="text-brand-700 hover:underline">How Much Does Tick Treatment Cost?</Link></li>
           <li><Link href="/blog/mosquito-vs-diy-vs-professional-control" className="text-brand-700 hover:underline">DIY vs. Professional Mosquito Control</Link></li>
           <li><Link href="/blog/how-to-choose-mosquito-control-company-gta" className="text-brand-700 hover:underline">How to Choose a Mosquito Control Company</Link></li>

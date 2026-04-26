@@ -9,7 +9,7 @@ import { BUSINESS, CITIES, TICK_BLOGS } from '@/lib/constants'
 export const metadata: Metadata = buildMetadata({
   title: 'Tick Control GTA · From $99 | Lyme Protection',
   description:
-    'GTA tick control trusted by 126 five-star reviews. Health Canada-approved yard spray from $99, 5 sprays per season, free re-treatment if ticks return. Protect kids and pets from Lyme. Call (289) 216-5030.',
+    'GTA tick control · 126 five-star reviews. Health Canada-approved yard spray from $99, 5 sprays per season. Lyme protection. (289) 216-5030.',
   canonical: '/tick-control',
 })
 
@@ -221,7 +221,7 @@ export default function TickControlPage() {
             ))}
           </div>
           <p className="text-center mt-6 text-sm text-gray-500">
-            More questions? See our <Link href="/frequently-asked-question" className="text-brand-700 underline">full FAQ</Link> or call <a href={BUSINESS.phoneHref} className="text-brand-700 underline">{BUSINESS.phone}</a>.
+            More questions? See our <Link href="/frequently-asked-question" className="text-brand-700 underline">full FAQ</Link>, the <Link href="/mosquito-spray-safety" className="text-brand-700 underline">spray safety guide</Link>, or call <a href={BUSINESS.phoneHref} className="text-brand-700 underline">{BUSINESS.phone}</a>.
           </p>
         </div>
       </section>

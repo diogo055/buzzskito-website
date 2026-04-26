@@ -7,7 +7,7 @@ import { BUSINESS } from '@/lib/constants'
 export const metadata: Metadata = buildMetadata({
   title: 'How Mosquito & Tick Control Works',
   description:
-    'See exactly how BuzzSkito\'s mosquito and tick barrier spray works — the product, application process, what to expect, and how long protection lasts. Health Canada–approved formula.',
+    'How BuzzSkito\'s mosquito and tick barrier spray works — product, application, what to expect, how long protection lasts. Health Canada-approved.',
   canonical: '/how-it-works',
 })
 

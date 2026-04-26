@@ -7,7 +7,7 @@ import { BUSINESS, CITIES } from '@/lib/constants'
 export const metadata: Metadata = buildMetadata({
   title: 'Tick Control Ontario | From $99',
   description:
-    'Professional tick control across Ontario\'s Greater Toronto Area. Serving 19 cities in Southern Ontario. Health Canada–approved barrier spray kills ticks at all life stages. Licensed Ontario technicians. Call (289) 216-5030.',
+    'Tick control across Ontario\'s GTA. Health Canada-approved barrier spray kills ticks at all life stages. 19 cities served, licensed technicians. (289) 216-5030.',
   canonical: '/tick-control-ontario',
 })
 

@@ -192,7 +192,7 @@ export default function TickTreatmentCostPage() {
           <li><Link href={`/blog/${TICK_BLOGS.pillar.slug}`} className="text-brand-700 hover:underline">{TICK_BLOGS.pillar.title}</Link></li>
           <li><Link href="/blog/spring-tick-season-ontario" className="text-brand-700 hover:underline">Spring Tick Season Ontario — When to Start Treatment</Link></li>
           <li><Link href="/blog/best-tick-control-yard-treatment" className="text-brand-700 hover:underline">Best Tick Control for Your Yard</Link></li>
-          <li><Link href="/blog/mosquito-control-cost-ontario" className="text-brand-700 hover:underline">Mosquito Control Cost Ontario</Link></li>
+          <li><Link href="/mosquito-control-cost" className="text-brand-700 hover:underline">Mosquito Control Cost Ontario</Link></li>
           <li><Link href="/blog/mosquito-control-worth-the-cost" className="text-brand-700 hover:underline">Is Mosquito Control Worth the Cost?</Link></li>
           <li><Link href="/tick-control" className="text-brand-700 hover:underline">BuzzSkito Tick Control Services</Link></li>
         </ul>

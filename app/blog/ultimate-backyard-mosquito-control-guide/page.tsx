@@ -8,7 +8,7 @@ const POST = MOSQUITO_BLOGS.pillar
 
 export const metadata: Metadata = buildMetadata({
   title: 'Backyard Mosquito Control Guide | GTA',
-  description: 'Complete guide for GTA homeowners: mosquito biology, why they\'re worse near water, prevention strategies, barrier spray explained, and a seasonal treatment calendar for Ontario.',
+  description: 'Complete GTA mosquito guide: biology, why they\'re worse near water, prevention strategies, barrier spray explained, seasonal Ontario calendar.',
   canonical: `/blog/${POST.slug}`,
   type: 'article',
   publishedTime: POST.date,

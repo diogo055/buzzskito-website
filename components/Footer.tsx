@@ -118,7 +118,7 @@ export default function Footer() {
               <li><Link href="/service-areas" className="hover:text-white transition-colors">All Service Areas</Link></li>
               <li><Link href="/contact" className="hover:text-white transition-colors">Contact / Get a Quote</Link></li>
               <li><Link href="/privacy-policy" className="hover:text-white transition-colors">Privacy Policy</Link></li>
-              <li><Link href="/terms-and-conditions" className="hover:text-white transition-colors">Terms &amp; Conditions</Link></li>
+              <li><Link href="/terms" className="hover:text-white transition-colors">Terms &amp; Conditions</Link></li>
             </ul>
             <h3 className="text-white font-bold text-sm uppercase tracking-wider mb-4">Latest Posts</h3>
             <ul className="space-y-2 text-sm">
@@ -135,7 +135,7 @@ export default function Footer() {
           <p className="hidden sm:block text-center">Serving 19 cities across the Greater Toronto Area</p>
           <div className="flex gap-4">
             <Link href="/privacy-policy" className="hover:text-brand-300 transition-colors">Privacy</Link>
-            <Link href="/terms-and-conditions" className="hover:text-brand-300 transition-colors">Terms</Link>
+            <Link href="/terms" className="hover:text-brand-300 transition-colors">Terms</Link>
             <Link href="/contact" className="hover:text-brand-300 transition-colors">Contact</Link>
           </div>
         </div>

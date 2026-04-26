@@ -7,7 +7,7 @@ import { BUSINESS, MOSQUITO_BLOGS } from '@/lib/constants'
 export const metadata: Metadata = buildMetadata({
   title: 'Mosquito Control Credit Valley | From $99',
   description:
-    'Professional mosquito control in Credit Valley, Brampton. Barrier spray near Credit River valley & conservation lands from $99. Safe for kids & pets. Call (289) 216-5030.',
+    'Mosquito control in Credit Valley, Brampton. Barrier spray near Credit River valley & conservation lands from $99. Safe for kids & pets. (289) 216-5030.',
   canonical: '/credit-valley-mosquito-control',
 })
 
@@ -141,7 +141,7 @@ export default function CreditValleyMosquitoPage() {
 
           
           <h2>Tick Control Also Available</h2>
-          <p>We also offer professional tick control in this area. Protect your family from Lyme disease with our targeted tick barrier spray. See our <Link href="/credit-valley-tick-spray" className="text-brand-700 hover:underline">tick spray service</Link> or <Link href="/tick-control" className="text-brand-700 hover:underline">learn about tick control</Link>.</p>
+          <p>We also offer professional tick control in this area. Protect your family from Lyme disease with our targeted tick barrier spray. See our <Link href="/mississauga-tick-spray" className="text-brand-700 hover:underline">tick spray service</Link> or <Link href="/tick-control" className="text-brand-700 hover:underline">learn about tick control</Link>.</p>
 
           <h2>Related Guides</h2>
           <ul>

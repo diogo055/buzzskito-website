@@ -33,8 +33,8 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Do Cedar Trees Attract Mosquitoes? The Honest Answer',
-  description: 'Cedars do not attract mosquitoes — cedar oil repels them. But dense cedar hedges create damp shaded resting habitat. How to manage cedars and control mosquitoes properly.',
+  title: 'Do Cedar Trees Attract Mosquitoes?',
+  description: 'Cedars do not attract mosquitoes — cedar oil repels them. But dense cedar hedges create damp shaded resting habitat. How to manage them.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,

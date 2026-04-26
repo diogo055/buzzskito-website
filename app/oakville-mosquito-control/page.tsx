@@ -352,6 +352,9 @@ export default function OakvilleMosquitoPage() {
               </details>
             ))}
           </div>
+          <p className="text-center mt-8 text-sm text-gray-500">
+            Shopping around? See our honest <Link href="/best-mosquito-control-companies-oakville" className="text-brand-700 underline hover:text-brand-500">2026 Oakville mosquito control comparison</Link> — pricing, reviews, contracts side by side.
+          </p>
         </div>
       </section>
 

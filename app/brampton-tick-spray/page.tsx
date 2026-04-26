@@ -7,7 +7,7 @@ import { BUSINESS, TICK_BLOGS } from '@/lib/constants'
 export const metadata: Metadata = buildMetadata({
   title: 'Tick Control Brampton · From $99 | 5★ Rated',
   description:
-    'Brampton tick spray rated 5-star by 126 reviews. 5 sprays per season, 30-day protection per visit. Castlemore, Heart Lake, Mount Pleasant, Bramalea, Springdale. Free re-spray if ticks return. (289) 216-5030.',
+    'Brampton tick spray · 126 five-star reviews. 5 sprays per season, 30-day protection. Castlemore, Heart Lake, Mount Pleasant, Bramalea. (289) 216-5030.',
   canonical: '/brampton-tick-spray',
 })
 

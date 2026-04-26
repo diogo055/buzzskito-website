@@ -9,7 +9,7 @@ const POST = NEW_BLOGS_3[1]
 export const metadata: Metadata = buildMetadata({
   title: 'Outdoor Event Mosquito Control GTA',
   description:
-    'Book a pre-event barrier spray for your GTA backyard wedding, graduation, or party. One treatment keeps mosquitoes away for 21–30 days — here\'s exactly how to time it.',
+    'Book pre-event barrier spray for GTA backyard weddings, graduations, parties. One treatment keeps mosquitoes away 21–30 days. Timing guide.',
   canonical: `/blog/${POST.slug}`,
   type: 'article',
   publishedTime: POST.date,

@@ -307,6 +307,9 @@ export default function BramptonMosquitoPage() {
               </details>
             ))}
           </div>
+          <p className="text-center mt-8 text-sm text-gray-500">
+            Comparing options? See our honest <Link href="/best-mosquito-control-companies-brampton" className="text-brand-700 underline hover:text-brand-500">2026 Brampton mosquito control comparison</Link> — pricing, reviews, contracts side by side.
+          </p>
         </div>
       </section>
 

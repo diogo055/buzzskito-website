@@ -7,7 +7,7 @@ import { BUSINESS, TICK_BLOGS } from '@/lib/constants'
 export const metadata: Metadata = buildMetadata({
   title: 'Tick Spray Richmond Hill | From $99',
   description:
-    'Professional tick spray in Richmond Hill. Oak Ridges Moraine is one of Ontario\'s highest-density blacklegged tick zones. Serving Oak Ridges, Jefferson, Bayview Hill & all Richmond Hill. Call (289) 216-5030.',
+    'Richmond Hill tick spray. Oak Ridges Moraine is one of Ontario\'s highest blacklegged tick zones. Oak Ridges, Jefferson, Bayview Hill. (289) 216-5030.',
   canonical: '/richmond-hill-tick-spray',
 })
 

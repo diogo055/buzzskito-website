@@ -5,9 +5,9 @@ import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusines
 import { BUSINESS, MOSQUITO_BLOGS, TICK_BLOGS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Mosquito Control Mississauga · From $99 | 5★ Rated',
+  title: 'Mosquito Control Mississauga · From $99 · 5★',
   description:
-    'Mississauga mosquito control with 126 five-star reviews — Mississauga-based and Mississauga-owned. Barrier spray from $99, free re-spray if mosquitoes return. Port Credit, Meadowvale, Streetsville, Erin Mills, Lorne Park. Call (289) 216-5030.',
+    'Mississauga mosquito control · 126 five-star reviews. Barrier spray from $99, free re-spray. Port Credit, Meadowvale, Erin Mills. (289) 216-5030.',
   canonical: '/mississauga-mosquito-control',
 })
 

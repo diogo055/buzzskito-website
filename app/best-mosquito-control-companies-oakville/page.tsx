@@ -5,9 +5,9 @@ import { buildMetadata, breadcrumbSchema, faqSchema, speakableSchema } from '@/l
 import { BUSINESS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Best Mosquito Control Companies Oakville 2026 — Compared',
+  title: 'Best Mosquito Control Oakville 2026 · Compared',
   description:
-    'Compare top mosquito control companies in Oakville for 2026 — Glen Abbey, Bronte, Old Oakville, Joshua Creek. Pricing, reviews, contracts. BuzzSkito vs Mosquito Man vs LawnSavers.',
+    'Compare mosquito control companies in Oakville 2026 — Glen Abbey, Bronte, Old Oakville, Joshua Creek. BuzzSkito vs Mosquito Man vs LawnSavers.',
   canonical: '/best-mosquito-control-companies-oakville',
 })
 

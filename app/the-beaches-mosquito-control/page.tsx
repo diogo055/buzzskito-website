@@ -7,7 +7,7 @@ import { BUSINESS, MOSQUITO_BLOGS } from '@/lib/constants'
 export const metadata: Metadata = buildMetadata({
   title: 'Mosquito Control The Beaches | From $99',
   description:
-    'Professional mosquito control spray for The Beaches homes. Eastern Ravine, Ashbridge\'s Bay, and Lake Ontario waterfront create intense mosquito pressure. 30-day protection. Call (289) 216-5030.',
+    'Mosquito control for The Beaches. Eastern Ravine, Ashbridge\'s Bay & Lake Ontario waterfront drive intense mosquito pressure. 30-day protection. (289) 216-5030.',
   canonical: '/the-beaches-mosquito-control',
 })
 
@@ -141,7 +141,7 @@ export default function TheBeachesMosquitoPage() {
 
           
           <h2>Tick Control Also Available</h2>
-          <p>We also offer professional tick control in this area. Protect your family from Lyme disease with our targeted tick barrier spray. See our <Link href="/the-beaches-tick-spray" className="text-brand-700 hover:underline">tick spray service</Link> or <Link href="/tick-control" className="text-brand-700 hover:underline">learn about tick control</Link>.</p>
+          <p>We also offer professional tick control in this area. Protect your family from Lyme disease with our targeted tick barrier spray. See our <Link href="/toronto-tick-spray" className="text-brand-700 hover:underline">tick spray service</Link> or <Link href="/tick-control" className="text-brand-700 hover:underline">learn about tick control</Link>.</p>
 
           <h2>Related Guides</h2>
           <ul>

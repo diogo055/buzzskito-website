@@ -474,6 +474,37 @@ export const NEW_BLOGS_6 = [
   },
 ]
 
+export const NEW_BLOGS_7 = [
+  {
+    slug: 'black-flies-ontario-when-they-come-out',
+    title: 'Black Flies in Ontario: When They Come Out and How to Stop Them',
+    excerpt: 'Black fly season in Ontario peaks May–July. Where they breed, GTA risk zones, and how professional barrier spray controls them.',
+    date: '2026-04-26',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'bugs-that-look-like-ticks',
+    title: '5 Bugs That Look Like Ticks (And How to Tell Them Apart)',
+    excerpt: 'Bed bugs, weevils, spider beetles, bat bugs, and dog ticks vs deer ticks — visual identification guide for Ontario homeowners.',
+    date: '2026-04-26',
+    category: 'tick' as const,
+  },
+  {
+    slug: 'do-cedar-trees-attract-mosquitoes',
+    title: 'Do Cedar Trees Attract Mosquitoes? The Honest Answer',
+    excerpt: 'Cedars do not attract mosquitoes — cedar oil repels them. But dense cedar hedges create damp shaded mosquito resting habitat.',
+    date: '2026-04-26',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'why-mosquitoes-bite-some-people-more',
+    title: 'Why Mosquitoes Bite Some People More Than Others (Science-Backed)',
+    excerpt: 'Blood type, body heat, CO2, lactic acid, pregnancy, alcohol, dark clothing — research-backed reasons mosquitoes prefer some people.',
+    date: '2026-04-26',
+    category: 'mosquito' as const,
+  },
+]
+
 // ── Season helpers ─────────────────────────────────────────────────────────────
 
 export const PEAK_SEASON = 'May through July'

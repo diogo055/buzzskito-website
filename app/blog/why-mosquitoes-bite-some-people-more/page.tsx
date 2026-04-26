@@ -33,8 +33,8 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Why Mosquitoes Bite Some People More Than Others (Science)',
-  description: 'Blood type, CO2, body heat, lactic acid, pregnancy, alcohol, dark clothing — research-backed reasons mosquitoes prefer some people, and the one thing that protects everyone.',
+  title: 'Why Mosquitoes Bite Some People More (Science)',
+  description: 'Blood type, CO2, body heat, lactic acid, pregnancy, alcohol, dark clothing — research-backed reasons mosquitoes prefer some people, and what helps.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,

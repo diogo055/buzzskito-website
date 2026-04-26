@@ -7,7 +7,7 @@ import { BUSINESS, MOSQUITO_BLOGS } from '@/lib/constants'
 export const metadata: Metadata = buildMetadata({
   title: 'Mosquito Control Vaughan · From $99 | 5★ Local',
   description:
-    'Vaughan mosquito control with 126 five-star reviews. Barrier spray from $99, free re-spray if mosquitoes return. Serving Woodbridge, Kleinburg, Thornhill, Maple & Concord. Call (289) 216-5030.',
+    'Vaughan mosquito control · 126 five-star reviews. Barrier spray from $99, free re-spray. Woodbridge, Kleinburg, Thornhill, Maple, Concord. (289) 216-5030.',
   canonical: '/vaughan-mosquito-control',
 })
 
@@ -214,6 +214,9 @@ export default function VaughanMosquitoPage() {
               </details>
             ))}
           </div>
+          <p className="text-center mt-8 text-sm text-gray-500">
+            Shopping around? See our honest <Link href="/best-mosquito-control-companies-vaughan" className="text-brand-700 underline hover:text-brand-500">2026 Vaughan mosquito control comparison</Link> — pricing, reviews, contracts side by side.
+          </p>
         </div>
       </section>
 

@@ -5,7 +5,7 @@ import { buildMetadata, breadcrumbSchema, faqSchema, speakableSchema, howToSchem
 import { BUSINESS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Best Mosquito Control GTA [2026] — Prices Compared',
+  title: 'Best Mosquito Control GTA 2026 · Prices Compared',
   description:
     'Compare the best mosquito control companies in the GTA for 2026. BuzzSkito vs Mosquito Man vs Mosquito.Buzz vs LawnSavers. Pricing, reviews & service areas.',
   canonical: '/best-mosquito-control-companies-gta',
@@ -183,11 +183,19 @@ export default function BestMosquitoControlCompaniesGTAPage() {
           <p>The best way to evaluate any mosquito control company is to try a single treatment and judge results for yourself. BuzzSkito&rsquo;s no-contract model makes this easy &mdash; book one treatment from $99, see the difference, and decide if you want to continue.</p>
           <p>Call <a href={BUSINESS.phoneHref} className="text-brand-700 hover:underline">{BUSINESS.phone}</a> or use our <Link href="/free-yard-assessment" className="text-brand-700 hover:underline">contact form</Link> for a free, no-obligation quote.</p>
 
+          <h2>City-Specific Comparisons</h2>
+          <ul>
+            <li><Link href="/best-mosquito-control-companies-brampton" className="text-brand-700 hover:underline">Best Mosquito Control Companies in Brampton 2026</Link></li>
+            <li><Link href="/best-mosquito-control-companies-vaughan" className="text-brand-700 hover:underline">Best Mosquito Control Companies in Vaughan 2026</Link></li>
+            <li><Link href="/best-mosquito-control-companies-oakville" className="text-brand-700 hover:underline">Best Mosquito Control Companies in Oakville 2026</Link></li>
+          </ul>
+
           <h2>Related Pages</h2>
           <ul>
             <li><Link href="/mosquito-control-pricing" className="text-brand-700 hover:underline">Mosquito Control Pricing 2026</Link> &mdash; detailed pricing breakdown by property size and program</li>
             <li><Link href="/mosquito-control-diy-vs-professional" className="text-brand-700 hover:underline">DIY vs Professional Mosquito Control</Link> &mdash; is professional treatment worth it?</li>
             <li><Link href="/mosquito-control-cost" className="text-brand-700 hover:underline">Mosquito Control Cost Ontario</Link> &mdash; what affects pricing across Ontario</li>
+            <li><Link href="/mosquito-spray-safety" className="text-brand-700 hover:underline">Is Mosquito Spray Safe for Kids &amp; Pets?</Link> &mdash; safety FAQ for GTA families</li>
             <li><Link href="/mosquito-control" className="text-brand-700 hover:underline">BuzzSkito Mosquito Control Services</Link></li>
           </ul>
         </div>

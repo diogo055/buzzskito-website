@@ -9,7 +9,7 @@ import { BUSINESS, CITIES, MOSQUITO_BLOGS, TICK_BLOGS } from '@/lib/constants'
 export const metadata: Metadata = buildMetadata({
   title: 'Mosquito & Tick Control GTA | Guaranteed Results',
   description:
-    'Professional mosquito & tick barrier spray for GTA lawns. Serving Mississauga, Toronto, Brampton, Oakville, Burlington & Hamilton. Health Canada–approved. Call (289) 216-5030.',
+    'Mosquito & tick barrier spray for GTA lawns. Mississauga, Toronto, Brampton, Oakville, Burlington, Hamilton. Health Canada-approved. (289) 216-5030.',
   canonical: '/',
 })
 
