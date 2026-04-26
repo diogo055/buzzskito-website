@@ -290,8 +290,29 @@ const nextConfig = {
       { source: '/tyandaga-tick-spray',       destination: '/burlington-tick-spray',  permanent: true },
       { source: '/waterdown-tick-spray',      destination: '/hamilton-tick-spray',    permanent: true },
 
+      // ── Specific old Squarespace URLs → topically-relevant new pages ──────
+      // Per Ahrefs: these old URLs still hold ranking authority. Redirecting
+      // them to the most topically-relevant new page (instead of homepage)
+      // transfers that authority where it belongs.
+      { source: '/home/f/mosquito-control-near-me-in-ontario-what-to-do-and-who-to-trust',
+        destination: '/mosquito-control-near-me', permanent: true },
+      { source: '/home/f/tick-repellent-that-actually-works-in-ontario-yards-2025-update',
+        destination: '/blog/best-tick-control-yard-treatment', permanent: true },
+      { source: '/f/when-to-spray-for-mosquitoes-in-ontario-the-ultimate-guide',
+        destination: '/blog/when-to-schedule-first-mosquito-treatment-ontario', permanent: true },
+      { source: '/home/f/mosquito-vs-tick-biteshow-to-tell-the-difference-when-to-worry',
+        destination: '/blog/tick-bite-vs-mosquito-bite', permanent: true },
+      { source: '/home/f/mosquito-tick-control-calendar-the-best-times-to-spray-ontario',
+        destination: '/blog/mosquito-season-gta-when-does-it-start', permanent: true },
+      { source: '/f/mississauga-brampton-mosquito-tick-treatment-the-gta%E2%80%99s-best',
+        destination: '/mississauga-mosquito-control', permanent: true },
+      { source: '/f/mississauga-brampton-mosquito-tick-treatment-the-gta%E2%80%99s-best/',
+        destination: '/mississauga-mosquito-control', permanent: true },
+      { source: '/home/f/mosquito-control-in-etobicoke-%E2%80%93-2025-guide',
+        destination: '/etobicoke-mosquito-control', permanent: true },
+
       // ── Catch-all wildcards — must be LAST ───────────────────────────────────
-      // These catch any /f/* or /home/f/* URL not explicitly listed above
+      // These catch any remaining /f/* or /home/f/* URL not explicitly mapped
       { source: '/f/:path*',      destination: '/mosquito-control', permanent: true },
       { source: '/home/f/:path*', destination: '/mosquito-control', permanent: true },
       { source: '/home/:path*',   destination: '/',                 permanent: true },
