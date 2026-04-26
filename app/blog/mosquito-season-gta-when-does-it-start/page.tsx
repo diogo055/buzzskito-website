@@ -34,9 +34,9 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Mosquito Season GTA — 2026 Guide',
+  title: 'When Does Mosquito Season Start in Ontario? · 2026 GTA Guide',
   description:
-    'When mosquito season starts in the GTA, peak activity months, and when to book your first treatment. 2026 guide.',
+    'Mosquito season in Ontario starts late April when temps hit 10°C, peaks June–July, ends late September. Worst month, when to spray, what to expect across the GTA in 2026.',
   canonical: `/blog/${POST.slug}`,
   type: 'article',
   publishedTime: POST.date,

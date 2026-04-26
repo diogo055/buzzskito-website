@@ -5,9 +5,9 @@ import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusines
 import { BUSINESS, TICK_BLOGS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Tick Spray Oakville | From $99',
+  title: 'Tick Control Oakville · From $99 | Lyme Defence',
   description:
-    'Professional tick spray in Oakville. Protect your yard near Bronte Creek & conservation areas. From $99. Call (289) 216-5030.',
+    'Oakville tick spray with 126 five-star GTA reviews. Targets blacklegged ticks near Bronte Creek, Joshua Creek & Iroquois Shoreline. Health Canada-approved, free re-spray. Call (289) 216-5030.',
   canonical: '/oakville-tick-spray',
 })
 

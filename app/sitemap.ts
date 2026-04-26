@@ -3,7 +3,7 @@ import { SITE_URL, CITIES, MOSQUITO_BLOGS, TICK_BLOGS, NEW_BLOGS, NEW_BLOGS_2, N
 
 // Static lastModified date — update this only when making real content changes.
 // Using new Date() on every request makes Google distrust the lastmod signal.
-const LAST_CONTENT_UPDATE = '2026-04-22T12:00:00.000Z'
+const LAST_CONTENT_UPDATE = '2026-04-26T12:00:00.000Z'
 
 export default function sitemap(): MetadataRoute.Sitemap {
 
@@ -55,6 +55,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/golf-course-mosquito-control',
     '/restaurant-patio-mosquito-control',
     '/wedding-mosquito-control',
+    '/mosquito-spray-safety',
+    '/best-mosquito-control-companies-brampton',
+    '/best-mosquito-control-companies-vaughan',
+    '/best-mosquito-control-companies-oakville',
   ].map((slug) => ({
     url: `${SITE_URL}${slug}`,
     lastModified: LAST_CONTENT_UPDATE,

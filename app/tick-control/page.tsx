@@ -7,14 +7,14 @@ import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, speakableSch
 import { BUSINESS, CITIES, TICK_BLOGS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Tick Control GTA | From $99',
+  title: 'Tick Control GTA · From $99 | Lyme Protection',
   description:
-    'Professional tick control across the GTA. Health Canada-approved yard spray from $99. Protect your family from Lyme disease. Call (289) 216-5030.',
+    'GTA tick control trusted by 126 five-star reviews. Health Canada-approved yard spray from $99, 5 sprays per season, free re-treatment if ticks return. Protect kids and pets from Lyme. Call (289) 216-5030.',
   canonical: '/tick-control',
 })
 
 const FAQS = [
-  { question: 'How long does tick spray last?', answer: "BuzzSkito's professional tick treatment provides up to 30 days of protection per application. We recommend two seasonal treatments — one in late May/June and one in August/September — for season-long coverage." },
+  { question: 'How long does tick spray last?', answer: "BuzzSkito's professional tick treatment provides up to 30 days of protection per application. We recommend 5 treatments per season — spaced roughly every 30 days from May through September — for full-season coverage. Our standalone tick plan is $597 (5 sprays), or $497 when bundled with any mosquito plan." },
   { question: 'Is tick control yard spray safe for children?', answer: 'Yes. Our Health Canada–approved formula is safe for children once it has dried — approximately 30 minutes after application. During that drying window, children should stay off the treated area. After 30 minutes, kids can play on the grass and use the yard normally. The product bonds to leaf surfaces and vegetation where ticks rest — not to grass blades at ground level where children play. We also observe buffer zones around vegetable gardens and sandboxes on every property we treat.' },
   { question: 'Is tick spray safe for dogs and cats?', answer: 'Yes. Pets can return to the treated yard 30 minutes after application, once the product has fully dried. The formula is applied to vegetation and lawn edges — not directly to pet areas like kennel runs or dog beds. We recommend keeping pets indoors during application and for the 30-minute drying period. After that, there is no exposure risk.' },
   { question: 'Is tick control available near me in the GTA?', answer: 'BuzzSkito provides tick control across 19 GTA cities including Mississauga, Toronto, Brampton, Oakville, Burlington, Hamilton, Vaughan, Woodbridge, Richmond Hill, Markham, Etobicoke, Scarborough, North York, Caledon, Milton, Georgetown, Halton Hills, King City, and Thornhill. We also cover York Region communities including Kleinburg, Nobleton, and Schomberg. Call (289) 216-5030 to confirm service at your specific address.' },
@@ -125,20 +125,31 @@ export default function TickControlPage() {
       <section aria-labelledby="tick-schedule" className="py-14 px-4 bg-white">
         <div className="max-w-3xl mx-auto text-center">
           <h2 id="tick-schedule" className="text-3xl font-extrabold text-brand-900 mb-4">Recommended Tick Treatment Schedule</h2>
-          <p className="text-gray-500 mb-10 max-w-xl mx-auto">Two strategic treatments per season provide complete coverage during peak tick activity windows in Ontario.</p>
-          <div className="grid grid-cols-2 gap-6 max-w-sm mx-auto">
-            <div className="bg-amber-50 border border-amber-200 rounded-2xl p-6 text-center">
-              <div className="text-amber-700 font-extrabold uppercase text-xs tracking-wide mb-2">Treatment 1</div>
-              <div className="text-2xl font-extrabold text-brand-900">Late May / June</div>
-              <p className="text-gray-500 text-xs mt-2">Targets nymphs emerging in spring — the highest Lyme disease risk period</p>
-            </div>
-            <div className="bg-amber-50 border border-amber-200 rounded-2xl p-6 text-center">
-              <div className="text-amber-700 font-extrabold uppercase text-xs tracking-wide mb-2">Treatment 2</div>
-              <div className="text-2xl font-extrabold text-brand-900">August / September</div>
-              <p className="text-gray-500 text-xs mt-2">Targets adult tick emergence in late summer and early fall</p>
-            </div>
+          <p className="text-gray-500 mb-10 max-w-xl mx-auto">Five treatments per season — one every ~30 days from May through September — provide continuous protection during the entire tick activity window in Ontario.</p>
+          <div className="grid grid-cols-2 sm:grid-cols-5 gap-3 max-w-3xl mx-auto">
+            {[
+              { label: 'Spray 1', month: 'Early May', note: 'Spring nymphs emerging — highest Lyme risk' },
+              { label: 'Spray 2', month: 'Early June', note: 'Peak nymph activity, school-out exposure' },
+              { label: 'Spray 3', month: 'Early July', note: 'Adult ticks active, summer hiking season' },
+              { label: 'Spray 4', month: 'Early August', note: 'Mid-summer pressure, pet exposure peak' },
+              { label: 'Spray 5', month: 'Sept', note: 'Adult tick emergence, fall yard work' },
+            ].map(({ label, month, note }) => (
+              <div key={label} className="bg-amber-50 border border-amber-200 rounded-2xl p-4 text-center">
+                <div className="text-amber-700 font-extrabold uppercase text-xs tracking-wide mb-1">{label}</div>
+                <div className="text-lg font-extrabold text-brand-900">{month}</div>
+                <p className="text-gray-500 text-xs mt-2 leading-snug">{note}</p>
+              </div>
+            ))}
           </div>
-          <p className="text-gray-500 text-sm mt-8">
+          <div className="mt-10 inline-block bg-brand-50 border border-brand-200 rounded-2xl px-6 py-5">
+            <p className="text-brand-900 font-bold text-lg">Tick Control Pricing</p>
+            <p className="text-gray-700 text-sm mt-2">
+              <strong>$597</strong> standalone (5 sprays) ·
+              <strong className="text-amber-700"> $497</strong> bundled with any mosquito plan
+              <span className="text-gray-500"> (save $100)</span>
+            </p>
+          </div>
+          <p className="text-gray-500 text-sm mt-6">
             Bundle with our <Link href="/mosquito-control" className="text-brand-700 underline">mosquito control service</Link> for complete protection in one visit.
           </p>
         </div>

@@ -5,9 +5,9 @@ import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusines
 import { BUSINESS, CITIES } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Mosquito Control Near Me | GTA · From $99',
+  title: 'Mosquito Control Near Me · GTA | 5★ · From $99',
   description:
-    'Mosquito control near you in the GTA. BuzzSkito serves Mississauga, Toronto, Brampton, Oakville, Burlington & Hamilton. From $99.',
+    'Mosquito control near you. 126 five-star reviews across Mississauga, Toronto, Brampton, Oakville, Burlington, Hamilton & 19+ GTA cities. Barrier spray from $99, free re-spray. Call (289) 216-5030.',
   canonical: '/mosquito-control-near-me',
 })
 
