@@ -2,6 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Google Places Autocomplete dropdown — must be above all site UI */
+.pac-container {
+  z-index: 99999 !important;
+  font-family: var(--font-inter), system-ui, sans-serif !important;
+  border-radius: 0.75rem !important;
+  border: 1px solid #e5e7eb !important;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1) !important;
+  margin-top: 4px !important;
+}
+.pac-item {
+  padding: 8px 12px !important;
+  cursor: pointer !important;
+  font-size: 14px !important;
+}
+.pac-item:hover { background-color: #f3f4f6 !important; }
+.pac-item-query { font-weight: 600 !important; color: #111827 !important; }
+
 @layer base {
   :root {
     scroll-behavior: smooth;
