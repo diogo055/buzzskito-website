@@ -43,10 +43,22 @@ function loadGoogleMaps(): Promise<void> {
 
   scriptLoadPromise = new Promise((resolve, reject) => {
     const script = document.createElement('script')
-    script.src = `https://maps.googleapis.com/maps/api/js?key=${GOOGLE_MAPS_KEY}&libraries=places&loading=async`
+    // Note: not using `loading=async` because we use the legacy
+    // google.maps.places.Autocomplete constructor which needs the full
+    // library available synchronously after onload.
+    script.src = `https://maps.googleapis.com/maps/api/js?key=${GOOGLE_MAPS_KEY}&libraries=places&v=weekly`
     script.async = true
     script.defer = true
-    script.onload = () => resolve()
+    script.onload = () => {
+      // Belt-and-suspenders: wait until places API is actually attached
+      const start = Date.now()
+      const check = () => {
+        if (window.google?.maps?.places?.Autocomplete) return resolve()
+        if (Date.now() - start > 5000) return reject('Places library timeout')
+        setTimeout(check, 50)
+      }
+      check()
+    }
     script.onerror = () => reject('Failed to load Google Maps')
     document.head.appendChild(script)
   })
