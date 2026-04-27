@@ -174,6 +174,57 @@ export default function MississaugaMosquitoControlPage() {
           <h3>Clarkson &amp; Rattray Marsh</h3>
           <p>Clarkson properties near Rattray Marsh face the highest mosquito pressure in the city. The marsh's shallow water, dense cattails, and protected status (it cannot be treated by municipal larvicide programs) make it a reliable annual source of mosquitoes for adjacent streets.</p>
 
+          <h2>Mississauga Mosquito Risk by Postal Code Area (FSA)</h2>
+          <p>Mosquito pressure in Mississauga is not uniform — it tracks closely with proximity to the Credit River, Lake Ontario shoreline, Rattray Marsh, and Meadowvale Conservation Area. Here is our 2026 risk classification by Mississauga Forward Sortation Area:</p>
+          <div className="not-prose overflow-x-auto my-4">
+            <table className="w-full text-sm border-collapse">
+              <thead>
+                <tr className="bg-brand-800 text-white">
+                  <th className="px-4 py-2 text-left">FSA</th>
+                  <th className="px-4 py-2 text-left">Coverage Area</th>
+                  <th className="px-4 py-2 text-left">Risk Level</th>
+                  <th className="px-4 py-2 text-left">Primary Driver</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  { fsa: 'L5G / L5H', area: 'Port Credit, Mineola, Lakeview', risk: 'High', driver: 'Lake Ontario humidity + Credit River mouth' },
+                  { fsa: 'L5J', area: 'Clarkson, Lorne Park', risk: 'Very High', driver: 'Rattray Marsh adjacency + lakefront mature canopy' },
+                  { fsa: 'L5L / L5M', area: 'Erin Mills, Streetsville', risk: 'High', driver: 'Credit River corridor + Sawmill Valley creek' },
+                  { fsa: 'L5N', area: 'Meadowvale', risk: 'Very High', driver: 'Meadowvale Conservation ponds + wetlands' },
+                  { fsa: 'L5W / L5V', area: 'Churchill Meadows, Lisgar, East Credit', risk: 'Moderate–High', driver: '1990s–2000s stormwater pond developments' },
+                  { fsa: 'L4Y / L4Z', area: 'Hurontario, Cooksville', risk: 'Moderate', driver: 'Cooksville Creek + Square One stormwater system' },
+                  { fsa: 'L4T / L4W', area: 'Malton, Applewood', risk: 'Moderate', driver: 'Etobicoke Creek headwaters + airport drainage' },
+                  { fsa: 'L5A / L5B / L5C', area: 'City Centre, Mavis-Erindale', risk: 'Moderate', driver: 'Cooksville Creek tributaries + urban canopy' },
+                ].map(({ fsa, area, risk, driver }) => {
+                  const colour =
+                    risk === 'Very High' ? 'text-red-700 font-extrabold' :
+                    risk === 'High' ? 'text-amber-700 font-bold' :
+                    risk === 'Moderate–High' ? 'text-amber-600 font-semibold' :
+                    'text-gray-700 font-semibold'
+                  return (
+                    <tr key={fsa} className="border-b border-gray-200 even:bg-gray-50">
+                      <td className="px-4 py-2 font-mono font-bold text-brand-800">{fsa}</td>
+                      <td className="px-4 py-2 text-gray-700">{area}</td>
+                      <td className={`px-4 py-2 ${colour}`}>{risk}</td>
+                      <td className="px-4 py-2 text-gray-600 text-xs">{driver}</td>
+                    </tr>
+                  )
+                })}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-sm text-gray-500">Risk levels reflect typical season-long exposure based on geographic factors. Individual properties within each FSA vary — a Streetsville home directly on the Credit River faces higher pressure than a Streetsville home several blocks inland.</p>
+
+          <h2>Comparing Mississauga Mosquito Control Companies</h2>
+          <p>Mississauga homeowners have several professional options. We&rsquo;ve put together honest, side-by-side comparisons:</p>
+          <ul>
+            <li><Link href="/best-mosquito-control-companies-mississauga" className="text-brand-700 hover:underline">Best mosquito control companies in Mississauga 2026</Link> — pricing, reviews, contracts</li>
+            <li><Link href="/buzzskito-vs-mosquitoman" className="text-brand-700 hover:underline">BuzzSkito vs Mosquito Man</Link> — head-to-head comparison</li>
+            <li><Link href="/buzzskito-vs-lawnsavers" className="text-brand-700 hover:underline">BuzzSkito vs LawnSavers</Link> — specialist vs lawn-care add-on</li>
+            <li><Link href="/buzzskito-vs-mosquito-buzz" className="text-brand-700 hover:underline">BuzzSkito vs Mosquito.Buzz</Link> — local vs national franchise</li>
+          </ul>
+
           <h2>Our Mississauga Mosquito Treatment Process</h2>
           <ol>
             <li><strong>Property assessment</strong> — We identify breeding areas, water features, and high-risk vegetation zones specific to your Mississauga lot.</li>

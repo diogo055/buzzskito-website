@@ -97,7 +97,7 @@ export default function HomePage() {
               <div className="relative rounded-2xl overflow-hidden shadow-2xl ring-4 ring-white/10">
                 <Image
                   src="/hero-spray.webp"
-                  alt="BuzzSkito technician applying mosquito barrier spray to shrubs"
+                  alt="BuzzSkito technician applying Health Canada-approved mosquito barrier spray to backyard shrubs in the Greater Toronto Area"
                   width={600}
                   height={500}
                   className="w-full h-auto object-cover"
@@ -265,7 +265,7 @@ export default function HomePage() {
               <div className="rounded-2xl overflow-hidden shadow-xl">
                 <Image
                   src="/team.webp"
-                  alt="BuzzSkito mosquito and tick control team — GTA"
+                  alt="BuzzSkito mosquito and tick control team servicing GTA backyards in Mississauga, Toronto, Brampton, Oakville and Vaughan"
                   width={600}
                   height={400}
                   sizes="(max-width: 1024px) 100vw, 40vw"

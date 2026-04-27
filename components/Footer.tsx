@@ -25,7 +25,7 @@ export default function Footer() {
             <Link href="/" className="inline-flex items-center gap-2 mb-4">
               <Image
                 src="/logo.webp"
-                alt="BuzzSkito logo"
+                alt="BuzzSkito Mosquito and Tick Control - GTA's 5-star pest control company"
                 width={40}
                 height={40}
                 className="rounded-full"

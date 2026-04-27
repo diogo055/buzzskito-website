@@ -66,7 +66,7 @@ export default function Header() {
           <Link href="/" className="flex items-center gap-2 shrink-0" aria-label="BuzzSkito home">
             <Image
               src="/logo.webp"
-              alt="BuzzSkito Mosquito &amp; Tick Control"
+              alt="BuzzSkito Mosquito and Tick Control logo - serving the GTA"
               width={40}
               height={40}
               className="rounded-full"

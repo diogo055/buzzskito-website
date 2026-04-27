@@ -505,6 +505,44 @@ export const NEW_BLOGS_7 = [
   },
 ]
 
+export const NEW_BLOGS_9 = [
+  {
+    slug: 'mosquito-repellent-guide-ontario-2026',
+    title: 'Mosquito Repellent Guide — Ontario 2026 (What Actually Works)',
+    excerpt: 'Evidence-based 2026 mosquito repellent guide for Ontario. DEET, picaridin, OLE, natural options, scams to avoid.',
+    date: '2026-04-26',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'mosquito-magnet-vs-professional-spray',
+    title: 'Mosquito Magnet vs Professional Spray — Honest Comparison',
+    excerpt: 'Mosquito Magnet trap units vs professional barrier spray. Cost, effectiveness, real-world performance for Ontario backyards.',
+    date: '2026-04-26',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'best-tick-repellent-yard-canada',
+    title: 'Best Tick Repellent for Yards — Canada 2026',
+    excerpt: 'Best tick repellents for Canadian yards. Cedar oil, professional barrier spray, DIY options compared.',
+    date: '2026-04-26',
+    category: 'tick' as const,
+  },
+  {
+    slug: 'tick-removal-tool-guide',
+    title: 'Best Tick Removal Tools — Tested for Ontario 2026',
+    excerpt: 'Tick Twister vs TickKey vs fine-tipped tweezers. The $7 tool every Ontario household with a dog should keep at home.',
+    date: '2026-04-26',
+    category: 'tick' as const,
+  },
+  {
+    slug: 'mosquito-netting-vs-barrier-spray',
+    title: 'Mosquito Netting vs Barrier Spray — Which Is Better?',
+    excerpt: 'Mosquito netting vs professional barrier spray for backyards. Cost, coverage, when to use which.',
+    date: '2026-04-26',
+    category: 'mosquito' as const,
+  },
+]
+
 export const NEW_BLOGS_8 = [
   {
     slug: 'how-to-remove-tick-from-dog-ontario',
