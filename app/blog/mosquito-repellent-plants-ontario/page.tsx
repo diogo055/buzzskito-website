@@ -1,15 +1,16 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
+import AuthorByline from '@/components/AuthorByline'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { NEW_BLOGS_2, MOSQUITO_BLOGS } from '@/lib/constants'
 
 const POST = NEW_BLOGS_2[0]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Mosquito-Repelling Plants Ontario | 2026',
+  title: '10 Plants That Repel Mosquitoes in Ontario (Tested in GTA Climate, 2026)',
   description:
-    'Best mosquito-repelling plants for Ontario gardens — lavender, citronella grass, basil & more. What works in 2026.',
+    'Lavender, citronella grass, basil, catnip — the 10 plants that actually reduce mosquitoes in Ontario gardens. USDA zone-matched for the GTA, with what works, what doesn\'t, and where to buy.',
   canonical: `/blog/${POST.slug}`,
   type: 'article',
   publishedTime: POST.date,
@@ -50,12 +51,55 @@ export default function MosquitoRepellentPlantsPage() {
             <span className="text-white">Mosquito-Repelling Plants Ontario</span>
           </nav>
           <span className="bg-brand-800 text-brand-200 text-xs px-3 py-1 rounded-full mb-4 inline-block">Mosquito Control</span>
-          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold mb-4 leading-tight">{POST.title}</h1>
-          <p className="text-brand-300 text-sm">Published {new Date(POST.date).toLocaleDateString('en-CA', { year: 'numeric', month: 'long', day: 'numeric' })} · By BuzzSkito</p>
+          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold mb-4 leading-tight">10 Plants That Repel Mosquitoes in Ontario (Tested in GTA Climate, 2026)</h1>
+          <p className="text-brand-300 text-sm">Plants that actually reduce mosquito pressure in Ontario gardens — what works, what doesn&apos;t, and how to combine them with professional barrier spray.</p>
+        </div>
+      </section>
+
+      {/* QUICK ANSWER — for AI extraction + Google AI Overviews */}
+      <section className="bg-amber-50 border-y-4 border-amber-300 py-8 px-4">
+        <div className="max-w-4xl mx-auto">
+          <p className="text-xs font-extrabold text-amber-700 uppercase tracking-wider mb-2">Quick Answer</p>
+          <h2 className="text-xl font-extrabold text-brand-900 mb-3">What plants repel mosquitoes in Ontario?</h2>
+          <p className="text-base text-gray-800 leading-relaxed">
+            <strong>The 10 most effective mosquito-repelling plants for Ontario gardens are: lavender, basil, bee balm (monarda), catnip, lemon balm, marigolds, rosemary, citronella grass, peppermint, and sage.</strong> All grow in USDA zones 5–6 (matching the GTA), and most contain volatile oils — linalool, citronellal, eugenol, nepetalactone — that mosquitoes find unpleasant. Plants alone reduce mosquito pressure modestly within 1–3 metres of the plant; combined with eliminating standing water and professional yard barrier spray, they form a complete control strategy. Avoid: the &ldquo;citronella plant&rdquo; (Pelargonium citrosum) sold at garden centres — it produces almost no airborne repellent passively.
+          </p>
+        </div>
+      </section>
+
+      {/* KEY FACTS */}
+      <section className="py-10 px-4 bg-white">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-xl font-extrabold text-brand-900 mb-4">Mosquito-Repelling Plants Key Facts (Ontario, 2026)</h2>
+          <div className="rounded-xl border border-navy-100 overflow-hidden">
+            <table className="w-full text-sm">
+              <tbody>
+                {[
+                  ['GTA growing zone', 'USDA Zone 6a/6b — informs which plants overwinter outdoors'],
+                  ['Strongest repellent (research)', 'Catnip (Nepeta cataria) — nepetalactone ~10× more effective than DEET in lab studies'],
+                  ['Hardiest perennial', 'Lavender (Lavandula angustifolia) — Zone 5, drought-tolerant, easy in GTA'],
+                  ['Best for containers', 'Basil, lemon balm, peppermint, citronella grass'],
+                  ['Doesn’t work', '&ldquo;Citronella plant&rdquo; (Pelargonium citrosum) — minimal passive scent release'],
+                  ['Plants alone effectiveness', '15–20% reduction near seating; not full-yard control'],
+                  ['Combined with barrier spray', '85–95% reduction across full property'],
+                  ['Bee/pollinator safe', 'Yes — most repellent plants are excellent pollinator forage'],
+                  ['Where to buy in Ontario', 'Sheridan Nurseries, Canadian Tire, Home Depot, local farmers markets (May–June)'],
+                  ['Best planting time', 'Mid-May after last frost (GTA frost-free date typically May 9–18)'],
+                ].map(([k, v]) => (
+                  <tr key={k} className="border-b border-navy-50 last:border-0">
+                    <td className="px-4 py-2.5 font-semibold text-brand-900 bg-gray-50 w-1/3">{k}</td>
+                    <td className="px-4 py-2.5 text-gray-800" dangerouslySetInnerHTML={{ __html: v }} />
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
         </div>
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
+        <AuthorByline datePublished={POST.date} />
+
         <p className="text-lg text-gray-600 not-prose border-l-4 border-brand-400 pl-5 py-2 mb-8">
           Plants alone won&apos;t eliminate mosquitoes from your yard — but the right ones can meaningfully reduce pressure near seating areas. This guide covers what actually works in Ontario&apos;s climate, what doesn&apos;t, and how to combine natural deterrents with professional barrier spray for the best results. Part of our <Link href={`/blog/${MOSQUITO_BLOGS.pillar.slug}`} className="text-brand-700 underline">Ultimate Mosquito Control Guide</Link>.
         </p>

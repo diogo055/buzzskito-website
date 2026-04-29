@@ -160,7 +160,7 @@ export default function WhatDoesTickLookLikeOnDogPage() {
         </div>
       </article>
 
-      <CTASection heading="Tired of Finding Ticks on Your Dog?" subtext="Yard tick barrier spray reduces tick populations 90%+. From $597/season — $497 bundled with mosquito plan." variant="dark" />
+      <CTASection heading="Tired of Finding Ticks on Your Dog?" subtext="Yard tick barrier spray reduces tick populations 90%+. From seasonal pricing on quote — tick add-on bundle available on quote." variant="dark" />
     </>
   )
 }

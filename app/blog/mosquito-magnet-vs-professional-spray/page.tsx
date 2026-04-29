@@ -87,8 +87,8 @@ export default function MosquitoMagnetPage() {
               <tbody>
                 {[
                   ['Upfront cost', '$400–$1,200 (unit)', '$0 (no equipment)'],
-                  ['Annual operating cost', '$300–$700 (propane + attractants)', '$549–$2,049 (5–20 sprays)'],
-                  ['Total Year 1 cost', '$700–$1,900', '$549–$2,049'],
+                  ['Annual operating cost', '$300–$700 (propane + attractants)', 'available on quote (5–20 sprays)'],
+                  ['Total Year 1 cost', '$700–$1,900', 'available on quote'],
                   ['Coverage area', '~1 acre max', 'Entire residential lot'],
                   ['How it works', 'Captures adult mosquitoes', 'Kills + repels at resting sites'],
                   ['Population reduction', '20–60% (typical)', '90%+ (typical)'],

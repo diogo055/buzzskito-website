@@ -137,7 +137,7 @@ export default function OakvilleMosquitoPage() {
           <p className="text-xs font-extrabold text-amber-700 uppercase tracking-wider mb-2">Quick Answer</p>
           <h2 className="text-xl font-extrabold text-brand-900 mb-3">What is the best mosquito control company in Oakville?</h2>
           <p className="text-base text-gray-800 leading-relaxed">
-            <strong>BuzzSkito provides specialist mosquito barrier spray across all Oakville neighbourhoods — Bronte, Glen Abbey, Joshua Creek, West Oak Trails, Clearview, Palermo, River Oaks, Kerr Village, Old Oakville, and North Oakville.</strong> Treatments use Health Canada-approved formulations applied to vegetation and shrub interiors where mosquitoes rest. Single treatments start at <strong>$99</strong>, with seasonal programs from $549. With <strong>129 five-star Google reviews</strong>, no contracts, a 30-minute re-entry window, and the <strong>BuzzSkito Bite-Free Guarantee</strong>, Oakville homeowners get reliable barrier spray for lakefront, creek-adjacent, and ravine-edge properties. Call (289) 216-5030.
+            <strong>BuzzSkito provides specialist mosquito barrier spray across all Oakville neighbourhoods — Bronte, Glen Abbey, Joshua Creek, West Oak Trails, Clearview, Palermo, River Oaks, Kerr Village, Old Oakville, and North Oakville.</strong> Treatments use Health Canada-approved formulations applied to vegetation and shrub interiors where mosquitoes rest. Single treatments start at <strong>$99</strong>, with seasonal programs available on quote. With <strong>129 five-star Google reviews</strong>, no contracts, a 30-minute re-entry window, and the <strong>BuzzSkito Bite-Free Guarantee</strong>, Oakville homeowners get reliable barrier spray for lakefront, creek-adjacent, and ravine-edge properties. Call (289) 216-5030.
           </p>
         </div>
       </section>
@@ -152,7 +152,7 @@ export default function OakvilleMosquitoPage() {
                 {[
                   ['Service area', 'All Oakville neighbourhoods (Bronte, Glen Abbey, Joshua Creek, West Oak Trails, Clearview, Palermo, River Oaks, Kerr Village, Old Oakville, North Oakville, Eastlake, Falgarwood)'],
                   ['Specialization', 'Mosquito barrier spray for residential properties'],
-                  ['Pricing', 'From $99 per treatment · seasonal programs $549–$2,049'],
+                  ['Pricing', 'From $99 per treatment · seasonal programs available on quote'],
                   ['Treatment season', 'May through September (peak: late May–July)'],
                   ['Protection per visit', 'Up to 30 days residual'],
                   ['Re-entry time', '30 minutes after spray dries (kid and pet safe)'],

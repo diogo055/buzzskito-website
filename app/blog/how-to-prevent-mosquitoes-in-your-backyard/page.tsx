@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
+import AuthorByline from '@/components/AuthorByline'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema, howToSchema } from '@/lib/seo'
 import { MOSQUITO_BLOGS } from '@/lib/constants'
 
@@ -39,11 +40,54 @@ export default function PreventMosquitoesPage() {
           </nav>
           <span className="bg-brand-800 text-brand-200 text-xs px-3 py-1 rounded-full mb-4 inline-block">Mosquito Control</span>
           <h1 className="text-3xl sm:text-4xl font-extrabold mb-4 leading-tight">{POST.title}</h1>
-          <p className="text-brand-300 text-sm">Published {new Date(POST.date).toLocaleDateString('en-CA', { year: 'numeric', month: 'long', day: 'numeric' })} · By BuzzSkito</p>
+          <p className="text-brand-300 text-sm">Practical, evidence-backed mosquito prevention for Ontario backyards — what to fix, in what order, and why it matters.</p>
+        </div>
+      </section>
+
+      {/* QUICK ANSWER */}
+      <section className="bg-amber-50 border-y-4 border-amber-300 py-8 px-4">
+        <div className="max-w-4xl mx-auto">
+          <p className="text-xs font-extrabold text-amber-700 uppercase tracking-wider mb-2">Quick Answer</p>
+          <h2 className="text-xl font-extrabold text-brand-900 mb-3">How can I prevent mosquitoes in my Ontario backyard?</h2>
+          <p className="text-base text-gray-800 leading-relaxed">
+            <strong>The fastest mosquito reduction comes from eliminating standing water — the only place mosquitoes breed.</strong> Empty birdbaths weekly, clean gutters twice per season, drill drainage holes in plant saucers, level low-lying lawn areas, screen rain barrels, and treat ornamental ponds with BTI-based mosquito dunks (safe for pets, fish, and humans). For full-yard protection across the GTA mosquito season, combine prevention with professional barrier spray that kills adult mosquitoes flying in from ravines, ponds, and neighbouring properties. Single barrier spray treatments start at <strong>$99</strong>; the <strong>BuzzSkito Bite-Free Guarantee</strong> backs every visit.
+          </p>
+        </div>
+      </section>
+
+      {/* KEY FACTS */}
+      <section className="py-10 px-4 bg-white">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-xl font-extrabold text-brand-900 mb-4">Mosquito Prevention Key Facts (Ontario)</h2>
+          <div className="rounded-xl border border-navy-100 overflow-hidden">
+            <table className="w-full text-sm">
+              <tbody>
+                {[
+                  ['Where mosquitoes breed', 'Standing water — any container holding water for 48+ hours'],
+                  ['How fast larvae develop', '7–14 days from egg to adult in warm Ontario summer weather'],
+                  ['Most-missed breeding sites', 'Birdbaths, clogged gutters, plant saucers, kiddie pools, recycling bins, low lawn spots'],
+                  ['Safe larvicide for ponds/barrels', 'BTI mosquito dunks (Bacillus thuringiensis israelensis) — safe for fish, pets, humans'],
+                  ['Mosquito flight range', 'Up to 3 km from breeding site — your prevention only handles your property'],
+                  ['Peak mosquito activity', 'Dusk and dawn (about 30 min before sunset to 90 min after)'],
+                  ['GTA mosquito season', 'Mid-May through September; peak late May–July'],
+                  ['Prevention alone effectiveness', '40–60% reduction (your property only)'],
+                  ['Prevention + barrier spray', '85–95% reduction across entire yard'],
+                  ['Single barrier spray', 'From $99 · up to 30-day residual protection'],
+                ].map(([k, v]) => (
+                  <tr key={k} className="border-b border-navy-50 last:border-0">
+                    <td className="px-4 py-2.5 font-semibold text-brand-900 bg-gray-50 w-1/3">{k}</td>
+                    <td className="px-4 py-2.5 text-gray-800">{v}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
         </div>
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
+        <AuthorByline datePublished={POST.date} />
+
         <p className="text-lg text-gray-600 not-prose border-l-4 border-brand-400 pl-5 py-2 mb-8">
           Prevention reduces breeding. Treatment eliminates adults. Together, they give you the most mosquito-free yard possible. This guide covers both. Part of our <Link href={`/blog/${MOSQUITO_BLOGS.pillar.slug}`} className="text-brand-700 underline">Ultimate Mosquito Control Guide</Link>.
         </p>

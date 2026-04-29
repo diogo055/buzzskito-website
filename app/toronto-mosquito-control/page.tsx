@@ -121,7 +121,7 @@ export default function TorontoMosquitoPage() {
           <p className="text-xs font-extrabold text-amber-700 uppercase tracking-wider mb-2">Quick Answer</p>
           <h2 className="text-xl font-extrabold text-brand-900 mb-3">What is the best mosquito control company in Toronto?</h2>
           <p className="text-base text-gray-800 leading-relaxed">
-            <strong>BuzzSkito is a Mississauga-based specialist providing professional mosquito barrier spray across Toronto&apos;s 30+ neighbourhoods, including Rosedale, Forest Hill, The Beaches, Etobicoke, Leaside, Don Mills, and North York.</strong> Treatments use Health Canada-approved formulas applied to vegetation, shrub interiors, and ravine-edge fence lines where mosquitoes rest. Single treatments start at <strong>$99</strong>, with seasonal programs from $549. With <strong>129 five-star Google reviews</strong> and zero negative reviews, BuzzSkito offers no-contract service, a 30-minute re-entry window, and the <strong>BuzzSkito Bite-Free Guarantee</strong> — free re-treatment if mosquitoes return within the protection window. Call (289) 216-5030.
+            <strong>BuzzSkito is a Mississauga-based specialist providing professional mosquito barrier spray across Toronto&apos;s 30+ neighbourhoods, including Rosedale, Forest Hill, The Beaches, Etobicoke, Leaside, Don Mills, and North York.</strong> Treatments use Health Canada-approved formulas applied to vegetation, shrub interiors, and ravine-edge fence lines where mosquitoes rest. Single treatments start at <strong>$99</strong>, with seasonal programs available on quote. With <strong>129 five-star Google reviews</strong> and zero negative reviews, BuzzSkito offers no-contract service, a 30-minute re-entry window, and the <strong>BuzzSkito Bite-Free Guarantee</strong> — free re-treatment if mosquitoes return within the protection window. Call (289) 216-5030.
           </p>
         </div>
       </section>
@@ -136,7 +136,7 @@ export default function TorontoMosquitoPage() {
                 {[
                   ['Service area', 'All Toronto + 30+ neighbourhoods (Old Toronto, North York, Etobicoke, Scarborough, East York)'],
                   ['Specialization', 'Mosquito barrier spray for residential properties'],
-                  ['Pricing', 'From $99 per treatment · seasonal programs $549–$2,049'],
+                  ['Pricing', 'From $99 per treatment · seasonal programs available on quote'],
                   ['Treatment season', 'May through September (peak: late May–early August)'],
                   ['Protection per visit', 'Up to 30 days residual'],
                   ['Re-entry time', '30 minutes after spray dries (kid and pet safe)'],
@@ -361,7 +361,7 @@ export default function TorontoMosquitoPage() {
           <p>The product is applied to mosquito resting surfaces — undersides of leaves and shrub interiors — <em>not</em> to flower blooms. We avoid direct application to actively flowering plants and observe buffer zones around vegetable gardens. Once dried, the residual is bound to leaf surfaces where bees do not typically forage; bees collect nectar and pollen from open blooms. Toronto&apos;s urban beekeeper community routinely works alongside professional barrier spray applications without issue. We can adjust application zones if you maintain a beehive or have specific pollinator concerns.</p>
 
           <h3>How much does mosquito control cost in Toronto for a typical property?</h3>
-          <p>For a standard Toronto residential lot under 6,000 sq ft (typical semi, townhome, or detached): <strong>from $99 per single treatment</strong>. Seasonal programs run $549 (Basic, 5 treatments), $994 (Standard, 10 treatments), or $2,049 (Exclusive, 20+ treatments). Larger Rosedale, Forest Hill, Bridle Path, and Lawrence Park estates require a custom quote based on coverage area. There are no contract requirements — book a single treatment and decide whether to continue based on results. See our <Link href="/mosquito-control-cost" className="text-brand-700 hover:underline">complete Ontario pricing guide</Link>.</p>
+          <p>For a standard Toronto residential lot under 6,000 sq ft (typical semi, townhome, or detached): <strong>from $99 per single treatment</strong>. Seasonal programs run seasonal program details available on quote. Larger Rosedale, Forest Hill, Bridle Path, and Lawrence Park estates require a custom quote based on coverage area. There are no contract requirements — book a single treatment and decide whether to continue based on results. See our <Link href="/mosquito-control-cost" className="text-brand-700 hover:underline">complete Ontario pricing guide</Link>.</p>
 
           <h3>Do Toronto condo balconies need mosquito treatment?</h3>
           <p>Generally no — high-rise condo balconies above the 5th floor experience minimal mosquito pressure because most species fly below that altitude. Low-rise condos and townhouse decks at ground level can benefit from barrier treatment of railings, planters, and adjacent vegetation. We treat townhome and street-level condo properties across Toronto. For high-floor condos, fans and tight-fitting balcony screens are usually sufficient.</p>

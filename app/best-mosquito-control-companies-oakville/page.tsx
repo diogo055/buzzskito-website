@@ -26,7 +26,7 @@ const FAQS = [
   },
   {
     question: 'Do Oakville mosquito control companies handle ticks too?',
-    answer: 'They should — Oakville tick risk is real, especially near Bronte Creek and 16 Mile Creek. BuzzSkito offers tick standalone at $597/season (5 sprays) or $497 bundled with any mosquito plan, saving $100. Always confirm a provider tests for tick activity in your specific Oakville neighbourhood.',
+    answer: 'They should — Oakville tick risk is real, especially near Bronte Creek and 16 Mile Creek. BuzzSkito offers tick standalone at seasonal pricing on quote (5 sprays) or $497 bundled with any mosquito plan, saving $100. Always confirm a provider tests for tick activity in your specific Oakville neighbourhood.',
   },
   {
     question: 'Are no-contract Oakville mosquito control plans available?',
@@ -110,7 +110,7 @@ export default function BestMosquitoControlCompaniesOakvillePage() {
             <li><strong>Pricing:</strong> From $99 per single treatment. Basic season $549 (5 sprays), Standard $994 (10 sprays), Exclusive $2,049 (20+ sprays).</li>
             <li><strong>Reviews:</strong> 129 Google reviews, perfect 5.0-star rating.</li>
             <li><strong>Contracts:</strong> No contracts, no cancellation fees.</li>
-            <li><strong>Tick add-on:</strong> Critical for Oakville homes near Bronte Creek and Iroquois Shoreline. $597 standalone or $497 bundled with mosquito plan.</li>
+            <li><strong>Tick add-on:</strong> Critical for Oakville homes near Bronte Creek and Iroquois Shoreline. $597 standalone or tick add-on bundle available on quote.</li>
             <li><strong>Lakefront coverage:</strong> Old Oakville lakefront properties experience high mosquito pressure from Lake Ontario humidity — properly equipped barrier spray handles it.</li>
           </ul>
 

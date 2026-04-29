@@ -30,7 +30,7 @@ const FAQS = [
   },
   {
     question: 'Does Mosquito Man offer tick control?',
-    answer: 'Mosquito Man offers tick control as an add-on with mosquito service. BuzzSkito offers tick control standalone ($597/season for 5 sprays) or bundled with mosquito plans ($497, save $100). For Lyme-disease-prone GTA areas, both companies provide adequate tick coverage — pricing structure is the main difference.',
+    answer: 'Mosquito Man offers tick control as an add-on with mosquito service. BuzzSkito offers tick control standalone (seasonal pricing on quote for 5 sprays) or bundled with mosquito plans ($497, save $100). For Lyme-disease-prone GTA areas, both companies provide adequate tick coverage — pricing structure is the main difference.',
   },
   {
     question: 'Which is better for first-time customers?',

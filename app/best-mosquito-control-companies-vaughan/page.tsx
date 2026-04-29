@@ -26,7 +26,7 @@ const FAQS = [
   },
   {
     question: 'Do Vaughan mosquito control companies handle ticks too?',
-    answer: 'Most do. Vaughan tick risk is significant — Kleinburg, Woodbridge, and Maple all sit near established blacklegged tick populations. BuzzSkito offers tick standalone at $597/season (5 sprays) or $497 bundled with mosquito plans. Always confirm your provider tests for tick coverage in your specific neighbourhood.',
+    answer: 'Most do. Vaughan tick risk is significant — Kleinburg, Woodbridge, and Maple all sit near established blacklegged tick populations. BuzzSkito offers tick standalone at seasonal pricing on quote (5 sprays) or tick add-on bundle available on quotes. Always confirm your provider tests for tick coverage in your specific neighbourhood.',
   },
   {
     question: 'Do any Vaughan mosquito control companies offer no-contract service?',

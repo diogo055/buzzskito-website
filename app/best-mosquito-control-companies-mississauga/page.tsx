@@ -18,7 +18,7 @@ const FAQS = [
   },
   {
     question: 'How much does mosquito control cost in Mississauga?',
-    answer: 'Single treatments in Mississauga range from $99 (BuzzSkito) to $129+ (LawnSavers) per visit. Seasonal programs run from $549 (BuzzSkito Basic, 5 sprays) to $2,049 (BuzzSkito Exclusive, 20+ sprays). Mosquito Man seasonal pricing is around $450 but per-treatment rates are not publicly listed. Properties in Lorne Park, Mineola, and lakefront Port Credit estate areas typically price at the upper end due to lot size.',
+    answer: 'Single treatments in Mississauga range from $99 (BuzzSkito) to $129+ (LawnSavers) per visit. Seasonal programs run seasonal programs available on quote (BuzzSkito Basic, 5 sprays) to $2,049 (BuzzSkito Exclusive, 20+ sprays). Mosquito Man seasonal pricing is around $450 but per-treatment rates are not publicly listed. Properties in Lorne Park, Mineola, and lakefront Port Credit estate areas typically price at the upper end due to lot size.',
   },
   {
     question: 'Which Mississauga neighbourhoods have the worst mosquito pressure?',
@@ -34,7 +34,7 @@ const FAQS = [
   },
   {
     question: 'Can I bundle tick control with mosquito spray in Mississauga?',
-    answer: 'Yes — and you should if your property is near the Credit River, Erindale Park, or Rattray Marsh. These areas are confirmed blacklegged tick (Lyme-disease vector) habitat per Peel Region Public Health. BuzzSkito offers tick standalone at $597/season (5 sprays) or $497 when bundled with any mosquito plan, saving $100. Lyme prevention plus mosquito comfort = full yard protection.',
+    answer: 'Yes — and you should if your property is near the Credit River, Erindale Park, or Rattray Marsh. These areas are confirmed blacklegged tick (Lyme-disease vector) habitat per Peel Region Public Health. BuzzSkito offers tick standalone at seasonal pricing on quote (5 sprays) or $497 when bundled with any mosquito plan, saving $100. Lyme prevention plus mosquito comfort = full yard protection.',
   },
 ]
 

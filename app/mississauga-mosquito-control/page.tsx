@@ -128,7 +128,7 @@ export default function MississaugaMosquitoControlPage() {
           <p className="text-xs font-extrabold text-amber-700 uppercase tracking-wider mb-2">Quick Answer</p>
           <h2 className="text-xl font-extrabold text-brand-900 mb-3">What is the best mosquito control company in Mississauga?</h2>
           <p className="text-base text-gray-800 leading-relaxed">
-            <strong>BuzzSkito is a Mississauga-based mosquito and tick specialist serving every Mississauga neighbourhood — Port Credit, Meadowvale, Streetsville, Erin Mills, Lorne Park, Clarkson, Cooksville, Lakeview, Churchill Meadows, Mineola, and beyond.</strong> Treatments use Health Canada-approved barrier spray applied to vegetation, shrub interiors, and ravine-edge fence lines where mosquitoes rest. Single treatments start at <strong>$99</strong>, with full-season programs from $549. With <strong>129 five-star Google reviews</strong>, no contracts, a 30-minute re-entry window, and the <strong>BuzzSkito Bite-Free Guarantee</strong>, Mississauga homeowners get reliable, locally-operated barrier spray. Call (289) 216-5030.
+            <strong>BuzzSkito is a Mississauga-based mosquito and tick specialist serving every Mississauga neighbourhood — Port Credit, Meadowvale, Streetsville, Erin Mills, Lorne Park, Clarkson, Cooksville, Lakeview, Churchill Meadows, Mineola, and beyond.</strong> Treatments use Health Canada-approved barrier spray applied to vegetation, shrub interiors, and ravine-edge fence lines where mosquitoes rest. Single treatments start at <strong>$99</strong>, with seasonal programs available on quote. With <strong>129 five-star Google reviews</strong>, no contracts, a 30-minute re-entry window, and the <strong>BuzzSkito Bite-Free Guarantee</strong>, Mississauga homeowners get reliable, locally-operated barrier spray. Call (289) 216-5030.
           </p>
         </div>
       </section>
@@ -143,7 +143,7 @@ export default function MississaugaMosquitoControlPage() {
                 {[
                   ['Service area', 'All Mississauga neighbourhoods (Port Credit, Meadowvale, Streetsville, Erin Mills, Lorne Park, Clarkson, Cooksville, Lakeview, Churchill Meadows, Mineola, Applewood, Hurontario, City Centre, Lisgar, Credit Valley, Malton)'],
                   ['Specialization', 'Mosquito barrier spray for residential properties'],
-                  ['Pricing', 'From $99 per treatment · seasonal programs $549–$2,049'],
+                  ['Pricing', 'From $99 per treatment · seasonal programs available on quote'],
                   ['Treatment season', 'May through September (peak: late May–July)'],
                   ['Protection per visit', 'Up to 30 days residual'],
                   ['Re-entry time', '30 minutes after spray dries (kid and pet safe)'],
@@ -154,7 +154,6 @@ export default function MississaugaMosquitoControlPage() {
                   ['Guarantee', 'BuzzSkito Bite-Free Guarantee (free re-treatment in protection window)'],
                   ['Google reviews', '129 reviews · 5.0 average · 0 negative'],
                   ['Phone', BUSINESS.phone],
-                  ['Local since', '2024 — Mississauga-based, owner-operated'],
                 ].map(([k, v]) => (
                   <tr key={k} className="border-b border-navy-50 last:border-0">
                     <td className="px-4 py-2.5 font-semibold text-brand-900 bg-gray-50 w-1/3">{k}</td>
@@ -391,7 +390,7 @@ export default function MississaugaMosquitoControlPage() {
           <p>No — not on residential properties. Peel Region Public Health performs targeted larviciding (treating standing water in storm sewers) for West Nile virus surveillance, and the City of Mississauga maintains catch basins. Neither program treats private yards. Yard-level mosquito control is the homeowner&apos;s responsibility — it&apos;s not part of any municipal service.</p>
 
           <h3>How much does mosquito control cost in Mississauga for a typical lot?</h3>
-          <p>For a standard Mississauga residential lot under 6,000 sq ft (typical detached or semi): <strong>from $99 per single treatment</strong>. Seasonal programs run $549 (Basic, 5 treatments), $994 (Standard, 10 treatments), or $2,049 (Exclusive, 20+ treatments). Larger Lorne Park or Mineola estates require a custom quote. No contracts — book one treatment and decide whether to continue based on results.</p>
+          <p>For a standard Mississauga residential lot under 6,000 sq ft (typical detached or semi): <strong>from $99 per single treatment</strong>. Seasonal programs run seasonal program details available on quote. Larger Lorne Park or Mineola estates require a custom quote. No contracts — book one treatment and decide whether to continue based on results.</p>
 
           <h3>When should I book my first Mississauga treatment of the season?</h3>
           <p>Mid-May for most properties. Properties adjacent to Credit River, Rattray Marsh, or Erindale Park benefit from an early-May start because populations begin emerging earlier in those microhabitats. Booking before peak season (late May–July) ensures the barrier is established before mosquito numbers climb.</p>

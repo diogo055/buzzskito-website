@@ -90,7 +90,7 @@ export default function MosquitoNettingVsSprayPage() {
                   ['Effectiveness inside', '100% bug-free', '90%+ population reduction'],
                   ['Effectiveness outside the zone', '0% (not protected)', '90%+ population reduction'],
                   ['Initial cost', '$200–$15,000 (depending on scope)', '$0'],
-                  ['Annual cost', '$0 (after purchase)', '$549–$2,049'],
+                  ['Annual cost', '$0 (after purchase)', 'available on quote'],
                   ['Setup', 'Permanent or seasonal install', 'None — we come to you'],
                   ['Aesthetic impact', 'Visible structure / mesh', 'Invisible'],
                   ['Movement freedom', 'Confined to enclosure', 'Use entire yard'],

@@ -150,7 +150,7 @@ export default function TickBiteOnDogSymptomsPage() {
         </div>
       </article>
 
-      <CTASection heading="Stop the Next Tick Before It Bites" subtext="Yard tick spray prevents the dog-tick cycle. 5 sprays per season. From $597 — or $497 bundled with mosquito plan." variant="dark" />
+      <CTASection heading="Stop the Next Tick Before It Bites" subtext="Yard tick spray prevents the dog-tick cycle. 5 sprays per season. From $597 — or tick add-on bundle available on quote." variant="dark" />
     </>
   )
 }

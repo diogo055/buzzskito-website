@@ -84,10 +84,8 @@ export function localBusinessSchema(overrides: { areaServed?: string; descriptio
       name: 'Mosquito & Tick Control Services',
       itemListElement: [
         { '@type': 'Offer', name: 'Single Mosquito Treatment', price: '99', priceCurrency: 'CAD', description: 'One-time barrier spray treatment for standard residential lot' },
-        { '@type': 'Offer', name: 'Basic Season Package', price: '549', priceCurrency: 'CAD', description: '5 barrier spray treatments, monthly May–September' },
-        { '@type': 'Offer', name: 'Standard Season Package', price: '994', priceCurrency: 'CAD', description: '10 barrier spray treatments, bi-weekly May–September' },
-        { '@type': 'Offer', name: 'Exclusive Season Package', price: '2049', priceCurrency: 'CAD', description: '20+ weekly barrier spray treatments May–September' },
-        { '@type': 'Offer', name: 'Tick Protection Program', price: '597', priceCurrency: 'CAD', description: '5 targeted tick barrier sprays, full season' },
+        { '@type': 'Offer', name: 'Mosquito Season Programs', priceCurrency: 'CAD', description: 'Seasonal mosquito barrier spray programs (5, 10, 20+ treatment frequencies). Custom-quoted by property size — call (289) 216-5030 for quote.' },
+        { '@type': 'Offer', name: 'Tick Protection Program', priceCurrency: 'CAD', description: 'Seasonal tick barrier spray program. Available standalone or bundled with mosquito plan. Custom-quoted — call (289) 216-5030 for quote.' },
       ],
     },
     sameAs: [

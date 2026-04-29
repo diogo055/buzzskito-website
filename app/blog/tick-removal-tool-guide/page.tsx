@@ -140,7 +140,7 @@ export default function TickRemovalToolGuidePage() {
           <p>Note: Knowing a tick was a blacklegged species doesn&rsquo;t mean Lyme was transmitted. Only 10–30% of blacklegged ticks in Ontario actually carry Borrelia bacteria. Symptom monitoring is more reliable than tick testing alone.</p>
 
           <h2>The Bigger Picture — Stop Finding Ticks</h2>
-          <p>The fastest way to never need a tick removal tool is to not have ticks in your yard. <Link href="/tick-control">BuzzSkito&rsquo;s 5-spray tick season program</Link> reduces yard tick populations by 80–95% — most customers stop finding ticks within 2 weeks of the first treatment. From $597/season (or $497 bundled with mosquito).</p>
+          <p>The fastest way to never need a tick removal tool is to not have ticks in your yard. <Link href="/tick-control">BuzzSkito&rsquo;s 5-spray tick season program</Link> reduces yard tick populations by 80–95% — most customers stop finding ticks within 2 weeks of the first treatment. From seasonal pricing on quote (or $497 bundled with mosquito).</p>
 
           <h2>Related Reading</h2>
           <ul>
@@ -153,7 +153,7 @@ export default function TickRemovalToolGuidePage() {
         </div>
       </article>
 
-      <CTASection heading="Stop Finding Ticks in the First Place" subtext="Yard tick barrier spray reduces tick populations 80-95%. From $597/season." variant="dark" />
+      <CTASection heading="Stop Finding Ticks in the First Place" subtext="Yard tick barrier spray reduces tick populations 80-95%. From seasonal pricing on quote." variant="dark" />
     </>
   )
 }

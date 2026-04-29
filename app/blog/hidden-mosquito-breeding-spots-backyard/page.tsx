@@ -1,15 +1,16 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
+import AuthorByline from '@/components/AuthorByline'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema, howToSchema } from '@/lib/seo'
 import { NEW_BLOGS_2, MOSQUITO_BLOGS } from '@/lib/constants'
 
 const POST = NEW_BLOGS_2[1]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Hidden Mosquito Breeding Spots | GTA',
+  title: 'Hidden Mosquito Breeding Spots in Your GTA Backyard (12 You Probably Missed, 2026)',
   description:
-    '12 hidden mosquito breeding spots in your GTA backyard — gutters, saucers, tarps & more. Find and eliminate them.',
+    'The 12 most-missed mosquito breeding sites in GTA backyards — gutters, saucers, tarps, low lawn spots, recycling bins, kiddie pools. Find them, eliminate them, then layer professional barrier spray.',
   canonical: `/blog/${POST.slug}`,
   type: 'article',
   publishedTime: POST.date,
@@ -51,12 +52,56 @@ export default function HiddenBreedingSpotsPage() {
             <span className="text-white">Hidden Mosquito Breeding Spots</span>
           </nav>
           <span className="bg-brand-800 text-brand-200 text-xs px-3 py-1 rounded-full mb-4 inline-block">Mosquito Control</span>
-          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold mb-4 leading-tight">{POST.title}</h1>
-          <p className="text-brand-300 text-sm">Published {new Date(POST.date).toLocaleDateString('en-CA', { year: 'numeric', month: 'long', day: 'numeric' })} · By BuzzSkito</p>
+          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold mb-4 leading-tight">Hidden Mosquito Breeding Spots in Your GTA Backyard (12 You Probably Missed)</h1>
+          <p className="text-brand-300 text-sm">Find and eliminate every standing-water source on your property — even the ones you didn&apos;t know were producing mosquitoes.</p>
+        </div>
+      </section>
+
+      {/* QUICK ANSWER */}
+      <section className="bg-amber-50 border-y-4 border-amber-300 py-8 px-4">
+        <div className="max-w-4xl mx-auto">
+          <p className="text-xs font-extrabold text-amber-700 uppercase tracking-wider mb-2">Quick Answer</p>
+          <h2 className="text-xl font-extrabold text-brand-900 mb-3">What kills mosquitoes in standing water?</h2>
+          <p className="text-base text-gray-800 leading-relaxed">
+            <strong>For standing water you can drain, just empty it — mosquitoes need water for 7+ days to complete the larva stage.</strong> For standing water you can&apos;t drain (rain barrels, ornamental ponds, neglected pools, drainage ditches), drop in a <strong>BTI-based mosquito dunk</strong> (sold at Canadian Tire and Home Depot for $10–$20 per pack). BTI (<em>Bacillus thuringiensis israelensis</em>) is a soil bacterium that kills mosquito larvae within 24 hours and is completely safe for fish, pets, beneficial insects, and humans. Health Canada has approved BTI for use in drinking water reservoirs. The 12 most-missed backyard breeding sites in the GTA are listed below — gutters, plant saucers, low lawn spots, kiddie pools, tarps, recycling bins, garbage can lids, bird baths, downspout extensions, wheelbarrows, sump pump drainage, and corrugated drainage pipe.
+          </p>
+        </div>
+      </section>
+
+      {/* KEY FACTS */}
+      <section className="py-10 px-4 bg-white">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-xl font-extrabold text-brand-900 mb-4">Standing Water & Mosquito Breeding Key Facts</h2>
+          <div className="rounded-xl border border-navy-100 overflow-hidden">
+            <table className="w-full text-sm">
+              <tbody>
+                {[
+                  ['Minimum water needed to breed', 'One teaspoon (about 5 ml) — a bottle cap is enough'],
+                  ['Egg-to-adult time', '7–14 days at 21–27°C; faster in heat'],
+                  ['Eggs per female per batch', '100–200 · multiple batches per season'],
+                  ['Best larvicide for ponds/barrels', 'BTI mosquito dunks (Bacillus thuringiensis israelensis) · safe for fish, pets, humans'],
+                  ['Where to buy BTI in Canada', 'Canadian Tire, Home Depot, Rona, Lowe\'s, Amazon.ca · $10–$20 per 6-pack'],
+                  ['Dunk coverage', '~100 sq ft of water surface for 30 days per dunk'],
+                  ['Chlorinated pool risk', 'No — properly chlorinated pools cannot support larvae'],
+                  ['Pool cover risk', 'High — water pools on covers and breeds mosquitoes; drain weekly'],
+                  ['Mosquito flight range', 'Up to 3 km — your prevention only handles your property'],
+                  ['Source elimination alone', '40–60% reduction (your property)'],
+                  ['Source elimination + barrier spray', '85–95% reduction across full yard'],
+                ].map(([k, v]) => (
+                  <tr key={k} className="border-b border-navy-50 last:border-0">
+                    <td className="px-4 py-2.5 font-semibold text-brand-900 bg-gray-50 w-1/3">{k}</td>
+                    <td className="px-4 py-2.5 text-gray-800">{v}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
         </div>
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
+        <AuthorByline datePublished={POST.date} />
+
         <p className="text-lg text-gray-600 not-prose border-l-4 border-brand-400 pl-5 py-2 mb-8">
           You can eliminate obvious standing water and still have a severe mosquito problem. This guide uncovers the 12 most commonly missed breeding spots in GTA backyards — including several most homeowners never think to check. Part of our <Link href={`/blog/${MOSQUITO_BLOGS.pillar.slug}`} className="text-brand-700 underline">Ultimate Mosquito Control Guide</Link>.
         </p>

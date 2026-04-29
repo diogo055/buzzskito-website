@@ -82,7 +82,7 @@ export default function TickControlPage() {
           <p className="text-xs font-extrabold text-amber-700 uppercase tracking-wider mb-2">Quick Answer</p>
           <h2 id="quick-answer" className="text-xl font-extrabold text-brand-900 mb-3">What is the best tick control for GTA yards in 2026?</h2>
           <p className="text-base text-gray-800 leading-relaxed">
-            <strong>Professional Health Canada-approved barrier spray applied to leaf litter, lawn-to-woods edges, and fence-line vegetation is the most effective tick control method.</strong> Ontario&rsquo;s blacklegged tick (<em>Ixodes scapularis</em>) — the Lyme disease vector — lives in these specific micro-habitats. BuzzSkito&rsquo;s 5-spray season program runs every ~30 days from May through September, targeting nymphs (highest Lyme risk) and adult ticks. Standalone tick plan: <strong>$597/season</strong>. Bundled with mosquito plan: <strong>$497/season (save $100)</strong>. Reduces yard tick populations by 80–95%. Most customers stop finding ticks within 2 weeks of the first treatment.
+            <strong>Professional Health Canada-approved barrier spray applied to leaf litter, lawn-to-woods edges, and fence-line vegetation is the most effective tick control method.</strong> Ontario&rsquo;s blacklegged tick (<em>Ixodes scapularis</em>) — the Lyme disease vector — lives in these specific micro-habitats. BuzzSkito&rsquo;s 5-spray season program runs every ~30 days from May through September, targeting nymphs (highest Lyme risk) and adult ticks. Standalone tick plan: <strong>seasonal pricing on quote</strong>. Bundled with mosquito plan: <strong>seasonal pricing on quote (save $100)</strong>. Reduces yard tick populations by 80–95%. Most customers stop finding ticks within 2 weeks of the first treatment.
           </p>
         </div>
       </section>
@@ -100,8 +100,8 @@ export default function TickControlPage() {
                   ['GTA hotspots', 'Oak Ridges Moraine, Rouge Park, Bronte Creek, Don Valley, Dundas Valley'],
                   ['Season', 'May through September annually'],
                   ['Sprays per season', '5 (every ~30 days)'],
-                  ['Standalone price', '$597/season'],
-                  ['Bundled price', '$497/season with mosquito plan (saves $100)'],
+                  ['Standalone price', 'seasonal pricing on quote'],
+                  ['Bundled price', 'seasonal pricing on quote with mosquito plan (saves $100)'],
                   ['Population reduction', '80–95% within 2 weeks'],
                   ['Re-entry time', '30 minutes after spray dries'],
                   ['Safe for kids/pets', 'Yes, after 30-minute dry time'],

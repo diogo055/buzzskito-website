@@ -18,7 +18,7 @@ const FAQS = [
   },
   {
     question: 'How much does mosquito control cost in Toronto?',
-    answer: 'Single treatments in Toronto range from $99 (BuzzSkito) to $129+ (LawnSavers) per visit. Seasonal programs run from $549 to $2,049 depending on plan tier. Toronto ravine-adjacent properties (Rosedale, Forest Hill, Don Mills, Sunnybrook) typically need the full 5-treatment program for continuous protection.',
+    answer: 'Single treatments in Toronto range from $99 (BuzzSkito) to $129+ (LawnSavers) per visit. Seasonal programs run seasonal programs available on quote to $2,049 depending on plan tier. Toronto ravine-adjacent properties (Rosedale, Forest Hill, Don Mills, Sunnybrook) typically need the full 5-treatment program for continuous protection.',
   },
   {
     question: 'Which Toronto neighbourhoods have the worst mosquito problems?',
@@ -26,7 +26,7 @@ const FAQS = [
   },
   {
     question: 'Does Toronto have a tick problem too?',
-    answer: 'Yes. Toronto Public Health has confirmed established blacklegged tick populations in High Park, the Don Valley ravines, and other green corridors. Properties backing onto any Toronto ravine, conservation area, or wooded park face real Lyme disease risk for kids and pets. BuzzSkito offers tick standalone at $597/season or $497 bundled with mosquito plans (save $100). Recommended for any Toronto property within 800 metres of a ravine or park.',
+    answer: 'Yes. Toronto Public Health has confirmed established blacklegged tick populations in High Park, the Don Valley ravines, and other green corridors. Properties backing onto any Toronto ravine, conservation area, or wooded park face real Lyme disease risk for kids and pets. BuzzSkito offers tick standalone at seasonal pricing on quote or tick add-on bundle available on quotes (save $100). Recommended for any Toronto property within 800 metres of a ravine or park.',
   },
   {
     question: 'Are no-contract Toronto mosquito control plans available?',

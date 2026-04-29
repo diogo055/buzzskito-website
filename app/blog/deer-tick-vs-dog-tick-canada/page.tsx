@@ -160,7 +160,7 @@ export default function DeerTickVsDogTickPage() {
             <li><strong>Discourage rodents</strong> (don&rsquo;t feed wildlife, store firewood off the ground) — mice are immature ticks&rsquo; primary host for both species.</li>
             <li><strong>Daily tick checks</strong> on yourself and dogs after walks in tick habitat. Concentrate on ears, armpits, paws, neck, tail base.</li>
             <li><strong>Vet-prescribed monthly tick preventative for dogs</strong> (Bravecto, NexGard, Simparica, K9 Advantix II) — protects against both species.</li>
-            <li><strong>Professional yard barrier spray.</strong> <Link href="/tick-control">BuzzSkito&rsquo;s 5-spray tick season program</Link> targets both deer ticks and dog ticks at lawn edges, leaf litter, fence lines, and shaded perimeters. 80–95% population reduction. $597 standalone or $497 bundled with mosquito plan.</li>
+            <li><strong>Professional yard barrier spray.</strong> <Link href="/tick-control">BuzzSkito&rsquo;s 5-spray tick season program</Link> targets both deer ticks and dog ticks at lawn edges, leaf litter, fence lines, and shaded perimeters. 80–95% population reduction. $597 standalone or tick add-on bundle available on quote.</li>
           </ol>
 
           <h2>Related Reading</h2>
@@ -174,7 +174,7 @@ export default function DeerTickVsDogTickPage() {
         </div>
       </article>
 
-      <CTASection heading="Stop Both Tick Species Before They Reach Your Family" subtext="One yard barrier spray handles deer ticks AND dog ticks. From $597/season." variant="dark" />
+      <CTASection heading="Stop Both Tick Species Before They Reach Your Family" subtext="One yard barrier spray handles deer ticks AND dog ticks. From seasonal pricing on quote." variant="dark" />
     </>
   )
 }

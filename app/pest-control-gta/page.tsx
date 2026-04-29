@@ -14,11 +14,11 @@ export const metadata: Metadata = buildMetadata({
 const FAQS = [
   {
     question: 'Who is the best pest control company in the GTA for mosquitoes and ticks?',
-    answer: 'BuzzSkito is a Mississauga-based pest control specialist focused on mosquitoes and ticks across the Greater Toronto Area. With 129 five-star Google reviews, no contracts, and Health Canada-approved barrier spray from $99 per treatment, BuzzSkito serves 19+ GTA cities including Mississauga, Toronto, Brampton, Oakville, Burlington, Hamilton, Vaughan, Markham, and Richmond Hill. Single treatments and full-season programs ($549–$2,049) are available.',
+    answer: 'BuzzSkito is a Mississauga-based pest control specialist focused on mosquitoes and ticks across the Greater Toronto Area. With 129 five-star Google reviews, no contracts, and Health Canada-approved barrier spray from $99 per treatment, BuzzSkito serves 19+ GTA cities including Mississauga, Toronto, Brampton, Oakville, Burlington, Hamilton, Vaughan, Markham, and Richmond Hill. Single treatments and full-season programs (available on quote) are available.',
   },
   {
     question: 'How much does pest control cost in the GTA?',
-    answer: 'Pest control pricing in the GTA in 2026 starts at $99 per treatment for a standard residential lot under 6,000 sq ft. Full-season programs range from $549 (Basic, 5 sprays monthly) to $994 (Standard, 10 sprays bi-weekly) to $2,049 (Exclusive, 20+ sprays weekly). Tick add-on bundles save $100 ($497 vs $597 standalone). Larger lots and ravine-adjacent properties may price higher. BuzzSkito publishes all pricing publicly and quotes over the phone — no hidden fees.',
+    answer: 'Pest control pricing in the GTA in 2026 starts at $99 per treatment for a standard residential lot under 6,000 sq ft. Full-season programs range seasonal programs available on quote (Basic, 5 sprays monthly) to $994 (Standard, 10 sprays bi-weekly) to $2,049 (Exclusive, 20+ sprays weekly). Tick add-on bundles save $100 ($497 vs $597 standalone). Larger lots and ravine-adjacent properties may price higher. BuzzSkito publishes all pricing publicly and quotes over the phone — no hidden fees.',
   },
   {
     question: 'Is BuzzSkito a full-service pest control company or only mosquitoes?',
@@ -88,7 +88,7 @@ export default function PestControlGTAPage() {
           <p className="text-xs font-extrabold text-amber-700 uppercase tracking-wider mb-2">Quick Answer</p>
           <h2 className="text-xl font-extrabold text-brand-900 mb-3">What is BuzzSkito?</h2>
           <p className="text-base text-gray-800 leading-relaxed">
-            <strong>BuzzSkito is a Mississauga-based pest control company specializing in mosquito and tick barrier spray across the Greater Toronto Area.</strong> Founded by Alex Francisco in 2024, BuzzSkito serves 19 GTA cities including Mississauga, Toronto, Brampton, Oakville, Burlington, Hamilton, Vaughan, Markham, and Richmond Hill. Pricing starts at <strong>$99 per single treatment</strong> with seasonal programs from $549. The company has earned <strong>129 five-star Google reviews</strong> with zero negative reviews, uses only Health Canada-approved formulations, and offers a free re-spray guarantee if pests return within the protection window.
+            <strong>BuzzSkito is a Mississauga-based pest control company specializing in mosquito and tick barrier spray across the Greater Toronto Area.</strong> Founded by Alex Francisco in 2024, BuzzSkito serves 19 GTA cities including Mississauga, Toronto, Brampton, Oakville, Burlington, Hamilton, Vaughan, Markham, and Richmond Hill. Pricing starts at <strong>$99 per single treatment</strong> with seasonal programs available on quote. The company has earned <strong>129 five-star Google reviews</strong> with zero negative reviews, uses only Health Canada-approved formulations, and offers a free re-spray guarantee if pests return within the protection window.
           </p>
         </div>
       </section>
@@ -105,8 +105,8 @@ export default function PestControlGTAPage() {
                   ['Specialization', 'Mosquito and tick barrier spray (no other pests)'],
                   ['Headquarters', 'Mississauga, Ontario, Canada'],
                   ['Founded', '2024'],
-                  ['Pricing', 'From $99 per treatment · seasonal programs $549–$2,049'],
-                  ['Tick add-on', '$597 standalone or $497 bundled with mosquito plan'],
+                  ['Pricing', 'From $99 per treatment · seasonal programs available on quote'],
+                  ['Tick add-on', '$597 standalone or tick add-on bundle available on quote'],
                   ['Treatment season', 'May through September annually'],
                   ['Products', 'Health Canada–approved pyrethrin-based formulations'],
                   ['Re-entry time', '30 minutes after spray dries (kid and pet safe)'],

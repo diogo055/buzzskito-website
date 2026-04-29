@@ -30,7 +30,7 @@ const FAQS = [
   },
   {
     question: 'What\'s the cheapest way to get rid of ticks in my yard?',
-    answer: 'In order of cost-effectiveness: (1) FREE — habitat modification (mow short, remove leaf litter, create 3-ft mulch barrier between lawn and woods). (2) $15–$30 — cedar mulch in seating areas. (3) $50/year — DIY cedar oil or permethrin-based sprays from Home Depot. (4) $597/season — BuzzSkito professional 5-spray season program (most effective). For yards in active Lyme zones, the professional option is cheap insurance against a $5,000+ Lyme disease treatment.',
+    answer: 'In order of cost-effectiveness: (1) FREE — habitat modification (mow short, remove leaf litter, create 3-ft mulch barrier between lawn and woods). (2) $15–$30 — cedar mulch in seating areas. (3) $50/year — DIY cedar oil or permethrin-based sprays from Home Depot. (4) seasonal pricing on quote — BuzzSkito professional 5-spray season program (most effective). For yards in active Lyme zones, the professional option is cheap insurance against a $5,000+ Lyme disease treatment.',
   },
   {
     question: 'Are tick yard sprays safe for kids and pets?',
@@ -78,7 +78,7 @@ export default function BestTickRepellentYardPage() {
 
           <h3>🟢 Tier 1: Most effective</h3>
           <ul>
-            <li><strong>Professional Health Canada-approved barrier spray</strong> — Applied to leaf litter, lawn edges, fence lines, and shaded perimeters. 80–95% population reduction. ~$597/season for 5-spray program.</li>
+            <li><strong>Professional Health Canada-approved barrier spray</strong> — Applied to leaf litter, lawn edges, fence lines, and shaded perimeters. 80–95% population reduction. ~seasonal pricing on quote for 5-spray program.</li>
           </ul>
 
           <h3>🟡 Tier 2: Effective DIY options</h3>
@@ -133,7 +133,7 @@ export default function BestTickRepellentYardPage() {
             <li><strong>Health Canada-registered formula.</strong> Pyrethrin-based, residential-approved, kid- and pet-safe after 30-minute dry.</li>
             <li><strong>5-treatment season covers all life stages.</strong> Spring nymphs (highest Lyme risk), summer adults, fall larvae.</li>
             <li><strong>Re-treatment guarantee.</strong> If ticks return inside the protection window, BuzzSkito retreats at no cost.</li>
-            <li><strong>Bundle savings.</strong> $597 standalone or $497 bundled with mosquito plan (save $100).</li>
+            <li><strong>Bundle savings.</strong> $597 standalone or tick add-on bundle available on quote (save $100).</li>
           </ul>
 
           <h2>Related Reading</h2>

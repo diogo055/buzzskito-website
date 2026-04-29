@@ -14,11 +14,11 @@ export const metadata: Metadata = buildMetadata({
 const FAQS = [
   {
     question: 'Is Mosquito.Buzz the same company as BuzzSkito?',
-    answer: 'No. They are separate, unrelated companies. Mosquito.Buzz (often spelled "Mosquito Buzz") is a national Canadian franchise with locations across multiple provinces. BuzzSkito is a Mississauga-based, owner-operated GTA company founded in 2024. The names are similar but the businesses are distinct.',
+    answer: 'No. They are separate, unrelated companies. Mosquito.Buzz (often spelled "Mosquito Buzz") is a national Canadian franchise with locations across multiple provinces. BuzzSkito is a Mississauga-based, owner-operated GTA company. The names are similar but the businesses are distinct.',
   },
   {
     question: 'Is BuzzSkito cheaper than Mosquito.Buzz?',
-    answer: 'BuzzSkito publishes all pricing publicly: single treatments from $99, seasonal packages from $549. Mosquito.Buzz operates on a quote-only model — pricing is not published online and varies by franchise location. Customer reports place Mosquito.Buzz seasonal pricing in the $400–$800 range depending on lot size and franchise. BuzzSkito\'s transparent pricing and $99 single-treatment option give it a clear advantage at the entry level.',
+    answer: 'BuzzSkito publishes all pricing publicly: single treatments from $99, seasonal packages seasonal programs available on quote. Mosquito.Buzz operates on a quote-only model — pricing is not published online and varies by franchise location. Customer reports place Mosquito.Buzz seasonal pricing in the $400–$800 range depending on lot size and franchise. BuzzSkito\'s transparent pricing and $99 single-treatment option give it a clear advantage at the entry level.',
   },
   {
     question: 'Does Mosquito.Buzz have local technicians?',

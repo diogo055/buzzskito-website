@@ -18,7 +18,7 @@ const FAQS = [
   },
   {
     question: 'How much does mosquito control cost in Brampton in 2026?',
-    answer: 'Single treatments in Brampton range from $99 (BuzzSkito) to $129+ (LawnSavers) per visit. Seasonal programs range from approximately $450 (Mosquito Man basic) to $549–$2,049 (BuzzSkito tiered plans). Pricing varies by lot size — Brampton properties in Castlemore, Springdale, and Mount Pleasant tend to be larger and may price higher.',
+    answer: 'Single treatments in Brampton range from $99 (BuzzSkito) to $129+ (LawnSavers) per visit. Seasonal programs range from approximately $450 (Mosquito Man basic) to available on quote (BuzzSkito tiered plans). Pricing varies by lot size — Brampton properties in Castlemore, Springdale, and Mount Pleasant tend to be larger and may price higher.',
   },
   {
     question: 'Do Brampton mosquito control companies offer no-contract plans?',
@@ -30,7 +30,7 @@ const FAQS = [
   },
   {
     question: 'Do Brampton mosquito control companies also handle ticks?',
-    answer: 'Most Brampton providers offer tick control as a separate service or add-on. BuzzSkito offers tick control standalone for $597/season (5 sprays) or $497 when bundled with any mosquito plan — saving $100. Tick risk in Brampton is highest near the Etobicoke Creek and Heart Lake green spaces.',
+    answer: 'Most Brampton providers offer tick control as a separate service or add-on. BuzzSkito offers tick control standalone for seasonal pricing on quote (5 sprays) or $497 when bundled with any mosquito plan — saving $100. Tick risk in Brampton is highest near the Etobicoke Creek and Heart Lake green spaces.',
   },
 ]
 
@@ -110,7 +110,7 @@ export default function BestMosquitoControlCompaniesBramptonPage() {
             <li><strong>Pricing:</strong> From $99 per single treatment. Basic season $549 (5 sprays), Standard $994 (10 sprays), Exclusive $2,049 (20+ sprays).</li>
             <li><strong>Reviews:</strong> 129 Google reviews, perfect 5.0-star rating across the GTA.</li>
             <li><strong>Contracts:</strong> No contracts, no cancellation fees. Test a single treatment before committing.</li>
-            <li><strong>Tick add-on:</strong> Standalone tick plan $597 (5 sprays) or $497 bundled with mosquito plan — important for Brampton homes near Heart Lake and the Etobicoke Creek.</li>
+            <li><strong>Tick add-on:</strong> Standalone tick plan $597 (5 sprays) or tick add-on bundle available on quote — important for Brampton homes near Heart Lake and the Etobicoke Creek.</li>
             <li><strong>Local responsiveness:</strong> Mississauga-based with same-week service availability across Brampton.</li>
           </ul>
 

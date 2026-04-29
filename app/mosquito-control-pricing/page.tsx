@@ -7,7 +7,7 @@ import { BUSINESS } from '@/lib/constants'
 export const metadata: Metadata = buildMetadata({
   title: 'Mosquito Control Pricing Ontario 2026 | From $99',
   description:
-    'Mosquito control pricing in Ontario for 2026. BuzzSkito seasonal packages from $549. Single treatments from $99. Transparent pricing, no hidden fees.',
+    'Mosquito control pricing in Ontario for 2026. BuzzSkito seasonal packages seasonal programs available on quote. Single treatments from $99. Transparent pricing, no hidden fees.',
   canonical: '/mosquito-control-pricing',
 })
 
@@ -52,7 +52,7 @@ export default function MosquitoControlPricingPage() {
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-5">Mosquito Control Pricing &mdash; Ontario 2026</h1>
           <p className="text-xl text-brand-100 max-w-2xl mb-8">
-            Transparent pricing. No hidden fees. No contracts. BuzzSkito seasonal packages from $549. Single treatments from $99. Here&rsquo;s exactly what you&rsquo;ll pay.
+            Transparent pricing. No hidden fees. No contracts. BuzzSkito seasonal packages seasonal programs available on quote. Single treatments from $99. Here&rsquo;s exactly what you&rsquo;ll pay.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Link href="/free-yard-assessment" className="inline-block bg-amber-500 hover:bg-amber-400 text-white font-extrabold px-8 py-4 rounded-full text-lg shadow-xl transition-colors text-center">Get a Free Quote</Link>
@@ -329,7 +329,7 @@ export default function MosquitoControlPricingPage() {
         </div>
       </section>
 
-      <CTASection heading="Get Your Free Mosquito Control Quote" subtext="Transparent pricing from $99/treatment. Seasonal packages from $549. No contracts. No hidden fees." />
+      <CTASection heading="Get Your Free Mosquito Control Quote" subtext="Transparent pricing from $99/treatment. Seasonal packages seasonal programs available on quote. No contracts. No hidden fees." />
     </>
   )
 }

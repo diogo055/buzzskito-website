@@ -116,7 +116,7 @@ export default function BramptonMosquitoPage() {
           <p className="text-xs font-extrabold text-amber-700 uppercase tracking-wider mb-2">Quick Answer</p>
           <h2 className="text-xl font-extrabold text-brand-900 mb-3">What is the best mosquito control company in Brampton?</h2>
           <p className="text-base text-gray-800 leading-relaxed">
-            <strong>BuzzSkito provides specialist mosquito barrier spray across all Brampton neighbourhoods — Mount Pleasant, Gore Meadows, Castlemore, Springdale, Bramalea, Creditview, and Fletcher&apos;s Meadow.</strong> Treatments use Health Canada-approved formulations applied to vegetation and shrub interiors where mosquitoes rest. Single treatments start at <strong>$99</strong>, with seasonal programs from $549. With <strong>129 five-star Google reviews</strong>, no contracts, a 30-minute re-entry window, and the <strong>BuzzSkito Bite-Free Guarantee</strong>, Brampton homeowners get reliable barrier spray for stormwater-pond and creek-adjacent properties. Call (289) 216-5030.
+            <strong>BuzzSkito provides specialist mosquito barrier spray across all Brampton neighbourhoods — Mount Pleasant, Gore Meadows, Castlemore, Springdale, Bramalea, Creditview, and Fletcher&apos;s Meadow.</strong> Treatments use Health Canada-approved formulations applied to vegetation and shrub interiors where mosquitoes rest. Single treatments start at <strong>$99</strong>, with seasonal programs available on quote. With <strong>129 five-star Google reviews</strong>, no contracts, a 30-minute re-entry window, and the <strong>BuzzSkito Bite-Free Guarantee</strong>, Brampton homeowners get reliable barrier spray for stormwater-pond and creek-adjacent properties. Call (289) 216-5030.
           </p>
         </div>
       </section>
@@ -131,7 +131,7 @@ export default function BramptonMosquitoPage() {
                 {[
                   ['Service area', 'All Brampton neighbourhoods (Mount Pleasant, Gore Meadows, Castlemore, Springdale, Bramalea, Creditview, Fletcher’s Meadow, Heart Lake, Snelgrove, Sandalwood, Bram West)'],
                   ['Specialization', 'Mosquito barrier spray for residential properties'],
-                  ['Pricing', 'From $99 per treatment · seasonal programs $549–$2,049'],
+                  ['Pricing', 'From $99 per treatment · seasonal programs available on quote'],
                   ['Treatment season', 'May through September (peak: late May–July)'],
                   ['Protection per visit', 'Up to 30 days residual'],
                   ['Re-entry time', '30 minutes after spray dries (kid and pet safe)'],

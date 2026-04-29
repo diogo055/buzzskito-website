@@ -113,7 +113,7 @@ export default function HamiltonTickSprayPage() {
                 {[
                   ['Service area', 'All Hamilton neighbourhoods (Stoney Creek, Dundas, Ancaster, Westdale, Waterdown, Rymal, Downtown Hamilton, Mount Hope, Binbrook, Flamborough)'],
                   ['Specialization', 'Blacklegged tick (Ixodes scapularis) and American dog tick barrier spray'],
-                  ['Pricing', 'From $99 per treatment · seasonal tick program $597 standalone or $497 bundled with mosquito plan'],
+                  ['Pricing', 'From $99 per treatment · seasonal tick program $597 standalone or tick add-on bundle available on quote'],
                   ['Treatment season', 'May through October (peak: late April–June nymph activity, then again Sep–Oct adult activity)'],
                   ['Protection per visit', 'Up to 30 days residual on tick habitat zones'],
                   ['Re-entry time', '30 minutes after spray dries (kid and pet safe)'],

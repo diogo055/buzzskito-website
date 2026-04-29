@@ -173,7 +173,7 @@ export default function AmericanDogTickPage() {
             <li><strong>Discourage rodents</strong> — they&rsquo;re the immature tick&rsquo;s primary host. Don&rsquo;t leave food out, store firewood off the ground.</li>
             <li><strong>Daily tick checks on dogs and yourself</strong> after time in tick habitat.</li>
             <li><strong>Vet-prescribed monthly tick preventative for dogs</strong> (Bravecto, NexGard, Simparica, K9 Advantix II).</li>
-            <li><strong>Professional yard barrier spray.</strong> <Link href="/tick-control">BuzzSkito&rsquo;s 5-spray tick season program</Link> targets ticks at lawn edges, fence lines, and shaded perimeters where they actually live. Reduces yard tick populations by 80–95%, including both American dog ticks and blacklegged ticks. $597 standalone or $497 bundled with mosquito plan.</li>
+            <li><strong>Professional yard barrier spray.</strong> <Link href="/tick-control">BuzzSkito&rsquo;s 5-spray tick season program</Link> targets ticks at lawn edges, fence lines, and shaded perimeters where they actually live. Reduces yard tick populations by 80–95%, including both American dog ticks and blacklegged ticks. $597 standalone or tick add-on bundle available on quote.</li>
           </ol>
 
           <h2>Related Reading</h2>
@@ -187,7 +187,7 @@ export default function AmericanDogTickPage() {
         </div>
       </article>
 
-      <CTASection heading="Stop Finding Dog Ticks (And Deer Ticks) in Your Yard" subtext="Professional barrier spray reduces yard tick populations 80-95%. From $597/season." variant="dark" />
+      <CTASection heading="Stop Finding Dog Ticks (And Deer Ticks) in Your Yard" subtext="Professional barrier spray reduces yard tick populations 80-95%. From seasonal pricing on quote." variant="dark" />
     </>
   )
 }
