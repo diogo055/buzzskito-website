@@ -201,6 +201,9 @@ export default function VaughanTickPage() {
           <h2>Also Providing Mosquito Control in Vaughan</h2>
           <p>Many Vaughan homeowners combine tick and mosquito control in the same visit. See our <Link href="/vaughan-mosquito-control" className="text-brand-700 hover:underline">Vaughan mosquito control service</Link>.</p>
 
+
+          <h2>Compare Vaughan Pest Control Options</h2>
+          <p>Vaughan has confirmed blacklegged tick exposure — see our specialist pest control guide: <Link href="/pest-control-vaughan" className="text-brand-700 hover:underline font-semibold">Pest Control in Vaughan</Link> for why a mosquito and tick specialist delivers better Lyme disease prevention than a general pest company. Compare top mosquito and tick control providers: <Link href="/best-mosquito-control-companies-vaughan" className="text-brand-700 hover:underline font-semibold">Best Mosquito Control Companies in Vaughan 2026</Link>.</p>
           <h2>Related Tick Control Guides</h2>
           <ul>
             <li><Link href={`/blog/${TICK_BLOGS.pillar.slug}`} className="text-brand-700 hover:underline">{TICK_BLOGS.pillar.title}</Link></li>

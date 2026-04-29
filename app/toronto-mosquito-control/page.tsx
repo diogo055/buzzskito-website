@@ -384,6 +384,9 @@ export default function TorontoMosquitoPage() {
           <h3>Can I cancel or change my BuzzSkito Toronto service anytime?</h3>
           <p>Yes — there are no contracts and no cancellation fees. You can book a single treatment, a partial-season program, or a full-season package, and you can pause, change, or cancel between treatments at any time. We bill per visit, not upfront. This is one of the things Toronto homeowners most often mention in their reviews — most competitors require seasonal contracts with cancellation penalties.</p>
 
+
+          <h2>Compare Toronto Pest Control Options</h2>
+          <p>Looking at all your Toronto pest control options? See our specialist guide: <Link href="/pest-control-toronto" className="text-brand-700 hover:underline font-semibold">Pest Control in Toronto</Link> — explains why a mosquito and tick specialist beats a generalist for the two pests that actually drive Toronto backyard misery. Or compare top providers head-to-head: <Link href="/best-mosquito-control-companies-toronto" className="text-brand-700 hover:underline font-semibold">Best Mosquito Control Companies in Toronto 2026</Link>.</p>
           <h2>Related Mosquito Control Guides</h2>
           <ul>
             <li><Link href={`/blog/${MOSQUITO_BLOGS.pillar.slug}`} className="text-brand-700 hover:underline">{MOSQUITO_BLOGS.pillar.title}</Link></li>

@@ -136,6 +136,9 @@ export default function GeorgetownTickPage() {
           <h2>Also Providing Mosquito Control in Georgetown</h2>
           <p>Many Georgetown homeowners combine tick and mosquito control in the same visit. See our <Link href="/georgetown-mosquito-control" className="text-brand-700 hover:underline">Georgetown mosquito control service</Link>.</p>
 
+
+          <h2>Compare Georgetown Pest Control Options</h2>
+          <p>Georgetown has confirmed blacklegged tick exposure — see our specialist pest control guide: <Link href="/pest-control-georgetown" className="text-brand-700 hover:underline font-semibold">Pest Control in Georgetown</Link> for why a mosquito and tick specialist delivers better Lyme disease prevention than a general pest company.</p>
           <h2>Related Tick Control Guides</h2>
           <ul>
             <li><Link href={`/blog/${TICK_BLOGS.pillar.slug}`} className="text-brand-700 hover:underline">{TICK_BLOGS.pillar.title}</Link></li>

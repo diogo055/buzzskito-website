@@ -271,6 +271,9 @@ export default function BramptonTickSprayPage() {
           <h2>Also Providing Mosquito Control in Brampton</h2>
           <p>Bundle tick and mosquito control for complete yard protection. See our <Link href="/brampton-mosquito-control" className="text-brand-700 hover:underline">Brampton mosquito control service</Link>.</p>
 
+
+          <h2>Compare Brampton Pest Control Options</h2>
+          <p>Brampton has confirmed blacklegged tick exposure — see our specialist pest control guide: <Link href="/pest-control-brampton" className="text-brand-700 hover:underline font-semibold">Pest Control in Brampton</Link> for why a mosquito and tick specialist delivers better Lyme disease prevention than a general pest company. Compare top mosquito and tick control providers: <Link href="/best-mosquito-control-companies-brampton" className="text-brand-700 hover:underline font-semibold">Best Mosquito Control Companies in Brampton 2026</Link>.</p>
           <h2>Related Guides</h2>
           <ul>
             <li><Link href={`/blog/${TICK_BLOGS.pillar.slug}`} className="text-brand-700 hover:underline">{TICK_BLOGS.pillar.title}</Link></li>

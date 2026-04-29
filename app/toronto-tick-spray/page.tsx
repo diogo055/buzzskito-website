@@ -311,6 +311,9 @@ export default function TorontoTickSprayPage() {
           <h2>Also Providing Mosquito Control in Toronto</h2>
           <p>Bundle tick and mosquito control for complete yard protection. See our <Link href="/toronto-mosquito-control" className="text-brand-700 hover:underline">Toronto mosquito control service</Link>.</p>
 
+
+          <h2>Compare Toronto Pest Control Options</h2>
+          <p>Toronto has confirmed blacklegged tick exposure — see our specialist pest control guide: <Link href="/pest-control-toronto" className="text-brand-700 hover:underline font-semibold">Pest Control in Toronto</Link> for why a mosquito and tick specialist delivers better Lyme disease prevention than a general pest company. Compare top mosquito and tick control providers: <Link href="/best-mosquito-control-companies-toronto" className="text-brand-700 hover:underline font-semibold">Best Mosquito Control Companies in Toronto 2026</Link>.</p>
           <h2>Related Guides</h2>
           <ul>
             <li><Link href={`/blog/${TICK_BLOGS.pillar.slug}`} className="text-brand-700 hover:underline">{TICK_BLOGS.pillar.title}</Link></li>

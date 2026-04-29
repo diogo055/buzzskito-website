@@ -337,6 +337,9 @@ export default function BramptonMosquitoPage() {
           <p>The same Health Canada-approved formula kills blacklegged ticks on contact, but tick control requires different application zones &mdash; the 1–3 ft transition zone where lawn meets woods. Heart Lake Conservation Area and Humber River tributaries in Brampton are confirmed blacklegged tick habitat. Many Brampton homeowners bundle our Brampton tick spray with mosquito control.</p>
 
           {/* Related Guides */}
+
+          <h2>Compare Brampton Pest Control Options</h2>
+          <p>Looking at all your Brampton pest control options? See our specialist guide: <Link href="/pest-control-brampton" className="text-brand-700 hover:underline font-semibold">Pest Control in Brampton</Link> — explains why a mosquito and tick specialist beats a generalist for the two pests that actually drive Brampton backyard misery. Or compare top providers head-to-head: <Link href="/best-mosquito-control-companies-brampton" className="text-brand-700 hover:underline font-semibold">Best Mosquito Control Companies in Brampton 2026</Link>.</p>
           <h2>Related Guides</h2>
           <ul>
             <li><Link href={`/blog/${MOSQUITO_BLOGS.pillar.slug}`} className="text-brand-700 hover:underline">{MOSQUITO_BLOGS.pillar.title}</Link></li>

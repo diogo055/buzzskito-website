@@ -383,6 +383,9 @@ export default function OakvilleMosquitoPage() {
           <p>Yes &mdash; there are no contracts and no cancellation fees. You can book a single treatment, a partial-season program, or a full-season package, and you can pause, change, or cancel between treatments at any time. We bill per visit, not upfront.</p>
 
           {/* Related Guides */}
+
+          <h2>Compare Oakville Pest Control Options</h2>
+          <p>Looking at all your Oakville pest control options? See our specialist guide: <Link href="/pest-control-oakville" className="text-brand-700 hover:underline font-semibold">Pest Control in Oakville</Link> — explains why a mosquito and tick specialist beats a generalist for the two pests that actually drive Oakville backyard misery. Or compare top providers head-to-head: <Link href="/best-mosquito-control-companies-oakville" className="text-brand-700 hover:underline font-semibold">Best Mosquito Control Companies in Oakville 2026</Link>.</p>
           <h2>Related Guides</h2>
           <ul>
             <li><Link href={`/blog/${MOSQUITO_BLOGS.pillar.slug}`} className="text-brand-700 hover:underline">{MOSQUITO_BLOGS.pillar.title}</Link></li>

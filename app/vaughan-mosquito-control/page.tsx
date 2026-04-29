@@ -250,6 +250,9 @@ export default function VaughanMosquitoPage() {
           <p>The same Health Canada-approved formula kills blacklegged ticks on contact, but tick control requires different application zones &mdash; the 1–3 ft transition zone where lawn meets woods and garden edges. Vaughan tick risk is significant &mdash; Boyd Conservation Area, Kortright Centre, and Humber River corridor are confirmed blacklegged tick habitat. Many Vaughan homeowners bundle our Vaughan tick spray with mosquito control.</p>
 
           {/* Related Guides */}
+
+          <h2>Compare Vaughan Pest Control Options</h2>
+          <p>Looking at all your Vaughan pest control options? See our specialist guide: <Link href="/pest-control-vaughan" className="text-brand-700 hover:underline font-semibold">Pest Control in Vaughan</Link> — explains why a mosquito and tick specialist beats a generalist for the two pests that actually drive Vaughan backyard misery. Or compare top providers head-to-head: <Link href="/best-mosquito-control-companies-vaughan" className="text-brand-700 hover:underline font-semibold">Best Mosquito Control Companies in Vaughan 2026</Link>.</p>
           <h2>Related Guides</h2>
           <ul>
             <li><Link href={`/blog/${MOSQUITO_BLOGS.pillar.slug}`} className="text-brand-700 hover:underline">{MOSQUITO_BLOGS.pillar.title}</Link></li>

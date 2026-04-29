@@ -161,6 +161,9 @@ export default function RichmondHillMosquitoPage() {
           <p>In the GTA, mosquito season typically runs from late April through September. The best time to book your first treatment is early-to-mid May, before populations peak. Starting early establishes a protective barrier before breeding cycles accelerate in June and July. <Link href="/blog/mosquito-season-gta-when-does-it-start" className="text-brand-700 hover:underline">Read our full seasonal timing guide</Link>.</p>
 
 
+
+          <h2>Compare Richmond Hill Pest Control Options</h2>
+          <p>Looking at all your Richmond Hill pest control options? See our specialist guide: <Link href="/pest-control-richmond-hill" className="text-brand-700 hover:underline font-semibold">Pest Control in Richmond Hill</Link> — explains why a mosquito and tick specialist beats a generalist for the two pests that actually drive Richmond Hill backyard misery. Or compare top providers head-to-head: <Link href="/best-mosquito-control-companies-richmond-hill" className="text-brand-700 hover:underline font-semibold">Best Mosquito Control Companies in Richmond Hill 2026</Link>.</p>
           <h2>Related Guides</h2>
           <ul>
             <li><Link href={`/blog/${MOSQUITO_BLOGS.pillar.slug}`} className="text-brand-700 hover:underline">{MOSQUITO_BLOGS.pillar.title}</Link></li>

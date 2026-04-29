@@ -268,6 +268,9 @@ export default function OakvilleTickSprayPage() {
           <h2>Also Providing Mosquito Control in Oakville</h2>
           <p>Bundle tick and mosquito protection for complete seasonal coverage. See our <Link href="/oakville-mosquito-control" className="text-brand-700 hover:underline">Oakville mosquito control service</Link>.</p>
 
+
+          <h2>Compare Oakville Pest Control Options</h2>
+          <p>Oakville has confirmed blacklegged tick exposure — see our specialist pest control guide: <Link href="/pest-control-oakville" className="text-brand-700 hover:underline font-semibold">Pest Control in Oakville</Link> for why a mosquito and tick specialist delivers better Lyme disease prevention than a general pest company. Compare top mosquito and tick control providers: <Link href="/best-mosquito-control-companies-oakville" className="text-brand-700 hover:underline font-semibold">Best Mosquito Control Companies in Oakville 2026</Link>.</p>
           <h2>Related Guides</h2>
           <ul>
             <li><Link href={`/blog/${TICK_BLOGS.pillar.slug}`} className="text-brand-700 hover:underline">{TICK_BLOGS.pillar.title}</Link></li>

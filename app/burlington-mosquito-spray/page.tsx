@@ -297,6 +297,9 @@ export default function BurlingtonMosquitoPage() {
           <p>The same Health Canada-approved formula kills blacklegged ticks on contact, but tick control requires different application zones &mdash; the 1–3 ft transition zone where lawn meets woods and garden bed edges. We offer separate Burlington tick treatment for properties near Bronte Creek, Tyandaga ravines, or the Royal Botanical Gardens &mdash; all confirmed tick habitat. Many Burlington homeowners bundle both.</p>
 
           {/* Related Guides */}
+
+          <h2>Compare Burlington Pest Control Options</h2>
+          <p>Looking at all your Burlington pest control options? See our specialist guide: <Link href="/pest-control-burlington" className="text-brand-700 hover:underline font-semibold">Pest Control in Burlington</Link> — explains why a mosquito and tick specialist beats a generalist for the two pests that actually drive Burlington backyard misery. Or compare top providers head-to-head: <Link href="/best-mosquito-control-companies-burlington" className="text-brand-700 hover:underline font-semibold">Best Mosquito Control Companies in Burlington 2026</Link>.</p>
           <h2>Related Guides</h2>
           <ul>
             <li><Link href={`/blog/${MOSQUITO_BLOGS.pillar.slug}`} className="text-brand-700 hover:underline">{MOSQUITO_BLOGS.pillar.title}</Link></li>

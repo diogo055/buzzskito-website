@@ -136,6 +136,9 @@ export default function HaltonHillsTickPage() {
           <h2>Also Providing Mosquito Control in Halton Hills</h2>
           <p>Many Halton Hills homeowners combine tick and mosquito control in the same visit. See our <Link href="/halton-hills-mosquito-control" className="text-brand-700 hover:underline">Halton Hills mosquito control service</Link>.</p>
 
+
+          <h2>Compare Halton Hills Pest Control Options</h2>
+          <p>Halton Hills has confirmed blacklegged tick exposure — see our specialist pest control guide: <Link href="/pest-control-halton-hills" className="text-brand-700 hover:underline font-semibold">Pest Control in Halton Hills</Link> for why a mosquito and tick specialist delivers better Lyme disease prevention than a general pest company.</p>
           <h2>Related Tick Control Guides</h2>
           <ul>
             <li><Link href={`/blog/${TICK_BLOGS.pillar.slug}`} className="text-brand-700 hover:underline">{TICK_BLOGS.pillar.title}</Link></li>

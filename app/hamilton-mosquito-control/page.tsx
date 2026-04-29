@@ -253,6 +253,9 @@ export default function HamiltonMosquitoPage() {
           <p>The same Health Canada-approved formula kills blacklegged ticks on contact, but tick control requires different application zones &mdash; the 1–3 ft transition zone where lawn meets woods. Hamilton tick risk is significant: Dundas Valley Conservation Area, Bruce Trail corridor, and Royal Botanical Gardens edge are confirmed blacklegged tick habitat. Many Hamilton homeowners bundle our Hamilton tick spray with mosquito control.</p>
 
           {/* Related Guides */}
+
+          <h2>Compare Hamilton Pest Control Options</h2>
+          <p>Looking at all your Hamilton pest control options? See our specialist guide: <Link href="/pest-control-hamilton" className="text-brand-700 hover:underline font-semibold">Pest Control in Hamilton</Link> — explains why a mosquito and tick specialist beats a generalist for the two pests that actually drive Hamilton backyard misery. Or compare top providers head-to-head: <Link href="/best-mosquito-control-companies-hamilton" className="text-brand-700 hover:underline font-semibold">Best Mosquito Control Companies in Hamilton 2026</Link>.</p>
           <h2>Related Guides</h2>
           <ul>
             <li><Link href={`/blog/${MOSQUITO_BLOGS.pillar.slug}`} className="text-brand-700 hover:underline">{MOSQUITO_BLOGS.pillar.title}</Link></li>

@@ -185,6 +185,9 @@ export default function HamiltonTickSprayPage() {
           <h2>Also Providing Mosquito Control in Hamilton</h2>
           <p>Bundle tick and mosquito treatment for complete protection. See our <Link href="/hamilton-mosquito-control" className="text-brand-700 hover:underline">Hamilton mosquito control service</Link>.</p>
 
+
+          <h2>Compare Hamilton Pest Control Options</h2>
+          <p>Hamilton has confirmed blacklegged tick exposure — see our specialist pest control guide: <Link href="/pest-control-hamilton" className="text-brand-700 hover:underline font-semibold">Pest Control in Hamilton</Link> for why a mosquito and tick specialist delivers better Lyme disease prevention than a general pest company. Compare top mosquito and tick control providers: <Link href="/best-mosquito-control-companies-hamilton" className="text-brand-700 hover:underline font-semibold">Best Mosquito Control Companies in Hamilton 2026</Link>.</p>
           <h2>Related Guides</h2>
           <ul>
             <li><Link href={`/blog/${TICK_BLOGS.pillar.slug}`} className="text-brand-700 hover:underline">{TICK_BLOGS.pillar.title}</Link></li>

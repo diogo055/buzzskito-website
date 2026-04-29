@@ -136,6 +136,9 @@ export default function KingCityTickPage() {
           <h2>Also Providing Mosquito Control in King City</h2>
           <p>Many King City homeowners combine tick and mosquito control in the same visit. See our <Link href="/king-city-mosquito-control" className="text-brand-700 hover:underline">King City mosquito control service</Link>.</p>
 
+
+          <h2>Compare King City Pest Control Options</h2>
+          <p>King City has confirmed blacklegged tick exposure — see our specialist pest control guide: <Link href="/pest-control-king-city" className="text-brand-700 hover:underline font-semibold">Pest Control in King City</Link> for why a mosquito and tick specialist delivers better Lyme disease prevention than a general pest company.</p>
           <h2>Related Tick Control Guides</h2>
           <ul>
             <li><Link href={`/blog/${TICK_BLOGS.pillar.slug}`} className="text-brand-700 hover:underline">{TICK_BLOGS.pillar.title}</Link></li>

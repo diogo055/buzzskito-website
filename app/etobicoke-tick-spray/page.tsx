@@ -136,6 +136,9 @@ export default function EtobicokeTickPage() {
           <h2>Also Providing Mosquito Control in Etobicoke</h2>
           <p>Many Etobicoke homeowners combine tick and mosquito control in the same visit. See our <Link href="/etobicoke-mosquito-control" className="text-brand-700 hover:underline">Etobicoke mosquito control service</Link>.</p>
 
+
+          <h2>Compare Etobicoke Pest Control Options</h2>
+          <p>Etobicoke has confirmed blacklegged tick exposure — see our specialist pest control guide: <Link href="/pest-control-etobicoke" className="text-brand-700 hover:underline font-semibold">Pest Control in Etobicoke</Link> for why a mosquito and tick specialist delivers better Lyme disease prevention than a general pest company. Compare top mosquito and tick control providers: <Link href="/best-mosquito-control-companies-etobicoke" className="text-brand-700 hover:underline font-semibold">Best Mosquito Control Companies in Etobicoke 2026</Link>.</p>
           <h2>Related Tick Control Guides</h2>
           <ul>
             <li><Link href={`/blog/${TICK_BLOGS.pillar.slug}`} className="text-brand-700 hover:underline">{TICK_BLOGS.pillar.title}</Link></li>

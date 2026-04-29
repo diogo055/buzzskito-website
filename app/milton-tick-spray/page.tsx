@@ -136,6 +136,9 @@ export default function MiltonTickPage() {
           <h2>Also Providing Mosquito Control in Milton</h2>
           <p>Many Milton homeowners combine tick and mosquito control in the same visit. See our <Link href="/milton-mosquito-control" className="text-brand-700 hover:underline">Milton mosquito control service</Link>.</p>
 
+
+          <h2>Compare Milton Pest Control Options</h2>
+          <p>Milton has confirmed blacklegged tick exposure — see our specialist pest control guide: <Link href="/pest-control-milton" className="text-brand-700 hover:underline font-semibold">Pest Control in Milton</Link> for why a mosquito and tick specialist delivers better Lyme disease prevention than a general pest company.</p>
           <h2>Related Tick Control Guides</h2>
           <ul>
             <li><Link href={`/blog/${TICK_BLOGS.pillar.slug}`} className="text-brand-700 hover:underline">{TICK_BLOGS.pillar.title}</Link></li>
