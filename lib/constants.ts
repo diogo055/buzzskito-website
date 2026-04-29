@@ -31,6 +31,11 @@ export const BUSINESS = {
   facebookUrl: 'https://www.facebook.com/458721543988714',
   gaId: 'G-X7RV1EQWD8',
   fbPixelId: '1084801329974159',
+  // Microsoft Clarity — set this to your Clarity project ID after creating a free account
+  // at https://clarity.microsoft.com (sign in with the same email as GSC). Once you have
+  // a project, paste the ID below (looks like a 10-character string e.g. "abc123def4").
+  // Until you set it, the Clarity script is a no-op (won't load).
+  clarityId: '' as string,
   aggregateRating: {
     ratingValue: '5',
     bestRating: '5',
