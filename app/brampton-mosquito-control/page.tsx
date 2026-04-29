@@ -298,6 +298,45 @@ export default function BramptonMosquitoPage() {
           <h2>Also Providing Tick Control in Brampton</h2>
           <p>Brampton's ravines and wooded corridors are also prime tick habitat. Ask about our <Link href="/brampton-tick-spray" className="text-brand-700 hover:underline">Brampton tick control service</Link> — bundle both for complete seasonal protection.</p>
 
+          <h2>Everything Brampton Homeowners Ask About Mosquito Control</h2>
+
+          <h3>How do Brampton stormwater ponds affect mosquito populations?</h3>
+          <p>Stormwater management ponds &mdash; built into virtually every new Brampton development since the 2000s &mdash; are engineered to hold rainwater for filtration. They also produce thousands of mosquitoes per pond per season. New subdivisions in Mount Pleasant, Springdale, Vales of Castlemore, and Sandalwood have especially high pond density. Properties within 500 metres of a stormwater pond experience consistent pressure. Barrier spray on your property is the most effective response since the pond itself is municipal land.</p>
+
+          <h3>Does Peel Region or the City of Brampton spray for mosquitoes?</h3>
+          <p>No &mdash; neither treats residential properties. Peel Region Public Health does targeted larviciding (treating standing water in storm sewers) for West Nile surveillance, and the City of Brampton maintains catch basins. Neither program treats private yards. Yard-level mosquito control is the homeowner&apos;s responsibility.</p>
+
+          <h3>How much does Brampton mosquito control cost for a typical lot?</h3>
+          <p>For a standard Brampton residential lot under 6,000 sq ft: from $99 per single treatment. Larger Castlemore or Heart Lake estate properties require a custom quote. No contracts &mdash; book one treatment and decide whether to continue.</p>
+
+          <h3>Why are Heart Lake and Castlemore especially affected?</h3>
+          <p>Heart Lake is adjacent to Heart Lake Conservation Area &mdash; 121 hectares of forest, meadow, and Heart Lake itself. The conservation area sustains large mosquito populations that disperse into adjacent neighbourhoods. Castlemore, in northeast Brampton, borders the Humber River tributary system and rural agricultural land that holds standing water through spring. Both communities face combined creek/conservation and tree-canopy mosquito pressure.</p>
+
+          <h3>When should I book my first Brampton mosquito treatment?</h3>
+          <p>Mid-May for most properties. Stormwater pond microhabitats can produce mosquito activity earlier &mdash; sometimes by late April in warm springs. Booking before peak season (late May–July) ensures the barrier is established before mosquito numbers climb.</p>
+
+          <h3>Are there mosquitoes near Etobicoke Creek and Professor&apos;s Lake?</h3>
+          <p>Yes. Etobicoke Creek runs through south Brampton and creates a continuous mosquito breeding corridor. Professor&apos;s Lake (in north Brampton near Bramalea) supports breeding mosquito populations through summer. Properties in Bramalea, Sandringham, and along the Etobicoke Creek experience consistent pressure.</p>
+
+          <h3>Will Brampton mosquito spray harm my vegetable garden?</h3>
+          <p>No &mdash; with buffer zones. We avoid direct application to vegetable garden beds, herb gardens, and edible plants. Properties commonly have substantial vegetable gardens, and our applicators routinely apply barrier spray to surrounding shrubs and fence-line vegetation while leaving the vegetable area untreated. Once the surrounding spray dries, your garden remains harvestable normally.</p>
+
+          <h3>Can mosquitoes breed in my Brampton rain barrel?</h3>
+          <p>Yes &mdash; uncovered rain barrels are one of the most productive backyard breeding sites in Brampton. A single barrel can produce thousands of mosquitoes per week. Solutions: tight-fitting screen on the inlet, BTI mosquito dunks (sold at Canadian Tire and Home Depot &mdash; safe for fish, pets, humans), and emptying every 5–7 days during peak season.</p>
+
+          <h3>Why are mosquitoes worse in some Brampton neighbourhoods than others?</h3>
+          <p>Three factors: (1) stormwater pond proximity &mdash; Mount Pleasant, Springdale, and Vales of Castlemore have especially high pond density; (2) creek and ravine adjacency &mdash; Etobicoke Creek-adjacent and Heart Lake-adjacent properties experience the most pressure; (3) tree canopy density &mdash; mature canopy creates ideal daytime resting habitat in older Brampton neighbourhoods.</p>
+
+          <h3>Can BuzzSkito treat my Brampton backyard before a wedding or party?</h3>
+          <p>Yes &mdash; pre-event treatment is a common booking. We recommend the spray 2–4 days before your event. The barrier becomes fully active over 24 hours and continues for up to 30 days. For backyard weddings or graduations in Castlemore, Mount Pleasant, or Heart Lake, this timing window gives peak protection on event day.</p>
+
+          <h3>What happens if it rains right after my Brampton treatment?</h3>
+          <p>Once dry (about 30 minutes), the formula bonds to leaf surfaces and becomes rain-resistant. If heavy rain falls within one hour of application &mdash; before the product cures &mdash; we return and re-treat at no charge. Part of the BuzzSkito Bite-Free Guarantee.</p>
+
+          <h3>Does mosquito spray work against ticks in Brampton too?</h3>
+          <p>The same Health Canada-approved formula kills blacklegged ticks on contact, but tick control requires different application zones &mdash; the 1–3 ft transition zone where lawn meets woods. Heart Lake Conservation Area and Humber River tributaries in Brampton are confirmed blacklegged tick habitat. Many Brampton homeowners bundle our Brampton tick spray with mosquito control.</p>
+
+          {/* Related Guides */}
           <h2>Related Guides</h2>
           <ul>
             <li><Link href={`/blog/${MOSQUITO_BLOGS.pillar.slug}`} className="text-brand-700 hover:underline">{MOSQUITO_BLOGS.pillar.title}</Link></li>

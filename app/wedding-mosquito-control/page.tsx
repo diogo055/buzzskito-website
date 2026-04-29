@@ -67,7 +67,7 @@ export default function WeddingMosquitoControlPage() {
         <div className="max-w-4xl mx-auto flex flex-wrap justify-center gap-6 text-sm font-medium text-brand-200">
           <span>&#10003; Health Canada&ndash;Approved Formula</span>
           <span>&#10003; Treat 24&ndash;48 Hours Before Your Event</span>
-          <span>&#10003; Rain-Back Guarantee</span>
+          <span>&#10003; Bite-Free Guarantee</span>
           <span>&#10003; Safe for Guests, Kids &amp; Pets</span>
           <span>&#10003; 5-Star Rated &middot; 129 Reviews</span>
         </div>

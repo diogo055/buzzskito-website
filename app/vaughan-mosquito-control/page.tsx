@@ -211,6 +211,45 @@ export default function VaughanMosquitoPage() {
           <p>In the GTA, mosquito season typically runs from late April through September. The best time to book your first treatment is early-to-mid May, before populations peak. Starting early establishes a protective barrier before breeding cycles accelerate in June and July. <Link href="/blog/mosquito-season-gta-when-does-it-start" className="text-brand-700 hover:underline">Read our full seasonal timing guide</Link>.</p>
 
 
+          <h2>Everything Vaughan Homeowners Ask About Mosquito Control</h2>
+
+          <h3>How does the Humber River affect mosquitoes in my Vaughan yard?</h3>
+          <p>The Humber River runs north-south through Vaughan and creates a continuous mosquito breeding corridor through Woodbridge, Kleinburg, and Islington Woods. Standing water in floodplain pools, slow-moving sections, and post-storm pools produces mosquitoes that disperse up to 3 km from emergence sites. Properties in Pine Valley, Sonoma Heights, Vellore Village, and West Woodbridge sit within that radius. Barrier spray treats your property &mdash; it doesn&apos;t fix the river source, but it stops mosquitoes from settling once they arrive.</p>
+
+          <h3>Why is Boyd Conservation Area such a strong mosquito source?</h3>
+          <p>Boyd Conservation Area&apos;s 235 hectares of Humber River floodplain, seasonal ponds, and dense forest understorey create ideal standing-water breeding habitat. Properties bordering Boyd or backing onto Humber River tributaries in Woodbridge and Islington Woods are typically among the first to see mosquitoes in spring and face the highest seasonal pressure. Professional barrier spray treats the vegetation buffer between your property and Boyd.</p>
+
+          <h3>Does York Region or the City of Vaughan spray for mosquitoes?</h3>
+          <p>No &mdash; neither does. York Region Public Health performs targeted larviciding of select catch basins for West Nile surveillance. The City of Vaughan maintains storm infrastructure. Neither program treats private yards. Yard-level mosquito control is the homeowner&apos;s responsibility.</p>
+
+          <h3>How much does Vaughan mosquito control cost for a typical lot?</h3>
+          <p>For a standard Vaughan residential lot under 6,000 sq ft: from $99 per single treatment. Larger Kleinburg, Maple, or estate-area properties require a custom quote based on coverage area. No contracts &mdash; book one treatment and decide whether to continue based on results.</p>
+
+          <h3>Are stormwater ponds in Vellore Village and Patterson a mosquito problem?</h3>
+          <p>Yes. New construction in Vellore Village, Patterson, and Sonoma Heights includes engineered retention ponds that hold water for filtration but also produce thousands of mosquitoes per pond per season. Properties within 500 metres of a stormwater pond experience consistent pressure. Barrier spray on your property is the most effective response since the pond itself is municipal land.</p>
+
+          <h3>When should I book my first Vaughan mosquito treatment?</h3>
+          <p>Mid-May for most properties. Properties adjacent to the Humber River, Boyd Conservation Area, Kortright Centre, or any stormwater pond benefit from an early-May start because populations begin emerging earlier in those microhabitats.</p>
+
+          <h3>Why are Kleinburg and Pine Valley especially affected?</h3>
+          <p>Kleinburg sits in the Humber River valley and is surrounded by conservation lands &mdash; McMichael Canadian Art Collection grounds, Bindertwine Park, and the Humber River corridor. Pine Valley borders Boyd Conservation Area and the Humber. Both communities have mature tree canopy and natural-area exposure that drive intense seasonal mosquito pressure.</p>
+
+          <h3>Will mosquito spray harm fish in the Humber River?</h3>
+          <p>The Health Canada-approved formula is applied to vegetation surfaces &mdash; never to water. Once dried (about 30 minutes), it bonds to leaves and does not leach into waterways. We maintain buffer zones around any riparian areas at your property line.</p>
+
+          <h3>Can mosquitoes breed in my Vaughan rain barrel?</h3>
+          <p>Yes. Uncovered rain barrels are one of the most productive backyard breeding sites in Vaughan. A single barrel can produce thousands of mosquitoes per week. Solutions: tight-fitting screen on the inlet, BTI mosquito dunks (sold at Canadian Tire and Home Depot &mdash; safe for fish, pets, humans), and emptying every 5–7 days during peak season.</p>
+
+          <h3>Can BuzzSkito treat my Vaughan backyard before a wedding or party?</h3>
+          <p>Yes &mdash; pre-event treatment is a common booking. We recommend the spray 2–4 days before your event. The barrier becomes fully active over 24 hours and continues for up to 30 days. For backyard weddings or large gatherings in Kleinburg, Maple, or Vellore Village, this timing window gives peak protection on event day.</p>
+
+          <h3>What happens if it rains right after my Vaughan treatment?</h3>
+          <p>Once dry (about 30 minutes), the formula bonds to leaf surfaces and becomes rain-resistant. If heavy rain falls within one hour of application &mdash; before the product cures &mdash; we return and re-treat at no charge. Part of the BuzzSkito Bite-Free Guarantee.</p>
+
+          <h3>Does mosquito spray work against ticks in Vaughan too?</h3>
+          <p>The same Health Canada-approved formula kills blacklegged ticks on contact, but tick control requires different application zones &mdash; the 1–3 ft transition zone where lawn meets woods and garden edges. Vaughan tick risk is significant &mdash; Boyd Conservation Area, Kortright Centre, and Humber River corridor are confirmed blacklegged tick habitat. Many Vaughan homeowners bundle our Vaughan tick spray with mosquito control.</p>
+
+          {/* Related Guides */}
           <h2>Related Guides</h2>
           <ul>
             <li><Link href={`/blog/${MOSQUITO_BLOGS.pillar.slug}`} className="text-brand-700 hover:underline">{MOSQUITO_BLOGS.pillar.title}</Link></li>

@@ -88,7 +88,7 @@ export default function AboutPage() {
             { icon: '📋', title: 'Ontario Licensed Technicians', desc: 'All technicians licensed under Ontario\'s Pesticides Act. Fully insured with commercial liability coverage.' },
             { icon: '📝', title: 'Written Service Documentation', desc: 'Every visit documented with a written service log delivered by SMS after each treatment.' },
             { icon: '🔄', title: 'Free Re-Spray Guarantee', desc: 'Mosquitoes or ticks return within the protection window? We come back and re-treat at no cost.' },
-            { icon: '🌧️', title: 'Rain-Back Guarantee', desc: 'Significant rain within one hour of application? We return and re-treat for free.' },
+            { icon: '🌧️', title: 'BuzzSkito Bite-Free Guarantee', desc: 'If pests return inside the protection window — or rain disrupts the cure — we re-treat at no charge. Period.' },
             { icon: '⭐', title: '129 Five-Star Google Reviews', desc: 'Publicly verified reviews from GTA homeowners across our service area.' },
           ].map(({ icon, title, desc }) => (
             <div key={title} className="bg-brand-50 rounded-xl p-5 border border-brand-100 flex gap-4">

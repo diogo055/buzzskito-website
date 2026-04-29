@@ -258,6 +258,45 @@ export default function BurlingtonMosquitoPage() {
           <h2>Also Providing Tick Control in Burlington</h2>
           <p>Burlington's wooded greenbelt corridors and Escarpment trails are significant tick habitat. See our <Link href="/burlington-tick-spray" className="text-brand-700 hover:underline">Burlington tick control service</Link>.</p>
 
+          <h2>Everything Burlington Homeowners Ask About Mosquito Control</h2>
+
+          <h3>How does the Niagara Escarpment affect mosquitoes in my Burlington yard?</h3>
+          <p>The Niagara Escarpment rises directly behind Burlington&apos;s northern neighbourhoods (Tyandaga, North Burlington, Aldershot) and creates sheltered microclimates where humidity stays high and mosquito populations persist later into the evening. Combined with Bronte Creek to the west and Lake Ontario to the south, Burlington has mosquito pressure from three directions. Properties closest to the Escarpment face or to Bronte Creek experience the most intense activity.</p>
+
+          <h3>Does Halton Region or the City of Burlington spray for mosquitoes?</h3>
+          <p>No &mdash; not on residential properties. Halton Region Public Health does targeted larviciding of catch basins for West Nile virus monitoring, and the City of Burlington maintains storm infrastructure. Neither program treats private yards. Yard-level mosquito control is the homeowner&apos;s responsibility.</p>
+
+          <h3>How much does Burlington mosquito control cost for a typical lot?</h3>
+          <p>For a standard Burlington residential lot under 6,000 sq ft: from $99 per single treatment. Larger lakefront, Tyandaga, or Aldershot estate properties require a custom quote based on coverage area. No contracts &mdash; book one treatment and decide whether to continue based on results.</p>
+
+          <h3>When should I book my first Burlington mosquito treatment?</h3>
+          <p>Mid-May for most properties. Burlington&apos;s lakefront and Escarpment-edge microclimates can produce mosquito activity slightly earlier than inland Burlington &mdash; sometimes by early May in warm springs. Booking before peak season (late May–July) ensures the barrier is established before mosquito numbers climb.</p>
+
+          <h3>Are there mosquitoes near Burlington Bay and the lakefront?</h3>
+          <p>Yes &mdash; Burlington Bay&apos;s shoreline vegetation and high lakefront humidity support active mosquito populations through the evening. Spencer Smith Park, LaSalle Park, and Aldershot lakeshore properties experience the most lakefront activity. Wind off the lake helps during the day, but calm evenings create heavy feeding windows.</p>
+
+          <h3>How does Bronte Creek affect Burlington west-end mosquitoes?</h3>
+          <p>Bronte Creek forms the western border between Burlington and Oakville and is a continuous mosquito breeding corridor. Burlington properties in the west end (off Walker&apos;s Line, Cumberland Avenue, and along the creek) experience some of the highest mosquito pressure in the city. Barrier spray treats your property &mdash; it doesn&apos;t fix the creek source, but it stops mosquitoes from settling once they arrive.</p>
+
+          <h3>Will Burlington mosquito spray harm my flower garden?</h3>
+          <p>No &mdash; the product is applied to mosquito resting surfaces (undersides of leaves, shrub interiors) rather than flower blooms. We avoid direct application to actively flowering plants and maintain buffer zones around vegetable gardens. Once dried, the residual is bound to leaf surfaces where bees do not typically forage.</p>
+
+          <h3>Why are Tyandaga and North Burlington especially affected?</h3>
+          <p>Tyandaga and North Burlington back onto the Niagara Escarpment, with mature ravines, conservation lands, and the Royal Botanical Gardens nearby. The Escarpment&apos;s sheltered microclimate, dense forest understorey, and abundant standing water in Escarpment seeps create exceptional mosquito breeding and resting habitat that disperses into adjacent residential areas.</p>
+
+          <h3>Can mosquitoes breed in my Burlington pool cover?</h3>
+          <p>Yes &mdash; pool covers that collect rainwater are one of the most overlooked breeding sites. Drain cover puddles weekly during peak season, or treat with BTI mosquito dunks (safe for pets, fish, humans). Active chlorinated pools cannot support mosquito breeding &mdash; the chlorine kills larvae.</p>
+
+          <h3>Can BuzzSkito treat my Burlington backyard before a wedding?</h3>
+          <p>Yes &mdash; pre-event treatment is a common booking. We recommend the spray 2–4 days before your event. The barrier becomes fully active over 24 hours and continues for up to 30 days. For backyard weddings or large gatherings in Roseland, Aldershot, or Tyandaga, this timing window gives peak protection on the event day.</p>
+
+          <h3>What happens if it rains right after my Burlington treatment?</h3>
+          <p>Once dry (about 30 minutes), the formula bonds to leaf surfaces and becomes rain-resistant. If heavy rain falls within one hour of application &mdash; before the product cures &mdash; we return and re-treat at no charge. This rain-back coverage is part of the BuzzSkito Bite-Free Guarantee.</p>
+
+          <h3>Does mosquito spray work against Burlington ticks too?</h3>
+          <p>The same Health Canada-approved formula kills blacklegged ticks on contact, but tick control requires different application zones &mdash; the 1–3 ft transition zone where lawn meets woods and garden bed edges. We offer separate Burlington tick treatment for properties near Bronte Creek, Tyandaga ravines, or the Royal Botanical Gardens &mdash; all confirmed tick habitat. Many Burlington homeowners bundle both.</p>
+
+          {/* Related Guides */}
           <h2>Related Guides</h2>
           <ul>
             <li><Link href={`/blog/${MOSQUITO_BLOGS.pillar.slug}`} className="text-brand-700 hover:underline">{MOSQUITO_BLOGS.pillar.title}</Link></li>

@@ -66,7 +66,7 @@ export default function MosquitoControlPricingPage() {
         <div className="max-w-4xl mx-auto flex flex-wrap justify-center gap-6 text-sm font-medium text-brand-200">
           <span>&#10003; Transparent Pricing &mdash; No Surprises</span>
           <span>&#10003; No Contracts Required</span>
-          <span>&#10003; Rain-Back Guarantee Included</span>
+          <span>&#10003; Bite-Free Guarantee Included</span>
           <span>&#10003; Health Canada&ndash;Approved Formula</span>
           <span>&#10003; 5-Star Rated &middot; 129 Reviews</span>
         </div>

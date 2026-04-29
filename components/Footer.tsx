@@ -109,6 +109,7 @@ export default function Footer() {
             <h3 className="text-white font-bold text-sm uppercase tracking-wider mb-4">Company</h3>
             <ul className="space-y-2 text-sm mb-6">
               <li><Link href="/buzzskito-history" className="hover:text-white transition-colors">About BuzzSkito</Link></li>
+              <li><Link href="/reviews" className="hover:text-white transition-colors">Reviews (129 ★★★★★)</Link></li>
               <li><Link href="/how-it-works" className="hover:text-white transition-colors">How It Works</Link></li>
               <li><Link href="/frequently-asked-question" className="hover:text-white transition-colors">FAQ</Link></li>
               <li><Link href="/mosquito-control-cost" className="hover:text-white transition-colors">2026 Pricing Guide</Link></li>

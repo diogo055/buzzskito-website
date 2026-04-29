@@ -133,6 +133,17 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* QUICK ANSWER — for AI extraction + Google AI Overviews */}
+      <section className="bg-amber-50 border-y-4 border-amber-300 py-8 px-4">
+        <div className="max-w-4xl mx-auto">
+          <p className="text-xs font-extrabold text-amber-700 uppercase tracking-wider mb-2">Quick Answer</p>
+          <h2 className="text-xl font-extrabold text-brand-900 mb-3">What is BuzzSkito?</h2>
+          <p className="text-base text-gray-800 leading-relaxed">
+            <strong>BuzzSkito is a Mississauga-based mosquito and tick control specialist serving 19 cities and 60+ neighbourhoods across the Greater Toronto Area.</strong> Single barrier spray treatments start at <strong>$99</strong>, with seasonal programs available on quote. Treatments use Health Canada-approved formulas, are safe for kids and pets in 30 minutes, and provide up to 30 days of residual protection per visit. With <strong>129 five-star Google reviews</strong> (zero negative), no contracts, and the <strong>BuzzSkito Bite-Free Guarantee</strong> — free re-treatment if pests return inside the protection window — BuzzSkito serves Mississauga, Toronto, Brampton, Oakville, Burlington, Hamilton, Vaughan, Markham, Richmond Hill, Etobicoke, Scarborough, North York, Caledon, Milton, Georgetown, Halton Hills, King City, Woodbridge, and Thornhill. Call (289) 216-5030.
+          </p>
+        </div>
+      </section>
+
       {/* ── Services ────────────────────────────────────────────────────── */}
       <section aria-labelledby="services-heading" className="py-16 px-4 bg-white">
         <div className="max-w-7xl mx-auto">

@@ -344,6 +344,44 @@ export default function OakvilleMosquitoPage() {
           <h2>Also Providing Tick Control in Oakville</h2>
           <p>Bronte Creek and Oakville&apos;s forested ravines are significant blacklegged tick habitat documented by Halton Region Public Health. If your property backs onto any ravine, conservation area, or wooded edge, tick control is an important complement to mosquito spray. See our <Link href="/oakville-tick-spray" className="text-brand-700 hover:underline">Oakville tick control service</Link> — many homeowners bundle both services for complete seasonal yard protection.</p>
 
+          <h2>Everything Oakville Homeowners Ask About Mosquito Control</h2>
+
+          <h3>How does Bronte Creek affect mosquitoes in my Oakville yard?</h3>
+          <p>Bronte Creek runs north-south through Oakville&apos;s west end and creates a continuous mosquito breeding and dispersal corridor from rural Halton through Bronte Creek Provincial Park to Lake Ontario. Properties in Bronte, West Oak Trails, River Oaks, and Glen Abbey sit within 1–2 km of significant Bronte Creek mosquito sources. Even properties further inland experience pressure when wind patterns push populations into central Oakville. Barrier spray treats your specific property &mdash; it doesn&apos;t fix the creek source, but it stops mosquitoes from settling once they arrive.</p>
+
+          <h3>Are Halton Public Health and the Town of Oakville responsible for spraying my yard?</h3>
+          <p>No &mdash; neither Halton Region Public Health nor the Town of Oakville treats private properties. Halton Region performs targeted larviciding (treating standing water in storm sewers and select catch basins) for West Nile virus surveillance, and the Town maintains catch basins. Yard-level mosquito control is the homeowner&apos;s responsibility &mdash; it is not part of any municipal service.</p>
+
+          <h3>How much does mosquito control cost for a typical Oakville lot?</h3>
+          <p>For a standard Oakville residential lot under 6,000 sq ft (typical detached or townhome): from $99 per single treatment. Larger Glen Abbey, Old Oakville, or Bronte estate lots require a custom quote based on coverage area. There are no contract requirements &mdash; book a single treatment and decide whether to continue based on results.</p>
+
+          <h3>When should I book my first Oakville mosquito treatment?</h3>
+          <p>Mid-May for most properties. Oakville mosquitoes begin emerging when daytime temperatures consistently exceed about 10°C &mdash; typically around the May long weekend. Properties adjacent to Bronte Creek, 16 Mile Creek, Lions Valley Park, or any wooded ravine benefit from an early-May start because populations begin emerging earlier in those microhabitats.</p>
+
+          <h3>Will mosquito spray harm fish in Bronte Creek or Lake Ontario?</h3>
+          <p>The Health Canada-approved formula is applied to vegetation surfaces &mdash; never to water. Once dried (about 30 minutes), it bonds to leaves and does not leach into waterways. We maintain buffer zones around shoreline areas and observe label restrictions for water-adjacent applications. Lakefront and creek-adjacent properties in Oakville can be safely treated with appropriate technique.</p>
+
+          <h3>Is mosquito spray safe for my Oakville garden and pollinators?</h3>
+          <p>Yes &mdash; with buffer zones. The product is applied to mosquito resting surfaces (undersides of leaves, shrub interiors) &mdash; not to flower blooms. Once dried, the residual is bound to leaf surfaces where bees do not typically forage. Oakville&apos;s active beekeeper community routinely works alongside professional barrier spray applications without issue. We observe buffer zones around vegetable gardens, sandboxes, and any specific pollinator zones you flag.</p>
+
+          <h3>Are there mosquitoes near Lake Ontario&apos;s Oakville waterfront?</h3>
+          <p>Yes &mdash; and high humidity along the lakefront extends evening mosquito activity later into the night compared to inland properties. Old Oakville, Eastlake, and lakefront Bronte homes experience steady mosquito pressure all summer. Wind off the lake helps during the day, but calm evening conditions create heavy feeding windows.</p>
+
+          <h3>Can mosquitoes breed in my Oakville rain barrel?</h3>
+          <p>Yes &mdash; and rain barrels are one of the most productive backyard breeding sites in Oakville. A single uncovered barrel can produce thousands of mosquitoes per week. Solutions: tight-fitting screen on the inlet, BTI mosquito dunks (sold at Canadian Tire and Home Depot &mdash; safe for fish, pets, and humans), and emptying every 5–7 days during peak season.</p>
+
+          <h3>Why are mosquitoes worse in some Oakville neighbourhoods than others?</h3>
+          <p>Three factors: (1) creek and ravine adjacency &mdash; Bronte, West Oak Trails, and River Oaks ravine-edge properties experience the most pressure; (2) tree canopy density &mdash; mature canopy creates ideal daytime resting habitat, which is why Old Oakville and Eastlake see strong activity; (3) standing water within 3 km &mdash; even non-creek areas like parts of Iroquois Ridge can have local pressure from unmanaged stormwater ponds nearby.</p>
+
+          <h3>Can BuzzSkito treat my Oakville backyard before a wedding or party?</h3>
+          <p>Yes &mdash; pre-event treatment is a common reason Oakville customers call. Book the spray 2–4 days before your event. The barrier becomes fully active over 24 hours and continues for up to 30 days. For backyard weddings or graduations in Glen Abbey, Old Oakville, or River Oaks, this timing window provides peak protection on event day.</p>
+
+          <h3>What happens if it rains after my Oakville treatment?</h3>
+          <p>Once dry (about 30 minutes), the active ingredient bonds to leaf surfaces and becomes rain-resistant. Light rain has minimal effect; heavy storms can reduce residual life slightly. If significant rainfall occurs within one hour of application &mdash; before the product cures &mdash; we return and re-treat at no charge. This is part of the BuzzSkito Bite-Free Guarantee.</p>
+
+          <h3>Can I cancel or change my BuzzSkito Oakville service anytime?</h3>
+          <p>Yes &mdash; there are no contracts and no cancellation fees. You can book a single treatment, a partial-season program, or a full-season package, and you can pause, change, or cancel between treatments at any time. We bill per visit, not upfront.</p>
+
           {/* Related Guides */}
           <h2>Related Guides</h2>
           <ul>

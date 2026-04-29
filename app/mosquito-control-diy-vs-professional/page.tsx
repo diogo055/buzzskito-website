@@ -67,7 +67,7 @@ export default function DIYvsProfessionalPage() {
           <span>&#10003; Health Canada&ndash;Approved Formula</span>
           <span>&#10003; Safe for Kids &amp; Pets (30 min dry)</span>
           <span>&#10003; Up to 30-Day Protection</span>
-          <span>&#10003; Rain-Back Guarantee</span>
+          <span>&#10003; Bite-Free Guarantee</span>
           <span>&#10003; 5-Star Rated &middot; 129 Reviews</span>
         </div>
       </section>

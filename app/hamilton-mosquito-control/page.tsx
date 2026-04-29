@@ -214,6 +214,45 @@ export default function HamiltonMosquitoPage() {
           <h2>Tick Control in Hamilton</h2>
           <p>Hamilton&apos;s Dundas Valley Conservation Area, Escarpment trails, and the Bruce Trail corridor are established blacklegged tick habitat. Many Hamilton homeowners bundle mosquito and tick control in a single visit. See our <Link href={TICK_SLUG} className="text-brand-700 hover:underline">Hamilton tick spray service</Link> for details.</p>
 
+          <h2>Everything Hamilton Homeowners Ask About Mosquito Control</h2>
+
+          <h3>How does Cootes Paradise affect mosquitoes in my Hamilton yard?</h3>
+          <p>Cootes Paradise &mdash; one of the Great Lakes basin&apos;s largest urban wetlands &mdash; sits directly adjacent to Hamilton&apos;s west end residential areas (Westdale, Ainslie Wood, McMaster area). It produces enormous quantities of mosquitoes from May through September. Properties within 2 km of Cootes Paradise face the most intense seasonal pressure in Hamilton. Barrier spray treats your property &mdash; it doesn&apos;t fix the marsh source, but it stops mosquitoes from settling once they arrive.</p>
+
+          <h3>Does Hamilton Public Health or the City spray for mosquitoes?</h3>
+          <p>No &mdash; not on residential properties. Hamilton Public Services performs targeted larviciding of catch basins for West Nile surveillance. The City does not treat private yards. Yard-level mosquito control is the homeowner&apos;s responsibility.</p>
+
+          <h3>How much does Hamilton mosquito control cost for a typical lot?</h3>
+          <p>For a standard Hamilton residential lot under 6,000 sq ft: from $99 per single treatment. Larger Ancaster or Dundas estate properties require a custom quote. No contracts &mdash; book one treatment and decide whether to continue.</p>
+
+          <h3>When does Hamilton mosquito season actually start?</h3>
+          <p>Hamilton mosquitoes typically emerge when daytime temperatures consistently exceed 10°C &mdash; usually late April or early May. The lower city&apos;s urban heat island effect and Lake Ontario thermal moderation often produce activity slightly earlier than inland GTA cities. Peak runs late May through July.</p>
+
+          <h3>Why are Dundas, Ancaster, and Westdale so affected by mosquitoes?</h3>
+          <p>These west Hamilton communities are at the foot of the Niagara Escarpment, immediately adjacent to Cootes Paradise, Spencer Creek (Dundas), and the Bruce Trail corridor. The Escarpment microclimate keeps vegetation moist and humid, creating ideal mosquito resting habitat. Conservation lands and dense forest understorey support sustained mosquito populations across the season.</p>
+
+          <h3>Will mosquito spray harm fish in Cootes Paradise or Spencer Creek?</h3>
+          <p>The Health Canada-approved formula is applied to vegetation on your property &mdash; never to water. Once dried (about 30 minutes), it bonds to leaves and does not leach into waterways. We maintain buffer zones around any riparian areas at your property line.</p>
+
+          <h3>Are there mosquitoes near the Hamilton waterfront and Bayfront Park?</h3>
+          <p>Yes &mdash; Hamilton Harbour shoreline vegetation and high humidity create lakefront mosquito activity that affects east-end properties from Bayfront through Confederation Park. Wind off the lake helps during the day, but calm evenings create heavy feeding windows.</p>
+
+          <h3>Can mosquitoes breed in my Hamilton rain barrel or pool cover?</h3>
+          <p>Yes &mdash; both are common backyard breeding sites. Uncovered rain barrels can produce thousands of mosquitoes per week. Pool covers collecting rainwater are major sources. Solutions: tight-fitting screen on barrel inlets, BTI mosquito dunks for any standing water that can&apos;t be drained, and weekly draining of pool cover puddles during peak season.</p>
+
+          <h3>Why does Stoney Creek see strong mosquito activity?</h3>
+          <p>Stoney Creek&apos;s Red Hill Creek corridor, ravine system, and proximity to Lake Ontario&apos;s south shore create sustained mosquito pressure. Properties along the Red Hill Valley Parkway corridor and lakefront Stoney Creek face the most exposure. Our Stoney Creek mosquito control service serves this area.</p>
+
+          <h3>Can BuzzSkito treat my Hamilton backyard before a wedding or party?</h3>
+          <p>Yes &mdash; pre-event treatment is a common booking. We recommend the spray 2–4 days before your event. The barrier becomes fully active over 24 hours and continues for up to 30 days. For backyard weddings or graduations in Westdale, Dundas, or Ancaster, this timing window gives peak protection on event day.</p>
+
+          <h3>What happens if it rains right after my Hamilton treatment?</h3>
+          <p>Once dry (about 30 minutes), the formula bonds to leaf surfaces and becomes rain-resistant. If heavy rain falls within one hour of application &mdash; before the product cures &mdash; we return and re-treat at no charge. Part of the BuzzSkito Bite-Free Guarantee.</p>
+
+          <h3>Does mosquito spray work against Hamilton ticks too?</h3>
+          <p>The same Health Canada-approved formula kills blacklegged ticks on contact, but tick control requires different application zones &mdash; the 1–3 ft transition zone where lawn meets woods. Hamilton tick risk is significant: Dundas Valley Conservation Area, Bruce Trail corridor, and Royal Botanical Gardens edge are confirmed blacklegged tick habitat. Many Hamilton homeowners bundle our Hamilton tick spray with mosquito control.</p>
+
+          {/* Related Guides */}
           <h2>Related Guides</h2>
           <ul>
             <li><Link href={`/blog/${MOSQUITO_BLOGS.pillar.slug}`} className="text-brand-700 hover:underline">{MOSQUITO_BLOGS.pillar.title}</Link></li>
