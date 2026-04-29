@@ -5,20 +5,20 @@ import { buildMetadata, breadcrumbSchema, faqSchema, speakableSchema } from '@/l
 import { BUSINESS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Best Mosquito Control Mississauga 2026 · Compared',
+  title: 'Best Mosquito Control Mississauga 2026',
   description:
-    'Compare top Mississauga mosquito control companies 2026 — pricing, reviews, contracts. BuzzSkito vs Mosquito Man vs LawnSavers.',
+    'Compare Mississauga mosquito control 2026 — pricing, reviews, contracts. BuzzSkito vs Mosquito Man vs LawnSavers.',
   canonical: '/best-mosquito-control-companies-mississauga',
 })
 
 const FAQS = [
   {
     question: 'Who is the best mosquito control company in Mississauga?',
-    answer: 'BuzzSkito is Mississauga-based and offers the lowest entry price ($99 single treatment) plus 126 perfect five-star reviews. Mosquito Man has the largest review volume (900+) across the GTA but operates on seasonal contracts. LawnSavers is best for homeowners already using their lawn care service. The right choice depends on whether you prioritize price, flexibility, local ownership, or bundled services.',
+    answer: 'BuzzSkito is Mississauga-based and offers the lowest entry price ($99 single treatment) plus 129 perfect five-star reviews. Mosquito Man has the largest review volume (900+) across the GTA but operates on seasonal contracts. LawnSavers is best for homeowners already using their lawn care service. The right choice depends on whether you prioritize price, flexibility, local ownership, or bundled services.',
   },
   {
     question: 'How much does mosquito control cost in Mississauga?',
-    answer: 'Single treatments in Mississauga range from $99 (BuzzSkito) to $129+ (LawnSavers) per visit. Seasonal programs run seasonal programs available on quote (BuzzSkito Basic, 5 sprays) to $2,049 (BuzzSkito Exclusive, 20+ sprays). Mosquito Man seasonal pricing is around $450 but per-treatment rates are not publicly listed. Properties in Lorne Park, Mineola, and lakefront Port Credit estate areas typically price at the upper end due to lot size.',
+    answer: 'Single treatments in Mississauga range from $99 (BuzzSkito) to $129+ (LawnSavers) per visit. Seasonal programs run seasonal programs available on quote (custom-quoted by property size and treatment frequency). Mosquito Man seasonal pricing is quote-based; per-treatment rates are not publicly listed. Properties in Lorne Park, Mineola, and lakefront Port Credit estate areas typically price at the upper end due to lot size.',
   },
   {
     question: 'Which Mississauga neighbourhoods have the worst mosquito pressure?',
@@ -90,8 +90,8 @@ export default function BestMosquitoControlCompaniesMississaugaPage() {
               </thead>
               <tbody>
                 {[
-                  { company: 'BuzzSkito', price: 'From $99', reviews: '126 (5.0★)', contracts: 'No contracts', area: 'All Mississauga (HQ)' },
-                  { company: 'Mosquito Man', price: '~$450 seasonal', reviews: '900+ (4.8★)', contracts: 'Seasonal', area: 'All Mississauga' },
+                  { company: 'BuzzSkito', price: 'From $99', reviews: '129 (5.0★)', contracts: 'No contracts', area: 'All Mississauga (HQ)' },
+                  { company: 'Mosquito Man', price: 'Quote-based', reviews: '900+ (4.8★)', contracts: 'Seasonal', area: 'All Mississauga' },
                   { company: 'Mosquito.Buzz', price: 'Quote-based', reviews: 'Varies', contracts: 'Seasonal', area: 'Franchise' },
                   { company: 'LawnSavers', price: 'From $129', reviews: '500+ combined', contracts: 'Seasonal', area: 'Mississauga' },
                 ].map(({ company, price, reviews, contracts, area }) => (
@@ -111,7 +111,7 @@ export default function BestMosquitoControlCompaniesMississaugaPage() {
           <h2>1. BuzzSkito (Mississauga coverage: full + HQ)</h2>
           <p><strong>BuzzSkito is Mississauga-based.</strong> Our headquarters is in Mississauga, and Mississauga is our home market — same-week service availability across every Mississauga neighbourhood. <Link href="/mississauga-mosquito-control" className="text-brand-700 hover:underline">Full Mississauga service page</Link>.</p>
           <ul>
-            <li><strong>Pricing:</strong> From $99 per single treatment. Basic season $549 (5 sprays), Standard $994 (10 sprays), Exclusive $2,049 (20+ sprays).</li>
+            <li><strong>Pricing:</strong> From $99 per single treatment. Seasonal programs (5, 10, 20+ treatments) custom-quoted on request.</li>
             <li><strong>Reviews:</strong> 129 Google reviews, perfect 5.0-star rating.</li>
             <li><strong>Contracts:</strong> No contracts, no cancellation fees.</li>
             <li><strong>Tick add-on:</strong> Critical for Mississauga properties near Credit River, Rattray Marsh, Erindale Park. $597 standalone or $497 bundled (save $100).</li>

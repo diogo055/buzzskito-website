@@ -7,7 +7,7 @@ import { MOSQUITO_BLOGS, TICK_BLOGS } from '@/lib/constants'
 
 const SLUG = 'mosquito-mistakes-ontario-homeowners-make'
 const DATE = '2026-04-29'
-const TITLE = '12 Mosquito Mistakes Ontario Homeowners Make Every Summer'
+const TITLE = '12 Mosquito Mistakes Ontario Homeowners Make'
 
 const FAQS = [
   { question: `Waiting Until July to Start Treatment`, answer: `Most mosquito control failures start with timing, not product choice. By July, mosquito populations are 5–10× larger than they were in May. Starting treatment in May (when populations are tiny) keeps them tiny all season. Starting in July means playing catch-up against an established population that takes weeks to bring under control.` },
@@ -19,7 +19,7 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: `12 Mosquito Mistakes Ontario Homeowners Make Every Summer`,
+  title: `12 Mosquito Mistakes Ontario Homeowners Make`,
   description: `The 12 most common mosquito-control mistakes Ontario homeowners make — citronella candles, late-season treatment, ignoring rain barrels, and more. Avoid these for a mosquito-free yard.`,
   canonical: `/blog/${SLUG}`,
   type: 'article',

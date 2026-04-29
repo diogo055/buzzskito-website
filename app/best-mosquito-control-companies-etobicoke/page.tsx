@@ -5,7 +5,7 @@ import { buildMetadata, breadcrumbSchema, faqSchema, speakableSchema } from '@/l
 import { BUSINESS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: `Best Mosquito Control Etobicoke 2026 · Compared`,
+  title: `Best Mosquito Control Etobicoke 2026`,
   description: `Compare top mosquito control companies serving Etobicoke 2026 — Mimico, Long Branch, The Kingsway, Humber Valley. Pricing, reviews, contracts. BuzzSkito vs Mosquito Man vs LawnSavers.`,
   canonical: '/best-mosquito-control-companies-etobicoke',
 })

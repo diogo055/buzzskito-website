@@ -7,7 +7,7 @@ import { MOSQUITO_BLOGS, TICK_BLOGS } from '@/lib/constants'
 
 const SLUG = 'how-to-keep-ticks-out-of-yard-ontario'
 const DATE = '2026-04-29'
-const TITLE = 'How to Keep Ticks Out of Your Yard (Ontario 2026 Lyme Disease Guide)'
+const TITLE = 'How to Keep Ticks Out of Your Yard (Ontario)'
 
 const FAQS = [
   { question: `Create a 3-Foot Wood-Chip or Gravel Barrier Between Lawn and Woods`, answer: `The single most effective tick-prevention measure is a physical barrier between maintained lawn and natural vegetation. Wood chips or gravel at least 3 feet wide breaks the humidity gradient ticks need to survive — they dry out crossing the barrier. This is the CDC-recommended "tick zone" defense.` },
@@ -19,7 +19,7 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: `How to Keep Ticks Out of Your Yard (Ontario 2026 Lyme Disease Guide)`,
+  title: `How to Keep Ticks Out of Your Yard (Ontario)`,
   description: `Ontario homeowner's complete guide to keeping ticks out of your yard. 10 proven steps for Lyme disease prevention, with a focus on the GTA's confirmed blacklegged tick zones.`,
   canonical: `/blog/${SLUG}`,
   type: 'article',

@@ -8,8 +8,8 @@ const CITY = 'Vaughan'
 const SLUG = '/pest-control-vaughan'
 
 export const metadata: Metadata = buildMetadata({
-  title: `Pest Control ${CITY} 2026 · Mosquito & Tick Specialists · From $99`,
-  description: `Vaughan pest control specialist focused on mosquitoes and ticks — the two pests that drive backyard misery in the GTA. Health Canada-approved barrier spray from $99, BuzzSkito Bite-Free Guarantee, no contracts. 129 five-star reviews. Call (289) 216-5030.`,
+  title: `${CITY} Pest Control · Mosquito & Tick Specialist`,
+  description: `${CITY} pest control specialist focused on mosquitoes and ticks. From $99/treatment, no contracts, BuzzSkito Bite-Free Guarantee. 129 five-star reviews.`,
   canonical: SLUG,
 })
 

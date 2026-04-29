@@ -5,7 +5,7 @@ import { buildMetadata, breadcrumbSchema, faqSchema, speakableSchema } from '@/l
 import { BUSINESS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Best Mosquito Control Oakville 2026 · Compared',
+  title: 'Best Mosquito Control Oakville 2026',
   description:
     'Compare mosquito control companies in Oakville 2026 — Glen Abbey, Bronte, Old Oakville, Joshua Creek. BuzzSkito vs Mosquito Man vs LawnSavers.',
   canonical: '/best-mosquito-control-companies-oakville',
@@ -18,7 +18,7 @@ const FAQS = [
   },
   {
     question: 'How much does mosquito control cost in Oakville in 2026?',
-    answer: 'Single treatments in Oakville range from $99 (BuzzSkito) to $129+ (LawnSavers) per visit. Seasonal programs run from $450 to $2,049. Old Oakville lakefront estates and large Joshua Creek properties price at the top of the range due to coverage area.',
+    answer: 'Single treatments in Oakville range from $99 (BuzzSkito) to $129+ (LawnSavers) per visit. Seasonal programs are custom-quoted by all major providers based on property size and treatment frequency. Old Oakville lakefront estates and large Joshua Creek properties price at the top of the range due to coverage area.',
   },
   {
     question: 'Which Oakville neighbourhoods have the worst mosquito and tick problems?',
@@ -86,8 +86,8 @@ export default function BestMosquitoControlCompaniesOakvillePage() {
               </thead>
               <tbody>
                 {[
-                  { company: 'BuzzSkito', price: 'From $99', reviews: '126 (5.0★)', contracts: 'No contracts', area: 'All Oakville' },
-                  { company: 'Mosquito Man', price: '~$450 seasonal', reviews: '900+ (4.8★)', contracts: 'Seasonal', area: 'All Oakville' },
+                  { company: 'BuzzSkito', price: 'From $99', reviews: '129 (5.0★)', contracts: 'No contracts', area: 'All Oakville' },
+                  { company: 'Mosquito Man', price: 'Quote-based', reviews: '900+ (4.8★)', contracts: 'Seasonal', area: 'All Oakville' },
                   { company: 'Mosquito.Buzz', price: 'Quote-based', reviews: 'Varies', contracts: 'Seasonal', area: 'Franchise' },
                   { company: 'LawnSavers', price: 'From $129', reviews: '500+ combined', contracts: 'Seasonal', area: 'Oakville' },
                 ].map(({ company, price, reviews, contracts, area }) => (
@@ -107,7 +107,7 @@ export default function BestMosquitoControlCompaniesOakvillePage() {
           <h2>1. BuzzSkito (Oakville coverage: full)</h2>
           <p><Link href="/oakville-mosquito-control" className="text-brand-700 hover:underline">BuzzSkito serves all Oakville</Link> — Glen Abbey, Bronte, Old Oakville, North Oakville, Joshua Creek, River Oaks, West Oak Trails, Falgarwood, Clearview, and Eastlake.</p>
           <ul>
-            <li><strong>Pricing:</strong> From $99 per single treatment. Basic season $549 (5 sprays), Standard $994 (10 sprays), Exclusive $2,049 (20+ sprays).</li>
+            <li><strong>Pricing:</strong> From $99 per single treatment. Seasonal programs (5, 10, 20+ treatments) custom-quoted on request.</li>
             <li><strong>Reviews:</strong> 129 Google reviews, perfect 5.0-star rating.</li>
             <li><strong>Contracts:</strong> No contracts, no cancellation fees.</li>
             <li><strong>Tick add-on:</strong> Critical for Oakville homes near Bronte Creek and Iroquois Shoreline. $597 standalone or tick add-on bundle available on quote.</li>

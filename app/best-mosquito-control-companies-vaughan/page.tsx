@@ -5,7 +5,7 @@ import { buildMetadata, breadcrumbSchema, faqSchema, speakableSchema } from '@/l
 import { BUSINESS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Best Mosquito Control Vaughan 2026 · Compared',
+  title: 'Best Mosquito Control Vaughan 2026',
   description:
     'Compare Vaughan mosquito control 2026 — Woodbridge, Kleinburg, Maple, Thornhill. Pricing, reviews. BuzzSkito vs Mosquito Man vs LawnSavers.',
   canonical: '/best-mosquito-control-companies-vaughan',
@@ -18,7 +18,7 @@ const FAQS = [
   },
   {
     question: 'How much does mosquito control cost in Vaughan in 2026?',
-    answer: 'Single treatments in Vaughan range from $99 (BuzzSkito) to $129+ (LawnSavers) per visit. Seasonal programs run $450–$2,049. Vaughan estate properties in Kleinburg, the Bridle Path-adjacent areas, and large Woodbridge lots tend to price higher due to coverage area.',
+    answer: 'Single treatments in Vaughan range from $99 (BuzzSkito) to $129+ (LawnSavers) per visit. Seasonal programs are custom-quoted by all major providers based on property size and treatment frequency. Vaughan estate properties in Kleinburg, the Bridle Path-adjacent areas, and large Woodbridge lots tend to price higher due to coverage area.',
   },
   {
     question: 'Which Vaughan neighbourhoods need the most mosquito control?',
@@ -86,8 +86,8 @@ export default function BestMosquitoControlCompaniesVaughanPage() {
               </thead>
               <tbody>
                 {[
-                  { company: 'BuzzSkito', price: 'From $99', reviews: '126 (5.0★)', contracts: 'No contracts', area: 'All Vaughan' },
-                  { company: 'Mosquito Man', price: '~$450 seasonal', reviews: '900+ (4.8★)', contracts: 'Seasonal', area: 'All Vaughan' },
+                  { company: 'BuzzSkito', price: 'From $99', reviews: '129 (5.0★)', contracts: 'No contracts', area: 'All Vaughan' },
+                  { company: 'Mosquito Man', price: 'Quote-based', reviews: '900+ (4.8★)', contracts: 'Seasonal', area: 'All Vaughan' },
                   { company: 'Mosquito.Buzz', price: 'Quote-based', reviews: 'Varies', contracts: 'Seasonal', area: 'Franchise' },
                   { company: 'LawnSavers', price: 'From $129', reviews: '500+ combined', contracts: 'Seasonal', area: 'Vaughan' },
                 ].map(({ company, price, reviews, contracts, area }) => (
@@ -107,7 +107,7 @@ export default function BestMosquitoControlCompaniesVaughanPage() {
           <h2>1. BuzzSkito (Vaughan coverage: full)</h2>
           <p><Link href="/vaughan-mosquito-control" className="text-brand-700 hover:underline">BuzzSkito serves all Vaughan</Link> — Woodbridge, Kleinburg, Maple, Thornhill, Concord, Patterson, Vellore Village, Sonoma Heights, and Islington Woods.</p>
           <ul>
-            <li><strong>Pricing:</strong> From $99 per single treatment. Basic season $549 (5 sprays), Standard $994 (10 sprays), Exclusive $2,049 (20+ sprays).</li>
+            <li><strong>Pricing:</strong> From $99 per single treatment. Seasonal programs (5, 10, 20+ treatments) custom-quoted on request.</li>
             <li><strong>Reviews:</strong> 129 Google reviews, perfect 5.0-star rating.</li>
             <li><strong>Contracts:</strong> No contracts, no cancellation fees.</li>
             <li><strong>Tick add-on:</strong> Critical for Vaughan estate properties — $597 standalone or $497 bundled (save $100). Kleinburg and Woodbridge see significant tick pressure.</li>

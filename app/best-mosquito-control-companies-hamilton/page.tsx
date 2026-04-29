@@ -5,7 +5,7 @@ import { buildMetadata, breadcrumbSchema, faqSchema, speakableSchema } from '@/l
 import { BUSINESS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: `Best Mosquito Control Hamilton 2026 · Compared`,
+  title: `Best Mosquito Control Hamilton 2026`,
   description: `Compare top mosquito control companies serving Hamilton 2026 — Stoney Creek, Dundas, Ancaster, Westdale. Pricing, reviews, contracts. BuzzSkito vs Mosquito Man vs LawnSavers.`,
   canonical: '/best-mosquito-control-companies-hamilton',
 })

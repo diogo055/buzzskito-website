@@ -18,7 +18,7 @@ const FAQS = [
   },
   {
     question: 'How much does mosquito control cost in the GTA in 2026?',
-    answer: 'Single treatment pricing in 2026 ranges from $99 (BuzzSkito) to $129+ (LawnSavers) per visit for standard residential lots. Seasonal programs range from approximately $450 (MosquitoMan seasonal) to $549-$2,049 (BuzzSkito seasonal tiers). Exact pricing depends on property size, treatment frequency, and whether tick control is included. Most companies offer free quotes.',
+    answer: 'Single treatment pricing in 2026 ranges from $99 (BuzzSkito) to $129+ (LawnSavers and others) per visit for standard residential lots. Seasonal programs are custom-quoted by all major providers based on property size, treatment frequency, and tick add-on. Most companies offer free quotes.',
   },
   {
     question: 'Do I need a contract for mosquito control in the GTA?',
@@ -92,7 +92,7 @@ export default function BestMosquitoControlCompaniesGTAPage() {
               <tbody>
                 {[
                   { company: 'BuzzSkito', price: 'From $99/treatment', reviews: '129 reviews (5.0 stars)', contracts: 'No contracts', area: 'GTA — 19+ cities' },
-                  { company: 'MosquitoMan', price: '~$450 seasonal', reviews: '900+ reviews (4.8 stars)', contracts: 'Seasonal programs', area: 'GTA & Southern Ontario' },
+                  { company: 'MosquitoMan', price: 'Quote-based', reviews: '900+ reviews (4.8 stars)', contracts: 'Seasonal programs', area: 'GTA & Southern Ontario' },
                   { company: 'Mosquito.Buzz', price: 'Quote-based', reviews: 'Varies by location', contracts: 'Seasonal programs', area: 'National (franchise)' },
                   { company: 'LawnSavers', price: 'From $129/treatment', reviews: '500+ reviews', contracts: 'Seasonal programs', area: 'GTA' },
                   { company: 'Mosquito Hero', price: 'Quote-based', reviews: 'Newer entrant', contracts: 'Varies', area: 'GTA (select areas)' },
@@ -113,7 +113,7 @@ export default function BestMosquitoControlCompaniesGTAPage() {
           <h2>BuzzSkito</h2>
           <p>BuzzSkito is a GTA-based mosquito and tick control company serving 19+ cities across the Greater Toronto Area and York Region. Founded locally, not a franchise.</p>
           <ul>
-            <li><strong>Pricing:</strong> Single treatments from $99. Seasonal packages: Basic ($549 for 5 treatments), Standard ($994 for 10 treatments), Exclusive ($2,049 for 20+ treatments with tick add-on).</li>
+            <li><strong>Pricing:</strong> Single treatments from $99. Seasonal programs (5, 10, 20+ treatment tiers) custom-quoted on request — call (289) 216-5030.</li>
             <li><strong>Reviews:</strong> 129 Google reviews, 5.0-star average.</li>
             <li><strong>Contracts:</strong> No contracts, no cancellation fees. Book single treatments or seasonal programs with full flexibility.</li>
             <li><strong>Treatment:</strong> Health Canada-approved barrier spray applied by licensed technicians. Targets all vegetation, shrub interiors, fence lines, and structural perimeters.</li>

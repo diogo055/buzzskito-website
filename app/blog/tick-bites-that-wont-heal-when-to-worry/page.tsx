@@ -7,7 +7,7 @@ import { MOSQUITO_BLOGS, TICK_BLOGS } from '@/lib/constants'
 
 const SLUG = 'tick-bites-that-wont-heal-when-to-worry'
 const DATE = '2026-04-29'
-const TITLE = 'Tick Bites That Won\'t Heal: When to Worry (Ontario 2026 Guide)'
+const TITLE = 'Tick Bites That Won\'t Heal: When to Worry (Ontario)'
 
 const FAQS = [
   { question: `Bull's-Eye Rash (Erythema Migrans)`, answer: `A red rash with concentric rings — looking like a bull's-eye or target — is the classic early Lyme disease sign. It typically appears 3–30 days after a tick bite, expands over days, and may be warm but usually not painful or itchy. Roughly 70–80% of Lyme cases show this rash; about 20–30% don't, so absence of rash doesn't mean absence of Lyme. See a doctor immediately if you see this pattern.` },
@@ -19,7 +19,7 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: `Tick Bites That Won't Heal: When to Worry (Ontario 2026 Guide)`,
+  title: `Tick Bites That Won't Heal: When to Worry (Ontario)`,
   description: `A tick bite that doesn't heal could signal Lyme disease, alpha-gal syndrome, or secondary infection. Ontario guide to symptoms, when to see a doctor, and what to do next.`,
   canonical: `/blog/${SLUG}`,
   type: 'article',

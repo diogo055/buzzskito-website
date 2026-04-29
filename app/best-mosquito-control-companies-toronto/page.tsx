@@ -5,20 +5,20 @@ import { buildMetadata, breadcrumbSchema, faqSchema, speakableSchema } from '@/l
 import { BUSINESS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Best Mosquito Control Toronto 2026 · Compared',
+  title: 'Best Mosquito Control Toronto 2026',
   description:
-    'Compare top Toronto mosquito control companies 2026 — pricing, reviews, contracts. BuzzSkito vs Mosquito Man vs LawnSavers.',
+    'Compare Toronto mosquito control 2026 — pricing, reviews, contracts. BuzzSkito vs Mosquito Man vs LawnSavers.',
   canonical: '/best-mosquito-control-companies-toronto',
 })
 
 const FAQS = [
   {
     question: 'Who is the best mosquito control company in Toronto?',
-    answer: 'BuzzSkito offers the lowest single-treatment price in Toronto ($99) and 126 perfect five-star reviews — all on a no-contract basis. Mosquito Man has 900+ reviews and longer GTA tenure but operates on seasonal contracts. LawnSavers serves Toronto primarily as a lawn-care add-on. The right pick depends on whether you want pricing flexibility, brand recognition, or bundled lawn service.',
+    answer: 'BuzzSkito offers the lowest single-treatment price in Toronto ($99) and 129 perfect five-star reviews — all on a no-contract basis. Mosquito Man has 900+ reviews and longer GTA tenure but operates on seasonal contracts. LawnSavers serves Toronto primarily as a lawn-care add-on. The right pick depends on whether you want pricing flexibility, brand recognition, or bundled lawn service.',
   },
   {
     question: 'How much does mosquito control cost in Toronto?',
-    answer: 'Single treatments in Toronto range from $99 (BuzzSkito) to $129+ (LawnSavers) per visit. Seasonal programs run seasonal programs available on quote to $2,049 depending on plan tier. Toronto ravine-adjacent properties (Rosedale, Forest Hill, Don Mills, Sunnybrook) typically need the full 5-treatment program for continuous protection.',
+    answer: 'Single treatments in Toronto range from $99 (BuzzSkito) to $129+ (LawnSavers) per visit. Seasonal programs are custom-quoted by all major providers based on property size and treatment frequency. Toronto ravine-adjacent properties (Rosedale, Forest Hill, Don Mills, Sunnybrook) typically need the full 5-treatment program for continuous protection.',
   },
   {
     question: 'Which Toronto neighbourhoods have the worst mosquito problems?',
@@ -90,8 +90,8 @@ export default function BestMosquitoControlCompaniesTorontoPage() {
               </thead>
               <tbody>
                 {[
-                  { company: 'BuzzSkito', price: 'From $99', reviews: '126 (5.0★)', contracts: 'No contracts', area: 'All Toronto' },
-                  { company: 'Mosquito Man', price: '~$450 seasonal', reviews: '900+ (4.8★)', contracts: 'Seasonal', area: 'All Toronto' },
+                  { company: 'BuzzSkito', price: 'From $99', reviews: '129 (5.0★)', contracts: 'No contracts', area: 'All Toronto' },
+                  { company: 'Mosquito Man', price: 'Quote-based', reviews: '900+ (4.8★)', contracts: 'Seasonal', area: 'All Toronto' },
                   { company: 'Mosquito.Buzz', price: 'Quote-based', reviews: 'Varies', contracts: 'Seasonal', area: 'Franchise' },
                   { company: 'LawnSavers', price: 'From $129', reviews: '500+ combined', contracts: 'Seasonal', area: 'Toronto' },
                 ].map(({ company, price, reviews, contracts, area }) => (
@@ -111,7 +111,7 @@ export default function BestMosquitoControlCompaniesTorontoPage() {
           <h2>1. BuzzSkito (Toronto coverage: full)</h2>
           <p><Link href="/toronto-mosquito-control" className="text-brand-700 hover:underline">BuzzSkito serves all of Toronto</Link> — Rosedale, Forest Hill, The Beaches, High Park, Don Mills, Leaside, East York, Etobicoke, North York, Scarborough, Willowdale, Lawrence Park, Sunnybrook, Bridle Path, Casa Loma, and 20+ more neighbourhoods.</p>
           <ul>
-            <li><strong>Pricing:</strong> From $99 per single treatment. Basic season $549 (5 sprays), Standard $994 (10 sprays), Exclusive $2,049 (20+ sprays).</li>
+            <li><strong>Pricing:</strong> From $99 per single treatment. Seasonal programs (5, 10, 20+ treatments) custom-quoted on request.</li>
             <li><strong>Reviews:</strong> 129 Google reviews, perfect 5.0-star rating.</li>
             <li><strong>Contracts:</strong> No contracts, no cancellation fees.</li>
             <li><strong>Tick add-on:</strong> Critical for ravine-adjacent Toronto properties. $597 standalone or $497 bundled. Toronto Public Health has confirmed Lyme-vector blacklegged ticks in High Park, Don Valley, and other ravines.</li>
