@@ -1,22 +1,16 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import { BUSINESS, CITIES, MOSQUITO_BLOGS, TICK_BLOGS } from '@/lib/constants'
-import { localBusinessSchema } from '@/lib/seo'
 
 export default function Footer() {
   const year = new Date().getFullYear()
-  const schema = localBusinessSchema()
 
   const mosquitoCities = CITIES.map((c) => ({ name: c.name, href: c.mosquitoSlug }))
   const tickCities = CITIES.map((c) => ({ name: c.name, href: c.tickSlug }))
 
   return (
     <footer className="bg-brand-950 text-brand-300" role="contentinfo">
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
-      />
-
+      {/* localBusinessSchema is emitted per-page (with city-specific areaServed) — not in Footer to avoid duplicate aggregateRating. */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 py-14">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8">
 

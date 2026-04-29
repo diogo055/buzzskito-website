@@ -3,7 +3,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import CTASection from '@/components/CTASection'
 import BlogCard from '@/components/BlogCard'
-import { buildMetadata, localBusinessSchema, faqSchema, speakableSchema, organizationSchema } from '@/lib/seo'
+import { buildMetadata, localBusinessSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { BUSINESS, CITIES, MOSQUITO_BLOGS, TICK_BLOGS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
@@ -43,10 +43,9 @@ const HOME_FAQS = [
 export default function HomePage() {
   return (
     <>
-      {/* Schemas */}
+      {/* Schemas — organizationSchema + websiteSchema are emitted globally in layout.tsx. */}
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema()) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(HOME_FAQS)) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema()) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema('/')) }} />
 
       {/* ── Hero ────────────────────────────────────────────────────────── */}
