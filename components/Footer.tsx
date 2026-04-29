@@ -104,6 +104,7 @@ export default function Footer() {
             <ul className="space-y-2 text-sm mb-6">
               <li><Link href="/buzzskito-history" className="hover:text-white transition-colors">About BuzzSkito</Link></li>
               <li><Link href="/reviews" className="hover:text-white transition-colors">Reviews (129 ★★★★★)</Link></li>
+              <li><Link href="/buzzskito-2026-gta-mosquito-tick-report" className="hover:text-white transition-colors">2026 GTA Mosquito & Tick Report</Link></li>
               <li><Link href="/how-it-works" className="hover:text-white transition-colors">How It Works</Link></li>
               <li><Link href="/pest-control-gta" className="hover:text-white transition-colors">Pest Control GTA</Link></li>
               <li><Link href="/best-mosquito-control-companies-gta" className="hover:text-white transition-colors">Best Mosquito Companies</Link></li>
