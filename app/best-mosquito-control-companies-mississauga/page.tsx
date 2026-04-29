@@ -7,7 +7,7 @@ import { BUSINESS } from '@/lib/constants'
 export const metadata: Metadata = buildMetadata({
   title: 'Best Mosquito Control Mississauga 2026 · Compared',
   description:
-    'Compare top mosquito control companies serving Mississauga 2026 — Port Credit, Meadowvale, Streetsville, Erin Mills. Pricing, reviews, contracts. BuzzSkito vs Mosquito Man vs LawnSavers.',
+    'Compare top Mississauga mosquito control companies 2026 — pricing, reviews, contracts. BuzzSkito vs Mosquito Man vs LawnSavers.',
   canonical: '/best-mosquito-control-companies-mississauga',
 })
 

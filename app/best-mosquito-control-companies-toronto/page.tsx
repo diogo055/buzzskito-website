@@ -7,7 +7,7 @@ import { BUSINESS } from '@/lib/constants'
 export const metadata: Metadata = buildMetadata({
   title: 'Best Mosquito Control Toronto 2026 · Compared',
   description:
-    'Compare top mosquito control companies in Toronto 2026 — Rosedale, Forest Hill, The Beaches, High Park, Don Mills. Pricing, reviews, contracts. BuzzSkito vs Mosquito Man vs LawnSavers.',
+    'Compare top Toronto mosquito control companies 2026 — pricing, reviews, contracts. BuzzSkito vs Mosquito Man vs LawnSavers.',
   canonical: '/best-mosquito-control-companies-toronto',
 })
 

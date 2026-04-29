@@ -216,6 +216,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'bugs-that-look-like-ticks',
     'do-cedar-trees-attract-mosquitoes',
     'why-mosquitoes-bite-some-people-more',
+    // ── Listicle blogs added Apr 2026 ────────────────────────────
+    'how-to-get-rid-of-mosquitoes-in-yard-ontario',
+    'how-to-keep-ticks-out-of-yard-ontario',
+    'mosquito-mistakes-ontario-homeowners-make',
+    'tick-bites-that-wont-heal-when-to-worry',
   ]
   const registeredSlugs = new Set(allBlogArrays.map(p => p.slug))
   const extraBlogs: MetadataRoute.Sitemap = extraBlogSlugs
