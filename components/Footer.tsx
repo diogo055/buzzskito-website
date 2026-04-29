@@ -139,6 +139,19 @@ export default function Footer() {
           </div>
         </div>
 
+        {/* Trusted Resources — outbound authority citations boost AI Overview eligibility */}
+        <div className="border-t border-brand-900 pt-5 pb-4">
+          <p className="text-xs text-brand-500 text-center mb-2 font-semibold uppercase tracking-wider">Trusted Public Health & Regulatory Resources</p>
+          <div className="flex flex-wrap items-center justify-center gap-x-5 gap-y-2 text-xs text-brand-400">
+            <a href="https://www.canada.ca/en/health-canada/services/consumer-product-safety/pesticides-pest-management.html" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Health Canada — Pesticides &amp; Pest Management</a>
+            <a href="https://pr-rp.hc-sc.gc.ca/ls-re/index-eng.php" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">PCPA Public Registry</a>
+            <a href="https://www.publichealthontario.ca/en/Data-and-Analysis/Infectious-Disease/Lyme-Disease-Active-Tick-Surveillance" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Public Health Ontario — Tick Surveillance</a>
+            <a href="https://www.publichealthontario.ca/en/Diseases-and-Conditions/Infectious-Diseases/Vector-Borne-Zoonotic-Diseases/West-Nile-Virus" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">PHO — West Nile Virus</a>
+            <a href="https://www.cdc.gov/lyme/index.html" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">CDC — Lyme Disease</a>
+            <a href="https://www.etick.ca/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">eTick.ca — Tick Identification</a>
+          </div>
+        </div>
+
         {/* Bottom */}
         <div className="border-t border-brand-900 pt-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-brand-500">
           <p>© {year} {BUSINESS.legalName}. All rights reserved. · Mississauga, ON</p>

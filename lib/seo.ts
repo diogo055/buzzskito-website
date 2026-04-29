@@ -244,12 +244,14 @@ export function blogPostingSchema(opts: {
 
 // speakableSchema — marks key sections for Google AI / voice results.
 // Pass the canonical path of the page (e.g. '/toronto-mosquito-control').
-export function speakableSchema(path: string) {
+// Now includes dateModified for content freshness (2026 AI Overview signal).
+export function speakableSchema(path: string, dateModified?: string) {
   return {
     '@context': 'https://schema.org',
     '@type': 'WebPage',
     '@id': `${SITE_URL}${path}#webpage`,
     url: `${SITE_URL}${path}`,
+    dateModified: dateModified ?? new Date().toISOString().split('T')[0],
     speakable: {
       '@type': 'SpeakableSpecification',
       cssSelector: ['h1', 'h2', 'article p:first-of-type', '.speakable'],
