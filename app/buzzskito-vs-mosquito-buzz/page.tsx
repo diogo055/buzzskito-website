@@ -26,7 +26,7 @@ const FAQS = [
   },
   {
     question: 'Which has better reviews?',
-    answer: 'Reviews vary wildly by Mosquito.Buzz franchise location. Some Ontario franchise locations have strong review records (4.5+ stars across hundreds of reviews); others have notably lower ratings or fewer reviews. BuzzSkito has 126 Google reviews — every one is five stars (perfect 5.0 rating, zero negative reviews). For consistency, BuzzSkito wins.',
+    answer: 'Reviews vary wildly by Mosquito.Buzz franchise location. Some Ontario franchise locations have strong review records (4.5+ stars across hundreds of reviews); others have notably lower ratings or fewer reviews. BuzzSkito has 129 Google reviews — every one is five stars (perfect 5.0 rating, zero negative reviews). For consistency, BuzzSkito wins.',
   },
   {
     question: 'Does Mosquito.Buzz offer no-contract service?',
@@ -106,7 +106,7 @@ export default function BuzzSkitoVsMosquitoBuzzPage() {
             <li><strong>Pricing transparency.</strong> $99 single treatment, all packages published. No "schedule a free consultation to find out the price" gatekeeping.</li>
             <li><strong>Direct accountability.</strong> Alex Francisco answers the phone. No "I&rsquo;ll have your franchisee call you back" runarounds.</li>
             <li><strong>No contracts.</strong> Test with one treatment, decide whether to continue.</li>
-            <li><strong>Perfect review record.</strong> 126 reviews, all five stars, single team — no franchise variance.</li>
+            <li><strong>Perfect review record.</strong> 129 reviews, all five stars, single team — no franchise variance.</li>
             <li><strong>Bundled tick savings.</strong> $100 off when adding tick to a mosquito plan.</li>
           </ul>
 
@@ -164,7 +164,7 @@ export default function BuzzSkitoVsMosquitoBuzzPage() {
         </div>
       </section>
 
-      <CTASection heading="Local. Transparent. No Franchise Variance." subtext="One owner. One team. 126 five-star reviews. Try us with a single $99 treatment." variant="dark" />
+      <CTASection heading="Local. Transparent. No Franchise Variance." subtext="One owner. One team. 129 five-star reviews. Try us with a single $99 treatment." variant="dark" />
     </>
   )
 }

@@ -7,9 +7,9 @@ import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, speakableSch
 import { BUSINESS, CITIES, MOSQUITO_BLOGS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Mosquito Control GTA · From $99 · 126 Reviews',
+  title: 'Mosquito Control GTA · From $99 · 129 Reviews',
   description:
-    'GTA mosquito control · 126 five-star reviews. Health Canada-approved barrier spray from $99, no contracts, free re-spray. 19+ cities served. (289) 216-5030.',
+    'GTA mosquito control · 129 five-star reviews. Health Canada-approved barrier spray from $99, no contracts, free re-spray. 19+ cities served. (289) 216-5030.',
   canonical: '/mosquito-control',
 })
 
@@ -79,7 +79,7 @@ export default function MosquitoControlPage() {
           <p className="text-xs font-extrabold text-amber-700 uppercase tracking-wider mb-2">Quick Answer</p>
           <h2 id="quick-answer" className="text-xl font-extrabold text-brand-900 mb-3">What is the best mosquito control for GTA homes in 2026?</h2>
           <p className="text-base text-gray-800 leading-relaxed">
-            <strong>Professional Health Canada-approved barrier spray is the most effective mosquito control method for residential GTA properties.</strong> BuzzSkito applies a residual barrier to vegetation, shrubs, fence lines, and shaded resting zones — the specific micro-habitats where mosquitoes rest during the day. One treatment provides 21–30 days of protection. Recommended schedule for GTA homes: <strong>10 bi-weekly treatments from May through September ($994 for the Standard plan)</strong>, or single treatments from $99. Free re-spray guarantee if mosquitoes return within the protection window. BuzzSkito serves 19 GTA cities with 126 five-star Google reviews.
+            <strong>Professional Health Canada-approved barrier spray is the most effective mosquito control method for residential GTA properties.</strong> BuzzSkito applies a residual barrier to vegetation, shrubs, fence lines, and shaded resting zones — the specific micro-habitats where mosquitoes rest during the day. One treatment provides 21–30 days of protection. Recommended schedule for GTA homes: <strong>10 bi-weekly treatments from May through September ($994 for the Standard plan)</strong>, or single treatments from $99. Free re-spray guarantee if mosquitoes return within the protection window. BuzzSkito serves 19 GTA cities with 129 five-star Google reviews.
           </p>
         </div>
       </section>

@@ -7,7 +7,7 @@ import { BUSINESS, CITIES } from '@/lib/constants'
 export const metadata: Metadata = buildMetadata({
   title: 'Tick Control Near Me · GTA | 5★ · From $99',
   description:
-    'Tick control near you · 126 five-star GTA reviews. Mississauga, Toronto, Brampton, Oakville + 19 cities. Yard spray from $99. (289) 216-5030.',
+    'Tick control near you · 129 five-star GTA reviews. Mississauga, Toronto, Brampton, Oakville + 19 cities. Yard spray from $99. (289) 216-5030.',
   canonical: '/tick-control-near-me',
 })
 
@@ -76,7 +76,7 @@ export default function TickControlNearMePage() {
           <span>✓ Kills Adults, Nymphs &amp; Larvae</span>
           <span>✓ Up to 30-Day Protection</span>
           <span>✓ Safe for Kids &amp; Pets (30 min)</span>
-          <span>✓ 5-Star Rated · 126 Reviews</span>
+          <span>✓ 5-Star Rated · 129 Reviews</span>
         </div>
       </section>
 

@@ -30,7 +30,7 @@ const FAQS = [
   },
   {
     question: 'Which company has more reviews?',
-    answer: 'LawnSavers has 500+ Google reviews accumulated across all their services (lawn care + mosquito + irrigation). BuzzSkito has 126 reviews — all for mosquito and tick control specifically, with a perfect 5.0 rating. LawnSavers wins on review volume; BuzzSkito wins on rating and specialty-specific feedback.',
+    answer: 'LawnSavers has 500+ Google reviews accumulated across all their services (lawn care + mosquito + irrigation). BuzzSkito has 129 reviews — all for mosquito and tick control specifically, with a perfect 5.0 rating. LawnSavers wins on review volume; BuzzSkito wins on rating and specialty-specific feedback.',
   },
   {
     question: 'Do both companies use Health Canada–approved products?',

@@ -18,7 +18,7 @@ const FAQS = [
   },
   {
     question: 'Does Mosquito Man have more reviews than BuzzSkito?',
-    answer: 'Yes. Mosquito Man has 900+ Google reviews accumulated across multiple GTA cities and many years of operation, with an approximate 4.8-star average. BuzzSkito has 126 Google reviews — all five stars (perfect 5.0 rating). Mosquito Man wins on review volume and tenure; BuzzSkito wins on rating consistency and zero-negative-review record.',
+    answer: 'Yes. Mosquito Man has 900+ Google reviews accumulated across multiple GTA cities and many years of operation, with an approximate 4.8-star average. BuzzSkito has 129 Google reviews — all five stars (perfect 5.0 rating). Mosquito Man wins on review volume and tenure; BuzzSkito wins on rating consistency and zero-negative-review record.',
   },
   {
     question: 'Which company has better service areas in the GTA?',
@@ -100,7 +100,7 @@ export default function BuzzSkitoVsMosquitomanPage() {
           <ul>
             <li><strong>Lower entry price.</strong> $99 single treatment vs Mosquito Man&rsquo;s seasonal-only model.</li>
             <li><strong>No contracts.</strong> Test with one treatment, decide whether to continue.</li>
-            <li><strong>Perfect review record.</strong> 126 reviews, every one is 5 stars. No negative reviews.</li>
+            <li><strong>Perfect review record.</strong> 129 reviews, every one is 5 stars. No negative reviews.</li>
             <li><strong>Bundled tick savings.</strong> $100 off when adding tick to a mosquito plan.</li>
             <li><strong>Same-week availability.</strong> Smaller operation = faster scheduling.</li>
             <li><strong>Local owner-operated.</strong> Alex Francisco still rides along on accounts. Direct accountability.</li>

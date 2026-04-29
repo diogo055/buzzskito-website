@@ -9,7 +9,7 @@
 - **Service area:** 19+ GTA cities (Mississauga, Toronto, Brampton, Oakville, Burlington, Hamilton, Vaughan, Richmond Hill, Markham, Etobicoke, Scarborough, North York, Caledon, Milton, Georgetown, Halton Hills, King City, Woodbridge, Thornhill + 30+ neighbourhoods)
 - **Season:** May–September. Peak: June–July.
 - **Fleet:** 1 van (expanding to 2), 1 technician (expanding to 2)
-- **Google Reviews:** 126 five-star reviews (5.0 average), ZERO bad reviews
+- **Google Reviews:** 129 five-star reviews (5.0 average), ZERO bad reviews
 
 ## Pricing (CRITICAL — get this right)
 - **Single treatment:** From $99 (standard lot under 10K sq ft)

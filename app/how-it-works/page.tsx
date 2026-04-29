@@ -72,7 +72,7 @@ export default function HowItWorksPage() {
           <span>✓ Health Canada–Approved Formula</span>
           <span>✓ Safe for Kids &amp; Pets (30 min dry)</span>
           <span>✓ Up to 30-Day Protection</span>
-          <span>✓ Rain-Back Guarantee</span>
+          <span>✓ Bite-Free Guarantee</span>
           <span>✓ No Home Visit Required</span>
         </div>
       </section>

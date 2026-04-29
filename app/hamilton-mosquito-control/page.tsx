@@ -5,7 +5,7 @@ import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusines
 import { BUSINESS, MOSQUITO_BLOGS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Mosquito Pest Control Hamilton · From $99',
+  title: 'Hamilton Mosquito Control 2026 · From $99 · 129 Five-Star Reviews',
   description:
     'Mosquito control in Hamilton. Professional barrier spray from $99. Serving Ancaster, Dundas, Stoney Creek & all areas. Call (289) 216-5030.',
   canonical: '/hamilton-mosquito-control',
@@ -81,9 +81,12 @@ export default function HamiltonMosquitoPage() {
             <Link href="/mosquito-control" className="hover:text-white">Mosquito Control</Link><span>/</span>
             <span className="text-white">{CITY}</span>
           </nav>
-          <h1 className="text-4xl sm:text-5xl font-extrabold mb-5">Mosquito Control in {CITY}</h1>
+          <h1 className="text-4xl sm:text-5xl font-extrabold mb-5">
+            Hamilton Mosquito Control<br/>
+            <span className="text-amber-400">From $99 · 129 Five-Star Reviews</span>
+          </h1>
           <p className="text-xl text-brand-100 max-w-2xl mb-8">
-            Cootes Paradise, the Dundas Valley, and Hamilton&apos;s extensive creek system create some of Southern Ontario&apos;s most intense mosquito pressure. BuzzSkito delivers professional barrier spray across all Hamilton neighbourhoods — up to 30 days of protection per visit.
+            Hamilton&apos;s specialist barrier spray for Cootes Paradise, Dundas Valley, escarpment, and creek-adjacent properties. Health Canada-approved, safe for kids and pets in 30 minutes, backed by the <strong className="text-amber-400">BuzzSkito Bite-Free Guarantee</strong>.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Link href="/free-yard-assessment" className="inline-block bg-amber-500 hover:bg-amber-400 text-white font-extrabold px-8 py-4 rounded-full text-lg shadow-xl transition-colors text-center">Get a Free Quote</Link>
@@ -98,8 +101,52 @@ export default function HamiltonMosquitoPage() {
           <span>✓ Health Canada–Approved Formula</span>
           <span>✓ Safe for Kids &amp; Pets (30 min dry)</span>
           <span>✓ Up to 30-Day Protection</span>
-          <span>✓ Rain-Back Guarantee</span>
-          <span>✓ 5-Star Rated · 126 Reviews</span>
+          <span>✓ Bite-Free Guarantee</span>
+          <span>✓ 5-Star Rated · 129 Reviews</span>
+        </div>
+      </section>
+
+      {/* QUICK ANSWER */}
+      <section className="bg-amber-50 border-y-4 border-amber-300 py-8 px-4">
+        <div className="max-w-4xl mx-auto">
+          <p className="text-xs font-extrabold text-amber-700 uppercase tracking-wider mb-2">Quick Answer</p>
+          <h2 className="text-xl font-extrabold text-brand-900 mb-3">What is the best mosquito control company in Hamilton?</h2>
+          <p className="text-base text-gray-800 leading-relaxed">
+            <strong>BuzzSkito provides specialist mosquito barrier spray across Hamilton — Stoney Creek, Dundas, Ancaster, Westdale, Waterdown, Rymal, Downtown Hamilton, Mount Hope, and Binbrook.</strong> Treatments use Health Canada-approved formulations applied to vegetation and shrub interiors where mosquitoes rest. Single treatments start at <strong>$99</strong>, with seasonal programs from $549. With <strong>129 five-star Google reviews</strong>, no contracts, a 30-minute re-entry window, and the <strong>BuzzSkito Bite-Free Guarantee</strong>, Hamilton homeowners get reliable barrier spray for escarpment, Cootes Paradise, and Dundas Valley properties. Call (289) 216-5030.
+          </p>
+        </div>
+      </section>
+
+      {/* KEY FACTS */}
+      <section className="py-10 px-4 bg-white">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-xl font-extrabold text-brand-900 mb-4">Hamilton Mosquito Control Key Facts</h2>
+          <div className="rounded-xl border border-navy-100 overflow-hidden">
+            <table className="w-full text-sm">
+              <tbody>
+                {[
+                  ['Service area', 'All Hamilton neighbourhoods (Stoney Creek, Dundas, Ancaster, Westdale, Waterdown, Rymal, Downtown Hamilton, Mount Hope, Binbrook, Flamborough)'],
+                  ['Specialization', 'Mosquito barrier spray for residential properties'],
+                  ['Pricing', 'From $99 per treatment · seasonal programs $549–$2,049'],
+                  ['Treatment season', 'May through September (peak: late May–July)'],
+                  ['Protection per visit', 'Up to 30 days residual'],
+                  ['Re-entry time', '30 minutes after spray dries (kid and pet safe)'],
+                  ['Recommended schedule', '4–5 treatments per season for escarpment- or creek-adjacent properties'],
+                  ['Highest pressure zones', 'Cootes Paradise · Dundas Valley · Red Hill Creek · Niagara Escarpment edge · Bayfront'],
+                  ['Booking lead time', 'Same-week service typical'],
+                  ['Contract required', 'No — single treatments and seasonal programs both available'],
+                  ['Guarantee', 'BuzzSkito Bite-Free Guarantee (free re-treatment in protection window)'],
+                  ['Google reviews', '129 reviews · 5.0 average · 0 negative'],
+                  ['Phone', BUSINESS.phone],
+                ].map(([k, v]) => (
+                  <tr key={k} className="border-b border-navy-50 last:border-0">
+                    <td className="px-4 py-2.5 font-semibold text-brand-900 bg-gray-50 w-1/3">{k}</td>
+                    <td className="px-4 py-2.5 text-gray-800">{v}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
         </div>
       </section>
 
@@ -181,7 +228,7 @@ export default function HamiltonMosquitoPage() {
       <section className="py-14 px-4 bg-white border-t border-gray-100">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-2xl font-extrabold text-brand-900 mb-2 text-center">What Hamilton Homeowners Say</h2>
-          <p className="text-center text-gray-500 text-sm mb-8">From our 126 five-star Google reviews</p>
+          <p className="text-center text-gray-500 text-sm mb-8">From our 129 five-star Google reviews</p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {[
               { author: 'Steve R.', location: 'Westdale', text: 'Living near Cootes Paradise means mosquitoes are a given every summer. BuzzSkito is the first thing that actually made a difference. Professional service, great communication, and our yard is usable again.' },
@@ -201,7 +248,7 @@ export default function HamiltonMosquitoPage() {
             ))}
           </div>
           <div className="text-center mt-6">
-            <a href="https://g.page/r/CYytaw5LxucdEAE/review" target="_blank" rel="noopener noreferrer" className="text-brand-700 font-semibold text-sm hover:underline">Read all 126 reviews on Google &rarr;</a>
+            <a href="https://g.page/r/CYytaw5LxucdEAE/review" target="_blank" rel="noopener noreferrer" className="text-brand-700 font-semibold text-sm hover:underline">Read all 129 reviews on Google &rarr;</a>
           </div>
         </div>
       </section>

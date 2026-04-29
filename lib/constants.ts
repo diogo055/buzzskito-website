@@ -34,7 +34,17 @@ export const BUSINESS = {
   aggregateRating: {
     ratingValue: '5',
     bestRating: '5',
-    ratingCount: '126',
+    ratingCount: '129',
+  },
+  guarantee: {
+    name: 'BuzzSkito Bite-Free Guarantee',
+    short: 'Bite-Free Guarantee',
+    description: 'If pests return inside the protection window, we re-treat at no charge. Period.',
+  },
+  author: {
+    name: 'Alex and The Mosquito Team',
+    role: 'BuzzSkito Mosquito & Tick Control Specialists',
+    url: 'https://buzzskito.ca/buzzskito-history',
   },
 } as const
 

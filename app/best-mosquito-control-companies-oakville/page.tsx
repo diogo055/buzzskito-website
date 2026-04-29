@@ -14,7 +14,7 @@ export const metadata: Metadata = buildMetadata({
 const FAQS = [
   {
     question: 'Who is the best mosquito control company in Oakville?',
-    answer: 'BuzzSkito offers the lowest single-treatment price in Oakville (from $99), no contracts, and a perfect 5.0 rating across 126 Google reviews. Mosquito Man has more cumulative reviews (900+) and a longer GTA track record but operates on seasonal contracts. LawnSavers bundles mosquito with lawn care for existing customers. Best choice depends on your priorities.',
+    answer: 'BuzzSkito offers the lowest single-treatment price in Oakville (from $99), no contracts, and a perfect 5.0 rating across 129 Google reviews. Mosquito Man has more cumulative reviews (900+) and a longer GTA track record but operates on seasonal contracts. LawnSavers bundles mosquito with lawn care for existing customers. Best choice depends on your priorities.',
   },
   {
     question: 'How much does mosquito control cost in Oakville in 2026?',
@@ -108,7 +108,7 @@ export default function BestMosquitoControlCompaniesOakvillePage() {
           <p><Link href="/oakville-mosquito-control" className="text-brand-700 hover:underline">BuzzSkito serves all Oakville</Link> — Glen Abbey, Bronte, Old Oakville, North Oakville, Joshua Creek, River Oaks, West Oak Trails, Falgarwood, Clearview, and Eastlake.</p>
           <ul>
             <li><strong>Pricing:</strong> From $99 per single treatment. Basic season $549 (5 sprays), Standard $994 (10 sprays), Exclusive $2,049 (20+ sprays).</li>
-            <li><strong>Reviews:</strong> 126 Google reviews, perfect 5.0-star rating.</li>
+            <li><strong>Reviews:</strong> 129 Google reviews, perfect 5.0-star rating.</li>
             <li><strong>Contracts:</strong> No contracts, no cancellation fees.</li>
             <li><strong>Tick add-on:</strong> Critical for Oakville homes near Bronte Creek and Iroquois Shoreline. $597 standalone or $497 bundled with mosquito plan.</li>
             <li><strong>Lakefront coverage:</strong> Old Oakville lakefront properties experience high mosquito pressure from Lake Ontario humidity — properly equipped barrier spray handles it.</li>

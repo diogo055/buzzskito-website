@@ -20,7 +20,7 @@ I'd like to request that our company be added to the City of Mississauga Busines
 
 BuzzSkito is a Mississauga-based mosquito and tick control company that provides professional barrier spray treatments for residential properties. We use Health Canada-approved, water-based formulations that are safe for families and pets within 30 minutes of application. Each treatment provides up to 30 days of protection, and we back every service with a 100% satisfaction guarantee.
 
-We currently serve homeowners across Mississauga — from Port Credit and Lakeview to Erin Mills, Meadowvale, and Streetsville — as well as the broader GTA. We've earned a 5.0-star rating across 126 Google reviews from local homeowners since launching.
+We currently serve homeowners across Mississauga — from Port Credit and Lakeview to Erin Mills, Meadowvale, and Streetsville — as well as the broader GTA. We've earned a 5.0-star rating across 129 Google reviews from local homeowners since launching.
 
 Here are our business details for the directory:
 
@@ -53,7 +53,7 @@ I'd like to submit our business for inclusion in the Oakville News business dire
 
 BuzzSkito is a professional mosquito and tick control company that serves Oakville homeowners across Glen Abbey, Bronte, Old Oakville, West Oak Trails, and North Oakville. We specialize in residential barrier spray treatments using Health Canada-approved products — each application provides up to 30 days of protection, dries in 30 minutes, and is completely safe for children, pets, and gardens.
 
-We started because there wasn't really an affordable, no-contract option for outdoor pest control in the Halton area. Most families we work with have yards that back onto ravines, conservation areas, or Bronte Creek — areas where mosquito and tick exposure is a real concern, especially with young kids and dogs. We've grown to 126 five-star Google reviews from GTA homeowners who feel the same way.
+We started because there wasn't really an affordable, no-contract option for outdoor pest control in the Halton area. Most families we work with have yards that back onto ravines, conservation areas, or Bronte Creek — areas where mosquito and tick exposure is a real concern, especially with young kids and dogs. We've grown to 129 five-star Google reviews from GTA homeowners who feel the same way.
 
 Here are our details:
 
@@ -81,7 +81,7 @@ Co-Founder, BuzzSkito
 **Details to enter:**
 - **Business Name:** BuzzSkito
 - **Category:** Pest Control / Home Services
-- **Description:** BuzzSkito provides professional mosquito and tick barrier spray treatments for residential yards across Toronto and the GTA. Our Health Canada-approved, water-based formula dries in 30 minutes and provides up to 30 days of protection per visit. Treatments start at $99 with no contracts required. We serve Toronto neighbourhoods including High Park, The Beaches, East York, Don Mills, Rosedale, Forest Hill, Leaside, Willowdale, and York Mills. 5.0-star rating with 126 Google reviews. 100% satisfaction guarantee — if pests return within the protection window, we re-treat at no cost.
+- **Description:** BuzzSkito provides professional mosquito and tick barrier spray treatments for residential yards across Toronto and the GTA. Our Health Canada-approved, water-based formula dries in 30 minutes and provides up to 30 days of protection per visit. Treatments start at $99 with no contracts required. We serve Toronto neighbourhoods including High Park, The Beaches, East York, Don Mills, Rosedale, Forest Hill, Leaside, Willowdale, and York Mills. 5.0-star rating with 129 Google reviews. 100% satisfaction guarantee — if pests return within the protection window, we re-treat at no cost.
 - **Phone:** (289) 216-5030
 - **Email:** support@buzzskito.ca
 - **Website:** https://buzzskito.ca
@@ -111,7 +111,7 @@ Co-Founder, BuzzSkito
 - **Business Name:** BuzzSkito
 - **Category:** Pest Control / Home Services
 - **Areas Served:** Oakville, Burlington, Mississauga, Toronto
-- **Description:** Professional mosquito and tick barrier spray treatments for residential properties. Health Canada-approved products, safe for families and pets in 30 minutes. From $99/treatment, no contracts. 5.0 stars on Google with 126 reviews.
+- **Description:** Professional mosquito and tick barrier spray treatments for residential properties. Health Canada-approved products, safe for families and pets in 30 minutes. From $99/treatment, no contracts. 5.0 stars on Google with 129 reviews.
 - **Website:** https://buzzskito.ca
 - **Phone:** (289) 216-5030
 
@@ -125,7 +125,7 @@ Co-Founder, BuzzSkito
 - **Business Name:** BuzzSkito
 - **Region:** Oakville / Burlington / Milton / Halton Region
 - **Category:** Pest Control
-- **Description:** BuzzSkito provides residential mosquito and tick barrier spray treatments across the Halton Region — Oakville, Burlington, Milton, and Halton Hills. Health Canada-approved products, up to 30 days of protection per treatment. From $99, no contracts. 5.0 Google rating (126 reviews).
+- **Description:** BuzzSkito provides residential mosquito and tick barrier spray treatments across the Halton Region — Oakville, Burlington, Milton, and Halton Hills. Health Canada-approved products, up to 30 days of protection per treatment. From $99, no contracts. 5.0 Google rating (129 reviews).
 - **Website:** https://buzzskito.ca
 - **Phone:** (289) 216-5030
 
@@ -170,7 +170,7 @@ I'm Diogo Francisco, co-founder of BuzzSkito — a Mississauga-based company tha
 
 We launched BuzzSkito because we noticed there wasn't a dedicated, affordable outdoor pest control option for GTA homeowners. Most pest control companies focus on indoor problems like roaches and rodents, but families in Mississauga — especially those backing onto the Credit River valley, stormwater management areas, and mature tree lots — were dealing with serious mosquito and tick problems every summer with no good solution. We use Health Canada-approved, water-based products that dry in 30 minutes and protect for up to 30 days.
 
-We've grown to 126 five-star Google reviews, serve homeowners across all of Mississauga's communities, and operate on a no-contract, pay-per-treatment model starting at $99.
+We've grown to 129 five-star Google reviews, serve homeowners across all of Mississauga's communities, and operate on a no-contract, pay-per-treatment model starting at $99.
 
 I'd love to learn about your small business membership options. Specifically:
 
@@ -199,7 +199,7 @@ I'm Diogo Francisco, co-founder of BuzzSkito — a mosquito and tick control com
 
 We provide professional barrier spray treatments for yards using Health Canada-approved products. Each treatment provides up to 30 days of protection and is safe for families and pets within 30 minutes. We started because most pest control companies in the GTA don't specialize in outdoor mosquito and tick control — and Brampton neighbourhoods like Castlemore, Heart Lake, and Springdale, which border green spaces and stormwater ponds, have serious seasonal mosquito issues that families shouldn't have to just live with.
 
-We currently have a 5.0-star Google rating with 126 reviews from GTA homeowners, and we operate on a straightforward $99/treatment model with no contracts.
+We currently have a 5.0-star Google rating with 129 reviews from GTA homeowners, and we operate on a straightforward $99/treatment model with no contracts.
 
 I'd like to learn about your small business membership options:
 
@@ -228,7 +228,7 @@ I'm Diogo Francisco, co-founder of BuzzSkito — a professional mosquito and tic
 
 We specialize in residential barrier spray treatments using Health Canada-approved formulations. Many of our Oakville clients have properties near Bronte Creek, Sixteen Mile Creek, or the lake — areas where tick and mosquito exposure is a real concern for families with young children and pets. Our treatments provide up to 30 days of protection, start at $99, and come with no contracts and a 100% satisfaction guarantee.
 
-Since launching, we've earned a 5.0-star rating with 126 Google reviews from local homeowners.
+Since launching, we've earned a 5.0-star rating with 129 Google reviews from local homeowners.
 
 I'd like to learn about your membership options:
 
@@ -361,7 +361,7 @@ I can share specific, local insight on where we see the most tick activity — G
 **"How Halton homeowners can protect their yards and families this summer"**
 A practical guide covering yard management, what Health Canada-approved treatments actually work, and the difference between DIY sprays and professional barrier treatments.
 
-I'm available for a phone interview, email Q&A, or to contribute expert quotes anytime. More about us at buzzskito.ca — 5.0 stars on Google with 126 reviews from GTA homeowners.
+I'm available for a phone interview, email Q&A, or to contribute expert quotes anytime. More about us at buzzskito.ca — 5.0 stars on Google with 129 reviews from GTA homeowners.
 
 Best,
 Diogo Francisco
@@ -384,7 +384,7 @@ I'm Diogo Francisco, co-founder of BuzzSkito — a professional mosquito and tic
 
 We launched BuzzSkito because we saw a gap: homeowners near Bronte Creek, Sixteen Mile Creek, and Oakville's conservation areas were dealing with serious tick and mosquito problems every summer, but the only options were expensive multi-year contracts from big national chains or ineffective DIY sprays from hardware stores. We wanted to offer something better — professional-grade treatments starting at $99, no contracts, 100% satisfaction guarantee.
 
-Since then, we've grown to 126 five-star Google reviews from local GTA homeowners.
+Since then, we've grown to 129 five-star Google reviews from local GTA homeowners.
 
 I'd love to contribute to any seasonal outdoor/pest-related content you're planning. I can provide:
 

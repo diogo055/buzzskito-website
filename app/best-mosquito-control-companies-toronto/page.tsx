@@ -112,7 +112,7 @@ export default function BestMosquitoControlCompaniesTorontoPage() {
           <p><Link href="/toronto-mosquito-control" className="text-brand-700 hover:underline">BuzzSkito serves all of Toronto</Link> — Rosedale, Forest Hill, The Beaches, High Park, Don Mills, Leaside, East York, Etobicoke, North York, Scarborough, Willowdale, Lawrence Park, Sunnybrook, Bridle Path, Casa Loma, and 20+ more neighbourhoods.</p>
           <ul>
             <li><strong>Pricing:</strong> From $99 per single treatment. Basic season $549 (5 sprays), Standard $994 (10 sprays), Exclusive $2,049 (20+ sprays).</li>
-            <li><strong>Reviews:</strong> 126 Google reviews, perfect 5.0-star rating.</li>
+            <li><strong>Reviews:</strong> 129 Google reviews, perfect 5.0-star rating.</li>
             <li><strong>Contracts:</strong> No contracts, no cancellation fees.</li>
             <li><strong>Tick add-on:</strong> Critical for ravine-adjacent Toronto properties. $597 standalone or $497 bundled. Toronto Public Health has confirmed Lyme-vector blacklegged ticks in High Park, Don Valley, and other ravines.</li>
             <li><strong>Same-week service:</strong> Available across all Toronto neighbourhoods.</li>

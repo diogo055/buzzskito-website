@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep -r \"\\\\$[0-9]\" /c/Users/buzzs/buzzskito-website/.claude/worktrees/compassionate-shannon-ced30b/app/mississauga-mosquito-control --include=\"*.tsx\")",
+      "Bash(xargs -I {} find {} -name \"page.tsx\")",
+      "Bash(grep -r \"price.*\\\\$[0-9]\\\\|price:\\\\s*'[0-9]\" /c/Users/buzzs/buzzskito-website/.claude/worktrees/compassionate-shannon-ced30b/app/blog --include=\"*.tsx\")"
+    ]
+  }
+}

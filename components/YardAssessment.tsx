@@ -435,7 +435,7 @@ export default function YardAssessment() {
               { icon: '✓', label: '100% Satisfaction Guarantee' },
               { icon: '🍁', label: 'Health Canada-Approved' },
               { icon: '👶', label: 'Safe for Kids & Pets (30 min)' },
-              { icon: '⭐', label: '5.0 ★★★★★ — 126 Reviews' },
+              { icon: '⭐', label: '5.0 ★★★★★ — 129 Reviews' },
             ].map(({ icon, label }) => (
               <div key={label} className="rounded-xl bg-brand-50 border border-brand-100 p-3 text-center">
                 <span className="text-lg">{icon}</span>

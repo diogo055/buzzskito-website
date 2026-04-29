@@ -14,7 +14,7 @@ export const metadata: Metadata = buildMetadata({
 const FAQS = [
   {
     question: 'Who is the best mosquito control company in Vaughan?',
-    answer: 'BuzzSkito offers the lowest starting price in Vaughan ($99/treatment), no contracts, and a perfect 5.0 rating across 126 Google reviews. Mosquito Man has more cumulative reviews (900+) but operates on seasonal contracts. LawnSavers is best for existing lawn-care customers wanting a bundled add-on. The right choice depends on whether you prioritize price, flexibility, or bundled services.',
+    answer: 'BuzzSkito offers the lowest starting price in Vaughan ($99/treatment), no contracts, and a perfect 5.0 rating across 129 Google reviews. Mosquito Man has more cumulative reviews (900+) but operates on seasonal contracts. LawnSavers is best for existing lawn-care customers wanting a bundled add-on. The right choice depends on whether you prioritize price, flexibility, or bundled services.',
   },
   {
     question: 'How much does mosquito control cost in Vaughan in 2026?',
@@ -108,7 +108,7 @@ export default function BestMosquitoControlCompaniesVaughanPage() {
           <p><Link href="/vaughan-mosquito-control" className="text-brand-700 hover:underline">BuzzSkito serves all Vaughan</Link> — Woodbridge, Kleinburg, Maple, Thornhill, Concord, Patterson, Vellore Village, Sonoma Heights, and Islington Woods.</p>
           <ul>
             <li><strong>Pricing:</strong> From $99 per single treatment. Basic season $549 (5 sprays), Standard $994 (10 sprays), Exclusive $2,049 (20+ sprays).</li>
-            <li><strong>Reviews:</strong> 126 Google reviews, perfect 5.0-star rating.</li>
+            <li><strong>Reviews:</strong> 129 Google reviews, perfect 5.0-star rating.</li>
             <li><strong>Contracts:</strong> No contracts, no cancellation fees.</li>
             <li><strong>Tick add-on:</strong> Critical for Vaughan estate properties — $597 standalone or $497 bundled (save $100). Kleinburg and Woodbridge see significant tick pressure.</li>
             <li><strong>Estate-property friendly:</strong> Pricing scales for large Kleinburg and Maple lots.</li>

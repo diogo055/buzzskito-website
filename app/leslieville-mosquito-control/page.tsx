@@ -73,8 +73,8 @@ export default function LeslievilleMosquitoPage() {
           <span>✓ Health Canada–Approved Formula</span>
           <span>✓ Safe for Kids &amp; Pets (30 min dry)</span>
           <span>✓ Up to 30-Day Protection</span>
-          <span>✓ Rain-Back Guarantee</span>
-          <span>✓ 5-Star Rated · 126 Reviews</span>
+          <span>✓ Bite-Free Guarantee</span>
+          <span>✓ 5-Star Rated · 129 Reviews</span>
         </div>
       </section>
 
@@ -157,7 +157,7 @@ export default function LeslievilleMosquitoPage() {
       <section className="py-12 px-4 bg-white border-t border-gray-100">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-2xl font-extrabold text-brand-900 mb-2 text-center">What GTA Homeowners Say</h2>
-          <p className="text-center text-gray-500 text-sm mb-8">From our 126 five-star Google reviews</p>
+          <p className="text-center text-gray-500 text-sm mb-8">From our 129 five-star Google reviews</p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {[
               { author: 'Sarah M.', text: 'BuzzSkito treated our backyard and we noticed a huge difference immediately. No mosquitoes at our outdoor birthday party! The technician was professional and on time. Highly recommend.' },
@@ -175,7 +175,7 @@ export default function LeslievilleMosquitoPage() {
             ))}
           </div>
           <div className="text-center mt-6">
-            <a href="https://g.page/r/CYytaw5LxucdEAE/review" target="_blank" rel="noopener noreferrer" className="text-brand-700 font-semibold text-sm hover:underline">Read all 126 reviews on Google &rarr;</a>
+            <a href="https://g.page/r/CYytaw5LxucdEAE/review" target="_blank" rel="noopener noreferrer" className="text-brand-700 font-semibold text-sm hover:underline">Read all 129 reviews on Google &rarr;</a>
           </div>
         </div>
       </section>

@@ -137,7 +137,7 @@ export default function MosquitoSprayCompaniesPage() {
           <li>Free re-spray guarantee — if mosquitoes return within the protection window, we come back at no cost</li>
           <li>Rain-back guarantee — significant rain within one hour? We return and re-treat</li>
           <li>Safe for children and pets 30 minutes after application</li>
-          <li>126 five-star Google reviews across the GTA</li>
+          <li>129 five-star Google reviews across the GTA</li>
           <li>Serving 19 cities — Mississauga, Toronto, Brampton, Oakville, Burlington, Hamilton, Vaughan, and more</li>
         </ul>
 
@@ -170,7 +170,7 @@ export default function MosquitoSprayCompaniesPage() {
         </div>
       </section>
 
-      <CTASection heading="Get a Quote from a GTA Mosquito Spray Company You Can Trust" subtext="Health Canada–approved formula. Free re-spray guarantee. 126 five-star reviews." />
+      <CTASection heading="Get a Quote from a GTA Mosquito Spray Company You Can Trust" subtext="Health Canada–approved formula. Free re-spray guarantee. 129 five-star reviews." />
     </>
   )
 }

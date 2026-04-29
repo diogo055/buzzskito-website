@@ -14,7 +14,7 @@ export const metadata: Metadata = buildMetadata({
 const FAQS = [
   {
     question: 'Who is the best mosquito control company in Brampton?',
-    answer: 'It depends on what matters most. BuzzSkito is the lowest-priced option in Brampton (from $99/treatment), with no contracts and 126 five-star Google reviews. Mosquito Man has the largest review volume (900+) and a longer track record. LawnSavers bundles mosquito control with lawn care for existing customers. Each has different strengths in pricing, flexibility, and bundled services.',
+    answer: 'It depends on what matters most. BuzzSkito is the lowest-priced option in Brampton (from $99/treatment), with no contracts and 129 five-star Google reviews. Mosquito Man has the largest review volume (900+) and a longer track record. LawnSavers bundles mosquito control with lawn care for existing customers. Each has different strengths in pricing, flexibility, and bundled services.',
   },
   {
     question: 'How much does mosquito control cost in Brampton in 2026?',
@@ -108,7 +108,7 @@ export default function BestMosquitoControlCompaniesBramptonPage() {
           <p><Link href="/brampton-mosquito-control" className="text-brand-700 hover:underline">BuzzSkito serves all Brampton neighbourhoods</Link> including Castlemore, Heart Lake, Springdale, Mount Pleasant, Bramalea, Bram West, Sandalwood, Snelgrove, and Fletcher's Meadow.</p>
           <ul>
             <li><strong>Pricing:</strong> From $99 per single treatment. Basic season $549 (5 sprays), Standard $994 (10 sprays), Exclusive $2,049 (20+ sprays).</li>
-            <li><strong>Reviews:</strong> 126 Google reviews, perfect 5.0-star rating across the GTA.</li>
+            <li><strong>Reviews:</strong> 129 Google reviews, perfect 5.0-star rating across the GTA.</li>
             <li><strong>Contracts:</strong> No contracts, no cancellation fees. Test a single treatment before committing.</li>
             <li><strong>Tick add-on:</strong> Standalone tick plan $597 (5 sprays) or $497 bundled with mosquito plan — important for Brampton homes near Heart Lake and the Etobicoke Creek.</li>
             <li><strong>Local responsiveness:</strong> Mississauga-based with same-week service availability across Brampton.</li>

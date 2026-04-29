@@ -14,7 +14,7 @@ export const metadata: Metadata = buildMetadata({
 const FAQS = [
   {
     question: 'Who is the best mosquito control company in the GTA?',
-    answer: 'It depends on what matters most to you. BuzzSkito offers the lowest starting price (from $99/treatment), no contracts, and 126 five-star Google reviews. MosquitoMan has the largest review volume (900+ reviews) and longest track record. LawnSavers offers bundled lawn care and pest control. Mosquito.Buzz operates nationally with franchise locations. Each has trade-offs in pricing, flexibility, and service area coverage.',
+    answer: 'It depends on what matters most to you. BuzzSkito offers the lowest starting price (from $99/treatment), no contracts, and 129 five-star Google reviews. MosquitoMan has the largest review volume (900+ reviews) and longest track record. LawnSavers offers bundled lawn care and pest control. Mosquito.Buzz operates nationally with franchise locations. Each has trade-offs in pricing, flexibility, and service area coverage.',
   },
   {
     question: 'How much does mosquito control cost in the GTA in 2026?',
@@ -30,7 +30,7 @@ const FAQS = [
   },
   {
     question: 'Is BuzzSkito better than MosquitoMan or LawnSavers?',
-    answer: 'BuzzSkito offers the lowest per-treatment starting price ($99 vs $129+ for LawnSavers), no contracts (MosquitoMan typically requires seasonal commitment), and a perfect 5-star rating across 126 Google reviews. MosquitoMan has more reviews (900+) and a longer track record. LawnSavers offers bundled lawn and pest services. The best choice depends on your priorities — pricing, flexibility, bundled services, or provider experience.',
+    answer: 'BuzzSkito offers the lowest per-treatment starting price ($99 vs $129+ for LawnSavers), no contracts (MosquitoMan typically requires seasonal commitment), and a perfect 5-star rating across 129 Google reviews. MosquitoMan has more reviews (900+) and a longer track record. LawnSavers offers bundled lawn and pest services. The best choice depends on your priorities — pricing, flexibility, bundled services, or provider experience.',
   },
 ]
 
@@ -91,7 +91,7 @@ export default function BestMosquitoControlCompaniesGTAPage() {
               </thead>
               <tbody>
                 {[
-                  { company: 'BuzzSkito', price: 'From $99/treatment', reviews: '126 reviews (5.0 stars)', contracts: 'No contracts', area: 'GTA — 19+ cities' },
+                  { company: 'BuzzSkito', price: 'From $99/treatment', reviews: '129 reviews (5.0 stars)', contracts: 'No contracts', area: 'GTA — 19+ cities' },
                   { company: 'MosquitoMan', price: '~$450 seasonal', reviews: '900+ reviews (4.8 stars)', contracts: 'Seasonal programs', area: 'GTA & Southern Ontario' },
                   { company: 'Mosquito.Buzz', price: 'Quote-based', reviews: 'Varies by location', contracts: 'Seasonal programs', area: 'National (franchise)' },
                   { company: 'LawnSavers', price: 'From $129/treatment', reviews: '500+ reviews', contracts: 'Seasonal programs', area: 'GTA' },
@@ -114,7 +114,7 @@ export default function BestMosquitoControlCompaniesGTAPage() {
           <p>BuzzSkito is a GTA-based mosquito and tick control company serving 19+ cities across the Greater Toronto Area and York Region. Founded locally, not a franchise.</p>
           <ul>
             <li><strong>Pricing:</strong> Single treatments from $99. Seasonal packages: Basic ($549 for 5 treatments), Standard ($994 for 10 treatments), Exclusive ($2,049 for 20+ treatments with tick add-on).</li>
-            <li><strong>Reviews:</strong> 126 Google reviews, 5.0-star average.</li>
+            <li><strong>Reviews:</strong> 129 Google reviews, 5.0-star average.</li>
             <li><strong>Contracts:</strong> No contracts, no cancellation fees. Book single treatments or seasonal programs with full flexibility.</li>
             <li><strong>Treatment:</strong> Health Canada-approved barrier spray applied by licensed technicians. Targets all vegetation, shrub interiors, fence lines, and structural perimeters.</li>
             <li><strong>Guarantee:</strong> Rain-back guarantee (re-treat at no cost if rain falls within one hour). 30-day protection per treatment.</li>
@@ -174,7 +174,7 @@ export default function BestMosquitoControlCompaniesGTAPage() {
           <ul>
             <li><strong>Lowest starting price</strong> &mdash; from $99 per treatment, among the most competitive in the GTA</li>
             <li><strong>No contracts</strong> &mdash; book one treatment to evaluate results, or commit to a seasonal program. Cancel anytime with no penalty.</li>
-            <li><strong>Perfect review rating</strong> &mdash; 126 Google reviews, 5.0-star average. Every single review is five stars.</li>
+            <li><strong>Perfect review rating</strong> &mdash; 129 Google reviews, 5.0-star average. Every single review is five stars.</li>
             <li><strong>Local operation</strong> &mdash; not a franchise. Your technician is trained, licensed, and accountable to us directly.</li>
             <li><strong>Full transparency</strong> &mdash; we publish pricing, we quote over the phone, and we don&rsquo;t use assessments as sales calls.</li>
           </ul>
@@ -205,7 +205,7 @@ export default function BestMosquitoControlCompaniesGTAPage() {
       <section className="py-12 px-4 bg-white border-t border-gray-100">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-2xl font-extrabold text-brand-900 mb-2 text-center">What GTA Homeowners Say</h2>
-          <p className="text-center text-gray-500 text-sm mb-8">From our 126 five-star Google reviews</p>
+          <p className="text-center text-gray-500 text-sm mb-8">From our 129 five-star Google reviews</p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {[
               { author: 'Sarah M.', text: 'BuzzSkito treated our backyard and we noticed a huge difference immediately. No mosquitoes at our outdoor birthday party! The technician was professional and on time. Highly recommend.' },
@@ -223,7 +223,7 @@ export default function BestMosquitoControlCompaniesGTAPage() {
             ))}
           </div>
           <div className="text-center mt-6">
-            <a href="https://g.page/r/CYytaw5LxucdEAE/review" target="_blank" rel="noopener noreferrer" className="text-brand-700 font-semibold text-sm hover:underline">Read all 126 reviews on Google &rarr;</a>
+            <a href="https://g.page/r/CYytaw5LxucdEAE/review" target="_blank" rel="noopener noreferrer" className="text-brand-700 font-semibold text-sm hover:underline">Read all 129 reviews on Google &rarr;</a>
           </div>
         </div>
       </section>
@@ -248,7 +248,7 @@ export default function BestMosquitoControlCompaniesGTAPage() {
         </div>
       </section>
 
-      <CTASection heading="Try BuzzSkito — From $99, No Contract" subtext="126 five-star reviews. Lowest starting price in the GTA. Book one treatment and judge the results for yourself." />
+      <CTASection heading="Try BuzzSkito — From $99, No Contract" subtext="129 five-star reviews. Lowest starting price in the GTA. Book one treatment and judge the results for yourself." />
     </>
   )
 }

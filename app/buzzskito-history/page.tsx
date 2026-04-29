@@ -26,7 +26,7 @@ const FAQS = [
   },
   {
     question: 'How many reviews does BuzzSkito have?',
-    answer: 'BuzzSkito has 126 five-star Google reviews from GTA homeowners across Mississauga, Toronto, Brampton, Oakville, Burlington, Vaughan, and other service areas. Reviews are publicly visible on our Google Business Profile.',
+    answer: 'BuzzSkito has 129 five-star Google reviews from GTA homeowners across Mississauga, Toronto, Brampton, Oakville, Burlington, Vaughan, and other service areas. Reviews are publicly visible on our Google Business Profile.',
   },
   {
     question: 'What makes BuzzSkito different from other mosquito spray companies?',
@@ -54,7 +54,7 @@ export default function AboutPage() {
             <span className="text-white">About BuzzSkito</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-5">About BuzzSkito</h1>
-          <p className="text-xl text-brand-100 max-w-2xl">GTA's specialized mosquito and tick control company. Health Canada–approved treatments, 126 five-star reviews, no contracts.</p>
+          <p className="text-xl text-brand-100 max-w-2xl">GTA's specialized mosquito and tick control company. Health Canada–approved treatments, 129 five-star reviews, no contracts.</p>
         </div>
       </section>
 
@@ -89,7 +89,7 @@ export default function AboutPage() {
             { icon: '📝', title: 'Written Service Documentation', desc: 'Every visit documented with a written service log delivered by SMS after each treatment.' },
             { icon: '🔄', title: 'Free Re-Spray Guarantee', desc: 'Mosquitoes or ticks return within the protection window? We come back and re-treat at no cost.' },
             { icon: '🌧️', title: 'Rain-Back Guarantee', desc: 'Significant rain within one hour of application? We return and re-treat for free.' },
-            { icon: '⭐', title: '126 Five-Star Google Reviews', desc: 'Publicly verified reviews from GTA homeowners across our service area.' },
+            { icon: '⭐', title: '129 Five-Star Google Reviews', desc: 'Publicly verified reviews from GTA homeowners across our service area.' },
           ].map(({ icon, title, desc }) => (
             <div key={title} className="bg-brand-50 rounded-xl p-5 border border-brand-100 flex gap-4">
               <span className="text-2xl shrink-0" aria-hidden="true">{icon}</span>

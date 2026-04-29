@@ -89,8 +89,8 @@ export default function HomePage() {
               <p className="text-sm text-brand-300 flex flex-wrap gap-x-4 gap-y-1">
                 <span>✓ Free quotes</span>
                 <span>✓ No contracts</span>
-                <span>✓ 100% satisfaction guarantee</span>
-                <span>✓ SMS alerts before &amp; after service</span>
+                <span>✓ BuzzSkito Bite-Free Guarantee</span>
+                <span>✓ 129 five-star reviews</span>
               </p>
             </div>
             <div className="hidden lg:block relative">
@@ -107,7 +107,7 @@ export default function HomePage() {
                   <Image src="/logo.webp" alt="BuzzSkito" width={36} height={36} className="rounded-full shrink-0" />
                   <div>
                     <p className="text-white font-bold text-sm">BuzzSkito GTA</p>
-                    <p className="text-amber-400 text-xs">⭐⭐⭐⭐⭐ 5.0 · 126 Google reviews</p>
+                    <p className="text-amber-400 text-xs">⭐⭐⭐⭐⭐ 5.0 · 129 Google reviews</p>
                   </div>
                 </div>
               </div>
@@ -120,10 +120,10 @@ export default function HomePage() {
       <section aria-label="Trust statistics" className="bg-brand-800 py-6 px-4">
         <div className="max-w-5xl mx-auto grid grid-cols-2 sm:grid-cols-4 gap-6 text-center">
           {[
-            { stat: '30 Days',   label: 'Mosquito Protection' },
-            { stat: '30 Days',   label: 'Tick Protection' },
+            { stat: '129',       label: 'Five-Star Reviews' },
+            { stat: '30 Days',   label: 'Protection per Visit' },
             { stat: '30 Min',    label: 'Safe for Kids & Pets' },
-            { stat: '100%',      label: 'Satisfaction Guarantee' },
+            { stat: 'Bite-Free', label: 'Guarantee' },
           ].map(({ stat, label }) => (
             <div key={label}>
               <div className="text-3xl font-extrabold text-brand-300">{stat}</div>

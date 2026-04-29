@@ -112,7 +112,7 @@ export default function BestMosquitoControlCompaniesMississaugaPage() {
           <p><strong>BuzzSkito is Mississauga-based.</strong> Our headquarters is in Mississauga, and Mississauga is our home market — same-week service availability across every Mississauga neighbourhood. <Link href="/mississauga-mosquito-control" className="text-brand-700 hover:underline">Full Mississauga service page</Link>.</p>
           <ul>
             <li><strong>Pricing:</strong> From $99 per single treatment. Basic season $549 (5 sprays), Standard $994 (10 sprays), Exclusive $2,049 (20+ sprays).</li>
-            <li><strong>Reviews:</strong> 126 Google reviews, perfect 5.0-star rating.</li>
+            <li><strong>Reviews:</strong> 129 Google reviews, perfect 5.0-star rating.</li>
             <li><strong>Contracts:</strong> No contracts, no cancellation fees.</li>
             <li><strong>Tick add-on:</strong> Critical for Mississauga properties near Credit River, Rattray Marsh, Erindale Park. $597 standalone or $497 bundled (save $100).</li>
             <li><strong>Local advantage:</strong> Mississauga-based ownership = local knowledge of every neighbourhood from Port Credit to Meadowvale.</li>
@@ -201,7 +201,7 @@ export default function BestMosquitoControlCompaniesMississaugaPage() {
         </div>
       </section>
 
-      <CTASection heading="Mississauga-Based · From $99 · No Contract" subtext="Local Mississauga ownership. 126 five-star reviews. Try a single treatment without commitment." variant="dark" />
+      <CTASection heading="Mississauga-Based · From $99 · No Contract" subtext="Local Mississauga ownership. 129 five-star reviews. Try a single treatment without commitment." variant="dark" />
     </>
   )
 }
