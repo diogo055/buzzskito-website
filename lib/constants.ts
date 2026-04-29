@@ -505,6 +505,44 @@ export const NEW_BLOGS_7 = [
   },
 ]
 
+export const NEW_BLOGS_10 = [
+  {
+    slug: 'mosquito-dunks-canada-guide',
+    title: 'Mosquito Dunks — Complete Canada Guide (2026)',
+    excerpt: 'Where to buy mosquito dunks in Canada, how BTI works, dunks vs bits, safety. Combine with professional yard spray for total control.',
+    date: '2026-04-28',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'mosquito-larvae-identification',
+    title: 'Mosquito Larvae — Identification, Lifecycle & Removal',
+    excerpt: 'How to identify mosquito larvae, where they live, and how to get rid of them. Visual guide for Ontario homeowners.',
+    date: '2026-04-28',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'mosquito-hawk-explained',
+    title: 'Mosquito Hawk — What It Actually Is (Crane Fly Truth)',
+    excerpt: 'Crane flies (mosquito hawks) do NOT eat mosquitoes despite the name. Identification, lifecycle, and what to do.',
+    date: '2026-04-28',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'american-dog-tick-canada',
+    title: 'American Dog Tick — Canada Identification & Risk Guide',
+    excerpt: 'How to identify the American dog tick in Canada, where they live, disease risk (low), removal, and prevention.',
+    date: '2026-04-28',
+    category: 'tick' as const,
+  },
+  {
+    slug: 'deer-tick-vs-dog-tick-canada',
+    title: 'Deer Tick vs Dog Tick — Canada Identification (2026)',
+    excerpt: 'How to tell a deer tick (blacklegged) from a dog tick (American). Size, pattern, disease risk, and yard prevention.',
+    date: '2026-04-28',
+    category: 'tick' as const,
+  },
+]
+
 export const NEW_BLOGS_9 = [
   {
     slug: 'mosquito-repellent-guide-ontario-2026',
