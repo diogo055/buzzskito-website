@@ -202,11 +202,11 @@ export default function PestControlGTAPage() {
               <tbody>
                 {[
                   { plan: 'Single Treatment', cov: '1 spray, ~30-day protection', price: 'From $99' },
-                  { plan: 'Basic Season', cov: '5 sprays · monthly · May–Sep', price: '$549' },
-                  { plan: 'Standard Season ★ Most Popular', cov: '10 sprays · bi-weekly · May–Sep', price: '$994' },
-                  { plan: 'Exclusive Season', cov: '20+ sprays · weekly · May–Sep', price: '$2,049' },
-                  { plan: 'Tick Add-on (bundled)', cov: '5 tick sprays added to any plan', price: '+$497' },
-                  { plan: 'Tick Standalone', cov: '5 sprays for tick control only', price: '$597' },
+                  { plan: 'Basic Season', cov: '5 sprays · monthly · May–Sep', price: 'On quote' },
+                  { plan: 'Standard Season ★ Most Popular', cov: '10 sprays · bi-weekly · May–Sep', price: 'On quote' },
+                  { plan: 'Exclusive Season', cov: '20+ sprays · weekly · May–Sep', price: 'On quote' },
+                  { plan: 'Tick Add-on (bundled)', cov: '5 tick sprays added to any plan', price: 'On quote' },
+                  { plan: 'Tick Standalone', cov: '5 sprays for tick control only', price: 'On quote' },
                 ].map(({ plan, cov, price }) => (
                   <tr key={plan} className="border-b border-navy-50 last:border-0 hover:bg-brand-50/50">
                     <td className="px-4 py-3 font-semibold text-brand-800">{plan}</td>
@@ -240,6 +240,71 @@ export default function PestControlGTAPage() {
         </div>
       </section>
 
+      {/* PEST CONTROL BY CITY — links to all 19 new pest-control-[city] pages */}
+      <section className="py-12 px-4 bg-white border-y border-gray-100">
+        <div className="max-w-5xl mx-auto">
+          <h2 className="text-2xl sm:text-3xl font-extrabold text-brand-900 mb-3">Pest Control by GTA City — Specialist Mosquito &amp; Tick Service</h2>
+          <p className="text-gray-600 mb-6 text-sm sm:text-base">BuzzSkito serves 19 GTA cities as a specialist mosquito and tick pest control company. Each city page covers local pressure zones, FAQs, and what makes specialist focus better than generalist coverage for these two pests.</p>
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-2.5">
+            {[
+              { name: 'Mississauga', slug: 'mississauga' },
+              { name: 'Toronto', slug: 'toronto' },
+              { name: 'Brampton', slug: 'brampton' },
+              { name: 'Oakville', slug: 'oakville' },
+              { name: 'Burlington', slug: 'burlington' },
+              { name: 'Hamilton', slug: 'hamilton' },
+              { name: 'Vaughan', slug: 'vaughan' },
+              { name: 'Richmond Hill', slug: 'richmond-hill' },
+              { name: 'Markham', slug: 'markham' },
+              { name: 'Etobicoke', slug: 'etobicoke' },
+              { name: 'Scarborough', slug: 'scarborough' },
+              { name: 'North York', slug: 'north-york' },
+              { name: 'Caledon', slug: 'caledon' },
+              { name: 'Milton', slug: 'milton' },
+              { name: 'Georgetown', slug: 'georgetown' },
+              { name: 'Halton Hills', slug: 'halton-hills' },
+              { name: 'King City', slug: 'king-city' },
+              { name: 'Woodbridge', slug: 'woodbridge' },
+              { name: 'Thornhill', slug: 'thornhill' },
+            ].map(({ name, slug }) => (
+              <Link key={slug} href={`/pest-control-${slug}`} className="bg-brand-50 hover:bg-brand-100 border border-brand-100 rounded-lg px-4 py-2.5 text-sm text-brand-800 font-semibold transition-colors flex items-center justify-between">
+                <span>Pest Control {name}</span>
+                <span className="text-brand-400" aria-hidden="true">→</span>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* BEST MOSQUITO CONTROL listicles for all GTA cities */}
+      <section className="py-10 px-4 bg-brand-50/40">
+        <div className="max-w-5xl mx-auto">
+          <h2 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-3">Best Mosquito Control Companies — by City</h2>
+          <p className="text-gray-600 mb-5 text-sm">Honest 2026 comparisons of mosquito control providers in each GTA city. Pricing, reviews, contract terms.</p>
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-2">
+            {[
+              ['GTA Master', 'gta'],
+              ['Mississauga', 'mississauga'],
+              ['Toronto', 'toronto'],
+              ['Brampton', 'brampton'],
+              ['Oakville', 'oakville'],
+              ['Vaughan', 'vaughan'],
+              ['Hamilton', 'hamilton'],
+              ['Burlington', 'burlington'],
+              ['Markham', 'markham'],
+              ['Richmond Hill', 'richmond-hill'],
+              ['North York', 'north-york'],
+              ['Etobicoke', 'etobicoke'],
+              ['Scarborough', 'scarborough'],
+            ].map(([name, slug]) => (
+              <Link key={slug} href={`/best-mosquito-control-companies-${slug}`} className="text-sm text-brand-700 hover:underline px-2 py-1">
+                Best in {name} →
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* RELATED */}
       <section className="py-12 px-4 bg-brand-50">
         <div className="max-w-4xl mx-auto">
@@ -247,6 +312,7 @@ export default function PestControlGTAPage() {
           <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-sm">
             <li><Link href="/mosquito-control" className="text-brand-700 hover:underline">→ Mosquito Control GTA (full service overview)</Link></li>
             <li><Link href="/tick-control" className="text-brand-700 hover:underline">→ Tick Control GTA (Lyme prevention)</Link></li>
+            <li><Link href="/reviews" className="text-brand-700 hover:underline">→ BuzzSkito Reviews (129 five-star)</Link></li>
             <li><Link href="/best-mosquito-control-companies-gta" className="text-brand-700 hover:underline">→ Best Mosquito Control Companies GTA 2026</Link></li>
             <li><Link href="/mosquito-control-cost" className="text-brand-700 hover:underline">→ 2026 Pricing Guide</Link></li>
             <li><Link href="/mosquito-spray-safety" className="text-brand-700 hover:underline">→ Is Mosquito Spray Safe for Kids &amp; Pets?</Link></li>

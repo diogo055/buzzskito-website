@@ -105,6 +105,8 @@ export default function Footer() {
               <li><Link href="/buzzskito-history" className="hover:text-white transition-colors">About BuzzSkito</Link></li>
               <li><Link href="/reviews" className="hover:text-white transition-colors">Reviews (129 ★★★★★)</Link></li>
               <li><Link href="/how-it-works" className="hover:text-white transition-colors">How It Works</Link></li>
+              <li><Link href="/pest-control-gta" className="hover:text-white transition-colors">Pest Control GTA</Link></li>
+              <li><Link href="/best-mosquito-control-companies-gta" className="hover:text-white transition-colors">Best Mosquito Companies</Link></li>
               <li><Link href="/frequently-asked-question" className="hover:text-white transition-colors">FAQ</Link></li>
               <li><Link href="/mosquito-control-cost" className="hover:text-white transition-colors">2026 Pricing Guide</Link></li>
               <li><Link href="/mosquito-control-near-me" className="hover:text-white transition-colors">Mosquito Control Near Me</Link></li>
