@@ -59,6 +59,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/mosquito-spray-safety',
     '/reviews',
     '/buzzskito-2026-gta-mosquito-tick-report',
+    '/mosquito-tick-control-glossary',
     // ── Pest Control [City] guide pages (Apr 2026) ────────────────────────────
     '/pest-control-mississauga',
     '/pest-control-toronto',
