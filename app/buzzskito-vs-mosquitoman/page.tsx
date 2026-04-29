@@ -84,7 +84,6 @@ export default function BuzzSkitoVsMosquitomanPage() {
                   ['Service area', '19 GTA cities + 30 neighbourhoods', 'GTA + outer Ontario'],
                   ['Same-week service', 'Yes', 'Varies'],
                   ['Local ownership', 'Mississauga-based, single-owner', 'Multi-region operation'],
-                  ['Operating since', '2024', 'Long-established'],
                 ].map(([factor, a, b], i) => (
                   <tr key={i} className="border-b border-gray-200 even:bg-gray-50">
                     <td className="px-4 py-3 font-semibold text-brand-800">{factor}</td>

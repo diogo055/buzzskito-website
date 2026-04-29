@@ -84,7 +84,6 @@ export default function BuzzSkitoVsMosquitoBuzzPage() {
                   ['Pricing transparency', 'All published online', 'Quote-only model'],
                   ['Service area', '19 GTA cities + 30 neighbourhoods', 'Franchise-dependent'],
                   ['Local accountability', 'Alex Francisco directly', 'Depends on franchisee'],
-                  ['Operating since', '2024 (GTA-focused)', 'Multi-year national'],
                 ].map(([factor, a, b], i) => (
                   <tr key={i} className="border-b border-gray-200 even:bg-gray-50">
                     <td className="px-4 py-3 font-semibold text-brand-800">{factor}</td>
