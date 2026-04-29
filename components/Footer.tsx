@@ -126,8 +126,21 @@ export default function Footer() {
           </div>
         </div>
 
+        {/* Credentials bar */}
+        <div className="border-t border-brand-900 mt-10 pt-6 pb-4">
+          <div className="flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-xs text-brand-400">
+            <span><strong className="text-brand-300">Canada Business Reg#</strong> 1001003669</span>
+            <span aria-hidden="true">·</span>
+            <span><strong className="text-brand-300">Ontario Licensed</strong> Pesticide Applicator</span>
+            <span aria-hidden="true">·</span>
+            <span><strong className="text-brand-300">Health Canada</strong>–Approved Formulations</span>
+            <span aria-hidden="true">·</span>
+            <span><strong className="text-brand-300">5.0 ★</strong> Google Rating · 129 Reviews · 0 Negative</span>
+          </div>
+        </div>
+
         {/* Bottom */}
-        <div className="border-t border-brand-900 mt-10 pt-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-brand-500">
+        <div className="border-t border-brand-900 pt-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-brand-500">
           <p>© {year} {BUSINESS.legalName}. All rights reserved. · Mississauga, ON</p>
           <p className="hidden sm:block text-center">Serving 19 cities across the Greater Toronto Area</p>
           <div className="flex gap-4">

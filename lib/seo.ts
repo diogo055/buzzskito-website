@@ -91,7 +91,14 @@ export function localBusinessSchema(overrides: { areaServed?: string; descriptio
     sameAs: [
       BUSINESS.facebookUrl,
       BUSINESS.googleReviewUrl,
+      `${SITE_URL}/reviews`,
+      `${SITE_URL}/buzzskito-history`,
     ],
+    identifier: [
+      { '@type': 'PropertyValue', propertyID: 'CanadaBusinessRegistration', value: '1001003669' },
+    ],
+    knowsLanguage: 'en-CA',
+    slogan: 'BuzzSkito Bite-Free Guarantee — Mosquito & Tick Specialist for the GTA',
   }
 }
 
@@ -207,7 +214,17 @@ export function blogPostingSchema(opts: {
       name: BUSINESS.author.name,
       jobTitle: BUSINESS.author.role,
       url: BUSINESS.author.url,
-      worksFor: { '@type': 'Organization', name: BUSINESS.legalName, url: SITE_URL },
+      sameAs: [
+        BUSINESS.facebookUrl,
+        BUSINESS.googleReviewUrl,
+        `${SITE_URL}/buzzskito-history`,
+      ],
+      worksFor: {
+        '@type': 'Organization',
+        '@id': `${SITE_URL}/#organization`,
+        name: BUSINESS.legalName,
+        url: SITE_URL,
+      },
     },
     publisher: {
       '@type': 'Organization',
@@ -276,7 +293,16 @@ export function organizationSchema() {
     sameAs: [
       BUSINESS.facebookUrl,
       BUSINESS.googleReviewUrl,
+      `${SITE_URL}/buzzskito-history`,
+      `${SITE_URL}/reviews`,
     ],
+    identifier: [
+      { '@type': 'PropertyValue', propertyID: 'CanadaBusinessRegistration', value: '1001003669' },
+    ],
+    foundingLocation: {
+      '@type': 'Place',
+      address: { '@type': 'PostalAddress', addressLocality: 'Mississauga', addressRegion: 'ON', addressCountry: 'CA' },
+    },
     subOrganization: { '@type': 'PestControlService', '@id': `${SITE_URL}/#business` },
     knowsAbout: [
       'Mosquito control',
