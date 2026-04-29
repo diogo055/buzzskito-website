@@ -149,6 +149,75 @@ export default function PestControlScarboroughPage() {
         </div>
       </section>
 
+
+      {/* CITY PROFILE — unique data per city (Information Gain signal for 2026 SEO) */}
+      <section className="py-12 px-4 bg-white border-y border-gray-100">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-2xl font-extrabold text-brand-900 mb-2">Scarborough City Profile — What We've Observed Treating Scarborough Properties</h2>
+          <p className="text-gray-600 text-sm mb-6">Data and observations specific to Scarborough, drawn from BuzzSkito field experience and public surveillance records (not generic content recycled across our city pages).</p>
+
+          {/* Stats grid */}
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-8">
+            <div className="bg-brand-50 rounded-xl p-4">
+              <p className="text-xs text-gray-500 uppercase font-bold tracking-wider">Population</p>
+              <p className="text-lg font-extrabold text-brand-900 mt-1">632,000</p>
+            </div>
+            <div className="bg-brand-50 rounded-xl p-4">
+              <p className="text-xs text-gray-500 uppercase font-bold tracking-wider">Households</p>
+              <p className="text-lg font-extrabold text-brand-900 mt-1">~225,000</p>
+            </div>
+            <div className="bg-brand-50 rounded-xl p-4">
+              <p className="text-xs text-gray-500 uppercase font-bold tracking-wider">Public Health</p>
+              <p className="text-sm font-bold text-brand-900 mt-1 leading-tight">Toronto Public Health</p>
+            </div>
+            <div className="bg-brand-50 rounded-xl p-4">
+              <p className="text-xs text-gray-500 uppercase font-bold tracking-wider">Drive Time</p>
+              <p className="text-sm font-bold text-brand-900 mt-1 leading-tight">~50–60 min from Mississauga HQ</p>
+            </div>
+          </div>
+
+          <h3 className="text-lg font-extrabold text-brand-900 mb-2">Scarborough FSAs (Postal Code Areas) We Service</h3>
+          <p className="text-sm text-gray-700 mb-6 font-mono break-words">M1B, M1C, M1E, M1G, M1H, M1J, M1K, M1L, M1M, M1N, M1P, M1R, M1S, M1T, M1V, M1W, M1X</p>
+
+          <h3 className="text-lg font-extrabold text-brand-900 mb-2">Specific Scarborough Landmarks Near Our Treatment Zones</h3>
+          <p className="text-sm text-gray-700 mb-6">Rouge National Urban Park (west boundary), Highland Creek valley, Bluffer's Park, Morningside Park, Cedar Brae Golf Club, Thomson Memorial Park</p>
+
+          <h3 className="text-lg font-extrabold text-brand-900 mb-3">Scarborough Mosquito & Tick Pressure by Neighborhood Tier</h3>
+          <div className="rounded-xl border border-navy-100 overflow-hidden mb-6">
+            <table className="w-full text-sm">
+              <thead className="bg-brand-800 text-white">
+                <tr>
+                  <th className="px-4 py-2 text-left">Pressure Tier</th>
+                  <th className="px-4 py-2 text-left">Scarborough Neighborhoods</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-b border-navy-50 last:border-0">
+                  <td className="px-4 py-2 font-semibold text-brand-900 bg-gray-50 w-1/4">Tier 1 (highest)</td>
+                  <td className="px-4 py-2 text-gray-800">Rouge, Malvern, Highland Creek — Rouge Park + creek valley</td>
+                </tr>
+                <tr className="border-b border-navy-50 last:border-0">
+                  <td className="px-4 py-2 font-semibold text-brand-900 bg-gray-50 w-1/4">Tier 2 (high)</td>
+                  <td className="px-4 py-2 text-gray-800">Guildwood, Cliffside, Cliffcrest — Bluffs + lakefront</td>
+                </tr>
+                <tr className="border-b border-navy-50 last:border-0">
+                  <td className="px-4 py-2 font-semibold text-brand-900 bg-gray-50 w-1/4">Tier 3 (moderate)</td>
+                  <td className="px-4 py-2 text-gray-800">Birchcliffe, Woburn, Bendale — mature residential</td>
+                </tr>
+                <tr className="border-b border-navy-50 last:border-0">
+                  <td className="px-4 py-2 font-semibold text-brand-900 bg-gray-50 w-1/4">Tier 4 (lower)</td>
+                  <td className="px-4 py-2 text-gray-800">Agincourt, Milliken — newer denser development</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <h3 className="text-lg font-extrabold text-brand-900 mb-2">What We've Observed Treating Scarborough</h3>
+          <p className="text-sm text-gray-700 leading-relaxed">Scarborough has the most extensive ravine system in Toronto outside the Don Valley — Highland Creek, Rouge River, and Morningside Creek all flow through residential neighborhoods. The Rouge National Urban Park boundary on the east side adds significant mosquito and tick exposure for Rouge, Malvern, and parts of Highland Creek. Scarborough Bluffs create lakefront humidity extending mosquito activity in Cliffside and Cliffcrest into late October.</p>
+
+          <p className="text-xs text-gray-500 mt-4 italic">Sources: Toronto Public Health surveillance data, Statistics Canada Census, BuzzSkito field observations. Public Health Ontario maintains the official tick surveillance program at <a href="https://www.publichealthontario.ca/en/Data-and-Analysis/Infectious-Disease/Lyme-Disease-Active-Tick-Surveillance" className="text-brand-700 hover:underline" target="_blank" rel="noopener noreferrer">publichealthontario.ca</a>.</p>
+        </div>
+      </section>
       {/* WHY SPECIALIST */}
       <section className="py-14 px-4 bg-white">
         <div className="max-w-4xl mx-auto prose-brand">

@@ -149,6 +149,75 @@ export default function PestControlKingCityPage() {
         </div>
       </section>
 
+
+      {/* CITY PROFILE — unique data per city (Information Gain signal for 2026 SEO) */}
+      <section className="py-12 px-4 bg-white border-y border-gray-100">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-2xl font-extrabold text-brand-900 mb-2">King City City Profile — What We've Observed Treating King City Properties</h2>
+          <p className="text-gray-600 text-sm mb-6">Data and observations specific to King City, drawn from BuzzSkito field experience and public surveillance records (not generic content recycled across our city pages).</p>
+
+          {/* Stats grid */}
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-8">
+            <div className="bg-brand-50 rounded-xl p-4">
+              <p className="text-xs text-gray-500 uppercase font-bold tracking-wider">Population</p>
+              <p className="text-lg font-extrabold text-brand-900 mt-1">5,000 (King City) / 27,000 (King Township)</p>
+            </div>
+            <div className="bg-brand-50 rounded-xl p-4">
+              <p className="text-xs text-gray-500 uppercase font-bold tracking-wider">Households</p>
+              <p className="text-lg font-extrabold text-brand-900 mt-1">~9,000</p>
+            </div>
+            <div className="bg-brand-50 rounded-xl p-4">
+              <p className="text-xs text-gray-500 uppercase font-bold tracking-wider">Public Health</p>
+              <p className="text-sm font-bold text-brand-900 mt-1 leading-tight">York Region Public Health</p>
+            </div>
+            <div className="bg-brand-50 rounded-xl p-4">
+              <p className="text-xs text-gray-500 uppercase font-bold tracking-wider">Drive Time</p>
+              <p className="text-sm font-bold text-brand-900 mt-1 leading-tight">~50–60 min from Mississauga HQ via 400</p>
+            </div>
+          </div>
+
+          <h3 className="text-lg font-extrabold text-brand-900 mb-2">King City FSAs (Postal Code Areas) We Service</h3>
+          <p className="text-sm text-gray-700 mb-6 font-mono break-words">L7B</p>
+
+          <h3 className="text-lg font-extrabold text-brand-900 mb-2">Specific King City Landmarks Near Our Treatment Zones</h3>
+          <p className="text-sm text-gray-700 mb-6">Oak Ridges Moraine (extensive), Mary Lake, Cold Creek Conservation Area, Seneca College King Campus, Eaton Hall, Happy Valley Forest</p>
+
+          <h3 className="text-lg font-extrabold text-brand-900 mb-3">King City Mosquito & Tick Pressure by Neighborhood Tier</h3>
+          <div className="rounded-xl border border-navy-100 overflow-hidden mb-6">
+            <table className="w-full text-sm">
+              <thead className="bg-brand-800 text-white">
+                <tr>
+                  <th className="px-4 py-2 text-left">Pressure Tier</th>
+                  <th className="px-4 py-2 text-left">King City Neighborhoods</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-b border-navy-50 last:border-0">
+                  <td className="px-4 py-2 font-semibold text-brand-900 bg-gray-50 w-1/4">Tier 1 (tick — highest)</td>
+                  <td className="px-4 py-2 text-gray-800">Estate properties bordering forest, Happy Valley, Cold Creek area</td>
+                </tr>
+                <tr className="border-b border-navy-50 last:border-0">
+                  <td className="px-4 py-2 font-semibold text-brand-900 bg-gray-50 w-1/4">Tier 2 (high)</td>
+                  <td className="px-4 py-2 text-gray-800">King City village, Schomberg — mix of mature and rural</td>
+                </tr>
+                <tr className="border-b border-navy-50 last:border-0">
+                  <td className="px-4 py-2 font-semibold text-brand-900 bg-gray-50 w-1/4">Tier 3 (moderate)</td>
+                  <td className="px-4 py-2 text-gray-800">Nobleton, Kettleby — agricultural with some forest</td>
+                </tr>
+                <tr className="border-b border-navy-50 last:border-0">
+                  <td className="px-4 py-2 font-semibold text-brand-900 bg-gray-50 w-1/4">Tier 4 (low mosquito, high tick)</td>
+                  <td className="px-4 py-2 text-gray-800">Open agricultural lots — wind reduces mosquitoes, tick risk persists</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <h3 className="text-lg font-extrabold text-brand-900 mb-2">What We've Observed Treating King City</h3>
+          <p className="text-sm text-gray-700 leading-relaxed">King City and King Township sit on the Oak Ridges Moraine — a confirmed high-density blacklegged tick zone per Public Health Ontario surveillance program. Tick activity here is among the highest in the GTA. Many properties are large estate lots (1+ acre) bordering forest, which creates persistent year-round tick exposure for kids and pets. Mosquito pressure is moderate (lower than urban GTA) but tick pressure is severe — this market needs tick treatment more than mosquito treatment.</p>
+
+          <p className="text-xs text-gray-500 mt-4 italic">Sources: York Region Public Health surveillance data, Statistics Canada Census, BuzzSkito field observations. Public Health Ontario maintains the official tick surveillance program at <a href="https://www.publichealthontario.ca/en/Data-and-Analysis/Infectious-Disease/Lyme-Disease-Active-Tick-Surveillance" className="text-brand-700 hover:underline" target="_blank" rel="noopener noreferrer">publichealthontario.ca</a>.</p>
+        </div>
+      </section>
       {/* WHY SPECIALIST */}
       <section className="py-14 px-4 bg-white">
         <div className="max-w-4xl mx-auto prose-brand">

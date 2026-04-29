@@ -149,6 +149,75 @@ export default function PestControlBurlingtonPage() {
         </div>
       </section>
 
+
+      {/* CITY PROFILE — unique data per city (Information Gain signal for 2026 SEO) */}
+      <section className="py-12 px-4 bg-white border-y border-gray-100">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-2xl font-extrabold text-brand-900 mb-2">Burlington City Profile — What We've Observed Treating Burlington Properties</h2>
+          <p className="text-gray-600 text-sm mb-6">Data and observations specific to Burlington, drawn from BuzzSkito field experience and public surveillance records (not generic content recycled across our city pages).</p>
+
+          {/* Stats grid */}
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-8">
+            <div className="bg-brand-50 rounded-xl p-4">
+              <p className="text-xs text-gray-500 uppercase font-bold tracking-wider">Population</p>
+              <p className="text-lg font-extrabold text-brand-900 mt-1">187,000</p>
+            </div>
+            <div className="bg-brand-50 rounded-xl p-4">
+              <p className="text-xs text-gray-500 uppercase font-bold tracking-wider">Households</p>
+              <p className="text-lg font-extrabold text-brand-900 mt-1">~70,000</p>
+            </div>
+            <div className="bg-brand-50 rounded-xl p-4">
+              <p className="text-xs text-gray-500 uppercase font-bold tracking-wider">Public Health</p>
+              <p className="text-sm font-bold text-brand-900 mt-1 leading-tight">Halton Region Public Health</p>
+            </div>
+            <div className="bg-brand-50 rounded-xl p-4">
+              <p className="text-xs text-gray-500 uppercase font-bold tracking-wider">Drive Time</p>
+              <p className="text-sm font-bold text-brand-900 mt-1 leading-tight">~30–40 min from Mississauga HQ via QEW</p>
+            </div>
+          </div>
+
+          <h3 className="text-lg font-extrabold text-brand-900 mb-2">Burlington FSAs (Postal Code Areas) We Service</h3>
+          <p className="text-sm text-gray-700 mb-6 font-mono break-words">L7L, L7M, L7N, L7P, L7R, L7S, L7T</p>
+
+          <h3 className="text-lg font-extrabold text-brand-900 mb-2">Specific Burlington Landmarks Near Our Treatment Zones</h3>
+          <p className="text-sm text-gray-700 mb-6">Royal Botanical Gardens, Bronte Creek (west boundary), Niagara Escarpment trails, Mount Nemo Conservation Area, Spencer Smith Park, LaSalle Park, Tyandaga Park</p>
+
+          <h3 className="text-lg font-extrabold text-brand-900 mb-3">Burlington Mosquito & Tick Pressure by Neighborhood Tier</h3>
+          <div className="rounded-xl border border-navy-100 overflow-hidden mb-6">
+            <table className="w-full text-sm">
+              <thead className="bg-brand-800 text-white">
+                <tr>
+                  <th className="px-4 py-2 text-left">Pressure Tier</th>
+                  <th className="px-4 py-2 text-left">Burlington Neighborhoods</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-b border-navy-50 last:border-0">
+                  <td className="px-4 py-2 font-semibold text-brand-900 bg-gray-50 w-1/4">Tier 1 (highest)</td>
+                  <td className="px-4 py-2 text-gray-800">Tyandaga, North Burlington, Aldershot — RBG + Escarpment + lakefront</td>
+                </tr>
+                <tr className="border-b border-navy-50 last:border-0">
+                  <td className="px-4 py-2 font-semibold text-brand-900 bg-gray-50 w-1/4">Tier 2 (high)</td>
+                  <td className="px-4 py-2 text-gray-800">Roseland, Shoreacres — lakefront + mature canopy</td>
+                </tr>
+                <tr className="border-b border-navy-50 last:border-0">
+                  <td className="px-4 py-2 font-semibold text-brand-900 bg-gray-50 w-1/4">Tier 3 (moderate)</td>
+                  <td className="px-4 py-2 text-gray-800">Alton Village, Millcroft, Headon Forest — stormwater ponds in newer subdivisions</td>
+                </tr>
+                <tr className="border-b border-navy-50 last:border-0">
+                  <td className="px-4 py-2 font-semibold text-brand-900 bg-gray-50 w-1/4">Tier 4 (lower)</td>
+                  <td className="px-4 py-2 text-gray-800">Downtown Burlington core, The Orchard — less natural habitat</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <h3 className="text-lg font-extrabold text-brand-900 mb-2">What We've Observed Treating Burlington</h3>
+          <p className="text-sm text-gray-700 leading-relaxed">Burlington has mosquito pressure from three directions: Lake Ontario waterfront (Aldershot, Spencer Smith Park area), Bronte Creek (west boundary with Oakville), and the Niagara Escarpment / Royal Botanical Gardens (north end). Tyandaga and North Burlington — at the foot of the Escarpment — have sheltered microclimates that retain humidity longer, extending mosquito season 2–4 weeks past lakefront timing. RBG's 1,100 hectares of naturalized land directly affect adjacent properties.</p>
+
+          <p className="text-xs text-gray-500 mt-4 italic">Sources: Halton Region Public Health surveillance data, Statistics Canada Census, BuzzSkito field observations. Public Health Ontario maintains the official tick surveillance program at <a href="https://www.publichealthontario.ca/en/Data-and-Analysis/Infectious-Disease/Lyme-Disease-Active-Tick-Surveillance" className="text-brand-700 hover:underline" target="_blank" rel="noopener noreferrer">publichealthontario.ca</a>.</p>
+        </div>
+      </section>
       {/* WHY SPECIALIST */}
       <section className="py-14 px-4 bg-white">
         <div className="max-w-4xl mx-auto prose-brand">

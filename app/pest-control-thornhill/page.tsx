@@ -149,6 +149,75 @@ export default function PestControlThornhillPage() {
         </div>
       </section>
 
+
+      {/* CITY PROFILE — unique data per city (Information Gain signal for 2026 SEO) */}
+      <section className="py-12 px-4 bg-white border-y border-gray-100">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-2xl font-extrabold text-brand-900 mb-2">Thornhill City Profile — What We've Observed Treating Thornhill Properties</h2>
+          <p className="text-gray-600 text-sm mb-6">Data and observations specific to Thornhill, drawn from BuzzSkito field experience and public surveillance records (not generic content recycled across our city pages).</p>
+
+          {/* Stats grid */}
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-8">
+            <div className="bg-brand-50 rounded-xl p-4">
+              <p className="text-xs text-gray-500 uppercase font-bold tracking-wider">Population</p>
+              <p className="text-lg font-extrabold text-brand-900 mt-1">~120,000</p>
+            </div>
+            <div className="bg-brand-50 rounded-xl p-4">
+              <p className="text-xs text-gray-500 uppercase font-bold tracking-wider">Households</p>
+              <p className="text-lg font-extrabold text-brand-900 mt-1">~40,000</p>
+            </div>
+            <div className="bg-brand-50 rounded-xl p-4">
+              <p className="text-xs text-gray-500 uppercase font-bold tracking-wider">Public Health</p>
+              <p className="text-sm font-bold text-brand-900 mt-1 leading-tight">York Region Public Health</p>
+            </div>
+            <div className="bg-brand-50 rounded-xl p-4">
+              <p className="text-xs text-gray-500 uppercase font-bold tracking-wider">Drive Time</p>
+              <p className="text-sm font-bold text-brand-900 mt-1 leading-tight">~40 min from Mississauga HQ via 407</p>
+            </div>
+          </div>
+
+          <h3 className="text-lg font-extrabold text-brand-900 mb-2">Thornhill FSAs (Postal Code Areas) We Service</h3>
+          <p className="text-sm text-gray-700 mb-6 font-mono break-words">L3T, L4J (split between Vaughan and Markham)</p>
+
+          <h3 className="text-lg font-extrabold text-brand-900 mb-2">Specific Thornhill Landmarks Near Our Treatment Zones</h3>
+          <p className="text-sm text-gray-700 mb-6">Pomona Mills Park, Bayview Glen, Don River tributaries, Heintzman Park, German Mills Settlers Park, Bartley Smith Greenway</p>
+
+          <h3 className="text-lg font-extrabold text-brand-900 mb-3">Thornhill Mosquito & Tick Pressure by Neighborhood Tier</h3>
+          <div className="rounded-xl border border-navy-100 overflow-hidden mb-6">
+            <table className="w-full text-sm">
+              <thead className="bg-brand-800 text-white">
+                <tr>
+                  <th className="px-4 py-2 text-left">Pressure Tier</th>
+                  <th className="px-4 py-2 text-left">Thornhill Neighborhoods</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-b border-navy-50 last:border-0">
+                  <td className="px-4 py-2 font-semibold text-brand-900 bg-gray-50 w-1/4">Tier 1 (highest)</td>
+                  <td className="px-4 py-2 text-gray-800">Royal Orchard, Pomona Mills, Beverley Glen — Don tributary ravines</td>
+                </tr>
+                <tr className="border-b border-navy-50 last:border-0">
+                  <td className="px-4 py-2 font-semibold text-brand-900 bg-gray-50 w-1/4">Tier 2 (high)</td>
+                  <td className="px-4 py-2 text-gray-800">Aileen-Willowbrook, Westmount — mature canopy + creek edges</td>
+                </tr>
+                <tr className="border-b border-navy-50 last:border-0">
+                  <td className="px-4 py-2 font-semibold text-brand-900 bg-gray-50 w-1/4">Tier 3 (moderate)</td>
+                  <td className="px-4 py-2 text-gray-800">Thornhill Village, Commerce Valley — established residential</td>
+                </tr>
+                <tr className="border-b border-navy-50 last:border-0">
+                  <td className="px-4 py-2 font-semibold text-brand-900 bg-gray-50 w-1/4">Tier 4 (lower)</td>
+                  <td className="px-4 py-2 text-gray-800">New highrise areas at Yonge & Centre — minimal natural habitat</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <h3 className="text-lg font-extrabold text-brand-900 mb-2">What We've Observed Treating Thornhill</h3>
+          <p className="text-sm text-gray-700 leading-relaxed">Thornhill is split between Vaughan (west of Yonge) and Markham (east of Yonge). Both sides have extensive Don River tributary ravines running through neighborhoods — Pomona Mills, Bartley Smith Greenway, and the Don tributary system create continuous corridor pressure. Mature tree canopy is among the densest in York Region. Properties backing onto German Mills Settlers Park or any Don tributary face the highest pressure.</p>
+
+          <p className="text-xs text-gray-500 mt-4 italic">Sources: York Region Public Health surveillance data, Statistics Canada Census, BuzzSkito field observations. Public Health Ontario maintains the official tick surveillance program at <a href="https://www.publichealthontario.ca/en/Data-and-Analysis/Infectious-Disease/Lyme-Disease-Active-Tick-Surveillance" className="text-brand-700 hover:underline" target="_blank" rel="noopener noreferrer">publichealthontario.ca</a>.</p>
+        </div>
+      </section>
       {/* WHY SPECIALIST */}
       <section className="py-14 px-4 bg-white">
         <div className="max-w-4xl mx-auto prose-brand">

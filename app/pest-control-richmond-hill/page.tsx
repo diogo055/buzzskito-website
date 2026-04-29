@@ -149,6 +149,75 @@ export default function PestControlRichmondHillPage() {
         </div>
       </section>
 
+
+      {/* CITY PROFILE — unique data per city (Information Gain signal for 2026 SEO) */}
+      <section className="py-12 px-4 bg-white border-y border-gray-100">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-2xl font-extrabold text-brand-900 mb-2">Richmond Hill City Profile — What We've Observed Treating Richmond Hill Properties</h2>
+          <p className="text-gray-600 text-sm mb-6">Data and observations specific to Richmond Hill, drawn from BuzzSkito field experience and public surveillance records (not generic content recycled across our city pages).</p>
+
+          {/* Stats grid */}
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-8">
+            <div className="bg-brand-50 rounded-xl p-4">
+              <p className="text-xs text-gray-500 uppercase font-bold tracking-wider">Population</p>
+              <p className="text-lg font-extrabold text-brand-900 mt-1">202,000</p>
+            </div>
+            <div className="bg-brand-50 rounded-xl p-4">
+              <p className="text-xs text-gray-500 uppercase font-bold tracking-wider">Households</p>
+              <p className="text-lg font-extrabold text-brand-900 mt-1">~65,000</p>
+            </div>
+            <div className="bg-brand-50 rounded-xl p-4">
+              <p className="text-xs text-gray-500 uppercase font-bold tracking-wider">Public Health</p>
+              <p className="text-sm font-bold text-brand-900 mt-1 leading-tight">York Region Public Health</p>
+            </div>
+            <div className="bg-brand-50 rounded-xl p-4">
+              <p className="text-xs text-gray-500 uppercase font-bold tracking-wider">Drive Time</p>
+              <p className="text-sm font-bold text-brand-900 mt-1 leading-tight">~50 min from Mississauga HQ via 407</p>
+            </div>
+          </div>
+
+          <h3 className="text-lg font-extrabold text-brand-900 mb-2">Richmond Hill FSAs (Postal Code Areas) We Service</h3>
+          <p className="text-sm text-gray-700 mb-6 font-mono break-words">L4B, L4C, L4E, L4S</p>
+
+          <h3 className="text-lg font-extrabold text-brand-900 mb-2">Specific Richmond Hill Landmarks Near Our Treatment Zones</h3>
+          <p className="text-sm text-gray-700 mb-6">Mill Pond Park, Lake Wilcox, Oak Ridges Corridor, Phyllis Rawlinson Park, Rouge River headwaters, Richmond Hill Heritage Centre grounds</p>
+
+          <h3 className="text-lg font-extrabold text-brand-900 mb-3">Richmond Hill Mosquito & Tick Pressure by Neighborhood Tier</h3>
+          <div className="rounded-xl border border-navy-100 overflow-hidden mb-6">
+            <table className="w-full text-sm">
+              <thead className="bg-brand-800 text-white">
+                <tr>
+                  <th className="px-4 py-2 text-left">Pressure Tier</th>
+                  <th className="px-4 py-2 text-left">Richmond Hill Neighborhoods</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-b border-navy-50 last:border-0">
+                  <td className="px-4 py-2 font-semibold text-brand-900 bg-gray-50 w-1/4">Tier 1 (highest)</td>
+                  <td className="px-4 py-2 text-gray-800">Oak Ridges, Jefferson — Moraine core + Lake Wilcox</td>
+                </tr>
+                <tr className="border-b border-navy-50 last:border-0">
+                  <td className="px-4 py-2 font-semibold text-brand-900 bg-gray-50 w-1/4">Tier 2 (high)</td>
+                  <td className="px-4 py-2 text-gray-800">Mill Pond, Bayview Hill — pond + Don headwaters</td>
+                </tr>
+                <tr className="border-b border-navy-50 last:border-0">
+                  <td className="px-4 py-2 font-semibold text-brand-900 bg-gray-50 w-1/4">Tier 3 (moderate)</td>
+                  <td className="px-4 py-2 text-gray-800">Langstaff, Crosby, Doncrest — established residential</td>
+                </tr>
+                <tr className="border-b border-navy-50 last:border-0">
+                  <td className="px-4 py-2 font-semibold text-brand-900 bg-gray-50 w-1/4">Tier 4 (lower)</td>
+                  <td className="px-4 py-2 text-gray-800">North Richvale — minimal natural habitat</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <h3 className="text-lg font-extrabold text-brand-900 mb-2">What We've Observed Treating Richmond Hill</h3>
+          <p className="text-sm text-gray-700 leading-relaxed">Richmond Hill sits ON the Oak Ridges Moraine — one of the highest tick-density zones in Ontario per Public Health Ontario data. Lake Wilcox (a kettle lake) and Mill Pond produce significant mosquito populations. Oak Ridges and Jefferson neighborhoods have the highest combined mosquito + tick pressure in York Region. The Don River headwaters running through south Richmond Hill add corridor-driven mosquito pressure into Bayview Hill and Crosby.</p>
+
+          <p className="text-xs text-gray-500 mt-4 italic">Sources: York Region Public Health surveillance data, Statistics Canada Census, BuzzSkito field observations. Public Health Ontario maintains the official tick surveillance program at <a href="https://www.publichealthontario.ca/en/Data-and-Analysis/Infectious-Disease/Lyme-Disease-Active-Tick-Surveillance" className="text-brand-700 hover:underline" target="_blank" rel="noopener noreferrer">publichealthontario.ca</a>.</p>
+        </div>
+      </section>
       {/* WHY SPECIALIST */}
       <section className="py-14 px-4 bg-white">
         <div className="max-w-4xl mx-auto prose-brand">

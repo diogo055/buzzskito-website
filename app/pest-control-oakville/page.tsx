@@ -149,6 +149,75 @@ export default function PestControlOakvillePage() {
         </div>
       </section>
 
+
+      {/* CITY PROFILE — unique data per city (Information Gain signal for 2026 SEO) */}
+      <section className="py-12 px-4 bg-white border-y border-gray-100">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-2xl font-extrabold text-brand-900 mb-2">Oakville City Profile — What We've Observed Treating Oakville Properties</h2>
+          <p className="text-gray-600 text-sm mb-6">Data and observations specific to Oakville, drawn from BuzzSkito field experience and public surveillance records (not generic content recycled across our city pages).</p>
+
+          {/* Stats grid */}
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-8">
+            <div className="bg-brand-50 rounded-xl p-4">
+              <p className="text-xs text-gray-500 uppercase font-bold tracking-wider">Population</p>
+              <p className="text-lg font-extrabold text-brand-900 mt-1">213,000</p>
+            </div>
+            <div className="bg-brand-50 rounded-xl p-4">
+              <p className="text-xs text-gray-500 uppercase font-bold tracking-wider">Households</p>
+              <p className="text-lg font-extrabold text-brand-900 mt-1">~75,000</p>
+            </div>
+            <div className="bg-brand-50 rounded-xl p-4">
+              <p className="text-xs text-gray-500 uppercase font-bold tracking-wider">Public Health</p>
+              <p className="text-sm font-bold text-brand-900 mt-1 leading-tight">Halton Region Public Health</p>
+            </div>
+            <div className="bg-brand-50 rounded-xl p-4">
+              <p className="text-xs text-gray-500 uppercase font-bold tracking-wider">Drive Time</p>
+              <p className="text-sm font-bold text-brand-900 mt-1 leading-tight">~20–30 min from Mississauga HQ via QEW</p>
+            </div>
+          </div>
+
+          <h3 className="text-lg font-extrabold text-brand-900 mb-2">Oakville FSAs (Postal Code Areas) We Service</h3>
+          <p className="text-sm text-gray-700 mb-6 font-mono break-words">L6H, L6J, L6K, L6L, L6M</p>
+
+          <h3 className="text-lg font-extrabold text-brand-900 mb-2">Specific Oakville Landmarks Near Our Treatment Zones</h3>
+          <p className="text-sm text-gray-700 mb-6">Bronte Creek Provincial Park, Sixteen Mile Creek, Lions Valley Park, Coronation Park, Bronte Heritage Waterfront Park, Glen Abbey ravines, Joshua Creek</p>
+
+          <h3 className="text-lg font-extrabold text-brand-900 mb-3">Oakville Mosquito & Tick Pressure by Neighborhood Tier</h3>
+          <div className="rounded-xl border border-navy-100 overflow-hidden mb-6">
+            <table className="w-full text-sm">
+              <thead className="bg-brand-800 text-white">
+                <tr>
+                  <th className="px-4 py-2 text-left">Pressure Tier</th>
+                  <th className="px-4 py-2 text-left">Oakville Neighborhoods</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-b border-navy-50 last:border-0">
+                  <td className="px-4 py-2 font-semibold text-brand-900 bg-gray-50 w-1/4">Tier 1 (highest)</td>
+                  <td className="px-4 py-2 text-gray-800">Bronte, West Oak Trails, River Oaks — Bronte Creek + Lions Valley adjacency</td>
+                </tr>
+                <tr className="border-b border-navy-50 last:border-0">
+                  <td className="px-4 py-2 font-semibold text-brand-900 bg-gray-50 w-1/4">Tier 2 (high)</td>
+                  <td className="px-4 py-2 text-gray-800">Glen Abbey, Joshua Creek, Falgarwood — golf-course ravines + mature canopy</td>
+                </tr>
+                <tr className="border-b border-navy-50 last:border-0">
+                  <td className="px-4 py-2 font-semibold text-brand-900 bg-gray-50 w-1/4">Tier 3 (moderate)</td>
+                  <td className="px-4 py-2 text-gray-800">Old Oakville, Eastlake, Kerr Village — lakefront with mature trees</td>
+                </tr>
+                <tr className="border-b border-navy-50 last:border-0">
+                  <td className="px-4 py-2 font-semibold text-brand-900 bg-gray-50 w-1/4">Tier 4 (lower)</td>
+                  <td className="px-4 py-2 text-gray-800">North Oakville, Iroquois Ridge — newer development</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <h3 className="text-lg font-extrabold text-brand-900 mb-2">What We've Observed Treating Oakville</h3>
+          <p className="text-sm text-gray-700 leading-relaxed">Bronte Creek Provincial Park (the largest Provincial Park in the GTA) produces mosquito populations that disperse into Bronte, West Oak Trails, and River Oaks throughout the season. Lakefront Oakville (Old Oakville, Eastlake, Kerr Village) experiences activity slightly later than inland but extends 2–3 weeks longer due to Lake Ontario humidity. Glen Abbey's mature golf-course landscaping and ravines create persistent mosquito resting habitat.</p>
+
+          <p className="text-xs text-gray-500 mt-4 italic">Sources: Halton Region Public Health surveillance data, Statistics Canada Census, BuzzSkito field observations. Public Health Ontario maintains the official tick surveillance program at <a href="https://www.publichealthontario.ca/en/Data-and-Analysis/Infectious-Disease/Lyme-Disease-Active-Tick-Surveillance" className="text-brand-700 hover:underline" target="_blank" rel="noopener noreferrer">publichealthontario.ca</a>.</p>
+        </div>
+      </section>
       {/* WHY SPECIALIST */}
       <section className="py-14 px-4 bg-white">
         <div className="max-w-4xl mx-auto prose-brand">

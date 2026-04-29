@@ -149,6 +149,75 @@ export default function PestControlTorontoPage() {
         </div>
       </section>
 
+
+      {/* CITY PROFILE — unique data per city (Information Gain signal for 2026 SEO) */}
+      <section className="py-12 px-4 bg-white border-y border-gray-100">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-2xl font-extrabold text-brand-900 mb-2">Toronto City Profile — What We've Observed Treating Toronto Properties</h2>
+          <p className="text-gray-600 text-sm mb-6">Data and observations specific to Toronto, drawn from BuzzSkito field experience and public surveillance records (not generic content recycled across our city pages).</p>
+
+          {/* Stats grid */}
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-8">
+            <div className="bg-brand-50 rounded-xl p-4">
+              <p className="text-xs text-gray-500 uppercase font-bold tracking-wider">Population</p>
+              <p className="text-lg font-extrabold text-brand-900 mt-1">2.79 million</p>
+            </div>
+            <div className="bg-brand-50 rounded-xl p-4">
+              <p className="text-xs text-gray-500 uppercase font-bold tracking-wider">Households</p>
+              <p className="text-lg font-extrabold text-brand-900 mt-1">~1.05 million</p>
+            </div>
+            <div className="bg-brand-50 rounded-xl p-4">
+              <p className="text-xs text-gray-500 uppercase font-bold tracking-wider">Public Health</p>
+              <p className="text-sm font-bold text-brand-900 mt-1 leading-tight">Toronto Public Health</p>
+            </div>
+            <div className="bg-brand-50 rounded-xl p-4">
+              <p className="text-xs text-gray-500 uppercase font-bold tracking-wider">Drive Time</p>
+              <p className="text-sm font-bold text-brand-900 mt-1 leading-tight">~30–45 min from Mississauga HQ depending on neighborhood</p>
+            </div>
+          </div>
+
+          <h3 className="text-lg font-extrabold text-brand-900 mb-2">Toronto FSAs (Postal Code Areas) We Service</h3>
+          <p className="text-sm text-gray-700 mb-6 font-mono break-words">M4G, M4H, M4J, M4K, M4L, M4M, M4N, M4P, M4R, M4S, M4T, M4V, M4W, M4X, M4Y, M5A, M5B, M5R, M5S, M5T, M6A, M6B, M6C, M6E, M6G, M6H, M6J, M6K, M6L, M6M, M6N, M6P, M6R, M6S</p>
+
+          <h3 className="text-lg font-extrabold text-brand-900 mb-2">Specific Toronto Landmarks Near Our Treatment Zones</h3>
+          <p className="text-sm text-gray-700 mb-6">High Park, Don Valley Park, Humber River corridor, Sunnybrook Park, Edwards Gardens, Wilket Creek Park, Taylor Creek Park, E.T. Seton Park, Crothers Woods, Glen Stewart Ravine, Cedarvale Ravine</p>
+
+          <h3 className="text-lg font-extrabold text-brand-900 mb-3">Toronto Mosquito & Tick Pressure by Neighborhood Tier</h3>
+          <div className="rounded-xl border border-navy-100 overflow-hidden mb-6">
+            <table className="w-full text-sm">
+              <thead className="bg-brand-800 text-white">
+                <tr>
+                  <th className="px-4 py-2 text-left">Pressure Tier</th>
+                  <th className="px-4 py-2 text-left">Toronto Neighborhoods</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-b border-navy-50 last:border-0">
+                  <td className="px-4 py-2 font-semibold text-brand-900 bg-gray-50 w-1/4">Tier 1 (highest)</td>
+                  <td className="px-4 py-2 text-gray-800">Rosedale, Forest Hill, Leaside, East York, Don Mills — Don Valley ravine adjacency</td>
+                </tr>
+                <tr className="border-b border-navy-50 last:border-0">
+                  <td className="px-4 py-2 font-semibold text-brand-900 bg-gray-50 w-1/4">Tier 2 (high)</td>
+                  <td className="px-4 py-2 text-gray-800">High Park area, Etobicoke (Humber Valley), The Beaches, Lawrence Park, Sunnybrook</td>
+                </tr>
+                <tr className="border-b border-navy-50 last:border-0">
+                  <td className="px-4 py-2 font-semibold text-brand-900 bg-gray-50 w-1/4">Tier 3 (moderate)</td>
+                  <td className="px-4 py-2 text-gray-800">Bridle Path, Hoggs Hollow, Willowdale, North York — mature canopy without direct ravine</td>
+                </tr>
+                <tr className="border-b border-navy-50 last:border-0">
+                  <td className="px-4 py-2 font-semibold text-brand-900 bg-gray-50 w-1/4">Tier 4 (lower)</td>
+                  <td className="px-4 py-2 text-gray-800">Downtown core highrise areas, Yonge corridor — minimal vegetation</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <h3 className="text-lg font-extrabold text-brand-900 mb-2">What We've Observed Treating Toronto</h3>
+          <p className="text-sm text-gray-700 leading-relaxed">Toronto's ravine system — the largest urban ravine network in North America — produces mosquito populations that disperse up to 3 km from emergence sites. Don Valley-adjacent neighborhoods (Rosedale, Forest Hill, Leaside, East York) experience pressure 2–3 weeks longer than non-ravine Toronto. Ash dieback in Don Valley has changed canopy structure since 2020, slightly reducing mosquito resting habitat in some sections.</p>
+
+          <p className="text-xs text-gray-500 mt-4 italic">Sources: Toronto Public Health surveillance data, Statistics Canada Census, BuzzSkito field observations. Public Health Ontario maintains the official tick surveillance program at <a href="https://www.publichealthontario.ca/en/Data-and-Analysis/Infectious-Disease/Lyme-Disease-Active-Tick-Surveillance" className="text-brand-700 hover:underline" target="_blank" rel="noopener noreferrer">publichealthontario.ca</a>.</p>
+        </div>
+      </section>
       {/* WHY SPECIALIST */}
       <section className="py-14 px-4 bg-white">
         <div className="max-w-4xl mx-auto prose-brand">

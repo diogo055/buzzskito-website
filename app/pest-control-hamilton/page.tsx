@@ -149,6 +149,75 @@ export default function PestControlHamiltonPage() {
         </div>
       </section>
 
+
+      {/* CITY PROFILE — unique data per city (Information Gain signal for 2026 SEO) */}
+      <section className="py-12 px-4 bg-white border-y border-gray-100">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-2xl font-extrabold text-brand-900 mb-2">Hamilton City Profile — What We've Observed Treating Hamilton Properties</h2>
+          <p className="text-gray-600 text-sm mb-6">Data and observations specific to Hamilton, drawn from BuzzSkito field experience and public surveillance records (not generic content recycled across our city pages).</p>
+
+          {/* Stats grid */}
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-8">
+            <div className="bg-brand-50 rounded-xl p-4">
+              <p className="text-xs text-gray-500 uppercase font-bold tracking-wider">Population</p>
+              <p className="text-lg font-extrabold text-brand-900 mt-1">569,000</p>
+            </div>
+            <div className="bg-brand-50 rounded-xl p-4">
+              <p className="text-xs text-gray-500 uppercase font-bold tracking-wider">Households</p>
+              <p className="text-lg font-extrabold text-brand-900 mt-1">~210,000</p>
+            </div>
+            <div className="bg-brand-50 rounded-xl p-4">
+              <p className="text-xs text-gray-500 uppercase font-bold tracking-wider">Public Health</p>
+              <p className="text-sm font-bold text-brand-900 mt-1 leading-tight">City of Hamilton Public Health Services</p>
+            </div>
+            <div className="bg-brand-50 rounded-xl p-4">
+              <p className="text-xs text-gray-500 uppercase font-bold tracking-wider">Drive Time</p>
+              <p className="text-sm font-bold text-brand-900 mt-1 leading-tight">~45–60 min from Mississauga HQ via QEW</p>
+            </div>
+          </div>
+
+          <h3 className="text-lg font-extrabold text-brand-900 mb-2">Hamilton FSAs (Postal Code Areas) We Service</h3>
+          <p className="text-sm text-gray-700 mb-6 font-mono break-words">L8E, L8G, L8H, L8J, L8K, L8L, L8M, L8N, L8P, L8R, L8S, L8T, L8V, L8W, L9A, L9B, L9C, L9G, L9H, L9K</p>
+
+          <h3 className="text-lg font-extrabold text-brand-900 mb-2">Specific Hamilton Landmarks Near Our Treatment Zones</h3>
+          <p className="text-sm text-gray-700 mb-6">Cootes Paradise (Royal Botanical Gardens), Dundas Valley Conservation Area, Bruce Trail, Niagara Escarpment, Red Hill Valley Park, Fifty Point Conservation Area, Spencer Creek</p>
+
+          <h3 className="text-lg font-extrabold text-brand-900 mb-3">Hamilton Mosquito & Tick Pressure by Neighborhood Tier</h3>
+          <div className="rounded-xl border border-navy-100 overflow-hidden mb-6">
+            <table className="w-full text-sm">
+              <thead className="bg-brand-800 text-white">
+                <tr>
+                  <th className="px-4 py-2 text-left">Pressure Tier</th>
+                  <th className="px-4 py-2 text-left">Hamilton Neighborhoods</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-b border-navy-50 last:border-0">
+                  <td className="px-4 py-2 font-semibold text-brand-900 bg-gray-50 w-1/4">Tier 1 (highest)</td>
+                  <td className="px-4 py-2 text-gray-800">Westdale, Ainslie Wood, Dundas, Ancaster — Cootes Paradise + Dundas Valley + Escarpment</td>
+                </tr>
+                <tr className="border-b border-navy-50 last:border-0">
+                  <td className="px-4 py-2 font-semibold text-brand-900 bg-gray-50 w-1/4">Tier 2 (high)</td>
+                  <td className="px-4 py-2 text-gray-800">Stoney Creek, Waterdown — Red Hill Creek + lakefront + escarpment edge</td>
+                </tr>
+                <tr className="border-b border-navy-50 last:border-0">
+                  <td className="px-4 py-2 font-semibold text-brand-900 bg-gray-50 w-1/4">Tier 3 (moderate)</td>
+                  <td className="px-4 py-2 text-gray-800">Downtown Hamilton, Mountain neighborhoods — urban with parks</td>
+                </tr>
+                <tr className="border-b border-navy-50 last:border-0">
+                  <td className="px-4 py-2 font-semibold text-brand-900 bg-gray-50 w-1/4">Tier 4 (lower)</td>
+                  <td className="px-4 py-2 text-gray-800">Binbrook, Mount Hope, Glanbrook — agricultural/rural with less standing water</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <h3 className="text-lg font-extrabold text-brand-900 mb-2">What We've Observed Treating Hamilton</h3>
+          <p className="text-sm text-gray-700 leading-relaxed">Cootes Paradise — one of the Great Lakes basin's largest urban wetlands — is directly adjacent to Hamilton's west end (Westdale, Ainslie Wood, McMaster). It is one of the most productive urban mosquito sources in Southern Ontario. Hamilton's lower city (below the Escarpment) has urban heat island effects that extend the season 2–3 weeks past upper-city neighborhoods. Bruce Trail corridor through Dundas Valley adds significant blacklegged tick exposure.</p>
+
+          <p className="text-xs text-gray-500 mt-4 italic">Sources: City of Hamilton Public Health Services surveillance data, Statistics Canada Census, BuzzSkito field observations. Public Health Ontario maintains the official tick surveillance program at <a href="https://www.publichealthontario.ca/en/Data-and-Analysis/Infectious-Disease/Lyme-Disease-Active-Tick-Surveillance" className="text-brand-700 hover:underline" target="_blank" rel="noopener noreferrer">publichealthontario.ca</a>.</p>
+        </div>
+      </section>
       {/* WHY SPECIALIST */}
       <section className="py-14 px-4 bg-white">
         <div className="max-w-4xl mx-auto prose-brand">
