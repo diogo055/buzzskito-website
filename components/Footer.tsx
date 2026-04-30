@@ -131,9 +131,9 @@ export default function Footer() {
         {/* Credentials bar */}
         <div className="border-t border-brand-900 mt-10 pt-6 pb-4">
           <div className="flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-xs text-brand-400">
-            <span><strong className="text-brand-300">Canada Business Reg#</strong> 1001003669</span>
+            <span><strong className="text-brand-300">Canada Business Reg#</strong> {BUSINESS.canadaBusinessReg}</span>
             <span aria-hidden="true">·</span>
-            <span><strong className="text-brand-300">Ontario Licensed</strong> Pesticide Applicator</span>
+            <span><strong className="text-brand-300">Ontario Pesticide Operator Licence</strong> #{BUSINESS.licenseNumber}</span>
             <span aria-hidden="true">·</span>
             <span><strong className="text-brand-300">Health Canada</strong>–Approved Formulations</span>
             <span aria-hidden="true">·</span>

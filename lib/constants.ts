@@ -31,6 +31,10 @@ export const BUSINESS = {
   facebookUrl: 'https://www.facebook.com/458721543988714',
   gaId: 'G-X7RV1EQWD8',
   fbPixelId: '1084801329974159',
+  // Ontario MOECP Pesticide Operator/Applicator Licence — required by law
+  // for commercial pesticide application in Ontario.
+  licenseNumber: 'L-240-2436835197',
+  canadaBusinessReg: '1001003669',
   // Microsoft Clarity — heatmaps + session recording (free).
   // Project: BuzzSkito · Industry: B2C Services · clarity.microsoft.com/projects/view/qp6yufkbs2
   clarityId: 'qp6yufkbs2',

@@ -95,8 +95,20 @@ export function localBusinessSchema(overrides: { areaServed?: string; descriptio
       `${SITE_URL}/buzzskito-history`,
     ],
     identifier: [
-      { '@type': 'PropertyValue', propertyID: 'CanadaBusinessRegistration', value: '1001003669' },
+      { '@type': 'PropertyValue', propertyID: 'CanadaBusinessRegistration', value: BUSINESS.canadaBusinessReg },
+      { '@type': 'PropertyValue', propertyID: 'OntarioPesticideOperatorLicence', value: BUSINESS.licenseNumber },
     ],
+    hasCredential: {
+      '@type': 'EducationalOccupationalCredential',
+      credentialCategory: 'license',
+      name: 'Ontario Pesticide Operator Licence',
+      identifier: BUSINESS.licenseNumber,
+      recognizedBy: {
+        '@type': 'GovernmentOrganization',
+        name: 'Ontario Ministry of the Environment, Conservation and Parks',
+        url: 'https://www.ontario.ca/page/ministry-environment-conservation-parks',
+      },
+    },
     knowsLanguage: 'en-CA',
     slogan: 'BuzzSkito Bite-Free Guarantee — Mosquito & Tick Specialist for the GTA',
   }
@@ -299,8 +311,20 @@ export function organizationSchema() {
       `${SITE_URL}/reviews`,
     ],
     identifier: [
-      { '@type': 'PropertyValue', propertyID: 'CanadaBusinessRegistration', value: '1001003669' },
+      { '@type': 'PropertyValue', propertyID: 'CanadaBusinessRegistration', value: BUSINESS.canadaBusinessReg },
+      { '@type': 'PropertyValue', propertyID: 'OntarioPesticideOperatorLicence', value: BUSINESS.licenseNumber },
     ],
+    hasCredential: {
+      '@type': 'EducationalOccupationalCredential',
+      credentialCategory: 'license',
+      name: 'Ontario Pesticide Operator Licence',
+      identifier: BUSINESS.licenseNumber,
+      recognizedBy: {
+        '@type': 'GovernmentOrganization',
+        name: 'Ontario Ministry of the Environment, Conservation and Parks',
+        url: 'https://www.ontario.ca/page/ministry-environment-conservation-parks',
+      },
+    },
     foundingLocation: {
       '@type': 'Place',
       address: { '@type': 'PostalAddress', addressLocality: 'Mississauga', addressRegion: 'ON', addressCountry: 'CA' },
