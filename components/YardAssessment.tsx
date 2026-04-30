@@ -393,13 +393,20 @@ export default function YardAssessment() {
             })
             const neighbours = neighboursUsingBuzzSkito(parsedAddress?.formatted || address || email)
             const showLocalContext = featureMatch.isInServiceArea && featureMatch.feature
-            const locationLabel = featureMatch.neighbourhoodMatch || featureMatch.cityMatch
+            // Build a precise location label: "Neighbourhood, City" when a known
+            // neighbourhood matched, otherwise just the city. This makes the
+            // personalization explicit so customers can verify it matches their area.
+            const cityName = parsedAddress?.city || null
+            const hoodName = featureMatch.neighbourhoodMatch || null
+            const locationLabel = hoodName && cityName && hoodName.toLowerCase() !== cityName.toLowerCase()
+              ? `${hoodName}, ${cityName}`
+              : (cityName || hoodName)
             return (
               <div className="rounded-2xl border border-brand-100 bg-white p-6">
                 <h3 className="text-lg font-extrabold text-brand-900 mb-2">Your Personalized Protection Plan</h3>
-                {showLocalContext ? (
+                {showLocalContext && locationLabel ? (
                   <p className="text-gray-700 text-sm mb-4">
-                    Based on your area, we recommend our <strong>Standard Protection Plan</strong> — because <strong>{featureMatch.feature}</strong> {featureMatch.reason}, your property needs continuous bi-weekly coverage from May through September.
+                    Based on your property in <strong>{locationLabel}</strong>, we recommend our <strong>Standard Protection Plan</strong>. <strong>{featureMatch.feature}</strong> — {featureMatch.reason}, so continuous bi-weekly coverage from May through September is the most effective protection for your yard.
                   </p>
                 ) : (
                   <p className="text-gray-600 text-sm mb-4">
