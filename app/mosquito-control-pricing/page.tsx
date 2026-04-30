@@ -114,17 +114,17 @@ export default function MosquitoControlPricingPage() {
                 name: 'Standard',
                 price: '$994',
                 treatments: '10 treatments',
-                perTreatment: '$249/treatment',
-                features: ['May through September', 'Every 28 days', 'Mosquito barrier spray', 'Health Canada-approved formula', 'Rain-back guarantee', 'No contracts', 'Priority scheduling'],
+                perTreatment: '$99/treatment',
+                features: ['May through September', 'Bi-weekly (every 14 days)', 'Mosquito barrier spray', 'Health Canada-approved formula', 'Rain-back guarantee', 'No contracts', 'Priority scheduling'],
                 best: 'Most GTA suburban properties',
                 popular: true,
               },
               {
                 name: 'Exclusive',
                 price: '$2,049',
-                treatments: '5 treatments',
-                perTreatment: '$410/treatment',
-                features: ['May through September', 'Every 21 days', 'Mosquito + tick barrier spray', 'Health Canada-approved formula', 'Rain-back guarantee', 'No contracts', 'Priority scheduling', 'Tick control included'],
+                treatments: '20+ treatments',
+                perTreatment: '$102/treatment',
+                features: ['May through September', 'Weekly (every 7 days)', 'Mosquito + tick barrier spray', 'Health Canada-approved formula', 'Rain-back guarantee', 'No contracts', 'Priority scheduling', 'Tick control included'],
                 best: 'High-pressure properties near ravines, water, or conservation areas',
               },
             ].map(({ name, price, treatments, perTreatment, features, best, popular }) => (
@@ -181,7 +181,7 @@ export default function MosquitoControlPricingPage() {
           <p>The single biggest factor in pricing. Larger lots require more product and more technician time. Most GTA suburban lots fall in the standard category (under 6,000 sq ft). Properties on ravine lots, cul-de-sacs with oversized yards, or rural acreage are quoted individually.</p>
 
           <h3>2. Treatment Frequency</h3>
-          <p>More treatments per season means better coverage but higher total cost. However, per-treatment cost drops substantially with seasonal packages. A single $99 treatment is great for evaluating results, but consistent 21&ndash;28-day scheduling delivers dramatically better seasonal outcomes.</p>
+          <p>More treatments per season means better coverage but higher total cost. However, per-treatment cost drops substantially with seasonal packages. A single $99 treatment is great for evaluating results, but consistent 7&ndash;30-day scheduling delivers dramatically better seasonal outcomes.</p>
 
           <h3>3. Tick Control Add-On</h3>
           <p>Tick treatment can be added to any mosquito program. The Exclusive package includes tick control in the price. For other packages or single treatments, tick add-on is available at an additional cost. Properties near ravines, conservation areas, or in York Region (where blacklegged tick populations are well-established) benefit most from combined treatment.</p>
@@ -195,7 +195,7 @@ export default function MosquitoControlPricingPage() {
               <thead>
                 <tr className="bg-brand-800 text-white">
                   <th className="px-4 py-3 text-left">Approach</th>
-                  <th className="px-4 py-3 text-left">Season Cost (5 visits)</th>
+                  <th className="px-4 py-3 text-left">Season Cost</th>
                   <th className="px-4 py-3 text-left">Per Treatment</th>
                   <th className="px-4 py-3 text-left">Scheduling</th>
                 </tr>
@@ -203,9 +203,9 @@ export default function MosquitoControlPricingPage() {
               <tbody>
                 {[
                   { approach: 'Individual bookings (5x)', cost: '$495+', per: 'From $99 each', sched: 'You manage timing' },
-                  { approach: 'Basic package (5 treatments)', cost: '$549', per: '$110 each', sched: 'Pre-scheduled' },
-                  { approach: 'Standard package (10 treatments)', cost: '$994', per: '$99 each', sched: 'Pre-scheduled + priority' },
-                  { approach: 'Exclusive package (5 treatments)', cost: '$2,049', per: '$410 each', sched: 'Pre-scheduled + priority + tick' },
+                  { approach: 'Basic package (5 treatments)', cost: '$549', per: '$110 each', sched: 'Pre-scheduled · monthly' },
+                  { approach: 'Standard package (10 treatments)', cost: '$994', per: '$99 each', sched: 'Pre-scheduled · bi-weekly + priority' },
+                  { approach: 'Exclusive package (20+ treatments)', cost: '$2,049', per: '$102 each', sched: 'Pre-scheduled · weekly + priority + tick' },
                 ].map(({ approach, cost, per, sched }) => (
                   <tr key={approach} className="border-b border-gray-200 even:bg-gray-50">
                     <td className="px-4 py-3 font-semibold text-gray-800">{approach}</td>
