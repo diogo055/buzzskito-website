@@ -7,7 +7,7 @@ import { MOSQUITO_BLOGS, CITIES } from '@/lib/constants'
 const POST = MOSQUITO_BLOGS.pillar
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Backyard Mosquito Control Guide | GTA',
+  title: 'Backyard Mosquito Control GTA 2026 — The Complete Guide (What Works + What\'s a Scam)',
   description: 'Complete GTA mosquito guide: biology, why they\'re worse near water, prevention strategies, barrier spray explained, seasonal Ontario calendar.',
   canonical: `/blog/${POST.slug}`,
   type: 'article',

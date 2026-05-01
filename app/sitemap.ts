@@ -227,6 +227,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'thermacell-canada-where-to-buy',
     'mosquito-bits-canada-vs-dunks',
     'permethrin-canada-yard-clothing-spray',
+    'mosquito-magnet-canada',
+    'picaridin-vs-deet-canada',
+    'dynatrap-canada-review',
+    'bug-zappers-canada-do-they-work',
   ]
   const registeredSlugs = new Set(allBlogArrays.map(p => p.slug))
   const extraBlogs: MetadataRoute.Sitemap = extraBlogSlugs

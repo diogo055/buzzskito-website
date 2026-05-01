@@ -7,7 +7,7 @@ import { MOSQUITO_BLOGS } from '@/lib/constants'
 const POST = MOSQUITO_BLOGS.supporting[1]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Mosquito Spray Lasts 21–30 Days — Here’s Why',
+  title: 'How Long Does Mosquito Spray Last? 21–30 Days (Real Test Results 2026)',
   description:
     'Professional mosquito barrier spray lasts up to 30 days. How weather, coverage, and products affect duration.',
   canonical: `/blog/${POST.slug}`,
