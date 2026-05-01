@@ -5,7 +5,7 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 
 const SLUG = 'mosquito-dunks-canada-guide'
 const DATE = '2026-04-28'
-const TITLE = 'Mosquito Dunks — Complete Canada Guide (2026)'
+const TITLE = 'Mosquito Dunks Canada 2026 — Where to Buy + How They Work'
 
 const FAQS = [
   {
@@ -37,14 +37,22 @@ const FAQS = [
     answer: 'Mosquito dunks are widely available in Canada: Canadian Tire (in-store and online), Home Depot Canada, Rona, Lowe\'s Canada, most garden centres, and Amazon.ca. Look for the Summit Chemical brand (most common — orange and white packaging) or Safer\'s Brand (also widely stocked). Prices range from $10–$20 for a 6-pack, $25–$35 for a 20-pack. Stock up at the start of mosquito season (April–May) — supplies often run low by mid-summer.',
   },
   {
+    question: 'How much do mosquito dunks cost in Canada?',
+    answer: 'In Canada, expect to pay $12–$20 for a 6-pack of mosquito dunks at major retailers in 2026. Canadian Tire and Home Depot typically list 6-packs at $13.97–$15.99. Rona is usually $14.99–$16.49. Amazon.ca varies $11–$19 depending on seller and Prime status. A 20-pack runs $25–$35 — better value if you have multiple rain barrels or a pond. Prices increase 10–15% in peak season (June–August), so buying in April–May saves money. Each dunk treats 100 sq ft of water for ~30 days, so a 6-pack covers a typical Canadian backyard rain barrel for the entire May–September season.',
+  },
+  {
+    question: 'Are mosquito dunks BTI-only or do they have other ingredients?',
+    answer: 'Mosquito dunks are essentially pure BTI (Bacillus thuringiensis subspecies israelensis) compressed with an inert binder that allows the slow 30-day release. The BTI is the only active ingredient — it specifically targets mosquito and black fly larvae. There are no synthetic chemicals, no pyrethroids, no insecticides beyond the BTI bacterium. This is what makes dunks safe for fish, pets, pollinators, and humans. The Summit Chemical brand sold most widely in Canada is registered with Health Canada under PCP # 18158.',
+  },
+  {
     question: 'Can I use mosquito dunks in a swimming pool?',
     answer: 'Only in a NEGLECTED or unused pool that has standing water. Mosquito dunks are not meant for active, chlorinated swimming pools — chlorine kills larvae anyway, and pool filtration would render the dunk ineffective. If you have an inactive pool that has accumulated rainwater, drop in a dunk to prevent it from becoming a mosquito breeding site until you can drain it. For active pools, just maintain proper chlorine levels.',
   },
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Mosquito Dunks Canada · Complete 2026 Guide',
-  description: 'Where to buy mosquito dunks in Canada, how they work, BTI safety, dunks vs bits, and how to integrate them with professional yard mosquito control.',
+  title: 'Mosquito Dunks Canada 2026 — Where to Buy + How They Work',
+  description: 'Where to buy mosquito dunks in Canada (Canadian Tire, Rona, Home Depot, Amazon.ca — prices compared), how BTI dunks actually kill larvae, dunks vs bits, safety, and how they fit a complete yard mosquito plan. Updated 2026.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -67,6 +75,54 @@ export default function MosquitoDunksPage() {
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
           <p className="text-xl text-brand-100 max-w-3xl">Where to buy them in Canada, how they actually work, and how to combine them with yard barrier spray for total mosquito control.</p>
+        </div>
+      </section>
+
+      {/* WHERE TO BUY — top of page for shopping intent */}
+      <section className="bg-gradient-to-br from-emerald-50 to-white border-b border-emerald-200 py-10 px-4">
+        <div className="max-w-4xl mx-auto">
+          <p className="text-xs font-extrabold text-emerald-700 uppercase tracking-wider mb-2">Where to Buy in Canada · Updated 2026</p>
+          <h2 className="text-2xl font-extrabold text-brand-900 mb-4">Mosquito Dunks: Where to Buy in Canada (Prices Compared)</h2>
+          <p className="text-sm text-gray-700 mb-5 leading-relaxed">
+            Summit Chemical mosquito dunks (the orange-and-white 6-pack) and Safer&rsquo;s Brand are the two most widely stocked options across Canadian retailers. Here&rsquo;s the typical pricing as of spring 2026:
+          </p>
+          <div className="rounded-xl border border-navy-100 overflow-hidden bg-white shadow-sm">
+            <table className="w-full text-sm">
+              <thead className="bg-brand-800 text-white">
+                <tr>
+                  <th className="px-4 py-3 text-left">Retailer</th>
+                  <th className="px-4 py-3 text-left">6-Pack Price</th>
+                  <th className="px-4 py-3 text-left">20-Pack Price</th>
+                  <th className="px-4 py-3 text-left">Availability</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  { name: 'Canadian Tire',     six: '$14.99 – $15.99', twenty: '$29.99 – $34.99', avail: 'In-store + online · most consistent stock' },
+                  { name: 'Home Depot Canada', six: '$13.97 – $15.97', twenty: '$26.97 – $32.97', avail: 'In-store + online · pickup same day' },
+                  { name: 'Rona',              six: '$14.49 – $16.49', twenty: '$28.99 – $34.49', avail: 'In-store + online' },
+                  { name: 'Lowe\'s Canada',    six: '$14.99 – $15.99', twenty: '$29.99 – $33.99', avail: 'In-store + online' },
+                  { name: 'Amazon.ca',         six: '$11 – $19',        twenty: '$24 – $35',       avail: 'Often Prime · check seller reviews' },
+                  { name: 'Garden centres',    six: '$13 – $18',        twenty: '$28 – $36',       avail: 'Independent local stocks vary' },
+                ].map(({ name, six, twenty, avail }) => (
+                  <tr key={name} className="border-b border-navy-50 last:border-0">
+                    <td className="px-4 py-3 font-bold text-brand-800">{name}</td>
+                    <td className="px-4 py-3 font-mono text-gray-800">{six}</td>
+                    <td className="px-4 py-3 font-mono text-gray-800">{twenty}</td>
+                    <td className="px-4 py-3 text-xs text-gray-600">{avail}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-gray-500 mt-3">
+            Prices accurate as of May 2026. Stock up in April–May — supply tightens by July and prices rise 10–15% in peak season. Each dunk treats 100 sq ft of water surface for ~30 days, so a 6-pack covers most Canadian backyard rain barrels through the entire May–September season.
+          </p>
+          <div className="mt-5 rounded-xl bg-amber-50 border-l-4 border-amber-400 p-4">
+            <p className="text-sm text-gray-800 leading-relaxed">
+              <strong className="text-amber-900">⚠️ Important — dunks only solve half the problem.</strong> They kill mosquito <em>larvae</em> in the water you treat. Adult mosquitoes flying in from your neighbours&rsquo; yards, ravines, and creeks are unaffected. To actually enjoy your yard bite-free, combine dunks (your standing water) with <Link href="/mosquito-control" className="text-emerald-700 underline font-semibold">professional barrier spray</Link> on vegetation. Dunks: $15/season. Barrier spray: from $99/treatment.
+            </p>
+          </div>
         </div>
       </section>
 
