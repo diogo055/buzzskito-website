@@ -223,6 +223,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'how-to-keep-ticks-out-of-yard-ontario',
     'mosquito-mistakes-ontario-homeowners-make',
     'tick-bites-that-wont-heal-when-to-worry',
+    // ── Canada product guides (May 2026) — following dunks template ──
+    'thermacell-canada-where-to-buy',
+    'mosquito-bits-canada-vs-dunks',
+    'permethrin-canada-yard-clothing-spray',
   ]
   const registeredSlugs = new Set(allBlogArrays.map(p => p.slug))
   const extraBlogs: MetadataRoute.Sitemap = extraBlogSlugs
