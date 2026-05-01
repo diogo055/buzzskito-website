@@ -48,6 +48,12 @@ const ALL_AREA_SERVED = [
 // the site. Credentials/identifiers live on organizationSchema (emitted globally
 // in layout.tsx) — keeping them off LocalBusiness avoids `<parent_node>` parser
 // errors that Google reports when those fields are nested inside PestControlService.
+//
+// @type uses an array ['LocalBusiness', 'PestControlService'] because Google's
+// Review Snippets validator only recognizes its explicit list of LocalBusiness
+// subtypes (Restaurant, Dentist, Store, etc.) — PestControlService is valid in
+// schema.org but not in Google's accepted-types list. Including LocalBusiness
+// directly tells the validator the AggregateRating parent is a supported type.
 export function localBusinessSchema(overrides: {
   areaServed?: string
   description?: string
@@ -55,7 +61,7 @@ export function localBusinessSchema(overrides: {
 } = {}) {
   const schema: Record<string, unknown> = {
     '@context': 'https://schema.org',
-    '@type': 'PestControlService',
+    '@type': ['LocalBusiness', 'PestControlService'],
     '@id': `${SITE_URL}/#business`,
     name: BUSINESS.legalName,
     url: SITE_URL,
@@ -278,7 +284,7 @@ export function websiteSchema() {
     name: BUSINESS.name,
     description: BUSINESS.description,
     inLanguage: 'en-CA',
-    publisher: { '@type': 'PestControlService', '@id': `${SITE_URL}/#business` },
+    publisher: { '@type': 'LocalBusiness', '@id': `${SITE_URL}/#business` },
   }
 }
 
@@ -327,7 +333,7 @@ export function organizationSchema() {
       '@type': 'Place',
       address: { '@type': 'PostalAddress', addressLocality: 'Mississauga', addressRegion: 'ON', addressCountry: 'CA' },
     },
-    subOrganization: { '@type': 'PestControlService', '@id': `${SITE_URL}/#business` },
+    subOrganization: { '@type': 'LocalBusiness', '@id': `${SITE_URL}/#business` },
     knowsAbout: [
       'Mosquito control',
       'Tick control',
