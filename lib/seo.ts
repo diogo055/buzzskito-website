@@ -42,8 +42,18 @@ const ALL_AREA_SERVED = [
 
 // ── Schema builders ───────────────────────────────────────────────────────────
 
-export function localBusinessSchema(overrides: { areaServed?: string; description?: string } = {}) {
-  return {
+// localBusinessSchema — emit on every page (per-page areaServed for local relevance).
+// aggregateRating is OPT-IN: only emitted on the homepage and /reviews to prevent
+// Google's review-snippet parser from flagging "multiple aggregate ratings" across
+// the site. Credentials/identifiers live on organizationSchema (emitted globally
+// in layout.tsx) — keeping them off LocalBusiness avoids `<parent_node>` parser
+// errors that Google reports when those fields are nested inside PestControlService.
+export function localBusinessSchema(overrides: {
+  areaServed?: string
+  description?: string
+  includeAggregateRating?: boolean
+} = {}) {
+  const schema: Record<string, unknown> = {
     '@context': 'https://schema.org',
     '@type': 'PestControlService',
     '@id': `${SITE_URL}/#business`,
@@ -73,12 +83,6 @@ export function localBusinessSchema(overrides: { areaServed?: string; descriptio
       { '@type': 'OpeningHoursSpecification', dayOfWeek: ['Monday','Tuesday','Wednesday','Thursday','Friday'], opens: '08:00', closes: '18:00' },
       { '@type': 'OpeningHoursSpecification', dayOfWeek: ['Saturday'], opens: '09:00', closes: '16:00' },
     ],
-    aggregateRating: {
-      '@type': 'AggregateRating',
-      ratingValue: BUSINESS.aggregateRating.ratingValue,
-      bestRating: BUSINESS.aggregateRating.bestRating,
-      ratingCount: BUSINESS.aggregateRating.ratingCount,
-    },
     hasOfferCatalog: {
       '@type': 'OfferCatalog',
       name: 'Mosquito & Tick Control Services',
@@ -94,24 +98,18 @@ export function localBusinessSchema(overrides: { areaServed?: string; descriptio
       `${SITE_URL}/reviews`,
       `${SITE_URL}/buzzskito-history`,
     ],
-    identifier: [
-      { '@type': 'PropertyValue', propertyID: 'CanadaBusinessRegistration', value: BUSINESS.canadaBusinessReg },
-      { '@type': 'PropertyValue', propertyID: 'OntarioPesticideOperatorLicence', value: BUSINESS.licenseNumber },
-    ],
-    hasCredential: {
-      '@type': 'EducationalOccupationalCredential',
-      credentialCategory: 'license',
-      name: 'Ontario Pesticide Operator Licence',
-      identifier: BUSINESS.licenseNumber,
-      recognizedBy: {
-        '@type': 'GovernmentOrganization',
-        name: 'Ontario Ministry of the Environment, Conservation and Parks',
-        url: 'https://www.ontario.ca/page/ministry-environment-conservation-parks',
-      },
-    },
     knowsLanguage: 'en-CA',
     slogan: 'BuzzSkito Bite-Free Guarantee — Mosquito & Tick Specialist for the GTA',
   }
+  if (overrides.includeAggregateRating) {
+    schema.aggregateRating = {
+      '@type': 'AggregateRating',
+      ratingValue: BUSINESS.aggregateRating.ratingValue,
+      bestRating: BUSINESS.aggregateRating.bestRating,
+      ratingCount: BUSINESS.aggregateRating.ratingCount,
+    }
+  }
+  return schema
 }
 
 export function serviceSchema(opts: { name: string; description: string; slug: string; city?: string }) {

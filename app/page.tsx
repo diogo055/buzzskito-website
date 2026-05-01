@@ -43,8 +43,10 @@ const HOME_FAQS = [
 export default function HomePage() {
   return (
     <>
-      {/* Schemas — organizationSchema + websiteSchema are emitted globally in layout.tsx. */}
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema()) }} />
+      {/* Schemas — organizationSchema + websiteSchema are emitted globally in layout.tsx.
+          aggregateRating is intentionally only emitted here (homepage) and on /reviews
+          to prevent Google's review-snippet parser from reporting "multiple aggregate ratings". */}
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema({ includeAggregateRating: true })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(HOME_FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema('/')) }} />
 
