@@ -382,19 +382,19 @@ function ScoreRevealStep(props: {
         </div>
       )}
 
-      {/* Estimated investment range */}
+      {/* What you'll receive next */}
       {result.isInServiceArea && (
         <div className="rounded-2xl bg-white border-2 border-brand-200 p-5">
-          <p className="text-xs font-extrabold text-brand-700 uppercase tracking-wider mb-2">Estimated season investment for your property</p>
-          <div className="flex items-baseline gap-2 mb-2">
-            <span className="text-3xl font-black text-brand-900">${result.estimatedSeasonInvestmentLow.toLocaleString()}</span>
-            <span className="text-lg text-gray-500">–</span>
-            <span className="text-3xl font-black text-brand-900">${result.estimatedSeasonInvestmentHigh.toLocaleString()}</span>
-            <span className="text-sm text-gray-500">/ season</span>
-          </div>
-          <p className="text-sm font-semibold text-brand-700 mb-1">Recommended: {result.recommendedTierLabel}</p>
-          <p className="text-xs text-gray-600">{result.treatmentVisits}</p>
-          <p className="text-[10px] text-gray-400 mt-2">Final pricing confirmed during your call with Alex.</p>
+          <p className="text-xs font-extrabold text-brand-700 uppercase tracking-wider mb-2">What happens next</p>
+          <p className="text-sm text-gray-700 leading-relaxed mb-2">
+            <strong className="text-brand-900">Step 1.</strong> Within 60 seconds: a detailed property report lands in your inbox — water sources near your address, peak weeks for your area, tick risk specific to your setup, and 5 things you can fix yourself this weekend.
+          </p>
+          <p className="text-sm text-gray-700 leading-relaxed mb-2">
+            <strong className="text-brand-900">Step 2.</strong> Within 24 hours: Alex personally reviews your property and sends a custom protection plan with specific pricing. No template quotes — every property is priced individually.
+          </p>
+          {result.tier === 'severe' || result.tier === 'high' ? (
+            <p className="text-xs text-amber-700 mt-3 leading-relaxed font-semibold">⚡ Your pressure score is in the top tier — Alex will prioritize your review.</p>
+          ) : null}
         </div>
       )}
 
