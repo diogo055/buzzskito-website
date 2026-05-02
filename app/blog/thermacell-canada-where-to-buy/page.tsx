@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import InlineYardRiskCTA from '@/components/InlineYardRiskCTA'
 
 const SLUG = 'thermacell-canada-where-to-buy'
 const DATE = '2026-05-01'
@@ -176,6 +177,8 @@ export default function ThermacellCanadaPage() {
           <h2>How Thermacell Actually Works</h2>
           <p>Thermacell devices warm a small synthetic mat soaked with allethrin — a lab-made version of the natural insecticide found in chrysanthemum flowers. When the mat heats up, it releases allethrin vapour into the air around the device. Mosquitoes flying through the vapour cloud are repelled (and at higher concentrations, killed). The vapour is undetectable to humans at normal concentrations.</p>
           <p>Two things matter for performance: <strong>still air and proximity</strong>. The vapour cloud forms a roughly spherical zone about 4.5 metres in radius. In dead-calm conditions you get full mosquito knockdown within minutes. In a 10–15 km/h breeze, the vapour disperses faster than it can build up, dropping effectiveness by 50% or more.</p>
+
+          <InlineYardRiskCTA variant="emerald" pretext="Free 60-second tool · 1-100 score by address" />
 
           <h2>When Thermacell Is the Right Tool</h2>
           <ul>

@@ -16,6 +16,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE_URL}/contact`,                       lastModified: LAST_CONTENT_UPDATE, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${SITE_URL}/free-yard-assessment`,          lastModified: LAST_CONTENT_UPDATE, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${SITE_URL}/yard-risk-report`,              lastModified: LAST_CONTENT_UPDATE, changeFrequency: 'weekly',  priority: 0.95 },
+    { url: `${SITE_URL}/gta-mosquito-pressure-map`,     lastModified: LAST_CONTENT_UPDATE, changeFrequency: 'weekly',  priority: 0.9 },
     { url: `${SITE_URL}/buzzskito-history`,             lastModified: LAST_CONTENT_UPDATE, changeFrequency: 'yearly',  priority: 0.6 },
     { url: `${SITE_URL}/frequently-asked-question`,     lastModified: LAST_CONTENT_UPDATE, changeFrequency: 'monthly', priority: 0.7 },
     { url: `${SITE_URL}/blog`,                          lastModified: LAST_CONTENT_UPDATE, changeFrequency: 'weekly',  priority: 0.8 },

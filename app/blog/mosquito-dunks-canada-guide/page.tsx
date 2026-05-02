@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import InlineYardRiskCTA from '@/components/InlineYardRiskCTA'
 
 const SLUG = 'mosquito-dunks-canada-guide'
 const DATE = '2026-04-28'
@@ -174,6 +175,8 @@ export default function MosquitoDunksPage() {
           <h2>How Mosquito Dunks Work</h2>
           <p>Mosquito dunks contain dried BTI bacterial spores compressed into a slow-release tablet. When placed in water, the dunk slowly releases BTI spores into the surrounding water column. Mosquito larvae are filter feeders — they consume the spores as they feed, and the BTI proteins disrupt their digestive system. Death occurs within 24–48 hours.</p>
           <p>Importantly, BTI is highly specific to mosquito and black fly larvae (and a few related species). It does not affect any other organism: humans, pets, fish, frogs, dragonflies, water beetles, beneficial insects, pollinators, or birds. This specificity is why BTI is the gold standard for environmentally responsible mosquito control.</p>
+
+          <InlineYardRiskCTA pretext="Free 60-second tool · 1-100 risk score" />
 
           <h2>Where to Use Mosquito Dunks (and Where Not To)</h2>
           <h3>✓ Ideal locations</h3>
