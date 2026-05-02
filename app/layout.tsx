@@ -5,6 +5,7 @@ import { SpeedInsights } from '@vercel/speed-insights/next'
 import './globals.css'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
+import StickyRiskCTA from '@/components/StickyRiskCTA'
 import { BUSINESS, SITE_URL } from '@/lib/constants'
 import { websiteSchema, organizationSchema } from '@/lib/seo'
 
@@ -96,6 +97,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <main id="main-content" className="flex-1" tabIndex={-1}>
           {children}
         </main>
+        <StickyRiskCTA />
         <Footer />
 
         {/* ── Sticky Mobile CTA Bar ──────────────────────────────────── */}

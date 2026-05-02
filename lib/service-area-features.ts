@@ -9,7 +9,7 @@ type CityFeature = {
 }
 
 // Cities we actively service (matches CITIES array in constants.ts)
-const IN_SERVICE_AREA = new Set([
+export const IN_SERVICE_AREA = new Set([
   'mississauga', 'toronto', 'brampton', 'oakville', 'burlington', 'hamilton',
   'vaughan', 'richmond hill', 'markham', 'etobicoke', 'scarborough', 'north york',
   'caledon', 'milton', 'georgetown', 'halton hills', 'king city', 'woodbridge', 'thornhill',
@@ -18,7 +18,7 @@ const IN_SERVICE_AREA = new Set([
 ])
 
 // Neighbourhood-level overrides (more specific than city-level)
-const NEIGHBOURHOOD_FEATURES: Record<string, { feature: string; reason: string }> = {
+export const NEIGHBOURHOOD_FEATURES: Record<string, { feature: string; reason: string }> = {
   // Mississauga
   'port credit': { feature: 'the Credit River corridor', reason: 'permanent water flow keeps mosquito breeding active all summer' },
   'meadowvale': { feature: 'the Credit River and conservation greenbelt', reason: 'extensive natural habitat sustains heavy mosquito pressure' },
@@ -99,7 +99,7 @@ const NEIGHBOURHOOD_FEATURES: Record<string, { feature: string; reason: string }
 }
 
 // City-level fallback features
-const CITY_FEATURES: Record<string, { feature: string; reason: string }> = {
+export const CITY_FEATURES: Record<string, { feature: string; reason: string }> = {
   'mississauga': { feature: 'the Credit River and surrounding conservation lands', reason: 'permanent water and natural habitat sustain heavy mosquito pressure across the city' },
   'toronto': { feature: 'Toronto\'s ravine system — the largest urban ravine network in North America', reason: 'extensive natural habitat sustains mosquito breeding city-wide' },
   'brampton': { feature: 'the Humber River and Etobicoke Creek systems', reason: 'multiple river corridors drive mosquito pressure across the city' },
