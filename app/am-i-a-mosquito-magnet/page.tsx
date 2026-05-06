@@ -38,7 +38,7 @@ const FAQS = [
 
 export const metadata: Metadata = buildMetadata({
   title: 'Am I a Mosquito Magnet? — Free 60-Second Test (Backed by Real Science)',
-  description: 'Find out why mosquitoes bite you more than other people. Free 9-question test based on peer-reviewed research (blood type, body chemistry, lactic acid, CO2, pregnancy, clothing). Get your 1-100 magnet score + custom protection plan. Used by 129 GTA homeowners.',
+  description: 'Find out why mosquitoes bite you more than other people. Free 9-question test based on peer-reviewed research (blood type, body chemistry, lactic acid, CO2, pregnancy, clothing). Get your 1-100 magnet score + custom protection plan. Used by 137 GTA homeowners.',
   canonical: SLUG,
 })
 

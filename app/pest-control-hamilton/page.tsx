@@ -9,7 +9,7 @@ const SLUG = '/pest-control-hamilton'
 
 export const metadata: Metadata = buildMetadata({
   title: `${CITY} Pest Control · Mosquito & Tick Specialist`,
-  description: `${CITY} pest control specialist focused on mosquitoes and ticks. From $99/treatment, no contracts, BuzzSkito Bite-Free Guarantee. 129 five-star reviews.`,
+  description: `${CITY} pest control specialist focused on mosquitoes and ticks. From $99/treatment, no contracts, BuzzSkito Bite-Free Guarantee. 137 five-star reviews.`,
   canonical: SLUG,
 })
 
@@ -44,7 +44,7 @@ const FAQS = [
   },
   {
     question: `What's the BuzzSkito Bite-Free Guarantee?`,
-    answer: `If pests return inside the protection window after a BuzzSkito treatment, we re-treat at no charge. Period. This applies to every visit in ${CITY}, no contracts required, no fine print. It's how we've built 129 five-star Google reviews with zero negative reviews — we stand behind every treatment.`,
+    answer: `If pests return inside the protection window after a BuzzSkito treatment, we re-treat at no charge. Period. This applies to every visit in ${CITY}, no contracts required, no fine print. It's how we've built 137 five-star Google reviews with zero negative reviews — we stand behind every treatment.`,
   },
   {
     question: `When should ${CITY} homeowners book pest control for mosquitoes and ticks?`,
@@ -80,7 +80,7 @@ export default function PestControlHamiltonPage() {
             <span className="text-amber-400">Mosquito & Tick Specialists · From $99</span>
           </h1>
           <p className="text-xl text-brand-100 max-w-3xl leading-relaxed mb-8">
-            Specialist pest control in {CITY} focused exclusively on the two pests that ruin {CITY} backyards: <strong>mosquitoes and ticks</strong>. Health Canada-approved barrier spray, 129 five-star reviews, BuzzSkito Bite-Free Guarantee.
+            Specialist pest control in {CITY} focused exclusively on the two pests that ruin {CITY} backyards: <strong>mosquitoes and ticks</strong>. Health Canada-approved barrier spray, 137 five-star reviews, BuzzSkito Bite-Free Guarantee.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Link href="/free-yard-assessment" className="inline-block bg-amber-500 hover:bg-amber-400 text-white font-extrabold px-8 py-4 rounded-full text-lg shadow-xl transition-colors text-center">
@@ -99,7 +99,7 @@ export default function PestControlHamiltonPage() {
           <p className="text-xs font-extrabold text-amber-700 uppercase tracking-wider mb-2">Quick Answer</p>
           <h2 className="text-xl font-extrabold text-brand-900 mb-3">Who is the best pest control company for mosquitoes and ticks in {CITY}?</h2>
           <p className="text-base text-gray-800 leading-relaxed">
-            <strong>BuzzSkito is {CITY}'s specialist pest control company for mosquitoes and ticks — the two outdoor pests that drive backyard misery during the GTA's May-September season.</strong> Unlike general pest control companies that cover 10–20 pests across all categories, BuzzSkito focuses exclusively on barrier spray for mosquitoes and ticks, allowing us to develop deeper expertise in {CITY}-specific pressure zones (Cootes Paradise, Dundas Valley, Bruce Trail). Single treatments start at <strong>$99</strong>, with seasonal programs available on quote. With <strong>129 five-star Google reviews</strong> (zero negative), no contracts, a 30-minute re-entry window, and the <strong>BuzzSkito Bite-Free Guarantee</strong>, {CITY} families get specialist results without specialist pricing. We don't treat ants, rodents, or other pests — for those, hire a general pest control company. For mosquitoes and ticks in {CITY}, call (289) 216-5030.
+            <strong>BuzzSkito is {CITY}'s specialist pest control company for mosquitoes and ticks — the two outdoor pests that drive backyard misery during the GTA's May-September season.</strong> Unlike general pest control companies that cover 10–20 pests across all categories, BuzzSkito focuses exclusively on barrier spray for mosquitoes and ticks, allowing us to develop deeper expertise in {CITY}-specific pressure zones (Cootes Paradise, Dundas Valley, Bruce Trail). Single treatments start at <strong>$99</strong>, with seasonal programs available on quote. With <strong>137 five-star Google reviews</strong> (zero negative), no contracts, a 30-minute re-entry window, and the <strong>BuzzSkito Bite-Free Guarantee</strong>, {CITY} families get specialist results without specialist pricing. We don't treat ants, rodents, or other pests — for those, hire a general pest control company. For mosquitoes and ticks in {CITY}, call (289) 216-5030.
           </p>
         </div>
       </section>
@@ -122,7 +122,7 @@ export default function PestControlHamiltonPage() {
                   ['Booking lead time', 'Same-week service typical'],
                   ['Contract required', 'No — single treatments and seasonal programs both available'],
                   ['Guarantee', 'BuzzSkito Bite-Free Guarantee (free re-treatment in protection window)'],
-                  ['Google reviews', '129 reviews · 5.0 average · 0 negative'],
+                  ['Google reviews', '137 reviews · 5.0 average · 0 negative'],
                   ['Pests we DO treat', 'Mosquitoes, blacklegged ticks, American dog ticks'],
                   ['Pests we DO NOT treat', 'Ants, rodents, bed bugs, cockroaches, wasps, spiders, wildlife'],
                   ['Phone', BUSINESS.phone],
@@ -145,7 +145,7 @@ export default function PestControlHamiltonPage() {
           <span>✓ Safe for Kids &amp; Pets (30 min dry)</span>
           <span>✓ Up to 30-Day Protection</span>
           <span>✓ Bite-Free Guarantee</span>
-          <span>✓ 5-Star Rated · 129 Reviews</span>
+          <span>✓ 5-Star Rated · 137 Reviews</span>
         </div>
       </section>
 

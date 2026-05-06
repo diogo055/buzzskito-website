@@ -5,7 +5,7 @@ import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusines
 import { BUSINESS, MOSQUITO_BLOGS, TICK_BLOGS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Oakville Mosquito Control 2026 · From $99 · 129 Five-Star Reviews',
+  title: 'Oakville Mosquito Control 2026 · From $99 · 137 Five-Star Reviews',
   description:
     'Mosquito control in Oakville. Barrier spray from $99. Serving Glen Abbey, Bronte, Old Oakville & all areas. Call (289) 216-5030.',
   canonical: '/oakville-mosquito-control',
@@ -108,7 +108,7 @@ export default function OakvilleMosquitoPage() {
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-5">
             Oakville Mosquito Control<br/>
-            <span className="text-amber-400">From $99 · 129 Five-Star Reviews</span>
+            <span className="text-amber-400">From $99 · 137 Five-Star Reviews</span>
           </h1>
           <p className="text-xl text-brand-100 max-w-2xl mb-8">
             Oakville&apos;s specialist barrier spray for lakefront, Bronte Creek, and Glen Abbey properties. Health Canada-approved, safe for kids and pets in 30 minutes, backed by the <strong className="text-amber-400">BuzzSkito Bite-Free Guarantee</strong>.
@@ -127,7 +127,7 @@ export default function OakvilleMosquitoPage() {
           <span>✓ Safe for Kids &amp; Pets (30 min dry)</span>
           <span>✓ Up to 30-Day Protection</span>
           <span>✓ Bite-Free Guarantee</span>
-          <span>✓ 5-Star Rated · 129 Reviews</span>
+          <span>✓ 5-Star Rated · 137 Reviews</span>
         </div>
       </section>
 
@@ -137,7 +137,7 @@ export default function OakvilleMosquitoPage() {
           <p className="text-xs font-extrabold text-amber-700 uppercase tracking-wider mb-2">Quick Answer</p>
           <h2 className="text-xl font-extrabold text-brand-900 mb-3">What is the best mosquito control company in Oakville?</h2>
           <p className="text-base text-gray-800 leading-relaxed">
-            <strong>BuzzSkito provides specialist mosquito barrier spray across all Oakville neighbourhoods — Bronte, Glen Abbey, Joshua Creek, West Oak Trails, Clearview, Palermo, River Oaks, Kerr Village, Old Oakville, and North Oakville.</strong> Treatments use Health Canada-approved formulations applied to vegetation and shrub interiors where mosquitoes rest. Single treatments start at <strong>$99</strong>, with seasonal programs available on quote. With <strong>129 five-star Google reviews</strong>, no contracts, a 30-minute re-entry window, and the <strong>BuzzSkito Bite-Free Guarantee</strong>, Oakville homeowners get reliable barrier spray for lakefront, creek-adjacent, and ravine-edge properties. Call (289) 216-5030.
+            <strong>BuzzSkito provides specialist mosquito barrier spray across all Oakville neighbourhoods — Bronte, Glen Abbey, Joshua Creek, West Oak Trails, Clearview, Palermo, River Oaks, Kerr Village, Old Oakville, and North Oakville.</strong> Treatments use Health Canada-approved formulations applied to vegetation and shrub interiors where mosquitoes rest. Single treatments start at <strong>$99</strong>, with seasonal programs available on quote. With <strong>137 five-star Google reviews</strong>, no contracts, a 30-minute re-entry window, and the <strong>BuzzSkito Bite-Free Guarantee</strong>, Oakville homeowners get reliable barrier spray for lakefront, creek-adjacent, and ravine-edge properties. Call (289) 216-5030.
           </p>
         </div>
       </section>
@@ -161,7 +161,7 @@ export default function OakvilleMosquitoPage() {
                   ['Booking lead time', 'Same-week service typical'],
                   ['Contract required', 'No — single treatments and seasonal programs both available'],
                   ['Guarantee', 'BuzzSkito Bite-Free Guarantee (free re-treatment in protection window)'],
-                  ['Google reviews', '129 reviews · 5.0 average · 0 negative'],
+                  ['Google reviews', '137 reviews · 5.0 average · 0 negative'],
                   ['Phone', BUSINESS.phone],
                 ].map(([k, v]) => (
                   <tr key={k} className="border-b border-navy-50 last:border-0">
@@ -403,7 +403,7 @@ export default function OakvilleMosquitoPage() {
       <section className="py-14 px-4 bg-white border-t border-gray-100">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-2xl font-extrabold text-brand-900 mb-2 text-center">What Oakville Homeowners Say</h2>
-          <p className="text-center text-gray-500 text-sm mb-8">From our 129 five-star Google reviews</p>
+          <p className="text-center text-gray-500 text-sm mb-8">From our 137 five-star Google reviews</p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {TESTIMONIALS.map(({ author, location, text }) => (
               <div key={author} className="bg-brand-50 rounded-2xl p-6 border border-brand-100">
@@ -418,7 +418,7 @@ export default function OakvilleMosquitoPage() {
             ))}
           </div>
           <div className="text-center mt-6">
-            <a href="https://g.page/r/CYytaw5LxucdEAE/review" target="_blank" rel="noopener noreferrer" className="text-brand-700 font-semibold text-sm hover:underline">Read all 129 reviews on Google &rarr;</a>
+            <a href="https://g.page/r/CYytaw5LxucdEAE/review" target="_blank" rel="noopener noreferrer" className="text-brand-700 font-semibold text-sm hover:underline">Read all 137 reviews on Google &rarr;</a>
           </div>
         </div>
       </section>

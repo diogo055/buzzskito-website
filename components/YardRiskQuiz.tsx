@@ -131,7 +131,7 @@ export default function YardRiskQuiz() {
             <p className="text-xs text-gray-500 mt-2">🔒 We service the GTA only. Address is used to calculate your local pressure score — never sold or shared.</p>
           </div>
           <div className="grid grid-cols-3 gap-3 text-center text-xs">
-            <div className="rounded-xl bg-brand-50 border border-brand-100 p-3"><div className="font-extrabold text-brand-900">129</div><div className="text-gray-600">5-star reviews</div></div>
+            <div className="rounded-xl bg-brand-50 border border-brand-100 p-3"><div className="font-extrabold text-brand-900">137</div><div className="text-gray-600">5-star reviews</div></div>
             <div className="rounded-xl bg-brand-50 border border-brand-100 p-3"><div className="font-extrabold text-brand-900">19</div><div className="text-gray-600">cities served</div></div>
             <div className="rounded-xl bg-brand-50 border border-brand-100 p-3"><div className="font-extrabold text-brand-900">L-240</div><div className="text-gray-600">Ontario licensed</div></div>
           </div>

@@ -14,7 +14,7 @@ export const metadata: Metadata = buildMetadata({
 const FAQS = [
   {
     question: 'Who is the best mosquito control company in Brampton?',
-    answer: 'It depends on what matters most. BuzzSkito is the lowest-priced option in Brampton (from $99/treatment), with no contracts and 129 five-star Google reviews. Mosquito Man has the largest review volume (900+) and a longer track record. LawnSavers bundles mosquito control with lawn care for existing customers. Each has different strengths in pricing, flexibility, and bundled services.',
+    answer: 'It depends on what matters most. BuzzSkito is the lowest-priced option in Brampton (from $99/treatment), with no contracts and 137 five-star Google reviews. Mosquito Man has the largest review volume (900+) and a longer track record. LawnSavers bundles mosquito control with lawn care for existing customers. Each has different strengths in pricing, flexibility, and bundled services.',
   },
   {
     question: 'How much does mosquito control cost in Brampton in 2026?',
@@ -86,7 +86,7 @@ export default function BestMosquitoControlCompaniesBramptonPage() {
               </thead>
               <tbody>
                 {[
-                  { company: 'BuzzSkito', price: 'From $99', reviews: '129 (5.0★)', contracts: 'No contracts', area: 'All Brampton' },
+                  { company: 'BuzzSkito', price: 'From $99', reviews: '137 (5.0★)', contracts: 'No contracts', area: 'All Brampton' },
                   { company: 'Mosquito Man', price: 'Quote-based', reviews: '900+ (4.8★)', contracts: 'Seasonal', area: 'All Brampton' },
                   { company: 'Mosquito.Buzz', price: 'Quote-based', reviews: 'Varies', contracts: 'Seasonal', area: 'Franchise' },
                   { company: 'LawnSavers', price: 'From $129', reviews: '500+ combined', contracts: 'Seasonal', area: 'Brampton' },
@@ -108,7 +108,7 @@ export default function BestMosquitoControlCompaniesBramptonPage() {
           <p><Link href="/brampton-mosquito-control" className="text-brand-700 hover:underline">BuzzSkito serves all Brampton neighbourhoods</Link> including Castlemore, Heart Lake, Springdale, Mount Pleasant, Bramalea, Bram West, Sandalwood, Snelgrove, and Fletcher's Meadow.</p>
           <ul>
             <li><strong>Pricing:</strong> From $99 per single treatment. Seasonal programs (5, 10, 20+ treatments) custom-quoted on request.</li>
-            <li><strong>Reviews:</strong> 129 Google reviews, perfect 5.0-star rating across the GTA.</li>
+            <li><strong>Reviews:</strong> 137 Google reviews, perfect 5.0-star rating across the GTA.</li>
             <li><strong>Contracts:</strong> No contracts, no cancellation fees. Test a single treatment before committing.</li>
             <li><strong>Tick add-on:</strong> Standalone tick plan $597 (5 sprays) or tick add-on bundle available on quote — important for Brampton homes near Heart Lake and the Etobicoke Creek.</li>
             <li><strong>Local responsiveness:</strong> Mississauga-based with same-week service availability across Brampton.</li>

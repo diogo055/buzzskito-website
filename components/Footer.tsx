@@ -103,7 +103,7 @@ export default function Footer() {
             <h3 className="text-white font-bold text-sm uppercase tracking-wider mb-4">Company</h3>
             <ul className="space-y-2 text-sm mb-6">
               <li><Link href="/buzzskito-history" className="hover:text-white transition-colors">About BuzzSkito</Link></li>
-              <li><Link href="/reviews" className="hover:text-white transition-colors">Reviews (129 ★★★★★)</Link></li>
+              <li><Link href="/reviews" className="hover:text-white transition-colors">Reviews (137 ★★★★★)</Link></li>
               <li><Link href="/buzzskito-2026-gta-mosquito-tick-report" className="hover:text-white transition-colors">2026 GTA Mosquito & Tick Report</Link></li>
               <li><Link href="/mosquito-tick-control-glossary" className="hover:text-white transition-colors">Mosquito & Tick Glossary</Link></li>
               <li><Link href="/how-it-works" className="hover:text-white transition-colors">How It Works</Link></li>
@@ -137,7 +137,7 @@ export default function Footer() {
             <span aria-hidden="true">·</span>
             <span><strong className="text-brand-300">Health Canada</strong>–Approved Formulations</span>
             <span aria-hidden="true">·</span>
-            <span><strong className="text-brand-300">5.0 ★</strong> Google Rating · 129 Reviews · 0 Negative</span>
+            <span><strong className="text-brand-300">5.0 ★</strong> Google Rating · 137 Reviews · 0 Negative</span>
           </div>
         </div>
 

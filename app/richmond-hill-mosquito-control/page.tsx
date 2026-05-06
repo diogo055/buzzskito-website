@@ -5,7 +5,7 @@ import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusines
 import { BUSINESS, MOSQUITO_BLOGS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Richmond Hill Mosquito Control 2026 · From $99 · 129 Five-Star Reviews',
+  title: 'Richmond Hill Mosquito Control 2026 · From $99 · 137 Five-Star Reviews',
   description:
     "Richmond Hill's specialist mosquito barrier spray. Health Canada-approved, from $99/treatment, no contracts, BuzzSkito Bite-Free Guarantee. Oak Ridges, Lake Wilcox, Mill Pond, Bayview Hill, Jefferson, Crosby, Doncrest. Call (289) 216-5030.",
   canonical: '/richmond-hill-mosquito-control',
@@ -54,7 +54,7 @@ export default function RichmondHillMosquitoPage() {
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-5">
             {CITY} Mosquito Control<br/>
-            <span className="text-amber-400">From $99 · 129 Five-Star Reviews</span>
+            <span className="text-amber-400">From $99 · 137 Five-Star Reviews</span>
           </h1>
           <p className="text-xl text-brand-100 max-w-2xl mb-8">
             From Lake Wilcox in Oak Ridges to Mill Pond&apos;s creek corridor — BuzzSkito delivers professional mosquito barrier spray across all Richmond Hill neighbourhoods.
@@ -74,7 +74,7 @@ export default function RichmondHillMosquitoPage() {
           <span>✓ Safe for Kids &amp; Pets (30 min dry)</span>
           <span>✓ Up to 30-Day Protection</span>
           <span>✓ Bite-Free Guarantee</span>
-          <span>✓ 5-Star Rated · 129 Reviews</span>
+          <span>✓ 5-Star Rated · 137 Reviews</span>
         </div>
       </section>
 
@@ -180,7 +180,7 @@ export default function RichmondHillMosquitoPage() {
       <section className="py-12 px-4 bg-white border-t border-gray-100">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-2xl font-extrabold text-brand-900 mb-2 text-center">What GTA Homeowners Say</h2>
-          <p className="text-center text-gray-500 text-sm mb-8">From our 129 five-star Google reviews</p>
+          <p className="text-center text-gray-500 text-sm mb-8">From our 137 five-star Google reviews</p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {[
               { author: 'Sarah M.', text: 'BuzzSkito treated our backyard and we noticed a huge difference immediately. No mosquitoes at our outdoor birthday party! The technician was professional and on time. Highly recommend.' },
@@ -198,7 +198,7 @@ export default function RichmondHillMosquitoPage() {
             ))}
           </div>
           <div className="text-center mt-6">
-            <a href="https://g.page/r/CYytaw5LxucdEAE/review" target="_blank" rel="noopener noreferrer" className="text-brand-700 font-semibold text-sm hover:underline">Read all 129 reviews on Google &rarr;</a>
+            <a href="https://g.page/r/CYytaw5LxucdEAE/review" target="_blank" rel="noopener noreferrer" className="text-brand-700 font-semibold text-sm hover:underline">Read all 137 reviews on Google &rarr;</a>
           </div>
         </div>
       </section>

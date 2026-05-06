@@ -5,7 +5,7 @@ import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusines
 import { BUSINESS, MOSQUITO_BLOGS, TICK_BLOGS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Brampton Mosquito Control 2026 · From $99 · 129 Five-Star Reviews',
+  title: 'Brampton Mosquito Control 2026 · From $99 · 137 Five-Star Reviews',
   description:
     "Mosquito control spray in Brampton. Serving Castlemore, Heart Lake, Springdale & all neighbourhoods. Call (289) 216-5030.",
   canonical: '/brampton-mosquito-control',
@@ -88,7 +88,7 @@ export default function BramptonMosquitoPage() {
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-5">
             Brampton Mosquito Control<br/>
-            <span className="text-amber-400">From $99 · 129 Five-Star Reviews</span>
+            <span className="text-amber-400">From $99 · 137 Five-Star Reviews</span>
           </h1>
           <p className="text-xl text-brand-100 max-w-2xl mb-8">
             Brampton&apos;s specialist barrier spray for stormwater-pond, ravine, and new-build neighbourhoods. Health Canada-approved, safe for kids and pets in 30 minutes, backed by the <strong className="text-amber-400">BuzzSkito Bite-Free Guarantee</strong>.
@@ -106,7 +106,7 @@ export default function BramptonMosquitoPage() {
           <span>✓ Safe for Kids &amp; Pets (30 min dry)</span>
           <span>✓ Up to 30-Day Protection</span>
           <span>✓ Bite-Free Guarantee</span>
-          <span>✓ 5-Star Rated · 129 Reviews</span>
+          <span>✓ 5-Star Rated · 137 Reviews</span>
         </div>
       </section>
 
@@ -116,7 +116,7 @@ export default function BramptonMosquitoPage() {
           <p className="text-xs font-extrabold text-amber-700 uppercase tracking-wider mb-2">Quick Answer</p>
           <h2 className="text-xl font-extrabold text-brand-900 mb-3">What is the best mosquito control company in Brampton?</h2>
           <p className="text-base text-gray-800 leading-relaxed">
-            <strong>BuzzSkito provides specialist mosquito barrier spray across all Brampton neighbourhoods — Mount Pleasant, Gore Meadows, Castlemore, Springdale, Bramalea, Creditview, and Fletcher&apos;s Meadow.</strong> Treatments use Health Canada-approved formulations applied to vegetation and shrub interiors where mosquitoes rest. Single treatments start at <strong>$99</strong>, with seasonal programs available on quote. With <strong>129 five-star Google reviews</strong>, no contracts, a 30-minute re-entry window, and the <strong>BuzzSkito Bite-Free Guarantee</strong>, Brampton homeowners get reliable barrier spray for stormwater-pond and creek-adjacent properties. Call (289) 216-5030.
+            <strong>BuzzSkito provides specialist mosquito barrier spray across all Brampton neighbourhoods — Mount Pleasant, Gore Meadows, Castlemore, Springdale, Bramalea, Creditview, and Fletcher&apos;s Meadow.</strong> Treatments use Health Canada-approved formulations applied to vegetation and shrub interiors where mosquitoes rest. Single treatments start at <strong>$99</strong>, with seasonal programs available on quote. With <strong>137 five-star Google reviews</strong>, no contracts, a 30-minute re-entry window, and the <strong>BuzzSkito Bite-Free Guarantee</strong>, Brampton homeowners get reliable barrier spray for stormwater-pond and creek-adjacent properties. Call (289) 216-5030.
           </p>
         </div>
       </section>
@@ -140,7 +140,7 @@ export default function BramptonMosquitoPage() {
                   ['Booking lead time', 'Same-week service typical'],
                   ['Contract required', 'No — single treatments and seasonal programs both available'],
                   ['Guarantee', 'BuzzSkito Bite-Free Guarantee (free re-treatment in protection window)'],
-                  ['Google reviews', '129 reviews · 5.0 average · 0 negative'],
+                  ['Google reviews', '137 reviews · 5.0 average · 0 negative'],
                   ['Phone', BUSINESS.phone],
                 ].map(([k, v]) => (
                   <tr key={k} className="border-b border-navy-50 last:border-0">
@@ -355,7 +355,7 @@ export default function BramptonMosquitoPage() {
       <section className="py-14 px-4 bg-white border-t border-gray-100">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-2xl font-extrabold text-brand-900 mb-2 text-center">What Brampton Homeowners Say</h2>
-          <p className="text-center text-gray-500 text-sm mb-8">From our 129 five-star Google reviews</p>
+          <p className="text-center text-gray-500 text-sm mb-8">From our 137 five-star Google reviews</p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {[
               { author: 'Priya R.', location: 'Castlemore', text: 'Called on a Tuesday, they were at my Brampton home by Thursday. The technician explained exactly what product they were using and why it\'s safe for our dog. Couldn\'t be happier with the results.' },
@@ -375,7 +375,7 @@ export default function BramptonMosquitoPage() {
             ))}
           </div>
           <div className="text-center mt-6">
-            <a href="https://g.page/r/CYytaw5LxucdEAE/review" target="_blank" rel="noopener noreferrer" className="text-brand-700 font-semibold text-sm hover:underline">Read all 129 reviews on Google &rarr;</a>
+            <a href="https://g.page/r/CYytaw5LxucdEAE/review" target="_blank" rel="noopener noreferrer" className="text-brand-700 font-semibold text-sm hover:underline">Read all 137 reviews on Google &rarr;</a>
           </div>
         </div>
       </section>

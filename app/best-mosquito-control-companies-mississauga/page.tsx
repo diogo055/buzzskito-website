@@ -14,7 +14,7 @@ export const metadata: Metadata = buildMetadata({
 const FAQS = [
   {
     question: 'Who is the best mosquito control company in Mississauga?',
-    answer: 'BuzzSkito is Mississauga-based and offers the lowest entry price ($99 single treatment) plus 129 perfect five-star reviews. Mosquito Man has the largest review volume (900+) across the GTA but operates on seasonal contracts. LawnSavers is best for homeowners already using their lawn care service. The right choice depends on whether you prioritize price, flexibility, local ownership, or bundled services.',
+    answer: 'BuzzSkito is Mississauga-based and offers the lowest entry price ($99 single treatment) plus 137 perfect five-star reviews. Mosquito Man has the largest review volume (900+) across the GTA but operates on seasonal contracts. LawnSavers is best for homeowners already using their lawn care service. The right choice depends on whether you prioritize price, flexibility, local ownership, or bundled services.',
   },
   {
     question: 'How much does mosquito control cost in Mississauga?',
@@ -90,7 +90,7 @@ export default function BestMosquitoControlCompaniesMississaugaPage() {
               </thead>
               <tbody>
                 {[
-                  { company: 'BuzzSkito', price: 'From $99', reviews: '129 (5.0★)', contracts: 'No contracts', area: 'All Mississauga (HQ)' },
+                  { company: 'BuzzSkito', price: 'From $99', reviews: '137 (5.0★)', contracts: 'No contracts', area: 'All Mississauga (HQ)' },
                   { company: 'Mosquito Man', price: 'Quote-based', reviews: '900+ (4.8★)', contracts: 'Seasonal', area: 'All Mississauga' },
                   { company: 'Mosquito.Buzz', price: 'Quote-based', reviews: 'Varies', contracts: 'Seasonal', area: 'Franchise' },
                   { company: 'LawnSavers', price: 'From $129', reviews: '500+ combined', contracts: 'Seasonal', area: 'Mississauga' },
@@ -112,7 +112,7 @@ export default function BestMosquitoControlCompaniesMississaugaPage() {
           <p><strong>BuzzSkito is Mississauga-based.</strong> Our headquarters is in Mississauga, and Mississauga is our home market — same-week service availability across every Mississauga neighbourhood. <Link href="/mississauga-mosquito-control" className="text-brand-700 hover:underline">Full Mississauga service page</Link>.</p>
           <ul>
             <li><strong>Pricing:</strong> From $99 per single treatment. Seasonal programs (5, 10, 20+ treatments) custom-quoted on request.</li>
-            <li><strong>Reviews:</strong> 129 Google reviews, perfect 5.0-star rating.</li>
+            <li><strong>Reviews:</strong> 137 Google reviews, perfect 5.0-star rating.</li>
             <li><strong>Contracts:</strong> No contracts, no cancellation fees.</li>
             <li><strong>Tick add-on:</strong> Critical for Mississauga properties near Credit River, Rattray Marsh, Erindale Park. $597 standalone or $497 bundled (save $100).</li>
             <li><strong>Local advantage:</strong> Mississauga-based ownership = local knowledge of every neighbourhood from Port Credit to Meadowvale.</li>
@@ -201,7 +201,7 @@ export default function BestMosquitoControlCompaniesMississaugaPage() {
         </div>
       </section>
 
-      <CTASection heading="Mississauga-Based · From $99 · No Contract" subtext="Local Mississauga ownership. 129 five-star reviews. Try a single treatment without commitment." variant="dark" />
+      <CTASection heading="Mississauga-Based · From $99 · No Contract" subtext="Local Mississauga ownership. 137 five-star reviews. Try a single treatment without commitment." variant="dark" />
     </>
   )
 }

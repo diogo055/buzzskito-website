@@ -5,7 +5,7 @@ import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusines
 import { BUSINESS, MOSQUITO_BLOGS, TICK_BLOGS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Mississauga Mosquito Control 2026 · From $99 · 129 Five-Star Reviews',
+  title: 'Mississauga Mosquito Control 2026 · From $99 · 137 Five-Star Reviews',
   description:
     "Mississauga's specialist mosquito barrier spray. Health Canada-approved, from $99/treatment, no contracts, BuzzSkito Bite-Free Guarantee. Port Credit, Meadowvale, Streetsville, Erin Mills, Lorne Park. Call (289) 216-5030.",
   canonical: '/mississauga-mosquito-control',
@@ -95,7 +95,7 @@ export default function MississaugaMosquitoControlPage() {
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-5">
             Mississauga Mosquito Control<br/>
-            <span className="text-amber-400">From $99 · 129 Five-Star Reviews</span>
+            <span className="text-amber-400">From $99 · 137 Five-Star Reviews</span>
           </h1>
           <p className="text-xl text-brand-100 max-w-2xl mb-8">
             Mississauga&apos;s specialist barrier spray, designed for Credit River, Rattray Marsh, and Erindale Park exposure. Health Canada-approved, safe for kids and pets in 30 minutes, backed by the <strong className="text-amber-400">BuzzSkito Bite-Free Guarantee</strong>.
@@ -118,7 +118,7 @@ export default function MississaugaMosquitoControlPage() {
           <span>✓ Safe for Kids &amp; Pets (30 min dry)</span>
           <span>✓ Up to 30-Day Protection</span>
           <span>✓ Bite-Free Guarantee</span>
-          <span>✓ 5-Star Rated · 129 Reviews</span>
+          <span>✓ 5-Star Rated · 137 Reviews</span>
         </div>
       </section>
 
@@ -128,7 +128,7 @@ export default function MississaugaMosquitoControlPage() {
           <p className="text-xs font-extrabold text-amber-700 uppercase tracking-wider mb-2">Quick Answer</p>
           <h2 className="text-xl font-extrabold text-brand-900 mb-3">What is the best mosquito control company in Mississauga?</h2>
           <p className="text-base text-gray-800 leading-relaxed">
-            <strong>BuzzSkito is a Mississauga-based mosquito and tick specialist serving every Mississauga neighbourhood — Port Credit, Meadowvale, Streetsville, Erin Mills, Lorne Park, Clarkson, Cooksville, Lakeview, Churchill Meadows, Mineola, and beyond.</strong> Treatments use Health Canada-approved barrier spray applied to vegetation, shrub interiors, and ravine-edge fence lines where mosquitoes rest. Single treatments start at <strong>$99</strong>, with seasonal programs available on quote. With <strong>129 five-star Google reviews</strong>, no contracts, a 30-minute re-entry window, and the <strong>BuzzSkito Bite-Free Guarantee</strong>, Mississauga homeowners get reliable, locally-operated barrier spray. Call (289) 216-5030.
+            <strong>BuzzSkito is a Mississauga-based mosquito and tick specialist serving every Mississauga neighbourhood — Port Credit, Meadowvale, Streetsville, Erin Mills, Lorne Park, Clarkson, Cooksville, Lakeview, Churchill Meadows, Mineola, and beyond.</strong> Treatments use Health Canada-approved barrier spray applied to vegetation, shrub interiors, and ravine-edge fence lines where mosquitoes rest. Single treatments start at <strong>$99</strong>, with seasonal programs available on quote. With <strong>137 five-star Google reviews</strong>, no contracts, a 30-minute re-entry window, and the <strong>BuzzSkito Bite-Free Guarantee</strong>, Mississauga homeowners get reliable, locally-operated barrier spray. Call (289) 216-5030.
           </p>
         </div>
       </section>
@@ -152,7 +152,7 @@ export default function MississaugaMosquitoControlPage() {
                   ['Booking lead time', 'Same-week service typical'],
                   ['Contract required', 'No — single treatments and seasonal programs both available'],
                   ['Guarantee', 'BuzzSkito Bite-Free Guarantee (free re-treatment in protection window)'],
-                  ['Google reviews', '129 reviews · 5.0 average · 0 negative'],
+                  ['Google reviews', '137 reviews · 5.0 average · 0 negative'],
                   ['Phone', BUSINESS.phone],
                 ].map(([k, v]) => (
                   <tr key={k} className="border-b border-navy-50 last:border-0">
@@ -417,7 +417,7 @@ export default function MississaugaMosquitoControlPage() {
           <p>Yes. Peel Region Public Health monitors mosquito populations and confirms <em>Culex pipiens</em> and <em>Culex restuans</em> — the primary West Nile vectors in Ontario — across Mississauga every season. West Nile risk peaks late July through early September. Most infections are asymptomatic, but neuroinvasive cases are serious. Reducing exposure during dawn and dusk is the most effective personal-level prevention.</p>
 
           <h3>How is BuzzSkito different from other Mississauga mosquito companies?</h3>
-          <p>Three differences: (1) we specialize <em>only</em> in mosquitoes and ticks — not a general pest catalogue; (2) Mississauga-based and owner-operated, not a franchise — Alex answers the phone and trains the technicians; (3) no contracts and no cancellation fees. Our <strong>129 Google reviews are all 5 stars</strong> — every customer rated us perfectly. Call (289) 216-5030 for a quote.</p>
+          <p>Three differences: (1) we specialize <em>only</em> in mosquitoes and ticks — not a general pest catalogue; (2) Mississauga-based and owner-operated, not a franchise — Alex answers the phone and trains the technicians; (3) no contracts and no cancellation fees. Our <strong>137 Google reviews are all 5 stars</strong> — every customer rated us perfectly. Call (289) 216-5030 for a quote.</p>
 
           <h3>Can BuzzSkito treat my Mississauga backyard before a wedding or party?</h3>
           <p>Yes. Pre-event treatment is a common booking. We recommend the spray <strong>2–4 days before</strong> your event. The barrier becomes fully active over 24 hours and continues working for up to 30 days. For backyard weddings, graduations, or large gatherings in Lorne Park, Mineola, or Erin Mills, this timing window gives peak protection on event day.</p>
@@ -443,7 +443,7 @@ export default function MississaugaMosquitoControlPage() {
       <section className="py-14 px-4 bg-white border-t border-gray-100">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-2xl font-extrabold text-brand-900 mb-2 text-center">What Mississauga Homeowners Say</h2>
-          <p className="text-center text-gray-500 text-sm mb-8">From our 129 five-star Google reviews</p>
+          <p className="text-center text-gray-500 text-sm mb-8">From our 137 five-star Google reviews</p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {[
               { author: 'Sarah M.', location: 'Port Credit', text: 'BuzzSkito treated our backyard in Mississauga and we noticed a huge difference immediately. No mosquitoes at our outdoor birthday party! The technician was professional and on time. Highly recommend.' },
@@ -463,7 +463,7 @@ export default function MississaugaMosquitoControlPage() {
             ))}
           </div>
           <div className="text-center mt-6">
-            <a href="https://g.page/r/CYytaw5LxucdEAE/review" target="_blank" rel="noopener noreferrer" className="text-brand-700 font-semibold text-sm hover:underline">Read all 129 reviews on Google &rarr;</a>
+            <a href="https://g.page/r/CYytaw5LxucdEAE/review" target="_blank" rel="noopener noreferrer" className="text-brand-700 font-semibold text-sm hover:underline">Read all 137 reviews on Google &rarr;</a>
           </div>
         </div>
       </section>

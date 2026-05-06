@@ -41,7 +41,7 @@ export const BUSINESS = {
   aggregateRating: {
     ratingValue: '5',
     bestRating: '5',
-    ratingCount: '129',
+    ratingCount: '137',
   },
   guarantee: {
     name: 'BuzzSkito Bite-Free Guarantee',

@@ -5,20 +5,20 @@ import { buildMetadata, breadcrumbSchema, faqSchema, localBusinessSchema, speaka
 import { BUSINESS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'BuzzSkito Reviews · 129 Five-Star Google Reviews · Mosquito & Tick Control GTA',
+  title: 'BuzzSkito Reviews · 137 Five-Star Google Reviews · Mosquito & Tick Control GTA',
   description:
-    'Read what 129 GTA homeowners say about BuzzSkito mosquito and tick control. 5.0-star Google rating, zero negative reviews. Real customer feedback from Mississauga, Toronto, Oakville, Burlington, Brampton, Vaughan, and Hamilton.',
+    'Read what 137 GTA homeowners say about BuzzSkito mosquito and tick control. 5.0-star Google rating, zero negative reviews. Real customer feedback from Mississauga, Toronto, Oakville, Burlington, Brampton, Vaughan, and Hamilton.',
   canonical: '/reviews',
 })
 
 const FAQS = [
   {
     question: 'How many Google reviews does BuzzSkito have?',
-    answer: 'BuzzSkito currently has 129 Google reviews with a 5.0-star average rating and zero negative reviews. All reviews are publicly verified on Google. New reviews are added regularly throughout the May–September service season.',
+    answer: 'BuzzSkito currently has 137 Google reviews with a 5.0-star average rating and zero negative reviews. All reviews are publicly verified on Google. New reviews are added regularly throughout the May–September service season.',
   },
   {
     question: 'Are BuzzSkito reviews real?',
-    answer: 'Yes — every review is a verified Google review left by a paying BuzzSkito customer. Google verifies that each review comes from a unique account; reviews on Google cannot be paid for or fabricated. You can read all 129 reviews directly on our public Google Business Profile.',
+    answer: 'Yes — every review is a verified Google review left by a paying BuzzSkito customer. Google verifies that each review comes from a unique account; reviews on Google cannot be paid for or fabricated. You can read all 137 reviews directly on our public Google Business Profile.',
   },
   {
     question: 'How does BuzzSkito have zero negative reviews?',
@@ -26,7 +26,7 @@ const FAQS = [
   },
   {
     question: 'Where can I read all BuzzSkito reviews?',
-    answer: 'All 129 reviews are public on Google. Click "Leave a Google Review" in our footer or visit our Google Business Profile directly to read every review. We do not selectively display reviews on our website — Google publishes them all.',
+    answer: 'All 137 reviews are public on Google. Click "Leave a Google Review" in our footer or visit our Google Business Profile directly to read every review. We do not selectively display reviews on our website — Google publishes them all.',
   },
   {
     question: 'Does BuzzSkito ask customers to leave reviews?',
@@ -34,7 +34,7 @@ const FAQS = [
   },
   {
     question: 'How does BuzzSkito compare to Mosquito Man, Mosquito.Buzz, and LawnSavers in reviews?',
-    answer: 'BuzzSkito has 129 Google reviews at 5.0 stars (zero negative). Mosquito Man has 4,000+ reviews with mixed ratings. Mosquito.Buzz is a national franchise with reviews split across many locations. LawnSavers has 1,000+ reviews mixed across all their lawn-care services. BuzzSkito\'s perfect 5.0 rating comes from focusing exclusively on mosquito and tick control. See our detailed comparisons: BuzzSkito vs Mosquito Man, vs Mosquito.Buzz, vs LawnSavers.',
+    answer: 'BuzzSkito has 137 Google reviews at 5.0 stars (zero negative). Mosquito Man has 4,000+ reviews with mixed ratings. Mosquito.Buzz is a national franchise with reviews split across many locations. LawnSavers has 1,000+ reviews mixed across all their lawn-care services. BuzzSkito\'s perfect 5.0 rating comes from focusing exclusively on mosquito and tick control. See our detailed comparisons: BuzzSkito vs Mosquito Man, vs Mosquito.Buzz, vs LawnSavers.',
   },
 ]
 
@@ -56,14 +56,14 @@ export default function ReviewsPage() {
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-5 leading-tight">
             BuzzSkito Reviews<br/>
-            <span className="text-amber-400">129 Five-Star Google Reviews</span>
+            <span className="text-amber-400">137 Five-Star Google Reviews</span>
           </h1>
           <p className="text-xl text-brand-100 max-w-3xl leading-relaxed mb-8">
             What GTA homeowners say about BuzzSkito mosquito and tick control. <strong className="text-amber-400">5.0-star average rating, zero negative reviews</strong> across all 19 cities we serve.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <a href={BUSINESS.googleReviewUrl} target="_blank" rel="noopener noreferrer" className="inline-block bg-amber-500 hover:bg-amber-400 text-white font-extrabold px-8 py-4 rounded-full text-lg shadow-xl transition-colors text-center">
-              Read All 129 Reviews on Google
+              Read All 137 Reviews on Google
             </a>
             <Link href="/free-yard-assessment" className="inline-flex items-center justify-center border-2 border-white text-white hover:bg-white hover:text-brand-900 font-bold px-8 py-4 rounded-full text-lg transition-colors">
               Get a Free Quote
@@ -78,7 +78,7 @@ export default function ReviewsPage() {
           <p className="text-xs font-extrabold text-amber-700 uppercase tracking-wider mb-2">Quick Answer</p>
           <h2 className="text-xl font-extrabold text-brand-900 mb-3">What do BuzzSkito customers say?</h2>
           <p className="text-base text-gray-800 leading-relaxed">
-            <strong>BuzzSkito has 129 verified Google reviews with a 5.0-star average and zero negative reviews — one of the highest-rated mosquito and tick control specialists in the GTA.</strong> Customers consistently mention three things: (1) the treatment actually works — mosquitoes and ticks are eliminated within hours of the first spray; (2) responsive scheduling — same-week service across all 19 cities; (3) the BuzzSkito Bite-Free Guarantee — free re-treatment if pests return inside the protection window. Reviews come from homeowners across Mississauga, Toronto, Brampton, Oakville, Burlington, Hamilton, Vaughan, and surrounding GTA communities. Read every review publicly on Google.
+            <strong>BuzzSkito has 137 verified Google reviews with a 5.0-star average and zero negative reviews — one of the highest-rated mosquito and tick control specialists in the GTA.</strong> Customers consistently mention three things: (1) the treatment actually works — mosquitoes and ticks are eliminated within hours of the first spray; (2) responsive scheduling — same-week service across all 19 cities; (3) the BuzzSkito Bite-Free Guarantee — free re-treatment if pests return inside the protection window. Reviews come from homeowners across Mississauga, Toronto, Brampton, Oakville, Burlington, Hamilton, Vaughan, and surrounding GTA communities. Read every review publicly on Google.
           </p>
         </div>
       </section>
@@ -88,7 +88,7 @@ export default function ReviewsPage() {
         <div className="max-w-4xl mx-auto">
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 text-center">
             <div>
-              <div className="text-4xl font-extrabold text-brand-900">129</div>
+              <div className="text-4xl font-extrabold text-brand-900">137</div>
               <div className="text-xs text-gray-500 mt-1 font-medium">Verified Google Reviews</div>
             </div>
             <div>
@@ -184,7 +184,7 @@ export default function ReviewsPage() {
         </div>
       </section>
 
-      <CTASection heading="Become Our Next Five-Star Review" subtext="Get a free quote and see why 129 GTA homeowners gave BuzzSkito perfect five stars." />
+      <CTASection heading="Become Our Next Five-Star Review" subtext="Get a free quote and see why 137 GTA homeowners gave BuzzSkito perfect five stars." />
     </>
   )
 }

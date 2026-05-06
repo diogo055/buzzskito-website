@@ -181,7 +181,7 @@ export default function GTAMosquitoPressureMapPage() {
             <h2 className="text-2xl sm:text-3xl font-extrabold mb-3">City averages don&rsquo;t tell your yard&rsquo;s story.</h2>
             <p className="text-brand-200 max-w-2xl mx-auto mb-5 leading-relaxed">A &ldquo;moderate&rdquo; Brampton home backing onto Heart Lake outscores a &ldquo;severe&rdquo; Toronto home in an open neighbourhood. Get your <strong className="text-white">specific 1-100 pressure score</strong> based on your address, lot, and yard features.</p>
             <Link href="/yard-risk-report" className="inline-block bg-amber-500 hover:bg-amber-400 text-white font-extrabold px-8 py-4 rounded-full text-lg shadow-2xl transition-colors">Get My Yard&rsquo;s Free Score →</Link>
-            <p className="text-[11px] text-brand-300 mt-3">🔒 No credit card · Used by 129 five-star GTA homeowners</p>
+            <p className="text-[11px] text-brand-300 mt-3">🔒 No credit card · Used by 137 five-star GTA homeowners</p>
           </div>
         </div>
       </section>
