@@ -5,7 +5,7 @@ import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusines
 import { BUSINESS, TICK_BLOGS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Vaughan Tick Control 2026 · From $99 · 129 Five-Star Reviews',
+  title: 'Vaughan Tick Control 2026 · From $99 · Boyd Conservation Specialist',
   description:
     'Vaughan tick spray · 129 five-star reviews. Targets blacklegged ticks across Woodbridge, Kleinburg, Maple, Thornhill, Concord. Free re-spray. (289) 216-5030.',
   canonical: '/vaughan-tick-spray',

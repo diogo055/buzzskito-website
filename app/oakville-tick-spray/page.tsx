@@ -5,7 +5,7 @@ import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusines
 import { BUSINESS, TICK_BLOGS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Oakville Tick Control 2026 · From $99 · 129 Five-Star Reviews',
+  title: 'Oakville Tick Control 2026 · From $99 · Bronte Creek Specialist',
   description:
     'Oakville tick spray · 129 five-star reviews. Targets blacklegged ticks near Bronte Creek, Joshua Creek & Iroquois Shoreline. Free re-spray. (289) 216-5030.',
   canonical: '/oakville-tick-spray',

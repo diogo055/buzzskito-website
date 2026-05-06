@@ -5,7 +5,7 @@ import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusines
 import { BUSINESS, TICK_BLOGS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Hamilton Tick Control 2026 · From $99 · 129 Five-Star Reviews',
+  title: 'Hamilton Tick Control 2026 · From $99 · Escarpment and Dundas Valley',
   description:
     'Hamilton tick spray · 129 five-star reviews. Targets blacklegged ticks near the Escarpment, Dundas Valley & conservation areas. Free re-spray. (289) 216-5030.',
   canonical: '/hamilton-tick-spray',
