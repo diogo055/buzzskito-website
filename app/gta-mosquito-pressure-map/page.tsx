@@ -224,6 +224,13 @@ export default function GTAMosquitoPressureMapPage() {
             <li>200+ BuzzSkito property assessments across the 19 GTA cities (proprietary data, May 2024 – May 2026)</li>
           </ul>
           <p className="text-xs text-gray-500 mt-4">This map is updated annually before the start of each mosquito season. Last updated May 2026 for the 2026 season. Pressure scores are advisory only — for medical concerns about Lyme disease or West Nile virus, contact your local public health unit.</p>
+
+          <h3 className="text-lg font-extrabold text-brand-900 mt-8 mb-2">Related public health resources</h3>
+          <ul className="space-y-1.5 text-sm">
+            <li><Link href="/ontario-lyme-disease-tracker-2026" className="text-brand-700 underline font-semibold">Ontario Lyme Disease Tracker 2026 → Province-wide case counts, endemic zones, full PHU directory</Link></li>
+            <li><Link href="/lyme-disease-risk-calculator" className="text-brand-700 underline">Lyme Disease Household Risk Calculator (free 60-second assessment)</Link></li>
+            <li><Link href="/yard-risk-report" className="text-brand-700 underline">Free GTA Yard Risk Report (mosquito + tick pressure score for your specific address)</Link></li>
+          </ul>
         </div>
       </section>
 

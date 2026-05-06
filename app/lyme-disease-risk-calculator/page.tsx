@@ -118,6 +118,7 @@ export default function LymeRiskPage() {
 
           <h2 className="text-2xl font-extrabold text-brand-900 mt-10 mb-3">Related reading</h2>
           <ul className="text-gray-700 mb-4 space-y-1">
+            <li><Link href="/ontario-lyme-disease-tracker-2026" className="text-brand-700 underline font-semibold">Ontario Lyme Disease Tracker 2026 (full PHU directory + case data)</Link></li>
             <li><Link href="/yard-risk-report" className="text-brand-700 underline font-semibold">Free GTA Yard Risk Report</Link></li>
             <li><Link href="/blog/permethrin-canada-yard-clothing-spray" className="text-brand-700 underline">Permethrin Canada Guide</Link></li>
             <li><Link href="/blog/ultimate-tick-control-guide-ontario" className="text-brand-700 underline">Ultimate Tick Control Guide for Ontario</Link></li>
