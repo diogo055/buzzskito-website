@@ -5,9 +5,9 @@ import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusines
 import { BUSINESS, MOSQUITO_BLOGS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Mosquito Pest Control Markham · From $99',
+  title: 'Markham Mosquito Control 2026 · From $99 · 129 Five-Star Reviews',
   description:
-    'Mosquito control in Markham, ON. Professional barrier spray from $99. No contracts. Health Canada-approved. Call (289) 216-5030.',
+    "Markham's specialist mosquito barrier spray. Health Canada-approved, from $99/treatment, no contracts, BuzzSkito Bite-Free Guarantee. Unionville, Cornell, Berczy Village, Wismer, Cathedraltown, Milliken Mills, Angus Glen. Call (289) 216-5030.",
   canonical: '/markham-mosquito-control',
 })
 
@@ -52,7 +52,10 @@ export default function MarkhamMosquitoPage() {
             <Link href="/mosquito-control" className="hover:text-white">Mosquito Control</Link><span>/</span>
             <span className="text-white">{CITY}</span>
           </nav>
-          <h1 className="text-4xl sm:text-5xl font-extrabold mb-5">Mosquito Control in {CITY}</h1>
+          <h1 className="text-4xl sm:text-5xl font-extrabold mb-5">
+            {CITY} Mosquito Control<br/>
+            <span className="text-amber-400">From $99 · 129 Five-Star Reviews</span>
+          </h1>
           <p className="text-xl text-brand-100 max-w-2xl mb-8">
             From Toogood Pond in Unionville to the Rouge River boundary in Cornell — BuzzSkito delivers professional mosquito barrier spray to every Markham neighbourhood.
           </p>

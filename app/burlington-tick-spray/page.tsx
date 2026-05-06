@@ -43,7 +43,7 @@ export default function BurlingtonTickPage() {
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-5">
             Burlington Tick Control<br/>
-            <span className="text-amber-400">From $99 · Lyme Disease Defence</span>
+            <span className="text-amber-400">From $99 · 129 Five-Star Reviews</span>
           </h1>
           <p className="text-xl text-brand-100 max-w-2xl mb-8">
             Burlington's Escarpment greenbelt, Bronte Creek, and Royal Botanical Gardens create significant tick habitat throughout the city. BuzzSkito protects Burlington homeowners from Lyme disease with professional 30-day tick barrier spray.

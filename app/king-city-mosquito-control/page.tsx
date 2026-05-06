@@ -5,9 +5,9 @@ import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusines
 import { BUSINESS, MOSQUITO_BLOGS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Mosquito Control King City | From $99',
+  title: 'King City Mosquito Control 2026 · From $99 · 129 Five-Star Reviews',
   description:
-    'Mosquito control in King City, ON. Professional barrier spray from $99. Health Canada-approved. No contracts. Call (289) 216-5030.',
+    "King City specialist mosquito and tick barrier spray. Health Canada-approved, from $99/treatment, no contracts, BuzzSkito Bite-Free Guarantee. King City village, Schomberg, Nobleton, Pottageville. Call (289) 216-5030.",
   canonical: '/king-city-mosquito-control',
 })
 
@@ -48,7 +48,10 @@ export default function KingCityMosquitoPage() {
             <Link href="/mosquito-control" className="hover:text-white">Mosquito Control</Link><span>/</span>
             <span className="text-white">{CITY}</span>
           </nav>
-          <h1 className="text-4xl sm:text-5xl font-extrabold mb-5">Mosquito Control in {CITY}</h1>
+          <h1 className="text-4xl sm:text-5xl font-extrabold mb-5">
+            {CITY} Mosquito Control<br/>
+            <span className="text-amber-400">From $99 · 129 Five-Star Reviews</span>
+          </h1>
           <p className="text-xl text-brand-100 max-w-2xl mb-8">
             From Humber River tributaries through King City village to the Holland Marsh corridor near Schomberg — BuzzSkito delivers professional mosquito barrier spray for King Township estate properties.
           </p>

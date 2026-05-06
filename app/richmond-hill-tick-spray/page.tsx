@@ -5,9 +5,9 @@ import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusines
 import { BUSINESS, TICK_BLOGS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Tick Spray Richmond Hill | From $99',
+  title: 'Richmond Hill Tick Control 2026 · From $99 · 129 Five-Star Reviews',
   description:
-    'Richmond Hill tick spray. Oak Ridges Moraine is one of Ontario\'s highest blacklegged tick zones. Oak Ridges, Jefferson, Bayview Hill. (289) 216-5030.',
+    "Richmond Hill tick spray for Oak Ridges Moraine — one of Ontario's highest blacklegged tick zones. Health Canada-approved barrier spray, from $99/treatment, BuzzSkito Bite-Free Guarantee. Oak Ridges, Jefferson, Bayview Hill, Mill Pond. Call (289) 216-5030.",
   canonical: '/richmond-hill-tick-spray',
 })
 
@@ -49,7 +49,10 @@ export default function RichmondHillTickPage() {
             <Link href="/tick-control" className="hover:text-white">Tick Control</Link><span>/</span>
             <span className="text-white">{CITY}</span>
           </nav>
-          <h1 className="text-4xl sm:text-5xl font-extrabold mb-5">Tick Control in {CITY}</h1>
+          <h1 className="text-4xl sm:text-5xl font-extrabold mb-5">
+            {CITY} Tick Control<br/>
+            <span className="text-amber-400">From $99 · 129 Five-Star Reviews</span>
+          </h1>
           <p className="text-xl text-brand-100 max-w-2xl mb-8">
             The Oak Ridges Moraine running through Richmond Hill is one of Ontario's highest-density blacklegged tick zones. BuzzSkito provides professional tick spray to protect your family from Lyme disease.
           </p>

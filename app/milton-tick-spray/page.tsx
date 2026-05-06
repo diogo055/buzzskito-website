@@ -5,9 +5,9 @@ import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusines
 import { BUSINESS, TICK_BLOGS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Tick Spray Milton | From $99',
+  title: 'Milton Tick Control 2026 · From $99 · 129 Five-Star Reviews',
   description:
-    'Professional tick spray in Milton, ON. Protect your yard near the Escarpment & conservation areas. From $99. Call (289) 216-5030.',
+    "Milton tick spray for Niagara Escarpment, Crawford Lake, and Halton Greenbelt properties. Health Canada-approved, from $99/treatment, BuzzSkito Bite-Free Guarantee. Old Milton, Beaty, Coates, Hawthorne Village, Scott. Call (289) 216-5030.",
   canonical: '/milton-tick-spray',
 })
 
@@ -49,7 +49,10 @@ export default function MiltonTickPage() {
             <Link href="/tick-control" className="hover:text-white">Tick Control</Link><span>/</span>
             <span className="text-white">{CITY}</span>
           </nav>
-          <h1 className="text-4xl sm:text-5xl font-extrabold mb-5">Tick Control in {CITY}</h1>
+          <h1 className="text-4xl sm:text-5xl font-extrabold mb-5">
+            {CITY} Tick Control<br/>
+            <span className="text-amber-400">From $99 · 129 Five-Star Reviews</span>
+          </h1>
           <p className="text-xl text-brand-100 max-w-2xl mb-8">
             Milton's Niagara Escarpment trail system — Rattlesnake Point, Crawford Lake, and Mount Nemo — is well-documented blacklegged tick habitat. Halton Region recommends tick prevention for adjacent properties. BuzzSkito provides professional protection.
           </p>

@@ -5,9 +5,9 @@ import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusines
 import { BUSINESS, TICK_BLOGS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Tick Spray North York | From $99',
+  title: 'North York Tick Control 2026 · From $99 · 129 Five-Star Reviews',
   description:
-    'Professional tick spray in North York, Toronto. Protect your yard from blacklegged ticks. From $99. Call (289) 216-5030.',
+    "North York tick spray for Don Valley West Branch and Black Creek ravine properties. Health Canada-approved, from $99/treatment, BuzzSkito Bite-Free Guarantee. Don Mills, Willowdale, York Mills, Bridle Path, Bayview Village. Call (289) 216-5030.",
   canonical: '/north-york-tick-spray',
 })
 
@@ -49,7 +49,10 @@ export default function NorthYorkTickPage() {
             <Link href="/tick-control" className="hover:text-white">Tick Control</Link><span>/</span>
             <span className="text-white">{CITY}</span>
           </nav>
-          <h1 className="text-4xl sm:text-5xl font-extrabold mb-5">Tick Control in {CITY}</h1>
+          <h1 className="text-4xl sm:text-5xl font-extrabold mb-5">
+            {CITY} Tick Control<br/>
+            <span className="text-amber-400">From $99 · 129 Five-Star Reviews</span>
+          </h1>
           <p className="text-xl text-brand-100 max-w-2xl mb-8">
             The Don Valley ravine system — including Serena Gundy Park, Sunnybrook Park, and Wilket Creek — provides extensive blacklegged tick habitat in the heart of Toronto. BuzzSkito protects North York properties from Lyme disease.
           </p>

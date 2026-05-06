@@ -5,9 +5,9 @@ import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusines
 import { BUSINESS, MOSQUITO_BLOGS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Mosquito Control North York | From $99',
+  title: 'North York Mosquito Control 2026 · From $99 · 129 Five-Star Reviews',
   description:
-    'Mosquito control in North York, Toronto. Barrier spray near Don Valley from $99. No contracts. Call (289) 216-5030.',
+    "North York's specialist mosquito barrier spray. Health Canada-approved, from $99/treatment, no contracts, BuzzSkito Bite-Free Guarantee. Willowdale, York Mills, Don Mills, Bridle Path, Bayview Village, Lansing, Newtonbrook. Call (289) 216-5030.",
   canonical: '/north-york-mosquito-control',
 })
 
@@ -52,7 +52,10 @@ export default function NorthYorkMosquitoPage() {
             <Link href="/mosquito-control" className="hover:text-white">Mosquito Control</Link><span>/</span>
             <span className="text-white">{CITY}</span>
           </nav>
-          <h1 className="text-4xl sm:text-5xl font-extrabold mb-5">Mosquito Control in {CITY}</h1>
+          <h1 className="text-4xl sm:text-5xl font-extrabold mb-5">
+            {CITY} Mosquito Control<br/>
+            <span className="text-amber-400">From $99 · 129 Five-Star Reviews</span>
+          </h1>
           <p className="text-xl text-brand-100 max-w-2xl mb-8">
             From Burke Brook ravine in Lawrence Park to Serena Gundy Park in Don Mills — BuzzSkito delivers professional mosquito barrier spray to every North York neighbourhood.
           </p>

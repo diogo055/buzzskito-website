@@ -5,9 +5,9 @@ import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusines
 import { BUSINESS, TICK_BLOGS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Tick Spray Thornhill | From $99',
+  title: 'Thornhill Tick Control 2026 · From $99 · 129 Five-Star Reviews',
   description:
-    'Professional tick spray in Thornhill, Vaughan. Protect your yard from blacklegged ticks. From $99. Call (289) 216-5030.',
+    "Thornhill tick spray for Bayview-adjacent ravine properties. Health Canada-approved, from $99/treatment, BuzzSkito Bite-Free Guarantee. Royal Orchard, Beverley Glen, German Mills, Pomona Mills, Aileen-Willowbrook. Call (289) 216-5030.",
   canonical: '/thornhill-tick-spray',
 })
 
@@ -49,7 +49,10 @@ export default function ThornhillTickPage() {
             <Link href="/tick-control" className="hover:text-white">Tick Control</Link><span>/</span>
             <span className="text-white">{CITY}</span>
           </nav>
-          <h1 className="text-4xl sm:text-5xl font-extrabold mb-5">Tick Control in {CITY}</h1>
+          <h1 className="text-4xl sm:text-5xl font-extrabold mb-5">
+            {CITY} Tick Control<br/>
+            <span className="text-amber-400">From $99 · 129 Five-Star Reviews</span>
+          </h1>
           <p className="text-xl text-brand-100 max-w-2xl mb-8">
             Thornhill's Don River tributary ravines — including German Mills Creek and Pomona Mills Park — provide year-round blacklegged tick habitat. Both Vaughan and Markham portions of Thornhill are within York Region's tick monitoring area. BuzzSkito protects your family from Lyme disease.
           </p>

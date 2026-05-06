@@ -5,9 +5,9 @@ import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusines
 import { BUSINESS, TICK_BLOGS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Tick Spray Etobicoke | From $99',
+  title: 'Etobicoke Tick Control 2026 · From $99 · 129 Five-Star Reviews',
   description:
-    'Professional tick spray in Etobicoke. Protect your yard from blacklegged ticks near Humber Valley. From $99. Call (289) 216-5030.',
+    "Etobicoke tick spray for Humber River valley and Etobicoke Creek properties. Health Canada-approved, from $99/treatment, BuzzSkito Bite-Free Guarantee. Mimico, The Kingsway, Humber Valley, Long Branch, Islington Village. Call (289) 216-5030.",
   canonical: '/etobicoke-tick-spray',
 })
 
@@ -49,7 +49,10 @@ export default function EtobicokeTickPage() {
             <Link href="/tick-control" className="hover:text-white">Tick Control</Link><span>/</span>
             <span className="text-white">{CITY}</span>
           </nav>
-          <h1 className="text-4xl sm:text-5xl font-extrabold mb-5">Tick Control in {CITY}</h1>
+          <h1 className="text-4xl sm:text-5xl font-extrabold mb-5">
+            {CITY} Tick Control<br/>
+            <span className="text-amber-400">From $99 · 129 Five-Star Reviews</span>
+          </h1>
           <p className="text-xl text-brand-100 max-w-2xl mb-8">
             The Humber River valley through Etobicoke is confirmed blacklegged tick habitat. BuzzSkito provides professional tick spray to protect your family from Lyme disease along Toronto's western ravine corridors.
           </p>

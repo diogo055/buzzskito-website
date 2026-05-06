@@ -5,9 +5,9 @@ import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusines
 import { BUSINESS, TICK_BLOGS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Tick Spray King City | From $99',
+  title: 'King City Tick Control 2026 · From $99 · 129 Five-Star Reviews',
   description:
-    'Professional tick spray in King City, ON. Protect your property from blacklegged ticks. From $99. Call (289) 216-5030.',
+    "King City tick spray for Oak Ridges Moraine forest properties — high blacklegged tick density. Health Canada-approved, from $99, BuzzSkito Bite-Free Guarantee. King City village, Nobleton, Schomberg, Kettleby. Call (289) 216-5030.",
   canonical: '/king-city-tick-spray',
 })
 
@@ -49,7 +49,10 @@ export default function KingCityTickPage() {
             <Link href="/tick-control" className="hover:text-white">Tick Control</Link><span>/</span>
             <span className="text-white">{CITY}</span>
           </nav>
-          <h1 className="text-4xl sm:text-5xl font-extrabold mb-5">Tick Control in {CITY}</h1>
+          <h1 className="text-4xl sm:text-5xl font-extrabold mb-5">
+            {CITY} Tick Control<br/>
+            <span className="text-amber-400">From $99 · 129 Five-Star Reviews</span>
+          </h1>
           <p className="text-xl text-brand-100 max-w-2xl mb-8">
             King Township sits directly on the Oak Ridges Moraine and consistently reports some of the highest blacklegged tick activity in York Region. BuzzSkito provides professional tick spray to protect King City, Nobleton, and Schomberg properties from Lyme disease.
           </p>

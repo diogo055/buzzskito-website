@@ -5,9 +5,9 @@ import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusines
 import { BUSINESS, MOSQUITO_BLOGS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Mosquito Control Etobicoke | From $99',
+  title: 'Etobicoke Mosquito Control 2026 · From $99 · 129 Five-Star Reviews',
   description:
-    'Mosquito control in Etobicoke, Toronto. Barrier spray near Humber River from $99. Health Canada-approved. Call (289) 216-5030.',
+    "Etobicoke's specialist mosquito barrier spray. Health Canada-approved, from $99/treatment, no contracts, BuzzSkito Bite-Free Guarantee. Mimico, Long Branch, The Kingsway, Humber Valley, Richview, Rexdale, Islington Village. Call (289) 216-5030.",
   canonical: '/etobicoke-mosquito-control',
 })
 
@@ -52,7 +52,10 @@ export default function EtobicokeMosquitoPage() {
             <Link href="/mosquito-control" className="hover:text-white">Mosquito Control</Link><span>/</span>
             <span className="text-white">{CITY}</span>
           </nav>
-          <h1 className="text-4xl sm:text-5xl font-extrabold mb-5">Mosquito Control in {CITY}</h1>
+          <h1 className="text-4xl sm:text-5xl font-extrabold mb-5">
+            {CITY} Mosquito Control<br/>
+            <span className="text-amber-400">From $99 · 129 Five-Star Reviews</span>
+          </h1>
           <p className="text-xl text-brand-100 max-w-2xl mb-8">
             From the Humber River valley ravines to Mimico&apos;s lakefront — BuzzSkito delivers professional mosquito barrier spray to every Etobicoke neighbourhood.
           </p>

@@ -5,7 +5,7 @@ import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusines
 import { BUSINESS, TICK_BLOGS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Oakville Tick Control 2026 · From $99 · Bronte Creek Specialist',
+  title: 'Oakville Tick Control 2026 · From $99 · 129 Five-Star Reviews',
   description:
     'Oakville tick spray · 129 five-star reviews. Targets blacklegged ticks near Bronte Creek, Joshua Creek & Iroquois Shoreline. Free re-spray. (289) 216-5030.',
   canonical: '/oakville-tick-spray',
@@ -69,7 +69,7 @@ export default function OakvilleTickSprayPage() {
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-5">
             Oakville Tick Control<br/>
-            <span className="text-amber-400">From $99 · Lyme Disease Defence</span>
+            <span className="text-amber-400">From $99 · 129 Five-Star Reviews</span>
           </h1>
           <p className="text-xl text-brand-100 max-w-2xl mb-8">
             Bronte Creek Provincial Park, Glen Abbey's wooded ravines, and Oakville's natural trail systems are prime blacklegged tick habitat. BuzzSkito provides professional tick spray to protect Oakville families from Lyme disease.

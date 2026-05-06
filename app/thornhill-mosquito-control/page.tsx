@@ -5,9 +5,9 @@ import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusines
 import { BUSINESS, MOSQUITO_BLOGS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Mosquito Control Thornhill | From $99',
+  title: 'Thornhill Mosquito Control 2026 · From $99 · 129 Five-Star Reviews',
   description:
-    'Mosquito control in Thornhill, Vaughan. Professional barrier spray from $99. No contracts. Call (289) 216-5030.',
+    "Thornhill specialist mosquito barrier spray. Health Canada-approved, from $99/treatment, no contracts, BuzzSkito Bite-Free Guarantee. Royal Orchard, Beverley Glen, German Mills, Thornhill Woods. Call (289) 216-5030.",
   canonical: '/thornhill-mosquito-control',
 })
 
@@ -48,7 +48,10 @@ export default function ThornhillMosquitoPage() {
             <Link href="/mosquito-control" className="hover:text-white">Mosquito Control</Link><span>/</span>
             <span className="text-white">{CITY}</span>
           </nav>
-          <h1 className="text-4xl sm:text-5xl font-extrabold mb-5">Mosquito Control in {CITY}</h1>
+          <h1 className="text-4xl sm:text-5xl font-extrabold mb-5">
+            {CITY} Mosquito Control<br/>
+            <span className="text-amber-400">From $99 · 129 Five-Star Reviews</span>
+          </h1>
           <p className="text-xl text-brand-100 max-w-2xl mb-8">
             From German Mills Creek ravines in Pomona Mills to the golf course corridors of Commerce Valley — BuzzSkito delivers professional mosquito barrier spray to every Thornhill neighbourhood.
           </p>

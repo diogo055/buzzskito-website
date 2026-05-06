@@ -5,7 +5,7 @@ import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusines
 import { BUSINESS, TICK_BLOGS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Hamilton Tick Control 2026 · From $99 · Escarpment and Dundas Valley',
+  title: 'Hamilton Tick Control 2026 · From $99 · 129 Five-Star Reviews',
   description:
     'Hamilton tick spray · 129 five-star reviews. Targets blacklegged ticks near the Escarpment, Dundas Valley & conservation areas. Free re-spray. (289) 216-5030.',
   canonical: '/hamilton-tick-spray',
@@ -69,7 +69,7 @@ export default function HamiltonTickSprayPage() {
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-5">
             Hamilton Tick Control<br/>
-            <span className="text-amber-400">From $99 · Lyme Disease Defence</span>
+            <span className="text-amber-400">From $99 · 129 Five-Star Reviews</span>
           </h1>
           <p className="text-xl text-brand-100 max-w-2xl mb-8">
             Hamilton's Dundas Valley, Niagara Escarpment trails, and conservation lands make it one of Southern Ontario's highest tick-risk regions. BuzzSkito protects Hamilton families with professional 30-day tick barrier spray.

@@ -444,7 +444,11 @@ export default function OntarioLymeTrackerPage() {
       </section>
 
       {/* INLINE CTA */}
-      <InlineYardRiskCTA />
+      <section className="bg-white px-4 pb-4">
+        <div className="max-w-4xl mx-auto">
+          <InlineYardRiskCTA pretext="Free 60-second tool · No obligation" />
+        </div>
+      </section>
 
       {/* SECTION 5: SYMPTOM DECISION TREE */}
       <section className="bg-rose-50 py-14 px-4">

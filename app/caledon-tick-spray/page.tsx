@@ -5,9 +5,9 @@ import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusines
 import { BUSINESS, TICK_BLOGS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Tick Spray Caledon | From $99',
+  title: 'Caledon Tick Control 2026 · From $99 · 129 Five-Star Reviews',
   description:
-    'Caledon tick spray. Oak Ridges Moraine & Forks of the Credit are among Ontario\'s highest tick zones. Bolton, Palgrave, Alton, Caledon East. (289) 216-5030.',
+    "Caledon tick spray for Oak Ridges Moraine and Forks of the Credit — among Ontario's highest blacklegged tick zones. Health Canada-approved, from $99, BuzzSkito Bite-Free Guarantee. Bolton, Palgrave, Caledon East, Inglewood, Belfountain. Call (289) 216-5030.",
   canonical: '/caledon-tick-spray',
 })
 
@@ -49,7 +49,10 @@ export default function CaledonTickPage() {
             <Link href="/tick-control" className="hover:text-white">Tick Control</Link><span>/</span>
             <span className="text-white">{CITY}</span>
           </nav>
-          <h1 className="text-4xl sm:text-5xl font-extrabold mb-5">Tick Control in {CITY}</h1>
+          <h1 className="text-4xl sm:text-5xl font-extrabold mb-5">
+            {CITY} Tick Control<br/>
+            <span className="text-amber-400">From $99 · 129 Five-Star Reviews</span>
+          </h1>
           <p className="text-xl text-brand-100 max-w-2xl mb-8">
             Caledon sits at the heart of the Oak Ridges Moraine and has among the highest confirmed blacklegged tick activity rates in the GTA. Peel Region Public Health issues tick advisories for Caledon annually. BuzzSkito protects your property from Lyme disease.
           </p>

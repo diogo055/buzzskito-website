@@ -69,7 +69,7 @@ export default function BramptonTickSprayPage() {
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-5">
             Brampton Tick Control<br/>
-            <span className="text-amber-400">From $99 · Lyme Disease Defence</span>
+            <span className="text-amber-400">From $99 · 129 Five-Star Reviews</span>
           </h1>
           <p className="text-xl text-brand-100 max-w-2xl mb-8">
             Brampton's ravines, conservation areas, and greenbelt corridors harbour blacklegged ticks. Protect your family from Lyme disease with BuzzSkito's professional 30-day tick barrier spray.

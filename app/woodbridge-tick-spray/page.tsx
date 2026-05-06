@@ -5,9 +5,9 @@ import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusines
 import { BUSINESS, TICK_BLOGS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Tick Spray Woodbridge | From $99',
+  title: 'Woodbridge Tick Control 2026 · From $99 · 129 Five-Star Reviews',
   description:
-    'Professional tick spray in Woodbridge, Vaughan. Protect your yard from blacklegged ticks. From $99. Call (289) 216-5030.',
+    "Woodbridge tick spray for Humber River corridor properties. Health Canada-approved, from $99/treatment, BuzzSkito Bite-Free Guarantee. Sonoma Heights, West Woodbridge, East Woodbridge, Pine Valley, Vellore Village. Call (289) 216-5030.",
   canonical: '/woodbridge-tick-spray',
 })
 
@@ -49,7 +49,10 @@ export default function WoodbridgeTickPage() {
             <Link href="/tick-control" className="hover:text-white">Tick Control</Link><span>/</span>
             <span className="text-white">{CITY}</span>
           </nav>
-          <h1 className="text-4xl sm:text-5xl font-extrabold mb-5">Tick Control in {CITY}</h1>
+          <h1 className="text-4xl sm:text-5xl font-extrabold mb-5">
+            {CITY} Tick Control<br/>
+            <span className="text-amber-400">From $99 · 129 Five-Star Reviews</span>
+          </h1>
           <p className="text-xl text-brand-100 max-w-2xl mb-8">
             Boyd Conservation Area and the Humber River valley running through Woodbridge are established blacklegged tick habitat. Properties in Islington Woods and Pine Valley face the highest annual tick exposure. BuzzSkito provides professional protection.
           </p>

@@ -5,9 +5,9 @@ import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusines
 import { BUSINESS, MOSQUITO_BLOGS, TICK_BLOGS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Mosquito Control Kleinburg · From $99 | 5★ Local',
+  title: 'Kleinburg Mosquito Control 2026 · From $99 · 129 Five-Star Reviews',
   description:
-    'Kleinburg mosquito control · 129 five-star reviews. Health Canada-approved barrier spray from $99 for ravine-adjacent estate properties. (289) 216-5030.',
+    "Kleinburg specialist mosquito and tick barrier spray for ravine-adjacent estate properties. Health Canada-approved, from $99/treatment, no contracts, BuzzSkito Bite-Free Guarantee. Kleinburg Village, Copperwood. Call (289) 216-5030.",
   canonical: '/kleinburg-mosquito-control',
 })
 
@@ -51,7 +51,10 @@ export default function KleinburgMosquitoPage() {
             <Link href="/mosquito-control" className="hover:text-white">Mosquito Control</Link><span>/</span>
             <span className="text-white">{CITY}</span>
           </nav>
-          <h1 className="text-4xl sm:text-5xl font-extrabold mb-5">Mosquito Control in {CITY}</h1>
+          <h1 className="text-4xl sm:text-5xl font-extrabold mb-5">
+            {CITY} Mosquito Control<br/>
+            <span className="text-amber-400">From $99 · 129 Five-Star Reviews</span>
+          </h1>
           <p className="text-xl text-brand-100 max-w-2xl mb-8">
             Kleinburg&apos;s Humber River frontage and surrounding conservation land create some of the GTA&apos;s most intense mosquito and tick pressure. BuzzSkito delivers professional barrier spray to Kleinburg Village and all surrounding rural properties.
           </p>

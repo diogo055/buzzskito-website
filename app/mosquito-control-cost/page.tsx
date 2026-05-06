@@ -5,9 +5,9 @@ import { buildMetadata, breadcrumbSchema, faqSchema, speakableSchema, howToSchem
 import { BUSINESS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Mosquito Control Cost Ontario 2026 | From $99',
+  title: 'Mosquito Control Cost Ontario 2026 · From $99 · 129 Five-Star Reviews',
   description:
-    'How much does mosquito control cost in Ontario? BuzzSkito treatments from $99. See 2026 pricing by city & property size.',
+    'How much does mosquito control cost in Ontario? BuzzSkito treatments from $99 with 129 five-star reviews. Single visit, seasonal programs, by lot size + city. No contracts. (289) 216-5030.',
   canonical: '/mosquito-control-cost',
 })
 

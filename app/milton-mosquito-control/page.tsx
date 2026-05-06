@@ -5,9 +5,9 @@ import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusines
 import { BUSINESS, MOSQUITO_BLOGS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Mosquito Control Milton | From $99',
+  title: 'Milton Mosquito Control 2026 · From $99 · 129 Five-Star Reviews',
   description:
-    'Mosquito control in Milton, ON. Professional barrier spray from $99. No contracts. Health Canada-approved. Call (289) 216-5030.',
+    "Milton's specialist mosquito barrier spray. Health Canada-approved, from $99/treatment, no contracts, BuzzSkito Bite-Free Guarantee. Old Milton, Beaty, Coates, Willmott, Scott, Bowes, Hawthorne Village. Call (289) 216-5030.",
   canonical: '/milton-mosquito-control',
 })
 
@@ -48,7 +48,10 @@ export default function MiltonMosquitoPage() {
             <Link href="/mosquito-control" className="hover:text-white">Mosquito Control</Link><span>/</span>
             <span className="text-white">{CITY}</span>
           </nav>
-          <h1 className="text-4xl sm:text-5xl font-extrabold mb-5">Mosquito Control in {CITY}</h1>
+          <h1 className="text-4xl sm:text-5xl font-extrabold mb-5">
+            {CITY} Mosquito Control<br/>
+            <span className="text-amber-400">From $99 · 129 Five-Star Reviews</span>
+          </h1>
           <p className="text-xl text-brand-100 max-w-2xl mb-8">
             From Sixteen Mile Creek&apos;s ravine corridor to stormwater ponds in Hawthorne Village — BuzzSkito delivers professional mosquito barrier spray to every Milton neighbourhood.
           </p>
