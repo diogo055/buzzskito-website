@@ -191,6 +191,31 @@ export default function CommercialMosquitoPage() {
         </div>
       </section>
 
+      <section className="py-10 px-4 bg-white border-t border-gray-100">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-2xl font-extrabold text-brand-900 mb-4">Specialized Commercial Services</h2>
+          <p className="text-gray-700 mb-5">For specific commercial property types, we offer dedicated service pages with audience-specific protocols, pricing, and documentation:</p>
+          <div className="grid sm:grid-cols-2 gap-4">
+            <Link href="/hoa-condo-community-mosquito-control" className="block rounded-xl border border-brand-100 bg-brand-50 p-5 hover:border-amber-400 transition">
+              <p className="font-extrabold text-brand-900 mb-1">→ HOA &amp; Condo Communities</p>
+              <p className="text-sm text-gray-700">Single-invoice contracts, resident notification support, retention pond BTI treatment.</p>
+            </Link>
+            <Link href="/property-manager-mosquito-tick-control" className="block rounded-xl border border-brand-100 bg-brand-50 p-5 hover:border-amber-400 transition">
+              <p className="font-extrabold text-brand-900 mb-1">→ Property Management Portfolios</p>
+              <p className="text-sm text-gray-700">15-25% volume discount, consolidated invoicing, direct tenant coordination, PM software integration.</p>
+            </Link>
+            <Link href="/daycare-camp-mosquito-tick-control" className="block rounded-xl border border-brand-100 bg-brand-50 p-5 hover:border-amber-400 transition">
+              <p className="font-extrabold text-brand-900 mb-1">→ Daycares, Camps &amp; Schools</p>
+              <p className="text-sm text-gray-700">Pesticides Act licensed, parent notification templates, scheduled around children&rsquo;s hours.</p>
+            </Link>
+            <Link href="/estate-property-mosquito-control" className="block rounded-xl border border-brand-100 bg-brand-50 p-5 hover:border-amber-400 transition">
+              <p className="font-extrabold text-brand-900 mb-1">→ Estate &amp; Acreage Properties</p>
+              <p className="text-sm text-gray-700">1-10 acre residential, commercial-grade equipment, multi-zone application.</p>
+            </Link>
+          </div>
+        </div>
+      </section>
+
       <CTASection heading="Get a Commercial Mosquito Control Quote" subtext="Serving restaurants, event venues, golf courses, and managed communities across the GTA. Call to discuss your property." />
     </>
   )
