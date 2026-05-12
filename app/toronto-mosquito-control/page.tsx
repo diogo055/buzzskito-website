@@ -7,7 +7,7 @@ import { BUSINESS, MOSQUITO_BLOGS, TICK_BLOGS } from '@/lib/constants'
 export const metadata: Metadata = buildMetadata({
   title: 'Toronto Mosquito Control 2026 · From $99 · 137 Five-Star Reviews',
   description:
-    "Toronto's specialist mosquito barrier spray for ravine-adjacent yards. From $99/treatment, no contracts, BuzzSkito Bite-Free Guarantee. Rosedale, Forest Hill, The Beaches, Etobicoke, Don Mills. Call (289) 216-5030.",
+    "Toronto's #1 specialist for ravine-adjacent mosquito control — Don Valley, High Park, Rosedale, Forest Hill, The Beaches, Leaside. From $99/treatment, 137 five-star reviews, no contracts, BuzzSkito Bite-Free Guarantee. Same-week service. Call (289) 216-5030.",
   canonical: '/toronto-mosquito-control',
 })
 

@@ -10,9 +10,9 @@ const PUBLISHED = '2026-04-29'
 const TITLE = 'BuzzSkito 2026 GTA Mosquito & Tick Surveillance Report'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'GTA Mosquito & Tick Report 2026 — BuzzSkito Surveillance',
+  title: '2026 GTA Mosquito & Tick Report (Original Data from 200+ Property Surveys)',
   description:
-    'Original 2026 GTA mosquito and tick surveillance data from BuzzSkito field operations: pressure zones by city, seasonal timing, FSAs by risk tier, and observations across 19 GTA cities. Cite-ready original research.',
+    'BuzzSkito 2026 GTA Mosquito & Tick Surveillance Report — original data from 200+ property surveys across 19 GTA cities. Pressure tier maps, peak weeks, neighbourhood-level findings, Lyme-endemic boundaries. Free, cite-ready, journalist-friendly.',
   canonical: SLUG,
   type: 'article',
   publishedTime: PUBLISHED,

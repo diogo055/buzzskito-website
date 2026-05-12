@@ -12,9 +12,9 @@ const POST = {
 }
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Lyme Disease Risk Areas Ontario 2026',
+  title: 'Lyme Disease Risk Areas Ontario 2026 (Endemic Map + 3,614 Cases Last Year)',
   description:
-    'Confirmed Lyme disease risk areas in Ontario for 2026. GTA zones, public health data, tick expansion maps, and professional yard protection.',
+    'Confirmed Lyme disease risk zones across Ontario in 2026. Public Health Ontario flagged 8 PHUs as established endemic + 7 emerging. 3,614 cases in 2025 (30× rise since 2010). GTA hotspots, map, and household risk score.',
   canonical: `/blog/${POST.slug}`,
   type: 'article',
   publishedTime: POST.date,

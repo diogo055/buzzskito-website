@@ -34,9 +34,9 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'When Does Mosquito Season Start in Ontario?',
+  title: 'When Do Mosquitoes Come Out in Ontario 2026? (Exact Dates + Peak Weeks)',
   description:
-    'Mosquito season in Ontario starts late April at 10°C, peaks June–July, ends late September. Worst month, when to spray, GTA 2026 expectations.',
+    'Ontario mosquito season 2026 starts late April when temps hit 10°C. Peak weeks June 13-Aug 22. Worst month: July. Temperature triggers, city-by-city timing, and why the first week of May is the booking window you cannot miss.',
   canonical: `/blog/${POST.slug}`,
   type: 'article',
   publishedTime: POST.date,

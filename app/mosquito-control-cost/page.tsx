@@ -5,9 +5,9 @@ import { buildMetadata, breadcrumbSchema, faqSchema, speakableSchema, howToSchem
 import { BUSINESS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Mosquito Control Cost Ontario 2026 · From $99 · 137 Five-Star Reviews',
+  title: 'Mosquito Control Cost Ontario 2026 (Real Prices by Lot Size + City)',
   description:
-    'How much does mosquito control cost in Ontario? BuzzSkito treatments from $99 with 137 five-star reviews. Single visit, seasonal programs, by lot size + city. No contracts. (289) 216-5030.',
+    'How much does mosquito control cost in Ontario? Standard yard $99-$159 single visit · 5-treatment season $549 · 2-acre estate $250-$375/visit. BuzzSkito vs LawnSavers ($129+) vs Mosquito Man ($450 season). No contracts. (289) 216-5030.',
   canonical: '/mosquito-control-cost',
 })
 

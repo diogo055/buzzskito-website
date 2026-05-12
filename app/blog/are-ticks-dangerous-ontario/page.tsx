@@ -12,9 +12,9 @@ const POST = {
 }
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Are Ticks Dangerous in Ontario?',
+  title: 'Are Ticks Dangerous in Ontario 2026? (Worst Areas + Lyme Risk Map)',
   description:
-    'Are ticks dangerous in Ontario? Yes. Learn which ticks carry disease, how common Lyme disease is in the GTA, and how to protect your family.',
+    "Yes — Ontario blacklegged ticks transmit Lyme, Anaplasmosis, Babesiosis, and Powassan. 3,614 confirmed cases in 2025. See which GTA areas are highest-risk (Toronto ravines, Hamilton escarpment, Caledon hills, Rouge Park), how to protect your family, and your household risk score.",
   canonical: `/blog/${POST.slug}`,
   type: 'article',
   publishedTime: POST.date,

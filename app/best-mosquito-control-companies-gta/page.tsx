@@ -5,9 +5,9 @@ import { buildMetadata, breadcrumbSchema, faqSchema, speakableSchema, howToSchem
 import { BUSINESS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Best Mosquito Control GTA 2026 · Prices Compared',
+  title: 'Best Mosquito Control Companies GTA 2026 (4 Compared, Prices Inside)',
   description:
-    'Compare the best mosquito control companies in the GTA for 2026. BuzzSkito vs Mosquito Man vs Mosquito.Buzz vs LawnSavers. Pricing, reviews & service areas.',
+    'Honest 2026 comparison: BuzzSkito ($99, 137 reviews, no contracts) vs Mosquito Man (~$450, seasonal contracts) vs Mosquito.Buzz (franchise) vs LawnSavers ($129+, bundled lawn care). Real pricing, reviews, service areas, and which is right for your GTA property.',
   canonical: '/best-mosquito-control-companies-gta',
 })
 
