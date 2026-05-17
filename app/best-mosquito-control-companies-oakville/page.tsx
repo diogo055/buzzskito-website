@@ -14,7 +14,7 @@ export const metadata: Metadata = buildMetadata({
 const FAQS = [
   {
     question: 'Who is the best mosquito control company in Oakville?',
-    answer: 'BuzzSkito offers the lowest single-treatment price in Oakville (from $99), no contracts, and a perfect 5.0 rating across 137 Google reviews. Mosquito Man has more cumulative reviews (900+) and a longer GTA track record but operates on seasonal contracts. LawnSavers bundles mosquito with lawn care for existing customers. Best choice depends on your priorities.',
+    answer: 'BuzzSkito offers the lowest single-treatment price in Oakville (from $99), no contracts, and a perfect 5.0 rating across 150+ Google reviews. Mosquito Man has more cumulative reviews (900+) and a longer GTA track record but operates on seasonal contracts. LawnSavers bundles mosquito with lawn care for existing customers. Best choice depends on your priorities.',
   },
   {
     question: 'How much does mosquito control cost in Oakville in 2026?',
@@ -86,7 +86,7 @@ export default function BestMosquitoControlCompaniesOakvillePage() {
               </thead>
               <tbody>
                 {[
-                  { company: 'BuzzSkito', price: 'From $99', reviews: '137 (5.0★)', contracts: 'No contracts', area: 'All Oakville' },
+                  { company: 'BuzzSkito', price: 'From $99', reviews: '150+ (5.0★)', contracts: 'No contracts', area: 'All Oakville' },
                   { company: 'Mosquito Man', price: 'Quote-based', reviews: '900+ (4.8★)', contracts: 'Seasonal', area: 'All Oakville' },
                   { company: 'Mosquito.Buzz', price: 'Quote-based', reviews: 'Varies', contracts: 'Seasonal', area: 'Franchise' },
                   { company: 'LawnSavers', price: 'From $129', reviews: '500+ combined', contracts: 'Seasonal', area: 'Oakville' },
@@ -108,7 +108,7 @@ export default function BestMosquitoControlCompaniesOakvillePage() {
           <p><Link href="/oakville-mosquito-control" className="text-brand-700 hover:underline">BuzzSkito serves all Oakville</Link> — Glen Abbey, Bronte, Old Oakville, North Oakville, Joshua Creek, River Oaks, West Oak Trails, Falgarwood, Clearview, and Eastlake.</p>
           <ul>
             <li><strong>Pricing:</strong> From $99 per single treatment. Seasonal programs (5, 10, 20+ treatments) custom-quoted on request.</li>
-            <li><strong>Reviews:</strong> 137 Google reviews, perfect 5.0-star rating.</li>
+            <li><strong>Reviews:</strong> 150+ Google reviews, perfect 5.0-star rating.</li>
             <li><strong>Contracts:</strong> No contracts, no cancellation fees.</li>
             <li><strong>Tick add-on:</strong> Critical for Oakville homes near Bronte Creek and Iroquois Shoreline. $597 standalone or tick add-on bundle available on quote.</li>
             <li><strong>Lakefront coverage:</strong> Old Oakville lakefront properties experience high mosquito pressure from Lake Ontario humidity — properly equipped barrier spray handles it.</li>

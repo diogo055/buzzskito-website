@@ -7,7 +7,7 @@ import { BUSINESS, TICK_BLOGS } from '@/lib/constants'
 export const metadata: Metadata = buildMetadata({
   title: 'Toronto Tick Control 2026 · From $99 · Lyme Disease Defence',
   description:
-    'Toronto tick spray · 137 five-star reviews. Targets blacklegged ticks in ravine yards — High Park, Don Valley, Rosedale. Free re-spray. (289) 216-5030.',
+    'Toronto tick spray · 150+ five-star reviews. Targets blacklegged ticks in ravine yards — High Park, Don Valley, Rosedale. Free re-spray. (289) 216-5030.',
   canonical: '/toronto-tick-spray',
 })
 
@@ -77,7 +77,7 @@ export default function TorontoTickSprayPage() {
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-5">
             Toronto Tick Control<br/>
-            <span className="text-amber-400">From $99 · 137 Five-Star Reviews</span>
+            <span className="text-amber-400">From $99 · 150+ Five-Star Reviews</span>
           </h1>
           <p className="text-xl text-brand-100 max-w-2xl mb-8">
             Ticks in Toronto aren't just a nuisance — they're a real health risk. Blacklegged ticks carrying Lyme disease are established in Toronto's ravine system and parks. BuzzSkito provides effective professional tick spray for Toronto homeowners.
@@ -96,7 +96,7 @@ export default function TorontoTickSprayPage() {
           <span>✓ Safe for Kids &amp; Pets (30 min dry)</span>
           <span>✓ Up to 30-Day Protection</span>
           <span>✓ Lyme Disease Prevention</span>
-          <span>✓ 5-Star Rated · 137 Reviews</span>
+          <span>✓ 5-Star Rated · 150+ Reviews</span>
         </div>
       </section>
 
@@ -106,7 +106,7 @@ export default function TorontoTickSprayPage() {
           <p className="text-xs font-extrabold text-amber-700 uppercase tracking-wider mb-2">Quick Answer</p>
           <h2 className="text-xl font-extrabold text-brand-900 mb-3">What is the best tick control company in Toronto?</h2>
           <p className="text-base text-gray-800 leading-relaxed">
-            <strong>BuzzSkito provides specialist tick barrier spray across all Toronto neighbourhoods — High Park, East York, Don Mills, The Beaches, Scarborough, North York, Etobicoke, Leslieville, Rosedale, Forest Hill.</strong> Treatments use Health Canada-approved formulations applied to the specific 1–3 metre zones where blacklegged ticks concentrate — lawn-to-woods transitions, leaf litter, garden bed edges, and fence-line vegetation. Single treatments start at <strong>$99</strong>; tick add-on bundled with mosquito plan from $497. With <strong>137 five-star Google reviews</strong>, no contracts, a 30-minute re-entry window, and the <strong>BuzzSkito Bite-Free Guarantee</strong>, Toronto families get reliable Lyme disease prevention for ravine, conservation-area, and wooded-edge properties. Call (289) 216-5030.
+            <strong>BuzzSkito provides specialist tick barrier spray across all Toronto neighbourhoods — High Park, East York, Don Mills, The Beaches, Scarborough, North York, Etobicoke, Leslieville, Rosedale, Forest Hill.</strong> Treatments use Health Canada-approved formulations applied to the specific 1–3 metre zones where blacklegged ticks concentrate — lawn-to-woods transitions, leaf litter, garden bed edges, and fence-line vegetation. Single treatments start at <strong>$99</strong>; tick add-on bundled with mosquito plan from $497. With <strong>150+ five-star Google reviews</strong>, no contracts, a 30-minute re-entry window, and the <strong>BuzzSkito Bite-Free Guarantee</strong>, Toronto families get reliable Lyme disease prevention for ravine, conservation-area, and wooded-edge properties. Call (289) 216-5030.
           </p>
         </div>
       </section>
@@ -132,7 +132,7 @@ export default function TorontoTickSprayPage() {
                   ['Booking lead time', 'Same-week service typical'],
                   ['Contract required', 'No — single treatments and seasonal programs both available'],
                   ['Guarantee', 'BuzzSkito Bite-Free Guarantee (free re-treatment in protection window)'],
-                  ['Google reviews', '137 reviews · 5.0 average · 0 negative'],
+                  ['Google reviews', '150+ reviews · 5.0 average · 0 negative'],
                   ['Phone', '(289) 216-5030'],
                 ].map(([k, v]) => (
                   <tr key={k} className="border-b border-navy-50 last:border-0">
@@ -328,7 +328,7 @@ export default function TorontoTickSprayPage() {
       <section className="py-14 px-4 bg-white border-t border-gray-100">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-2xl font-extrabold text-brand-900 mb-2 text-center">What Toronto Homeowners Say About Our Tick Control</h2>
-          <p className="text-center text-gray-500 text-sm mb-8">From our 137 five-star Google reviews</p>
+          <p className="text-center text-gray-500 text-sm mb-8">From our 150+ five-star Google reviews</p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {[
               { author: 'Linda C.', location: 'Rosedale', text: 'Our property backs onto the Don Valley ravine and we found ticks on our dog multiple times. After BuzzSkito treated the perimeter, problem solved. The technician was very knowledgeable about ravine-specific tick zones.' },
@@ -348,7 +348,7 @@ export default function TorontoTickSprayPage() {
             ))}
           </div>
           <div className="text-center mt-6">
-            <a href="https://g.page/r/CYytaw5LxucdEAE/review" target="_blank" rel="noopener noreferrer" className="text-brand-700 font-semibold text-sm hover:underline">Read all 137 reviews on Google &rarr;</a>
+            <a href="https://g.page/r/CYytaw5LxucdEAE/review" target="_blank" rel="noopener noreferrer" className="text-brand-700 font-semibold text-sm hover:underline">Read all 150+ reviews on Google &rarr;</a>
           </div>
         </div>
       </section>

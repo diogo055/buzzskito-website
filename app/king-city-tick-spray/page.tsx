@@ -5,7 +5,7 @@ import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusines
 import { BUSINESS, TICK_BLOGS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'King City Tick Control 2026 · From $99 · 137 Five-Star Reviews',
+  title: 'King City Tick Control 2026 · From $99 · 150+ Five-Star Reviews',
   description:
     "King City tick spray for Oak Ridges Moraine forest properties — high blacklegged tick density. Health Canada-approved, from $99, BuzzSkito Bite-Free Guarantee. King City village, Nobleton, Schomberg, Kettleby. Call (289) 216-5030.",
   canonical: '/king-city-tick-spray',
@@ -51,7 +51,7 @@ export default function KingCityTickPage() {
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-5">
             {CITY} Tick Control<br/>
-            <span className="text-amber-400">From $99 · 137 Five-Star Reviews</span>
+            <span className="text-amber-400">From $99 · 150+ Five-Star Reviews</span>
           </h1>
           <p className="text-xl text-brand-100 max-w-2xl mb-8">
             King Township sits directly on the Oak Ridges Moraine and consistently reports some of the highest blacklegged tick activity in York Region. BuzzSkito provides professional tick spray to protect King City, Nobleton, and Schomberg properties from Lyme disease.
@@ -71,7 +71,7 @@ export default function KingCityTickPage() {
           <span>✓ Safe for Kids &amp; Pets (30 min dry)</span>
           <span>✓ Up to 30-Day Protection</span>
           <span>✓ Lyme Disease Prevention</span>
-          <span>✓ 5-Star Rated · 137 Reviews</span>
+          <span>✓ 5-Star Rated · 150+ Reviews</span>
         </div>
       </section>
 
@@ -155,7 +155,7 @@ export default function KingCityTickPage() {
       <section className="py-12 px-4 bg-white border-t border-gray-100">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-2xl font-extrabold text-brand-900 mb-2 text-center">What GTA Homeowners Say About Our Tick Control</h2>
-          <p className="text-center text-gray-500 text-sm mb-8">From our 137 five-star Google reviews</p>
+          <p className="text-center text-gray-500 text-sm mb-8">From our 150+ five-star Google reviews</p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {[
               { author: 'James K.', text: 'We had a tick problem near our garden border. BuzzSkito came out quickly, treated the whole yard, and gave us a detailed service log. Great experience and the kids can play outside again.' },
@@ -173,7 +173,7 @@ export default function KingCityTickPage() {
             ))}
           </div>
           <div className="text-center mt-6">
-            <a href="https://g.page/r/CYytaw5LxucdEAE/review" target="_blank" rel="noopener noreferrer" className="text-brand-700 font-semibold text-sm hover:underline">Read all 137 reviews on Google &rarr;</a>
+            <a href="https://g.page/r/CYytaw5LxucdEAE/review" target="_blank" rel="noopener noreferrer" className="text-brand-700 font-semibold text-sm hover:underline">Read all 150+ reviews on Google &rarr;</a>
           </div>
         </div>
       </section>

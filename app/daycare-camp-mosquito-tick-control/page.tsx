@@ -43,7 +43,7 @@ const FAQS = [
 
 export const metadata: Metadata = buildMetadata({
   title: 'Daycare, Camp & School Mosquito + Tick Control GTA · Health Canada Approved',
-  description: "Specialized mosquito and tick barrier spray for daycares, summer camps, schools, and childcare facilities across the GTA. Health Canada-approved, Pesticides Act licensed, parent-notification support, scheduled around children's hours. 137 five-star reviews.",
+  description: "Specialized mosquito and tick barrier spray for daycares, summer camps, schools, and childcare facilities across the GTA. Health Canada-approved, Pesticides Act licensed, parent-notification support, scheduled around children's hours. 150+ five-star reviews.",
   canonical: SLUG,
 })
 
@@ -68,7 +68,7 @@ export default function DaycareCampMosquitoTickControlPage() {
           <p className="text-xs font-extrabold text-amber-400 uppercase tracking-widest mb-3">Childcare-Specific Protocols · Parent Communication Support · GTA-Wide</p>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-5 leading-tight">
             Daycare, Camp &amp; School Mosquito + Tick Control<br/>
-            <span className="text-amber-400">137 Five-Star Reviews · Health Canada Approved</span>
+            <span className="text-amber-400">150+ Five-Star Reviews · Health Canada Approved</span>
           </h1>
           <p className="text-xl text-brand-100 max-w-3xl mb-8 leading-relaxed">
             Specialized mosquito and tick barrier spray for licensed daycares, summer camps, private schools, and childcare facilities across the GTA. Treatments scheduled around children&rsquo;s hours, parent communication templates included, full regulatory compliance documentation provided.
@@ -86,7 +86,7 @@ export default function DaycareCampMosquitoTickControlPage() {
           <span>✓ Pre-Opening Hours Scheduling</span>
           <span>✓ Parent Notification Templates</span>
           <span>✓ Lyme Disease Prevention</span>
-          <span>✓ 5-Star Rated · 137 Reviews</span>
+          <span>✓ 5-Star Rated · 150+ Reviews</span>
         </div>
       </section>
 

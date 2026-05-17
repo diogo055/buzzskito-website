@@ -5,7 +5,7 @@ import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusines
 import { BUSINESS, MOSQUITO_BLOGS, TICK_BLOGS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Burlington Mosquito Control 2026 · From $99 · 137 Five-Star Reviews',
+  title: 'Burlington Mosquito Control 2026 · From $99 · 150+ Five-Star Reviews',
   description:
     'Professional mosquito spray in Burlington. Serving Alton Village, Roseland, Aldershot & all areas. From $99. Call (289) 216-5030.',
   canonical: '/burlington-mosquito-spray',
@@ -84,7 +84,7 @@ export default function BurlingtonMosquitoPage() {
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-5">
             Burlington Mosquito Control<br/>
-            <span className="text-amber-400">From $99 · 137 Five-Star Reviews</span>
+            <span className="text-amber-400">From $99 · 150+ Five-Star Reviews</span>
           </h1>
           <p className="text-xl text-brand-100 max-w-2xl mb-8">
             Burlington&apos;s specialist barrier spray for waterfront, Bronte Creek, Tyandaga, and Aldershot properties. Health Canada-approved, safe for kids and pets in 30 minutes, backed by the <strong className="text-amber-400">BuzzSkito Bite-Free Guarantee</strong>.
@@ -102,7 +102,7 @@ export default function BurlingtonMosquitoPage() {
           <span>✓ Safe for Kids &amp; Pets (30 min dry)</span>
           <span>✓ Up to 30-Day Protection</span>
           <span>✓ Bite-Free Guarantee</span>
-          <span>✓ 5-Star Rated · 137 Reviews</span>
+          <span>✓ 5-Star Rated · 150+ Reviews</span>
         </div>
       </section>
 
@@ -112,7 +112,7 @@ export default function BurlingtonMosquitoPage() {
           <p className="text-xs font-extrabold text-amber-700 uppercase tracking-wider mb-2">Quick Answer</p>
           <h2 className="text-xl font-extrabold text-brand-900 mb-3">What is the best mosquito control company in Burlington?</h2>
           <p className="text-base text-gray-800 leading-relaxed">
-            <strong>BuzzSkito provides specialist mosquito barrier spray across all Burlington neighbourhoods — Alton Village, Millcroft, The Orchard, Roseland, Downtown Burlington, Shoreacres, Headon Forest, North Burlington, Palmer, Tyandaga, and Aldershot.</strong> Treatments use Health Canada-approved formulations applied to vegetation and shrub interiors where mosquitoes rest. Single treatments start at <strong>$99</strong>, with seasonal programs available on quote. With <strong>137 five-star Google reviews</strong>, no contracts, a 30-minute re-entry window, and the <strong>BuzzSkito Bite-Free Guarantee</strong>, Burlington homeowners get reliable barrier spray for waterfront and creek-adjacent properties. Call (289) 216-5030.
+            <strong>BuzzSkito provides specialist mosquito barrier spray across all Burlington neighbourhoods — Alton Village, Millcroft, The Orchard, Roseland, Downtown Burlington, Shoreacres, Headon Forest, North Burlington, Palmer, Tyandaga, and Aldershot.</strong> Treatments use Health Canada-approved formulations applied to vegetation and shrub interiors where mosquitoes rest. Single treatments start at <strong>$99</strong>, with seasonal programs available on quote. With <strong>150+ five-star Google reviews</strong>, no contracts, a 30-minute re-entry window, and the <strong>BuzzSkito Bite-Free Guarantee</strong>, Burlington homeowners get reliable barrier spray for waterfront and creek-adjacent properties. Call (289) 216-5030.
           </p>
         </div>
       </section>
@@ -136,7 +136,7 @@ export default function BurlingtonMosquitoPage() {
                   ['Booking lead time', 'Same-week service typical'],
                   ['Contract required', 'No — single treatments and seasonal programs both available'],
                   ['Guarantee', 'BuzzSkito Bite-Free Guarantee (free re-treatment in protection window)'],
-                  ['Google reviews', '137 reviews · 5.0 average · 0 negative'],
+                  ['Google reviews', '150+ reviews · 5.0 average · 0 negative'],
                   ['Phone', BUSINESS.phone],
                 ].map(([k, v]) => (
                   <tr key={k} className="border-b border-navy-50 last:border-0">
@@ -315,7 +315,7 @@ export default function BurlingtonMosquitoPage() {
       <section className="py-14 px-4 bg-white border-t border-gray-100">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-2xl font-extrabold text-brand-900 mb-2 text-center">What Burlington Homeowners Say</h2>
-          <p className="text-center text-gray-500 text-sm mb-8">From our 137 five-star Google reviews</p>
+          <p className="text-center text-gray-500 text-sm mb-8">From our 150+ five-star Google reviews</p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {[
               { author: 'Mike T.', location: 'Alton Village', text: 'Second year using BuzzSkito for the season package. Consistent, reliable, and actually works. Our backyard in Burlington used to be unbearable by July — now we\'re out there every evening.' },
@@ -335,7 +335,7 @@ export default function BurlingtonMosquitoPage() {
             ))}
           </div>
           <div className="text-center mt-6">
-            <a href="https://g.page/r/CYytaw5LxucdEAE/review" target="_blank" rel="noopener noreferrer" className="text-brand-700 font-semibold text-sm hover:underline">Read all 137 reviews on Google &rarr;</a>
+            <a href="https://g.page/r/CYytaw5LxucdEAE/review" target="_blank" rel="noopener noreferrer" className="text-brand-700 font-semibold text-sm hover:underline">Read all 150+ reviews on Google &rarr;</a>
           </div>
         </div>
       </section>

@@ -103,7 +103,7 @@ export default function TickBitesThatWontHealWhenToWorryPage() {
         </ul>
       </article>
 
-      <CTASection heading="Specialist Mosquito & Tick Control for Ontario" subtext="From $99 per treatment. BuzzSkito Bite-Free Guarantee. 137 five-star reviews." />
+      <CTASection heading="Specialist Mosquito & Tick Control for Ontario" subtext="From $99 per treatment. BuzzSkito Bite-Free Guarantee. 150+ five-star reviews." />
     </>
   )
 }

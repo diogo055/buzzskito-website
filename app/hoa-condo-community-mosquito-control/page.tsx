@@ -43,7 +43,7 @@ const FAQS = [
 
 export const metadata: Metadata = buildMetadata({
   title: 'HOA & Condo Community Mosquito Control GTA · Property Management Contracts',
-  description: "Specialized mosquito and tick barrier spray for HOA, condo, and townhouse communities across the GTA. Single-invoice contracts, board-friendly resident communications, retention pond BTI treatment. Health Canada-approved. 137 five-star reviews.",
+  description: "Specialized mosquito and tick barrier spray for HOA, condo, and townhouse communities across the GTA. Single-invoice contracts, board-friendly resident communications, retention pond BTI treatment. Health Canada-approved. 150+ five-star reviews.",
   canonical: SLUG,
 })
 
@@ -68,7 +68,7 @@ export default function HOACondoMosquitoControlPage() {
           <p className="text-xs font-extrabold text-amber-400 uppercase tracking-widest mb-3">For Property Managers &amp; Condo Boards · GTA-Wide · Single Invoice Contracts</p>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-5 leading-tight">
             HOA &amp; Condo Community Mosquito Control<br/>
-            <span className="text-amber-400">GTA · 137 Five-Star Reviews</span>
+            <span className="text-amber-400">GTA · 150+ Five-Star Reviews</span>
           </h1>
           <p className="text-xl text-brand-100 max-w-3xl mb-8 leading-relaxed">
             Common-area mosquito and tick barrier spray for condo, HOA, and townhouse communities across the GTA. Board-friendly single-invoice contracts, written treatment records, resident notification support, and retention pond BTI larvicide. Designed for property managers and condo board governance.
@@ -87,7 +87,7 @@ export default function HOACondoMosquitoControlPage() {
           <span>✓ Resident Notification Templates</span>
           <span>✓ Retention Pond BTI Treatment</span>
           <span>✓ Pesticides Act Licensed Techs</span>
-          <span>✓ 5-Star Rated · 137 Reviews</span>
+          <span>✓ 5-Star Rated · 150+ Reviews</span>
         </div>
       </section>
 

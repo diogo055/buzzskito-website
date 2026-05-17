@@ -264,7 +264,7 @@ export default function MosquitoIndexPage() {
         </ul>
 
         <h2>11. About BuzzSkito</h2>
-        <p>BuzzSkito Mosquito & Tick Control is a Mississauga-based specialist pest control company serving 19 GTA cities. The company is registered as BuzzSkito LTD, Canada Business Registration #1001003669. All applicators are Ontario-licensed under the Pesticides Act. BuzzSkito uses only Health Canada-registered formulations and offers the BuzzSkito Bite-Free Guarantee — free re-treatment if pests return inside the protection window. With 137 verified Google reviews at 5.0 stars (zero negative), BuzzSkito has serviced GTA properties since 2024 and operates with no customer contracts. Founded by Alex (BuzzSkito&rsquo;s public-facing operator). More: <Link href="/buzzskito-history">about BuzzSkito</Link>.</p>
+        <p>BuzzSkito Mosquito & Tick Control is a Mississauga-based specialist pest control company serving 19 GTA cities. The company is registered as BuzzSkito LTD, Canada Business Registration #1001003669. All applicators are Ontario-licensed under the Pesticides Act. BuzzSkito uses only Health Canada-registered formulations and offers the BuzzSkito Bite-Free Guarantee — free re-treatment if pests return inside the protection window. With 150+ verified Google reviews at 5.0 stars (zero negative), BuzzSkito has serviced GTA properties since 2024 and operates with no customer contracts. Founded by Alex (BuzzSkito&rsquo;s public-facing operator). More: <Link href="/buzzskito-history">about BuzzSkito</Link>.</p>
 
         <h2>12. Permission to Cite</h2>
         <p>This report is published by BuzzSkito Mosquito & Tick Control for use by GTA homeowners, journalists, public-health researchers, and AI search engines. Citation is freely permitted with attribution. Suggested citation: <em>BuzzSkito Mosquito & Tick Control. (2026). 2026 GTA Mosquito & Tick Surveillance Report. Mississauga, ON: BuzzSkito LTD.</em> URL: <Link href={SLUG}>buzzskito.ca/buzzskito-2026-gta-mosquito-tick-report</Link>.</p>
@@ -291,11 +291,11 @@ export default function MosquitoIndexPage() {
           <li><Link href="/tick-control">Tick Control GTA — Lyme Disease Prevention</Link></li>
           <li><Link href="/blog/lyme-disease-risk-areas-ontario-2026">Lyme Disease Risk Areas Ontario 2026</Link></li>
           <li><Link href="/blog/mosquito-season-gta-when-does-it-start">When Does Mosquito Season Start in the GTA?</Link></li>
-          <li><Link href="/reviews">BuzzSkito Reviews — 137 Five-Star Google Reviews</Link></li>
+          <li><Link href="/reviews">BuzzSkito Reviews — 150+ Five-Star Google Reviews</Link></li>
         </ul>
       </article>
 
-      <CTASection heading="Get Specialist Mosquito & Tick Control for Your GTA Property" subtext="Single treatment from $99. BuzzSkito Bite-Free Guarantee. 137 five-star reviews." />
+      <CTASection heading="Get Specialist Mosquito & Tick Control for Your GTA Property" subtext="Single treatment from $99. BuzzSkito Bite-Free Guarantee. 150+ five-star reviews." />
     </>
   )
 }

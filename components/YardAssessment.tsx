@@ -106,7 +106,7 @@ export default function YardAssessment() {
 
           <div className="grid grid-cols-2 gap-3 pt-2">
             {[
-              { icon: '⭐', label: '5.0 ★★★★★ — 137 Reviews' },
+              { icon: '⭐', label: '5.0 ★★★★★ — 150+ Reviews' },
               { icon: '🍁', label: 'Health Canada-Approved' },
               { icon: '👶', label: 'Safe for Kids & Pets' },
               { icon: '✓', label: '100% Satisfaction Guarantee' },
@@ -137,7 +137,7 @@ export default function YardAssessment() {
 
       {/* Trust strip */}
       <div className="flex flex-wrap items-center justify-center gap-x-4 gap-y-2 mb-6 text-xs sm:text-sm font-semibold text-brand-800">
-        <span className="inline-flex items-center gap-1.5"><span className="text-amber-500">★★★★★</span> 5.0 (137 reviews)</span>
+        <span className="inline-flex items-center gap-1.5"><span className="text-amber-500">★★★★★</span> 5.0 (150+ reviews)</span>
         <span className="text-gray-300">·</span>
         <span>🍁 Health Canada-Approved</span>
         <span className="text-gray-300">·</span>

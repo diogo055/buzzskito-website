@@ -7,7 +7,7 @@ import { BUSINESS, MOSQUITO_BLOGS, TICK_BLOGS } from '@/lib/constants'
 export const metadata: Metadata = buildMetadata({
   title: 'Mosquito Control York Region · From $99',
   description:
-    'York Region mosquito and tick control · 137 five-star reviews. Vaughan, Richmond Hill, Markham, Aurora, King City. From $99, no contracts. (289) 216-5030.',
+    'York Region mosquito and tick control · 150+ five-star reviews. Vaughan, Richmond Hill, Markham, Aurora, King City. From $99, no contracts. (289) 216-5030.',
   canonical: '/york-region-mosquito-control',
 })
 
@@ -82,7 +82,7 @@ export default function YorkRegionMosquitoPage() {
           <span>✓ Safe for Kids &amp; Pets (30 min dry)</span>
           <span>✓ Up to 30-Day Protection</span>
           <span>✓ Bite-Free Guarantee</span>
-          <span>✓ 5-Star Rated · 137 Reviews</span>
+          <span>✓ 5-Star Rated · 150+ Reviews</span>
         </div>
       </section>
 

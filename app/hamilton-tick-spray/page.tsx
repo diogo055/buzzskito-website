@@ -7,7 +7,7 @@ import { BUSINESS, TICK_BLOGS } from '@/lib/constants'
 export const metadata: Metadata = buildMetadata({
   title: 'Hamilton Tick Control 2026 · From $99 · Escarpment and Dundas Valley',
   description:
-    'Hamilton tick spray · 137 five-star reviews. Targets blacklegged ticks near the Escarpment, Dundas Valley & conservation areas. Free re-spray. (289) 216-5030.',
+    'Hamilton tick spray · 150+ five-star reviews. Targets blacklegged ticks near the Escarpment, Dundas Valley & conservation areas. Free re-spray. (289) 216-5030.',
   canonical: '/hamilton-tick-spray',
 })
 
@@ -69,7 +69,7 @@ export default function HamiltonTickSprayPage() {
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-5">
             Hamilton Tick Control<br/>
-            <span className="text-amber-400">From $99 · 137 Five-Star Reviews</span>
+            <span className="text-amber-400">From $99 · 150+ Five-Star Reviews</span>
           </h1>
           <p className="text-xl text-brand-100 max-w-2xl mb-8">
             Hamilton's Dundas Valley, Niagara Escarpment trails, and conservation lands make it one of Southern Ontario's highest tick-risk regions. BuzzSkito protects Hamilton families with professional 30-day tick barrier spray.
@@ -88,7 +88,7 @@ export default function HamiltonTickSprayPage() {
           <span>✓ Safe for Kids &amp; Pets (30 min dry)</span>
           <span>✓ Up to 30-Day Protection</span>
           <span>✓ Lyme Disease Prevention</span>
-          <span>✓ 5-Star Rated · 137 Reviews</span>
+          <span>✓ 5-Star Rated · 150+ Reviews</span>
         </div>
       </section>
 
@@ -98,7 +98,7 @@ export default function HamiltonTickSprayPage() {
           <p className="text-xs font-extrabold text-amber-700 uppercase tracking-wider mb-2">Quick Answer</p>
           <h2 className="text-xl font-extrabold text-brand-900 mb-3">What is the best tick control company in Hamilton?</h2>
           <p className="text-base text-gray-800 leading-relaxed">
-            <strong>BuzzSkito provides specialist tick barrier spray across all Hamilton neighbourhoods — Stoney Creek, Dundas, Ancaster, Westdale, Waterdown, Rymal, Downtown Hamilton, Mount Hope, Binbrook, Flamborough.</strong> Treatments use Health Canada-approved formulations applied to the specific 1–3 metre zones where blacklegged ticks concentrate — lawn-to-woods transitions, leaf litter, garden bed edges, and fence-line vegetation. Single treatments start at <strong>$99</strong>; tick add-on bundled with mosquito plan from $497. With <strong>137 five-star Google reviews</strong>, no contracts, a 30-minute re-entry window, and the <strong>BuzzSkito Bite-Free Guarantee</strong>, Hamilton families get reliable Lyme disease prevention for ravine, conservation-area, and wooded-edge properties. Call (289) 216-5030.
+            <strong>BuzzSkito provides specialist tick barrier spray across all Hamilton neighbourhoods — Stoney Creek, Dundas, Ancaster, Westdale, Waterdown, Rymal, Downtown Hamilton, Mount Hope, Binbrook, Flamborough.</strong> Treatments use Health Canada-approved formulations applied to the specific 1–3 metre zones where blacklegged ticks concentrate — lawn-to-woods transitions, leaf litter, garden bed edges, and fence-line vegetation. Single treatments start at <strong>$99</strong>; tick add-on bundled with mosquito plan from $497. With <strong>150+ five-star Google reviews</strong>, no contracts, a 30-minute re-entry window, and the <strong>BuzzSkito Bite-Free Guarantee</strong>, Hamilton families get reliable Lyme disease prevention for ravine, conservation-area, and wooded-edge properties. Call (289) 216-5030.
           </p>
         </div>
       </section>
@@ -124,7 +124,7 @@ export default function HamiltonTickSprayPage() {
                   ['Booking lead time', 'Same-week service typical'],
                   ['Contract required', 'No — single treatments and seasonal programs both available'],
                   ['Guarantee', 'BuzzSkito Bite-Free Guarantee (free re-treatment in protection window)'],
-                  ['Google reviews', '137 reviews · 5.0 average · 0 negative'],
+                  ['Google reviews', '150+ reviews · 5.0 average · 0 negative'],
                   ['Phone', '(289) 216-5030'],
                 ].map(([k, v]) => (
                   <tr key={k} className="border-b border-navy-50 last:border-0">
@@ -202,7 +202,7 @@ export default function HamiltonTickSprayPage() {
       <section className="py-14 px-4 bg-white border-t border-gray-100">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-2xl font-extrabold text-brand-900 mb-2 text-center">What Hamilton Homeowners Say About Our Tick Control</h2>
-          <p className="text-center text-gray-500 text-sm mb-8">From our 137 five-star Google reviews</p>
+          <p className="text-center text-gray-500 text-sm mb-8">From our 150+ five-star Google reviews</p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {[
               { author: 'Steve R.', location: 'Westdale', text: 'Our yard backs onto Cootes Paradise and ticks were a serious concern. BuzzSkito treated the perimeter professionally and the difference was immediate. No more finding ticks after gardening.' },

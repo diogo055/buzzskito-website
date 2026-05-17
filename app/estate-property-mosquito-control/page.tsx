@@ -44,7 +44,7 @@ const FAQS = [
 
 export const metadata: Metadata = buildMetadata({
   title: 'Estate & Acreage Mosquito Control GTA · 1-10 Acre Properties · From $200',
-  description: "Specialized mosquito and tick barrier spray for estate and acreage properties in the GTA. Caledon, Kleinburg, King City, Oak Ridges Moraine, large Oakville/Mississauga lots. Health Canada-approved, BuzzSkito Bite-Free Guarantee, 137 five-star reviews. Call (289) 216-5030.",
+  description: "Specialized mosquito and tick barrier spray for estate and acreage properties in the GTA. Caledon, Kleinburg, King City, Oak Ridges Moraine, large Oakville/Mississauga lots. Health Canada-approved, BuzzSkito Bite-Free Guarantee, 150+ five-star reviews. Call (289) 216-5030.",
   canonical: SLUG,
 })
 
@@ -69,7 +69,7 @@ export default function EstatePropertyMosquitoControlPage() {
           <p className="text-xs font-extrabold text-amber-400 uppercase tracking-widest mb-3">Specialized Service · 1-10 Acre Properties · GTA Estate Specialists</p>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-5 leading-tight">
             Estate &amp; Acreage Mosquito Control GTA<br/>
-            <span className="text-amber-400">From $200 · 137 Five-Star Reviews</span>
+            <span className="text-amber-400">From $200 · 150+ Five-Star Reviews</span>
           </h1>
           <p className="text-xl text-brand-100 max-w-3xl mb-8 leading-relaxed">
             Specialized mosquito and tick barrier spray for estate and acreage properties across the GTA. Commercial-grade equipment, multi-zone application, and seasonal programs designed for 1-10 acre lots in Caledon, Kleinburg, King City, the Oak Ridges Moraine, and beyond.
@@ -88,7 +88,7 @@ export default function EstatePropertyMosquitoControlPage() {
           <span>✓ Multi-Zone Treatment Strategy</span>
           <span>✓ Pond &amp; Water Feature Specialists</span>
           <span>✓ Written Treatment Records</span>
-          <span>✓ 5-Star Rated · 137 Reviews</span>
+          <span>✓ 5-Star Rated · 150+ Reviews</span>
         </div>
       </section>
 

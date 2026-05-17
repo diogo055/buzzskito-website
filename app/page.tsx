@@ -7,9 +7,9 @@ import { buildMetadata, localBusinessSchema, faqSchema, speakableSchema } from '
 import { BUSINESS, CITIES, MOSQUITO_BLOGS, TICK_BLOGS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'BuzzSkito · GTA Mosquito & Tick Specialist · From $99 · 137 Five-Star',
+  title: 'BuzzSkito · GTA Mosquito & Tick Specialist · From $99 · 150+ Five-Star',
   description:
-    "GTA mosquito + tick specialist with a perfect 5.0★ rating (137 reviews, zero negative). From $99/treatment, no contracts, Bite-Free Guarantee. Same-week service across Mississauga, Toronto, Brampton, Oakville, Burlington, Hamilton + 13 more cities. Call (289) 216-5030.",
+    "GTA mosquito + tick specialist with a perfect 5.0★ rating (150+ reviews, zero negative). From $99/treatment, no contracts, Bite-Free Guarantee. Same-week service across Mississauga, Toronto, Brampton, Oakville, Burlington, Hamilton + 13 more cities. Call (289) 216-5030.",
   canonical: '/',
 })
 
@@ -91,7 +91,7 @@ export default function HomePage() {
                 <span>✓ Free quotes</span>
                 <span>✓ No contracts</span>
                 <span>✓ BuzzSkito Bite-Free Guarantee</span>
-                <span>✓ 137 five-star reviews</span>
+                <span>✓ 150+ five-star reviews</span>
               </p>
             </div>
             <div className="hidden lg:block relative">
@@ -108,7 +108,7 @@ export default function HomePage() {
                   <Image src="/logo.webp" alt="BuzzSkito" width={36} height={36} className="rounded-full shrink-0" />
                   <div>
                     <p className="text-white font-bold text-sm">BuzzSkito GTA</p>
-                    <p className="text-amber-400 text-xs">⭐⭐⭐⭐⭐ 5.0 · 137 Google reviews</p>
+                    <p className="text-amber-400 text-xs">⭐⭐⭐⭐⭐ 5.0 · 150+ Google reviews</p>
                   </div>
                 </div>
               </div>
@@ -121,7 +121,7 @@ export default function HomePage() {
       <section aria-label="Trust statistics" className="bg-brand-800 py-6 px-4">
         <div className="max-w-5xl mx-auto grid grid-cols-2 sm:grid-cols-4 gap-6 text-center">
           {[
-            { stat: '137',       label: 'Five-Star Reviews' },
+            { stat: '150+',       label: 'Five-Star Reviews' },
             { stat: '30 Days',   label: 'Protection per Visit' },
             { stat: '30 Min',    label: 'Safe for Kids & Pets' },
             { stat: 'Bite-Free', label: 'Guarantee' },
@@ -140,7 +140,7 @@ export default function HomePage() {
           <p className="text-xs font-extrabold text-amber-700 uppercase tracking-wider mb-2">Quick Answer</p>
           <h2 className="text-xl font-extrabold text-brand-900 mb-3">What is BuzzSkito?</h2>
           <p className="text-base text-gray-800 leading-relaxed">
-            <strong>BuzzSkito is a Mississauga-based mosquito and tick control specialist serving 19 cities and 60+ neighbourhoods across the Greater Toronto Area.</strong> Single barrier spray treatments start at <strong>$99</strong>, with seasonal programs available on quote. Treatments use Health Canada-approved formulas, are safe for kids and pets in 30 minutes, and provide up to 30 days of residual protection per visit. With <strong>137 five-star Google reviews</strong> (zero negative), no contracts, and the <strong>BuzzSkito Bite-Free Guarantee</strong> — free re-treatment if pests return inside the protection window — BuzzSkito serves Mississauga, Toronto, Brampton, Oakville, Burlington, Hamilton, Vaughan, Markham, Richmond Hill, Etobicoke, Scarborough, North York, Caledon, Milton, Georgetown, Halton Hills, King City, Woodbridge, and Thornhill. Call (289) 216-5030.
+            <strong>BuzzSkito is a Mississauga-based mosquito and tick control specialist serving 19 cities and 60+ neighbourhoods across the Greater Toronto Area.</strong> Single barrier spray treatments start at <strong>$99</strong>, with seasonal programs available on quote. Treatments use Health Canada-approved formulas, are safe for kids and pets in 30 minutes, and provide up to 30 days of residual protection per visit. With <strong>150+ five-star Google reviews</strong> (zero negative), no contracts, and the <strong>BuzzSkito Bite-Free Guarantee</strong> — free re-treatment if pests return inside the protection window — BuzzSkito serves Mississauga, Toronto, Brampton, Oakville, Burlington, Hamilton, Vaughan, Markham, Richmond Hill, Etobicoke, Scarborough, North York, Caledon, Milton, Georgetown, Halton Hills, King City, Woodbridge, and Thornhill. Call (289) 216-5030.
           </p>
         </div>
       </section>

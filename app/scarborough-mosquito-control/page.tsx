@@ -5,7 +5,7 @@ import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusines
 import { BUSINESS, MOSQUITO_BLOGS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Scarborough Mosquito Control 2026 · From $99 · 137 Five-Star Reviews',
+  title: 'Scarborough Mosquito Control 2026 · From $99 · 150+ Five-Star Reviews',
   description:
     "Scarborough's specialist mosquito barrier spray. Health Canada-approved, from $99/treatment, no contracts, BuzzSkito Bite-Free Guarantee. Highland Creek, Rouge, Centennial, Guildwood, West Hill, Morningside, Birchcliff. Call (289) 216-5030.",
   canonical: '/scarborough-mosquito-control',
@@ -54,7 +54,7 @@ export default function ScarboroughMosquitoPage() {
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-5">
             {CITY} Mosquito Control<br/>
-            <span className="text-amber-400">From $99 · 137 Five-Star Reviews</span>
+            <span className="text-amber-400">From $99 · 150+ Five-Star Reviews</span>
           </h1>
           <p className="text-xl text-brand-100 max-w-2xl mb-8">
             From the Rouge National Urban Park boundary to Highland Creek valley — BuzzSkito delivers professional mosquito barrier spray to every Scarborough neighbourhood.
@@ -74,7 +74,7 @@ export default function ScarboroughMosquitoPage() {
           <span>✓ Safe for Kids &amp; Pets (30 min dry)</span>
           <span>✓ Up to 30-Day Protection</span>
           <span>✓ Bite-Free Guarantee</span>
-          <span>✓ 5-Star Rated · 137 Reviews</span>
+          <span>✓ 5-Star Rated · 150+ Reviews</span>
         </div>
       </section>
 
@@ -180,7 +180,7 @@ export default function ScarboroughMosquitoPage() {
       <section className="py-12 px-4 bg-white border-t border-gray-100">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-2xl font-extrabold text-brand-900 mb-2 text-center">What GTA Homeowners Say</h2>
-          <p className="text-center text-gray-500 text-sm mb-8">From our 137 five-star Google reviews</p>
+          <p className="text-center text-gray-500 text-sm mb-8">From our 150+ five-star Google reviews</p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {[
               { author: 'Sarah M.', text: 'BuzzSkito treated our backyard and we noticed a huge difference immediately. No mosquitoes at our outdoor birthday party! The technician was professional and on time. Highly recommend.' },
@@ -198,7 +198,7 @@ export default function ScarboroughMosquitoPage() {
             ))}
           </div>
           <div className="text-center mt-6">
-            <a href="https://g.page/r/CYytaw5LxucdEAE/review" target="_blank" rel="noopener noreferrer" className="text-brand-700 font-semibold text-sm hover:underline">Read all 137 reviews on Google &rarr;</a>
+            <a href="https://g.page/r/CYytaw5LxucdEAE/review" target="_blank" rel="noopener noreferrer" className="text-brand-700 font-semibold text-sm hover:underline">Read all 150+ reviews on Google &rarr;</a>
           </div>
         </div>
       </section>

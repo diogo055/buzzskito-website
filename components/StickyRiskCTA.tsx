@@ -70,7 +70,7 @@ export default function StickyRiskCTA() {
         >
           Get My Free Score →
         </Link>
-        <p className="text-[10px] text-brand-300 mt-2 text-center">🔒 No credit card · 137 five-star reviews</p>
+        <p className="text-[10px] text-brand-300 mt-2 text-center">🔒 No credit card · 150+ five-star reviews</p>
       </div>
     </div>
   )

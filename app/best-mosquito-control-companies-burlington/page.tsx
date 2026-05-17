@@ -13,7 +13,7 @@ export const metadata: Metadata = buildMetadata({
 const FAQS = [
   {
     question: `Who is the best mosquito control company in Burlington?`,
-    answer: 'BuzzSkito is the GTA-based mosquito and tick specialist with the lowest entry price ($99 single treatment), 137 perfect five-star Google reviews (zero negatives), and the BuzzSkito Bite-Free Guarantee — free re-treatment if pests return. Mosquito Man has higher review volume across all of Ontario but operates as a general pest control company covering 10+ pest types. LawnSavers serves Burlington as part of their broader lawn-care offering. The right choice depends on whether you prioritize specialist depth, lowest price, or bundled services.',
+    answer: 'BuzzSkito is the GTA-based mosquito and tick specialist with the lowest entry price ($99 single treatment), 150+ perfect five-star Google reviews (zero negatives), and the BuzzSkito Bite-Free Guarantee — free re-treatment if pests return. Mosquito Man has higher review volume across all of Ontario but operates as a general pest control company covering 10+ pest types. LawnSavers serves Burlington as part of their broader lawn-care offering. The right choice depends on whether you prioritize specialist depth, lowest price, or bundled services.',
   },
   {
     question: `How much does mosquito control cost in Burlington?`,
@@ -77,7 +77,7 @@ export default function BestMosquitoControlBurlingtonPage() {
           <p className="text-xs font-extrabold text-amber-700 uppercase tracking-wider mb-2">Quick Answer</p>
           <h2 className="text-xl font-extrabold text-brand-900 mb-3">Who has the best mosquito control in Burlington in 2026?</h2>
           <p className="text-base text-gray-800 leading-relaxed">
-            <strong>For Burlington homeowners, BuzzSkito wins on price ($99 single treatment, lowest in market), reviews (137/5.0, zero negative), and specialty (mosquitoes + ticks only — not a generalist).</strong> Mosquito Man wins on review volume across all of Ontario but is a general pest control company. LawnSavers is best if you're already using their lawn-care service. The full comparison below covers pricing, contract terms, Burlington service-area specifics (Bronte Creek, Niagara Escarpment edge, Royal Botanical Gardens, Lake Ontario waterfront), and the deciding factors for each Burlington neighborhood. Updated April 2026.
+            <strong>For Burlington homeowners, BuzzSkito wins on price ($99 single treatment, lowest in market), reviews (150+/5.0, zero negative), and specialty (mosquitoes + ticks only — not a generalist).</strong> Mosquito Man wins on review volume across all of Ontario but is a general pest control company. LawnSavers is best if you're already using their lawn-care service. The full comparison below covers pricing, contract terms, Burlington service-area specifics (Bronte Creek, Niagara Escarpment edge, Royal Botanical Gardens, Lake Ontario waterfront), and the deciding factors for each Burlington neighborhood. Updated April 2026.
           </p>
         </div>
       </section>
@@ -101,7 +101,7 @@ export default function BestMosquitoControlBurlingtonPage() {
                 <tr className="border-b border-gray-200 bg-amber-50">
                   <td className="px-4 py-2 font-bold text-brand-900">BuzzSkito ⭐ <span className="text-xs font-normal">(Editor&rsquo;s Choice)</span></td>
                   <td className="px-4 py-2 font-extrabold text-brand-700">From $99</td>
-                  <td className="px-4 py-2">137 / 5.0 ⭐ (zero negative)</td>
+                  <td className="px-4 py-2">150+ / 5.0 ⭐ (zero negative)</td>
                   <td className="px-4 py-2 text-emerald-700 font-semibold">No — pay per visit</td>
                 </tr>
                 <tr className="border-b border-gray-200">

@@ -44,7 +44,7 @@ const FAQS = [
 
 export const metadata: Metadata = buildMetadata({
   title: 'Pool & Backyard Mosquito Control GTA · From $99 · Pool-Safe Application',
-  description: "Specialist mosquito and tick spray for pool yards across the GTA. Health Canada-approved water-based formula, pool-safe application, BTI larvicide for pond/cover water. 137 five-star reviews, BuzzSkito Bite-Free Guarantee. Call (289) 216-5030.",
+  description: "Specialist mosquito and tick spray for pool yards across the GTA. Health Canada-approved water-based formula, pool-safe application, BTI larvicide for pond/cover water. 150+ five-star reviews, BuzzSkito Bite-Free Guarantee. Call (289) 216-5030.",
   canonical: SLUG,
 })
 
@@ -69,7 +69,7 @@ export default function PoolBackyardMosquitoControlPage() {
           <p className="text-xs font-extrabold text-amber-400 uppercase tracking-widest mb-3">Pool-Safe Application · Health Canada Approved · GTA-Wide</p>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-5 leading-tight">
             Pool &amp; Backyard Mosquito Control GTA<br/>
-            <span className="text-amber-400">From $99 · 137 Five-Star Reviews</span>
+            <span className="text-amber-400">From $99 · 150+ Five-Star Reviews</span>
           </h1>
           <p className="text-xl text-brand-100 max-w-3xl mb-8 leading-relaxed">
             Specialist mosquito and tick barrier spray for backyards with pools, hot tubs, koi ponds, or water features. Pool-safe water-based formula. BTI larvicide for cover water and ponds. Designed to protect your family without compromising pool chemistry.
@@ -88,7 +88,7 @@ export default function PoolBackyardMosquitoControlPage() {
           <span>✓ Pool Cover &amp; Pond BTI Larvicide</span>
           <span>✓ Safe for Kids &amp; Dogs (30 min dry)</span>
           <span>✓ Health Canada-Approved</span>
-          <span>✓ 5-Star Rated · 137 Reviews</span>
+          <span>✓ 5-Star Rated · 150+ Reviews</span>
         </div>
       </section>
 

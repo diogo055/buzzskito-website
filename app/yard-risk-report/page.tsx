@@ -24,7 +24,7 @@ const FAQS = [
   },
   {
     question: 'How accurate is the score?',
-    answer: 'The score reflects real geographic and environmental factors validated against Public Health Ontario tick surveillance data, GTA neighbourhood pressure observations, and 137 customer outcomes across the 19 cities BuzzSkito serves. It&rsquo;s designed as a relative pressure indicator (your yard vs. similar yards), not an absolute predictor of bite count. Most properties scoring 70+ benefit significantly from professional barrier spray.',
+    answer: 'The score reflects real geographic and environmental factors validated against Public Health Ontario tick surveillance data, GTA neighbourhood pressure observations, and 150+ customer outcomes across the 19 cities BuzzSkito serves. It&rsquo;s designed as a relative pressure indicator (your yard vs. similar yards), not an absolute predictor of bite count. Most properties scoring 70+ benefit significantly from professional barrier spray.',
   },
   {
     question: 'What happens after I submit my email?',
@@ -34,7 +34,7 @@ const FAQS = [
 
 export const metadata: Metadata = buildMetadata({
   title: 'Free GTA Yard Mosquito & Tick Risk Report — Get Your 1-100 Score by Address',
-  description: 'Enter your GTA address (Toronto, Mississauga, Oakville, Burlington, Brampton, Vaughan, Hamilton, +) and get an instant 1-100 mosquito and tick pressure score for your yard. 60-second assessment, free custom report emailed in 60 seconds. Owner-operated · 137 five-star reviews · Health Canada approved.',
+  description: 'Enter your GTA address (Toronto, Mississauga, Oakville, Burlington, Brampton, Vaughan, Hamilton, +) and get an instant 1-100 mosquito and tick pressure score for your yard. 60-second assessment, free custom report emailed in 60 seconds. Owner-operated · 150+ five-star reviews · Health Canada approved.',
   canonical: SLUG,
 })
 
@@ -51,7 +51,7 @@ export default function YardRiskReportPage() {
           <h1 className="text-3xl sm:text-5xl font-extrabold mb-4 leading-tight">
             What&rsquo;s your yard&rsquo;s <span className="text-amber-400">mosquito &amp; tick risk score</span>?
           </h1>
-          <p className="text-lg text-brand-100 max-w-2xl mx-auto">Personalized to your address, neighbourhood, lot, and family. Used by 137 five-star GTA homeowners.</p>
+          <p className="text-lg text-brand-100 max-w-2xl mx-auto">Personalized to your address, neighbourhood, lot, and family. Used by 150+ five-star GTA homeowners.</p>
         </div>
       </section>
 
@@ -132,10 +132,10 @@ export default function YardRiskReportPage() {
           <h2 className="text-2xl font-extrabold text-brand-900 mt-10 mb-3">How accurate is the score?</h2>
           <p className="text-gray-700 mb-5">The score is a relative pressure indicator validated against three data sources: Public Health Ontario tick surveillance, observed mosquito pressure across BuzzSkito&rsquo;s 200+ treated properties, and the Ontario Ministry of Natural Resources GTA wetland mapping. It&rsquo;s designed to predict your yard&rsquo;s pressure relative to other yards in your area — not to predict an exact bite count. Most properties scoring 70+ benefit significantly from professional barrier spray; properties scoring 40-70 typically do well with hybrid DIY-plus-spot-treatment plans; properties scoring under 40 can often manage with diligent water control alone.</p>
 
-          <h2 className="text-2xl font-extrabold text-brand-900 mt-10 mb-3">Trusted by 137 GTA homeowners</h2>
+          <h2 className="text-2xl font-extrabold text-brand-900 mt-10 mb-3">Trusted by 150+ GTA homeowners</h2>
           <p className="text-gray-700 mb-3">BuzzSkito is owner-operated by Alex out of Mississauga. We service 19 cities across the Greater Toronto Area with a Health Canada-approved formulation, applied by an Ontario-licensed pesticide operator (Licence #L-240-2436835197).</p>
           <ul className="text-gray-700 mb-5 space-y-1">
-            <li>137 verified Google reviews · 5.0-star average · zero negative reviews</li>
+            <li>150+ verified Google reviews · 5.0-star average · zero negative reviews</li>
             <li>Bite-Free Guarantee — if pests come back inside the protection window, we re-treat free</li>
             <li>Same-week scheduling during peak season</li>
             <li>No contracts — book single treatments or seasonal plans, your choice</li>
@@ -148,7 +148,7 @@ export default function YardRiskReportPage() {
             <li><Link href="/blog/mosquito-dunks-canada-guide" className="text-brand-700 underline">Mosquito Dunks Canada — Where to Buy &amp; How They Work</Link></li>
             <li><Link href="/mosquito-control" className="text-brand-700 underline">BuzzSkito Mosquito Control Service</Link></li>
             <li><Link href="/tick-control" className="text-brand-700 underline">BuzzSkito Tick Control Service</Link></li>
-            <li><Link href="/reviews" className="text-brand-700 underline">All 137 BuzzSkito Customer Reviews</Link></li>
+            <li><Link href="/reviews" className="text-brand-700 underline">All 150+ BuzzSkito Customer Reviews</Link></li>
           </ul>
         </div>
       </section>

@@ -43,7 +43,7 @@ const FAQS = [
 
 export const metadata: Metadata = buildMetadata({
   title: 'Property Management Mosquito & Tick Control GTA · Portfolio Contracts',
-  description: "Volume-priced mosquito and tick barrier spray for GTA property management portfolios. Single point of contact, consolidated invoicing, direct tenant coordination. Health Canada-approved, BuzzSkito Bite-Free Guarantee, 137 five-star reviews.",
+  description: "Volume-priced mosquito and tick barrier spray for GTA property management portfolios. Single point of contact, consolidated invoicing, direct tenant coordination. Health Canada-approved, BuzzSkito Bite-Free Guarantee, 150+ five-star reviews.",
   canonical: SLUG,
 })
 
@@ -68,7 +68,7 @@ export default function PropertyManagerMosquitoTickControlPage() {
           <p className="text-xs font-extrabold text-amber-400 uppercase tracking-widest mb-3">For Property Management Companies · Portfolio Contracts · Volume Pricing · GTA-Wide</p>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-5 leading-tight">
             Property Management Mosquito + Tick Control<br/>
-            <span className="text-amber-400">137 Five-Star Reviews · Volume Portfolio Rates</span>
+            <span className="text-amber-400">150+ Five-Star Reviews · Volume Portfolio Rates</span>
           </h1>
           <p className="text-xl text-brand-100 max-w-3xl mb-8 leading-relaxed">
             Volume-priced mosquito and tick barrier spray for GTA property management portfolios. Single point of contact, consolidated invoicing, direct tenant coordination, and integration with your PM software. Designed for the workflow of professional property managers.
@@ -86,7 +86,7 @@ export default function PropertyManagerMosquitoTickControlPage() {
           <span>✓ Consolidated Invoicing</span>
           <span>✓ Direct Tenant Coordination</span>
           <span>✓ Compliance Documentation</span>
-          <span>✓ 5-Star Rated · 137 Reviews</span>
+          <span>✓ 5-Star Rated · 150+ Reviews</span>
         </div>
       </section>
 
