@@ -1,12 +1,13 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
+import BlogPostCTA from '@/components/BlogPostCTA'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import InlineYardRiskCTA from '@/components/InlineYardRiskCTA'
 
 const SLUG = 'mosquito-dunks-canada-guide'
 const DATE = '2026-04-28'
-const TITLE = 'Mosquito Dunks Canada 2026 — Where to Buy + How They Work'
+const TITLE = 'Mosquito Dunks Canada 2026: Where to Buy + 3 Common Mistakes'
 
 const FAQS = [
   {
@@ -52,8 +53,8 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Mosquito Dunks Canada 2026 — Where to Buy + How They Work',
-  description: 'Where to buy mosquito dunks in Canada (Canadian Tire, Rona, Home Depot, Amazon.ca — prices compared), how BTI dunks actually kill larvae, dunks vs bits, safety, and how they fit a complete yard mosquito plan. Updated 2026.',
+  title: 'Mosquito Dunks Canada 2026: Where to Buy + 3 Common Mistakes',
+  description: 'Mosquito dunks at Canadian Tire, Home Depot, Rona, Amazon.ca — exact prices, how BTI actually kills larvae, and the 3 mistakes that make them useless. Plus: when dunks alone aren\'t enough.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -78,6 +79,10 @@ export default function MosquitoDunksPage() {
           <p className="text-xl text-brand-100 max-w-3xl">Where to buy them in Canada, how they actually work, and how to combine them with yard barrier spray for total mosquito control.</p>
         </div>
       </section>
+
+      <div className="max-w-4xl mx-auto px-4 -mt-6 sm:-mt-8 relative z-10">
+        <BlogPostCTA />
+      </div>
 
       {/* WHERE TO BUY — top of page for shopping intent */}
       <section className="bg-gradient-to-br from-emerald-50 to-white border-b border-emerald-200 py-10 px-4">

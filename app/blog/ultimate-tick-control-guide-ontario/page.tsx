@@ -1,15 +1,16 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
+import BlogPostCTA from '@/components/BlogPostCTA'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { TICK_BLOGS, CITIES } from '@/lib/constants'
 
 const POST = TICK_BLOGS.pillar
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Ultimate Ontario Tick Control Guide 2026 (4 Species, Lyme Map, Yard Plan)',
+  title: 'Tick Surge Ontario 2026: Complete Yard Control Guide (Lyme Risk + 5-Step Plan)',
   description:
-    'Ontario tick control 2026 — identify all 4 species (blacklegged, dog tick, brown dog, emerging Lone Star), see Lyme-endemic zones (3,614 cases in 2025), and the 5-step yard plan that reduces ticks 80-90%. Free risk score by address.',
+    "Ontario's 2026 tick surge is real — Toronto is now a hot spot. Identify all 4 species, see Lyme-endemic zones (3,614 cases in 2025), and use the 5-step yard plan that reduces ticks 80-90%. Free risk score by address.",
   canonical: `/blog/${POST.slug}`,
   type: 'article',
   publishedTime: POST.date,
@@ -45,6 +46,10 @@ export default function TickPillarPage() {
           <p className="text-brand-300 text-sm">Published {new Date(POST.date).toLocaleDateString('en-CA', { year: 'numeric', month: 'long', day: 'numeric' })} · By BuzzSkito</p>
         </div>
       </section>
+
+      <div className="max-w-4xl mx-auto px-4 -mt-6 sm:-mt-8 relative z-10">
+        <BlogPostCTA />
+      </div>
 
       <article className="max-w-4xl mx-auto px-4 py-12 prose-brand">
 

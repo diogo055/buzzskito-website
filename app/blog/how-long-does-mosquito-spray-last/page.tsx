@@ -1,15 +1,16 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
+import BlogPostCTA from '@/components/BlogPostCTA'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { MOSQUITO_BLOGS } from '@/lib/constants'
 
 const POST = MOSQUITO_BLOGS.supporting[1]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'How Long Does Mosquito Spray Last? 21–30 Days (Real Test Results 2026)',
+  title: 'How Long Does Mosquito Spray Actually Last? 21-30 Days (2026 Yard Tests)',
   description:
-    'Professional mosquito barrier spray lasts up to 30 days. How weather, coverage, and products affect duration.',
+    'Independent yard tests on professional mosquito barrier spray: 21-30 days residual at GTA temps. How rain, sun, and product type affect duration. Updated May 2026.',
   canonical: `/blog/${POST.slug}`,
   type: 'article',
   publishedTime: POST.date,
@@ -66,6 +67,10 @@ export default function MosquitoSprayLastPage() {
           <p className="text-brand-300 text-sm">Published {new Date(POST.date).toLocaleDateString('en-CA', { year: 'numeric', month: 'long', day: 'numeric' })} · By BuzzSkito</p>
         </div>
       </section>
+
+      <div className="max-w-3xl mx-auto px-4 -mt-6 sm:-mt-8 relative z-10">
+        <BlogPostCTA />
+      </div>
 
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
         <p className="text-lg text-gray-600 not-prose border-l-4 border-brand-400 pl-5 py-2 mb-8">

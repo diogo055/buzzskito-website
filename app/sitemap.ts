@@ -3,7 +3,7 @@ import { SITE_URL, CITIES, MOSQUITO_BLOGS, TICK_BLOGS, NEW_BLOGS, NEW_BLOGS_2, N
 
 // Static lastModified date — update this only when making real content changes.
 // Using new Date() on every request makes Google distrust the lastmod signal.
-const LAST_CONTENT_UPDATE = '2026-04-26T22:00:00.000Z'
+const LAST_CONTENT_UPDATE = '2026-05-19T15:00:00.000Z'
 
 export default function sitemap(): MetadataRoute.Sitemap {
 
@@ -241,6 +241,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'picaridin-vs-deet-canada',
     'dynatrap-canada-review',
     'bug-zappers-canada-do-they-work',
+    // ── 2026 tick-surge news cluster (May 2026 — news boost) ──
+    'ontario-tick-surge-2026',
+    'toronto-tick-hot-spot-2026',
+    'lyme-disease-cases-ontario-2026',
   ]
   const registeredSlugs = new Set(allBlogArrays.map(p => p.slug))
   const extraBlogs: MetadataRoute.Sitemap = extraBlogSlugs

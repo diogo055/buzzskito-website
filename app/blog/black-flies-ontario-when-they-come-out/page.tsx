@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
+import BlogPostCTA from '@/components/BlogPostCTA'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { MOSQUITO_BLOGS } from '@/lib/constants'
 
@@ -33,8 +34,8 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Black Flies Ontario · When They Come Out',
-  description: 'Black fly season in Ontario peaks May–July. Where they breed, how to tell them from mosquitoes, GTA risk zones, and how barrier spray controls them.',
+  title: 'When Do Black Flies Come Out in Ontario? (2026 Dates by Region)',
+  description: 'Black flies hit Ontario starting mid-May 2026. Exact emergence dates for GTA, Muskoka, and Northern Ontario, why ravine-adjacent properties get hit hardest, and the spray that actually controls them.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -60,6 +61,10 @@ export default function BlackFliesOntarioPage() {
           <p className="text-brand-300 text-sm">Published {new Date(DATE).toLocaleDateString('en-CA', { year: 'numeric', month: 'long', day: 'numeric' })} · By BuzzSkito</p>
         </div>
       </section>
+
+      <div className="max-w-3xl mx-auto px-4 -mt-6 sm:-mt-8 relative z-10">
+        <BlogPostCTA />
+      </div>
 
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
         <p className="text-lg text-gray-600 not-prose border-l-4 border-amber-400 pl-5 py-2 mb-8">

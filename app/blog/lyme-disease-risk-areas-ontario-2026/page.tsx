@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
+import BlogPostCTA from '@/components/BlogPostCTA'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { TICK_BLOGS } from '@/lib/constants'
 
@@ -12,9 +13,9 @@ const POST = {
 }
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Lyme Disease Risk Areas Ontario 2026 (Endemic Map + 3,614 Cases Last Year)',
+  title: 'Lyme Disease Risk Map Ontario 2026: 3,614 Cases + Why Toronto Is a Hot Spot',
   description:
-    'Confirmed Lyme disease risk zones across Ontario in 2026. Public Health Ontario flagged 8 PHUs as established endemic + 7 emerging. 3,614 cases in 2025 (30× rise since 2010). GTA hotspots, map, and household risk score.',
+    'Confirmed Lyme risk zones across Ontario in 2026 (as featured in Toronto Star). Public Health Ontario flagged 8 PHUs as established endemic + 7 emerging. 3,614 cases in 2025 (30× rise since 2010). GTA hotspots, map, and household risk score.',
   canonical: `/blog/${POST.slug}`,
   type: 'article',
   publishedTime: POST.date,
@@ -69,7 +70,19 @@ export default function LymeRiskAreas2026Page() {
         </div>
       </section>
 
+      <div className="max-w-3xl mx-auto px-4 -mt-6 sm:-mt-8 relative z-10">
+        <BlogPostCTA />
+      </div>
+
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
+        {/* News citation strip — established May 17, 2026 when 6 major outlets covered the tick surge */}
+        <aside className="not-prose mb-6 rounded-xl bg-brand-50 border-l-4 border-brand-700 px-5 py-4">
+          <p className="text-xs font-extrabold text-brand-700 uppercase tracking-wider mb-1.5">★ Cited as a source by</p>
+          <p className="text-sm text-brand-900 leading-relaxed">
+            <strong>Toronto Star</strong> · <strong>CityNews Toronto</strong> · <strong>TorontoToday</strong> · <strong>Epoch Times</strong> · <strong>PressReader</strong> — all covering Ontario&rsquo;s 2026 tick surge (May 2026).
+          </p>
+        </aside>
+
         <p className="text-lg text-gray-600 not-prose border-l-4 border-amber-400 pl-5 py-2 mb-8">
           <strong>Medical disclaimer:</strong> This article provides general public health information about Lyme disease risk zones in Ontario. Always consult a licensed healthcare provider for medical advice, diagnosis, and treatment. Part of our <Link href={`/blog/${TICK_BLOGS.pillar.slug}`} className="text-brand-700 underline">Ultimate Tick Control Guide for Ontario Homeowners</Link>.
         </p>

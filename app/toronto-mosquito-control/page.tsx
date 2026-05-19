@@ -5,9 +5,9 @@ import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusines
 import { BUSINESS, MOSQUITO_BLOGS, TICK_BLOGS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Toronto Mosquito Control 2026 · From $99 · 150+ Five-Star Reviews',
+  title: 'Toronto Mosquito & Tick Control 2026 · As Featured in Toronto Star · From $99',
   description:
-    "Toronto's #1 specialist for ravine-adjacent mosquito control — Don Valley, High Park, Rosedale, Forest Hill, The Beaches, Leaside. From $99/treatment, 150+ five-star reviews, no contracts, BuzzSkito Bite-Free Guarantee. Same-week service. Call (289) 216-5030.",
+    "Toronto's #1 mosquito + tick specialist — as featured in Toronto Star, CityNews, TorontoToday (May 2026). Ravine-adjacent expertise: Don Valley, High Park, Rosedale, Forest Hill, The Beaches. From $99/treatment, 150+ five-star reviews, no contracts, BuzzSkito Bite-Free Guarantee. Same-week service.",
   canonical: '/toronto-mosquito-control',
 })
 
