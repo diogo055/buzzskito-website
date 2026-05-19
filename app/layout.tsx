@@ -7,6 +7,7 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import StickyRiskCTA from '@/components/StickyRiskCTA'
 import PressMentionBanner from '@/components/PressMentionBanner'
+import ExitIntentPopup from '@/components/ExitIntentPopup'
 import { BUSINESS, SITE_URL } from '@/lib/constants'
 import { websiteSchema, organizationSchema } from '@/lib/seo'
 
@@ -100,6 +101,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           {children}
         </main>
         <StickyRiskCTA />
+        <ExitIntentPopup />
         <Footer />
 
         {/* ── Sticky Mobile CTA Bar ──────────────────────────────────── */}
