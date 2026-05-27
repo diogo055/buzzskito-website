@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import Image from 'next/image'
 import CTASection from '@/components/CTASection'
+import ReviewQuotes from '@/components/ReviewQuotes'
 import BlogCard from '@/components/BlogCard'
 import { buildMetadata, localBusinessSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { BUSINESS, CITIES, MOSQUITO_BLOGS, TICK_BLOGS } from '@/lib/constants'
@@ -355,6 +356,9 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      {/* ── Reviews ─────────────────────────────────────────────────────── */}
+      <ReviewQuotes />
 
       {/* ── CTA ─────────────────────────────────────────────────────────── */}
       <CTASection />

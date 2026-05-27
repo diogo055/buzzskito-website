@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
+import ReviewQuotes from '@/components/ReviewQuotes'
 import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusinessSchema, speakableSchema, howToSchema } from '@/lib/seo'
 import { BUSINESS, CITIES } from '@/lib/constants'
 
@@ -200,6 +201,8 @@ export default function MosquitoControlNearMePage() {
           </div>
         </div>
       </section>
+
+      <ReviewQuotes heading="Trusted by homeowners across the GTA" />
 
       <CTASection heading="Find Mosquito &amp; Tick Control Near You" subtext="Serving 19+ GTA cities and York Region. Free quotes. No contracts. Call or book online today." />
     </>
