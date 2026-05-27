@@ -144,21 +144,15 @@ export default function YardAssessment() {
         <span>👶 Safe for Kids &amp; Pets</span>
       </div>
 
-      {/* Lot-size info card */}
+      {/* Value card — anchors at $99/$500 only, no detailed package pricing.
+          Every property is quoted individually to drive the quote request. */}
       <div className="rounded-2xl border border-amber-200 bg-amber-50 p-4 sm:p-5 mb-6">
-        <p className="text-sm font-extrabold text-amber-900 mb-2">💡 Your price depends on your lot size</p>
-        <div className="grid grid-cols-2 gap-x-3 gap-y-1.5 text-xs sm:text-sm text-amber-900">
-          <div className="font-semibold">Under 10,000 sq ft</div>
-          <div>from <strong>$549</strong>/season</div>
-          <div className="font-semibold">10K–30K sq ft</div>
-          <div>$639 – $909</div>
-          <div className="font-semibold">30K–60K sq ft</div>
-          <div>$909 – $1,449</div>
-          <div className="font-semibold">60K+ sq ft</div>
-          <div>$1,449+</div>
-        </div>
+        <p className="text-sm font-extrabold text-amber-900 mb-2">💡 Every property is priced individually</p>
+        <p className="text-xs sm:text-sm text-amber-900 leading-relaxed">
+          Treatments start at <strong>$99</strong>, and most homeowners choose a season plan from around <strong>$500</strong>. Your exact price depends on your lot size — we measure it by satellite (no visit needed) and send custom pricing, usually within a few hours and always within 24.
+        </p>
         <p className="text-[11px] sm:text-xs text-amber-800 mt-3 leading-snug">
-          We measure your lot via satellite (no visit needed) and send your exact custom pricing — usually within a few hours, always within 24.
+          No contracts · 150+ five-star reviews · BuzzSkito Bite-Free Guarantee
         </p>
       </div>
 
