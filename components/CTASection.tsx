@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import { BUSINESS, SERVICE_SEASON } from '@/lib/constants'
+import GoogleReviews from '@/components/GoogleReviews'
 
 interface CTASectionProps {
   heading?: string
@@ -23,7 +24,10 @@ export default function CTASection({
     <section className={`${bg} py-16 px-4`} aria-label="Call to action">
       <div className="max-w-3xl mx-auto text-center">
         <h2 className={`text-3xl sm:text-4xl font-extrabold ${text} mb-4`}>{heading}</h2>
-        <p className={`text-lg ${sub} mb-8 max-w-xl mx-auto leading-relaxed`}>{subtext}</p>
+        <p className={`text-lg ${sub} mb-6 max-w-xl mx-auto leading-relaxed`}>{subtext}</p>
+        <div className="flex justify-center mb-7">
+          <GoogleReviews light={variant === 'light'} />
+        </div>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Link
             href="/free-yard-assessment"

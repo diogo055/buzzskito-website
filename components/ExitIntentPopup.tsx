@@ -43,7 +43,9 @@ function recordShown() {
 export default function ExitIntentPopup() {
   const [open, setOpen] = useState(false)
   const [armed, setArmed] = useState(false)
+  const [name, setName] = useState('')
   const [email, setEmail] = useState('')
+  const [phone, setPhone] = useState('')
   const [address, setAddress] = useState('')
   const [loading, setLoading] = useState(false)
   const [submitted, setSubmitted] = useState(false)
@@ -108,7 +110,7 @@ export default function ExitIntentPopup() {
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault()
-    if (!email || !address) return
+    if (!name || !email || !address) return
     setLoading(true)
     setError('')
     try {
@@ -116,8 +118,9 @@ export default function ExitIntentPopup() {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-          name: email.split('@')[0], // Use the email handle as a placeholder name
+          name: name.trim(),
           email: email.trim(),
+          phone: phone.trim() || null,
           address: address.trim(),
           service_type: 'both',
           landing_page: '/exit-intent-popup',
@@ -159,13 +162,21 @@ export default function ExitIntentPopup() {
           <>
             <p className="text-xs font-extrabold text-amber-700 uppercase tracking-widest mb-2">★ Wait — one quick thing</p>
             <h2 id="exit-intent-title" className="text-2xl font-extrabold text-brand-900 mb-2 leading-tight">
-              Get instant pricing for your address
+              Wait — get your free custom quote
             </h2>
             <p className="text-sm text-gray-700 mb-5 leading-relaxed">
-              Just your email + address. We&rsquo;ll send a custom quote within 24 hours — no obligation, no spam.
+              Takes 20 seconds. We&rsquo;ll send a custom quote within 24 hours — no obligation, no spam.
             </p>
 
             <form onSubmit={handleSubmit} className="space-y-3">
+              <input
+                type="text"
+                required
+                value={name}
+                onChange={e => setName(e.target.value)}
+                placeholder="Your name"
+                className="w-full rounded-xl border border-gray-300 px-4 py-3 text-brand-900 placeholder:text-gray-400 focus:border-brand-500 focus:outline-none focus:ring-2 focus:ring-brand-500/20"
+              />
               <input
                 type="email"
                 required
@@ -180,6 +191,13 @@ export default function ExitIntentPopup() {
                 value={address}
                 onChange={e => setAddress(e.target.value)}
                 placeholder="Property address (street + city)"
+                className="w-full rounded-xl border border-gray-300 px-4 py-3 text-brand-900 placeholder:text-gray-400 focus:border-brand-500 focus:outline-none focus:ring-2 focus:ring-brand-500/20"
+              />
+              <input
+                type="tel"
+                value={phone}
+                onChange={e => setPhone(e.target.value)}
+                placeholder="Phone (optional — for fastest response)"
                 className="w-full rounded-xl border border-gray-300 px-4 py-3 text-brand-900 placeholder:text-gray-400 focus:border-brand-500 focus:outline-none focus:ring-2 focus:ring-brand-500/20"
               />
               {error && <p className="text-xs text-red-600">{error}</p>}

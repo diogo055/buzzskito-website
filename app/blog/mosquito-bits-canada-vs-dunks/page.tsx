@@ -116,8 +116,14 @@ export default function MosquitoBitsCanadaPage() {
           </p>
           <div className="mt-5 rounded-xl bg-amber-50 border-l-4 border-amber-400 p-4">
             <p className="text-sm text-gray-800 leading-relaxed">
-              <strong className="text-amber-900">⚠️ Bits kill larvae in your treated water — not the adult mosquitoes flying onto your property.</strong> For complete yard protection in the GTA, combine bits/dunks (your standing water) with <Link href="/mosquito-control" className="text-emerald-700 underline font-semibold">professional barrier spray</Link> on vegetation. Bits cost $15/season per water source. Barrier spray covers the whole yard for 21–30 days.
+              <strong className="text-amber-900">⚠️ Bits kill larvae in your treated water — not the adult mosquitoes flying onto your property.</strong> For complete yard protection in the GTA, combine bits/dunks (your standing water) with professional barrier spray on vegetation. Bits cost $15/season per water source. Barrier spray covers the whole yard for 21–30 days.
             </p>
+            <div className="mt-4 flex flex-col sm:flex-row items-center gap-3">
+              <Link href="/free-yard-assessment" className="inline-flex items-center justify-center bg-amber-500 hover:bg-amber-400 text-white font-extrabold px-6 py-3 rounded-full text-sm shadow-lg transition-colors whitespace-nowrap">
+                Get a free yard quote →
+              </Link>
+              <span className="text-xs text-amber-800">Tired of DIY? We&rsquo;ll handle the whole yard. From $99 · 150+ five-star reviews · GTA only.</span>
+            </div>
           </div>
         </div>
       </section>
