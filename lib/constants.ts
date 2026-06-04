@@ -522,6 +522,83 @@ export const NEW_BLOGS_7 = [
   },
 ]
 
+// Wave 11 — Jun 3, 2026 cluster: city-specific tick/mosquito/Lyme/WNV pages.
+// Designed to capitalize on the news-boost crawl budget (~2,221 clicks/28d as of
+// Jun 3) and target serviced-city long-tail keywords where competition is low.
+// See seo_master_plan_2026.md in claude memory for the strategic rationale.
+export const NEW_BLOGS_11 = [
+  {
+    slug: 'tick-season-mississauga-when-are-ticks-active',
+    title: 'Tick Season in Mississauga 2026: When Ticks Are Most Active',
+    excerpt: 'Mississauga-specific tick activity calendar — Credit River corridor, Rattray Marsh, and Riverwood as confirmed risk zones. Month-by-month protection plan for Peel Region homeowners.',
+    date: '2026-06-03',
+    category: 'tick' as const,
+  },
+  {
+    slug: 'tick-hot-spots-mississauga-2026',
+    title: 'Mississauga Tick Hot Spots 2026: Highest-Risk Neighbourhoods',
+    excerpt: 'Lorne Park, Mineola, Erindale, Streetsville, Meadowvale ranked by tick pressure. Credit Valley corridor explained, plus the lakefront vs ravine adjacency distinction.',
+    date: '2026-06-03',
+    category: 'tick' as const,
+  },
+  {
+    slug: 'west-nile-virus-mississauga-2026',
+    title: 'West Nile Virus in Mississauga 2026: Risk, Surveillance, Yard Protection',
+    excerpt: 'Peel Public Health surveillance, Culex pipiens vector behaviour, Lake Ontario shoreline + Credit River wetland breeding habitat, plus practical yard-level prevention.',
+    date: '2026-06-03',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'when-to-spray-mosquitoes-mississauga-2026',
+    title: 'When to Spray for Mosquitoes in Mississauga (2026 Service Calendar)',
+    excerpt: 'Bottom-funnel timing guide — May/June first spray, biweekly cadence, September final spray. Waterfront vs Credit Valley vs inland property differences.',
+    date: '2026-06-03',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'tick-season-oakville-when-are-ticks-active',
+    title: 'Tick Season in Oakville 2026: When Blacklegged Ticks Are Most Active',
+    excerpt: '16 Mile Creek corridor as Oakville\'s tick spine. Bronte Creek Provincial Park surveillance data, North Oakville new-build risk, and Halton Region Public Health monitoring.',
+    date: '2026-06-03',
+    category: 'tick' as const,
+  },
+  {
+    slug: 'tick-season-burlington-when-are-ticks-active',
+    title: 'Tick Season in Burlington 2026: Why the Lakefront and Escarpment Edge Are at Highest Risk',
+    excerpt: 'Niagara Escarpment edge (Mt. Nemo, Mountainside), Royal Botanical Gardens surveillance, Aldershot + Tyandaga + Millcroft risk profiles. Greenfield tick content for Burlington.',
+    date: '2026-06-03',
+    category: 'tick' as const,
+  },
+  {
+    slug: 'tick-hot-spots-oakville-burlington-2026',
+    title: 'Oakville and Burlington Tick Hot Spots 2026: Halton Region Highest-Risk Neighbourhoods',
+    excerpt: 'Glen Abbey golf-course edges, Bronte Creek-adjacent properties, Mt. Nemo escarpment edge in Burlington, Joshua Creek + Iroquois Ridge. Lakefront-low vs ravine-meets-lakeshore distinction.',
+    date: '2026-06-03',
+    category: 'tick' as const,
+  },
+  {
+    slug: 'black-flies-mississauga-toronto-gta-2026',
+    title: 'Black Flies in the GTA 2026: Toronto, Mississauga, and the Cottage-Country Migration',
+    excerpt: 'GTA-specific extension of our top-traffic Ontario black fly page. Why Credit River and Don Valley get hit harder, suburban-vs-urban risk, and what actually works against black flies.',
+    date: '2026-06-03',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'lyme-disease-cases-mississauga-oakville-2026',
+    title: 'Lyme Disease Cases in Mississauga and Oakville 2026: What the Numbers Show',
+    excerpt: 'Peel and Halton Region Public Health Lyme case trends. What the surveillance counts include and miss. Family protection recommendations grounded in case data.',
+    date: '2026-06-03',
+    category: 'tick' as const,
+  },
+  {
+    slug: 'professional-vs-diy-mosquito-control-gta-comparison',
+    title: 'Professional vs DIY Mosquito Control in the GTA: 2026 Cost, Effectiveness & Safety Comparison',
+    excerpt: 'Pillar comparison — citronella, Thermacell, Mosquito Magnet, Dynatrap, dunks, bits, permethrin vs professional barrier spray. Annual cost math, real effectiveness, honest recommendation.',
+    date: '2026-06-03',
+    category: 'mosquito' as const,
+  },
+]
+
 export const NEW_BLOGS_10 = [
   {
     slug: 'mosquito-dunks-canada-guide',

@@ -25,6 +25,18 @@ const nextConfig = {
   },
   async redirects() {
     return [
+      // ── www → non-www canonical (CRITICAL — was splitting authority) ────────
+      // GSC top-pages showed both https://buzzskito.ca/blog/... and
+      // https://www.buzzskito.ca/blog/... as separate indexed URLs, splitting
+      // the click attribution and PageRank. This 301 sends all www traffic to
+      // the canonical apex domain.
+      {
+        source: '/:path*',
+        has: [{ type: 'host', value: 'www.buzzskito.ca' }],
+        destination: 'https://buzzskito.ca/:path*',
+        permanent: true,
+      },
+
       // ── Home page duplicate ──────────────────────────────────────────────────
       { source: '/home', destination: '/', permanent: true },
       { source: '/BuzzSkito', destination: '/', permanent: true },
