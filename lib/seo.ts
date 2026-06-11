@@ -260,14 +260,17 @@ export function blogPostingSchema(opts: {
 
 // speakableSchema — marks key sections for Google AI / voice results.
 // Pass the canonical path of the page (e.g. '/toronto-mosquito-control').
-// Now includes dateModified for content freshness (2026 AI Overview signal).
+// dateModified is only emitted when a real date is provided. The old fallback
+// (new Date() on every build/request) made every page claim it was modified
+// "today" every day — a fake-freshness signal Google detects and discounts,
+// which can erode trust in the site's other date signals.
 export function speakableSchema(path: string, dateModified?: string) {
   return {
     '@context': 'https://schema.org',
     '@type': 'WebPage',
     '@id': `${SITE_URL}${path}#webpage`,
     url: `${SITE_URL}${path}`,
-    dateModified: dateModified ?? new Date().toISOString().split('T')[0],
+    ...(dateModified && { dateModified }),
     speakable: {
       '@type': 'SpeakableSpecification',
       cssSelector: ['h1', 'h2', 'article p:first-of-type', '.speakable'],
