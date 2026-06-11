@@ -114,7 +114,7 @@ export default function YardRiskQuiz() {
         <div className="space-y-6">
           <div className="text-center">
             <p className="text-xs font-extrabold text-amber-700 uppercase tracking-wider mb-2">Free Yard Risk Report · 60 seconds</p>
-            <h1 className="text-3xl sm:text-4xl font-extrabold text-brand-900 mb-3">What&rsquo;s your yard&rsquo;s mosquito &amp; tick risk score?</h1>
+            <h2 className="text-3xl sm:text-4xl font-extrabold text-brand-900 mb-3">What&rsquo;s your yard&rsquo;s mosquito &amp; tick risk score?</h2>
             <p className="text-gray-600 leading-relaxed">Enter your GTA address — we&rsquo;ll calculate your custom risk profile using neighbourhood data, ravine proximity, water sources, and family factors. Then we&rsquo;ll show you your score and email you a custom treatment plan.</p>
           </div>
           <div className="bg-white rounded-2xl border border-brand-100 p-6 shadow-sm">
