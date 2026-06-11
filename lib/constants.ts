@@ -713,6 +713,44 @@ export const NEW_BLOGS_8 = [
   },
 ]
 
+// ── Apr 2026 listicle posts — registered Jun 2026 (SEO audit fix) ──────────────
+// These four posts existed on disk and in the sitemap (via extraBlogSlugs) since
+// late April but were never added to a constants array, so the /blog index never
+// rendered them — making them internal-link orphans despite earning impressions
+// and clicks in GSC. Registering them here lists them on /blog and removes the
+// orphan state. The sitemap's extraBlogSlugs dedupe filter automatically stops
+// double-listing once they appear here.
+export const NEW_BLOGS_12 = [
+  {
+    slug: 'how-to-get-rid-of-mosquitoes-in-yard-ontario',
+    title: 'How to Get Rid of Mosquitoes in Your Yard (Ontario Guide)',
+    excerpt: '12 proven steps to get rid of mosquitoes in your yard — from eliminating standing water to professional barrier spray. Tested in GTA conditions.',
+    date: '2026-04-29',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'how-to-keep-ticks-out-of-yard-ontario',
+    title: 'How to Keep Ticks Out of Your Yard (Ontario)',
+    excerpt: '10 proven steps for keeping ticks out of your yard and preventing Lyme disease, focused on the GTA\'s confirmed blacklegged tick zones.',
+    date: '2026-04-29',
+    category: 'tick' as const,
+  },
+  {
+    slug: 'mosquito-mistakes-ontario-homeowners-make',
+    title: '12 Mosquito Mistakes Ontario Homeowners Make',
+    excerpt: 'The most common mosquito-control mistakes — citronella candles, late-season treatment, ignored rain barrels — and what actually works instead.',
+    date: '2026-04-29',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'tick-bites-that-wont-heal-when-to-worry',
+    title: 'Tick Bites That Won\'t Heal: When to Worry (Ontario)',
+    excerpt: 'A tick bite that doesn\'t heal could signal Lyme disease, alpha-gal syndrome, or secondary infection. Symptoms and when to see a doctor.',
+    date: '2026-04-29',
+    category: 'tick' as const,
+  },
+]
+
 // ── Season helpers ─────────────────────────────────────────────────────────────
 
 export const PEAK_SEASON = 'May through July'
