@@ -36,7 +36,7 @@ export default function robots(): MetadataRoute.Robots {
         userAgent: 'Google-Extended',
         allow: '/',
       },
-      // Microsoft Copilot
+      // Apple Intelligence / Siri (citation-capable)
       {
         userAgent: 'Applebot-Extended',
         allow: '/',
