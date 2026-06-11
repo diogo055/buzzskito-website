@@ -5,7 +5,7 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 
 const SLUG = 'deer-tick-vs-dog-tick-canada'
 const DATE = '2026-04-28'
-const TITLE = 'Deer Tick vs Dog Tick — Canada Identification (2026)'
+const TITLE = 'Dog Tick vs Deer Tick — How to Tell Them Apart (Canada 2026)'
 
 const FAQS = [
   {
@@ -43,8 +43,8 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Deer Tick vs Dog Tick · Canada Identification 2026',
-  description: 'How to tell a deer tick (blacklegged) from a dog tick (American dog tick) in Canada. Size, pattern, disease risk, and prevention.',
+  title: 'Dog Tick vs Deer Tick: How to Tell Them Apart (Canada 2026)',
+  description: 'The 10-second check: dog ticks have white/grey markings on the back, deer ticks are plain dark brown — and only deer ticks carry Lyme. Size comparison, photos, and what to do after a bite.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,

@@ -34,8 +34,8 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: '5 Bugs That Look Like Ticks (Photos + How to Tell the Difference)',
-  description: 'Bed bugs, weevils, spider beetles, bat bugs, and dog ticks vs deer ticks — visual ID guide with photos. Why getting it wrong matters for Lyme disease risk in Ontario 2026.',
+  title: 'Bugs That Look Like Ticks (But Aren\'t): 5 Lookalikes + Photo ID Chart',
+  description: 'Found a bug that looks like a tick? Check it against 5 common lookalikes — bed bugs, weevils, spider beetles, bat bugs — with photos and the 30-second leg-count test. Ontario 2026.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,

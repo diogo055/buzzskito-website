@@ -6,7 +6,7 @@ import InlineYardRiskCTA from '@/components/InlineYardRiskCTA'
 
 const SLUG = 'thermacell-canada-where-to-buy'
 const DATE = '2026-05-01'
-const TITLE = 'Thermacell Canada 2026 — Where to Buy + Do They Actually Work?'
+const TITLE = 'Thermacell in Canada: 2026 Prices, Where to Buy + Honest Review'
 
 const FAQS = [
   {
@@ -53,7 +53,7 @@ const FAQS = [
 
 export const metadata: Metadata = buildMetadata({
   title: TITLE,
-  description: 'Where to buy Thermacell in Canada (Canadian Tire, Home Depot, Cabela\'s, Amazon.ca prices), how Thermacell allethrin actually works, refill costs, vs DEET/Picaridin, and whether they\'re effective for GTA backyards. Updated 2026.',
+  description: 'Thermacell prices at Canadian Tire, Home Depot, Cabela\'s & Amazon.ca ($35-$220 by model), refill costs, and the honest answer on whether they work for GTA backyards — before you buy. Updated 2026.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
