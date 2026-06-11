@@ -5,9 +5,9 @@ import { buildMetadata, breadcrumbSchema, faqSchema, speakableSchema } from '@/l
 import { BUSINESS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Best Mosquito Control Toronto 2026',
+  title: 'Best Mosquito Control Companies in Toronto — 2026 Rankings',
   description:
-    'Compare Toronto mosquito control 2026 — pricing, reviews, contracts. BuzzSkito vs Mosquito Man vs LawnSavers.',
+    'We ranked Toronto\'s mosquito control companies for 2026 by reviews, pricing, guarantees, and contracts — BuzzSkito vs Mosquito Man vs LawnSavers vs Mosquito.Buzz, compared side by side.',
   canonical: '/best-mosquito-control-companies-toronto',
 })
 
