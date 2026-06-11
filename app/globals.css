@@ -83,3 +83,134 @@
     @apply inline-block bg-amber-500 hover:bg-amber-400 text-white font-bold px-6 py-3 rounded-full transition-colors shadow-md;
   }
 }
+
+/* ════════════════════════════════════════════════════════════════════════
+   MOTION SYSTEM — performance-safe animations
+   ────────────────────────────────────────────────────────────────────────
+   Rules this system obeys (do not break them):
+   1. Compositor-only properties (transform, opacity) — zero layout shift,
+      zero CLS, GPU-friendly on low-end mobile.
+   2. Every animation is gated behind prefers-reduced-motion: no-preference.
+   3. Scroll-reveal initial-hidden state ONLY applies when <html> carries
+      the `anim` class (set by a 1-line inline script in layout.tsx).
+      No JS → class never added → content fully visible. Crawlers and AI
+      extractors always see complete content in raw HTML regardless.
+   4. No animation libraries. Total cost ≈ 3 kB CSS + 2 tiny components.
+   ════════════════════════════════════════════════════════════════════════ */
+
+@media (prefers-reduced-motion: no-preference) {
+
+  /* ── Scroll reveal (used with components/Reveal.tsx) ── */
+  html.anim .reveal {
+    opacity: 0;
+    transform: translateY(18px);
+    transition: opacity 0.65s cubic-bezier(0.22, 1, 0.36, 1),
+                transform 0.65s cubic-bezier(0.22, 1, 0.36, 1);
+    will-change: opacity, transform;
+  }
+  html.anim .reveal.in-view {
+    opacity: 1;
+    transform: translateY(0);
+    will-change: auto;
+  }
+  /* Stagger delays for sibling reveals */
+  html.anim .rd-1 { transition-delay: 0.08s; }
+  html.anim .rd-2 { transition-delay: 0.16s; }
+  html.anim .rd-3 { transition-delay: 0.24s; }
+  html.anim .rd-4 { transition-delay: 0.32s; }
+  html.anim .rd-5 { transition-delay: 0.40s; }
+  html.anim .rd-6 { transition-delay: 0.48s; }
+
+  /* ── Hero aurora — slow animated gradient pan ── */
+  .aurora-bg {
+    background: linear-gradient(125deg,
+      #172554 0%, #1e3a8a 30%, #1d4ed8 50%, #155e75 70%, #172554 100%);
+    background-size: 300% 300%;
+    animation: aurora-pan 12s ease-in-out infinite alternate;
+  }
+  @keyframes aurora-pan {
+    0%   { background-position: 0% 50%; }
+    100% { background-position: 100% 50%; }
+  }
+
+  /* ── Floating decorative orbs ── */
+  .floaty   { animation: floaty 7s ease-in-out infinite; }
+  .floaty-2 { animation: floaty 9s ease-in-out 1.5s infinite; }
+  @keyframes floaty {
+    0%, 100% { transform: translateY(0) translateX(0); }
+    50%      { transform: translateY(-16px) translateX(8px); }
+  }
+
+  /* ── Button sheen — diagonal light sweep on hover/focus ── */
+  .btn-sheen { position: relative; overflow: hidden; }
+  .btn-sheen::after {
+    content: '';
+    position: absolute;
+    top: 0; left: -80%;
+    width: 50%; height: 100%;
+    background: linear-gradient(105deg, transparent, rgba(255,255,255,0.45), transparent);
+    transform: skewX(-20deg);
+    transition: left 0.6s ease;
+    pointer-events: none;
+  }
+  .btn-sheen:hover::after, .btn-sheen:focus-visible::after { left: 130%; }
+
+  /* ── City ticker marquee (decorative, aria-hidden, duplicated track) ── */
+  .ticker-track {
+    display: flex;
+    width: max-content;
+    animation: ticker-x 45s linear infinite;
+  }
+  .ticker-track:hover { animation-play-state: paused; }
+  @keyframes ticker-x {
+    from { transform: translateX(0); }
+    to   { transform: translateX(-50%); }
+  }
+
+  /* ── Soft pulse for the "available now" dot ── */
+  .pulse-dot::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: 9999px;
+    background: inherit;
+    animation: pulse-ring 2.2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+  @keyframes pulse-ring {
+    0%   { transform: scale(1);   opacity: 0.7; }
+    75%  { transform: scale(2.4); opacity: 0; }
+    100% { transform: scale(2.4); opacity: 0; }
+  }
+
+  /* ── Gentle hover lift for cards ── */
+  .hover-lift {
+    transition: transform 0.3s cubic-bezier(0.22, 1, 0.36, 1),
+                box-shadow 0.3s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+  .hover-lift:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 18px 35px -12px rgba(23, 37, 84, 0.22);
+  }
+
+  /* ── Arrow nudge on link hover ── */
+  .arrow-nudge svg { transition: transform 0.25s ease; }
+  .arrow-nudge:hover svg { transform: translateX(4px); }
+
+  /* ── Star shimmer on the rating badge ── */
+  .star-shimmer {
+    background: linear-gradient(90deg, #f59e0b 40%, #fde68a 50%, #f59e0b 60%);
+    background-size: 200% 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: star-sweep 3.5s ease-in-out infinite;
+  }
+  @keyframes star-sweep {
+    0%, 60%, 100% { background-position: 100% 0; }
+    25%           { background-position: -100% 0; }
+  }
+}
+
+/* Touch feedback everywhere (cheap, no media gate needed) */
+.press-scale { transition: transform 0.15s ease; }
+.press-scale:active { transform: scale(0.97); }

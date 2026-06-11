@@ -2,7 +2,7 @@
 
 import Link from 'next/link'
 import Image from 'next/image'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { BUSINESS } from '@/lib/constants'
 
 type NavChild = { label: string; href: string; divider?: boolean }
@@ -47,9 +47,22 @@ const NAV: NavLink[] = [
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false)
   const [openDropdown, setOpenDropdown] = useState<string | null>(null)
+  const [scrolled, setScrolled] = useState(false)
+
+  useEffect(() => {
+    const onScroll = () => setScrolled(window.scrollY > 8)
+    onScroll()
+    window.addEventListener('scroll', onScroll, { passive: true })
+    return () => window.removeEventListener('scroll', onScroll)
+  }, [])
 
   return (
-    <header className="bg-brand-900 text-white sticky top-0 z-50 shadow-lg" role="banner">
+    <header
+      className={`sticky top-0 z-50 text-white transition-[background-color,box-shadow] duration-300 ${
+        scrolled ? 'bg-brand-900/95 backdrop-blur-md shadow-2xl' : 'bg-brand-900 shadow-lg'
+      }`}
+      role="banner"
+    >
       {/* Skip nav */}
       <a href="#main-content" className="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 bg-white text-brand-900 px-3 py-1 rounded text-sm font-bold z-50">
         Skip to main content

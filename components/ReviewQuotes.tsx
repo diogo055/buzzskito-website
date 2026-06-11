@@ -29,7 +29,7 @@ export default function ReviewQuotes({
       <div className="max-w-5xl mx-auto">
         <div className="text-center mb-8">
           <div className="inline-flex items-center gap-2 mb-2">
-            <span className="text-amber-500 text-xl">★★★★★</span>
+            <span className="star-shimmer text-amber-500 text-xl">★★★★★</span>
             <span className="font-extrabold text-brand-900">5.0</span>
             <span className="text-brand-600 text-sm">· 150+ verified Google reviews</span>
           </div>
@@ -38,7 +38,7 @@ export default function ReviewQuotes({
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
           {REVIEWS.map((r) => (
-            <div key={r.name} className="bg-white rounded-2xl border border-brand-100 p-5 shadow-sm flex flex-col">
+            <div key={r.name} className="hover-lift bg-white rounded-2xl border border-brand-100 p-5 shadow-sm flex flex-col">
               <div className="text-amber-500 text-base mb-2">★★★★★</div>
               <p className="text-sm text-gray-700 leading-relaxed flex-1">&ldquo;{r.text}&rdquo;</p>
               <div className="mt-4 pt-3 border-t border-gray-100">

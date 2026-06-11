@@ -15,7 +15,7 @@ export default function BlogCard({ slug, title, excerpt, date, category = 'mosqu
   const categoryLabel = category === 'tick' ? 'Tick Control' : 'Mosquito Control'
 
   return (
-    <article className={`bg-white rounded-2xl border shadow-sm hover:shadow-lg transition-all overflow-hidden flex flex-col ${isPillar ? 'border-brand-400 ring-1 ring-brand-300' : 'border-gray-100'}`}>
+    <article className={`hover-lift bg-white rounded-2xl border shadow-sm overflow-hidden flex flex-col ${isPillar ? 'border-brand-400 ring-1 ring-brand-300' : 'border-gray-100'}`}>
       <div className={`h-2 ${category === 'tick' ? 'bg-amber-500' : 'bg-brand-600'}`} aria-hidden="true" />
       <div className="p-6 flex flex-col flex-1">
         <div className="flex items-center gap-2 mb-3">
@@ -35,7 +35,7 @@ export default function BlogCard({ slug, title, excerpt, date, category = 'mosqu
           <time className="text-xs text-gray-400" dateTime={date}>{formattedDate}</time>
           <Link
             href={`/blog/${slug}`}
-            className="text-sm font-semibold text-brand-700 hover:text-brand-500 flex items-center gap-1"
+            className="arrow-nudge text-sm font-semibold text-brand-700 hover:text-brand-500 flex items-center gap-1"
             aria-label={`Read: ${title}`}
           >
             Read guide <span className="sr-only">: {title}</span>

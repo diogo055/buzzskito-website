@@ -31,13 +31,13 @@ export default function CTASection({
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Link
             href="/free-yard-assessment"
-            className="inline-block bg-amber-500 hover:bg-amber-400 text-white font-extrabold px-8 py-4 rounded-full text-lg shadow-xl transition-colors"
+            className="btn-sheen press-scale inline-block bg-amber-500 hover:bg-amber-400 text-white font-extrabold px-8 py-4 rounded-full text-lg shadow-xl transition-colors"
           >
             Get a Free Quote
           </Link>
           <a
             href={BUSINESS.phoneHref}
-            className={`inline-flex items-center justify-center gap-2 border-2 ${btnBorder} font-bold px-8 py-4 rounded-full text-lg transition-colors`}
+            className={`press-scale inline-flex items-center justify-center gap-2 border-2 ${btnBorder} font-bold px-8 py-4 rounded-full text-lg transition-colors`}
             aria-label={`Call BuzzSkito at ${BUSINESS.phone}`}
           >
             <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">

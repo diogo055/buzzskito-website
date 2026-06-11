@@ -79,6 +79,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en-CA" className={inter.variable}>
       <head>
+        {/* Motion gate: scroll-reveal initial-hidden CSS only applies under
+            html.anim, so no-JS users and HTML crawlers always see full content.
+            Runs before paint — must stay inline and first. */}
+        <script
+          dangerouslySetInnerHTML={{ __html: `document.documentElement.classList.add('anim')` }}
+        />
         {/* Site-wide schemas — WebSite + Organization on every page.
             LocalBusiness/PestControlService is added per-page with city-specific areaServed. */}
         <script

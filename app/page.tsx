@@ -4,6 +4,8 @@ import Image from 'next/image'
 import CTASection from '@/components/CTASection'
 import ReviewQuotes from '@/components/ReviewQuotes'
 import BlogCard from '@/components/BlogCard'
+import Reveal from '@/components/Reveal'
+import StatCounter from '@/components/StatCounter'
 import { buildMetadata, localBusinessSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { BUSINESS, CITIES, MOSQUITO_BLOGS, TICK_BLOGS } from '@/lib/constants'
 
@@ -52,50 +54,61 @@ export default function HomePage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema('/')) }} />
 
       {/* ── Hero ────────────────────────────────────────────────────────── */}
-      <section aria-label="Hero" className="relative bg-gradient-to-br from-brand-950 via-brand-900 to-brand-800 text-white overflow-hidden">
+      <section aria-label="Hero" className="relative aurora-bg bg-gradient-to-br from-brand-950 via-brand-900 to-brand-800 text-white overflow-hidden">
         <div className="absolute inset-0 pointer-events-none" aria-hidden="true">
-          <div className="absolute -top-20 -right-20 w-96 h-96 bg-brand-700 rounded-full opacity-20 blur-3xl" />
-          <div className="absolute bottom-0 left-0 w-64 h-64 bg-amber-500 rounded-full opacity-10 blur-3xl" />
+          <div className="floaty absolute -top-20 -right-20 w-96 h-96 bg-brand-700 rounded-full opacity-20 blur-3xl" />
+          <div className="floaty-2 absolute bottom-0 left-0 w-64 h-64 bg-amber-500 rounded-full opacity-10 blur-3xl" />
         </div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 py-20 sm:py-28 lg:py-32">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <p className="text-amber-400 font-bold text-sm uppercase tracking-widest mb-4">
-                Mississauga · Toronto · Brampton · Oakville · Burlington · Hamilton
-              </p>
-              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight mb-6">
-                Mosquito &amp; Tick Control<br />
-                <span className="text-amber-400">Guaranteed for the GTA</span>
-              </h1>
-              <p className="text-xl text-brand-100 mb-8 max-w-2xl leading-relaxed">
-                Professional barrier spray treatments for residential lawns. Health Canada–approved. Safe for kids &amp; pets in 30 minutes. Up to 30-day protection per visit.
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 mb-8">
-                <Link
-                  href="/free-yard-assessment"
-                  className="inline-block bg-amber-500 hover:bg-amber-400 text-white font-extrabold px-8 py-4 rounded-full text-lg shadow-xl transition-colors text-center"
-                >
-                  Get a Free Quote
-                </Link>
-                <a
-                  href={BUSINESS.phoneHref}
-                  className="inline-flex items-center justify-center gap-2 border-2 border-white text-white hover:bg-white hover:text-brand-900 font-bold px-8 py-4 rounded-full text-lg transition-colors"
-                  aria-label={`Call BuzzSkito: ${BUSINESS.phone}`}
-                >
-                  <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                    <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
-                  </svg>
-                  {BUSINESS.phone}
-                </a>
-              </div>
-              <p className="text-sm text-brand-300 flex flex-wrap gap-x-4 gap-y-1">
-                <span>✓ Free quotes</span>
-                <span>✓ No contracts</span>
-                <span>✓ BuzzSkito Bite-Free Guarantee</span>
-                <span>✓ 150+ five-star reviews</span>
-              </p>
+              <Reveal>
+                <p className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/15 rounded-full px-4 py-1.5 text-amber-300 font-bold text-xs uppercase tracking-widest mb-5">
+                  <span className="relative inline-flex w-2 h-2 rounded-full bg-emerald-400 pulse-dot" aria-hidden="true" />
+                  Same-week openings across the GTA
+                </p>
+              </Reveal>
+              <Reveal className="rd-1">
+                <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight mb-6">
+                  Mosquito &amp; Tick Control<br />
+                  <span className="text-amber-400">Guaranteed for the GTA</span>
+                </h1>
+              </Reveal>
+              <Reveal className="rd-2">
+                <p className="text-xl text-brand-100 mb-8 max-w-2xl leading-relaxed">
+                  Professional barrier spray treatments for residential lawns. Health Canada–approved. Safe for kids &amp; pets in 30 minutes. Up to 30-day protection per visit.
+                </p>
+              </Reveal>
+              <Reveal className="rd-3">
+                <div className="flex flex-col sm:flex-row gap-4 mb-8">
+                  <Link
+                    href="/free-yard-assessment"
+                    className="btn-sheen press-scale inline-block bg-amber-500 hover:bg-amber-400 text-white font-extrabold px-8 py-4 rounded-full text-lg shadow-xl transition-colors text-center"
+                  >
+                    Get a Free Quote
+                  </Link>
+                  <a
+                    href={BUSINESS.phoneHref}
+                    className="press-scale inline-flex items-center justify-center gap-2 border-2 border-white text-white hover:bg-white hover:text-brand-900 font-bold px-8 py-4 rounded-full text-lg transition-colors"
+                    aria-label={`Call BuzzSkito: ${BUSINESS.phone}`}
+                  >
+                    <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                      <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+                    </svg>
+                    {BUSINESS.phone}
+                  </a>
+                </div>
+              </Reveal>
+              <Reveal className="rd-4">
+                <p className="text-sm text-brand-300 flex flex-wrap gap-x-4 gap-y-1">
+                  <span>✓ Free quotes</span>
+                  <span>✓ No contracts</span>
+                  <span>✓ BuzzSkito Bite-Free Guarantee</span>
+                  <span>✓ 150+ five-star reviews</span>
+                </p>
+              </Reveal>
             </div>
-            <div className="hidden lg:block relative">
+            <Reveal className="rd-2 hidden lg:block relative" as="div">
               <div className="relative rounded-2xl overflow-hidden shadow-2xl ring-4 ring-white/10">
                 <Image
                   src="/hero-spray.webp"
@@ -113,7 +126,24 @@ export default function HomePage() {
                   </div>
                 </div>
               </div>
-            </div>
+            </Reveal>
+          </div>
+        </div>
+
+        {/* City ticker — decorative; cities are listed semantically in the
+            Service Areas section below, so this strip is aria-hidden. */}
+        <div className="relative border-t border-white/10 bg-brand-950/40 backdrop-blur-sm overflow-hidden py-3" aria-hidden="true">
+          <div className="ticker-track text-brand-200 text-sm font-semibold tracking-wide">
+            {[0, 1].map((dup) => (
+              <span key={dup} className="flex shrink-0 items-center">
+                {CITIES.map((city) => (
+                  <span key={`${dup}-${city.name}`} className="flex items-center">
+                    <span className="px-5">{city.name}</span>
+                    <span className="text-amber-400/70">✦</span>
+                  </span>
+                ))}
+              </span>
+            ))}
           </div>
         </div>
       </section>
@@ -121,17 +151,22 @@ export default function HomePage() {
       {/* ── Trust bar ───────────────────────────────────────────────────── */}
       <section aria-label="Trust statistics" className="bg-brand-800 py-6 px-4">
         <div className="max-w-5xl mx-auto grid grid-cols-2 sm:grid-cols-4 gap-6 text-center">
-          {[
-            { stat: '150+',       label: 'Five-Star Reviews' },
-            { stat: '30 Days',   label: 'Protection per Visit' },
-            { stat: '30 Min',    label: 'Safe for Kids & Pets' },
-            { stat: 'Bite-Free', label: 'Guarantee' },
-          ].map(({ stat, label }) => (
-            <div key={label}>
-              <div className="text-3xl font-extrabold text-brand-300">{stat}</div>
-              <div className="text-xs text-brand-400 mt-1 font-medium">{label}</div>
-            </div>
-          ))}
+          <Reveal>
+            <div className="text-3xl font-extrabold text-brand-300"><StatCounter value={150} suffix="+" /></div>
+            <div className="text-xs text-brand-400 mt-1 font-medium">Five-Star Reviews</div>
+          </Reveal>
+          <Reveal className="rd-1">
+            <div className="text-3xl font-extrabold text-brand-300"><StatCounter value={30} suffix=" Days" /></div>
+            <div className="text-xs text-brand-400 mt-1 font-medium">Protection per Visit</div>
+          </Reveal>
+          <Reveal className="rd-2">
+            <div className="text-3xl font-extrabold text-brand-300"><StatCounter value={30} suffix=" Min" /></div>
+            <div className="text-xs text-brand-400 mt-1 font-medium">Safe for Kids &amp; Pets</div>
+          </Reveal>
+          <Reveal className="rd-3">
+            <div className="text-3xl font-extrabold text-brand-300">Bite-Free</div>
+            <div className="text-xs text-brand-400 mt-1 font-medium">Guarantee</div>
+          </Reveal>
         </div>
       </section>
 
@@ -158,7 +193,7 @@ export default function HomePage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
 
             {/* Mosquito */}
-            <article className="bg-brand-50 rounded-3xl p-8 border border-brand-100">
+            <Reveal as="article" className="hover-lift bg-brand-50 rounded-3xl p-8 border border-brand-100">
               <div className="text-5xl mb-4" aria-hidden="true">🦟</div>
               <h3 className="text-2xl font-extrabold text-brand-900 mb-3">Mosquito Control</h3>
               <p className="text-gray-600 mb-5 leading-relaxed">
@@ -170,13 +205,13 @@ export default function HomePage() {
                 <li className="flex items-center gap-2"><span className="text-brand-600 font-bold">✓</span> Health Canada–approved formula</li>
                 <li className="flex items-center gap-2"><span className="text-brand-600 font-bold">✓</span> Free re-spray if mosquitoes return</li>
               </ul>
-              <Link href="/mosquito-control" className="inline-block bg-brand-700 hover:bg-brand-600 text-white font-bold px-6 py-3 rounded-full transition-colors">
+              <Link href="/mosquito-control" className="press-scale inline-block bg-brand-700 hover:bg-brand-600 text-white font-bold px-6 py-3 rounded-full transition-colors">
                 Learn About Mosquito Control
               </Link>
-            </article>
+            </Reveal>
 
             {/* Tick */}
-            <article className="bg-amber-50 rounded-3xl p-8 border border-amber-100">
+            <Reveal as="article" className="rd-2 hover-lift bg-amber-50 rounded-3xl p-8 border border-amber-100">
               <div className="text-5xl mb-4" aria-hidden="true">🕷️</div>
               <h3 className="text-2xl font-extrabold text-brand-900 mb-3">Tick Control</h3>
               <p className="text-gray-600 mb-5 leading-relaxed">
@@ -188,10 +223,10 @@ export default function HomePage() {
                 <li className="flex items-center gap-2"><span className="text-amber-600 font-bold">✓</span> Lyme disease prevention</li>
                 <li className="flex items-center gap-2"><span className="text-amber-600 font-bold">✓</span> 5 seasonal treatments recommended</li>
               </ul>
-              <Link href="/tick-control" className="inline-block bg-amber-600 hover:bg-amber-500 text-white font-bold px-6 py-3 rounded-full transition-colors">
+              <Link href="/tick-control" className="press-scale inline-block bg-amber-600 hover:bg-amber-500 text-white font-bold px-6 py-3 rounded-full transition-colors">
                 Learn About Tick Control
               </Link>
-            </article>
+            </Reveal>
           </div>
         </div>
       </section>
@@ -216,14 +251,14 @@ export default function HomePage() {
                 n: '3', title: 'Enjoy the Outdoors',
                 desc: 'You\'re back outside in 30 minutes. Protection lasts up to 30 days per treatment for both mosquitoes and ticks. We send a full service log after every visit.',
               },
-            ].map(({ n, title, desc }) => (
-              <li key={n} className="text-center flex flex-col items-center">
-                <div className="w-16 h-16 rounded-full bg-brand-700 flex items-center justify-center text-3xl font-extrabold text-white mb-5 shadow-lg" aria-hidden="true">
+            ].map(({ n, title, desc }, i) => (
+              <Reveal as="li" key={n} className={`rd-${i + 1} text-center flex flex-col items-center`}>
+                <div className="w-16 h-16 rounded-full bg-brand-700 ring-4 ring-brand-700/30 flex items-center justify-center text-3xl font-extrabold text-white mb-5 shadow-lg" aria-hidden="true">
                   {n}
                 </div>
                 <h3 className="text-xl font-bold mb-3">{title}</h3>
                 <p className="text-brand-300 text-sm leading-relaxed">{desc}</p>
-              </li>
+              </Reveal>
             ))}
           </ol>
         </div>
@@ -239,28 +274,30 @@ export default function HomePage() {
             Serving residential homeowners across the Greater Toronto Area.{' '}
             <Link href="/service-areas" className="text-brand-700 underline hover:text-brand-500">View all service areas →</Link>
           </p>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-            {CITIES.map((city) => (
-              <div key={city.name} className="bg-gray-50 rounded-2xl p-5 border border-gray-100">
-                <h3 className="font-extrabold text-brand-900 text-lg mb-1">{city.name}</h3>
-                <p className="text-gray-500 text-sm mb-4 leading-relaxed">{city.mosquitoBlurb}</p>
-                <div className="flex gap-3">
-                  <Link
-                    href={city.mosquitoSlug}
-                    className="text-xs font-bold bg-brand-700 text-white px-3 py-1.5 rounded-full hover:bg-brand-600 transition-colors"
-                  >
-                    Mosquito Control
-                  </Link>
-                  <Link
-                    href={city.tickSlug}
-                    className="text-xs font-bold bg-amber-600 text-white px-3 py-1.5 rounded-full hover:bg-amber-500 transition-colors"
-                  >
-                    Tick Control
-                  </Link>
+          <Reveal>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+              {CITIES.map((city) => (
+                <div key={city.name} className="hover-lift bg-gray-50 rounded-2xl p-5 border border-gray-100">
+                  <h3 className="font-extrabold text-brand-900 text-lg mb-1">{city.name}</h3>
+                  <p className="text-gray-500 text-sm mb-4 leading-relaxed">{city.mosquitoBlurb}</p>
+                  <div className="flex gap-3">
+                    <Link
+                      href={city.mosquitoSlug}
+                      className="press-scale text-xs font-bold bg-brand-700 text-white px-3 py-1.5 rounded-full hover:bg-brand-600 transition-colors"
+                    >
+                      Mosquito Control
+                    </Link>
+                    <Link
+                      href={city.tickSlug}
+                      className="press-scale text-xs font-bold bg-amber-600 text-white px-3 py-1.5 rounded-full hover:bg-amber-500 transition-colors"
+                    >
+                      Tick Control
+                    </Link>
+                  </div>
                 </div>
-              </div>
-            ))}
-          </div>
+              ))}
+            </div>
+          </Reveal>
         </div>
       </section>
 
@@ -295,12 +332,12 @@ export default function HomePage() {
                 { icon: '📝', title: 'No Contracts, Ever',           desc: 'Book individual treatments or a full-season package. Cancel anytime, no penalties.' },
                 { icon: '🌧️', title: 'Rain-Resistant Formula',       desc: 'Treatment bonds to surfaces as it dries. Rain within 1 hour? We\'ll reapply free.' },
                 { icon: '🎁', title: 'Referral Rewards',             desc: 'Refer a friend and you both receive 20% off your first season package.' },
-              ].map(({ icon, title, desc }) => (
-                <div key={title} className="bg-white rounded-2xl p-5 shadow-sm border border-brand-100">
+              ].map(({ icon, title, desc }, i) => (
+                <Reveal key={title} className={`rd-${(i % 3) + 1} hover-lift bg-white rounded-2xl p-5 shadow-sm border border-brand-100`}>
                   <div className="text-2xl mb-2" aria-hidden="true">{icon}</div>
                   <h3 className="font-bold text-brand-900 mb-1 text-sm">{title}</h3>
                   <p className="text-gray-600 text-xs leading-relaxed">{desc}</p>
-                </div>
+                </Reveal>
               ))}
             </div>
           </div>
