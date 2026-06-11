@@ -212,6 +212,10 @@ export default function CommercialMosquitoPage() {
               <p className="font-extrabold text-brand-900 mb-1">→ Estate &amp; Acreage Properties</p>
               <p className="text-sm text-gray-700">1-10 acre residential, commercial-grade equipment, multi-zone application.</p>
             </Link>
+            <Link href="/pool-backyard-mosquito-control" className="block rounded-xl border border-brand-100 bg-brand-50 p-5 hover:border-amber-400 transition">
+              <p className="font-extrabold text-brand-900 mb-1">→ Pool &amp; Backyard Properties</p>
+              <p className="text-sm text-gray-700">Pool-safe barrier spray, water-feature larvicide treatment, entertaining-area protection.</p>
+            </Link>
           </div>
         </div>
       </section>

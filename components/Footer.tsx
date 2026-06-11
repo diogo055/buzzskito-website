@@ -119,6 +119,14 @@ export default function Footer() {
               <li><Link href="/privacy-policy" className="hover:text-white transition-colors">Privacy Policy</Link></li>
               <li><Link href="/terms" className="hover:text-white transition-colors">Terms &amp; Conditions</Link></li>
             </ul>
+            <h3 className="text-white font-bold text-sm uppercase tracking-wider mb-4">Free Tools</h3>
+            <ul className="space-y-2 text-sm mb-6">
+              <li><Link href="/yard-risk-report" className="hover:text-white transition-colors">Yard Risk Report</Link></li>
+              <li><Link href="/am-i-a-mosquito-magnet" className="hover:text-white transition-colors">Mosquito Magnet Quiz</Link></li>
+              <li><Link href="/gta-mosquito-pressure-map" className="hover:text-white transition-colors">GTA Mosquito Pressure Map</Link></li>
+              <li><Link href="/lyme-disease-risk-calculator" className="hover:text-white transition-colors">Lyme Disease Risk Calculator</Link></li>
+              <li><Link href="/ontario-lyme-disease-tracker-2026" className="hover:text-white transition-colors">Ontario Lyme Tracker 2026</Link></li>
+            </ul>
             <h3 className="text-white font-bold text-sm uppercase tracking-wider mb-4">Latest Posts</h3>
             <ul className="space-y-2 text-sm">
               <li><Link href={`/blog/${MOSQUITO_BLOGS.pillar.slug}`} className="hover:text-white transition-colors line-clamp-2">Ultimate Mosquito Control Guide</Link></li>
