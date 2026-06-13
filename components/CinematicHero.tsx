@@ -1,9 +1,9 @@
 'use client'
 
-import Image from 'next/image'
 import Link from 'next/link'
 import { useEffect, useRef } from 'react'
 import { BUSINESS } from '@/lib/constants'
+import HeroScene from '@/components/HeroScene'
 
 /**
  * Cinematic scroll-story hero.
@@ -67,66 +67,18 @@ export default function CinematicHero() {
     }
   }, [])
 
-  // Mosquito particles — positioned, fade/shove handled in CSS via --repel.
-  const mosquitoes = [
-    { top: '34%', left: '20%' }, { top: '52%', left: '14%' },
-    { top: '46%', left: '28%' }, { top: '63%', left: '22%' },
-    { top: '40%', left: '34%' },
-  ]
-
   return (
     <section ref={trackRef} className="cine-track" aria-label="Mosquito and tick control, guaranteed for the GTA">
       <div ref={stageRef} className="cine-stage">
 
-        {/* Aurora sky */}
-        <div className="cine-layer cine-sky" aria-hidden="true" />
-        <div className="cine-layer" aria-hidden="true">
-          <div className="cine-orb" style={{ width: 320, height: 320, right: -60, top: -70, background: 'rgba(37,99,180,0.5)' }} />
-          <div className="cine-orb" style={{ width: 220, height: 220, left: -50, bottom: -60, background: 'rgba(245,158,11,0.26)' }} />
+        {/* Illustrated backyard scene — fully vector. The barrier + mosquito
+            groups inside read --barrier / --repel; the technician + mist loop
+            ambiently. Parallaxes up gently on scroll. */}
+        <div className="cine-layer cine-scene" aria-hidden="true">
+          <HeroScene />
         </div>
-
-        {/* Real backyard photo (LCP image) — dimmed, parallax */}
-        <div className="cine-layer cine-yard" aria-hidden="true">
-          <Image
-            src="/spray-backyard.webp"
-            alt=""
-            fill
-            priority
-            sizes="100vw"
-            style={{ objectFit: 'cover' }}
-          />
-        </div>
-        <div className="cine-layer cine-yard-tint" aria-hidden="true" />
-
-        {/* Barrier dome (beat 3) */}
-        <div className="cine-layer cine-barrier" aria-hidden="true">
-          <svg viewBox="0 0 600 600" fill="none">
-            <ellipse className="ring" cx="300" cy="320" rx="250" ry="250" strokeWidth="2" opacity="0.85" />
-            <ellipse className="glow" cx="300" cy="320" rx="250" ry="250" strokeWidth="6" opacity="0.25" />
-            <ellipse className="ring" cx="300" cy="320" rx="200" ry="205" strokeWidth="1.5" opacity="0.5" />
-            <ellipse className="ring" cx="300" cy="320" rx="150" ry="158" strokeWidth="1" opacity="0.3" />
-          </svg>
-        </div>
-
-        {/* Mosquitoes */}
-        <div className="cine-layer cine-mosq-wrap" aria-hidden="true">
-          {mosquitoes.map((m, i) => (
-            <span key={i} className="cine-mosq" style={{ top: m.top, left: m.left }}>
-              <i className="l" /><i className="r" /><b />
-            </span>
-          ))}
-        </div>
-
-        {/* Cut-out technician — parallax-enters from right */}
-        <div className="cine-layer cine-tech" aria-hidden="true">
-          <Image
-            src="/technician-walk.png"
-            alt=""
-            width={184}
-            height={228}
-            sizes="(max-width: 640px) 64vw, 40vw"
-          />
-        </div>
+        {/* Legibility scrim under the copy (left third) */}
+        <div className="cine-layer cine-scrim" aria-hidden="true" />
 
         {/* Copy — always visible (LCP text + the pitch) */}
         <div className="relative w-full max-w-7xl mx-auto px-4 sm:px-6">
