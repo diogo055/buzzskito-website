@@ -214,3 +214,108 @@
 /* Touch feedback everywhere (cheap, no media gate needed) */
 .press-scale { transition: transform 0.15s ease; }
 .press-scale:active { transform: scale(0.97); }
+
+/* ════════════════════════════════════════════════════════════════════════
+   CINEMATIC HERO — scroll-story
+   ────────────────────────────────────────────────────────────────────────
+   A position:sticky pinned stage (native, no scroll-hijack, iOS-momentum
+   safe, zero CLS). A single passive rAF scroll handler writes five 0..1
+   custom properties to the stage — --hp (overall), --enter, --barrier,
+   --repel, --resolve — and every layer derives its transform/opacity from
+   those via calc(). Compositor-only props throughout; no layout reads in the
+   render path beyond one getBoundingClientRect/frame.
+
+   The headline, CTA, and trust line render server-side and are visible at
+   --hp:0 with NO scroll required — that frame is the LCP + the full pitch.
+   Beats 2-5 are progressive enhancement on scroll. Crawlers/AI read the full
+   text in raw HTML regardless of JS.
+
+   prefers-reduced-motion: the driver writes a fixed "resolved" composition
+   and all keyframes below stay gated — the hero becomes a calm static scene.
+   ════════════════════════════════════════════════════════════════════════ */
+.cine { position: relative; }
+.cine-track { position: relative; height: 230vh; }
+@media (max-width: 640px) { .cine-track { height: 180vh; } }
+.cine-stage {
+  position: sticky; top: 0; height: 100vh; min-height: 600px; max-height: 980px;
+  overflow: hidden; display: flex; align-items: center;
+  background: linear-gradient(120deg, #0f2236 0%, #15355c 46%, #0f2a3f 100%);
+  --hp: 0; --enter: 0; --barrier: 0; --repel: 0; --resolve: 0;
+}
+.cine-layer { position: absolute; inset: 0; pointer-events: none; will-change: transform, opacity; }
+
+/* Aurora sky — slow pan (gated) + parallax drift up on scroll */
+.cine-sky {
+  background: linear-gradient(125deg, #172554, #1e3a8a 40%, #155e75 70%, #172554);
+  background-size: 300% 300%;
+  transform: translateY(calc(var(--hp) * -4%));
+  opacity: 0.42;
+}
+.cine-orb { position: absolute; border-radius: 50%; filter: blur(40px); }
+
+/* Real backyard photo — dimmed, parallax + slight dim as the barrier forms */
+.cine-yard {
+  background-position: center 60%; background-size: cover;
+  transform: translateY(calc(var(--hp) * -7%)) scale(1.12);
+  opacity: calc(0.5 - var(--barrier) * 0.14);
+  filter: saturate(0.85) brightness(0.7);
+}
+.cine-yard-tint {
+  background: radial-gradient(115% 90% at 72% 30%, rgba(30,58,138,0.35) 0%, rgba(15,34,54,0.0) 55%),
+              linear-gradient(180deg, rgba(15,34,54,0.1) 0%, rgba(15,34,54,0.78) 92%);
+}
+
+/* Cut-out technician — parallax-enters from the right, settles centre-right */
+.cine-tech {
+  display: flex; align-items: flex-end; justify-content: flex-end;
+  transform: translateX(calc((1 - var(--enter)) * 30%)) translateY(calc(var(--hp) * -3%));
+}
+.cine-tech img {
+  height: 78%; width: auto; max-width: 52%; object-fit: contain;
+  filter: drop-shadow(0 24px 40px rgba(0,0,0,0.5));
+  opacity: calc(0.35 + var(--enter) * 0.65);
+}
+@media (max-width: 640px) {
+  .cine-tech img { height: 52%; max-width: 64%; opacity: calc(0.3 + var(--enter) * 0.55); }
+}
+
+/* THE BARRIER (beat 3) — SVG dome that brightens + breathes with --barrier */
+.cine-barrier {
+  display: flex; align-items: center; justify-content: center;
+  opacity: calc(var(--barrier) * 0.95);
+  transform: translateX(8%) scale(calc(0.88 + var(--barrier) * 0.14));
+}
+.cine-barrier svg { width: min(74vmin, 640px); height: auto; }
+.cine-barrier .ring { stroke: #6ee7d2; }
+.cine-barrier .glow { stroke: #f5b942; }
+
+/* Mosquitoes — drift in, then get shoved left + fade as the barrier wins */
+.cine-mosq-wrap { opacity: calc(0.85 - var(--repel) * 0.85); }
+.cine-mosq {
+  position: absolute; width: 10px; height: 10px;
+  transform: translateX(calc(var(--repel) * -120px));
+}
+.cine-mosq b { position: absolute; left: 2px; top: 1px; width: 6px; height: 6px; background: #0b1320; border-radius: 50%; }
+.cine-mosq i { position: absolute; top: 0; width: 6px; height: 3px; background: rgba(200,220,240,0.5); border-radius: 50%; }
+.cine-mosq i.l { left: -3px; } .cine-mosq i.r { left: 5px; }
+
+/* Copy — ALWAYS visible (LCP + pitch). Sits above all layers. */
+.cine-copy { position: relative; z-index: 5; }
+
+/* "Bite-free, guaranteed" resolve badge (beat 5) */
+.cine-resolve { opacity: var(--resolve); transform: translateY(calc((1 - var(--resolve)) * 10px)); }
+
+/* Scroll cue — fades as the story begins */
+.cine-cue { opacity: calc(1 - var(--hp) * 3); }
+
+@media (prefers-reduced-motion: no-preference) {
+  .cine-sky { animation: aurora-pan 14s ease-in-out infinite alternate; }
+  .cine-mosq i { animation: bk-wing 0.16s linear infinite alternate; }
+  @keyframes bk-wing { from { transform: scaleY(0.5); } to { transform: scaleY(1); } }
+  .cine-cue i { animation: floaty 1.8s ease-in-out infinite; }
+}
+/* Barrier idle shimmer only when motion is welcome */
+@media (prefers-reduced-motion: no-preference) {
+  .cine-barrier .ring { animation: cine-pulse 4.5s ease-in-out infinite; }
+  @keyframes cine-pulse { 0%,100% { opacity: 0.65; } 50% { opacity: 1; } }
+}
