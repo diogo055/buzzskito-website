@@ -11,7 +11,13 @@
     "schemaParseErrors": [],
     "noindexed": [],
     "thin": [],
-    "imgsMissingAlt": [],
+    "imgsMissingAlt": [
+      {
+        "path": "/",
+        "missing": 2,
+        "total": 5
+      }
+    ],
     "orphans": [],
     "dupTitles": {}
   },
@@ -33,10 +39,10 @@
         "WebPage"
       ],
       "schemaErrors": [],
-      "wordCount": 1907,
+      "wordCount": 1901,
       "internalLinksOut": 69,
       "imgCount": 5,
-      "imgsMissingAlt": 0
+      "imgsMissingAlt": 2
     },
     {
       "path": "/mosquito-control",

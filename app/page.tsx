@@ -6,6 +6,7 @@ import ReviewQuotes from '@/components/ReviewQuotes'
 import BlogCard from '@/components/BlogCard'
 import Reveal from '@/components/Reveal'
 import StatCounter from '@/components/StatCounter'
+import PhotoHero from '@/components/PhotoHero'
 import { buildMetadata, localBusinessSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { BUSINESS, CITIES, MOSQUITO_BLOGS, TICK_BLOGS } from '@/lib/constants'
 
@@ -53,98 +54,26 @@ export default function HomePage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(HOME_FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema('/')) }} />
 
-      {/* ── Hero ────────────────────────────────────────────────────────── */}
-      <section aria-label="Hero" className="relative aurora-bg bg-gradient-to-br from-brand-950 via-brand-900 to-brand-800 text-white overflow-hidden">
-        <div className="absolute inset-0 pointer-events-none" aria-hidden="true">
-          <div className="floaty absolute -top-20 -right-20 w-96 h-96 bg-brand-700 rounded-full opacity-20 blur-3xl" />
-          <div className="floaty-2 absolute bottom-0 left-0 w-64 h-64 bg-amber-500 rounded-full opacity-10 blur-3xl" />
-        </div>
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 py-20 sm:py-28 lg:py-32">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <Reveal>
-                <p className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/15 rounded-full px-4 py-1.5 text-amber-300 font-bold text-xs uppercase tracking-widest mb-5">
-                  <span className="relative inline-flex w-2 h-2 rounded-full bg-emerald-400 pulse-dot" aria-hidden="true" />
-                  Same-week openings across the GTA
-                </p>
-              </Reveal>
-              <Reveal className="rd-1">
-                <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight mb-6">
-                  Mosquito &amp; Tick Control<br />
-                  <span className="text-amber-400">Guaranteed for the GTA</span>
-                </h1>
-              </Reveal>
-              <Reveal className="rd-2">
-                <p className="text-xl text-brand-100 mb-8 max-w-2xl leading-relaxed">
-                  Professional barrier spray treatments for residential lawns. Health Canada–approved. Safe for kids &amp; pets in 30 minutes. Up to 30-day protection per visit.
-                </p>
-              </Reveal>
-              <Reveal className="rd-3">
-                <div className="flex flex-col sm:flex-row gap-4 mb-8">
-                  <Link
-                    href="/free-yard-assessment"
-                    className="btn-sheen press-scale inline-block bg-amber-500 hover:bg-amber-400 text-white font-extrabold px-8 py-4 rounded-full text-lg shadow-xl transition-colors text-center"
-                  >
-                    Get a Free Quote
-                  </Link>
-                  <a
-                    href={BUSINESS.phoneHref}
-                    className="press-scale inline-flex items-center justify-center gap-2 border-2 border-white text-white hover:bg-white hover:text-brand-900 font-bold px-8 py-4 rounded-full text-lg transition-colors"
-                    aria-label={`Call BuzzSkito: ${BUSINESS.phone}`}
-                  >
-                    <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                      <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
-                    </svg>
-                    {BUSINESS.phone}
-                  </a>
-                </div>
-              </Reveal>
-              <Reveal className="rd-4">
-                <p className="text-sm text-brand-300 flex flex-wrap gap-x-4 gap-y-1">
-                  <span>✓ Free quotes</span>
-                  <span>✓ No contracts</span>
-                  <span>✓ BuzzSkito Bite-Free Guarantee</span>
-                  <span>✓ 150+ five-star reviews</span>
-                </p>
-              </Reveal>
-            </div>
-            <Reveal className="rd-2 hidden lg:block relative" as="div">
-              <div className="relative rounded-2xl overflow-hidden shadow-2xl ring-4 ring-white/10">
-                <Image
-                  src="/hero-spray.webp"
-                  alt="BuzzSkito technician applying Health Canada-approved mosquito barrier spray to backyard shrubs in the Greater Toronto Area"
-                  width={600}
-                  height={500}
-                  className="w-full h-auto object-cover"
-                  priority
-                />
-                <div className="absolute bottom-4 left-4 right-4 bg-brand-950/80 backdrop-blur-sm rounded-xl px-4 py-3 flex items-center gap-3">
-                  <Image src="/logo.webp" alt="BuzzSkito" width={36} height={36} className="rounded-full shrink-0" />
-                  <div>
-                    <p className="text-white font-bold text-sm">BuzzSkito GTA</p>
-                    <p className="text-amber-400 text-xs">⭐⭐⭐⭐⭐ 5.0 · 150+ Google reviews</p>
-                  </div>
-                </div>
-              </div>
-            </Reveal>
-          </div>
-        </div>
+      {/* ── Cinematic photographic hero ─────────────────────────────────────
+          Full-bleed real backyard photo (PhotoHero.tsx). The <h1>, CTA, and
+          trust line render server-side — that frame is the LCP and the full
+          pitch. SEO content below is untouched. */}
+      <PhotoHero />
 
-        {/* City ticker — decorative; cities are listed semantically in the
-            Service Areas section below, so this strip is aria-hidden. */}
-        <div className="relative border-t border-white/10 bg-brand-950/40 backdrop-blur-sm overflow-hidden py-3" aria-hidden="true">
-          <div className="ticker-track text-brand-200 text-sm font-semibold tracking-wide">
-            {[0, 1].map((dup) => (
-              <span key={dup} className="flex shrink-0 items-center">
-                {CITIES.map((city) => (
-                  <span key={`${dup}-${city.name}`} className="flex items-center">
-                    <span className="px-5">{city.name}</span>
-                    <span className="text-amber-400/70">✦</span>
-                  </span>
-                ))}
-              </span>
-            ))}
-          </div>
+      {/* City ticker — decorative; cities are listed semantically in the
+          Service Areas section below, so this strip is aria-hidden. */}
+      <section className="relative bg-brand-950 border-y border-white/10 overflow-hidden py-3" aria-hidden="true">
+        <div className="ticker-track text-brand-200 text-sm font-semibold tracking-wide">
+          {[0, 1].map((dup) => (
+            <span key={dup} className="flex shrink-0 items-center">
+              {CITIES.map((city) => (
+                <span key={`${dup}-${city.name}`} className="flex items-center">
+                  <span className="px-5">{city.name}</span>
+                  <span className="text-amber-400/70">✦</span>
+                </span>
+              ))}
+            </span>
+          ))}
         </div>
       </section>
 
