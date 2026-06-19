@@ -20,6 +20,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE_URL}/am-i-a-mosquito-magnet`,        lastModified: LAST_CONTENT_UPDATE, changeFrequency: 'weekly',  priority: 0.9 },
     { url: `${SITE_URL}/lyme-disease-risk-calculator`,  lastModified: LAST_CONTENT_UPDATE, changeFrequency: 'weekly',  priority: 0.9 },
     { url: `${SITE_URL}/ontario-lyme-disease-tracker-2026`, lastModified: LAST_CONTENT_UPDATE, changeFrequency: 'weekly', priority: 0.95 },
+    // ── Statistics / data hubs (linkable assets — Jun 2026) ───────────────────
+    { url: `${SITE_URL}/ticks-in-ontario-statistics`,       lastModified: LAST_CONTENT_UPDATE, changeFrequency: 'weekly', priority: 0.9 },
+    { url: `${SITE_URL}/west-nile-virus-ontario-tracker`,   lastModified: LAST_CONTENT_UPDATE, changeFrequency: 'weekly', priority: 0.9 },
+    { url: `${SITE_URL}/deadliest-animal-in-canada`,        lastModified: LAST_CONTENT_UPDATE, changeFrequency: 'monthly', priority: 0.85 },
+    { url: `${SITE_URL}/pest-control-cost-canada`,          lastModified: LAST_CONTENT_UPDATE, changeFrequency: 'monthly', priority: 0.85 },
+    { url: `${SITE_URL}/lyme-disease-canada-statistics`,    lastModified: LAST_CONTENT_UPDATE, changeFrequency: 'weekly', priority: 0.9 },
     { url: `${SITE_URL}/estate-property-mosquito-control`,         lastModified: LAST_CONTENT_UPDATE, changeFrequency: 'monthly', priority: 0.9 },
     { url: `${SITE_URL}/pool-backyard-mosquito-control`,           lastModified: LAST_CONTENT_UPDATE, changeFrequency: 'monthly', priority: 0.9 },
     { url: `${SITE_URL}/hoa-condo-community-mosquito-control`,     lastModified: LAST_CONTENT_UPDATE, changeFrequency: 'monthly', priority: 0.9 },

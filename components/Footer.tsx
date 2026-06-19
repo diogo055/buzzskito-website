@@ -127,6 +127,14 @@ export default function Footer() {
               <li><Link href="/lyme-disease-risk-calculator" className="hover:text-white transition-colors">Lyme Disease Risk Calculator</Link></li>
               <li><Link href="/ontario-lyme-disease-tracker-2026" className="hover:text-white transition-colors">Ontario Lyme Tracker 2026</Link></li>
             </ul>
+            <h3 className="text-white font-bold text-sm uppercase tracking-wider mb-4">Data &amp; Research</h3>
+            <ul className="space-y-2 text-sm mb-6">
+              <li><Link href="/ticks-in-ontario-statistics" className="hover:text-white transition-colors">Ticks in Ontario — Statistics</Link></li>
+              <li><Link href="/lyme-disease-canada-statistics" className="hover:text-white transition-colors">Lyme Disease in Canada — Statistics</Link></li>
+              <li><Link href="/west-nile-virus-ontario-tracker" className="hover:text-white transition-colors">West Nile Virus Ontario Tracker</Link></li>
+              <li><Link href="/pest-control-cost-canada" className="hover:text-white transition-colors">Pest Control Cost in Canada</Link></li>
+              <li><Link href="/deadliest-animal-in-canada" className="hover:text-white transition-colors">Deadliest Animal in Canada</Link></li>
+            </ul>
             <h3 className="text-white font-bold text-sm uppercase tracking-wider mb-4">Latest Posts</h3>
             <ul className="space-y-2 text-sm">
               <li><Link href={`/blog/${MOSQUITO_BLOGS.pillar.slug}`} className="hover:text-white transition-colors line-clamp-2">Ultimate Mosquito Control Guide</Link></li>
