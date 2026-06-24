@@ -169,9 +169,8 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'What Is the Deadliest Animal in Canada? (2026 Data) — Global & Canadian Rankings',
-  description:
-    'Free 2026 data resource ranking the world’s deadliest animals and what actually harms people in Canada. Mosquitoes kill ~725,000–1,000,000 people a year globally (Gates Foundation / Our World in Data), but in Canada moose, deer and bee stings cause more direct deaths than mosquitoes. Sourced from WHO, PHAC, TIRF and Our World in Data.',
+  title: `What Is the Deadliest Animal in Canada? (2026 Data)`,
+  description: `The deadliest animal in the world and in Canada, 2026 data — mosquitoes kill an estimated 725,000–1,000,000 people a year, plus the full ranked list.`,
   canonical: SLUG,
 })
 

@@ -38,7 +38,7 @@ const ALL_AREA_SERVED = [
   'Mississauga','Toronto','Brampton','Oakville','Burlington','Hamilton',
   'Vaughan','Richmond Hill','Markham','Etobicoke','Scarborough','North York',
   'Caledon','Milton','Georgetown','Halton Hills','King City','Woodbridge','Thornhill',
-].map((city) => ({ '@type': 'City', name: city, addressRegion: 'ON', addressCountry: 'CA' }))
+].map((city) => ({ '@type': 'City', name: city, address: { '@type': 'PostalAddress', addressRegion: 'ON', addressCountry: 'CA' } }))
 
 // ── Schema builders ───────────────────────────────────────────────────────────
 
@@ -72,7 +72,7 @@ export function localBusinessSchema(overrides: {
     currenciesAccepted: 'CAD',
     paymentAccepted: 'Cash, Credit Card, E-Transfer',
     areaServed: overrides.areaServed
-      ? { '@type': 'City', name: overrides.areaServed, addressRegion: 'ON', addressCountry: 'CA' }
+      ? { '@type': 'City', name: overrides.areaServed, address: { '@type': 'PostalAddress', addressRegion: 'ON', addressCountry: 'CA' } }
       : ALL_AREA_SERVED,
     address: {
       '@type': 'PostalAddress',
@@ -127,8 +127,8 @@ export function serviceSchema(opts: { name: string; description: string; slug: s
     url: `${SITE_URL}${opts.slug}`,
     provider: { '@type': 'PestControlService', name: BUSINESS.legalName, url: SITE_URL },
     areaServed: opts.city
-      ? { '@type': 'City', name: opts.city, addressRegion: 'ON', addressCountry: 'CA' }
-      : { '@type': 'AdministrativeArea', name: 'Greater Toronto Area', addressRegion: 'ON' },
+      ? { '@type': 'City', name: opts.city, address: { '@type': 'PostalAddress', addressRegion: 'ON', addressCountry: 'CA' } }
+      : { '@type': 'AdministrativeArea', name: 'Greater Toronto Area', address: { '@type': 'PostalAddress', addressRegion: 'ON', addressCountry: 'CA' } },
     serviceType: 'Pest Control',
     offers: {
       '@type': 'Offer',

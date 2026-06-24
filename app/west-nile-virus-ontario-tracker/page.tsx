@@ -212,8 +212,8 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'West Nile Virus in Ontario & the GTA: 2026 Case Tracker',
-  description: 'Free data resource tracking West Nile virus in Ontario and the GTA for 2026. Confirmed human case counts (Ontario 81 in 2024), Toronto & Peel mosquito surveillance, the Culex vector, severity & fatality rates, and season timing — sourced to PHAC, Public Health Ontario, the CDC, and PLOS One.',
+  title: `West Nile Virus in Ontario & the GTA: 2026 Tracker`,
+  description: `Free 2026 tracker for West Nile virus in Ontario and the GTA — confirmed human case counts by year, Toronto and Peel mosquito surveillance, and risk.`,
   canonical: SLUG,
 })
 

@@ -159,9 +159,8 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Lyme Disease in Canada: Cases by Province (2026 Statistics)',
-  description:
-    'Free data resource: Lyme disease cases in Canada by province for 2026, sourced from the Public Health Agency of Canada. National case counts, year-by-year trend (2009–2024), provincial breakdown, incidence rates, climate-driven tick range expansion, and a Canada-vs-US comparison. Cite freely with a link back.',
+  title: `Lyme Disease in Canada: Cases by Province (2026)`,
+  description: `Lyme disease in Canada by province (2026), from the Public Health Agency of Canada — national case counts, the year-by-year trend, and risk areas.`,
   canonical: SLUG,
 })
 
