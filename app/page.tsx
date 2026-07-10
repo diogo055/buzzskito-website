@@ -297,15 +297,15 @@ export default function HomePage() {
             <div className="lg:col-span-2">
               <div className="rounded-2xl overflow-hidden shadow-xl">
                 <Image
-                  src="/spray-pool.webp"
-                  alt="BuzzSkito technician applying mosquito and tick treatment around a backyard pool in the GTA"
+                  src="/van-frontyard-spray.webp"
+                  alt="BuzzSkito technician treating a GTA front garden with a backpack mist blower, branded BuzzSkito service van parked in the driveway"
                   width={600}
                   height={400}
                   sizes="(max-width: 1024px) 100vw, 40vw"
                   className="w-full h-auto object-cover"
                 />
               </div>
-              <p className="text-xs text-gray-400 text-center mt-2">On-site in a GTA backyard — every corner treated</p>
+              <p className="text-xs text-gray-400 text-center mt-2">Our own van, our own licensed crew — on-site across the GTA</p>
             </div>
             <div className="lg:col-span-3 grid grid-cols-1 sm:grid-cols-2 gap-4">
               {[
