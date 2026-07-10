@@ -186,6 +186,9 @@ export default function LymeDiseaseCanadaStatisticsPage() {
         name: 'Lyme Disease in Canada: Reported Cases by Province (2026)',
         description: 'Aggregated reported Lyme disease case counts for Canada by year (2009–2024) and by province/territory (2024), national incidence rates, climate-driven tick range-expansion estimates, and a Canada-versus-United-States comparison. Compiled from Public Health Agency of Canada surveillance and U.S. CDC data.',
         url: `https://buzzskito.ca${SLUG}`,
+        datePublished: '2026-06-19',
+        dateModified: '2026-07-01',
+        distribution: { '@type': 'DataDownload', encodingFormat: 'text/html', contentUrl: `https://buzzskito.ca${SLUG}` },
         license: 'https://creativecommons.org/licenses/by/4.0/',
         creator: {
           '@type': 'Organization',
@@ -512,7 +515,7 @@ export default function LymeDiseaseCanadaStatisticsPage() {
                 </li>
               ))}
             </ul>
-            <p className="text-xs text-gray-500 mt-4 italic">Data compiled June 2026. All case counts are reported cases from the Public Health Agency of Canada unless otherwise attributed. U.S. comparison figures are from the U.S. CDC. Range-expansion estimates are from peer-reviewed climate-vector modelling. Figures are subject to revision as PHAC updates preliminary counts.</p>
+            <p className="text-xs text-gray-500 mt-4 italic">Data compiled July 2026. All case counts are reported cases from the Public Health Agency of Canada unless otherwise attributed. U.S. comparison figures are from the U.S. CDC. Range-expansion estimates are from peer-reviewed climate-vector modelling. Figures are subject to revision as PHAC updates preliminary counts.</p>
           </div>
         </div>
       </section>

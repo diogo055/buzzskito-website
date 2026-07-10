@@ -2,6 +2,8 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import BuyLink from '@/components/BuyLink'
+import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 
 const SLUG = 'bug-zappers-canada-do-they-work'
 const DATE = '2026-05-01'
@@ -168,6 +170,11 @@ export default function BugZappersCanadaPage() {
 
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
+          <AffiliateDisclosure />
+          <p className="not-prose text-sm text-gray-600 mb-1">Short version: electric zappers don&rsquo;t reduce mosquito bites. If you want a plug-in device that actually targets mosquitoes, a CO₂/UV trap like DynaTrap is the honest pick:</p>
+          <div className="not-prose mb-6 flex flex-wrap gap-3">
+            <BuyLink search="dynatrap mosquito trap">See a real mosquito trap on Amazon.ca →</BuyLink>
+          </div>
           <h2>Why Bug Zappers Don&rsquo;t Work for Mosquitoes</h2>
           <p>The biology is simple. UV light attracts insects with strong phototactic responses — moths, beetles, mayflies, and other species that use moonlight and starlight for navigation. Female mosquitoes (the only ones that bite) are not strongly UV-responsive — they hunt for blood meals using CO₂ exhalation, body heat, lactic acid in sweat, and other skin compounds.</p>
           <p>This means a bug zapper sitting in your backyard at night attracts hundreds or thousands of moths and beetles — but the female mosquito buzzing at your ear is heading TO YOU specifically because she&rsquo;s detecting your CO₂ plume. She&rsquo;ll fly past the bug zapper without noticing it.</p>

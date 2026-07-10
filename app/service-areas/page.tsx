@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
+import CityHero from '@/components/CityHero'
+import { Icon } from '@/components/Icon'
 import { buildMetadata, breadcrumbSchema, speakableSchema } from '@/lib/seo'
 import { CITIES } from '@/lib/constants'
 
@@ -18,27 +20,25 @@ export default function ServiceAreasPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Service Areas', url: '/service-areas' }])) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema('/service-areas')) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema('/service-areas', '2026-07-01')) }} />
 
       {/* Hero */}
-      <section className="bg-gradient-to-br from-brand-950 to-brand-800 text-white py-14 px-4">
-        <div className="max-w-4xl mx-auto">
-          <nav aria-label="Breadcrumb" className="text-brand-400 text-sm mb-4 flex items-center gap-1">
-            <Link href="/" className="hover:text-white">Home</Link>
-            <span aria-hidden="true">/</span>
-            <span className="text-white">Service Areas</span>
-          </nav>
-          <h1 className="text-4xl sm:text-5xl font-extrabold mb-4">Mosquito &amp; Tick Control Across the GTA</h1>
-          <p className="text-xl text-brand-100 max-w-2xl">
-            BuzzSkito provides professional mosquito and tick barrier spray for residential homeowners across 19 cities within 50km of Mississauga. If you're in the GTA, we service your neighbourhood.
-          </p>
-        </div>
-      </section>
+      <CityHero
+        breadcrumbs={[
+          { label: 'Home', href: '/' },
+          { label: 'Service Areas' },
+        ]}
+        title={<>Mosquito &amp; Tick Control Across the GTA</>}
+        subtitle={<>BuzzSkito provides professional mosquito and tick barrier spray for residential homeowners across 19 cities within 50km of Mississauga. If you're in the GTA, we service your neighbourhood.</>}
+        image="/spray-pool.webp"
+        imageAlt="BuzzSkito technician applying barrier spray beside a backyard pool"
+      />
 
       {/* Primary cities */}
       <section aria-labelledby="primary-cities" className="py-16 px-4 bg-white">
         <div className="max-w-6xl mx-auto">
-          <h2 id="primary-cities" className="text-3xl font-extrabold text-brand-900 mb-3 text-center">Core Service Cities</h2>
+          <p className="kicker mb-3 text-center">Where We Work</p>
+          <h2 id="primary-cities" className="h2-display text-brand-950 mb-3 text-center">Core Service Cities</h2>
           <p className="text-center text-gray-500 mb-10 max-w-xl mx-auto">Our highest-volume service areas — we have deep local knowledge of mosquito and tick pressure in each.</p>
           <div className="space-y-10">
             {PRIMARY.map((city) => (
@@ -79,7 +79,8 @@ export default function ServiceAreasPage() {
       {/* Extended GTA cities */}
       <section aria-labelledby="extended-cities" className="py-16 px-4 bg-brand-50">
         <div className="max-w-6xl mx-auto">
-          <h2 id="extended-cities" className="text-3xl font-extrabold text-brand-900 mb-3 text-center">Extended GTA Service Cities</h2>
+          <p className="kicker mb-3 text-center">Full Coverage</p>
+          <h2 id="extended-cities" className="h2-display text-brand-950 mb-3 text-center">Extended GTA Service Cities</h2>
           <p className="text-center text-gray-500 mb-10 max-w-xl mx-auto">We cover every city within 50km of Mississauga. Click your city for local mosquito and tick control information.</p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {EXTENDED.map((city) => (
@@ -87,11 +88,11 @@ export default function ServiceAreasPage() {
                 <h3 className="font-extrabold text-brand-900 text-lg mb-3">{city.name}, Ontario</h3>
                 <div className="space-y-2 mb-4">
                   <Link href={city.mosquitoSlug} className="flex items-center gap-2 text-sm text-brand-700 hover:text-brand-500 font-semibold">
-                    <span className="w-5 h-5 bg-brand-100 rounded-full flex items-center justify-center text-xs" aria-hidden="true">🦟</span>
+                    <span className="w-5 h-5 bg-brand-100 rounded-full flex items-center justify-center" aria-hidden="true"><Icon name="mosquito" className="w-3.5 h-3.5 text-brand-700" /></span>
                     Mosquito Control in {city.name}
                   </Link>
                   <Link href={city.tickSlug} className="flex items-center gap-2 text-sm text-amber-700 hover:text-amber-500 font-semibold">
-                    <span className="w-5 h-5 bg-amber-100 rounded-full flex items-center justify-center text-xs" aria-hidden="true">🕷️</span>
+                    <span className="w-5 h-5 bg-amber-100 rounded-full flex items-center justify-center" aria-hidden="true"><Icon name="tick" className="w-3.5 h-3.5 text-amber-700" /></span>
                     Tick Control in {city.name}
                   </Link>
                 </div>

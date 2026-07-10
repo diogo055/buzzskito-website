@@ -59,7 +59,7 @@ export default function Header() {
   return (
     <header
       className={`sticky top-0 z-50 text-white transition-[background-color,box-shadow] duration-300 ${
-        scrolled ? 'bg-brand-900/95 backdrop-blur-md shadow-2xl' : 'bg-brand-900 shadow-lg'
+        scrolled ? 'bg-ink-950/95 backdrop-blur-md shadow-2xl' : 'bg-ink-950 shadow-lg'
       }`}
       role="banner"
     >
@@ -68,9 +68,12 @@ export default function Header() {
         Skip to main content
       </a>
 
-      {/* Promo bar */}
-      <div className="bg-amber-600 text-white text-center text-xs py-1.5 px-4 font-medium">
-        🎉 Refer a friend — you both get <strong>20% off</strong> your first season!
+      {/* Promo bar — quiet ink strip, amber accent (less carnival, still seen) */}
+      <div className="bg-ink-900 border-b border-white/5 text-center text-xs py-1.5 px-4 font-medium text-brand-200">
+        <svg className="inline-block w-3.5 h-3.5 -mt-0.5 mr-1.5 text-amber-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+          <path d="M12 2H2v10l9.3 9.3a2 2 0 0 0 2.8 0l7.2-7.2a2 2 0 0 0 0-2.8L12 2z" /><circle cx="7" cy="7" r="1.5" />
+        </svg>
+        Refer a friend — you both get <strong className="text-amber-400">20% off</strong> your first season!
       </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
@@ -96,7 +99,7 @@ export default function Header() {
               link.children ? (
                 <div key={link.label} className="relative group">
                   <button
-                    className="flex items-center gap-1 text-sm font-medium text-brand-100 hover:text-white transition-colors px-3 py-2 rounded-md hover:bg-brand-800"
+                    className="flex items-center gap-1 text-sm font-medium text-brand-100 hover:text-white transition-colors px-3 py-2 rounded-md hover:bg-white/10"
                     aria-haspopup="true"
                     aria-expanded={openDropdown === link.label}
                   >
@@ -125,7 +128,7 @@ export default function Header() {
                 <Link
                   key={link.href}
                   href={link.href}
-                  className="text-sm font-medium text-brand-100 hover:text-white transition-colors px-3 py-2 rounded-md hover:bg-brand-800"
+                  className="text-sm font-medium text-brand-100 hover:text-white transition-colors px-3 py-2 rounded-md hover:bg-white/10"
                 >
                   {link.label}
                 </Link>
@@ -147,13 +150,13 @@ export default function Header() {
             </a>
             <Link
               href="/free-yard-assessment"
-              className="hidden sm:inline-flex bg-amber-500 hover:bg-amber-400 text-white font-bold px-4 py-2 rounded-full text-sm transition-colors shadow-md"
+              className="hidden sm:inline-flex btn-primary-sm press-scale"
             >
               Free Quote
             </Link>
             <button
               onClick={() => setMenuOpen(!menuOpen)}
-              className="lg:hidden p-2 rounded-md text-brand-200 hover:text-white hover:bg-brand-800"
+              className="lg:hidden p-2 rounded-md text-brand-200 hover:text-white hover:bg-white/10"
               aria-label={menuOpen ? 'Close menu' : 'Open menu'}
               aria-expanded={menuOpen}
               aria-controls="mobile-menu"
@@ -169,14 +172,14 @@ export default function Header() {
 
         {/* Mobile menu */}
         {menuOpen && (
-          <nav id="mobile-menu" aria-label="Mobile navigation" className="lg:hidden pb-4 border-t border-brand-800 pt-3 space-y-1">
+          <nav id="mobile-menu" aria-label="Mobile navigation" className="lg:hidden pb-4 border-t border-white/10 pt-3 space-y-1">
             {NAV.map((link) => (
               <div key={link.label}>
                 {link.children ? (
                   <>
                     <button
                       onClick={() => setOpenDropdown(openDropdown === link.label ? null : link.label)}
-                      className="w-full text-left flex items-center justify-between px-3 py-2 text-sm font-medium text-brand-100 hover:bg-brand-800 rounded-md"
+                      className="w-full text-left flex items-center justify-between px-3 py-2 text-sm font-medium text-brand-100 hover:bg-white/10 rounded-md"
                     >
                       {link.label}
                       <svg className={`w-4 h-4 transition-transform ${openDropdown === link.label ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -184,13 +187,13 @@ export default function Header() {
                       </svg>
                     </button>
                     {openDropdown === link.label && (
-                      <div className="pl-4 mt-1 space-y-1 border-l border-brand-800 ml-4">
+                      <div className="pl-4 mt-1 space-y-1 border-l border-white/10 ml-4">
                         {link.children.map((child) =>
                           child.divider ? null : (
                             <Link
                               key={child.href}
                               href={child.href}
-                              className="block px-3 py-1.5 text-sm text-brand-200 hover:text-white hover:bg-brand-800 rounded-md"
+                              className="block px-3 py-1.5 text-sm text-brand-200 hover:text-white hover:bg-white/10 rounded-md"
                               onClick={() => setMenuOpen(false)}
                             >
                               {child.label}
@@ -203,7 +206,7 @@ export default function Header() {
                 ) : (
                   <Link
                     href={link.href}
-                    className="block px-3 py-2 text-sm font-medium text-brand-100 hover:bg-brand-800 rounded-md"
+                    className="block px-3 py-2 text-sm font-medium text-brand-100 hover:bg-white/10 rounded-md"
                     onClick={() => setMenuOpen(false)}
                   >
                     {link.label}
@@ -211,7 +214,7 @@ export default function Header() {
                 )}
               </div>
             ))}
-            <div className="pt-2 border-t border-brand-800">
+            <div className="pt-2 border-t border-white/10">
               <a href={BUSINESS.phoneHref} className="flex items-center gap-2 px-3 py-2 text-sm text-brand-300 font-semibold">
                 <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                   <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>

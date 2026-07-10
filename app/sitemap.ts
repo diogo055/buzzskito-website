@@ -1,9 +1,11 @@
 import type { MetadataRoute } from 'next'
-import { SITE_URL, CITIES, MOSQUITO_BLOGS, TICK_BLOGS, NEW_BLOGS, NEW_BLOGS_2, NEW_BLOGS_3, NEW_BLOGS_4, NEW_BLOGS_5, NEW_BLOGS_6, NEW_BLOGS_7, NEW_BLOGS_8, NEW_BLOGS_9, NEW_BLOGS_10, NEW_BLOGS_11, NEW_BLOGS_12 } from '@/lib/constants'
+import { SITE_URL, CITIES, MOSQUITO_BLOGS, TICK_BLOGS, NEW_BLOGS, NEW_BLOGS_2, NEW_BLOGS_3, NEW_BLOGS_4, NEW_BLOGS_5, NEW_BLOGS_6, NEW_BLOGS_7, NEW_BLOGS_8, NEW_BLOGS_9, NEW_BLOGS_10, NEW_BLOGS_11, NEW_BLOGS_12, NEW_BLOGS_13 } from '@/lib/constants'
 
 // Static lastModified date — update this only when making real content changes.
 // Using new Date() on every request makes Google distrust the lastmod signal.
-const LAST_CONTENT_UPDATE = '2026-06-03T17:00:00.000Z'
+// 2026-07-01: sitewide refresh — photographic heroes on all template pages,
+// Quick Answer restyle, Person/ItemList schema, listicle freshness stamps.
+const LAST_CONTENT_UPDATE = '2026-07-01T17:00:00.000Z'
 
 export default function sitemap(): MetadataRoute.Sitemap {
 
@@ -212,6 +214,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...NEW_BLOGS_10,
     ...NEW_BLOGS_11,
     ...NEW_BLOGS_12,
+    ...NEW_BLOGS_13,
   ]
 
   // Add blog posts from constants

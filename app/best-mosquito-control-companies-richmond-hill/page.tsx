@@ -1,8 +1,9 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
-import { buildMetadata, breadcrumbSchema, faqSchema, speakableSchema } from '@/lib/seo'
-import { BUSINESS } from '@/lib/constants'
+import CityHero from '@/components/CityHero'
+import QuickAnswer from '@/components/QuickAnswer'
+import { buildMetadata, breadcrumbSchema, faqSchema, speakableSchema, itemListSchema } from '@/lib/seo'
 
 export const metadata: Metadata = buildMetadata({
   title: `Best Mosquito Control Richmond Hill 2026`,
@@ -42,50 +43,40 @@ export default function BestMosquitoControlRichmondHillPage() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Mosquito Control', url: '/mosquito-control' }, { name: `Best Companies Richmond Hill`, url: '/best-mosquito-control-companies-richmond-hill' }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema('/best-mosquito-control-companies-richmond-hill')) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema('/best-mosquito-control-companies-richmond-hill', '2026-07-01')) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema({ name: 'Best Mosquito Control Companies in Richmond Hill — 2026', description: 'Compare top mosquito control companies serving Richmond Hill 2026 — Oak Ridges, Jefferson, Bayview Hill, Mill Pond. Pricing, reviews, contracts. BuzzSkito vs Mosquito Man vs LawnSavers.', slug: '/best-mosquito-control-companies-richmond-hill', items: [{ name: 'BuzzSkito' }, { name: 'Mosquito Man' }, { name: 'LawnSavers' }, { name: 'Mosquito.Buzz' }] })) }} />
 
-      <section className="bg-gradient-to-br from-brand-950 to-brand-800 text-white py-16 px-4">
-        <div className="max-w-4xl mx-auto">
-          <nav aria-label="Breadcrumb" className="text-brand-400 text-sm mb-4 flex gap-1">
-            <Link href="/" className="hover:text-white">Home</Link><span>/</span>
-            <Link href="/mosquito-control" className="hover:text-white">Mosquito Control</Link><span>/</span>
-            <span className="text-white">Best Companies Richmond Hill</span>
-          </nav>
-          <h1 className="text-4xl sm:text-5xl font-extrabold mb-5">Best Mosquito Control Companies in Richmond Hill — 2026</h1>
-          <p className="text-xl text-brand-100 max-w-2xl mb-8">
-            Honest 2026 comparison of mosquito control providers serving Richmond Hill — Oak Ridges, Jefferson, Bayview Hill, Mill Pond, Langstaff, Crosby, North Richvale. Pricing, reviews, contracts.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4">
-            <Link href="/free-yard-assessment" className="inline-block bg-amber-500 hover:bg-amber-400 text-white font-extrabold px-8 py-4 rounded-full text-lg shadow-xl transition-colors text-center">Get a Free Richmond Hill Quote</Link>
-            <a href={BUSINESS.phoneHref} className="inline-flex items-center justify-center border-2 border-white text-white hover:bg-white hover:text-brand-900 font-bold px-8 py-4 rounded-full text-lg transition-colors">{BUSINESS.phone}</a>
-          </div>
-        </div>
-      </section>
+      <CityHero
+        breadcrumbs={[
+          { label: 'Home', href: '/' },
+          { label: 'Mosquito Control', href: '/mosquito-control' },
+          { label: 'Best Companies Richmond Hill' },
+        ]}
+        title={<>Best Mosquito Control Companies in Richmond Hill — 2026</>}
+        subtitle={<>Honest 2026 comparison of mosquito control providers serving Richmond Hill — Oak Ridges, Jefferson, Bayview Hill, Mill Pond, Langstaff, Crosby, North Richvale. Pricing, reviews, contracts.</>}
+        image="/spray-pool.webp"
+        imageAlt="BuzzSkito technician applying barrier spray beside a backyard pool"
+      />
 
       <section className="bg-brand-900 text-white py-4 px-4">
         <div className="max-w-4xl mx-auto flex flex-wrap justify-center gap-6 text-sm font-medium text-brand-200">
           <span>✓ Richmond Hill-Specific Pricing</span>
-          <span>✓ Updated Apr 2026</span>
+          <span>✓ Updated July 2026</span>
           <span>✓ Verified Reviews</span>
           <span>✓ No Affiliate Links</span>
         </div>
       </section>
 
-      {/* QUICK ANSWER */}
-      <section className="bg-amber-50 border-y-4 border-amber-300 py-8 px-4">
-        <div className="max-w-4xl mx-auto">
-          <p className="text-xs font-extrabold text-amber-700 uppercase tracking-wider mb-2">Quick Answer</p>
-          <h2 className="text-xl font-extrabold text-brand-900 mb-3">Who has the best mosquito control in Richmond Hill in 2026?</h2>
-          <p className="text-base text-gray-800 leading-relaxed">
-            <strong>For Richmond Hill homeowners, BuzzSkito wins on price ($99 single treatment, lowest in market), reviews (150+/5.0, zero negative), and specialty (mosquitoes + ticks only — not a generalist).</strong> Mosquito Man wins on review volume across all of Ontario but is a general pest control company. LawnSavers is best if you're already using their lawn-care service. The full comparison below covers pricing, contract terms, Richmond Hill service-area specifics (Oak Ridges Moraine, Mill Pond, Lake Wilcox, Don River headwaters), and the deciding factors for each Richmond Hill neighborhood. Updated April 2026.
-          </p>
-        </div>
-      </section>
+      <QuickAnswer question="Who has the best mosquito control in Richmond Hill in 2026?">
+        <p>
+          <strong>For Richmond Hill homeowners, BuzzSkito wins on price ($99 single treatment, lowest in market), reviews (150+/5.0, zero negative), and specialty (mosquitoes + ticks only — not a generalist).</strong> Mosquito Man wins on review volume across all of Ontario but is a general pest control company. LawnSavers is best if you're already using their lawn-care service. The full comparison below covers pricing, contract terms, Richmond Hill service-area specifics (Oak Ridges Moraine, Mill Pond, Lake Wilcox, Don River headwaters), and the deciding factors for each Richmond Hill neighborhood. Updated July 2026.
+        </p>
+      </QuickAnswer>
 
       <section className="py-14 px-4 bg-white">
         <div className="max-w-4xl mx-auto prose-brand">
           <h2>Richmond Hill Mosquito Control Companies — Compared</h2>
-          <p>Richmond Hill homeowners have several professional mosquito control options. Here&rsquo;s an honest comparison based on publicly available pricing, Google reviews, and Richmond Hill-specific service offerings as of April 2026.</p>
+          <p>Richmond Hill homeowners have several professional mosquito control options. Here&rsquo;s an honest comparison based on publicly available pricing, Google reviews, and Richmond Hill-specific service offerings as of July 2026.</p>
 
           <div className="not-prose overflow-x-auto my-6">
             <table className="w-full text-sm border-collapse">
@@ -165,8 +156,8 @@ export default function BestMosquitoControlRichmondHillPage() {
           <h2 className="text-2xl font-extrabold text-brand-900 mb-6">Best Mosquito Control Richmond Hill — FAQ</h2>
           <div className="space-y-3">
             {FAQS.map(({ question, answer }) => (
-              <details key={question} className="bg-white rounded-xl border border-brand-100 group">
-                <summary className="cursor-pointer px-5 py-4 font-semibold text-brand-900 list-none flex justify-between items-center">
+              <details key={question} className="bg-white rounded-xl border border-brand-100 group open:shadow-md transition-shadow">
+                <summary className="cursor-pointer px-5 py-4 font-semibold text-brand-900 list-none flex justify-between items-center rounded-xl hover:bg-brand-100/60 transition-colors">
                   <span>{question}</span>
                   <svg className="w-5 h-5 shrink-0 group-open:rotate-180 transition-transform text-brand-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />

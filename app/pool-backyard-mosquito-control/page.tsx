@@ -1,9 +1,10 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
+import CityHero from '@/components/CityHero'
 import InlineYardRiskCTA from '@/components/InlineYardRiskCTA'
+import QuickAnswer from '@/components/QuickAnswer'
 import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusinessSchema, speakableSchema, howToSchema } from '@/lib/seo'
-import { BUSINESS } from '@/lib/constants'
 
 const SLUG = '/pool-backyard-mosquito-control'
 
@@ -57,29 +58,22 @@ export default function PoolBackyardMosquitoControlPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Mosquito Control', url: '/mosquito-control' }, { name: 'Pool Yard', url: SLUG }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema({ service: 'mosquito' })) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(SLUG)) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(SLUG, '2026-07-01')) }} />
 
-      <section className="bg-gradient-to-br from-brand-950 via-brand-900 to-blue-900 text-white py-16 px-4">
-        <div className="max-w-5xl mx-auto">
-          <nav aria-label="Breadcrumb" className="text-brand-400 text-sm mb-4 flex gap-1">
-            <Link href="/" className="hover:text-white">Home</Link><span>/</span>
-            <Link href="/mosquito-control" className="hover:text-white">Mosquito Control</Link><span>/</span>
-            <span className="text-white">Pool Yard</span>
-          </nav>
-          <p className="text-xs font-extrabold text-amber-400 uppercase tracking-widest mb-3">Pool-Safe Application · Health Canada Approved · GTA-Wide</p>
-          <h1 className="text-4xl sm:text-5xl font-extrabold mb-5 leading-tight">
-            Pool &amp; Backyard Mosquito Control GTA<br/>
-            <span className="text-amber-400">From $99 · 150+ Five-Star Reviews</span>
-          </h1>
-          <p className="text-xl text-brand-100 max-w-3xl mb-8 leading-relaxed">
-            Specialist mosquito and tick barrier spray for backyards with pools, hot tubs, koi ponds, or water features. Pool-safe water-based formula. BTI larvicide for cover water and ponds. Designed to protect your family without compromising pool chemistry.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4">
-            <Link href="/free-yard-assessment" className="inline-block bg-amber-500 hover:bg-amber-400 text-white font-extrabold px-8 py-4 rounded-full text-lg shadow-xl transition-colors text-center">Get Pool Yard Quote</Link>
-            <a href={BUSINESS.phoneHref} className="inline-flex items-center justify-center border-2 border-white text-white hover:bg-white hover:text-brand-900 font-bold px-8 py-4 rounded-full text-lg transition-colors">{BUSINESS.phone}</a>
-          </div>
-        </div>
-      </section>
+      <CityHero
+        image="/spray-pool.webp"
+        imageAlt="BuzzSkito technician applying barrier spray beside a backyard pool"
+        breadcrumbs={[
+          { label: 'Home', href: '/' },
+          { label: 'Mosquito Control', href: '/mosquito-control' },
+          { label: 'Pool Yard' },
+        ]}
+        title={<>Pool &amp; Backyard Mosquito Control GTA</>}
+        titleAccent={<>From $99 · 150+ Five-Star Reviews</>}
+        subtitle={<>Specialist mosquito and tick barrier spray for backyards with pools, hot tubs, koi ponds, or water features. Pool-safe water-based formula. BTI larvicide for cover water and ponds. Designed to protect your family without compromising pool chemistry.</>}
+      >
+        <p className="mt-6 text-xs font-extrabold text-amber-400 uppercase tracking-widest">Pool-Safe Application · Health Canada Approved · GTA-Wide</p>
+      </CityHero>
 
       {/* Trust bar */}
       <section className="bg-brand-900 text-white py-4 px-4">
@@ -92,15 +86,11 @@ export default function PoolBackyardMosquitoControlPage() {
         </div>
       </section>
 
-      <section className="bg-amber-50 border-y-4 border-amber-300 py-10 px-4">
-        <div className="max-w-3xl mx-auto">
-          <p className="text-xs font-extrabold text-amber-700 uppercase tracking-wider mb-2">Quick Answer</p>
-          <h2 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-3">Why do pool yards have more mosquitoes than yards without pools?</h2>
-          <p className="text-base text-gray-800 leading-relaxed">
-            <strong>Pool yards consistently have higher mosquito populations than non-pool yards because of three structural factors: surrounding vegetation (pool landscaping = adult resting habitat), water sources (pool covers, koi ponds, decorative fountains, dog bowls), and microclimate (humidity and heat retention from hardscape).</strong> The pool itself usually isn&rsquo;t the problem — chlorinated, properly maintained pools kill mosquito larvae. The problem is everything around the pool. BuzzSkito&rsquo;s pool yard service treats the surrounding vegetation with Health Canada-approved water-based barrier spray (no contact with pool water), applies BTI larvicide to cover water and any non-fish ponds, and provides 21-30 days of residual protection per visit. Most GTA pool yards benefit from the full 5-treatment seasonal program from May through September.
-          </p>
-        </div>
-      </section>
+      <QuickAnswer question="Why do pool yards have more mosquitoes than yards without pools?">
+        <p>
+          <strong>Pool yards consistently have higher mosquito populations than non-pool yards because of three structural factors: surrounding vegetation (pool landscaping = adult resting habitat), water sources (pool covers, koi ponds, decorative fountains, dog bowls), and microclimate (humidity and heat retention from hardscape).</strong> The pool itself usually isn&rsquo;t the problem — chlorinated, properly maintained pools kill mosquito larvae. The problem is everything around the pool. BuzzSkito&rsquo;s pool yard service treats the surrounding vegetation with Health Canada-approved water-based barrier spray (no contact with pool water), applies BTI larvicide to cover water and any non-fish ponds, and provides 21-30 days of residual protection per visit. Most GTA pool yards benefit from the full 5-treatment seasonal program from May through September.
+        </p>
+      </QuickAnswer>
 
       {/* WHY POOL YARDS ATTRACT MOSQUITOES */}
       <section className="bg-white py-14 px-4">
@@ -186,8 +176,8 @@ export default function PoolBackyardMosquitoControlPage() {
           <h2 className="text-2xl font-extrabold text-brand-900 mb-6">Frequently asked questions</h2>
           <div className="space-y-3">
             {FAQS.map(({ question, answer }) => (
-              <details key={question} className="bg-white rounded-xl border border-gray-200 group">
-                <summary className="cursor-pointer px-5 py-4 font-bold text-brand-900 list-none flex justify-between items-start gap-3">
+              <details key={question} className="bg-white rounded-xl border border-gray-200 group open:shadow-md transition-shadow">
+                <summary className="cursor-pointer px-5 py-4 font-bold text-brand-900 list-none flex justify-between items-start gap-3 rounded-xl hover:bg-brand-100/60 transition-colors">
                   <span>{question}</span>
                   <span className="text-brand-700 group-open:rotate-180 transition shrink-0">▾</span>
                 </summary>

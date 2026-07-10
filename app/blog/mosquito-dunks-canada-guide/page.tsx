@@ -4,6 +4,8 @@ import CTASection from '@/components/CTASection'
 import BlogPostCTA from '@/components/BlogPostCTA'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import InlineYardRiskCTA from '@/components/InlineYardRiskCTA'
+import BuyLink from '@/components/BuyLink'
+import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 
 const SLUG = 'mosquito-dunks-canada-guide'
 const DATE = '2026-04-28'
@@ -92,6 +94,7 @@ export default function MosquitoDunksPage() {
           <p className="text-sm text-gray-700 mb-5 leading-relaxed">
             Summit Chemical mosquito dunks (the orange-and-white 6-pack) and Safer&rsquo;s Brand are the two most widely stocked options across Canadian retailers. Here&rsquo;s the typical pricing as of spring 2026:
           </p>
+          <AffiliateDisclosure />
           <div className="rounded-xl border border-navy-100 overflow-hidden bg-white shadow-sm">
             <table className="w-full text-sm">
               <thead className="bg-brand-800 text-white">
@@ -120,6 +123,10 @@ export default function MosquitoDunksPage() {
                 ))}
               </tbody>
             </table>
+          </div>
+          <div className="mt-4 flex flex-wrap items-center gap-3">
+            <BuyLink search="summit mosquito dunks">Check Mosquito Dunks price on Amazon.ca →</BuyLink>
+            <BuyLink search="summit mosquito bits">Check Mosquito Bits (faster-acting) →</BuyLink>
           </div>
           <p className="text-xs text-gray-500 mt-3">
             Prices accurate as of May 2026. Stock up in April–May — supply tightens by July and prices rise 10–15% in peak season. Each dunk treats 100 sq ft of water surface for ~30 days, so a 6-pack covers most Canadian backyard rain barrels through the entire May–September season.

@@ -30,3 +30,7 @@ next-env.d.ts
 # OS
 .DS_Store
 Thumbs.db
+
+# Claude Code build/run artifacts
+build.log
+start.log

@@ -2,6 +2,8 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import BuyLink from '@/components/BuyLink'
+import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import InlineYardRiskCTA from '@/components/InlineYardRiskCTA'
 
 const SLUG = 'thermacell-canada-where-to-buy'
@@ -174,6 +176,12 @@ export default function ThermacellCanadaPage() {
 
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
+          <AffiliateDisclosure />
+          <p className="not-prose text-sm text-gray-600 mb-1">Compare current Canadian prices (Patio Shield, E55, E90, Liv) and refill packs:</p>
+          <div className="not-prose mb-6 flex flex-wrap gap-3">
+            <BuyLink search="thermacell patio shield mosquito repeller">Check Thermacell price on Amazon.ca →</BuyLink>
+            <BuyLink search="thermacell refill">Refill packs →</BuyLink>
+          </div>
           <h2>How Thermacell Actually Works</h2>
           <p>Thermacell devices warm a small synthetic mat soaked with allethrin — a lab-made version of the natural insecticide found in chrysanthemum flowers. When the mat heats up, it releases allethrin vapour into the air around the device. Mosquitoes flying through the vapour cloud are repelled (and at higher concentrations, killed). The vapour is undetectable to humans at normal concentrations.</p>
           <p>Two things matter for performance: <strong>still air and proximity</strong>. The vapour cloud forms a roughly spherical zone about 4.5 metres in radius. In dead-calm conditions you get full mosquito knockdown within minutes. In a 10–15 km/h breeze, the vapour disperses faster than it can build up, dropping effectiveness by 50% or more.</p>

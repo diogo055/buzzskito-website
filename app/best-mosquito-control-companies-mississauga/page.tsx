@@ -1,7 +1,9 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
-import { buildMetadata, breadcrumbSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import CityHero from '@/components/CityHero'
+import QuickAnswer from '@/components/QuickAnswer'
+import { buildMetadata, breadcrumbSchema, faqSchema, speakableSchema, itemListSchema } from '@/lib/seo'
 import { BUSINESS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
@@ -43,39 +45,40 @@ export default function BestMosquitoControlCompaniesMississaugaPage() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Mosquito Control', url: '/mosquito-control' }, { name: 'Best Companies Mississauga', url: '/best-mosquito-control-companies-mississauga' }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema('/best-mosquito-control-companies-mississauga')) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema('/best-mosquito-control-companies-mississauga', '2026-07-01')) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema({ name: 'Best Mosquito Control Companies in Mississauga — 2026', description: 'Compare Mississauga mosquito control 2026 — pricing, reviews, contracts. BuzzSkito vs Mosquito Man vs LawnSavers.', slug: '/best-mosquito-control-companies-mississauga', items: [{ name: 'BuzzSkito' }, { name: 'Mosquito Man' }, { name: 'Mosquito.Buzz' }, { name: 'LawnSavers' }] })) }} />
 
-      <section className="bg-gradient-to-br from-brand-950 to-brand-800 text-white py-16 px-4">
-        <div className="max-w-4xl mx-auto">
-          <nav aria-label="Breadcrumb" className="text-brand-400 text-sm mb-4 flex gap-1">
-            <Link href="/" className="hover:text-white">Home</Link><span>/</span>
-            <Link href="/mosquito-control" className="hover:text-white">Mosquito Control</Link><span>/</span>
-            <span className="text-white">Best Companies Mississauga</span>
-          </nav>
-          <h1 className="text-4xl sm:text-5xl font-extrabold mb-5">Best Mosquito Control Companies in Mississauga — 2026</h1>
-          <p className="text-xl text-brand-100 max-w-2xl mb-8">
-            Honest 2026 comparison of mosquito control providers serving Mississauga — Port Credit, Meadowvale, Streetsville, Erin Mills, Clarkson, Lorne Park. Pricing, reviews, contracts.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4">
-            <Link href="/free-yard-assessment" className="inline-block bg-amber-500 hover:bg-amber-400 text-white font-extrabold px-8 py-4 rounded-full text-lg shadow-xl transition-colors text-center">Get a Free Mississauga Quote</Link>
-            <a href={BUSINESS.phoneHref} className="inline-flex items-center justify-center border-2 border-white text-white hover:bg-white hover:text-brand-900 font-bold px-8 py-4 rounded-full text-lg transition-colors">{BUSINESS.phone}</a>
-          </div>
-        </div>
-      </section>
+      <CityHero
+        breadcrumbs={[
+          { label: 'Home', href: '/' },
+          { label: 'Mosquito Control', href: '/mosquito-control' },
+          { label: 'Best Companies Mississauga' },
+        ]}
+        title={<>Best Mosquito Control Companies in Mississauga — 2026</>}
+        subtitle={<>Honest 2026 comparison of mosquito control providers serving Mississauga — Port Credit, Meadowvale, Streetsville, Erin Mills, Clarkson, Lorne Park. Pricing, reviews, contracts.</>}
+        image="/spray-pool.webp"
+        imageAlt="BuzzSkito technician applying barrier spray beside a backyard pool"
+      />
 
       <section className="bg-brand-900 text-white py-4 px-4">
         <div className="max-w-4xl mx-auto flex flex-wrap justify-center gap-6 text-sm font-medium text-brand-200">
           <span>✓ Mississauga-Specific Pricing</span>
-          <span>✓ Updated Apr 2026</span>
+          <span>✓ Updated July 2026</span>
           <span>✓ Verified Reviews</span>
           <span>✓ No Affiliate Links</span>
         </div>
       </section>
 
+      <QuickAnswer question="Who is the best mosquito control company in Mississauga?">
+        <p>
+          <strong>BuzzSkito is the best mosquito control company in Mississauga for 2026 — Mississauga-based, with single treatments from $99, no contracts, and 150+ perfect five-star Google reviews.</strong> This comparison ranks 4 providers serving Mississauga — BuzzSkito, Mosquito Man, Mosquito.Buzz, and LawnSavers — on pricing, reviews, contracts, and coverage.
+        </p>
+      </QuickAnswer>
+
       <section className="py-14 px-4 bg-white">
         <div className="max-w-4xl mx-auto prose-brand">
           <h2>Mississauga Mosquito Control Companies — Compared</h2>
-          <p>Mississauga homeowners have several professional mosquito control options. Here&rsquo;s an honest comparison based on publicly available pricing, Google reviews, and Mississauga-specific service offerings as of April 2026.</p>
+          <p>Mississauga homeowners have several professional mosquito control options. Here&rsquo;s an honest comparison based on publicly available pricing, Google reviews, and Mississauga-specific service offerings as of July 2026.</p>
 
           <div className="not-prose overflow-x-auto my-6">
             <table className="w-full text-sm border-collapse">
@@ -106,7 +109,7 @@ export default function BestMosquitoControlCompaniesMississaugaPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-sm text-gray-500 not-prose mb-8">Pricing reflects publicly available rates as of April 2026. Lakefront estate properties in Lorne Park and Mineola often price above the base rate.</p>
+          <p className="text-sm text-gray-500 not-prose mb-8">Pricing reflects publicly available rates as of July 2026. Lakefront estate properties in Lorne Park and Mineola often price above the base rate.</p>
 
           <h2>1. BuzzSkito (Mississauga coverage: full + HQ)</h2>
           <p><strong>BuzzSkito is Mississauga-based.</strong> Our headquarters is in Mississauga, and Mississauga is our home market — same-week service availability across every Mississauga neighbourhood. <Link href="/mississauga-mosquito-control" className="text-brand-700 hover:underline">Full Mississauga service page</Link>.</p>
@@ -189,8 +192,8 @@ export default function BestMosquitoControlCompaniesMississaugaPage() {
           <h2 className="text-2xl font-extrabold text-brand-900 mb-6">Mississauga Mosquito Control — FAQ</h2>
           <div className="space-y-3">
             {FAQS.map(({ question, answer }) => (
-              <details key={question} className="bg-white rounded-xl border border-brand-100 group">
-                <summary className="cursor-pointer px-5 py-4 font-semibold text-brand-900 list-none flex justify-between items-center">
+              <details key={question} className="bg-white rounded-xl border border-brand-100 group open:shadow-md transition-shadow">
+                <summary className="cursor-pointer px-5 py-4 font-semibold text-brand-900 list-none flex justify-between items-center rounded-xl hover:bg-brand-100/60 transition-colors">
                   <span>{question}</span>
                   <svg className="w-5 h-5 shrink-0 text-brand-500 group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
                 </summary>

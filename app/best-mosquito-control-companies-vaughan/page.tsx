@@ -1,7 +1,9 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
-import { buildMetadata, breadcrumbSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import CityHero from '@/components/CityHero'
+import QuickAnswer from '@/components/QuickAnswer'
+import { buildMetadata, breadcrumbSchema, faqSchema, speakableSchema, itemListSchema } from '@/lib/seo'
 import { BUSINESS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
@@ -39,39 +41,40 @@ export default function BestMosquitoControlCompaniesVaughanPage() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Mosquito Control', url: '/mosquito-control' }, { name: 'Best Companies Vaughan', url: '/best-mosquito-control-companies-vaughan' }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema('/best-mosquito-control-companies-vaughan')) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema('/best-mosquito-control-companies-vaughan', '2026-07-01')) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema({ name: 'Best Mosquito Control Companies in Vaughan — 2026', description: 'Compare Vaughan mosquito control 2026 — Woodbridge, Kleinburg, Maple, Thornhill. Pricing, reviews. BuzzSkito vs Mosquito Man vs LawnSavers.', slug: '/best-mosquito-control-companies-vaughan', items: [{ name: 'BuzzSkito' }, { name: 'Mosquito Man' }, { name: 'Mosquito.Buzz' }, { name: 'LawnSavers' }] })) }} />
 
-      <section className="bg-gradient-to-br from-brand-950 to-brand-800 text-white py-16 px-4">
-        <div className="max-w-4xl mx-auto">
-          <nav aria-label="Breadcrumb" className="text-brand-400 text-sm mb-4 flex gap-1">
-            <Link href="/" className="hover:text-white">Home</Link><span>/</span>
-            <Link href="/mosquito-control" className="hover:text-white">Mosquito Control</Link><span>/</span>
-            <span className="text-white">Best Companies Vaughan</span>
-          </nav>
-          <h1 className="text-4xl sm:text-5xl font-extrabold mb-5">Best Mosquito Control Companies in Vaughan — 2026</h1>
-          <p className="text-xl text-brand-100 max-w-2xl mb-8">
-            Honest 2026 comparison of Vaughan mosquito control providers — Woodbridge, Kleinburg, Maple, Thornhill, Concord. Pricing, reviews, and what each company actually offers.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4">
-            <Link href="/free-yard-assessment" className="inline-block bg-amber-500 hover:bg-amber-400 text-white font-extrabold px-8 py-4 rounded-full text-lg shadow-xl transition-colors text-center">Get a Free Vaughan Quote</Link>
-            <a href={BUSINESS.phoneHref} className="inline-flex items-center justify-center border-2 border-white text-white hover:bg-white hover:text-brand-900 font-bold px-8 py-4 rounded-full text-lg transition-colors">{BUSINESS.phone}</a>
-          </div>
-        </div>
-      </section>
+      <CityHero
+        breadcrumbs={[
+          { label: 'Home', href: '/' },
+          { label: 'Mosquito Control', href: '/mosquito-control' },
+          { label: 'Best Companies Vaughan' },
+        ]}
+        title={<>Best Mosquito Control Companies in Vaughan — 2026</>}
+        subtitle={<>Honest 2026 comparison of Vaughan mosquito control providers — Woodbridge, Kleinburg, Maple, Thornhill, Concord. Pricing, reviews, and what each company actually offers.</>}
+        image="/spray-pool.webp"
+        imageAlt="BuzzSkito technician applying barrier spray beside a backyard pool"
+      />
 
       <section className="bg-brand-900 text-white py-4 px-4">
         <div className="max-w-4xl mx-auto flex flex-wrap justify-center gap-6 text-sm font-medium text-brand-200">
           <span>✓ Vaughan-Specific Pricing</span>
-          <span>✓ Updated Apr 2026</span>
+          <span>✓ Updated July 2026</span>
           <span>✓ Verified Reviews</span>
           <span>✓ No Affiliate Links</span>
         </div>
       </section>
 
+      <QuickAnswer question="Who is the best mosquito control company in Vaughan?">
+        <p>
+          <strong>BuzzSkito is the best mosquito control company in Vaughan for 2026, with the lowest starting price ($99/treatment), no contracts, and a perfect 5.0 rating across 150+ Google reviews.</strong> This comparison ranks 4 providers serving Vaughan — BuzzSkito, Mosquito Man, Mosquito.Buzz, and LawnSavers — on pricing, reviews, contracts, and coverage.
+        </p>
+      </QuickAnswer>
+
       <section className="py-14 px-4 bg-white">
         <div className="max-w-4xl mx-auto prose-brand">
           <h2>Vaughan Mosquito Control Companies — Compared</h2>
-          <p>Vaughan homeowners — particularly those in Woodbridge, Kleinburg, Maple, Thornhill, and Concord — have several professional mosquito control options. Here is an honest comparison based on publicly available pricing, Google reviews, and Vaughan service offerings as of April 2026.</p>
+          <p>Vaughan homeowners — particularly those in Woodbridge, Kleinburg, Maple, Thornhill, and Concord — have several professional mosquito control options. Here is an honest comparison based on publicly available pricing, Google reviews, and Vaughan service offerings as of July 2026.</p>
 
           <div className="not-prose overflow-x-auto my-6">
             <table className="w-full text-sm border-collapse">
@@ -102,7 +105,7 @@ export default function BestMosquitoControlCompaniesVaughanPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-sm text-gray-500 not-prose mb-8">Pricing reflects publicly available rates as of April 2026. Vaughan estate properties (large Kleinburg lots) often price above the base rate.</p>
+          <p className="text-sm text-gray-500 not-prose mb-8">Pricing reflects publicly available rates as of July 2026. Vaughan estate properties (large Kleinburg lots) often price above the base rate.</p>
 
           <h2>1. BuzzSkito (Vaughan coverage: full)</h2>
           <p><Link href="/vaughan-mosquito-control" className="text-brand-700 hover:underline">BuzzSkito serves all Vaughan</Link> — Woodbridge, Kleinburg, Maple, Thornhill, Concord, Patterson, Vellore Village, Sonoma Heights, and Islington Woods.</p>
@@ -177,8 +180,8 @@ export default function BestMosquitoControlCompaniesVaughanPage() {
           <h2 className="text-2xl font-extrabold text-brand-900 mb-6">Vaughan Mosquito Control — FAQ</h2>
           <div className="space-y-3">
             {FAQS.map(({ question, answer }) => (
-              <details key={question} className="bg-white rounded-xl border border-brand-100 group">
-                <summary className="cursor-pointer px-5 py-4 font-semibold text-brand-900 list-none flex justify-between items-center">
+              <details key={question} className="bg-white rounded-xl border border-brand-100 group open:shadow-md transition-shadow">
+                <summary className="cursor-pointer px-5 py-4 font-semibold text-brand-900 list-none flex justify-between items-center rounded-xl hover:bg-brand-100/60 transition-colors">
                   <span>{question}</span>
                   <svg className="w-5 h-5 shrink-0 text-brand-500 group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
                 </summary>

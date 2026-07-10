@@ -10,8 +10,9 @@ export function buildMetadata(opts: {
   noIndex?: boolean
   type?: 'website' | 'article'
   publishedTime?: string
+  modifiedTime?: string
 }): Metadata {
-  const { title, description, canonical, noIndex, type = 'website', publishedTime } = opts
+  const { title, description, canonical, noIndex, type = 'website', publishedTime, modifiedTime } = opts
   const url = `${SITE_URL}${canonical}`
   return {
     title,
@@ -26,6 +27,7 @@ export function buildMetadata(opts: {
       type,
       images: [{ url: '/og-image.jpg', width: 1200, height: 630, alt: title }],
       ...(publishedTime && { publishedTime }),
+      ...(modifiedTime && { modifiedTime }),
     },
     twitter: { card: 'summary_large_image', title, description },
     ...(noIndex && { robots: { index: false, follow: false } }),
@@ -118,7 +120,12 @@ export function localBusinessSchema(overrides: {
   return schema
 }
 
-export function serviceSchema(opts: { name: string; description: string; slug: string; city?: string }) {
+// serviceSchema — per-service/city Service entity.
+// `price` defaults to the $99 single mosquito treatment. Pass price: null on
+// tick pages (tick programs are seasonal/on-quote — advertising a $99 tick
+// offer was inaccurate) — the offers block is omitted entirely.
+export function serviceSchema(opts: { name: string; description: string; slug: string; city?: string; price?: string | null }) {
+  const price = opts.price === undefined ? '99' : opts.price
   return {
     '@context': 'https://schema.org',
     '@type': 'Service',
@@ -130,17 +137,69 @@ export function serviceSchema(opts: { name: string; description: string; slug: s
       ? { '@type': 'City', name: opts.city, address: { '@type': 'PostalAddress', addressRegion: 'ON', addressCountry: 'CA' } }
       : { '@type': 'AdministrativeArea', name: 'Greater Toronto Area', address: { '@type': 'PostalAddress', addressRegion: 'ON', addressCountry: 'CA' } },
     serviceType: 'Pest Control',
-    offers: {
-      '@type': 'Offer',
-      price: '99',
-      priceCurrency: 'CAD',
-      availability: 'https://schema.org/InStock',
-      priceSpecification: {
-        '@type': 'UnitPriceSpecification',
-        price: '99',
+    ...(price && {
+      offers: {
+        '@type': 'Offer',
+        price,
         priceCurrency: 'CAD',
-        unitText: 'treatment',
+        availability: 'https://schema.org/InStock',
+        priceSpecification: {
+          '@type': 'UnitPriceSpecification',
+          price,
+          priceCurrency: 'CAD',
+          unitText: 'treatment',
+        },
       },
+    }),
+  }
+}
+
+// itemListSchema — ranked-list entity for "best companies" listicle pages.
+// AI answer engines lean on comparative listicles harder than any other
+// format (2.4x brand-mention rate); ItemList makes the ranking machine-readable.
+export function itemListSchema(opts: { name: string; description: string; slug: string; items: { name: string; url?: string }[] }) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    name: opts.name,
+    description: opts.description,
+    url: `${SITE_URL}${opts.slug}`,
+    numberOfItems: opts.items.length,
+    itemListOrder: 'https://schema.org/ItemListOrderDescending',
+    itemListElement: opts.items.map((item, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      name: item.name,
+      ...(item.url && { url: item.url }),
+    })),
+  }
+}
+
+// personSchema — the owner-operator entity. Zero GTA competitors name a
+// single human on their sites; a real Person node linked from Organization
+// (founder) and BlogPosting (author) is an E-E-A-T signal franchises
+// structurally cannot copy.
+export function personSchema() {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Person',
+    '@id': `${SITE_URL}/#alex`,
+    name: 'Alex Francisco',
+    alternateName: 'Alex',
+    jobTitle: 'Founder & Owner-Operator',
+    url: `${SITE_URL}/buzzskito-history`,
+    worksFor: { '@type': 'Organization', '@id': `${SITE_URL}/#organization` },
+    knowsAbout: [
+      'Mosquito control',
+      'Tick control',
+      'Barrier spray application',
+      'Lyme disease prevention',
+      'Health Canada-approved pesticides',
+      'GTA mosquito ecology',
+    ],
+    homeLocation: {
+      '@type': 'Place',
+      address: { '@type': 'PostalAddress', addressLocality: 'Mississauga', addressRegion: 'ON', addressCountry: 'CA' },
     },
   }
 }
@@ -225,16 +284,14 @@ export function blogPostingSchema(opts: {
     url: `${SITE_URL}/blog/${opts.slug}`,
     datePublished: opts.datePublished,
     dateModified: opts.dateModified ?? opts.datePublished,
+    // Author resolves to the sitewide Person entity (#alex) — a named human
+    // author with a face and a bio outranks "The Team" for E-E-A-T.
     author: {
       '@type': 'Person',
-      name: BUSINESS.author.name,
-      jobTitle: BUSINESS.author.role,
-      url: BUSINESS.author.url,
-      sameAs: [
-        BUSINESS.facebookUrl,
-        BUSINESS.googleReviewUrl,
-        `${SITE_URL}/buzzskito-history`,
-      ],
+      '@id': `${SITE_URL}/#alex`,
+      name: 'Alex Francisco',
+      jobTitle: 'Founder & Owner-Operator, BuzzSkito Mosquito & Tick Control',
+      url: `${SITE_URL}/buzzskito-history`,
       worksFor: {
         '@type': 'Organization',
         '@id': `${SITE_URL}/#organization`,
@@ -311,11 +368,33 @@ export function organizationSchema() {
       areaServed: 'CA-ON',
       availableLanguage: 'English',
     },
+    // sameAs = external profiles only (self-referential URLs diluted the
+    // entity signal). Press coverage lives in subjectOf — three DR-80+ GTA
+    // news placements that establish the org as a citable local authority.
     sameAs: [
       BUSINESS.facebookUrl,
       BUSINESS.googleReviewUrl,
-      `${SITE_URL}/buzzskito-history`,
-      `${SITE_URL}/reviews`,
+    ],
+    founder: { '@type': 'Person', '@id': `${SITE_URL}/#alex` },
+    subjectOf: [
+      {
+        '@type': 'NewsArticle',
+        headline: 'Ticks are surging in Ontario this year and Toronto is a hot spot',
+        url: 'https://www.thestar.com/news/gta/ticks-are-surging-in-ontario-this-year-and-toronto-is-a-hot-spot-heres-how-to-protect-yourself/article_b004ab3c-2987-4c64-852b-26d1f4978a14.html',
+        publisher: { '@type': 'Organization', name: 'Toronto Star' },
+      },
+      {
+        '@type': 'NewsArticle',
+        headline: 'Experts warning of a bad mosquito season ahead',
+        url: 'https://toronto.citynews.ca/2026/05/17/experts-warning-of-a-bad-mosquito-season-ahead/',
+        publisher: { '@type': 'Organization', name: 'CityNews Toronto' },
+      },
+      {
+        '@type': 'NewsArticle',
+        headline: 'More ticks and mosquitoes expected in Toronto this summer',
+        url: 'https://www.torontotoday.ca/local/environment-climate/more-ticks-mosquitoes-toronto-this-summer-12249274',
+        publisher: { '@type': 'Organization', name: 'TorontoToday' },
+      },
     ],
     identifier: [
       { '@type': 'PropertyValue', propertyID: 'CanadaBusinessRegistration', value: BUSINESS.canadaBusinessReg },

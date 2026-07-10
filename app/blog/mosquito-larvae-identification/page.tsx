@@ -1,10 +1,12 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
+import AuthorByline from '@/components/AuthorByline'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 
 const SLUG = 'mosquito-larvae-identification'
 const DATE = '2026-04-28'
+const UPDATED = '2026-07-09'
 const TITLE = 'Mosquito Larvae — Identification, Lifecycle & Removal (2026)'
 
 const FAQS = [
@@ -40,23 +42,38 @@ const FAQS = [
     question: 'Do fish eat mosquito larvae?',
     answer: 'Yes — most pond fish eat mosquito larvae aggressively. Goldfish and koi are particularly effective. If you have an ornamental pond with fish, you typically don\'t need to treat for mosquitoes — the fish handle larvae naturally. Mosquitofish (Gambusia affinis) are specifically bred for this purpose in some regions. Frogs and dragonfly larvae also eat mosquito larvae. A balanced pond ecosystem rarely needs mosquito treatment.',
   },
+  {
+    question: 'What kills mosquito larvae instantly?',
+    answer: 'Draining the water kills 100% of mosquito larvae instantly — they cannot survive out of water for more than a few minutes. For water you can\'t drain, nothing safe works truly "instantly": BTI (Mosquito Dunks/Bits) kills larvae within 24–48 hours and is the safest option for ponds, rain barrels, and ditches. A thin film of dish soap or cooking oil suffocates larvae within hours but should only be used in disposable container water, never ponds. Avoid bleach or gasoline — they contaminate water, harm wildlife, and are illegal to dump in many municipalities.',
+  },
+  {
+    question: 'Why are there mosquito larvae in my pool?',
+    answer: 'Mosquito larvae appear in pools when chlorine has lapsed and the water has sat undisturbed for 5+ days — properly chlorinated, filtered pool water cannot support larvae. Fix it by shocking the pool, running the filter, and skimming; larvae die quickly in restored chlorine levels. Pool covers are a bigger culprit than the pool itself: rainwater pooling on top of a cover is a perfect nursery. Tip the cover off after rain or treat the puddles with a BTI dunk.',
+  },
+  {
+    question: 'Can mosquito larvae survive without water?',
+    answer: 'No. Mosquito larvae die within minutes out of water — they are fully aquatic and breathe through a siphon at the water surface. This is exactly why dumping standing water is the most effective control. Note the eggs are tougher: some mosquito species lay eggs in moist soil or dry container edges that hatch when re-flooded, and those eggs can survive weeks to months dry. So after dumping a container, scrub the sides to remove any eggs stuck to the walls, then store it upside down.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Mosquito Larvae · How to Identify & Remove (Canada 2026)',
-  description: 'How to identify mosquito larvae, where they live, how to get rid of them. Visual identification, lifecycle, BTI treatment, fish predators.',
+  // 4,000/mo head term, currently ~pos 14 with a thin page. Title front-loads the
+  // query and the dominant intent ("kill them"). Kept under 60 chars.
+  title: 'Mosquito Larvae: What They Look Like & How to Kill Them',
+  description: 'Mosquito larvae are 5–8 mm wiggling worms in standing water. How to identify them, where they breed, and how to kill them fast with BTI dunks — plus the water sources to drain this week.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
+  modifiedTime: UPDATED,
 })
 
 export default function MosquitoLarvaePage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Visual identification and removal guide for mosquito larvae.', slug: SLUG, datePublished: DATE })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Visual identification and removal guide for mosquito larvae.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Mosquito Larvae', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`)) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`, UPDATED)) }} />
 
       <section className="bg-gradient-to-br from-brand-950 via-brand-900 to-emerald-900 text-white py-14 px-4">
         <div className="max-w-4xl mx-auto">
@@ -74,9 +91,84 @@ export default function MosquitoLarvaePage() {
         <div className="max-w-4xl mx-auto">
           <p className="text-xs font-extrabold text-amber-700 uppercase tracking-wider mb-2">Quick Answer</p>
           <h2 className="text-xl font-extrabold text-brand-900 mb-3">What do mosquito larvae look like?</h2>
-          <p className="text-base text-gray-800 leading-relaxed">
-            <strong>Mosquito larvae are 5–8 mm long, brown-black wiggling worm-like creatures that live in standing water.</strong> They hang upside-down at the water surface with a breathing siphon poking through the surface tension. When disturbed, they wiggle downward in a distinctive S-shape — earning their nickname &ldquo;wigglers.&rdquo; They live for 4–14 days in water before emerging as adult mosquitoes. Found in: rain barrels, clogged gutters, bird baths, plant saucers, neglected pools, ornamental ponds without fish, tarps with pooled water, and tree holes. Removal: drain the water, or treat with BTI Mosquito Dunks ($10–$20 at Canadian Tire) which kill larvae in 24 hours and are 100% safe for pets, fish, and humans.
+          <p className="speakable text-base text-gray-800 leading-relaxed">
+            <strong>Mosquito larvae are 5–8 mm long, brown-black wiggling worm-like creatures that live in standing water.</strong> They hang upside-down at the water surface with a breathing siphon poking through the surface tension. When disturbed, they wiggle downward in a distinctive S-shape — earning their nickname &ldquo;wigglers.&rdquo; They live for 4–14 days in water before emerging as adult mosquitoes. Found in: rain barrels, clogged gutters, bird baths, plant saucers, neglected pools, ornamental ponds without fish, tarps with pooled water, and tree holes. Removal: drain the water, or treat with BTI Mosquito Dunks ($10–$20 at Canadian Tire) which kill larvae in 24 hours and are 100% safe for pets, fish, and humans. BuzzSkito treats yards across the Greater Toronto Area, where a single untreated rain barrel can produce thousands of adult mosquitoes in one season.
           </p>
+        </div>
+      </section>
+
+      {/* How to kill — the dominant search intent behind "mosquito larvae" */}
+      <section className="bg-white border-b border-gray-100 py-10 px-4">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-xl font-extrabold text-brand-900 mb-3">How do you kill mosquito larvae in standing water?</h2>
+          <p className="speakable text-base text-gray-800 leading-relaxed mb-5">
+            <strong>The fastest way to kill mosquito larvae is to drain the water — this kills 100% of larvae instantly and costs nothing.</strong> If the water cannot be drained (a rain barrel, ornamental pond, or drainage ditch), drop in a BTI larvicide such as Mosquito Dunks or Mosquito Bits. BTI is a naturally occurring soil bacterium that kills mosquito larvae within 24 hours and is harmless to fish, frogs, pets, birds, bees, and people. One dunk treats about 100 square feet of water surface for 30 days and costs $10&ndash;$20 at Canadian Tire, Home Depot, or Rona.
+          </p>
+          <div className="rounded-xl border border-gray-200 overflow-hidden">
+            <table className="w-full text-sm">
+              <thead className="bg-brand-50">
+                <tr>
+                  <th className="px-3 py-2 text-left">Method</th>
+                  <th className="px-3 py-2 text-left">Time to kill</th>
+                  <th className="px-3 py-2 text-left">Cost</th>
+                  <th className="px-3 py-2 text-left">Safe for fish &amp; pets?</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  ['Drain / dump the water', 'Instant', 'Free', 'Yes'],
+                  ['BTI (Mosquito Dunks)', '24–48 hours', '$10–$20 / 30 days', 'Yes — completely'],
+                  ['BTI granules (Mosquito Bits)', '24 hours', '$12–$18', 'Yes — completely'],
+                  ['Add fish (goldfish, koi)', 'Ongoing', '$5–$30', 'Yes'],
+                  ['Dish soap / cooking oil film', 'Hours', 'Free', 'No — last resort only'],
+                  ['Bleach or chlorine', 'Hours', 'Low', 'No — never in ponds'],
+                ].map(([m, t, c, s]) => (
+                  <tr key={m} className="border-t border-gray-100">
+                    <td className="px-3 py-2 font-semibold text-brand-800">{m}</td>
+                    <td className="px-3 py-2 text-gray-700">{t}</td>
+                    <td className="px-3 py-2 text-gray-700">{c}</td>
+                    <td className="px-3 py-2 text-gray-700">{s}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      {/* Look-alike disambiguation — the second big intent */}
+      <section className="bg-white py-10 px-4">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-xl font-extrabold text-brand-900 mb-3">Is it a mosquito larva or something else?</h2>
+          <p className="speakable text-base text-gray-800 leading-relaxed mb-5">
+            <strong>If the wiggler hangs head-down at the water surface and darts downward in an S-shape when disturbed, it is a mosquito larva.</strong> Midge larvae look similar but live in bottom mud and swim in a figure-eight; mayfly larvae have feathery gills along the abdomen; drain-fly larvae live in slimy pipe film, not open water. Only mosquito larvae breathe through a siphon at the surface, and only mosquito larvae become biting adults.
+          </p>
+          <div className="rounded-xl border border-gray-200 overflow-hidden">
+            <table className="w-full text-sm">
+              <thead className="bg-brand-50">
+                <tr>
+                  <th className="px-3 py-2 text-left">Creature</th>
+                  <th className="px-3 py-2 text-left">Where it lives</th>
+                  <th className="px-3 py-2 text-left">Telltale sign</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  ['Mosquito larva', 'Hangs at water surface', 'Breathing siphon; S-shaped wiggle'],
+                  ['Midge larva', 'Bottom mud / sediment', 'Red "bloodworm"; figure-eight swim'],
+                  ['Mayfly larva', 'Clean flowing water', 'Feathery gills along abdomen'],
+                  ['Drain-fly larva', 'Slime film inside drains', 'Flat, never in open standing water'],
+                  ['Mosquito pupa ("tumbler")', 'Water surface', 'Comma-shaped; tumbles, does not feed'],
+                ].map(([c, w, t]) => (
+                  <tr key={c} className="border-t border-gray-100">
+                    <td className="px-3 py-2 font-semibold text-brand-800">{c}</td>
+                    <td className="px-3 py-2 text-gray-700">{w}</td>
+                    <td className="px-3 py-2 text-gray-700">{t}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
         </div>
       </section>
 
@@ -113,6 +205,7 @@ export default function MosquitoLarvaePage() {
 
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
+          <AuthorByline datePublished={DATE} dateModified={UPDATED} />
 
           <h2>The Mosquito Lifecycle (Why It Matters)</h2>
           <p>Mosquitoes have 4 distinct life stages, all but the last one in water:</p>
@@ -140,6 +233,15 @@ export default function MosquitoLarvaePage() {
             <li><strong>Pet water bowls</strong> left outside more than 3 days</li>
             <li><strong>Disused pools, hot tubs, fountains</strong></li>
           </ul>
+
+          <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
+            <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Or let us handle it</h3>
+            <p className="text-sm text-gray-700 mb-4 leading-relaxed">BuzzSkito&rsquo;s professional barrier spray covers your whole yard from $99 — backed by 150+ five-star reviews and serving 19 GTA cities.</p>
+            <div className="flex flex-wrap items-center gap-4">
+              <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote →</Link>
+              <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
+            </div>
+          </aside>
 
           <h2>How to Get Rid of Mosquito Larvae (Ranked by Effectiveness)</h2>
           <ol>

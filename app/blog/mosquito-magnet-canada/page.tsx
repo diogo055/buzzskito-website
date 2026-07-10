@@ -2,6 +2,8 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import BuyLink from '@/components/BuyLink'
+import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 
 const SLUG = 'mosquito-magnet-canada'
 const DATE = '2026-05-01'
@@ -168,6 +170,12 @@ export default function MosquitoMagnetCanadaPage() {
 
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
+          <AffiliateDisclosure />
+          <p className="not-prose text-sm text-gray-600 mb-1">Compare current Canadian prices and models (Patriot Plus, Independence, Executive):</p>
+          <div className="not-prose mb-6 flex flex-wrap gap-3">
+            <BuyLink search="mosquito magnet trap">Check Mosquito Magnet price on Amazon.ca →</BuyLink>
+            <BuyLink search="mosquito magnet lurex3 attractant">Attractant refills →</BuyLink>
+          </div>
           <h2>How Mosquito Magnets Actually Work</h2>
           <p>Mosquito Magnets burn propane in a catalytic converter to produce CO₂, heat, and moisture — the three primary cues a female mosquito uses to locate a blood meal. The exhaust plume drifts downwind, attracting mosquitoes from up to 100 metres away. As mosquitoes approach the device, a vacuum fan sucks them into a fine mesh net where they dehydrate and die within hours.</p>
           <p>Adding an Octenol or Lurex attractant cartridge enhances the realism of the cues — these are synthetic versions of human skin compounds that further attract mosquitoes. The cartridges last about 21 days and need replacement throughout the season.</p>
@@ -191,6 +199,15 @@ export default function MosquitoMagnetCanadaPage() {
             <li><strong>Properties under 0.25 acres</strong> — the trap circulation radius is mostly outside your property</li>
             <li><strong>Households not committed to 24/7 operation</strong> — turning it off resets the population</li>
           </ul>
+
+          <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
+            <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Or let us handle it</h3>
+            <p className="text-sm text-gray-700 mb-4 leading-relaxed">BuzzSkito&rsquo;s professional barrier spray covers your whole yard from $99 — backed by 150+ five-star reviews and serving 19 GTA cities.</p>
+            <div className="flex flex-wrap items-center gap-4">
+              <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote →</Link>
+              <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
+            </div>
+          </aside>
 
           <h2>Mosquito Magnet vs Other Solutions for GTA Properties</h2>
           <table className="not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">

@@ -1,8 +1,9 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
+import CityHero from '@/components/CityHero'
 import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusinessSchema, speakableSchema, howToSchema } from '@/lib/seo'
-import { BUSINESS, TICK_BLOGS } from '@/lib/constants'
+import { TICK_BLOGS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
   title: 'Halton Hills Tick Control 2026 · From $99 · 150+ Five-Star Reviews',
@@ -36,32 +37,20 @@ export default function HaltonHillsTickPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema({ areaServed: CITY })) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema({ name: `Tick Spray ${CITY}`, description: `Professional tick barrier spray service in ${CITY}, Ontario. Kills ticks at all life stages.`, slug: '/halton-hills-tick-spray', city: CITY })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema({ name: `Tick Spray ${CITY}`, description: `Professional tick barrier spray service in ${CITY}, Ontario. Kills ticks at all life stages.`, slug: '/halton-hills-tick-spray', city: CITY, price: null })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Tick Control', url: '/tick-control' }, { name: CITY, url: '/halton-hills-tick-spray' }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema({ service: 'tick', city: 'Halton Hills' })) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema('/halton-hills-tick-spray')) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema('/halton-hills-tick-spray', '2026-07-01')) }} />
 
-      <section className="bg-gradient-to-br from-brand-950 via-brand-900 to-amber-900 text-white py-16 px-4">
-        <div className="max-w-4xl mx-auto">
-          <nav aria-label="Breadcrumb" className="text-brand-400 text-sm mb-4 flex gap-1">
-            <Link href="/" className="hover:text-white">Home</Link><span>/</span>
-            <Link href="/tick-control" className="hover:text-white">Tick Control</Link><span>/</span>
-            <span className="text-white">{CITY}</span>
-          </nav>
-          <h1 className="text-4xl sm:text-5xl font-extrabold mb-5">
-            {CITY} Tick Control<br/>
-            <span className="text-amber-400">From $99 · 150+ Five-Star Reviews</span>
-          </h1>
-          <p className="text-xl text-brand-100 max-w-2xl mb-8">
-            Halton Hills has among the highest tick risk in the western GTA. Credit River, Silver Creek, and the Niagara Escarpment trail system all host established blacklegged tick populations. BuzzSkito protects your family from Lyme disease.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4">
-            <Link href="/free-yard-assessment" className="inline-block bg-amber-500 hover:bg-amber-400 text-white font-extrabold px-8 py-4 rounded-full text-lg shadow-xl transition-colors text-center">Get a Free Quote</Link>
-            <a href={BUSINESS.phoneHref} className="inline-flex items-center justify-center border-2 border-white text-white hover:bg-white hover:text-brand-900 font-bold px-8 py-4 rounded-full text-lg transition-colors">{BUSINESS.phone}</a>
-          </div>
-        </div>
-      </section>
+      <CityHero
+        breadcrumbs={[{ label: 'Home', href: '/' }, { label: 'Tick Control', href: '/tick-control' }, { label: CITY }]}
+        title={<>{CITY} Tick Control</>}
+        titleAccent={<>From $99 · 150+ Five-Star Reviews</>}
+        subtitle={<>Halton Hills has among the highest tick risk in the western GTA. Credit River, Silver Creek, and the Niagara Escarpment trail system all host established blacklegged tick populations. BuzzSkito protects your family from Lyme disease.</>}
+        image="/spray-front.webp"
+        imageAlt="BuzzSkito technician treating lawn edges and garden borders for ticks"
+      />
 
       
       {/* Trust bar */}
@@ -90,7 +79,8 @@ export default function HaltonHillsTickPage() {
       {/* How It Works */}
       <section className="py-12 px-4 bg-white border-b border-gray-100">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-2xl font-extrabold text-brand-900 mb-8 text-center">How BuzzSkito Tick Control Works</h2>
+          <p className="kicker mb-3 text-center">Our Process</p>
+          <h2 className="h2-display text-brand-900 mb-8 text-center">How BuzzSkito Tick Control Works</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               { step: '1', title: 'Property Tick Assessment', desc: 'We identify tick habitat zones — lawn-to-woods transitions, leaf litter, garden bed edges, and fence lines on your property.' },
@@ -154,7 +144,8 @@ export default function HaltonHillsTickPage() {
       {/* Testimonials */}
       <section className="py-12 px-4 bg-white border-t border-gray-100">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-2xl font-extrabold text-brand-900 mb-2 text-center">What GTA Homeowners Say About Our Tick Control</h2>
+          <p className="kicker mb-3 text-center">Customer Reviews</p>
+          <h2 className="h2-display text-brand-900 mb-2 text-center">What GTA Homeowners Say About Our Tick Control</h2>
           <p className="text-center text-gray-500 text-sm mb-8">From our 150+ five-star Google reviews</p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {[
@@ -183,8 +174,8 @@ export default function HaltonHillsTickPage() {
           <h2 className="text-2xl font-extrabold text-brand-900 mb-6">FAQ – Tick Spray in {CITY}</h2>
           <div className="space-y-3">
             {FAQS.map(({ question, answer }) => (
-              <details key={question} className="bg-white rounded-xl border border-brand-100 group">
-                <summary className="cursor-pointer px-5 py-4 font-semibold text-brand-900 list-none flex justify-between items-center">
+              <details key={question} className="bg-white rounded-xl border border-brand-100 group open:shadow-md transition-shadow">
+                <summary className="cursor-pointer px-5 py-4 font-semibold text-brand-900 list-none flex justify-between items-center rounded-xl hover:bg-brand-100/60 transition-colors">
                   <span>{question}</span>
                   <svg className="w-5 h-5 shrink-0 group-open:rotate-180 transition-transform text-brand-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
                 </summary>

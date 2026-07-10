@@ -220,6 +220,9 @@ export default function TicksInOntarioStatisticsPage() {
         name: 'Ticks in Ontario: 2026 Statistics, Species & Risk Data',
         description: 'Aggregated statistics on ticks in Ontario for 2026: blacklegged tick Lyme infection prevalence in established risk areas, human Lyme disease case counts (Ontario and Canada, 2020-2024), recorded tick species, species submission shares, and tick activity season.',
         url: `https://buzzskito.ca${SLUG}`,
+        datePublished: '2026-06-19',
+        dateModified: '2026-07-01',
+        distribution: { '@type': 'DataDownload', encodingFormat: 'text/html', contentUrl: `https://buzzskito.ca${SLUG}` },
         license: 'https://creativecommons.org/licenses/by/4.0/',
         creator: {
           '@type': 'Organization',
@@ -263,7 +266,7 @@ export default function TicksInOntarioStatisticsPage() {
           <p className="text-xs font-extrabold text-amber-700 uppercase tracking-wider mb-2">Quick Answer</p>
           <h2 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-3">What percentage of ticks carry Lyme disease in Ontario?</h2>
           <p className="speakable text-base text-gray-800 leading-relaxed">
-            <strong>In Ontario&rsquo;s established risk areas, approximately 20% of blacklegged ticks carry the Lyme disease bacterium &mdash; with rates exceeding 20% in Toronto and Northwestern Ontario.</strong> Only the blacklegged tick (Ixodes scapularis) spreads Lyme; it is 1 of 43 tick species recorded in Ontario and roughly 55% of all ticks submitted to surveillance. Human Lyme cases are climbing fast: Ontario reported 2,369 cases in 2024 &mdash; up 27% over 2023 and the most of any province (Public Health Agency of Canada). Outside established risk areas, infection prevalence is near zero, so the &ldquo;~20%&rdquo; figure should always be read as applying to risk areas.
+According to BuzzSkito&rsquo;s analysis of Northwestern Health Unit and City of Toronto surveillance data, <strong>in Ontario&rsquo;s established risk areas, approximately 20% of blacklegged ticks carry the Lyme disease bacterium &mdash; with rates exceeding 20% in Toronto and Northwestern Ontario.</strong> Only the blacklegged tick (Ixodes scapularis) spreads Lyme; it is 1 of 43 tick species recorded in Ontario and roughly 55% of all ticks submitted to surveillance. Human Lyme cases are climbing fast: Ontario reported 2,369 cases in 2024 &mdash; up 27% over 2023 and the most of any province (Public Health Agency of Canada). Outside established risk areas, infection prevalence is near zero, so the &ldquo;~20%&rdquo; figure should always be read as applying to risk areas.
           </p>
         </div>
       </section>

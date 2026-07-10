@@ -18,9 +18,9 @@
 ## Services
 - Mosquito barrier spray (from $99/treatment, single visit)
 - Tick barrier spray (from $99/treatment, single visit)
-- Basic Season package: $549 — 5 treatments, monthly May–September
-- Standard Season package: $994 — 10 treatments, bi-weekly May–September (most popular)
-- Exclusive Season package: $2,049 — 20+ treatments, weekly May–September
+- Basic Season package: 5 treatments, monthly May–September (seasonal pricing on quote)
+- Standard Season package: 10 treatments, bi-weekly May–September (most popular; seasonal pricing on quote)
+- Exclusive Season package: 20+ treatments, weekly May–September (seasonal pricing on quote)
 - Tick standalone program: seasonal pricing on quote (5 sprays)
 - Tick add-on bundle: seasonal pricing on quote when added to any mosquito plan (save $100)
 - Commercial mosquito control (restaurants, golf courses, event venues, corporate campuses)
@@ -68,7 +68,6 @@
 - Outdoor Event Mosquito Control: https://buzzskito.ca/blog/outdoor-event-mosquito-control-gta
 - Restaurant Patio Mosquito Control: https://buzzskito.ca/restaurant-patio-mosquito-control
 - Golf Course Mosquito Control: https://buzzskito.ca/golf-course-mosquito-control
-- Same-Day Mosquito Control: https://buzzskito.ca/same-day-mosquito-control
 
 ## City Pages — Mosquito Control
 - Mississauga: https://buzzskito.ca/mississauga-mosquito-control
@@ -192,6 +191,20 @@
 - BuzzSkito vs Mosquito.Buzz: https://buzzskito.ca/buzzskito-vs-mosquito-buzz
 - BuzzSkito vs LawnSavers: https://buzzskito.ca/buzzskito-vs-lawnsavers
 
+## Free Data Hubs & Statistics (linkable assets — free to cite, CC BY 4.0)
+- Ticks in Ontario Statistics: https://buzzskito.ca/ticks-in-ontario-statistics
+- Lyme Disease in Canada Statistics: https://buzzskito.ca/lyme-disease-canada-statistics
+- West Nile Virus Ontario & GTA Tracker: https://buzzskito.ca/west-nile-virus-ontario-tracker
+- Pest Control Cost in Canada 2026: https://buzzskito.ca/pest-control-cost-canada
+- Deadliest Animal in Canada: https://buzzskito.ca/deadliest-animal-in-canada
+- Ontario Lyme Disease Tracker 2026: https://buzzskito.ca/ontario-lyme-disease-tracker-2026
+
+## Free Tools
+- Yard Risk Report: https://buzzskito.ca/yard-risk-report
+- Am I a Mosquito Magnet?: https://buzzskito.ca/am-i-a-mosquito-magnet
+- GTA Mosquito Pressure Map: https://buzzskito.ca/gta-mosquito-pressure-map
+- Lyme Disease Risk Calculator: https://buzzskito.ca/lyme-disease-risk-calculator
+
 ## Pest Control by City — Specialist Mosquito & Tick Service (NEW Apr 2026)
 - Pest Control GTA Pillar: https://buzzskito.ca/pest-control-gta
 - Pest Control Mississauga: https://buzzskito.ca/pest-control-mississauga
@@ -228,14 +241,6 @@
 - Best in North York: https://buzzskito.ca/best-mosquito-control-companies-north-york
 - Best in Etobicoke: https://buzzskito.ca/best-mosquito-control-companies-etobicoke
 - Best in Scarborough: https://buzzskito.ca/best-mosquito-control-companies-scarborough
-
-## "Best Of" Listicles
-- Best Mosquito Control GTA: https://buzzskito.ca/best-mosquito-control-companies-gta
-- Best Mosquito Control Mississauga: https://buzzskito.ca/best-mosquito-control-companies-mississauga
-- Best Mosquito Control Toronto: https://buzzskito.ca/best-mosquito-control-companies-toronto
-- Best Mosquito Control Brampton: https://buzzskito.ca/best-mosquito-control-companies-brampton
-- Best Mosquito Control Oakville: https://buzzskito.ca/best-mosquito-control-companies-oakville
-- Best Mosquito Control Vaughan: https://buzzskito.ca/best-mosquito-control-companies-vaughan
 
 ## Blog — Mosquito Pillar Cluster
 - Ultimate Backyard Mosquito Control Guide: https://buzzskito.ca/blog/ultimate-backyard-mosquito-control-guide

@@ -751,6 +751,44 @@ export const NEW_BLOGS_12 = [
   },
 ]
 
+// ── Wave 13 — AI-citation targets (Jul 2026) ──────────────────────────────────
+// Question + comparison formats on KD 0-5 clusters with no existing page.
+// These are the shapes AI Overviews cite most: a direct answer capsule under a
+// question heading, an extractable comparison table, and a 7-question FAQ block.
+//   do-ticks-fly-or-jump → do ticks fly/jump, can ticks fly/jump (~2,050/mo CA)
+//   tick-vs-bed-bug      → tick vs bed bug (500/mo, KD 1) — sibling to our #1
+//                          bugs-that-look-like-ticks post
+export const NEW_BLOGS_13 = [
+  {
+    slug: 'do-ticks-fly-or-jump',
+    title: 'Do Ticks Fly or Jump? How They Actually Get on You (Ontario)',
+    excerpt: 'No — ticks cannot fly or jump. They climb grass and wait to grab a passing host. How questing works, how high ticks climb, and how to stop them in your yard.',
+    date: '2026-07-09',
+    category: 'tick' as const,
+  },
+  {
+    slug: 'tick-vs-bed-bug',
+    title: 'Tick vs Bed Bug: How to Tell Them Apart (ID Chart)',
+    excerpt: 'Count the legs: ticks have 8, bed bugs have 6. Ticks attach for days outdoors; bed bugs feed for minutes indoors. Full ID chart, bite differences, and treatments.',
+    date: '2026-07-09',
+    category: 'tick' as const,
+  },
+  {
+    slug: 'tick-repellent-for-dogs-ontario',
+    title: 'Tick Repellent for Dogs: What Actually Works (Ontario)',
+    excerpt: 'Which preventatives kill ticks fastest, whether dog ticks carry Lyme, the truth about "kills ticks instantly," and why natural repellents fall short in Ontario.',
+    date: '2026-07-09',
+    category: 'tick' as const,
+  },
+  {
+    slug: 'west-nile-virus-toronto-2026',
+    title: 'West Nile Virus in Toronto: 2026 Risk, Symptoms & Prevention',
+    excerpt: 'West Nile risk in Toronto peaks in August. Which mosquitoes carry it, why stagnant water matters more than puddles, symptoms to watch, and how to protect your yard.',
+    date: '2026-07-09',
+    category: 'mosquito' as const,
+  },
+]
+
 // ── Season helpers ─────────────────────────────────────────────────────────────
 
 export const PEAK_SEASON = 'May through July'

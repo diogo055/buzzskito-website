@@ -9,13 +9,13 @@ export default function Footer() {
   const tickCities = CITIES.map((c) => ({ name: c.name, href: c.tickSlug }))
 
   return (
-    <footer className="bg-brand-950 text-brand-300" role="contentinfo">
+    <footer className="ink-band text-brand-300" role="contentinfo">
       {/* localBusinessSchema is emitted per-page (with city-specific areaServed) — not in Footer to avoid duplicate aggregateRating. */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 py-14">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 py-16">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 gap-8">
 
           {/* Brand */}
-          <div className="lg:col-span-2">
+          <div className="sm:col-span-2 lg:col-span-2">
             <Link href="/" className="inline-flex items-center gap-2 mb-4">
               <Image
                 src="/logo.webp"
@@ -48,6 +48,13 @@ export default function Footer() {
               </div>
               <div className="text-brand-400 text-xs mt-1">{BUSINESS.hoursDisplay}</div>
             </address>
+
+            {/* Review proof block */}
+            <div className="mt-5 rounded-xl border border-white/10 bg-white/5 px-4 py-3 max-w-xs">
+              <p className="text-amber-400 text-sm font-bold">★★★★★ 5.0 on Google</p>
+              <p className="text-xs text-brand-400 mt-0.5">150+ reviews · every single one five stars</p>
+            </div>
+
             <div className="mt-4 flex gap-3">
               <a
                 href={BUSINESS.facebookUrl}
@@ -67,7 +74,8 @@ export default function Footer() {
                 className="text-brand-400 hover:text-white transition-colors text-xs font-medium self-center flex items-center gap-1"
                 aria-label="Leave a Google review for BuzzSkito"
               >
-                ⭐ Leave a Google Review
+                <svg className="w-3.5 h-3.5 text-amber-400" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 2 3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                Leave a Google Review
               </a>
             </div>
           </div>
@@ -98,27 +106,27 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Company + Blog */}
+          {/* Company */}
           <div>
             <h3 className="text-white font-bold text-sm uppercase tracking-wider mb-4">Company</h3>
-            <ul className="space-y-2 text-sm mb-6">
+            <ul className="space-y-2 text-sm">
               <li><Link href="/buzzskito-history" className="hover:text-white transition-colors">About BuzzSkito</Link></li>
               <li><Link href="/reviews" className="hover:text-white transition-colors">Reviews (150+ ★★★★★)</Link></li>
-              <li><Link href="/buzzskito-2026-gta-mosquito-tick-report" className="hover:text-white transition-colors">2026 GTA Mosquito & Tick Report</Link></li>
-              <li><Link href="/mosquito-tick-control-glossary" className="hover:text-white transition-colors">Mosquito & Tick Glossary</Link></li>
               <li><Link href="/how-it-works" className="hover:text-white transition-colors">How It Works</Link></li>
-              <li><Link href="/pest-control-gta" className="hover:text-white transition-colors">Pest Control GTA</Link></li>
-              <li><Link href="/best-mosquito-control-companies-gta" className="hover:text-white transition-colors">Best Mosquito Companies</Link></li>
               <li><Link href="/frequently-asked-question" className="hover:text-white transition-colors">FAQ</Link></li>
               <li><Link href="/mosquito-control-cost" className="hover:text-white transition-colors">2026 Pricing Guide</Link></li>
-              <li><Link href="/mosquito-control-near-me" className="hover:text-white transition-colors">Mosquito Control Near Me</Link></li>
-              <li><Link href="/tick-control-near-me" className="hover:text-white transition-colors">Tick Control Near Me</Link></li>
               <li><Link href="/commercial-mosquito-control" className="hover:text-white transition-colors">Commercial Services</Link></li>
               <li><Link href="/service-areas" className="hover:text-white transition-colors">All Service Areas</Link></li>
               <li><Link href="/contact" className="hover:text-white transition-colors">Contact / Get a Quote</Link></li>
-              <li><Link href="/privacy-policy" className="hover:text-white transition-colors">Privacy Policy</Link></li>
-              <li><Link href="/terms" className="hover:text-white transition-colors">Terms &amp; Conditions</Link></li>
+              <li><Link href="/best-mosquito-control-companies-gta" className="hover:text-white transition-colors">Best Mosquito Companies</Link></li>
+              <li><Link href="/pest-control-gta" className="hover:text-white transition-colors">Pest Control GTA</Link></li>
+              <li><Link href="/mosquito-control-near-me" className="hover:text-white transition-colors">Mosquito Control Near Me</Link></li>
+              <li><Link href="/tick-control-near-me" className="hover:text-white transition-colors">Tick Control Near Me</Link></li>
             </ul>
+          </div>
+
+          {/* Resources — tools, data, guides */}
+          <div>
             <h3 className="text-white font-bold text-sm uppercase tracking-wider mb-4">Free Tools</h3>
             <ul className="space-y-2 text-sm mb-6">
               <li><Link href="/yard-risk-report" className="hover:text-white transition-colors">Yard Risk Report</Link></li>
@@ -134,6 +142,8 @@ export default function Footer() {
               <li><Link href="/west-nile-virus-ontario-tracker" className="hover:text-white transition-colors">West Nile Virus Ontario Tracker</Link></li>
               <li><Link href="/pest-control-cost-canada" className="hover:text-white transition-colors">Pest Control Cost in Canada</Link></li>
               <li><Link href="/deadliest-animal-in-canada" className="hover:text-white transition-colors">Deadliest Animal in Canada</Link></li>
+              <li><Link href="/buzzskito-2026-gta-mosquito-tick-report" className="hover:text-white transition-colors">2026 GTA Mosquito &amp; Tick Report</Link></li>
+              <li><Link href="/mosquito-tick-control-glossary" className="hover:text-white transition-colors">Mosquito &amp; Tick Glossary</Link></li>
             </ul>
             <h3 className="text-white font-bold text-sm uppercase tracking-wider mb-4">Latest Posts</h3>
             <ul className="space-y-2 text-sm">
@@ -145,7 +155,7 @@ export default function Footer() {
         </div>
 
         {/* Credentials bar */}
-        <div className="border-t border-brand-900 mt-10 pt-6 pb-4">
+        <div className="border-t border-white/10 mt-10 pt-6 pb-4">
           <div className="flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-xs text-brand-400">
             <span><strong className="text-brand-300">Canada Business Reg#</strong> {BUSINESS.canadaBusinessReg}</span>
             <span aria-hidden="true">·</span>
@@ -158,7 +168,7 @@ export default function Footer() {
         </div>
 
         {/* Trusted Resources — outbound authority citations boost AI Overview eligibility */}
-        <div className="border-t border-brand-900 pt-5 pb-4">
+        <div className="border-t border-white/10 pt-5 pb-4">
           <p className="text-xs text-brand-500 text-center mb-2 font-semibold uppercase tracking-wider">Trusted Public Health & Regulatory Resources</p>
           <div className="flex flex-wrap items-center justify-center gap-x-5 gap-y-2 text-xs text-brand-400">
             <a href="https://www.canada.ca/en/health-canada/services/consumer-product-safety/pesticides-pest-management.html" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Health Canada — Pesticides &amp; Pest Management</a>
@@ -171,7 +181,7 @@ export default function Footer() {
         </div>
 
         {/* Bottom */}
-        <div className="border-t border-brand-900 pt-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-brand-500">
+        <div className="border-t border-white/10 pt-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-brand-500">
           <p>© {year} {BUSINESS.legalName}. All rights reserved. · Mississauga, ON</p>
           <p className="hidden sm:block text-center">Serving 19 cities across the Greater Toronto Area</p>
           <div className="flex gap-4">

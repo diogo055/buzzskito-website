@@ -2,6 +2,8 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import BuyLink from '@/components/BuyLink'
+import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 
 const SLUG = 'mosquito-bits-canada-vs-dunks'
 const DATE = '2026-05-01'
@@ -82,6 +84,7 @@ export default function MosquitoBitsCanadaPage() {
           <p className="text-sm text-gray-700 mb-5 leading-relaxed">
             Summit Chemical Mosquito Bits (orange and green container) is the most widely-stocked brand across Canadian retailers. Pricing varies by retailer and time of year — buy in spring before peak-season markup.
           </p>
+          <AffiliateDisclosure />
           <div className="rounded-xl border border-navy-100 overflow-hidden bg-white shadow-sm">
             <table className="w-full text-sm">
               <thead className="bg-brand-800 text-white">
@@ -110,6 +113,10 @@ export default function MosquitoBitsCanadaPage() {
                 ))}
               </tbody>
             </table>
+          </div>
+          <div className="mt-4 flex flex-wrap items-center gap-3">
+            <BuyLink search="summit mosquito bits">Check Mosquito Bits price on Amazon.ca →</BuyLink>
+            <BuyLink search="summit mosquito dunks">Compare with Mosquito Dunks →</BuyLink>
           </div>
           <p className="text-xs text-gray-500 mt-3">
             Prices accurate as of May 2026. The 30-oz value pack is roughly 33% cheaper per ounce — buy it if you have multiple rain barrels, a pond, or want to share with a neighbour. Stock up in April–May before peak-season demand.
@@ -204,6 +211,15 @@ export default function MosquitoBitsCanadaPage() {
             <li><strong>Tree holes and stump cavities</strong></li>
             <li><strong>Any standing water you can&rsquo;t check on weekly</strong></li>
           </ul>
+
+          <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
+            <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Or let us handle it</h3>
+            <p className="text-sm text-gray-700 mb-4 leading-relaxed">BuzzSkito&rsquo;s professional barrier spray covers your whole yard from $99 — backed by 150+ five-star reviews and serving 19 GTA cities.</p>
+            <div className="flex flex-wrap items-center gap-4">
+              <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote →</Link>
+              <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
+            </div>
+          </aside>
 
           <h2>The Smart Approach: Use Both</h2>
           <p>Most Canadian homeowners with mosquito issues end up using BOTH. The dunk goes in the rain barrel for set-and-forget protection — drop it in May, forget about it until June. The bits container sits in the garden shed for emergency use whenever you discover larvae somewhere unexpected.</p>

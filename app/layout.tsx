@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from 'next'
-import { Inter } from 'next/font/google'
+import { Inter, Bricolage_Grotesque } from 'next/font/google'
 import Script from 'next/script'
 import { SpeedInsights } from '@vercel/speed-insights/next'
 import './globals.css'
@@ -9,12 +9,21 @@ import StickyRiskCTA from '@/components/StickyRiskCTA'
 import PressMentionBanner from '@/components/PressMentionBanner'
 import ExitIntentPopup from '@/components/ExitIntentPopup'
 import { BUSINESS, SITE_URL } from '@/lib/constants'
-import { websiteSchema, organizationSchema } from '@/lib/seo'
+import { websiteSchema, organizationSchema, personSchema } from '@/lib/seo'
 
 const inter = Inter({
   subsets: ['latin'],
   display: 'swap',
   variable: '--font-inter',
+})
+
+// Display face for headlines only (700/800 weights) — one small woff2,
+// swap-loaded so there's zero CLS. Body text stays Inter.
+const bricolage = Bricolage_Grotesque({
+  subsets: ['latin'],
+  weight: ['700', '800'],
+  display: 'swap',
+  variable: '--font-display',
 })
 
 export const metadata: Metadata = {
@@ -77,7 +86,7 @@ export const viewport: Viewport = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en-CA" className={inter.variable}>
+    <html lang="en-CA" className={`${inter.variable} ${bricolage.variable}`}>
       <head>
         {/* Motion gate: scroll-reveal initial-hidden CSS only applies under
             html.anim, so no-JS users and HTML crawlers always see full content.
@@ -95,6 +104,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema()) }}
         />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(personSchema()) }}
+        />
         {/* DNS prefetch for performance */}
         <link rel="dns-prefetch" href="//www.google-analytics.com" />
         <link rel="dns-prefetch" href="//connect.facebook.net" />
@@ -111,20 +124,25 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Footer />
 
         {/* ── Sticky Mobile CTA Bar ──────────────────────────────────── */}
-        <div className="fixed bottom-0 left-0 right-0 z-50 bg-brand-950 border-t border-brand-800 px-4 py-3 flex gap-3 sm:hidden" role="complementary" aria-label="Quick actions">
-          <a
-            href={`tel:${BUSINESS.phone.replace(/[^+\d]/g, '')}`}
-            className="flex-1 bg-white text-brand-900 font-bold text-sm py-3 rounded-full text-center flex items-center justify-center gap-2"
-          >
-            <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
-            Call Now
-          </a>
-          <a
-            href="/free-yard-assessment"
-            className="flex-1 bg-amber-500 text-white font-bold text-sm py-3 rounded-full text-center"
-          >
-            Free Quote
-          </a>
+        <div className="fixed bottom-0 left-0 right-0 z-50 bg-ink-950 border-t border-white/10 px-4 pb-3 pt-1.5 sm:hidden" role="complementary" aria-label="Quick actions">
+          <p className="text-center text-[10px] font-semibold text-brand-300 mb-1.5" aria-hidden="true">
+            <span className="text-amber-400">★ 5.0</span> · 150+ Google reviews · Bite-Free Guarantee
+          </p>
+          <div className="flex gap-3">
+            <a
+              href={`tel:${BUSINESS.phone.replace(/[^+\d]/g, '')}`}
+              className="flex-1 bg-white text-brand-900 font-bold text-sm py-3 rounded-full text-center flex items-center justify-center gap-2"
+            >
+              <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+              Call Now
+            </a>
+            <a
+              href="/free-yard-assessment"
+              className="flex-1 bg-gradient-to-b from-amber-500 to-amber-600 text-white font-bold text-sm py-3 rounded-full text-center"
+            >
+              Free Quote
+            </a>
+          </div>
         </div>
 
         {/* ── Google Analytics GA4 ─────────────────────────────────────── */}

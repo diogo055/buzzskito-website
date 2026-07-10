@@ -2,6 +2,8 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import BuyLink from '@/components/BuyLink'
+import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 
 const SLUG = 'tick-removal-tool-guide'
 const DATE = '2026-04-26'
@@ -72,6 +74,12 @@ export default function TickRemovalToolGuidePage() {
 
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
+          <AffiliateDisclosure />
+          <p className="not-prose text-sm text-gray-600 mb-1">The two tools vets and Canadian hikers keep on hand — a fine-tipped tweezer and a tick-hook set (under $15):</p>
+          <div className="not-prose mb-6 flex flex-wrap gap-3">
+            <BuyLink search="tick twister removal tool">Check tick-removal tools on Amazon.ca →</BuyLink>
+            <BuyLink search="fine tip tick tweezers">Fine-tip tick tweezers →</BuyLink>
+          </div>
           <p className="lead text-xl text-gray-700 leading-relaxed mb-6">Removing a tick correctly takes 30 seconds with the right tool. Done wrong, you can break off the mouthparts, squeeze the tick&rsquo;s body and increase Lyme disease risk, or just panic. Here&rsquo;s the honest 2026 guide to what tools actually work.</p>
 
           <h2>The Top 3 Tick Removal Tools (Ranked)</h2>

@@ -33,12 +33,18 @@ const FAQS = [
   },
 ]
 
+// TITLE NOTE (Jul 2026): was 68 chars and Google truncated it. This page carries
+// ~39,600 impressions/mo at position ~7.9 with 0.87% CTR — the single largest CTR
+// upside on the site (~650 clicks/mo). Trimmed under 60 chars, query front-loaded.
+// Caveat: part of the low CTR is structural — an AI Overview answers this query and
+// cites us. Measure for 4 weeks before changing again; don't churn the title.
 export const metadata: Metadata = buildMetadata({
-  title: 'Bugs That Look Like Ticks (But Aren\'t): 5 Lookalikes + Photo ID Chart',
-  description: 'Found a bug that looks like a tick? Check it against 5 common lookalikes — bed bugs, weevils, spider beetles, bat bugs — with photos and the 30-second leg-count test. Ontario 2026.',
+  title: 'Bugs That Look Like Ticks: 5 Lookalikes (Photo ID Chart)',
+  description: 'Found a bug that looks like a tick? Count the legs — ticks have 8. Compare it to bed bugs, weevils, spider beetles and bat bugs, with photos and a 30-second ID test.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
+  modifiedTime: '2026-07-09',
 })
 
 export default function BugsThatLookLikeTicksPage() {
@@ -107,6 +113,15 @@ export default function BugsThatLookLikeTicksPage() {
           <li><strong>Where you found it:</strong> Weevils are almost always found in stored food — flour, oats, pet kibble, dried beans. They are never found attached to skin.</li>
         </ul>
         <p>If your &quot;tick&quot; came out of a bag of flour or a container of dog food, it is a weevil. The fix is to discard infested food and clean the pantry thoroughly. Weevils do not bite humans and do not transmit disease.</p>
+
+        <aside aria-label="Professional tick control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
+          <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Skip the tick worry entirely</h3>
+          <p className="text-sm text-gray-700 mb-4 leading-relaxed">Professional tick barrier treatment targets the zones where ticks actually wait — garden edges, fence lines, and shaded borders. BuzzSkito protects GTA yards with seasonal programs and single treatments from $99.</p>
+          <div className="flex flex-wrap items-center gap-4">
+            <Link href="/tick-control" className="btn-primary-sm">Explore Tick Control →</Link>
+            <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
+          </div>
+        </aside>
 
         <h2>3. Spider Beetles</h2>
         <p>Spider beetles (<em>Ptinidae</em> family, especially the American spider beetle and shiny spider beetle) are one of the most convincing tick look-alikes. They are 1.5–4 mm long, reddish-brown to dark brown, with a humped, oval body and long legs that give them a vaguely spider-like silhouette. Found in homes, especially older ones, near stored food, attics, basements, and old bird nests.</p>

@@ -13,7 +13,7 @@ export default function CTASection({
   subtext = 'Get a free, no-obligation quote for mosquito and tick control at your property.',
   variant = 'green',
 }: CTASectionProps) {
-  const bg   = variant === 'dark' ? 'bg-brand-950' : variant === 'light' ? 'bg-brand-50' : 'bg-brand-700'
+  const bg   = variant === 'dark' ? 'ink-band' : variant === 'light' ? 'bg-brand-50' : 'bg-brand-700'
   const text = variant === 'light' ? 'text-brand-900' : 'text-white'
   const sub  = variant === 'light' ? 'text-brand-700' : 'text-brand-100'
   const btnBorder = variant === 'light'
@@ -23,7 +23,7 @@ export default function CTASection({
   return (
     <section className={`${bg} py-16 px-4`} aria-label="Call to action">
       <div className="max-w-3xl mx-auto text-center">
-        <h2 className={`text-3xl sm:text-4xl font-extrabold ${text} mb-4`}>{heading}</h2>
+        <h2 className={`font-display text-3xl sm:text-4xl font-extrabold tracking-tight ${text} mb-4`}>{heading}</h2>
         <p className={`text-lg ${sub} mb-6 max-w-xl mx-auto leading-relaxed`}>{subtext}</p>
         <div className="flex justify-center mb-7">
           <GoogleReviews light={variant === 'light'} />
@@ -31,13 +31,14 @@ export default function CTASection({
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Link
             href="/free-yard-assessment"
-            className="btn-sheen press-scale inline-block bg-amber-500 hover:bg-amber-400 text-white font-extrabold px-8 py-4 rounded-full text-lg shadow-xl transition-colors"
+            className="btn-primary press-scale"
           >
             Get a Free Quote
+            <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
           </Link>
           <a
             href={BUSINESS.phoneHref}
-            className={`press-scale inline-flex items-center justify-center gap-2 border-2 ${btnBorder} font-bold px-8 py-4 rounded-full text-lg transition-colors`}
+            className={`press-scale btn-ghost ${btnBorder}`}
             aria-label={`Call BuzzSkito at ${BUSINESS.phone}`}
           >
             <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">

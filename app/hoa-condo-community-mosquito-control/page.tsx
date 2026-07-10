@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
+import CityHero from '@/components/CityHero'
+import QuickAnswer from '@/components/QuickAnswer'
 import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusinessSchema, speakableSchema, howToSchema } from '@/lib/seo'
 import { BUSINESS } from '@/lib/constants'
 
@@ -56,29 +58,21 @@ export default function HOACondoMosquitoControlPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Commercial', url: '/commercial-mosquito-control' }, { name: 'HOA & Condo Communities', url: SLUG }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema({ service: 'mosquito' })) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(SLUG)) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(SLUG, '2026-07-01')) }} />
 
-      <section className="bg-gradient-to-br from-brand-950 via-brand-900 to-brand-700 text-white py-16 px-4">
-        <div className="max-w-5xl mx-auto">
-          <nav aria-label="Breadcrumb" className="text-brand-400 text-sm mb-4 flex gap-1">
-            <Link href="/" className="hover:text-white">Home</Link><span>/</span>
-            <Link href="/commercial-mosquito-control" className="hover:text-white">Commercial</Link><span>/</span>
-            <span className="text-white">HOA &amp; Condo Communities</span>
-          </nav>
-          <p className="text-xs font-extrabold text-amber-400 uppercase tracking-widest mb-3">For Property Managers &amp; Condo Boards · GTA-Wide · Single Invoice Contracts</p>
-          <h1 className="text-4xl sm:text-5xl font-extrabold mb-5 leading-tight">
-            HOA &amp; Condo Community Mosquito Control<br/>
-            <span className="text-amber-400">GTA · 150+ Five-Star Reviews</span>
-          </h1>
-          <p className="text-xl text-brand-100 max-w-3xl mb-8 leading-relaxed">
-            Common-area mosquito and tick barrier spray for condo, HOA, and townhouse communities across the GTA. Board-friendly single-invoice contracts, written treatment records, resident notification support, and retention pond BTI larvicide. Designed for property managers and condo board governance.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4">
-            <Link href="/free-yard-assessment" className="inline-block bg-amber-500 hover:bg-amber-400 text-white font-extrabold px-8 py-4 rounded-full text-lg shadow-xl transition-colors text-center">Request Community Quote</Link>
-            <a href={BUSINESS.phoneHref} className="inline-flex items-center justify-center border-2 border-white text-white hover:bg-white hover:text-brand-900 font-bold px-8 py-4 rounded-full text-lg transition-colors">{BUSINESS.phone}</a>
-          </div>
-        </div>
-      </section>
+      <CityHero
+        breadcrumbs={[
+          { label: 'Home', href: '/' },
+          { label: 'Commercial', href: '/commercial-mosquito-control' },
+          { label: 'HOA & Condo Communities' },
+        ]}
+        title={<>HOA &amp; Condo Community Mosquito Control</>}
+        titleAccent={<>GTA · 150+ Five-Star Reviews</>}
+        subtitle={<>Common-area mosquito and tick barrier spray for condo, HOA, and townhouse communities across the GTA. Board-friendly single-invoice contracts, written treatment records, resident notification support, and retention pond BTI larvicide. Designed for property managers and condo board governance.</>}
+        image="/spray-backyard.webp"
+      >
+        <p className="text-xs font-extrabold text-amber-400 uppercase tracking-widest mt-5">For Property Managers &amp; Condo Boards · GTA-Wide · Single Invoice Contracts</p>
+      </CityHero>
 
       {/* Trust bar */}
       <section className="bg-brand-900 text-white py-4 px-4">
@@ -91,15 +85,11 @@ export default function HOACondoMosquitoControlPage() {
         </div>
       </section>
 
-      <section className="bg-amber-50 border-y-4 border-amber-300 py-10 px-4">
-        <div className="max-w-3xl mx-auto">
-          <p className="text-xs font-extrabold text-amber-700 uppercase tracking-wider mb-2">Quick Answer</p>
-          <h2 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-3">How does HOA or condo community mosquito control differ from residential service?</h2>
-          <p className="text-base text-gray-800 leading-relaxed">
-            <strong>Community mosquito control treats common areas (courtyards, pools, playgrounds, walking paths, retention ponds) under a single contract with the condo board or property management company.</strong> Unlike residential service, community contracts include resident notification support (printable English/French notices, advance signage), board governance documentation (written treatment records suitable for board meetings and resident communications), retention pond BTI larvicide treatment, and coordinated scheduling around community events. Pricing typically runs $5,000-$50,000 per season for 50-200 unit communities. BuzzSkito handles all resident-facing communications for the board, allowing property managers and board members to focus on governance rather than pest control logistics.
-          </p>
-        </div>
-      </section>
+      <QuickAnswer question="How does HOA or condo community mosquito control differ from residential service?">
+        <p>
+          <strong>Community mosquito control treats common areas (courtyards, pools, playgrounds, walking paths, retention ponds) under a single contract with the condo board or property management company.</strong> Unlike residential service, community contracts include resident notification support (printable English/French notices, advance signage), board governance documentation (written treatment records suitable for board meetings and resident communications), retention pond BTI larvicide treatment, and coordinated scheduling around community events. Pricing typically runs $5,000-$50,000 per season for 50-200 unit communities. BuzzSkito handles all resident-facing communications for the board, allowing property managers and board members to focus on governance rather than pest control logistics.
+        </p>
+      </QuickAnswer>
 
       {/* WHY THIS MATTERS FOR BOARDS */}
       <section className="bg-white py-14 px-4">
@@ -218,8 +208,8 @@ export default function HOACondoMosquitoControlPage() {
           <h2 className="text-2xl font-extrabold text-brand-900 mb-6">Frequently asked questions</h2>
           <div className="space-y-3">
             {FAQS.map(({ question, answer }) => (
-              <details key={question} className="bg-white rounded-xl border border-gray-200 group">
-                <summary className="cursor-pointer px-5 py-4 font-bold text-brand-900 list-none flex justify-between items-start gap-3">
+              <details key={question} className="bg-white rounded-xl border border-gray-200 group open:shadow-md transition-shadow">
+                <summary className="cursor-pointer px-5 py-4 font-bold text-brand-900 list-none flex justify-between items-start gap-3 rounded-xl hover:bg-brand-100/60 transition-colors">
                   <span>{question}</span>
                   <span className="text-brand-700 group-open:rotate-180 transition shrink-0">▾</span>
                 </summary>

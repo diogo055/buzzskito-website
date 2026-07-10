@@ -2,6 +2,8 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import BuyLink from '@/components/BuyLink'
+import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 
 const SLUG = 'dynatrap-canada-review'
 const DATE = '2026-05-01'
@@ -168,6 +170,12 @@ export default function DynaTrapCanadaPage() {
 
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
+          <AffiliateDisclosure />
+          <p className="not-prose text-sm text-gray-600 mb-1">Compare current Canadian prices (DT1050, DT1100, DT2030 half/full-acre) and Atrakta refills:</p>
+          <div className="not-prose mb-6 flex flex-wrap gap-3">
+            <BuyLink search="dynatrap insect trap">Check DynaTrap price on Amazon.ca →</BuyLink>
+            <BuyLink search="dynatrap atrakta refill">Atrakta refill cartridges →</BuyLink>
+          </div>
           <h2>How DynaTrap Works (and Why That Matters)</h2>
           <p>DynaTrap uses two ingredients: a UV light to attract insects, and a small fan to suck them into a catch basket where they dehydrate. The premium models add an Atrakta cartridge that releases octenol — a synthetic version of human breath/sweat compounds.</p>
           <p>The problem is fundamental: UV light attracts MANY species of flying insects, but most mosquitoes are <strong>not</strong> primarily UV-attracted. Female mosquitoes (the ones that bite) hunt for blood meals using CO₂, body heat, lactic acid, and skin scent — not light. UV light primarily attracts moths (which use it for navigation), beetles, midges, mayflies, and other phototactic species.</p>
@@ -189,6 +197,15 @@ export default function DynaTrapCanadaPage() {
             <li><strong>Properties bordering conservation areas</strong> — kills beneficial insects including pollinators</li>
             <li><strong>Replacing professional yard treatment</strong> — coverage area is too limited per dollar</li>
           </ul>
+
+          <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
+            <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Or let us handle it</h3>
+            <p className="text-sm text-gray-700 mb-4 leading-relaxed">BuzzSkito&rsquo;s professional barrier spray covers your whole yard from $99 — backed by 150+ five-star reviews and serving 19 GTA cities.</p>
+            <div className="flex flex-wrap items-center gap-4">
+              <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote →</Link>
+              <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
+            </div>
+          </aside>
 
           <h2>DynaTrap vs Real Mosquito Solutions</h2>
           <table className="not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">

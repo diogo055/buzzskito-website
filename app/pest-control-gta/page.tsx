@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
+import CityHero from '@/components/CityHero'
+import QuickAnswer from '@/components/QuickAnswer'
 import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusinessSchema, speakableSchema, howToSchema } from '@/lib/seo'
 import { BUSINESS, CITIES } from '@/lib/constants'
 
@@ -54,44 +56,27 @@ export default function PestControlGTAPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Pest Control GTA', url: '/pest-control-gta' }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema({ service: 'mosquito' })) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema('/pest-control-gta')) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema('/pest-control-gta', '2026-07-01')) }} />
 
       {/* HERO */}
-      <section className="bg-gradient-to-br from-brand-950 via-brand-900 to-amber-900 text-white py-16 px-4">
-        <div className="max-w-5xl mx-auto">
-          <nav aria-label="Breadcrumb" className="text-brand-400 text-sm mb-4 flex items-center gap-1">
-            <Link href="/" className="hover:text-white">Home</Link>
-            <span aria-hidden="true">/</span>
-            <span className="text-white">Pest Control GTA</span>
-          </nav>
-          <h1 className="text-4xl sm:text-5xl font-extrabold mb-5 leading-tight">
-            Pest Control GTA <br/>
-            <span className="text-amber-400">Mosquito &amp; Tick Specialist</span>
-          </h1>
-          <p className="text-xl text-brand-100 max-w-3xl leading-relaxed mb-8">
-            Health Canada–approved barrier spray for mosquitoes and ticks across 19 GTA cities. 150+ five-star reviews. No contracts. From $99 per treatment.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4">
-            <Link href="/free-yard-assessment" className="inline-block bg-amber-500 hover:bg-amber-400 text-white font-extrabold px-8 py-4 rounded-full text-lg shadow-xl transition-colors text-center">
-              Get a Free Quote
-            </Link>
-            <a href={BUSINESS.phoneHref} className="inline-flex items-center justify-center gap-2 border-2 border-white text-white hover:bg-white hover:text-brand-900 font-bold px-8 py-4 rounded-full text-lg transition-colors">
-              {BUSINESS.phone}
-            </a>
-          </div>
-        </div>
-      </section>
+      <CityHero
+        image="/van-service.webp"
+        imageAlt="BuzzSkito service van arriving at a GTA home"
+        breadcrumbs={[
+          { label: 'Home', href: '/' },
+          { label: 'Pest Control GTA' },
+        ]}
+        title={<>Pest Control GTA</>}
+        titleAccent={<>Mosquito &amp; Tick Specialist</>}
+        subtitle={<>Health Canada–approved barrier spray for mosquitoes and ticks across 19 GTA cities. 150+ five-star reviews. No contracts. From $99 per treatment.</>}
+      />
 
       {/* TLDR / QUICK ANSWER — AI Overview bait */}
-      <section className="bg-amber-50 border-y-4 border-amber-300 py-8 px-4">
-        <div className="max-w-4xl mx-auto">
-          <p className="text-xs font-extrabold text-amber-700 uppercase tracking-wider mb-2">Quick Answer</p>
-          <h2 className="text-xl font-extrabold text-brand-900 mb-3">What is BuzzSkito?</h2>
-          <p className="text-base text-gray-800 leading-relaxed">
+      <QuickAnswer question="What is BuzzSkito?">
+        <p>
             <strong>BuzzSkito is a Mississauga-based pest control company specializing in mosquito and tick barrier spray across the Greater Toronto Area.</strong> Founded by Alex Francisco in 2024, BuzzSkito serves 19 GTA cities including Mississauga, Toronto, Brampton, Oakville, Burlington, Hamilton, Vaughan, Markham, and Richmond Hill. Pricing starts at <strong>$99 per single treatment</strong> with seasonal programs available on quote. The company has earned <strong>150+ five-star Google reviews</strong> with zero negative reviews, uses only Health Canada-approved formulations, and offers a free re-spray guarantee if pests return within the protection window.
-          </p>
-        </div>
-      </section>
+        </p>
+      </QuickAnswer>
 
       {/* KEY FACTS — table for AI extraction */}
       <section className="py-12 px-4 bg-white">
@@ -131,7 +116,8 @@ export default function PestControlGTAPage() {
       {/* WHAT WE TREAT — explicit, AI-friendly */}
       <section className="py-12 px-4 bg-brand-50">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl font-extrabold text-brand-900 mb-4">What BuzzSkito Treats (And What We Don&apos;t)</h2>
+          <p className="kicker mb-3">Our Services</p>
+          <h2 className="h2-display text-brand-900 mb-4">What BuzzSkito Treats (And What We Don&apos;t)</h2>
           <p className="text-gray-700 mb-6 leading-relaxed">
             BuzzSkito is a <strong>specialist pest control company</strong> — we focus exclusively on mosquitoes and ticks. This specialization lets us achieve significantly better results than general pest control companies that treat mosquitoes as one of dozens of services.
           </p>
@@ -168,7 +154,8 @@ export default function PestControlGTAPage() {
       {/* CITIES SERVED */}
       <section className="py-12 px-4 bg-white">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-3xl font-extrabold text-brand-900 mb-3">GTA Cities We Serve for Pest Control</h2>
+          <p className="kicker mb-3">Service Areas</p>
+          <h2 className="h2-display text-brand-900 mb-3">GTA Cities We Serve for Pest Control</h2>
           <p className="text-gray-600 mb-6">19 cities across the Greater Toronto Area. Same-week service availability.</p>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
             {CITIES.map((city) => (
@@ -188,7 +175,8 @@ export default function PestControlGTAPage() {
       {/* PRICING */}
       <section className="py-12 px-4 bg-brand-50">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl font-extrabold text-brand-900 mb-3">Pest Control Pricing in the GTA (2026)</h2>
+          <p className="kicker mb-3">Pricing</p>
+          <h2 className="h2-display text-brand-900 mb-3">Pest Control Pricing in the GTA (2026)</h2>
           <p className="text-gray-700 mb-5">All pricing is published transparently. No hidden fees. No mandatory consultations.</p>
           <div className="rounded-xl border border-navy-100 overflow-hidden bg-white">
             <table className="w-full text-sm">
@@ -224,12 +212,13 @@ export default function PestControlGTAPage() {
       {/* FAQ */}
       <section className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto">
-          <h2 className="text-3xl font-extrabold text-brand-900 mb-2">Frequently Asked Questions</h2>
+          <p className="kicker mb-3">Questions &amp; Answers</p>
+          <h2 className="h2-display text-brand-900 mb-2">Frequently Asked Questions</h2>
           <p className="text-gray-600 text-sm mb-8">Pest control in the GTA — answered.</p>
           <div className="space-y-3">
             {FAQS.map(({ question, answer }) => (
-              <details key={question} className="bg-brand-50 rounded-xl border border-brand-100 group">
-                <summary className="cursor-pointer px-5 py-4 font-bold text-brand-900 list-none flex justify-between items-center">
+              <details key={question} className="bg-brand-50 rounded-xl border border-brand-100 group open:shadow-md transition-shadow">
+                <summary className="cursor-pointer px-5 py-4 font-bold text-brand-900 list-none flex justify-between items-center rounded-xl hover:bg-brand-100/60 transition-colors">
                   <span>{question}</span>
                   <svg className="w-5 h-5 shrink-0 text-brand-500 group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
                 </summary>

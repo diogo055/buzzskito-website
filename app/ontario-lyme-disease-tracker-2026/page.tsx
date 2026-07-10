@@ -242,6 +242,9 @@ export default function OntarioLymeTrackerPage() {
         name: 'Ontario Lyme Disease Surveillance Tracker 2026',
         description: 'Aggregated Lyme disease case counts, endemic zone classifications, and tick species data for the Province of Ontario, 2010-2026.',
         url: `https://buzzskito.ca${SLUG}`,
+        datePublished: '2026-05-01',
+        dateModified: '2026-07-01',
+        distribution: { '@type': 'DataDownload', encodingFormat: 'text/html', contentUrl: `https://buzzskito.ca${SLUG}` },
         license: 'https://creativecommons.org/licenses/by/4.0/',
         creator: {
           '@type': 'Organization',
@@ -279,7 +282,7 @@ export default function OntarioLymeTrackerPage() {
           <p className="text-xs font-extrabold text-amber-700 uppercase tracking-wider mb-2">Quick Answer</p>
           <h2 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-3">How serious is Lyme disease in Ontario in 2026?</h2>
           <p className="text-base text-gray-800 leading-relaxed">
-            <strong>Ontario confirmed {totalCases2025.toLocaleString()} Lyme disease cases in 2025 — a {yoyChange}% increase over 2024 and a 30-fold increase since 2010.</strong> Lyme has shifted from a rare disease to one of Ontario&rsquo;s fastest-growing notifiable infections. Public Health Ontario classifies 8 of Ontario&rsquo;s 34 Public Health Units as established Lyme-endemic regions, with 7 additional PHUs in the &ldquo;emerging&rdquo; category. Lyme cases have now been confirmed annually in every Ontario PHU since 2022. The disease is highly preventable when ticks are removed within 24-36 hours of attachment, and treatable with antibiotics when caught early — but Ontario&rsquo;s expanding tick range means even GTA residents now need to take seasonal precautions.
+According to BuzzSkito&rsquo;s analysis of Public Health Ontario surveillance data, <strong>Ontario confirmed {totalCases2025.toLocaleString()} Lyme disease cases in 2025 — a {yoyChange}% increase over 2024 and a 30-fold increase since 2010.</strong> Lyme has shifted from a rare disease to one of Ontario&rsquo;s fastest-growing notifiable infections. Public Health Ontario classifies 8 of Ontario&rsquo;s 34 Public Health Units as established Lyme-endemic regions, with 7 additional PHUs in the &ldquo;emerging&rdquo; category. Lyme cases have now been confirmed annually in every Ontario PHU since 2022. The disease is highly preventable when ticks are removed within 24-36 hours of attachment, and treatable with antibiotics when caught early — but Ontario&rsquo;s expanding tick range means even GTA residents now need to take seasonal precautions.
           </p>
         </div>
       </section>
@@ -636,7 +639,7 @@ export default function OntarioLymeTrackerPage() {
       <section className="bg-gray-50 py-12 px-4">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-2xl font-extrabold text-brand-900 mb-2">Sources &amp; References</h2>
-          <p className="text-sm text-gray-600 mb-6">All data on this page is aggregated from publicly available government sources. Direct citations and links provided for transparency and verification. Last updated May 2026.</p>
+          <p className="text-sm text-gray-600 mb-6">All data on this page is aggregated from publicly available government sources. Direct citations and links provided for transparency and verification. Last updated July 2026.</p>
 
           <div className="grid md:grid-cols-2 gap-4 text-sm">
             <a href="https://www.publichealthontario.ca/en/data-and-analysis/infectious-disease/lyme-disease" target="_blank" rel="noopener" className="rounded-xl bg-white p-4 border border-gray-200 hover:border-brand-500 transition">

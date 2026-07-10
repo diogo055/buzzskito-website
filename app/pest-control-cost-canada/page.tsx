@@ -195,6 +195,9 @@ export default function PestControlCostCanadaPage() {
         name: 'Pest Control Cost in Canada 2026 — Price Data',
         description: 'Aggregated typical-range pricing for professional pest control in Canada (2026): average single-visit cost, Greater Toronto Area treatment pricing, cost by pest type (ants, mice, rats, cockroaches, bed bugs, wasps, spiders), and mosquito & tick rates per treatment and per season.',
         url: `https://buzzskito.ca${SLUG}`,
+        datePublished: '2026-06-19',
+        dateModified: '2026-07-01',
+        distribution: { '@type': 'DataDownload', encodingFormat: 'text/html', contentUrl: `https://buzzskito.ca${SLUG}` },
         license: 'https://creativecommons.org/licenses/by/4.0/',
         creator: {
           '@type': 'Organization',
@@ -476,7 +479,7 @@ export default function PestControlCostCanadaPage() {
       <section className="bg-gray-50 py-12 px-4">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-2xl font-extrabold text-brand-900 mb-2">Sources &amp; method</h2>
-          <p className="text-sm text-gray-600 mb-6">All figures on this page are typical ranges aggregated from publicly available industry and quoting-platform guides. Pest control is unregulated on price in Canada, and no public-health or government agency publishes pest-control prices — so there is no official statistic for this topic. Links provided for transparency and verification. Last updated 2026.</p>
+          <p className="text-sm text-gray-600 mb-6">All figures on this page are typical ranges aggregated from publicly available industry and quoting-platform guides. Pest control is unregulated on price in Canada, and no public-health or government agency publishes pest-control prices — so there is no official statistic for this topic. Links provided for transparency and verification. Last updated July 2026.</p>
 
           <div className="grid md:grid-cols-2 gap-4 text-sm">
             {SOURCES.map((s) => (

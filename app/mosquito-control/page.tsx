@@ -1,8 +1,9 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import Image from 'next/image'
 import CTASection from '@/components/CTASection'
 import BlogCard from '@/components/BlogCard'
+import CityHero from '@/components/CityHero'
+import QuickAnswer from '@/components/QuickAnswer'
 import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { BUSINESS, CITIES, MOSQUITO_BLOGS } from '@/lib/constants'
 
@@ -30,59 +31,27 @@ export default function MosquitoControlPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema({ name: 'Mosquito Control', description: 'Professional mosquito barrier spray service for residential lawns and properties across the Greater Toronto Area.', slug: '/mosquito-control' })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Mosquito Control', url: '/mosquito-control' }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema('/mosquito-control')) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema('/mosquito-control', '2026-07-01')) }} />
 
       {/* Hero */}
-      <section className="bg-gradient-to-br from-brand-950 to-brand-800 text-white py-16 px-4">
-        <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
-          <div>
-            <nav aria-label="Breadcrumb" className="text-brand-400 text-sm mb-4 flex items-center gap-1">
-              <Link href="/" className="hover:text-white">Home</Link>
-              <span aria-hidden="true">/</span>
-              <span className="text-white">Mosquito Control</span>
-            </nav>
-            <h1 className="text-4xl sm:text-5xl font-extrabold mb-5 leading-tight">
-              Professional Mosquito Control<br />
-              <span className="text-amber-400">for GTA Homes</span>
-            </h1>
-            <p className="text-xl text-brand-100 max-w-2xl leading-relaxed mb-8">
-              Barrier spray treatments that eliminate mosquitoes in your yard and keep them away for up to 30 days. Serving 19 cities across the Greater Toronto Area.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4">
-              <Link href="/free-yard-assessment" className="inline-block bg-amber-500 hover:bg-amber-400 text-white font-extrabold px-8 py-4 rounded-full text-lg shadow-xl transition-colors text-center">
-                Get a Free Quote
-              </Link>
-              <a href={BUSINESS.phoneHref} className="inline-flex items-center justify-center gap-2 border-2 border-white text-white hover:bg-white hover:text-brand-900 font-bold px-8 py-4 rounded-full text-lg transition-colors">
-                {BUSINESS.phone}
-              </a>
-            </div>
-            <p className="mt-5 text-brand-300 text-sm">
-              Also offering <Link href="/tick-control" className="text-brand-400 underline hover:text-white">tick control</Link> — bundle both services for complete yard protection.
-            </p>
-          </div>
-          <div className="hidden lg:block rounded-2xl overflow-hidden shadow-2xl ring-4 ring-white/10">
-            <Image
-              src="/spray-backyard.webp"
-              alt="BuzzSkito technician applying professional mosquito barrier spray to a GTA backyard - Health Canada approved barrier spray, kid and pet safe"
-              width={700}
-              height={520}
-              className="w-full h-auto object-cover"
-              priority
-            />
-          </div>
-        </div>
-      </section>
+      <CityHero
+        breadcrumbs={[{ label: 'Home', href: '/' }, { label: 'Mosquito Control' }]}
+        title={<>Professional Mosquito Control</>}
+        titleAccent={<>for GTA Homes</>}
+        subtitle={<>Barrier spray treatments that eliminate mosquitoes in your yard and keep them away for up to 30 days. Serving 19 cities across the Greater Toronto Area.</>}
+        image="/spray-backyard.webp"
+      >
+        <p className="mt-5 text-brand-300 text-sm">
+          Also offering <Link href="/tick-control" className="text-brand-400 underline hover:text-white">tick control</Link> — bundle both services for complete yard protection.
+        </p>
+      </CityHero>
 
       {/* QUICK ANSWER — AI Overview & ChatGPT bait */}
-      <section aria-labelledby="quick-answer" className="bg-amber-50 border-y-4 border-amber-300 py-8 px-4">
-        <div className="max-w-4xl mx-auto">
-          <p className="text-xs font-extrabold text-amber-700 uppercase tracking-wider mb-2">Quick Answer</p>
-          <h2 id="quick-answer" className="text-xl font-extrabold text-brand-900 mb-3">What is the best mosquito control for GTA homes in 2026?</h2>
-          <p className="text-base text-gray-800 leading-relaxed">
-            <strong>Professional Health Canada-approved barrier spray is the most effective mosquito control method for residential GTA properties.</strong> BuzzSkito applies a residual barrier to vegetation, shrubs, fence lines, and shaded resting zones — the specific micro-habitats where mosquitoes rest during the day. One treatment provides 21–30 days of protection. Recommended schedule for GTA homes: <strong>10 bi-weekly treatments from May through September ($994 for the Standard plan)</strong>, or single treatments from $99. Free re-spray guarantee if mosquitoes return within the protection window. BuzzSkito serves 19 GTA cities with 150+ five-star Google reviews.
-          </p>
-        </div>
-      </section>
+      <QuickAnswer question="What is the best mosquito control for GTA homes in 2026?">
+        <p>
+          <strong>Professional Health Canada-approved barrier spray is the most effective mosquito control method for residential GTA properties.</strong> BuzzSkito applies a residual barrier to vegetation, shrubs, fence lines, and shaded resting zones — the specific micro-habitats where mosquitoes rest during the day. One treatment provides 21–30 days of protection. Recommended schedule for GTA homes: <strong>10 bi-weekly treatments from May through September ($994 for the Standard plan)</strong>, or single treatments from $99. Free re-spray guarantee if mosquitoes return within the protection window. BuzzSkito serves 19 GTA cities with 150+ five-star Google reviews.
+        </p>
+      </QuickAnswer>
 
       {/* KEY FACTS — extractable for AI */}
       <section className="py-10 px-4 bg-white border-b border-gray-100">
@@ -117,7 +86,8 @@ export default function MosquitoControlPage() {
       {/* What's included */}
       <section aria-labelledby="whats-included" className="py-14 px-4 bg-white">
         <div className="max-w-5xl mx-auto">
-          <h2 id="whats-included" className="text-3xl font-extrabold text-brand-900 mb-4 text-center">What's Included in Every Mosquito Treatment</h2>
+          <p className="kicker mb-3 text-center">Our Service</p>
+          <h2 id="whats-included" className="h2-display text-brand-900 mb-4 text-center">What's Included in Every Mosquito Treatment</h2>
           <p className="text-center text-gray-500 mb-10 max-w-2xl mx-auto">Each BuzzSkito mosquito control service follows a proven process that delivers immediate results and lasting protection.</p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
@@ -141,7 +111,8 @@ export default function MosquitoControlPage() {
       {/* Seasonal plan */}
       <section aria-labelledby="seasonal-plan" className="py-14 px-4 bg-brand-50">
         <div className="max-w-4xl mx-auto">
-          <h2 id="seasonal-plan" className="text-3xl font-extrabold text-brand-900 mb-4 text-center">Recommended Seasonal Mosquito Schedule</h2>
+          <p className="kicker mb-3 text-center">Seasonal Plan</p>
+          <h2 id="seasonal-plan" className="h2-display text-brand-900 mb-4 text-center">Recommended Seasonal Mosquito Schedule</h2>
           <p className="text-center text-gray-500 mb-10 max-w-xl mx-auto">Five treatments from May through September keep your property mosquito-free all season with continuous 30-day coverage windows.</p>
           <div className="grid grid-cols-5 gap-2 sm:gap-4">
             {['May','June','July','August','September'].map((month, i) => (
@@ -157,7 +128,8 @@ export default function MosquitoControlPage() {
       {/* Primary city links */}
       <section aria-labelledby="primary-cities" className="py-14 px-4 bg-white">
         <div className="max-w-5xl mx-auto">
-          <h2 id="primary-cities" className="text-3xl font-extrabold text-brand-900 mb-4 text-center">Mosquito Control by City</h2>
+          <p className="kicker mb-3 text-center">Service Areas</p>
+          <h2 id="primary-cities" className="h2-display text-brand-900 mb-4 text-center">Mosquito Control by City</h2>
           <p className="text-center text-gray-500 mb-8 max-w-xl mx-auto">Select your city for local mosquito control information, neighbourhood coverage, and service details.</p>
           <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 mb-8">
             {primaryCities.map((city) => (
@@ -208,11 +180,12 @@ export default function MosquitoControlPage() {
       {/* FAQ */}
       <section aria-labelledby="faq" className="py-14 px-4 bg-white">
         <div className="max-w-3xl mx-auto">
-          <h2 id="faq" className="text-3xl font-extrabold text-brand-900 text-center mb-8">Mosquito Control FAQ</h2>
+          <p className="kicker mb-3 text-center">Questions &amp; Answers</p>
+          <h2 id="faq" className="h2-display text-brand-900 text-center mb-8">Mosquito Control FAQ</h2>
           <div className="space-y-3">
             {FAQS.map(({ question, answer }) => (
-              <details key={question} className="bg-brand-50 rounded-xl border border-brand-100 group">
-                <summary className="cursor-pointer px-5 py-4 font-semibold text-brand-900 list-none flex justify-between items-center">
+              <details key={question} className="bg-brand-50 rounded-xl border border-brand-100 group open:shadow-md transition-shadow">
+                <summary className="cursor-pointer px-5 py-4 font-semibold text-brand-900 list-none flex justify-between items-center rounded-xl hover:bg-brand-100/60 transition-colors">
                   <span>{question}</span>
                   <svg className="w-5 h-5 shrink-0 text-brand-500 group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
                 </summary>

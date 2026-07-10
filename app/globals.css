@@ -45,7 +45,7 @@
     @apply text-gray-700 leading-relaxed max-w-none;
   }
   .prose-brand h2 {
-    @apply text-2xl font-extrabold text-brand-900 mt-10 mb-4 leading-snug;
+    @apply text-2xl sm:text-3xl font-extrabold font-display tracking-tight text-brand-900 mt-10 mb-4 leading-snug;
   }
   .prose-brand h3 {
     @apply text-xl font-bold text-brand-800 mt-6 mb-2 leading-snug;
@@ -75,12 +75,41 @@
     @apply border-l-4 border-brand-300 pl-5 py-1 my-6 text-gray-600 italic;
   }
 
-  /* Utility button classes */
+  /* ── Canonical CTA system — exactly two button styles sitewide ─────────
+     .btn-primary — THE conversion button. Amber gradient (the to-amber-600
+     lower half materially improves perceived contrast vs flat amber-500),
+     sheen sweep + press feedback + gentle hover rise (compositor-only).
+     .btn-ghost — secondary outline. */
   .btn-primary {
-    @apply inline-block bg-brand-700 hover:bg-brand-600 text-white font-bold px-6 py-3 rounded-full transition-colors shadow-md;
+    @apply relative inline-flex items-center justify-center gap-2 rounded-full bg-gradient-to-b from-amber-500 to-amber-600 px-8 py-4 text-lg font-extrabold text-white shadow-lg shadow-amber-900/25 transition-[transform,box-shadow] duration-300 hover:-translate-y-0.5 hover:shadow-xl hover:shadow-amber-900/30;
   }
+  .btn-primary-sm {
+    @apply relative inline-flex items-center justify-center gap-2 rounded-full bg-gradient-to-b from-amber-500 to-amber-600 px-5 py-2.5 text-sm font-bold text-white shadow-md shadow-amber-900/20 transition-[transform,box-shadow] duration-300 hover:-translate-y-0.5 hover:shadow-lg;
+  }
+  .btn-ghost {
+    @apply inline-flex items-center justify-center gap-2 rounded-full border-2 px-8 py-4 text-lg font-bold transition-colors;
+  }
+  /* Legacy aliases (still referenced on older templates) */
   .btn-amber {
-    @apply inline-block bg-amber-500 hover:bg-amber-400 text-white font-bold px-6 py-3 rounded-full transition-colors shadow-md;
+    @apply relative inline-flex items-center justify-center gap-2 rounded-full bg-gradient-to-b from-amber-500 to-amber-600 px-6 py-3 font-bold text-white shadow-md transition-[transform,box-shadow] duration-300 hover:-translate-y-0.5 hover:shadow-lg;
+  }
+
+  /* ── Editorial section-header system ──────────────────────────────────
+     kicker (amber, tracked-out) → display H2 → muted intro. */
+  .kicker {
+    @apply text-xs font-extrabold uppercase tracking-[0.2em] text-amber-600;
+  }
+  .kicker-light {
+    @apply text-xs font-extrabold uppercase tracking-[0.2em] text-amber-400;
+  }
+  .h2-display {
+    @apply font-display text-3xl sm:text-4xl lg:text-[2.75rem] font-extrabold tracking-tight leading-[1.1];
+  }
+
+  /* Dark ink band with a subtle top radial glow — depth without noise */
+  .ink-band {
+    background-color: #0b1628;
+    background-image: radial-gradient(80% 60% at 50% 0%, rgba(37, 99, 235, 0.16), transparent);
   }
 }
 
@@ -121,29 +150,9 @@
   html.anim .rd-5 { transition-delay: 0.40s; }
   html.anim .rd-6 { transition-delay: 0.48s; }
 
-  /* ── Hero aurora — slow animated gradient pan ── */
-  .aurora-bg {
-    background: linear-gradient(125deg,
-      #172554 0%, #1e3a8a 30%, #1d4ed8 50%, #155e75 70%, #172554 100%);
-    background-size: 300% 300%;
-    animation: aurora-pan 12s ease-in-out infinite alternate;
-  }
-  @keyframes aurora-pan {
-    0%   { background-position: 0% 50%; }
-    100% { background-position: 100% 50%; }
-  }
-
-  /* ── Floating decorative orbs ── */
-  .floaty   { animation: floaty 7s ease-in-out infinite; }
-  .floaty-2 { animation: floaty 9s ease-in-out 1.5s infinite; }
-  @keyframes floaty {
-    0%, 100% { transform: translateY(0) translateX(0); }
-    50%      { transform: translateY(-16px) translateX(8px); }
-  }
-
   /* ── Button sheen — diagonal light sweep on hover/focus ── */
-  .btn-sheen { position: relative; overflow: hidden; }
-  .btn-sheen::after {
+  .btn-sheen, .btn-primary, .btn-primary-sm { position: relative; overflow: hidden; }
+  .btn-sheen::after, .btn-primary::after, .btn-primary-sm::after {
     content: '';
     position: absolute;
     top: 0; left: -80%;
@@ -153,7 +162,9 @@
     transition: left 0.6s ease;
     pointer-events: none;
   }
-  .btn-sheen:hover::after, .btn-sheen:focus-visible::after { left: 130%; }
+  .btn-sheen:hover::after, .btn-sheen:focus-visible::after,
+  .btn-primary:hover::after, .btn-primary:focus-visible::after,
+  .btn-primary-sm:hover::after, .btn-primary-sm:focus-visible::after { left: 130%; }
 
   /* ── City ticker marquee (decorative, aria-hidden, duplicated track) ── */
   .ticker-track {
@@ -189,8 +200,14 @@
   }
   .hover-lift:hover {
     transform: translateY(-5px);
-    box-shadow: 0 18px 35px -12px rgba(23, 37, 84, 0.22);
+    box-shadow: 0 18px 35px -12px rgba(11, 22, 40, 0.25);
   }
+
+  /* ── Photo Ken-Burns on hover (service cards — echoes the hero) ── */
+  .photo-zoom img {
+    transition: transform 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+  .photo-zoom:hover img { transform: scale(1.04); }
 
   /* ── Arrow nudge on link hover ── */
   .arrow-nudge svg { transition: transform 0.25s ease; }
@@ -214,145 +231,3 @@
 /* Touch feedback everywhere (cheap, no media gate needed) */
 .press-scale { transition: transform 0.15s ease; }
 .press-scale:active { transform: scale(0.97); }
-
-/* ════════════════════════════════════════════════════════════════════════
-   CINEMATIC HERO — scroll-story
-   ────────────────────────────────────────────────────────────────────────
-   A position:sticky pinned stage (native, no scroll-hijack, iOS-momentum
-   safe, zero CLS). A single passive rAF scroll handler writes five 0..1
-   custom properties to the stage — --hp (overall), --enter, --barrier,
-   --repel, --resolve — and every layer derives its transform/opacity from
-   those via calc(). Compositor-only props throughout; no layout reads in the
-   render path beyond one getBoundingClientRect/frame.
-
-   The headline, CTA, and trust line render server-side and are visible at
-   --hp:0 with NO scroll required — that frame is the LCP + the full pitch.
-   Beats 2-5 are progressive enhancement on scroll. Crawlers/AI read the full
-   text in raw HTML regardless of JS.
-
-   prefers-reduced-motion: the driver writes a fixed "resolved" composition
-   and all keyframes below stay gated — the hero becomes a calm static scene.
-   ════════════════════════════════════════════════════════════════════════ */
-.cine { position: relative; }
-.cine-track { position: relative; height: 230vh; }
-@media (max-width: 640px) { .cine-track { height: 180vh; } }
-.cine-stage {
-  position: sticky; top: 0; height: 100vh; min-height: 600px; max-height: 980px;
-  overflow: hidden; display: flex; align-items: center;
-  background: linear-gradient(120deg, #0f2236 0%, #15355c 46%, #0f2a3f 100%);
-  --hp: 0; --enter: 0; --barrier: 0; --repel: 0; --resolve: 0;
-}
-.cine-layer { position: absolute; inset: 0; pointer-events: none; will-change: transform, opacity; }
-
-/* Illustrated scene — full-bleed SVG, gentle parallax up on scroll */
-.cine-scene { transform: translateY(calc(var(--hp) * -4%)); }
-.cine-scene-svg { width: 100%; height: 100%; display: block; }
-
-/* Legibility scrim — darkens the left third so the copy reads cleanly */
-.cine-scrim {
-  background: linear-gradient(90deg, rgba(12,28,46,0.92) 0%, rgba(12,28,46,0.6) 34%, rgba(12,28,46,0) 62%),
-              linear-gradient(180deg, rgba(12,28,46,0) 60%, rgba(12,28,46,0.4) 100%);
-}
-/* Mobile: copy stacks full-width, so darken the top band for legibility and
-   let the spraying tech + dome breathe through the lower half */
-@media (max-width: 640px) {
-  .cine-scrim {
-    background: linear-gradient(180deg, rgba(12,28,46,0.88) 0%, rgba(12,28,46,0.66) 40%, rgba(12,28,46,0.22) 70%, rgba(12,28,46,0) 100%);
-  }
-}
-
-/* ── Scroll-driven SVG groups (inside HeroScene) — "Bay & Gable at Dusk" ── */
-/* Dome-of-light rises + snaps shut from its base near the tech as --barrier rises */
-.sc-barrier {
-  opacity: calc(var(--barrier) * 0.98);
-  transform-box: view-box; transform-origin: 700px 600px;
-  transform: scaleY(calc(0.86 + var(--barrier) * 0.14));
-}
-/* Mosquitoes fade + bounce outward off the dome as --repel rises */
-.yb-mosq { transform-box: view-box; transform-origin: 700px 430px; }
-.yb-mosq-node { opacity: calc(1 - var(--repel) * 0.92); transform: translateX(calc(var(--repel) * 60px)); }
-.yb-mosq-b { transform: translateX(calc(var(--repel) * 78px)) translateY(calc(var(--repel) * 14px)); }
-.yb-mosq-c { transform: translateX(calc(var(--repel) * 52px)) translateY(calc(var(--repel) * -10px)); }
-
-/* Technician travels up the paver path as --enter rises, grows coming forward.
-   Starts lower + smaller + slightly back, arrives at the spray mark. */
-.tws-walk {
-  transform-box: view-box;
-  transform: translateX(calc((1 - var(--enter)) * -42px)) translateY(calc((1 - var(--enter)) * 64px));
-}
-.tws-depth { transform-box: view-box; transform-origin: 700px 578px; transform: scale(calc(0.70 + var(--enter) * 0.30)); }
-/* Near arm lifts the wand to aim at the yard as the dome rises (--barrier).
-   fill-box (not view-box) so the pivot stays at the shoulder under the
-   technician's own translate/scale — view-box origin would mis-pivot here. */
-.tws-arm-near { transform-box: fill-box; transform-origin: 6% 4%; transform: rotate(calc(-6deg + var(--barrier) * 16deg)); }
-/* Spray is always live (he's working at rest); thickens as the dome seals */
-.tws-spray { opacity: calc(0.42 + var(--barrier) * 0.58); }
-/* Static-frame leg/arm pivots (used by the gait keyframes below) */
-.tws-leg-front, .tws-leg-back, .tws-arm-far { transform-box: fill-box; }
-.tws-leg-front { transform-origin: 9px 0px; }
-.tws-leg-back  { transform-origin: -9px 0px; }
-.tws-arm-far   { transform-origin: 24px 0px; }
-
-/* Copy — ALWAYS visible (LCP + pitch). Sits above all layers. */
-.cine-copy { position: relative; z-index: 5; }
-
-/* "Bite-free, guaranteed" resolve badge (beat 5) */
-.cine-resolve { opacity: var(--resolve); transform: translateY(calc((1 - var(--resolve)) * 10px)); }
-
-/* Scroll cue — fades as the story begins */
-.cine-cue { opacity: calc(1 - var(--hp) * 3); }
-
-/* Ambient loops — only when motion is welcome (transform + opacity only) */
-@media (prefers-reduced-motion: no-preference) {
-  .cine-cue i { animation: floaty 1.8s ease-in-out infinite; }
-
-  /* Walk cycle — 2-pose leg scissor via rotation only */
-  .tws-leg-front { animation: tws-leg-swing 0.45s ease-in-out infinite alternate; }
-  .tws-leg-back  { animation: tws-leg-swing 0.45s ease-in-out infinite alternate reverse; }
-  @keyframes tws-leg-swing { from { transform: rotate(-16deg); } to { transform: rotate(16deg); } }
-  .tws-arm-far   { animation: tws-arm-swing 0.45s ease-in-out infinite alternate; }
-  @keyframes tws-arm-swing { from { transform: rotate(10deg); } to { transform: rotate(-10deg); } }
-  .tws-bob { transform-box: fill-box; transform-origin: bottom center; animation: tws-bob 0.45s ease-in-out infinite alternate; }
-  @keyframes tws-bob { from { transform: translateY(0); } to { transform: translateY(-3px); } }
-
-  /* Spray mist drifts up-right out of the nozzle, staggered */
-  .tws-mist { transform-box: fill-box; transform-origin: 0 0; animation: tws-mist 2.6s ease-out infinite; }
-  .tws-mist--2 { animation-delay: 0.9s; }
-  .tws-mist--3 { animation-delay: 1.7s; }
-  @keyframes tws-mist {
-    0%   { opacity: 0;   transform: translate(0,0) scale(0.6); }
-    30%  { opacity: 0.6; }
-    100% { opacity: 0;   transform: translate(34px,-20px) scale(1.55); }
-  }
-
-  /* Mosquito wing flap */
-  .sc-wing { transform-box: fill-box; transform-origin: center; animation: sc-wing 0.15s linear infinite alternate; }
-  @keyframes sc-wing { from { transform: scaleX(1); } to { transform: scaleX(0.35); } }
-
-  /* Amber dome inner-rim light pulse travels the edge */
-  .yb-sweep { stroke-dasharray: 150 1400; animation: yb-sweep 4.2s linear infinite; }
-  @keyframes yb-sweep { from { stroke-dashoffset: 1550; } to { stroke-dashoffset: 0; } }
-
-  /* House window-glow shimmer (two offset phases) */
-  .th-glow-a { animation: th-glow-a 4s ease-in-out infinite; }
-  .th-glow-b { animation: th-glow-b 4s ease-in-out infinite; }
-  @keyframes th-glow-a { 0%,100% { opacity: 0.86; } 50% { opacity: 1; } }
-  @keyframes th-glow-b { 0%,100% { opacity: 1; } 50% { opacity: 0.85; } }
-
-  /* Garden uplight shimmer */
-  .yb-uplight { transform-box: fill-box; transform-origin: center; animation: yb-glow 4s ease-in-out infinite; }
-  .yb-uplight-b { animation-delay: 1.3s; }
-  .yb-uplight-c { animation-delay: 2.6s; }
-  @keyframes yb-glow { 0%,100% { opacity: 0.82; } 50% { opacity: 1; } }
-
-  /* Slow-drifting fireflies + twinkling stars */
-  .yb-fly { transform-box: fill-box; transform-origin: center; animation: yb-fly 7s ease-in-out infinite; }
-  .yb-fly-b { animation-delay: 1.8s; animation-duration: 8.4s; }
-  .yb-fly-c { animation-delay: 3.4s; animation-duration: 6.6s; }
-  .yb-fly-d { animation-delay: 5s; animation-duration: 7.8s; }
-  @keyframes yb-fly { 0%,100% { transform: translate(0,0); opacity: 0.28; } 50% { transform: translate(10px,-12px); opacity: 0.42; } }
-  .yb-star { transform-box: fill-box; transform-origin: center; animation: yb-twinkle 5.5s ease-in-out infinite; }
-  .yb-star-b { animation-delay: 1.9s; }
-  .yb-star-c { animation-delay: 3.6s; }
-  @keyframes yb-twinkle { 0%,100% { opacity: 0.35; } 50% { opacity: 0.7; } }
-}

@@ -2,6 +2,8 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import BuyLink from '@/components/BuyLink'
+import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 
 const SLUG = 'best-tick-repellent-yard-canada'
 const DATE = '2026-04-26'
@@ -72,6 +74,12 @@ export default function BestTickRepellentYardPage() {
 
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
+          <AffiliateDisclosure />
+          <p className="not-prose text-sm text-gray-600 mb-1">DIY yard-scale tick products Canadians buy most (nothing replaces a professional barrier spray, but these help):</p>
+          <div className="not-prose mb-6 flex flex-wrap gap-3">
+            <BuyLink search="wondercide tick yard spray">Check yard tick sprays on Amazon.ca →</BuyLink>
+            <BuyLink search="sawyer permethrin clothing spray">Sawyer Permethrin (clothing) →</BuyLink>
+          </div>
           <p className="lead text-xl text-gray-700 leading-relaxed mb-6">Personal tick repellents on your skin protect <em>you</em>. Yard-scale tick repellents protect your <em>property</em> — and that&rsquo;s a different problem with different solutions. Here&rsquo;s what works in Canadian yards in 2026.</p>
 
           <h2>The Tier System for Yard Tick Repellent</h2>

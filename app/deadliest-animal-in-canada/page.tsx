@@ -197,6 +197,9 @@ export default function DeadliestAnimalInCanadaPage() {
         name: 'The Deadliest Animals — Global Ranking & Canadian Reality Check (2026)',
         description: 'Aggregated estimates of annual human deaths caused by animals worldwide, alongside Canada-specific data on wildlife-vehicle collisions, West Nile virus, and sting anaphylaxis, compiled for 2026.',
         url: `https://buzzskito.ca${SLUG}`,
+        datePublished: '2026-06-19',
+        dateModified: '2026-07-01',
+        distribution: { '@type': 'DataDownload', encodingFormat: 'text/html', contentUrl: `https://buzzskito.ca${SLUG}` },
         license: 'https://creativecommons.org/licenses/by/4.0/',
         creator: {
           '@type': 'Organization',

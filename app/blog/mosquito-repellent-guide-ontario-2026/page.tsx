@@ -2,6 +2,8 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import BuyLink from '@/components/BuyLink'
+import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 
 const SLUG = 'mosquito-repellent-guide-ontario-2026'
 const DATE = '2026-04-26'
@@ -72,6 +74,12 @@ export default function MosquitoRepellentGuidePage() {
 
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
+          <AffiliateDisclosure />
+          <p className="not-prose text-sm text-gray-600 mb-1">The repellents that actually pass the research test in Ontario — picaridin or DEET on skin, Thermacell for a still patio:</p>
+          <div className="not-prose mb-6 flex flex-wrap gap-3">
+            <BuyLink search="natrapel picaridin insect repellent">Picaridin repellent on Amazon.ca →</BuyLink>
+            <BuyLink search="thermacell patio shield mosquito repeller">Thermacell patio repeller →</BuyLink>
+          </div>
           <p className="lead text-xl text-gray-700 leading-relaxed mb-6">There are dozens of mosquito repellents on shelves at Canadian Tire, Home Depot, and Shoppers Drug Mart. Most don&rsquo;t work as advertised. Here&rsquo;s what the peer-reviewed research and Health Canada approvals tell us about what actually keeps mosquitoes off you in Ontario in 2026.</p>
 
           <h2>The Tier System — Ranked by Evidence</h2>

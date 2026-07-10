@@ -1,8 +1,9 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
+import CityHero from '@/components/CityHero'
 import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusinessSchema, speakableSchema, howToSchema } from '@/lib/seo'
-import { BUSINESS, MOSQUITO_BLOGS } from '@/lib/constants'
+import { MOSQUITO_BLOGS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
   title: 'Etobicoke Mosquito Control 2026 · From $99 · 150+ Five-Star Reviews',
@@ -14,7 +15,17 @@ export const metadata: Metadata = buildMetadata({
 const CITY = 'Etobicoke'
 const SLUG = '/etobicoke-mosquito-control'
 const TICK_SLUG = '/etobicoke-tick-spray'
-const NEIGHBOURHOODS = ['Mimico','Long Branch','New Toronto','The Kingsway','Humber Valley','Richview','Rexdale','Islington Village','Alderwood']
+const NEIGHBOURHOODS: { name: string; href?: string }[] = [
+  { name: 'Mimico' },
+  { name: 'Long Branch' },
+  { name: 'New Toronto' },
+  { name: 'The Kingsway', href: '/the-kingsway-mosquito-control' },
+  { name: 'Humber Valley' },
+  { name: 'Richview' },
+  { name: 'Rexdale' },
+  { name: 'Islington Village' },
+  { name: 'Alderwood' },
+]
 const FAQS = [
   {
     question: 'How much does mosquito control cost in Etobicoke?',
@@ -43,28 +54,20 @@ export default function EtobicokeMosquitoPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Mosquito Control', url: '/mosquito-control' }, { name: CITY, url: SLUG }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema({ service: 'mosquito', city: 'Etobicoke' })) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema('/etobicoke-mosquito-control')) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema('/etobicoke-mosquito-control', '2026-07-01')) }} />
 
-      <section className="bg-gradient-to-br from-brand-950 to-brand-800 text-white py-16 px-4">
-        <div className="max-w-4xl mx-auto">
-          <nav aria-label="Breadcrumb" className="text-brand-400 text-sm mb-4 flex gap-1">
-            <Link href="/" className="hover:text-white">Home</Link><span>/</span>
-            <Link href="/mosquito-control" className="hover:text-white">Mosquito Control</Link><span>/</span>
-            <span className="text-white">{CITY}</span>
-          </nav>
-          <h1 className="text-4xl sm:text-5xl font-extrabold mb-5">
-            {CITY} Mosquito Control<br/>
-            <span className="text-amber-400">From $99 · 150+ Five-Star Reviews</span>
-          </h1>
-          <p className="text-xl text-brand-100 max-w-2xl mb-8">
-            From the Humber River valley ravines to Mimico&apos;s lakefront — BuzzSkito delivers professional mosquito barrier spray to every Etobicoke neighbourhood.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4">
-            <Link href="/free-yard-assessment" className="inline-block bg-amber-500 hover:bg-amber-400 text-white font-extrabold px-8 py-4 rounded-full text-lg shadow-xl transition-colors text-center">Get a Free Quote</Link>
-            <a href={BUSINESS.phoneHref} className="inline-flex items-center justify-center border-2 border-white text-white hover:bg-white hover:text-brand-900 font-bold px-8 py-4 rounded-full text-lg transition-colors">{BUSINESS.phone}</a>
-          </div>
-        </div>
-      </section>
+      {/* Hero */}
+      <CityHero
+        breadcrumbs={[
+          { label: 'Home', href: '/' },
+          { label: 'Mosquito Control', href: '/mosquito-control' },
+          { label: CITY },
+        ]}
+        title={<>{CITY} Mosquito Control</>}
+        titleAccent={<>From $99 · 150+ Five-Star Reviews</>}
+        subtitle={<>From the Humber River valley ravines to Mimico&apos;s lakefront — BuzzSkito delivers professional mosquito barrier spray to every Etobicoke neighbourhood.</>}
+        image="/spray-backyard.webp"
+      />
 
       
       {/* Trust bar */}
@@ -93,7 +96,8 @@ export default function EtobicokeMosquitoPage() {
       {/* How It Works */}
       <section className="py-12 px-4 bg-white border-b border-gray-100">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-2xl font-extrabold text-brand-900 mb-8 text-center">How BuzzSkito Mosquito Control Works</h2>
+          <p className="kicker mb-3 text-center">Our Process</p>
+          <h2 className="h2-display text-brand-900 mb-8 text-center">How BuzzSkito Mosquito Control Works</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               { step: '1', title: 'Free Property Assessment', desc: 'We evaluate your property — identifying water features, dense vegetation, and mosquito pressure zones specific to your area.' },
@@ -119,7 +123,11 @@ export default function EtobicokeMosquitoPage() {
           <h2>Etobicoke Neighbourhoods We Serve</h2>
           <p>BuzzSkito provides mosquito control across all Etobicoke communities, including:</p>
           <div className="not-prose flex flex-wrap gap-2 mb-6">
-            {NEIGHBOURHOODS.map((n) => <span key={n} className="text-sm bg-brand-50 border border-brand-200 text-brand-700 px-3 py-1.5 rounded-full">{n}</span>)}
+            {NEIGHBOURHOODS.map(({ name, href }) => href ? (
+              <Link key={name} href={href} className="text-sm bg-brand-50 border border-brand-200 text-brand-700 px-3 py-1.5 rounded-full hover:bg-brand-100 transition-colors">{name}</Link>
+            ) : (
+              <span key={name} className="text-sm bg-brand-50 border border-brand-200 text-brand-700 px-3 py-1.5 rounded-full">{name}</span>
+            ))}
           </div>
 
           <h2>Our Etobicoke Mosquito Treatment Process</h2>
@@ -179,7 +187,8 @@ export default function EtobicokeMosquitoPage() {
       {/* Testimonials */}
       <section className="py-12 px-4 bg-white border-t border-gray-100">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-2xl font-extrabold text-brand-900 mb-2 text-center">What GTA Homeowners Say</h2>
+          <p className="kicker mb-3 text-center">Reviews</p>
+          <h2 className="h2-display text-brand-900 mb-2 text-center">What GTA Homeowners Say</h2>
           <p className="text-center text-gray-500 text-sm mb-8">From our 150+ five-star Google reviews</p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {[
@@ -208,8 +217,8 @@ export default function EtobicokeMosquitoPage() {
           <h2 className="text-2xl font-extrabold text-brand-900 mb-6">FAQ – Mosquito Control in {CITY}</h2>
           <div className="space-y-3">
             {FAQS.map(({ question, answer }) => (
-              <details key={question} className="bg-white rounded-xl border border-brand-100 group">
-                <summary className="cursor-pointer px-5 py-4 font-semibold text-brand-900 list-none flex justify-between items-center">
+              <details key={question} className="bg-white rounded-xl border border-brand-100 group open:shadow-md transition-shadow">
+                <summary className="cursor-pointer px-5 py-4 font-semibold text-brand-900 list-none flex justify-between items-center rounded-xl hover:bg-brand-100/60 transition-colors">
                   <span>{question}</span>
                   <svg className="w-5 h-5 shrink-0 group-open:rotate-180 transition-transform text-brand-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
                 </summary>

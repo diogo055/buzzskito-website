@@ -42,18 +42,23 @@ const FAQS = [
   },
 ]
 
+// TITLE NOTE (Jul 2026): the dominant query is "deer tick vs dog tick" (2,800/mo),
+// but this page's title led with "Dog Tick vs Deer Tick" — reversed from how people
+// search it. CTR sat at 0.13% on ~4,600 impressions. Re-ordered to match query order
+// and trimmed under 60 chars so Google stops truncating. Measure before changing again.
 export const metadata: Metadata = buildMetadata({
-  title: 'Dog Tick vs Deer Tick: How to Tell Them Apart (Canada 2026)',
-  description: 'The 10-second check: dog ticks have white/grey markings on the back, deer ticks are plain dark brown — and only deer ticks carry Lyme. Size comparison, photos, and what to do after a bite.',
+  title: 'Deer Tick vs Dog Tick: The 3-Second Difference (Canada)',
+  description: 'Deer ticks are small and plain dark — and the only one carrying Lyme. Dog ticks are bigger with grey-brown markings. Size chart, photos, and what to do after a bite.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
+  modifiedTime: '2026-07-09',
 })
 
 export default function DeerTickVsDogTickPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Deer tick vs dog tick comparison for Canada.', slug: SLUG, datePublished: DATE })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Deer tick vs dog tick comparison for Canada.', slug: SLUG, datePublished: DATE, dateModified: '2026-07-09' })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Deer Tick vs Dog Tick', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`)) }} />
@@ -133,6 +138,15 @@ export default function DeerTickVsDogTickPage() {
           <h2>Why the Distinction Matters Medically</h2>
           <p>The deer tick is the entire reason Lyme disease exists in Canada. <strong>About 10–30% of blacklegged ticks in southern Ontario carry <em>Borrelia burgdorferi</em></strong>, the bacterium that causes Lyme. Untreated Lyme can progress to chronic joint pain, neurological symptoms, and cardiac issues. Caught early (within weeks of the bite), it&rsquo;s treatable with a 2–4 week antibiotic course (doxycycline) with full recovery in most cases.</p>
           <p>The dog tick is a much lower medical concern. While theoretically capable of transmitting Rocky Mountain spotted fever and tularemia, both diseases are extraordinarily rare in Canada — fewer than 5 confirmed RMSF cases per year nationwide. The main veterinary concern is tick paralysis in dogs (resolves with prompt tick removal).</p>
+
+          <aside aria-label="Professional tick control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
+            <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Skip the tick worry entirely</h3>
+            <p className="text-sm text-gray-700 mb-4 leading-relaxed">Professional tick barrier treatment targets the zones where ticks actually wait — garden edges, fence lines, and shaded borders. BuzzSkito protects GTA yards with seasonal programs and single treatments from $99.</p>
+            <div className="flex flex-wrap items-center gap-4">
+              <Link href="/tick-control" className="btn-primary-sm">Explore Tick Control →</Link>
+              <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
+            </div>
+          </aside>
 
           <h2>Where Each One Lives in Your Yard</h2>
           <p>Both species can be in the same yard but prefer different micro-habitats:</p>

@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
+import CityHero from '@/components/CityHero'
+import { IconChip } from '@/components/Icon'
 import { buildMetadata, breadcrumbSchema, localBusinessSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { BUSINESS } from '@/lib/constants'
 
@@ -44,19 +46,18 @@ export default function AboutPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema()) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'About BuzzSkito', url: '/buzzskito-history' }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema('/buzzskito-history')) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema('/buzzskito-history', '2026-07-01')) }} />
 
-      <section className="bg-gradient-to-br from-brand-950 to-brand-800 text-white py-14 px-4">
-        <div className="max-w-4xl mx-auto">
-          <nav aria-label="Breadcrumb" className="text-brand-400 text-sm mb-4 flex items-center gap-1">
-            <Link href="/" className="hover:text-white">Home</Link>
-            <span aria-hidden="true">/</span>
-            <span className="text-white">About BuzzSkito</span>
-          </nav>
-          <h1 className="text-4xl sm:text-5xl font-extrabold mb-5">About BuzzSkito</h1>
-          <p className="text-xl text-brand-100 max-w-2xl">GTA's specialized mosquito and tick control company. Health Canada–approved treatments, 150+ five-star reviews, no contracts.</p>
-        </div>
-      </section>
+      <CityHero
+        breadcrumbs={[
+          { label: 'Home', href: '/' },
+          { label: 'About BuzzSkito' },
+        ]}
+        title={<>About BuzzSkito</>}
+        subtitle={<>GTA's specialized mosquito and tick control company. Health Canada–approved treatments, 150+ five-star reviews, no contracts.</>}
+        image="/spray-pool.webp"
+        imageAlt="BuzzSkito technician applying barrier spray beside a backyard pool"
+      />
 
       <article className="max-w-4xl mx-auto px-4 py-14 prose-brand">
 
@@ -84,15 +85,15 @@ export default function AboutPage() {
         <h2>Our Credentials and Standards</h2>
         <div className="not-prose grid grid-cols-1 sm:grid-cols-2 gap-5 mb-8">
           {[
-            { icon: '🏅', title: 'Health Canada–Approved Products', desc: 'All formulas registered under the Pest Control Products Act. Registration numbers available on request.' },
-            { icon: '📋', title: 'Ontario Licensed Technicians', desc: 'All technicians licensed under Ontario\'s Pesticides Act. Fully insured with commercial liability coverage.' },
-            { icon: '📝', title: 'Written Service Documentation', desc: 'Every visit documented with a written service log delivered by SMS after each treatment.' },
-            { icon: '🔄', title: 'Free Re-Spray Guarantee', desc: 'Mosquitoes or ticks return within the protection window? We come back and re-treat at no cost.' },
-            { icon: '🌧️', title: 'BuzzSkito Bite-Free Guarantee', desc: 'If pests return inside the protection window — or rain disrupts the cure — we re-treat at no charge. Period.' },
-            { icon: '⭐', title: '150+ Five-Star Google Reviews', desc: 'Publicly verified reviews from GTA homeowners across our service area.' },
+            { icon: 'award', title: 'Health Canada–Approved Products', desc: 'All formulas registered under the Pest Control Products Act. Registration numbers available on request.' },
+            { icon: 'shield-check', title: 'Ontario Licensed Technicians', desc: 'All technicians licensed under Ontario\'s Pesticides Act. Fully insured with commercial liability coverage.' },
+            { icon: 'file-check', title: 'Written Service Documentation', desc: 'Every visit documented with a written service log delivered by SMS after each treatment.' },
+            { icon: 'refresh', title: 'Free Re-Spray Guarantee', desc: 'Mosquitoes or ticks return within the protection window? We come back and re-treat at no cost.' },
+            { icon: 'cloud-rain', title: 'BuzzSkito Bite-Free Guarantee', desc: 'If pests return inside the protection window — or rain disrupts the cure — we re-treat at no charge. Period.' },
+            { icon: 'star', title: '150+ Five-Star Google Reviews', desc: 'Publicly verified reviews from GTA homeowners across our service area.' },
           ].map(({ icon, title, desc }) => (
             <div key={title} className="bg-brand-50 rounded-xl p-5 border border-brand-100 flex gap-4">
-              <span className="text-2xl shrink-0" aria-hidden="true">{icon}</span>
+              <IconChip name={icon} tone="brand" />
               <div>
                 <div className="font-bold text-brand-900 mb-1">{title}</div>
                 <div className="text-gray-600 text-sm">{desc}</div>
@@ -124,8 +125,8 @@ export default function AboutPage() {
           <h2 className="text-2xl font-extrabold text-brand-900 mb-6">Frequently Asked Questions About BuzzSkito</h2>
           <div className="space-y-3">
             {FAQS.map(({ question, answer }) => (
-              <details key={question} className="bg-white rounded-xl border border-brand-100 group">
-                <summary className="cursor-pointer px-5 py-4 font-semibold text-brand-900 list-none flex justify-between items-center">
+              <details key={question} className="bg-white rounded-xl border border-brand-100 group open:shadow-md transition-shadow">
+                <summary className="cursor-pointer px-5 py-4 font-semibold text-brand-900 list-none flex justify-between items-center rounded-xl hover:bg-brand-100/60 transition-colors">
                   <span>{question}</span>
                   <svg className="w-5 h-5 shrink-0 group-open:rotate-180 transition-transform text-brand-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />

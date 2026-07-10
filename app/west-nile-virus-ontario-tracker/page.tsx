@@ -233,6 +233,9 @@ export default function WestNileVirusOntarioTrackerPage() {
         name: 'West Nile Virus in Ontario & the GTA — 2026 Case Tracker',
         description: 'Aggregated West Nile virus human case counts, mosquito-surveillance findings, case-severity breakdowns and vector data for the Province of Ontario and the Greater Toronto Area, 2002-2026. Sourced to the Public Health Agency of Canada, Public Health Ontario, the U.S. CDC, and peer-reviewed surveillance literature.',
         url: `https://buzzskito.ca${SLUG}`,
+        datePublished: '2026-06-19',
+        dateModified: '2026-07-01',
+        distribution: { '@type': 'DataDownload', encodingFormat: 'text/html', contentUrl: `https://buzzskito.ca${SLUG}` },
         license: 'https://creativecommons.org/licenses/by/4.0/',
         creator: {
           '@type': 'Organization',

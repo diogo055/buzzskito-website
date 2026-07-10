@@ -2,6 +2,8 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import BuyLink from '@/components/BuyLink'
+import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 
 const SLUG = 'permethrin-canada-yard-clothing-spray'
 const DATE = '2026-05-01'
@@ -169,6 +171,11 @@ export default function PermethrinCanadaPage() {
 
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
+          <AffiliateDisclosure />
+          <p className="not-prose text-sm text-gray-600 mb-1">The most-recommended permethrin brand in Canada is Sawyer — for clothing, gear, and tents (never skin):</p>
+          <div className="not-prose mb-6 flex flex-wrap gap-3">
+            <BuyLink search="sawyer permethrin clothing spray">Check Sawyer Permethrin price on Amazon.ca →</BuyLink>
+          </div>
           <h2>What Permethrin Does (and Why It&rsquo;s Different from DEET)</h2>
           <p>Permethrin is a synthetic version of pyrethrin, the natural insecticide found in chrysanthemum flowers. Unlike DEET and picaridin (which are <strong>repellents</strong> applied to skin), permethrin is a <strong>contact insecticide</strong> applied to clothing. When a tick or mosquito lands on permethrin-treated fabric, the chemical disrupts its nervous system within seconds — the insect either falls off or dies before biting through the fabric.</p>
           <p>This is why permethrin is the gold standard for hikers, military personnel, and outdoor workers — DEET only works while it&rsquo;s wet on your skin (a few hours), while permethrin-treated clothing remains active for 6 weeks of wear or 6 wash cycles.</p>
@@ -188,6 +195,15 @@ export default function PermethrinCanadaPage() {
           <h2>The Licensed-Applicator Alternative for Whole-Yard Treatment</h2>
           <p>If you want yard-wide tick and mosquito protection (not just clothing), the only legal residential option in Ontario is hiring a licensed pesticide operator. Licensed Ontario applicators use Health Canada-approved formulations (typically bifenthrin or deltamethrin-based) that provide 21–30 days of residual yard protection per treatment.</p>
           <p>BuzzSkito is licensed under Ontario Pesticide Operator Licence #L-240-2436835197 and provides residential mosquito and tick barrier spray across the GTA. Single treatments start at $99; seasonal programs cover the full May–September season with bi-weekly or weekly applications. <Link href="/mosquito-control">Get a free quote for your property →</Link></p>
+
+          <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
+            <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Or let us handle it</h3>
+            <p className="text-sm text-gray-700 mb-4 leading-relaxed">BuzzSkito&rsquo;s professional barrier spray covers your whole yard from $99 — backed by 150+ five-star reviews and serving 19 GTA cities.</p>
+            <div className="flex flex-wrap items-center gap-4">
+              <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote →</Link>
+              <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
+            </div>
+          </aside>
 
           <h2>Permethrin vs Other Repellents — Side-by-Side</h2>
           <table className="not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">

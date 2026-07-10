@@ -2,6 +2,8 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import BuyLink from '@/components/BuyLink'
+import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 
 const SLUG = 'picaridin-vs-deet-canada'
 const DATE = '2026-05-01'
@@ -177,6 +179,12 @@ export default function PicaridinVsDeetPage() {
 
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
+          <AffiliateDisclosure />
+          <p className="not-prose text-sm text-gray-600 mb-1">Popular Health-Canada-approved options for each (Natrapel/OFF! picaridin, Watkins/OFF! DEET):</p>
+          <div className="not-prose mb-6 flex flex-wrap gap-3">
+            <BuyLink search="natrapel picaridin insect repellent">Check picaridin repellents on Amazon.ca →</BuyLink>
+            <BuyLink search="off deep woods deet insect repellent">Check DEET repellents →</BuyLink>
+          </div>
           <h2>What Each Compound Actually Does</h2>
           <p><strong>DEET</strong> (N,N-Diethyl-meta-toluamide) was developed by the US military in 1946 and registered for civilian use in 1957. It works by interfering with mosquitoes&rsquo; olfactory receptors — they essentially can&rsquo;t smell you when DEET is on your skin. Eight decades of human use have produced extensive safety data; rare side effects include skin irritation in sensitive individuals.</p>
           <p><strong>Picaridin</strong> (also called icaridin) was developed in the 1980s and approved by Health Canada in 2010. It works similarly to DEET — disrupting the mosquito&rsquo;s ability to detect human scent compounds (lactic acid, CO₂, octenol). Modern formulations are odourless, non-sticky, and safe on plastics and synthetic fabrics. The World Health Organization recommends picaridin for travel to disease-endemic regions.</p>

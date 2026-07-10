@@ -22,6 +22,14 @@ const config: Config = {
           900: '#1e3a8a',
           950: '#172554',
         },
+        // Ink — the cinematic deep navy from the approved PhotoHero scrim
+        // (#0B1628). Used for header, dark bands, and footer so the whole
+        // page shares the hero's color language instead of three navies.
+        ink: {
+          800: '#16294a',
+          900: '#102135',
+          950: '#0b1628',
+        },
         amber: {
           50:  '#fffbeb',
           100: '#fef3c7',
@@ -35,6 +43,7 @@ const config: Config = {
       },
       fontFamily: {
         sans: ['var(--font-inter)', 'system-ui', 'sans-serif'],
+        display: ['var(--font-display)', 'var(--font-inter)', 'system-ui', 'sans-serif'],
       },
     },
   },
