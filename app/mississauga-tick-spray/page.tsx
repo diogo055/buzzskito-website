@@ -7,9 +7,9 @@ import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusines
 import { BUSINESS, TICK_BLOGS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Mississauga Tick Control 2026 · From $99 · 150+ Five-Star Reviews',
+  title: 'Ticks in Mississauga? Tick Spray From $99 · 150+ 5★',
   description:
-    'Professional tick spray in Mississauga. Protect your yard near Credit River & Rattray Marsh. From $99. Call (289) 216-5030.',
+    'Blacklegged ticks are established across Mississauga — Lorne Park, Port Credit, Erin Mills. Tick spray from $99, free inspection. Call (289) 216-5030.',
   canonical: '/mississauga-tick-spray',
 })
 
@@ -24,6 +24,8 @@ const FAQS = [
   { question: 'Is tick spray safe for my family and pets?', answer: 'Yes. Our Health Canada-approved formula is safe for children and pets once dry — approximately 30 minutes after application. We apply to vegetation where ticks rest, not to grass or play areas. After the 30-minute drying window, your yard is fully safe with tick protection active.' },
   { question: 'How does professional tick spray work?', answer: 'We apply a residual barrier to the specific micro-habitats where ticks concentrate: the 1-3 metre transition zone between lawn and natural vegetation, garden bed edges, leaf litter, woodpiles, fence lines, and under decks. The formula kills ticks on contact and provides up to 30 days of residual protection.' },
   { question: 'Does BuzzSkito also do mosquito control in Mississauga?', answer: 'Yes. Most Mississauga homeowners bundle tick and mosquito control in the same visit — the same vegetation surfaces that harbour ticks also provide resting habitat for mosquitoes. See our Mississauga mosquito control service for bundle pricing.' },
+  { question: 'How much is a full-season tick program in Mississauga?', answer: 'A standalone seasonal tick program is $597 for 5 sprays across the May–September season (plus HST). If you already have a BuzzSkito mosquito plan, add full-season tick protection for just $497 — a $100 saving. Single treatments start from $99. Pricing scales with lot size for properties from 10,000 to 100,000 sq ft. No contracts, and every visit is backed by our Bite-Free Guarantee.' },
+  { question: 'Which Mississauga neighbourhoods have the highest tick risk?', answer: 'The highest blacklegged tick exposure in Mississauga is along the Credit River corridor and conservation lands: Lorne Park and Port Credit (near the river mouth and Rattray Marsh), Streetsville and Erin Mills (Credit River valley and Culham Trail), Meadowvale (Meadowvale Conservation Area and Aquitaine Lake), and Churchill Meadows (Greenbelt and hydro-corridor edges). Any property backing onto ravine, trail, or wooded green space carries elevated risk regardless of neighbourhood.' },
 ]
 
 export default function MississaugaTickPage() {
@@ -148,6 +150,72 @@ export default function MississaugaTickPage() {
           <h2>Mississauga Neighbourhoods We Serve for Tick Control</h2>
           <div className="not-prose flex flex-wrap gap-2 mb-6">
             {NEIGHBOURHOODS.map((n) => <span key={n} className="text-sm bg-amber-50 border border-amber-200 text-amber-700 px-3 py-1.5 rounded-full">{n}</span>)}
+          </div>
+
+          <h2>Tick Risk by Mississauga Neighbourhood</h2>
+          <p>Tick pressure across Mississauga tracks the Credit River corridor and the city&rsquo;s conservation lands. Homes backing onto ravine, trail, or wooded green space carry the highest blacklegged tick exposure. Here&rsquo;s how the risk breaks down neighbourhood by neighbourhood:</p>
+          <div className="not-prose overflow-x-auto my-4">
+            <table className="w-full text-sm border-collapse">
+              <thead>
+                <tr className="bg-amber-700 text-white">
+                  <th className="px-4 py-2 text-left">Neighbourhood</th>
+                  <th className="px-4 py-2 text-left">Tick Risk</th>
+                  <th className="px-4 py-2 text-left">Why</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  { area: 'Lorne Park', risk: 'High', why: 'Mature-treed lots near Rattray Marsh and the Credit River mouth — classic blacklegged tick habitat.' },
+                  { area: 'Port Credit', risk: 'High', why: 'River-mouth greenspace, waterfront trail edges, and shaded gardens hold ticks along property lines.' },
+                  { area: 'Streetsville', risk: 'High', why: 'Credit River valley and Culham Trail run straight through the village; backyards meet the woods.' },
+                  { area: 'Erin Mills', risk: 'Moderate–High', why: 'Sawmill Valley and Credit River tributary trails feed ticks into adjacent subdivisions.' },
+                  { area: 'Meadowvale', risk: 'Moderate–High', why: 'Meadowvale Conservation Area and Aquitaine Lake create wooded transition zones on nearby lots.' },
+                  { area: 'Churchill Meadows', risk: 'Moderate', why: 'Greenbelt, hydro-corridor, and newer wooded buffers put ravine-adjacent homes at risk.' },
+                ].map(({ area, risk, why }) => (
+                  <tr key={area} className="border-b border-gray-200 even:bg-gray-50">
+                    <td className="px-4 py-2 font-semibold text-brand-800">{area}</td>
+                    <td className="px-4 py-2 font-extrabold text-amber-700">{risk}</td>
+                    <td className="px-4 py-2 text-gray-600">{why}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p>Not sure how your street compares? Our <Link href="/blog/tick-hot-spots-mississauga-2026" className="text-brand-700 hover:underline font-semibold">Mississauga tick hot spots 2026 guide</Link> maps the city&rsquo;s highest-exposure pockets in detail.</p>
+
+          <h2>Seasonal Tick Program Pricing in Mississauga</h2>
+          <p>Beyond single visits (from <strong>$99</strong>), most ravine- and conservation-adjacent Mississauga homes choose a full-season tick program for start-to-finish Lyme disease prevention:</p>
+          <div className="not-prose overflow-x-auto my-4">
+            <table className="w-full text-sm border-collapse">
+              <thead>
+                <tr className="bg-amber-700 text-white">
+                  <th className="px-4 py-2 text-left">Program</th>
+                  <th className="px-4 py-2 text-left">Price</th>
+                  <th className="px-4 py-2 text-left">What&rsquo;s Included</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  { plan: 'Tick season — standalone', cost: '$597 / season + HST', detail: '5 sprays across May–September, timed to nymph and adult activity.' },
+                  { plan: 'Tick season — bundled', cost: '$497 / season + HST', detail: 'Same 5 sprays added to any BuzzSkito mosquito plan — save $100.' },
+                  { plan: 'Single treatment', cost: 'From $99 + HST', detail: 'One-time barrier spray; great before a party or after finding a tick.' },
+                ].map(({ plan, cost, detail }) => (
+                  <tr key={plan} className="border-b border-gray-200 even:bg-gray-50">
+                    <td className="px-4 py-2 font-semibold text-brand-800">{plan}</td>
+                    <td className="px-4 py-2 font-extrabold text-amber-700">{cost}</td>
+                    <td className="px-4 py-2 text-gray-600">{detail}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-sm text-gray-500">Prices scale with lot size (10,000–100,000 sq ft). No contracts. Every visit is backed by the BuzzSkito Bite-Free Guarantee — if ticks return within the protection window, we re-treat free.</p>
+
+          {/* Free inspection CTA */}
+          <div className="not-prose my-8 rounded-2xl bg-brand-900 text-white p-6 sm:p-8 text-center">
+            <h3 className="text-xl font-extrabold mb-2">Book a Free Mississauga Tick Inspection</h3>
+            <p className="text-brand-100 text-sm mb-5 max-w-2xl mx-auto">A licensed BuzzSkito technician walks your yard, pinpoints the Credit River exposure and lawn-to-woods zones ticks hide in, and gives you a no-obligation quote. Backed by 150+ five-star reviews and zero negative reviews.</p>
+            <Link href="/free-yard-assessment" className="inline-block bg-amber-500 hover:bg-amber-400 text-white font-bold px-7 py-3 rounded-full text-sm transition-colors">Get My Free Inspection</Link>
           </div>
 
           <h2>What Our Mississauga Tick Treatment Includes</h2>

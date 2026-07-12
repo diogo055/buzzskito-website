@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
+import BuyLink from '@/components/BuyLink'
+import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 
 const SLUG = 'natural-mosquito-repellent-ontario'
@@ -40,6 +42,18 @@ const FAQS = [
     question: 'When do natural repellents fail?',
     answer: 'Natural repellents fail in three scenarios: (1) High mosquito pressure — a yard near a ravine, creek, or wetland produces too many mosquitoes for individual repellents to handle. (2) Long durations outside — most natural repellents need re-application every 1–2 hours; a backyard barbecue exposes you to gaps. (3) Multiple species — some Ontario mosquitoes (Aedes vexans, Culex pipiens) are less affected by certain plant oils. For continuous outdoor enjoyment, professional barrier spray is more reliable than personal repellent — it controls the population in your yard, not just on your skin.',
   },
+  {
+    question: 'How do I make a homemade mosquito repellent that actually works?',
+    answer: 'Mix a base of 2 tbsp witch hazel and 2 tbsp distilled water in a 4 oz glass spray bottle, add 1 tsp fractionated coconut or jojoba oil, then about 30 drops of essential oils — 12 lemon eucalyptus, 8 citronella, 6 lavender, 4 peppermint. Shake before every use and re-apply every 30–60 minutes. Be realistic: even the best DIY blend lasts under an hour and is far weaker than a refined oil-of-lemon-eucalyptus (OLE / PMD) product. Patch-test on your forearm first, and never use raw essential-oil sprays on infants under three or on broken skin.',
+  },
+  {
+    question: 'Is picaridin a natural mosquito repellent?',
+    answer: 'Picaridin is synthetic, but it is modelled on a compound found in black pepper plants and is the leading choice for people who want to avoid DEET. It is odourless, non-greasy, does not damage gear or plastics, and a 20% formula protects for 8–12 hours — far longer than any plant-based repellent. If your goal is "not DEET" rather than "strictly botanical," picaridin is the most reliable pick. See our picaridin vs DEET comparison for the full breakdown.',
+  },
+  {
+    question: 'Is natural mosquito repellent safe for children and during pregnancy?',
+    answer: 'Health Canada advises that oil of lemon eucalyptus (OLE / PMD) not be used on children under three, while picaridin and low-concentration DEET are considered safe from six months of age when used as directed. Loose essential-oil blends are not tested for these groups, so keep them off infants and broken skin. During pregnancy, registered picaridin and OLE products used as labelled are generally considered appropriate — but confirm with your own healthcare provider.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({
@@ -74,6 +88,13 @@ export default function NaturalMosquitoRepellentPage() {
         <div className="max-w-3xl mx-auto prose-brand">
           <p className="lead text-xl text-gray-700 leading-relaxed mb-6">If you&rsquo;re trying to avoid DEET, you&rsquo;re not alone. Most Ontario homeowners would prefer a natural option — but the marketing claims for &ldquo;natural mosquito repellent&rdquo; products often outpace the science. Here&rsquo;s what the peer-reviewed research actually says works in Ontario backyards in 2026.</p>
 
+          <AffiliateDisclosure />
+
+          <div className="not-prose my-6 rounded-xl border border-emerald-200 bg-emerald-50 p-5">
+            <p className="text-xs font-bold uppercase tracking-wide text-emerald-700 mb-2">The short answer</p>
+            <p className="text-gray-800 leading-relaxed">The most effective natural mosquito repellent is <strong>oil of lemon eucalyptus (OLE / PMD)</strong> — the only plant-derived ingredient Health Canada rates comparable to low-concentration DEET, giving 4–6 hours of protection. <Link href="/blog/picaridin-vs-deet-canada" className="text-emerald-800 underline underline-offset-2">Picaridin</Link>, modelled on a black-pepper compound, is the best-tolerated non-DEET option for all-day wear. Citronella, soybean oil and geraniol work but need re-applying every 1–2 hours. For a whole yard, pair BTI larvicide (Mosquito Dunks) with a patio fan. Homemade essential-oil sprays give 30–60 minutes at best.</p>
+          </div>
+
           <h2>The Tier System — What Actually Works</h2>
 
           <h3>🟢 Tier 1: Evidence-backed, comparable to low-concentration DEET</h3>
@@ -99,6 +120,48 @@ export default function NaturalMosquitoRepellentPage() {
             <li><strong>Bracelets and wristbands</strong> — protect a few centimetres around the wrist, useless for full body.</li>
           </ul>
 
+          <h2>Natural Repellents Compared — And Where to Buy</h2>
+          <p>Every pick below is stocked in Canada and evidence-ranked above. Prices change constantly, so the buttons go straight to the live Amazon.ca listing (US visitors are auto-routed to Amazon.com). For the full rundown of every repellent type — including DEET and picaridin concentrations — see our <Link href="/blog/mosquito-repellent-guide-ontario-2026">2026 Ontario mosquito repellent guide</Link>.</p>
+          <div className="not-prose my-6 overflow-x-auto">
+            <table className="w-full min-w-[600px] border-collapse text-sm">
+              <thead>
+                <tr className="border-b-2 border-gray-300 text-left text-gray-900">
+                  <th className="py-2 pr-4 font-bold">Product</th>
+                  <th className="py-2 pr-4 font-bold">Active ingredient</th>
+                  <th className="py-2 pr-4 font-bold">Protection</th>
+                  <th className="py-2 font-bold">Where to buy</th>
+                </tr>
+              </thead>
+              <tbody className="align-top text-gray-700">
+                <tr className="border-b border-gray-200">
+                  <td className="py-3 pr-4 font-semibold">Off! Botanicals</td>
+                  <td className="py-3 pr-4">Lemon eucalyptus (OLE / PMD)</td>
+                  <td className="py-3 pr-4">4–6 hrs</td>
+                  <td className="py-3"><BuyLink search="off botanicals lemon eucalyptus">Check price on Amazon.ca →</BuyLink></td>
+                </tr>
+                <tr className="border-b border-gray-200">
+                  <td className="py-3 pr-4 font-semibold">Picaridin spray</td>
+                  <td className="py-3 pr-4">Picaridin 20% (DEET-free)</td>
+                  <td className="py-3 pr-4">8–12 hrs</td>
+                  <td className="py-3"><BuyLink search="picaridin insect repellent 20 percent">Check price on Amazon.ca →</BuyLink></td>
+                </tr>
+                <tr className="border-b border-gray-200">
+                  <td className="py-3 pr-4 font-semibold">Watkins Original</td>
+                  <td className="py-3 pr-4">Citronella + plant oils</td>
+                  <td className="py-3 pr-4">2–3 hrs</td>
+                  <td className="py-3"><BuyLink search="watkins mosquito insect repellent">Check price on Amazon.ca →</BuyLink></td>
+                </tr>
+                <tr>
+                  <td className="py-3 pr-4 font-semibold">Citronella spray</td>
+                  <td className="py-3 pr-4">Citronella oil</td>
+                  <td className="py-3 pr-4">30–60 min</td>
+                  <td className="py-3"><BuyLink search="citronella insect repellent spray">Check price on Amazon.ca →</BuyLink></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-sm text-gray-500">OLE / PMD and picaridin are the two picks with published, DEET-comparable efficacy. Citronella and Watkins-style blends smell great and are fine for short outings, but plan on re-applying often.</p>
+
           <h2>The Underrated Tool: Mosquito Dunks (BTI)</h2>
           <p>This is the most powerful natural mosquito control tool most Ontario homeowners overlook. <strong>Bacillus thuringiensis israelensis (BTI)</strong> is a soil bacterium that produces a toxin lethal to mosquito and black fly larvae — and harmless to everything else: humans, pets, fish, frogs, birds, pollinators, beneficial insects.</p>
           <p>BTI is sold as:</p>
@@ -115,6 +178,16 @@ export default function NaturalMosquitoRepellentPage() {
           <p>Lavender, basil, citronella grass, and bee balm contain real mosquito-repellent oils — but plants release these oils only when the leaves are crushed or brushed. A planted lavender bush at the corner of your patio is mostly decorative. To get the actual repellent benefit, you would need to physically crush leaves and rub them around — at which point a small bottle of OLE-based spray is more practical.</p>
           <p>For Ontario-hardy mosquito-repellent plants worth growing for their <em>combination</em> of mild repellency and aesthetic value, see our <Link href="/blog/mosquito-repellent-plants-ontario">Mosquito Repellent Plants Ontario guide</Link>.</p>
 
+          <h2>DIY Essential-Oil Mosquito Repellent (Homemade Recipe)</h2>
+          <p>A homemade spray will never match OLE or picaridin, but a well-balanced blend can buy you 30–60 minutes on a calm evening — enough for watering the garden or a short sit outside. Here&rsquo;s a recipe that maximises what essential oils can realistically do:</p>
+          <ol>
+            <li><strong>Base:</strong> 2 tbsp (30 ml) witch hazel + 2 tbsp (30 ml) distilled water in a 4 oz glass spray bottle.</li>
+            <li><strong>Skin conditioner:</strong> 1 tsp fractionated coconut or jojoba oil — helps the blend cling instead of evaporating instantly.</li>
+            <li><strong>Essential oils (about 30 drops total):</strong> 12 drops lemon eucalyptus, 8 drops citronella, 6 drops lavender, 4 drops peppermint.</li>
+            <li><strong>Use:</strong> shake before every application and re-apply every 30–60 minutes.</li>
+          </ol>
+          <p><strong>Two honest caveats.</strong> First, the &ldquo;oil of lemon eucalyptus&rdquo; essential oil sold for DIY blends is <em>not</em> the same as the refined PMD in registered products like Off Botanicals — the raw oil is weaker and untested for safety, so don&rsquo;t treat your homemade spray as equivalent. Second, patch-test on your forearm first, and never use raw essential-oil sprays on infants under three or on broken skin. If you want dependable, all-day protection without DEET, a store-bought <Link href="/blog/picaridin-vs-deet-canada">picaridin</Link> product is the safer, longer-lasting choice.</p>
+
           <h2>The Strategy That Actually Works in Ontario</h2>
           <p>For a typical Ontario backyard, layer four natural strategies:</p>
           <ol>
@@ -130,6 +203,8 @@ export default function NaturalMosquitoRepellentPage() {
 
           <h2>Related Guides</h2>
           <ul>
+            <li><Link href="/blog/mosquito-repellent-guide-ontario-2026">2026 Ontario Mosquito Repellent Guide (Every Type Ranked)</Link></li>
+            <li><Link href="/blog/picaridin-vs-deet-canada">Picaridin vs DEET in Canada — Which Should You Use?</Link></li>
             <li><Link href="/blog/mosquito-repellent-plants-ontario">10 Mosquito-Repellent Plants for Ontario</Link></li>
             <li><Link href="/blog/natural-eco-friendly-mosquito-control-ontario">Natural Eco-Friendly Mosquito Control</Link></li>
             <li><Link href="/blog/hidden-mosquito-breeding-spots-backyard">Hidden Mosquito Breeding Spots</Link></li>

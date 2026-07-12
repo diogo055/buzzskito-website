@@ -6,6 +6,7 @@ import { MOSQUITO_BLOGS } from '@/lib/constants'
 
 const SLUG = 'do-cedar-trees-attract-mosquitoes'
 const DATE = '2026-04-26'
+const UPDATED = '2026-07-12'
 const TITLE = 'Do Cedar Trees Attract Mosquitoes? The Honest Answer'
 const EXCERPT = 'Cedar trees do not attract mosquitoes — cedar oil actually repels them. But dense cedar hedges create damp, shaded micro-environments where mosquitoes rest during the day. Here is what to do.'
 
@@ -33,20 +34,21 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Do Cedar Trees Attract Mosquitoes? No — But There\'s a Catch',
-  description: 'Cedars do not attract mosquitoes — cedar oil repels them. But dense cedar hedges create damp shaded resting habitat. How to manage them.',
+  title: 'Do Cedar Trees Attract Mosquitoes? The Honest Answer (+ Fix)',
+  description: 'Cedars don\'t attract mosquitoes — but dense cedar hedges trap the moisture and shade they love. Here\'s the honest answer and how to fix it.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
+  modifiedTime: UPDATED,
 })
 
 export default function CedarTreesMosquitoesPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: EXCERPT, slug: SLUG, datePublished: DATE })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: EXCERPT, slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Do Cedar Trees Attract Mosquitoes?', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`)) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`, UPDATED)) }} />
 
       <section className="bg-gradient-to-br from-brand-950 to-brand-800 text-white py-14 px-4">
         <div className="max-w-4xl mx-auto">
@@ -57,13 +59,13 @@ export default function CedarTreesMosquitoesPage() {
           </nav>
           <span className="bg-brand-800 text-brand-200 text-xs px-3 py-1 rounded-full mb-4 inline-block">Mosquito Control</span>
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
-          <p className="text-brand-300 text-sm">Published {new Date(DATE).toLocaleDateString('en-CA', { year: 'numeric', month: 'long', day: 'numeric' })} · By BuzzSkito</p>
+          <p className="text-brand-300 text-sm">Published {new Date(DATE).toLocaleDateString('en-CA', { year: 'numeric', month: 'long', day: 'numeric' })} · Updated {new Date(UPDATED).toLocaleDateString('en-CA', { year: 'numeric', month: 'long', day: 'numeric' })} · By BuzzSkito</p>
         </div>
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
         <p className="text-lg text-gray-600 not-prose border-l-4 border-amber-400 pl-5 py-2 mb-8">
-          The short answer: <strong>no</strong>, cedar trees do not attract mosquitoes. Cedar wood and cedar oil actually contain compounds that mildly repel insects. But there is a real reason this question keeps coming up — and it has nothing to do with the cedar species itself. It has to do with the <em>micro-environment</em> that dense cedar hedges create in your yard. Here is the honest answer, including what is true, what is myth, and what actually matters for mosquito control.
+          The short answer: <strong>no &mdash; but there is a catch.</strong> Cedar trees do not attract mosquitoes, and cedar oil actually <em>mildly repels</em> them. The catch is the <em>micro-environment</em> a dense cedar hedge creates: damp, shaded, still air that mosquitoes rest in all day, then pour out of at dusk. So the fix is not ripping out your cedars &mdash; it is managing that habitat. Here is the honest answer, including what is true, what is myth, and what actually matters for mosquito control.
         </p>
 
         <h2>Why People Think Cedars Attract Mosquitoes</h2>
@@ -120,7 +122,7 @@ export default function CedarTreesMosquitoesPage() {
           <li>The undersides of low-skirted patio furniture</li>
           <li>Compost bins, woodpiles, and garden sheds</li>
         </ul>
-        <p>If you can identify the resting habitats on your property, you can target them. This is exactly what professional barrier spray does — and why the application technique matters as much as the product itself.</p>
+        <p>If you can identify the resting habitats on your property, you can target them — the same logic behind our <Link href="/blog/how-to-prevent-mosquitoes-in-your-backyard" className="text-brand-700 underline">12 ways to prevent mosquitoes in your backyard</Link>. This is exactly what professional barrier spray does — and why the application technique matters as much as the product itself.</p>
 
         <h2>What to Do About Your Cedar Hedge (Without Removing It)</h2>
         <p>You do not need to rip out your cedars. They provide privacy, wind protection, wildlife habitat, year-round colour, and significant property value. Removing a mature cedar hedge to fix a mosquito problem is like demolishing your kitchen because you have ants. Manage instead.</p>
@@ -141,7 +143,7 @@ export default function CedarTreesMosquitoesPage() {
         <p>While you are at it, address the rest of the resting micro-environment on the property: trim back overgrown shrubs, clear leaf litter from garden beds, and check our <Link href="/blog/hidden-mosquito-breeding-spots-backyard" className="text-brand-700 underline">hidden mosquito breeding spots guide</Link> for the standing-water sources that are quietly producing mosquitoes alongside your hedge.</p>
 
         <h2>Are There Plants That Actually Repel Mosquitoes?</h2>
-        <p>Yes — but the effect is small and localized. Several plants release low levels of mosquito-deterrent compounds when their leaves are crushed, brushed, or warmed in direct sunlight:</p>
+        <p>Yes — but the effect is small and localized. Several <Link href="/blog/mosquito-repellent-plants-ontario" className="text-brand-700 underline">mosquito-repelling plants for Ontario gardens</Link> release low levels of mosquito-deterrent compounds when their leaves are crushed, brushed, or warmed in direct sunlight:</p>
         <ul>
           <li><strong>Citronella grass</strong> — modest repellent, requires direct contact with leaves</li>
           <li><strong>Lemongrass</strong> — same active compound as citronella</li>

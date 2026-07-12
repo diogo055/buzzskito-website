@@ -34,21 +34,22 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'When Do Mosquitoes Come Out in Ontario 2026? (Exact Dates + Peak Weeks)',
+  title: 'When Does Mosquito Season Start in the GTA? (2026 Dates, Month by Month)',
   description:
-    'Ontario mosquito season 2026 starts late April when temps hit 10°C. Peak weeks June 13-Aug 22. Worst month: July. Temperature triggers, city-by-city timing, and why the first week of May is the booking window you cannot miss.',
+    'GTA mosquitoes emerge early-to-mid May and peak in June–July. See the 2026 month-by-month timeline and exactly when to book your first treatment.',
   canonical: `/blog/${POST.slug}`,
   type: 'article',
   publishedTime: POST.date,
+  modifiedTime: '2026-07-12',
 })
 
 export default function MosquitoSeasonPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: POST.title, description: POST.excerpt, slug: POST.slug, datePublished: POST.date })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: POST.title, description: POST.excerpt, slug: POST.slug, datePublished: POST.date, dateModified: '2026-07-12' })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Mosquito Season GTA', url: `/blog/${POST.slug}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${POST.slug}`)) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${POST.slug}`, '2026-07-12')) }} />
 
       <section className="bg-gradient-to-br from-brand-950 to-brand-800 text-white py-14 px-4">
         <div className="max-w-4xl mx-auto">
@@ -67,6 +68,16 @@ export default function MosquitoSeasonPage() {
         <p className="text-lg text-gray-600 leading-relaxed not-prose border-l-4 border-brand-400 pl-5 py-2 mb-8">
           This guide covers the exact mosquito season timeline for each GTA city, what temperature triggers mosquito activity, and how to time your protection. Part of our <Link href={`/blog/${MOSQUITO_BLOGS.pillar.slug}`} className="text-brand-700 underline">Ultimate Backyard Mosquito Control Guide</Link>.
         </p>
+
+        <div className="not-prose speakable my-8 rounded-2xl border-2 border-brand-200 bg-brand-50 p-6 sm:p-7">
+          <p className="text-xs font-bold uppercase tracking-wide text-brand-600 mb-2">Quick Answer</p>
+          <p className="text-gray-800 leading-relaxed">
+            <strong>GTA mosquito season starts in late April</strong> and ramps up fast through May, once daytime temperatures hold above 10°C. Biting <strong>peaks in June and July</strong>, stays heavy through August, then tapers off in late September. The single best window to book your first treatment is the <strong>first week of May</strong> &mdash; before the first generation of adults breeds.
+          </p>
+          <p className="mt-4 text-gray-800 leading-relaxed">
+            Want early-season coverage locked in? <Link href="/free-yard-assessment" className="font-semibold text-brand-700 underline">Book your first treatment with a free yard assessment</Link> &mdash; or see <Link href="/mosquito-control-cost" className="text-brand-700 underline">what GTA mosquito control costs</Link> first.
+          </p>
+        </div>
 
         <h2>The Short Answer: GTA Mosquito Season 2026</h2>
         <ul>

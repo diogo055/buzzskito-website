@@ -7,7 +7,8 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 
 const SLUG = 'mosquito-bits-canada-vs-dunks'
 const DATE = '2026-05-01'
-const TITLE = 'Mosquito Bits Canada 2026 — Where to Buy + Bits vs Dunks'
+const UPDATED = '2026-07-12'
+const TITLE = 'Mosquito Bits vs Dunks (Canada 2026): Kills Larvae Faster'
 
 const FAQS = [
   {
@@ -50,19 +51,20 @@ const FAQS = [
 
 export const metadata: Metadata = buildMetadata({
   title: TITLE,
-  description: 'Where to buy Mosquito Bits in Canada (Canadian Tire, Home Depot, Rona prices), Bits vs Dunks side-by-side, BTI safety, fast-release vs slow-release, and how to use them in rain barrels and ponds. Updated 2026.',
+  description: 'Bits kill larvae in 24 hrs, Dunks last 30 days — which to use plus the cheapest place to buy each in Canada (Canadian Tire, Home Depot, Amazon.ca).',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
+  modifiedTime: UPDATED,
 })
 
 export default function MosquitoBitsCanadaPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Comprehensive 2026 guide to Mosquito Bits in Canada vs Mosquito Dunks.', slug: SLUG, datePublished: DATE })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Comprehensive 2026 guide to Mosquito Bits in Canada vs Mosquito Dunks.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Mosquito Bits Canada', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`)) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`, UPDATED)) }} />
 
       <section className="bg-gradient-to-br from-brand-950 via-brand-900 to-emerald-900 text-white py-14 px-4">
         <div className="max-w-4xl mx-auto">
@@ -79,7 +81,7 @@ export default function MosquitoBitsCanadaPage() {
       {/* WHERE TO BUY */}
       <section className="bg-gradient-to-br from-emerald-50 to-white border-b border-emerald-200 py-10 px-4">
         <div className="max-w-4xl mx-auto">
-          <p className="text-xs font-extrabold text-emerald-700 uppercase tracking-wider mb-2">Where to Buy in Canada · Updated May 2026</p>
+          <p className="text-xs font-extrabold text-emerald-700 uppercase tracking-wider mb-2">Where to Buy in Canada · Updated July 2026</p>
           <h2 className="text-2xl font-extrabold text-brand-900 mb-4">Mosquito Bits: Where to Buy in Canada</h2>
           <p className="text-sm text-gray-700 mb-5 leading-relaxed">
             Summit Chemical Mosquito Bits (orange and green container) is the most widely-stocked brand across Canadian retailers. Pricing varies by retailer and time of year — buy in spring before peak-season markup.
@@ -141,7 +143,7 @@ export default function MosquitoBitsCanadaPage() {
           <p className="text-xs font-extrabold text-amber-700 uppercase tracking-wider mb-2">Quick Answer</p>
           <h2 className="text-xl font-extrabold text-brand-900 mb-3">Should I buy mosquito bits or mosquito dunks?</h2>
           <p className="text-base text-gray-800 leading-relaxed">
-            <strong>Both contain BTI — use DUNKS for long-term water sources (rain barrels, ponds, 30-day release) and BITS for fast knockdown or small water (bird baths, kiddie pools, 7–14 day release).</strong> Most Canadian homeowners buy both: dunks for the rain barrel, bits sprinkled when you find unexpected larvae anywhere else. Available at Canadian Tire, Home Depot Canada, Rona, and Amazon.ca. Mosquito Bits 8-oz container: $15–$22. Bits work within 30 minutes vs dunks taking 4 hours. Both are completely safe for humans, pets, fish, frogs, and pollinators — Health Canada-approved for residential use.
+            <strong>Bits kill larvae faster — full kill within 24 hours — while Dunks release slowly and keep protecting for a full 30 days.</strong> Both contain BTI: use DUNKS for long-term water sources (rain barrels, ponds, 30-day release) and BITS for fast knockdown or small water (bird baths, kiddie pools, 7–14 day release). Most Canadian homeowners buy both: dunks for the rain barrel, bits sprinkled when you find unexpected larvae anywhere else. Available at Canadian Tire, Home Depot Canada, Rona, and Amazon.ca. Mosquito Bits 8-oz container: $15–$22. Bits start working within 30 minutes vs dunks taking 4 hours. Both are completely safe for humans, pets, fish, frogs, and pollinators — Health Canada-approved for residential use.
           </p>
         </div>
       </section>
@@ -188,7 +190,7 @@ export default function MosquitoBitsCanadaPage() {
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
           <h2>How Mosquito Bits Work</h2>
-          <p>Mosquito Bits are corn-cob granules coated with BTI (<em>Bacillus thuringiensis</em> subspecies <em>israelensis</em>) — a soil bacterium discovered in 1976 that specifically targets the digestive systems of mosquito and black fly larvae. The corn-cob granules float briefly when sprinkled onto water, then sink as they absorb moisture. As the bits dissolve, they release BTI proteins into the water column where larvae filter-feed.</p>
+          <p>Mosquito Bits are corn-cob granules coated with BTI (<em>Bacillus thuringiensis</em> subspecies <em>israelensis</em>) — a soil bacterium discovered in 1976 that specifically targets the digestive systems of mosquito and black fly larvae. The corn-cob granules float briefly when sprinkled onto water, then sink as they absorb moisture. As the bits dissolve, they release BTI proteins into the water column where larvae filter-feed. Not sure the wrigglers you found are mosquito larvae? Our <Link href="/blog/mosquito-larvae-identification">mosquito larvae identification guide</Link> shows exactly what to look for before you treat.</p>
           <p>BTI is one of the most species-specific insecticides ever developed. It only affects mosquito larvae, black fly larvae, and a few related midge species. Humans, pets, fish, frogs, dragonflies, water beetles, beneficial insects, pollinators, and birds are completely unaffected. Health Canada has approved BTI for residential use, and some provinces approve it for drinking water reservoirs.</p>
 
           <h2>When to Use Bits Instead of Dunks</h2>
@@ -238,6 +240,8 @@ export default function MosquitoBitsCanadaPage() {
             <li><Link href="/blog/mosquito-dunks-canada-guide">Mosquito Dunks Canada — Complete Guide</Link></li>
             <li><Link href="/blog/hidden-mosquito-breeding-spots-backyard">Hidden Mosquito Breeding Spots in Your Backyard</Link></li>
             <li><Link href="/blog/natural-mosquito-repellent-ontario">Natural Mosquito Repellent — What Actually Works</Link></li>
+            <li><Link href="/blog/how-to-get-rid-of-mosquitoes-in-yard-ontario">How to Get Rid of Mosquitoes in Your Yard (Ontario)</Link></li>
+            <li><Link href="/blog/ultimate-backyard-mosquito-control-guide">The Ultimate Backyard Mosquito Control Guide</Link></li>
             <li><Link href="/mosquito-control">BuzzSkito Professional Mosquito Control Service</Link></li>
           </ul>
         </div>

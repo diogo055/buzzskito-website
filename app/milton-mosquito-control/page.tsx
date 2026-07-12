@@ -6,9 +6,9 @@ import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusines
 import { MOSQUITO_BLOGS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Milton Mosquito Control 2026 · From $99 · 150+ Five-Star Reviews',
+  title: 'Mosquito Control Milton · From $99 · 150+ 5-Star Reviews',
   description:
-    "Milton's specialist mosquito barrier spray. Health Canada-approved, from $99/treatment, no contracts, BuzzSkito Bite-Free Guarantee. Old Milton, Beaty, Coates, Willmott, Scott, Bowes, Hawthorne Village. Call (289) 216-5030.",
+    "Milton's mosquito & tick specialist. Barrier spray from $99, 150+ five-star reviews, Bite-Free Guarantee. Serving Milton, Georgetown & Halton Hills.",
   canonical: '/milton-mosquito-control',
 })
 
@@ -29,6 +29,14 @@ const FAQS = [
     question: 'Are Rattlesnake Point and Crawford Lake a mosquito issue for Milton homeowners?',
     answer: "The Niagara Escarpment conservation areas — Rattlesnake Point, Crawford Lake, and Kelso — are primarily a tick concern rather than a direct mosquito source for most Milton homeowners, since the escarpment lands are largely upland and well-drained. However, the low-lying areas between the escarpment and Milton's developed communities do contribute to regional mosquito movement. If you spend time hiking these areas and then return to your yard, the risk is from exposure during recreation rather than from escarpment mosquitoes invading your property.",
   },
+  {
+    question: 'How much does mosquito control in Milton cost?',
+    answer: "Single treatments start from $99 for a standard Milton lot up to 10,000 sq ft. Most homeowners choose a seasonal program: the Basic Season is $549 for 5 sprays, our most popular Standard Season is $994 for 10 bi-weekly sprays across May through September, and the Exclusive Season is $2,049 for 20+ weekly visits. Larger and rural Milton properties are quoted by lot size (10K–100K sq ft), and every plan is backed by our Bite-Free Guarantee with no contracts or cancellation fees.",
+  },
+  {
+    question: 'Do you serve Georgetown and Halton Hills as well as Milton?',
+    answer: "Yes. Milton is our home base in Halton Region, and our licensed technician covers neighbouring Georgetown and Halton Hills on the same routes with the same Health Canada-approved barrier spray. If your property sits near the Niagara Escarpment or a conservation trail on the Milton–Halton Hills boundary, we can combine mosquito and tick treatment for full-season coverage.",
+  },
 ]
 
 export default function MiltonMosquitoPage() {
@@ -40,7 +48,7 @@ export default function MiltonMosquitoPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Mosquito Control', url: '/mosquito-control' }, { name: CITY, url: SLUG }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema({ service: 'mosquito', city: 'Milton' })) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema('/milton-mosquito-control', '2026-07-01')) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema('/milton-mosquito-control', '2026-07-12')) }} />
 
       <CityHero
         breadcrumbs={[
@@ -98,6 +106,10 @@ export default function MiltonMosquitoPage() {
           <div className="not-prose flex flex-wrap gap-2 mb-6">
             {NEIGHBOURHOODS.map((n) => <span key={n} className="text-sm bg-brand-50 border border-brand-200 text-brand-700 px-3 py-1.5 rounded-full">{n}</span>)}
           </div>
+
+          <h2>Serving Milton, Georgetown &amp; Halton Hills</h2>
+          <p>BuzzSkito is the mosquito control Milton homeowners trust, and we cover the wider Halton region on the same routes. Whether you&apos;re backing onto a stormwater pond in Hawthorne Village, on a rural lot below the Escarpment, or on a wooded street in neighbouring <Link href="/georgetown-mosquito-control" className="text-brand-700 hover:underline">Georgetown</Link> or <Link href="/halton-hills-mosquito-control" className="text-brand-700 hover:underline">Halton Hills</Link>, the same licensed technician and Health Canada&ndash;approved barrier spray protect your yard. Because Milton, Georgetown, and Halton Hills all border Escarpment and conservation land, this corner of Halton sees higher-than-average mosquito &amp; tick pressure through the summer.</p>
+          <p>For a deeper look at the pest pressure across the area, read our guide to <Link href="/blog/mosquito-control-milton-georgetown" className="text-brand-700 hover:underline">mosquito control in Milton &amp; Georgetown</Link>.</p>
 
           <h2>Our Milton Mosquito Treatment Process</h2>
           <ul>

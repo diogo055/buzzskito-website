@@ -8,12 +8,13 @@ import { MOSQUITO_BLOGS } from '@/lib/constants'
 const POST = MOSQUITO_BLOGS.supporting[1]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'How Long Does Mosquito Spray Actually Last? 21-30 Days (2026 Yard Tests)',
+  title: 'How Long Does Mosquito Spray Last? (Barrier Sprays: 3–4 Weeks)',
   description:
-    'Independent yard tests on professional mosquito barrier spray: 21-30 days residual at GTA temps. How rain, sun, and product type affect duration. Updated May 2026.',
+    'Professional mosquito barrier sprays last 3–4 weeks; DIY sprays 1–2 days. Rain and heat shorten it — re-treat every 3–4 weeks for a bite-free GTA yard.',
   canonical: `/blog/${POST.slug}`,
   type: 'article',
   publishedTime: POST.date,
+  modifiedTime: '2026-07-12',
 })
 
 const FAQS = [
@@ -45,15 +46,19 @@ const FAQS = [
     question: 'How many mosquito treatments do I need per season in Ontario?',
     answer: 'For continuous protection through the GTA mosquito season (May through September), 4–5 treatments spaced 21–28 days apart is the standard schedule. Properties near ravines, rivers, or wetlands typically need 5 treatments. Properties in lower-pressure areas may be well-protected with 3–4 visits. A single one-time treatment before a specific event (wedding, party) provides up to 30 days of protection for that window.',
   },
+  {
+    question: 'How long does DIY or store-bought mosquito spray last compared to professional?',
+    answer: 'Store-bought yard sprays and foggers typically deliver just 1–2 days of real protection before mosquitoes return, because consumer formulas are heavily diluted and lack the leaf-bonding adhesion chemistry of professional products. A professional barrier spray lasts 3–4 weeks — up to 30 days — per application. That gap is why a single professional visit replaces roughly a dozen DIY spray sessions over the same month.',
+  },
 ]
 
 export default function MosquitoSprayLastPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: POST.title, description: POST.excerpt, slug: POST.slug, datePublished: POST.date })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: POST.title, description: POST.excerpt, slug: POST.slug, datePublished: POST.date, dateModified: '2026-07-12' })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'How Long Does Mosquito Spray Last', url: `/blog/${POST.slug}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${POST.slug}`)) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${POST.slug}`, '2026-07-12')) }} />
 
       <section className="bg-gradient-to-br from-brand-950 to-brand-800 text-white py-14 px-4">
         <div className="max-w-4xl mx-auto">
@@ -78,6 +83,10 @@ export default function MosquitoSprayLastPage() {
         </p>
 
         <h2>Quick Answer: How Long Does Mosquito Spray Last?</h2>
+        <div className="speakable not-prose bg-brand-50 border border-brand-200 rounded-xl px-5 py-4 my-6 text-gray-800">
+          <p className="font-semibold text-brand-900 mb-1">Short answer: 3–4 weeks.</p>
+          <p className="text-sm leading-relaxed">A professional <Link href="/mosquito-control" className="text-brand-700 underline">mosquito barrier spray</Link> lasts <strong>3–4 weeks (up to 30 days)</strong> per application, while DIY store-bought sprays and foggers last just <strong>1–2 days</strong>. Rain within the first hour and stretches of intense heat and UV shorten it, so most GTA yards need re-treating every <strong>3–4 weeks</strong> from May through September to stay bite-free.</p>
+        </div>
         <div className="not-prose overflow-x-auto my-6">
           <table className="w-full text-sm border-collapse">
             <thead>
@@ -106,7 +115,7 @@ export default function MosquitoSprayLastPage() {
         </div>
 
         <h2>Why Professional Spray Lasts Longer Than DIY Options</h2>
-        <p>Professional-grade residual insecticides used by BuzzSkito are formulated to bond tightly to vegetation surfaces as they dry. This creates a durable coating that persists through normal weather conditions for up to 30 days. Consumer products, which are diluted for safety in non-professional contexts, typically have much lower active ingredient concentrations and lack the adhesion chemistry that enables long-lasting residual protection.</p>
+        <p>Professional-grade residual insecticides used by BuzzSkito are formulated to bond tightly to vegetation surfaces as they dry. This creates a durable coating that persists through normal weather conditions for up to 30 days. Consumer products, which are diluted for safety in non-professional contexts, typically have much lower active ingredient concentrations and lack the adhesion chemistry that enables long-lasting residual protection. For a full side-by-side breakdown, see our guide on <Link href="/blog/mosquito-vs-diy-vs-professional-control" className="text-brand-700 hover:underline">DIY vs. professional mosquito control</Link>.</p>
 
         <h2>Does Spraying for Mosquitoes Actually Work?</h2>
         <p>Yes — with an important clarification. Barrier spray works by creating a kill zone on your property, not by eliminating the source. Mosquitoes breed in standing water — ravines, ditches, neighbours' yards — and fly to your property looking for a place to rest and feed. When they land on treated vegetation, the residual insecticide kills them.</p>
@@ -156,7 +165,7 @@ export default function MosquitoSprayLastPage() {
             </tbody>
           </table>
         </div>
-        <p>For continuous protection, re-application every 21–28 days is optimal for GTA conditions. This accounts for the 30-day maximum protection window and provides a buffer for weather or application variability.</p>
+        <p>For continuous protection, re-application every 21–28 days is optimal for GTA conditions. This accounts for the 30-day maximum protection window and provides a buffer for weather or application variability. Timing your first spray to the local <Link href="/blog/mosquito-season-gta-when-does-it-start" className="text-brand-700 hover:underline">start of mosquito season</Link> keeps the barrier ahead of peak populations.</p>
 
         <h2>How Long After Mosquito Spray Can You Go Outside?</h2>
         <p>The treated area is safe to re-enter approximately 30 minutes after application — once the spray has fully dried. During application and while the product is wet, people and pets should remain indoors or away from the yard. There's no lingering off-gassing once dry, and no re-entry restriction beyond that initial drying period.</p>

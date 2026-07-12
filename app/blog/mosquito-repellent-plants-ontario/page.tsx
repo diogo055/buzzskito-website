@@ -8,9 +8,9 @@ import { NEW_BLOGS_2, MOSQUITO_BLOGS } from '@/lib/constants'
 const POST = NEW_BLOGS_2[0]
 
 export const metadata: Metadata = buildMetadata({
-  title: '10 Plants That Repel Mosquitoes in Ontario (Tested in GTA Climate, 2026)',
+  title: 'Mosquito Repellent Plants Ontario: Citronella & 9 More',
   description:
-    'Lavender, citronella grass, basil, catnip — the 10 plants that actually reduce mosquitoes in Ontario gardens. USDA zone-matched for the GTA, with what works, what doesn\'t, and where to buy.',
+    'The best mosquito-repellent plants for Ontario — plus a deep dive on the citronella plant: is it a perennial here, geranium vs. grass, and does it really work?',
   canonical: `/blog/${POST.slug}`,
   type: 'article',
   publishedTime: POST.date,
@@ -32,6 +32,18 @@ const FAQS = [
   {
     question: 'Should I combine plants with professional mosquito spray?',
     answer: 'Yes. Plants can help reduce mosquito attraction to your garden while professional barrier spray kills mosquitoes on contact and provides up to 30 days of residual protection across your entire yard. Combined, they are significantly more effective than either alone.',
+  },
+  {
+    question: 'Is the citronella plant a perennial in Ontario?',
+    answer: 'Not a hardy one. Both the citronella geranium (Pelargonium citrosum) and true citronella grass (Cymbopogon nardus) are tender, frost-sensitive plants that will not survive a GTA winter outdoors — we sit in USDA Zone 6. Ontario gardeners grow them as annuals, or overwinter them indoors in a sunny window and move them back outside after the mid-May frost date.',
+  },
+  {
+    question: 'What is the difference between the citronella plant and citronella grass?',
+    answer: 'The garden-centre "citronella plant" or "mosquito plant" is a scented geranium (Pelargonium citrosum) bred to smell citrusy, and it releases almost no repellent passively. True citronella grass (Cymbopogon nardus) is the tropical grass that commercial citronella oil is actually distilled from. They are unrelated species, and neither perfumes a yard on its own.',
+  },
+  {
+    question: 'Does the citronella plant keep mosquitoes away?',
+    answer: 'Barely, and only right at the leaf. Controlled studies of the "mosquito plant" geranium found no measurable reduction in bites, because the scent carries only a few centimetres while mosquitoes track the carbon dioxide and body heat you give off from much farther away. It is a pleasant patio plant, not yard-wide mosquito control — for that you need standing-water removal plus a professional barrier spray.',
   },
 ]
 
@@ -139,6 +151,25 @@ export default function MosquitoRepellentPlantsPage() {
 
         <h3>10. Sage (<em>Salvia officinalis</em>)</h3>
         <p>Burning sage near outdoor fires and firepits creates aromatic smoke that mosquitoes actively avoid. As a living plant, sage provides modest ambient repellency around seating areas. Hardy in most of Southern Ontario with winter mulching.</p>
+
+        <h2>The Citronella Plant, Explained (Care, Perennial Question &amp; Myths)</h2>
+        <p className="text-lg text-gray-600 not-prose border-l-4 border-brand-400 pl-5 py-2 my-6">
+          <strong>Is citronella a perennial in Ontario?</strong> Only as a tender perennial. Both the &ldquo;mosquito plant&rdquo; (citronella geranium, <em>Pelargonium citrosum</em>) and true citronella grass (<em>Cymbopogon nardus</em>) are frost-sensitive and will not survive a GTA winter outdoors — we sit in USDA Zone 6. In practice, Ontario gardeners grow citronella as an annual, or overwinter it indoors in a sunny window and move it back out after the mid-May frost date.
+        </p>
+
+        <h3>&ldquo;Mosquito plant&rdquo; vs. true citronella grass</h3>
+        <p>The two plants sold as &ldquo;citronella&rdquo; are completely different species, and the difference matters:</p>
+        <ul>
+          <li><strong>Citronella geranium / &ldquo;mosquito plant&rdquo; (<em>Pelargonium citrosum</em>):</strong> A scented geranium bred to smell citrus-like, and the one most garden centres stock. It releases almost no repellent into the air on its own — you have to crush a leaf against your skin to notice anything, and even then it barely helps.</li>
+          <li><strong>True citronella grass (<em>Cymbopogon nardus</em>, and its cousin <em>C. winterianus</em>):</strong> The actual commercial source of citronella oil. It is a tall tropical grass that produces far more citronellal, but that oil has to be steam-distilled out — a living clump sitting in a pot still won&rsquo;t perfume your yard.</li>
+        </ul>
+
+        <h3>How to grow citronella in the GTA</h3>
+        <p>Give either plant full sun (6+ hours), a large container with free-draining potting mix, and steady water — citronella grass in particular is thirsty. Feed monthly through the summer. Because neither is winter-hardy here, plant out only after the mid-May frost date, then either treat it as a one-season annual or lift it indoors before the first fall frost. Set pots right beside where you actually sit; a plant three metres away does nothing.</p>
+
+        <h3>The honest truth: plants alone won&rsquo;t clear a yard</h3>
+        <p>Here is the myth worth busting: no citronella plant — geranium or grass — will meaningfully reduce mosquitoes across an Ontario backyard. Peer-reviewed trials of the &ldquo;mosquito plant&rdquo; geranium have repeatedly found no measurable protection. The scent travels only a few centimetres, while mosquitoes home in on the carbon dioxide and body heat you give off from well beyond that. Treat citronella as a pleasant patio plant, not pest control.</p>
+        <p>For protection you can actually feel, pair it with the two things that work at yard scale: eliminate standing water, and put down a <Link href="/mosquito-control">professional barrier spray</Link> that coats the vegetation where mosquitoes rest and keeps working for up to 30 days. Our breakdown of <Link href="/blog/mosquito-vs-diy-vs-professional-control">DIY vs. professional mosquito control</Link> lays out the full comparison.</p>
 
         <h2>Plants That Don&apos;t Work (Despite the Claims)</h2>
         <p>Several plants are widely marketed as mosquito repellents without meaningful evidence:</p>

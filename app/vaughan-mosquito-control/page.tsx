@@ -7,9 +7,9 @@ import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusines
 import { BUSINESS, MOSQUITO_BLOGS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Vaughan Mosquito Control 2026 · From $99 · 150+ Five-Star Reviews',
+  title: 'Vaughan Mosquito Control · From $99 · 150+ 5-Star Reviews',
   description:
-    'Vaughan mosquito control · 150+ five-star reviews. Barrier spray from $99, free re-spray. Woodbridge, Kleinburg, Thornhill, Maple, Concord. (289) 216-5030.',
+    'Vaughan mosquito control from $99 · 150+ 5-star reviews & free re-spray. Serving Woodbridge, Kleinburg, Thornhill & Maple. Free quote (289) 216-5030.',
   canonical: '/vaughan-mosquito-control',
 })
 
@@ -44,6 +44,14 @@ const FAQS = [
     question: 'How many mosquito treatments does a Vaughan property need per season?',
     answer: "Most Vaughan homeowners benefit from five treatments spaced approximately 28 days apart, running from May through September. Properties directly adjacent to the Humber River, Black Creek headwaters, or Kortright Centre woods may benefit from a sixth application in peak July–August weeks.",
   },
+  {
+    question: 'Do you offer mosquito control in Woodbridge and the rest of Vaughan?',
+    answer: "Yes. Woodbridge is one of our busiest Vaughan zones — its Humber River frontage and stormwater-pond networks drive heavy mosquito pressure. Our mosquito control in Woodbridge, Kleinburg, Thornhill, Maple, Concord, Vellore Village, and every other Vaughan community uses the same Health Canada-approved barrier spray, from $99 per treatment with no contract. Call (289) 216-5030 for a free Woodbridge or Vaughan quote.",
+  },
+  {
+    question: 'Can I bundle Vaughan and King City tick control with my mosquito plan?',
+    answer: "Yes. Vaughan and King City homeowners near Boyd Conservation Area, the Kortright Centre, and the Humber River valley — all confirmed blacklegged tick habitat — commonly bundle tick control with their mosquito plan for complete yard protection. Tick control is $597 for the season standalone (five sprays), or $497 when added to any mosquito plan, saving $100. Ask about bundling when you call (289) 216-5030.",
+  },
 ]
 
 export default function VaughanMosquitoPage() {
@@ -55,7 +63,7 @@ export default function VaughanMosquitoPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Mosquito Control', url: '/mosquito-control' }, { name: CITY, url: SLUG }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema({ service: 'mosquito', city: 'Vaughan' })) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema('/vaughan-mosquito-control', '2026-07-01')) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema('/vaughan-mosquito-control', '2026-07-12')) }} />
 
       {/* Hero */}
       <CityHero
@@ -182,8 +190,11 @@ export default function VaughanMosquitoPage() {
           <h2>Also Serving Kleinburg</h2>
           <p>Kleinburg village — with its Humber River frontage and Oak Ridges Moraine edge — is one of York Region&apos;s highest-pressure mosquito and tick zones. See our dedicated <Link href="/kleinburg-mosquito-control" className="text-brand-700 hover:underline">Kleinburg mosquito control service</Link> for neighbourhood-specific information.</p>
 
+          <h2>Woodbridge, Thornhill &amp; Maple</h2>
+          <p>Woodbridge is Vaughan&apos;s largest and most mosquito-prone community — its Humber River frontage, Boyd Conservation edge, and dense stormwater-pond networks put most homes within flight range of a breeding site. Our <Link href="/woodbridge-mosquito-control" className="text-brand-700 hover:underline">mosquito control in Woodbridge</Link> covers West Woodbridge, Pine Valley, Vellore Village, and Sonoma Heights with the same barrier spray from $99. We also treat every <Link href="/thornhill-mosquito-control" className="text-brand-700 hover:underline">Thornhill</Link> street plus the Maple, Concord, and Patterson subdivisions — same crew, same Bite-Free Guarantee.</p>
+
           <h2>Also Providing Tick Control in Vaughan</h2>
-          <p>Boyd Conservation Area, the Kortright Centre, and the Humber River valley are confirmed blacklegged tick habitat zones in York Region. If your property is near these areas, tick risk is real. Ask about our <Link href={TICK_SLUG} className="text-brand-700 hover:underline">Vaughan tick spray service</Link> — most homeowners bundle both treatments for complete yard protection.</p>
+          <p>Boyd Conservation Area, the Kortright Centre, and the Humber River valley are confirmed blacklegged tick habitat zones in York Region. If your property is near these areas, tick risk is real. Ask about our <Link href={TICK_SLUG} className="text-brand-700 hover:underline">Vaughan tick spray service</Link> — most homeowners bundle both treatments for complete yard protection. For the full local picture, read our guide to <Link href="/blog/tick-control-vaughan-king-city-woodbridge" className="text-brand-700 hover:underline">tick control across Vaughan, King City &amp; Woodbridge</Link>, and King City homeowners can book directly through our <Link href="/king-city-tick-spray" className="text-brand-700 hover:underline">King City tick spray service</Link>.</p>
 
 
           <h2>Pricing — Treatments from $99</h2>

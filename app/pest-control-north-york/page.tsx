@@ -10,8 +10,8 @@ const CITY = 'North York'
 const SLUG = '/pest-control-north-york'
 
 export const metadata: Metadata = buildMetadata({
-  title: `${CITY} Pest Control · Mosquito & Tick Specialist`,
-  description: `${CITY} pest control specialist focused on mosquitoes and ticks. From $99/treatment, no contracts, BuzzSkito Bite-Free Guarantee. 150+ five-star reviews.`,
+  title: `Pest Control in ${CITY} | Mosquito & Tick · 150+ 5-Star`,
+  description: `Pest control in ${CITY} for mosquitoes & ticks. Single treatments from $99, seasonal plans from $549. 150+ five-star reviews, Bite-Free Guarantee.`,
   canonical: SLUG,
 })
 
@@ -55,6 +55,14 @@ const FAQS = [
   {
     question: `How does BuzzSkito compare to general pest control companies in ${CITY}?`,
     answer: `General companies (think Orkin, Mosquito Man, etc.) cover 10–20 pests and quote multiple service tiers. BuzzSkito covers two pests, period — but we cover them better. For a ${CITY} homeowner whose actual problem is mosquitoes and ticks (not ants or mice), our specialist focus + barrier spray expertise + Bite-Free Guarantee delivers better results than a general company spreading across many pests. If you have a different pest problem, we'll honestly tell you to call someone else.`,
+  },
+  {
+    question: `Which ${CITY} neighbourhoods does BuzzSkito treat for mosquitoes and ticks?`,
+    answer: `We cover all of ${CITY}, including Willowdale, Don Mills, Bayview Village, York Mills, Downsview, Lawrence Park, Lansing, and the Bridle Path. Properties in Don Mills, York Mills, and Lawrence Park that back onto the Don Valley and Burke Brook ravine system see the highest mosquito and tick pressure, so those areas benefit most from a seasonal barrier-spray program. Same-week service is typical during the May–September season — call (289) 216-5030 to confirm your address.`,
+  },
+  {
+    question: `How much does a seasonal mosquito plan cost in ${CITY}?`,
+    answer: `For a standard ${CITY} lot (under 10,000 sq ft): single treatments start at $99, the Basic Season (5 sprays, monthly) is $549, the Standard Season (10 sprays, bi-weekly) is $994 and is our most popular, and the Exclusive Season (20+ sprays, weekly) is $2,049. Tick control is $597 standalone or $497 when bundled with a mosquito plan (save $100). Prices scale with lot size from 10K to 100K sq ft and are +HST. There are no contracts — call (289) 216-5030 for a free quote.`,
   },
 ]
 
@@ -202,6 +210,67 @@ export default function PestControlNorthYorkPage() {
           <p className="text-xs text-gray-500 mt-4 italic">Sources: Toronto Public Health surveillance data, Statistics Canada Census, BuzzSkito field observations. Public Health Ontario maintains the official tick surveillance program at <a href="https://www.publichealthontario.ca/en/Data-and-Analysis/Infectious-Disease/Lyme-Disease-Active-Tick-Surveillance" className="text-brand-700 hover:underline" target="_blank" rel="noopener noreferrer">publichealthontario.ca</a>.</p>
         </div>
       </section>
+
+      {/* NEIGHBOURHOODS */}
+      <section className="py-12 px-4 bg-brand-50 border-b border-gray-100">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-2xl font-extrabold text-brand-900 mb-2">{CITY} Neighbourhoods We Cover for Mosquito &amp; Tick Control</h2>
+          <p className="text-gray-700 text-sm mb-6">Same-week barrier spray across {CITY}, with deeper expertise in the ravine-adjacent and mature-canopy pockets where mosquito and tick pressure peaks.</p>
+          <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
+            {[
+              ['Willowdale', 'Mature canopy + creek — high mosquito pressure'],
+              ['Don Mills', 'Ravine-backing lots — Tier 1 pressure'],
+              ['Bayview Village', 'Wooded, established — tick transition zones'],
+              ['York Mills', 'Don Valley exposure — highest pressure'],
+              ['Downsview', 'G. Ross Lord Park proximity — standing-water sites'],
+              ['Lawrence Park', 'Burke Brook ravine — Tier 1 pressure'],
+            ].map(([name, note]) => (
+              <div key={name} className="bg-white rounded-xl border border-brand-100 px-4 py-3">
+                <p className="font-bold text-brand-900 text-sm">{name}</p>
+                <p className="text-xs text-gray-600 mt-1 leading-snug">{note}</p>
+              </div>
+            ))}
+          </div>
+          <p className="text-sm text-gray-700 mt-6">Not sure if we cover your street? Neighbouring coverage includes <Link href="/pest-control-etobicoke" className="text-brand-700 hover:underline font-semibold">pest control in Etobicoke</Link> and <Link href="/pest-control-toronto" className="text-brand-700 hover:underline font-semibold">pest control across Toronto</Link>. Call <a href={`tel:${BUSINESS.phone}`} className="text-brand-700 hover:underline font-semibold">{BUSINESS.phone}</a> to confirm your {CITY} address.</p>
+        </div>
+      </section>
+
+      {/* TRANSPARENT PRICING */}
+      <section className="py-12 px-4 bg-white border-b border-gray-100">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-2xl font-extrabold text-brand-900 mb-2">Transparent Pricing for {CITY} Mosquito &amp; Tick Control</h2>
+          <p className="text-gray-700 text-sm mb-6">No hidden fees, no contracts, no upsell pressure. Prices below are for a standard {CITY} lot (under 10,000 sq ft) and scale with lot size (10K–100K sq ft). All prices +HST.</p>
+          <div className="rounded-xl border border-navy-100 overflow-hidden">
+            <table className="w-full text-sm">
+              <thead className="bg-brand-800 text-white">
+                <tr>
+                  <th className="px-4 py-2 text-left">Plan</th>
+                  <th className="px-4 py-2 text-left">What&rsquo;s Included</th>
+                  <th className="px-4 py-2 text-left">Price</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  ['Single treatment', 'One barrier spray, up to 30-day protection', 'From $99'],
+                  ['Basic Season', '5 sprays, monthly (May–Sep)', '$549'],
+                  ['Standard Season · Most Popular', '10 sprays, bi-weekly (May–Sep)', '$994'],
+                  ['Exclusive Season', '20+ sprays, weekly (May–Sep)', '$2,049'],
+                  ['Tick standalone', '5 tick sprays per season', '$597'],
+                  ['Tick bundle', '5 tick sprays added to any mosquito plan (save $100)', '$497'],
+                ].map(([plan, incl, price]) => (
+                  <tr key={plan} className="border-b border-navy-50 last:border-0">
+                    <td className="px-4 py-2.5 font-semibold text-brand-900 bg-gray-50">{plan}</td>
+                    <td className="px-4 py-2.5 text-gray-800">{incl}</td>
+                    <td className="px-4 py-2.5 font-bold text-brand-900 whitespace-nowrap">{price}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-sm text-gray-700 mt-6">Backed by the <strong>BuzzSkito Bite-Free Guarantee</strong> — if pests return inside the protection window, we re-treat free. It&rsquo;s how we&rsquo;ve earned <strong>150+ five-star reviews</strong> (5.0 average, zero negative). <Link href="/free-yard-assessment" className="text-brand-700 hover:underline font-semibold">Get a free {CITY} quote →</Link></p>
+        </div>
+      </section>
+
       {/* WHY SPECIALIST */}
       <section className="py-14 px-4 bg-white">
         <div className="max-w-4xl mx-auto prose-brand">
@@ -281,6 +350,8 @@ export default function PestControlNorthYorkPage() {
           <ul className="space-y-2">
             <li>→ <Link href="/north-york-mosquito-control" className="text-brand-700 hover:underline font-semibold">{CITY} Mosquito Control</Link> — our specialty barrier spray for mosquitoes</li>
             <li>→ <Link href="/north-york-tick-spray" className="text-brand-700 hover:underline font-semibold">{CITY} Tick Control</Link> — Lyme disease prevention and yard tick spray</li>
+            <li>→ <Link href="/pest-control-etobicoke" className="text-brand-700 hover:underline">Pest Control Etobicoke</Link> — mosquito &amp; tick specialist for the west end</li>
+            <li>→ <Link href="/pest-control-toronto" className="text-brand-700 hover:underline">Pest Control Toronto</Link> — specialist barrier spray across the city</li>
             <li>→ <Link href="/pest-control-gta" className="text-brand-700 hover:underline">Pest Control GTA Pillar</Link> — overview of mosquito + tick specialist services across the GTA</li>
             <li>→ <Link href="/mosquito-control" className="text-brand-700 hover:underline">All Mosquito Control Services</Link></li>
             <li>→ <Link href="/tick-control" className="text-brand-700 hover:underline">All Tick Control Services</Link></li>

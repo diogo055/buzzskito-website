@@ -7,9 +7,9 @@ import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusines
 import { BUSINESS, MOSQUITO_BLOGS, TICK_BLOGS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Toronto Mosquito & Tick Control 2026 · As Featured in Toronto Star · From $99',
+  title: 'Mosquito Control Toronto — From $99 · 150+ 5-Star Reviews',
   description:
-    "Toronto's #1 mosquito + tick specialist — as featured in Toronto Star, CityNews, TorontoToday (May 2026). Ravine-adjacent expertise: Don Valley, High Park, Rosedale, Forest Hill, The Beaches. From $99/treatment, 150+ five-star reviews, no contracts, BuzzSkito Bite-Free Guarantee. Same-week service.",
+    "Mosquito control in Toronto from $99. Barrier spray for ravine-adjacent yards — Rosedale, The Beaches, Etobicoke, Leaside. 150+ five-star reviews.",
   canonical: '/toronto-mosquito-control',
 })
 
@@ -74,6 +74,10 @@ const FAQS = [
     question: 'How much does mosquito control cost in Toronto?',
     answer: "BuzzSkito mosquito treatments in Toronto start from $99 per treatment. Pricing depends on your property size and the depth of coverage your lot requires. Ravine-adjacent properties may need more frequent or thorough application than sheltered urban lots. Call (289) 216-5030 for a free quote, or see our 2026 Ontario pricing guide for a full breakdown.",
   },
+  {
+    question: 'What do BuzzSkito season plans cost in Toronto?',
+    answer: "Toronto season-long mosquito plans are billed per season (May through September), plus HST, and scale with your lot size. The Basic Season is $549 for 5 monthly sprays, the Standard Season — our most popular — is $994 for 10 bi-weekly sprays, and the Exclusive Season is $2,049 for 20+ weekly sprays. You can add tick control to any mosquito plan for $497/season (5 tick-focused sprays), which is $100 off the $597 standalone tick program. Single treatments start at $99. Call (289) 216-5030 for a quote on your exact lot size.",
+  },
 ]
 
 export default function TorontoMosquitoPage() {
@@ -83,7 +87,7 @@ export default function TorontoMosquitoPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema({ name: `Mosquito Control ${CITY}`, description: `Professional mosquito barrier spray for residential properties in ${CITY}, Ontario.`, slug: SLUG, city: CITY })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Mosquito Control', url: '/mosquito-control' }, { name: CITY, url: SLUG }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(SLUG, '2026-07-01')) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(SLUG, '2026-07-12')) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema({ service: 'mosquito', city: 'Toronto' })) }} />
 
       <CityHero
@@ -279,6 +283,34 @@ export default function TorontoMosquitoPage() {
           </div>
           <p>See our <Link href="/mosquito-control-cost" className="text-brand-700 hover:underline">2026 mosquito control pricing guide</Link> for a full Ontario breakdown. Call <a href={BUSINESS.phoneHref} className="text-brand-700 font-semibold hover:underline">{BUSINESS.phone}</a> for a free quote.</p>
 
+          <h3>Toronto Season-Long Mosquito Plans</h3>
+          <p>Most Toronto homeowners choose a season-long plan for hands-off, continuous May&ndash;September protection. All plans are billed per season, cover the standard lot size, and scale with larger lots &mdash; prices below are +HST:</p>
+          <div className="not-prose overflow-x-auto my-4">
+            <table className="w-full text-sm border-collapse">
+              <thead>
+                <tr className="bg-brand-800 text-white">
+                  <th className="px-4 py-2 text-left">Season Plan</th>
+                  <th className="px-4 py-2 text-left">Price (+HST)</th>
+                  <th className="px-4 py-2 text-left">What You Get</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  { plan: 'Basic Season', price: '$549', detail: '5 sprays, one every month, May through September' },
+                  { plan: 'Standard Season — most popular', price: '$994', detail: '10 sprays, bi-weekly, full-season ravine coverage' },
+                  { plan: 'Exclusive Season', price: '$2,049', detail: '20+ sprays, weekly, maximum protection for high-pressure lots' },
+                ].map(({ plan, price, detail }) => (
+                  <tr key={plan} className="border-b border-gray-200 even:bg-gray-50">
+                    <td className="px-4 py-2 font-semibold text-brand-800">{plan}</td>
+                    <td className="px-4 py-2 font-extrabold text-brand-700">{price}</td>
+                    <td className="px-4 py-2 text-gray-600">{detail}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p>Adding <strong>tick control</strong> to any mosquito plan is $497/season (5 tick-focused sprays) &mdash; $100 off the $597 standalone tick program. Every season plan includes the <strong>BuzzSkito Bite-Free Guarantee</strong>: if pests return inside the protection window, we re-treat free. <Link href="/free-yard-assessment" className="text-brand-700 hover:underline font-semibold">Get your free Toronto quote &rarr;</Link></p>
+
           <h2>Professional Mosquito Control vs. DIY in Toronto</h2>
           <p>Hardware stores sell mosquito foggers, citronella candles, and consumer sprays. Here&apos;s why they fall short for Toronto properties:</p>
           <ul>
@@ -308,6 +340,9 @@ export default function TorontoMosquitoPage() {
             <li><strong>30-minute dry time</strong> — Keep children and pets off treated surfaces while the product cures.</li>
             <li><strong>Follow-up email confirmation</strong> — Treatment log with areas treated, product applied, and your next visit date.</li>
           </ol>
+
+          <h2>Mosquito Spraying &amp; Tick Control in Toronto</h2>
+          <p>Searching for &quot;mosquito spraying Toronto,&quot; a &quot;mosquito exterminator,&quot; or &quot;tick control Toronto&quot;? That&apos;s exactly what BuzzSkito does &mdash; and it&apos;s all we do. Rather than a general exterminator that also handles ants, wasps, and rodents, we are a dedicated <strong>mosquito and tick specialist</strong>: every spray, every technician, and every product is optimized for the two pests that actually ruin Toronto backyards. Our licensed technician sprays the resting surfaces where adult mosquitoes shelter &mdash; leaf undersides, shrub interiors, fence lines, and ravine-edge vegetation &mdash; then treats the low, shaded transition zones where blacklegged ticks wait. Want to weigh your options first? Compare providers in our guide to the <Link href="/best-mosquito-control-companies-toronto" className="text-brand-700 hover:underline">best mosquito control companies in Toronto</Link>.</p>
 
           <h2>Also Providing Tick Control in Toronto</h2>
           <p>Toronto's ravine system also harbours blacklegged ticks, which carry Lyme disease. Ask about our <Link href="/toronto-tick-spray" className="text-brand-700 hover:underline">Toronto tick control service</Link>.</p>

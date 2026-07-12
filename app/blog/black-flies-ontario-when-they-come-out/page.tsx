@@ -7,6 +7,7 @@ import { MOSQUITO_BLOGS } from '@/lib/constants'
 
 const SLUG = 'black-flies-ontario-when-they-come-out'
 const DATE = '2026-04-26'
+const UPDATED = '2026-07-12'
 const TITLE = 'Black Flies in Ontario: When They Come Out and How to Stop Them'
 const EXCERPT = 'Black fly season in Ontario peaks May through July. Learn when black flies come out, where they breed, why GTA properties near rivers and ravines are at risk, and how professional barrier spray controls them.'
 
@@ -34,20 +35,21 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'When Do Black Flies Come Out in Ontario? (2026 Dates by Region)',
-  description: 'Black flies hit Ontario starting mid-May 2026. Exact emergence dates for GTA, Muskoka, and Northern Ontario, why ravine-adjacent properties get hit hardest, and the spray that actually controls them.',
+  title: 'Black Fly Season in Ontario 2026: When They Start & End',
+  description: 'Black fly season in Ontario runs mid-May to late June — peak GTA weeks. Later in Muskoka and Northern Ontario. See 2026 start & end dates.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
+  modifiedTime: UPDATED,
 })
 
 export default function BlackFliesOntarioPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: EXCERPT, slug: SLUG, datePublished: DATE })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: EXCERPT, slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Black Flies in Ontario', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`)) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`, UPDATED)) }} />
 
       <section className="bg-gradient-to-br from-brand-950 to-brand-800 text-white py-14 px-4">
         <div className="max-w-4xl mx-auto">
@@ -58,7 +60,7 @@ export default function BlackFliesOntarioPage() {
           </nav>
           <span className="bg-brand-800 text-brand-200 text-xs px-3 py-1 rounded-full mb-4 inline-block">Mosquito Control</span>
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
-          <p className="text-brand-300 text-sm">Published {new Date(DATE).toLocaleDateString('en-CA', { year: 'numeric', month: 'long', day: 'numeric' })} · By BuzzSkito</p>
+          <p className="text-brand-300 text-sm">Updated {new Date(UPDATED).toLocaleDateString('en-CA', { year: 'numeric', month: 'long', day: 'numeric' })} · By BuzzSkito</p>
         </div>
       </section>
 
@@ -67,6 +69,12 @@ export default function BlackFliesOntarioPage() {
       </div>
 
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
+        <div className="not-prose mb-8 rounded-2xl border-2 border-amber-300 bg-amber-50 p-5 sm:p-6">
+          <p className="text-xs font-bold uppercase tracking-wide text-amber-700 mb-2">Quick Answer &mdash; Black Fly Season 2026</p>
+          <p className="speakable text-base sm:text-lg text-gray-800 leading-relaxed">
+            In the <strong>GTA and southern Ontario</strong>, black flies emerge in <strong>mid-May</strong> and peak from <strong>late May through late June</strong>, fading fast by mid-July. <strong>Muskoka and cottage country</strong> run about 1&ndash;2 weeks later (late May into early July), and in <strong>Northern Ontario</strong> black fly season can stretch into late summer. A well-timed <Link href="/mosquito-control" className="text-brand-700 underline">barrier spray in mid-May</Link> covers the worst weeks &mdash; <Link href="/free-yard-assessment" className="text-brand-700 underline">get a free quote</Link>.
+          </p>
+        </div>
         <p className="text-lg text-gray-600 not-prose border-l-4 border-amber-400 pl-5 py-2 mb-8">
           If you have ever walked out to your patio in early June and been chased back inside by a swarm of tiny biting insects that draw blood when they bite, you are not alone — and you are not dealing with mosquitoes. You are dealing with black flies. This guide covers when they come out in Ontario, where they breed, and how professional treatment controls them as part of a mosquito barrier spray program.
         </p>

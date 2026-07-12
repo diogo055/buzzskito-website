@@ -7,7 +7,7 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 
 const SLUG = 'picaridin-vs-deet-canada'
 const DATE = '2026-05-01'
-const TITLE = 'Picaridin vs DEET Canada 2026 — Which Mosquito Repellent Is Better?'
+const TITLE = 'Picaridin vs DEET Canada 2026 — Which Repellent Wins?'
 
 const FAQS = [
   {
@@ -50,11 +50,23 @@ const FAQS = [
     question: 'Why are picaridin and DEET still effective if mosquitoes have evolved resistance to insecticides?',
     answer: 'Picaridin and DEET don\'t kill mosquitoes — they REPEL them by interfering with the mosquito\'s ability to detect human scent (specifically, the lactic acid and CO₂ cues mosquitoes use to find blood meals). Resistance to insecticides happens when populations evolve enzymes that break down the chemical — but you can\'t evolve resistance to "I can\'t smell you anymore." Both compounds have been in use since the 1950s (DEET) and 1990s (picaridin) with no documented resistance. They\'re among the most reliable insect repellents in modern use.',
   },
+  {
+    question: 'What is picaridin?',
+    answer: 'Picaridin is a synthetic insect repellent developed in the 1980s that repels mosquitoes, ticks, and black flies by blocking their ability to smell you — the same mechanism DEET uses. At 20% concentration it delivers 5–8 hours of mosquito protection and up to 8 hours against ticks, matching DEET while staying non-greasy, odourless, and safe on plastics, sunglasses, and synthetic clothing. It is approved by Health Canada and recommended by the World Health Organization for travel to disease-endemic regions. In Canada, picaridin is officially labelled "icaridin" — same molecule, different name.',
+  },
+  {
+    question: 'Is icaridin the same as picaridin?',
+    answer: 'Yes — icaridin and picaridin are two names for the exact same active ingredient (KBR 3023). "Icaridin" is the official name adopted by Health Canada and the World Health Organization, so Canadian product labels — Natrapel, OFF! Defense, Sawyer — often read "icaridin 20%." "Picaridin" is the common name used in the United States and in everyday conversation. If a Canadian repellent lists icaridin, you are buying picaridin.',
+  },
+  {
+    question: 'Is picaridin safe?',
+    answer: 'Yes. Picaridin (icaridin) has a strong safety record and is approved by Health Canada, the US EPA, and the World Health Organization. It is registered for adults and children 6 months and older, is less likely than DEET to irritate skin, and does not damage plastics or fabric. As with any repellent, apply only to exposed skin (not under clothing), avoid eyes and mouth, wash it off once indoors, and use physical barriers instead of chemical repellent for infants under 6 months.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({
   title: TITLE,
-  description: 'Picaridin vs DEET in Canada — which mosquito repellent works better, where to buy in Canada, kid-safe formulas, tick effectiveness, and how to layer with permethrin and barrier spray. Updated 2026.',
+  description: 'Picaridin vs DEET in Canada: which repellent works better, is picaridin (icaridin) safe, and the best picaridin insect repellents to buy. Updated 2026.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -137,6 +149,24 @@ export default function PicaridinVsDeetPage() {
         </div>
       </section>
 
+      <section className="py-10 px-4 bg-white border-b border-navy-100">
+        <div className="max-w-4xl mx-auto">
+          <p className="text-xs font-extrabold text-emerald-700 uppercase tracking-wider mb-2">Repellent Explainer</p>
+          <h2 className="text-2xl font-extrabold text-brand-900 mb-3">What Is Picaridin (a.k.a. Icaridin in Canada)?</h2>
+          <p className="text-base text-gray-800 leading-relaxed mb-4">
+            <strong>Picaridin is a synthetic insect repellent that keeps mosquitoes, ticks, and black flies from biting by blocking their ability to smell you &mdash; as effective as DEET, but non-greasy, odourless, and safe on plastics and clothing.</strong> It was developed in the 1980s, is approved by Health Canada, and is recommended by the World Health Organization for travel to mosquito-borne-disease regions. At 20% concentration it delivers 5&ndash;8 hours of mosquito protection and up to 8 hours against ticks &mdash; the modern go-to for most Canadian outdoor activity.
+          </p>
+          <div className="rounded-xl bg-emerald-50 border-l-4 border-emerald-400 p-4">
+            <p className="text-sm text-gray-800 leading-relaxed">
+              <strong className="text-emerald-900">Icaridin = picaridin.</strong> If you&rsquo;re shopping in Canada and see &ldquo;icaridin 20%&rdquo; on the label, that&rsquo;s the same molecule as picaridin. &ldquo;Icaridin&rdquo; is the official name adopted by Health Canada and the World Health Organization; &ldquo;picaridin&rdquo; is the common U.S. name. Canadian packaging for Natrapel, OFF! Defense, and Sawyer often reads icaridin &mdash; you&rsquo;re still buying picaridin.
+            </p>
+          </div>
+          <p className="text-sm text-gray-600 mt-4 leading-relaxed">
+            Comparing it to the clothing-treatment option instead? See how <Link href="/blog/permethrin-canada-yard-clothing-spray" className="text-emerald-700 underline font-semibold">picaridin stacks up against permethrin</Link>, or read the full <Link href="/blog/mosquito-repellent-guide-ontario-2026" className="text-emerald-700 underline font-semibold">Ontario mosquito repellent guide</Link> for every layer that works.
+          </p>
+        </div>
+      </section>
+
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">Picaridin vs DEET — Side-by-Side Comparison</h2>
@@ -185,6 +215,28 @@ export default function PicaridinVsDeetPage() {
             <BuyLink search="natrapel picaridin insect repellent">Check picaridin repellents on Amazon.ca →</BuyLink>
             <BuyLink search="off deep woods deet insect repellent">Check DEET repellents →</BuyLink>
           </div>
+
+          <h2>Best Picaridin Repellents in Canada</h2>
+          <p>All three of these are 20% picaridin (often labelled &ldquo;icaridin 20%&rdquo; on Canadian packaging), Health-Canada-approved, and safe for kids 6 months and older. Any one of them gives you the full 5&ndash;8 hours of mosquito protection and up to 8 hours against ticks &mdash; pick the format you like best.</p>
+          <div className="not-prose grid gap-4 sm:grid-cols-3 my-6">
+            <div className="rounded-xl border border-navy-100 bg-white p-4 shadow-sm flex flex-col">
+              <p className="font-extrabold text-brand-900">Natrapel 20% Picaridin</p>
+              <p className="text-sm text-gray-600 mt-1 mb-3 flex-1">Outdoor-store favourite &mdash; pump or continuous spray, travel-friendly, stocked at MEC and Atmosphere.</p>
+              <BuyLink search="natrapel picaridin 20 percent">Check price on Amazon.ca →</BuyLink>
+            </div>
+            <div className="rounded-xl border border-navy-100 bg-white p-4 shadow-sm flex flex-col">
+              <p className="font-extrabold text-brand-900">OFF! Defense Picaridin</p>
+              <p className="text-sm text-gray-600 mt-1 mb-3 flex-1">Most-stocked pharmacy pick &mdash; lotion or spray, budget-friendly, easy to find at Shoppers and Canadian Tire.</p>
+              <BuyLink search="off defense picaridin insect repellent">Check price on Amazon.ca →</BuyLink>
+            </div>
+            <div className="rounded-xl border border-navy-100 bg-white p-4 shadow-sm flex flex-col">
+              <p className="font-extrabold text-brand-900">Sawyer Picaridin</p>
+              <p className="text-sm text-gray-600 mt-1 mb-3 flex-1">Long-lasting lotion loved by hikers and travellers &mdash; one application covers a full day outdoors.</p>
+              <BuyLink search="sawyer picaridin insect repellent">Check price on Amazon.ca →</BuyLink>
+            </div>
+          </div>
+          <p className="text-sm text-gray-600">Skin repellent keeps bites off you for a few hours &mdash; it won&rsquo;t clear your yard. For hands-off, whole-property coverage, layer in <Link href="/mosquito-control">professional barrier spray</Link> with 21&ndash;30 day residual.</p>
+
           <h2>What Each Compound Actually Does</h2>
           <p><strong>DEET</strong> (N,N-Diethyl-meta-toluamide) was developed by the US military in 1946 and registered for civilian use in 1957. It works by interfering with mosquitoes&rsquo; olfactory receptors — they essentially can&rsquo;t smell you when DEET is on your skin. Eight decades of human use have produced extensive safety data; rare side effects include skin irritation in sensitive individuals.</p>
           <p><strong>Picaridin</strong> (also called icaridin) was developed in the 1980s and approved by Health Canada in 2010. It works similarly to DEET — disrupting the mosquito&rsquo;s ability to detect human scent compounds (lactic acid, CO₂, octenol). Modern formulations are odourless, non-sticky, and safe on plastics and synthetic fabrics. The World Health Organization recommends picaridin for travel to disease-endemic regions.</p>

@@ -20,6 +20,8 @@ const FAQS = [
   { question: 'Is the mosquito spray safe for children and pets?', answer: 'Yes. We use Health Canada–approved, water-based barrier spray formulas. Children and pets can safely return to treated areas 30 minutes after application, once the product has dried.' },
   { question: 'What is the best time of year to start mosquito control in Ontario?', answer: 'Start in early May, as mosquito populations begin building once temperatures consistently exceed 10°C. Early treatment prevents populations from establishing before peak season in June and July.' },
   { question: 'Do you service my city?', answer: 'BuzzSkito serves 19 cities across the GTA including Mississauga, Toronto, Brampton, Oakville, Burlington, Hamilton, Vaughan, Richmond Hill, Markham, Etobicoke, Scarborough, North York, Caledon, Milton, Georgetown, Halton Hills, King City, Woodbridge, and Thornhill. See our full service areas page for details.' },
+  { question: 'Is there mosquito control near me?', answer: 'If you live anywhere in the Greater Toronto Area, yes — BuzzSkito is a locally owned Mississauga-based mosquito and tick control specialist covering 19 GTA cities and 30+ neighbourhoods. Searching "mosquito control near me" almost certainly puts you inside our service zone, so you get a nearby licensed technician (Ontario licence L-240-2436835197) rather than a national call centre, backed by 150+ five-star reviews and zero negative reviews.' },
+  { question: 'How fast can you come out to spray?', answer: 'Most new bookings are treated within 24 to 48 hours, and during peak season (June and July) we can often fit same-week appointments. Because we are based locally in Mississauga and run a GTA-wide route, there is no long wait for a technician to travel out — call (289) 216-5030 or request a free quote and we will confirm the soonest available slot for your area.' },
 ]
 
 export default function MosquitoControlPage() {
@@ -79,6 +81,57 @@ export default function MosquitoControlPage() {
                 ))}
               </tbody>
             </table>
+          </div>
+        </div>
+      </section>
+
+      {/* MOSQUITO CONTROL NEAR ME — local intent capture */}
+      <section aria-labelledby="near-me" className="py-14 px-4 bg-brand-50 border-b border-brand-100">
+        <div className="max-w-5xl mx-auto">
+          <p className="kicker mb-3 text-center">Near You</p>
+          <h2 id="near-me" className="h2-display text-brand-900 mb-4 text-center">Looking for Mosquito Control Near You?</h2>
+          <p className="text-center text-gray-600 mb-8 max-w-2xl mx-auto leading-relaxed">
+            BuzzSkito is a locally owned Mississauga-based mosquito &amp; tick control specialist serving 19 cities across the Greater Toronto Area. If you searched &ldquo;mosquito control near me,&rdquo; you&rsquo;re almost certainly inside our service zone &mdash; and you&rsquo;ll get a nearby licensed technician rather than a national call centre.
+          </p>
+
+          {/* Proof · pricing · speed */}
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-10 max-w-4xl mx-auto">
+            <div className="bg-white rounded-2xl p-5 border border-brand-200 text-center">
+              <div className="text-brand-700 font-extrabold text-lg mb-1">150+ five-star reviews</div>
+              <p className="text-gray-600 text-sm">5.0&#9733; average with zero negative reviews across the GTA.</p>
+            </div>
+            <div className="bg-white rounded-2xl p-5 border border-brand-200 text-center">
+              <div className="text-brand-700 font-extrabold text-lg mb-1">From $99 per treatment</div>
+              <p className="text-gray-600 text-sm">Standard season $994 for 10 sprays (most popular). Prices +HST, scaling with lot size.</p>
+            </div>
+            <div className="bg-white rounded-2xl p-5 border border-brand-200 text-center">
+              <div className="text-brand-700 font-extrabold text-lg mb-1">Booked in 24&ndash;48 hrs</div>
+              <p className="text-gray-600 text-sm">Often same-week in peak season, backed by our Bite-Free Guarantee.</p>
+            </div>
+          </div>
+
+          {/* All 19 cities — "serving [city] near you" framing */}
+          <h3 className="text-lg font-bold text-brand-900 mb-4 text-center">Serving mosquito control near you across the GTA</h3>
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-2">
+            {CITIES.map((city) => (
+              <Link
+                key={city.name}
+                href={city.mosquitoSlug}
+                className="block bg-white border border-brand-200 rounded-lg px-4 py-3 text-sm font-medium text-brand-800 hover:bg-brand-700 hover:text-white hover:border-brand-700 transition-colors"
+              >
+                Serving {city.name} near you &rarr;
+              </Link>
+            ))}
+          </div>
+
+          <div className="text-center mt-10">
+            <Link href="/free-yard-assessment" className="btn-primary press-scale">
+              Get a Free Local Quote
+              <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+            </Link>
+            <p className="mt-4 text-sm text-gray-500">
+              Not sure of the price? See the full <Link href="/mosquito-control-cost" className="text-brand-700 underline">2026 pricing guide</Link>, browse every area on our <Link href="/service-areas" className="text-brand-700 underline">service areas page</Link>, or call <a href={BUSINESS.phoneHref} className="text-brand-700 underline">{BUSINESS.phone}</a>.
+            </p>
           </div>
         </div>
       </section>

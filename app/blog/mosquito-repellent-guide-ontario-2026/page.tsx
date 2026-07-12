@@ -42,11 +42,23 @@ const FAQS = [
     question: 'When should I use repellent vs barrier spray?',
     answer: 'Personal repellent is for active outdoor activities (hiking, camping, evening walks). Barrier spray is for your home yard where you want continuous protection without re-applying repellent every time you step outside. The two strategies are complementary — most Ontario homeowners use barrier spray for their yard and personal repellent for off-property activities.',
   },
+  {
+    question: 'What is the best mosquito repellent in Canada?',
+    answer: 'For skin, 20% picaridin (Natrapel, Sawyer) is the best all-round mosquito repellent for most Canadians — 6–10 hours of protection, odourless, and it will not damage plastics or fabrics. For the heaviest bug pressure such as cottage country or canoe trips, 25–30% DEET (OFF Deep Woods) edges it out. And for a hands-off backyard, a Thermacell device or a professional barrier spray beats anything you put on your skin.',
+  },
+  {
+    question: 'What is the best mosquito repellent device?',
+    answer: 'The Thermacell patio repeller is the best mosquito repellent device for real-world use. It warms a repellent mat to create roughly a 20-foot (6 m) zone of protection around a still patio or campsite, with no spray on your skin and no smoke. Skip ultrasonic plug-ins and repellent bracelets — peer-reviewed studies show they have no measurable effect. For whole-yard, multi-week control, a professional barrier spray outperforms any device.',
+  },
+  {
+    question: 'Do mosquito foggers work?',
+    answer: 'Yard foggers (Cutter, Black Flag) do knock down adult mosquitoes for a few hours, which makes them handy right before a party or barbecue. But the effect wears off the same evening once fresh mosquitoes drift in from neighbouring yards, and repeated fogging can harm pollinators. For lasting control, a professional barrier spray applied to resting vegetation lasts 21–30 days per treatment.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Mosquito Repellent Guide Ontario · What Works in 2026',
-  description: 'Evidence-based 2026 mosquito repellent guide for Ontario. DEET, picaridin, OLE, natural options, scams to avoid. What works and what does not.',
+  title: 'Best Mosquito Repellent 2026 — Canada Buyer’s Guide',
+  description: 'Ranked 2026 guide to the best mosquito repellents & devices in Canada — Thermacell, DEET, picaridin. What actually works, what’s a scam.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -80,7 +92,71 @@ export default function MosquitoRepellentGuidePage() {
             <BuyLink search="natrapel picaridin insect repellent">Picaridin repellent on Amazon.ca →</BuyLink>
             <BuyLink search="thermacell patio shield mosquito repeller">Thermacell patio repeller →</BuyLink>
           </div>
-          <p className="lead text-xl text-gray-700 leading-relaxed mb-6">There are dozens of mosquito repellents on shelves at Canadian Tire, Home Depot, and Shoppers Drug Mart. Most don&rsquo;t work as advertised. Here&rsquo;s what the peer-reviewed research and Health Canada approvals tell us about what actually keeps mosquitoes off you in Ontario in 2026.</p>
+          <p className="lead text-xl text-gray-700 leading-relaxed mb-6">There are dozens of mosquito repellents on shelves at Canadian Tire, Home Depot, and Shoppers Drug Mart. Most don&rsquo;t work as advertised. Here&rsquo;s what the peer-reviewed research and Health Canada approvals tell us about the <strong>best mosquito repellent</strong> — and the best mosquito repellent device — for Canada in 2026.</p>
+
+          <div className="not-prose my-8 rounded-2xl border-2 border-emerald-200 bg-emerald-50 p-6">
+            <p className="text-xs font-bold uppercase tracking-wide text-emerald-700 mb-3">Answer first — our top picks for 2026</p>
+            <ul className="space-y-2 text-gray-800 text-base leading-relaxed">
+              <li><strong>Best overall repellent:</strong> 20% picaridin (Natrapel / Sawyer) — 6–10 hours, odourless, and it won&rsquo;t melt plastics or fabrics.</li>
+              <li><strong>Best for heavy bug pressure:</strong> 25–30% DEET (OFF Deep Woods) — the pick for cottage docks and dense bush.</li>
+              <li><strong>Best mosquito repellent device:</strong> the Thermacell patio repeller — a ~20&nbsp;ft (6&nbsp;m) protection zone with no spray on your skin.</li>
+              <li><strong>Best for a whole yard:</strong> a <Link href="/mosquito-control" className="text-brand-700 underline">professional barrier spray</Link> — it removes the mosquitoes instead of just covering you.</li>
+            </ul>
+          </div>
+
+          <h2 id="best-repellents">Best Mosquito Repellents in Canada (2026)</h2>
+          <p>Ranked by how well they hold up in real-world use and peer-reviewed testing. Every one below is protection you wear or place — for hands-off, whole-yard control skip to the strategy section.</p>
+          <div className="not-prose my-6 overflow-x-auto">
+            <table className="w-full text-left text-sm border-collapse">
+              <thead>
+                <tr className="border-b-2 border-gray-300 text-gray-900">
+                  <th className="py-3 pr-4 font-bold whitespace-nowrap">Repellent</th>
+                  <th className="py-3 pr-4 font-bold whitespace-nowrap">Type</th>
+                  <th className="py-3 pr-4 font-bold">Best for</th>
+                  <th className="py-3 font-bold whitespace-nowrap">Where to buy</th>
+                </tr>
+              </thead>
+              <tbody className="align-top text-gray-700">
+                <tr className="border-b border-gray-200">
+                  <td className="py-3 pr-4 font-semibold text-gray-900">Natrapel / Sawyer Picaridin (20%)</td>
+                  <td className="py-3 pr-4">Skin spray</td>
+                  <td className="py-3 pr-4"><strong>Best overall</strong> — odourless everyday backyard &amp; travel pick, 6–10 hrs.</td>
+                  <td className="py-3"><BuyLink search="natrapel picaridin insect repellent">Check price →</BuyLink></td>
+                </tr>
+                <tr className="border-b border-gray-200">
+                  <td className="py-3 pr-4 font-semibold text-gray-900">OFF Deep Woods (25–30% DEET)</td>
+                  <td className="py-3 pr-4">Skin spray</td>
+                  <td className="py-3 pr-4"><strong>Best for heavy bug pressure</strong> — cottage docks, canoe trips, dense bush.</td>
+                  <td className="py-3"><BuyLink search="off deep woods insect repellent">Check price →</BuyLink></td>
+                </tr>
+                <tr className="border-b border-gray-200">
+                  <td className="py-3 pr-4 font-semibold text-gray-900">Thermacell Patio Shield</td>
+                  <td className="py-3 pr-4">Area device</td>
+                  <td className="py-3 pr-4"><strong>Best device</strong> — a ~20&nbsp;ft scent-free zone for still patios &amp; campsites, no skin spray.</td>
+                  <td className="py-3"><BuyLink search="thermacell patio shield mosquito repeller">Check price →</BuyLink></td>
+                </tr>
+                <tr className="border-b border-gray-200">
+                  <td className="py-3 pr-4 font-semibold text-gray-900">Oil of Lemon Eucalyptus (Repel, 30%)</td>
+                  <td className="py-3 pr-4">Natural skin spray</td>
+                  <td className="py-3 pr-4"><strong>Best DEET-free pick</strong> — plant-derived PMD with real evidence, 4–6 hrs.</td>
+                  <td className="py-3"><BuyLink search="repel lemon eucalyptus insect repellent">Check price →</BuyLink></td>
+                </tr>
+                <tr className="border-b border-gray-200">
+                  <td className="py-3 pr-4 font-semibold text-gray-900">Backyard fogger (Cutter / Black Flag)</td>
+                  <td className="py-3 pr-4">Yard fogger</td>
+                  <td className="py-3 pr-4"><strong>Best one-off knockdown</strong> — clears a yard for hours before a party, not weeks.</td>
+                  <td className="py-3"><BuyLink search="cutter backyard mosquito fogger">Check price →</BuyLink></td>
+                </tr>
+                <tr>
+                  <td className="py-3 pr-4 font-semibold text-gray-900">Repellent bracelet / wristband</td>
+                  <td className="py-3 pr-4">Wearable</td>
+                  <td className="py-3 pr-4"><strong>Skip it</strong> — protects only a few cm around your wrist; you&rsquo;ll still get bitten on the ankles and neck.</td>
+                  <td className="py-3"><BuyLink search="mosquito repellent bracelet">Check price →</BuyLink></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p>Notice the pattern: every pick above protects <em>you</em>, not your yard. To stop reaching for repellent at home, pair any of them with a <Link href="/mosquito-control">professional yard barrier spray</Link> — and if ticks are a concern, our <Link href="/tick-control">tick control program</Link> treats the same visit.</p>
 
           <h2>The Tier System — Ranked by Evidence</h2>
 

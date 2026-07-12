@@ -55,8 +55,8 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Mosquito Dunks Canada 2026: Where to Buy + 3 Common Mistakes',
-  description: 'Mosquito dunks at Canadian Tire, Home Depot, Rona, Amazon.ca — exact prices, how BTI actually kills larvae, and the 3 mistakes that make them useless. Plus: when dunks alone aren\'t enough.',
+  title: 'Mosquito Dunks Canada: Price + Home Depot, Canadian Tire',
+  description: 'Mosquito dunks prices compared: Canadian Tire, Home Depot, Rona & Amazon.ca. What a 6-pack costs in 2026 + how many dunks per rain barrel or pond.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -129,7 +129,7 @@ export default function MosquitoDunksPage() {
             <BuyLink search="summit mosquito bits">Check Mosquito Bits (faster-acting) →</BuyLink>
           </div>
           <p className="text-xs text-gray-500 mt-3">
-            Prices accurate as of May 2026. Stock up in April–May — supply tightens by July and prices rise 10–15% in peak season. Each dunk treats 100 sq ft of water surface for ~30 days, so a 6-pack covers most Canadian backyard rain barrels through the entire May–September season.
+            Prices accurate as of May 2026. Stock up in April–May — supply tightens by July and prices rise 10–15% in peak season. Each dunk treats 100 sq ft of water surface for ~30 days, so a 6-pack covers most Canadian backyard rain barrels through the entire May–September season. Not sure where the standing water on your property is hiding? Track down these <Link href="/blog/hidden-mosquito-breeding-spots-backyard" className="text-emerald-700 underline font-semibold">hidden mosquito breeding spots</Link> before you treat.
           </p>
           <div className="mt-5 rounded-xl bg-amber-50 border-l-4 border-amber-400 p-4">
             <p className="text-sm text-gray-800 leading-relaxed">
@@ -145,7 +145,7 @@ export default function MosquitoDunksPage() {
           <p className="text-xs font-extrabold text-amber-700 uppercase tracking-wider mb-2">Quick Answer</p>
           <h2 className="text-xl font-extrabold text-brand-900 mb-3">What are mosquito dunks and do they work?</h2>
           <p className="text-base text-gray-800 leading-relaxed">
-            <strong>Mosquito dunks are small donut-shaped tablets containing BTI (<em>Bacillus thuringiensis israelensis</em>), a soil bacterium that kills mosquito larvae in standing water within 24 hours.</strong> One dunk treats up to 100 square feet of water for approximately 30 days. They&rsquo;re completely safe for humans, pets, fish, frogs, and beneficial insects — Health Canada approves BTI even in drinking water reservoirs. Available in Canada at Canadian Tire, Home Depot, and most garden centres for $10–$20 per 6-pack. Use them in rain barrels, ornamental ponds, neglected pools, and any standing water you can&rsquo;t drain. They only kill larvae — for adult mosquito control, combine with professional yard barrier spray.
+            <strong>Mosquito dunks are small donut-shaped tablets containing BTI (<em>Bacillus thuringiensis israelensis</em>), a soil bacterium that kills mosquito larvae in standing water within 24 hours.</strong> One dunk treats up to 100 square feet of water for approximately 30 days. They&rsquo;re completely safe for humans, pets, fish, frogs, and beneficial insects — Health Canada approves BTI even in drinking water reservoirs. Available in Canada at Canadian Tire, Home Depot, and most garden centres for $10–$20 per 6-pack. Use them in rain barrels, ornamental ponds, neglected pools, and any standing water you can&rsquo;t drain. They only kill larvae — for adult mosquito control, combine with <Link href="/mosquito-control" className="text-emerald-700 underline font-semibold">professional yard barrier spray</Link>.
           </p>
         </div>
       </section>

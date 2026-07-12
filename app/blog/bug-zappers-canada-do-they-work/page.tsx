@@ -1,13 +1,14 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
-import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema, itemListSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 
 const SLUG = 'bug-zappers-canada-do-they-work'
 const DATE = '2026-05-01'
-const TITLE = 'Bug Zappers Canada 2026 — Do They Actually Work for Mosquitoes? (Honest Answer)'
+const UPDATED = '2026-07-12'
+const TITLE = 'Best Bug Zappers in Canada 2026 (Do They Work?)'
 
 const FAQS = [
   {
@@ -50,23 +51,37 @@ const FAQS = [
     question: 'Are there any bug zappers worth buying in Canada?',
     answer: 'For specific use cases, yes: (1) Handheld electric racket zappers ($15–$30) — surprisingly effective for swatting individual mosquitoes you can see, satisfying for the occasional house mosquito; (2) Restaurant-grade indoor commercial zappers (Vector, Genus) for fly control in kitchens — these are designed for flies, not mosquitoes; (3) Small outdoor zappers as supplemental devices on cottage decks combined with proper mosquito control. For mosquito-specific yard control, save your money and invest in <Link href="/mosquito-control">professional barrier spray</Link> instead — the cost is comparable and the effectiveness is dramatically better.',
   },
+  {
+    question: 'What are the best bug zappers in Canada in 2026?',
+    answer: 'If your goal is nuisance flying insects (moths, gnats, midges, beetles) rather than mosquitoes, the units Canadians buy most in 2026 are: (1) Flowtron BK-40D — best large outdoor coverage up to 1 acre ($99–$169); (2) Stinger Cordless Rechargeable — best portable / no-outlet option ($49–$89); (3) Black+Decker Outdoor Zapper — best small patio ($34–$69); (4) Aspectek 20W — best value for a covered porch ($39–$59); and (5) the Black Flag Executioner racket — best handheld indoor swatter ($15–$30). All are stocked at Canadian Tire, Home Depot, Walmart, and Amazon.ca. Important caveat: even the best-rated zapper catches only 0.13–4% mosquitoes — for the biting problem you still want barrier spray, a Thermacell, or a CO₂ trap.',
+  },
+  {
+    question: 'What is the best solar bug zapper for outdoors?',
+    answer: 'Solar bug zappers are best for cordless placement — a far corner of the yard, a dock, or a campsite where running an extension cord is a hassle. A small solar panel charges a battery by day to power the UV light and electric grid after dark. The trade-offs for Canadian yards: cheap solar units have weak UV output (so a small kill radius of a few metres, not a whole yard), and after a cloudy day the battery may only last a couple of hours. Like all zappers they mostly catch moths and gnats, not the female mosquitoes that bite. Buy one for convenience in a spot with no outlet — not as a mosquito solution.',
+  },
+  {
+    question: 'Are electric bug zapper rackets worth it?',
+    answer: 'Yes — for the specific job of killing individual mosquitoes and flies you can see indoors, a handheld electric racket (Black Flag Executioner, Stinger, or a generic rechargeable model) is the one bug-zapper format we genuinely recommend. It is cheap ($15–$30), lasts years, needs no bulbs, and kills on contact when you swing it. What it cannot do is protect a whole yard passively — you have to be there swinging it. For hands-off outdoor coverage you still need barrier spray or a Thermacell zone. Rechargeable USB models beat the AA-battery versions on power and cost over time.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({
   title: TITLE,
-  description: 'Honest answer on whether bug zappers actually work for mosquitoes in Canada — research data, where to buy in Canada, why they kill 99% non-mosquitoes, and what actually works for Ontario backyards. Updated 2026.',
+  description: 'Best bug zappers in Canada 2026: ranked picks for the flies & moths they kill, solar & indoor racket options, prices — plus the honest mosquito truth.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
+  modifiedTime: UPDATED,
 })
 
 export default function BugZappersCanadaPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: '2026 honest analysis: do bug zappers actually work for mosquitoes in Canadian backyards?', slug: SLUG, datePublished: DATE })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: '2026 honest analysis: the best bug zappers in Canada, plus whether they actually work for mosquitoes in Canadian backyards.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Bug Zappers Canada', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`)) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`, UPDATED)) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema({ name: 'Best Bug Zappers in Canada 2026', description: 'Top bug zappers stocked in Canada in 2026, ranked for the nuisance flying insects they effectively kill.', slug: `/blog/${SLUG}`, items: [{ name: 'Flowtron BK-40D Electronic Insect Killer' }, { name: 'Stinger Cordless Rechargeable Zapper' }, { name: 'Black+Decker Outdoor Bug Zapper' }, { name: 'Aspectek 20W Bug Zapper' }, { name: 'Black Flag Executioner Racket' }] })) }} />
 
       <section className="bg-gradient-to-br from-brand-950 via-brand-900 to-emerald-900 text-white py-14 px-4">
         <div className="max-w-4xl mx-auto">
@@ -184,6 +199,51 @@ export default function BugZappersCanadaPage() {
           <p>Outdoor bug zappers contribute to nighttime pollinator decline. Moths are the unsung pollinators of the night — about 80% of nighttime flowering plants are moth-pollinated. Lacewings (commonly zapped) eat aphids and improve garden health. Beetles play roles in nutrient cycling.</p>
           <p>The Xerces Society for Invertebrate Conservation and the Audubon Society both formally recommend against residential outdoor UV bug zappers because of the disproportionate impact on beneficial insects relative to the negligible mosquito reduction.</p>
 
+          <h2>Best Bug Zappers in Canada 2026 (For the Flies &amp; Moths They DO Kill)</h2>
+          <p>Let&rsquo;s be honest about what a bug zapper is actually good for: nuisance flying insects &mdash; moths, gnats, midges, June beetles, the odd wasp &mdash; that swarm a patio light on a summer evening. If that&rsquo;s your goal (a deck that <em>feels</em> less buggy, not fewer mosquito bites), these are the units Canadians buy most in 2026, ranked by the job each one does best. Prices are typical Amazon.ca and Canadian Tire ranges.</p>
+          <div className="not-prose overflow-x-auto my-4">
+            <table className="w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden">
+              <thead className="bg-brand-50">
+                <tr>
+                  <th className="px-3 py-2 text-left">#</th>
+                  <th className="px-3 py-2 text-left">Bug Zapper</th>
+                  <th className="px-3 py-2 text-left">Best For</th>
+                  <th className="px-3 py-2 text-left">Coverage</th>
+                  <th className="px-3 py-2 text-left">Price (CAD)</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  { rank: '1', name: 'Flowtron BK-40D Electronic Insect Killer', best: 'Best large outdoor (moths & beetles)', cov: 'Up to 1 acre', price: '$99 – $169' },
+                  { rank: '2', name: 'Stinger Cordless Rechargeable Zapper', best: 'Best portable / no outlet', cov: '½ acre', price: '$49 – $89' },
+                  { rank: '3', name: 'Black+Decker Outdoor Bug Zapper', best: 'Best small patio', cov: '¼ – ½ acre', price: '$34 – $69' },
+                  { rank: '4', name: 'Aspectek 20W Bug Zapper', best: 'Best value / covered porch', cov: '½ acre', price: '$39 – $59' },
+                  { rank: '5', name: 'Black Flag Executioner Racket', best: 'Best indoor swatter', cov: 'Handheld', price: '$15 – $30' },
+                ].map(({ rank, name, best, cov, price }) => (
+                  <tr key={rank} className="border-t border-navy-50">
+                    <td className="px-3 py-2 font-bold text-brand-800">{rank}</td>
+                    <td className="px-3 py-2 font-semibold">{name}</td>
+                    <td className="px-3 py-2 text-gray-700">{best}</td>
+                    <td className="px-3 py-2 text-gray-700">{cov}</td>
+                    <td className="px-3 py-2 font-mono text-gray-800">{price}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="not-prose text-sm text-gray-600 mb-1">Shopping for a patio zapper to knock down moths and gnats? The Flowtron line is the Canadian default:</p>
+          <div className="not-prose mb-6 flex flex-wrap gap-3">
+            <BuyLink search="flowtron bug zapper outdoor">Check Flowtron price on Amazon.ca →</BuyLink>
+          </div>
+          <p><strong>Reality check:</strong> none of these will noticeably reduce the mosquitoes biting you &mdash; that isn&rsquo;t what they&rsquo;re built for. If mosquitoes are the actual problem, a <Link href="/blog/thermacell-canada-where-to-buy">Thermacell patio zone</Link> or licensed <Link href="/mosquito-control">barrier spray</Link> will do more in one evening than a season of zapping moths.</p>
+
+          <h2>Solar &amp; Outdoor Bug Zappers: Do They Work?</h2>
+          <p>Solar bug zappers have taken off because they need no outlet &mdash; you stake one anywhere in the yard and a small panel charges a battery by day to run the UV light and electric grid after dark. For cordless placement (a far corner of the lot, a dock, a campsite) they&rsquo;re genuinely handy. Two honest caveats for Canadian yards: (1) the UV output on budget solar units is weak, so the kill radius is a few metres, not a whole yard; and (2) after a cloudy GTA day the battery may only run a couple of hours before it dies. Like every zapper, they catch mostly moths and gnats &mdash; not the female mosquitoes that actually bite.</p>
+          <p className="not-prose text-sm text-gray-600 mb-1">Want a stake-anywhere solar zapper for a spot with no power nearby?</p>
+          <div className="not-prose mb-6 flex flex-wrap gap-3">
+            <BuyLink search="solar bug zapper outdoor">See solar bug zappers on Amazon.ca →</BuyLink>
+          </div>
+
           <h2>What ACTUALLY Works for Canadian Mosquitoes</h2>
           <p>If your goal is fewer mosquito bites in your Canadian backyard, the effective tools are:</p>
           <ol>
@@ -209,6 +269,10 @@ export default function BugZappersCanadaPage() {
 
           <h2>The Indoor Racket Zapper Exception</h2>
           <p>One bug-zapper format does work: handheld electric racket zappers (Black Flag Executioner, Stinger Indoor Racket, etc.). These look like badminton rackets with electrified mesh. When a mosquito gets inside your house, you can swat it manually — the electrified mesh kills on contact. Costs $15–$30, available at Canadian Tire, Home Depot, Walmart, Dollarama. Lasts years. Genuinely useful for the occasional indoor mosquito.</p>
+          <p className="not-prose text-sm text-gray-600 mb-1">The one zapper we actually keep in the house — a rechargeable electric racket for the odd mosquito that sneaks in:</p>
+          <div className="not-prose mb-6 flex flex-wrap gap-3">
+            <BuyLink search="electric fly swatter racket rechargeable">Check racket zappers on Amazon.ca →</BuyLink>
+          </div>
           <p>But for OUTDOOR yard mosquito control, racket zappers obviously don&rsquo;t scale. You can&rsquo;t swat a yard&rsquo;s worth of mosquitoes one at a time.</p>
 
           <h2>Related Reading</h2>
