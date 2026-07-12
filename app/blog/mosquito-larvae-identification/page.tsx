@@ -2,11 +2,13 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import AuthorByline from '@/components/AuthorByline'
+import BuyLink from '@/components/BuyLink'
+import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 
 const SLUG = 'mosquito-larvae-identification'
 const DATE = '2026-04-28'
-const UPDATED = '2026-07-09'
+const UPDATED = '2026-07-12'
 const TITLE = 'Mosquito Larvae — Identification, Lifecycle & Removal (2026)'
 
 const FAQS = [
@@ -54,13 +56,21 @@ const FAQS = [
     question: 'Can mosquito larvae survive without water?',
     answer: 'No. Mosquito larvae die within minutes out of water — they are fully aquatic and breathe through a siphon at the water surface. This is exactly why dumping standing water is the most effective control. Note the eggs are tougher: some mosquito species lay eggs in moist soil or dry container edges that hatch when re-flooded, and those eggs can survive weeks to months dry. So after dumping a container, scrub the sides to remove any eggs stuck to the walls, then store it upside down.',
   },
+  {
+    question: 'How do I get rid of mosquito larvae in a rain barrel?',
+    answer: 'Do not dump a rain barrel you want to keep using — treat it instead. Drop one BTI Mosquito Dunk (or a scoop of Mosquito Bits) into the barrel; the Bacillus thuringiensis israelensis kills all mosquito larvae within 24–48 hours and is completely safe for garden plants, pets, and beneficial insects, so the water stays fine to use on your vegetables and flowers. One dunk keeps a barrel larvae-free for about 30 days. Then fit a fine mesh screen over the barrel opening so egg-laying females cannot get back in — screening plus a monthly dunk keeps a rain barrel mosquito-free all season.',
+  },
+  {
+    question: 'How can I tell mosquito larvae apart from other larvae?',
+    answer: 'Only mosquito larvae hang head-down at the water surface with a breathing siphon poking through the surface tension and dart downward in a distinctive S-shaped wiggle when disturbed. Midge larvae (often red "bloodworms") live in bottom mud and swim in a figure-eight; mayfly larvae have feathery gills along the abdomen and need clean flowing water; drain-fly larvae live in the slime film inside pipes, never in open standing water. If it is at the surface of still water and wiggles in an S when you touch the water, it is a mosquito larva — and it will become a biting adult in 7–14 days.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({
-  // 4,000/mo head term, currently ~pos 14 with a thin page. Title front-loads the
-  // query and the dominant intent ("kill them"). Kept under 60 chars.
-  title: 'Mosquito Larvae: What They Look Like & How to Kill Them',
-  description: 'Mosquito larvae are 5–8 mm wiggling worms in standing water. How to identify them, where they breed, and how to kill them fast with BTI dunks — plus the water sources to drain this week.',
+  // Head term (~pos 15). Title front-loads the keyword, matches "what they look
+  // like" + the dominant "kill them" intent, and stays under 60 chars.
+  title: 'Mosquito Larvae: What They Look Like & How to Kill',
+  description: 'See what mosquito larvae look like, where they breed (pool, rain barrel, gutter) and how to kill them fast with BTI Dunks & Bits. Ontario guide.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -104,6 +114,12 @@ export default function MosquitoLarvaePage() {
           <p className="speakable text-base text-gray-800 leading-relaxed mb-5">
             <strong>The fastest way to kill mosquito larvae is to drain the water — this kills 100% of larvae instantly and costs nothing.</strong> If the water cannot be drained (a rain barrel, ornamental pond, or drainage ditch), drop in a BTI larvicide such as Mosquito Dunks or Mosquito Bits. BTI is a naturally occurring soil bacterium that kills mosquito larvae within 24 hours and is harmless to fish, frogs, pets, birds, bees, and people. One dunk treats about 100 square feet of water surface for 30 days and costs $10&ndash;$20 at Canadian Tire, Home Depot, or Rona.
           </p>
+          <AffiliateDisclosure />
+          <div className="mb-6 flex flex-wrap items-center gap-3">
+            <BuyLink search="summit mosquito dunks">Mosquito Dunks on Amazon.ca &rarr;</BuyLink>
+            <BuyLink search="summit mosquito bits">Mosquito Bits on Amazon.ca &rarr;</BuyLink>
+            <Link href="/blog/mosquito-bits-canada-vs-dunks" className="text-sm font-semibold text-brand-700 hover:text-brand-600">Dunks or Bits? See the comparison &rarr;</Link>
+          </div>
           <div className="rounded-xl border border-gray-200 overflow-hidden">
             <table className="w-full text-sm">
               <thead className="bg-brand-50">
@@ -246,7 +262,7 @@ export default function MosquitoLarvaePage() {
           <h2>How to Get Rid of Mosquito Larvae (Ranked by Effectiveness)</h2>
           <ol>
             <li><strong>Drain the water (best).</strong> Empty the container, fix the drainage, or eliminate the water source. 100% effective, free, instant.</li>
-            <li><strong>BTI Mosquito Dunks or Bits.</strong> Drop in any water you can&rsquo;t drain (rain barrel, ornamental pond, drainage ditch). BTI is a soil bacterium that kills only mosquito larvae — completely safe for fish, frogs, pets, humans, beneficial insects. $10–$20 at Canadian Tire / Home Depot. Lasts 30 days per dunk. <Link href="/blog/mosquito-dunks-canada-guide">Full Mosquito Dunks Canada guide here</Link>.</li>
+            <li><strong>BTI Mosquito Dunks or Bits.</strong> Drop in any water you can&rsquo;t drain (rain barrel, ornamental pond, drainage ditch). BTI is a soil bacterium that kills only mosquito larvae — completely safe for fish, frogs, pets, humans, beneficial insects. $10–$20 at Canadian Tire / Home Depot. Lasts 30 days per dunk. <Link href="/blog/mosquito-dunks-canada-guide">Full Mosquito Dunks Canada guide</Link>, or compare the two formats in <Link href="/blog/mosquito-bits-canada-vs-dunks">Mosquito Bits vs Dunks</Link> — Bits act faster, Dunks last longer.</li>
             <li><strong>Add fish to ornamental ponds.</strong> Goldfish, koi, and mosquitofish eat larvae aggressively. A stocked pond rarely needs treatment.</li>
             <li><strong>Cooking oil or dish soap (last resort).</strong> A small amount on the water surface disrupts the larvae&rsquo;s breathing siphon. Effective in disposable containers; don&rsquo;t use in environmental water (kills other organisms).</li>
           </ol>
@@ -258,6 +274,7 @@ export default function MosquitoLarvaePage() {
           <h2>Related Reading</h2>
           <ul>
             <li><Link href="/blog/mosquito-dunks-canada-guide">Mosquito Dunks Canada Complete Guide</Link></li>
+            <li><Link href="/blog/mosquito-bits-canada-vs-dunks">Mosquito Bits vs Dunks — Which Kills Larvae Faster?</Link></li>
             <li><Link href="/blog/hidden-mosquito-breeding-spots-backyard">Hidden Mosquito Breeding Spots in Your Backyard</Link></li>
             <li><Link href="/blog/natural-mosquito-repellent-ontario">Natural Mosquito Repellent — What Works</Link></li>
             <li><Link href="/blog/mosquito-season-gta-when-does-it-start">When Does Mosquito Season Start in Ontario?</Link></li>

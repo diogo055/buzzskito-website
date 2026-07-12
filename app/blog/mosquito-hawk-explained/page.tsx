@@ -1,10 +1,13 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
+import BuyLink from '@/components/BuyLink'
+import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 
 const SLUG = 'mosquito-hawk-explained'
 const DATE = '2026-04-28'
+const UPDATED = '2026-07-12'
 const TITLE = 'Mosquito Hawk — What It Actually Is (Crane Fly Truth)'
 
 const FAQS = [
@@ -40,23 +43,44 @@ const FAQS = [
     question: 'Do crane flies pollinate?',
     answer: 'Some adult crane flies sip nectar and may incidentally transfer pollen, but they are not significant pollinators. Their adult lifespans are too short (5–10 days) and their feeding too limited for meaningful pollination compared to bees, butterflies, and hover flies. Their main ecological role is as food for birds, bats, and amphibians at both larval and adult stages.',
   },
+  {
+    question: 'Is a mosquito hawk a crane fly or a dragonfly?',
+    answer: 'It depends on where you live. In most of North America, "mosquito hawk" refers to the crane fly (family Tipulidae) — the harmless giant-mosquito lookalike that does NOT eat mosquitoes. In parts of the southern US and some coastal regions, "mosquito hawk" is instead a nickname for the dragonfly, which genuinely does eat mosquitoes. Other regional names for the crane fly include "mosquito eater," "skeeter eater," "gallinipper," and "daddy long-legs" (the last one is technically wrong — the true daddy long-legs is an arachnid). If someone tells you a "mosquito hawk" eats mosquitoes, they are almost certainly talking about a dragonfly, not a crane fly.',
+  },
+  {
+    question: 'What is the difference between a mosquito hawk and a mosquito?',
+    answer: 'A mosquito hawk (crane fly) is roughly 4–8 times larger than a mosquito (15–25 mm vs 3–6 mm), flies slowly and clumsily instead of fast and agile, has no functional biting mouthparts instead of a needle-like proboscis, and cannot bite, sting, or transmit disease. Crane fly larvae live in soil and eat plant roots; mosquito larvae live in standing water. In short: the mosquito hawk looks scary but is harmless, while the tiny mosquito is the one that actually bites you and can carry West Nile virus.',
+  },
+  {
+    question: 'Do mosquito hawks bite?',
+    answer: 'No. Mosquito hawks (crane flies) cannot bite. Adults have no functional biting or piercing mouthparts, no venom, and no stinger. They are physically incapable of biting or stinging humans, pets, or livestock. If a giant "mosquito" landed on you and it did not bite, it was almost certainly a crane fly.',
+  },
+  {
+    question: 'How do I get rid of mosquito hawks in my house?',
+    answer: 'The easiest fix is to turn off indoor lights, open a door or window, and turn on an outdoor light — crane flies fly toward light and will leave on their own. Because they only live 5–10 days as adults, any that stay indoors die naturally within days. To keep them out, repair torn window and door screens, seal gaps around doors, and switch exterior bulbs to yellow "bug lights," which attract far fewer flying insects. If you want them gone immediately, a quick knock-down flying-insect spray works, but for a harmless insect that dies in days on its own it is rarely necessary.',
+  },
+  {
+    question: 'What attracts mosquito hawks to my house?',
+    answer: 'Light is the main attractant — crane flies swarm porch lights, bright windows, and doorways at night, especially during the fall emergence (September–October) in Ontario. Damp, healthy lawns and gardens also draw them, because females lay eggs in moist soil where the larvae feed on roots. To reduce them around your home: use yellow bug-light bulbs outdoors, keep blinds closed on lit windows at night, and avoid overwatering the lawn.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Mosquito Hawk · What It Actually Is (Crane Fly Truth)',
-  description: 'A "mosquito hawk" is a crane fly — and they DO NOT eat mosquitoes despite the name. Identification, lifecycle, and what to do about them in Ontario.',
+  title: 'Mosquito Hawk: What It Is & Do They Eat Mosquitoes?',
+  description: 'A "mosquito hawk" is a crane fly — and no, it does NOT eat mosquitoes. What it is, if it bites, and how to get rid of them. Clear Ontario guide.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
+  modifiedTime: UPDATED,
 })
 
 export default function MosquitoHawkPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'The truth about mosquito hawks (crane flies).', slug: SLUG, datePublished: DATE })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'The truth about mosquito hawks (crane flies).', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Mosquito Hawk', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`)) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`, UPDATED)) }} />
 
       <section className="bg-gradient-to-br from-brand-950 via-brand-900 to-emerald-900 text-white py-14 px-4">
         <div className="max-w-4xl mx-auto">
@@ -118,8 +142,59 @@ export default function MosquitoHawkPage() {
         </div>
       </section>
 
+      <section className="py-10 px-4 bg-brand-50/40">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-xl font-extrabold text-brand-900 mb-2">Which Bug Is the &ldquo;Mosquito Hawk&rdquo;? Crane Fly vs Dragonfly</h2>
+          <p className="text-base text-gray-700 leading-relaxed mb-4">
+            Here&rsquo;s the twist behind the confusion: &ldquo;mosquito hawk&rdquo; is a nickname for <strong>two totally different insects</strong>. In most of Canada and the northern US it means the <strong>crane fly</strong> — the harmless lookalike that <em>doesn&rsquo;t</em> eat mosquitoes. In parts of the southern US, the same name means the <strong>dragonfly</strong> — which genuinely <em>is</em> a mosquito predator. That single overlap is why the &ldquo;mosquito hawk eats mosquitoes&rdquo; myth refuses to die. Here&rsquo;s how all three compare side by side.
+          </p>
+          <div className="rounded-xl border border-navy-100 overflow-x-auto">
+            <table className="w-full text-sm min-w-[560px]">
+              <thead className="bg-brand-100">
+                <tr>
+                  <th className="px-3 py-2 text-left">Feature</th>
+                  <th className="px-3 py-2 text-left">Crane Fly (&ldquo;Mosquito Hawk&rdquo;)</th>
+                  <th className="px-3 py-2 text-left">Dragonfly (also called mosquito hawk)</th>
+                  <th className="px-3 py-2 text-left">Mosquito</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  ['Common meaning of “mosquito hawk”', 'Most of Canada & northern US', 'Southern US / coastal regions', 'N/A — it is the pest itself'],
+                  ['Adult size', '15–25 mm long', '30–50 mm+ body, wide wingspan', '3–6 mm long'],
+                  ['Eats mosquitoes?', 'NO (the big myth)', 'YES — voracious mosquito predator', 'N/A'],
+                  ['Bites humans?', 'No — cannot bite', 'No — harmless to people', 'Yes — females bite for blood'],
+                  ['Larvae live in', 'Soil & decaying matter', 'Water — nymphs eat mosquito larvae', 'Standing water'],
+                  ['Flight style', 'Slow, clumsy, bumps walls', 'Fast, agile, acrobatic hunter', 'Fast, whiny, evasive'],
+                  ['Helps control mosquitoes?', 'No', 'Yes — a natural ally', 'No — it is the target'],
+                  ['Disease risk to humans', 'None', 'None', 'West Nile, EEE, and others'],
+                ].map(([feat, crane, drag, mosq]) => (
+                  <tr key={feat} className="border-t border-navy-50 align-top">
+                    <td className="px-3 py-2 font-semibold text-brand-800">{feat}</td>
+                    <td className="px-3 py-2 text-gray-700">{crane}</td>
+                    <td className="px-3 py-2 text-gray-700">{drag}</td>
+                    <td className="px-3 py-2 text-gray-700">{mosq}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-sm text-gray-600 mt-3">
+            Bottom line: if someone swears a &ldquo;mosquito hawk&rdquo; eats mosquitoes, they&rsquo;re picturing a <strong>dragonfly</strong> — not the crane fly on your porch screen. Want the real mosquito-eaters working for you? See our guide to <Link href="/blog/how-to-prevent-mosquitoes-in-your-backyard" className="text-brand-700 underline font-semibold">preventing mosquitoes in your backyard</Link>.
+          </p>
+        </div>
+      </section>
+
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
+
+          <AffiliateDisclosure />
+
+          <h2>Do Mosquito Hawks Eat Mosquitoes?</h2>
+          <p><strong>No — crane fly &ldquo;mosquito hawks&rdquo; do not eat mosquitoes at any life stage.</strong> This is the single most repeated myth about the insect, and it is simply wrong. Adult crane flies have reduced, non-functional mouthparts and mostly don&rsquo;t feed at all in their few days of life; a few species sip a little nectar. Their larvae are vegetarians that chew on plant roots and decaying matter in soil — nowhere near mosquito larvae, which live in water. The confusion comes entirely from the crane fly&rsquo;s uncanny resemblance to a giant mosquito, plus the fact that in some regions the <em>dragonfly</em> (a true mosquito predator) shares the same &ldquo;mosquito hawk&rdquo; nickname. If you actually want insects eating your mosquitoes, you want dragonflies and bats, not crane flies.</p>
+
+          <h2>Are Mosquito Hawks Dangerous?</h2>
+          <p><strong>No. Mosquito hawks are completely harmless to humans, pets, and livestock.</strong> Crane flies cannot bite or sting — they have no venom, no stinger, and no piercing mouthparts. They carry no diseases and pose no threat to people or animals. Contrary to another common myth, they are <em>not</em> the &ldquo;most venomous insect in the world&rdquo; (that internet claim is completely false). The only damage they ever cause is cosmetic: in heavy infestations, the soil-dwelling larvae can chew grass roots and leave brown patches in a lawn. For the vast majority of homeowners, a mosquito hawk is nothing more than a clumsy, harmless visitor.</p>
 
           <h2>Why the &ldquo;Mosquito Hawk&rdquo; Name?</h2>
           <p>Crane flies look like giant mosquitoes — long bodies, long legs, fragile wings. The mistaken assumption was: they look bigger and scarier, so they must eat the smaller mosquitoes. This is folk biology, not actual biology. The name &ldquo;mosquito hawk&rdquo; is regional — you&rsquo;ll also hear &ldquo;daddy long-legs&rdquo; (which is technically incorrect — the actual daddy long-legs is a different arachnid), &ldquo;skeeter eaters,&rdquo; or &ldquo;gallinippers.&rdquo; All wrong. They&rsquo;re crane flies (family Tipulidae).</p>
@@ -137,6 +212,19 @@ export default function MosquitoHawkPage() {
             <li><strong>Fall emergence (September–October):</strong> Larger wave. This is when most Ontario homeowners notice clouds of crane flies near porch lights and on building exteriors. They look ominous but are completely harmless.</li>
           </ul>
 
+          <h2>How to Get Rid of Mosquito Hawks (Indoors &amp; Outdoors)</h2>
+          <h3>Indoors: adults in the house</h3>
+          <p>Adult crane flies that wander inside are harmless and short-lived, so the gentlest fix is usually the best one:</p>
+          <ul>
+            <li><strong>Let them out.</strong> Turn off indoor lights, open a door or window, and switch on an outdoor light — they drift toward it and leave on their own.</li>
+            <li><strong>Wait them out.</strong> Adults only live 5–10 days, so any stragglers die naturally within days.</li>
+            <li><strong>Vacuum</strong> the odd one off a wall or ceiling — their fragile legs make them easy to collect.</li>
+            <li><strong>Seal the entry points.</strong> Repair torn window and door screens and swap porch bulbs for yellow &ldquo;bug lights,&rdquo; which attract far fewer flying insects.</li>
+          </ul>
+          <p>If you&rsquo;d rather not wait for a batch of them to clear out on their own, a quick knock-down spray does the job: <BuyLink search="indoor flying insect killer spray">Check indoor flying-insect spray on Amazon.ca →</BuyLink> For a harmless insect that dies in days regardless, it&rsquo;s rarely necessary — but it&rsquo;s an option if they&rsquo;re bothering you.</p>
+          <h3>Outdoors: larvae in the lawn</h3>
+          <p>Outdoors, &ldquo;getting rid of mosquito hawks&rdquo; only matters if the soil-dwelling <strong>larvae</strong> (leatherjackets) are chewing your grass roots. Spraying the clumsy adults is pointless — they don&rsquo;t bite, they die in days, and an <Link href="/blog/how-long-does-mosquito-spray-last">adult-mosquito barrier spray</Link> won&rsquo;t reach larvae living underground. The section below covers how to confirm a real larvae problem and treat it.</p>
+
           <h2>Do You Need to Treat Them?</h2>
           <p>Almost never. Adults die naturally in days. The only situation requiring action is heavy <strong>larvae</strong> damage to your lawn, identified by:</p>
           <ul>
@@ -144,7 +232,7 @@ export default function MosquitoHawkPage() {
             <li>Flocks of starlings, robins, or crows aggressively pecking the lawn (they&rsquo;re eating leatherjackets)</li>
             <li>Visible larvae when you peel back grass — grey-brown tube-shaped grubs</li>
           </ul>
-          <p>Treatment for larvae infestations: beneficial nematodes (<em>Heterorhabditis bacteriophora</em>) applied in early fall when soil is warm and moist. These naturally parasitize crane fly larvae. Available at garden centres or through lawn care companies. <strong>BuzzSkito does not treat crane fly larvae</strong> — we focus on mosquitoes and ticks. Contact a lawn care specialist (LawnSavers, TruGreen) for serious crane fly issues.</p>
+          <p>Treatment for larvae infestations: beneficial nematodes (<em>Heterorhabditis bacteriophora</em>) applied in early fall when soil is warm and moist. These naturally parasitize crane fly larvae. Available at garden centres, through lawn care companies, or online: <BuyLink search="beneficial nematodes heterorhabditis bacteriophora">Beneficial nematodes on Amazon.ca →</BuyLink> <strong>BuzzSkito does not treat crane fly larvae</strong> — we focus on mosquitoes and ticks. Contact a lawn care specialist (LawnSavers, TruGreen) for serious crane fly issues.</p>
 
           <h2>Why This Matters for Mosquito Control</h2>
           <p>People with mosquito problems sometimes ask: &ldquo;Should I introduce mosquito hawks to eat my mosquitoes?&rdquo; The answer is no — they don&rsquo;t eat mosquitoes. The biological controls that DO eat mosquitoes:</p>
@@ -154,7 +242,7 @@ export default function MosquitoHawkPage() {
             <li><strong>Fish</strong> — goldfish, koi, mosquitofish eat mosquito larvae in ponds.</li>
             <li><strong>Frogs and tadpoles</strong> — eat mosquito larvae in shallow water.</li>
           </ul>
-          <p>Even with all of these, the most effective residential mosquito control combines <Link href="/blog/mosquito-dunks-canada-guide">larvae control with BTI dunks</Link> and adult control with <Link href="/mosquito-control">professional barrier spray</Link>. Hoping crane flies will solve your mosquito problem is folklore — they won&rsquo;t.</p>
+          <p>Even with all of these, the most effective residential mosquito control combines <Link href="/blog/mosquito-dunks-canada-guide">larvae control with BTI dunks</Link> and adult control with <Link href="/mosquito-control">professional barrier spray</Link>. Hoping crane flies will solve your mosquito problem is folklore — for a plan that actually works, see how to <Link href="/blog/how-to-get-rid-of-mosquitoes-in-yard-ontario">get rid of mosquitoes in your yard</Link>.</p>
 
           <h2>Related Reading</h2>
           <ul>

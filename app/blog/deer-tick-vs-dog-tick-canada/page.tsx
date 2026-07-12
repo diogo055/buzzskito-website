@@ -40,6 +40,18 @@ const FAQS = [
     question: 'Where do you find deer ticks vs dog ticks in your yard?',
     answer: 'Deer ticks prefer leaf litter, damp shaded areas, and the edges where lawn meets woods or dense brush. They overwinter in leaf litter and emerge as nymphs in spring (May–June). Dog ticks prefer grassy areas, meadow-like edges, and yard perimeters with tall vegetation. They overwinter as adults in protected ground spots. For yard treatment, both species are addressed by the same approach: barrier spray applied to lawn edges, leaf litter zones, fence lines, and shaded perimeters. BuzzSkito\'s tick barrier spray treats both species simultaneously.',
   },
+  {
+    question: 'Which tick carries Lyme disease — the deer tick or the dog tick?',
+    answer: 'The deer tick (blacklegged tick, Ixodes scapularis) carries Lyme disease. The American dog tick (Dermacentor variabilis) does NOT transmit Lyme in Canada. This is the single most important reason to tell the two apart: if the tick that bit you was small, plain, and reddish-black, it could be a Lyme-carrying deer tick — save it, note the date, and watch for symptoms (expanding rash, fever, fatigue, joint aches) for up to 5 months. If it was a larger, patterned dog tick, Lyme is not a concern. About 10–30% of blacklegged ticks in southern Ontario carry the Lyme bacterium (Borrelia burgdorferi), and cases are tracked publicly in the Ontario Lyme disease case data.',
+  },
+  {
+    question: 'Is a blacklegged tick the same as a deer tick?',
+    answer: 'Yes — "blacklegged tick" and "deer tick" are two names for the exact same species, Ixodes scapularis. Public-health agencies and scientists in Canada prefer "blacklegged tick" (named for its dark legs), while the general public and older US sources say "deer tick." Whichever name you see, it refers to the small, plain, reddish-black tick that transmits Lyme disease — distinct from the larger, patterned American dog tick.',
+  },
+  {
+    question: 'How do you identify a deer tick?',
+    answer: 'Deer tick identification comes down to four field marks: (1) SIZE — tiny, about 3 mm unfed, roughly the size of a sesame seed (nymphs are poppy-seed small). (2) COLOUR — a reddish-brown to black body with no pattern. (3) LEGS — distinctly dark, almost black. (4) SHIELD — a smooth, plain scutum with NO mottled markings, unlike the dog tick\'s decorated grey-brown shield. If a tick is tiny, plain, and dark-legged, treat it as a blacklegged (deer) tick and a Lyme risk. When unsure, photograph it from above and submit to eTick.ca for free species confirmation within 1–3 days.',
+  },
 ]
 
 // TITLE NOTE (Jul 2026): the dominant query is "deer tick vs dog tick" (2,800/mo),
@@ -52,13 +64,13 @@ export const metadata: Metadata = buildMetadata({
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
-  modifiedTime: '2026-07-09',
+  modifiedTime: '2026-07-12',
 })
 
 export default function DeerTickVsDogTickPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Deer tick vs dog tick comparison for Canada.', slug: SLUG, datePublished: DATE, dateModified: '2026-07-09' })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Deer tick vs dog tick comparison for Canada.', slug: SLUG, datePublished: DATE, dateModified: '2026-07-12' })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Deer Tick vs Dog Tick', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`)) }} />
@@ -135,6 +147,20 @@ export default function DeerTickVsDogTickPage() {
             <li><strong>If unsure</strong> → Photograph from above and submit to <a href="https://etick.ca" target="_blank" rel="noreferrer">eTick.ca</a>. Free identification within 1–3 days.</li>
           </ol>
 
+          <h2>Which Tick Carries Lyme Disease?</h2>
+          <p><strong>The deer tick — also called the blacklegged tick (<em>Ixodes scapularis</em>) — is the only one of these two that carries Lyme disease in Canada.</strong> The American dog tick does not transmit Lyme here. So the practical question &ldquo;which tick carries Lyme?&rdquo; has a simple answer: the small, plain, reddish-black one. About <strong>10–30% of blacklegged ticks in southern Ontario</strong> carry <em>Borrelia burgdorferi</em>, the Lyme bacterium. If a tiny, unpatterned tick bit you, save it and watch for symptoms; if a larger patterned dog tick bit you, Lyme is not the concern.</p>
+          <p>Lyme risk isn&rsquo;t evenly spread across the province. See the public‑health numbers in our <Link href="/blog/lyme-disease-cases-ontario-2026">Ontario Lyme disease case tracker</Link> and check whether you live in a hot zone with our <Link href="/blog/lyme-disease-risk-areas-ontario-2026">Ontario Lyme risk-area map</Link>.</p>
+
+          <h2>Deer Tick Identification (Blacklegged Tick Field Marks)</h2>
+          <p>For fast, reliable deer tick identification, check four things — and remember that &ldquo;deer tick&rdquo; and &ldquo;blacklegged tick&rdquo; are two names for the same species:</p>
+          <ul>
+            <li><strong>Size:</strong> ~3 mm unfed (sesame-seed small); nymphs are poppy-seed tiny and easy to miss.</li>
+            <li><strong>Colour:</strong> reddish-brown to black body with <strong>no</strong> markings.</li>
+            <li><strong>Legs:</strong> distinctly dark — the trait that gives the &ldquo;blacklegged&rdquo; name.</li>
+            <li><strong>Shield (scutum):</strong> smooth and plain — never the mottled grey-and-brown pattern you see on a dog tick.</li>
+          </ul>
+          <p>Put simply: <strong>a tiny, plain, dark-legged tick is a blacklegged (deer) tick and a Lyme risk</strong>; a larger tick with a decorated grey-brown shield is a dog tick with low disease risk in Canada.</p>
+
           <h2>Why the Distinction Matters Medically</h2>
           <p>The deer tick is the entire reason Lyme disease exists in Canada. <strong>About 10–30% of blacklegged ticks in southern Ontario carry <em>Borrelia burgdorferi</em></strong>, the bacterium that causes Lyme. Untreated Lyme can progress to chronic joint pain, neurological symptoms, and cardiac issues. Caught early (within weeks of the bite), it&rsquo;s treatable with a 2–4 week antibiotic course (doxycycline) with full recovery in most cases.</p>
           <p>The dog tick is a much lower medical concern. While theoretically capable of transmitting Rocky Mountain spotted fever and tularemia, both diseases are extraordinarily rare in Canada — fewer than 5 confirmed RMSF cases per year nationwide. The main veterinary concern is tick paralysis in dogs (resolves with prompt tick removal).</p>
@@ -183,6 +209,7 @@ export default function DeerTickVsDogTickPage() {
             <li><Link href="/blog/what-ticks-look-like-ontario">What Ticks Look Like in Ontario</Link></li>
             <li><Link href="/blog/lyme-disease-tick-prevention-ontario">Lyme Disease Prevention in Ontario</Link></li>
             <li><Link href="/blog/lyme-disease-risk-areas-ontario-2026">Ontario Lyme Disease Risk Areas 2026</Link></li>
+            <li><Link href="/blog/lyme-disease-cases-ontario-2026">Ontario Lyme Disease Case Tracker (2026)</Link></li>
             <li><Link href="/tick-control">BuzzSkito Tick Control Service</Link></li>
           </ul>
         </div>

@@ -82,13 +82,13 @@ export default function PhotoHero() {
           <h1 className="text-4xl font-extrabold leading-[1.05] tracking-tight text-white sm:text-5xl lg:text-6xl xl:text-7xl">
             Mosquito &amp; Tick Control
             <br />
-            <span className="text-amber-400">Guaranteed for the GTA</span>
+            <span className="text-amber-400">in Mississauga &amp; the GTA</span>
           </h1>
 
           {/* Subhead */}
           <p className="mt-6 max-w-xl text-lg font-light leading-relaxed text-white/90">
-            Professional barrier spray for residential lawns — Health Canada–approved,
-            safe for kids &amp; pets in 30 minutes, with up to 30-day protection per visit.
+            Professional mosquito &amp; tick control for Mississauga &amp; GTA backyards — Health Canada–approved
+            barrier spray, safe for kids &amp; pets in 30 minutes, with up to 30-day protection per visit.
           </p>
 
           {/* CTAs */}

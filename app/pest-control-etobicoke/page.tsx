@@ -10,8 +10,8 @@ const CITY = 'Etobicoke'
 const SLUG = '/pest-control-etobicoke'
 
 export const metadata: Metadata = buildMetadata({
-  title: `${CITY} Pest Control · Mosquito & Tick Specialist`,
-  description: `${CITY} pest control specialist focused on mosquitoes and ticks. From $99/treatment, no contracts, BuzzSkito Bite-Free Guarantee. 150+ five-star reviews.`,
+  title: `Pest Control ${CITY} | Mosquito & Tick From $99`,
+  description: `${CITY} pest control for mosquitoes & ticks — from $99, no contracts, Bite-Free Guarantee. Same-week barrier spray & 150+ five-star reviews.`,
   canonical: SLUG,
 })
 
@@ -56,6 +56,22 @@ const FAQS = [
     question: `How does BuzzSkito compare to general pest control companies in ${CITY}?`,
     answer: `General companies (think Orkin, Mosquito Man, etc.) cover 10–20 pests and quote multiple service tiers. BuzzSkito covers two pests, period — but we cover them better. For a ${CITY} homeowner whose actual problem is mosquitoes and ticks (not ants or mice), our specialist focus + barrier spray expertise + Bite-Free Guarantee delivers better results than a general company spreading across many pests. If you have a different pest problem, we'll honestly tell you to call someone else.`,
   },
+  {
+    question: `Does BuzzSkito offer mosquito control in ${CITY}?`,
+    answer: `Yes — mosquito control in ${CITY} is our core service. Our licensed technicians apply a Health Canada–approved residual barrier spray to vegetation, shrub interiors, leaf undersides, fence lines, and other daytime resting sites, knocking down adult mosquitoes and stopping bites for up to 30 days per visit. Single mosquito treatments start at $99 for a standard ${CITY} lot, with seasonal programs (5, 10, or 20+ sprays) available on quote. We treat every ${CITY} neighbourhood, with extra attention to Humber River, Mimico Creek, and Lake Ontario shoreline pressure zones. Call (289) 216-5030 for a free quote.`,
+  },
+  {
+    question: `How much does mosquito spraying cost in ${CITY}?`,
+    answer: `Mosquito spraying in ${CITY} starts at $99 per treatment for a standard residential lot under 10,000 sq ft, with pricing scaling by property size. Seasonal mosquito spray programs run every 2–4 weeks through the May–September season and are custom-quoted (a popular 10-spray bi-weekly program covers the full season). There are no contracts and no hidden fees — every ${CITY} treatment is backed by the BuzzSkito Bite-Free Guarantee. Call (289) 216-5030 for your exact price.`,
+  },
+  {
+    question: `Does BuzzSkito offer tick control in ${CITY}?`,
+    answer: `Yes. Tick control in ${CITY} targets the 1–3 metre "transition zone" where lawn meets woods, garden beds, and leaf litter — the exact band where blacklegged (deer) ticks and American dog ticks concentrate. We apply a Health Canada–approved barrier spray to those zones to reduce tick numbers and Lyme-disease risk on your property. Tick protection is available standalone at $597/season (5 sprays) or bundled with any mosquito plan for $497/season (save $100). ${CITY} properties backing onto the Humber River corridor and Centennial Park see the highest tick pressure.`,
+  },
+  {
+    question: `Which ${CITY} neighbourhoods does BuzzSkito treat for mosquitoes and ticks?`,
+    answer: `BuzzSkito services every ${CITY} neighbourhood, including The Kingsway, Mimico, Long Branch, New Toronto, Islington, Humber Bay, Humber Valley, Edenbridge, Markland Wood, Eringate, Rexdale, and Richview. Waterfront and ravine-adjacent areas — The Kingsway, Mimico, Long Branch, and Humber Bay — carry the heaviest mosquito and tick pressure because of lakefront humidity and mature ravine habitat. Call (289) 216-5030 to confirm same-week service at your ${CITY} address.`,
+  },
 ]
 
 export default function PestControlEtobicokePage() {
@@ -65,7 +81,7 @@ export default function PestControlEtobicokePage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema({ name: `Pest Control ${CITY}`, description: `Specialist mosquito and tick pest control for residential properties in ${CITY}, Ontario. Health Canada-approved barrier spray.`, slug: SLUG, city: CITY })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Pest Control GTA', url: '/pest-control-gta' }, { name: CITY, url: SLUG }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(SLUG, '2026-07-01')) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(SLUG, '2026-07-12')) }} />
 
       {/* HERO */}
       <CityHero
@@ -103,6 +119,7 @@ export default function PestControlEtobicokePage() {
                   ['Protection per visit', 'Up to 30 days residual'],
                   ['Re-entry time', '30 minutes after spray dries (kid and pet safe)'],
                   [`${CITY} pressure zones`, "Humber River, Centennial Park, Lake Ontario shoreline"],
+                  ['Neighbourhoods served', 'The Kingsway, Mimico, Long Branch, Islington, Humber Bay + all of Etobicoke'],
                   ['Booking lead time', 'Same-week service typical'],
                   ['Contract required', 'No — single treatments and seasonal programs both available'],
                   ['Guarantee', 'BuzzSkito Bite-Free Guarantee (free re-treatment in protection window)'],
@@ -251,6 +268,21 @@ export default function PestControlEtobicokePage() {
           <p>For mosquito and tick barrier spray specifically, BuzzSkito treatments in {CITY} start at <strong>$99 per visit</strong>. We don't quote multi-pest packages because we don't do multi-pest work. Seasonal programs are available on quote.</p>
           <p>For comparison: typical {CITY} general pest control pricing runs $150–$400 per visit depending on pest type, with bed bug or rodent jobs higher. We focus on transparent flat-rate pricing for our specialty: $99 minimum, custom quote for larger properties.</p>
           <p>Call (289) 216-5030 for a free quote. No contracts, no obligations, no upsell pressure.</p>
+
+          <h2>Mosquito Control in {CITY}: How Our Barrier Spray Works</h2>
+          <p>For mosquito control in {CITY}, our licensed technician applies a Health Canada&ndash;approved residual barrier spray to the places mosquitoes actually rest during the day &mdash; leaf undersides, shrub interiors, deck skirting, fence-line vegetation, and shaded ground cover. That knocks down the adult population and keeps biting down for up to 30 days per visit. Waterfront and ravine-adjacent neighbourhoods &mdash; <strong>The Kingsway, Mimico, Long Branch, Islington, and Humber Bay</strong> &mdash; carry {CITY}&rsquo;s heaviest mosquito pressure because of Lake Ontario humidity and mature Humber River canopy. Single treatments start at $99; seasonal programs run every 2&ndash;4 weeks through the season. See our dedicated <Link href="/etobicoke-mosquito-control">{CITY} mosquito control</Link> page, or the neighbourhood-specific <Link href="/the-kingsway-mosquito-control">Kingsway mosquito control</Link> service.</p>
+
+          <h2>Tick Control in {CITY}: Lyme-Disease Prevention</h2>
+          <p>Tick control in {CITY} is a different job than mosquito spraying, and we treat it that way. Blacklegged (deer) ticks and American dog ticks concentrate in the 1&ndash;3 metre transition band where lawn meets woods, garden beds, and leaf litter &mdash; not out in the open lawn. We target those exact zones with a barrier spray to cut tick numbers and lower Lyme-disease risk, which matters most for {CITY} properties backing onto the Humber River corridor, Centennial Park, and Mimico Creek. Tick protection is $597/season standalone (5 sprays) or $497/season bundled with any mosquito plan. Full details on our <Link href="/etobicoke-tick-spray">{CITY} tick control</Link> page.</p>
+
+          <h2>Mosquito Spraying in {CITY}: What to Expect on Treatment Day</h2>
+          <p>Here&rsquo;s exactly how a mosquito spraying visit in {CITY} runs, start to finish:</p>
+          <ul>
+            <li><strong>Quick property walk</strong> &mdash; the technician identifies standing water, dense vegetation, and resting sites specific to your {CITY} yard.</li>
+            <li><strong>Targeted barrier spray</strong> &mdash; Health Canada&ndash;approved formula applied with a precision backpack sprayer to vegetation, shrub interiors, and fence lines (not a blanket lawn soak).</li>
+            <li><strong>30-minute re-entry</strong> &mdash; once the spray dries, your yard is safe for kids and pets. Protection lasts up to 30 days.</li>
+          </ul>
+          <p>Weighing your options first? Compare providers on our <Link href="/best-mosquito-control-companies-etobicoke">best mosquito control companies in {CITY}</Link> roundup, or see how we handle the neighbouring market on our <Link href="/pest-control-toronto">Toronto pest control</Link> page.</p>
         </div>
       </section>
 

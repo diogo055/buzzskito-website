@@ -7,8 +7,8 @@ import { TICK_BLOGS } from '@/lib/constants'
 
 const SLUG = 'bugs-that-look-like-ticks'
 const DATE = '2026-04-26'
-const TITLE = '5 Bugs That Look Like Ticks (And How to Tell Them Apart)'
-const EXCERPT = 'Bed bugs, weevils, spider beetles, bat bugs, and dog ticks vs deer ticks — visual identification guide for Ontario homeowners. Why misidentification matters for Lyme disease risk.'
+const TITLE = '7 Bugs That Look Like Ticks (And How to Tell Them Apart)'
+const EXCERPT = 'Bed bugs, spider beetles, weevils, carpet beetles, bat bugs, booklice, and stink bug nymphs — plus poppy seeds and deer-tick vs dog-tick ID. A visual look-alike guide for Ontario homeowners, and why misidentification matters for Lyme disease risk.'
 
 const FAQS = [
   {
@@ -31,6 +31,22 @@ const FAQS = [
     question: 'Are ticks insects?',
     answer: 'No — ticks are arachnids, in the same class as spiders and mites. They have 8 legs as adults (or 6 as newly-hatched larvae), no antennae, no wings, and a fused two-segment body. Insects, by contrast, have 6 legs, antennae, often wings, and a three-segment body (head, thorax, abdomen). This is the most reliable single identification rule: count the legs and look for antennae. If it has antennae, it is not a tick.',
   },
+  {
+    question: 'What is the difference between a spider beetle and a tick?',
+    answer: 'A spider beetle is an insect and a tick is an arachnid, so the leg count settles it: spider beetles have 6 legs, ticks have 8. Spider beetles also have long, prominent antennae (often longer than the body), a hard shiny shell, and a narrow neck-like waist between the head and a bulbous rear — and they can run quickly. Ticks have no antennae, a soft leathery fused body, and crawl slowly. Spider beetles are scavengers found near stored food, attics, and basements; they never attach to skin and do not transmit disease.',
+  },
+  {
+    question: 'What tiny bug looks like a poppy seed — could it be a tick?',
+    answer: 'Yes. An unfed blacklegged (deer) tick nymph is about the size and colour of a poppy seed, which is exactly why people mistake real nymph ticks for stray seeds and specks of dirt. The difference is simple: a poppy or sesame seed has no legs, does not move, and brushes off easily. A nymph tick that size has 8 legs, grips the skin, and stays put. If the "seed" on your skin has legs or will not wipe away, treat it as a tick and remove it carefully.',
+  },
+  {
+    question: 'Do carpet beetles look like ticks?',
+    answer: 'Small carpet beetles are commonly mistaken for ticks because they are 2–4 mm, rounded, and dark. But carpet beetles are insects with 6 legs, short clubbed antennae, and a hard, often patterned or scaly shell — and they fly, which ticks cannot do. You typically find adult carpet beetles on windowsills and along baseboards, and their fuzzy larvae in carpets, closets, and wool. They do not bite people or attach to skin, so they carry no tick-borne disease risk.',
+  },
+  {
+    question: 'What small bugs look like ticks in the house?',
+    answer: 'The indoor bugs most often confused with ticks are bed bugs, spider beetles, carpet beetles, weevils, bat bugs, and booklice. Every one of them is an insect with 6 legs and antennae, and none of them attach to skin — so if the bug is loose on furniture, in the pantry, or on a windowsill, it is almost certainly not a tick. Ticks live outdoors and only come inside on people or pets. A bug found attached to skin with 8 legs and no antennae should always be treated as a tick.',
+  },
 ]
 
 // TITLE NOTE (Jul 2026): was 68 chars and Google truncated it. This page carries
@@ -39,18 +55,18 @@ const FAQS = [
 // Caveat: part of the low CTR is structural — an AI Overview answers this query and
 // cites us. Measure for 4 weeks before changing again; don't churn the title.
 export const metadata: Metadata = buildMetadata({
-  title: 'Bugs That Look Like Ticks: 5 Lookalikes (Photo ID Chart)',
-  description: 'Found a bug that looks like a tick? Count the legs — ticks have 8. Compare it to bed bugs, weevils, spider beetles and bat bugs, with photos and a 30-second ID test.',
+  title: 'Bugs That Look Like Ticks: 7 Lookalikes & ID Chart',
+  description: 'Found a bug that looks like a tick? Count the legs — ticks have 8. Compare 7 look-alikes: bed bugs, spider beetles, carpet beetles, weevils & poppy seeds.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
-  modifiedTime: '2026-07-09',
+  modifiedTime: '2026-07-12',
 })
 
 export default function BugsThatLookLikeTicksPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: EXCERPT, slug: SLUG, datePublished: DATE })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: EXCERPT, slug: SLUG, datePublished: DATE, dateModified: '2026-07-12' })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Bugs That Look Like Ticks', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`)) }} />
@@ -73,8 +89,11 @@ export default function BugsThatLookLikeTicksPage() {
       </div>
 
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
+        <p className="speakable text-lg text-gray-800 not-prose bg-brand-50 border border-brand-100 rounded-xl px-5 py-4 mb-6">
+          <strong>Bugs that look like ticks include bed bugs, spider beetles, weevils, carpet beetles, bat bugs, booklice, and brown marmorated stink bug nymphs</strong> &mdash; plus stray poppy or sesame seeds and specks of dirt. The fastest way to tell any of them from a real tick is to count the legs: ticks are arachnids with <strong>8 legs and no antennae</strong>, while every common look-alike is an insect with <strong>6 legs and visible antennae</strong> (or, in the case of a seed, no legs at all). If it has antennae, wings, or runs and jumps, it is not a tick.
+        </p>
         <p className="text-lg text-gray-600 not-prose border-l-4 border-amber-400 pl-5 py-2 mb-8">
-          You found a small, dark, oval bug crawling on your child, your dog, or your bedroom carpet. Is it a tick? Maybe — but several common Ontario bugs look almost identical to ticks at first glance, and panicking over the wrong one can cost you hours when it actually matters. This guide covers the 5 most common tick look-alikes, how to tell each one apart, and why misidentification is genuinely risky in Ontario&apos;s expanding Lyme disease zones.
+          You found a small, dark, oval bug crawling on your child, your dog, or your bedroom carpet. Is it a tick? Maybe — but several common Ontario bugs look almost identical to ticks at first glance, and panicking over the wrong one can cost you hours when it actually matters. This guide covers the most common tick look-alikes — bed bugs, spider beetles, weevils, carpet beetles, bat bugs, booklice, stink bug nymphs, and even stray poppy seeds — how to tell each one apart, and why misidentification is genuinely risky in Ontario&apos;s expanding Lyme disease zones.
         </p>
 
         <h2>The 30-Second Tick ID Rule</h2>
@@ -89,6 +108,73 @@ export default function BugsThatLookLikeTicksPage() {
         <p>Almost every common tick look-alike is an insect with 6 legs and antennae. If you see antennae, it is not a tick. If it has wings or wing-cover shells (elytra), it is not a tick. If it runs or jumps, it is not a tick. Use those simple checks before reading any further — they will resolve most cases in seconds.</p>
         <p>For a closer look at what real Ontario ticks actually look like, see our <Link href="/blog/what-ticks-look-like-ontario" className="text-brand-700 underline">full guide to identifying ticks in Ontario</Link>.</p>
 
+        <h2>Tick Look-Alikes at a Glance: The Full Comparison Table</h2>
+        <p>Here is every common tick look-alike side by side, with the single fastest way to rule each one out. If your bug matches the &ldquo;tell-tale difference&rdquo; column, it is not a tick.</p>
+        <div className="not-prose my-6 overflow-x-auto rounded-xl border border-brand-100">
+          <table className="w-full text-sm text-left border-collapse min-w-[640px]">
+            <thead className="bg-brand-50 text-brand-900">
+              <tr>
+                <th className="px-3 py-2 font-bold border-b border-brand-100">Look-alike</th>
+                <th className="px-3 py-2 font-bold border-b border-brand-100">What it actually is</th>
+                <th className="px-3 py-2 font-bold border-b border-brand-100">Legs &amp; antennae</th>
+                <th className="px-3 py-2 font-bold border-b border-brand-100">Tell-tale difference from a tick</th>
+                <th className="px-3 py-2 font-bold border-b border-brand-100">Where you find it</th>
+              </tr>
+            </thead>
+            <tbody className="text-gray-700">
+              <tr className="odd:bg-white even:bg-brand-50/40">
+                <td className="px-3 py-2 border-b border-brand-100 font-semibold">Spider beetle</td>
+                <td className="px-3 py-2 border-b border-brand-100">Beetle (Ptinidae)</td>
+                <td className="px-3 py-2 border-b border-brand-100">6 legs, long antennae</td>
+                <td className="px-3 py-2 border-b border-brand-100">Hard shiny shell, narrow &ldquo;waist,&rdquo; long antennae, runs fast</td>
+                <td className="px-3 py-2 border-b border-brand-100">Pantries, attics, basements, old nests</td>
+              </tr>
+              <tr className="odd:bg-white even:bg-brand-50/40">
+                <td className="px-3 py-2 border-b border-brand-100 font-semibold">Bed bug</td>
+                <td className="px-3 py-2 border-b border-brand-100">Insect (Cimex lectularius)</td>
+                <td className="px-3 py-2 border-b border-brand-100">6 legs, antennae</td>
+                <td className="px-3 py-2 border-b border-brand-100">Flat apple-seed oval, has antennae, never attaches to skin</td>
+                <td className="px-3 py-2 border-b border-brand-100">Mattress seams, headboards, bedroom crevices</td>
+              </tr>
+              <tr className="odd:bg-white even:bg-brand-50/40">
+                <td className="px-3 py-2 border-b border-brand-100 font-semibold">Poppy / sesame seed</td>
+                <td className="px-3 py-2 border-b border-brand-100">A seed or food speck (not alive)</td>
+                <td className="px-3 py-2 border-b border-brand-100">No legs</td>
+                <td className="px-3 py-2 border-b border-brand-100">Does not move and brushes off; a real nymph tick this size still has 8 legs and grips</td>
+                <td className="px-3 py-2 border-b border-brand-100">Skin, scalp, kitchen counters, bagels</td>
+              </tr>
+              <tr className="odd:bg-white even:bg-brand-50/40">
+                <td className="px-3 py-2 border-b border-brand-100 font-semibold">Wood tick nymph</td>
+                <td className="px-3 py-2 border-b border-brand-100">A real tick (dog-tick young)</td>
+                <td className="px-3 py-2 border-b border-brand-100">6 legs (larva) or 8 (nymph)</td>
+                <td className="px-3 py-2 border-b border-brand-100">This <em>is</em> a tick &mdash; poppy-seed-sized, so treat it as one</td>
+                <td className="px-3 py-2 border-b border-brand-100">Tall grass, pets, skin</td>
+              </tr>
+              <tr className="odd:bg-white even:bg-brand-50/40">
+                <td className="px-3 py-2 border-b border-brand-100 font-semibold">Weevil</td>
+                <td className="px-3 py-2 border-b border-brand-100">Beetle (Sitophilus)</td>
+                <td className="px-3 py-2 border-b border-brand-100">6 legs, elbowed antennae</td>
+                <td className="px-3 py-2 border-b border-brand-100">Long snout / &ldquo;nose&rdquo; and a hard wing-cover shell</td>
+                <td className="px-3 py-2 border-b border-brand-100">Flour, rice, grains, pet food</td>
+              </tr>
+              <tr className="odd:bg-white even:bg-brand-50/40">
+                <td className="px-3 py-2 border-b border-brand-100 font-semibold">Carpet beetle</td>
+                <td className="px-3 py-2 border-b border-brand-100">Beetle (Dermestidae)</td>
+                <td className="px-3 py-2 border-b border-brand-100">6 legs, short clubbed antennae</td>
+                <td className="px-3 py-2 border-b border-brand-100">Rounded, patterned or scaly shell, and it flies</td>
+                <td className="px-3 py-2 border-b border-brand-100">Windowsills, baseboards, closets, wool</td>
+              </tr>
+              <tr className="odd:bg-white even:bg-brand-50/40">
+                <td className="px-3 py-2 border-b border-brand-100 font-semibold">Booklouse (booklice)</td>
+                <td className="px-3 py-2 border-b border-brand-100">Insect (Psocoptera)</td>
+                <td className="px-3 py-2 border-b border-brand-100">6 legs, long antennae</td>
+                <td className="px-3 py-2 border-b border-brand-100">Near-translucent, ~1 mm, soft-bodied and very fast</td>
+                <td className="px-3 py-2 border-b border-brand-100">Damp books, paper, cardboard, mould</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
         <h2>1. Bed Bugs</h2>
         <p>The most common tick look-alike found indoors. Bed bugs (<em>Cimex lectularius</em>) are reddish-brown insects about the size of an apple seed when unfed, and they swell to a darker, balloon-like shape after feeding. Engorged bed bugs and engorged ticks can look very similar at a glance.</p>
 
@@ -100,7 +186,7 @@ export default function BugsThatLookLikeTicksPage() {
           <li><strong>Where you found it:</strong> Bed bugs live indoors near sleeping areas — mattress seams, headboards, baseboards. Ticks live outdoors on vegetation and only enter homes attached to people or pets.</li>
           <li><strong>Behaviour:</strong> Bed bugs do not stay attached after feeding — they retreat to a hiding place to digest. Ticks attach for hours or days at a time.</li>
         </ul>
-        <p>If you found the bug in your bed, on your couch, or in a wall crevice — and especially if you have unexplained bites in lines or clusters — assume bed bugs and call a pest control specialist. If you found it after a hike, on your child&apos;s scalp, or attached to your dog, treat it as a potential tick.</p>
+        <p>If you found the bug in your bed, on your couch, or in a wall crevice — and especially if you have unexplained bites in lines or clusters — assume bed bugs and call a pest control specialist. If you found it after a hike, on your child&apos;s scalp, or attached to your dog, treat it as a potential tick. For a side-by-side breakdown of these two specifically, see our dedicated <Link href="/blog/tick-vs-bed-bug" className="text-brand-700 underline">tick vs bed bug</Link> comparison.</p>
 
         <h2>2. Weevils</h2>
         <p>Weevils are small beetles with a distinctive elongated &quot;snout.&quot; The species most commonly mistaken for ticks in Ontario homes is the granary weevil (<em>Sitophilus granarius</em>) and the rice weevil (<em>Sitophilus oryzae</em>) — both pantry pests that show up in stored grains, flour, pasta, and pet food. They are about 3 mm long, dark brown to black, and oval-shaped, which gives them a passable resemblance to a small unfed tick at first glance.</p>
@@ -158,6 +244,36 @@ export default function BugsThatLookLikeTicksPage() {
           <li><strong>Found on plants, not skin</strong> — these insects feed on garden vegetation, not blood. They will not be attached to you.</li>
         </ul>
 
+        <h2>6. Carpet Beetles</h2>
+        <p>Carpet beetles (family <em>Dermestidae</em>) are one of the most common &ldquo;is this a tick?&rdquo; finds indoors. Adults are only 2&ndash;4 mm, rounded and domed, and patterned with black, white, and orange scales — a shape and size that reads as a small unfed tick on a windowsill or baseboard.</p>
+
+        <h3>How to tell them apart</h3>
+        <ul>
+          <li><strong>Legs:</strong> Carpet beetles have 6 legs. Ticks have 8.</li>
+          <li><strong>Antennae:</strong> Short, clubbed antennae. Ticks have none.</li>
+          <li><strong>Shell:</strong> A hard, patterned, faintly scaly wing-cover. Ticks are soft and leathery.</li>
+          <li><strong>They fly:</strong> Adult carpet beetles fly to windows and lights. Ticks cannot fly at all.</li>
+        </ul>
+        <p>The fuzzy, bristly carpet-beetle larvae look nothing like a tick but chew through wool, carpet, and stored fabrics. Adults do not bite people and carry no tick-borne disease. If your &ldquo;beetle that looks like a tick&rdquo; is on a windowsill with a mottled shell, it is a carpet beetle.</p>
+
+        <h2>7. Booklice (Booklouse)</h2>
+        <p>Booklice (order <em>Psocoptera</em>) are near-microscopic, translucent-to-pale insects about 1 mm long. Individually they are hard to see, but a cluster of them on damp paper or a windowsill can be mistaken for a group of tiny tick larvae.</p>
+
+        <h3>How to tell them apart</h3>
+        <ul>
+          <li><strong>Legs:</strong> 6 legs, plus long antennae. Ticks have 8 legs and no antennae.</li>
+          <li><strong>Body:</strong> Soft, translucent, and very fast-moving. Ticks are opaque and crawl slowly.</li>
+          <li><strong>Where they live:</strong> Damp books, cardboard, paper, and mouldy areas — never attached to skin.</li>
+        </ul>
+        <p>Booklice do not bite, do not carry disease, and are simply a sign of humidity. Drying the area out and improving ventilation clears them.</p>
+
+        <h2>Is It a Poppy Seed, a Sesame Seed, or a Tick?</h2>
+        <p>This is one of the most-searched tick questions, and for good reason: an unfed blacklegged (deer) tick nymph really is about the size and colour of a poppy seed, and a well-fed one resembles a sesame seed. People routinely spot a dark speck on their skin or scalp and cannot tell whether it is a seed, a fleck of dirt, or a tick.</p>
+        <p>The test is quick. A <strong>poppy or sesame seed has no legs, does not move, and brushes off easily.</strong> A <strong>nymph tick that size has 8 legs, grips the skin, and stays put</strong> when you try to wipe it away. If the &ldquo;seed&rdquo; has legs or will not brush off, treat it as a tick, remove it carefully, and save it. When you are unsure, our <Link href="/blog/tick-removal-tool-guide" className="text-brand-700 underline">tick removal tool guide</Link> walks through the right tools and technique.</p>
+
+        <h2>Wood Tick Nymphs: A Look-Alike That Really Is a Tick</h2>
+        <p>&ldquo;Wood tick&rdquo; is a common name for the American dog tick, and its young — larvae and nymphs — are so small they are often mistaken for a poppy seed, a freckle, or a scab rather than a tick. Unlike every other entry here, this one <em>is</em> a tick. If a poppy-seed-sized speck has legs and is attached, do not dismiss it as debris: treat it as a real tick, remove it, and monitor the bite.</p>
+
         <h2>The Most Important Comparison: Deer Tick vs Dog Tick</h2>
         <p>Even when you have correctly identified a real tick, a second identification matters in Ontario. Two species are common across the GTA, and only one carries Lyme disease.</p>
 
@@ -207,6 +323,8 @@ export default function BugsThatLookLikeTicksPage() {
           <li><Link href={`/blog/${TICK_BLOGS.pillar.slug}`} className="text-brand-700 hover:underline">{TICK_BLOGS.pillar.title}</Link></li>
           <li><Link href="/blog/what-ticks-look-like-ontario" className="text-brand-700 hover:underline">How to Identify Ticks in Ontario</Link></li>
           <li><Link href="/blog/how-to-remove-tick-safely" className="text-brand-700 hover:underline">How to Remove a Tick Safely</Link></li>
+          <li><Link href="/blog/tick-removal-tool-guide" className="text-brand-700 hover:underline">Best Tick Removal Tools: Buyer&rsquo;s Guide</Link></li>
+          <li><Link href="/blog/tick-vs-bed-bug" className="text-brand-700 hover:underline">Tick vs Bed Bug: Full Comparison</Link></li>
           <li><Link href="/blog/tick-bite-vs-mosquito-bite" className="text-brand-700 hover:underline">Tick Bite vs Mosquito Bite</Link></li>
           <li><Link href="/tick-control" className="text-brand-700 hover:underline">BuzzSkito Tick Control Services</Link></li>
         </ul>
