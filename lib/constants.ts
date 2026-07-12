@@ -789,6 +789,118 @@ export const NEW_BLOGS_13 = [
   },
 ]
 
+// ── Wave 14 — product buyer's-guides (Jul 12 2026) ────────────────────────────
+// High-volume Canadian product/affiliate keywords with no prior page. Each is a
+// monetized buyer's guide (comparison table + Amazon BuyLinks + FAQ) cross-linked
+// into the existing product-post cluster.
+export const NEW_BLOGS_14 = [
+  {
+    slug: 'best-mosquito-repellent-device-canada',
+    title: 'Best Mosquito Repellent Device Canada 2026 — Machines Ranked',
+    excerpt: 'Every mosquito repellent machine ranked for Canada — Thermacell, propane CO2 traps, foggers and bug zappers on coverage, price and what actually works.',
+    date: '2026-07-12',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'mosquito-net-canada',
+    title: 'Mosquito Net Canada 2026: Best Nets by Use + Where to Buy',
+    excerpt: 'The right mosquito net for every job: bed canopy, head net, hammock, and stroller nets compared — with real 2026 Canadian prices.',
+    date: '2026-07-12',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'citronella-candles-canada-do-they-work',
+    title: 'Do Citronella Candles Work? Honest 2026 Canada Verdict',
+    excerpt: 'Citronella candles work — but barely: a ~1m bubble that wind erases. Our honest 2026 verdict, best torches and coils, and what actually stops bites.',
+    date: '2026-07-12',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'ortho-home-defense-canada-review',
+    title: 'Ortho Home Defense Canada 2026: Review & What\'s Sold Here',
+    excerpt: 'The bifenthrin Home Defense in US stores isn\'t legal in Canada. Here\'s what\'s actually sold here, how to use it safely, and when to hire a pro.',
+    date: '2026-07-12',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'best-mosquito-trap-canada',
+    title: 'Best Mosquito Trap Canada 2026: Propane vs UV vs CO2',
+    excerpt: 'Propane, UV+fan, CO2 lure, and indoor mosquito traps compared for Canadian yards — how each works, honest effectiveness, 2026 prices, and where to buy.',
+    date: '2026-07-12',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'off-deep-woods-deet-bug-spray-canada',
+    title: 'OFF Deep Woods & DEET Bug Spray Canada — Which to Buy',
+    excerpt: 'OFF Deep Woods vs FamilyCare, DEET %/duration explained, safe use for kids and pets, and where to buy OFF bug spray in Canada.',
+    date: '2026-07-12',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'best-bug-spray-for-kids-canada',
+    title: 'Best Bug Spray for Kids in Canada 2026 — Safe Picks by Age',
+    excerpt: 'Health Canada\'s DEET and icaridin age limits, DEET-free picks, and the safest bug sprays for babies, toddlers, and kids — plus where to buy.',
+    date: '2026-07-12',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'mosquito-coils-canada',
+    title: 'Mosquito Coils Canada 2026: Do They Work & Are They Safe?',
+    excerpt: 'How mosquito coils work, why you must never burn them indoors, and the best PIC, OFF! and citronella coils to buy in Canada in 2026.',
+    date: '2026-07-12',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'mosquito-repellent-for-dogs-canada',
+    title: 'Mosquito Repellent for Dogs in Canada: Vet-Safe Picks',
+    excerpt: 'Safe mosquito repellent for dogs in Canada: vet-approved picks, why never DEET, the permethrin-and-cats warning, and heartworm facts.',
+    date: '2026-07-12',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'mosquito-fogger-canada',
+    title: 'Mosquito Fogger Canada 2026 — Do They Work? + Best Models',
+    excerpt: 'How mosquito foggers work, propane vs electric, which fogging liquid to buy, and the honest limits — plus top Canadian models and prices.',
+    date: '2026-07-12',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'wondercide-canada-review',
+    title: 'Wondercide Canada 2026: Honest Review + Where to Buy',
+    excerpt: 'Is Wondercide\'s cedar-oil flea & tick spray available in Canada? Honest review, real 2026 pricing, where to buy, plus Flea & Tick vs Yard + Garden.',
+    date: '2026-07-12',
+    category: 'tick' as const,
+  },
+  {
+    slug: 'mosquito-repellent-bracelets-canada',
+    title: 'Mosquito Repellent Bracelets Canada — Do They Work?',
+    excerpt: 'Do mosquito repellent bracelets actually work? The honest 2026 verdict for Canada — when citronella bands help, when they don\'t, and better options.',
+    date: '2026-07-12',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'mosquito-screens-patio-canada',
+    title: 'Mosquito Screens for Your Patio (Canada 2026) — Buyer\'s Guide',
+    excerpt: 'Pop-up screen houses, screened gazebos, magnetic screen doors, netting or window kits? Which mosquito screen fits your patio, with 2026 Canadian prices.',
+    date: '2026-07-12',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'laser-mosquito-killer-photon-matrix-review',
+    title: 'Laser Mosquito Killer & Photon Matrix: Is It Real? (2026)',
+    excerpt: 'Is the Photon Matrix laser mosquito killer real or crowdfunding hype? An honest 2026 reality-check, plus what actually works in your yard today.',
+    date: '2026-07-12',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'mosquito-repellent-stickers-patches-canada',
+    title: 'Mosquito Repellent Stickers & Patches: Do They Work?',
+    excerpt: 'Do citronella repellent stickers and patches actually work? An honest Canadian guide to DEET-free options for kids and babies.',
+    date: '2026-07-12',
+    category: 'mosquito' as const,
+  },
+]
+
 // ── Season helpers ─────────────────────────────────────────────────────────────
 
 export const PEAK_SEASON = 'May through July'
