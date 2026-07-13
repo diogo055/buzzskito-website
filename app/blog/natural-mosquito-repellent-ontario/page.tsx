@@ -58,6 +58,14 @@ const FAQS = [
     question: 'Is natural mosquito repellent safe for children and during pregnancy?',
     answer: 'Health Canada advises that oil of lemon eucalyptus (OLE / PMD) not be used on children under three, while picaridin and low-concentration DEET are considered safe from six months of age when used as directed. Loose essential-oil blends are not tested for these groups, so keep them off infants and broken skin. During pregnancy, registered picaridin and OLE products used as labelled are generally considered appropriate — but confirm with your own healthcare provider.',
   },
+  {
+    question: 'Does peppermint oil repel mosquitoes?',
+    answer: 'Peppermint oil repels mosquitoes only weakly and only very briefly. In field trials, undiluted peppermint essential oil gives roughly 15–30 minutes of partial protection before it evaporates and the effect disappears, so it is one of the weakest options in the essential-oil group. The cooling menthol scent is pleasant and may mask some of the cues mosquitoes use, but it is nowhere near strong enough to protect you for an evening outside. For real plant-based protection, oil of lemon eucalyptus (OLE / PMD) is the only botanical Health Canada rates comparable to low-concentration DEET, lasting 4–6 hours instead of minutes.',
+  },
+  {
+    question: 'Does lavender repel mosquitoes?',
+    answer: 'Lavender has mild mosquito-repelling properties but is mostly aromatic rather than protective. Lavender essential oil gives about 15–30 minutes of weak repellency when applied to skin, and a planted lavender bush releases almost no repellent unless the leaves are crushed. It smells lovely and works as a minor complement to a real strategy, but it will not keep a backyard bite-free on its own. If you want dependable botanical protection, choose oil of lemon eucalyptus (OLE / PMD), which lasts 4–6 hours — or pair a patio fan with BTI larvicide for whole-yard control.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({
@@ -232,6 +240,59 @@ export default function NaturalMosquitoRepellentPage() {
           <h2>The Honest Truth About Plants</h2>
           <p>Lavender, basil, citronella grass, and bee balm contain real mosquito-repellent oils — but plants release these oils only when the leaves are crushed or brushed. A planted lavender bush at the corner of your patio is mostly decorative. To get the actual repellent benefit, you would need to physically crush leaves and rub them around — at which point a small bottle of OLE-based spray is more practical.</p>
           <p>For Ontario-hardy mosquito-repellent plants worth growing for their <em>combination</em> of mild repellency and aesthetic value, see our <Link href="/blog/mosquito-repellent-plants-ontario">Mosquito Repellent Plants Ontario guide</Link>.</p>
+
+          <h2>Best Essential Oils for Mosquitoes — Per-Oil Breakdown</h2>
+          <p className="text-sm text-gray-500 mb-3">Updated July 13, 2026</p>
+          <p>&ldquo;Essential oil mosquito repellent&rdquo; is a huge category, but the oils inside it are not equal. Only one — <strong>oil of lemon eucalyptus (PMD)</strong> — has published, DEET-comparable efficacy; the rest are short-lived aromatics. Here is how the five most-searched oils actually perform, ranked by how well and how long they repel mosquitoes in field trials.</p>
+          <div className="not-prose my-6 overflow-x-auto">
+            <table className="w-full min-w-[600px] border-collapse text-sm">
+              <thead>
+                <tr className="border-b-2 border-gray-300 text-left text-gray-900">
+                  <th className="py-2 pr-4 font-bold">Essential oil</th>
+                  <th className="py-2 pr-4 font-bold">How well it repels</th>
+                  <th className="py-2 pr-4 font-bold">How long it lasts</th>
+                  <th className="py-2 font-bold">Best use</th>
+                </tr>
+              </thead>
+              <tbody className="align-top text-gray-700">
+                <tr className="border-b border-gray-200">
+                  <td className="py-3 pr-4 font-semibold">Oil of lemon eucalyptus (PMD)</td>
+                  <td className="py-3 pr-4">Strong — ~95%, DEET-comparable</td>
+                  <td className="py-3 pr-4">4&ndash;6 hrs</td>
+                  <td className="py-3">The only botanical rated on par with low-dose DEET; use refined PMD products, not raw oil.</td>
+                </tr>
+                <tr className="border-b border-gray-200">
+                  <td className="py-3 pr-4 font-semibold">Citronella</td>
+                  <td className="py-3 pr-4">Moderate &mdash; ~50%</td>
+                  <td className="py-3 pr-4">20&ndash;60 min</td>
+                  <td className="py-3">Real but brief; fine for short outings if you re-apply often.</td>
+                </tr>
+                <tr className="border-b border-gray-200">
+                  <td className="py-3 pr-4 font-semibold">Lemongrass</td>
+                  <td className="py-3 pr-4">Mild &mdash; similar to citronella</td>
+                  <td className="py-3 pr-4">30&ndash;60 min</td>
+                  <td className="py-3">Pleasant citrus scent; a decent complement to citronella in a DIY blend.</td>
+                </tr>
+                <tr className="border-b border-gray-200">
+                  <td className="py-3 pr-4 font-semibold">Peppermint</td>
+                  <td className="py-3 pr-4">Weak</td>
+                  <td className="py-3 pr-4">15&ndash;30 min</td>
+                  <td className="py-3">Cooling menthol scent, but barely detectable repellency in field trials.</td>
+                </tr>
+                <tr>
+                  <td className="py-3 pr-4 font-semibold">Lavender</td>
+                  <td className="py-3 pr-4">Weak &mdash; mostly aromatic</td>
+                  <td className="py-3 pr-4">15&ndash;30 min</td>
+                  <td className="py-3">Smells lovely; minor complement only, and almost nil from an uncrushed plant.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-sm text-gray-500">The takeaway: if you want an essential oil that genuinely works, it has to be <strong>oil of lemon eucalyptus (PMD)</strong>. Peppermint and lavender smell great but wear off in under half an hour, and citronella and lemongrass need constant re-application.</p>
+          <div className="not-prose my-6 rounded-xl border border-emerald-200 bg-emerald-50 p-5">
+            <p className="text-sm text-gray-800 leading-relaxed mb-3"><strong>Our essential-oil pick:</strong> for a botanical spray that actually lasts, skip the loose peppermint and lavender oils and reach for a refined lemon-eucalyptus (PMD) formula like Murphy&rsquo;s Naturals. It is the one essential-oil active with 4&ndash;6 hours of published protection.</p>
+            <BuyLink search="murphys naturals lemon eucalyptus oil insect repellent">Check price on Amazon.ca →</BuyLink>
+          </div>
 
           <h2>DIY Essential-Oil Mosquito Repellent (Homemade Recipe)</h2>
           <p>A homemade spray will never match OLE or picaridin, but a well-balanced blend can buy you 30–60 minutes on a calm evening — enough for watering the garden or a short sit outside. Here&rsquo;s a recipe that maximises what essential oils can realistically do:</p>

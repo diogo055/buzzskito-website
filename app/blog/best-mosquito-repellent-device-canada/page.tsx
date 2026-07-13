@@ -7,7 +7,7 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 
 const SLUG = 'best-mosquito-repellent-device-canada'
 const DATE = '2026-07-12'
-const UPDATED = '2026-07-12'
+const UPDATED = '2026-07-13'
 const TITLE = 'Best Mosquito Repellent Device Canada 2026 — Machines Ranked'
 const META_TITLE = 'Best Mosquito Repellent Device Canada 2026 (Machines Ranked)'
 
@@ -23,6 +23,14 @@ const FAQS = [
   {
     question: 'What is a mosquito killer machine and does it kill mosquitoes?',
     answer: 'A "mosquito killer machine" usually refers to a trap that lures and captures or electrocutes insects — either a propane CO₂ trap, a UV light-plus-fan trap, or an electric bug zapper. Propane CO₂ traps (Mosquito Magnet) genuinely kill biting female mosquitoes by mimicking human breath and vacuuming them into a net; they are the most effective killing device but cost $400–$1,300 plus $400–$600 a season in propane and attractant. UV traps and bug zappers are marketed as mosquito killers but catch overwhelmingly moths, beetles, and midges. If your goal is actually killing mosquitoes rather than repelling them, a propane CO₂ trap is the only device category with strong independent evidence, and even it takes weeks to show results.',
+  },
+  {
+    question: 'What is the best mosquito repellent machine?',
+    answer: 'The best mosquito repellent machine is a Thermacell zone repeller ($35–$229). A "repellent machine" pushes mosquitoes away rather than trying to kill them, and Thermacell does that best — it heats a metofluthrin or prallethrin mat to fill a 6-metre (about 20-foot) zone with a vapour mosquitoes avoid, giving 70–95% fewer bites within roughly 15 minutes. That makes it the top repellent machine for patios, decks, camping, and fishing. Note the difference from a "killer machine": propane CO₂ traps (Mosquito Magnet) and UV traps (DynaTrap) try to trap and kill mosquitoes, while the Thermacell simply repels them from where you sit. For repelling bites tonight, the repellent machine wins; for thinning a whole rural property over weeks, a killer machine is the tool.',
+  },
+  {
+    question: 'Do mosquito killer machines work?',
+    answer: 'Some do, most do not. "Mosquito killer machine" covers three very different devices. Propane CO₂ killer machines (Mosquito Magnet) genuinely work — they mimic human breath to lure and vacuum up biting females, cutting local populations 70–90% over 6–8 weeks, but they cost $400–$1,300 plus $400–$600 a season. UV light-and-fan killer machines (DynaTrap) work poorly for mosquitoes specifically — peer-reviewed testing shows mosquitoes are only about 5% of the catch. Bug-zapper killer machines barely work at all; University of Delaware research found mosquitoes were well under 1% of what they electrocute. So a propane CO₂ killer machine is the only category with strong evidence, and even it takes weeks. If you want results the same day, a Thermacell repellent machine or professional barrier spray beats every killer machine.',
   },
   {
     question: 'Thermacell vs bug zapper vs propane trap — which is best?',
@@ -83,6 +91,7 @@ export default function BestMosquitoRepellentDeviceCanadaPage() {
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Device type</th>
+                  <th className="px-4 py-3 text-left">Machine type</th>
                   <th className="px-4 py-3 text-left">Coverage</th>
                   <th className="px-4 py-3 text-left">Best for</th>
                   <th className="px-4 py-3 text-left">Price (CA, 2026)</th>
@@ -92,6 +101,7 @@ export default function BestMosquitoRepellentDeviceCanadaPage() {
               <tbody>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Thermacell zone repeller <span className="font-normal text-xs text-emerald-600">★ best overall</span></td>
+                  <td className="px-4 py-3 text-gray-700">Repellent machine</td>
                   <td className="px-4 py-3 text-gray-700">6 m / ~20 ft zone</td>
                   <td className="px-4 py-3 text-gray-700">Patio, deck, camping</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$35 – $229</td>
@@ -99,6 +109,7 @@ export default function BestMosquitoRepellentDeviceCanadaPage() {
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Propane CO₂ trap</td>
+                  <td className="px-4 py-3 text-gray-700">Killer machine ★ best</td>
                   <td className="px-4 py-3 text-gray-700">Up to 1 acre</td>
                   <td className="px-4 py-3 text-gray-700">Cottages, rural acreage</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$400 – $1,300</td>
@@ -106,6 +117,7 @@ export default function BestMosquitoRepellentDeviceCanadaPage() {
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">UV + fan trap (DynaTrap)</td>
+                  <td className="px-4 py-3 text-gray-700">Killer machine (weak)</td>
                   <td className="px-4 py-3 text-gray-700">300 sq ft – 1 acre</td>
                   <td className="px-4 py-3 text-gray-700">Supplemental insect catch</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$79 – $330</td>
@@ -113,6 +125,7 @@ export default function BestMosquitoRepellentDeviceCanadaPage() {
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Propane / electric fogger</td>
+                  <td className="px-4 py-3 text-gray-700">Killer machine (brief)</td>
                   <td className="px-4 py-3 text-gray-700">Temporary knockdown</td>
                   <td className="px-4 py-3 text-gray-700">Pre-event, few hours</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$40 – $150</td>
@@ -120,6 +133,7 @@ export default function BestMosquitoRepellentDeviceCanadaPage() {
                 </tr>
                 <tr>
                   <td className="px-4 py-3 font-bold text-brand-800">Bug zapper <span className="font-normal text-xs text-rose-500">✗ worst</span></td>
+                  <td className="px-4 py-3 text-gray-700">Killer machine (useless)</td>
                   <td className="px-4 py-3 text-gray-700">Small radius</td>
                   <td className="px-4 py-3 text-gray-700">Not mosquitoes (moths/beetles)</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$30 – $120</td>
@@ -231,6 +245,19 @@ export default function BestMosquitoRepellentDeviceCanadaPage() {
           <div className="not-prose my-6 rounded-xl bg-emerald-50 border-l-4 border-emerald-500 p-5">
             <p className="text-sm font-extrabold text-emerald-900 mb-1">The honest verdict, in one line.</p>
             <p className="text-sm text-gray-800 leading-relaxed">Buy a <Link href="/blog/thermacell-canada-where-to-buy">Thermacell</Link> for the seating area, add a <Link href="/blog/mosquito-magnet-canada">propane trap</Link> only if you have rural acreage, and skip the bug zapper. For the whole yard — and for ticks, which no device here touches — pair any device with <Link href="/mosquito-control">professional barrier spray</Link>.</p>
+          </div>
+
+          <h2 id="machine-vs-killer">Mosquito Repellent Machines vs Killer Machines</h2>
+          <p>Shoppers use two phrases almost interchangeably, but they describe opposite jobs. A <strong>mosquito repellent machine</strong> pushes mosquitoes away from a space without killing them, while a <strong>mosquito killer machine</strong> tries to trap or electrocute them. Knowing which word matches your goal is the fastest way to stop wasting money on the wrong gadget.</p>
+          <ul>
+            <li><strong>Repellent machine → Thermacell.</strong> The Thermacell zone repeller is the only true <em>repellent machine</em> here — it diffuses a metofluthrin/prallethrin vapour that keeps mosquitoes out of a 6-metre zone within about 15 minutes. It kills nothing; it simply makes the air where you sit unpleasant to mosquitoes. This is what you want if the problem is getting bitten on the patio <em>tonight</em>.</li>
+            <li><strong>Killer machine → Mosquito Magnet &amp; DynaTrap.</strong> Propane CO₂ traps (Mosquito Magnet) and UV+fan traps (DynaTrap) are <em>killer machines</em> — they lure and capture insects. The propane CO₂ killer machine is the only one with strong evidence of actually thinning a mosquito population (70–90% over 6–8 weeks on up to an acre); the UV killer machine catches mostly moths and beetles, so it is a weak killer for mosquitoes specifically.</li>
+            <li><strong>Also killer machines, but skip them.</strong> Foggers and bug zappers technically kill too, but a fogger only knocks mosquitoes down for a few hours and a bug-zapper killer machine electrocutes under 1% mosquitoes — mostly harmless night insects.</li>
+          </ul>
+          <p>Rule of thumb: buy a <strong>repellent machine</strong> (Thermacell) for same-day patio comfort, and only add a <strong>killer machine</strong> (a propane CO₂ trap) if you have rural acreage worth thinning over the whole season. For a whole yard plus ticks — which no machine of either type controls — pair either with <Link href="/mosquito-control">professional barrier spray</Link>.</p>
+          <div className="not-prose mb-6 flex flex-wrap gap-3">
+            <BuyLink search="thermacell patio shield">Repellent machine (Thermacell) →</BuyLink>
+            <BuyLink search="mosquito magnet trap">Killer machine (propane CO₂ trap) →</BuyLink>
           </div>
 
           <h2>Repel vs Kill: Which Do You Actually Need?</h2>

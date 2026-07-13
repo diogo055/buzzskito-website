@@ -8,7 +8,7 @@ const POST = MOSQUITO_BLOGS.pillar
 
 export const metadata: Metadata = buildMetadata({
   title: 'Backyard Mosquito Control GTA 2026 — The Complete Guide (What Works + What\'s a Scam)',
-  description: 'Complete GTA mosquito guide: biology, why they\'re worse near water, prevention strategies, barrier spray explained, seasonal Ontario calendar.',
+  description: 'The complete guide to backyard and outdoor mosquito control in the GTA: mosquito biology, prevention strategies, barrier spray explained, a seasonal Ontario calendar, and when to hire a pro. Professional treatment from $99.',
   canonical: `/blog/${POST.slug}`,
   type: 'article',
   publishedTime: POST.date,
@@ -19,6 +19,8 @@ const FAQS = [
   { question: 'How do I find where mosquitoes are breeding in my yard?', answer: 'Check any container that holds standing water: birdbaths, clogged gutters, tarps, plant saucers, children\'s toys, and low-lying areas that collect rainwater. Even a bottle cap with water can produce hundreds of mosquitoes. Eliminate or change water sources weekly.' },
   { question: 'Does barrier spray hurt pollinators like bees?', answer: 'Professional barrier spray is applied to leaf undersides and shrubs where mosquitoes rest — not to flowers. Once dried (30 minutes), the product does not harm foraging pollinators. We avoid spraying open flowers and apply during morning or evening when pollinators are less active.' },
   { question: 'How many mosquito treatments does a GTA property need per season?', answer: 'For continuous protection throughout GTA mosquito season (May–September), 5 treatments spaced 28 days apart are recommended. Properties near water features, ravines, or conservation areas may benefit from tighter spacing during peak season.' },
+  { question: 'How much does professional backyard mosquito control cost in the GTA?', answer: 'A single professional backyard mosquito treatment starts at $99 for a standard lot (under 10,000 sq ft). Full-season plans, which give continuous protection from May through September, start at $549 for 5 sprays (monthly) or $994 for 10 sprays (bi-weekly). Pricing scales with lot size, and every BuzzSkito treatment is backed by our Bite-Free Guarantee.' },
+  { question: 'Is professional outdoor mosquito control better than DIY?', answer: 'Yes. DIY methods — citronella, foggers, standing-water removal, and repelling plants — typically reduce mosquito pressure by only 15–30% because they do not treat the shaded vegetation where adult mosquitoes rest. Professional outdoor mosquito control combines standing-water elimination with a Health Canada-approved barrier spray applied to that resting habitat, cutting populations 85–95% on most GTA properties. The two approaches work best together: prevention plus barrier spray.' },
 ]
 
 export default function MosquitoPillarPage() {
@@ -42,6 +44,15 @@ export default function MosquitoPillarPage() {
           </div>
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold mb-5 leading-tight">{POST.title}</h1>
           <p className="text-brand-200 text-sm">Published {new Date(POST.date).toLocaleDateString('en-CA', { year: 'numeric', month: 'long', day: 'numeric' })} · By BuzzSkito</p>
+        </div>
+      </section>
+
+      {/* QUICK ANSWER */}
+      <section className="bg-amber-50 border-y-4 border-amber-300 py-8 px-4">
+        <div className="max-w-4xl mx-auto">
+          <p className="text-xs font-extrabold text-amber-700 uppercase tracking-wider mb-2">Quick Answer</p>
+          <h2 className="text-xl font-extrabold text-brand-900 mb-3">What is the best backyard mosquito control?</h2>
+          <p className="text-base text-gray-800 leading-relaxed">The most effective backyard mosquito control combines two layers: (1) eliminate every standing-water source where mosquitoes breed, and (2) apply a professional barrier spray to the shaded vegetation, shrub interiors, and leaf undersides where adult mosquitoes rest during the day. This done-for-you approach cuts mosquito populations 85–95% and keeps a yard protected for up to 30 days per treatment — far more than DIY outdoor mosquito control like citronella, foggers, or repelling plants, which reduce biting pressure only 15–30%. In the GTA, professional treatment starts at $99 per visit, and full-season plans run May through September for continuous protection.</p>
         </div>
       </section>
 
@@ -102,6 +113,16 @@ export default function MosquitoPillarPage() {
           <li>Fill low-lying areas in your lawn that collect water</li>
         </ul>
         <p>Full checklist: <Link href="/blog/how-to-prevent-mosquitoes-in-your-backyard" className="text-brand-700 underline hover:text-brand-500">12 Ways to Prevent Mosquitoes in Your Backyard</Link></p>
+
+        <div className="not-prose my-10 rounded-2xl bg-gradient-to-br from-brand-800 to-brand-950 text-white p-6 sm:p-8 shadow-lg">
+          <p className="text-xs font-extrabold text-brand-300 uppercase tracking-wider mb-2">Prefer the Done-For-You Option?</p>
+          <h3 className="text-2xl font-extrabold mb-3 leading-tight">Let BuzzSkito Handle Your Backyard Mosquito Control</h3>
+          <p className="text-brand-100 leading-relaxed mb-5">DIY prevention keeps breeding down, but professional barrier spray is what actually clears the adult mosquitoes resting in your vegetation. Our licensed technicians treat every shrub interior, leaf underside, and fence line so your yard stays bite-free — starting at just <strong className="text-white">$99 per treatment</strong>. Backed by our <strong className="text-white">Bite-Free Guarantee</strong> and <strong className="text-white">150+ five-star reviews</strong> across the GTA.</p>
+          <div className="flex flex-col sm:flex-row gap-3">
+            <Link href="/free-yard-assessment" className="inline-flex justify-center items-center bg-white text-brand-900 font-bold px-6 py-3 rounded-xl hover:bg-brand-50 transition-colors">Get a Free Yard Assessment →</Link>
+            <Link href="/mosquito-control" className="inline-flex justify-center items-center bg-brand-700 text-white font-bold px-6 py-3 rounded-xl border border-brand-500 hover:bg-brand-600 transition-colors">See Mosquito Control Services</Link>
+          </div>
+        </div>
 
         <h2>Health Risks: West Nile Virus in the GTA</h2>
         <p>Mosquitoes in Ontario can carry West Nile Virus (WNV), a potentially serious illness transmitted through mosquito bites. Ontario public health agencies monitor WNV-positive mosquito pools throughout the GTA each season. While most people infected with WNV experience no symptoms or a mild illness, a small percentage develop severe neurological disease.</p>

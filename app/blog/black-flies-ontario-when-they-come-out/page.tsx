@@ -9,7 +9,7 @@ import { MOSQUITO_BLOGS } from '@/lib/constants'
 
 const SLUG = 'black-flies-ontario-when-they-come-out'
 const DATE = '2026-04-26'
-const UPDATED = '2026-07-12'
+const UPDATED = '2026-07-13'
 const TITLE = 'Black Flies in Ontario: When They Come Out and How to Stop Them'
 const EXCERPT = 'Black fly season in Ontario peaks May through July. Learn when black flies come out, where they breed, why GTA properties near rivers and ravines are at risk, and how professional barrier spray controls them.'
 
@@ -33,6 +33,18 @@ const FAQS = [
   {
     question: 'Does mosquito spray work on black flies?',
     answer: 'Yes — professional barrier spray is effective against black flies as part of a mosquito control program. The same residual pyrethroid formulas that kill mosquitoes resting in vegetation also kill black flies that land on treated foliage. Black flies rest between feeding bouts on the underside of leaves, branches, and shrubs — exactly the surfaces a properly applied barrier spray treats. While we cannot eliminate every black fly entering your property from kilometres away, treatment significantly reduces the population that lingers and bites in your yard.',
+  },
+  {
+    question: 'How do you treat a black fly bite?',
+    answer: 'For a black fly bite, first wash the wound with soap and cool water to clear away the anticoagulant saliva the fly leaves behind, then apply a cold compress for 10–15 minutes to reduce swelling. An over-the-counter after-bite itch relief product, hydrocortisone cream, or an antihistamine can calm the itch and inflammation — and it helps to keep the bite covered so you do not scratch it open, since black fly bites bleed and are prone to secondary infection. Most bites settle within a few days but can take a week or more to fully heal. See a doctor if you develop spreading redness, warmth, pus, or a fever after multiple bites.',
+  },
+  {
+    question: 'Why do black fly bites bleed and swell so much?',
+    answer: 'Black flies bite differently from mosquitoes: instead of piercing the skin with a needle-like proboscis, they use scissor-like mouthparts to cut a small wound and lap up the pooling blood. Their saliva contains anticoagulants and anaesthetic compounds, which is why the wound keeps bleeding for a moment and why the reaction — swelling, redness, and itching — can be more intense and longer-lasting than a mosquito welt. Some people are more sensitive than others, and a cluster of bites can trigger significant local swelling or, in rare cases, black fly fever.',
+  },
+  {
+    question: 'How do you get rid of black flies?',
+    answer: 'You cannot eliminate black flies at their source because they breed in flowing rivers and streams you have no control over — but you can dramatically reduce how many bite you in your yard. Personal protection is the first line: wear light-coloured, long-sleeved clothing, skip scented products, and use a DEET or picaridin repellent. On the property, trim back the shaded shrubs, hedges, and dense vegetation where black flies rest between feeding, and schedule a professional barrier spray for mid-to-late May, when emergence peaks. The residual treatment coats the exact leaf undersides and treelines black flies use for cover, so the ones that fly in from nearby waterways do not linger or feed in numbers.',
   },
 ]
 
@@ -167,6 +179,30 @@ export default function BlackFliesOntarioPage() {
         </ul>
         <p>Black flies in Ontario are not known to transmit human pathogens, so the medical risk is low. The quality-of-life impact, however, is severe. A single bad black fly week can drive families indoors for weeks, and the bites themselves can take longer to heal than mosquito bites. For pets — particularly dogs with thin ear leather and exposed bellies — black fly bites can cause hot, painful welts that linger.</p>
 
+        <h2>Black Fly Bite: Why They Hurt &amp; How to Treat Them</h2>
+        <p>A black fly bite hurts in a way a mosquito bite usually does not. Because the fly cuts the skin rather than piercing it, you often feel a sharp pinch the moment it bites — and the small wound tends to bleed for a moment afterward. The fly&rsquo;s saliva contains anticoagulants and mild anaesthetic compounds that keep the blood flowing and mask the bite, which is exactly why the after-effects — swelling, redness, and itching — can be more intense and longer-lasting than a mosquito welt.</p>
+
+        <h3>First Aid for a Black Fly Bite</h3>
+        <p>Prompt care keeps a black fly bite from turning into a bigger problem. The basics:</p>
+        <ul>
+          <li><strong>Wash it right away.</strong> Clean the bite with soap and cool water to remove residual saliva and lower the infection risk from the open wound.</li>
+          <li><strong>Cool the swelling.</strong> Apply a cold compress or ice wrapped in cloth for 10&ndash;15 minutes to bring down inflammation.</li>
+          <li><strong>Calm the itch.</strong> An after-bite itch relief product, hydrocortisone cream, or an oral antihistamine can take the edge off the itch and swelling. <BuyLink search="after bite itch relief">Check after-bite itch relief on Amazon.ca →</BuyLink></li>
+          <li><strong>Do not scratch.</strong> Scratching reopens the wound and is the main way black fly bites become infected. Keep it covered if you cannot leave it alone.</li>
+        </ul>
+
+        <h3>Signs of Infection or Allergy — When to See a Doctor</h3>
+        <p>Most black fly bites are harmless and heal on their own, but watch for these warning signs and seek medical care if they appear:</p>
+        <ul>
+          <li><strong>Spreading redness, warmth, or pus</strong> around the bite — signs of a secondary bacterial infection.</li>
+          <li><strong>Black fly fever</strong> after multiple bites — fever, headache, swollen or tender lymph nodes, and nausea.</li>
+          <li><strong>A large, hot, hard swelling</strong> that keeps growing over 24&ndash;48 hours rather than settling.</li>
+          <li><strong>Any sign of a severe allergic reaction</strong> — hives spreading across the body, facial or throat swelling, or difficulty breathing. This is a medical emergency; call for help immediately.</li>
+        </ul>
+
+        <h3>How Long a Black Fly Bite Takes to Heal</h3>
+        <p>A typical black fly bite is itchiest 24&ndash;48 hours after it happens and settles within a few days, but it can take a week or more to fully heal — longer than a mosquito bite, and often leaving a small bruise-like mark or scab. Keeping the wound clean, cool, and unscratched is the single biggest factor in how fast it clears and whether it scars.</p>
+
         <h2>Where Black Flies Hide on Your Property</h2>
         <p>Black flies do not breed in your yard, but they rest in your yard between feeding bouts. They prefer:</p>
         <ul>
@@ -195,6 +231,26 @@ export default function BlackFliesOntarioPage() {
           <li><strong>Eliminate yard rest sites.</strong> Trim back overgrown shrubs and dense vegetation along the property edge.</li>
           <li><strong>Schedule a barrier spray.</strong> A professional treatment in mid-May provides the strongest coverage during the worst three weeks.</li>
         </ul>
+
+        <h2>How to Get Rid of Black Flies</h2>
+        <p>Getting rid of black flies works differently than getting rid of mosquitoes, and understanding why comes down to one thing: <strong>where they breed.</strong> Mosquitoes lay eggs in standing water, so you can knock their numbers down by dumping saucers, cleaning gutters, and draining anything that holds water. Black flies do the opposite — their larvae attach to rocks and vegetation in <strong>clean, fast-flowing rivers and streams</strong>, feeding on particles in the current. You cannot drain a river, and there is no yard chore that removes their breeding site. That means &ldquo;getting rid of black flies&rdquo; is really about protecting yourself and making your yard an unwelcome place for them to rest and feed.</p>
+
+        <h3>1. Personal Protection First</h3>
+        <ul>
+          <li><strong>Cover up and go light.</strong> Long sleeves, pants, and a hat block most bites, and black flies are far less drawn to light grey, beige, and white than to dark blue, brown, and black.</li>
+          <li><strong>Use repellent.</strong> DEET or picaridin on exposed skin, and permethrin-treated clothing for long hours near waterways during the May&ndash;June emergence.</li>
+          <li><strong>Skip the scents.</strong> Floral perfumes, scented sunscreens, and hair products all attract black flies.</li>
+        </ul>
+
+        <h3>2. Make Your Yard Less Hospitable</h3>
+        <ul>
+          <li><strong>Cut the rest sites.</strong> Trim overgrown shrubs, hedges, and dense vegetation along property edges where black flies shelter between feeding bouts.</li>
+          <li><strong>Open up shaded, damp corners.</strong> The cool, sheltered pockets near fences and structures are exactly where they linger.</li>
+          <li><strong>Time it to the season.</strong> The pressure is heaviest in late May and June, so your yard prep and any treatment matter most in that window.</li>
+        </ul>
+
+        <h3>3. Treat the Rest Zones with Barrier Spray</h3>
+        <p>Because you cannot touch the breeding source, the most effective control is a professional barrier spray applied to the surfaces black flies use for cover — leaf undersides, treelines, fences, and ornamental beds. It will not stop every fly drifting in from a distant river, but it dramatically reduces the population that settles, feeds, and bites in your yard. A first treatment timed for mid-to-late May delivers peak coverage right as emergence spikes.</p>
 
         <h2>How BuzzSkito Helps With Black Flies</h2>
         <p>Our standard mosquito barrier spray service includes black fly control as part of the treatment. We focus the application on the resting habitats both insects share — under shrub canopies, along fence lines, in dense ornamental beds, on the underside of broad leaves, and across the lawn-bed transition zone. The Health Canada–approved residual formula remains active for up to 30 days, keeping pressure low through the peak black fly window even with rain events in between.</p>
