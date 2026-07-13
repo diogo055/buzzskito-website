@@ -901,6 +901,111 @@ export const NEW_BLOGS_14 = [
   },
 ]
 
+// ── Wave 15 — competitor-gap + AI-citation pages (Jul 13 2026) ────────────────
+// High-volume Canadian keywords competitors ranked for and we didn't exist for,
+// plus low-KD AI-Overview citation bait (answer-first + FAQ schema + authority
+// citations). no-see-ums / deer flies / june bugs / mosquito facts hub, etc.
+export const NEW_BLOGS_15 = [
+  {
+    slug: 'no-see-ums-biting-midges-ontario',
+    title: 'No-See-Ums & Biting Midges in Ontario: Bites, Screens & Control',
+    excerpt: 'Why no-see-ums slip through screens, how their bites differ from mosquito bites, when they swarm in Ontario, and how to stop them.',
+    date: '2026-07-13',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'deer-flies-horse-flies-ontario',
+    title: 'Deer Flies vs Horse Flies in Ontario: ID, Bites & Control',
+    excerpt: 'Tell deer flies from horse flies, learn why they dive-bomb your head, treat the painful bite, and control biting flies in your Ontario yard.',
+    date: '2026-07-13',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'june-bugs-ontario',
+    title: 'June Bugs Ontario: ID, Why They Swarm Lights & How to Stop Them',
+    excerpt: 'June beetles are harmless to people but their grubs wreck lawns. How to ID them, why they swarm porch lights, and how to keep them out of your yard.',
+    date: '2026-07-13',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'can-ticks-fly-jump-swim',
+    title: 'Can Ticks Fly, Jump, or Swim? (Myths vs Facts, Ontario)',
+    excerpt: 'No — ticks cannot fly, jump, or swim. They quest from grass to grab a host, and survive underwater for days without drowning. Myths vs facts.',
+    date: '2026-07-13',
+    category: 'tick' as const,
+  },
+  {
+    slug: 'male-vs-female-mosquito',
+    title: 'Male vs Female Mosquito: Only Females Bite (Here Is Why)',
+    excerpt: 'Only female mosquitoes bite; males feed on nectar. Compare male vs female by diet, bite, lifespan and antennae — and why it matters for control.',
+    date: '2026-07-13',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'what-eats-ticks-and-mosquitoes',
+    title: 'What Eats Ticks and Mosquitoes? Predators Ranked (Ontario)',
+    excerpt: 'Dragonflies, bats, opossums, guinea fowl, frogs, fish and nematodes ranked by how well each really controls mosquitoes and ticks in your yard.',
+    date: '2026-07-13',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'mosquito-facts',
+    title: 'Mosquito Facts: How Long They Live, What They Eat & More',
+    excerpt: 'Straight answers to the mosquito questions people ask most: how long they live, whether they sleep, if males bite, and what mosquitoes really eat.',
+    date: '2026-07-13',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'thermacell-refills-recharge-canada',
+    title: 'Thermacell Refills & Recharge Canada: Costs & Compatibility',
+    excerpt: 'Which Thermacell refill fits the E55, E90, Patio Shield or Liv, what it costs per hour, where to buy in Canada, and how to recharge and replace.',
+    date: '2026-07-13',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'baby-ticks-nymphs-seed-ticks-ontario',
+    title: 'Baby Ticks: Nymphs & Seed Ticks in Ontario (Size + ID)',
+    excerpt: 'Baby ticks explained: seed-tick larvae (~0.5 mm, six legs) vs nymphs (~1-2 mm) that cause most Lyme in Ontario — size chart, ID, and safe removal.',
+    date: '2026-07-13',
+    category: 'tick' as const,
+  },
+  {
+    slug: 'best-indoor-fly-mosquito-trap-canada',
+    title: "Best Indoor Fly & Mosquito Trap Canada 2026 (Buyer's Guide)",
+    excerpt: 'Plug-in UV, fan-suction, and glue-board indoor traps compared by room size and refill cost — plus the honest truth about how well any catch mosquitoes.',
+    date: '2026-07-13',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'smells-mosquitoes-hate',
+    title: 'Smells Mosquitoes Hate: 6 Scents That Actually Repel',
+    excerpt: 'Citronella, lemongrass, peppermint, lavender, lemon eucalyptus and garlic — how well each scent repels mosquitoes and how long it lasts.',
+    date: '2026-07-13',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'where-do-mosquitoes-go-in-winter-ontario',
+    title: 'Where Do Mosquitoes Go in Winter? (Ontario Explained)',
+    excerpt: 'Mosquitoes do not die in winter — they overwinter as frost-hardy eggs, hibernating females, or dormant larvae, then return in May.',
+    date: '2026-07-13',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'blacklegged-deer-tick-ontario',
+    title: 'Blacklegged (Deer) Tick Ontario: ID, Range & Lyme Risk',
+    excerpt: 'The blacklegged (deer) tick, Ixodes scapularis, is Ontario\'s only Lyme vector. Identify it by life stage, know the hot-spots, remove it safely.',
+    date: '2026-07-13',
+    category: 'tick' as const,
+  },
+  {
+    slug: 'how-to-do-a-tick-check',
+    title: 'How to Do a Tick Check: Full-Body Checklist (Ontario)',
+    excerpt: 'A step-by-step full-body tick check: where ticks hide, how to check kids and pets, your after-hike routine, and what to do if you find one.',
+    date: '2026-07-13',
+    category: 'tick' as const,
+  },
+]
+
 // ── Season helpers ─────────────────────────────────────────────────────────────
 
 export const PEAK_SEASON = 'May through July'
