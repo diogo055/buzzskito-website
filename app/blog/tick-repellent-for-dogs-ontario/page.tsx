@@ -2,11 +2,13 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import AuthorByline from '@/components/AuthorByline'
+import BuyLink from '@/components/BuyLink'
+import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 
 const SLUG = 'tick-repellent-for-dogs-ontario'
 const DATE = '2026-07-09'
-const UPDATED = '2026-07-09'
+const UPDATED = '2026-07-12'
 const TITLE = 'Tick Repellent for Dogs: What Actually Works (Ontario 2026)'
 
 const FAQS = [
@@ -76,7 +78,10 @@ export default function TickRepellentForDogsPage() {
       {/* Quick Answer — AI-extraction block */}
       <section className="bg-amber-50 border-y-4 border-amber-300 py-8 px-4">
         <div className="max-w-4xl mx-auto">
-          <p className="text-xs font-extrabold text-amber-700 uppercase tracking-wider mb-2">Quick Answer</p>
+          <div className="flex flex-wrap items-center gap-3 mb-2">
+            <p className="text-xs font-extrabold text-amber-700 uppercase tracking-wider">Quick Answer</p>
+            <span className="text-xs font-semibold text-amber-800 bg-amber-100 border border-amber-300 rounded-full px-2.5 py-0.5">Updated July 2026</span>
+          </div>
           <h2 className="text-xl font-extrabold text-brand-900 mb-3">What is the best tick repellent for dogs?</h2>
           <p className="speakable text-base text-gray-800 leading-relaxed">
             <strong>The most effective tick protection for a dog in Ontario is a vet-prescribed preventative &mdash; an oral isoxazoline (NexGard, Simparica, Bravecto, Credelio) that kills attached ticks within 8&ndash;24 hours, or a topical (K9 Advantix II) that repels ticks before they bite.</strong> Only topicals genuinely repel; orals kill after attachment. Natural repellents such as cedarwood oil offer brief, partial protection and are not a substitute in a Lyme-endemic region. Because most dogs pick up ticks in their own backyard, the layer owners most often miss is treating the yard itself: ticks wait in lawn edges, leaf litter, and fence lines, and a professional tick barrier spray removes them at the source. BuzzSkito treats yards across the Greater Toronto Area from $99. Always confirm any product with your veterinarian before use.
@@ -88,8 +93,9 @@ export default function TickRepellentForDogsPage() {
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">Dog Tick Preventatives Compared</h2>
-          <div className="rounded-xl border border-gray-200 overflow-hidden">
-            <table className="w-full text-sm">
+          <AffiliateDisclosure />
+          <div className="rounded-xl border border-gray-200 overflow-x-auto">
+            <table className="w-full text-sm min-w-[720px]">
               <thead className="bg-brand-50">
                 <tr>
                   <th className="px-3 py-2 text-left">Product type</th>
@@ -97,30 +103,116 @@ export default function TickRepellentForDogsPage() {
                   <th className="px-3 py-2 text-left">Repels or kills?</th>
                   <th className="px-3 py-2 text-left">Speed</th>
                   <th className="px-3 py-2 text-left">Lasts</th>
+                  <th className="px-3 py-2 text-left">Where to get it</th>
                 </tr>
               </thead>
               <tbody>
                 {[
-                  ['Oral isoxazoline', 'NexGard, Simparica, Credelio', 'Kills after attachment', '8–24 hrs', '1 month'],
-                  ['Oral, long-acting', 'Bravecto chew', 'Kills after attachment', '~12 hrs', '12 weeks'],
-                  ['Topical repellent', 'K9 Advantix II', 'Repels + kills on contact', 'Contact', '1 month'],
-                  ['Topical, kill-only', 'Frontline Plus', 'Kills after contact', '24–48 hrs', '1 month'],
-                  ['Tick collar', 'Seresto', 'Repels + kills', 'Contact', 'Up to 8 months'],
-                  ['Natural oils', 'Cedarwood, lemon eucalyptus', 'Weak, brief repellence', 'Hours', 'Hours'],
-                  ['Yard barrier spray', 'Professional treatment', 'Removes ticks at source', 'Same day', 'Up to 30 days'],
-                ].map(([type, ex, mode, speed, lasts]) => (
-                  <tr key={type} className="border-t border-gray-100">
-                    <td className="px-3 py-2 font-semibold text-brand-800">{type}</td>
-                    <td className="px-3 py-2 text-gray-700">{ex}</td>
-                    <td className="px-3 py-2 text-gray-700">{mode}</td>
-                    <td className="px-3 py-2 text-gray-700">{speed}</td>
-                    <td className="px-3 py-2 text-gray-700">{lasts}</td>
+                  {
+                    type: 'Oral isoxazoline',
+                    ex: 'NexGard, Simparica, Credelio',
+                    mode: 'Kills after attachment',
+                    speed: '8–24 hrs',
+                    lasts: '1 month',
+                    where: <span className="text-gray-500">Prescription — see your vet</span>,
+                  },
+                  {
+                    type: 'Oral, long-acting',
+                    ex: 'Bravecto chew',
+                    mode: 'Kills after attachment',
+                    speed: '~12 hrs',
+                    lasts: '12 weeks',
+                    where: <span className="text-gray-500">Prescription — see your vet</span>,
+                  },
+                  {
+                    type: 'Topical repellent',
+                    ex: 'K9 Advantix II',
+                    mode: 'Repels + kills on contact',
+                    speed: 'Contact',
+                    lasts: '1 month',
+                    where: <BuyLink search="K9 Advantix II for dogs">Check price on Amazon.ca →</BuyLink>,
+                  },
+                  {
+                    type: 'Topical, kill-only',
+                    ex: 'Frontline Plus',
+                    mode: 'Kills after contact',
+                    speed: '24–48 hrs',
+                    lasts: '1 month',
+                    where: <BuyLink search="Frontline Plus for dogs">Check price on Amazon.ca →</BuyLink>,
+                  },
+                  {
+                    type: 'Tick collar',
+                    ex: 'Seresto',
+                    mode: 'Repels + kills',
+                    speed: 'Contact',
+                    lasts: 'Up to 8 months',
+                    where: <BuyLink search="Seresto tick collar for dogs">Check price on Amazon.ca →</BuyLink>,
+                  },
+                  {
+                    type: 'Removal tool',
+                    ex: 'Fine-tip tweezers, tick hook',
+                    mode: 'Removes an attached tick',
+                    speed: 'Instant',
+                    lasts: 'Reusable',
+                    where: <BuyLink search="tick removal tool tweezers for dogs">Check tick-removal tools on Amazon.ca →</BuyLink>,
+                  },
+                  {
+                    type: 'Natural oils',
+                    ex: 'Cedarwood, lemon eucalyptus',
+                    mode: 'Weak, brief repellence',
+                    speed: 'Hours',
+                    lasts: 'Hours',
+                    where: <span className="text-gray-500">Vet-guided only</span>,
+                  },
+                  {
+                    type: 'Yard barrier spray',
+                    ex: 'Professional treatment',
+                    mode: 'Removes ticks at source',
+                    speed: 'Same day',
+                    lasts: 'Up to 30 days',
+                    where: <Link href="/tick-control" className="font-semibold text-brand-700 hover:text-brand-500">BuzzSkito tick control →</Link>,
+                  },
+                ].map((row) => (
+                  <tr key={row.type} className="border-t border-gray-100">
+                    <td className="px-3 py-2 font-semibold text-brand-800">{row.type}</td>
+                    <td className="px-3 py-2 text-gray-700">{row.ex}</td>
+                    <td className="px-3 py-2 text-gray-700">{row.mode}</td>
+                    <td className="px-3 py-2 text-gray-700">{row.speed}</td>
+                    <td className="px-3 py-2 text-gray-700">{row.lasts}</td>
+                    <td className="px-3 py-2 text-gray-700">{row.where}</td>
                   </tr>
                 ))}
               </tbody>
             </table>
           </div>
           <p className="text-xs text-gray-500 mt-3">Product names are listed for identification only. Dosing depends on your dog&rsquo;s weight, age, and health &mdash; always consult your veterinarian before starting or switching a preventative.</p>
+
+          {/* What NOT to use — safety table */}
+          <h2 className="text-xl font-extrabold text-brand-900 mt-10 mb-4">What NOT to Use on Dogs</h2>
+          <div className="rounded-xl border-2 border-red-200 overflow-x-auto">
+            <table className="w-full text-sm min-w-[560px]">
+              <thead className="bg-red-50">
+                <tr>
+                  <th className="px-3 py-2 text-left text-red-900">Avoid</th>
+                  <th className="px-3 py-2 text-left text-red-900">Why</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  ['DEET (human bug spray)', 'Toxic to dogs — can cause vomiting, tremors, and seizures. Never apply human repellent to a dog.'],
+                  ['Permethrin on cats', 'Safe on dogs at the label dose, but frequently FATAL to cats. Never use a dog product on a cat, or on a dog that lives with and grooms a cat.'],
+                  ['Tea tree / pennyroyal / wintergreen oil', 'Essential oils that are toxic to dogs even in small amounts.'],
+                  ['Garlic & brewer’s yeast', 'No proven repellent effect, and garlic is toxic to dogs in quantity.'],
+                ].map(([avoid, why]) => (
+                  <tr key={avoid} className="border-t border-red-100">
+                    <td className="px-3 py-2 font-semibold text-red-800 align-top">{avoid}</td>
+                    <td className="px-3 py-2 text-gray-700">{why}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-gray-500 mt-3">Topical tick products are regulated pesticides in Canada &mdash; see <a href="https://www.canada.ca/en/health-canada/services/consumer-product-safety/pesticides-pest-management.html" target="_blank" rel="noopener">Health Canada&rsquo;s pest management guidance</a> and always follow the label for your dog&rsquo;s species and weight.</p>
         </div>
       </section>
 
@@ -133,7 +225,7 @@ export default function TickRepellentForDogsPage() {
           <p>That sounds like bad news but it is not, because of how transmission works: a blacklegged tick usually needs to be <strong>attached for 24 to 48 hours</strong> before it passes the Lyme bacterium. A preventative that kills within 24 hours therefore beats the clock in most cases. And if you find a tick on your dog right now, the correct move is not medication at all &mdash; it is <strong>immediate mechanical removal</strong> with fine-tipped tweezers or a tick tool, gripping at skin level and pulling straight up with steady pressure.</p>
 
           <h2>Do Dog Ticks Carry Lyme Disease?</h2>
-          <p>This is where the naming confuses people. The <strong>American dog tick does not transmit Lyme disease</strong>. Lyme is carried by the <strong>blacklegged tick (deer tick)</strong> &mdash; which, despite the name, bites dogs constantly. Roughly <strong>10&ndash;30% of blacklegged ticks in southern Ontario</strong> carry <em>Borrelia burgdorferi</em>, the Lyme bacterium.</p>
+          <p>This is where the naming confuses people. The <strong>American dog tick does not transmit Lyme disease</strong>. Lyme is carried by the <strong>blacklegged tick (deer tick)</strong> &mdash; which, despite the name, bites dogs constantly. Roughly <strong>10&ndash;30% of blacklegged ticks in southern Ontario</strong> carry <em>Borrelia burgdorferi</em>, the Lyme bacterium, according to the <a href="https://www.canada.ca/en/public-health/services/diseases/lyme-disease.html" target="_blank" rel="noopener">Government of Canada&rsquo;s Lyme disease surveillance</a>.</p>
           <p>So the risk depends entirely on the species you pulled off. A small, plain, sesame-seed-sized, reddish-black tick is a blacklegged tick and warrants watching for symptoms. A larger, apple-seed-sized tick with mottled grey-brown markings on its back is an American dog tick and carries low disease risk in Canada. Our <Link href="/blog/deer-tick-vs-dog-tick-canada">deer tick vs dog tick guide</Link> shows the difference side by side.</p>
           <p>Signs of Lyme in dogs appear <strong>2 to 5 months</strong> after the bite and include shifting-leg lameness, lethargy, fever, reduced appetite, and swollen lymph nodes. If you saw a tick and later see these signs, call your veterinarian.</p>
 
@@ -164,6 +256,7 @@ export default function TickRepellentForDogsPage() {
             <li><strong>Yard treatment</strong>, the layer most owners skip. Most dogs meet their ticks in the backyard, not on a hike. <Link href="/tick-control">A professional tick barrier spray</Link> targets the lawn-to-woods edge, leaf litter, fence lines, and shaded borders where ticks quest &mdash; reducing the yard population by 80&ndash;95% through the season. It is safe for pets once dry, roughly 30 minutes after application.</li>
           </ol>
           <p>Mow to 3&ndash;4 inches, clear leaf litter at the edges each spring and fall, and lay a 3-foot wood-chip strip between lawn and any woods or tall grass. Ticks avoid crossing dry, sunny barriers.</p>
+          <p>Ticks are not the only warm-weather pest your dog faces &mdash; mosquitoes carry heartworm, which is why many of the same yard and product measures overlap. See our companion guide on <Link href="/blog/mosquito-repellent-for-dogs-canada">mosquito repellent for dogs in Canada</Link> for the safe options there.</p>
 
           <h2>Related Reading</h2>
           <ul>
@@ -172,7 +265,14 @@ export default function TickRepellentForDogsPage() {
             <li><Link href="/blog/tick-bite-on-dog-symptoms">Tick Bite on a Dog: Symptoms to Watch</Link></li>
             <li><Link href="/blog/what-does-tick-look-like-on-dog">What a Tick Looks Like on a Dog</Link></li>
             <li><Link href="/blog/deer-tick-vs-dog-tick-canada">Deer Tick vs Dog Tick</Link></li>
+            <li><Link href="/blog/mosquito-repellent-for-dogs-canada">Mosquito Repellent for Dogs in Canada</Link></li>
             <li><Link href="/tick-control">BuzzSkito Tick Control Service</Link></li>
+          </ul>
+
+          <h2>Sources &amp; Further Reading</h2>
+          <ul>
+            <li><a href="https://www.canada.ca/en/public-health/services/diseases/lyme-disease.html" target="_blank" rel="noopener">Government of Canada — Lyme disease</a></li>
+            <li><a href="https://www.canada.ca/en/health-canada/services/consumer-product-safety/pesticides-pest-management.html" target="_blank" rel="noopener">Health Canada — Pesticides &amp; pest management</a></li>
           </ul>
 
           <p className="text-xs text-gray-500 mt-8">This article is general information, not veterinary advice. Product choice and dosing must be confirmed with your own veterinarian.</p>

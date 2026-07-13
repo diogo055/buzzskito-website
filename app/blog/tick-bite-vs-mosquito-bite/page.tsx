@@ -1,16 +1,19 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
+import BuyLink from '@/components/BuyLink'
+import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { BUSINESS } from '@/lib/constants'
 
 const SLUG = 'tick-bite-vs-mosquito-bite'
 const DATE = '2026-04-07'
+const UPDATED = '2026-07-12'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Tick Bite vs Mosquito Bite | How to Tell',
+  title: 'Tick Bite vs Mosquito Bite: Symptoms & Pictures Compared',
   description:
-    'Tick bite vs mosquito bite — how to tell the difference, symptoms to watch for, and when to see a doctor.',
+    'Tick bite vs mosquito bite — a side-by-side symptom comparison, how to tell the difference, warning signs of Lyme disease, and when to see a doctor. Updated 2026.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -50,10 +53,10 @@ const FAQS = [
 export default function TickBiteVsMosquitoBitePage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: 'Tick Bite vs Mosquito Bite: How to Tell the Difference', description: 'What does a tick bite look like vs a mosquito bite? Symptoms, warning signs, and Lyme disease indicators for Ontario homeowners.', slug: SLUG, datePublished: DATE })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: 'Tick Bite vs Mosquito Bite: How to Tell the Difference', description: 'What does a tick bite look like vs a mosquito bite? Symptoms, warning signs, and Lyme disease indicators for Ontario homeowners.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Tick Bite vs Mosquito Bite', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`)) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`, UPDATED)) }} />
 
       <section className="bg-gradient-to-br from-brand-950 via-brand-900 to-amber-900 text-white py-14 px-4">
         <div className="max-w-3xl mx-auto">
@@ -71,16 +74,56 @@ export default function TickBiteVsMosquitoBitePage() {
           <p className="text-xl text-brand-100 leading-relaxed">
             Both can leave a red bump — but the health risks are very different. Here&apos;s exactly what to look for, when to worry, and what to do next.
           </p>
-          <div className="mt-6 text-brand-300 text-sm">Published April 7, 2026 · 7 min read</div>
+          <div className="mt-6 text-brand-300 text-sm">Published April 7, 2026 · Updated July 2026 · 8 min read</div>
         </div>
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-14 prose-brand">
 
+        <p className="speakable not-prose text-lg leading-relaxed bg-brand-50 border-l-4 border-brand-600 rounded-r-xl px-5 py-4 mb-6 text-brand-950">
+          <strong>Tick bite vs mosquito bite:</strong> a mosquito bite is an itchy, raised welt that appears within minutes and fades in a day or two — the mosquito is long gone. A tick bite is usually painless and the tick stays attached to your skin. The warning sign is a bull&apos;s-eye rash (Lyme disease) appearing 3&ndash;30 days after a tick bite. <span className="text-brand-600 text-sm font-semibold">Updated July 2026.</span>
+        </p>
+
+        <AffiliateDisclosure />
+
         <p>Ontario homeowners who spend time outdoors — especially near conservation areas, ravines, or the Oak Ridges Moraine — should know how to tell a tick bite from a mosquito bite. While both can cause a red, irritated mark on the skin, the implications are very different. Mosquito bites are usually just itchy nuisances. Tick bites carry a small but real risk of Lyme disease, which is now established throughout the Greater Toronto Area and York Region.</p>
 
         <h2>The Key Difference: Mosquitoes Leave, Ticks Stay</h2>
         <p>The single most reliable way to distinguish a tick bite from a mosquito bite is whether the insect is still attached. <strong>Mosquitoes bite and immediately fly away.</strong> You may notice the bite minutes later as an itchy welt, but the mosquito is gone. <strong>Ticks attach and feed for hours or days.</strong> If you find an insect embedded in your skin, it is a tick — not a mosquito. This distinction matters because the sooner you remove a tick, the lower the risk of Lyme disease transmission. Removing a tick within 24 hours of attachment significantly reduces infection risk.</p>
+
+        <h2>Side-by-Side Symptom Comparison</h2>
+        <p>This table compares the two bites symptom by symptom, from the moment of the bite through the following month. Use it to decide whether you&apos;re looking at a harmless mosquito welt or a tick bite that needs watching.</p>
+        <div className="not-prose overflow-x-auto mb-6">
+          <table className="w-full text-sm border-collapse">
+            <thead>
+              <tr className="bg-brand-900 text-white">
+                <th className="p-3 text-left">Symptom / Stage</th>
+                <th className="p-3 text-left">Mosquito Bite</th>
+                <th className="p-3 text-left">Tick Bite</th>
+              </tr>
+            </thead>
+            <tbody>
+              {[
+                ['Onset', 'Within minutes of the bite', 'Often unnoticed — tick found attached'],
+                ['Sensation at the time', 'Mild sting, then itch', 'Painless (saliva contains a numbing agent)'],
+                ['Appearance', 'Round, puffy, pink-to-red welt', 'Small red bump at the attachment point'],
+                ['Itchiness', 'Intense', 'Mild or none'],
+                ['Insect present?', 'No — flies off instantly', 'Yes — embedded, feeds for hours to days'],
+                ['Day 1–2', 'Welt fades and disappears', 'Bump usually fades too'],
+                ['Day 3–30 (watch closely)', 'Nothing further', "Possible expanding bull's-eye rash (erythema migrans)"],
+                ['Systemic symptoms', 'Rare (West Nile Fever)', 'Possible fever, fatigue, headache, joint pain (Lyme)'],
+                ['Ontario disease risk', 'West Nile Virus (rare)', 'Lyme disease via the blacklegged tick'],
+              ].map(([symptom, mosquito, tick]) => (
+                <tr key={symptom} className="border-b border-gray-200 even:bg-gray-50">
+                  <td className="p-3 font-medium text-brand-900">{symptom}</td>
+                  <td className="p-3 text-gray-700">{mosquito}</td>
+                  <td className="p-3 text-gray-700">{tick}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+        <p className="text-sm text-gray-500">Sources: <a href="https://www.cdc.gov/ticks/" target="_blank" rel="noopener" className="text-brand-700 hover:underline">CDC — Ticks</a> and <a href="https://www.publichealthontario.ca/" target="_blank" rel="noopener" className="text-brand-700 hover:underline">Public Health Ontario</a>. This article is educational and not a substitute for medical advice.</p>
 
         <h2>What a Mosquito Bite Looks Like</h2>
         <p>A typical mosquito bite:</p>
@@ -92,6 +135,8 @@ export default function TickBiteVsMosquitoBitePage() {
           <li>May be larger and more inflamed in people with mosquito saliva sensitivities</li>
         </ul>
         <p>In Ontario, mosquito bites carry a small risk of <strong>West Nile Virus</strong>, monitored annually by Toronto Public Health and Peel Region Health. Most infected people have no symptoms. Rarely, West Nile Fever develops: headache, body aches, joint pain, rash, and fatigue. Seek medical attention if you develop these symptoms after mosquito exposure.</p>
+        <p>For the itch itself, a cool compress and an over-the-counter anti-itch cream (hydrocortisone or an antihistamine gel) usually settle a mosquito welt within a day.</p>
+        <p><BuyLink search="anti itch bite relief">Check anti-itch bite relief on Amazon.ca →</BuyLink></p>
 
         <h2>What a Tick Bite Looks Like</h2>
         <p>While the tick is attached, the bite is often <strong>painless</strong> — ticks secrete a numbing compound in their saliva that prevents you from feeling them. This is why tick checks after being outdoors are important: you may never feel the bite.</p>
@@ -112,7 +157,11 @@ export default function TickBiteVsMosquitoBitePage() {
           <li>Develops 3 to 30 days after the bite</li>
           <li>Can appear anywhere on the body — not just the bite site</li>
         </ul>
-        <p><strong>If you develop a bull&apos;s-eye rash, see a doctor immediately.</strong> Tell them you had a tick bite or were in tick habitat. Early Lyme disease is treated effectively with antibiotics. Untreated, it can cause joint pain, cardiac issues, and neurological complications.</p>
+        <p><strong>If you develop a bull&apos;s-eye rash, see a doctor immediately.</strong> Tell them you had a tick bite or were in tick habitat. Early Lyme disease is treated effectively with antibiotics. Untreated, it can cause joint pain, cardiac issues, and neurological complications. <a href="https://www.canada.ca/en/public-health/services/diseases/lyme-disease.html" target="_blank" rel="noopener" className="text-brand-700 hover:underline">The Government of Canada&apos;s Lyme disease guidance</a> confirms that prompt tick removal and early treatment sharply reduce the risk of complications.</p>
+
+        <h2>Removing a Tick Safely (Do This First)</h2>
+        <p>If you find an attached tick, remove it right away — the risk of Lyme transmission rises the longer a blacklegged tick stays attached. Grasp the tick with fine-tipped tweezers as close to the skin as possible and pull straight up with steady, even pressure. Do not twist, crush, or burn it. A dedicated tick-removal tool makes the job cleaner, especially for tiny nymphs. For a full walkthrough and product picks, see our <Link href="/blog/tick-removal-tool-guide" className="text-brand-700 hover:underline">tick removal tool guide</Link>.</p>
+        <p><BuyLink search="tick removal tool tweezers">Check tick-removal tools on Amazon.ca →</BuyLink></p>
 
         <h2>Other Early Lyme Disease Symptoms</h2>
         <p>Even without a visible rash (20–30% of Lyme disease cases do not produce a rash), early Lyme disease can cause:</p>
@@ -169,9 +218,12 @@ export default function TickBiteVsMosquitoBitePage() {
         <h2>How to Protect Your Yard</h2>
         <p>For most GTA homeowners, the highest tick and mosquito exposure happens in their own backyard — not in the woods. Ticks wait on grass blades and vegetation at the edges of your lawn. Mosquitoes rest in shrubs and hedges during the day. Professional barrier spray targets these exact micro-habitats.</p>
         <p>BuzzSkito applies Health Canada–approved formula to all the surfaces on your property where ticks and mosquitoes rest: lawn edges, under-leaf vegetation, garden beds, fence lines, and shrub borders. One treatment provides up to 30 days of protection and kills ticks at all life stages — including nymphs, which are the size of a poppy seed and responsible for most Lyme disease transmission.</p>
+        <p>On your own skin, a repellent with <strong>DEET</strong>, <strong>picaridin (icaridin)</strong>, or <strong>oil of lemon eucalyptus</strong> deters both mosquitoes (Aedes and Culex) and ticks; clothing can also be treated with <strong>permethrin</strong>. Not sure which active to choose? See our comparison: <Link href="/blog/picaridin-vs-deet-canada" className="text-brand-700 hover:underline">picaridin vs DEET in Canada</Link>. All are registered through <a href="https://www.canada.ca/en/health-canada/services/consumer-product-safety/pesticides-pest-management.html" target="_blank" rel="noopener" className="text-brand-700 hover:underline">Health Canada&apos;s Pest Management Regulatory Agency</a>.</p>
         <p>See our full guides for Ontario tick protection:</p>
         <ul>
           <li><Link href="/tick-control" className="text-brand-700 hover:underline">Professional tick control for GTA yards</Link></li>
+          <li><Link href="/blog/tick-removal-tool-guide" className="text-brand-700 hover:underline">Tick Removal Tool Guide: Best Tweezers &amp; Tools</Link></li>
+          <li><Link href="/blog/picaridin-vs-deet-canada" className="text-brand-700 hover:underline">Picaridin vs DEET: Which Repellent Wins in Canada</Link></li>
           <li><Link href="/blog/ultimate-tick-control-guide-ontario" className="text-brand-700 hover:underline">Ultimate Tick Control Guide for Ontario Homeowners</Link></li>
           <li><Link href="/blog/lyme-disease-tick-prevention-ontario" className="text-brand-700 hover:underline">Lyme Disease and Tick Prevention in Ontario</Link></li>
         </ul>

@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
+import BuyLink from '@/components/BuyLink'
+import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 
 const SLUG = 'deer-tick-vs-dog-tick-canada'
@@ -84,6 +86,7 @@ export default function DeerTickVsDogTickPage() {
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
           <p className="text-xl text-brand-100 max-w-3xl">The Canadian field guide for telling them apart and knowing which one matters medically.</p>
+          <p className="text-sm text-brand-300 mt-3">Updated July 2026</p>
         </div>
       </section>
 
@@ -149,7 +152,7 @@ export default function DeerTickVsDogTickPage() {
 
           <h2>Which Tick Carries Lyme Disease?</h2>
           <p><strong>The deer tick — also called the blacklegged tick (<em>Ixodes scapularis</em>) — is the only one of these two that carries Lyme disease in Canada.</strong> The American dog tick does not transmit Lyme here. So the practical question &ldquo;which tick carries Lyme?&rdquo; has a simple answer: the small, plain, reddish-black one. About <strong>10–30% of blacklegged ticks in southern Ontario</strong> carry <em>Borrelia burgdorferi</em>, the Lyme bacterium. If a tiny, unpatterned tick bit you, save it and watch for symptoms; if a larger patterned dog tick bit you, Lyme is not the concern.</p>
-          <p>Lyme risk isn&rsquo;t evenly spread across the province. See the public‑health numbers in our <Link href="/blog/lyme-disease-cases-ontario-2026">Ontario Lyme disease case tracker</Link> and check whether you live in a hot zone with our <Link href="/blog/lyme-disease-risk-areas-ontario-2026">Ontario Lyme risk-area map</Link>.</p>
+          <p>Lyme risk isn&rsquo;t evenly spread across the province. See the public‑health numbers in our <Link href="/blog/lyme-disease-cases-ontario-2026">Ontario Lyme disease case tracker</Link> and check whether you live in a hot zone with our <Link href="/blog/lyme-disease-risk-areas-ontario-2026">Ontario Lyme risk-area map</Link>. For the official national picture — transmission, symptoms, and prevention — see the <a href="https://www.canada.ca/en/public-health/services/diseases/lyme-disease.html" target="_blank" rel="noopener noreferrer">Government of Canada Lyme disease resource</a>.</p>
 
           <h2>Deer Tick Identification (Blacklegged Tick Field Marks)</h2>
           <p>For fast, reliable deer tick identification, check four things — and remember that &ldquo;deer tick&rdquo; and &ldquo;blacklegged tick&rdquo; are two names for the same species:</p>
@@ -183,12 +186,16 @@ export default function DeerTickVsDogTickPage() {
           <p>Yards bordering both grassland AND wooded areas (common in the GTA) host both species. Both are controlled by the same yard-spray approach.</p>
 
           <h2>What to Do When You Find Either One</h2>
-          <p>The removal technique is identical for both species. See our complete guides:</p>
+          <p>The removal technique is identical for both species: grasp the tick as close to the skin as possible with fine-tipped tweezers or a purpose-made tick tool, pull straight up with steady pressure, and disinfect the bite. A dedicated removal tool grips the mouthparts more reliably than fingers and reduces the risk of leaving the head behind.</p>
+          <AffiliateDisclosure />
+          <p><BuyLink search="tick removal tool tweezers">Check tick-removal tools on Amazon.ca →</BuyLink></p>
+          <p>For the full walkthrough and product picks, see our complete guides:</p>
           <ul>
             <li><Link href="/blog/how-to-remove-tick-safely">How to Remove a Tick Safely (Humans)</Link></li>
             <li><Link href="/blog/how-to-remove-tick-from-dog-ontario">How to Remove a Tick from a Dog</Link></li>
             <li><Link href="/blog/i-found-tick-on-my-dog-what-to-do">I Found a Tick on My Dog — What to Do</Link></li>
             <li><Link href="/blog/tick-removal-tool-guide">Best Tick Removal Tools 2026</Link></li>
+            <li><Link href="/blog/best-tick-repellent-yard-canada">Best Tick Repellents for Your Yard (Canada)</Link></li>
           </ul>
 
           <h2>Yard Prevention — Same Strategy for Both Species</h2>

@@ -2,6 +2,8 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import AuthorByline from '@/components/AuthorByline'
+import BuyLink from '@/components/BuyLink'
+import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { MOSQUITO_BLOGS, TICK_BLOGS } from '@/lib/constants'
 
@@ -58,6 +60,8 @@ export default function HowToGetRidOfMosquitoesInYardOntarioPage() {
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
         <AuthorByline datePublished={DATE} />
 
+        <AffiliateDisclosure />
+
         <h3>1. Eliminate Every Standing Water Source on Your Property</h3>
         <p>Mosquitoes need standing water to breed — they cannot reproduce without it. The fastest single action you can take is a yard sweep eliminating every container holding water for 48+ hours: birdbaths (change weekly), plant saucers (drill drainage holes), kiddie pools (drain after use), wheelbarrows, buckets, recycling bin lids, garbage can lids, kids&apos; toys, tarps with creases, and old tires. One uncovered birdbath can produce thousands of mosquitoes per week.</p>
 
@@ -65,7 +69,8 @@ export default function HowToGetRidOfMosquitoesInYardOntarioPage() {
         <p>Clogged gutters accumulate organic debris and standing water at the roofline — a hidden breeding site most homeowners never check. Clean once in early May and again in mid-July, plus after major storms. Consider gutter guards if your property has heavy tree cover.</p>
 
         <h3>3. Treat Rain Barrels with BTI Mosquito Dunks</h3>
-        <p>Rain barrels are productive mosquito breeding sites unless treated. BTI (Bacillus thuringiensis israelensis) mosquito dunks are the gold-standard solution — they kill mosquito larvae within 24 hours and are completely safe for fish, pets, beneficial insects, and humans (Health Canada approves BTI even for drinking water reservoirs). One dunk treats up to 100 sq ft of water surface for 30 days.</p>
+        <p>Rain barrels are productive mosquito breeding sites unless treated. BTI (Bacillus thuringiensis israelensis) mosquito dunks are the gold-standard solution &mdash; the widely sold Summit Mosquito Dunks are the reference product. They kill mosquito larvae within 24 hours and are completely safe for fish, pets, beneficial insects, and humans (<a href="https://www.canada.ca/en/health-canada/services/consumer-product-safety/pesticides-pest-management.html" rel="noopener" className="text-brand-700 hover:underline">Health Canada</a> registers BTI as a low-risk larvicide). One dunk treats up to 100 sq ft of water surface for 30 days.</p>
+        <p><BuyLink search="summit mosquito dunks">Check Summit Mosquito Dunks prices on Amazon.ca &rarr;</BuyLink> For dosing, brand comparisons, and safety notes, see our <Link href="/blog/mosquito-dunks-canada-guide" className="text-brand-700 hover:underline">complete guide to mosquito dunks in Canada</Link>.</p>
 
         <h3>4. Treat Your Pool Cover Weekly</h3>
         <p>Active chlorinated pools cannot support mosquito breeding — chlorine kills larvae. But pool COVERS that collect rainwater are major breeding sites. Drain the cover weekly during peak season, or treat with BTI dunks until you can drain it.</p>
@@ -86,7 +91,8 @@ export default function HowToGetRidOfMosquitoesInYardOntarioPage() {
         <p>Mosquitoes rest in tall grass, shaded shrub interiors, and leaf-dense vegetation during the day. Keeping grass at 2–3 inches and pruning interior shrub growth reduces resting habitat. This won&apos;t eliminate mosquitoes, but it makes barrier spray treatments more effective.</p>
 
         <h3>10. Use Personal DEET or Picaridin Repellent for Outdoor Activities</h3>
-        <p>DEET (20–30% concentration) and picaridin (20%) are the most effective personal mosquito repellents in Canada. Apply when spending extended time outdoors, especially at dusk/dawn. Personal repellent doesn&apos;t reduce yard mosquito population — but it prevents bites during outdoor activities.</p>
+        <p>DEET (20–30% concentration) and picaridin (also called icaridin, 20%) are the most effective personal mosquito repellents in Canada. Both are registered by <a href="https://www.canada.ca/en/health-canada/services/consumer-product-safety/pesticides-pest-management.html" rel="noopener" className="text-brand-700 hover:underline">Health Canada</a>. DEET is the longest-studied active; picaridin is odourless, non-greasy, and won&apos;t damage plastics or gear. Apply when spending extended time outdoors, especially at dusk/dawn. Personal repellent doesn&apos;t reduce yard mosquito population — but it prevents bites during outdoor activities.</p>
+        <p><BuyLink search="picaridin insect repellent canada">Check picaridin repellent prices on Amazon.ca &rarr;</BuyLink> Not sure which active to pick? Our <Link href="/blog/picaridin-vs-deet-canada" className="text-brand-700 hover:underline">picaridin vs DEET comparison for Canada</Link> breaks down protection time, safety, and cost.</p>
 
         <h3>11. Check Tree Holes and Catch Basins on Your Lot</h3>
         <p>Old tree holes that collect rainwater are productive breeding sites — fill with sand or expanding foam. Driveway catch basins and yard drains can hold water for weeks; treat with BTI dunks if water persists.</p>

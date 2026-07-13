@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
+import BuyLink from '@/components/BuyLink'
+import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 
 const SLUG = 'american-dog-tick-canada'
@@ -151,15 +153,17 @@ export default function AmericanDogTickPage() {
           </ul>
 
           <h2>What to Do When You Find One</h2>
+          <AffiliateDisclosure />
           <h3>On a human</h3>
           <ol>
-            <li>Use fine-tipped tweezers (or a Tick Twister tool).</li>
+            <li>Use fine-tipped tweezers (or a Tick Twister tool). Because the American dog tick (<em>Dermacentor variabilis</em>) has longer mouthparts than the blacklegged tick, a purpose-built removal tool that slides under the head gives you the cleanest pull. <BuyLink search="tick removal tool tweezers">Check tick-removal tools on Amazon.ca &rarr;</BuyLink></li>
             <li>Grasp the tick at the head, as close to skin as possible — NOT the body.</li>
             <li>Pull straight up with steady pressure. Don&rsquo;t twist or jerk. Tick releases in 5–15 seconds.</li>
             <li>Clean the bite with rubbing alcohol.</li>
             <li>Save the tick in a sealed bag with a damp paper towel.</li>
             <li>Note the date and bite location. Watch for fever, rash, or fatigue over 14 days. See a doctor if anything appears.</li>
           </ol>
+          <p>Not sure which tool to buy? Our <Link href="/blog/tick-removal-tool-guide">tick-removal tool guide</Link> compares fine-tipped tweezers, Tick Twister-style hooks, and tick keys so you can pick the right one before the next bite.</p>
 
           <h3>On a dog</h3>
           <p>Same removal technique. After removal, watch for: lethargy, weakness in rear legs progressing forward (potential tick paralysis), excessive licking at the bite site, fever, swollen lymph nodes. Contact your vet if any appear. See our detailed <Link href="/blog/how-to-remove-tick-from-dog-ontario">tick removal guide for dogs</Link>.</p>

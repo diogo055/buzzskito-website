@@ -86,6 +86,10 @@ export default function PermethrinCanadaPage() {
             <span className="text-white">Permethrin Canada</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
+          <div className="speakable rounded-xl bg-white/10 border border-white/20 p-4 mb-4 max-w-3xl">
+            <p className="text-xs font-extrabold text-amber-300 uppercase tracking-wider mb-1">Is permethrin legal in Canada?</p>
+            <p className="text-base sm:text-lg text-white leading-relaxed">Yes &mdash; permethrin is legal in Canada. Health Canada&rsquo;s PMRA registers low-concentration Sawyer 0.5% clothing spray as a consumer product you can buy at Cabela&rsquo;s, MEC, Canadian Tire and Amazon.ca. Higher-concentration yard/turf concentrate is restricted &mdash; only a licensed Ontario applicator may spray it on your lawn.</p>
+          </div>
           <p className="text-xl text-brand-100 max-w-3xl">Where to buy Sawyer permethrin clothing spray in Canada, why yard-application is restricted by Health Canada, and the licensed Ontario alternative for whole-yard tick and mosquito control.</p>
         </div>
       </section>
@@ -211,6 +215,7 @@ export default function PermethrinCanadaPage() {
           <h2>Why Yard-Application Permethrin Is Restricted in Canada</h2>
           <p>Health Canada&rsquo;s Pest Management Regulatory Agency (PMRA) classifies pesticides into Domestic, Commercial, and Restricted use categories. Higher-concentration permethrin products intended for yard application — the kind you can buy at a US Home Depot — fall under Commercial or Restricted classification in Canada, requiring a licensed applicator.</p>
           <p>This is partly because PMRA is more conservative about residential exposure than the US EPA, and partly because Ontario has additional Cosmetic Pesticides legislation limiting which products can be applied to residential lawns at all. The result: most yard-application permethrin you see online or in US retailers cannot be legally imported and applied to a Canadian residential property.</p>
+          <p className="text-sm text-gray-600">Source: <a href="https://www.canada.ca/en/health-canada/services/consumer-product-safety/pesticides-pest-management.html" rel="noopener" target="_blank" className="text-emerald-700 underline">Health Canada &mdash; Pest Management Regulatory Agency (PMRA), Pesticides and Pest Management</a>.</p>
 
           <h2>Permethrin Concentrate: Dilution &amp; Coverage (Reference)</h2>
           <p>If you have researched permethrin <strong>concentrate</strong> — the 10% to 36.8% liquids sold to US homeowners under names like Permethrin SFR, Martin&rsquo;s 10%, or GordonV — this is what the dilution and coverage math looks like. Important: these concentrates are <strong>not sold to Canadian consumers</strong> and cannot be legally applied to a residential lawn in Canada. The table is a reference only so you understand what a licensed applicator is metering when they treat your yard.</p>

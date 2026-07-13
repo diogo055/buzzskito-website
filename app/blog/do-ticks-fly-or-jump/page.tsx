@@ -2,11 +2,13 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import AuthorByline from '@/components/AuthorByline'
+import BuyLink from '@/components/BuyLink'
+import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 
 const SLUG = 'do-ticks-fly-or-jump'
 const DATE = '2026-07-09'
-const UPDATED = '2026-07-09'
+const UPDATED = '2026-07-12'
 const TITLE = 'Do Ticks Fly or Jump? How They Actually Get on You (Ontario)'
 
 const FAQS = [
@@ -72,10 +74,13 @@ export default function DoTicksFlyOrJumpPage() {
       {/* Quick Answer — AI-extraction block */}
       <section className="bg-amber-50 border-y-4 border-amber-300 py-8 px-4">
         <div className="max-w-4xl mx-auto">
-          <p className="text-xs font-extrabold text-amber-700 uppercase tracking-wider mb-2">Quick Answer</p>
+          <div className="flex items-center justify-between gap-3 mb-2">
+            <p className="text-xs font-extrabold text-amber-700 uppercase tracking-wider">Quick Answer</p>
+            <p className="text-xs font-semibold text-amber-700">Updated July 2026</p>
+          </div>
           <h2 className="text-xl font-extrabold text-brand-900 mb-3">Do ticks fly or jump?</h2>
           <p className="speakable text-base text-gray-800 leading-relaxed">
-            <strong>No — ticks cannot fly and cannot jump. They have no wings and no jumping legs.</strong> Instead, ticks reach a host by &ldquo;questing&rdquo;: they climb to the tip of a grass blade or low plant, hold their front legs out, and grab on when a person or animal brushes past. Ticks quest low — usually below knee height — and crawl upward after attaching, which is why they are picked up in tall grass and at the lawn-to-woods edge, not from the air or from trees. In Ontario, the practical takeaway is simple: because ticks travel only by hitching a ride from vegetation, keeping grass short, clearing leaf litter, and treating yard edges with a barrier spray stops the vast majority of tick contact before it happens.
+            <strong>No — ticks cannot fly or jump. They have no wings and no jumping legs.</strong> Instead, ticks reach a host by climbing to the tips of grass or low plants and waiting to grab a passing host — a behaviour called &ldquo;questing.&rdquo; They hold their front legs out and latch on when a person or animal brushes past. Ticks quest low — usually below knee height — and crawl upward after attaching, which is why they are picked up in tall grass and at the lawn-to-woods edge, not from the air or from trees. In Ontario, the practical takeaway is simple: because ticks travel only by hitching a ride from vegetation, keeping grass short, clearing leaf litter, and treating yard edges with a barrier spray stops the vast majority of tick contact before it happens.
           </p>
         </div>
       </section>
@@ -115,9 +120,44 @@ export default function DoTicksFlyOrJumpPage() {
         </div>
       </section>
 
+      {/* Myth vs Fact table */}
+      <section className="py-10 px-4 bg-brand-50/40">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-xl font-extrabold text-brand-900 mb-4">Tick Movement: Myth vs Fact</h2>
+          <div className="rounded-xl border border-gray-200 overflow-hidden bg-white">
+            <table className="w-full text-sm">
+              <thead className="bg-brand-50">
+                <tr>
+                  <th className="px-3 py-2 text-left">Common myth</th>
+                  <th className="px-3 py-2 text-left">The fact</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  ['&ldquo;Ticks fly onto you.&rdquo;', 'False. Ticks are wingless at every life stage and cannot fly.'],
+                  ['&ldquo;Ticks jump like fleas.&rdquo;', 'False. Ticks have no jumping legs; they climb and wait (questing). Fleas jump — ticks do not.'],
+                  ['&ldquo;Ticks drop or rain down from trees.&rdquo;', 'Almost never. Ticks quest low to the ground; head/neck bites come from ticks that climbed up after boarding at the legs.'],
+                  ['&ldquo;Ticks chase or run at you.&rdquo;', 'False. Ticks are slow crawlers that wait passively on vegetation for a host to brush past.'],
+                  ['&ldquo;Ticks climb to head height to attack.&rdquo;', 'False. Blacklegged and American dog ticks quest at ground-to-knee height (roughly 30–50 cm).'],
+                  ['&ldquo;Once on you, a tick bites instantly.&rdquo;', 'False. A tick wanders minutes to hours before attaching — time enough for a tick check to catch it.'],
+                ].map(([myth, fact]) => (
+                  <tr key={myth} className="border-t border-gray-100 align-top">
+                    <td className="px-3 py-2 font-semibold text-brand-800" dangerouslySetInnerHTML={{ __html: myth }} />
+                    <td className="px-3 py-2 text-gray-700" dangerouslySetInnerHTML={{ __html: fact }} />
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-gray-500 mt-3">Tick behaviour and questing height per the <a href="https://www.cdc.gov/ticks/" target="_blank" rel="noopener" className="underline hover:text-brand-700">U.S. Centers for Disease Control and Prevention (CDC) — Ticks</a>.</p>
+        </div>
+      </section>
+
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
+
+          <AffiliateDisclosure />
 
           <h2>What &ldquo;Questing&rdquo; Actually Looks Like</h2>
           <p>Ticks have exactly one way of getting onto you, and it is not dramatic. A tick climbs to the top of a grass blade, a weed, or a low shrub, anchors itself with its back legs, and stretches its front legs out into the air. This posture is called <strong>questing</strong>. The tick&rsquo;s front legs carry sensors that detect body heat, carbon dioxide from breath, vibration, and shadow. When a warm body brushes the plant, the tick grabs the fur or clothing and climbs aboard. That is the entire mechanism — no flight, no leap, no ambush from above.</p>
@@ -147,6 +187,7 @@ export default function DoTicksFlyOrJumpPage() {
             <li><strong>Discourage mice and deer</strong> — mice are the main host for immature ticks. Store firewood off the ground and don&rsquo;t feed wildlife.</li>
             <li><strong>Professional barrier spray.</strong> <Link href="/tick-control">BuzzSkito&rsquo;s tick barrier treatment</Link> targets the lawn edges, leaf litter, and shaded borders where ticks quest, for 80–95% population reduction through the season.</li>
           </ol>
+          <p>Because a questing tick crawls slowly for minutes to hours before it bites, a tick check after time outdoors usually catches it in time. Keep a fine-tipped removal tool handy so you can grip a tick close to the skin and pull straight out. <BuyLink search="tick removal tool tweezers">Check tick-removal tools on Amazon.ca →</BuyLink></p>
 
           <h2>Related Reading</h2>
           <ul>

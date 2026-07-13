@@ -2,6 +2,8 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import BlogPostCTA from '@/components/BlogPostCTA'
+import BuyLink from '@/components/BuyLink'
+import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { NEW_BLOGS, MOSQUITO_BLOGS } from '@/lib/constants'
 
@@ -41,6 +43,11 @@ const FAQS = [
     question: 'Is the spray safe near our vegetable garden?',
     answer:
       "We avoid spraying directly on vegetable or herb garden plants. For properties with food gardens, we treat the surrounding lawn margins, shrub borders, and lawn edges while buffering a safe zone around the edible plants. The residual on surrounding vegetation is minimal and well below any food-safety threshold, but direct application to plants you'll eat is something we avoid as a standard practice.",
+  },
+  {
+    question: 'What repellent is safe to put on my kids when we leave the yard?',
+    answer:
+      "For personal (on-skin) repellent, picaridin — also called icaridin — is a well-studied, gentler alternative to DEET that Health Canada rates as comparably effective. Health Canada does not recommend DEET for infants under 6 months, while icaridin (picaridin) products may be used on children as young as 6 months. Always follow the concentration and age directions on the specific product label. Yard barrier spray and personal repellent do different jobs: the barrier treatment reduces mosquitoes in your space, and a personal repellent protects skin when you go elsewhere.",
   },
 ]
 
@@ -102,6 +109,13 @@ export default function IsMosquitoSpraySafePage() {
         <h2>Children: What the Research Says</h2>
         <p>Children are not at elevated risk from dried barrier spray at the amounts used in residential applications. Health Canada&rsquo;s PMRA registration process specifically evaluates exposure risks for children, who are treated as a sensitive subpopulation in their risk assessments. The registered label rates and re-entry intervals are set conservatively enough that normal children&rsquo;s activity (playing on the lawn, touching plants, putting hands in mouths) after the re-entry window poses no health risk based on available toxicological data.</p>
         <p>Pregnant women should apply the same common-sense approach as with any chemical product: avoid being present during application, and return to treated areas after the re-entry window has passed.</p>
+
+        <h2>Choosing a Kid-Friendly Personal Repellent</h2>
+        <p>Barrier spray treats your yard; a personal repellent protects skin when you leave it. Many parents are wary of DEET on young children, and there is a gentler, well-studied alternative: <strong>picaridin</strong> (also called icaridin). Health Canada rates picaridin as effective as DEET at comparable concentrations, and it&rsquo;s odourless, non-greasy, and won&rsquo;t damage plastics or clothing — which is why it&rsquo;s our go-to recommendation for a family personal repellent.</p>
+        <p>On age limits, follow the label. Health Canada&rsquo;s guidance is that <strong>DEET is not recommended for infants under 6 months</strong>, and that <strong>icaridin (picaridin) products may be used on children as young as 6 months</strong> — one reason picaridin is often the more practical pick for young families. Always confirm the concentration and age directions on the specific product label. See Health Canada&rsquo;s <a href="https://www.canada.ca/en/health-canada/services/consumer-product-safety/pesticides-pest-management.html" rel="noopener" className="text-brand-700 underline">pesticides and pest management guidance</a> for the official position.</p>
+        <AffiliateDisclosure />
+        <p><BuyLink search="picaridin insect repellent canada">Check picaridin (icaridin) kid-friendly repellents on Amazon.ca →</BuyLink></p>
+        <p>For a fuller breakdown of concentrations, formats, and application tips by age, read our guide to the <Link href="/blog/best-bug-spray-for-kids-canada" className="text-brand-700 underline">best bug spray for kids in Canada</Link>.</p>
 
         <h2>Bees, Pollinators, and Responsible Application</h2>
         <p>We take pollinator protection seriously. Pyrethroids are toxic to bees if they contact wet spray. BuzzSkito addresses this through application technique:</p>

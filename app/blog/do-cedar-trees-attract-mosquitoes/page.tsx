@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
+import BuyLink from '@/components/BuyLink'
+import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { MOSQUITO_BLOGS } from '@/lib/constants'
 
@@ -67,6 +69,8 @@ export default function CedarTreesMosquitoesPage() {
         <p className="text-lg text-gray-600 not-prose border-l-4 border-amber-400 pl-5 py-2 mb-8">
           The short answer: <strong>no &mdash; but there is a catch.</strong> Cedar trees do not attract mosquitoes, and cedar oil actually <em>mildly repels</em> them. The catch is the <em>micro-environment</em> a dense cedar hedge creates: damp, shaded, still air that mosquitoes rest in all day, then pour out of at dusk. So the fix is not ripping out your cedars &mdash; it is managing that habitat. Here is the honest answer, including what is true, what is myth, and what actually matters for mosquito control.
         </p>
+
+        <AffiliateDisclosure />
 
         <h2>Why People Think Cedars Attract Mosquitoes</h2>
         <p>This belief is widespread among GTA homeowners, and it almost always traces back to the same observation: &quot;Whenever I walk past my cedar hedge, I get swarmed by mosquitoes.&quot; That observation is real. The conclusion drawn from it — that the cedar is somehow attracting mosquitoes — is wrong, but the experience is not.</p>
@@ -141,6 +145,7 @@ export default function CedarTreesMosquitoesPage() {
 
         <h3>5. Limit other resting habitat too</h3>
         <p>While you are at it, address the rest of the resting micro-environment on the property: trim back overgrown shrubs, clear leaf litter from garden beds, and check our <Link href="/blog/hidden-mosquito-breeding-spots-backyard" className="text-brand-700 underline">hidden mosquito breeding spots guide</Link> for the standing-water sources that are quietly producing mosquitoes alongside your hedge.</p>
+        <p>For the patio itself &mdash; the spot the mosquitoes head for at dusk once they pour out of the hedge &mdash; a spot repellent device creates a protection zone around outdoor seating without spraying anything on skin. Thermacell units use a heat-activated mat that disperses a pyrethroid repellent (metofluthrin/prallethrin) over a roughly 20-square-metre area, which is useful for a defined seating area on a still evening. <BuyLink search="thermacell mosquito repeller">Check Thermacell patio repellers on Amazon.ca &rarr;</BuyLink> It is a complement to barrier spray, not a replacement &mdash; the device protects the people sitting on the patio, while the barrier spray reduces the population resting in the hedge in the first place.</p>
 
         <h2>Are There Plants That Actually Repel Mosquitoes?</h2>
         <p>Yes — but the effect is small and localized. Several <Link href="/blog/mosquito-repellent-plants-ontario" className="text-brand-700 underline">mosquito-repelling plants for Ontario gardens</Link> release low levels of mosquito-deterrent compounds when their leaves are crushed, brushed, or warmed in direct sunlight:</p>

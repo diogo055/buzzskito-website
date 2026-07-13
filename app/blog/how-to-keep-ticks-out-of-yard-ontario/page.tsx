@@ -2,6 +2,8 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import AuthorByline from '@/components/AuthorByline'
+import BuyLink from '@/components/BuyLink'
+import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { MOSQUITO_BLOGS, TICK_BLOGS } from '@/lib/constants'
 
@@ -58,6 +60,8 @@ export default function HowToKeepTicksOutOfYardOntarioPage() {
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
         <AuthorByline datePublished={DATE} />
 
+        <AffiliateDisclosure />
+
         <h3>1. Create a 3-Foot Wood-Chip or Gravel Barrier Between Lawn and Woods</h3>
         <p>The single most effective tick-prevention measure is a physical barrier between maintained lawn and natural vegetation. Wood chips or gravel at least 3 feet wide breaks the humidity gradient ticks need to survive — they dry out crossing the barrier. This is the CDC-recommended "tick zone" defense.</p>
 
@@ -83,7 +87,9 @@ export default function HowToKeepTicksOutOfYardOntarioPage() {
         <p>Lyme disease bacteria typically require 24–36 hours of tick attachment to transmit. Daily tick checks dramatically reduce infection risk. Focus checks on warm, hidden areas: behind ears, scalp, armpits, groin, behind knees. For dogs: between toes, under collars, around ears.</p>
 
         <h3>9. Use Permethrin-Treated Clothing for High-Risk Outdoor Activity</h3>
-        <p>Permethrin kills ticks on contact. You can buy pre-treated clothing or treat your own outdoor clothes (treatment lasts ~70 washes). Especially valuable for hiking the Bruce Trail, working in conservation-area-adjacent yards, or outdoor events in tick zones.</p>
+        <p>Permethrin kills blacklegged ticks on contact and is the active ingredient recommended for clothing treatment (never apply it to skin). You can buy pre-treated clothing or treat your own outdoor clothes with a spray like Sawyer permethrin &mdash; one application lasts roughly 6 washes on home-treated gear. Especially valuable for hiking the Bruce Trail, working in conservation-area-adjacent yards, or outdoor events in tick zones.</p>
+        <p><BuyLink search="sawyer permethrin clothing spray">Check permethrin clothing sprays on Amazon.ca &rarr;</BuyLink></p>
+        <p>For a full walkthrough of treating clothes and yard gear, see our <Link href="/blog/permethrin-canada-yard-clothing-spray" className="text-brand-700 hover:underline">permethrin for yard &amp; clothing guide (Canada)</Link>, and compare skin-safe options in our <Link href="/blog/best-tick-repellent-yard-canada" className="text-brand-700 hover:underline">best tick repellents for the yard in Canada</Link> roundup.</p>
 
         <h3>10. Know the GTA's High-Risk Zones</h3>
         <p>Public Health Ontario confirms blacklegged tick populations across the GTA. Highest-risk areas: Oak Ridges Moraine (King City, Caledon, Richmond Hill), Rouge National Urban Park (Scarborough, Markham), Niagara Escarpment (Hamilton, Burlington north end), Don Valley and ravine system (Toronto), Bronte Creek Provincial Park (Oakville/Burlington edge), and Boyd Conservation Area (Vaughan/Woodbridge). Properties within 1 km of these areas should treat barrier zones twice yearly minimum.</p>

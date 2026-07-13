@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
+import BuyLink from '@/components/BuyLink'
+import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { TICK_BLOGS } from '@/lib/constants'
 
@@ -70,6 +72,9 @@ export default function AreTicksDangerousPage() {
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
+        <p className="speakable text-lg text-gray-800 not-prose bg-amber-50 border-2 border-amber-300 rounded-2xl p-5 mb-6 leading-relaxed">
+          <strong>Yes &mdash; ticks are dangerous in Ontario.</strong> The blacklegged tick (<em>Ixodes scapularis</em>), now established across the GTA, transmits Lyme disease, Anaplasmosis, Babesiosis, and Powassan virus. Confirmed Canadian Lyme cases have risen more than tenfold in a decade. Remove any attached tick within 24 hours using fine-tipped tweezers or a tick-removal tool, save it for identification, and monitor for symptoms. <span className="text-sm text-gray-500 font-normal">Updated July 2026.</span>
+        </p>
         <p className="text-lg text-gray-600 not-prose border-l-4 border-amber-400 pl-5 py-2 mb-8">
           <strong>Medical disclaimer:</strong> This article provides general public health information about tick risks in Ontario. Always consult a licensed healthcare provider for medical advice. Part of our <Link href={`/blog/${TICK_BLOGS.pillar.slug}`} className="text-brand-700 underline">Ultimate Tick Control Guide for Ontario Homeowners</Link>.
         </p>
@@ -108,6 +113,7 @@ export default function AreTicksDangerousPage() {
           <li>Cases of Anaplasmosis and Babesiosis, while still uncommon, are being detected with increasing frequency</li>
         </ul>
         <p>The risk is not theoretical — people in the GTA are contracting Lyme disease from tick bites acquired in their own backyards, local parks, and neighbourhood trails.</p>
+        <p className="text-sm text-gray-500">Sources: <a href="https://www.canada.ca/en/public-health/services/diseases/lyme-disease.html" target="_blank" rel="noopener" className="text-brand-700 hover:underline">Government of Canada — Lyme disease</a> and <a href="https://www.publichealthontario.ca/" target="_blank" rel="noopener" className="text-brand-700 hover:underline">Public Health Ontario</a>.</p>
 
         <aside aria-label="Professional tick control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
           <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Skip the tick worry entirely</h3>
@@ -172,7 +178,9 @@ export default function AreTicksDangerousPage() {
           <li>Monitor for symptoms for 30 days — especially a bull&apos;s-eye rash, fever, or joint pain</li>
           <li>Consult your doctor if any symptoms develop</li>
         </ul>
-        <p>See: <Link href="/blog/how-to-remove-tick-safely" className="text-brand-700 hover:underline">How to Remove a Tick Safely</Link> | <Link href="/blog/tick-bite-symptoms-what-to-do-ontario" className="text-brand-700 hover:underline">Tick Bite Symptoms & What to Do</Link></p>
+        <p>See: <Link href="/blog/how-to-remove-tick-safely" className="text-brand-700 hover:underline">How to Remove a Tick Safely</Link> | <Link href="/blog/tick-bite-symptoms-what-to-do-ontario" className="text-brand-700 hover:underline">Tick Bite Symptoms &amp; What to Do</Link> | <Link href="/blog/tick-removal-tool-guide" className="text-brand-700 hover:underline">Best Tick-Removal Tools Compared</Link></p>
+        <AffiliateDisclosure />
+        <p className="not-prose text-gray-700">A dedicated tick-removal tool grips the head close to the skin more reliably than household tweezers, reducing the chance of leaving mouthparts behind. See how the options compare in our <Link href="/blog/tick-removal-tool-guide" className="text-brand-700 underline">tick-removal tool guide</Link>, or <BuyLink search="tick removal tool tweezers">check tick-removal tools on Amazon.ca →</BuyLink></p>
 
         <h2>Protecting Pets</h2>
         <p>Dogs are highly susceptible to tick bites and can contract Lyme disease, Anaplasmosis, and Ehrlichiosis. Every GTA dog that spends time outdoors should be on year-round tick prevention medication prescribed by a veterinarian. Professional yard treatment provides an additional layer of protection by reducing the tick population your pets encounter in their own yard.</p>

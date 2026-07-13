@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
+import BuyLink from '@/components/BuyLink'
+import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { NEW_BLOGS_2, TICK_BLOGS } from '@/lib/constants'
 
@@ -69,11 +71,62 @@ export default function TickBiteSymptomsPage() {
           Finding a tick on yourself, your child, or your pet is alarming — but knowing exactly what to do makes all the difference. This step-by-step guide covers everything Ontario homeowners need to know from the moment of discovery to medical follow-up. Part of our <Link href={`/blog/${TICK_BLOGS.pillar.slug}`} className="text-brand-700 underline">Ultimate Tick Control Guide for Ontario</Link>.
         </p>
 
+        <div className="not-prose bg-brand-50 border-l-4 border-brand-500 rounded-r-xl px-5 py-4 mb-8">
+          <p className="text-xs font-bold uppercase tracking-wide text-brand-700 mb-1">Quick answer · Updated July 2026</p>
+          <p className="speakable text-gray-800 leading-relaxed">
+            A fresh tick bite usually looks like a small, firm red bump — much like a mosquito bite — sometimes with the tick still attached. Watch the site for 3–30 days: an expanding red or bull&apos;s-eye rash (erythema migrans) that grows over several days signals possible Lyme disease and needs a doctor.
+          </p>
+        </div>
+
+        <AffiliateDisclosure />
+
+        <h2>Tick Bite vs. Mosquito Bite vs. Spider Bite: How to Tell the Difference</h2>
+        <p>The first thing most people want to know is what the mark actually is. Use this comparison table to tell a tick bite apart from the two things it&apos;s most often confused with. When in doubt, treat an expanding rash after outdoor exposure as a tick bite until a doctor says otherwise.</p>
+        <div className="not-prose overflow-x-auto my-6">
+          <table className="w-full text-sm border-collapse">
+            <thead>
+              <tr className="bg-brand-50 text-left">
+                <th className="border border-gray-200 px-3 py-2 font-semibold text-brand-900"> </th>
+                <th className="border border-gray-200 px-3 py-2 font-semibold text-brand-900">Tick bite</th>
+                <th className="border border-gray-200 px-3 py-2 font-semibold text-brand-900">Mosquito bite</th>
+                <th className="border border-gray-200 px-3 py-2 font-semibold text-brand-900">Spider bite</th>
+              </tr>
+            </thead>
+            <tbody className="align-top text-gray-700">
+              <tr>
+                <td className="border border-gray-200 px-3 py-2 font-semibold">Appearance</td>
+                <td className="border border-gray-200 px-3 py-2">Small firm red bump; tick may still be attached; sometimes a later expanding bull&apos;s-eye ring</td>
+                <td className="border border-gray-200 px-3 py-2">Puffy raised welt with a small central dot; no attached insect</td>
+                <td className="border border-gray-200 px-3 py-2">Often two close puncture marks; may swell, redden or blister</td>
+              </tr>
+              <tr className="bg-gray-50">
+                <td className="border border-gray-200 px-3 py-2 font-semibold">Timing</td>
+                <td className="border border-gray-200 px-3 py-2">Bump right away; bull&apos;s-eye rash appears 3–30 days later</td>
+                <td className="border border-gray-200 px-3 py-2">Reaction within minutes to hours; fades in a few days</td>
+                <td className="border border-gray-200 px-3 py-2">Pain or swelling within minutes to hours</td>
+              </tr>
+              <tr>
+                <td className="border border-gray-200 px-3 py-2 font-semibold">Itch / pain</td>
+                <td className="border border-gray-200 px-3 py-2">Usually painless and not very itchy — easy to miss</td>
+                <td className="border border-gray-200 px-3 py-2">Intensely itchy</td>
+                <td className="border border-gray-200 px-3 py-2">Often painful or stinging</td>
+              </tr>
+              <tr className="bg-gray-50">
+                <td className="border border-gray-200 px-3 py-2 font-semibold">When to worry</td>
+                <td className="border border-gray-200 px-3 py-2">Expanding rash, fever or flu-like symptoms within 30 days — see a doctor</td>
+                <td className="border border-gray-200 px-3 py-2">Rarely serious; watch for signs of infection from scratching</td>
+                <td className="border border-gray-200 px-3 py-2">Spreading redness, ulcer or severe pain — seek care</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p className="text-sm text-gray-500">Source: <a href="https://www.publichealthontario.ca/" target="_blank" rel="noopener" className="text-brand-700 underline">Public Health Ontario</a> and the <a href="https://www.canada.ca/en/public-health/services/diseases/lyme-disease.html" target="_blank" rel="noopener" className="text-brand-700 underline">Government of Canada Lyme disease</a> resources.</p>
+
         <h2>Step 1: Don&apos;t Panic — Act Quickly and Carefully</h2>
         <p>The single most important factor in reducing Lyme disease transmission risk is how quickly you remove the tick. The blacklegged tick (deer tick) that transmits Lyme disease in Ontario generally needs to be attached for 24–36 hours to transmit the bacteria. Immediate, proper removal dramatically reduces your risk.</p>
 
         <h2>Step 2: Remove the Tick Correctly</h2>
-        <p><strong>What you need:</strong> Fine-tipped tweezers (not the wide, blunt kind). A tick removal tool also works well.</p>
+        <p><strong>What you need:</strong> Fine-tipped tweezers (not the wide, blunt kind). A dedicated tick removal tool also works well and makes it easier to grip close to the skin — see our <Link href="/blog/tick-removal-tool-guide" className="text-brand-700 hover:underline">tick removal tool guide</Link> for the options we recommend. <BuyLink search="tick removal tool tweezers">Check tick-removal tools on Amazon.ca →</BuyLink></p>
         <ol>
           <li>Grasp the tick as close to the skin surface as possible with the tweezers.</li>
           <li>Pull upward with steady, even pressure — do not twist or jerk. Twisting can cause the mouthparts to break off and remain in the skin.</li>
@@ -161,13 +214,14 @@ export default function TickBiteSymptomsPage() {
         <ul>
           <li><Link href={`/blog/${TICK_BLOGS.pillar.slug}`} className="text-brand-700 hover:underline">{TICK_BLOGS.pillar.title}</Link></li>
           <li><Link href="/blog/how-to-remove-tick-safely" className="text-brand-700 hover:underline">How to Remove a Tick Safely</Link></li>
+          <li><Link href="/blog/tick-removal-tool-guide" className="text-brand-700 hover:underline">Best Tick Removal Tools (Buyer&apos;s Guide)</Link></li>
           <li><Link href="/blog/lyme-disease-tick-prevention-ontario" className="text-brand-700 hover:underline">Lyme Disease Prevention in Ontario</Link></li>
           <li><Link href="/blog/what-ticks-look-like-ontario" className="text-brand-700 hover:underline">How to Identify Ticks in Ontario</Link></li>
           <li><Link href="/tick-control" className="text-brand-700 hover:underline">View Our Tick Control Services</Link></li>
         </ul>
       </article>
 
-      <CTASection heading="Protect Your Yard Before a Tick Bites" subtext="BuzzSkito professional tick spray kills ticks at all life stages. Two treatments per season provide full protection." />
+      <CTASection heading="Protect Your Yard Before a Tick Bites" subtext="BuzzSkito professional tick spray kills ticks at all life stages. Our tick season program includes 5 treatments for full-season protection." />
     </>
   )
 }

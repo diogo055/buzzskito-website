@@ -1,15 +1,18 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
+import BuyLink from '@/components/BuyLink'
+import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { TICK_BLOGS } from '@/lib/constants'
 
 const POST = TICK_BLOGS.supporting[1]
+const UPDATED = '2026-07-12'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'What Ticks Look Like in Ontario | ID Guide',
+  title: 'What Does a Tick Look Like? Tick ID Guide (2026)',
   description:
-    'Visual guide to Ontario tick species — blacklegged, American dog, and lone star ticks. Nymph vs adult identification.',
+    'What a tick looks like by species and life stage — blacklegged (deer), American dog, and lone star ticks. Size in mm, colour, field marks, and which ticks carry Lyme disease.',
   canonical: `/blog/${POST.slug}`,
   type: 'article',
   publishedTime: POST.date,
@@ -19,6 +22,10 @@ const FAQS = [
   { question: 'How small is a deer tick nymph?', answer: 'A blacklegged tick nymph is approximately 1–1.5 mm — roughly the size of a poppy seed. They are extremely difficult to spot on skin, hair, or clothing, which is why they are responsible for the majority of Lyme disease transmissions in Ontario. Adults are larger (3–5 mm) and somewhat easier to detect.' },
   { question: 'What does a blacklegged tick look like compared to a dog tick?', answer: 'The blacklegged tick (deer tick) is smaller and has a distinctive reddish-orange body with black legs and a black scutum (shield) behind the head on females. The American dog tick is larger, with a mottled brown/cream pattern. After feeding, both species become significantly larger and more round — an engorged blacklegged tick can reach the size of a raisin.' },
   { question: 'Can I tell if a tick is carrying Lyme disease by looking at it?', answer: 'No. You cannot determine whether a tick is infected with Lyme disease or other pathogens by visual inspection alone. If you\'re concerned about a tick bite, contact your healthcare provider. Some provinces offer tick testing services; check with your local public health unit.' },
+  { question: 'What does a tick look like to the naked eye?', answer: 'A tick looks like a small, flat, oval, eight-legged bug — closer to a tiny spider than an insect. Unfed adults are 3–5 mm (sesame-seed size); nymphs are 1–2 mm (poppy-seed size); larvae are under 1 mm with only six legs. After feeding, a tick swells, rounds out, and turns grey-blue, reaching up to 10 mm — about the size of a small raisin or grape. They have no wings and do not jump or fly.' },
+  { question: 'How can I tell a deer tick from a dog tick?', answer: 'Colour, size, and pattern. The blacklegged (deer) tick is small (3–5 mm) with a plain reddish-orange body, a solid black shield, and no markings — it is the main Lyme disease carrier. The American dog tick is larger (5 mm) with an ornamental mottled grey-and-white patterned shield and does not typically carry Lyme. If the tick has decorative markings on its back, it is almost certainly a dog tick. See our deer tick vs dog tick comparison for a full side-by-side.' },
+  { question: 'What is the lone star tick and how do I identify it?', answer: 'The lone star tick (Amblyomma americanum) is reddish-brown, and adult females have a single bright white or silver dot — the "lone star" — in the centre of the back. It is an emerging species in southwestern Ontario and is still rare in the GTA. It does not transmit Lyme disease but is associated with alpha-gal syndrome (a red-meat allergy) and ehrlichiosis.' },
+  { question: 'What tool should I use to remove a tick?', answer: 'Use fine-tipped tweezers or a purpose-built tick-removal tool (a Tick Twister-style hook or a tick key). Grasp the tick at the head, as close to the skin as possible, and pull straight up with steady, even pressure — do not twist, squeeze the body, or use heat, petroleum jelly, or nail polish. A dedicated tool slides under the head and gives the cleanest pull, which matters because a feeding nymph can be smaller than a sesame seed. Our tick-removal tool guide compares the options.' },
 ]
 
 export default function WhatTicksLookLikePage() {
@@ -38,11 +45,17 @@ export default function WhatTicksLookLikePage() {
           </nav>
           <span className="bg-brand-800 text-brand-200 text-xs px-3 py-1 rounded-full mb-4 inline-block">Tick Control</span>
           <h1 className="text-3xl sm:text-4xl font-extrabold mb-4 leading-tight">{POST.title}</h1>
-          <p className="text-brand-300 text-sm">Published {new Date(POST.date).toLocaleDateString('en-CA', { year: 'numeric', month: 'long', day: 'numeric' })} · By BuzzSkito</p>
+          <p className="text-brand-300 text-sm">Published {new Date(POST.date).toLocaleDateString('en-CA', { year: 'numeric', month: 'long', day: 'numeric' })} · Updated July 2026 · By BuzzSkito</p>
         </div>
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
+        <div className="not-prose speakable bg-amber-50 border-y-4 border-amber-300 rounded-2xl px-6 py-5 mb-8">
+          <p className="text-xs font-extrabold text-amber-700 uppercase tracking-wider mb-2">Quick Answer · Updated July 2026</p>
+          <p className="text-base text-gray-800 leading-relaxed">
+            <strong>A tick looks like a small, flat, eight-legged spider — 3–5 mm long (sesame-seed size) before feeding and swelling to 10 mm when engorged.</strong> The blacklegged (deer) tick is reddish-orange with a solid black shield; the American dog tick is larger with an ornamental mottled grey pattern; the lone star tick is reddish-brown with one white dot. Larvae have 6 legs; nymphs and adults have 8.
+          </p>
+        </div>
         <p className="text-lg text-gray-600 not-prose border-l-4 border-amber-400 pl-5 py-2 mb-8">
           Knowing what ticks look like — and how small they can be — is the first step in protecting your family. Part of our <Link href={`/blog/${TICK_BLOGS.pillar.slug}`} className="text-brand-700 underline">Ultimate Tick Control Guide for Ontario Homeowners</Link>.
         </p>
@@ -76,6 +89,36 @@ export default function WhatTicksLookLikePage() {
           <li>Currently rare in the GTA; more common in southwestern Ontario</li>
         </ul>
 
+        <h2>Tick Species Comparison Chart</h2>
+        <p>Use this at-a-glance table to tell the three ticks apart by colour, size, and — most importantly — whether they can transmit Lyme disease. For a deeper side-by-side, see our <Link href="/blog/deer-tick-vs-dog-tick-canada" className="text-brand-700 underline">deer tick vs dog tick comparison</Link>.</p>
+        <div className="not-prose rounded-xl border border-brand-100 overflow-x-auto my-6">
+          <table className="w-full text-sm">
+            <thead>
+              <tr className="bg-brand-50 text-left">
+                <th className="px-4 py-2 font-bold text-brand-900">Species</th>
+                <th className="px-4 py-2 font-bold text-brand-900">Colour &amp; field marks</th>
+                <th className="px-4 py-2 font-bold text-brand-900">Adult unfed size</th>
+                <th className="px-4 py-2 font-bold text-brand-900">Carries Lyme?</th>
+              </tr>
+            </thead>
+            <tbody>
+              {[
+                ['Blacklegged / deer tick (Ixodes scapularis)', 'Reddish-orange body, solid black scutum (shield), black legs, no pattern', '3–5 mm (sesame seed)', 'YES — primary Lyme vector'],
+                ['American dog tick (Dermacentor variabilis)', 'Brown with an ornamental mottled grey/white shield; long visible mouthparts', '5 mm (apple seed)', 'No (RMSF/tularemia, both rare)'],
+                ['Lone star tick (Amblyomma americanum)', 'Reddish-brown; females have one bright white "lone star" dot on the back', '3–4 mm', 'No (alpha-gal syndrome, ehrlichiosis)'],
+              ].map(([sp, marks, size, lyme]) => (
+                <tr key={sp} className="border-t border-brand-100 align-top">
+                  <td className="px-4 py-2 font-semibold text-brand-800">{sp}</td>
+                  <td className="px-4 py-2 text-gray-700">{marks}</td>
+                  <td className="px-4 py-2 text-gray-700">{size}</td>
+                  <td className="px-4 py-2 text-gray-700">{lyme}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+        <p className="text-sm text-gray-500">Species identification and field marks cross-referenced with the <a href="https://www.cdc.gov/ticks/" target="_blank" rel="noopener" className="text-brand-700 underline">CDC tick guide</a> and <a href="https://www.canada.ca/en/public-health/services/diseases/lyme-disease.html" target="_blank" rel="noopener" className="text-brand-700 underline">the Government of Canada&rsquo;s Lyme disease resource</a>.</p>
+
         <h2>Size Comparison: Why Nymphs Are So Dangerous</h2>
         <div className="not-prose bg-brand-50 border border-brand-100 rounded-2xl p-6 my-6">
           <h3 className="font-bold text-brand-900 mb-4 text-base">Blacklegged Tick Size Reference</h3>
@@ -94,6 +137,42 @@ export default function WhatTicksLookLikePage() {
             ))}
           </div>
         </div>
+
+        <h3>Tick Size by Life Stage (in mm)</h3>
+        <p>Ticks grow through four stages, and each looks different. This is why a tick can look like anything from a fleck of dirt to a small grape depending on its age and whether it has fed:</p>
+        <div className="not-prose rounded-xl border border-brand-100 overflow-x-auto my-6">
+          <table className="w-full text-sm">
+            <thead>
+              <tr className="bg-brand-50 text-left">
+                <th className="px-4 py-2 font-bold text-brand-900">Life stage</th>
+                <th className="px-4 py-2 font-bold text-brand-900">Legs</th>
+                <th className="px-4 py-2 font-bold text-brand-900">Size (blacklegged tick)</th>
+                <th className="px-4 py-2 font-bold text-brand-900">Everyday comparison</th>
+              </tr>
+            </thead>
+            <tbody>
+              {[
+                ['Larva', '6', '< 1 mm', 'Period at the end of a sentence'],
+                ['Nymph', '8', '1–2 mm', 'Poppy seed'],
+                ['Adult (unfed)', '8', '3–5 mm', 'Sesame seed'],
+                ['Adult (engorged)', '8', 'Up to 10 mm', 'Small raisin or grape'],
+              ].map(([stage, legs, size, ref]) => (
+                <tr key={stage} className="border-t border-brand-100">
+                  <td className="px-4 py-2 font-semibold text-brand-800">{stage}</td>
+                  <td className="px-4 py-2 text-gray-700">{legs}</td>
+                  <td className="px-4 py-2 text-amber-700 font-semibold">{size}</td>
+                  <td className="px-4 py-2 text-gray-700">{ref}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+        <p className="text-sm text-gray-500">Tip: a six-legged tick is a larva; nymphs and adults have eight legs. Larvae almost never carry Lyme, but nymphs — active in late spring and summer — cause most human infections precisely because they are so tiny.</p>
+
+        <h2>Found a Tick? Have the Right Removal Tool Ready</h2>
+        <AffiliateDisclosure />
+        <p>Because a feeding tick can be smaller than a sesame seed, a purpose-built removal tool that slides under the head gives a far cleaner pull than fingers. Fine-tipped tweezers, Tick Twister-style hooks, and tick keys all work — keep one in your first-aid kit and one in your car. <BuyLink search="tick removal tool tweezers">Check tick-removal tools on Amazon.ca &rarr;</BuyLink></p>
+        <p>Not sure which style to pick? Our <Link href="/blog/tick-removal-tool-guide" className="text-brand-700 underline">tick-removal tool guide</Link> compares fine-tipped tweezers, hooks, and tick keys so you have the right one before the next bite. Then follow our step-by-step <Link href="/blog/how-to-remove-tick-safely" className="text-brand-700 underline">safe tick-removal instructions</Link>.</p>
 
         <h2>Where Ticks Are Found in Ontario Yards</h2>
         <p>Knowing where to look is as important as knowing what to look for. Ticks concentrate at specific microhabitats:</p>
@@ -121,6 +200,8 @@ export default function WhatTicksLookLikePage() {
         <h2>Related Guides</h2>
         <ul>
           <li><Link href={`/blog/${TICK_BLOGS.pillar.slug}`} className="text-brand-700 hover:underline">{TICK_BLOGS.pillar.title}</Link></li>
+          <li><Link href="/blog/deer-tick-vs-dog-tick-canada" className="text-brand-700 hover:underline">Deer Tick vs Dog Tick — Canada Comparison</Link></li>
+          <li><Link href="/blog/tick-removal-tool-guide" className="text-brand-700 hover:underline">Best Tick-Removal Tools Compared</Link></li>
           <li><Link href="/blog/lyme-disease-tick-prevention-ontario" className="text-brand-700 hover:underline">Lyme Disease Prevention in Ontario</Link></li>
           <li><Link href="/blog/how-to-remove-tick-safely" className="text-brand-700 hover:underline">How to Remove a Tick Safely</Link></li>
           <li><Link href="/blog/tick-season-ontario-when-are-ticks-active" className="text-brand-700 hover:underline">When Are Ticks Active in Ontario?</Link></li>

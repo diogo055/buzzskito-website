@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
+import BuyLink from '@/components/BuyLink'
+import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { MOSQUITO_BLOGS } from '@/lib/constants'
 
@@ -116,6 +118,16 @@ export default function MosquitoSeasonPage() {
             <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
           </div>
         </aside>
+
+        <h2>What to Do While You Wait for the Season (and Your First Treatment)</h2>
+        <p>Booked your first barrier spray for early May but still getting bitten on a warm April evening? Or waiting for the truck between treatments? A portable repeller buys you a comfortable patio in the meantime. The most popular option in Canada is the <strong>Thermacell</strong> — a battery or fuel-powered device that creates a roughly 20&nbsp;ft (15&nbsp;sq&nbsp;m) zone of protection around a chair or table without sprays, sticky lotions, or citronella smoke.</p>
+        <p>It won&rsquo;t protect an entire yard the way a professional <Link href="/mosquito-control" className="text-brand-700">barrier treatment</Link> does, but for a single seating area it&rsquo;s the fastest same-day fix while the season warms up.</p>
+
+        <AffiliateDisclosure />
+
+        <p><BuyLink search="thermacell mosquito repeller">Check Thermacell mosquito repeller prices on Amazon.ca →</BuyLink></p>
+
+        <p>Deciding between a Thermacell and other gadgets? Read our full breakdown of the <Link href="/blog/best-mosquito-repellent-device-canada" className="text-brand-700 hover:underline">best mosquito repellent devices in Canada</Link>, and if you&rsquo;ve settled on the brand, our guide to <Link href="/blog/thermacell-canada-where-to-buy" className="text-brand-700 hover:underline">where to buy a Thermacell in Canada</Link> covers models and pricing.</p>
 
         <h2>City-by-City: Which GTA Areas Have the Worst Mosquito Season?</h2>
         <p>Not all GTA locations experience the same mosquito pressure. The most heavily affected areas tend to be:</p>

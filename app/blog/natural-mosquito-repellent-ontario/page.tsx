@@ -47,6 +47,10 @@ const FAQS = [
     answer: 'Mix a base of 2 tbsp witch hazel and 2 tbsp distilled water in a 4 oz glass spray bottle, add 1 tsp fractionated coconut or jojoba oil, then about 30 drops of essential oils — 12 lemon eucalyptus, 8 citronella, 6 lavender, 4 peppermint. Shake before every use and re-apply every 30–60 minutes. Be realistic: even the best DIY blend lasts under an hour and is far weaker than a refined oil-of-lemon-eucalyptus (OLE / PMD) product. Patch-test on your forearm first, and never use raw essential-oil sprays on infants under three or on broken skin.',
   },
   {
+    question: 'Does neem oil repel mosquitoes?',
+    answer: 'Neem oil has mild mosquito-repellent properties, but field trials are inconsistent — protection ranges from under an hour to about two hours depending on concentration and formulation, and neem can irritate sensitive skin. It is a reasonable pinch-hitter but not dependable for a full evening outdoors. For reliable plant-based protection, oil of lemon eucalyptus (OLE / PMD) is far stronger and is the only botanical active the CDC and Health Canada rate comparable to low-concentration DEET, giving about 95% protection for 4–6 hours.',
+  },
+  {
     question: 'Is picaridin a natural mosquito repellent?',
     answer: 'Picaridin is synthetic, but it is modelled on a compound found in black pepper plants and is the leading choice for people who want to avoid DEET. It is odourless, non-greasy, does not damage gear or plastics, and a 20% formula protects for 8–12 hours — far longer than any plant-based repellent. If your goal is "not DEET" rather than "strictly botanical," picaridin is the most reliable pick. See our picaridin vs DEET comparison for the full breakdown.',
   },
@@ -94,6 +98,57 @@ export default function NaturalMosquitoRepellentPage() {
             <p className="text-xs font-bold uppercase tracking-wide text-emerald-700 mb-2">The short answer</p>
             <p className="text-gray-800 leading-relaxed">The most effective natural mosquito repellent is <strong>oil of lemon eucalyptus (OLE / PMD)</strong> — the only plant-derived ingredient Health Canada rates comparable to low-concentration DEET, giving 4–6 hours of protection. <Link href="/blog/picaridin-vs-deet-canada" className="text-emerald-800 underline underline-offset-2">Picaridin</Link>, modelled on a black-pepper compound, is the best-tolerated non-DEET option for all-day wear. Citronella, soybean oil and geraniol work but need re-applying every 1–2 hours. For a whole yard, pair BTI larvicide (Mosquito Dunks) with a patio fan. Homemade essential-oil sprays give 30–60 minutes at best.</p>
           </div>
+
+          <h2>Best Natural Mosquito Repellents, Ranked</h2>
+          <p className="text-sm text-gray-500 mb-3">Updated July 2026</p>
+          <p>If you only remember one thing: not all &ldquo;natural&rdquo; repellents are equal. Ranked by published complete-protection time and real-world reliability, these are the best natural mosquito repellents for an Ontario yard:</p>
+          <ol>
+            <li><strong>Oil of lemon eucalyptus (OLE / PMD)</strong> — the single plant-derived active the <a href="https://www.cdc.gov/mosquitoes/" rel="noopener">U.S. CDC</a> and Health Canada rate on par with low-concentration DEET. About 95% protection for 4&ndash;6 hours. Refined from <em>Eucalyptus citriodora</em>; the active molecule is PMD.</li>
+            <li><strong>Soybean oil</strong> (e.g. Bite Blocker) — the strongest everyday botanical after OLE, giving roughly 1.5 hours of solid protection with a mild scent.</li>
+            <li><strong>Citronella oil</strong> — real but brief. Complete protection lasts only about 20&ndash;60 minutes, so plan on frequent re-application for anything longer than a short outing.</li>
+            <li><strong>Neem oil</strong> — mild and inconsistent in field trials; a usable pinch-hitter, but not dependable for a full evening outside.</li>
+          </ol>
+
+          <h3>Natural Active Efficacy — % Protection &amp; Hours</h3>
+          <div className="not-prose my-6 overflow-x-auto">
+            <table className="w-full min-w-[600px] border-collapse text-sm">
+              <thead>
+                <tr className="border-b-2 border-gray-300 text-left text-gray-900">
+                  <th className="py-2 pr-4 font-bold">Natural active</th>
+                  <th className="py-2 pr-4 font-bold">Source plant</th>
+                  <th className="py-2 pr-4 font-bold">Protection vs. bites</th>
+                  <th className="py-2 font-bold">Hours of protection</th>
+                </tr>
+              </thead>
+              <tbody className="align-top text-gray-700">
+                <tr className="border-b border-gray-200">
+                  <td className="py-3 pr-4 font-semibold">Oil of lemon eucalyptus (OLE / PMD)</td>
+                  <td className="py-3 pr-4"><em>Eucalyptus citriodora</em></td>
+                  <td className="py-3 pr-4">~95% (DEET-comparable)</td>
+                  <td className="py-3">4&ndash;6 hrs</td>
+                </tr>
+                <tr className="border-b border-gray-200">
+                  <td className="py-3 pr-4 font-semibold">Soybean oil</td>
+                  <td className="py-3 pr-4">Soybean</td>
+                  <td className="py-3 pr-4">~90% initial</td>
+                  <td className="py-3">~1.5 hrs</td>
+                </tr>
+                <tr className="border-b border-gray-200">
+                  <td className="py-3 pr-4 font-semibold">Citronella oil</td>
+                  <td className="py-3 pr-4">Citronella grass</td>
+                  <td className="py-3 pr-4">~50%</td>
+                  <td className="py-3">20&ndash;60 min</td>
+                </tr>
+                <tr>
+                  <td className="py-3 pr-4 font-semibold">Neem oil</td>
+                  <td className="py-3 pr-4">Neem tree</td>
+                  <td className="py-3 pr-4">Variable / low</td>
+                  <td className="py-3">1&ndash;2 hrs (inconsistent)</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-sm text-gray-500">Figures reflect published complete-protection-time trials and vary by concentration and formulation. Only oil of lemon eucalyptus (PMD) is recommended by the <a href="https://www.cdc.gov/mosquitoes/" rel="noopener">CDC</a> and registered by the <a href="https://www.epa.gov/insect-repellents" rel="noopener">U.S. EPA</a> (and Health Canada) as comparable to low-concentration DEET; the others need far more frequent re-application. Sources: <a href="https://www.cdc.gov/mosquitoes/" rel="noopener">CDC &mdash; Mosquitoes</a>, <a href="https://www.epa.gov/insect-repellents" rel="noopener">U.S. EPA &mdash; Insect Repellents</a>.</p>
 
           <h2>The Tier System — What Actually Works</h2>
 

@@ -2,6 +2,8 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import BlogPostCTA from '@/components/BlogPostCTA'
+import BuyLink from '@/components/BuyLink'
+import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { MOSQUITO_BLOGS } from '@/lib/constants'
 
@@ -182,11 +184,13 @@ export default function BlackFliesOntarioPage() {
 
         <h2>What Homeowners Can Do (Beyond Treatment)</h2>
         <p>Black fly control is mostly about reducing exposure during peak weeks. A few things help:</p>
+        <AffiliateDisclosure />
         <ul>
           <li><strong>Avoid scented products.</strong> Floral perfumes, scented sunscreens, and hair products attract black flies.</li>
           <li><strong>Wear light colours.</strong> Black flies are strongly attracted to dark blue, brown, and black. Light grey, beige, and white are far less attractive.</li>
           <li><strong>Cover up.</strong> Long sleeves, pants, and a hat block most bites — black flies are notorious for crawling into hairlines and behind ears.</li>
-          <li><strong>Use DEET or picaridin repellent</strong> on exposed skin. Permethrin-treated clothing is also highly effective for outdoor workers.</li>
+          <li><strong>Use DEET or picaridin repellent</strong> on exposed skin. Picaridin (also sold as icaridin) is odourless, non-greasy, and does not damage plastics or gear the way DEET can, which makes it popular for all-day spring wear. <BuyLink search="picaridin insect repellent canada">Check picaridin repellents on Amazon.ca →</BuyLink> See our full <Link href="/blog/picaridin-vs-deet-canada" className="text-brand-700 underline">picaridin vs DEET comparison</Link> to pick the right active.</li>
+          <li><strong>Treat your clothing with permethrin.</strong> Permethrin-treated clothing is highly effective for outdoor workers, hikers, and anyone spending long hours near waterways during the May–June emergence — it kills black flies on contact and lasts through several washes. <BuyLink search="sawyer permethrin clothing spray">Check permethrin clothing spray on Amazon.ca →</BuyLink> Read our <Link href="/blog/permethrin-canada-yard-clothing-spray" className="text-brand-700 underline">permethrin guide for Canada</Link> for safe application.</li>
           <li><strong>Stay away from waterways during peak emergence.</strong> The closer you are to a river or stream in late May and early June, the heavier the pressure.</li>
           <li><strong>Eliminate yard rest sites.</strong> Trim back overgrown shrubs and dense vegetation along the property edge.</li>
           <li><strong>Schedule a barrier spray.</strong> A professional treatment in mid-May provides the strongest coverage during the worst three weeks.</li>
@@ -205,6 +209,8 @@ export default function BlackFliesOntarioPage() {
           <li><Link href="/blog/mosquito-season-gta-when-does-it-start" className="text-brand-700 hover:underline">When Does Mosquito Season Start in the GTA?</Link></li>
           <li><Link href="/blog/mosquito-control-near-water-ravines-gta" className="text-brand-700 hover:underline">Mosquito Control Near Water: Ravines, Ponds &amp; Waterfront Properties</Link></li>
           <li><Link href="/blog/how-to-prevent-mosquitoes-in-your-backyard" className="text-brand-700 hover:underline">12 Ways to Prevent Mosquitoes in Your Backyard</Link></li>
+          <li><Link href="/blog/picaridin-vs-deet-canada" className="text-brand-700 hover:underline">Picaridin vs DEET: Which Repellent Works Best in Canada?</Link></li>
+          <li><Link href="/blog/permethrin-canada-yard-clothing-spray" className="text-brand-700 hover:underline">Permethrin in Canada: Yard &amp; Clothing Spray Guide</Link></li>
           <li><Link href="/toronto-mosquito-control" className="text-brand-700 hover:underline">Toronto Mosquito Control</Link></li>
           <li><Link href="/mosquito-control" className="text-brand-700 hover:underline">BuzzSkito Mosquito Control Services</Link></li>
         </ul>
