@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
+import BuyLink from '@/components/BuyLink'
+import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, faqSchema, blogPostingSchema, speakableSchema, howToSchema } from '@/lib/seo'
 import { BUSINESS } from '@/lib/constants'
 
@@ -81,6 +83,8 @@ export default function TickPreventionYardKidsPage() {
 
       <section className="py-14 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
+
+          <AffiliateDisclosure />
 
           <h2>Why Ontario Backyards Are the #1 Tick Exposure Site for Children</h2>
           <p>Most Ontario families assume the biggest tick risk is on hiking trails. The data says otherwise. Research from Ontario public health agencies consistently finds that <strong>the majority of Lyme disease exposures happen in or immediately adjacent to residential properties</strong> — not on remote trails. For children especially, the backyard is where they spend the most unstructured outdoor time.</p>
@@ -166,6 +170,11 @@ export default function TickPreventionYardKidsPage() {
           </ol>
           <p>Properties with higher exposure — backing onto conservation land, ravines, creek valleys, or with confirmed deer movement — benefit from a third treatment in late June or early July to maintain continuous coverage through peak nymph season. High-risk GTA zones include the Oak Ridges Moraine corridor (Richmond Hill, Vaughan, King City, Caledon), the Humber River valley, Credit River watershed, and any property adjacent to naturalized green space.</p>
 
+          <h2>Personal Repellent: The Second Layer for Kids</h2>
+          <p>Yard treatment lowers the tick population where your children play, but a skin-applied repellent adds a second layer for trips to the park, cottage, or trail. For children, <strong>picaridin (icaridin)</strong> is the pediatric-friendly choice many parents prefer over DEET — Health Canada permits it for children as young as six months, it is odourless, and it will not damage plastics or clothing. Apply it to exposed skin before outdoor play and reapply per the label.</p>
+          <p className="not-prose my-4"><BuyLink search="picaridin insect repellent canada">Check price on Amazon.ca →</BuyLink></p>
+          <p>For a full breakdown of kid-safe options — including lotions versus sprays and the right concentration by age — see our guide to the <Link href="/blog/best-bug-spray-for-kids-canada" className="text-brand-700 hover:underline">best bug spray for kids in Canada</Link>.</p>
+
           <h2>Post-Outdoor Tick Checks for Children</h2>
           <p>Even with a professionally treated yard, teaching children and adults to do tick checks after outdoor time is part of a complete prevention strategy:</p>
           <ul>
@@ -175,6 +184,8 @@ export default function TickPreventionYardKidsPage() {
             <li>Check children and pets before they come inside</li>
           </ul>
           <p>If you find an attached tick, use fine-tipped tweezers to grasp as close to the skin as possible and pull upward with steady, even pressure. Don't twist, squeeze the body, or use heat. After removal, clean the site with rubbing alcohol. Monitor for a bullseye rash (erythema migrans) and fever over the next 30 days — and contact a physician if symptoms develop.</p>
+          <p>A dedicated tick-removal tool or fine-point tweezers kept in the first-aid kit makes clean removal far easier than fumbling with kitchen tweezers, especially on a poppy-seed-sized nymph.</p>
+          <p className="not-prose my-4"><BuyLink search="tick removal tool tweezers">Check price on Amazon.ca →</BuyLink></p>
 
           <h2>Ticks in the GTA: Cities and Communities Most at Risk</h2>
           <p>If you live in any of the following areas, your children face elevated tick exposure and professional yard treatment is strongly recommended before peak nymph season:</p>
@@ -196,6 +207,8 @@ export default function TickPreventionYardKidsPage() {
             <li><Link href="/blog/tick-season-ontario-when-are-ticks-active" className="text-brand-700 hover:underline">When Are Ticks Active in Ontario? Seasonal Activity Calendar</Link></li>
             <li><Link href="/blog/tick-bite-symptoms-what-to-do-ontario" className="text-brand-700 hover:underline">Tick Bite Symptoms &amp; What to Do in Ontario</Link></li>
             <li><Link href="/blog/tick-bite-vs-mosquito-bite" className="text-brand-700 hover:underline">Tick Bite vs Mosquito Bite: How to Tell the Difference</Link></li>
+            <li><Link href="/blog/best-tick-repellent-yard-canada" className="text-brand-700 hover:underline">Best Tick Repellent for Your Yard in Canada</Link></li>
+            <li><Link href="/blog/best-bug-spray-for-kids-canada" className="text-brand-700 hover:underline">Best Bug Spray for Kids in Canada</Link></li>
           </ul>
         </div>
       </section>

@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
+import BuyLink from '@/components/BuyLink'
+import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { TICK_BLOGS } from '@/lib/constants'
 
@@ -96,6 +98,23 @@ export default function BestTickControlPage() {
           <li><strong>Professional barrier spray</strong> — 2 treatments per season (spring and late summer) targeting all high-risk zones</li>
           <li><strong>Personal protection</strong> — tick checks, repellent, appropriate clothing for outdoor activities</li>
         </ol>
+
+        <h3>DIY Products That Complement Professional Service</h3>
+        <AffiliateDisclosure />
+        <p>Between professional visits, a couple of DIY products round out the layered approach above &mdash; neither replaces a whole-yard barrier treatment, but both are worth keeping on hand:</p>
+        <ul>
+          <li>
+            <strong>Plant-based yard spray:</strong> For spot-treating small problem zones yourself, a botanical spray like Wondercide handles patios, garden beds, and pet areas without harsh synthetics. Coverage is short-lived, so reapply after rain.{' '}
+            <BuyLink search="wondercide tick yard spray">Check price on Amazon.ca &rarr;</BuyLink>
+          </li>
+          <li>
+            <strong>Permethrin clothing spray:</strong> For hikes and yard work, treating clothing and gear with a permethrin spray such as Sawyer&rsquo;s gives long-lasting, wearable protection that skin repellent alone can&rsquo;t match. Apply to garments &mdash; never skin.{' '}
+            <BuyLink search="sawyer permethrin clothing spray">Check price on Amazon.ca &rarr;</BuyLink>
+          </li>
+        </ul>
+        <p>For a fuller rundown of what actually works, see our guide to the{' '}
+          <Link href="/blog/best-tick-repellent-yard-canada" className="text-brand-700 hover:underline">best tick repellents for Ontario yards</Link>.
+        </p>
 
         <h2>Related Guides</h2>
         <ul>

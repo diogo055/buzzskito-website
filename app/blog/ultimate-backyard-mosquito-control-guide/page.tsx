@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
+import BuyLink from '@/components/BuyLink'
+import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { MOSQUITO_BLOGS, CITIES } from '@/lib/constants'
 
@@ -113,6 +115,12 @@ export default function MosquitoPillarPage() {
           <li>Fill low-lying areas in your lawn that collect water</li>
         </ul>
         <p>Full checklist: <Link href="/blog/how-to-prevent-mosquitoes-in-your-backyard" className="text-brand-700 underline hover:text-brand-500">12 Ways to Prevent Mosquitoes in Your Backyard</Link></p>
+
+        <h2>DIY Tools That Help Between Professional Visits</h2>
+        <AffiliateDisclosure />
+        <p>For standing water you genuinely can&apos;t drain — rain barrels, ornamental ponds, or low spots that stay wet for days — drop in a <strong>Bti larvicide dunk</strong> such as Summit Mosquito Dunks. They float and slowly release a naturally occurring bacterium that kills mosquito larvae for about 30 days while staying safe for pets, birds, and fish. We break down brands and dosing in our <Link href="/blog/mosquito-dunks-canada-guide" className="text-brand-700 underline hover:text-brand-500">mosquito dunks guide for Canada</Link> — or <BuyLink search="summit mosquito dunks">Check price on Amazon.ca →</BuyLink></p>
+        <p>For the hours you&apos;re actually outside, a <strong>Thermacell repeller</strong> creates a roughly 20-foot zone of protection over a patio or deck without sprays or open flame, and the right skin repellent handles the rest. See how the options compare in our <Link href="/blog/picaridin-vs-deet-canada" className="text-brand-700 underline hover:text-brand-500">picaridin vs. DEET guide</Link> and <Link href="/blog/best-mosquito-trap-canada" className="text-brand-700 underline hover:text-brand-500">best mosquito traps in Canada</Link> — or <BuyLink search="thermacell mosquito repeller">Check price on Amazon.ca →</BuyLink></p>
+        <p>These tools cut bites in the moment, but they don&apos;t clear the adult mosquitoes resting in your vegetation the way a professional barrier spray does. For a yard that stays bite-free all season, they work best alongside a treatment plan.</p>
 
         <div className="not-prose my-10 rounded-2xl bg-gradient-to-br from-brand-800 to-brand-950 text-white p-6 sm:p-8 shadow-lg">
           <p className="text-xs font-extrabold text-brand-300 uppercase tracking-wider mb-2">Prefer the Done-For-You Option?</p>

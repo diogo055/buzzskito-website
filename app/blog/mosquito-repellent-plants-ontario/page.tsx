@@ -2,6 +2,8 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import AuthorByline from '@/components/AuthorByline'
+import BuyLink from '@/components/BuyLink'
+import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { NEW_BLOGS_2, MOSQUITO_BLOGS } from '@/lib/constants'
 
@@ -116,6 +118,8 @@ export default function MosquitoRepellentPlantsPage() {
           Plants alone won&apos;t eliminate mosquitoes from your yard — but the right ones can meaningfully reduce pressure near seating areas. This guide covers what actually works in Ontario&apos;s climate, what doesn&apos;t, and how to combine natural deterrents with professional barrier spray for the best results. Part of our <Link href={`/blog/${MOSQUITO_BLOGS.pillar.slug}`} className="text-brand-700 underline">Ultimate Mosquito Control Guide</Link>.
         </p>
 
+        <AffiliateDisclosure />
+
         <h2>Do Mosquito-Repelling Plants Actually Work?</h2>
         <p>The honest answer: partially. Several plants contain volatile oils — linalool, citronellal, eugenol — that mosquitoes find unpleasant. When the plant is crushed or brushed, these oils are released and can provide short-range repellency. However, a plant simply sitting in your garden releases very little of these compounds passively. You would need an enormous quantity to meaningfully affect a full backyard.</p>
         <p>That said, strategically placed plants near outdoor seating, doorways, and high-traffic areas can reduce localized mosquito activity. They are most effective as part of a layered approach — combined with eliminating standing water and professional barrier spray.</p>
@@ -165,11 +169,12 @@ export default function MosquitoRepellentPlantsPage() {
         </ul>
 
         <h3>How to grow citronella in the GTA</h3>
-        <p>Give either plant full sun (6+ hours), a large container with free-draining potting mix, and steady water — citronella grass in particular is thirsty. Feed monthly through the summer. Because neither is winter-hardy here, plant out only after the mid-May frost date, then either treat it as a one-season annual or lift it indoors before the first fall frost. Set pots right beside where you actually sit; a plant three metres away does nothing.</p>
+        <p>Give either plant full sun (6+ hours), a large container with free-draining potting mix, and steady water — citronella grass in particular is thirsty. Feed monthly through the summer. Because neither is winter-hardy here, plant out only after the mid-May frost date, then either treat it as a one-season annual or lift it indoors before the first fall frost. Set pots right beside where you actually sit; a plant three metres away does nothing. If you want to try one on your own patio, live citronella plants ship seasonally: <BuyLink search="citronella plant">Check price on Amazon.ca &rarr;</BuyLink></p>
 
         <h3>The honest truth: plants alone won&rsquo;t clear a yard</h3>
         <p>Here is the myth worth busting: no citronella plant — geranium or grass — will meaningfully reduce mosquitoes across an Ontario backyard. Peer-reviewed trials of the &ldquo;mosquito plant&rdquo; geranium have repeatedly found no measurable protection. The scent travels only a few centimetres, while mosquitoes home in on the carbon dioxide and body heat you give off from well beyond that. Treat citronella as a pleasant patio plant, not pest control.</p>
-        <p>For protection you can actually feel, pair it with the two things that work at yard scale: eliminate standing water, and put down a <Link href="/mosquito-control">professional barrier spray</Link> that coats the vegetation where mosquitoes rest and keeps working for up to 30 days. Our breakdown of <Link href="/blog/mosquito-vs-diy-vs-professional-control">DIY vs. professional mosquito control</Link> lays out the full comparison.</p>
+        <p>For protection you can actually feel, pair it with the two things that work at yard scale: eliminate standing water, and put down a <Link href="/mosquito-control">professional barrier spray</Link> that coats the vegetation where mosquitoes rest and keeps working for up to 30 days. Our breakdown of <Link href="/blog/mosquito-vs-diy-vs-professional-control">DIY vs. professional mosquito control</Link> lays out the full comparison, and our guide to <Link href="/blog/natural-mosquito-repellent-ontario">natural mosquito repellents in Ontario</Link> covers the non-chemical options worth trying.</p>
+        <p>Because plants alone won&rsquo;t hold a patio through a July evening, most Ontario homeowners bridge the gap with a spot device that actually creates a protection zone. A butane-powered repeller such as a Thermacell puts out a 20-foot mosquito-free bubble around your seating in minutes — a genuine upgrade over hoping a potted geranium does the job: <BuyLink search="thermacell mosquito repeller">Check price on Amazon.ca &rarr;</BuyLink></p>
 
         <h2>Plants That Don&apos;t Work (Despite the Claims)</h2>
         <p>Several plants are widely marketed as mosquito repellents without meaningful evidence:</p>

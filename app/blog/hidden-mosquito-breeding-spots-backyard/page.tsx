@@ -2,6 +2,8 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import AuthorByline from '@/components/AuthorByline'
+import BuyLink from '@/components/BuyLink'
+import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema, howToSchema } from '@/lib/seo'
 import { NEW_BLOGS_2, MOSQUITO_BLOGS } from '@/lib/constants'
 
@@ -102,6 +104,8 @@ export default function HiddenBreedingSpotsPage() {
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
         <AuthorByline datePublished={POST.date} />
 
+        <AffiliateDisclosure />
+
         <p className="text-lg text-gray-600 not-prose border-l-4 border-brand-400 pl-5 py-2 mb-8">
           You can eliminate obvious standing water and still have a severe mosquito problem. This guide uncovers the 12 most commonly missed breeding spots in GTA backyards — including several most homeowners never think to check. Part of our <Link href={`/blog/${MOSQUITO_BLOGS.pillar.slug}`} className="text-brand-700 underline">Ultimate Mosquito Control Guide</Link>.
         </p>
@@ -130,7 +134,7 @@ export default function HiddenBreedingSpotsPage() {
         <p>A birdbath not refreshed every 48–72 hours becomes a prime mosquito nursery. Change the water every 2–3 days during peak season. Consider adding a small recirculating pump — moving water cannot support mosquito breeding.</p>
 
         <h3>7. Ornamental Ponds and Water Features</h3>
-        <p>Garden ponds without fish or a recirculating pump are ideal breeding habitat. Add goldfish or mosquito fish (<em>Gambusia affinis</em>) to consume larvae, or treat with BTi mosquito dunks — a bacteria-based larvicide that is safe for wildlife and pets.</p>
+        <p>Garden ponds without fish or a recirculating pump are ideal breeding habitat. Add goldfish or mosquito fish (<em>Gambusia affinis</em>) to consume larvae, or treat with BTi mosquito dunks — a bacteria-based larvicide that is safe for wildlife and pets. Slow-release dunks like Summit&apos;s (<BuyLink search="summit mosquito dunks">check price on Amazon.ca &rarr;</BuyLink>) treat roughly 100 sq ft of water surface for 30 days, while the granular form — mosquito bits (<BuyLink search="summit mosquito bits">check price on Amazon.ca &rarr;</BuyLink>) — kills larvae within hours and is handy for bird baths, plant saucers, and rain barrels. For dosing, safety, and where to buy across Canada, see our <Link href="/blog/mosquito-dunks-canada-guide" className="text-brand-700 underline">mosquito dunks Canada guide</Link>.</p>
 
         <h3>8. Low Spots in Lawn and Garden Beds</h3>
         <p>After heavy GTA rainfall, lawn depressions can hold water for 5–7 days — long enough for a complete mosquito breeding cycle. Identify these spots and address the grading with topsoil to improve drainage, or install a French drain for persistent problem areas.</p>

@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
+import BuyLink from '@/components/BuyLink'
+import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 
 const SLUG = 'i-found-tick-on-my-dog-what-to-do'
@@ -74,6 +76,8 @@ export default function IFoundTickOnMyDogPage() {
         <div className="max-w-3xl mx-auto prose-brand">
           <p className="lead text-xl text-gray-700 leading-relaxed mb-6">First — take a breath. You have time. Most blacklegged ticks need to be attached for <strong>24 hours or more</strong> before they can transmit Lyme disease. Removing the tick correctly within the first day dramatically reduces any risk. Here&rsquo;s exactly what to do, in order.</p>
 
+          <AffiliateDisclosure />
+
           <div className="not-prose bg-amber-50 border-l-4 border-amber-500 p-5 rounded-r-xl mb-8">
             <p className="font-extrabold text-amber-900 text-lg mb-2">⏱️ Do This in the Next 5 Minutes</p>
             <ol className="list-decimal pl-6 space-y-1 text-amber-900 text-sm">
@@ -99,6 +103,7 @@ export default function IFoundTickOnMyDogPage() {
 
           <h2>Step 3: Remove the Tick</h2>
           <p>See our detailed <Link href="/blog/how-to-remove-tick-from-dog-ontario">step-by-step removal guide</Link> for the exact technique. The short version: tweezers at the head, pull straight up, save the tick in a bag, clean the bite, wash your hands.</p>
+          <p>Fine-tipped tweezers work in a pinch, but a dedicated tick-removal tool grips right at the head and lifts the tick out cleanly without squeezing its body — worth keeping in the drawer if you have a dog. Our <Link href="/blog/tick-removal-tool-guide">tick removal tool guide</Link> compares the common options. <BuyLink search="tick removal tool tweezers">Check price on Amazon.ca →</BuyLink></p>
 
           <h2>Step 4: Note the Date and Location</h2>
           <p>Write down the date you found the tick and where on your dog&rsquo;s body it was attached. If your dog develops symptoms in the next 5 months, your vet will want this information. Lyme disease symptoms in dogs typically appear <strong>2 to 5 months after the bite</strong> — not immediately.</p>
@@ -131,6 +136,7 @@ export default function IFoundTickOnMyDogPage() {
             <li><strong>Yard maintenance</strong>: short grass, no leaf litter at lawn edges, 3-foot gravel barrier between lawn and woods.</li>
             <li><strong>Professional yard tick spray</strong>: <Link href="/tick-control">BuzzSkito&rsquo;s 5-spray season program</Link> targets the leaf-litter and lawn-edge zones where 95%+ of ticks live. Most customers stop finding ticks within 2 weeks of the first treatment.</li>
           </ol>
+          <p>Between vet visits, a topical or spray-on repellent adds a layer of protection for walks in tall grass — see our <Link href="/blog/tick-repellent-for-dogs-ontario">guide to tick repellent for dogs in Ontario</Link> for what to look for and what to avoid. <BuyLink search="dog tick repellent">Check price on Amazon.ca →</BuyLink> Always confirm any new product with your vet before applying it to your dog.</p>
 
           <h2>Related Reading</h2>
           <ul>

@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
+import BuyLink from '@/components/BuyLink'
+import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 
 const SLUG = 'what-eats-ticks-and-mosquitoes'
@@ -130,6 +132,7 @@ export default function WhatEatsTicksAndMosquitoesPage() {
 
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
+          <AffiliateDisclosure />
           <h2>What Eats Mosquitoes?</h2>
           <p>Mosquitoes sit near the bottom of the food chain, so plenty of animals eat them — in both their aquatic larval stage and as flying adults. The problem is scale. A single female mosquito (the biters are always females) can lay 100 to 300 eggs at a time and produce several generations a summer. Predators simply cannot keep up with that math in a small yard, which is why &ldquo;nature will handle it&rdquo; rarely holds up on a real patio in July.</p>
           <p>Here are the mosquito eaters that matter most, from most useful to most overhyped:</p>
@@ -149,7 +152,7 @@ export default function WhatEatsTicksAndMosquitoesPage() {
             <li><strong>Chickens and ducks</strong> — eat ticks and, near water, mosquito larvae and pupae. Helpful in the areas they forage, but you would not want them foraging on your entertaining patio.</li>
             <li><strong>Opossums</strong> — the internet loves them, and there is some truth here: opossums groom fastidiously and eat ticks that latch onto them. A frequently cited 2009 study estimated one opossum could kill thousands of ticks a season. But an honest guide has to add the caveat: a 2021 study looked for ticks inside wild opossum stomachs and found essentially none, casting doubt on the tick-vacuum reputation. Opossums are still good neighbours to have — they just are not a tick-control plan.</li>
             <li><strong>Wild turkeys and ground birds</strong> — peck up ticks while foraging, but turkeys can also transport ticks onto a property, so the net effect is minor.</li>
-            <li><strong>Beneficial nematodes and fungi</strong> — microscopic <em>Steinernema</em> nematodes and the fungus <em>Metarhizium</em> attack ticks in the soil. This is an emerging, chemical-free approach that shows promise in trials, though field results are still patchy and treatments must be reapplied.</li>
+            <li><strong>Beneficial nematodes and fungi</strong> — microscopic <em>Steinernema</em> nematodes and the fungus <em>Metarhizium</em> attack ticks in the soil. This is an emerging, chemical-free approach that shows promise in trials, though field results are still patchy and treatments must be reapplied. If you want to try it, live nematodes are sold for lawn application and watered into the soil where ticks overwinter: <BuyLink search="beneficial nematodes lawn">Check price on Amazon.ca &rarr;</BuyLink></li>
             <li><strong>Ants, ground beetles, and parasitic wasps</strong> — provide a quiet background level of tick-egg and larva predation that you will never notice but that helps hold wild numbers down.</li>
           </ul>
 

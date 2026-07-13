@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
+import BuyLink from '@/components/BuyLink'
+import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 
 const SLUG = 'how-to-remove-tick-from-dog-ontario'
@@ -74,6 +76,8 @@ export default function HowToRemoveTickFromDogPage() {
         <div className="max-w-3xl mx-auto prose-brand">
           <p className="lead text-xl text-gray-700 leading-relaxed mb-6">You found a tick on your dog. Take a breath — you have time. Most blacklegged ticks need to be attached for 24+ hours to transmit Lyme disease, and removing the tick correctly is the single most important thing you can do right now. Here&rsquo;s how to do it safely, in 5 minutes, with what you probably already have at home.</p>
 
+          <AffiliateDisclosure />
+
           <h2>The 5-Step Removal (Do This Now)</h2>
           <ol>
             <li><strong>Get fine-tipped tweezers</strong> (sharp eyebrow tweezers work, or a dedicated tick-removal tool like a Tick Twister or TickKey).</li>
@@ -82,6 +86,7 @@ export default function HowToRemoveTickFromDogPage() {
             <li><strong>Pull straight up with slow, steady pressure.</strong> No twisting. No jerking. The tick will release after 5–15 seconds.</li>
             <li><strong>Clean the bite</strong> with rubbing alcohol or soap and water. Wash your hands. Save the tick in a sealed plastic bag with a damp paper towel — your vet may want to identify the species.</li>
           </ol>
+          <p>A dedicated fine-tipped tick-removal tool grips the head cleanly and lowers the chance of leaving mouthparts behind — far better than pinching with fingers. It&rsquo;s worth keeping one in the dog-walk kit and one at home: <BuyLink search="tick removal tool tweezers">Check price on Amazon.ca →</BuyLink></p>
 
           <h2>Do NOT Do These Things (Old Wives&rsquo; Tales That Cause Harm)</h2>
           <ul>
@@ -132,7 +137,7 @@ export default function HowToRemoveTickFromDogPage() {
             <li><strong>Remove leaf litter</strong> at lawn edges. This is where ticks overwinter.</li>
             <li><strong>Create a 3-foot wood chip or gravel barrier</strong> between your lawn and any wooded area or tall grass.</li>
             <li><strong>Trim shrubs</strong> and clear deer trails or brush piles.</li>
-            <li><strong>Use a vet-prescribed monthly tick preventative</strong> on your dog (oral or topical).</li>
+            <li><strong>Use a vet-prescribed monthly tick preventative</strong> on your dog (oral or topical). Between doses, a dog-safe tick repellent adds a layer of protection before walks in tall grass — see our <Link href="/blog/tick-repellent-for-dogs-ontario">dog tick repellent guide for Ontario</Link>, or <BuyLink search="dog tick repellent">check price on Amazon.ca →</BuyLink></li>
             <li><strong>Apply professional tick barrier spray</strong> to your yard. <Link href="/tick-control">BuzzSkito&rsquo;s 5-spray season program</Link> targets ticks where they actually live — leaf litter, lawn edges, fence lines — and reduces yard tick populations by 90%+.</li>
           </ol>
 

@@ -2,6 +2,8 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import AuthorByline from '@/components/AuthorByline'
+import BuyLink from '@/components/BuyLink'
+import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema, howToSchema } from '@/lib/seo'
 import { MOSQUITO_BLOGS } from '@/lib/constants'
 
@@ -92,6 +94,8 @@ export default function PreventMosquitoesPage() {
           Prevention reduces breeding. Treatment eliminates adults. Together, they give you the most mosquito-free yard possible. This guide covers both. Part of our <Link href={`/blog/${MOSQUITO_BLOGS.pillar.slug}`} className="text-brand-700 underline">Ultimate Mosquito Control Guide</Link>.
         </p>
 
+        <AffiliateDisclosure />
+
         <h2>The Two-Part Strategy: Prevention + Treatment</h2>
         <p>Mosquito prevention and mosquito treatment are not competing approaches — they're complementary. Eliminating breeding sites (prevention) reduces how many mosquitoes can be produced on your property. Professional barrier spray (treatment) eliminates the adult mosquitoes that arrive from your property and neighbouring areas. Together, they deliver dramatically better results than either alone.</p>
 
@@ -122,13 +126,15 @@ export default function PreventMosquitoesPage() {
         <p>Decomposing leaves create moist, shaded microhabitats that mosquitoes use as resting sites and that trap the moisture that enables larval development in small depressions. Rake leaf litter from garden beds and lawn edges regularly throughout the season.</p>
 
         <h3>9. Use Mosquito Dunks in Ornamental Ponds</h3>
-        <p>If you have a pond, rain barrel, or other permanent water feature you can't drain or empty, use Bacillus thuringiensis israelensis (Bti) mosquito dunks. These biological control products kill mosquito larvae without harming fish, frogs, or other wildlife.</p>
+        <p>If you have a pond, rain barrel, or other permanent water feature you can't drain or empty, use Bacillus thuringiensis israelensis (Bti) mosquito dunks. These biological control products kill mosquito larvae without harming fish, frogs, or other wildlife. One floating dunk treats up to 100 sq ft of surface water for about 30 days — see our full <Link href="/blog/mosquito-dunks-canada-guide" className="text-brand-700 hover:underline">mosquito dunks buyer's guide for Canada</Link> for dosing and where to buy.</p>
+        <p className="not-prose my-4"><BuyLink search="summit mosquito dunks">Check Mosquito Dunks price on Amazon.ca →</BuyLink></p>
 
         <h3>10. Install or Repair Window and Door Screens</h3>
         <p>This won't reduce outdoor mosquito populations, but intact screens prevent mosquitoes from entering your home. Check for tears or gaps — especially in sliding door screens, which are commonly damaged — before the season starts.</p>
 
-        <h3>11. Use Patio Fans</h3>
-        <p>Mosquitoes are weak fliers — they struggle in winds above 1 m/s. A strong oscillating fan aimed across your seating area creates a wind barrier that keeps mosquitoes away from the immediate area. Best used as a complement to barrier spray for sitting areas.</p>
+        <h3>11. Use Patio Fans (and a Repeller for Still Evenings)</h3>
+        <p>Mosquitoes are weak fliers — they struggle in winds above 1 m/s. A strong oscillating fan aimed across your seating area creates a wind barrier that keeps mosquitoes away from the immediate area. On calm, windless evenings when a fan isn't enough, a Thermacell-style patio repeller creates a roughly 20 ft protection zone around a deck or dining table — compare the popular units in our <Link href="/blog/best-mosquito-repellent-device-canada" className="text-brand-700 hover:underline">best mosquito repellent device guide for Canada</Link>. Best used as a complement to barrier spray for sitting areas.</p>
+        <p className="not-prose my-4"><BuyLink search="thermacell mosquito repeller">Check Thermacell price on Amazon.ca →</BuyLink></p>
 
         <h3>12. Schedule Professional Barrier Spray</h3>
         <p>The most impactful single step: professional barrier spray by <Link href="/mosquito-control" className="text-brand-700 hover:underline">BuzzSkito</Link> eliminates adult mosquitoes throughout your yard and provides up to 30 days of ongoing protection. Combine with the prevention steps above for the most effective mosquito-free backyard possible.</p>

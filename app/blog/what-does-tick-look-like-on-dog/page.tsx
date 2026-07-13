@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
+import BuyLink from '@/components/BuyLink'
+import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 
 const SLUG = 'what-does-tick-look-like-on-dog'
@@ -140,11 +142,15 @@ export default function WhatDoesTickLookLikeOnDogPage() {
           <p>Use both hands to slowly run through your dog&rsquo;s fur, feeling for bumps. Once you find one, separate the fur to look at it directly.</p>
 
           <h2>What to Do When You Find One</h2>
-          <p>Don&rsquo;t panic. See our two complete guides:</p>
+          <p>Don&rsquo;t panic. The single most useful thing to have on hand is a proper <strong>fine-tipped tick removal tool or pointed tweezers</strong> — a dedicated tick hook or pointed tick tweezers grips the tick right at the skin so you can pull straight up without squeezing the body or leaving the mouthparts behind. A regular flat-tipped tweezer tends to crush the tick, which can push infected fluid back into your dog. Keep one in the house and one in your dog-walk bag.</p>
+          <AffiliateDisclosure />
+          <p><BuyLink search="tick removal tool tweezers">Check price on Amazon.ca →</BuyLink></p>
+          <p>Not sure which style to buy? Our <Link href="/blog/tick-removal-tool-guide">tick removal tool guide</Link> compares hooks, pointed tweezers, and card-style removers. Then follow our two complete step-by-step guides:</p>
           <ul>
             <li><Link href="/blog/i-found-tick-on-my-dog-what-to-do">I Found a Tick on My Dog — What to Do</Link></li>
             <li><Link href="/blog/how-to-remove-tick-from-dog-ontario">Step-by-Step Tick Removal</Link></li>
           </ul>
+          <p>To lower the odds of the next tick even latching on, pair yard treatment with an on-dog repellent — see our guide to the best <Link href="/blog/tick-repellent-for-dogs-ontario">tick repellent for dogs in Ontario</Link>.</p>
 
           <h2>Stop Finding Ticks in the First Place</h2>
           <p>Once you&rsquo;ve found one tick, you&rsquo;ll likely find more — they don&rsquo;t travel alone. The most efficient solution is reducing the tick population in your yard, which is where dogs spend most of their outdoor time. <Link href="/tick-control">BuzzSkito&rsquo;s 5-spray season program</Link> targets leaf litter, lawn edges, and fence-line zones — the micro-habitats where 95% of yard ticks live. Most customers stop finding ticks within 2 weeks of the first treatment.</p>

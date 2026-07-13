@@ -2,6 +2,8 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import BlogPostCTA from '@/components/BlogPostCTA'
+import BuyLink from '@/components/BuyLink'
+import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { TICK_BLOGS, CITIES } from '@/lib/constants'
 
@@ -56,6 +58,8 @@ export default function TickPillarPage() {
         <p className="text-lg text-gray-600 not-prose border-l-4 border-amber-400 pl-5 py-2 mb-8">
           This is the definitive guide to tick control for Ontario homeowners: tick species, lifecycle, Lyme disease risk, where ticks hide in your yard, prevention strategies, and when to call a professional. For city-specific information, visit our <Link href="/tick-control" className="text-brand-700 underline">Tick Control hub page</Link>.
         </p>
+
+        <AffiliateDisclosure />
 
         <h2>Tick Species in Ontario: What You're Dealing With</h2>
         <p>Three tick species are most relevant to Ontario homeowners:</p>
@@ -116,8 +120,12 @@ export default function TickPillarPage() {
           <li>Control deer access to your property — deer carry adult ticks onto your land</li>
         </ul>
 
+        <p>Beyond habitat work, treating the clothing and gear you wear in high-risk zones adds a personal layer of protection. Permethrin is a repellent you apply to fabric — not skin — that kills ticks on contact and survives several washes. A pre-mixed spray is the simplest way to treat boots, socks, and pant legs before yard work: <BuyLink search="sawyer permethrin clothing spray">Check price on Amazon.ca →</BuyLink></p>
+        <p>For the full breakdown, see our guides to <Link href="/blog/permethrin-canada-yard-clothing-spray" className="text-brand-700 underline hover:text-brand-500">permethrin for yard &amp; clothing in Canada</Link> and the <Link href="/blog/best-tick-repellent-yard-canada" className="text-brand-700 underline hover:text-brand-500">best tick repellents for your yard</Link>.</p>
+
         <h2>What to Do If You Find a Tick</h2>
         <p>If you find a tick attached to your skin, remove it promptly with fine-tipped tweezers. See our complete guide: <Link href="/blog/how-to-remove-tick-safely" className="text-brand-700 underline hover:text-brand-500">How to Remove a Tick Safely</Link></p>
+        <p>A dedicated removal tool kept in your first-aid kit makes clean, complete removal easier than makeshift tweezers — it grips close to the skin and lifts the whole tick out without squeezing: <BuyLink search="tick removal tool tweezers">Check price on Amazon.ca →</BuyLink> We compare the options in our <Link href="/blog/tick-removal-tool-guide" className="text-brand-700 underline hover:text-brand-500">tick removal tool guide</Link>.</p>
 
         <h2>Tick Control by GTA City</h2>
         <div className="not-prose grid grid-cols-2 sm:grid-cols-3 gap-3 my-6">

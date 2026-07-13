@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
+import BuyLink from '@/components/BuyLink'
+import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 
 const SLUG = 'tick-bite-on-dog-symptoms'
@@ -74,6 +76,8 @@ export default function TickBiteOnDogSymptomsPage() {
         <div className="max-w-3xl mx-auto prose-brand">
           <p className="lead text-xl text-gray-700 leading-relaxed mb-6">A tick bite by itself is rarely dangerous to a healthy dog. The danger is in what the tick may have transmitted — and the tricky part is that disease symptoms can take <strong>2 to 5 months</strong> to appear. This guide walks you through what to expect at each stage.</p>
 
+          <AffiliateDisclosure />
+
           <h2>What a Tick Bite Looks Like on a Dog</h2>
           <p>The bite itself is small — usually a slightly raised, reddish bump where the tick was attached. After removal, you may see:</p>
           <ul>
@@ -123,7 +127,7 @@ export default function TickBiteOnDogSymptomsPage() {
           <p>A small percentage of dogs with untreated Lyme develop <strong>Lyme nephritis</strong> — a kidney inflammation that is frequently fatal. Watch for: increased thirst and urination, vomiting, weight loss, and weakness. These signs warrant immediate veterinary attention.</p>
 
           <h2>What To Do At Each Stage</h2>
-          <p><strong>Day 0:</strong> Remove the tick correctly (<Link href="/blog/how-to-remove-tick-from-dog-ontario">step-by-step guide</Link>). Clean the bite. Save the tick. Note the date.</p>
+          <p><strong>Day 0:</strong> Remove the tick correctly (<Link href="/blog/how-to-remove-tick-from-dog-ontario">step-by-step guide</Link>). A fine-tipped tick removal tool or pointed tweezers lets you grip close to the skin and pull straight out without leaving mouthparts behind — <BuyLink search="tick removal tool tweezers">check price on Amazon.ca →</BuyLink>. Clean the bite. Save the tick. Note the date.</p>
           <p><strong>Day 1–14:</strong> Watch the bite for local infection signs. Most bites heal without intervention.</p>
           <p><strong>Week 2–3:</strong> Watch for systemic symptoms (fever, lethargy, joint stiffness). If anything appears, call the vet.</p>
           <p><strong>Month 2–5:</strong> Watch for shifting-leg lameness — the calling card of canine Lyme. If your dog limps on one leg, then a different leg days later, see the vet immediately. A 4DX SNAP test takes 8 minutes.</p>
@@ -134,7 +138,7 @@ export default function TickBiteOnDogSymptomsPage() {
 
           <h2>Prevention — The Three-Layer Strategy</h2>
           <ol>
-            <li><strong>Vet-prescribed monthly preventative</strong> (Bravecto, NexGard, Simparica, or K9 Advantix II). These kill ticks before disease transmission.</li>
+            <li><strong>Vet-prescribed monthly preventative</strong> (Bravecto, NexGard, Simparica, or K9 Advantix II). These kill ticks before disease transmission. For walks and hikes between doses, a topical or collar-style <BuyLink search="dog tick repellent">dog tick repellent (check price on Amazon.ca →)</BuyLink> adds a layer of protection — see our <Link href="/blog/tick-repellent-for-dogs-ontario">guide to tick repellents for dogs in Ontario</Link>.</li>
             <li><strong>Daily tick checks</strong> after walks. <Link href="/blog/what-ticks-look-like-ontario">Know what ticks look like</Link>. Common spots: ears, armpits, paws, tail base, neck.</li>
             <li><strong>Yard tick control</strong>. Most ticks your dog encounters are in your own yard. <Link href="/tick-control">BuzzSkito&rsquo;s 5-spray season program</Link> reduces yard tick populations by 90%+ — dramatically cutting your dog&rsquo;s exposure.</li>
           </ol>

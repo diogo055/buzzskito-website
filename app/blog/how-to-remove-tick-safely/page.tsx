@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
+import BuyLink from '@/components/BuyLink'
+import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema, howToSchema } from '@/lib/seo'
 import { TICK_BLOGS } from '@/lib/constants'
 
@@ -47,17 +49,20 @@ export default function RemoveTickPage() {
           <strong>Medical disclaimer:</strong> This article provides general first-aid information. Always consult a licensed healthcare provider for medical advice after a tick bite. Part of our <Link href={`/blog/${TICK_BLOGS.pillar.slug}`} className="text-brand-700 underline">Ultimate Tick Control Guide for Ontario Homeowners</Link>.
         </p>
 
+        <AffiliateDisclosure />
+
         <h2>What You Need</h2>
         <ul>
-          <li>Fine-tipped tweezers (not blunt-nosed household tweezers)</li>
+          <li>Fine-tipped tweezers or a purpose-built tick-removal tool (not blunt-nosed household tweezers)</li>
           <li>Rubbing alcohol or soap and water</li>
           <li>A small sealed container or ziplock bag (to save the tick)</li>
         </ul>
+        <p>A dedicated fine-tipped tick tool grips the mouthparts cleanly right at the skin, which makes a clean removal much easier than fumbling with wide household tweezers. <BuyLink search="tick removal tool tweezers">Check price on Amazon.ca &rarr;</BuyLink> For a breakdown of the different styles (fine-tip tweezers, tick keys, and lifter tools), see our <Link href="/blog/tick-removal-tool-guide" className="text-brand-700 hover:underline">tick removal tool guide</Link>.</p>
 
         <h2>Step-by-Step Tick Removal</h2>
 
         <h3>Step 1: Get Fine-Tipped Tweezers</h3>
-        <p>Use proper fine-tipped tweezers — not blunt-nosed household tweezers. Fine-tipped tweezers allow you to grasp the tick's mouthparts close to the skin surface without squeezing the body.</p>
+        <p>Use proper fine-tipped tweezers or a dedicated tick-removal tool — not blunt-nosed household tweezers. Fine-tipped tweezers allow you to grasp the tick's mouthparts close to the skin surface without squeezing the body. If you spend time in tick zones, it's worth keeping a proper tool in your first-aid kit. <BuyLink search="tick removal tool tweezers">Check price on Amazon.ca &rarr;</BuyLink></p>
 
         <h3>Step 2: Grasp the Tick Close to the Skin</h3>
         <p>Position the tweezers as close to the skin surface as possible — you want to grab the tick's mouthparts (where it's attached), not the body. Grasping the engorged body risks squeezing infected fluids into the bite wound.</p>
