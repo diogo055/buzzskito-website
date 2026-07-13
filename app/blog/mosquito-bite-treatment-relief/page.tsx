@@ -1,0 +1,203 @@
+import type { Metadata } from 'next'
+import Link from 'next/link'
+import CTASection from '@/components/CTASection'
+import AuthorByline from '@/components/AuthorByline'
+import BuyLink from '@/components/BuyLink'
+import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+
+const SLUG = 'mosquito-bite-treatment-relief'
+const DATE = '2026-07-13'
+const UPDATED = '2026-07-13'
+const TITLE = 'Mosquito Bite Treatment: How to Stop the Itch Fast'
+
+const FAQS = [
+  {
+    question: 'How do you get rid of a mosquito bite fast?',
+    answer: 'The fastest relief is a cold compress or ice pack held on the bite for 10 minutes, which numbs the nerves and shrinks the swelling. Follow with 1% hydrocortisone cream or an oral antihistamine (such as cetirizine or diphenhydramine) to calm the histamine reaction that causes itching. A dab of after-bite ammonia or a baking-soda paste can also cut the itch. Most bites fade within 3–7 days; the single most important thing is not to scratch, since scratching worsens swelling and can break the skin and cause infection.',
+  },
+  {
+    question: 'Why do mosquito bites itch so much?',
+    answer: 'When a female mosquito bites, she injects saliva containing anticoagulant proteins so your blood keeps flowing. Your immune system reacts to those foreign proteins by releasing histamine, which causes the classic red, raised, itchy welt. The itch is an allergic response, not the bite wound itself. That is why antihistamines and hydrocortisone — which blunt the histamine reaction — work better than treating the puncture. People react differently: some barely notice bites while others swell dramatically.',
+  },
+  {
+    question: 'What actually stops mosquito bite itching?',
+    answer: 'The methods with the best evidence are cold (ice or a cold compress), topical 1% hydrocortisone, topical antihistamine or calamine, and oral antihistamines for widespread or intense itching. Heat applied briefly (a warm — not scalding — compress or a commercial heat pen around 50°C) can also relieve itch for some people by denaturing the irritant proteins. Baking-soda paste and after-bite ammonia sticks help mildly. What does NOT reliably work: toothpaste, spit, and most folk remedies. Above all, do not scratch.',
+  },
+  {
+    question: 'When should I worry about a mosquito bite?',
+    answer: 'See a doctor if a bite shows signs of infection — spreading redness, warmth, increasing pain, pus, or red streaks radiating from the site — or if these come with fever. Also seek care for a large, hot, hard swelling that keeps growing over 24–48 hours (a sign of a bite allergy sometimes called skeeter syndrome), or any sign of a whole-body allergic reaction such as hives away from the bite, facial or lip swelling, or trouble breathing, which is a medical emergency. In areas where mosquitoes carry disease, fever, headache, or body aches after bites also warrant a doctor.',
+  },
+  {
+    question: 'What does an infected mosquito bite look like?',
+    answer: 'An infected mosquito bite looks different from a normal itchy welt. Instead of fading over a few days it gets worse: the redness spreads outward, the skin feels warm and increasingly painful or tender, you may see pus or yellow crusting, and sometimes red streaks trail away from the bite. Fever or swollen lymph nodes can accompany it. Infection usually follows scratching that breaks the skin and lets bacteria in. If you see spreading redness or streaking, this can be cellulitis and needs prompt medical attention, often antibiotics.',
+  },
+  {
+    question: 'What is skeeter syndrome?',
+    answer: 'Skeeter syndrome is a strong localized allergic reaction to proteins in mosquito saliva. Instead of a small welt, the bite area swells into a large, hot, red, firm patch — sometimes several centimetres across — often within hours, and it can blister or cause a low fever. It is not an infection, though it is easily mistaken for one. It is most common in young children, people new to an area, and those with less prior exposure to local mosquitoes. Oral antihistamines, hydrocortisone, and cold compresses help; severe or recurring cases should see a doctor.',
+  },
+  {
+    question: 'How do you treat mosquito bites on kids?',
+    answer: 'Keep it simple and gentle. Wash the bite with soap and water, apply a cold compress, and use age-appropriate anti-itch options: 1% hydrocortisone or calamine on the skin, and a children’s oral antihistamine if a doctor or pharmacist advises it for widespread itching. Trim your child’s nails and cover the bite with a bandage to stop scratching, which is the main cause of infection in kids. Children are more prone to large reactions (skeeter syndrome). Seek care for spreading redness, pus, fever, or swelling that keeps growing.',
+  },
+  {
+    question: 'How long does a mosquito bite last?',
+    answer: 'A typical mosquito bite itches most in the first day or two and fades within 3 to 7 days. Larger allergic reactions can last a week or more, and a dark or pinkish mark (post-inflammatory pigmentation) may linger for weeks after the itch is gone, especially if the bite was scratched. Not scratching is the best way to speed healing and avoid lasting marks. If a bite is still worsening after 48 hours rather than improving, that points to infection or a strong allergic reaction and is worth a check-up.',
+  },
+]
+
+export const metadata: Metadata = buildMetadata({
+  title: TITLE,
+  description: 'How to get rid of mosquito bites and stop the itch fast — cold, antihistamines, and hydrocortisone that actually work, myths that don’t, plus signs of infection, skeeter syndrome, and when to see a doctor.',
+  canonical: `/blog/${SLUG}`,
+  type: 'article',
+  publishedTime: DATE,
+  modifiedTime: UPDATED,
+})
+
+export default function MosquitoBiteTreatmentReliefPage() {
+  return (
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'How to treat a mosquito bite and stop the itch fast, what works vs myths, and when a bite needs a doctor.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Mosquito Bite Treatment', url: `/blog/${SLUG}` }])) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`, UPDATED)) }} />
+
+      <section className="bg-gradient-to-br from-brand-950 via-brand-900 to-emerald-900 text-white py-14 px-4">
+        <div className="max-w-4xl mx-auto">
+          <nav aria-label="Breadcrumb" className="text-brand-400 text-sm mb-4 flex gap-1">
+            <Link href="/" className="hover:text-white">Home</Link><span>/</span>
+            <Link href="/blog" className="hover:text-white">Blog</Link><span>/</span>
+            <span className="text-white">Mosquito Bite Treatment</span>
+          </nav>
+          <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
+          <p className="text-xl text-brand-100 max-w-3xl">What actually stops the itch, what to skip, and the warning signs that a bite needs a doctor.</p>
+        </div>
+      </section>
+
+      {/* Quick Answer — AI-extraction block */}
+      <section className="bg-amber-50 border-y-4 border-amber-300 py-8 px-4">
+        <div className="max-w-4xl mx-auto">
+          <div className="flex items-center justify-between gap-3 mb-2">
+            <p className="text-xs font-extrabold text-amber-700 uppercase tracking-wider">Quick Answer</p>
+            <p className="text-xs font-semibold text-amber-700">Updated July 2026</p>
+          </div>
+          <h2 className="text-xl font-extrabold text-brand-900 mb-3">How do you get rid of a mosquito bite and stop the itch?</h2>
+          <p className="speakable text-base text-gray-800 leading-relaxed">
+            <strong>Ice it, then treat the histamine, and do not scratch.</strong> Hold a cold compress on the bite for about 10 minutes to numb the itch and shrink swelling, then apply 1% hydrocortisone cream or take an oral antihistamine like cetirizine to calm the allergic reaction that causes itching. Calamine, a baking-soda paste, or an after-bite stick help too. Most bites fade in 3&ndash;7 days. See a doctor if redness spreads, the bite fills with pus, or you develop fever &mdash; the signs of an infected bite &mdash; or if you get whole-body hives or trouble breathing.
+          </p>
+        </div>
+      </section>
+
+      {/* Relief methods table */}
+      <section className="py-10 px-4 bg-white">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-xl font-extrabold text-brand-900 mb-4">Mosquito Bite Relief: What Works, How Fast</h2>
+          <div className="rounded-xl border border-gray-200 overflow-hidden">
+            <table className="w-full text-sm">
+              <thead className="bg-brand-50">
+                <tr>
+                  <th className="px-3 py-2 text-left">Method</th>
+                  <th className="px-3 py-2 text-left">How it helps</th>
+                  <th className="px-3 py-2 text-left">Speed</th>
+                  <th className="px-3 py-2 text-left">Evidence</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  ['Cold compress / ice', 'Numbs nerves, shrinks swelling', 'Minutes', 'Strong'],
+                  ['1% hydrocortisone cream', 'Calms inflammation and itch', '30–60 min', 'Strong'],
+                  ['Oral antihistamine (cetirizine, diphenhydramine)', 'Blocks histamine body-wide', '30–60 min', 'Strong'],
+                  ['Topical antihistamine / calamine', 'Soothes itch on the skin', '15–30 min', 'Moderate'],
+                  ['After-bite (ammonia) stick', 'Neutralizes itch chemically', 'Minutes', 'Moderate'],
+                  ['Baking-soda paste', 'Mild itch relief', '15–30 min', 'Weak–moderate'],
+                  ['Brief heat (heat pen ~50°C)', 'Denatures irritant proteins', 'Minutes', 'Emerging'],
+                  ['Toothpaste, spit, saliva', 'Folk remedy', '—', 'No evidence'],
+                  ['Scratching', 'Feels good, makes it worse', '—', 'Harmful'],
+                ].map(([method, help, speed, evidence]) => (
+                  <tr key={method} className="border-t border-gray-100 align-top">
+                    <td className="px-3 py-2 font-semibold text-brand-800">{method}</td>
+                    <td className="px-3 py-2 text-gray-700">{help}</td>
+                    <td className="px-3 py-2 text-gray-700">{speed}</td>
+                    <td className="px-3 py-2 text-gray-700">{evidence}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-gray-500 mt-3">General bite-care guidance aligns with the <a href="https://www.cdc.gov/mosquitoes/" target="_blank" rel="noopener" className="underline hover:text-brand-700">U.S. Centers for Disease Control and Prevention (CDC) &mdash; Mosquitoes</a>. This article is educational and not a substitute for medical advice.</p>
+        </div>
+      </section>
+
+      <article className="py-12 px-4 bg-white">
+        <div className="max-w-3xl mx-auto prose-brand">
+          <AuthorByline datePublished={DATE} dateModified={UPDATED} />
+
+          <AffiliateDisclosure />
+
+          <h2>Why Mosquito Bites Itch</h2>
+          <p>The itch is an allergic reaction, not the puncture. When a female mosquito feeds, she injects a little saliva loaded with anticoagulant proteins so your blood keeps flowing while she drinks. Your immune system flags those proteins as foreign and releases <strong>histamine</strong>, which dilates local blood vessels and irritates nearby nerves. The result is the familiar red, raised, itchy welt. Because histamine drives the whole reaction, the treatments that calm histamine &mdash; antihistamines and hydrocortisone &mdash; work far better than anything aimed at the tiny bite wound itself. It also explains why people react so differently: sensitivity to mosquito saliva varies a lot, and your reaction can change over a season as your body is exposed more.</p>
+
+          <h2>Fast Relief, Step by Step</h2>
+          <p>When a bite flares up, work through these in order. You will usually feel better within the first two steps.</p>
+          <ol>
+            <li><strong>Wash the bite</strong> with soap and water. This removes surface irritants and lowers infection risk if you have already scratched.</li>
+            <li><strong>Apply cold for about 10 minutes.</strong> An ice pack or cold compress numbs the itch nerves fast and shrinks the swelling. Wrap ice in a cloth rather than putting it directly on skin.</li>
+            <li><strong>Treat the histamine.</strong> Dab on 1% hydrocortisone cream, or take an oral antihistamine such as cetirizine, loratadine, or diphenhydramine if the itching is intense or you have several bites. Topical calamine or an antihistamine cream is a good on-the-skin alternative.</li>
+            <li><strong>Neutralize what is left.</strong> An after-bite ammonia stick or a paste of baking soda and a little water can take the edge off a stubborn bite.</li>
+            <li><strong>Cover it and leave it alone.</strong> A bandage over the bite is the simplest way to stop yourself scratching in your sleep.</li>
+          </ol>
+          <p className="not-prose text-sm text-gray-600 mb-1">Handy things to keep in the medicine cabinet or camp bag:</p>
+          <div className="not-prose mb-6 flex flex-wrap gap-3">
+            <BuyLink search="after bite itch relief">Check after-bite relief on Amazon &rarr;</BuyLink>
+            <BuyLink search="hydrocortisone anti itch cream">Hydrocortisone anti-itch cream &rarr;</BuyLink>
+          </div>
+
+          <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
+            <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">The best bite treatment is not getting bitten</h3>
+            <p className="text-sm text-gray-700 mb-4 leading-relaxed">Treating bites one by one is a losing battle if your yard is breeding mosquitoes. A professional barrier spray knocks down the adults resting in your shrubs and shade for weeks at a time. BuzzSkito protects GTA yards with single treatments from $99 and seasonal plans.</p>
+            <div className="flex flex-wrap items-center gap-4">
+              <Link href="/mosquito-control" className="btn-primary-sm">Explore Mosquito Control &rarr;</Link>
+              <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
+            </div>
+          </aside>
+
+          <h2>What Actually Works vs Common Myths</h2>
+          <p>Plenty of internet remedies get passed around every summer. Here is the honest split. <strong>Cold, hydrocortisone, and antihistamines</strong> are the workhorses with the best support. <strong>Calamine, baking-soda paste, and after-bite ammonia sticks</strong> help to a mild-to-moderate degree. Brief <strong>heat</strong> &mdash; a warm (not scalding) compress or a purpose-made heat pen around 50&deg;C &mdash; relieves itch for some people, likely by breaking down the irritant proteins; use it carefully to avoid burns.</p>
+          <p>The remedies that do <em>not</em> hold up: <strong>toothpaste, spit, and vinegar-soaked folk cures</strong> rarely do more than distract you, and toothpaste can irritate broken skin. The single worst thing you can do is <strong>scratch</strong>. It feels great for a second and then releases more histamine, spreads the reaction, and &mdash; most importantly &mdash; can break the skin and let bacteria in, which is how a harmless itchy bump turns into an infected one.</p>
+
+          <h2>Signs of an Infected Bite or a Bad Reaction</h2>
+          <p>A normal mosquito bite is worst on day one or two and steadily improves. Two things should change your plan: signs of <strong>infection</strong>, and signs of an <strong>allergic reaction</strong>.</p>
+          <p><strong>Infected bite (often from scratching):</strong> instead of fading, the bite gets worse &mdash; redness spreads outward, the skin feels warm and increasingly painful, and you may see pus, yellow crusting, or red streaks trailing away from the site. Fever or tender, swollen glands can go with it. Spreading redness with streaking can signal <strong>cellulitis</strong>, a skin infection that usually needs antibiotics, so do not wait it out.</p>
+          <p><strong>Skeeter syndrome (a bite allergy):</strong> some people, especially young children and those new to an area, react to mosquito saliva with a large, hot, firm, red swelling that can be several centimetres across, sometimes with blistering or a low fever, appearing within hours. It looks alarming and is easy to confuse with infection, but it is an allergic reaction, not bacteria. Cold, oral antihistamines, and hydrocortisone are the mainstays; severe or recurring cases should see a doctor.</p>
+
+          <h2>When to See a Doctor</h2>
+          <p>Get medical care promptly if you notice any of the following:</p>
+          <ul>
+            <li><strong>Spreading redness, warmth, pus, or red streaks</strong> &mdash; possible skin infection or cellulitis.</li>
+            <li><strong>Fever, chills, or body aches</strong> after bites &mdash; especially in regions where mosquitoes can carry disease such as West Nile virus.</li>
+            <li><strong>A swelling that keeps growing</strong> over 24&ndash;48 hours rather than settling.</li>
+            <li><strong>Whole-body reaction</strong> &mdash; hives away from the bite, swelling of the lips or face, dizziness, or any difficulty breathing. This can be anaphylaxis and is a medical emergency &mdash; call 911.</li>
+          </ul>
+          <p>If you are ever unsure whether a mark is from a mosquito at all, our guide on the <Link href="/blog/tick-bite-vs-mosquito-bite">difference between a tick bite and a mosquito bite</Link> walks through how to tell them apart &mdash; it matters, because tick bites carry a different set of risks like Lyme disease.</p>
+
+          <h2>Treating Mosquito Bites on Kids</h2>
+          <p>Children get bitten more, react more strongly, and scratch more &mdash; a recipe for infected bites. Keep treatment simple: wash the bite, apply a cold compress, and use age-appropriate anti-itch options like 1% hydrocortisone or calamine on the skin. A children&rsquo;s oral antihistamine can help with widespread itching, but check the dose with a pharmacist or doctor first. The most useful move is mechanical: <strong>trim nails and cover the bite with a bandage</strong> so scratching cannot break the skin. Kids are the group most prone to skeeter-syndrome swellings, so a big hot lump is usually an allergy rather than an emergency &mdash; but watch for spreading redness, pus, or fever and get it checked if those appear.</p>
+
+          <h2>Stop the Bites at the Source</h2>
+          <p>Every bite you treat started with a mosquito that was resting somewhere in your yard &mdash; in tall grass, under shrubs, in the shade of the fence line. You can keep antihistamines on hand, but the real fix is fewer mosquitoes. Dump standing water weekly (even a bottle cap breeds them), keep grass trimmed, and consider a barrier treatment that kills the adults where they hide. <Link href="/mosquito-control">BuzzSkito&rsquo;s professional barrier spray</Link> targets those resting zones and gives you 21&ndash;30 days of relief per treatment, so bite-and-scratch season is a lot shorter.</p>
+          <p>For quick prevention on the go, a <BuyLink search="bug bite suction tool">bite suction tool</BuyLink> can pull out some saliva right after a bite and blunt the reaction if you use it immediately, and a good repellent with DEET or picaridin stops bites before they happen.</p>
+
+          <h2>Related Reading</h2>
+          <ul>
+            <li><Link href="/blog/tick-bite-vs-mosquito-bite">Tick Bite vs Mosquito Bite &mdash; How to Tell the Difference</Link></li>
+            <li><Link href="/mosquito-control">BuzzSkito Professional Mosquito Control Service</Link></li>
+            <li><Link href="/free-yard-assessment">Get a Free Yard Assessment</Link></li>
+          </ul>
+        </div>
+      </article>
+
+      <CTASection heading="Fewer Bites Beat Any Itch Cream" subtext="A professional barrier spray clears the mosquitoes resting in your yard. From $99, same-day protection, 21–30 day residual." variant="dark" />
+    </>
+  )
+}

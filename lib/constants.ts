@@ -1006,6 +1006,68 @@ export const NEW_BLOGS_15 = [
   },
 ]
 
+// ── Wave 16 — biggest remaining gaps + AI/US-neutral pages (Jul 13 2026) ──────
+// Geo-neutral (US + Canada on one URL) high-volume terms: Lyme symptoms (24K),
+// mosquito-bite treatment, the tick-ID pillar hub, "what attracts mosquitoes".
+export const NEW_BLOGS_16 = [
+  {
+    slug: 'lyme-disease-symptoms-guide',
+    title: 'Lyme Disease Symptoms: Early Signs, Rash & Stages Guide',
+    excerpt: 'Lyme disease symptoms by stage: the early bullseye (erythema migrans) rash, flu-like signs, the 3-30 day timeline, and when to see a doctor.',
+    date: '2026-07-13',
+    category: 'tick' as const,
+  },
+  {
+    slug: 'mosquito-bite-treatment-relief',
+    title: 'Mosquito Bite Treatment: How to Stop the Itch Fast',
+    excerpt: 'How to get rid of mosquito bites and stop the itch fast — what works, what to skip, plus signs of infection, skeeter syndrome, and when to see a doctor.',
+    date: '2026-07-13',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'types-of-ticks-identification',
+    title: 'Types of Ticks: Identification Chart, Size & ID Guide',
+    excerpt: 'Identify the common North American ticks by size, colour and range — blacklegged/deer, American dog, lone star, brown dog and wood ticks, with an ID chart.',
+    date: '2026-07-13',
+    category: 'tick' as const,
+  },
+  {
+    slug: 'what-attracts-mosquitoes-to-you',
+    title: 'What Attracts Mosquitoes to You? Why They Pick You (2026)',
+    excerpt: 'Mosquitoes zero in on CO2, body heat, type O blood, skin bacteria and dark clothing — here is what really draws them, and how to bite back.',
+    date: '2026-07-13',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'red-ticks-and-clover-mites',
+    title: 'Red Ticks & Clover Mites: What Tiny Red Bugs Really Are',
+    excerpt: 'Most "red ticks" are actually clover mites or engorged ticks, not a red tick species. Compare clover mites, engorged ticks, and lone star ticks.',
+    date: '2026-07-13',
+    category: 'tick' as const,
+  },
+  {
+    slug: 'are-ticks-arachnids-or-insects',
+    title: 'Are Ticks Arachnids or Insects? Why They Have 8 Legs',
+    excerpt: 'Ticks are arachnids, not insects — 8 legs like spiders and mites, no wings, no antennae. See the tick vs insect vs spider comparison.',
+    date: '2026-07-13',
+    category: 'tick' as const,
+  },
+  {
+    slug: 'when-are-mosquitoes-most-active',
+    title: 'When Are Mosquitoes Most Active? Time of Day & Temperature',
+    excerpt: 'Mosquitoes are most active at dawn and dusk when heat and wind drop. See the time-of-day and temperature table, plus why Aedes bite midday.',
+    date: '2026-07-13',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'horse-fly-and-deer-fly-bite-treatment',
+    title: 'Horse Fly & Deer Fly Bite Treatment: Relief, Healing, Risks',
+    excerpt: 'Horse fly and deer fly bites hurt because their scissor-like mouthparts cut skin. Fast first aid, a relief table, healing time, and infection signs.',
+    date: '2026-07-13',
+    category: 'mosquito' as const,
+  },
+]
+
 // ── Season helpers ─────────────────────────────────────────────────────────────
 
 export const PEAK_SEASON = 'May through July'
