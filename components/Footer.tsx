@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import { BUSINESS, CITIES, MOSQUITO_BLOGS, TICK_BLOGS } from '@/lib/constants'
+import { AMAZON_ENABLED, AMAZON_DISCLOSURE } from '@/lib/amazon'
 
 export default function Footer() {
   const year = new Date().getFullYear()
@@ -179,6 +180,13 @@ export default function Footer() {
             <a href="https://www.etick.ca/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">eTick.ca — Tick Identification</a>
           </div>
         </div>
+
+        {/* Amazon Associates disclosure — renders only when affiliate links are enabled */}
+        {AMAZON_ENABLED && (
+          <div className="border-t border-white/10 pt-4 pb-1">
+            <p className="text-xs text-brand-500 text-center">{AMAZON_DISCLOSURE}</p>
+          </div>
+        )}
 
         {/* Bottom */}
         <div className="border-t border-white/10 pt-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-brand-500">
