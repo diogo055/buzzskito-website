@@ -29,10 +29,15 @@ export const AMAZON_DISCLOSURE = 'As an Amazon Associate, BuzzSkito earns from q
  * Never emits an untagged or bare Amazon URL. Accepts an ASIN (product link) or a
  * search query — both carry the tracking tag.
  */
+// Full RFC-3986 encoding — encodeURIComponent leaves !'()* unescaped, which can
+// put a raw apostrophe (e.g. "Coghlan's") into the query string: a malformed URL.
+const enc = (s: string) =>
+  encodeURIComponent(s).replace(/[!'()*]/g, (c) => '%' + c.charCodeAt(0).toString(16).toUpperCase())
+
 export function amazonUrl(opts: { asin?: string; search?: string }): string | null {
   if (!AMAZON_ENABLED) return null // fail closed
   if (opts.asin) {
-    return `https://www.amazon.ca/dp/${encodeURIComponent(opts.asin)}?tag=${TAG}&linkCode=ll1&language=en_CA`
+    return `https://www.amazon.ca/dp/${enc(opts.asin)}?tag=${TAG}&linkCode=ll1&language=en_CA`
   }
-  return `https://www.amazon.ca/s?k=${encodeURIComponent(opts.search ?? '')}&tag=${TAG}&linkCode=ll2&language=en_CA`
+  return `https://www.amazon.ca/s?k=${enc(opts.search ?? '')}&tag=${TAG}&linkCode=ll2&language=en_CA`
 }

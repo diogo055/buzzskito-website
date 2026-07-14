@@ -15,6 +15,19 @@
 import { readdirSync, readFileSync } from 'fs'
 import { join, extname, sep } from 'path'
 
+// The guard runs as a standalone node process (npm run check:amazon), which does
+// NOT get Next.js's automatic .env.production loading. Mirror it so the guard's
+// view of the tag matches what `next build` baked into the output. A real env var
+// (e.g. a Vercel dashboard setting) always wins.
+if (!process.env.PUBLIC_AMAZON_TAG && !process.env.NEXT_PUBLIC_AMAZON_TAG) {
+  try {
+    for (const line of readFileSync('.env.production', 'utf8').split('\n')) {
+      const m = line.match(/^\s*PUBLIC_AMAZON_TAG\s*=\s*(.*?)\s*$/)
+      if (m) process.env.PUBLIC_AMAZON_TAG = m[1].replace(/^["']|["']$/g, '').trim()
+    }
+  } catch {}
+}
+
 const TAG = process.env.PUBLIC_AMAZON_TAG ?? process.env.NEXT_PUBLIC_AMAZON_TAG ?? ''
 const ROOT = '.next'
 const URL_RE = /https?:\/\/[^\s"'<>\\)]*(amazon\.(?:ca|com)|amzn\.to|media-amazon|amazon-adsystem)[^\s"'<>\\)]*/gi
@@ -46,7 +59,10 @@ if (files.length === 0) {
 
 const violations = []
 for (const f of files) {
-  const lines = readFileSync(f, 'utf8').split('\n')
+  // Next.js RSC/flight payloads encode "&" as "&" (and "/" as "\/").
+  // Normalize so a tagged URL like ...?k=x&tag=ID reads as ...?k=x&tag=ID
+  // and the tag is not truncated at the backslash.
+  const lines = readFileSync(f, 'utf8').replace(/\\u0026/gi, '&').replace(/\\\//g, '/').split('\n')
   lines.forEach((line, i) => {
     const matches = line.match(URL_RE)
     if (!matches) return
