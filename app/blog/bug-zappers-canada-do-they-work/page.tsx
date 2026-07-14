@@ -17,7 +17,7 @@ const FAQS = [
   },
   {
     question: 'Where to buy bug zappers in Canada?',
-    answer: 'Bug zappers are widely available across Canadian retailers: Canadian Tire ($30–$120), Home Depot Canada ($25–$150), Rona ($30–$120), Lowe\'s Canada ($30–$130), Costco Canada (often the best pricing on larger units), and Amazon.ca ($25–$200). The most-stocked brands are Flowtron (the most common big outdoor zapper), Stinger, Black+Decker, and assorted house brands. Indoor electric racket zappers (Black Flag, Executioner) run $15–$30 and are surprisingly effective at swatting individual mosquitoes manually — these are the only "bug zappers" we\'d genuinely recommend.',
+    answer: 'Bug zappers are widely available across Canadian retailers: Canadian Tire ($30–$120), Home Depot Canada ($25–$150), Rona ($30–$120), Lowe\'s Canada ($30–$130), and Costco Canada (often the best pricing on larger units). The most-stocked brands are Flowtron (the most common big outdoor zapper), Stinger, Black+Decker, and assorted house brands. Indoor electric racket zappers (Black Flag, Executioner) run $15–$30 and are surprisingly effective at swatting individual mosquitoes manually — these are the only "bug zappers" we\'d genuinely recommend.',
   },
   {
     question: 'How much do bug zappers cost in Canada?',
@@ -118,7 +118,6 @@ export default function BugZappersCanadaPage() {
                   { name: 'Home Depot Canada', small: '$24.99 – $69.97',  large: '$89 – $179',  note: 'Spring + summer stock' },
                   { name: 'Rona',              small: '$32.99 – $79.99',  large: '$99 – $189',  note: 'In-store + online' },
                   { name: 'Costco Canada',     small: '$39 – $59 (sale)', large: '$89 – $159',  note: 'Best large-zapper pricing on sale' },
-                  { name: 'Amazon.ca',         small: '$24 – $79',         large: '$79 – $189', note: 'Best pricing · Prime' },
                   { name: 'Walmart Canada',    small: '$22 – $59',         large: '$79 – $129', note: 'Budget options' },
                 ].map(({ name, small, large, note }) => (
                   <tr key={name} className="border-b border-navy-50 last:border-0">
@@ -200,7 +199,7 @@ export default function BugZappersCanadaPage() {
           <p>The Xerces Society for Invertebrate Conservation and the Audubon Society both formally recommend against residential outdoor UV bug zappers because of the disproportionate impact on beneficial insects relative to the negligible mosquito reduction.</p>
 
           <h2>Best Bug Zappers in Canada 2026 (For the Flies &amp; Moths They DO Kill)</h2>
-          <p>Let&rsquo;s be honest about what a bug zapper is actually good for: nuisance flying insects &mdash; moths, gnats, midges, June beetles, the odd wasp &mdash; that swarm a patio light on a summer evening. If that&rsquo;s your goal (a deck that <em>feels</em> less buggy, not fewer mosquito bites), these are the units Canadians buy most in 2026, ranked by the job each one does best. Prices are typical Amazon.ca and Canadian Tire ranges.</p>
+          <p>Let&rsquo;s be honest about what a bug zapper is actually good for: nuisance flying insects &mdash; moths, gnats, midges, June beetles, the odd wasp &mdash; that swarm a patio light on a summer evening. If that&rsquo;s your goal (a deck that <em>feels</em> less buggy, not fewer mosquito bites), these are the units Canadians buy most in 2026, ranked by the job each one does best. Prices are typical Canadian Tire ranges.</p>
           <div className="not-prose overflow-x-auto my-4">
             <table className="w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden">
               <thead className="bg-brand-50">

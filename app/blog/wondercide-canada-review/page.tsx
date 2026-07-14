@@ -34,7 +34,7 @@ const FAQS = [
   },
   {
     question: 'How much does Wondercide cost in Canada?',
-    answer: 'Because most Canadian supply is imported through third-party sellers, pricing runs above US shelf prices and moves around. As a 2026 guide: the Flea & Tick Spray (16 oz / 32 oz) typically lands around $35–$60 CAD on Amazon.ca; the Yard + Garden Ready-to-Spray hose-end (32 oz / 128 oz) around $45–$95; and the Yard + Garden Concentrate around $70–$130 depending on size and seller. Personal Flea, Tick & Mosquito repellent sprays run roughly $25–$40. Add shipping and possible duties if you order direct from wondercide.com. Factor in frequent reapplication—a single yard bottle does not last a GTA season—when comparing total cost against a professional program.',
+    answer: 'Because most Canadian supply is imported through third-party sellers, pricing runs above US shelf prices and moves around. As a 2026 guide: the Flea & Tick Spray (16 oz / 32 oz) typically lands around $35–$60 CAD; the Yard + Garden Ready-to-Spray hose-end (32 oz / 128 oz) around $45–$95; and the Yard + Garden Concentrate around $70–$130 depending on size and seller. Personal Flea, Tick & Mosquito repellent sprays run roughly $25–$40. Add shipping and possible duties if you order direct from wondercide.com. Factor in frequent reapplication—a single yard bottle does not last a GTA season—when comparing total cost against a professional program.',
   },
   {
     question: 'What is a better alternative to Wondercide for a GTA yard?',
@@ -90,7 +90,6 @@ export default function WondercideCanadaReviewPage() {
               </thead>
               <tbody>
                 {[
-                  { name: 'Amazon.ca',            pet: '$35 – $60',  yard: '$45 – $130', note: 'Most reliable CA source · third-party sellers' },
                   { name: 'wondercide.com',       pet: '$30 – $55',  yard: '$40 – $120', note: 'Ships to CA · adds duties + slower delivery' },
                   { name: 'Specialty pet stores', pet: '$40 – $65',  yard: 'Rare',       note: 'Natural / boutique pet shops only' },
                   { name: 'Canadian Tire',        pet: 'Not stocked', yard: 'Not stocked', note: 'Carries other natural brands instead' },

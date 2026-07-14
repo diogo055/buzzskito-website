@@ -95,7 +95,6 @@ export default function CitronellaCandlesCanadaPage() {
                   { name: 'Walmart Canada',    candles: '$6 – $20',  torch: '$12 – $35', note: 'Budget multipacks' },
                   { name: 'Costco Canada',     candles: '$15 – $30', torch: '$25 – $45', note: 'Spring multipacks only' },
                   { name: 'Dollarama',         candles: '$2 – $5',   torch: '$3 – $8',   note: 'Cheapest · smallest · weakest' },
-                  { name: 'Amazon.ca',         candles: '$10 – $30', torch: '$16 – $40', note: 'Full range · often Prime' },
                 ].map(({ name, candles, torch, note }) => (
                   <tr key={name} className="border-b border-navy-50 last:border-0">
                     <td className="px-4 py-3 font-bold text-brand-800">{name}</td>

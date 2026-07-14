@@ -100,7 +100,6 @@ export default function MosquitoMagnetCanadaPage() {
               <tbody>
                 {[
                   { name: 'Costco Canada',     basic: '$399 – $499',  exec: 'Limited stock',  note: 'Best Patriot pricing when in stock' },
-                  { name: 'Amazon.ca',         basic: '$429 – $549',  exec: '$899 – $1,199', note: 'Full lineup · Prime' },
                   { name: 'Cabela\'s Canada',  basic: '$469 – $549',  exec: '$949 – $1,299', note: 'Outdoor specialty · stocked all season' },
                   { name: 'Lee Valley Tools',  basic: '$489 – $549',  exec: '$999 – $1,299', note: 'Premium retailer' },
                   { name: 'Home Depot Canada', basic: '$429 – $499',  exec: 'Seasonal only',  note: 'May–July stock only' },

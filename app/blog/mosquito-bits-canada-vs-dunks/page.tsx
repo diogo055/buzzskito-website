@@ -17,7 +17,7 @@ const FAQS = [
   },
   {
     question: 'Where to buy mosquito bits in Canada?',
-    answer: 'Mosquito Bits are widely available across Canadian retailers: Canadian Tire (the most common stockist), Home Depot Canada, Rona, Lowe\'s Canada, garden centres, and Amazon.ca. The most-stocked brand is Summit Chemical (orange and green container — same brand as the popular dunks). A typical 8-oz container runs $15–$25. The 30-oz value pack at Costco or Amazon runs $35–$55 and treats 4–8 times the area, making it the better deal for properties with multiple rain barrels or standing water sources.',
+    answer: 'Mosquito Bits are widely available across Canadian retailers: Canadian Tire (the most common stockist), Home Depot Canada, Rona, Lowe\'s Canada, garden centres, and Amazon.ca. The most-stocked brand is Summit Chemical (orange and green container — same brand as the popular dunks). A typical 8-oz container runs $15–$25. The 30-oz value pack at Costco runs $35–$55 and treats 4–8 times the area, making it the better deal for properties with multiple rain barrels or standing water sources.',
   },
   {
     question: 'Mosquito Bits vs Mosquito Dunks — which should I use?',
@@ -25,7 +25,7 @@ const FAQS = [
   },
   {
     question: 'How much do mosquito bits cost in Canada?',
-    answer: 'In Canada (May 2026 pricing): Canadian Tire and Home Depot Canada list 8-oz Summit Mosquito Bits at $14.99–$19.99. Rona is typically $15.49–$21.49. Amazon.ca varies $13–$22 depending on Prime status. The 30-oz value container is $34.99–$54.99 — three times the size for roughly twice the price, making it 33% cheaper per ounce. Garden centres often have the same 8-oz pack for $15–$22.',
+    answer: 'In Canada (May 2026 pricing): Canadian Tire and Home Depot Canada list 8-oz Summit Mosquito Bits at $14.99–$19.99. Rona is typically $15.49–$21.49. The 30-oz value container is $34.99–$54.99 — three times the size for roughly twice the price, making it 33% cheaper per ounce. Garden centres often have the same 8-oz pack for $15–$22.',
   },
   {
     question: 'Are mosquito bits safe for pets, kids, fish, and pollinators?',
@@ -103,7 +103,6 @@ export default function MosquitoBitsCanadaPage() {
                   { name: 'Home Depot Canada', small: '$14.97 – $18.97', large: '$36.97 – $46.97', avail: 'In-store + same-day pickup' },
                   { name: 'Rona',              small: '$15.49 – $21.49', large: '$38.99 – $48.49', avail: 'In-store + online' },
                   { name: 'Lowe\'s Canada',    small: '$14.99 – $19.99', large: '$36.99 – $46.99', avail: 'In-store + online' },
-                  { name: 'Amazon.ca',         small: '$13 – $22',        large: '$32 – $54',       avail: 'Often Prime · check seller' },
                   { name: 'Garden centres',    small: '$15 – $22',        large: '$38 – $52',       avail: 'Independent stocks vary' },
                 ].map(({ name, small, large, avail }) => (
                   <tr key={name} className="border-b border-navy-50 last:border-0">

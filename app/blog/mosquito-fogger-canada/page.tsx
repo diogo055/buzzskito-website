@@ -90,7 +90,6 @@ export default function MosquitoFoggerCanadaPage() {
               </thead>
               <tbody>
                 {[
-                  { name: 'Amazon.ca',         fog: '$60 – $130',   liq: 'Varies · check PCP', note: 'Full lineup · year-round' },
                   { name: 'Canadian Tire',     fog: '$70 – $120',   liq: 'Seasonal only',      note: 'May–July stock' },
                   { name: 'Home Depot Canada', fog: '$65 – $120',   liq: 'Limited',            note: 'Spring outdoor stock' },
                   { name: 'Cabela\'s Canada',  fog: '$75 – $140',   liq: 'Limited',            note: 'Outdoor / cottage specialty' },

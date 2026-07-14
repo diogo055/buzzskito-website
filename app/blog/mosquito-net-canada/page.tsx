@@ -146,7 +146,7 @@ export default function MosquitoNetCanadaPage() {
             </table>
           </div>
           <p className="text-xs text-gray-500 mt-3">
-            Prices are 2026 Canadian ranges across Amazon.ca, Canadian Tire, Walmart Canada, MEC, and Cabela&rsquo;s. A net protects only its enclosed space &mdash; it is a personal barrier, not yard-wide control.
+            Prices are 2026 Canadian ranges across Canadian Tire, Walmart Canada, MEC, and Cabela&rsquo;s. A net protects only its enclosed space &mdash; it is a personal barrier, not yard-wide control.
           </p>
         </div>
       </section>
@@ -207,7 +207,7 @@ export default function MosquitoNetCanadaPage() {
           <p>A <strong>stroller net</strong> is a small universal mesh cover with an elastic edge that stretches over the whole bassinet or seat. It is the safest way to protect a baby too young for repellent &mdash; no chemicals, just a physical barrier. At $10&ndash;$25 it is cheap insurance for stroller walks at dawn and dusk. Make sure it fully encloses the opening with no gap at the handle end, and never leave a sleeping infant unattended under any cover.</p>
 
           <h2>Patio and deck: pop-up screen rooms</h2>
-          <p>If you want to protect a <em>group</em> &mdash; a picnic table, a hot tub, a deck dinner &mdash; a net for one person will not cut it. A <strong>pop-up screen house</strong> or mesh gazebo room ($60&ndash;$200 at Canadian Tire, Home Depot Canada, Costco, and Amazon.ca) gives you a bug-free enclosed space for the evening. It is bulky and takes a few minutes to set up, but for entertaining it beats spraying everyone with repellent. The trade-off is obvious: you are protecting one tent-sized footprint, not the yard.</p>
+          <p>If you want to protect a <em>group</em> &mdash; a picnic table, a hot tub, a deck dinner &mdash; a net for one person will not cut it. A <strong>pop-up screen house</strong> or mesh gazebo room ($60&ndash;$200 at Canadian Tire, Home Depot Canada, and Costco) gives you a bug-free enclosed space for the evening. It is bulky and takes a few minutes to set up, but for entertaining it beats spraying everyone with repellent. The trade-off is obvious: you are protecting one tent-sized footprint, not the yard.</p>
 
           <h2>Permethrin-treated nets: worth it?</h2>
           <p>Insecticide-treated nets are the reason bed nets are credited with preventing hundreds of millions of malaria cases worldwide &mdash; the permethrin kills mosquitoes that land on the mesh, so even a net with a small hole still protects you. For adults and older kids, treated nets and bug shirts are considered safe (permethrin bonds to the fabric and is not readily absorbed through skin) and are registered for sale in Canada. Two hard rules: <strong>permethrin is highly toxic to cats and fish until it dries</strong>, so keep cats away from freshly treated gear and never apply it near an aquarium or pond. For a crib or a stroller, most Canadian parents just use an untreated fine-mesh net &mdash; the barrier alone is enough.</p>

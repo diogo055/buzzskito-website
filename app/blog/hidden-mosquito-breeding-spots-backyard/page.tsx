@@ -82,7 +82,7 @@ export default function HiddenBreedingSpotsPage() {
                   ['Egg-to-adult time', '7–14 days at 21–27°C; faster in heat'],
                   ['Eggs per female per batch', '100–200 · multiple batches per season'],
                   ['Best larvicide for ponds/barrels', 'BTI mosquito dunks (Bacillus thuringiensis israelensis) · safe for fish, pets, humans'],
-                  ['Where to buy BTI in Canada', 'Canadian Tire, Home Depot, Rona, Lowe\'s, Amazon.ca · $10–$20 per 6-pack'],
+                  ['Where to buy BTI in Canada', 'Canadian Tire, Home Depot, Rona, Lowe\'s · $10–$20 per 6-pack'],
                   ['Dunk coverage', '~100 sq ft of water surface for 30 days per dunk'],
                   ['Chlorinated pool risk', 'No — properly chlorinated pools cannot support larvae'],
                   ['Pool cover risk', 'High — water pools on covers and breeds mosquitoes; drain weekly'],

@@ -34,7 +34,7 @@ const FAQS = [
   },
   {
     question: 'How long do DynaTrap UV bulbs last?',
-    answer: 'DynaTrap UV bulbs are rated for ~3,000 hours of continuous operation, which works out to approximately 4 months of 24/7 use during the May–September Canadian outdoor season. The bulbs lose UV intensity gradually — by month 4 they\'re putting out about 50% of original UV output, which significantly reduces insect attraction. Replace bulbs at the start of each new season. Replacement bulbs cost $15–$25 each at Canadian Tire, Amazon.ca, or direct from DynaTrap.',
+    answer: 'DynaTrap UV bulbs are rated for ~3,000 hours of continuous operation, which works out to approximately 4 months of 24/7 use during the May–September Canadian outdoor season. The bulbs lose UV intensity gradually — by month 4 they\'re putting out about 50% of original UV output, which significantly reduces insect attraction. Replace bulbs at the start of each new season. Replacement bulbs cost $15–$25 each at Canadian Tire or direct from DynaTrap.',
   },
   {
     question: 'Where should I place a DynaTrap in my yard?',
@@ -117,7 +117,6 @@ export default function DynaTrapCanadaPage() {
                   { name: 'Costco Canada',     half: '$149 – $179',  full: '$179 – $229', note: 'Best spring sale pricing' },
                   { name: 'Canadian Tire',     half: '$169 – $199',  full: '$219 – $279', note: 'In-store + online' },
                   { name: 'Home Depot Canada', half: '$159 – $199',  full: '$209 – $269', note: 'Spring stock' },
-                  { name: 'Amazon.ca',         half: '$149 – $199',  full: '$199 – $269', note: 'Often Prime' },
                   { name: 'Lee Valley Tools',  half: '$179 – $209',  full: '$229 – $279', note: 'Premium retailer' },
                   { name: 'Cabela\'s Canada',  half: '$169 – $199',  full: '$219 – $279', note: 'Outdoor specialty' },
                 ].map(({ name, half, full, note }) => (

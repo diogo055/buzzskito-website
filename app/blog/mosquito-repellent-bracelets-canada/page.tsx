@@ -34,7 +34,7 @@ const FAQS = [
   },
   {
     question: 'What are the best-rated mosquito repellent bracelets in Canada?',
-    answer: 'The most commonly stocked and best-reviewed options on Amazon.ca and at Canadian retailers in 2026 are: PARA\'KITO refillable bands (Swiss-made, replaceable essential-oil pellets, $18–$30); Mosquito Guard / citronella disposable bands (cheap multipacks, $8–$15 for 10+); Buggy Bands and similar coil-style clip-ons; and Invisaband citronella bracelets sold in bulk party packs. All work on the same limited-radius principle, so buy on price and refillability rather than expecting big performance differences. Refillable bands like PARA\'KITO are the better long-term value if you want to reuse them across a season.',
+    answer: 'The most commonly stocked and best-reviewed options at Canadian retailers in 2026 are: PARA\'KITO refillable bands (Swiss-made, replaceable essential-oil pellets, $18–$30); Mosquito Guard / citronella disposable bands (cheap multipacks, $8–$15 for 10+); Buggy Bands and similar coil-style clip-ons; and Invisaband citronella bracelets sold in bulk party packs. All work on the same limited-radius principle, so buy on price and refillability rather than expecting big performance differences. Refillable bands like PARA\'KITO are the better long-term value if you want to reuse them across a season.',
   },
   {
     question: 'How long do mosquito repellent bracelets last?',
@@ -100,7 +100,6 @@ export default function MosquitoRepellentBraceletsCanadaPage() {
               </thead>
               <tbody>
                 {[
-                  { name: 'Amazon.ca',           disp: '$8 – $15 (10-pk)',  refill: '$18 – $30', note: 'Widest selection · Prime' },
                   { name: 'Canadian Tire',       disp: '$9 – $16',         refill: '$20 – $30', note: 'Seasonal outdoor aisle' },
                   { name: 'Home Depot Canada',   disp: '$8 – $14',         refill: '$19 – $28', note: 'Spring–summer stock' },
                   { name: 'Walmart Canada',      disp: '$6 – $13 (10-pk)', refill: '$18 – $27', note: 'Cheapest multipacks' },

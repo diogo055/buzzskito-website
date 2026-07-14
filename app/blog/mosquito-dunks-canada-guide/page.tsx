@@ -38,11 +38,11 @@ const FAQS = [
   },
   {
     question: 'Where to buy mosquito dunks in Canada?',
-    answer: 'Mosquito dunks are widely available in Canada: Canadian Tire (in-store and online), Home Depot Canada, Rona, Lowe\'s Canada, most garden centres, and Amazon.ca. Look for the Summit Chemical brand (most common — orange and white packaging) or Safer\'s Brand (also widely stocked). Prices range from $10–$20 for a 6-pack, $25–$35 for a 20-pack. Stock up at the start of mosquito season (April–May) — supplies often run low by mid-summer.',
+    answer: 'Mosquito dunks are widely available in Canada: Canadian Tire (in-store and online), Home Depot Canada, Rona, Lowe\'s Canada, and most garden centres. Look for the Summit Chemical brand (most common — orange and white packaging) or Safer\'s Brand (also widely stocked). Prices range from $10–$20 for a 6-pack, $25–$35 for a 20-pack. Stock up at the start of mosquito season (April–May) — supplies often run low by mid-summer.',
   },
   {
     question: 'How much do mosquito dunks cost in Canada?',
-    answer: 'In Canada, expect to pay $12–$20 for a 6-pack of mosquito dunks at major retailers in 2026. Canadian Tire and Home Depot typically list 6-packs at $13.97–$15.99. Rona is usually $14.99–$16.49. Amazon.ca varies $11–$19 depending on seller and Prime status. A 20-pack runs $25–$35 — better value if you have multiple rain barrels or a pond. Prices increase 10–15% in peak season (June–August), so buying in April–May saves money. Each dunk treats 100 sq ft of water for ~30 days, so a 6-pack covers a typical Canadian backyard rain barrel for the entire May–September season.',
+    answer: 'In Canada, expect to pay $12–$20 for a 6-pack of mosquito dunks at major retailers in 2026. Canadian Tire and Home Depot typically list 6-packs at $13.97–$15.99. Rona is usually $14.99–$16.49. A 20-pack runs $25–$35 — better value if you have multiple rain barrels or a pond. Prices increase 10–15% in peak season (June–August), so buying in April–May saves money. Each dunk treats 100 sq ft of water for ~30 days, so a 6-pack covers a typical Canadian backyard rain barrel for the entire May–September season.',
   },
   {
     question: 'Are mosquito dunks BTI-only or do they have other ingredients?',
@@ -56,7 +56,7 @@ const FAQS = [
 
 export const metadata: Metadata = buildMetadata({
   title: 'Mosquito Dunks Canada: Price + Home Depot, Canadian Tire',
-  description: 'Mosquito dunks prices compared: Canadian Tire, Home Depot, Rona & Amazon.ca. What a 6-pack costs in 2026 + how many dunks per rain barrel or pond.',
+  description: 'Mosquito dunks prices compared: Canadian Tire, Home Depot & Rona. What a 6-pack costs in 2026 + how many dunks per rain barrel or pond.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -111,7 +111,6 @@ export default function MosquitoDunksPage() {
                   { name: 'Home Depot Canada', six: '$13.97 – $15.97', twenty: '$26.97 – $32.97', avail: 'In-store + online · pickup same day' },
                   { name: 'Rona',              six: '$14.49 – $16.49', twenty: '$28.99 – $34.49', avail: 'In-store + online' },
                   { name: 'Lowe\'s Canada',    six: '$14.99 – $15.99', twenty: '$29.99 – $33.99', avail: 'In-store + online' },
-                  { name: 'Amazon.ca',         six: '$11 – $19',        twenty: '$24 – $35',       avail: 'Often Prime · check seller reviews' },
                   { name: 'Garden centres',    six: '$13 – $18',        twenty: '$28 – $36',       avail: 'Independent local stocks vary' },
                 ].map(({ name, six, twenty, avail }) => (
                   <tr key={name} className="border-b border-navy-50 last:border-0">

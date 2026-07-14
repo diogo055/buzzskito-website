@@ -132,7 +132,7 @@ export default function BestMosquitoTrapCanadaPage() {
             </table>
           </div>
           <p className="text-xs text-gray-500 mt-3">
-            Prices accurate as of July 2026 across Canadian Tire, Home Depot Canada, Costco Canada, Lee Valley, Cabela&rsquo;s, and Amazon.ca. Add running costs: propane traps $400–$600/season; DynaTrap $90–$150/year in bulbs and cartridges; CO₂ lure traps need refillable CO₂ or octenol.
+            Prices accurate as of July 2026 across Canadian Tire, Home Depot Canada, Costco Canada, Lee Valley, and Cabela&rsquo;s. Add running costs: propane traps $400–$600/season; DynaTrap $90–$150/year in bulbs and cartridges; CO₂ lure traps need refillable CO₂ or octenol.
           </p>
           <div className="mt-5 rounded-xl bg-amber-50 border-l-4 border-amber-400 p-4">
             <p className="text-sm text-gray-800 leading-relaxed">

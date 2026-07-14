@@ -30,7 +30,7 @@ const FAQS = [
   },
   {
     question: 'What are the best mosquito coils to buy in Canada?',
-    answer: 'The three you will actually find on Canadian shelves are PIC Mosquito Repellent Coils (d-allethrin, the best value and widely stocked), OFF! Mosquito Coils (a trusted brand name, often metofluthrin), and citronella coils such as Coghlan\'s (a Canadian camping brand) for people who prefer a plant-based option. All are sold at Canadian Tire, Home Depot Canada, Walmart, most camping stores, and Amazon.ca, typically $6–$14 a pack. Insecticidal (allethrin/metofluthrin) coils outperform citronella coils on effectiveness; citronella coils win on scent and the "natural" label. Buy whichever matches your priority — just burn them outdoors only.',
+    answer: 'The three you will actually find on Canadian shelves are PIC Mosquito Repellent Coils (d-allethrin, the best value and widely stocked), OFF! Mosquito Coils (a trusted brand name, often metofluthrin), and citronella coils such as Coghlan\'s (a Canadian camping brand) for people who prefer a plant-based option. All are sold at Canadian Tire, Home Depot Canada, Walmart, and most camping stores, typically $6–$14 a pack. Insecticidal (allethrin/metofluthrin) coils outperform citronella coils on effectiveness; citronella coils win on scent and the "natural" label. Buy whichever matches your priority — just burn them outdoors only.',
   },
   {
     question: 'Are citronella coils better than regular mosquito coils?',
@@ -93,7 +93,6 @@ export default function MosquitoCoilsCanadaPage() {
                   { name: 'Canadian Tire',       ins: '$7 – $14',  cit: '$6 – $11', note: 'Reliable seasonal stock' },
                   { name: 'Home Depot Canada',   ins: '$6 – $13',  cit: '$6 – $12', note: 'Garden centre + online' },
                   { name: 'Walmart Canada',      ins: '$5 – $12',  cit: '$5 – $10', note: 'Cheapest single packs' },
-                  { name: 'Amazon.ca',           ins: '$8 – $16',  cit: '$7 – $14', note: 'Bulk multipacks · Prime' },
                   { name: 'Cabela\'s / Bass Pro', ins: '$8 – $14',  cit: '$7 – $12', note: 'Camping · Coghlan\'s brand' },
                   { name: 'Dollarama',           ins: '$2 – $4',   cit: '$2 – $4',  note: 'Small packs, variable quality' },
                 ].map(({ name, ins, cit, note }) => (

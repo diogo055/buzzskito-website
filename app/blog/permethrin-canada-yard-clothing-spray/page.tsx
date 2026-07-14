@@ -17,7 +17,7 @@ const FAQS = [
   },
   {
     question: 'Where to buy permethrin spray in Canada?',
-    answer: 'Permethrin clothing spray (Sawyer brand, the most popular) is widely available in Canada at Cabela\'s Canada, Bass Pro Shops Canada, MEC, Canadian Tire, Atmosphere, and Amazon.ca. Pricing for the 24-oz Sawyer permethrin clothing spray runs $24–$38 in Canadian retailers. Permethrin yard concentrate (for outdoor application) is more restricted in Canada — Health Canada PCP regulations limit residential availability. Most yard-application permethrin in Canada is restricted to licensed pest control operators using commercial concentrations.',
+    answer: 'Permethrin clothing spray (Sawyer brand, the most popular) is widely available in Canada at Cabela\'s Canada, Bass Pro Shops Canada, MEC, Canadian Tire, and Atmosphere. Pricing for the 24-oz Sawyer permethrin clothing spray runs $24–$38 in Canadian retailers. Permethrin yard concentrate (for outdoor application) is more restricted in Canada — Health Canada PCP regulations limit residential availability. Most yard-application permethrin in Canada is restricted to licensed pest control operators using commercial concentrations.',
   },
   {
     question: 'Where can I buy permethrin concentrate in Canada?',
@@ -119,7 +119,6 @@ export default function PermethrinCanadaPage() {
                   { name: 'MEC',              small: '$22 – $26',     large: '$28 – $34',     note: 'Hiking + camping audience' },
                   { name: 'Canadian Tire',    small: '$19.99 – $26.99', large: '$26.99 – $36.99', note: 'Spring/summer stock' },
                   { name: 'Atmosphere',       small: '$22 – $28',     large: '$30 – $38',     note: 'Limited stock summer only' },
-                  { name: 'Amazon.ca',        small: '$18 – $26',     large: '$24 – $36',     note: 'Best pricing · Prime' },
                 ].map(({ name, small, large, note }) => (
                   <tr key={name} className="border-b border-navy-50 last:border-0">
                     <td className="px-4 py-3 font-bold text-brand-800">{name}</td>
@@ -148,7 +147,7 @@ export default function PermethrinCanadaPage() {
           <p className="text-xs font-extrabold text-amber-700 uppercase tracking-wider mb-2">Quick Answer</p>
           <h2 className="text-xl font-extrabold text-brand-900 mb-3">Where can I buy permethrin in Canada?</h2>
           <p className="text-base text-gray-800 leading-relaxed">
-            <strong>Sawyer permethrin clothing spray (the only widely-available consumer permethrin in Canada) is sold at Cabela&rsquo;s Canada, Bass Pro, MEC, Canadian Tire, and Amazon.ca for $24–$38 per 24-oz bottle.</strong> Permethrin yard concentrate is restricted to licensed pest control operators under Health Canada PMRA regulations — most US-style yard-spray permethrin products you see at US Home Depots are not legally importable for residential use in Canada. For whole-yard tick + mosquito control, you have three options: (1) hire a licensed Ontario applicator using approved barrier-spray formulations, (2) use BTI (mosquito dunks/bits) for standing-water larvae, or (3) treat your hiking clothing with Sawyer permethrin and use a Thermacell on the patio.
+            <strong>Sawyer permethrin clothing spray (the only widely-available consumer permethrin in Canada) is sold at Cabela&rsquo;s Canada, Bass Pro, MEC, and Canadian Tire for $24–$38 per 24-oz bottle.</strong> Permethrin yard concentrate is restricted to licensed pest control operators under Health Canada PMRA regulations — most US-style yard-spray permethrin products you see at US Home Depots are not legally importable for residential use in Canada. For whole-yard tick + mosquito control, you have three options: (1) hire a licensed Ontario applicator using approved barrier-spray formulations, (2) use BTI (mosquito dunks/bits) for standing-water larvae, or (3) treat your hiking clothing with Sawyer permethrin and use a Thermacell on the patio.
           </p>
         </div>
       </section>

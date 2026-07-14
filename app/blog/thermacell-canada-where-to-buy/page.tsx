@@ -14,11 +14,11 @@ const TITLE = 'Thermacell Canada: Best Models, Prices & Where to Buy 2026'
 const FAQS = [
   {
     question: 'How much does Thermacell cost in Canada?',
-    answer: 'In Canada, expect to pay $35–$60 for a basic Thermacell Patio Shield repeller (the entry-level model), $70–$120 for the rechargeable E55 or E90, and $150–$220 for the premium Liv Smart Mosquito Repellent System (radius mode). Refills typically run $15–$22 for a 12-hour 3-pack and $30–$45 for a 36-hour 9-pack at Canadian Tire, Home Depot, Cabela\'s Canada, MEC, and Amazon.ca. Stock up at the start of mosquito season (April–May) — refills run low by July.',
+    answer: 'In Canada, expect to pay $35–$60 for a basic Thermacell Patio Shield repeller (the entry-level model), $70–$120 for the rechargeable E55 or E90, and $150–$220 for the premium Liv Smart Mosquito Repellent System (radius mode). Refills typically run $15–$22 for a 12-hour 3-pack and $30–$45 for a 36-hour 9-pack at Canadian Tire, Home Depot, Cabela\'s Canada, and MEC. Stock up at the start of mosquito season (April–May) — refills run low by July.',
   },
   {
     question: 'Where to buy Thermacell in Canada?',
-    answer: 'Thermacell devices and refills are stocked at Canadian Tire, Home Depot Canada, Rona, Lowe\'s Canada, Cabela\'s Canada, Bass Pro Canada, MEC (Mountain Equipment Company), Amazon.ca, and most outdoor sporting goods stores. Canadian Tire usually has the best pricing and stocks the full lineup including Patio Shield, E55, E90, and Liv smart system. Cabela\'s and MEC stock more of the camping/portable models. Amazon.ca often has the best prices on refills if you buy in bulk.',
+    answer: 'Thermacell devices and refills are stocked at Canadian Tire, Home Depot Canada, Rona, Lowe\'s Canada, Cabela\'s Canada, Bass Pro Canada, MEC (Mountain Equipment Company), Amazon.ca, and most outdoor sporting goods stores. Canadian Tire usually has the best pricing and stocks the full lineup including Patio Shield, E55, E90, and Liv smart system. Cabela\'s and MEC stock more of the camping/portable models.',
   },
   {
     question: 'Do Thermacell repellers actually work?',
@@ -66,13 +66,13 @@ const FAQS = [
   },
   {
     question: 'How much are Thermacell refills in Canada?',
-    answer: 'In Canada, a standard mat refill 3-pack (12 hours of protection) runs $15–$22, a 12-hour fuel cartridge for Patio Shield models runs $12–$18, and the 36-hour mega value pack runs $30–$45. Liv system refills cost a little more per hour but last longer. Canadian Tire, Home Depot Canada, and Amazon.ca all stock them; Amazon.ca usually wins on bulk multi-packs. Buy refills in spring — stock runs low and prices creep up during the June–July peak.',
+    answer: 'In Canada, a standard mat refill 3-pack (12 hours of protection) runs $15–$22, a 12-hour fuel cartridge for Patio Shield models runs $12–$18, and the 36-hour mega value pack runs $30–$45. Liv system refills cost a little more per hour but last longer. Canadian Tire, Home Depot Canada, and Amazon.ca all stock them. Buy refills in spring — stock runs low and prices creep up during the June–July peak.',
   },
 ]
 
 export const metadata: Metadata = buildMetadata({
   title: TITLE,
-  description: 'Compare Thermacell in Canada: Patio Shield, E55, E90 & Liv prices at Canadian Tire & Amazon.ca, refill costs, and do they really work in GTA yards.',
+  description: 'Compare Thermacell in Canada: Patio Shield, E55, E90 & Liv prices at Canadian Tire, refill costs, and do they really work in GTA yards.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -124,7 +124,6 @@ export default function ThermacellCanadaPage() {
                   { name: 'Rona',              basic: '$39.99 – $49.99', e55: '$84.99 – $99.99',   liv: '$189 – $229' },
                   { name: 'Cabela\'s Canada',  basic: '$44.99 – $54.99', e55: '$84.99 – $99.99',   liv: 'Limited stock' },
                   { name: 'MEC',               basic: '$44.95 – $54.95', e55: '$84.95 – $94.95',   liv: 'Not stocked' },
-                  { name: 'Amazon.ca',         basic: '$32 – $45',        e55: '$72 – $89',         liv: '$159 – $215' },
                 ].map(({ name, basic, e55, liv }) => (
                   <tr key={name} className="border-b border-navy-50 last:border-0">
                     <td className="px-4 py-3 font-bold text-brand-800">{name}</td>
@@ -153,7 +152,7 @@ export default function ThermacellCanadaPage() {
           <p className="text-xs font-extrabold text-amber-700 uppercase tracking-wider mb-2">Quick Answer</p>
           <h2 className="text-xl font-extrabold text-brand-900 mb-3">Do Thermacell repellers actually work in Canadian backyards?</h2>
           <p className="text-base text-gray-800 leading-relaxed">
-            <strong>Yes — Thermacell works in still air, providing a 4.5–5 metre repellent zone around the device using heated allethrin vapour, with 70–95% mosquito reduction in independent tests.</strong> However, performance drops sharply in wind, on open lawns, or near stagnant water. Best for patios, decks, and small gathering spots — NOT whole-yard protection. Pricing ranges from $35 (basic Patio Shield) to $220 (Liv smart system) at Canadian Tire, Home Depot, and Amazon.ca. For a typical GTA 5,000 sq ft yard you&rsquo;d need 4+ units running simultaneously — which costs more than professional barrier spray that covers the entire yard for 21–30 days.
+            <strong>Yes — Thermacell works in still air, providing a 4.5–5 metre repellent zone around the device using heated allethrin vapour, with 70–95% mosquito reduction in independent tests.</strong> However, performance drops sharply in wind, on open lawns, or near stagnant water. Best for patios, decks, and small gathering spots — NOT whole-yard protection. Pricing ranges from $35 (basic Patio Shield) to $220 (Liv smart system) at Canadian Tire and Home Depot. For a typical GTA 5,000 sq ft yard you&rsquo;d need 4+ units running simultaneously — which costs more than professional barrier spray that covers the entire yard for 21–30 days.
           </p>
         </div>
       </section>
@@ -272,7 +271,7 @@ export default function ThermacellCanadaPage() {
               </tbody>
             </table>
           </div>
-          <p className="not-prose mb-2 text-sm text-gray-600">Amazon.ca usually has the best price on bulk refill multi-packs — buy in spring before the June–July markup:</p>
+          <p className="not-prose mb-2 text-sm text-gray-600">Amazon.ca stocks bulk refill multi-packs — buy in spring before the June–July markup:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink search="thermacell mosquito repellent refill value pack">Check refill prices on Amazon.ca →</BuyLink>
           </div>

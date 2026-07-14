@@ -90,7 +90,6 @@ export default function MosquitoRepellentStickersPatchesCanadaPage() {
               </thead>
               <tbody>
                 {[
-                  { name: 'Amazon.ca',        stock: 'BuzzPatch, Cliganic, citronella patches', price: '$12 – $28 / pack', note: 'Best selection · often Prime' },
                   { name: 'Well.ca',          stock: 'Natural / DEET-free patches',              price: '$14 – $26 / pack', note: 'Canadian natural-products retailer' },
                   { name: 'Walmart Canada',   stock: 'Citronella patches, some kids\' stickers',  price: '$10 – $22 / pack', note: 'In-store seasonal + online' },
                   { name: 'Canadian Tire',    stock: 'Citronella patches, clip-ons',            price: '$12 – $24 / pack', note: 'May–Aug stock' },

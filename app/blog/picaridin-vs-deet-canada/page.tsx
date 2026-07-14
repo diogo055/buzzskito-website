@@ -116,7 +116,6 @@ export default function PicaridinVsDeetPage() {
                   { name: 'Rexall',           pic: '$10 – $15',       deet: '$8 – $13',       note: 'Year-round' },
                   { name: 'MEC',              pic: '$12 – $18',       deet: '$10 – $14',      note: 'Outdoor focus · Sawyer + Natrapel' },
                   { name: 'Cabela\'s Canada', pic: '$11 – $18',       deet: '$9 – $14',       note: 'Outdoor specialty' },
-                  { name: 'Amazon.ca',        pic: '$8 – $19',        deet: '$7 – $14',       note: 'Best pricing on multi-packs' },
                 ].map(({ name, pic, deet, note }) => (
                   <tr key={name} className="border-b border-navy-50 last:border-0">
                     <td className="px-4 py-3 font-bold text-brand-800">{name}</td>

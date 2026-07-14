@@ -95,7 +95,6 @@ export default function OffDeepWoodsDeetPage() {
                   { name: 'Home Depot Canada',   deep: '$9 – $13',           fam: '$7 – $10',        note: 'Spring/summer stock' },
                   { name: 'Walmart Canada',      deep: '$9 – $13',           fam: '$7 – $10',        note: 'Usually cheapest single can' },
                   { name: 'Shoppers Drug Mart',  deep: '$11 – $15',          fam: '$8 – $12',        note: 'Convenient · PC Optimum points' },
-                  { name: 'Amazon.ca',           deep: '$10 – $15',          fam: '$8 – $12',        note: 'Full lineup · often Prime' },
                 ].map(({ name, deep, fam, note }) => (
                   <tr key={name} className="border-b border-navy-50 last:border-0">
                     <td className="px-4 py-3 font-bold text-brand-800">{name}</td>
