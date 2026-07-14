@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && npm run check:amazon",
+    "check:amazon": "node scripts/check-amazon.mjs",
     "postbuild": "node scripts/index-urls.mjs",
     "start": "next start",
     "lint": "next lint"
