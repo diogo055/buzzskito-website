@@ -65,7 +65,16 @@ Secondary latent issues, all removed:
 4. Confirm the disclosure now renders on every page with a link, in the static HTML.
 5. Confirm `npm run build` passes the guard with the tag set.
 
-There is **no hardcoded tag anywhere** and **no client-side link rewriting**. The tag lives only in the environment variable, so what a reviewer sees in a browser is identical to the static HTML: one storefront (amazon.ca), one tracking ID, on 100% of links.
+There is **no client-side link rewriting**. The tag is set in one place (a `PUBLIC_AMAZON_TAG` env var, provided via `.env.production` or a Vercel dashboard setting, which overrides), so what a reviewer sees in a browser is identical to the static HTML: one storefront (amazon.ca), one tracking ID, on 100% of links.
+
+## 6. Activation (2026-07-13, post-approval)
+
+New Amazon.ca Associate ID **`buzzskito200b-20`** issued. Activated by setting `PUBLIC_AMAZON_TAG=buzzskito200b-20` in `.env.production`. Verified on the deployable build:
+- **816 Amazon URLs, 100% carrying `tag=buzzskito200b-20`.** Zero untagged, zero old/rejected tag (`buzzskito20-20`), zero `amazon.com` US-swap.
+- Build guard passes in tag-set mode: *"Every Amazon URL carries tag=buzzskito200b-20."*
+- Disclosure ("As an Amazon Associate…") renders in static HTML.
+- Search terms are fully RFC-3986 encoded (no stray apostrophes in URLs).
+To disable/fail-closed: empty the `PUBLIC_AMAZON_TAG` line and redeploy.
 
 ---
 
