@@ -1068,6 +1068,97 @@ export const NEW_BLOGS_16 = [
   },
 ]
 
+// ── Wave 17 — high-ticket Amazon product buyer's guides (Jul 14 2026) ─────────
+// Ahrefs-validated CA buyer-intent clusters (~7,800/mo combined, KD 0-4), all
+// products amazon.ca-availability-confirmed. Screen tents (~2,500/mo) was the
+// single biggest coverage gap; propane traps carry the highest commission/sale.
+export const NEW_BLOGS_17 = [
+  {
+    slug: 'best-screen-tent-canada',
+    title: 'Best Screen Tents & Screen Houses in Canada 2026 — Coleman, CAMPROS, EAST OAK Compared',
+    excerpt: 'Coleman Instant 11x11, Skylodge 15x13, Back Home 12x10, CAMPROS and EAST OAK compared on size, setup speed, wind tolerance, and black-fly season performance.',
+    date: '2026-07-14',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'propane-mosquito-trap-canada',
+    title: 'Propane Mosquito Traps in Canada 2026: Are $1,000+ CO2 Traps Worth It?',
+    excerpt: 'How propane mosquito traps make a CO2 plume to kill biting females, the real 1-acre coverage and fuel-cost math, and when a $1,000+ trap beats barrier spray.',
+    date: '2026-07-14',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'backpack-sprayer-canada',
+    title: 'Best Backpack Sprayers in Canada 2026 — Battery vs Manual for Mosquito & Tick Yard Treatment',
+    excerpt: 'Battery vs manual backpack sprayers — what GTA mosquito control technicians actually carry, PMRA-legal products for Ontario, and the nozzle & PSI settings that work.',
+    date: '2026-07-14',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'thermacell-e90-canada-review',
+    title: 'Thermacell E90 Review Canada 2026 — vs E55, vs EX90 & Which Refills to Buy',
+    excerpt: 'Full Canadian review of the Thermacell E90 rechargeable repeller: 9-hour runtime, real-world 20-ft zone performance, E90 vs E55 vs EX90, and which refills to buy.',
+    date: '2026-07-14',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'electric-fly-swatter-canada',
+    title: 'Best Electric Fly Swatter Canada 2026 — The Executioner vs Zap It vs Black Flag',
+    excerpt: 'The Executioner vs Zap It vs Black Flag on Amazon.ca — grid voltage, single vs 3-layer mesh safety, battery vs USB, and what a bug zapper racket honestly kills.',
+    date: '2026-07-14',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'tick-tubes-canada',
+    title: 'Tick Tubes in Canada 2026: Do They Actually Work?',
+    excerpt: 'How permethrin-cotton tick tubes break the deer-tick life cycle through mice, when and where to place them in Ontario yards, and Thermacell vs generic vs DIY.',
+    date: '2026-07-14',
+    category: 'tick' as const,
+  },
+  {
+    slug: 'misting-fan-canada',
+    title: 'Best Outdoor Misting Fans in Canada 2026 for Patios — and Do They Keep Mosquitoes Away?',
+    excerpt: 'Do misting fans keep mosquitoes away? An honest guide for Canadian patios: cooling for GTA heat waves, complete fans vs kits, and fan vs zapper vs barrier spray.',
+    date: '2026-07-14',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'best-solar-bug-zapper-canada',
+    title: 'Best Solar Bug Zappers in Canada 2026 — What a $30–60 Solar Zapper Can Actually Kill',
+    excerpt: 'Honest guide to solar bug zappers in Canada: what stake and lantern zappers really kill, where solar beats plug-in, and when to step up to a Flowtron or trap.',
+    date: '2026-07-14',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'flowtron-bug-zapper-canada',
+    title: 'Flowtron Bug Zapper Canada Review 2026: BK-15D vs BK-40D vs BK-80D',
+    excerpt: 'BK-15D vs BK-40D vs BK-80D coverage compared, the octenol mosquito cartridge, BF-190 bulb replacement, and why placement 25 feet from the patio matters.',
+    date: '2026-07-14',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'co2-mosquito-trap-canada',
+    title: 'CO2 Mosquito Traps in Canada 2026: Biogents vs Propane Traps (No Tank Required)',
+    excerpt: 'How research-grade Biogents CO2 traps compare to propane traps like Mosquito Magnet — sugar-yeast vs propane CO2, the BG-GAT trick, and real cost per season.',
+    date: '2026-07-14',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'bug-protective-clothing-canada',
+    title: 'Bug Jackets, Head Nets & Protective Clothing in Canada 2026 — Black Fly Season Survival Kit',
+    excerpt: 'The best bug jackets, mosquito head nets and PMRA-legal permethrin-treated clothing in Canada — plus a black-fly season survival kit for cottage country.',
+    date: '2026-07-14',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'patio-misting-system-canada',
+    title: 'Patio Misting Systems in Canada 2026: DIY Kits vs Professional Mosquito Misting Installs',
+    excerpt: 'Cooling mist vs insecticide mist, the best hose-fed kits on Amazon.ca, why MistAway-style installs are rare in Canada, water pressure needs, and winterizing.',
+    date: '2026-07-14',
+    category: 'mosquito' as const,
+  },
+]
+
 // ── Season helpers ─────────────────────────────────────────────────────────────
 
 export const PEAK_SEASON = 'May through July'
