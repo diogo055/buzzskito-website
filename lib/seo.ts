@@ -313,7 +313,11 @@ export function blogPostingSchema(opts: {
 }
 
 // reviewSchema() REMOVED — Google rejects self-served reviews on the business's own site.
-// AggregateRating on localBusinessSchema() is sufficient and valid for star snippets.
+// AggregateRating is emitted (opt-in) ONLY on the entity pages — homepage + /reviews — for
+// entity identity + AI/LLM machine-readability, NOT for star snippets: Google's self-serving-
+// reviews policy makes a business rating itself on its own site ineligible for review stars.
+// Do NOT expand it to city/blog/service pages — off-topic markup risks a spammy-structured-data
+// action and cannot earn stars anyway. Real review stars come from the Google Business Profile.
 
 // speakableSchema — marks key sections for Google AI / voice results.
 // Pass the canonical path of the page (e.g. '/toronto-mosquito-control').
