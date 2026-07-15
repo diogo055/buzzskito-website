@@ -199,6 +199,10 @@ export default function MosquitoScreensPatioCanadaPage() {
           <h3>Screened gazebos (best for a permanent room)</h3>
           <p>If you want something that stays up all summer, a steel-frame or hardtop screened gazebo is a proper outdoor room: a solid roof (soft-top or aluminum hardtop) with zip-up mosquito netting walls you can roll open on calm days. Costco Canada is usually the best place to buy the larger 10&times;12 and 12&times;14 models during its spring sale; Canadian Tire and Home Depot stock mid-size units. Budget $300–$700 for a good soft-top and $900–$2,000 for a hardtop that doubles as rain shelter.</p>
 
+          <h3>Gazebo mosquito netting (replacement walls &amp; add-on kits)</h3>
+          <p>The netting walls are always the first part of a screened gazebo to fail — zippers strip, mesh tears at the corners, and UV degrades the fabric long before the steel frame gives out. Don&rsquo;t scrap a $700 gazebo over worn mesh: <strong>replacement gazebo mosquito netting</strong> is sold as universal four-panel sets sized to the common 10&times;10, 10&times;12, and 12&times;14 frames, and the same kits add netting walls to an open (unscreened) gazebo. Measure post-to-post along the top rail before ordering, and choose sets with zippered door overlaps rather than plain magnet seams if your yard gets wind. <BuyLink search="gazebo replacement mosquito netting">Check gazebo replacement netting on Amazon.ca &rarr;</BuyLink></p>
+          <p>If the frame itself is done — or you want something portable for camping and cottage weekends — see our <Link href="/blog/best-screen-tent-canada">best screen tents in Canada</Link> guide before buying another full gazebo.</p>
+
           <h3>Magnetic screen doors (the cheapest high-impact fix)</h3>
           <p>If mosquitoes get into the house every time someone carries food out to the deck, a magnetic screen door is the single cheapest upgrade you can make. It is a split mesh curtain with magnets down the middle that snap shut behind you — walk through hands-free, and the door seals itself. At $25–$60 it fits standard hinged and sliding patio doors. Buy one matched to your exact frame size, reinforce the top edge with the included hook-and-loop strip so it does not sag, and expect the bargain versions to need replacing every year or two.</p>
 
@@ -246,6 +250,7 @@ export default function MosquitoScreensPatioCanadaPage() {
           <h2>Related Reading</h2>
           <ul>
             <li><Link href="/blog/mosquito-net-canada">Mosquito Nets in Canada — Bed, Patio &amp; Travel Netting</Link></li>
+            <li><Link href="/blog/best-screen-tent-canada">Best Screen Tents in Canada — Portable Bug Shelters Compared</Link></li>
             <li><Link href="/blog/thermacell-canada-where-to-buy">Thermacell Canada — Where to Buy + Do They Work</Link></li>
             <li><Link href="/pool-backyard-mosquito-control">Pool &amp; Backyard Mosquito Control</Link></li>
             <li><Link href="/wedding-mosquito-control">Mosquito Control for Backyard Weddings &amp; Events</Link></li>

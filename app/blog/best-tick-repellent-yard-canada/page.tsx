@@ -82,6 +82,11 @@ export default function BestTickRepellentYardPage() {
           </div>
           <p className="lead text-xl text-gray-700 leading-relaxed mb-6">Personal tick repellents on your skin protect <em>you</em>. Yard-scale tick repellents protect your <em>property</em> — and that&rsquo;s a different problem with different solutions. Here&rsquo;s what works in Canadian yards in 2026.</p>
 
+          <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+            <p className="text-xs font-extrabold text-emerald-700 uppercase tracking-wider mb-2">Quick Answer</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The best tick repellent for Ontario yards is a Health Canada-approved professional barrier spray — it cuts tick populations 80&ndash;95% by targeting the leaf litter and lawn edges where ticks actually live. Best DIY runners-up: permethrin granules and cedar-oil sprays like Wondercide, layered over free habitat fixes (short grass, a 3-foot mulch barrier).</p>
+          </div>
+
           <h2>The Tier System for Yard Tick Repellent</h2>
 
           <h3>🟢 Tier 1: Most effective</h3>
@@ -149,6 +154,7 @@ export default function BestTickRepellentYardPage() {
             <li><Link href="/blog/tick-prevention-yard-ontario-safe-for-kids">Tick Prevention in Your Yard — Safe for Kids</Link></li>
             <li><Link href="/blog/lyme-disease-tick-prevention-ontario">Lyme Disease Prevention in Ontario</Link></li>
             <li><Link href="/blog/best-tick-control-yard-treatment">Best Tick Control Yard Treatment</Link></li>
+            <li><Link href="/blog/tick-tubes-canada">Tick Tubes in Canada — Do They Actually Work?</Link></li>
             <li><Link href="/blog/lyme-disease-risk-areas-ontario-2026">Ontario Lyme Risk Areas 2026</Link></li>
             <li><Link href="/tick-control">BuzzSkito Tick Control Service</Link></li>
           </ul>

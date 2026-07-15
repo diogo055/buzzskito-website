@@ -99,13 +99,13 @@ export default function MosquitoRepellentGuidePage() {
             <ul className="space-y-2 text-gray-800 text-base leading-relaxed">
               <li><strong>Best overall repellent:</strong> 20% picaridin (Natrapel / Sawyer) — 6–10 hours, odourless, and it won&rsquo;t melt plastics or fabrics.</li>
               <li><strong>Best for heavy bug pressure:</strong> 25–30% DEET (OFF Deep Woods) — the pick for cottage docks and dense bush.</li>
-              <li><strong>Best mosquito repellent device:</strong> the Thermacell patio repeller — a ~20&nbsp;ft (6&nbsp;m) protection zone with no spray on your skin.</li>
+              <li><strong>Best mosquito repellent device:</strong> the Thermacell patio repeller — a ~20&nbsp;ft (6&nbsp;m) protection zone with no spray on your skin. Considering the rechargeable flagship instead? Read our <Link href="/blog/thermacell-e90-canada-review" className="text-brand-700 underline">Thermacell E90 review</Link>.</li>
               <li><strong>Best for a whole yard:</strong> a <Link href="/mosquito-control" className="text-brand-700 underline">professional barrier spray</Link> — it removes the mosquitoes instead of just covering you.</li>
             </ul>
           </div>
 
           <h2 id="best-repellents">Best Mosquito Repellents in Canada (2026)</h2>
-          <p>Ranked by how well they hold up in real-world use and peer-reviewed testing. Every one below is protection you wear or place — for hands-off, whole-yard control skip to the strategy section.</p>
+          <p>Ranked by how well they hold up in real-world use and peer-reviewed testing. Every one below is protection you wear or place — for hands-off, whole-yard control skip to the strategy section. And if you only care about devices — Thermacell, traps, zappers — we&rsquo;ve ranked those head-to-head in our <Link href="/blog/best-mosquito-repellent-device-canada">best mosquito repellent device guide</Link>.</p>
           <div className="not-prose my-6 overflow-x-auto">
             <table className="w-full text-left text-sm border-collapse">
               <thead>
@@ -185,7 +185,7 @@ export default function MosquitoRepellentGuidePage() {
             <li><strong>Ultrasonic devices</strong> — Studies confirm: zero effect.</li>
             <li><strong>Bracelets and wristbands</strong> — Protects only the wrist.</li>
             <li><strong>Generic essential oil blends</strong> — 15–60 minutes weak repellency.</li>
-            <li><strong>Bug zappers</strong> — Kill mostly beneficial insects, not biting mosquitoes.</li>
+            <li><strong>Bug zappers</strong> — Kill mostly beneficial insects, not biting mosquitoes. (CO2 traps are the one trap category with real evidence behind it — see our <Link href="/blog/mosquito-magnet-canada">Mosquito Magnet review</Link>.)</li>
             <li><strong>Mosquito-repelling plant beds</strong> — Tiny effect; oils only release when leaves are crushed.</li>
           </ul>
 
@@ -226,6 +226,9 @@ export default function MosquitoRepellentGuidePage() {
             <li><Link href="/blog/natural-mosquito-repellent-ontario">Natural Mosquito Repellent — Honest Guide</Link></li>
             <li><Link href="/blog/mosquito-repellent-plants-ontario">10 Mosquito-Repelling Plants for Ontario</Link></li>
             <li><Link href="/blog/is-mosquito-spray-safe-kids-pets">Is Mosquito Spray Safe for Kids and Pets?</Link></li>
+            <li><Link href="/blog/best-mosquito-repellent-device-canada">Best Mosquito Repellent Devices in Canada — Ranked</Link></li>
+            <li><Link href="/blog/thermacell-e90-canada-review">Thermacell E90 Review — Canada</Link></li>
+            <li><Link href="/blog/mosquito-magnet-canada">Mosquito Magnet Review — Is It Worth It in Canada?</Link></li>
             <li><Link href="/mosquito-control">Professional Yard Barrier Spray</Link></li>
           </ul>
         </div>

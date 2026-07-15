@@ -2,6 +2,8 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import AuthorByline from '@/components/AuthorByline'
+import BuyLink from '@/components/BuyLink'
+import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 
 const SLUG = 'west-nile-virus-toronto-2026'
@@ -156,9 +158,10 @@ export default function WestNileTorontoPage() {
           <p>There is <strong>no human vaccine and no specific antiviral treatment</strong> for West Nile virus. Care is supportive. That makes bite prevention the entire strategy.</p>
 
           <h2>What Actually Lowers Your Risk</h2>
+          <AffiliateDisclosure />
           <ol>
             <li><strong>Kill the stagnant water weekly.</strong> Scrub gutters clear of leaf sludge, tip and scrub birdbaths and buckets, and remove old tires. Scrubbing matters &mdash; mosquito eggs stick to container walls and survive drying.</li>
-            <li><strong>Larvicide what you cannot drain.</strong> A BTI dunk in a rain barrel or ornamental pond kills larvae within 24&ndash;48 hours and is harmless to fish, pets, birds, and people. See our <Link href="/blog/mosquito-dunks-canada-guide">Mosquito Dunks guide</Link>.</li>
+            <li><strong>Larvicide what you cannot drain.</strong> A BTI dunk in a rain barrel or ornamental pond kills larvae within 24&ndash;48 hours and is harmless to fish, pets, birds, and people. See our <Link href="/blog/mosquito-dunks-canada-guide">Mosquito Dunks guide</Link>. <BuyLink search="summit mosquito dunks">Check Mosquito Dunks on Amazon.ca →</BuyLink> Granular Mosquito Bits give a faster knockdown using the same Bti active. <BuyLink search="summit mosquito bits">Check Mosquito Bits on Amazon.ca →</BuyLink></li>
             <li><strong>Cover up at dusk and dawn</strong>, when <em>Culex</em> feeds. Long sleeves, and a Health Canada-approved repellent with <strong>DEET or icaridin</strong>. See our <Link href="/blog/picaridin-vs-deet-canada">icaridin vs DEET comparison</Link>.</li>
             <li><strong>Fix screens</strong> on windows and doors.</li>
             <li><strong>Reduce the resting adult population.</strong> <Link href="/mosquito-control">A professional barrier spray</Link> treats the shaded vegetation, hedge interiors, and fence lines where adult mosquitoes spend the day, with up to 30 days of residual protection through the August peak.</li>

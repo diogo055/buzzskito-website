@@ -383,7 +383,7 @@ export default function DeadliestAnimalInCanadaPage() {
       <section className="bg-gradient-to-br from-emerald-50 via-teal-50 to-blue-50 py-14 px-4 border-y-4 border-emerald-200">
         <div className="max-w-5xl mx-auto">
           <h2 className="text-3xl font-extrabold text-brand-900 mb-2">Are mosquitoes dangerous in Canada?</h2>
-          <p className="text-base text-gray-700 mb-8 max-w-3xl">Yes &mdash; through West Nile virus, not malaria. And the risk is not steady: Canadian WNV case counts swing dramatically from year to year, which is exactly why public-health agencies treat each season as unpredictable.</p>
+          <p className="text-base text-gray-700 mb-8 max-w-3xl">Yes &mdash; through <Link href="/blog/west-nile-virus-mosquito-risk-ontario" className="text-brand-700 hover:underline">West Nile virus</Link>, not malaria. And the risk is not steady: Canadian WNV case counts swing dramatically from year to year, which is exactly why public-health agencies treat each season as unpredictable.</p>
 
           <div className="rounded-2xl border-2 border-emerald-200 bg-white p-6 shadow-sm">
             <h3 className="text-lg font-extrabold text-brand-900 mb-1">West Nile virus &mdash; human cases in Canada (PHAC)</h3>

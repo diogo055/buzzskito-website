@@ -267,6 +267,8 @@ export default function BlackFliesOntarioPage() {
           <li><Link href="/blog/how-to-prevent-mosquitoes-in-your-backyard" className="text-brand-700 hover:underline">12 Ways to Prevent Mosquitoes in Your Backyard</Link></li>
           <li><Link href="/blog/picaridin-vs-deet-canada" className="text-brand-700 hover:underline">Picaridin vs DEET: Which Repellent Works Best in Canada?</Link></li>
           <li><Link href="/blog/permethrin-canada-yard-clothing-spray" className="text-brand-700 hover:underline">Permethrin in Canada: Yard &amp; Clothing Spray Guide</Link></li>
+          <li><Link href="/blog/bug-protective-clothing-canada" className="text-brand-700 hover:underline">Bug-Protective Clothing: Jackets, Head Nets &amp; Suits for Canada</Link></li>
+          <li><Link href="/blog/best-screen-tent-canada" className="text-brand-700 hover:underline">Best Screen Tents &amp; Gazebos for Canadian Backyards</Link></li>
           <li><Link href="/toronto-mosquito-control" className="text-brand-700 hover:underline">Toronto Mosquito Control</Link></li>
           <li><Link href="/mosquito-control" className="text-brand-700 hover:underline">BuzzSkito Mosquito Control Services</Link></li>
         </ul>

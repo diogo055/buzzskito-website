@@ -271,6 +271,8 @@ export default function PicaridinVsDeetPage() {
 
           <h2>Related Reading</h2>
           <ul>
+            <li><Link href="/blog/off-deep-woods-deet-bug-spray-canada">OFF! Deep Woods DEET Bug Spray — Canada Review</Link></li>
+            <li><Link href="/blog/best-bug-spray-for-kids-canada">Best Bug Spray for Kids in Canada</Link></li>
             <li><Link href="/blog/permethrin-canada-yard-clothing-spray">Permethrin Canada — Clothing Spray Guide</Link></li>
             <li><Link href="/blog/thermacell-canada-where-to-buy">Thermacell Canada Guide</Link></li>
             <li><Link href="/blog/mosquito-repellent-guide-ontario-2026">Complete Ontario Mosquito Repellent Guide 2026</Link></li>

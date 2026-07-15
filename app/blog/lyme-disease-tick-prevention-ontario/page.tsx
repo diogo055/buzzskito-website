@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
+import BuyLink from '@/components/BuyLink'
+import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { TICK_BLOGS } from '@/lib/constants'
 
@@ -193,6 +195,11 @@ export default function LymeDiseasePage() {
           <li><strong>Save the tick</strong> in a sealed bag or container with the date noted. You can submit it for identification at <a href="https://etick.ca" target="_blank" rel="noopener noreferrer" className="text-brand-700 hover:underline">eTick.ca</a>, a free Public Health Agency of Canada tool that provides species identification and risk assessment.</li>
           <li><strong>Monitor for symptoms</strong> for 30 days. See a doctor if a rash, fever, or flu-like illness develops. Mention the tick bite and the date.</li>
         </ol>
+        <AffiliateDisclosure />
+        <p>
+          A purpose-made removal hook like the Tick Twister grips the mouthparts at skin level without squeezing the body — worth keeping in the first-aid kit if you live near a ravine or walk a dog daily.{' '}
+          <BuyLink search="tick twister removal tool">Check price on Amazon.ca →</BuyLink>
+        </p>
         <p>
           For a detailed step-by-step guide including what to do with the tick after removal, see our post on <Link href="/blog/how-to-remove-tick-safely" className="text-brand-700 hover:underline">how to remove a tick safely</Link>.
         </p>
@@ -213,6 +220,9 @@ export default function LymeDiseasePage() {
           <li>Discourage deer with fencing if your property backs onto a greenbelt</li>
         </ul>
         <p>
+          A passive layer worth adding: permethrin tick tubes let mice carry treated cotton back to their nests, killing the larval ticks that feed on them before those ticks ever quest for your family. See our <Link href="/blog/tick-tubes-canada" className="text-brand-700 hover:underline">guide to tick tubes in Canada</Link> for placement and timing.
+        </p>
+        <p>
           For the most reliable yard protection, professional tick barrier spray treats exactly the zones where blacklegged ticks hide and wait. Our <Link href="/tick-control" className="text-brand-700 hover:underline">tick control treatments</Link> apply a Health Canada-registered residual formula to garden edges, foundation plantings, shaded turf, and wood borders — the areas that matter. One treatment provides up to 30 days of protection; we recommend two applications timed to spring nymph season and fall adult activity.
         </p>
         <p>
@@ -220,11 +230,18 @@ export default function LymeDiseasePage() {
         </p>
         <h3>On your body</h3>
         <ul>
-          <li>Apply Health Canada-approved repellent containing DEET (20–30%) or icaridin to exposed skin</li>
+          <li>Apply Health Canada-approved repellent containing DEET (20–30%) or icaridin to exposed skin.{' '}
+            <BuyLink search="icaridin insect repellent canada">Icaridin repellent on Amazon.ca →</BuyLink>
+          </li>
           <li>Wear light-coloured clothing — ticks are easier to spot on pale fabric</li>
           <li>Tuck pants into socks in long grass or wooded areas</li>
-          <li>Permethrin-treated clothing provides excellent protection for people who spend a lot of time outdoors</li>
+          <li>Permethrin-treated clothing provides excellent protection for people who spend a lot of time outdoors — permethrin gaiters cover the ankle-to-knee zone where most ticks latch on.{' '}
+            <BuyLink search="insectguard permethrin gaiters">Permethrin gaiters on Amazon.ca →</BuyLink>
+          </li>
         </ul>
+        <p>
+          For a full head-to-toe rundown of treated clothing options, see our <Link href="/blog/bug-protective-clothing-canada" className="text-brand-700 hover:underline">bug-protective clothing guide for Canada</Link>.
+        </p>
         <h3>After being outdoors</h3>
         <ul>
           <li>Do a full tick check of yourself, children, and pets within two hours of coming inside — pay attention to the scalp, behind the ears, armpits, groin, and behind the knees</li>

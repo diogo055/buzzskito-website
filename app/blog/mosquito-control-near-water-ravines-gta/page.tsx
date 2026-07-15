@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
+import BuyLink from '@/components/BuyLink'
+import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { NEW_BLOGS, MOSQUITO_BLOGS } from '@/lib/constants'
 
@@ -89,7 +91,8 @@ export default function MosquitoControlNearWaterPage() {
           <li><strong>Ponds surrounded by dense vegetation:</strong> Overhanging plants, dense marginal planting, and shaded pond edges give adult mosquitoes resting cover immediately adjacent to the breeding source.</li>
           <li><strong>Seasonal ponds and drainage swales:</strong> Low areas in your yard that hold water for 5–7 days after rain can be completing larval cycles without being identified as ponds.</li>
         </ul>
-        <p>For ornamental ponds, Bti (Bacillus thuringiensis israelensis) mosquito dunks are an effective, fish-safe larval control option. For stormwater management ponds and drainage features you don&rsquo;t control, the strategy shifts entirely to adult control through barrier spray on your property.</p>
+        <AffiliateDisclosure />
+        <p>For ornamental ponds, Bti (Bacillus thuringiensis israelensis) mosquito dunks are an effective, fish-safe larval control option — one floating dunk slowly releases Bti for about 30 days. <BuyLink search="summit mosquito dunks">Check Mosquito Dunks on Amazon.ca →</BuyLink> For the shallow low spots and drainage swales that pool for 5&ndash;7 days after rain, granular Mosquito Bits release Bti immediately for a faster larval knockdown. <BuyLink search="summit mosquito bits">Check Mosquito Bits on Amazon.ca →</BuyLink> For stormwater management ponds and drainage features you don&rsquo;t control, the strategy shifts entirely to adult control through barrier spray on your property.</p>
 
         <h2>Stormwater Management Ponds: The New Suburban Reality</h2>
         <p>Virtually every GTA subdivision built since 1990 includes retention or detention ponds as part of the stormwater management system. These ponds — common in new areas of <Link href="/brampton-mosquito-control" className="text-brand-700">Brampton</Link>, <Link href="/vaughan-mosquito-control" className="text-brand-700">Vaughan</Link>, <Link href="/milton-mosquito-control" className="text-brand-700">Milton</Link>, and <Link href="/markham-mosquito-control" className="text-brand-700">Markham</Link> — are designed for water quality and flood management, not mosquito prevention. Their shallow margins, emergent vegetation, and minimal circulation make them excellent mosquito breeding sites.</p>

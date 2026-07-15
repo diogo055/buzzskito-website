@@ -203,6 +203,11 @@ export default function LaserMosquitoKillerPhotonMatrixPage() {
             <li><strong>Coverage is small.</strong> Even the optimistic claims describe a few metres &mdash; a patio corner, not a whole yard. Mosquitoes breed and rest across your entire property and drift in from neighbours.</li>
           </ul>
 
+          <h2>Laser Bug Zapper vs. Traditional Bug Zapper: Not the Same Thing</h2>
+          <p>A lot of shoppers land on this page searching for a <strong>laser bug zapper</strong>, so it&rsquo;s worth untangling two very different devices that share a name. A <em>traditional</em> bug zapper is a passive UV lamp with an electrified grid &mdash; insects fly into it and get zapped. It&rsquo;s cheap, it&rsquo;s in every Canadian hardware store, and as our <Link href="/blog/bug-zappers-canada-do-they-work">full bug zapper breakdown</Link> shows, it kills almost entirely moths and beetles &mdash; mosquitoes are typically under 4% of the catch, because female mosquitoes hunt CO₂ and body heat, not UV light.</p>
+          <p>A <em>laser</em> bug zapper like the Photon Matrix is the opposite philosophy: instead of waiting for insects to come to a light, it actively detects them in flight and shoots them down. In theory that means it could target mosquitoes specifically &mdash; the thing UV zappers fundamentally cannot do. In practice, the laser version exists only as crowdfunded prototypes, while the UV version is a proven product that simply solves a different problem (nuisance moths and gnats, not bites).</p>
+          <p>So the honest buying advice splits cleanly: if you want a zapper you can plug in <em>tonight</em>, the <Link href="/blog/flowtron-bug-zapper-canada">Flowtron</Link> is the UV-grid unit Canadians actually buy &mdash; just buy it for the moths, not the mosquitoes. A laser bug zapper that ships, works as demoed, and carries recognized eye-safety certification does not exist at Canadian retail in 2026. Until it does, &ldquo;laser&rdquo; in a product listing is a marketing word, not a shipping technology.</p>
+
           <h2>Is It Actually Shipping? (The Crowdfunding Reality)</h2>
           <p>This is where enthusiasm meets economics. Backing a crowdfunding campaign is <strong>not the same as buying a product.</strong> You are pre-paying for something that may arrive late, arrive different from the demo, or never arrive at all &mdash; a well-documented pattern in hardware crowdfunding, especially for ambitious gadgets. Even for campaigns that do deliver, backers in Canada face shipping delays, customs and duty, voltage/plug differences, and little or no local warranty or repair support.</p>
           <p>So if your goal is a mosquito-free backyard <em>this</em> summer, a pre-order with an uncertain ship date does not solve your problem. If your goal is to be an early-adopter hobbyist who enjoys tinkering with novel tech and can absorb the risk, that is a different (and legitimate) motivation &mdash; just go in with clear eyes about what you are buying.</p>
@@ -258,6 +263,8 @@ export default function LaserMosquitoKillerPhotonMatrixPage() {
             <li><Link href="/blog/mosquito-magnet-canada">Mosquito Magnet Canada — Where to Buy + Do They Work</Link></li>
             <li><Link href="/blog/dynatrap-canada-review">DynaTrap Canada — Honest Review</Link></li>
             <li><Link href="/blog/thermacell-canada-where-to-buy">Thermacell Canada Guide</Link></li>
+            <li><Link href="/blog/bug-zappers-canada-do-they-work">Bug Zappers Canada — Do They Work?</Link></li>
+            <li><Link href="/blog/flowtron-bug-zapper-canada">Flowtron Bug Zapper Canada Review</Link></li>
             <li><Link href="/mosquito-control">BuzzSkito Professional Mosquito Control Service</Link></li>
           </ul>
         </div>

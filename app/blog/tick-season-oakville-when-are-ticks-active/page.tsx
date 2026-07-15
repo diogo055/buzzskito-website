@@ -2,6 +2,8 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import BlogPostCTA from '@/components/BlogPostCTA'
+import BuyLink from '@/components/BuyLink'
+import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 
 const POST = {
@@ -128,6 +130,10 @@ export default function TickSeasonOakvillePage() {
 
         <h2>What Halton Region Public Health recommends</h2>
         <p>Halton Region Public Health publishes a standard tick-prevention checklist: wear long sleeves and tucked-in pants in wooded areas, use Health Canada-approved repellents containing DEET or icaridin, check yourself, your kids, and your pets after every outdoor exposure, and remove attached ticks promptly with fine-tipped tweezers. They also flag the 24-36 hour window — Lyme transmission typically requires sustained tick attachment, so daily checks meaningfully reduce risk.</p>
+        <AffiliateDisclosure />
+        <div className="not-prose my-4">
+          <BuyLink search="icaridin insect repellent canada">Check icaridin insect repellent on Amazon.ca →</BuyLink>
+        </div>
 
         <p>For yards specifically, Public Health Ontario&rsquo;s habitat-modification guidance lines up with what we apply on every Oakville treatment: maintain a 3-foot wood-chip or gravel buffer between lawn and any wooded edge, clear leaf litter and brush from fence lines weekly during peak months, keep grass short, and treat the perimeter professionally during the May-July nymph window. Read our full <Link href="/blog/ultimate-tick-control-guide-ontario" className="text-brand-700 underline">tick control guide</Link> for the deeper protocol.</p>
 
@@ -140,6 +146,9 @@ export default function TickSeasonOakvillePage() {
           <li><strong>Permethrin-treated clothing for trail hikers.</strong> 0.5% permethrin spray on hiking pants, socks, and shoes. One treatment lasts 6 weeks or 6 washes. The single most effective personal protection layer.</li>
           <li><strong>Year-round tick prevention for dogs.</strong> Talk to your Oakville veterinarian. Most positive canine cases never showed an obvious tick attachment because nymphs are too small to spot in fur.</li>
         </ol>
+        <div className="not-prose my-4">
+          <BuyLink search="insectguard permethrin gaiters">Check InsectGuard permethrin-treated gaiters on Amazon.ca →</BuyLink>
+        </div>
 
         <h2>Same-week Oakville service</h2>
         <p>BuzzSkito treats every Oakville neighbourhood with same-week service availability throughout the May-October core season. Pricing scales by lot size, the quote is sent within 24 hours of your request, and no on-site visit is needed for the estimate. Dedicated treatment pages for <Link href="/oakville-mosquito-control" className="text-brand-700 underline">Oakville mosquito control</Link>, <Link href="/west-oak-trails-mosquito-control" className="text-brand-700 underline">West Oak Trails</Link>, <Link href="/joshua-creek-mosquito-control" className="text-brand-700 underline">Joshua Creek</Link>, <Link href="/bronte-mosquito-control" className="text-brand-700 underline">Bronte</Link>, and <Link href="/old-oakville-mosquito-control" className="text-brand-700 underline">Old Oakville</Link>.</p>

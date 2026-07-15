@@ -173,12 +173,22 @@ export default function MosquitoMagnetCanadaPage() {
           <p className="not-prose text-sm text-gray-600 mb-1">Compare current Canadian prices and models (Patriot Plus, Independence, Executive):</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink search="mosquito magnet trap">Check Mosquito Magnet price on Amazon.ca →</BuyLink>
+            <BuyLink search="mosquito magnet executive">Executive model →</BuyLink>
+            <BuyLink search="mosquito magnet patriot plus">Patriot Plus →</BuyLink>
             <BuyLink search="mosquito magnet lurex3 attractant">Attractant refills →</BuyLink>
           </div>
           <h2>How Mosquito Magnets Actually Work</h2>
           <p>Mosquito Magnets burn propane in a catalytic converter to produce CO₂, heat, and moisture — the three primary cues a female mosquito uses to locate a blood meal. The exhaust plume drifts downwind, attracting mosquitoes from up to 100 metres away. As mosquitoes approach the device, a vacuum fan sucks them into a fine mesh net where they dehydrate and die within hours.</p>
           <p>Adding an Octenol or Lurex attractant cartridge enhances the realism of the cues — these are synthetic versions of human skin compounds that further attract mosquitoes. The cartridges last about 21 days and need replacement throughout the season.</p>
           <p><strong>Critical understanding:</strong> Mosquito Magnets kill female mosquitoes one at a time, but each female you kill prevents the laying of 100–300 eggs. The compound effect over 4–8 weeks reduces the local population by 70–90%. The device doesn&rsquo;t protect you tonight — it protects your yard 6 weeks from now.</p>
+
+          <h3>Attractant &amp; Replacement Parts</h3>
+          <p>Budget for consumables from day one: an Octenol (or Lurex) attractant cartridge lasts about 21 days, so a full May–September season burns through 6–7 cartridges. The fine mesh capture net should also be swapped once or twice a season — a torn or clogged net quietly cuts the trap&rsquo;s capture rate long before you notice. Canadian stock of both runs thin by mid-July, so most owners grab multi-packs in spring rather than scrambling in peak season.</p>
+          <div className="not-prose my-4 flex flex-wrap gap-3">
+            <BuyLink search="mosquito magnet octenol attractant">Octenol attractant refills →</BuyLink>
+            <BuyLink search="mosquito magnet replacement net">Replacement nets →</BuyLink>
+          </div>
+          <p>Still comparing propane CO₂ traps before committing to the Mosquito Magnet ecosystem? Our <Link href="/blog/propane-mosquito-trap-canada">propane mosquito trap Canada guide</Link> covers the whole category — Mosquito Magnet alternatives, real running costs, and which units actually earn their keep.</p>
 
           <h2>When Mosquito Magnet Is the Right Tool</h2>
           <ul>
@@ -236,6 +246,7 @@ export default function MosquitoMagnetCanadaPage() {
             <li><Link href="/blog/mosquito-dunks-canada-guide">Mosquito Dunks Canada Guide</Link></li>
             <li><Link href="/blog/mosquito-bits-canada-vs-dunks">Mosquito Bits Canada vs Dunks</Link></li>
             <li><Link href="/blog/permethrin-canada-yard-clothing-spray">Permethrin Canada Guide</Link></li>
+            <li><Link href="/blog/propane-mosquito-trap-canada">Propane Mosquito Trap Canada — Full Category Guide</Link></li>
             <li><Link href="/mosquito-control">BuzzSkito Professional Mosquito Control Service</Link></li>
           </ul>
         </div>

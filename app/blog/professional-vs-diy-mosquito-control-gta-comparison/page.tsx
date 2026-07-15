@@ -2,6 +2,8 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import BlogPostCTA from '@/components/BlogPostCTA'
+import BuyLink from '@/components/BuyLink'
+import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 
 const POST = {
@@ -93,14 +95,21 @@ export default function ProfessionalVsDIYPage() {
         <p>That length-of-season matters for the DIY-vs-professional comparison. A one-week vacation in Muskoka, you can manage with a head net, DEET, and a citronella candle. A 14-week season in your own backyard — where you want to garden, host barbecues, let kids play in the grass at dusk, sit on the patio with a drink at 8pm — requires sustained protection. The DIY toolkit and the professional service are competing for the same job: keep your yard usable through the worst weeks. Here is what each actually delivers.</p>
 
         <h2>The full DIY mosquito control toolkit</h2>
+        <AffiliateDisclosure />
 
         <h3>BTi mosquito dunks and granules (Bacillus thuringiensis israelensis)</h3>
         <p>The single most effective DIY product. BTi is a naturally-occurring bacterium that produces toxins specific to mosquito, black fly, and fungus gnat larvae. It is harmless to mammals, birds, fish, and most non-target insects. Dunks ($1-$2 each) drop into standing water — birdbaths, rain barrels, plant saucers, ponds, French drains, retention basins — and kill mosquito larvae within 24 hours. One dunk treats 100 square feet of water for 30 days. Granules ($25 for a 32-oz container) work the same way for shallow water.</p>
         <p><strong>Verdict:</strong> Genuinely effective for what they do. If you have any standing water on the property, BTi is the highest-leverage DIY investment you can make. It does nothing for adult mosquitoes already biting in your yard.</p>
+        <div className="not-prose my-4">
+          <BuyLink search="summit mosquito dunks">Check Summit Mosquito Dunks on Amazon.ca →</BuyLink>
+        </div>
 
         <h3>Thermacell</h3>
         <p>Thermacell units burn an allethrin pad over a butane heater and create a 4-metre cloud of mosquito-repellent vapour. Independent research (including studies funded by the US Centers for Disease Control) shows 75-95% bite reduction within the protected zone while the unit is operating. Cost: $40 for the unit, $10 per refill pack (good for ~12 hours), $200-$300 for a season of regular patio use.</p>
-        <p><strong>Verdict:</strong> Excellent for stationary outdoor activity (patio dining, deck reading). Useless for moving around the yard or for protecting children playing in the grass. Best used as a supplement, not a standalone solution.</p>
+        <p><strong>Verdict:</strong> Excellent for stationary outdoor activity (patio dining, deck reading). Useless for moving around the yard or for protecting children playing in the grass. Best used as a supplement, not a standalone solution. For the current rechargeable lineup, see our full <Link href="/blog/thermacell-e90-canada-review" className="text-brand-700 underline">Thermacell E90 Canada review</Link>.</p>
+        <div className="not-prose my-4">
+          <BuyLink search="thermacell e90 rechargeable">Check the Thermacell E90 on Amazon.ca →</BuyLink>
+        </div>
 
         <h3>Citronella candles, torches, and incense</h3>
         <p>Citronella oil is a registered mosquito repellent. The effect is real but narrow: a typical citronella candle creates a 1-2 metre repellent zone in low wind, much smaller in any breeze. Cost: $35-$60 for a season of regular use.</p>
@@ -113,10 +122,16 @@ export default function ProfessionalVsDIYPage() {
         <h3>Mosquito Magnet, Dynatrap, Skeetervac, CO2 traps</h3>
         <p>These units bait mosquitoes with carbon dioxide (mimicking human breath) plus octenol or other attractants, then capture them in a net or vacuum. Unit cost ranges from $200 (Dynatrap basic) to $700 (Mosquito Magnet Patriot). Operating cost runs $250-$400 per season (propane, attractant cartridges, replacement parts). University research shows 30-60% population reduction in a treated area after 6+ weeks of continuous operation — but the reduction is species-specific (most effective against Culex, weaker against Aedes), the unit must run continuously, and the placement matters enormously (10m from any area where humans will be, downwind).</p>
         <p><strong>Verdict:</strong> Genuine effect on populations over time. Significant equipment investment, ongoing operating costs, slow ramp-up (population reduction is not immediate), and species-specific. For a single backyard, the cost-effectiveness ratio is below professional barrier spray. Better suited to larger acreage where running multiple units across the property makes sense.</p>
+        <div className="not-prose my-4">
+          <BuyLink search="dynatrap dt1100 canada">Check the Dynatrap DT1100 on Amazon.ca →</BuyLink>
+        </div>
 
         <h3>Bug zappers (UV light traps)</h3>
         <p>The University of Delaware ran the definitive study: of 13,789 insects killed by residential bug zappers over a study period, only 31 were biting mosquitoes — 0.22%. The rest were beneficial insects (moths, lacewings, parasitic wasps). Bug zappers are an ecological disaster and contribute essentially nothing to mosquito control.</p>
-        <p><strong>Verdict:</strong> Do not buy. The marketing is decades old. The science is unambiguous.</p>
+        <p><strong>Verdict:</strong> Do not buy. The marketing is decades old. The science is unambiguous. If you are still tempted, read our <Link href="/blog/flowtron-bug-zapper-canada" className="text-brand-700 underline">Flowtron BK-40D review</Link> first — it walks through exactly what the best-selling zapper does and does not kill.</p>
+        <div className="not-prose my-4">
+          <BuyLink search="flowtron bk-40d bug zapper">See the Flowtron BK-40D on Amazon.ca →</BuyLink>
+        </div>
 
         <h3>Permethrin-treated clothing</h3>
         <p>This is the single most effective personal protection layer available — and one of the least known. Permethrin (a pyrethroid) is applied to clothing as a 0.5% spray; it binds tightly to fabric fibres and remains active through 6 weeks or 6 wash cycles. Mosquitoes, ticks, and black flies that contact treated fabric are knocked down within seconds. Cost: $20-$30 per garment treatment. Permethrin-treated pants, socks, and long sleeves are the gold standard for outdoor work, hiking, gardening near tick habitat, and outdoor evening activity.</p>
@@ -127,7 +142,7 @@ export default function ProfessionalVsDIYPage() {
         <p><strong>Verdict:</strong> Essential layer for any outdoor activity. Does not affect the yard mosquito population.</p>
 
         <h2>Professional barrier spray — what you actually get</h2>
-        <p>A professional yard treatment uses a Health Canada-approved residual pyrethroid (typically deltamethrin, lambda-cyhalothrin, or bifenthrin) applied at a label-specified concentration through a precision backpack sprayer. The applicator targets the surfaces where mosquitoes rest between feeding bouts: shrub interiors, the underside of leaves, fence lines, dense ornamental beds, the lawn-to-bed transition, woodpiles, and shaded fence corners. The formulation binds to plant surfaces and remains active for 21-30 days, knocking down mosquitoes on contact with treated foliage.</p>
+        <p>A professional yard treatment uses a Health Canada-approved residual pyrethroid (typically deltamethrin, lambda-cyhalothrin, or bifenthrin) applied at a label-specified concentration through a precision <Link href="/blog/backpack-sprayer-canada" className="text-brand-700 underline">backpack sprayer</Link>. The applicator targets the surfaces where mosquitoes rest between feeding bouts: shrub interiors, the underside of leaves, fence lines, dense ornamental beds, the lawn-to-bed transition, woodpiles, and shaded fence corners. The formulation binds to plant surfaces and remains active for 21-30 days, knocking down mosquitoes on contact with treated foliage.</p>
         <p>The effectiveness numbers — measured through mosquito counts before and after treatment by independent university extension services — typically show 70-90% population reduction within the treated area for 3-4 weeks. This is the headline gap with DIY: no consumer-grade tactic individually approaches that ceiling.</p>
 
         <h3>What a season of professional service costs in the GTA</h3>

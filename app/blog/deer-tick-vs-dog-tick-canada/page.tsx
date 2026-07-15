@@ -163,6 +163,7 @@ export default function DeerTickVsDogTickPage() {
             <li><strong>Shield (scutum):</strong> smooth and plain — never the mottled grey-and-brown pattern you see on a dog tick.</li>
           </ul>
           <p>Put simply: <strong>a tiny, plain, dark-legged tick is a blacklegged (deer) tick and a Lyme risk</strong>; a larger tick with a decorated grey-brown shield is a dog tick with low disease risk in Canada.</p>
+          <p>For a deeper dive into the blacklegged tick&rsquo;s life cycle, Ontario range, and season-by-season activity, see our full <Link href="/blog/blacklegged-deer-tick-ontario">blacklegged (deer) tick Ontario guide</Link>.</p>
 
           <h2>Why the Distinction Matters Medically</h2>
           <p>The deer tick is the entire reason Lyme disease exists in Canada. <strong>About 10–30% of blacklegged ticks in southern Ontario carry <em>Borrelia burgdorferi</em></strong>, the bacterium that causes Lyme. Untreated Lyme can progress to chronic joint pain, neurological symptoms, and cardiac issues. Caught early (within weeks of the bite), it&rsquo;s treatable with a 2–4 week antibiotic course (doxycycline) with full recovery in most cases.</p>

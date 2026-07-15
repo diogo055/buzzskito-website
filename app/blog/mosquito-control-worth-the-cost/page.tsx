@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
+import BuyLink from '@/components/BuyLink'
+import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { MOSQUITO_BLOGS } from '@/lib/constants'
 
@@ -119,6 +121,7 @@ export default function MosquitoControlWorthCostPage() {
         <p>Homeowners who choose not to invest in professional mosquito control often spend money on less effective alternatives without realizing it:</p>
 
         <h3>DIY Products (Annual Spend)</h3>
+        <AffiliateDisclosure />
         <ul>
           <li><strong>Citronella candles and tiki torches:</strong> $50 – $150/season. Studies show minimal effectiveness beyond a 1-2 foot radius of the flame</li>
           <li><strong>DEET/picaridin repellent:</strong> $30 – $80/season per family member. Effective for personal protection but requires constant reapplication and does not reduce the mosquito population</li>
@@ -126,6 +129,9 @@ export default function MosquitoControlWorthCostPage() {
           <li><strong>Bug zappers:</strong> $30 – $80. Studies consistently show that bug zappers kill primarily moths and beetles, not mosquitoes. They may actually attract more mosquitoes to your yard than they kill</li>
           <li><strong>Ultrasonic devices:</strong> $20 – $60. Multiple controlled studies have found zero effectiveness against mosquitoes</li>
         </ul>
+        <div className="not-prose my-4">
+          <BuyLink search="bug zapper outdoor">Compare outdoor bug zappers on Amazon.ca →</BuyLink>
+        </div>
         <p>A typical family spending on DIY mosquito products may invest $200 – $500 per season on solutions that provide significantly less protection than a professional program costing $500 – $900. The incremental cost of upgrading to professional treatment is often smaller than people assume.</p>
         <p>See: <Link href="/blog/mosquito-vs-diy-vs-professional-control" className="text-brand-700 hover:underline">DIY vs. Professional Mosquito Control: What Works</Link></p>
 
@@ -154,7 +160,7 @@ export default function MosquitoControlWorthCostPage() {
         <p>To get the most value from professional mosquito control:</p>
         <ul>
           <li><strong>Start early:</strong> Book your first treatment for mid-May to target the first generation of mosquitoes before they breed. This compounds into lower populations all season</li>
-          <li><strong>Eliminate standing water:</strong> No amount of spray can overcome an active mosquito breeding source in your own yard. Remove standing water from birdbaths, gutters, plant saucers, and tarps. See: <Link href="/blog/hidden-mosquito-breeding-spots-backyard" className="text-brand-700 hover:underline">Hidden Mosquito Breeding Spots</Link></li>
+          <li><strong>Eliminate standing water:</strong> No amount of spray can overcome an active mosquito breeding source in your own yard. Remove standing water from birdbaths, gutters, plant saucers, and tarps. For water you cannot drain — rain barrels, pond edges, French drains — a BTi larvicide like Summit Mosquito Bits kills larvae without harming pets, birds, or fish. <BuyLink search="summit mosquito bits">Check Mosquito Bits on Amazon.ca →</BuyLink> See: <Link href="/blog/hidden-mosquito-breeding-spots-backyard" className="text-brand-700 hover:underline">Hidden Mosquito Breeding Spots</Link></li>
           <li><strong>Choose a seasonal package:</strong> Consistent monthly treatments maintain protection across the entire season — gaps in coverage allow population recovery</li>
           <li><strong>Bundle tick + mosquito:</strong> If your property also has tick risk (and most GTA properties do), combined packages provide maximum value</li>
         </ul>

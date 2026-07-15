@@ -226,6 +226,7 @@ export default function TickBiteVsMosquitoBitePage() {
           <li><Link href="/blog/picaridin-vs-deet-canada" className="text-brand-700 hover:underline">Picaridin vs DEET: Which Repellent Wins in Canada</Link></li>
           <li><Link href="/blog/ultimate-tick-control-guide-ontario" className="text-brand-700 hover:underline">Ultimate Tick Control Guide for Ontario Homeowners</Link></li>
           <li><Link href="/blog/lyme-disease-tick-prevention-ontario" className="text-brand-700 hover:underline">Lyme Disease and Tick Prevention in Ontario</Link></li>
+          <li><Link href="/blog/tick-bites-that-wont-heal-when-to-worry" className="text-brand-700 hover:underline">Tick Bites That Won&apos;t Heal: When to Worry</Link></li>
         </ul>
 
       </article>

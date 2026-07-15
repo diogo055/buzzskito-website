@@ -2,6 +2,8 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import BuyLink from '@/components/BuyLink'
+import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 
 const SLUG = 'mosquito-netting-vs-barrier-spray'
 const DATE = '2026-04-26'
@@ -74,6 +76,11 @@ export default function MosquitoNettingVsSprayPage() {
         <div className="max-w-3xl mx-auto prose-brand">
           <p className="lead text-xl text-gray-700 leading-relaxed mb-6">Mosquito netting and barrier spray are both real solutions to mosquito problems — but they solve different problems. Netting protects an enclosed space; barrier spray protects an entire yard. Here&rsquo;s how to decide which one (or both) fits your situation.</p>
 
+          <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+            <p className="text-xs font-extrabold text-emerald-700 uppercase tracking-wider mb-2">Quick Answer</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Netting gives you a 100% bug-free zone — but only inside the enclosed area. Barrier spray cuts the mosquito population 90%+ across the entire yard. Choose netting for one defined patio spot or zero-pesticide protection; choose spray for whole-yard use with kids and pets. Ravine-adjacent properties get the best results combining both.</p>
+          </div>
+
           <h2>The Quick Comparison</h2>
           <div className="not-prose overflow-x-auto my-6">
             <table className="w-full text-sm border-collapse">
@@ -115,6 +122,22 @@ export default function MosquitoNettingVsSprayPage() {
             <li><strong>You want zero pesticide exposure.</strong> Netting is purely physical — no chemistry involved.</li>
           </ul>
 
+          <h2>Netting Options: Types, Mesh Sizes &amp; Gazebo Fitting</h2>
+          <AffiliateDisclosure />
+          <p>If netting is the right call for your space, the specific product matters more than most buyers expect. &ldquo;Mosquito netting&rdquo; covers four very different products, and the wrong shape is the number-one reason a net disappoints:</p>
+          <ul>
+            <li><strong>Outdoor canopy nets</strong> — free-hanging mesh canopies that suspend from a pergola beam, shade-sail post, or tree branch over a daybed, hammock, or reading chair. The most flexible option for renters, since nothing attaches permanently to the house. <BuyLink search="outdoor canopy mosquito net">Check outdoor canopy nets on Amazon.ca &rarr;</BuyLink></li>
+            <li><strong>Patio netting curtains</strong> — mesh panels with grommet or hook-and-loop edges that enclose a covered porch, pergola, or open gazebo. They tie back during the day and draw shut at dusk, so the space stays usable. <BuyLink search="patio mosquito netting curtains">Browse patio netting curtains on Amazon.ca &rarr;</BuyLink></li>
+            <li><strong>Pop-up screen houses and screened gazebos</strong> — freestanding mesh rooms that drop over a patio table. Best value for open decks with nothing overhead.</li>
+            <li><strong>Bed, crib, and stroller nets</strong> — for sleeping spaces and infants; the full breakdown by use case is in our <Link href="/blog/mosquito-net-canada">mosquito net buyer&rsquo;s guide for Canada</Link>.</li>
+          </ul>
+
+          <h3>Mesh size matters more than brand</h3>
+          <p>Standard insect mesh (about 18&times;16 strands per inch) reliably stops mosquitoes and house flies. It does <strong>not</strong> stop no-see-ums or blackflies — near a lake, marsh, or in cottage country you want no-see-um mesh (roughly 20&times;20 or finer). The trade-off is slightly reduced airflow, which you will notice on a still July evening. For a typical GTA suburban patio away from water, standard mosquito mesh is enough.</p>
+
+          <h3>Fitting netting to an existing gazebo or pergola</h3>
+          <p>Measure post-to-post along the top rail before ordering — most curtain kits are sized to the common 10&times;10, 10&times;12, and 12&times;14 frames. Buy panels slightly taller than the opening so they pool at the floor (mosquitoes exploit any ground-level gap), and look for weighted hems and zippered door overlaps rather than plain magnet seams if your yard gets wind. Store the mesh indoors over winter — UV exposure is what kills cheap netting, not use. For a full comparison of every patio enclosure type with current Canadian pricing, see our <Link href="/blog/mosquito-screens-patio-canada">patio mosquito screens guide</Link>.</p>
+
           <h2>When Barrier Spray Wins</h2>
           <ul>
             <li><strong>You actually use your entire backyard.</strong> Kids playing on the lawn, dogs running, gardening, BBQ near the trees, lawn games — netting confines you to one spot.</li>
@@ -139,6 +162,8 @@ export default function MosquitoNettingVsSprayPage() {
 
           <h2>Related Reading</h2>
           <ul>
+            <li><Link href="/blog/mosquito-net-canada">Mosquito Net Canada — Buyer&rsquo;s Guide by Use (Bed, Head, Hammock)</Link></li>
+            <li><Link href="/blog/mosquito-screens-patio-canada">Mosquito Screens for Your Patio — Canada Buyer&rsquo;s Guide</Link></li>
             <li><Link href="/blog/mosquito-repellent-guide-ontario-2026">Mosquito Repellent Guide Ontario 2026</Link></li>
             <li><Link href="/blog/mosquito-magnet-vs-professional-spray">Mosquito Magnet vs Professional Spray</Link></li>
             <li><Link href="/blog/natural-mosquito-repellent-ontario">Natural Mosquito Repellent — What Works</Link></li>

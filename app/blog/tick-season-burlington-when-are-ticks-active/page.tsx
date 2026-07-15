@@ -2,6 +2,8 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import BlogPostCTA from '@/components/BlogPostCTA'
+import BuyLink from '@/components/BuyLink'
+import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 
 const POST = {
@@ -128,6 +130,10 @@ export default function TickSeasonBurlingtonPage() {
 
         <h2>What Halton Region Public Health recommends</h2>
         <p>Halton Region Public Health publishes a standard prevention checklist: wear long sleeves and tucked-in pants when hiking, use Health Canada-approved repellents containing DEET or icaridin, check yourself, your kids, and your pets after every outdoor exposure, and remove attached ticks promptly with fine-tipped tweezers. They emphasize the 24-36 hour rule — Lyme transmission typically requires sustained tick attachment, which is why daily checks matter.</p>
+        <AffiliateDisclosure />
+        <div className="not-prose my-4">
+          <BuyLink search="icaridin insect repellent canada">Check icaridin insect repellent on Amazon.ca →</BuyLink>
+        </div>
 
         <p>For yards specifically, Public Health Ontario&rsquo;s habitat-modification guidance is consistent: maintain a 3-foot wood-chip or gravel buffer between lawn and any wooded edge, clear leaf litter weekly from May through July, keep grass short, and treat the perimeter professionally during the nymph window. See our full <Link href="/blog/ultimate-tick-control-guide-ontario" className="text-brand-700 underline">tick control guide</Link> for the complete protocol.</p>
 
@@ -140,6 +146,9 @@ export default function TickSeasonBurlingtonPage() {
           <li><strong>Permethrin-treated clothing for escarpment hikers.</strong> 0.5% permethrin on hiking pants, socks, and shoes. One treatment lasts 6 weeks or 6 washes.</li>
           <li><strong>Year-round veterinary tick prevention for dogs.</strong> Burlington vets are reporting climbing canine Lyme cases. Talk to your vet.</li>
         </ol>
+        <div className="not-prose my-4">
+          <BuyLink search="insectguard permethrin gaiters">Check InsectGuard permethrin-treated gaiters on Amazon.ca →</BuyLink>
+        </div>
 
         <h2>Same-week Burlington service</h2>
         <p>BuzzSkito treats every Burlington neighbourhood with same-week service availability through the May-October core season. Pricing scales by lot size, quote sent within 24 hours, no on-site visit required for the estimate. See dedicated pages for <Link href="/burlington-mosquito-spray" className="text-brand-700 underline">Burlington mosquito spray</Link>, <Link href="/aldershot-mosquito-control" className="text-brand-700 underline">Aldershot</Link>, <Link href="/millcroft-mosquito-control" className="text-brand-700 underline">Millcroft</Link>, <Link href="/tyandaga-mosquito-control" className="text-brand-700 underline">Tyandaga</Link>, and <Link href="/alton-village-mosquito-control" className="text-brand-700 underline">Alton Village</Link>.</p>

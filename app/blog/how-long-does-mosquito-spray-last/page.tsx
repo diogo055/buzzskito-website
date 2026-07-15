@@ -2,6 +2,8 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import BlogPostCTA from '@/components/BlogPostCTA'
+import BuyLink from '@/components/BuyLink'
+import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { MOSQUITO_BLOGS } from '@/lib/constants'
 
@@ -113,6 +115,8 @@ export default function MosquitoSprayLastPage() {
             </tbody>
           </table>
         </div>
+        <AffiliateDisclosure />
+        <p>The one DIY item from that table worth pairing with professional treatment: BTi mosquito dunks for any standing water you cannot drain (rain barrels, pond edges). They stop larvae for 30 days and complement — rather than replace — the barrier spray doing the yard-wide work. <BuyLink search="summit mosquito dunks">Check Mosquito Dunks on Amazon.ca →</BuyLink></p>
 
         <h2>Why Professional Spray Lasts Longer Than DIY Options</h2>
         <p>Professional-grade residual insecticides used by BuzzSkito are formulated to bond tightly to vegetation surfaces as they dry. This creates a durable coating that persists through normal weather conditions for up to 30 days. Consumer products, which are diluted for safety in non-professional contexts, typically have much lower active ingredient concentrations and lack the adhesion chemistry that enables long-lasting residual protection. For a full side-by-side breakdown, see our guide on <Link href="/blog/mosquito-vs-diy-vs-professional-control" className="text-brand-700 hover:underline">DIY vs. professional mosquito control</Link>.</p>

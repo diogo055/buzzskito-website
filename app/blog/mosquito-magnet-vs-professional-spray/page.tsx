@@ -2,6 +2,8 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import BuyLink from '@/components/BuyLink'
+import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 
 const SLUG = 'mosquito-magnet-vs-professional-spray'
 const DATE = '2026-04-26'
@@ -72,7 +74,15 @@ export default function MosquitoMagnetPage() {
 
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
+          <AffiliateDisclosure />
           <p className="lead text-xl text-gray-700 leading-relaxed mb-6">Mosquito Magnet traps work — they capture real mosquitoes. But they&rsquo;re expensive, need ongoing supplies, and only cull a portion of your yard&rsquo;s mosquito population. Here&rsquo;s how they compare to professional barrier spray, which controls the population at the source.</p>
+
+          <p className="not-prose text-sm text-gray-600 mb-1">Pricing the hardware side of this comparison? Check current Canadian prices on the three most popular trap and repeller options:</p>
+          <div className="not-prose mb-6 flex flex-wrap gap-3">
+            <BuyLink search="mosquito magnet patriot plus">Mosquito Magnet Patriot Plus →</BuyLink>
+            <BuyLink search="dynatrap dt2030 1 acre">DynaTrap DT2030 →</BuyLink>
+            <BuyLink search="thermacell e90 rechargeable">Thermacell E90 →</BuyLink>
+          </div>
 
           <h2>The Quick Comparison</h2>
           <div className="not-prose overflow-x-auto my-6">
@@ -110,6 +120,7 @@ export default function MosquitoMagnetPage() {
           <h2>How a Mosquito Magnet Actually Works</h2>
           <p>Mosquito Magnet traps mimic a human breathing — they emit CO<sub>2</sub> from a propane tank, plus attractants like octenol or Lurex 3. Mosquitoes follow the CO<sub>2</sub> plume to the unit, get sucked into a fan-driven vacuum, and die in a collection net.</p>
           <p>It&rsquo;s clever. It captures real mosquitoes. But it&rsquo;s only one half of the equation — capturing flying adults — without addressing the population resting on your vegetation, breeding in nearby water, or arriving from off-property sources.</p>
+          <p>For model-by-model Canadian pricing (Patriot Plus vs Independence vs Executive), where to buy, and placement tips, see our full <Link href="/blog/mosquito-magnet-canada">Mosquito Magnet Canada guide</Link>. If you&rsquo;re weighing the wider trap category — UV, CO₂, and propane units side by side — our <Link href="/blog/best-mosquito-trap-canada">best mosquito trap Canada roundup</Link> ranks them all.</p>
 
           <h2>Where Mosquito Magnets Make Sense</h2>
           <ul>
@@ -145,6 +156,9 @@ export default function MosquitoMagnetPage() {
 
           <h2>Related Reading</h2>
           <ul>
+            <li><Link href="/blog/mosquito-magnet-canada">Mosquito Magnet Canada — Where to Buy + Model Comparison</Link></li>
+            <li><Link href="/blog/dynatrap-canada-review">DynaTrap Canada Review — Does It Actually Catch Mosquitoes?</Link></li>
+            <li><Link href="/blog/best-mosquito-trap-canada">Best Mosquito Trap Canada — Full Rankings</Link></li>
             <li><Link href="/blog/mosquito-repellent-guide-ontario-2026">Mosquito Repellent Guide Ontario 2026</Link></li>
             <li><Link href="/blog/natural-mosquito-repellent-ontario">Natural Mosquito Repellent — What Works</Link></li>
             <li><Link href="/blog/hidden-mosquito-breeding-spots-backyard">Hidden Mosquito Breeding Spots</Link></li>

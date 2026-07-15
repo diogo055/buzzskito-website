@@ -253,6 +253,8 @@ export default function OrthoHomeDefenseCanadaPage() {
           <ul>
             <li><Link href="/mosquito-control">BuzzSkito Professional Mosquito Control Service</Link></li>
             <li><Link href="/blog/permethrin-canada-yard-clothing-spray">Permethrin Canada — Yard &amp; Clothing Spray Guide</Link></li>
+            <li><Link href="/blog/wondercide-canada-review">Wondercide Canada — Honest Review + Where to Buy</Link></li>
+            <li><Link href="/blog/mosquito-fogger-canada">Mosquito Fogger Canada — Do They Work? Best Models + Fogging Liquid Guide</Link></li>
             <li><Link href="/free-yard-assessment">Get a Free Yard Assessment</Link></li>
             <li><Link href="/blog">More BuzzSkito guides on the blog</Link></li>
           </ul>

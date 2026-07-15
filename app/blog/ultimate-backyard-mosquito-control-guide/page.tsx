@@ -122,6 +122,25 @@ export default function MosquitoPillarPage() {
         <p>For the hours you&apos;re actually outside, a <strong>Thermacell repeller</strong> creates a roughly 20-foot zone of protection over a patio or deck without sprays or open flame, and the right skin repellent handles the rest. See how the options compare in our <Link href="/blog/picaridin-vs-deet-canada" className="text-brand-700 underline hover:text-brand-500">picaridin vs. DEET guide</Link> and <Link href="/blog/best-mosquito-trap-canada" className="text-brand-700 underline hover:text-brand-500">best mosquito traps in Canada</Link> — or <BuyLink search="thermacell mosquito repeller">Check price on Amazon.ca →</BuyLink></p>
         <p>These tools cut bites in the moment, but they don&apos;t clear the adult mosquitoes resting in your vegetation the way a professional barrier spray does. For a yard that stays bite-free all season, they work best alongside a treatment plan.</p>
 
+        <h2>Gear &amp; Product Guides: Every Mosquito Device Reviewed</h2>
+        <p>Thinking about buying a trap, fogger, or repeller before (or instead of) booking a treatment? We&apos;ve written honest, Canada-specific reviews of the most-searched mosquito gear — what each device actually does, what it can&apos;t do, and which yards it makes sense for:</p>
+        <div className="not-prose grid grid-cols-1 sm:grid-cols-2 gap-3 my-6">
+          {[
+            { href: '/blog/best-mosquito-trap-canada', title: 'Best Mosquito Traps in Canada', desc: 'Every trap type ranked — which ones actually reduce bites' },
+            { href: '/blog/mosquito-magnet-canada', title: 'Mosquito Magnet Review (Canada)', desc: 'Is the famous CO2 trap worth it for a GTA yard?' },
+            { href: '/blog/propane-mosquito-trap-canada', title: 'Propane Mosquito Traps in Canada', desc: 'How propane-to-CO2 traps work and which to pick' },
+            { href: '/blog/dynatrap-canada-review', title: 'DynaTrap Review (Canada)', desc: 'The popular UV trap, tested against real mosquito pressure' },
+            { href: '/blog/thermacell-canada-where-to-buy', title: 'Thermacell in Canada: Where to Buy', desc: 'Models, refills, and where Canadians can find them' },
+            { href: '/blog/mosquito-fogger-canada', title: 'Mosquito Foggers in Canada', desc: 'Thermal vs. cold foggers — and when fogging makes sense' },
+            { href: '/blog/best-screen-tent-canada', title: 'Best Screen Tents in Canada', desc: 'Physical protection for patios, decks, and campsites' },
+          ].map((g) => (
+            <Link key={g.href} href={g.href} className="block bg-gray-50 border border-gray-200 rounded-xl p-4 hover:border-brand-400 hover:bg-brand-50 transition-colors">
+              <div className="font-bold text-brand-900 text-sm mb-1">{g.title}</div>
+              <div className="text-gray-500 text-xs">{g.desc}</div>
+            </Link>
+          ))}
+        </div>
+
         <div className="not-prose my-10 rounded-2xl bg-gradient-to-br from-brand-800 to-brand-950 text-white p-6 sm:p-8 shadow-lg">
           <p className="text-xs font-extrabold text-brand-300 uppercase tracking-wider mb-2">Prefer the Done-For-You Option?</p>
           <h3 className="text-2xl font-extrabold mb-3 leading-tight">Let BuzzSkito Handle Your Backyard Mosquito Control</h3>

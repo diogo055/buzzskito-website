@@ -49,6 +49,13 @@ export default function BestTickControlPage() {
           Honest comparison from a tick control company — we believe the evidence speaks for itself. Part of our <Link href={`/blog/${TICK_BLOGS.pillar.slug}`} className="text-brand-700 underline">Ultimate Tick Control Guide for Ontario Homeowners</Link>.
         </p>
 
+        <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable not-prose">
+          <p className="text-xs font-extrabold text-emerald-700 uppercase tracking-wider mb-2">Quick Answer</p>
+          <p className="text-gray-800 text-[15px] leading-relaxed font-medium">
+            The best yard tick treatment for Ontario is a professional barrier spray applied to lawn edges, leaf litter, and shaded borders — it kills blacklegged ticks at every life stage and lasts up to 30 days. Pair it with habitat cleanup and permethrin tick tubes for a layered defence that keeps working between visits.
+          </p>
+        </div>
+
         <h2>Tick Control Options Compared</h2>
         <div className="not-prose overflow-x-auto my-6">
           <table className="w-full text-sm border-collapse">
@@ -114,6 +121,11 @@ export default function BestTickControlPage() {
         </ul>
         <p>For a fuller rundown of what actually works, see our guide to the{' '}
           <Link href="/blog/best-tick-repellent-yard-canada" className="text-brand-700 hover:underline">best tick repellents for Ontario yards</Link>.
+        </p>
+
+        <h3>Tick Tubes: The Passive Layer</h3>
+        <p>Permethrin-treated tick tubes work the wildlife angle: mice grab the treated cotton for nesting material, and the permethrin kills the larval ticks feeding on them before they ever reach your family. It only touches the larval stage, so it can&rsquo;t replace a barrier spray &mdash; but as a set-and-forget layer placed along wood edges and stone walls in spring and late summer, it quietly shrinks next season&rsquo;s tick population. See our full <Link href="/blog/tick-tubes-canada" className="text-brand-700 hover:underline">guide to tick tubes in Canada</Link> for placement timing and how many you need.{' '}
+          <BuyLink search="thermacell tick control tubes 12 pack">Check price on Amazon.ca &rarr;</BuyLink>
         </p>
 
         <h2>Related Guides</h2>

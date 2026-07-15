@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
+import BuyLink from '@/components/BuyLink'
+import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { MOSQUITO_BLOGS } from '@/lib/constants'
 
@@ -81,6 +83,17 @@ export default function DIYvsProfessionalPage() {
           <li>Faster breakdown — typically effective for only a few days to a week</li>
           <li>Repeated DIY application adds up in cost and time over a season</li>
         </ul>
+
+        <h2>The Two DIY Tools Actually Worth Buying</h2>
+        <AffiliateDisclosure />
+        <p><strong>BTi mosquito dunks.</strong> Drop one into any standing water you cannot drain — rain barrels, pond edges, French drains, plant saucers — and the naturally-occurring bacterium kills mosquito larvae for about 30 days. Harmless to pets, birds, fish, and beneficial insects. Dunks stop mosquitoes from breeding on your property, but they do nothing about the adults already flying in from elsewhere.</p>
+        <div className="not-prose my-4">
+          <BuyLink search="summit mosquito dunks">Check Summit Mosquito Dunks on Amazon.ca →</BuyLink>
+        </div>
+        <p><strong>Thermacell spatial repellent.</strong> A rechargeable unit like the E90 builds a roughly 6-metre repellent zone around a patio table while it runs — genuinely effective for a seated evening, useless for whole-yard protection or kids moving around the lawn. We break down the current lineup in our <Link href="/blog/thermacell-e90-canada-review" className="text-brand-700 hover:underline">Thermacell E90 review for Canada</Link>.</p>
+        <div className="not-prose my-4">
+          <BuyLink search="thermacell e90 rechargeable">Check the Thermacell E90 on Amazon.ca →</BuyLink>
+        </div>
 
         <h2>Professional Barrier Spray</h2>
         <p><strong>Effectiveness: High and sustained.</strong> Professional-grade residual insecticides applied by trained technicians provide the most comprehensive, longest-lasting mosquito reduction of any residential option. Key advantages:</p>

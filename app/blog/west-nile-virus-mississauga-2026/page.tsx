@@ -2,6 +2,8 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import BlogPostCTA from '@/components/BlogPostCTA'
+import BuyLink from '@/components/BuyLink'
+import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 
 const POST = {
@@ -115,7 +117,8 @@ export default function WestNileMississaugaPage() {
         <p>The single highest-leverage action any Mississauga homeowner can take. Walk the property weekly during May through September. Empty plant saucers, birdbaths, kiddie pools, wheelbarrows, tarps, and any container holding water. Clean gutters in spring and again in mid-summer. Drill drainage holes in tire swings and rain barrels (or screen rain barrel openings with fine mesh). Fix low spots in the yard that pool after rain.</p>
 
         <h3>Treat ornamental ponds and water features</h3>
-        <p>If you have a backyard pond, fountain, or water feature, either keep the water moving constantly (Culex won\'t breed in moving water) or use Bti products like Mosquito Dunks or Mosquito Bits — they kill mosquito larvae but are safe for fish, birds, pets, and beneficial insects. One dunk treats up to 100 sq ft of water surface for 30 days.</p>
+        <AffiliateDisclosure />
+        <p>If you have a backyard pond, fountain, or water feature, either keep the water moving constantly (Culex won\'t breed in moving water) or use Bti products like Mosquito Dunks or Mosquito Bits — they kill mosquito larvae but are safe for fish, birds, pets, and beneficial insects. One dunk treats up to 100 sq ft of water surface for 30 days. <BuyLink search="summit mosquito dunks">Check Mosquito Dunks on Amazon.ca →</BuyLink> For small containers, rain barrels, and low spots that need a faster knockdown, granular Mosquito Bits release Bti immediately rather than over weeks. <BuyLink search="summit mosquito bits">Check Mosquito Bits on Amazon.ca →</BuyLink></p>
 
         <h3>Professional barrier spray for adult mosquitoes</h3>
         <p>Standing water elimination handles the larvae you can find. A professional barrier spray handles the adults that flew in from sites you can\'t. Targeted to shaded resting habitat — the underside of leaves, dense shrub interiors, mulched beds, fence-line vegetation — a barrier spray reduces yard mosquito biting pressure by 85-90% for roughly 30 days per treatment. For a meaningful season-long impact in a Mississauga yard, the BuzzSkito Standard Season runs 10 biweekly treatments from May through September.</p>

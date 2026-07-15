@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
+import BuyLink from '@/components/BuyLink'
+import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { NEW_BLOGS_3, MOSQUITO_BLOGS } from '@/lib/constants'
 
@@ -177,6 +179,12 @@ export default function MosquitoControlCostPage() {
               ))}
             </tbody>
           </table>
+        </div>
+
+        <AffiliateDisclosure />
+        <p>If you take the DIY route, the one product genuinely worth the money is BTI larvicide — Mosquito Dunks kill larvae in rain barrels, pond edges, and any standing water you can&apos;t drain, for pennies per week. They complement (but don&apos;t replace) a barrier spray, which targets the adult mosquitoes resting in your foliage.</p>
+        <div className="not-prose mb-6">
+          <BuyLink search="summit mosquito dunks">Check Mosquito Dunks on Amazon.ca →</BuyLink>
         </div>
 
         <h2>How to Get an Accurate Quote in the GTA</h2>

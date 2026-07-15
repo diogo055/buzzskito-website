@@ -59,6 +59,11 @@ export default function TickPillarPage() {
           This is the definitive guide to tick control for Ontario homeowners: tick species, lifecycle, Lyme disease risk, where ticks hide in your yard, prevention strategies, and when to call a professional. For city-specific information, visit our <Link href="/tick-control" className="text-brand-700 underline">Tick Control hub page</Link>.
         </p>
 
+        <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+          <p className="text-xs font-extrabold text-emerald-700 uppercase tracking-wider mb-2">Quick Answer</p>
+          <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Effective tick control for Ontario yards is three layers working together: habitat modification (clear leaf litter, mow edges, add a gravel border), professional barrier spray on the specific zones where ticks concentrate, and personal protection — permethrin-treated clothing plus daily tick checks. Combined, this approach reduces tick encounters on residential properties by 80–90%.</p>
+        </div>
+
         <AffiliateDisclosure />
 
         <h2>Tick Species in Ontario: What You're Dealing With</h2>
@@ -109,6 +114,18 @@ export default function TickPillarPage() {
 
         <p>Compare your options: <Link href="/blog/best-tick-control-yard-treatment" className="text-brand-700 underline hover:text-brand-500">Best Tick Control for Your Yard: Comparison Guide</Link></p>
 
+        <h2>The 3-Zone Tick Defence Plan for Ontario Yards</h2>
+        <p>Every GTA property we assess breaks down into the same three risk zones. Once you see your yard this way, tick control stops being guesswork — you know exactly where to focus effort, and where you can relax.</p>
+
+        <h3>Zone 1: The Transition Edge — Highest Risk</h3>
+        <p>This is the 2–3 metre band where maintained lawn meets anything wild: a ravine lot line, a cedar hedge, a naturalized garden, or a neighbour&apos;s overgrown fence line. Field studies of residential properties consistently find the overwhelming majority of ticks within about 3 metres of this edge — it&apos;s where questing ticks wait on grass tips for a passing host, and where a barrier spray earns its keep. Priorities here: keep the edge mowed tight, install a 1-metre gravel or wood-chip border, and make this band the focus of any spray treatment. Never place play structures, hammocks, or seating inside Zone 1.</p>
+
+        <h3>Zone 2: Shaded Structures and Storage — The Reservoir</h3>
+        <p>Under decks, woodpiles, stone walls, sheds, and dense perennial beds. Ticks shelter here through hot, dry weather — but more importantly, so do the white-footed mice that infect blacklegged ticks with the Lyme bacterium in the first place. This is the zone where <Link href="/blog/tick-tubes-canada" className="text-brand-700 underline hover:text-brand-500">tick tubes</Link> do their best work, and where targeted treatment along under-deck edges and wall bases matters most. Raise firewood off the ground, declutter, and seal the gaps that invite rodent nesting.</p>
+
+        <h3>Zone 3: Open, Sunny Lawn — Lowest Risk</h3>
+        <p>Ticks dehydrate quickly in direct sun and short grass, so the middle of a mowed, sunlit lawn is genuinely low-risk. Your job in Zone 3 is simply to keep it that way: mow weekly, rake leaves promptly in fall, and position patios, trampolines, and play sets here — at least 3 metres from any Zone 1 edge. A family that understands these three zones can cut its tick exposure dramatically before a single product is applied.</p>
+
         <h2>DIY Tick Prevention for Your Yard</h2>
         <p>Habitat modification reduces tick populations even before professional treatment. Key steps:</p>
         <ul>
@@ -122,6 +139,45 @@ export default function TickPillarPage() {
 
         <p>Beyond habitat work, treating the clothing and gear you wear in high-risk zones adds a personal layer of protection. Permethrin is a repellent you apply to fabric — not skin — that kills ticks on contact and survives several washes. A pre-mixed spray is the simplest way to treat boots, socks, and pant legs before yard work: <BuyLink search="sawyer permethrin clothing spray">Check price on Amazon.ca →</BuyLink></p>
         <p>For the full breakdown, see our guides to <Link href="/blog/permethrin-canada-yard-clothing-spray" className="text-brand-700 underline hover:text-brand-500">permethrin for yard &amp; clothing in Canada</Link> and the <Link href="/blog/best-tick-repellent-yard-canada" className="text-brand-700 underline hover:text-brand-500">best tick repellents for your yard</Link>.</p>
+
+        <h2>Tick Control Product Stack: What Works and What Doesn&apos;t</h2>
+        <p>The tick control aisle is full of products with wildly different levels of evidence behind them. Here&apos;s our honest assessment — including the products that compete with our own service, and the ones we&apos;d skip entirely.</p>
+
+        <h3>Worth Your Money</h3>
+        <ul>
+          <li><strong>Permethrin-treated clothing:</strong> The single best personal-protection step for anyone working in Zone 1 or Zone 2. It kills ticks on contact with the fabric and survives multiple washes.</li>
+          <li><strong>Tick tubes:</strong> Biodegradable tubes filled with permethrin-treated cotton that mice carry back to their nests, killing larval ticks at the source. Slow-acting — expect results over a full season, not overnight — but genuinely effective at breaking the Lyme cycle around woodpiles, sheds, and stone walls. Thermacell Tick Control Tubes are the widely available option in Canada: <BuyLink search="thermacell tick control tubes 12 pack">Check price on Amazon.ca →</BuyLink></li>
+          <li><strong>Icaridin (picaridin) or DEET on skin:</strong> Health Canada–approved and proven against ticks, not just mosquitoes. Apply to ankles and lower legs before yard work.</li>
+          <li><strong>A proper tick removal tool:</strong> Cheap insurance in the first-aid kit. Clean removal within 24–36 hours of attachment dramatically reduces Lyme transmission risk.</li>
+          <li><strong>Professional residual barrier spray:</strong> The backbone of the plan — 5 targeted treatments across the season keep Zones 1 and 2 hostile to ticks from spring nymph season through fall adult season.</li>
+        </ul>
+
+        <h3>Save Your Money</h3>
+        <ul>
+          <li><strong>Ultrasonic tick repellers:</strong> No peer-reviewed evidence they affect ticks at all. Ticks find hosts by CO2, heat, and scent — not sound.</li>
+          <li><strong>Cedar oil and essential-oil yard sprays:</strong> Some short-lived knockdown, but protection is measured in days rather than weeks, and field results are inconsistent.</li>
+          <li><strong>Diatomaceous earth outdoors:</strong> Only works while bone-dry — one rain or heavy dew and it&apos;s inert. Impractical for Ontario yards.</li>
+          <li><strong>Bug zappers:</strong> Ticks don&apos;t fly. Zappers kill moths and beneficial insects, not ticks.</li>
+          <li><strong>&ldquo;Tick-repelling&rdquo; plants:</strong> No meaningful field evidence that planting lavender or rosemary changes tick density in a yard.</li>
+        </ul>
+
+        <div className="not-prose my-8">
+          <p className="text-xs font-extrabold text-amber-700 uppercase tracking-wider mb-3">Related Product Guides</p>
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+            <Link href="/blog/tick-removal-tool-guide" className="block bg-gray-50 border border-gray-200 rounded-xl p-4 hover:border-amber-400 hover:bg-amber-50 transition-colors">
+              <div className="font-bold text-brand-900 text-sm mb-1">Tick Removal Tools: Full Guide</div>
+              <div className="text-gray-500 text-xs">Which tools remove ticks cleanly — and which to avoid</div>
+            </Link>
+            <Link href="/blog/best-tick-repellent-yard-canada" className="block bg-gray-50 border border-gray-200 rounded-xl p-4 hover:border-amber-400 hover:bg-amber-50 transition-colors">
+              <div className="font-bold text-brand-900 text-sm mb-1">Best Tick Repellents for Your Yard</div>
+              <div className="text-gray-500 text-xs">Sprays, granules, and treatments ranked by evidence</div>
+            </Link>
+            <Link href="/blog/tick-tubes-canada" className="block bg-gray-50 border border-gray-200 rounded-xl p-4 hover:border-amber-400 hover:bg-amber-50 transition-colors">
+              <div className="font-bold text-brand-900 text-sm mb-1">Tick Tubes in Canada</div>
+              <div className="text-gray-500 text-xs">How they work, where to place them, what to expect</div>
+            </Link>
+          </div>
+        </div>
 
         <h2>What to Do If You Find a Tick</h2>
         <p>If you find a tick attached to your skin, remove it promptly with fine-tipped tweezers. See our complete guide: <Link href="/blog/how-to-remove-tick-safely" className="text-brand-700 underline hover:text-brand-500">How to Remove a Tick Safely</Link></p>

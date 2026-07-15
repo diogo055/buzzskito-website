@@ -82,6 +82,40 @@ export default function TickRemovalToolGuidePage() {
           </div>
           <p className="lead text-xl text-gray-700 leading-relaxed mb-6">Removing a tick correctly takes 30 seconds with the right tool. Done wrong, you can break off the mouthparts, squeeze the tick&rsquo;s body and increase Lyme disease risk, or just panic. Here&rsquo;s the honest 2026 guide to what tools actually work.</p>
 
+          <h2>Tick Removal Tool Comparison</h2>
+          <div className="not-prose overflow-x-auto my-6">
+            <table className="w-full text-sm border-collapse">
+              <thead>
+                <tr className="bg-brand-800 text-white">
+                  <th className="px-3 py-2 text-left">Tool</th>
+                  <th className="px-3 py-2 text-left">How it works</th>
+                  <th className="px-3 py-2 text-left">Best for</th>
+                  <th className="px-3 py-2 text-center">Price tier</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  { tool: 'Tick Twister / O’Tom', mech: 'Hook slides under the tick, twist to release', best: 'All-round use, nymphs to engorged adults', price: 'Budget' },
+                  { tool: 'TickKey', mech: 'Tear-drop slot captures the tick, pull straight back', best: 'Beginners, keychain carry', price: 'Budget' },
+                  { tool: 'Tick removal card', mech: 'Credit-card-sized notch slides under the tick', best: 'Wallet backup, travel, glovebox', price: 'Cheapest' },
+                  { tool: 'Fine-tipped tweezers', mech: 'Grip the head at skin level, pull straight up', best: 'Occasional use, already owned', price: 'Free to budget' },
+                  { tool: 'Multi-tool removal kit', mech: 'Combines hook, tweezers, magnifier and storage vial', best: 'High-exposure households and dog owners', price: 'Mid-range' },
+                ].map(({ tool, mech, best, price }) => (
+                  <tr key={tool} className="border-b border-gray-200 even:bg-gray-50">
+                    <td className="px-3 py-2 font-medium text-gray-800">{tool}</td>
+                    <td className="px-3 py-2 text-gray-600 text-xs">{mech}</td>
+                    <td className="px-3 py-2 text-gray-600 text-xs">{best}</td>
+                    <td className="px-3 py-2 text-center text-gray-600 text-xs">{price}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="not-prose text-sm text-gray-600 mb-6">Prefer everything in one pouch? A complete removal kit bundles a hook, fine-tip tweezers and a storage vial, while a wallet-sized removal card is the cheapest backup to keep in the car or hiking pack:{' '}
+            <BuyLink search="tick removal kit">Tick removal kit on Amazon.ca &rarr;</BuyLink>{' '}
+            <BuyLink search="tick removal card">Wallet tick card &rarr;</BuyLink>
+          </p>
+
           <h2>The Top 3 Tick Removal Tools (Ranked)</h2>
 
           <h3>🥇 1. Tick Twister / O&rsquo;Tom Tick Twister — Best Overall</h3>
@@ -92,6 +126,9 @@ export default function TickRemovalToolGuidePage() {
             <li><strong>Cons:</strong> Easy to lose (small plastic); requires a brief learning curve</li>
             <li><strong>Where to buy:</strong> Amazon, PetSmart, your vet&rsquo;s front desk</li>
           </ul>
+          <p className="not-prose text-sm text-gray-600 mb-6">Dog owners: the Tick Twister also comes in a dog-specific multi-size pack &mdash; the larger hook handles engorged ticks buried in thick fur.{' '}
+            <BuyLink search="tick twister dog">Tick Twister for dogs on Amazon.ca &rarr;</BuyLink>
+          </p>
 
           <h3>🥈 2. TickKey — Best for Beginners</h3>
           <p>A flat metal tool with a tear-drop slot. Slide it across the skin until the tick captures in the slot, pull straight back. Foolproof.</p>
@@ -149,6 +186,7 @@ export default function TickRemovalToolGuidePage() {
 
           <h2>The Bigger Picture — Stop Finding Ticks</h2>
           <p>The fastest way to never need a tick removal tool is to not have ticks in your yard. <Link href="/tick-control">BuzzSkito&rsquo;s 5-spray tick season program</Link> reduces yard tick populations by 80–95% — most customers stop finding ticks within 2 weeks of the first treatment. From seasonal pricing on quote (or $497 bundled with mosquito).</p>
+          <p>Want a passive DIY layer between treatments? Permethrin tick tubes let mice carry the treatment into their nests, killing larval ticks before they ever quest for a host — see our <Link href="/blog/tick-tubes-canada">guide to tick tubes in Canada</Link>.</p>
 
           <h2>Related Reading</h2>
           <ul>

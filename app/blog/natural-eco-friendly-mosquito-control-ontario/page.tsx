@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
+import BuyLink from '@/components/BuyLink'
+import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { NEW_BLOGS_3, MOSQUITO_BLOGS } from '@/lib/constants'
 
@@ -96,6 +98,11 @@ export default function NaturalMosquitoControlPage() {
           More GTA homeowners are asking us about natural and eco-friendly mosquito control options — and it&apos;s a fair question. This guide gives you an honest breakdown of what natural options actually do, where they fall short in Ontario&apos;s climate, and the right combination strategy for different property types.
         </p>
 
+        <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+          <p className="text-xs font-extrabold text-emerald-700 uppercase tracking-wider mb-2">Quick Answer</p>
+          <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Some natural mosquito control genuinely works in Ontario: BTi dunks are highly effective against larvae in standing water, while garlic and cedar-oil sprays give adult mosquitoes only 7&ndash;14 days of light repellency. Plants help within a few metres. High-pressure yards near ravines or water still need a professional barrier spray.</p>
+        </div>
+
         <h2>The Natural vs. Synthetic Spectrum: What We&apos;re Actually Comparing</h2>
         <p>When Ontario homeowners ask about &ldquo;natural&rdquo; mosquito control, they usually mean one of four things: plant-based repellent sprays applied to the yard, biological larvicides that kill larvae without chemicals, essential oils used as personal repellents, or mosquito-repelling plants in the garden. Each of these exists on a spectrum from genuinely effective to mostly wishful thinking.</p>
         <p>Professional barrier spray, by contrast, typically uses a synthetic pyrethroid (permethrin or bifenthrin) that is a synthetic analogue of naturally occurring pyrethrins found in chrysanthemum flowers. It is not &ldquo;organic&rdquo; but it is PMRA-evaluated, Health Canada–approved, and has a well-documented safety and environmental profile at the concentrations used in residential applications.</p>
@@ -106,6 +113,10 @@ export default function NaturalMosquitoControlPage() {
         <h3>1. Bacillus thuringiensis israelensis (BTi) — Highly Effective for Larvae</h3>
         <p>BTi is a naturally occurring soil bacterium that produces proteins toxic specifically to mosquito (and blackfly) larvae. It is available in &ldquo;dunk&rdquo; or &ldquo;granule&rdquo; form and is the most effective natural tool available for Ontario homeowners with standing water on their property.</p>
         <p>Drop a BTi dunk into rain barrels, ornamental ponds, birdbaths, and any standing water that can&apos;t be eliminated. The bacterium reproduces in the water and kills larvae before they develop into biting adults. It is completely safe for fish, birds, bees, and mammals. The City of Toronto uses BTi as its primary larviciding tool across the city each year.</p>
+        <AffiliateDisclosure />
+        <div className="not-prose my-4">
+          <BuyLink search="summit mosquito dunks">Check Summit BTi mosquito dunks on Amazon.ca →</BuyLink>
+        </div>
         <p><strong>Best for:</strong> Any property with decorative ponds, birdbaths, rain barrels, or areas of persistent standing water. Works in combination with other methods.</p>
 
         <h3>2. Garlic-Based Barrier Sprays — Modest Adult Repellent</h3>
@@ -114,6 +125,10 @@ export default function NaturalMosquitoControlPage() {
 
         <h3>3. Cedar Oil Yard Treatments — Short Residual, Mild Effect</h3>
         <p>Cedar oil-based products are marketed as &ldquo;natural&rdquo; yard sprays and do have mosquito-repelling and insecticidal properties. The practical limitation for Ontario use is residual time — cedar oil volatilizes rapidly in heat and breaks down quickly in rain, typically providing 7–14 days of light protection versus 21–30 days from professional synthetic barrier spray.</p>
+        <p>The best-known cedar-oil yard spray is Wondercide — we break down exactly how it holds up in GTA conditions in our full <Link href="/blog/wondercide-canada-review" className="text-brand-700 underline">Wondercide Canada review</Link>.</p>
+        <div className="not-prose my-4">
+          <BuyLink search="wondercide yard spray">Check Wondercide yard spray on Amazon.ca →</BuyLink>
+        </div>
         <p><strong>Best for:</strong> Supplemental perimeter treatment between professional spray visits. Not sufficient as a standalone solution for high-pressure GTA properties.</p>
 
         <h3>4. Essential Oils as Personal Repellents — Works on People, Not Yards</h3>
@@ -173,6 +188,7 @@ export default function NaturalMosquitoControlPage() {
         <h2>Related Guides</h2>
         <ul>
           <li><Link href={`/blog/${MOSQUITO_BLOGS.pillar.slug}`} className="text-brand-700 hover:underline">{MOSQUITO_BLOGS.pillar.title}</Link></li>
+          <li><Link href="/blog/wondercide-canada-review" className="text-brand-700 hover:underline">Wondercide Canada — Honest Review + Where to Buy</Link></li>
           <li><Link href="/blog/mosquito-repellent-plants-ontario" className="text-brand-700 hover:underline">Best Mosquito-Repelling Plants for Ontario Gardens</Link></li>
           <li><Link href="/blog/hidden-mosquito-breeding-spots-backyard" className="text-brand-700 hover:underline">Hidden Mosquito Breeding Spots in Your GTA Backyard</Link></li>
           <li><Link href="/blog/mosquito-vs-diy-vs-professional-control" className="text-brand-700 hover:underline">DIY vs. Professional Mosquito Control: What Actually Works in Ontario</Link></li>

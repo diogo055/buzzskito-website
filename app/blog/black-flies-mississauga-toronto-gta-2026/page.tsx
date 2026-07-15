@@ -2,6 +2,8 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import BlogPostCTA from '@/components/BlogPostCTA'
+import BuyLink from '@/components/BuyLink'
+import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 
 const POST = {
@@ -134,10 +136,11 @@ export default function BlackFliesMississaugaTorontoGTAPage() {
         <p>The most effective single intervention. A mid-May treatment lays down a 30-day residual on shrubs, fence lines, ornamental beds, and the underside of leaves — exactly the rest sites black flies use between feeding bouts. The flies that arrive in your yard land on treated surfaces, take a lethal dose, and the population pressure in your immediate yard environment collapses. This is the only yard-level treatment that has a measurable effect on black flies, which is why our <Link href="/mosquito-control" className="text-brand-700 underline">seasonal program</Link> bookings spike in early May from homeowners who learned this lesson the hard way last year.</p>
 
         <h3>Thermacell during peak hours</h3>
-        <p>Thermacell units burn an allethrin pad and create a roughly 4-metre repellent cloud. They work on black flies and mosquitoes both. Run them on patios from 9:00 AM to 11:00 AM and from 4:00 PM to 7:00 PM during peak weeks. They cost about $40 for the unit and $10 per refill kit. Effective. Not a substitute for barrier spray, but a useful supplement during outdoor entertaining.</p>
+        <AffiliateDisclosure />
+        <p>Thermacell units burn an allethrin pad and create a roughly 4-metre repellent cloud. They work on black flies and mosquitoes both. Run them on patios from 9:00 AM to 11:00 AM and from 4:00 PM to 7:00 PM during peak weeks. Effective. Not a substitute for barrier spray, but a useful supplement during outdoor entertaining. The rechargeable Thermacell E90 skips the butane cartridges entirely — a single charge covers a full evening on the patio. <BuyLink search="thermacell e90 rechargeable">Check the Thermacell E90 on Amazon.ca →</BuyLink></p>
 
         <h3>Personal protection</h3>
-        <p>Light-coloured clothing (beige, light grey, white). Long sleeves and pants during peak weeks. A hat with a brim — and a head net if you are gardening near the property edge or hiking the ravines. DEET (25-30% concentration) or picaridin (20%) on exposed skin. For longer outdoor sessions, permethrin-treated clothing — apply 0.5% permethrin spray once, lasts six weeks or six washes. This is the single most effective personal protection layer for ravine walkers and gardeners.</p>
+        <p>Light-coloured clothing (beige, light grey, white). Long sleeves and pants during peak weeks. A hat with a brim — and a head net if you are gardening near the property edge or hiking the ravines. DEET (25-30% concentration) or picaridin (20%) on exposed skin; picaridin is odourless and won&rsquo;t damage gear the way DEET can. <BuyLink search="picaridin insect repellent">Check picaridin repellents on Amazon.ca →</BuyLink> For hands-free coverage during the worst weeks, a bug jacket with a built-in mesh hood beats reapplying spray — see our <Link href="/blog/bug-protective-clothing-canada" className="text-brand-700 underline">guide to bug-protective clothing</Link>. <BuyLink search="coghlans bug jacket">Check bug jackets on Amazon.ca →</BuyLink> For longer outdoor sessions, permethrin-treated clothing — apply 0.5% permethrin spray once, lasts six weeks or six washes. This is the single most effective personal protection layer for ravine walkers and gardeners.</p>
 
         <h3>Yard habitat modification</h3>
         <p>Trim back overgrown shrubs and dense vegetation along property edges. Open up the leeward (downwind) side of tree canopies where black flies cluster. Eliminate cool, damp, sheltered rest pockets in fence corners. None of these prevent emergence — the flies are coming from kilometres away — but they reduce the rest habitat that holds them in your yard.</p>

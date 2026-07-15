@@ -242,6 +242,43 @@ export default function BugZappersCanadaPage() {
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink search="solar bug zapper outdoor">See solar bug zappers on Amazon.ca →</BuyLink>
           </div>
+          <p>We&rsquo;ve tested the solar category in depth — coverage radius, battery life after cloudy days, and which units survive a Canadian season — in our <Link href="/blog/best-solar-bug-zapper-canada">best solar bug zappers in Canada guide</Link>.</p>
+
+          <h2>Where to Buy Bug Zappers in Canada (Costco vs Canadian Tire vs Amazon)</h2>
+          <p>All the big Canadian retailers stock zappers from spring through late summer, but they&rsquo;re good at different things. Here is the honest comparison &mdash; who has the best pricing, who actually has stock in July, and where to go for a specific model:</p>
+          <div className="not-prose overflow-x-auto my-4">
+            <table className="w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden">
+              <thead className="bg-brand-50">
+                <tr>
+                  <th className="px-3 py-2 text-left">Retailer</th>
+                  <th className="px-3 py-2 text-left">Selection</th>
+                  <th className="px-3 py-2 text-left">Typical pricing</th>
+                  <th className="px-3 py-2 text-left">Honest verdict</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  { name: 'Costco Canada', sel: 'Large units only, seasonal (spring sale)', price: '$39 – $159', verdict: 'Best pricing on big zappers when in stock — but sells out by mid-summer and carries no replacement bulbs' },
+                  { name: 'Canadian Tire', sel: 'Widest walk-in range: Flowtron, Stinger, rackets, bulbs', price: '$29.99 – $199', verdict: 'The reliable default — year-round stock, easy returns, and the place to grab replacement UV bulbs' },
+                  { name: 'Home Depot Canada', sel: 'Small-to-large outdoor units, spring/summer', price: '$24.99 – $179', verdict: 'Solid mid-range pricing; some models are online-order only' },
+                  { name: 'Amazon.ca', sel: 'Largest model range — incl. solar, rechargeable rackets, and specific Flowtron models', price: 'Changes daily — check live', verdict: 'Best for finding a specific model (like the BK-40D) or buying off-season when stores have cleared shelves' },
+                ].map(({ name, sel, price, verdict }) => (
+                  <tr key={name} className="border-t border-navy-50">
+                    <td className="px-3 py-2 font-bold text-brand-800">{name}</td>
+                    <td className="px-3 py-2 text-gray-700">{sel}</td>
+                    <td className="px-3 py-2 font-mono text-gray-800">{price}</td>
+                    <td className="px-3 py-2 text-xs text-gray-600">{verdict}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p>If you&rsquo;ve settled on the big Flowtron (the unit most Canadians end up buying), read our dedicated <Link href="/blog/flowtron-bug-zapper-canada">Flowtron bug zapper Canada review</Link> first &mdash; it covers the BK-15D vs BK-40D vs BK-80D sizing and the octenol-cartridge question. For cordless spots, the <Link href="/blog/best-solar-bug-zapper-canada">solar zapper roundup</Link> ranks what&rsquo;s actually worth buying.</p>
+          <p className="not-prose text-sm text-gray-600 mb-1">Check today&rsquo;s Amazon.ca pricing before you drive to a store:</p>
+          <div className="not-prose mb-6 flex flex-wrap gap-3">
+            <BuyLink search="flowtron bk-40d bug zapper">Check Flowtron BK-40D price →</BuyLink>
+            <BuyLink search="bug zapper outdoor">Browse outdoor bug zappers →</BuyLink>
+          </div>
 
           <h2>What ACTUALLY Works for Canadian Mosquitoes</h2>
           <p>If your goal is fewer mosquito bites in your Canadian backyard, the effective tools are:</p>
@@ -267,7 +304,7 @@ export default function BugZappersCanadaPage() {
           </table>
 
           <h2>The Indoor Racket Zapper Exception</h2>
-          <p>One bug-zapper format does work: handheld electric racket zappers (Black Flag Executioner, Stinger Indoor Racket, etc.). These look like badminton rackets with electrified mesh. When a mosquito gets inside your house, you can swat it manually — the electrified mesh kills on contact. Costs $15–$30, available at Canadian Tire, Home Depot, Walmart, Dollarama. Lasts years. Genuinely useful for the occasional indoor mosquito.</p>
+          <p>One bug-zapper format does work: handheld electric racket zappers (Black Flag Executioner, Stinger Indoor Racket, etc.). These look like badminton rackets with electrified mesh. When a mosquito gets inside your house, you can swat it manually — the electrified mesh kills on contact. Costs $15–$30, available at Canadian Tire, Home Depot, Walmart, Dollarama. Lasts years. Genuinely useful for the occasional indoor mosquito. We&rsquo;ve ranked the models worth buying in our <Link href="/blog/electric-fly-swatter-canada">electric fly swatter Canada guide</Link>.</p>
           <p className="not-prose text-sm text-gray-600 mb-1">The one zapper we actually keep in the house — a rechargeable electric racket for the odd mosquito that sneaks in:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink search="electric fly swatter racket rechargeable">Check racket zappers on Amazon.ca →</BuyLink>
@@ -280,6 +317,9 @@ export default function BugZappersCanadaPage() {
             <li><Link href="/blog/dynatrap-canada-review">DynaTrap Canada Honest Review</Link></li>
             <li><Link href="/blog/thermacell-canada-where-to-buy">Thermacell Canada Guide</Link></li>
             <li><Link href="/blog/mosquito-dunks-canada-guide">Mosquito Dunks Canada Guide</Link></li>
+            <li><Link href="/blog/flowtron-bug-zapper-canada">Flowtron Bug Zapper Canada — BK-15D vs BK-40D vs BK-80D</Link></li>
+            <li><Link href="/blog/best-solar-bug-zapper-canada">Best Solar Bug Zappers in Canada</Link></li>
+            <li><Link href="/blog/electric-fly-swatter-canada">Electric Fly Swatters in Canada — Ranked</Link></li>
             <li><Link href="/mosquito-control">BuzzSkito Professional Mosquito Control Service</Link></li>
           </ul>
         </div>

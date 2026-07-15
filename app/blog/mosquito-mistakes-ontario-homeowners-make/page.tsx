@@ -2,6 +2,8 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import AuthorByline from '@/components/AuthorByline'
+import BuyLink from '@/components/BuyLink'
+import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { MOSQUITO_BLOGS, TICK_BLOGS } from '@/lib/constants'
 
@@ -57,18 +59,25 @@ export default function MosquitoMistakesOntarioHomeownersMakePage() {
 
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
         <AuthorByline datePublished={DATE} />
+        <AffiliateDisclosure />
 
         <h3>1. Waiting Until July to Start Treatment</h3>
         <p>Most mosquito control failures start with timing, not product choice. By July, mosquito populations are 5–10× larger than they were in May. Starting treatment in May (when populations are tiny) keeps them tiny all season. Starting in July means playing catch-up against an established population that takes weeks to bring under control.</p>
 
         <h3>2. Trusting Citronella Candles for Full-Yard Protection</h3>
-        <p>Citronella candles work in a 2–3 foot bubble around the candle — not for the yard. Multiple research studies confirm this. They&apos;re ambiance, not protection. If you want yard-wide mosquito control, you need barrier spray + source elimination, not candles.</p>
+        <p>Citronella candles work in a 2–3 foot bubble around the candle — not for the yard. Multiple research studies confirm this. They&apos;re ambiance, not protection. If you want yard-wide mosquito control, you need barrier spray + source elimination, not candles. For the patio zone itself, a rechargeable spatial repellent like the Thermacell E90 protects roughly a 20-foot radius — a far more effective seat-level tool than any candle. See our <Link href="/blog/thermacell-e90-canada-review" className="text-brand-700 underline">Thermacell E90 Canada review</Link> for how it performs here.</p>
+        <div className="not-prose my-4">
+          <BuyLink search="thermacell e90 rechargeable">Check the Thermacell E90 on Amazon.ca →</BuyLink>
+        </div>
 
         <h3>3. Ignoring Rain Barrels and Birdbaths as Breeding Sites</h3>
         <p>A single uncovered rain barrel or birdbath can produce thousands of mosquitoes per week. Many Ontario homeowners think they&apos;ve eliminated standing water because the lawn drains well — without realizing their rain barrel and birdbath are pumping out mosquitoes daily. Cover the barrel, change birdbath water weekly, or use BTI dunks.</p>
+        <div className="not-prose my-4">
+          <BuyLink search="summit mosquito dunks">Check Summit BTI mosquito dunks on Amazon.ca →</BuyLink>
+        </div>
 
         <h3>4. Spraying Grass Instead of Leaf Undersides</h3>
-        <p>Mosquitoes don&apos;t rest on grass during the day. They rest on shaded undersides of leaves, in shrub interiors, on fence-line vegetation, and on the underside of deck joists. DIY sprays applied to lawns hit nothing. Professional barrier spray applied with backpack sprayers reaches actual resting surfaces — that&apos;s why it works and DIY doesn&apos;t.</p>
+        <p>Mosquitoes don&apos;t rest on grass during the day. They rest on shaded undersides of leaves, in shrub interiors, on fence-line vegetation, and on the underside of deck joists. DIY sprays applied to lawns hit nothing. Professional barrier spray applied with <Link href="/blog/backpack-sprayer-canada" className="text-brand-700 underline">backpack sprayers</Link> reaches actual resting surfaces — that&apos;s why it works and DIY doesn&apos;t.</p>
 
         <h3>5. Stopping Treatments After One Bad Weekend</h3>
         <p>A single rainy weekend doesn&apos;t mean treatments aren&apos;t working — it means mosquitoes that were already present took advantage of the humidity spike. Continued treatment through that week eliminates the population. Stopping treatments hands them a week to multiply.</p>
@@ -103,6 +112,7 @@ export default function MosquitoMistakesOntarioHomeownersMakePage() {
           <li><Link href={`/blog/${MOSQUITO_BLOGS.pillar.slug}`} className="text-brand-700 hover:underline">{MOSQUITO_BLOGS.pillar.title}</Link></li>
           <li><Link href={`/blog/${TICK_BLOGS.pillar.slug}`} className="text-brand-700 hover:underline">{TICK_BLOGS.pillar.title}</Link></li>
           <li><Link href="/blog/hidden-mosquito-breeding-spots-backyard" className="text-brand-700 hover:underline">Hidden Mosquito Breeding Spots in Your GTA Backyard</Link></li>
+          <li><Link href="/blog/backpack-sprayer-canada" className="text-brand-700 hover:underline">Best Backpack Sprayers in Canada</Link></li>
           <li><Link href="/blog/lyme-disease-tick-prevention-ontario" className="text-brand-700 hover:underline">Lyme Disease Prevention in Ontario</Link></li>
           <li><Link href="/mosquito-control" className="text-brand-700 hover:underline">View Our Mosquito Control Services</Link></li>
           <li><Link href="/tick-control" className="text-brand-700 hover:underline">View Our Tick Control Services</Link></li>

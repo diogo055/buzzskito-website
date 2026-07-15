@@ -209,7 +209,7 @@ export default function ThermacellRefillsRechargeCanadaPage() {
           </aside>
 
           <h2>How to Recharge an E55 or E90</h2>
-          <p>The rechargeable models could not be simpler. Plug the unit into any USB power source (current models use USB-C). A full charge takes about <strong>4&ndash;6 hours</strong> and delivers roughly <strong>5.5 hours of runtime on the E55</strong> and about <strong>9 hours on the E90</strong>. A small status light shows the charge level. For all-evening backyard use, you can leave the device connected to a portable power bank and run it while it charges &mdash; handy for long dinners and gatherings that outlast a single charge.</p>
+          <p>The rechargeable models could not be simpler. Plug the unit into any USB power source (current models use USB-C). A full charge takes about <strong>4&ndash;6 hours</strong> and delivers roughly <strong>5.5 hours of runtime on the E55</strong> and about <strong>9 hours on the E90</strong> &mdash; our <Link href="/blog/thermacell-e90-canada-review">Thermacell E90 Canada review</Link> covers how that runtime holds up over a full GTA season. A small status light shows the charge level. For all-evening backyard use, you can leave the device connected to a portable power bank and run it while it charges &mdash; handy for long dinners and gatherings that outlast a single charge.</p>
           <p>Two habits keep a rechargeable Thermacell reliable: charge it the night before you need it (batteries self-discharge slowly in storage), and store it indoors over winter rather than in an unheated shed, since deep cold is hard on lithium batteries.</p>
 
           <h2>How to Replace a Refill Cartridge or Mat</h2>

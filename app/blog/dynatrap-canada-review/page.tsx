@@ -251,15 +251,51 @@ export default function DynaTrapCanadaPage() {
           <h3>DynaTrap at Costco Canada</h3>
           <p>Costco Canada is usually the cheapest place to buy the larger DT2030 and DT3050, during its spring outdoor-living sale — often $30–$70 below Canadian Tire and Home Depot, sometimes landing the DT2030 near $179–$229. Stock is seasonal and disappears by mid-summer, and Costco rarely carries the Atrakta refills, so grab a couple of cartridges from <BuyLink search="dynatrap atrakta refill">Amazon.ca</BuyLink> or a garden centre at the same time. If Costco is sold out, the <Link href="/blog/thermacell-canada-where-to-buy">Thermacell</Link> lineup is stocked there too.</p>
 
+          <h2 id="dynatrap-xl">DynaTrap XL &amp; 1-Acre Models (DT2030 Series)</h2>
+          <p>Shopping for the <strong>DynaTrap XL</strong>? That&rsquo;s the label Canadian listings use for the <strong>1-acre tier</strong> — the DT2030 series plus the Canadian-market <strong>DT1100-CA</strong> and <strong>DT1130-CA</strong> SKUs. Mechanically it&rsquo;s the same UV-plus-fan trap as the half-acre units, scaled up: a stronger fan, a larger catch basket, and a higher-output UV lamp rated to cover roughly 43,000 sq ft (a full acre) of open yard.</p>
+          <div className="not-prose my-6 overflow-x-auto rounded-xl border border-navy-100 shadow-sm">
+            <table className="w-full text-sm">
+              <thead className="bg-brand-800 text-white">
+                <tr>
+                  <th className="px-4 py-3 text-left">Spec</th>
+                  <th className="px-4 py-3 text-left">Standard (DT1050)</th>
+                  <th className="px-4 py-3 text-left">XL / 1-acre (DT2030 · DT1100-CA · DT1130-CA)</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  ['Coverage', '½ acre (~21,000 sq ft)', '1 acre (~43,000 sq ft)'],
+                  ['UV lamp', 'Standard-output UV, ~3,000-hour rating', 'Higher-output UV, same ~3,000-hour rating'],
+                  ['Bulb replacement cadence', 'Start of each season (~every 4 months of 24/7 use)', 'Same cadence — start of each season'],
+                  ['Catch basket', 'Standard — empty every 1–2 weeks in peak summer', 'Larger — empty every 2–3 weeks in peak summer'],
+                  ['Atrakta cartridge', 'Compatible (60-day octenol refill)', 'Compatible (60-day octenol refill)'],
+                  ['Best for', 'Typical GTA suburban backyard', 'Cottage lots, rural acreage, very open properties'],
+                ].map(([spec, std, xl]) => (
+                  <tr key={spec} className="border-b border-navy-50 last:border-0">
+                    <td className="px-4 py-3 font-semibold text-brand-800 bg-brand-50">{spec}</td>
+                    <td className="px-4 py-3 text-gray-700">{std}</td>
+                    <td className="px-4 py-3 text-gray-700">{xl}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p>Two honest notes before you size up. First, the 1-acre rating assumes open, unobstructed air — fences, hedges, and buildings shrink real-world coverage, so a heavily treed lot behaves more like a half-acre one. Second, <strong>bigger coverage does not mean a better mosquito catch</strong>: the XL units pull in more insects in total, but the species mix is the same ~5% mosquitoes / 95% moths-and-beetles that every UV trap produces. Buy the XL because your property is genuinely large, not because you expect it to fix a mosquito problem the DT1050 couldn&rsquo;t. Bulb cadence is identical across the range — swap the UV lamp at the start of every season, since output falls to about half by month four.</p>
+          <p className="not-prose text-sm text-gray-600 mb-1">Compare current Canadian prices on the 1-acre models:</p>
+          <div className="not-prose mb-6 flex flex-wrap gap-3">
+            <BuyLink search="dynatrap dt2030 1 acre">Check DT2030 (1-acre) price on Amazon.ca →</BuyLink>
+            <BuyLink search="dynatrap dt1100 canada">Check DT1100-CA / DT1130-CA price →</BuyLink>
+          </div>
+
           <div className="not-prose my-6 rounded-xl bg-emerald-50 border-l-4 border-emerald-500 p-5">
             <p className="text-sm font-extrabold text-emerald-900 mb-1">Do DynaTraps actually work? The honest answer.</p>
             <p className="text-sm text-gray-800 leading-relaxed">Yes — as <em>flying-insect</em> catchers. As <em>mosquito</em> traps, only marginally. Peer-reviewed testing (University of Florida; Notre Dame) puts mosquitoes at roughly 5% of what a UV trap catches — the other 95% is moths, beetles, and midges. The Atrakta cartridge helps a little; it does not close the gap with CO₂ propane traps. For real mosquito relief in a GTA yard, pair a trap with <Link href="/mosquito-control">professional barrier spray</Link> — whole-yard, 21–30 day residual, and it also handles ticks, which no DynaTrap touches.</p>
           </div>
 
-          <h2>How DynaTrap Works (and Why That Matters)</h2>
+          <h2>How the DynaTrap Mosquito Trap Works (and Why That Matters)</h2>
           <p>DynaTrap uses two ingredients: a UV light to attract insects, and a small fan to suck them into a catch basket where they dehydrate. The premium models add an Atrakta cartridge that releases octenol — a synthetic version of human breath/sweat compounds.</p>
           <p>The problem is fundamental: UV light attracts MANY species of flying insects, but most mosquitoes are <strong>not</strong> primarily UV-attracted. Female mosquitoes (the ones that bite) hunt for blood meals using CO₂, body heat, lactic acid, and skin scent — not light. UV light primarily attracts moths (which use it for navigation), beetles, midges, mayflies, and other phototactic species.</p>
-          <p>This is why University of Florida and Notre Dame studies consistently find DynaTrap-style devices catching 5% mosquitoes and 95% &ldquo;everything else.&rdquo; The Atrakta octenol cartridge modestly improves mosquito catch, but it&rsquo;s still well below CO₂-generating propane traps.</p>
+          <p>This is why University of Florida and Notre Dame studies consistently find DynaTrap-style devices catching 5% mosquitoes and 95% &ldquo;everything else.&rdquo; The Atrakta octenol cartridge modestly improves mosquito catch, but it&rsquo;s still well below <Link href="/blog/co2-mosquito-trap-canada">CO₂-generating</Link> <Link href="/blog/propane-mosquito-trap-canada">propane traps</Link>.</p>
 
           <h2>What DynaTrap IS Good For</h2>
           <ul>
@@ -309,6 +345,8 @@ export default function DynaTrapCanadaPage() {
             <li><Link href="/blog/thermacell-canada-where-to-buy">Thermacell Canada Guide</Link></li>
             <li><Link href="/blog/mosquito-dunks-canada-guide">Mosquito Dunks Canada Guide</Link></li>
             <li><Link href="/blog/bug-zappers-canada-do-they-work">Bug Zappers Canada — Do They Work?</Link></li>
+            <li><Link href="/blog/co2-mosquito-trap-canada">CO₂ Mosquito Traps in Canada — How They Compare</Link></li>
+            <li><Link href="/blog/propane-mosquito-trap-canada">Propane Mosquito Traps in Canada — Buyer&rsquo;s Guide</Link></li>
             <li><Link href="/mosquito-control">BuzzSkito Professional Mosquito Control Service</Link></li>
           </ul>
         </div>

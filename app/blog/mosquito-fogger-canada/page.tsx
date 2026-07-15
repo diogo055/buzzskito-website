@@ -225,6 +225,15 @@ export default function MosquitoFoggerCanadaPage() {
           <h3>Fogging Liquid &amp; Insecticide: Match It to the Machine</h3>
           <p>The most common mistake first-time buyers make is putting the wrong liquid in the tank. <strong>Thermal propane foggers</strong> need an <em>oil-based, ready-to-use fogging insecticide</em> &mdash; the classic Black Flag, Repel, and Burgess fogging insecticides are all pyrethrin or pyrethroid formulations designed to vaporize cleanly through a heated coil. <strong>Cold / ULV foggers</strong> instead take a <em>water-based concentrate</em> that you dilute per the label (permethrin, deltamethrin, or pyrethrin concentrates). Swapping oil-based liquid into a cold fogger, or water-based concentrate into a thermal coil, clogs or damages the machine &mdash; and in Canada, only liquids carrying a Health Canada PMRA / PCP registration number are legal to use.</p>
 
+          <h2 id="fogger-liquid-refills">Fogger Liquid &amp; Refills in Canada</h2>
+          <p>The fogging liquid is the real recurring cost of owning a fogger &mdash; the machine is a one-time buy, but the liquid empties with every use. A typical bottle of ready-to-use fogging insecticide covers a small-to-medium yard a handful of times, so a household that fogs before every weekend gathering runs through several bottles between May and September. The branded liquids (Black Flag, Repel, Burgess &ldquo;fogger fuel&rdquo;) are interchangeable across the classic propane units, so shop on price and availability rather than matching the sticker to your machine &mdash; just keep it oil-based for a thermal fogger and confirm the Canadian PCP registration number on the label.</p>
+          <p>Because PMRA-registered fogging liquid is exactly what sells out first in a GTA July, the practical move is to buy two or three bottles in spring alongside the machine, then restock the moment your supply drops to one bottle:</p>
+          <div className="not-prose my-4 flex flex-wrap gap-3">
+            <BuyLink search="mosquito fogger insecticide liquid">Fogging insecticide liquid →</BuyLink>
+            <BuyLink search="black flag fogger fuel">Black Flag fogger fuel →</BuyLink>
+          </div>
+          <p>One budgeting sanity check: if you find yourself re-fogging every week, the liquid bills add up fast for hours-long results. At that point a <Link href="/blog/backpack-sprayer-canada">backpack sprayer</Link> with a registered residual concentrate treats the same vegetation a professional targets and keeps working for weeks instead of hours &mdash; or skip the DIY labour entirely with a seasonal barrier program.</p>
+
           <div className="not-prose my-6 rounded-xl bg-emerald-50 border-l-4 border-emerald-500 p-5">
             <p className="text-sm font-extrabold text-emerald-900 mb-1">Do mosquito foggers actually work? The honest answer.</p>
             <p className="text-sm text-gray-800 leading-relaxed">Yes &mdash; for <em>tonight</em>. Fog your yard 20&ndash;30 minutes before guests arrive and you will genuinely clear the adult mosquitoes flying at that moment. What foggers cannot do is <em>keep</em> your yard clear: the airborne cloud leaves almost no lasting residue, so the yard is reinfested within a day or two, and ticks &mdash; which stay low in leaf litter &mdash; are barely affected. For real, weeks-long relief, pair a fogger with <Link href="/mosquito-control">professional barrier spray</Link>, which coats resting surfaces with a 21&ndash;30 day residual and also handles ticks.</p>
@@ -285,6 +294,10 @@ export default function MosquitoFoggerCanadaPage() {
 
           <h2>Related Reading</h2>
           <ul>
+            <li><Link href="/blog/best-mosquito-trap-canada">Best Mosquito Trap Canada — CO₂, UV &amp; Propane Compared</Link></li>
+            <li><Link href="/blog/bug-zappers-canada-do-they-work">Bug Zappers Canada — Do They Actually Work?</Link></li>
+            <li><Link href="/blog/backpack-sprayer-canada">Backpack Sprayer Canada — DIY Residual Spraying Guide</Link></li>
+            <li><Link href="/blog/ortho-home-defense-canada-review">Ortho Home Defense Canada Review</Link></li>
             <li><Link href="/mosquito-control">BuzzSkito Professional Mosquito Control Service</Link></li>
             <li><Link href="/blog/permethrin-canada-yard-clothing-spray">Permethrin Canada — Yard &amp; Clothing Spray Guide</Link></li>
             <li><Link href="/free-yard-assessment">Get a Free Yard Assessment</Link></li>
