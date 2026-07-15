@@ -3,6 +3,7 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
+import TopPick from '@/components/TopPick'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 
 const SLUG = 'propane-mosquito-trap-canada'
@@ -92,17 +93,29 @@ export default function PropaneMosquitoTrapCanadaPage() {
         </div>
       </section>
 
+      <section className="bg-white px-4">
+        <div className="max-w-4xl mx-auto">
+          <TopPick
+            label="Our Value Pick"
+            name="Mosquito Magnet Patriot Plus (MM4200B)"
+            blurb="The entry point to the only propane-trap ecosystem with real Canadian refill and parts supply — the same CO2-plume mechanism and up-to-1-acre best-case reach as the flagship, without the flagship price."
+            search="mosquito magnet patriot plus"
+          />
+        </div>
+      </section>
+
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">Propane Trap Models Sold in Canada — At a Glance</h2>
           <div className="rounded-xl border border-navy-100 overflow-hidden bg-white shadow-sm overflow-x-auto">
-            <table className="w-full text-sm min-w-[640px]">
+            <table className="w-full text-sm min-w-[760px]">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Model</th>
                   <th className="px-4 py-3 text-left">Coverage (best case)</th>
                   <th className="px-4 py-3 text-left">Power</th>
                   <th className="px-4 py-3 text-left">Best for</th>
+                  <th className="px-4 py-3 text-left">Buy</th>
                 </tr>
               </thead>
               <tbody>
@@ -112,37 +125,43 @@ export default function PropaneMosquitoTrapCanadaPage() {
                     spec: 'Up to ~1 acre (4,000 m²) · entry model',
                     power: 'Propane tank + corded electric',
                     best: 'Suburban-to-rural lots with a nearby outdoor outlet',
+                    search: 'mosquito magnet patriot plus',
                   },
                   {
                     name: 'Mosquito Magnet Independence',
                     spec: 'Up to ~1 acre (4,000 m²) · cordless',
                     power: 'Propane tank + rechargeable battery',
                     best: 'Lots with no outlet near the trap location',
+                    search: 'mosquito magnet independence',
                   },
                   {
                     name: 'Mosquito Magnet Executive (MM3300B)',
                     spec: 'Up to ~1 acre (4,000 m²) · flagship',
                     power: 'Propane tank + corded electric',
                     best: 'Cottages, rural acreage, chronic all-summer pressure',
+                    search: 'mosquito magnet executive',
                   },
                   {
                     name: 'Octenol / Lurex attractant cartridge',
                     spec: 'Consumable · lasts ~3 weeks each',
                     power: 'N/A (scent lure)',
                     best: 'Boosting catch for nuisance / floodwater species',
+                    search: 'mosquito magnet octenol attractant',
                   },
                   {
                     name: 'US-only units (SkeeterVac, Flowtron PV-440, Bite Lite)',
                     spec: 'Similar propane-CO2 principle',
                     power: 'Propane tank',
                     best: 'Not reliably sold or serviced in Canada — skip',
+                    search: null,
                   },
-                ].map(({ name, spec, power, best }) => (
+                ].map(({ name, spec, power, best, search }) => (
                   <tr key={name} className="border-b border-navy-50 last:border-0">
                     <td className="px-4 py-3 font-bold text-brand-800">{name}</td>
                     <td className="px-4 py-3 text-gray-700">{spec}</td>
                     <td className="px-4 py-3 text-gray-700">{power}</td>
                     <td className="px-4 py-3 text-xs text-gray-600">{best}</td>
+                    <td className="px-4 py-3">{search ? <BuyLink search={search} className="!px-3 !py-1.5 !text-xs whitespace-nowrap">Check price</BuyLink> : <span className="text-xs text-gray-400">—</span>}</td>
                   </tr>
                 ))}
               </tbody>

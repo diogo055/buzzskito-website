@@ -3,6 +3,7 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
+import TopPick from '@/components/TopPick'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 
 const SLUG = 'best-screen-tent-canada'
@@ -90,32 +91,44 @@ export default function BestScreenTentCanadaPage() {
         </div>
       </section>
 
+      <section className="bg-white px-4">
+        <div className="max-w-4xl mx-auto">
+          <TopPick
+            name="Coleman Instant Screened Canopy 11x11"
+            blurb="121 sq ft of mesh-protected space with pre-attached poles — one adult can have it standing in about three minutes, and the footprint fits a standard campsite pad or backyard deck."
+            search="coleman instant screen house 11x11"
+          />
+        </div>
+      </section>
+
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">Screen Tent Comparison — Canada 2026</h2>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="w-full min-w-[720px] text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Model</th>
                   <th className="px-4 py-3 text-left">Size &amp; coverage</th>
                   <th className="px-4 py-3 text-left">Setup</th>
                   <th className="px-4 py-3 text-left">Best for</th>
+                  <th className="px-4 py-3 text-left">Buy</th>
                 </tr>
               </thead>
               <tbody>
                 {[
-                  { model: 'Coleman Instant Screened Canopy 11x11', size: '11 x 11 ft (3.4 x 3.4 m) · 121 sq ft', setup: 'Instant pre-attached poles · ~3 min', best: 'Best overall — families, campsites, decks' },
-                  { model: 'Coleman Skylodge 15x13 Screenhouse', size: '15 x 13 ft (4.6 x 4 m) · 195 sq ft', setup: 'Instant frame · ~5 min with 2 people', best: 'Biggest space — picnic tables, hosting' },
-                  { model: 'Coleman Back Home 12x10 Screenhouse', size: '12 x 10 ft (3.7 x 3 m) · 120 sq ft', setup: 'Instant frame · ~3–5 min', best: 'Backyard semi-permanent use' },
-                  { model: 'CAMPROS 12x10 Screen House', size: '12 x 10 ft (3.7 x 3 m) · 120 sq ft', setup: 'Traditional poles · ~10–15 min', best: 'Budget pick — most mesh per dollar' },
-                  { model: 'EAST OAK 10x10 Pop-Up Screen Room', size: '10 x 10 ft (3 x 3 m) · 100 sq ft', setup: 'Pop-up hub frame · ~1–2 min solo', best: 'One-person setup — docks, tailgates' },
-                ].map(({ model, size, setup, best }) => (
+                  { model: 'Coleman Instant Screened Canopy 11x11', size: '11 x 11 ft (3.4 x 3.4 m) · 121 sq ft', setup: 'Instant pre-attached poles · ~3 min', best: 'Best overall — families, campsites, decks', search: 'coleman instant screen house 11x11' },
+                  { model: 'Coleman Skylodge 15x13 Screenhouse', size: '15 x 13 ft (4.6 x 4 m) · 195 sq ft', setup: 'Instant frame · ~5 min with 2 people', best: 'Biggest space — picnic tables, hosting', search: 'coleman skylodge 15x13 screenhouse' },
+                  { model: 'Coleman Back Home 12x10 Screenhouse', size: '12 x 10 ft (3.7 x 3 m) · 120 sq ft', setup: 'Instant frame · ~3–5 min', best: 'Backyard semi-permanent use', search: 'coleman back home screen house 12x10' },
+                  { model: 'CAMPROS 12x10 Screen House', size: '12 x 10 ft (3.7 x 3 m) · 120 sq ft', setup: 'Traditional poles · ~10–15 min', best: 'Budget pick — most mesh per dollar', search: 'campros screen house 12x10' },
+                  { model: 'EAST OAK 10x10 Pop-Up Screen Room', size: '10 x 10 ft (3 x 3 m) · 100 sq ft', setup: 'Pop-up hub frame · ~1–2 min solo', best: 'One-person setup — docks, tailgates', search: 'east oak pop up screen room 10x10' },
+                ].map(({ model, size, setup, best, search }) => (
                   <tr key={model} className="border-b border-navy-50 last:border-0">
                     <td className="px-4 py-3 font-bold text-brand-800">{model}</td>
                     <td className="px-4 py-3 text-gray-700">{size}</td>
                     <td className="px-4 py-3 text-gray-700">{setup}</td>
                     <td className="px-4 py-3 text-xs text-gray-600">{best}</td>
+                    <td className="px-4 py-3"><BuyLink search={search} className="!px-3 !py-1.5 !text-xs whitespace-nowrap">Check price</BuyLink></td>
                   </tr>
                 ))}
               </tbody>

@@ -5,6 +5,7 @@ import BlogPostCTA from '@/components/BlogPostCTA'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import InlineYardRiskCTA from '@/components/InlineYardRiskCTA'
 import BuyLink from '@/components/BuyLink'
+import TopPick from '@/components/TopPick'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 
 const SLUG = 'mosquito-dunks-canada-guide'
@@ -146,6 +147,11 @@ export default function MosquitoDunksPage() {
           <p className="text-base text-gray-800 leading-relaxed">
             <strong>Mosquito dunks are small donut-shaped tablets containing BTI (<em>Bacillus thuringiensis israelensis</em>), a soil bacterium that kills mosquito larvae in standing water within 24 hours.</strong> One dunk treats up to 100 square feet of water for approximately 30 days. They&rsquo;re completely safe for humans, pets, fish, frogs, and beneficial insects — Health Canada approves BTI even in drinking water reservoirs. Available in Canada at Canadian Tire, Home Depot, and most garden centres for $10–$20 per 6-pack. Use them in rain barrels, ornamental ponds, neglected pools, and any standing water you can&rsquo;t drain. They only kill larvae — for adult mosquito control, combine with <Link href="/mosquito-control" className="text-emerald-700 underline font-semibold">professional yard barrier spray</Link>.
           </p>
+          <TopPick
+            name="Summit Mosquito Dunks (6-pack)"
+            blurb="One dunk treats up to 100 sq ft of standing water for ~30 days — a single 6-pack covers a typical rain barrel for the entire May–September season, and it's completely safe for fish, pets, and pollinators."
+            search="summit mosquito dunks"
+          />
         </div>
       </section>
 
@@ -222,6 +228,10 @@ export default function MosquitoDunksPage() {
               <tr className="border-t border-navy-50"><td className="px-3 py-2">Typical price</td><td className="px-3 py-2">$10–$20 per 6-pack</td><td className="px-3 py-2">$15–$25 per 8 oz</td></tr>
             </tbody>
           </table>
+          <div className="not-prose my-4 flex flex-wrap items-center gap-3">
+            <BuyLink search="summit mosquito dunks" className="!px-3 !py-1.5 !text-xs">Check Dunks price</BuyLink>
+            <BuyLink search="summit mosquito bits" className="!px-3 !py-1.5 !text-xs">Check Bits price</BuyLink>
+          </div>
           <p>Most Canadian homeowners with mosquito issues use both — dunks in rain barrels and ponds for set-and-forget protection, bits sprinkled into bird baths or unexpected standing water as needed.</p>
 
           <h2>The Bigger Mosquito Strategy</h2>

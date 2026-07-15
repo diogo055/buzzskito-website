@@ -3,6 +3,7 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
+import TopPick from '@/components/TopPick'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 
 const SLUG = 'mosquito-net-canada'
@@ -78,6 +79,17 @@ export default function MosquitoNetCanadaPage() {
           <p className="speakable text-base text-gray-800 leading-relaxed">
             <strong>Match the net to the space you are protecting.</strong> For a bed, buy a rectangular four-corner canopy net ($30&ndash;$70) if you can hang a ceiling hook, or a free-standing pop-up bed net ($35&ndash;$80) if you cannot. For the outdoors, a $8&ndash;$20 head net is the cheapest effective bug protection you can own; a hammock needs a full-length zip net ($30&ndash;$90), and a baby needs a fitted stroller net ($10&ndash;$25). In every case the one spec that matters is mesh fineness &mdash; look for roughly 156 or more holes per square inch so no-see-ums and small mosquitoes cannot get through. A net protects only the space it encloses, so for the rest of your yard you still need <Link href="/mosquito-control" className="text-emerald-700 underline">barrier spray</Link> or <Link href="/blog/mosquito-repellent-guide-ontario-2026" className="text-emerald-700 underline">skin repellent</Link>.
           </p>
+        </div>
+      </section>
+
+      <section className="bg-white px-4">
+        <div className="max-w-4xl mx-auto">
+          <TopPick
+            label="Our Best-Value Pick"
+            name="Mosquito Head Net (worn over a brim hat)"
+            blurb="The single most cost-effective piece of insect protection you can buy — keeps mosquitoes, black flies, and no-see-ums completely off your face and neck for cottage evenings, hiking, fishing, and dusk yard work."
+            search="mosquito head net hat"
+          />
         </div>
       </section>
 

@@ -4,6 +4,7 @@ import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import TopPick from '@/components/TopPick'
 
 const SLUG = 'dynatrap-canada-review'
 const DATE = '2026-05-01'
@@ -133,6 +134,9 @@ export default function DynaTrapCanadaPage() {
           <p className="text-xs text-gray-500 mt-3">
             Prices accurate as of May 2026. Atrakta booster cartridges (60-day mosquito attractant) add $15–$25 each. UV replacement bulbs $15–$25 each (replace yearly). Annual operating cost: $90–$150.
           </p>
+          <p className="mt-4 text-sm text-gray-700">
+            Amazon.ca also stocks the full DynaTrap lineup year-round with delivery. <BuyLink search="dynatrap insect trap" className="!px-3 !py-1.5 !text-xs">Check price</BuyLink>
+          </p>
           <div className="mt-5 rounded-xl bg-rose-50 border-l-4 border-rose-400 p-4">
             <p className="text-sm text-gray-800 leading-relaxed">
               <strong className="text-rose-900">⚠️ Independent research finds DynaTraps catch mostly non-biting insects.</strong> University studies show 80–95% of catches are moths, beetles, and other flying insects — not mosquitoes. If mosquito-specific reduction is your goal, <Link href="/mosquito-control" className="text-emerald-700 underline font-semibold">professional barrier spray</Link> ($99/treatment) or <Link href="/blog/mosquito-magnet-canada">Mosquito Magnet</Link> are far more effective. DynaTrap can supplement other strategies but shouldn&rsquo;t be your primary mosquito control.
@@ -148,6 +152,17 @@ export default function DynaTrapCanadaPage() {
           <p className="text-base text-gray-800 leading-relaxed">
             <strong>Marginally — but only as a supplemental tool, not as primary mosquito control.</strong> DynaTraps use UV light and fan suction to catch flying insects, but independent research consistently shows that 80–95% of catches are non-biting moths, beetles, and midges. Mosquito catches are typically under 5%. Adding the Atrakta cartridge improves mosquito attraction modestly. For Canadian buyers wanting genuine mosquito reduction, <Link href="/mosquito-control" className="text-emerald-700 underline">professional barrier spray</Link>, <Link href="/blog/mosquito-magnet-canada">Mosquito Magnet</Link> propane CO₂ traps, or <Link href="/blog/thermacell-canada-where-to-buy">Thermacell devices</Link> are all more effective per dollar. DynaTrap is fine if you also want to catch general flying-insect nuisance, but don&rsquo;t expect it to solve a mosquito problem.
           </p>
+        </div>
+      </section>
+
+      <section className="bg-white px-4">
+        <div className="max-w-4xl mx-auto">
+          <TopPick
+            label="Our DynaTrap Pick"
+            name="DynaTrap DT1050 (½ acre)"
+            blurb="If you're set on a DynaTrap, the half-acre DT1050 is the right size for a typical Canadian suburban backyard — the 1-acre models cost more without catching meaningfully more mosquitoes on a standard lot."
+            search="dynatrap dt1050"
+          />
         </div>
       </section>
 

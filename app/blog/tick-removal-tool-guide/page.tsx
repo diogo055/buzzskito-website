@@ -3,6 +3,7 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
+import TopPick from '@/components/TopPick'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 
 const SLUG = 'tick-removal-tool-guide'
@@ -82,6 +83,12 @@ export default function TickRemovalToolGuidePage() {
           </div>
           <p className="lead text-xl text-gray-700 leading-relaxed mb-6">Removing a tick correctly takes 30 seconds with the right tool. Done wrong, you can break off the mouthparts, squeeze the tick&rsquo;s body and increase Lyme disease risk, or just panic. Here&rsquo;s the honest 2026 guide to what tools actually work.</p>
 
+          <TopPick
+            name="Tick Twister / O’Tom Tick Twister"
+            blurb="The hooked notch slides under the tick and twists it free without squeezing the body — works on everything from tiny nymphs to engorged adults, and it’s the standard tool most veterinarians recommend."
+            search="tick twister removal tool"
+          />
+
           <h2>Tick Removal Tool Comparison</h2>
           <div className="not-prose overflow-x-auto my-6">
             <table className="w-full text-sm border-collapse">
@@ -91,21 +98,23 @@ export default function TickRemovalToolGuidePage() {
                   <th className="px-3 py-2 text-left">How it works</th>
                   <th className="px-3 py-2 text-left">Best for</th>
                   <th className="px-3 py-2 text-center">Price tier</th>
+                  <th className="px-3 py-2 text-center">Buy</th>
                 </tr>
               </thead>
               <tbody>
                 {[
-                  { tool: 'Tick Twister / O’Tom', mech: 'Hook slides under the tick, twist to release', best: 'All-round use, nymphs to engorged adults', price: 'Budget' },
-                  { tool: 'TickKey', mech: 'Tear-drop slot captures the tick, pull straight back', best: 'Beginners, keychain carry', price: 'Budget' },
-                  { tool: 'Tick removal card', mech: 'Credit-card-sized notch slides under the tick', best: 'Wallet backup, travel, glovebox', price: 'Cheapest' },
-                  { tool: 'Fine-tipped tweezers', mech: 'Grip the head at skin level, pull straight up', best: 'Occasional use, already owned', price: 'Free to budget' },
-                  { tool: 'Multi-tool removal kit', mech: 'Combines hook, tweezers, magnifier and storage vial', best: 'High-exposure households and dog owners', price: 'Mid-range' },
-                ].map(({ tool, mech, best, price }) => (
+                  { tool: 'Tick Twister / O’Tom', mech: 'Hook slides under the tick, twist to release', best: 'All-round use, nymphs to engorged adults', price: 'Budget', search: 'tick twister removal tool' },
+                  { tool: 'TickKey', mech: 'Tear-drop slot captures the tick, pull straight back', best: 'Beginners, keychain carry', price: 'Budget', search: '' },
+                  { tool: 'Tick removal card', mech: 'Credit-card-sized notch slides under the tick', best: 'Wallet backup, travel, glovebox', price: 'Cheapest', search: 'tick removal card' },
+                  { tool: 'Fine-tipped tweezers', mech: 'Grip the head at skin level, pull straight up', best: 'Occasional use, already owned', price: 'Free to budget', search: 'fine tip tick tweezers' },
+                  { tool: 'Multi-tool removal kit', mech: 'Combines hook, tweezers, magnifier and storage vial', best: 'High-exposure households and dog owners', price: 'Mid-range', search: 'tick removal kit' },
+                ].map(({ tool, mech, best, price, search }) => (
                   <tr key={tool} className="border-b border-gray-200 even:bg-gray-50">
                     <td className="px-3 py-2 font-medium text-gray-800">{tool}</td>
                     <td className="px-3 py-2 text-gray-600 text-xs">{mech}</td>
                     <td className="px-3 py-2 text-gray-600 text-xs">{best}</td>
                     <td className="px-3 py-2 text-center text-gray-600 text-xs">{price}</td>
+                    <td className="px-3 py-2 text-center whitespace-nowrap">{search ? <BuyLink search={search} className="!px-3 !py-1.5 !text-xs">Check price</BuyLink> : <span className="text-xs text-gray-400">&mdash;</span>}</td>
                   </tr>
                 ))}
               </tbody>

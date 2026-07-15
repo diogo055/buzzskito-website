@@ -4,6 +4,7 @@ import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import TopPick from '@/components/TopPick'
 
 const SLUG = 'mosquito-magnet-canada'
 const DATE = '2026-05-01'
@@ -118,6 +119,9 @@ export default function MosquitoMagnetCanadaPage() {
           <p className="text-xs text-gray-500 mt-3">
             Prices accurate as of May 2026. Annual operating cost (propane + attractant cartridges) adds $400–$600/season. Total year-one investment: $850–$1,100 for Patriot Plus, $1,300–$1,900 for Executive.
           </p>
+          <p className="mt-4 text-sm text-gray-700">
+            Amazon.ca carries the full Mosquito Magnet lineup with Prime shipping. <BuyLink search="mosquito magnet trap" className="!px-3 !py-1.5 !text-xs">Check price</BuyLink>
+          </p>
           <div className="mt-5 rounded-xl bg-amber-50 border-l-4 border-amber-400 p-4">
             <p className="text-sm text-gray-800 leading-relaxed">
               <strong className="text-amber-900">⚠️ Mosquito Magnet works over weeks, not days.</strong> Population reduction takes 4–8 weeks of continuous operation. For immediate yard usability or to handle a one-time event (BBQ, wedding, party), <Link href="/mosquito-control" className="text-emerald-700 underline font-semibold">professional barrier spray</Link> works in hours and lasts 21–30 days per treatment. Cottage owners and rural acreage often run BOTH for peak protection.
@@ -133,6 +137,17 @@ export default function MosquitoMagnetCanadaPage() {
           <p className="text-base text-gray-800 leading-relaxed">
             <strong>Yes for cottages and rural acreage with chronic high mosquito populations — usually NOT the best choice for typical GTA suburban backyards.</strong> Mosquito Magnet ($400–$1,300 device + $400–$600/season in propane and attractants) reduces populations 70–90% over 6–8 weeks of continuous operation. For most GTA homeowners, professional barrier spray ($99/treatment, 21–30 days residual, immediate yard usability) delivers faster, cheaper, and more complete results. Mosquito Magnet shines on 1+ acre rural properties, cottage country, and chronic-issue lots adjacent to wetlands.
           </p>
+        </div>
+      </section>
+
+      <section className="bg-white px-4">
+        <div className="max-w-4xl mx-auto">
+          <TopPick
+            label="Our Mosquito Magnet Pick"
+            name="Mosquito Magnet Patriot Plus"
+            blurb="Treats up to 1 acre and is sufficient for most GTA suburban backyards — the pricier Executive only earns its upgrade on cottages and rural acreage where multi-season durability pays off."
+            search="mosquito magnet patriot plus"
+          />
         </div>
       </section>
 

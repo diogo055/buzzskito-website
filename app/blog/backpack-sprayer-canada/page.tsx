@@ -3,6 +3,7 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
+import TopPick from '@/components/TopPick'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 
 const SLUG = 'backpack-sprayer-canada'
@@ -86,31 +87,43 @@ export default function BackpackSprayerCanadaPage() {
         </div>
       </section>
 
+      <section className="bg-white px-4">
+        <div className="max-w-4xl mx-auto">
+          <TopPick
+            name="PetraTools HD4000 ProSeries"
+            blurb="A 4-gallon lithium unit that holds its set pressure from the first litre to the last — the constant 40–60 PSI fine cone that mosquito barrier spraying actually depends on."
+            search="petratools hd4000 battery backpack sprayer"
+          />
+        </div>
+      </section>
+
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">Best Backpack Sprayers in Canada 2026 — Compared</h2>
           <div className="rounded-xl border border-navy-100 overflow-hidden bg-white shadow-sm overflow-x-auto">
-            <table className="w-full text-sm">
+            <table className="w-full min-w-[760px] text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Model</th>
                   <th className="px-4 py-3 text-left">Tank &amp; Specs</th>
                   <th className="px-4 py-3 text-left">Power Source</th>
                   <th className="px-4 py-3 text-left">Best For</th>
+                  <th className="px-4 py-3 text-left">Buy</th>
                 </tr>
               </thead>
               <tbody>
                 {[
-                  { name: 'PetraTools HD4000 ProSeries', specs: '4 gal (15 L) · adjustable pressure · multi-hour lithium runtime · cone + fan nozzles', power: 'Battery (lithium)', best: 'Top overall — consistent barrier spraying on typical GTA lots' },
-                  { name: 'PetraTools HD4100 Pro (cart)', specs: '4 gal (15 L) · converts backpack ↔ wheeled cart · long hose reach', power: 'Battery (lithium)', best: 'Anyone who doesn\'t want ~20 kg (45 lb) on their back' },
-                  { name: 'VEVOR 4-Gallon 8-Nozzle', specs: '4 gal (15 L) · 8-nozzle kit incl. mist &amp; fan tips · 12V battery', power: 'Battery (12V)', best: 'Budget battery pick — most nozzles in the box' },
-                  { name: 'MY4SONS M4', specs: '4 gal (15 L) · variable pressure rated to ~80 PSI · quick-swap fittings · no-pump design', power: 'Battery (rechargeable)', best: 'Highest pressure — dense hedges, tall shrub lines' },
-                ].map(({ name, specs, power, best }) => (
+                  { name: 'PetraTools HD4000 ProSeries', specs: '4 gal (15 L) · adjustable pressure · multi-hour lithium runtime · cone + fan nozzles', power: 'Battery (lithium)', best: 'Top overall — consistent barrier spraying on typical GTA lots', search: 'petratools hd4000 battery backpack sprayer' },
+                  { name: 'PetraTools HD4100 Pro (cart)', specs: '4 gal (15 L) · converts backpack ↔ wheeled cart · long hose reach', power: 'Battery (lithium)', best: 'Anyone who doesn\'t want ~20 kg (45 lb) on their back', search: 'petratools hd4100 backpack sprayer' },
+                  { name: 'VEVOR 4-Gallon 8-Nozzle', specs: '4 gal (15 L) · 8-nozzle kit incl. mist &amp; fan tips · 12V battery', power: 'Battery (12V)', best: 'Budget battery pick — most nozzles in the box', search: 'vevor battery backpack sprayer 4 gallon' },
+                  { name: 'MY4SONS M4', specs: '4 gal (15 L) · variable pressure rated to ~80 PSI · quick-swap fittings · no-pump design', power: 'Battery (rechargeable)', best: 'Highest pressure — dense hedges, tall shrub lines', search: 'my4sons m4 backpack sprayer' },
+                ].map(({ name, specs, power, best, search }) => (
                   <tr key={name} className="border-b border-navy-50 last:border-0">
                     <td className="px-4 py-3 font-bold text-brand-800">{name}</td>
                     <td className="px-4 py-3 text-gray-800" dangerouslySetInnerHTML={{ __html: specs }} />
                     <td className="px-4 py-3 text-gray-800">{power}</td>
                     <td className="px-4 py-3 text-xs text-gray-600">{best}</td>
+                    <td className="px-4 py-3"><BuyLink search={search} className="!px-3 !py-1.5 !text-xs whitespace-nowrap">Check price</BuyLink></td>
                   </tr>
                 ))}
               </tbody>

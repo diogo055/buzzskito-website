@@ -3,6 +3,7 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
+import TopPick from '@/components/TopPick'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 
 const SLUG = 'mosquito-fogger-canada'
@@ -124,6 +125,16 @@ export default function MosquitoFoggerCanadaPage() {
           <p className="text-base text-gray-800 leading-relaxed speakable">
             <strong>Yes for fast, temporary knockdown &mdash; no as a lasting mosquito solution.</strong> A fogger fills the air with a fine cloud of pyrethrin or pyrethroid insecticide that kills the adult mosquitoes it contacts, so 20&ndash;30 minutes after fogging your yard is noticeably clearer &mdash; perfect right before a barbecue or evening on the deck. But the fog dissipates within hours and leaves almost no residual, so mosquitoes drift back in from neighbouring yards within a day or two, and foggers barely touch ticks. For weeks of hands-off protection, <Link href="/mosquito-control" className="text-emerald-700 underline">professional barrier spray</Link> deposits a 21&ndash;30 day residual on resting surfaces, while a fogger is best kept on hand for on-demand, event-day clearing.
           </p>
+        </div>
+      </section>
+
+      <section className="bg-white px-4">
+        <div className="max-w-4xl mx-auto">
+          <TopPick
+            name="Black Flag Propane Mosquito Fogger"
+            blurb="The classic backyard knockdown unit — cordless, cheap to run, and clears the adult mosquitoes from your yard 20–30 minutes before guests arrive. Pair it with a PMRA-registered fogging insecticide."
+            search="black flag propane fogger"
+          />
         </div>
       </section>
 

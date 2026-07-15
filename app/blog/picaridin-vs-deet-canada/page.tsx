@@ -3,6 +3,7 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
+import TopPick from '@/components/TopPick'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 
 const SLUG = 'picaridin-vs-deet-canada'
@@ -148,6 +149,16 @@ export default function PicaridinVsDeetPage() {
         </div>
       </section>
 
+      <section className="bg-white px-4">
+        <div className="max-w-4xl mx-auto">
+          <TopPick
+            name="Picaridin 20% (Natrapel, OFF! Defense, or Sawyer)"
+            blurb="The winner for most Canadians — the same 5–8 hour mosquito and 8-hour tick protection as DEET 30%, but non-greasy, odourless, and safe on plastics, sunglasses, and synthetic clothing."
+            search="natrapel picaridin insect repellent"
+          />
+        </div>
+      </section>
+
       <section className="py-10 px-4 bg-white border-b border-navy-100">
         <div className="max-w-4xl mx-auto">
           <p className="text-xs font-extrabold text-emerald-700 uppercase tracking-wider mb-2">Repellent Explainer</p>
@@ -203,6 +214,11 @@ export default function PicaridinVsDeetPage() {
               </tbody>
             </table>
           </div>
+          <p className="mt-4 text-sm text-gray-600 flex flex-wrap items-center gap-2">
+            <span>Compare live Canadian prices:</span>
+            <BuyLink search="natrapel picaridin insect repellent" className="!px-3 !py-1.5 !text-xs">Picaridin 20% on Amazon.ca</BuyLink>
+            <BuyLink search="off deep woods deet insect repellent" className="!px-3 !py-1.5 !text-xs">DEET 30% on Amazon.ca</BuyLink>
+          </p>
         </div>
       </section>
 

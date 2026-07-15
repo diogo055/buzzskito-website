@@ -3,6 +3,7 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
+import TopPick from '@/components/TopPick'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 
 const SLUG = 'best-mosquito-repellent-device-canada'
@@ -160,6 +161,16 @@ export default function BestMosquitoRepellentDeviceCanadaPage() {
           <p className="speakable text-base text-gray-800 leading-relaxed">
             <strong>For most Canadian backyards, the best device is a Thermacell zone repeller ($35–$229) — it creates a bite-free 6-metre bubble around your patio in about 15 minutes with no smoke or spray.</strong> If you have a large rural or cottage lot and want to thin the whole-property population, a <Link href="/blog/mosquito-magnet-canada" className="text-emerald-700 underline">propane CO₂ trap (Mosquito Magnet)</Link> is the strongest killing device, though it takes 6–8 weeks. Bug zappers are the worst pick — independent studies show under 1% of what they kill is mosquitoes. No device beats <Link href="/mosquito-control" className="text-emerald-700 underline">professional barrier spray</Link> for combined whole-yard mosquito and tick coverage, so the ideal setup is a Thermacell where you sit plus barrier spray for the yard.
           </p>
+        </div>
+      </section>
+
+      <section className="bg-white px-4">
+        <div className="max-w-4xl mx-auto">
+          <TopPick
+            name="Thermacell Zone Repeller (E-Series / Patio Shield)"
+            blurb="Creates a bite-free 6-metre bubble around your patio in about 15 minutes — no smoke, no spray, no flame. Testing shows 70–95% fewer bites inside the zone, and it's the cheapest device that genuinely works."
+            search="thermacell patio shield"
+          />
         </div>
       </section>
 

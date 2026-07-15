@@ -3,6 +3,7 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
+import TopPick from '@/components/TopPick'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 
 const SLUG = 'best-tick-repellent-yard-canada'
@@ -86,6 +87,13 @@ export default function BestTickRepellentYardPage() {
             <p className="text-xs font-extrabold text-emerald-700 uppercase tracking-wider mb-2">Quick Answer</p>
             <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The best tick repellent for Ontario yards is a Health Canada-approved professional barrier spray — it cuts tick populations 80&ndash;95% by targeting the leaf litter and lawn edges where ticks actually live. Best DIY runners-up: permethrin granules and cedar-oil sprays like Wondercide, layered over free habitat fixes (short grass, a 3-foot mulch barrier).</p>
           </div>
+
+          <TopPick
+            label="Our Top DIY Pick"
+            name="Wondercide Cedar-Oil Yard Spray"
+            blurb="The leading evidence-backed natural yard spray — real cedar-oil repellency (40–60% population reduction) when re-applied every 2 weeks. The strongest DIY layer you can buy to stack on top of the free habitat fixes."
+            search="wondercide tick yard spray"
+          />
 
           <h2>The Tier System for Yard Tick Repellent</h2>
 

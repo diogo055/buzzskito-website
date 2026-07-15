@@ -5,6 +5,7 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import InlineYardRiskCTA from '@/components/InlineYardRiskCTA'
+import TopPick from '@/components/TopPick'
 
 const SLUG = 'thermacell-canada-where-to-buy'
 const DATE = '2026-05-01'
@@ -106,6 +107,12 @@ export default function ThermacellCanadaPage() {
             <p className="text-xs font-extrabold text-emerald-700 uppercase tracking-wider mb-2">Quick Answer</p>
             <p className="text-gray-800 text-[15px] leading-relaxed font-medium">In Canada, buy Thermacell repellers and refills at Canadian Tire, Home Depot Canada, Rona, Cabela&rsquo;s, Bass Pro, MEC, and Amazon.ca. The rechargeable E55 and E90 are the models to look for — the Liv smart system is not sold in Canada. Buy refills in spring, before June–July stock runs low.</p>
           </div>
+          <TopPick
+            label="Our Canadian Pick"
+            name="Thermacell E90 Rechargeable"
+            blurb="The top Thermacell you can actually buy in Canada — roughly 9 hours per charge, enough to outlast a full backyard evening without a mid-party recharge (the Liv smart system is US-only)."
+            search="thermacell e90 rechargeable mosquito repeller"
+          />
         </div>
       </section>
 

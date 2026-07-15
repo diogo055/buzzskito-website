@@ -3,6 +3,7 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
+import TopPick from '@/components/TopPick'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 
 const SLUG = 'best-mosquito-trap-canada'
@@ -78,6 +79,16 @@ export default function BestMosquitoTrapCanadaPage() {
           <p className="text-base text-gray-800 leading-relaxed speakable">
             <strong>For real mosquito reduction, a propane CO₂ trap like the <Link href="/blog/mosquito-magnet-canada" className="text-emerald-700 underline">Mosquito Magnet</Link> is the best trap you can buy in Canada</strong> &mdash; it burns propane to make real CO₂, heat, and moisture, and cuts mosquito populations 70&ndash;90% over 6&ndash;8 weeks. Cheaper <Link href="/blog/dynatrap-canada-review" className="text-emerald-700 underline">UV + fan traps like DynaTrap</Link> catch mostly non-biting moths and beetles (only ~5% mosquitoes), while CO₂/octenol lure traps sit in the middle on both price and performance. But for a typical GTA backyard, no trap beats <Link href="/mosquito-control" className="text-emerald-700 underline">professional barrier spray</Link> ($99/treatment) for same-day, whole-yard coverage that also kills ticks.
           </p>
+        </div>
+      </section>
+
+      <section className="bg-white px-4">
+        <div className="max-w-4xl mx-auto">
+          <TopPick
+            name="Mosquito Magnet Patriot Plus (Propane CO₂ Trap)"
+            blurb="The only trap type that generates real CO₂ — the cue biting females actually hunt for. Independent testing supports 70–90% mosquito population reduction over 6–8 weeks on up to 1 acre."
+            search="mosquito magnet trap"
+          />
         </div>
       </section>
 

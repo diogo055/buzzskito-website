@@ -3,6 +3,7 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
+import TopPick from '@/components/TopPick'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 
 const SLUG = 'mosquito-bits-canada-vs-dunks'
@@ -144,6 +145,12 @@ export default function MosquitoBitsCanadaPage() {
           <p className="text-base text-gray-800 leading-relaxed">
             <strong>Bits kill larvae faster — full kill within 24 hours — while Dunks release slowly and keep protecting for a full 30 days.</strong> Both contain BTI: use DUNKS for long-term water sources (rain barrels, ponds, 30-day release) and BITS for fast knockdown or small water (bird baths, kiddie pools, 7–14 day release). Most Canadian homeowners buy both: dunks for the rain barrel, bits sprinkled when you find unexpected larvae anywhere else. Available at Canadian Tire, Home Depot Canada, Rona, and Amazon.ca. Mosquito Bits 8-oz container: $15–$22. Bits start working within 30 minutes vs dunks taking 4 hours. Both are completely safe for humans, pets, fish, frogs, and pollinators — Health Canada-approved for residential use.
           </p>
+          <TopPick
+            label="Our Top Pick"
+            name="Summit Mosquito Bits (BTI granules)"
+            blurb="The fastest larvae kill you can buy — starts releasing BTI within 30 minutes and clears treated water within 24 hours. Keep Dunks in the rain barrel for 30-day coverage; keep Bits on the shelf for every unexpected larvae find."
+            search="summit mosquito bits"
+          />
         </div>
       </section>
 
@@ -182,6 +189,10 @@ export default function MosquitoBitsCanadaPage() {
                 ))}
               </tbody>
             </table>
+          </div>
+          <div className="mt-4 flex flex-wrap items-center gap-3">
+            <BuyLink search="summit mosquito bits" className="!px-3 !py-1.5 !text-xs">Check Bits price</BuyLink>
+            <BuyLink search="summit mosquito dunks" className="!px-3 !py-1.5 !text-xs">Check Dunks price</BuyLink>
           </div>
         </div>
       </section>

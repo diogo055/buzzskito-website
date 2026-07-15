@@ -3,6 +3,7 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema, itemListSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
+import TopPick from '@/components/TopPick'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 
 const SLUG = 'bug-zappers-canada-do-they-work'
@@ -148,6 +149,17 @@ export default function BugZappersCanadaPage() {
           <p className="text-base text-gray-800 leading-relaxed">
             <strong>No — peer-reviewed research consistently finds bug zappers catch 0.13% to 4% mosquitoes by total catch volume. The other 96–99% are non-biting moths, beetles, midges, and beneficial insects.</strong> Female mosquitoes (the ones that bite) hunt humans using CO₂, heat, and skin scent — they don&rsquo;t strongly respond to UV light. Bug zappers create a satisfying audible zap and reduce general flying-insect nuisance, but they don&rsquo;t meaningfully reduce the mosquito population biting you. For real mosquito control in Canadian backyards, invest in <Link href="/mosquito-control" className="text-emerald-700 underline">professional barrier spray</Link>, BTI dunks for water sources, or a Thermacell for personal patio use. The only bug zappers actually worth buying are the handheld electric racket zappers ($15–$30) for swatting individual house mosquitoes.
           </p>
+        </div>
+      </section>
+
+      <section className="bg-white px-4">
+        <div className="max-w-4xl mx-auto">
+          <TopPick
+            label="If You Must Buy One"
+            name="Flowtron BK-40D Electronic Insect Killer"
+            blurb="The best large outdoor zapper Canadians actually buy — up to 1 acre of coverage for the moths, gnats, and beetles zappers really kill. Just don't expect fewer mosquito bites."
+            search="flowtron bk-40d bug zapper"
+          />
         </div>
       </section>
 
