@@ -43,6 +43,22 @@ const FAQS = [
     question: 'What is the single most effective natural mosquito control?',
     answer: 'Eliminating standing water. No predator matches simply denying mosquitoes a place to lay eggs, since a female needs only a bottle cap of water to breed. Empty birdbaths and buckets weekly, unclog gutters, and treat water you cannot drain with BTI (Bti, a mosquito-specific bacteria) dunks. Support natural predators like dragonflies and frogs by keeping a clean water feature, and reserve barrier spray for the shaded resting zones adults use.',
   },
+  {
+    question: 'Do chickens and guinea fowl eat ticks?',
+    answer: 'Yes — both eat ticks, but guinea fowl are far more effective. Guinea fowl actively patrol lawns and field edges hunting ticks and insects, while chickens eat ticks more opportunistically as they scratch and forage. The catch is the same for both: they only clear ticks where they walk, skip the shaded borders and leaf litter ticks prefer, and need rural space. They help on acreage but are no substitute for treating tick-prone edges.',
+  },
+  {
+    question: 'Do dragonflies eat mosquitoes?',
+    answer: 'Yes — dragonflies are among the best natural mosquito predators. Their aquatic nymphs devour mosquito larvae underwater, and the adults hawk flying mosquitoes out of the air, earning the nickname "mosquito hawk." The limitation is that you cannot buy or release them; you can only attract them with a clean pond or rain garden. Even a healthy dragonfly population will not fully clear a yard, since mosquitoes breed and drift in faster than they are eaten.',
+  },
+  {
+    question: 'How many mosquitoes does a bat eat?',
+    answer: 'Far fewer than the popular claim suggests. The famous "a bat eats 1,000 mosquitoes an hour" figure came from a lab test with no other prey available — not real-world feeding. Wild-diet studies show mosquitoes make up only a small fraction of what bats catch, since they prefer larger, higher-calorie moths and beetles. Bats are valuable to support, but a bat house will not clear your yard of mosquitoes.',
+  },
+  {
+    question: 'Do robins and wild turkeys eat ticks?',
+    answer: 'Both eat some ticks, but neither is a reliable control. Wild turkeys and other ground-foraging birds peck up ticks as they feed, yet turkeys can also carry ticks onto a property, so the net benefit is minor. Robins and similar songbirds eat insects including the occasional tick, but ticks are a tiny part of their diet — and birds can actually spread ticks between areas. Treat them as background help, not a tick-control plan.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({

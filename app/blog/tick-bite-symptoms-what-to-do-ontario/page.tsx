@@ -38,6 +38,26 @@ const FAQS = [
     question: 'When should I go to the emergency room after a tick bite?',
     answer: 'Go to the ER immediately if you develop a high fever (above 39°C), severe headache, difficulty breathing, face drooping, or confusion after a tick bite. These can indicate rare but serious conditions like Rocky Mountain spotted fever or Powassan virus, which progress rapidly.',
   },
+  {
+    question: 'How long should you take doxycycline for a tick bite?',
+    answer: 'That depends entirely on your healthcare provider\'s assessment, so do not self-prescribe. For a high-risk blacklegged tick bite in Ontario, doctors may offer a single preventive dose within 72 hours of removal as post-exposure prophylaxis, per Public Health Ontario. A confirmed Lyme disease infection is treated with a longer antibiotic course. The exact drug, dose, and duration are medical decisions — consult a healthcare provider.',
+  },
+  {
+    question: 'How soon do you need antibiotics after a tick bite?',
+    answer: 'If preventive antibiotics are warranted, Public Health Ontario notes they are generally most effective when started within 72 hours of removing a high-risk blacklegged tick. Not every bite needs antibiotics, though — the decision depends on the tick species, how long it was attached, and local Lyme disease risk. See a healthcare provider promptly after a bite so they can assess whether treatment is appropriate for you.',
+  },
+  {
+    question: 'What do you do if a tick head is stuck in you?',
+    answer: 'If the tick\'s head or mouthparts stay behind after removal, try to lift them out with clean fine-tipped tweezers. If they will not come out easily, leave them alone — your skin will usually push them out over time, much like a splinter. Clean the area with rubbing alcohol or soap and water. Do not dig, burn, or squeeze. If redness, swelling, or a rash develops, see a healthcare provider.',
+  },
+  {
+    question: 'How long does a tick stay attached?',
+    answer: 'Left undisturbed, a blacklegged tick can stay attached and feeding for three to seven days before dropping off on its own once fully engorged. That is why prompt removal matters — in Ontario the risk of Lyme disease transmission rises significantly after a tick has been attached 24–36 hours, per Public Health Ontario. Check your body, your children, and your pets daily after time outdoors so a tick never stays on that long.',
+  },
+  {
+    question: 'How can you tell how long a tick has been attached?',
+    answer: 'There is no exact way to know, but engorgement is the best clue: a flat, thin tick likely attached recently, while a swollen, balloon-like body suggests it has been feeding for a day or more. Use the last time you did a body check as your reference point. When in doubt, assume longer attachment and consult a healthcare provider, since Ontario Lyme disease risk climbs after 24–36 hours of attachment.',
+  },
 ]
 
 export default function TickBiteSymptomsPage() {

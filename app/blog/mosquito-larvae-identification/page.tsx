@@ -64,6 +64,30 @@ const FAQS = [
     question: 'How can I tell mosquito larvae apart from other larvae?',
     answer: 'Only mosquito larvae hang head-down at the water surface with a breathing siphon poking through the surface tension and dart downward in a distinctive S-shaped wiggle when disturbed. Midge larvae (often red "bloodworms") live in bottom mud and swim in a figure-eight; mayfly larvae have feathery gills along the abdomen and need clean flowing water; drain-fly larvae live in the slime film inside pipes, never in open standing water. If it is at the surface of still water and wiggles in an S when you touch the water, it is a mosquito larva — and it will become a biting adult in 7–14 days.',
   },
+  {
+    question: 'What do mosquito eggs look like?',
+    answer: 'Mosquito eggs are tiny — under 1 mm — and dark brown to black. Depending on the species, they appear either as a floating raft of 100–300 eggs stuck together in a boat shape on the water surface, or as single eggs laid along the moist edges of containers and damp soil. To the naked eye a raft looks like a small speck of dirt or soot bobbing on still water, so it is easy to overlook until larvae hatch a day or two later.',
+  },
+  {
+    question: 'How big are mosquito larvae?',
+    answer: 'Mosquito larvae are about 5–8 mm long when fully grown — roughly the size of a grain of rice. They start much smaller, around 1 mm, when they first hatch, then grow through four moults (instars) over 4–14 days before pupating. Even at full size they are small enough that many homeowners mistake a rain barrel or bird bath full of them for floating debris until the water is disturbed and the larvae wiggle.',
+  },
+  {
+    question: 'What do mosquito larvae eat?',
+    answer: 'Mosquito larvae are filter feeders that eat microscopic organic matter suspended in the water — bacteria, algae, fungi, protozoa, and decaying plant material — sweeping food toward their mouth with brush-like mouthparts. This feeding habit is exactly why BTI larvicides such as Mosquito Dunks and Bits work: the larvae swallow the bacterial spores along with their food, and the BTI proteins destroy their gut within 24 hours. Larvae never bite or feed on blood — only adult female mosquitoes do.',
+  },
+  {
+    question: 'What do mosquito pupae look like?',
+    answer: 'Mosquito pupae — nicknamed \'tumblers\' — are comma or question-mark shaped, with a bulbous head-and-thorax section and a curled tail. They rest at the water surface and tumble downward in a rolling somersault when disturbed, unlike the S-shaped wiggle of larvae. Pupae do not feed and last only 1–4 days before the adult mosquito emerges. Seeing tumblers means adults are about to hatch, so drain or treat the water with BTI immediately.',
+  },
+  {
+    question: 'How do you identify mosquito larvae in water?',
+    answer: 'To identify mosquito larvae in water, look for small worm-like creatures hanging head-down just beneath the surface with a breathing siphon poking through the surface film. Tap or disturb the water and they dart downward in a distinctive S-shaped wiggle, then float back up to breathe. They appear only in still or slow water that has sat undisturbed for 5 or more days — rain barrels, bird baths, clogged gutters, and plant saucers are the usual spots in a GTA backyard.',
+  },
+  {
+    question: 'What do baby mosquitoes look like?',
+    answer: '\'Baby mosquitoes\' almost always means the aquatic larvae — 5–8 mm brown-black wiggling worms that live in standing water, not tiny flying adults. Mosquitoes have no small winged juvenile stage; they go egg → larva → pupa → adult, and the adult emerges full-sized. So if you are seeing something small and mosquito-like in water, it is a larva or a comma-shaped pupa. A newly emerged adult is already the same size as any other adult mosquito.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({

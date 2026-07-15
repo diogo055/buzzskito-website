@@ -44,6 +44,26 @@ const FAQS = [
     question: 'How long does a mosquito bite last?',
     answer: 'A typical mosquito bite itches most in the first day or two and fades within 3 to 7 days. Larger allergic reactions can last a week or more, and a dark or pinkish mark (post-inflammatory pigmentation) may linger for weeks after the itch is gone, especially if the bite was scratched. Not scratching is the best way to speed healing and avoid lasting marks. If a bite is still worsening after 48 hours rather than improving, that points to infection or a strong allergic reaction and is worth a check-up.',
   },
+  {
+    question: 'How do you get rid of mosquito bites overnight?',
+    answer: 'You cannot make a bite vanish overnight, but you can calm it enough to sleep and speed healing. Before bed, wash the bite, apply a cold compress, and use 1% hydrocortisone cream or an oral antihistamine such as cetirizine to blunt the histamine reaction, then cover it with a bandage so you don\'t scratch in your sleep. Most bites fade within 3 to 7 days. See a healthcare provider if a bite spreads, fills with pus, or comes with fever.',
+  },
+  {
+    question: 'Does Benadryl help with mosquito bites?',
+    answer: 'Yes — Benadryl (diphenhydramine), an oral antihistamine, can ease the itching and swelling of mosquito bites by blocking the histamine reaction that drives them, and it is one of the better-supported options. It can cause drowsiness, so many people prefer a non-drowsy antihistamine like cetirizine or loratadine during the day. Topical Benadryl creams are also sold. Follow the label, and check dosing with a pharmacist or healthcare provider, especially for children.',
+  },
+  {
+    question: 'Does aloe vera help with mosquito bites?',
+    answer: 'Aloe vera can offer mild, soothing relief for mosquito bites. Its gel is cooling and has anti-inflammatory, skin-calming properties that may take the edge off itching and irritation, though the evidence is limited and it works less reliably than cold, hydrocortisone, or antihistamines. Fresh gel or a pure aloe product dabbed on the bite is a gentle option, including for kids. For intense or spreading reactions, use proven treatments and see a healthcare provider.',
+  },
+  {
+    question: 'How do you reduce mosquito bite swelling?',
+    answer: 'Cold is the fastest way to bring down mosquito bite swelling — hold an ice pack or cold compress (wrapped in cloth) on the bite for about 10 minutes. Follow with 1% hydrocortisone cream or an oral antihistamine to calm the histamine reaction driving the swelling, and elevate the area if it is on a limb. Above all, do not scratch, which makes swelling worse. A large, hot lump that keeps growing over 24 to 48 hours should be seen by a healthcare provider.',
+  },
+  {
+    question: 'How do you get rid of mosquito bite scars?',
+    answer: 'Most marks left by mosquito bites are post-inflammatory pigmentation, not true scars, and usually fade on their own over weeks to months. You can help by not scratching (which causes most lasting marks), keeping the spot moisturized, and using daily sunscreen so the mark doesn\'t darken. Some people find products with vitamin C, niacinamide, or silicone gel helpful. For raised, persistent, or deeply pigmented scars, a healthcare provider or dermatologist can advise on options.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({

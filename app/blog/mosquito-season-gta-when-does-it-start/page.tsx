@@ -33,6 +33,26 @@ const FAQS = [
     question: 'How many mosquito treatments do I need per season in the GTA?',
     answer: 'For continuous protection through the GTA mosquito season, 5 treatments spaced 21–28 days apart is the recommended schedule: early May, late May/early June, late June/early July, late July/early August, and late August/early September. Properties near ravines, rivers, or wetlands benefit most from the full 5-treatment program.',
   },
+  {
+    question: 'When do mosquitoes go away in Ontario?',
+    answer: 'Mosquitoes go away in Ontario in late September to early October, once overnight temperatures consistently drop below 10°C. Activity fades noticeably after Labour Day, but biting mosquitoes can linger through most of September, especially in mild falls or near ravines and wetlands. A hard frost ends adult activity for the year, though eggs overwinter in the soil and hatch again the following spring.',
+  },
+  {
+    question: 'When do mosquitoes come out in Ontario?',
+    answer: 'Mosquitoes come out in Ontario in late April, when daytime temperatures start holding above 10°C, and populations build quickly through May. Overwintering eggs laid the previous fall hatch as soon as conditions warm and moisten, so a warm spring can bring the first mosquitoes out as early as the third week of April in the GTA.',
+  },
+  {
+    question: 'What temperature do mosquitoes come out at?',
+    answer: 'Mosquitoes come out once air temperatures consistently reach about 10°C. Below that threshold, adults cannot fly effectively and larval development in the water nearly stalls. They become most active in warm, humid conditions above 20°C, which is why June and July are peak months in the GTA. A late-spring cold snap can temporarily push them back into sheltered resting spots.',
+  },
+  {
+    question: 'Do mosquitoes come out in the rain?',
+    answer: 'Mosquitoes generally shelter during heavy rain because raindrops can knock them out of the air, but they come back out in force once it stops. Rain actually fuels mosquito season: every puddle, clogged gutter, and water-filled container becomes a breeding site, so populations often spike 7–10 days after a wet stretch. Warm, humid, still evenings right after rain are among the worst for biting.',
+  },
+  {
+    question: 'Where do mosquitoes go during the day?',
+    answer: 'During the day mosquitoes rest in cool, shaded, humid spots to avoid drying out — tall grass, dense shrubs, under decks, in leaf litter, ivy, and thick vegetation around your yard. Most GTA mosquitoes feed at dawn and dusk, so they stay hidden through the midday heat and emerge to bite in the evening. This is exactly why professional barrier sprays target shaded resting vegetation rather than open lawn.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({

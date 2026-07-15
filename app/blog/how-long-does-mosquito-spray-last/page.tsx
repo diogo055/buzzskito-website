@@ -52,6 +52,22 @@ const FAQS = [
     question: 'How long does DIY or store-bought mosquito spray last compared to professional?',
     answer: 'Store-bought yard sprays and foggers typically deliver just 1–2 days of real protection before mosquitoes return, because consumer formulas are heavily diluted and lack the leaf-bonding adhesion chemistry of professional products. A professional barrier spray lasts 3–4 weeks — up to 30 days — per application. That gap is why a single professional visit replaces roughly a dozen DIY spray sessions over the same month.',
   },
+  {
+    question: 'How long after mosquito spray can dogs go outside?',
+    answer: 'Dogs can go back outside once the barrier spray has fully dried — about 30 minutes after application under normal conditions. While the product is still wet, keep pets indoors or off the treated area. Once dry, the residue is bonded to the vegetation, and there is no off-gassing or re-entry restriction for dogs. If your dog tends to chew or graze on plants, waiting an extra hour is a safe precaution.',
+  },
+  {
+    question: 'How long should you stay off the lawn after mosquito spray?',
+    answer: 'Stay off the lawn until the spray has dried — roughly 30 minutes after application in normal conditions. Once dry, the treated area is safe to walk, play, and garden on with no lingering restriction. Barrier spray targets the shaded shrubs and vegetation where mosquitoes rest rather than the open lawn, but the same 30-minute drying rule applies to any treated surface. Damp or overcast weather can extend drying time slightly.',
+  },
+  {
+    question: 'How long does mosquito fogging last?',
+    answer: 'Mosquito fogging provides only short-term knockdown — typically a few hours up to about 1–3 days. Fogging (thermal or ULV) kills the adult mosquitoes flying at the moment of application but leaves little residual, so new mosquitoes move back in quickly. A residual barrier spray that bonds to leaf surfaces lasts far longer — up to 30 days per treatment — which is why we use barrier spray rather than fogging for lasting GTA protection.',
+  },
+  {
+    question: 'How long does a mosquito barrier treatment last?',
+    answer: 'A professional mosquito barrier treatment lasts up to 30 days (3–4 weeks) per application. The residual insecticide bonds to leaf and shrub surfaces as it dries, killing mosquitoes that land to rest for the full window. Heavy rain within the first hour, intense heat and UV, and dense untreated vegetation nearby can shorten it, so most GTA yards are re-treated every 21–28 days from May through September for continuous protection.',
+  },
 ]
 
 export default function MosquitoSprayLastPage() {

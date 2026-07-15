@@ -48,6 +48,22 @@ const FAQS = [
     question: 'How long do mosquito bits last in storage?',
     answer: 'Sealed Mosquito Bits last 2–3 years in a cool, dry storage location. Once opened, they last 1 full year if kept dry and sealed (re-seal the container after each use). Moisture activates the BTI prematurely, so don\'t leave the container open in a humid garden shed all summer. Buying the smaller 8-oz container if you only have one rain barrel makes sense; the larger 30-oz container is for properties with multiple water sources or for splitting with a neighbour.',
   },
+  {
+    question: 'Where can I buy BTI for mosquitoes near me in Canada?',
+    answer: 'You can buy BTI for mosquitoes — sold as Mosquito Bits (granules) and Mosquito Dunks (tablets) — at Canadian Tire, Home Depot, Rona, Lowe\'s, independent garden centres, and Amazon.ca. Both products use the same BTI bacterium; Bits act within about 30 minutes while Dunks slow-release for roughly 30 days. To find local stock fast, search \'Mosquito Bits\' or \'Mosquito Dunks\' on a retailer\'s website and check availability by postal code. Buy in April–May before peak-season shelves thin out.',
+  },
+  {
+    question: 'What is BTI (Bacillus thuringiensis israelensis)?',
+    answer: 'BTI (Bacillus thuringiensis israelensis) is a naturally occurring soil bacterium used as a biological larvicide. When mosquito or black fly larvae eat it, its proteins destroy their gut and kill them within about 24 hours, while leaving everything else unharmed. According to Health Canada and public-health agencies, BTI is highly specific to these larvae and poses no risk to humans, pets, fish, frogs, bees, or birds — some provinces even approve it for treating drinking-water reservoirs. It is the active ingredient in both Mosquito Bits and Dunks.',
+  },
+  {
+    question: 'Are mosquito dunks the same as mosquito bits?',
+    answer: 'Mosquito Dunks and Mosquito Bits contain the same active ingredient — BTI — but come in different formats. Dunks are slow-release donut tablets that protect standing water for about 30 days, ideal for rain barrels and ponds. Bits are corn-cob granules that release BTI within about 30 minutes for fast knockdown but last only 7–14 days, ideal for bird baths, plant saucers, and unexpected larvae. They kill the same larvae; you choose based on how fast and how long you need coverage.',
+  },
+  {
+    question: 'Why do people think mosquito bits are banned in Canada?',
+    answer: 'Mosquito Bits are not banned in Canada — the confusion usually comes from periodic retail shortages and from specific brands or package sizes not always being stocked in Canadian stores. BTI products are approved by Health Canada\'s Pest Management Regulatory Agency for residential use, and both Bits and Dunks are legally sold at Canadian Tire, Home Depot, Rona, and Amazon.ca. If a particular listing is unavailable, it is a supply or import issue, not a legal ban.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({

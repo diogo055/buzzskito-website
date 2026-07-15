@@ -53,6 +53,22 @@ const FAQS = [
     question: 'Can I use mosquito dunks in a swimming pool?',
     answer: 'Only in a NEGLECTED or unused pool that has standing water. Mosquito dunks are not meant for active, chlorinated swimming pools — chlorine kills larvae anyway, and pool filtration would render the dunk ineffective. If you have an inactive pool that has accumulated rainwater, drop in a dunk to prevent it from becoming a mosquito breeding site until you can drain it. For active pools, just maintain proper chlorine levels.',
   },
+  {
+    question: 'Where can you buy mosquito dunks near you in Canada?',
+    answer: 'You can buy mosquito dunks near you at most Canadian hardware and garden retailers — Canadian Tire, Home Depot, Rona, and Lowe\'s all stock them in-store, alongside independent garden centres and Amazon.ca. The quickest way to check local stock is to search \'mosquito dunks\' on the Canadian Tire or Home Depot website and filter by store availability using your postal code. Stock is most reliable in April–May; shelves often thin out by mid-July, so buy early.',
+  },
+  {
+    question: 'How do you use mosquito dunks for fungus gnats?',
+    answer: 'To use mosquito dunks against fungus gnats, break a dunk into pieces and either float a chunk in your watering can overnight or steep it in a few litres of water, then use that BTI-infused water on your houseplants. The BTI kills fungus gnat larvae in the soil the same way it kills mosquito larvae. Repeat with each watering for 2–3 weeks to break the breeding cycle. Mosquito Bits are often easier for potting soil because you can sprinkle the granules right on top.',
+  },
+  {
+    question: 'What are mosquito dunks made of?',
+    answer: 'Mosquito dunks are made of dried Bacillus thuringiensis israelensis (BTI) — a naturally occurring soil bacterium — compressed with an inert binder into a slow-dissolving donut-shaped tablet. BTI is the only active ingredient; there are no synthetic pesticides, pyrethroids, or added chemicals. As the tablet breaks down in water it releases BTI spores that mosquito and black fly larvae eat. The Summit brand sold across Canada is registered with Health Canada under PCP #18158.',
+  },
+  {
+    question: 'Where do you buy mosquito dunks in stores?',
+    answer: 'In stores, mosquito dunks are stocked in the garden, pest-control, or seasonal aisle at Canadian Tire, Home Depot, Rona, and Lowe\'s, plus most independent garden centres and nurseries. Look for the Summit Chemical orange-and-white box or the Safer\'s Brand package near the insect sprays and larvicides. If you cannot find them on the shelf, ask staff to check the seasonal stockroom — dunks are sometimes only put out once mosquito season begins in May.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({

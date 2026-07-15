@@ -49,6 +49,22 @@ const FAQS = [
     question: 'What small bugs look like ticks in the house?',
     answer: 'The indoor bugs most often confused with ticks are bed bugs, spider beetles, carpet beetles, weevils, bat bugs, and booklice. Every one of them is an insect with 6 legs and antennae, and none of them attach to skin — so if the bug is loose on furniture, in the pantry, or on a windowsill, it is almost certainly not a tick. Ticks live outdoors and only come inside on people or pets. A bug found attached to skin with 8 legs and no antennae should always be treated as a tick.',
   },
+  {
+    question: 'What looks like a tick but has wings?',
+    answer: 'If it has wings, it is not a tick — ticks are wingless arachnids that cannot fly. The winged insects most often mistaken for ticks are adult carpet beetles, which fly toward windows and lights, and louse flies (keds). Louse flies are especially confusing because they are flat, brown, and cling to skin or pets, but they have 6 legs, antennae, and functional wings. Any wings, wing-cover shells, or ability to fly rules out a tick immediately.',
+  },
+  {
+    question: 'Is there a spider or beetle that looks like a tick?',
+    answer: 'Yes — several. The spider beetle is the classic offender: a reddish-brown beetle with a humped, bulbous body and long legs that give it a spider-like, tick-like silhouette. True spiders and harvestmen (daddy longlegs) also get confused with ticks because all three are 8-legged arachnids. The giveaways: spider beetles have 6 legs and long antennae, while spiders have a clear two-part body with a narrow waist and much longer legs. Ticks have 8 legs, no antennae, and a single flattened body.',
+  },
+  {
+    question: 'What looks like a tick but jumps?',
+    answer: 'If it jumps, it is not a tick — ticks crawl slowly and cannot jump or fly. The usual culprits are fleas, which are dark, hard-bodied, and leap impressively, and springtails, tiny harmless bugs that ping around damp areas. Both are often mistaken for ticks on pets or skin. Fleas are flattened side-to-side with 6 legs, while ticks are flattened top-to-bottom with 8. Any hopping motion points to a flea or springtail, not a tick.',
+  },
+  {
+    question: 'What bugs look like ticks in the yard?',
+    answer: 'Outdoors, the bugs most often mistaken for ticks are stink bug nymphs, small beetles and beetle larvae, spider beetles, and clover mites — plus real ticks themselves waiting on grass tips. Clover mites are tiny reddish specks that look like moving dots. The insect look-alikes all have 6 legs and antennae and feed on plants, not blood. If an 8-legged, antenna-less bug is questing on tall grass or attaches to skin after yard work, treat it as a real tick.',
+  },
 ]
 
 // TITLE NOTE (Jul 2026): was 68 chars and Google truncated it. This page carries

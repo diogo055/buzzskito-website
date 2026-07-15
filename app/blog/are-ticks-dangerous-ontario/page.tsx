@@ -48,6 +48,26 @@ const FAQS = [
     answer:
       'Ticks are most dangerous during two peak windows in Ontario. The first is May through July, when nymph-stage blacklegged ticks emerge — nymphs are tiny (poppy-seed sized), difficult to detect, and responsible for the majority of human Lyme disease cases. The second peak is September through November, when adult blacklegged ticks are most active. However, blacklegged ticks can be active on any day when temperatures exceed 4°C, including mid-winter warm spells.',
   },
+  {
+    question: 'What percentage of ticks carry Lyme disease in southern Ontario?',
+    answer:
+      'In established Lyme risk areas of southern Ontario, roughly 20–40% of adult blacklegged ticks (Ixodes scapularis) carry Borrelia burgdorferi, the bacterium that causes Lyme disease, according to Public Health Ontario surveillance. The rate varies by location and year. Importantly, only blacklegged ticks transmit Lyme — the more commonly seen American dog tick does not. Even in high-carriage areas, prompt removal within 24 hours makes transmission unlikely. For any bite, consult a healthcare provider.',
+  },
+  {
+    question: 'How many Lyme disease cases are there in Ontario each year?',
+    answer:
+      'Ontario now reports over a thousand confirmed and probable Lyme disease cases in a typical recent year, and the count has climbed steadily as blacklegged ticks spread across the province, per Public Health Ontario reportable-disease data. Exact totals vary year to year and lag behind actual infections, since many cases go unreported. For current figures, see Public Health Ontario, and see a healthcare provider if you develop symptoms after a tick bite.',
+  },
+  {
+    question: 'How many people get Lyme disease each year in Canada?',
+    answer:
+      'Canada reported roughly 3,600 confirmed and probable Lyme disease cases in 2025, up from fewer than 150 a decade earlier, according to the Public Health Agency of Canada (PHAC). Cases have risen sharply as warming winters expand blacklegged tick range. Because milder infections often go undiagnosed, the true number is believed to be higher. PHAC publishes annual surveillance updates; consult a healthcare provider if you suspect a tick-borne illness.',
+  },
+  {
+    question: 'How common is Lyme disease in Ontario?',
+    answer:
+      'Lyme disease is now well established across southern Ontario and increasingly common, with the GTA firmly inside the risk zone. Public Health Ontario has documented blacklegged ticks in every GTA municipality, and confirmed case counts have risen year over year. It remains far less common than everyday illnesses, and it is highly preventable with tick checks, prompt removal, and yard treatment. If symptoms like a bull\'s-eye rash or fever appear, see a healthcare provider.',
+  },
 ]
 
 export default function AreTicksDangerousPage() {

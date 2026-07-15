@@ -27,6 +27,22 @@ const FAQS = [
     question: 'When is West Nile Virus season in Ontario?',
     answer: 'West Nile Virus risk in Ontario peaks in July and August, coinciding with peak Culex mosquito populations. Confirmed WNV activity in GTA surveillance programs typically begins in late June and declines after Labour Day as temperatures cool. This window overlaps with the period when outdoor activity is highest, making July and August the most important months for mosquito protection.',
   },
+  {
+    question: 'What are the first signs of West Nile virus?',
+    answer: 'Most people infected with West Nile Virus (about 80%) develop no symptoms at all. When early signs do appear, they usually start as a sudden fever with headache, body aches, fatigue, and sometimes a skin rash or swollen glands — often described as West Nile Fever. Per Public Health Ontario and PHAC, severe neurological illness is rare (under 1%). If you develop a high fever, confusion, or a stiff neck after mosquito bites, see a healthcare provider promptly.',
+  },
+  {
+    question: 'Is West Nile virus contagious?',
+    answer: 'No — West Nile Virus is not contagious from person to person through casual contact, coughing, or touching. According to Health Canada and PHAC, it spreads mainly through the bite of an infected Culex mosquito, which picks up the virus from infected birds. Rare non-mosquito routes include blood transfusion, organ transplant, and mother to baby during pregnancy or breastfeeding. You cannot catch it from someone who is ill, so preventing mosquito bites is the key defence.',
+  },
+  {
+    question: 'What does West Nile virus look like?',
+    answer: 'There is no single \'look\' to West Nile Virus, since roughly 80% of infected people show no symptoms. When illness does appear, some people develop a maculopapular rash — flat and raised pink-to-red spots, often on the chest, back, and arms — along with fever, headache, and body aches. The rash is not present in everyone. Per Public Health Ontario, a rash alone is not diagnostic, so see a healthcare provider if you feel unwell after mosquito bites.',
+  },
+  {
+    question: 'How long after a bite do West Nile symptoms appear?',
+    answer: 'West Nile Virus symptoms, when they occur, usually appear 2 to 14 days after the bite of an infected mosquito, according to PHAC and the CDC. In people with weakened immune systems the incubation period can be longer. Because most infections cause no symptoms at all, many people never realize they were exposed. If you develop fever, severe headache, or neck stiffness within two weeks of mosquito bites, contact a healthcare provider.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({

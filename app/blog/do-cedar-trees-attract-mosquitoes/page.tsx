@@ -33,6 +33,26 @@ const FAQS = [
     question: 'Why do mosquitoes hide in cedar hedges?',
     answer: 'Mosquitoes are not active hunters during the heat of the day. They rest in cool, shaded, humid micro-environments and only emerge to feed at dawn, dusk, and after dark. Dense cedar hedges, with their interior darkness, retained moisture, and low air circulation, are ideal daytime resting habitat. This is true of cedar hedges, dense yew hedges, boxwood, juniper, and any other tightly-branched evergreen. The plant species itself is less important than the structural density and the moisture retained within.',
   },
+  {
+    question: 'Do cedar trees attract ticks?',
+    answer: 'Not directly — cedar wood and oil actually contain compounds (thujone, cedrol) that mildly deter insects. But a dense, untrimmed cedar hedge creates exactly the cool, shaded, humid, leaf-litter-filled micro-environment ticks need to survive, so ticks can shelter along the base and interior. As with mosquitoes, it is the habitat the hedge creates, not the cedar itself, that matters. Clear leaf litter at the base and treat the hedge edge to reduce tick pressure.',
+  },
+  {
+    question: 'Do emerald cedars attract bugs?',
+    answer: 'Emerald cedars (Thuja occidentalis \'Smaragd\'), the most popular privacy hedge in the GTA, do not attract bugs chemically — cedar mildly repels insects. But when planted as a dense hedge and left untrimmed, they trap shade, moisture, and still air, giving mosquitoes and ticks an ideal daytime resting spot. A single specimen tree in open lawn causes no problem. The fix is management: prune to open the interior, clear the base, and treat the foliage.',
+  },
+  {
+    question: 'Do juniper trees attract mosquitoes?',
+    answer: 'No more than cedars do. Junipers do not chemically attract mosquitoes, but dense juniper screens and low, spreading juniper shrubs create the same shaded, humid, low-airflow conditions mosquitoes use to rest during the day. The tighter and more untrimmed the planting, the more resting habitat it offers. The plant species matters far less than the structural density. Manage the planting and treat the underside where mosquitoes rest rather than removing it.',
+  },
+  {
+    question: 'Do spruce and evergreen trees attract mosquitoes?',
+    answer: 'Evergreens do not attract mosquitoes chemically, but dense spruce, fir, and other tightly-branched evergreens create the shaded, humid, sheltered micro-environment mosquitoes rest in through the heat of the day. Any dense vegetation — evergreen or not — does this; yew, boxwood, and juniper behave the same way. A well-spaced specimen tree with good air circulation is not a problem. It is the density and trapped moisture, not the tree type, that creates resting habitat.',
+  },
+  {
+    question: 'Does cedar actually repel or deter mosquitoes?',
+    answer: 'Cedar oil is a genuine, recognized insect deterrent — it is a registered active ingredient in some mosquito and tick products. But a living cedar tree releases far too little of these compounds into the air to protect your yard, so you cannot repel mosquitoes simply by planting cedars. Applied cedar-oil products give a short-term repellent effect on skin or fabric, though shorter-lasting than DEET or picaridin. For yard-wide control, cedar planting is not enough.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({

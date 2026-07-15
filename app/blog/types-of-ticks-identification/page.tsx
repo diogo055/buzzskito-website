@@ -44,6 +44,22 @@ const FAQS = [
     question: 'What should I do if I find a tick on me?',
     answer: 'Remove it promptly: grip the tick with fine-tipped tweezers as close to the skin as possible and pull straight up with steady pressure — do not twist, burn, or smother it. Clean the bite with soap and water or antiseptic. Note the date, and if you can, identify the tick species and save it in a sealed bag or photo. Watch for an expanding erythema migrans (bull’s-eye) rash, fever, or fatigue over the following weeks, and see a doctor if symptoms appear.',
   },
+  {
+    question: 'What does a deer tick look like?',
+    answer: 'A deer (blacklegged) tick is small and plain — an unfed adult is about 3–4 mm with a reddish-orange rear body, a solid dark scutum (back-plate), and uniformly dark, almost black legs, with no white or ornate markings. Nymphs are far smaller, roughly poppy-seed sized (1–2 mm), which is why they cause most Lyme cases. After feeding, the body swells and turns greyish. If a tick is tiny, plain, and dark-legged, treat it as a deer tick.',
+  },
+  {
+    question: 'What does a lone star tick look like, and is it in Ontario?',
+    answer: 'The lone star tick (Amblyomma americanum) is reddish-brown with notably long mouthparts; the adult female has a single distinctive white dot on her back, while males show scattered white streaks. It is mainly a southeastern and eastern US tick whose range is expanding northward, and it turns up in Ontario only occasionally rather than being firmly established. It does not spread Lyme, but is linked to ehrlichiosis, STARI, and alpha-gal (red-meat) allergy, per the CDC.',
+  },
+  {
+    question: 'What colour are ticks?',
+    answer: 'Tick colour varies by species and by how much they have fed. Blacklegged (deer) ticks have a reddish-orange body with a dark scutum and black legs; American dog and Rocky Mountain wood ticks are brown with white or grey marbling; lone star ticks are reddish-brown; brown dog ticks are a uniform reddish-brown. Once engorged with blood, most ticks darken to a grey, blue-grey, or tan bean-like colour regardless of species.',
+  },
+  {
+    question: 'What does an engorged tick look like?',
+    answer: 'An engorged tick — one that has fed — looks like a smooth, swollen, greyish or brown bean or small grape attached to the skin, quite different from a flat unfed tick. A fully fed adult can reach 10 mm or more, with the legs and tiny head appearing small against the ballooned body. Colour typically shifts to grey, blue-grey, or tan. Roughly, the more engorged the tick, the longer it has been attached.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({

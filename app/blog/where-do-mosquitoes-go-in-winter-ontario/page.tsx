@@ -42,6 +42,18 @@ const FAQS = [
     question: 'Can mosquitoes survive freezing temperatures?',
     answer: 'Yes. Overwintering Aedes eggs tolerate freezing and can survive well below 0°C, and diapausing adult females survive subfreezing conditions in sheltered spots thanks to glycerol and other cryoprotectants that lower the temperature at which their tissues freeze. This cold tolerance is exactly why a harsh Ontario winter does not eliminate next summer’s mosquitoes.',
   },
+  {
+    question: 'Do mosquitoes hibernate?',
+    answer: 'In a sense, yes — mated female Culex and Anopheles mosquitoes survive winter in a hibernation-like dormancy called diapause. Triggered by shortening fall daylight, they stop biting, build up fat reserves, slow their metabolism to a crawl, and shelter in culverts, sewers, sheds, and basements until spring. Other Ontario mosquitoes skip this entirely and overwinter as frost-hardy Aedes eggs or as dormant larvae instead. Every male mosquito dies in the fall; only mated females hibernate.',
+  },
+  {
+    question: 'How do mosquitoes survive winter?',
+    answer: 'Ontario mosquitoes survive winter using one of three strategies, depending on the species. Mated Culex and Anopheles females hibernate as adults in a dormant state called diapause, sheltering in culverts, sheds, and basements. Aedes species overwinter as frost-tolerant eggs glued to dry surfaces, which hatch when spring meltwater floods them. A few species ride out the cold as dormant larvae in unfrozen water. Diapausing females also produce glycerol, a natural antifreeze that keeps their tissues from freezing.',
+  },
+  {
+    question: 'What happens to mosquitoes in the winter?',
+    answer: 'Most of the mosquitoes you see in summer die by fall — all the males and many females live only a week or two. But the species does not disappear: mated Culex and Anopheles females survive by hibernating in diapause, Aedes species persist as frost-hardy eggs, and some species overwinter as dormant larvae underwater. Cold pauses the population rather than erasing it, which is why mosquitoes reliably return the following spring once temperatures climb past about 10°C.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({

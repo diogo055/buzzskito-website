@@ -44,6 +44,30 @@ const FAQS = [
     question: 'How many eggs does a mosquito lay?',
     answer: 'A female mosquito lays roughly 100 to 300 eggs per batch and can produce several batches in her lifetime — potentially over 1,000 eggs total. Aedes mosquitoes lay eggs singly on damp surfaces just above the waterline, where they can survive dry for months and hatch when flooded. Culex mosquitoes lay floating egg rafts on standing water. This is why removing even small water sources is the single most effective control step.',
   },
+  {
+    question: 'Do mosquitoes have teeth?',
+    answer: 'No, mosquitoes do not have teeth. A female bites using a slender mouthpart called a proboscis, which bundles six needle-like stylets that pierce skin and draw blood — not teeth. Under a microscope, the tip of the proboscis carries tiny saw-like serrations that help it slide in almost painlessly, which is likely where the myth comes from. Males lack even the blood-piercing parts and feed only on nectar.',
+  },
+  {
+    question: 'How far do mosquitoes travel?',
+    answer: 'Most mosquitoes stay close to where they hatched, but the distance depends on species. Backyard container-breeders like Aedes typically travel only 100 to 300 metres over their lives, while Culex may range 1 to 3 kilometres, and some floodwater and salt-marsh species can be carried 10 kilometres or more on the wind. Because the common GTA biters stay local, clearing standing water on your own lot makes a real difference.',
+  },
+  {
+    question: 'How high do mosquitoes fly?',
+    answer: 'Most mosquitoes fly low — usually within about 8 metres (25 feet) of the ground — because that is where hosts, shade, and resting spots are. Many backyard species prefer ankle-to-head height, which is why bites so often land on your legs and ankles. A few species have been recorded much higher, drifting up multi-storey buildings or riding wind currents, but ground level is where the biting actually happens.',
+  },
+  {
+    question: 'Are mosquitoes nocturnal?',
+    answer: 'It depends on the species — mosquitoes are not all nocturnal. Culex mosquitoes, the main West Nile carriers in Ontario, feed mostly after dark and at dusk, so they behave nocturnally. Aedes mosquitoes, however, are daytime biters that peak at dawn and dusk. Very few bite in the bright, hot middle of the day, when most species rest in cool shade. So you can be bitten day or night, depending on which species is around.',
+  },
+  {
+    question: 'Can mosquitoes see in the dark?',
+    answer: 'Mosquitoes see poorly in true darkness and rely far more on other senses to find you. Their compound eyes detect movement, shapes, and contrast in dim light, but they mainly track the carbon dioxide (CO2) in your breath, body heat, and skin chemicals like lactic acid to home in — even in the dark. Heat-sensing matters most up close, which is how night-biting Culex mosquitoes locate a sleeping host.',
+  },
+  {
+    question: 'How many species of mosquitoes are there?',
+    answer: 'There are more than 3,500 known mosquito species worldwide, and only a fraction bite humans or spread disease. Canada is home to roughly 80 species, with about 60-plus found in Ontario. In GTA backyards the ones that matter most are Aedes mosquitoes (aggressive day biters) and Culex mosquitoes (evening biters and the main West Nile virus vector). Most of the thousands of species never interact with people at all.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({

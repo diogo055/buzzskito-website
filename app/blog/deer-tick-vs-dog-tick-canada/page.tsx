@@ -54,6 +54,22 @@ const FAQS = [
     question: 'How do you identify a deer tick?',
     answer: 'Deer tick identification comes down to four field marks: (1) SIZE — tiny, about 3 mm unfed, roughly the size of a sesame seed (nymphs are poppy-seed small). (2) COLOUR — a reddish-brown to black body with no pattern. (3) LEGS — distinctly dark, almost black. (4) SHIELD — a smooth, plain scutum with NO mottled markings, unlike the dog tick\'s decorated grey-brown shield. If a tick is tiny, plain, and dark-legged, treat it as a blacklegged (deer) tick and a Lyme risk. When unsure, photograph it from above and submit to eTick.ca for free species confirmation within 1–3 days.',
   },
+  {
+    question: 'Do dog ticks carry Lyme disease?',
+    answer: 'No — American dog ticks (Dermacentor variabilis) do not transmit Lyme disease in Canada. Lyme is spread almost exclusively by the blacklegged (deer) tick. Dog ticks can, very rarely, carry Rocky Mountain spotted fever and tularemia, but confirmed Canadian cases are extremely rare. If a small, plain, reddish-black deer tick bit you, watch for Lyme symptoms and see a healthcare provider; a larger patterned dog tick is a much lower concern. Public Health Ontario tracks Lyme risk province-wide.',
+  },
+  {
+    question: 'Are dog ticks dangerous to humans?',
+    answer: 'American dog ticks bite humans but are a low medical risk in Canada. They do not transmit Lyme disease, and the diseases they can theoretically carry — Rocky Mountain spotted fever and tularemia — are extraordinarily rare here (the CDC notes RMSF is uncommon in Canada). A dog tick bite usually causes only local irritation. Still, remove any attached tick promptly with fine-tipped tweezers and see a healthcare provider if you develop fever, a rash, or flu-like symptoms afterward.',
+  },
+  {
+    question: 'Do American dog ticks carry Lyme disease?',
+    answer: 'No. The American dog tick (Dermacentor variabilis) is not a Lyme vector — in Canada, Lyme disease is carried by the blacklegged (deer) tick, Ixodes scapularis. This is the key reason to identify the tick that bit you: a larger, grey-brown patterned dog tick does not spread Lyme, while a tiny, plain reddish-black deer tick can. If you are unsure of the species, submit a photo to eTick.ca for free confirmation and consult a healthcare provider about any symptoms.',
+  },
+  {
+    question: 'Which tick makes you allergic to red meat (alpha-gal)?',
+    answer: 'Neither the deer tick nor the American dog tick — alpha-gal syndrome, a delayed red-meat allergy, is linked to the lone star tick (Amblyomma americanum). The lone star tick is mainly a southeastern US species whose range is slowly expanding northward, and it remains uncommon in Ontario. It does not spread Lyme. If you develop hives or delayed reactions after eating red meat following a tick bite, see a healthcare provider; the CDC has more on alpha-gal syndrome.',
+  },
 ]
 
 // TITLE NOTE (Jul 2026): the dominant query is "deer tick vs dog tick" (2,800/mo),

@@ -60,6 +60,22 @@ const FAQS = [
     question: 'Can a licensed Ontario applicator use permethrin on my yard?',
     answer: 'Some licensed applicators use permethrin-based products for specific commercial applications (mosquito abatement contracts, golf course turf), but the most common active ingredient used in Ontario residential mosquito barrier spray is bifenthrin or deltamethrin — both Health Canada-approved for residential use, both highly effective against mosquitoes and ticks, and both with residual activity of 21–30 days per application. BuzzSkito uses Health Canada-approved formulations for all residential applications, applied by a licensed Ontario Pesticide Operator (Licence #L-240-2436835197).',
   },
+  {
+    question: 'Where can I buy permethrin near me in Canada?',
+    answer: 'In Canada, the permethrin you can buy locally is Sawyer 0.5% clothing spray, stocked seasonally at Canadian Tire, Cabela\'s, Bass Pro, MEC, and Atmosphere, plus year-round on Amazon.ca. Outdoor specialty stores carry it most reliably. Yard-application permethrin concentrate is not sold to consumers anywhere in Canada — Health Canada PMRA restricts it to licensed applicators. For whole-yard tick and mosquito treatment, hire a licensed Ontario operator instead.',
+  },
+  {
+    question: 'Where do you buy Sawyer permethrin spray in Canada?',
+    answer: 'Sawyer permethrin clothing spray is sold at Cabela\'s Canada, Bass Pro Shops Canada, MEC, Canadian Tire, and Atmosphere, and is available year-round on Amazon.ca. The 24-oz bottle runs $24–$38; the 12-oz is $18–$28. Outdoor specialty retailers keep the most consistent stock, while big-box stores like Canadian Tire carry it mainly during spring and summer. It is a clothing-and-gear spray — never apply it to your lawn or skin.',
+  },
+  {
+    question: 'How do you get permethrin in Canada?',
+    answer: 'For clothing use, simply buy ready-to-use Sawyer 0.5% permethrin spray at Canadian outdoor retailers or on Amazon.ca, or buy factory-treated Insect Shield garments — both are legal consumer products. What you cannot legally get in Canada is yard/turf permethrin concentrate: Health Canada PMRA classifies it as commercial- or restricted-class, so only a licensed applicator can obtain and apply it. For whole-yard protection, book a licensed Ontario operator like BuzzSkito.',
+  },
+  {
+    question: 'Why is permethrin not on Canadian store shelves?',
+    answer: 'Permethrin clothing spray IS on Canadian shelves — Sawyer 0.5% is sold at Cabela\'s, MEC, Canadian Tire, and Atmosphere. What you will not find is yard/turf permethrin concentrate: Health Canada\'s Pest Management Regulatory Agency (PMRA) classifies higher-concentration formulations as commercial- or restricted-class, so they are kept off consumer shelves and reserved for licensed applicators. The US EPA allows the same concentrations in retail packaging, which is why they appear at US stores but not Canadian ones.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({

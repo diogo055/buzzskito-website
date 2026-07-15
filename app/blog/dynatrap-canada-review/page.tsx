@@ -65,6 +65,18 @@ const FAQS = [
     question: 'Is "Dyna Trap" the same as DynaTrap?',
     answer: '"Dyna Trap" and "dyna trap" are just common misspellings of DynaTrap, the brand of UV-plus-fan insect traps made by Dynamic Solutions Worldwide. There is one brand and one product family — the DT150, DT1050, DT1100, DT2030, and DT3050. Whichever spelling you search, you are looking at the same devices reviewed on this page.',
   },
+  {
+    question: 'How does a DynaTrap work?',
+    answer: 'A DynaTrap works in two stages: a UV fluorescent bulb glows to attract flying insects, and a quiet fan then vacuums them down into a retaining basket where they dehydrate. Premium models add an Atrakta cartridge that releases octenol, a scent that mimics human breath to draw a few more mosquitoes. Critically, a DynaTrap produces no CO₂ — the main cue biting female mosquitoes hunt by — so it catches mostly moths, beetles, and midges rather than mosquitoes.',
+  },
+  {
+    question: 'Does a DynaTrap work during the day?',
+    answer: 'A DynaTrap runs 24/7 and does technically operate during the day, but its UV light is far less effective in daylight because it competes with the sun. DynaTrap recommends leaving it on continuously so it keeps working at dawn and dusk, when mosquitoes are most active. The fan and any octenol cartridge still function in daytime, but the strongest catch happens overnight. Turning it off during the day only reduces its already-modest results.',
+  },
+  {
+    question: 'Is a DynaTrap worth it?',
+    answer: 'It depends on your goal. As a mosquito solution, a DynaTrap is not worth it for most Canadian backyards — independent studies show roughly 95% of its catch is non-biting moths and beetles, with mosquitoes under 5%. As a general flying-insect catcher for a cottage deck, it can be worth the $80–$330 if you know what to expect. For real mosquito relief, professional barrier spray or a CO₂ propane trap delivers far more per dollar.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({
