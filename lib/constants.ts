@@ -1159,6 +1159,98 @@ export const NEW_BLOGS_17 = [
   },
 ]
 
+// ── Wave 18 — AI-citation question pages (Jul 15 2026) ────────────────────────
+// The "Neil Patel" AI-Overview play: 12 answer-first pages targeting the biggest
+// real questions Canadians ask (~14,500/mo CA of gaps) that our commercial pages
+// can't rank for at the exact phrasing. Health topics (Lyme, DEET, bite triage)
+// are PHAC/Health-Canada/CDC-cited and hedged (YMYL). No products pushed.
+export const NEW_BLOGS_18 = [
+  {
+    slug: 'what-does-a-tick-bite-look-like',
+    title: 'What Does a Tick Bite Look Like? Pictures, Timeline & How to Identify One (2026)',
+    excerpt: 'What does a tick bite look like? A day-by-day appearance timeline, on humans vs on dogs vs embedded ticks, a bite comparison table, and when to see a doctor.',
+    date: '2026-07-15',
+    category: 'tick' as const,
+  },
+  {
+    slug: 'can-lyme-disease-kill-you',
+    title: 'Can Lyme Disease Kill You, and Is It Curable? (2026 Canada Facts)',
+    excerpt: 'Can Lyme disease kill you? Is it curable or contagious? Plain-English, PHAC-cited answers for Canadians: early antibiotics are near-100% effective, deaths very rare.',
+    date: '2026-07-15',
+    category: 'tick' as const,
+  },
+  {
+    slug: 'why-do-mosquito-bites-itch',
+    title: 'Why Do Mosquito Bites Itch — and How Long Do They Last?',
+    excerpt: 'Why mosquito bites itch: your immune system releases histamine against mosquito saliva. The 3-7 day timeline, why bites feel worse at night, and why some swell up big.',
+    date: '2026-07-15',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'what-blood-type-do-mosquitoes-bite',
+    title: 'What Blood Type Do Mosquitoes Bite Most? Science vs Myth (2026)',
+    excerpt: 'Do mosquitoes really prefer Type O blood? The science says the Type O myth is weak and overhyped — CO2, body heat and skin bacteria decide who gets bitten.',
+    date: '2026-07-15',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'what-flowers-attract-mosquitoes',
+    title: 'What Flowers & Plants Attract Mosquitoes? An Ontario Garden Guide',
+    excerpt: 'Flowers do not bite you — but water-holding plants like bromeliads, taro and water lettuce breed mosquitoes, while nectar blooms feed adults. Ontario guide.',
+    date: '2026-07-15',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'why-do-mosquitoes-exist',
+    title: 'Why Do Mosquitoes Exist? Their Purpose, Pollination Role & the Extinction Debate',
+    excerpt: 'Do mosquitoes have a purpose? A balanced answer — pollination, their food-web role, the Nature extinction debate, and why a few species are the deadliest animal.',
+    date: '2026-07-15',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'when-to-worry-about-a-mosquito-bite',
+    title: 'When to Worry About a Mosquito Bite: Infection Signs, Allergy & When to See a Doctor (2026)',
+    excerpt: 'Most mosquito bites are harmless, but some are not. How to spot an infected bite vs a normal reaction, allergic swelling, and exactly when to see a doctor.',
+    date: '2026-07-15',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'can-dogs-get-lyme-disease',
+    title: 'Can Dogs Get Lyme Disease From Ticks? Signs, Stages & Treatment (2026)',
+    excerpt: 'Yes — dogs get Lyme from infected ticks. The first signs (shifting-leg lameness, fever), the 3 stages, whether it is curable, treatment, and whether cats are at risk.',
+    date: '2026-07-15',
+    category: 'tick' as const,
+  },
+  {
+    slug: 'how-long-do-ticks-live',
+    title: 'How Long Do Ticks Live — and Can They Live in Your House? (Ontario)',
+    excerpt: 'Ticks live 2-3 years and survive months without a host in humid conditions — but rarely in your house, since indoor air is too dry. Winter survival, dog facts.',
+    date: '2026-07-15',
+    category: 'tick' as const,
+  },
+  {
+    slug: 'is-deet-safe',
+    title: 'Is DEET Safe? What It Is, Cancer Myths & Health Canada Limits (2026)',
+    excerpt: 'Is DEET safe, or is it bad for you? A calm, Health-Canada- and CDC-backed explainer: what DEET is, the cancer myth, concentration limits, pregnancy and pet safety.',
+    date: '2026-07-15',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'are-there-ticks-in-canada',
+    title: 'Are There Ticks in Canada? Where Ticks Are Found, Province by Province (2026)',
+    excerpt: 'Ticks live in every Canadian province, but blacklegged (Lyme) ticks concentrate in the east. A 2026 province-by-province map of where ticks are found in Canada.',
+    date: '2026-07-15',
+    category: 'tick' as const,
+  },
+  {
+    slug: 'how-to-get-rid-of-mosquitoes-in-the-house',
+    title: 'How to Get Rid of Mosquitoes in the House (Fast) — 2026 Indoor Guide',
+    excerpt: 'Get rid of mosquitoes in the house fast: the fan trick, where they hide in a room, how to find and kill the one buzzing your bedroom, natural methods and the source.',
+    date: '2026-07-15',
+    category: 'mosquito' as const,
+  },
+]
+
 // ── Season helpers ─────────────────────────────────────────────────────────────
 
 export const PEAK_SEASON = 'May through July'
