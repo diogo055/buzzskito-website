@@ -1,5 +1,5 @@
 import type { MetadataRoute } from 'next'
-import { SITE_URL, CITIES, MOSQUITO_BLOGS, TICK_BLOGS, NEW_BLOGS, NEW_BLOGS_2, NEW_BLOGS_3, NEW_BLOGS_4, NEW_BLOGS_5, NEW_BLOGS_6, NEW_BLOGS_7, NEW_BLOGS_8, NEW_BLOGS_9, NEW_BLOGS_10, NEW_BLOGS_11, NEW_BLOGS_12, NEW_BLOGS_13, NEW_BLOGS_14, NEW_BLOGS_15, NEW_BLOGS_16, NEW_BLOGS_17, NEW_BLOGS_18 } from '@/lib/constants'
+import { SITE_URL, CITIES, MOSQUITO_BLOGS, TICK_BLOGS, NEW_BLOGS, NEW_BLOGS_2, NEW_BLOGS_3, NEW_BLOGS_4, NEW_BLOGS_5, NEW_BLOGS_6, NEW_BLOGS_7, NEW_BLOGS_8, NEW_BLOGS_9, NEW_BLOGS_10, NEW_BLOGS_11, NEW_BLOGS_12, NEW_BLOGS_13, NEW_BLOGS_14, NEW_BLOGS_15, NEW_BLOGS_16, NEW_BLOGS_17, NEW_BLOGS_18, NEW_BLOGS_19, NEW_BLOGS_20, NEW_BLOGS_21, NEW_BLOGS_22 } from '@/lib/constants'
 
 // Static lastModified date — update this only when making real content changes.
 // Using new Date() on every request makes Google distrust the lastmod signal.
@@ -36,6 +36,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE_URL}/buzzskito-history`,             lastModified: LAST_CONTENT_UPDATE, changeFrequency: 'yearly',  priority: 0.6 },
     { url: `${SITE_URL}/frequently-asked-question`,     lastModified: LAST_CONTENT_UPDATE, changeFrequency: 'monthly', priority: 0.7 },
     { url: `${SITE_URL}/blog`,                          lastModified: LAST_CONTENT_UPDATE, changeFrequency: 'weekly',  priority: 0.8 },
+    // ── Ontario Learning Centre (nav-level educational hubs) ──────────────────
+    { url: `${SITE_URL}/learn`,                                    lastModified: LAST_CONTENT_UPDATE, changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${SITE_URL}/learn/mosquito-life-cycle`,               lastModified: LAST_CONTENT_UPDATE, changeFrequency: 'monthly', priority: 0.7 },
+    { url: `${SITE_URL}/learn/tick-life-cycle`,                   lastModified: LAST_CONTENT_UPDATE, changeFrequency: 'monthly', priority: 0.7 },
+    { url: `${SITE_URL}/learn/ontario-mosquito-tick-diseases`,    lastModified: LAST_CONTENT_UPDATE, changeFrequency: 'monthly', priority: 0.7 },
+    { url: `${SITE_URL}/learn/how-to-combat-mosquitoes`,          lastModified: LAST_CONTENT_UPDATE, changeFrequency: 'monthly', priority: 0.7 },
+    { url: `${SITE_URL}/learn/how-to-combat-ticks`,               lastModified: LAST_CONTENT_UPDATE, changeFrequency: 'monthly', priority: 0.7 },
     // /about removed (page doesn't exist), /privacy-policy removed (noindex)
     { url: `${SITE_URL}/terms`,                         lastModified: LAST_CONTENT_UPDATE, changeFrequency: 'yearly',  priority: 0.3 },
   ]
@@ -220,6 +227,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...NEW_BLOGS_16,
     ...NEW_BLOGS_17,
     ...NEW_BLOGS_18,
+    ...NEW_BLOGS_19,
+    ...NEW_BLOGS_20,
+    ...NEW_BLOGS_21,
+    ...NEW_BLOGS_22,
   ]
 
   // Add blog posts from constants

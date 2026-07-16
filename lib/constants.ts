@@ -55,6 +55,20 @@ export const BUSINESS = {
   },
 } as const
 
+// ── Advertised "from" pricing — single source of truth ───────────────────────
+// Centralizes the season-offer "from" prices so the SeasonalOffer card and its
+// Offer JSON-LD read one place instead of duplicating literals. These MIRROR the
+// prices already emitted elsewhere (the $99 single treatment in serviceSchema /
+// hasOfferCatalog) — they do NOT introduce new or changed service prices. Source
+// of truth for the numbers is CLAUDE.md pricing: single from $99, tick season
+// $597 standalone / $497 bundled with any mosquito plan (save $100).
+export const PRICING = {
+  currency: 'CAD',
+  singleTreatmentFrom: 99,   // one-time barrier spray, standard lot under 10K sq ft
+  tickStandaloneFrom: 597,   // tick-only season (5 sprays)
+  tickBundleFrom: 497,       // tick season added to any mosquito plan (save $100)
+} as const
+
 export const SITE_URL = 'https://buzzskito.ca'
 
 // ── All service cities (19 total) ─────────────────────────────────────────────
@@ -1247,6 +1261,114 @@ export const NEW_BLOGS_18 = [
     title: 'How to Get Rid of Mosquitoes in the House (Fast) — 2026 Indoor Guide',
     excerpt: 'Get rid of mosquitoes in the house fast: the fan trick, where they hide in a room, how to find and kill the one buzzing your bedroom, natural methods and the source.',
     date: '2026-07-15',
+    category: 'mosquito' as const,
+  },
+]
+
+export const NEW_BLOGS_19 = [
+  {
+    slug: 'can-mosquitoes-bite-through-clothes',
+    title: 'Can Mosquitoes Bite Through Clothes? Yes — Here Is Exactly Which Fabrics',
+    excerpt: 'Can mosquitoes bite through clothes? Yes — through thin, tight fabric like leggings, thin tees and thin socks, but not loose or thick weaves like denim. Which fabrics, why, and how to stop it.',
+    date: '2026-07-16',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'how-many-times-can-a-mosquito-bite-you',
+    title: 'How Many Times Can a Mosquito Bite You? (One Female, Many Bites)',
+    excerpt: 'How many times can a mosquito bite you? A single female bites repeatedly until full or interrupted, does not die after biting, and can bite several people. The numbers and the myths.',
+    date: '2026-07-16',
+    category: 'mosquito' as const,
+  },
+]
+
+// NEW_BLOGS_20 — 2026-07-16. AI-citation product/question pages engineered to be
+// THE cited answer in AI Overviews / ChatGPT / Perplexity, beating stale US pages.
+export const NEW_BLOGS_20 = [
+  {
+    slug: 'do-tiki-torches-repel-mosquitoes',
+    title: 'Do Tiki Torches Repel Mosquitoes? The Honest 2026 Answer',
+    excerpt: 'Do tiki torches repel mosquitoes? The honest answer: a plain torch does nothing and even a citronella torch protects only a ~1m bubble that wind erases. What works instead.',
+    date: '2026-07-16',
+    category: 'mosquito' as const,
+  },
+]
+
+// ── Wave 21 — AI-citation Lyme surveillance page (Jul 16 2026) ─────────────────
+// Answer-first "what percentage of ticks carry Lyme in Ontario" page that cross-
+// links the Ontario tick data hubs (tracker + statistics) to beat MosquitoJoe's
+// undated US version. YMYL — PHO/PHAC/CDC-cited and hedged. No products.
+export const NEW_BLOGS_21 = [
+  {
+    slug: 'what-percentage-of-ticks-carry-lyme-ontario',
+    title: 'What Percentage of Ticks Carry Lyme Disease in Ontario? (2026 Data)',
+    excerpt: 'About 20% of blacklegged ticks in established Ontario risk areas carry Lyme (Public Health Ontario). Infection rates by species and life stage, transmission time, and your real chance of Lyme from a bite.',
+    date: '2026-07-16',
+    category: 'tick' as const,
+  },
+]
+
+// ── Wave 22 — AI-citation lone star tick / alpha-gal page (Jul 16 2026) ────────
+// Answer-first "is the lone star tick / red meat allergy in Canada" page engineered
+// to be THE cited answer, beating MosquitoJoe's undated US version (no author, no
+// first-sentence answer). YMYL — Health Canada / PHAC / eTick / CDC-cited and hedged.
+// No products.
+export const NEW_BLOGS_22 = [
+  {
+    slug: 'lone-star-tick-alpha-gal-canada',
+    title: 'Lone Star Tick & Alpha-Gal (Red Meat Allergy): Is It in Canada? (2026)',
+    excerpt: 'The lone star tick causes the alpha-gal red meat allergy — but it is not established in Canada (only occasional adventive finds per eTick/PHAC). Real risk, symptoms, and range for Ontario.',
+    date: '2026-07-16',
+    category: 'tick' as const,
+  },
+  // ── Remaining MJ gap-raid posts (Jul 16 2026) — registered centrally ─────────
+  {
+    slug: 'what-temperature-kills-mosquitoes',
+    title: 'What Temperature Kills Mosquitoes? (Cold, Frost & Winter Explained)',
+    excerpt: 'What temperature kills mosquitoes? Active adults die in a hard frost near -2°C and go dormant below 10°C — but eggs survive Ontario winters. The full science.',
+    date: '2026-07-16',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'why-do-mosquitoes-bite-my-ankles',
+    title: 'Why Do Mosquitoes Bite My Ankles and Feet? (The Science)',
+    excerpt: 'Mosquitoes bite your ankles and feet because CO2 pools at ground level, foot bacteria smell irresistible, and low-flying Aedes hunt there — plus how to stop it.',
+    date: '2026-07-16',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'mosquito-bite-vs-spider-bite',
+    title: 'Mosquito Bite vs Spider Bite: How to Tell the Difference (2026)',
+    excerpt: 'Mosquito bites come in itchy clusters within minutes; a spider bite is usually a single, more painful mark. Appearance, number, pain, timing and danger compared.',
+    date: '2026-07-16',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'what-colors-attract-mosquitoes',
+    title: 'What Colors Attract Mosquitoes? (2022 Study: Red, Orange, Black, Cyan)',
+    excerpt: 'A 2022 Nature Communications study found mosquitoes chase red, orange, black and cyan after smelling CO2 — and ignore green, blue, purple and white. What to wear.',
+    date: '2026-07-16',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'tick-head-stuck-in-skin',
+    title: 'Tick Head Stuck in Skin? What to Do (and When It\'s Dangerous)',
+    excerpt: 'What looks like a tick\'s head is actually its mouthparts. Try one gentle tweezer lift; if it won\'t come, leave it to heal like a splinter. When to see a doctor.',
+    date: '2026-07-16',
+    category: 'tick' as const,
+  },
+  {
+    slug: 'do-ticks-die-in-the-washing-machine',
+    title: 'Do Ticks Die in the Washing Machine or Dryer? (What Actually Works)',
+    excerpt: 'Washing clothes — even hot — does not reliably kill ticks. A dryer on high heat for 10 minutes does, via desiccation. The research + a post-hike protocol.',
+    date: '2026-07-16',
+    category: 'tick' as const,
+  },
+  {
+    slug: 'does-standing-water-attract-mosquitoes',
+    title: 'Does Standing Water Attract Mosquitoes? How Fast It Breeds Them',
+    excerpt: 'Standing water breeds biting mosquitoes in just 7-10 days, in as little as a bottle cap. The weekly-dump rule plus BTI dunks for water you can\'t drain.',
+    date: '2026-07-16',
     category: 'mosquito' as const,
   },
 ]
