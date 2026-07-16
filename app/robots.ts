@@ -41,14 +41,16 @@ export default function robots(): MetadataRoute.Robots {
         userAgent: 'Applebot-Extended',
         allow: '/',
       },
-      // Block pure training bots (scraping for model training, no citation benefit)
+      // Training bots — ALLOWED as of Jul 16 2026 (owner decision): presence in
+      // ChatGPT/Common Crawl training corpora compounds answer-engine citations;
+      // scraping trade-off accepted. (mosquitojoe.com allowlists every AI bot.)
       {
         userAgent: 'GPTBot',
-        disallow: '/',
+        allow: '/',
       },
       {
         userAgent: 'CCBot',
-        disallow: '/',
+        allow: '/',
       },
     ],
     sitemap: `${SITE_URL}/sitemap.xml`,
