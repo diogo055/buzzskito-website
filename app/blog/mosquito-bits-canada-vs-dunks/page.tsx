@@ -95,6 +95,25 @@ export default function MosquitoBitsCanadaPage() {
         </div>
       </section>
 
+      {/* QUICK ANSWER — first content element */}
+      <section className="bg-white px-4 pt-8">
+        <div className="max-w-4xl mx-auto">
+          <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+            <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">For fast larvae knockdown, Mosquito Bits are the best pick &mdash; they release BTI within about 30 minutes and clear treated water within 24 hours &mdash; while Mosquito Dunks slow-release the same BTI for a full 30 days. Most GTA homeowners keep both.</p>
+            <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+              <li>Mosquito Bits start releasing BTI within about 30 minutes and reach full larvae kill within 24 hours.</li>
+              <li>Mosquito Dunks slow-release BTI for roughly 30 days; Bits last about 7 to 14 days per application.</li>
+              <li>An 8-oz container of Bits treats 500&ndash;1,000 sq ft of water surface and costs about $15&ndash;$22 in Canada.</li>
+              <li>Both use BTI (Bacillus thuringiensis israelensis) and are Health Canada-approved &mdash; safe for humans, pets, fish, frogs, and pollinators.</li>
+              <li>Bits and Dunks are stocked at Canadian Tire, Home Depot, Rona, Lowe&rsquo;s, and Amazon.ca.</li>
+              <li>BTI only treats the water you apply it to; adult mosquitoes flying in still need a barrier spray.</li>
+            </ul>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+          </div>
+        </div>
+      </section>
+
       {/* WHERE TO BUY */}
       <section className="bg-gradient-to-br from-emerald-50 to-white border-b border-emerald-200 py-10 px-4">
         <div className="max-w-4xl mx-auto">
@@ -153,14 +172,9 @@ export default function MosquitoBitsCanadaPage() {
         </div>
       </section>
 
-      {/* QUICK ANSWER */}
-      <section className="bg-amber-50 border-y-4 border-amber-300 py-8 px-4">
+      {/* TOP PICK */}
+      <section className="bg-white px-4 pt-6">
         <div className="max-w-4xl mx-auto">
-          <p className="text-xs font-extrabold text-amber-700 uppercase tracking-wider mb-2">Quick Answer</p>
-          <h2 className="text-xl font-extrabold text-brand-900 mb-3">Should I buy mosquito bits or mosquito dunks?</h2>
-          <p className="text-base text-gray-800 leading-relaxed">
-            <strong>Bits kill larvae faster — full kill within 24 hours — while Dunks release slowly and keep protecting for a full 30 days.</strong> Both contain BTI: use DUNKS for long-term water sources (rain barrels, ponds, 30-day release) and BITS for fast knockdown or small water (bird baths, kiddie pools, 7–14 day release). Most Canadian homeowners buy both: dunks for the rain barrel, bits sprinkled when you find unexpected larvae anywhere else. Available at Canadian Tire, Home Depot Canada, Rona, and Amazon.ca. Mosquito Bits 8-oz container: $15–$22. Bits start working within 30 minutes vs dunks taking 4 hours. Both are completely safe for humans, pets, fish, frogs, and pollinators — Health Canada-approved for residential use.
-          </p>
           <TopPick
             label="Our Top Pick"
             name="Summit Mosquito Bits (BTI granules)"

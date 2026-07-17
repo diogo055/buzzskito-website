@@ -69,6 +69,19 @@ export default function LymeCasesOntario2026Page() {
       </div>
 
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
+        <div className="not-prose bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+          <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+          <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Ontario reported 3,614 confirmed and probable Lyme disease cases in 2025 — roughly 30 times the 2010 total — and 2026 is on track to exceed 4,000. Every GTA public health unit is now classified as established or emerging Lyme risk.</p>
+          <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+            <li>Ontario recorded 3,614 Lyme cases in 2025, up from 124 in 2010 — a 30-fold increase in 15 years.</li>
+            <li>Case counts have climbed steadily: 463 (2015), 1,489 (2020), 2,941 (2024), 3,614 (2025), with 4,000+ projected for 2026.</li>
+            <li>The Eastern Ontario Health Unit led the province in 2025 with 367 cases.</li>
+            <li>Halton (142), Toronto (128), and Peel (119) all ranked in the top 10 PHUs in 2025.</li>
+            <li>Blacklegged ticks are expanding north about 35–55 km per decade; established populations show 20–30% Borrelia prevalence.</li>
+            <li>Professional tick barrier spray applied in late May and mid-August cuts on-property tick populations by 80–90%.</li>
+          </ul>
+          <p className="mt-3 text-xs text-gray-500">— BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews. General information, not medical advice.</p>
+        </div>
         <aside className="not-prose mb-6 rounded-xl bg-brand-50 border-l-4 border-brand-700 px-5 py-4">
           <p className="text-xs font-extrabold text-brand-700 uppercase tracking-wider mb-1.5">★ Source for</p>
           <p className="text-sm text-brand-900 leading-relaxed">

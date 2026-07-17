@@ -93,9 +93,18 @@ export default function HowLongDoTicksLivePage() {
       <div className="max-w-4xl mx-auto px-4">
         <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
           <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-          <p className="text-base text-gray-800 leading-relaxed">
-            <strong>Ticks live 2 to 3 years</strong> across their larva, nymph, and adult stages, and can survive many months without a host in cool, humid conditions. They rarely live in your house &mdash; heated indoor air is too dry, so a tick brought inside usually dies within days. Most Ontario ticks overwinter outdoors under leaf litter and snow, so a frost does not kill them all.
+          <p className="text-gray-800 text-[15px] leading-relaxed font-medium">
+            Ticks live 2 to 3 years across their larva, nymph, and adult stages, and can survive many months without a host in cool, humid conditions. They rarely live in your house &mdash; heated indoor air is too dry, so a tick brought inside usually dies within days. Most Ontario ticks overwinter outdoors under leaf litter and snow, so a frost does not kill them all.
           </p>
+          <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+            <li>Most ticks live 2 to 3 years, taking a single blood meal at each of three stages &mdash; larva, nymph, and adult.</li>
+            <li>An unfed blacklegged tick can survive several months to over a year without a host in cool, humid conditions of roughly 80% or higher.</li>
+            <li>Heated indoor air often sits at just 30&ndash;50% humidity, so a tick carried inside usually dehydrates within a few days to about two weeks.</li>
+            <li>Adult blacklegged ticks can become active whenever daytime temperatures rise above roughly 4&deg;C, so a single frost does not kill them all.</li>
+            <li>An attached tick feeds on a dog for 3 to 10 days and on a human for 3 to 7 days before dropping off engorged.</li>
+            <li>The only tick that truly infests homes is the brown dog tick, which is uncommon in Canada.</li>
+          </ul>
+          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
         </div>
       </div>
 

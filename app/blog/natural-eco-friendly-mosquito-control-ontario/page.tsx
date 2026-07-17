@@ -94,14 +94,23 @@ export default function NaturalMosquitoControlPage() {
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
+        <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+          <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+          <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Some natural mosquito control genuinely works in Ontario: BTi dunks are highly effective against larvae in standing water, while garlic and cedar-oil sprays give adult mosquitoes only 7&ndash;14 days of light repellency. High-pressure yards near ravines or water still need a professional barrier spray.</p>
+          <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+            <li>BTi dunks kill mosquito larvae in standing water without harming fish, birds, bees, or mammals &mdash; the City of Toronto uses BTi as its primary larviciding tool.</li>
+            <li>Cedar-oil yard sprays provide 7&ndash;14 days of light residual versus 21&ndash;30 days for professional synthetic barrier spray.</li>
+            <li>A female mosquito lays 100&ndash;300 eggs in water as shallow as a bottle cap, with a new generation of adults roughly every 10 days.</li>
+            <li>Essential oils applied to yard vegetation evaporate too quickly to give meaningful residual protection outdoors.</li>
+            <li>Oil of lemon eucalyptus (OLE) is the only plant-based personal repellent recognized as effective by Health Canada and the US CDC.</li>
+            <li>Ravine-adjacent and waterfront properties typically need professional seasonal treatment; low-pressure urban lots can often manage with BTi plus standing-water elimination.</li>
+          </ul>
+          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+        </div>
+
         <p className="text-lg text-gray-600 not-prose border-l-4 border-brand-400 pl-5 py-2 mb-8">
           More GTA homeowners are asking us about natural and eco-friendly mosquito control options — and it&apos;s a fair question. This guide gives you an honest breakdown of what natural options actually do, where they fall short in Ontario&apos;s climate, and the right combination strategy for different property types.
         </p>
-
-        <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
-          <p className="text-xs font-extrabold text-emerald-700 uppercase tracking-wider mb-2">Quick Answer</p>
-          <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Some natural mosquito control genuinely works in Ontario: BTi dunks are highly effective against larvae in standing water, while garlic and cedar-oil sprays give adult mosquitoes only 7&ndash;14 days of light repellency. Plants help within a few metres. High-pressure yards near ravines or water still need a professional barrier spray.</p>
-        </div>
 
         <h2>The Natural vs. Synthetic Spectrum: What We&apos;re Actually Comparing</h2>
         <p>When Ontario homeowners ask about &ldquo;natural&rdquo; mosquito control, they usually mean one of four things: plant-based repellent sprays applied to the yard, biological larvicides that kill larvae without chemicals, essential oils used as personal repellents, or mosquito-repelling plants in the garden. Each of these exists on a spectrum from genuinely effective to mostly wishful thinking.</p>

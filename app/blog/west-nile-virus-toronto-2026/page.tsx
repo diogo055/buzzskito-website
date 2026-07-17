@@ -75,14 +75,25 @@ export default function WestNileTorontoPage() {
         </div>
       </section>
 
-      {/* Quick Answer — AI-extraction block */}
-      <section className="bg-amber-50 border-y-4 border-amber-300 py-8 px-4">
+      {/* Quick Answer — AI-extraction capsule */}
+      <section className="bg-white pt-8 px-4">
         <div className="max-w-4xl mx-auto">
-          <p className="text-xs font-extrabold text-amber-700 uppercase tracking-wider mb-2">Quick Answer</p>
-          <h2 className="text-xl font-extrabold text-brand-900 mb-3">Is West Nile virus a risk in Toronto?</h2>
-          <p className="speakable text-base text-gray-800 leading-relaxed">
-            <strong>Yes. West Nile virus has circulated in Toronto every summer since 2001, and human risk peaks in August and early September.</strong> It is spread by <em>Culex</em> mosquitoes, which bite at dusk, night, and dawn and breed in stagnant, organically rich water &mdash; storm catch basins, clogged gutters, old tires, and neglected containers &mdash; not in clean rain puddles. About <strong>80% of infected people have no symptoms</strong>, roughly 20% develop West Nile fever, and fewer than 1% develop serious neuroinvasive disease, with adults over 50 at highest risk. There is no human vaccine, so prevention is bite avoidance: eliminate stagnant water weekly, use a DEET or icaridin repellent at dusk, and reduce the adult mosquito population resting on your property. BuzzSkito treats Toronto and GTA yards with barrier spray from $99.
-          </p>
+          <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+            <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+            <p className="text-base text-gray-800 leading-relaxed">
+              <strong>Yes. West Nile virus has circulated in Toronto every summer since 2001, and human risk peaks in August and early September.</strong> It is spread by <em>Culex</em> mosquitoes, which bite at dusk, night, and dawn and breed in stagnant, organically rich water &mdash; storm catch basins, clogged gutters, old tires, and neglected containers &mdash; not in clean rain puddles. About <strong>80% of infected people have no symptoms</strong>, roughly 20% develop West Nile fever, and fewer than 1% develop serious neuroinvasive disease, with adults over 50 at highest risk. There is no human vaccine, so prevention is bite avoidance: eliminate stagnant water weekly, use a DEET or icaridin repellent at dusk, and reduce the adult mosquito population resting on your property. BuzzSkito treats Toronto and GTA yards with barrier spray from $99.
+            </p>
+            <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+              <li>West Nile virus has circulated in Toronto every summer since 2001; human risk peaks in August and early September.</li>
+              <li>The vector is the Culex mosquito, which bites at dusk, night, and dawn and breeds in stagnant, organically rich water.</li>
+              <li>About 80% of infected people have no symptoms at all.</li>
+              <li>Roughly 20% develop West Nile fever, and fewer than 1% develop serious neuroinvasive disease.</li>
+              <li>Adults over 50 face the highest risk of severe illness.</li>
+              <li>There is no human vaccine, so prevention is bite avoidance and reducing standing water and adult mosquitoes.</li>
+            </ul>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+            <p className="mt-1.5 text-xs text-gray-500">Health information for general education, not medical advice. Consult Toronto Public Health or a healthcare provider about West Nile symptoms.</p>
+          </div>
         </div>
       </section>
 

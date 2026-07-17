@@ -86,6 +86,15 @@ export default function JuneBugsOntarioPage() {
           <p className="speakable text-base text-gray-800 leading-relaxed">
             <strong>June bugs (also called June beetles or May beetles) are large, clumsy, reddish-brown beetles in the genus Phyllophaga that swarm porch lights on warm May–July nights in Ontario.</strong> They are completely harmless to people — they do not bite, sting, or spread disease. Their white-grub larvae, however, can damage lawns by feeding on grass roots. To control them, dim or yellow your outdoor lights to stop the adults, and treat the lawn with beneficial nematodes in late summer to kill next year&rsquo;s grubs.
           </p>
+          <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+            <li>June bugs are 15–25 mm, reddish-brown scarab beetles in the genus Phyllophaga.</li>
+            <li>Adults are active in Ontario from mid-May through July, peaking in June, on nights above roughly 18°C.</li>
+            <li>June bugs do not bite, sting, or carry disease — they are harmless to people and pets.</li>
+            <li>Their larvae are white grubs that feed on grass roots and can kill patches of lawn.</li>
+            <li>Apply beneficial nematodes (Heterorhabditis bacteriophora) to moist soil in late summer to kill next year&rsquo;s grubs.</li>
+            <li>Switching to warm-yellow &ldquo;bug light&rdquo; LEDs or motion-sensor fixtures sharply cuts how many adults show up.</li>
+          </ul>
+          <p className="mt-3 text-xs text-gray-500">— BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
         </div>
       </section>
 

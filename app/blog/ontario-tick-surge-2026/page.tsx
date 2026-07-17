@@ -69,6 +69,20 @@ export default function OntarioTickSurge2026Page() {
       </div>
 
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
+        <div className="not-prose bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+          <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+          <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Ontario&rsquo;s 2026 tick season is running 2&ndash;3 weeks ahead of typical years, with blacklegged tick nymphs peaking from May through July. The most effective yard protection is a professional tick barrier spray in late May to early June plus habitat modification &mdash; together they sharply reduce on-property tick encounters.</p>
+          <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+            <li>Public health experts confirmed in May 2026 that tick activity across Southern Ontario is running 2&ndash;3 weeks ahead of typical years.</li>
+            <li>Ontario reported 3,614 confirmed Lyme disease cases in 2025 &mdash; roughly a 30-fold increase since 2010.</li>
+            <li>Professional tick barrier spray reduces on-property tick populations by 80&ndash;90% within 7&ndash;14 days of application.</li>
+            <li>Habitat modification &mdash; leaf-litter removal, short mowing, and a 3-foot gravel or wood-chip buffer &mdash; adds roughly another 30&ndash;40% reduction.</li>
+            <li>Blacklegged tick nymphs, the stage most associated with Lyme transmission, are active in Ontario from May through July.</li>
+            <li>Lyme transmission typically requires 24&ndash;36 hours of tick attachment, so a daily tick-check habit dramatically reduces risk.</li>
+          </ul>
+          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+        </div>
+
         <aside className="not-prose mb-6 rounded-xl bg-brand-50 border-l-4 border-brand-700 px-5 py-4">
           <p className="text-xs font-extrabold text-brand-700 uppercase tracking-wider mb-1.5">★ Cited as a source by</p>
           <p className="text-sm text-brand-900 leading-relaxed">

@@ -55,6 +55,20 @@ export default function HamiltonBurlingtonPage() {
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
+        <div className="not-prose bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+          <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+          <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Hamilton and Burlington face some of the GTA region&apos;s heaviest mosquito and tick pressure because the Niagara Escarpment, Cootes Paradise marsh, Bronte Creek, and the Royal Botanical Gardens all border residential neighbourhoods. Properties near these features should start seasonal barrier spray in early May, with tick applications timed to the spring nymph and fall adult peaks.</p>
+          <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+            <li>Properties within 500 m of Niagara Escarpment trails consistently experience elevated mosquito pressure.</li>
+            <li>Cootes Paradise &mdash; one of the largest wetlands in the western Lake Ontario basin &mdash; drives overspill mosquito pressure into Westdale, Ainslie Wood, and the McMaster area.</li>
+            <li>The Royal Botanical Gardens&apos; 1,100 hectares of naturalized land supports established populations of both mosquitoes and blacklegged ticks.</li>
+            <li>Blacklegged ticks are documented at Dundas Valley Conservation Area, Fifty Point Conservation Area, and along the Escarpment trail network.</li>
+            <li>Bronte Creek Provincial Park is documented blacklegged tick habitat affecting Bronte, West Oak Trails, and River Oaks.</li>
+            <li>Mosquito pressure builds quickly once temperatures consistently exceed 10&deg;C, so the first treatment should land in early May.</li>
+          </ul>
+          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+        </div>
+
         <p className="text-lg text-gray-600 not-prose border-l-4 border-brand-400 pl-5 py-2 mb-8">
           Hamilton and Burlington homeowners deal with some of the most diverse mosquito and tick pressure in the GTA region — escarpment properties, waterfront neighbourhoods, and conservation land boundaries all create unique challenges. This guide explains why, and what to do about it.
         </p>

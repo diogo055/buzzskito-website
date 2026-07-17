@@ -76,16 +76,21 @@ export default function AreTicksArachnidsOrInsectsPage() {
       </section>
 
       {/* Quick Answer — AI-extraction block */}
-      <section className="bg-amber-50 border-y-4 border-amber-300 py-8 px-4">
+      <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
-          <div className="flex items-center justify-between gap-3 mb-2">
-            <p className="text-xs font-extrabold text-amber-700 uppercase tracking-wider">Quick Answer</p>
-            <p className="text-xs font-semibold text-amber-700">Updated July 2026</p>
+          <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+            <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Ticks are arachnids, not insects &mdash; they have eight legs like spiders and mites, not six like insects. Ticks belong to the class Arachnida and the subclass Acari, the same group as mites, so a tick is essentially a large, blood-feeding mite.</p>
+            <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+              <li>Adult and nymph ticks have 8 legs, while insects have 6 legs.</li>
+              <li>Ticks belong to the class Arachnida and the subclass Acari &mdash; the same group as mites.</li>
+              <li>Unlike insects, ticks have no wings, no antennae, and a single fused body rather than a separate head, thorax, and abdomen.</li>
+              <li>A newly hatched larval tick (a &ldquo;seed tick&rdquo;) briefly has only 6 legs, then grows its fourth pair of legs at the first moult.</li>
+              <li>Because ticks are arachnids, they ignore the CO&#8322; traps and zappers built for insects.</li>
+              <li>A tick&rsquo;s nearest relatives are mites and spiders, not flies, beetles, or mosquitoes.</li>
+            </ul>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
           </div>
-          <h2 className="text-xl font-extrabold text-brand-900 mb-3">Are ticks arachnids or insects?</h2>
-          <p className="speakable text-base text-gray-800 leading-relaxed">
-            <strong>Ticks are arachnids, not insects — they have eight legs like spiders and mites, not six like insects.</strong> Ticks belong to the class Arachnida and the subclass Acari, the same group as mites, so a tick is essentially a large, blood-feeding mite. Unlike insects, ticks have no wings, no antennae, and a single fused body instead of a separate head, thorax, and abdomen. Their nearest relatives are mites and spiders, not flies, beetles, or mosquitoes. The one wrinkle: a newly hatched larval tick (a &ldquo;seed tick&rdquo;) briefly has six legs, then grows the fourth pair at its first moult — but every nymph and adult you are likely to see has eight. This is not just trivia: because ticks are arachnids, they ignore the CO&#8322; traps and zappers built for insects, so tick control has to target the shaded, humid yard edges where they actually wait.
-          </p>
         </div>
       </section>
 

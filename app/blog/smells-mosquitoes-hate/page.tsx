@@ -75,16 +75,21 @@ export default function SmellsMosquitoesHatePage() {
       </section>
 
       {/* Quick Answer — AI-extraction block */}
-      <section className="bg-amber-50 border-y-4 border-amber-300 py-8 px-4">
+      <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
-          <div className="flex items-center justify-between gap-3 mb-2">
-            <p className="text-xs font-extrabold text-amber-700 uppercase tracking-wider">Quick Answer</p>
-            <p className="text-xs font-semibold text-amber-700">Updated July 2026</p>
+          <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+            <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Mosquitoes dislike citronella, lemongrass, peppermint, lavender, oil of lemon eucalyptus (OLE), and to a small degree garlic. These plant oils mask the CO2 and body-scent cues mosquitoes track, but only OLE is Health Canada-registered for real protection &mdash; treat scents as a mild patio deterrent, not bite-proof protection.</p>
+            <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+              <li>Citronella provides only about 20&ndash;50 minutes of protection before it needs reapplying.</li>
+              <li>Oil of lemon eucalyptus (OLE/PMD) is the strongest scent, giving about 2&ndash;5 hours at a 30% concentration.</li>
+              <li>Health Canada advises against using OLE or PMD on children under 3.</li>
+              <li>Lavender is the weakest common repellent scent, and eaten garlic has no proven effect.</li>
+              <li>A citronella candle only protects a 1&ndash;2 metre cone of still air around it.</li>
+              <li>Professional barrier spray treats resting vegetation and cuts the yard population for weeks, from $99.</li>
+            </ul>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
           </div>
-          <h2 className="text-xl font-extrabold text-brand-900 mb-3">What smells do mosquitoes hate?</h2>
-          <p className="speakable text-base text-gray-800 leading-relaxed">
-            <strong>Mosquitoes dislike citronella, lemongrass, peppermint, lavender, oil of lemon eucalyptus (OLE), and to a small degree garlic.</strong> These strong plant oils mask the carbon dioxide and body-scent cues mosquitoes track, so they can cut down on landings in a small, still space. But only OLE is Health Canada-registered for real protection; the rest fade within 20 minutes to two hours and vanish in any breeze. Treat scents as a mild patio deterrent, not bite-proof protection — a registered repellent or a professional barrier spray does the heavy lifting.
-          </p>
         </div>
       </section>
 

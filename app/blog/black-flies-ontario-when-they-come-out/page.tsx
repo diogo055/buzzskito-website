@@ -78,17 +78,26 @@ export default function BlackFliesOntarioPage() {
         </div>
       </section>
 
-      <div className="max-w-3xl mx-auto px-4 -mt-6 sm:-mt-8 relative z-10">
+      <div className="max-w-3xl mx-auto px-4">
+        <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+          <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+          <p className="text-gray-800 text-[15px] leading-relaxed font-medium">
+            In the GTA and southern Ontario, black flies emerge in mid-May and peak from late May through late June, fading fast by mid-July. Muskoka and cottage country run about 1&ndash;2 weeks later, and in Northern Ontario black fly season can stretch into late summer. A well-timed <Link href="/mosquito-control" className="text-brand-700 underline">barrier spray in mid-May</Link> covers the worst weeks.
+          </p>
+          <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+            <li>GTA black flies first emerge in late April to early May, then explode mid-to-late May as streams reach 13&ndash;15&deg;C.</li>
+            <li>Peak black fly season across the GTA runs early through late June, with populations declining rapidly by early July.</li>
+            <li>Adult black flies are just 1&ndash;5 mm long &mdash; much smaller than mosquitoes.</li>
+            <li>Only female black flies bite; males feed on plant nectar.</li>
+            <li>Canada has more than 60 black fly species, including the aggressive human-biting <em>Simulium venustum</em> and <em>Simulium decorum</em>.</li>
+            <li>Muskoka and cottage country peak about 1&ndash;2 weeks later than the GTA, running late May into early July.</li>
+          </ul>
+          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+        </div>
         <BlogPostCTA />
       </div>
 
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
-        <div className="not-prose mb-8 rounded-2xl border-2 border-amber-300 bg-amber-50 p-5 sm:p-6">
-          <p className="text-xs font-bold uppercase tracking-wide text-amber-700 mb-2">Quick Answer &mdash; Black Fly Season 2026</p>
-          <p className="speakable text-base sm:text-lg text-gray-800 leading-relaxed">
-            In the <strong>GTA and southern Ontario</strong>, black flies emerge in <strong>mid-May</strong> and peak from <strong>late May through late June</strong>, fading fast by mid-July. <strong>Muskoka and cottage country</strong> run about 1&ndash;2 weeks later (late May into early July), and in <strong>Northern Ontario</strong> black fly season can stretch into late summer. A well-timed <Link href="/mosquito-control" className="text-brand-700 underline">barrier spray in mid-May</Link> covers the worst weeks &mdash; <Link href="/free-yard-assessment" className="text-brand-700 underline">get a free quote</Link>.
-          </p>
-        </div>
         <p className="text-lg text-gray-600 not-prose border-l-4 border-amber-400 pl-5 py-2 mb-8">
           If you have ever walked out to your patio in early June and been chased back inside by a swarm of tiny biting insects that draw blood when they bite, you are not alone — and you are not dealing with mosquitoes. You are dealing with black flies. This guide covers when they come out in Ontario, where they breed, and how professional treatment controls them as part of a mosquito barrier spray program.
         </p>

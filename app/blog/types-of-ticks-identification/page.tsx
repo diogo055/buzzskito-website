@@ -91,17 +91,24 @@ export default function TypesOfTicksIdentificationPage() {
         </div>
       </section>
 
-      {/* Quick Answer — AI-extraction block */}
-      <section className="bg-amber-50 border-y-4 border-amber-300 py-8 px-4">
+      {/* Quick Answer — AI-extraction capsule */}
+      <section className="bg-white pt-8 px-4">
         <div className="max-w-4xl mx-auto">
-          <div className="flex items-center justify-between gap-3 mb-2">
-            <p className="text-xs font-extrabold text-amber-700 uppercase tracking-wider">Quick Answer</p>
-            <p className="text-xs font-semibold text-amber-700">Updated July 2026</p>
+          <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+            <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+            <p className="text-base text-gray-800 leading-relaxed">
+              <strong>Identify a tick by its size, colour, back-plate markings, and range.</strong> The five ticks most people meet in North America are the blacklegged (deer) tick, American dog tick, lone star tick, brown dog tick, and Rocky Mountain wood tick. A small reddish-brown tick with solid black legs and no back markings is usually a blacklegged (deer) tick — the one that spreads Lyme disease. A larger brown tick with white or grey marbling on its scutum is an American dog tick or wood tick. A brown tick with a single white dot is a female lone star tick. Life stage matters as much as species: larvae are about 1 mm, nymphs are poppy-seed-sized (1&ndash;2 mm) and cause most Lyme cases, and unfed adults are 3&ndash;5 mm. Because you cannot tell an infected tick from a clean one by sight, identify it, remove it promptly, and watch the bite.
+            </p>
+            <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+              <li>The five ticks most North Americans encounter are the blacklegged (deer), American dog, lone star, brown dog, and Rocky Mountain wood tick.</li>
+              <li>A small reddish-brown tick with solid black legs and no back markings is a blacklegged (deer) tick &mdash; the Lyme carrier.</li>
+              <li>An American dog tick or wood tick is larger with white or grey marbling on its scutum; a female lone star tick has a single white dot.</li>
+              <li>Larvae are about 1 mm, nymphs are poppy-seed-sized (1&ndash;2 mm), and unfed adults are 3&ndash;5 mm.</li>
+              <li>Poppy-seed-sized nymphs cause most Lyme cases because they are so easily missed.</li>
+              <li>Engorged ticks swell to 10 mm or more, and you cannot tell an infected tick from a clean one by sight.</li>
+            </ul>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
           </div>
-          <h2 className="text-xl font-extrabold text-brand-900 mb-3">How do you identify a tick?</h2>
-          <p className="speakable text-base text-gray-800 leading-relaxed">
-            <strong>Identify a tick by its size, colour, back-plate markings, and range.</strong> The five ticks most people meet in North America are the blacklegged (deer) tick, American dog tick, lone star tick, brown dog tick, and Rocky Mountain wood tick. A small reddish-brown tick with solid black legs and no back markings is usually a blacklegged (deer) tick — the one that spreads Lyme disease. A larger brown tick with white or grey marbling on its scutum is an American dog tick or wood tick. A brown tick with a single white dot is a female lone star tick. Life stage matters as much as species: larvae are about 1 mm, nymphs are poppy-seed-sized (1&ndash;2 mm) and cause most Lyme cases, and unfed adults are 3&ndash;5 mm. Because you cannot tell an infected tick from a clean one by sight, identify it, remove it promptly, and watch the bite.
-          </p>
         </div>
       </section>
 

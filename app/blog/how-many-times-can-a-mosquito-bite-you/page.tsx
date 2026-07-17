@@ -88,17 +88,18 @@ export default function HowManyTimesCanAMosquitoBiteYouPage() {
         <div className="max-w-4xl mx-auto">
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-            <p className="text-base text-gray-800 leading-relaxed mb-3">
-              <strong>BuzzSkito&rsquo;s GTA technicians:</strong> one female mosquito can bite you several times in a single evening. She keeps feeding until she is full or you interrupt her, and she does <em>not</em> die after biting.
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">
+              One female mosquito can bite you several times in a single evening &mdash; she keeps feeding until she is full or you interrupt her, and she does not die after biting. A tight cluster of welts is usually one persistent mosquito, not a swarm.
             </p>
-            <ul className="list-disc pl-5 space-y-1.5 text-base text-gray-800 leading-relaxed">
-              <li>Only <strong>female</strong> mosquitoes bite; each blood meal fuels a batch of <strong>100 to 300 eggs</strong>.</li>
-              <li>Left undisturbed, she drinks until full &mdash; up to <strong>three times her own body weight</strong> in blood &mdash; in about <strong>2 to 5 minutes</strong>, usually from one bite.</li>
-              <li>Interrupt her (a swat or a twitch) and she relands to finish, leaving <strong>several welts from one insect</strong>.</li>
-              <li>Mosquitoes do <strong>not</strong> die after biting &mdash; that is honeybees, whose barbed stinger tears out. A female feeds again every <strong>3 to 4 days</strong> and lives <strong>2 to 3 weeks</strong>.</li>
-              <li>One mosquito can bite <strong>more than one person</strong>, which is how a single infected mosquito can spread viruses such as West Nile.</li>
-              <li>A tight <strong>cluster of bites</strong> usually means one mosquito probed several times, not that a swarm found you.</li>
+            <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+              <li>Only female mosquitoes bite; each blood meal fuels a batch of 100 to 300 eggs.</li>
+              <li>Left undisturbed, she drinks up to three times her own body weight in blood in about 2 to 5 minutes, usually from one bite.</li>
+              <li>Interrupt her with a swat or a twitch and she relands to finish, leaving several welts from a single insect.</li>
+              <li>Mosquitoes do not die after biting &mdash; that is the honeybee, whose barbed stinger tears out; a female feeds again every 3 to 4 days.</li>
+              <li>A female mosquito lives about 2 to 3 weeks (up to a month in cool, sheltered conditions) and bites across her whole life.</li>
+              <li>One mosquito can bite more than one person, which is how a single infected mosquito can spread viruses such as West Nile.</li>
             </ul>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
           </div>
         </div>
       </section>

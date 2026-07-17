@@ -97,6 +97,7 @@ export default function WhatColorsAttractMosquitoesPage() {
               <li>Colour ranks behind CO2, body heat, and skin odour (like lactic acid) as an attractant &mdash; clothing colour is a minor edge, not a shield.</li>
               <li>To be least visible, wear white, khaki, or pale blue; avoid red, orange, and black.</li>
             </ul>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
           </div>
         </div>
       </section>

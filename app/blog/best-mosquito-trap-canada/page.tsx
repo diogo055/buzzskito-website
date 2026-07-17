@@ -72,13 +72,21 @@ export default function BestMosquitoTrapCanadaPage() {
         </div>
       </section>
 
-      <section className="bg-amber-50 border-y-4 border-amber-300 py-8 px-4">
+      <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
-          <p className="text-xs font-extrabold text-amber-700 uppercase tracking-wider mb-2">Quick Answer</p>
-          <h2 className="text-xl font-extrabold text-brand-900 mb-3">What is the best mosquito trap in Canada?</h2>
-          <p className="text-base text-gray-800 leading-relaxed speakable">
-            <strong>For real mosquito reduction, a propane CO₂ trap like the <Link href="/blog/mosquito-magnet-canada" className="text-emerald-700 underline">Mosquito Magnet</Link> is the best trap you can buy in Canada</strong> &mdash; it burns propane to make real CO₂, heat, and moisture, and cuts mosquito populations 70&ndash;90% over 6&ndash;8 weeks. Cheaper <Link href="/blog/dynatrap-canada-review" className="text-emerald-700 underline">UV + fan traps like DynaTrap</Link> catch mostly non-biting moths and beetles (only ~5% mosquitoes), while CO₂/octenol lure traps sit in the middle on both price and performance. But for a typical GTA backyard, no trap beats <Link href="/mosquito-control" className="text-emerald-700 underline">professional barrier spray</Link> ($99/treatment) for same-day, whole-yard coverage that also kills ticks.
-          </p>
+          <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+            <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">For real mosquito reduction, a propane CO&#8322; trap like the <Link href="/blog/mosquito-magnet-canada" className="text-emerald-700 underline">Mosquito Magnet</Link> is the best trap you can buy in Canada &mdash; it burns propane to make real CO&#8322;, heat, and moisture, cutting mosquito populations 70&ndash;90% over 6&ndash;8 weeks on up to about 1 acre.</p>
+            <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+              <li>A propane CO&#8322; trap (Mosquito Magnet) cuts mosquito populations 70&ndash;90% over 6&ndash;8 weeks on up to roughly 1 acre.</li>
+              <li>UV + fan traps like DynaTrap catch mostly non-biting moths and beetles &mdash; only about 5% of their catch is mosquitoes.</li>
+              <li>CO&#8322;/octenol lure traps sit in the middle of the range on both price and mosquito performance.</li>
+              <li>Biting female mosquitoes hunt by the CO&#8322;, heat, and moisture that a propane trap generates.</li>
+              <li>Professional barrier spray costs $99 per treatment and covers the whole yard the same day.</li>
+              <li>Only barrier spray controls both mosquitoes and ticks across the whole property at once.</li>
+            </ul>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+          </div>
         </div>
       </section>
 

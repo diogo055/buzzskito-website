@@ -72,6 +72,24 @@ export default function MosquitoFoggerCanadaPage() {
         </div>
       </section>
 
+      <section className="bg-white px-4 pt-8">
+        <div className="max-w-4xl mx-auto">
+          <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+            <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Mosquito foggers work for fast, temporary knockdown but not lasting control &mdash; and for most GTA yards a propane thermal fogger like the Black Flag is the best pick because it&rsquo;s cordless, cheap, and clears adult mosquitoes 20&ndash;30 minutes before guests arrive. For weeks of hands-off protection, pair it with a <Link href="/mosquito-control" className="text-emerald-700 underline">professional barrier spray</Link>.</p>
+            <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+              <li>A fogger disperses pyrethrin/pyrethroid insecticide that kills adult mosquitoes on contact; a yard is noticeably clearer 20&ndash;30 minutes after fogging.</li>
+              <li>Fogging leaves almost no residual &mdash; knockdown lasts roughly 6 to 24 hours before mosquitoes drift back.</li>
+              <li>Propane thermal foggers cost about $60&ndash;$110; electric ULV cold foggers run $80&ndash;$250.</li>
+              <li>Thermal foggers use oil-based fogging insecticide; cold ULV foggers use a diluted water-based concentrate.</li>
+              <li>In Canada only fogging liquid carrying a Health Canada PMRA / PCP registration number is legal to use.</li>
+              <li>Foggers barely touch ticks, which hide low in leaf litter; a barrier spray lasts 21&ndash;30 days and covers ticks.</li>
+            </ul>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+          </div>
+        </div>
+      </section>
+
       <section className="bg-gradient-to-br from-emerald-50 to-white border-b border-emerald-200 py-10 px-4">
         <div className="max-w-4xl mx-auto">
           <p className="text-xs font-extrabold text-emerald-700 uppercase tracking-wider mb-2">Where to Buy in Canada · Updated July 2026</p>
@@ -115,16 +133,6 @@ export default function MosquitoFoggerCanadaPage() {
               <strong className="text-amber-900">⚠️ Foggers give knockdown, not lasting control.</strong> The fog clears adult mosquitoes for an evening but leaves almost no residual, so mosquitoes fly back within a day or two. For weeks of hands-off protection that also handles ticks, <Link href="/mosquito-control" className="text-emerald-700 underline font-semibold">professional barrier spray</Link> coats resting surfaces with a 21–30 day residual. Many homeowners keep a fogger for one-off events and run a seasonal program for baseline control.
             </p>
           </div>
-        </div>
-      </section>
-
-      <section className="bg-amber-50 border-y-4 border-amber-300 py-8 px-4">
-        <div className="max-w-4xl mx-auto">
-          <p className="text-xs font-extrabold text-amber-700 uppercase tracking-wider mb-2">Quick Answer</p>
-          <h2 className="text-xl font-extrabold text-brand-900 mb-3">Do mosquito foggers work — and are they worth it?</h2>
-          <p className="text-base text-gray-800 leading-relaxed speakable">
-            <strong>Yes for fast, temporary knockdown &mdash; no as a lasting mosquito solution.</strong> A fogger fills the air with a fine cloud of pyrethrin or pyrethroid insecticide that kills the adult mosquitoes it contacts, so 20&ndash;30 minutes after fogging your yard is noticeably clearer &mdash; perfect right before a barbecue or evening on the deck. But the fog dissipates within hours and leaves almost no residual, so mosquitoes drift back in from neighbouring yards within a day or two, and foggers barely touch ticks. For weeks of hands-off protection, <Link href="/mosquito-control" className="text-emerald-700 underline">professional barrier spray</Link> deposits a 21&ndash;30 day residual on resting surfaces, while a fogger is best kept on hand for on-demand, event-day clearing.
-          </p>
         </div>
       </section>
 

@@ -89,6 +89,15 @@ export default function WhyDoMosquitoesExistPage() {
             <p className="text-base text-gray-800 leading-relaxed">
               Mosquitoes exist because they are an ancient, wildly successful insect lineage — over 3,500 species that evolved to fill still-water and flower niches. Their purpose is genuinely ecological: larvae feed fish and dragonflies, adults pollinate plants and feed birds and bats, and they help cycle nutrients. Only about 100 species bite humans, but those few make mosquitoes the world&rsquo;s deadliest animal.
             </p>
+            <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+              <li>The mosquito family (Culicidae) is roughly 100 million years old &mdash; older than most flowering plants they visit.</li>
+              <li>There are more than 3,500 known mosquito species worldwide, and only about 100 bite humans.</li>
+              <li>Roughly 60 mosquito species live in Ontario.</li>
+              <li>Both sexes feed on flower nectar; only females bite, and only to get the blood protein needed to develop eggs.</li>
+              <li>Male mosquitoes never bite &mdash; they lack blood-feeding mouthparts entirely.</li>
+              <li>Mosquitoes cause hundreds of thousands of human deaths a year (mostly malaria, per WHO); in Ontario the main risk is West Nile virus.</li>
+            </ul>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
           </div>
         </div>
       </section>

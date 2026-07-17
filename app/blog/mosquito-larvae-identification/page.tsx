@@ -121,13 +121,21 @@ export default function MosquitoLarvaePage() {
         </div>
       </section>
 
-      <section className="bg-amber-50 border-y-4 border-amber-300 py-8 px-4">
+      <section className="bg-white px-4 pt-8">
         <div className="max-w-4xl mx-auto">
-          <p className="text-xs font-extrabold text-amber-700 uppercase tracking-wider mb-2">Quick Answer</p>
-          <h2 className="text-xl font-extrabold text-brand-900 mb-3">What do mosquito larvae look like?</h2>
-          <p className="speakable text-base text-gray-800 leading-relaxed">
-            <strong>Mosquito larvae are 5–8 mm long, brown-black wiggling worm-like creatures that live in standing water.</strong> They hang upside-down at the water surface with a breathing siphon poking through the surface tension. When disturbed, they wiggle downward in a distinctive S-shape — earning their nickname &ldquo;wigglers.&rdquo; They live for 4–14 days in water before emerging as adult mosquitoes. Found in: rain barrels, clogged gutters, bird baths, plant saucers, neglected pools, ornamental ponds without fish, tarps with pooled water, and tree holes. Removal: drain the water, or treat with BTI Mosquito Dunks ($10–$20 at Canadian Tire) which kill larvae in 24 hours and are 100% safe for pets, fish, and humans. BuzzSkito treats yards across the Greater Toronto Area, where a single untreated rain barrel can produce thousands of adult mosquitoes in one season.
-          </p>
+          <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+            <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Mosquito larvae are 5&ndash;8 mm long, brown-black wiggling worm-like creatures (&ldquo;wigglers&rdquo;) that live in standing water. They hang head-down at the surface with a breathing siphon and dart downward in an S-shape when disturbed.</p>
+            <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+              <li>Mosquito larvae are 5&ndash;8 mm long (about the size of a grain of rice), brown to black, and live only in standing water.</li>
+              <li>They hang at the water surface with a breathing siphon and wiggle downward in an S-shape when disturbed.</li>
+              <li>Larvae develop into biting adults in 7&ndash;14 days at 20&ndash;25&deg;C Ontario summer temperatures.</li>
+              <li>Draining the water kills 100% of larvae instantly and costs nothing.</li>
+              <li>BTI Mosquito Dunks kill larvae within 24&ndash;48 hours, last about 30 days, and cost $10&ndash;$20.</li>
+              <li>Larvae cannot live in flowing water (creeks, rivers) or properly chlorinated pools.</li>
+            </ul>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+          </div>
         </div>
       </section>
 

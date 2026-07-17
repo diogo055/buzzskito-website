@@ -60,6 +60,19 @@ export default function TickControlRichmondHillMarkhamPage() {
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
+        <div className="not-prose bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+          <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+          <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Richmond Hill and Markham sit directly on the Oak Ridges Moraine, so blacklegged tick populations here are established and self-sustaining. Yards backing onto forest, ravines, or Rouge National Urban Park need two barrier treatments per season &mdash; late April to early May for nymphs, and late August to September for fall adults.</p>
+          <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+            <li>The Oak Ridges Moraine is a 160 km glacial landform running directly through Richmond Hill and Markham.</li>
+            <li>Rouge National Urban Park covers over 79 square kilometres and contains confirmed blacklegged tick populations.</li>
+            <li>Blacklegged ticks peak in two windows: spring (April–June) and fall (September–November).</li>
+            <li>Poppy-seed-sized nymphs are active May through July and cause most Ontario Lyme disease transmission.</li>
+            <li>Lyme transmission becomes a real possibility after 24–36 hours of tick attachment.</li>
+            <li>Highest-risk areas: Oak Ridges and Jefferson Forest in Richmond Hill; Cornell, Cathedraltown, and Rouge Park in Markham.</li>
+          </ul>
+          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
+        </div>
         <p className="text-lg text-gray-600 leading-relaxed not-prose border-l-4 border-amber-400 pl-5 py-2 mb-8">
           Richmond Hill and Markham sit directly on the Oak Ridges Moraine — one of Ontario&rsquo;s most ecologically sensitive areas and one of the province&rsquo;s highest-density tick habitats. If your property backs onto forest, a ravine, or conservation land in either city, this guide is for you. Start with our <Link href="/richmond-hill-tick-spray" className="text-brand-700 underline">Richmond Hill tick control</Link> or <Link href="/markham-tick-spray" className="text-brand-700 underline">Markham tick control</Link> service pages for treatment options.
         </p>

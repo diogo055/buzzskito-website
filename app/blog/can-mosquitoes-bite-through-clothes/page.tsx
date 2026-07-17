@@ -88,10 +88,10 @@ export default function CanMosquitoesBiteThroughClothesPage() {
         <div className="max-w-4xl mx-auto">
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-            <p className="text-base text-gray-800 leading-relaxed mb-3">
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">
               <strong>BuzzSkito&rsquo;s GTA technicians:</strong> yes, mosquitoes readily bite through thin, tight fabric because their proboscis reaches skin &mdash; but loose weaves and thick fabric stop them cold.
             </p>
-            <ul className="space-y-2 text-sm text-gray-800 leading-relaxed list-disc pl-5">
+            <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
               <li>A mosquito&rsquo;s piercing proboscis reaches about <strong>2 mm (0.08 in)</strong>, so any fabric thinner than that pressed flat to skin is biteable.</li>
               <li>Tight synthetics &mdash; <strong>spandex leggings, thin polyester athletic tops, thin nylon</strong> &mdash; offer almost no protection; mosquitoes bite straight through them.</li>
               <li>Even a <strong>3&ndash;5 mm air gap</strong> between loose fabric and skin defeats the proboscis entirely, which is why loose clothing beats tight clothing.</li>
@@ -99,6 +99,7 @@ export default function CanMosquitoesBiteThroughClothesPage() {
               <li><strong>Permethrin-treated clothing</strong> kills mosquitoes on contact through fabric &mdash; factory Insect Shield garments last ~70 washes, DIY 0.5% spray ~6 washes.</li>
               <li>Health Canada&rsquo;s PMRA registers <strong>Sawyer 0.5% permethrin clothing spray</strong> as a legal consumer product in Canada.</li>
             </ul>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
           </div>
         </div>
       </section>

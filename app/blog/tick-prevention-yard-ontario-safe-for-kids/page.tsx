@@ -84,6 +84,20 @@ export default function TickPreventionYardKidsPage() {
       <section className="py-14 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
 
+          <div className="not-prose bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+            <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Professional tick barrier spray is safe for children and pets once it dries &mdash; about 30 minutes after application &mdash; and combined with yard-edge modifications it is the most effective way to protect an Ontario family; the highest-risk zone is the 1&ndash;3 metre edge where lawn meets vegetation, and nymph season (May&ndash;July) is most dangerous.</p>
+            <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+              <li>Health Canada-approved barrier spray is safe for children and pets once dry, typically 30 minutes after application.</li>
+              <li>Ticks concentrate in the first 1&ndash;3 metres where lawn meets garden beds, hedges, leaf litter, or fences &mdash; not the open lawn.</li>
+              <li>Nymphs (poppy-seed-sized, 1&ndash;2 mm) are active May&ndash;July and carry the same Lyme risk as adults, causing most Ontario cases.</li>
+              <li>Most family yards need two treatments per season &mdash; late May for nymphs and August or September for fall adults.</li>
+              <li>A 1-metre wood-chip or gravel barrier strip between lawn and wooded edges deters ticks from crossing.</li>
+              <li>Picaridin (icaridin) is Health Canada-permitted for children as young as 6 months as a second, skin-applied layer.</li>
+            </ul>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+          </div>
+
           <AffiliateDisclosure />
 
           <h2>Why Ontario Backyards Are the #1 Tick Exposure Site for Children</h2>

@@ -71,6 +71,24 @@ export default function MosquitoControlWorthCostPage() {
         </div>
       </section>
 
+      <section className="bg-white px-4 pt-8">
+        <div className="max-w-3xl mx-auto">
+          <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+            <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Yes &mdash; for most GTA homeowners professional mosquito control is worth the cost. A full-season program runs about $500&ndash;$900 for 5&ndash;6 treatments and reduces the mosquito population on your property by 85&ndash;95%, which works out to roughly $100&ndash;$180 per month for a backyard you can actually use from May through September.</p>
+            <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+              <li>A full-season program (5&ndash;6 treatments, May&ndash;September) costs $500&ndash;$900 for a standard GTA lot; single treatments run $120&ndash;$200.</li>
+              <li>Professional barrier spray achieves 85&ndash;95% mosquito population reduction with 21&ndash;30 days of residual protection per treatment.</li>
+              <li>Reclaiming 2&ndash;3 outdoor hours per week over a 20-week season prices the program at roughly $10&ndash;$22 per hour of usable backyard time.</li>
+              <li>West Nile Virus has been detected in GTA mosquito populations every year since 2001; about 20% of infections cause West Nile Fever.</li>
+              <li>A typical family already spends $200&ndash;$500 per season on DIY products (candles, foggers, zappers) that provide far less protection.</li>
+              <li>It may not pay off for small condo patios, low-vegetation lots, or homeowners who rarely use their outdoor space.</li>
+            </ul>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+          </div>
+        </div>
+      </section>
+
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
         <p className="text-lg text-gray-600 not-prose border-l-4 border-amber-400 pl-5 py-2 mb-8">
           Is professional mosquito control actually worth the investment, or are you better off with citronella candles and DEET? This is an honest breakdown of the costs, benefits, and alternatives. Part of our <Link href={`/blog/${MOSQUITO_BLOGS.pillar.slug}`} className="text-brand-700 underline">Ultimate Backyard Mosquito Control Guide</Link>.

@@ -90,9 +90,18 @@ export default function AreThereTicksInCanadaPage() {
         <div className="max-w-4xl mx-auto">
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-            <p className="text-base text-gray-800 leading-relaxed">
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">
               Ticks are found in every Canadian province and territory, but established, disease-carrying blacklegged (deer) ticks concentrate in southern and eastern Canada &mdash; Ontario, Quebec, Nova Scotia, New Brunswick, Manitoba, and coastal British Columbia. The Prairies and far north mainly see American dog ticks and wood ticks, with only occasional blacklegged ticks carried in by migratory birds.
             </p>
+            <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+              <li>Ticks are active whenever temperatures stay above roughly 4&deg;C (39&deg;F), which in southern Canada means about March through November.</li>
+              <li>Nova Scotia has consistently ranked highest for Lyme disease incidence per 100,000 people, while Ontario and Quebec report the most total cases.</li>
+              <li>Public Health Agency of Canada data shows Lyme cases rose from a few hundred a year in the early 2010s to several thousand annually.</li>
+              <li>In coastal British Columbia, typically around 1 percent of western blacklegged ticks carry the Lyme bacterium &mdash; lower than in eastern Canada.</li>
+              <li>Blacklegged (Lyme) ticks are not established in Canada&rsquo;s far north &mdash; Nunavut, most of the Northwest Territories, and most of Yukon are too cold and dry.</li>
+              <li>The American dog tick (<em>Dermacentor variabilis</em>) is one of the most widespread ticks nationally, and it does not spread Lyme disease.</li>
+            </ul>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
           </div>
         </div>
       </section>

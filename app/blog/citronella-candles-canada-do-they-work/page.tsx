@@ -71,6 +71,26 @@ export default function CitronellaCandlesCanadaPage() {
         </div>
       </section>
 
+      <section className="bg-white px-4">
+        <div className="max-w-4xl mx-auto">
+          <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+            <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">
+              Citronella candles work only weakly and only right beside the flame &mdash; controlled testing shows about 40&ndash;50% fewer bites for someone seated directly next to a burning candle in still air, but the protective bubble is under 1 metre and any breeze erases it. They cannot protect a table, patio, or yard, so use them for ambiance and rely on a Thermacell zone plus professional barrier spray for real relief.
+            </p>
+            <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+              <li>Controlled testing (Journal of the American Mosquito Control Association) measured roughly 40&ndash;50% fewer bites for a person seated directly beside a burning citronella candle in still air.</li>
+              <li>The repellent bubble reaches under about 1 metre and collapses in any breeze.</li>
+              <li>Citronella masks the CO&#8322; and body scent mosquitoes track &mdash; it does not kill them, and it has zero effect on ticks.</li>
+              <li>Plant-oil repellents like citronella wear off in 20&ndash;60 minutes, versus hours for DEET or picaridin.</li>
+              <li>A season of citronella for a patio costs about $30&ndash;$80 in Canada.</li>
+              <li>A Thermacell creates a ~4.5 m (15 ft) protected zone, and professional barrier spray kills mosquitoes across the whole yard for 21&ndash;30 days.</li>
+            </ul>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+          </div>
+        </div>
+      </section>
+
       <section className="bg-gradient-to-br from-emerald-50 to-white border-b border-emerald-200 py-10 px-4">
         <div className="max-w-4xl mx-auto">
           <p className="text-xs font-extrabold text-emerald-700 uppercase tracking-wider mb-2">Where to Buy in Canada · Updated July 2026</p>
@@ -114,16 +134,6 @@ export default function CitronellaCandlesCanadaPage() {
               <strong className="text-rose-900">⚠️ Citronella only protects the person sitting right beside it.</strong> Testing shows the repellent bubble is under ~1 metre and disappears in a breeze. For a hands-off patio zone use a <Link href="/blog/thermacell-canada-where-to-buy" className="text-emerald-700 underline font-semibold">Thermacell</Link>, and to actually reduce mosquitoes across the whole yard use <Link href="/mosquito-control" className="text-emerald-700 underline font-semibold">professional barrier spray</Link>. Keep the candles for ambiance.
             </p>
           </div>
-        </div>
-      </section>
-
-      <section className="bg-amber-50 border-y-4 border-amber-300 py-8 px-4">
-        <div className="max-w-4xl mx-auto">
-          <p className="text-xs font-extrabold text-amber-700 uppercase tracking-wider mb-2">Quick Answer</p>
-          <h2 className="text-xl font-extrabold text-brand-900 mb-3">Do citronella candles work?</h2>
-          <p className="speakable text-base text-gray-800 leading-relaxed">
-            <strong>Yes — but only a little, and only right next to the flame.</strong> Citronella oil masks the CO₂ and body scent mosquitoes hunt by, and controlled studies measure roughly 40–50% fewer bites for someone sitting directly beside a burning candle in still air. The catch is range: the protective bubble is under about 1 metre and any breeze blows it away, so a citronella candle cannot protect a table, a patio, or a yard. For real relief, pair a <Link href="/blog/thermacell-canada-where-to-buy" className="text-emerald-700 underline">Thermacell</Link> patio zone with a whole-yard <Link href="/mosquito-control" className="text-emerald-700 underline">professional barrier spray</Link> and keep the candles for atmosphere.
-          </p>
         </div>
       </section>
 

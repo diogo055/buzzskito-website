@@ -70,6 +70,20 @@ export default function MosquitoSeasonToronto2026Page() {
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
+        <div className="not-prose bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+          <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+          <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Mosquito season in Toronto typically starts in mid-to-late May, once overnight lows stay above 10&deg;C and daytime highs reach 15&deg;C; ravine valleys wake up 1&ndash;2 weeks earlier than open suburbs, July is the worst month, and the season ends after the first hard frost in late September to October.</p>
+          <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+            <li>Mosquitoes become active when overnight lows stay above 10&deg;C and daytime highs reach 15&deg;C &mdash; usually mid-to-late May in Toronto.</li>
+            <li>Sheltered ravine corridors (Don Valley, Humber Valley) turn active 1&ndash;2 weeks before open suburban yards.</li>
+            <li>Lake Ontario delays lakefront emergence by about a week in spring and extends the season by about a week into fall.</li>
+            <li>July is Toronto&rsquo;s worst mosquito month; peak season runs late June through late August.</li>
+            <li>The season lasts roughly 18&ndash;22 weeks and ends after the first hard frost (below 0&deg;C), typically late September to October.</li>
+            <li>A professional barrier spray lasts 21&ndash;30 days; a 5&ndash;6 treatment program (mid-May to early September) covers the full season.</li>
+          </ul>
+          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+        </div>
+
         <p className="text-lg text-gray-600 not-prose border-l-4 border-amber-400 pl-5 py-2 mb-8">
           Toronto&apos;s mosquito season follows predictable patterns shaped by Lake Ontario, the city&apos;s extensive ravine system, and spring temperature thresholds. Understanding these patterns helps you time your first treatment for maximum season-long protection. Part of our <Link href={`/blog/${MOSQUITO_BLOGS.pillar.slug}`} className="text-brand-700 underline">Ultimate Backyard Mosquito Control Guide</Link>.
         </p>

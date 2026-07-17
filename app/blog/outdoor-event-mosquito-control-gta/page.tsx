@@ -92,6 +92,20 @@ export default function OutdoorEventMosquitoPage() {
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
+        <div className="not-prose bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+          <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+          <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The most reliable way to keep mosquitoes away from a GTA backyard wedding, graduation, or party is a single professional barrier spray applied 3&ndash;5 days before the event &mdash; one treatment protects the whole property for 21&ndash;30 days, with no action needed from your guests.</p>
+          <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+            <li>Book at least 5&ndash;7 days before the event; a spray applied 3&ndash;5 days out reaches peak residual effectiveness by event day.</li>
+            <li>One professional barrier spray provides 21&ndash;30 days of residual mosquito protection across the whole property.</li>
+            <li>The treated yard is safe for guests, children, and pets 30 minutes after application, once surfaces are dry.</li>
+            <li>For catered events, treat at least 48 hours before food setup so every surface is fully dry.</li>
+            <li>BuzzSkito&apos;s guarantee covers a free re-treatment if mosquito activity returns within 21 days of any application.</li>
+            <li>GTA mosquito season runs early May through late September, with peak biting at dawn and dusk &mdash; exactly when outdoor ceremonies and receptions happen.</li>
+          </ul>
+          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+        </div>
+
         <p className="text-lg text-gray-600 not-prose border-l-4 border-brand-400 pl-5 py-2 mb-8">
           You&apos;ve spent months planning your backyard wedding or party. The last thing you want is mosquitoes turning the evening into a disaster. A single professional barrier spray, timed correctly, will keep your guests comfortable for the entire event — and for weeks after. Here&apos;s exactly how it works.
         </p>

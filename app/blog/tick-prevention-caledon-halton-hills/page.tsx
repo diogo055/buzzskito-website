@@ -60,6 +60,20 @@ export default function TickPreventionCaledonPage() {
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
+        <div className="not-prose bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+          <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+          <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Caledon and Halton Hills are among Ontario&rsquo;s highest tick-activity areas outside cottage country because they sit where the Oak Ridges Moraine meets the Niagara Escarpment, with high deer density; blacklegged ticks there peak in spring (April&ndash;June nymphs) and fall (September&ndash;November adults).</p>
+          <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+            <li>Caledon sits at the western convergence of the Oak Ridges Moraine and the Niagara Escarpment &mdash; two of Ontario&rsquo;s most tick-productive features.</li>
+            <li>Spring nymphs (April&ndash;June) are just 1&ndash;2 mm and drive the highest Lyme transmission risk because they are so hard to detect.</li>
+            <li>Fall adult ticks (September&ndash;November) can transmit Lyme if attached for more than 24&ndash;36 hours.</li>
+            <li>Most rural Caledon and Halton Hills properties need 2&ndash;3 treatments per season: late April/May, July, and an optional September round.</li>
+            <li>BuzzSkito treats the 3-metre transition margin between lawn and woodlot, where ticks concentrate &mdash; not the forest interior.</li>
+            <li>High-risk pockets include Glen Williams, Georgetown edges, Limehouse, Norval and Silver Creek, Bolton, Caledon East, and Palgrave.</li>
+          </ul>
+          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+        </div>
+
         <p className="text-lg text-gray-600 leading-relaxed not-prose border-l-4 border-amber-400 pl-5 py-2 mb-8">
           Caledon and Halton Hills are among the most beautiful places to live in the GTA region — and also among the highest tick-activity areas in Ontario outside of cottage country. This guide explains why, where risk is concentrated, and how professional treatment protects rural properties. See our <Link href="/caledon-tick-spray" className="text-brand-700 underline">Caledon tick control</Link> and <Link href="/halton-hills-tick-spray" className="text-brand-700 underline">Halton Hills tick control</Link> service pages.
         </p>

@@ -102,14 +102,26 @@ export default function BugsThatLookLikeTicksPage() {
         </div>
       </section>
 
-      <div className="max-w-3xl mx-auto px-4 -mt-6 sm:-mt-8 relative z-10">
+      <div className="max-w-3xl mx-auto px-4">
+        <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+          <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+          <p className="text-gray-800 text-[15px] leading-relaxed font-medium">
+            Bugs that look like ticks include bed bugs, spider beetles, weevils, carpet beetles, bat bugs, booklice, and brown marmorated stink bug nymphs &mdash; plus stray poppy or sesame seeds. The fastest way to tell any of them from a real tick is to count the legs: ticks are arachnids with 8 legs and no antennae, while every common look-alike is an insect with 6 legs and visible antennae.
+          </p>
+          <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+            <li>Ticks have 8 legs as adults (6 as larvae) and no antennae; common look-alikes are insects with 6 legs and visible antennae.</li>
+            <li>Ticks have one fused, teardrop-shaped body, not three distinct segments.</li>
+            <li>If a bug jumps or flies, it is not a tick &mdash; ticks only crawl slowly.</li>
+            <li>Fleas are flattened side-to-side, while ticks are flattened top-to-bottom.</li>
+            <li>Spider beetles are the classic offender: a reddish, humped body but 6 legs and long antennae.</li>
+            <li>The 7 most common look-alikes are bed bugs, spider beetles, weevils, carpet beetles, bat bugs, booklice, and stink bug nymphs.</li>
+          </ul>
+          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+        </div>
         <BlogPostCTA />
       </div>
 
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
-        <p className="speakable text-lg text-gray-800 not-prose bg-brand-50 border border-brand-100 rounded-xl px-5 py-4 mb-6">
-          <strong>Bugs that look like ticks include bed bugs, spider beetles, weevils, carpet beetles, bat bugs, booklice, and brown marmorated stink bug nymphs</strong> &mdash; plus stray poppy or sesame seeds and specks of dirt. The fastest way to tell any of them from a real tick is to count the legs: ticks are arachnids with <strong>8 legs and no antennae</strong>, while every common look-alike is an insect with <strong>6 legs and visible antennae</strong> (or, in the case of a seed, no legs at all). If it has antennae, wings, or runs and jumps, it is not a tick.
-        </p>
         <p className="text-lg text-gray-600 not-prose border-l-4 border-amber-400 pl-5 py-2 mb-8">
           You found a small, dark, oval bug crawling on your child, your dog, or your bedroom carpet. Is it a tick? Maybe — but several common Ontario bugs look almost identical to ticks at first glance, and panicking over the wrong one can cost you hours when it actually matters. This guide covers the most common tick look-alikes — bed bugs, spider beetles, weevils, carpet beetles, bat bugs, booklice, stink bug nymphs, and even stray poppy seeds — how to tell each one apart, and why misidentification is genuinely risky in Ontario&apos;s expanding Lyme disease zones.
         </p>

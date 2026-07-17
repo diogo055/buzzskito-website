@@ -92,6 +92,20 @@ export default function StoneyCeekMosquitoPage() {
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
+        <div className="not-prose bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+          <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+          <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Stoney Creek properties face high mosquito and tick pressure from three directions &mdash; the Lake Ontario waterfront, the Red Hill Creek ravine corridor, and the Niagara Escarpment. Professional barrier spray gives 21&ndash;30 days of residual protection per treatment, with five mosquito treatments covering May through September.</p>
+          <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+            <li>Barrier spray bonds to leaf surfaces and provides 21&ndash;30 days of residual mosquito protection per application.</li>
+            <li>Five treatments from May through September maintain consistent coverage for a standard Stoney Creek property.</li>
+            <li>Fifty Point Conservation Area on the waterfront is documented blacklegged tick habitat confirmed by the Hamilton Conservation Authority.</li>
+            <li>Tick treatments target the 1&ndash;2 metre interface zone between maintained lawn and natural vegetation, where the overwhelming majority of tick encounters occur.</li>
+            <li>Heritage Green and Battlefield homes near the Red Hill Valley report the most intense mosquito pressure &mdash; untreated yards often become unusable in the evenings by mid-June.</li>
+            <li>Winona and Fifty Point rate high risk for both mosquitoes and ticks; new-build subdivisions in the east rate moderate to low.</li>
+          </ul>
+          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+        </div>
+
         <p className="text-lg text-gray-600 not-prose border-l-4 border-brand-400 pl-5 py-2 mb-8">
           Stoney Creek sits at the intersection of three distinct pest pressure zones: the Red Hill Creek and Lake Ontario lakeshore to the north, the Niagara Escarpment rising to the south, and a growing patchwork of newer subdivisions and mature residential neighbourhoods in between. Understanding which zone you live in determines how urgently you need professional mosquito and tick control.
         </p>

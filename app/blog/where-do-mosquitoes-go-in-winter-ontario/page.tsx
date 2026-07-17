@@ -85,17 +85,24 @@ export default function WhereDoMosquitoesGoInWinterOntarioPage() {
         </div>
       </section>
 
-      {/* Quick Answer — AI-extraction block */}
-      <section className="bg-amber-50 border-y-4 border-amber-300 py-8 px-4">
+      {/* Quick Answer — AI-extraction capsule */}
+      <section className="bg-white pt-8 px-4">
         <div className="max-w-4xl mx-auto">
-          <div className="flex items-center justify-between gap-3 mb-2">
-            <p className="text-xs font-extrabold text-amber-700 uppercase tracking-wider">Quick Answer</p>
-            <p className="text-xs font-semibold text-amber-700">Updated July 2026</p>
+          <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+            <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+            <p className="text-base text-gray-800 leading-relaxed">
+              <strong>Ontario mosquitoes don&rsquo;t die out in winter — they survive it.</strong> Depending on the species, cold-hardy Aedes eggs wait in dry soil, mated Culex females hibernate in a dormant state called diapause inside sheltered spots, and some larvae overwinter underwater. When spring warms past about 10&deg;C, they wake, breed, and return in May. That is why a harsh winter never wipes out next summer&rsquo;s mosquitoes.
+            </p>
+            <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+              <li>Mated Culex females (the West Nile vector) overwinter as adults in diapause inside sewers, culverts, sheds, and basements.</li>
+              <li>Aedes and floodwater mosquitoes survive as frost-tolerant eggs in dry soil, tree holes, and container walls.</li>
+              <li>Some species, such as Coquillettidia, overwinter as larvae attached to plant roots in unfrozen water.</li>
+              <li>Mosquitoes wake and resume breeding once temperatures stay above about 10&deg;C, usually in May.</li>
+              <li>All male mosquitoes die in fall and do not overwinter; their lifespan is only about 1&ndash;2 weeks.</li>
+              <li>Because eggs and hibernating females survive, a harsh winter never wipes out the next summer&rsquo;s population.</li>
+            </ul>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
           </div>
-          <h2 className="text-xl font-extrabold text-brand-900 mb-3">Where do mosquitoes go in winter?</h2>
-          <p className="speakable text-base text-gray-800 leading-relaxed">
-            <strong>Ontario mosquitoes don&rsquo;t die out in winter — they survive it.</strong> Depending on the species, cold-hardy Aedes eggs wait in dry soil, mated Culex females hibernate in a dormant state called diapause inside sheltered spots, and some larvae overwinter underwater. When spring warms past about 10&deg;C, they wake, breed, and return in May. That is why a harsh winter never wipes out next summer&rsquo;s mosquitoes.
-          </p>
         </div>
       </section>
 

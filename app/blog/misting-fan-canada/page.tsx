@@ -80,14 +80,20 @@ export default function MistingFanCanadaPage() {
         </div>
       </section>
 
-      <section className="bg-gradient-to-br from-emerald-50 to-white border-b border-emerald-200 py-10 px-4">
+      <section className="bg-white px-4 pt-8">
         <div className="max-w-4xl mx-auto">
-          <p className="text-xs font-extrabold text-emerald-700 uppercase tracking-wider mb-2">Quick Answer · Updated July 2026</p>
-          <h2 className="text-2xl font-extrabold text-brand-900 mb-4">Do outdoor misting fans keep mosquitoes away?</h2>
-          <div className="speakable rounded-xl bg-white border border-emerald-200 shadow-sm p-5">
-            <p className="text-base text-gray-800 leading-relaxed">
-              Yes, partly &mdash; through airflow, not chemistry. Mosquitoes are weak fliers that struggle in any breeze above roughly 2.4&nbsp;km/h, so a misting fan makes it hard for them to land on you and scatters the carbon-dioxide plume they track. Add 5&ndash;11&nbsp;C of evaporative cooling and you get a comfortable, lower-bite patio zone. It deters, it does not eradicate.
-            </p>
+          <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+            <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Outdoor misting fans keep mosquitoes away partly &mdash; through airflow, not chemistry &mdash; and for most GTA patios a complete, self-contained portable oscillating fan is the best pick. Mosquitoes are weak fliers that can&rsquo;t push through the breeze, and the mist adds real evaporative cooling. It deters, it does not eradicate.</p>
+            <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+              <li>Mosquitoes are weak fliers that struggle in any breeze above roughly 2.4&nbsp;km/h, so a fan blocks them from landing.</li>
+              <li>A misting fan can drop the felt temperature in its spray zone by about 5 to 11&nbsp;C (10 to 20&nbsp;F) through evaporative cooling.</li>
+              <li>A misting fan that sprays plain water is not a pest control product and needs no Health Canada / PMRA registration.</li>
+              <li>Never add pesticide or repellent to a consumer fan&rsquo;s water tank &mdash; aerosolizing a pest product moves you into regulated territory.</li>
+              <li>Brass or stainless nozzles resist GTA hard-water clogging far better than plastic ones.</li>
+              <li>A misting fan only deters mosquitoes where the air reaches; a whole-yard barrier spray is still needed for population control.</li>
+            </ul>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
           </div>
         </div>
       </section>

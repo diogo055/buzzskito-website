@@ -45,6 +45,20 @@ export default function RemoveTickPage() {
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
+        <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable not-prose">
+          <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+          <p className="text-gray-800 text-[15px] leading-relaxed font-medium">To remove a tick safely, grasp it with fine-tipped tweezers or a tick-removal tool as close to the skin as possible and pull straight up with steady, even pressure &mdash; do not twist, squeeze, or apply petroleum jelly or heat. Clean the bite with rubbing alcohol, save the tick, and watch the site for 30 days.</p>
+          <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+            <li>Use fine-tipped tweezers or a purpose-built tick tool &mdash; not blunt household tweezers &mdash; gripping the mouthparts right at the skin.</li>
+            <li>Pull straight up with slow, even pressure; twisting or jerking can leave the mouthparts embedded.</li>
+            <li>Do not crush the tick&apos;s body or use petroleum jelly, nail polish, or heat &mdash; these can push infected fluid into the wound.</li>
+            <li>Save the removed tick in a sealed bag with a moist paper towel; Ontario residents can submit it to etick.ca for identification.</li>
+            <li>Watch the bite for 30 days for an expanding bull&apos;s-eye rash, fever, fatigue, or joint pain, and see a healthcare provider if any appear.</li>
+            <li>Contact your provider within 72 hours if a blacklegged tick was attached for more than 24 hours, per Ontario guidance.</li>
+          </ul>
+          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+        </div>
+
         <p className="text-lg text-gray-600 not-prose border-l-4 border-amber-400 pl-5 py-2 mb-8">
           <strong>Medical disclaimer:</strong> This article provides general first-aid information. Always consult a licensed healthcare provider for medical advice after a tick bite. Part of our <Link href={`/blog/${TICK_BLOGS.pillar.slug}`} className="text-brand-700 underline">Ultimate Tick Control Guide for Ontario Homeowners</Link>.
         </p>

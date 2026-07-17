@@ -103,6 +103,25 @@ export default function MosquitoDunksPage() {
         <BlogPostCTA />
       </div>
 
+      {/* QUICK ANSWER — first content element */}
+      <section className="bg-white px-4 pt-8">
+        <div className="max-w-4xl mx-auto">
+          <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+            <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">For long-term standing water like rain barrels and ponds, Mosquito Dunks are the best pick &mdash; each donut-shaped BTI tablet treats up to 100 sq ft of water for about 30 days and is safe for fish, pets, and pollinators. For fast knockdown of unexpected larvae, use quick-release Mosquito Bits instead.</p>
+            <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+              <li>One mosquito dunk treats up to 100 sq ft of water surface and lasts about 30 days.</li>
+              <li>Dunks contain only BTI (Bacillus thuringiensis israelensis); the Summit brand is Health Canada-registered under PCP #18158.</li>
+              <li>BTI kills mosquito and black fly larvae within 24&ndash;48 hours and is safe for humans, pets, fish, frogs, and pollinators.</li>
+              <li>A 6-pack costs about $10&ndash;$20 in Canada (Canadian Tire, Home Depot, Rona, Lowe&rsquo;s, Amazon.ca).</li>
+              <li>Use one dunk per 50 gallons in a rain barrel and replace it monthly from May through September.</li>
+              <li>Dunks only kill larvae in treated water; adult mosquitoes flying in need a barrier spray.</li>
+            </ul>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+          </div>
+        </div>
+      </section>
+
       {/* WHERE TO BUY — top of page for shopping intent */}
       <section className="bg-gradient-to-br from-emerald-50 to-white border-b border-emerald-200 py-10 px-4">
         <div className="max-w-4xl mx-auto">
@@ -155,14 +174,9 @@ export default function MosquitoDunksPage() {
         </div>
       </section>
 
-      {/* QUICK ANSWER */}
-      <section className="bg-amber-50 border-y-4 border-amber-300 py-8 px-4">
+      {/* TOP PICK */}
+      <section className="bg-white px-4 pt-6">
         <div className="max-w-4xl mx-auto">
-          <p className="text-xs font-extrabold text-amber-700 uppercase tracking-wider mb-2">Quick Answer</p>
-          <h2 className="text-xl font-extrabold text-brand-900 mb-3">What are mosquito dunks and do they work?</h2>
-          <p className="text-base text-gray-800 leading-relaxed">
-            <strong>Mosquito dunks are small donut-shaped tablets containing BTI (<em>Bacillus thuringiensis israelensis</em>), a soil bacterium that kills mosquito larvae in standing water within 24 hours.</strong> One dunk treats up to 100 square feet of water for approximately 30 days. They&rsquo;re completely safe for humans, pets, fish, frogs, and beneficial insects — Health Canada approves BTI even in drinking water reservoirs. Available in Canada at Canadian Tire, Home Depot, and most garden centres for $10–$20 per 6-pack. Use them in rain barrels, ornamental ponds, neglected pools, and any standing water you can&rsquo;t drain. They only kill larvae — for adult mosquito control, combine with <Link href="/mosquito-control" className="text-emerald-700 underline font-semibold">professional yard barrier spray</Link>.
-          </p>
           <TopPick
             name="Summit Mosquito Dunks (6-pack)"
             blurb="One dunk treats up to 100 sq ft of standing water for ~30 days — a single 6-pack covers a typical rain barrel for the entire May–September season, and it's completely safe for fish, pets, and pollinators."

@@ -96,16 +96,21 @@ export default function MosquitoBiteTreatmentReliefPage() {
       </section>
 
       {/* Quick Answer — AI-extraction block */}
-      <section className="bg-amber-50 border-y-4 border-amber-300 py-8 px-4">
+      <section className="bg-white px-4 pt-8">
         <div className="max-w-4xl mx-auto">
-          <div className="flex items-center justify-between gap-3 mb-2">
-            <p className="text-xs font-extrabold text-amber-700 uppercase tracking-wider">Quick Answer</p>
-            <p className="text-xs font-semibold text-amber-700">Updated July 2026</p>
+          <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+            <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">To stop a mosquito-bite itch fast, ice it, treat the histamine, and do not scratch. Hold a cold compress on the bite for about 10 minutes, then apply 1% hydrocortisone cream or take an oral antihistamine like cetirizine. Most bites fade in 3 to 7 days.</p>
+            <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+              <li>Hold a cold compress or ice pack on the bite for about 10 minutes to numb the itch and shrink swelling.</li>
+              <li>1% hydrocortisone cream or an oral antihistamine (such as cetirizine or diphenhydramine) calms the histamine reaction that drives itching.</li>
+              <li>Most mosquito bites fade within 3 to 7 days; not scratching is the best way to speed healing.</li>
+              <li>The itch is an allergic response to proteins in mosquito saliva, not the puncture itself.</li>
+              <li>See a doctor if redness spreads, the bite fills with pus, or you develop fever &mdash; signs of an infected bite.</li>
+              <li>Whole-body hives, facial or lip swelling, or trouble breathing is a medical emergency &mdash; call 911.</li>
+            </ul>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
           </div>
-          <h2 className="text-xl font-extrabold text-brand-900 mb-3">How do you get rid of a mosquito bite and stop the itch?</h2>
-          <p className="speakable text-base text-gray-800 leading-relaxed">
-            <strong>Ice it, then treat the histamine, and do not scratch.</strong> Hold a cold compress on the bite for about 10 minutes to numb the itch and shrink swelling, then apply 1% hydrocortisone cream or take an oral antihistamine like cetirizine to calm the allergic reaction that causes itching. Calamine, a baking-soda paste, or an after-bite stick help too. Most bites fade in 3&ndash;7 days. See a doctor if redness spreads, the bite fills with pus, or you develop fever &mdash; the signs of an infected bite &mdash; or if you get whole-body hives or trouble breathing.
-          </p>
         </div>
       </section>
 

@@ -82,6 +82,20 @@ export default function TickBiteSymptomsPage() {
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
+        <div className="not-prose bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+          <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+          <p className="text-gray-800 text-[15px] leading-relaxed font-medium">A fresh tick bite usually looks like a small, firm red bump &mdash; much like a mosquito bite &mdash; sometimes with the tick still attached. Remove it promptly with fine-tipped tweezers, then watch the site for 3&ndash;30 days: an expanding red or bull&apos;s-eye rash (erythema migrans), fever, or aches signals possible Lyme disease and needs a doctor.</p>
+          <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+            <li>In Ontario a blacklegged tick generally needs 24&ndash;36 hours attached to transmit Lyme disease.</li>
+            <li>The bull&apos;s-eye rash (erythema migrans) typically appears 3&ndash;30 days after a bite.</li>
+            <li>About 20&ndash;30% of confirmed Ontario Lyme cases never show the bull&apos;s-eye rash.</li>
+            <li>Public Health Ontario notes preventive antibiotics are most effective within 72 hours of removing a high-risk tick.</li>
+            <li>Pull straight up with fine-tipped tweezers &mdash; do not twist, burn, or squeeze the tick.</li>
+            <li>Professional barrier spray kills ticks at all life stages and lasts up to 30 days per treatment.</li>
+          </ul>
+          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
+        </div>
+
         <div className="not-prose bg-amber-50 border border-amber-200 rounded-xl p-5 mb-8">
           <p className="text-amber-900 font-semibold text-sm">⚠️ Medical Disclaimer</p>
           <p className="text-amber-800 text-sm mt-1">This guide is for informational purposes only. If you have been bitten by a tick or are experiencing symptoms, consult a licensed medical professional. In emergencies, call 911 or go to the nearest emergency room.</p>
@@ -90,13 +104,6 @@ export default function TickBiteSymptomsPage() {
         <p className="text-lg text-gray-600 not-prose border-l-4 border-amber-400 pl-5 py-2 mb-8">
           Finding a tick on yourself, your child, or your pet is alarming — but knowing exactly what to do makes all the difference. This step-by-step guide covers everything Ontario homeowners need to know from the moment of discovery to medical follow-up. Part of our <Link href={`/blog/${TICK_BLOGS.pillar.slug}`} className="text-brand-700 underline">Ultimate Tick Control Guide for Ontario</Link>.
         </p>
-
-        <div className="not-prose bg-brand-50 border-l-4 border-brand-500 rounded-r-xl px-5 py-4 mb-8">
-          <p className="text-xs font-bold uppercase tracking-wide text-brand-700 mb-1">Quick answer · Updated July 2026</p>
-          <p className="speakable text-gray-800 leading-relaxed">
-            A fresh tick bite usually looks like a small, firm red bump — much like a mosquito bite — sometimes with the tick still attached. Watch the site for 3–30 days: an expanding red or bull&apos;s-eye rash (erythema migrans) that grows over several days signals possible Lyme disease and needs a doctor.
-          </p>
-        </div>
 
         <AffiliateDisclosure />
 

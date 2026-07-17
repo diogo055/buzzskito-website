@@ -74,16 +74,21 @@ export default function MaleVsFemaleMosquitoPage() {
       </section>
 
       {/* Quick Answer — AI-extraction block */}
-      <section className="bg-amber-50 border-y-4 border-amber-300 py-8 px-4">
+      <section className="bg-white px-4 pt-8">
         <div className="max-w-4xl mx-auto">
-          <div className="flex items-center justify-between gap-3 mb-2">
-            <p className="text-xs font-extrabold text-amber-700 uppercase tracking-wider">Quick Answer</p>
-            <p className="text-xs font-semibold text-amber-700">Updated July 2026</p>
+          <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+            <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Only female mosquitoes bite &mdash; males never do. Females need the protein and iron in blood to develop their eggs, so they pierce skin with a needle-like proboscis, while males feed only on flower nectar. Every biting mosquito you meet is female.</p>
+            <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+              <li>Only female mosquitoes bite; males cannot pierce skin and feed only on flower nectar.</li>
+              <li>Female mosquitoes live about 2 to 8 weeks, while males survive only about 1 to 2 weeks.</li>
+              <li>A female needs the protein and iron in a blood meal to develop each batch of eggs.</li>
+              <li>Males have bushy, feathery (plumose) antennae to detect a female&rsquo;s wingbeat; females have thin, plain antennae.</li>
+              <li>Some female Culex mosquitoes overwinter for months by hibernating in sheds, garages, and basements.</li>
+              <li>Because only females bite, only females can transmit disease &mdash; males are harmless to people.</li>
+            </ul>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
           </div>
-          <h2 className="text-xl font-extrabold text-brand-900 mb-3">What is the difference between a male and female mosquito?</h2>
-          <p className="speakable text-base text-gray-800 leading-relaxed">
-            <strong>Only female mosquitoes bite — males never do.</strong> Females need the protein and iron in blood to develop their eggs, so they pierce skin with a needle-like proboscis; males feed only on flower nectar and plant juice. Females also live longer (about 2 to 8 weeks vs 1 to 2 weeks for males) and have plain, thin antennae, while males have bushy, feathery antennae for finding mates. Every biting mosquito you meet — whether an Aedes daytime biter or a Culex evening one — is female. That single fact is why effective control targets the biting, egg-laying females and the standing water where both sexes breed, not the harmless nectar-feeding males.
-          </p>
         </div>
       </section>
 

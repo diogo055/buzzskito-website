@@ -55,14 +55,23 @@ export default function TickPillarPage() {
 
       <article className="max-w-4xl mx-auto px-4 py-12 prose-brand">
 
+        <div className="not-prose bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+          <p className="text-xs font-extrabold text-emerald-700 uppercase tracking-wider mb-2">Quick Answer</p>
+          <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Effective tick control for Ontario yards is three layers working together: habitat modification (clear leaf litter, mow edges, add a gravel border), professional barrier spray on the specific zones where ticks concentrate, and personal protection — permethrin-treated clothing plus daily tick checks. Combined, this approach reduces tick encounters on residential properties by 80–90%.</p>
+          <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+            <li>The three-layer approach (habitat, barrier spray, personal protection) reduces tick encounters on residential properties by 80&ndash;90%.</li>
+            <li>The blacklegged (deer) tick is Canada&rsquo;s primary Lyme vector; poppy-seed-sized nymphs active in May&ndash;June cause the majority of Ontario Lyme cases.</li>
+            <li>Field studies find the overwhelming majority of yard ticks within about 3 metres of the lawn-to-wild transition edge.</li>
+            <li>A professional barrier spray kills ticks at all life stages on contact and gives up to 30 days of residual protection per application.</li>
+            <li>Health Canada&ndash;approved formulas are safe for children, pets, and pollinators after a 30-minute drying time.</li>
+            <li>Adult blacklegged ticks stay active on warm days above 4&deg;C, so activity is possible even in December and March.</li>
+          </ul>
+          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+        </div>
+
         <p className="text-lg text-gray-600 not-prose border-l-4 border-amber-400 pl-5 py-2 mb-8">
           This is the definitive guide to tick control for Ontario homeowners: tick species, lifecycle, Lyme disease risk, where ticks hide in your yard, prevention strategies, and when to call a professional. For city-specific information, visit our <Link href="/tick-control" className="text-brand-700 underline">Tick Control hub page</Link>.
         </p>
-
-        <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
-          <p className="text-xs font-extrabold text-emerald-700 uppercase tracking-wider mb-2">Quick Answer</p>
-          <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Effective tick control for Ontario yards is three layers working together: habitat modification (clear leaf litter, mow edges, add a gravel border), professional barrier spray on the specific zones where ticks concentrate, and personal protection — permethrin-treated clothing plus daily tick checks. Combined, this approach reduces tick encounters on residential properties by 80–90%.</p>
-        </div>
 
         <AffiliateDisclosure />
 

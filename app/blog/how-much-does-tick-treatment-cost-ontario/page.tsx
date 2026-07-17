@@ -70,6 +70,20 @@ export default function TickTreatmentCostPage() {
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
+        <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable not-prose">
+          <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+          <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Professional tick treatment in Ontario starts at $99 for a single visit on a standard lot and typically runs $99&ndash;$200 per treatment. Seasonal packages cost less per visit &mdash; BuzzSkito&rsquo;s tick season is $597 standalone or $497 when bundled with any mosquito plan.</p>
+          <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+            <li>A single tick barrier spray on a standard residential lot (up to 10,000 sq ft) typically costs $99&ndash;$200 in Ontario.</li>
+            <li>Larger lots (10,000&ndash;20,000 sq ft) run about $150&ndash;$250, and estate or rural properties $200&ndash;$350+.</li>
+            <li>A 2-treatment seasonal package saves 15&ndash;25% versus one-off visits; a 3-treatment package saves 20&ndash;35%.</li>
+            <li>BuzzSkito&rsquo;s tick season is $597 standalone or $497 bundled with any mosquito plan, with single treatments from $99.</li>
+            <li>Professional barrier spray gives 4&ndash;6 weeks of residual protection and up to 90% tick reduction in treated zones.</li>
+            <li>DIY granular treatments cost $30&ndash;$80 but last only 2&ndash;3 weeks and require precise application.</li>
+          </ul>
+          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+        </div>
+
         <p className="text-lg text-gray-600 not-prose border-l-4 border-amber-400 pl-5 py-2 mb-8">
           Professional tick treatment pricing in Ontario is straightforward once you understand the factors involved. This guide breaks down actual 2026 costs so you can make an informed decision. Part of our <Link href={`/blog/${TICK_BLOGS.pillar.slug}`} className="text-brand-700 underline">Ultimate Tick Control Guide for Ontario Homeowners</Link>.
         </p>

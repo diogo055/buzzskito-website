@@ -98,9 +98,18 @@ export default function CanLymeDiseaseKillYouPage() {
       <div className="max-w-3xl mx-auto px-4">
         <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
           <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-          <p className="text-base text-gray-800 leading-relaxed">
-            Lyme disease can very rarely be fatal, almost always through untreated Lyme carditis affecting the heart &mdash; but deaths are extremely rare. It is curable: PHAC and Health Canada confirm antibiotics clear most cases, and early treatment is near-100% effective. Lyme disease is not contagious between people. See a doctor promptly if symptoms appear after a tick bite.
+          <p className="text-gray-800 text-[15px] leading-relaxed font-medium">
+            Lyme disease can very rarely be fatal &mdash; almost always through untreated Lyme carditis affecting the heart &mdash; but deaths are extremely rare and it is curable. PHAC and Health Canada confirm antibiotics clear most cases, early treatment is near-100% effective, and Lyme disease is not contagious between people.
           </p>
+          <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+            <li>Death from Lyme disease is extremely rare and almost always tied to untreated Lyme carditis.</li>
+            <li>The CDC estimates Lyme carditis occurs in roughly 1 in 100 reported Lyme disease cases.</li>
+            <li>Early localized Lyme disease treated promptly has a cure rate approaching 100%.</li>
+            <li>A standard early-stage antibiotic course typically runs 10&ndash;21 days.</li>
+            <li>Lyme disease spreads only through the bite of an infected blacklegged tick &mdash; not person to person.</li>
+            <li>As of 2026 there is no widely available human Lyme vaccine in Canada, so prevention is the frontline defence.</li>
+          </ul>
+          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
         </div>
       </div>
 

@@ -80,14 +80,22 @@ export default function Co2MosquitoTrapCanadaPage() {
         </div>
       </section>
 
-      <section className="bg-gradient-to-br from-emerald-50 to-white border-b border-emerald-200 py-10 px-4">
+      <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
-          <p className="text-xs font-extrabold text-emerald-700 uppercase tracking-wider mb-2">Quick Answer · Updated July 2026</p>
-          <h2 className="text-2xl font-extrabold text-brand-900 mb-4">CO2 mosquito traps in Canada, in one paragraph</h2>
-          <div className="speakable rounded-xl bg-white border border-emerald-200 shadow-sm p-5">
-            <p className="text-base text-gray-800 leading-relaxed">
-              A CO2 mosquito trap lures female mosquitoes with carbon dioxide, heat, and a skin-scent lure, then vacuums them into a net. In Canada, electric <strong>Biogents</strong> traps (BG-Home, BG-Mosquitaire) run on a wall plug and a chemical lure &mdash; <strong>no propane tank</strong> &mdash; while propane traps like Mosquito Magnet cover larger acreage. Biogents is the brand mosquito researchers actually deploy, which is why we point GTA homeowners to it first.
+          <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+            <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">
+              For most GTA backyards, an electric <strong>Biogents</strong> trap (BG-Home or BG-Mosquitaire) is the best CO2 mosquito trap because it runs on a wall plug and a chemical lure with no propane tank, and it uses the same research-grade design mosquito scientists deploy. Propane traps like Mosquito Magnet cover larger acreage but require a mandatory 20 lb tank.
             </p>
+            <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+              <li>Electric Biogents traps (BG-Home, BG-Mosquitaire) run on a wall plug and the BG-Lure &mdash; no propane tank required.</li>
+              <li>The BG-Sentinel design behind these consumer traps is the standard tool used in published mosquito-surveillance research.</li>
+              <li>Propane traps (Mosquito Magnet style) pull mosquitoes across up to about 1 acre (4,000 m&#178;) but need a 20 lb tank swapped roughly every 3 weeks.</li>
+              <li>Running an electric Biogents on the lure alone costs about $60&ndash;$120/season, versus $350&ndash;$550/season for a propane trap&rsquo;s fuel and cartridges.</li>
+              <li>The passive BG-GAT uses zero power and kills egg-laying females &mdash; one gravid female cancels the 100&ndash;300 eggs she was about to lay.</li>
+              <li>No CO2 mosquito trap catches ticks, because ticks do not fly to a CO2 plume.</li>
+            </ul>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
           </div>
         </div>
       </section>

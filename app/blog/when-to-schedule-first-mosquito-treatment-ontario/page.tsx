@@ -71,6 +71,20 @@ export default function WhenToScheduleFirstTreatmentPage() {
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
+        <div className="not-prose bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+          <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+          <p className="text-gray-800 text-[15px] leading-relaxed font-medium">For most GTA properties the first professional mosquito treatment should go down in the first week of May, right after daily temperatures cross 10&deg;C in late April; treating the first generation before it breeds is the single highest-leverage timing decision of the season.</p>
+          <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+            <li>Mosquitoes become active once temperatures consistently reach 10&deg;C, which in the GTA usually happens in the last week of April.</li>
+            <li>The first week of May is the ideal first-treatment window for most GTA yards, catching the first adult generation before it breeds.</li>
+            <li>A female mosquito lays 100&ndash;300 eggs per batch and larvae mature in 7&ndash;10 days, so populations grow exponentially if untreated.</li>
+            <li>Waterway-adjacent properties (Credit, Humber, Don) should start in late April; rural large lots can wait to the first or second week of May.</li>
+            <li>Waiting until you see mosquitoes (about mid-June) means populations have already built for 4&ndash;6 weeks.</li>
+            <li>A full-season program is 4&ndash;5 treatments; booking in March or April locks in priority May scheduling.</li>
+          </ul>
+          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+        </div>
+
         <p className="text-lg text-gray-600 leading-relaxed not-prose border-l-4 border-brand-400 pl-5 py-2 mb-8">
           The most common timing mistake GTA homeowners make is waiting until mosquitoes are already ruining evenings before calling a pest control company. By then you&rsquo;re reacting, not preventing. This guide explains exactly when to start — and why the first week of May is the right answer for most Ontario properties. See our <Link href="/mosquito-control" className="text-brand-700 underline">mosquito control service page</Link> to book.
         </p>

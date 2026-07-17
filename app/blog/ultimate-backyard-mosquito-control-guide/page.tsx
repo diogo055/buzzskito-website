@@ -50,11 +50,21 @@ export default function MosquitoPillarPage() {
       </section>
 
       {/* QUICK ANSWER */}
-      <section className="bg-amber-50 border-y-4 border-amber-300 py-8 px-4">
+      <section className="bg-white pt-8 px-4">
         <div className="max-w-4xl mx-auto">
-          <p className="text-xs font-extrabold text-amber-700 uppercase tracking-wider mb-2">Quick Answer</p>
-          <h2 className="text-xl font-extrabold text-brand-900 mb-3">What is the best backyard mosquito control?</h2>
-          <p className="text-base text-gray-800 leading-relaxed">The most effective backyard mosquito control combines two layers: (1) eliminate every standing-water source where mosquitoes breed, and (2) apply a professional barrier spray to the shaded vegetation, shrub interiors, and leaf undersides where adult mosquitoes rest during the day. This done-for-you approach cuts mosquito populations 85–95% and keeps a yard protected for up to 30 days per treatment — far more than DIY outdoor mosquito control like citronella, foggers, or repelling plants, which reduce biting pressure only 15–30%. In the GTA, professional treatment starts at $99 per visit, and full-season plans run May through September for continuous protection.</p>
+          <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+            <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+            <p className="text-base text-gray-800 leading-relaxed">The most effective backyard mosquito control combines two layers: (1) eliminate every standing-water source where mosquitoes breed, and (2) apply a professional barrier spray to the shaded vegetation, shrub interiors, and leaf undersides where adult mosquitoes rest during the day. This done-for-you approach cuts mosquito populations 85–95% and keeps a yard protected for up to 30 days per treatment — far more than DIY outdoor mosquito control like citronella, foggers, or repelling plants, which reduce biting pressure only 15–30%. In the GTA, professional treatment starts at $99 per visit, and full-season plans run May through September for continuous protection.</p>
+            <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+              <li>A two-layer approach &mdash; removing standing water plus barrier spray on resting vegetation &mdash; cuts mosquito populations 85&ndash;95%.</li>
+              <li>One barrier treatment keeps a yard protected for up to 30 days.</li>
+              <li>DIY options like citronella, foggers, and repelling plants reduce biting pressure only 15&ndash;30%.</li>
+              <li>Mosquitoes become active once temperatures consistently exceed 10&deg;C (50&deg;F), usually in late April in the GTA.</li>
+              <li>Just a tablespoon of standing water can produce hundreds of mosquitoes within a week.</li>
+              <li>In the GTA, professional treatment starts at $99 per visit, with full-season plans running May through September.</li>
+            </ul>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+          </div>
         </div>
       </section>
 

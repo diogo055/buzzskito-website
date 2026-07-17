@@ -81,14 +81,23 @@ export default function WhatFlowersAttractMosquitoesPage() {
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
-        <p className="text-lg text-gray-600 not-prose border-l-4 border-amber-400 pl-5 py-2 mb-8">
-          It is one of the most common gardening questions we hear in the GTA: <strong>&ldquo;Which flowers am I planting that are attracting all these mosquitoes?&rdquo;</strong> The honest answer surprises people. No flower reaches out and pulls mosquitoes into your yard to bite you &mdash; that job is done by your breath, body heat, and skin odour. What certain plants <em>do</em> is feed adult mosquitoes with nectar, shelter them in cool shade, and, above all, <em>hold standing water</em> where the next generation is born. Here is exactly which plants matter, why, and what to do about it in an Ontario garden.
-        </p>
-
         <div className="not-prose bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
           <p className="text-xs font-extrabold text-emerald-700 uppercase tracking-wider mb-2">Quick Answer</p>
           <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Flowers don&rsquo;t attract mosquitoes to bite you &mdash; people do that with CO2, heat, and body odour. Plants matter in three ways: water-holding species like bromeliads, taro, and water lettuce breed larvae in trapped water; nectar-rich blooms feed adult mosquitoes; and dense foliage shelters them by day. The real driver is standing water in the planting, not the flower itself.</p>
+          <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+            <li>Mosquitoes find you by CO2, body heat, moisture, and skin odour &mdash; not by the colour or scent of your flowers.</li>
+            <li>A mosquito needs only a bottle-cap of standing water and 7 to 12 warm days to develop from egg to biting adult.</li>
+            <li>Water-holding plants like bromeliads, taro, water lettuce, and cut bamboo trap the standing water that actually breeds larvae.</li>
+            <li>Both sexes drink flower nectar for energy; females take blood only to develop eggs, so nectar-rich plantings sustain adults but don&rsquo;t create them.</li>
+            <li>Dense foliage matters for shelter by structure, not species &mdash; mosquitoes rest in cool, shaded, still air during the day.</li>
+            <li>A potted plant&rsquo;s drainage saucer is one of the most overlooked breeding sites in GTA yards.</li>
+          </ul>
+          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
         </div>
+
+        <p className="text-lg text-gray-600 not-prose border-l-4 border-amber-400 pl-5 py-2 mb-8">
+          It is one of the most common gardening questions we hear in the GTA: <strong>&ldquo;Which flowers am I planting that are attracting all these mosquitoes?&rdquo;</strong> The honest answer surprises people. No flower reaches out and pulls mosquitoes into your yard to bite you &mdash; that job is done by your breath, body heat, and skin odour. What certain plants <em>do</em> is feed adult mosquitoes with nectar, shelter them in cool shade, and, above all, <em>hold standing water</em> where the next generation is born. Here is exactly which plants matter, why, and what to do about it in an Ontario garden.
+        </p>
 
         <h2>Do flowers attract mosquitoes?</h2>
         <p>Not in the way most people mean. A female mosquito hunting for a blood meal locates you by carbon dioxide from your breath, your body heat, moisture, and hundreds of skin-odour compounds &mdash; not by the colour or scent of your flowers. So a rose bed does not draw biting mosquitoes toward it the way it draws bees.</p>

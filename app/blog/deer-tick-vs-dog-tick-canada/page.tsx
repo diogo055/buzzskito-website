@@ -106,13 +106,23 @@ export default function DeerTickVsDogTickPage() {
         </div>
       </section>
 
-      <section className="bg-amber-50 border-y-4 border-amber-300 py-8 px-4">
+      <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
-          <p className="text-xs font-extrabold text-amber-700 uppercase tracking-wider mb-2">Quick Answer</p>
-          <h2 className="text-xl font-extrabold text-brand-900 mb-3">Deer tick vs dog tick — what&rsquo;s the difference?</h2>
-          <p className="text-base text-gray-800 leading-relaxed">
-            <strong>Deer ticks (blacklegged ticks) are SMALL (3 mm), PLAIN reddish-black, and DANGEROUS — they transmit Lyme disease.</strong> Dog ticks (American dog ticks) are <strong>LARGER (5 mm), have a distinctive PATTERNED grey-and-brown shield, and rarely transmit disease in Canada</strong>. If you find a small, plain, sesame-seed-sized tick, treat it as a Lyme-vector deer tick — save it, note the date, and watch for symptoms over the next 5 months. If you find a larger apple-seed-sized tick with decorative markings on its back, it&rsquo;s a dog tick and the medical risk is low. Both species exist across southern Canada and are addressed by the same yard control approach: barrier spray applied to lawn edges, leaf litter, fence lines, and shaded perimeters.
-          </p>
+          <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+            <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">
+              Deer ticks (blacklegged ticks) are small &mdash; about 3 mm, sesame-seed sized &mdash; plain reddish-black, and the only one of the two that transmits Lyme disease in Canada. Dog ticks (American dog ticks) are larger (about 5 mm, apple-seed sized) with a patterned grey-and-brown shield and rarely transmit disease here, so a tiny plain dark tick is the one to save, date, and watch for symptoms.
+            </p>
+            <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+              <li>A deer tick is about 3 mm unfed (sesame-seed sized); a dog tick is about 5 mm (apple-seed sized).</li>
+              <li>Deer ticks have a plain reddish-black body; dog ticks have a mottled grey-and-brown patterned shield.</li>
+              <li>Only the blacklegged (deer) tick transmits Lyme disease in Canada &mdash; the American dog tick does not.</li>
+              <li>About 10&ndash;30% of blacklegged ticks in southern Ontario carry <em>Borrelia burgdorferi</em>, the Lyme bacterium.</li>
+              <li>Ticks generally need to stay attached 24+ hours to transmit Lyme, so prompt removal sharply cuts the risk.</li>
+              <li>Not sure which you found? Photograph it from above and submit to eTick.ca for free species ID within 1&ndash;3 days.</li>
+            </ul>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+          </div>
         </div>
       </section>
 

@@ -50,11 +50,20 @@ export default function WhatTicksLookLikePage() {
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
-        <div className="not-prose speakable bg-amber-50 border-y-4 border-amber-300 rounded-2xl px-6 py-5 mb-8">
-          <p className="text-xs font-extrabold text-amber-700 uppercase tracking-wider mb-2">Quick Answer · Updated July 2026</p>
+        <div className="not-prose bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+          <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
           <p className="text-base text-gray-800 leading-relaxed">
             <strong>A tick looks like a small, flat, eight-legged spider — 3–5 mm long (sesame-seed size) before feeding and swelling to 10 mm when engorged.</strong> The blacklegged (deer) tick is reddish-orange with a solid black shield; the American dog tick is larger with an ornamental mottled grey pattern; the lone star tick is reddish-brown with one white dot. Larvae have 6 legs; nymphs and adults have 8.
           </p>
+          <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+            <li>An unfed adult tick is 3&ndash;5 mm (sesame-seed size) and swells to about 10 mm when fully engorged.</li>
+            <li>A blacklegged (deer) tick nymph is only 1&ndash;1.5 mm &mdash; poppy-seed size &mdash; and nearly impossible to spot without magnification.</li>
+            <li>The blacklegged tick is reddish-orange with a solid black scutum and is Ontario&rsquo;s primary Lyme carrier.</li>
+            <li>The American dog tick is larger (females about 5 mm) with white or cream mottled markings and does not transmit Lyme.</li>
+            <li>The lone star tick is reddish-brown with a single white dot and is emerging in southwestern Ontario.</li>
+            <li>Tick larvae have 6 legs; nymphs and adults have 8 legs.</li>
+          </ul>
+          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
         </div>
         <p className="text-lg text-gray-600 not-prose border-l-4 border-amber-400 pl-5 py-2 mb-8">
           Knowing what ticks look like — and how small they can be — is the first step in protecting your family. Part of our <Link href={`/blog/${TICK_BLOGS.pillar.slug}`} className="text-brand-700 underline">Ultimate Tick Control Guide for Ontario Homeowners</Link>.

@@ -98,6 +98,7 @@ export default function WhatTemperatureKillsMosquitoesPage() {
               <li>Mosquito eggs are <strong>freeze-tolerant</strong> and hatch when spring water warms past 10&deg;C.</li>
               <li>Hibernating female mosquitoes (Culex, Anopheles) survive winter in diapause &mdash; so no single cold snap wipes them out.</li>
             </ul>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
           </div>
         </div>
       </section>

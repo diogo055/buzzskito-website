@@ -87,19 +87,23 @@ export default function MosquitoSeasonPage() {
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
-        <p className="text-lg text-gray-600 leading-relaxed not-prose border-l-4 border-brand-400 pl-5 py-2 mb-8">
-          This guide covers the exact mosquito season timeline for each GTA city, what temperature triggers mosquito activity, and how to time your protection. Part of our <Link href={`/blog/${MOSQUITO_BLOGS.pillar.slug}`} className="text-brand-700 underline">Ultimate Backyard Mosquito Control Guide</Link>.
-        </p>
-
-        <div className="not-prose speakable my-8 rounded-2xl border-2 border-brand-200 bg-brand-50 p-6 sm:p-7">
-          <p className="text-xs font-bold uppercase tracking-wide text-brand-600 mb-2">Quick Answer</p>
-          <p className="text-gray-800 leading-relaxed">
-            <strong>GTA mosquito season starts in late April</strong> and ramps up fast through May, once daytime temperatures hold above 10°C. Biting <strong>peaks in June and July</strong>, stays heavy through August, then tapers off in late September. The single best window to book your first treatment is the <strong>first week of May</strong> &mdash; before the first generation of adults breeds.
-          </p>
-          <p className="mt-4 text-gray-800 leading-relaxed">
-            Want early-season coverage locked in? <Link href="/free-yard-assessment" className="font-semibold text-brand-700 underline">Book your first treatment with a free yard assessment</Link> &mdash; or see <Link href="/mosquito-control-cost" className="text-brand-700 underline">what GTA mosquito control costs</Link> first.
-          </p>
+        <div className="not-prose bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+          <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+          <p className="text-gray-800 text-[15px] leading-relaxed font-medium">GTA mosquito season starts in late April, once daytime temperatures hold above 10°C, and biting peaks in June and July. The single best window to book your first treatment is the first week of May &mdash; before the first generation of adults breeds.</p>
+          <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+            <li>The first GTA mosquitoes emerge in late April, when temperatures consistently exceed 10°C.</li>
+            <li>Peak mosquito activity runs June through July, with heavy pressure continuing through August.</li>
+            <li>The season ends in late September to early October, once overnight temperatures drop below 10°C.</li>
+            <li>Below 10°C, adult mosquitoes cannot fly effectively and larval development nearly stalls.</li>
+            <li>Five treatments spaced 21&ndash;28 days apart, from early May to early September, provide continuous season coverage.</li>
+            <li>Populations often spike 7&ndash;10 days after a wet stretch, as every puddle becomes a breeding site.</li>
+          </ul>
+          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
         </div>
+
+        <p className="text-lg text-gray-600 leading-relaxed not-prose border-l-4 border-brand-400 pl-5 py-2 mb-8">
+          This guide covers the exact mosquito season timeline for each GTA city, what temperature triggers mosquito activity, and how to time your protection. Part of our <Link href={`/blog/${MOSQUITO_BLOGS.pillar.slug}`} className="text-brand-700 underline">Ultimate Backyard Mosquito Control Guide</Link>. Want early-season coverage locked in? <Link href="/free-yard-assessment" className="font-semibold text-brand-700 underline">Book your first treatment with a free yard assessment</Link> &mdash; or see <Link href="/mosquito-control-cost" className="text-brand-700 underline">what GTA mosquito control costs</Link> first.
+        </p>
 
         <h2>The Short Answer: GTA Mosquito Season 2026</h2>
         <ul>

@@ -64,6 +64,20 @@ export default function WhyMosquitoesBiteSomeMorePage() {
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
+        <div className="not-prose bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+          <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+          <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Mosquitoes bite some people more because of largely genetic traits &mdash; Type O blood, higher CO&#8322; output, more body heat, and skin chemistry (especially carboxylic acids) &mdash; with the difference between the most and least attractive person reaching up to 100-fold; the only fix that protects everyone equally is treating the yard, not the person.</p>
+          <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+            <li>The most-attractive person can draw up to 100 times more mosquitoes than the least-attractive person in a group (Current Biology, 2022).</li>
+            <li>In a 2004 study, Type O blood was landed on about 83% of the time versus about 47% for Type A.</li>
+            <li>Pregnant women attract roughly twice as many mosquitoes, exhaling about 21% more CO&#8322; and running about 0.7&deg;C warmer (The Lancet, 2000).</li>
+            <li>The most-attractive people emit 50&ndash;100 times more skin carboxylic acids, a largely genetic and stable trait (Cell, 2022).</li>
+            <li>Drinking one 350 ml beer measurably increases mosquito landings; dark clothing and scented products add to the signal.</li>
+            <li>Because attractiveness is mostly genetic, a professional barrier spray protects every household member equally.</li>
+          </ul>
+          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+        </div>
+
         <p className="text-lg text-gray-600 not-prose border-l-4 border-amber-400 pl-5 py-2 mb-8">
           You and your partner sit on the same patio for the same hour. You walk back inside with 14 bites. They have none. This is not in your head — it is real, and there is a sizeable body of peer-reviewed research explaining why. Here is what the science actually shows about mosquito attraction, plus the one thing the most-bitten and least-bitten people have in common: barrier spray treatment is the only intervention that protects everyone equally.
         </p>

@@ -91,6 +91,7 @@ export default function MosquitoBiteVsSpiderBitePage() {
               <li>Canada has only <strong>one</strong> medically significant native spider (the western black widow), and the brown recluse is <strong>not established</strong> here.</li>
               <li><strong>See a doctor</strong> for spreading redness, a red streak, pus, fever, or a wound that darkens or blisters &mdash; these signal infection, not a normal bite.</li>
             </ul>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
           </div>
 
           <p className="text-gray-700 leading-relaxed mb-4">

@@ -93,6 +93,24 @@ export default function MosquitoControlCostPage() {
         </div>
       </section>
 
+      <section className="bg-white px-4 pt-8">
+        <div className="max-w-3xl mx-auto">
+          <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+            <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">In Ontario, professional mosquito control costs about $120&ndash;$200 for a single barrier-spray treatment on a standard lot, while a 5-treatment season package runs roughly $420&ndash;$650 &mdash; cheaper per visit than booking sprays reactively.</p>
+            <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+              <li>A single one-time barrier-spray treatment on a standard lot (up to 10,000 sq ft) typically costs $120&ndash;$200 in Ontario.</li>
+              <li>A 3-treatment mini-season runs about $290&ndash;$430; a 5-treatment full season (May&ndash;September) runs about $420&ndash;$650.</li>
+              <li>A combined mosquito + tick package costs roughly $580&ndash;$850 for high-risk properties.</li>
+              <li>Estate lots over half an acre are typically priced at $200&ndash;$350 per visit.</li>
+              <li>Seasonal packages cut the per-treatment cost by about 30&ndash;40% versus booking sprays individually.</li>
+              <li>Barrier spray must be reapplied every 21&ndash;30 days to stay effective; BuzzSkito provides free GTA quotes.</li>
+            </ul>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+          </div>
+        </div>
+      </section>
+
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
         <p className="text-lg text-gray-600 not-prose border-l-4 border-brand-400 pl-5 py-2 mb-8">
           One of the most common questions we get before the season starts is: <em>&ldquo;What does this actually cost?&rdquo;</em> Here are honest, current numbers for professional mosquito barrier spray in Ontario — no upsells, no ambiguity. Part of our{' '}

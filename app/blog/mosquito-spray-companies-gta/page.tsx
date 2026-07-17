@@ -68,6 +68,20 @@ export default function MosquitoSprayCompaniesPage() {
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
+        <div className="not-prose bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+          <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+          <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Before booking a mosquito spray company in the GTA, verify seven things: Health Canada&ndash;registered products (ask for the registration number), liability insurance, a written free re-spray guarantee, a rain-back policy, clear re-entry instructions, local reviews describing actual results, and transparent per-visit pricing.</p>
+          <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+            <li>Every pesticide used for residential pest control in Canada must be registered with Health Canada under the Pest Control Products Act.</li>
+            <li>Proper barrier spray targets vegetation up to 10 feet high &mdash; where mosquitoes rest &mdash; not open grass, and lasts up to 30 days per treatment.</li>
+            <li>A single treatment for a typical 5,000&ndash;7,500 sq ft GTA property runs $125&ndash;$200; a full 4&ndash;5 treatment season is typically $500&ndash;$800.</li>
+            <li>Treated yards are safe for kids and pets 30 minutes after application with Health Canada&ndash;approved residential formulas.</li>
+            <li>Fogging lasts hours to days; barrier spray lasts up to 30 days &mdash; reputable GTA companies use barrier spray.</li>
+            <li>The same barrier spray also kills ticks at all life stages, so the best companies bundle mosquito and tick control in one visit.</li>
+          </ul>
+          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+        </div>
+
         <p className="text-lg text-gray-600 not-prose border-l-4 border-brand-400 pl-5 py-2 mb-8">
           This guide covers what professional mosquito spraying actually involves, what separates reputable companies from unreliable ones, and the seven questions to ask before you book. For service details, see our <Link href="/mosquito-control" className="text-brand-700 underline">GTA mosquito control service</Link>.
         </p>

@@ -74,6 +74,19 @@ export default function MosquitoMagnetPage() {
 
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
+          <div className="not-prose bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+            <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">For most Ontario backyards (0.1–1 acre), professional barrier spray beats a Mosquito Magnet: the spray typically cuts mosquito populations 90%+ across the whole lot, while a Magnet costs $700–$1,900 in year one and culls only 20–60%. Mosquito Magnets make sense mainly on large rural properties of 5+ acres.</p>
+            <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+              <li>A Mosquito Magnet unit costs $400–$1,200 upfront plus $300–$700 per season in propane and attractants.</li>
+              <li>Typical population reduction from a Mosquito Magnet is 20–60%; professional barrier spray typically achieves 90%+.</li>
+              <li>A Mosquito Magnet covers about 1 acre maximum; barrier spray covers the entire residential lot.</li>
+              <li>Each propane tank lasts about 21 days, so a Magnet needs monthly tank and attractant swaps; barrier spray requires no homeowner maintenance.</li>
+              <li>Over 5 years, a Mosquito Magnet costs about $2,700 — within $50 of BuzzSkito&rsquo;s Basic 5-spray seasonal plan at $549/year ($2,745), which delivers far greater coverage.</li>
+            </ul>
+            <p className="mt-3 text-xs text-gray-500">— BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
+          </div>
+
           <AffiliateDisclosure />
           <p className="lead text-xl text-gray-700 leading-relaxed mb-6">Mosquito Magnet traps work — they capture real mosquitoes. But they&rsquo;re expensive, need ongoing supplies, and only cull a portion of your yard&rsquo;s mosquito population. Here&rsquo;s how they compare to professional barrier spray, which controls the population at the source.</p>
 

@@ -85,6 +85,15 @@ export default function WhatBloodTypeDoMosquitoesBitePage() {
             <p className="text-base text-gray-800 leading-relaxed">
               A few small studies suggest people with <strong>Type O blood get bitten slightly more</strong>, with one 2004 lab study finding Type O drew about twice the mosquito landings of Type A. But the evidence is weak and rarely reproduced, so blood type is a minor factor at most. What really decides who gets eaten alive is the <strong>carbon dioxide you exhale, your body heat, and the bacteria living on your skin</strong> &mdash; not your ABO blood group.
             </p>
+            <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+              <li>In the 2004 Shirai study, mosquitoes landed on Type O volunteers about 83% of the time versus roughly 46% for Type A.</li>
+              <li>That study had fewer than 100 people, tested one mosquito species, and has not been reliably reproduced at scale.</li>
+              <li>Mosquitoes cannot detect ABO antigens before biting &mdash; they read your breath, heat, and skin chemistry instead.</li>
+              <li>About 80% of people are &ldquo;secretors&rdquo; who release blood-group markers through skin and sweat, which may explain any weak signal better than blood type itself.</li>
+              <li>Carbon dioxide is the main long-range cue: mosquitoes detect exhaled CO2 from up to about 50 metres away.</li>
+              <li>Roughly 20% of people are especially attractive to mosquitoes, driven mainly by CO2 output, skin temperature, and skin bacteria &mdash; not their ABO type.</li>
+            </ul>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
           </div>
         </div>
       </section>

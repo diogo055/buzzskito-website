@@ -93,6 +93,15 @@ export default function WhenToWorryMosquitoBitePage() {
             <p className="text-base text-gray-800 leading-relaxed">
               Most mosquito bites are harmless and just itchy for a few days. Worry when a bite gets <strong>worse after 48 hours</strong> instead of better: spreading redness, warmth, firmness, growing pain, pus, red streaks, or fever can signal a skin infection and mean you should see a healthcare provider. Call 911 for trouble breathing, throat or face swelling, or fainting.
             </p>
+            <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+              <li>A normal bite is worst in the first 24 hours, then fades; a bite that worsens after 48 hours is the main warning sign.</li>
+              <li>Marking the edge of the redness with a pen is the simplest test &mdash; redness spreading past the line suggests cellulitis.</li>
+              <li>Per the Public Health Agency of Canada, most people infected with West Nile virus have no symptoms at all.</li>
+              <li>About 1 in 5 people with West Nile develop mild illness roughly 2 to 14 days after being bitten.</li>
+              <li>Fewer than 1 in 150 West Nile infections cause serious neurological illness.</li>
+              <li>Call 911 for trouble breathing, swelling of the lips, tongue, or throat, rapidly spreading hives, or fainting.</li>
+            </ul>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
           </div>
         </div>
       </div>

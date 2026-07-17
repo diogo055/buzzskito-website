@@ -80,6 +80,24 @@ export default function BestMosquitoRepellentDeviceCanadaPage() {
         </div>
       </section>
 
+      <section className="bg-white px-4">
+        <div className="max-w-4xl mx-auto">
+          <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+            <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">For most Canadian backyards, the best mosquito repellent device is a Thermacell zone repeller ($35&ndash;$229) &mdash; it creates a bite-free 6-metre (about 20-foot) bubble around your patio in roughly 15 minutes, with no smoke or spray. For thinning a whole large lot, a propane CO&#8322; trap is the strongest killing device but takes 6&ndash;8 weeks.</p>
+            <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+              <li>A Thermacell zone repeller ($35&ndash;$229) protects a 6-metre (about 20-foot) zone and starts working in roughly 15 minutes.</li>
+              <li>A propane CO&#8322; trap (Mosquito Magnet) covers up to about 1 acre and costs $400&ndash;$1,300, thinning the population over 6&ndash;8 weeks.</li>
+              <li>UV + fan traps like DynaTrap ($79&ndash;$330) are weak on mosquitoes and best treated as supplemental insect catch.</li>
+              <li>Bug zappers are the worst pick &mdash; independent studies show under 1% of what they kill is mosquitoes.</li>
+              <li>Professional barrier spray costs $99 per treatment with a 21&ndash;30 day residual and covers the whole yard for both mosquitoes and ticks.</li>
+              <li>No plug-in device covers your whole yard and ticks at once, so the ideal setup is a Thermacell where you sit plus barrier spray for the yard.</li>
+            </ul>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+          </div>
+        </div>
+      </section>
+
       <section className="bg-gradient-to-br from-emerald-50 to-white border-b border-emerald-200 py-10 px-4">
         <div className="max-w-4xl mx-auto">
           <p className="text-xs font-extrabold text-emerald-700 uppercase tracking-wider mb-2">Device Categories Ranked · Updated July 2026</p>
@@ -151,16 +169,6 @@ export default function BestMosquitoRepellentDeviceCanadaPage() {
               <strong className="text-amber-900">⚠️ No plug-in device covers your whole yard AND ticks.</strong> Every device here protects a zone or thins a population slowly. For same-day, whole-property mosquito <em>and</em> tick control, <Link href="/mosquito-control" className="text-emerald-700 underline font-semibold">professional barrier spray</Link> ($99/treatment, 21–30 day residual) is the only option that does both. Most GTA homeowners run a Thermacell on the deck plus barrier spray for the yard.
             </p>
           </div>
-        </div>
-      </section>
-
-      <section className="bg-amber-50 border-y-4 border-amber-300 py-8 px-4">
-        <div className="max-w-4xl mx-auto">
-          <p className="text-xs font-extrabold text-amber-700 uppercase tracking-wider mb-2">Quick Answer</p>
-          <h2 className="text-xl font-extrabold text-brand-900 mb-3">What is the best mosquito repellent device?</h2>
-          <p className="speakable text-base text-gray-800 leading-relaxed">
-            <strong>For most Canadian backyards, the best device is a Thermacell zone repeller ($35–$229) — it creates a bite-free 6-metre bubble around your patio in about 15 minutes with no smoke or spray.</strong> If you have a large rural or cottage lot and want to thin the whole-property population, a <Link href="/blog/mosquito-magnet-canada" className="text-emerald-700 underline">propane CO₂ trap (Mosquito Magnet)</Link> is the strongest killing device, though it takes 6–8 weeks. Bug zappers are the worst pick — independent studies show under 1% of what they kill is mosquitoes. No device beats <Link href="/mosquito-control" className="text-emerald-700 underline">professional barrier spray</Link> for combined whole-yard mosquito and tick coverage, so the ideal setup is a Thermacell where you sit plus barrier spray for the yard.
-          </p>
         </div>
       </section>
 

@@ -80,13 +80,23 @@ export default function TickTubesCanadaPage() {
         </div>
       </section>
 
-      <section className="bg-amber-50 border-y-4 border-amber-300 py-8 px-4">
-        <div className="max-w-4xl mx-auto speakable">
-          <p className="text-xs font-extrabold text-amber-700 uppercase tracking-wider mb-2">Quick Answer</p>
-          <h2 className="text-xl font-extrabold text-brand-900 mb-3">Do tick tubes actually work?</h2>
-          <p className="text-base text-gray-800 leading-relaxed">
-            <strong>Tick tubes work partially and slowly.</strong> Permethrin-treated cotton inside the tubes gets carried into mouse nests, killing the immature blacklegged ticks feeding on those mice and cutting next season&rsquo;s infected nymphs. Results depend on placement, timing, and mouse activity, and tubes do nothing for ticks already questing in your yard. In the GTA, use them alongside a perimeter barrier spray &mdash; not instead of one.
-          </p>
+      <section className="bg-white pt-8 px-4">
+        <div className="max-w-4xl mx-auto">
+          <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+            <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+            <p className="text-base text-gray-800 leading-relaxed">
+              <strong>Tick tubes work partially and slowly.</strong> Permethrin-treated cotton inside the tubes gets carried into mouse nests, killing the immature blacklegged ticks feeding on those mice and cutting next season&rsquo;s infected nymphs. Results depend on placement, timing, and mouse activity, and tubes do nothing for ticks already questing in your yard. In the GTA, use them alongside a perimeter barrier spray &mdash; not instead of one.
+            </p>
+            <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+              <li>Mice line their nests with the permethrin-treated cotton, which kills tick larvae and nymphs feeding on the mice.</li>
+              <li>They target the blacklegged (deer) tick &mdash; Ontario&rsquo;s Lyme species &mdash; and cut next year&rsquo;s ticks, not tonight&rsquo;s.</li>
+              <li>In Ontario, apply in spring (April&ndash;early June) and again in late summer (July&ndash;August).</li>
+              <li>Coverage is roughly one twelve-pack per quarter-acre (about 1,000 sq m) per round.</li>
+              <li>Tubes do nothing for ticks already questing in the open yard, so pair them with a perimeter barrier spray.</li>
+              <li>Permethrin is highly toxic to cats, so keep tubes away from them; Thermacell is the most widely available brand in Canada.</li>
+            </ul>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+          </div>
         </div>
       </section>
 

@@ -104,6 +104,20 @@ export default function HowToChooseMosquitoControlPage() {
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
+        <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable not-prose">
+          <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+          <p className="text-gray-800 text-[15px] leading-relaxed font-medium">To choose a GTA mosquito control company, confirm it holds a valid Ontario Pesticide Operator Licence, uses Health Canada (PMRA)-registered products, and offers a written re-spray guarantee. Ask the eight questions below before you book, and avoid any company that can&rsquo;t name its active ingredient or pressures you to sign a multi-year contract.</p>
+          <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+            <li>Ontario law requires commercial applicators to hold a Pesticide Operator Licence from the Ministry of the Environment, Conservation and Parks &mdash; ask for the number.</li>
+            <li>Every commercial pest control product must be registered under the Pest Control Products Act; ask for its PMRA registration number.</li>
+            <li>A professional re-spray guarantee re-treats at no charge if mosquitoes return within a stated 21&ndash;30 day window.</li>
+            <li>Most GTA properties need 4&ndash;5 treatments from May through September; a &ldquo;1&ndash;2 treatment full program&rdquo; is a red flag.</li>
+            <li>Effective barrier spray targets foliage resting sites &mdash; shrub undersides, hedge interiors, and garden edges &mdash; not open lawn or paved surfaces.</li>
+            <li>No reputable company requires a multi-year contract; seasonal programs should be easy to cancel.</li>
+          </ul>
+          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+        </div>
+
         <p className="text-lg text-gray-600 leading-relaxed not-prose border-l-4 border-brand-400 pl-5 py-2 mb-8">
           The GTA has dozens of mosquito control companies — local owner-operators, national franchise networks, and everything in between. Quality varies enormously. This guide gives you the eight questions to ask before you hire anyone, and what good answers look like. See our <Link href="/mosquito-control" className="text-brand-700 underline">mosquito control service page</Link> to see how BuzzSkito answers each one.
         </p>

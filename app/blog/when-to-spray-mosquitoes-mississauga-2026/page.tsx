@@ -64,11 +64,23 @@ export default function WhenToSprayMississaugaPage() {
         </div>
       </section>
 
-      <div className="max-w-3xl mx-auto px-4 -mt-6 sm:-mt-8 relative z-10">
-        <BlogPostCTA />
-      </div>
-
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
+        <div className="not-prose bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+          <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+          <p className="text-gray-800 text-[15px] leading-relaxed font-medium">In Mississauga, put the first mosquito barrier spray down between May 20 and June 4 &mdash; a week earlier for waterfront and Credit River properties &mdash; then repeat every 14 days, finishing with a mid-to-late-September spray; biweekly cadence is the standard because one treatment lasts about 30 days.</p>
+          <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+            <li>The first barrier spray should land between May 20 and June 4; waterfront and Credit River lots start in the second or third week of May.</li>
+            <li>One barrier spray lasts roughly 30 days, so biweekly (every 14 days) is the standard season cadence.</li>
+            <li>Mississauga biting pressure peaks twice: mid-June to mid-July, then late July through late August.</li>
+            <li>The final spray of the season should go down in mid-to-late September, before the first hard frost (typically mid-to-late October).</li>
+            <li>Standard Season is 10 biweekly sprays ($994); Basic Season is 5 monthly sprays ($549) for lower-pressure inland lots.</li>
+            <li>Culex pipiens has a short flight range, so timing and local coverage matter more than treating a wide area.</li>
+          </ul>
+          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+        </div>
+
+        <BlogPostCTA />
+
         <aside className="not-prose mb-6 rounded-xl bg-brand-50 border-l-4 border-brand-700 px-5 py-4">
           <p className="text-xs font-extrabold text-brand-700 uppercase tracking-wider mb-1.5">★ Calendar built on</p>
           <p className="text-sm text-brand-900 leading-relaxed">

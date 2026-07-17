@@ -80,12 +80,21 @@ export default function BestSolarBugZapperCanadaPage() {
         </div>
       </section>
 
-      <section className="bg-gradient-to-br from-emerald-50 to-white border-b border-emerald-200 py-10 px-4">
+      <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
-          <p className="text-xs font-extrabold text-emerald-700 uppercase tracking-wider mb-2">Quick Answer · Updated July 2026</p>
-          <p className="speakable text-base sm:text-lg text-gray-800 leading-relaxed font-medium">
-            The best solar bug zappers in Canada are 4,500V dual-charge units (solar panel + USB-C) in the $30–60 range — good for moths, gnats, and midges within 3–5 metres of docks, garden paths, and off-grid spots. They are too underpowered to control mosquitoes; for biting insects, use barrier spray, BTI dunks, or a CO₂ trap.
-          </p>
+          <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+            <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The best solar bug zappers in Canada are 4,500V dual-charge units (solar panel + USB-C) in the $30&ndash;$60 range &mdash; good for moths, gnats, and midges within 3&ndash;5 metres of docks, garden paths, and off-grid spots. They are too underpowered to control mosquitoes; for biting insects, use barrier spray, BTI dunks, or a CO&#8322; trap.</p>
+            <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+              <li>The best solar zappers use dual-charge (solar + USB-C) grids around 4,500V and cost about $30&ndash;$60.</li>
+              <li>Their real kill radius is only 3&ndash;5 metres (10&ndash;16 ft), far below the &ldquo;2,100 sq ft&rdquo; listing claims.</li>
+              <li>Solar units put out roughly 0.5&ndash;3W of UV LED, versus 40&ndash;80W fluorescent tubes on plug-in zappers.</li>
+              <li>A 1,200&ndash;2,400 mAh battery gives about 3&ndash;6 hours of zapping and needs 6&ndash;8 hours of direct sun to recharge.</li>
+              <li>They kill moths, gnats, midges, and small flies &mdash; not the mosquitoes that bite.</li>
+              <li>Plug-in zappers run 5,500V and up, but even those catch few mosquitoes.</li>
+            </ul>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+          </div>
         </div>
       </section>
 

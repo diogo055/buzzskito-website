@@ -95,6 +95,15 @@ export default function WhyDoMosquitoBitesItchPage() {
             <p className="text-base text-gray-800 leading-relaxed">
               Mosquito bites itch because your immune system reacts to proteins in the mosquito&rsquo;s saliva, releasing <strong>histamine</strong> that swells the skin and irritates nearby nerves. It is an allergic response, not the puncture. Most bites itch worst in the first 24&ndash;48 hours and fade within <strong>3 to 7 days</strong>, though strong reactions can last up to two weeks. Not scratching is the fastest way to make one go away.
             </p>
+            <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+              <li>The itch comes from histamine released by your immune system, not from the puncture wound itself.</li>
+              <li>An immediate itchy welt appears within about 5 to 20 minutes of the bite.</li>
+              <li>A delayed reaction builds over 24 to 48 hours and is often the itchiest phase.</li>
+              <li>Most bites last 3 to 7 days; strong allergic reactions can stay swollen and itchy for up to two weeks.</li>
+              <li>Only female mosquitoes bite, because they need blood protein to develop their eggs.</li>
+              <li>Antihistamines and 1% hydrocortisone target the histamine reaction; scratching releases fresh histamine and prolongs the itch.</li>
+            </ul>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
           </div>
         </div>
       </section>

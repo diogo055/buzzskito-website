@@ -71,13 +71,21 @@ export default function BestBugSprayForKidsCanadaPage() {
         </div>
       </section>
 
-      <section className="bg-amber-50 border-y-4 border-amber-300 py-8 px-4">
+      <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
-          <p className="text-xs font-extrabold text-amber-700 uppercase tracking-wider mb-2">Quick Answer</p>
-          <h2 className="text-xl font-extrabold text-brand-900 mb-3 speakable">What is the best bug spray for kids in Canada?</h2>
-          <p className="text-base text-gray-800 leading-relaxed speakable">
-            <strong>For children 6 months and older, Health Canada&rsquo;s preferred choice is a 20% icaridin (picaridin) repellent &mdash; brands like Natrapel, PiActive, or Sawyer.</strong> Icaridin 20% protects against both mosquitoes and ticks for up to 7&ndash;12 hours, is nearly odourless, and won&rsquo;t damage clothing or plastics the way DEET can. If you prefer DEET, use a low concentration (10% or less) for kids. For babies <strong>under 6 months, use no chemical repellent at all</strong> &mdash; rely on mosquito netting and light long-sleeved clothing instead. See the <Link href="#picks" className="text-emerald-700 underline">safe-pick table</Link> and the <Link href="#ages" className="text-emerald-700 underline">age-by-age guide</Link> below.
-          </p>
+          <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+            <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">For children 6 months and older, Health Canada&rsquo;s preferred choice is a 20% icaridin (picaridin) repellent &mdash; brands like Natrapel, PiActive, or Sawyer &mdash; which protects against both mosquitoes and ticks for up to 7&ndash;12 hours. For babies under 6 months, use no chemical repellent at all; rely on mosquito netting and light long-sleeved clothing instead.</p>
+            <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+              <li>Icaridin 20% protects against mosquitoes and ticks for up to 7&ndash;12 hours and is approved by Health Canada for children 6 months and older.</li>
+              <li>Health Canada advises no chemical repellent at all for babies under 6 months.</li>
+              <li>For ages 6 months to 2 years, DEET is limited to 10% or less, applied once per day.</li>
+              <li>For ages 2 to 12, DEET at 10% or less may be applied up to 3 times per day.</li>
+              <li>Adults and children 12 and older can use DEET up to 30%.</li>
+              <li>Oil of lemon eucalyptus (PMD) is not recommended for children under 3 years old.</li>
+            </ul>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+          </div>
         </div>
       </section>
 

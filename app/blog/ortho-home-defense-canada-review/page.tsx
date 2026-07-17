@@ -71,6 +71,24 @@ export default function OrthoHomeDefenseCanadaPage() {
         </div>
       </section>
 
+      <section className="bg-white px-4">
+        <div className="max-w-4xl mx-auto">
+          <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+            <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The bifenthrin &ldquo;Ortho Home Defense Max&rdquo; is not sold in Canada — it is not PMRA-registered and bifenthrin is banned for cosmetic yard use in Ontario. For Canadian buyers, the pick is Ortho Bug B Gon ECO, the PMRA-registered line that handles crawling insects like ants and spiders at the door; no Ortho product sold here is a serious mosquito or tick solution.</p>
+            <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+              <li>Ortho Home Defense Max (bifenthrin) is not PMRA-registered, and bifenthrin is a Class 9 pesticide prohibited for cosmetic lawn and garden use in Ontario.</li>
+              <li>Ortho Bug B Gon ECO is the reduced-risk Canadian line, sold at Canadian Tire, Home Depot Canada, Rona, and Amazon.ca.</li>
+              <li>Every pesticide legally sold in Canada must show a PCP (Pest Control Products) registration number on the label.</li>
+              <li>Consumer contact mosquito sprays kill only the insects they directly wet and leave a few days of light residual at best.</li>
+              <li>No consumer Ortho SKU sold in Canada provides tick control.</li>
+              <li>A licensed professional barrier spray from $99 covers the whole yard for 21–30 days and controls both mosquitoes and ticks.</li>
+            </ul>
+            <p className="mt-3 text-xs text-gray-500">— BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
+          </div>
+        </div>
+      </section>
+
       <section className="bg-gradient-to-br from-emerald-50 to-white border-b border-emerald-200 py-10 px-4">
         <div className="max-w-4xl mx-auto">
           <p className="text-xs font-extrabold text-emerald-700 uppercase tracking-wider mb-2">What Is Actually Sold in Canada · Updated July 2026</p>
@@ -130,16 +148,6 @@ export default function OrthoHomeDefenseCanadaPage() {
               <strong className="text-rose-900">⚠️ The bifenthrin &ldquo;Home Defense Max&rdquo; is not a legal Canadian yard product.</strong> It is not PMRA-registered and bifenthrin is a Class 9 pesticide banned for cosmetic lawn/garden use in Ontario. For real mosquito relief, a licensed <Link href="/mosquito-control" className="text-emerald-700 underline font-semibold">professional barrier spray</Link> uses PMRA-registered products, covers the whole yard for 21–30 days, and — unlike any Ortho consumer product sold here — also controls ticks.
             </p>
           </div>
-        </div>
-      </section>
-
-      <section className="bg-amber-50 border-y-4 border-amber-300 py-8 px-4">
-        <div className="max-w-4xl mx-auto">
-          <p className="text-xs font-extrabold text-amber-700 uppercase tracking-wider mb-2">Quick Answer</p>
-          <h2 className="text-xl font-extrabold text-brand-900 mb-3">Can you buy Ortho Home Defense in Canada — and does it work for mosquitoes?</h2>
-          <p className="text-base text-gray-800 leading-relaxed">
-            <strong>The popular bifenthrin &ldquo;Home Defense Max&rdquo; is US-only — it is not registered with Health Canada and is banned for cosmetic yard use in Ontario.</strong> What you can legally buy here is the reduced-risk <em>Ortho Bug B Gon ECO</em> line for crawling insects, sold at Canadian Tire, Home Depot Canada, and Amazon.ca. None of the Ortho products sold in Canada are a serious mosquito solution: consumer contact sprays only kill what they directly wet and offer a few days of light residual at best. For real bite reduction across a whole yard, pair BTI dunks in standing water with a licensed <Link href="/mosquito-control" className="text-emerald-700 underline">professional barrier spray</Link>, which lasts 21–30 days and also handles ticks.
-          </p>
         </div>
       </section>
 

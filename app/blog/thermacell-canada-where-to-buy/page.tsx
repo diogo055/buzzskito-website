@@ -104,8 +104,17 @@ export default function ThermacellCanadaPage() {
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
-            <p className="text-xs font-extrabold text-emerald-700 uppercase tracking-wider mb-2">Quick Answer</p>
-            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">In Canada, buy Thermacell repellers and refills at Canadian Tire, Home Depot Canada, Rona, Cabela&rsquo;s, Bass Pro, MEC, and Amazon.ca. The rechargeable E55 and E90 are the models to look for — the Liv smart system is not sold in Canada. Buy refills in spring, before June–July stock runs low.</p>
+            <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">For most GTA backyards the rechargeable Thermacell E90 is the best model you can actually buy in Canada &mdash; the Liv smart system is US-only &mdash; and it&rsquo;s stocked with refills at Canadian Tire, Home Depot, Cabela&rsquo;s, MEC, and Amazon.ca. Buy refills in spring before June&ndash;July stock runs low.</p>
+            <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+              <li>A basic Patio Shield runs $35&ndash;$60; the rechargeable E55 and E90 run $70&ndash;$120.</li>
+              <li>Thermacell heats allethrin to repel mosquitoes within a 4.5&ndash;5 metre (15-foot) radius.</li>
+              <li>Independent testing shows 70&ndash;95% mosquito reduction in still air.</li>
+              <li>A mat refill 3-pack (12 hours) costs $15&ndash;$22; effectiveness drops 50%+ in moderate wind.</li>
+              <li>Covering a 3,000&ndash;10,000 sq ft GTA yard would need 4&ndash;8 units running at once.</li>
+              <li>One professional barrier spray from $99 protects the whole yard for 21&ndash;30 days.</li>
+            </ul>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
           </div>
           <TopPick
             label="Our Canadian Pick"

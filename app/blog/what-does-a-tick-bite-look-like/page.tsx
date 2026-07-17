@@ -97,11 +97,20 @@ export default function WhatDoesATickBiteLookLikePage() {
 
       <article className="max-w-3xl mx-auto px-4 py-14 prose-brand">
 
-        <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+        <div className="not-prose bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
           <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
           <p className="text-base text-gray-800 leading-relaxed">
             A tick bite usually looks like a small, firm red bump or dot where the tick attached &mdash; often no bigger than a mosquito bite, but frequently with the tick still embedded in the skin. Unlike an itchy mosquito welt, it is typically painless and does not swell much. The warning sign is an expanding red ring or bull&rsquo;s-eye rash appearing 3&ndash;30 days later, a possible sign of Lyme disease.
           </p>
+          <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+            <li>A fresh tick bite is usually a single small red bump or dot &mdash; not a cluster of welts like flea bites.</li>
+            <li>Tick bites are typically painless because tick saliva contains a mild anaesthetic, so the tick is often the clearest clue.</li>
+            <li>An unfed nymph is poppy-seed-sized (about 1&ndash;2 mm); an unfed adult is sesame-seed-sized (about 3&ndash;5 mm).</li>
+            <li>Per PHAC, the Lyme (erythema migrans) rash typically appears 3 to 30 days after a bite from an infected blacklegged tick.</li>
+            <li>Public Health Ontario notes the rash shows in only about 70&ndash;80% of Lyme cases, so no rash does not rule out Lyme.</li>
+            <li>Watch for a red patch expanding beyond about 5 cm, or fever and aches &mdash; both are reasons to see a healthcare provider.</li>
+          </ul>
+          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
         </div>
 
         <p>Both a tick bite and a mosquito bite can start as a small red mark, so telling them apart is really about three things: whether an insect is still attached, how the bite feels, and what happens over the following days and weeks. This page is a pure visual-identification guide &mdash; what a tick bite actually looks like at each stage, on people and on dogs, and where the line is between a normal reaction and something a doctor should see. If you have already found a bite and want the step-by-step of what to do next, read <Link href="/blog/tick-bite-symptoms-what-to-do-ontario">tick bite symptoms &amp; what to do in Ontario</Link>.</p>

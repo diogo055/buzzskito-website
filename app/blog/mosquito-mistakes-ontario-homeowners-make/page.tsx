@@ -49,11 +49,21 @@ export default function MosquitoMistakesOntarioHomeownersMakePage() {
       </section>
 
       {/* QUICK ANSWER */}
-      <section className="bg-amber-50 border-y-4 border-amber-300 py-8 px-4">
+      <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
-          <p className="text-xs font-extrabold text-amber-700 uppercase tracking-wider mb-2">Quick Answer</p>
-          <h2 className="text-xl font-extrabold text-brand-900 mb-3">12 Mosquito Mistakes Ontario Homeowners Make Every Summer</h2>
-          <p className="text-base text-gray-800 leading-relaxed">The most common mosquito-control mistakes Ontario homeowners make: (1) waiting until July to start treatment instead of mid-May, (2) trusting citronella candles for full-yard protection, (3) ignoring rain barrels and birdbaths as breeding sites, (4) applying barrier spray to grass instead of leaf undersides where mosquitoes rest, (5) stopping treatments after one bad weekend, (6) using consumer foggers expecting 30-day protection, (7) trusting "mosquito plants" alone, (8) overlooking pool covers and tarps, (9) hiring generalist pest control instead of specialists, (10) not bundling tick control when properties are near ravines, (11) treating only the deck while leaving fence-line vegetation untreated, and (12) cancelling treatments after a cold week thinking the season is over.</p>
+          <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+            <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The most common mosquito-control mistakes Ontario homeowners make are starting treatment too late, trusting citronella candles for yard-wide protection, and ignoring hidden breeding sites like rain barrels and birdbaths. The pattern that works: start in mid-May, eliminate standing water, treat leaf undersides (not grass), and maintain treatments through September.</p>
+            <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+              <li>By July, Ontario mosquito populations are 5–10× larger than they were in May — treatment should start in mid-May.</li>
+              <li>Citronella candles protect only a 2–3 foot bubble around the flame, not the yard.</li>
+              <li>A single uncovered rain barrel or birdbath can produce thousands of mosquitoes per week.</li>
+              <li>Mosquitoes rest on shaded leaf undersides and fence-line vegetation, not open grass — DIY sprays applied to lawns hit nothing.</li>
+              <li>Consumer foggers give 1–6 hours of relief; professional barrier spray bonds to leaves for up to 30 days.</li>
+              <li>Ontario mosquito season runs through mid-September — an August cold snap pauses it, it doesn&apos;t end it.</li>
+            </ul>
+            <p className="mt-3 text-xs text-gray-500">— BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
+          </div>
         </div>
       </section>
 

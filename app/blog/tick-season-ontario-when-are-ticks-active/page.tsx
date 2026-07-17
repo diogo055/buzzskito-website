@@ -48,6 +48,19 @@ export default function TickSeasonPage() {
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
+        <div className="not-prose bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+          <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+          <p className="text-gray-800 text-[15px] leading-relaxed font-medium">In Ontario, blacklegged (deer) ticks are active any day the temperature climbs above about 4&deg;C, so the season runs roughly March through November with two danger peaks &mdash; nymphs in May&ndash;June and adults in September&ndash;October.</p>
+          <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+            <li>Blacklegged ticks stay active any time it is above about 4&deg;C, so they can appear on warm February or March days.</li>
+            <li>The May&ndash;June nymph season is the highest-risk window and causes the majority of Ontario Lyme disease cases.</li>
+            <li>Adult blacklegged ticks peak again in September&ndash;October and stay active until hard frost, into November.</li>
+            <li>American dog ticks and most other species go dormant in winter, but blacklegged ticks never truly die off.</li>
+            <li>BuzzSkito&rsquo;s two-treatment program (late May plus late August/September) delivers up to 30 days of residual protection each, covering both peaks.</li>
+          </ul>
+          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+        </div>
+
         <p className="text-lg text-gray-600 not-prose border-l-4 border-amber-400 pl-5 py-2 mb-8">
           Unlike mosquitoes, ticks don't have a clean on/off season. Understanding their year-round activity patterns helps you time protection correctly. Part of our <Link href={`/blog/${TICK_BLOGS.pillar.slug}`} className="text-brand-700 underline">Ultimate Tick Control Guide for Ontario Homeowners</Link>.
         </p>

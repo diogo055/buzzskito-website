@@ -77,13 +77,21 @@ export default function BackpackSprayerCanadaPage() {
         </div>
       </section>
 
-      <section className="bg-gradient-to-br from-emerald-50 to-white border-b border-emerald-200 py-10 px-4">
+      <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
-          <p className="text-xs font-extrabold text-emerald-700 uppercase tracking-wider mb-2">Quick Answer · Updated July 2026</p>
-          <h2 className="text-2xl font-extrabold text-brand-900 mb-4">Which backpack sprayer should you buy in Canada?</h2>
-          <p className="speakable text-base text-gray-800 leading-relaxed">
-            <strong>For most Canadian homeowners spraying their own yard for mosquitoes and ticks, a 4-gallon (15 L) battery backpack sprayer is the right buy in 2026.</strong> Our top overall pick is the PetraTools HD4000 ProSeries; the VEVOR 4-gallon 8-nozzle kit is the best budget battery unit; and the PetraTools HD4100 converts to a wheeled cart if 20 kg on your back is a dealbreaker. Manual pumps only make sense if you spray once or twice a season.
-          </p>
+          <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+            <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">For most Canadian homeowners spraying their own yard for mosquitoes and ticks, the PetraTools HD4000 ProSeries is the best backpack sprayer in 2026 &mdash; a 4-gallon (15 L) battery unit that holds a constant 40&ndash;60 PSI fine cone from the first litre to the last, which is exactly what barrier spraying depends on.</p>
+            <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+              <li>The PetraTools HD4000 ProSeries holds 4 gallons (15 L) and maintains a constant 40&ndash;60 PSI fine cone on multi-hour lithium runtime.</li>
+              <li>The VEVOR 4-gallon 8-nozzle kit is the best budget battery unit, running a 12V battery with eight nozzle tips in the box.</li>
+              <li>The PetraTools HD4100 Pro converts between backpack and wheeled cart, so you avoid carrying about 20 kg (45 lb) on your back.</li>
+              <li>The MY4SONS M4 is the highest-pressure pick, rated to roughly 80 PSI for dense hedges and tall shrub lines.</li>
+              <li>A quality 4-gallon battery unit runs roughly $150&ndash;$350 in Canada; manual pump sprayers run about $80&ndash;$150.</li>
+              <li>All four models ship in Canada via Amazon.ca.</li>
+            </ul>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+          </div>
         </div>
       </section>
 

@@ -62,6 +62,20 @@ export default function DIYvsProfessionalPage() {
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
+        <div className="not-prose bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+          <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+          <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Professional barrier spray is the only approach that reliably cuts mosquito populations across an entire Ontario yard — a 60–90%+ reduction lasting up to 30 days per treatment. DIY tools like citronella, foggers, and DEET are useful supplements, not substitutes.</p>
+          <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+            <li>Citronella candles reduce mosquito landings by only 11–42%, and only within about 1 metre of the flame.</li>
+            <li>Consumer foggers and hose-end sprays last 1–7 days; professional barrier spray lasts up to 30 days.</li>
+            <li>DEET protects the wearer's skin but does nothing to reduce the yard's mosquito population.</li>
+            <li>BTI mosquito dunks kill larvae in standing water for about 30 days and are harmless to pets, birds, and fish.</li>
+            <li>A Thermacell creates roughly a 6-metre repellent zone around a seated area — effective for a patio table, useless for a whole yard.</li>
+            <li>Professional barrier spray starts from $99 per treatment, with 60–90%+ population reduction in treated areas.</li>
+          </ul>
+          <p className="mt-3 text-xs text-gray-500">— BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
+        </div>
+
         <p className="text-lg text-gray-600 not-prose border-l-4 border-brand-400 pl-5 py-2 mb-8">
           We're a mosquito control company — so take our perspective with that in mind. But the evidence strongly supports professional barrier spray over DIY methods for meaningful, lasting mosquito reduction. Here's an honest breakdown of each approach. Part of our <Link href={`/blog/${MOSQUITO_BLOGS.pillar.slug}`} className="text-brand-700 underline">Ultimate Mosquito Control Guide</Link>.
         </p>

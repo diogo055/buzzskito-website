@@ -75,16 +75,21 @@ export default function NoSeeUmsBitingMidgesOntarioPage() {
       </section>
 
       {/* Quick Answer — AI-extraction block */}
-      <section className="bg-amber-50 border-y-4 border-amber-300 py-8 px-4">
+      <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
-          <div className="flex items-center justify-between gap-3 mb-2">
-            <p className="text-xs font-extrabold text-amber-700 uppercase tracking-wider">Quick Answer</p>
-            <p className="text-xs font-semibold text-amber-700">Updated July 2026</p>
+          <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+            <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">No-see-ums (also spelled noseeums) are tiny biting midges — genus Culicoides — measuring only 1 to 3 mm, small enough to pass straight through standard window and porch screens. In Ontario they breed in wet soil and marsh edges and swarm near water at dawn and dusk from late spring through summer.</p>
+            <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+              <li>No-see-ums measure 1–3 mm — roughly one-quarter the size of a typical mosquito.</li>
+              <li>Standard window screens have openings of about 1.1–1.5 mm; keeping midges out requires no-see-um mesh of roughly 20×20 or finer (about 0.6 mm openings).</li>
+              <li>They are worst in Ontario from late May through August, at dawn and dusk on warm, humid, still evenings near water.</li>
+              <li>Bites start as a sharp, burning pinprick and swell into itchy clustered welts that can linger for days.</li>
+              <li>Health Canada registered repellents with DEET or picaridin (icaridin) work against biting midges, and a fan grounds them because they are weak fliers.</li>
+              <li>Ontario&rsquo;s biting midges are an itchy nuisance rather than significant carriers of human disease.</li>
+            </ul>
+            <p className="mt-3 text-xs text-gray-500">— BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
           </div>
-          <h2 className="text-xl font-extrabold text-brand-900 mb-3">What are no-see-ums and why can&rsquo;t you see them?</h2>
-          <p className="speakable text-base text-gray-800 leading-relaxed">
-            <strong>No-see-ums (also spelled noseeums) are tiny biting midges — genus Culicoides — measuring only 1 to 3 mm, small enough to pass straight through standard window and porch screens.</strong> In Ontario they breed in wet soil and marsh edges and swarm near water at dawn and dusk from late spring through summer. Their bites feel like a sharp pinprick, then swell into itchy red welts, often in clusters much larger than the insect itself.
-          </p>
         </div>
       </section>
 

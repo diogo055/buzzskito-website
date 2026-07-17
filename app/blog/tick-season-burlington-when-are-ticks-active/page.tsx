@@ -66,11 +66,23 @@ export default function TickSeasonBurlingtonPage() {
         </div>
       </section>
 
-      <div className="max-w-3xl mx-auto px-4 -mt-6 sm:-mt-8 relative z-10">
-        <BlogPostCTA />
-      </div>
-
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
+        <div className="not-prose bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+          <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+          <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Burlington&rsquo;s tick season runs mid-March through November, with a nymph peak from late May to July and an adult peak from mid-September to October; the city sits between two tick reservoirs &mdash; the Niagara Escarpment and Royal Botanical Gardens.</p>
+          <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+            <li>Public Health Ontario classifies all of Halton Region, including Burlington, as an established Lyme disease risk area.</li>
+            <li>Royal Botanical Gardens spans nearly 2,400 acres of forest, ravine, and wetland &mdash; textbook blacklegged tick habitat on the Burlington&ndash;Hamilton line.</li>
+            <li>Halton surveillance has recorded active adult ticks on Mt. Nemo and Mountainside trails by the second week of March.</li>
+            <li>The late-May-to-July nymph peak is the highest human-risk window; poppy-seed-sized nymphs carry Borrelia burgdorferi at the same rate as adults.</li>
+            <li>Aldershot, Mountainside, Tyandaga, Millcroft, and any escarpment-edge property are Burlington&rsquo;s highest-pressure zones in 2026.</li>
+            <li>A Health Canada-approved barrier spray lasts about 30 days, so BuzzSkito recommends early-May plus mid-September treatments.</li>
+          </ul>
+          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+        </div>
+
+        <BlogPostCTA />
+
         <aside className="not-prose mb-6 rounded-xl bg-brand-50 border-l-4 border-brand-700 px-5 py-4">
           <p className="text-xs font-extrabold text-brand-700 uppercase tracking-wider mb-1.5">★ Surveillance source</p>
           <p className="text-sm text-brand-900 leading-relaxed">

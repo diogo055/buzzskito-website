@@ -72,13 +72,21 @@ export default function MosquitoNetCanadaPage() {
         </div>
       </section>
 
-      <section className="bg-amber-50 border-y-4 border-amber-300 py-8 px-4">
+      <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
-          <p className="text-xs font-extrabold text-amber-700 uppercase tracking-wider mb-2">Quick Answer</p>
-          <h2 className="text-xl font-extrabold text-brand-900 mb-3">What mosquito net should I buy?</h2>
-          <p className="speakable text-base text-gray-800 leading-relaxed">
-            <strong>Match the net to the space you are protecting.</strong> For a bed, buy a rectangular four-corner canopy net ($30&ndash;$70) if you can hang a ceiling hook, or a free-standing pop-up bed net ($35&ndash;$80) if you cannot. For the outdoors, a $8&ndash;$20 head net is the cheapest effective bug protection you can own; a hammock needs a full-length zip net ($30&ndash;$90), and a baby needs a fitted stroller net ($10&ndash;$25). In every case the one spec that matters is mesh fineness &mdash; look for roughly 156 or more holes per square inch so no-see-ums and small mosquitoes cannot get through. A net protects only the space it encloses, so for the rest of your yard you still need <Link href="/mosquito-control" className="text-emerald-700 underline">barrier spray</Link> or <Link href="/blog/mosquito-repellent-guide-ontario-2026" className="text-emerald-700 underline">skin repellent</Link>.
-          </p>
+          <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+            <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Match the net to the space you are protecting: a rectangular four-corner canopy net ($30&ndash;$70) is the best bed net for Canadian homes, and an $8&ndash;$20 head net &mdash; our best-value pick &mdash; is the cheapest effective bug protection you can own outdoors. The one spec that matters is mesh fineness: at least 156 holes per square inch.</p>
+            <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+              <li>A rectangular four-corner bed canopy net costs $30&ndash;$70 in Canada; a free-standing pop-up bed net runs $35&ndash;$80.</li>
+              <li>A mosquito head net costs $8&ndash;$20 and keeps mosquitoes, black flies, and no-see-ums completely off your face and neck.</li>
+              <li>Look for mesh of 156+ holes per square inch (openings of roughly 1.2 mm or smaller); no-see-ums require finer mesh of about 500+ holes per square inch.</li>
+              <li>A hammock needs a full-length zip-around net ($30&ndash;$90); a baby stroller needs a fitted elastic-edge net ($10&ndash;$25).</li>
+              <li>An intact, tucked-in net is essentially 100% effective for the space it encloses &mdash; and 0% effective beyond it.</li>
+              <li>Nets do nothing for ticks; professional barrier spray from $99 covers the whole yard for 21&ndash;30 days per treatment.</li>
+            </ul>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+          </div>
         </div>
       </section>
 

@@ -75,16 +75,21 @@ export default function ThermacellRefillsRechargeCanadaPage() {
       </section>
 
       {/* Quick Answer — AI-extraction block */}
-      <section className="bg-amber-50 border-y-4 border-amber-300 py-8 px-4">
+      <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
-          <div className="flex items-center justify-between gap-3 mb-2">
-            <p className="text-xs font-extrabold text-amber-700 uppercase tracking-wider">Quick Answer</p>
-            <p className="text-xs font-semibold text-amber-700">Updated July 2026</p>
+          <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+            <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Thermacell refills come in two families: liquid E-Series cartridges for the rechargeable E55 and E90, and mat-plus-butane packs for the fuel-powered Patio Shield. In Canada, buy them at Amazon.ca, Canadian Tire, and Home Depot for roughly $0.35&ndash;$0.50 per hour of protection &mdash; and match the refill family to your device before you check out.</p>
+            <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+              <li>An E-Series liquid cartridge lasts about 40 hours and costs $15&ndash;$20.</li>
+              <li>An Original 60-hour value pack (15 mats + 5 fuel) runs $25&ndash;$32; a 120-hour mega refill $40&ndash;$50.</li>
+              <li>Rechargeable models need no butane &mdash; a full USB charge takes 4&ndash;6 hours.</li>
+              <li>The E55 runs about 5.5 hours per charge; the E90 runs about 9 hours.</li>
+              <li>Fuel-powered mats last about 4 hours each and a butane cartridge about 12 hours.</li>
+              <li>One device covers only a ~20 ft zone; barrier spray covers the whole yard for 21&ndash;30 days from $99.</li>
+            </ul>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
           </div>
-          <h2 className="text-xl font-extrabold text-brand-900 mb-3">Thermacell refills &amp; recharge, in one paragraph</h2>
-          <p className="speakable text-base text-gray-800 leading-relaxed">
-            <strong>Thermacell refills come in two families:</strong> liquid E-Series cartridges for the rechargeable models (E55, E90) and mat-plus-butane packs for the fuel-powered Patio Shield. In Canada, buy them at Amazon.ca, Canadian Tire, and Home Depot for roughly $0.35&ndash;$0.50 per hour of protection. Rechargeable units need no butane &mdash; just USB-charge the battery and click in a fresh metofluthrin cartridge when the fuel window reads empty (about 40 hours).
-          </p>
         </div>
       </section>
 

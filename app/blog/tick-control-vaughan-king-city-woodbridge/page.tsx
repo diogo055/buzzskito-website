@@ -59,6 +59,19 @@ export default function VaughanKingCityTickControlPage() {
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
+        <div className="not-prose bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+          <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+          <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Yes &mdash; Vaughan, Woodbridge, and King City face real, measurable tick risk. Boyd Conservation Area, the Humber River valley, and King Township&apos;s Oak Ridges Moraine lands are confirmed blacklegged tick habitat, and two barrier treatments per season &mdash; late May to early June for nymphs, late July to early August for adults &mdash; cover the active season.</p>
+          <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+            <li>Boyd Conservation Area and the Humber River valley are confirmed tick habitat documented by York Region Public Health.</li>
+            <li>King Township consistently reports among the highest tick-positive rates in York Region.</li>
+            <li>Sesame-seed-sized nymphs peak May–July and cause the majority of Ontario Lyme disease transmissions.</li>
+            <li>Kortright Centre&apos;s 325 hectares of naturalized land have documented tick activity throughout its trail system.</li>
+            <li>Treatment targets the 3-metre lawn-to-woods transition strip, fence lines, woodpiles, and shaded lawn sections.</li>
+            <li>Highest-risk Vaughan areas: Islington Woods, Weston Downs, Pine Valley, Sonoma Heights, and Kleinburg.</li>
+          </ul>
+          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
+        </div>
         <p className="text-lg text-gray-600 not-prose border-l-4 border-amber-400 pl-5 py-2 mb-8">
           York Region&apos;s rapid residential development has pushed subdivisions right up against some of Ontario&apos;s most active tick habitat — Boyd Conservation Area, the Humber River valley, and King Township&apos;s Oak Ridges Moraine properties. This guide explains the specific risks for Vaughan, Woodbridge, and King City homeowners. Part of our <Link href={`/blog/${TICK_BLOGS.pillar.slug}`} className="text-brand-700 underline">Ultimate Tick Control Guide for Ontario</Link>.
         </p>

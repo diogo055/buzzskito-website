@@ -72,13 +72,21 @@ export default function AmericanDogTickPage() {
         </div>
       </section>
 
-      <section className="bg-amber-50 border-y-4 border-amber-300 py-8 px-4">
+      <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
-          <p className="text-xs font-extrabold text-amber-700 uppercase tracking-wider mb-2">Quick Answer</p>
-          <h2 className="text-xl font-extrabold text-brand-900 mb-3">What is the American dog tick?</h2>
-          <p className="text-base text-gray-800 leading-relaxed">
-            <strong>The American dog tick (<em>Dermacentor variabilis</em>) is one of Canada&rsquo;s most common tick species — distinctive mottled grey-and-brown shield, 5 mm unfed (apple-seed sized), found in grassy fields and yard edges across southern Canada.</strong> They prefer dogs and large mammals but bite humans. <strong>They rarely transmit Lyme disease</strong> (that&rsquo;s the smaller blacklegged tick), but can carry Rocky Mountain spotted fever (very rare in Canada) and cause tick paralysis in dogs if attached 4–7 days. Peak activity in Ontario: late April–June and August–October. Remove with fine-tipped tweezers, save the tick, and watch for symptoms over the following weeks. The most effective yard-level prevention is professional barrier spray applied to lawn edges, fence lines, and shaded perimeters.
-          </p>
+          <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+            <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The American dog tick (<em>Dermacentor variabilis</em>) is one of Canada&rsquo;s most common tick species — a 5 mm, apple-seed-sized tick with a distinctive mottled grey-and-brown shield, found in grassy fields and yard edges across southern Canada. It rarely transmits Lyme disease, but can carry Rocky Mountain spotted fever and cause tick paralysis in dogs.</p>
+            <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+              <li>Adult American dog ticks measure 5 mm unfed (apple-seed sized) and engorge to 15 mm after a blood meal.</li>
+              <li>American dog ticks rarely transmit Lyme disease — the smaller 3 mm blacklegged tick is Canada&rsquo;s main Lyme vector.</li>
+              <li>Rocky Mountain spotted fever from dog ticks is very rare in Canada, with fewer than 5 confirmed cases per year nationally.</li>
+              <li>Tick paralysis can occur in dogs when a tick stays attached 4–7 days, and resolves within 24–72 hours of removal.</li>
+              <li>In Ontario, American dog ticks peak twice a year: late April–June and again August–October.</li>
+              <li>Professional barrier spray reduces yard tick populations by 80–95%, covering American dog ticks and blacklegged ticks together.</li>
+            </ul>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+          </div>
         </div>
       </section>
 

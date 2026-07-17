@@ -71,6 +71,24 @@ export default function MosquitoRepellentStickersPatchesCanadaPage() {
         </div>
       </section>
 
+      <section className="bg-white px-4">
+        <div className="max-w-4xl mx-auto">
+          <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+            <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Mosquito repellent stickers and patches give mild, short-range, DEET-free protection &mdash; genuinely useful for babies too young for skin repellents, but not a substitute for a real repellent or a treated yard.</p>
+            <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+              <li>Citronella and essential-oil patches protect only a few centimetres around the sticker &mdash; skin 30 cm away is essentially unprotected.</li>
+              <li>Real-world effective duration is about 1&ndash;3 hours, despite 8&ndash;12 hour packaging claims.</li>
+              <li>Patches cost roughly $0.25&ndash;$0.50 each, or about $10&ndash;$30 per pack at Canadian retailers.</li>
+              <li>Health Canada advises against any DEET on infants under 6 months &mdash; clothing patches sidestep that restriction, which is their main appeal.</li>
+              <li>Vitamin B1 (thiamine) patches do not work &mdash; peer-reviewed studies found no measurable repellent effect.</li>
+              <li>Stickers give zero tick protection; professional yard barrier spray from $99 protects the whole play space for 21&ndash;30 days.</li>
+            </ul>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+          </div>
+        </div>
+      </section>
+
       <section className="bg-gradient-to-br from-emerald-50 to-white border-b border-emerald-200 py-10 px-4">
         <div className="max-w-4xl mx-auto">
           <p className="text-xs font-extrabold text-emerald-700 uppercase tracking-wider mb-2">Where to Buy in Canada · Updated July 2026</p>
@@ -113,16 +131,6 @@ export default function MosquitoRepellentStickersPatchesCanadaPage() {
               <strong className="text-amber-900">⚠️ Stickers protect a small zone, not your whole child.</strong> An essential-oil patch scents the air a few centimetres around itself &mdash; it does not coat exposed skin like a spray does. For dependable coverage, pair patches with stroller netting and long sleeves, or treat the yard itself with <Link href="/mosquito-control" className="text-emerald-700 underline font-semibold">professional barrier spray</Link> so the whole play space is protected, patch or no patch.
             </p>
           </div>
-        </div>
-      </section>
-
-      <section className="bg-amber-50 border-y-4 border-amber-300 py-8 px-4">
-        <div className="max-w-4xl mx-auto">
-          <p className="text-xs font-extrabold text-amber-700 uppercase tracking-wider mb-2">Quick Answer</p>
-          <h2 className="text-xl font-extrabold text-brand-900 mb-3">Do mosquito repellent stickers and patches work?</h2>
-          <p className="speakable text-base text-gray-800 leading-relaxed">
-            <strong>Mosquito repellent stickers and patches give mild, short-range, DEET-free protection &mdash; genuinely useful for babies and young kids, but not a substitute for a real repellent or a treated yard.</strong> The citronella and essential-oil versions release a small cloud of scent that masks the cues mosquitoes track, so they reduce bites within a few centimetres of the patch but leave exposed skin farther away unprotected, and the effect fades within about 1–3 hours. They are a smart low-risk layer for infants too young for DEET, and a fine backup for older kids &mdash; just pair them with netting, long sleeves, and yard treatment rather than relying on a sticker alone. Skip any patch that claims to work through vitamin B1 (thiamine); that mechanism is debunked.
-          </p>
         </div>
       </section>
 

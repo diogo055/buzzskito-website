@@ -70,6 +70,19 @@ export default function SpringTickSeasonPage() {
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
+        <div className="not-prose bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+          <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+          <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Spring tick season in Ontario starts as soon as temperatures reach 4°C &mdash; typically late March to early April in the GTA &mdash; and the ideal window for your first professional tick treatment is late May, timed to nymph emergence.</p>
+          <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+            <li>Blacklegged ticks become active on any day at or above 4°C, often by late March.</li>
+            <li>Nymph-stage ticks are poppy-seed sized (about 1&ndash;2 mm) and drive most Ontario Lyme cases.</li>
+            <li>May through July is the highest-risk period for tick-borne disease transmission.</li>
+            <li>A blacklegged tick generally needs 24&ndash;36 hours attached to transmit Lyme disease.</li>
+            <li>Schedule the first barrier spray in late May and a second in late August or early September.</li>
+            <li>Professional tick barrier spray provides 4&ndash;6 weeks of residual protection per application.</li>
+          </ul>
+          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
+        </div>
         <p className="text-lg text-gray-600 not-prose border-l-4 border-amber-400 pl-5 py-2 mb-8">
           Spring tick season in Ontario starts earlier than most homeowners expect — and the timing of your first treatment can make or break your season-long protection. Part of our <Link href={`/blog/${TICK_BLOGS.pillar.slug}`} className="text-brand-700 underline">Ultimate Tick Control Guide for Ontario Homeowners</Link>.
         </p>

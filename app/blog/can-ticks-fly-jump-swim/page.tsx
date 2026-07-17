@@ -75,17 +75,24 @@ export default function CanTicksFlyJumpSwimPage() {
         </div>
       </section>
 
-      {/* Quick Answer — AI-extraction block */}
-      <section className="bg-amber-50 border-y-4 border-amber-300 py-8 px-4">
+      {/* Quick Answer — AI-extraction capsule (first content element) */}
+      <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
-          <div className="flex items-center justify-between gap-3 mb-2">
-            <p className="text-xs font-extrabold text-amber-700 uppercase tracking-wider">Quick Answer</p>
-            <p className="text-xs font-semibold text-amber-700">Updated July 2026</p>
+          <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+            <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">
+              No &mdash; ticks cannot fly, jump, or swim. They are wingless with no jumping legs, so they reach you only by &ldquo;questing&rdquo;: climbing grass or low plants and grabbing a host that brushes past. Ticks can survive underwater for days but never swim toward you &mdash; every tick is picked up on land.
+            </p>
+            <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+              <li>Ticks are wingless at every life stage &mdash; larva, nymph, and adult &mdash; so no tick can fly.</li>
+              <li>Ticks have no jumping legs; fleas can leap about 30 cm, but ticks cannot launch themselves at all.</li>
+              <li>A blacklegged (deer) tick can survive full submersion underwater for 2&ndash;3 days, so a rinse or cold wash will not reliably kill it.</li>
+              <li>In Ontario, ticks quest low &mdash; from ground level to about knee height (30&ndash;50 cm) &mdash; and do not drop from trees.</li>
+              <li>To kill ticks hiding in clothing, tumble-dry on high heat for at least 10 minutes.</li>
+              <li>A blacklegged tick generally needs to stay attached about 24 hours or more to transmit Lyme disease.</li>
+            </ul>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
           </div>
-          <h2 className="text-xl font-extrabold text-brand-900 mb-3">Can ticks fly, jump, or swim?</h2>
-          <p className="speakable text-base text-gray-800 leading-relaxed">
-            <strong>No — ticks cannot fly and cannot jump. They have no wings and no jumping legs.</strong> Instead they climb grass or low plants and wait to grab a passing host, a behaviour called &ldquo;questing.&rdquo; Ticks can survive underwater for days and do not drown quickly, but they do not swim to reach you — every tick is picked up on land.
-          </p>
         </div>
       </section>
 

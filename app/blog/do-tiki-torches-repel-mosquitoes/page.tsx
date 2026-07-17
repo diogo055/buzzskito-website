@@ -87,17 +87,18 @@ export default function DoTikiTorchesRepelMosquitoesPage() {
         <div className="max-w-4xl mx-auto">
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-            <p className="text-base text-gray-900 leading-relaxed mb-3">
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">
               <strong>BuzzSkito&rsquo;s GTA technicians: tiki torches do not meaningfully repel mosquitoes.</strong> A plain oil torch does nothing, and even a citronella-fuel torch only masks your scent in a bubble under about 1 metre that any breeze erases — so torches are patio lighting, not mosquito control.
             </p>
-            <ul className="space-y-2 text-sm text-gray-800">
-              <li className="flex gap-2"><span className="text-emerald-600 font-bold">&bull;</span><span>A plain lamp-oil tiki torch provides <strong>0% mosquito protection</strong> — flame and light are not repellents.</span></li>
-              <li className="flex gap-2"><span className="text-emerald-600 font-bold">&bull;</span><span>A citronella torch only works within about <strong>1 metre (3 ft)</strong> of the flame, and only in still air.</span></li>
-              <li className="flex gap-2"><span className="text-emerald-600 font-bold">&bull;</span><span>Still-air testing of citronella sources measures roughly <strong>40–50% fewer bites</strong> right beside them; open-air field studies often find <strong>little to no</strong> measurable reduction.</span></li>
-              <li className="flex gap-2"><span className="text-emerald-600 font-bold">&bull;</span><span>Even a light <strong>1–2 km/h</strong> breeze scatters the citronella plume and drops protection to near zero.</span></li>
-              <li className="flex gap-2"><span className="text-emerald-600 font-bold">&bull;</span><span>A Thermacell creates a <strong>~4.5 m (15 ft)</strong> repellent zone — about <strong>20×</strong> the coverage of one citronella torch.</span></li>
-              <li className="flex gap-2"><span className="text-emerald-600 font-bold">&bull;</span><span>Professional barrier spray kills mosquitoes on contact across the whole yard for <strong>21–30 days</strong>; torches kill <strong>zero</strong> mosquitoes and repel <strong>zero</strong> ticks.</span></li>
+            <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+              <li>A plain lamp-oil tiki torch provides <strong>0% mosquito protection</strong> — flame and light are not repellents.</li>
+              <li>A citronella torch only works within about <strong>1 metre (3 ft)</strong> of the flame, and only in still air.</li>
+              <li>Still-air testing of citronella sources measures roughly <strong>40–50% fewer bites</strong> right beside them; open-air field studies often find <strong>little to no</strong> measurable reduction.</li>
+              <li>Even a light <strong>1–2 km/h</strong> breeze scatters the citronella plume and drops protection to near zero.</li>
+              <li>A Thermacell creates a <strong>~4.5 m (15 ft)</strong> repellent zone — about <strong>20×</strong> the coverage of one citronella torch.</li>
+              <li>Professional barrier spray kills mosquitoes on contact across the whole yard for <strong>21–30 days</strong>; torches kill <strong>zero</strong> mosquitoes and repel <strong>zero</strong> ticks.</li>
             </ul>
+            <p className="mt-3 text-xs text-gray-500">— BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
           </div>
         </div>
       </section>

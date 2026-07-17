@@ -59,6 +59,24 @@ export default function MosquitoControlMiltonGeorgetownPage() {
         </div>
       </section>
 
+      <section className="bg-white px-4 pt-8">
+        <div className="max-w-3xl mx-auto">
+          <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+            <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Milton and Georgetown both have persistent mosquito pressure from permanent breeding habitat &mdash; Milton from Sixteen Mile Creek and its new-subdivision stormwater ponds, Georgetown from the Credit River valley. The most effective fix is a 4&ndash;5 treatment professional barrier-spray program starting the first week of May and running through Labour Day.</p>
+            <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+              <li>A single stormwater management pond can produce thousands of adult mosquitoes per week in peak season &mdash; and Milton now has dozens of them.</li>
+              <li>Freshly graded new-build lots hold rainwater in low spots for a week or more after rain, creating instant breeding habitat.</li>
+              <li>First-year new-build homeowners in Milton typically need 4&ndash;5 treatments from May through September.</li>
+              <li>Georgetown&rsquo;s pressure comes from the Credit River plus Silver Creek, Black Creek, and Hungry Hollow Creek; evening activity starts in mid-May.</li>
+              <li>Waiting until mosquitoes are noticeable (usually mid-June) sacrifices May &mdash; the easiest month to get ahead of the problem.</li>
+              <li>Northwest Milton borders the Niagara Escarpment, confirmed blacklegged tick habitat, so combined mosquito and tick treatment is recommended there.</li>
+            </ul>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+          </div>
+        </div>
+      </section>
+
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
         <p className="text-lg text-gray-600 leading-relaxed not-prose border-l-4 border-brand-400 pl-5 py-2 mb-8">
           Milton has been one of Ontario&rsquo;s fastest-growing municipalities for over a decade. That growth — new subdivisions pushing west and north toward the Niagara Escarpment and Sixteen Mile Creek — brings a mosquito situation that surprises many new homeowners. Georgetown, just north across Halton Hills, has its own version of the problem courtesy of the Credit River valley. This guide covers both. See our <Link href="/milton-mosquito-control" className="text-brand-700 underline">Milton mosquito control</Link> and <Link href="/georgetown-mosquito-control" className="text-brand-700 underline">Georgetown mosquito control</Link> service pages.

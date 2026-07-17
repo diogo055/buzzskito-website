@@ -94,10 +94,10 @@ export default function StandingWaterMosquitoesPage() {
         <div className="max-w-4xl mx-auto">
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-            <p className="text-base text-gray-900 font-semibold mb-3">
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">
               BuzzSkito&rsquo;s GTA technicians: yes, standing water strongly attracts mosquitoes because females need it to lay eggs — and it can breed a new generation in about a week.
             </p>
-            <ul className="space-y-2 text-sm text-gray-800 leading-relaxed list-disc pl-5">
+            <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
               <li>Mosquitoes go from egg to biting adult in just <strong>7–10 days</strong> in warm summer water.</li>
               <li>Mosquitoes can breed in as little as <strong>one bottle cap</strong> of water — about a teaspoon (5 mL).</li>
               <li>A single female lays <strong>100–300 eggs</strong> at a time, and they hatch within <strong>24–48 hours</strong> of touching water.</li>
@@ -105,6 +105,7 @@ export default function StandingWaterMosquitoesPage() {
               <li>For water you cannot dump — rain barrels, ponds, ditches — <strong>one BTI mosquito dunk</strong> kills larvae for about 30 days and is safe for pets and fish.</li>
               <li>Public Health Ontario and the CDC both list <strong>removing standing water</strong> as the first line of defence against West Nile virus.</li>
             </ul>
+            <p className="mt-3 text-xs text-gray-500">— BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
           </div>
         </div>
       </section>

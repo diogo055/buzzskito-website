@@ -69,6 +69,20 @@ export default function TickHotSpotsOakvilleBurlingtonPage() {
       </div>
 
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
+        <div className="not-prose bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+          <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+          <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Halton Region is now an established Lyme disease risk area per Public Health Ontario, and the 2026 tick hot spots in Oakville and Burlington cluster around five drivers: Bronte Creek Provincial Park (West Oak Trails/Palermo), Royal Botanical Gardens (Aldershot), the Niagara Escarpment (Mountainside/Tyandaga), the 16 Mile Creek corridor, and North Oakville&rsquo;s residual woodlots.</p>
+          <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+            <li>Bronte Creek Provincial Park is the most consistently positive blacklegged tick surveillance site in Halton Region &mdash; properties within 1.5 km inherit its pressure.</li>
+            <li>Royal Botanical Gardens covers nearly 2,400 acres of forest, ravine, and wetland directly against Aldershot.</li>
+            <li>Tier 1&ndash;2 neighbourhoods warrant a seasonal or two-treatment (May/September) plan; Tier 3 usually needs one treatment in mid-to-late May.</li>
+            <li>0.5% permethrin clothing spray lasts 6 weeks or 6 washes per application for park and trail visits.</li>
+            <li>Lakefront rule: a ravine or creek touching the lake within 500 metres of your property puts you in a tick travel corridor.</li>
+            <li>The free Yard Risk Report scores addresses 1&ndash;100; properties scoring 70+ are strongly recommended for professional treatment.</li>
+          </ul>
+          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
+        </div>
+
         <aside className="not-prose mb-6 rounded-xl bg-brand-50 border-l-4 border-brand-700 px-5 py-4">
           <p className="text-xs font-extrabold text-brand-700 uppercase tracking-wider mb-1.5">★ Surveillance sources</p>
           <p className="text-sm text-brand-900 leading-relaxed">

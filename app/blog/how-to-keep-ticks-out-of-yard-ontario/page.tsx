@@ -49,11 +49,21 @@ export default function HowToKeepTicksOutOfYardOntarioPage() {
       </section>
 
       {/* QUICK ANSWER */}
-      <section className="bg-amber-50 border-y-4 border-amber-300 py-8 px-4">
+      <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
-          <p className="text-xs font-extrabold text-amber-700 uppercase tracking-wider mb-2">Quick Answer</p>
-          <h2 className="text-xl font-extrabold text-brand-900 mb-3">How to Keep Ticks Out of Your Yard — Ontario 2026 Lyme Disease Guide</h2>
-          <p className="text-base text-gray-800 leading-relaxed">Ticks live in the 1–3 metre transition zone where lawn meets woods, garden bed edges, leaf litter, woodpiles, and fence-line vegetation — not in open lawns. To keep ticks out: (1) maintain a 3-foot wood-chip or gravel barrier between lawn and woods, (2) keep grass cut short and remove leaf litter weekly, (3) move woodpiles and bird feeders away from play areas, (4) seal mouse-entry points (mice are tick reservoirs), and (5) apply professional tick barrier spray to the specific transition zones twice per season — late May (nymph emergence) and August/September (adult activity). Ontario has confirmed blacklegged tick populations across the GTA — Lyme disease prevention starts with yard treatment.</p>
+          <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+            <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">To keep ticks out of your Ontario yard, put a 3-foot wood-chip or gravel barrier between lawn and woods, keep grass cut to 2 inches or less, clear leaf litter, move woodpiles and bird feeders at least 30 feet from play areas, and apply a professional tick barrier spray to the lawn-to-woods transition zone twice a season &mdash; late May and August/September.</p>
+            <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+              <li>A 3-foot-wide wood-chip or gravel barrier between lawn and woods dries out ticks trying to cross &mdash; the CDC-recommended defence.</li>
+              <li>Ticks live in the 1&ndash;3 metre transition zone where lawn meets woods, not in open, mowed lawn.</li>
+              <li>Mice are the primary Lyme reservoir, so keep woodpiles, bird feeders, and compost at least 30 feet from play areas.</li>
+              <li>Professional tick barrier spray is applied twice per season &mdash; late May for nymphs and August/September for adults; single treatments start at $99.</li>
+              <li>Blacklegged ticks generally need 24&ndash;36 hours attached to transmit Lyme disease bacteria, so daily tick checks matter.</li>
+              <li>Permethrin-treated clothing kills ticks on contact and lasts about 6 washes on home-treated gear (never apply to skin).</li>
+            </ul>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+          </div>
         </div>
       </section>
 

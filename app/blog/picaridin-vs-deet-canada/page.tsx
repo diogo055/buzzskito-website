@@ -93,6 +93,29 @@ export default function PicaridinVsDeetPage() {
         </div>
       </section>
 
+      <section className="bg-white px-4">
+        <div className="max-w-4xl mx-auto">
+          <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+            <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">For most Canadian outdoor use, picaridin 20% is the best repellent to buy &mdash; it matches DEET&rsquo;s protection but is non-greasy, odourless, and won&rsquo;t damage plastics or synthetic clothing. Choose DEET 30% only for blackfly-heavy cottage country.</p>
+            <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+              <li>Picaridin 20% gives 5&ndash;8 hours of mosquito protection and up to 8 hours against ticks.</li>
+              <li>DEET 30% gives 5&ndash;7 hours against mosquitoes and 6&ndash;8 hours against ticks.</li>
+              <li>Both are Health Canada-approved for children 6 months and older.</li>
+              <li>Picaridin is safe on plastics, sunglasses, and synthetic fabrics; DEET 30%+ dissolves them.</li>
+              <li>A 4&ndash;6 oz bottle costs about $8&ndash;$18 (picaridin) or $7&ndash;$14 (DEET) in Canada.</li>
+              <li>Skin repellent lasts hours; licensed barrier spray covers the whole yard for 21&ndash;30 days from $99.</li>
+            </ul>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
+          </div>
+          <TopPick
+            name="Picaridin 20% (Natrapel, OFF! Defense, or Sawyer)"
+            blurb="The winner for most Canadians — the same 5–8 hour mosquito and 8-hour tick protection as DEET 30%, but non-greasy, odourless, and safe on plastics, sunglasses, and synthetic clothing."
+            search="natrapel picaridin insect repellent"
+          />
+        </div>
+      </section>
+
       <section className="bg-gradient-to-br from-emerald-50 to-white border-b border-emerald-200 py-10 px-4">
         <div className="max-w-4xl mx-auto">
           <p className="text-xs font-extrabold text-emerald-700 uppercase tracking-wider mb-2">Where to Buy in Canada · Updated May 2026</p>
@@ -136,26 +159,6 @@ export default function PicaridinVsDeetPage() {
               <strong className="text-amber-900">⚠️ Skin repellents protect YOU — not your yard.</strong> Picaridin and DEET work for 5–8 hours of active outdoor use. For whole-yard mosquito and tick protection that doesn&rsquo;t require re-applying every few hours, <Link href="/mosquito-control" className="text-emerald-700 underline font-semibold">professional barrier spray</Link> treats vegetation surfaces with 21–30 day residual coverage.
             </p>
           </div>
-        </div>
-      </section>
-
-      <section className="bg-amber-50 border-y-4 border-amber-300 py-8 px-4">
-        <div className="max-w-4xl mx-auto">
-          <p className="text-xs font-extrabold text-amber-700 uppercase tracking-wider mb-2">Quick Answer</p>
-          <h2 className="text-xl font-extrabold text-brand-900 mb-3">Picaridin or DEET — which should I buy?</h2>
-          <p className="text-base text-gray-800 leading-relaxed">
-            <strong>For most Canadian outdoor use, choose picaridin 20% — same effectiveness as DEET 30%, non-greasy, odourless, won&rsquo;t damage plastics or synthetic clothing.</strong> Choose DEET 30% specifically for blackfly-heavy cottage country (Muskoka, Algonquin, Haliburton) where DEET has slightly better blackfly performance, or if you already have a stockpile. Both are equally safe for adults and children 6 months and older. Both protect against mosquitoes (5–8 hours) and ticks (8 hours). Picaridin&rsquo;s plastic compatibility makes it the better choice for hikers with quality gear, parents with toy-touching kids, and anyone wearing prescription glasses.
-          </p>
-        </div>
-      </section>
-
-      <section className="bg-white px-4">
-        <div className="max-w-4xl mx-auto">
-          <TopPick
-            name="Picaridin 20% (Natrapel, OFF! Defense, or Sawyer)"
-            blurb="The winner for most Canadians — the same 5–8 hour mosquito and 8-hour tick protection as DEET 30%, but non-greasy, odourless, and safe on plastics, sunglasses, and synthetic clothing."
-            search="natrapel picaridin insect repellent"
-          />
         </div>
       </section>
 

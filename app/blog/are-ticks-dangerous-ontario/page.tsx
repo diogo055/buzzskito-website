@@ -92,9 +92,19 @@ export default function AreTicksDangerousPage() {
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
-        <p className="speakable text-lg text-gray-800 not-prose bg-amber-50 border-2 border-amber-300 rounded-2xl p-5 mb-6 leading-relaxed">
-          <strong>Yes &mdash; ticks are dangerous in Ontario.</strong> The blacklegged tick (<em>Ixodes scapularis</em>), now established across the GTA, transmits Lyme disease, Anaplasmosis, Babesiosis, and Powassan virus. Confirmed Canadian Lyme cases have risen more than tenfold in a decade. Remove any attached tick within 24 hours using fine-tipped tweezers or a tick-removal tool, save it for identification, and monitor for symptoms. <span className="text-sm text-gray-500 font-normal">Updated July 2026.</span>
-        </p>
+        <div className="not-prose bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+          <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+          <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Yes &mdash; ticks are dangerous in Ontario. The blacklegged tick (<em>Ixodes scapularis</em>), now established across the GTA, can transmit Lyme disease, Anaplasmosis, Babesiosis, and Powassan virus. Remove any attached tick within 24 hours using fine-tipped tweezers or a tick-removal tool, save it for identification, and monitor for symptoms.</p>
+          <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+            <li>Canada reported roughly 3,600 confirmed and probable Lyme disease cases in 2025, up from fewer than 150 a decade earlier, per the Public Health Agency of Canada.</li>
+            <li>Ontario now reports over a thousand confirmed and probable Lyme cases in a typical recent year, according to Public Health Ontario.</li>
+            <li>Public Health Ontario has documented blacklegged ticks in every GTA municipality.</li>
+            <li>Powassan virus is rare but can transmit in as little as 15 minutes after a tick attaches.</li>
+            <li>Removing an attached tick within 24 hours sharply lowers the risk of Lyme transmission.</li>
+            <li>The American dog tick is the most commonly encountered tick in Ontario but rarely transmits disease here.</li>
+          </ul>
+          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+        </div>
         <p className="text-lg text-gray-600 not-prose border-l-4 border-amber-400 pl-5 py-2 mb-8">
           <strong>Medical disclaimer:</strong> This article provides general public health information about tick risks in Ontario. Always consult a licensed healthcare provider for medical advice. Part of our <Link href={`/blog/${TICK_BLOGS.pillar.slug}`} className="text-brand-700 underline">Ultimate Tick Control Guide for Ontario Homeowners</Link>.
         </p>

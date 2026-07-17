@@ -74,12 +74,21 @@ export default function MosquitoNettingVsSprayPage() {
 
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
-          <p className="lead text-xl text-gray-700 leading-relaxed mb-6">Mosquito netting and barrier spray are both real solutions to mosquito problems — but they solve different problems. Netting protects an enclosed space; barrier spray protects an entire yard. Here&rsquo;s how to decide which one (or both) fits your situation.</p>
-
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
-            <p className="text-xs font-extrabold text-emerald-700 uppercase tracking-wider mb-2">Quick Answer</p>
-            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Netting gives you a 100% bug-free zone — but only inside the enclosed area. Barrier spray cuts the mosquito population 90%+ across the entire yard. Choose netting for one defined patio spot or zero-pesticide protection; choose spray for whole-yard use with kids and pets. Ravine-adjacent properties get the best results combining both.</p>
+            <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Netting gives you a 100% bug-free zone — but only inside the enclosed area. Barrier spray cuts the mosquito population 90%+ across the entire yard. Choose netting for one defined patio spot or zero-pesticide protection; choose spray for whole-yard use with kids and pets.</p>
+            <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+              <li>Mosquito netting is 100% effective inside the enclosed area and 0% effective outside it.</li>
+              <li>Professional barrier spray reduces yard-wide mosquito populations by 90%+ for 21–30 days per treatment.</li>
+              <li>Patio screen tents cost $200–$1,500; a freestanding screened gazebo runs roughly $300–$800.</li>
+              <li>Netting is the only mosquito protection Health Canada recommends for babies under 6 months.</li>
+              <li>Netting does nothing for ticks; barrier spray controls both mosquitoes and ticks.</li>
+              <li>Ravine-adjacent Ontario properties get the best results combining a screened zone with whole-yard spray.</li>
+            </ul>
+            <p className="mt-3 text-xs text-gray-500">— BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
           </div>
+
+          <p className="lead text-xl text-gray-700 leading-relaxed mb-6">Mosquito netting and barrier spray are both real solutions to mosquito problems — but they solve different problems. Netting protects an enclosed space; barrier spray protects an entire yard. Here&rsquo;s how to decide which one (or both) fits your situation.</p>
 
           <h2>The Quick Comparison</h2>
           <div className="not-prose overflow-x-auto my-6">

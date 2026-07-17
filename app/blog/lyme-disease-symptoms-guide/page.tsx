@@ -86,6 +86,15 @@ export default function LymeDiseaseSymptomsGuidePage() {
           <p className="speakable text-base text-gray-800 leading-relaxed">
             <strong>Early Lyme disease symptoms typically appear 3 to 30 days after an infected blacklegged tick bite:</strong> an expanding erythema migrans (bullseye) rash plus flu-like signs such as fever, chills, fatigue, headache, and muscle or joint aches. Untreated, the infection can spread to the joints, heart, and nervous system. See a healthcare provider early — antibiotics work best when started promptly.
           </p>
+          <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+            <li>Early Lyme symptoms usually appear 3 to 30 days after an infected blacklegged tick bite (the erythema migrans rash averages about 7 days).</li>
+            <li>The erythema migrans (bull&rsquo;s-eye) rash appears in only about 70–80% of infected people, so its absence does not rule Lyme out.</li>
+            <li>The rash often expands to 5 cm (2 inches) or larger and is usually not itchy or painful.</li>
+            <li>A blacklegged tick generally must stay attached 24 hours or more (the CDC cites about 36 to 48 hours) before it can transmit the bacteria.</li>
+            <li>Untreated, Lyme can progress to facial palsy, Lyme carditis, and arthritis — most often in the knees.</li>
+            <li>Most people recover fully with early antibiotics such as doxycycline, amoxicillin, or cefuroxime.</li>
+          </ul>
+          <p className="mt-3 text-xs text-gray-500">— BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews. General information, not medical advice.</p>
         </div>
       </section>
 

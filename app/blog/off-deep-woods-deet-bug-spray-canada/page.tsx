@@ -71,6 +71,24 @@ export default function OffDeepWoodsDeetPage() {
         </div>
       </section>
 
+      <section className="bg-white px-4">
+        <div className="max-w-4xl mx-auto">
+          <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+            <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">For most Canadian adults, buy OFF Deep Woods (about 25% DEET) — it lasts 5–6 hours, costs about $9–$14, and handles cottage country, hiking, and heavy dusk mosquito pressure. For kids under 12 or an all-day gear-safe option, use a 20% icaridin (picaridin) spray instead.</p>
+            <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+              <li>OFF Deep Woods contains about 25% DEET and protects for roughly 5–6 hours.</li>
+              <li>OFF Deep Woods Sportsmen is about 30% DEET — Health Canada&rsquo;s legal maximum — and lasts up to 8 hours.</li>
+              <li>OFF FamilyCare (about 15% DEET) protects 3–4 hours and costs $7–$11 per can.</li>
+              <li>Health Canada limits children aged 6 months to 12 years to a maximum of 10% DEET, and prefers 20% icaridin for kids.</li>
+              <li>DEET is toxic to dogs and cats — never apply any OFF product to pets.</li>
+              <li>A single Deep Woods aerosol runs $9–$14 in 2026; Costco Canada multipacks land around $20–$28.</li>
+            </ul>
+            <p className="mt-3 text-xs text-gray-500">— BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
+          </div>
+        </div>
+      </section>
+
       <section className="bg-gradient-to-br from-emerald-50 to-white border-b border-emerald-200 py-10 px-4">
         <div className="max-w-4xl mx-auto">
           <p className="text-xs font-extrabold text-emerald-700 uppercase tracking-wider mb-2">Where to Buy in Canada · Updated July 2026</p>
@@ -114,16 +132,6 @@ export default function OffDeepWoodsDeetPage() {
               <strong className="text-amber-900">⚠️ Bug spray protects your skin — not your yard.</strong> Even the best DEET wears off in hours and has to be reapplied. If mosquitoes and ticks own your property at dusk, a <Link href="/mosquito-control" className="text-emerald-700 underline font-semibold">professional barrier treatment</Link> knocks the population down across the whole yard for 21–30 days, so you spray yourself far less. Many GTA homeowners use both: barrier spray at home, OFF Deep Woods for hikes and the cottage.
             </p>
           </div>
-        </div>
-      </section>
-
-      <section className="bg-amber-50 border-y-4 border-amber-300 py-8 px-4">
-        <div className="max-w-4xl mx-auto">
-          <p className="text-xs font-extrabold text-amber-700 uppercase tracking-wider mb-2">Quick Answer</p>
-          <h2 className="text-xl font-extrabold text-brand-900 mb-3">Which OFF bug spray should you buy?</h2>
-          <p className="speakable text-base text-gray-800 leading-relaxed">
-            <strong>For most Canadian adults, buy OFF Deep Woods (about 25% DEET) — it lasts 5–6 hours and handles cottage country, hiking, and heavy dusk mosquito pressure for about $9–$14.</strong> Choose OFF Deep Woods Dry if you hate the greasy feel, or step up to Deep Woods Sportsmen (about 30% DEET, Health Canada&rsquo;s legal maximum) only for the worst blackfly and mosquito conditions. For everyday backyard use and errands, OFF FamilyCare (about 15% DEET, 3–4 hours) is cheaper and plenty. For kids under 12 or an all-day gear-safe option, skip Deep Woods and use a 20% <Link href="/blog/picaridin-vs-deet-canada" className="text-emerald-700 underline">icaridin (picaridin)</Link> spray instead.
-          </p>
         </div>
       </section>
 

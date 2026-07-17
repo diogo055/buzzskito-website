@@ -80,9 +80,19 @@ export default function TickBiteVsMosquitoBitePage() {
 
       <article className="max-w-3xl mx-auto px-4 py-14 prose-brand">
 
-        <p className="speakable not-prose text-lg leading-relaxed bg-brand-50 border-l-4 border-brand-600 rounded-r-xl px-5 py-4 mb-6 text-brand-950">
-          <strong>Tick bite vs mosquito bite:</strong> a mosquito bite is an itchy, raised welt that appears within minutes and fades in a day or two — the mosquito is long gone. A tick bite is usually painless and the tick stays attached to your skin. The warning sign is a bull&apos;s-eye rash (Lyme disease) appearing 3&ndash;30 days after a tick bite. <span className="text-brand-600 text-sm font-semibold">Updated July 2026.</span>
-        </p>
+        <div className="not-prose bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+          <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+          <p className="text-gray-800 text-[15px] leading-relaxed font-medium">A mosquito bite is an itchy, raised welt that appears within minutes and fades in a day or two &mdash; and the mosquito is long gone. A tick bite is usually painless and the tick stays attached to your skin; the warning sign is a bull&apos;s-eye rash (Lyme disease) appearing 3&ndash;30 days later.</p>
+          <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+            <li>Mosquito bites appear within minutes and usually fade in 24&ndash;48 hours.</li>
+            <li>Ticks stay attached and feed for hours to days; mosquitoes fly off immediately.</li>
+            <li>The Lyme bull&apos;s-eye rash (erythema migrans) develops 3&ndash;30 days after a bite in about 70&ndash;80% of cases.</li>
+            <li>Removing a blacklegged tick within 24 hours of attachment significantly lowers Lyme risk.</li>
+            <li>In Ontario, mosquitoes carry a small West Nile risk and blacklegged ticks carry Lyme disease.</li>
+            <li>Professional barrier spray treats resting vegetation and kills ticks at all life stages for up to 30 days.</li>
+          </ul>
+          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
+        </div>
 
         <AffiliateDisclosure />
 

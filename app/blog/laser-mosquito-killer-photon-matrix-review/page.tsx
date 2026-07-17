@@ -78,6 +78,15 @@ export default function LaserMosquitoKillerPhotonMatrixPage() {
           <p className="text-base text-gray-800 leading-relaxed speakable">
             <strong>The science is real, but a safe, affordable, shipping backyard product is not &mdash; the Photon Matrix is best treated as a crowdfunded pre-order, not something you can count on this summer.</strong> The &ldquo;photonic fence&rdquo; idea (a sensor spots a mosquito and a laser zaps it) was demonstrated in labs over a decade ago, and prototype demo videos are genuinely impressive. What is missing in 2026 is independent testing, recognized eye-safety certification, and a normal in-stock Canadian price &mdash; so for real relief this season, stick with proven tools like a <Link href="/blog/best-mosquito-trap-canada" className="text-emerald-700 underline">propane CO₂ trap</Link>, Thermacell, or <Link href="/mosquito-control" className="text-emerald-700 underline">professional barrier spray</Link>.
           </p>
+          <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+            <li>The Photon Matrix is a crowdfunded pre-order at roughly $450–$700 CAD before shipping and duty — more than a full season of professional service.</li>
+            <li>No laser mosquito device carries recognized Health Canada or CSA eye-safety certification as of 2026.</li>
+            <li>Lasers do nothing for ticks — ticks do not fly, so an airborne targeting device cannot reach them.</li>
+            <li>Proven alternative: a propane CO₂ trap (Mosquito Magnet) cuts mosquito populations 70–90% over 6 to 8 weeks.</li>
+            <li>Proven alternative: a Thermacell creates a roughly 20 sq metre repellent zone within minutes.</li>
+            <li>Professional barrier spray covers the whole yard from $99 with 21–30 days of residual and also kills ticks.</li>
+          </ul>
+          <p className="mt-3 text-xs text-gray-500">— BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
         </div>
       </section>
 

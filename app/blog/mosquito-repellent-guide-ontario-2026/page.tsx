@@ -86,6 +86,20 @@ export default function MosquitoRepellentGuidePage() {
 
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
+          <div className="not-prose bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+            <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The best all-round mosquito repellent for Canada in 2026 is 20% picaridin (Natrapel or Sawyer) — 6–10 hours of odourless protection that won&rsquo;t melt plastics or fabrics. For heavy cottage-country bug pressure, 25–30% DEET (OFF Deep Woods) still wins.</p>
+            <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+              <li>20% picaridin protects for 6–10 hours, is odourless, and is safe on gear and plastics.</li>
+              <li>25–30% DEET protects for 6–10 hours and is the pick for cottage docks and dense bush.</li>
+              <li>Oil of lemon eucalyptus (OLE/PMD, 30%) is the most effective natural option, lasting 4–6 hours.</li>
+              <li>The Thermacell patio repeller creates roughly a 20-foot (6 m) protection zone with no spray on your skin.</li>
+              <li>Ultrasonic devices and repellent bracelets show no measurable effect in peer-reviewed studies.</li>
+              <li>For whole-yard control, professional barrier spray from $99 lasts 21–30 days per treatment.</li>
+            </ul>
+            <p className="mt-3 text-xs text-gray-500">— BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
+          </div>
+
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">The repellents that actually pass the research test in Ontario — picaridin or DEET on skin, Thermacell for a still patio:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
@@ -93,16 +107,6 @@ export default function MosquitoRepellentGuidePage() {
             <BuyLink search="thermacell patio shield mosquito repeller">Thermacell patio repeller →</BuyLink>
           </div>
           <p className="lead text-xl text-gray-700 leading-relaxed mb-6">There are dozens of mosquito repellents on shelves at Canadian Tire, Home Depot, and Shoppers Drug Mart. Most don&rsquo;t work as advertised. Here&rsquo;s what the peer-reviewed research and Health Canada approvals tell us about the <strong>best mosquito repellent</strong> — and the best mosquito repellent device — for Canada in 2026.</p>
-
-          <div className="not-prose my-8 rounded-2xl border-2 border-emerald-200 bg-emerald-50 p-6">
-            <p className="text-xs font-bold uppercase tracking-wide text-emerald-700 mb-3">Answer first — our top picks for 2026</p>
-            <ul className="space-y-2 text-gray-800 text-base leading-relaxed">
-              <li><strong>Best overall repellent:</strong> 20% picaridin (Natrapel / Sawyer) — 6–10 hours, odourless, and it won&rsquo;t melt plastics or fabrics.</li>
-              <li><strong>Best for heavy bug pressure:</strong> 25–30% DEET (OFF Deep Woods) — the pick for cottage docks and dense bush.</li>
-              <li><strong>Best mosquito repellent device:</strong> the Thermacell patio repeller — a ~20&nbsp;ft (6&nbsp;m) protection zone with no spray on your skin. Considering the rechargeable flagship instead? Read our <Link href="/blog/thermacell-e90-canada-review" className="text-brand-700 underline">Thermacell E90 review</Link>.</li>
-              <li><strong>Best for a whole yard:</strong> a <Link href="/mosquito-control" className="text-brand-700 underline">professional barrier spray</Link> — it removes the mosquitoes instead of just covering you.</li>
-            </ul>
-          </div>
 
           <h2 id="best-repellents">Best Mosquito Repellents in Canada (2026)</h2>
           <p>Ranked by how well they hold up in real-world use and peer-reviewed testing. Every one below is protection you wear or place — for hands-off, whole-yard control skip to the strategy section. And if you only care about devices — Thermacell, traps, zappers — we&rsquo;ve ranked those head-to-head in our <Link href="/blog/best-mosquito-repellent-device-canada">best mosquito repellent device guide</Link>.</p>

@@ -81,14 +81,20 @@ export default function PropaneMosquitoTrapCanadaPage() {
         </div>
       </section>
 
-      <section className="bg-gradient-to-br from-emerald-50 to-white border-b border-emerald-200 py-10 px-4">
+      <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
-          <p className="text-xs font-extrabold text-emerald-700 uppercase tracking-wider mb-2">Quick Answer · Updated July 2026</p>
-          <h2 className="text-2xl font-extrabold text-brand-900 mb-4">Are propane mosquito traps worth it in Canada?</h2>
-          <div className="speakable rounded-xl bg-white border border-emerald-200 shadow-sm p-5">
-            <p className="text-base text-gray-800 leading-relaxed">
-              A propane mosquito trap burns propane to make a CO2 plume plus heat and moisture, mimicking a human so host-seeking females fly in and get vacuumed into a net. Priced from roughly $400 to $1,150-plus, they can cover up to about 1 acre &mdash; real value on rural and cottage lots, usually overkill for a typical fenced GTA suburban backyard.
-            </p>
+          <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+            <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Propane mosquito traps burn propane into a CO2 plume that lures and vacuums up biting females &mdash; genuinely worth it on rural and cottage acreage, but usually overkill on a fenced GTA suburban lot. For a value entry point the Mosquito Magnet Patriot Plus is the pick, since it&rsquo;s the only propane-trap ecosystem with reliable Canadian refills and parts.</p>
+            <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+              <li>Propane traps are priced from roughly $400 to $1,150+ before consumables.</li>
+              <li>They market &ldquo;up to 1 acre&rdquo; (about 4,000 m²) of coverage &mdash; a best-case rural ceiling, not a suburban promise.</li>
+              <li>Expect about one 20 lb propane tank every 3 weeks &mdash; roughly 6&ndash;7 refills across an Ontario season.</li>
+              <li>Propane plus octenol/Lurex cartridges run about $350&ndash;$550 per season in consumables.</li>
+              <li>Traps draw the population down slowly over 4&ndash;8 weeks and do nothing for ticks.</li>
+              <li>Licensed barrier spray knocks the whole yard down within hours and holds 21&ndash;30 days, from $99.</li>
+            </ul>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
           </div>
         </div>
       </section>

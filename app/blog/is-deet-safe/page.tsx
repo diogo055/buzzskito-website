@@ -90,9 +90,18 @@ export default function IsDeetSafePage() {
         <div className="max-w-3xl mx-auto">
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-            <p className="text-base text-gray-800 leading-relaxed">
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">
               DEET is considered safe when used as directed. Health Canada and the U.S. CDC endorse it as a reliable mosquito and tick repellent, with no established link to cancer. Health Canada caps over-the-counter concentrations at 30% for adults and 10% for children aged 2 to 12. Apply only to exposed skin, avoid infants under 6 months, and wash it off once indoors.
             </p>
+            <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+              <li>Health Canada caps consumer DEET at 30% for adults and children over 12.</li>
+              <li>For children aged 2 to 12, the limit is 10% DEET, up to three applications per day.</li>
+              <li>For infants under 6 months, Health Canada advises against DEET — use netting or physical barriers instead.</li>
+              <li>The U.S. EPA classifies DEET as &ldquo;not classifiable as to human carcinogenicity&rdquo; — no established cancer link.</li>
+              <li>DEET is not banned in Canada; it is fully registered and sold nationwide.</li>
+              <li>Roughly 10% DEET protects for about 2 hours and 20–30% for about 5 to 6 hours — higher % lasts longer, not stronger.</li>
+            </ul>
+            <p className="mt-3 text-xs text-gray-500">— BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
           </div>
         </div>
       </section>

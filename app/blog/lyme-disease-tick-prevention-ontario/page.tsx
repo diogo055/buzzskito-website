@@ -75,6 +75,20 @@ export default function LymeDiseasePage() {
 
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
 
+        <div className="not-prose bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+          <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+          <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Lyme disease is spread in Ontario by infected blacklegged (deer) ticks, and cases have risen sharply as tick range expands. The best protection is a layered defence: yard treatment, personal repellent, daily tick checks, and prompt tick removal.</p>
+          <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+            <li>A blacklegged tick generally must be attached 24–36 hours before it can transmit Borrelia burgdorferi, the Lyme bacterium.</li>
+            <li>Early symptoms appear 3–30 days after the bite; the bull&rsquo;s-eye rash shows in only about 70–80% of cases.</li>
+            <li>Nymph-stage ticks cause most human Lyme cases and are only about the size of a poppy seed.</li>
+            <li>Peak nymph activity in Ontario runs May through July, overlapping garden season and dog walking.</li>
+            <li>Professional barrier spray provides up to 30 days of residual protection and can cut yard tick populations by up to 90%.</li>
+            <li>Remove ticks with fine-tipped tweezers, pulling straight up — no twisting — then save the tick for free eTick.ca identification.</li>
+          </ul>
+          <p className="mt-3 text-xs text-gray-500">— BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews. General information, not medical advice.</p>
+        </div>
+
         {/* Medical disclaimer */}
         <p className="text-lg text-gray-600 not-prose border-l-4 border-amber-400 pl-5 py-2 mb-8">
           <strong>Medical disclaimer:</strong> This article provides general public health information about Lyme disease risk in Ontario. Always consult a licensed healthcare provider for medical advice, diagnosis, and treatment. Part of our <Link href={`/blog/${TICK_BLOGS.pillar.slug}`} className="text-brand-700 underline">Ultimate Tick Control Guide for Ontario Homeowners</Link>.

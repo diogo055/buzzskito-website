@@ -86,14 +86,23 @@ export default function CedarTreesMosquitoesPage() {
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
-        <p className="text-lg text-gray-600 not-prose border-l-4 border-amber-400 pl-5 py-2 mb-8">
-          The short answer: <strong>no &mdash; but there is a catch.</strong> Cedar trees do not attract mosquitoes, and cedar oil actually <em>mildly repels</em> them. The catch is the <em>micro-environment</em> a dense cedar hedge creates: damp, shaded, still air that mosquitoes rest in all day, then pour out of at dusk. So the fix is not ripping out your cedars &mdash; it is managing that habitat. Here is the honest answer, including what is true, what is myth, and what actually matters for mosquito control.
-        </p>
-
         <div className="not-prose bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
           <p className="text-xs font-extrabold text-emerald-700 uppercase tracking-wider mb-2">Quick Answer</p>
           <p className="text-gray-800 text-[15px] leading-relaxed font-medium">No &mdash; cedar trees don&rsquo;t attract mosquitoes, and cedar oil actually mildly repels them. What draws mosquitoes is the shade, trapped moisture, and still air inside a dense cedar hedge, which they use as a cool daytime resting spot before pouring out to feed at dusk. Manage the hedge &mdash; you don&rsquo;t need to remove it.</p>
+          <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+            <li>Cedar wood and oil contain thujone and cedrol, compounds that mildly repel insects &mdash; cedar is a deterrent, not an attractant.</li>
+            <li>The interior of a 2-metre cedar hedge can be 5&ndash;8&deg;C cooler than the open lawn on a hot afternoon, with higher humidity and almost no airflow.</li>
+            <li>Mosquitoes rest in that shade by day and pour out to feed at dawn, dusk, and after dark.</li>
+            <li>A single specimen cedar tree in open lawn does not increase mosquito pressure; a dense, untrimmed hedge does.</li>
+            <li>Dense yew, boxwood, and juniper create the same resting habitat &mdash; structure matters more than the plant species.</li>
+            <li>Professional barrier spray treats the underside and interior canopy where mosquitoes rest and stays active for several weeks.</li>
+          </ul>
+          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
         </div>
+
+        <p className="text-lg text-gray-600 not-prose border-l-4 border-amber-400 pl-5 py-2 mb-8">
+          The short answer: <strong>no &mdash; but there is a catch.</strong> Cedar trees do not attract mosquitoes, and cedar oil actually <em>mildly repels</em> them. The catch is the <em>micro-environment</em> a dense cedar hedge creates: damp, shaded, still air that mosquitoes rest in all day, then pour out of at dusk. So the fix is not ripping out your cedars &mdash; it is managing that habitat. Here is the honest answer, including what is true, what is myth, and what actually matters for mosquito control.
+        </p>
 
         <AffiliateDisclosure />
 

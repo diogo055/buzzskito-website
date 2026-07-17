@@ -74,6 +74,19 @@ export default function TickBiteOnDogSymptomsPage() {
 
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
+          <div className="not-prose bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+            <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">A tick bite itself is rarely dangerous to a healthy dog &mdash; the risk is what the tick may have transmitted, and Lyme disease symptoms can take 2 to 5 months to appear. Remove the tick, note the date, and watch your dog for months, not days.</p>
+            <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+              <li>A fresh bite is usually a small red bump that heals in 1&ndash;2 weeks; about 10% of dogs react more visibly.</li>
+              <li>Canine Lyme disease symptoms typically appear 2&ndash;5 months after the bite.</li>
+              <li>Anaplasmosis shows in 1&ndash;2 weeks and ehrlichiosis in 1&ndash;3 weeks post-bite.</li>
+              <li>Shifting-leg lameness is the most common sign of Lyme in dogs; the bull&rsquo;s-eye rash is rarely visible under fur.</li>
+              <li>Canine Lyme responds well to doxycycline, typically a 28-day course.</li>
+              <li>Most yard ticks are picked up at home &mdash; professional yard spray cuts yard tick populations by 90%+.</li>
+            </ul>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
+          </div>
           <p className="lead text-xl text-gray-700 leading-relaxed mb-6">A tick bite by itself is rarely dangerous to a healthy dog. The danger is in what the tick may have transmitted — and the tricky part is that disease symptoms can take <strong>2 to 5 months</strong> to appear. This guide walks you through what to expect at each stage.</p>
 
           <AffiliateDisclosure />

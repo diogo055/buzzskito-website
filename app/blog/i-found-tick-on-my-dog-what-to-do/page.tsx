@@ -74,6 +74,19 @@ export default function IFoundTickOnMyDogPage() {
 
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
+          <div className="not-prose bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+            <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">If you find a tick on your dog, stay calm and remove it right away with fine-tipped tweezers — grasp it at the head, pull straight up without twisting, and save it in a sealed bag. Most single tick bites do not cause illness when the tick is removed promptly.</p>
+            <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+              <li>A blacklegged tick usually must stay attached 24+ hours before it can transmit Lyme disease, so fast removal sharply lowers the risk.</li>
+              <li>An unfed tick is 1–3 mm (sesame-seed sized) and flat; a tick attached 36+ hours is engorged, grape-sized, and grey-blue.</li>
+              <li>Lyme disease symptoms in dogs typically appear 2 to 5 months after the bite, not immediately.</li>
+              <li>Only 10–30% of blacklegged ticks in Ontario actually carry the Lyme bacterium.</li>
+              <li>A 4DX SNAP blood test takes about 8 minutes and screens for Lyme, ehrlichiosis, anaplasmosis, and heartworm.</li>
+              <li>eTick.ca offers free tick identification in Ontario, run by Bishop&rsquo;s University.</li>
+            </ul>
+            <p className="mt-3 text-xs text-gray-500">— BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
+          </div>
           <p className="lead text-xl text-gray-700 leading-relaxed mb-6">First — take a breath. You have time. Most blacklegged ticks need to be attached for <strong>24 hours or more</strong> before they can transmit Lyme disease. Removing the tick correctly within the first day dramatically reduces any risk. Here&rsquo;s exactly what to do, in order.</p>
 
           <AffiliateDisclosure />

@@ -66,11 +66,24 @@ export default function WestNileMississaugaPage() {
         </div>
       </section>
 
-      <div className="max-w-3xl mx-auto px-4 -mt-6 sm:-mt-8 relative z-10">
-        <BlogPostCTA />
-      </div>
-
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
+        <div className="not-prose bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+          <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+          <p className="text-gray-800 text-[15px] leading-relaxed font-medium">West Nile Virus is confirmed in Mississauga&rsquo;s Culex pipiens mosquitoes every surveillance year, including 2026, but human cases in Peel remain uncommon; the dusk-biting mosquitoes are bred mostly in local standing water, so weekly water removal and yard-level control are the highest-leverage prevention.</p>
+          <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+            <li>Peel Public Health confirms WNV-positive mosquito pools in Mississauga every recent surveillance year; human cases in Peel stay uncommon &mdash; typically a handful per year.</li>
+            <li>The main vector, Culex pipiens, feeds at dusk and dawn, with peak biting roughly 8&ndash;11 PM in June and July.</li>
+            <li>Culex pipiens is a weak flier, rarely travelling more than 200 metres from where it breeds, so local standing water drives local biting.</li>
+            <li>It breeds in water as small as a bottle cap; a clogged gutter holding water for 7 days can produce hundreds of adults.</li>
+            <li>Peel runs catch-basin larviciding but does not adulticide (fog) neighbourhoods, so yard standing water is the homeowner&rsquo;s responsibility.</li>
+            <li>A professional barrier spray reduces yard biting pressure by 85&ndash;90% for roughly 30 days per treatment.</li>
+          </ul>
+          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+          <p className="mt-1.5 text-xs text-gray-500">Health information for general education, not medical advice. Contact Peel Public Health or a healthcare provider about West Nile symptoms or concerns.</p>
+        </div>
+
+        <BlogPostCTA />
+
         <aside className="not-prose mb-6 rounded-xl bg-brand-50 border-l-4 border-brand-700 px-5 py-4">
           <p className="text-xs font-extrabold text-brand-700 uppercase tracking-wider mb-1.5">★ Data drawn from</p>
           <p className="text-sm text-brand-900 leading-relaxed">

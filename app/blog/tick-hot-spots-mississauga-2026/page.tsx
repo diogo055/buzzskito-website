@@ -69,6 +69,20 @@ export default function MississaugaTickHotSpotsPage() {
       </div>
 
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
+        <div className="not-prose bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+          <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+          <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The highest-pressure tick zones in Mississauga in 2026 are the Credit River corridor &mdash; Erindale, Streetsville, and Credit Valley &mdash; with the Lorne Park/Mineola pocket close behind. If your property sits in these zones, tick control is a season-long program, not a one-time spray.</p>
+          <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+            <li>Erindale, Streetsville, and Credit Valley rank Tier 1 on 2026 Peel Public Health tick surveillance.</li>
+            <li>Lorne Park and Mineola are boxed in by tick habitat: Rattray Marsh, Jack Darling Park, and the Credit River.</li>
+            <li>Properties within roughly 1 km of the Credit River run consistently higher tick pressure than inland lots.</li>
+            <li>A 3-foot gravel or wood-chip buffer along a forest fence line cuts tick migration into the lawn by 50&ndash;70%.</li>
+            <li>Port Credit, Lakeview, and Clarkson are Tier 2 &mdash; migratory birds drop new ticks along the waterfront each spring and fall.</li>
+            <li>In Tier 1&ndash;2 zones, get the first barrier spray down before May 25 &mdash; earlier for ravine-adjacent properties.</li>
+          </ul>
+          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
+        </div>
+
         <aside className="not-prose mb-6 rounded-xl bg-brand-50 border-l-4 border-brand-700 px-5 py-4">
           <p className="text-xs font-extrabold text-brand-700 uppercase tracking-wider mb-1.5">★ Ranking based on</p>
           <p className="text-sm text-brand-900 leading-relaxed">

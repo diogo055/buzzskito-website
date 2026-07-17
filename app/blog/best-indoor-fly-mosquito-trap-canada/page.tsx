@@ -75,16 +75,21 @@ export default function BestIndoorFlyMosquitoTrapCanadaPage() {
       </section>
 
       {/* Quick Answer — AI-extraction block */}
-      <section className="bg-amber-50 border-y-4 border-amber-300 py-8 px-4">
+      <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
-          <div className="flex items-center justify-between gap-3 mb-2">
-            <p className="text-xs font-extrabold text-amber-700 uppercase tracking-wider">Quick Answer</p>
-            <p className="text-xs font-semibold text-amber-700">Updated July 2026</p>
+          <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+            <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">For most Canadian homes, a plug-in UV + fan + glue-board trap (Katchy-style) is the best all-round indoor pick &mdash; it quietly catches fruit flies, fungus gnats, houseflies, and the occasional indoor mosquito using cheap refill glue boards. No indoor trap is strong against mosquitoes specifically, because mosquitoes hunt by carbon dioxide and body heat, not light.</p>
+            <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+              <li>The UV + fan + glue-board trap (Katchy-style) is the best overall pick for small-to-medium rooms like bedrooms and kitchens.</li>
+              <li>Replacement glue boards run about $13&ndash;$18 for a 4-pack.</li>
+              <li>A DynaTrap fan-suction UV unit covers up to roughly 600 sq ft with no refills to buy.</li>
+              <li>Mosquitoes (Culex and Aedes) are drawn by CO&#8322; and body heat, so UV-light traps catch them poorly.</li>
+              <li>A UV + sticky-cartridge plug-in is the simplest set-and-forget option for a single room.</li>
+              <li>Pair any indoor trap with source control and an outdoor barrier so far fewer insects get inside.</li>
+            </ul>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
           </div>
-          <h2 className="text-xl font-extrabold text-brand-900 mb-3">What is the best indoor fly and mosquito trap?</h2>
-          <p className="speakable text-base text-gray-800 leading-relaxed">
-            <strong>For most Canadian homes, a plug-in UV + fan + glue-board trap (Katchy-style) is the best all-round indoor pick.</strong> It quietly catches fruit flies, fungus gnats, houseflies, and the occasional indoor mosquito with cheap refill glue boards. For larger rooms, a DynaTrap fan-suction UV unit covers up to ~600&nbsp;sq&nbsp;ft with no refills; for set-and-forget, a UV + sticky-cartridge plug-in is simplest. Important honesty: no indoor trap is strong against mosquitoes specifically, because mosquitoes (Culex and Aedes) hunt by carbon dioxide and body heat, not light. Use a trap for the flies you see indoors, and pair it with source control and an outdoor barrier so far fewer insects ever get inside.
-          </p>
         </div>
       </section>
 

@@ -74,7 +74,22 @@ export default function BlackFliesMississaugaTorontoGTAPage() {
         </div>
       </section>
 
-      <div className="max-w-3xl mx-auto px-4 -mt-6 sm:-mt-8 relative z-10">
+      <div className="max-w-3xl mx-auto px-4">
+        <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+          <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+          <p className="text-gray-800 text-[15px] leading-relaxed font-medium">
+            Black flies hit the GTA earlier and harder in 2026, with bites peaking from the third week of May through the second week of June. Mississauga&rsquo;s Credit River corridor generates the most local pressure, and professional barrier spray is the only meaningful yard-level defence &mdash; consumer products do not work.
+          </p>
+          <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+            <li>Black fly bites in the GTA peak from the third week of May through the second week of June.</li>
+            <li>Black flies are strong fliers, travelling 5&ndash;10 km from their natal stream in search of a blood meal.</li>
+            <li>Most Mississauga properties are within 1&ndash;3 km of active black fly breeding habitat along the Credit River.</li>
+            <li>Suburban GTA &mdash; Mississauga, Oakville, Burlington, Vaughan, and Markham &mdash; sees far more pressure than downtown Toronto.</li>
+            <li>2026 emergence ran roughly two weeks ahead of the typical curve after a mild April warmed streams early.</li>
+            <li>Professional barrier spray is the only meaningful yard-level defence against black flies.</li>
+          </ul>
+          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+        </div>
         <BlogPostCTA />
       </div>
 
@@ -85,10 +100,6 @@ export default function BlackFliesMississaugaTorontoGTAPage() {
             <strong>Toronto Star</strong> · <strong>CityNews Toronto</strong> · <strong>TorontoToday</strong> — all covering early-season insect pressure across the GTA in May 2026.
           </p>
         </aside>
-
-        <p className="text-lg text-gray-700 not-prose border-l-4 border-amber-400 pl-5 py-2 mb-8 leading-relaxed">
-          <strong>TL;DR:</strong> Black flies hit the GTA earlier and harder in 2026 than recent years. Mississauga&rsquo;s Credit River corridor, the Don Valley, the Humber River system, and Oakville&rsquo;s 16 Mile Creek generate the bulk of the local population — and suburban properties with nearby clean flowing water see far more pressure than downtown Toronto. Bites peak from the third week of May through the second week of June. Professional barrier spray is the only meaningful yard-level defence; consumer products do not work.
-        </p>
 
         <h2>The headline: black flies arrived early this year</h2>
         <p>By the second week of May 2026, Mississauga residents were already posting in neighbourhood Facebook groups about being chased indoors. Toronto Star and CityNews both ran early-season coverage flagging an unusually aggressive insect spring. The pattern is consistent with what we see at BuzzSkito on technician routes: black fly emergence is running roughly two weeks ahead of the typical curve, and the suburban GTA — Mississauga, Oakville, Burlington, Vaughan, Markham — is bearing most of the impact.</p>

@@ -75,6 +75,21 @@ export default function WestNilePage() {
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
+        <div className="not-prose bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+          <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+          <p className="text-gray-800 text-[15px] leading-relaxed font-medium">West Nile Virus has circulated in Ontario since 2001 and is detected in GTA mosquito surveillance every year, but about 80% of infected people have no symptoms and severe illness is rare (under 1%); the main vector is the evening-active Culex pipiens mosquito, so reducing standing water plus yard mosquito control lowers exposure.</p>
+          <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+            <li>West Nile Virus has been present in Ontario since 2001 and is confirmed in GTA mosquito pools every surveillance season.</li>
+            <li>About 80% of infected people have no symptoms; roughly 20% develop West Nile Fever, and under 1% develop severe neurological illness.</li>
+            <li>Adults over 60 and people with weakened immune systems face the highest risk of severe illness.</li>
+            <li>The primary vector, Culex pipiens, breeds in stagnant water and is most active in evening and night hours.</li>
+            <li>WNV risk peaks in July and August, with positive mosquito pools usually first detected in late June.</li>
+            <li>Professional barrier spray reduces yard mosquito density, and eliminating standing water plus DEET or picaridin further lowers exposure.</li>
+          </ul>
+          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+          <p className="mt-1.5 text-xs text-gray-500">Health information for general education, not medical advice. Consult Public Health Ontario or a healthcare provider about West Nile symptoms.</p>
+        </div>
+
         <p className="text-lg text-gray-600 not-prose border-l-4 border-amber-400 pl-5 py-2 mb-8">
           <strong>Note:</strong> This article provides public health information about West Nile Virus risk. Always consult official Ontario public health sources and your healthcare provider for medical advice. Part of our <Link href={`/blog/${MOSQUITO_BLOGS.pillar.slug}`} className="text-brand-700 underline">Ultimate Mosquito Control Guide</Link>.
         </p>

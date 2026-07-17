@@ -73,12 +73,21 @@ export default function ElectricFlySwatterCanadaPage() {
         </div>
       </section>
 
-      <section className="bg-gradient-to-br from-emerald-50 to-white border-b border-emerald-200 py-10 px-4">
+      <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
-          <p className="text-xs font-extrabold text-emerald-700 uppercase tracking-wider mb-2">Quick Answer · Updated July 2026</p>
-          <p className="speakable text-base sm:text-lg text-gray-800 leading-relaxed font-medium">
-            The best electric fly swatter in Canada is The Executioner — a single-layer racket at roughly 3,000 volts that kills flies and wasps on first contact. For homes with kids, the Zap It 4,000-volt USB-rechargeable racket wins with its three-layer safety mesh. Budget pick: Black Flag&rsquo;s 2,750-volt AA handheld. All three ship from Amazon.ca.
-          </p>
+          <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+            <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">For most Canadian households, The Executioner is the best electric fly swatter — its single-layer zinc-steel grid at roughly 3,000 volts kills flies, mosquitoes, and wasps on the first swing. Families with young kids should choose the Zap It 4,000-volt USB-rechargeable racket for its three-layer safety mesh.</p>
+            <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+              <li>The Executioner runs a single-layer grid at roughly 2,800&ndash;3,200 volts and its electronics are rated for over 100,000 zaps.</li>
+              <li>The Zap It rechargeable delivers 4,000 volts behind a three-layer safety mesh and up to about 10,000 zaps per two-hour USB charge.</li>
+              <li>Black Flag&rsquo;s 2,750-volt AA-powered handheld is the budget pick and among the cheapest name-brand rackets in Canada.</li>
+              <li>2,500 volts is the useful minimum — rackets under 2,000 volts often stun insects rather than kill them.</li>
+              <li>Expect to pay roughly $15&ndash;$50 in Canada; all three brands ship from Amazon.ca, and Canadian Tire stocks the Executioner May&ndash;September.</li>
+              <li>Electric fly swatters need no Health Canada PMRA registration because they contain no pesticide active ingredient.</li>
+            </ul>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+          </div>
         </div>
       </section>
 

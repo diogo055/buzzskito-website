@@ -74,6 +74,19 @@ export default function WhatDoesTickLookLikeOnDogPage() {
 
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
+          <div className="not-prose bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+            <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">A tick on a dog looks like a small, flat, oval bug with 8 legs &mdash; about sesame-seed sized (1&ndash;3 mm) when unfed &mdash; that swells to pea- or grape-sized and grey-blue when engorged; blacklegged (deer) ticks are small, plain, and reddish-brown and carry Lyme, while larger American dog ticks have a mottled grey-brown shield.</p>
+            <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+              <li>An unfed tick is flat, oval, and sesame-seed-sized (1&ndash;3 mm) with 8 legs near the head &mdash; fleas have 6 legs and jump.</li>
+              <li>After 24+ hours feeding, ticks swell 50&ndash;100 times their weight to pea- or grape-sized (5&ndash;15 mm) and turn grey-blue, olive, or tan.</li>
+              <li>Blacklegged ticks are reddish-brown with dark legs and no shield (the Lyme carrier); American dog ticks (~5 mm) have a mottled grey-brown scutum.</li>
+              <li>Common attachment spots are the ears, eyelids, under the collar, armpits, between toes, and the tail base and groin.</li>
+              <li>Only 10&ndash;30% of Ontario blacklegged ticks carry Borrelia, so most single bites do not transmit Lyme.</li>
+              <li>Remove with fine-tipped tweezers gripping at skin level and pulling straight up &mdash; do not squeeze the body.</li>
+            </ul>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+          </div>
           <p className="lead text-xl text-gray-700 leading-relaxed mb-6">You found a small bump on your dog and you&rsquo;re trying to figure out if it&rsquo;s a tick. The fastest test: ticks have <strong>8 legs</strong>, are <strong>oval and flat</strong> when unfed, and <strong>swell up like a balloon</strong> when full of blood. Here&rsquo;s how to identify them with confidence.</p>
 
           <h2>The Quick Identification Checklist</h2>

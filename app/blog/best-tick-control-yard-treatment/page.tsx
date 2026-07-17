@@ -45,16 +45,25 @@ export default function BestTickControlPage() {
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
+        <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable not-prose">
+          <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+          <p className="text-gray-800 text-[15px] leading-relaxed font-medium">
+            The best yard tick treatment for Ontario is a professional barrier spray applied to lawn edges, leaf litter, and shaded borders &mdash; it kills blacklegged ticks at every life stage and lasts up to 30 days. Pair it with habitat cleanup and permethrin tick tubes for a layered defence that keeps working between visits.
+          </p>
+          <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+            <li>Professional barrier spray offers up to 30 days of residual protection &mdash; about three times longer than the best consumer tick products.</li>
+            <li>The professional formula kills adult ticks, nymphs, and larvae on contact, not just adults.</li>
+            <li>Consumer DIY tick sprays last only 1&ndash;14 days; granular treatments last about 1&ndash;4 weeks.</li>
+            <li>Tick tubes (Damminix) target larvae only and work seasonally, while cedar mulch barriers are a deterrent only.</li>
+            <li>A layered plan uses 2 professional treatments per season &mdash; one in spring and one in late summer.</li>
+            <li>BuzzSkito backs every tick treatment with a free retreatment guarantee if ticks return within the protection window.</li>
+          </ul>
+          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+        </div>
+
         <p className="text-lg text-gray-600 not-prose border-l-4 border-amber-400 pl-5 py-2 mb-8">
           Honest comparison from a tick control company — we believe the evidence speaks for itself. Part of our <Link href={`/blog/${TICK_BLOGS.pillar.slug}`} className="text-brand-700 underline">Ultimate Tick Control Guide for Ontario Homeowners</Link>.
         </p>
-
-        <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable not-prose">
-          <p className="text-xs font-extrabold text-emerald-700 uppercase tracking-wider mb-2">Quick Answer</p>
-          <p className="text-gray-800 text-[15px] leading-relaxed font-medium">
-            The best yard tick treatment for Ontario is a professional barrier spray applied to lawn edges, leaf litter, and shaded borders — it kills blacklegged ticks at every life stage and lasts up to 30 days. Pair it with habitat cleanup and permethrin tick tubes for a layered defence that keeps working between visits.
-          </p>
-        </div>
 
         <h2>Tick Control Options Compared</h2>
         <div className="not-prose overflow-x-auto my-6">

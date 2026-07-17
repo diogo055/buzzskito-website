@@ -76,13 +76,21 @@ export default function PatioMistingSystemCanadaPage() {
         </div>
       </section>
 
-      <section className="bg-gradient-to-br from-emerald-50 to-white border-b border-emerald-200 py-10 px-4">
+      <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
-          <p className="text-xs font-extrabold text-emerald-700 uppercase tracking-wider mb-2">Quick Answer · Updated July 2026</p>
-          <h2 className="text-2xl font-extrabold text-brand-900 mb-4">What kind of patio misting system should you buy in Canada?</h2>
-          <p className="speakable text-base text-gray-800 leading-relaxed">
-            <strong>In Canada, &ldquo;patio misting system&rdquo; means two different products.</strong> Hose-fed water mist kits &mdash; $25&ndash;$100 at Canadian retailers &mdash; cool your deck by evaporation and are widely available on Amazon.ca. Automated insecticide misting installs (the kind that kills mosquitoes) are unavailable here because their refills aren&rsquo;t PMRA-registered for that use. Buy a cooling kit for comfort; for real mosquito control, use residual barrier spray.
-          </p>
+          <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+            <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">In Canada, &ldquo;patio misting system&rdquo; means two different products. For a cooler patio, a hose-fed water-mist kit is the right buy; for actual mosquito control, use residual barrier spray, because the automated insecticide misting installs Americans mean are effectively unavailable here.</p>
+            <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+              <li>Hose-fed cooling mist kits cost about $25&ndash;$100 at Canadian retailers.</li>
+              <li>Pump-driven mid- and high-pressure cooling systems run about $200&ndash;$1,000+.</li>
+              <li>Hose-fed kits run on normal municipal pressure of roughly 40&ndash;80 PSI (275&ndash;550 kPa).</li>
+              <li>A 10-nozzle cooling line uses only about 20&ndash;40 litres of water per hour.</li>
+              <li>Automated MistAway-style insecticide installs cost roughly US$2,000&ndash;$3,500 and are effectively unavailable in Canada (refills not PMRA-registered).</li>
+              <li>Licensed barrier spray starts at $99 per treatment and holds a 21&ndash;30 day residual.</li>
+            </ul>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
+          </div>
         </div>
       </section>
 

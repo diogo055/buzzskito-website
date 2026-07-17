@@ -51,11 +51,21 @@ export default function HowToGetRidOfMosquitoesInYardOntarioPage() {
       </section>
 
       {/* QUICK ANSWER */}
-      <section className="bg-amber-50 border-y-4 border-amber-300 py-8 px-4">
+      <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
-          <p className="text-xs font-extrabold text-amber-700 uppercase tracking-wider mb-2">Quick Answer</p>
-          <h2 className="text-xl font-extrabold text-brand-900 mb-3">How to Get Rid of Mosquitoes — and Keep Them Away — in Your Ontario Yard</h2>
-          <p className="text-base text-gray-800 leading-relaxed">The fastest way to get rid of mosquitoes and keep them away from your Ontario yard is a layered approach: (1) eliminate every standing-water source you can find, (2) treat any standing water you can&apos;t drain with BTI mosquito dunks (safe for fish, pets, and humans — sold at Canadian Tire and Home Depot for $10–$20 per pack), (3) apply professional barrier spray to vegetation, shrub interiors, and fence-line resting sites, and (4) maintain coverage with treatments every 3–4 weeks May through September. To keep mosquitoes away between treatments, add a fan to your patio, wear DEET or picaridin, and never let containers refill with water. This layered approach reduces mosquito populations 85–95% on most properties. DIY-only approaches (citronella, fans, plants) repel or reduce only 15–30% because they don&apos;t kill the breeding population.</p>
+          <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+            <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The most effective way to get rid of mosquitoes in your Ontario yard is a layered approach: eliminate every standing-water source, treat water you can&apos;t drain with BTI mosquito dunks, apply a professional barrier spray to shrubs and fence-line resting sites, and re-treat every 3&ndash;4 weeks from May through September. This reduces mosquito populations 85&ndash;95%, versus 15&ndash;30% for repellent-only tactics.</p>
+            <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+              <li>Mosquitoes can&apos;t breed without standing water &mdash; one uncovered birdbath can produce thousands of mosquitoes per week.</li>
+              <li>BTI mosquito dunks ($10&ndash;$20 per pack at Canadian Tire and Home Depot) kill larvae within 24 hours and treat up to 100 sq ft of water for 30 days.</li>
+              <li>Professional barrier spray on vegetation gives up to 30 days of residual control; single treatments start at $99.</li>
+              <li>Source elimination plus barrier spray reduces mosquito populations 85&ndash;95%, versus 15&ndash;30% for DIY-only tactics.</li>
+              <li>Mosquitoes are weak fliers stopped by wind above about 1.5 m/s, so a patio fan creates an instant mosquito-free zone.</li>
+              <li>DEET (20&ndash;30%) and picaridin/icaridin (20%) are the most effective Health Canada-registered skin repellents.</li>
+            </ul>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+          </div>
         </div>
       </section>
 

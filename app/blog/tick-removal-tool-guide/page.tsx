@@ -75,6 +75,19 @@ export default function TickRemovalToolGuidePage() {
 
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
+          <div className="not-prose bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+            <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">For most Ontario households the best tick removal tool is the Tick Twister (O&rsquo;Tom) &mdash; a $5&ndash;$10 hooked tool that slides under the tick and twists it free without squeezing the body, the method most veterinarians recommend; fine-tipped tweezers also work if used correctly.</p>
+            <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+              <li>The Tick Twister costs about $5&ndash;$10, works on nymphs through engorged adults, and is the standard tool most vets recommend.</li>
+              <li>The TickKey is a roughly $7 metal keychain tool that is hardest to misuse, but small nymphs can slip out of its slot.</li>
+              <li>Fine-tipped (not pliers-style) tweezers work for free if you already own them &mdash; grip at skin level and pull straight up.</li>
+              <li>Avoid Vaseline, nail polish, alcohol, or a hot match on an attached tick &mdash; they make it regurgitate and raise disease risk.</li>
+              <li>Lyme transmission generally needs 24+ hours of attachment, so prompt, correct removal sharply cuts risk.</li>
+              <li>Only 10&ndash;30% of Ontario blacklegged ticks carry Borrelia; submit the tick free to eTick.ca for ID within 1&ndash;3 days.</li>
+            </ul>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+          </div>
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">The two tools vets and Canadian hikers keep on hand — a fine-tipped tweezer and a tick-hook set (under $15):</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">

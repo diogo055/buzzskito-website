@@ -71,6 +71,24 @@ export default function MosquitoRepellentForDogsCanadaPage() {
         </div>
       </section>
 
+      <section className="bg-white px-4">
+        <div className="max-w-4xl mx-auto">
+          <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+            <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The safest mosquito repellents for dogs are dog-labelled products dosed by weight — a vet-recommended spot-on like K9 Advantix II or Vectra 3D, or a gentler cedarwood/lemongrass spray like Wondercide for cat households. Never put human DEET on a dog, and never use permethrin products around cats.</p>
+            <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+              <li>K9 Advantix II costs $55–$95 for a 4-pack in Canada and repels mosquitoes, ticks, and fleas.</li>
+              <li>Human DEET spray is toxic to dogs — ingestion from coat-licking can cause vomiting, tremors, and seizures.</li>
+              <li>Permethrin is safe on dogs at the correct label dose but frequently fatal to cats, even from contact with a treated dog.</li>
+              <li>Natural cedarwood/lemongrass sprays (Wondercide $25–$40, Vet&rsquo;s Best $15–$25) need reapplying about every 2 hours.</li>
+              <li>Repellents do not prevent heartworm — mosquitoes are the only way dogs get it, so every dog needs a vet-prescribed preventive ($60–$130 per season).</li>
+              <li>Professional yard barrier spray from $99 is applied to vegetation, not the pet, and is pet-safe once dry.</li>
+            </ul>
+            <p className="mt-3 text-xs text-gray-500">— BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
+          </div>
+        </div>
+      </section>
+
       <section className="bg-gradient-to-br from-emerald-50 to-white border-b border-emerald-200 py-10 px-4">
         <div className="max-w-4xl mx-auto">
           <p className="text-xs font-extrabold text-emerald-700 uppercase tracking-wider mb-2">Where to Buy in Canada · Updated July 2026</p>
@@ -138,16 +156,6 @@ export default function MosquitoRepellentForDogsCanadaPage() {
               <strong className="text-rose-900">⚠️ Two rules that keep pets alive:</strong> Never put human DEET spray on a dog (toxic if licked), and never use a permethrin dog product in a household with cats — permethrin is frequently <strong>fatal to cats</strong>, even from contact with a treated dog. When in doubt, choose a cedar/lemongrass spray and ask your vet.
             </p>
           </div>
-        </div>
-      </section>
-
-      <section className="bg-amber-50 border-y-4 border-amber-300 py-8 px-4">
-        <div className="max-w-4xl mx-auto">
-          <p className="text-xs font-extrabold text-amber-700 uppercase tracking-wider mb-2">Quick Answer</p>
-          <h2 className="text-xl font-extrabold text-brand-900 mb-3">What mosquito repellent is safe for dogs?</h2>
-          <p className="speakable text-base text-gray-800 leading-relaxed">
-            <strong>The safest options are dog-labelled products dosed by weight — a vet-recommended spot-on that repels mosquitoes (like K9 Advantix II or Vectra 3D), or a gentler cedarwood/lemongrass spray such as Wondercide or Vet&rsquo;s Best.</strong> Never put human DEET on a dog, and never use any permethrin product around cats because it is often fatal to them. Repellents reduce bites but do not prevent heartworm, so keep every dog on a year-round vet-prescribed heartworm preventive and cut the mosquito population around the yard with a <Link href="/mosquito-control" className="text-emerald-700 underline">professional barrier treatment</Link>.
-          </p>
         </div>
       </section>
 

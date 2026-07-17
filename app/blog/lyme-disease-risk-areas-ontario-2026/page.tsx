@@ -75,6 +75,19 @@ export default function LymeRiskAreas2026Page() {
       </div>
 
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
+        <div className="not-prose bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+          <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+          <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Public Health Ontario classifies virtually all of Southern Ontario — including every GTA municipality — as a blacklegged tick and Lyme disease risk area in 2026. If your yard borders forest, ravine, or conservation land, treat it as elevated risk.</p>
+          <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+            <li>Public Health Ontario flagged 8 public health units as established endemic and 7 as emerging Lyme risk for 2026.</li>
+            <li>Ontario reported 3,614 Lyme cases in 2025 — about 30 times the number a decade earlier.</li>
+            <li>The blacklegged tick range expands roughly 35–55 km north per decade, driven by milder winters and migratory birds.</li>
+            <li>Confirmed GTA risk zones include the Don Valley, Rouge Park, Credit River, Bronte Creek, 16 Mile Creek, and the Oak Ridges Moraine.</li>
+            <li>An area is classed &ldquo;established risk&rdquo; once blacklegged ticks are found in consecutive years and at least one tests positive for Borrelia.</li>
+            <li>Professional tick barrier spray on perimeter zones reduces yard tick populations by up to 90%.</li>
+          </ul>
+          <p className="mt-3 text-xs text-gray-500">— BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews. General information, not medical advice.</p>
+        </div>
         {/* News citation strip — established May 17, 2026 when 6 major outlets covered the tick surge */}
         <aside className="not-prose mb-6 rounded-xl bg-brand-50 border-l-4 border-brand-700 px-5 py-4">
           <p className="text-xs font-extrabold text-brand-700 uppercase tracking-wider mb-1.5">★ Cited as a source by</p>

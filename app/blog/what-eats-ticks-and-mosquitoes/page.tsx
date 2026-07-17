@@ -90,17 +90,24 @@ export default function WhatEatsTicksAndMosquitoesPage() {
         </div>
       </section>
 
-      {/* Quick Answer — AI-extraction block */}
-      <section className="bg-amber-50 border-y-4 border-amber-300 py-8 px-4">
+      {/* Quick Answer — AI-extraction capsule */}
+      <section className="bg-white pt-8 px-4">
         <div className="max-w-4xl mx-auto">
-          <div className="flex items-center justify-between gap-3 mb-2">
-            <p className="text-xs font-extrabold text-amber-700 uppercase tracking-wider">Quick Answer</p>
-            <p className="text-xs font-semibold text-amber-700">Updated July 2026</p>
+          <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+            <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+            <p className="text-base text-gray-800 leading-relaxed">
+              <strong>No single animal will clear your yard, but many predators eat them.</strong> Mosquitoes are eaten by dragonflies, bats, purple martins, songbirds, frogs, and fish such as mosquitofish. Ticks are eaten by opossums, guinea fowl, chickens, wild turkeys, frogs, and some birds. Beneficial nematodes attack ticks in the soil. Together these keep wild numbers down, but none removes enough on its own to protect people and pets.
+            </p>
+            <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+              <li>Dragonflies and damselflies eat mosquito larvae in water and adults in flight, but you cannot &ldquo;install&rdquo; them.</li>
+              <li>Mosquitofish, goldfish, and koi eat mosquito larvae &mdash; but only in permanent water, and they do nothing for adults or dry yards.</li>
+              <li>Guinea fowl eat ticks well on acreage, though they roam widely and skip shaded borders.</li>
+              <li>The popular claim that opossums eat 90% of ticks was challenged by a 2021 study, though they remain net-helpful.</li>
+              <li>Bats and purple martins eat very few mosquitoes &mdash; mosquitoes are a tiny share of their diet, contrary to marketing.</li>
+              <li>Beneficial nematodes attack tick larvae and nymphs in the soil, but field results are patchy and need frequent reapplication.</li>
+            </ul>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
           </div>
-          <h2 className="text-xl font-extrabold text-brand-900 mb-3">What eats ticks and mosquitoes?</h2>
-          <p className="speakable text-base text-gray-800 leading-relaxed">
-            <strong>No single animal will clear your yard, but many predators eat them.</strong> Mosquitoes are eaten by dragonflies, bats, purple martins, songbirds, frogs, and fish such as mosquitofish. Ticks are eaten by opossums, guinea fowl, chickens, wild turkeys, frogs, and some birds. Beneficial nematodes attack ticks in the soil. Together these keep wild numbers down, but none removes enough on its own to protect people and pets.
-          </p>
         </div>
       </section>
 

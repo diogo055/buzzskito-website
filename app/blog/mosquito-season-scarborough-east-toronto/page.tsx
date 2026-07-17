@@ -60,6 +60,20 @@ export default function MosquitoSeasonScarboroughPage() {
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
+        <div className="not-prose bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+          <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+          <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Scarborough has some of the GTA&rsquo;s most persistent mosquito pressure because three river valleys &mdash; the Rouge, Highland Creek, and East Don &mdash; plus Rouge National Urban Park&rsquo;s 79+ square kilometres of habitat sustain breeding from late April through September. June and July are the peak months along the valley edges.</p>
+          <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+            <li>Rouge National Urban Park covers more than 79 square kilometres of mosquito-sustaining habitat on Scarborough&rsquo;s eastern boundary.</li>
+            <li>June and July are the worst months; valley-adjacent homeowners typically notice mosquitoes from late April through September.</li>
+            <li>Guildwood, Highland Creek, West Hill, and Rouge are the most affected neighbourhoods.</li>
+            <li>Mosquitoes disperse hundreds of metres from valley edges into surrounding streets.</li>
+            <li>Rouge Park and the Highland Creek valley have confirmed blacklegged tick populations and appear in Ontario&rsquo;s Lyme disease risk zone mapping.</li>
+            <li>Valley-adjacent properties need a 5-treatment program (May&ndash;September); flat suburban blocks like Agincourt usually need 3 (June&ndash;August).</li>
+          </ul>
+          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+        </div>
+
         <p className="text-lg text-gray-600 leading-relaxed not-prose border-l-4 border-brand-400 pl-5 py-2 mb-8">
           Scarborough is home to some of the GTA&rsquo;s most significant river valleys and, as a result, some of its most persistent mosquito pressure. This guide covers the specific geography, the worst hotspots, and what east-end homeowners can do. See our <Link href="/scarborough-mosquito-control" className="text-brand-700 underline">Scarborough mosquito control service page</Link> for treatment details.
         </p>

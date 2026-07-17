@@ -79,16 +79,26 @@ export default function ProfessionalVsDIYPage() {
       </div>
 
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
+        <div className="not-prose bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+          <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+          <p className="text-gray-800 text-[15px] leading-relaxed font-medium">On a typical GTA lot, professional barrier spray beats a DIY toolkit: a diligent DIY stack costs about $450&ndash;$650 a summer and cuts mosquito pressure 30&ndash;50%, while a professional barrier-spray season delivers 70&ndash;90% reduction with no labour. The best strategy is professional spray as the foundation with targeted DIY as the supplement.</p>
+          <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+            <li>A full DIY mosquito toolkit costs roughly $450&ndash;$650 per GTA summer plus 30&ndash;40 hours of labour.</li>
+            <li>DIY tactics individually cut mosquito pressure 20&ndash;50%; professional barrier spray delivers 70&ndash;90%.</li>
+            <li>A professional single treatment starts at $99; a 5-spray basic season is $549 and a 10-spray standard season is $994.</li>
+            <li>Professional barrier spray holds a residual for 21&ndash;30 days (3&ndash;4 weeks) per application.</li>
+            <li>BTi dunks give 95%+ larval kill for 30 days but do nothing for adult mosquitoes already biting.</li>
+            <li>University research found only 0.22% of insects killed by bug zappers were biting mosquitoes.</li>
+          </ul>
+          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
+        </div>
+
         <aside className="not-prose mb-6 rounded-xl bg-brand-50 border-l-4 border-brand-700 px-5 py-4">
           <p className="text-xs font-extrabold text-brand-700 uppercase tracking-wider mb-1.5">★ Cited as a source by</p>
           <p className="text-sm text-brand-900 leading-relaxed">
             <strong>Toronto Star</strong> · <strong>CityNews Toronto</strong> · <strong>TorontoToday</strong> — covering GTA mosquito and tick pressure across the 2026 season.
           </p>
         </aside>
-
-        <p className="text-lg text-gray-700 not-prose border-l-4 border-amber-400 pl-5 py-2 mb-8 leading-relaxed">
-          <strong>TL;DR:</strong> A diligent DIY mosquito stack costs roughly $450-$650 per GTA summer and delivers 30-50% pressure reduction. A professional barrier spray season ($549 standard) delivers 70-90% reduction with no time investment. The honest answer: DIY tools work — but they cannot match professional effectiveness on a GTA suburban lot. The right strategy is professional barrier spray as the foundation, with targeted DIY as the supplement.
-        </p>
 
         <h2>Why this comparison matters in the GTA specifically</h2>
         <p>The GTA mosquito season runs from late May through late September, with peak pressure from late June through August. The combination of humid Lake Ontario summers, dense ravine green space, abundant standing water (gutters, ponds, retention basins), and rising species diversity (Asian tiger mosquito establishment is now confirmed in southern Ontario) means a typical suburban GTA backyard faces meaningful mosquito pressure for 12-14 weeks per year.</p>

@@ -86,10 +86,10 @@ export default function DoTicksDieInTheWashingMachinePage() {
         <div className="max-w-4xl mx-auto">
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-            <p className="text-base text-gray-900 font-semibold mb-3">
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">
               BuzzSkito&rsquo;s GTA technicians: washing clothes &mdash; even in hot water &mdash; does <em>not</em> reliably kill ticks, but 10 minutes in a dryer on high heat does.
             </p>
-            <ul className="list-disc pl-5 space-y-2 text-sm text-gray-800 leading-relaxed">
+            <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
               <li>A dryer on <strong>HIGH heat kills ticks on dry clothing in about 10 minutes</strong>, according to CDC guidance.</li>
               <li>Ticks die in the dryer from <strong>desiccation (drying out), not heat alone</strong> &mdash; they tolerate wet heat but not dry heat.</li>
               <li>Washing does not reliably kill ticks: only water at <strong>54&deg;C (130&deg;F) or hotter killed 100% of blacklegged ticks</strong> in a 2016 study (Nelson et al., Journal of Medical Entomology).</li>
@@ -97,6 +97,7 @@ export default function DoTicksDieInTheWashingMachinePage() {
               <li>Roughly <strong>half of ticks survived a warm-water wash</strong> in testing, and ticks survived cold water completely.</li>
               <li><strong>Dry your worn clothes first, then wash</strong> &mdash; damp fabric needs 50&ndash;60 extra minutes in the dryer to kill a tick.</li>
             </ul>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
           </div>
         </div>
       </section>

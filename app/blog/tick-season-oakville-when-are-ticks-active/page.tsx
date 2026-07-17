@@ -66,11 +66,23 @@ export default function TickSeasonOakvillePage() {
         </div>
       </section>
 
-      <div className="max-w-3xl mx-auto px-4 -mt-6 sm:-mt-8 relative z-10">
-        <BlogPostCTA />
-      </div>
-
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
+        <div className="not-prose bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+          <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+          <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Oakville is now a Public Health Ontario&ndash;classified Lyme disease risk area; blacklegged ticks are active mid-March through November, peaking with nymphs from late May to July and adults from mid-September to October, driven by the 16 Mile Creek corridor and Bronte Creek Provincial Park.</p>
+          <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+            <li>Public Health Ontario&rsquo;s 2026 surveillance lists Halton Region, including Oakville, as an established Lyme disease risk area.</li>
+            <li>Bronte Creek Provincial Park covers 685 hectares of tick habitat, and its Half Moon Valley Trail is one of Ontario&rsquo;s most consistent positive drag-survey sites.</li>
+            <li>The nymph peak runs late May through mid-July; poppy-seed-sized nymphs carry the same Lyme bacteria as adults.</li>
+            <li>Blacklegged ticks reactivate above 4&deg;C, reliably by the third week of March &mdash; the active window has grown roughly three weeks since 2020.</li>
+            <li>Highest-risk neighbourhoods include West Oak Trails, Palermo, Bronte, Joshua Creek, and Iroquois Ridge North.</li>
+            <li>BuzzSkito&rsquo;s two-treatment plan (late May/June plus mid-September) uses a Health Canada-approved formula with up to 30 days of residual protection.</li>
+          </ul>
+          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+        </div>
+
+        <BlogPostCTA />
+
         <aside className="not-prose mb-6 rounded-xl bg-brand-50 border-l-4 border-brand-700 px-5 py-4">
           <p className="text-xs font-extrabold text-brand-700 uppercase tracking-wider mb-1.5">★ Surveillance source</p>
           <p className="text-sm text-brand-900 leading-relaxed">

@@ -70,6 +70,19 @@ export default function TickBorneDiseasesPage() {
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
+        <div className="not-prose bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+          <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+          <p className="text-gray-800 text-[15px] leading-relaxed font-medium">At least five tick-borne diseases have been documented in Ontario &mdash; Lyme disease, anaplasmosis, babesiosis, Powassan virus, and Borrelia miyamotoi disease. Lyme is by far the most common, and all are carried by the blacklegged tick, so preventing bites protects against the whole spectrum.</p>
+          <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+            <li>Lyme disease generally needs 24&ndash;36 hours of tick attachment to transmit; anaplasmosis as few as 12&ndash;24 hours.</li>
+            <li>Powassan virus can transmit in as little as 15 minutes and is the most dangerous, though rare.</li>
+            <li>Powassan causes encephalitis in about 10% of symptomatic cases, with a roughly 10&ndash;15% fatality rate.</li>
+            <li>A single blacklegged tick can carry more than one pathogen, so co-infection is possible.</li>
+            <li>Lyme, anaplasmosis, and B. miyamotoi are treated with doxycycline; Powassan has no specific treatment.</li>
+            <li>Professional tick barrier spray reduces yard tick populations by up to 90% across all species.</li>
+          </ul>
+          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
+        </div>
         <p className="text-lg text-gray-600 not-prose border-l-4 border-amber-400 pl-5 py-2 mb-8">
           <strong>Medical disclaimer:</strong> This article provides general public health information about tick-borne diseases in Ontario. Always consult a licensed healthcare provider for diagnosis and treatment of any suspected tick-borne infection. Part of our <Link href={`/blog/${TICK_BLOGS.pillar.slug}`} className="text-brand-700 underline">Ultimate Tick Control Guide for Ontario Homeowners</Link>.
         </p>

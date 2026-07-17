@@ -61,6 +61,24 @@ export default function MosquitoControlNearWaterPage() {
         </div>
       </section>
 
+      <section className="bg-white px-4 pt-8">
+        <div className="max-w-3xl mx-auto">
+          <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+            <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">GTA homes near rivers, ravines, ponds, and marshes are continuously re-colonized by mosquitoes from a breeding source you cannot eliminate, so they need an earlier and more frequent program: barrier spray starting the first week of May, 5 treatments through September, plus Bti larvicide in any standing water you control.</p>
+            <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+              <li>Water-adjacent properties typically need the full 5-treatment season rather than the 3&ndash;4 treatments a flat suburban lot gets; very exposed homes treat every 3 weeks.</li>
+              <li>A 12-inch-deep ornamental pond with no pump can produce hundreds of mosquito larvae per week in July.</li>
+              <li>Low spots and drainage swales that hold water for 5&ndash;7 days after rain can complete full larval cycles.</li>
+              <li>One floating Bti mosquito dunk treats a pond for about 30 days and is safe for fish, birds, and wildlife.</li>
+              <li>Virtually every GTA subdivision built since 1990 includes stormwater retention or detention ponds &mdash; ideal shallow-water breeding habitat.</li>
+              <li>Open Lake Ontario water is not a breeding source; the risk is sheltered marshes like Rattray Marsh, with homes within 500m most affected.</li>
+            </ul>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+          </div>
+        </div>
+      </section>
+
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
         <p className="text-lg text-gray-600 leading-relaxed not-prose border-l-4 border-brand-400 pl-5 py-2 mb-8">
           If your GTA property backs onto a river, sits near a ravine, looks out over a pond, or is anywhere near the Lake Ontario waterfront, you already know that mosquito season hits harder for you than for your friends on flat suburban blocks. This guide explains why — and what actually makes a difference. See our <Link href="/mosquito-control" className="text-brand-700 underline">GTA mosquito control service page</Link> to get started.

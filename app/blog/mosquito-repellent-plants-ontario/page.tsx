@@ -71,13 +71,21 @@ export default function MosquitoRepellentPlantsPage() {
       </section>
 
       {/* QUICK ANSWER — for AI extraction + Google AI Overviews */}
-      <section className="bg-amber-50 border-y-4 border-amber-300 py-8 px-4">
+      <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
-          <p className="text-xs font-extrabold text-amber-700 uppercase tracking-wider mb-2">Quick Answer</p>
-          <h2 className="text-xl font-extrabold text-brand-900 mb-3">What plants repel mosquitoes in Ontario?</h2>
-          <p className="text-base text-gray-800 leading-relaxed">
-            <strong>The 10 most effective mosquito-repelling plants for Ontario gardens are: lavender, basil, bee balm (monarda), catnip, lemon balm, marigolds, rosemary, citronella grass, peppermint, and sage.</strong> All grow in USDA zones 5–6 (matching the GTA), and most contain volatile oils — linalool, citronellal, eugenol, nepetalactone — that mosquitoes find unpleasant. Plants alone reduce mosquito pressure modestly within 1–3 metres of the plant; combined with eliminating standing water and professional yard barrier spray, they form a complete control strategy. Avoid: the &ldquo;citronella plant&rdquo; (Pelargonium citrosum) sold at garden centres — it produces almost no airborne repellent passively.
-          </p>
+          <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+            <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The 10 most effective mosquito-repelling plants for Ontario gardens are lavender, basil, bee balm, catnip, lemon balm, marigolds, rosemary, citronella grass, peppermint, and sage. Plants alone reduce mosquito pressure only modestly, within 1–3 metres — they complement standing-water removal and barrier spray, not replace them.</p>
+            <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+              <li>All 10 plants grow in USDA zones 5–6, matching GTA growing conditions.</li>
+              <li>Catnip&apos;s nepetalactone tested roughly 10× more effective than DEET in Iowa State lab studies, though real-world results are more modest.</li>
+              <li>Plants alone deliver about a 15–20% reduction near seating areas — not full-yard control.</li>
+              <li>Combined with standing-water removal and professional barrier spray, reduction reaches 85–95% across the property.</li>
+              <li>The garden-centre &ldquo;citronella plant&rdquo; (Pelargonium citrosum) produces almost no airborne repellent passively — skip it.</li>
+              <li>Best GTA planting time is mid-May, after the typical May 9–18 frost-free date.</li>
+            </ul>
+            <p className="mt-3 text-xs text-gray-500">— BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
+          </div>
         </div>
       </section>
 

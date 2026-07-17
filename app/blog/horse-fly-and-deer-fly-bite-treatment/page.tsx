@@ -76,16 +76,21 @@ export default function HorseFlyDeerFlyBiteTreatmentPage() {
       </section>
 
       {/* Quick Answer — AI-extraction block */}
-      <section className="bg-amber-50 border-y-4 border-amber-300 py-8 px-4">
+      <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
-          <div className="flex items-center justify-between gap-3 mb-2">
-            <p className="text-xs font-extrabold text-amber-700 uppercase tracking-wider">Quick Answer</p>
-            <p className="text-xs font-semibold text-amber-700">Updated July 2026</p>
+          <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+            <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">To treat a horse fly or deer fly bite, wash it with soap and water, apply a cold compress for 10&ndash;15 minutes, then use 1% hydrocortisone cream or an after-bite gel for the itch and an oral antihistamine if it swells. Most bites heal within about a week without a prescription.</p>
+            <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+              <li>These bites hurt more than mosquito bites because Tabanidae flies slice the skin with blade-like mouthparts rather than piercing it — the wound stings and often bleeds.</li>
+              <li>A typical bite is painful for a few hours, itchy and swollen for 2&ndash;4 days, and fully healed within about a week.</li>
+              <li>Redness, swelling, warmth, or pain that keeps increasing after 48 hours points to infection and should be seen by a clinician.</li>
+              <li>Pus, a spreading red streak, swollen lymph nodes, or fever are infection red flags; hives, facial swelling, or trouble breathing are an emergency — call 911.</li>
+              <li>Deer flies can rarely transmit tularemia in parts of North America, per the U.S. CDC — mention the bite to a doctor if fever, a skin ulcer, or swollen glands follow.</li>
+              <li>Horse flies reach up to 2.5 cm and bite legs and arms; smaller deer flies target the head and neck.</li>
+            </ul>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
           </div>
-          <h2 className="text-xl font-extrabold text-brand-900 mb-3">How do you treat a horse fly or deer fly bite?</h2>
-          <p className="speakable text-base text-gray-800 leading-relaxed">
-            <strong>Wash the bite with soap and water, apply a cold compress for 10–15 minutes, then use hydrocortisone cream or an after-bite gel for itch and an oral antihistamine if it swells.</strong> Horse fly and deer fly bites hurt because these flies (family Tabanidae) slice the skin open with blade-like mouthparts rather than piercing it, so the wound stings, often bleeds, and can stay red for several days. Keep it clean, do not scratch, and it usually heals within a week. See a doctor if redness, swelling, warmth or pain keeps increasing after 48 hours, if you see pus or a spreading red streak, or if you develop hives, facial swelling or trouble breathing.
-          </p>
         </div>
       </section>
 

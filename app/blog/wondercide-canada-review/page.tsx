@@ -71,6 +71,26 @@ export default function WondercideCanadaReviewPage() {
         </div>
       </section>
 
+      <section className="bg-white pt-8 px-4">
+        <div className="max-w-4xl mx-auto">
+          <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+            <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+            <p className="text-base text-gray-800 leading-relaxed">
+              <strong>Available but limited, and worth it mainly for pets and personal use &mdash; not as your only yard tick solution.</strong> Wondercide is a US natural brand built on cedarwood oil (plus lemongrass and sesame oil in the pet sprays), and in Canada it is sold mostly through third-party sellers on <BuyLink search="wondercide flea and tick spray">Amazon.ca</BuyLink> rather than big-box retail, at a premium over US pricing. The cedar-oil formula genuinely kills and repels ticks, fleas, and mosquitoes on contact, but the oils break down within days, so yard use needs frequent reapplication. For whole-yard, long-lasting tick protection, a longer-residual option like permethrin-based treatment or <Link href="/tick-control" className="text-emerald-700 underline">professional barrier spray</Link> is more reliable per dollar &mdash; see our <Link href="/blog/best-tick-repellent-yard-canada" className="text-emerald-700 underline">best tick repellent for yards in Canada</Link> comparison.
+            </p>
+            <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+              <li>Wondercide is built on cedarwood oil (plus lemongrass and sesame oil in the pet sprays), which disrupts octopamine &mdash; a neurotransmitter insects have and mammals don&rsquo;t.</li>
+              <li>In Canada it is sold mostly through Amazon.ca third-party sellers and direct import, not big-box retail.</li>
+              <li>The cedar-oil formula kills and repels ticks, fleas, and mosquitoes on contact, but the oils degrade within days.</li>
+              <li>Canadian pricing runs roughly $25 for personal spray up to about $130 for yard concentrate (2026 estimates).</li>
+              <li>A yard treatment needs re-spraying about weekly, while a professional barrier spray lasts 21&ndash;30 days per treatment.</li>
+              <li>Cats are sensitive to essential oils, so use pet products only as directed and keep them away until dry.</li>
+            </ul>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+          </div>
+        </div>
+      </section>
+
       <section className="bg-gradient-to-br from-emerald-50 to-white border-b border-emerald-200 py-10 px-4">
         <div className="max-w-4xl mx-auto">
           <p className="text-xs font-extrabold text-emerald-700 uppercase tracking-wider mb-2">Where to Buy in Canada · Updated July 2026</p>
@@ -114,16 +134,6 @@ export default function WondercideCanadaReviewPage() {
               <strong className="text-amber-900">⚠️ Cedar-oil yard sprays work on contact but fade fast.</strong> Essential oils degrade within days in sun and rain, so a Wondercide yard treatment needs re-spraying weekly to keep working. For long-residual, whole-yard tick and mosquito coverage, <Link href="/tick-control" className="text-emerald-700 underline font-semibold">professional barrier spray</Link> lasts 21&ndash;30 days per treatment. Wondercide is best used for the <em>pet and the person</em>, not as your only line of yard defence.
             </p>
           </div>
-        </div>
-      </section>
-
-      <section className="bg-amber-50 border-y-4 border-amber-300 py-8 px-4">
-        <div className="max-w-4xl mx-auto">
-          <p className="text-xs font-extrabold text-amber-700 uppercase tracking-wider mb-2">Quick Answer</p>
-          <h2 className="text-xl font-extrabold text-brand-900 mb-3">Is Wondercide available and worth it in Canada?</h2>
-          <p className="speakable text-base text-gray-800 leading-relaxed">
-            <strong>Available but limited, and worth it mainly for pets and personal use &mdash; not as your only yard tick solution.</strong> Wondercide is a US natural brand built on cedarwood oil (plus lemongrass and sesame oil in the pet sprays), and in Canada it is sold mostly through third-party sellers on <BuyLink search="wondercide flea and tick spray">Amazon.ca</BuyLink> rather than big-box retail, at a premium over US pricing. The cedar-oil formula genuinely kills and repels ticks, fleas, and mosquitoes on contact, but the oils break down within days, so yard use needs frequent reapplication. For whole-yard, long-lasting tick protection, a longer-residual option like permethrin-based treatment or <Link href="/tick-control" className="text-emerald-700 underline">professional barrier spray</Link> is more reliable per dollar &mdash; see our <Link href="/blog/best-tick-repellent-yard-canada" className="text-emerald-700 underline">best tick repellent for yards in Canada</Link> comparison.
-          </p>
         </div>
       </section>
 

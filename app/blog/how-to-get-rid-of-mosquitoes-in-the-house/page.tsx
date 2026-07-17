@@ -90,9 +90,18 @@ export default function GetRidOfMosquitoesInHousePage() {
         <div className="max-w-4xl mx-auto">
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-            <p className="text-base text-gray-800 leading-relaxed">
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">
               To get rid of mosquitoes in the house, run a fan on your seating or sleeping area (mosquitoes are weak fliers and can&rsquo;t hold course in moving air), hunt the ones already inside at dusk by checking dark low corners, under furniture, closets and behind curtains, and kill the indoor breeding source by dumping any standing water in plant saucers, vases and drains. Then seal torn screens and door gaps so no more get in.
             </p>
+            <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+              <li>Mosquitoes fly at only about 1&ndash;2 km/h, so a box or ceiling fan aimed at your bed or seat stops them landing and biting.</li>
+              <li>Mosquitoes lay eggs in water that sits about a week &mdash; a single forgotten cup can hatch a dozen mosquitoes indoors.</li>
+              <li>Indoors they rest in cool, dark, humid spots: under beds and furniture, closets, behind curtains, and in the bathroom.</li>
+              <li>An adult mosquito indoors typically lives one to two weeks.</li>
+              <li>A fitted bed net gives complete physical protection while you sleep, with no chemicals.</li>
+              <li>Bug zappers are a poor indoor choice &mdash; research shows they kill mostly moths and beetles and very few biting mosquitoes.</li>
+            </ul>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
           </div>
         </div>
       </section>

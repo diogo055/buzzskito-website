@@ -59,6 +59,24 @@ export default function MosquitoControlVaughanPage() {
         </div>
       </section>
 
+      <section className="bg-white px-4 pt-8">
+        <div className="max-w-3xl mx-auto">
+          <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+            <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Vaughan has some of the heaviest mosquito pressure in York Region because the Humber River floodplain, Boyd Conservation Area, and new-subdivision stormwater ponds constantly re-seed residential yards. The most effective protection is a professional barrier-spray program &mdash; typically 4&ndash;5 treatments from May through September.</p>
+            <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+              <li>Boyd Conservation Area covers 1,700 acres in the heart of Vaughan, and the Kortright Centre adds another 325 acres of mosquito harbouring habitat.</li>
+              <li>Most Vaughan properties need 4&ndash;5 barrier-spray treatments per season; homes beside Boyd or the Humber corridor usually need the full 5.</li>
+              <li>Each Health Canada&ndash;approved treatment provides 3&ndash;4 weeks of residual protection.</li>
+              <li>First adult mosquitoes emerge near the Humber floodplain in late April; peak season runs June through July.</li>
+              <li>Boyd, the Humber valley, and Kortright are also confirmed blacklegged tick habitat documented by York Region Public Health.</li>
+              <li>Treated areas are safe for kids, pets, and pollinators after a 30-minute drying window.</li>
+            </ul>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+          </div>
+        </div>
+      </section>
+
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
         <p className="text-lg text-gray-600 leading-relaxed not-prose border-l-4 border-brand-400 pl-5 py-2 mb-8">
           Vaughan sits in the middle of the Humber River watershed — and that geography makes it one of York Region&rsquo;s most challenging cities for mosquito control. This guide explains exactly why, and what actually works for Vaughan homeowners. See our <Link href="/vaughan-mosquito-control" className="text-brand-700 underline">Vaughan mosquito control service page</Link> for treatment details.

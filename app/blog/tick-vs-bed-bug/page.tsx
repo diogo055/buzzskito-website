@@ -71,14 +71,24 @@ export default function TickVsBedBugPage() {
         </div>
       </section>
 
-      {/* Quick Answer — AI-extraction block */}
-      <section className="bg-amber-50 border-y-4 border-amber-300 py-8 px-4">
+      {/* Quick Answer — AI-extraction capsule */}
+      <section className="bg-white pt-8 px-4">
         <div className="max-w-4xl mx-auto">
-          <p className="text-xs font-extrabold text-amber-700 uppercase tracking-wider mb-2">Quick Answer</p>
-          <h2 className="text-xl font-extrabold text-brand-900 mb-3">How do you tell a tick from a bed bug?</h2>
-          <p className="speakable text-base text-gray-800 leading-relaxed">
-            <strong>Count the legs: ticks have 8 legs and no antennae; bed bugs have 6 legs and visible antennae.</strong> A tick attaches to skin and stays embedded for 24 hours to several days, swelling as it feeds. A bed bug bites, feeds for 5&ndash;10 minutes, and crawls away to hide. Ticks are outdoor pests picked up from grass, leaf litter, and woods edges; bed bugs are indoor pests living in mattress seams, bed frames, and furniture. Medically the difference is significant: ticks in Ontario transmit Lyme disease, while bed bugs transmit no known disease. If you find it attached to your skin after being outdoors, it is a tick &mdash; and BuzzSkito treats GTA yards to remove ticks at the source, from $99.
-          </p>
+          <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+            <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+            <p className="text-base text-gray-800 leading-relaxed">
+              <strong>Count the legs: ticks have 8 legs and no antennae; bed bugs have 6 legs and visible antennae.</strong> A tick attaches to skin and stays embedded for 24 hours to several days, swelling as it feeds. A bed bug bites, feeds for 5&ndash;10 minutes, and crawls away to hide. Ticks are outdoor pests picked up from grass, leaf litter, and woods edges; bed bugs are indoor pests living in mattress seams, bed frames, and furniture. Medically the difference is significant: ticks in Ontario transmit Lyme disease, while bed bugs transmit no known disease. If you find it attached to your skin after being outdoors, it is a tick &mdash; and BuzzSkito treats GTA yards to remove ticks at the source, from $99.
+            </p>
+            <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+              <li>Ticks are arachnids with 8 legs and no antennae; bed bugs are insects with 6 legs and visible antennae.</li>
+              <li>A tick embeds and feeds for 24 hours to several days; a bed bug feeds for just 5 to 10 minutes, then hides.</li>
+              <li>Unfed ticks and bed bugs are similar in size (roughly 3&ndash;5 mm), but a tick is a domed teardrop while a bed bug is a flat lentil shape.</li>
+              <li>Ticks are outdoor pests from grass and woods edges; bed bugs are indoor pests in mattress seams and bed frames.</li>
+              <li>Ticks in Ontario can transmit Lyme disease, anaplasmosis, babesiosis, and Powassan virus; bed bugs transmit no known disease.</li>
+              <li>Ticks cannot reproduce indoors, so they never infest a home; bed bugs reproduce rapidly indoors.</li>
+            </ul>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+          </div>
         </div>
       </section>
 

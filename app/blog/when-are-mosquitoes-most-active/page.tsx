@@ -75,17 +75,24 @@ export default function WhenAreMosquitoesMostActivePage() {
         </div>
       </section>
 
-      {/* Quick Answer — AI-extraction block */}
-      <section className="bg-amber-50 border-y-4 border-amber-300 py-8 px-4">
+      {/* Quick Answer — AI-extraction capsule */}
+      <section className="bg-white pt-8 px-4">
         <div className="max-w-4xl mx-auto">
-          <div className="flex items-center justify-between gap-3 mb-2">
-            <p className="text-xs font-extrabold text-amber-700 uppercase tracking-wider">Quick Answer</p>
-            <p className="text-xs font-semibold text-amber-700">Updated July 2026</p>
+          <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+            <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+            <p className="text-base text-gray-800 leading-relaxed">
+              <strong>Most mosquitoes are most active at dawn and dusk, when temperature and wind drop and humidity rises.</strong> Culex mosquitoes — the main West Nile carriers — peak from dusk into the night, while Aedes species (including the Asian tiger mosquito) are daytime biters that attack in shade all afternoon. Activity switches on above about 10 C (50 F) and peaks around 24-28 C (75-82 F); above ~35 C (95 F) mosquitoes retreat to shade. Warm, humid, still, overcast conditions a few days after rain are the worst. The practical takeaway: avoid the dawn/dusk peaks in the open, watch for daytime bites in shaded yards, and treat the shaded resting spots where mosquitoes wait out the day.
+            </p>
+            <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+              <li>Dusk (roughly the hour around sunset) is the single highest-bite window for most mosquitoes.</li>
+              <li>Culex mosquitoes, the main West Nile carriers, peak from dusk into the night; Aedes species bite in shade all day.</li>
+              <li>Mosquito activity switches on above about 10&deg;C (50&deg;F).</li>
+              <li>Biting peaks in the 24&ndash;28&deg;C (75&ndash;82&deg;F) sweet spot, when development is fastest.</li>
+              <li>Above about 35&deg;C (95&deg;F), mosquitoes retreat to cool, shaded resting spots.</li>
+              <li>Warm, humid, still, overcast conditions a few days after rain drive the worst biting.</li>
+            </ul>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
           </div>
-          <h2 className="text-xl font-extrabold text-brand-900 mb-3">When are mosquitoes most active?</h2>
-          <p className="speakable text-base text-gray-800 leading-relaxed">
-            <strong>Most mosquitoes are most active at dawn and dusk, when temperature and wind drop and humidity rises.</strong> Culex mosquitoes — the main West Nile carriers — peak from dusk into the night, while Aedes species (including the Asian tiger mosquito) are daytime biters that attack in shade all afternoon. Activity switches on above about 10 C (50 F) and peaks around 24-28 C (75-82 F); above ~35 C (95 F) mosquitoes retreat to shade. Warm, humid, still, overcast conditions a few days after rain are the worst. The practical takeaway: avoid the dawn/dusk peaks in the open, watch for daytime bites in shaded yards, and treat the shaded resting spots where mosquitoes wait out the day.
-          </p>
         </div>
       </section>
 

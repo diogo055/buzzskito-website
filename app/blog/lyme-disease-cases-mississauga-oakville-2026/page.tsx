@@ -77,6 +77,19 @@ export default function LymeMississaugaOakvillePage() {
       </div>
 
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
+        <div className="not-prose bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+          <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+          <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Lyme disease cases in Peel (Mississauga) and Halton (Oakville) have climbed steadily since 2020, and both are now Public Health Ontario–designated established risk areas. If your GTA property borders forest, ravine, or conservation land, treat it as elevated tick risk.</p>
+          <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+            <li>Both Peel and Halton are classified by Public Health Ontario as established Lyme disease risk areas — the highest risk tier.</li>
+            <li>Peel reported single-digit annual Lyme cases as recently as 2018; by 2025 the count was several multiples higher.</li>
+            <li>The Credit River corridor (Mississauga) and 16 Mile Creek corridor (Oakville) are confirmed Borrelia-positive blacklegged tick zones.</li>
+            <li>Reported cases capture only an estimated 10–20% of true infections and lag actual exposure by 1 to 2 years (US CDC).</li>
+            <li>A blacklegged tick usually must stay attached 24–36 hours before it can transmit Lyme, so removal within 24 hours sharply lowers risk.</li>
+            <li>The erythema migrans (bull&rsquo;s-eye) rash appears in only 70–80% of cases — its absence does not rule Lyme out.</li>
+          </ul>
+          <p className="mt-3 text-xs text-gray-500">— BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews. General information, not medical advice.</p>
+        </div>
         <aside className="not-prose mb-6 rounded-xl bg-brand-50 border-l-4 border-brand-700 px-5 py-4">
           <p className="text-xs font-extrabold text-brand-700 uppercase tracking-wider mb-1.5">★ Cited as a source by</p>
           <p className="text-sm text-brand-900 leading-relaxed">

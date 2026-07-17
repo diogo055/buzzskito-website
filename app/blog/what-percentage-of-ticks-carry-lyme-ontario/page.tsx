@@ -102,7 +102,8 @@ export default function TicksCarryLymeOntarioPage() {
               <li className="flex gap-2"><span className="text-emerald-600 font-bold">&bull;</span><span>A tick must usually stay attached <strong>24-36 hours or longer</strong> to transmit Lyme; removal within 24 hours makes transmission unlikely (CDC / PHO).</span></li>
               <li className="flex gap-2"><span className="text-emerald-600 font-bold">&bull;</span><span>Your chance of Lyme from a single tick bite is low — the <strong>CDC estimates about 1-3%</strong> even in highly endemic areas.</span></li>
             </ul>
-            <p className="text-xs text-gray-500 mt-3">Health information for general education, not medical advice. See a healthcare provider or Public Health Ontario if you develop symptoms after a tick bite.</p>
+            <p className="text-xs text-gray-500 mt-3">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+            <p className="text-xs text-gray-500 mt-1.5">Health information for general education, not medical advice. See a healthcare provider or Public Health Ontario if you develop symptoms after a tick bite.</p>
           </div>
         </div>
       </section>

@@ -80,13 +80,21 @@ export default function ThermacellE90CanadaReviewPage() {
         </div>
       </section>
 
-      <section className="bg-gradient-to-br from-emerald-50 to-white border-b border-emerald-200 py-10 px-4">
+      <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
-          <p className="text-xs font-extrabold text-emerald-700 uppercase tracking-wider mb-2">Quick Answer · Updated July 2026</p>
-          <h2 className="text-2xl font-extrabold text-brand-900 mb-3">Is the Thermacell E90 the one to buy?</h2>
-          <p className="speakable text-base text-gray-800 leading-relaxed rounded-xl border border-emerald-200 bg-white p-5 shadow-sm">
-            <strong>Yes — the Thermacell E90 is the best Thermacell sold in Canada in 2026.</strong> Its 9-hour rechargeable battery roughly doubles the E55&rsquo;s runtime, it shares the same 20-foot (6 m) zone and metofluthrin E-Series refills, and with the LIV smart system unavailable in Canada, the E90 sits at the top of the Canadian lineup. Buy the EX90 instead only if it&rsquo;s going camping.
-          </p>
+          <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+            <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Yes &mdash; the Thermacell E90 is the best Thermacell sold in Canada in 2026. Its 9-hour rechargeable battery roughly doubles the E55&rsquo;s runtime, it shares the same 20-foot zone and metofluthrin E-Series refills, and with the LIV smart system unavailable here the E90 sits at the top of the Canadian lineup. Buy the EX90 instead only if it&rsquo;s going camping.</p>
+            <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+              <li>The E90 runs about 9 hours per charge &mdash; roughly double the E55&rsquo;s 5.5 hours.</li>
+              <li>It protects a 20-foot (6 m) zone in calm conditions and costs about $90&ndash;$120.</li>
+              <li>The zone needs 10&ndash;15 minutes to build and weakens above a ~10&ndash;12 km/h breeze.</li>
+              <li>It uses metofluthrin E-Series cartridges in 12-, 36-, and 72-hour sizes.</li>
+              <li>It does nothing for ticks, which quest from grass rather than flying into vapour.</li>
+              <li>For whole-yard, tick-inclusive coverage, licensed barrier spray starts at $99 and holds 21&ndash;30 days.</li>
+            </ul>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
+          </div>
         </div>
       </section>
 

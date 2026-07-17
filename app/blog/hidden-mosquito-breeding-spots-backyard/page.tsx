@@ -60,13 +60,21 @@ export default function HiddenBreedingSpotsPage() {
       </section>
 
       {/* QUICK ANSWER */}
-      <section className="bg-amber-50 border-y-4 border-amber-300 py-8 px-4">
+      <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
-          <p className="text-xs font-extrabold text-amber-700 uppercase tracking-wider mb-2">Quick Answer</p>
-          <h2 className="text-xl font-extrabold text-brand-900 mb-3">What kills mosquitoes in standing water?</h2>
-          <p className="text-base text-gray-800 leading-relaxed">
-            <strong>For standing water you can drain, just empty it — mosquitoes need water for 7+ days to complete the larva stage.</strong> For standing water you can&apos;t drain (rain barrels, ornamental ponds, neglected pools, drainage ditches), drop in a <strong>BTI-based mosquito dunk</strong> (sold at Canadian Tire and Home Depot for $10–$20 per pack). BTI (<em>Bacillus thuringiensis israelensis</em>) is a soil bacterium that kills mosquito larvae within 24 hours and is completely safe for fish, pets, beneficial insects, and humans. Health Canada has approved BTI for use in drinking water reservoirs. The 12 most-missed backyard breeding sites in the GTA are listed below — gutters, plant saucers, low lawn spots, kiddie pools, tarps, recycling bins, garbage can lids, bird baths, downspout extensions, wheelbarrows, sump pump drainage, and corrugated drainage pipe.
-          </p>
+          <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+            <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The most-missed mosquito breeding spots in GTA backyards are clogged eavestroughs, plant saucers, tarps and covers, low lawn spots, recycling bins, and bird baths — anywhere water stands for 7+ days. Drain what you can every 3&ndash;4 days, and drop a BTI mosquito dunk into any water you can&apos;t drain.</p>
+            <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+              <li>Mosquitoes can breed in as little as one teaspoon (about 5 ml) of standing water — a bottle cap is enough.</li>
+              <li>Above 21&deg;C, mosquito eggs hatch within 24&ndash;48 hours and larvae become biting adults in as little as 7&ndash;10 days.</li>
+              <li>One female mosquito lays 100&ndash;200 eggs per batch and produces multiple batches per season.</li>
+              <li>BTI mosquito dunks ($10&ndash;$20 per pack at Canadian Tire and Home Depot) kill larvae within 24 hours and treat about 100 sq ft of water for 30 days — safe for fish, pets, and humans.</li>
+              <li>Mosquitoes can fly up to 3 km, so source elimination alone cuts your on-property population 40&ndash;60%; adding barrier spray reaches 85&ndash;95%.</li>
+              <li>Properly chlorinated pools cannot support mosquito larvae, but rainwater pooling on the pool cover can.</li>
+            </ul>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+          </div>
         </div>
       </section>
 

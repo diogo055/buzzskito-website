@@ -97,6 +97,7 @@ export default function LoneStarTickAlphaGalCanadaPage() {
               <li>Ontario&rsquo;s established human-biting ticks are the <strong>blacklegged (deer) tick and the American dog tick</strong> — neither is a documented cause of alpha-gal.</li>
               <li>Climate-driven range expansion means the lone star tick is <strong>worth monitoring</strong>, but as of 2026 the alpha-gal risk to GTA residents from local ticks is very low.</li>
             </ul>
+            <p className="mt-3 text-xs text-gray-500">— BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
           </div>
           <p className="text-xs text-gray-500 leading-relaxed">
             This article is general information for Ontario residents, not medical advice. Alpha-gal syndrome is a serious allergy — if you have delayed reactions to red meat or a suspected severe reaction, contact a physician or allergist. Information reflects Health Canada, PHAC/eTick, and U.S. CDC guidance as of July 2026.

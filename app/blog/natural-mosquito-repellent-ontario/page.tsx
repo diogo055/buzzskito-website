@@ -98,14 +98,23 @@ export default function NaturalMosquitoRepellentPage() {
 
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
-          <p className="lead text-xl text-gray-700 leading-relaxed mb-6">If you&rsquo;re trying to avoid DEET, you&rsquo;re not alone. Most Ontario homeowners would prefer a natural option — but the marketing claims for &ldquo;natural mosquito repellent&rdquo; products often outpace the science. Here&rsquo;s what the peer-reviewed research actually says works in Ontario backyards in 2026.</p>
+          <div className="not-prose bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+            <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The most effective natural mosquito repellent is oil of lemon eucalyptus (OLE / PMD) — the only plant-derived ingredient Health Canada rates comparable to low-concentration DEET, giving about 95% protection for 4–6 hours. For a whole yard, pair BTI larvicide with a patio fan.</p>
+            <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+              <li>Oil of lemon eucalyptus (OLE / PMD) gives roughly 95% protection for 4–6 hours — the only botanical the CDC and Health Canada rate comparable to low-concentration DEET.</li>
+              <li>Soybean oil products (like Bite Blocker) provide about 1.5 hours of solid protection.</li>
+              <li>Citronella oil protects for only 20–60 minutes before it needs re-applying.</li>
+              <li>A patio fan drops mosquito landing rates 60–80% in a 3–5 metre radius — mosquitoes are weak fliers.</li>
+              <li>BTI Mosquito Dunks ($15/season) kill larvae in standing water for 30 days and are harmless to pets, fish, and pollinators.</li>
+              <li>Homemade essential-oil sprays give 30–60 minutes of weak repellency at best.</li>
+            </ul>
+            <p className="mt-3 text-xs text-gray-500">— BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
+          </div>
+
+          <p className="lead text-xl text-gray-700 leading-relaxed mb-6">If you&rsquo;re trying to avoid DEET, you&rsquo;re not alone. Most Ontario homeowners would prefer a natural option — but the marketing claims for &ldquo;natural mosquito repellent&rdquo; products often outpace the science. Here&rsquo;s what the peer-reviewed research actually says works in Ontario backyards in 2026 — including why <Link href="/blog/picaridin-vs-deet-canada" className="text-emerald-800 underline underline-offset-2">picaridin</Link>, modelled on a black-pepper compound, is the best-tolerated non-DEET option for all-day wear.</p>
 
           <AffiliateDisclosure />
-
-          <div className="not-prose my-6 rounded-xl border border-emerald-200 bg-emerald-50 p-5">
-            <p className="text-xs font-bold uppercase tracking-wide text-emerald-700 mb-2">The short answer</p>
-            <p className="text-gray-800 leading-relaxed">The most effective natural mosquito repellent is <strong>oil of lemon eucalyptus (OLE / PMD)</strong> — the only plant-derived ingredient Health Canada rates comparable to low-concentration DEET, giving 4–6 hours of protection. <Link href="/blog/picaridin-vs-deet-canada" className="text-emerald-800 underline underline-offset-2">Picaridin</Link>, modelled on a black-pepper compound, is the best-tolerated non-DEET option for all-day wear. Citronella, soybean oil and geraniol work but need re-applying every 1–2 hours. For a whole yard, pair BTI larvicide (Mosquito Dunks) with a patio fan. Homemade essential-oil sprays give 30–60 minutes at best.</p>
-          </div>
 
           <h2>Best Natural Mosquito Repellents, Ranked</h2>
           <p className="text-sm text-gray-500 mb-3">Updated July 2026</p>

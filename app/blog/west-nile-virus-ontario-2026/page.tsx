@@ -70,6 +70,21 @@ export default function WestNile2026Page() {
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
+        <div className="not-prose bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+          <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+          <p className="text-gray-800 text-[15px] leading-relaxed font-medium">West Nile Virus has been detected in Ontario every year since 2001 and cannot be eradicated from the bird-mosquito cycle; risk peaks in July and August, about 80% of infections cause no symptoms, and under 1% become severe neurological illness.</p>
+          <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+            <li>WNV has been detected in Ontario every year since 2001 and is maintained in a bird-mosquito cycle that cannot be eradicated.</li>
+            <li>Roughly 80% of infections cause no symptoms; about 20% cause West Nile Fever, and under 1% cause severe neurological disease.</li>
+            <li>The primary vector is Culex pipiens; humans are dead-end hosts and WNV does not spread person to person.</li>
+            <li>Symptoms, when they occur, appear 2 to 14 days after an infected bite; adults over 60 and immunocompromised people are highest risk.</li>
+            <li>Culex mosquitoes can breed in as little as a tablespoon of stagnant water, so weekly standing-water removal matters.</li>
+            <li>A seasonal barrier-spray program of 5 to 6 treatments (May&ndash;September) reduces mosquito populations for 21 to 30 days each and covers the WNV window.</li>
+          </ul>
+          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+          <p className="mt-1.5 text-xs text-gray-500">Health information for general education, not medical advice. Consult a licensed healthcare provider for diagnosis or treatment.</p>
+        </div>
+
         <p className="text-lg text-gray-600 not-prose border-l-4 border-amber-400 pl-5 py-2 mb-8">
           <strong>Medical disclaimer:</strong> This article provides general public health information about West Nile Virus risk in Ontario. Always consult a licensed healthcare provider for medical advice, diagnosis, and treatment. Part of our <Link href={`/blog/${MOSQUITO_BLOGS.pillar.slug}`} className="text-brand-700 underline">Ultimate Backyard Mosquito Control Guide</Link>.
         </p>

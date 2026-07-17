@@ -91,7 +91,20 @@ export default function MosquitoSprayLastPage() {
         </div>
       </section>
 
-      <div className="max-w-3xl mx-auto px-4 -mt-6 sm:-mt-8 relative z-10">
+      <div className="max-w-3xl mx-auto px-4">
+        <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+          <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+          <p className="text-gray-800 text-[15px] leading-relaxed font-medium">A professional mosquito barrier spray lasts 3&ndash;4 weeks (up to 30 days) per application, while DIY store-bought sprays and foggers last just 1&ndash;2 days. Rain within the first hour and stretches of intense heat and UV shorten it, so most GTA yards need re-treating every 3&ndash;4 weeks from May through September.</p>
+          <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+            <li>Professional barrier spray lasts up to 30 days (3&ndash;4 weeks) per application.</li>
+            <li>Consumer store-bought yard sprays and foggers deliver just 1&ndash;2 days of real protection.</li>
+            <li>DEET personal repellent lasts 4&ndash;8 hours on skin; citronella candles only while burning.</li>
+            <li>The treated yard is safe to re-enter about 30 minutes after application, once the spray has dried.</li>
+            <li>Most GTA yards need 4&ndash;5 treatments per season, re-applied every 21&ndash;28 days from May through September.</li>
+            <li>Heavy rain within the first 30&ndash;60 minutes can wash it off, but once cured the barrier is highly rain-resistant.</li>
+          </ul>
+          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+        </div>
         <BlogPostCTA />
       </div>
 
@@ -100,11 +113,7 @@ export default function MosquitoSprayLastPage() {
           This guide breaks down exactly how long different mosquito treatments last, what shortens or extends protection, and how to build a schedule that keeps your GTA yard covered all season. Part of our <Link href={`/blog/${MOSQUITO_BLOGS.pillar.slug}`} className="text-brand-700 underline">Ultimate Mosquito Control Guide</Link>.
         </p>
 
-        <h2>Quick Answer: How Long Does Mosquito Spray Last?</h2>
-        <div className="speakable not-prose bg-brand-50 border border-brand-200 rounded-xl px-5 py-4 my-6 text-gray-800">
-          <p className="font-semibold text-brand-900 mb-1">Short answer: 3–4 weeks.</p>
-          <p className="text-sm leading-relaxed">A professional <Link href="/mosquito-control" className="text-brand-700 underline">mosquito barrier spray</Link> lasts <strong>3–4 weeks (up to 30 days)</strong> per application, while DIY store-bought sprays and foggers last just <strong>1–2 days</strong>. Rain within the first hour and stretches of intense heat and UV shorten it, so most GTA yards need re-treating every <strong>3–4 weeks</strong> from May through September to stay bite-free.</p>
-        </div>
+        <h2>How Long Each Type of Mosquito Spray Lasts</h2>
         <div className="not-prose overflow-x-auto my-6">
           <table className="w-full text-sm border-collapse">
             <thead>

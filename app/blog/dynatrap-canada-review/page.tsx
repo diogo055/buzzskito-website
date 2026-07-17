@@ -108,6 +108,26 @@ export default function DynaTrapCanadaPage() {
         </div>
       </section>
 
+      <section className="bg-white px-4">
+        <div className="max-w-4xl mx-auto">
+          <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+            <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">
+              DynaTraps are only a marginal mosquito tool — independent studies find 80–95% of what they catch is non-biting moths, beetles, and midges, with mosquitoes under 5%. If you still want one, the half-acre DT1050 ($149–$199) is the right size for a typical GTA backyard, but for real mosquito reduction a professional barrier spray or a CO₂ propane trap delivers far more per dollar.
+            </p>
+            <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+              <li>Independent University of Florida and Notre Dame studies find mosquitoes are under 5% of a UV trap&rsquo;s catch — 80–95% is moths, beetles, and midges.</li>
+              <li>A DynaTrap produces no CO₂, the main cue biting female mosquitoes hunt by; the Atrakta octenol cartridge only helps modestly.</li>
+              <li>The half-acre DT1050 ($149–$199) suits a typical GTA backyard; the 1-acre DT2030 ($199–$279) is for cottage lots.</li>
+              <li>UV bulbs are rated ~3,000 hours (about 4 months of 24/7 use) and drop to ~50% output by month 4 — replace each season.</li>
+              <li>First-year cost for a DT2030 with cartridges and bulbs runs about $290–$380.</li>
+              <li>DynaTraps do nothing for ticks, which do not fly to UV light.</li>
+            </ul>
+            <p className="mt-3 text-xs text-gray-500">— BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
+          </div>
+        </div>
+      </section>
+
       <section className="bg-gradient-to-br from-emerald-50 to-white border-b border-emerald-200 py-10 px-4">
         <div className="max-w-4xl mx-auto">
           <p className="text-xs font-extrabold text-emerald-700 uppercase tracking-wider mb-2">Where to Buy in Canada · Updated May 2026</p>
@@ -154,16 +174,6 @@ export default function DynaTrapCanadaPage() {
               <strong className="text-rose-900">⚠️ Independent research finds DynaTraps catch mostly non-biting insects.</strong> University studies show 80–95% of catches are moths, beetles, and other flying insects — not mosquitoes. If mosquito-specific reduction is your goal, <Link href="/mosquito-control" className="text-emerald-700 underline font-semibold">professional barrier spray</Link> ($99/treatment) or <Link href="/blog/mosquito-magnet-canada">Mosquito Magnet</Link> are far more effective. DynaTrap can supplement other strategies but shouldn&rsquo;t be your primary mosquito control.
             </p>
           </div>
-        </div>
-      </section>
-
-      <section className="bg-amber-50 border-y-4 border-amber-300 py-8 px-4">
-        <div className="max-w-4xl mx-auto">
-          <p className="text-xs font-extrabold text-amber-700 uppercase tracking-wider mb-2">Quick Answer</p>
-          <h2 className="text-xl font-extrabold text-brand-900 mb-3">Are DynaTraps worth it for Canadian backyards?</h2>
-          <p className="text-base text-gray-800 leading-relaxed">
-            <strong>Marginally — but only as a supplemental tool, not as primary mosquito control.</strong> DynaTraps use UV light and fan suction to catch flying insects, but independent research consistently shows that 80–95% of catches are non-biting moths, beetles, and midges. Mosquito catches are typically under 5%. Adding the Atrakta cartridge improves mosquito attraction modestly. For Canadian buyers wanting genuine mosquito reduction, <Link href="/mosquito-control" className="text-emerald-700 underline">professional barrier spray</Link>, <Link href="/blog/mosquito-magnet-canada">Mosquito Magnet</Link> propane CO₂ traps, or <Link href="/blog/thermacell-canada-where-to-buy">Thermacell devices</Link> are all more effective per dollar. DynaTrap is fine if you also want to catch general flying-insect nuisance, but don&rsquo;t expect it to solve a mosquito problem.
-          </p>
         </div>
       </section>
 

@@ -93,9 +93,18 @@ export default function CanDogsGetLymeDiseasePage() {
         <div className="max-w-3xl mx-auto">
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-            <p className="text-base text-gray-800 leading-relaxed">
-              Yes &mdash; dogs can get Lyme disease from ticks. It is caused by <em>Borrelia burgdorferi</em> bacteria carried by infected blacklegged (deer) ticks, which usually must stay attached 24&ndash;48 hours to transmit it. Most infected dogs show no signs, but some develop fever, lethargy, and shifting-leg lameness weeks to months later. It is not spread dog-to-dog or dog-to-human. See your veterinarian.
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">
+              Yes &mdash; dogs can get Lyme disease from the bite of an infected blacklegged (deer) tick carrying <em>Borrelia burgdorferi</em>. Most infected dogs never show signs, and it is not spread dog-to-dog or dog-to-human, but any dog with possible tick exposure should be watched and seen by a veterinarian if it develops lameness or fever.
             </p>
+            <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+              <li>An infected tick usually must stay attached 24&ndash;48 hours before it can transmit <em>Borrelia burgdorferi</em>.</li>
+              <li>Only about 5&ndash;10% of infected dogs ever develop clinical signs of Lyme disease.</li>
+              <li>When symptoms appear, they typically show up 2&ndash;5 months after the bite, not within days.</li>
+              <li>The classic early sign is shifting-leg lameness; dogs do not get the bull&rsquo;s-eye rash people do.</li>
+              <li>Lyme in dogs is treated with vet-prescribed antibiotics (commonly doxycycline) over a multi-week course.</li>
+              <li>A Lyme vaccine is available for dogs in Canada; there is no Lyme vaccine for cats.</li>
+            </ul>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
           </div>
         </div>
       </section>

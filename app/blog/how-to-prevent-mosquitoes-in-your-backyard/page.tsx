@@ -47,13 +47,21 @@ export default function PreventMosquitoesPage() {
       </section>
 
       {/* QUICK ANSWER */}
-      <section className="bg-amber-50 border-y-4 border-amber-300 py-8 px-4">
+      <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
-          <p className="text-xs font-extrabold text-amber-700 uppercase tracking-wider mb-2">Quick Answer</p>
-          <h2 className="text-xl font-extrabold text-brand-900 mb-3">How can I prevent mosquitoes in my Ontario backyard?</h2>
-          <p className="text-base text-gray-800 leading-relaxed">
-            <strong>The fastest mosquito reduction comes from eliminating standing water — the only place mosquitoes breed.</strong> Empty birdbaths weekly, clean gutters twice per season, drill drainage holes in plant saucers, level low-lying lawn areas, screen rain barrels, and treat ornamental ponds with BTI-based mosquito dunks (safe for pets, fish, and humans). For full-yard protection across the GTA mosquito season, combine prevention with professional barrier spray that kills adult mosquitoes flying in from ravines, ponds, and neighbouring properties. Single barrier spray treatments start at <strong>$99</strong>; the <strong>BuzzSkito Bite-Free Guarantee</strong> backs every visit.
-          </p>
+          <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+            <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The fastest way to prevent mosquitoes in your Ontario backyard is to eliminate standing water &mdash; the only place they breed. Empty birdbaths weekly, clean gutters twice a season, drill drainage holes in plant saucers, and treat any water you can&apos;t drain with BTI mosquito dunks. For full-yard protection, pair prevention with a professional barrier spray from $99.</p>
+            <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+              <li>Mosquitoes breed only in standing water &mdash; any container holding water for 48+ hours.</li>
+              <li>Larvae develop from egg to biting adult in 7&ndash;14 days in warm Ontario summer weather.</li>
+              <li>BTI mosquito dunks are safe for fish, pets, and humans, and one dunk treats up to 100 sq ft of water for 30 days.</li>
+              <li>Mosquitoes can fly up to 3 km, so prevention alone cuts your on-property population 40&ndash;60%; adding barrier spray reaches 85&ndash;95%.</li>
+              <li>Mosquitoes are weak fliers that struggle above about 1 m/s of wind, so a patio fan keeps them off a seating area.</li>
+              <li>A single professional barrier spray costs from $99 and gives up to 30 days of residual protection.</li>
+            </ul>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+          </div>
         </div>
       </section>
 

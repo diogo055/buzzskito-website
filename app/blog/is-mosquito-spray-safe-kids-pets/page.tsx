@@ -77,6 +77,19 @@ export default function IsMosquitoSpraySafePage() {
       </div>
 
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
+        <div className="not-prose bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+          <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+          <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Yes — Health Canada–approved mosquito barrier spray is safe for kids and pets once it has dried, which takes about 30 minutes. After that window the active ingredient is bound to plant surfaces and no longer airborne.</p>
+          <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+            <li>The standard re-entry interval is 30 minutes — the time the spray needs to dry on plant surfaces.</li>
+            <li>Professional barrier sprays use synthetic pyrethroids (permethrin, bifenthrin, or lambda-cyhalothrin), which mammals&rsquo; livers metabolize but insects cannot.</li>
+            <li>Cats are more sensitive to pyrethroids — keep cats indoors for at least 2 to 3 hours after treatment, until surfaces are fully dry.</li>
+            <li>Every registered product is reviewed by Health Canada&rsquo;s Pest Management Regulatory Agency (PMRA) before residential use.</li>
+            <li>Bees are only at risk from wet spray, so BuzzSkito treats resting sites at dawn or dusk and avoids flowering plants.</li>
+            <li>Health Canada does not recommend DEET for infants under 6 months, while icaridin (picaridin) may be used from 6 months.</li>
+          </ul>
+          <p className="mt-3 text-xs text-gray-500">— BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
+        </div>
         <p className="text-lg text-gray-600 leading-relaxed not-prose border-l-4 border-brand-400 pl-5 py-2 mb-8">
           The number-one question we get from GTA parents and pet owners is some version of: &ldquo;Is this safe for my kids and dog?&rdquo; It&rsquo;s the right question to ask — and it deserves a straight, factual answer. This guide explains what&rsquo;s in professional mosquito spray, how Health Canada&rsquo;s approval process works, what the re-entry windows mean, and what the actual caveats are. See our <Link href="/mosquito-control" className="text-brand-700 underline">mosquito control service page</Link> for treatment details.
         </p>

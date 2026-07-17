@@ -71,17 +71,24 @@ export default function DoTicksFlyOrJumpPage() {
         </div>
       </section>
 
-      {/* Quick Answer — AI-extraction block */}
-      <section className="bg-amber-50 border-y-4 border-amber-300 py-8 px-4">
+      {/* Quick Answer — AI-extraction capsule (first content element) */}
+      <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
-          <div className="flex items-center justify-between gap-3 mb-2">
-            <p className="text-xs font-extrabold text-amber-700 uppercase tracking-wider">Quick Answer</p>
-            <p className="text-xs font-semibold text-amber-700">Updated July 2026</p>
+          <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+            <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">
+              No &mdash; ticks cannot fly or jump. They have no wings and no jumping legs, so they reach a host only by &ldquo;questing&rdquo;: climbing to the tip of grass or a low plant, holding their front legs out, and grabbing on when a person or animal brushes past.
+            </p>
+            <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+              <li>Ticks are wingless at every life stage, so no tick can fly.</li>
+              <li>Ticks have no jumping legs; fleas can leap about 30 cm, but ticks cannot launch themselves at all.</li>
+              <li>In Ontario, ticks quest low &mdash; between ground level and about knee height (30&ndash;50 cm) &mdash; and rarely fall from trees.</li>
+              <li>A tick found on your upper body crawled there after boarding at your lower legs.</li>
+              <li>Ticks are slow crawlers that wander minutes to hours before attaching, so a prompt tick check often catches them.</li>
+              <li>A blacklegged tick generally needs to stay attached 24+ hours to transmit Lyme disease.</li>
+            </ul>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
           </div>
-          <h2 className="text-xl font-extrabold text-brand-900 mb-3">Do ticks fly or jump?</h2>
-          <p className="speakable text-base text-gray-800 leading-relaxed">
-            <strong>No — ticks cannot fly or jump. They have no wings and no jumping legs.</strong> Instead, ticks reach a host by climbing to the tips of grass or low plants and waiting to grab a passing host — a behaviour called &ldquo;questing.&rdquo; They hold their front legs out and latch on when a person or animal brushes past. Ticks quest low — usually below knee height — and crawl upward after attaching, which is why they are picked up in tall grass and at the lawn-to-woods edge, not from the air or from trees. In Ontario, the practical takeaway is simple: because ticks travel only by hitching a ride from vegetation, keeping grass short, clearing leaf litter, and treating yard edges with a barrier spray stops the vast majority of tick contact before it happens.
-          </p>
         </div>
       </section>
 

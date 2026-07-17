@@ -76,16 +76,21 @@ export default function HowToDoATickCheckPage() {
       </section>
 
       {/* Quick Answer — AI-extraction block */}
-      <section className="bg-amber-50 border-y-4 border-amber-300 py-8 px-4">
+      <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
-          <div className="flex items-center justify-between gap-3 mb-2">
-            <p className="text-xs font-extrabold text-amber-700 uppercase tracking-wider">Quick Answer</p>
-            <p className="text-xs font-semibold text-amber-700">Updated July 2026</p>
+          <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+            <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">To do a tick check, undress within two hours of coming indoors and, using a mirror and good light, feel over your whole body for a bump the size of a poppy seed &mdash; checking the scalp, ears, neck, armpits, belly button, waist, groin, and behind the knees. If you find one attached, grip it close to the skin with fine-tipped tweezers and pull straight out.</p>
+            <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+              <li>In Ontario, a blacklegged (deer) tick generally must stay attached about 24 to 36 hours before it can transmit Lyme disease bacteria, per the CDC and Government of Canada.</li>
+              <li>Nymph-stage ticks are only about the size of a poppy seed, so check by touch as much as by sight.</li>
+              <li>Ticks crawl upward and settle in warm folds &mdash; scalp and hairline, behind the ears, neck, armpits, belly button, waistband, groin, and behind the knees.</li>
+              <li>Tumble-drying clothes on high heat for 10 minutes kills ticks still on the fabric before they reach skin.</li>
+              <li>Remove an attached tick by pulling straight up with fine-tipped tweezers &mdash; do not twist, crush, or use petroleum jelly, nail polish, or a lit match.</li>
+              <li>Watch the bite for 30 days and see a doctor if an expanding rash, fever, or joint aches appear.</li>
+            </ul>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
           </div>
-          <h2 className="text-xl font-extrabold text-brand-900 mb-3">How do you do a tick check?</h2>
-          <p className="speakable text-base text-gray-800 leading-relaxed">
-            <strong>Within two hours of coming indoors, undress and check your entire body with a mirror and good light, feeling for a bump the size of a poppy seed.</strong> Ticks crawl upward and hide in warm, hidden folds, so check the scalp and hairline, behind and inside the ears, the back of the neck, under the arms, the belly button, around the waist, the groin, and behind the knees. A shower right after helps wash off unattached ticks. If you find one attached, grip it close to the skin with fine-tipped tweezers or a tick tool and pull straight out. In Ontario, a blacklegged tick usually needs 24+ hours attached to transmit Lyme disease, so a prompt daily check in tick season is one of the most effective preventions there is.
-          </p>
         </div>
       </section>
 

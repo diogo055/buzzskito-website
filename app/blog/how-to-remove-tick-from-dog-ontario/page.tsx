@@ -74,6 +74,20 @@ export default function HowToRemoveTickFromDogPage() {
 
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
+          <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable not-prose">
+            <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">To remove a tick from your dog, grip it with fine-tipped tweezers or a tick-removal tool as close to the skin as possible &mdash; at the head, never the body &mdash; and pull straight up with steady, even pressure without twisting. Clean the bite with rubbing alcohol, and save the tick in a sealed bag in case your vet needs to identify it.</p>
+            <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+              <li>Blacklegged (deer) ticks generally must stay attached 24+ hours to transmit Lyme disease, so prompt removal matters most.</li>
+              <li>Grip the tick at the head with fine-tipped tweezers and pull straight up &mdash; do not twist, squeeze the body, or use Vaseline, nail polish, or a lit match.</li>
+              <li>If the mouthparts break off, leave them &mdash; the skin works them out like a splinter within a few days.</li>
+              <li>Ticks favour warm, hidden spots: inside the ears, under the collar, armpits, between the toes, and the tail base.</li>
+              <li>In Ontario, blacklegged ticks are most active April&ndash;June and September&ndash;November, and can be active any month above 4&deg;C.</li>
+              <li>Dog Lyme symptoms typically appear 2&ndash;5 months after a bite &mdash; shifting-leg lameness, fever, lethargy &mdash; so call your vet if they develop.</li>
+            </ul>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+          </div>
+
           <p className="lead text-xl text-gray-700 leading-relaxed mb-6">You found a tick on your dog. Take a breath — you have time. Most blacklegged ticks need to be attached for 24+ hours to transmit Lyme disease, and removing the tick correctly is the single most important thing you can do right now. Here&rsquo;s how to do it safely, in 5 minutes, with what you probably already have at home.</p>
 
           <AffiliateDisclosure />

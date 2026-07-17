@@ -94,10 +94,10 @@ export default function TickHeadStuckInSkinPage() {
         {/* ANSWER CAPSULE — first content element */}
         <div className="not-prose bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
           <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-          <p className="text-gray-800 leading-relaxed mb-3">
-            BuzzSkito&rsquo;s GTA tick technicians: what feels like a &ldquo;head&rdquo; stuck in your skin is actually the tick&rsquo;s mouthparts. Make one gentle attempt to lift it out with fine-tipped tweezers, and if it won&rsquo;t come easily, leave it — your skin pushes it out like a splinter. Then disinfect and watch for infection.
+          <p className="text-gray-800 text-[15px] leading-relaxed font-medium">
+            What feels like a &ldquo;head&rdquo; stuck in your skin is actually the tick&rsquo;s mouthparts. Make one gentle attempt to lift it out with fine-tipped tweezers, and if it won&rsquo;t come easily, leave it — your skin pushes it out like a splinter. Then disinfect and watch for infection.
           </p>
-          <ul className="space-y-2 text-gray-800 text-sm list-disc pl-5">
+          <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
             <li>What people call the &ldquo;head&rdquo; is really the tick&rsquo;s <strong>mouthparts</strong> — a barbed feeding tube called the hypostome, not a head.</li>
             <li>The U.S. <strong>CDC advises leaving embedded mouthparts to heal</strong> on their own if they don&rsquo;t lift out with one gentle tweezer attempt.</li>
             <li>Retained mouthparts <strong>cannot transmit Lyme disease</strong> on their own — the bacteria live in the tick&rsquo;s gut, which you&rsquo;ve already removed.</li>
@@ -105,6 +105,7 @@ export default function TickHeadStuckInSkinPage() {
             <li>In Ontario, blacklegged-tick Lyme risk rises significantly after <strong>24–36 hours</strong> of attachment (Public Health Ontario).</li>
             <li><strong>Disinfect</strong> with rubbing alcohol; <strong>see a doctor</strong> if you get spreading redness, pus, or a rash 3–30 days later.</li>
           </ul>
+          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
         </div>
 
         <div className="not-prose bg-amber-50 border border-amber-200 rounded-xl p-5 mb-8">

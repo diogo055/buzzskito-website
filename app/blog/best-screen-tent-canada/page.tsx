@@ -81,13 +81,21 @@ export default function BestScreenTentCanadaPage() {
         </div>
       </section>
 
-      <section className="bg-gradient-to-br from-emerald-50 to-white border-b border-emerald-200 py-10 px-4">
+      <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
-          <p className="text-xs font-extrabold text-emerald-700 uppercase tracking-wider mb-2">Quick Answer &middot; Updated July 2026</p>
-          <h2 className="text-2xl font-extrabold text-brand-900 mb-3">What is the best screen tent in Canada?</h2>
-          <p className="speakable text-base text-gray-800 leading-relaxed">
-            <strong>For most Canadian backyards and campsites, the Coleman Instant Screened Canopy 11x11 is the best screen tent in 2026</strong> — a 121 sq ft (11.2 m&sup2;) screen house that sets up in about three minutes. Budget buyers should look at the CAMPROS 12x10; for one-person pop-up setup, the EAST OAK 10x10 screen room wins.
-          </p>
+          <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+            <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">For most Canadian backyards and campsites, the Coleman Instant Screened Canopy 11x11 is the best screen tent in 2026 &mdash; a 121 sq ft (11.2 m&sup2;) screen house with pre-attached poles that one adult can set up in about three minutes. Budget buyers should look at the CAMPROS 12x10, and the EAST OAK 10x10 pop-up wins for one-person setup.</p>
+            <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+              <li>The Coleman Instant Screened Canopy 11x11 covers 121 sq ft (11 x 11 ft) and sets up in about 3 minutes.</li>
+              <li>The Coleman Skylodge 15x13 is the largest at 195 sq ft, standing in roughly 5 minutes with two people.</li>
+              <li>The CAMPROS 12x10 (120 sq ft) is the budget pick but uses traditional poles that take about 10&ndash;15 minutes.</li>
+              <li>The EAST OAK 10x10 pop-up (100 sq ft) sets up solo in roughly 1&ndash;2 minutes.</li>
+              <li>Expect to spend roughly $120&ndash;$400 for a quality screen house in Canada.</li>
+              <li>All five models are confirmed available on Amazon.ca as of July 2026.</li>
+            </ul>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+          </div>
         </div>
       </section>
 

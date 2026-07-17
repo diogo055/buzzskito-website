@@ -59,6 +59,24 @@ export default function MosquitoControlEtobicokePage() {
         </div>
       </section>
 
+      <section className="bg-white px-4 pt-8">
+        <div className="max-w-3xl mx-auto">
+          <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
+            <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Etobicoke and North York face heavier mosquito and tick pressure than flat suburban blocks because of the Humber River and Don Valley ravine corridors. For ravine-adjacent homes, the fix is a professional barrier spray program &mdash; 4&ndash;5 mosquito treatments plus monthly tick treatments from May to September, applied in the same visit.</p>
+            <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+              <li>Properties within 500 metres of the Humber River valley edge often see 3&ndash;5x the evening mosquito activity of homes on flat blocks farther away.</li>
+              <li>Toronto Public Health has documented blacklegged ticks in both the Humber River and Don Valley ravine systems.</li>
+              <li>Homes within 100 metres of a wooded ravine should combine mosquito and tick treatment &mdash; both are applied in a single visit.</li>
+              <li>Ravine-adjacent properties typically need 4&ndash;5 mosquito treatments and 5 monthly tick treatments, May through September.</li>
+              <li>Hotspots include James Gardens, Centennial Park, Serena Gundy Park&rsquo;s 120 acres of valley land, and the Burke Brook corridor.</li>
+              <li>Barrier spray targets shrub undersides, hedge interiors, and leaf-litter margins &mdash; not the open lawn or the ravine itself.</li>
+            </ul>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+          </div>
+        </div>
+      </section>
+
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
         <p className="text-lg text-gray-600 leading-relaxed not-prose border-l-4 border-brand-400 pl-5 py-2 mb-8">
           Toronto&rsquo;s ravine system is one of the city&rsquo;s greatest assets — and one of the main reasons Etobicoke and North York homeowners deal with persistent mosquito and tick pressure that flat suburban neighbourhoods don&rsquo;t. This guide covers the specific hotspots and what works. See our <Link href="/etobicoke-mosquito-control" className="text-brand-700 underline">Etobicoke mosquito control</Link> and <Link href="/north-york-mosquito-control" className="text-brand-700 underline">North York mosquito control</Link> service pages.
