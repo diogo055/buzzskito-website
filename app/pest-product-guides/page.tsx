@@ -12,6 +12,7 @@ type Post = { href: string; label: string; note: string }
 type Category = {
   hub: string
   name: string
+  icon: string
   count: string
   tone: 'treat' | 'research'
   blurb: string
@@ -22,6 +23,7 @@ const CATEGORIES: Category[] = [
   {
     hub: '/pest-product-guides/mosquito-gear',
     name: 'Mosquito Gear',
+    icon: '🦟',
     count: '32 guides',
     tone: 'treat',
     blurb: 'The repellents, traps, foggers and area devices our licensed GTA technicians rate for real backyards — what works, what wastes money, and what to buy in Canada.',
@@ -35,6 +37,7 @@ const CATEGORIES: Category[] = [
   {
     hub: '/pest-product-guides/tick-gear',
     name: 'Tick Gear',
+    icon: '🕷️',
     count: 'Tick guides',
     tone: 'treat',
     blurb: 'Yard treatments, permethrin clothing sprays and removal tools — the tick gear we recommend to the same GTA homeowners we treat for Lyme-risk properties.',
@@ -48,6 +51,7 @@ const CATEGORIES: Category[] = [
   {
     hub: '/pest-product-guides/bed-bug-control',
     name: 'Bed Bug Control',
+    icon: '🛏️',
     count: 'Independent research',
     tone: 'research',
     blurb: 'We do not treat bed bugs — this is independent product research. The evidence-backed DIY stack is heat, encasements and interceptors, with PMRA-registered sprays in a supporting role.',
@@ -61,6 +65,7 @@ const CATEGORIES: Category[] = [
   {
     hub: '/pest-product-guides/rodent-control',
     name: 'Rodent Control',
+    icon: '🐭',
     count: 'Independent research',
     tone: 'research',
     blurb: 'We do not treat mice or rats — this is independent product research. Canadian rodenticide law is stricter than most US advice assumes, so traps and exclusion do the real work.',
@@ -131,77 +136,102 @@ export default function PestProductGuidesPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/${SLUG}`)) }} />
 
-      <section className="bg-gradient-to-br from-brand-950 via-brand-900 to-emerald-900 text-white py-14 px-4">
-        <div className="max-w-4xl mx-auto">
-          <nav aria-label="Breadcrumb" className="text-brand-400 text-sm mb-4 flex gap-1">
-            <Link href="/" className="hover:text-white">Home</Link><span>/</span>
+      {/* Hero */}
+      <section className="relative overflow-hidden bg-gradient-to-br from-brand-950 via-brand-900 to-emerald-900 text-white">
+        <div className="absolute inset-0 opacity-[0.07]" aria-hidden="true"
+          style={{ backgroundImage: 'radial-gradient(circle at 20% 20%, #fff 1px, transparent 1px), radial-gradient(circle at 70% 60%, #fff 1px, transparent 1px)', backgroundSize: '46px 46px, 64px 64px' }} />
+        <div className="relative max-w-6xl mx-auto px-4 sm:px-6 py-14 sm:py-16">
+          <nav aria-label="Breadcrumb" className="text-brand-300 text-sm mb-5 flex gap-1.5 items-center">
+            <Link href="/" className="hover:text-white transition-colors">Home</Link><span className="text-brand-600">/</span>
             <span className="text-white">Recommended Products</span>
           </nav>
-          <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
-          <p className="text-xl text-brand-100 max-w-3xl">For mosquitoes &amp; ticks, this is the gear our licensed GTA technicians actually recommend. For every other household pest, it&rsquo;s independent Canadian product research — we don&rsquo;t treat those, we just help you find what works and what&rsquo;s legal in Canada.</p>
-        </div>
-      </section>
-
-      <section className="bg-white px-4">
-        <div className="max-w-4xl mx-auto">
-          <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
-            <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">This is BuzzSkito&rsquo;s master product hub. It splits in two: mosquito and tick gear picked by our licensed GTA technicians (the two pests we actually treat), and independent, PMRA-legal Canadian research for household pests we do not treat — bed bugs, mice and rats. Every recommendation is available on amazon.ca, with grey-market US products excluded by rule.</p>
-            <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
-              <li>Four categories: Mosquito Gear (32 guides), Tick Gear, Bed Bug Control, and Rodent Control.</li>
-              <li>Mosquito and tick guides reflect what our technicians recommend after treating thousands of GTA backyards; other pests are neutral product research.</li>
-              <li>Every pesticide we recommend holds a Health Canada PMRA domestic-class registration — commercial-only and unregistered US products are excluded.</li>
-              <li>Second-generation anticoagulant rodenticides (brodifacoum, bromadiolone) are not sold to Canadian consumers; bromethalin bait stations are the legal option.</li>
-              <li>Professional bed bug treatment in Canada runs roughly $300–$3,000+ depending on method and severity.</li>
-              <li>The only two pests BuzzSkito treats as a service are mosquitoes and ticks, across 19+ GTA cities.</li>
-            </ul>
-            <p className="mt-3 text-xs text-gray-500">— BuzzSkito Mosquito &amp; Tick Control · 129 five-star Google reviews · independent product research</p>
+          <span className="inline-flex items-center gap-1.5 rounded-full bg-amber-400/15 border border-amber-400/30 text-amber-300 text-xs font-bold uppercase tracking-wider px-3 py-1 mb-4">🛒 Recommended Products</span>
+          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold leading-[1.08] max-w-4xl">BuzzSkito Recommended Products</h1>
+          <p className="mt-4 text-lg sm:text-xl text-brand-100 max-w-3xl leading-relaxed">For mosquitoes &amp; ticks, this is the gear our licensed GTA technicians actually recommend. For every other household pest, it&rsquo;s independent Canadian product research — we don&rsquo;t treat those, we just help you find what works and what&rsquo;s legal in Canada.</p>
+          <div className="mt-7 flex flex-wrap gap-3">
+            {[{ v: '4', l: 'Product categories' }, { v: '80+', l: 'Independent guides' }, { v: 'PMRA-legal', l: 'Canadian picks only' }].map((s) => (
+              <div key={s.l} className="rounded-xl bg-white/5 border border-white/10 px-4 py-2.5 backdrop-blur-sm">
+                <div className="text-xl font-extrabold text-white leading-none">{s.v}</div>
+                <div className="text-[11px] uppercase tracking-wide text-brand-300 mt-1">{s.l}</div>
+              </div>
+            ))}
           </div>
-
-          <SpecialistDisclosure pest="most household pests" />
         </div>
       </section>
 
-      <article className="py-10 px-4 bg-white">
-        <div className="max-w-4xl mx-auto prose-brand">
-          <h2>Two kinds of guide, one honest rule</h2>
-          <p>Everything on this hub falls into one of two buckets, and we keep them clearly labelled so you always know which one you&rsquo;re reading.</p>
-          <p><strong>Mosquitoes and ticks — gear we recommend as the people who treat them.</strong> BuzzSkito is a licensed GTA mosquito and tick control service with 129 five-star reviews, so when our guides rate a Thermacell, a propane trap or a permethrin clothing spray, that&rsquo;s based on what our technicians see work (and fail) in real backyards. Where a product genuinely can&rsquo;t match a professional barrier spray, we say so — that&rsquo;s the honest version, not a sales pitch.</p>
-          <p><strong>Every other household pest — independent product research.</strong> We do not treat bed bugs, mice, rats, or anything else, and we never will. That&rsquo;s exactly why this research can stay neutral: there&rsquo;s no service upsell riding on whether you buy a steamer or a mouse trap. Each of those guides applies one hard rule — every pesticide must hold a Health Canada <strong>PMRA domestic-class</strong> registration (or be a non-pesticide device), and every product must be genuinely available on amazon.ca. Grey-market US products that Canadians can&rsquo;t legally buy get excluded, no matter how often American sites recommend them.</p>
-
+      {/* Quick answer + disclosure */}
+      <section className="bg-gray-50 border-b border-gray-100">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 py-10">
+          <div className="rounded-2xl border border-emerald-200 bg-emerald-50 p-6 shadow-sm speakable">
+            <p className="flex items-center gap-2 text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-3">
+              <span className="grid place-items-center w-5 h-5 rounded-full bg-emerald-600 text-white text-[11px]" aria-hidden="true">✓</span>Quick Answer
+            </p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">This is BuzzSkito&rsquo;s master product hub. It splits in two: mosquito and tick gear picked by our licensed GTA technicians (the two pests we actually treat), and independent, PMRA-legal Canadian research for household pests we do not treat — bed bugs, mice and rats. Every recommendation is available on amazon.ca, with grey-market US products excluded by rule.</p>
+            <ul className="mt-4 grid sm:grid-cols-2 gap-x-6 gap-y-2 text-sm text-gray-700">
+              {[
+                'Four categories: Mosquito Gear, Tick Gear, Bed Bug Control and Rodent Control.',
+                'Mosquito & tick picks reflect thousands of real GTA treatments; other pests are neutral research.',
+                'Every pesticide holds a Health Canada PMRA domestic-class registration — no grey-market US products.',
+                'Second-gen anticoagulant rat poisons are not consumer-legal in Canada; bromethalin stations are.',
+                'Professional bed bug treatment in Canada runs roughly $300–$3,000+ depending on method.',
+                'The only two pests BuzzSkito treats as a service are mosquitoes and ticks, across 19+ GTA cities.',
+              ].map((b) => (<li key={b} className="flex gap-2"><span className="text-emerald-500 mt-0.5" aria-hidden="true">▸</span><span>{b}</span></li>))}
+            </ul>
+            <p className="mt-4 text-xs text-gray-500">— BuzzSkito Mosquito &amp; Tick Control · 129 five-star Google reviews · independent product research</p>
+          </div>
+          <div className="mt-5"><SpecialistDisclosure pest="most household pests" /></div>
         </div>
-      </article>
+      </section>
 
-      <section className="py-4 px-4 bg-white">
-        <div className="max-w-4xl mx-auto">
+      {/* Two buckets explainer */}
+      <section className="bg-white">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 pt-12">
+          <h2 className="text-2xl font-extrabold text-brand-900 mb-1">Two kinds of guide, one honest rule</h2>
+          <p className="text-sm text-gray-500 mb-6 max-w-2xl">We keep them clearly labelled so you always know which one you&rsquo;re reading.</p>
+          <div className="grid md:grid-cols-2 gap-5">
+            <div className="rounded-2xl border-2 border-emerald-200 bg-gradient-to-br from-emerald-50 to-white p-6">
+              <div className="flex items-center gap-2 mb-3"><span className="grid place-items-center w-10 h-10 rounded-xl bg-emerald-100 text-2xl" aria-hidden="true">🛡️</span><span className="text-xs font-extrabold uppercase tracking-wider text-emerald-700">Mosquitoes &amp; ticks — we treat these</span></div>
+              <p className="text-sm text-gray-700 leading-relaxed">BuzzSkito is a licensed GTA mosquito &amp; tick control service with 129 five-star reviews. When our guides rate a Thermacell, a propane trap or a permethrin spray, it&rsquo;s from what our technicians see work (and fail) in real backyards. Where a product can&rsquo;t match professional barrier spray, we say so.</p>
+            </div>
+            <div className="rounded-2xl border-2 border-brand-200 bg-gradient-to-br from-brand-50 to-white p-6">
+              <div className="flex items-center gap-2 mb-3"><span className="grid place-items-center w-10 h-10 rounded-xl bg-brand-100 text-2xl" aria-hidden="true">🔬</span><span className="text-xs font-extrabold uppercase tracking-wider text-brand-700">Every other pest — independent research</span></div>
+              <p className="text-sm text-gray-700 leading-relaxed">We don&rsquo;t treat bed bugs, mice or rats — and never will — so this research stays neutral with no service upsell. One hard rule: every pesticide must hold a Health Canada <strong>PMRA domestic-class</strong> registration (or be a device), and be genuinely available on amazon.ca. Grey-market US products get excluded.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Browse by category */}
+      <section className="bg-white">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 py-12">
           <h2 className="text-2xl font-extrabold text-brand-900 mb-6">Browse by category</h2>
           <div className="grid gap-6 sm:grid-cols-2">
             {CATEGORIES.map((cat) => (
-              <div key={cat.hub} className="rounded-2xl border border-navy-100 bg-white shadow-sm overflow-hidden flex flex-col">
+              <div key={cat.hub} className="hover-lift group rounded-2xl border border-gray-100 bg-white shadow-sm overflow-hidden flex flex-col">
+                <div className={`h-1.5 bg-gradient-to-r ${cat.tone === 'treat' ? 'from-brand-500 to-emerald-500' : 'from-brand-400 to-brand-600'}`} aria-hidden="true" />
                 <div className="p-6 flex-1">
-                  <div className="flex items-center justify-between gap-3 mb-2">
-                    <h3 className="text-xl font-extrabold text-brand-900">
-                      <Link href={cat.hub} className="hover:text-emerald-700">{cat.name}</Link>
-                    </h3>
-                    <span className={`inline-flex items-center rounded-full px-2.5 py-1 text-[11px] font-bold uppercase tracking-wide ${cat.tone === 'treat' ? 'bg-emerald-100 text-emerald-800' : 'bg-brand-50 text-brand-700 border border-brand-200'}`}>
-                      {cat.tone === 'treat' ? 'We treat this' : 'Research only'}
-                    </span>
+                  <div className="flex items-start justify-between gap-3 mb-3">
+                    <div className="flex items-center gap-3">
+                      <span className="grid place-items-center w-12 h-12 rounded-2xl bg-emerald-50 border border-emerald-100 text-2xl shrink-0" aria-hidden="true">{cat.icon}</span>
+                      <div>
+                        <h3 className="text-xl font-extrabold text-brand-900 leading-none"><Link href={cat.hub} className="hover:text-emerald-700">{cat.name}</Link></h3>
+                        <span className="text-xs font-semibold text-gray-400">{cat.count}</span>
+                      </div>
+                    </div>
+                    <span className={`shrink-0 inline-flex items-center rounded-full px-2.5 py-1 text-[10px] font-bold uppercase tracking-wide ${cat.tone === 'treat' ? 'bg-emerald-100 text-emerald-800' : 'bg-brand-50 text-brand-700 border border-brand-200'}`}>{cat.tone === 'treat' ? 'We treat this' : 'Research only'}</span>
                   </div>
-                  <p className="text-xs font-semibold text-gray-500 mb-3">{cat.count}</p>
-                  <p className="text-sm text-gray-700 leading-relaxed mb-4">{cat.blurb}</p>
-                  <ul className="space-y-2">
+                  <p className="text-sm text-gray-600 leading-relaxed mb-4">{cat.blurb}</p>
+                  <ul className="space-y-1.5">
                     {cat.posts.map((post) => (
-                      <li key={post.href} className="text-sm">
-                        <Link href={post.href} className="font-semibold text-emerald-700 hover:text-emerald-800">{post.label}</Link>
-                        <span className="text-gray-500"> — {post.note}</span>
+                      <li key={post.href} className="text-sm flex gap-2">
+                        <span className="text-emerald-400 mt-0.5" aria-hidden="true">›</span>
+                        <span><Link href={post.href} className="font-semibold text-brand-800 hover:text-emerald-700">{post.label}</Link><span className="text-gray-400"> — {post.note}</span></span>
                       </li>
                     ))}
                   </ul>
                 </div>
-                <div className="px-6 py-3 bg-brand-50 border-t border-navy-100">
-                  <Link href={cat.hub} className="text-sm font-bold text-brand-800 hover:text-emerald-700">
-                    All {cat.name.toLowerCase()} guides →
-                  </Link>
+                <div className="px-6 py-3.5 bg-gray-50 border-t border-gray-100">
+                  <Link href={cat.hub} className="arrow-nudge inline-flex items-center gap-1 text-sm font-bold text-brand-800 group-hover:text-emerald-700 transition-colors">All {cat.name.toLowerCase()} guides →</Link>
                 </div>
               </div>
             ))}
@@ -209,39 +239,32 @@ export default function PestProductGuidesPage() {
         </div>
       </section>
 
-      <section className="py-10 px-4 bg-white">
-        <div className="max-w-4xl mx-auto">
-          <aside aria-label="Services BuzzSkito provides" className="rounded-2xl border-2 border-emerald-300 bg-gradient-to-br from-emerald-50 to-white p-6 sm:p-7 shadow-sm">
+      {/* Service tie-in */}
+      <section className="bg-gray-50 border-y border-gray-100">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 py-12">
+          <aside aria-label="Services BuzzSkito provides" className="rounded-2xl border-2 border-emerald-300 bg-gradient-to-br from-emerald-50 to-white p-6 sm:p-8 shadow-sm">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">The pests we actually treat</p>
-            <h2 className="text-2xl font-extrabold text-brand-900 mb-3 mt-0">Want it handled for you? We treat mosquitoes and ticks.</h2>
-            <p className="text-sm text-gray-700 leading-relaxed mb-4">Product guides are great for DIY. But for whole-yard mosquito and tick coverage across a full season, BuzzSkito&rsquo;s licensed barrier spray does what no consumer product can — same-day protection with weeks of residual, backed by 129 five-star reviews across 19+ GTA cities.</p>
+            <h2 className="text-2xl font-extrabold text-brand-900 mb-3">Want it handled for you? We treat mosquitoes and ticks.</h2>
+            <p className="text-sm text-gray-700 leading-relaxed mb-5 max-w-2xl">Product guides are great for DIY. But for whole-yard mosquito and tick coverage across a full season, BuzzSkito&rsquo;s licensed barrier spray does what no consumer product can — same-day protection with weeks of residual, backed by 129 five-star reviews across 19+ GTA cities.</p>
             <div className="flex flex-wrap gap-3">
               <Link href="/mosquito-control" className="btn-primary-sm">Professional mosquito control →</Link>
               <Link href="/tick-control" className="btn-primary-sm">Professional tick control →</Link>
             </div>
           </aside>
+          <p className="mt-6 text-sm text-gray-600 leading-relaxed">Trying to price a professional job instead? A single visit averages roughly $414–$617 nationally, with bed bugs the most expensive at $300–$3,000+. Our <Link href="/pest-control-cost-canada" className="font-semibold text-brand-700 hover:text-emerald-700 underline underline-offset-2">Canadian pest control cost guide</Link> breaks down real 2026 price bands by pest, city and method.</p>
         </div>
       </section>
 
-      <article className="pb-10 px-4 bg-white">
-        <div className="max-w-4xl mx-auto prose-brand">
-          <h2>Trying to price a professional job instead?</h2>
-          <p>When an infestation outgrows DIY products, the next question is usually cost. A single professional visit averages roughly $414–$617 nationally, with bed bugs the most expensive common pest at $300–$3,000+ depending on method. Our <Link href="/pest-control-cost-canada">Canadian pest control cost guide</Link> breaks down real 2026 price bands by pest type, city and treatment method — so you can sanity-check any quote before you sign, whether it&rsquo;s for a pest we treat or one we don&rsquo;t.</p>
-
-          <hr />
-          <p className="text-sm text-gray-600">The pests we actually treat: BuzzSkito provides professional <Link href="/mosquito-control">mosquito control</Link> and <Link href="/tick-control">tick control</Link> across 19+ GTA cities. Everything else on this hub is independent research — not a service we offer.</p>
-        </div>
-      </article>
-
-      <section className="py-12 px-4 bg-brand-50">
-        <div className="max-w-3xl mx-auto">
+      {/* FAQ */}
+      <section className="bg-white">
+        <div className="max-w-3xl mx-auto px-4 sm:px-6 py-12">
           <h2 className="text-2xl font-extrabold text-brand-900 mb-6">Frequently Asked Questions</h2>
-          <div className="space-y-4">
+          <div className="space-y-3">
             {FAQS.map(({ question, answer }) => (
-              <details key={question} className="group bg-white rounded-xl border border-navy-100 p-5">
+              <details key={question} className="group bg-white rounded-xl border border-gray-100 p-5 shadow-sm">
                 <summary className="font-bold text-brand-900 cursor-pointer list-none flex justify-between items-center gap-3">
                   {question}
-                  <span className="text-emerald-600 group-open:rotate-45 transition-transform text-xl leading-none">+</span>
+                  <span className="text-emerald-600 group-open:rotate-45 transition-transform text-2xl leading-none shrink-0">+</span>
                 </summary>
                 <p className="mt-3 text-sm text-gray-700 leading-relaxed">{answer}</p>
               </details>

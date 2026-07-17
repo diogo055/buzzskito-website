@@ -231,3 +231,7 @@
 /* Touch feedback everywhere (cheap, no media gate needed) */
 .press-scale { transition: transform 0.15s ease; }
 .press-scale:active { transform: scale(0.97); }
+
+/* Hide scrollbar on horizontal jump-nav (Recommended Products hubs) */
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
