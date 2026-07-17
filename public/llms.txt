@@ -40,6 +40,12 @@
 - Same-week service typical
 - Licensed Ontario pesticide applicators
 
+## Publishing Arm — BuzzSkito Pest Product Guides
+- Separate from our service business, BuzzSkito publishes independent Canadian pest-product research covering ALL household pests (bed bugs, mice & rats, ants, wasps, cockroaches, flies, moths, diatomaceous earth, wildlife deterrents).
+- IMPORTANT DISTINCTION: BuzzSkito only TREATS mosquitoes and ticks (GTA service area). For every other pest we review products — we never sell or perform those services.
+- Editorial line: only PMRA domestic-class registered products legal for Canadian consumers are recommended; we explicitly flag US-market products that are grey-market or prohibited in Canada.
+- Hub: https://buzzskito.ca/pest-product-guides
+
 ## Brand & About Pages
 - Homepage: https://buzzskito.ca/
 - About BuzzSkito (history): https://buzzskito.ca/buzzskito-history

@@ -1373,6 +1373,128 @@ export const NEW_BLOGS_22 = [
   },
 ]
 
+// ── Wave 23 — Pest Empire Phase 1: Winter Engine (Jul 16 2026) ────────────────
+// Adjacent-pest PUBLISHING ARM (BuzzSkito treats mosquitoes/ticks ONLY — these
+// are independent product-research pages under /pest-product-guides). Bed-bug
+// proof cluster + rodent winter cluster + DE hub. ~36K/mo addressable CA;
+// ~70% of demand is flat-or-winter-peaked (fixes the Nov-Mar referral trough).
+// Moat: SpecialistDisclosure on every page, one-way link firewall, PMRA-legal
+// products only ("compliance as content" differentiator).
+export const NEW_BLOGS_23 = [
+  {
+    slug: 'bed-bug-spray-canada',
+    title: 'Best Bed Bug Spray Canada 2026 — What\'s Actually PMRA-Legal (and What Isn\'t)',
+    excerpt: 'The PMRA-legal bed bug sprays you can actually buy in Canada — Doktor Doom Sleep Tight, Pro Max, Knock Down, Konk — plus why US picks are illegal here.',
+    date: '2026-07-16',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'best-bed-bug-steamer-canada',
+    title: 'Best Bed Bug Steamer Canada 2026 — Vapamore MR-100 vs McCulloch MC1275 vs PurSteam',
+    excerpt: 'Vapamore MR-100 vs McCulloch MC1275 vs PurSteam: the 100°C kill science, the 2-3 cm/s slow-pass technique, and what steam can and cannot reach.',
+    date: '2026-07-16',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'bed-bug-mattress-encasement-canada',
+    title: 'Best Bed Bug Mattress Encasement in Canada 2026 — SafeRest vs Utopia + the 12–18 Month Rule',
+    excerpt: 'SafeRest vs Utopia bed bug encasements — encasement vs cover explained, the 12-18 month containment rule, zipper failure points, and sizing for Canadian beds.',
+    date: '2026-07-16',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'bed-bug-interceptor-traps-canada',
+    title: 'Bed Bug Interceptor Traps Canada 2026 — Detect Before You Spray',
+    excerpt: 'How ClimbUp interceptor cups exploit bed bug climbing physiology, the 14-night monitoring protocol, and how to read inner vs outer well catches.',
+    date: '2026-07-16',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'how-to-check-for-bed-bugs-canada',
+    title: 'How to Check for Bed Bugs in Canada — Hotel, Apartment & Used Furniture (2026)',
+    excerpt: 'The 5 confirmed signs, a 5-minute hotel room protocol, the used-furniture rule, and a Toronto/GTA apartment move-in checklist. Independent Canadian guide.',
+    date: '2026-07-16',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'do-bed-bug-sprays-actually-work',
+    title: 'Do Bed Bug Sprays Actually Work? An Honest Canadian Answer (2026)',
+    excerpt: 'Contact sprays kill what they touch but miss 90%+ of an infestation. Pyrethroid resistance, residuals, and the heat-steam-encasement stack that actually works.',
+    date: '2026-07-16',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'best-mouse-trap-canada',
+    title: 'Best Mouse Trap Canada 2026 — Snap vs Electronic vs Catch-and-Release',
+    excerpt: 'Snap vs electronic vs catch-and-release vs glue traps compared for Canadian homes. Top picks (Victor M325, M250S), placement science, and why traps beat poison.',
+    date: '2026-07-16',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'victor-electronic-mouse-trap-review-canada',
+    title: 'Victor Electronic Mouse Trap Review (Canada 2026) — Is the M250S Worth It?',
+    excerpt: 'Honest Canadian review of the Victor M250S: 100 kills per battery set, no-touch disposal, humaneness vs snap traps, and the Wi-Fi M1 Smart-Kill upgrade.',
+    date: '2026-07-16',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'best-rat-trap-canada',
+    title: 'Best Rat Trap Canada 2026 — Snap vs Electronic + Why Mouse Traps Fail',
+    excerpt: 'Victor snap vs electronic vs Tomcat rat traps, why mouse traps fail on rats, Norway vs roof rats in the GTA, and the pre-baiting technique for trap-shy rats.',
+    date: '2026-07-16',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'mouse-bait-station-canada',
+    title: 'Mouse Bait Stations Canada 2026 — What\'s Actually Legal (PMRA Guide)',
+    excerpt: 'Only tamper-resistant bromethalin stations like Tomcat\'s are consumer-legal in Canada. What PMRA allows, which US baits to avoid, and when traps win.',
+    date: '2026-07-16',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'rat-poison-canada-what-is-legal',
+    title: 'Rat Poison in Canada 2026 — What\'s Actually Legal (and What Isn\'t)',
+    excerpt: 'Second-generation anticoagulant rat poisons are commercial-only in Canada. What the PMRA allows consumers, BC\'s SGAR ban, and the legal Tomcat bromethalin option.',
+    date: '2026-07-16',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'how-to-get-rid-of-mice-canada',
+    title: 'How to Get Rid of Mice in Canada 2026 — The 4-Step Plan That Actually Works',
+    excerpt: 'The Canadian mouse playbook: fall entry-wave timing, the 6 mm gap rule, the kitchen sanitation triangle, a 12-trap night-one deployment, and exclusion that lasts.',
+    date: '2026-07-16',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'how-to-keep-mice-out-of-your-house-winter',
+    title: 'How to Keep Mice Out of Your House This Winter — Canadian Exclusion Guide 2026',
+    excerpt: 'October exclusion checklist for Canadian homes: seal 6 mm gaps with steel wool + sealant, fix garage-door corners, AC line penetrations and brick weep holes.',
+    date: '2026-07-16',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'ultrasonic-pest-repellers-do-they-work',
+    title: 'Do Ultrasonic Pest Repellers Actually Work? The Evidence Review (2026)',
+    excerpt: 'Evidence review: FTC actions against manufacturers, rodent habituation studies, why no Canadian regulator verifies the claims — and what works instead.',
+    date: '2026-07-16',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'diatomaceous-earth-canada-buyers-guide',
+    title: 'Diatomaceous Earth Canada 2026 — Buyer\'s Guide to PMRA-Registered DE',
+    excerpt: 'Which diatomaceous earth is PMRA-registered in Canada — Safer\'s, Knock Down, Doktor Doom — how DE kills by desiccation, and why food-grade DE is off-label here.',
+    date: '2026-07-16',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'diatomaceous-earth-for-bed-bugs',
+    title: 'Diatomaceous Earth for Bed Bugs — Does It Work? (Canada 2026)',
+    excerpt: 'Does diatomaceous earth kill bed bugs? Honest lab-vs-field efficacy, where to apply it (and where never), and which DE is PMRA-legal to use in Canada.',
+    date: '2026-07-16',
+    category: 'mosquito' as const,
+  },
+]
+
 // ── Season helpers ─────────────────────────────────────────────────────────────
 
 export const PEAK_SEASON = 'May through July'
