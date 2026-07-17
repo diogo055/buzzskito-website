@@ -5,81 +5,108 @@ import { SITE_URL } from '@/lib/constants'
 import SpecialistDisclosure from '@/components/SpecialistDisclosure'
 
 const SLUG = 'pest-product-guides'
-const DATE = '2026-07-16'
-const TITLE = 'Canadian Pest Product Guides — Independent Research by BuzzSkito'
+const DATE = '2026-07-17'
+const TITLE = 'BuzzSkito Recommended Products — Gear Guides for Canadian Homes'
+
+type Post = { href: string; label: string; note: string }
+type Category = {
+  hub: string
+  name: string
+  count: string
+  tone: 'treat' | 'research'
+  blurb: string
+  posts: Post[]
+}
+
+const CATEGORIES: Category[] = [
+  {
+    hub: '/pest-product-guides/mosquito-gear',
+    name: 'Mosquito Gear',
+    count: '32 guides',
+    tone: 'treat',
+    blurb: 'The repellents, traps, foggers and area devices our licensed GTA technicians rate for real backyards — what works, what wastes money, and what to buy in Canada.',
+    posts: [
+      { href: '/blog/thermacell-canada-where-to-buy', label: 'Thermacell Canada — Where to Buy', note: 'Best patio repellent device' },
+      { href: '/blog/best-mosquito-trap-canada', label: 'Best Mosquito Trap Canada', note: 'Which traps actually catch mosquitoes' },
+      { href: '/blog/mosquito-magnet-canada', label: 'Mosquito Magnet Canada', note: 'Propane CO₂ traps, tested' },
+      { href: '/blog/mosquito-dunks-canada-guide', label: 'Mosquito Dunks Canada Guide', note: 'BTI for standing water' },
+    ],
+  },
+  {
+    hub: '/pest-product-guides/tick-gear',
+    name: 'Tick Gear',
+    count: 'Tick guides',
+    tone: 'treat',
+    blurb: 'Yard treatments, permethrin clothing sprays and removal tools — the tick gear we recommend to the same GTA homeowners we treat for Lyme-risk properties.',
+    posts: [
+      { href: '/blog/best-tick-repellent-yard-canada', label: 'Best Tick Repellent for Your Yard', note: 'What keeps ticks off the lawn' },
+      { href: '/blog/permethrin-canada-yard-clothing-spray', label: 'Permethrin Canada — Clothing & Yard', note: 'Treat clothing the right way' },
+      { href: '/blog/tick-removal-tool-guide', label: 'Tick Removal Tool Guide', note: 'Tweezers, keys and hooks compared' },
+      { href: '/blog/how-to-remove-tick-safely', label: 'How to Remove a Tick Safely', note: 'Step-by-step, no folk remedies' },
+    ],
+  },
+  {
+    hub: '/pest-product-guides/bed-bug-control',
+    name: 'Bed Bug Control',
+    count: 'Independent research',
+    tone: 'research',
+    blurb: 'We do not treat bed bugs — this is independent product research. The evidence-backed DIY stack is heat, encasements and interceptors, with PMRA-registered sprays in a supporting role.',
+    posts: [
+      { href: '/blog/bed-bug-spray-canada', label: 'Bed Bug Spray Canada', note: 'What is PMRA-registered here' },
+      { href: '/blog/best-bed-bug-steamer-canada', label: 'Best Bed Bug Steamer Canada', note: 'Heat is the evidence-backed tool' },
+      { href: '/blog/bed-bug-mattress-encasement-canada', label: 'Mattress Encasements Canada', note: 'Trap what is already inside' },
+      { href: '/blog/bed-bug-interceptor-traps-canada', label: 'Interceptor Traps Canada', note: 'Monitor and confirm the problem' },
+    ],
+  },
+  {
+    hub: '/pest-product-guides/rodent-control',
+    name: 'Rodent Control',
+    count: 'Independent research',
+    tone: 'research',
+    blurb: 'We do not treat mice or rats — this is independent product research. Canadian rodenticide law is stricter than most US advice assumes, so traps and exclusion do the real work.',
+    posts: [
+      { href: '/blog/best-mouse-trap-canada', label: 'Best Mouse Trap Canada', note: 'The traps that test best' },
+      { href: '/blog/best-rat-trap-canada', label: 'Best Rat Trap Canada', note: 'Snap, electronic and live options' },
+      { href: '/blog/rat-poison-canada-what-is-legal', label: 'Rat Poison Canada — What Is Legal', note: 'The one legal consumer format' },
+      { href: '/blog/how-to-get-rid-of-mice-canada', label: 'How to Get Rid of Mice in Canada', note: 'Trap, seal and keep them out' },
+    ],
+  },
+]
 
 const FAQS = [
   {
-    question: 'Does BuzzSkito treat bed bugs, mice, or cockroaches?',
-    answer: 'No. BuzzSkito is a mosquito and tick control service operating in 19 GTA cities — those are the only two pests we treat. For every other household pest, our publishing team researches consumer products the same way an independent review site would: we check what is actually registered for consumer use with Health Canada\'s PMRA, what is genuinely available on amazon.ca, and what the evidence says works. We never sell or apply any of the products we review.',
+    question: 'What is the difference between BuzzSkito\'s mosquito/tick guides and the other pest guides?',
+    answer: 'It comes down to whether we treat the pest. For mosquitoes and ticks, BuzzSkito is a licensed GTA control service, so those gear guides reflect what our technicians actually recommend after treating thousands of real backyards. For every other household pest — bed bugs, mice, rats and more — we do not offer any service, so those pages are independent product research written the same way a neutral review site would, with no service upsell riding on what you buy.',
   },
   {
-    question: 'What does "PMRA domestic-class" mean?',
-    answer: 'The Pest Management Regulatory Agency (PMRA) is the Health Canada branch that registers every pesticide legally sold in Canada. Each registered product is assigned a class: "Domestic" products can be sold to and used by ordinary consumers, while "Commercial" products require a licensed applicator. A pesticide with no Canadian registration at all cannot legally be sold or imported for use in Canada — no matter how popular it is on American websites. Our guides only recommend domestic-class registered products or non-pesticide devices.',
+    question: 'Which pests does BuzzSkito actually treat?',
+    answer: 'Only two: mosquitoes and ticks. BuzzSkito is a mosquito and tick control service operating across 19+ GTA cities from Mississauga to Toronto, Oakville, Vaughan and beyond. If you want your yard professionally treated, those are the two services we provide. Everything else on this hub is research to help you buy the right product yourself.',
+  },
+  {
+    question: 'What does "PMRA domestic-class" mean, and why does it matter?',
+    answer: 'The Pest Management Regulatory Agency (PMRA) is the Health Canada branch that registers every pesticide legally sold in Canada. Registered products are assigned a class: "domestic" products can be sold to and used by ordinary consumers, while "commercial" products require a licensed applicator. Anything with no Canadian registration cannot legally be sold or imported for use here. Our product guides only point to domestic-class registered pesticides or non-pesticide devices, which is where a lot of US "best of" lists steer Canadians wrong.',
   },
   {
     question: 'Why can\'t Canadians buy the products American pest sites recommend?',
-    answer: 'Because US and Canadian pesticide law are different. The US EPA registers many consumer products — Advion gel baits, Talstar-style bifenthrin concentrates, second-generation anticoagulant rodenticides — that Health Canada has either never registered or restricts to licensed commercial applicators. Importing an unregistered pesticide into Canada is prohibited under the Pest Control Products Act, and border seizures do happen. Most US-focused "best of" lists are simply illegal shopping lists for a Canadian reader, which is the gap these guides exist to fill.',
-  },
-  {
-    question: 'What rat and mouse poison is actually legal for consumers in Canada?',
-    answer: 'Second-generation anticoagulants (brodifacoum, bromadiolone, difethialone) are not sold as domestic-class products in Canada — after Health Canada\'s rodenticide re-evaluation they are restricted to commercial use. The main PMRA-registered consumer option is bromethalin sold in pre-loaded, tamper-resistant disposable bait stations, such as the Tomcat disposable line. Our rat poison legality guide covers exactly what is and is not on the shelf, and when traps are the better call anyway.',
-  },
-  {
-    question: 'Is Advion gel bait legal in Canada?',
-    answer: 'Advion cockroach and ant gels (indoxacarb) are not registered as domestic-class products in Canada, so the listings Canadians find on US sites or grey-market resellers are not a legal consumer purchase here. Buying pesticides that are not registered in Canada is an offence under the Pest Control Products Act. Our upcoming ant and cockroach guides (fall 2026) will cover the PMRA-registered consumer baits that are legitimately sold at Canadian retailers.',
-  },
-  {
-    question: 'Do ultrasonic pest repellers actually work?',
-    answer: 'The evidence says no. Controlled studies have repeatedly failed to show that ultrasonic devices drive out mice, rats, or insects, and the US FTC has taken action against manufacturers over unsupported claims. They are legal to sell in Canada because they contain no pesticide — but legal is not the same as effective. Our full ultrasonic repeller review walks through the research and what to spend the money on instead.',
-  },
-  {
-    question: 'Is diatomaceous earth legal and effective in Canada?',
-    answer: 'Yes on both counts, with caveats. Diatomaceous earth insecticide dusts are PMRA-registered domestic-class products in Canada — but only products sold and labelled as insecticides carry that registration; generic "food-grade" DE sold as a supplement is not labelled for pest use. It kills crawling insects mechanically by abrading their waxy coating, works slowly (days, not hours), and must stay dry. Our buyers guide covers registered Canadian options and correct application.',
+    answer: 'Because US and Canadian pesticide law are different. The US EPA registers many consumer products — Advion gel baits, high-strength bifenthrin concentrates, second-generation anticoagulant rodenticides — that Health Canada has either never registered or restricts to licensed applicators. Importing an unregistered pesticide into Canada is an offence under the Pest Control Products Act, and seizures do happen. Most US-focused lists are effectively illegal shopping lists for a Canadian reader, which is the gap these guides exist to fill.',
   },
   {
     question: 'How do these guides make money?',
-    answer: 'Through clearly disclosed Amazon Associates affiliate links. If you buy through a link on a product guide, we may earn a small commission at no extra cost to you. No manufacturer pays for placement, no review is sponsored, and products that fail the Canadian-legality check get excluded no matter how well they would convert. The disclosure appears on every page that carries affiliate links.',
+    answer: 'Through clearly disclosed Amazon Associates affiliate links on the individual product pages. If you buy through a link, we may earn a small commission at no extra cost to you. No manufacturer pays for placement, no review is sponsored, and any product that fails the Canadian-legality check is excluded no matter how well it would convert. The disclosure appears on every page that carries affiliate links.',
   },
   {
     question: 'How do you decide which products to recommend?',
-    answer: 'Three filters, applied in order. First, legality: pesticide products must hold a PMRA domestic-class registration (we verify against Health Canada\'s public registry); devices must be non-pesticide. Second, availability: the product must be genuinely purchasable on amazon.ca — not a US-only listing with import problems. Third, evidence: we prioritize product categories with published efficacy research (steamers, encasements, interceptors, snap traps) over gadget categories that test poorly (ultrasonic repellers, foggers for bed bugs).',
+    answer: 'Three filters, applied in order. First, legality: pesticide products must hold a PMRA domestic-class registration, which we verify against Health Canada\'s public registry; devices must be non-pesticide. Second, availability: the product must be genuinely purchasable on amazon.ca, not a US-only listing with import problems. Third, evidence: we prioritize categories with published efficacy research — steamers, encasements, interceptors, snap traps, barrier sprays — over gadget categories that test poorly, such as ultrasonic repellers.',
   },
   {
-    question: 'When are the ant, wasp, cockroach, and fly guides coming?',
-    answer: 'Fall 2026. Bed bugs, mice and rats, and diatomaceous earth were prioritized first because they are the categories where US advice most often points Canadians at products they cannot legally buy — grey-market gel baits and restricted rodenticides in particular. Ants, wasps, cockroaches, and flies follow the same playbook: PMRA domestic-class registrations verified first, amazon.ca availability second, evidence third.',
+    question: 'What does professional pest control cost in Canada?',
+    answer: 'A single professional visit averages roughly $414–$617 nationally, with bed bugs the most expensive common pest at $300–$3,000+ depending on method and severity. When an infestation outgrows DIY products, our Canadian pest control cost guide breaks down real 2026 price bands by pest type, city and treatment method so you can sanity-check any quote before you sign.',
   },
-]
-
-const BED_BUG_GUIDES = [
-  { href: '/blog/bed-bug-spray-canada', label: 'Bed Bug Spray Canada — What Is PMRA-Registered' },
-  { href: '/blog/best-bed-bug-steamer-canada', label: 'Best Bed Bug Steamer Canada' },
-  { href: '/blog/bed-bug-mattress-encasement-canada', label: 'Bed Bug Mattress Encasements Canada' },
-  { href: '/blog/bed-bug-interceptor-traps-canada', label: 'Bed Bug Interceptor Traps Canada' },
-  { href: '/blog/how-to-check-for-bed-bugs-canada', label: 'How to Check for Bed Bugs' },
-  { href: '/blog/do-bed-bug-sprays-actually-work', label: 'Do Bed Bug Sprays Actually Work?' },
-  { href: '/blog/diatomaceous-earth-for-bed-bugs', label: 'Diatomaceous Earth for Bed Bugs' },
-]
-
-const RODENT_GUIDES = [
-  { href: '/blog/best-mouse-trap-canada', label: 'Best Mouse Trap Canada' },
-  { href: '/blog/victor-electronic-mouse-trap-review-canada', label: 'Victor Electronic Mouse Trap Review' },
-  { href: '/blog/best-rat-trap-canada', label: 'Best Rat Trap Canada' },
-  { href: '/blog/mouse-bait-station-canada', label: 'Mouse Bait Stations Canada' },
-  { href: '/blog/rat-poison-canada-what-is-legal', label: 'Rat Poison in Canada — What Is Actually Legal' },
-  { href: '/blog/how-to-get-rid-of-mice-canada', label: 'How to Get Rid of Mice in Canada' },
-  { href: '/blog/how-to-keep-mice-out-of-your-house-winter', label: 'Keeping Mice Out of Your House in Winter' },
-  { href: '/blog/ultrasonic-pest-repellers-do-they-work', label: 'Ultrasonic Pest Repellers — Do They Work?' },
-]
-
-const DE_GUIDES = [
-  { href: '/blog/diatomaceous-earth-canada-buyers-guide', label: 'Diatomaceous Earth Canada — Buyers Guide' },
-  { href: '/blog/diatomaceous-earth-for-bed-bugs', label: 'Diatomaceous Earth for Bed Bugs' },
 ]
 
 export const metadata: Metadata = buildMetadata({
   title: TITLE,
-  description: 'Independent Canadian pest product research hub: bed bugs, mice & rats, diatomaceous earth. Every recommendation is PMRA domestic-class registered and available on amazon.ca — no grey-market US products.',
+  description: 'The gear BuzzSkito\'s licensed GTA technicians recommend for mosquitoes and ticks, plus independent, PMRA-legal Canadian product research for bed bugs, mice and rats. Every recommendation is available on amazon.ca — no grey-market US products.',
   canonical: `/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -89,7 +116,7 @@ export default function PestProductGuidesPage() {
   const postingSchema = {
     ...blogPostingSchema({
       title: TITLE,
-      description: 'Hub for BuzzSkito\'s independent Canadian pest product research — what actually works and what is actually legal (PMRA domestic-class) in Canada.',
+      description: 'The master hub for BuzzSkito\'s recommended products — technician-picked mosquito and tick gear plus independent, PMRA-legal Canadian research for other household pests.',
       slug: SLUG,
       datePublished: DATE,
     }),
@@ -100,7 +127,7 @@ export default function PestProductGuidesPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(postingSchema) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Pest Product Guides', url: `/${SLUG}` }])) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Recommended Products', url: `/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/${SLUG}`)) }} />
 
@@ -108,10 +135,10 @@ export default function PestProductGuidesPage() {
         <div className="max-w-4xl mx-auto">
           <nav aria-label="Breadcrumb" className="text-brand-400 text-sm mb-4 flex gap-1">
             <Link href="/" className="hover:text-white">Home</Link><span>/</span>
-            <span className="text-white">Pest Product Guides</span>
+            <span className="text-white">Recommended Products</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
-          <p className="text-xl text-brand-100 max-w-3xl">What actually works — and what is actually legal to buy — for Canadian homeowners dealing with bed bugs, mice, rats, and other household pests. Every recommendation checked against Health Canada&rsquo;s PMRA registry.</p>
+          <p className="text-xl text-brand-100 max-w-3xl">For mosquitoes &amp; ticks, this is the gear our licensed GTA technicians actually recommend. For every other household pest, it&rsquo;s independent Canadian product research — we don&rsquo;t treat those, we just help you find what works and what&rsquo;s legal in Canada.</p>
         </div>
       </section>
 
@@ -119,16 +146,16 @@ export default function PestProductGuidesPage() {
         <div className="max-w-4xl mx-auto">
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">BuzzSkito Pest Product Guides is an independent Canadian research library covering household pests we do not treat. Our service business handles mosquitoes and ticks in the GTA; for everything else, we publish product research with one hard rule — every recommendation must be PMRA domestic-class registered (or a non-pesticide device) and genuinely available on amazon.ca.</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">This is BuzzSkito&rsquo;s master product hub. It splits in two: mosquito and tick gear picked by our licensed GTA technicians (the two pests we actually treat), and independent, PMRA-legal Canadian research for household pests we do not treat — bed bugs, mice and rats. Every recommendation is available on amazon.ca, with grey-market US products excluded by rule.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
-              <li>16 guides live today across 3 categories: bed bugs (7), mice &amp; rats (8), and diatomaceous earth (2, one shared with the bed bug cluster).</li>
-              <li>Every pesticide we recommend holds a Health Canada PMRA domestic-class registration — commercial-only and unregistered US products are excluded by rule.</li>
-              <li>Second-generation anticoagulant rodenticides (brodifacoum, bromadiolone) are not sold to Canadian consumers; bromethalin disposable bait stations are the legal option.</li>
-              <li>Advion gel baits and high-strength US concentrates are not domestic-class in Canada — importing unregistered pesticides violates the Pest Control Products Act.</li>
-              <li>Professional bed bug treatment in Canada runs roughly $300–$3,000+ depending on method and severity, per HomeStars and PestQuotes data.</li>
-              <li>4 more categories — ants, wasps, cockroaches, flies — arrive fall 2026.</li>
+              <li>Four categories: Mosquito Gear (32 guides), Tick Gear, Bed Bug Control, and Rodent Control.</li>
+              <li>Mosquito and tick guides reflect what our technicians recommend after treating thousands of GTA backyards; other pests are neutral product research.</li>
+              <li>Every pesticide we recommend holds a Health Canada PMRA domestic-class registration — commercial-only and unregistered US products are excluded.</li>
+              <li>Second-generation anticoagulant rodenticides (brodifacoum, bromadiolone) are not sold to Canadian consumers; bromethalin bait stations are the legal option.</li>
+              <li>Professional bed bug treatment in Canada runs roughly $300–$3,000+ depending on method and severity.</li>
+              <li>The only two pests BuzzSkito treats as a service are mosquitoes and ticks, across 19+ GTA cities.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">— BuzzSkito Pest Product Guides · independent Canadian research</p>
+            <p className="mt-3 text-xs text-gray-500">— BuzzSkito Mosquito &amp; Tick Control · 129 five-star Google reviews · independent product research</p>
           </div>
 
           <SpecialistDisclosure pest="most household pests" />
@@ -136,81 +163,73 @@ export default function PestProductGuidesPage() {
       </section>
 
       <article className="py-10 px-4 bg-white">
-        <div className="max-w-3xl mx-auto prose-brand">
-          <h2>Why does Canada need its own pest product research?</h2>
-          <p>Because most of the pest advice Canadians read is written for Americans, and a surprising amount of it recommends products that are illegal to buy or use in Canada. Health Canada&rsquo;s Pest Management Regulatory Agency (PMRA) registers every pesticide sold here and assigns it a class: <strong>domestic</strong> products are legal for consumers, <strong>commercial</strong> products require a licensed applicator, and anything unregistered cannot legally be sold or imported at all.</p>
-          <p>That single distinction invalidates a large share of US &ldquo;best of&rdquo; lists for Canadian readers. Advion gel baits, Talstar-style bifenthrin concentrates, and second-generation anticoagulant rodenticides are staples of American DIY pest forums — and none of them are domestic-class in Canada. Grey-market sellers will still ship some of them north, but importing an unregistered pesticide is an offence under the Pest Control Products Act, and you carry the risk.</p>
-          <p>So every guide in this library applies the same three filters, in order: <strong>PMRA legality first, amazon.ca availability second, published evidence third.</strong> When a popular US product fails the first filter, we say so explicitly and name the registered Canadian alternative — that comparison is usually the most useful part of the page.</p>
+        <div className="max-w-4xl mx-auto prose-brand">
+          <h2>Two kinds of guide, one honest rule</h2>
+          <p>Everything on this hub falls into one of two buckets, and we keep them clearly labelled so you always know which one you&rsquo;re reading.</p>
+          <p><strong>Mosquitoes and ticks — gear we recommend as the people who treat them.</strong> BuzzSkito is a licensed GTA mosquito and tick control service with 129 five-star reviews, so when our guides rate a Thermacell, a propane trap or a permethrin clothing spray, that&rsquo;s based on what our technicians see work (and fail) in real backyards. Where a product genuinely can&rsquo;t match a professional barrier spray, we say so — that&rsquo;s the honest version, not a sales pitch.</p>
+          <p><strong>Every other household pest — independent product research.</strong> We do not treat bed bugs, mice, rats, or anything else, and we never will. That&rsquo;s exactly why this research can stay neutral: there&rsquo;s no service upsell riding on whether you buy a steamer or a mouse trap. Each of those guides applies one hard rule — every pesticide must hold a Health Canada <strong>PMRA domestic-class</strong> registration (or be a non-pesticide device), and every product must be genuinely available on amazon.ca. Grey-market US products that Canadians can&rsquo;t legally buy get excluded, no matter how often American sites recommend them.</p>
 
-          <h2>What do US sites push that we won&rsquo;t recommend?</h2>
-          <p>These are the most common grey-market recommendations Canadian readers encounter, and what our guides point to instead.</p>
-          <div className="not-prose rounded-xl border border-navy-100 overflow-hidden bg-white shadow-sm my-6 overflow-x-auto">
-            <table className="w-full text-sm">
-              <thead className="bg-brand-800 text-white">
-                <tr>
-                  <th className="px-4 py-3 text-left">Pushed by US sites</th>
-                  <th className="px-4 py-3 text-left">Canadian legal status</th>
-                  <th className="px-4 py-3 text-left">Best for / what we recommend instead</th>
-                </tr>
-              </thead>
-              <tbody>
-                {[
-                  { us: 'Advion gel baits (indoxacarb)', status: 'Not domestic-class — no legal consumer purchase', instead: 'PMRA-registered consumer baits; full roach/ant guides coming fall 2026' },
-                  { us: 'Second-gen anticoagulant rodenticides (brodifacoum, bromadiolone)', status: 'Commercial-only after Health Canada’s rodenticide re-evaluation', instead: 'Bromethalin disposable bait stations (PMRA-registered) or snap/electronic traps' },
-                  { us: 'High-strength US concentrates (Talstar P, 36.8% permethrin)', status: 'Not domestic-class — licensed applicators only', instead: 'Registered domestic ready-to-use sprays and insecticide dusts' },
-                  { us: 'Total-release foggers for bed bugs', status: 'Registered products exist, but evidence shows they fail on bed bugs', instead: 'Steam + mattress encasements + interceptor traps (evidence-backed)' },
-                  { us: 'Ultrasonic plug-in repellers', status: 'Legal (non-pesticide device) — but efficacy unsupported', instead: 'Exclusion + trapping; see our ultrasonic repeller review' },
-                ].map(({ us, status, instead }) => (
-                  <tr key={us} className="border-b border-navy-50 last:border-0 align-top">
-                    <td className="px-4 py-3 font-semibold text-brand-800">{us}</td>
-                    <td className="px-4 py-3 text-gray-700">{status}</td>
-                    <td className="px-4 py-3 text-gray-700">{instead}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
+        </div>
+      </article>
 
-          <h2>Which bed bug products actually work in Canada?</h2>
-          <p>The evidence-backed consumer stack is heat and physical control — a steamer, mattress encasements, and interceptor traps — with PMRA-registered sprays and diatomaceous earth in supporting roles, not starring ones. Bed bugs are also the category where professional treatment costs the most (roughly $300–$3,000+ in Canada), so knowing what DIY gear genuinely helps before you spend is worth real money.</p>
-          <ul>
-            {BED_BUG_GUIDES.map(({ href, label }) => (
-              <li key={href}><Link href={href}>{label}</Link></li>
-            ))}
-          </ul>
-
-          <h2>What works for mice and rats in Canada?</h2>
-          <p>Traps and exclusion do most of the real work, and Canadian rodenticide law is stricter than most US advice assumes — second-generation anticoagulants are off the consumer shelf entirely. This cluster covers the traps that test best, the one legal consumer poison format, and the winter-proofing that stops mice getting in at all.</p>
-          <ul>
-            {RODENT_GUIDES.map(({ href, label }) => (
-              <li key={href}><Link href={href}>{label}</Link></li>
-            ))}
-          </ul>
-
-          <h2>Is diatomaceous earth worth buying?</h2>
-          <p>Yes — as a slow, dry-conditions-only mechanical insecticide, and only if you buy a product actually registered and labelled for pest control in Canada. It is one of the few DIY pest products that is simultaneously PMRA-registered, cheap, and supported by evidence, provided you apply it correctly.</p>
-          <ul>
-            {DE_GUIDES.map(({ href, label }) => (
-              <li key={href}><Link href={href}>{label}</Link></li>
-            ))}
-          </ul>
-
-          <h2>Which categories are coming next?</h2>
-          <p><strong>Ants, wasps, cockroaches, and flies are coming this fall.</strong> Each will follow the same template: verify PMRA domestic-class registrations against Health Canada&rsquo;s public registry, confirm real amazon.ca availability, then rank by published evidence — and call out the US grey-market products we deliberately exclude.</p>
-          <div className="not-prose my-4 flex flex-wrap gap-2">
-            {['Ants', 'Wasps & Hornets', 'Cockroaches', 'Flies'].map((cat) => (
-              <span key={cat} className="inline-flex items-center rounded-full bg-brand-50 border border-brand-200 px-3 py-1 text-xs font-semibold text-brand-800">{cat} · coming fall 2026</span>
+      <section className="py-4 px-4 bg-white">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-2xl font-extrabold text-brand-900 mb-6">Browse by category</h2>
+          <div className="grid gap-6 sm:grid-cols-2">
+            {CATEGORIES.map((cat) => (
+              <div key={cat.hub} className="rounded-2xl border border-navy-100 bg-white shadow-sm overflow-hidden flex flex-col">
+                <div className="p-6 flex-1">
+                  <div className="flex items-center justify-between gap-3 mb-2">
+                    <h3 className="text-xl font-extrabold text-brand-900">
+                      <Link href={cat.hub} className="hover:text-emerald-700">{cat.name}</Link>
+                    </h3>
+                    <span className={`inline-flex items-center rounded-full px-2.5 py-1 text-[11px] font-bold uppercase tracking-wide ${cat.tone === 'treat' ? 'bg-emerald-100 text-emerald-800' : 'bg-brand-50 text-brand-700 border border-brand-200'}`}>
+                      {cat.tone === 'treat' ? 'We treat this' : 'Research only'}
+                    </span>
+                  </div>
+                  <p className="text-xs font-semibold text-gray-500 mb-3">{cat.count}</p>
+                  <p className="text-sm text-gray-700 leading-relaxed mb-4">{cat.blurb}</p>
+                  <ul className="space-y-2">
+                    {cat.posts.map((post) => (
+                      <li key={post.href} className="text-sm">
+                        <Link href={post.href} className="font-semibold text-emerald-700 hover:text-emerald-800">{post.label}</Link>
+                        <span className="text-gray-500"> — {post.note}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+                <div className="px-6 py-3 bg-brand-50 border-t border-navy-100">
+                  <Link href={cat.hub} className="text-sm font-bold text-brand-800 hover:text-emerald-700">
+                    All {cat.name.toLowerCase()} guides →
+                  </Link>
+                </div>
+              </div>
             ))}
           </div>
+        </div>
+      </section>
 
-          <h2>What does professional pest control cost in Canada?</h2>
-          <p>A single professional visit averages $414–$617 nationally, with bed bugs the most expensive common pest at $300–$3,000+ depending on method. When an infestation outgrows DIY products, our <Link href="/pest-control-cost-canada">Canadian pest control cost guide</Link> breaks down real 2026 price bands by pest type, city, and treatment method — so you can sanity-check any quote before you sign.</p>
+      <section className="py-10 px-4 bg-white">
+        <div className="max-w-4xl mx-auto">
+          <aside aria-label="Services BuzzSkito provides" className="rounded-2xl border-2 border-emerald-300 bg-gradient-to-br from-emerald-50 to-white p-6 sm:p-7 shadow-sm">
+            <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">The pests we actually treat</p>
+            <h2 className="text-2xl font-extrabold text-brand-900 mb-3 mt-0">Want it handled for you? We treat mosquitoes and ticks.</h2>
+            <p className="text-sm text-gray-700 leading-relaxed mb-4">Product guides are great for DIY. But for whole-yard mosquito and tick coverage across a full season, BuzzSkito&rsquo;s licensed barrier spray does what no consumer product can — same-day protection with weeks of residual, backed by 129 five-star reviews across 19+ GTA cities.</p>
+            <div className="flex flex-wrap gap-3">
+              <Link href="/mosquito-control" className="btn-primary-sm">Professional mosquito control →</Link>
+              <Link href="/tick-control" className="btn-primary-sm">Professional tick control →</Link>
+            </div>
+          </aside>
+        </div>
+      </section>
 
-          <h2>Who writes these guides?</h2>
-          <p>BuzzSkito&rsquo;s publishing team, based in Mississauga, Ontario. Our operating business treats exactly two pests — mosquitoes and ticks — which is precisely why this research can stay independent: we have no service upsell riding on whether you buy a mouse trap or a steamer. Guides that carry affiliate links disclose it on the page, no placement is paid, and any product that fails the PMRA legality check is excluded regardless of commission.</p>
+      <article className="pb-10 px-4 bg-white">
+        <div className="max-w-4xl mx-auto prose-brand">
+          <h2>Trying to price a professional job instead?</h2>
+          <p>When an infestation outgrows DIY products, the next question is usually cost. A single professional visit averages roughly $414–$617 nationally, with bed bugs the most expensive common pest at $300–$3,000+ depending on method. Our <Link href="/pest-control-cost-canada">Canadian pest control cost guide</Link> breaks down real 2026 price bands by pest type, city and treatment method — so you can sanity-check any quote before you sign, whether it&rsquo;s for a pest we treat or one we don&rsquo;t.</p>
 
           <hr />
-          <p className="text-sm text-gray-600">The pests we actually treat: BuzzSkito provides professional <Link href="/mosquito-control">mosquito control</Link> and <Link href="/tick-control">tick control</Link> across 19 GTA cities — everything above is independent research, not a service we offer.</p>
+          <p className="text-sm text-gray-600">The pests we actually treat: BuzzSkito provides professional <Link href="/mosquito-control">mosquito control</Link> and <Link href="/tick-control">tick control</Link> across 19+ GTA cities. Everything else on this hub is independent research — not a service we offer.</p>
         </div>
       </article>
 

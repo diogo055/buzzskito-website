@@ -52,6 +52,18 @@ const NAV: NavLink[] = [
       { label: 'How to Combat Ticks', href: '/learn/how-to-combat-ticks' },
     ],
   },
+  {
+    label: 'Recommended Products',
+    href: '/pest-product-guides',
+    children: [
+      { label: 'All Recommended Products', href: '/pest-product-guides' },
+      { label: '', href: '#', divider: true },
+      { label: 'Mosquito Gear', href: '/pest-product-guides/mosquito-gear' },
+      { label: 'Tick Gear', href: '/pest-product-guides/tick-gear' },
+      { label: 'Bed Bug Control', href: '/pest-product-guides/bed-bug-control' },
+      { label: 'Mouse & Rat Control', href: '/pest-product-guides/rodent-control' },
+    ],
+  },
   { label: 'Blog', href: '/blog' },
   { label: 'About', href: '/buzzskito-history' },
   { label: 'FAQ', href: '/frequently-asked-question' },

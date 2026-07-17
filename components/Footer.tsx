@@ -2,7 +2,6 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { BUSINESS, CITIES, MOSQUITO_BLOGS, TICK_BLOGS } from '@/lib/constants'
 import { AMAZON_ENABLED, AMAZON_DISCLOSURE } from '@/lib/amazon'
-import CityFooterLinks from '@/components/CityFooterLinks'
 
 export default function Footer() {
   const year = new Date().getFullYear()
@@ -188,9 +187,6 @@ export default function Footer() {
             <p className="text-xs text-brand-500 text-center">{AMAZON_DISCLOSURE}</p>
           </div>
         )}
-
-        {/* City internal-link grid — template-enforced crawlable links to every city page */}
-        <CityFooterLinks />
 
         {/* Bottom */}
         <div className="border-t border-white/10 pt-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-brand-500">

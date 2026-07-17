@@ -1495,6 +1495,42 @@ export const NEW_BLOGS_23 = [
   },
 ]
 
+// ── Wave 24 — de-orphaned product posts (Jul 17 2026) ────────────────────────
+// These 4 high-value mosquito-gear affiliate posts (May 2026 vintage) were in the
+// sitemap but missing from the /blog index (surfaced by an external crawl audit).
+// thermacell-canada-where-to-buy alone pulls ~9,900 impressions/mo. Registered so
+// they render on /blog and fold into the Mosquito Gear category hub.
+export const NEW_BLOGS_24 = [
+  {
+    slug: 'mosquito-magnet-canada',
+    title: 'Mosquito Magnet Canada 2026 — Where to Buy + Do They Actually Work?',
+    excerpt: 'Mosquito Magnet pricing across Canadian retailers, how propane CO2 traps work, Patriot vs Executive vs Independence, and whether they beat professional barrier spray.',
+    date: '2026-05-01',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'dynatrap-canada-review',
+    title: 'DynaTrap Canada 2026 — Honest Review + Where to Buy (Do They Work?)',
+    excerpt: 'An honest Canadian DynaTrap review — how the UV+CO2 traps really perform on mosquitoes, DT1050 vs DT2030 sizing, bulb replacement, and where to buy in Canada.',
+    date: '2026-05-01',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'bug-zappers-canada-do-they-work',
+    title: 'Best Bug Zappers in Canada 2026 (Do They Work?)',
+    excerpt: 'Do bug zappers actually kill mosquitoes? The honest research, the best Canadian models, where to buy, and what works better for a mosquito-free yard.',
+    date: '2026-05-01',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'thermacell-canada-where-to-buy',
+    title: 'Thermacell Canada: Best Models, Prices & Where to Buy 2026',
+    excerpt: 'Where to buy Thermacell in Canada, which model to pick (E55 vs E90 vs EX90), refill costs, and the honest range-and-wind limits of zone repellers.',
+    date: '2026-05-01',
+    category: 'mosquito' as const,
+  },
+]
+
 // ── Season helpers ─────────────────────────────────────────────────────────────
 
 export const PEAK_SEASON = 'May through July'

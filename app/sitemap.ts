@@ -1,5 +1,5 @@
 import type { MetadataRoute } from 'next'
-import { SITE_URL, CITIES, MOSQUITO_BLOGS, TICK_BLOGS, NEW_BLOGS, NEW_BLOGS_2, NEW_BLOGS_3, NEW_BLOGS_4, NEW_BLOGS_5, NEW_BLOGS_6, NEW_BLOGS_7, NEW_BLOGS_8, NEW_BLOGS_9, NEW_BLOGS_10, NEW_BLOGS_11, NEW_BLOGS_12, NEW_BLOGS_13, NEW_BLOGS_14, NEW_BLOGS_15, NEW_BLOGS_16, NEW_BLOGS_17, NEW_BLOGS_18, NEW_BLOGS_19, NEW_BLOGS_20, NEW_BLOGS_21, NEW_BLOGS_22, NEW_BLOGS_23 } from '@/lib/constants'
+import { SITE_URL, CITIES, MOSQUITO_BLOGS, TICK_BLOGS, NEW_BLOGS, NEW_BLOGS_2, NEW_BLOGS_3, NEW_BLOGS_4, NEW_BLOGS_5, NEW_BLOGS_6, NEW_BLOGS_7, NEW_BLOGS_8, NEW_BLOGS_9, NEW_BLOGS_10, NEW_BLOGS_11, NEW_BLOGS_12, NEW_BLOGS_13, NEW_BLOGS_14, NEW_BLOGS_15, NEW_BLOGS_16, NEW_BLOGS_17, NEW_BLOGS_18, NEW_BLOGS_19, NEW_BLOGS_20, NEW_BLOGS_21, NEW_BLOGS_22, NEW_BLOGS_23, NEW_BLOGS_24 } from '@/lib/constants'
 
 // Static lastModified date — update this only when making real content changes.
 // Using new Date() on every request makes Google distrust the lastmod signal.
@@ -38,6 +38,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE_URL}/blog`,                          lastModified: LAST_CONTENT_UPDATE, changeFrequency: 'weekly',  priority: 0.8 },
     // ── Pest Product Guides pillar hub (publishing arm — Jul 2026) ────────────
     { url: `${SITE_URL}/pest-product-guides`,                      lastModified: LAST_CONTENT_UPDATE, changeFrequency: 'weekly', priority: 0.85 },
+    { url: `${SITE_URL}/pest-product-guides/mosquito-gear`,        lastModified: LAST_CONTENT_UPDATE, changeFrequency: 'weekly', priority: 0.8 },
+    { url: `${SITE_URL}/pest-product-guides/tick-gear`,            lastModified: LAST_CONTENT_UPDATE, changeFrequency: 'weekly', priority: 0.8 },
+    { url: `${SITE_URL}/pest-product-guides/bed-bug-control`,      lastModified: LAST_CONTENT_UPDATE, changeFrequency: 'weekly', priority: 0.8 },
+    { url: `${SITE_URL}/pest-product-guides/rodent-control`,       lastModified: LAST_CONTENT_UPDATE, changeFrequency: 'weekly', priority: 0.8 },
     // ── Ontario Learning Centre (nav-level educational hubs) ──────────────────
     { url: `${SITE_URL}/learn`,                                    lastModified: LAST_CONTENT_UPDATE, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${SITE_URL}/learn/mosquito-life-cycle`,               lastModified: LAST_CONTENT_UPDATE, changeFrequency: 'monthly', priority: 0.7 },
@@ -234,6 +238,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...NEW_BLOGS_21,
     ...NEW_BLOGS_22,
     ...NEW_BLOGS_23,
+    ...NEW_BLOGS_24,
   ]
 
   // Add blog posts from constants
