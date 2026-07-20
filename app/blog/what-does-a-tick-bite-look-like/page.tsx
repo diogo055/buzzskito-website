@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
+import BuyLink from '@/components/BuyLink'
+import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 
 const SLUG = 'what-does-a-tick-bite-look-like'
@@ -55,6 +57,18 @@ const FAQS = [
   {
     question: 'How long does a tick bite mark last?',
     answer: 'A normal tick bite mark typically fades within 1–2 weeks, sometimes leaving a small scab or faint spot that resolves on its own. A mild local reaction can persist a little longer. If a mark is still growing, forming a ring, or the skin is increasingly red, warm, and painful beyond two weeks, that is outside the normal healing pattern and should be checked by a healthcare provider. Keep an eye on the site through the full 30-day window, since a Lyme disease rash can appear well after the original bite has healed.',
+  },
+  {
+    question: 'What does an infected tick bite look like?',
+    answer: 'A locally infected tick bite — meaning a bacterial skin infection at the site, not Lyme disease — tends to get worse rather than better after the first day or two. Watch for redness that is increasingly warm, tender, and swollen, or yellowish pus and discharge, sometimes with red streaks spreading outward. This differs from the Lyme bull’s-eye rash (erythema migrans), which expands as a flat, painless, non-oozing red patch that is usually not hot or sore. If a bite becomes progressively painful, hot, and swollen or starts to drain, see a healthcare provider, since a skin infection may need treatment.',
+  },
+  {
+    question: 'How long does a tick bite bump last?',
+    answer: 'The small firm bump from a tick bite usually flattens and fades within a few days to about two weeks. It is a routine immune reaction to tick saliva and can stay mildly itchy or tender for several days after the tick is removed, sometimes leaving a tiny scab. A bump that keeps growing or hardening, or that turns into an expanding red ring past the two-week mark, is outside the normal pattern and should be assessed. Keep watching the area through the full 30-day window, since a Lyme rash can appear after the original bump has healed.',
+  },
+  {
+    question: 'Should I save the tick after removing it?',
+    answer: 'It can help. Placing the removed tick in a sealed bag or small container (a slightly moist paper towel keeps it intact) and noting the date and body location gives a healthcare provider useful context if symptoms develop later. In Ontario, you can also submit a photo of the tick to etick.ca for species identification, which helps gauge Lyme disease risk. Saving the tick is optional and is not a substitute for monitoring the bite and your health over the following 30 days.',
   },
 ]
 
@@ -152,6 +166,9 @@ export default function WhatDoesATickBiteLookLikePage() {
           </table>
         </div>
         <p>A fully engorged tick is what most people picture, but the dangerous ones for Lyme transmission in Ontario are the tiny <strong>nymphs</strong>, which are active in late spring and summer and are so small they are routinely missed. Do not squeeze the swollen body &mdash; follow the technique in <Link href="/blog/how-to-remove-tick-safely">how to remove a tick safely</Link>, then save the tick in a sealed bag or photo it in case identification is needed later.</p>
+        <p>If the body separates during removal and the mouthparts stay behind, do not dig at the skin &mdash; see <Link href="/blog/tick-head-stuck-in-skin">what to do if a tick&rsquo;s head is stuck in the skin</Link>. A dedicated tick-removal kit makes a clean, straight pull far easier than fumbling with wide household tweezers, and is worth keeping in a first-aid bag if you spend time in tick country.</p>
+        <AffiliateDisclosure />
+        <p className="not-prose"><BuyLink search="tick removal kit">Check price on a tick removal kit at Amazon.ca &rarr;</BuyLink></p>
 
         <h2>What does a tick bite look like on a dog?</h2>
         <p>On a dog, a tick bite is usually <strong>hidden under the fur</strong>, so you are more likely to feel it than see it. Running your fingertips slowly over your dog&rsquo;s skin, you will notice a small raised bump or scab where a tick attached or has been removed. Favourite spots are the ears (inside and at the base), around the collar and neck, the armpits, the groin, between the toes, and around the eyelids.</p>
@@ -220,7 +237,7 @@ export default function WhatDoesATickBiteLookLikePage() {
           <li>Per the <strong>Public Health Agency of Canada (PHAC)</strong>, erythema migrans typically appears <strong>3 to 30 days</strong> after a bite from an infected blacklegged tick.</li>
           <li>The rash appears in only about <strong>70&ndash;80% of Lyme disease cases</strong>, according to Public Health Ontario &mdash; meaning a meaningful share of people never develop it. <strong>No rash does not rule out Lyme.</strong> Flu-like symptoms after a tick bite still deserve medical attention.</li>
         </ul>
-        <p>For the fuller symptom picture beyond the rash, see our <Link href="/blog/lyme-disease-symptoms-guide">Lyme disease symptoms guide</Link>.</p>
+        <p>For the fuller symptom picture beyond the rash, see our <Link href="/blog/lyme-disease-symptoms-guide">Lyme disease symptoms guide</Link>. Lyme is the best-known tick-borne illness in Ontario, but it is not the only one &mdash; certain tick bites are also linked (per the CDC) to <Link href="/blog/alpha-gal-syndrome">alpha-gal syndrome</Link>, a delayed allergy to red meat, though it remains uncommon in Canada.</p>
 
         <h2>Normal bite vs. when to see a doctor</h2>
         <p>Most tick bites are harmless and heal on their own. Use this visual threshold to judge which side of the line you are on:</p>

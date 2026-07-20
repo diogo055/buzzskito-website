@@ -29,6 +29,14 @@ const FAQS = [
     answer: 'No. An estimated 20 to 30 percent of people who develop Lyme disease never notice a rash, and among those who do, the rash frequently lacks the textbook bullseye ring. Some people also do not recall being bitten, because the nymph-stage tick responsible for most infections is only about the size of a poppy seed. This is why you should not wait for a bullseye: if you develop unexplained fever, fatigue, or aches within weeks of possible tick exposure, especially in a risk area, see a healthcare provider.',
   },
   {
+    question: 'Can you have Lyme without a rash?',
+    answer: 'Yes. The CDC estimates the erythema migrans rash appears in about 70 to 80 percent of infected people, which means roughly 20 to 30 percent never develop or never notice one, and on darker skin the rash is more easily missed. Because the rash can be absent, a diagnosis does not require it: if you have unexplained fever, fatigue, headache, or joint aches within weeks of possible tick exposure, a healthcare provider can evaluate you on your symptoms and exposure history. Note that early blood tests may be falsely negative, since antibodies take a few weeks to build. Do not rule out Lyme just because there is no rash. This is general information, not medical advice.',
+  },
+  {
+    question: 'What are the first signs of Lyme disease in adults?',
+    answer: 'In adults, the first signs of Lyme disease usually appear 3 to 30 days after an infected blacklegged tick bite. The earliest and most specific sign is an expanding erythema migrans rash at the bite site (average onset about 7 days), often alongside flu-like symptoms: fever, chills, fatigue, headache, muscle and joint aches, and swollen lymph nodes. Because these early signs can feel like a summer cold, the Government of Canada and the CDC advise taking the combination of an unexplained rash plus flu-like symptoms during tick season seriously, especially after time in grassy or wooded areas. See a healthcare provider early, since antibiotics work best when started promptly.',
+  },
+  {
     question: 'What are the later-stage symptoms of Lyme disease?',
     answer: 'If early Lyme is not treated, the bacteria can spread over days to months. Early disseminated symptoms include multiple erythema migrans rashes, facial palsy (drooping on one or both sides of the face), severe headaches and neck stiffness, heart palpitations or an irregular heartbeat (Lyme carditis), and nerve pain or numbness and tingling in the hands or feet. Late Lyme disease can cause arthritis with marked joint swelling and pain, most often in the knees, along with lingering neurological problems. These stages are still treatable, but recovery is faster the earlier treatment begins.',
   },
@@ -193,11 +201,24 @@ export default function LymeDiseaseSymptomsGuidePage() {
           </ul>
           <p>The practical takeaway: a bullseye is strong evidence of Lyme, but the <em>absence</em> of a bullseye proves nothing. Do not wait for a perfect target ring before seeking care.</p>
 
+          <h3>Erythema Migrans Day by Day: How the Rash Progresses</h3>
+          <p>What sets erythema migrans apart from an ordinary bite reaction is that it <em>expands</em> over days rather than fading. The general progression described by the Government of Canada and the U.S. CDC:</p>
+          <ul>
+            <li><strong>Hours to day 2:</strong> A small red bump or mild redness at the bite site is usually just a normal reaction to the bite — it appears fast and fades within a day or two. Knowing <Link href="/blog/what-does-a-tick-bite-look-like">what a normal tick bite looks like</Link> helps you tell the difference.</li>
+            <li><strong>Days 3–7:</strong> A red area begins spreading outward from the bite. This expanding edge is the earliest reliable sign of erythema migrans; average onset is about 7 days.</li>
+            <li><strong>Days 7–14:</strong> The patch keeps enlarging, commonly past 5 cm (2 inches), and may develop central clearing that produces the classic bull&rsquo;s-eye ring — though many rashes stay a solid, evenly red patch.</li>
+            <li><strong>Weeks 2–4 and beyond:</strong> Left untreated, the rash can grow to 30 cm (12 inches) or larger, and additional rashes may appear elsewhere on the body as the infection spreads.</li>
+          </ul>
+          <p>The single most useful clue is direction: a Lyme rash gets <em>bigger</em> day over day, while an ordinary bite reaction shrinks.</p>
+
+          <h3>A Lyme Rash With No Remembered Tick Bite</h3>
+          <p>Many people who develop erythema migrans never recall being bitten. The nymph-stage blacklegged tick that causes most infections is only about the size of a poppy seed, and its bite is painless, so it is easily missed. An expanding, warm, usually non-itchy rash 5 cm or larger that shows up during tick season — even with no known bite — should be treated as possible Lyme, particularly after time in grassy or wooded areas. Photograph it, note the date, and see a healthcare provider rather than waiting to confirm a bite you may never have felt.</p>
+
           <aside aria-label="If you find a tick" className="not-prose my-8 rounded-2xl border-2 border-emerald-300 bg-gradient-to-br from-emerald-50 to-white p-6 sm:p-7 shadow-sm">
             <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">If you find an attached tick</h3>
             <p className="text-sm text-gray-700 mb-3 leading-relaxed">Grasp it with fine-tipped tweezers as close to the skin as possible and pull straight up with steady, even pressure — no twisting, squeezing, or burning. Clean the bite, wash your hands, and note the date so you can watch for symptoms over the next 30 days. A dedicated tick-removal tool makes it far easier to grip the head cleanly.</p>
             <BuyLink search="tick removal tool tweezers">Check tick-removal tools on Amazon →</BuyLink>
-            <p className="text-xs text-gray-500 mt-3">Removal steps per the CDC. See our full walkthrough on <Link href="/blog/tick-bite-symptoms-what-to-do-ontario" className="underline hover:text-brand-700">what to do after a tick bite</Link>.</p>
+            <p className="text-xs text-gray-500 mt-3">Removal steps per the CDC. See our step-by-step guide to <Link href="/blog/how-to-remove-tick-safely" className="underline hover:text-brand-700">removing a tick safely</Link>, what to do if the <Link href="/blog/tick-head-stuck-in-skin" className="underline hover:text-brand-700">tick&rsquo;s head stays stuck in the skin</Link>, and the full <Link href="/blog/tick-bite-symptoms-what-to-do-ontario" className="underline hover:text-brand-700">what-to-do-after-a-tick-bite</Link> walkthrough.</p>
           </aside>
 
           <h2>Stage 2: Early Disseminated Symptoms</h2>
@@ -208,7 +229,7 @@ export default function LymeDiseaseSymptomsGuidePage() {
             <li><strong>Neurological signs</strong> — severe headaches, neck stiffness, nerve pain, and numbness or tingling in the hands and feet</li>
             <li><strong>Lyme carditis</strong> — heart palpitations, an irregular or slow heartbeat, dizziness, or shortness of breath, caused by the bacteria affecting the heart&rsquo;s electrical system</li>
           </ul>
-          <p>Some of these are genuinely urgent. The CDC warns that Lyme carditis, though uncommon, can be serious — seek medical care right away for heart palpitations, fainting, or shortness of breath after a possible tick exposure.</p>
+          <p>Some of these are genuinely urgent. The CDC warns that Lyme carditis, though uncommon, can be serious — seek medical care right away for heart palpitations, fainting, or shortness of breath after a possible tick exposure. For a plain-English look at how serious untreated Lyme can become, see our guide to <Link href="/blog/can-lyme-disease-kill-you">whether Lyme disease can kill you</Link>.</p>
 
           <h2>Stage 3: Late Lyme Disease</h2>
           <p>Weeks to months after an untreated bite, Lyme can settle into the joints and nervous system. The hallmark of late Lyme is <strong>Lyme arthritis</strong>: episodes of marked swelling and pain, most often in one large joint such as a knee. Some people also experience continued neurological issues, including numbness, and problems with memory or concentration. The important message here is one of hope, not fear: even late Lyme is treatable with antibiotics, and most people recover — recovery is simply faster the earlier treatment starts.</p>
@@ -256,7 +277,12 @@ export default function LymeDiseaseSymptomsGuidePage() {
           <h2>Related Reading</h2>
           <ul>
             <li><Link href="/blog/blacklegged-deer-tick-ontario">Blacklegged (Deer) Tick — Ontario ID Guide</Link></li>
+            <li><Link href="/blog/what-does-a-tick-bite-look-like">What Does a Tick Bite Look Like?</Link></li>
             <li><Link href="/blog/tick-bite-symptoms-what-to-do-ontario">Tick Bite Symptoms &amp; What To Do</Link></li>
+            <li><Link href="/blog/how-to-remove-tick-safely">How to Remove a Tick Safely</Link></li>
+            <li><Link href="/blog/tick-head-stuck-in-skin">Tick Head Stuck in the Skin? What To Do</Link></li>
+            <li><Link href="/blog/can-lyme-disease-kill-you">Can Lyme Disease Kill You?</Link></li>
+            <li><Link href="/blog/alpha-gal-syndrome">Alpha-Gal Syndrome (Tick-Bite Red Meat Allergy)</Link></li>
             <li><Link href="/blog/lyme-disease-risk-areas-ontario-2026">Lyme Disease Risk Areas in Ontario (2026)</Link></li>
             <li><Link href="/ontario-lyme-disease-tracker-2026">Ontario Lyme Disease Tracker</Link></li>
             <li><Link href="/tick-control">BuzzSkito Tick Control Service</Link></li>

@@ -73,6 +73,8 @@ export default function RemoveTickPage() {
         </ul>
         <p>A dedicated fine-tipped tick tool grips the mouthparts cleanly right at the skin, which makes a clean removal much easier than fumbling with wide household tweezers. <BuyLink search="tick removal tool tweezers">Check price on Amazon.ca &rarr;</BuyLink> For a breakdown of the different styles (fine-tip tweezers, tick keys, and lifter tools), see our <Link href="/blog/tick-removal-tool-guide" className="text-brand-700 hover:underline">tick removal tool guide</Link>.</p>
 
+        <p>Hook-style &ldquo;tick twister&rdquo; tools are a popular alternative: you slide the notched end under the tick at skin level and lift with a gentle rotation, which many people find easier on pets and in awkward, hard-to-reach spots than a straight pull. <BuyLink search="tick twister removal tool">Check price on a tick twister tool &rarr;</BuyLink></p>
+
         <h2>Step-by-Step Tick Removal</h2>
 
         <h3>Step 1: Get Fine-Tipped Tweezers</h3>
@@ -82,7 +84,7 @@ export default function RemoveTickPage() {
         <p>Position the tweezers as close to the skin surface as possible — you want to grab the tick's mouthparts (where it's attached), not the body. Grasping the engorged body risks squeezing infected fluids into the bite wound.</p>
 
         <h3>Step 3: Pull Straight Up with Steady, Even Pressure</h3>
-        <p>Pull upward with slow, steady, even pressure. Do not twist or jerk — this can cause the mouthparts to break off and remain in the skin. Maintain consistent upward pressure until the tick releases.</p>
+        <p>Pull upward with slow, steady, even pressure. Do not twist or jerk — this can cause the mouthparts to break off and remain in the skin. Maintain consistent upward pressure until the tick releases. If the head or mouthparts do break off, see <Link href="/blog/tick-head-stuck-in-skin" className="text-brand-700 hover:underline">what to do when a tick&rsquo;s head is stuck in the skin</Link>.</p>
 
         <h3>Step 4: Clean the Bite Area</h3>
         <p>Once the tick is removed, clean the bite site and your hands thoroughly with rubbing alcohol or soap and water.</p>
@@ -98,6 +100,19 @@ export default function RemoveTickPage() {
           <li>Joint pain or swelling</li>
         </ul>
         <p>If any symptoms develop, contact your healthcare provider promptly. Early treatment is highly effective.</p>
+
+        <h2>After Removal: Your 30-Day Watch Checklist</h2>
+        <p>Most tick bites heal uneventfully, but the four weeks after removal are when a tick-borne illness such as Lyme disease would first show itself. Watching the bite and your general health for 30 days is the key follow-up step &mdash; a phone photo on day 0 makes changes easier to spot (see <Link href="/blog/what-does-a-tick-bite-look-like" className="text-brand-700 hover:underline">what a tick bite looks like</Link> at each stage). Use this checklist:</p>
+        <div className="not-prose bg-brand-50 border border-brand-100 rounded-2xl p-6 my-6">
+          <ul className="space-y-2 text-sm text-brand-900">
+            <li>☐ <strong>Day 0:</strong> Note the removal date and the exact spot on the body; a photo helps track any change.</li>
+            <li>☐ <strong>Days 1–3:</strong> Expect a small red bump &mdash; confirm it is shrinking, not spreading outward.</li>
+            <li>☐ <strong>Days 3–30:</strong> Check daily for an expanding red patch or bull&rsquo;s-eye rash, on or away from the bite.</li>
+            <li>☐ <strong>Anytime within 30 days:</strong> Note any fever, chills, headache, fatigue, or joint and muscle aches.</li>
+            <li>☐ <strong>At the site:</strong> Watch for increasing pain, warmth, swelling, or pus &mdash; signs of a skin infection, not Lyme.</li>
+            <li>☐ <strong>If a blacklegged tick was attached 24+ hours:</strong> Contact your provider within 72 hours to ask about assessment.</li>
+          </ul>
+        </div>
 
         <h2>What NOT to Do When Removing a Tick</h2>
         <div className="not-prose bg-red-50 border border-red-200 rounded-2xl p-6 my-6">
@@ -119,7 +134,7 @@ export default function RemoveTickPage() {
           <li>You develop fever, fatigue, headache, or joint pain in the weeks after a tick bite</li>
           <li>The bite site shows signs of infection (increasing redness, swelling, warmth, or discharge)</li>
         </ul>
-        <p>Lyme disease is highly treatable when caught early. Don't wait if you're concerned.</p>
+        <p>Lyme disease is the most common tick-borne illness in Ontario, but it is not the only one &mdash; certain tick bites are also linked (per the CDC) to <Link href="/blog/alpha-gal-syndrome" className="text-brand-700 hover:underline">alpha-gal syndrome</Link>, a delayed allergy to red meat, though it remains uncommon in Canada. Lyme disease is highly treatable when caught early, so don&apos;t wait if you&rsquo;re concerned.</p>
 
         <h2>Frequently Asked Questions</h2>
         <div className="not-prose space-y-3 my-6">

@@ -199,6 +199,16 @@ export default function WhyDoMosquitoBitesItchPage() {
 
           <p className="text-sm text-gray-500 italic mt-6">This article is general educational information and is not medical advice. It does not diagnose or treat any condition. For any bite that concerns you &mdash; or any symptom that is severe, spreading, or accompanied by fever or difficulty breathing &mdash; contact a healthcare provider, or call 911 in an emergency.</p>
 
+          <h2>Mosquito Bite vs Other Bites</h2>
+          <p>If a bite does not itch, swell, or heal the way this page describes, it may not be a mosquito at all. When bites arrive in lines or clusters, blister, or itch far out of proportion to their size, compare them against these common look-alikes:</p>
+          <ul>
+            <li><Link href="/blog/bed-bug-bites">Bed bug bites</Link> &mdash; often appear in lines or clusters on skin exposed while you sleep.</li>
+            <li><Link href="/blog/chigger-bites">Chigger bites</Link> &mdash; intensely itchy welts that cluster around the ankles, waistband, and other snug spots.</li>
+            <li><Link href="/blog/flea-bites-on-humans">Flea bites on humans</Link> &mdash; small red dots, usually grouped on the lower legs and ankles.</li>
+            <li><Link href="/blog/no-see-um-bites">No-see-um bites</Link> &mdash; tiny biting midges that leave a burning, disproportionately itchy welt.</li>
+            <li><Link href="/blog/mosquito-bite-vs-spider-bite">Mosquito bite vs spider bite</Link> &mdash; how to tell a harmless welt from a bite worth watching.</li>
+          </ul>
+
           <h2>Related Reading</h2>
           <ul>
             <li><Link href="/blog/mosquito-bite-treatment-relief">Mosquito Bite Treatment &mdash; How to Stop the Itch Fast</Link></li>
