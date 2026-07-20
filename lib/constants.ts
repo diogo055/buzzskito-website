@@ -1531,6 +1531,64 @@ export const NEW_BLOGS_24 = [
   },
 ]
 
+// ── Wave 25 — geo-neutral US-expansion pages (Jul 19 2026) ────────────────────
+// Country-agnostic health/bite/ID content engineered to rank in BOTH the US and
+// Canada (no country in slug/title/H1; dual CDC + PHAC citations). Targets big
+// US search volume (~356K/mo combined) with ZERO Canadian-ranking risk. Adjacent
+// pests (chigger/bed-bug/spider/flea) are review-only w/ SpecialistDisclosure +
+// firewall; on-brand (west-nile/no-see-um/alpha-gal) carry the service CTA.
+export const NEW_BLOGS_25 = [
+  {
+    slug: 'chigger-bites',
+    title: 'Chigger Bites: What They Look Like, How Long They Last & How to Treat Them (2026)',
+    excerpt: 'What chigger bites look like, why they cluster at ankles and waistbands, how long they last, treatment that calms the itch, and the skin-burrowing myth debunked.',
+    date: '2026-07-19',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'bed-bug-bites',
+    title: 'Bed Bug Bites: What They Look Like, How Long They Last & How to Tell for Sure (2026)',
+    excerpt: 'The breakfast-lunch-dinner line pattern, bed bug vs mosquito vs flea bite comparison tables, the up-to-14-day delay, itch relief, and how to confirm it is bed bugs.',
+    date: '2026-07-19',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'west-nile-virus-symptoms',
+    title: 'West Nile Virus Symptoms: Timeline, First Signs, Diagnosis & When to See a Doctor (2026)',
+    excerpt: '~80% have no symptoms, 20% get West Nile fever, under 1% get serious illness. First signs, the 2-14 day timeline, diagnosis, why it is not contagious, and treatment.',
+    date: '2026-07-19',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'what-does-a-spider-bite-look-like',
+    title: 'What Does a Spider Bite Look Like? Identification, Stages & When to Worry (2026)',
+    excerpt: 'How to identify a spider bite, why most suspected spider bites are something else, brown recluse and black widow warning signs, healing timeline, and when to get care.',
+    date: '2026-07-19',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'flea-bites-on-humans',
+    title: 'Flea Bites on Humans: What They Look Like & How to Tell It\'s Fleas (2026)',
+    excerpt: 'What flea bites look like on humans — ankle clusters, red halos, instant itch — vs bed bug and mosquito bites, how long they last, and how to clear a home infestation.',
+    date: '2026-07-19',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'no-see-um-bites',
+    title: 'No-See-Um Bites: What They Look Like, Why They Itch So Much & How to Treat Them (2026)',
+    excerpt: 'What no-see-um bites look like, why they itch more than mosquito bites, how long they last, a no-see-um vs mosquito vs flea vs chigger comparison, and itch-relief treatment.',
+    date: '2026-07-19',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'alpha-gal-syndrome',
+    title: 'Alpha-Gal Syndrome: The Tick Bite That Causes a Red Meat Allergy (2026)',
+    excerpt: 'A tick-triggered red meat allergy with a signature delayed 2-6 hour reaction: symptoms, trigger foods, the lone star tick, diagnosis, testing, and prevention.',
+    date: '2026-07-19',
+    category: 'tick' as const,
+  },
+]
+
 // ── Season helpers ─────────────────────────────────────────────────────────────
 
 export const PEAK_SEASON = 'May through July'

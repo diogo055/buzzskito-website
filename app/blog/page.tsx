@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import BlogCard from '@/components/BlogCard'
 import { buildMetadata, breadcrumbSchema, speakableSchema } from '@/lib/seo'
-import { MOSQUITO_BLOGS, TICK_BLOGS, NEW_BLOGS, NEW_BLOGS_2, NEW_BLOGS_3, NEW_BLOGS_4, NEW_BLOGS_5, NEW_BLOGS_6, NEW_BLOGS_7, NEW_BLOGS_8, NEW_BLOGS_9, NEW_BLOGS_10, NEW_BLOGS_11, NEW_BLOGS_12, NEW_BLOGS_13, NEW_BLOGS_14, NEW_BLOGS_15, NEW_BLOGS_16, NEW_BLOGS_17, NEW_BLOGS_18, NEW_BLOGS_19, NEW_BLOGS_20, NEW_BLOGS_21, NEW_BLOGS_22, NEW_BLOGS_23, NEW_BLOGS_24 } from '@/lib/constants'
+import { MOSQUITO_BLOGS, TICK_BLOGS, NEW_BLOGS, NEW_BLOGS_2, NEW_BLOGS_3, NEW_BLOGS_4, NEW_BLOGS_5, NEW_BLOGS_6, NEW_BLOGS_7, NEW_BLOGS_8, NEW_BLOGS_9, NEW_BLOGS_10, NEW_BLOGS_11, NEW_BLOGS_12, NEW_BLOGS_13, NEW_BLOGS_14, NEW_BLOGS_15, NEW_BLOGS_16, NEW_BLOGS_17, NEW_BLOGS_18, NEW_BLOGS_19, NEW_BLOGS_20, NEW_BLOGS_21, NEW_BLOGS_22, NEW_BLOGS_23, NEW_BLOGS_24, NEW_BLOGS_25 } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
   title: 'Mosquito & Tick Control Blog | GTA',
@@ -80,7 +80,7 @@ export default function BlogIndexPage() {
           </div>
           <p className="text-gray-500 text-sm mb-8 max-w-2xl">Local mosquito and tick guides for specific GTA cities, neighbourhoods, and property types — covering real landmarks, waterways, and risk zones.</p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {[...NEW_BLOGS, ...NEW_BLOGS_2, ...NEW_BLOGS_3, ...NEW_BLOGS_4, ...NEW_BLOGS_5, ...NEW_BLOGS_6, ...NEW_BLOGS_7, ...NEW_BLOGS_8, ...NEW_BLOGS_9, ...NEW_BLOGS_10, ...NEW_BLOGS_11, ...NEW_BLOGS_12, ...NEW_BLOGS_13, ...NEW_BLOGS_14, ...NEW_BLOGS_15, ...NEW_BLOGS_16, ...NEW_BLOGS_17, ...NEW_BLOGS_18, ...NEW_BLOGS_19, ...NEW_BLOGS_20, ...NEW_BLOGS_21, ...NEW_BLOGS_22, ...NEW_BLOGS_23, ...NEW_BLOGS_24].map((post) => (
+            {[...NEW_BLOGS, ...NEW_BLOGS_2, ...NEW_BLOGS_3, ...NEW_BLOGS_4, ...NEW_BLOGS_5, ...NEW_BLOGS_6, ...NEW_BLOGS_7, ...NEW_BLOGS_8, ...NEW_BLOGS_9, ...NEW_BLOGS_10, ...NEW_BLOGS_11, ...NEW_BLOGS_12, ...NEW_BLOGS_13, ...NEW_BLOGS_14, ...NEW_BLOGS_15, ...NEW_BLOGS_16, ...NEW_BLOGS_17, ...NEW_BLOGS_18, ...NEW_BLOGS_19, ...NEW_BLOGS_20, ...NEW_BLOGS_21, ...NEW_BLOGS_22, ...NEW_BLOGS_23, ...NEW_BLOGS_24, ...NEW_BLOGS_25].map((post) => (
               <BlogCard key={post.slug} {...post} />
             ))}
           </div>
