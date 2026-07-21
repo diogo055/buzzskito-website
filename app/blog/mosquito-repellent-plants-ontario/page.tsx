@@ -3,11 +3,14 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import AuthorByline from '@/components/AuthorByline'
 import BuyLink from '@/components/BuyLink'
+import TopPick from '@/components/TopPick'
+import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { NEW_BLOGS_2, MOSQUITO_BLOGS } from '@/lib/constants'
 
 const POST = NEW_BLOGS_2[0]
+const UPDATED = POST.date
 
 export const metadata: Metadata = buildMetadata({
   title: 'Mosquito Repellent Plants Ontario: Citronella & 9 More',
@@ -67,6 +70,7 @@ export default function MosquitoRepellentPlantsPage() {
           <span className="bg-brand-800 text-brand-200 text-xs px-3 py-1 rounded-full mb-4 inline-block">Mosquito Control</span>
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold mb-4 leading-tight">10 Plants That Repel Mosquitoes in Ontario (Tested in GTA Climate, 2026)</h1>
           <p className="text-brand-300 text-sm">Plants that actually reduce mosquito pressure in Ontario gardens — what works, what doesn&apos;t, and how to combine them with professional barrier spray.</p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
 
@@ -183,6 +187,16 @@ export default function MosquitoRepellentPlantsPage() {
         <p>Here is the myth worth busting: no citronella plant — geranium or grass — will meaningfully reduce mosquitoes across an Ontario backyard. Peer-reviewed trials of the &ldquo;mosquito plant&rdquo; geranium have repeatedly found no measurable protection. The scent travels only a few centimetres, while mosquitoes home in on the carbon dioxide and body heat you give off from well beyond that. Treat citronella as a pleasant patio plant, not pest control.</p>
         <p>For protection you can actually feel, pair it with the two things that work at yard scale: eliminate standing water, and put down a <Link href="/mosquito-control">professional barrier spray</Link> that coats the vegetation where mosquitoes rest and keeps working for up to 30 days. Our breakdown of <Link href="/blog/mosquito-vs-diy-vs-professional-control">DIY vs. professional mosquito control</Link> lays out the full comparison, and our guide to <Link href="/blog/natural-mosquito-repellent-ontario">natural mosquito repellents in Ontario</Link> covers the non-chemical options worth trying.</p>
         <p>Because plants alone won&rsquo;t hold a patio through a July evening, most Ontario homeowners bridge the gap with a spot device that actually creates a protection zone. A butane-powered repeller such as a Thermacell puts out a 20-foot mosquito-free bubble around your seating in minutes — a genuine upgrade over hoping a potted geranium does the job: <BuyLink search="thermacell mosquito repeller">Check price on Amazon.ca &rarr;</BuyLink></p>
+
+        <TopPick
+          label="Best Spot Protection for a Patio"
+          name="Thermacell Mosquito Repeller"
+          blurb="If repellent plants can't hold your seating area through a July evening, a butane-powered Thermacell creates a roughly 20-foot mosquito-free zone within minutes — no spray on your skin, no smoke, and far more reliable than a potted geranium. It's the honest bridge between garden plants and a full barrier-spray program."
+          search="thermacell mosquito repeller"
+          score={8.5}
+          pros={['Creates a real ~20-ft protection zone', 'Works in minutes, scent-free', 'Portable — deck, patio, or campsite']}
+          cons={['Needs butane + repellent refills', 'Best in still air, not gusty wind']}
+        />
 
         <h2>Plants That Don&apos;t Work (Despite the Claims)</h2>
         <p>Several plants are widely marketed as mosquito repellents without meaningful evidence:</p>

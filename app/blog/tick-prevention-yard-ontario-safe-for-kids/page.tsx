@@ -3,8 +3,13 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import FreshnessStamp from '@/components/FreshnessStamp'
+import AuthorByline from '@/components/AuthorByline'
+import TopPick from '@/components/TopPick'
 import { buildMetadata, breadcrumbSchema, faqSchema, blogPostingSchema, speakableSchema, howToSchema } from '@/lib/seo'
 import { BUSINESS } from '@/lib/constants'
+
+const UPDATED = '2026-04-07'
 
 export const metadata: Metadata = buildMetadata({
   title: 'Tick Prevention Yard Ontario | Kids Safe',
@@ -78,6 +83,7 @@ export default function TickPreventionYardKidsPage() {
           <p className="text-xl text-amber-100 max-w-2xl leading-relaxed">
             How to make your Ontario backyard safe from ticks — yard modifications, DIY measures, and professional barrier spray that protects children and pets without keeping them indoors all summer.
           </p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
 
@@ -99,6 +105,8 @@ export default function TickPreventionYardKidsPage() {
           </div>
 
           <AffiliateDisclosure />
+
+          <AuthorByline datePublished={POST.date} dateModified={UPDATED} />
 
           <h2>Why Ontario Backyards Are the #1 Tick Exposure Site for Children</h2>
           <p>Most Ontario families assume the biggest tick risk is on hiking trails. The data says otherwise. Research from Ontario public health agencies consistently finds that <strong>the majority of Lyme disease exposures happen in or immediately adjacent to residential properties</strong> — not on remote trails. For children especially, the backyard is where they spend the most unstructured outdoor time.</p>
@@ -187,6 +195,15 @@ export default function TickPreventionYardKidsPage() {
           <h2>Personal Repellent: The Second Layer for Kids</h2>
           <p>Yard treatment lowers the tick population where your children play, but a skin-applied repellent adds a second layer for trips to the park, cottage, or trail. For children, <strong>picaridin (icaridin)</strong> is the pediatric-friendly choice many parents prefer over DEET — Health Canada permits it for children as young as six months, it is odourless, and it will not damage plastics or clothing. Apply it to exposed skin before outdoor play and reapply per the label.</p>
           <p className="not-prose my-4"><BuyLink search="picaridin insect repellent canada">Check price on Amazon.ca →</BuyLink></p>
+          <TopPick
+            label="Our Top Pick for Kids"
+            name="Picaridin (Icaridin) Insect Repellent"
+            blurb="The pediatric-friendly skin layer many Ontario parents prefer over DEET — Health Canada permits picaridin for children as young as six months, it is odourless, and it will not damage plastics or clothing. Apply to exposed skin before outdoor play and reapply per the label."
+            search="picaridin insect repellent canada"
+            score={8.7}
+            pros={['Health Canada-permitted from 6 months', 'Odourless and non-greasy', 'Safe on plastics, gear, and clothing']}
+            cons={['Skin layer only — not a yard treatment', 'Needs reapplication through the day']}
+          />
           <p>For a full breakdown of kid-safe options — including lotions versus sprays and the right concentration by age — see our guide to the <Link href="/blog/best-bug-spray-for-kids-canada" className="text-brand-700 hover:underline">best bug spray for kids in Canada</Link>.</p>
 
           <h2>Post-Outdoor Tick Checks for Children</h2>

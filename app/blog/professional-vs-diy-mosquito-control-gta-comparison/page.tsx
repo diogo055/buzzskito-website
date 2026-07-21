@@ -4,6 +4,9 @@ import CTASection from '@/components/CTASection'
 import BlogPostCTA from '@/components/BlogPostCTA'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import FreshnessStamp from '@/components/FreshnessStamp'
+import AuthorByline from '@/components/AuthorByline'
+import TopPick from '@/components/TopPick'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 
 const POST = {
@@ -12,6 +15,8 @@ const POST = {
   date: '2026-05-28',
   excerpt: 'The full 2026 comparison: every DIY product (citronella, Thermacell, Mosquito Magnet, Dynatrap, dunks, store sprays, permethrin) versus professional barrier spray. Real cost math, real effectiveness numbers, real safety analysis for GTA families.',
 }
+
+const UPDATED = '2026-05-28'
 
 const FAQS = [
   {
@@ -71,6 +76,7 @@ export default function ProfessionalVsDIYPage() {
           <span className="bg-amber-500 text-white text-xs px-3 py-1 rounded-full mb-4 inline-block font-bold uppercase tracking-wider">Pillar Guide · 2026</span>
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold mb-4 leading-tight">{POST.title}</h1>
           <p className="text-brand-300 text-sm">Published {new Date(POST.date).toLocaleDateString('en-CA', { year: 'numeric', month: 'long', day: 'numeric' })} · By Alex &amp; The BuzzSkito Team</p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
 
@@ -79,6 +85,7 @@ export default function ProfessionalVsDIYPage() {
       </div>
 
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
+        <AuthorByline datePublished={POST.date} dateModified={UPDATED} />
         <div className="not-prose bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
           <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
           <p className="text-gray-800 text-[15px] leading-relaxed font-medium">On a typical GTA lot, professional barrier spray beats a DIY toolkit: a diligent DIY stack costs about $450&ndash;$650 a summer and cuts mosquito pressure 30&ndash;50%, while a professional barrier-spray season delivers 70&ndash;90% reduction with no labour. The best strategy is professional spray as the foundation with targeted DIY as the supplement.</p>
@@ -110,9 +117,15 @@ export default function ProfessionalVsDIYPage() {
         <h3>BTi mosquito dunks and granules (Bacillus thuringiensis israelensis)</h3>
         <p>The single most effective DIY product. BTi is a naturally-occurring bacterium that produces toxins specific to mosquito, black fly, and fungus gnat larvae. It is harmless to mammals, birds, fish, and most non-target insects. Dunks ($1-$2 each) drop into standing water — birdbaths, rain barrels, plant saucers, ponds, French drains, retention basins — and kill mosquito larvae within 24 hours. One dunk treats 100 square feet of water for 30 days. Granules ($25 for a 32-oz container) work the same way for shallow water.</p>
         <p><strong>Verdict:</strong> Genuinely effective for what they do. If you have any standing water on the property, BTi is the highest-leverage DIY investment you can make. It does nothing for adult mosquitoes already biting in your yard.</p>
-        <div className="not-prose my-4">
-          <BuyLink search="summit mosquito dunks">Check Summit Mosquito Dunks on Amazon.ca →</BuyLink>
-        </div>
+        <TopPick
+          label="Best DIY Product"
+          name="Summit Mosquito Dunks (BTi)"
+          blurb="The single most effective DIY product in this guide. Drop one into any standing water — birdbaths, rain barrels, plant saucers, ponds, French drains — and it kills larvae within 24 hours, breaking the breeding cycle for 30 days. Harmless to mammals, birds, fish, and most non-target insects. It won't touch adult mosquitoes already biting, so pair it with yard treatment for full coverage."
+          search="summit mosquito dunks"
+          score={8.7}
+          pros={['95%+ larval kill in treated water', 'One dunk lasts ~30 days per 100 sq ft', 'Safe around pets, kids, and fish']}
+          cons={['Only works on standing water you can find', 'Does nothing for adult biters already in the yard']}
+        />
 
         <h3>Thermacell</h3>
         <p>Thermacell units burn an allethrin pad over a butane heater and create a 4-metre cloud of mosquito-repellent vapour. Independent research (including studies funded by the US Centers for Disease Control) shows 75-95% bite reduction within the protected zone while the unit is operating. Cost: $40 for the unit, $10 per refill pack (good for ~12 hours), $200-$300 for a season of regular patio use.</p>

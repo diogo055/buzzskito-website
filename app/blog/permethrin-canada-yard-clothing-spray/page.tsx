@@ -4,6 +4,9 @@ import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
 import TopPick from '@/components/TopPick'
+import StickyBuyBar from '@/components/StickyBuyBar'
+import FreshnessStamp from '@/components/FreshnessStamp'
+import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 
 const SLUG = 'permethrin-canada-yard-clothing-spray'
@@ -108,8 +111,11 @@ export default function PermethrinCanadaPage() {
             <p className="text-base sm:text-lg text-white leading-relaxed">Yes &mdash; permethrin is legal in Canada. Health Canada&rsquo;s PMRA registers low-concentration Sawyer 0.5% clothing spray as a consumer product you can buy at Cabela&rsquo;s, MEC, Canadian Tire and Amazon.ca. Higher-concentration yard/turf concentrate is restricted &mdash; only a licensed Ontario applicator may spray it on your lawn.</p>
           </div>
           <p className="text-xl text-brand-100 max-w-3xl">Where to buy Sawyer permethrin clothing spray in Canada, why yard-application is restricted by Health Canada, and the licensed Ontario alternative for whole-yard tick and mosquito control.</p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
+
+      <StickyBuyBar name="Sawyer Permethrin Clothing + Gear Spray (0.5%)" search="sawyer permethrin clothing spray" label="Best consumer permethrin" />
 
       {/* ANSWER CAPSULE */}
       <section className="bg-white px-4">
@@ -128,9 +134,13 @@ export default function PermethrinCanadaPage() {
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
           </div>
           <TopPick
+            label="Our Top Pick"
             name="Sawyer Permethrin Clothing + Gear Spray (0.5%)"
             blurb="The only consumer permethrin you can legally buy in Canada — spray it on pants, socks, and boots (never skin, never your lawn) and it keeps killing ticks on contact for 6 weeks or 6 wash cycles."
             search="sawyer permethrin clothing spray"
+            score={8.7}
+            pros={['Kills ticks on contact through treated fabric', 'One application lasts 6 weeks or 6 wash cycles', 'Legal consumer product, widely stocked in Canada']}
+            cons={['Clothing only — never skin or lawn', 'Highly toxic to cats until fully dry']}
           />
         </div>
       </section>
@@ -222,6 +232,7 @@ export default function PermethrinCanadaPage() {
 
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
+          <AuthorByline datePublished={DATE} dateModified={UPDATED} />
           <p className="not-prose text-sm text-gray-600 mb-1">The most-recommended permethrin brand in Canada is Sawyer — for clothing, gear, and tents (never skin):</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink search="sawyer permethrin clothing spray">Check Sawyer Permethrin price on Amazon.ca →</BuyLink>

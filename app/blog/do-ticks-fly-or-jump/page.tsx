@@ -3,6 +3,8 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import AuthorByline from '@/components/AuthorByline'
 import BuyLink from '@/components/BuyLink'
+import TopPick from '@/components/TopPick'
+import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 
@@ -68,6 +70,7 @@ export default function DoTicksFlyOrJumpPage() {
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
           <p className="text-xl text-brand-100 max-w-3xl">The two biggest tick myths, settled — and what ticks actually do to reach you.</p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
 
@@ -195,6 +198,16 @@ export default function DoTicksFlyOrJumpPage() {
             <li><strong>Professional barrier spray.</strong> <Link href="/tick-control">BuzzSkito&rsquo;s tick barrier treatment</Link> targets the lawn edges, leaf litter, and shaded borders where ticks quest, for 80–95% population reduction through the season.</li>
           </ol>
           <p>Because a questing tick crawls slowly for minutes to hours before it bites, a tick check after time outdoors usually catches it in time. Keep a fine-tipped removal tool handy so you can grip a tick close to the skin and pull straight out. <BuyLink search="tick removal tool tweezers">Check tick-removal tools on Amazon.ca →</BuyLink></p>
+
+          <TopPick
+            label="Our Top Pick — Tick Removal Tool"
+            name="Fine-Tipped Tick Remover Kit"
+            blurb="Since a questing tick wanders for minutes to hours before it bites, having the right tool on hand is what turns a tick check into a clean removal. A pointed, fine-tipped remover grips a tick close to the skin so you can pull straight out without squeezing the body — the method that lowers infection risk. Compact enough for a hiking pack, gym bag, or the junk drawer by the back door."
+            search="tick removal tool tweezers"
+            score={8.7}
+            pros={['Fine tip grips even poppy-seed-sized nymphs', 'Pulls straight out without crushing the tick', 'Pocket-sized for trail and yard']}
+            cons={['Needs a steady hand on small nymphs', 'Not a substitute for daily tick checks']}
+          />
 
           <h2>Related Reading</h2>
           <ul>

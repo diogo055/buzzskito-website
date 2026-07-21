@@ -3,6 +3,10 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
+import AwardRow from '@/components/AwardRow'
+import StickyBuyBar from '@/components/StickyBuyBar'
+import FreshnessStamp from '@/components/FreshnessStamp'
+import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 
 const SLUG = 'mosquito-repellent-stickers-patches-canada'
@@ -68,8 +72,11 @@ export default function MosquitoRepellentStickersPatchesCanadaPage() {
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
           <p className="text-xl text-brand-100 max-w-3xl">The honest, Canadian take on DEET-free citronella stickers and patches — what they actually do, whether they are worth it for kids and babies, and the best-rated packs with 2026 prices.</p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
+
+      <StickyBuyBar name="BuzzPatch / NATPAT DEET-free kids' repellent stickers" search="buzzpatch natpat mosquito stickers" label="Most popular for kids" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -86,6 +93,58 @@ export default function MosquitoRepellentStickersPatchesCanadaPage() {
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
           </div>
+        </div>
+      </section>
+
+      <section className="bg-white px-4 py-6">
+        <div className="max-w-5xl mx-auto">
+          <AwardRow
+            heading="Our Picks — Best DEET-Free Mosquito Stickers & Patches"
+            awards={[
+              {
+                badge: 'Best for Kids',
+                name: 'BuzzPatch / NATPAT (kids)',
+                why: 'Cartoon citronella-and-essential-oil stickers children actually want to wear, and they hold well on clothing and stroller fabric — the reason they are the most popular kids’ pick.',
+                search: 'buzzpatch natpat mosquito stickers',
+                score: 8.0,
+                featured: true,
+                pros: ['Kids keep them on', 'Sticks well to fabric', 'DEET-free, clothing-only'],
+                cons: ['Short real-world duration', 'Only protects a small zone'],
+              },
+              {
+                badge: 'Best Budget',
+                name: 'Cliganic Citronella + Lemongrass Patches',
+                why: 'The same plant-oil mechanism in a cheaper family multipack — sensible when you go through several patches a day and do not need the cartoon branding.',
+                search: 'cliganic mosquito repellent patches',
+                score: 7.6,
+                pros: ['Low cost per patch', 'Big family packs', 'Citronella + lemongrass blend'],
+                cons: ['Plainer, less kid-appeal', 'Fades in wind and heat'],
+              },
+              {
+                badge: 'Cheapest Bulk',
+                name: 'Generic Citronella Patches',
+                why: 'The lowest cost-per-patch option for stocking up. Pure citronella oil, no frills — fine for adults who just want a convenient DEET-free top-up.',
+                search: 'citronella mosquito patches bulk',
+                score: 7.0,
+                pros: ['Cheapest per unit', 'Great for stock-up', 'Simple citronella oil'],
+                cons: ['Single-oil, weakest blend', 'Quality varies by seller'],
+              },
+              {
+                badge: 'Best Reusable',
+                name: 'Para’Kito Refillable Clip',
+                why: 'A geraniol pellet clip you recharge instead of throwing away single-use stickers — greener and cheaper over a full season for older kids and adults.',
+                search: 'parakito mosquito refill clip',
+                score: 7.8,
+                pros: ['Reusable, less waste', 'Cheaper over time', 'Geraniol refill pellets'],
+                cons: ['Higher up-front cost', 'Still a small personal zone'],
+              },
+            ]}
+            whichToBuy={
+              <>
+                <strong>Baby or toddler?</strong> The <em>Best for Kids</em> BuzzPatch stickers go on the stroller or onesie, DEET-free. <strong>Big family, tight budget?</strong> The <em>Best Budget</em> Cliganic multipack does the same job for less. <strong>Want less waste?</strong> The <em>Best Reusable</em> Para&rsquo;Kito clip recharges all season &mdash; but remember every sticker only protects a small personal zone, so for whole-yard, all-evening coverage that also handles ticks, treat the yard with <Link href="/mosquito-control">professional barrier spray</Link>.
+              </>
+            }
+          />
         </div>
       </section>
 
@@ -166,6 +225,7 @@ export default function MosquitoRepellentStickersPatchesCanadaPage() {
 
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
+          <AuthorByline datePublished={DATE} dateModified={UPDATED} />
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Compare current Canadian prices on the best-rated DEET-free stickers and patches:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
@@ -192,28 +252,28 @@ export default function MosquitoRepellentStickersPatchesCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Citronella + essential-oil blend</td>
                   <td className="px-4 py-3 text-gray-700">Kids · strollers · cartoon stickers they will wear</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$18 – $28 / 60</td>
-                  <td className="px-4 py-3"><BuyLink search="buzzpatch natpat mosquito stickers">Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink search="buzzpatch natpat mosquito stickers" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Cliganic Patches</td>
                   <td className="px-4 py-3 text-gray-700">Citronella + lemongrass</td>
                   <td className="px-4 py-3 text-gray-700">Budget family packs</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$12 – $20 / 60</td>
-                  <td className="px-4 py-3"><BuyLink search="cliganic mosquito repellent patches">Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink search="cliganic mosquito repellent patches" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Generic Citronella Patches</td>
                   <td className="px-4 py-3 text-gray-700">Citronella oil</td>
                   <td className="px-4 py-3 text-gray-700">Cheapest bulk / stock-up</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$10 – $18 / 60–100</td>
-                  <td className="px-4 py-3"><BuyLink search="citronella mosquito patches bulk">Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink search="citronella mosquito patches bulk" block>Check price →</BuyLink></td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 font-bold text-brand-800">Para&rsquo;Kito Refillable Clip <span className="font-normal text-xs text-gray-500">(reusable)</span></td>
                   <td className="px-4 py-3 text-gray-700">Geraniol pellet refill</td>
                   <td className="px-4 py-3 text-gray-700">Older kids &amp; adults · lasts longer per dollar</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$18 – $30 + refills</td>
-                  <td className="px-4 py-3"><BuyLink search="parakito mosquito refill clip">Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink search="parakito mosquito refill clip" block>Check price →</BuyLink></td>
                 </tr>
               </tbody>
             </table>

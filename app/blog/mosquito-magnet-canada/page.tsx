@@ -5,9 +5,13 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import TopPick from '@/components/TopPick'
+import StickyBuyBar from '@/components/StickyBuyBar'
+import FreshnessStamp from '@/components/FreshnessStamp'
+import AuthorByline from '@/components/AuthorByline'
 
 const SLUG = 'mosquito-magnet-canada'
 const DATE = '2026-05-01'
+const UPDATED = '2026-05-01'
 const TITLE = 'Mosquito Magnet Canada 2026 — Where to Buy + Do They Actually Work?'
 
 const FAQS = [
@@ -78,8 +82,11 @@ export default function MosquitoMagnetCanadaPage() {
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
           <p className="text-xl text-brand-100 max-w-3xl">Pricing across Canadian retailers, how propane CO₂ traps actually work, Patriot vs Executive comparison, and whether they beat professional yard barrier spray for GTA properties.</p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
+
+      <StickyBuyBar name="Mosquito Magnet Patriot Plus (propane CO₂ trap)" search="mosquito magnet patriot plus" label="Best overall trap" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -155,6 +162,9 @@ export default function MosquitoMagnetCanadaPage() {
             name="Mosquito Magnet Patriot Plus"
             blurb="Treats up to 1 acre and is sufficient for most GTA suburban backyards — the pricier Executive only earns its upgrade on cottages and rural acreage where multi-season durability pays off."
             search="mosquito magnet patriot plus"
+            score={8.6}
+            pros={['Generates real CO₂ that draws egg-laying females', 'Covers up to ~1 acre', 'Entry-level price in the Mosquito Magnet lineup']}
+            cons={['Takes 4–8 weeks to reduce populations', 'Ongoing propane + attractant cost', 'No effect on ticks']}
           />
         </div>
       </section>
@@ -192,6 +202,7 @@ export default function MosquitoMagnetCanadaPage() {
 
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
+          <AuthorByline datePublished={DATE} dateModified={UPDATED} />
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Compare current Canadian prices and models (Patriot Plus, Independence, Executive):</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">

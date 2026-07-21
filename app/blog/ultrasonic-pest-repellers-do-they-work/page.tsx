@@ -4,9 +4,13 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import SpecialistDisclosure from '@/components/SpecialistDisclosure'
+import FreshnessStamp from '@/components/FreshnessStamp'
+import AuthorByline from '@/components/AuthorByline'
+import TopPick from '@/components/TopPick'
 
 const SLUG = 'ultrasonic-pest-repellers-do-they-work'
 const DATE = '2026-07-16'
+const UPDATED = '2026-07-16'
 const TITLE = 'Do Ultrasonic Pest Repellers Actually Work? The Evidence Review (2026)'
 
 const FAQS = [
@@ -77,6 +81,7 @@ export default function UltrasonicPestRepellersPage() {
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
           <p className="text-xl text-brand-100 max-w-3xl">FTC enforcement history, habituation research, the physics of why ultrasound stops at your couch, and the regulatory gap that lets these devices make claims no Canadian agency ever checks.</p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
 
@@ -101,6 +106,7 @@ export default function UltrasonicPestRepellersPage() {
 
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
+          <AuthorByline datePublished={DATE} dateModified={UPDATED} />
           <h2>Do Ultrasonic Pest Repellers Actually Work?</h2>
           <p>No. Across roughly four decades of laboratory and field testing, no controlled study has shown a consumer ultrasonic device preventing or eliminating a rodent or insect infestation — and that is the standard the packaging implies when it promises to &ldquo;drive pests out.&rdquo; The consistent finding is a brief behavioural startle in the first days after a device is switched on, followed by complete habituation: the animals learn the sound carries no consequence and carry on feeding, travelling, and breeding.</p>
           <p>This page is the evidence file: the regulatory actions, the university research, and the physics. Ultrasonic repellers are among the best-selling pest products on Amazon.ca — often outselling the traps that actually work — which is why there are deliberately no ultrasonic devices linked anywhere on this page.</p>
@@ -145,6 +151,15 @@ export default function UltrasonicPestRepellersPage() {
           <h2>What Actually Works Instead?</h2>
           <p>Trapping plus exclusion — the two methods with measurable outcomes. For a mouse problem, that means 6–12 snap traps placed every 2–3 metres along walls with the trigger touching the baseboard (our <Link href="/blog/best-mouse-trap-canada">best mouse trap guide</Link> covers models and placement science), then sealing every entry gap of 6 mm or more. If you want no-see, no-touch disposal, an electronic trap kills in under 5 seconds and handles up to 100 kills per set of batteries — we tested the category leader in our <Link href="/blog/victor-electronic-mouse-trap-review-canada">Victor electronic mouse trap review</Link>.</p>
           <AffiliateDisclosure />
+          <TopPick
+            label="What To Buy Instead"
+            name="Victor M250S Electronic Mouse Trap"
+            blurb="The no-touch alternative to a plug-in that never worked: it delivers a high-voltage kill in under five seconds, signals each catch with an indicator light, and handles up to about 100 kills per set of batteries. A measurable outcome — a body count — is exactly what ultrasound never gives you."
+            search="victor electronic mouse trap"
+            score={8.8}
+            pros={['Kills in under 5 seconds', 'No-see, no-touch disposal', 'Kill-indicator light per catch']}
+            cons={['Mouse-sized rodents only (not rats)', 'Needs fresh batteries to stay lethal']}
+          />
           <div className="not-prose my-4">
             <BuyLink search="victor electronic mouse trap">Check the Victor electronic trap on Amazon.ca →</BuyLink>
           </div>

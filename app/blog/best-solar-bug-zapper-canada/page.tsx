@@ -3,10 +3,15 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
+import AwardRow from '@/components/AwardRow'
+import StickyBuyBar from '@/components/StickyBuyBar'
+import FreshnessStamp from '@/components/FreshnessStamp'
+import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 
 const SLUG = 'best-solar-bug-zapper-canada'
 const DATE = '2026-07-14'
+const UPDATED = '2026-07-14'
 const TITLE = 'Best Solar Bug Zappers in Canada 2026 — What a $30–60 Solar Zapper Can Actually Kill'
 
 const FAQS = [
@@ -58,15 +63,16 @@ export const metadata: Metadata = buildMetadata({
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
+  modifiedTime: UPDATED,
 })
 
 export default function BestSolarBugZapperCanadaPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Honest 2026 field guide to solar-powered bug zappers in Canada — what they can and cannot kill, best models, and smarter alternatives for mosquitoes.', slug: SLUG, datePublished: DATE })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Honest 2026 field guide to solar-powered bug zappers in Canada — what they can and cannot kill, best models, and smarter alternatives for mosquitoes.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Best Solar Bug Zapper Canada', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`)) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`, UPDATED)) }} />
 
       <section className="bg-gradient-to-br from-brand-950 via-brand-900 to-emerald-900 text-white py-14 px-4">
         <div className="max-w-4xl mx-auto">
@@ -77,8 +83,11 @@ export default function BestSolarBugZapperCanadaPage() {
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
           <p className="text-xl text-brand-100 max-w-3xl">The honest version: weak grids, small batteries, real uses. Which solar zappers are worth buying on Amazon.ca, where they genuinely shine (docks, paths, off-grid cottages), and what to use instead for the mosquitoes that bite.</p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
+
+      <StickyBuyBar name="4,500V dual-charge solar bug zapper (solar + USB-C)" search="solar bug zapper outdoor 4500V USB-C" label="Best all-round pick" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -95,6 +104,58 @@ export default function BestSolarBugZapperCanadaPage() {
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
           </div>
+        </div>
+      </section>
+
+      <section className="bg-white px-4 py-6">
+        <div className="max-w-5xl mx-auto">
+          <AwardRow
+            heading="Our Picks — Best Solar Bug Zappers in Canada"
+            awards={[
+              {
+                badge: 'Best Overall',
+                name: '4,500V dual-charge solar zapper (PALONE-class)',
+                why: 'The all-round pick: a 4,500V grid strong enough to finish large moths, a ~7.5W panel, and — the part that matters in Canada — a USB-C backup port that rescues cloudy weeks. Realistic 3–5 m kill radius.',
+                search: 'PALONE solar bug zapper 4500V USB-C',
+                score: 8.0,
+                featured: true,
+                pros: ['USB-C backup for cloudy stretches', '4,500V grid actually kills large moths', 'Stake, hang, or tabletop mounting'],
+                cons: ['3–5 m radius, not the "2,100 sq ft" claimed', 'Near-useless on the mosquitoes that bite'],
+              },
+              {
+                badge: 'Best for Docks & Shade',
+                name: 'Detached-panel solar zapper (OnBeam-class)',
+                why: 'The panel lives on a 3 m extension cord, so it banks sun on the dock post while the zapper hangs where the midges are. A bigger battery carries it deeper into the night.',
+                search: 'solar bug zapper detached panel extension cord',
+                score: 7.6,
+                pros: ['Panel goes in sun, zapper goes in shade', 'Larger battery than one-piece units', 'Ideal for waterfronts and mayfly swarms'],
+                cons: ['Bulkier to pack and store', 'Still a moth-and-gnat device, not mosquito control'],
+              },
+              {
+                badge: 'Best for Ambiance',
+                name: 'PIC solar flame-effect lantern zapper',
+                why: 'The prettiest of the bunch — a flame-effect LED ambiance mode with a zapper built in. A weaker 600V grid means it stuns more than it kills, but it earns its spot as patio decor first.',
+                search: 'PIC solar bug zapper lantern',
+                score: 7.0,
+                pros: ['Genuine patio ambiance', 'Weatherproof and cordless', 'Fun flame-effect glow'],
+                cons: ['600V grid only stuns big moths', 'Half-acre attraction claim is marketing'],
+              },
+              {
+                badge: 'Best Budget',
+                name: 'Solar stake-light zapper multi-packs',
+                why: 'Cheap dusk-to-dawn path lights that pop the odd gnat on the way. Buy them as garden lighting with a bug-zapping bonus — never as the mosquito plan.',
+                search: 'solar bug zapper stake lights garden',
+                score: 6.8,
+                pros: ['Doubles as path lighting', 'Auto on/off at dusk', 'Cheapest way to intercept moth traffic'],
+                cons: ['Low-voltage grid, decor more than control', 'Tiny built-in panels charge poorly in shade'],
+              },
+            ]}
+            whichToBuy={
+              <>
+                <strong>Backyard with an outlet nearby?</strong> Skip solar — a plug-in <em>Flowtron</em> is flatly better hardware for the money (see our <Link href="/blog/flowtron-bug-zapper-canada">Flowtron guide</Link>). <strong>Dock, campsite, or off-grid bunkie?</strong> The <em>Best Overall</em> dual-charge unit is the safe buy; go <em>detached-panel</em> if your only sun is away from where the bugs are. <strong>Want patio glow more than dead moths?</strong> The <em>flame lantern</em> wins. But for the mosquitoes that actually bite, no zapper is the tool — that job belongs to <Link href="/mosquito-control">professional barrier spray</Link>.
+              </>
+            }
+          />
         </div>
       </section>
 
@@ -131,6 +192,7 @@ export default function BestSolarBugZapperCanadaPage() {
 
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
+          <AuthorByline datePublished={DATE} dateModified={UPDATED} />
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Compare current models and Canadian availability:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">

@@ -4,9 +4,12 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import SpecialistDisclosure from '@/components/SpecialistDisclosure'
+import FreshnessStamp from '@/components/FreshnessStamp'
+import AuthorByline from '@/components/AuthorByline'
 
 const SLUG = 'how-to-keep-mice-out-of-your-house-winter'
 const DATE = '2026-07-16'
+const UPDATED = '2026-07-16'
 const TITLE = 'How to Keep Mice Out of Your House This Winter — Canadian Exclusion Guide 2026'
 
 const FAQS = [
@@ -85,6 +88,7 @@ export default function HowToKeepMiceOutWinterPage() {
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
           <p className="text-xl text-brand-100 max-w-3xl">Where mice actually get into 1950s–1970s GTA houses, the October walkaround checklist with the right sealing materials, and how to close a heated garage or cottage without feeding a winter colony.</p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
 
@@ -109,6 +113,7 @@ export default function HowToKeepMiceOutWinterPage() {
 
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
+          <AuthorByline datePublished={DATE} dateModified={UPDATED} />
           <h2>Why Do Mice Come Inside in October?</h2>
           <p>Because a Canadian winter kills unprotected house mice, and your furnace room does not. Mouse pressure on southern Ontario homes follows the thermometer: activity along exterior walls spikes once overnight lows hold below about 10°C — late September through October in the GTA — with a second wave at the first hard cold snap, usually late November. House mice are commensal; they do not hibernate or cache food outdoors the way deer mice and squirrels do. When the temperature drops, your home is not one option among many. It is the plan.</p>
           <p>The math of a missed October is brutal. A pregnant female that slips in through a garage-door corner produces a litter of 5–6 pups within three weeks, and those pups breed at 6–8 weeks old; 5–10 litters per female per year is normal. Two mice in October is plausibly 30 or more by March — at which point you are running the full removal playbook from our <Link href="/blog/how-to-get-rid-of-mice-canada">how to get rid of mice guide</Link> instead of an afternoon of caulking. Exclusion is the only mouse-control method that gets cheaper the earlier you do it.</p>

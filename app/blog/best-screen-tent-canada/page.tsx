@@ -3,11 +3,15 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
-import TopPick from '@/components/TopPick'
+import AwardRow from '@/components/AwardRow'
+import StickyBuyBar from '@/components/StickyBuyBar'
+import FreshnessStamp from '@/components/FreshnessStamp'
+import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 
 const SLUG = 'best-screen-tent-canada'
 const DATE = '2026-07-14'
+const UPDATED = '2026-07-14'
 const TITLE = 'Best Screen Tents & Screen Houses in Canada 2026 — Coleman, CAMPROS, EAST OAK Compared'
 
 const FAQS = [
@@ -78,8 +82,11 @@ export default function BestScreenTentCanadaPage() {
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
           <p className="text-xl text-brand-100 max-w-3xl">Five amazon.ca-confirmed screen houses compared for Canadian summers — size, setup speed, wind tolerance, and black-fly season performance. Plus when a mesh room beats spray entirely.</p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
+
+      <StickyBuyBar name="Coleman Instant Screened Canopy 11x11" search="coleman instant screen house 11x11" label="Best overall" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -99,12 +106,63 @@ export default function BestScreenTentCanadaPage() {
         </div>
       </section>
 
-      <section className="bg-white px-4">
-        <div className="max-w-4xl mx-auto">
-          <TopPick
-            name="Coleman Instant Screened Canopy 11x11"
-            blurb="121 sq ft of mesh-protected space with pre-attached poles — one adult can have it standing in about three minutes, and the footprint fits a standard campsite pad or backyard deck."
-            search="coleman instant screen house 11x11"
+      <section className="bg-white px-4 py-6">
+        <div className="max-w-5xl mx-auto">
+          <AwardRow
+            heading="Our Picks — Best Screen Tents in Canada"
+            awards={[
+              {
+                badge: 'Best Overall',
+                name: 'Coleman Instant Screened Canopy 11x11',
+                why: '121 sq ft of mesh-protected space with pre-attached poles — one adult can have it standing in about three minutes, and the footprint fits a standard campsite pad or backyard deck.',
+                search: 'coleman instant screen house 11x11',
+                score: 9.0,
+                featured: true,
+                pros: ['One-person ~3-minute setup', 'Fits a table plus four chairs', 'Two zippered doors'],
+                cons: ['Square footprint suits campsites more than long patios'],
+              },
+              {
+                badge: 'Best for Hosting',
+                name: 'Coleman Skylodge 15x13 Screenhouse',
+                why: 'At 195 sq ft (18 m²) it swallows a full-size picnic table with benches, a cooler, and standing room for six-plus — with a peak tall enough that nobody hunches.',
+                search: 'coleman skylodge 15x13 screenhouse',
+                score: 8.5,
+                pros: ['Largest protected space here', 'Tall peak, no stooping', 'Same instant-frame concept'],
+                cons: ['Bulky in the trunk', 'Wants two people to square up'],
+              },
+              {
+                badge: 'Best Backyard',
+                name: 'Coleman Back Home 12x10 Screenhouse',
+                why: 'A rectangular 120 sq ft footprint that suits deck and patio placement better than square campsite models, with an instant frame that goes up in three to five minutes.',
+                search: 'coleman back home screen house 12x10',
+                score: 8.1,
+                pros: ['Rectangle fits patio dining sets', 'Instant frame', 'Good semi-permanent May–Sep pick'],
+                cons: ['Not as fast as a pop-up', 'Take down for storms'],
+              },
+              {
+                badge: 'Best Budget',
+                name: 'CAMPROS 12x10 Screen House',
+                why: 'The same 120 sq ft coverage as the Coleman Back Home, mesh on all sides, two large doors — at a price that typically undercuts the name brands meaningfully.',
+                search: 'campros screen house 12x10',
+                score: 7.3,
+                pros: ['Most mesh per dollar', 'Steel frame flexes less in wind'],
+                cons: ['Traditional poles, 10–15 min setup', 'Better with two people'],
+              },
+              {
+                badge: 'Best Pop-Up',
+                name: 'EAST OAK 10x10 Pop-Up Screen Room',
+                why: 'A hub-style frame that unfolds in one piece like a giant umbrella — one person can have all 100 sq ft standing in about a minute, and takedown is just as fast.',
+                search: 'east oak pop up screen room 10x10',
+                score: 7.8,
+                pros: ['~1-minute solo setup', 'Ideal for docks and tailgates', 'Fast takedown'],
+                cons: ['Heavy for its footprint', 'Pivoting joints bend first in wind'],
+              },
+            ]}
+            whichToBuy={
+              <>
+                <strong>Camping or a family at a standard site?</strong> The <em>Best Overall</em> Coleman 11x11 is the safe all-round pick. <strong>Hosting around a picnic table?</strong> Size up to the <em>Best for Hosting</em> Skylodge. <strong>Budget leads?</strong> The <em>Best Budget</em> CAMPROS gives the most mesh per dollar if you don&rsquo;t mind the poles. <strong>Setting up solo every weekend?</strong> The <em>Best Pop-Up</em> EAST OAK deploys in a minute. But a screen tent only protects the space it encloses — for whole-yard, all-season relief that also handles ticks, pair it with <Link href="/mosquito-control">professional barrier spray</Link>.
+              </>
+            }
           />
         </div>
       </section>
@@ -136,7 +194,7 @@ export default function BestScreenTentCanadaPage() {
                     <td className="px-4 py-3 text-gray-700">{size}</td>
                     <td className="px-4 py-3 text-gray-700">{setup}</td>
                     <td className="px-4 py-3 text-xs text-gray-600">{best}</td>
-                    <td className="px-4 py-3"><BuyLink search={search} className="!px-3 !py-1.5 !text-xs whitespace-nowrap">Check price</BuyLink></td>
+                    <td className="px-4 py-3"><BuyLink search={search} block>Check price →</BuyLink></td>
                   </tr>
                 ))}
               </tbody>
@@ -150,6 +208,7 @@ export default function BestScreenTentCanadaPage() {
 
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
+          <AuthorByline datePublished={DATE} dateModified={UPDATED} />
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Jump straight to current Canadian availability for our top pick:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">

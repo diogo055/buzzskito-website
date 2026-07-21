@@ -4,10 +4,14 @@ import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
 import TopPick from '@/components/TopPick'
+import StickyBuyBar from '@/components/StickyBuyBar'
+import FreshnessStamp from '@/components/FreshnessStamp'
+import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 
 const SLUG = 'propane-mosquito-trap-canada'
 const DATE = '2026-07-14'
+const UPDATED = '2026-07-14'
 const TITLE = 'Propane Mosquito Traps in Canada 2026: Are $1,000+ CO2 Traps Worth It?'
 
 const FAQS = [
@@ -78,8 +82,11 @@ export default function PropaneMosquitoTrapCanadaPage() {
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
           <p className="text-xl text-brand-100 max-w-3xl">How burning propane into a CO2 plume actually kills mosquitoes, the honest fuel-cost and 1-acre coverage math, and when a four-figure trap beats a professional barrier spray on a GTA property.</p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
+
+      <StickyBuyBar name="Mosquito Magnet Patriot Plus (propane CO₂ trap)" search="mosquito magnet patriot plus" label="Our value pick" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -106,6 +113,9 @@ export default function PropaneMosquitoTrapCanadaPage() {
             name="Mosquito Magnet Patriot Plus (MM4200B)"
             blurb="The entry point to the only propane-trap ecosystem with real Canadian refill and parts supply — the same CO2-plume mechanism and up-to-1-acre best-case reach as the flagship, without the flagship price."
             search="mosquito magnet patriot plus"
+            score={8.3}
+            pros={['Real CO2-plume mechanism that targets biting females', 'Only propane trap with reliable Canadian refills & parts', 'Mid-price entry to a proven ecosystem']}
+            cons={['Ongoing propane + attractant consumable cost', 'Overkill on a small fenced suburban lot']}
           />
         </div>
       </section>
@@ -181,6 +191,7 @@ export default function PropaneMosquitoTrapCanadaPage() {
 
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
+          <AuthorByline datePublished={DATE} dateModified={UPDATED} />
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Compare current Canadian models, attractants and parts on Amazon.ca:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">

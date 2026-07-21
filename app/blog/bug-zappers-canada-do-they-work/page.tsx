@@ -3,7 +3,10 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema, itemListSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
-import TopPick from '@/components/TopPick'
+import AwardRow from '@/components/AwardRow'
+import StickyBuyBar from '@/components/StickyBuyBar'
+import FreshnessStamp from '@/components/FreshnessStamp'
+import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 
 const SLUG = 'bug-zappers-canada-do-they-work'
@@ -93,8 +96,11 @@ export default function BugZappersCanadaPage() {
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
           <p className="text-xl text-brand-100 max-w-3xl">The peer-reviewed research, the cost in Canada, and the surprising truth: bug zappers kill mostly moths and beetles — not the mosquitoes biting you.</p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
+
+      <StickyBuyBar name="Flowtron BK-40D Electronic Insect Killer" search="flowtron bk-40d bug zapper" label="If you must buy one" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -170,13 +176,63 @@ export default function BugZappersCanadaPage() {
         </div>
       </section>
 
-      <section className="bg-white px-4">
-        <div className="max-w-4xl mx-auto">
-          <TopPick
-            label="If You Must Buy One"
-            name="Flowtron BK-40D Electronic Insect Killer"
-            blurb="The best large outdoor zapper Canadians actually buy — up to 1 acre of coverage for the moths, gnats, and beetles zappers really kill. Just don't expect fewer mosquito bites."
-            search="flowtron bk-40d bug zapper"
+      <section className="bg-white px-4 py-6">
+        <div className="max-w-5xl mx-auto">
+          <AwardRow
+            heading="Our Picks — Best Bug Zappers in Canada (for the Moths & Gnats They Actually Kill)"
+            awards={[
+              {
+                badge: 'Best Overall',
+                name: 'Flowtron BK-40D Electronic Insect Killer',
+                why: 'The large outdoor zapper Canadians buy most, covering up to about 1 acre. It knocks down the moths, gnats, and beetles that swarm a patio light — just do not expect fewer mosquito bites.',
+                search: 'flowtron bk-40d bug zapper',
+                score: 8.1,
+                featured: true,
+                pros: ['Widest coverage of any zapper', 'Reliable, long-running unit', 'Cuts nuisance moth & gnat clouds'],
+                cons: ['Barely touches biting mosquitoes', 'Kills beneficial pollinators'],
+              },
+              {
+                badge: 'Best Indoor Swatter',
+                name: 'Black Flag Executioner Racket',
+                why: 'The one zapper format we genuinely recommend: a handheld electric racket for swatting individual mosquitoes and flies you can see indoors. Budget-friendly, no bulbs, kills on contact.',
+                search: 'black flag executioner racket',
+                score: 8.3,
+                pros: ['Actually kills mosquitoes you can see', 'Budget-friendly, lasts years', 'No bulbs or cartridges'],
+                cons: ['You have to swing it manually', 'Cannot cover a whole yard'],
+              },
+              {
+                badge: 'Best Portable',
+                name: 'Stinger Cordless Rechargeable Zapper',
+                why: 'A rechargeable, no-outlet unit for a deck, dock, or campsite where running a cord is a hassle. Handy placement for nuisance flying insects around a seating area.',
+                search: 'stinger cordless rechargeable bug zapper',
+                score: 7.6,
+                pros: ['No outlet needed', 'Easy to reposition', 'Good for cordless corners'],
+                cons: ['Battery limits run time', 'Mostly catches moths, not mosquitoes'],
+              },
+              {
+                badge: 'Best Small Patio',
+                name: 'Black+Decker Outdoor Bug Zapper',
+                why: 'A compact outdoor zapper for a small deck or balcony. Mid-price, simple, and fine as a supplemental nuisance-insect catcher next to a patio light.',
+                search: 'black decker outdoor bug zapper',
+                score: 7.3,
+                pros: ['Compact for small spaces', 'Mid-price and simple', 'Quiet aside from the zap'],
+                cons: ['Small kill radius', 'Negligible mosquito reduction'],
+              },
+              {
+                badge: 'Best Value',
+                name: 'Aspectek 20W Bug Zapper',
+                why: 'A budget-friendly 20W unit that suits a covered porch or garage. Solid value for cutting down the moths and gnats that gather around evening lights.',
+                search: 'aspectek bug zapper',
+                score: 7.4,
+                pros: ['Budget-friendly', 'Good for covered porches', 'Straightforward setup'],
+                cons: ['Weak against mosquitoes', 'Annual bulb replacement'],
+              },
+            ]}
+            whichToBuy={
+              <>
+                <strong>Nuisance moths and gnats swarming a patio light?</strong> The <em>Best Overall</em> Flowtron covers the most ground. <strong>The odd mosquito sneaking indoors?</strong> The <em>Best Indoor Swatter</em> racket is the only zapper format we actually recommend. <strong>No outlet where you sit?</strong> Grab the <em>Best Portable</em> Stinger. But if your real goal is fewer mosquito bites, no zapper delivers it — licensed <Link href="/mosquito-control">professional barrier spray</Link>, BTI dunks, or a Thermacell zone will do more in one evening than a season of zapping moths.
+              </>
+            }
           />
         </div>
       </section>
@@ -214,6 +270,7 @@ export default function BugZappersCanadaPage() {
 
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
+          <AuthorByline datePublished={DATE} dateModified={UPDATED} />
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Short version: electric zappers don&rsquo;t reduce mosquito bites. If you want a plug-in device that actually targets mosquitoes, a CO₂/UV trap like DynaTrap is the honest pick:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">

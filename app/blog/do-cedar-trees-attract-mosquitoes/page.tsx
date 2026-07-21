@@ -3,6 +3,9 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import FreshnessStamp from '@/components/FreshnessStamp'
+import AuthorByline from '@/components/AuthorByline'
+import TopPick from '@/components/TopPick'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { MOSQUITO_BLOGS } from '@/lib/constants'
 
@@ -82,6 +85,7 @@ export default function CedarTreesMosquitoesPage() {
           <span className="bg-brand-800 text-brand-200 text-xs px-3 py-1 rounded-full mb-4 inline-block">Mosquito Control</span>
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
           <p className="text-brand-300 text-sm">Published {new Date(DATE).toLocaleDateString('en-CA', { year: 'numeric', month: 'long', day: 'numeric' })} · Updated {new Date(UPDATED).toLocaleDateString('en-CA', { year: 'numeric', month: 'long', day: 'numeric' })} · By BuzzSkito</p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
 
@@ -105,6 +109,7 @@ export default function CedarTreesMosquitoesPage() {
         </p>
 
         <AffiliateDisclosure />
+        <AuthorByline datePublished={DATE} dateModified={UPDATED} />
 
         <h2>Why People Think Cedars Attract Mosquitoes</h2>
         <p>This belief is widespread among GTA homeowners, and it almost always traces back to the same observation: &quot;Whenever I walk past my cedar hedge, I get swarmed by mosquitoes.&quot; That observation is real. The conclusion drawn from it — that the cedar is somehow attracting mosquitoes — is wrong, but the experience is not.</p>
@@ -180,6 +185,16 @@ export default function CedarTreesMosquitoesPage() {
         <h3>5. Limit other resting habitat too</h3>
         <p>While you are at it, address the rest of the resting micro-environment on the property: trim back overgrown shrubs, clear leaf litter from garden beds, and check our <Link href="/blog/hidden-mosquito-breeding-spots-backyard" className="text-brand-700 underline">hidden mosquito breeding spots guide</Link> for the standing-water sources that are quietly producing mosquitoes alongside your hedge.</p>
         <p>For the patio itself &mdash; the spot the mosquitoes head for at dusk once they pour out of the hedge &mdash; a spot repellent device creates a protection zone around outdoor seating without spraying anything on skin. Thermacell units use a heat-activated mat that disperses a pyrethroid repellent (metofluthrin/prallethrin) over a roughly 20-square-metre area, which is useful for a defined seating area on a still evening. <BuyLink search="thermacell mosquito repeller">Check Thermacell patio repellers on Amazon.ca &rarr;</BuyLink> It is a complement to barrier spray, not a replacement &mdash; the device protects the people sitting on the patio, while the barrier spray reduces the population resting in the hedge in the first place.</p>
+
+        <TopPick
+          label="Best for the Patio at Dusk"
+          name="Thermacell Patio Repeller"
+          blurb="For the seating area the mosquitoes head for once they pour out of the hedge, a heat-activated Thermacell mat creates a repellent zone around outdoor furniture — no spray on skin, no cords. It protects a defined seating area on a still evening and pairs naturally with barrier spray on the hedge itself."
+          search="thermacell mosquito repeller"
+          score={8.3}
+          pros={['Fast, spray-free protection zone for a seating area', 'Cordless models are portable around the deck', 'No lotion or scent on skin']}
+          cons={['Covers a defined zone, not the whole yard', 'Wind and open airflow reduce its effect', 'Needs refill mats and fuel over the season']}
+        />
 
         <h2>Are There Plants That Actually Repel Mosquitoes?</h2>
         <p>Yes — but the effect is small and localized. Several <Link href="/blog/mosquito-repellent-plants-ontario" className="text-brand-700 underline">mosquito-repelling plants for Ontario gardens</Link> release low levels of mosquito-deterrent compounds when their leaves are crushed, brushed, or warmed in direct sunlight:</p>

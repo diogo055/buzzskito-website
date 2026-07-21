@@ -5,6 +5,9 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import TopPick from '@/components/TopPick'
+import StickyBuyBar from '@/components/StickyBuyBar'
+import FreshnessStamp from '@/components/FreshnessStamp'
+import AuthorByline from '@/components/AuthorByline'
 
 const SLUG = 'dynatrap-canada-review'
 const DATE = '2026-05-01'
@@ -105,8 +108,11 @@ export default function DynaTrapCanadaPage() {
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
           <p className="text-xl text-brand-100 max-w-3xl">An honest look at DynaTrap UV insect traps for Canadian backyards — pricing, what they actually catch (vs what they market), and better alternatives.</p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
+
+      <StickyBuyBar name="DynaTrap DT1050 (½ acre UV + fan trap)" search="dynatrap dt1050" label="Best size for GTA yards" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -184,6 +190,9 @@ export default function DynaTrapCanadaPage() {
             name="DynaTrap DT1050 (½ acre)"
             blurb="If you're set on a DynaTrap, the half-acre DT1050 is the right size for a typical Canadian suburban backyard — the 1-acre models cost more without catching meaningfully more mosquitoes on a standard lot."
             search="dynatrap dt1050"
+            score={7.0}
+            pros={['Right coverage for a standard GTA backyard', 'Quiet, low-maintenance UV + fan operation', 'No chemicals — safe around kids and pets']}
+            cons={['Only ~5% of the catch is mosquitoes', 'Does nothing for ticks', 'Ongoing bulb + Atrakta cartridge costs']}
           />
         </div>
       </section>
@@ -221,6 +230,7 @@ export default function DynaTrapCanadaPage() {
 
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
+          <AuthorByline datePublished={DATE} dateModified={UPDATED} />
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Compare current Canadian prices (DT1050, DT1100, DT2030 half/full-acre) and Atrakta refills:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
@@ -247,35 +257,35 @@ export default function DynaTrapCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">300 sq ft</td>
                   <td className="px-4 py-3 text-gray-700">Balcony / small porch</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$79 – $129</td>
-                  <td className="px-4 py-3"><BuyLink search="dynatrap dt150">Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink search="dynatrap dt150" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">DT1050 <span className="font-normal text-xs text-gray-500">(½ acre)</span></td>
                   <td className="px-4 py-3 text-gray-700">½ acre</td>
                   <td className="px-4 py-3 text-gray-700">Typical GTA backyard</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$149 – $199</td>
-                  <td className="px-4 py-3"><BuyLink search="dynatrap dt1050">Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink search="dynatrap dt1050" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">DT1100 <span className="font-normal text-xs text-gray-500">(1 acre)</span></td>
                   <td className="px-4 py-3 text-gray-700">1 acre (full)</td>
                   <td className="px-4 py-3 text-gray-700">Large yard / cottage</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$199 – $279</td>
-                  <td className="px-4 py-3"><BuyLink search="dynatrap dt1100">Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink search="dynatrap dt1100" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">DT2030 <span className="font-normal text-xs text-gray-500">(1 acre · 3-way)</span></td>
                   <td className="px-4 py-3 text-gray-700">1 acre (full)</td>
                   <td className="px-4 py-3 text-gray-700">Cottage decks · most popular</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$199 – $279</td>
-                  <td className="px-4 py-3"><BuyLink search="dynatrap dt2030">Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink search="dynatrap dt2030" block>Check price →</BuyLink></td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 font-bold text-brand-800">DT3050 <span className="font-normal text-xs text-gray-500">(+ attractant fan)</span></td>
                   <td className="px-4 py-3 text-gray-700">1 acre (full)</td>
                   <td className="px-4 py-3 text-gray-700">Best DynaTrap for mosquitoes</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$249 – $329</td>
-                  <td className="px-4 py-3"><BuyLink search="dynatrap dt3050">Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink search="dynatrap dt3050" block>Check price →</BuyLink></td>
                 </tr>
               </tbody>
             </table>

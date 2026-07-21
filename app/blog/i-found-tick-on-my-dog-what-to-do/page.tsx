@@ -3,10 +3,14 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import FreshnessStamp from '@/components/FreshnessStamp'
+import AuthorByline from '@/components/AuthorByline'
+import TopPick from '@/components/TopPick'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 
 const SLUG = 'i-found-tick-on-my-dog-what-to-do'
 const DATE = '2026-04-26'
+const UPDATED = '2026-04-26'
 const TITLE = 'I Found a Tick on My Dog — What to Do (Ontario 2026)'
 
 const FAQS = [
@@ -69,11 +73,13 @@ export default function IFoundTickOnMyDogPage() {
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
           <p className="text-xl text-brand-100 max-w-3xl">A clear, fast Ontario field guide for the moment of panic. What to do in the next 5 minutes, what to watch for, and what NOT to worry about.</p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
 
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
+          <AuthorByline datePublished={DATE} dateModified={UPDATED} />
           <div className="not-prose bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
             <p className="text-gray-800 text-[15px] leading-relaxed font-medium">If you find a tick on your dog, stay calm and remove it right away with fine-tipped tweezers — grasp it at the head, pull straight up without twisting, and save it in a sealed bag. Most single tick bites do not cause illness when the tick is removed promptly.</p>
@@ -117,6 +123,16 @@ export default function IFoundTickOnMyDogPage() {
           <h2>Step 3: Remove the Tick</h2>
           <p>See our detailed <Link href="/blog/how-to-remove-tick-from-dog-ontario">step-by-step removal guide</Link> for the exact technique. The short version: tweezers at the head, pull straight up, save the tick in a bag, clean the bite, wash your hands.</p>
           <p>Fine-tipped tweezers work in a pinch, but a dedicated tick-removal tool grips right at the head and lifts the tick out cleanly without squeezing its body — worth keeping in the drawer if you have a dog. Our <Link href="/blog/tick-removal-tool-guide">tick removal tool guide</Link> compares the common options. <BuyLink search="tick removal tool tweezers">Check price on Amazon.ca →</BuyLink></p>
+
+          <TopPick
+            label="Our Top Pick"
+            name="Dedicated Tick-Removal Tool (hook or fine-tip set)"
+            blurb="For the moment you find a tick, a purpose-built remover grips right at the head and levers the whole tick out without squeezing its body — the single most important thing for lowering disease-transmission risk. Cheap enough to keep one in every drawer and the car."
+            search="tick removal tool tweezers"
+            score={8.7}
+            pros={['Grips at the head, leaves nothing behind', 'No body-squeezing that raises transmission risk', 'Works on dogs, cats, and people', 'Inexpensive and lasts for years']}
+            cons={['A tool alone does not replace monthly vet preventatives', 'Still need to save the tick for identification']}
+          />
 
           <h2>Step 4: Note the Date and Location</h2>
           <p>Write down the date you found the tick and where on your dog&rsquo;s body it was attached. If your dog develops symptoms in the next 5 months, your vet will want this information. Lyme disease symptoms in dogs typically appear <strong>2 to 5 months after the bite</strong> — not immediately.</p>

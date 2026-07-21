@@ -4,6 +4,9 @@ import CTASection from '@/components/CTASection'
 import BlogPostCTA from '@/components/BlogPostCTA'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import FreshnessStamp from '@/components/FreshnessStamp'
+import AuthorByline from '@/components/AuthorByline'
+import TopPick from '@/components/TopPick'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 
 const POST = {
@@ -12,6 +15,8 @@ const POST = {
   date: '2026-06-04',
   excerpt: 'West Nile Virus is an established Peel Region concern in 2026. Here\'s what Peel Public Health\'s surveillance program is finding, why Lake Ontario shoreline and Credit River wetlands matter, and the yard-level prevention that actually moves the needle.',
 }
+
+const UPDATED = POST.date
 
 const FAQS = [
   {
@@ -63,10 +68,13 @@ export default function WestNileMississaugaPage() {
           <span className="bg-amber-500 text-white text-xs px-3 py-1 rounded-full mb-4 inline-block font-bold uppercase tracking-wider">Mississauga · 2026 Public Health Update</span>
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold mb-4 leading-tight">{POST.title}</h1>
           <p className="text-brand-300 text-sm">Published {new Date(POST.date).toLocaleDateString('en-CA', { year: 'numeric', month: 'long', day: 'numeric' })} · By Alex &amp; The BuzzSkito Team</p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
+        <AuthorByline datePublished={POST.date} dateModified={UPDATED} />
+
         <div className="not-prose bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
           <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
           <p className="text-gray-800 text-[15px] leading-relaxed font-medium">West Nile Virus is confirmed in Mississauga&rsquo;s Culex pipiens mosquitoes every surveillance year, including 2026, but human cases in Peel remain uncommon; the dusk-biting mosquitoes are bred mostly in local standing water, so weekly water removal and yard-level control are the highest-leverage prevention.</p>
@@ -132,6 +140,16 @@ export default function WestNileMississaugaPage() {
         <h3>Treat ornamental ponds and water features</h3>
         <AffiliateDisclosure />
         <p>If you have a backyard pond, fountain, or water feature, either keep the water moving constantly (Culex won\'t breed in moving water) or use Bti products like Mosquito Dunks or Mosquito Bits — they kill mosquito larvae but are safe for fish, birds, pets, and beneficial insects. One dunk treats up to 100 sq ft of water surface for 30 days. <BuyLink search="summit mosquito dunks">Check Mosquito Dunks on Amazon.ca →</BuyLink> For small containers, rain barrels, and low spots that need a faster knockdown, granular Mosquito Bits release Bti immediately rather than over weeks. <BuyLink search="summit mosquito bits">Check Mosquito Bits on Amazon.ca →</BuyLink></p>
+
+        <TopPick
+          label="Best DIY for Standing Water"
+          name="Summit Mosquito Dunks (Bti larvicide)"
+          blurb="For the standing water you can't drain — ponds, rain barrels, low spots — a Bti dunk kills Culex pipiens larvae before they hatch into the dusk-biting adults that carry West Nile, while staying safe for fish, birds, pets, and beneficial insects. One dunk treats up to 100 sq ft of water surface for about 30 days, making it the single highest-value product a Mississauga homeowner can add to a weekly water-elimination routine."
+          search="summit mosquito dunks"
+          score={8.7}
+          pros={['Targets larvae before they can bite', 'Safe for fish, birds, and pets', 'Each dunk lasts about 30 days']}
+          cons={['Only treats water you can reach', 'Does nothing for adult mosquitoes']}
+        />
 
         <h3>Professional barrier spray for adult mosquitoes</h3>
         <p>Standing water elimination handles the larvae you can find. A professional barrier spray handles the adults that flew in from sites you can\'t. Targeted to shaded resting habitat — the underside of leaves, dense shrub interiors, mulched beds, fence-line vegetation — a barrier spray reduces yard mosquito biting pressure by 85-90% for roughly 30 days per treatment. For a meaningful season-long impact in a Mississauga yard, the BuzzSkito Standard Season runs 10 biweekly treatments from May through September.</p>

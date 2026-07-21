@@ -3,6 +3,10 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
+import AwardRow from '@/components/AwardRow'
+import StickyBuyBar from '@/components/StickyBuyBar'
+import FreshnessStamp from '@/components/FreshnessStamp'
+import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 
 const SLUG = 'mosquito-repellent-bracelets-canada'
@@ -68,8 +72,11 @@ export default function MosquitoRepellentBraceletsCanadaPage() {
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
           <p className="text-xl text-brand-100 max-w-3xl">An honest look at mosquito and citronella repellent bracelets for Canadian summers — what the research really says, when a band is genuinely useful, and the better-value options.</p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
+
+      <StickyBuyBar name="PARA'KITO refillable repellent band" search="parakito mosquito bracelet" label="Best-value band" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -86,6 +93,58 @@ export default function MosquitoRepellentBraceletsCanadaPage() {
             </ul>
             <p className="mt-3 text-xs text-gray-500">— BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
           </div>
+        </div>
+      </section>
+
+      <section className="bg-white px-4 py-6">
+        <div className="max-w-5xl mx-auto">
+          <AwardRow
+            heading="Our Picks — Best Mosquito Repellent Bracelets in Canada"
+            awards={[
+              {
+                badge: 'Best Overall',
+                name: 'PARA’KITO Refillable Band',
+                why: 'The one band worth buying: Swiss-made with replaceable essential-oil pellets, so it lasts a full season instead of a weekend. Still only protects the skin right next to it — but it is the best-value pick in a weak category.',
+                search: 'parakito mosquito bracelet',
+                score: 7.4,
+                featured: true,
+                pros: ['Refillable — season-long value', 'DEET-free · good for kids', 'Sturdier than disposables'],
+                cons: ['Only protects near the band', 'Refill pellets add cost'],
+              },
+              {
+                badge: 'Best Budget',
+                name: 'Citronella Disposable (10-pk)',
+                why: 'Cheap multipacks for parties and one-off outings. Fine as a throwaway extra layer, but the scent fades within a day or two of real use.',
+                search: 'citronella mosquito bracelet 10 pack',
+                score: 6.9,
+                pros: ['Very cheap per band', 'Great for group events', 'No setup'],
+                cons: ['Fades fast once opened', 'Not reusable'],
+              },
+              {
+                badge: 'Best for Kids',
+                name: 'Mosquito Guard Bands',
+                why: 'DEET-free bands parents clip to a stroller or small wrist as a low-risk extra layer — nothing absorbs through skin. Not a substitute for a proper kid-safe topical.',
+                search: 'mosquito guard repellent bracelet',
+                score: 7.0,
+                pros: ['DEET-free · low-risk', 'Kid-friendly sizing', 'Inexpensive'],
+                cons: ['Minimal real coverage', 'Keep away from mouths'],
+              },
+              {
+                badge: 'Best for Parties',
+                name: 'Invisaband Bulk Pack',
+                why: 'Bulk citronella bands for camping trips and backyard gatherings where you want to hand one to everyone. Same limited-radius principle as the rest.',
+                search: 'invisaband citronella bracelet',
+                score: 6.8,
+                pros: ['Bulk quantities', 'Handy for groups', 'Cheap'],
+                cons: ['Disposable only', 'Weak beyond the band'],
+              },
+            ]}
+            whichToBuy={
+              <>
+                <strong>Using a band all season?</strong> The <em>Best Overall</em> refillable PARA’KITO is the only one worth reusing. <strong>Handing them out at a party?</strong> Grab the <em>Best Budget</em> or <em>Best for Parties</em> multipacks. <strong>For a child?</strong> A <em>Best for Kids</em> DEET-free band is a fine extra layer — but for a genuinely bite-free backyard evening, a proper repellent plus <Link href="/mosquito-control">professional barrier spray</Link> does what no bracelet can.
+              </>
+            }
+          />
         </div>
       </section>
 
@@ -168,6 +227,7 @@ export default function MosquitoRepellentBraceletsCanadaPage() {
 
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
+          <AuthorByline datePublished={DATE} dateModified={UPDATED} />
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Compare current Canadian prices on the best-rated bands and refills:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
@@ -194,28 +254,28 @@ export default function MosquitoRepellentBraceletsCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Refillable pellets</td>
                   <td className="px-4 py-3 text-gray-700">Season-long value · kids</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$18 – $30</td>
-                  <td className="px-4 py-3"><BuyLink search="parakito mosquito band">Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink search="parakito mosquito band" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Citronella Disposable <span className="font-normal text-xs text-gray-500">(10-pk)</span></td>
                   <td className="px-4 py-3 text-gray-700">Disposable</td>
                   <td className="px-4 py-3 text-gray-700">Cheap · parties · one-offs</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$8 – $15</td>
-                  <td className="px-4 py-3"><BuyLink search="citronella mosquito bracelet 10 pack">Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink search="citronella mosquito bracelet 10 pack" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Mosquito Guard Bands</td>
                   <td className="px-4 py-3 text-gray-700">Disposable</td>
                   <td className="px-4 py-3 text-gray-700">DEET-free · kids&rsquo; wrists</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$10 – $16</td>
-                  <td className="px-4 py-3"><BuyLink search="mosquito guard repellent bracelet">Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink search="mosquito guard repellent bracelet" block>Check price →</BuyLink></td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 font-bold text-brand-800">Invisaband <span className="font-normal text-xs text-gray-500">(bulk)</span></td>
                   <td className="px-4 py-3 text-gray-700">Disposable</td>
                   <td className="px-4 py-3 text-gray-700">Party packs · camping trips</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$12 – $22</td>
-                  <td className="px-4 py-3"><BuyLink search="invisaband citronella bracelet">Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink search="invisaband citronella bracelet" block>Check price →</BuyLink></td>
                 </tr>
               </tbody>
             </table>

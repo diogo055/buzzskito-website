@@ -4,6 +4,9 @@ import CTASection from '@/components/CTASection'
 import BlogPostCTA from '@/components/BlogPostCTA'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import FreshnessStamp from '@/components/FreshnessStamp'
+import AuthorByline from '@/components/AuthorByline'
+import TopPick from '@/components/TopPick'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { MOSQUITO_BLOGS } from '@/lib/constants'
 
@@ -75,6 +78,7 @@ export default function BlackFliesOntarioPage() {
           <span className="bg-brand-800 text-brand-200 text-xs px-3 py-1 rounded-full mb-4 inline-block">Mosquito Control</span>
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
           <p className="text-brand-300 text-sm">Updated {new Date(UPDATED).toLocaleDateString('en-CA', { year: 'numeric', month: 'long', day: 'numeric' })} · By BuzzSkito</p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
 
@@ -98,6 +102,7 @@ export default function BlackFliesOntarioPage() {
       </div>
 
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
+        <AuthorByline datePublished={DATE} dateModified={UPDATED} />
         <p className="text-lg text-gray-600 not-prose border-l-4 border-amber-400 pl-5 py-2 mb-8">
           If you have ever walked out to your patio in early June and been chased back inside by a swarm of tiny biting insects that draw blood when they bite, you are not alone — and you are not dealing with mosquitoes. You are dealing with black flies. This guide covers when they come out in Ontario, where they breed, and how professional treatment controls them as part of a mosquito barrier spray program.
         </p>
@@ -250,6 +255,16 @@ export default function BlackFliesOntarioPage() {
           <li><strong>Use repellent.</strong> DEET or picaridin on exposed skin, and permethrin-treated clothing for long hours near waterways during the May&ndash;June emergence.</li>
           <li><strong>Skip the scents.</strong> Floral perfumes, scented sunscreens, and hair products all attract black flies.</li>
         </ul>
+
+        <TopPick
+          label="Best Repellent for Black Flies"
+          name="Picaridin (Icaridin) Insect Repellent"
+          blurb="For black flies, a 20% picaridin repellent is our go-to frontline defence — it is odourless, non-greasy, and won't melt plastics or gear the way DEET can, so it holds up through long spring days near waterways. Apply to every patch of exposed skin, since black flies crawl into hairlines and behind ears."
+          search="picaridin insect repellent canada"
+          score={8.7}
+          pros={['Odourless and non-greasy', 'Safe on plastics, sunglasses, and gear', 'All-day protection against black flies and mosquitoes']}
+          cons={['Needs reapplication after heavy sweating', 'Does not cover clothing — pair with permethrin for that']}
+        />
 
         <h3>2. Make Your Yard Less Hospitable</h3>
         <ul>

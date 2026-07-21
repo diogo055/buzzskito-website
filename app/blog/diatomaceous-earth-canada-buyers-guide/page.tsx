@@ -4,9 +4,14 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import SpecialistDisclosure from '@/components/SpecialistDisclosure'
+import AwardRow from '@/components/AwardRow'
+import StickyBuyBar from '@/components/StickyBuyBar'
+import FreshnessStamp from '@/components/FreshnessStamp'
+import AuthorByline from '@/components/AuthorByline'
 
 const SLUG = 'diatomaceous-earth-canada-buyers-guide'
 const DATE = '2026-07-16'
+const UPDATED = '2026-07-16'
 const TITLE = 'Diatomaceous Earth Canada 2026 — Buyer\'s Guide to PMRA-Registered DE'
 
 const FAQS = [
@@ -81,8 +86,11 @@ export default function DiatomaceousEarthCanadaBuyersGuidePage() {
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
           <p className="text-xl text-brand-100 max-w-3xl">Which DE products are actually PMRA-registered as insecticides in Canada, how desiccant dust really works, where it fails, and why the American &ldquo;just buy food-grade&rdquo; advice doesn&rsquo;t transfer across the border.</p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
+
+      <StickyBuyBar name="Safer's Diatomaceous Earth insect killer" search="safers diatomaceous earth" label="Our top pick" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -105,6 +113,58 @@ export default function DiatomaceousEarthCanadaBuyersGuidePage() {
 
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
+          <AuthorByline datePublished={DATE} dateModified={UPDATED} />
+
+          <AffiliateDisclosure />
+
+          <AwardRow
+            heading="Our Picks — PMRA-Registered Diatomaceous Earth in Canada"
+            awards={[
+              {
+                badge: 'Best Overall',
+                name: 'Safer’s Diatomaceous Earth',
+                why: 'The most widely stocked PMRA-registered domestic-class DE in Canada. Its label legally covers indoor crawling-insect use, so you get tested directions instead of internet folklore.',
+                search: 'safers diatomaceous earth',
+                score: 9.0,
+                featured: true,
+                pros: ['PMRA-registered, domestic class', 'Easy to find in stock', 'Clear labelled pest list & directions'],
+                cons: ['Slow desiccant kill (24–72h)', 'Needs a duster for a proper film'],
+              },
+              {
+                badge: 'Best Value',
+                name: 'Knock Down Diatomaceous Earth',
+                why: 'The same amorphous-silica, same registration, often at a budget-friendly price. A correct buy whenever Safer’s is out of stock.',
+                search: 'knock down diatomaceous earth',
+                score: 8.4,
+                pros: ['PMRA-registered, domestic class', 'Budget-friendly', 'Identical mechanism to Safer’s'],
+                cons: ['Availability varies by retailer', 'Still slow by design'],
+              },
+              {
+                badge: 'Canadian Brand',
+                name: 'Doktor Doom Be Green DE',
+                why: 'A registered Canadian-brand crawling-insect killer covering the same indoor uses. Rounds out the legitimate registered trio.',
+                search: 'doktor doom diatomaceous earth',
+                score: 8.2,
+                pros: ['PMRA-registered, domestic class', 'Canadian brand', 'Same all-round indoor use'],
+                cons: ['Narrower distribution', 'Slow like all DE'],
+              },
+              {
+                badge: 'Essential Add-On',
+                name: 'Bulb (puffer) Duster Applicator',
+                why: 'The one accessory that changes results more than switching brands. It fires a barely-visible film into cracks and voids that spoon-sprinkling can never reproduce — and keeps dust out of your breathing zone.',
+                search: 'diatomaceous earth duster applicator',
+                score: 8.6,
+                pros: ['Produces the thin film that actually kills', 'Reaches cracks, voids & frame joints', 'Keeps powder out of your breathing zone'],
+                cons: ['A second purchase', 'Small learning curve to dose lightly'],
+              },
+            ]}
+            whichToBuy={
+              <>
+                <strong>Want the safe default?</strong> The <em>Best Overall</em> Safer&rsquo;s is the easiest registered DE to find. <strong>Watching the budget?</strong> The <em>Best Value</em> Knock Down is the same silica for less. <strong>Prefer a Canadian brand?</strong> Doktor Doom Be Green covers the same indoor uses. Whichever you pick, add the <em>Essential Add-On</em> duster &mdash; a barely-visible film is what kills, and you cannot achieve one straight from the bag.
+              </>
+            }
+          />
+
           <h2>What Is the Best Diatomaceous Earth in Canada?</h2>
           <p>Safer&rsquo;s Diatomaceous Earth insect killer is our top pick because it is the most widely stocked PMRA-registered insecticidal DE in Canada — and registration is the entire question here. Diatomaceous earth is fossilized diatom silica ground into an abrasive, ultra-absorbent powder, and the mineral itself is nearly identical across bags. What differs is legal status and labelling: a registered product carries a Pest Control Products (PCP) number and tested directions for use against listed pests, while a food-grade bag is legally an anti-caking agent that happens to look the same.</p>
           <p>That distinction sounds bureaucratic until you need it. The registered label tells you which pests the product is proven against, where you may apply it indoors, and how to handle it safely — the exact information the &ldquo;sprinkle it everywhere&rdquo; internet advice gets wrong. Knock Down diatomaceous earth and Doktor Doom Be Green crawling insect killer round out the registered trio; any of the three is a correct buy.</p>
@@ -142,7 +202,6 @@ export default function DiatomaceousEarthCanadaBuyersGuidePage() {
           </div>
           <p className="text-sm text-gray-600">Look for the PCP registration number printed on the front label — that number is the difference between a legal pesticide and a bag of powder with folklore attached.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the registered products and a duster:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink search="safers diatomaceous earth">Safer&rsquo;s DE →</BuyLink>

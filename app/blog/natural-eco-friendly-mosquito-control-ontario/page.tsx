@@ -3,10 +3,15 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import FreshnessStamp from '@/components/FreshnessStamp'
+import StickyBuyBar from '@/components/StickyBuyBar'
+import TopPick from '@/components/TopPick'
+import AuthorByline from '@/components/AuthorByline'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { NEW_BLOGS_3, MOSQUITO_BLOGS } from '@/lib/constants'
 
 const POST = NEW_BLOGS_3[3]
+const UPDATED = POST.date
 
 export const metadata: Metadata = buildMetadata({
   title: 'Natural Mosquito Control Ontario | 2026',
@@ -90,10 +95,14 @@ export default function NaturalMosquitoControlPage() {
           <p className="text-brand-300 text-sm">
             Published {new Date(POST.date).toLocaleDateString('en-CA', { year: 'numeric', month: 'long', day: 'numeric' })} · By BuzzSkito
           </p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
 
+      <StickyBuyBar name="Summit BTi Mosquito Dunks" search="summit mosquito dunks" label="Best natural pick" />
+
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
+        <AuthorByline datePublished={POST.date} dateModified={UPDATED} />
         <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
           <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
           <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Some natural mosquito control genuinely works in Ontario: BTi dunks are highly effective against larvae in standing water, while garlic and cedar-oil sprays give adult mosquitoes only 7&ndash;14 days of light repellency. High-pressure yards near ravines or water still need a professional barrier spray.</p>
@@ -111,6 +120,16 @@ export default function NaturalMosquitoControlPage() {
         <p className="text-lg text-gray-600 not-prose border-l-4 border-brand-400 pl-5 py-2 mb-8">
           More GTA homeowners are asking us about natural and eco-friendly mosquito control options — and it&apos;s a fair question. This guide gives you an honest breakdown of what natural options actually do, where they fall short in Ontario&apos;s climate, and the right combination strategy for different property types.
         </p>
+
+        <TopPick
+          label="Best Natural Pick"
+          name="Summit BTi Mosquito Dunks"
+          blurb="Of every natural option, BTi dunks are the one that genuinely works — a soil-bacterium larvicide that kills mosquito larvae in standing water without harming fish, birds, bees, or pets. It's the same tool the City of Toronto relies on for larviciding. Drop one in rain barrels, ponds, and birdbaths to stop the next generation before it can bite."
+          search="summit mosquito dunks"
+          score={8.7}
+          pros={['Safe for fish, birds, bees & pets', 'Kills larvae before they become biting adults', 'Long-lasting — one dunk treats water for ~30 days']}
+          cons={['Larvae only — does not repel adult mosquitoes', 'Needs standing water to be useful', 'High-pressure yards still need a barrier treatment']}
+        />
 
         <h2>The Natural vs. Synthetic Spectrum: What We&apos;re Actually Comparing</h2>
         <p>When Ontario homeowners ask about &ldquo;natural&rdquo; mosquito control, they usually mean one of four things: plant-based repellent sprays applied to the yard, biological larvicides that kill larvae without chemicals, essential oils used as personal repellents, or mosquito-repelling plants in the garden. Each of these exists on a spectrum from genuinely effective to mostly wishful thinking.</p>

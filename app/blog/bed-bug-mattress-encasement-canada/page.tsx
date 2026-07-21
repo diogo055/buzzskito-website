@@ -2,11 +2,16 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
+import AwardRow from '@/components/AwardRow'
+import StickyBuyBar from '@/components/StickyBuyBar'
+import FreshnessStamp from '@/components/FreshnessStamp'
+import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import SpecialistDisclosure from '@/components/SpecialistDisclosure'
 
 const SLUG = 'bed-bug-mattress-encasement-canada'
 const DATE = '2026-07-16'
+const UPDATED = '2026-07-16'
 const TITLE = 'Best Bed Bug Mattress Encasement in Canada 2026 — SafeRest vs Utopia + the 12–18 Month Rule'
 
 const FAQS = [
@@ -85,8 +90,11 @@ export default function BedBugMattressEncasementCanadaPage() {
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
           <p className="text-xl text-brand-100 max-w-3xl">Why a six-sided zippered encasement beats throwing out your mattress, how SafeRest and Utopia compare, and the zipper details that decide whether containment actually holds.</p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
+
+      <StickyBuyBar name="SafeRest Premium bed bug mattress encasement" search="saferest mattress encasement" label="Best encasement" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -107,9 +115,53 @@ export default function BedBugMattressEncasementCanadaPage() {
         </div>
       </section>
 
+      <section className="bg-white px-4 py-6">
+        <div className="max-w-5xl mx-auto">
+          <AwardRow
+            heading="Our Picks — Best Bed Bug Encasements in Canada"
+            awards={[
+              {
+                badge: 'Best Overall',
+                name: 'SafeRest Premium Mattress Encasement',
+                why: 'A lab-tested, six-sided seal with a micro-tooth zipper and a secured end-stop — the exact closure detail that decides whether containment holds for the full year.',
+                search: 'saferest mattress encasement',
+                score: 9.1,
+                featured: true,
+                pros: ['Secured end-stop resists zipper drift', 'Micro-tooth zipper stops 1 mm nymphs', 'Cotton-terry over a waterproof membrane'],
+                cons: ['Costs more than budget encasements', 'Buy mattress and box spring separately'],
+              },
+              {
+                badge: 'Best Budget',
+                name: 'Utopia Bedding Zippered Encasement',
+                why: 'A genuine six-sided zippered encasement — not a fitted protector — at a price that makes encasing every bed in a rental or student house realistic for prevention duty.',
+                search: 'utopia bedding zippered mattress encasement',
+                score: 7.6,
+                pros: ['Affordable enough to buy in bulk', 'Six-sided zippered design', 'Fine for prevention and turnover'],
+                cons: ['No published lab testing', 'Thinner knit; basic end-stop'],
+              },
+              {
+                badge: 'Complete the Seal',
+                name: 'Bed-Bug-Rated Pillow Protectors',
+                why: 'Pillows share the same seam micro-habitat as a mattress and travel around the house. Zippered pillow protectors close that gap and follow the same install-and-leave-sealed rule.',
+                search: 'bed bug pillow protector',
+                score: 8.0,
+                pros: ['Inexpensive, usually sold in 2-packs', 'Stops pillows spreading bugs', 'Same barrier principle as the mattress'],
+                cons: ['Optional for prevention-only homes', 'Must stay sealed for the full window'],
+              },
+            ]}
+            whichToBuy={
+              <>
+                <strong>Bugs confirmed or suspected in the bed?</strong> The <em>Best Overall</em> SafeRest is the containment-grade pick — the secured zipper is most of what you&rsquo;re paying for. <strong>Landlord, guest room, or used-furniture caution?</strong> The <em>Best Budget</em> Utopia covers prevention across many beds for less. Either way, seal the <Link href="/blog/bed-bug-interceptor-traps-canada">mattress and box spring together</Link>, add pillow protectors, and leave everything zipped for 12–18 months.
+              </>
+            }
+          />
+        </div>
+      </section>
+
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
           <AffiliateDisclosure />
+          <AuthorByline datePublished={DATE} dateModified={UPDATED} />
           <p className="not-prose text-sm text-gray-600 mb-1">Compare current Canadian availability for the encasements covered in this guide:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink search="saferest mattress encasement">SafeRest encasement on Amazon.ca →</BuyLink>

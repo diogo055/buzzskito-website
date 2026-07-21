@@ -3,10 +3,14 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import FreshnessStamp from '@/components/FreshnessStamp'
+import AuthorByline from '@/components/AuthorByline'
+import TopPick from '@/components/TopPick'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { MOSQUITO_BLOGS, CITIES } from '@/lib/constants'
 
 const POST = MOSQUITO_BLOGS.pillar
+const UPDATED = POST.date
 
 export const metadata: Metadata = buildMetadata({
   title: 'Backyard Mosquito Control GTA 2026 — The Complete Guide (What Works + What\'s a Scam)',
@@ -46,6 +50,7 @@ export default function MosquitoPillarPage() {
           </div>
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold mb-5 leading-tight">{POST.title}</h1>
           <p className="text-brand-200 text-sm">Published {new Date(POST.date).toLocaleDateString('en-CA', { year: 'numeric', month: 'long', day: 'numeric' })} · By BuzzSkito</p>
+          <div className="mt-3"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
 
@@ -74,6 +79,8 @@ export default function MosquitoPillarPage() {
           This comprehensive guide covers everything GTA homeowners need to know about eliminating mosquitoes from their backyards: the biology behind why treatments work, local risk factors, a complete seasonal schedule, and when DIY falls short. For specific city information, see our{' '}
           <Link href="/mosquito-control" className="text-brand-700 underline">Mosquito Control hub page</Link>.
         </p>
+
+        <AuthorByline datePublished={POST.date} dateModified={UPDATED} />
 
         <h2>Why GTA Backyards Have a Mosquito Problem</h2>
         <p>The Greater Toronto Area's climate — warm, humid summers with abundant rainfall — combined with its extensive waterway system makes it one of Canada's most challenging regions for residential mosquito control. The Credit River, Humber River, Don River, and dozens of smaller watercourses create natural mosquito breeding corridors that flow directly into suburban and urban neighbourhoods.</p>
@@ -129,6 +136,17 @@ export default function MosquitoPillarPage() {
         <h2>DIY Tools That Help Between Professional Visits</h2>
         <AffiliateDisclosure />
         <p>For standing water you genuinely can&apos;t drain — rain barrels, ornamental ponds, or low spots that stay wet for days — drop in a <strong>Bti larvicide dunk</strong> such as Summit Mosquito Dunks. They float and slowly release a naturally occurring bacterium that kills mosquito larvae for about 30 days while staying safe for pets, birds, and fish. We break down brands and dosing in our <Link href="/blog/mosquito-dunks-canada-guide" className="text-brand-700 underline hover:text-brand-500">mosquito dunks guide for Canada</Link> — or <BuyLink search="summit mosquito dunks">Check price on Amazon.ca →</BuyLink></p>
+
+        <TopPick
+          label="Best DIY Add-On"
+          name="Summit Mosquito Dunks (Bti larvicide)"
+          blurb="For standing water you can't drain — rain barrels, ornamental ponds, chronic wet spots — these floating dunks release a naturally occurring bacterium (Bti) that kills mosquito larvae for about 30 days while staying safe around pets, birds, and fish. The simplest way to stop a breeding site before adults ever hatch."
+          search="summit mosquito dunks"
+          score={8.7}
+          pros={['Kills larvae before they become biting adults', 'One dunk lasts ~30 days', 'Safe around pets, birds, and fish', 'Targets water you can’t drain']}
+          cons={['Only treats standing water — not resting adults', 'Needs replacing each month through the season']}
+        />
+        <p className="not-prose text-xs text-gray-500 mb-6">Score reflects BuzzSkito&rsquo;s own editorial rating, not an Amazon rating.</p>
         <p>For the hours you&apos;re actually outside, a <strong>Thermacell repeller</strong> creates a roughly 20-foot zone of protection over a patio or deck without sprays or open flame, and the right skin repellent handles the rest. See how the options compare in our <Link href="/blog/picaridin-vs-deet-canada" className="text-brand-700 underline hover:text-brand-500">picaridin vs. DEET guide</Link> and <Link href="/blog/best-mosquito-trap-canada" className="text-brand-700 underline hover:text-brand-500">best mosquito traps in Canada</Link> — or <BuyLink search="thermacell mosquito repeller">Check price on Amazon.ca →</BuyLink></p>
         <p>These tools cut bites in the moment, but they don&apos;t clear the adult mosquitoes resting in your vegetation the way a professional barrier spray does. For a yard that stays bite-free all season, they work best alongside a treatment plan.</p>
 

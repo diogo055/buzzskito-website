@@ -4,9 +4,13 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import SpecialistDisclosure from '@/components/SpecialistDisclosure'
+import FreshnessStamp from '@/components/FreshnessStamp'
+import AuthorByline from '@/components/AuthorByline'
+import TopPick from '@/components/TopPick'
 
 const SLUG = 'bed-bug-interceptor-traps-canada'
 const DATE = '2026-07-16'
+const UPDATED = '2026-07-16'
 const TITLE = 'Bed Bug Interceptor Traps Canada 2026 — Detect Before You Spray'
 
 const FAQS = [
@@ -85,6 +89,7 @@ export default function BedBugInterceptorTrapsCanadaPage() {
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
           <p className="text-xl text-brand-100 max-w-3xl">Interceptor cups are the cheapest, most reliable way to confirm a bed bug problem before you spend a dollar on sprays — here&rsquo;s how they exploit bed bug physiology, how to run the 14-night protocol, and how to read what you catch.</p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
 
@@ -143,7 +148,19 @@ export default function BedBugInterceptorTrapsCanadaPage() {
 
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
+          <AuthorByline datePublished={DATE} dateModified={UPDATED} />
           <AffiliateDisclosure />
+
+          <TopPick
+            label="Our Top Pick"
+            name="ClimbUp Insect Interceptor"
+            blurb="The pesticide-free cup used in most published university field trials — reliably slick inner walls out of the box, pre-dusted with talc, and standard sizing that seats under most bed legs. It's the detection tool entomologists reach for first, and four cups will confirm or rule out an infestation inside the 14-night protocol."
+            search="climbup bed bug interceptor"
+            score={9.0}
+            pros={['Research-validated standard cup', 'Double wells show travel direction', 'No pesticide — no PMRA registration needed', 'Pre-dusted and ready to place']}
+            cons={['Standard size too small for very chunky posts', 'Needs weekly wipe-down to stay slick']}
+          />
+
           <p className="not-prose text-sm text-gray-600 mb-1">Compare current Canadian listings for the research-standard cup and budget multi-packs:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink search="climbup bed bug interceptor">ClimbUp interceptors on Amazon.ca →</BuyLink>

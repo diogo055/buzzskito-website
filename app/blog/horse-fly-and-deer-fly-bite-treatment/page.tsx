@@ -3,6 +3,8 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import AuthorByline from '@/components/AuthorByline'
 import BuyLink from '@/components/BuyLink'
+import TopPick from '@/components/TopPick'
+import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 
@@ -72,6 +74,7 @@ export default function HorseFlyDeerFlyBiteTreatmentPage() {
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
           <p className="text-xl text-brand-100 max-w-3xl">Why these bites sting so much, how to stop the pain and itch fast, how long they take to heal, and the warning signs that need a doctor.</p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
 
@@ -141,6 +144,16 @@ export default function HorseFlyDeerFlyBiteTreatmentPage() {
             <BuyLink search="after bite itch relief">Check after-bite relief on Amazon →</BuyLink>
             <BuyLink search="hydrocortisone anti itch cream">Compare hydrocortisone creams →</BuyLink>
           </div>
+
+          <TopPick
+            label="Our Top Pick for Bite Relief"
+            name="Hydrocortisone 1% Anti-Itch Cream"
+            blurb="For the itch and inflammation of a horse fly or deer fly bite, a 1% hydrocortisone cream is the most reliable over-the-counter fix — it calms the immune reaction to the fly's saliva so the welt stops itching and settles faster. Keep a tube in the car or bag through fly season."
+            search="hydrocortisone anti itch cream"
+            score={8.6}
+            pros={['Calms itch and swelling fast', 'Inexpensive and widely stocked', 'Small enough to keep on hand']}
+            cons={['Apply to intact skin only', 'Not for a deep, open, weeping cut']}
+          />
 
           <h2>Why Horse Fly and Deer Fly Bites Hurt So Much</h2>
           <p>A mosquito slides a fine, flexible stylet into your skin so smoothly you often do not feel it. Horse flies and deer flies — both members of the fly family <strong>Tabanidae</strong> — do the opposite. The female (only females bite; they need a blood meal to develop eggs) carries a set of short, blade-like mouthparts. She uses them to <strong>slice the skin open like tiny scissors</strong>, creating a small pool of blood that she then sponges up. That cutting action is the whole reason the bite delivers an instant, burning sting and frequently bleeds.</p>

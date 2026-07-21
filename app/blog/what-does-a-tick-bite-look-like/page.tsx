@@ -3,10 +3,14 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import FreshnessStamp from '@/components/FreshnessStamp'
+import AuthorByline from '@/components/AuthorByline'
+import TopPick from '@/components/TopPick'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 
 const SLUG = 'what-does-a-tick-bite-look-like'
 const DATE = '2026-07-15'
+const UPDATED = '2026-07-15'
 const TITLE = 'What Does a Tick Bite Look Like? Pictures, Timeline & How to Identify One (2026)'
 
 const FAQS = [
@@ -105,7 +109,10 @@ export default function WhatDoesATickBiteLookLikePage() {
           <p className="text-xl text-brand-100 leading-relaxed">
             A visual identification guide with a day-by-day appearance timeline, what bites look like on humans vs dogs, how to spot an embedded tick, and the exact point to see a doctor. Ontario, 2026.
           </p>
-          <div className="mt-6 text-brand-300 text-sm">Published July 15, 2026 · 9 min read</div>
+          <div className="mt-6 flex flex-wrap items-center gap-x-4 gap-y-2 text-brand-300 text-sm">
+            <span>Published July 15, 2026 · 9 min read</span>
+            <FreshnessStamp date={UPDATED} tone="dark" />
+          </div>
         </div>
       </section>
 
@@ -126,6 +133,8 @@ export default function WhatDoesATickBiteLookLikePage() {
           </ul>
           <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
         </div>
+
+        <AuthorByline datePublished={DATE} dateModified={UPDATED} />
 
         <p>Both a tick bite and a mosquito bite can start as a small red mark, so telling them apart is really about three things: whether an insect is still attached, how the bite feels, and what happens over the following days and weeks. This page is a pure visual-identification guide &mdash; what a tick bite actually looks like at each stage, on people and on dogs, and where the line is between a normal reaction and something a doctor should see. If you have already found a bite and want the step-by-step of what to do next, read <Link href="/blog/tick-bite-symptoms-what-to-do-ontario">tick bite symptoms &amp; what to do in Ontario</Link>.</p>
 
@@ -168,6 +177,15 @@ export default function WhatDoesATickBiteLookLikePage() {
         <p>A fully engorged tick is what most people picture, but the dangerous ones for Lyme transmission in Ontario are the tiny <strong>nymphs</strong>, which are active in late spring and summer and are so small they are routinely missed. Do not squeeze the swollen body &mdash; follow the technique in <Link href="/blog/how-to-remove-tick-safely">how to remove a tick safely</Link>, then save the tick in a sealed bag or photo it in case identification is needed later.</p>
         <p>If the body separates during removal and the mouthparts stay behind, do not dig at the skin &mdash; see <Link href="/blog/tick-head-stuck-in-skin">what to do if a tick&rsquo;s head is stuck in the skin</Link>. A dedicated tick-removal kit makes a clean, straight pull far easier than fumbling with wide household tweezers, and is worth keeping in a first-aid bag if you spend time in tick country.</p>
         <AffiliateDisclosure />
+        <TopPick
+          label="Our Top Pick for Removal"
+          name="Tick Remover Kit (fine-tip + hook set)"
+          blurb="For clean identification and safe removal, a dedicated tick tool beats wide household tweezers — it grips the tick right at the skin so you can pull straight up without crushing the body or leaving mouthparts behind. Worth keeping in a first-aid bag if you spend time in tick country."
+          search="tick removal kit"
+          score={8.6}
+          pros={['Fine tip grips even poppy-seed-sized nymphs', 'Pulls straight up without squeezing the body', 'Compact — lives in a first-aid or hiking kit']}
+          cons={['Not a substitute for a proper post-bite check', 'Still requires steady, slow technique']}
+        />
         <p className="not-prose"><BuyLink search="tick removal kit">Check price on a tick removal kit at Amazon.ca &rarr;</BuyLink></p>
 
         <h2>What does a tick bite look like on a dog?</h2>

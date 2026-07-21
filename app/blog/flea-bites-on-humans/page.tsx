@@ -4,9 +4,13 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import SpecialistDisclosure from '@/components/SpecialistDisclosure'
+import FreshnessStamp from '@/components/FreshnessStamp'
+import AuthorByline from '@/components/AuthorByline'
+import TopPick from '@/components/TopPick'
 
 const SLUG = 'flea-bites-on-humans'
 const DATE = '2026-07-19'
+const UPDATED = '2026-07-19'
 const TITLE = 'Flea Bites on Humans: What They Look Like & How to Tell It’s Fleas (2026)'
 
 const FAQS = [
@@ -84,10 +88,13 @@ export default function FleaBitesOnHumansPage() {
             The ankle-cluster pattern that gives fleas away, a flea vs bed bug vs mosquito comparison table, how long bites last, and the evidence-based way to clear fleas out of a home.
           </p>
           <div className="mt-6 text-brand-300 text-sm">Published July 19, 2026 &middot; 10 min read</div>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-14 prose-brand">
+
+        <AuthorByline datePublished={DATE} dateModified={UPDATED} />
 
         <div className="not-prose bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
           <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
@@ -181,6 +188,15 @@ export default function FleaBitesOnHumansPage() {
         <h2>How do you get rid of fleas at home?</h2>
         <p>Successful flea control attacks <strong>every life stage at once, for several weeks</strong>. Adult fleas are only about 5% of an infestation; the other ~95% are eggs, larvae, and pupae distributed through carpets, floor cracks, and pet resting areas. Kill only the adults and the pipeline keeps producing. The plan below covers the environment side; anything applied <em>to the animal</em> &mdash; spot-on treatments, oral flea medication, medicated shampoos &mdash; should be chosen with your <strong>veterinarian</strong>, since the safe options differ by species, age, and weight, and some dog products contain ingredients dangerous to cats.</p>
         <AffiliateDisclosure />
+        <TopPick
+          label="Most Useful Product for Fleas"
+          name="Plug-in light flea trap"
+          blurb="The single easiest way to confirm an infestation and track your progress. A plug-in trap lures adult fleas with light and warmth onto a sticky pad, so falling nightly counts tell you the vacuuming and washing campaign is working. It kills adults only — pair it with vacuuming, hot-water washing, and vet-directed pet treatment, since the trap cannot reach the eggs, larvae, and pupae that make up most of the population."
+          search="flea trap plug in"
+          score={8.1}
+          pros={['Confirms an active infestation fast', 'Objective progress meter week over week', 'Quiet, low-effort, runs overnight']}
+          cons={['Kills adult fleas only', 'Not a standalone cure — a monitor and supplement']}
+        />
         <ul>
           <li><strong>Vacuum daily &mdash; and aggressively.</strong> Carpets, rugs, baseboards, under furniture, upholstery, and the car if pets ride in it. One university study found vacuuming killed about <strong>96% of adult fleas and virtually all eggs and larvae</strong>. Just as important, vacuum vibration triggers dormant pupae to hatch into the open where they can be killed. Empty the canister or bag into an outdoor bin every time.</li>
           <li><strong>Wash everything washable in hot water.</strong> Pet bedding, human bedding, throw blankets, and cushion covers at <strong>60&deg;C (140&deg;F)</strong>, then dry on high heat. Health Canada recommends frequent vacuuming and hot-water washing of pet bedding as the backbone of non-chemical flea control.</li>

@@ -4,6 +4,9 @@ import CTASection from '@/components/CTASection'
 import BlogPostCTA from '@/components/BlogPostCTA'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import FreshnessStamp from '@/components/FreshnessStamp'
+import AuthorByline from '@/components/AuthorByline'
+import TopPick from '@/components/TopPick'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { TICK_BLOGS, CITIES } from '@/lib/constants'
 
@@ -46,6 +49,7 @@ export default function TickPillarPage() {
           </div>
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold mb-5 leading-tight">{POST.title}</h1>
           <p className="text-brand-300 text-sm">Published {new Date(POST.date).toLocaleDateString('en-CA', { year: 'numeric', month: 'long', day: 'numeric' })} · By BuzzSkito</p>
+          <div className="mt-4"><FreshnessStamp date={POST.date} tone="dark" /></div>
         </div>
       </section>
 
@@ -74,6 +78,8 @@ export default function TickPillarPage() {
         </p>
 
         <AffiliateDisclosure />
+
+        <AuthorByline datePublished={POST.date} dateModified={POST.date} />
 
         <h2>Tick Species in Ontario: What You're Dealing With</h2>
         <p>Three tick species are most relevant to Ontario homeowners:</p>
@@ -191,6 +197,16 @@ export default function TickPillarPage() {
         <h2>What to Do If You Find a Tick</h2>
         <p>If you find a tick attached to your skin, remove it promptly with fine-tipped tweezers. See our complete guide: <Link href="/blog/how-to-remove-tick-safely" className="text-brand-700 underline hover:text-brand-500">How to Remove a Tick Safely</Link></p>
         <p>A dedicated removal tool kept in your first-aid kit makes clean, complete removal easier than makeshift tweezers — it grips close to the skin and lifts the whole tick out without squeezing: <BuyLink search="tick removal tool tweezers">Check price on Amazon.ca →</BuyLink> We compare the options in our <Link href="/blog/tick-removal-tool-guide" className="text-brand-700 underline hover:text-brand-500">tick removal tool guide</Link>.</p>
+
+        <TopPick
+          label="Our Top Pick — Tick Removal Tool"
+          name="Fine-Tip Tick Removal Tool Set"
+          blurb="The one product every Ontario household with a yard should own. A dedicated remover grips the tick right at the skin and lifts the whole body out in one motion — no squeezing, no leftover mouthparts, no folk remedies. Keep one in the first-aid kit and one in the car for after-hike checks."
+          search="tick removal tool tweezers"
+          score={8.7}
+          pros={['Grips close to the skin for complete removal', 'Cheap insurance against a botched extraction', 'Compact — fits any first-aid kit or glovebox']}
+          cons={['Not a substitute for daily tick checks', 'Still need prompt removal within 24–36 hours']}
+        />
 
         <h2>Tick Control by GTA City</h2>
         <div className="not-prose grid grid-cols-2 sm:grid-cols-3 gap-3 my-6">

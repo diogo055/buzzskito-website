@@ -3,10 +3,15 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
+import AwardRow from '@/components/AwardRow'
+import StickyBuyBar from '@/components/StickyBuyBar'
+import FreshnessStamp from '@/components/FreshnessStamp'
+import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 
 const SLUG = 'mosquito-magnet-vs-professional-spray'
 const DATE = '2026-04-26'
+const UPDATED = '2026-04-26'
 const TITLE = 'Mosquito Magnet vs Professional Spray — Honest Comparison (2026)'
 
 const FAQS = [
@@ -69,8 +74,11 @@ export default function MosquitoMagnetPage() {
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
           <p className="text-xl text-brand-100 max-w-3xl">An honest 2026 cost-and-effectiveness comparison for Ontario homeowners deciding between a Mosquito Magnet trap and professional barrier spray.</p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
+
+      <StickyBuyBar name="Mosquito Magnet Patriot Plus (propane CO₂ trap)" search="mosquito magnet patriot plus" label="Trap price check" />
 
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
@@ -88,6 +96,7 @@ export default function MosquitoMagnetPage() {
           </div>
 
           <AffiliateDisclosure />
+          <AuthorByline datePublished={DATE} dateModified={UPDATED} />
           <p className="lead text-xl text-gray-700 leading-relaxed mb-6">Mosquito Magnet traps work — they capture real mosquitoes. But they&rsquo;re expensive, need ongoing supplies, and only cull a portion of your yard&rsquo;s mosquito population. Here&rsquo;s how they compare to professional barrier spray, which controls the population at the source.</p>
 
           <p className="not-prose text-sm text-gray-600 mb-1">Pricing the hardware side of this comparison? Check current Canadian prices on the three most popular trap and repeller options:</p>
@@ -96,6 +105,45 @@ export default function MosquitoMagnetPage() {
             <BuyLink search="dynatrap dt2030 1 acre">DynaTrap DT2030 →</BuyLink>
             <BuyLink search="thermacell e90 rechargeable">Thermacell E90 →</BuyLink>
           </div>
+
+          <AwardRow
+            heading="Our Picks — If You Want the Hardware Route"
+            awards={[
+              {
+                badge: 'Best Trap Overall',
+                name: 'Mosquito Magnet Patriot Plus (propane CO₂)',
+                why: 'The only trap type that makes real CO₂, heat, and moisture — the cues egg-laying females hunt for. Genuinely thins populations over 4–6 weeks on large, chronic-problem lots.',
+                search: 'mosquito magnet patriot plus',
+                score: 8.4,
+                featured: true,
+                pros: ['Targets biting females specifically', 'Meaningful reduction on 1-acre+ rural lots', 'Runs unattended once set up'],
+                cons: ['High up-front and running cost', 'Only culls a portion of the population', 'Needs continuous propane + attractant'],
+              },
+              {
+                badge: 'Best Budget Trap',
+                name: 'DynaTrap DT2030 (UV + fan)',
+                why: 'Far cheaper than a propane unit and quiet to run, but UV pulls in mostly non-biting insects — treat it as a supplemental catcher, not a mosquito solution.',
+                search: 'dynatrap dt2030 1 acre',
+                score: 6.9,
+                pros: ['Low up-front cost', 'Quiet, low-maintenance', 'Catches lots of flying insects'],
+                cons: ['Small share of catch is mosquitoes', 'Bulbs + cartridges add up', 'Slow, partial reduction'],
+              },
+              {
+                badge: 'Best Personal Zone',
+                name: 'Thermacell E90 Rechargeable Repeller',
+                why: 'Not a trap — a same-evening repellent zone for the spot where you sit. The fastest personal fix while a trap or spray does the slower population work.',
+                search: 'thermacell e90 rechargeable',
+                score: 8.0,
+                pros: ['Works within minutes', 'Great for a deck or patio seat', 'No propane logistics'],
+                cons: ['Covers only a small radius', 'Protects people, not the whole yard', 'Needs mat/cartridge refills'],
+              },
+            ]}
+            whichToBuy={
+              <>
+                <strong>Large rural acreage?</strong> The <em>Best Trap Overall</em> propane unit earns its keep. <strong>Want something cheap on the deck?</strong> The <em>Best Budget</em> DynaTrap or a <em>Thermacell</em> zone helps for less &mdash; but for same-day, whole-yard reduction that also controls ticks, nothing beats <Link href="/mosquito-control">professional barrier spray</Link>.
+              </>
+            }
+          />
 
           <h2>The Quick Comparison</h2>
           <div className="not-prose overflow-x-auto my-6">

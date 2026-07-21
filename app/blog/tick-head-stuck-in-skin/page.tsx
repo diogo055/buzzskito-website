@@ -3,10 +3,14 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import FreshnessStamp from '@/components/FreshnessStamp'
+import AuthorByline from '@/components/AuthorByline'
+import TopPick from '@/components/TopPick'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 
 const SLUG = 'tick-head-stuck-in-skin'
 const DATE = '2026-07-16'
+const UPDATED = '2026-07-16'
 const TITLE = 'Tick Head Stuck in Skin? What to Do (and When It\'s Dangerous)'
 
 const FAQS = [
@@ -87,10 +91,13 @@ export default function TickHeadStuckInSkinPage() {
           <span className="bg-amber-700 text-amber-100 text-xs px-3 py-1 rounded-full mb-4 inline-block">Tick Control</span>
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
           <p className="text-brand-300 text-sm">Published {new Date(DATE).toLocaleDateString('en-CA', { year: 'numeric', month: 'long', day: 'numeric' })} · By Alex &amp; the BuzzSkito Team</p>
+          <div className="mt-3"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
+        <AuthorByline datePublished={DATE} dateModified={UPDATED} />
+
         {/* ANSWER CAPSULE — first content element */}
         <div className="not-prose bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
           <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
@@ -122,6 +129,16 @@ export default function TickHeadStuckInSkinPage() {
         <div className="not-prose mb-6 flex flex-wrap gap-3">
           <BuyLink search="tick twister removal tool">Check tick removal tool price on Amazon.ca →</BuyLink>
         </div>
+
+        <TopPick
+          label="Our Top Pick — Tick Removal Tool"
+          name="Tick Twister-style hooked remover"
+          blurb="A notched, fine-tipped tick tool slides under the mouthparts and levers the whole tick out in one piece — the single best way to stop a head breaking off in the first place. Cheap enough to keep one in the first-aid kit, the car, and the dog-walking bag."
+          search="tick twister removal tool"
+          score={8.7}
+          pros={['Grips at the skin, not the body', 'Removes the whole tick intact', 'Works on people and pets', 'Compact — keep several on hand']}
+          cons={['Very fine tip can be fiddly on tiny nymphs', 'Not a substitute for a doctor if the site gets infected']}
+        />
 
         <h2>What happens if you leave a tick head in your skin?</h2>
         <p>In most cases, nothing serious happens. Your immune system treats the fragment as foreign material and gradually pushes it toward the surface, usually within a few days to two weeks. You might see a small red bump or feel mild tenderness while it works its way out — that&rsquo;s normal healing, not a warning sign.</p>

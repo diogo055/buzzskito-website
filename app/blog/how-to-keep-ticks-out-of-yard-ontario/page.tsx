@@ -3,12 +3,15 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import AuthorByline from '@/components/AuthorByline'
 import BuyLink from '@/components/BuyLink'
+import TopPick from '@/components/TopPick'
+import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { MOSQUITO_BLOGS, TICK_BLOGS } from '@/lib/constants'
 
 const SLUG = 'how-to-keep-ticks-out-of-yard-ontario'
 const DATE = '2026-04-29'
+const UPDATED = '2026-04-29'
 const TITLE = 'How to Keep Ticks Out of Your Yard (Ontario)'
 
 const FAQS = [
@@ -45,6 +48,7 @@ export default function HowToKeepTicksOutOfYardOntarioPage() {
           </nav>
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold mb-4 leading-tight">How to Keep Ticks Out of Your Yard — Ontario 2026 Lyme Disease Guide</h1>
           <p className="text-brand-300 text-sm">Practical, evidence-backed Ontario homeowner guide.</p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
 
@@ -68,7 +72,7 @@ export default function HowToKeepTicksOutOfYardOntarioPage() {
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
-        <AuthorByline datePublished={DATE} />
+        <AuthorByline datePublished={DATE} dateModified={UPDATED} />
 
         <AffiliateDisclosure />
 
@@ -98,6 +102,15 @@ export default function HowToKeepTicksOutOfYardOntarioPage() {
 
         <h3>9. Use Permethrin-Treated Clothing for High-Risk Outdoor Activity</h3>
         <p>Permethrin kills blacklegged ticks on contact and is the active ingredient recommended for clothing treatment (never apply it to skin). You can buy pre-treated clothing or treat your own outdoor clothes with a spray like Sawyer permethrin &mdash; one application lasts roughly 6 washes on home-treated gear. Especially valuable for hiking the Bruce Trail, working in conservation-area-adjacent yards, or outdoor events in tick zones.</p>
+        <TopPick
+          label="Our Top Pick for Tick-Zone Clothing"
+          name="Sawyer Permethrin Clothing & Gear Spray"
+          blurb="For anyone working, hiking, or gardening in the lawn-to-woods transition zone, permethrin-treated clothing is the highest-impact personal defence: it kills blacklegged ticks on contact before they ever reach skin. Treat your own boots, socks, and pants (never skin) and the protection survives several washes."
+          search="sawyer permethrin clothing spray"
+          score={9.0}
+          pros={['Kills ticks on contact, not just repels', 'One treatment lasts several washes', 'Ideal for high-risk conservation-adjacent yards']}
+          cons={['For clothing and gear only — never apply to skin', 'Needs re-treating after roughly six washes']}
+        />
         <p><BuyLink search="sawyer permethrin clothing spray">Check permethrin clothing sprays on Amazon.ca &rarr;</BuyLink></p>
         <p>For a full walkthrough of treating clothes and yard gear, see our <Link href="/blog/permethrin-canada-yard-clothing-spray" className="text-brand-700 hover:underline">permethrin for yard &amp; clothing guide (Canada)</Link>, and compare skin-safe options in our <Link href="/blog/best-tick-repellent-yard-canada" className="text-brand-700 hover:underline">best tick repellents for the yard in Canada</Link> roundup.</p>
 

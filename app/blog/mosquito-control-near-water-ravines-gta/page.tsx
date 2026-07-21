@@ -2,6 +2,9 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import BuyLink from '@/components/BuyLink'
+import TopPick from '@/components/TopPick'
+import FreshnessStamp from '@/components/FreshnessStamp'
+import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { NEW_BLOGS, MOSQUITO_BLOGS } from '@/lib/constants'
@@ -58,6 +61,7 @@ export default function MosquitoControlNearWaterPage() {
           <span className="bg-brand-800 text-brand-200 text-xs px-3 py-1 rounded-full mb-4 inline-block">Waterfront &amp; Ravine Properties · GTA</span>
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold mb-4 leading-tight">{POST.title}</h1>
           <p className="text-brand-300 text-sm">Published {new Date(POST.date).toLocaleDateString('en-CA', { year: 'numeric', month: 'long', day: 'numeric' })} · By BuzzSkito</p>
+          <div className="mt-4"><FreshnessStamp date={POST.date} tone="dark" /></div>
         </div>
       </section>
 
@@ -80,6 +84,7 @@ export default function MosquitoControlNearWaterPage() {
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
+        <AuthorByline datePublished={POST.date} />
         <p className="text-lg text-gray-600 leading-relaxed not-prose border-l-4 border-brand-400 pl-5 py-2 mb-8">
           If your GTA property backs onto a river, sits near a ravine, looks out over a pond, or is anywhere near the Lake Ontario waterfront, you already know that mosquito season hits harder for you than for your friends on flat suburban blocks. This guide explains why — and what actually makes a difference. See our <Link href="/mosquito-control" className="text-brand-700 underline">GTA mosquito control service page</Link> to get started.
         </p>
@@ -111,6 +116,16 @@ export default function MosquitoControlNearWaterPage() {
         </ul>
         <AffiliateDisclosure />
         <p>For ornamental ponds, Bti (Bacillus thuringiensis israelensis) mosquito dunks are an effective, fish-safe larval control option — one floating dunk slowly releases Bti for about 30 days. <BuyLink search="summit mosquito dunks">Check Mosquito Dunks on Amazon.ca →</BuyLink> For the shallow low spots and drainage swales that pool for 5&ndash;7 days after rain, granular Mosquito Bits release Bti immediately for a faster larval knockdown. <BuyLink search="summit mosquito bits">Check Mosquito Bits on Amazon.ca →</BuyLink> For stormwater management ponds and drainage features you don&rsquo;t control, the strategy shifts entirely to adult control through barrier spray on your property.</p>
+
+        <TopPick
+          label="Best for Standing Water You Control"
+          name="Summit Mosquito Dunks (Bti larvicide)"
+          blurb="For an ornamental pond, rain barrel, or bird bath, floating Bti dunks are the single most effective DIY move — a naturally occurring soil bacterium that kills mosquito larvae before they hatch while staying safe for fish, frogs, birds, and pets. One dunk treats about 100 sq ft of surface water for roughly 30 days."
+          search="summit mosquito dunks"
+          score={8.7}
+          pros={['Targets larvae — stops mosquitoes before they fly', 'Fish-, frog-, bird-, and pet-safe', 'One dunk lasts about 30 days']}
+          cons={['Only works on standing water you can reach', 'No effect on adult mosquitoes already in the yard']}
+        />
 
         <h2>Stormwater Management Ponds: The New Suburban Reality</h2>
         <p>Virtually every GTA subdivision built since 1990 includes retention or detention ponds as part of the stormwater management system. These ponds — common in new areas of <Link href="/brampton-mosquito-control" className="text-brand-700">Brampton</Link>, <Link href="/vaughan-mosquito-control" className="text-brand-700">Vaughan</Link>, <Link href="/milton-mosquito-control" className="text-brand-700">Milton</Link>, and <Link href="/markham-mosquito-control" className="text-brand-700">Markham</Link> — are designed for water quality and flood management, not mosquito prevention. Their shallow margins, emergent vegetation, and minimal circulation make them excellent mosquito breeding sites.</p>

@@ -3,11 +3,15 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
-import TopPick from '@/components/TopPick'
+import AwardRow from '@/components/AwardRow'
+import StickyBuyBar from '@/components/StickyBuyBar'
+import FreshnessStamp from '@/components/FreshnessStamp'
+import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 
 const SLUG = 'tick-removal-tool-guide'
 const DATE = '2026-04-26'
+const UPDATED = '2026-04-26'
 const TITLE = 'Best Tick Removal Tools — Tested for Ontario 2026'
 
 const FAQS = [
@@ -51,15 +55,16 @@ export const metadata: Metadata = buildMetadata({
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
+  modifiedTime: UPDATED,
 })
 
 export default function TickRemovalToolGuidePage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Comprehensive 2026 guide to tick removal tools for Ontario.', slug: SLUG, datePublished: DATE })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Comprehensive 2026 guide to tick removal tools for Ontario.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Tick Removal Tool Guide', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`)) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`, UPDATED)) }} />
 
       <section className="bg-gradient-to-br from-brand-950 via-brand-900 to-amber-900 text-white py-14 px-4">
         <div className="max-w-4xl mx-auto">
@@ -70,11 +75,15 @@ export default function TickRemovalToolGuidePage() {
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
           <p className="text-xl text-brand-100 max-w-3xl">An honest 2026 review of tick removal tools — what works, what to avoid, and the $7 tool every Ontario household with a dog should keep at home.</p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
 
+      <StickyBuyBar name="Tick Twister / O’Tom Tick Twister removal tool" search="tick twister removal tool" label="Best overall tool" />
+
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
+          <AuthorByline datePublished={DATE} dateModified={UPDATED} />
           <div className="not-prose bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
             <p className="text-gray-800 text-[15px] leading-relaxed font-medium">For most Ontario households the best tick removal tool is the Tick Twister (O&rsquo;Tom) &mdash; a $5&ndash;$10 hooked tool that slides under the tick and twists it free without squeezing the body, the method most veterinarians recommend; fine-tipped tweezers also work if used correctly.</p>
@@ -96,10 +105,61 @@ export default function TickRemovalToolGuidePage() {
           </div>
           <p className="lead text-xl text-gray-700 leading-relaxed mb-6">Removing a tick correctly takes 30 seconds with the right tool. Done wrong, you can break off the mouthparts, squeeze the tick&rsquo;s body and increase Lyme disease risk, or just panic. Here&rsquo;s the honest 2026 guide to what tools actually work.</p>
 
-          <TopPick
-            name="Tick Twister / O’Tom Tick Twister"
-            blurb="The hooked notch slides under the tick and twists it free without squeezing the body — works on everything from tiny nymphs to engorged adults, and it’s the standard tool most veterinarians recommend."
-            search="tick twister removal tool"
+          <AwardRow
+            heading="Our Picks — Best Tick Removal Tools"
+            awards={[
+              {
+                badge: 'Best Overall',
+                name: 'Tick Twister / O’Tom Tick Twister',
+                why: 'The hooked notch slides under the tick and twists it free without squeezing the body — the standard tool most veterinarians recommend, and budget-friendly.',
+                search: 'tick twister removal tool',
+                score: 9.1,
+                featured: true,
+                pros: ['Can’t squeeze the tick body', 'Works on nymphs to engorged adults', 'Stocked at most pet stores'],
+                cons: ['Small plastic — easy to lose', 'Brief learning curve'],
+              },
+              {
+                badge: 'Best for Beginners',
+                name: 'TickKey',
+                why: 'A flat metal keychain tool with a tear-drop slot — slide, capture, pull straight back. The hardest tool to misuse, so it’s ideal for first-time tick-finders.',
+                search: 'tickkey tick removal tool',
+                score: 8.4,
+                pros: ['Nearly foolproof to use', 'Metal won’t break', 'Fits on a keychain'],
+                cons: ['Tiny nymphs can slip the slot', 'One fixed slot size'],
+              },
+              {
+                badge: 'Best Backup',
+                name: 'Wallet Tick Removal Card',
+                why: 'A credit-card-sized notch that lives in a wallet, glovebox, or hiking pack — the cheapest way to always have a tool on hand when you find a tick away from home.',
+                search: 'tick removal card',
+                score: 7.6,
+                pros: ['Cheapest option', 'Fits in any wallet', 'No moving parts'],
+                cons: ['Awkward on very small nymphs', 'Needs a flat skin surface'],
+              },
+              {
+                badge: 'Best Kit',
+                name: 'Multi-Tool Tick Removal Kit',
+                why: 'Bundles a hook, fine-tip tweezers, a magnifier, and a storage vial in one pouch — mid-price, and the sensible pick for high-exposure households and dog owners.',
+                search: 'tick removal kit',
+                score: 8.0,
+                pros: ['Covers every tick size', 'Includes a storage vial for ID', 'Great for dog owners'],
+                cons: ['More to keep track of', 'Pricier than a single hook'],
+              },
+              {
+                badge: 'Already Own It',
+                name: 'Fine-Tipped Tweezers',
+                why: 'Sharp eyebrow tweezers (never pliers-style) grip the head at skin level and pull straight up — free if you already own a fine-tipped pair, and fine for occasional use.',
+                search: 'fine tip tick tweezers',
+                score: 7.2,
+                pros: ['Free if already owned', 'Familiar to use', 'Works on all sizes when sharp'],
+                cons: ['Easy to misuse and squeeze the body', 'Must be fine-tipped, not blunt'],
+              },
+            ]}
+            whichToBuy={
+              <>
+                <strong>Want one tool for the whole household?</strong> The <em>Best Overall</em> Tick Twister is the vet-standard pick. <strong>First time removing a tick?</strong> The <em>Best for Beginners</em> TickKey is nearly impossible to misuse. <strong>Dog owner or ravine-adjacent yard?</strong> The <em>Best Kit</em> bundles everything with a storage vial. But the surest way to never need any of them is to stop finding ticks — <Link href="/tick-control">professional yard tick control</Link> cuts yard tick populations 80–95%.
+              </>
+            }
           />
 
           <h2>Tick Removal Tool Comparison</h2>
@@ -117,7 +177,7 @@ export default function TickRemovalToolGuidePage() {
               <tbody>
                 {[
                   { tool: 'Tick Twister / O’Tom', mech: 'Hook slides under the tick, twist to release', best: 'All-round use, nymphs to engorged adults', price: 'Budget', search: 'tick twister removal tool' },
-                  { tool: 'TickKey', mech: 'Tear-drop slot captures the tick, pull straight back', best: 'Beginners, keychain carry', price: 'Budget', search: '' },
+                  { tool: 'TickKey', mech: 'Tear-drop slot captures the tick, pull straight back', best: 'Beginners, keychain carry', price: 'Budget', search: 'tickkey tick removal tool' },
                   { tool: 'Tick removal card', mech: 'Credit-card-sized notch slides under the tick', best: 'Wallet backup, travel, glovebox', price: 'Cheapest', search: 'tick removal card' },
                   { tool: 'Fine-tipped tweezers', mech: 'Grip the head at skin level, pull straight up', best: 'Occasional use, already owned', price: 'Free to budget', search: 'fine tip tick tweezers' },
                   { tool: 'Multi-tool removal kit', mech: 'Combines hook, tweezers, magnifier and storage vial', best: 'High-exposure households and dog owners', price: 'Mid-range', search: 'tick removal kit' },
@@ -127,7 +187,7 @@ export default function TickRemovalToolGuidePage() {
                     <td className="px-3 py-2 text-gray-600 text-xs">{mech}</td>
                     <td className="px-3 py-2 text-gray-600 text-xs">{best}</td>
                     <td className="px-3 py-2 text-center text-gray-600 text-xs">{price}</td>
-                    <td className="px-3 py-2 text-center whitespace-nowrap">{search ? <BuyLink search={search} className="!px-3 !py-1.5 !text-xs">Check price</BuyLink> : <span className="text-xs text-gray-400">&mdash;</span>}</td>
+                    <td className="px-3 py-2 text-center whitespace-nowrap">{search ? <BuyLink search={search} block>Check price →</BuyLink> : <span className="text-xs text-gray-400">&mdash;</span>}</td>
                   </tr>
                 ))}
               </tbody>

@@ -3,10 +3,15 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import AwardRow from '@/components/AwardRow'
+import StickyBuyBar from '@/components/StickyBuyBar'
+import FreshnessStamp from '@/components/FreshnessStamp'
+import AuthorByline from '@/components/AuthorByline'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 
 const SLUG = 'natural-mosquito-repellent-ontario'
 const DATE = '2026-04-26'
+const UPDATED = '2026-04-26'
 const TITLE = 'Natural Mosquito Repellent — What Actually Works in Ontario (2026)'
 
 const FAQS = [
@@ -93,11 +98,15 @@ export default function NaturalMosquitoRepellentPage() {
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
           <p className="text-xl text-brand-100 max-w-3xl">An honest, research-backed guide for Ontario homeowners. What actually works, what is wishful thinking, and the cheap fan trick most people miss.</p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
 
+      <StickyBuyBar name="Off! Botanicals (oil of lemon eucalyptus)" search="off botanicals lemon eucalyptus" label="Best natural pick" />
+
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
+          <AuthorByline datePublished={DATE} dateModified={UPDATED} />
           <div className="not-prose bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
             <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The most effective natural mosquito repellent is oil of lemon eucalyptus (OLE / PMD) — the only plant-derived ingredient Health Canada rates comparable to low-concentration DEET, giving about 95% protection for 4–6 hours. For a whole yard, pair BTI larvicide with a patio fan.</p>
@@ -115,6 +124,54 @@ export default function NaturalMosquitoRepellentPage() {
           <p className="lead text-xl text-gray-700 leading-relaxed mb-6">If you&rsquo;re trying to avoid DEET, you&rsquo;re not alone. Most Ontario homeowners would prefer a natural option — but the marketing claims for &ldquo;natural mosquito repellent&rdquo; products often outpace the science. Here&rsquo;s what the peer-reviewed research actually says works in Ontario backyards in 2026 — including why <Link href="/blog/picaridin-vs-deet-canada" className="text-emerald-800 underline underline-offset-2">picaridin</Link>, modelled on a black-pepper compound, is the best-tolerated non-DEET option for all-day wear.</p>
 
           <AffiliateDisclosure />
+
+          <AwardRow
+            heading="Our Picks — Best Natural & Non-DEET Repellents"
+            awards={[
+              {
+                badge: 'Best Overall',
+                name: 'Off! Botanicals (oil of lemon eucalyptus)',
+                why: 'The single plant-derived active Health Canada and the CDC rate on par with low-concentration DEET. Refined PMD gives around 95% protection with a light botanical scent.',
+                search: 'off botanicals lemon eucalyptus',
+                score: 9.0,
+                featured: true,
+                pros: ['DEET-comparable protection', '4–6 hours per application', 'Plant-derived (PMD)'],
+                cons: ['Not for children under three', 'Distinct eucalyptus scent'],
+              },
+              {
+                badge: 'Best Non-DEET All-Day',
+                name: 'Picaridin 20% Spray',
+                why: 'Modelled on a black-pepper compound. Odourless, non-greasy, and does not damage gear — the most reliable pick if your goal is "not DEET" rather than strictly botanical.',
+                search: 'picaridin insect repellent 20 percent',
+                score: 8.8,
+                pros: ['8–12 hours of protection', 'Odourless and non-greasy', 'Safe on gear and plastics'],
+                cons: ['Synthetic, not botanical', 'Mid-price vs. citronella'],
+              },
+              {
+                badge: 'Best Botanical Spray',
+                name: "Murphy's Naturals Lemon Eucalyptus",
+                why: 'A refined lemon-eucalyptus (PMD) formula — the one essential-oil active with published 4–6 hour protection, instead of the 20–30 minutes loose oils manage.',
+                search: 'murphys naturals lemon eucalyptus oil insect repellent',
+                score: 8.5,
+                pros: ['Longest-lasting botanical', 'Pleasant citrus scent', 'Widely stocked'],
+                cons: ['Re-apply for long evenings', 'Not for infants'],
+              },
+              {
+                badge: 'Best Whole-Yard Tool',
+                name: 'Mosquito Dunks (BTI larvicide)',
+                why: 'Budget-friendly BTI bacteria that kills larvae in any standing water for 30 days — harmless to pets, fish, and pollinators. The natural tool most homeowners overlook.',
+                search: 'mosquito dunks bti',
+                score: 8.6,
+                pros: ['Kills larvae for 30 days', 'Safe for pets, fish, kids', 'Set-and-forget'],
+                cons: ['Treats water, not skin', 'Needs every water source'],
+              },
+            ]}
+            whichToBuy={
+              <>
+                <strong>Want the strongest botanical?</strong> The <em>Best Overall</em> lemon-eucalyptus (PMD) spray is the only plant active rated near DEET. <strong>Need all-day, sweat-through wear?</strong> The <em>Best Non-DEET</em> picaridin lasts longest. <strong>Fighting a whole yard?</strong> Pair <em>Mosquito Dunks</em> with a patio fan — and for a ravine-backed lot that out-produces any personal repellent, nothing beats <Link href="/mosquito-control">professional barrier spray</Link>.
+              </>
+            }
+          />
 
           <h2>Best Natural Mosquito Repellents, Ranked</h2>
           <p className="text-sm text-gray-500 mb-3">Updated July 2026</p>
@@ -209,25 +266,25 @@ export default function NaturalMosquitoRepellentPage() {
                   <td className="py-3 pr-4 font-semibold">Off! Botanicals</td>
                   <td className="py-3 pr-4">Lemon eucalyptus (OLE / PMD)</td>
                   <td className="py-3 pr-4">4–6 hrs</td>
-                  <td className="py-3"><BuyLink search="off botanicals lemon eucalyptus">Check price on Amazon.ca →</BuyLink></td>
+                  <td className="py-3"><BuyLink search="off botanicals lemon eucalyptus" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-gray-200">
                   <td className="py-3 pr-4 font-semibold">Picaridin spray</td>
                   <td className="py-3 pr-4">Picaridin 20% (DEET-free)</td>
                   <td className="py-3 pr-4">8–12 hrs</td>
-                  <td className="py-3"><BuyLink search="picaridin insect repellent 20 percent">Check price on Amazon.ca →</BuyLink></td>
+                  <td className="py-3"><BuyLink search="picaridin insect repellent 20 percent" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-gray-200">
                   <td className="py-3 pr-4 font-semibold">Watkins Original</td>
                   <td className="py-3 pr-4">Citronella + plant oils</td>
                   <td className="py-3 pr-4">2–3 hrs</td>
-                  <td className="py-3"><BuyLink search="watkins mosquito insect repellent">Check price on Amazon.ca →</BuyLink></td>
+                  <td className="py-3"><BuyLink search="watkins mosquito insect repellent" block>Check price →</BuyLink></td>
                 </tr>
                 <tr>
                   <td className="py-3 pr-4 font-semibold">Citronella spray</td>
                   <td className="py-3 pr-4">Citronella oil</td>
                   <td className="py-3 pr-4">30–60 min</td>
-                  <td className="py-3"><BuyLink search="citronella insect repellent spray">Check price on Amazon.ca →</BuyLink></td>
+                  <td className="py-3"><BuyLink search="citronella insect repellent spray" block>Check price →</BuyLink></td>
                 </tr>
               </tbody>
             </table>

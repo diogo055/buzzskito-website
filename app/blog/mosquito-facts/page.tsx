@@ -3,6 +3,8 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import AuthorByline from '@/components/AuthorByline'
 import BuyLink from '@/components/BuyLink'
+import FreshnessStamp from '@/components/FreshnessStamp'
+import TopPick from '@/components/TopPick'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 
@@ -96,6 +98,7 @@ export default function MosquitoFactsPage() {
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
           <p className="text-xl text-brand-100 max-w-3xl">Fast, sourced answers to the mosquito questions people ask most — lifespan, sleep, biting, diet, and light.</p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
 
@@ -183,6 +186,16 @@ export default function MosquitoFactsPage() {
           <p>Only mildly. Mosquitoes react to light, but they are far more powerfully drawn to the signals that mean &ldquo;host nearby&rdquo;: the <strong>carbon dioxide (CO2)</strong> in your breath, radiant body heat, humidity, and skin chemicals such as <strong>lactic acid</strong> and octenol. This is why UV bug zappers are poor mosquito control — they mostly electrocute harmless moths and beetles — while CO2-baited traps and repellents that mask your scent (DEET, picaridin/icaridin, oil of lemon eucalyptus) actually work. It also explains why some people get bitten more than others: it comes down to the chemistry and CO2 you emit, not the porch light.</p>
 
           <p>A good repellent handles you personally; treating the yard handles the source. If you spend a lot of time outdoors, a picaridin or DEET repellent is the simplest personal defence. <BuyLink search="picaridin mosquito repellent spray">Check mosquito repellents on Amazon.ca →</BuyLink></p>
+
+          <TopPick
+            label="Our Top Pick — Personal Repellent"
+            name="Picaridin (Icaridin) Mosquito Repellent Spray"
+            blurb="Because mosquitoes hunt by CO₂, heat, and skin chemistry rather than light, the reliable personal defence is a repellent that masks those cues. A 20% picaridin spray protects for hours, is odourless and non-greasy, and won't damage plastics or gear the way DEET can — the simplest way to stay bite-free when you're away from a treated yard."
+            search="picaridin mosquito repellent spray"
+            score={8.7}
+            pros={['Long-lasting protection from a single application', 'Odourless and non-greasy on skin', 'Safe on clothing, plastics, and gear']}
+            cons={['Protects only the person wearing it, not the yard', 'Needs reapplication on long days outdoors']}
+          />
 
           <h2>The One Fact That Matters Most</h2>
           <p>Of every fact on this page, one is worth acting on: mosquitoes cannot complete their life cycle without <strong>standing water</strong>, and container-breeding Aedes need barely a bottle cap&rsquo;s worth. Empty and scrub anything that holds water weekly — plant saucers, clogged gutters, tarps, toys, birdbaths — and you break the cycle before adults ever take flight. Pair that with a barrier treatment of the shaded areas where adults rest, and you address both ends of the mosquito&rsquo;s life at once.</p>

@@ -3,6 +3,8 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import AuthorByline from '@/components/AuthorByline'
 import BuyLink from '@/components/BuyLink'
+import TopPick from '@/components/TopPick'
+import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 
@@ -72,6 +74,7 @@ export default function JuneBugsOntarioPage() {
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
           <p className="text-xl text-brand-100 max-w-3xl">Those clumsy brown beetles thumping against your porch light every June — what they are, whether they&rsquo;re dangerous, and how to stop the grubs that create them.</p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
 
@@ -188,6 +191,15 @@ export default function JuneBugsOntarioPage() {
             <li><strong>Keep the lawn thick and deep-rooted.</strong> Mow high (7–8 cm), water deeply but infrequently to encourage deep roots, and overseed thin areas. Dense turf tolerates a modest grub population without showing damage, and a robust root system recovers faster.</li>
             <li><strong>Time your watering.</strong> Since females prefer moist soil for egg-laying, letting an established lawn dry slightly during the peak June egg-laying window can reduce how many eggs survive — without starving the grass.</li>
           </ul>
+          <TopPick
+            label="Best Grub Fix"
+            name="Beneficial Nematodes (Heterorhabditis bacteriophora)"
+            blurb="For the stage that actually matters — the white grubs under your lawn — live beneficial nematodes are the homeowner's most effective legal tool in Ontario. Applied to moist soil on an overcast late-summer evening and watered in, they hunt down and kill grubs before they become next year's beetles."
+            search="beneficial nematodes heterorhabditis bacteriophora lawn grub"
+            score={8.3}
+            pros={['Targets the grubs that create next year’s swarm', 'Cosmetic-pesticide-free and legal in Ontario', 'Safe around kids, pets, and beneficial insects']}
+            cons={['Living organisms — buy fresh and apply promptly', 'Needs moist soil and correct timing to work']}
+          />
           <p>Ontario restricts many traditional lawn insecticides for cosmetic use, so nematodes and good lawn husbandry are both the legal and the effective route for most homeowners. Health Canada&rsquo;s Pest Management Regulatory Agency registers the products that are legal to use — you can check current options through <a href="https://www.canada.ca/en/health-canada/services/consumer-product-safety/pesticides-pest-management.html" target="_blank" rel="noopener" className="underline hover:text-brand-700">Health Canada&rsquo;s pesticides and pest management resources</a> before buying anything.</p>
 
           <h2>How to Keep June Bugs Away From the House</h2>

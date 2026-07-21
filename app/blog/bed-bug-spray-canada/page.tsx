@@ -2,11 +2,16 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
+import AwardRow from '@/components/AwardRow'
+import StickyBuyBar from '@/components/StickyBuyBar'
+import FreshnessStamp from '@/components/FreshnessStamp'
+import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import SpecialistDisclosure from '@/components/SpecialistDisclosure'
 
 const SLUG = 'bed-bug-spray-canada'
 const DATE = '2026-07-16'
+const UPDATED = '2026-07-16'
 const TITLE = 'Best Bed Bug Spray Canada 2026 — What’s Actually PMRA-Legal (and What Isn’t)'
 
 const FAQS = [
@@ -81,8 +86,11 @@ export default function BedBugSprayCanadaPage() {
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
           <p className="text-xl text-brand-100 max-w-3xl">Every spray on this page is PMRA domestic-class registered and sold in Canada. We also cover the US products we refuse to recommend — and what sprays honestly can and can&rsquo;t do against a bed bug infestation.</p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
+
+      <StickyBuyBar name="Doktor Doom Sleep Tight bed bug spray" search="doktor doom sleep tight bed bug spray" label="Best PMRA-legal pick" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -140,9 +148,62 @@ export default function BedBugSprayCanadaPage() {
         </div>
       </section>
 
+      <section className="bg-white px-4 py-6">
+        <div className="max-w-5xl mx-auto">
+          <AwardRow
+            heading="Our Picks — PMRA-Legal Bed Bug Sprays in Canada"
+            awards={[
+              {
+                badge: 'Best Overall',
+                name: 'Doktor Doom Sleep Tight',
+                why: 'The only widely stocked Canadian spray labelled for direct use on mattresses and box springs — a plant-derived pyrethrin that kills on contact, dries fast, and won’t stain most fabrics.',
+                search: 'doktor doom sleep tight bed bug spray',
+                score: 8.6,
+                featured: true,
+                pros: ['Labelled for mattresses & box springs', 'PMRA domestic-class registered', 'Water-based, fast-drying'],
+                cons: ['Contact kill with short residual', 'Won’t reliably kill eggs'],
+              },
+              {
+                badge: 'Best Residual',
+                name: 'Doktor Doom Pro Max',
+                why: 'A permethrin residual for baseboards, bed legs, frames, and furniture perimeters — it keeps killing bugs that cross treated surfaces for weeks, the piece a contact-only spray misses.',
+                search: 'doktor doom pro max',
+                score: 8.0,
+                pros: ['Weeks of surface residual', 'Great for perimeters & frames', 'Pairs with Sleep Tight'],
+                cons: ['Not for mattresses or bedding', 'Pyrethroid resistance can blunt it'],
+              },
+              {
+                badge: 'Best Alternate',
+                name: 'Knock Down Bed Bug Killer',
+                why: 'A legitimate PMRA-registered pyrethrin/pyrethroid aerosol for crack-and-crevice spot treatment — a solid substitute when Doktor Doom is out of stock.',
+                search: 'knock down bed bug killer',
+                score: 7.4,
+                pros: ['PMRA-registered', 'Good for cracks & crevices', 'Widely available'],
+                cons: ['Confirm current mattress label', 'Short residual'],
+              },
+              {
+                badge: 'Best Backup',
+                name: 'Konk Bed Bug Spray',
+                why: 'A pyrethrin-based contact aerosol to keep on hand as a backup can — reach for it when the others are unavailable rather than as an upgrade.',
+                search: 'konk bed bug spray',
+                score: 7.0,
+                pros: ['PMRA-registered', 'Easy contact spot spray', 'Inexpensive backup'],
+                cons: ['Contact-only, no lasting residual', 'Confirm current mattress label'],
+              },
+            ]}
+            whichToBuy={
+              <>
+                <strong>Start with the <em>Best Overall</em> Sleep Tight</strong> for the bed itself, then add the <em>Best Residual</em> Pro Max for baseboards and frames. The <em>Best Alternate</em> and <em>Best Backup</em> cans are stock-out substitutes, not upgrades. Remember: no spray clears an infestation alone — pair any of these with steam, encasements, and interceptor traps.
+              </>
+            }
+          />
+        </div>
+      </section>
+
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
           <AffiliateDisclosure />
+          <AuthorByline datePublished={DATE} dateModified={UPDATED} />
           <p className="not-prose text-sm text-gray-600 mb-1">Compare current Canadian availability on Amazon.ca:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink search="doktor doom sleep tight bed bug spray">Doktor Doom Sleep Tight &rarr;</BuyLink>

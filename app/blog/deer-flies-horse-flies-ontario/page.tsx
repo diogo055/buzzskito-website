@@ -3,6 +3,9 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import FreshnessStamp from '@/components/FreshnessStamp'
+import AuthorByline from '@/components/AuthorByline'
+import TopPick from '@/components/TopPick'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 
 const SLUG = 'deer-flies-horse-flies-ontario'
@@ -71,6 +74,7 @@ export default function DeerFliesHorseFliesOntarioPage() {
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
           <p className="text-xl text-brand-100 max-w-3xl">The two biting flies that circle your head on Ontario trails — how to tell them apart, why the bite hurts so much, and how to keep them out of your yard.</p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
 
@@ -137,12 +141,23 @@ export default function DeerFliesHorseFliesOntarioPage() {
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
           <AffiliateDisclosure />
+          <AuthorByline datePublished={DATE} dateModified={UPDATED} />
 
           <p className="not-prose text-sm text-gray-600 mb-1">The two traps that actually work against biting flies:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink search="deer fly trap patch">Deer fly hat patches on Amazon.ca →</BuyLink>
             <BuyLink search="deer fly sticky trap">Blue sticky ball traps →</BuyLink>
           </div>
+
+          <TopPick
+            label="Best Deer Fly Trap"
+            name="Blue Sticky Ball Deer Fly Trap"
+            blurb="A blue coroplast sphere coated in sticky glue that sways in the breeze mimics a moving host, so deer and horse flies commit to it and stick fast. Hung in a sunny, open flight path near where you sit, it racks up large numbers over a season — the single most effective off-the-shelf tool for the flies that circle your head."
+            search="deer fly sticky trap"
+            score={8.3}
+            pros={['Catches deer and horse flies specifically', 'No refills or power needed', 'Reusable season after season']}
+            cons={['Only works in sunny, open placement', 'Thins contact rather than wiping out the population']}
+          />
 
           <h2>Meet Ontario&rsquo;s Two Biting Flies</h2>
           <p>If a fast, tenacious fly has ever ruined a lakeside hike or a canoe portage, it was almost certainly a deer fly or a horse fly. Both belong to the family <strong>Tabanidae</strong> — the group entomologists literally call &ldquo;horse flies and deer flies.&rdquo; They share the same basic biology: only the females bite, because they need a protein-rich blood meal to develop their eggs. The males are harmless flower visitors, feeding on nectar and pollen and never touching you.</p>

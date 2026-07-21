@@ -3,11 +3,15 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
-import TopPick from '@/components/TopPick'
+import AwardRow from '@/components/AwardRow'
+import StickyBuyBar from '@/components/StickyBuyBar'
+import FreshnessStamp from '@/components/FreshnessStamp'
+import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 
 const SLUG = 'backpack-sprayer-canada'
 const DATE = '2026-07-14'
+const UPDATED = '2026-07-14'
 const TITLE = 'Best Backpack Sprayers in Canada 2026 — Battery vs Manual for Mosquito & Tick Yard Treatment'
 
 const FAQS = [
@@ -74,8 +78,11 @@ export default function BackpackSprayerCanadaPage() {
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
           <p className="text-xl text-brand-100 max-w-3xl">Battery vs manual pump, the four models worth buying on Amazon.ca, what you can legally spray in Ontario, nozzle &amp; PSI settings, and how to keep a sprayer alive through a Canadian winter — from the crew that runs spray equipment across the GTA all season.</p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
+
+      <StickyBuyBar name="PetraTools HD4000 ProSeries battery backpack sprayer" search="petratools hd4000 battery backpack sprayer" label="Best overall sprayer" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -95,12 +102,54 @@ export default function BackpackSprayerCanadaPage() {
         </div>
       </section>
 
-      <section className="bg-white px-4">
-        <div className="max-w-4xl mx-auto">
-          <TopPick
-            name="PetraTools HD4000 ProSeries"
-            blurb="A 4-gallon lithium unit that holds its set pressure from the first litre to the last — the constant 40–60 PSI fine cone that mosquito barrier spraying actually depends on."
-            search="petratools hd4000 battery backpack sprayer"
+      <section className="bg-white px-4 py-6">
+        <div className="max-w-5xl mx-auto">
+          <AwardRow
+            heading="Our Picks — Best Backpack Sprayers in Canada"
+            awards={[
+              {
+                badge: 'Best Overall',
+                name: 'PetraTools HD4000 ProSeries',
+                why: 'A 4-gallon lithium unit that holds its set pressure from the first litre to the last — the constant 40–60 PSI fine cone that mosquito barrier spraying actually depends on.',
+                search: 'petratools hd4000 battery backpack sprayer',
+                score: 9.0,
+                featured: true,
+                pros: ['Holds constant pressure all tank', 'Multi-hour lithium runtime', 'Properly padded straps'],
+                cons: ['Heavier empty than a manual pump', 'Battery needs indoor winter storage'],
+              },
+              {
+                badge: 'Best No-Carry',
+                name: 'PetraTools HD4100 Pro (cart)',
+                why: 'Same 4-gallon battery core, but converts between backpack and wheeled cart so you avoid hauling roughly 20 kg on your back all afternoon.',
+                search: 'petratools hd4100 backpack sprayer',
+                score: 8.5,
+                pros: ['Backpack ↔ cart conversion', 'Easier refills at the tap', 'Long hose reach'],
+                cons: ['Wheels struggle on soft, wet lawns', 'Awkward through tight side gates'],
+              },
+              {
+                badge: 'Best Budget',
+                name: 'VEVOR 4-Gallon 8-Nozzle',
+                why: 'A budget-friendly 12V battery unit that ships with eight nozzle tips — more out-of-the-box pattern flexibility than anything else at its price.',
+                search: 'vevor battery backpack sprayer 4 gallon',
+                score: 7.6,
+                pros: ['Budget-friendly', 'Eight nozzle tips included', 'Fine for a few treatments a season'],
+                cons: ['Seals and fittings below PetraTools', 'Less durable for heavy use'],
+              },
+              {
+                badge: 'Best High-Pressure',
+                name: 'MY4SONS M4',
+                why: 'The pressure king of the consumer class — variable pressure rated to roughly 80 PSI with quick-swap brass fittings for dense hedges and tall shrub lines.',
+                search: 'my4sons m4 backpack sprayer',
+                score: 8.1,
+                pros: ['Highest pressure headroom', 'Quick-swap brass fittings', 'No traditional pump handle'],
+                cons: ['Max pressure invites drift on open foliage', 'Premium for the extra PSI'],
+              },
+            ]}
+            whichToBuy={
+              <>
+                <strong>Spraying your own lot every three weeks?</strong> The <em>Best Overall</em> HD4000 is the buy-once pick. <strong>Bad back or a big flat yard?</strong> The <em>Best No-Carry</em> cart saves your shoulders. <strong>Just testing whether DIY is for you?</strong> Start with the <em>Best Budget</em> VEVOR — but if you&rsquo;d rather skip the sprayer, the charging, and every third weekend, licensed <Link href="/mosquito-control">professional barrier spray</Link> uses commercial-class product homeowners can&rsquo;t buy.
+              </>
+            }
           />
         </div>
       </section>
@@ -131,7 +180,7 @@ export default function BackpackSprayerCanadaPage() {
                     <td className="px-4 py-3 text-gray-800" dangerouslySetInnerHTML={{ __html: specs }} />
                     <td className="px-4 py-3 text-gray-800">{power}</td>
                     <td className="px-4 py-3 text-xs text-gray-600">{best}</td>
-                    <td className="px-4 py-3"><BuyLink search={search} className="!px-3 !py-1.5 !text-xs whitespace-nowrap">Check price</BuyLink></td>
+                    <td className="px-4 py-3"><BuyLink search={search} block>Check price →</BuyLink></td>
                   </tr>
                 ))}
               </tbody>
@@ -145,6 +194,7 @@ export default function BackpackSprayerCanadaPage() {
 
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
+          <AuthorByline datePublished={DATE} dateModified={UPDATED} />
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability on our two most-recommended units:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">

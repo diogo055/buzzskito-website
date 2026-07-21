@@ -4,9 +4,13 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import SpecialistDisclosure from '@/components/SpecialistDisclosure'
+import FreshnessStamp from '@/components/FreshnessStamp'
+import AuthorByline from '@/components/AuthorByline'
+import TopPick from '@/components/TopPick'
 
 const SLUG = 'rat-poison-canada-what-is-legal'
 const DATE = '2026-07-16'
+const UPDATED = '2026-07-16'
 const TITLE = 'Rat Poison in Canada 2026 — What\'s Actually Legal (and What Isn\'t)'
 
 const FAQS = [
@@ -81,6 +85,7 @@ export default function RatPoisonCanadaLegalPage() {
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
           <p className="text-xl text-brand-100 max-w-3xl">Most of the rat poison the internet recommends can&rsquo;t legally be sold to Canadian homeowners. Here&rsquo;s what the PMRA actually allows, what BC has banned, which US products to avoid — and the one registered consumer option worth knowing.</p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
 
@@ -105,6 +110,7 @@ export default function RatPoisonCanadaLegalPage() {
 
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
+          <AuthorByline datePublished={DATE} dateModified={UPDATED} />
           <h2>What Rat Poison Is Actually Legal in Canada?</h2>
           <p>For homeowners, exactly two families of rodenticide are legal: first-generation anticoagulants (warfarin, chlorophacinone, diphacinone) and bromethalin — and only when sold as ready-to-use, tamper-resistant bait stations. Everything else, including every second-generation anticoagulant that dominates American &ldquo;best rat poison&rdquo; lists, is commercial-class: legal for licensed applicators, illegal for you.</p>
           <p>The dividing line is Health Canada&rsquo;s Pest Management Regulatory Agency (PMRA). Every legal pesticide in Canada carries a PMRA Registration Number on the label — it reads &ldquo;Reg. No. XXXXX P.C.P. Act.&rdquo; No number, not legal. Here is how the actives you&rsquo;ll see recommended online actually shake out:</p>
@@ -144,6 +150,16 @@ export default function RatPoisonCanadaLegalPage() {
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink search="tomcat rat killer disposable station">Tomcat Rat Killer disposable station →</BuyLink>
           </div>
+
+          <TopPick
+            label="The Legal Consumer Option"
+            name="Tomcat Rat Killer Disposable Bait Station (bromethalin)"
+            blurb="The main PMRA-registered consumer rat poison in Canada: a sealed, tamper-resistant station pre-loaded with bromethalin, where a lethal single feeding typically kills in 24–48 hours. It's the right pick for light exterior pressure around a shed or garage — but there's no antidote for bromethalin, so keep it away from pets and children, and reach for traps first for most interior problems."
+            search="tomcat rat killer disposable station"
+            score={7.4}
+            pros={['PMRA-registered for Canadian consumers', 'Sealed, tamper-resistant station', 'Faster than anticoagulants (24–48 hrs)']}
+            cons={['No antidote for bromethalin', 'Poisoned rat can die out of reach', 'Traps beat it for most interior jobs']}
+          />
 
           <h2>Why Did Canada Restrict Second-Generation Rat Poisons?</h2>
           <p>Because they are single-feeding lethal and persist in tissue — a combination the PMRA concluded was too dangerous for unsupervised residential use. Its rodenticide re-evaluation set risk-mitigation rules that took full effect in 2013: second-generation anticoagulants (SGARs) became commercial-class only, and every remaining domestic-class rodenticide had to be sold as a ready-to-use, tamper-resistant bait station rather than loose pellets or meal.</p>

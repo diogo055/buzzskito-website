@@ -4,9 +4,14 @@ import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import TopPick from '@/components/TopPick'
+import StickyBuyBar from '@/components/StickyBuyBar'
+import FreshnessStamp from '@/components/FreshnessStamp'
+import AuthorByline from '@/components/AuthorByline'
 
 const SLUG = 'flowtron-bug-zapper-canada'
 const DATE = '2026-07-14'
+const UPDATED = '2026-07-14'
 const TITLE = 'Flowtron Bug Zapper Canada Review 2026: BK-15D vs BK-40D vs BK-80D'
 
 const FAQS = [
@@ -77,8 +82,11 @@ export default function FlowtronBugZapperCanadaPage() {
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
           <p className="text-xl text-brand-100 max-w-3xl">The one bug-zapper line actually worth buying in Canada — honest coverage numbers, the octenol mosquito cartridge, BF-190 bulb replacement, placement, and why zappers kill moths instead of the mosquitoes biting you.</p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
+
+      <StickyBuyBar name="Flowtron BK-40D Electronic Insect Killer" search="flowtron bk-40d bug zapper" label="Best zapper pick" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -95,6 +103,20 @@ export default function FlowtronBugZapperCanadaPage() {
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
           </div>
+        </div>
+      </section>
+
+      <section className="bg-white px-4 py-6">
+        <div className="max-w-4xl mx-auto">
+          <TopPick
+            label="Our Top Pick"
+            name="Flowtron BK-40D Electronic Insect Killer"
+            blurb="The 40-watt BK-40D is the volume pick for most GTA backyards — the most durable, best-value light trap in the category, rated for up to about an acre. Add the octenol cartridge to pull in more mosquitoes and biting flies, and treat it as a nuisance-insect tool alongside real mosquito control, not a replacement for it."
+            search="flowtron bk-40d bug zapper"
+            score={7.6}
+            pros={['Genuinely durable, weathers Ontario seasons', 'Huge, consistent owner track record', 'Clears moths, beetles, and midges night after night', 'Octenol cartridge boosts the mosquito catch']}
+            cons={['Kills mostly non-biting insects on light alone', 'Ongoing bulb + octenol running cost', 'No tick or standalone mosquito control']}
+          />
         </div>
       </section>
 
@@ -198,6 +220,7 @@ export default function FlowtronBugZapperCanadaPage() {
 
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
+          <AuthorByline datePublished={DATE} dateModified={UPDATED} />
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Compare current Canadian pricing and models on Amazon.ca:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">

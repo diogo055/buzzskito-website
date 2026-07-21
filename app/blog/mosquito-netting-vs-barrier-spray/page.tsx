@@ -4,9 +4,13 @@ import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import FreshnessStamp from '@/components/FreshnessStamp'
+import AuthorByline from '@/components/AuthorByline'
+import TopPick from '@/components/TopPick'
 
 const SLUG = 'mosquito-netting-vs-barrier-spray'
 const DATE = '2026-04-26'
+const UPDATED = '2026-04-26'
 const TITLE = 'Mosquito Netting vs Barrier Spray — Which Is Better? (2026)'
 
 const FAQS = [
@@ -69,11 +73,13 @@ export default function MosquitoNettingVsSprayPage() {
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
           <p className="text-xl text-brand-100 max-w-3xl">An honest 2026 cost-and-coverage comparison for Ontario homeowners. When netting wins, when spray wins, and when you need both.</p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
 
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
+          <AuthorByline datePublished={DATE} dateModified={UPDATED} />
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
             <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Netting gives you a 100% bug-free zone — but only inside the enclosed area. Barrier spray cuts the mosquito population 90%+ across the entire yard. Choose netting for one defined patio spot or zero-pesticide protection; choose spray for whole-yard use with kids and pets.</p>
@@ -140,6 +146,16 @@ export default function MosquitoNettingVsSprayPage() {
             <li><strong>Pop-up screen houses and screened gazebos</strong> — freestanding mesh rooms that drop over a patio table. Best value for open decks with nothing overhead.</li>
             <li><strong>Bed, crib, and stroller nets</strong> — for sleeping spaces and infants; the full breakdown by use case is in our <Link href="/blog/mosquito-net-canada">mosquito net buyer&rsquo;s guide for Canada</Link>.</li>
           </ul>
+
+          <TopPick
+            label="Best Netting Pick"
+            name="Freestanding pop-up screen house (screened gazebo)"
+            blurb="If netting is your answer, a freestanding pop-up screen house is the best value for most backyards — it drops over a patio table with nothing to attach to the house, giving you a fully enclosed, bug-free dining zone that packs away at season's end. Ideal for renters and open decks. Look for no-see-um mesh near water and weighted, zippered door panels for windy yards."
+            search="pop up screen house gazebo"
+            score={8.3}
+            pros={['100% bug-free enclosed zone', 'Freestanding — no permanent install', 'Packs up for winter storage']}
+            cons={['Only covers the enclosed footprint', 'Cheap mesh degrades in UV if left out']}
+          />
 
           <h3>Mesh size matters more than brand</h3>
           <p>Standard insect mesh (about 18&times;16 strands per inch) reliably stops mosquitoes and house flies. It does <strong>not</strong> stop no-see-ums or blackflies — near a lake, marsh, or in cottage country you want no-see-um mesh (roughly 20&times;20 or finer). The trade-off is slightly reduced airflow, which you will notice on a still July evening. For a typical GTA suburban patio away from water, standard mosquito mesh is enough.</p>

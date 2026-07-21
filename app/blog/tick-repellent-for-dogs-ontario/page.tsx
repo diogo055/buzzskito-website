@@ -3,6 +3,9 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import AuthorByline from '@/components/AuthorByline'
 import BuyLink from '@/components/BuyLink'
+import AwardRow from '@/components/AwardRow'
+import StickyBuyBar from '@/components/StickyBuyBar'
+import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 
@@ -72,8 +75,11 @@ export default function TickRepellentForDogsPage() {
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
           <p className="text-xl text-brand-100 max-w-3xl">Which products actually stop ticks, which are myths, and the layer most dog owners forget.</p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
+
+      <StickyBuyBar name="K9 Advantix II (topical tick repellent for dogs)" search="K9 Advantix II for dogs" label="Best OTC tick repellent" />
 
       {/* Quick Answer — AI-extraction capsule */}
       <section className="bg-white pt-8 px-4">
@@ -138,7 +144,7 @@ export default function TickRepellentForDogsPage() {
                     mode: 'Repels + kills on contact',
                     speed: 'Contact',
                     lasts: '1 month',
-                    where: <BuyLink search="K9 Advantix II for dogs">Check price on Amazon.ca →</BuyLink>,
+                    where: <BuyLink search="K9 Advantix II for dogs" block>Check price →</BuyLink>,
                   },
                   {
                     type: 'Topical, kill-only',
@@ -146,7 +152,7 @@ export default function TickRepellentForDogsPage() {
                     mode: 'Kills after contact',
                     speed: '24–48 hrs',
                     lasts: '1 month',
-                    where: <BuyLink search="Frontline Plus for dogs">Check price on Amazon.ca →</BuyLink>,
+                    where: <BuyLink search="Frontline Plus for dogs" block>Check price →</BuyLink>,
                   },
                   {
                     type: 'Tick collar',
@@ -154,7 +160,7 @@ export default function TickRepellentForDogsPage() {
                     mode: 'Repels + kills',
                     speed: 'Contact',
                     lasts: 'Up to 8 months',
-                    where: <BuyLink search="Seresto tick collar for dogs">Check price on Amazon.ca →</BuyLink>,
+                    where: <BuyLink search="Seresto tick collar for dogs" block>Check price →</BuyLink>,
                   },
                   {
                     type: 'Removal tool',
@@ -221,6 +227,58 @@ export default function TickRepellentForDogsPage() {
             </table>
           </div>
           <p className="text-xs text-gray-500 mt-3">Topical tick products are regulated pesticides in Canada &mdash; see <a href="https://www.canada.ca/en/health-canada/services/consumer-product-safety/pesticides-pest-management.html" target="_blank" rel="noopener">Health Canada&rsquo;s pest management guidance</a> and always follow the label for your dog&rsquo;s species and weight.</p>
+        </div>
+      </section>
+
+      <section className="bg-white px-4 py-6">
+        <div className="max-w-5xl mx-auto">
+          <AwardRow
+            heading="Our Picks — Over-the-Counter Tick Products for Dogs"
+            awards={[
+              {
+                badge: 'Best Repellent',
+                name: 'K9 Advantix II (topical)',
+                why: 'The main over-the-counter option that actually repels ticks before they bite, rather than only killing after attachment. A monthly spot-on dosed to your dog’s weight.',
+                search: 'K9 Advantix II for dogs',
+                score: 8.6,
+                featured: true,
+                pros: ['Repels + kills on contact', 'Monthly, easy to apply', 'Also targets fleas & mosquitoes'],
+                cons: ['Toxic to cats — never use near a cat', 'Confirm dose with your vet'],
+              },
+              {
+                badge: 'Longest Protection',
+                name: 'Seresto Tick Collar',
+                why: 'A single collar can repel and kill ticks for up to 8 months, so there is nothing monthly to remember. Good for owners who want set-and-forget coverage.',
+                search: 'Seresto tick collar for dogs',
+                score: 8.3,
+                pros: ['Up to 8 months per collar', 'Repels + kills', 'No monthly dosing'],
+                cons: ['Higher up-front cost', 'Watch for counterfeits'],
+              },
+              {
+                badge: 'Kill-Only Topical',
+                name: 'Frontline Plus (topical)',
+                why: 'A widely stocked monthly spot-on that kills attached ticks and fleas. It does not repel before biting, so pair it with daily tick checks.',
+                search: 'Frontline Plus for dogs',
+                score: 7.6,
+                pros: ['Widely available', 'Kills ticks & fleas', 'Familiar, long track record'],
+                cons: ['Kills after attachment, does not repel', 'Slower than isoxazoline orals'],
+              },
+              {
+                badge: 'Must-Have Backup',
+                name: 'Tick Removal Tool',
+                why: 'No product is instant — when you find an attached tick, prompt mechanical removal is what lowers disease risk. A fine-tip tweezer or tick hook belongs in every dog household.',
+                search: 'tick removal tool tweezers for dogs',
+                score: 8.0,
+                pros: ['Removes an attached tick cleanly', 'Reusable, inexpensive', 'Fastest way to cut Lyme risk'],
+                cons: ['Not a preventative on its own', 'Technique matters — grip at skin level'],
+              },
+            ]}
+            whichToBuy={
+              <>
+                <strong>Want to stop ticks before they bite?</strong> The <em>Best Repellent</em> K9 Advantix II is the standout over-the-counter pick. <strong>Prefer set-and-forget?</strong> A <em>Seresto</em> collar covers up to 8 months. Keep a <em>tick removal tool</em> on hand regardless. But the layer most owners skip is the yard itself &mdash; <Link href="/tick-control" className="font-semibold text-brand-700 hover:text-brand-500">a professional tick barrier spray</Link> removes ticks from the lawn edges where your dog actually finds them. Always confirm any product and dose with your veterinarian.
+              </>
+            }
+          />
         </div>
       </section>
 

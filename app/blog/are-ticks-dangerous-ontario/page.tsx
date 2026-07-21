@@ -3,6 +3,9 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import AuthorByline from '@/components/AuthorByline'
+import FreshnessStamp from '@/components/FreshnessStamp'
+import TopPick from '@/components/TopPick'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { TICK_BLOGS } from '@/lib/constants'
 
@@ -12,6 +15,8 @@ const POST = {
   date: '2026-04-10',
   excerpt: 'Are ticks dangerous in Ontario? Yes — and the risk is growing. This guide covers which ticks carry disease, how common tick-borne illness is in the GTA, and what homeowners can do to protect their families.',
 }
+
+const UPDATED = POST.date
 
 export const metadata: Metadata = buildMetadata({
   title: 'Are Ticks Dangerous in Ontario 2026? (Worst Areas + Lyme Risk Map)',
@@ -88,10 +93,12 @@ export default function AreTicksDangerousPage() {
           <span className="bg-brand-800 text-brand-200 text-xs px-3 py-1 rounded-full mb-4 inline-block">Tick Control</span>
           <h1 className="text-3xl sm:text-4xl font-extrabold mb-4 leading-tight">{POST.title}</h1>
           <p className="text-brand-300 text-sm">Published {new Date(POST.date).toLocaleDateString('en-CA', { year: 'numeric', month: 'long', day: 'numeric' })} · By BuzzSkito</p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
+        <AuthorByline datePublished={POST.date} dateModified={UPDATED} />
         <div className="not-prose bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
           <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
           <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Yes &mdash; ticks are dangerous in Ontario. The blacklegged tick (<em>Ixodes scapularis</em>), now established across the GTA, can transmit Lyme disease, Anaplasmosis, Babesiosis, and Powassan virus. Remove any attached tick within 24 hours using fine-tipped tweezers or a tick-removal tool, save it for identification, and monitor for symptoms.</p>
@@ -211,6 +218,15 @@ export default function AreTicksDangerousPage() {
         <p>See: <Link href="/blog/how-to-remove-tick-safely" className="text-brand-700 hover:underline">How to Remove a Tick Safely</Link> | <Link href="/blog/tick-bite-symptoms-what-to-do-ontario" className="text-brand-700 hover:underline">Tick Bite Symptoms &amp; What to Do</Link> | <Link href="/blog/tick-removal-tool-guide" className="text-brand-700 hover:underline">Best Tick-Removal Tools Compared</Link></p>
         <AffiliateDisclosure />
         <p className="not-prose text-gray-700">A dedicated tick-removal tool grips the head close to the skin more reliably than household tweezers, reducing the chance of leaving mouthparts behind. See how the options compare in our <Link href="/blog/tick-removal-tool-guide" className="text-brand-700 underline">tick-removal tool guide</Link>, or <BuyLink search="tick removal tool tweezers">check tick-removal tools on Amazon.ca →</BuyLink></p>
+        <TopPick
+          label="Our Top Pick — Tick Removal"
+          name="Tick-Removal Tool Kit (fine-tip tweezers + tick key)"
+          blurb="If you only keep one thing on hand for tick season, make it a dedicated remover. A fine-tipped tool grips right at the skin and lifts the tick straight out — head and all — so you are far less likely to leave mouthparts behind or squeeze the tick's gut contents into the bite. Cheap enough to keep one in the car, one in the hiking bag, and one by the back door."
+          search="tick removal tool tweezers"
+          score={8.7}
+          pros={['Grips the head close to the skin, whole-tick removal', 'Pocket-sized — keep several around the house and car', 'Far safer than fingernails or blunt tweezers']}
+          cons={['Small enough to misplace', 'Still requires a careful, steady straight pull']}
+        />
 
         <h2>Protecting Pets</h2>
         <p>Dogs are highly susceptible to tick bites and can contract Lyme disease, Anaplasmosis, and Ehrlichiosis. Every GTA dog that spends time outdoors should be on year-round tick prevention medication prescribed by a veterinarian. Professional yard treatment provides an additional layer of protection by reducing the tick population your pets encounter in their own yard.</p>

@@ -3,6 +3,8 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import AuthorByline from '@/components/AuthorByline'
 import BuyLink from '@/components/BuyLink'
+import FreshnessStamp from '@/components/FreshnessStamp'
+import TopPick from '@/components/TopPick'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 
@@ -72,6 +74,7 @@ export default function WhatAttractsMosquitoesToYouPage() {
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
           <p className="text-xl text-brand-100 max-w-3xl">Why some people get devoured while the person beside them barely gets touched — and the factors you can actually change.</p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
 
@@ -181,6 +184,16 @@ export default function WhatAttractsMosquitoesToYouPage() {
             <li><strong>Treat the whole yard.</strong> Repellent hides you; a barrier spray removes the mosquitoes resting on shaded leaves before they ever reach you.</li>
           </ol>
           <p>Curious how the insect itself works? Our <Link href="/blog/mosquito-facts">mosquito facts guide</Link> covers lifespan, breeding, flight range, and disease risk in plain language.</p>
+
+          <TopPick
+            label="Our Top Pick for Personal Protection"
+            name="Picaridin 20% Insect Repellent"
+            blurb="If you are the person who always gets bitten, a picaridin repellent is the single most reliable thing you can put on your skin. It matches DEET for protection against mosquitoes but is odourless, non-greasy, and won't damage plastics, sunglasses, or gear — which makes it the one people actually keep reapplying."
+            search="picaridin insect repellent"
+            score={8.8}
+            pros={['Matches DEET-level protection', 'Odourless and non-greasy', "Won't damage plastics or fabrics"]}
+            cons={['Needs reapplying every few hours', 'Only protects the skin you cover']}
+          />
 
           <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
             <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">You can&rsquo;t change your genes — but you can change your yard</h3>

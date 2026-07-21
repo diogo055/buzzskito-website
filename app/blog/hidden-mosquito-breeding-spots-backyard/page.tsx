@@ -3,11 +3,14 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import AuthorByline from '@/components/AuthorByline'
 import BuyLink from '@/components/BuyLink'
+import TopPick from '@/components/TopPick'
+import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema, howToSchema } from '@/lib/seo'
 import { NEW_BLOGS_2, MOSQUITO_BLOGS } from '@/lib/constants'
 
 const POST = NEW_BLOGS_2[1]
+const UPDATED = POST.date
 
 export const metadata: Metadata = buildMetadata({
   title: 'Hidden Mosquito Breeding Spots in Your GTA Backyard (12 You Probably Missed, 2026)',
@@ -56,6 +59,7 @@ export default function HiddenBreedingSpotsPage() {
           <span className="bg-brand-800 text-brand-200 text-xs px-3 py-1 rounded-full mb-4 inline-block">Mosquito Control</span>
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold mb-4 leading-tight">Hidden Mosquito Breeding Spots in Your GTA Backyard (12 You Probably Missed)</h1>
           <p className="text-brand-300 text-sm">Find and eliminate every standing-water source on your property — even the ones you didn&apos;t know were producing mosquitoes.</p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
 
@@ -110,7 +114,7 @@ export default function HiddenBreedingSpotsPage() {
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
-        <AuthorByline datePublished={POST.date} />
+        <AuthorByline datePublished={POST.date} dateModified={UPDATED} />
 
         <AffiliateDisclosure />
 
@@ -143,6 +147,16 @@ export default function HiddenBreedingSpotsPage() {
 
         <h3>7. Ornamental Ponds and Water Features</h3>
         <p>Garden ponds without fish or a recirculating pump are ideal breeding habitat. Add goldfish or mosquito fish (<em>Gambusia affinis</em>) to consume larvae, or treat with BTi mosquito dunks — a bacteria-based larvicide that is safe for wildlife and pets. Slow-release dunks like Summit&apos;s (<BuyLink search="summit mosquito dunks">check price on Amazon.ca &rarr;</BuyLink>) treat roughly 100 sq ft of water surface for 30 days, while the granular form — mosquito bits (<BuyLink search="summit mosquito bits">check price on Amazon.ca &rarr;</BuyLink>) — kills larvae within hours and is handy for bird baths, plant saucers, and rain barrels. For dosing, safety, and where to buy across Canada, see our <Link href="/blog/mosquito-dunks-canada-guide" className="text-brand-700 underline">mosquito dunks Canada guide</Link>.</p>
+
+        <TopPick
+          label="Best for water you can't drain"
+          name="Summit BTI Mosquito Dunks"
+          blurb="For the ponds, rain barrels, and low spots you can't empty, a BTI (Bacillus thuringiensis israelensis) dunk is the go-to larvicide. It kills mosquito larvae before they ever become biting adults, releases slowly over about a month, and is safe around fish, pets, birds, and people. Drop one in any standing water you can't eliminate — the single highest-leverage product on this whole list."
+          search="summit mosquito dunks"
+          score={8.8}
+          pros={['Kills larvae before they can bite', 'Safe for fish, pets, birds, and people', 'One dunk keeps working for weeks']}
+          cons={['Larvicide only — no effect on adult mosquitoes', 'Needs replacing through the season']}
+        />
 
         <h3>8. Low Spots in Lawn and Garden Beds</h3>
         <p>After heavy GTA rainfall, lawn depressions can hold water for 5–7 days — long enough for a complete mosquito breeding cycle. Identify these spots and address the grading with topsoil to improve drainage, or install a French drain for persistent problem areas.</p>

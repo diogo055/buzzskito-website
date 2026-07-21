@@ -3,10 +3,14 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import FreshnessStamp from '@/components/FreshnessStamp'
+import AuthorByline from '@/components/AuthorByline'
+import TopPick from '@/components/TopPick'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 
 const SLUG = 'american-dog-tick-canada'
 const DATE = '2026-04-28'
+const UPDATED = '2026-04-28'
 const TITLE = 'American Dog Tick — Canada Identification & Risk Guide (2026)'
 
 const FAQS = [
@@ -69,6 +73,7 @@ export default function AmericanDogTickPage() {
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
           <p className="text-xl text-brand-100 max-w-3xl">Identification, disease risk, removal, and prevention for Canada&rsquo;s most common patterned tick species.</p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
 
@@ -124,6 +129,7 @@ export default function AmericanDogTickPage() {
 
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
+          <AuthorByline datePublished={DATE} dateModified={UPDATED} />
 
           <h2>How to Identify an American Dog Tick</h2>
           <p>The American dog tick is the most visually distinctive tick species you&rsquo;ll find in Canada. Three identifying features:</p>
@@ -162,6 +168,15 @@ export default function AmericanDogTickPage() {
 
           <h2>What to Do When You Find One</h2>
           <AffiliateDisclosure />
+          <TopPick
+            label="Our Top Pick — Tick Removal"
+            name="Fine-Tipped Tick-Removal Tweezers / Tick Twister Tool"
+            blurb="Because the American dog tick has longer mouthparts than the blacklegged tick, a purpose-built remover that slides under the head and lifts straight out gives the cleanest pull — no squeezing the body, which is what raises infection risk. Keep one in the first-aid kit and one in the car for after trail walks."
+            search="tick removal tool tweezers"
+            score={8.6}
+            pros={['Slides under the head for a clean, body-free pull', 'Inexpensive and lasts for years', 'Compact — keep one indoors and one in the car']}
+            cons={['Fiddly on very small nymphs', 'Still need steady, even pressure — no twisting']}
+          />
           <h3>On a human</h3>
           <ol>
             <li>Use fine-tipped tweezers (or a Tick Twister tool). Because the American dog tick (<em>Dermacentor variabilis</em>) has longer mouthparts than the blacklegged tick, a purpose-built removal tool that slides under the head gives you the cleanest pull. <BuyLink search="tick removal tool tweezers">Check tick-removal tools on Amazon.ca &rarr;</BuyLink></li>

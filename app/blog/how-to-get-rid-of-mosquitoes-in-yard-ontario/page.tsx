@@ -3,12 +3,15 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import AuthorByline from '@/components/AuthorByline'
 import BuyLink from '@/components/BuyLink'
+import FreshnessStamp from '@/components/FreshnessStamp'
+import TopPick from '@/components/TopPick'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { MOSQUITO_BLOGS, TICK_BLOGS } from '@/lib/constants'
 
 const SLUG = 'how-to-get-rid-of-mosquitoes-in-yard-ontario'
 const DATE = '2026-04-29'
+const UPDATED = '2026-04-29'
 const TITLE = 'How to Get Rid of Mosquitoes in Your Yard & Keep Them Away'
 
 const FAQS = [
@@ -47,6 +50,7 @@ export default function HowToGetRidOfMosquitoesInYardOntarioPage() {
           </nav>
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold mb-4 leading-tight">How to Get Rid of Mosquitoes in Your Yard &amp; Keep Them Away — Ontario 2026 Guide</h1>
           <p className="text-brand-300 text-sm">Practical, evidence-backed Ontario homeowner guide.</p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
 
@@ -70,7 +74,7 @@ export default function HowToGetRidOfMosquitoesInYardOntarioPage() {
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
-        <AuthorByline datePublished={DATE} />
+        <AuthorByline datePublished={DATE} dateModified={UPDATED} />
 
         <AffiliateDisclosure />
 
@@ -94,6 +98,16 @@ export default function HowToGetRidOfMosquitoesInYardOntarioPage() {
         <h3>3. Treat Rain Barrels with BTI Mosquito Dunks</h3>
         <p>Rain barrels are productive mosquito breeding sites unless treated. BTI (Bacillus thuringiensis israelensis) mosquito dunks are the gold-standard solution &mdash; the widely sold Summit Mosquito Dunks are the reference product. They kill mosquito larvae within 24 hours and are completely safe for fish, pets, beneficial insects, and humans (<a href="https://www.canada.ca/en/health-canada/services/consumer-product-safety/pesticides-pest-management.html" rel="noopener" className="text-brand-700 hover:underline">Health Canada</a> registers BTI as a low-risk larvicide). One dunk treats up to 100 sq ft of water surface for 30 days.</p>
         <p><BuyLink search="summit mosquito dunks">Check Summit Mosquito Dunks prices on Amazon.ca &rarr;</BuyLink> For dosing, brand comparisons, and safety notes, see our <Link href="/blog/mosquito-dunks-canada-guide" className="text-brand-700 hover:underline">complete guide to mosquito dunks in Canada</Link>.</p>
+
+        <TopPick
+          label="Our Top Pick for Water You Can't Drain"
+          name="Summit BTI Mosquito Dunks"
+          blurb="For rain barrels, pond features, and pooling drains you can't empty, floating BTI dunks are the gold-standard larvicide — they kill mosquito larvae within a day and keep working for weeks, while staying safe around fish, pets, and pollinators. The single most useful buyable product in this whole guide."
+          search="summit mosquito dunks"
+          score={9.0}
+          pros={['Kills larvae within 24 hours', 'One dunk protects a water source for about a month', 'Health Canada low-risk — safe around fish, pets, and pollinators']}
+          cons={['Treats larvae only — does nothing for adult mosquitoes', 'Needs replacing each month through the season']}
+        />
 
         <h3>4. Treat Your Pool Cover Weekly</h3>
         <p>Active chlorinated pools cannot support mosquito breeding — chlorine kills larvae. But pool COVERS that collect rainwater are major breeding sites. Drain the cover weekly during peak season, or treat with BTI dunks until you can drain it.</p>

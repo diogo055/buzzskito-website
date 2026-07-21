@@ -3,6 +3,9 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import FreshnessStamp from '@/components/FreshnessStamp'
+import AuthorByline from '@/components/AuthorByline'
+import TopPick from '@/components/TopPick'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 
 const SLUG = 'no-see-ums-biting-midges-ontario'
@@ -71,6 +74,7 @@ export default function NoSeeUmsBitingMidgesOntarioPage() {
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
           <p className="text-xl text-brand-100 max-w-3xl">The tiny biters you feel but can&rsquo;t see — why they slip through screens, how their bites differ from mosquitoes, and how to stop them in your Ontario yard.</p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
 
@@ -133,6 +137,7 @@ export default function NoSeeUmsBitingMidgesOntarioPage() {
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
           <AffiliateDisclosure />
+          <AuthorByline datePublished={DATE} dateModified={UPDATED} />
 
           <h2>What No-See-Ums Actually Are</h2>
           <p>Despite the name, no-see-ums are not mysterious. They are <strong>biting midges</strong> — tiny two-winged flies in the family <em>Ceratopogonidae</em>, most often the genus <em>Culicoides</em>. In Ontario you might also hear them called punkies, sand flies, or moose flies. At just 1 to 3 mm long, an adult is roughly a quarter the size of a mosquito, which is exactly why you feel the bite before you ever spot the culprit.</p>
@@ -173,6 +178,16 @@ export default function NoSeeUmsBitingMidgesOntarioPage() {
             <BuyLink search="picaridin insect repellent canada">Check picaridin repellent on Amazon.ca →</BuyLink>
             <BuyLink search="thermacell mosquito repeller">Check a Thermacell repeller →</BuyLink>
           </div>
+
+          <TopPick
+            label="Best Repellent for No-See-Ums"
+            name="Picaridin (Icaridin) Insect Repellent"
+            blurb="For biting midges, a Health Canada registered picaridin (icaridin) repellent is the most practical single pick — it protects the ankles, wrists, and hairline where no-see-ums feed, without DEET's oily feel or plastic-damaging tendencies. Apply to all exposed skin at dawn and dusk near water."
+            search="picaridin insect repellent canada"
+            score={8.6}
+            pros={['Effective against midges and mosquitoes', 'Non-greasy, low odour, won’t harm gear', 'Safe on exposed skin when label is followed']}
+            cons={['Reapply as the label directs', 'A fan or fine mesh still helps in heavy swarms']}
+          />
           <p>A <strong>Thermacell</strong>-style area repeller can also help create a small protected zone on a still patio, working alongside a fan rather than replacing it.</p>
 
           <h2>Treating Bites You Already Have</h2>

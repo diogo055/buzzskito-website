@@ -3,6 +3,8 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import AuthorByline from '@/components/AuthorByline'
 import BuyLink from '@/components/BuyLink'
+import TopPick from '@/components/TopPick'
+import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 
@@ -72,6 +74,7 @@ export default function BabyTicksNymphsSeedTicksOntarioPage() {
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
           <p className="text-xl text-brand-100 max-w-3xl">Larvae, nymphs, and adults side by side — how to spot the poppy-seed-sized tick that causes most Lyme disease, and how to remove it safely.</p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
 
@@ -180,6 +183,16 @@ export default function BabyTicksNymphsSeedTicksOntarioPage() {
             <li><strong>Save the tick</strong> in a sealed bag or container if you want it identified or tested, and note the date. Watch the site for an expanding rash and see a doctor if a rash or flu-like symptoms appear.</li>
           </ol>
           <p>Because nymphs are so easy to lose grip on, a proper fine-tipped tool is genuinely worth having in the first-aid kit before tick season. <BuyLink search="tick removal tool tweezers">Check tick-removal tools on Amazon.ca →</BuyLink> For a breakdown of which style works best, see our <Link href="/blog/tick-removal-tool-guide">tick removal tool guide</Link>.</p>
+
+          <TopPick
+            label="Our Top Pick"
+            name="Fine-Tipped Tick Removal Tool"
+            blurb="For poppy-seed-sized nymphs, a dedicated fine-point or slotted tick remover grips the mouthparts where blunt household tweezers slip. Compact enough to keep in the first-aid kit or pack before tick season."
+            search="tick removal tool tweezers"
+            score={8.6}
+            pros={['Grabs tiny nymph mouthparts cleanly', 'Reduces squeezing the tick body', 'Pocketable for trail and cottage kits']}
+            cons={['Easy to misplace — keep a spare', 'Still needs steady, straight-up pulling technique']}
+          />
 
           <h2>Preventing Baby Ticks in Your Yard</h2>
           <p>Nymphs and larvae wait in the same low, humid, shaded places adult ticks do — so the yard defence is identical, and it works:</p>

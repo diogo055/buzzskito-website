@@ -3,11 +3,15 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
-import TopPick from '@/components/TopPick'
+import AwardRow from '@/components/AwardRow'
+import StickyBuyBar from '@/components/StickyBuyBar'
+import FreshnessStamp from '@/components/FreshnessStamp'
+import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 
 const SLUG = 'electric-fly-swatter-canada'
 const DATE = '2026-07-14'
+const UPDATED = '2026-07-14'
 const TITLE = 'Best Electric Fly Swatter Canada 2026 — The Executioner vs Zap It vs Black Flag'
 
 const FAQS = [
@@ -51,15 +55,16 @@ export const metadata: Metadata = buildMetadata({
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
+  modifiedTime: UPDATED,
 })
 
 export default function ElectricFlySwatterCanadaPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Honest 2026 Canadian buyer\'s guide to electric fly swatters and bug zapper rackets — Executioner vs Zap It vs Black Flag, voltage, mesh safety, and what they really kill.', slug: SLUG, datePublished: DATE })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Honest 2026 Canadian buyer\'s guide to electric fly swatters and bug zapper rackets — Executioner vs Zap It vs Black Flag, voltage, mesh safety, and what they really kill.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Electric Fly Swatter Canada', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`)) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`, UPDATED)) }} />
 
       <section className="bg-gradient-to-br from-brand-950 via-brand-900 to-emerald-900 text-white py-14 px-4">
         <div className="max-w-4xl mx-auto">
@@ -70,8 +75,11 @@ export default function ElectricFlySwatterCanadaPage() {
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
           <p className="text-xl text-brand-100 max-w-3xl">The bug zapper racket is the one zapper we actually recommend without an asterisk. Here is which one to buy on Amazon.ca — grid voltage, single vs triple-layer mesh, battery vs USB — and an honest read on mosquitoes, houseflies, and wasps.</p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
+
+      <StickyBuyBar name="The Executioner Electric Fly Swatter" search="executioner fly swatter racket" label="Best overall racket" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -91,12 +99,54 @@ export default function ElectricFlySwatterCanadaPage() {
         </div>
       </section>
 
-      <section className="bg-white px-4">
-        <div className="max-w-4xl mx-auto">
-          <TopPick
-            name="The Executioner Electric Fly Swatter"
-            blurb="A single-layer zinc-steel grid at roughly 3,000 volts with nothing between the insect and the charge — flies, mosquitoes, and wasps drop on the first swing, and the electronics are rated for over 100,000 zaps."
-            search="executioner fly swatter racket"
+      <section className="bg-white px-4 py-6">
+        <div className="max-w-5xl mx-auto">
+          <AwardRow
+            heading="Our Picks — Best Electric Fly Swatters in Canada"
+            awards={[
+              {
+                badge: 'Best Overall',
+                name: 'The Executioner Electric Fly Swatter',
+                why: 'A single-layer zinc-steel grid at roughly 3,000 volts with nothing between the insect and the charge — flies, mosquitoes, and wasps drop on the first swing.',
+                search: 'executioner fly swatter racket',
+                score: 9.1,
+                featured: true,
+                pros: ['First-swing kills on flies & wasps', 'Rated for over 100,000 zaps', 'Oversized 50 cm+ head'],
+                cons: ['Exposed live grid — adults-only', 'No safety mesh'],
+              },
+              {
+                badge: 'Best for Families',
+                name: 'Zap It 4,000V USB-Rechargeable Racket',
+                why: 'A three-layer safety mesh keeps a flat palm off the charged inner grid, with 4,000 volts to punch through the outer screen and a built-in LED for 2 a.m. mosquito hunts.',
+                search: 'zap it electric fly swatter 4000 volt usb rechargeable',
+                score: 8.6,
+                pros: ['Kid-safer 3-layer mesh', 'USB-rechargeable — no batteries', 'Built-in LED light'],
+                cons: ['Occasional bounce-off needs a second swat', 'Lithium cell self-discharges over winter'],
+              },
+              {
+                badge: 'Best Budget',
+                name: 'Black Flag Handheld Bug Zapper',
+                why: 'A 2,750-volt AA-powered racket that kills houseflies, mosquitoes, and fruit flies reliably and comes in budget-friendly multi-packs — one for every door.',
+                search: 'black flag handheld bug zapper racket',
+                score: 7.4,
+                pros: ['Budget-friendly multi-packs', 'Simple AA power', 'Handle hook for hanging'],
+                cons: ['Big wasps may need a second tap', 'Less powerful than the top picks'],
+              },
+              {
+                badge: 'Best for Reach',
+                name: 'Executioner Pro (C-cell)',
+                why: 'Stretches past 55 cm and steps up to two C cells for a hotter, longer-lasting zap — the pick for clearing cluster flies off cottage cathedral ceilings.',
+                search: 'executioner pro fly swatter',
+                score: 8.2,
+                pros: ['Extra reach for high ceilings', 'Hotter C-cell zap', 'Great for cottages'],
+                cons: ['Premium of the Executioner line', 'Still an exposed live grid'],
+              },
+            ]}
+            whichToBuy={
+              <>
+                <strong>Adults-only household chasing wasps and flies?</strong> The <em>Best Overall</em> Executioner&rsquo;s open grid gives the cleanest first-swing kill. <strong>Kids in the house?</strong> The <em>Best for Families</em> Zap It hides the charge behind a safety mesh. <strong>Want one by every door for less?</strong> Grab the <em>Best Budget</em> Black Flag multi-pack — but a racket only handles the ones that got inside; for whole-yard, same-day relief that also kills ticks, nothing beats <Link href="/mosquito-control">professional barrier spray</Link>.
+              </>
+            }
           />
         </div>
       </section>
@@ -134,6 +184,7 @@ export default function ElectricFlySwatterCanadaPage() {
 
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
+          <AuthorByline datePublished={DATE} dateModified={UPDATED} />
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Compare current models and Canadian availability:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">

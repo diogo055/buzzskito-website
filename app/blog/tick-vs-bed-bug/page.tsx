@@ -3,6 +3,8 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import AuthorByline from '@/components/AuthorByline'
 import BuyLink from '@/components/BuyLink'
+import TopPick from '@/components/TopPick'
+import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 
@@ -68,6 +70,7 @@ export default function TickVsBedBugPage() {
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
           <p className="text-xl text-brand-100 max-w-3xl">Two small brown bugs, two completely different problems. Here is the 10-second check.</p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
 
@@ -144,6 +147,16 @@ export default function TickVsBedBugPage() {
             <li><strong>Where were you?</strong> Outdoors in grass or woods → tick. Waking up in bed with new itchy welts → bed bug.</li>
             <li><strong>Still unsure?</strong> Photograph it from above and submit to <a href="https://etick.ca" target="_blank" rel="noreferrer">eTick.ca</a> for free tick identification within 1&ndash;3 days.</li>
           </ol>
+
+          <TopPick
+            label="Our Top Pick — Tick Remover"
+            name="Fine-Tipped Tick Removal Tool"
+            blurb="If it turns out to be a tick, a purpose-made fine-tipped remover grips right at the skin and lifts straight out without squeezing the body — far safer than fingernails or blunt tweezers, which can crush the tick and push fluids into the bite."
+            search="tick removal tool tweezers"
+            score={8.7}
+            pros={['Grips at the skin, not the body', 'Reduces risk of leaving mouthparts behind', 'Cheap, reusable, fits a first-aid kit']}
+            cons={['Only useful once a tick is attached', 'Does nothing to stop the next tick from the yard']}
+          />
 
           <h2>Why They Get Confused</h2>
           <p>The confusion is understandable. Both are small, brown, wingless, and both <strong>engorge after a blood meal</strong> — which changes their shape enough that a fed tick and a fed bed bug can look genuinely similar to the naked eye. An unfed blacklegged tick is roughly 3 mm and flat; engorged, it swells to pea-sized and turns a grey-blue. An unfed bed bug is a flat 5 mm lentil; after feeding it rounds out and darkens to deep red.</p>

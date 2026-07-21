@@ -3,6 +3,9 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import FreshnessStamp from '@/components/FreshnessStamp'
+import AuthorByline from '@/components/AuthorByline'
+import TopPick from '@/components/TopPick'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 
 const SLUG = 'smells-mosquitoes-hate'
@@ -71,6 +74,7 @@ export default function SmellsMosquitoesHatePage() {
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
           <p className="text-xl text-brand-100 max-w-3xl">The scents that genuinely bother mosquitoes, how well each one works, how long it lasts — and the honest reason smells alone will not keep an Ontario backyard bite-free.</p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
 
@@ -132,6 +136,7 @@ export default function SmellsMosquitoesHatePage() {
 
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
+          <AuthorByline datePublished={DATE} dateModified={UPDATED} />
           <AffiliateDisclosure />
 
           <p className="not-prose text-sm text-gray-600 mb-1">Want to try the scent route? A concentrated citronella oil and a Thermacell zone device are the two most effective picks:</p>
@@ -139,6 +144,16 @@ export default function SmellsMosquitoesHatePage() {
             <BuyLink search="citronella essential oil">Check citronella oil on Amazon.ca →</BuyLink>
             <BuyLink search="thermacell mosquito repeller">Check Thermacell price on Amazon.ca →</BuyLink>
           </div>
+
+          <TopPick
+            label="Strongest Scent-Based Pick"
+            name="Oil of Lemon Eucalyptus (OLE / PMD) Repellent"
+            blurb="The only scent-based option Health Canada registers as a genuine skin repellent. At a 30% concentration it holds roughly 2–5 hours per application — comparable to a lower-strength DEET — far beyond the minutes you get from candles and diffused oils."
+            search="oil of lemon eucalyptus repellent"
+            score={8.3}
+            pros={['Health Canada-registered protection', 'Hours per application, not minutes', 'Plant-based active (PMD)']}
+            cons={['Not for children under 3', 'Reapply after 2–5 hours']}
+          />
 
           <h2>Why Certain Smells Bother Mosquitoes</h2>
           <p>A female mosquito finds you by following a plume of cues: the carbon dioxide you exhale, the lactic acid and ammonia in your sweat, your body heat, and even the specific bacteria on your skin. Strong aromatic plant oils work by <strong>masking</strong> those signals. When the air around you is thick with citronella or lemongrass, the mosquito&rsquo;s sensors have a harder time locking onto the human-scent trail, so fewer of them land.</p>

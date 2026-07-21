@@ -3,10 +3,14 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import FreshnessStamp from '@/components/FreshnessStamp'
+import AuthorByline from '@/components/AuthorByline'
+import TopPick from '@/components/TopPick'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 
 const SLUG = 'no-see-um-bites'
 const DATE = '2026-07-19'
+const UPDATED = '2026-07-19'
 const TITLE = 'No-See-Um Bites: What They Look Like, Why They Itch So Much & How to Treat Them (2026)'
 
 const FAQS = [
@@ -85,11 +89,14 @@ export default function NoSeeUmBitesPage() {
           <p className="text-xl text-brand-100 leading-relaxed">
             The tiny biters you feel before you see them &mdash; what their bites look like, why they itch far more than a mosquito bite, how to tell them apart from flea and chigger bites, and how to treat and prevent them.
           </p>
-          <div className="mt-6 text-brand-300 text-sm">Published July 19, 2026 · 10 min read</div>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
+          <div className="mt-4 text-brand-300 text-sm">Published July 19, 2026 · 10 min read</div>
         </div>
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-14 prose-brand">
+
+        <AuthorByline datePublished={DATE} dateModified={UPDATED} />
 
         <div className="not-prose bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
           <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
@@ -164,6 +171,16 @@ export default function NoSeeUmBitesPage() {
           <li><strong>Do not scratch.</strong> Broken skin is the main path to infection and scarring; keeping nails short and covering the bite can help.</li>
         </ul>
         <p>These are general comfort measures, not a diagnosis, prescription, or dosing advice &mdash; always follow the product directions, and if you are pregnant, treating a young child, unsure which product is right, or the reaction is severe, ask a pharmacist or healthcare provider. For a fuller run-down of what actually eases bite itch, see our <Link href="/blog/mosquito-bite-treatment-relief">mosquito bite treatment and relief guide</Link>, which applies equally to midge bites.</p>
+
+        <TopPick
+          label="Best for the Itch"
+          name="Hydrocortisone 1% Anti-Itch Cream"
+          blurb="For the histamine itch a no-see-um bite leaves behind, a plain 1% hydrocortisone cream is the widely recommended over-the-counter workhorse — quick to calm redness and swelling on a clustered welt. Keep a tube in the first-aid kit and apply as directed on the label."
+          search="hydrocortisone anti itch cream 1%"
+          score={8.4}
+          pros={['Eases itch and swelling fast', 'Inexpensive and widely stocked', 'Simple, well-understood active ingredient']}
+          cons={['Comfort only — does not prevent bites', 'Follow label; ask a pharmacist if unsure']}
+        />
 
         <h2>How do no-see-ums bite through window and porch screens?</h2>
         <p>The frustrating part of no-see-um season is that closing up the porch does not always help &mdash; the midges come straight through the screen. The reason is <strong>mesh size</strong>. Standard insect screening is woven with openings of roughly <strong>1.1 to 1.5 mm (about 1/16 inch)</strong>, sized to stop houseflies and mosquitoes. A no-see-um is only about <strong>1 to 3 mm long</strong> and slim enough to fly right through those gaps.</p>

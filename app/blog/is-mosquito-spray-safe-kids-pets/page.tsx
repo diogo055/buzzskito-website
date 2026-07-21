@@ -4,10 +4,14 @@ import CTASection from '@/components/CTASection'
 import BlogPostCTA from '@/components/BlogPostCTA'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import FreshnessStamp from '@/components/FreshnessStamp'
+import AuthorByline from '@/components/AuthorByline'
+import TopPick from '@/components/TopPick'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { NEW_BLOGS, MOSQUITO_BLOGS } from '@/lib/constants'
 
 const POST = NEW_BLOGS[6]
+const UPDATED = POST.date
 
 export const metadata: Metadata = buildMetadata({
   title: 'Is Mosquito Spray Safe for Kids and Pets? Health Canada Approved (2026)',
@@ -69,6 +73,7 @@ export default function IsMosquitoSpraySafePage() {
           <span className="bg-brand-800 text-brand-200 text-xs px-3 py-1 rounded-full mb-4 inline-block">Safety Guide · Mosquito Control</span>
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold mb-4 leading-tight">{POST.title}</h1>
           <p className="text-brand-300 text-sm">Published {new Date(POST.date).toLocaleDateString('en-CA', { year: 'numeric', month: 'long', day: 'numeric' })} · By BuzzSkito</p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
 
@@ -77,6 +82,7 @@ export default function IsMosquitoSpraySafePage() {
       </div>
 
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
+        <AuthorByline datePublished={POST.date} dateModified={UPDATED} />
         <div className="not-prose bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
           <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
           <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Yes — Health Canada–approved mosquito barrier spray is safe for kids and pets once it has dried, which takes about 30 minutes. After that window the active ingredient is bound to plant surfaces and no longer airborne.</p>
@@ -127,6 +133,15 @@ export default function IsMosquitoSpraySafePage() {
         <p>Barrier spray treats your yard; a personal repellent protects skin when you leave it. Many parents are wary of DEET on young children, and there is a gentler, well-studied alternative: <strong>picaridin</strong> (also called icaridin). Health Canada rates picaridin as effective as DEET at comparable concentrations, and it&rsquo;s odourless, non-greasy, and won&rsquo;t damage plastics or clothing — which is why it&rsquo;s our go-to recommendation for a family personal repellent.</p>
         <p>On age limits, follow the label. Health Canada&rsquo;s guidance is that <strong>DEET is not recommended for infants under 6 months</strong>, and that <strong>icaridin (picaridin) products may be used on children as young as 6 months</strong> — one reason picaridin is often the more practical pick for young families. Always confirm the concentration and age directions on the specific product label. See Health Canada&rsquo;s <a href="https://www.canada.ca/en/health-canada/services/consumer-product-safety/pesticides-pest-management.html" rel="noopener" className="text-brand-700 underline">pesticides and pest management guidance</a> for the official position.</p>
         <AffiliateDisclosure />
+        <TopPick
+          label="Our Top Pick — Kid-Friendly Repellent"
+          name="Picaridin (Icaridin) Insect Repellent"
+          blurb="For on-skin protection when you leave the yard, a picaridin (icaridin) repellent is our go-to for families — Health Canada rates it as effective as DEET at comparable concentrations, it's odourless and non-greasy, won't damage plastics or clothing, and may be used on children as young as six months. Always follow the concentration and age directions on the specific product label."
+          search="picaridin insect repellent canada"
+          score={8.8}
+          pros={['Rated as effective as DEET at comparable strength', 'Odourless, non-greasy, gentle on skin', 'Usable on kids from 6 months (per label)']}
+          cons={['Not for infants under 6 months', 'Personal repellent only — not a yard treatment']}
+        />
         <p><BuyLink search="picaridin insect repellent canada">Check picaridin (icaridin) kid-friendly repellents on Amazon.ca →</BuyLink></p>
         <p>For a fuller breakdown of concentrations, formats, and application tips by age, read our guide to the <Link href="/blog/best-bug-spray-for-kids-canada" className="text-brand-700 underline">best bug spray for kids in Canada</Link>.</p>
 

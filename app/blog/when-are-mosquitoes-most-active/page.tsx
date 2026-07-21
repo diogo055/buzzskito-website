@@ -3,6 +3,8 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import AuthorByline from '@/components/AuthorByline'
 import BuyLink from '@/components/BuyLink'
+import FreshnessStamp from '@/components/FreshnessStamp'
+import TopPick from '@/components/TopPick'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 
@@ -72,6 +74,7 @@ export default function WhenAreMosquitoesMostActivePage() {
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
           <p className="text-xl text-brand-100 max-w-3xl">The exact hours, temperatures, and weather when mosquitoes bite most — and why it depends on the species in your yard.</p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
 
@@ -209,6 +212,16 @@ export default function WhenAreMosquitoesMostActivePage() {
             <li><strong>Kill the next generation at the source.</strong> Empty standing water weekly so eggs never hatch, and use a larvicide (BTI) in water you cannot drain. Fewer larvae today means smaller dawn and dusk swarms in two weeks.</li>
             <li><strong>Use wind and screens.</strong> A patio fan makes a seating area nearly bite-proof at dusk, and good window screens block the Culex that come to indoor lights after dark.</li>
           </ol>
+
+          <TopPick
+            label="Best for Peak-Hour Protection"
+            name="Picaridin Insect Repellent (20%)"
+            blurb="For the dawn and dusk bite windows — and shaded midday Aedes territory — a picaridin repellent is the simplest personal defence. Unlike DEET it is odourless and won't damage plastics or gear, and it protects for hours from a single application."
+            search="picaridin insect repellent 20 percent"
+            score={8.7}
+            pros={['Odourless and non-greasy', 'Safe on plastics, watches, and sunglasses', 'Long-lasting protection from one application']}
+            cons={['Reapply after heavy sweating or swimming', 'Personal protection only — does not treat the yard']}
+          />
           <p>For a room-by-room and yard-by-yard plan, see our full guide on <Link href="/blog/how-to-get-rid-of-mosquitoes-in-yard-ontario">how to get rid of mosquitoes in your yard</Link>. To understand how these daily peaks scale up and down across the summer, read <Link href="/blog/mosquito-season-gta-when-does-it-start">when mosquito season starts and how long it lasts</Link>.</p>
 
           <h2>Related Reading</h2>

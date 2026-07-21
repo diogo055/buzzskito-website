@@ -3,10 +3,15 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
+import TopPick from '@/components/TopPick'
+import StickyBuyBar from '@/components/StickyBuyBar'
+import FreshnessStamp from '@/components/FreshnessStamp'
+import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 
 const SLUG = 'thermacell-e90-canada-review'
 const DATE = '2026-07-14'
+const UPDATED = '2026-07-14'
 const TITLE = 'Thermacell E90 Review Canada 2026 — vs E55, vs EX90 & Which Refills to Buy'
 
 const FAQS = [
@@ -77,8 +82,11 @@ export default function ThermacellE90CanadaReviewPage() {
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
           <p className="text-xl text-brand-100 max-w-3xl">The flagship rechargeable Thermacell you can actually buy in Canada — what the 9-hour battery and 20-foot zone really deliver on an Ontario patio, how it compares to the E55 and EX90, and the refill strategy that saves you money.</p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
+
+      <StickyBuyBar name="Thermacell E90 Rechargeable Mosquito Repeller" search="thermacell e90 rechargeable" label="Best overall" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -167,7 +175,16 @@ export default function ThermacellE90CanadaReviewPage() {
 
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
+          <AuthorByline datePublished={DATE} dateModified={UPDATED} />
           <AffiliateDisclosure />
+          <TopPick
+            name="Thermacell E90 Rechargeable Mosquito Repeller"
+            blurb="The best rechargeable Thermacell you can buy in Canada in 2026. Its ~9-hour battery roughly doubles the E55's runtime, it shares the same 20-foot metofluthrin zone and E-Series refills, and with the LIV smart system unavailable here it sits at the top of the Canadian lineup. Buy the EX90 instead only if it's going camping."
+            search="thermacell e90 rechargeable"
+            score={8.7}
+            pros={['~9 hr runtime — 3–4 patio evenings per charge', 'Scent-free 20-ft zone, nothing on your skin', 'Uses the same E-Series refills as the E55/EX90']}
+            cons={['Zone weakens above a ~10–12 km/h breeze', 'Protects one seating area, not a whole yard', 'No effect on ticks']}
+          />
           <p className="not-prose text-sm text-gray-600 mb-1">Compare current Canadian pricing on the two 9-hour models:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink search="thermacell e90 rechargeable">Check E90 price on Amazon.ca →</BuyLink>

@@ -3,10 +3,14 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import FreshnessStamp from '@/components/FreshnessStamp'
+import AuthorByline from '@/components/AuthorByline'
+import TopPick from '@/components/TopPick'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema, howToSchema } from '@/lib/seo'
 import { TICK_BLOGS } from '@/lib/constants'
 
 const POST = TICK_BLOGS.supporting[2]
+const UPDATED = POST.date
 
 export const metadata: Metadata = buildMetadata({
   title: 'How to Remove a Tick Safely (Ontario Guide)',
@@ -41,6 +45,7 @@ export default function RemoveTickPage() {
           <span className="bg-brand-800 text-brand-200 text-xs px-3 py-1 rounded-full mb-4 inline-block">Tick Control</span>
           <h1 className="text-3xl sm:text-4xl font-extrabold mb-4 leading-tight">{POST.title}</h1>
           <p className="text-brand-300 text-sm">Published {new Date(POST.date).toLocaleDateString('en-CA', { year: 'numeric', month: 'long', day: 'numeric' })} · By BuzzSkito</p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
 
@@ -63,6 +68,8 @@ export default function RemoveTickPage() {
           <strong>Medical disclaimer:</strong> This article provides general first-aid information. Always consult a licensed healthcare provider for medical advice after a tick bite. Part of our <Link href={`/blog/${TICK_BLOGS.pillar.slug}`} className="text-brand-700 underline">Ultimate Tick Control Guide for Ontario Homeowners</Link>.
         </p>
 
+        <AuthorByline datePublished={POST.date} dateModified={UPDATED} />
+
         <AffiliateDisclosure />
 
         <h2>What You Need</h2>
@@ -74,6 +81,16 @@ export default function RemoveTickPage() {
         <p>A dedicated fine-tipped tick tool grips the mouthparts cleanly right at the skin, which makes a clean removal much easier than fumbling with wide household tweezers. <BuyLink search="tick removal tool tweezers">Check price on Amazon.ca &rarr;</BuyLink> For a breakdown of the different styles (fine-tip tweezers, tick keys, and lifter tools), see our <Link href="/blog/tick-removal-tool-guide" className="text-brand-700 hover:underline">tick removal tool guide</Link>.</p>
 
         <p>Hook-style &ldquo;tick twister&rdquo; tools are a popular alternative: you slide the notched end under the tick at skin level and lift with a gentle rotation, which many people find easier on pets and in awkward, hard-to-reach spots than a straight pull. <BuyLink search="tick twister removal tool">Check price on a tick twister tool &rarr;</BuyLink></p>
+
+        <TopPick
+          label="Our Top Pick"
+          name="Fine-Tipped Tick-Removal Tool"
+          blurb="A purpose-built fine-tipped tool grips the mouthparts cleanly right at the skin, so you can pull straight up without squeezing the tick's body — the single most important factor in a clean, low-risk removal. Keep one in the first-aid kit before you need it."
+          search="tick removal tool tweezers"
+          score={8.7}
+          pros={['Grips mouthparts flush to the skin', 'Reduces the risk of squeezing infected fluid in', 'Compact for a first-aid kit or backpack']}
+          cons={['Easy to misplace when you need it', 'Fine tips need careful handling on squirming pets']}
+        />
 
         <h2>Step-by-Step Tick Removal</h2>
 

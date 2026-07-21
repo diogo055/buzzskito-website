@@ -4,6 +4,9 @@ import CTASection from '@/components/CTASection'
 import BlogPostCTA from '@/components/BlogPostCTA'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import FreshnessStamp from '@/components/FreshnessStamp'
+import AuthorByline from '@/components/AuthorByline'
+import TopPick from '@/components/TopPick'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 
 const POST = {
@@ -12,6 +15,8 @@ const POST = {
   date: '2026-06-04',
   excerpt: 'Halton Region Public Health has confirmed Oakville as an established Lyme disease risk area. Here\'s exactly when ticks are active in Oakville, why the 16 Mile Creek corridor and Bronte Creek Provincial Park drive most of the pressure, and which neighbourhoods have the highest risk in 2026.',
 }
+
+const UPDATED = POST.date
 
 const FAQS = [
   {
@@ -63,10 +68,12 @@ export default function TickSeasonOakvillePage() {
           <span className="bg-amber-500 text-white text-xs px-3 py-1 rounded-full mb-4 inline-block font-bold uppercase tracking-wider">Oakville · 2026 Update</span>
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold mb-4 leading-tight">{POST.title}</h1>
           <p className="text-brand-300 text-sm">Published {new Date(POST.date).toLocaleDateString('en-CA', { year: 'numeric', month: 'long', day: 'numeric' })} · By Alex &amp; The BuzzSkito Team</p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
+        <AuthorByline datePublished={POST.date} dateModified={UPDATED} />
         <div className="not-prose bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
           <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
           <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Oakville is now a Public Health Ontario&ndash;classified Lyme disease risk area; blacklegged ticks are active mid-March through November, peaking with nymphs from late May to July and adults from mid-September to October, driven by the 16 Mile Creek corridor and Bronte Creek Provincial Park.</p>
@@ -158,6 +165,15 @@ export default function TickSeasonOakvillePage() {
           <li><strong>Permethrin-treated clothing for trail hikers.</strong> 0.5% permethrin spray on hiking pants, socks, and shoes. One treatment lasts 6 weeks or 6 washes. The single most effective personal protection layer.</li>
           <li><strong>Year-round tick prevention for dogs.</strong> Talk to your Oakville veterinarian. Most positive canine cases never showed an obvious tick attachment because nymphs are too small to spot in fur.</li>
         </ol>
+        <TopPick
+          label="Best Personal Protection"
+          name="Permethrin-Treated Clothing & Gaiters"
+          blurb="For anyone hiking Bronte Creek Provincial Park or the 16 Mile Creek trails, 0.5% permethrin on pants, socks, and gaiters is the single most effective personal layer — it repels and kills ticks on contact before they reach skin, and one treatment lasts about 6 weeks or 6 washes."
+          search="insectguard permethrin gaiters"
+          score={8.9}
+          pros={['Kills ticks on contact, not just repels', 'One treatment lasts ~6 weeks / 6 washes', 'Ideal for trail hikers and gardeners']}
+          cons={['Wear layer only — still check skin daily', 'Reapply after washes']}
+        />
         <div className="not-prose my-4">
           <BuyLink search="insectguard permethrin gaiters">Check InsectGuard permethrin-treated gaiters on Amazon.ca →</BuyLink>
         </div>

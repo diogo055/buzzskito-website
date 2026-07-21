@@ -3,10 +3,15 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import AwardRow from '@/components/AwardRow'
+import StickyBuyBar from '@/components/StickyBuyBar'
+import FreshnessStamp from '@/components/FreshnessStamp'
+import AuthorByline from '@/components/AuthorByline'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { TICK_BLOGS } from '@/lib/constants'
 
 const POST = TICK_BLOGS.supporting[3]
+const UPDATED = '2026-07-16'
 
 export const metadata: Metadata = buildMetadata({
   title: 'Best Tick Control for Yards in Ontario 2026 (6 Methods Compared)',
@@ -41,10 +46,14 @@ export default function BestTickControlPage() {
           <span className="bg-brand-800 text-brand-200 text-xs px-3 py-1 rounded-full mb-4 inline-block">Tick Control</span>
           <h1 className="text-3xl sm:text-4xl font-extrabold mb-4 leading-tight">{POST.title}</h1>
           <p className="text-brand-300 text-sm">Published {new Date(POST.date).toLocaleDateString('en-CA', { year: 'numeric', month: 'long', day: 'numeric' })} · By BuzzSkito</p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
 
+      <StickyBuyBar name="Wondercide Tick &amp; Flea Yard Spray" search="wondercide tick yard spray" label="Best DIY yard spray" />
+
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
+        <AuthorByline datePublished={POST.date} dateModified={UPDATED} />
         <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable not-prose">
           <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
           <p className="text-gray-800 text-[15px] leading-relaxed font-medium">
@@ -60,6 +69,46 @@ export default function BestTickControlPage() {
           </ul>
           <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
         </div>
+
+        <AffiliateDisclosure />
+        <AwardRow
+          heading="Our Picks — Best DIY Tick Products to Layer With a Barrier Spray"
+          awards={[
+            {
+              badge: 'Best DIY Yard Spray',
+              name: 'Wondercide Tick & Flea Yard Spray',
+              why: 'A botanical spray for spot-treating patios, garden beds, and pet areas without harsh synthetics — the practical DIY layer between professional visits.',
+              search: 'wondercide tick yard spray',
+              score: 8.4,
+              featured: true,
+              pros: ['Botanical, pet-friendly formula', 'Great for patios, beds & pet areas', 'No harsh synthetics'],
+              cons: ['Short-lived — reapply after rain', 'Not a whole-yard solution'],
+            },
+            {
+              badge: 'Best Wearable Defence',
+              name: 'Sawyer Permethrin Clothing Spray',
+              why: 'Treats clothing and gear for long-lasting, wearable protection that skin repellent alone can’t match — ideal for hikes and yard work.',
+              search: 'sawyer permethrin clothing spray',
+              score: 8.2,
+              pros: ['Long-lasting on clothing & gear', 'Protection skin repellent can’t match', 'Ideal for hikes & yard work'],
+              cons: ['Apply to garments — never skin', 'Doesn’t treat the yard itself'],
+            },
+            {
+              badge: 'Best Passive Layer',
+              name: 'Thermacell Tick Control Tubes',
+              why: 'Permethrin-treated cotton that mice take for nesting, killing larval ticks on the wildlife host. A set-and-forget layer that shrinks next season’s population.',
+              search: 'thermacell tick control tubes 12 pack',
+              score: 7.6,
+              pros: ['Set-and-forget passive layer', 'Targets larvae via wildlife hosts', 'Shrinks next season’s population'],
+              cons: ['Larval stage only', 'Needs seasonal placement'],
+            },
+          ]}
+          whichToBuy={
+            <>
+              <strong>Want the fastest DIY layer?</strong> The <em>Best DIY Yard Spray</em> handles small problem zones between visits. <strong>Heading into the woods?</strong> The <em>Best Wearable Defence</em> permethrin spray protects your clothing. <strong>Playing the long game?</strong> The <em>Best Passive Layer</em> tick tubes quietly thin next year’s population. None of them replaces whole-yard <Link href="/tick-control">professional tick control</Link>, which kills every life stage for up to 30 days.
+            </>
+          }
+        />
 
         <p className="text-lg text-gray-600 not-prose border-l-4 border-amber-400 pl-5 py-2 mb-8">
           Honest comparison from a tick control company — we believe the evidence speaks for itself. Part of our <Link href={`/blog/${TICK_BLOGS.pillar.slug}`} className="text-brand-700 underline">Ultimate Tick Control Guide for Ontario Homeowners</Link>.
@@ -116,7 +165,6 @@ export default function BestTickControlPage() {
         </ol>
 
         <h3>DIY Products That Complement Professional Service</h3>
-        <AffiliateDisclosure />
         <p>Between professional visits, a couple of DIY products round out the layered approach above &mdash; neither replaces a whole-yard barrier treatment, but both are worth keeping on hand:</p>
         <ul>
           <li>

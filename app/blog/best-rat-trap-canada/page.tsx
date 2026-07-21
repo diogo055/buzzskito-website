@@ -4,9 +4,14 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import SpecialistDisclosure from '@/components/SpecialistDisclosure'
+import AwardRow from '@/components/AwardRow'
+import StickyBuyBar from '@/components/StickyBuyBar'
+import FreshnessStamp from '@/components/FreshnessStamp'
+import AuthorByline from '@/components/AuthorByline'
 
 const SLUG = 'best-rat-trap-canada'
 const DATE = '2026-07-16'
+const UPDATED = '2026-07-16'
 const TITLE = 'Best Rat Trap Canada 2026 — Snap vs Electronic + Why Mouse Traps Fail'
 
 const FAQS = [
@@ -85,8 +90,11 @@ export default function BestRatTrapCanadaPage() {
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
           <p className="text-xl text-brand-100 max-w-3xl">Which rat traps actually work in Canadian homes, why a mouse trap will never kill a rat, the pre-baiting trick for trap-shy colonies, and what rodenticides are legally sold here — independent research, updated July 2026.</p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
+
+      <StickyBuyBar name="Victor Metal Pedal Rat Snap Trap" search="victor rat trap" label="Best overall" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -107,8 +115,52 @@ export default function BestRatTrapCanadaPage() {
         </div>
       </section>
 
+      <section className="bg-white px-4 py-6">
+        <div className="max-w-5xl mx-auto">
+          <AwardRow
+            heading="Our Picks — Best Rat Traps in Canada"
+            awards={[
+              {
+                badge: 'Best Overall',
+                name: 'Victor Metal Pedal Rat Snap Trap',
+                why: 'Unbeatable kill-rate-per-dollar. The metal-pedal trigger and full rat-force spring bar close the deal the first time, and each trap survives years of catches — cheap enough to deploy the 4–6 traps a real infestation needs.',
+                search: 'victor rat trap',
+                score: 9.1,
+                featured: true,
+                pros: ['Genuine rat-killing spring force', 'Reusable for years', 'Cheap enough to buy in bulk'],
+                cons: ['Setting the bar takes hand strength', 'Disposal means seeing the rat'],
+              },
+              {
+                badge: 'Best No-Touch',
+                name: 'Victor Electronic Rat Trap',
+                why: 'Lures the rat into an enclosed tunnel and delivers an 8,000-volt shock — death in under 5 seconds. An indicator light signals a catch and disposal is a tip-into-the-garbage motion, so you never see or handle the rat.',
+                search: 'victor electronic rat trap',
+                score: 8.3,
+                pros: ['No-see, no-touch disposal', '~50 kills per battery set', 'Fast, humane kill'],
+                cons: ['Indoor-only — rain and cold kill it', 'One rat per cycle'],
+              },
+              {
+                badge: 'Easiest to Set',
+                name: 'Tomcat Rat Snap Trap',
+                why: 'Moulded-plastic trap that sets with one press of a foot or hand — no fingers near the strike zone. Interlocking teeth grip rather than relying purely on impact, and a removable bait cup clicks in before setting.',
+                search: 'tomcat rat snap trap',
+                score: 7.8,
+                pros: ['Foot-press setting — no snapped thumbs', 'Washable and reusable', 'Removable bait cup'],
+                cons: ['Slightly less powerful on the largest rats', 'Plastic feels less rugged than wood'],
+              },
+            ]}
+            whichToBuy={
+              <>
+                <strong>Active infestation and comfortable handling a catch?</strong> Buy several <em>Best Overall</em> Victor snap traps — deploying 4–6 at once is the single biggest tactical advantage. <strong>Squeamish, or one or two rats in a kitchen or finished basement?</strong> The <em>Best No-Touch</em> electronic trap keeps the whole job out of sight. <strong>Nervous about the spring bar?</strong> The <em>Easiest to Set</em> Tomcat arms with a foot press. If your droppings are 3–6 mm with pointed ends, you have mice, not rats — start with our <Link href="/blog/best-mouse-trap-canada">best mouse trap Canada guide</Link> instead.
+              </>
+            }
+          />
+        </div>
+      </section>
+
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
+          <AuthorByline datePublished={DATE} dateModified={UPDATED} />
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Compare the three traps this guide recommends on Amazon.ca:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">

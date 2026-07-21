@@ -3,6 +3,8 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
+import FreshnessStamp from '@/components/FreshnessStamp'
+import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 
 const SLUG = 'citronella-candles-canada-do-they-work'
@@ -68,6 +70,7 @@ export default function CitronellaCandlesCanadaPage() {
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
           <p className="text-xl text-brand-100 max-w-3xl">The evidence-based answer for Canadian backyards — how far citronella candles, torches and coils actually reach, where to buy them, and what to use when you want mosquitoes gone for real.</p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
 
@@ -171,6 +174,7 @@ export default function CitronellaCandlesCanadaPage() {
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
           <AffiliateDisclosure />
+          <AuthorByline datePublished={DATE} dateModified={UPDATED} />
           <p className="not-prose text-sm text-gray-600 mb-1">Compare current Canadian prices across citronella formats (candles, torches, coils):</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink search="citronella candle outdoor">Check citronella candle price on Amazon.ca →</BuyLink>
@@ -196,42 +200,42 @@ export default function CitronellaCandlesCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Melts scented wax</td>
                   <td className="px-4 py-3 text-gray-700">Under 0.5 m</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$6 – $15</td>
-                  <td className="px-4 py-3"><BuyLink search="citronella candle tin">Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink search="citronella candle tin" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">3-wick bucket candle</td>
                   <td className="px-4 py-3 text-gray-700">Bigger flame, warmer plume</td>
                   <td className="px-4 py-3 text-gray-700">~1 m in still air</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$12 – $30</td>
-                  <td className="px-4 py-3"><BuyLink search="citronella bucket candle 3 wick">Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink search="citronella bucket candle 3 wick" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Tiki torch + fuel</td>
                   <td className="px-4 py-3 text-gray-700">Large flame at patio edge</td>
                   <td className="px-4 py-3 text-gray-700">~1 m near each torch</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$20 – $45</td>
-                  <td className="px-4 py-3"><BuyLink search="citronella torch fuel">Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink search="citronella torch fuel" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Coils</td>
                   <td className="px-4 py-3 text-gray-700">Smoulders, releases smoke</td>
                   <td className="px-4 py-3 text-gray-700">1–2 m in still air (smoke)</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$8 – $20</td>
-                  <td className="px-4 py-3"><BuyLink search="citronella coils">Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink search="citronella coils" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Incense sticks</td>
                   <td className="px-4 py-3 text-gray-700">Smoulders, releases smoke</td>
                   <td className="px-4 py-3 text-gray-700">Under 1 m</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$6 – $18</td>
-                  <td className="px-4 py-3"><BuyLink search="citronella incense sticks">Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink search="citronella incense sticks" block>Check price →</BuyLink></td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 font-bold text-brand-800">Spray / lotion</td>
                   <td className="px-4 py-3 text-gray-700">Applied to skin</td>
                   <td className="px-4 py-3 text-gray-700">On-skin · wears off 20–60 min</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$8 – $20</td>
-                  <td className="px-4 py-3"><BuyLink search="citronella spray repellent">Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink search="citronella spray repellent" block>Check price →</BuyLink></td>
                 </tr>
               </tbody>
             </table>

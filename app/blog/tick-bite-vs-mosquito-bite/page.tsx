@@ -3,6 +3,9 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import FreshnessStamp from '@/components/FreshnessStamp'
+import AuthorByline from '@/components/AuthorByline'
+import TopPick from '@/components/TopPick'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { BUSINESS } from '@/lib/constants'
 
@@ -75,6 +78,7 @@ export default function TickBiteVsMosquitoBitePage() {
             Both can leave a red bump — but the health risks are very different. Here&apos;s exactly what to look for, when to worry, and what to do next.
           </p>
           <div className="mt-6 text-brand-300 text-sm">Published April 7, 2026 · Updated July 2026 · 8 min read</div>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
 
@@ -95,6 +99,8 @@ export default function TickBiteVsMosquitoBitePage() {
         </div>
 
         <AffiliateDisclosure />
+
+        <AuthorByline datePublished={DATE} dateModified={UPDATED} />
 
         <p>Ontario homeowners who spend time outdoors — especially near conservation areas, ravines, or the Oak Ridges Moraine — should know how to tell a tick bite from a mosquito bite. While both can cause a red, irritated mark on the skin, the implications are very different. Mosquito bites are usually just itchy nuisances. Tick bites carry a small but real risk of Lyme disease, which is now established throughout the Greater Toronto Area and York Region.</p>
 
@@ -172,6 +178,16 @@ export default function TickBiteVsMosquitoBitePage() {
         <h2>Removing a Tick Safely (Do This First)</h2>
         <p>If you find an attached tick, remove it right away — the risk of Lyme transmission rises the longer a blacklegged tick stays attached. Grasp the tick with fine-tipped tweezers as close to the skin as possible and pull straight up with steady, even pressure. Do not twist, crush, or burn it. A dedicated tick-removal tool makes the job cleaner, especially for tiny nymphs. For a full walkthrough and product picks, see our <Link href="/blog/tick-removal-tool-guide" className="text-brand-700 hover:underline">tick removal tool guide</Link>.</p>
         <p><BuyLink search="tick removal tool tweezers">Check tick-removal tools on Amazon.ca →</BuyLink></p>
+
+        <TopPick
+          label="Our Top Pick for Tick Removal"
+          name="Fine-Tipped Tick-Removal Tool Set"
+          blurb="A dedicated tick tool grips the tick right at the skin and lifts it straight out with even pressure — cleaner than fumbling with household tweezers, which matters most for tiny nymphs that are the hardest to grasp and the most likely to carry Lyme. Keep one in the first-aid kit before you need it."
+          search="tick removal tool tweezers"
+          score={8.7}
+          pros={['Grips at the skin line for a clean, whole-tick pull', 'Works on tiny nymphs household tweezers miss', 'Inexpensive kit to keep on hand year-round']}
+          cons={['Still requires steady technique — no twisting or crushing', 'Does not replace watching the bite for 3–30 days']}
+        />
 
         <h2>Other Early Lyme Disease Symptoms</h2>
         <p>Even without a visible rash (20–30% of Lyme disease cases do not produce a rash), early Lyme disease can cause:</p>

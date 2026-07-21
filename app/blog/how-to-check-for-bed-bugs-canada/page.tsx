@@ -4,9 +4,13 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import SpecialistDisclosure from '@/components/SpecialistDisclosure'
+import FreshnessStamp from '@/components/FreshnessStamp'
+import AuthorByline from '@/components/AuthorByline'
+import TopPick from '@/components/TopPick'
 
 const SLUG = 'how-to-check-for-bed-bugs-canada'
 const DATE = '2026-07-16'
+const UPDATED = '2026-07-16'
 const TITLE = 'How to Check for Bed Bugs in Canada — Hotel, Apartment & Used Furniture (2026)'
 
 const FAQS = [
@@ -81,6 +85,7 @@ export default function HowToCheckForBedBugsCanadaPage() {
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
           <p className="text-xl text-brand-100 max-w-3xl">The 5 physical signs that actually confirm bed bugs, a 5-minute hotel-room protocol, the used-furniture rule, and a move-in checklist built for Toronto and GTA renters.</p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
 
@@ -106,6 +111,7 @@ export default function HowToCheckForBedBugsCanadaPage() {
 
       <article className="py-10 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
+          <AuthorByline datePublished={DATE} dateModified={UPDATED} />
           <h2>What Are the 5 Signs of Bed Bugs?</h2>
           <p>The five signs, in order of how conclusively they confirm an infestation, are: live bugs, cast skins, fecal spotting, eggs, and bite patterns — and only the first four count as proof. A single live bed bug is definitive. Everything else builds a case, and bites on their own build almost nothing.</p>
           <ol>
@@ -151,6 +157,15 @@ export default function HowToCheckForBedBugsCanadaPage() {
           <div className="not-prose my-4 flex flex-wrap gap-3">
             <BuyLink search="bed bug detection kit">Flashlight + card detection kit on Amazon.ca →</BuyLink>
           </div>
+          <TopPick
+            label="Best Tool for the Job"
+            name="Bed Bug Detection Kit (flashlight + card + magnifier)"
+            blurb="A combination kit bundles the three tools that do almost the entire inspection: a bright flashlight to rake across fabric so eggs and spotting pop, a thin stiff card to drag through seams and joints, and a magnifier to tell a nymph from a carpet-beetle larva. Inexpensive, reusable trip after trip, and the fastest way to turn a suspicion into physical evidence."
+            search="bed bug detection kit"
+            score={8.4}
+            pros={['Covers ~95% of a visual inspection', 'Cheap and reusable', 'Works for hotels, used furniture, and move-ins alike']}
+            cons={['Only finds what is on the surface — monitoring needs interceptors', 'Basic kits skip the magnifier']}
+          />
           <p>For ongoing monitoring rather than a one-time check, pitfall-style interceptor cups under each bed leg are the evidence-backed option — Rutgers University field research found interceptors detected low-level infestations that visual inspections missed. We cover models, placement, and how to read what you catch in our <Link href="/blog/bed-bug-interceptor-traps-canada">bed bug interceptor traps guide</Link>. Skip ultrasonic &ldquo;repellers&rdquo; entirely: there is no credible evidence they affect bed bugs.</p>
 
           <h2>How Do You Check a Hotel Room for Bed Bugs in 5 Minutes?</h2>

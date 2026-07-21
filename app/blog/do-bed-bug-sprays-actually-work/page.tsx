@@ -4,9 +4,13 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import SpecialistDisclosure from '@/components/SpecialistDisclosure'
+import FreshnessStamp from '@/components/FreshnessStamp'
+import AuthorByline from '@/components/AuthorByline'
+import TopPick from '@/components/TopPick'
 
 const SLUG = 'do-bed-bug-sprays-actually-work'
 const DATE = '2026-07-16'
+const UPDATED = '2026-07-16'
 const TITLE = 'Do Bed Bug Sprays Actually Work? An Honest Canadian Answer (2026)'
 
 const FAQS = [
@@ -84,6 +88,7 @@ export default function DoBedBugSpraysActuallyWorkPage() {
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
           <p className="text-xl text-brand-100 max-w-3xl">Contact sprays kill the bugs they touch — but that is a fraction of the problem. Here is the honest, Canada-specific breakdown of what sprays do, what they miss, and the stack that actually clears bed bugs.</p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
 
@@ -109,6 +114,8 @@ export default function DoBedBugSpraysActuallyWorkPage() {
 
       <article className="py-10 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
+
+          <AuthorByline datePublished={DATE} dateModified={UPDATED} />
 
           <h2>Do bed bug sprays actually work — or are they a waste of money?</h2>
           <p>They work in the narrow, literal sense: a wet spray kills the bed bug it directly hits, and a residual product leaves a deposit that can keep killing for a few weeks. What sprays do not do is clear an infestation on their own. That gap between &ldquo;kills a bug&rdquo; and &ldquo;solves the problem&rdquo; is where almost every DIY spray-only campaign fails, and where a lot of money gets wasted on cans that empty faster than the bed bugs disappear.</p>
@@ -141,6 +148,16 @@ export default function DoBedBugSpraysActuallyWorkPage() {
             <BuyLink search="bed bug interceptor traps">Interceptor traps →</BuyLink>
             <BuyLink search="diatomaceous earth bed bugs">Diatomaceous earth →</BuyLink>
           </div>
+
+          <TopPick
+            label="Backbone of the Stack"
+            name="Bed Bug Steamer (dry-vapour, high-output)"
+            blurb="If you buy one thing, buy heat. A dry-vapour steamer drives lethal temperature straight into the seams, tufts, and crevices where bugs and eggs actually hide — the exact places sprays fail, and something no bed bug can evolve resistance to."
+            search="bed bug steamer"
+            score={8.5}
+            pros={['Kills bugs and eggs on contact', 'Reaches harbourages sprays miss', 'No resistance risk, no residue']}
+            cons={['Slow, room-by-room work', 'Needs enough dry-steam output to be lethal']}
+          />
 
           <h2>What is actually legal in Canada — and what US sites get wrong</h2>
           <p>This is where a lot of online bed bug advice goes off the rails for Canadian readers, because most of the loudest content is written for the US market. In Canada, consumer pesticides must be <strong>PMRA domestic-class registered</strong> — the label carries a PCP registration number and is written for household use. The products US blogs and Amazon.com listings most aggressively recommend are frequently not in that class here.</p>

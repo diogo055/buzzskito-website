@@ -4,9 +4,14 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import SpecialistDisclosure from '@/components/SpecialistDisclosure'
+import AwardRow from '@/components/AwardRow'
+import StickyBuyBar from '@/components/StickyBuyBar'
+import FreshnessStamp from '@/components/FreshnessStamp'
+import AuthorByline from '@/components/AuthorByline'
 
 const SLUG = 'best-mouse-trap-canada'
 const DATE = '2026-07-16'
+const UPDATED = '2026-07-16'
 const TITLE = 'Best Mouse Trap Canada 2026 — Snap vs Electronic vs Catch-and-Release'
 
 const FAQS = [
@@ -85,8 +90,11 @@ export default function BestMouseTrapCanadaPage() {
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
           <p className="text-xl text-brand-100 max-w-3xl">Snap, electronic, catch-and-release, and glue traps compared for Canadian homes — which one actually works, exactly where to place it, and why a trap line beats poison under Canada&rsquo;s rodenticide rules.</p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
+
+      <StickyBuyBar name="Victor M325 wood snap trap (4-pack)" search="victor mouse trap 4 pack" label="Best overall" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -107,8 +115,52 @@ export default function BestMouseTrapCanadaPage() {
         </div>
       </section>
 
+      <section className="bg-white px-4 py-6">
+        <div className="max-w-5xl mx-auto">
+          <AwardRow
+            heading="Our Picks — Best Mouse Traps in Canada"
+            awards={[
+              {
+                badge: 'Best Overall',
+                name: 'Victor M325 Wood Snap Trap (4-pack)',
+                why: 'The 1899-vintage benchmark everything else gets measured against. Cheap enough to deploy 6–12 at once, snaps in milliseconds when wall-placed, and reusable for dozens of catches.',
+                search: 'victor mouse trap 4 pack',
+                score: 9.1,
+                featured: true,
+                pros: ['Lowest cost per catch of any method', 'Expanded trigger doubles the strike zone', 'Deploy a full trap line on day one'],
+                cons: ['You see and handle the result', 'Under-buying leads people to give up'],
+              },
+              {
+                badge: 'Best No-Touch',
+                name: 'Victor M250S Electronic Trap',
+                why: 'A high-voltage tunnel that kills in under 5 seconds, then a green light tells you to tip it into the garbage — no sight, no touch, no blood.',
+                search: 'victor electronic mouse trap',
+                score: 8.3,
+                pros: ['Up to 100 kills per 4×AA battery set', 'Pets and kids cannot reach inside', 'No-see, no-touch disposal'],
+                cons: ['15–20× the price of a snap trap', 'Indoor dry areas only; one runway per unit'],
+              },
+              {
+                badge: 'Best No-Kill',
+                name: 'Motel Mouse Catch-and-Release (2-pack)',
+                why: 'A genuinely effective two-door live-capture trap — but only humane if you check it every few hours and drive the mouse 2+ km away.',
+                search: 'humane mouse trap catch and release',
+                score: 7.0,
+                pros: ['Indefinitely reusable', 'No kill for no-kill households', 'Reliable live capture'],
+                cons: ['Must check every few hours', 'Winter release has poor survival odds'],
+              },
+            ]}
+            whichToBuy={
+              <>
+                <strong>Fighting an active infestation?</strong> Buy the <em>Best Overall</em> Victor M325 in bulk and set 6–12 on night one — cost per catch wins the numbers game. <strong>Squeamish about the result?</strong> Put a <em>Best No-Touch</em> M250S in the kitchen and cheap snap traps everywhere else. <strong>Committed to a no-kill approach?</strong> The <em>Best No-Kill</em> Motel Mouse works only if you check it often and release 2+ km away — otherwise a snap trap is more humane in practice.
+              </>
+            }
+          />
+        </div>
+      </section>
+
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
+          <AuthorByline datePublished={DATE} dateModified={UPDATED} />
           <h2>What Is the Best Mouse Trap in Canada?</h2>
           <p>The Victor M325 wood snap trap is the best mouse trap for most Canadian households — the 1899-vintage design is still the benchmark that electronic and &ldquo;smart&rdquo; traps get measured against, and no other option matches its cost per catch. That answer comes with a structure: snap traps win on price and scale, electronic traps win on squeamishness, catch-and-release wins only on ethics (and only when used correctly), and glue boards lose on every axis that matters.</p>
           <p>The reason a clear winner exists is arithmetic. Effective mouse control means deploying <em>many</em> traps at once — 6 to 12 for a typical kitchen problem — because a house mouse population compounds fast: a single female can produce 5–10 litters per year, with 5–6 pups per litter that are themselves breeding within 6–8 weeks. At snap-trap pricing you can afford a proper trap line on day one. At electronic-trap pricing, most people buy one unit, place it wrong, and conclude that &ldquo;traps don&rsquo;t work.&rdquo;</p>

@@ -3,6 +3,9 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
+import TopPick from '@/components/TopPick'
+import FreshnessStamp from '@/components/FreshnessStamp'
+import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 
 const SLUG = 'laser-mosquito-killer-photon-matrix-review'
@@ -68,6 +71,7 @@ export default function LaserMosquitoKillerPhotonMatrixPage() {
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
           <p className="text-xl text-brand-100 max-w-3xl">A skeptical, plain-English look at &ldquo;laser mosquito killers&rdquo; and the crowdfunded Photon Matrix &mdash; is the tech real, is it actually shipping, what does it cost, is it safe, and what should you buy instead this summer?</p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
 
@@ -119,19 +123,19 @@ export default function LaserMosquitoKillerPhotonMatrixPage() {
                     <td className="px-4 py-3 font-bold text-brand-800">Propane CO₂ trap (Mosquito Magnet)</td>
                     <td className="px-4 py-3 text-gray-700">Proven · in stock</td>
                     <td className="px-4 py-3 font-mono text-gray-800">$400 – $1,300</td>
-                    <td className="px-4 py-3"><BuyLink search="mosquito magnet trap">Amazon.ca →</BuyLink></td>
+                    <td className="px-4 py-3"><BuyLink search="mosquito magnet trap" block>Check price →</BuyLink></td>
                   </tr>
                   <tr className="border-b border-navy-50">
                     <td className="px-4 py-3 font-bold text-brand-800">Thermacell patio repellent</td>
                     <td className="px-4 py-3 text-gray-700">Proven · in stock</td>
                     <td className="px-4 py-3 font-mono text-gray-800">$35 – $220</td>
-                    <td className="px-4 py-3"><BuyLink search="thermacell patio shield">Amazon.ca →</BuyLink></td>
+                    <td className="px-4 py-3"><BuyLink search="thermacell patio shield" block>Check price →</BuyLink></td>
                   </tr>
                   <tr className="border-b border-navy-50">
                     <td className="px-4 py-3 font-bold text-brand-800">BTI dunks (larvae control)</td>
                     <td className="px-4 py-3 text-gray-700">Proven · in stock</td>
                     <td className="px-4 py-3 font-mono text-gray-800">$15 – $30 / season</td>
-                    <td className="px-4 py-3"><BuyLink search="mosquito dunks bti">Amazon.ca →</BuyLink></td>
+                    <td className="px-4 py-3"><BuyLink search="mosquito dunks bti" block>Check price →</BuyLink></td>
                   </tr>
                   <tr>
                     <td className="px-4 py-3 font-bold text-brand-800">Professional barrier spray</td>
@@ -187,7 +191,19 @@ export default function LaserMosquitoKillerPhotonMatrixPage() {
 
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
+          <AuthorByline datePublished={DATE} dateModified={UPDATED} />
           <AffiliateDisclosure />
+
+          <TopPick
+            label="Proven Pick Instead"
+            name="Mosquito Magnet Propane CO₂ Trap"
+            blurb="Skip the crowdfunded laser gamble. If you want a device that measurably thins the mosquito population today, the propane CO₂ trap is the one with real independent testing behind it — it burns propane to make genuine CO₂, heat, and moisture, the exact cues an egg-laying female hunts, then vacuums her in. Best suited to larger and cottage properties, in stock now, no pre-order lottery."
+            search="mosquito magnet trap"
+            score={8.9}
+            pros={['Real independent testing, not demo-video hype', 'Available and shipping in Canada today', 'Targets the egg-laying females that seed the next generation']}
+            cons={['Premium up-front and seasonal running cost', 'Does nothing for ticks — no airborne device does']}
+          />
+
           <p className="not-prose text-sm text-gray-600 mb-1">Skip the crowdfunding gamble &mdash; check current Canadian prices on the traps and repellents that actually work today:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink search="mosquito magnet trap">Mosquito Magnet on Amazon.ca →</BuyLink>

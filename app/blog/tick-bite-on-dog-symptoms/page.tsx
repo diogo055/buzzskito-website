@@ -3,10 +3,14 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import FreshnessStamp from '@/components/FreshnessStamp'
+import AuthorByline from '@/components/AuthorByline'
+import TopPick from '@/components/TopPick'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 
 const SLUG = 'tick-bite-on-dog-symptoms'
 const DATE = '2026-04-26'
+const UPDATED = '2026-04-26'
 const TITLE = 'Tick Bite on Dog — Symptoms, What to Watch For (Ontario 2026)'
 
 const FAQS = [
@@ -69,6 +73,7 @@ export default function TickBiteOnDogSymptomsPage() {
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
           <p className="text-xl text-brand-100 max-w-3xl">A clear timeline for Ontario dog owners. What the bite looks like, when symptoms appear, what&rsquo;s normal vs. what isn&rsquo;t — and what to do at each stage.</p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
 
@@ -87,9 +92,21 @@ export default function TickBiteOnDogSymptomsPage() {
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
           </div>
+          <AuthorByline datePublished={DATE} dateModified={UPDATED} />
+
           <p className="lead text-xl text-gray-700 leading-relaxed mb-6">A tick bite by itself is rarely dangerous to a healthy dog. The danger is in what the tick may have transmitted — and the tricky part is that disease symptoms can take <strong>2 to 5 months</strong> to appear. This guide walks you through what to expect at each stage.</p>
 
           <AffiliateDisclosure />
+
+          <TopPick
+            label="What to keep on hand"
+            name="Fine-tipped tick removal tool"
+            blurb="The single most useful thing to own after a tick bite is a proper removal tool. A fine-tipped tool or pointed tweezers grips close to the skin so you can pull straight out without squeezing the tick's body or leaving mouthparts behind — the exact technique that lowers disease-transmission risk."
+            search="tick removal tool tweezers"
+            score={8.7}
+            pros={['Grips close to the skin for a clean pull', 'Reduces the chance of leaving mouthparts behind', 'Cheap, reusable, and worth keeping in every kit']}
+            cons={['Still requires correct straight-out technique', 'Not a substitute for vet-prescribed preventatives']}
+          />
 
           <h2>What a Tick Bite Looks Like on a Dog</h2>
           <p>The bite itself is small — usually a slightly raised, reddish bump where the tick was attached. After removal, you may see:</p>

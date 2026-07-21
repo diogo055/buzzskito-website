@@ -4,6 +4,10 @@ import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import FreshnessStamp from '@/components/FreshnessStamp'
+import StickyBuyBar from '@/components/StickyBuyBar'
+import TopPick from '@/components/TopPick'
+import AuthorByline from '@/components/AuthorByline'
 
 const SLUG = 'thermacell-refills-recharge-canada'
 const DATE = '2026-07-12'
@@ -71,8 +75,11 @@ export default function ThermacellRefillsRechargeCanadaPage() {
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
           <p className="text-xl text-brand-100 max-w-3xl">Which refill fits your model, what it costs per hour, where to buy in Canada, and how to recharge and replace &mdash; for the E55, E90, Patio Shield, and Liv.</p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
+
+      <StickyBuyBar name="Thermacell E-Series Refill Cartridge (E55/E90)" search="thermacell e-series refill" label="Most-bought refill" />
 
       {/* Quick Answer — AI-extraction block */}
       <section className="bg-white px-4">
@@ -184,6 +191,7 @@ export default function ThermacellRefillsRechargeCanadaPage() {
 
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
+          <AuthorByline datePublished={DATE} dateModified={UPDATED} />
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian prices on the refill that fits your model:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
@@ -192,6 +200,16 @@ export default function ThermacellRefillsRechargeCanadaPage() {
             <BuyLink search="thermacell refill 120 hour mega">120-hour mega refill →</BuyLink>
             <BuyLink search="thermacell liv refill">Liv refill →</BuyLink>
           </div>
+
+          <TopPick
+            label="Our Top Pick — Refills"
+            name="Thermacell E-Series Liquid Refill Cartridge (E55 / E90)"
+            blurb="For the rechargeable E55 and E90, the E-Series liquid cartridge is the cleanest, lowest-hassle refill: no butane, no mats, just click it in. A fuel-gauge window shows exactly when it's spent (about 40 hours), and it lands at a mid-price cost per hour. If you own a fuel-powered Patio Shield instead, buy the Original mats-plus-fuel pack — this cartridge won't fit it."
+            search="thermacell e-series refill"
+            score={8.6}
+            pros={['No butane — click-in liquid cartridge', 'Fuel-gauge window shows when to swap', 'Roughly 40 hours per cartridge']}
+            cons={['Only fits rechargeable E-Series units', 'Protects one small zone, not the whole yard']}
+          />
 
           <h2>Which Thermacell Refill Do You Actually Need?</h2>
           <p>Thermacell splits cleanly into two systems, and the refill you buy depends entirely on which one you own. The <strong>rechargeable line</strong> &mdash; the E55 and E90 &mdash; uses a small liquid <strong>E-Series cartridge</strong> that clicks into the top of the unit. There is no fuel and nothing to burn; a USB-rechargeable battery gently warms the cartridge to release a scentless metofluthrin vapour. The older <strong>fuel-powered line</strong> &mdash; the Patio Shield and Backpacker &mdash; uses a flat repellent <strong>mat</strong> (allethrin) heated by a small <strong>butane cartridge</strong>. Refills for those come as combined packs of mats plus fuel.</p>

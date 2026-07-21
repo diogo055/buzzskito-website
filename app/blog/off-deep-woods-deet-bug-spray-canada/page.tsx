@@ -3,6 +3,9 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
+import AwardRow from '@/components/AwardRow'
+import StickyBuyBar from '@/components/StickyBuyBar'
+import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 
 const SLUG = 'off-deep-woods-deet-bug-spray-canada'
@@ -68,8 +71,11 @@ export default function OffDeepWoodsDeetPage() {
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
           <p className="text-xl text-brand-100 max-w-3xl">DEET percentages and how long they last, OFF Deep Woods vs FamilyCare, safe use around kids and pets, and where to buy across Canadian retailers.</p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
+
+      <StickyBuyBar name="OFF Deep Woods (25% DEET insect repellent)" search="off deep woods" label="Best DEET pick" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -86,6 +92,58 @@ export default function OffDeepWoodsDeetPage() {
             </ul>
             <p className="mt-3 text-xs text-gray-500">— BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
           </div>
+        </div>
+      </section>
+
+      <section className="bg-white px-4 py-6">
+        <div className="max-w-5xl mx-auto">
+          <AwardRow
+            heading="Our Picks — Best OFF & DEET Bug Sprays in Canada"
+            awards={[
+              {
+                badge: 'Best Overall',
+                name: 'OFF Deep Woods (≈25% DEET)',
+                why: 'The do-almost-everything can: about 25% DEET protects for 5–6 hours and handles hiking, cottage country, and heavy dusk pressure. Mid-price and stocked everywhere.',
+                search: 'off deep woods',
+                score: 8.8,
+                featured: true,
+                pros: ['5–6 hours of protection', 'Handles heavy mosquito pressure', 'Widely stocked, mid-price'],
+                cons: ['Greasy feel and strong odour', 'Can damage plastics and gear'],
+              },
+              {
+                badge: 'Best for the Bush',
+                name: 'OFF Deep Woods Sportsmen (≈30% DEET)',
+                why: 'About 30% DEET — Health Canada’s legal maximum — for up to 8 hours in the worst blackfly and mosquito conditions. Overkill for a suburban patio.',
+                search: 'off deep woods sportsmen',
+                score: 8.3,
+                pros: ['Longest DEET staying power', 'Built for backcountry conditions'],
+                cons: ['Overkill for everyday use', 'Strongest odour and grease'],
+              },
+              {
+                badge: 'Best Everyday',
+                name: 'OFF FamilyCare (≈15% DEET)',
+                why: 'Lower-concentration, budget-friendly everyday can for the back door — about 15% DEET covers 3–4 hours for quick backyard trips and errands.',
+                search: 'off familycare insect repellent',
+                score: 7.8,
+                pros: ['Budget-friendly', 'Plenty for light exposure', 'Less odour than Deep Woods'],
+                cons: ['Only 3–4 hours', 'Not enough for the bush'],
+              },
+              {
+                badge: 'Best Alternative',
+                name: 'Icaridin (Picaridin) 20% Spray',
+                why: 'Matches DEET for mosquito and tick protection at 20%, but odourless, non-greasy, and gear-safe — and Health Canada’s preferred choice for children from 6 months.',
+                search: 'icaridin insect repellent',
+                score: 8.6,
+                pros: ['Odourless and non-greasy', 'Gear- and plastic-safe', 'Preferred for kids 6 mo+'],
+                cons: ['Slightly shorter longevity than 30% DEET'],
+              },
+            ]}
+            whichToBuy={
+              <>
+                <strong>One can for almost everything?</strong> The <em>Best Overall</em> Deep Woods 25% covers hikes and the cottage. <strong>Brutal blackfly country?</strong> Step up to the <em>Best for the Bush</em> Sportsmen. <strong>Quick backyard trips?</strong> The <em>Best Everyday</em> FamilyCare is plenty, and for kids or an all-day gear-safe option, grab the <em>Best Alternative</em> icaridin. To keep your whole yard bite-free so you spray yourself far less, nothing beats <Link href="/mosquito-control">professional barrier spray</Link>.
+              </>
+            }
+          />
         </div>
       </section>
 
@@ -204,7 +262,7 @@ export default function OffDeepWoodsDeetPage() {
                   <td className="px-4 py-3 font-mono text-gray-800">≈ 25%</td>
                   <td className="px-4 py-3 text-gray-700">5–6 hrs</td>
                   <td className="px-4 py-3 text-gray-700">Hiking, cottage, heavy dusk pressure</td>
-                  <td className="px-4 py-3"><BuyLink search="off deep woods">Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink search="off deep woods" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Deep Woods Dry</td>

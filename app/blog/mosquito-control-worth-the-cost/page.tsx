@@ -3,6 +3,9 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import FreshnessStamp from '@/components/FreshnessStamp'
+import AuthorByline from '@/components/AuthorByline'
+import TopPick from '@/components/TopPick'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { MOSQUITO_BLOGS } from '@/lib/constants'
 
@@ -12,6 +15,8 @@ const POST = {
   date: '2026-04-01',
   excerpt: 'Is professional mosquito control worth the money? An honest breakdown of costs vs. benefits — health risk reduction, property enjoyment value, and how it compares to DIY alternatives.',
 }
+
+const UPDATED = POST.date
 
 export const metadata: Metadata = buildMetadata({
   title: 'Is Mosquito Control Worth It? | Cost vs Value',
@@ -68,6 +73,7 @@ export default function MosquitoControlWorthCostPage() {
           <span className="bg-brand-800 text-brand-200 text-xs px-3 py-1 rounded-full mb-4 inline-block">Mosquito Control</span>
           <h1 className="text-3xl sm:text-4xl font-extrabold mb-4 leading-tight">{POST.title}</h1>
           <p className="text-brand-300 text-sm">Published {new Date(POST.date).toLocaleDateString('en-CA', { year: 'numeric', month: 'long', day: 'numeric' })} · By BuzzSkito</p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
 
@@ -90,6 +96,7 @@ export default function MosquitoControlWorthCostPage() {
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
+        <AuthorByline datePublished={POST.date} dateModified={UPDATED} />
         <p className="text-lg text-gray-600 not-prose border-l-4 border-amber-400 pl-5 py-2 mb-8">
           Is professional mosquito control actually worth the investment, or are you better off with citronella candles and DEET? This is an honest breakdown of the costs, benefits, and alternatives. Part of our <Link href={`/blog/${MOSQUITO_BLOGS.pillar.slug}`} className="text-brand-700 underline">Ultimate Backyard Mosquito Control Guide</Link>.
         </p>
@@ -182,6 +189,16 @@ export default function MosquitoControlWorthCostPage() {
           <li><strong>Choose a seasonal package:</strong> Consistent monthly treatments maintain protection across the entire season — gaps in coverage allow population recovery</li>
           <li><strong>Bundle tick + mosquito:</strong> If your property also has tick risk (and most GTA properties do), combined packages provide maximum value</li>
         </ul>
+
+        <TopPick
+          label="Best DIY Companion"
+          name="Summit Mosquito Bits (BTi larvicide)"
+          blurb="The one DIY product that genuinely complements professional treatment. BTi granules kill mosquito larvae in standing water you cannot drain — rain barrels, pond edges, French drains — without harming pets, birds, or fish. Attacks the breeding source that no barrier spray can reach, so populations recover more slowly between visits."
+          search="summit mosquito bits"
+          score={8.5}
+          pros={['Targets larvae before they hatch', 'Safe around pets, birds, and fish', 'Works on water you cannot drain']}
+          cons={['Not a standalone solution for biting adults', 'Needs reapplication through the season']}
+        />
 
         <h2>BuzzSkito Pricing</h2>
         <p>BuzzSkito offers transparent, competitive mosquito control pricing for all GTA properties:</p>

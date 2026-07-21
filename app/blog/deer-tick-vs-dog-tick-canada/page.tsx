@@ -3,10 +3,14 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import FreshnessStamp from '@/components/FreshnessStamp'
+import AuthorByline from '@/components/AuthorByline'
+import TopPick from '@/components/TopPick'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 
 const SLUG = 'deer-tick-vs-dog-tick-canada'
 const DATE = '2026-04-28'
+const UPDATED = '2026-07-12'
 const TITLE = 'Dog Tick vs Deer Tick — How to Tell Them Apart (Canada 2026)'
 
 const FAQS = [
@@ -102,7 +106,7 @@ export default function DeerTickVsDogTickPage() {
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
           <p className="text-xl text-brand-100 max-w-3xl">The Canadian field guide for telling them apart and knowing which one matters medically.</p>
-          <p className="text-sm text-brand-300 mt-3">Updated July 2026</p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
 
@@ -167,6 +171,7 @@ export default function DeerTickVsDogTickPage() {
 
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
+          <AuthorByline datePublished={DATE} dateModified={UPDATED} />
 
           <h2>The Three-Second Test</h2>
           <p>If you find a tick and need to ID it quickly:</p>
@@ -215,6 +220,15 @@ export default function DeerTickVsDogTickPage() {
           <h2>What to Do When You Find Either One</h2>
           <p>The removal technique is identical for both species: grasp the tick as close to the skin as possible with fine-tipped tweezers or a purpose-made tick tool, pull straight up with steady pressure, and disinfect the bite. A dedicated removal tool grips the mouthparts more reliably than fingers and reduces the risk of leaving the head behind.</p>
           <AffiliateDisclosure />
+          <TopPick
+            label="Best Tool for the Job"
+            name="Tick-Removal Tool Set (fine-tip tweezers + tick key)"
+            blurb="Whether it turns out to be a deer tick or a dog tick, the safe removal is the same — and a purpose-made tool grips the mouthparts far more reliably than fingernails. A tweezer-plus-key set keeps one in the first-aid kit and one in the car, so you can pull a tick straight out cleanly before the 24-hour Lyme-transmission window matters."
+            search="tick removal tool tweezers"
+            score={8.7}
+            pros={['Grips mouthparts to avoid leaving the head', 'Works for both tick species and on dogs', 'Compact — keep a spare in car and kit']}
+            cons={['Keep it disinfected between uses', 'Fine tips can bend if forced']}
+          />
           <p><BuyLink search="tick removal tool tweezers">Check tick-removal tools on Amazon.ca →</BuyLink></p>
           <p>For the full walkthrough and product picks, see our complete guides:</p>
           <ul>

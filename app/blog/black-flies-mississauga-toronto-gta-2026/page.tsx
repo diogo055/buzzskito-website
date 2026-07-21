@@ -4,6 +4,9 @@ import CTASection from '@/components/CTASection'
 import BlogPostCTA from '@/components/BlogPostCTA'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import FreshnessStamp from '@/components/FreshnessStamp'
+import AuthorByline from '@/components/AuthorByline'
+import TopPick from '@/components/TopPick'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 
 const POST = {
@@ -12,6 +15,9 @@ const POST = {
   date: '2026-05-22',
   excerpt: 'Black flies are pressuring the GTA harder than usual in 2026. Why Mississauga\'s Credit River corridor and the Don Valley get hit before downtown Toronto, the cottage-country migration pattern that drives the wave, and what GTA homeowners can actually do.',
 }
+
+const DATE = POST.date
+const UPDATED = POST.date
 
 const FAQS = [
   {
@@ -71,6 +77,7 @@ export default function BlackFliesMississaugaTorontoGTAPage() {
           <span className="bg-amber-500 text-white text-xs px-3 py-1 rounded-full mb-4 inline-block font-bold uppercase tracking-wider">GTA · 2026 Update</span>
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold mb-4 leading-tight">{POST.title}</h1>
           <p className="text-brand-300 text-sm">Published {new Date(POST.date).toLocaleDateString('en-CA', { year: 'numeric', month: 'long', day: 'numeric' })} · By Alex &amp; The BuzzSkito Team</p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
 
@@ -94,6 +101,7 @@ export default function BlackFliesMississaugaTorontoGTAPage() {
       </div>
 
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
+        <AuthorByline datePublished={DATE} dateModified={UPDATED} />
         <aside className="not-prose mb-6 rounded-xl bg-brand-50 border-l-4 border-brand-700 px-5 py-4">
           <p className="text-xs font-extrabold text-brand-700 uppercase tracking-wider mb-1.5">★ Cited as a source by</p>
           <p className="text-sm text-brand-900 leading-relaxed">
@@ -152,6 +160,17 @@ export default function BlackFliesMississaugaTorontoGTAPage() {
 
         <h3>Personal protection</h3>
         <p>Light-coloured clothing (beige, light grey, white). Long sleeves and pants during peak weeks. A hat with a brim — and a head net if you are gardening near the property edge or hiking the ravines. DEET (25-30% concentration) or picaridin (20%) on exposed skin; picaridin is odourless and won&rsquo;t damage gear the way DEET can. <BuyLink search="picaridin insect repellent">Check picaridin repellents on Amazon.ca →</BuyLink> For hands-free coverage during the worst weeks, a bug jacket with a built-in mesh hood beats reapplying spray — see our <Link href="/blog/bug-protective-clothing-canada" className="text-brand-700 underline">guide to bug-protective clothing</Link>. <BuyLink search="coghlans bug jacket">Check bug jackets on Amazon.ca →</BuyLink> For longer outdoor sessions, permethrin-treated clothing — apply 0.5% permethrin spray once, lasts six weeks or six washes. This is the single most effective personal protection layer for ravine walkers and gardeners.</p>
+
+        <TopPick
+          label="Best Personal Protection"
+          name="Permethrin clothing treatment spray (0.5%)"
+          blurb="Because black flies cut rather than pierce, they shrug off skin repellents faster than mosquitoes do — so the gold standard is treating the clothing itself. One application binds to fabric, survives weeks of wear and several washes, and keeps working hands-free while you garden or walk the ravines during the worst three weeks. Treat clothing only, never skin."
+          search="permethrin clothing spray"
+          score={8.8}
+          pros={['Gold standard for black fly protection', 'One treatment lasts several weeks and washes', 'Hands-free — no reapplying to skin', 'Ideal for ravine walkers and gardeners']}
+          cons={['For fabric only, never applied to skin', 'Needs to dry fully before wearing']}
+        />
+        <p className="text-sm text-gray-500 not-prose">Pair it with a skin repellent on exposed hands and face for full coverage during peak weeks.</p>
 
         <h3>Yard habitat modification</h3>
         <p>Trim back overgrown shrubs and dense vegetation along property edges. Open up the leeward (downwind) side of tree canopies where black flies cluster. Eliminate cool, damp, sheltered rest pockets in fence corners. None of these prevent emergence — the flies are coming from kilometres away — but they reduce the rest habitat that holds them in your yard.</p>

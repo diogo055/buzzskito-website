@@ -4,9 +4,13 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import SpecialistDisclosure from '@/components/SpecialistDisclosure'
+import FreshnessStamp from '@/components/FreshnessStamp'
+import AuthorByline from '@/components/AuthorByline'
+import TopPick from '@/components/TopPick'
 
 const SLUG = 'diatomaceous-earth-for-bed-bugs'
 const DATE = '2026-07-16'
+const UPDATED = '2026-07-16'
 const TITLE = 'Diatomaceous Earth for Bed Bugs — Does It Work? (Canada 2026)'
 
 const FAQS = [
@@ -77,6 +81,7 @@ export default function DiatomaceousEarthForBedBugsPage() {
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
           <p className="text-xl text-brand-100 max-w-3xl">A resistance-proof desiccant that works &mdash; slowly, and only where you place it right. The honest efficacy, the exact application map, and which diatomaceous earth is actually legal to use for pest control in Canada.</p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
 
@@ -136,11 +141,22 @@ export default function DiatomaceousEarthForBedBugsPage() {
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
           <AffiliateDisclosure />
+          <AuthorByline datePublished={DATE} dateModified={UPDATED} />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the registered dust and a proper applicator:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink search="safers diatomaceous earth">Safer&rsquo;s Diatomaceous Earth &rarr;</BuyLink>
             <BuyLink search="diatomaceous earth duster applicator">Bulb duster applicator &rarr;</BuyLink>
           </div>
+
+          <TopPick
+            label="Our Top Pick — the DE to actually buy"
+            name="Safer’s Diatomaceous Earth (PMRA-registered insecticide)"
+            blurb="The one grade that’s legal to use on bed bugs in Canada — it carries a Pest Control Products (PCP) registration number, so its label directions are the rules you follow. Amorphous, low-crystalline-silica dust: resistance-proof, and safe to apply into cracks and voids when used as a barely-visible film with a bulb duster. Pair it with a proper puffer applicator for the light, even haze that actually kills."
+            search="safers diatomaceous earth"
+            score={8.2}
+            pros={['The only PMRA-registered DE grade for pest use', 'Resistance-proof — bed bugs can’t adapt to a desiccant', 'Low crystalline silica, safe applied to label into cracks and voids']}
+            cons={['Slow — works over days, not on contact', 'Only works dry, undisturbed, and thinly applied', 'Not a standalone cure — one layer of a full plan']}
+          />
 
           <h2>Does Diatomaceous Earth Actually Kill Bed Bugs?</h2>
           <p>Yes &mdash; mechanically, and on a timescale of days rather than seconds. Diatomaceous earth is a powder milled from fossilized diatom shells; under magnification each particle is a jagged, porous fragment. When a bed bug crawls through a thin film of it, those particles scratch and absorb the waxy layer that seals moisture inside the insect&rsquo;s exoskeleton. Stripped of that waterproofing, the bug dehydrates and dies &mdash; no poison involved, just death by drying out.</p>

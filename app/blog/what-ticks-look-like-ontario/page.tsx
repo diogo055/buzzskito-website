@@ -3,6 +3,9 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import FreshnessStamp from '@/components/FreshnessStamp'
+import AuthorByline from '@/components/AuthorByline'
+import TopPick from '@/components/TopPick'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { TICK_BLOGS } from '@/lib/constants'
 
@@ -46,10 +49,12 @@ export default function WhatTicksLookLikePage() {
           <span className="bg-brand-800 text-brand-200 text-xs px-3 py-1 rounded-full mb-4 inline-block">Tick Control</span>
           <h1 className="text-3xl sm:text-4xl font-extrabold mb-4 leading-tight">{POST.title}</h1>
           <p className="text-brand-300 text-sm">Published {new Date(POST.date).toLocaleDateString('en-CA', { year: 'numeric', month: 'long', day: 'numeric' })} · Updated July 2026 · By BuzzSkito</p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
+        <AuthorByline datePublished={POST.date} dateModified={UPDATED} />
         <div className="not-prose bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
           <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
           <p className="text-base text-gray-800 leading-relaxed">
@@ -181,6 +186,15 @@ export default function WhatTicksLookLikePage() {
         <h2>Found a Tick? Have the Right Removal Tool Ready</h2>
         <AffiliateDisclosure />
         <p>Because a feeding tick can be smaller than a sesame seed, a purpose-built removal tool that slides under the head gives a far cleaner pull than fingers. Fine-tipped tweezers, Tick Twister-style hooks, and tick keys all work — keep one in your first-aid kit and one in your car. <BuyLink search="tick removal tool tweezers">Check tick-removal tools on Amazon.ca &rarr;</BuyLink></p>
+        <TopPick
+          label="Our Top Pick"
+          name="Tick Twister-style removal hook set"
+          blurb="A curved hook slides under the tick's head and lifts it out with a gentle twist — no squeezing the body, which is what pushes pathogens back into the bite. The best keep-in-your-kit tool for the sesame-seed-sized adults and near-invisible nymphs this guide describes."
+          search="tick twister removal tool"
+          score={8.7}
+          pros={['Grips at the head, so the body is never squeezed', 'Works on tiny nymphs and larger engorged adults', 'Cheap, reusable, and pocket-sized for the car or first-aid kit']}
+          cons={['Very small — easy to misplace without a keyring loop', 'Fine-tipped tweezers are still handy as a backup']}
+        />
         <p>Not sure which style to pick? Our <Link href="/blog/tick-removal-tool-guide" className="text-brand-700 underline">tick-removal tool guide</Link> compares fine-tipped tweezers, hooks, and tick keys so you have the right one before the next bite. Then follow our step-by-step <Link href="/blog/how-to-remove-tick-safely" className="text-brand-700 underline">safe tick-removal instructions</Link>.</p>
 
         <h2>Where Ticks Are Found in Ontario Yards</h2>

@@ -3,7 +3,10 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
-import TopPick from '@/components/TopPick'
+import AwardRow from '@/components/AwardRow'
+import StickyBuyBar from '@/components/StickyBuyBar'
+import FreshnessStamp from '@/components/FreshnessStamp'
+import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 
 const SLUG = 'mosquito-fogger-canada'
@@ -69,8 +72,11 @@ export default function MosquitoFoggerCanadaPage() {
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
           <p className="text-xl text-brand-100 max-w-3xl">How foggers actually work, propane vs electric, which fogging liquid goes in the tank, the top Canadian models and prices, and the honest limits &mdash; temporary knockdown, not lasting control.</p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
+
+      <StickyBuyBar name="Black Flag Propane Mosquito Fogger" search="black flag propane fogger" label="Best overall fogger" />
 
       <section className="bg-white px-4 pt-8">
         <div className="max-w-4xl mx-auto">
@@ -136,12 +142,54 @@ export default function MosquitoFoggerCanadaPage() {
         </div>
       </section>
 
-      <section className="bg-white px-4">
-        <div className="max-w-4xl mx-auto">
-          <TopPick
-            name="Black Flag Propane Mosquito Fogger"
-            blurb="The classic backyard knockdown unit — cordless, cheap to run, and clears the adult mosquitoes from your yard 20–30 minutes before guests arrive. Pair it with a PMRA-registered fogging insecticide."
-            search="black flag propane fogger"
+      <section className="bg-white px-4 py-6">
+        <div className="max-w-5xl mx-auto">
+          <AwardRow
+            heading="Our Picks — Best Mosquito Foggers in Canada"
+            awards={[
+              {
+                badge: 'Best Overall',
+                name: 'Black Flag Propane Mosquito Fogger',
+                why: 'The classic backyard knockdown unit — cordless, budget-friendly, and clears the adult mosquitoes from your yard 20–30 minutes before guests arrive. Pair it with a PMRA-registered fogging insecticide.',
+                search: 'black flag propane fogger',
+                score: 8.4,
+                featured: true,
+                pros: ['Cordless and portable', 'Budget-friendly to buy', 'Fast visible knockdown'],
+                cons: ['Almost no residual', 'Needs oil-based fogging liquid'],
+              },
+              {
+                badge: 'Best for Campsites',
+                name: 'Repel Propane Mosquito Fogger',
+                why: 'A portable propane unit built for clearing yards and campsites fast — no outlet or extension cord, so it goes wherever the mosquitoes are worst.',
+                search: 'repel propane insect fogger',
+                score: 8.0,
+                pros: ['Great for cottages & camping', 'Runs anywhere on propane', 'Simple to operate'],
+                cons: ['Knockdown only, no residual', 'Refill liquid sells out in summer'],
+              },
+              {
+                badge: 'Best Large Tank',
+                name: 'Burgess Propane Mosquito Fogger',
+                why: 'A larger-tank propane fogger that covers more ground per fill — the pick if you have a bigger yard and want fewer refills while walking the perimeter.',
+                search: 'burgess propane insect fogger',
+                score: 8.1,
+                pros: ['Bigger tank, faster coverage', 'Fewer refills per session', 'Proven thermal design'],
+                cons: ['Bulkier to carry', 'Same short-lived knockdown'],
+              },
+              {
+                badge: 'Best Reusable',
+                name: 'Electric ULV Cold Fogger',
+                why: 'An electric cold fogger that atomizes a reusable water-based concentrate into a fine, controllable mist — more precise and economical per application, and doubles for indoor and greenhouse work.',
+                search: 'electric ulv cold fogger',
+                score: 7.8,
+                pros: ['Reusable water-based concentrate', 'Precise droplet control', 'Works indoors too'],
+                cons: ['Premium up-front cost', 'Needs a power source'],
+              },
+            ]}
+            whichToBuy={
+              <>
+                <strong>Hosting a backyard event?</strong> The <em>Best Overall</em> Black Flag clears the yard 20–30 minutes before guests arrive. <strong>Cottage or campsite?</strong> The <em>Best for Campsites</em> Repel runs anywhere on propane. <strong>Bigger lot?</strong> The <em>Best Large Tank</em> Burgess covers more per fill — but every fogger is knockdown only, so for weeks of hands-off protection that also handles ticks, nothing beats <Link href="/mosquito-control">professional barrier spray</Link>.
+              </>
+            }
           />
         </div>
       </section>
@@ -179,6 +227,7 @@ export default function MosquitoFoggerCanadaPage() {
 
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
+          <AuthorByline datePublished={DATE} dateModified={UPDATED} />
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Compare current Canadian prices on propane foggers, electric ULV cold foggers, and fogging liquid:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
@@ -213,28 +262,28 @@ export default function MosquitoFoggerCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Thermal / propane</td>
                   <td className="px-4 py-3 text-gray-700">Classic backyard knockdown</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$60 – $90</td>
-                  <td className="px-4 py-3"><BuyLink search="black flag propane fogger">Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink search="black flag propane fogger" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Repel Propane Fogger</td>
                   <td className="px-4 py-3 text-gray-700">Thermal / propane</td>
                   <td className="px-4 py-3 text-gray-700">Yard &amp; campsite clearing</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$60 – $95</td>
-                  <td className="px-4 py-3"><BuyLink search="repel propane insect fogger">Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink search="repel propane insect fogger" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Burgess Propane Fogger</td>
                   <td className="px-4 py-3 text-gray-700">Thermal / propane</td>
                   <td className="px-4 py-3 text-gray-700">Larger tank · faster coverage</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$70 – $110</td>
-                  <td className="px-4 py-3"><BuyLink search="burgess propane insect fogger">Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink search="burgess propane insect fogger" block>Check price →</BuyLink></td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 font-bold text-brand-800">Electric ULV Cold Fogger</td>
                   <td className="px-4 py-3 text-gray-700">Cold / electric</td>
                   <td className="px-4 py-3 text-gray-700">Reusable · water-based · precise</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$80 – $250</td>
-                  <td className="px-4 py-3"><BuyLink search="electric ulv cold fogger">Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink search="electric ulv cold fogger" block>Check price →</BuyLink></td>
                 </tr>
               </tbody>
             </table>

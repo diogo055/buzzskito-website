@@ -3,10 +3,15 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
+import AwardRow from '@/components/AwardRow'
+import StickyBuyBar from '@/components/StickyBuyBar'
+import FreshnessStamp from '@/components/FreshnessStamp'
+import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 
 const SLUG = 'co2-mosquito-trap-canada'
 const DATE = '2026-07-14'
+const UPDATED = '2026-07-14'
 const TITLE = 'CO2 Mosquito Traps in Canada 2026: Biogents vs Propane Traps (No Tank Required)'
 
 const FAQS = [
@@ -77,8 +82,11 @@ export default function Co2MosquitoTrapCanadaPage() {
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
           <p className="text-xl text-brand-100 max-w-3xl">The trap brand mosquito researchers actually deploy, why electric &amp; lure beats a propane tank for most GTA backyards, and the low-tech BG-GAT that quietly wipes out egg-laying tiger mosquitoes.</p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
+
+      <StickyBuyBar name="Biogents BG-Mosquitaire (electric CO2 mosquito trap)" search="biogents mosquitaire mosquito trap" label="Best CO2 trap" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -97,6 +105,58 @@ export default function Co2MosquitoTrapCanadaPage() {
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
           </div>
+        </div>
+      </section>
+
+      <section className="bg-white px-4 py-6">
+        <div className="max-w-5xl mx-auto">
+          <AwardRow
+            heading="Our Picks — Best CO2 Mosquito Traps in Canada"
+            awards={[
+              {
+                badge: 'Best Overall',
+                name: 'Biogents BG-Mosquitaire (electric CO₂)',
+                why: 'Research-grade airflow and the BG-Lure catch host-seeking females on a wall plug alone — no propane tank, with an optional CO₂ boost for heavy-pressure yards.',
+                search: 'biogents mosquitaire mosquito trap',
+                score: 9.0,
+                featured: true,
+                pros: ['No tank — runs on a plug + lure', 'Research-grade capture design', 'Low running cost'],
+                cons: ['Covers a zone, not full acreage', 'Works over weeks, not same-day'],
+              },
+              {
+                badge: 'Best for Patios',
+                name: 'Biogents BG-Home',
+                why: 'A very quiet plug-in unit sized for an indoor room or covered patio, using the same BG-Lure chemistry — ideal for tiger-mosquito hotspots close to where you sit.',
+                search: 'biogents bg-home mosquito trap',
+                score: 8.4,
+                pros: ['Very quiet fan', 'Great for patios & indoors', 'No tank required'],
+                cons: ['Smaller coverage zone', 'Needs lure refills'],
+              },
+              {
+                badge: 'Best Passive',
+                name: 'Biogents BG-GAT (Gravid Aedes Trap)',
+                why: 'Zero power, zero CO₂ — it kills egg-laying Aedes females before they seed the next generation. Deploy in clusters of three or more for set-and-forget control.',
+                search: 'biogents gat trap kit',
+                score: 8.2,
+                pros: ['No power or CO₂ needed', 'Kills egg-laying females', 'Perfect for cottages & off-grid'],
+                cons: ['Best deployed in clusters', 'Targets Aedes specifically'],
+              },
+              {
+                badge: 'Best for Acreage',
+                name: 'Propane CO₂ Trap (Mosquito Magnet)',
+                why: 'Burns propane for a strong CO₂ plume that reaches up to about 1 acre — the right call for rural lots and cottage country if you accept the tank and premium running cost.',
+                search: 'mosquito magnet trap',
+                score: 7.6,
+                pros: ['Reaches up to ~1 acre', 'Strong, steady CO₂ plume', 'Best for large rural lots'],
+                cons: ['Mandatory 20 lb propane tank', 'Premium fuel + cartridge cost'],
+              },
+            ]}
+            whichToBuy={
+              <>
+                <strong>Normal suburban backyard?</strong> The <em>Best Overall</em> BG-Mosquitaire skips the tank and wins on running cost. <strong>Patio or indoor hotspot?</strong> The <em>Best for Patios</em> BG-Home is quiet and compact. <strong>Cottage or off-grid?</strong> A cluster of <em>Best Passive</em> BG-GATs needs no power. <strong>1+ acre rural lot?</strong> The <em>Best for Acreage</em> propane trap earns its reach — but for same-day, whole-yard relief that also kills ticks, nothing beats <Link href="/mosquito-control">professional barrier spray</Link>.
+              </>
+            }
+          />
         </div>
       </section>
 
@@ -164,6 +224,7 @@ export default function Co2MosquitoTrapCanadaPage() {
 
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
+          <AuthorByline datePublished={DATE} dateModified={UPDATED} />
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Compare current Canadian models and prices on Amazon.ca:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">

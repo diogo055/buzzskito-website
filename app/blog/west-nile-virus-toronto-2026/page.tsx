@@ -3,6 +3,8 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import AuthorByline from '@/components/AuthorByline'
 import BuyLink from '@/components/BuyLink'
+import TopPick from '@/components/TopPick'
+import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 
@@ -72,6 +74,7 @@ export default function WestNileTorontoPage() {
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
           <p className="text-xl text-brand-100 max-w-3xl">The risk window is August. Here is what actually raises it, and what lowers it.</p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
 
@@ -177,6 +180,16 @@ export default function WestNileTorontoPage() {
             <li><strong>Fix screens</strong> on windows and doors.</li>
             <li><strong>Reduce the resting adult population.</strong> <Link href="/mosquito-control">A professional barrier spray</Link> treats the shaded vegetation, hedge interiors, and fence lines where adult mosquitoes spend the day, with up to 30 days of residual protection through the August peak.</li>
           </ol>
+
+          <TopPick
+            label="Best for the Culex breeding sites you can't drain"
+            name="Summit Mosquito Dunks (BTI Larvicide)"
+            blurb="The single most West Nile–specific product a homeowner can use: a floating Bti dunk that kills Culex larvae in the stagnant, organically rich water they breed in — rain barrels, ornamental ponds, clogged low spots. Harmless to fish, pets, birds, and people, and one dunk keeps working for about 30 days."
+            search="summit mosquito dunks"
+            score={8.7}
+            pros={['Targets the exact stagnant water Culex prefer', 'Safe around fish, pets, birds, and people', 'One dunk lasts ~30 days']}
+            cons={['Larvicide only — no effect on adult biters', 'Needs replacing monthly through the season']}
+          />
 
           <h2>Where to Get Live Case Numbers</h2>
           <p>Case counts change weekly and any static article &mdash; this one included &mdash; goes stale fast. For current confirmed cases and positive mosquito-pool results, go to the primary sources:</p>

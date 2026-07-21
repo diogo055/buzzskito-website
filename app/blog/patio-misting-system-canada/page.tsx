@@ -4,9 +4,14 @@ import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import AwardRow from '@/components/AwardRow'
+import StickyBuyBar from '@/components/StickyBuyBar'
+import FreshnessStamp from '@/components/FreshnessStamp'
+import AuthorByline from '@/components/AuthorByline'
 
 const SLUG = 'patio-misting-system-canada'
 const DATE = '2026-07-14'
+const UPDATED = '2026-07-14'
 const TITLE = 'Patio Misting Systems in Canada 2026: DIY Kits vs Professional Mosquito Misting Installs'
 
 const FAQS = [
@@ -73,8 +78,11 @@ export default function PatioMistingSystemCanadaPage() {
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
           <p className="text-xl text-brand-100 max-w-3xl">Cooling mist vs insecticide mist (the #1 confusion), the hose-fed kits worth buying on Amazon.ca, why MistAway-style installs barely exist in Canada, real water-pressure numbers, and Ontario winterization — from operators who fight GTA mosquitoes for a living.</p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
+
+      <StickyBuyBar name="HOMENOTE Misting Kit with 5 Brass Nozzles" search="homenote misting kit brass nozzles" label="Best small-patio kit" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -130,9 +138,62 @@ export default function PatioMistingSystemCanadaPage() {
         </div>
       </section>
 
+      <section className="bg-white px-4 py-6">
+        <div className="max-w-5xl mx-auto">
+          <AwardRow
+            heading="Our Picks — Patio Misting Kits in Canada"
+            awards={[
+              {
+                badge: 'Best Small-Patio Kit',
+                name: 'HOMENOTE Misting Kit (5 brass nozzles, 16.4 ft)',
+                why: 'A short line on ordinary municipal pressure keeps every nozzle misting properly instead of dribbling, and the brass tips survive the monthly vinegar de-scaling that hard GTA water demands.',
+                search: 'homenote misting kit brass nozzles',
+                score: 8.6,
+                featured: true,
+                pros: ['Short line holds pressure per nozzle', 'Brass tips resist scale', 'Fifteen-minute hose-fed install'],
+                cons: ['Covers one seating zone only', 'Coarser mist on low-pressure homes'],
+              },
+              {
+                badge: 'Best Mid-Size Deck',
+                name: 'Landgarden Misting Kit (19.36 ft)',
+                why: 'The mid-size sweet spot — enough line to wrap the sun-exposed edge of a standard deck or the front of a gazebo while each nozzle still gets workable tap pressure.',
+                search: 'landgarden misting kit',
+                score: 8.0,
+                pros: ['Good coverage-to-pressure balance', 'Mounts high for cleaner evaporation', 'Fits most decks and gazebos'],
+                cons: ['Needs 8–10 ft mounting height to shine', 'Still hose-pressure limited'],
+              },
+              {
+                badge: 'Best Large-Area Kit',
+                name: 'Furnrubden Patio Misting Kit (60 ft)',
+                why: 'The one to buy for a full pergola, wraparound deck, or fence line — most flexible of the kits as long as you install a third to half of the nozzles and cap the rest.',
+                search: 'furnrubden patio misting kit 60ft',
+                score: 7.6,
+                pros: ['Longest reach of the group', 'Flexible nozzle placement', 'Best for large seating areas'],
+                cons: ['No house tap drives every nozzle', 'Requires capping spare ports'],
+              },
+              {
+                badge: 'Best Mosquito-Focused Pick',
+                name: 'Mosquito Sniper System (trimmer-powered applicator)',
+                why: 'The only genuinely mosquito-focused option — converts a gas string trimmer into a mist blower to push treatment into the foliage where mosquitoes rest, using the same airflow principle as pro backpack misters.',
+                search: 'mosquito sniper system',
+                score: 7.2,
+                pros: ['Targets daytime mosquito resting sites', 'Airflow-driven like pro misters', 'Genuine DIY treatment tool'],
+                cons: ['Needs a compatible gas trimmer', 'Must use a PMRA-registered product'],
+              },
+            ]}
+            whichToBuy={
+              <>
+                <strong>Condo balcony or bistro-set patio?</strong> The <em>Best Small-Patio</em> HOMENOTE keeps every nozzle misting. <strong>Standard deck or gazebo?</strong> The <em>Best Mid-Size</em> Landgarden is the sweet spot. <strong>Pergola or long fence line?</strong> The <em>Best Large-Area</em> Furnrubden covers it if you cap spare ports. Remember all three are comfort equipment — for actual mosquito reduction, <Link href="/mosquito-control">licensed barrier spray</Link> treats the vegetation where mosquitoes rest.
+              </>
+            }
+          />
+        </div>
+      </section>
+
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
           <AffiliateDisclosure />
+          <AuthorByline datePublished={DATE} dateModified={UPDATED} />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability on the two kits we recommend most often:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink search="homenote misting kit brass nozzles">HOMENOTE 16.4 ft kit on Amazon.ca →</BuyLink>

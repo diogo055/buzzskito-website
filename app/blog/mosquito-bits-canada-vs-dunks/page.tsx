@@ -4,6 +4,9 @@ import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
 import TopPick from '@/components/TopPick'
+import StickyBuyBar from '@/components/StickyBuyBar'
+import FreshnessStamp from '@/components/FreshnessStamp'
+import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 
 const SLUG = 'mosquito-bits-canada-vs-dunks'
@@ -92,8 +95,11 @@ export default function MosquitoBitsCanadaPage() {
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
           <p className="text-xl text-brand-100 max-w-3xl">Pricing across Canadian retailers, BTI granules vs dunks tablets, and which one belongs in your rain barrel.</p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
+
+      <StickyBuyBar name="Summit Mosquito Bits (BTI granules)" search="summit mosquito bits" label="Fastest larvae kill" />
 
       {/* QUICK ANSWER — first content element */}
       <section className="bg-white px-4 pt-8">
@@ -180,6 +186,9 @@ export default function MosquitoBitsCanadaPage() {
             name="Summit Mosquito Bits (BTI granules)"
             blurb="The fastest larvae kill you can buy — starts releasing BTI within 30 minutes and clears treated water within 24 hours. Keep Dunks in the rain barrel for 30-day coverage; keep Bits on the shelf for every unexpected larvae find."
             search="summit mosquito bits"
+            score={8.7}
+            pros={['Releases BTI within about 30 minutes', 'Full larvae kill within 24 hours', 'Safe for pets, fish, and pollinators', 'Budget-friendly per treated water source']}
+            cons={['Shorter duration than Dunks (7–14 days)', 'Only treats the water you apply it to']}
           />
         </div>
       </section>
@@ -229,6 +238,7 @@ export default function MosquitoBitsCanadaPage() {
 
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
+          <AuthorByline datePublished={DATE} dateModified={UPDATED} />
           <h2>How Mosquito Bits Work</h2>
           <p>Mosquito Bits are corn-cob granules coated with BTI (<em>Bacillus thuringiensis</em> subspecies <em>israelensis</em>) — a soil bacterium discovered in 1976 that specifically targets the digestive systems of mosquito and black fly larvae. The corn-cob granules float briefly when sprinkled onto water, then sink as they absorb moisture. As the bits dissolve, they release BTI proteins into the water column where larvae filter-feed. Not sure the wrigglers you found are mosquito larvae? Our <Link href="/blog/mosquito-larvae-identification">mosquito larvae identification guide</Link> shows exactly what to look for before you treat.</p>
           <p>BTI is one of the most species-specific insecticides ever developed. It only affects mosquito larvae, black fly larvae, and a few related midge species. Humans, pets, fish, frogs, dragonflies, water beetles, beneficial insects, pollinators, and birds are completely unaffected. Health Canada has approved BTI for residential use, and some provinces approve it for drinking water reservoirs.</p>

@@ -2,11 +2,16 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
+import AwardRow from '@/components/AwardRow'
+import StickyBuyBar from '@/components/StickyBuyBar'
+import FreshnessStamp from '@/components/FreshnessStamp'
+import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import SpecialistDisclosure from '@/components/SpecialistDisclosure'
 
 const SLUG = 'best-bed-bug-steamer-canada'
 const DATE = '2026-07-16'
+const UPDATED = '2026-07-16'
 const TITLE = 'Best Bed Bug Steamer Canada 2026 — Vapamore MR-100 vs McCulloch MC1275 vs PurSteam'
 
 const FAQS = [
@@ -89,8 +94,11 @@ export default function BestBedBugSteamerCanadaPage() {
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
           <p className="text-xl text-brand-100 max-w-3xl">The three steamers actually worth buying on Amazon.ca, the 100°C contact-kill science, the slow-pass technique that decides success or failure, and an honest list of what steam cannot reach.</p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
+
+      <StickyBuyBar name="Vapamore MR-100 Primo bed bug steamer" search="vapamore mr-100 steamer" label="Best overall" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -113,6 +121,7 @@ export default function BestBedBugSteamerCanadaPage() {
 
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
+          <AuthorByline datePublished={DATE} dateModified={UPDATED} />
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Compare current Canadian availability for the three steamers covered in this guide:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
@@ -120,6 +129,45 @@ export default function BestBedBugSteamerCanadaPage() {
             <BuyLink search="mcculloch mc1275 steam cleaner">McCulloch MC1275 →</BuyLink>
             <BuyLink search="pursteam steam cleaner">PurSteam →</BuyLink>
           </div>
+
+          <AwardRow
+            heading="Our Picks — Best Bed Bug Steamers in Canada"
+            awards={[
+              {
+                badge: 'Best Overall',
+                name: 'Vapamore MR-100 Primo',
+                why: 'A 1,500 W stainless-steel boiler with ~60 minutes of dry-vapour steam per fill and a lifetime warranty — enough sustained, low-moisture heat to kill every bed bug life stage, including eggs, on contact.',
+                search: 'vapamore mr-100 steamer',
+                score: 9.3,
+                featured: true,
+                pros: ['~60 min run time per fill', 'Low-moisture dry vapour', 'Lifetime warranty'],
+                cons: ['Premium price tier', '~11 min heat-up'],
+              },
+              {
+                badge: 'Best Value',
+                name: 'McCulloch MC1275',
+                why: 'The most-recommended budget canister for bed bug work in North America: 1,500 W, a 1.4 L tank good for ~45 minutes, and an 18-piece kit with the triangular seam brush — for roughly half the Vapamore price.',
+                search: 'mcculloch mc1275 steam cleaner',
+                score: 8.4,
+                pros: ['~45 min per 1.4 L fill', 'Triangular seam brush included', 'Best price-to-capability'],
+                cons: ['Wetter steam output', 'More plastic build'],
+              },
+              {
+                badge: 'Best Handheld Supplement',
+                name: 'PurSteam handheld',
+                why: 'Heats up in 3–4 minutes and costs a fraction of a canister — ideal for 7–10 day follow-up sessions, luggage after travel, and bed-leg touch-ups. Buy it as a second machine, not your primary tool.',
+                search: 'pursteam steam cleaner',
+                score: 7.0,
+                pros: ['3–4 min heat-up', 'Cheap and portable', 'Great for follow-up passes'],
+                cons: ['Only ~10–15 min per fill', 'Pressure drops as tank empties'],
+              },
+            ]}
+            whichToBuy={
+              <>
+                <strong>Serious or multi-room infestation?</strong> Buy the <em>Best Overall</em> Vapamore MR-100 — the run time and warranty pay off across long slow-pass sessions. <strong>Single bedroom caught early on a budget?</strong> The <em>Best Value</em> McCulloch MC1275 does the same job for roughly half the price. <strong>Already own a canister?</strong> Add the <em>Best Handheld Supplement</em> PurSteam for fast follow-up passes inside the 7–10 day re-treatment window.
+              </>
+            }
+          />
 
           <h2>Why does steam work so well on bed bugs?</h2>
           <p>Because heat kills every bed bug life stage — including the eggs that survive almost everything else. Steam exits the boiler at 100°C or hotter, and university extension research shows adults and nymphs die within minutes above roughly 48–50°C and near-instantly above 60°C, while eggs die within about a minute once surfaces pass roughly 55°C. Direct contact with 100°C steam is effectively an instant kill for all of them.</p>

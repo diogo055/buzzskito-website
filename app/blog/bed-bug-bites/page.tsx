@@ -4,9 +4,13 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 import SpecialistDisclosure from '@/components/SpecialistDisclosure'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import BuyLink from '@/components/BuyLink'
+import FreshnessStamp from '@/components/FreshnessStamp'
+import AuthorByline from '@/components/AuthorByline'
+import TopPick from '@/components/TopPick'
 
 const SLUG = 'bed-bug-bites'
 const DATE = '2026-07-19'
+const UPDATED = '2026-07-19'
 const TITLE = 'Bed Bug Bites: What They Look Like, How Long They Last & How to Tell for Sure (2026)'
 
 const FAQS = [
@@ -93,11 +97,14 @@ export default function BedBugBitesPage() {
           <p className="text-xl text-brand-100 leading-relaxed">
             The line-and-cluster pattern that gives bed bugs away, side-by-side comparisons against mosquito and flea bites, why bites can take two weeks to appear, what actually relieves the itch &mdash; and the only way to confirm what bit you.
           </p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
           <div className="mt-6 text-brand-300 text-sm">Published July 19, 2026 &middot; 11 min read</div>
         </div>
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-14 prose-brand">
+
+        <AuthorByline datePublished={DATE} dateModified={UPDATED} />
 
         <div className="not-prose bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
           <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
@@ -188,6 +195,15 @@ export default function BedBugBitesPage() {
         <h2>How do you treat bed bug bites?</h2>
         <p>For typical bites, care is simple and aimed at the itch: <strong>wash the area with soap and water</strong>, apply a cool compress, and resist scratching. A low-strength over-the-counter hydrocortisone cream or an oral antihistamine can help relieve itching for many people &mdash; follow the product label, and ask a pharmacist or healthcare provider what is appropriate for you, especially for children, during pregnancy, or on facial skin. Keeping fingernails short reduces the damage if you scratch in your sleep.</p>
         <AffiliateDisclosure />
+        <TopPick
+          label="Best for Itch Relief"
+          name="1% Hydrocortisone Anti-Itch Cream"
+          blurb="A low-strength over-the-counter hydrocortisone cream is the standard first line for the itch and inflammation of bed bug bites. Widely available, inexpensive, and gentle enough for most adults — follow the label, and ask a pharmacist about use on children, during pregnancy, or on facial skin."
+          search="hydrocortisone anti itch cream"
+          score={8.4}
+          pros={['Calms itch and inflammation fast', 'Inexpensive and easy to find', 'Reduces the urge to scratch, lowering infection risk']}
+          cons={['Treats the symptom, not the infestation', 'Not for long-term or facial use without guidance']}
+        />
         <div className="not-prose my-4 flex flex-wrap gap-3">
           <BuyLink search="hydrocortisone anti itch cream">Anti-itch cream options &rarr;</BuyLink>
         </div>

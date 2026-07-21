@@ -3,6 +3,8 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import AuthorByline from '@/components/AuthorByline'
 import BuyLink from '@/components/BuyLink'
+import TopPick from '@/components/TopPick'
+import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 
@@ -72,6 +74,7 @@ export default function AreTicksArachnidsOrInsectsPage() {
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
           <p className="text-xl text-brand-100 max-w-3xl">Short answer: arachnids. Here is how eight legs, no wings, and no antennae settle the question for good.</p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
 
@@ -168,6 +171,17 @@ export default function AreTicksArachnidsOrInsectsPage() {
             <li><strong>Yard control targets arachnid habitat.</strong> Effective treatment knocks down the damp edges and brush lines where ticks quest, which is a different playbook than fogging for adult flying insects.</li>
           </ol>
           <p>If you want to confirm what you are actually dealing with before you treat, compare it against our photo-based rundowns of <Link href="/blog/what-ticks-look-like-ontario">what ticks look like</Link> and the <Link href="/blog/deer-tick-vs-dog-tick-canada">deer tick vs dog tick</Link> comparison. And if a tick is already attached, keep a fine-tipped removal tool on hand so you can grip it close to the skin and pull straight out. <BuyLink search="tick removal tool tweezers">Check tick-removal tools on Amazon →</BuyLink></p>
+
+          <TopPick
+            label="Handy to Keep Nearby"
+            name="Fine-Tip Tick Removal Tool"
+            blurb="Because ticks anchor with their mouthparts, a fine-tipped tool lets you grip an attached tick close to the skin and pull straight out without squeezing its body — the removal method health authorities recommend."
+            search="tick removal tool tweezers"
+            score={8.5}
+            pros={['Grips close to the skin for a clean straight pull', 'Compact enough for a bag, car, or first-aid kit', 'Works on tiny nymph ticks that fingers miss']}
+            cons={['Not a substitute for treating tick habitat in the yard', 'Easy to misplace when you need it most']}
+          />
+
 
           <h2>Quick Recap</h2>
           <ul>

@@ -3,6 +3,8 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import AuthorByline from '@/components/AuthorByline'
 import BuyLink from '@/components/BuyLink'
+import TopPick from '@/components/TopPick'
+import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 
@@ -118,6 +120,7 @@ export default function MosquitoLarvaePage() {
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
           <p className="text-xl text-brand-100 max-w-3xl">How to identify, where they live, and how to get rid of them — Ontario-focused.</p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
 
@@ -152,6 +155,15 @@ export default function MosquitoLarvaePage() {
             <BuyLink search="summit mosquito bits">Mosquito Bits on Amazon.ca &rarr;</BuyLink>
             <Link href="/blog/mosquito-bits-canada-vs-dunks" className="text-sm font-semibold text-brand-700 hover:text-brand-600">Dunks or Bits? See the comparison &rarr;</Link>
           </div>
+          <TopPick
+            label="Best for Water You Can't Drain"
+            name="Summit BTI Mosquito Dunks"
+            blurb="For a rain barrel, ornamental pond, or drainage ditch you can't empty, a BTI dunk is the standout larvae killer. The Bacillus thuringiensis israelensis targets only mosquito (and blackfly/fungus-gnat) larvae, wiping them out within 24–48 hours while staying harmless to fish, frogs, pets, birds, bees, and people. One dunk keeps roughly 100 sq ft of water surface larvae-free for about 30 days."
+            search="summit mosquito dunks"
+            score={9.0}
+            pros={['Kills larvae in 24–48 hours', 'Safe for fish, pets, and people', 'One dunk lasts ~30 days']}
+            cons={['Slower than simply draining the water', 'Not needed for water you can just dump']}
+          />
           <div className="rounded-xl border border-gray-200 overflow-hidden">
             <table className="w-full text-sm">
               <thead className="bg-brand-50">

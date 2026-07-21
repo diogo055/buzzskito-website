@@ -3,6 +3,8 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import AuthorByline from '@/components/AuthorByline'
 import BuyLink from '@/components/BuyLink'
+import TopPick from '@/components/TopPick'
+import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 
@@ -72,6 +74,7 @@ export default function CanTicksFlyJumpSwimPage() {
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
           <p className="text-xl text-brand-100 max-w-3xl">Fly, jump, swim, drop from trees, drown — every tick-movement myth settled, and what ticks actually do to reach you.</p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
 
@@ -177,6 +180,16 @@ export default function CanTicksFlyJumpSwimPage() {
             <li><strong>Professional barrier spray.</strong> <Link href="/tick-control">BuzzSkito&rsquo;s tick barrier treatment</Link> targets the lawn edges, leaf litter, and shaded borders where ticks quest, for 80–95% population reduction through the season.</li>
           </ol>
           <p>Because a questing tick crawls slowly for minutes to hours before it bites, a tick check after time outdoors usually catches it in time. Keep a fine-tipped removal tool handy so you can grip a tick close to the skin and pull straight out. <BuyLink search="tick removal tool tweezers">Check tick-removal tools on Amazon.ca →</BuyLink></p>
+
+          <TopPick
+            label="Our Top Pick — Tick Removal"
+            name="Fine-Tipped Tick Removal Tool"
+            blurb="Because a questing tick crawls for minutes before biting, a prompt, clean removal is your best defence. A dedicated fine-tipped remover grips the tick close to the skin and pulls it straight out in one piece — far more reliable than fingernails, and worth keeping in the car, the trail bag, and by the door."
+            search="tick removal tool tweezers"
+            score={8.5}
+            pros={['Grips close to the skin to lift the whole tick', 'Reduces the risk of leaving mouthparts behind', 'Compact and cheap enough to keep several']}
+            cons={['Needs a steady hand on tiny nymphs', 'Not a substitute for a full tick check']}
+          />
 
           <h2>Related Reading</h2>
           <ul>

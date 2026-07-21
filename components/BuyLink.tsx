@@ -15,19 +15,21 @@ export default function BuyLink({
   search,
   children,
   className = '',
+  block = false,
 }: {
   asin?: string
   search?: string
   children: React.ReactNode
   className?: string
+  /** Full-width, ≥44px tap-target button — for comparison-table rows and cards on mobile. */
+  block?: boolean
 }) {
   if (!AMAZON_ENABLED) return null
+  const base = block
+    ? 'not-prose flex w-full min-h-[44px] items-center justify-center gap-1.5 rounded-xl bg-gradient-to-b from-amber-500 to-amber-600 px-5 py-3 text-sm font-bold text-white no-underline shadow-sm transition-transform hover:-translate-y-0.5'
+    : 'not-prose inline-flex items-center gap-1.5 rounded-full bg-gradient-to-b from-amber-500 to-amber-600 px-4 py-2 text-sm font-bold text-white no-underline shadow-sm transition-transform hover:-translate-y-0.5'
   return (
-    <AmazonLink
-      asin={asin}
-      search={search}
-      className={`not-prose inline-flex items-center gap-1.5 rounded-full bg-gradient-to-b from-amber-500 to-amber-600 px-4 py-2 text-sm font-bold text-white no-underline shadow-sm transition-transform hover:-translate-y-0.5 ${className}`}
-    >
+    <AmazonLink asin={asin} search={search} className={`${base} ${className}`}>
       {children}
     </AmazonLink>
   )

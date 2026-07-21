@@ -3,10 +3,14 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import FreshnessStamp from '@/components/FreshnessStamp'
+import AuthorByline from '@/components/AuthorByline'
+import TopPick from '@/components/TopPick'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 
 const SLUG = 'how-to-remove-tick-from-dog-ontario'
 const DATE = '2026-04-26'
+const UPDATED = '2026-04-26'
 const TITLE = 'How to Remove a Tick from a Dog (Ontario Guide 2026)'
 
 const FAQS = [
@@ -69,6 +73,7 @@ export default function HowToRemoveTickFromDogPage() {
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
           <p className="text-xl text-brand-100 max-w-3xl">A panicked Ontario dog owner&rsquo;s field guide. The exact steps, the products to use, the mistakes to avoid, and what to do next.</p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
 
@@ -91,6 +96,7 @@ export default function HowToRemoveTickFromDogPage() {
           <p className="lead text-xl text-gray-700 leading-relaxed mb-6">You found a tick on your dog. Take a breath — you have time. Most blacklegged ticks need to be attached for 24+ hours to transmit Lyme disease, and removing the tick correctly is the single most important thing you can do right now. Here&rsquo;s how to do it safely, in 5 minutes, with what you probably already have at home.</p>
 
           <AffiliateDisclosure />
+          <AuthorByline datePublished={DATE} dateModified={UPDATED} />
 
           <h2>The 5-Step Removal (Do This Now)</h2>
           <ol>
@@ -101,6 +107,16 @@ export default function HowToRemoveTickFromDogPage() {
             <li><strong>Clean the bite</strong> with rubbing alcohol or soap and water. Wash your hands. Save the tick in a sealed plastic bag with a damp paper towel — your vet may want to identify the species.</li>
           </ol>
           <p>A dedicated fine-tipped tick-removal tool grips the head cleanly and lowers the chance of leaving mouthparts behind — far better than pinching with fingers. It&rsquo;s worth keeping one in the dog-walk kit and one at home: <BuyLink search="tick removal tool tweezers">Check price on Amazon.ca →</BuyLink></p>
+
+          <TopPick
+            label="Our Top Pick"
+            name="Fine-Tipped Tick-Removal Tool (Tick Twister / TickKey style)"
+            blurb="For getting a tick off a dog cleanly, a dedicated removal tool beats fingers or blunt tweezers every time. It slides flush to the skin, catches the tick at the head, and lifts it out with steady pressure — the exact technique that avoids squeezing the body or snapping off mouthparts. Cheap enough to keep one in the walk kit and one by the door."
+            search="tick removal tool tweezers"
+            score={9.0}
+            pros={['Grips at the head, not the fluid-filled body', 'Lowers the chance of leaving mouthparts behind', 'Compact — keep one in the dog-walk kit', 'Works on people and pets alike']}
+            cons={['Fiddly on very small nymph ticks', 'Still requires a slow, steady pull — no twisting']}
+          />
 
           <h2>Do NOT Do These Things (Old Wives&rsquo; Tales That Cause Harm)</h2>
           <ul>

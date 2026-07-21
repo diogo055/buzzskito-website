@@ -4,9 +4,13 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import SpecialistDisclosure from '@/components/SpecialistDisclosure'
+import FreshnessStamp from '@/components/FreshnessStamp'
+import AuthorByline from '@/components/AuthorByline'
+import TopPick from '@/components/TopPick'
 
 const SLUG = 'how-to-get-rid-of-mice-canada'
 const DATE = '2026-07-16'
+const UPDATED = '2026-07-16'
 const TITLE = 'How to Get Rid of Mice in Canada 2026 — The 4-Step Plan That Actually Works'
 
 const FAQS = [
@@ -85,6 +89,7 @@ export default function HowToGetRidOfMiceCanadaPage() {
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
           <p className="text-xl text-brand-100 max-w-3xl">Why mice pour into Canadian houses every fall, the 6 mm gap rule that decides whether they get in, and the four-step playbook — sanitation, mass trapping, exclusion, monitoring — that actually ends the problem.</p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
 
@@ -109,6 +114,7 @@ export default function HowToGetRidOfMiceCanadaPage() {
 
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
+          <AuthorByline datePublished={DATE} dateModified={UPDATED} />
           <h2>Why Do Mice Get Into Canadian Houses Every Fall?</h2>
           <p>Because a Canadian house in October is the best real estate a mouse will ever see: stable warmth, no owls, and a pantry that never runs out. From September through November — as overnight temperatures slide toward 10°C and outdoor seed and insect food dries up — house mice and deer mice push indoors in a predictable entry wave. In southern Ontario the first scratching in the walls typically starts within a few weeks of Thanksgiving, and the same pattern repeats from Halifax to Victoria.</p>
           <p>Two facts about that wave shape the whole playbook. First, mice that get in do not leave in spring — a fall arrival is a permanent resident until you remove it. Second, the population compounds fast: one female produces 5–10 litters per year of 5–6 pups, and those pups breed at 6–8 weeks old. Two mice in October is 30 or more by January. Speed matters more than perfection — which is why the plan below runs every step at once.</p>
@@ -175,6 +181,16 @@ export default function HowToGetRidOfMiceCanadaPage() {
             <li><strong>Gloves on, then leave them alone.</strong> Keep human scent off the traps and skip the hourly flashlight checks.</li>
           </ul>
           <p>On trap choice: the classic Victor M325 wood snap trap remains the workhorse because it is cheap enough to deploy by the dozen — our <Link href="/blog/best-mouse-trap-canada">best mouse trap in Canada comparison</Link> covers snap vs electronic vs catch-and-release in depth. For no-see, no-touch disposal in the kitchen, the Victor M250S electronic trap kills in under 5 seconds and handles up to 100 kills per set of AA batteries; we tore down its real-world reliability in our <Link href="/blog/victor-electronic-mouse-trap-review-canada">Victor electronic trap review</Link>. And if droppings are over 1 cm long, stop — you have rats, mouse traps physically cannot kill them, and you want the <Link href="/blog/best-rat-trap-canada">best rat trap guide</Link> instead.</p>
+
+          <TopPick
+            label="Our Top Pick for the trap line"
+            name="Victor M325 Wood Snap Trap"
+            blurb="The workhorse of DIY mouse control: cheap enough to buy by the dozen so you can flood night one with 12+ traps, with a fast, reliable kill bar. Bait a pea-sized smear of peanut butter, set it trigger-to-baseboard, and let the first-night catch do the heavy lifting."
+            search="victor mouse trap 4 pack"
+            score={8.7}
+            pros={['Cheap enough to deploy a dozen at once', 'Fast, decisive kill bar', 'No batteries, no setup — reusable season after season']}
+            cons={['Must be handled and re-set by hand', 'Too small to kill rats — check dropping size first']}
+          />
 
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the trap-line staples:</p>

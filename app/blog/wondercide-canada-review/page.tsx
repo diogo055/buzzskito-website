@@ -3,6 +3,10 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
+import TopPick from '@/components/TopPick'
+import StickyBuyBar from '@/components/StickyBuyBar'
+import FreshnessStamp from '@/components/FreshnessStamp'
+import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 
 const SLUG = 'wondercide-canada-review'
@@ -68,8 +72,11 @@ export default function WondercideCanadaReviewPage() {
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
           <p className="text-xl text-brand-100 max-w-3xl">An honest look at Wondercide&rsquo;s natural cedar-oil flea, tick &amp; mosquito line for Canadian yards and pets &mdash; availability, real pricing, Flea &amp; Tick spray vs Yard + Garden, and whether it actually works.</p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
+
+      <StickyBuyBar name="Wondercide Flea & Tick Spray (cedarwood + lemongrass)" search="wondercide flea and tick spray" label="Best for pets" />
 
       <section className="bg-white pt-8 px-4">
         <div className="max-w-4xl mx-auto">
@@ -88,6 +95,20 @@ export default function WondercideCanadaReviewPage() {
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
           </div>
+        </div>
+      </section>
+
+      <section className="bg-white px-4 py-6">
+        <div className="max-w-4xl mx-auto">
+          <TopPick
+            label="Our Top Pick"
+            name="Wondercide Flea & Tick Spray (cedarwood + lemongrass + sesame oil)"
+            blurb="Where Wondercide genuinely shines: a gentle, ready-to-use cedar-oil spray for the dog, the cat's bedding, and indoor surfaces. It kills and repels fleas and ticks on contact, and it is the line Wondercide fans actually love. Just treat it as a knockdown for the pet and the person — not a set-and-forget yard barrier."
+            search="wondercide flea and tick spray"
+            score={7.6}
+            pros={['Gentle, natural cedar-oil formula safe around pets once dry', 'Genuinely kills & repels fleas and ticks on contact', 'Ready-to-use — great for spot-treating the dog, bedding, and couch']}
+            cons={['Essential oils break down within days — needs frequent reapplication', 'Not a long-residual yard barrier; overwhelmed under heavy pressure']}
+          />
         </div>
       </section>
 
@@ -170,6 +191,7 @@ export default function WondercideCanadaReviewPage() {
 
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
+          <AuthorByline datePublished={DATE} dateModified={UPDATED} />
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Compare current Canadian prices across the Wondercide line (Flea &amp; Tick pet spray, Yard + Garden, personal repellent):</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
@@ -196,28 +218,28 @@ export default function WondercideCanadaReviewPage() {
                   <td className="px-4 py-3 text-gray-700">On pets, bedding, indoor surfaces</td>
                   <td className="px-4 py-3 text-gray-700">Cedarwood + lemongrass + sesame oil</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$35 – $60</td>
-                  <td className="px-4 py-3"><BuyLink search="wondercide flea and tick spray">Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink search="wondercide flea and tick spray" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Yard + Garden Ready-to-Spray</td>
                   <td className="px-4 py-3 text-gray-700">Hose-end perimeter treatment</td>
                   <td className="px-4 py-3 text-gray-700">Cedar oil blend</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$45 – $95</td>
-                  <td className="px-4 py-3"><BuyLink search="wondercide yard and garden ready to spray">Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink search="wondercide yard and garden ready to spray" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Yard + Garden Concentrate</td>
                   <td className="px-4 py-3 text-gray-700">Mixes multiple gallons for larger lots</td>
                   <td className="px-4 py-3 text-gray-700">Cedar oil blend (concentrated)</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$70 – $130</td>
-                  <td className="px-4 py-3"><BuyLink search="wondercide yard and garden concentrate">Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink search="wondercide yard and garden concentrate" block>Check price →</BuyLink></td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 font-bold text-brand-800">Flea, Tick &amp; Mosquito Repellent <span className="font-normal text-xs text-gray-500">(personal)</span></td>
                   <td className="px-4 py-3 text-gray-700">On skin/clothing before outdoor time</td>
                   <td className="px-4 py-3 text-gray-700">Cedarwood / lemongrass / peppermint</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$25 – $40</td>
-                  <td className="px-4 py-3"><BuyLink search="wondercide flea tick mosquito repellent">Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink search="wondercide flea tick mosquito repellent" block>Check price →</BuyLink></td>
                 </tr>
               </tbody>
             </table>

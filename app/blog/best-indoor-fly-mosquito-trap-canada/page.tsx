@@ -3,6 +3,10 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
+import AwardRow from '@/components/AwardRow'
+import StickyBuyBar from '@/components/StickyBuyBar'
+import FreshnessStamp from '@/components/FreshnessStamp'
+import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 
 const SLUG = 'best-indoor-fly-mosquito-trap-canada'
@@ -71,8 +75,11 @@ export default function BestIndoorFlyMosquitoTrapCanadaPage() {
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
           <p className="text-xl text-brand-100 max-w-3xl">Plug-in UV, fan-suction, and glue-board traps compared by room size and refill cost — plus the honest truth about how well any of them catch mosquitoes indoors.</p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
+
+      <StickyBuyBar name="Katchy Indoor Insect Trap (UV + fan + glue board)" search="katchy indoor insect trap uv fan" label="Best overall indoor" />
 
       {/* Quick Answer — AI-extraction block */}
       <section className="bg-white px-4">
@@ -90,6 +97,59 @@ export default function BestIndoorFlyMosquitoTrapCanadaPage() {
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
           </div>
+        </div>
+      </section>
+
+      {/* Our Picks — award row */}
+      <section className="bg-white px-4 py-6">
+        <div className="max-w-5xl mx-auto">
+          <AwardRow
+            heading="Our Picks — Best Indoor Fly & Mosquito Traps in Canada"
+            awards={[
+              {
+                badge: 'Best Overall',
+                name: 'UV + Fan + Glue-Board Trap (Katchy-style)',
+                why: 'Quietly catches fruit flies, fungus gnats, houseflies, and the occasional indoor mosquito using cheap replaceable glue boards — the best all-round pick for a bedroom or kitchen.',
+                search: 'katchy indoor insect trap uv fan',
+                score: 8.6,
+                featured: true,
+                pros: ['Silent and mess-free', 'Cheap glue-board refills', 'Great on gnats & fruit flies'],
+                cons: ['Recurring refill cost', 'Only fair on mosquitoes'],
+              },
+              {
+                badge: 'Best for Large Rooms',
+                name: 'DynaTrap Fan-Suction UV Unit',
+                why: 'Fan-suction UV that covers up to roughly 600 sq ft with no refills — you just rinse the basket. The pick for an open kitchen or family room.',
+                search: 'dynatrap indoor insect trap dt160',
+                score: 8.0,
+                pros: ['Covers up to ~600 sq ft', 'No refills to buy', 'Fair–good mosquito catch'],
+                cons: ['Quiet fan hum', 'You empty and rinse the basket'],
+              },
+              {
+                badge: 'Best Set-and-Forget',
+                name: 'UV + Sticky-Cartridge Plug-In (Zevo-style)',
+                why: 'The simplest single-room plug-in: a small light plus a replaceable adhesive cartridge, silent and clean for a nightstand outlet.',
+                search: 'zevo flying insect trap plug in',
+                score: 7.4,
+                pros: ['Truly set-and-forget', 'Silent and clean', 'Compact plug-in'],
+                cons: ['Cartridges add up', 'Small coverage only'],
+              },
+              {
+                badge: 'Best Budget / Garage',
+                name: 'UV Glue-Board Wall Unit',
+                why: 'A cheap wall-mount UV unit with replaceable glue cards for a garage or entryway where noise and looks matter less.',
+                search: 'indoor fly trap uv light glue board plug in',
+                score: 6.9,
+                pros: ['Lowest cost', 'Good for garages & entryways', 'Cheap glue-card refills'],
+                cons: ['Low mosquito catch', 'Utilitarian look'],
+              },
+            ]}
+            whichToBuy={
+              <>
+                <strong>Bedroom or kitchen?</strong> The <em>Best Overall</em> UV + fan + glue-board trap is the quiet, all-round winner. <strong>Open-plan or large room?</strong> The <em>Best for Large Rooms</em> DynaTrap covers more with no refills. <strong>Want zero fuss on a nightstand?</strong> Grab the <em>Best Set-and-Forget</em> plug-in — but remember no indoor trap fixes the source. Cutting the outdoor population with <Link href="/mosquito-control">professional barrier spray</Link> means far fewer insects reach the door in the first place.
+              </>
+            }
+          />
         </div>
       </section>
 
@@ -118,28 +178,28 @@ export default function BestIndoorFlyMosquitoTrapCanadaPage() {
                   <td className="px-4 py-3 text-gray-800">UV + fan + glue board</td>
                   <td className="px-4 py-3 text-gray-700">Small–medium (bedroom, kitchen)</td>
                   <td className="px-4 py-3 text-gray-700">Glue boards ~$13–18 / 4-pack</td>
-                  <td className="px-4 py-3"><BuyLink search="katchy indoor insect trap uv fan">On Amazon.ca &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink search="katchy indoor insect trap uv fan" block>Check price &rarr;</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Best for large rooms</td>
                   <td className="px-4 py-3 text-gray-800">UV + fan suction (no refill)</td>
                   <td className="px-4 py-3 text-gray-700">Up to ~600 sq ft</td>
                   <td className="px-4 py-3 text-gray-700">None — rinse the basket</td>
-                  <td className="px-4 py-3"><BuyLink search="dynatrap indoor insect trap dt160">On Amazon.ca &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink search="dynatrap indoor insect trap dt160" block>Check price &rarr;</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Best plug-in (set &amp; forget)</td>
                   <td className="px-4 py-3 text-gray-800">UV + sticky cartridge</td>
                   <td className="px-4 py-3 text-gray-700">Small (nightstand outlet)</td>
                   <td className="px-4 py-3 text-gray-700">Cartridges ~$10–14 each</td>
-                  <td className="px-4 py-3"><BuyLink search="zevo flying insect trap plug in">On Amazon.ca &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink search="zevo flying insect trap plug in" block>Check price &rarr;</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 last:border-0">
                   <td className="px-4 py-3 font-bold text-brand-800">Best budget / garage</td>
                   <td className="px-4 py-3 text-gray-800">UV glue-board wall unit</td>
                   <td className="px-4 py-3 text-gray-700">Medium (garage, entryway)</td>
                   <td className="px-4 py-3 text-gray-700">Glue cards ~$12 / 6-pack</td>
-                  <td className="px-4 py-3"><BuyLink search="indoor fly trap uv light glue board plug in">On Amazon.ca &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink search="indoor fly trap uv light glue board plug in" block>Check price &rarr;</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -193,6 +253,7 @@ export default function BestIndoorFlyMosquitoTrapCanadaPage() {
 
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
+          <AuthorByline datePublished={DATE} dateModified={UPDATED} />
           <AffiliateDisclosure />
 
           <h2>How Indoor Insect Traps Actually Work</h2>

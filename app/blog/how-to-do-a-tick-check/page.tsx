@@ -3,6 +3,8 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import AuthorByline from '@/components/AuthorByline'
 import BuyLink from '@/components/BuyLink'
+import TopPick from '@/components/TopPick'
+import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 
@@ -72,6 +74,7 @@ export default function HowToDoATickCheckPage() {
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
           <p className="text-xl text-brand-100 max-w-3xl">A full-body checklist for you, your kids, and your pets — plus exactly what to do if you find one attached.</p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
 
@@ -187,6 +190,16 @@ export default function HowToDoATickCheckPage() {
             <li>Watch the bite for 30 days. See a doctor if you develop an expanding (often bull&rsquo;s-eye) rash, fever, fatigue, or joint aches.</li>
           </ol>
           <p>Keeping a proper tool by the door makes removal quick and clean when it counts. <BuyLink search="tick removal tool tweezers">Check tick-removal tools on Amazon.ca →</BuyLink></p>
+
+          <TopPick
+            label="Our Top Pick"
+            name="Fine-Tipped Tick-Removal Tool"
+            blurb="A dedicated tick tool grips right at the skin and lifts the whole tick out cleanly — the single most useful thing to keep by the door in tick season, so you are never improvising with fingernails at the moment it matters."
+            search="tick removal tool tweezers"
+            score={8.7}
+            pros={['Grips close to the skin to avoid leaving mouthparts', 'Removes even poppy-seed-sized nymphs', 'Compact — lives by the door or in a pack']}
+            cons={['Fine tips can bend if forced', 'Still need soap or alcohol to clean the bite after']}
+          />
 
           <h2>Related Reading</h2>
           <ul>

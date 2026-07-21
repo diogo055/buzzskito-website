@@ -3,10 +3,14 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import FreshnessStamp from '@/components/FreshnessStamp'
+import AuthorByline from '@/components/AuthorByline'
+import TopPick from '@/components/TopPick'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { NEW_BLOGS_3, MOSQUITO_BLOGS } from '@/lib/constants'
 
 const POST = NEW_BLOGS_3[0]
+const UPDATED = POST.date
 
 export const metadata: Metadata = buildMetadata({
   title: 'Mosquito Control Cost Ontario | 2026 Guide',
@@ -90,6 +94,7 @@ export default function MosquitoControlCostPage() {
           <p className="text-brand-300 text-sm">
             Published {new Date(POST.date).toLocaleDateString('en-CA', { year: 'numeric', month: 'long', day: 'numeric' })} · By BuzzSkito
           </p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
 
@@ -118,6 +123,8 @@ export default function MosquitoControlCostPage() {
             Ultimate Backyard Mosquito Control Guide
           </Link>.
         </p>
+
+        <AuthorByline datePublished={POST.date} dateModified={UPDATED} />
 
         <h2>The Short Answer: What Mosquito Control Costs in Ontario (2026)</h2>
         <div className="not-prose overflow-x-auto my-6">
@@ -201,6 +208,15 @@ export default function MosquitoControlCostPage() {
 
         <AffiliateDisclosure />
         <p>If you take the DIY route, the one product genuinely worth the money is BTI larvicide — Mosquito Dunks kill larvae in rain barrels, pond edges, and any standing water you can&apos;t drain, for pennies per week. They complement (but don&apos;t replace) a barrier spray, which targets the adult mosquitoes resting in your foliage.</p>
+        <TopPick
+          label="Best DIY Add-On"
+          name="Summit Mosquito Dunks (BTI Larvicide)"
+          blurb="The one DIY product that earns its keep: a BTI (Bacillus thuringiensis israelensis) larvicide that kills mosquito larvae in standing water you can't drain — rain barrels, pond edges, low spots — for pennies per week. It won't touch adult mosquitoes resting in foliage, so pair it with barrier spray rather than relying on it alone."
+          search="summit mosquito dunks"
+          score={8.6}
+          pros={['Targets larvae at the source', 'Safe around pets, fish, and wildlife', 'Long-lasting — each dunk covers weeks']}
+          cons={['Only works on standing water', 'Does nothing for adult mosquitoes']}
+        />
         <div className="not-prose mb-6">
           <BuyLink search="summit mosquito dunks">Check Mosquito Dunks on Amazon.ca →</BuyLink>
         </div>

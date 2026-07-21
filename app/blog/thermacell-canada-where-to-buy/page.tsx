@@ -6,6 +6,9 @@ import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import InlineYardRiskCTA from '@/components/InlineYardRiskCTA'
 import TopPick from '@/components/TopPick'
+import FreshnessStamp from '@/components/FreshnessStamp'
+import StickyBuyBar from '@/components/StickyBuyBar'
+import AuthorByline from '@/components/AuthorByline'
 
 const SLUG = 'thermacell-canada-where-to-buy'
 const DATE = '2026-05-01'
@@ -97,8 +100,11 @@ export default function ThermacellCanadaPage() {
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
           <p className="text-xl text-brand-100 max-w-3xl">Pricing across Canadian retailers, how the allethrin technology actually repels mosquitoes, and where it falls short for GTA yards.</p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
+
+      <StickyBuyBar name="Thermacell E90 Rechargeable Mosquito Repeller" search="thermacell e90 rechargeable mosquito repeller" label="Top Canadian pick" />
 
       {/* ANSWER CAPSULE */}
       <section className="bg-white px-4">
@@ -121,6 +127,9 @@ export default function ThermacellCanadaPage() {
             name="Thermacell E90 Rechargeable"
             blurb="The top Thermacell you can actually buy in Canada — roughly 9 hours per charge, enough to outlast a full backyard evening without a mid-party recharge (the Liv smart system is US-only)."
             search="thermacell e90 rechargeable mosquito repeller"
+            score={8.6}
+            pros={['Longest runtime of the Canadian lineup (~9 hrs)', 'No fuel cartridge — rechargeable and hands-off', 'Rugged build for all-evening hosting']}
+            cons={['Premium end of the Thermacell range', 'Only covers the seating zone, not the whole yard']}
           />
         </div>
       </section>
@@ -219,6 +228,7 @@ export default function ThermacellCanadaPage() {
 
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
+          <AuthorByline datePublished={DATE} dateModified={UPDATED} />
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Compare current Canadian prices (Patio Shield, E55, E90) and refill packs:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
@@ -247,7 +257,7 @@ export default function ThermacellCanadaPage() {
                   <td className="px-3 py-3 text-gray-700">12-hr fuel cartridge</td>
                   <td className="px-3 py-3 text-gray-700">Cheapest pick · casual patio dinners</td>
                   <td className="px-3 py-3 font-mono text-gray-800">$35–$50</td>
-                  <td className="px-3 py-3"><BuyLink search="thermacell patio shield">Amazon.ca →</BuyLink></td>
+                  <td className="px-3 py-3"><BuyLink search="thermacell patio shield" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-3 py-3 font-bold text-brand-800">E55 Rechargeable</td>
@@ -255,7 +265,7 @@ export default function ThermacellCanadaPage() {
                   <td className="px-3 py-3 text-gray-700">~5.5 hr rechargeable</td>
                   <td className="px-3 py-3 text-gray-700">Best all-rounder · camping &amp; travel</td>
                   <td className="px-3 py-3 font-mono text-gray-800">$70–$90</td>
-                  <td className="px-3 py-3"><BuyLink search="thermacell e55 rechargeable mosquito repeller">Amazon.ca →</BuyLink></td>
+                  <td className="px-3 py-3"><BuyLink search="thermacell e55 rechargeable mosquito repeller" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-3 py-3 font-bold text-brand-800">E90 Rechargeable</td>
@@ -263,7 +273,7 @@ export default function ThermacellCanadaPage() {
                   <td className="px-3 py-3 text-gray-700">~9 hr rechargeable · rugged build</td>
                   <td className="px-3 py-3 text-gray-700">Longest runtime · all-evening hosting</td>
                   <td className="px-3 py-3 font-mono text-gray-800">$90–$120</td>
-                  <td className="px-3 py-3"><BuyLink search="thermacell e90 rechargeable mosquito repeller">Amazon.ca →</BuyLink></td>
+                  <td className="px-3 py-3"><BuyLink search="thermacell e90 rechargeable mosquito repeller" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-3 py-3 font-bold text-brand-800">Liv Smart System</td>

@@ -4,9 +4,14 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import SpecialistDisclosure from '@/components/SpecialistDisclosure'
+import TopPick from '@/components/TopPick'
+import StickyBuyBar from '@/components/StickyBuyBar'
+import FreshnessStamp from '@/components/FreshnessStamp'
+import AuthorByline from '@/components/AuthorByline'
 
 const SLUG = 'victor-electronic-mouse-trap-review-canada'
 const DATE = '2026-07-16'
+const UPDATED = '2026-07-16'
 const TITLE = 'Victor Electronic Mouse Trap Review (Canada 2026) — Is the M250S Worth It?'
 const META_TITLE = 'Victor Electronic Mouse Trap Review Canada 2026: M250S Honest Take'
 
@@ -86,8 +91,11 @@ export default function VictorElectronicMouseTrapReviewPage() {
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
           <p className="text-xl text-brand-100 max-w-3xl">The kill-chamber trap that dominates Canadian hardware aisles, reviewed honestly — how it works, how humane it really is, what 100 kills per battery set means in practice, and when a $2 snap trap is still the smarter buy.</p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
+
+      <StickyBuyBar name="Victor M250S Electronic Mouse Trap" search="victor electronic mouse trap m250s" label="Best overall" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -143,12 +151,23 @@ export default function VictorElectronicMouseTrapReviewPage() {
 
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
+          <AuthorByline datePublished={DATE} dateModified={UPDATED} />
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of both models:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink search="victor electronic mouse trap m250s">Victor M250S on Amazon.ca →</BuyLink>
             <BuyLink search="victor m1 smart kill mouse trap">M1 Smart-Kill (Wi-Fi) →</BuyLink>
           </div>
+
+          <TopPick
+            label="Our Top Pick"
+            name="Victor M250S Electronic Mouse Trap"
+            blurb="The best no-touch mouse trap sold in Canada: an enclosed kill chamber that shocks in seconds, delivers up to 100 kills per set of 4 AA batteries, and empties into the garbage without you ever touching or seeing the mouse. A blinking green LED confirms a kill for up to 7 days, and it is a legal, non-pesticide device in every province."
+            search="victor electronic mouse trap m250s"
+            score={8.9}
+            pros={['No-touch, no-see disposal', 'Fast, consistent kill inside an enclosed chamber', 'Up to 100 kills per battery set — a full season or more', 'Kid- and pet-resistant; circuit cuts when the lid opens']}
+            cons={['Indoor/dry locations only', 'Plates need wiping every few kills', 'Mouse-sized only — will not kill rats']}
+          />
 
           <h2>How Does the Victor M250S Actually Work?</h2>
           <p>The M250S is a battery-powered kill chamber: a mouse follows the bait scent into a dark tunnel, steps across two metal plates that complete a circuit, and receives a high-voltage shock that kills it in seconds. That is the whole trick — and it is a genuinely good trick, because it fixes the two failure modes of every other consumer trap at once.</p>

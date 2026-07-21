@@ -3,6 +3,9 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
+import AwardRow from '@/components/AwardRow'
+import StickyBuyBar from '@/components/StickyBuyBar'
+import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 
 const SLUG = 'mosquito-coils-canada'
@@ -68,8 +71,11 @@ export default function MosquitoCoilsCanadaPage() {
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
           <p className="text-xl text-brand-100 max-w-3xl">How mosquito coils actually work, the one safety rule that really matters (never burn them indoors), the best coils sold in Canada, and how they stack up for GTA patios, docks, and camping.</p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
+
+      <StickyBuyBar name="PIC Mosquito Repellent Coils" search="pic mosquito coils" label="Best value coil" />
 
       <section className="bg-white px-4 pt-8">
         <div className="max-w-4xl mx-auto">
@@ -86,6 +92,58 @@ export default function MosquitoCoilsCanadaPage() {
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
           </div>
+        </div>
+      </section>
+
+      <section className="bg-white px-4 py-6">
+        <div className="max-w-5xl mx-auto">
+          <AwardRow
+            heading="Our Picks — Best Mosquito Coils in Canada"
+            awards={[
+              {
+                badge: 'Best Overall',
+                name: 'PIC Mosquito Repellent Coils (d-allethrin)',
+                why: 'The best-value pyrethroid coil and the one you will actually find on Canadian shelves. Strong spatial repellency per coil, widely stocked, and budget-friendly.',
+                search: 'pic mosquito coils',
+                score: 8.4,
+                featured: true,
+                pros: ['Best bites-prevented per coil', 'Budget-friendly', 'Widely stocked in Canada'],
+                cons: ['Insecticidal smoke smell', 'Outdoor-only, downwind zone only'],
+              },
+              {
+                badge: 'Trusted Brand',
+                name: 'OFF! Mosquito Coils (metofluthrin)',
+                why: 'A familiar name using a metofluthrin pyrethroid. Comparable protection to PIC with the reassurance of a mainstream brand, at a mid-price point.',
+                search: 'off mosquito coils',
+                score: 8.1,
+                pros: ['Recognizable, trusted brand', 'Effective pyrethroid vapour', 'Easy to find seasonally'],
+                cons: ['Pricier than PIC', 'Same smoke caveat'],
+              },
+              {
+                badge: 'Best Natural Pick',
+                name: 'Coghlan’s Citronella Coils',
+                why: 'A Canadian camping-brand citronella coil for people who prefer a plant-based option and a milder scent. Great around the campsite when you accept weaker range.',
+                search: 'coghlan\'s citronella mosquito coils',
+                score: 7.2,
+                pros: ['Plant-based citronella', 'Milder scent', 'Camping-friendly'],
+                cons: ['Weaker, shorter-range than pyrethroids', 'Fades faster in wind'],
+              },
+              {
+                badge: 'Best Budget',
+                name: 'Generic Citronella Coils',
+                why: 'The cheapest way to get a citronella smoke bubble on a small, sheltered patio. Fine for a one-off still evening when you just want something inexpensive on hand.',
+                search: 'citronella mosquito coils',
+                score: 6.9,
+                pros: ['Cheapest option', 'Fine on a sheltered patio', 'No power or batteries'],
+                cons: ['Weakest protection', 'Variable quality'],
+              },
+            ]}
+            whichToBuy={
+              <>
+                <strong>Want the most bites prevented per coil?</strong> The <em>Best Overall</em> PIC pyrethroid coil wins. <strong>Prefer a familiar brand?</strong> The <em>Trusted Brand</em> OFF! coil is the pick. <strong>Want a plant-based scent for camping?</strong> Reach for the <em>Best Natural</em> Coghlan&rsquo;s citronella. But every coil only defends a chair-sized smoke zone outdoors &mdash; for hands-off, whole-yard coverage that also handles ticks, nothing beats <Link href="/mosquito-control">professional barrier spray</Link>.
+              </>
+            }
+          />
         </div>
       </section>
 
@@ -192,7 +250,7 @@ export default function MosquitoCoilsCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">d-allethrin</td>
                   <td className="px-4 py-3 text-gray-700">Best value · widely stocked</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$6 – $12 / pack</td>
-                  <td className="px-4 py-3"><BuyLink search="pic mosquito coils">Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink search="pic mosquito coils" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">OFF! Mosquito Coils</td>

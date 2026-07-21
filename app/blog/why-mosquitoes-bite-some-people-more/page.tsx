@@ -3,11 +3,15 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import FreshnessStamp from '@/components/FreshnessStamp'
+import AuthorByline from '@/components/AuthorByline'
+import TopPick from '@/components/TopPick'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { MOSQUITO_BLOGS } from '@/lib/constants'
 
 const SLUG = 'why-mosquitoes-bite-some-people-more'
 const DATE = '2026-04-26'
+const UPDATED = '2026-04-26'
 const TITLE = 'Why Mosquitoes Bite Some People More Than Others (Science-Backed)'
 const EXCERPT = 'Blood type, body heat, CO2 output, lactic acid, pregnancy, alcohol, dark clothing — what the research actually shows about why mosquitoes prefer some people. Plus the one thing that protects everyone equally.'
 
@@ -40,6 +44,7 @@ export const metadata: Metadata = buildMetadata({
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
+  modifiedTime: UPDATED,
 })
 
 export default function WhyMosquitoesBiteSomeMorePage() {
@@ -60,10 +65,12 @@ export default function WhyMosquitoesBiteSomeMorePage() {
           <span className="bg-brand-800 text-brand-200 text-xs px-3 py-1 rounded-full mb-4 inline-block">Mosquito Control</span>
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
           <p className="text-brand-300 text-sm">Published {new Date(DATE).toLocaleDateString('en-CA', { year: 'numeric', month: 'long', day: 'numeric' })} · By BuzzSkito</p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
+        <AuthorByline datePublished={DATE} dateModified={UPDATED} />
         <div className="not-prose bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
           <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
           <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Mosquitoes bite some people more because of largely genetic traits &mdash; Type O blood, higher CO&#8322; output, more body heat, and skin chemistry (especially carboxylic acids) &mdash; with the difference between the most and least attractive person reaching up to 100-fold; the only fix that protects everyone equally is treating the yard, not the person.</p>
@@ -180,6 +187,16 @@ export default function WhyMosquitoesBiteSomeMorePage() {
         <p>Realistically, the people who get bitten the least in Ontario are not the lucky genetic outliers — they are the people who do all the boring environmental work. Their yards are treated. Their breeding sites are eliminated. They wear DEET or picaridin when they are in higher-pressure areas. They wear light colours during peak mosquito hours. Layered, the effect is dramatic.</p>
         <AffiliateDisclosure />
         <p>On the personal-protection side, two products do most of the work. For skin, a <strong>picaridin</strong> repellent is the modern pick — it lasts as long as DEET, is nearly odourless, and won&apos;t damage plastics, sunglasses, or gear: <BuyLink search="picaridin insect repellent canada">Check price on Amazon.ca →</BuyLink>. For a stationary patio or deck, a <strong>Thermacell</strong> creates a scent-free protection zone with nothing sprayed on your skin at all: <BuyLink search="thermacell mosquito repeller">Check price on Amazon.ca →</BuyLink>. For the full rundown of what actually works here, see our <Link href="/blog/mosquito-repellent-guide-ontario-2026" className="text-brand-700 underline">Ontario mosquito repellent guide</Link>.</p>
+
+        <TopPick
+          label="Best Pick for the Mosquito Magnet"
+          name="Picaridin (20%) Insect Repellent"
+          blurb="If you're the high-attraction person, a 20% picaridin repellent is the most practical skin defence — long-lasting protection comparable to DEET, but nearly odourless and safe on plastics, sunglasses, and gear. The single easiest lever a genetic mosquito magnet can actually pull."
+          search="picaridin insect repellent canada"
+          score={9.0}
+          pros={['Long-lasting, comparable to DEET', 'Nearly odourless', "Won't damage plastics or gear"]}
+          cons={['Personal protection only — does not treat the yard', 'Needs reapplication over a long evening']}
+        />
         <p>For the unlucky high-attraction person in your household — the type-O, post-workout, pregnant-or-just-had-a-beer-on-the-patio person — environment-level protection is not optional. It is the only intervention that meaningfully reduces their bite count. See our <Link href="/blog/how-to-prevent-mosquitoes-in-your-backyard" className="text-brand-700 underline">12 ways to prevent mosquitoes in your backyard guide</Link> for the layered approach.</p>
 
         <h2>Get Your Yard Treated</h2>

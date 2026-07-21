@@ -3,6 +3,8 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import AuthorByline from '@/components/AuthorByline'
 import BuyLink from '@/components/BuyLink'
+import TopPick from '@/components/TopPick'
+import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 
@@ -72,6 +74,7 @@ export default function BlackleggedDeerTickOntarioPage() {
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
           <p className="text-xl text-brand-100 max-w-3xl">Ontario&rsquo;s only Lyme-disease carrier, identified by life stage — plus where it lives, when it bites, and how to remove one safely.</p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
 
@@ -222,6 +225,16 @@ export default function BlackleggedDeerTickOntarioPage() {
             <li><strong>Save the tick</strong> in a sealed bag or take a sharp, well-lit photo, and write down the date. That record matters if symptoms appear.</li>
           </ol>
           <p>A dedicated fine-tipped tool grips a poppy-seed-sized nymph far more reliably than household tweezers. <BuyLink search="tick removal tool tweezers">Check tick-removal tools on Amazon.ca →</BuyLink></p>
+
+          <TopPick
+            label="Our Top Pick — Tick Removal"
+            name="Fine-Tipped Tick Removal Tool Set"
+            blurb="A dedicated tick-removal tool grips right at the mouthparts and lifts a poppy-seed-sized nymph out cleanly — the safe, steady-pressure removal public-health agencies recommend, and far more reliable than fumbling with household tweezers when speed matters."
+            search="tick removal tool tweezers"
+            score={8.6}
+            pros={['Grips close to the skin at the mouthparts', 'Handles even tiny nymphs', 'Inexpensive to keep in a first-aid kit']}
+            cons={['Still requires slow, steady technique', 'Keep one per outdoor bag so it is on hand']}
+          />
 
           <h2>When to Test and When to See a Doctor</h2>
           <p>Ontario guidance is built around your <strong>exposure and symptoms</strong>, not around lab-testing the tick itself — a negative tick test would not clear you, and a positive one would not confirm infection. What is genuinely useful is <strong>species identification</strong>: submit a clear photo to the free <em>eTick.ca</em> service to learn whether you were bitten by a blacklegged tick at all. If it was a blacklegged tick attached for more than about 24 hours in a known risk area, contact your health-care provider promptly, because a single preventive dose of doxycycline is sometimes offered within 72 hours of removal. Then watch the bite for 30 days and seek care if you develop an <strong>expanding rash</strong> (often, but not always, a bull&rsquo;s-eye pattern), fever, fatigue, headache, or aching joints — early Lyme disease is very treatable with antibiotics.</p>

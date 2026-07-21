@@ -3,10 +3,15 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import FreshnessStamp from '@/components/FreshnessStamp'
+import AuthorByline from '@/components/AuthorByline'
+import TopPick from '@/components/TopPick'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { MOSQUITO_BLOGS } from '@/lib/constants'
 
 const POST = MOSQUITO_BLOGS.supporting[0]
+const DATE = POST.date
+const UPDATED = '2026-07-12'
 
 const FAQS = [
   {
@@ -83,10 +88,12 @@ export default function MosquitoSeasonPage() {
           <span className="bg-brand-800 text-brand-200 text-xs px-3 py-1 rounded-full mb-4 inline-block">Mosquito Control</span>
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold mb-4 leading-tight">{POST.title}</h1>
           <p className="text-brand-300 text-sm">Published {new Date(POST.date).toLocaleDateString('en-CA', { year: 'numeric', month: 'long', day: 'numeric' })} · By BuzzSkito</p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
+        <AuthorByline datePublished={DATE} dateModified={UPDATED} />
         <div className="not-prose bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
           <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
           <p className="text-gray-800 text-[15px] leading-relaxed font-medium">GTA mosquito season starts in late April, once daytime temperatures hold above 10°C, and biting peaks in June and July. The single best window to book your first treatment is the first week of May &mdash; before the first generation of adults breeds.</p>
@@ -148,6 +155,16 @@ export default function MosquitoSeasonPage() {
         <p>It won&rsquo;t protect an entire yard the way a professional <Link href="/mosquito-control" className="text-brand-700">barrier treatment</Link> does, but for a single seating area it&rsquo;s the fastest same-day fix while the season warms up.</p>
 
         <AffiliateDisclosure />
+
+        <TopPick
+          label="Our Top Pick for the Wait"
+          name="Thermacell Mosquito Repeller"
+          blurb="The fastest same-day fix while you wait for the season to warm up or for the truck between treatments. It creates a roughly 20 ft zone of protection around a chair or table — no sprays, sticky lotions, or citronella smoke. It won't protect a whole yard the way a professional barrier treatment does, but for a single seating area it's the most reliable portable option in Canada."
+          search="thermacell mosquito repeller"
+          score={8.5}
+          pros={['Creates a ~20 ft repellent zone in minutes', 'No sprays, lotions, or smoke', 'Portable — move it chair to chair']}
+          cons={['Covers one seating area, not a whole yard', 'Refill mats and fuel are consumables']}
+        />
 
         <p><BuyLink search="thermacell mosquito repeller">Check Thermacell mosquito repeller prices on Amazon.ca →</BuyLink></p>
 

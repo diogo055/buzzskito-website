@@ -4,10 +4,14 @@ import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
 import TopPick from '@/components/TopPick'
+import StickyBuyBar from '@/components/StickyBuyBar'
+import FreshnessStamp from '@/components/FreshnessStamp'
+import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 
 const SLUG = 'picaridin-vs-deet-canada'
 const DATE = '2026-05-01'
+const UPDATED = '2026-05-01'
 const TITLE = 'Picaridin vs DEET Canada 2026 — Which Repellent Wins?'
 
 const FAQS = [
@@ -90,8 +94,11 @@ export default function PicaridinVsDeetPage() {
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
           <p className="text-xl text-brand-100 max-w-3xl">Side-by-side comparison of the two most-used mosquito repellents in Canada — efficacy, safety for kids and pets, tick protection, and where to buy each.</p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
+
+      <StickyBuyBar name="Picaridin 20% insect repellent (Natrapel / OFF! Defense / Sawyer)" search="natrapel picaridin insect repellent" label="Our top pick" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -109,9 +116,13 @@ export default function PicaridinVsDeetPage() {
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
           </div>
           <TopPick
+            label="Our Top Pick"
             name="Picaridin 20% (Natrapel, OFF! Defense, or Sawyer)"
             blurb="The winner for most Canadians — the same 5–8 hour mosquito and 8-hour tick protection as DEET 30%, but non-greasy, odourless, and safe on plastics, sunglasses, and synthetic clothing."
             search="natrapel picaridin insect repellent"
+            score={9.0}
+            pros={['Matches DEET protection at 20%', 'Non-greasy, odourless, dries fast', 'Safe on plastics, sunglasses, and synthetic fabrics', 'Kid-safe from 6 months (Health Canada)']}
+            cons={['DEET slightly better on heavy blackflies', 'Protects skin only — not the whole yard']}
           />
         </div>
       </section>
@@ -227,6 +238,7 @@ export default function PicaridinVsDeetPage() {
 
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
+          <AuthorByline datePublished={DATE} dateModified={UPDATED} />
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Popular Health-Canada-approved options for each (Natrapel/OFF! picaridin, Watkins/OFF! DEET):</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">

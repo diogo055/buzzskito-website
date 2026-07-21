@@ -3,6 +3,8 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import AuthorByline from '@/components/AuthorByline'
 import BuyLink from '@/components/BuyLink'
+import TopPick from '@/components/TopPick'
+import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 
@@ -92,6 +94,7 @@ export default function MosquitoBiteTreatmentReliefPage() {
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
           <p className="text-xl text-brand-100 max-w-3xl">What actually stops the itch, what to skip, and the warning signs that a bite needs a doctor.</p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
 
@@ -177,6 +180,17 @@ export default function MosquitoBiteTreatmentReliefPage() {
             <BuyLink search="after bite itch relief">Check after-bite relief on Amazon &rarr;</BuyLink>
             <BuyLink search="hydrocortisone anti itch cream">Hydrocortisone anti-itch cream &rarr;</BuyLink>
           </div>
+
+          <TopPick
+            label="Best for the Itch"
+            name="1% Hydrocortisone Anti-Itch Cream"
+            blurb="The workhorse of bite relief — a topical steroid that calms the histamine-driven inflammation behind the itch and swelling. The one thing worth keeping in the medicine cabinet before bite season starts."
+            search="hydrocortisone anti itch cream"
+            score={8.8}
+            pros={['Directly targets the histamine reaction', 'Cheap and widely stocked', 'Gentle enough for spot use on kids with a pharmacist’s okay']}
+            cons={['Topical only — pair with cold or an oral antihistamine for many bites', 'Not for broken or infected skin']}
+          />
+
 
           <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
             <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">The best bite treatment is not getting bitten</h3>

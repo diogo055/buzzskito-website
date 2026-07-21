@@ -3,6 +3,9 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import FreshnessStamp from '@/components/FreshnessStamp'
+import AuthorByline from '@/components/AuthorByline'
+import TopPick from '@/components/TopPick'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { NEW_BLOGS_2, TICK_BLOGS } from '@/lib/constants'
 
@@ -78,6 +81,7 @@ export default function TickBiteSymptomsPage() {
           <span className="bg-amber-700 text-amber-100 text-xs px-3 py-1 rounded-full mb-4 inline-block">Tick Control</span>
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold mb-4 leading-tight">{POST.title}</h1>
           <p className="text-brand-300 text-sm">Published {new Date(POST.date).toLocaleDateString('en-CA', { year: 'numeric', month: 'long', day: 'numeric' })} · By BuzzSkito</p>
+          <div className="mt-4"><FreshnessStamp date={POST.date} tone="dark" /></div>
         </div>
       </section>
 
@@ -104,6 +108,8 @@ export default function TickBiteSymptomsPage() {
         <p className="text-lg text-gray-600 not-prose border-l-4 border-amber-400 pl-5 py-2 mb-8">
           Finding a tick on yourself, your child, or your pet is alarming — but knowing exactly what to do makes all the difference. This step-by-step guide covers everything Ontario homeowners need to know from the moment of discovery to medical follow-up. Part of our <Link href={`/blog/${TICK_BLOGS.pillar.slug}`} className="text-brand-700 underline">Ultimate Tick Control Guide for Ontario</Link>.
         </p>
+
+        <AuthorByline datePublished={POST.date} />
 
         <AffiliateDisclosure />
 
@@ -161,6 +167,16 @@ export default function TickBiteSymptomsPage() {
           <li>After removal, thoroughly clean the bite area with rubbing alcohol or soap and water.</li>
           <li>Dispose of the tick by placing it in a sealed bag, submerging it in alcohol, or flushing it down the toilet.</li>
         </ol>
+
+        <TopPick
+          label="Best Tool for the Job"
+          name="Fine-Tipped Tick Removal Tool"
+          blurb="A dedicated tick remover grips right at the skin and lifts the tick straight out — steadier and safer than fingernails or wide household tweezers, so the mouthparts are far less likely to snap off. Cheap, reusable, and worth keeping in every first-aid kit and hiking pack."
+          search="tick removal tool tweezers"
+          score={8.6}
+          pros={['Grips close to the skin', 'Lowers risk of breaking mouthparts', 'Reusable and pocket-sized']}
+          cons={['Still needs steady, even pressure', 'Keep one on hand before you need it']}
+        />
 
         <h2>Step 3: What NOT to Do</h2>
         <p>Several commonly shared methods are dangerous and can increase infection risk:</p>

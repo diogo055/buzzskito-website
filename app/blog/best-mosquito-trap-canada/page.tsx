@@ -3,7 +3,9 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
-import TopPick from '@/components/TopPick'
+import AwardRow from '@/components/AwardRow'
+import StickyBuyBar from '@/components/StickyBuyBar'
+import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 
 const SLUG = 'best-mosquito-trap-canada'
@@ -69,8 +71,11 @@ export default function BestMosquitoTrapCanadaPage() {
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
           <p className="text-xl text-brand-100 max-w-3xl">Every kind of mosquito trap sold in Canada &mdash; propane CO₂, UV + fan, CO₂ lure, and indoor &mdash; compared on how they work, what they actually catch, price, and where to buy.</p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
+
+      <StickyBuyBar name="Mosquito Magnet Patriot Plus (propane CO₂ trap)" search="mosquito magnet trap" label="Best overall trap" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -90,12 +95,54 @@ export default function BestMosquitoTrapCanadaPage() {
         </div>
       </section>
 
-      <section className="bg-white px-4">
-        <div className="max-w-4xl mx-auto">
-          <TopPick
-            name="Mosquito Magnet Patriot Plus (Propane CO₂ Trap)"
-            blurb="The only trap type that generates real CO₂ — the cue biting females actually hunt for. Independent testing supports 70–90% mosquito population reduction over 6–8 weeks on up to 1 acre."
-            search="mosquito magnet trap"
+      <section className="bg-white px-4 py-6">
+        <div className="max-w-5xl mx-auto">
+          <AwardRow
+            heading="Our Picks — Best Mosquito Traps in Canada"
+            awards={[
+              {
+                badge: 'Best Overall',
+                name: 'Mosquito Magnet Patriot Plus (propane CO₂)',
+                why: 'The only trap type that makes real CO₂ — the cue biting females hunt for. Independent testing supports 70–90% population reduction over 6–8 weeks on up to 1 acre.',
+                search: 'mosquito magnet trap',
+                score: 9.2,
+                featured: true,
+                pros: ['Genuinely reduces the biting population', 'Covers up to ~1 acre', 'Targets egg-laying females'],
+                cons: ['Premium up-front cost', 'Ongoing propane + attractant cost'],
+              },
+              {
+                badge: 'Best Mid-Price',
+                name: 'Biogents BG-Mosquitaire (CO₂ lure)',
+                why: 'A CO₂/octenol lure that mimics a human host and vacuums in host-seeking females — better mosquito targeting than UV, without the full Mosquito Magnet price.',
+                search: 'biogents mosquitaire co2 trap',
+                score: 8.4,
+                pros: ['Mosquito-specific catch', 'Cheaper than propane', 'Consistent reviews'],
+                cons: ['Needs CO₂ or octenol refills', 'Slower than barrier spray'],
+              },
+              {
+                badge: 'Best Budget',
+                name: 'DynaTrap UV + Fan Trap',
+                why: 'Cheap and satisfying to empty, and fine as a supplemental flying-insect catcher — but only ~5% of the catch is mosquitoes, so treat it as a bonus, not a solution.',
+                search: 'dynatrap insect trap',
+                score: 7.0,
+                pros: ['Budget-friendly', 'Quiet, low-maintenance', 'Catches lots of flying insects'],
+                cons: ['~5% of catch is mosquitoes', 'Bulbs + cartridges add up'],
+              },
+              {
+                badge: 'Best Indoor',
+                name: 'Katchy Indoor Insect Trap',
+                why: 'A small UV + fan + glue-card unit for near a lamp or window. Best against fungus gnats and fruit flies and the occasional stray mosquito — not a room full of them.',
+                search: 'katchy indoor insect trap',
+                score: 7.4,
+                pros: ['Great for gnats & fruit flies', 'Quiet and compact', 'Replaceable glue cards'],
+                cons: ['Won’t clear a room of mosquitoes', 'Indoor only'],
+              },
+            ]}
+            whichToBuy={
+              <>
+                <strong>Rural acreage or a cottage near water?</strong> The <em>Best Overall</em> propane trap earns its keep. <strong>Suburban lot on a budget?</strong> The <em>Best Mid-Price</em> CO₂ lure gives real mosquito-specific catch for less. <strong>Just want something cheap on the deck?</strong> Grab the <em>Best Budget</em> DynaTrap — but for same-day, whole-yard relief that also kills ticks, nothing beats <Link href="/mosquito-control">professional barrier spray</Link>.
+              </>
+            }
           />
         </div>
       </section>
@@ -124,28 +171,28 @@ export default function BestMosquitoTrapCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Burns propane → real CO₂ + heat + moisture, then vacuums females into a net</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best</strong> — 70–90% over 6–8 weeks</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$399 – $1,299</td>
-                  <td className="px-4 py-3"><BuyLink search="mosquito magnet trap">Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink search="mosquito magnet trap" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">CO₂ / octenol lure<br /><span className="font-normal text-xs text-gray-500">BG-Mosquitaire, Flowtron</span></td>
                   <td className="px-4 py-3 text-gray-700">CO₂ cylinder or bottle + octenol lure mimics a host; fan suction</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Good</strong> — targets host-seeking females</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$200 – $500</td>
-                  <td className="px-4 py-3"><BuyLink search="biogents mosquitaire co2 trap">Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink search="biogents mosquitaire co2 trap" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">UV + fan<br /><span className="font-normal text-xs text-gray-500">DynaTrap, bug zappers</span></td>
                   <td className="px-4 py-3 text-gray-700">UV light attracts insects; fan sucks them in (zappers electrocute)</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Weak</strong> — ~5% of catch is mosquitoes</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$30 – $329</td>
-                  <td className="px-4 py-3"><BuyLink search="dynatrap insect trap">Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink search="dynatrap insect trap" block>Check price →</BuyLink></td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 font-bold text-brand-800">Indoor trap<br /><span className="font-normal text-xs text-gray-500">Katchy, DynaTrap indoor</span></td>
                   <td className="px-4 py-3 text-gray-700">Small UV + fan + sticky glue card for flying insects near a lamp</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Limited</strong> — best for gnats &amp; fruit flies</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$40 – $70</td>
-                  <td className="px-4 py-3"><BuyLink search="katchy indoor insect trap">Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink search="katchy indoor insect trap" block>Check price →</BuyLink></td>
                 </tr>
               </tbody>
             </table>

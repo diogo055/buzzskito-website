@@ -3,6 +3,10 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
+import AwardRow from '@/components/AwardRow'
+import StickyBuyBar from '@/components/StickyBuyBar'
+import FreshnessStamp from '@/components/FreshnessStamp'
+import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 
 const SLUG = 'best-bug-spray-for-kids-canada'
@@ -68,8 +72,11 @@ export default function BestBugSprayForKidsCanadaPage() {
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
           <p className="text-xl text-brand-100 max-w-3xl">Health Canada age limits for DEET and icaridin, the best kid-safe picks, DEET-free options, and how to protect a baby too young for any repellent.</p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
+
+      <StickyBuyBar name="Natrapel Icaridin 20% insect repellent" search="natrapel icaridin 20%" label="Best for kids" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -86,6 +93,67 @@ export default function BestBugSprayForKidsCanadaPage() {
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
           </div>
+        </div>
+      </section>
+
+      <section className="bg-white px-4 py-6">
+        <div className="max-w-5xl mx-auto">
+          <AwardRow
+            heading="Our Picks — Best Kid-Safe Bug Sprays in Canada"
+            awards={[
+              {
+                badge: 'Best Overall',
+                name: 'Natrapel Icaridin 20% (spray/wipes)',
+                why: 'Health Canada’s preferred pick for children over 6 months — icaridin 20% covers mosquitoes and ticks for up to 12 hours, is nearly odourless, and won’t cloud sunglasses or soften stroller plastics the way DEET can.',
+                search: 'natrapel icaridin 20%',
+                score: 9.3,
+                featured: true,
+                pros: ['Mosquitoes + ticks in one bottle', 'No daily-application cap for 6 mo+', 'Won’t damage plastics or fabric'],
+                cons: ['Costs more than low-DEET sprays', 'Still not for babies under 6 months'],
+              },
+              {
+                badge: 'Best Canadian Brand',
+                name: 'PiActive Icaridin 20%',
+                why: 'A widely stocked Canadian icaridin 20% at the same safety tier as Natrapel — approved for kids 6 months and up, with up to 7 hours of mosquito and tick protection per application.',
+                search: 'piactive icaridin repellent',
+                score: 8.7,
+                pros: ['Same icaridin 20% active', 'Easy to find in Canada', 'Light, non-greasy feel'],
+                cons: ['Shorter protection window than some', 'Reapply for long days out'],
+              },
+              {
+                badge: 'Best Long-Lasting Lotion',
+                name: 'Sawyer Picaridin 20% Lotion',
+                why: 'A lotion format that’s easy to rub on squirming kids without overspray, giving up to 12 hours of icaridin coverage for hikes and cottage days.',
+                search: 'sawyer picaridin lotion',
+                score: 8.5,
+                pros: ['Up to 12 h coverage', 'Lotion = no aerosol overspray', 'Good for face-adjacent application by parents'],
+                cons: ['Slower to apply than a spray', 'Lotion can feel heavier'],
+              },
+              {
+                badge: 'Best DEET-Free Plant Option',
+                name: 'OFF! Botanicals (Oil of Lemon Eucalyptus / PMD)',
+                why: 'The strongest plant-derived choice for families who want a botanical repellent — solid 4–6 hour protection, but note the Health Canada label caps it at 3 years and up.',
+                search: 'off botanicals repellent',
+                score: 7.3,
+                pros: ['Plant-derived (PMD)', '4–6 h protection', 'DEET-free'],
+                cons: ['Not for children under 3', 'Weaker against ticks'],
+              },
+              {
+                badge: 'Best for Toddlers',
+                name: 'Bite Blocker Soybean-Oil Repellent',
+                why: 'The gentlest option for younger toddlers over 6 months — soybean-oil based and low-irritation, though it wears off in about 2 hours so you’ll reapply often.',
+                search: 'bite blocker soybean repellent',
+                score: 6.9,
+                pros: ['Gentle for young toddlers', 'Soybean-oil base', 'DEET-free'],
+                cons: ['Only ~2 h protection', 'Frequent reapplication', 'Weak on ticks'],
+              },
+            ]}
+            whichToBuy={
+              <>
+                <strong>One bottle for the whole family?</strong> The <em>Best Overall</em> icaridin 20% spray is the easiest kid-safe choice for anyone 6 months and up. <strong>Prefer a lotion for younger kids?</strong> The <em>Best Long-Lasting Lotion</em> avoids aerosol overspray. <strong>Want a plant-based option?</strong> The <em>Best DEET-Free</em> PMD spray works for ages 3+. And to cut the bites at the source so you reach for spray far less, a whole-yard <Link href="/mosquito-control">professional barrier spray</Link> keeps mosquitoes and ticks off the property in the first place.
+              </>
+            }
+          />
         </div>
       </section>
 
@@ -164,6 +232,7 @@ export default function BestBugSprayForKidsCanadaPage() {
 
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
+          <AuthorByline datePublished={DATE} dateModified={UPDATED} />
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Compare current Canadian prices on the kid-safe repellents below:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
@@ -190,42 +259,42 @@ export default function BestBugSprayForKidsCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Icaridin 20%</td>
                   <td className="px-4 py-3 text-gray-700">6 months+</td>
                   <td className="px-4 py-3 text-gray-700">Up to 12 h</td>
-                  <td className="px-4 py-3"><BuyLink search="natrapel icaridin">Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink search="natrapel icaridin" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">PiActive <span className="font-normal text-xs text-gray-500">(Canadian brand)</span></td>
                   <td className="px-4 py-3 text-gray-700">Icaridin 20%</td>
                   <td className="px-4 py-3 text-gray-700">6 months+</td>
                   <td className="px-4 py-3 text-gray-700">Up to 7 h</td>
-                  <td className="px-4 py-3"><BuyLink search="piactive icaridin repellent">Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink search="piactive icaridin repellent" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Sawyer Picaridin <span className="font-normal text-xs text-gray-500">(lotion)</span></td>
                   <td className="px-4 py-3 text-gray-700">Icaridin 20%</td>
                   <td className="px-4 py-3 text-gray-700">6 months+</td>
                   <td className="px-4 py-3 text-gray-700">Up to 12 h</td>
-                  <td className="px-4 py-3"><BuyLink search="sawyer picaridin lotion">Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink search="sawyer picaridin lotion" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">OFF! FamilyCare <span className="font-normal text-xs text-gray-500">(low DEET)</span></td>
                   <td className="px-4 py-3 text-gray-700">DEET 5–10%</td>
                   <td className="px-4 py-3 text-gray-700">6 months+ *</td>
                   <td className="px-4 py-3 text-gray-700">~2–3 h</td>
-                  <td className="px-4 py-3"><BuyLink search="off familycare insect repellent">Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink search="off familycare insect repellent" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">OFF! Botanicals <span className="font-normal text-xs text-gray-500">(DEET-free)</span></td>
                   <td className="px-4 py-3 text-gray-700">Oil of lemon eucalyptus (PMD)</td>
                   <td className="px-4 py-3 text-gray-700">3 years+</td>
                   <td className="px-4 py-3 text-gray-700">~4–6 h</td>
-                  <td className="px-4 py-3"><BuyLink search="off botanicals repellent">Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink search="off botanicals repellent" block>Check price →</BuyLink></td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 font-bold text-brand-800">Bite Blocker <span className="font-normal text-xs text-gray-500">(toddler-gentle)</span></td>
                   <td className="px-4 py-3 text-gray-700">Soybean oil 2%</td>
                   <td className="px-4 py-3 text-gray-700">6 months+</td>
                   <td className="px-4 py-3 text-gray-700">~2 h</td>
-                  <td className="px-4 py-3"><BuyLink search="bite blocker soybean repellent">Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink search="bite blocker soybean repellent" block>Check price →</BuyLink></td>
                 </tr>
               </tbody>
             </table>

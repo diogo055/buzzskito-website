@@ -5,9 +5,12 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import TopPick from '@/components/TopPick'
+import FreshnessStamp from '@/components/FreshnessStamp'
+import AuthorByline from '@/components/AuthorByline'
 
 const SLUG = 'does-standing-water-attract-mosquitoes'
 const DATE = '2026-07-16'
+const UPDATED = '2026-07-16'
 const TITLE = 'Does Standing Water Attract Mosquitoes? How Fast It Breeds Them'
 
 const FAQS = [
@@ -86,6 +89,7 @@ export default function StandingWaterMosquitoesPage() {
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
           <p className="text-xl text-brand-100 max-w-3xl">Standing water is the number-one thing that turns a GTA backyard into a mosquito factory. Here is exactly how fast it breeds them, how little water they need, and how to shut it down.</p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
 
@@ -140,6 +144,7 @@ export default function StandingWaterMosquitoesPage() {
 
       <article className="py-8 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
+          <AuthorByline datePublished={DATE} dateModified={UPDATED} />
 
           <h2>Does standing water attract mosquitoes?</h2>
           <p>Yes — standing water is the single biggest reason mosquitoes show up in a yard. Female mosquitoes need still water to lay their eggs, and they actively seek it out using scent cues from organic matter, algae, and carbon dioxide. Remove the water and you remove the nursery.</p>
@@ -220,9 +225,13 @@ export default function StandingWaterMosquitoesPage() {
 
           <AffiliateDisclosure />
           <TopPick
+            label="Our Top Pick"
             name="Summit Mosquito Dunks (BTI)"
             blurb="The go-to fix for standing water you can't drain — rain barrels, ponds, ditches. One dunk kills larvae for ~30 days across 100 sq ft of water surface, and it's safe for fish, pets, and pollinators."
             search="summit mosquito dunks"
+            score={9.1}
+            pros={['Kills larvae for about 30 days per dunk', 'Safe around fish, pets, and pollinators', 'Health Canada approved for residential use']}
+            cons={['Targets larvae only — not adult mosquitoes', 'Needs monthly replacement through the season']}
           />
           <p className="not-prose text-sm text-gray-600 mb-2">Drop one in each rain barrel, pond, or low spot that stays wet, and refresh monthly through the season:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">

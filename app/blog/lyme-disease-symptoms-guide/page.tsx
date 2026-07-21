@@ -3,6 +3,8 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import AuthorByline from '@/components/AuthorByline'
 import BuyLink from '@/components/BuyLink'
+import TopPick from '@/components/TopPick'
+import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 
@@ -80,6 +82,7 @@ export default function LymeDiseaseSymptomsGuidePage() {
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
           <p className="text-xl text-brand-100 max-w-3xl">Early signs, the bullseye rash, the full stage-by-stage timeline, and exactly when to see a doctor — sourced from Health Canada, Public Health Ontario, and the CDC.</p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
 
@@ -220,6 +223,16 @@ export default function LymeDiseaseSymptomsGuidePage() {
             <BuyLink search="tick removal tool tweezers">Check tick-removal tools on Amazon →</BuyLink>
             <p className="text-xs text-gray-500 mt-3">Removal steps per the CDC. See our step-by-step guide to <Link href="/blog/how-to-remove-tick-safely" className="underline hover:text-brand-700">removing a tick safely</Link>, what to do if the <Link href="/blog/tick-head-stuck-in-skin" className="underline hover:text-brand-700">tick&rsquo;s head stays stuck in the skin</Link>, and the full <Link href="/blog/tick-bite-symptoms-what-to-do-ontario" className="underline hover:text-brand-700">what-to-do-after-a-tick-bite</Link> walkthrough.</p>
           </aside>
+
+          <TopPick
+            label="Our Top Pick — Tick Remover"
+            name="Fine-Tipped Tick Removal Tool Set"
+            blurb="Because fast, clean removal is one of the best ways to lower Lyme risk, a dedicated tick-removal tool belongs in every household and dog-walking kit. A slim, fine-tipped tool grips the tick right at the skin so you can pull straight up without crushing the body — far more reliable than pinching with fingers or all-purpose tweezers."
+            search="tick removal tool tweezers"
+            score={8.7}
+            pros={['Grips the head close to the skin for a clean pull', 'Compact — lives in a first-aid kit, pack, or leash bag', 'Works for both people and pets']}
+            cons={['Tiny tools are easy to misplace', 'Still requires steady, patient technique']}
+          />
 
           <h2>Stage 2: Early Disseminated Symptoms</h2>
           <p>If early Lyme is not treated, the bacteria can spread through the body over days to weeks. This stage is where the more alarming symptoms appear:</p>

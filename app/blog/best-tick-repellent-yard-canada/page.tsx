@@ -3,11 +3,15 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
-import TopPick from '@/components/TopPick'
+import AwardRow from '@/components/AwardRow'
+import StickyBuyBar from '@/components/StickyBuyBar'
+import FreshnessStamp from '@/components/FreshnessStamp'
+import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 
 const SLUG = 'best-tick-repellent-yard-canada'
 const DATE = '2026-04-26'
+const UPDATED = '2026-07-20'
 const TITLE = 'Best Tick Repellent for Yards — Canada 2026'
 
 const FAQS = [
@@ -70,11 +74,15 @@ export default function BestTickRepellentYardPage() {
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
           <p className="text-xl text-brand-100 max-w-3xl">An evidence-based 2026 buyer&rsquo;s guide for Canadian homeowners. What actually controls ticks at the yard level — cedar oil, professional barrier spray, granular pesticides, and what to skip.</p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
 
+      <StickyBuyBar name="Wondercide Cedar-Oil Yard Spray" search="wondercide tick yard spray" label="Best DIY pick" />
+
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
+          <AuthorByline datePublished={DATE} dateModified={UPDATED} />
           <div className="not-prose bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
             <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The best tick repellent for Ontario yards is a Health Canada-approved professional barrier spray &mdash; it cuts tick populations 80&ndash;95% by targeting the leaf litter and lawn edges where ticks actually live, with up to 30 days of residual protection. The best DIY runner-up is a cedar-oil spray like Wondercide, layered over free habitat fixes.</p>
@@ -96,11 +104,52 @@ export default function BestTickRepellentYardPage() {
           </div>
           <p className="lead text-xl text-gray-700 leading-relaxed mb-6">Personal tick repellents on your skin protect <em>you</em>. Yard-scale tick repellents protect your <em>property</em> — and that&rsquo;s a different problem with different solutions. Here&rsquo;s what works in Canadian yards in 2026.</p>
 
-          <TopPick
-            label="Our Top DIY Pick"
-            name="Wondercide Cedar-Oil Yard Spray"
-            blurb="The leading evidence-backed natural yard spray — real cedar-oil repellency (40–60% population reduction) when re-applied every 2 weeks. The strongest DIY layer you can buy to stack on top of the free habitat fixes."
-            search="wondercide tick yard spray"
+          <AwardRow
+            heading="Our Picks — Best DIY Yard Tick Repellents in Canada"
+            awards={[
+              {
+                badge: 'Best Overall DIY',
+                name: 'Wondercide Cedar-Oil Yard Spray',
+                why: 'The leading evidence-backed natural yard spray — real cedar-oil repellency at 40–60% population reduction when re-applied every 2 weeks. The strongest DIY layer to stack on top of the free habitat fixes.',
+                search: 'wondercide tick yard spray',
+                score: 8.3,
+                featured: true,
+                pros: ['Real, research-backed cedar-oil repellency', 'Kid- and pet-safe once dry', 'Hose-end coverage of lawn edges'],
+                cons: ['Re-apply every 2 weeks', 'Weaker than professional barrier spray'],
+              },
+              {
+                badge: 'Best Granular',
+                name: 'Permethrin-Based Granular Pesticide',
+                why: 'Applied correctly, permethrin granules give roughly 60–75% reduction — the strongest DIY control if you nail even coverage over lawn edges and leaf-litter zones.',
+                search: 'permethrin granules yard tick',
+                score: 7.6,
+                pros: ['Highest DIY reduction (60–75%)', 'Lasts 4–6 weeks per application', 'Wide retailer availability'],
+                cons: ['Hard to spread evenly without gear', 'Synthetic pesticide handling care'],
+              },
+              {
+                badge: 'Best Natural Alternative',
+                name: 'Cedarcide Cedar-Oil Yard Spray',
+                why: 'The other leading evidence-backed cedar-oil option. Same natural approach as Wondercide with mild-but-real repellency at recommended concentrations — a solid pick if you prefer their formula.',
+                search: 'cedarcide tick yard spray',
+                score: 7.2,
+                pros: ['Natural cedar-oil formula', 'Safe around kids and pets', 'Good for seating-area perimeters'],
+                cons: ['Bi-weekly reapplication all season', 'Consumer concentrations run low'],
+              },
+              {
+                badge: 'Best for Personal Wear',
+                name: 'Sawyer Permethrin Clothing & Gear Spray',
+                why: 'Not a yard treatment — a clothing treatment that kills ticks on contact and lasts weeks per application. The best add-on for anyone working, hiking, or gardening in a tick zone.',
+                search: 'sawyer permethrin clothing spray',
+                score: 8.0,
+                pros: ['Kills ticks on contact with treated fabric', 'Lasts several washes per treatment', 'Ideal for yard-work and trail days'],
+                cons: ['Clothing/gear only — not for skin', 'Does not treat the yard itself'],
+              },
+            ]}
+            whichToBuy={
+              <>
+                <strong>Going fully natural?</strong> The <em>Best Overall DIY</em> Wondercide cedar-oil spray is the strongest layer — plan on bi-weekly application. <strong>Want maximum DIY knockdown?</strong> The <em>Best Granular</em> permethrin option reaches 60–75% when spread evenly. <strong>Spending real time in the yard or on trails?</strong> Add the <em>Best for Personal Wear</em> Sawyer Permethrin to your clothing. But for 80–95% reduction that targets where ticks actually live, nothing DIY matches <Link href="/tick-control">professional barrier spray</Link>.
+              </>
+            }
           />
 
           <h2>The Tier System for Yard Tick Repellent</h2>

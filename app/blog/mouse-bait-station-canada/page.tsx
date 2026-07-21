@@ -2,11 +2,16 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
+import TopPick from '@/components/TopPick'
+import StickyBuyBar from '@/components/StickyBuyBar'
+import FreshnessStamp from '@/components/FreshnessStamp'
+import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import SpecialistDisclosure from '@/components/SpecialistDisclosure'
 
 const SLUG = 'mouse-bait-station-canada'
 const DATE = '2026-07-16'
+const UPDATED = '2026-07-16'
 const TITLE = 'Mouse Bait Stations Canada 2026 — What\'s Actually Legal (PMRA Guide)'
 
 const FAQS = [
@@ -85,8 +90,11 @@ export default function MouseBaitStationCanadaPage() {
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
           <p className="text-xl text-brand-100 max-w-3xl">The consumer rodenticide rules that most US-written guides get wrong for Canada — what PMRA actually allows on store shelves, the one disposable station worth buying, and the honest case for using traps first.</p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
+
+      <StickyBuyBar name="Tomcat Mouse Killer disposable bait station (bromethalin)" search="tomcat mouse killer disposable bait station" label="PMRA-legal pick" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -110,10 +118,21 @@ export default function MouseBaitStationCanadaPage() {
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
           <AffiliateDisclosure />
+          <AuthorByline datePublished={DATE} dateModified={UPDATED} />
           <p className="not-prose text-sm text-gray-600 mb-1">The PMRA-registered consumer option, available on Amazon.ca:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink search="tomcat mouse killer disposable bait station">Check Tomcat disposable bait stations on Amazon.ca →</BuyLink>
           </div>
+
+          <TopPick
+            label="Our Top Pick — Consumer-Legal Station"
+            name="Tomcat Mouse Killer Disposable Bait Station (bromethalin)"
+            blurb="The one station that ticks every Canadian box: PMRA-registered domestic class, 0.01% bromethalin sealed in a child- and dog-resistant housing, label-rated up to 12 mice per station, and actually stocked on Amazon.ca. No loose bait handling — when the block is gone, you bin the whole unit. Best for garages, sheds, crawl spaces, and cottage closings; for kitchens and living areas we still say trap first."
+            search="tomcat mouse killer disposable bait station"
+            score={8.2}
+            pros={['Only widely-stocked PMRA domestic-class station', 'Sealed, child- and dog-resistant housing', 'Fast-acting — kills in ~24–48 hours', 'No loose-bait handling; fully disposable']}
+            cons={['Bromethalin has no antidote', 'Mouse dies out of sight — possible wall-void odour', 'Traps are the safer first tool in occupied rooms']}
+          />
 
           <h2>What Is a Mouse Bait Station, and How Does It Work?</h2>
           <p>A mouse bait station is a sealed, tamper-resistant plastic housing with a poisoned bait block locked inside — a mouse can enter through a small opening and feed, but a child&rsquo;s fingers or a dog&rsquo;s jaws cannot reach the bait. In Canada, the station is not an optional accessory: since 2013, it is the only legal way a consumer rodenticide can be sold.</p>

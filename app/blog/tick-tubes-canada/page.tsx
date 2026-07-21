@@ -4,9 +4,14 @@ import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import TopPick from '@/components/TopPick'
+import StickyBuyBar from '@/components/StickyBuyBar'
+import FreshnessStamp from '@/components/FreshnessStamp'
+import AuthorByline from '@/components/AuthorByline'
 
 const SLUG = 'tick-tubes-canada'
 const DATE = '2026-07-14'
+const UPDATED = '2026-07-14'
 const TITLE = 'Tick Tubes in Canada 2026: Do They Actually Work?'
 
 const FAQS = [
@@ -77,8 +82,11 @@ export default function TickTubesCanadaPage() {
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
           <p className="text-xl text-brand-100 max-w-3xl">How permethrin-cotton tubes break the deer-tick life cycle through mice, when and how to place them in Ontario, Thermacell vs generic vs DIY, and why tick control pros pair tubes with a perimeter barrier spray instead of choosing one.</p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
+
+      <StickyBuyBar name="Thermacell Tick Control Tubes" search="thermacell tick control tubes 12 pack" label="Top tick tube pick" />
 
       <section className="bg-white pt-8 px-4">
         <div className="max-w-4xl mx-auto">
@@ -147,12 +155,23 @@ export default function TickTubesCanadaPage() {
 
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
+          <AuthorByline datePublished={DATE} dateModified={UPDATED} />
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Compare current Canadian options and pack sizes:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink search="thermacell tick control tubes 12 pack">Check price on Amazon.ca →</BuyLink>
             <BuyLink search="tick tubes 20 pack">Generic 20-pack tick tubes →</BuyLink>
           </div>
+
+          <TopPick
+            label="Our Top Pick"
+            name="Thermacell Tick Control Tubes"
+            blurb="The most widely stocked tick tube in Canada, with factory-dosed permethrin cotton pre-measured for the job — no off-label guesswork. One twelve-pack covers roughly a quarter-acre, which suits most GTA lots when placed along shaded, brushy edges. Slow and preventive by design: it grinds down next year's mouse-borne nymphs, so pair it with a perimeter barrier spray for the ticks questing in your yard right now."
+            search="thermacell tick control tubes 12 pack"
+            score={8.3}
+            pros={['Factory-dosed, labelled for this exact use', 'Widely available at Canadian retailers', 'One 12-pack covers a typical GTA lot']}
+            cons={['Preventive only — no effect on ticks already questing', 'Effectiveness depends on local mouse activity']}
+          />
 
           <h2>What is a tick tube, exactly?</h2>
           <p>A tick tube is deceptively simple: a short, biodegradable cardboard tube stuffed with cotton that has been treated with <strong>permethrin</strong>, a synthetic insecticide. There is no spray, no battery, and no electronics. The whole device is a delivery system that uses an animal you already have in your yard — the mouse — to carry a tick-killing dose exactly where the immature ticks are.</p>

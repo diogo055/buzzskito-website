@@ -4,11 +4,15 @@ import CTASection from '@/components/CTASection'
 import BlogPostCTA from '@/components/BlogPostCTA'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import AuthorByline from '@/components/AuthorByline'
+import FreshnessStamp from '@/components/FreshnessStamp'
+import TopPick from '@/components/TopPick'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { TICK_BLOGS } from '@/lib/constants'
 
 const SLUG = 'bugs-that-look-like-ticks'
 const DATE = '2026-04-26'
+const UPDATED = '2026-07-12'
 const TITLE = '7 Bugs That Look Like Ticks (And How to Tell Them Apart)'
 const EXCERPT = 'Bed bugs, spider beetles, weevils, carpet beetles, bat bugs, booklice, and stink bug nymphs — plus poppy seeds and deer-tick vs dog-tick ID. A visual look-alike guide for Ontario homeowners, and why misidentification matters for Lyme disease risk.'
 
@@ -99,6 +103,7 @@ export default function BugsThatLookLikeTicksPage() {
           <span className="bg-brand-800 text-brand-200 text-xs px-3 py-1 rounded-full mb-4 inline-block">Tick Control</span>
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
           <p className="text-brand-300 text-sm">Published {new Date(DATE).toLocaleDateString('en-CA', { year: 'numeric', month: 'long', day: 'numeric' })} · Updated July 2026 · By BuzzSkito</p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
 
@@ -126,6 +131,7 @@ export default function BugsThatLookLikeTicksPage() {
           You found a small, dark, oval bug crawling on your child, your dog, or your bedroom carpet. Is it a tick? Maybe — but several common Ontario bugs look almost identical to ticks at first glance, and panicking over the wrong one can cost you hours when it actually matters. This guide covers the most common tick look-alikes — bed bugs, spider beetles, weevils, carpet beetles, bat bugs, booklice, stink bug nymphs, and even stray poppy seeds — how to tell each one apart, and why misidentification is genuinely risky in Ontario&apos;s expanding Lyme disease zones.
         </p>
 
+        <AuthorByline datePublished={DATE} dateModified={UPDATED} />
         <AffiliateDisclosure />
 
         <h2>The 30-Second Tick ID Rule</h2>
@@ -302,6 +308,16 @@ export default function BugsThatLookLikeTicksPage() {
         <h2>Is It a Poppy Seed, a Sesame Seed, or a Tick?</h2>
         <p>This is one of the most-searched tick questions, and for good reason: an unfed blacklegged (deer) tick nymph really is about the size and colour of a poppy seed, and a well-fed one resembles a sesame seed. People routinely spot a dark speck on their skin or scalp and cannot tell whether it is a seed, a fleck of dirt, or a tick.</p>
         <p>The test is quick. A <strong>poppy or sesame seed has no legs, does not move, and brushes off easily.</strong> A <strong>nymph tick that size has 8 legs, grips the skin, and stays put</strong> when you try to wipe it away. If the &ldquo;seed&rdquo; has legs or will not brush off, treat it as a tick, remove it carefully, and save it. A pointed tick-removal tool or fine-tipped tweezers grips a poppy-seed-sized nymph far better than fingernails do &mdash; <BuyLink search="tick removal tool tweezers">check tick-removal tools on Amazon.ca &rarr;</BuyLink> When you are unsure, our <Link href="/blog/tick-removal-tool-guide" className="text-brand-700 underline">tick removal tool guide</Link> walks through the right tools and technique.</p>
+
+        <TopPick
+          label="Our Top Pick — Tick Removal"
+          name="Fine-Tipped Tick Removal Tool"
+          blurb="Once you have confirmed a real tick, the right tool matters: a pointed tick remover or fine-tipped tweezers grips a poppy-seed-sized nymph close to the skin and lifts it straight out, without squeezing the body. Keep one in the first-aid kit and one in the car for post-hike checks."
+          search="tick removal tool tweezers"
+          score={8.7}
+          pros={['Grips even pinhead-sized nymphs', 'Clean, straight-out pull that avoids squeezing', 'Pocket-sized for hikes and pets']}
+          cons={['Needs a steady hand on squirming kids or dogs', 'Keep a spare — easy to misplace']}
+        />
 
         <h2>Wood Tick Nymphs: A Look-Alike That Really Is a Tick</h2>
         <p>&ldquo;Wood tick&rdquo; is a common name for the American dog tick, and its young — larvae and nymphs — are so small they are often mistaken for a poppy seed, a freckle, or a scab rather than a tick. Unlike every other entry here, this one <em>is</em> a tick. If a poppy-seed-sized speck has legs and is attached, do not dismiss it as debris: treat it as a real tick, remove it, and monitor the bite.</p>

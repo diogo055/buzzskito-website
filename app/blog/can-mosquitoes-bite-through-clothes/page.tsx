@@ -4,9 +4,13 @@ import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import FreshnessStamp from '@/components/FreshnessStamp'
+import AuthorByline from '@/components/AuthorByline'
+import TopPick from '@/components/TopPick'
 
 const SLUG = 'can-mosquitoes-bite-through-clothes'
 const DATE = '2026-07-16'
+const UPDATED = '2026-07-16'
 const TITLE = 'Can Mosquitoes Bite Through Clothes? Yes — Here Is Exactly Which Fabrics'
 
 const FAQS = [
@@ -81,6 +85,7 @@ export default function CanMosquitoesBiteThroughClothesPage() {
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
           <p className="text-xl text-brand-100 max-w-3xl">Mosquitoes bite straight through thin, tight fabric but not through loose or thick weaves. Here is exactly which materials are safe, why, and how to stop bites through clothing in the GTA.</p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
 
@@ -106,6 +111,7 @@ export default function CanMosquitoesBiteThroughClothesPage() {
 
       <article className="py-8 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
+          <AuthorByline datePublished={DATE} dateModified={UPDATED} />
           <h2>Can mosquitoes bite through clothing?</h2>
           <p><strong>Yes — a mosquito can bite through clothing any time the fabric is thin enough and tight enough for its proboscis to reach your skin.</strong> The mouthpart a female mosquito uses to feed extends roughly 2 mm (about 0.08 in) once it starts probing, so the rule is simple: if less than about 2 mm of material stands between the mosquito and your skin, you can be bitten.</p>
           <p>Two variables decide it — <strong>thickness</strong> and <strong>fit</strong>. Thin fabric pressed flat against the skin gives the proboscis a direct, unobstructed target. Thick fabric, or fabric that hangs loose with an air gap, moves your skin out of reach. That is the whole mechanism, and it explains every everyday case: why a thin T-shirt fails you but a denim jacket does not, why leggings are a mosquito buffet but loose linen pants are not.</p>
@@ -168,6 +174,16 @@ export default function CanMosquitoesBiteThroughClothesPage() {
             <BuyLink search="insectguard permethrin treated shirt">Permethrin-treated shirt on Amazon.ca →</BuyLink>
             <BuyLink search="coghlans bug jacket">Coghlan&rsquo;s bug jacket →</BuyLink>
           </div>
+
+          <TopPick
+            label="Our Top Pick — Bite-Through Defence"
+            name="Permethrin-Treated Shirt (factory Insect Shield)"
+            blurb="The one clothing upgrade that fixes the thin-fabric problem directly: permethrin bonds to the fibres and kills or knocks down mosquitoes and ticks on contact, so they die or leave before the proboscis reaches skin. Factory-treated garments stay effective for dozens of washes with no reapplication — the most dependable clothing-based defence for anyone outdoors a lot."
+            search="insectguard permethrin treated shirt"
+            score={8.7}
+            pros={['Kills / repels through the fabric before a bite lands', 'Protects against ticks as well as mosquitoes', 'Factory treatment lasts many washes, no reapplying']}
+            cons={['Costs more than an untreated shirt', 'Keep wet permethrin away from cats until fully dry']}
+          />
           <p>For the fully-covered approach, a <Link href="/blog/bug-protective-clothing-canada">bug-protective clothing setup</Link> (treated shirt, pants, and a mesh bug jacket or head net) removes bare skin from the equation almost entirely. In serious mosquito habitat — cottage country, near wetlands — a <Link href="/blog/mosquito-net-canada">mosquito net</Link> over a sleeping area or gazebo adds a physical barrier that no fabric-biting mosquito can cross.</p>
 
           <h2>Why fabric choice only goes so far</h2>

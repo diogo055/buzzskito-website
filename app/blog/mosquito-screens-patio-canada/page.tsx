@@ -3,6 +3,9 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
+import AwardRow from '@/components/AwardRow'
+import StickyBuyBar from '@/components/StickyBuyBar'
+import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 
 const SLUG = 'mosquito-screens-patio-canada'
@@ -68,8 +71,11 @@ export default function MosquitoScreensPatioCanadaPage() {
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
           <p className="text-xl text-brand-100 max-w-3xl">The right mosquito screen depends on your patio. Pop-up screen houses, screened gazebos, magnetic screen doors, window kits, and clip-on netting compared — with 2026 Canadian prices and where to buy.</p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
+
+      <StickyBuyBar name="Pop-Up Screen House (screened gazebo)" search="pop up screen house gazebo" label="Best for open patios" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -86,6 +92,67 @@ export default function MosquitoScreensPatioCanadaPage() {
             </ul>
             <p className="mt-3 text-xs text-gray-500">— BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
           </div>
+        </div>
+      </section>
+
+      <section className="bg-white px-4 py-6">
+        <div className="max-w-5xl mx-auto">
+          <AwardRow
+            heading="Our Picks — Best Patio Mosquito Screens in Canada"
+            awards={[
+              {
+                badge: 'Best Overall Value',
+                name: 'Pop-Up Screen House (screened gazebo)',
+                why: 'A free-standing mesh room you set over your patio table in minutes — no installation, no attaching to the house, and it works the day it arrives. The highest-value pick for any open deck or paver patio.',
+                search: 'pop up screen house gazebo',
+                score: 8.7,
+                featured: true,
+                pros: ['Instant setup, no tools', 'Fully encloses the table', 'Budget-friendly and portable'],
+                cons: ['Cheap poles can snap in wind', 'Floorless models let ground bugs in'],
+              },
+              {
+                badge: 'Best Permanent Room',
+                name: 'Steel-Frame / Hardtop Screened Gazebo',
+                why: 'A proper outdoor room that stays up all summer — solid roof plus zip-up netting walls you can roll open on calm days. Mid-price soft-tops up to premium hardtops that double as rain shelter.',
+                search: 'screened gazebo hardtop',
+                score: 8.3,
+                pros: ['Durable, all-season structure', 'Doubles as rain shelter (hardtop)', 'Roll-open walls'],
+                cons: ['Hours to assemble', 'Netting walls wear before the frame'],
+              },
+              {
+                badge: 'Cheapest High-Impact Fix',
+                name: 'Magnetic Screen Door',
+                why: 'A split mesh curtain with magnets that snap shut behind you — walk through hands-free carrying food, and mosquitoes stop streaming into the house. The single cheapest upgrade that makes a real difference.',
+                search: 'magnetic screen door',
+                score: 7.8,
+                pros: ['Very budget-friendly', 'Hands-free self-sealing seam', 'Fits hinged & sliding doors'],
+                cons: ['Bargain mesh tears in a season', 'Magnets misalign in wind'],
+              },
+              {
+                badge: 'Best for Pergolas & Covered Patios',
+                name: 'Clip-On Mosquito Netting Curtains',
+                why: 'Panels of mesh with hook-and-loop or grommet edges that clip onto an existing pergola, covered patio, or open gazebo and tie back during the day — enclose the space without rebuilding.',
+                search: 'mosquito netting curtain patio',
+                score: 7.5,
+                pros: ['No construction needed', 'Ties back when not in use', 'Mid-price, renter-friendly'],
+                cons: ['Less durable than framed walls', 'Needs a frame to attach to'],
+              },
+              {
+                badge: 'Best Leak Sealer',
+                name: 'Magnetic / Replacement Window Screen Kit',
+                why: 'The best patio setup fails if mosquitoes pour in through a torn or missing window screen nearby. A five-minute, budget-friendly fix that seals the gaps — choose no-see-um mesh near water.',
+                search: 'magnetic window screen mesh',
+                score: 7.2,
+                pros: ['Cheapest fix of all', 'Installs in minutes', 'No-see-um mesh option'],
+                cons: ['Only seals windows', 'Adhesive can lift in heat'],
+              },
+            ]}
+            whichToBuy={
+              <>
+                <strong>Open deck with nothing overhead?</strong> The <em>Best Overall</em> pop-up screen house is the easiest win. <strong>Want a room that stays up all season?</strong> The <em>Best Permanent</em> screened gazebo earns it. <strong>Bugs following you in through the door?</strong> The <em>Cheapest Fix</em> magnetic door solves it for pennies. A screen only protects what it encloses, though — for the lawn, the pool deck, and ticks in the grass, pair it with <Link href="/mosquito-control">professional barrier spray</Link>.
+              </>
+            }
+          />
         </div>
       </section>
 
@@ -111,31 +178,31 @@ export default function MosquitoScreensPatioCanadaPage() {
                   <td className="px-4 py-3 font-bold text-brand-800">Open deck / paver patio (no walls)</td>
                   <td className="px-4 py-3 text-gray-700">Pop-up screen house</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$120 – $250</td>
-                  <td className="px-4 py-3"><BuyLink search="pop up screen house gazebo">Amazon.ca &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink search="pop up screen house gazebo" block>Check price &rarr;</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Want a permanent room</td>
                   <td className="px-4 py-3 text-gray-700">Steel-frame screened gazebo</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$300 – $2,000</td>
-                  <td className="px-4 py-3"><BuyLink search="screened gazebo hardtop">Amazon.ca &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink search="screened gazebo hardtop" block>Check price &rarr;</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Patio / sliding door</td>
                   <td className="px-4 py-3 text-gray-700">Magnetic screen door</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$25 – $60</td>
-                  <td className="px-4 py-3"><BuyLink search="magnetic screen door">Amazon.ca &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink search="magnetic screen door" block>Check price &rarr;</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Pergola / covered patio</td>
                   <td className="px-4 py-3 text-gray-700">Clip-on mosquito netting curtains</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$80 – $300</td>
-                  <td className="px-4 py-3"><BuyLink search="mosquito netting curtain patio">Amazon.ca &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink search="mosquito netting curtain patio" block>Check price &rarr;</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Gaps around windows</td>
                   <td className="px-4 py-3 text-gray-700">Magnetic / replacement window screen kit</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$15 – $40</td>
-                  <td className="px-4 py-3"><BuyLink search="magnetic window screen mesh">Amazon.ca &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink search="magnetic window screen mesh" block>Check price &rarr;</BuyLink></td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 font-bold text-brand-800">Three-season room / high-end</td>

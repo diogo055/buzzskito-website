@@ -3,6 +3,8 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import AuthorByline from '@/components/AuthorByline'
 import BuyLink from '@/components/BuyLink'
+import TopPick from '@/components/TopPick'
+import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema, howToSchema } from '@/lib/seo'
 import { MOSQUITO_BLOGS } from '@/lib/constants'
@@ -43,6 +45,7 @@ export default function PreventMosquitoesPage() {
           <span className="bg-brand-800 text-brand-200 text-xs px-3 py-1 rounded-full mb-4 inline-block">Mosquito Control</span>
           <h1 className="text-3xl sm:text-4xl font-extrabold mb-4 leading-tight">{POST.title}</h1>
           <p className="text-brand-300 text-sm">Practical, evidence-backed mosquito prevention for Ontario backyards — what to fix, in what order, and why it matters.</p>
+          <div className="mt-4"><FreshnessStamp date={POST.date} tone="dark" /></div>
         </div>
       </section>
 
@@ -135,6 +138,15 @@ export default function PreventMosquitoesPage() {
 
         <h3>9. Use Mosquito Dunks in Ornamental Ponds</h3>
         <p>If you have a pond, rain barrel, or other permanent water feature you can't drain or empty, use Bacillus thuringiensis israelensis (Bti) mosquito dunks. These biological control products kill mosquito larvae without harming fish, frogs, or other wildlife. One floating dunk treats up to 100 sq ft of surface water for about 30 days — see our full <Link href="/blog/mosquito-dunks-canada-guide" className="text-brand-700 hover:underline">mosquito dunks buyer's guide for Canada</Link> for dosing and where to buy.</p>
+        <TopPick
+          label="Our Top Pick for Untreatable Standing Water"
+          name="Summit BTI Mosquito Dunks"
+          blurb="The single most useful product on this list. For a pond, rain barrel, or low spot you can't drain, these floating BTI dunks kill mosquito larvae before they ever reach biting age — biological control that's safe around fish, frogs, pets, and kids. Slow-dissolving, so one dunk keeps working for weeks."
+          search="summit mosquito dunks"
+          score={8.8}
+          pros={['Kills larvae in water you can\'t drain', 'Safe for fish, pets, and wildlife', 'One dunk lasts about a month']}
+          cons={['Only treats standing water — not adults', 'Won\'t protect a seating area on its own']}
+        />
         <p className="not-prose my-4"><BuyLink search="summit mosquito dunks">Check Mosquito Dunks price on Amazon.ca →</BuyLink></p>
 
         <h3>10. Install or Repair Window and Door Screens</h3>

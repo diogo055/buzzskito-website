@@ -1,12 +1,15 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
-import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import FreshnessStamp from '@/components/FreshnessStamp'
+import AuthorByline from '@/components/AuthorByline'
+import TopPick from '@/components/TopPick'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 
 const SLUG = 'what-does-tick-look-like-on-dog'
 const DATE = '2026-04-26'
+const UPDATED = '2026-04-26'
 const TITLE = 'What Does a Tick Look Like on a Dog? (Ontario Field Guide 2026)'
 
 const FAQS = [
@@ -69,11 +72,13 @@ export default function WhatDoesTickLookLikeOnDogPage() {
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
           <p className="text-xl text-brand-100 max-w-3xl">A practical Ontario field guide to identifying ticks on dogs. How to tell a tick from a skin tag, flea, or scab — and which species carry Lyme.</p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
 
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
+          <AuthorByline datePublished={DATE} dateModified={UPDATED} />
           <div className="not-prose bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
             <p className="text-gray-800 text-[15px] leading-relaxed font-medium">A tick on a dog looks like a small, flat, oval bug with 8 legs &mdash; about sesame-seed sized (1&ndash;3 mm) when unfed &mdash; that swells to pea- or grape-sized and grey-blue when engorged; blacklegged (deer) ticks are small, plain, and reddish-brown and carry Lyme, while larger American dog ticks have a mottled grey-brown shield.</p>
@@ -157,7 +162,15 @@ export default function WhatDoesTickLookLikeOnDogPage() {
           <h2>What to Do When You Find One</h2>
           <p>Don&rsquo;t panic. The single most useful thing to have on hand is a proper <strong>fine-tipped tick removal tool or pointed tweezers</strong> — a dedicated tick hook or pointed tick tweezers grips the tick right at the skin so you can pull straight up without squeezing the body or leaving the mouthparts behind. A regular flat-tipped tweezer tends to crush the tick, which can push infected fluid back into your dog. Keep one in the house and one in your dog-walk bag.</p>
           <AffiliateDisclosure />
-          <p><BuyLink search="tick removal tool tweezers">Check price on Amazon.ca →</BuyLink></p>
+          <TopPick
+            label="Our Top Pick for Removal"
+            name="Fine-Tipped Tick Removal Tool / Pointed Tweezers"
+            blurb="A dedicated tick hook or pointed tick tweezers grips the tick right at the skin so you can pull straight up — the safest way to lift out an embedded tick without crushing the body or leaving the mouthparts behind. Cheap enough to keep one in the house and one in the dog-walk bag."
+            search="tick removal tool tweezers"
+            score={9.0}
+            pros={['Grips at skin level for a clean, straight-up pull', 'Avoids squeezing infected fluid back in', 'Pocket-sized — keep one in your walk bag']}
+            cons={['Fiddly on very small nymphs without good light', 'Flat household tweezers tend to crush the tick']}
+          />
           <p>Not sure which style to buy? Our <Link href="/blog/tick-removal-tool-guide">tick removal tool guide</Link> compares hooks, pointed tweezers, and card-style removers. Then follow our two complete step-by-step guides:</p>
           <ul>
             <li><Link href="/blog/i-found-tick-on-my-dog-what-to-do">I Found a Tick on My Dog — What to Do</Link></li>

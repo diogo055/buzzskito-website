@@ -4,9 +4,13 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import SpecialistDisclosure from '@/components/SpecialistDisclosure'
+import FreshnessStamp from '@/components/FreshnessStamp'
+import AuthorByline from '@/components/AuthorByline'
+import TopPick from '@/components/TopPick'
 
 const SLUG = 'chigger-bites'
 const DATE = '2026-07-19'
+const UPDATED = '2026-07-19'
 const TITLE = 'Chigger Bites: What They Look Like, How Long They Last & How to Treat Them (2026)'
 
 const FAQS = [
@@ -100,11 +104,16 @@ export default function ChiggerBitesPage() {
           <p className="text-xl text-brand-100 leading-relaxed">
             The nearly invisible mite behind some of the itchiest bites in the grass &mdash; where the welts cluster, how to tell them from mosquito and bed bug bites, the burrowing myth debunked, and what genuinely calms the itch.
           </p>
-          <div className="mt-6 text-brand-300 text-sm">Published July 19, 2026 &middot; 10 min read</div>
+          <div className="mt-6 flex flex-wrap items-center gap-x-3 gap-y-2 text-brand-300 text-sm">
+            <span>Published July 19, 2026 &middot; 10 min read</span>
+            <FreshnessStamp date={UPDATED} tone="dark" />
+          </div>
         </div>
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-14 prose-brand">
+
+        <AuthorByline datePublished={DATE} dateModified={UPDATED} />
 
         <div className="not-prose bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
           <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
@@ -181,6 +190,15 @@ export default function ChiggerBitesPage() {
           <li><strong>Use an over-the-counter anti-itch product as directed on the label</strong> &mdash; calamine lotion and anti-itch creams are the standard first line, and a pharmacist can point you to an oral antihistamine if the itch is disrupting sleep. Follow label directions; this guide does not replace them.</li>
           <li><strong>Keep fingernails off the welts.</strong> Scratching is the main route to broken skin and bacterial infection, which is the one genuinely concerning complication of North American chigger bites.</li>
         </ol>
+        <TopPick
+          label="Best for the itch"
+          name="Calamine lotion"
+          blurb="The classic, pharmacist-recommended first line for chigger itch: it cools and dries the welts and takes the edge off the histamine reaction while the bite runs its course. Cheap, widely stocked, and gentle enough for broken-out skin — apply as directed on the label."
+          search="calamine lotion"
+          score={8.4}
+          pros={['Soothes itch without harsh solvents', 'Inexpensive and widely available', 'Gentle on inflamed, scratched skin']}
+          cons={['Needs frequent reapplication', 'Pink residue on skin and clothes', 'Calms the itch — does not shorten the bite']}
+        />
         <AffiliateDisclosure />
         <div className="not-prose my-4 flex flex-wrap gap-3">
           <BuyLink search="calamine lotion">Check calamine lotion on Amazon &rarr;</BuyLink>

@@ -3,10 +3,14 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import FreshnessStamp from '@/components/FreshnessStamp'
+import AuthorByline from '@/components/AuthorByline'
+import TopPick from '@/components/TopPick'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { TICK_BLOGS } from '@/lib/constants'
 
 const POST = TICK_BLOGS.supporting[0]
+const UPDATED = '2026-04-20'
 
 export const metadata: Metadata = buildMetadata({
   title: 'Lyme Disease Ontario: Prevention Guide',
@@ -70,10 +74,13 @@ export default function LymeDiseasePage() {
           <p className="text-brand-300 text-sm">
             Published {new Date(POST.date).toLocaleDateString('en-CA', { year: 'numeric', month: 'long', day: 'numeric' })} · Updated April 20, 2026 · By BuzzSkito
           </p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
+
+        <AuthorByline datePublished={POST.date} dateModified={UPDATED} />
 
         <div className="not-prose bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
           <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
@@ -214,6 +221,16 @@ export default function LymeDiseasePage() {
           A purpose-made removal hook like the Tick Twister grips the mouthparts at skin level without squeezing the body — worth keeping in the first-aid kit if you live near a ravine or walk a dog daily.{' '}
           <BuyLink search="tick twister removal tool">Check price on Amazon.ca →</BuyLink>
         </p>
+
+        <TopPick
+          label="Best Tick Remover"
+          name="Tick Twister Removal Hook"
+          blurb="Because the Lyme bacterium transfers only after hours of attachment, a fast, clean removal is your single biggest lever. A slotted hook slides under the tick and lifts it out mouthparts-and-all — no squeezing the body, which is exactly what tweezers risk. Keep one in the first-aid kit if you walk a dog or live near a ravine."
+          search="tick twister removal tool"
+          score={8.7}
+          pros={['Lifts the tick without crushing the body', 'Grips at skin level so mouthparts come free', 'Pocket-sized and reusable for people and pets']}
+          cons={['Two sizes needed to cover nymphs and adults', 'Fine-tipped tweezers still handle the tiniest nymphs']}
+        />
         <p>
           For a detailed step-by-step guide including what to do with the tick after removal, see our post on <Link href="/blog/how-to-remove-tick-safely" className="text-brand-700 hover:underline">how to remove a tick safely</Link>.
         </p>

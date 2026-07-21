@@ -3,6 +3,8 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import FreshnessStamp from '@/components/FreshnessStamp'
+import AuthorByline from '@/components/AuthorByline'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 
 const SLUG = 'mosquito-hawk-explained'
@@ -91,6 +93,7 @@ export default function MosquitoHawkPage() {
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
           <p className="text-xl text-brand-100 max-w-3xl">The truth about &ldquo;mosquito hawks&rdquo;: they&rsquo;re crane flies, they don&rsquo;t eat mosquitoes, and the persistent myth is wrong.</p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
 
@@ -195,6 +198,8 @@ export default function MosquitoHawkPage() {
 
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
+
+          <AuthorByline datePublished={DATE} dateModified={UPDATED} />
 
           <AffiliateDisclosure />
 

@@ -4,7 +4,12 @@ import CTASection from '@/components/CTASection'
 import BlogPostCTA from '@/components/BlogPostCTA'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import FreshnessStamp from '@/components/FreshnessStamp'
+import AuthorByline from '@/components/AuthorByline'
+import TopPick from '@/components/TopPick'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+
+const UPDATED = '2026-06-04'
 
 const POST = {
   title: 'Tick Season in Burlington 2026: Why Halton\'s Lakefront and Escarpment Edge Are at Highest Risk',
@@ -63,10 +68,12 @@ export default function TickSeasonBurlingtonPage() {
           <span className="bg-amber-500 text-white text-xs px-3 py-1 rounded-full mb-4 inline-block font-bold uppercase tracking-wider">Burlington · 2026 Update</span>
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold mb-4 leading-tight">{POST.title}</h1>
           <p className="text-brand-300 text-sm">Published {new Date(POST.date).toLocaleDateString('en-CA', { year: 'numeric', month: 'long', day: 'numeric' })} · By Alex &amp; The BuzzSkito Team</p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
+        <AuthorByline datePublished={POST.date} dateModified={UPDATED} />
         <div className="not-prose bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
           <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
           <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Burlington&rsquo;s tick season runs mid-March through November, with a nymph peak from late May to July and an adult peak from mid-September to October; the city sits between two tick reservoirs &mdash; the Niagara Escarpment and Royal Botanical Gardens.</p>
@@ -161,6 +168,16 @@ export default function TickSeasonBurlingtonPage() {
         <div className="not-prose my-4">
           <BuyLink search="insectguard permethrin gaiters">Check InsectGuard permethrin-treated gaiters on Amazon.ca →</BuyLink>
         </div>
+
+        <TopPick
+          label="Best for Burlington trail users"
+          name="InsectGuard Permethrin-Treated Gaiters"
+          blurb="If you hike the escarpment, Mt. Nemo, RBG, or any wooded ravine edge, permethrin-treated clothing is the single most effective personal defence — it kills ticks on contact before they reach skin. One treatment on gaiters, socks, and pant cuffs lasts about six weeks or six washes and covers the exact nymph window when Burlington risk peaks."
+          search="insectguard permethrin gaiters"
+          score={8.7}
+          pros={['Kills ticks on contact, not just repels', 'One application lasts ~6 weeks / 6 washes', 'Covers the ankle-to-knee zone where ticks climb']}
+          cons={['Protects only treated garments, not exposed skin', 'Not a substitute for yard treatment']}
+        />
 
         <h2>Same-week Burlington service</h2>
         <p>BuzzSkito treats every Burlington neighbourhood with same-week service availability through the May-October core season. Pricing scales by lot size, quote sent within 24 hours, no on-site visit required for the estimate. See dedicated pages for <Link href="/burlington-mosquito-spray" className="text-brand-700 underline">Burlington mosquito spray</Link>, <Link href="/aldershot-mosquito-control" className="text-brand-700 underline">Aldershot</Link>, <Link href="/millcroft-mosquito-control" className="text-brand-700 underline">Millcroft</Link>, <Link href="/tyandaga-mosquito-control" className="text-brand-700 underline">Tyandaga</Link>, and <Link href="/alton-village-mosquito-control" className="text-brand-700 underline">Alton Village</Link>.</p>

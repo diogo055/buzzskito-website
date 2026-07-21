@@ -3,6 +3,9 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import FreshnessStamp from '@/components/FreshnessStamp'
+import AuthorByline from '@/components/AuthorByline'
+import TopPick from '@/components/TopPick'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 
 const SLUG = 'what-eats-ticks-and-mosquitoes'
@@ -87,6 +90,7 @@ export default function WhatEatsTicksAndMosquitoesPage() {
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
           <p className="text-xl text-brand-100 max-w-3xl">Every predator that eats mosquitoes and ticks — ranked by how much they actually reduce the bugs in a real Ontario backyard.</p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
 
@@ -156,6 +160,7 @@ export default function WhatEatsTicksAndMosquitoesPage() {
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
           <AffiliateDisclosure />
+          <AuthorByline datePublished={DATE} dateModified={UPDATED} />
           <h2>What Eats Mosquitoes?</h2>
           <p>Mosquitoes sit near the bottom of the food chain, so plenty of animals eat them — in both their aquatic larval stage and as flying adults. The problem is scale. A single female mosquito (the biters are always females) can lay 100 to 300 eggs at a time and produce several generations a summer. Predators simply cannot keep up with that math in a small yard, which is why &ldquo;nature will handle it&rdquo; rarely holds up on a real patio in July.</p>
           <p>Here are the mosquito eaters that matter most, from most useful to most overhyped:</p>
@@ -178,6 +183,16 @@ export default function WhatEatsTicksAndMosquitoesPage() {
             <li><strong>Beneficial nematodes and fungi</strong> — microscopic <em>Steinernema</em> nematodes and the fungus <em>Metarhizium</em> attack ticks in the soil. This is an emerging, chemical-free approach that shows promise in trials, though field results are still patchy and treatments must be reapplied. If you want to try it, live nematodes are sold for lawn application and watered into the soil where ticks overwinter: <BuyLink search="beneficial nematodes lawn">Check price on Amazon.ca &rarr;</BuyLink></li>
             <li><strong>Ants, ground beetles, and parasitic wasps</strong> — provide a quiet background level of tick-egg and larva predation that you will never notice but that helps hold wild numbers down.</li>
           </ul>
+
+          <TopPick
+            label="Best Natural Tick Control You Can Actually Buy"
+            name="Beneficial Nematodes (live, lawn-applied)"
+            blurb="If you want to recruit a real predator into your soil, live Steinernema nematodes are the one entry on this list you can order and apply yourself. Watered into shaded lawn edges and leaf-litter borders, they hunt tick larvae and nymphs where they overwinter. Results are patchy and need reapplication, so treat them as a chemical-free supplement to habitat control — not a standalone fix."
+            search="beneficial nematodes lawn"
+            score={7.2}
+            pros={['Chemical-free, kid- and pet-safe', 'Targets ticks in the soil, where other predators miss', 'Simple to water into the lawn']}
+            cons={['Field results are inconsistent', 'Live product — apply quickly, reapply often', 'Does nothing for adult mosquitoes']}
+          />
 
           <aside aria-label="Professional mosquito and tick control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
             <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">When nature needs a hand</h3>

@@ -4,9 +4,14 @@ import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import FreshnessStamp from '@/components/FreshnessStamp'
+import StickyBuyBar from '@/components/StickyBuyBar'
+import AwardRow from '@/components/AwardRow'
+import AuthorByline from '@/components/AuthorByline'
 
 const SLUG = 'misting-fan-canada'
 const DATE = '2026-07-14'
+const UPDATED = '2026-07-14'
 const TITLE = 'Best Outdoor Misting Fans in Canada 2026 for Patios — and Do They Keep Mosquitoes Away?'
 
 const FAQS = [
@@ -77,8 +82,11 @@ export default function MistingFanCanadaPage() {
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
           <p className="text-xl text-brand-100 max-w-3xl">Evaporative cooling for 35&nbsp;C GTA heat waves, the honest truth about misting fans and mosquitoes, complete fans vs bare kits, hard-water nozzle care, and how misting stacks up against zappers and barrier spray.</p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
+
+      <StickyBuyBar name="Portable oscillating outdoor misting fan" search="portable oscillating misting fan outdoor" label="Best patio pick" />
 
       <section className="bg-white px-4 pt-8">
         <div className="max-w-4xl mx-auto">
@@ -154,8 +162,61 @@ export default function MistingFanCanadaPage() {
         </div>
       </section>
 
+      <section className="bg-white px-4 py-6">
+        <div className="max-w-5xl mx-auto">
+          <AwardRow
+            heading="Our Picks — Best Outdoor Misting Fans in Canada"
+            awards={[
+              {
+                badge: 'Best Overall',
+                name: 'Portable Oscillating Misting Fan (16-inch, tank + remote)',
+                why: 'A complete, self-contained fan with an onboard tank and remote — no hose to route, the finest mist, and simple mist on/off so you can run it dry on humid nights. The most flexible pick for the average GTA deck.',
+                search: 'portable oscillating misting fan outdoor',
+                score: 8.8,
+                featured: true,
+                pros: ['No garden hose needed', 'Fine mist, easy mist on/off', 'Move it where you sit'],
+                cons: ['Pricier than a bare kit', 'Tank needs refilling'],
+              },
+              {
+                badge: 'Best for Big Patios',
+                name: 'Commercial Pedestal Mist Fan',
+                why: 'A high-output, hose-fed pedestal fan built for restaurant patios and event tents — the longest throw and strongest evaporative cooling when you have a large area to keep comfortable.',
+                search: 'commercial outdoor misting fan patio',
+                score: 8.3,
+                pros: ['Longest cooling reach', 'Built for long runtimes', 'Strongest mist output'],
+                cons: ['Premium price', 'Needs a hose connection'],
+              },
+              {
+                badge: 'Best Budget Upgrade',
+                name: 'Fan Misting Kit — Brass Nozzles (16.4 ft)',
+                why: 'Nozzle tubing that clips onto a sturdy fan you already own, for the cheapest way into misting. Choose brass nozzles — they resist Ontario hard-water clogging far better than plastic.',
+                search: 'homenote misting fan kit brass nozzles',
+                score: 7.6,
+                pros: ['Budget-friendly', 'Upgrades an existing fan', 'Brass resists hard water'],
+                cons: ['Coarser mist on hose pressure', 'Can wet surfaces if aimed wrong'],
+              },
+              {
+                badge: 'Best for Wide Coverage',
+                name: 'Fan Misting Kit — Long Line (19.36 ft)',
+                why: 'A longer nozzle line for wrapping a bigger fan or spanning two, giving wider mist coverage on a budget when you already own the fan.',
+                search: 'landgarden fan misting kit',
+                score: 7.3,
+                pros: ['Covers a wider area', 'Cheap per foot of nozzle', 'Fits larger fans'],
+                cons: ['Relies on home water pressure', 'More tubing to route and drain'],
+              },
+            ]}
+            whichToBuy={
+              <>
+                <strong>Nearby tap and want maximum cooling with minimal fuss?</strong> The <em>Best Overall</em> complete portable fan earns the higher ticket. <strong>Large entertaining area?</strong> The <em>Best for Big Patios</em> commercial fan throws mist the furthest. <strong>Already own a solid pedestal fan?</strong> A <em>Best Budget Upgrade</em> brass-nozzle kit is a low-risk start &mdash; but a fan only deters mosquitoes where its breeze reaches, so for whole-yard control that also handles ticks, pair it with <Link href="/mosquito-control">professional barrier spray</Link>.
+              </>
+            }
+          />
+        </div>
+      </section>
+
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
+          <AuthorByline datePublished={DATE} dateModified={UPDATED} />
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Compare current Canadian listings, tank sizes, and nozzle materials on Amazon.ca:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">

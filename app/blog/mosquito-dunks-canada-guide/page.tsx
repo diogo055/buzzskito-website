@@ -6,10 +6,14 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 import InlineYardRiskCTA from '@/components/InlineYardRiskCTA'
 import BuyLink from '@/components/BuyLink'
 import TopPick from '@/components/TopPick'
+import StickyBuyBar from '@/components/StickyBuyBar'
+import FreshnessStamp from '@/components/FreshnessStamp'
+import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 
 const SLUG = 'mosquito-dunks-canada-guide'
 const DATE = '2026-04-28'
+const UPDATED = '2026-04-28'
 const TITLE = 'Mosquito Dunks Canada 2026: Where to Buy + 3 Common Mistakes'
 
 const FAQS = [
@@ -96,8 +100,11 @@ export default function MosquitoDunksPage() {
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
           <p className="text-xl text-brand-100 max-w-3xl">Where to buy them in Canada, how they actually work, and how to combine them with yard barrier spray for total mosquito control.</p>
+          <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
+
+      <StickyBuyBar name="Summit Mosquito Dunks (6-pack)" search="summit mosquito dunks" label="Best for standing water" />
 
       <div className="max-w-4xl mx-auto px-4 -mt-6 sm:-mt-8 relative z-10">
         <BlogPostCTA />
@@ -181,6 +188,9 @@ export default function MosquitoDunksPage() {
             name="Summit Mosquito Dunks (6-pack)"
             blurb="One dunk treats up to 100 sq ft of standing water for ~30 days — a single 6-pack covers a typical rain barrel for the entire May–September season, and it's completely safe for fish, pets, and pollinators."
             search="summit mosquito dunks"
+            score={8.8}
+            pros={['Kills larvae for ~30 days per dunk', 'BTI is safe for fish, pets, and pollinators', 'Budget-friendly and widely stocked in Canada']}
+            cons={['Only treats water you can reach', 'Does nothing to adult mosquitoes flying in']}
           />
         </div>
       </section>
@@ -218,6 +228,7 @@ export default function MosquitoDunksPage() {
 
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
+          <AuthorByline datePublished={DATE} dateModified={UPDATED} />
 
           <h2>How Mosquito Dunks Work</h2>
           <p>Mosquito dunks contain dried BTI bacterial spores compressed into a slow-release tablet. When placed in water, the dunk slowly releases BTI spores into the surrounding water column. Mosquito larvae are filter feeders — they consume the spores as they feed, and the BTI proteins disrupt their digestive system. Death occurs within 24–48 hours.</p>
