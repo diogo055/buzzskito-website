@@ -1763,6 +1763,72 @@ export const NEW_BLOGS_27 = [
   },
 ]
 
+// High-ticket product money pages (Jul 21 2026). In sitemap + /blog index.
+export const NEW_BLOGS_28 = [
+  {
+    slug: 'best-dehumidifier-for-basement-canada',
+    title: 'Best Dehumidifier for a Basement in Canada 2026 — Sizing, Drainage & the Pest Angle',
+    excerpt: 'Basement dehumidifier guide as a root-cause pest tool: pint sizing vs sq ft, continuous-drain vs bucket, compressor vs desiccant for cold basements, and the 30–50% RH target that starves silverfish, roaches, mites and mould.',
+    date: '2026-07-21',
+    category: 'tick' as const,
+  },
+  {
+    slug: 'best-air-purifier-for-dust-mites-canada',
+    title: 'Best Air Purifier for Dust Mites Canada 2026 — True-HEPA, CADR & Room Sizing',
+    excerpt: 'True-HEPA air purifiers compared for Canadian dust-mite sufferers — how CADR and room sizing actually work, honest limits, and picks for large rooms, quiet bedrooms, and tight budgets.',
+    date: '2026-07-21',
+    category: 'tick' as const,
+  },
+  {
+    slug: 'best-hepa-vacuum-for-bed-bugs-and-fleas-canada',
+    title: 'Best Sealed-HEPA Vacuum for Bed Bugs & Fleas Canada 2026 — Canister vs Stick vs Handheld',
+    excerpt: 'Sealed-HEPA vacuums for bed-bug and flea remediation: why a sealed body and bagged disposal matter, crevice-tool technique, the steam-plus-vacuum combo, and canister, cordless, handheld and budget picks.',
+    date: '2026-07-21',
+    category: 'tick' as const,
+  },
+  {
+    slug: 'goodnature-a24-review-canada',
+    title: 'Goodnature A24 Review Canada 2026 — The Self-Resetting, Poison-Free Rat Trap',
+    excerpt: 'Independent Canadian review of the Goodnature A24 CO₂ self-resetting rat & mouse trap: ~24 kills per cylinder, poison-free (no secondary poisoning), placement, consumable cadence, and an honest comparison.',
+    date: '2026-07-21',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'best-live-animal-trap-canada',
+    title: 'Best Live Animal Trap Canada 2026 — The Legal, Humane Guide (Read First)',
+    excerpt: 'A law-forward guide to live cage traps: Ontario\'s 1 km relocation rule, why spring/summer trapping orphans young, deterrence first, trap sizes compared, and when to hire a licensed operator.',
+    date: '2026-07-21',
+    category: 'tick' as const,
+  },
+  {
+    slug: 'best-gazebo-with-mosquito-net-canada',
+    title: 'Best Gazebo With Mosquito Net Canada 2026 — Soft-Top vs Hard-Top Screened Picks',
+    excerpt: 'A buyer\'s guide to screened gazebos with mosquito netting for Canadian decks: soft-top vs hard-top for wind/snow, no-see-um vs standard mesh, anchoring, sizing, and where to buy.',
+    date: '2026-07-21',
+    category: 'mosquito' as const,
+  },
+]
+
+// Existing pages that were in the sitemap but missing from the /blog index —
+// registered here for the index + internal-link equity ONLY (already in sitemap,
+// so NOT spread into sitemap.ts to avoid duplicate <loc>).
+export const NEW_BLOGS_29 = [
+  { slug: 'permethrin-canada-yard-clothing-spray', title: 'Permethrin Canada: Where to Buy + Is It Legal? (2026)', excerpt: 'Where to buy permethrin in Canada, whether it is legal for clothing and yard use, and how to apply Sawyer-style sprays safely.', date: '2026-07-19', category: 'mosquito' as const },
+  { slug: 'picaridin-vs-deet-canada', title: 'Picaridin vs DEET Canada 2026 — Which Repellent Wins?', excerpt: 'Picaridin vs DEET for Canadian summers: which lasts longer, which is safer, and the best picaridin (icaridin) repellents to buy.', date: '2026-07-19', category: 'mosquito' as const },
+  { slug: 'mosquito-bits-canada-vs-dunks', title: 'Mosquito Bits vs Dunks (Canada 2026): Kills Larvae Faster', excerpt: 'Bits kill larvae in 24 hours, Dunks last 30 days — which BTI product to use and where to buy each cheapest in Canada.', date: '2026-07-15', category: 'mosquito' as const },
+  { slug: 'mosquito-control-worth-the-cost', title: 'Is Professional Mosquito Control Worth the Cost?', excerpt: 'An honest look at whether professional mosquito control is worth it — what you get, what it costs, and when DIY is enough.', date: '2026-06-15', category: 'mosquito' as const },
+  { slug: 'when-does-mosquito-season-start-toronto-2026', title: 'When Does Mosquito Season Start in Toronto? 2026 Guide', excerpt: 'When Toronto\'s mosquito season begins in 2026, the temperature triggers, peak months, and when to book the first treatment.', date: '2026-05-20', category: 'mosquito' as const },
+  { slug: 'west-nile-virus-ontario-2026', title: 'West Nile Virus Ontario 2026 — GTA Risk & Prevention', excerpt: 'West Nile risk across Ontario and the GTA in 2026: which mosquitoes carry it, peak timing, symptoms, and how to lower your risk.', date: '2026-06-10', category: 'mosquito' as const },
+  { slug: 'are-ticks-dangerous-ontario', title: 'Are Ticks Dangerous in Ontario? Risks, Diseases & Protection', excerpt: 'Which Ontario ticks bite, the diseases they carry (Lyme and beyond), and how to protect your family and pets.', date: '2026-06-05', category: 'tick' as const },
+  { slug: 'how-much-does-tick-treatment-cost-ontario', title: 'Tick Treatment Cost Ontario 2026 — What You Will Pay', excerpt: 'What professional tick control costs in Ontario in 2026, what drives the price, and how yard size and season factor in.', date: '2026-06-05', category: 'tick' as const },
+  { slug: 'lyme-disease-cases-ontario-2026', title: 'Lyme Disease Cases Up in Ontario 2026: PHU-by-PHU Breakdown', excerpt: 'Where Lyme disease is rising fastest in Ontario in 2026, a public-health-unit breakdown, and what the trend means for your yard.', date: '2026-06-12', category: 'tick' as const },
+  { slug: 'lyme-disease-risk-areas-ontario-2026', title: 'Lyme Disease Risk Areas in Ontario 2026', excerpt: 'The Ontario regions with the highest blacklegged-tick and Lyme risk in 2026, and how to tell if your neighbourhood is one.', date: '2026-06-12', category: 'tick' as const },
+  { slug: 'ontario-tick-surge-2026', title: 'Ontario Tick Surge 2026 — Why Numbers Are Climbing', excerpt: 'Why tick populations are surging across Ontario in 2026, which species are spreading, and what it means for the season ahead.', date: '2026-06-08', category: 'tick' as const },
+  { slug: 'spring-tick-season-ontario', title: 'Spring Tick Season Ontario — When to Start Treating', excerpt: 'When ticks wake up in an Ontario spring, why the first warm days matter most, and the right time to start yard protection.', date: '2026-04-15', category: 'tick' as const },
+  { slug: 'tick-borne-diseases-ontario-complete-list', title: 'Tick-Borne Diseases in Ontario — The Complete List', excerpt: 'Every tick-borne disease found in Ontario — Lyme, anaplasmosis, babesiosis and more — with symptoms and prevention.', date: '2026-06-01', category: 'tick' as const },
+  { slug: 'toronto-tick-hot-spot-2026', title: 'Why Toronto Is a Tick Hot Spot in 2026', excerpt: 'The ravines, parks and green corridors making Toronto a 2026 tick hot spot, and what it means for city and suburban yards.', date: '2026-06-18', category: 'tick' as const },
+]
+
 // ── Season helpers ─────────────────────────────────────────────────────────────
 
 export const PEAK_SEASON = 'May through July'
