@@ -1589,6 +1589,107 @@ export const NEW_BLOGS_25 = [
   },
 ]
 
+export const NEW_BLOGS_26 = [
+  {
+    slug: 'best-wasp-trap-canada',
+    title: 'Best Wasp Trap Canada 2026 — RESCUE! WHY vs TrapStik vs Bag Traps',
+    excerpt: 'RESCUE! WHY Trap vs TrapStik vs disposable bag traps vs the DIY pop bottle — spring-queen vs August-worker timing, 6–9 m placement, and what needs PMRA registration.',
+    date: '2026-07-21',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'how-to-get-rid-of-wasps-canada',
+    title: 'How to Get Rid of Wasps in Canada — Identify, Treat, Prevent (2026)',
+    excerpt: 'Identify paper wasps vs yellowjackets vs bald-faced hornets, find the nest, know when DIY is safe vs when to hire, treat at night, and set traps that actually help.',
+    date: '2026-07-21',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'best-wasp-nest-spray-canada',
+    title: 'Best Wasp Nest Spray Canada 2026 — PMRA-Legal Foams & Jets Compared',
+    excerpt: 'PMRA-registered wasp nest sprays compared — Raid foam vs Wilson WaspOut vs long-reach jets, dusk technique and safe standoff, and why US "27-foot" cans are grey-market in Canada.',
+    date: '2026-07-21',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'best-yellow-jacket-trap-canada',
+    title: 'Best Yellow Jacket Trap Canada 2026 — And the SKU Mistake Everyone Makes',
+    excerpt: 'The best yellow jacket traps for the Aug–Sep aggression peak — and the RESCUE! "West of the Rockies" SKU mistake that leaves Ontario traps empty. Bait timing, placement, honest expectations.',
+    date: '2026-07-21',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'how-to-get-rid-of-ground-wasps-canada',
+    title: 'How to Get Rid of Ground Wasps in Canada — Yellow Jacket Nests in the Lawn',
+    excerpt: 'Wasps streaming out of a hole in the lawn? Identify the yellow jacket nest, kill it safely at dusk with PMRA-registered jet foam, skip the boiling-water myth, and know when to call a pro.',
+    date: '2026-07-21',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'rescue-why-trap-review-canada',
+    title: 'RESCUE! WHY Trap Review Canada 2026 — Does the 2-Chamber Wasp Trap Work?',
+    excerpt: 'Honest Canadian review of the RESCUE! WHY Trap: how the two-chamber design catches wasps, hornets and yellowjackets, the real 2-week refill pattern, and what it can\'t do.',
+    date: '2026-07-21',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'how-to-get-rid-of-fruit-flies-canada',
+    title: 'How to Get Rid of Fruit Flies in Canada — Find the Source, Break the 8-Day Cycle',
+    excerpt: 'Fruit flies explode because egg-to-adult takes 8 days. The source-first Canadian playbook: produce, drains, recycling, the TERRO trap, honest ACV DIY, and prevention.',
+    date: '2026-07-21',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'best-fruit-fly-trap-canada',
+    title: 'Best Fruit Fly Trap Canada 2026 — TERRO vs Katchy vs Sticky Ribbons',
+    excerpt: 'TERRO vs Katchy vs Zevo vs sticky ribbons: which fruit fly trap actually out-smells your fruit bowl, real refill economics, and why every infestation takes 2–3 weeks to end.',
+    date: '2026-07-21',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'katchy-indoor-insect-trap-review-canada',
+    title: 'Katchy Indoor Insect Trap Review (Canada 2026) — What It Actually Catches',
+    excerpt: 'Honest Canadian review of the Katchy UV + fan + glue trap: brilliant on fungus gnats and fruit flies, weak on house flies and mosquitoes — plus refill costs and placement tips.',
+    date: '2026-07-21',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'bed-bug-heater-canada',
+    title: 'Best Bed Bug Heater Canada 2026 — Heat Chambers That Kill Every Life Stage',
+    excerpt: 'Portable heat chambers kill bed bug adults, nymphs, and eggs in one cycle — no pesticide, no PMRA grey zone. ZappBug Oven 2 vs luggage-size units, plus buy vs rent vs pro heat.',
+    date: '2026-07-21',
+    category: 'tick' as const,
+  },
+  {
+    slug: 'zappbug-heater-review-canada',
+    title: 'ZappBug Heater Review Canada 2026 — Does the Bed Bug Heat Chamber Actually Work?',
+    excerpt: 'Hands-on review of the ZappBug bed bug heat chamber for Canadians: setup, real cycle times, what fits, electronics rules, and when it beats renting a heater or hiring pros.',
+    date: '2026-07-21',
+    category: 'tick' as const,
+  },
+  {
+    slug: 'motion-activated-sprinkler-canada',
+    title: 'Best Motion-Activated Sprinkler Canada 2026 — Keep Raccoons, Cats & Squirrels Out',
+    excerpt: 'Orbit Yard Enforcer vs Pro vs budget clones: how the day/night sensor works, humane cat and raccoon deterrence, and the drain-before-frost rule Canadian owners can\'t skip.',
+    date: '2026-07-21',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'raccoon-deterrent-canada',
+    title: 'Best Raccoon Deterrent Canada 2026 — What Actually Works (and What Ontario Law Allows)',
+    excerpt: 'Toronto is the raccoon capital of the world and Ontario law bans relocating wildlife past 1 km — so deterrence is the whole game. The honest tier list of what actually works.',
+    date: '2026-07-21',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'how-to-keep-spiders-out-of-your-house',
+    title: 'How to Keep Spiders Out of Your House — What Actually Works (2026)',
+    excerpt: 'Why spiders appear indoors every late August (mating season, not cold) and what actually works: sealing, sticky traps, vacuuming, PMRA-registered sprays — and the truth on peppermint oil.',
+    date: '2026-07-21',
+    category: 'mosquito' as const,
+  },
+]
+
 // ── Season helpers ─────────────────────────────────────────────────────────────
 
 export const PEAK_SEASON = 'May through July'
