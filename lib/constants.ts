@@ -1690,6 +1690,79 @@ export const NEW_BLOGS_26 = [
   },
 ]
 
+export const NEW_BLOGS_27 = [
+  {
+    slug: 'best-spider-spray-canada',
+    title: 'Best Spider Spray Canada 2026 — PMRA-Registered Picks vs US Grey-Market',
+    excerpt: 'Doktor Doom vs Konk OnGuard vs Knock Down — the Canadian-registered spider sprays that work, the PCP-number check that filters grey-market imports, and the late-August timing that matters.',
+    date: '2026-07-21',
+    category: 'tick' as const,
+  },
+  {
+    slug: 'how-to-get-rid-of-cluster-flies-canada',
+    title: 'How to Get Rid of Cluster Flies in Canada (2026) — The Farmhouse & Cottage Guide',
+    excerpt: 'Cluster flies are earthworm parasites that overwinter on sunny south walls — not a hygiene problem. The late-summer sealing, window-trap, and vacuum plan for Canadian farmhouses and cottages.',
+    date: '2026-07-21',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'how-to-get-rid-of-cockroaches-canada',
+    title: 'How to Get Rid of Cockroaches in Canada — The Bait-First Plan That Actually Works',
+    excerpt: 'German vs American vs Oriental ID, why sprays scatter colonies, and the bait-station + glue-board plan that reaches the roaches you never see — plus the honest Canadian answer on Advion gel.',
+    date: '2026-07-21',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'advion-cockroach-gel-bait-canada',
+    title: 'Advion Cockroach Gel Bait in Canada — The Honest Grey-Market Answer',
+    excerpt: 'Can you buy Advion in Canada? The honest grey-market answer: PMRA classes, the 10-second PCP label check, and the legal bait-station toolkit that actually works on German cockroaches.',
+    date: '2026-07-21',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'how-to-get-rid-of-rats-canada',
+    title: 'How to Get Rid of Rats in Canada (2026) — Traps, Exclusion & What\'s Actually Legal',
+    excerpt: 'Norway vs roof rat ID, pre-baited snap-trap technique, the Goodnature A24 auto-trap, rat-proof exclusion, and which rodenticides are actually legal in Canada — the full 2026 playbook.',
+    date: '2026-07-21',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'rodent-exclusion-kit-canada',
+    title: 'Rodent Exclusion Kit Canada 2026 — Seal Mice Out Before October',
+    excerpt: 'Copper mesh, 1/4-inch hardware cloth, exterior sealant and a chew-proof garage seal — the 4-layer kit that seals mice out before October, plus the dime rule and 8-point inspection walk.',
+    date: '2026-07-21',
+    category: 'tick' as const,
+  },
+  {
+    slug: 'how-to-get-rid-of-fungus-gnats-houseplants',
+    title: 'How to Get Rid of Fungus Gnats in Houseplants — The Fix That Actually Works',
+    excerpt: 'Fungus gnats breed in your potting soil, not the air. The two-front fix: dry-out plus bottom-watering, yellow sticky cards for adults, and BTI (Mosquito Bits) to kill the larvae for good.',
+    date: '2026-07-21',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'how-to-keep-mice-out-of-your-car',
+    title: 'How to Keep Mice Out of Your Car — Protect the Engine Bay, Wiring & Cabin',
+    excerpt: 'A parked car is a heated nest box with thousands of dollars of chewable wiring. Parking strategy, capsaicin rodent tape, honest under-hood repeller advice, and a storage trap line.',
+    date: '2026-07-21',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'best-rodent-repellent-for-cars-canada',
+    title: 'Best Rodent Repellent for Cars Canada 2026 — Tape vs Strobe vs Peppermint',
+    excerpt: 'Capsaicin deterrent tape vs under-hood strobes vs peppermint pouches vs perimeter snap traps — honestly rated for Canadian cars, plus the 8-step winter-storage protocol.',
+    date: '2026-07-21',
+    category: 'mosquito' as const,
+  },
+  {
+    slug: 'how-to-get-rid-of-silverfish-canada',
+    title: 'How to Get Rid of Silverfish in Canada — The Humidity Fix That Actually Works',
+    excerpt: 'Silverfish can\'t breed below 50% humidity — the root-cause fix US guides skip. Dehumidifier sizing, trap monitoring, DE technique, and the PMRA truth about Dekko packs.',
+    date: '2026-07-21',
+    category: 'mosquito' as const,
+  },
+]
+
 // ── Season helpers ─────────────────────────────────────────────────────────────
 
 export const PEAK_SEASON = 'May through July'
