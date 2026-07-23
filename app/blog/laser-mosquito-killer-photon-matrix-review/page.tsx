@@ -7,6 +7,7 @@ import TopPick from '@/components/TopPick'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'laser-mosquito-killer-photon-matrix-review'
 const DATE = '2026-07-12'
@@ -53,6 +54,8 @@ export const metadata: Metadata = buildMetadata({
   publishedTime: DATE,
   modifiedTime: UPDATED,
 })
+
+const AMZ_TAG = tagForSlug('laser-mosquito-killer-photon-matrix-review')
 
 export default function LaserMosquitoKillerPhotonMatrixPage() {
   return (
@@ -123,19 +126,19 @@ export default function LaserMosquitoKillerPhotonMatrixPage() {
                     <td className="px-4 py-3 font-bold text-brand-800">Propane CO₂ trap (Mosquito Magnet)</td>
                     <td className="px-4 py-3 text-gray-700">Proven · in stock</td>
                     <td className="px-4 py-3 font-mono text-gray-800">$400 – $1,300</td>
-                    <td className="px-4 py-3"><BuyLink search="mosquito magnet trap" block>Check price →</BuyLink></td>
+                    <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="mosquito magnet trap" block>Check price →</BuyLink></td>
                   </tr>
                   <tr className="border-b border-navy-50">
                     <td className="px-4 py-3 font-bold text-brand-800">Thermacell patio repellent</td>
                     <td className="px-4 py-3 text-gray-700">Proven · in stock</td>
                     <td className="px-4 py-3 font-mono text-gray-800">$35 – $220</td>
-                    <td className="px-4 py-3"><BuyLink search="thermacell patio shield" block>Check price →</BuyLink></td>
+                    <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="thermacell patio shield" block>Check price →</BuyLink></td>
                   </tr>
                   <tr className="border-b border-navy-50">
                     <td className="px-4 py-3 font-bold text-brand-800">BTI dunks (larvae control)</td>
                     <td className="px-4 py-3 text-gray-700">Proven · in stock</td>
                     <td className="px-4 py-3 font-mono text-gray-800">$15 – $30 / season</td>
-                    <td className="px-4 py-3"><BuyLink search="mosquito dunks bti" block>Check price →</BuyLink></td>
+                    <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="mosquito dunks bti" block>Check price →</BuyLink></td>
                   </tr>
                   <tr>
                     <td className="px-4 py-3 font-bold text-brand-800">Professional barrier spray</td>
@@ -194,7 +197,7 @@ export default function LaserMosquitoKillerPhotonMatrixPage() {
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
           <AffiliateDisclosure />
 
-          <TopPick
+          <TopPick tag={AMZ_TAG}
             label="Proven Pick Instead"
             name="Mosquito Magnet Propane CO₂ Trap"
             blurb="Skip the crowdfunded laser gamble. If you want a device that measurably thins the mosquito population today, the propane CO₂ trap is the one with real independent testing behind it — it burns propane to make genuine CO₂, heat, and moisture, the exact cues an egg-laying female hunts, then vacuums her in. Best suited to larger and cottage properties, in stock now, no pre-order lottery."
@@ -206,8 +209,8 @@ export default function LaserMosquitoKillerPhotonMatrixPage() {
 
           <p className="not-prose text-sm text-gray-600 mb-1">Skip the crowdfunding gamble &mdash; check current Canadian prices on the traps and repellents that actually work today:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="mosquito magnet trap">Mosquito Magnet on Amazon.ca →</BuyLink>
-            <BuyLink search="thermacell patio shield">Thermacell on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="mosquito magnet trap">Mosquito Magnet on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="thermacell patio shield">Thermacell on Amazon.ca →</BuyLink>
           </div>
 
           <h2 id="what-it-is">What Is a &ldquo;Laser Mosquito Killer&rdquo;?</h2>
@@ -254,13 +257,13 @@ export default function LaserMosquitoKillerPhotonMatrixPage() {
           <p>While the laser idea matures, here is the honest, boring, effective toolkit that clears mosquitoes from a real Canadian backyard right now. Most homeowners get the best results by combining two or three of these rather than chasing a single silver-bullet gadget.</p>
 
           <h3>1. Propane CO₂ traps (the proven trap)</h3>
-          <p>A <Link href="/blog/best-mosquito-trap-canada">propane CO₂ trap</Link> like the Mosquito Magnet burns propane to make real CO₂, heat, and moisture &mdash; the exact cues a female mosquito hunts &mdash; then vacuums her in. Independent testing shows 70&ndash;90% population reduction over 6&ndash;8 weeks of continuous running. It is a real device you can order today, best suited to larger and cottage properties. Stocked at Costco Canada, Cabela&rsquo;s, Lee Valley, and Amazon.ca. <BuyLink search="mosquito magnet trap">Check Mosquito Magnet price →</BuyLink></p>
+          <p>A <Link href="/blog/best-mosquito-trap-canada">propane CO₂ trap</Link> like the Mosquito Magnet burns propane to make real CO₂, heat, and moisture &mdash; the exact cues a female mosquito hunts &mdash; then vacuums her in. Independent testing shows 70&ndash;90% population reduction over 6&ndash;8 weeks of continuous running. It is a real device you can order today, best suited to larger and cottage properties. Stocked at Costco Canada, Cabela&rsquo;s, Lee Valley, and Amazon.ca. <BuyLink tag={AMZ_TAG} search="mosquito magnet trap">Check Mosquito Magnet price →</BuyLink></p>
 
           <h3>2. Thermacell (instant patio bubble)</h3>
-          <p>For same-evening relief in a seating area, a Thermacell heats a repellent mat to create a roughly 20 sq metre &ldquo;bubble&rdquo; around you within minutes &mdash; no laser, no wiring. It is the closest thing to instant gratification on this list, ideal for a deck, dock, or campsite. Widely stocked at Canadian Tire, Home Depot Canada, and Costco. <BuyLink search="thermacell patio shield">Check Thermacell price →</BuyLink></p>
+          <p>For same-evening relief in a seating area, a Thermacell heats a repellent mat to create a roughly 20 sq metre &ldquo;bubble&rdquo; around you within minutes &mdash; no laser, no wiring. It is the closest thing to instant gratification on this list, ideal for a deck, dock, or campsite. Widely stocked at Canadian Tire, Home Depot Canada, and Costco. <BuyLink tag={AMZ_TAG} search="thermacell patio shield">Check Thermacell price →</BuyLink></p>
 
           <h3>3. BTI dunks (stop the next generation)</h3>
-          <p>Mosquitoes need standing water to breed. Drop a <strong>BTI dunk or bits</strong> (a naturally occurring bacterium harmless to pets, birds, and fish) into rain barrels, low spots, and clogged gutters and you kill larvae before they ever fly. It is a few dollars a season and quietly one of the highest-value moves you can make. <BuyLink search="mosquito dunks bti">Check BTI dunks price →</BuyLink></p>
+          <p>Mosquitoes need standing water to breed. Drop a <strong>BTI dunk or bits</strong> (a naturally occurring bacterium harmless to pets, birds, and fish) into rain barrels, low spots, and clogged gutters and you kill larvae before they ever fly. It is a few dollars a season and quietly one of the highest-value moves you can make. <BuyLink tag={AMZ_TAG} search="mosquito dunks bti">Check BTI dunks price →</BuyLink></p>
 
           <h3>4. Professional barrier spray (whole-yard, plus ticks)</h3>
           <p>The most complete option is a licensed technician treating the shady, leafy vegetation where mosquitoes rest during the day. You get <strong>same-day relief and 21&ndash;30 days of residual coverage across the whole yard</strong> &mdash; and unlike any trap or laser, barrier treatment also knocks down <Link href="/mosquito-control">ticks</Link>, which no airborne device touches. For a typical GTA lot, this is the single most effective line item, starting from $99 per treatment.</p>

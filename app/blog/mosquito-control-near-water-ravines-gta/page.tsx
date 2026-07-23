@@ -8,6 +8,7 @@ import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { NEW_BLOGS, MOSQUITO_BLOGS } from '@/lib/constants'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const POST = NEW_BLOGS[8]
 
@@ -42,6 +43,8 @@ const FAQS = [
       "Yes. Properties adjacent to active waterways are continuously re-colonized by mosquitoes migrating from the source. Most suburban properties benefit from 4–5 treatments per season. Properties immediately adjacent to the Humber River, Credit River, Don River, or major conservation areas often need the full 5-treatment program to maintain consistent coverage. Some clients in very exposed positions treat every 3 weeks rather than every 4 weeks through peak season.",
   },
 ]
+
+const AMZ_TAG = tagForSlug('mosquito-control-near-water-ravines-gta')
 
 export default function MosquitoControlNearWaterPage() {
   return (
@@ -115,9 +118,9 @@ export default function MosquitoControlNearWaterPage() {
           <li><strong>Seasonal ponds and drainage swales:</strong> Low areas in your yard that hold water for 5–7 days after rain can be completing larval cycles without being identified as ponds.</li>
         </ul>
         <AffiliateDisclosure />
-        <p>For ornamental ponds, Bti (Bacillus thuringiensis israelensis) mosquito dunks are an effective, fish-safe larval control option — one floating dunk slowly releases Bti for about 30 days. <BuyLink search="summit mosquito dunks">Check Mosquito Dunks on Amazon.ca →</BuyLink> For the shallow low spots and drainage swales that pool for 5&ndash;7 days after rain, granular Mosquito Bits release Bti immediately for a faster larval knockdown. <BuyLink search="summit mosquito bits">Check Mosquito Bits on Amazon.ca →</BuyLink> For stormwater management ponds and drainage features you don&rsquo;t control, the strategy shifts entirely to adult control through barrier spray on your property.</p>
+        <p>For ornamental ponds, Bti (Bacillus thuringiensis israelensis) mosquito dunks are an effective, fish-safe larval control option — one floating dunk slowly releases Bti for about 30 days. <BuyLink tag={AMZ_TAG} search="summit mosquito dunks">Check Mosquito Dunks on Amazon.ca →</BuyLink> For the shallow low spots and drainage swales that pool for 5&ndash;7 days after rain, granular Mosquito Bits release Bti immediately for a faster larval knockdown. <BuyLink tag={AMZ_TAG} search="summit mosquito bits">Check Mosquito Bits on Amazon.ca →</BuyLink> For stormwater management ponds and drainage features you don&rsquo;t control, the strategy shifts entirely to adult control through barrier spray on your property.</p>
 
-        <TopPick
+        <TopPick tag={AMZ_TAG}
           label="Best for Standing Water You Control"
           name="Summit Mosquito Dunks (Bti larvicide)"
           blurb="For an ornamental pond, rain barrel, or bird bath, floating Bti dunks are the single most effective DIY move — a naturally occurring soil bacterium that kills mosquito larvae before they hatch while staying safe for fish, frogs, birds, and pets. One dunk treats about 100 sq ft of surface water for roughly 30 days."

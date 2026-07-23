@@ -8,6 +8,7 @@ import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'steamer-vs-heater-for-bed-bugs-canada'
 const DATE = '2026-07-21'
@@ -75,6 +76,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('steamer-vs-heater-for-bed-bugs-canada')
+
 export default function SteamerVsHeaterForBedBugsCanadaPage() {
   return (
     <>
@@ -96,7 +99,7 @@ export default function SteamerVsHeaterForBedBugsCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="Dupray Neat steam cleaner" search="dupray neat steam cleaner" label="Buy this one first" />
+      <StickyBuyBar tag={AMZ_TAG} name="Dupray Neat steam cleaner" search="dupray neat steam cleaner" label="Buy this one first" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -173,8 +176,8 @@ export default function SteamerVsHeaterForBedBugsCanadaPage() {
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Availability</td>
-                  <td className="px-4 py-3"><BuyLink search="dupray neat steam cleaner" block>Check price →</BuyLink></td>
-                  <td className="px-4 py-3"><BuyLink search="zappbug bed bug heater" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="dupray neat steam cleaner" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="zappbug bed bug heater" block>Check price →</BuyLink></td>
                   <td className="px-4 py-3 text-gray-700">Buy the Canadian 120V listing for plug &amp; warranty</td>
                 </tr>
               </tbody>
@@ -202,8 +205,8 @@ export default function SteamerVsHeaterForBedBugsCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability for each tool:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="dupray neat steam cleaner">Dupray steamer →</BuyLink>
-            <BuyLink search="zappbug bed bug heater">ZappBug heater →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="dupray neat steam cleaner">Dupray steamer →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="zappbug bed bug heater">ZappBug heater →</BuyLink>
           </div>
 
           <h2>How Each One Kills: Contact Heat vs Enclosed Heat</h2>
@@ -241,7 +244,7 @@ export default function SteamerVsHeaterForBedBugsCanadaPage() {
           <p>For a single first purchase, the steamer wins, because it is the only tool that treats the one thing you cannot put in a box: the bed itself. But &ldquo;wins&rdquo; here means &ldquo;buy first,&rdquo; not &ldquo;buy instead&rdquo; &mdash; the heater covers a real gap the steamer leaves, and a thorough treatment uses both. Whichever you start with, remember that heat is only the kill step in a larger loop. Vacuum first with a <Link href="/blog/best-hepa-vacuum-for-bed-bugs-and-fleas-canada">sealed-HEPA vacuum</Link> to physically remove live adults, nymphs, and debris from the seams. Apply heat second &mdash; steam the fixed surfaces slowly and gently, and run laundry through a hot dryer or a heater chamber. Then place <Link href="/blog/bed-bug-interceptor-traps-canada">interceptor traps</Link> under the bed legs so you can see, week over week, whether the numbers are actually falling.</p>
           <p>If you are still deciding between two heaters rather than steamer-vs-heater, our <Link href="/blog/packtite-vs-zappbug-canada">PackTite vs ZappBug comparison</Link> breaks down the leading chambers head-to-head. And if you are choosing between two steamers, the <Link href="/blog/dupray-vs-mcculloch-steamer-canada">Dupray vs McCulloch guide</Link> covers that matchup in detail.</p>
 
-          <TopPick
+          <TopPick tag={AMZ_TAG}
             label="Buy First — Best Single Bed-Bug Heat Tool"
             name="Dupray Steam Cleaner"
             blurb="For a first purchase, the steamer wins the head-to-head — not because it is better than a heater, but because it is the only tool that treats the infestation epicentre: the mattress, box spring, frame, headboard, and baseboards that will never fit inside any consumer heater. Its intense, on-contact vapour kills bugs and eggs in every seam and fold, and a hot dryer covers most of what a heater would in the interim. Add a ZappBug heater second for luggage, books, and delicates a dryer cannot take — a thorough treatment uses both."

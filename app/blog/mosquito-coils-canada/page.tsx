@@ -7,6 +7,7 @@ import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'mosquito-coils-canada'
 const DATE = '2026-07-12'
@@ -54,6 +55,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('mosquito-coils-canada')
+
 export default function MosquitoCoilsCanadaPage() {
   return (
     <>
@@ -75,7 +78,7 @@ export default function MosquitoCoilsCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="PIC Mosquito Repellent Coils" search="pic mosquito coils" label="Best value coil" />
+      <StickyBuyBar tag={AMZ_TAG} name="PIC Mosquito Repellent Coils" search="pic mosquito coils" label="Best value coil" />
 
       <section className="bg-white px-4 pt-8">
         <div className="max-w-4xl mx-auto">
@@ -97,7 +100,7 @@ export default function MosquitoCoilsCanadaPage() {
 
       <section className="bg-white px-4 py-6">
         <div className="max-w-5xl mx-auto">
-          <AwardRow
+          <AwardRow tag={AMZ_TAG}
             heading="Our Picks — Best Mosquito Coils in Canada"
             awards={[
               {
@@ -227,8 +230,8 @@ export default function MosquitoCoilsCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Compare current Canadian prices on the coils people actually buy — PIC, OFF!, and citronella:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="pic mosquito coils">Check PIC coil price on Amazon.ca →</BuyLink>
-            <BuyLink search="off mosquito coils">OFF! Mosquito Coils →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="pic mosquito coils">Check PIC coil price on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="off mosquito coils">OFF! Mosquito Coils →</BuyLink>
           </div>
 
           <h2 id="best-coils">Best Mosquito Coils in Canada Compared</h2>
@@ -250,33 +253,33 @@ export default function MosquitoCoilsCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">d-allethrin</td>
                   <td className="px-4 py-3 text-gray-700">Best value · widely stocked</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$6 – $12 / pack</td>
-                  <td className="px-4 py-3"><BuyLink search="pic mosquito coils" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="pic mosquito coils" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">OFF! Mosquito Coils</td>
                   <td className="px-4 py-3 text-gray-700">Metofluthrin / allethrin</td>
                   <td className="px-4 py-3 text-gray-700">Trusted brand name</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$8 – $14 / pack</td>
-                  <td className="px-4 py-3"><BuyLink search="off mosquito coils">Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="off mosquito coils">Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Coghlan&rsquo;s Citronella Coils</td>
                   <td className="px-4 py-3 text-gray-700">Citronella oil</td>
                   <td className="px-4 py-3 text-gray-700">Camping · plant-based scent</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$6 – $10 / pack</td>
-                  <td className="px-4 py-3"><BuyLink search="coghlan's citronella mosquito coils">Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="coghlan's citronella mosquito coils">Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 font-bold text-brand-800">Generic Citronella Coils</td>
                   <td className="px-4 py-3 text-gray-700">Citronella oil</td>
                   <td className="px-4 py-3 text-gray-700">Budget · sheltered patios</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$5 – $9 / pack</td>
-                  <td className="px-4 py-3"><BuyLink search="citronella mosquito coils">Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="citronella mosquito coils">Amazon.ca →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
           </div>
-          <p className="not-prose text-sm text-gray-600 mb-6">Rule of thumb: if you want the most bites prevented per coil, buy a <strong>pyrethroid</strong> coil (PIC or OFF!). If you dislike the harsher insecticidal smoke and accept weaker, shorter-range protection, a <strong>citronella</strong> coil is fine on a small, sheltered patio. <BuyLink search="pic mosquito coils">Check PIC coil price →</BuyLink></p>
+          <p className="not-prose text-sm text-gray-600 mb-6">Rule of thumb: if you want the most bites prevented per coil, buy a <strong>pyrethroid</strong> coil (PIC or OFF!). If you dislike the harsher insecticidal smoke and accept weaker, shorter-range protection, a <strong>citronella</strong> coil is fine on a small, sheltered patio. <BuyLink tag={AMZ_TAG} search="pic mosquito coils">Check PIC coil price →</BuyLink></p>
 
           <h2>How Mosquito Coils Actually Work</h2>
           <p>A mosquito coil is a tightly wound spiral of a combustible paste — typically sawdust or dried plant material — blended with an active ingredient. You light the outer tip, blow out the flame, and it smoulders slowly inward like an incense stick, burning for five to eight hours. As it burns, it heats and vaporizes the active ingredient, carrying it into the air on a thin ribbon of smoke.</p>

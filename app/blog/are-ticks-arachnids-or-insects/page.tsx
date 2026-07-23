@@ -7,6 +7,7 @@ import TopPick from '@/components/TopPick'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'are-ticks-arachnids-or-insects'
 const DATE = '2026-07-13'
@@ -56,6 +57,8 @@ export const metadata: Metadata = buildMetadata({
   publishedTime: DATE,
   modifiedTime: UPDATED,
 })
+
+const AMZ_TAG = tagForSlug('are-ticks-arachnids-or-insects')
 
 export default function AreTicksArachnidsOrInsectsPage() {
   return (
@@ -170,9 +173,9 @@ export default function AreTicksArachnidsOrInsectsPage() {
             <li><strong>Repellents still apply.</strong> The active ingredients proven against ticks overlap with mosquito repellents — <strong>DEET</strong>, <strong>picaridin</strong>, and clothing-applied <strong>permethrin</strong> all work on ticks — but you have to choose ones specifically tested against ticks, not just &ldquo;insects.&rdquo;</li>
             <li><strong>Yard control targets arachnid habitat.</strong> Effective treatment knocks down the damp edges and brush lines where ticks quest, which is a different playbook than fogging for adult flying insects.</li>
           </ol>
-          <p>If you want to confirm what you are actually dealing with before you treat, compare it against our photo-based rundowns of <Link href="/blog/what-ticks-look-like-ontario">what ticks look like</Link> and the <Link href="/blog/deer-tick-vs-dog-tick-canada">deer tick vs dog tick</Link> comparison. And if a tick is already attached, keep a fine-tipped removal tool on hand so you can grip it close to the skin and pull straight out. <BuyLink search="tick removal tool tweezers">Check tick-removal tools on Amazon →</BuyLink></p>
+          <p>If you want to confirm what you are actually dealing with before you treat, compare it against our photo-based rundowns of <Link href="/blog/what-ticks-look-like-ontario">what ticks look like</Link> and the <Link href="/blog/deer-tick-vs-dog-tick-canada">deer tick vs dog tick</Link> comparison. And if a tick is already attached, keep a fine-tipped removal tool on hand so you can grip it close to the skin and pull straight out. <BuyLink tag={AMZ_TAG} search="tick removal tool tweezers">Check tick-removal tools on Amazon →</BuyLink></p>
 
-          <TopPick
+          <TopPick tag={AMZ_TAG}
             label="Handy to Keep Nearby"
             name="Fine-Tip Tick Removal Tool"
             blurb="Because ticks anchor with their mouthparts, a fine-tipped tool lets you grip an attached tick close to the skin and pull straight out without squeezing its body — the removal method health authorities recommend."

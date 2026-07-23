@@ -8,6 +8,7 @@ import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'vapamore-mr100-steamer-review-canada'
 const DATE = '2026-07-21'
@@ -75,6 +76,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('vapamore-mr100-steamer-review-canada')
+
 export default function VapamoreMR100SteamerReviewCanadaPage() {
   return (
     <>
@@ -96,7 +99,7 @@ export default function VapamoreMR100SteamerReviewCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="Vapamore MR-100 Primo dry-steam cleaner" search="vapamore mr-100 primo steam cleaner" label="The dry-steam workhorse" />
+      <StickyBuyBar tag={AMZ_TAG} name="Vapamore MR-100 Primo dry-steam cleaner" search="vapamore mr-100 primo steam cleaner" label="The dry-steam workhorse" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -118,7 +121,7 @@ export default function VapamoreMR100SteamerReviewCanadaPage() {
 
       <section className="bg-white px-4 py-6">
         <div className="max-w-3xl mx-auto">
-          <TopPick
+          <TopPick tag={AMZ_TAG}
             label="Our Verdict — Best Dry-Steam Workhorse for DIY Bed-Bug Work"
             name="Vapamore MR-100 Primo Dry-Vapour Steam Cleaner"
             blurb="The MR-100 earns its long-standing reputation: a durable stainless boiler that holds pressure, a genuinely dry plume that kills on contact without soaking the bed, and a full accessory kit with the concentrator and detail brush that actually drive heat into seams. It is priced in the sensible middle of the category — well under a whole-room heater — and doubles as a household steam cleaner for years afterward. Its limit is the limit of every steamer: it only kills what the plume touches, so it belongs in a plan alongside encasements and monitoring, not on its own."
@@ -164,28 +167,28 @@ export default function VapamoreMR100SteamerReviewCanadaPage() {
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Strong</strong> &mdash; stainless boiler, dry plume, full kit</td>
                   <td className="px-4 py-3 text-gray-700">Seams, tufts, baseboards; all-round DIY bed-bug work</td>
                   <td className="px-4 py-3 text-gray-700">No mid-run refill; corded</td>
-                  <td className="px-4 py-3"><BuyLink search="vapamore mr-100 primo steam cleaner" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="vapamore mr-100 primo steam cleaner" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Dupray Neat<br /><span className="font-normal text-xs text-gray-500">premium sealed body</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Strong</strong> &mdash; all-metal, long boiler life</td>
                   <td className="px-4 py-3 text-gray-700">Buyers who want the most sealed, durable build</td>
                   <td className="px-4 py-3 text-gray-700">Smaller stock kit than the MR-100</td>
-                  <td className="px-4 py-3"><BuyLink search="dupray neat steam cleaner" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="dupray neat steam cleaner" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">McCulloch MC1275<br /><span className="font-normal text-xs text-gray-500">value canister</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Fair</strong> &mdash; big accessory set, wetter steam</td>
                   <td className="px-4 py-3 text-gray-700">Budget all-rounder; general cleaning first</td>
                   <td className="px-4 py-3 text-gray-700">Steam is wetter — watch for spitting</td>
-                  <td className="px-4 py-3"><BuyLink search="mcculloch mc1275 steam cleaner" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="mcculloch mc1275 steam cleaner" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Cheap handheld steamer<br /><span className="font-normal text-xs text-gray-500">avoid for infestations</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-red-700">Weak</strong> &mdash; low pressure, spits water</td>
                   <td className="px-4 py-3 text-gray-700">A single suspected bug or a quick once-over</td>
                   <td className="px-4 py-3 text-gray-700">Scatters bugs instead of killing them</td>
-                  <td className="px-4 py-3"><BuyLink search="handheld steam cleaner bed bugs" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="handheld steam cleaner bed bugs" block>Check price →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -212,9 +215,9 @@ export default function VapamoreMR100SteamerReviewCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the MR-100 and the steamers people cross-shop:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="vapamore mr-100 primo steam cleaner">Vapamore MR-100 Primo →</BuyLink>
-            <BuyLink search="dupray neat steam cleaner">Dupray Neat →</BuyLink>
-            <BuyLink search="mcculloch mc1275 steam cleaner">McCulloch MC1275 →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="vapamore mr-100 primo steam cleaner">Vapamore MR-100 Primo →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="dupray neat steam cleaner">Dupray Neat →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="mcculloch mc1275 steam cleaner">McCulloch MC1275 →</BuyLink>
           </div>
 
           <h2>Heat at the Fabric Is the Only Number That Matters</h2>

@@ -8,6 +8,7 @@ import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'best-bed-bug-heat-chamber-canada'
 const DATE = '2026-07-21'
@@ -75,6 +76,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('best-bed-bug-heat-chamber-canada')
+
 export default function BestBedBugHeatChamberCanadaPage() {
   return (
     <>
@@ -96,7 +99,7 @@ export default function BestBedBugHeatChamberCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="ZappBug portable bed bug heater" search="zappbug bed bug heater" label="Best overall" />
+      <StickyBuyBar tag={AMZ_TAG} name="ZappBug portable bed bug heater" search="zappbug bed bug heater" label="Best overall" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -119,7 +122,7 @@ export default function BestBedBugHeatChamberCanadaPage() {
 
       <section className="bg-white px-4 py-6">
         <div className="max-w-5xl mx-auto">
-          <AwardRow
+          <AwardRow tag={AMZ_TAG}
             heading="Our Picks — Best Bed Bug Heat Chambers in Canada"
             awards={[
               {
@@ -193,28 +196,28 @@ export default function BestBedBugHeatChamberCanadaPage() {
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best overall</strong> &mdash; clothing, luggage, shoes, books</td>
                   <td className="px-4 py-3 text-gray-700">Suitcases, bins, stacks of clothing</td>
                   <td className="px-4 py-3 text-gray-700">Multi-hour cycles; premium price</td>
-                  <td className="px-4 py-3"><BuyLink search="zappbug original bed bug heater" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="zappbug original bed bug heater" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">ZappBug Room<br /><span className="font-normal text-xs text-gray-500">large chamber</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Furniture</strong> &mdash; chairs, big loads, family laundry</td>
                   <td className="px-4 py-3 text-gray-700">Small armchair, stacked chairs, large totes</td>
                   <td className="px-4 py-3 text-gray-700">Larger footprint; still not for mattresses</td>
-                  <td className="px-4 py-3"><BuyLink search="zappbug room bed bug heater" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="zappbug room bed bug heater" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Thermal Strike bag<br /><span className="font-normal text-xs text-gray-500">heated travel bag</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Travel</strong> &mdash; decontaminate a suitcase on the road</td>
                   <td className="px-4 py-3 text-gray-700">Luggage-sized loads only</td>
                   <td className="px-4 py-3 text-gray-700">Not for furniture or big loads</td>
-                  <td className="px-4 py-3"><BuyLink search="thermal strike ranger bed bug heater bag" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="thermal strike ranger bed bug heater bag" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">DIY chamber<br /><span className="font-normal text-xs text-gray-500">tote + heater + thermometer</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Budget one-off</strong> &mdash; only if you monitor temperature</td>
                   <td className="px-4 py-3 text-gray-700">Whatever your tote or bag holds</td>
                   <td className="px-4 py-3 text-gray-700">Fire risk; uneven heat; easy to miss cold pockets</td>
-                  <td className="px-4 py-3"><BuyLink search="portable bed bug heater unit" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="portable bed bug heater unit" block>Check price →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -241,10 +244,10 @@ export default function BestBedBugHeatChamberCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the picks:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="zappbug original bed bug heater">ZappBug Original →</BuyLink>
-            <BuyLink search="zappbug room bed bug heater">ZappBug Room →</BuyLink>
-            <BuyLink search="thermal strike ranger bed bug heater bag">Thermal Strike bag →</BuyLink>
-            <BuyLink search="portable bed bug heater unit">Portable heater unit →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="zappbug original bed bug heater">ZappBug Original →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="zappbug room bed bug heater">ZappBug Room →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="thermal strike ranger bed bug heater bag">Thermal Strike bag →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="portable bed bug heater unit">Portable heater unit →</BuyLink>
           </div>
 
           <h2>The Science: Why 48&deg;C Is the Number That Matters</h2>

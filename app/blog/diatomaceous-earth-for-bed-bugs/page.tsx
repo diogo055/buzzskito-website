@@ -7,6 +7,7 @@ import SpecialistDisclosure from '@/components/SpecialistDisclosure'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'diatomaceous-earth-for-bed-bugs'
 const DATE = '2026-07-16'
@@ -63,6 +64,8 @@ export const metadata: Metadata = buildMetadata({
   type: 'article',
   publishedTime: DATE,
 })
+
+const AMZ_TAG = tagForSlug('diatomaceous-earth-for-bed-bugs')
 
 export default function DiatomaceousEarthForBedBugsPage() {
   return (
@@ -144,11 +147,11 @@ export default function DiatomaceousEarthForBedBugsPage() {
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the registered dust and a proper applicator:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="safers diatomaceous earth">Safer&rsquo;s Diatomaceous Earth &rarr;</BuyLink>
-            <BuyLink search="diatomaceous earth duster applicator">Bulb duster applicator &rarr;</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="safers diatomaceous earth">Safer&rsquo;s Diatomaceous Earth &rarr;</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="diatomaceous earth duster applicator">Bulb duster applicator &rarr;</BuyLink>
           </div>
 
-          <TopPick
+          <TopPick tag={AMZ_TAG}
             label="Our Top Pick — the DE to actually buy"
             name="Safer’s Diatomaceous Earth (PMRA-registered insecticide)"
             blurb="The one grade that’s legal to use on bed bugs in Canada — it carries a Pest Control Products (PCP) registration number, so its label directions are the rules you follow. Amorphous, low-crystalline-silica dust: resistance-proof, and safe to apply into cracks and voids when used as a barely-visible film with a bulb duster. Pair it with a proper puffer applicator for the light, even haze that actually kills."
@@ -199,8 +202,8 @@ export default function DiatomaceousEarthForBedBugsPage() {
           </ul>
           <p>The honest Canadian recommendation is the registered dust, used to the label &mdash; not the strongest thing a cross-border seller will ship you.</p>
           <div className="not-prose my-4 flex flex-wrap gap-3">
-            <BuyLink search="safers diatomaceous earth">Check Safer&rsquo;s DE on Amazon.ca &rarr;</BuyLink>
-            <BuyLink search="diatomaceous earth duster applicator">Bulb duster applicator &rarr;</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="safers diatomaceous earth">Check Safer&rsquo;s DE on Amazon.ca &rarr;</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="diatomaceous earth duster applicator">Bulb duster applicator &rarr;</BuyLink>
           </div>
 
           <h2>How Does DE Fit Into a Real Bed Bug Plan?</h2>

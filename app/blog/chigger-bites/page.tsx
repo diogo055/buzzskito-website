@@ -7,6 +7,7 @@ import SpecialistDisclosure from '@/components/SpecialistDisclosure'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'chigger-bites'
 const DATE = '2026-07-19'
@@ -79,6 +80,8 @@ export const metadata: Metadata = buildMetadata({
   type: 'article',
   publishedTime: DATE,
 })
+
+const AMZ_TAG = tagForSlug('chigger-bites')
 
 export default function ChiggerBitesPage() {
   return (
@@ -190,7 +193,7 @@ export default function ChiggerBitesPage() {
           <li><strong>Use an over-the-counter anti-itch product as directed on the label</strong> &mdash; calamine lotion and anti-itch creams are the standard first line, and a pharmacist can point you to an oral antihistamine if the itch is disrupting sleep. Follow label directions; this guide does not replace them.</li>
           <li><strong>Keep fingernails off the welts.</strong> Scratching is the main route to broken skin and bacterial infection, which is the one genuinely concerning complication of North American chigger bites.</li>
         </ol>
-        <TopPick
+        <TopPick tag={AMZ_TAG}
           label="Best for the itch"
           name="Calamine lotion"
           blurb="The classic, pharmacist-recommended first line for chigger itch: it cools and dries the welts and takes the edge off the histamine reaction while the bite runs its course. Cheap, widely stocked, and gentle enough for broken-out skin — apply as directed on the label."
@@ -201,8 +204,8 @@ export default function ChiggerBitesPage() {
         />
         <AffiliateDisclosure />
         <div className="not-prose my-4 flex flex-wrap gap-3">
-          <BuyLink search="calamine lotion">Check calamine lotion on Amazon &rarr;</BuyLink>
-          <BuyLink search="chigger bite itch relief cream">Check anti-itch creams on Amazon &rarr;</BuyLink>
+          <BuyLink tag={AMZ_TAG} search="calamine lotion">Check calamine lotion on Amazon &rarr;</BuyLink>
+          <BuyLink tag={AMZ_TAG} search="chigger bite itch relief cream">Check anti-itch creams on Amazon &rarr;</BuyLink>
         </div>
         <p>What <em>not</em> to do: no nail polish, no bleach, no rubbing alcohol scrubs, no &ldquo;suffocating&rdquo; home remedies. All of them descend from the burrowing myth &mdash; debunked below &mdash; and some actively irritate skin that is already inflamed.</p>
 
@@ -225,7 +228,7 @@ export default function ChiggerBitesPage() {
           <li><strong>Bag and hot-wash field clothes</strong> at 52&deg;C (125&deg;F) or hotter rather than re-wearing them.</li>
         </ul>
         <div className="not-prose my-4">
-          <BuyLink search="insectguard permethrin gaiters">Check permethrin-treated gaiters on Amazon &rarr;</BuyLink>
+          <BuyLink tag={AMZ_TAG} search="insectguard permethrin gaiters">Check permethrin-treated gaiters on Amazon &rarr;</BuyLink>
         </div>
 
         <h2>When should you see a doctor about chigger bites?</h2>

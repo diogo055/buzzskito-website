@@ -8,6 +8,7 @@ import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { MOSQUITO_BLOGS } from '@/lib/constants'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const POST = MOSQUITO_BLOGS.supporting[0]
 const DATE = POST.date
@@ -69,6 +70,8 @@ export const metadata: Metadata = buildMetadata({
   publishedTime: POST.date,
   modifiedTime: '2026-07-12',
 })
+
+const AMZ_TAG = tagForSlug('mosquito-season-gta-when-does-it-start')
 
 export default function MosquitoSeasonPage() {
   return (
@@ -156,7 +159,7 @@ export default function MosquitoSeasonPage() {
 
         <AffiliateDisclosure />
 
-        <TopPick
+        <TopPick tag={AMZ_TAG}
           label="Our Top Pick for the Wait"
           name="Thermacell Mosquito Repeller"
           blurb="The fastest same-day fix while you wait for the season to warm up or for the truck between treatments. It creates a roughly 20 ft zone of protection around a chair or table — no sprays, sticky lotions, or citronella smoke. It won't protect a whole yard the way a professional barrier treatment does, but for a single seating area it's the most reliable portable option in Canada."
@@ -166,7 +169,7 @@ export default function MosquitoSeasonPage() {
           cons={['Covers one seating area, not a whole yard', 'Refill mats and fuel are consumables']}
         />
 
-        <p><BuyLink search="thermacell mosquito repeller">Check Thermacell mosquito repeller prices on Amazon.ca →</BuyLink></p>
+        <p><BuyLink tag={AMZ_TAG} search="thermacell mosquito repeller">Check Thermacell mosquito repeller prices on Amazon.ca →</BuyLink></p>
 
         <p>Deciding between a Thermacell and other gadgets? Read our full breakdown of the <Link href="/blog/best-mosquito-repellent-device-canada" className="text-brand-700 hover:underline">best mosquito repellent devices in Canada</Link>, and if you&rsquo;ve settled on the brand, our guide to <Link href="/blog/thermacell-canada-where-to-buy" className="text-brand-700 hover:underline">where to buy a Thermacell in Canada</Link> covers models and pricing.</p>
 

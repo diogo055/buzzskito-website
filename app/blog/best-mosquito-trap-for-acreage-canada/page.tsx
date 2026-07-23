@@ -8,6 +8,7 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import AuthorByline from '@/components/AuthorByline'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'best-mosquito-trap-for-acreage-canada'
 const DATE = '2026-07-21'
@@ -75,6 +76,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('best-mosquito-trap-for-acreage-canada')
+
 export default function BestMosquitoTrapForAcreageCanadaPage() {
   return (
     <>
@@ -96,7 +99,7 @@ export default function BestMosquitoTrapForAcreageCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="Mosquito Magnet Executive (propane CO₂ trap)" search="mosquito magnet executive propane trap" label="Best for acreage" />
+      <StickyBuyBar tag={AMZ_TAG} name="Mosquito Magnet Executive (propane CO₂ trap)" search="mosquito magnet executive propane trap" label="Best for acreage" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -118,7 +121,7 @@ export default function BestMosquitoTrapForAcreageCanadaPage() {
 
       <section className="bg-white px-4 py-6">
         <div className="max-w-5xl mx-auto">
-          <AwardRow
+          <AwardRow tag={AMZ_TAG}
             heading="Our Picks — Best Mosquito Traps for Acreage in Canada"
             awards={[
               {
@@ -192,21 +195,21 @@ export default function BestMosquitoTrapForAcreageCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">~1 acre</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best</strong> — real CO₂ draws females</td>
                   <td className="px-4 py-3 text-gray-700">$400–$600 (propane + attractant)</td>
-                  <td className="px-4 py-3"><BuyLink search="mosquito magnet executive propane trap" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="mosquito magnet executive propane trap" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">CO₂ / octenol lure<br /><span className="font-normal text-xs text-gray-500">Flowtron, Biogents</span></td>
                   <td className="px-4 py-3 text-gray-700">~½–¾ acre</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Good</strong> — host-seeking females</td>
                   <td className="px-4 py-3 text-gray-700">CO₂ cylinders or octenol refills</td>
-                  <td className="px-4 py-3"><BuyLink search="flowtron mosquito power co2 trap" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="flowtron mosquito power co2 trap" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Big UV + fan<br /><span className="font-normal text-xs text-gray-500">DynaTrap XL</span></td>
                   <td className="px-4 py-3 text-gray-700">Up to ~1 acre (rated)</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Modest</strong> — light, not CO₂</td>
                   <td className="px-4 py-3 text-gray-700">Bulbs + optional lure cartridges</td>
-                  <td className="px-4 py-3"><BuyLink search="dynatrap xl dt3050 insect trap" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="dynatrap xl dt3050 insect trap" block>Check price →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -264,9 +267,9 @@ export default function BestMosquitoTrapForAcreageCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian prices across the acreage trap options:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="mosquito magnet executive propane trap">Propane CO₂ trap →</BuyLink>
-            <BuyLink search="dynatrap xl dt3050 insect trap">DynaTrap XL →</BuyLink>
-            <BuyLink search="flowtron mosquito power co2 trap">CO₂ lure trap →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="mosquito magnet executive propane trap">Propane CO₂ trap →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="dynatrap xl dt3050 insect trap">DynaTrap XL →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="flowtron mosquito power co2 trap">CO₂ lure trap →</BuyLink>
           </div>
 
           <h2>Top Pick: Propane CO₂ Traps (Mosquito Magnet)</h2>

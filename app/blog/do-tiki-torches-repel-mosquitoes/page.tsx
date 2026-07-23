@@ -7,6 +7,7 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'do-tiki-torches-repel-mosquitoes'
 const DATE = '2026-07-16'
@@ -65,6 +66,8 @@ export const metadata: Metadata = buildMetadata({
   publishedTime: DATE,
   modifiedTime: UPDATED,
 })
+
+const AMZ_TAG = tagForSlug('do-tiki-torches-repel-mosquitoes')
 
 export default function DoTikiTorchesRepelMosquitoesPage() {
   return (
@@ -144,8 +147,8 @@ export default function DoTikiTorchesRepelMosquitoesPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">If you want real patio protection instead of just ambiance, these are the tools worth pricing out:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="thermacell patio shield">Check Thermacell patio zone price on Amazon.ca →</BuyLink>
-            <BuyLink search="citronella torch fuel">Citronella torch fuel →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="thermacell patio shield">Check Thermacell patio zone price on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="citronella torch fuel">Citronella torch fuel →</BuyLink>
           </div>
 
           <h2>Do Tiki Torches Keep Mosquitoes Away?</h2>
@@ -225,7 +228,7 @@ export default function DoTikiTorchesRepelMosquitoesPage() {
           <h3>1. A Thermacell for the deck (a real patio zone)</h3>
           <p>A Thermacell device heats a repellent mat to spread a scent-free cloud of protection across a roughly <strong>4.5 m (15 ft)</strong> zone — about 20 times the coverage of a single citronella torch, and it does not depend on you sitting beside a flame. It is the single biggest upgrade over torches for patio use. The rechargeable <Link href="/blog/thermacell-e90-canada-review">Thermacell E90</Link> is the model we point most GTA homeowners to, and our <Link href="/blog/best-mosquito-repellent-device-canada">best mosquito repellent device guide</Link> compares it against every other portable option sold in Canada.</p>
 
-          <TopPick
+          <TopPick tag={AMZ_TAG}
             label="Better Than Torches for the Patio"
             name="Thermacell E90 (rechargeable patio zone)"
             blurb="If you want a real hands-off patio zone instead of a one-metre torch bubble, this is the tool we point GTA homeowners to. It heats a repellent mat to cover a whole seating area without smoke, flame, or you having to sit beside it — the single biggest practical upgrade over a citronella torch."
@@ -236,8 +239,8 @@ export default function DoTikiTorchesRepelMosquitoesPage() {
           />
           <AffiliateDisclosure />
           <div className="not-prose my-4 flex flex-wrap gap-3">
-            <BuyLink search="thermacell patio shield">Thermacell Patio Shield →</BuyLink>
-            <BuyLink search="thermacell e90 rechargeable">Thermacell E90 (rechargeable) →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="thermacell patio shield">Thermacell Patio Shield →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="thermacell e90 rechargeable">Thermacell E90 (rechargeable) →</BuyLink>
           </div>
 
           <h3>2. Skin repellent when you are on the move</h3>

@@ -8,6 +8,7 @@ import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'chapin-battery-backpack-sprayer-review-canada'
 const DATE = '2026-07-21'
@@ -75,6 +76,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('chapin-battery-backpack-sprayer-review-canada')
+
 export default function ChapinBatteryBackpackSprayerReviewCanadaPage() {
   return (
     <>
@@ -96,7 +99,7 @@ export default function ChapinBatteryBackpackSprayerReviewCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="Chapin 63924 24V battery backpack sprayer" search="chapin 63924 battery backpack sprayer" label="Reviewed pick" />
+      <StickyBuyBar tag={AMZ_TAG} name="Chapin 63924 24V battery backpack sprayer" search="chapin 63924 battery backpack sprayer" label="Reviewed pick" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -119,7 +122,7 @@ export default function ChapinBatteryBackpackSprayerReviewCanadaPage() {
 
       <section className="bg-white px-4 py-6">
         <div className="max-w-3xl mx-auto">
-          <TopPick
+          <TopPick tag={AMZ_TAG}
             label="Reviewed — Best for high-volume spraying"
             name="Chapin 63924 24V Wide-Mouth Battery Backpack Sprayer (4 gal / ~15 L)"
             blurb="The wide-mouth tank and 24V lithium pump are the reasons to buy this over a cheaper narrow-neck model: you can fill with powders and clean the tank easily, and the battery holds even pressure across a full tank so your coverage rate never sags. It's a genuine step up for anyone spraying acreage, fence lines, or a hobby farm regularly — and overkill for a small lot you spray twice a year."
@@ -155,28 +158,28 @@ export default function ChapinBatteryBackpackSprayerReviewCanadaPage() {
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best</strong> &mdash; 24V lithium, large wide-mouth tank</td>
                   <td className="px-4 py-3 text-gray-700">High-volume spraying, powder mixing, easy cleanout</td>
                   <td className="px-4 py-3 text-gray-700">Higher price; heavy when full</td>
-                  <td className="px-4 py-3"><BuyLink search="chapin 63924 battery backpack sprayer" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="chapin 63924 battery backpack sprayer" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Chapin 20V battery backpack<br /><span className="font-normal text-xs text-gray-500">narrow-mouth, budget</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Good</strong> &mdash; battery pump, lower voltage</td>
                   <td className="px-4 py-3 text-gray-700">Premixed liquids on small–medium lots</td>
                   <td className="px-4 py-3 text-gray-700">Narrow neck; shorter runtime per charge</td>
-                  <td className="px-4 py-3"><BuyLink search="chapin 20v battery backpack sprayer" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="chapin 20v battery backpack sprayer" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Manual pump backpack<br /><span className="font-normal text-xs text-gray-500">no battery</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Fair</strong> &mdash; hand pump, nothing to fail</td>
                   <td className="px-4 py-3 text-gray-700">Occasional light spraying on a small lot</td>
                   <td className="px-4 py-3 text-gray-700">Arm fatigue; uneven pressure between strokes</td>
-                  <td className="px-4 py-3"><BuyLink search="manual pump backpack sprayer" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="manual pump backpack sprayer" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Handheld / pump sprayer<br /><span className="font-normal text-xs text-gray-500">1–2 gal</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Fair</strong> &mdash; tiny tank, most portable</td>
                   <td className="px-4 py-3 text-gray-700">Spot spraying, patios, single beds</td>
                   <td className="px-4 py-3 text-gray-700">Constant refilling on any real area</td>
-                  <td className="px-4 py-3"><BuyLink search="1 gallon handheld pump sprayer" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="1 gallon handheld pump sprayer" block>Check price →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -203,9 +206,9 @@ export default function ChapinBatteryBackpackSprayerReviewCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the Chapin 63924 and its alternatives:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="chapin 63924 battery backpack sprayer">Chapin 63924 (24V) →</BuyLink>
-            <BuyLink search="chapin 20v battery backpack sprayer">Chapin 20V →</BuyLink>
-            <BuyLink search="manual pump backpack sprayer">Manual backpack →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="chapin 63924 battery backpack sprayer">Chapin 63924 (24V) →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="chapin 20v battery backpack sprayer">Chapin 20V →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="manual pump backpack sprayer">Manual backpack →</BuyLink>
           </div>
 
           <h2>What the Wide Mouth Actually Buys You</h2>

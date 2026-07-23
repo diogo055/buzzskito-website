@@ -8,6 +8,7 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'electric-fly-swatter-canada'
 const DATE = '2026-07-14'
@@ -58,6 +59,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('electric-fly-swatter-canada')
+
 export default function ElectricFlySwatterCanadaPage() {
   return (
     <>
@@ -79,7 +82,7 @@ export default function ElectricFlySwatterCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="The Executioner Electric Fly Swatter" search="executioner fly swatter racket" label="Best overall racket" />
+      <StickyBuyBar tag={AMZ_TAG} name="The Executioner Electric Fly Swatter" search="executioner fly swatter racket" label="Best overall racket" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -101,7 +104,7 @@ export default function ElectricFlySwatterCanadaPage() {
 
       <section className="bg-white px-4 py-6">
         <div className="max-w-5xl mx-auto">
-          <AwardRow
+          <AwardRow tag={AMZ_TAG}
             heading="Our Picks — Best Electric Fly Swatters in Canada"
             awards={[
               {
@@ -188,8 +191,8 @@ export default function ElectricFlySwatterCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Compare current models and Canadian availability:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="executioner fly swatter racket">Check The Executioner on Amazon.ca →</BuyLink>
-            <BuyLink search="zap it bug zapper racket">Check Zap It rackets →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="executioner fly swatter racket">Check The Executioner on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="zap it bug zapper racket">Check Zap It rackets →</BuyLink>
           </div>
 
           <h2>Why the Bug Zapper Racket Is the One Zapper We Endorse</h2>
@@ -202,7 +205,7 @@ export default function ElectricFlySwatterCanadaPage() {
           <p>The <strong>Executioner Pro</strong> stretches the head and handle past 55 cm (22 in) and steps up to two C cells for a hotter, longer-lasting zap — the pick if you are clearing cluster flies off cottage ceilings or want extra reach for wasps. There is also a single-layer <strong>Executioner Revenge</strong> variant with a soft-touch handle, plus colour options (yellow, blue, pink, purple).</p>
           <p>The trade-off is the same thing that makes it great: the live grid is exposed. Brush it against your leg mid-swing with the button held and you will feel it — which is exactly why the second brand exists.</p>
           <div className="not-prose my-4 flex flex-wrap gap-3">
-            <BuyLink search="executioner pro fly swatter">Check Executioner Pro on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="executioner pro fly swatter">Check Executioner Pro on Amazon.ca →</BuyLink>
           </div>
 
           <h2>Zap It — Best for Families (4,000 Volts Behind a Safety Mesh)</h2>
@@ -210,14 +213,14 @@ export default function ElectricFlySwatterCanadaPage() {
           <p>The USB-rechargeable models are the ones to buy: the built-in lithium battery is rated for up to about 10,000 zaps per charge, recharges in roughly two hours from any USB port, and the head carries a bright LED so you can hunt the mosquito whining over your bed at 2 a.m. with the lights off. They come in mini and large sizes and frequently in twin packs. The AA-powered 3,500-volt versions drift in and out of stock on Amazon.ca — the rechargeable line is the better product anyway, unless it is headed to an off-grid cottage.</p>
           <p>Honest downside: with any triple-mesh racket, a small percentage of insects bounce off the outer screen instead of penetrating to the live grid — you occasionally need a second swat, and squishing a wasp through the mesh with a slow press is not as clean as the Executioner&rsquo;s instant open-grid kill. That is the price of a racket you can leave on the coffee table.</p>
           <div className="not-prose my-4 flex flex-wrap gap-3">
-            <BuyLink search="zap it electric fly swatter 4000 volt usb rechargeable">Check Zap It 4,000V USB on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="zap it electric fly swatter 4000 volt usb rechargeable">Check Zap It 4,000V USB on Amazon.ca →</BuyLink>
           </div>
 
           <h2>Black Flag — Budget Pick (Does the Job for Less)</h2>
           <p>Black Flag&rsquo;s handheld bug zapper is the racket you buy three of and scatter around the house. It runs 2,750 volts off two AA batteries with a simple push-button and an LED power light, and there is a hook moulded into the handle so it can live on a nail by the back door. It is noticeably less powerful than the Executioner and Zap It — big September wasps and heavy-bodied moths sometimes need a second tap — but for houseflies, mosquitoes, and fruit flies it kills reliably, and the two-packs are routinely among the cheapest name-brand rackets in Canada.</p>
           <p>One genuinely clever variant worth knowing about: the <strong>Black Flag ZR-8000</strong> extendable model, whose telescoping handle reaches about 75 cm (2.5 ft) with a six-position pivoting head. If your fly problem lives at the top of a two-storey foyer window or a cottage cathedral ceiling — which in Ontario in October means cluster flies — the reach is worth more than raw voltage.</p>
           <div className="not-prose my-4 flex flex-wrap gap-3">
-            <BuyLink search="black flag handheld bug zapper racket">Check Black Flag rackets on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="black flag handheld bug zapper racket">Check Black Flag rackets on Amazon.ca →</BuyLink>
           </div>
 
           <h2>Head-to-Head: Executioner vs Zap It vs Black Flag</h2>
@@ -227,11 +230,11 @@ export default function ElectricFlySwatterCanadaPage() {
                 <tr><th className="px-3 py-2 text-left">Racket</th><th className="px-3 py-2 text-left">Grid voltage</th><th className="px-3 py-2 text-left">Mesh design</th><th className="px-3 py-2 text-left">Power</th><th className="px-3 py-2 text-left">Best for</th><th className="px-3 py-2 text-left">Buy</th></tr>
               </thead>
               <tbody>
-                <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>The Executioner</strong></td><td className="px-3 py-2">~2,800–3,200V</td><td className="px-3 py-2">Single layer — open live grid</td><td className="px-3 py-2">2× AA</td><td className="px-3 py-2">First-swing kills on flies &amp; wasps · adults-only households</td><td className="px-3 py-2"><BuyLink search="executioner fly swatter racket" className="!px-3 !py-1.5 !text-xs whitespace-nowrap">Check price</BuyLink></td></tr>
-                <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Executioner Pro</strong></td><td className="px-3 py-2">~3,000V+ (hotter C-cell zap)</td><td className="px-3 py-2">Single layer — open live grid</td><td className="px-3 py-2">2× C</td><td className="px-3 py-2">Cottages, cluster flies, extra reach (55 cm+)</td><td className="px-3 py-2"><BuyLink search="executioner pro fly swatter" className="!px-3 !py-1.5 !text-xs whitespace-nowrap">Check price</BuyLink></td></tr>
-                <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Zap It (rechargeable)</strong></td><td className="px-3 py-2">4,000V</td><td className="px-3 py-2">3-layer safety mesh</td><td className="px-3 py-2">USB-rechargeable lithium (~10,000 zaps/charge)</td><td className="px-3 py-2">Families with kids · bedroom mosquito hunts (built-in LED)</td><td className="px-3 py-2"><BuyLink search="zap it electric fly swatter 4000 volt usb rechargeable" className="!px-3 !py-1.5 !text-xs whitespace-nowrap">Check price</BuyLink></td></tr>
-                <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Zap It (battery)</strong></td><td className="px-3 py-2">3,500V</td><td className="px-3 py-2">3-layer safety mesh</td><td className="px-3 py-2">2× AA</td><td className="px-3 py-2">Safety mesh without charging cables (stock varies)</td><td className="px-3 py-2"><BuyLink search="zap it bug zapper racket" className="!px-3 !py-1.5 !text-xs whitespace-nowrap">Check price</BuyLink></td></tr>
-                <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Black Flag handheld</strong></td><td className="px-3 py-2">2,750V</td><td className="px-3 py-2">Layered mesh</td><td className="px-3 py-2">2× AA</td><td className="px-3 py-2">Budget multi-packs · one by every door</td><td className="px-3 py-2"><BuyLink search="black flag handheld bug zapper racket" className="!px-3 !py-1.5 !text-xs whitespace-nowrap">Check price</BuyLink></td></tr>
+                <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>The Executioner</strong></td><td className="px-3 py-2">~2,800–3,200V</td><td className="px-3 py-2">Single layer — open live grid</td><td className="px-3 py-2">2× AA</td><td className="px-3 py-2">First-swing kills on flies &amp; wasps · adults-only households</td><td className="px-3 py-2"><BuyLink tag={AMZ_TAG} search="executioner fly swatter racket" className="!px-3 !py-1.5 !text-xs whitespace-nowrap">Check price</BuyLink></td></tr>
+                <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Executioner Pro</strong></td><td className="px-3 py-2">~3,000V+ (hotter C-cell zap)</td><td className="px-3 py-2">Single layer — open live grid</td><td className="px-3 py-2">2× C</td><td className="px-3 py-2">Cottages, cluster flies, extra reach (55 cm+)</td><td className="px-3 py-2"><BuyLink tag={AMZ_TAG} search="executioner pro fly swatter" className="!px-3 !py-1.5 !text-xs whitespace-nowrap">Check price</BuyLink></td></tr>
+                <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Zap It (rechargeable)</strong></td><td className="px-3 py-2">4,000V</td><td className="px-3 py-2">3-layer safety mesh</td><td className="px-3 py-2">USB-rechargeable lithium (~10,000 zaps/charge)</td><td className="px-3 py-2">Families with kids · bedroom mosquito hunts (built-in LED)</td><td className="px-3 py-2"><BuyLink tag={AMZ_TAG} search="zap it electric fly swatter 4000 volt usb rechargeable" className="!px-3 !py-1.5 !text-xs whitespace-nowrap">Check price</BuyLink></td></tr>
+                <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Zap It (battery)</strong></td><td className="px-3 py-2">3,500V</td><td className="px-3 py-2">3-layer safety mesh</td><td className="px-3 py-2">2× AA</td><td className="px-3 py-2">Safety mesh without charging cables (stock varies)</td><td className="px-3 py-2"><BuyLink tag={AMZ_TAG} search="zap it bug zapper racket" className="!px-3 !py-1.5 !text-xs whitespace-nowrap">Check price</BuyLink></td></tr>
+                <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Black Flag handheld</strong></td><td className="px-3 py-2">2,750V</td><td className="px-3 py-2">Layered mesh</td><td className="px-3 py-2">2× AA</td><td className="px-3 py-2">Budget multi-packs · one by every door</td><td className="px-3 py-2"><BuyLink tag={AMZ_TAG} search="black flag handheld bug zapper racket" className="!px-3 !py-1.5 !text-xs whitespace-nowrap">Check price</BuyLink></td></tr>
               </tbody>
             </table>
           </div>

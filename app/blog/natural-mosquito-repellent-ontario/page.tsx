@@ -8,6 +8,7 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'natural-mosquito-repellent-ontario'
 const DATE = '2026-04-26'
@@ -81,6 +82,8 @@ export const metadata: Metadata = buildMetadata({
   publishedTime: DATE,
 })
 
+const AMZ_TAG = tagForSlug('natural-mosquito-repellent-ontario')
+
 export default function NaturalMosquitoRepellentPage() {
   return (
     <>
@@ -102,7 +105,7 @@ export default function NaturalMosquitoRepellentPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="Off! Botanicals (oil of lemon eucalyptus)" search="off botanicals lemon eucalyptus" label="Best natural pick" />
+      <StickyBuyBar tag={AMZ_TAG} name="Off! Botanicals (oil of lemon eucalyptus)" search="off botanicals lemon eucalyptus" label="Best natural pick" />
 
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
@@ -125,7 +128,7 @@ export default function NaturalMosquitoRepellentPage() {
 
           <AffiliateDisclosure />
 
-          <AwardRow
+          <AwardRow tag={AMZ_TAG}
             heading="Our Picks — Best Natural & Non-DEET Repellents"
             awards={[
               {
@@ -266,25 +269,25 @@ export default function NaturalMosquitoRepellentPage() {
                   <td className="py-3 pr-4 font-semibold">Off! Botanicals</td>
                   <td className="py-3 pr-4">Lemon eucalyptus (OLE / PMD)</td>
                   <td className="py-3 pr-4">4–6 hrs</td>
-                  <td className="py-3"><BuyLink search="off botanicals lemon eucalyptus" block>Check price →</BuyLink></td>
+                  <td className="py-3"><BuyLink tag={AMZ_TAG} search="off botanicals lemon eucalyptus" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-gray-200">
                   <td className="py-3 pr-4 font-semibold">Picaridin spray</td>
                   <td className="py-3 pr-4">Picaridin 20% (DEET-free)</td>
                   <td className="py-3 pr-4">8–12 hrs</td>
-                  <td className="py-3"><BuyLink search="picaridin insect repellent 20 percent" block>Check price →</BuyLink></td>
+                  <td className="py-3"><BuyLink tag={AMZ_TAG} search="picaridin insect repellent 20 percent" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-gray-200">
                   <td className="py-3 pr-4 font-semibold">Watkins Original</td>
                   <td className="py-3 pr-4">Citronella + plant oils</td>
                   <td className="py-3 pr-4">2–3 hrs</td>
-                  <td className="py-3"><BuyLink search="watkins mosquito insect repellent" block>Check price →</BuyLink></td>
+                  <td className="py-3"><BuyLink tag={AMZ_TAG} search="watkins mosquito insect repellent" block>Check price →</BuyLink></td>
                 </tr>
                 <tr>
                   <td className="py-3 pr-4 font-semibold">Citronella spray</td>
                   <td className="py-3 pr-4">Citronella oil</td>
                   <td className="py-3 pr-4">30–60 min</td>
-                  <td className="py-3"><BuyLink search="citronella insect repellent spray" block>Check price →</BuyLink></td>
+                  <td className="py-3"><BuyLink tag={AMZ_TAG} search="citronella insect repellent spray" block>Check price →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -357,7 +360,7 @@ export default function NaturalMosquitoRepellentPage() {
           <p className="text-sm text-gray-500">The takeaway: if you want an essential oil that genuinely works, it has to be <strong>oil of lemon eucalyptus (PMD)</strong>. Peppermint and lavender smell great but wear off in under half an hour, and citronella and lemongrass need constant re-application.</p>
           <div className="not-prose my-6 rounded-xl border border-emerald-200 bg-emerald-50 p-5">
             <p className="text-sm text-gray-800 leading-relaxed mb-3"><strong>Our essential-oil pick:</strong> for a botanical spray that actually lasts, skip the loose peppermint and lavender oils and reach for a refined lemon-eucalyptus (PMD) formula like Murphy&rsquo;s Naturals. It is the one essential-oil active with 4&ndash;6 hours of published protection.</p>
-            <BuyLink search="murphys naturals lemon eucalyptus oil insect repellent">Check price on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="murphys naturals lemon eucalyptus oil insect repellent">Check price on Amazon.ca →</BuyLink>
           </div>
 
           <h2>DIY Essential-Oil Mosquito Repellent (Homemade Recipe)</h2>

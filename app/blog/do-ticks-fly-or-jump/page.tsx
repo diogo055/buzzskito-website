@@ -7,6 +7,7 @@ import TopPick from '@/components/TopPick'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'do-ticks-fly-or-jump'
 const DATE = '2026-07-09'
@@ -52,6 +53,8 @@ export const metadata: Metadata = buildMetadata({
   publishedTime: DATE,
   modifiedTime: UPDATED,
 })
+
+const AMZ_TAG = tagForSlug('do-ticks-fly-or-jump')
 
 export default function DoTicksFlyOrJumpPage() {
   return (
@@ -197,9 +200,9 @@ export default function DoTicksFlyOrJumpPage() {
             <li><strong>Discourage mice and deer</strong> — mice are the main host for immature ticks. Store firewood off the ground and don&rsquo;t feed wildlife.</li>
             <li><strong>Professional barrier spray.</strong> <Link href="/tick-control">BuzzSkito&rsquo;s tick barrier treatment</Link> targets the lawn edges, leaf litter, and shaded borders where ticks quest, for 80–95% population reduction through the season.</li>
           </ol>
-          <p>Because a questing tick crawls slowly for minutes to hours before it bites, a tick check after time outdoors usually catches it in time. Keep a fine-tipped removal tool handy so you can grip a tick close to the skin and pull straight out. <BuyLink search="tick removal tool tweezers">Check tick-removal tools on Amazon.ca →</BuyLink></p>
+          <p>Because a questing tick crawls slowly for minutes to hours before it bites, a tick check after time outdoors usually catches it in time. Keep a fine-tipped removal tool handy so you can grip a tick close to the skin and pull straight out. <BuyLink tag={AMZ_TAG} search="tick removal tool tweezers">Check tick-removal tools on Amazon.ca →</BuyLink></p>
 
-          <TopPick
+          <TopPick tag={AMZ_TAG}
             label="Our Top Pick — Tick Removal Tool"
             name="Fine-Tipped Tick Remover Kit"
             blurb="Since a questing tick wanders for minutes to hours before it bites, having the right tool on hand is what turns a tick check into a clean removal. A pointed, fine-tipped remover grips a tick close to the skin so you can pull straight out without squeezing the body — the method that lowers infection risk. Compact enough for a hiking pack, gym bag, or the junk drawer by the back door."

@@ -9,6 +9,7 @@ import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { NEW_BLOGS, MOSQUITO_BLOGS } from '@/lib/constants'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const POST = NEW_BLOGS[6]
 const UPDATED = POST.date
@@ -54,6 +55,8 @@ const FAQS = [
       "For personal (on-skin) repellent, picaridin — also called icaridin — is a well-studied, gentler alternative to DEET that Health Canada rates as comparably effective. Health Canada does not recommend DEET for infants under 6 months, while icaridin (picaridin) products may be used on children as young as 6 months. Always follow the concentration and age directions on the specific product label. Yard barrier spray and personal repellent do different jobs: the barrier treatment reduces mosquitoes in your space, and a personal repellent protects skin when you go elsewhere.",
   },
 ]
+
+const AMZ_TAG = tagForSlug('is-mosquito-spray-safe-kids-pets')
 
 export default function IsMosquitoSpraySafePage() {
   return (
@@ -133,7 +136,7 @@ export default function IsMosquitoSpraySafePage() {
         <p>Barrier spray treats your yard; a personal repellent protects skin when you leave it. Many parents are wary of DEET on young children, and there is a gentler, well-studied alternative: <strong>picaridin</strong> (also called icaridin). Health Canada rates picaridin as effective as DEET at comparable concentrations, and it&rsquo;s odourless, non-greasy, and won&rsquo;t damage plastics or clothing — which is why it&rsquo;s our go-to recommendation for a family personal repellent.</p>
         <p>On age limits, follow the label. Health Canada&rsquo;s guidance is that <strong>DEET is not recommended for infants under 6 months</strong>, and that <strong>icaridin (picaridin) products may be used on children as young as 6 months</strong> — one reason picaridin is often the more practical pick for young families. Always confirm the concentration and age directions on the specific product label. See Health Canada&rsquo;s <a href="https://www.canada.ca/en/health-canada/services/consumer-product-safety/pesticides-pest-management.html" rel="noopener" className="text-brand-700 underline">pesticides and pest management guidance</a> for the official position.</p>
         <AffiliateDisclosure />
-        <TopPick
+        <TopPick tag={AMZ_TAG}
           label="Our Top Pick — Kid-Friendly Repellent"
           name="Picaridin (Icaridin) Insect Repellent"
           blurb="For on-skin protection when you leave the yard, a picaridin (icaridin) repellent is our go-to for families — Health Canada rates it as effective as DEET at comparable concentrations, it's odourless and non-greasy, won't damage plastics or clothing, and may be used on children as young as six months. Always follow the concentration and age directions on the specific product label."
@@ -142,7 +145,7 @@ export default function IsMosquitoSpraySafePage() {
           pros={['Rated as effective as DEET at comparable strength', 'Odourless, non-greasy, gentle on skin', 'Usable on kids from 6 months (per label)']}
           cons={['Not for infants under 6 months', 'Personal repellent only — not a yard treatment']}
         />
-        <p><BuyLink search="picaridin insect repellent canada">Check picaridin (icaridin) kid-friendly repellents on Amazon.ca →</BuyLink></p>
+        <p><BuyLink tag={AMZ_TAG} search="picaridin insect repellent canada">Check picaridin (icaridin) kid-friendly repellents on Amazon.ca →</BuyLink></p>
         <p>For a fuller breakdown of concentrations, formats, and application tips by age, read our guide to the <Link href="/blog/best-bug-spray-for-kids-canada" className="text-brand-700 underline">best bug spray for kids in Canada</Link>.</p>
 
         <h2>Bees, Pollinators, and Responsible Application</h2>

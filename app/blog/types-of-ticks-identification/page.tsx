@@ -7,6 +7,7 @@ import TopPick from '@/components/TopPick'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'types-of-ticks-identification'
 const DATE = '2026-07-13'
@@ -72,6 +73,8 @@ export const metadata: Metadata = buildMetadata({
   publishedTime: DATE,
   modifiedTime: UPDATED,
 })
+
+const AMZ_TAG = tagForSlug('types-of-ticks-identification')
 
 export default function TypesOfTicksIdentificationPage() {
   return (
@@ -276,9 +279,9 @@ export default function TypesOfTicksIdentificationPage() {
           <p>Plenty of harmless bugs get mistaken for ticks — from engorged bed bugs and poppy-seed-sized beetles to spider beetles and even clumps of dirt. Legs are the fastest test: ticks have 8 (6 as larvae) and no wings or antennae. If yours has wings, more than 8 legs, or long antennae, it is not a tick. Compare side-by-side in our <Link href="/blog/bugs-that-look-like-ticks">bugs that look like ticks</Link> photo guide, and see the full visual reference in <Link href="/blog/what-ticks-look-like-ontario">what ticks look like</Link>.</p>
 
           <h2>If You Found a Tick on You</h2>
-          <p>Regardless of species, act the same way: grip the tick with fine-tipped tweezers as close to the skin as possible and pull straight up with steady, even pressure — no twisting, burning, or smothering with petroleum jelly. Clean the bite, then note the date and, if you can, the species. Keeping a proper removal tool on hand makes this cleaner and reduces the chance of leaving mouthparts behind. <BuyLink search="tick removal tool fine tip tweezers">Check tick-removal tools on Amazon →</BuyLink></p>
+          <p>Regardless of species, act the same way: grip the tick with fine-tipped tweezers as close to the skin as possible and pull straight up with steady, even pressure — no twisting, burning, or smothering with petroleum jelly. Clean the bite, then note the date and, if you can, the species. Keeping a proper removal tool on hand makes this cleaner and reduces the chance of leaving mouthparts behind. <BuyLink tag={AMZ_TAG} search="tick removal tool fine tip tweezers">Check tick-removal tools on Amazon →</BuyLink></p>
 
-          <TopPick
+          <TopPick tag={AMZ_TAG}
             label="Our Top Pick — Tick Removal Tool"
             name="Fine-Tipped Tick Removal Tool Set"
             blurb="For a tick already attached, a dedicated fine-tipped remover grips right at the skin and lifts straight out — cleaner and safer than fingernails, and far less likely to crush the tick or leave mouthparts behind. A cheap, keep-it-in-the-first-aid-kit essential for anyone in tick country."
@@ -287,7 +290,7 @@ export default function TypesOfTicksIdentificationPage() {
             pros={['Grips at skin level to lift the whole tick', 'Reduces the chance of leaving mouthparts', 'Inexpensive first-aid-kit staple']}
             cons={['Not a substitute for prompt yard treatment', 'Fine tips need steady hands on tiny nymphs']}
           />
-          <p>Watch the bite site over the following days and weeks for an expanding <strong>erythema migrans</strong> (bull&rsquo;s-eye) rash, fever, aches, or fatigue, and see a doctor if any appear — early treatment is highly effective. For prevention on skin and clothing, EPA- and Health-Canada-registered repellents containing <strong>DEET</strong> or <strong>picaridin</strong>, and <strong>permethrin</strong> applied to clothing and gear, are the evidence-backed choices. <BuyLink search="permethrin clothing spray tick">Compare permethrin clothing spray →</BuyLink></p>
+          <p>Watch the bite site over the following days and weeks for an expanding <strong>erythema migrans</strong> (bull&rsquo;s-eye) rash, fever, aches, or fatigue, and see a doctor if any appear — early treatment is highly effective. For prevention on skin and clothing, EPA- and Health-Canada-registered repellents containing <strong>DEET</strong> or <strong>picaridin</strong>, and <strong>permethrin</strong> applied to clothing and gear, are the evidence-backed choices. <BuyLink tag={AMZ_TAG} search="permethrin clothing spray tick">Compare permethrin clothing spray →</BuyLink></p>
 
           <h2>Explore Each Tick in Detail</h2>
           <ul>

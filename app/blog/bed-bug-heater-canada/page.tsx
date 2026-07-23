@@ -8,6 +8,7 @@ import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'bed-bug-heater-canada'
 const DATE = '2026-07-21'
@@ -79,6 +80,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('bed-bug-heater-canada')
+
 export default function BedBugHeaterCanadaPage() {
   return (
     <>
@@ -100,7 +103,7 @@ export default function BedBugHeaterCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="ZappBug Oven 2 heat chamber" search="zappbug oven 2 bed bug heater" label="Best overall" />
+      <StickyBuyBar tag={AMZ_TAG} name="ZappBug Oven 2 heat chamber" search="zappbug oven 2 bed bug heater" label="Best overall" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -123,7 +126,7 @@ export default function BedBugHeaterCanadaPage() {
 
       <section className="bg-white px-4 py-6">
         <div className="max-w-5xl mx-auto">
-          <AwardRow
+          <AwardRow tag={AMZ_TAG}
             heading="Our Picks — Best Bed Bug Heaters in Canada"
             awards={[
               {
@@ -188,28 +191,28 @@ export default function BedBugHeaterCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Checked suitcases, boxes, bedding, pillows, shoes, books, small furniture</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Yes</strong> — with probe-verified hold</td>
                   <td className="px-4 py-3 text-gray-700">4–8 hours per load</td>
-                  <td className="px-4 py-3"><BuyLink search="zappbug oven 2 bed bug heater" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="zappbug oven 2 bed bug heater" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Luggage-size enclosure<br /><span className="font-normal text-xs text-gray-500">ThermalStrike Ranger</span></td>
                   <td className="px-4 py-3 text-gray-700">One suitcase or backpack at a time — the post-travel decontamination station</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Yes</strong> — panel heat on all sides</td>
                   <td className="px-4 py-3 text-gray-700">2–8 hours depending on packing density</td>
-                  <td className="px-4 py-3"><BuyLink search="thermalstrike bed bug heater luggage" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="thermalstrike bed bug heater luggage" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">DIY heater + probe<br /><span className="font-normal text-xs text-gray-500">Sealed closet, bin, or tent rig</span></td>
                   <td className="px-4 py-3 text-gray-700">Whatever your enclosure holds — if you can seal it, heat it, and verify the core</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Only if held correctly</strong> — cold spots are the failure mode</td>
                   <td className="px-4 py-3 text-gray-700">6+ hours, actively monitored</td>
-                  <td className="px-4 py-3"><BuyLink search="wireless probe thermometer remote monitor" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="wireless probe thermometer remote monitor" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Steamer (surfaces)<br /><span className="font-normal text-xs text-gray-500">Complements every chamber</span></td>
                   <td className="px-4 py-3 text-gray-700">Mattress seams, bed frame, baseboards, upholstery — the structure a chamber can&rsquo;t reach</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Yes</strong> — on contact at the surface</td>
                   <td className="px-4 py-3 text-gray-700">Slow, deliberate passes; no residual</td>
-                  <td className="px-4 py-3"><BuyLink search="bed bug steamer" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bed bug steamer" block>Check price →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -277,9 +280,9 @@ export default function BedBugHeaterCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the three picks:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="zappbug oven 2 bed bug heater">ZappBug Oven 2 →</BuyLink>
-            <BuyLink search="thermalstrike bed bug heater luggage">ThermalStrike luggage unit →</BuyLink>
-            <BuyLink search="wireless probe thermometer remote monitor">Probe thermometer →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="zappbug oven 2 bed bug heater">ZappBug Oven 2 →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="thermalstrike bed bug heater luggage">ThermalStrike luggage unit →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="wireless probe thermometer remote monitor">Probe thermometer →</BuyLink>
           </div>
 
           <h2>Best Overall: ZappBug Oven 2</h2>
@@ -287,21 +290,21 @@ export default function BedBugHeaterCanadaPage() {
           <p>The workflow during an active infestation is unglamorous and effective: bag items in the infested room, carry them straight to the chamber, run probe-verified cycles of 4–8 hours, and move treated items into sealed bins so they cannot be re-infested while the rest of the room is dealt with. A household can process an entire bedroom&rsquo;s belongings in a few days of back-to-back loads. Between infestations — because you only need one bed bug experience to become a convert — the whole thing collapses flat and becomes the post-travel decontamination station for returning luggage.</p>
           <p>The honest limits: it will not take a mattress, box spring, sofa, or dresser, and it was never meant to. It is also a genuine spend for something you hope to use rarely — but measured against a single professional heat treatment, or against the multi-month grind of a failed spray program, the arithmetic is not close. We go deeper on build quality, heat-up behaviour, and the model range in our dedicated <Link href="/blog/zappbug-heater-review-canada">ZappBug heater review for Canada</Link>.</p>
           <div className="not-prose my-4">
-            <BuyLink search="zappbug oven 2 bed bug heater">Check ZappBug Oven 2 on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="zappbug oven 2 bed bug heater">Check ZappBug Oven 2 on Amazon.ca →</BuyLink>
           </div>
 
           <h2>Best Luggage-Size: ThermalStrike Ranger</h2>
           <p>Most Canadian bed bug stories start the same way: a hotel, a hostel, a short-term rental, and a suitcase that came home carrying more than souvenirs. The ThermalStrike Ranger is purpose-built for that exact vector — a fold-flat enclosure sized for a large suitcase, with heating panels on every face rather than a single heat source, which shrinks the cold-spot problem that plagues improvised rigs. Bag goes in at the front door, cycle runs while you unpack nothing, and only heat-treated belongings cross the bedroom threshold.</p>
           <p>For frequent travellers, this is less a pest control product than an insurance policy. A four-figure remediation gets prevented by a habit that costs one heating cycle per trip. The trade-off is scale: it treats one bag at a time and is the wrong tool for an established infestation with rooms full of belongings — that is Oven 2 territory. Densely packed bags also take patience; the core-temperature rule applies with full force, so leave the probe in the middle of the clothes and trust the number, not the clock.</p>
           <div className="not-prose my-4">
-            <BuyLink search="thermalstrike bed bug heater luggage">Check ThermalStrike on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="thermalstrike bed bug heater luggage">Check ThermalStrike on Amazon.ca →</BuyLink>
           </div>
 
           <h2>Best Budget: The Heater-and-Thermometer Route, Honestly Framed</h2>
           <p>Yes, you can build the physics yourself: a ceramic space heater, a small well-sealed enclosure — a gutted closet, a foil-lined bin, a zipped tent — and a wireless probe thermometer to verify the core. Done carefully, it reaches lethal temperatures and kills exactly as dead as a branded chamber. We score it 6.8 rather than zero because the physics is real, and rather than 9 because everything else about it is on you.</p>
           <p>What a purpose-built chamber gives you that a DIY rig does not: thermal cutoffs, engineered airflow that fights cold spots, fabrics chosen not to smolder against a heating element, and a design that has been run for thousands of hours by other people first. A space heater in an enclosed insulated space is a genuine fire hazard if it tips, cycles wrong, or sits against fabric — <strong>never run a DIY rig unattended, ever</strong>, and never rig heat in a space you cannot watch. And do not scale the idea up to &ldquo;heat the whole bedroom with rented propane or construction heaters&rdquo;: DIY whole-room heat is how houses burn down and how bugs get chased deeper into wall voids by a slow, uneven warm-up. The probe thermometer, at least, is a no-regret purchase — whichever method you choose, it is the difference between treating and hoping.</p>
           <div className="not-prose my-4">
-            <BuyLink search="wireless probe thermometer remote monitor">Check probe thermometers on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="wireless probe thermometer remote monitor">Check probe thermometers on Amazon.ca →</BuyLink>
           </div>
 
           <h2>Buy vs Rent vs Professional Heat: The Decision Framework</h2>

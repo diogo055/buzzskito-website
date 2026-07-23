@@ -8,6 +8,7 @@ import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'how-to-get-rid-of-bed-bugs-yourself-diy-canada'
 const DATE = '2026-07-21'
@@ -75,6 +76,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('how-to-get-rid-of-bed-bugs-yourself-diy-canada')
+
 export default function GetRidOfBedBugsYourselfDiyCanadaPage() {
   return (
     <>
@@ -96,7 +99,7 @@ export default function GetRidOfBedBugsYourselfDiyCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="DIY bed-bug treatment kit (steamer + dust + encasements + interceptors)" search="bed bug treatment kit steamer interceptor" label="The DIY basket" />
+      <StickyBuyBar tag={AMZ_TAG} name="DIY bed-bug treatment kit (steamer + dust + encasements + interceptors)" search="bed bug treatment kit steamer interceptor" label="The DIY basket" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -119,7 +122,7 @@ export default function GetRidOfBedBugsYourselfDiyCanadaPage() {
 
       <section className="bg-white px-4 py-6">
         <div className="max-w-5xl mx-auto">
-          <AwardRow
+          <AwardRow tag={AMZ_TAG}
             heading="The DIY Bed-Bug Basket — 5 Tools That Actually Clear an Infestation"
             awards={[
               {
@@ -202,35 +205,35 @@ export default function GetRidOfBedBugsYourselfDiyCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">On-contact kill of bugs &amp; eggs in seams</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Yes</strong> &mdash; heat kills eggs</td>
                   <td className="px-4 py-3 text-gray-700">No &mdash; only where applied</td>
-                  <td className="px-4 py-3"><BuyLink search="bed bug steamer dry vapour" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bed bug steamer dry vapour" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Desiccant dust<br /><span className="font-normal text-xs text-gray-500">silica or DE</span></td>
                   <td className="px-4 py-3 text-gray-700">Residual kill in cracks &amp; voids for weeks</td>
                   <td className="px-4 py-3 text-gray-700">Indirectly &mdash; dries out nymphs</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Yes</strong> &mdash; weeks, if kept dry</td>
-                  <td className="px-4 py-3"><BuyLink search="silica bed bug desiccant dust" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="silica bed bug desiccant dust" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Sealed-HEPA vacuum<br /><span className="font-normal text-xs text-gray-500">physical removal</span></td>
                   <td className="px-4 py-3 text-gray-700">Strips live bugs &amp; debris from edges fast</td>
                   <td className="px-4 py-3 text-gray-700">No &mdash; eggs are glued down</td>
                   <td className="px-4 py-3 text-gray-700">No &mdash; removal only</td>
-                  <td className="px-4 py-3"><BuyLink search="sealed hepa vacuum crevice tool" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="sealed hepa vacuum crevice tool" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Encasements<br /><span className="font-normal text-xs text-gray-500">mattress + box spring</span></td>
                   <td className="px-4 py-3 text-gray-700">Trap what&rsquo;s inside; block re-entry</td>
                   <td className="px-4 py-3 text-gray-700">Traps them to die of starvation</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Yes</strong> &mdash; stays on 12+ months</td>
-                  <td className="px-4 py-3"><BuyLink search="bed bug proof mattress encasement certified" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bed bug proof mattress encasement certified" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Interceptor traps<br /><span className="font-normal text-xs text-gray-500">monitor + block</span></td>
                   <td className="px-4 py-3 text-gray-700">Catch travellers; measure progress</td>
                   <td className="px-4 py-3 text-gray-700">No &mdash; catches adults &amp; nymphs</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Yes</strong> &mdash; ongoing monitor</td>
-                  <td className="px-4 py-3"><BuyLink search="bed bug interceptor traps" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bed bug interceptor traps" block>Check price →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -257,10 +260,10 @@ export default function GetRidOfBedBugsYourselfDiyCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the core basket:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="bed bug steamer dry vapour">Steamer →</BuyLink>
-            <BuyLink search="silica bed bug desiccant dust">Desiccant dust →</BuyLink>
-            <BuyLink search="bed bug proof mattress encasement certified">Encasements →</BuyLink>
-            <BuyLink search="bed bug interceptor traps">Interceptors →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="bed bug steamer dry vapour">Steamer →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="silica bed bug desiccant dust">Desiccant dust →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="bed bug proof mattress encasement certified">Encasements →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="bed bug interceptor traps">Interceptors →</BuyLink>
           </div>
 
           <h2>Step 1 — Confirm and Contain Before You Treat</h2>

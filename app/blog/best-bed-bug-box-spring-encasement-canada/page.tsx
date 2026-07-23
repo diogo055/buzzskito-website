@@ -8,6 +8,7 @@ import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'best-bed-bug-box-spring-encasement-canada'
 const DATE = '2026-07-21'
@@ -75,6 +76,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('best-bed-bug-box-spring-encasement-canada')
+
 export default function BestBedBugBoxSpringEncasementCanadaPage() {
   return (
     <>
@@ -96,7 +99,7 @@ export default function BestBedBugBoxSpringEncasementCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="SureGuard zippered box-spring encasement" search="sureguard box spring encasement zippered" label="Best overall" />
+      <StickyBuyBar tag={AMZ_TAG} name="SureGuard zippered box-spring encasement" search="sureguard box spring encasement zippered" label="Best overall" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -119,7 +122,7 @@ export default function BestBedBugBoxSpringEncasementCanadaPage() {
 
       <section className="bg-white px-4 py-6">
         <div className="max-w-5xl mx-auto">
-          <AwardRow
+          <AwardRow tag={AMZ_TAG}
             heading="Our Picks — Best Bed-Bug Box-Spring Encasements in Canada"
             awards={[
               {
@@ -193,28 +196,28 @@ export default function BestBedBugBoxSpringEncasementCanadaPage() {
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best all-round</strong> &mdash; six-sided, bite-proof, tough fabric</td>
                   <td className="px-4 py-3 text-gray-700">The safe default for an active problem</td>
                   <td className="px-4 py-3 text-gray-700">Order the exact foundation depth</td>
-                  <td className="px-4 py-3"><BuyLink search="sureguard box spring encasement zippered" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="sureguard box spring encasement zippered" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">SafeRest<br /><span className="font-normal text-xs text-gray-500">premium</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Certified</strong> &mdash; lab-tested seal, heaviest fabric</td>
                   <td className="px-4 py-3 text-gray-700">Buyers who want documented testing</td>
                   <td className="px-4 py-3 text-gray-700">Premium price; heavier to fit</td>
-                  <td className="px-4 py-3"><BuyLink search="saferest box spring encasement bed bug proof" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="saferest box spring encasement bed bug proof" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Utopia Bedding<br /><span className="font-normal text-xs text-gray-500">value</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Good</strong> &mdash; genuine seal, lighter fabric</td>
                   <td className="px-4 py-3 text-gray-700">Multi-bed jobs and rentals</td>
                   <td className="px-4 py-3 text-gray-700">Handle the lighter zipper gently</td>
-                  <td className="px-4 py-3"><BuyLink search="utopia bedding box spring encasement zippered" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="utopia bedding box spring encasement zippered" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Budget cover<br /><span className="font-normal text-xs text-gray-500">one-off</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Fair</strong> &mdash; verify it is truly six-sided</td>
                   <td className="px-4 py-3 text-gray-700">One low-pressure bed on a budget</td>
                   <td className="px-4 py-3 text-gray-700">Open-bottom fakes hide in this tier</td>
-                  <td className="px-4 py-3"><BuyLink search="bed bug box spring cover zippered six sided" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bed bug box spring cover zippered six sided" block>Check price →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -241,10 +244,10 @@ export default function BestBedBugBoxSpringEncasementCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the four picks:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="sureguard box spring encasement zippered">SureGuard box-spring →</BuyLink>
-            <BuyLink search="saferest box spring encasement bed bug proof">SafeRest box-spring →</BuyLink>
-            <BuyLink search="utopia bedding box spring encasement zippered">Utopia box-spring →</BuyLink>
-            <BuyLink search="bed bug box spring cover zippered six sided">Budget box-spring cover →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="sureguard box spring encasement zippered">SureGuard box-spring →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="saferest box spring encasement bed bug proof">SafeRest box-spring →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="utopia bedding box spring encasement zippered">Utopia box-spring →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="bed bug box spring cover zippered six sided">Budget box-spring cover →</BuyLink>
           </div>
 
           <h2>Trap and Exclude: How an Encasement Actually Works</h2>

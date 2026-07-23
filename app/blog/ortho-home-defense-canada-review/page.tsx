@@ -8,6 +8,7 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'ortho-home-defense-canada-review'
 const DATE = '2026-07-12'
@@ -55,6 +56,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('ortho-home-defense-canada-review')
+
 export default function OrthoHomeDefenseCanadaPage() {
   return (
     <>
@@ -76,7 +79,7 @@ export default function OrthoHomeDefenseCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="Ortho Bug B Gon ECO (Canadian perimeter insect control)" search="ortho bug b gon eco" label="Best legal Canadian pick" />
+      <StickyBuyBar tag={AMZ_TAG} name="Ortho Bug B Gon ECO (Canadian perimeter insect control)" search="ortho bug b gon eco" label="Best legal Canadian pick" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -98,7 +101,7 @@ export default function OrthoHomeDefenseCanadaPage() {
 
       <section className="bg-white px-4 py-2">
         <div className="max-w-4xl mx-auto">
-          <TopPick
+          <TopPick tag={AMZ_TAG}
             label="Our Top Pick (Legally Sold in Canada)"
             name="Ortho Bug B Gon ECO"
             blurb="The only Ortho line that clears PMRA registration and Ontario's cosmetic-use rules. It is the right tool for crawling nuisance insects — ants, spiders, earwigs, and boxelder bugs at the door and along the foundation. Just don't expect it to handle a yard full of mosquitoes or any ticks; no consumer Ortho SKU sold here is built for that."
@@ -132,31 +135,31 @@ export default function OrthoHomeDefenseCanadaPage() {
                   <td className="px-4 py-3 font-bold text-brand-800">Home Defense Max <span className="font-normal text-xs text-gray-500">(Indoor &amp; Perimeter)</span></td>
                   <td className="px-4 py-3 text-gray-700">Bifenthrin perimeter barrier</td>
                   <td className="px-4 py-3 text-rose-700 font-semibold">US only — not PMRA-registered</td>
-                  <td className="px-4 py-3"><BuyLink search="ortho home defense max insect killer" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="ortho home defense max insect killer" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Home Defense Insect Killer <span className="font-normal text-xs text-gray-500">(Lawn &amp; Landscape)</span></td>
                   <td className="px-4 py-3 text-gray-700">Bifenthrin yard spray</td>
                   <td className="px-4 py-3 text-rose-700 font-semibold">US only — cosmetic-use ban (ON)</td>
-                  <td className="px-4 py-3"><BuyLink search="ortho home defense insect killer lawn" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="ortho home defense insect killer lawn" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Bug B Gon <span className="font-normal text-xs text-gray-500">(US bifenthrin)</span></td>
                   <td className="px-4 py-3 text-gray-700">Insect killer for lawns/gardens</td>
                   <td className="px-4 py-3 text-rose-700 font-semibold">US formula — not sold here</td>
-                  <td className="px-4 py-3"><BuyLink search="ortho bug b gon insect killer" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="ortho bug b gon insect killer" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Bug B Gon ECO <span className="font-normal text-xs text-gray-500">(Canadian line)</span></td>
                   <td className="px-4 py-3 text-gray-700">Reduced-risk crawling-insect control</td>
                   <td className="px-4 py-3 text-emerald-700 font-semibold">Sold in Canada · PMRA-registered</td>
-                  <td className="px-4 py-3"><BuyLink search="ortho bug b gon eco" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="ortho bug b gon eco" block>Check price →</BuyLink></td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 font-bold text-brand-800">Home Defense / Bug B Gon Mosquito Killer</td>
                   <td className="px-4 py-3 text-gray-700">Contact mosquito knockdown mist</td>
                   <td className="px-4 py-3 text-amber-700 font-semibold">Mostly US · limited/none here</td>
-                  <td className="px-4 py-3"><BuyLink search="ortho home defense mosquito killer" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="ortho home defense mosquito killer" block>Check price →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -209,8 +212,8 @@ export default function OrthoHomeDefenseCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Shopping the Canadian Ortho line, or a comparable perimeter product that is registered here:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="ortho bug b gon eco">Check Ortho Bug B Gon ECO on Amazon.ca →</BuyLink>
-            <BuyLink search="mosquito dunks bti">BTI mosquito dunks →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="ortho bug b gon eco">Check Ortho Bug B Gon ECO on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="mosquito dunks bti">BTI mosquito dunks →</BuyLink>
           </div>
 
           <h2 id="us-vs-canada">Why the Ortho You See Online Might Not Be Legal Here</h2>

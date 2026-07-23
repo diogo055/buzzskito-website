@@ -8,6 +8,7 @@ import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'how-to-get-rid-of-bed-bugs-in-apartment-canada'
 const DATE = '2026-07-21'
@@ -75,6 +76,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('how-to-get-rid-of-bed-bugs-in-apartment-canada')
+
 export default function GetRidOfBedBugsApartmentCanadaPage() {
   return (
     <>
@@ -96,7 +99,7 @@ export default function GetRidOfBedBugsApartmentCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="Bed-bug interceptor traps (under every leg)" search="bed bug interceptor traps" label="Start here" />
+      <StickyBuyBar tag={AMZ_TAG} name="Bed-bug interceptor traps (under every leg)" search="bed bug interceptor traps" label="Start here" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -119,7 +122,7 @@ export default function GetRidOfBedBugsApartmentCanadaPage() {
 
       <section className="bg-white px-4 py-6">
         <div className="max-w-5xl mx-auto">
-          <AwardRow
+          <AwardRow tag={AMZ_TAG}
             heading="The Renter&rsquo;s Bed-Bug Kit — Four Products That Do the Work"
             awards={[
               {
@@ -193,28 +196,28 @@ export default function GetRidOfBedBugsApartmentCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Monitor activity + block the climb to the bed</td>
                   <td className="px-4 py-3 text-gray-700">Catch bugs already up in the mattress</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Essential</strong> &mdash; your scoreboard vs reintroduction</td>
-                  <td className="px-4 py-3"><BuyLink search="bed bug interceptor traps" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bed bug interceptor traps" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Encasements<br /><span className="font-normal text-xs text-gray-500">mattress + box spring</span></td>
                   <td className="px-4 py-3 text-gray-700">Seal &amp; starve bugs in the biggest harbourage</td>
                   <td className="px-4 py-3 text-gray-700">Treat bugs elsewhere in the room</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Essential</strong> &mdash; saves your mattress</td>
-                  <td className="px-4 py-3"><BuyLink search="bed bug mattress encasement zippered" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bed bug mattress encasement zippered" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Silica desiccant dust<br /><span className="font-normal text-xs text-gray-500">CimeXa</span></td>
                   <td className="px-4 py-3 text-gray-700">Long-lasting mechanical barrier in cracks &amp; voids</td>
                   <td className="px-4 py-3 text-gray-700">Work if piled thick or left damp</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Strong</strong> &mdash; no resistance, cheap residual</td>
-                  <td className="px-4 py-3"><BuyLink search="cimexa insecticide dust" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="cimexa insecticide dust" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Registered spray<br /><span className="font-normal text-xs text-gray-500">reachable surfaces</span></td>
                   <td className="px-4 py-3 text-gray-700">Knock down visible bugs on labelled surfaces</td>
                   <td className="px-4 py-3 text-gray-700">Reach eggs, seams, and wall voids</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Support only</strong> &mdash; never the whole plan</td>
-                  <td className="px-4 py-3"><BuyLink search="bed bug spray canada" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bed bug spray canada" block>Check price →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -241,10 +244,10 @@ export default function GetRidOfBedBugsApartmentCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the four kit layers:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="bed bug interceptor traps">Interceptor traps →</BuyLink>
-            <BuyLink search="bed bug mattress encasement zippered">Encasements →</BuyLink>
-            <BuyLink search="cimexa insecticide dust">CimeXa dust →</BuyLink>
-            <BuyLink search="bed bug spray canada">Registered spray →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="bed bug interceptor traps">Interceptor traps →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="bed bug mattress encasement zippered">Encasements →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="cimexa insecticide dust">CimeXa dust →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="bed bug spray canada">Registered spray →</BuyLink>
           </div>
 
           <h2>Step 1 — Report It in Writing the Same Day (and Know Your Rights)</h2>

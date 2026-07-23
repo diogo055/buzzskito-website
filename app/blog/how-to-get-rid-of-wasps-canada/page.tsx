@@ -8,6 +8,7 @@ import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'how-to-get-rid-of-wasps-canada'
 const DATE = '2026-07-21'
@@ -71,6 +72,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('how-to-get-rid-of-wasps-canada')
+
 export default function HowToGetRidOfWaspsCanadaPage() {
   return (
     <>
@@ -92,7 +95,7 @@ export default function HowToGetRidOfWaspsCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="RESCUE! WHY Trap (wasps, hornets & yellowjackets)" search="rescue why trap" label="Best all-round trap" />
+      <StickyBuyBar tag={AMZ_TAG} name="RESCUE! WHY Trap (wasps, hornets & yellowjackets)" search="rescue why trap" label="Best all-round trap" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -115,7 +118,7 @@ export default function HowToGetRidOfWaspsCanadaPage() {
 
       <section className="bg-white px-4 py-2">
         <div className="max-w-4xl mx-auto">
-          <TopPick
+          <TopPick tag={AMZ_TAG}
             label="Our Top Trap Pick"
             name="RESCUE! WHY Trap (Wasps, Hornets & Yellowjackets)"
             blurb="The one trap that covers all three wasp groups Canadians actually deal with. Its dual-chamber design and multi-attractant lure catch paper wasps, bald-faced hornets, and yellowjackets in a single unit, each lure refill runs about two weeks, and it is reusable season after season. Hang it 6+ metres from your patio starting in mid-April to intercept spring queens. Reasonably priced for a multi-season tool — full teardown in our dedicated review below."
@@ -236,25 +239,25 @@ export default function HowToGetRidOfWaspsCanadaPage() {
                   <td className="px-4 py-3 font-bold text-brand-800">RESCUE! WHY Trap</td>
                   <td className="px-4 py-3 text-gray-700">All-season, all-species interception; reusable for years</td>
                   <td className="px-4 py-3 text-gray-700">Paper wasps, yellowjackets, bald-faced hornets</td>
-                  <td className="px-4 py-3"><BuyLink search="rescue why trap" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="rescue why trap" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">RESCUE! Yellowjacket Trap</td>
                   <td className="px-4 py-3 text-gray-700">Late-summer patio defence; spring queen trapping</td>
                   <td className="px-4 py-3 text-gray-700">Yellowjackets only (heptyl butyrate lure)</td>
-                  <td className="px-4 py-3"><BuyLink search="rescue yellowjacket trap" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="rescue yellowjacket trap" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Foaming wasp &amp; hornet spray</td>
                   <td className="px-4 py-3 text-gray-700">Night treatment of small exposed nests (PCP-registered cans only)</td>
                   <td className="px-4 py-3 text-gray-700">Direct nest treatment, 2–4 m jet</td>
-                  <td className="px-4 py-3"><BuyLink search="wasp hornet killer foam spray" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="wasp hornet killer foam spray" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Decoy wasp nest</td>
                   <td className="px-4 py-3 text-gray-700">Cheap maybe — territorial paper wasps sometimes avoid &ldquo;claimed&rdquo; areas</td>
                   <td className="px-4 py-3 text-gray-700">Deters some paper wasps; useless on ground nesters</td>
-                  <td className="px-4 py-3"><BuyLink search="wasp nest decoy" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="wasp nest decoy" block>Check price →</BuyLink></td>
                 </tr>
               </tbody>
             </table>

@@ -7,6 +7,7 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'what-does-a-tick-bite-look-like'
 const DATE = '2026-07-15'
@@ -84,6 +85,8 @@ export const metadata: Metadata = buildMetadata({
   type: 'article',
   publishedTime: DATE,
 })
+
+const AMZ_TAG = tagForSlug('what-does-a-tick-bite-look-like')
 
 export default function WhatDoesATickBiteLookLikePage() {
   return (
@@ -177,7 +180,7 @@ export default function WhatDoesATickBiteLookLikePage() {
         <p>A fully engorged tick is what most people picture, but the dangerous ones for Lyme transmission in Ontario are the tiny <strong>nymphs</strong>, which are active in late spring and summer and are so small they are routinely missed. Do not squeeze the swollen body &mdash; follow the technique in <Link href="/blog/how-to-remove-tick-safely">how to remove a tick safely</Link>, then save the tick in a sealed bag or photo it in case identification is needed later.</p>
         <p>If the body separates during removal and the mouthparts stay behind, do not dig at the skin &mdash; see <Link href="/blog/tick-head-stuck-in-skin">what to do if a tick&rsquo;s head is stuck in the skin</Link>. A dedicated tick-removal kit makes a clean, straight pull far easier than fumbling with wide household tweezers, and is worth keeping in a first-aid bag if you spend time in tick country.</p>
         <AffiliateDisclosure />
-        <TopPick
+        <TopPick tag={AMZ_TAG}
           label="Our Top Pick for Removal"
           name="Tick Remover Kit (fine-tip + hook set)"
           blurb="For clean identification and safe removal, a dedicated tick tool beats wide household tweezers — it grips the tick right at the skin so you can pull straight up without crushing the body or leaving mouthparts behind. Worth keeping in a first-aid bag if you spend time in tick country."
@@ -186,7 +189,7 @@ export default function WhatDoesATickBiteLookLikePage() {
           pros={['Fine tip grips even poppy-seed-sized nymphs', 'Pulls straight up without squeezing the body', 'Compact — lives in a first-aid or hiking kit']}
           cons={['Not a substitute for a proper post-bite check', 'Still requires steady, slow technique']}
         />
-        <p className="not-prose"><BuyLink search="tick removal kit">Check price on a tick removal kit at Amazon.ca &rarr;</BuyLink></p>
+        <p className="not-prose"><BuyLink tag={AMZ_TAG} search="tick removal kit">Check price on a tick removal kit at Amazon.ca &rarr;</BuyLink></p>
 
         <h2>What does a tick bite look like on a dog?</h2>
         <p>On a dog, a tick bite is usually <strong>hidden under the fur</strong>, so you are more likely to feel it than see it. Running your fingertips slowly over your dog&rsquo;s skin, you will notice a small raised bump or scab where a tick attached or has been removed. Favourite spots are the ears (inside and at the base), around the collar and neck, the armpits, the groin, between the toes, and around the eyelids.</p>

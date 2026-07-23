@@ -8,6 +8,7 @@ import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'crossfire-bed-bug-concentrate-review-canada'
 const DATE = '2026-07-21'
@@ -75,6 +76,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('crossfire-bed-bug-concentrate-review-canada')
+
 export default function CrossfireBedBugConcentrateReviewCanadaPage() {
   return (
     <>
@@ -96,7 +99,7 @@ export default function CrossfireBedBugConcentrateReviewCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="PMRA-registered silica desiccant dust (Canada-legal)" search="cimexa insecticide dust bed bug" label="Canada-legal pick" />
+      <StickyBuyBar tag={AMZ_TAG} name="PMRA-registered silica desiccant dust (Canada-legal)" search="cimexa insecticide dust bed bug" label="Canada-legal pick" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -119,7 +122,7 @@ export default function CrossfireBedBugConcentrateReviewCanadaPage() {
 
       <section className="bg-white px-4 py-6">
         <div className="max-w-4xl mx-auto">
-          <TopPick
+          <TopPick tag={AMZ_TAG}
             label="Canada-Legal Pick (what to buy instead)"
             name="PMRA-Registered Silica Desiccant Dust"
             blurb="Since Crossfire cannot legally be used in Canada, this is the tool we point Canadian DIY readers to: an amorphous-silica-gel desiccant dust that kills bed bugs by dehydration rather than a nerve toxin. Resistance is essentially a non-issue, and a barely visible film in cracks, outlet boxes, and bed-frame voids stays lethal for months. It carries a Canadian PCP registration number — legal, low-toxicity, and the most reliable long-residual tool a homeowner can actually buy here."
@@ -171,28 +174,28 @@ export default function CrossfireBedBugConcentrateReviewCanadaPage() {
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Yes</strong> &mdash; carries a PCP number</td>
                   <td className="px-4 py-3 text-gray-700">Kills nymphs/adults; not eggs directly</td>
                   <td className="px-4 py-3 text-gray-700">Long residual in cracks &amp; voids</td>
-                  <td className="px-4 py-3"><BuyLink search="cimexa insecticide dust bed bug" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="cimexa insecticide dust bed bug" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Dry-vapour steamer<br /><span className="font-normal text-xs text-gray-500">non-chemical</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Yes</strong> &mdash; appliance, no registration needed</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Yes</strong> &mdash; heat kills eggs on contact</td>
                   <td className="px-4 py-3 text-gray-700">Seams, tufts, folds &mdash; on-contact kill</td>
-                  <td className="px-4 py-3"><BuyLink search="dupray bed bug steamer" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="dupray bed bug steamer" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">PMRA-registered RTU spray<br /><span className="font-normal text-xs text-gray-500">ready to use</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Yes</strong> &mdash; check for a PCP number</td>
                   <td className="px-4 py-3 text-gray-700">Contact knockdown; limited residual</td>
                   <td className="px-4 py-3 text-gray-700">Visible bugs on non-porous surfaces</td>
-                  <td className="px-4 py-3"><BuyLink search="konk bed bug killer spray canada" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="konk bed bug killer spray canada" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Interceptors + encasement<br /><span className="font-normal text-xs text-gray-500">non-chemical</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Yes</strong> &mdash; physical devices</td>
                   <td className="px-4 py-3 text-gray-700">Traps eggs inside; starves the population</td>
                   <td className="px-4 py-3 text-gray-700">Monitoring &amp; protecting the bed</td>
-                  <td className="px-4 py-3"><BuyLink search="bed bug interceptor traps" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bed bug interceptor traps" block>Check price →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -219,9 +222,9 @@ export default function CrossfireBedBugConcentrateReviewCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the tools we recommend instead:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="cimexa insecticide dust bed bug">Silica desiccant dust →</BuyLink>
-            <BuyLink search="dupray bed bug steamer">Dry-vapour steamer →</BuyLink>
-            <BuyLink search="bed bug interceptor traps">Interceptor traps →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="cimexa insecticide dust bed bug">Silica desiccant dust →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="dupray bed bug steamer">Dry-vapour steamer →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="bed bug interceptor traps">Interceptor traps →</BuyLink>
           </div>
 
           <h2>What Crossfire Actually Is</h2>

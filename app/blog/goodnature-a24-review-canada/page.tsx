@@ -8,6 +8,7 @@ import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'goodnature-a24-review-canada'
 const DATE = '2026-07-21'
@@ -75,6 +76,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('goodnature-a24-review-canada')
+
 export default function GoodnatureA24ReviewCanadaPage() {
   return (
     <>
@@ -96,7 +99,7 @@ export default function GoodnatureA24ReviewCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="Goodnature A24 self-resetting rat & mouse trap" search="goodnature a24 automatic rat trap" label="Poison-free auto-reset" />
+      <StickyBuyBar tag={AMZ_TAG} name="Goodnature A24 self-resetting rat & mouse trap" search="goodnature a24 automatic rat trap" label="Poison-free auto-reset" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -119,7 +122,7 @@ export default function GoodnatureA24ReviewCanadaPage() {
 
       <section className="bg-white px-4 py-6">
         <div className="max-w-3xl mx-auto">
-          <TopPick
+          <TopPick tag={AMZ_TAG}
             label="Our Verdict — Best Poison-Free Auto-Reset Trap"
             name="Goodnature A24 Automatic Rat & Mouse Trap"
             blurb="The A24 is the rare premium product that earns its price on the right property. A CO₂-driven piston delivers a fast, humane strike, then the trap clears the carcass and re-arms itself — up to 24 kills per canister with no poison, no daily resets, and no dead-rodent handling. It is not the pick for a single mouse, but for chronic rat pressure on a shed, barn, coop, or foundation line, one A24 quietly does the work of a full snap-trap line checked every morning."
@@ -156,9 +159,9 @@ export default function GoodnatureA24ReviewCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability and pricing:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="goodnature a24 automatic rat trap">Goodnature A24 on Amazon.ca →</BuyLink>
-            <BuyLink search="goodnature co2 canister 16g">CO₂ canisters →</BuyLink>
-            <BuyLink search="goodnature rat lure">Long-life lure →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="goodnature a24 automatic rat trap">Goodnature A24 on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="goodnature co2 canister 16g">CO₂ canisters →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="goodnature rat lure">Long-life lure →</BuyLink>
           </div>
 
           <h2>The Poison-Free Advantage: Why It Matters in Canada</h2>
@@ -207,7 +210,7 @@ export default function GoodnatureA24ReviewCanadaPage() {
                   <td className="px-4 py-3 text-emerald-700 font-semibold">Yes — up to 24/canister</td>
                   <td className="px-4 py-3 text-emerald-700">None — fully poison-free</td>
                   <td className="px-4 py-3 text-xs text-gray-600">Chronic rat pressure; hands-off; poison-free homes</td>
-                  <td className="px-4 py-3"><BuyLink search="goodnature a24 automatic rat trap" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="goodnature a24 automatic rat trap" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Snap trap</td>
@@ -215,7 +218,7 @@ export default function GoodnatureA24ReviewCanadaPage() {
                   <td className="px-4 py-3 text-amber-700 font-semibold">No — manual reset</td>
                   <td className="px-4 py-3 text-emerald-700">None — poison-free</td>
                   <td className="px-4 py-3 text-xs text-gray-600">Single rodent or a short, attended trap line</td>
-                  <td className="px-4 py-3"><BuyLink search="rat snap trap heavy duty" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="rat snap trap heavy duty" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Bait station</td>
@@ -223,7 +226,7 @@ export default function GoodnatureA24ReviewCanadaPage() {
                   <td className="px-4 py-3 text-gray-500">N/A — refill bait</td>
                   <td className="px-4 py-3 text-red-700">Poison + secondary-poisoning risk</td>
                   <td className="px-4 py-3 text-xs text-gray-600">Heavy exterior infestations where legal</td>
-                  <td className="px-4 py-3"><BuyLink search="tomcat rat bait station" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="tomcat rat bait station" block>Check price →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -238,8 +241,8 @@ export default function GoodnatureA24ReviewCanadaPage() {
             <li><strong>Optional digital counter.</strong> The Goodnature Counter clips on and logs every strike with a running total. On a remote or infrequently checked placement &mdash; cottage, back shed, rural fence line &mdash; it converts guesswork into a maintenance schedule: you know exactly how many rodents you have killed and when to service the trap.</li>
           </ul>
           <div className="not-prose my-4 flex flex-wrap gap-3">
-            <BuyLink search="goodnature co2 canister 16g">Check CO₂ canisters →</BuyLink>
-            <BuyLink search="goodnature digital counter">Check the digital counter →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="goodnature co2 canister 16g">Check CO₂ canisters →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="goodnature digital counter">Check the digital counter →</BuyLink>
           </div>
 
           <h2>Placement: Getting the Most From Your A24</h2>

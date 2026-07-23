@@ -8,6 +8,7 @@ import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'mosquito-magnet-canada'
 const DATE = '2026-05-01'
@@ -65,6 +66,8 @@ export const metadata: Metadata = buildMetadata({
   publishedTime: DATE,
 })
 
+const AMZ_TAG = tagForSlug('mosquito-magnet-canada')
+
 export default function MosquitoMagnetCanadaPage() {
   return (
     <>
@@ -86,7 +89,7 @@ export default function MosquitoMagnetCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="Mosquito Magnet Patriot Plus (propane CO₂ trap)" search="mosquito magnet patriot plus" label="Best overall trap" />
+      <StickyBuyBar tag={AMZ_TAG} name="Mosquito Magnet Patriot Plus (propane CO₂ trap)" search="mosquito magnet patriot plus" label="Best overall trap" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -145,7 +148,7 @@ export default function MosquitoMagnetCanadaPage() {
             Prices accurate as of May 2026. Annual operating cost (propane + attractant cartridges) adds $400–$600/season. Total year-one investment: $850–$1,100 for Patriot Plus, $1,300–$1,900 for Executive.
           </p>
           <p className="mt-4 text-sm text-gray-700">
-            Amazon.ca carries the full Mosquito Magnet lineup with Prime shipping. <BuyLink search="mosquito magnet trap" className="!px-3 !py-1.5 !text-xs">Check price</BuyLink>
+            Amazon.ca carries the full Mosquito Magnet lineup with Prime shipping. <BuyLink tag={AMZ_TAG} search="mosquito magnet trap" className="!px-3 !py-1.5 !text-xs">Check price</BuyLink>
           </p>
           <div className="mt-5 rounded-xl bg-amber-50 border-l-4 border-amber-400 p-4">
             <p className="text-sm text-gray-800 leading-relaxed">
@@ -157,7 +160,7 @@ export default function MosquitoMagnetCanadaPage() {
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
-          <TopPick
+          <TopPick tag={AMZ_TAG}
             label="Our Mosquito Magnet Pick"
             name="Mosquito Magnet Patriot Plus"
             blurb="Treats up to 1 acre and is sufficient for most GTA suburban backyards — the pricier Executive only earns its upgrade on cottages and rural acreage where multi-season durability pays off."
@@ -206,10 +209,10 @@ export default function MosquitoMagnetCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Compare current Canadian prices and models (Patriot Plus, Independence, Executive):</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="mosquito magnet trap">Check Mosquito Magnet price on Amazon.ca →</BuyLink>
-            <BuyLink search="mosquito magnet executive">Executive model →</BuyLink>
-            <BuyLink search="mosquito magnet patriot plus">Patriot Plus →</BuyLink>
-            <BuyLink search="mosquito magnet lurex3 attractant">Attractant refills →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="mosquito magnet trap">Check Mosquito Magnet price on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="mosquito magnet executive">Executive model →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="mosquito magnet patriot plus">Patriot Plus →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="mosquito magnet lurex3 attractant">Attractant refills →</BuyLink>
           </div>
           <h2>How Mosquito Magnets Actually Work</h2>
           <p>Mosquito Magnets burn propane in a catalytic converter to produce CO₂, heat, and moisture — the three primary cues a female mosquito uses to locate a blood meal. The exhaust plume drifts downwind, attracting mosquitoes from up to 100 metres away. As mosquitoes approach the device, a vacuum fan sucks them into a fine mesh net where they dehydrate and die within hours.</p>
@@ -219,8 +222,8 @@ export default function MosquitoMagnetCanadaPage() {
           <h3>Attractant &amp; Replacement Parts</h3>
           <p>Budget for consumables from day one: an Octenol (or Lurex) attractant cartridge lasts about 21 days, so a full May–September season burns through 6–7 cartridges. The fine mesh capture net should also be swapped once or twice a season — a torn or clogged net quietly cuts the trap&rsquo;s capture rate long before you notice. Canadian stock of both runs thin by mid-July, so most owners grab multi-packs in spring rather than scrambling in peak season.</p>
           <div className="not-prose my-4 flex flex-wrap gap-3">
-            <BuyLink search="mosquito magnet octenol attractant">Octenol attractant refills →</BuyLink>
-            <BuyLink search="mosquito magnet replacement net">Replacement nets →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="mosquito magnet octenol attractant">Octenol attractant refills →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="mosquito magnet replacement net">Replacement nets →</BuyLink>
           </div>
           <p>Still comparing propane CO₂ traps before committing to the Mosquito Magnet ecosystem? Our <Link href="/blog/propane-mosquito-trap-canada">propane mosquito trap Canada guide</Link> covers the whole category — Mosquito Magnet alternatives, real running costs, and which units actually earn their keep.</p>
 

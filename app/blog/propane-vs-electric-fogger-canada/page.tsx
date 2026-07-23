@@ -9,6 +9,7 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import AuthorByline from '@/components/AuthorByline'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'propane-vs-electric-fogger-canada'
 const DATE = '2026-07-21'
@@ -76,6 +77,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('propane-vs-electric-fogger-canada')
+
 export default function PropaneVsElectricFoggerCanadaPage() {
   return (
     <>
@@ -97,7 +100,7 @@ export default function PropaneVsElectricFoggerCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="Burgess propane thermal fogger" search="burgess propane insect fogger" label="Best overall fogger" />
+      <StickyBuyBar tag={AMZ_TAG} name="Burgess propane thermal fogger" search="burgess propane insect fogger" label="Best overall fogger" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -171,8 +174,8 @@ export default function PropaneVsElectricFoggerCanadaPage() {
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Availability</td>
-                  <td className="px-4 py-3"><BuyLink search="burgess propane insect fogger" block>Check price →</BuyLink></td>
-                  <td className="px-4 py-3"><BuyLink search="black flag electric insect fogger" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="burgess propane insect fogger" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="black flag electric insect fogger" block>Check price →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -190,7 +193,7 @@ export default function PropaneVsElectricFoggerCanadaPage() {
 
       <section className="bg-white px-4 py-6">
         <div className="max-w-5xl mx-auto">
-          <AwardRow
+          <AwardRow tag={AMZ_TAG}
             heading="Our Picks — Foggers & the Better-Coverage Alternatives"
             awards={[
               {
@@ -242,9 +245,9 @@ export default function PropaneVsElectricFoggerCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of both machines:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="burgess propane insect fogger">Burgess propane fogger →</BuyLink>
-            <BuyLink search="black flag electric insect fogger">Black Flag electric fogger →</BuyLink>
-            <BuyLink search="backpack sprayer 4 gallon">Backpack sprayer →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="burgess propane insect fogger">Burgess propane fogger →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="black flag electric insect fogger">Black Flag electric fogger →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="backpack sprayer 4 gallon">Backpack sprayer →</BuyLink>
           </div>
 
           <h2>The Case for Propane (Burgess): Reach and Freedom</h2>
@@ -300,7 +303,7 @@ export default function PropaneVsElectricFoggerCanadaPage() {
             </div>
           </aside>
 
-          <TopPick
+          <TopPick tag={AMZ_TAG}
             label="Our Winner: Propane vs Electric"
             name="Burgess Propane Thermal Fogger"
             blurb="For most Canadian yards, propane takes the head-to-head. Both machines fog identically, so the tiebreaker is reach — and going cordless lets you treat the whole property, treeline included, instead of only as far as an extension cord stretches. Buy electric instead only if your treatable area is small and sits right next to a GFCI outlet, where the tether never matters and you pocket the savings. Whichever you choose, load only a PMRA-registered fog solution."

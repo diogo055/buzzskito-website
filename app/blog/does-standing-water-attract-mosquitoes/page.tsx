@@ -7,6 +7,7 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import TopPick from '@/components/TopPick'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'does-standing-water-attract-mosquitoes'
 const DATE = '2026-07-16'
@@ -71,6 +72,8 @@ export const metadata: Metadata = buildMetadata({
   type: 'article',
   publishedTime: DATE,
 })
+
+const AMZ_TAG = tagForSlug('does-standing-water-attract-mosquitoes')
 
 export default function StandingWaterMosquitoesPage() {
   return (
@@ -224,7 +227,7 @@ export default function StandingWaterMosquitoesPage() {
           <p>Some standing water cannot be emptied — rain barrels you rely on, ornamental ponds with fish, drainage ditches, low areas that stay wet, or a neglected pool waiting to be drained. For these, the standard solution is a <strong>BTI dunk</strong>. BTI (<em>Bacillus thuringiensis israelensis</em>) is a naturally occurring soil bacterium that mosquito larvae eat and die from within 24–48 hours, yet it is harmless to humans, pets, fish, frogs, birds, and pollinators. One dunk treats up to 100 square feet of water surface for about 30 days, and Health Canada has approved BTI for residential use.</p>
 
           <AffiliateDisclosure />
-          <TopPick
+          <TopPick tag={AMZ_TAG}
             label="Our Top Pick"
             name="Summit Mosquito Dunks (BTI)"
             blurb="The go-to fix for standing water you can't drain — rain barrels, ponds, ditches. One dunk kills larvae for ~30 days across 100 sq ft of water surface, and it's safe for fish, pets, and pollinators."
@@ -235,8 +238,8 @@ export default function StandingWaterMosquitoesPage() {
           />
           <p className="not-prose text-sm text-gray-600 mb-2">Drop one in each rain barrel, pond, or low spot that stays wet, and refresh monthly through the season:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="summit mosquito dunks">Check Mosquito Dunks price on Amazon.ca →</BuyLink>
-            <BuyLink search="summit mosquito bits">Faster-acting Mosquito Bits →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="summit mosquito dunks">Check Mosquito Dunks price on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="summit mosquito bits">Faster-acting Mosquito Bits →</BuyLink>
           </div>
           <p>Dunks are slow-release tablets for long-term water sources; the granular <em>bits</em> version knocks down a larvae outbreak within minutes and suits small or unexpected water. Want the full breakdown of pricing, placement, and the three mistakes people make? See our <Link href="/blog/mosquito-dunks-canada-guide">mosquito dunks Canada guide</Link>.</p>
 

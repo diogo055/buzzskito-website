@@ -8,6 +8,7 @@ import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'mcculloch-mc1275-steamer-review-canada'
 const DATE = '2026-07-21'
@@ -75,6 +76,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('mcculloch-mc1275-steamer-review-canada')
+
 export default function MccullochMc1275SteamerReviewCanadaPage() {
   return (
     <>
@@ -96,7 +99,7 @@ export default function MccullochMc1275SteamerReviewCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="McCulloch MC1275 steam cleaner" search="mcculloch mc1275 steam cleaner" label="Reviewed here" />
+      <StickyBuyBar tag={AMZ_TAG} name="McCulloch MC1275 steam cleaner" search="mcculloch mc1275 steam cleaner" label="Reviewed here" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -119,7 +122,7 @@ export default function MccullochMc1275SteamerReviewCanadaPage() {
 
       <section className="bg-white px-4 py-2">
         <div className="max-w-3xl mx-auto">
-          <TopPick
+          <TopPick tag={AMZ_TAG}
             label="Our Verdict — McCulloch MC1275"
             name="McCulloch MC1275 Steam Cleaner"
             blurb="The budget heavy-duty steamer that earns its DIY-forum reputation: a big-tank boiler that delivers hot, low-moisture steam over a long continuous run, so you can work an entire mattress, box spring, and frame in one session at a price well below the premium Canadian brands. Corded and deliberate rather than grab-and-go, and it doubles as a chemical-free deep cleaner for kitchens, bathrooms, and floors. The one caveat for Canadian buyers is import friction — it is a US-market unit, so confirm the seller, plug, and warranty on the listing. Not a standalone cure: pair it with a vacuum and interceptor monitoring."
@@ -155,28 +158,28 @@ export default function MccullochMc1275SteamerReviewCanadaPage() {
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best</strong> &mdash; high heat, low moisture</td>
                   <td className="px-4 py-3 text-gray-700">Long &mdash; whole bed per fill</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">US-market</strong> &mdash; verify seller &amp; warranty</td>
-                  <td className="px-4 py-3"><BuyLink search="mcculloch mc1275 steam cleaner" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="mcculloch mc1275 steam cleaner" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Dupray Neat<br /><span className="font-normal text-xs text-gray-500">premium boiler</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best</strong> &mdash; high heat, low moisture</td>
                   <td className="px-4 py-3 text-gray-700">Long &mdash; whole bed per fill</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Canadian brand</strong> &mdash; local stock &amp; warranty</td>
-                  <td className="px-4 py-3"><BuyLink search="dupray neat steam cleaner" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="dupray neat steam cleaner" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Flash-heat handheld<br /><span className="font-normal text-xs text-gray-500">pod / budget</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Fair</strong> &mdash; heat fades, wetter</td>
                   <td className="px-4 py-3 text-gray-700">Short &mdash; minutes, then refill</td>
                   <td className="px-4 py-3 text-gray-700">Widely stocked domestically</td>
-                  <td className="px-4 py-3"><BuyLink search="handheld steam cleaner bed bugs" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="handheld steam cleaner bed bugs" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Garment / floor steam mop<br /><span className="font-normal text-xs text-gray-500">wet steam</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-rose-700">Wrong tool</strong> &mdash; wet, lower heat</td>
                   <td className="px-4 py-3 text-gray-700">Varies</td>
                   <td className="px-4 py-3 text-gray-700">Widely stocked domestically</td>
-                  <td className="px-4 py-3"><BuyLink search="garment steamer" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="garment steamer" block>Check price →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -203,9 +206,9 @@ export default function MccullochMc1275SteamerReviewCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability and seller:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="mcculloch mc1275 steam cleaner">McCulloch MC1275 →</BuyLink>
-            <BuyLink search="dupray neat steam cleaner">Dupray Neat →</BuyLink>
-            <BuyLink search="handheld steam cleaner bed bugs">Budget handheld →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="mcculloch mc1275 steam cleaner">McCulloch MC1275 →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="dupray neat steam cleaner">Dupray Neat →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="handheld steam cleaner bed bugs">Budget handheld →</BuyLink>
           </div>
 
           <h2>Why a Steamer Belongs in a Bed-Bug Kit</h2>

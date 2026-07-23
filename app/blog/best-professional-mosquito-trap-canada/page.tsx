@@ -8,6 +8,7 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import AuthorByline from '@/components/AuthorByline'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'best-professional-mosquito-trap-canada'
 const DATE = '2026-07-21'
@@ -75,6 +76,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('best-professional-mosquito-trap-canada')
+
 export default function BestProfessionalMosquitoTrapCanadaPage() {
   return (
     <>
@@ -96,7 +99,7 @@ export default function BestProfessionalMosquitoTrapCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="Mosquito Magnet Pro (commercial propane CO₂ trap)" search="mosquito magnet pro commercial trap" label="Best pro trap" />
+      <StickyBuyBar tag={AMZ_TAG} name="Mosquito Magnet Pro (commercial propane CO₂ trap)" search="mosquito magnet pro commercial trap" label="Best pro trap" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -118,7 +121,7 @@ export default function BestProfessionalMosquitoTrapCanadaPage() {
 
       <section className="bg-white px-4 py-6">
         <div className="max-w-5xl mx-auto">
-          <AwardRow
+          <AwardRow tag={AMZ_TAG}
             heading="Our Picks — Best Professional Mosquito Trapping Systems in Canada"
             awards={[
               {
@@ -192,28 +195,28 @@ export default function BestProfessionalMosquitoTrapCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Burns propane → real CO₂ + heat + moisture; vacuums in females</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">~1 acre</strong> per unit</td>
                   <td className="px-4 py-3 text-gray-700">Device — no pesticide registration</td>
-                  <td className="px-4 py-3"><BuyLink search="mosquito magnet pro commercial trap" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="mosquito magnet pro commercial trap" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Larvicide station<br /><span className="font-normal text-xs text-gray-500">In2Care autodissemination</span></td>
                   <td className="px-4 py-3 text-gray-700">Female picks up larvicide on treated gauze, spreads it to breeding water</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Grid</strong> — zone-wide</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">PMRA-regulated</strong> — licensed operators</td>
-                  <td className="px-4 py-3"><BuyLink search="mosquito larvicide station" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="mosquito larvicide station" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Prosumer CO₂ lure<br /><span className="font-normal text-xs text-gray-500">CO₂ + octenol trap</span></td>
                   <td className="px-4 py-3 text-gray-700">CO₂ source + octenol lure mimics a host; fan suction</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Good</strong> — supplemental</td>
                   <td className="px-4 py-3 text-gray-700">Device — no pesticide registration</td>
-                  <td className="px-4 py-3"><BuyLink search="co2 octenol mosquito lure trap" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="co2 octenol mosquito lure trap" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">UV + fan<br /><span className="font-normal text-xs text-gray-500">DynaTrap, zappers</span></td>
                   <td className="px-4 py-3 text-gray-700">UV light draws insects; fan or grid kills them (no CO₂)</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Weak</strong> for mosquitoes</td>
                   <td className="px-4 py-3 text-gray-700">Device — but ~5% of catch is mosquitoes</td>
-                  <td className="px-4 py-3"><BuyLink search="dynatrap insect trap" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="dynatrap insect trap" block>Check price →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -267,9 +270,9 @@ export default function BestProfessionalMosquitoTrapCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the professional systems:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="mosquito magnet pro commercial trap">Commercial propane trap →</BuyLink>
-            <BuyLink search="mosquito larvicide station">Larvicide station →</BuyLink>
-            <BuyLink search="co2 octenol mosquito lure trap">Prosumer CO₂ lure →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="mosquito magnet pro commercial trap">Commercial propane trap →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="mosquito larvicide station">Larvicide station →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="co2 octenol mosquito lure trap">Prosumer CO₂ lure →</BuyLink>
           </div>
 
           <h2 id="top-pick">What Makes a Mosquito Trap &ldquo;Professional&rdquo;</h2>

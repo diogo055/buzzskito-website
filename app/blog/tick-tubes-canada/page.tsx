@@ -8,6 +8,7 @@ import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'tick-tubes-canada'
 const DATE = '2026-07-14'
@@ -65,6 +66,8 @@ export const metadata: Metadata = buildMetadata({
   publishedTime: DATE,
 })
 
+const AMZ_TAG = tagForSlug('tick-tubes-canada')
+
 export default function TickTubesCanadaPage() {
   return (
     <>
@@ -86,7 +89,7 @@ export default function TickTubesCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="Thermacell Tick Control Tubes" search="thermacell tick control tubes 12 pack" label="Top tick tube pick" />
+      <StickyBuyBar tag={AMZ_TAG} name="Thermacell Tick Control Tubes" search="thermacell tick control tubes 12 pack" label="Top tick tube pick" />
 
       <section className="bg-white pt-8 px-4">
         <div className="max-w-4xl mx-auto">
@@ -159,11 +162,11 @@ export default function TickTubesCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Compare current Canadian options and pack sizes:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="thermacell tick control tubes 12 pack">Check price on Amazon.ca →</BuyLink>
-            <BuyLink search="tick tubes 20 pack">Generic 20-pack tick tubes →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="thermacell tick control tubes 12 pack">Check price on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="tick tubes 20 pack">Generic 20-pack tick tubes →</BuyLink>
           </div>
 
-          <TopPick
+          <TopPick tag={AMZ_TAG}
             label="Our Top Pick"
             name="Thermacell Tick Control Tubes"
             blurb="The most widely stocked tick tube in Canada, with factory-dosed permethrin cotton pre-measured for the job — no off-label guesswork. One twelve-pack covers roughly a quarter-acre, which suits most GTA lots when placed along shaded, brushy edges. Slow and preventive by design: it grinds down next year's mouse-borne nymphs, so pair it with a perimeter barrier spray for the ticks questing in your yard right now."

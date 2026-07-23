@@ -8,6 +8,7 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'tick-removal-tool-guide'
 const DATE = '2026-04-26'
@@ -58,6 +59,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('tick-removal-tool-guide')
+
 export default function TickRemovalToolGuidePage() {
   return (
     <>
@@ -79,7 +82,7 @@ export default function TickRemovalToolGuidePage() {
         </div>
       </section>
 
-      <StickyBuyBar name="Tick Twister / O’Tom Tick Twister removal tool" search="tick twister removal tool" label="Best overall tool" />
+      <StickyBuyBar tag={AMZ_TAG} name="Tick Twister / O’Tom Tick Twister removal tool" search="tick twister removal tool" label="Best overall tool" />
 
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
@@ -100,12 +103,12 @@ export default function TickRemovalToolGuidePage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">The two tools vets and Canadian hikers keep on hand — a fine-tipped tweezer and a tick-hook set (under $15):</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="tick twister removal tool">Check tick-removal tools on Amazon.ca →</BuyLink>
-            <BuyLink search="fine tip tick tweezers">Fine-tip tick tweezers →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="tick twister removal tool">Check tick-removal tools on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="fine tip tick tweezers">Fine-tip tick tweezers →</BuyLink>
           </div>
           <p className="lead text-xl text-gray-700 leading-relaxed mb-6">Removing a tick correctly takes 30 seconds with the right tool. Done wrong, you can break off the mouthparts, squeeze the tick&rsquo;s body and increase Lyme disease risk, or just panic. Here&rsquo;s the honest 2026 guide to what tools actually work.</p>
 
-          <AwardRow
+          <AwardRow tag={AMZ_TAG}
             heading="Our Picks — Best Tick Removal Tools"
             awards={[
               {
@@ -187,15 +190,15 @@ export default function TickRemovalToolGuidePage() {
                     <td className="px-3 py-2 text-gray-600 text-xs">{mech}</td>
                     <td className="px-3 py-2 text-gray-600 text-xs">{best}</td>
                     <td className="px-3 py-2 text-center text-gray-600 text-xs">{price}</td>
-                    <td className="px-3 py-2 text-center whitespace-nowrap">{search ? <BuyLink search={search} block>Check price →</BuyLink> : <span className="text-xs text-gray-400">&mdash;</span>}</td>
+                    <td className="px-3 py-2 text-center whitespace-nowrap">{search ? <BuyLink tag={AMZ_TAG} search={search} block>Check price →</BuyLink> : <span className="text-xs text-gray-400">&mdash;</span>}</td>
                   </tr>
                 ))}
               </tbody>
             </table>
           </div>
           <p className="not-prose text-sm text-gray-600 mb-6">Prefer everything in one pouch? A complete removal kit bundles a hook, fine-tip tweezers and a storage vial, while a wallet-sized removal card is the cheapest backup to keep in the car or hiking pack:{' '}
-            <BuyLink search="tick removal kit">Tick removal kit on Amazon.ca &rarr;</BuyLink>{' '}
-            <BuyLink search="tick removal card">Wallet tick card &rarr;</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="tick removal kit">Tick removal kit on Amazon.ca &rarr;</BuyLink>{' '}
+            <BuyLink tag={AMZ_TAG} search="tick removal card">Wallet tick card &rarr;</BuyLink>
           </p>
 
           <h2>The Top 3 Tick Removal Tools (Ranked)</h2>
@@ -209,7 +212,7 @@ export default function TickRemovalToolGuidePage() {
             <li><strong>Where to buy:</strong> Amazon, PetSmart, your vet&rsquo;s front desk</li>
           </ul>
           <p className="not-prose text-sm text-gray-600 mb-6">Dog owners: the Tick Twister also comes in a dog-specific multi-size pack &mdash; the larger hook handles engorged ticks buried in thick fur.{' '}
-            <BuyLink search="tick twister dog">Tick Twister for dogs on Amazon.ca &rarr;</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="tick twister dog">Tick Twister for dogs on Amazon.ca &rarr;</BuyLink>
           </p>
 
           <h3>🥈 2. TickKey — Best for Beginners</h3>

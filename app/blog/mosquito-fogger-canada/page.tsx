@@ -8,6 +8,7 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'mosquito-fogger-canada'
 const DATE = '2026-07-12'
@@ -55,6 +56,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('mosquito-fogger-canada')
+
 export default function MosquitoFoggerCanadaPage() {
   return (
     <>
@@ -76,7 +79,7 @@ export default function MosquitoFoggerCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="Black Flag Propane Mosquito Fogger" search="black flag propane fogger" label="Best overall fogger" />
+      <StickyBuyBar tag={AMZ_TAG} name="Black Flag Propane Mosquito Fogger" search="black flag propane fogger" label="Best overall fogger" />
 
       <section className="bg-white px-4 pt-8">
         <div className="max-w-4xl mx-auto">
@@ -144,7 +147,7 @@ export default function MosquitoFoggerCanadaPage() {
 
       <section className="bg-white px-4 py-6">
         <div className="max-w-5xl mx-auto">
-          <AwardRow
+          <AwardRow tag={AMZ_TAG}
             heading="Our Picks — Best Mosquito Foggers in Canada"
             awards={[
               {
@@ -231,8 +234,8 @@ export default function MosquitoFoggerCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Compare current Canadian prices on propane foggers, electric ULV cold foggers, and fogging liquid:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="propane mosquito fogger">Check fogger prices on Amazon.ca →</BuyLink>
-            <BuyLink search="black flag fogging insecticide">Fogging liquid →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="propane mosquito fogger">Check fogger prices on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="black flag fogging insecticide">Fogging liquid →</BuyLink>
           </div>
 
           <h2 id="how-they-work">How Mosquito Foggers Actually Work</h2>
@@ -262,33 +265,33 @@ export default function MosquitoFoggerCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Thermal / propane</td>
                   <td className="px-4 py-3 text-gray-700">Classic backyard knockdown</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$60 – $90</td>
-                  <td className="px-4 py-3"><BuyLink search="black flag propane fogger" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="black flag propane fogger" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Repel Propane Fogger</td>
                   <td className="px-4 py-3 text-gray-700">Thermal / propane</td>
                   <td className="px-4 py-3 text-gray-700">Yard &amp; campsite clearing</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$60 – $95</td>
-                  <td className="px-4 py-3"><BuyLink search="repel propane insect fogger" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="repel propane insect fogger" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Burgess Propane Fogger</td>
                   <td className="px-4 py-3 text-gray-700">Thermal / propane</td>
                   <td className="px-4 py-3 text-gray-700">Larger tank · faster coverage</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$70 – $110</td>
-                  <td className="px-4 py-3"><BuyLink search="burgess propane insect fogger" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="burgess propane insect fogger" block>Check price →</BuyLink></td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 font-bold text-brand-800">Electric ULV Cold Fogger</td>
                   <td className="px-4 py-3 text-gray-700">Cold / electric</td>
                   <td className="px-4 py-3 text-gray-700">Reusable · water-based · precise</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$80 – $250</td>
-                  <td className="px-4 py-3"><BuyLink search="electric ulv cold fogger" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="electric ulv cold fogger" block>Check price →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
           </div>
-          <p className="not-prose text-sm text-gray-600 mb-6">The machine is only half the purchase &mdash; you also need the <strong>fogging liquid</strong>. Thermal foggers take an oil-based fogging insecticide; confirm it carries a Canadian PCP number before buying. <BuyLink search="black flag fogging insecticide">Check fogging liquid price →</BuyLink></p>
+          <p className="not-prose text-sm text-gray-600 mb-6">The machine is only half the purchase &mdash; you also need the <strong>fogging liquid</strong>. Thermal foggers take an oil-based fogging insecticide; confirm it carries a Canadian PCP number before buying. <BuyLink tag={AMZ_TAG} search="black flag fogging insecticide">Check fogging liquid price →</BuyLink></p>
 
           <h3>Fogging Liquid &amp; Insecticide: Match It to the Machine</h3>
           <p>The most common mistake first-time buyers make is putting the wrong liquid in the tank. <strong>Thermal propane foggers</strong> need an <em>oil-based, ready-to-use fogging insecticide</em> &mdash; the classic Black Flag, Repel, and Burgess fogging insecticides are all pyrethrin or pyrethroid formulations designed to vaporize cleanly through a heated coil. <strong>Cold / ULV foggers</strong> instead take a <em>water-based concentrate</em> that you dilute per the label (permethrin, deltamethrin, or pyrethrin concentrates). Swapping oil-based liquid into a cold fogger, or water-based concentrate into a thermal coil, clogs or damages the machine &mdash; and in Canada, only liquids carrying a Health Canada PMRA / PCP registration number are legal to use.</p>
@@ -297,8 +300,8 @@ export default function MosquitoFoggerCanadaPage() {
           <p>The fogging liquid is the real recurring cost of owning a fogger &mdash; the machine is a one-time buy, but the liquid empties with every use. A typical bottle of ready-to-use fogging insecticide covers a small-to-medium yard a handful of times, so a household that fogs before every weekend gathering runs through several bottles between May and September. The branded liquids (Black Flag, Repel, Burgess &ldquo;fogger fuel&rdquo;) are interchangeable across the classic propane units, so shop on price and availability rather than matching the sticker to your machine &mdash; just keep it oil-based for a thermal fogger and confirm the Canadian PCP registration number on the label.</p>
           <p>Because PMRA-registered fogging liquid is exactly what sells out first in a GTA July, the practical move is to buy two or three bottles in spring alongside the machine, then restock the moment your supply drops to one bottle:</p>
           <div className="not-prose my-4 flex flex-wrap gap-3">
-            <BuyLink search="mosquito fogger insecticide liquid">Fogging insecticide liquid →</BuyLink>
-            <BuyLink search="black flag fogger fuel">Black Flag fogger fuel →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="mosquito fogger insecticide liquid">Fogging insecticide liquid →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="black flag fogger fuel">Black Flag fogger fuel →</BuyLink>
           </div>
           <p>One budgeting sanity check: if you find yourself re-fogging every week, the liquid bills add up fast for hours-long results. At that point a <Link href="/blog/backpack-sprayer-canada">backpack sprayer</Link> with a registered residual concentrate treats the same vegetation a professional targets and keeps working for weeks instead of hours &mdash; or skip the DIY labour entirely with a seasonal barrier program.</p>
 

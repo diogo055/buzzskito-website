@@ -8,6 +8,7 @@ import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'best-raccoon-live-trap-canada'
 const DATE = '2026-07-21'
@@ -71,6 +72,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('best-raccoon-live-trap-canada')
+
 export default function BestRaccoonLiveTrapCanadaPage() {
   return (
     <>
@@ -92,7 +95,7 @@ export default function BestRaccoonLiveTrapCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="Havahart X-Large one-door live trap" search="havahart xl one door live trap raccoon" label="Best overall" />
+      <StickyBuyBar tag={AMZ_TAG} name="Havahart X-Large one-door live trap" search="havahart xl one door live trap raccoon" label="Best overall" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -115,7 +118,7 @@ export default function BestRaccoonLiveTrapCanadaPage() {
 
       <section className="bg-white px-4 py-6">
         <div className="max-w-5xl mx-auto">
-          <AwardRow
+          <AwardRow tag={AMZ_TAG}
             heading="Our Picks — Best Raccoon Live Traps in Canada"
             awards={[
               {
@@ -198,35 +201,35 @@ export default function BestRaccoonLiveTrapCanadaPage() {
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best</strong> &mdash; most reliable catch for a wary adult</td>
                   <td className="px-4 py-3 text-gray-700">A single raccoon done right the first time</td>
                   <td className="px-4 py-3 text-gray-700">Premium price; bulky</td>
-                  <td className="px-4 py-3"><BuyLink search="havahart xl one door live trap raccoon" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="havahart xl one door live trap raccoon" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Large heavy-duty<br /><span className="font-normal text-xs text-gray-500">Duke cage trap</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best value</strong> &mdash; adult sizing for less</td>
                   <td className="px-4 py-3 text-gray-700">A sturdy catch on a budget</td>
                   <td className="px-4 py-3 text-gray-700">Confirm the large size, not the mid</td>
-                  <td className="px-4 py-3"><BuyLink search="duke heavy duty large cage trap raccoon" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="duke heavy duty large cage trap raccoon" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Large two-door<br /><span className="font-normal text-xs text-gray-500">Havahart Easy-Set</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Good</strong> &mdash; easier entry for a trap-shy animal</td>
                   <td className="px-4 py-3 text-gray-700">A raccoon that keeps dodging a single-door</td>
                   <td className="px-4 py-3 text-gray-700">Two mechanisms; can spring early</td>
-                  <td className="px-4 py-3"><BuyLink search="havahart two door large live trap raccoon" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="havahart two door large live trap raccoon" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Rigid professional<br /><span className="font-normal text-xs text-gray-500">welded steel</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Good</strong> &mdash; toughest for repeat use</td>
                   <td className="px-4 py-3 text-gray-700">Many captures over many seasons</td>
                   <td className="px-4 py-3 text-gray-700">Heaviest; priced for pros</td>
-                  <td className="px-4 py-3"><BuyLink search="tomahawk rigid professional live trap raccoon" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="tomahawk rigid professional live trap raccoon" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Collapsible budget<br /><span className="font-normal text-xs text-gray-500">folding cage</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Fair</strong> &mdash; stores flat, lighter gauge</td>
                   <td className="px-4 py-3 text-gray-700">A strictly one-time problem</td>
                   <td className="px-4 py-3 text-gray-700">Hinges weaken; thinner wire</td>
-                  <td className="px-4 py-3"><BuyLink search="large collapsible steel live cage trap raccoon" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="large collapsible steel live cage trap raccoon" block>Check price →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -253,10 +256,10 @@ export default function BestRaccoonLiveTrapCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the main picks:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="havahart xl one door live trap raccoon">XL single-door →</BuyLink>
-            <BuyLink search="duke heavy duty large cage trap raccoon">Heavy-duty value →</BuyLink>
-            <BuyLink search="havahart two door large live trap raccoon">Large two-door →</BuyLink>
-            <BuyLink search="tomahawk rigid professional live trap raccoon">Professional rigid →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="havahart xl one door live trap raccoon">XL single-door →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="duke heavy duty large cage trap raccoon">Heavy-duty value →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="havahart two door large live trap raccoon">Large two-door →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="tomahawk rigid professional live trap raccoon">Professional rigid →</BuyLink>
           </div>
 
           <h2>Size Is the Spec That Matters Most</h2>

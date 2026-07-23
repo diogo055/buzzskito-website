@@ -8,6 +8,7 @@ import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'katchy-indoor-insect-trap-review-canada'
 const DATE = '2026-07-21'
@@ -75,6 +76,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('katchy-indoor-insect-trap-review-canada')
+
 export default function KatchyIndoorInsectTrapReviewCanadaPage() {
   return (
     <>
@@ -96,7 +99,7 @@ export default function KatchyIndoorInsectTrapReviewCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="Katchy Indoor Insect Trap" search="katchy indoor insect trap" label="Our verdict: 8.3/10" />
+      <StickyBuyBar tag={AMZ_TAG} name="Katchy Indoor Insect Trap" search="katchy indoor insect trap" label="Our verdict: 8.3/10" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -119,7 +122,7 @@ export default function KatchyIndoorInsectTrapReviewCanadaPage() {
 
       <section className="bg-white px-4 py-2">
         <div className="max-w-4xl mx-auto">
-          <TopPick
+          <TopPick tag={AMZ_TAG}
             label="Our Verdict"
             name="Katchy Indoor Insect Trap (UV + fan + glue board)"
             blurb="The best-built indoor gnat and fruit fly trap sold in Canada. Silent, insecticide-free, and genuinely effective when run overnight in a dark room near the source — as long as you accept that house flies and mosquitoes were never really on the menu."
@@ -174,7 +177,7 @@ export default function KatchyIndoorInsectTrapReviewCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Fungus gnats, fruit flies, drain flies</td>
                   <td className="px-4 py-3 text-gray-700">House flies, mosquitoes</td>
                   <td className="px-4 py-3 text-gray-700">Glue boards every 2–4 weeks</td>
-                  <td className="px-4 py-3"><BuyLink search="katchy indoor insect trap" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="katchy indoor insect trap" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">TERRO Fruit Fly Trap</td>
@@ -182,7 +185,7 @@ export default function KatchyIndoorInsectTrapReviewCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Fruit flies specifically</td>
                   <td className="px-4 py-3 text-gray-700">Gnats, drain flies, everything else</td>
                   <td className="px-4 py-3 text-gray-700">Lure refills roughly monthly</td>
-                  <td className="px-4 py-3"><BuyLink search="terro fruit fly trap" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="terro fruit fly trap" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Indoor bug zapper</td>
@@ -190,7 +193,7 @@ export default function KatchyIndoorInsectTrapReviewCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Moths, midges, stronger UV-drawn fliers</td>
                   <td className="px-4 py-3 text-gray-700">Same UV limits — plus noise and debris ejection</td>
                   <td className="px-4 py-3 text-gray-700">None (occasional bulb)</td>
-                  <td className="px-4 py-3"><BuyLink search="indoor bug zapper" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="indoor bug zapper" block>Check price →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -215,8 +218,8 @@ export default function KatchyIndoorInsectTrapReviewCanadaPage() {
           <p>The Katchy&rsquo;s recurring cost is the glue board, and it is worth planning for honestly. A board loses tackiness as it collects insects, dust, and pet hair — replace it every 2 to 4 weeks in normal use, weekly during a heavy gnat bloom, and immediately whenever the surface looks matte or crowded. A saturated board is the silent failure mode: the trap keeps glowing, the fan keeps humming, and nothing sticks.</p>
           <p>Genuine 4-pack refills typically sell in the $20–$30 range at Canadian retailers, which works out to a modest but real cost per season. The money-saving move many owners settle on: generic full-size glue boards cut to the tray shape with scissors. Nothing in the unit requires a branded board — it is a friction-fit tray, not a printer-cartridge situation — so the choice is purely convenience versus cost.</p>
           <div className="not-prose my-4 flex flex-wrap gap-3">
-            <BuyLink search="katchy glue boards refill">Check Katchy glue board refills →</BuyLink>
-            <BuyLink search="katchy indoor insect trap duo">Check the Katchy Duo →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="katchy glue boards refill">Check Katchy glue board refills →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="katchy indoor insect trap duo">Check the Katchy Duo →</BuyLink>
           </div>
           <p>On models: the <strong>Katchy Original</strong> and the newer <strong>Katchy Duo</strong> share the same fan-and-glue architecture. The Duo adds a dual-wavelength light and a stronger fan aimed at improving the fruit-fly catch specifically, and in practice it does catch somewhat better — but both units keep the same fundamental profile. Buy whichever is better priced the day you shop; neither turns the platform into a house-fly or mosquito trap.</p>
 
@@ -256,7 +259,7 @@ export default function KatchyIndoorInsectTrapReviewCanadaPage() {
           <p>The Katchy earns its position as the premium device in the indoor fly aisle. It is well built, silent, genuinely pesticide-free, and the single most effective consumer tool we have tested against fungus gnats — with a solid supporting record on fruit flies and drain flies. The score stops short of the 9s for two reasons: the recurring glue-board cost, and a marketing halo that still leads too many buyers to expect house-fly and mosquito performance the mechanism cannot deliver.</p>
           <p>Buy it if you have houseplant gnats, recurring fruit flies, or drain flies and want a clean, silent, no-chemical fix. Skip it if your pest is house flies, wasps, or mosquitoes — no UV suction trap solves those, whatever the listing photos imply. And whichever way you go, fix the breeding source at the same time; that is the difference between a trap that helps and a trap that just documents the problem.</p>
           <div className="not-prose my-4">
-            <BuyLink search="katchy indoor insect trap">Check the Katchy Indoor Insect Trap on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="katchy indoor insect trap">Check the Katchy Indoor Insect Trap on Amazon.ca →</BuyLink>
           </div>
 
           <h2>Frequently Asked Questions</h2>

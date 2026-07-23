@@ -8,6 +8,7 @@ import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'best-electric-fence-for-raccoons-canada'
 const DATE = '2026-07-21'
@@ -75,6 +76,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('best-electric-fence-for-raccoons-canada')
+
 export default function BestElectricFenceForRaccoonsCanadaPage() {
   return (
     <>
@@ -96,7 +99,7 @@ export default function BestElectricFenceForRaccoonsCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="Zareba raccoon garden electric fence kit" search="zareba electric fence garden kit" label="Best overall kit" />
+      <StickyBuyBar tag={AMZ_TAG} name="Zareba raccoon garden electric fence kit" search="zareba electric fence garden kit" label="Best overall kit" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -119,7 +122,7 @@ export default function BestElectricFenceForRaccoonsCanadaPage() {
 
       <section className="bg-white px-4 py-6">
         <div className="max-w-5xl mx-auto">
-          <AwardRow
+          <AwardRow tag={AMZ_TAG}
             heading="Our Picks — Best Electric Fences & Energizers for Raccoons in Canada"
             awards={[
               {
@@ -202,28 +205,28 @@ export default function BestElectricFenceForRaccoonsCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">AC outlet</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best start</strong> &mdash; small garden, fastest setup</td>
                   <td className="px-4 py-3 text-gray-700">Add ground rods; small-plot sizing</td>
-                  <td className="px-4 py-3"><BuyLink search="zareba electric fence garden kit" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="zareba electric fence garden kit" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Gallagher energizer<br /><span className="font-normal text-xs text-gray-500">plug-in / DC, premium</span></td>
                   <td className="px-4 py-3 text-gray-700">AC or 12V DC</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best power</strong> &mdash; long life, weedy runs</td>
                   <td className="px-4 py-3 text-gray-700">Energizer only; buy the rest</td>
-                  <td className="px-4 py-3"><BuyLink search="gallagher fence energizer" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="gallagher fence energizer" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Solar energizer<br /><span className="font-normal text-xs text-gray-500">self-charging DC</span></td>
                   <td className="px-4 py-3 text-gray-700">Solar + battery</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best off-grid</strong> &mdash; remote plots, runs</td>
                   <td className="px-4 py-3 text-gray-700">Short winter sun; clear snow off panel</td>
-                  <td className="px-4 py-3"><BuyLink search="solar electric fence energizer kit" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="solar electric fence energizer kit" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Budget plug-in charger<br /><span className="font-normal text-xs text-gray-500">value</span></td>
                   <td className="px-4 py-3 text-gray-700">AC outlet</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Fair</strong> &mdash; cheapest working small fence</td>
                   <td className="px-4 py-3 text-gray-700">Little headroom; nothing else included</td>
-                  <td className="px-4 py-3"><BuyLink search="plug in electric fence charger low impedance" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="plug in electric fence charger low impedance" block>Check price →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -250,10 +253,10 @@ export default function BestElectricFenceForRaccoonsCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the main options:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="zareba electric fence garden kit">Zareba garden kit →</BuyLink>
-            <BuyLink search="gallagher fence energizer">Gallagher energizer →</BuyLink>
-            <BuyLink search="solar electric fence energizer kit">Solar energizer →</BuyLink>
-            <BuyLink search="galvanized ground rod electric fence">Ground rods →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="zareba electric fence garden kit">Zareba garden kit →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="gallagher fence energizer">Gallagher energizer →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="solar electric fence energizer kit">Solar energizer →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="galvanized ground rod electric fence">Ground rods →</BuyLink>
           </div>
 
           <h2>Why the Two Low Wires Are the Whole Trick</h2>

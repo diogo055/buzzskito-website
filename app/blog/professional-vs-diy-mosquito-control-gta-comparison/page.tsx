@@ -8,6 +8,7 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const POST = {
   title: 'Professional vs DIY Mosquito Control in the GTA: A 2026 Cost, Effectiveness, and Safety Comparison',
@@ -57,6 +58,8 @@ export const metadata: Metadata = buildMetadata({
   type: 'article',
   publishedTime: POST.date,
 })
+
+const AMZ_TAG = tagForSlug('professional-vs-diy-mosquito-control-gta-comparison')
 
 export default function ProfessionalVsDIYPage() {
   return (
@@ -117,7 +120,7 @@ export default function ProfessionalVsDIYPage() {
         <h3>BTi mosquito dunks and granules (Bacillus thuringiensis israelensis)</h3>
         <p>The single most effective DIY product. BTi is a naturally-occurring bacterium that produces toxins specific to mosquito, black fly, and fungus gnat larvae. It is harmless to mammals, birds, fish, and most non-target insects. Dunks ($1-$2 each) drop into standing water — birdbaths, rain barrels, plant saucers, ponds, French drains, retention basins — and kill mosquito larvae within 24 hours. One dunk treats 100 square feet of water for 30 days. Granules ($25 for a 32-oz container) work the same way for shallow water.</p>
         <p><strong>Verdict:</strong> Genuinely effective for what they do. If you have any standing water on the property, BTi is the highest-leverage DIY investment you can make. It does nothing for adult mosquitoes already biting in your yard.</p>
-        <TopPick
+        <TopPick tag={AMZ_TAG}
           label="Best DIY Product"
           name="Summit Mosquito Dunks (BTi)"
           blurb="The single most effective DIY product in this guide. Drop one into any standing water — birdbaths, rain barrels, plant saucers, ponds, French drains — and it kills larvae within 24 hours, breaking the breeding cycle for 30 days. Harmless to mammals, birds, fish, and most non-target insects. It won't touch adult mosquitoes already biting, so pair it with yard treatment for full coverage."
@@ -131,7 +134,7 @@ export default function ProfessionalVsDIYPage() {
         <p>Thermacell units burn an allethrin pad over a butane heater and create a 4-metre cloud of mosquito-repellent vapour. Independent research (including studies funded by the US Centers for Disease Control) shows 75-95% bite reduction within the protected zone while the unit is operating. Cost: $40 for the unit, $10 per refill pack (good for ~12 hours), $200-$300 for a season of regular patio use.</p>
         <p><strong>Verdict:</strong> Excellent for stationary outdoor activity (patio dining, deck reading). Useless for moving around the yard or for protecting children playing in the grass. Best used as a supplement, not a standalone solution. For the current rechargeable lineup, see our full <Link href="/blog/thermacell-e90-canada-review" className="text-brand-700 underline">Thermacell E90 Canada review</Link>.</p>
         <div className="not-prose my-4">
-          <BuyLink search="thermacell e90 rechargeable">Check the Thermacell E90 on Amazon.ca →</BuyLink>
+          <BuyLink tag={AMZ_TAG} search="thermacell e90 rechargeable">Check the Thermacell E90 on Amazon.ca →</BuyLink>
         </div>
 
         <h3>Citronella candles, torches, and incense</h3>
@@ -146,14 +149,14 @@ export default function ProfessionalVsDIYPage() {
         <p>These units bait mosquitoes with carbon dioxide (mimicking human breath) plus octenol or other attractants, then capture them in a net or vacuum. Unit cost ranges from $200 (Dynatrap basic) to $700 (Mosquito Magnet Patriot). Operating cost runs $250-$400 per season (propane, attractant cartridges, replacement parts). University research shows 30-60% population reduction in a treated area after 6+ weeks of continuous operation — but the reduction is species-specific (most effective against Culex, weaker against Aedes), the unit must run continuously, and the placement matters enormously (10m from any area where humans will be, downwind).</p>
         <p><strong>Verdict:</strong> Genuine effect on populations over time. Significant equipment investment, ongoing operating costs, slow ramp-up (population reduction is not immediate), and species-specific. For a single backyard, the cost-effectiveness ratio is below professional barrier spray. Better suited to larger acreage where running multiple units across the property makes sense.</p>
         <div className="not-prose my-4">
-          <BuyLink search="dynatrap dt1100 canada">Check the Dynatrap DT1100 on Amazon.ca →</BuyLink>
+          <BuyLink tag={AMZ_TAG} search="dynatrap dt1100 canada">Check the Dynatrap DT1100 on Amazon.ca →</BuyLink>
         </div>
 
         <h3>Bug zappers (UV light traps)</h3>
         <p>The University of Delaware ran the definitive study: of 13,789 insects killed by residential bug zappers over a study period, only 31 were biting mosquitoes — 0.22%. The rest were beneficial insects (moths, lacewings, parasitic wasps). Bug zappers are an ecological disaster and contribute essentially nothing to mosquito control.</p>
         <p><strong>Verdict:</strong> Do not buy. The marketing is decades old. The science is unambiguous. If you are still tempted, read our <Link href="/blog/flowtron-bug-zapper-canada" className="text-brand-700 underline">Flowtron BK-40D review</Link> first — it walks through exactly what the best-selling zapper does and does not kill.</p>
         <div className="not-prose my-4">
-          <BuyLink search="flowtron bk-40d bug zapper">See the Flowtron BK-40D on Amazon.ca →</BuyLink>
+          <BuyLink tag={AMZ_TAG} search="flowtron bk-40d bug zapper">See the Flowtron BK-40D on Amazon.ca →</BuyLink>
         </div>
 
         <h3>Permethrin-treated clothing</h3>

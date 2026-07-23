@@ -8,6 +8,7 @@ import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
 import { buildMetadata, breadcrumbSchema, faqSchema, blogPostingSchema, speakableSchema, howToSchema } from '@/lib/seo'
 import { BUSINESS } from '@/lib/constants'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const UPDATED = '2026-04-07'
 
@@ -55,6 +56,8 @@ const FAQS = [
     answer: "A layered approach gives the best protection: (1) professional barrier spray applied to your yard before peak nymph season (late May), (2) physical barriers like a mulch or gravel strip at your property edge, (3) regular lawn mowing, (4) tick checks after outdoor play — especially the hairline, behind knees, and in armpits. Teaching children to stay out of tall grass and leaf litter areas also helps. No single measure is 100% effective; combining yard treatment with personal checks is the safest approach.",
   },
 ]
+
+const AMZ_TAG = tagForSlug('tick-prevention-yard-ontario-safe-for-kids')
 
 export default function TickPreventionYardKidsPage() {
   return (
@@ -194,8 +197,8 @@ export default function TickPreventionYardKidsPage() {
 
           <h2>Personal Repellent: The Second Layer for Kids</h2>
           <p>Yard treatment lowers the tick population where your children play, but a skin-applied repellent adds a second layer for trips to the park, cottage, or trail. For children, <strong>picaridin (icaridin)</strong> is the pediatric-friendly choice many parents prefer over DEET — Health Canada permits it for children as young as six months, it is odourless, and it will not damage plastics or clothing. Apply it to exposed skin before outdoor play and reapply per the label.</p>
-          <p className="not-prose my-4"><BuyLink search="picaridin insect repellent canada">Check price on Amazon.ca →</BuyLink></p>
-          <TopPick
+          <p className="not-prose my-4"><BuyLink tag={AMZ_TAG} search="picaridin insect repellent canada">Check price on Amazon.ca →</BuyLink></p>
+          <TopPick tag={AMZ_TAG}
             label="Our Top Pick for Kids"
             name="Picaridin (Icaridin) Insect Repellent"
             blurb="The pediatric-friendly skin layer many Ontario parents prefer over DEET — Health Canada permits picaridin for children as young as six months, it is odourless, and it will not damage plastics or clothing. Apply to exposed skin before outdoor play and reapply per the label."
@@ -216,7 +219,7 @@ export default function TickPreventionYardKidsPage() {
           </ul>
           <p>If you find an attached tick, use fine-tipped tweezers to grasp as close to the skin as possible and pull upward with steady, even pressure. Don't twist, squeeze the body, or use heat. After removal, clean the site with rubbing alcohol. Monitor for a bullseye rash (erythema migrans) and fever over the next 30 days — and contact a physician if symptoms develop.</p>
           <p>A dedicated tick-removal tool or fine-point tweezers kept in the first-aid kit makes clean removal far easier than fumbling with kitchen tweezers, especially on a poppy-seed-sized nymph.</p>
-          <p className="not-prose my-4"><BuyLink search="tick removal tool tweezers">Check price on Amazon.ca →</BuyLink></p>
+          <p className="not-prose my-4"><BuyLink tag={AMZ_TAG} search="tick removal tool tweezers">Check price on Amazon.ca →</BuyLink></p>
 
           <h2>Ticks in the GTA: Cities and Communities Most at Risk</h2>
           <p>If you live in any of the following areas, your children face elevated tick exposure and professional yard treatment is strongly recommended before peak nymph season:</p>

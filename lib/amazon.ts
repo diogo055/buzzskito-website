@@ -34,10 +34,16 @@ export const AMAZON_DISCLOSURE = 'As an Amazon Associate, BuzzSkito earns from q
 const enc = (s: string) =>
   encodeURIComponent(s).replace(/[!'()*]/g, (c) => '%' + c.charCodeAt(0).toString(16).toUpperCase())
 
-export function amazonUrl(opts: { asin?: string; search?: string }): string | null {
-  if (!AMAZON_ENABLED) return null // fail closed
+// `tag` is an optional per-cluster tracking ID (see lib/amazon-clusters.ts). It
+// overrides the default TAG in the emitted URL so the Associates report can break
+// earnings down by content cluster. It does NOT affect the fail-closed switch:
+// AMAZON_ENABLED is still governed only by the env tag, so with PUBLIC_AMAZON_TAG
+// unset every link stays off regardless of any cluster tag passed in.
+export function amazonUrl(opts: { asin?: string; search?: string; tag?: string }): string | null {
+  if (!AMAZON_ENABLED) return null // fail closed — env tag is the master switch
+  const t = opts.tag && opts.tag.length > 0 ? opts.tag : TAG
   if (opts.asin) {
-    return `https://www.amazon.ca/dp/${enc(opts.asin)}?tag=${TAG}&linkCode=ll1&language=en_CA`
+    return `https://www.amazon.ca/dp/${enc(opts.asin)}?tag=${t}&linkCode=ll1&language=en_CA`
   }
-  return `https://www.amazon.ca/s?k=${enc(opts.search ?? '')}&tag=${TAG}&linkCode=ll2&language=en_CA`
+  return `https://www.amazon.ca/s?k=${enc(opts.search ?? '')}&tag=${t}&linkCode=ll2&language=en_CA`
 }

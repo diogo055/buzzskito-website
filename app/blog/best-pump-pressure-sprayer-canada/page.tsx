@@ -8,6 +8,7 @@ import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'best-pump-pressure-sprayer-canada'
 const DATE = '2026-07-21'
@@ -75,6 +76,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('best-pump-pressure-sprayer-canada')
+
 export default function BestPumpPressureSprayerCanadaPage() {
   return (
     <>
@@ -96,7 +99,7 @@ export default function BestPumpPressureSprayerCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="Viton-sealed hand-pump tank sprayer (Chapin / Solo)" search="chapin viton pump sprayer 2 gallon" label="Best overall" />
+      <StickyBuyBar tag={AMZ_TAG} name="Viton-sealed hand-pump tank sprayer (Chapin / Solo)" search="chapin viton pump sprayer 2 gallon" label="Best overall" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -119,7 +122,7 @@ export default function BestPumpPressureSprayerCanadaPage() {
 
       <section className="bg-white px-4 py-6">
         <div className="max-w-5xl mx-auto">
-          <AwardRow
+          <AwardRow tag={AMZ_TAG}
             heading="Our Picks — Best Pump Pressure Sprayers in Canada"
             awards={[
               {
@@ -193,28 +196,28 @@ export default function BestPumpPressureSprayerCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Very small</td>
                   <td className="px-4 py-3 text-gray-700">Patios, planters, spot treatments, indoor edges</td>
                   <td className="px-4 py-3 text-gray-700">Constant refilling on any real area</td>
-                  <td className="px-4 py-3"><BuyLink search="handheld pump sprayer 1 litre" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="handheld pump sprayer 1 litre" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">1-gallon tank<br /><span className="font-normal text-xs text-gray-500">Chapin / Solo, ~4 L</span></td>
                   <td className="px-4 py-3 text-gray-700">Small</td>
                   <td className="px-4 py-3 text-gray-700">Small yards, garden beds, easy to carry full</td>
                   <td className="px-4 py-3 text-gray-700">Refills on a mid-size lot</td>
-                  <td className="px-4 py-3"><BuyLink search="chapin 1 gallon viton pump sprayer" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="chapin 1 gallon viton pump sprayer" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">2-gallon tank<br /><span className="font-normal text-xs text-gray-500">Chapin / Solo, ~8 L</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Sweet spot</strong></td>
                   <td className="px-4 py-3 text-gray-700">Typical suburban yard, fence line, perimeter</td>
                   <td className="px-4 py-3 text-gray-700">Heavy by hand once full</td>
-                  <td className="px-4 py-3"><BuyLink search="chapin 2 gallon viton pump sprayer" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="chapin 2 gallon viton pump sprayer" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">4-gallon backpack<br /><span className="font-normal text-xs text-gray-500">lever pump, ~15 L</span></td>
                   <td className="px-4 py-3 text-gray-700">Large</td>
                   <td className="px-4 py-3 text-gray-700">Acreage, long sessions, sustained pressure</td>
                   <td className="px-4 py-3 text-gray-700">Bulk + cost; overkill for a small yard</td>
-                  <td className="px-4 py-3"><BuyLink search="backpack sprayer 4 gallon viton" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="backpack sprayer 4 gallon viton" block>Check price →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -241,10 +244,10 @@ export default function BestPumpPressureSprayerCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the four picks:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="chapin 2 gallon viton pump sprayer">Chapin 2-gallon (Viton) →</BuyLink>
-            <BuyLink search="solo viton pump sprayer">Solo hand-pump →</BuyLink>
-            <BuyLink search="handheld pump sprayer 1 litre">Handheld sprayer →</BuyLink>
-            <BuyLink search="backpack sprayer 4 gallon viton">4-gallon backpack →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="chapin 2 gallon viton pump sprayer">Chapin 2-gallon (Viton) →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="solo viton pump sprayer">Solo hand-pump →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="handheld pump sprayer 1 litre">Handheld sprayer →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="backpack sprayer 4 gallon viton">4-gallon backpack →</BuyLink>
           </div>
 
           <h2>Chapin vs Solo: Two Good Brands, Two Different Buyers</h2>

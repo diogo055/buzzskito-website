@@ -8,6 +8,7 @@ import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'best-steam-cleaner-for-pest-control-canada'
 const DATE = '2026-07-21'
@@ -75,6 +76,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('best-steam-cleaner-for-pest-control-canada')
+
 export default function BestSteamCleanerForPestControlCanadaPage() {
   return (
     <>
@@ -96,7 +99,7 @@ export default function BestSteamCleanerForPestControlCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="Dupray Neat dry-vapour steam cleaner" search="dupray neat steam cleaner" label="Best overall" />
+      <StickyBuyBar tag={AMZ_TAG} name="Dupray Neat dry-vapour steam cleaner" search="dupray neat steam cleaner" label="Best overall" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -119,7 +122,7 @@ export default function BestSteamCleanerForPestControlCanadaPage() {
 
       <section className="bg-white px-4 py-6">
         <div className="max-w-5xl mx-auto">
-          <AwardRow
+          <AwardRow tag={AMZ_TAG}
             heading="Our Picks — Best Steam Cleaners for Pest Control in Canada"
             awards={[
               {
@@ -193,28 +196,28 @@ export default function BestSteamCleanerForPestControlCanadaPage() {
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best</strong> &mdash; hot, ~5% moisture, penetrates</td>
                   <td className="px-4 py-3 text-gray-700">Whole job: mattress seams, upholstery, safe on fabric</td>
                   <td className="px-4 py-3 text-gray-700">Premium price; heat-up wait</td>
-                  <td className="px-4 py-3"><BuyLink search="dupray neat steam cleaner" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="dupray neat steam cleaner" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Continuous-fill<br /><span className="font-normal text-xs text-gray-500">Vapamore MR-100 Primo</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best</strong> &mdash; strong heat, refill without cooling</td>
                   <td className="px-4 py-3 text-gray-700">Long uninterrupted whole-room sessions</td>
                   <td className="px-4 py-3 text-gray-700">Larger and heavier to move</td>
-                  <td className="px-4 py-3"><BuyLink search="vapamore mr-100 primo steam cleaner" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="vapamore mr-100 primo steam cleaner" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Value canister<br /><span className="font-normal text-xs text-gray-500">McCulloch heavy-duty</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Good</strong> &mdash; real boiler heat, slightly wetter</td>
                   <td className="px-4 py-3 text-gray-700">One-off bed-bug or flea job on a budget</td>
                   <td className="px-4 py-3 text-gray-700">Wetter steam; bulkier hose</td>
-                  <td className="px-4 py-3"><BuyLink search="mcculloch heavy duty steam cleaner" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="mcculloch heavy duty steam cleaner" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Handheld / spot<br /><span className="font-normal text-xs text-gray-500">compact portable</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Fair</strong> &mdash; lower sustained heat, cools fast</td>
                   <td className="px-4 py-3 text-gray-700">Touch-ups: a chair, a suitcase seam, a corner</td>
                   <td className="px-4 py-3 text-gray-700">Short runtime; not for whole rooms</td>
-                  <td className="px-4 py-3"><BuyLink search="handheld high pressure steam cleaner" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="handheld high pressure steam cleaner" block>Check price →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -241,10 +244,10 @@ export default function BestSteamCleanerForPestControlCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the four picks:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="dupray neat steam cleaner">Dupray Neat →</BuyLink>
-            <BuyLink search="vapamore mr-100 primo steam cleaner">Vapamore MR-100 Primo →</BuyLink>
-            <BuyLink search="mcculloch heavy duty steam cleaner">McCulloch heavy-duty →</BuyLink>
-            <BuyLink search="handheld high pressure steam cleaner">Handheld spot steamer →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="dupray neat steam cleaner">Dupray Neat →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="vapamore mr-100 primo steam cleaner">Vapamore MR-100 Primo →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="mcculloch heavy duty steam cleaner">McCulloch heavy-duty →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="handheld high pressure steam cleaner">Handheld spot steamer →</BuyLink>
           </div>
 
           <h2>Why Dry Steam Kills Bed Bugs When Chemicals and Vacuums Fall Short</h2>

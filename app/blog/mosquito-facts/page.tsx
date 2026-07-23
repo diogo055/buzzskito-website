@@ -7,6 +7,7 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import TopPick from '@/components/TopPick'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'mosquito-facts'
 const DATE = '2026-07-12'
@@ -80,6 +81,8 @@ export const metadata: Metadata = buildMetadata({
   publishedTime: DATE,
   modifiedTime: UPDATED,
 })
+
+const AMZ_TAG = tagForSlug('mosquito-facts')
 
 export default function MosquitoFactsPage() {
   return (
@@ -185,9 +188,9 @@ export default function MosquitoFactsPage() {
           <h2>Are Mosquitoes Attracted to Light?</h2>
           <p>Only mildly. Mosquitoes react to light, but they are far more powerfully drawn to the signals that mean &ldquo;host nearby&rdquo;: the <strong>carbon dioxide (CO2)</strong> in your breath, radiant body heat, humidity, and skin chemicals such as <strong>lactic acid</strong> and octenol. This is why UV bug zappers are poor mosquito control — they mostly electrocute harmless moths and beetles — while CO2-baited traps and repellents that mask your scent (DEET, picaridin/icaridin, oil of lemon eucalyptus) actually work. It also explains why some people get bitten more than others: it comes down to the chemistry and CO2 you emit, not the porch light.</p>
 
-          <p>A good repellent handles you personally; treating the yard handles the source. If you spend a lot of time outdoors, a picaridin or DEET repellent is the simplest personal defence. <BuyLink search="picaridin mosquito repellent spray">Check mosquito repellents on Amazon.ca →</BuyLink></p>
+          <p>A good repellent handles you personally; treating the yard handles the source. If you spend a lot of time outdoors, a picaridin or DEET repellent is the simplest personal defence. <BuyLink tag={AMZ_TAG} search="picaridin mosquito repellent spray">Check mosquito repellents on Amazon.ca →</BuyLink></p>
 
-          <TopPick
+          <TopPick tag={AMZ_TAG}
             label="Our Top Pick — Personal Repellent"
             name="Picaridin (Icaridin) Mosquito Repellent Spray"
             blurb="Because mosquitoes hunt by CO₂, heat, and skin chemistry rather than light, the reliable personal defence is a repellent that masks those cues. A 20% picaridin spray protects for hours, is odourless and non-greasy, and won't damage plastics or gear the way DEET can — the simplest way to stay bite-free when you're away from a treated yard."

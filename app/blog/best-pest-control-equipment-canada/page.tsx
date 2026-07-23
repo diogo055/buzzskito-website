@@ -8,6 +8,7 @@ import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'best-pest-control-equipment-canada'
 const DATE = '2026-07-21'
@@ -75,6 +76,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('best-pest-control-equipment-canada')
+
 export default function BestPestControlEquipmentCanadaPage() {
   return (
     <>
@@ -96,7 +99,7 @@ export default function BestPestControlEquipmentCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="Battery backpack sprayer (the DIY workhorse)" search="battery backpack sprayer" label="Start here" />
+      <StickyBuyBar tag={AMZ_TAG} name="Battery backpack sprayer (the DIY workhorse)" search="battery backpack sprayer" label="Start here" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -119,7 +122,7 @@ export default function BestPestControlEquipmentCanadaPage() {
 
       <section className="bg-white px-4 py-6">
         <div className="max-w-5xl mx-auto">
-          <AwardRow
+          <AwardRow tag={AMZ_TAG}
             heading="The Core Categories — Which Pest Control Equipment You Actually Need"
             awards={[
               {
@@ -191,43 +194,43 @@ export default function BestPestControlEquipmentCanadaPage() {
                   <td className="px-4 py-3 font-bold text-brand-800">Backpack sprayer<br /><span className="font-normal text-xs text-gray-500">battery / manual</span></td>
                   <td className="px-4 py-3 text-gray-700">Applies liquid product evenly over surfaces at steady pressure</td>
                   <td className="px-4 py-3 text-gray-700">Yards, perimeters, foliage — routine treatment</td>
-                  <td className="px-4 py-3"><BuyLink search="battery backpack sprayer" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="battery backpack sprayer" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Thermal fogger<br /><span className="font-normal text-xs text-gray-500">outdoor</span></td>
                   <td className="px-4 py-3 text-gray-700">Heats liquid into a dense, drifting fog that penetrates deep</td>
                   <td className="px-4 py-3 text-gray-700">Outdoor mosquitoes, dense shrubs, voids</td>
-                  <td className="px-4 py-3"><BuyLink search="thermal fogger pest control" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="thermal fogger pest control" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">ULV cold fogger<br /><span className="font-normal text-xs text-gray-500">indoor / outdoor</span></td>
                   <td className="px-4 py-3 text-gray-700">Air-shears liquid into an adjustable droplet — no heat</td>
                   <td className="px-4 py-3 text-gray-700">Indoor control, water-based & disinfectant solutions</td>
-                  <td className="px-4 py-3"><BuyLink search="ulv cold fogger" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="ulv cold fogger" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Bed-bug heat chamber<br /><span className="font-normal text-xs text-gray-500">heat</span></td>
                   <td className="px-4 py-3 text-gray-700">Holds a sustained lethal temperature to bake items through</td>
                   <td className="px-4 py-3 text-gray-700">Luggage, bedding, belongings — bed bugs</td>
-                  <td className="px-4 py-3"><BuyLink search="bed bug heat chamber" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bed bug heat chamber" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Steam cleaner<br /><span className="font-normal text-xs text-gray-500">heat</span></td>
                   <td className="px-4 py-3 text-gray-700">Drives dry killing heat into seams and harbourage</td>
                   <td className="px-4 py-3 text-gray-700">Bed-bug seams, mattresses, baseboards</td>
-                  <td className="px-4 py-3"><BuyLink search="commercial steam cleaner pest control" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="commercial steam cleaner pest control" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Sealed-HEPA purifier<br /><span className="font-normal text-xs text-gray-500">air quality</span></td>
                   <td className="px-4 py-3 text-gray-700">Filters allergen, mould spores, and smoke from the air</td>
                   <td className="px-4 py-3 text-gray-700">Dust mites, mould, wildfire smoke</td>
-                  <td className="px-4 py-3"><BuyLink search="sealed hepa air purifier" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="sealed hepa air purifier" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Dehumidifier<br /><span className="font-normal text-xs text-gray-500">air quality</span></td>
                   <td className="px-4 py-3 text-gray-700">Removes the moisture pests and mould depend on</td>
                   <td className="px-4 py-3 text-gray-700">Basements, crawlspaces — prevention</td>
-                  <td className="px-4 py-3"><BuyLink search="basement dehumidifier" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="basement dehumidifier" block>Check price →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -254,10 +257,10 @@ export default function BestPestControlEquipmentCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Jump straight to a category&rsquo;s current Canadian availability:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="battery backpack sprayer">Backpack sprayer →</BuyLink>
-            <BuyLink search="ulv cold fogger">ULV fogger →</BuyLink>
-            <BuyLink search="bed bug heat chamber">Heat chamber →</BuyLink>
-            <BuyLink search="sealed hepa air purifier">Air purifier →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="battery backpack sprayer">Backpack sprayer →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="ulv cold fogger">ULV fogger →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="bed bug heat chamber">Heat chamber →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="sealed hepa air purifier">Air purifier →</BuyLink>
           </div>
 
           <h2>Sprayers: The Workhorse Every Program Starts With</h2>

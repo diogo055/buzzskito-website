@@ -8,6 +8,7 @@ import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'thermalstrike-ranger-review-canada'
 const DATE = '2026-07-21'
@@ -75,6 +76,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('thermalstrike-ranger-review-canada')
+
 export default function ThermalStrikeRangerReviewCanadaPage() {
   return (
     <>
@@ -96,7 +99,7 @@ export default function ThermalStrikeRangerReviewCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="ThermalStrike Ranger heated bed bug suitcase" search="thermalstrike ranger heated suitcase bed bug" label="Our verdict: 8.2/10" />
+      <StickyBuyBar tag={AMZ_TAG} name="ThermalStrike Ranger heated bed bug suitcase" search="thermalstrike ranger heated suitcase bed bug" label="Our verdict: 8.2/10" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -119,7 +122,7 @@ export default function ThermalStrikeRangerReviewCanadaPage() {
 
       <section className="bg-white px-4 py-2">
         <div className="max-w-4xl mx-auto">
-          <TopPick
+          <TopPick tag={AMZ_TAG}
             label="Our Verdict"
             name="ThermalStrike Ranger — heated bed bug suitcase"
             blurb="A hard-shell rolling suitcase with a heating element engineered into its walls. You travel with it like any carry-on, then plug it in when you get home and let the sealed interior climb past the temperature at which bed bug adults, nymphs, and eggs all die — sterilizing the belongings in the exact bag they rode home in, before you ever unzip it in your bedroom. The appeal is that prevention becomes a no-setup habit rather than a chore, which is exactly what keeps frequent travellers consistent. Priced well below what a single bed bug introduction costs to eradicate."
@@ -156,21 +159,21 @@ export default function ThermalStrikeRangerReviewCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Heater built into a hard-shell suitcase; plug in and treat the bag&rsquo;s own contents</td>
                   <td className="px-4 py-3 text-gray-700">Frequent travellers who want zero-setup prevention</td>
                   <td className="px-4 py-3 text-xs text-gray-600"><strong className="text-emerald-700">Best travel fit</strong> — treats belongings in the bag they arrived in; single-suitcase capacity</td>
-                  <td className="px-4 py-3"><BuyLink search="thermalstrike ranger heated suitcase bed bug" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="thermalstrike ranger heated suitcase bed bug" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Standalone heat chamber<br /><span className="font-normal text-xs text-gray-500">ZappBug Heater, PackTite</span></td>
                   <td className="px-4 py-3 text-gray-700">Pop-up box you unpack belongings into and heat separately</td>
                   <td className="px-4 py-3 text-gray-700">Home remediation across many belongings, not just luggage</td>
                   <td className="px-4 py-3 text-xs text-gray-600"><strong className="text-emerald-700">Best capacity</strong> — bedding, coats, books, multiple bags; needs setup and floor space</td>
-                  <td className="px-4 py-3"><BuyLink search="zappbug heater bed bug" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="zappbug heater bed bug" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Fold-out luggage heater bag<br /><span className="font-normal text-xs text-gray-500">heated liner / soft bag</span></td>
                   <td className="px-4 py-3 text-gray-700">A soft heated envelope you place your ordinary suitcase inside</td>
                   <td className="px-4 py-3 text-gray-700">Keeping a suitcase you already like and adding heat</td>
                   <td className="px-4 py-3 text-xs text-gray-600"><strong className="text-amber-700">Flexible</strong> — packs flat, but an extra step vs a self-heating bag</td>
-                  <td className="px-4 py-3"><BuyLink search="bed bug luggage heater bag" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bed bug luggage heater bag" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Freezing<br /><span className="font-normal text-xs text-gray-500">home freezer</span></td>
@@ -236,8 +239,8 @@ export default function ThermalStrikeRangerReviewCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="thermalstrike ranger heated suitcase bed bug">ThermalStrike Ranger on Amazon.ca →</BuyLink>
-            <BuyLink search="zappbug heater bed bug">ZappBug Heater (chamber alternative) →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="thermalstrike ranger heated suitcase bed bug">ThermalStrike Ranger on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="zappbug heater bed bug">ZappBug Heater (chamber alternative) →</BuyLink>
           </div>
 
           <h2>The Science: Why Heat Beats Bed Bugs When Chemicals Struggle</h2>
@@ -260,7 +263,7 @@ export default function ThermalStrikeRangerReviewCanadaPage() {
           <p>Two categories cause the most hesitation, and both deserve a clear rule. Electronics first: most consumer devices carry manufacturer <em>storage</em> temperature ratings of 60°C or higher &mdash; comfortably above the interior temperature a bed bug cycle reaches. A powered-off phone, laptop, tablet, or e-reader generally comes through a cycle unharmed, and treating electronics matters because their warm, dark seams are a classic bed bug harbourage. The rules: device off, check the manufacturer&rsquo;s storage spec first for anything valuable, and never run a cycle with a device powered on.</p>
           <p>The hard exclusion list covers everything pressurized, flammable, or heat-deformable: aerosol cans, lighters, and spare lithium batteries outside a device (pressure and fire risk); medications, which frequently degrade above room temperature; cosmetics, lip balms, and chocolate that melt; and film, wax, or delicate finishes that warp. Pull those items out before you run a cycle and treat them another way &mdash; sealed-bag isolation for delicate valuables, or simply buying replacements for cheap consumables. When in doubt, leave it out.</p>
           <div className="not-prose my-4">
-            <BuyLink search="thermalstrike ranger heated suitcase bed bug">Check ThermalStrike Ranger on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="thermalstrike ranger heated suitcase bed bug">Check ThermalStrike Ranger on Amazon.ca →</BuyLink>
           </div>
 
           <h2>How to Use the Ranger Correctly After a Trip</h2>

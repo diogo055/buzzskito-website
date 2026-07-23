@@ -6,6 +6,7 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'what-does-tick-look-like-on-dog'
 const DATE = '2026-04-26'
@@ -54,6 +55,8 @@ export const metadata: Metadata = buildMetadata({
   type: 'article',
   publishedTime: DATE,
 })
+
+const AMZ_TAG = tagForSlug('what-does-tick-look-like-on-dog')
 
 export default function WhatDoesTickLookLikeOnDogPage() {
   return (
@@ -162,7 +165,7 @@ export default function WhatDoesTickLookLikeOnDogPage() {
           <h2>What to Do When You Find One</h2>
           <p>Don&rsquo;t panic. The single most useful thing to have on hand is a proper <strong>fine-tipped tick removal tool or pointed tweezers</strong> — a dedicated tick hook or pointed tick tweezers grips the tick right at the skin so you can pull straight up without squeezing the body or leaving the mouthparts behind. A regular flat-tipped tweezer tends to crush the tick, which can push infected fluid back into your dog. Keep one in the house and one in your dog-walk bag.</p>
           <AffiliateDisclosure />
-          <TopPick
+          <TopPick tag={AMZ_TAG}
             label="Our Top Pick for Removal"
             name="Fine-Tipped Tick Removal Tool / Pointed Tweezers"
             blurb="A dedicated tick hook or pointed tick tweezers grips the tick right at the skin so you can pull straight up — the safest way to lift out an embedded tick without crushing the body or leaving the mouthparts behind. Cheap enough to keep one in the house and one in the dog-walk bag."

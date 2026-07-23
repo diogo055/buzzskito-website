@@ -9,6 +9,7 @@ import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { TICK_BLOGS, CITIES } from '@/lib/constants'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const POST = TICK_BLOGS.pillar
 
@@ -27,6 +28,8 @@ const FAQS = [
   { question: 'How do I know if I have ticks in my yard?', answer: 'The easiest method is a drag cloth test: attach white flannel to a stick and drag it slowly through lawn edges, along fences, and through garden beds. Ticks will cling to the cloth. You can also walk slowly through suspect areas wearing white socks and watch for small dark specks. Alternatively, have BuzzSkito assess your property as part of a free quote.' },
   { question: 'What time of year are ticks most dangerous in Ontario?', answer: 'The blacklegged tick has two peak activity periods in Ontario: spring nymph season (May–June), when tiny nymphs are hardest to spot and transmit Lyme disease most frequently, and fall adult season (September–October). Adult ticks can also be active on warm winter days. See our full seasonal guide.' },
 ]
+
+const AMZ_TAG = tagForSlug('ultimate-tick-control-guide-ontario')
 
 export default function TickPillarPage() {
   return (
@@ -152,7 +155,7 @@ export default function TickPillarPage() {
           <li>Control deer access to your property — deer carry adult ticks onto your land</li>
         </ul>
 
-        <p>Beyond habitat work, treating the clothing and gear you wear in high-risk zones adds a personal layer of protection. Permethrin is a repellent you apply to fabric — not skin — that kills ticks on contact and survives several washes. A pre-mixed spray is the simplest way to treat boots, socks, and pant legs before yard work: <BuyLink search="sawyer permethrin clothing spray">Check price on Amazon.ca →</BuyLink></p>
+        <p>Beyond habitat work, treating the clothing and gear you wear in high-risk zones adds a personal layer of protection. Permethrin is a repellent you apply to fabric — not skin — that kills ticks on contact and survives several washes. A pre-mixed spray is the simplest way to treat boots, socks, and pant legs before yard work: <BuyLink tag={AMZ_TAG} search="sawyer permethrin clothing spray">Check price on Amazon.ca →</BuyLink></p>
         <p>For the full breakdown, see our guides to <Link href="/blog/permethrin-canada-yard-clothing-spray" className="text-brand-700 underline hover:text-brand-500">permethrin for yard &amp; clothing in Canada</Link> and the <Link href="/blog/best-tick-repellent-yard-canada" className="text-brand-700 underline hover:text-brand-500">best tick repellents for your yard</Link>.</p>
 
         <h2>Tick Control Product Stack: What Works and What Doesn&apos;t</h2>
@@ -161,7 +164,7 @@ export default function TickPillarPage() {
         <h3>Worth Your Money</h3>
         <ul>
           <li><strong>Permethrin-treated clothing:</strong> The single best personal-protection step for anyone working in Zone 1 or Zone 2. It kills ticks on contact with the fabric and survives multiple washes.</li>
-          <li><strong>Tick tubes:</strong> Biodegradable tubes filled with permethrin-treated cotton that mice carry back to their nests, killing larval ticks at the source. Slow-acting — expect results over a full season, not overnight — but genuinely effective at breaking the Lyme cycle around woodpiles, sheds, and stone walls. Thermacell Tick Control Tubes are the widely available option in Canada: <BuyLink search="thermacell tick control tubes 12 pack">Check price on Amazon.ca →</BuyLink></li>
+          <li><strong>Tick tubes:</strong> Biodegradable tubes filled with permethrin-treated cotton that mice carry back to their nests, killing larval ticks at the source. Slow-acting — expect results over a full season, not overnight — but genuinely effective at breaking the Lyme cycle around woodpiles, sheds, and stone walls. Thermacell Tick Control Tubes are the widely available option in Canada: <BuyLink tag={AMZ_TAG} search="thermacell tick control tubes 12 pack">Check price on Amazon.ca →</BuyLink></li>
           <li><strong>Icaridin (picaridin) or DEET on skin:</strong> Health Canada–approved and proven against ticks, not just mosquitoes. Apply to ankles and lower legs before yard work.</li>
           <li><strong>A proper tick removal tool:</strong> Cheap insurance in the first-aid kit. Clean removal within 24–36 hours of attachment dramatically reduces Lyme transmission risk.</li>
           <li><strong>Professional residual barrier spray:</strong> The backbone of the plan — 5 targeted treatments across the season keep Zones 1 and 2 hostile to ticks from spring nymph season through fall adult season.</li>
@@ -196,9 +199,9 @@ export default function TickPillarPage() {
 
         <h2>What to Do If You Find a Tick</h2>
         <p>If you find a tick attached to your skin, remove it promptly with fine-tipped tweezers. See our complete guide: <Link href="/blog/how-to-remove-tick-safely" className="text-brand-700 underline hover:text-brand-500">How to Remove a Tick Safely</Link></p>
-        <p>A dedicated removal tool kept in your first-aid kit makes clean, complete removal easier than makeshift tweezers — it grips close to the skin and lifts the whole tick out without squeezing: <BuyLink search="tick removal tool tweezers">Check price on Amazon.ca →</BuyLink> We compare the options in our <Link href="/blog/tick-removal-tool-guide" className="text-brand-700 underline hover:text-brand-500">tick removal tool guide</Link>.</p>
+        <p>A dedicated removal tool kept in your first-aid kit makes clean, complete removal easier than makeshift tweezers — it grips close to the skin and lifts the whole tick out without squeezing: <BuyLink tag={AMZ_TAG} search="tick removal tool tweezers">Check price on Amazon.ca →</BuyLink> We compare the options in our <Link href="/blog/tick-removal-tool-guide" className="text-brand-700 underline hover:text-brand-500">tick removal tool guide</Link>.</p>
 
-        <TopPick
+        <TopPick tag={AMZ_TAG}
           label="Our Top Pick — Tick Removal Tool"
           name="Fine-Tip Tick Removal Tool Set"
           blurb="The one product every Ontario household with a yard should own. A dedicated remover grips the tick right at the skin and lifts the whole body out in one motion — no squeezing, no leftover mouthparts, no folk remedies. Keep one in the first-aid kit and one in the car for after-hike checks."

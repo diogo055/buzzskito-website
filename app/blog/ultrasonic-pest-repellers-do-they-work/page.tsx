@@ -7,6 +7,7 @@ import SpecialistDisclosure from '@/components/SpecialistDisclosure'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'ultrasonic-pest-repellers-do-they-work'
 const DATE = '2026-07-16'
@@ -63,6 +64,8 @@ export const metadata: Metadata = buildMetadata({
   type: 'article',
   publishedTime: DATE,
 })
+
+const AMZ_TAG = tagForSlug('ultrasonic-pest-repellers-do-they-work')
 
 export default function UltrasonicPestRepellersPage() {
   return (
@@ -151,7 +154,7 @@ export default function UltrasonicPestRepellersPage() {
           <h2>What Actually Works Instead?</h2>
           <p>Trapping plus exclusion — the two methods with measurable outcomes. For a mouse problem, that means 6–12 snap traps placed every 2–3 metres along walls with the trigger touching the baseboard (our <Link href="/blog/best-mouse-trap-canada">best mouse trap guide</Link> covers models and placement science), then sealing every entry gap of 6 mm or more. If you want no-see, no-touch disposal, an electronic trap kills in under 5 seconds and handles up to 100 kills per set of batteries — we tested the category leader in our <Link href="/blog/victor-electronic-mouse-trap-review-canada">Victor electronic mouse trap review</Link>.</p>
           <AffiliateDisclosure />
-          <TopPick
+          <TopPick tag={AMZ_TAG}
             label="What To Buy Instead"
             name="Victor M250S Electronic Mouse Trap"
             blurb="The no-touch alternative to a plug-in that never worked: it delivers a high-voltage kill in under five seconds, signals each catch with an indicator light, and handles up to about 100 kills per set of batteries. A measurable outcome — a body count — is exactly what ultrasound never gives you."
@@ -161,7 +164,7 @@ export default function UltrasonicPestRepellersPage() {
             cons={['Mouse-sized rodents only (not rats)', 'Needs fresh batteries to stay lethal']}
           />
           <div className="not-prose my-4">
-            <BuyLink search="victor electronic mouse trap">Check the Victor electronic trap on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="victor electronic mouse trap">Check the Victor electronic trap on Amazon.ca →</BuyLink>
           </div>
           <p>Scale the same logic to your actual pest: rats need rat-rated hardware (see the <Link href="/blog/best-rat-trap-canada">best rat trap guide</Link> — mouse traps physically cannot kill rats), persistent exterior pressure can justify a PMRA-registered tamper-resistant station (covered in the <Link href="/blog/mouse-bait-station-canada">mouse bait station guide</Link>, with the legal landscape in <Link href="/blog/rat-poison-canada-what-is-legal">what rat poison is legal in Canada</Link>), and the full playbooks live in <Link href="/blog/how-to-get-rid-of-mice-canada">how to get rid of mice in Canada</Link> and <Link href="/blog/how-to-keep-mice-out-of-your-house-winter">keeping mice out over winter</Link>. If the problem outgrows DIY, our <Link href="/pest-control-cost-canada">Canadian pest control cost guide</Link> shows what professional rodent work runs.</p>
 

@@ -7,6 +7,7 @@ import SpecialistDisclosure from '@/components/SpecialistDisclosure'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'do-bed-bug-sprays-actually-work'
 const DATE = '2026-07-16'
@@ -71,6 +72,8 @@ export const metadata: Metadata = buildMetadata({
   type: 'article',
   publishedTime: DATE,
 })
+
+const AMZ_TAG = tagForSlug('do-bed-bug-sprays-actually-work')
 
 export default function DoBedBugSpraysActuallyWorkPage() {
   return (
@@ -143,13 +146,13 @@ export default function DoBedBugSpraysActuallyWorkPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Compare the mechanical stack that carries real bed bug control on Amazon.ca:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="bed bug steamer">Bed bug steamer →</BuyLink>
-            <BuyLink search="bed bug mattress encasement">Mattress encasement →</BuyLink>
-            <BuyLink search="bed bug interceptor traps">Interceptor traps →</BuyLink>
-            <BuyLink search="diatomaceous earth bed bugs">Diatomaceous earth →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="bed bug steamer">Bed bug steamer →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="bed bug mattress encasement">Mattress encasement →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="bed bug interceptor traps">Interceptor traps →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="diatomaceous earth bed bugs">Diatomaceous earth →</BuyLink>
           </div>
 
-          <TopPick
+          <TopPick tag={AMZ_TAG}
             label="Backbone of the Stack"
             name="Bed Bug Steamer (dry-vapour, high-output)"
             blurb="If you buy one thing, buy heat. A dry-vapour steamer drives lethal temperature straight into the seams, tufts, and crevices where bugs and eggs actually hide — the exact places sprays fail, and something no bed bug can evolve resistance to."

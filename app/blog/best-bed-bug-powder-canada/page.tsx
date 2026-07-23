@@ -8,6 +8,7 @@ import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'best-bed-bug-powder-canada'
 const DATE = '2026-07-21'
@@ -75,6 +76,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('best-bed-bug-powder-canada')
+
 export default function BestBedBugPowderCanadaPage() {
   return (
     <>
@@ -96,7 +99,7 @@ export default function BestBedBugPowderCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="CimeXa silica gel insecticide dust" search="cimexa insecticide dust" label="Best overall powder" />
+      <StickyBuyBar tag={AMZ_TAG} name="CimeXa silica gel insecticide dust" search="cimexa insecticide dust" label="Best overall powder" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -119,7 +122,7 @@ export default function BestBedBugPowderCanadaPage() {
 
       <section className="bg-white px-4 py-6">
         <div className="max-w-5xl mx-auto">
-          <AwardRow
+          <AwardRow tag={AMZ_TAG}
             heading="Our Picks — Best Bed Bug Powders in Canada"
             awards={[
               {
@@ -193,28 +196,28 @@ export default function BestBedBugPowderCanadaPage() {
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best</strong> &mdash; faster kill, very light rate</td>
                   <td className="px-4 py-3 text-gray-700">Long residual in dry cracks &amp; voids</td>
                   <td className="px-4 py-3 text-gray-700">Buy the Canadian-market version</td>
-                  <td className="px-4 py-3"><BuyLink search="cimexa insecticide dust" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="cimexa insecticide dust" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Diatomaceous earth<br /><span className="font-normal text-xs text-gray-500">Doktor Doom, food-grade</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Good</strong> &mdash; slower, heavier film</td>
                   <td className="px-4 py-3 text-gray-700">Cheap, gentle, easy to find</td>
                   <td className="px-4 py-3 text-gray-700">Food-grade only; wear a mask</td>
-                  <td className="px-4 py-3"><BuyLink search="doktor doom diatomaceous earth" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="doktor doom diatomaceous earth" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Bulk food-grade DE<br /><span className="font-normal text-xs text-gray-500">value</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Good</strong> &mdash; slowest, most volume</td>
                   <td className="px-4 py-3 text-gray-700">Whole-home coverage on a budget</td>
                   <td className="px-4 py-3 text-gray-700">Never pool-grade (crystalline silica)</td>
-                  <td className="px-4 py-3"><BuyLink search="food grade diatomaceous earth bulk" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="food grade diatomaceous earth bulk" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Bulb hand-duster<br /><span className="font-normal text-xs text-gray-500">applicator</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Essential</strong> &mdash; meters the film</td>
                   <td className="px-4 py-3 text-gray-700">Fine, even dusting into cracks/voids</td>
                   <td className="px-4 py-3 text-gray-700">Takes practice not to over-puff</td>
-                  <td className="px-4 py-3"><BuyLink search="bulb hand duster pest control" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bulb hand duster pest control" block>Check price →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -241,9 +244,9 @@ export default function BestBedBugPowderCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the powders and the applicator:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="cimexa insecticide dust">Silica gel dust →</BuyLink>
-            <BuyLink search="doktor doom diatomaceous earth">Diatomaceous earth →</BuyLink>
-            <BuyLink search="bulb hand duster pest control">Bulb duster →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="cimexa insecticide dust">Silica gel dust →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="doktor doom diatomaceous earth">Diatomaceous earth →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="bulb hand duster pest control">Bulb duster →</BuyLink>
           </div>
 
           <h2>How Desiccant Dusts Actually Kill Bed Bugs</h2>

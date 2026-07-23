@@ -7,6 +7,7 @@ import SpecialistDisclosure from '@/components/SpecialistDisclosure'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'flea-bites-on-humans'
 const DATE = '2026-07-19'
@@ -64,6 +65,8 @@ export const metadata: Metadata = buildMetadata({
   type: 'article',
   publishedTime: DATE,
 })
+
+const AMZ_TAG = tagForSlug('flea-bites-on-humans')
 
 export default function FleaBitesOnHumansPage() {
   return (
@@ -188,7 +191,7 @@ export default function FleaBitesOnHumansPage() {
         <h2>How do you get rid of fleas at home?</h2>
         <p>Successful flea control attacks <strong>every life stage at once, for several weeks</strong>. Adult fleas are only about 5% of an infestation; the other ~95% are eggs, larvae, and pupae distributed through carpets, floor cracks, and pet resting areas. Kill only the adults and the pipeline keeps producing. The plan below covers the environment side; anything applied <em>to the animal</em> &mdash; spot-on treatments, oral flea medication, medicated shampoos &mdash; should be chosen with your <strong>veterinarian</strong>, since the safe options differ by species, age, and weight, and some dog products contain ingredients dangerous to cats.</p>
         <AffiliateDisclosure />
-        <TopPick
+        <TopPick tag={AMZ_TAG}
           label="Most Useful Product for Fleas"
           name="Plug-in light flea trap"
           blurb="The single easiest way to confirm an infestation and track your progress. A plug-in trap lures adult fleas with light and warmth onto a sticky pad, so falling nightly counts tell you the vacuuming and washing campaign is working. It kills adults only — pair it with vacuuming, hot-water washing, and vet-directed pet treatment, since the trap cannot reach the eggs, larvae, and pupae that make up most of the population."
@@ -201,10 +204,10 @@ export default function FleaBitesOnHumansPage() {
           <li><strong>Vacuum daily &mdash; and aggressively.</strong> Carpets, rugs, baseboards, under furniture, upholstery, and the car if pets ride in it. One university study found vacuuming killed about <strong>96% of adult fleas and virtually all eggs and larvae</strong>. Just as important, vacuum vibration triggers dormant pupae to hatch into the open where they can be killed. Empty the canister or bag into an outdoor bin every time.</li>
           <li><strong>Wash everything washable in hot water.</strong> Pet bedding, human bedding, throw blankets, and cushion covers at <strong>60&deg;C (140&deg;F)</strong>, then dry on high heat. Health Canada recommends frequent vacuuming and hot-water washing of pet bedding as the backbone of non-chemical flea control.</li>
           <li><strong>Run plug-in flea traps.</strong> A light-and-warmth trap with a sticky pad kills adult fleas overnight and doubles as your progress meter &mdash; falling counts week over week mean the campaign is working. Place one per affected room, at floor level, away from competing light.
-            <div className="my-3"><BuyLink search="flea trap plug in">Check plug-in flea traps on Amazon &rarr;</BuyLink></div>
+            <div className="my-3"><BuyLink tag={AMZ_TAG} search="flea trap plug in">Check plug-in flea traps on Amazon &rarr;</BuyLink></div>
           </li>
           <li><strong>Consider a home flea spray for cracks and pet zones.</strong> A household flea spray with an insect growth regulator (IGR) interrupts the egg-to-adult pipeline in carpets and baseboards. Choose a product registered for indoor domestic use in your jurisdiction, follow the label exactly &mdash; especially re-entry times and keeping cats off treated surfaces until dry &mdash; and treat it as a supplement to vacuuming, never a replacement.
-            <div className="my-3"><BuyLink search="flea spray for home">Check home flea sprays on Amazon &rarr;</BuyLink></div>
+            <div className="my-3"><BuyLink tag={AMZ_TAG} search="flea spray for home">Check home flea sprays on Amazon &rarr;</BuyLink></div>
           </li>
           <li><strong>Steam-clean carpets if you can.</strong> Heat and moisture kill larvae and flush pupae; it is the strongest non-chemical option for heavily infested rooms.</li>
           <li><strong>Treat the pet &mdash; through your vet.</strong> An untreated animal re-seeds the home continuously. Your veterinarian will match a flea product to the species, age, and weight of each animal; never apply a dog product to a cat.</li>

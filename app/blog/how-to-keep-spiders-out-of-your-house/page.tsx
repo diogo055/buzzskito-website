@@ -8,6 +8,7 @@ import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'how-to-keep-spiders-out-of-your-house'
 const DATE = '2026-07-21'
@@ -75,6 +76,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('how-to-keep-spiders-out-of-your-house')
+
 export default function HowToKeepSpidersOutPage() {
   return (
     <>
@@ -96,7 +99,7 @@ export default function HowToKeepSpidersOutPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="Spider & insect glue traps (baseboard monitoring)" search="spider insect glue traps" label="Monitoring pick" />
+      <StickyBuyBar tag={AMZ_TAG} name="Spider & insect glue traps (baseboard monitoring)" search="spider insect glue traps" label="Monitoring pick" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -119,7 +122,7 @@ export default function HowToKeepSpidersOutPage() {
 
       <section className="bg-white px-4 py-6">
         <div className="max-w-5xl mx-auto">
-          <AwardRow
+          <AwardRow tag={AMZ_TAG}
             heading="Our Picks — Best Tools for Keeping Spiders Out"
             awards={[
               {
@@ -231,13 +234,13 @@ export default function HowToKeepSpidersOutPage() {
                   <td className="px-4 py-3 font-bold text-brand-800">Sealing entry points</td>
                   <td className="px-4 py-3 text-gray-700">Door sweeps, weatherstripping, caulk, and screen repair physically close the routes in</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Strong</strong> — the only permanent fix</td>
-                  <td className="px-4 py-3"><BuyLink search="exterior door sweep weatherstripping" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="exterior door sweep weatherstripping" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Sticky traps</td>
                   <td className="px-4 py-3 text-gray-700">Glue boards along baseboards intercept wandering males and map room-by-room activity</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Strong</strong> — for interception &amp; monitoring</td>
-                  <td className="px-4 py-3"><BuyLink search="spider insect glue traps" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="spider insect glue traps" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Vacuum + egg-sac removal</td>
@@ -249,7 +252,7 @@ export default function HowToKeepSpidersOutPage() {
                   <td className="px-4 py-3 font-bold text-brand-800">PMRA perimeter spray</td>
                   <td className="px-4 py-3 text-gray-700">Residual barrier at door frames, foundation gaps, window wells; works for weeks</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Good</strong> — as a supplement to sealing</td>
-                  <td className="px-4 py-3"><BuyLink search="doktor doom residual insecticide spray" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="doktor doom residual insecticide spray" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Peppermint oil</td>
@@ -270,9 +273,9 @@ export default function HowToKeepSpidersOutPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current availability of the three tools that do the heavy lifting:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="spider insect glue traps">Spider glue traps →</BuyLink>
-            <BuyLink search="exterior door sweep weatherstripping">Door sweep kit →</BuyLink>
-            <BuyLink search="doktor doom residual insecticide spray">Doktor Doom spray →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="spider insect glue traps">Spider glue traps →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="exterior door sweep weatherstripping">Door sweep kit →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="doktor doom residual insecticide spray">Doktor Doom spray →</BuyLink>
           </div>
 
           <h2>Step 1: Seal the Entry Points (The Only Permanent Fix)</h2>
@@ -295,7 +298,7 @@ export default function HowToKeepSpidersOutPage() {
           </ul>
           <p>Empty the canister or bag into an outdoor bin. And if the spider is large, magnificent, and you would rather it lived — this is what the long-handled spider catcher in our picks is for. Catch it at arm&rsquo;s length, walk it outside, release. Children find the demonstration formative; the spider is indifferent but alive.</p>
           <div className="not-prose my-4">
-            <BuyLink search="spider catcher long handle humane">Check spider catcher availability →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="spider catcher long handle humane">Check spider catcher availability →</BuyLink>
           </div>
 
           <h2>Step 3: Sticky Traps — Your Monitoring System</h2>
@@ -303,7 +306,7 @@ export default function HowToKeepSpidersOutPage() {
           <p>Read them like instruments. The trap in the furnace room that fills while the bedroom trap stays empty just told you where the activity is. Traps that catch heavily in week one and taper to nothing by week four are documenting your success. And the bycatch is diagnostic too: a trap full of sowbugs and springtails is a moisture report on your basement, and a trap full of prey insects explains precisely why spiders find your house hospitable — which brings us to the food supply.</p>
           <p>Expectations, honestly stated: web-building females rarely leave their webs, so glue boards will not eliminate an established population alone. They intercept, they inform, and they cost little enough to deploy a dozen. Pair them with sealing and vacuuming, and they close the loop on whether the plan is working.</p>
           <div className="not-prose my-4">
-            <BuyLink search="spider insect glue traps">Check spider glue trap multi-packs →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="spider insect glue traps">Check spider glue trap multi-packs →</BuyLink>
           </div>
 
           <h2>Step 4 (Optional): A PMRA-Registered Perimeter Spray — and the Grey-Market Trap</h2>
@@ -311,7 +314,7 @@ export default function HowToKeepSpidersOutPage() {
           <p>Here is where Canadian buyers need to slow down, because the internet&rsquo;s spider-spray advice is written almost entirely for Americans. In Canada, domestic pesticides must be registered with Health Canada&rsquo;s PMRA and carry a registration number on the label. The widely stocked, Canadian-registered options for this job are <strong>Doktor Doom</strong> residual sprays and <strong>Konk OnGuard</strong> — both formulated and labelled for exactly this kind of perimeter and crack-and-crevice use in and around homes. That label is not bureaucratic decoration: it is the tested guidance on where the product may be applied, in what amounts, and with what re-entry precautions.</p>
           <p>The product American blogs will push at you — <strong>Miss Muffet&rsquo;s Revenge</strong>, a long-standing US spider-spray staple — is <strong>not PMRA-registered for sale in Canada</strong>. The same applies to various US-market Terro and Ortho spider formulations that differ from their Canadian counterparts. Importing unregistered pesticides is not a clever workaround; it is buying a product whose Canadian legal status, labelling, and formulation review simply do not exist. With registered alternatives on the shelf at Canadian retailers, there is no reason to go grey-market. Whatever you buy, read the label twice and follow it exactly — including keeping treated surfaces away from children and pets until dry.</p>
           <div className="not-prose my-4">
-            <BuyLink search="doktor doom residual insecticide spray">Check Doktor Doom residual spray →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="doktor doom residual insecticide spray">Check Doktor Doom residual spray →</BuyLink>
           </div>
 
           <h2>The Peppermint Oil Question, Answered Honestly</h2>

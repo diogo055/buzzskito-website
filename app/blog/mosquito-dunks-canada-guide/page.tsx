@@ -10,6 +10,7 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'mosquito-dunks-canada-guide'
 const DATE = '2026-04-28'
@@ -83,6 +84,8 @@ export const metadata: Metadata = buildMetadata({
   publishedTime: DATE,
 })
 
+const AMZ_TAG = tagForSlug('mosquito-dunks-canada-guide')
+
 export default function MosquitoDunksPage() {
   return (
     <>
@@ -104,7 +107,7 @@ export default function MosquitoDunksPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="Summit Mosquito Dunks (6-pack)" search="summit mosquito dunks" label="Best for standing water" />
+      <StickyBuyBar tag={AMZ_TAG} name="Summit Mosquito Dunks (6-pack)" search="summit mosquito dunks" label="Best for standing water" />
 
       <div className="max-w-4xl mx-auto px-4 -mt-6 sm:-mt-8 relative z-10">
         <BlogPostCTA />
@@ -167,8 +170,8 @@ export default function MosquitoDunksPage() {
             </table>
           </div>
           <div className="mt-4 flex flex-wrap items-center gap-3">
-            <BuyLink search="summit mosquito dunks">Check Mosquito Dunks price on Amazon.ca →</BuyLink>
-            <BuyLink search="summit mosquito bits">Check Mosquito Bits (faster-acting) →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="summit mosquito dunks">Check Mosquito Dunks price on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="summit mosquito bits">Check Mosquito Bits (faster-acting) →</BuyLink>
           </div>
           <p className="text-xs text-gray-500 mt-3">
             Prices accurate as of May 2026. Stock up in April–May — supply tightens by July and prices rise 10–15% in peak season. Each dunk treats 100 sq ft of water surface for ~30 days, so a 6-pack covers most Canadian backyard rain barrels through the entire May–September season. Not sure where the standing water on your property is hiding? Track down these <Link href="/blog/hidden-mosquito-breeding-spots-backyard" className="text-emerald-700 underline font-semibold">hidden mosquito breeding spots</Link> before you treat.
@@ -184,7 +187,7 @@ export default function MosquitoDunksPage() {
       {/* TOP PICK */}
       <section className="bg-white px-4 pt-6">
         <div className="max-w-4xl mx-auto">
-          <TopPick
+          <TopPick tag={AMZ_TAG}
             name="Summit Mosquito Dunks (6-pack)"
             blurb="One dunk treats up to 100 sq ft of standing water for ~30 days — a single 6-pack covers a typical rain barrel for the entire May–September season, and it's completely safe for fish, pets, and pollinators."
             search="summit mosquito dunks"
@@ -270,8 +273,8 @@ export default function MosquitoDunksPage() {
             </tbody>
           </table>
           <div className="not-prose my-4 flex flex-wrap items-center gap-3">
-            <BuyLink search="summit mosquito dunks" className="!px-3 !py-1.5 !text-xs">Check Dunks price</BuyLink>
-            <BuyLink search="summit mosquito bits" className="!px-3 !py-1.5 !text-xs">Check Bits price</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="summit mosquito dunks" className="!px-3 !py-1.5 !text-xs">Check Dunks price</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="summit mosquito bits" className="!px-3 !py-1.5 !text-xs">Check Bits price</BuyLink>
           </div>
           <p>Most Canadian homeowners with mosquito issues use both — dunks in rain barrels and ponds for set-and-forget protection, bits sprinkled into bird baths or unexpected standing water as needed.</p>
 

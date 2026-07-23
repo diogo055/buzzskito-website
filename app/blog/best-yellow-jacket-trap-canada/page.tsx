@@ -8,6 +8,7 @@ import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'best-yellow-jacket-trap-canada'
 const DATE = '2026-07-21'
@@ -79,6 +80,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('best-yellow-jacket-trap-canada')
+
 export default function BestYellowJacketTrapCanadaPage() {
   return (
     <>
@@ -100,7 +103,7 @@ export default function BestYellowJacketTrapCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="RESCUE! Reusable Yellowjacket Trap (standard/East attractant)" search="rescue reusable yellowjacket trap" label="Best overall" />
+      <StickyBuyBar tag={AMZ_TAG} name="RESCUE! Reusable Yellowjacket Trap (standard/East attractant)" search="rescue reusable yellowjacket trap" label="Best overall" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -123,7 +126,7 @@ export default function BestYellowJacketTrapCanadaPage() {
 
       <section className="bg-white px-4 py-6">
         <div className="max-w-5xl mx-auto">
-          <AwardRow
+          <AwardRow tag={AMZ_TAG}
             heading="Our Picks — Best Yellow Jacket Traps in Canada"
             awards={[
               {
@@ -206,28 +209,28 @@ export default function BestYellowJacketTrapCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Species-matched cartridge, weeks per refill; bee-safe</td>
                   <td className="px-4 py-3 text-gray-700">Yes &mdash; body lasts years</td>
                   <td className="px-4 py-3 text-xs text-gray-600">Best overall for Ontario &amp; eastern Canada</td>
-                  <td className="px-4 py-3"><BuyLink search="rescue reusable yellowjacket trap" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="rescue reusable yellowjacket trap" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">RESCUE! WHY Trap<br /><span className="font-normal text-xs text-gray-500">wasps + hornets + yellowjackets</span></td>
                   <td className="px-4 py-3 text-gray-700">Multi-attractant, dual chamber</td>
                   <td className="px-4 py-3 text-gray-700">Yes &mdash; with refill kits</td>
                   <td className="px-4 py-3 text-xs text-gray-600">Mixed pressure when you can&rsquo;t ID the wasp</td>
-                  <td className="px-4 py-3"><BuyLink search="rescue why trap wasp hornet yellow jacket" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="rescue why trap wasp hornet yellow jacket" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">RESCUE! Disposable bag<br /><span className="font-normal text-xs text-gray-500">pre-baited, add water</span></td>
                   <td className="px-4 py-3 text-gray-700">Pre-loaded attractant, water-activated</td>
                   <td className="px-4 py-3 text-gray-700">No &mdash; hang, fill, bin</td>
                   <td className="px-4 py-3 text-xs text-gray-600">Events, cottages, zero-maintenance perimeters</td>
-                  <td className="px-4 py-3"><BuyLink search="rescue disposable yellowjacket trap" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="rescue disposable yellowjacket trap" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Bottle-style refillable<br /><span className="font-normal text-xs text-gray-500">bait it yourself</span></td>
                   <td className="px-4 py-3 text-gray-700">Your bait: protein early season, sugar late</td>
                   <td className="px-4 py-3 text-gray-700">Yes &mdash; indefinitely</td>
                   <td className="px-4 py-3 text-xs text-gray-600">Hands-on users running the seasonal bait switch</td>
-                  <td className="px-4 py-3"><BuyLink search="hanging wasp trap reusable bottle" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="hanging wasp trap reusable bottle" block>Check price →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -237,9 +240,9 @@ export default function BestYellowJacketTrapCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the picks:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="rescue reusable yellowjacket trap">RESCUE! reusable trap →</BuyLink>
-            <BuyLink search="rescue why trap wasp hornet yellow jacket">RESCUE! WHY Trap →</BuyLink>
-            <BuyLink search="rescue disposable yellowjacket trap">Disposable bag traps →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="rescue reusable yellowjacket trap">RESCUE! reusable trap →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="rescue why trap wasp hornet yellow jacket">RESCUE! WHY Trap →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="rescue disposable yellowjacket trap">Disposable bag traps →</BuyLink>
           </div>
 
           <h2>Yellow Jacket Trapping — Key Facts</h2>

@@ -8,6 +8,7 @@ import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'best-gas-backpack-fogger-canada'
 const DATE = '2026-07-21'
@@ -75,6 +76,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('best-gas-backpack-fogger-canada')
+
 export default function BestGasBackpackFoggerCanadaPage() {
   return (
     <>
@@ -96,7 +99,7 @@ export default function BestGasBackpackFoggerCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="Solo 451 gas backpack mist blower" search="solo backpack mist blower" label="Best overall" />
+      <StickyBuyBar tag={AMZ_TAG} name="Solo 451 gas backpack mist blower" search="solo backpack mist blower" label="Best overall" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -119,7 +122,7 @@ export default function BestGasBackpackFoggerCanadaPage() {
 
       <section className="bg-white px-4 py-6">
         <div className="max-w-5xl mx-auto">
-          <AwardRow
+          <AwardRow tag={AMZ_TAG}
             heading="Our Picks — Best Gas Backpack Foggers & Mist Blowers in Canada"
             awards={[
               {
@@ -193,28 +196,28 @@ export default function BestGasBackpackFoggerCanadaPage() {
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Strong</strong> &mdash; 10&ndash;15 m mist throw</td>
                   <td className="px-4 py-3 text-gray-700">Large lot to small acreage, tree lines</td>
                   <td className="px-4 py-3 text-gray-700">Liquid only; no dust kit</td>
-                  <td className="px-4 py-3"><BuyLink search="solo 451 backpack mist blower" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="solo 451 backpack mist blower" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">High-output fogger/duster<br /><span className="font-normal text-xs text-gray-500">Tomahawk TMD14</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Highest</strong> &mdash; most air, longest reach</td>
                   <td className="px-4 py-3 text-gray-700">Multiple acres, orchards, mixed jobs</td>
                   <td className="px-4 py-3 text-gray-700">Heavy full; overkill for a small yard</td>
-                  <td className="px-4 py-3"><BuyLink search="tomahawk backpack fogger mist duster" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="tomahawk backpack fogger mist duster" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Convertible 3-in-1<br /><span className="font-normal text-xs text-gray-500">Solo 423</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Good</strong> &mdash; wet mist + dry dust</td>
                   <td className="px-4 py-3 text-gray-700">Mixed rural property, lighter carry</td>
                   <td className="px-4 py-3 text-gray-700">Shorter throw; smaller tank</td>
-                  <td className="px-4 py-3"><BuyLink search="solo 423 mist blower duster" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="solo 423 mist blower duster" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Budget gas backpack<br /><span className="font-normal text-xs text-gray-500">entry 2-stroke</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Fair</strong> &mdash; adequate for occasional use</td>
                   <td className="px-4 py-3 text-gray-700">One-property owner, tight budget</td>
                   <td className="px-4 py-3 text-gray-700">Thinner parts and support</td>
-                  <td className="px-4 py-3"><BuyLink search="gas backpack mist blower" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="gas backpack mist blower" block>Check price →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -241,10 +244,10 @@ export default function BestGasBackpackFoggerCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the four picks:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="solo 451 backpack mist blower">Solo 451 mist blower →</BuyLink>
-            <BuyLink search="tomahawk backpack fogger mist duster">Tomahawk high-output →</BuyLink>
-            <BuyLink search="solo 423 mist blower duster">Solo 423 convertible →</BuyLink>
-            <BuyLink search="gas backpack mist blower">Budget gas backpack →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="solo 451 backpack mist blower">Solo 451 mist blower →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="tomahawk backpack fogger mist duster">Tomahawk high-output →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="solo 423 mist blower duster">Solo 423 convertible →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="gas backpack mist blower">Budget gas backpack →</BuyLink>
           </div>
 
           <h2>Why Gas, Not Electric, for Real Acreage</h2>

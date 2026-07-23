@@ -8,6 +8,7 @@ import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'best-bed-bug-detector-canada'
 const DATE = '2026-07-21'
@@ -75,6 +76,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('best-bed-bug-detector-canada')
+
 export default function BestBedBugDetectorCanadaPage() {
   return (
     <>
@@ -96,7 +99,7 @@ export default function BestBedBugDetectorCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="Bed bug interceptor traps (under-leg monitors)" search="bed bug interceptor traps" label="Best overall detector" />
+      <StickyBuyBar tag={AMZ_TAG} name="Bed bug interceptor traps (under-leg monitors)" search="bed bug interceptor traps" label="Best overall detector" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -119,7 +122,7 @@ export default function BestBedBugDetectorCanadaPage() {
 
       <section className="bg-white px-4 py-6">
         <div className="max-w-5xl mx-auto">
-          <AwardRow
+          <AwardRow tag={AMZ_TAG}
             heading="Our Picks — Best Bed Bug Detectors in Canada"
             awards={[
               {
@@ -202,28 +205,28 @@ export default function BestBedBugDetectorCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Two-well cup under each leg; bugs fall in, can&rsquo;t climb out</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Continuous</strong> &mdash; days to weeks at low levels</td>
                   <td className="px-4 py-3 text-gray-700">Always-on monitoring; progress tracking; partial barrier</td>
-                  <td className="px-4 py-3"><BuyLink search="bed bug interceptor traps aspectek" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bed bug interceptor traps aspectek" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Active lured monitor<br /><span className="font-normal text-xs text-gray-500">heat / CO₂ cue</span></td>
                   <td className="px-4 py-3 text-gray-700">Emits warmth or CO&#8322; to draw host-seeking bugs to the trap</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Fastest</strong> &mdash; detects low populations soonest</td>
                   <td className="px-4 py-3 text-gray-700">Empty rooms; quick confident answers; documented checks</td>
-                  <td className="px-4 py-3"><BuyLink search="active bed bug monitor co2" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="active bed bug monitor co2" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Glue-strip monitor<br /><span className="font-normal text-xs text-gray-500">BuggyBeds</span></td>
                   <td className="px-4 py-3 text-gray-700">Adhesive card that traps bugs crawling across it</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Spot</strong> &mdash; depends on direct contact</td>
                   <td className="px-4 py-3 text-gray-700">Drawers, headboards, luggage, storage gaps</td>
-                  <td className="px-4 py-3"><BuyLink search="buggybeds bed bug monitor" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="buggybeds bed bug monitor" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Inspection kit<br /><span className="font-normal text-xs text-gray-500">light + magnifier</span></td>
                   <td className="px-4 py-3 text-gray-700">You inspect seams and joints directly with light and magnification</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Immediate</strong> &mdash; only what you can see</td>
                   <td className="px-4 py-3 text-gray-700">Confirming a find; reading harbourage before you act</td>
-                  <td className="px-4 py-3"><BuyLink search="bed bug inspection flashlight magnifier kit" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bed bug inspection flashlight magnifier kit" block>Check price →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -250,10 +253,10 @@ export default function BestBedBugDetectorCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the main detector types:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="bed bug interceptor traps aspectek">Passive interceptors →</BuyLink>
-            <BuyLink search="active bed bug monitor co2">Active lured monitor →</BuyLink>
-            <BuyLink search="buggybeds bed bug monitor">Glue-strip monitors →</BuyLink>
-            <BuyLink search="bed bug inspection flashlight magnifier kit">Inspection kit →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="bed bug interceptor traps aspectek">Passive interceptors →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="active bed bug monitor co2">Active lured monitor →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="buggybeds bed bug monitor">Glue-strip monitors →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="bed bug inspection flashlight magnifier kit">Inspection kit →</BuyLink>
           </div>
 
           <h2>Passive vs Active: The Distinction That Decides Everything</h2>

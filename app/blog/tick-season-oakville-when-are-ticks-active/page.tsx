@@ -8,6 +8,7 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const POST = {
   title: 'Tick Season in Oakville 2026: When Blacklegged Ticks Are Most Active (and Why Halton Is Now a Risk Zone)',
@@ -49,6 +50,8 @@ export const metadata: Metadata = buildMetadata({
   type: 'article',
   publishedTime: POST.date,
 })
+
+const AMZ_TAG = tagForSlug('tick-season-oakville-when-are-ticks-active')
 
 export default function TickSeasonOakvillePage() {
   return (
@@ -151,7 +154,7 @@ export default function TickSeasonOakvillePage() {
         <p>Halton Region Public Health publishes a standard tick-prevention checklist: wear long sleeves and tucked-in pants in wooded areas, use Health Canada-approved repellents containing DEET or icaridin, check yourself, your kids, and your pets after every outdoor exposure, and remove attached ticks promptly with fine-tipped tweezers. They also flag the 24-36 hour window — Lyme transmission typically requires sustained tick attachment, so daily checks meaningfully reduce risk.</p>
         <AffiliateDisclosure />
         <div className="not-prose my-4">
-          <BuyLink search="icaridin insect repellent canada">Check icaridin insect repellent on Amazon.ca →</BuyLink>
+          <BuyLink tag={AMZ_TAG} search="icaridin insect repellent canada">Check icaridin insect repellent on Amazon.ca →</BuyLink>
         </div>
 
         <p>For yards specifically, Public Health Ontario&rsquo;s habitat-modification guidance lines up with what we apply on every Oakville treatment: maintain a 3-foot wood-chip or gravel buffer between lawn and any wooded edge, clear leaf litter and brush from fence lines weekly during peak months, keep grass short, and treat the perimeter professionally during the May-July nymph window. Read our full <Link href="/blog/ultimate-tick-control-guide-ontario" className="text-brand-700 underline">tick control guide</Link> for the deeper protocol.</p>
@@ -165,7 +168,7 @@ export default function TickSeasonOakvillePage() {
           <li><strong>Permethrin-treated clothing for trail hikers.</strong> 0.5% permethrin spray on hiking pants, socks, and shoes. One treatment lasts 6 weeks or 6 washes. The single most effective personal protection layer.</li>
           <li><strong>Year-round tick prevention for dogs.</strong> Talk to your Oakville veterinarian. Most positive canine cases never showed an obvious tick attachment because nymphs are too small to spot in fur.</li>
         </ol>
-        <TopPick
+        <TopPick tag={AMZ_TAG}
           label="Best Personal Protection"
           name="Permethrin-Treated Clothing & Gaiters"
           blurb="For anyone hiking Bronte Creek Provincial Park or the 16 Mile Creek trails, 0.5% permethrin on pants, socks, and gaiters is the single most effective personal layer — it repels and kills ticks on contact before they reach skin, and one treatment lasts about 6 weeks or 6 washes."
@@ -175,7 +178,7 @@ export default function TickSeasonOakvillePage() {
           cons={['Wear layer only — still check skin daily', 'Reapply after washes']}
         />
         <div className="not-prose my-4">
-          <BuyLink search="insectguard permethrin gaiters">Check InsectGuard permethrin-treated gaiters on Amazon.ca →</BuyLink>
+          <BuyLink tag={AMZ_TAG} search="insectguard permethrin gaiters">Check InsectGuard permethrin-treated gaiters on Amazon.ca →</BuyLink>
         </div>
 
         <h2>Same-week Oakville service</h2>

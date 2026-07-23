@@ -7,6 +7,7 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'tick-head-stuck-in-skin'
 const DATE = '2026-07-16'
@@ -73,6 +74,8 @@ export const metadata: Metadata = buildMetadata({
   publishedTime: DATE,
 })
 
+const AMZ_TAG = tagForSlug('tick-head-stuck-in-skin')
+
 export default function TickHeadStuckInSkinPage() {
   return (
     <>
@@ -127,10 +130,10 @@ export default function TickHeadStuckInSkinPage() {
         <AffiliateDisclosure />
         <p className="not-prose text-sm text-gray-600 mb-2">A fine-tipped tick tool grips right at the skin and removes the whole tick in one piece — the best way to avoid leftover mouthparts:</p>
         <div className="not-prose mb-6 flex flex-wrap gap-3">
-          <BuyLink search="tick twister removal tool">Check tick removal tool price on Amazon.ca →</BuyLink>
+          <BuyLink tag={AMZ_TAG} search="tick twister removal tool">Check tick removal tool price on Amazon.ca →</BuyLink>
         </div>
 
-        <TopPick
+        <TopPick tag={AMZ_TAG}
           label="Our Top Pick — Tick Removal Tool"
           name="Tick Twister-style hooked remover"
           blurb="A notched, fine-tipped tick tool slides under the mouthparts and levers the whole tick out in one piece — the single best way to stop a head breaking off in the first place. Cheap enough to keep one in the first-aid kit, the car, and the dog-walking bag."
@@ -230,8 +233,8 @@ export default function TickHeadStuckInSkinPage() {
 
         <p className="not-prose text-sm text-gray-600 mb-2">Keep a proper remover on hand so the whole tick comes out in one piece:</p>
         <div className="not-prose mb-6 flex flex-wrap gap-3">
-          <BuyLink search="tick twister removal tool">Tick removal tool on Amazon.ca →</BuyLink>
-          <BuyLink search="fine tip tick tweezers">Fine-tip tick tweezers →</BuyLink>
+          <BuyLink tag={AMZ_TAG} search="tick twister removal tool">Tick removal tool on Amazon.ca →</BuyLink>
+          <BuyLink tag={AMZ_TAG} search="fine tip tick tweezers">Fine-tip tick tweezers →</BuyLink>
         </div>
 
         <aside aria-label="Professional tick control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">

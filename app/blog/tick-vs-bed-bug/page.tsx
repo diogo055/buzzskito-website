@@ -7,6 +7,7 @@ import TopPick from '@/components/TopPick'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'tick-vs-bed-bug'
 const DATE = '2026-07-09'
@@ -52,6 +53,8 @@ export const metadata: Metadata = buildMetadata({
   publishedTime: DATE,
   modifiedTime: UPDATED,
 })
+
+const AMZ_TAG = tagForSlug('tick-vs-bed-bug')
 
 export default function TickVsBedBugPage() {
   return (
@@ -142,13 +145,13 @@ export default function TickVsBedBugPage() {
 
           <h2>The 10-Second Check</h2>
           <ol>
-            <li><strong>Is it attached to your skin and hard to brush off?</strong> → Tick. Remove it with <BuyLink search="tick removal tool tweezers">fine-tipped tick removal tweezers</BuyLink>, pulling straight up. See our <Link href="/blog/tick-removal-tool-guide">tick removal tool guide</Link> for the best picks.</li>
+            <li><strong>Is it attached to your skin and hard to brush off?</strong> → Tick. Remove it with <BuyLink tag={AMZ_TAG} search="tick removal tool tweezers">fine-tipped tick removal tweezers</BuyLink>, pulling straight up. See our <Link href="/blog/tick-removal-tool-guide">tick removal tool guide</Link> for the best picks.</li>
             <li><strong>Count the legs.</strong> Eight legs means tick. Six legs plus antennae means bed bug.</li>
             <li><strong>Where were you?</strong> Outdoors in grass or woods → tick. Waking up in bed with new itchy welts → bed bug.</li>
             <li><strong>Still unsure?</strong> Photograph it from above and submit to <a href="https://etick.ca" target="_blank" rel="noreferrer">eTick.ca</a> for free tick identification within 1&ndash;3 days.</li>
           </ol>
 
-          <TopPick
+          <TopPick tag={AMZ_TAG}
             label="Our Top Pick — Tick Remover"
             name="Fine-Tipped Tick Removal Tool"
             blurb="If it turns out to be a tick, a purpose-made fine-tipped remover grips right at the skin and lifts straight out without squeezing the body — far safer than fingernails or blunt tweezers, which can crush the tick and push fluids into the bite."
@@ -176,7 +179,7 @@ export default function TickVsBedBugPage() {
           <p><strong>Tick bites</strong> are usually solitary. Often the tick is still there. Once removed, the site may stay slightly red for a few days. The warning sign to watch for in Ontario is an <strong>expanding circular or bull&rsquo;s-eye rash</strong> appearing days to weeks later, which can indicate Lyme disease and warrants prompt medical attention. In Ontario, a blacklegged tick generally needs to be attached for 24 or more hours to transmit Lyme, which is why daily tick checks after time outdoors are so effective.</p>
 
           <h2>They Need Opposite Treatments</h2>
-          <p>This is the practical reason the identification matters. <strong>Bed bugs are an indoor structural pest.</strong> Eradicating them requires an interior exterminator treating mattresses, bed frames, baseboards, and furniture with heat or targeted chemicals — yard spraying does nothing. For small early infestations, many homeowners pair professional treatment with a residual <BuyLink search="bed bug spray">bed bug spray</BuyLink> for seams and cracks; check the current price before you buy.</p>
+          <p>This is the practical reason the identification matters. <strong>Bed bugs are an indoor structural pest.</strong> Eradicating them requires an interior exterminator treating mattresses, bed frames, baseboards, and furniture with heat or targeted chemicals — yard spraying does nothing. For small early infestations, many homeowners pair professional treatment with a residual <BuyLink tag={AMZ_TAG} search="bed bug spray">bed bug spray</BuyLink> for seams and cracks; check the current price before you buy.</p>
           <p><strong>Ticks are an outdoor pest.</strong> They quest from vegetation and never reproduce inside your home, so a single tick indoors is a hitchhiker, not an infestation. The effective control is outdoors: <Link href="/tick-control">a tick barrier spray</Link> applied to lawn edges, leaf litter zones, fence lines, and shaded borders, plus short grass and a wood-chip barrier between lawn and woods. BuzzSkito treats yards across the GTA for ticks and mosquitoes; we do not treat bed bugs.</p>
 
           <h2>Related Reading</h2>

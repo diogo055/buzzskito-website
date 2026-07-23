@@ -8,6 +8,7 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { NEW_BLOGS_2, MOSQUITO_BLOGS } from '@/lib/constants'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const POST = NEW_BLOGS_2[0]
 const UPDATED = POST.date
@@ -51,6 +52,8 @@ const FAQS = [
     answer: 'Barely, and only right at the leaf. Controlled studies of the "mosquito plant" geranium found no measurable reduction in bites, because the scent carries only a few centimetres while mosquitoes track the carbon dioxide and body heat you give off from much farther away. It is a pleasant patio plant, not yard-wide mosquito control — for that you need standing-water removal plus a professional barrier spray.',
   },
 ]
+
+const AMZ_TAG = tagForSlug('mosquito-repellent-plants-ontario')
 
 export default function MosquitoRepellentPlantsPage() {
   return (
@@ -181,14 +184,14 @@ export default function MosquitoRepellentPlantsPage() {
         </ul>
 
         <h3>How to grow citronella in the GTA</h3>
-        <p>Give either plant full sun (6+ hours), a large container with free-draining potting mix, and steady water — citronella grass in particular is thirsty. Feed monthly through the summer. Because neither is winter-hardy here, plant out only after the mid-May frost date, then either treat it as a one-season annual or lift it indoors before the first fall frost. Set pots right beside where you actually sit; a plant three metres away does nothing. If you want to try one on your own patio, live citronella plants ship seasonally: <BuyLink search="citronella plant">Check price on Amazon.ca &rarr;</BuyLink></p>
+        <p>Give either plant full sun (6+ hours), a large container with free-draining potting mix, and steady water — citronella grass in particular is thirsty. Feed monthly through the summer. Because neither is winter-hardy here, plant out only after the mid-May frost date, then either treat it as a one-season annual or lift it indoors before the first fall frost. Set pots right beside where you actually sit; a plant three metres away does nothing. If you want to try one on your own patio, live citronella plants ship seasonally: <BuyLink tag={AMZ_TAG} search="citronella plant">Check price on Amazon.ca &rarr;</BuyLink></p>
 
         <h3>The honest truth: plants alone won&rsquo;t clear a yard</h3>
         <p>Here is the myth worth busting: no citronella plant — geranium or grass — will meaningfully reduce mosquitoes across an Ontario backyard. Peer-reviewed trials of the &ldquo;mosquito plant&rdquo; geranium have repeatedly found no measurable protection. The scent travels only a few centimetres, while mosquitoes home in on the carbon dioxide and body heat you give off from well beyond that. Treat citronella as a pleasant patio plant, not pest control.</p>
         <p>For protection you can actually feel, pair it with the two things that work at yard scale: eliminate standing water, and put down a <Link href="/mosquito-control">professional barrier spray</Link> that coats the vegetation where mosquitoes rest and keeps working for up to 30 days. Our breakdown of <Link href="/blog/mosquito-vs-diy-vs-professional-control">DIY vs. professional mosquito control</Link> lays out the full comparison, and our guide to <Link href="/blog/natural-mosquito-repellent-ontario">natural mosquito repellents in Ontario</Link> covers the non-chemical options worth trying.</p>
-        <p>Because plants alone won&rsquo;t hold a patio through a July evening, most Ontario homeowners bridge the gap with a spot device that actually creates a protection zone. A butane-powered repeller such as a Thermacell puts out a 20-foot mosquito-free bubble around your seating in minutes — a genuine upgrade over hoping a potted geranium does the job: <BuyLink search="thermacell mosquito repeller">Check price on Amazon.ca &rarr;</BuyLink></p>
+        <p>Because plants alone won&rsquo;t hold a patio through a July evening, most Ontario homeowners bridge the gap with a spot device that actually creates a protection zone. A butane-powered repeller such as a Thermacell puts out a 20-foot mosquito-free bubble around your seating in minutes — a genuine upgrade over hoping a potted geranium does the job: <BuyLink tag={AMZ_TAG} search="thermacell mosquito repeller">Check price on Amazon.ca &rarr;</BuyLink></p>
 
-        <TopPick
+        <TopPick tag={AMZ_TAG}
           label="Best Spot Protection for a Patio"
           name="Thermacell Mosquito Repeller"
           blurb="If repellent plants can't hold your seating area through a July evening, a butane-powered Thermacell creates a roughly 20-foot mosquito-free zone within minutes — no spray on your skin, no smoke, and far more reliable than a potted geranium. It's the honest bridge between garden plants and a full barrier-spray program."

@@ -8,6 +8,7 @@ import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'victor-electronic-mouse-trap-review-canada'
 const DATE = '2026-07-16'
@@ -74,6 +75,8 @@ export const metadata: Metadata = buildMetadata({
   publishedTime: DATE,
 })
 
+const AMZ_TAG = tagForSlug('victor-electronic-mouse-trap-review-canada')
+
 export default function VictorElectronicMouseTrapReviewPage() {
   return (
     <>
@@ -95,7 +98,7 @@ export default function VictorElectronicMouseTrapReviewPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="Victor M250S Electronic Mouse Trap" search="victor electronic mouse trap m250s" label="Best overall" />
+      <StickyBuyBar tag={AMZ_TAG} name="Victor M250S Electronic Mouse Trap" search="victor electronic mouse trap m250s" label="Best overall" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -155,11 +158,11 @@ export default function VictorElectronicMouseTrapReviewPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of both models:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="victor electronic mouse trap m250s">Victor M250S on Amazon.ca →</BuyLink>
-            <BuyLink search="victor m1 smart kill mouse trap">M1 Smart-Kill (Wi-Fi) →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="victor electronic mouse trap m250s">Victor M250S on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="victor m1 smart kill mouse trap">M1 Smart-Kill (Wi-Fi) →</BuyLink>
           </div>
 
-          <TopPick
+          <TopPick tag={AMZ_TAG}
             label="Our Top Pick"
             name="Victor M250S Electronic Mouse Trap"
             blurb="The best no-touch mouse trap sold in Canada: an enclosed kill chamber that shocks in seconds, delivers up to 100 kills per set of 4 AA batteries, and empties into the garbage without you ever touching or seeing the mouse. A blinking green LED confirms a kill for up to 7 days, and it is a legal, non-pesticide device in every province."
@@ -199,7 +202,7 @@ export default function VictorElectronicMouseTrapReviewPage() {
           </ul>
           <p>For a kitchen, pantry, or main-floor problem you walk past daily, the blinking green light on the M250S is all the notification you need, and the price difference buys you a second M250S — and two traps in two locations beats one connected trap almost every time. One caveat on the M1: it needs 2.4&nbsp;GHz Wi-Fi coverage wherever it sits, and a concrete-walled cottage basement is exactly where signal dies.</p>
           <div className="not-prose my-4 flex flex-wrap gap-3">
-            <BuyLink search="victor m1 smart kill mouse trap">Check M1 Smart-Kill availability →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="victor m1 smart kill mouse trap">Check M1 Smart-Kill availability →</BuyLink>
           </div>
 
           <h2>How Does It Compare to Snap Traps and Bait Stations?</h2>
@@ -254,7 +257,7 @@ export default function VictorElectronicMouseTrapReviewPage() {
           <h2>Verdict: Is the Victor M250S Worth It in Canada?</h2>
           <p><strong>Yes — it is the best no-touch mouse trap sold in Canada, and the right first trap for most households.</strong> It makes a fast, clean kill the default outcome, it costs pennies per kill over a multi-year service life, and it removes the single biggest reason people procrastinate on a mouse problem: not wanting to deal with the body. Add the M1 Smart-Kill for locations you rarely visit; add cheap snap traps for saturation during a heavy infestation; skip glue boards and grey-market poisons entirely.</p>
           <div className="not-prose my-4 flex flex-wrap gap-3">
-            <BuyLink search="victor electronic mouse trap m250s">Check Victor M250S price on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="victor electronic mouse trap m250s">Check Victor M250S price on Amazon.ca →</BuyLink>
           </div>
 
           <h2>Frequently Asked Questions</h2>

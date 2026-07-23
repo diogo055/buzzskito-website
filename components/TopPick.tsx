@@ -22,6 +22,7 @@ export default function TopPick({
   score,
   pros,
   cons,
+  tag,
 }: {
   label?: string
   name: string
@@ -32,6 +33,8 @@ export default function TopPick({
   score?: number
   pros?: string[]
   cons?: string[]
+  /** Optional per-cluster tracking ID (lib/amazon-clusters.ts). */
+  tag?: string
 }) {
   if (!AMAZON_ENABLED) return null
   return (
@@ -44,7 +47,7 @@ export default function TopPick({
       <p className="mb-1 text-lg font-extrabold text-brand-900">{name}</p>
       <p className="mb-4 text-sm leading-relaxed text-gray-700">{blurb}</p>
       <ProsCons pros={pros ?? []} cons={cons ?? []} />
-      <BuyLink search={search} asin={asin}>{cta}</BuyLink>
+      <BuyLink search={search} asin={asin} tag={tag}>{cta}</BuyLink>
     </div>
   )
 }

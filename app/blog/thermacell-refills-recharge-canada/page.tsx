@@ -8,6 +8,7 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import TopPick from '@/components/TopPick'
 import AuthorByline from '@/components/AuthorByline'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'thermacell-refills-recharge-canada'
 const DATE = '2026-07-12'
@@ -58,6 +59,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('thermacell-refills-recharge-canada')
+
 export default function ThermacellRefillsRechargeCanadaPage() {
   return (
     <>
@@ -79,7 +82,7 @@ export default function ThermacellRefillsRechargeCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="Thermacell E-Series Refill Cartridge (E55/E90)" search="thermacell e-series refill" label="Most-bought refill" />
+      <StickyBuyBar tag={AMZ_TAG} name="Thermacell E-Series Refill Cartridge (E55/E90)" search="thermacell e-series refill" label="Most-bought refill" />
 
       {/* Quick Answer — AI-extraction block */}
       <section className="bg-white px-4">
@@ -195,13 +198,13 @@ export default function ThermacellRefillsRechargeCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian prices on the refill that fits your model:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="thermacell e-series refill">E-Series cartridge (E55/E90) →</BuyLink>
-            <BuyLink search="thermacell original refill mats and fuel">Original mats + fuel →</BuyLink>
-            <BuyLink search="thermacell refill 120 hour mega">120-hour mega refill →</BuyLink>
-            <BuyLink search="thermacell liv refill">Liv refill →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="thermacell e-series refill">E-Series cartridge (E55/E90) →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="thermacell original refill mats and fuel">Original mats + fuel →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="thermacell refill 120 hour mega">120-hour mega refill →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="thermacell liv refill">Liv refill →</BuyLink>
           </div>
 
-          <TopPick
+          <TopPick tag={AMZ_TAG}
             label="Our Top Pick — Refills"
             name="Thermacell E-Series Liquid Refill Cartridge (E55 / E90)"
             blurb="For the rechargeable E55 and E90, the E-Series liquid cartridge is the cleanest, lowest-hassle refill: no butane, no mats, just click it in. A fuel-gauge window shows exactly when it's spent (about 40 hours), and it lands at a mid-price cost per hour. If you own a fuel-powered Patio Shield instead, buy the Original mats-plus-fuel pack — this cartridge won't fit it."

@@ -8,6 +8,7 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const POST = {
   title: 'West Nile Virus in Mississauga 2026: Risk, Surveillance, and Yard Protection',
@@ -49,6 +50,8 @@ export const metadata: Metadata = buildMetadata({
   type: 'article',
   publishedTime: POST.date,
 })
+
+const AMZ_TAG = tagForSlug('west-nile-virus-mississauga-2026')
 
 export default function WestNileMississaugaPage() {
   return (
@@ -139,9 +142,9 @@ export default function WestNileMississaugaPage() {
 
         <h3>Treat ornamental ponds and water features</h3>
         <AffiliateDisclosure />
-        <p>If you have a backyard pond, fountain, or water feature, either keep the water moving constantly (Culex won\'t breed in moving water) or use Bti products like Mosquito Dunks or Mosquito Bits — they kill mosquito larvae but are safe for fish, birds, pets, and beneficial insects. One dunk treats up to 100 sq ft of water surface for 30 days. <BuyLink search="summit mosquito dunks">Check Mosquito Dunks on Amazon.ca →</BuyLink> For small containers, rain barrels, and low spots that need a faster knockdown, granular Mosquito Bits release Bti immediately rather than over weeks. <BuyLink search="summit mosquito bits">Check Mosquito Bits on Amazon.ca →</BuyLink></p>
+        <p>If you have a backyard pond, fountain, or water feature, either keep the water moving constantly (Culex won\'t breed in moving water) or use Bti products like Mosquito Dunks or Mosquito Bits — they kill mosquito larvae but are safe for fish, birds, pets, and beneficial insects. One dunk treats up to 100 sq ft of water surface for 30 days. <BuyLink tag={AMZ_TAG} search="summit mosquito dunks">Check Mosquito Dunks on Amazon.ca →</BuyLink> For small containers, rain barrels, and low spots that need a faster knockdown, granular Mosquito Bits release Bti immediately rather than over weeks. <BuyLink tag={AMZ_TAG} search="summit mosquito bits">Check Mosquito Bits on Amazon.ca →</BuyLink></p>
 
-        <TopPick
+        <TopPick tag={AMZ_TAG}
           label="Best DIY for Standing Water"
           name="Summit Mosquito Dunks (Bti larvicide)"
           blurb="For the standing water you can't drain — ponds, rain barrels, low spots — a Bti dunk kills Culex pipiens larvae before they hatch into the dusk-biting adults that carry West Nile, while staying safe for fish, birds, pets, and beneficial insects. One dunk treats up to 100 sq ft of water surface for about 30 days, making it the single highest-value product a Mississauga homeowner can add to a weekly water-elimination routine."

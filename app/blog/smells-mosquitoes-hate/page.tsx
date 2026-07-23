@@ -7,6 +7,7 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'smells-mosquitoes-hate'
 const DATE = '2026-07-12'
@@ -56,6 +57,8 @@ export const metadata: Metadata = buildMetadata({
   publishedTime: DATE,
   modifiedTime: UPDATED,
 })
+
+const AMZ_TAG = tagForSlug('smells-mosquitoes-hate')
 
 export default function SmellsMosquitoesHatePage() {
   return (
@@ -141,11 +144,11 @@ export default function SmellsMosquitoesHatePage() {
 
           <p className="not-prose text-sm text-gray-600 mb-1">Want to try the scent route? A concentrated citronella oil and a Thermacell zone device are the two most effective picks:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="citronella essential oil">Check citronella oil on Amazon.ca →</BuyLink>
-            <BuyLink search="thermacell mosquito repeller">Check Thermacell price on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="citronella essential oil">Check citronella oil on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="thermacell mosquito repeller">Check Thermacell price on Amazon.ca →</BuyLink>
           </div>
 
-          <TopPick
+          <TopPick tag={AMZ_TAG}
             label="Strongest Scent-Based Pick"
             name="Oil of Lemon Eucalyptus (OLE / PMD) Repellent"
             blurb="The only scent-based option Health Canada registers as a genuine skin repellent. At a 30% concentration it holds roughly 2–5 hours per application — comparable to a lower-strength DEET — far beyond the minutes you get from candles and diffused oils."

@@ -8,6 +8,7 @@ import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'best-rodent-repellent-for-cars-canada'
 const DATE = '2026-07-21'
@@ -79,6 +80,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('best-rodent-repellent-for-cars-canada')
+
 export default function BestRodentRepellentForCarsCanadaPage() {
   return (
     <>
@@ -100,7 +103,7 @@ export default function BestRodentRepellentForCarsCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="Capsaicin rodent deterrent tape (Honda-style)" search="rodent deterrent tape capsaicin" label="Best overall" />
+      <StickyBuyBar tag={AMZ_TAG} name="Capsaicin rodent deterrent tape (Honda-style)" search="rodent deterrent tape capsaicin" label="Best overall" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -123,7 +126,7 @@ export default function BestRodentRepellentForCarsCanadaPage() {
 
       <section className="bg-white px-4 py-6">
         <div className="max-w-5xl mx-auto">
-          <AwardRow
+          <AwardRow tag={AMZ_TAG}
             heading="Our Picks — Best Rodent Repellents for Cars in Canada"
             awards={[
               {
@@ -197,28 +200,28 @@ export default function BestRodentRepellentForCarsCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Hot-pepper extract in the tape itself &mdash; the first gnaw is immediately aversive</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Strongest here</strong> &mdash; taste aversion doesn&rsquo;t habituate like scent</td>
                   <td className="px-4 py-3 text-gray-700">None after installation; inspect yearly</td>
-                  <td className="px-4 py-3"><BuyLink search="rodent deterrent tape capsaicin" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="rodent deterrent tape capsaicin" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Strobe / ultrasonic<br /><span className="font-normal text-xs text-gray-500">Battery under-hood units</span></td>
                   <td className="px-4 py-3 text-gray-700">Intermittent bright light (plus ultrasound) makes the bay feel unsafe as shelter</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Mixed</strong> &mdash; ultrasound habituates; the strobe in an enclosed bay is the better half</td>
                   <td className="px-4 py-3 text-gray-700">Battery check monthly (faster in deep cold)</td>
-                  <td className="px-4 py-3"><BuyLink search="under hood rodent repeller battery" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="under hood rodent repeller battery" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Peppermint pouches<br /><span className="font-normal text-xs text-gray-500">Essential-oil sachets</span></td>
                   <td className="px-4 py-3 text-gray-700">High-concentration mint scent is aversive &mdash; until it evaporates</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-red-700">Weakest</strong> &mdash; real but short-lived; supplementary only</td>
                   <td className="px-4 py-3 text-gray-700">Replace monthly, without fail</td>
-                  <td className="px-4 py-3"><BuyLink search="peppermint oil rodent repellent pouches" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="peppermint oil rodent repellent pouches" block>Check price →</BuyLink></td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 font-bold text-brand-800">Perimeter snap traps<br /><span className="font-normal text-xs text-gray-500">Victor wood traps, around the car</span></td>
                   <td className="px-4 py-3 text-gray-700">Removes the local mice on the approach routes before they climb in</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Proven</strong> &mdash; population control is the layer no repellent replaces</td>
                   <td className="px-4 py-3 text-gray-700">Check and re-bait on a schedule</td>
-                  <td className="px-4 py-3"><BuyLink search="victor mouse trap 4 pack" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="victor mouse trap 4 pack" block>Check price →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -277,10 +280,10 @@ export default function BestRodentRepellentForCarsCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the four picks:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="rodent deterrent tape capsaicin">Capsaicin deterrent tape →</BuyLink>
-            <BuyLink search="under hood rodent repeller battery">Under-hood strobe unit →</BuyLink>
-            <BuyLink search="peppermint oil rodent repellent pouches">Peppermint pouches →</BuyLink>
-            <BuyLink search="victor mouse trap 4 pack">Victor snap traps →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="rodent deterrent tape capsaicin">Capsaicin deterrent tape →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="under hood rodent repeller battery">Under-hood strobe unit →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="peppermint oil rodent repellent pouches">Peppermint pouches →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="victor mouse trap 4 pack">Victor snap traps →</BuyLink>
           </div>
 
           <h2>Why Mice Move Into Cars (and Why Canada Makes It Worse)</h2>
@@ -292,7 +295,7 @@ export default function BestRodentRepellentForCarsCanadaPage() {
           <p>What makes it our Best Overall is the failure mode it removes. Scent deterrents fade; sound deterrents habituate; but taste aversion fires at the exact moment of the exact behaviour you are trying to stop, every time, for years. It needs no batteries, survives heat cycles and road spray, and one roll typically covers the exposed harness runs of one to two vehicles.</p>
           <p>The honest limits: it protects only what you wrap. Plan a patient hour with the hood up — wrap the exposed loom sections you can reach along the firewall, around the battery and air box, and any harness run with visible previous gnaw marks, overlapping each wrap like hockey tape. Wear disposable gloves and wash your hands afterward; capsaicin transferred to an eye is an experience you only have once. And note what the tape does not do: it will not stop a mouse from nesting on top of your air filter — it stops the expensive part, which is the chew.</p>
           <div className="not-prose my-4">
-            <BuyLink search="rodent deterrent tape capsaicin">Check capsaicin deterrent tape on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="rodent deterrent tape capsaicin">Check capsaicin deterrent tape on Amazon.ca →</BuyLink>
           </div>
 
           <h2>Under-Hood Strobe Units: Set-and-Forget, With Honest Fine Print</h2>
@@ -300,21 +303,21 @@ export default function BestRodentRepellentForCarsCanadaPage() {
           <p>Here is the fine print, stated plainly because most listings will not. The evidence for ultrasound as a rodent repellent is mixed at best: controlled studies consistently show rodents habituating to ultrasonic sound within days in open settings, which is exactly why we told readers to skip plug-in wall units in our <Link href="/blog/ultrasonic-pest-repellers-do-they-work">ultrasonic repeller evidence review</Link>. Under-hood units deserve a slightly better grade for two specific reasons. First, an engine bay is a small, hard-walled, enclosed space, so the sound pressure a mouse experiences inside it is far higher than anything a plug-in achieves across an open basement. Second — and more importantly — the better units lead with the <em>strobe</em>: a bright, irregular flash inside a cavity whose entire appeal is darkness. Light is a threat cue rodents do not habituate to as readily as sound, because in rodent experience, lit spaces get you eaten.</p>
           <p>Buy one with the right expectations: it is a probability-shifter for a parked vehicle, not a force field, and it belongs on top of the tape, not instead of it. Prefer battery models over wired ones (zero parasitic draw on the car battery, no installation), and remember that consumer batteries fade quickly in a deep Canadian cold snap — put a monthly battery check on the same calendar reminder as your storage-trap check.</p>
           <div className="not-prose my-4">
-            <BuyLink search="under hood rodent repeller battery">Check under-hood strobe units on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="under hood rodent repeller battery">Check under-hood strobe units on Amazon.ca →</BuyLink>
           </div>
 
           <h2>Peppermint Pouches: The Natural Option, Rated Honestly</h2>
           <p>Peppermint-oil pouches are the most pleasant product on this page and the weakest, and we are going to say the second part louder than the packaging does. The underlying effect is real: at high concentration in a confined space, peppermint oil is genuinely aversive to rodents, whose survival depends on a sense of smell we can barely imagine. The problem is arithmetic — the effect exists only while the concentration stays high, and essential oils evaporate. In an engine bay that heat-cycles every drive, a sachet can fade from &ldquo;aversive&rdquo; to &ldquo;background&rdquo; in one to two weeks. Field results are correspondingly inconsistent, and a cold, motivated November mouse will walk straight past a three-week-old pouch.</p>
           <p>Where they earn their spot: the cabin and trunk of a stored vehicle, where air exchange is low and scent lingers longest, and where you would rather not put anything that drips, shocks, or snaps. Use them as the third layer, replace them monthly without fail (set the reminder — a faded pouch is a placebo), and if a pouch or spray you are considering makes an explicit rodent-repellent claim, check the label for a PCP registration number before buying; more on that below.</p>
           <div className="not-prose my-4">
-            <BuyLink search="peppermint oil rodent repellent pouches">Check peppermint pouches on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="peppermint oil rodent repellent pouches">Check peppermint pouches on Amazon.ca →</BuyLink>
           </div>
 
           <h2>Perimeter Snap Traps: The Backstop Nothing Else Replaces</h2>
           <p>Every repellent on this page shares a ceiling: none of them reduces the number of mice in your garage. If the population around the vehicle keeps growing, some individual will eventually be hungry, cold, or bold enough to push through the deterrents. That is why the classic Victor wood snap trap — reviewed in full in our <Link href="/blog/best-mouse-trap-canada">best mouse trap guide</Link> — earns Best Backstop here, deployed in a specific pattern: <strong>around the car, never in it</strong>.</p>
           <p>Set traps against the garage walls (mice run wall lines, almost never open floor), along the foundation near an outdoor parking pad, and beside the tires — the on-ramps. Pea-sized smear of peanut butter, trigger end to the wall, two traps at high-evidence corners. Do not put snap traps on the engine, where they shift into belts and get forgotten, or in the cabin, where they fire underfoot; a forgotten catch decomposing in a hot engine bay is its own special consequence. Beyond removal, the trap line is also your <em>sensor network</em>: a week of untouched traps tells you the deterrents are holding, while a caught mouse tells you to tighten the perimeter before the wiring pays for the lesson. If catches are frequent or droppings are over a centimetre long, you have graduated to a different problem — see the <Link href="/blog/how-to-get-rid-of-rats-canada">rat playbook</Link> and consider a full <Link href="/blog/rodent-exclusion-kit-canada">exclusion kit</Link> for the garage itself.</p>
           <div className="not-prose my-4">
-            <BuyLink search="victor mouse trap 4 pack">Check Victor snap traps on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="victor mouse trap 4 pack">Check Victor snap traps on Amazon.ca →</BuyLink>
           </div>
 
           <h2>The Winter-Storage Protocol (Do This Before the Car Sits)</h2>

@@ -8,6 +8,7 @@ import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'best-dehumidifier-for-basement-canada'
 const DATE = '2026-07-21'
@@ -75,6 +76,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('best-dehumidifier-for-basement-canada')
+
 export default function BestDehumidifierForBasementCanadaPage() {
   return (
     <>
@@ -96,7 +99,7 @@ export default function BestDehumidifierForBasementCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="hOmeLabs 50-Pint Energy Star Dehumidifier" search="homelabs 50 pint dehumidifier" label="Best overall" />
+      <StickyBuyBar tag={AMZ_TAG} name="hOmeLabs 50-Pint Energy Star Dehumidifier" search="homelabs 50 pint dehumidifier" label="Best overall" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -119,7 +122,7 @@ export default function BestDehumidifierForBasementCanadaPage() {
 
       <section className="bg-white px-4 py-6">
         <div className="max-w-5xl mx-auto">
-          <AwardRow
+          <AwardRow tag={AMZ_TAG}
             heading="Our Picks — Best Basement Dehumidifiers in Canada"
             awards={[
               {
@@ -181,9 +184,9 @@ export default function BestDehumidifierForBasementCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the picks:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="homelabs 50 pint dehumidifier">hOmeLabs 50-pint →</BuyLink>
-            <BuyLink search="frigidaire dehumidifier 50 pint">Frigidaire high-capacity →</BuyLink>
-            <BuyLink search="midea cube dehumidifier">Midea Cube →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="homelabs 50 pint dehumidifier">hOmeLabs 50-pint →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="frigidaire dehumidifier 50 pint">Frigidaire high-capacity →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="midea cube dehumidifier">Midea Cube →</BuyLink>
           </div>
 
           <h2>How to Size a Basement Dehumidifier (Pints vs Square Feet)</h2>
@@ -212,7 +215,7 @@ export default function BestDehumidifierForBasementCanadaPage() {
                     <td className="px-4 py-3 text-gray-700">{damp}</td>
                     <td className="px-4 py-3 text-gray-700">{wet}</td>
                     <td className="px-4 py-3 text-gray-700">{pick}</td>
-                    <td className="px-4 py-3"><BuyLink search={search} block>Check price →</BuyLink></td>
+                    <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search={search} block>Check price →</BuyLink></td>
                   </tr>
                 ))}
               </tbody>

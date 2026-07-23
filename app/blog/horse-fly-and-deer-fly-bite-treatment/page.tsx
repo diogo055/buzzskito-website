@@ -7,6 +7,7 @@ import TopPick from '@/components/TopPick'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'horse-fly-and-deer-fly-bite-treatment'
 const DATE = '2026-07-13'
@@ -56,6 +57,8 @@ export const metadata: Metadata = buildMetadata({
   publishedTime: DATE,
   modifiedTime: UPDATED,
 })
+
+const AMZ_TAG = tagForSlug('horse-fly-and-deer-fly-bite-treatment')
 
 export default function HorseFlyDeerFlyBiteTreatmentPage() {
   return (
@@ -141,11 +144,11 @@ export default function HorseFlyDeerFlyBiteTreatmentPage() {
 
           <p className="not-prose text-sm text-gray-600 mb-1">Two things that make a painful fly bite bearable:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="after bite itch relief">Check after-bite relief on Amazon →</BuyLink>
-            <BuyLink search="hydrocortisone anti itch cream">Compare hydrocortisone creams →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="after bite itch relief">Check after-bite relief on Amazon →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="hydrocortisone anti itch cream">Compare hydrocortisone creams →</BuyLink>
           </div>
 
-          <TopPick
+          <TopPick tag={AMZ_TAG}
             label="Our Top Pick for Bite Relief"
             name="Hydrocortisone 1% Anti-Itch Cream"
             blurb="For the itch and inflammation of a horse fly or deer fly bite, a 1% hydrocortisone cream is the most reliable over-the-counter fix — it calms the immune reaction to the fly's saliva so the welt stops itching and settles faster. Keep a tube in the car or bag through fly season."
@@ -168,7 +171,7 @@ export default function HorseFlyDeerFlyBiteTreatmentPage() {
             <li><strong>Do not scratch.</strong> Scratching reopens the cut and pushes in bacteria — the main path to a secondary infection. Cover a weeping bite with a clean bandage.</li>
             <li><strong>Manage the pain.</strong> If the bite is genuinely sore, an ordinary pain reliever such as acetaminophen or ibuprofen takes the edge off.</li>
           </ol>
-          <p>Keep an after-bite product in your bag or car during fly season so relief is on hand the moment you are bitten. <BuyLink search="after bite itch relief">Check after-bite relief on Amazon →</BuyLink></p>
+          <p>Keep an after-bite product in your bag or car during fly season so relief is on hand the moment you are bitten. <BuyLink tag={AMZ_TAG} search="after bite itch relief">Check after-bite relief on Amazon →</BuyLink></p>
 
           <aside aria-label="Professional yard protection" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
             <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Biting flies love shaded, damp yard edges</h3>

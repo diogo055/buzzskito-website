@@ -8,6 +8,7 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'best-mosquito-repellent-device-canada'
 const DATE = '2026-07-12'
@@ -63,6 +64,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('best-mosquito-repellent-device-canada')
+
 export default function BestMosquitoRepellentDeviceCanadaPage() {
   return (
     <>
@@ -84,7 +87,7 @@ export default function BestMosquitoRepellentDeviceCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="Thermacell Zone Repeller (E-Series / Patio Shield)" search="thermacell patio shield" label="Best overall" />
+      <StickyBuyBar tag={AMZ_TAG} name="Thermacell Zone Repeller (E-Series / Patio Shield)" search="thermacell patio shield" label="Best overall" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -130,7 +133,7 @@ export default function BestMosquitoRepellentDeviceCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">6 m / ~20 ft zone</td>
                   <td className="px-4 py-3 text-gray-700">Patio, deck, camping</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$35 – $229</td>
-                  <td className="px-4 py-3"><BuyLink search="thermacell patio shield" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="thermacell patio shield" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Propane CO₂ trap</td>
@@ -138,7 +141,7 @@ export default function BestMosquitoRepellentDeviceCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Up to 1 acre</td>
                   <td className="px-4 py-3 text-gray-700">Cottages, rural acreage</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$400 – $1,300</td>
-                  <td className="px-4 py-3"><BuyLink search="mosquito magnet trap" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="mosquito magnet trap" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">UV + fan trap (DynaTrap)</td>
@@ -146,7 +149,7 @@ export default function BestMosquitoRepellentDeviceCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">300 sq ft – 1 acre</td>
                   <td className="px-4 py-3 text-gray-700">Supplemental insect catch</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$79 – $330</td>
-                  <td className="px-4 py-3"><BuyLink search="dynatrap insect trap" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="dynatrap insect trap" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Propane / electric fogger</td>
@@ -154,7 +157,7 @@ export default function BestMosquitoRepellentDeviceCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Temporary knockdown</td>
                   <td className="px-4 py-3 text-gray-700">Pre-event, few hours</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$40 – $150</td>
-                  <td className="px-4 py-3"><BuyLink search="propane mosquito fogger" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="propane mosquito fogger" block>Check price →</BuyLink></td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 font-bold text-brand-800">Bug zapper <span className="font-normal text-xs text-rose-500">✗ worst</span></td>
@@ -162,7 +165,7 @@ export default function BestMosquitoRepellentDeviceCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Small radius</td>
                   <td className="px-4 py-3 text-gray-700">Not mosquitoes (moths/beetles)</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$30 – $120</td>
-                  <td className="px-4 py-3"><BuyLink search="electric bug zapper outdoor" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="electric bug zapper outdoor" block>Check price →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -180,7 +183,7 @@ export default function BestMosquitoRepellentDeviceCanadaPage() {
 
       <section className="bg-white px-4 py-6">
         <div className="max-w-5xl mx-auto">
-          <AwardRow
+          <AwardRow tag={AMZ_TAG}
             heading="Our Picks — Best Mosquito Repellent Devices in Canada"
             awards={[
               {
@@ -265,9 +268,9 @@ export default function BestMosquitoRepellentDeviceCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Jump straight to a live Canadian price check by device type:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="thermacell patio shield">Thermacell on Amazon.ca →</BuyLink>
-            <BuyLink search="mosquito magnet trap">Propane CO₂ trap →</BuyLink>
-            <BuyLink search="dynatrap insect trap">UV trap →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="thermacell patio shield">Thermacell on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="mosquito magnet trap">Propane CO₂ trap →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="dynatrap insect trap">UV trap →</BuyLink>
           </div>
 
           <h2 id="ranked">The 5 Mosquito Repellent Devices, Ranked</h2>
@@ -277,8 +280,8 @@ export default function BestMosquitoRepellentDeviceCanadaPage() {
           <p>Thermacell units heat a repellent mat or cartridge (metofluthrin or prallethrin) to release an invisible vapour that mosquitoes actively avoid. Within about 15 minutes you get a roughly 6-metre (20-foot) protection zone with no smoke, no spray on your skin, and no open flame on the newer rechargeable models. Independent and manufacturer testing consistently shows 70–95% fewer bites inside the zone, which is why it is the device we recommend most for patios, decks, camping, and fishing.</p>
           <p>The lineup ranges from the $35–$45 E-Series / Patio Shield up to the $110–$160 rechargeable EL55 and E90, and the $199–$229 Liv smart-home system that networks multiple repellers around a yard. Budget $12–$30 for refill mats and fuel. It does not kill mosquitoes or cover a whole yard — it protects a bubble — but for personal comfort per dollar, nothing else comes close.</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="thermacell patio shield">Check Thermacell price on Amazon.ca →</BuyLink>
-            <BuyLink search="thermacell refill mats">Refill mats &amp; fuel →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="thermacell patio shield">Check Thermacell price on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="thermacell refill mats">Refill mats &amp; fuel →</BuyLink>
           </div>
           <p>Full breakdown: <Link href="/blog/thermacell-canada-where-to-buy">Thermacell Canada — where to buy and do they work</Link>.</p>
 
@@ -286,7 +289,7 @@ export default function BestMosquitoRepellentDeviceCanadaPage() {
           <p>Propane traps such as the Mosquito Magnet burn propane to generate CO₂, heat, and moisture that mimic a breathing human. Female mosquitoes are lured in and vacuumed into a net. This is the only device category with strong independent evidence of actually <em>reducing</em> mosquito numbers — 70–90% over 6–8 weeks of continuous running within about a 1-acre radius.</p>
           <p>The catch is cost and patience: $400–$1,300 for the device plus $400–$600 a season in propane and attractant cartridges, and it does nothing for tonight&rsquo;s barbecue because it works over weeks, not hours. It earns its keep on cottage and rural acreage, not on a fenced suburban lot where the neighbours&rsquo; yards keep restocking the population.</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="mosquito magnet trap">Check propane trap price on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="mosquito magnet trap">Check propane trap price on Amazon.ca →</BuyLink>
           </div>
           <p>Full breakdown: <Link href="/blog/mosquito-magnet-canada">Mosquito Magnet Canada — where to buy and do they work</Link>.</p>
 
@@ -294,20 +297,20 @@ export default function BestMosquitoRepellentDeviceCanadaPage() {
           <p>UV traps use an ultraviolet light to attract flying insects and a fan to suck them into a basket. They are quiet, chemical-free, and satisfying to empty — but peer-reviewed testing (University of Florida; Notre Dame) finds mosquitoes make up only about 5% of the catch; the rest is moths, beetles, and midges. An octenol booster cartridge nudges the mosquito share up a little, not enough to rival a propane trap.</p>
           <p>Priced $79–$330 plus $90–$150 a season in bulbs and cartridges, a UV trap is a fine <em>supplemental</em> gadget on a cottage deck, but it should never be your primary mosquito plan.</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="dynatrap insect trap">Check UV trap price on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="dynatrap insect trap">Check UV trap price on Amazon.ca →</BuyLink>
           </div>
           <p>Full breakdown: <Link href="/blog/dynatrap-canada-review">DynaTrap Canada — honest review</Link>.</p>
 
           <h3>4. Foggers — fast, brief knockdown before an event</h3>
           <p>Propane and electric foggers disperse an insecticide mist that knocks down adult mosquitoes in an area within minutes. Priced $40–$150 with $15–$40 refill cans, they are useful for clearing a yard an hour or two before a party — but the effect is short-lived because there is no lasting residual. Fog drifts, needs calm weather, and requires keeping kids and pets off the treated area until it dries. Think of a fogger as a one-time reset, not a season-long solution.</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="propane mosquito fogger">Check fogger price on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="propane mosquito fogger">Check fogger price on Amazon.ca →</BuyLink>
           </div>
 
           <h3>5. Bug zappers — worst for mosquitoes</h3>
           <p>Electric bug zappers lure insects with UV light and electrocute them on a charged grid. They are cheap ($30–$120) and oddly satisfying, but they are the wrong tool for mosquitoes: a landmark University of Delaware study found mosquitoes and other biting insects made up well under 1% of what zappers kill, while the bulk were harmless — and sometimes beneficial — beetles and moths. Worse, the light can draw more insects toward your yard. Buy one if you hate moths near a porch light; do not buy one expecting fewer mosquito bites.</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="electric bug zapper outdoor">Check bug zapper price on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="electric bug zapper outdoor">Check bug zapper price on Amazon.ca →</BuyLink>
           </div>
 
           <div className="not-prose my-6 rounded-xl bg-emerald-50 border-l-4 border-emerald-500 p-5">
@@ -324,8 +327,8 @@ export default function BestMosquitoRepellentDeviceCanadaPage() {
           </ul>
           <p>Rule of thumb: buy a <strong>repellent machine</strong> (Thermacell) for same-day patio comfort, and only add a <strong>killer machine</strong> (a propane CO₂ trap) if you have rural acreage worth thinning over the whole season. For a whole yard plus ticks — which no machine of either type controls — pair either with <Link href="/mosquito-control">professional barrier spray</Link>.</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="thermacell patio shield">Repellent machine (Thermacell) →</BuyLink>
-            <BuyLink search="mosquito magnet trap">Killer machine (propane CO₂ trap) →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="thermacell patio shield">Repellent machine (Thermacell) →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="mosquito magnet trap">Killer machine (propane CO₂ trap) →</BuyLink>
           </div>
 
           <h2>Repel vs Kill: Which Do You Actually Need?</h2>

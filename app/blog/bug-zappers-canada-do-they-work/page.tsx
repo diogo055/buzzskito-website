@@ -8,6 +8,7 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'bug-zappers-canada-do-they-work'
 const DATE = '2026-05-01'
@@ -78,6 +79,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('bug-zappers-canada-do-they-work')
+
 export default function BugZappersCanadaPage() {
   return (
     <>
@@ -100,7 +103,7 @@ export default function BugZappersCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="Flowtron BK-40D Electronic Insect Killer" search="flowtron bk-40d bug zapper" label="If you must buy one" />
+      <StickyBuyBar tag={AMZ_TAG} name="Flowtron BK-40D Electronic Insect Killer" search="flowtron bk-40d bug zapper" label="If you must buy one" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -178,7 +181,7 @@ export default function BugZappersCanadaPage() {
 
       <section className="bg-white px-4 py-6">
         <div className="max-w-5xl mx-auto">
-          <AwardRow
+          <AwardRow tag={AMZ_TAG}
             heading="Our Picks — Best Bug Zappers in Canada (for the Moths & Gnats They Actually Kill)"
             awards={[
               {
@@ -274,7 +277,7 @@ export default function BugZappersCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Short version: electric zappers don&rsquo;t reduce mosquito bites. If you want a plug-in device that actually targets mosquitoes, a CO₂/UV trap like DynaTrap is the honest pick:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="dynatrap mosquito trap">See a real mosquito trap on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="dynatrap mosquito trap">See a real mosquito trap on Amazon.ca →</BuyLink>
           </div>
           <h2>Why Bug Zappers Don&rsquo;t Work for Mosquitoes</h2>
           <p>The biology is simple. UV light attracts insects with strong phototactic responses — moths, beetles, mayflies, and other species that use moonlight and starlight for navigation. Female mosquitoes (the only ones that bite) are not strongly UV-responsive — they hunt for blood meals using CO₂ exhalation, body heat, lactic acid in sweat, and other skin compounds.</p>
@@ -319,7 +322,7 @@ export default function BugZappersCanadaPage() {
           </div>
           <p className="not-prose text-sm text-gray-600 mb-1">Shopping for a patio zapper to knock down moths and gnats? The Flowtron line is the Canadian default:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="flowtron bug zapper outdoor">Check Flowtron price on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="flowtron bug zapper outdoor">Check Flowtron price on Amazon.ca →</BuyLink>
           </div>
           <p><strong>Reality check:</strong> none of these will noticeably reduce the mosquitoes biting you &mdash; that isn&rsquo;t what they&rsquo;re built for. If mosquitoes are the actual problem, a <Link href="/blog/thermacell-canada-where-to-buy">Thermacell patio zone</Link> or licensed <Link href="/mosquito-control">barrier spray</Link> will do more in one evening than a season of zapping moths.</p>
 
@@ -327,7 +330,7 @@ export default function BugZappersCanadaPage() {
           <p>Solar bug zappers have taken off because they need no outlet &mdash; you stake one anywhere in the yard and a small panel charges a battery by day to run the UV light and electric grid after dark. For cordless placement (a far corner of the lot, a dock, a campsite) they&rsquo;re genuinely handy. Two honest caveats for Canadian yards: (1) the UV output on budget solar units is weak, so the kill radius is a few metres, not a whole yard; and (2) after a cloudy GTA day the battery may only run a couple of hours before it dies. Like every zapper, they catch mostly moths and gnats &mdash; not the female mosquitoes that actually bite.</p>
           <p className="not-prose text-sm text-gray-600 mb-1">Want a stake-anywhere solar zapper for a spot with no power nearby?</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="solar bug zapper outdoor">See solar bug zappers on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="solar bug zapper outdoor">See solar bug zappers on Amazon.ca →</BuyLink>
           </div>
           <p>We&rsquo;ve tested the solar category in depth — coverage radius, battery life after cloudy days, and which units survive a Canadian season — in our <Link href="/blog/best-solar-bug-zapper-canada">best solar bug zappers in Canada guide</Link>.</p>
 
@@ -363,8 +366,8 @@ export default function BugZappersCanadaPage() {
           <p>If you&rsquo;ve settled on the big Flowtron (the unit most Canadians end up buying), read our dedicated <Link href="/blog/flowtron-bug-zapper-canada">Flowtron bug zapper Canada review</Link> first &mdash; it covers the BK-15D vs BK-40D vs BK-80D sizing and the octenol-cartridge question. For cordless spots, the <Link href="/blog/best-solar-bug-zapper-canada">solar zapper roundup</Link> ranks what&rsquo;s actually worth buying.</p>
           <p className="not-prose text-sm text-gray-600 mb-1">Check today&rsquo;s Amazon.ca pricing before you drive to a store:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="flowtron bk-40d bug zapper">Check Flowtron BK-40D price →</BuyLink>
-            <BuyLink search="bug zapper outdoor">Browse outdoor bug zappers →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="flowtron bk-40d bug zapper">Check Flowtron BK-40D price →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="bug zapper outdoor">Browse outdoor bug zappers →</BuyLink>
           </div>
 
           <h2>What ACTUALLY Works for Canadian Mosquitoes</h2>
@@ -394,7 +397,7 @@ export default function BugZappersCanadaPage() {
           <p>One bug-zapper format does work: handheld electric racket zappers (Black Flag Executioner, Stinger Indoor Racket, etc.). These look like badminton rackets with electrified mesh. When a mosquito gets inside your house, you can swat it manually — the electrified mesh kills on contact. Costs $15–$30, available at Canadian Tire, Home Depot, Walmart, Dollarama. Lasts years. Genuinely useful for the occasional indoor mosquito. We&rsquo;ve ranked the models worth buying in our <Link href="/blog/electric-fly-swatter-canada">electric fly swatter Canada guide</Link>.</p>
           <p className="not-prose text-sm text-gray-600 mb-1">The one zapper we actually keep in the house — a rechargeable electric racket for the odd mosquito that sneaks in:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="electric fly swatter racket rechargeable">Check racket zappers on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="electric fly swatter racket rechargeable">Check racket zappers on Amazon.ca →</BuyLink>
           </div>
           <p>But for OUTDOOR yard mosquito control, racket zappers obviously don&rsquo;t scale. You can&rsquo;t swat a yard&rsquo;s worth of mosquitoes one at a time.</p>
 

@@ -8,6 +8,7 @@ import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'packtite-portable-review-canada'
 const DATE = '2026-07-21'
@@ -75,6 +76,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('packtite-portable-review-canada')
+
 export default function PackTitePortableReviewCanadaPage() {
   return (
     <>
@@ -96,7 +99,7 @@ export default function PackTitePortableReviewCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="PackTite Portable bed-bug heater" search="packtite portable bed bug heater" label="Best for small items & travel" />
+      <StickyBuyBar tag={AMZ_TAG} name="PackTite Portable bed-bug heater" search="packtite portable bed bug heater" label="Best for small items & travel" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -119,7 +122,7 @@ export default function PackTitePortableReviewCanadaPage() {
 
       <section className="bg-white px-4 py-6">
         <div className="max-w-4xl mx-auto">
-          <TopPick
+          <TopPick tag={AMZ_TAG}
             label="Our Verdict — Best for Small Items & Travel"
             name="PackTite Portable (folding bed-bug heat chamber)"
             blurb="A proven, folding heat chamber that reaches a sustained 120–140°F to kill bed bugs and eggs on non-launderable items — shoes, books, bags, and travel gear. It packs flat, runs a chemical-free cycle, and does its narrow job well. Marked down only for its small capacity (no mattresses or full suitcases) and intermittent Canadian stock. If it is available at a fair price and your problem is contained items rather than furniture, it is a sound buy."
@@ -155,28 +158,28 @@ export default function PackTitePortableReviewCanadaPage() {
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Small</strong> &mdash; contained items</td>
                   <td className="px-4 py-3 text-gray-700">Shoes, books, bags, travel gear</td>
                   <td className="px-4 py-3 text-gray-700">Intermittent CA stock; no big loads</td>
-                  <td className="px-4 py-3"><BuyLink search="packtite portable bed bug heater" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="packtite portable bed bug heater" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">ZappBug heater<br /><span className="font-normal text-xs text-gray-500">boxy bag</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Small&ndash;Med</strong> &mdash; varies by model</td>
                   <td className="px-4 py-3 text-gray-700">Same items, more consistent stock</td>
                   <td className="px-4 py-3 text-gray-700">Still verify core temp on dense loads</td>
-                  <td className="px-4 py-3"><BuyLink search="zappbug bed bug heater" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="zappbug bed bug heater" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">ThermalStrike Ranger<br /><span className="font-normal text-xs text-gray-500">luggage-scale bag</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Medium</strong> &mdash; suitcase-friendly</td>
                   <td className="px-4 py-3 text-gray-700">Luggage and larger soft loads</td>
                   <td className="px-4 py-3 text-gray-700">Bulkier to store than a folding bag</td>
-                  <td className="px-4 py-3"><BuyLink search="thermalstrike ranger bed bug heater" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="thermalstrike ranger bed bug heater" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Closet / room heater<br /><span className="font-normal text-xs text-gray-500">large chamber</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Large</strong> &mdash; wardrobe / room</td>
                   <td className="px-4 py-3 text-gray-700">Whole wardrobes and bulky items</td>
                   <td className="px-4 py-3 text-gray-700">Higher cost; needs space to set up</td>
-                  <td className="px-4 py-3"><BuyLink search="bed bug heater closet room" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bed bug heater closet room" block>Check price →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -203,9 +206,9 @@ export default function PackTitePortableReviewCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the PackTite Portable and its closest stand-ins:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="packtite portable bed bug heater">PackTite Portable →</BuyLink>
-            <BuyLink search="zappbug bed bug heater">ZappBug heater →</BuyLink>
-            <BuyLink search="thermalstrike ranger bed bug heater">ThermalStrike Ranger →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="packtite portable bed bug heater">PackTite Portable →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="zappbug bed bug heater">ZappBug heater →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="thermalstrike ranger bed bug heater">ThermalStrike Ranger →</BuyLink>
           </div>
 
           <h2>The Temperature Story: Why Heat Kills What Sprays Cannot</h2>

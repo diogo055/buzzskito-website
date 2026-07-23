@@ -8,6 +8,7 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import AuthorByline from '@/components/AuthorByline'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'black-flag-electric-fogger-review-canada'
 const DATE = '2026-07-21'
@@ -75,6 +76,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('black-flag-electric-fogger-review-canada')
+
 export default function BlackFlagElectricFoggerReviewCanadaPage() {
   return (
     <>
@@ -96,7 +99,7 @@ export default function BlackFlagElectricFoggerReviewCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="Black Flag 190107 Electric Insect Fogger" search="black flag electric fogger" label="Best-selling backyard fogger" />
+      <StickyBuyBar tag={AMZ_TAG} name="Black Flag 190107 Electric Insect Fogger" search="black flag electric fogger" label="Best-selling backyard fogger" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -118,7 +121,7 @@ export default function BlackFlagElectricFoggerReviewCanadaPage() {
 
       <section className="bg-white px-4 py-6">
         <div className="max-w-3xl mx-auto">
-          <TopPick
+          <TopPick tag={AMZ_TAG}
             label="Our Verdict — Best-Value Backyard Fogger"
             name="Black Flag 190107 Electric Insect Fogger"
             blurb="The default entry point to backyard fogging: a corded electric thermal fogger that turns a compatible fogging insecticide into a dense knockdown fog in minutes, with no propane and no fuss. It will not replace a barrier spray, but for clearing a normal-sized yard before an evening outdoors it is the most affordable, lowest-hassle machine going — provided you feed it a Canadian PMRA-registered insecticide."
@@ -154,28 +157,28 @@ export default function BlackFlagElectricFoggerReviewCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Heating coil vaporizes oil-based concentrate into dense fog</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Normal backyards</strong> within cord reach</td>
                   <td className="px-4 py-3 text-gray-700">Tethered to an outlet; hours of knockdown, not weeks</td>
-                  <td className="px-4 py-3"><BuyLink search="black flag electric fogger" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="black flag electric fogger" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Gas thermal fogger<br /><span className="font-normal text-xs text-gray-500">propane, cordless</span></td>
                   <td className="px-4 py-3 text-gray-700">Propane flame heats concentrate into fog; no cord</td>
                   <td className="px-4 py-3 text-gray-700">Acreage, rural lots, campgrounds</td>
                   <td className="px-4 py-3 text-gray-700">Heavier, pricier, needs propane cartridges</td>
-                  <td className="px-4 py-3"><BuyLink search="propane thermal fogger" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="propane thermal fogger" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">ULV cold fogger<br /><span className="font-normal text-xs text-gray-500">water-based mist</span></td>
                   <td className="px-4 py-3 text-gray-700">Air pressure atomizes water-based product &mdash; no heat, no visible cloud</td>
                   <td className="px-4 py-3 text-gray-700">Water-based products; near structures &amp; indoors</td>
                   <td className="px-4 py-3 text-gray-700">Less dramatic fog; costs more than electric thermal</td>
-                  <td className="px-4 py-3"><BuyLink search="ulv cold fogger" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="ulv cold fogger" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Battery backpack sprayer<br /><span className="font-normal text-xs text-gray-500">liquid barrier</span></td>
                   <td className="px-4 py-3 text-gray-700">Pumps liquid insecticide onto foliage as a spray, not a fog</td>
                   <td className="px-4 py-3 text-gray-700">Deliberate barrier coverage over larger yards</td>
                   <td className="px-4 py-3 text-gray-700">Slower, more physical; no drifting fog effect</td>
-                  <td className="px-4 py-3"><BuyLink search="battery backpack sprayer" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="battery backpack sprayer" block>Check price →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -202,9 +205,9 @@ export default function BlackFlagElectricFoggerReviewCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability and pricing:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="black flag electric fogger">Black Flag electric fogger →</BuyLink>
-            <BuyLink search="black flag fogging insecticide">Fogging insecticide →</BuyLink>
-            <BuyLink search="outdoor extension cord">Outdoor extension cord →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="black flag electric fogger">Black Flag electric fogger →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="black flag fogging insecticide">Fogging insecticide →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="outdoor extension cord">Outdoor extension cord →</BuyLink>
           </div>
 
           <h2>How the Thermal Fog Actually Works</h2>

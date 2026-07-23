@@ -8,6 +8,7 @@ import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { NEW_BLOGS_3, MOSQUITO_BLOGS } from '@/lib/constants'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const POST = NEW_BLOGS_3[0]
 const UPDATED = POST.date
@@ -48,6 +49,8 @@ const FAQS = [
       'Yes. BuzzSkito provides free, no-obligation quotes for all properties in Mississauga, Toronto, Brampton, Oakville, Burlington, Hamilton, and the wider GTA. Call (289) 216-5030 or submit a request online.',
   },
 ]
+
+const AMZ_TAG = tagForSlug('mosquito-control-cost-ontario')
 
 export default function MosquitoControlCostPage() {
   return (
@@ -208,7 +211,7 @@ export default function MosquitoControlCostPage() {
 
         <AffiliateDisclosure />
         <p>If you take the DIY route, the one product genuinely worth the money is BTI larvicide — Mosquito Dunks kill larvae in rain barrels, pond edges, and any standing water you can&apos;t drain, for pennies per week. They complement (but don&apos;t replace) a barrier spray, which targets the adult mosquitoes resting in your foliage.</p>
-        <TopPick
+        <TopPick tag={AMZ_TAG}
           label="Best DIY Add-On"
           name="Summit Mosquito Dunks (BTI Larvicide)"
           blurb="The one DIY product that earns its keep: a BTI (Bacillus thuringiensis israelensis) larvicide that kills mosquito larvae in standing water you can't drain — rain barrels, pond edges, low spots — for pennies per week. It won't touch adult mosquitoes resting in foliage, so pair it with barrier spray rather than relying on it alone."
@@ -218,7 +221,7 @@ export default function MosquitoControlCostPage() {
           cons={['Only works on standing water', 'Does nothing for adult mosquitoes']}
         />
         <div className="not-prose mb-6">
-          <BuyLink search="summit mosquito dunks">Check Mosquito Dunks on Amazon.ca →</BuyLink>
+          <BuyLink tag={AMZ_TAG} search="summit mosquito dunks">Check Mosquito Dunks on Amazon.ca →</BuyLink>
         </div>
 
         <h2>How to Get an Accurate Quote in the GTA</h2>

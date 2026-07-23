@@ -8,6 +8,7 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'thermacell-e90-canada-review'
 const DATE = '2026-07-14'
@@ -65,6 +66,8 @@ export const metadata: Metadata = buildMetadata({
   publishedTime: DATE,
 })
 
+const AMZ_TAG = tagForSlug('thermacell-e90-canada-review')
+
 export default function ThermacellE90CanadaReviewPage() {
   return (
     <>
@@ -86,7 +89,7 @@ export default function ThermacellE90CanadaReviewPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="Thermacell E90 Rechargeable Mosquito Repeller" search="thermacell e90 rechargeable" label="Best overall" />
+      <StickyBuyBar tag={AMZ_TAG} name="Thermacell E90 Rechargeable Mosquito Repeller" search="thermacell e90 rechargeable" label="Best overall" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -177,7 +180,7 @@ export default function ThermacellE90CanadaReviewPage() {
         <div className="max-w-3xl mx-auto prose-brand">
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
           <AffiliateDisclosure />
-          <TopPick
+          <TopPick tag={AMZ_TAG}
             name="Thermacell E90 Rechargeable Mosquito Repeller"
             blurb="The best rechargeable Thermacell you can buy in Canada in 2026. Its ~9-hour battery roughly doubles the E55's runtime, it shares the same 20-foot metofluthrin zone and E-Series refills, and with the LIV smart system unavailable here it sits at the top of the Canadian lineup. Buy the EX90 instead only if it's going camping."
             search="thermacell e90 rechargeable"
@@ -187,8 +190,8 @@ export default function ThermacellE90CanadaReviewPage() {
           />
           <p className="not-prose text-sm text-gray-600 mb-1">Compare current Canadian pricing on the two 9-hour models:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="thermacell e90 rechargeable">Check E90 price on Amazon.ca →</BuyLink>
-            <BuyLink search="thermacell ex90 adventure">Check EX90 Adventure price →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="thermacell e90 rechargeable">Check E90 price on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="thermacell ex90 adventure">Check EX90 Adventure price →</BuyLink>
           </div>
 
           <h2>What the Thermacell E90 Actually Is</h2>
@@ -233,8 +236,8 @@ export default function ThermacellE90CanadaReviewPage() {
           <p>The E90 takes E-Series metofluthrin cartridges in 12-hour, 36-hour, and 72-hour sizes. The 12-hour cartridge that comes in the box is a sampler — fine for your first weekend, expensive as a steady diet. Cost per hour of protection drops meaningfully as the cartridge size goes up, so once you know the device suits your patio, buy the 36-hour packs, or the 72-hour option if you&rsquo;re a most-evenings-outside household.</p>
           <p>Budget honestly for an Ontario season: May through September at three evenings a week &times; 2.5 hours is roughly 100 hours of runtime, call it three 36-hour cartridges or a 72-hour pack plus one spare. Two things Canadian buyers learn the hard way: refills sell down hard at GTA retailers in late June and July, so stock up in spring, and Patio Shield mats do <em>not</em> fit E-Series devices no matter how confidently the seasonal aisle shelves them side by side. Full refill-by-refill compatibility details live in our <Link href="/blog/thermacell-refills-recharge-canada">Thermacell refills and recharge guide for Canada</Link>.</p>
           <div className="not-prose my-6 flex flex-wrap gap-3">
-            <BuyLink search="thermacell e-series refill 36 hour">36-hour E-Series refills on Amazon.ca →</BuyLink>
-            <BuyLink search="thermacell e-series refill 72 hour">72-hour E-Series refills →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="thermacell e-series refill 36 hour">36-hour E-Series refills on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="thermacell e-series refill 72 hour">72-hour E-Series refills →</BuyLink>
           </div>
 
           <h2>Health Canada &amp; Safety: What the PMRA Registration Means</h2>
@@ -266,7 +269,7 @@ export default function ThermacellE90CanadaReviewPage() {
           <h2>Verdict: Who Should Buy the Thermacell E90 in 2026</h2>
           <p><strong>Buy the E90 if</strong> you want the best rechargeable spatial repeller available in Canada, you use your patio or deck several evenings a week, and you&rsquo;d rather charge once a week than mid-party. <strong>Buy the E55 instead if</strong> your outdoor sessions are short and the $20&ndash;$30 saving matters. <strong>Buy the EX90 instead if</strong> the unit is going camping or living at the cottage. Whichever you pick, buy 36-hour or 72-hour refills in spring, place the unit upwind, give it 15 minutes of head start — and treat it as the patio layer of a system, not the whole system.</p>
           <div className="not-prose my-6 flex flex-wrap gap-3">
-            <BuyLink search="thermacell e90 rechargeable">Check E90 price on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="thermacell e90 rechargeable">Check E90 price on Amazon.ca →</BuyLink>
           </div>
 
           <h2>Related Reading</h2>

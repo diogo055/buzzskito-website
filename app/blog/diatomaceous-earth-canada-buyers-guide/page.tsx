@@ -8,6 +8,7 @@ import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'diatomaceous-earth-canada-buyers-guide'
 const DATE = '2026-07-16'
@@ -69,6 +70,8 @@ export const metadata: Metadata = buildMetadata({
   publishedTime: DATE,
 })
 
+const AMZ_TAG = tagForSlug('diatomaceous-earth-canada-buyers-guide')
+
 export default function DiatomaceousEarthCanadaBuyersGuidePage() {
   return (
     <>
@@ -90,7 +93,7 @@ export default function DiatomaceousEarthCanadaBuyersGuidePage() {
         </div>
       </section>
 
-      <StickyBuyBar name="Safer's Diatomaceous Earth insect killer" search="safers diatomaceous earth" label="Our top pick" />
+      <StickyBuyBar tag={AMZ_TAG} name="Safer's Diatomaceous Earth insect killer" search="safers diatomaceous earth" label="Our top pick" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -117,7 +120,7 @@ export default function DiatomaceousEarthCanadaBuyersGuidePage() {
 
           <AffiliateDisclosure />
 
-          <AwardRow
+          <AwardRow tag={AMZ_TAG}
             heading="Our Picks — PMRA-Registered Diatomaceous Earth in Canada"
             awards={[
               {
@@ -204,10 +207,10 @@ export default function DiatomaceousEarthCanadaBuyersGuidePage() {
 
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the registered products and a duster:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="safers diatomaceous earth">Safer&rsquo;s DE →</BuyLink>
-            <BuyLink search="knock down diatomaceous earth">Knock Down DE →</BuyLink>
-            <BuyLink search="doktor doom diatomaceous earth">Doktor Doom Be Green →</BuyLink>
-            <BuyLink search="diatomaceous earth duster applicator">Bulb duster →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="safers diatomaceous earth">Safer&rsquo;s DE →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="knock down diatomaceous earth">Knock Down DE →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="doktor doom diatomaceous earth">Doktor Doom Be Green →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="diatomaceous earth duster applicator">Bulb duster →</BuyLink>
           </div>
 
           <h2>How Does Diatomaceous Earth Actually Kill Insects?</h2>
@@ -237,7 +240,7 @@ export default function DiatomaceousEarthCanadaBuyersGuidePage() {
             <li><strong>Follow the PMRA label</strong> on your specific product for listed pests and any room-by-room restrictions — it is the legal instruction set.</li>
           </ul>
           <div className="not-prose my-4">
-            <BuyLink search="diatomaceous earth duster applicator">Check bulb dusters on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="diatomaceous earth duster applicator">Check bulb dusters on Amazon.ca →</BuyLink>
           </div>
 
           <h2>Does Diatomaceous Earth Work for Bed Bugs?</h2>

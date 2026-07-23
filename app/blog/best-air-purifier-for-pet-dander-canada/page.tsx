@@ -8,6 +8,7 @@ import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'best-air-purifier-for-pet-dander-canada'
 const DATE = '2026-07-21'
@@ -75,6 +76,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('best-air-purifier-for-pet-dander-canada')
+
 export default function BestAirPurifierPetDanderCanadaPage() {
   return (
     <>
@@ -96,7 +99,7 @@ export default function BestAirPurifierPetDanderCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="Coway Airmega True HEPA air purifier" search="coway airmega air purifier hepa" label="Best overall" />
+      <StickyBuyBar tag={AMZ_TAG} name="Coway Airmega True HEPA air purifier" search="coway airmega air purifier hepa" label="Best overall" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -119,7 +122,7 @@ export default function BestAirPurifierPetDanderCanadaPage() {
 
       <section className="bg-white px-4 py-6">
         <div className="max-w-5xl mx-auto">
-          <AwardRow
+          <AwardRow tag={AMZ_TAG}
             heading="Our Picks — Best Air Purifiers for Pet Dander in Canada"
             awards={[
               {
@@ -202,35 +205,35 @@ export default function BestAirPurifierPetDanderCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Living room / large</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best</strong> &mdash; sealed True HEPA + heavy carbon</td>
                   <td className="px-4 py-3 text-gray-700">Premium filter sets</td>
-                  <td className="px-4 py-3"><BuyLink search="coway airmega air purifier hepa" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="coway airmega air purifier hepa" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Levoit Vital 200S<br /><span className="font-normal text-xs text-gray-500">best value</span></td>
                   <td className="px-4 py-3 text-gray-700">Mid-sized room</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Good</strong> &mdash; True HEPA + carbon, pet pre-filter</td>
                   <td className="px-4 py-3 text-gray-700">Undersized for open plan</td>
-                  <td className="px-4 py-3"><BuyLink search="levoit vital 200s air purifier" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="levoit vital 200s air purifier" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Levoit Core 400S<br /><span className="font-normal text-xs text-gray-500">big rooms</span></td>
                   <td className="px-4 py-3 text-gray-700">Open-plan / large</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Good</strong> &mdash; high CADR, True HEPA + carbon</td>
                   <td className="px-4 py-3 text-gray-700">Louder on top speed</td>
-                  <td className="px-4 py-3"><BuyLink search="levoit core 400s air purifier" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="levoit core 400s air purifier" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Winix True HEPA<br /><span className="font-normal text-xs text-gray-500">best odour</span></td>
                   <td className="px-4 py-3 text-gray-700">Mid-sized, odour-heavy</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Good</strong> &mdash; True HEPA + strong carbon</td>
                   <td className="px-4 py-3 text-gray-700">Turn the ioniser off</td>
-                  <td className="px-4 py-3"><BuyLink search="winix air purifier true hepa carbon pet" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="winix air purifier true hepa carbon pet" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Levoit Core 300<br /><span className="font-normal text-xs text-gray-500">best budget</span></td>
                   <td className="px-4 py-3 text-gray-700">Single bedroom</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Fair</strong> &mdash; True HEPA + thin carbon</td>
                   <td className="px-4 py-3 text-gray-700">Small rooms only</td>
-                  <td className="px-4 py-3"><BuyLink search="levoit core 300 air purifier" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="levoit core 300 air purifier" block>Check price →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -257,10 +260,10 @@ export default function BestAirPurifierPetDanderCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the main picks:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="coway airmega air purifier hepa">Coway Airmega →</BuyLink>
-            <BuyLink search="levoit vital 200s air purifier">Levoit Vital 200S →</BuyLink>
-            <BuyLink search="levoit core 400s air purifier">Levoit Core 400S →</BuyLink>
-            <BuyLink search="levoit core 300 air purifier">Levoit Core 300 →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="coway airmega air purifier hepa">Coway Airmega →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="levoit vital 200s air purifier">Levoit Vital 200S →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="levoit core 400s air purifier">Levoit Core 400S →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="levoit core 300 air purifier">Levoit Core 300 →</BuyLink>
           </div>
 
           <h2>How Air Purifiers Actually Remove Pet Dander</h2>

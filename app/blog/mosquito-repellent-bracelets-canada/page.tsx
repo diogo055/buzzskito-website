@@ -8,6 +8,7 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'mosquito-repellent-bracelets-canada'
 const DATE = '2026-07-12'
@@ -55,6 +56,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('mosquito-repellent-bracelets-canada')
+
 export default function MosquitoRepellentBraceletsCanadaPage() {
   return (
     <>
@@ -76,7 +79,7 @@ export default function MosquitoRepellentBraceletsCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="PARA'KITO refillable repellent band" search="parakito mosquito bracelet" label="Best-value band" />
+      <StickyBuyBar tag={AMZ_TAG} name="PARA'KITO refillable repellent band" search="parakito mosquito bracelet" label="Best-value band" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -98,7 +101,7 @@ export default function MosquitoRepellentBraceletsCanadaPage() {
 
       <section className="bg-white px-4 py-6">
         <div className="max-w-5xl mx-auto">
-          <AwardRow
+          <AwardRow tag={AMZ_TAG}
             heading="Our Picks — Best Mosquito Repellent Bracelets in Canada"
             awards={[
               {
@@ -231,8 +234,8 @@ export default function MosquitoRepellentBraceletsCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Compare current Canadian prices on the best-rated bands and refills:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="parakito mosquito bracelet">Check refillable band price on Amazon.ca →</BuyLink>
-            <BuyLink search="citronella mosquito bracelet">Citronella band multipacks →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="parakito mosquito bracelet">Check refillable band price on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="citronella mosquito bracelet">Citronella band multipacks →</BuyLink>
           </div>
 
           <h2 id="best">Best-Rated Mosquito Repellent Bracelets in Canada</h2>
@@ -254,33 +257,33 @@ export default function MosquitoRepellentBraceletsCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Refillable pellets</td>
                   <td className="px-4 py-3 text-gray-700">Season-long value · kids</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$18 – $30</td>
-                  <td className="px-4 py-3"><BuyLink search="parakito mosquito band" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="parakito mosquito band" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Citronella Disposable <span className="font-normal text-xs text-gray-500">(10-pk)</span></td>
                   <td className="px-4 py-3 text-gray-700">Disposable</td>
                   <td className="px-4 py-3 text-gray-700">Cheap · parties · one-offs</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$8 – $15</td>
-                  <td className="px-4 py-3"><BuyLink search="citronella mosquito bracelet 10 pack" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="citronella mosquito bracelet 10 pack" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Mosquito Guard Bands</td>
                   <td className="px-4 py-3 text-gray-700">Disposable</td>
                   <td className="px-4 py-3 text-gray-700">DEET-free · kids&rsquo; wrists</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$10 – $16</td>
-                  <td className="px-4 py-3"><BuyLink search="mosquito guard repellent bracelet" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="mosquito guard repellent bracelet" block>Check price →</BuyLink></td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 font-bold text-brand-800">Invisaband <span className="font-normal text-xs text-gray-500">(bulk)</span></td>
                   <td className="px-4 py-3 text-gray-700">Disposable</td>
                   <td className="px-4 py-3 text-gray-700">Party packs · camping trips</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$12 – $22</td>
-                  <td className="px-4 py-3"><BuyLink search="invisaband citronella bracelet" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="invisaband citronella bracelet" block>Check price →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
           </div>
-          <p className="not-prose text-sm text-gray-600 mb-6">Buying a refillable band? Grab a pack of replacement pellets at the same time — each lasts roughly 7–15 days, so a few packs cover a full May–September season. <BuyLink search="parakito refill pellets">Check refill pellet price →</BuyLink></p>
+          <p className="not-prose text-sm text-gray-600 mb-6">Buying a refillable band? Grab a pack of replacement pellets at the same time — each lasts roughly 7–15 days, so a few packs cover a full May–September season. <BuyLink tag={AMZ_TAG} search="parakito refill pellets">Check refill pellet price →</BuyLink></p>
 
           <div className="not-prose my-6 rounded-xl bg-emerald-50 border-l-4 border-emerald-500 p-5">
             <p className="text-sm font-extrabold text-emerald-900 mb-1">Do mosquito bracelets actually work? The honest answer.</p>

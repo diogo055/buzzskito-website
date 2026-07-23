@@ -8,6 +8,7 @@ import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'how-to-keep-mice-out-of-your-car'
 const DATE = '2026-07-21'
@@ -75,6 +76,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('how-to-keep-mice-out-of-your-car')
+
 export default function HowToKeepMiceOutOfYourCarPage() {
   return (
     <>
@@ -96,7 +99,7 @@ export default function HowToKeepMiceOutOfYourCarPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="Capsaicin rodent deterrent tape (wire-wrap style)" search="rodent deterrent tape capsaicin wire" label="Best deterrent" />
+      <StickyBuyBar tag={AMZ_TAG} name="Capsaicin rodent deterrent tape (wire-wrap style)" search="rodent deterrent tape capsaicin wire" label="Best deterrent" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -119,7 +122,7 @@ export default function HowToKeepMiceOutOfYourCarPage() {
 
       <section className="bg-white px-4 py-6">
         <div className="max-w-5xl mx-auto">
-          <AwardRow
+          <AwardRow tag={AMZ_TAG}
             heading="Our Picks — Best Tools to Keep Mice Out of a Car"
             awards={[
               {
@@ -188,19 +191,19 @@ export default function HowToKeepMiceOutOfYourCarPage() {
                   <td className="px-4 py-3 font-bold text-brand-800">Capsaicin rodent tape</td>
                   <td className="px-4 py-3 text-gray-700">Chili-pepper-treated harness tape; gnawing mice get an irritant burn at the wire</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Works</strong> on what you can wrap</td>
-                  <td className="px-4 py-3"><BuyLink search="rodent deterrent tape capsaicin wire" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="rodent deterrent tape capsaicin wire" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Snap traps around the car</td>
                   <td className="px-4 py-3 text-gray-700">Perimeter trap line along garage walls intercepts mice before they climb a tire</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Works</strong> &mdash; essential for stored cars</td>
-                  <td className="px-4 py-3"><BuyLink search="victor mouse trap 4 pack" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="victor mouse trap 4 pack" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Under-hood strobe/ultrasonic</td>
                   <td className="px-4 py-3 text-gray-700">Intermittent LED flashes (useful) plus ultrasonic sound (rodents habituate)</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Partial</strong> &mdash; strobe layer only, never solo</td>
-                  <td className="px-4 py-3"><BuyLink search="under hood rodent repeller strobe light battery" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="under hood rodent repeller strobe light battery" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Peppermint oil / scent sprays</td>
@@ -278,9 +281,9 @@ export default function HowToKeepMiceOutOfYourCarPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the three picks:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="rodent deterrent tape capsaicin wire">Capsaicin rodent tape →</BuyLink>
-            <BuyLink search="under hood rodent repeller strobe light battery">Under-hood strobe unit →</BuyLink>
-            <BuyLink search="victor mouse trap 4 pack">Snap traps (multi-pack) →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="rodent deterrent tape capsaicin wire">Capsaicin rodent tape →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="under hood rodent repeller strobe light battery">Under-hood strobe unit →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="victor mouse trap 4 pack">Snap traps (multi-pack) →</BuyLink>
           </div>
 
           <h2>Layer 1: Parking Strategy — the Free Fix That Outperforms Every Product</h2>
@@ -297,14 +300,14 @@ export default function HowToKeepMiceOutOfYourCarPage() {
           <p>Aftermarket capsaicin tapes are now widely available, and application is a wrap-what-you-can-reach job: the main accessible harness runs across the top and back of the engine, battery cables, wiring near the firewall grommets, and the ledges and cable channels mice use as highways into the bay. Wear disposable gloves — capsaicin does not distinguish between mouse mouths and human eyes — and expect a roll or two to cover the reachable runs on a typical vehicle. Its honest limits: you cannot wrap the loom buried behind the intake manifold, it deters chewing rather than expelling an established nest, and it protects wiring, not your cabin-air filter.</p>
           <p>One Canadian compliance note, because this category is murkier than traps: tape, traps, and strobe lights sold purely as physical deterrent devices do not need pesticide registration, but any product that claims to kill or repel pests as a pesticide is regulated by Health Canada&rsquo;s PMRA and must carry a PCP registration number on its label. Capsaicin-treated tapes sit near that line and marketing claims vary by brand — so read the label of the specific product you buy, check for a PCP number if the packaging makes repellent claims, and treat any listing that promises &ldquo;guaranteed rodent-proof&rdquo; with the skepticism it deserves. We keep a deeper product-by-product breakdown in our companion guide to the <Link href="/blog/best-rodent-repellent-for-cars-canada">best rodent repellents for cars in Canada</Link>.</p>
           <div className="not-prose my-4">
-            <BuyLink search="rodent deterrent tape capsaicin wire">Check capsaicin rodent tape on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="rodent deterrent tape capsaicin wire">Check capsaicin rodent tape on Amazon.ca →</BuyLink>
           </div>
 
           <h2>Layer 3: Under-Hood Repellers — What the Strobe Does and the Ultrasound Doesn&rsquo;t</h2>
           <p>Battery- or vehicle-powered under-hood units combining ultrasonic sound with flashing LED strobes are the best-selling &ldquo;mice in car&rdquo; product online, so let us be precise about what you are buying. The ultrasonic half rides on weak evidence: decades of testing show rodents habituate to constant or patterned ultrasound within days, the sound does not bend around engine components, and regulators have repeatedly challenged manufacturers&rsquo; claims — we walk through the studies in our <Link href="/blog/ultrasonic-pest-repellers-do-they-work">ultrasonic repeller evidence review</Link>, and nothing about mounting the same technology under a hood changes the biology.</p>
           <p>The strobe half is more defensible, for a mechanistic reason: mice choose engine bays because they are dark, enclosed, and predictable, and a bright intermittent flash inside that cavity attacks the exact feature they came for. It is not a force field — a determined mouse in a cold snap can decide a flashing nest beats a frozen one — but as one layer on a stored vehicle it has a logic that pure ultrasound lacks. Buy a unit for the strobe, treat the ultrasound as free packaging, choose a battery model unless you are comfortable wiring an always-on accessory to a stored battery, and put a battery check on the same schedule as your trap checks.</p>
           <div className="not-prose my-4">
-            <BuyLink search="under hood rodent repeller strobe light battery">Check under-hood strobe units on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="under hood rodent repeller strobe light battery">Check under-hood strobe units on Amazon.ca →</BuyLink>
           </div>
 
           <h2>Layer 4: The Trap Line — Non-Negotiable for Stored Vehicles</h2>
@@ -312,7 +315,7 @@ export default function HowToKeepMiceOutOfYourCarPage() {
           <p>Set classic wood snap traps with the trigger end touching the baseboard every 2&ndash;3 metres along the garage walls, doubling up in the corners nearest each wheel, with a pea-sized smear of peanut butter pressed into each trigger. Six traps is a sensible minimum around a stored vehicle; set them all on night one, since first-night catch rates beat every night after. If activity is clearly inside the cabin, add a trap on a floor mat overnight — and leave yourself a note on the steering wheel so it is gone before you drive. The full placement science, bait notes, and the electronic no-touch option are in our <Link href="/blog/best-mouse-trap-canada">best mouse trap guide</Link>; if the droppings you are finding are over a centimetre long, you have a bigger tenant, and the <Link href="/blog/how-to-get-rid-of-rats-canada">rat playbook</Link> is the right page instead.</p>
           <p>After the traps go quiet — 7 to 10 nights with no catches and no fresh droppings — clean before you deter. Wear disposable gloves, wet droppings and nest material with disinfectant before wiping (never dry-sweep or vacuum them; dust from rodent droppings can carry pathogens), double-bag the debris, and replace the cabin-air filter, which doubles as both nest site and pathogen reservoir. Then apply the tape and strobe layers to keep the vacancy permanent.</p>
           <div className="not-prose my-4">
-            <BuyLink search="victor mouse trap 4 pack">Check snap trap multi-packs on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="victor mouse trap 4 pack">Check snap trap multi-packs on Amazon.ca →</BuyLink>
           </div>
 
           <h2>What About Steel Wool and Sealing? (The Honest Limits)</h2>

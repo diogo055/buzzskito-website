@@ -8,6 +8,7 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'best-indoor-fly-mosquito-trap-canada'
 const DATE = '2026-07-12'
@@ -58,6 +59,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('best-indoor-fly-mosquito-trap-canada')
+
 export default function BestIndoorFlyMosquitoTrapCanadaPage() {
   return (
     <>
@@ -79,7 +82,7 @@ export default function BestIndoorFlyMosquitoTrapCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="Katchy Indoor Insect Trap (UV + fan + glue board)" search="katchy indoor insect trap uv fan" label="Best overall indoor" />
+      <StickyBuyBar tag={AMZ_TAG} name="Katchy Indoor Insect Trap (UV + fan + glue board)" search="katchy indoor insect trap uv fan" label="Best overall indoor" />
 
       {/* Quick Answer — AI-extraction block */}
       <section className="bg-white px-4">
@@ -103,7 +106,7 @@ export default function BestIndoorFlyMosquitoTrapCanadaPage() {
       {/* Our Picks — award row */}
       <section className="bg-white px-4 py-6">
         <div className="max-w-5xl mx-auto">
-          <AwardRow
+          <AwardRow tag={AMZ_TAG}
             heading="Our Picks — Best Indoor Fly & Mosquito Traps in Canada"
             awards={[
               {
@@ -178,28 +181,28 @@ export default function BestIndoorFlyMosquitoTrapCanadaPage() {
                   <td className="px-4 py-3 text-gray-800">UV + fan + glue board</td>
                   <td className="px-4 py-3 text-gray-700">Small–medium (bedroom, kitchen)</td>
                   <td className="px-4 py-3 text-gray-700">Glue boards ~$13–18 / 4-pack</td>
-                  <td className="px-4 py-3"><BuyLink search="katchy indoor insect trap uv fan" block>Check price &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="katchy indoor insect trap uv fan" block>Check price &rarr;</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Best for large rooms</td>
                   <td className="px-4 py-3 text-gray-800">UV + fan suction (no refill)</td>
                   <td className="px-4 py-3 text-gray-700">Up to ~600 sq ft</td>
                   <td className="px-4 py-3 text-gray-700">None — rinse the basket</td>
-                  <td className="px-4 py-3"><BuyLink search="dynatrap indoor insect trap dt160" block>Check price &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="dynatrap indoor insect trap dt160" block>Check price &rarr;</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Best plug-in (set &amp; forget)</td>
                   <td className="px-4 py-3 text-gray-800">UV + sticky cartridge</td>
                   <td className="px-4 py-3 text-gray-700">Small (nightstand outlet)</td>
                   <td className="px-4 py-3 text-gray-700">Cartridges ~$10–14 each</td>
-                  <td className="px-4 py-3"><BuyLink search="zevo flying insect trap plug in" block>Check price &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="zevo flying insect trap plug in" block>Check price &rarr;</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 last:border-0">
                   <td className="px-4 py-3 font-bold text-brand-800">Best budget / garage</td>
                   <td className="px-4 py-3 text-gray-800">UV glue-board wall unit</td>
                   <td className="px-4 py-3 text-gray-700">Medium (garage, entryway)</td>
                   <td className="px-4 py-3 text-gray-700">Glue cards ~$12 / 6-pack</td>
-                  <td className="px-4 py-3"><BuyLink search="indoor fly trap uv light glue board plug in" block>Check price &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="indoor fly trap uv light glue board plug in" block>Check price &rarr;</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -274,8 +277,8 @@ export default function BestIndoorFlyMosquitoTrapCanadaPage() {
           </ul>
 
           <div className="not-prose my-6 flex flex-wrap gap-3">
-            <BuyLink search="katchy indoor insect trap uv fan glue">Best-overall indoor trap on Amazon.ca &rarr;</BuyLink>
-            <BuyLink search="indoor insect trap glue board refills">Glue-board refills &rarr;</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="katchy indoor insect trap uv fan glue">Best-overall indoor trap on Amazon.ca &rarr;</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="indoor insect trap glue board refills">Glue-board refills &rarr;</BuyLink>
           </div>
 
           <h2>Stop the Flies and Mosquitoes at the Source</h2>

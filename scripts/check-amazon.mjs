@@ -29,6 +29,16 @@ if (!process.env.PUBLIC_AMAZON_TAG && !process.env.NEXT_PUBLIC_AMAZON_TAG) {
 }
 
 const TAG = process.env.PUBLIC_AMAZON_TAG ?? process.env.NEXT_PUBLIC_AMAZON_TAG ?? ''
+// Per-cluster tracking IDs (mirror of lib/amazon-clusters.ts — kept independent on
+// purpose so the guard doesn't import app code). Any Amazon URL may carry the
+// default tag OR one of these; anything else (or no tag) is a violation.
+const CLUSTER_TAGS = [
+  'buzzskito-mosquito-20', 'buzzskito-tick-20', 'buzzskito-bedbug-20', 'buzzskito-rodent-20',
+  'buzzskito-wildlife-20', 'buzzskito-flies-20', 'buzzskito-airpurifier-20', 'buzzskito-dehumidifier-20',
+  'buzzskito-fogger-20', 'buzzskito-sprayer-20', 'buzzskito-steamer-20', 'buzzskito-wasp-20',
+  'buzzskito-ant-20', 'buzzskito-roach-20', 'buzzskito-general-20',
+]
+const VALID_TAGS = TAG ? [TAG, ...CLUSTER_TAGS] : []
 const ROOT = '.next'
 const URL_RE = /https?:\/\/[^\s"'<>\\)]*(amazon\.(?:ca|com)|amzn\.to|media-amazon|amazon-adsystem)[^\s"'<>\\)]*/gi
 const ASSET_RE = /media-amazon|amazon-adsystem/i
@@ -69,7 +79,7 @@ for (const f of files) {
     for (const m of matches) {
       if (ASSET_RE.test(m)) violations.push([f, i + 1, m, 'hotlinked Amazon asset — never allowed'])
       else if (!TAG) violations.push([f, i + 1, m, 'Amazon URL present but PUBLIC_AMAZON_TAG is unset (output must be zero)'])
-      else if (!m.includes(`tag=${TAG}`)) violations.push([f, i + 1, m, `Amazon URL missing tag=${TAG}`])
+      else if (!VALID_TAGS.some((t) => m.includes(`tag=${t}`))) violations.push([f, i + 1, m, `Amazon URL missing a valid tag (default ${TAG} or a cluster tag)`])
     }
   })
 }
@@ -85,5 +95,5 @@ if (violations.length) {
 
 console.log(
   `✓ check:amazon passed — scanned ${files.length} crawler-visible files. ` +
-  (TAG ? `Every Amazon URL carries tag=${TAG}.` : `Zero Amazon URLs in output (no tag configured — fail-closed).`)
+  (TAG ? `Every Amazon URL carries a valid tag (default ${TAG} or one of ${CLUSTER_TAGS.length} cluster tags).` : `Zero Amazon URLs in output (no tag configured — fail-closed).`)
 )

@@ -7,6 +7,7 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'how-to-remove-tick-from-dog-ontario'
 const DATE = '2026-04-26'
@@ -55,6 +56,8 @@ export const metadata: Metadata = buildMetadata({
   type: 'article',
   publishedTime: DATE,
 })
+
+const AMZ_TAG = tagForSlug('how-to-remove-tick-from-dog-ontario')
 
 export default function HowToRemoveTickFromDogPage() {
   return (
@@ -106,9 +109,9 @@ export default function HowToRemoveTickFromDogPage() {
             <li><strong>Pull straight up with slow, steady pressure.</strong> No twisting. No jerking. The tick will release after 5–15 seconds.</li>
             <li><strong>Clean the bite</strong> with rubbing alcohol or soap and water. Wash your hands. Save the tick in a sealed plastic bag with a damp paper towel — your vet may want to identify the species.</li>
           </ol>
-          <p>A dedicated fine-tipped tick-removal tool grips the head cleanly and lowers the chance of leaving mouthparts behind — far better than pinching with fingers. It&rsquo;s worth keeping one in the dog-walk kit and one at home: <BuyLink search="tick removal tool tweezers">Check price on Amazon.ca →</BuyLink></p>
+          <p>A dedicated fine-tipped tick-removal tool grips the head cleanly and lowers the chance of leaving mouthparts behind — far better than pinching with fingers. It&rsquo;s worth keeping one in the dog-walk kit and one at home: <BuyLink tag={AMZ_TAG} search="tick removal tool tweezers">Check price on Amazon.ca →</BuyLink></p>
 
-          <TopPick
+          <TopPick tag={AMZ_TAG}
             label="Our Top Pick"
             name="Fine-Tipped Tick-Removal Tool (Tick Twister / TickKey style)"
             blurb="For getting a tick off a dog cleanly, a dedicated removal tool beats fingers or blunt tweezers every time. It slides flush to the skin, catches the tick at the head, and lifts it out with steady pressure — the exact technique that avoids squeezing the body or snapping off mouthparts. Cheap enough to keep one in the walk kit and one by the door."
@@ -167,7 +170,7 @@ export default function HowToRemoveTickFromDogPage() {
             <li><strong>Remove leaf litter</strong> at lawn edges. This is where ticks overwinter.</li>
             <li><strong>Create a 3-foot wood chip or gravel barrier</strong> between your lawn and any wooded area or tall grass.</li>
             <li><strong>Trim shrubs</strong> and clear deer trails or brush piles.</li>
-            <li><strong>Use a vet-prescribed monthly tick preventative</strong> on your dog (oral or topical). Between doses, a dog-safe tick repellent adds a layer of protection before walks in tall grass — see our <Link href="/blog/tick-repellent-for-dogs-ontario">dog tick repellent guide for Ontario</Link>, or <BuyLink search="dog tick repellent">check price on Amazon.ca →</BuyLink></li>
+            <li><strong>Use a vet-prescribed monthly tick preventative</strong> on your dog (oral or topical). Between doses, a dog-safe tick repellent adds a layer of protection before walks in tall grass — see our <Link href="/blog/tick-repellent-for-dogs-ontario">dog tick repellent guide for Ontario</Link>, or <BuyLink tag={AMZ_TAG} search="dog tick repellent">check price on Amazon.ca →</BuyLink></li>
             <li><strong>Apply professional tick barrier spray</strong> to your yard. <Link href="/tick-control">BuzzSkito&rsquo;s 5-spray season program</Link> targets ticks where they actually live — leaf litter, lawn edges, fence lines — and reduces yard tick populations by 90%+.</li>
           </ol>
 

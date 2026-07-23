@@ -8,6 +8,7 @@ import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'best-dehumidifier-for-mold-canada'
 const DATE = '2026-07-21'
@@ -75,6 +76,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('best-dehumidifier-for-mold-canada')
+
 export default function BestDehumidifierForMoldCanadaPage() {
   return (
     <>
@@ -96,7 +99,7 @@ export default function BestDehumidifierForMoldCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="Energy Star dehumidifier with hygrostat" search="frigidaire dehumidifier hygrostat continuous drain" label="Best overall" />
+      <StickyBuyBar tag={AMZ_TAG} name="Energy Star dehumidifier with hygrostat" search="frigidaire dehumidifier hygrostat continuous drain" label="Best overall" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -119,7 +122,7 @@ export default function BestDehumidifierForMoldCanadaPage() {
 
       <section className="bg-white px-4 py-6">
         <div className="max-w-5xl mx-auto">
-          <AwardRow
+          <AwardRow tag={AMZ_TAG}
             heading="Our Picks — Best Dehumidifiers for Mold Control in Canada"
             awards={[
               {
@@ -193,28 +196,28 @@ export default function BestDehumidifierForMoldCanadaPage() {
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best all-round</strong> &mdash; typical damp basement</td>
                   <td className="px-4 py-3 text-gray-700">Continuous drain to a floor drain or sump</td>
                   <td className="px-4 py-3 text-gray-700">Needs a drain route or you empty a bucket</td>
-                  <td className="px-4 py-3"><BuyLink search="frigidaire dehumidifier hygrostat continuous drain" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="frigidaire dehumidifier hygrostat continuous drain" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">High-capacity + pump<br /><span className="font-normal text-xs text-gray-500">very wet spaces</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best</strong> &mdash; wet basement, no floor drain</td>
                   <td className="px-4 py-3 text-gray-700">Built-in pump drains upward, out a window/sink</td>
                   <td className="px-4 py-3 text-gray-700">Higher cost; pump adds maintenance</td>
-                  <td className="px-4 py-3"><BuyLink search="high capacity dehumidifier with pump 50 pint" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="high capacity dehumidifier with pump 50 pint" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Value mid-size<br /><span className="font-normal text-xs text-gray-500">Midea-class</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Good</strong> &mdash; same features, lower price</td>
                   <td className="px-4 py-3 text-gray-700">Continuous drain supported</td>
                   <td className="px-4 py-3 text-gray-700">Fewer premium extras</td>
-                  <td className="px-4 py-3"><BuyLink search="midea dehumidifier humidistat energy star" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="midea dehumidifier humidistat energy star" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Compact<br /><span className="font-normal text-xs text-gray-500">smaller rooms</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Fair</strong> &mdash; a single moderately damp room</td>
                   <td className="px-4 py-3 text-gray-700">Small tank; some support a hose</td>
                   <td className="px-4 py-3 text-gray-700">Undersized for a full wet basement</td>
-                  <td className="px-4 py-3"><BuyLink search="compact dehumidifier energy star humidistat" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="compact dehumidifier energy star humidistat" block>Check price →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -241,10 +244,10 @@ export default function BestDehumidifierForMoldCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the picks:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="frigidaire dehumidifier hygrostat continuous drain">Frigidaire (best overall) →</BuyLink>
-            <BuyLink search="midea dehumidifier humidistat energy star">Midea (best value) →</BuyLink>
-            <BuyLink search="high capacity dehumidifier with pump 50 pint">High-capacity + pump →</BuyLink>
-            <BuyLink search="compact dehumidifier energy star humidistat">Compact →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="frigidaire dehumidifier hygrostat continuous drain">Frigidaire (best overall) →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="midea dehumidifier humidistat energy star">Midea (best value) →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="high capacity dehumidifier with pump 50 pint">High-capacity + pump →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="compact dehumidifier energy star humidistat">Compact →</BuyLink>
           </div>
 
           <h2>The 60% Rule: Why Humidity Control Beats Mould</h2>

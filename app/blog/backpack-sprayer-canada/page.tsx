@@ -8,6 +8,7 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'backpack-sprayer-canada'
 const DATE = '2026-07-14'
@@ -61,6 +62,8 @@ export const metadata: Metadata = buildMetadata({
   publishedTime: DATE,
 })
 
+const AMZ_TAG = tagForSlug('backpack-sprayer-canada')
+
 export default function BackpackSprayerCanadaPage() {
   return (
     <>
@@ -82,7 +85,7 @@ export default function BackpackSprayerCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="PetraTools HD4000 ProSeries battery backpack sprayer" search="petratools hd4000 battery backpack sprayer" label="Best overall sprayer" />
+      <StickyBuyBar tag={AMZ_TAG} name="PetraTools HD4000 ProSeries battery backpack sprayer" search="petratools hd4000 battery backpack sprayer" label="Best overall sprayer" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -104,7 +107,7 @@ export default function BackpackSprayerCanadaPage() {
 
       <section className="bg-white px-4 py-6">
         <div className="max-w-5xl mx-auto">
-          <AwardRow
+          <AwardRow tag={AMZ_TAG}
             heading="Our Picks — Best Backpack Sprayers in Canada"
             awards={[
               {
@@ -180,7 +183,7 @@ export default function BackpackSprayerCanadaPage() {
                     <td className="px-4 py-3 text-gray-800" dangerouslySetInnerHTML={{ __html: specs }} />
                     <td className="px-4 py-3 text-gray-800">{power}</td>
                     <td className="px-4 py-3 text-xs text-gray-600">{best}</td>
-                    <td className="px-4 py-3"><BuyLink search={search} block>Check price →</BuyLink></td>
+                    <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search={search} block>Check price →</BuyLink></td>
                   </tr>
                 ))}
               </tbody>
@@ -198,8 +201,8 @@ export default function BackpackSprayerCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability on our two most-recommended units:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="petratools hd4000 battery backpack sprayer">PetraTools HD4000 on Amazon.ca →</BuyLink>
-            <BuyLink search="vevor battery backpack sprayer 4 gallon">VEVOR 4-gal (budget) →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="petratools hd4000 battery backpack sprayer">PetraTools HD4000 on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="vevor battery backpack sprayer 4 gallon">VEVOR 4-gal (budget) →</BuyLink>
           </div>
 
           <h2>What Our Technicians Actually Carry — and Why It Matters for Your Pick</h2>
@@ -217,28 +220,28 @@ export default function BackpackSprayerCanadaPage() {
           <p>The HD4000 is the unit we point friends and customers to when they insist on doing their own spraying. It&rsquo;s a 4-gallon (15 L) lithium-battery sprayer with adjustable pressure, a multi-hour runtime that comfortably outlasts several full yard treatments per charge, and — the part that matters — pressure that stays where you set it from the first litre to the last. The included nozzle set covers the fine cone you want for foliage and a wider pattern for lawn edges. Straps are padded properly, which sounds trivial until you&rsquo;re 30 minutes into a July treatment with sweat in your eyes.</p>
           <p>Weak points: like most battery units it&rsquo;s heavier empty than a bare-bones manual sprayer, and the battery needs indoor storage over a Canadian winter (details in the winterizing section below).</p>
           <div className="not-prose my-4">
-            <BuyLink search="petratools hd4000 battery backpack sprayer">Check price on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="petratools hd4000 battery backpack sprayer">Check price on Amazon.ca →</BuyLink>
           </div>
 
           <h3>2. PetraTools HD4100 Pro — Best If You Don&rsquo;t Want It on Your Back</h3>
           <p>Same brand, same 4-gallon battery-powered core, one big difference: the HD4100 converts between backpack and wheeled cart. If you have a bad back, a large flat lot, or you simply refuse to haul 20 kg around the yard in August humidity, this is the answer. Wheel it along the fence line, park it, and work a section at a time on the hose. The cart format also makes refills easier — no wrestling the tank off your shoulders at the tap.</p>
           <p>Trade-off: wheels hate soft lawns after rain and tight side-yard gates. On a small or cluttered lot, the standard backpack format is more practical.</p>
           <div className="not-prose my-4">
-            <BuyLink search="petratools hd4100 backpack sprayer">Check price on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="petratools hd4100 backpack sprayer">Check price on Amazon.ca →</BuyLink>
           </div>
 
           <h3>3. VEVOR 4-Gallon 8-Nozzle — Best Budget Battery Unit</h3>
           <p>VEVOR&rsquo;s 4-gallon battery sprayer is the value play: a 12V battery unit that ships with eight nozzle tips — mist, cone, fan, and jet patterns — which is more out-of-the-box flexibility than anything else at its price. For a homeowner learning which pattern suits which job, having every option in the box is genuinely useful. Build quality is a step below PetraTools — seals and fittings are where budget units show their price — but for a few treatments a season on a standard lot, it does the job.</p>
           <p>Our honest take: if you&rsquo;ll spray for years, buy once and buy the HD4000. If you&rsquo;re testing whether DIY spraying is for you, start here.</p>
           <div className="not-prose my-4">
-            <BuyLink search="vevor battery backpack sprayer 4 gallon">Check price on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="vevor battery backpack sprayer 4 gallon">Check price on Amazon.ca →</BuyLink>
           </div>
 
           <h3>4. MY4SONS M4 — Best High-Pressure Option</h3>
           <p>The MY4SONS M4 is the pressure king of the consumer class — variable pressure advertised up to roughly 80 PSI, quick-swap brass fittings, and a design that eliminates the traditional pump handle entirely. That extra headroom matters when you&rsquo;re pushing spray into dense cedar hedges or up into lilac and dogwood lines 3 m (10 ft) tall — exactly the shaded, layered vegetation where GTA mosquitoes spend their days. The quick-change fittings also make it painless to jump between the cone tip for shrubs and a fan tip for the lawn edge.</p>
           <p>Remember that more PSI is a tool, not a default: run maximum pressure on open foliage and you&rsquo;ll create drift. Use the dial.</p>
           <div className="not-prose my-4">
-            <BuyLink search="my4sons m4 backpack sprayer">Check price on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="my4sons m4 backpack sprayer">Check price on Amazon.ca →</BuyLink>
           </div>
 
           <h2>Battery vs Manual Pump: The Honest Tradeoffs</h2>

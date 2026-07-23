@@ -8,6 +8,7 @@ import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { BUSINESS } from '@/lib/constants'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'tick-bite-vs-mosquito-bite'
 const DATE = '2026-04-07'
@@ -52,6 +53,8 @@ const FAQS = [
     answer: "Professional barrier spray is the most effective yard-level protection available for GTA homeowners. BuzzSkito applies a Health Canada–approved formula to the vegetation, shrubs, lawn edges, and fence lines of your property — the micro-habitats where ticks wait for passing hosts and where mosquitoes rest during the day. One treatment provides up to 30 days of protection and kills ticks at all life stages including nymphs (the hardest to see and most dangerous for Lyme transmission). We serve 19 cities across the GTA including Mississauga, Toronto, Brampton, Vaughan, Richmond Hill, Markham, Oakville, Burlington, and Hamilton.",
   },
 ]
+
+const AMZ_TAG = tagForSlug('tick-bite-vs-mosquito-bite')
 
 export default function TickBiteVsMosquitoBitePage() {
   return (
@@ -152,7 +155,7 @@ export default function TickBiteVsMosquitoBitePage() {
         </ul>
         <p>In Ontario, mosquito bites carry a small risk of <strong>West Nile Virus</strong>, monitored annually by Toronto Public Health and Peel Region Health. Most infected people have no symptoms. Rarely, West Nile Fever develops: headache, body aches, joint pain, rash, and fatigue. Seek medical attention if you develop these symptoms after mosquito exposure.</p>
         <p>For the itch itself, a cool compress and an over-the-counter anti-itch cream (hydrocortisone or an antihistamine gel) usually settle a mosquito welt within a day.</p>
-        <p><BuyLink search="anti itch bite relief">Check anti-itch bite relief on Amazon.ca →</BuyLink></p>
+        <p><BuyLink tag={AMZ_TAG} search="anti itch bite relief">Check anti-itch bite relief on Amazon.ca →</BuyLink></p>
 
         <h2>What a Tick Bite Looks Like</h2>
         <p>While the tick is attached, the bite is often <strong>painless</strong> — ticks secrete a numbing compound in their saliva that prevents you from feeling them. This is why tick checks after being outdoors are important: you may never feel the bite.</p>
@@ -177,9 +180,9 @@ export default function TickBiteVsMosquitoBitePage() {
 
         <h2>Removing a Tick Safely (Do This First)</h2>
         <p>If you find an attached tick, remove it right away — the risk of Lyme transmission rises the longer a blacklegged tick stays attached. Grasp the tick with fine-tipped tweezers as close to the skin as possible and pull straight up with steady, even pressure. Do not twist, crush, or burn it. A dedicated tick-removal tool makes the job cleaner, especially for tiny nymphs. For a full walkthrough and product picks, see our <Link href="/blog/tick-removal-tool-guide" className="text-brand-700 hover:underline">tick removal tool guide</Link>.</p>
-        <p><BuyLink search="tick removal tool tweezers">Check tick-removal tools on Amazon.ca →</BuyLink></p>
+        <p><BuyLink tag={AMZ_TAG} search="tick removal tool tweezers">Check tick-removal tools on Amazon.ca →</BuyLink></p>
 
-        <TopPick
+        <TopPick tag={AMZ_TAG}
           label="Our Top Pick for Tick Removal"
           name="Fine-Tipped Tick-Removal Tool Set"
           blurb="A dedicated tick tool grips the tick right at the skin and lifts it straight out with even pressure — cleaner than fumbling with household tweezers, which matters most for tiny nymphs that are the hardest to grasp and the most likely to carry Lyme. Keep one in the first-aid kit before you need it."

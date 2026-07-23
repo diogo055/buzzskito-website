@@ -8,6 +8,7 @@ import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'best-battery-backpack-sprayer-canada'
 const DATE = '2026-07-21'
@@ -75,6 +76,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('best-battery-backpack-sprayer-canada')
+
 export default function BestBatteryBackpackSprayerCanadaPage() {
   return (
     <>
@@ -96,7 +99,7 @@ export default function BestBatteryBackpackSprayerCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="Chapin 24V lithium backpack sprayer" search="chapin 24v battery backpack sprayer" label="Best overall" />
+      <StickyBuyBar tag={AMZ_TAG} name="Chapin 24V lithium backpack sprayer" search="chapin 24v battery backpack sprayer" label="Best overall" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -118,7 +121,7 @@ export default function BestBatteryBackpackSprayerCanadaPage() {
 
       <section className="bg-white px-4 py-6">
         <div className="max-w-5xl mx-auto">
-          <AwardRow
+          <AwardRow tag={AMZ_TAG}
             heading="Our Picks — Best Battery Backpack Sprayers in Canada"
             awards={[
               {
@@ -192,28 +195,28 @@ export default function BestBatteryBackpackSprayerCanadaPage() {
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best support</strong> &mdash; 24V lithium, diaphragm pump, adjustable</td>
                   <td className="px-4 py-3 text-gray-700">Everything: weeds, fertilizer, pest control, large lots</td>
                   <td className="px-4 py-3 text-gray-700">Premium price; heavy full</td>
-                  <td className="px-4 py-3"><BuyLink search="chapin 24v battery backpack sprayer" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="chapin 24v battery backpack sprayer" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Field King<br /><span className="font-normal text-xs text-gray-500">pro-grade</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Toughest</strong> &mdash; commercial pump &amp; seals</td>
                   <td className="px-4 py-3 text-gray-700">All-day and commercial use</td>
                   <td className="px-4 py-3 text-gray-700">Priciest; overkill for light use</td>
-                  <td className="px-4 py-3"><BuyLink search="field king battery backpack sprayer" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="field king battery backpack sprayer" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Petra 4-gal<br /><span className="font-normal text-xs text-gray-500">best value</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Most runtime/$</strong> &mdash; big tank, lithium</td>
                   <td className="px-4 py-3 text-gray-700">Large yards on a homeowner budget</td>
                   <td className="px-4 py-3 text-gray-700">Fewer specialty parts than Chapin</td>
-                  <td className="px-4 py-3"><BuyLink search="petra 4 gallon battery backpack sprayer" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="petra 4 gallon battery backpack sprayer" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Budget lithium<br /><span className="font-normal text-xs text-gray-500">entry</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Basic</strong> &mdash; rechargeable, often sealed</td>
                   <td className="px-4 py-3 text-gray-700">Occasional, light jobs</td>
                   <td className="px-4 py-3 text-gray-700">Hard to service; weaker pump</td>
-                  <td className="px-4 py-3"><BuyLink search="lithium battery backpack sprayer" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="lithium battery backpack sprayer" block>Check price →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -240,9 +243,9 @@ export default function BestBatteryBackpackSprayerCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the picks:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="chapin 24v battery backpack sprayer">Chapin 24V →</BuyLink>
-            <BuyLink search="field king battery backpack sprayer">Field King →</BuyLink>
-            <BuyLink search="petra 4 gallon battery backpack sprayer">Petra 4-gallon →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="chapin 24v battery backpack sprayer">Chapin 24V →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="field king battery backpack sprayer">Field King →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="petra 4 gallon battery backpack sprayer">Petra 4-gallon →</BuyLink>
           </div>
 
           <h2>Battery vs Manual Pump: Why Lithium Wins on Anything Big</h2>

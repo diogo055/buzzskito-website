@@ -8,6 +8,7 @@ import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'best-spider-spray-canada'
 const DATE = '2026-07-21'
@@ -75,6 +76,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('best-spider-spray-canada')
+
 export default function BestSpiderSprayCanadaPage() {
   return (
     <>
@@ -96,7 +99,7 @@ export default function BestSpiderSprayCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="Doktor Doom Residual Insecticide Spray" search="doktor doom residual insecticide spray" label="Best overall" />
+      <StickyBuyBar tag={AMZ_TAG} name="Doktor Doom Residual Insecticide Spray" search="doktor doom residual insecticide spray" label="Best overall" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -119,7 +122,7 @@ export default function BestSpiderSprayCanadaPage() {
 
       <section className="bg-white px-4 py-6">
         <div className="max-w-5xl mx-auto">
-          <AwardRow
+          <AwardRow tag={AMZ_TAG}
             heading="Our Picks — Best Spider Sprays & Tools in Canada"
             awards={[
               {
@@ -193,35 +196,35 @@ export default function BestSpiderSprayCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Crack-and-crevice + perimeter band; kills spiders that walk the treated line</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Weeks</strong> (indoors, undisturbed)</td>
                   <td className="px-4 py-3 text-gray-700">Canadian domestic line &mdash; verify PCP no. on the can</td>
-                  <td className="px-4 py-3"><BuyLink search="doktor doom residual insecticide spray" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="doktor doom residual insecticide spray" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Konk OnGuard residual<br /><span className="font-normal text-xs text-gray-500">Best alternative</span></td>
                   <td className="px-4 py-3 text-gray-700">Same mission &mdash; residual surface treatment at entry points and baseboards</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Weeks</strong> (indoors, undisturbed)</td>
                   <td className="px-4 py-3 text-gray-700">Canadian domestic line &mdash; verify PCP no. on the can</td>
-                  <td className="px-4 py-3"><BuyLink search="konk onguard residual insecticide spray" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="konk onguard residual insecticide spray" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Knock Down residual<br /><span className="font-normal text-xs text-gray-500">Regional favourite</span></td>
                   <td className="px-4 py-3 text-gray-700">Canadian aerosol line with residual crack-and-crevice options</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Weeks</strong> (formulation-dependent)</td>
                   <td className="px-4 py-3 text-gray-700">Canadian domestic line &mdash; verify PCP no. on the can</td>
-                  <td className="px-4 py-3"><BuyLink search="knock down residual insecticide spray" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="knock down residual insecticide spray" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Peppermint oil spray<br /><span className="font-normal text-xs text-gray-500">Low-tox</span></td>
                   <td className="px-4 py-3 text-gray-700">Volatile scent deters some species at close range while fresh</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Days at best</strong> &mdash; re-apply constantly</td>
                   <td className="px-4 py-3 text-gray-700">Sold as repellent; modest lab evidence only</td>
-                  <td className="px-4 py-3"><BuyLink search="peppermint spider repellent spray" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="peppermint spider repellent spray" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Glue trap multi-pack<br /><span className="font-normal text-xs text-gray-500">Budget / monitoring</span></td>
                   <td className="px-4 py-3 text-gray-700">Flat boards along baseboards intercept wandering males; maps activity</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Months</strong> until full or dusty</td>
                   <td className="px-4 py-3 text-gray-700">Device &mdash; no PMRA registration needed</td>
-                  <td className="px-4 py-3"><BuyLink search="spider insect glue traps" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="spider insect glue traps" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">US grey-market sprays<br /><span className="font-normal text-xs text-gray-500">Miss Muffet&rsquo;s Revenge et al.</span></td>
@@ -287,9 +290,9 @@ export default function BestSpiderSprayCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the picks:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="doktor doom residual insecticide spray">Doktor Doom residual →</BuyLink>
-            <BuyLink search="konk onguard residual insecticide spray">Konk OnGuard →</BuyLink>
-            <BuyLink search="spider insect glue traps">Spider glue traps →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="doktor doom residual insecticide spray">Doktor Doom residual →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="konk onguard residual insecticide spray">Konk OnGuard →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="spider insect glue traps">Spider glue traps →</BuyLink>
           </div>
 
           <h2>Why Spiders Are Genuinely Hard to Spray (Read This Before Buying Anything)</h2>
@@ -300,14 +303,14 @@ export default function BestSpiderSprayCanadaPage() {
           <p>Doktor Doom is the closest thing Canada has to a default answer in the domestic residual category. The line includes residual formulations explicitly aimed at crawling insects and spiders for indoor and outdoor use around the home — the exact mission profile spider control calls for — and its ubiquity at Canadian hardware, garden, and online retailers means replacement cans and consistent labels year after year. Applied as a band along baseboards, door thresholds, sill plates, and foundation gaps, a residual treatment keeps working on spiders (and, usefully, on the insect prey that attracts them) for weeks on undisturbed indoor surfaces.</p>
           <p>Our practical cautions, honestly stated. First, the brand sells several distinct products — fogger, contact aerosols, residual formulations — and only the residual crack-and-crevice products fit this job, so read the front of the can, not just the brand. Second, treat the label as the operating manual it legally is: sites of application, re-entry (keep children and pets away until dry), ventilation. Third, a spray band is a supplement to physical exclusion, never a substitute — the residual fades in weeks; a door sweep from our <Link href="/blog/how-to-keep-spiders-out-of-your-house">spider-proofing guide</Link> is still working in five years.</p>
           <div className="not-prose my-4">
-            <BuyLink search="doktor doom residual insecticide spray">Check Doktor Doom residual spray on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="doktor doom residual insecticide spray">Check Doktor Doom residual spray on Amazon.ca →</BuyLink>
           </div>
 
           <h2>Konk OnGuard and Knock Down: The Other Canadian Shelves</h2>
           <p>Walk into hardware stores across Canada and the residual-insecticide shelf usually belongs to some mix of Doktor Doom, <strong>Konk OnGuard</strong>, and <strong>Knock Down</strong> — three Canadian-market families doing broadly the same work with broadly similar active-ingredient classes. OnGuard is the one we name as Best Alternative because its residual surface-spray formulations map most directly onto the perimeter-and-baseboard mission; Knock Down&rsquo;s catalogue is wide, spanning contact aerosols to residual crack-and-crevice products, and its regional availability makes it many buyers&rsquo; most convenient option.</p>
           <p>Between these three, our honest advice is: buy whichever residual formulation is on the shelf in front of you rather than ordering anything from across the border. The differences among the Canadian lines are small; the difference between a registered Canadian product and a grey-market import is the whole legal and safety framework. Whichever you choose, the same two checks apply — a PCP registration number on the label, and label sites that match where you intend to spray.</p>
           <div className="not-prose my-4">
-            <BuyLink search="konk onguard residual insecticide spray">Check Konk OnGuard availability on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="konk onguard residual insecticide spray">Check Konk OnGuard availability on Amazon.ca →</BuyLink>
           </div>
 
           <h2>The Grey-Market Trap: Why US Favourites Are Missing From Canadian Shelves</h2>
@@ -336,7 +339,7 @@ export default function BestSpiderSprayCanadaPage() {
           <p>If you want zero conventional pesticide indoors, you have two honest options and one myth to skip. The honest options: <strong>peppermint-oil sprays</strong>, which have real but modest lab evidence of deterring some spider species at close range while the scent is fresh — meaning re-application every few days, no residual, no kill, and no barrier — and <strong>glue traps</strong>, which are devices rather than pesticides (no PMRA registration required), intercept the wandering males mechanically, and double as the monitoring layer that tells you whether you need anything stronger at all. The myth: ultrasonic repellers, which have failed every credible test across every pest they have been pointed at; spiders sense surface vibration, not plug-in ultrasound.</p>
           <p>A two-week glue-trap audit is genuinely the smartest first purchase on this page: boards flush along baseboards in the basement, garage, and behind furniture. If they stay empty, your spider problem is a sightings problem, and sealing plus a vacuum finishes it. If they fill, you know exactly which rooms deserve the residual band.</p>
           <div className="not-prose my-4">
-            <BuyLink search="spider insect glue traps">Check spider glue trap multi-packs →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="spider insect glue traps">Check spider glue trap multi-packs →</BuyLink>
           </div>
 
           <h2>When Spray Is the Wrong Tool</h2>

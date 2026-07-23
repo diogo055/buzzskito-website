@@ -7,6 +7,7 @@ import TopPick from '@/components/TopPick'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'can-ticks-fly-jump-swim'
 const DATE = '2026-07-12'
@@ -56,6 +57,8 @@ export const metadata: Metadata = buildMetadata({
   publishedTime: DATE,
   modifiedTime: UPDATED,
 })
+
+const AMZ_TAG = tagForSlug('can-ticks-fly-jump-swim')
 
 export default function CanTicksFlyJumpSwimPage() {
   return (
@@ -170,7 +173,7 @@ export default function CanTicksFlyJumpSwimPage() {
           <p>Ticks do not climb trees to drop on hosts. They quest low, because that is where hosts pass. The myth persists because ticks are often found on the upper body — the scalp, neck, or behind the ears — which makes it feel like they fell from above. In reality the tick almost always latched onto a lower leg during questing and then <strong>crawled upward</strong> over several minutes, looking for a sheltered place to feed. That is why your yard defence belongs at ground level: grass, leaf litter, and shaded edges, not overhead branches.</p>
 
           <h2>How High Do Ticks Climb, and How Do You Stop Them?</h2>
-          <p>In Ontario, ticks quest low. Nymphs usually wait within a few centimetres of the ground to about ankle height; adult blacklegged ticks climb a bit higher, to roughly knee height, on taller grass and brush. None climb to head height to attack. Because ticks board at the lower legs, the classic personal defence works extremely well: <strong>tuck your pants into your socks, wear light colours so ticks are easy to spot, and treat footwear and pant legs with permethrin.</strong> <BuyLink search="sawyer permethrin clothing spray">Check permethrin clothing spray on Amazon.ca →</BuyLink></p>
+          <p>In Ontario, ticks quest low. Nymphs usually wait within a few centimetres of the ground to about ankle height; adult blacklegged ticks climb a bit higher, to roughly knee height, on taller grass and brush. None climb to head height to attack. Because ticks board at the lower legs, the classic personal defence works extremely well: <strong>tuck your pants into your socks, wear light colours so ticks are easy to spot, and treat footwear and pant legs with permethrin.</strong> <BuyLink tag={AMZ_TAG} search="sawyer permethrin clothing spray">Check permethrin clothing spray on Amazon.ca →</BuyLink></p>
           <p>For the yard itself, because ticks can only reach you from vegetation they have climbed, control is genuinely effective:</p>
           <ol>
             <li><strong>Mow to 3–4 inches.</strong> Short grass gives ticks nowhere to quest and dries out the ground-level humidity they need.</li>
@@ -179,9 +182,9 @@ export default function CanTicksFlyJumpSwimPage() {
             <li><strong>Discourage mice and deer</strong> — mice are the main host for immature ticks. Store firewood off the ground and don&rsquo;t feed wildlife.</li>
             <li><strong>Professional barrier spray.</strong> <Link href="/tick-control">BuzzSkito&rsquo;s tick barrier treatment</Link> targets the lawn edges, leaf litter, and shaded borders where ticks quest, for 80–95% population reduction through the season.</li>
           </ol>
-          <p>Because a questing tick crawls slowly for minutes to hours before it bites, a tick check after time outdoors usually catches it in time. Keep a fine-tipped removal tool handy so you can grip a tick close to the skin and pull straight out. <BuyLink search="tick removal tool tweezers">Check tick-removal tools on Amazon.ca →</BuyLink></p>
+          <p>Because a questing tick crawls slowly for minutes to hours before it bites, a tick check after time outdoors usually catches it in time. Keep a fine-tipped removal tool handy so you can grip a tick close to the skin and pull straight out. <BuyLink tag={AMZ_TAG} search="tick removal tool tweezers">Check tick-removal tools on Amazon.ca →</BuyLink></p>
 
-          <TopPick
+          <TopPick tag={AMZ_TAG}
             label="Our Top Pick — Tick Removal"
             name="Fine-Tipped Tick Removal Tool"
             blurb="Because a questing tick crawls for minutes before biting, a prompt, clean removal is your best defence. A dedicated fine-tipped remover grips the tick close to the skin and pulls it straight out in one piece — far more reliable than fingernails, and worth keeping in the car, the trail bag, and by the door."

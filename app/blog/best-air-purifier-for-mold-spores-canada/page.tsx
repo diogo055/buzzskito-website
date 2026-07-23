@@ -8,6 +8,7 @@ import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'best-air-purifier-for-mold-spores-canada'
 const DATE = '2026-07-21'
@@ -75,6 +76,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('best-air-purifier-for-mold-spores-canada')
+
 export default function BestAirPurifierMoldSporesCanadaPage() {
   return (
     <>
@@ -96,7 +99,7 @@ export default function BestAirPurifierMoldSporesCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="Coway Airmega True HEPA air purifier" search="coway airmega true hepa air purifier" label="Best overall" />
+      <StickyBuyBar tag={AMZ_TAG} name="Coway Airmega True HEPA air purifier" search="coway airmega true hepa air purifier" label="Best overall" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -119,7 +122,7 @@ export default function BestAirPurifierMoldSporesCanadaPage() {
 
       <section className="bg-white px-4 py-6">
         <div className="max-w-5xl mx-auto">
-          <AwardRow
+          <AwardRow tag={AMZ_TAG}
             heading="Our Picks — Best Air Purifiers for Mold Spores in Canada"
             awards={[
               {
@@ -202,21 +205,21 @@ export default function BestAirPurifierMoldSporesCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Physically captures 1–20 micron spores from the air</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best</strong> — the essential stage</td>
                   <td className="px-4 py-3 text-gray-700">&ldquo;HEPA-type&rdquo; leaks fine particles</td>
-                  <td className="px-4 py-3"><BuyLink search="true hepa air purifier h13 sealed" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="true hepa air purifier h13 sealed" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Activated carbon<br /><span className="font-normal text-xs text-gray-500">pelletised bed</span></td>
                   <td className="px-4 py-3 text-gray-700">Adsorbs the musty MVOC gases HEPA can&rsquo;t catch</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Good</strong> — for the smell</td>
                   <td className="px-4 py-3 text-gray-700">Token coated mesh does little</td>
-                  <td className="px-4 py-3"><BuyLink search="air purifier heavy activated carbon filter" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="air purifier heavy activated carbon filter" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">UV-C lamp<br /><span className="font-normal text-xs text-gray-500">add-on</span></td>
                   <td className="px-4 py-3 text-gray-700">Claims to kill spores as air passes the lamp</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Weak</strong> — air moves too fast</td>
                   <td className="px-4 py-3 text-gray-700">Marketing bonus, not the real work</td>
-                  <td className="px-4 py-3"><BuyLink search="hepa air purifier with uv-c" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="hepa air purifier with uv-c" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Ozone / &ldquo;ionic&rdquo;<br /><span className="font-normal text-xs text-gray-500">avoid</span></td>
@@ -250,10 +253,10 @@ export default function BestAirPurifierMoldSporesCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the main picks:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="coway airmega true hepa air purifier">Coway Airmega →</BuyLink>
-            <BuyLink search="levoit core 600s large room air purifier true hepa">Levoit large-room →</BuyLink>
-            <BuyLink search="large room air purifier true hepa heavy activated carbon">Heavy-carbon tower →</BuyLink>
-            <BuyLink search="budget true hepa air purifier">Budget True HEPA →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="coway airmega true hepa air purifier">Coway Airmega →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="levoit core 600s large room air purifier true hepa">Levoit large-room →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="large room air purifier true hepa heavy activated carbon">Heavy-carbon tower →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="budget true hepa air purifier">Budget True HEPA →</BuyLink>
           </div>
 
           <h2>Why True HEPA Is the Non-Negotiable Stage for Mold</h2>

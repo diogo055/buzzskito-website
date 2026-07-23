@@ -8,6 +8,7 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema, howToSchema } from '@/lib/seo'
 import { NEW_BLOGS_2, MOSQUITO_BLOGS } from '@/lib/constants'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const POST = NEW_BLOGS_2[1]
 const UPDATED = POST.date
@@ -39,6 +40,8 @@ const FAQS = [
     answer: 'Source reduction significantly reduces the population bred on your property, but mosquitoes can fly up to 3 km from their breeding site. Professional barrier spray complements source elimination by killing mosquitoes that migrate from neighbouring properties and vegetation.',
   },
 ]
+
+const AMZ_TAG = tagForSlug('hidden-mosquito-breeding-spots-backyard')
 
 export default function HiddenBreedingSpotsPage() {
   return (
@@ -146,9 +149,9 @@ export default function HiddenBreedingSpotsPage() {
         <p>A birdbath not refreshed every 48–72 hours becomes a prime mosquito nursery. Change the water every 2–3 days during peak season. Consider adding a small recirculating pump — moving water cannot support mosquito breeding.</p>
 
         <h3>7. Ornamental Ponds and Water Features</h3>
-        <p>Garden ponds without fish or a recirculating pump are ideal breeding habitat. Add goldfish or mosquito fish (<em>Gambusia affinis</em>) to consume larvae, or treat with BTi mosquito dunks — a bacteria-based larvicide that is safe for wildlife and pets. Slow-release dunks like Summit&apos;s (<BuyLink search="summit mosquito dunks">check price on Amazon.ca &rarr;</BuyLink>) treat roughly 100 sq ft of water surface for 30 days, while the granular form — mosquito bits (<BuyLink search="summit mosquito bits">check price on Amazon.ca &rarr;</BuyLink>) — kills larvae within hours and is handy for bird baths, plant saucers, and rain barrels. For dosing, safety, and where to buy across Canada, see our <Link href="/blog/mosquito-dunks-canada-guide" className="text-brand-700 underline">mosquito dunks Canada guide</Link>.</p>
+        <p>Garden ponds without fish or a recirculating pump are ideal breeding habitat. Add goldfish or mosquito fish (<em>Gambusia affinis</em>) to consume larvae, or treat with BTi mosquito dunks — a bacteria-based larvicide that is safe for wildlife and pets. Slow-release dunks like Summit&apos;s (<BuyLink tag={AMZ_TAG} search="summit mosquito dunks">check price on Amazon.ca &rarr;</BuyLink>) treat roughly 100 sq ft of water surface for 30 days, while the granular form — mosquito bits (<BuyLink tag={AMZ_TAG} search="summit mosquito bits">check price on Amazon.ca &rarr;</BuyLink>) — kills larvae within hours and is handy for bird baths, plant saucers, and rain barrels. For dosing, safety, and where to buy across Canada, see our <Link href="/blog/mosquito-dunks-canada-guide" className="text-brand-700 underline">mosquito dunks Canada guide</Link>.</p>
 
-        <TopPick
+        <TopPick tag={AMZ_TAG}
           label="Best for water you can't drain"
           name="Summit BTI Mosquito Dunks"
           blurb="For the ponds, rain barrels, and low spots you can't empty, a BTI (Bacillus thuringiensis israelensis) dunk is the go-to larvicide. It kills mosquito larvae before they ever become biting adults, releases slowly over about a month, and is safe around fish, pets, birds, and people. Drop one in any standing water you can't eliminate — the single highest-leverage product on this whole list."

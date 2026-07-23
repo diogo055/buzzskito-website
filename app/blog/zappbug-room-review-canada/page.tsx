@@ -8,6 +8,7 @@ import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'zappbug-room-review-canada'
 const DATE = '2026-07-21'
@@ -75,6 +76,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('zappbug-room-review-canada')
+
 export default function ZappBugRoomReviewCanadaPage() {
   return (
     <>
@@ -96,7 +99,7 @@ export default function ZappBugRoomReviewCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="ZappBug Room whole-room heater" search="zappbug room bed bug heater" label="Reviewed here" />
+      <StickyBuyBar tag={AMZ_TAG} name="ZappBug Room whole-room heater" search="zappbug room bed bug heater" label="Reviewed here" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -119,7 +122,7 @@ export default function ZappBugRoomReviewCanadaPage() {
 
       <section className="bg-white px-4 py-6">
         <div className="max-w-4xl mx-auto">
-          <TopPick
+          <TopPick tag={AMZ_TAG}
             label="Reviewed: Whole-Room Capacity Pick"
             name="ZappBug Room — Large Fabric Heat Enclosure"
             blurb="If you have a genuinely large volume to treat — a whole bedroom of clothing, bedding, boxes, and small furniture — and you expect to run repeated batch cycles over an active infestation, the ZappBug Room is the consumer tool built for exactly that job. It reaches and holds the sustained heat that kills bed bugs and their eggs, and its footprint swallows loads the smaller ZappBug units would take a dozen cycles to clear. It is a premium buy that earns its cost on volume and repeat use, not on a single small load — pair it with a probe thermometer and patient loading and it is the most capable DIY heat enclosure a Canadian household can own."
@@ -155,35 +158,35 @@ export default function ZappBugRoomReviewCanadaPage() {
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Largest</strong> &mdash; a bedroom of goods per cycle</td>
                   <td className="px-4 py-3 text-gray-700">High-volume, repeated batch treatment</td>
                   <td className="px-4 py-3 text-gray-700">Premium price; bulky; slow dense loads</td>
-                  <td className="px-4 py-3"><BuyLink search="zappbug room bed bug heater" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="zappbug room bed bug heater" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">ZappBug Oven 2<br /><span className="font-normal text-xs text-gray-500">mid enclosure</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Medium</strong> &mdash; several totes&rsquo; worth</td>
                   <td className="px-4 py-3 text-gray-700">Households treating moderate loads</td>
                   <td className="px-4 py-3 text-gray-700">Many cycles for a whole room</td>
-                  <td className="px-4 py-3"><BuyLink search="zappbug oven 2 bed bug heater" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="zappbug oven 2 bed bug heater" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">PackTite Closet<br /><span className="font-normal text-xs text-gray-500">closet enclosure</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Large</strong> &mdash; hanging + piled goods</td>
                   <td className="px-4 py-3 text-gray-700">Wardrobes and hangable clothing</td>
                   <td className="px-4 py-3 text-gray-700">Premium; different form factor</td>
-                  <td className="px-4 py-3"><BuyLink search="packtite closet bed bug heater" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="packtite closet bed bug heater" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">ThermalStrike Ranger<br /><span className="font-normal text-xs text-gray-500">heated bag</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Small</strong> &mdash; luggage-sized</td>
                   <td className="px-4 py-3 text-gray-700">Travellers, single bags, spot loads</td>
                   <td className="px-4 py-3 text-gray-700">One bag at a time</td>
-                  <td className="px-4 py-3"><BuyLink search="thermalstrike ranger heated bag" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="thermalstrike ranger heated bag" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Bed-bug steamer<br /><span className="font-normal text-xs text-gray-500">for fixed items</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">n/a</strong> &mdash; treats in place</td>
                   <td className="px-4 py-3 text-gray-700">Mattress, frame, baseboards, seams</td>
                   <td className="px-4 py-3 text-gray-700">Slow; not for bulk soft goods</td>
-                  <td className="px-4 py-3"><BuyLink search="bed bug steamer dry vapour" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bed bug steamer dry vapour" block>Check price →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -210,9 +213,9 @@ export default function ZappBugRoomReviewCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the Room and its closest alternatives:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="zappbug room bed bug heater">ZappBug Room →</BuyLink>
-            <BuyLink search="zappbug oven 2 bed bug heater">ZappBug Oven 2 →</BuyLink>
-            <BuyLink search="packtite closet bed bug heater">PackTite Closet →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="zappbug room bed bug heater">ZappBug Room →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="zappbug oven 2 bed bug heater">ZappBug Oven 2 →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="packtite closet bed bug heater">PackTite Closet →</BuyLink>
           </div>
 
           <h2>How Heat Kills Bed Bugs &mdash; and Why Eggs Are the Point</h2>

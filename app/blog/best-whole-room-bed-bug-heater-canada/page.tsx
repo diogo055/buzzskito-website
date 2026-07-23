@@ -8,6 +8,7 @@ import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'best-whole-room-bed-bug-heater-canada'
 const DATE = '2026-07-21'
@@ -75,6 +76,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('best-whole-room-bed-bug-heater-canada')
+
 export default function BestWholeRoomBedBugHeaterCanadaPage() {
   return (
     <>
@@ -96,7 +99,7 @@ export default function BestWholeRoomBedBugHeaterCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="Portable bed bug heat treatment system" search="portable bed bug heater treatment" label="Best overall" />
+      <StickyBuyBar tag={AMZ_TAG} name="Portable bed bug heat treatment system" search="portable bed bug heater treatment" label="Best overall" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -119,7 +122,7 @@ export default function BestWholeRoomBedBugHeaterCanadaPage() {
 
       <section className="bg-white px-4 py-6">
         <div className="max-w-5xl mx-auto">
-          <AwardRow
+          <AwardRow tag={AMZ_TAG}
             heading="Our Picks — Best Whole-Room Bed Bug Heat Equipment in Canada"
             awards={[
               {
@@ -193,28 +196,28 @@ export default function BestWholeRoomBedBugHeaterCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Movable furniture, mattress, and belongings loaded inside</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best</strong> &mdash; walls contain the heat</td>
                   <td className="px-4 py-3 text-gray-700">Premium price; only treats what fits inside</td>
-                  <td className="px-4 py-3"><BuyLink search="zappbug room large heater" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="zappbug room large heater" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Portable room heater<br /><span className="font-normal text-xs text-gray-500">Nuventa-style forced air</span></td>
                   <td className="px-4 py-3 text-gray-700">Ambient room air, fixed structure, immovable furniture</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Good</strong> &mdash; if the room is sealed and small</td>
                   <td className="px-4 py-3 text-gray-700">Cold spots; insulation and leaks; sizing limits</td>
-                  <td className="px-4 py-3"><BuyLink search="nuventa portable bed bug heater" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="nuventa portable bed bug heater" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Mid-size heat chamber<br /><span className="font-normal text-xs text-gray-500">portable box</span></td>
                   <td className="px-4 py-3 text-gray-700">Clothing, luggage, bedding, books &mdash; movable items only</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">N/A</strong> &mdash; not a room tool</td>
                   <td className="px-4 py-3 text-gray-700">Capacity per cycle; cannot treat structure</td>
-                  <td className="px-4 py-3"><BuyLink search="zappbug portable heat chamber" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="zappbug portable heat chamber" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Grey-market commercial<br /><span className="font-normal text-xs text-gray-500">US 240V heater</span></td>
                   <td className="px-4 py-3 text-gray-700">High output on paper, marketed for whole rooms</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-red-700">Avoid</strong> &mdash; wrong tool for a home</td>
                   <td className="px-4 py-3 text-gray-700">120V incompatibility; no Canadian cert; no warranty</td>
-                  <td className="px-4 py-3"><BuyLink search="portable bed bug heater 120v certified" block>See certified units →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="portable bed bug heater 120v certified" block>See certified units →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -241,10 +244,10 @@ export default function BestWholeRoomBedBugHeaterCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the main heat-equipment types:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="zappbug room large heater">Room-scale enclosure →</BuyLink>
-            <BuyLink search="nuventa portable bed bug heater">Portable room heater →</BuyLink>
-            <BuyLink search="zappbug portable heat chamber">Mid-size heat chamber →</BuyLink>
-            <BuyLink search="wireless remote thermometer high cfm fan">Fan + thermometer kit →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="zappbug room large heater">Room-scale enclosure →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="nuventa portable bed bug heater">Portable room heater →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="zappbug portable heat chamber">Mid-size heat chamber →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="wireless remote thermometer high cfm fan">Fan + thermometer kit →</BuyLink>
           </div>
 
           <h2>The Physics You Cannot Cheat: Temperature and Dwell Time</h2>

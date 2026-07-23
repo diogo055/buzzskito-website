@@ -9,6 +9,7 @@ import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'thermal-vs-ulv-fogger-canada'
 const DATE = '2026-07-21'
@@ -72,6 +73,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('thermal-vs-ulv-fogger-canada')
+
 export default function ThermalVsUlvFoggerCanadaPage() {
   return (
     <>
@@ -93,7 +96,7 @@ export default function ThermalVsUlvFoggerCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="PetraTools cordless ULV cold fogger" search="petratools ulv cordless fogger" label="Best all-round pick" />
+      <StickyBuyBar tag={AMZ_TAG} name="PetraTools cordless ULV cold fogger" search="petratools ulv cordless fogger" label="Best all-round pick" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -116,7 +119,7 @@ export default function ThermalVsUlvFoggerCanadaPage() {
 
       <section className="bg-white px-4 py-6">
         <div className="max-w-5xl mx-auto">
-          <AwardRow
+          <AwardRow tag={AMZ_TAG}
             heading="Our Picks — Thermal & ULV Foggers for Canadian Buyers"
             awards={[
               {
@@ -225,8 +228,8 @@ export default function ThermalVsUlvFoggerCanadaPage() {
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Availability</td>
-                  <td className="px-4 py-3"><BuyLink search="longray thermal fogger" block>Check price →</BuyLink></td>
-                  <td className="px-4 py-3"><BuyLink search="petratools ulv cordless fogger" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="longray thermal fogger" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="petratools ulv cordless fogger" block>Check price →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -253,9 +256,9 @@ export default function ThermalVsUlvFoggerCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the two types:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="longray thermal fogger">Longray thermal fogger →</BuyLink>
-            <BuyLink search="petratools ulv cordless fogger">PetraTools ULV fogger →</BuyLink>
-            <BuyLink search="handheld ulv fogger machine">Handheld ULV fogger →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="longray thermal fogger">Longray thermal fogger →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="petratools ulv cordless fogger">PetraTools ULV fogger →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="handheld ulv fogger machine">Handheld ULV fogger →</BuyLink>
           </div>
 
           <h2>Droplet Size: The Number That Decides Everything</h2>
@@ -275,7 +278,7 @@ export default function ThermalVsUlvFoggerCanadaPage() {
           <p>A ULV cold fogger is the machine most buyers should look at first, precisely because it refuses to be a specialist. Running cold on water-based solutions, it is safe to use indoors, which is why ULV became the default tool for the wave of disinfection, sanitizing, mould-remediation, and odour-control work that a thermal fogger simply cannot touch. Dial the nozzle to a fine mist and it fills a room with disinfectant; open it up to a wetter setting and it lays down a coating on surfaces or knocks down insects in a small greenhouse or yard. One machine, many jobs, no flame.</p>
           <p>PetraTools built its reputation on cordless ULV units, and the battery format is a real advantage for anyone who moves around &mdash; you can walk an entire property, a multi-room building, or a greenhouse without dragging a cord or hunting for an outlet. The cost is the usual cordless tax: runtime limits and batteries to keep charged. A corded ULV trades that mobility for unlimited runtime, which suits a fixed indoor space or a long commercial cleaning routine better. Either way, the ULV&rsquo;s honest limitation is outdoor reach: its coarser, lower-volume mist will not blanket acreage or drive deep into a hedgerow the way a thermal fog does. For most homeowners and small operators, though, that ceiling is far above what they will ever need.</p>
 
-          <TopPick
+          <TopPick tag={AMZ_TAG}
             label="Overall Pick for Most Buyers"
             name="PetraTools-style Cordless ULV Cold Fogger"
             blurb="For the widest range of jobs with the fewest compromises, a cordless ULV cold fogger is the one to own. It runs cold and safe indoors, uses water-based products, lets you dial droplet size from a fine disinfecting mist to a wetter surface coat, and goes cordless so you can cover a whole property. It gives up outdoor penetration to a thermal fogger — but unless large-area vegetation is your specific problem, its versatility wins. Buy a Longray-style thermal fogger as a second, specialist machine only when acreage and dense foliage demand it."

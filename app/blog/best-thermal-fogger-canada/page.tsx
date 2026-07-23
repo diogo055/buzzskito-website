@@ -8,6 +8,7 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import AuthorByline from '@/components/AuthorByline'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'best-thermal-fogger-canada'
 const DATE = '2026-07-21'
@@ -75,6 +76,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('best-thermal-fogger-canada')
+
 export default function BestThermalFoggerCanadaPage() {
   return (
     <>
@@ -96,7 +99,7 @@ export default function BestThermalFoggerCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="Longray pulse-jet thermal fogger" search="longray thermal fogger" label="Best pro-grade fogger" />
+      <StickyBuyBar tag={AMZ_TAG} name="Longray pulse-jet thermal fogger" search="longray thermal fogger" label="Best pro-grade fogger" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -118,7 +121,7 @@ export default function BestThermalFoggerCanadaPage() {
 
       <section className="bg-white px-4 py-6">
         <div className="max-w-5xl mx-auto">
-          <AwardRow
+          <AwardRow tag={AMZ_TAG}
             heading="Our Picks — Best Thermal Foggers in Canada"
             awards={[
               {
@@ -192,21 +195,21 @@ export default function BestThermalFoggerCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Pulse-jet engine flash-heats fuel + fluid into a dense, ultra-fine fog</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Large</strong> — acreage, tree lines</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$500 – $1,200</td>
-                  <td className="px-4 py-3"><BuyLink search="longray thermal fogger" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="longray thermal fogger" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Propane-cartridge<br /><span className="font-normal text-xs text-gray-500">Black Flag, Burgess</span></td>
                   <td className="px-4 py-3 text-gray-700">Disposable propane cartridge heats the barrel; fluid vaporizes on contact</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Suburban lot</strong> — occasional use</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$70 – $130</td>
-                  <td className="px-4 py-3"><BuyLink search="black flag propane fogger" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="black flag propane fogger" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Electric<br /><span className="font-normal text-xs text-gray-500">corded heating coil</span></td>
                   <td className="px-4 py-3 text-gray-700">Corded electric coil heats the barrel — no propane, steady output</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Near an outlet</strong> — cord-limited</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$120 – $250</td>
-                  <td className="px-4 py-3"><BuyLink search="electric thermal fogger" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="electric thermal fogger" block>Check price →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -264,9 +267,9 @@ export default function BestThermalFoggerCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Compare current Canadian prices across the main fogger types:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="longray thermal fogger">Pulse-jet fogger on Amazon.ca →</BuyLink>
-            <BuyLink search="black flag propane fogger">Propane fogger →</BuyLink>
-            <BuyLink search="electric thermal fogger">Electric fogger →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="longray thermal fogger">Pulse-jet fogger on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="black flag propane fogger">Propane fogger →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="electric thermal fogger">Electric fogger →</BuyLink>
           </div>
 
           <h2>Top Pick: Pulse-Jet Foggers (Longray)</h2>

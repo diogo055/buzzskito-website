@@ -8,6 +8,7 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import AwardRow from '@/components/AwardRow'
 import AuthorByline from '@/components/AuthorByline'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'misting-fan-canada'
 const DATE = '2026-07-14'
@@ -65,6 +66,8 @@ export const metadata: Metadata = buildMetadata({
   publishedTime: DATE,
 })
 
+const AMZ_TAG = tagForSlug('misting-fan-canada')
+
 export default function MistingFanCanadaPage() {
   return (
     <>
@@ -86,7 +89,7 @@ export default function MistingFanCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="Portable oscillating outdoor misting fan" search="portable oscillating misting fan outdoor" label="Best patio pick" />
+      <StickyBuyBar tag={AMZ_TAG} name="Portable oscillating outdoor misting fan" search="portable oscillating misting fan outdoor" label="Best patio pick" />
 
       <section className="bg-white px-4 pt-8">
         <div className="max-w-4xl mx-auto">
@@ -164,7 +167,7 @@ export default function MistingFanCanadaPage() {
 
       <section className="bg-white px-4 py-6">
         <div className="max-w-5xl mx-auto">
-          <AwardRow
+          <AwardRow tag={AMZ_TAG}
             heading="Our Picks — Best Outdoor Misting Fans in Canada"
             awards={[
               {
@@ -220,8 +223,8 @@ export default function MistingFanCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Compare current Canadian listings, tank sizes, and nozzle materials on Amazon.ca:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="portable oscillating misting fan outdoor">Check price on Amazon.ca</BuyLink>
-            <BuyLink search="commercial outdoor misting fan patio">Check price on Amazon.ca</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="portable oscillating misting fan outdoor">Check price on Amazon.ca</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="commercial outdoor misting fan patio">Check price on Amazon.ca</BuyLink>
           </div>
 
           <h2>Why a fan works against mosquitoes when a zapper barely does</h2>
@@ -238,13 +241,13 @@ export default function MistingFanCanadaPage() {
           <p>You will see two very different products when you shop, and the price gap is real. Understanding the difference saves you from a wet-floor disappointment.</p>
           <p>A <strong>complete misting fan</strong> is a single engineered unit &mdash; motor, blades, water source, pump or pressure path, and nozzles all designed to work together. A 16-inch portable oscillating model carries its own refillable tank and usually a remote, so you set it down anywhere on the deck, fill it, and go. There is no hose to route and no dependence on your home&rsquo;s water pressure. A commercial patio mist fan scales that up for restaurant patios, event tents, and large entertaining areas, often with a higher-pressure pump that produces the finest, coolest mist and the longest throw.</p>
           <div className="not-prose my-6 flex flex-wrap gap-3">
-            <BuyLink search="portable oscillating misting fan outdoor">Check price on Amazon.ca</BuyLink>
-            <BuyLink search="commercial outdoor misting fan patio">Check price on Amazon.ca</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="portable oscillating misting fan outdoor">Check price on Amazon.ca</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="commercial outdoor misting fan patio">Check price on Amazon.ca</BuyLink>
           </div>
           <p>A <strong>misting kit</strong>, by contrast, is just the plumbing: a coil of tubing fitted with a row of nozzles and a ring that clips around the face of a fan you already own. The homenote 16.4-foot kit with brass nozzles and the Landgarden 19.36-foot kit are typical &mdash; cheap, easy to mount, and a smart way to upgrade a sturdy pedestal fan you already have. The trade-off is that a kit runs on ordinary garden-hose pressure (about 40&nbsp;to 60&nbsp;psi in most GTA homes), so the droplets are coarser than a dedicated high-pressure fan, which means slightly more wetting and slightly less cooling. If you go this route, spend the extra couple of dollars on <strong>brass or stainless nozzles</strong> rather than plastic &mdash; they resist Ontario&rsquo;s hard water dramatically better.</p>
           <div className="not-prose my-6 flex flex-wrap gap-3">
-            <BuyLink search="homenote misting fan kit brass nozzles">Check price on Amazon.ca</BuyLink>
-            <BuyLink search="landgarden fan misting kit">Check price on Amazon.ca</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="homenote misting fan kit brass nozzles">Check price on Amazon.ca</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="landgarden fan misting kit">Check price on Amazon.ca</BuyLink>
           </div>
           <p>Our general steer for most homeowners: if you have a nearby tap and want maximum cooling with minimal fuss, a complete fan is worth the higher ticket. If you already own a solid fan and mainly want to experiment, a brass-nozzle kit is a low-risk starting point.</p>
 

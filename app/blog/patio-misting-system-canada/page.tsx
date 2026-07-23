@@ -8,6 +8,7 @@ import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'patio-misting-system-canada'
 const DATE = '2026-07-14'
@@ -61,6 +62,8 @@ export const metadata: Metadata = buildMetadata({
   publishedTime: DATE,
 })
 
+const AMZ_TAG = tagForSlug('patio-misting-system-canada')
+
 export default function PatioMistingSystemCanadaPage() {
   return (
     <>
@@ -82,7 +85,7 @@ export default function PatioMistingSystemCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="HOMENOTE Misting Kit with 5 Brass Nozzles" search="homenote misting kit brass nozzles" label="Best small-patio kit" />
+      <StickyBuyBar tag={AMZ_TAG} name="HOMENOTE Misting Kit with 5 Brass Nozzles" search="homenote misting kit brass nozzles" label="Best small-patio kit" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -140,7 +143,7 @@ export default function PatioMistingSystemCanadaPage() {
 
       <section className="bg-white px-4 py-6">
         <div className="max-w-5xl mx-auto">
-          <AwardRow
+          <AwardRow tag={AMZ_TAG}
             heading="Our Picks — Patio Misting Kits in Canada"
             awards={[
               {
@@ -196,8 +199,8 @@ export default function PatioMistingSystemCanadaPage() {
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability on the two kits we recommend most often:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="homenote misting kit brass nozzles">HOMENOTE 16.4 ft kit on Amazon.ca →</BuyLink>
-            <BuyLink search="furnrubden patio misting kit 60ft">Furnrubden 60 ft kit →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="homenote misting kit brass nozzles">HOMENOTE 16.4 ft kit on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="furnrubden patio misting kit 60ft">Furnrubden 60 ft kit →</BuyLink>
           </div>
 
           <h2>Cooling Mist vs Insecticide Mist: Sort This Out Before You Spend a Dollar</h2>
@@ -230,26 +233,26 @@ export default function PatioMistingSystemCanadaPage() {
           <p>The HOMENOTE kit is the one we suggest first for condo balconies and bistro-set patios, for a reason that&rsquo;s pure physics: at 16.4 ft (5 m) with five nozzles, the line is short enough that ordinary municipal pressure keeps every nozzle misting properly instead of dribbling. The nozzles are brass rather than plastic &mdash; a detail that matters in the GTA, where moderately hard Lake Ontario tap water scales nozzles up over a season, and brass tolerates the repeated vinegar soaks that crack cheap plastic tips. It connects to a standard garden-hose fitting and zip-ties to an umbrella rib, railing, or gazebo frame in about fifteen minutes.</p>
           <p>Limitations: five nozzles cover one seating zone, not a whole deck, and like every hose-fed kit it mists coarser on low-pressure homes.</p>
           <div className="not-prose my-4">
-            <BuyLink search="homenote misting kit brass nozzles">Check price on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="homenote misting kit brass nozzles">Check price on Amazon.ca →</BuyLink>
           </div>
 
           <h3>2. Landgarden 19.36 ft Misting Kit — Best Mid-Size Deck Kit</h3>
           <p>Landgarden&rsquo;s 19.36 ft (5.9 m) kit is the mid-size sweet spot: enough line to wrap the sun-exposed edge of a standard 10&times;12 ft deck or run the full front of a gazebo, while staying short enough that each nozzle still gets workable pressure from the tap. Mount the line 2.4&ndash;3 m (8&ndash;10 ft) up, angled slightly outward, so the mist has falling distance to evaporate before it reaches chair height. That mounting height, more than any spec on the box, is what separates a refreshing patio from a damp one.</p>
           <div className="not-prose my-4">
-            <BuyLink search="landgarden misting kit">Check price on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="landgarden misting kit">Check price on Amazon.ca →</BuyLink>
           </div>
 
           <h3>3. Furnrubden 60 ft Patio Misting Kit — Best for Pergolas and Large Decks</h3>
           <p>At 60 ft (18.3 m), the Furnrubden kit is the one to buy when you&rsquo;re outlining a full pergola, a wraparound deck, or a fence line beside the seating area. The honest caveat comes straight from the pressure math above: no GTA house tap will drive 18 metres of fully populated nozzles well. Plan to install a third to a half of the included nozzles &mdash; concentrated over the zones where people actually sit &mdash; and cap the rest of the ports. Configured that way, it&rsquo;s the most flexible kit of the three.</p>
           <div className="not-prose my-4">
-            <BuyLink search="furnrubden patio misting kit 60ft">Check price on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="furnrubden patio misting kit 60ft">Check price on Amazon.ca →</BuyLink>
           </div>
 
           <h3>4. Mosquito Sniper System — The Odd One Out (and the Only Mosquito-Focused Pick)</h3>
           <p>The Mosquito Sniper System isn&rsquo;t a cooling kit at all &mdash; it&rsquo;s a DIY applicator marketed to convert a gas string trimmer into a mist blower, so you can push a treatment mist up into the shrubs and shaded foliage where mosquitoes rest during the day. We include it because it&rsquo;s the closest thing Amazon.ca offers to genuine do-it-yourself misting <em>for mosquito control</em>, and the airflow-driven mist principle is exactly how professional backpack mist blowers work.</p>
           <p>Two Canadian realities to check before buying: you need a compatible gas trimmer to power it, and whatever you put through it must be a Health Canada PMRA-registered, domestic-class product applied per its label &mdash; the US recipes in the product reviews mostly involve concentrates that aren&rsquo;t registered here. Applied correctly, DIY treatments of this type also fade faster than commercial-class residuals; our guide to <Link href="/blog/how-long-does-mosquito-spray-last">how long mosquito spray actually lasts</Link> sets realistic re-treatment expectations.</p>
           <div className="not-prose my-4">
-            <BuyLink search="mosquito sniper system">Check price on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="mosquito sniper system">Check price on Amazon.ca →</BuyLink>
           </div>
 
           <h2>Automated Mosquito Misting Systems (MistAway-Class) in Canada</h2>

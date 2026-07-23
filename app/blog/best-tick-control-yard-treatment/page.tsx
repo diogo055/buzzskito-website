@@ -9,6 +9,7 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { TICK_BLOGS } from '@/lib/constants'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const POST = TICK_BLOGS.supporting[3]
 const UPDATED = '2026-07-16'
@@ -27,6 +28,8 @@ const FAQS = [
   { question: 'Is diatomaceous earth effective for tick control?', answer: 'Diatomaceous earth can kill ticks and other insects on contact by damaging their exoskeletons and causing dehydration. It\'s a low-toxicity option, but it requires direct contact, breaks down quickly when wet, and doesn\'t provide residual protection. It\'s not practical as a yard-wide tick control solution in Ontario\'s wet climate.' },
   { question: 'How does professional tick spray compare to Damminix Tick Tubes?', answer: 'Tick tubes contain permethrin-treated cotton that mice use for nesting material. The permethrin kills larval ticks that feed on the mice. This is a clever biological approach that targets the wildlife reservoir host — but it only addresses larval-stage ticks. Professional barrier spray kills ticks at all life stages directly in your yard. The two approaches are complementary, not competing.' },
 ]
+
+const AMZ_TAG = tagForSlug('best-tick-control-yard-treatment')
 
 export default function BestTickControlPage() {
   return (
@@ -50,7 +53,7 @@ export default function BestTickControlPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="Wondercide Tick &amp; Flea Yard Spray" search="wondercide tick yard spray" label="Best DIY yard spray" />
+      <StickyBuyBar tag={AMZ_TAG} name="Wondercide Tick &amp; Flea Yard Spray" search="wondercide tick yard spray" label="Best DIY yard spray" />
 
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
         <AuthorByline datePublished={POST.date} dateModified={UPDATED} />
@@ -71,7 +74,7 @@ export default function BestTickControlPage() {
         </div>
 
         <AffiliateDisclosure />
-        <AwardRow
+        <AwardRow tag={AMZ_TAG}
           heading="Our Picks — Best DIY Tick Products to Layer With a Barrier Spray"
           awards={[
             {
@@ -169,11 +172,11 @@ export default function BestTickControlPage() {
         <ul>
           <li>
             <strong>Plant-based yard spray:</strong> For spot-treating small problem zones yourself, a botanical spray like Wondercide handles patios, garden beds, and pet areas without harsh synthetics. Coverage is short-lived, so reapply after rain.{' '}
-            <BuyLink search="wondercide tick yard spray">Check price on Amazon.ca &rarr;</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="wondercide tick yard spray">Check price on Amazon.ca &rarr;</BuyLink>
           </li>
           <li>
             <strong>Permethrin clothing spray:</strong> For hikes and yard work, treating clothing and gear with a permethrin spray such as Sawyer&rsquo;s gives long-lasting, wearable protection that skin repellent alone can&rsquo;t match. Apply to garments &mdash; never skin.{' '}
-            <BuyLink search="sawyer permethrin clothing spray">Check price on Amazon.ca &rarr;</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="sawyer permethrin clothing spray">Check price on Amazon.ca &rarr;</BuyLink>
           </li>
         </ul>
         <p>For a fuller rundown of what actually works, see our guide to the{' '}
@@ -182,7 +185,7 @@ export default function BestTickControlPage() {
 
         <h3>Tick Tubes: The Passive Layer</h3>
         <p>Permethrin-treated tick tubes work the wildlife angle: mice grab the treated cotton for nesting material, and the permethrin kills the larval ticks feeding on them before they ever reach your family. It only touches the larval stage, so it can&rsquo;t replace a barrier spray &mdash; but as a set-and-forget layer placed along wood edges and stone walls in spring and late summer, it quietly shrinks next season&rsquo;s tick population. See our full <Link href="/blog/tick-tubes-canada" className="text-brand-700 hover:underline">guide to tick tubes in Canada</Link> for placement timing and how many you need.{' '}
-          <BuyLink search="thermacell tick control tubes 12 pack">Check price on Amazon.ca &rarr;</BuyLink>
+          <BuyLink tag={AMZ_TAG} search="thermacell tick control tubes 12 pack">Check price on Amazon.ca &rarr;</BuyLink>
         </p>
 
         <h2>Related Guides</h2>

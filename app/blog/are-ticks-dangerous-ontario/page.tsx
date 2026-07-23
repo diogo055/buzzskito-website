@@ -8,6 +8,7 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import TopPick from '@/components/TopPick'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { TICK_BLOGS } from '@/lib/constants'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const POST = {
   title: 'Are Ticks Dangerous in Ontario?',
@@ -74,6 +75,8 @@ const FAQS = [
       'Lyme disease is now well established across southern Ontario and increasingly common, with the GTA firmly inside the risk zone. Public Health Ontario has documented blacklegged ticks in every GTA municipality, and confirmed case counts have risen year over year. It remains far less common than everyday illnesses, and it is highly preventable with tick checks, prompt removal, and yard treatment. If symptoms like a bull\'s-eye rash or fever appear, see a healthcare provider.',
   },
 ]
+
+const AMZ_TAG = tagForSlug('are-ticks-dangerous-ontario')
 
 export default function AreTicksDangerousPage() {
   return (
@@ -217,8 +220,8 @@ export default function AreTicksDangerousPage() {
         </ul>
         <p>See: <Link href="/blog/how-to-remove-tick-safely" className="text-brand-700 hover:underline">How to Remove a Tick Safely</Link> | <Link href="/blog/tick-bite-symptoms-what-to-do-ontario" className="text-brand-700 hover:underline">Tick Bite Symptoms &amp; What to Do</Link> | <Link href="/blog/tick-removal-tool-guide" className="text-brand-700 hover:underline">Best Tick-Removal Tools Compared</Link></p>
         <AffiliateDisclosure />
-        <p className="not-prose text-gray-700">A dedicated tick-removal tool grips the head close to the skin more reliably than household tweezers, reducing the chance of leaving mouthparts behind. See how the options compare in our <Link href="/blog/tick-removal-tool-guide" className="text-brand-700 underline">tick-removal tool guide</Link>, or <BuyLink search="tick removal tool tweezers">check tick-removal tools on Amazon.ca →</BuyLink></p>
-        <TopPick
+        <p className="not-prose text-gray-700">A dedicated tick-removal tool grips the head close to the skin more reliably than household tweezers, reducing the chance of leaving mouthparts behind. See how the options compare in our <Link href="/blog/tick-removal-tool-guide" className="text-brand-700 underline">tick-removal tool guide</Link>, or <BuyLink tag={AMZ_TAG} search="tick removal tool tweezers">check tick-removal tools on Amazon.ca →</BuyLink></p>
+        <TopPick tag={AMZ_TAG}
           label="Our Top Pick — Tick Removal"
           name="Tick-Removal Tool Kit (fine-tip tweezers + tick key)"
           blurb="If you only keep one thing on hand for tick season, make it a dedicated remover. A fine-tipped tool grips right at the skin and lifts the tick straight out — head and all — so you are far less likely to leave mouthparts behind or squeeze the tick's gut contents into the bite. Cheap enough to keep one in the car, one in the hiking bag, and one by the back door."

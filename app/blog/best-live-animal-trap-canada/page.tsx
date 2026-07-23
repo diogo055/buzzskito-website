@@ -8,6 +8,7 @@ import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'best-live-animal-trap-canada'
 const DATE = '2026-07-21'
@@ -75,6 +76,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('best-live-animal-trap-canada')
+
 export default function BestLiveAnimalTrapCanadaPage() {
   return (
     <>
@@ -96,7 +99,7 @@ export default function BestLiveAnimalTrapCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="Havahart medium 1-door live cage trap" search="havahart live animal trap medium" label="For legal on-site release" />
+      <StickyBuyBar tag={AMZ_TAG} name="Havahart medium 1-door live cage trap" search="havahart live animal trap medium" label="For legal on-site release" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -128,7 +131,7 @@ export default function BestLiveAnimalTrapCanadaPage() {
 
       <section className="bg-white px-4 py-6">
         <div className="max-w-5xl mx-auto">
-          <AwardRow
+          <AwardRow tag={AMZ_TAG}
             heading="Trap Sizes Compared — For Legal, On-Site Release Only"
             awards={[
               {
@@ -206,9 +209,9 @@ export default function BestLiveAnimalTrapCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the four trap sizes (for legal, on-site release only):</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="havahart live animal trap medium">Medium 1-door (groundhogs) →</BuyLink>
-            <BuyLink search="havahart small live animal trap">Small 1-door (squirrels/rats) →</BuyLink>
-            <BuyLink search="havahart two door live trap">Two-door (skittish species) →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="havahart live animal trap medium">Medium 1-door (groundhogs) →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="havahart small live animal trap">Small 1-door (squirrels/rats) →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="havahart two door live trap">Two-door (skittish species) →</BuyLink>
           </div>
 
           <h2>Raccoons and Skunks: Call a Licensed Operator, Don’t Buy a Trap</h2>
@@ -240,7 +243,7 @@ export default function BestLiveAnimalTrapCanadaPage() {
                     <td className="px-4 py-3 text-gray-800">{pick}</td>
                     <td className="px-4 py-3 text-gray-700">{target}</td>
                     <td className="px-4 py-3 text-gray-700">{doors}</td>
-                    <td className="px-4 py-3"><BuyLink search={search} block>Check price →</BuyLink></td>
+                    <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search={search} block>Check price →</BuyLink></td>
                   </tr>
                 ))}
               </tbody>

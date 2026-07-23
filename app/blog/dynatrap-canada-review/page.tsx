@@ -8,6 +8,7 @@ import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'dynatrap-canada-review'
 const DATE = '2026-05-01'
@@ -91,6 +92,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('dynatrap-canada-review')
+
 export default function DynaTrapCanadaPage() {
   return (
     <>
@@ -112,7 +115,7 @@ export default function DynaTrapCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="DynaTrap DT1050 (½ acre UV + fan trap)" search="dynatrap dt1050" label="Best size for GTA yards" />
+      <StickyBuyBar tag={AMZ_TAG} name="DynaTrap DT1050 (½ acre UV + fan trap)" search="dynatrap dt1050" label="Best size for GTA yards" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -173,7 +176,7 @@ export default function DynaTrapCanadaPage() {
             Prices accurate as of May 2026. Atrakta booster cartridges (60-day mosquito attractant) add $15–$25 each. UV replacement bulbs $15–$25 each (replace yearly). Annual operating cost: $90–$150.
           </p>
           <p className="mt-4 text-sm text-gray-700">
-            Amazon.ca also stocks the full DynaTrap lineup year-round with delivery. <BuyLink search="dynatrap insect trap" className="!px-3 !py-1.5 !text-xs">Check price</BuyLink>
+            Amazon.ca also stocks the full DynaTrap lineup year-round with delivery. <BuyLink tag={AMZ_TAG} search="dynatrap insect trap" className="!px-3 !py-1.5 !text-xs">Check price</BuyLink>
           </p>
           <div className="mt-5 rounded-xl bg-rose-50 border-l-4 border-rose-400 p-4">
             <p className="text-sm text-gray-800 leading-relaxed">
@@ -185,7 +188,7 @@ export default function DynaTrapCanadaPage() {
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
-          <TopPick
+          <TopPick tag={AMZ_TAG}
             label="Our DynaTrap Pick"
             name="DynaTrap DT1050 (½ acre)"
             blurb="If you're set on a DynaTrap, the half-acre DT1050 is the right size for a typical Canadian suburban backyard — the 1-acre models cost more without catching meaningfully more mosquitoes on a standard lot."
@@ -234,8 +237,8 @@ export default function DynaTrapCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Compare current Canadian prices (DT1050, DT1100, DT2030 half/full-acre) and Atrakta refills:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="dynatrap insect trap">Check DynaTrap price on Amazon.ca →</BuyLink>
-            <BuyLink search="dynatrap atrakta refill">Atrakta refill cartridges →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="dynatrap insect trap">Check DynaTrap price on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="dynatrap atrakta refill">Atrakta refill cartridges →</BuyLink>
           </div>
 
           <h2 id="models">DynaTrap Models Compared: DT1050 vs DT1100 vs DT2030</h2>
@@ -257,46 +260,46 @@ export default function DynaTrapCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">300 sq ft</td>
                   <td className="px-4 py-3 text-gray-700">Balcony / small porch</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$79 – $129</td>
-                  <td className="px-4 py-3"><BuyLink search="dynatrap dt150" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="dynatrap dt150" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">DT1050 <span className="font-normal text-xs text-gray-500">(½ acre)</span></td>
                   <td className="px-4 py-3 text-gray-700">½ acre</td>
                   <td className="px-4 py-3 text-gray-700">Typical GTA backyard</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$149 – $199</td>
-                  <td className="px-4 py-3"><BuyLink search="dynatrap dt1050" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="dynatrap dt1050" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">DT1100 <span className="font-normal text-xs text-gray-500">(1 acre)</span></td>
                   <td className="px-4 py-3 text-gray-700">1 acre (full)</td>
                   <td className="px-4 py-3 text-gray-700">Large yard / cottage</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$199 – $279</td>
-                  <td className="px-4 py-3"><BuyLink search="dynatrap dt1100" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="dynatrap dt1100" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">DT2030 <span className="font-normal text-xs text-gray-500">(1 acre · 3-way)</span></td>
                   <td className="px-4 py-3 text-gray-700">1 acre (full)</td>
                   <td className="px-4 py-3 text-gray-700">Cottage decks · most popular</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$199 – $279</td>
-                  <td className="px-4 py-3"><BuyLink search="dynatrap dt2030" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="dynatrap dt2030" block>Check price →</BuyLink></td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 font-bold text-brand-800">DT3050 <span className="font-normal text-xs text-gray-500">(+ attractant fan)</span></td>
                   <td className="px-4 py-3 text-gray-700">1 acre (full)</td>
                   <td className="px-4 py-3 text-gray-700">Best DynaTrap for mosquitoes</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$249 – $329</td>
-                  <td className="px-4 py-3"><BuyLink search="dynatrap dt3050" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="dynatrap dt3050" block>Check price →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
           </div>
-          <p className="not-prose text-sm text-gray-600 mb-6">Catching too few mosquitoes? The octenol <strong>Atrakta</strong> cartridge (60-day refill) is the lure that nudges the mosquito catch upward — budget a couple per season. <BuyLink search="dynatrap atrakta refill">Check Atrakta refill price →</BuyLink></p>
+          <p className="not-prose text-sm text-gray-600 mb-6">Catching too few mosquitoes? The octenol <strong>Atrakta</strong> cartridge (60-day refill) is the lure that nudges the mosquito catch upward — budget a couple per season. <BuyLink tag={AMZ_TAG} search="dynatrap atrakta refill">Check Atrakta refill price →</BuyLink></p>
 
           <h3>DT1050 vs DT1100: which should you buy?</h3>
           <p>They are the same trap mechanically — UV light plus a suction fan. The only real difference is coverage and price: the <strong>DT1050</strong> is rated for a <strong>half acre</strong> (plenty for a standard Mississauga or Brampton backyard), while the <strong>DT1100</strong> covers a <strong>full acre</strong> for larger rural and cottage lots. If your yard is under roughly 10,000 sq ft, the DT1050 saves you $30–$60 with no downside. Size up to the DT1100 or DT2030 only if you genuinely have an acre or a very open, breezy property. Neither model catches meaningfully more mosquitoes than the other.</p>
 
           <h3>DynaTrap at Costco Canada</h3>
-          <p>Costco Canada is usually the cheapest place to buy the larger DT2030 and DT3050, during its spring outdoor-living sale — often $30–$70 below Canadian Tire and Home Depot, sometimes landing the DT2030 near $179–$229. Stock is seasonal and disappears by mid-summer, and Costco rarely carries the Atrakta refills, so grab a couple of cartridges from <BuyLink search="dynatrap atrakta refill">Amazon.ca</BuyLink> or a garden centre at the same time. If Costco is sold out, the <Link href="/blog/thermacell-canada-where-to-buy">Thermacell</Link> lineup is stocked there too.</p>
+          <p>Costco Canada is usually the cheapest place to buy the larger DT2030 and DT3050, during its spring outdoor-living sale — often $30–$70 below Canadian Tire and Home Depot, sometimes landing the DT2030 near $179–$229. Stock is seasonal and disappears by mid-summer, and Costco rarely carries the Atrakta refills, so grab a couple of cartridges from <BuyLink tag={AMZ_TAG} search="dynatrap atrakta refill">Amazon.ca</BuyLink> or a garden centre at the same time. If Costco is sold out, the <Link href="/blog/thermacell-canada-where-to-buy">Thermacell</Link> lineup is stocked there too.</p>
 
           <h2 id="dynatrap-xl">DynaTrap XL &amp; 1-Acre Models (DT2030 Series)</h2>
           <p>Shopping for the <strong>DynaTrap XL</strong>? That&rsquo;s the label Canadian listings use for the <strong>1-acre tier</strong> — the DT2030 series plus the Canadian-market <strong>DT1100-CA</strong> and <strong>DT1130-CA</strong> SKUs. Mechanically it&rsquo;s the same UV-plus-fan trap as the half-acre units, scaled up: a stronger fan, a larger catch basket, and a higher-output UV lamp rated to cover roughly 43,000 sq ft (a full acre) of open yard.</p>
@@ -330,8 +333,8 @@ export default function DynaTrapCanadaPage() {
           <p>Two honest notes before you size up. First, the 1-acre rating assumes open, unobstructed air — fences, hedges, and buildings shrink real-world coverage, so a heavily treed lot behaves more like a half-acre one. Second, <strong>bigger coverage does not mean a better mosquito catch</strong>: the XL units pull in more insects in total, but the species mix is the same ~5% mosquitoes / 95% moths-and-beetles that every UV trap produces. Buy the XL because your property is genuinely large, not because you expect it to fix a mosquito problem the DT1050 couldn&rsquo;t. Bulb cadence is identical across the range — swap the UV lamp at the start of every season, since output falls to about half by month four.</p>
           <p className="not-prose text-sm text-gray-600 mb-1">Compare current Canadian prices on the 1-acre models:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="dynatrap dt2030 1 acre">Check DT2030 (1-acre) price on Amazon.ca →</BuyLink>
-            <BuyLink search="dynatrap dt1100 canada">Check DT1100-CA / DT1130-CA price →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="dynatrap dt2030 1 acre">Check DT2030 (1-acre) price on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="dynatrap dt1100 canada">Check DT1100-CA / DT1130-CA price →</BuyLink>
           </div>
 
           <div className="not-prose my-6 rounded-xl bg-emerald-50 border-l-4 border-emerald-500 p-5">

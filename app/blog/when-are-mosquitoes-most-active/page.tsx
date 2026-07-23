@@ -7,6 +7,7 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import TopPick from '@/components/TopPick'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'when-are-mosquitoes-most-active'
 const DATE = '2026-07-13'
@@ -56,6 +57,8 @@ export const metadata: Metadata = buildMetadata({
   publishedTime: DATE,
   modifiedTime: UPDATED,
 })
+
+const AMZ_TAG = tagForSlug('when-are-mosquitoes-most-active')
 
 export default function WhenAreMosquitoesMostActivePage() {
   return (
@@ -207,13 +210,13 @@ export default function WhenAreMosquitoesMostActivePage() {
           <h2>Why the Timing Matters for Bites — and for Spraying</h2>
           <p>Knowing when mosquitoes are active changes how you protect yourself and your yard:</p>
           <ol>
-            <li><strong>Time your personal protection.</strong> Apply repellent and cover up before the dawn and dusk peaks, and again during the day if you have shaded Aedes territory. Reach for a repellent with an EPA/Health Canada–recognized active ingredient — <strong>DEET</strong>, <strong>picaridin</strong>, or oil of lemon eucalyptus. <BuyLink search="picaridin insect repellent spray">Check repellent options on Amazon →</BuyLink></li>
+            <li><strong>Time your personal protection.</strong> Apply repellent and cover up before the dawn and dusk peaks, and again during the day if you have shaded Aedes territory. Reach for a repellent with an EPA/Health Canada–recognized active ingredient — <strong>DEET</strong>, <strong>picaridin</strong>, or oil of lemon eucalyptus. <BuyLink tag={AMZ_TAG} search="picaridin insect repellent spray">Check repellent options on Amazon →</BuyLink></li>
             <li><strong>Treat the resting spots, not just the bite window.</strong> Because mosquitoes shelter in shade between meals, the highest-value target is those cool, humid resting surfaces — shrub undersides, fence lines, shaded borders. A residual barrier spray applied there keeps killing mosquitoes around the clock for weeks, so it does not matter whether your problem species bites at dusk or at noon.</li>
             <li><strong>Kill the next generation at the source.</strong> Empty standing water weekly so eggs never hatch, and use a larvicide (BTI) in water you cannot drain. Fewer larvae today means smaller dawn and dusk swarms in two weeks.</li>
             <li><strong>Use wind and screens.</strong> A patio fan makes a seating area nearly bite-proof at dusk, and good window screens block the Culex that come to indoor lights after dark.</li>
           </ol>
 
-          <TopPick
+          <TopPick tag={AMZ_TAG}
             label="Best for Peak-Hour Protection"
             name="Picaridin Insect Repellent (20%)"
             blurb="For the dawn and dusk bite windows — and shaded midday Aedes territory — a picaridin repellent is the simplest personal defence. Unlike DEET it is odourless and won't damage plastics or gear, and it protects for hours from a single application."

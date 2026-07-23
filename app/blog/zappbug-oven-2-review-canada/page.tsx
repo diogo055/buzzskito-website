@@ -8,6 +8,7 @@ import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'zappbug-oven-2-review-canada'
 const DATE = '2026-07-21'
@@ -75,6 +76,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('zappbug-oven-2-review-canada')
+
 export default function ZappBugOven2ReviewCanadaPage() {
   return (
     <>
@@ -96,7 +99,7 @@ export default function ZappBugOven2ReviewCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="ZappBug Oven 2 large bed bug heat chamber" search="zappbug oven 2 bed bug heater" label="Our verdict: 8.7/10" />
+      <StickyBuyBar tag={AMZ_TAG} name="ZappBug Oven 2 large bed bug heat chamber" search="zappbug oven 2 bed bug heater" label="Our verdict: 8.7/10" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -119,7 +122,7 @@ export default function ZappBugOven2ReviewCanadaPage() {
 
       <section className="bg-white px-4 py-2">
         <div className="max-w-4xl mx-auto">
-          <TopPick
+          <TopPick tag={AMZ_TAG}
             label="Our Verdict"
             name="ZappBug Oven 2 — large portable bed bug heat chamber"
             blurb="A pop-up fabric-and-frame chamber with roughly double the working volume of the standard ZappBug Heater, driven by two heater units so it can take an entire household&rsquo;s belongings above the temperature at which no bed bug life stage survives — in one cycle instead of four. The wireless thermometer, probe buried in your densest item, is the feature that separates it from improvised alternatives: you stop on verified core temperature, not hope. The catch is electrical — it needs two separate circuits — so plan your outlets before you buy."
@@ -156,28 +159,28 @@ export default function ZappBugOven2ReviewCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Large belongings loads: multiple suitcases, a full closet, several boxes</td>
                   <td className="px-4 py-3 text-gray-700">Two heaters, <strong className="text-amber-700">two circuits</strong></td>
                   <td className="px-4 py-3 text-xs text-gray-600">The right size when the load is a household of stuff; verify each heater is on its own breaker</td>
-                  <td className="px-4 py-3"><BuyLink search="zappbug oven 2 bed bug heater" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="zappbug oven 2 bed bug heater" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">ZappBug Heater<br /><span className="font-normal text-xs text-gray-500">Smaller sibling</span></td>
                   <td className="px-4 py-3 text-gray-700">A carry-on suitcase, a queen bedding set, a couple of boxes</td>
                   <td className="px-4 py-3 text-gray-700">One heater, one outlet</td>
                   <td className="px-4 py-3 text-xs text-gray-600">Cheaper and simpler; the better buy for a single traveller or a light scare</td>
-                  <td className="px-4 py-3"><BuyLink search="zappbug heater bed bug" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="zappbug heater bed bug" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">ZappBug Room<br /><span className="font-normal text-xs text-gray-500">Bigger sibling</span></td>
                   <td className="px-4 py-3 text-gray-700">Mattresses, box springs, couches, dressers — near-room-scale items</td>
                   <td className="px-4 py-3 text-gray-700">Multiple heaters, multiple circuits</td>
                   <td className="px-4 py-3 text-xs text-gray-600">Four-figure commitment for landlords and repeat situations; overkill for belongings-only jobs</td>
-                  <td className="px-4 py-3"><BuyLink search="zappbug room bed bug heater" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="zappbug room bed bug heater" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">ThermalStrike Ranger<br /><span className="font-normal text-xs text-gray-500">Closest rival</span></td>
                   <td className="px-4 py-3 text-gray-700">Luggage and smaller belongings loads</td>
                   <td className="px-4 py-3 text-gray-700">Single unit, one outlet</td>
                   <td className="px-4 py-3 text-xs text-gray-600">Folding-panel design heats from all six sides; smaller interior — the sensible fallback if ZappBug stock lapses</td>
-                  <td className="px-4 py-3"><BuyLink search="thermalstrike bed bug heater" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="thermalstrike bed bug heater" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Renting a room heater</td>
@@ -251,9 +254,9 @@ export default function ZappBugOven2ReviewCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="zappbug oven 2 bed bug heater">ZappBug Oven 2 on Amazon.ca →</BuyLink>
-            <BuyLink search="zappbug heater bed bug">ZappBug Heater (smaller) →</BuyLink>
-            <BuyLink search="thermalstrike bed bug heater">ThermalStrike Ranger (fallback) →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="zappbug oven 2 bed bug heater">ZappBug Oven 2 on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="zappbug heater bed bug">ZappBug Heater (smaller) →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="thermalstrike bed bug heater">ThermalStrike Ranger (fallback) →</BuyLink>
           </div>
 
           <h2>Why Heat Wins Against Bed Bugs in the First Place</h2>
@@ -278,7 +281,7 @@ export default function ZappBugOven2ReviewCanadaPage() {
           <p>Electronics deserve their own paragraph because they are both a classic harbourage and the item people are most afraid to treat. The reassuring reality: most consumer electronics carry manufacturer <em>storage</em> temperature ratings of 60&deg;C or higher &mdash; comfortably above the 49&ndash;50&deg;C a chamber cycle reaches. A powered-off laptop, phone, tablet, console, or router generally comes through unharmed, and treating them matters because bed bugs favour the warm, dark seams of electronics. The rules are non-negotiable: device off, check the manufacturer&rsquo;s storage spec first, and never run a cycle with a device powered on.</p>
           <p>The hard exclusion list covers everything that is pressurized, flammable, or heat-deformable: aerosol cans, lighters, and loose batteries; candles, crayons, cosmetics, and chocolate that melt; medications, many of which degrade above room temperature; vinyl records, cassettes, and photographs that warp; and glued or finished musical instruments, which can delaminate. Wine and carbonated drinks can burst. For irreplaceable delicates, the alternative is isolation &mdash; sealed in a bag for several months until anything inside has starved &mdash; rather than heat.</p>
           <div className="not-prose my-4">
-            <BuyLink search="zappbug oven 2 bed bug heater">Check ZappBug Oven 2 on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="zappbug oven 2 bed bug heater">Check ZappBug Oven 2 on Amazon.ca →</BuyLink>
           </div>
 
           <h2>How to Choose Your Size: Oven 2 vs Heater vs Room</h2>

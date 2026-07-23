@@ -8,6 +8,7 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'mosquito-magnet-vs-professional-spray'
 const DATE = '2026-04-26'
@@ -57,6 +58,8 @@ export const metadata: Metadata = buildMetadata({
   publishedTime: DATE,
 })
 
+const AMZ_TAG = tagForSlug('mosquito-magnet-vs-professional-spray')
+
 export default function MosquitoMagnetPage() {
   return (
     <>
@@ -78,7 +81,7 @@ export default function MosquitoMagnetPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="Mosquito Magnet Patriot Plus (propane CO₂ trap)" search="mosquito magnet patriot plus" label="Trap price check" />
+      <StickyBuyBar tag={AMZ_TAG} name="Mosquito Magnet Patriot Plus (propane CO₂ trap)" search="mosquito magnet patriot plus" label="Trap price check" />
 
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
@@ -101,12 +104,12 @@ export default function MosquitoMagnetPage() {
 
           <p className="not-prose text-sm text-gray-600 mb-1">Pricing the hardware side of this comparison? Check current Canadian prices on the three most popular trap and repeller options:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="mosquito magnet patriot plus">Mosquito Magnet Patriot Plus →</BuyLink>
-            <BuyLink search="dynatrap dt2030 1 acre">DynaTrap DT2030 →</BuyLink>
-            <BuyLink search="thermacell e90 rechargeable">Thermacell E90 →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="mosquito magnet patriot plus">Mosquito Magnet Patriot Plus →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="dynatrap dt2030 1 acre">DynaTrap DT2030 →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="thermacell e90 rechargeable">Thermacell E90 →</BuyLink>
           </div>
 
-          <AwardRow
+          <AwardRow tag={AMZ_TAG}
             heading="Our Picks — If You Want the Hardware Route"
             awards={[
               {

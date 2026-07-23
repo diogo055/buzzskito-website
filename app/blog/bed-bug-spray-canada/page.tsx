@@ -8,6 +8,7 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import SpecialistDisclosure from '@/components/SpecialistDisclosure'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'bed-bug-spray-canada'
 const DATE = '2026-07-16'
@@ -69,6 +70,8 @@ export const metadata: Metadata = buildMetadata({
   publishedTime: DATE,
 })
 
+const AMZ_TAG = tagForSlug('bed-bug-spray-canada')
+
 export default function BedBugSprayCanadaPage() {
   return (
     <>
@@ -90,7 +93,7 @@ export default function BedBugSprayCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="Doktor Doom Sleep Tight bed bug spray" search="doktor doom sleep tight bed bug spray" label="Best PMRA-legal pick" />
+      <StickyBuyBar tag={AMZ_TAG} name="Doktor Doom Sleep Tight bed bug spray" search="doktor doom sleep tight bed bug spray" label="Best PMRA-legal pick" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -150,7 +153,7 @@ export default function BedBugSprayCanadaPage() {
 
       <section className="bg-white px-4 py-6">
         <div className="max-w-5xl mx-auto">
-          <AwardRow
+          <AwardRow tag={AMZ_TAG}
             heading="Our Picks — PMRA-Legal Bed Bug Sprays in Canada"
             awards={[
               {
@@ -206,10 +209,10 @@ export default function BedBugSprayCanadaPage() {
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
           <p className="not-prose text-sm text-gray-600 mb-1">Compare current Canadian availability on Amazon.ca:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="doktor doom sleep tight bed bug spray">Doktor Doom Sleep Tight &rarr;</BuyLink>
-            <BuyLink search="doktor doom pro max">Doktor Doom Pro Max &rarr;</BuyLink>
-            <BuyLink search="knock down bed bug killer">Knock Down Bed Bug Killer &rarr;</BuyLink>
-            <BuyLink search="konk bed bug spray">Konk Bed Bug Spray &rarr;</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="doktor doom sleep tight bed bug spray">Doktor Doom Sleep Tight &rarr;</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="doktor doom pro max">Doktor Doom Pro Max &rarr;</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="knock down bed bug killer">Knock Down Bed Bug Killer &rarr;</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="konk bed bug spray">Konk Bed Bug Spray &rarr;</BuyLink>
           </div>
 
           <h2>What Bed Bug Sprays Are Actually Legal in Canada?</h2>
@@ -222,8 +225,8 @@ export default function BedBugSprayCanadaPage() {
           <p>Add Doktor Doom Pro Max as your second can if the infestation extends beyond the bed. Pro Max is a permethrin residual: sprayed along baseboards, bed frames, headboard backs, and the undersides of furniture, it keeps killing bugs that walk across treated surfaces for weeks — the piece a contact-only spray is missing. Do <em>not</em> use it on the mattress or bedding; that&rsquo;s not what its label permits.</p>
           <p>Knock Down Bed Bug Killer and Konk are legitimate PMRA-registered alternates. Their formulations are similar contact-kill pyrethrin/pyrethroid aerosols, so treat them as substitutes when Doktor Doom is out of stock rather than upgrades. Whatever you buy, read the current label — Canadian formulations get revised, and the label is the law.</p>
           <div className="not-prose my-4 flex flex-wrap gap-3">
-            <BuyLink search="doktor doom sleep tight bed bug spray">Check Sleep Tight on Amazon.ca &rarr;</BuyLink>
-            <BuyLink search="doktor doom pro max">Check Pro Max on Amazon.ca &rarr;</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="doktor doom sleep tight bed bug spray">Check Sleep Tight on Amazon.ca &rarr;</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="doktor doom pro max">Check Pro Max on Amazon.ca &rarr;</BuyLink>
           </div>
 
           <h2>Why Won&rsquo;t We Recommend Crossfire, Temprid, or Other US Sprays?</h2>

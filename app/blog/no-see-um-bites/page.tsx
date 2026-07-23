@@ -7,6 +7,7 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'no-see-um-bites'
 const DATE = '2026-07-19'
@@ -64,6 +65,8 @@ export const metadata: Metadata = buildMetadata({
   type: 'article',
   publishedTime: DATE,
 })
+
+const AMZ_TAG = tagForSlug('no-see-um-bites')
 
 export default function NoSeeUmBitesPage() {
   return (
@@ -172,7 +175,7 @@ export default function NoSeeUmBitesPage() {
         </ul>
         <p>These are general comfort measures, not a diagnosis, prescription, or dosing advice &mdash; always follow the product directions, and if you are pregnant, treating a young child, unsure which product is right, or the reaction is severe, ask a pharmacist or healthcare provider. For a fuller run-down of what actually eases bite itch, see our <Link href="/blog/mosquito-bite-treatment-relief">mosquito bite treatment and relief guide</Link>, which applies equally to midge bites.</p>
 
-        <TopPick
+        <TopPick tag={AMZ_TAG}
           label="Best for the Itch"
           name="Hydrocortisone 1% Anti-Itch Cream"
           blurb="For the histamine itch a no-see-um bite leaves behind, a plain 1% hydrocortisone cream is the widely recommended over-the-counter workhorse — quick to calm redness and swelling on a clustered welt. Keep a tube in the first-aid kit and apply as directed on the label."
@@ -205,7 +208,7 @@ export default function NoSeeUmBitesPage() {
         <p>The catch with fine mesh is <strong>reduced airflow</strong> &mdash; the tighter the weave, the stuffier the porch. A practical fix that works with the insect&rsquo;s own weakness: run a fan. Biting midges are feeble fliers and cannot push against moving air, so a breeze on a seating area keeps them off even where the mesh is standard.</p>
         <AffiliateDisclosure />
         <p className="not-prose my-4">
-          <BuyLink search="no see um mesh screen">Check no-see-um mesh screen on Amazon &rarr;</BuyLink>
+          <BuyLink tag={AMZ_TAG} search="no see um mesh screen">Check no-see-um mesh screen on Amazon &rarr;</BuyLink>
         </p>
 
         <h2>How do you prevent no-see-um bites?</h2>
@@ -218,8 +221,8 @@ export default function NoSeeUmBitesPage() {
           <li><strong>Use a fine-mesh head net</strong> when swarms are heavy near water or on the trail; it protects the face and neck where bites are most maddening.</li>
         </ul>
         <p className="not-prose my-4 flex flex-wrap gap-3">
-          <BuyLink search="sea to summit ultra mesh head net">Check fine-mesh head net on Amazon &rarr;</BuyLink>
-          <BuyLink search="picaridin insect repellent">Picaridin repellent &rarr;</BuyLink>
+          <BuyLink tag={AMZ_TAG} search="sea to summit ultra mesh head net">Check fine-mesh head net on Amazon &rarr;</BuyLink>
+          <BuyLink tag={AMZ_TAG} search="picaridin insect repellent">Picaridin repellent &rarr;</BuyLink>
         </p>
         <p>Longer term, the population that bites you is produced in <strong>damp habitat</strong> nearby &mdash; wet soil, marsh edges, soggy leaf litter, and thick moist mulch. Improving drainage so water does not pool, clearing sodden debris, and keeping gutters draining all shrink the breeding ground. Where pressure near water is heavy and recurring, a professional barrier treatment applied to shaded resting vegetation and damp edges knocks down the adults where they rest by day; you can read how that fits into a broader yard plan in our <Link href="/blog/no-see-ums-biting-midges-ontario">biting midge control guide</Link>.</p>
 

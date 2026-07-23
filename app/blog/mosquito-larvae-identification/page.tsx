@@ -7,6 +7,7 @@ import TopPick from '@/components/TopPick'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'mosquito-larvae-identification'
 const DATE = '2026-04-28'
@@ -103,6 +104,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('mosquito-larvae-identification')
+
 export default function MosquitoLarvaePage() {
   return (
     <>
@@ -151,11 +154,11 @@ export default function MosquitoLarvaePage() {
           </p>
           <AffiliateDisclosure />
           <div className="mb-6 flex flex-wrap items-center gap-3">
-            <BuyLink search="summit mosquito dunks">Mosquito Dunks on Amazon.ca &rarr;</BuyLink>
-            <BuyLink search="summit mosquito bits">Mosquito Bits on Amazon.ca &rarr;</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="summit mosquito dunks">Mosquito Dunks on Amazon.ca &rarr;</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="summit mosquito bits">Mosquito Bits on Amazon.ca &rarr;</BuyLink>
             <Link href="/blog/mosquito-bits-canada-vs-dunks" className="text-sm font-semibold text-brand-700 hover:text-brand-600">Dunks or Bits? See the comparison &rarr;</Link>
           </div>
-          <TopPick
+          <TopPick tag={AMZ_TAG}
             label="Best for Water You Can't Drain"
             name="Summit BTI Mosquito Dunks"
             blurb="For a rain barrel, ornamental pond, or drainage ditch you can't empty, a BTI dunk is the standout larvae killer. The Bacillus thuringiensis israelensis targets only mosquito (and blackfly/fungus-gnat) larvae, wiping them out within 24–48 hours while staying harmless to fish, frogs, pets, birds, bees, and people. One dunk keeps roughly 100 sq ft of water surface larvae-free for about 30 days."

@@ -8,6 +8,7 @@ import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { MOSQUITO_BLOGS } from '@/lib/constants'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const POST = {
   title: 'Is Mosquito Control Worth the Cost?',
@@ -54,6 +55,8 @@ const FAQS = [
       'Most GTA properties need 5-6 barrier spray treatments per season to maintain consistent protection from May through September. Each treatment provides approximately 21-30 days of residual protection, depending on rainfall and property conditions. Properties near water, ravines, or with heavy vegetation may need the upper end of this range. Some companies offer bi-weekly programs (8-10 treatments) for maximum coverage, though monthly programs are sufficient for most residential properties.',
   },
 ]
+
+const AMZ_TAG = tagForSlug('mosquito-control-worth-the-cost')
 
 export default function MosquitoControlWorthCostPage() {
   return (
@@ -155,7 +158,7 @@ export default function MosquitoControlWorthCostPage() {
           <li><strong>Ultrasonic devices:</strong> $20 – $60. Multiple controlled studies have found zero effectiveness against mosquitoes</li>
         </ul>
         <div className="not-prose my-4">
-          <BuyLink search="bug zapper outdoor">Compare outdoor bug zappers on Amazon.ca →</BuyLink>
+          <BuyLink tag={AMZ_TAG} search="bug zapper outdoor">Compare outdoor bug zappers on Amazon.ca →</BuyLink>
         </div>
         <p>A typical family spending on DIY mosquito products may invest $200 – $500 per season on solutions that provide significantly less protection than a professional program costing $500 – $900. The incremental cost of upgrading to professional treatment is often smaller than people assume.</p>
         <p>See: <Link href="/blog/mosquito-vs-diy-vs-professional-control" className="text-brand-700 hover:underline">DIY vs. Professional Mosquito Control: What Works</Link></p>
@@ -185,12 +188,12 @@ export default function MosquitoControlWorthCostPage() {
         <p>To get the most value from professional mosquito control:</p>
         <ul>
           <li><strong>Start early:</strong> Book your first treatment for mid-May to target the first generation of mosquitoes before they breed. This compounds into lower populations all season</li>
-          <li><strong>Eliminate standing water:</strong> No amount of spray can overcome an active mosquito breeding source in your own yard. Remove standing water from birdbaths, gutters, plant saucers, and tarps. For water you cannot drain — rain barrels, pond edges, French drains — a BTi larvicide like Summit Mosquito Bits kills larvae without harming pets, birds, or fish. <BuyLink search="summit mosquito bits">Check Mosquito Bits on Amazon.ca →</BuyLink> See: <Link href="/blog/hidden-mosquito-breeding-spots-backyard" className="text-brand-700 hover:underline">Hidden Mosquito Breeding Spots</Link></li>
+          <li><strong>Eliminate standing water:</strong> No amount of spray can overcome an active mosquito breeding source in your own yard. Remove standing water from birdbaths, gutters, plant saucers, and tarps. For water you cannot drain — rain barrels, pond edges, French drains — a BTi larvicide like Summit Mosquito Bits kills larvae without harming pets, birds, or fish. <BuyLink tag={AMZ_TAG} search="summit mosquito bits">Check Mosquito Bits on Amazon.ca →</BuyLink> See: <Link href="/blog/hidden-mosquito-breeding-spots-backyard" className="text-brand-700 hover:underline">Hidden Mosquito Breeding Spots</Link></li>
           <li><strong>Choose a seasonal package:</strong> Consistent monthly treatments maintain protection across the entire season — gaps in coverage allow population recovery</li>
           <li><strong>Bundle tick + mosquito:</strong> If your property also has tick risk (and most GTA properties do), combined packages provide maximum value</li>
         </ul>
 
-        <TopPick
+        <TopPick tag={AMZ_TAG}
           label="Best DIY Companion"
           name="Summit Mosquito Bits (BTi larvicide)"
           blurb="The one DIY product that genuinely complements professional treatment. BTi granules kill mosquito larvae in standing water you cannot drain — rain barrels, pond edges, French drains — without harming pets, birds, or fish. Attacks the breeding source that no barrier spray can reach, so populations recover more slowly between visits."

@@ -8,6 +8,7 @@ import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'field-king-backpack-sprayer-review-canada'
 const DATE = '2026-07-21'
@@ -75,6 +76,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('field-king-backpack-sprayer-review-canada')
+
 export default function FieldKingBackpackSprayerReviewCanadaPage() {
   return (
     <>
@@ -96,7 +99,7 @@ export default function FieldKingBackpackSprayerReviewCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="Field King 190515 battery backpack sprayer" search="field king 190515 battery backpack sprayer" label="Best overall" />
+      <StickyBuyBar tag={AMZ_TAG} name="Field King 190515 battery backpack sprayer" search="field king 190515 battery backpack sprayer" label="Best overall" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -119,7 +122,7 @@ export default function FieldKingBackpackSprayerReviewCanadaPage() {
 
       <section className="bg-white px-4 py-2">
         <div className="max-w-3xl mx-auto">
-          <TopPick
+          <TopPick tag={AMZ_TAG}
             label="Our Top Pick — Battery Backpack Sprayer"
             name="Field King 190515 Lithium Battery Backpack Sprayer"
             blurb="The battery model removes the one genuinely tiring part of backpack spraying — the constant pumping — and replaces it with a rechargeable pump that holds steady pressure across the whole 4-gallon tank. Add Field King's rebuildable pump, Viton seals, internal paddle agitation, and a padded harness, and you get a prosumer tool that lasts seasons where disposable big-box backpacks fail. It is the right buy for anyone spraying often or covering a real yard; the manual 190328 is the smarter, cheaper pick only for light, occasional use."
@@ -155,28 +158,28 @@ export default function FieldKingBackpackSprayerReviewCanadaPage() {
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best</strong> &mdash; lithium pump, constant ~40 psi</td>
                   <td className="px-4 py-3 text-gray-700">Frequent use, larger lots, long sessions</td>
                   <td className="px-4 py-3 text-gray-700">Battery to charge; higher price</td>
-                  <td className="px-4 py-3"><BuyLink search="field king 190515 battery backpack sprayer" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="field king 190515 battery backpack sprayer" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Field King 190328<br /><span className="font-normal text-xs text-gray-500">manual pump, 4 gal</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Good</strong> &mdash; hand-pump, same rebuildable pump</td>
                   <td className="px-4 py-3 text-gray-700">Light, occasional spraying; lowest cost</td>
                   <td className="px-4 py-3 text-gray-700">Constant pumping; pressure fades</td>
-                  <td className="px-4 py-3"><BuyLink search="field king 190328 backpack sprayer" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="field king 190328 backpack sprayer" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Budget battery backpack<br /><span className="font-normal text-xs text-gray-500">value brand</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Fair</strong> &mdash; battery, but sealed pump</td>
                   <td className="px-4 py-3 text-gray-700">Occasional user who wants no pumping cheaply</td>
                   <td className="px-4 py-3 text-gray-700">Often not rebuildable; weaker seals</td>
-                  <td className="px-4 py-3"><BuyLink search="battery backpack sprayer" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="battery backpack sprayer" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Pro import backpack<br /><span className="font-normal text-xs text-gray-500">contractor grade</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best+</strong> &mdash; heavy-duty, high pressure</td>
                   <td className="px-4 py-3 text-gray-700">Daily commercial spraying, big acreage</td>
                   <td className="px-4 py-3 text-gray-700">Premium price; overkill for a homeowner</td>
-                  <td className="px-4 py-3"><BuyLink search="professional backpack sprayer" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="professional backpack sprayer" block>Check price →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -203,8 +206,8 @@ export default function FieldKingBackpackSprayerReviewCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the Field King and its manual sibling:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="field king 190515 battery backpack sprayer">Battery 190515 →</BuyLink>
-            <BuyLink search="field king 190328 backpack sprayer">Manual 190328 →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="field king 190515 battery backpack sprayer">Battery 190515 →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="field king 190328 backpack sprayer">Manual 190328 →</BuyLink>
           </div>
 
           <h2>190515 vs 190328: The One Decision That Matters Most</h2>

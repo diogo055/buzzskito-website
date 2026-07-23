@@ -8,6 +8,7 @@ import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'rodent-exclusion-kit-canada'
 const DATE = '2026-07-21'
@@ -75,6 +76,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('rodent-exclusion-kit-canada')
+
 export default function RodentExclusionKitCanadaPage() {
   return (
     <>
@@ -96,7 +99,7 @@ export default function RodentExclusionKitCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="Copper mesh rodent exclusion roll" search="copper mesh rodent control" label="Best overall" />
+      <StickyBuyBar tag={AMZ_TAG} name="Copper mesh rodent exclusion roll" search="copper mesh rodent control" label="Best overall" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -119,7 +122,7 @@ export default function RodentExclusionKitCanadaPage() {
 
       <section className="bg-white px-4 py-6">
         <div className="max-w-5xl mx-auto">
-          <AwardRow
+          <AwardRow tag={AMZ_TAG}
             heading="Our Picks — Rodent Exclusion Kit Essentials for Canada"
             awards={[
               {
@@ -193,28 +196,28 @@ export default function RodentExclusionKitCanadaPage() {
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Yes</strong></td>
                   <td className="px-4 py-3 text-gray-700">Years &mdash; does not rust</td>
                   <td className="px-4 py-3 text-gray-700">Gaps, pipe penetrations, weep holes, corners</td>
-                  <td className="px-4 py-3"><BuyLink search="copper mesh rodent control" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="copper mesh rodent control" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Stainless-steel wool</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Yes</strong></td>
                   <td className="px-4 py-3 text-gray-700">Years &mdash; rust-resistant grade</td>
                   <td className="px-4 py-3 text-gray-700">Same jobs as copper mesh; denser pack</td>
-                  <td className="px-4 py-3"><BuyLink search="stainless steel wool rodent exclusion" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="stainless steel wool rodent exclusion" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">1/4&Prime; hardware cloth</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Yes</strong></td>
                   <td className="px-4 py-3 text-gray-700">Years &mdash; galvanized</td>
                   <td className="px-4 py-3 text-gray-700">Vents, soffit gaps, under decks &mdash; anything that must breathe</td>
-                  <td className="px-4 py-3"><BuyLink search="hardware cloth 1/4 inch galvanized" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="hardware cloth 1/4 inch galvanized" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Exterior sealant</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">No &mdash; lock only</strong></td>
                   <td className="px-4 py-3 text-gray-700">Years when exterior-grade</td>
                   <td className="px-4 py-3 text-gray-700">Over mesh plugs; hairline gaps under 6 mm</td>
-                  <td className="px-4 py-3"><BuyLink search="exterior polyurethane sealant masonry" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="exterior polyurethane sealant masonry" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Ordinary steel wool</td>
@@ -287,10 +290,10 @@ export default function RodentExclusionKitCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the kit components:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="copper mesh rodent control">Copper mesh roll →</BuyLink>
-            <BuyLink search="hardware cloth 1/4 inch galvanized">1/4&Prime; hardware cloth →</BuyLink>
-            <BuyLink search="exterior polyurethane sealant masonry">Exterior sealant →</BuyLink>
-            <BuyLink search="rodent proof garage door seal">Garage-door rodent seal →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="copper mesh rodent control">Copper mesh roll →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="hardware cloth 1/4 inch galvanized">1/4&Prime; hardware cloth →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="exterior polyurethane sealant masonry">Exterior sealant →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="rodent proof garage door seal">Garage-door rodent seal →</BuyLink>
           </div>
 
           <h2>The Dime Rule: How Small Is Too Small to Ignore</h2>
@@ -301,7 +304,7 @@ export default function RodentExclusionKitCanadaPage() {
           <p>Copper mesh is a continuous knitted tube of copper strands, sold in rolls, that you cut to length and stuff into gaps with a screwdriver or fitting tool. Three properties make it the professional default. First, rodents do not chew through it — the strands are hard on teeth and the mesh shifts under gnawing instead of giving a fixed edge to work. Second, it never rusts, which is the whole ballgame outdoors in Canada: ordinary steel wool oxidizes through its strands in one wet season, shrinking inside the cavity, bleeding rust streaks down brick and siding, and finally crumbling out — leaving the hole open again, now with a stain marking it. Third, the knit is springy: packed under compression it grips the cavity walls and resists being pulled out in strands, which mice reliably do to loosely woven material.</p>
           <p>Technique matters more than product here. Pack the mesh <em>tight</em> — a loose wad is a nesting material donation, not a barrier. Fill the full depth of the void, not just the visible face. Leave no more than pencil-width daylight anywhere, then cap the plug with exterior sealant so weather, insects, and air leaks are closed off too. Stainless-steel wool sold specifically for pest exclusion (not kitchen scrub grade) is the co-equal alternative — denser to pack, equally chew-proof, equally rust-resistant; choose whichever is better stocked when you order.</p>
           <div className="not-prose my-4">
-            <BuyLink search="copper mesh rodent control">Check copper mesh on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="copper mesh rodent control">Check copper mesh on Amazon.ca →</BuyLink>
           </div>
 
           <h2>The Spray Foam Myth (and Foam&rsquo;s One Legitimate Job)</h2>
@@ -313,14 +316,14 @@ export default function RodentExclusionKitCanadaPage() {
           <p>Two Canadian specifics deserve their own paragraphs. <strong>Weep holes</strong> — the open vertical joints spaced along the bottom courses of brick veneer — are drainage and ventilation for the wall cavity, and caulking them solid is a moisture-damage mistake that costs far more than mice do. Use purpose-made stainless or plastic weep-hole covers, or insert a small rolled piece of copper mesh or hardware cloth into each hole: air and water pass, mice do not. Do every accessible hole, not just the ones near the corner where you saw activity — mice patrol the entire wall base at night.</p>
           <p><strong>Dryer vents</strong> are the other trap for the well-intentioned. Screening the interior of a dryer duct clogs with lint and becomes a fire risk; the correct approach is a vent cover or guard that cages the <em>outside</em> of the hood while the flap keeps working, or a hardware-cloth surround that blocks the gap around the duct where it passes through the wall — usually the real entry point anyway, since the duct hole is almost always cut oversize and never sealed.</p>
           <div className="not-prose my-4">
-            <BuyLink search="hardware cloth 1/4 inch galvanized">Check 1/4&Prime; hardware cloth on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="hardware cloth 1/4 inch galvanized">Check 1/4&Prime; hardware cloth on Amazon.ca →</BuyLink>
           </div>
 
           <h2>Sealant and the Garage Door: The Two Finishing Layers</h2>
           <p>The sealant&rsquo;s job is to be the weatherproof lock, not the barrier — teeth beat any caulk ever made. Spend up on an exterior-grade polyurethane or hybrid-polymer sealant rated for masonry and for real cold: cheap interior latex shrinks as it cures, cracks in the first freeze-thaw cycle, and peels off brick in sheets. Use it two ways: capping every mesh plug flush with the surface, and closing the hairline gaps — under 6 mm — that are too small to stuff but still leak the warm air that draws rodents to investigate. A full perimeter on a typical detached house runs through several tubes; buy them all at once so colour and cure behaviour match.</p>
           <p>Then walk to the garage, because if your garage is attached, it is statistically your front line. The failure point is nearly always the door&rsquo;s bottom seal — specifically the two corners, where the rubber astragal meets the vertical track weatherstripping and almost never closes tight, and any spot where the concrete under the seal has chipped. Standard rubber is also chewable, and one motivated mouse turns a corner gap into a doorway overnight. The fix is a rodent-resistant garage-door bottom seal or corner-guard product built with chew-resistant material, plus patching any spalled concrete under the threshold so the seal actually has a flat surface to seal against. Treat the door from garage to house as an exterior door — sweep, weatherstripping, the works — so the garage becomes an airlock instead of a staging area. If mice have been overwintering in vehicles parked in that garage, our guides on <Link href="/blog/how-to-keep-mice-out-of-your-car">keeping mice out of your car</Link> and the <Link href="/blog/best-rodent-repellent-for-cars-canada">best rodent deterrents for vehicles</Link> pick up that thread.</p>
           <div className="not-prose my-4">
-            <BuyLink search="rodent proof garage door seal">Check garage-door rodent seals on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="rodent proof garage door seal">Check garage-door rodent seals on Amazon.ca →</BuyLink>
           </div>
 
           <h2>The 8-Point Exterior Inspection Walk</h2>

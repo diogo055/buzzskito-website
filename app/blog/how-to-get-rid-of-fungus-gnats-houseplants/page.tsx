@@ -8,6 +8,7 @@ import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'how-to-get-rid-of-fungus-gnats-houseplants'
 const DATE = '2026-07-21'
@@ -79,6 +80,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('how-to-get-rid-of-fungus-gnats-houseplants')
+
 export default function FungusGnatsHouseplantsPage() {
   return (
     <>
@@ -100,7 +103,7 @@ export default function FungusGnatsHouseplantsPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="Summit Mosquito Bits (BTI larvicide granules)" search="summit mosquito bits" label="The larval kill" />
+      <StickyBuyBar tag={AMZ_TAG} name="Summit Mosquito Bits (BTI larvicide granules)" search="summit mosquito bits" label="The larval kill" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -123,7 +126,7 @@ export default function FungusGnatsHouseplantsPage() {
 
       <section className="bg-white px-4 py-6">
         <div className="max-w-5xl mx-auto">
-          <AwardRow
+          <AwardRow tag={AMZ_TAG}
             heading="The Fungus Gnat Kit — What Actually Earns a Spot"
             awards={[
               {
@@ -195,21 +198,21 @@ export default function FungusGnatsHouseplantsPage() {
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Yes</strong> — biological kill of every larva that feeds on treated soil</td>
                   <td className="px-4 py-3 text-gray-700">No</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">The actual fix</strong> — repeat for 2&ndash;3 weeks to break the cycle</td>
-                  <td className="px-4 py-3"><BuyLink search="summit mosquito bits" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="summit mosquito bits" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Yellow sticky cards<br /><span className="font-normal text-xs text-gray-500">Staked at soil level</span></td>
                   <td className="px-4 py-3 text-gray-700">No</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Yes</strong> — removes egg-layers and shows you the trend</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Essential partner</strong> — knockdown + your progress scoreboard</td>
-                  <td className="px-4 py-3"><BuyLink search="yellow sticky traps fungus gnats houseplants" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="yellow sticky traps fungus gnats houseplants" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">UV trap device<br /><span className="font-normal text-xs text-gray-500">Katchy</span></td>
                   <td className="px-4 py-3 text-gray-700">No</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Yes</strong> — passive room-wide capture overnight</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Supplement</strong> — worth it for heavy infestations and big collections</td>
-                  <td className="px-4 py-3"><BuyLink search="katchy indoor insect trap" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="katchy indoor insect trap" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Hydrogen peroxide drench<br /><span className="font-normal text-xs text-gray-500">3% diluted 1:4 in water</span></td>
@@ -297,7 +300,7 @@ export default function FungusGnatsHouseplantsPage() {
           <p>Fungus gnat adults orient strongly to the colour yellow, and the humble yellow sticky card exploits it perfectly. Stake or clip cards horizontally or at a low angle just above the soil surface &mdash; that is where adults cruise, land, and lay &mdash; with one card per affected pot and a couple of extras near the worst cluster. Catches start within hours, which is satisfying, but the card&rsquo;s real value is strategic: every female stuck to a card is up to two hundred eggs that never enter your soil, and the card itself is your <strong>scoreboard</strong>. Count roughly what a fresh card catches in its first two days at the start of treatment, then compare a fresh card two weeks in. Falling numbers mean the protocol is working; a card that stays nearly clean for a week means you are done.</p>
           <p>What cards cannot do is finish the job alone. The soil is producing new adults every few days, and cards only intercept a fraction before they lay. Cards without a larval kill is a treadmill &mdash; which brings us to the tool that actually ends infestations.</p>
           <div className="not-prose my-4">
-            <BuyLink search="yellow sticky traps fungus gnats houseplants">Check yellow sticky trap cards on Amazon →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="yellow sticky traps fungus gnats houseplants">Check yellow sticky trap cards on Amazon →</BuyLink>
           </div>
 
           <h2>Step 3 — Kill the Larvae: BTI, the Actual Fix</h2>
@@ -306,7 +309,7 @@ export default function FungusGnatsHouseplantsPage() {
           <p>For houseplants, use the <strong>steep method</strong>: add about four tablespoons of Bits per gallon (roughly four litres) of water, let them soak for thirty minutes so the BTI releases into the water, strain out the granules if you like, and water your plants normally with it. Every watering now delivers the larvicide directly into the larval feeding zone. The alternative is top-dressing granules onto the soil and watering through them &mdash; it works, but the corn-cob carrier sometimes sprouts a harmless white fuzz as it breaks down, which tends to cause more panic than the gnats did. The slower-release sibling product, Mosquito Dunks, can also be broken into quarters and steeped the same way; our <Link href="/blog/mosquito-dunks-canada-guide">Mosquito Dunks guide</Link> covers when the 30-day format makes more sense.</p>
           <p><strong>The critical detail: repeat for two to three weeks.</strong> BTI kills larvae &mdash; not eggs, not pupae, not adults. On day one, every larva feeding in treated soil dies, but eggs keep hatching for days and pupae keep emerging as adults for a week or more. Treat with every watering for two to three weeks and each new hatch meets lethal soil the moment it starts feeding. Seeing some adults in week two is not failure; it is the tail of the pipeline emptying. The sticky-card scoreboard will show the curve bending.</p>
           <div className="not-prose my-4">
-            <BuyLink search="summit mosquito bits">Check Mosquito Bits on Amazon →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="summit mosquito bits">Check Mosquito Bits on Amazon →</BuyLink>
           </div>
 
           <h2>The Sand Top-Dress: An Honest Verdict</h2>
@@ -319,7 +322,7 @@ export default function FungusGnatsHouseplantsPage() {
           <h2>Heavy Infestation? Add Air Support</h2>
           <p>When an infestation has been building for months &mdash; typically a big plant collection, a propagation shelf, or that one enormous planter that never dries &mdash; adults stop hovering politely around pots and start drifting across the room, toward lamps, screens, and wine glasses. The soil protocol above still does the curing, but a plug-in UV trap meaningfully shortens the misery window. The <strong>Katchy</strong> &mdash; a UV lure, a quiet fan, and a glue board in a tidy cylinder &mdash; runs overnight near the worst shelf and pulls flying adults out of the air passively while the BTI shuts down the source. We tested it across a full season against fruit flies and fungus gnats in our <Link href="/blog/katchy-indoor-insect-trap-review-canada">full Katchy review</Link>; the short version is that it is a genuinely effective <em>supplement</em> with one hard rule attached: never buy it as the only fix, because no air-side device touches the larvae in the soil.</p>
           <div className="not-prose my-4">
-            <BuyLink search="katchy indoor insect trap">Check the Katchy on Amazon →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="katchy indoor insect trap">Check the Katchy on Amazon →</BuyLink>
           </div>
 
           <h2>When Treatment Isn&rsquo;t Enough: The Repotting Trigger</h2>

@@ -8,6 +8,7 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import TopPick from '@/components/TopPick'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { MOSQUITO_BLOGS, TICK_BLOGS } from '@/lib/constants'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'mosquito-mistakes-ontario-homeowners-make'
 const DATE = '2026-04-29'
@@ -30,6 +31,8 @@ export const metadata: Metadata = buildMetadata({
   type: 'article',
   publishedTime: DATE,
 })
+
+const AMZ_TAG = tagForSlug('mosquito-mistakes-ontario-homeowners-make')
 
 export default function MosquitoMistakesOntarioHomeownersMakePage() {
   return (
@@ -80,7 +83,7 @@ export default function MosquitoMistakesOntarioHomeownersMakePage() {
 
         <h3>2. Trusting Citronella Candles for Full-Yard Protection</h3>
         <p>Citronella candles work in a 2–3 foot bubble around the candle — not for the yard. Multiple research studies confirm this. They&apos;re ambiance, not protection. If you want yard-wide mosquito control, you need barrier spray + source elimination, not candles. For the patio zone itself, a rechargeable spatial repellent like the Thermacell E90 protects roughly a 20-foot radius — a far more effective seat-level tool than any candle. See our <Link href="/blog/thermacell-e90-canada-review" className="text-brand-700 underline">Thermacell E90 Canada review</Link> for how it performs here.</p>
-        <TopPick
+        <TopPick tag={AMZ_TAG}
           label="Best Patio-Zone Fix"
           name="Thermacell E90 Rechargeable Mosquito Repeller"
           blurb="For the one job candles fail at — protecting the seat you're actually sitting in — a rechargeable spatial repeller creates roughly a 20-foot scent-free protection zone in minutes. It won't treat the whole yard (that's what barrier spray is for), but at the table or on the deck it's the honest upgrade over citronella."
@@ -94,7 +97,7 @@ export default function MosquitoMistakesOntarioHomeownersMakePage() {
         <h3>3. Ignoring Rain Barrels and Birdbaths as Breeding Sites</h3>
         <p>A single uncovered rain barrel or birdbath can produce thousands of mosquitoes per week. Many Ontario homeowners think they&apos;ve eliminated standing water because the lawn drains well — without realizing their rain barrel and birdbath are pumping out mosquitoes daily. Cover the barrel, change birdbath water weekly, or use BTI dunks.</p>
         <div className="not-prose my-4">
-          <BuyLink search="summit mosquito dunks">Check Summit BTI mosquito dunks on Amazon.ca →</BuyLink>
+          <BuyLink tag={AMZ_TAG} search="summit mosquito dunks">Check Summit BTI mosquito dunks on Amazon.ca →</BuyLink>
         </div>
 
         <h3>4. Spraying Grass Instead of Leaf Undersides</h3>

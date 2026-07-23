@@ -8,6 +8,7 @@ import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'dupray-steamer-review-canada'
 const DATE = '2026-07-21'
@@ -75,6 +76,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('dupray-steamer-review-canada')
+
 export default function DupraySteamerReviewCanadaPage() {
   return (
     <>
@@ -96,7 +99,7 @@ export default function DupraySteamerReviewCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="Dupray Neat steam cleaner" search="dupray neat steam cleaner" label="Reviewed here" />
+      <StickyBuyBar tag={AMZ_TAG} name="Dupray Neat steam cleaner" search="dupray neat steam cleaner" label="Reviewed here" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -119,7 +122,7 @@ export default function DupraySteamerReviewCanadaPage() {
 
       <section className="bg-white px-4 py-2">
         <div className="max-w-3xl mx-auto">
-          <TopPick
+          <TopPick tag={AMZ_TAG}
             label="Our Verdict — Dupray Neat"
             name="Dupray Neat Steam Cleaner"
             blurb="A Canadian-made, boiler-driven dry-vapour steamer that hits the two specs pest work actually needs: genuinely hot, low-moisture steam and a long continuous run so you can treat an entire mattress, box spring, and frame in one session. Corded and deliberate rather than grab-and-go, and it doubles as a chemical-free deep cleaner for kitchens, bathrooms, and floors — which is what makes the price defensible for a household that will keep using it. Not a standalone cure: pair it with a vacuum and interceptor monitoring."
@@ -155,28 +158,28 @@ export default function DupraySteamerReviewCanadaPage() {
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best</strong> &mdash; high heat, low moisture</td>
                   <td className="px-4 py-3 text-gray-700">Long &mdash; whole bed per fill</td>
                   <td className="px-4 py-3 text-gray-700">Bed bugs + chemical-free deep cleaning</td>
-                  <td className="px-4 py-3"><BuyLink search="dupray neat steam cleaner" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="dupray neat steam cleaner" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Heavy-duty commercial steamer<br /><span className="font-normal text-xs text-gray-500">large boiler</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best</strong> &mdash; high heat, low moisture</td>
                   <td className="px-4 py-3 text-gray-700">Longest &mdash; multi-room / commercial</td>
                   <td className="px-4 py-3 text-gray-700">Frequent or large-scale treatment</td>
-                  <td className="px-4 py-3"><BuyLink search="dupray commercial steam cleaner" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="dupray commercial steam cleaner" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Flash-heat handheld<br /><span className="font-normal text-xs text-gray-500">pod / budget</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Fair</strong> &mdash; heat fades, wetter</td>
                   <td className="px-4 py-3 text-gray-700">Short &mdash; minutes, then refill</td>
                   <td className="px-4 py-3 text-gray-700">Spot touch-ups, tight budgets</td>
-                  <td className="px-4 py-3"><BuyLink search="handheld steam cleaner bed bugs" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="handheld steam cleaner bed bugs" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Garment / floor steam mop<br /><span className="font-normal text-xs text-gray-500">wet steam</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-rose-700">Wrong tool</strong> &mdash; wet, lower heat</td>
                   <td className="px-4 py-3 text-gray-700">Varies</td>
                   <td className="px-4 py-3 text-gray-700">Wrinkles &amp; floors, not pests</td>
-                  <td className="px-4 py-3"><BuyLink search="garment steamer" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="garment steamer" block>Check price →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -203,9 +206,9 @@ export default function DupraySteamerReviewCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability and configuration:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="dupray neat steam cleaner">Dupray Neat →</BuyLink>
-            <BuyLink search="dupray commercial steam cleaner">Dupray commercial →</BuyLink>
-            <BuyLink search="handheld steam cleaner bed bugs">Budget handheld →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="dupray neat steam cleaner">Dupray Neat →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="dupray commercial steam cleaner">Dupray commercial →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="handheld steam cleaner bed bugs">Budget handheld →</BuyLink>
           </div>
 
           <h2>Why a Steamer Belongs in a Bed-Bug Kit</h2>

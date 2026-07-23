@@ -8,6 +8,7 @@ import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'best-air-purifier-for-large-room-canada'
 const DATE = '2026-07-21'
@@ -71,6 +72,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('best-air-purifier-for-large-room-canada')
+
 export default function BestAirPurifierLargeRoomCanadaPage() {
   return (
     <>
@@ -92,7 +95,7 @@ export default function BestAirPurifierLargeRoomCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="Coway Airmega 400 (large-room True-HEPA)" search="coway airmega 400 air purifier" label="Best overall" />
+      <StickyBuyBar tag={AMZ_TAG} name="Coway Airmega 400 (large-room True-HEPA)" search="coway airmega 400 air purifier" label="Best overall" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -115,7 +118,7 @@ export default function BestAirPurifierLargeRoomCanadaPage() {
 
       <section className="bg-white px-4 py-6">
         <div className="max-w-5xl mx-auto">
-          <AwardRow
+          <AwardRow tag={AMZ_TAG}
             heading="Our Picks — Best Large-Room Air Purifiers in Canada"
             awards={[
               {
@@ -189,28 +192,28 @@ export default function BestAirPurifierLargeRoomCanadaPage() {
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best</strong> &mdash; a true 1,000+ sq ft great room</td>
                   <td className="px-4 py-3 text-gray-700">Most capable single unit; quiet for its power</td>
                   <td className="px-4 py-3 text-gray-700">Premium price; big footprint</td>
-                  <td className="px-4 py-3"><BuyLink search="coway airmega 400 air purifier" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="coway airmega 400 air purifier" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Levoit Core 600S<br /><span className="font-normal text-xs text-gray-500">smart, sealed HEPA</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Great</strong> &mdash; 1,000+ sq ft for less</td>
                   <td className="px-4 py-3 text-gray-700">Value flagship coverage + app/auto sensor</td>
                   <td className="px-4 py-3 text-gray-700">Louder on max; less premium build</td>
-                  <td className="px-4 py-3"><BuyLink search="levoit core 600s air purifier" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="levoit core 600s air purifier" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Levoit Vital 200S<br /><span className="font-normal text-xs text-gray-500">mid-size, sealed HEPA</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Good</strong> &mdash; a large bedroom or one zone</td>
                   <td className="px-4 py-3 text-gray-700">Bright rooms; run in pairs for open plan</td>
                   <td className="px-4 py-3 text-gray-700">Under-sized for a full great room alone</td>
-                  <td className="px-4 py-3"><BuyLink search="levoit vital 200s air purifier" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="levoit vital 200s air purifier" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Winix 5500-2<br /><span className="font-normal text-xs text-gray-500">budget, sealed HEPA</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Fair</strong> &mdash; a large den or a second unit</td>
                   <td className="px-4 py-3 text-gray-700">Best value; washable carbon filter</td>
                   <td className="px-4 py-3 text-gray-700">Below flagship coverage; leave ionizer off</td>
-                  <td className="px-4 py-3"><BuyLink search="winix 5500-2 air purifier" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="winix 5500-2 air purifier" block>Check price →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -237,10 +240,10 @@ export default function BestAirPurifierLargeRoomCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the four picks:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="coway airmega 400 air purifier">Coway Airmega 400 →</BuyLink>
-            <BuyLink search="levoit core 600s air purifier">Levoit Core 600S →</BuyLink>
-            <BuyLink search="levoit vital 200s air purifier">Levoit Vital 200S →</BuyLink>
-            <BuyLink search="winix 5500-2 air purifier">Winix 5500-2 →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="coway airmega 400 air purifier">Coway Airmega 400 →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="levoit core 600s air purifier">Levoit Core 600S →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="levoit vital 200s air purifier">Levoit Vital 200S →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="winix 5500-2 air purifier">Winix 5500-2 →</BuyLink>
           </div>
 
           <h2>Sizing a Large Room: Air Changes and CADR, Not the Box Number</h2>

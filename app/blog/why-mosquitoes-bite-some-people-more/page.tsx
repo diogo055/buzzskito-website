@@ -8,6 +8,7 @@ import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { MOSQUITO_BLOGS } from '@/lib/constants'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'why-mosquitoes-bite-some-people-more'
 const DATE = '2026-04-26'
@@ -46,6 +47,8 @@ export const metadata: Metadata = buildMetadata({
   publishedTime: DATE,
   modifiedTime: UPDATED,
 })
+
+const AMZ_TAG = tagForSlug('why-mosquitoes-bite-some-people-more')
 
 export default function WhyMosquitoesBiteSomeMorePage() {
   return (
@@ -186,9 +189,9 @@ export default function WhyMosquitoesBiteSomeMorePage() {
         <h2>The Real Strategy: Stack Personal &amp; Environmental Protection</h2>
         <p>Realistically, the people who get bitten the least in Ontario are not the lucky genetic outliers — they are the people who do all the boring environmental work. Their yards are treated. Their breeding sites are eliminated. They wear DEET or picaridin when they are in higher-pressure areas. They wear light colours during peak mosquito hours. Layered, the effect is dramatic.</p>
         <AffiliateDisclosure />
-        <p>On the personal-protection side, two products do most of the work. For skin, a <strong>picaridin</strong> repellent is the modern pick — it lasts as long as DEET, is nearly odourless, and won&apos;t damage plastics, sunglasses, or gear: <BuyLink search="picaridin insect repellent canada">Check price on Amazon.ca →</BuyLink>. For a stationary patio or deck, a <strong>Thermacell</strong> creates a scent-free protection zone with nothing sprayed on your skin at all: <BuyLink search="thermacell mosquito repeller">Check price on Amazon.ca →</BuyLink>. For the full rundown of what actually works here, see our <Link href="/blog/mosquito-repellent-guide-ontario-2026" className="text-brand-700 underline">Ontario mosquito repellent guide</Link>.</p>
+        <p>On the personal-protection side, two products do most of the work. For skin, a <strong>picaridin</strong> repellent is the modern pick — it lasts as long as DEET, is nearly odourless, and won&apos;t damage plastics, sunglasses, or gear: <BuyLink tag={AMZ_TAG} search="picaridin insect repellent canada">Check price on Amazon.ca →</BuyLink>. For a stationary patio or deck, a <strong>Thermacell</strong> creates a scent-free protection zone with nothing sprayed on your skin at all: <BuyLink tag={AMZ_TAG} search="thermacell mosquito repeller">Check price on Amazon.ca →</BuyLink>. For the full rundown of what actually works here, see our <Link href="/blog/mosquito-repellent-guide-ontario-2026" className="text-brand-700 underline">Ontario mosquito repellent guide</Link>.</p>
 
-        <TopPick
+        <TopPick tag={AMZ_TAG}
           label="Best Pick for the Mosquito Magnet"
           name="Picaridin (20%) Insect Repellent"
           blurb="If you're the high-attraction person, a 20% picaridin repellent is the most practical skin defence — long-lasting protection comparable to DEET, but nearly odourless and safe on plastics, sunglasses, and gear. The single easiest lever a genetic mosquito magnet can actually pull."

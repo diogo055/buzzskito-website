@@ -8,6 +8,7 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'permethrin-canada-yard-clothing-spray'
 const DATE = '2026-05-01'
@@ -90,6 +91,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('permethrin-canada-yard-clothing-spray')
+
 export default function PermethrinCanadaPage() {
   return (
     <>
@@ -115,7 +118,7 @@ export default function PermethrinCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="Sawyer Permethrin Clothing + Gear Spray (0.5%)" search="sawyer permethrin clothing spray" label="Best consumer permethrin" />
+      <StickyBuyBar tag={AMZ_TAG} name="Sawyer Permethrin Clothing + Gear Spray (0.5%)" search="sawyer permethrin clothing spray" label="Best consumer permethrin" />
 
       {/* ANSWER CAPSULE */}
       <section className="bg-white px-4">
@@ -133,7 +136,7 @@ export default function PermethrinCanadaPage() {
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
           </div>
-          <TopPick
+          <TopPick tag={AMZ_TAG}
             label="Our Top Pick"
             name="Sawyer Permethrin Clothing + Gear Spray (0.5%)"
             blurb="The only consumer permethrin you can legally buy in Canada — spray it on pants, socks, and boots (never skin, never your lawn) and it keeps killing ticks on contact for 6 weeks or 6 wash cycles."
@@ -183,7 +186,7 @@ export default function PermethrinCanadaPage() {
             </table>
           </div>
           <div className="mt-4 flex flex-wrap items-center gap-3">
-            <BuyLink search="sawyer permethrin clothing spray">Check Sawyer Permethrin price on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="sawyer permethrin clothing spray">Check Sawyer Permethrin price on Amazon.ca →</BuyLink>
           </div>
           <p className="text-xs text-gray-500 mt-3">
             Prices accurate as of July 2026. Sawyer permethrin clothing spray is the only widely-stocked option in Canada — Insect Shield factory-treated clothing is also available at $40–$120 per garment.
@@ -235,7 +238,7 @@ export default function PermethrinCanadaPage() {
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
           <p className="not-prose text-sm text-gray-600 mb-1">The most-recommended permethrin brand in Canada is Sawyer — for clothing, gear, and tents (never skin):</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="sawyer permethrin clothing spray">Check Sawyer Permethrin price on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="sawyer permethrin clothing spray">Check Sawyer Permethrin price on Amazon.ca →</BuyLink>
           </div>
           <h2>What Permethrin Does (and Why It&rsquo;s Different from DEET)</h2>
           <p>Permethrin is a synthetic version of pyrethrin, the natural insecticide found in chrysanthemum flowers. Unlike DEET and picaridin (which are <strong>repellents</strong> applied to skin), permethrin is a <strong>contact insecticide</strong> applied to clothing. When a tick or mosquito lands on permethrin-treated fabric, the chemical disrupts its nervous system within seconds — the insect either falls off or dies before biting through the fabric.</p>
@@ -295,12 +298,12 @@ export default function PermethrinCanadaPage() {
           <h3>1. Sawyer Permethrin Clothing Spray (0.5%)</h3>
           <p>The standard product. Apply to outdoor clothing — pants, shirts, socks, hat, hiking boots, gear bags. Let dry 24 hours before wearing. Re-apply after 6 wash cycles. Effective against ticks, mosquitoes, blackflies, and chiggers.</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="sawyer permethrin clothing spray">Check Sawyer Permethrin spray price on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="sawyer permethrin clothing spray">Check Sawyer Permethrin spray price on Amazon.ca →</BuyLink>
           </div>
           <h3>2. Insect Shield Factory-Treated Clothing</h3>
           <p>Pre-treated clothing from outdoor brands (ExOfficio, Orvis, Columbia, etc.) using a proprietary permethrin-bonding process. Lasts 70 wash cycles vs 6 for spray-on. Higher upfront cost ($40–$120 per garment) but far lower long-term cost for frequent hikers.</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="insect shield permethrin treated clothing">Shop permethrin-treated clothing on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="insect shield permethrin treated clothing">Shop permethrin-treated clothing on Amazon.ca →</BuyLink>
           </div>
           <h3>3. Permethrin-Treated Pet Products (Dogs Only)</h3>
           <p>Some flea/tick collars and topical treatments for dogs use permethrin-based formulations. Veterinarian prescription typically required. NEVER use on cats — even passive exposure to permethrin is fatal to cats.</p>

@@ -8,6 +8,7 @@ import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'heat-vs-chemical-bed-bug-treatment-canada'
 const DATE = '2026-07-21'
@@ -75,6 +76,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('heat-vs-chemical-bed-bug-treatment-canada')
+
 export default function HeatVsChemicalBedBugTreatmentCanadaPage() {
   return (
     <>
@@ -96,7 +99,7 @@ export default function HeatVsChemicalBedBugTreatmentCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="ZappBug bed-bug heater" search="zappbug bed bug heater" label="Heat — our winner" />
+      <StickyBuyBar tag={AMZ_TAG} name="ZappBug bed-bug heater" search="zappbug bed bug heater" label="Heat — our winner" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -173,8 +176,8 @@ export default function HeatVsChemicalBedBugTreatmentCanadaPage() {
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Availability</td>
-                  <td className="px-4 py-3"><BuyLink search="zappbug bed bug heater" block>Check price →</BuyLink></td>
-                  <td className="px-4 py-3"><BuyLink search="doktor doom bed bug spray" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="zappbug bed bug heater" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="doktor doom bed bug spray" block>Check price →</BuyLink></td>
                   <td className="px-4 py-3 text-gray-700">Buy the Canadian listing &mdash; sprays must be PMRA-registered</td>
                 </tr>
               </tbody>
@@ -202,8 +205,8 @@ export default function HeatVsChemicalBedBugTreatmentCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability for the tool in each method:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="zappbug bed bug heater">ZappBug heater →</BuyLink>
-            <BuyLink search="doktor doom bed bug spray">Doktor Doom spray →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="zappbug bed bug heater">ZappBug heater →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="doktor doom bed bug spray">Doktor Doom spray →</BuyLink>
           </div>
 
           <h2>Why Heat Wins Problem #1: The Eggs</h2>
@@ -244,7 +247,7 @@ export default function HeatVsChemicalBedBugTreatmentCanadaPage() {
           <h2>The Winning Plan: Heat for the Items, Chemical for the Perimeter</h2>
           <p>Put it all together and the &ldquo;heat vs chemical&rdquo; framing dissolves into a sequence that uses each for what it does best. Strip and bag all bedding and clothing, and heat-cycle it (or run washables through a hot dryer) to kill everything including eggs. Vacuum the mattress, frame, and room perimeter slowly with a sealed-HEPA vacuum to physically remove live bugs. Steam the mattress seams, tufts, and frame joints for the eggs the vacuum cannot lift. Lay down a Canadian-registered residual spray in the cracks, baseboards, and travel routes to guard the perimeter for the days after. Then place interceptor traps under the bed legs to monitor. Heat and steam give you the immediate, resistance-proof, egg-killing knockdown on everything you can reach today; the residual guards the ground you cannot; and the traps tell you whether it is working. That stack &mdash; not either method alone &mdash; is how a Canadian household actually clears bed bugs without a licence.</p>
 
-          <TopPick
+          <TopPick tag={AMZ_TAG}
             label="Winner — Heat, as the Primary Method"
             name="ZappBug Bed-Bug Heater"
             blurb="For DIY bed-bug control in Canada, heat is the more complete and dependable primary method, and a portable ZappBug chamber is the tool that delivers it without a licence or a service call. It kills every life stage — including the cemented eggs that survive most sprays — in a single cycle, with no insecticide resistance to worry about and no residue, re-entry interval, or grey-market legality question. Load infested items, bring the interior to a confirmed lethal temperature at the coldest point of the load, and everything inside dies. Pair it with a Canadian-registered residual like Doktor Doom to guard the cracks and travel routes heat cannot reach — that heat-plus-chemical combination is the real winner."

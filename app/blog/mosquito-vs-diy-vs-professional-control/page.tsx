@@ -7,6 +7,7 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { MOSQUITO_BLOGS } from '@/lib/constants'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const POST = MOSQUITO_BLOGS.supporting[2]
 const UPDATED = POST.date
@@ -42,6 +43,8 @@ export const metadata: Metadata = buildMetadata({
   type: 'article',
   publishedTime: POST.date,
 })
+
+const AMZ_TAG = tagForSlug('mosquito-vs-diy-vs-professional-control')
 
 export default function DIYvsProfessionalPage() {
   return (
@@ -107,11 +110,11 @@ export default function DIYvsProfessionalPage() {
         <AffiliateDisclosure />
         <p><strong>BTi mosquito dunks.</strong> Drop one into any standing water you cannot drain — rain barrels, pond edges, French drains, plant saucers — and the naturally-occurring bacterium kills mosquito larvae for about 30 days. Harmless to pets, birds, fish, and beneficial insects. Dunks stop mosquitoes from breeding on your property, but they do nothing about the adults already flying in from elsewhere.</p>
         <div className="not-prose my-4">
-          <BuyLink search="summit mosquito dunks">Check Summit Mosquito Dunks on Amazon.ca →</BuyLink>
+          <BuyLink tag={AMZ_TAG} search="summit mosquito dunks">Check Summit Mosquito Dunks on Amazon.ca →</BuyLink>
         </div>
         <p><strong>Thermacell spatial repellent.</strong> A rechargeable unit like the E90 builds a roughly 6-metre repellent zone around a patio table while it runs — genuinely effective for a seated evening, useless for whole-yard protection or kids moving around the lawn. We break down the current lineup in our <Link href="/blog/thermacell-e90-canada-review" className="text-brand-700 hover:underline">Thermacell E90 review for Canada</Link>.</p>
         <div className="not-prose my-4">
-          <BuyLink search="thermacell e90 rechargeable">Check the Thermacell E90 on Amazon.ca →</BuyLink>
+          <BuyLink tag={AMZ_TAG} search="thermacell e90 rechargeable">Check the Thermacell E90 on Amazon.ca →</BuyLink>
         </div>
 
         <h2>Professional Barrier Spray</h2>

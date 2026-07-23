@@ -7,6 +7,7 @@ import BuyLink from '@/components/BuyLink'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'bed-bug-bites'
 const DATE = '2026-07-19'
@@ -72,6 +73,8 @@ export const metadata: Metadata = buildMetadata({
   type: 'article',
   publishedTime: DATE,
 })
+
+const AMZ_TAG = tagForSlug('bed-bug-bites')
 
 export default function BedBugBitesPage() {
   return (
@@ -195,7 +198,7 @@ export default function BedBugBitesPage() {
         <h2>How do you treat bed bug bites?</h2>
         <p>For typical bites, care is simple and aimed at the itch: <strong>wash the area with soap and water</strong>, apply a cool compress, and resist scratching. A low-strength over-the-counter hydrocortisone cream or an oral antihistamine can help relieve itching for many people &mdash; follow the product label, and ask a pharmacist or healthcare provider what is appropriate for you, especially for children, during pregnancy, or on facial skin. Keeping fingernails short reduces the damage if you scratch in your sleep.</p>
         <AffiliateDisclosure />
-        <TopPick
+        <TopPick tag={AMZ_TAG}
           label="Best for Itch Relief"
           name="1% Hydrocortisone Anti-Itch Cream"
           blurb="A low-strength over-the-counter hydrocortisone cream is the standard first line for the itch and inflammation of bed bug bites. Widely available, inexpensive, and gentle enough for most adults — follow the label, and ask a pharmacist about use on children, during pregnancy, or on facial skin."
@@ -205,7 +208,7 @@ export default function BedBugBitesPage() {
           cons={['Treats the symptom, not the infestation', 'Not for long-term or facial use without guidance']}
         />
         <div className="not-prose my-4 flex flex-wrap gap-3">
-          <BuyLink search="hydrocortisone anti itch cream">Anti-itch cream options &rarr;</BuyLink>
+          <BuyLink tag={AMZ_TAG} search="hydrocortisone anti itch cream">Anti-itch cream options &rarr;</BuyLink>
         </div>
         <p>What treatment cannot do is end the problem. As long as the bugs remain, new bites replace healing ones every few days &mdash; so identification and elimination, not creams, are the actual fix. And a caution on the flip side: do not fog or spray your bedroom based on bites alone. Bite marks cannot confirm the species, and <Link href="/blog/do-bed-bug-sprays-actually-work">consumer bed bug sprays have real limits</Link> even when bed bugs are confirmed. Confirm first, then act.</p>
 
@@ -225,7 +228,7 @@ export default function BedBugBitesPage() {
         <p>Run the check methodically: strip the bedding, then work the mattress seams and piping, the box spring underside, the frame joints, and the headboard with a flashlight and an old card. Our step-by-step guide on <Link href="/blog/how-to-check-for-bed-bugs-canada">how to check for bed bugs</Link> covers the full room-by-room technique.</p>
         <p>If the visual inspection comes up empty but bites keep appearing, escalate to <strong>interceptor cups</strong> &mdash; passive pitfall traps that sit under each bed leg and catch bugs travelling to or from the bed. They are pesticide-free, cost less than a can of spray, and in university field trials have confirmed infestations that trained visual inspections missed. Run them for 14 consecutive nights &mdash; bed bugs feed only every 3&ndash;7 days, so shorter tests miss light infestations. Our <Link href="/blog/bed-bug-interceptor-traps-canada">interceptor trap guide</Link> explains the full protocol and how to read what you catch.</p>
         <div className="not-prose my-4 flex flex-wrap gap-3">
-          <BuyLink search="bed bug interceptor traps">Interceptor trap sets &rarr;</BuyLink>
+          <BuyLink tag={AMZ_TAG} search="bed bug interceptor traps">Interceptor trap sets &rarr;</BuyLink>
         </div>
 
         <h2>When should you see a doctor about bed bug bites?</h2>

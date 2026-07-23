@@ -8,6 +8,7 @@ import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'how-to-get-rid-of-ground-wasps-canada'
 const DATE = '2026-07-21'
@@ -79,6 +80,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('how-to-get-rid-of-ground-wasps-canada')
+
 export default function HowToGetRidOfGroundWaspsCanadaPage() {
   return (
     <>
@@ -100,7 +103,7 @@ export default function HowToGetRidOfGroundWaspsCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="Wilson OneShot Jet Foam Wasp & Hornet Killer" search="wilson one shot foam wasp hornet killer" label="Best ground-nest foam" />
+      <StickyBuyBar tag={AMZ_TAG} name="Wilson OneShot Jet Foam Wasp & Hornet Killer" search="wilson one shot foam wasp hornet killer" label="Best ground-nest foam" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -123,7 +126,7 @@ export default function HowToGetRidOfGroundWaspsCanadaPage() {
 
       <section className="bg-white px-4 py-6">
         <div className="max-w-5xl mx-auto">
-          <AwardRow
+          <AwardRow tag={AMZ_TAG}
             heading="Our Picks — Best Products for Ground Wasp Nests in Canada"
             awards={[
               {
@@ -189,9 +192,9 @@ export default function HowToGetRidOfGroundWaspsCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the gear this guide uses:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="wilson one shot foam wasp hornet killer">Wilson OneShot Jet Foam →</BuyLink>
-            <BuyLink search="raid max wasp hornet bug killer">Raid Max long-range jet →</BuyLink>
-            <BuyLink search="rescue why trap wasp hornet yellowjacket">RESCUE! WHY Trap →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="wilson one shot foam wasp hornet killer">Wilson OneShot Jet Foam →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="raid max wasp hornet bug killer">Raid Max long-range jet →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="rescue why trap wasp hornet yellowjacket">RESCUE! WHY Trap →</BuyLink>
           </div>
 
           <h2>The Dusk Treatment: Step by Step</h2>
@@ -211,7 +214,7 @@ export default function HowToGetRidOfGroundWaspsCanadaPage() {
           <p>Aerial wasp nests and ground nests are different targets, and most wasp sprays were designed for the first one. A hanging paper nest is an exposed structure you can wet from every angle; a ground nest is a chimney &mdash; the entrance hole is all you can see, and the actual nest chambers hang in a soil cavity that can extend 30 cm or more below and to the side. A thin liquid jet fired at a hole in the lawn mostly wets the rim and soaks away into soil.</p>
           <p>The <strong>Wilson OneShot Jet Foam Wasp &amp; Hornet Killer</strong> is our top pick precisely because foam solves that geometry. The expanding foam physically plugs and fills the entrance tunnel, pushing insecticide down toward the galleries, and it persists as a barrier that returning foragers must dig through &mdash; contact-killing them as they try. The formula pairs two pyrethroids (d-phenothrin and tetramethrin at 0.20% each) for knockdown plus kill, jets a rated 2&ndash;2.5 metres, and Wilson&rsquo;s label states the nest becomes uninhabitable within about 48 hours &mdash; which matches what we see in practice on single-entrance lawn nests. Just as important for Canadian buyers: it is a <strong>domestic-class, PMRA-registered product from a Canadian brand</strong> (Premier Tech&rsquo;s Wilson line, sold in newer packaging as Wilson WASP OUT Jet Foam), with a PCP number on the can and a label written for Canadian law. It is stocked at Canadian hardware and garden retailers and on Amazon.ca.</p>
           <div className="not-prose my-4">
-            <BuyLink search="wilson one shot foam wasp hornet killer">Check Wilson OneShot Jet Foam on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="wilson one shot foam wasp hornet killer">Check Wilson OneShot Jet Foam on Amazon.ca →</BuyLink>
           </div>
           <p>The Canadian-label <strong>Raid Max Wasp &amp; Hornet</strong> earns its place for one scenario: entrances you cannot safely approach within foam range &mdash; on a slope above you, beside a woodpile, at the base of a hedge you cannot see into. Its straight jet reaches from roughly 5&ndash;6 metres, letting you collapse the entrance traffic from real stand-off distance, then follow up with foam at the hole once things quiet down. For a full comparison of every registered can on the Canadian market, see our <Link href="/blog/best-wasp-nest-spray-canada">best wasp nest spray guide</Link>.</p>
 
@@ -233,21 +236,21 @@ export default function HowToGetRidOfGroundWaspsCanadaPage() {
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Yes</strong> &mdash; nest uninhabitable in ~48 h</td>
                   <td className="px-4 py-3 text-gray-700">Low (2&ndash;3 m stand-off, colony dormant)</td>
                   <td className="px-4 py-3 text-gray-700">PMRA domestic class &mdash; fully legal</td>
-                  <td className="px-4 py-3"><BuyLink search="wilson one shot foam wasp hornet killer" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="wilson one shot foam wasp hornet killer" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Long-range jet spray<br /><span className="font-normal text-xs text-gray-500">Raid Max, Doktor Doom</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Usually</strong> &mdash; weaker burrow penetration than foam</td>
                   <td className="px-4 py-3 text-gray-700">Low (5&ndash;6 m stand-off)</td>
                   <td className="px-4 py-3 text-gray-700">PMRA domestic class &mdash; fully legal</td>
-                  <td className="px-4 py-3"><BuyLink search="raid max wasp hornet bug killer" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="raid max wasp hornet bug killer" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Yellow jacket trap<br /><span className="font-normal text-xs text-gray-500">RESCUE! WHY</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">No</strong> &mdash; thins foragers only</td>
                   <td className="px-4 py-3 text-gray-700">Minimal</td>
                   <td className="px-4 py-3 text-gray-700">Device, no registration needed</td>
-                  <td className="px-4 py-3"><BuyLink search="rescue why trap wasp hornet yellowjacket" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="rescue why trap wasp hornet yellowjacket" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Boiling water</td>

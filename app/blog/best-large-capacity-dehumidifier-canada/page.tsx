@@ -8,6 +8,7 @@ import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'best-large-capacity-dehumidifier-canada'
 const DATE = '2026-07-21'
@@ -71,6 +72,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('best-large-capacity-dehumidifier-canada')
+
 export default function BestLargeCapacityDehumidifierCanadaPage() {
   return (
     <>
@@ -92,7 +95,7 @@ export default function BestLargeCapacityDehumidifierCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="Large-capacity Energy Star basement dehumidifier" search="midea cube 50 pint dehumidifier" label="Best overall" />
+      <StickyBuyBar tag={AMZ_TAG} name="Large-capacity Energy Star basement dehumidifier" search="midea cube 50 pint dehumidifier" label="Best overall" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -115,7 +118,7 @@ export default function BestLargeCapacityDehumidifierCanadaPage() {
 
       <section className="bg-white px-4 py-6">
         <div className="max-w-5xl mx-auto">
-          <AwardRow
+          <AwardRow tag={AMZ_TAG}
             heading="Our Picks — Best Large-Capacity Dehumidifiers for Canadian Basements"
             awards={[
               {
@@ -198,28 +201,28 @@ export default function BestLargeCapacityDehumidifierCanadaPage() {
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best</strong> &mdash; continuous drain, auto-defrost to ~5&deg;C</td>
                   <td className="px-4 py-3 text-gray-700">Large or wet basements, all-season running</td>
                   <td className="px-4 py-3 text-gray-700">Higher up-front cost; needs a drain route</td>
-                  <td className="px-4 py-3"><BuyLink search="midea cube 50 pint dehumidifier" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="midea cube 50 pint dehumidifier" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Built-in pump model<br /><span className="font-normal text-xs text-gray-500">compressor + pump</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best drainage</strong> &mdash; pushes water UP and out</td>
                   <td className="px-4 py-3 text-gray-700">Basements with no drain below the unit</td>
                   <td className="px-4 py-3 text-gray-700">Pump adds cost and a wear part</td>
-                  <td className="px-4 py-3"><BuyLink search="frigidaire dehumidifier with pump 50 pint" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="frigidaire dehumidifier with pump 50 pint" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Value compressor<br /><span className="font-normal text-xs text-gray-500">Waykar-class</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Good</strong> &mdash; gravity drain; check defrost spec</td>
                   <td className="px-4 py-3 text-gray-700">Big, damp-not-soaked basements on a budget</td>
                   <td className="px-4 py-3 text-gray-700">Less efficient; usually no pump</td>
-                  <td className="px-4 py-3"><BuyLink search="waykar 50 pint dehumidifier basement" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="waykar 50 pint dehumidifier basement" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Desiccant / crawlspace<br /><span className="font-normal text-xs text-gray-500">cold-space specialist</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Cold-proof</strong> &mdash; no cold coil to frost</td>
                   <td className="px-4 py-3 text-gray-700">Unheated crawlspaces, cellars, winter cottages</td>
                   <td className="px-4 py-3 text-gray-700">Higher power draw; lower capacity</td>
-                  <td className="px-4 py-3"><BuyLink search="desiccant dehumidifier crawlspace" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="desiccant dehumidifier crawlspace" block>Check price →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -246,10 +249,10 @@ export default function BestLargeCapacityDehumidifierCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the main large-capacity types:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="midea cube 50 pint dehumidifier">Energy Star flagship →</BuyLink>
-            <BuyLink search="frigidaire dehumidifier with pump 50 pint">Built-in pump model →</BuyLink>
-            <BuyLink search="waykar 50 pint dehumidifier basement">Value high-capacity →</BuyLink>
-            <BuyLink search="desiccant dehumidifier crawlspace">Crawlspace desiccant →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="midea cube 50 pint dehumidifier">Energy Star flagship →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="frigidaire dehumidifier with pump 50 pint">Built-in pump model →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="waykar 50 pint dehumidifier basement">Value high-capacity →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="desiccant dehumidifier crawlspace">Crawlspace desiccant →</BuyLink>
           </div>
 
           <h2>The &ldquo;70-Pint&rdquo; Confusion, Solved</h2>

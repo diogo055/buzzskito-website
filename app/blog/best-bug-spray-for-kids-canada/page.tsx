@@ -8,6 +8,7 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'best-bug-spray-for-kids-canada'
 const DATE = '2026-07-12'
@@ -55,6 +56,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('best-bug-spray-for-kids-canada')
+
 export default function BestBugSprayForKidsCanadaPage() {
   return (
     <>
@@ -76,7 +79,7 @@ export default function BestBugSprayForKidsCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="Natrapel Icaridin 20% insect repellent" search="natrapel icaridin 20%" label="Best for kids" />
+      <StickyBuyBar tag={AMZ_TAG} name="Natrapel Icaridin 20% insect repellent" search="natrapel icaridin 20%" label="Best for kids" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -98,7 +101,7 @@ export default function BestBugSprayForKidsCanadaPage() {
 
       <section className="bg-white px-4 py-6">
         <div className="max-w-5xl mx-auto">
-          <AwardRow
+          <AwardRow tag={AMZ_TAG}
             heading="Our Picks — Best Kid-Safe Bug Sprays in Canada"
             awards={[
               {
@@ -236,8 +239,8 @@ export default function BestBugSprayForKidsCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Compare current Canadian prices on the kid-safe repellents below:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="natrapel icaridin 20%">Icaridin 20% for kids on Amazon.ca →</BuyLink>
-            <BuyLink search="off familycare deet">Low-DEET FamilyCare →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="natrapel icaridin 20%">Icaridin 20% for kids on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="off familycare deet">Low-DEET FamilyCare →</BuyLink>
           </div>
 
           <h2 id="picks">Best Bug Spray for Kids: Safe Picks Compared</h2>
@@ -259,42 +262,42 @@ export default function BestBugSprayForKidsCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Icaridin 20%</td>
                   <td className="px-4 py-3 text-gray-700">6 months+</td>
                   <td className="px-4 py-3 text-gray-700">Up to 12 h</td>
-                  <td className="px-4 py-3"><BuyLink search="natrapel icaridin" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="natrapel icaridin" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">PiActive <span className="font-normal text-xs text-gray-500">(Canadian brand)</span></td>
                   <td className="px-4 py-3 text-gray-700">Icaridin 20%</td>
                   <td className="px-4 py-3 text-gray-700">6 months+</td>
                   <td className="px-4 py-3 text-gray-700">Up to 7 h</td>
-                  <td className="px-4 py-3"><BuyLink search="piactive icaridin repellent" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="piactive icaridin repellent" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Sawyer Picaridin <span className="font-normal text-xs text-gray-500">(lotion)</span></td>
                   <td className="px-4 py-3 text-gray-700">Icaridin 20%</td>
                   <td className="px-4 py-3 text-gray-700">6 months+</td>
                   <td className="px-4 py-3 text-gray-700">Up to 12 h</td>
-                  <td className="px-4 py-3"><BuyLink search="sawyer picaridin lotion" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="sawyer picaridin lotion" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">OFF! FamilyCare <span className="font-normal text-xs text-gray-500">(low DEET)</span></td>
                   <td className="px-4 py-3 text-gray-700">DEET 5–10%</td>
                   <td className="px-4 py-3 text-gray-700">6 months+ *</td>
                   <td className="px-4 py-3 text-gray-700">~2–3 h</td>
-                  <td className="px-4 py-3"><BuyLink search="off familycare insect repellent" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="off familycare insect repellent" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">OFF! Botanicals <span className="font-normal text-xs text-gray-500">(DEET-free)</span></td>
                   <td className="px-4 py-3 text-gray-700">Oil of lemon eucalyptus (PMD)</td>
                   <td className="px-4 py-3 text-gray-700">3 years+</td>
                   <td className="px-4 py-3 text-gray-700">~4–6 h</td>
-                  <td className="px-4 py-3"><BuyLink search="off botanicals repellent" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="off botanicals repellent" block>Check price →</BuyLink></td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 font-bold text-brand-800">Bite Blocker <span className="font-normal text-xs text-gray-500">(toddler-gentle)</span></td>
                   <td className="px-4 py-3 text-gray-700">Soybean oil 2%</td>
                   <td className="px-4 py-3 text-gray-700">6 months+</td>
                   <td className="px-4 py-3 text-gray-700">~2 h</td>
-                  <td className="px-4 py-3"><BuyLink search="bite blocker soybean repellent" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bite blocker soybean repellent" block>Check price →</BuyLink></td>
                 </tr>
               </tbody>
             </table>

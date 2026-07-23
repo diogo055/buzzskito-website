@@ -8,6 +8,7 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'propane-mosquito-trap-canada'
 const DATE = '2026-07-14'
@@ -65,6 +66,8 @@ export const metadata: Metadata = buildMetadata({
   publishedTime: DATE,
 })
 
+const AMZ_TAG = tagForSlug('propane-mosquito-trap-canada')
+
 export default function PropaneMosquitoTrapCanadaPage() {
   return (
     <>
@@ -86,7 +89,7 @@ export default function PropaneMosquitoTrapCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="Mosquito Magnet Patriot Plus (propane CO₂ trap)" search="mosquito magnet patriot plus" label="Our value pick" />
+      <StickyBuyBar tag={AMZ_TAG} name="Mosquito Magnet Patriot Plus (propane CO₂ trap)" search="mosquito magnet patriot plus" label="Our value pick" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -108,7 +111,7 @@ export default function PropaneMosquitoTrapCanadaPage() {
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
-          <TopPick
+          <TopPick tag={AMZ_TAG}
             label="Our Value Pick"
             name="Mosquito Magnet Patriot Plus (MM4200B)"
             blurb="The entry point to the only propane-trap ecosystem with real Canadian refill and parts supply — the same CO2-plume mechanism and up-to-1-acre best-case reach as the flagship, without the flagship price."
@@ -177,7 +180,7 @@ export default function PropaneMosquitoTrapCanadaPage() {
                     <td className="px-4 py-3 text-gray-700">{spec}</td>
                     <td className="px-4 py-3 text-gray-700">{power}</td>
                     <td className="px-4 py-3 text-xs text-gray-600">{best}</td>
-                    <td className="px-4 py-3">{search ? <BuyLink search={search} className="!px-3 !py-1.5 !text-xs whitespace-nowrap">Check price</BuyLink> : <span className="text-xs text-gray-400">—</span>}</td>
+                    <td className="px-4 py-3">{search ? <BuyLink tag={AMZ_TAG} search={search} className="!px-3 !py-1.5 !text-xs whitespace-nowrap">Check price</BuyLink> : <span className="text-xs text-gray-400">—</span>}</td>
                   </tr>
                 ))}
               </tbody>
@@ -195,9 +198,9 @@ export default function PropaneMosquitoTrapCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Compare current Canadian models, attractants and parts on Amazon.ca:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="mosquito magnet executive">Check price on Amazon.ca</BuyLink>
-            <BuyLink search="mosquito magnet patriot plus">Patriot Plus →</BuyLink>
-            <BuyLink search="mosquito magnet independence">Independence →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="mosquito magnet executive">Check price on Amazon.ca</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="mosquito magnet patriot plus">Patriot Plus →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="mosquito magnet independence">Independence →</BuyLink>
           </div>
 
           <h2>What a propane mosquito trap really is (and isn&rsquo;t)</h2>
@@ -219,8 +222,8 @@ export default function PropaneMosquitoTrapCanadaPage() {
           <p>This is where a propane trap earns its reputation as the high-maintenance option. Plan on roughly <strong>one 20 lb (9 kg) propane tank every three weeks</strong> of continuous operation. Stretch that across a full Ontario season &mdash; roughly May through September, with the worst pressure in June and July &mdash; and you are looking at about <strong>6 to 7 tank refills</strong>. At Canadian refill prices of about $25&ndash;$40 per tank, that is roughly $150&ndash;$280 in propane alone.</p>
           <p>Now add the attractant cartridges. An octenol or Lurex cartridge also lasts about three weeks, so you will burn through a similar count over the season. Stack fuel plus attractant and most owners spend somewhere around <strong>$350&ndash;$550 per season in consumables</strong>, entirely separate from the price of the machine. And there is no shortcut: turning the trap off on weekends to save propane lets the local population rebound, erasing the progress you paid for. A propane trap is a recurring fuel commitment, not a buy-once appliance.</p>
           <div className="not-prose my-6 flex flex-wrap gap-3">
-            <BuyLink search="mosquito magnet octenol attractant">Octenol attractant refills →</BuyLink>
-            <BuyLink search="mosquito magnet replacement net">Replacement nets →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="mosquito magnet octenol attractant">Octenol attractant refills →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="mosquito magnet replacement net">Replacement nets →</BuyLink>
           </div>
 
           <h2>The 1-acre coverage claim, honestly</h2>

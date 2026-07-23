@@ -7,6 +7,7 @@ import SpecialistDisclosure from '@/components/SpecialistDisclosure'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'bed-bug-interceptor-traps-canada'
 const DATE = '2026-07-16'
@@ -71,6 +72,8 @@ export const metadata: Metadata = buildMetadata({
   type: 'article',
   publishedTime: DATE,
 })
+
+const AMZ_TAG = tagForSlug('bed-bug-interceptor-traps-canada')
 
 export default function BedBugInterceptorTrapsCanadaPage() {
   return (
@@ -151,7 +154,7 @@ export default function BedBugInterceptorTrapsCanadaPage() {
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
           <AffiliateDisclosure />
 
-          <TopPick
+          <TopPick tag={AMZ_TAG}
             label="Our Top Pick"
             name="ClimbUp Insect Interceptor"
             blurb="The pesticide-free cup used in most published university field trials — reliably slick inner walls out of the box, pre-dusted with talc, and standard sizing that seats under most bed legs. It's the detection tool entomologists reach for first, and four cups will confirm or rule out an infestation inside the 14-night protocol."
@@ -163,8 +166,8 @@ export default function BedBugInterceptorTrapsCanadaPage() {
 
           <p className="not-prose text-sm text-gray-600 mb-1">Compare current Canadian listings for the research-standard cup and budget multi-packs:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="climbup bed bug interceptor">ClimbUp interceptors on Amazon.ca →</BuyLink>
-            <BuyLink search="bed bug interceptor traps">Interceptor multi-packs →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="climbup bed bug interceptor">ClimbUp interceptors on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="bed bug interceptor traps">Interceptor multi-packs →</BuyLink>
           </div>
 
           <h2>What Are Bed Bug Interceptor Traps and How Do They Work?</h2>
@@ -181,8 +184,8 @@ export default function BedBugInterceptorTrapsCanadaPage() {
           <p>The ClimbUp Insect Interceptor is the default recommendation, and not out of brand loyalty: it is the specific cup used in most of the published university field trials, its inner walls are reliably slick out of the box, and it comes pre-dusted with talc. Standard ClimbUps fit bed legs up to roughly 9.5 cm across; the ClimbUp XL handles chunky wooden posts and sofa feet up to about 15 cm.</p>
           <p>Generic double-well cups are a legitimate budget path for outfitting a whole home — a multi-unit landlord or a whole-house monitoring setup can need 20+ cups, and generics cut that cost substantially. Quality check before trusting one: the inner well must be genuinely glossy (run a finger around it — any texture is an escape ladder), the cup must sit dead flat on the floor, and the plastic should be thick enough not to crack under a loaded bed leg. Market pricing for name-brand 4-packs generally sits in the $20–$50 range, with generic multi-packs below that per cup.</p>
           <div className="not-prose my-4 flex flex-wrap gap-3">
-            <BuyLink search="climbup bed bug interceptor">Check ClimbUp availability →</BuyLink>
-            <BuyLink search="bed bug interceptor traps">Budget multi-packs for whole-home setups →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="climbup bed bug interceptor">Check ClimbUp availability →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="bed bug interceptor traps">Budget multi-packs for whole-home setups →</BuyLink>
           </div>
           <p>One buying note specific to Canada: because interceptors contain no pesticide, they sail through the border and the regulations untouched. That is <em>not</em> true of much of the chemical arsenal US websites will try to sell you alongside them — more on that below.</p>
 

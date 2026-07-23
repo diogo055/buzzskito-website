@@ -8,6 +8,7 @@ import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'rescue-why-trap-review-canada'
 const DATE = '2026-07-21'
@@ -75,6 +76,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('rescue-why-trap-review-canada')
+
 export default function RescueWhyTrapReviewCanadaPage() {
   return (
     <>
@@ -96,7 +99,7 @@ export default function RescueWhyTrapReviewCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="RESCUE! WHY Trap (wasps, hornets & yellowjackets)" search="rescue why trap wasp hornet yellowjacket" label="Our verdict: buy it" />
+      <StickyBuyBar tag={AMZ_TAG} name="RESCUE! WHY Trap (wasps, hornets & yellowjackets)" search="rescue why trap wasp hornet yellowjacket" label="Our verdict: buy it" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -119,7 +122,7 @@ export default function RescueWhyTrapReviewCanadaPage() {
 
       <section className="bg-white px-4 py-2">
         <div className="max-w-4xl mx-auto">
-          <TopPick
+          <TopPick tag={AMZ_TAG}
             label="Our Verdict"
             name="RESCUE! WHY Trap (Wasp, Hornet & Yellowjacket)"
             blurb="The broadest-spectrum reusable wasp trap you can buy in Canada. The two-chamber design is genuinely clever engineering, not marketing — separate scent systems for the high-flying paper wasps and hornets versus the low-approaching yellowjackets. Reusable for years, insecticide-free, and stocked with Canadian-labelled refills at every big-box store. Score docked for the recurring attractant cost and for what every lure trap shares: it thins foragers, it cannot kill a colony."
@@ -168,8 +171,8 @@ export default function RescueWhyTrapReviewCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the trap and its refills:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="rescue why trap wasp hornet yellowjacket">RESCUE! WHY Trap &rarr;</BuyLink>
-            <BuyLink search="rescue why trap attractant refill">WHY attractant refill kits &rarr;</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="rescue why trap wasp hornet yellowjacket">RESCUE! WHY Trap &rarr;</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="rescue why trap attractant refill">WHY attractant refill kits &rarr;</BuyLink>
           </div>
 
           <h2>Setup, Placement, and the 2-Week Rhythm</h2>
@@ -204,21 +207,21 @@ export default function RescueWhyTrapReviewCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Dual scent lures; wasps enter, cannot exit, dehydrate</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Broadest</strong> &mdash; paper wasps, hornets, yellowjackets</td>
                   <td className="px-4 py-3 text-gray-700">Recurring &mdash; refill kit about every 2 weeks</td>
-                  <td className="px-4 py-3"><BuyLink search="rescue why trap wasp hornet yellowjacket" block>Check price &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="rescue why trap wasp hornet yellowjacket" block>Check price &rarr;</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">RESCUE! TrapStik<br /><span className="font-normal text-xs text-gray-500">glue, visual lure</span></td>
                   <td className="px-4 py-3 text-gray-700">Multi-colour visual pattern draws wasps onto adhesive</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Good</strong> for paper wasps at eaves; weaker on yellowjackets</td>
                   <td className="px-4 py-3 text-gray-700">None &mdash; replace the whole stick when full</td>
-                  <td className="px-4 py-3"><BuyLink search="rescue trapstik for wasps" block>Check price &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="rescue trapstik for wasps" block>Check price &rarr;</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Disposable bag trap<br /><span className="font-normal text-xs text-gray-500">RESCUE! Yellowjacket disposable</span></td>
                   <td className="px-4 py-3 text-gray-700">Pre-baited bag; add water, hang, toss when full</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Yellowjackets only</strong> &mdash; minimal paper wasp / hornet catch</td>
                   <td className="px-4 py-3 text-gray-700">Full replacement each time &mdash; adds up over a season</td>
-                  <td className="px-4 py-3"><BuyLink search="rescue disposable yellowjacket trap" block>Check price &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="rescue disposable yellowjacket trap" block>Check price &rarr;</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">DIY bottle trap<br /><span className="font-normal text-xs text-gray-500">pop bottle + sugar water</span></td>
@@ -276,7 +279,7 @@ export default function RescueWhyTrapReviewCanadaPage() {
           <p>Buy it if you have general, source-unknown wasp pressure &mdash; the classic Canadian backyard situation where yellowjackets crash the barbecue, paper wasps patrol the fence, and you never actually find a nest. The two-chamber design is the only mainstream trap that addresses all of it, the insecticide-free mechanism makes it the easy choice around kids, pets, and pollinators, and spring queen-trapping gives it leverage no reactive product has. We score it <strong>8.6/10</strong>: docked for the perpetual refill cost and the mid-summer lull, but it is the trap we would hang first, and the one that took Best Overall in our <Link href="/blog/best-wasp-trap-canada">full Canadian wasp trap roundup</Link>.</p>
           <p>Skip it &mdash; or rather, do not <em>stop</em> at it &mdash; if you have found an active nest. Trapping next to a nest is bailing a boat without plugging the hole; go to a nest-directed treatment or a professional first, then run the trap for the stragglers and next spring&rsquo;s queens.</p>
           <div className="not-prose my-4">
-            <BuyLink search="rescue why trap wasp hornet yellowjacket">Check RESCUE! WHY Trap on Amazon.ca &rarr;</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="rescue why trap wasp hornet yellowjacket">Check RESCUE! WHY Trap on Amazon.ca &rarr;</BuyLink>
           </div>
 
           <h2>Frequently Asked Questions</h2>

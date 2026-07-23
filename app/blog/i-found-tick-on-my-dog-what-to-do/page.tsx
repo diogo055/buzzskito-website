@@ -7,6 +7,7 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'i-found-tick-on-my-dog-what-to-do'
 const DATE = '2026-04-26'
@@ -55,6 +56,8 @@ export const metadata: Metadata = buildMetadata({
   type: 'article',
   publishedTime: DATE,
 })
+
+const AMZ_TAG = tagForSlug('i-found-tick-on-my-dog-what-to-do')
 
 export default function IFoundTickOnMyDogPage() {
   return (
@@ -122,9 +125,9 @@ export default function IFoundTickOnMyDogPage() {
 
           <h2>Step 3: Remove the Tick</h2>
           <p>See our detailed <Link href="/blog/how-to-remove-tick-from-dog-ontario">step-by-step removal guide</Link> for the exact technique. The short version: tweezers at the head, pull straight up, save the tick in a bag, clean the bite, wash your hands.</p>
-          <p>Fine-tipped tweezers work in a pinch, but a dedicated tick-removal tool grips right at the head and lifts the tick out cleanly without squeezing its body — worth keeping in the drawer if you have a dog. Our <Link href="/blog/tick-removal-tool-guide">tick removal tool guide</Link> compares the common options. <BuyLink search="tick removal tool tweezers">Check price on Amazon.ca →</BuyLink></p>
+          <p>Fine-tipped tweezers work in a pinch, but a dedicated tick-removal tool grips right at the head and lifts the tick out cleanly without squeezing its body — worth keeping in the drawer if you have a dog. Our <Link href="/blog/tick-removal-tool-guide">tick removal tool guide</Link> compares the common options. <BuyLink tag={AMZ_TAG} search="tick removal tool tweezers">Check price on Amazon.ca →</BuyLink></p>
 
-          <TopPick
+          <TopPick tag={AMZ_TAG}
             label="Our Top Pick"
             name="Dedicated Tick-Removal Tool (hook or fine-tip set)"
             blurb="For the moment you find a tick, a purpose-built remover grips right at the head and levers the whole tick out without squeezing its body — the single most important thing for lowering disease-transmission risk. Cheap enough to keep one in every drawer and the car."
@@ -165,7 +168,7 @@ export default function IFoundTickOnMyDogPage() {
             <li><strong>Yard maintenance</strong>: short grass, no leaf litter at lawn edges, 3-foot gravel barrier between lawn and woods.</li>
             <li><strong>Professional yard tick spray</strong>: <Link href="/tick-control">BuzzSkito&rsquo;s 5-spray season program</Link> targets the leaf-litter and lawn-edge zones where 95%+ of ticks live. Most customers stop finding ticks within 2 weeks of the first treatment.</li>
           </ol>
-          <p>Between vet visits, a topical or spray-on repellent adds a layer of protection for walks in tall grass — see our <Link href="/blog/tick-repellent-for-dogs-ontario">guide to tick repellent for dogs in Ontario</Link> for what to look for and what to avoid. <BuyLink search="dog tick repellent">Check price on Amazon.ca →</BuyLink> Always confirm any new product with your vet before applying it to your dog.</p>
+          <p>Between vet visits, a topical or spray-on repellent adds a layer of protection for walks in tall grass — see our <Link href="/blog/tick-repellent-for-dogs-ontario">guide to tick repellent for dogs in Ontario</Link> for what to look for and what to avoid. <BuyLink tag={AMZ_TAG} search="dog tick repellent">Check price on Amazon.ca →</BuyLink> Always confirm any new product with your vet before applying it to your dog.</p>
 
           <h2>Related Reading</h2>
           <ul>

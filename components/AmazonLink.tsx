@@ -17,13 +17,16 @@ export default function AmazonLink({
   search,
   children,
   className = '',
+  tag,
 }: {
   asin?: string
   search?: string
   children: React.ReactNode
   className?: string
+  /** Optional per-cluster tracking ID (lib/amazon-clusters.ts). Overrides the default tag. */
+  tag?: string
 }) {
-  const href = amazonUrl({ asin, search })
+  const href = amazonUrl({ asin, search, tag })
   if (!href) {
     return <span className={className}>{children}</span>
   }

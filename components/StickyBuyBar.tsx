@@ -17,12 +17,15 @@ export default function StickyBuyBar({
   asin,
   label = 'Top pick',
   cta = 'Check price on Amazon.ca',
+  tag,
 }: {
   name: string
   search?: string
   asin?: string
   label?: string
   cta?: string
+  /** Optional per-cluster tracking ID (lib/amazon-clusters.ts). */
+  tag?: string
 }) {
   if (!AMAZON_ENABLED) return null
   return (
@@ -32,7 +35,7 @@ export default function StickyBuyBar({
           <p className="text-[11px] font-extrabold uppercase tracking-wide text-amber-700 leading-none">{label}</p>
           <p className="mt-0.5 truncate text-sm font-bold text-brand-900 leading-tight">{name}</p>
         </div>
-        <BuyLink search={search} asin={asin} className="shrink-0 !px-5 !py-2.5">
+        <BuyLink search={search} asin={asin} tag={tag} className="shrink-0 !px-5 !py-2.5">
           {cta} →
         </BuyLink>
       </div>

@@ -8,6 +8,7 @@ import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'flowtron-bug-zapper-canada'
 const DATE = '2026-07-14'
@@ -65,6 +66,8 @@ export const metadata: Metadata = buildMetadata({
   publishedTime: DATE,
 })
 
+const AMZ_TAG = tagForSlug('flowtron-bug-zapper-canada')
+
 export default function FlowtronBugZapperCanadaPage() {
   return (
     <>
@@ -86,7 +89,7 @@ export default function FlowtronBugZapperCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="Flowtron BK-40D Electronic Insect Killer" search="flowtron bk-40d bug zapper" label="Best zapper pick" />
+      <StickyBuyBar tag={AMZ_TAG} name="Flowtron BK-40D Electronic Insect Killer" search="flowtron bk-40d bug zapper" label="Best zapper pick" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -108,7 +111,7 @@ export default function FlowtronBugZapperCanadaPage() {
 
       <section className="bg-white px-4 py-6">
         <div className="max-w-4xl mx-auto">
-          <TopPick
+          <TopPick tag={AMZ_TAG}
             label="Our Top Pick"
             name="Flowtron BK-40D Electronic Insect Killer"
             blurb="The 40-watt BK-40D is the volume pick for most GTA backyards — the most durable, best-value light trap in the category, rated for up to about an acre. Add the octenol cartridge to pull in more mosquitoes and biting flies, and treat it as a nuisance-insect tool alongside real mosquito control, not a replacement for it."
@@ -224,9 +227,9 @@ export default function FlowtronBugZapperCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Compare current Canadian pricing and models on Amazon.ca:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="flowtron bk-40d bug zapper">Check price on Amazon.ca</BuyLink>
-            <BuyLink search="flowtron bk-80d">See the BK-80D</BuyLink>
-            <BuyLink search="flowtron bk-15d">See the BK-15D</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="flowtron bk-40d bug zapper">Check price on Amazon.ca</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="flowtron bk-80d">See the BK-80D</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="flowtron bk-15d">See the BK-15D</BuyLink>
           </div>
 
           <h2>Why Flowtron Is the Bug Zapper Line Worth Buying</h2>
@@ -275,7 +278,7 @@ export default function FlowtronBugZapperCanadaPage() {
           <p>Two simple habits keep a Flowtron catching well, and skipping them is why people wrongly conclude their zapper &ldquo;stopped working.&rdquo;</p>
           <p><strong>Replace the UV bulb roughly once a season.</strong> The bulb keeps glowing to your eye long after its insect-attracting UV output has faded — think 5,000–8,000 hours, which is about one full summer of nightly use. If you run it all season, install a fresh bulb every spring. The BK-40D uses the <strong>Flowtron BF-190 replacement bulb</strong>. A dim, year-old bulb that still looks lit is the number-one reason a zapper underperforms in its second season.</p>
           <div className="not-prose my-4 flex flex-wrap gap-3">
-            <BuyLink search="flowtron bf-190 replacement bulb">BF-190 replacement bulb on Amazon.ca</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="flowtron bf-190 replacement bulb">BF-190 replacement bulb on Amazon.ca</BuyLink>
           </div>
           <p><strong>Clean the grid every 2–3 weeks.</strong> Unplug the unit, let it sit a minute to discharge, and brush the electrocution grid with the tool Flowtron includes. A grid caked with charred insect debris arcs poorly and catches far less. While you are there, empty the collection tray. Both jobs take under five minutes and make a real difference to catch rate.</p>
 

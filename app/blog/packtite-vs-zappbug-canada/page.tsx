@@ -8,6 +8,7 @@ import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'packtite-vs-zappbug-canada'
 const DATE = '2026-07-21'
@@ -75,6 +76,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('packtite-vs-zappbug-canada')
+
 export default function PacktiteVsZappbugCanadaPage() {
   return (
     <>
@@ -96,7 +99,7 @@ export default function PacktiteVsZappbugCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="ZappBug Room bed-bug heater" search="zappbug room bed bug heater" label="Bulk-treatment winner" />
+      <StickyBuyBar tag={AMZ_TAG} name="ZappBug Room bed-bug heater" search="zappbug room bed bug heater" label="Bulk-treatment winner" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -173,8 +176,8 @@ export default function PacktiteVsZappbugCanadaPage() {
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Availability</td>
-                  <td className="px-4 py-3"><BuyLink search="zappbug room bed bug heater" block>Check price →</BuyLink></td>
-                  <td className="px-4 py-3"><BuyLink search="packtite closet bed bug heater" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="zappbug room bed bug heater" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="packtite closet bed bug heater" block>Check price →</BuyLink></td>
                   <td className="px-4 py-3 text-gray-700">Buy the Canadian 120V listing for the right plug and warranty</td>
                 </tr>
               </tbody>
@@ -202,8 +205,8 @@ export default function PacktiteVsZappbugCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability for each chamber:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="zappbug room bed bug heater">ZappBug Room →</BuyLink>
-            <BuyLink search="packtite closet bed bug heater">PackTite Closet →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="zappbug room bed bug heater">ZappBug Room →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="packtite closet bed bug heater">PackTite Closet →</BuyLink>
           </div>
 
           <h2>The Air-Temperature Myth: Why the Wall Reading Does Not Kill Bugs</h2>
@@ -244,7 +247,7 @@ export default function PacktiteVsZappbugCanadaPage() {
           <h2>The Winner &mdash; and How to Use It</h2>
           <p>For a real bed-bug infestation, the ZappBug Room is our pick. A chamber is only the bulk-item step, though, so use it inside a plan. Vacuum first with a <Link href="/blog/best-hepa-vacuum-for-bed-bugs-and-fleas-canada">sealed-HEPA vacuum</Link> to physically remove live adults and debris from the bed and room. Steam the mattress, frame, and baseboards with a <Link href="/blog/best-bed-bug-steamer-canada">bed-bug steamer</Link> for everything fixed in place. Run the chamber for all the portable belongings &mdash; clothing, bedding, luggage, shoes, and boxes &mdash; loading loosely and reading a probe in the coldest item every run. For suitcases specifically while you travel, a <Link href="/blog/best-bed-bug-luggage-heater-canada">luggage-sized heater</Link> or the <Link href="/blog/zappbug-heater-review-canada">ZappBug heater line</Link> is the portable companion. Then place interceptor traps under the bed legs so you can see, week over week, whether the numbers are dropping. For the underlying heat-vs-chemical logic, our <Link href="/blog/heat-vs-chemical-bed-bug-treatment-canada">heat vs chemical treatment guide</Link> and <Link href="/blog/steamer-vs-heater-for-bed-bugs-canada">steamer vs heater comparison</Link> lay out where each tool fits.</p>
 
-          <TopPick
+          <TopPick tag={AMZ_TAG}
             label="Winner — Best for a Broad Infestation"
             name="ZappBug Room Bed-Bug Heater Chamber"
             blurb="The ZappBug Room wins the head-to-head for a real infestation. Its large collapsible cube bulk-treats luggage, boxes, shoes, and armfuls of clothing in a small number of cycles, and its placed temperature probes let you confirm the coldest item's core actually reached a lethal temperature rather than trusting the air reading on the wall. Load it loosely for full penetration and it turns an all-day job into a few confident runs. The PackTite Closet remains the better pick if your problem is mainly hung clothing and you value a chamber that folds flat into a closet."

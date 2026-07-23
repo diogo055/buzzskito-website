@@ -9,6 +9,7 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import TopPick from '@/components/TopPick'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { TICK_BLOGS } from '@/lib/constants'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'bugs-that-look-like-ticks'
 const DATE = '2026-04-26'
@@ -84,6 +85,8 @@ export const metadata: Metadata = buildMetadata({
   publishedTime: DATE,
   modifiedTime: '2026-07-12',
 })
+
+const AMZ_TAG = tagForSlug('bugs-that-look-like-ticks')
 
 export default function BugsThatLookLikeTicksPage() {
   return (
@@ -307,9 +310,9 @@ export default function BugsThatLookLikeTicksPage() {
 
         <h2>Is It a Poppy Seed, a Sesame Seed, or a Tick?</h2>
         <p>This is one of the most-searched tick questions, and for good reason: an unfed blacklegged (deer) tick nymph really is about the size and colour of a poppy seed, and a well-fed one resembles a sesame seed. People routinely spot a dark speck on their skin or scalp and cannot tell whether it is a seed, a fleck of dirt, or a tick.</p>
-        <p>The test is quick. A <strong>poppy or sesame seed has no legs, does not move, and brushes off easily.</strong> A <strong>nymph tick that size has 8 legs, grips the skin, and stays put</strong> when you try to wipe it away. If the &ldquo;seed&rdquo; has legs or will not brush off, treat it as a tick, remove it carefully, and save it. A pointed tick-removal tool or fine-tipped tweezers grips a poppy-seed-sized nymph far better than fingernails do &mdash; <BuyLink search="tick removal tool tweezers">check tick-removal tools on Amazon.ca &rarr;</BuyLink> When you are unsure, our <Link href="/blog/tick-removal-tool-guide" className="text-brand-700 underline">tick removal tool guide</Link> walks through the right tools and technique.</p>
+        <p>The test is quick. A <strong>poppy or sesame seed has no legs, does not move, and brushes off easily.</strong> A <strong>nymph tick that size has 8 legs, grips the skin, and stays put</strong> when you try to wipe it away. If the &ldquo;seed&rdquo; has legs or will not brush off, treat it as a tick, remove it carefully, and save it. A pointed tick-removal tool or fine-tipped tweezers grips a poppy-seed-sized nymph far better than fingernails do &mdash; <BuyLink tag={AMZ_TAG} search="tick removal tool tweezers">check tick-removal tools on Amazon.ca &rarr;</BuyLink> When you are unsure, our <Link href="/blog/tick-removal-tool-guide" className="text-brand-700 underline">tick removal tool guide</Link> walks through the right tools and technique.</p>
 
-        <TopPick
+        <TopPick tag={AMZ_TAG}
           label="Our Top Pick — Tick Removal"
           name="Fine-Tipped Tick Removal Tool"
           blurb="Once you have confirmed a real tick, the right tool matters: a pointed tick remover or fine-tipped tweezers grips a poppy-seed-sized nymph close to the skin and lifts it straight out, without squeezing the body. Keep one in the first-aid kit and one in the car for post-hike checks."

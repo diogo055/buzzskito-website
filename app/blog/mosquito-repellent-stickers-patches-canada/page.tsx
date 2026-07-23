@@ -8,6 +8,7 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'mosquito-repellent-stickers-patches-canada'
 const DATE = '2026-07-12'
@@ -55,6 +56,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('mosquito-repellent-stickers-patches-canada')
+
 export default function MosquitoRepellentStickersPatchesCanadaPage() {
   return (
     <>
@@ -76,7 +79,7 @@ export default function MosquitoRepellentStickersPatchesCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="BuzzPatch / NATPAT DEET-free kids' repellent stickers" search="buzzpatch natpat mosquito stickers" label="Most popular for kids" />
+      <StickyBuyBar tag={AMZ_TAG} name="BuzzPatch / NATPAT DEET-free kids' repellent stickers" search="buzzpatch natpat mosquito stickers" label="Most popular for kids" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -98,7 +101,7 @@ export default function MosquitoRepellentStickersPatchesCanadaPage() {
 
       <section className="bg-white px-4 py-6">
         <div className="max-w-5xl mx-auto">
-          <AwardRow
+          <AwardRow tag={AMZ_TAG}
             heading="Our Picks — Best DEET-Free Mosquito Stickers & Patches"
             awards={[
               {
@@ -229,8 +232,8 @@ export default function MosquitoRepellentStickersPatchesCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Compare current Canadian prices on the best-rated DEET-free stickers and patches:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="buzzpatch mosquito repellent stickers kids">Check kids&rsquo; sticker price on Amazon.ca →</BuyLink>
-            <BuyLink search="citronella mosquito repellent patches">Citronella patch multipacks →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="buzzpatch mosquito repellent stickers kids">Check kids&rsquo; sticker price on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="citronella mosquito repellent patches">Citronella patch multipacks →</BuyLink>
           </div>
 
           <h2 id="best-packs">Best-Rated DEET-Free Stickers &amp; Patches Compared</h2>
@@ -252,33 +255,33 @@ export default function MosquitoRepellentStickersPatchesCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Citronella + essential-oil blend</td>
                   <td className="px-4 py-3 text-gray-700">Kids · strollers · cartoon stickers they will wear</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$18 – $28 / 60</td>
-                  <td className="px-4 py-3"><BuyLink search="buzzpatch natpat mosquito stickers" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="buzzpatch natpat mosquito stickers" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Cliganic Patches</td>
                   <td className="px-4 py-3 text-gray-700">Citronella + lemongrass</td>
                   <td className="px-4 py-3 text-gray-700">Budget family packs</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$12 – $20 / 60</td>
-                  <td className="px-4 py-3"><BuyLink search="cliganic mosquito repellent patches" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="cliganic mosquito repellent patches" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Generic Citronella Patches</td>
                   <td className="px-4 py-3 text-gray-700">Citronella oil</td>
                   <td className="px-4 py-3 text-gray-700">Cheapest bulk / stock-up</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$10 – $18 / 60–100</td>
-                  <td className="px-4 py-3"><BuyLink search="citronella mosquito patches bulk" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="citronella mosquito patches bulk" block>Check price →</BuyLink></td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 font-bold text-brand-800">Para&rsquo;Kito Refillable Clip <span className="font-normal text-xs text-gray-500">(reusable)</span></td>
                   <td className="px-4 py-3 text-gray-700">Geraniol pellet refill</td>
                   <td className="px-4 py-3 text-gray-700">Older kids &amp; adults · lasts longer per dollar</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$18 – $30 + refills</td>
-                  <td className="px-4 py-3"><BuyLink search="parakito mosquito refill clip" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="parakito mosquito refill clip" block>Check price →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
           </div>
-          <p className="not-prose text-sm text-gray-600 mb-6">Prefer a wearable that recharges with a swappable pellet instead of single-use stickers? A refillable clip is the greener, cheaper-over-time option &mdash; the same technology behind reusable repellent bands. <BuyLink search="parakito refillable mosquito band">Check refillable band price →</BuyLink></p>
+          <p className="not-prose text-sm text-gray-600 mb-6">Prefer a wearable that recharges with a swappable pellet instead of single-use stickers? A refillable clip is the greener, cheaper-over-time option &mdash; the same technology behind reusable repellent bands. <BuyLink tag={AMZ_TAG} search="parakito refillable mosquito band">Check refillable band price →</BuyLink></p>
 
           <h2>How Repellent Stickers Actually Work</h2>
           <p>A repellent sticker is just a small adhesive pad soaked in volatile plant oils &mdash; most commonly citronella, but also lemongrass, geraniol, and oil of lemon eucalyptus. Once you peel and stick it, the oils slowly evaporate and form a faint scented halo in the air immediately around the patch. Female mosquitoes hunt by following a plume of carbon dioxide, body heat, and skin compounds; the oil scent partly masks and confuses those cues, so mosquitoes are less likely to zero in on the exact spot the patch is protecting.</p>

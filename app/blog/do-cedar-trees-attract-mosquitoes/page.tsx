@@ -8,6 +8,7 @@ import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { MOSQUITO_BLOGS } from '@/lib/constants'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'do-cedar-trees-attract-mosquitoes'
 const DATE = '2026-04-26'
@@ -66,6 +67,8 @@ export const metadata: Metadata = buildMetadata({
   publishedTime: DATE,
   modifiedTime: UPDATED,
 })
+
+const AMZ_TAG = tagForSlug('do-cedar-trees-attract-mosquitoes')
 
 export default function CedarTreesMosquitoesPage() {
   return (
@@ -184,9 +187,9 @@ export default function CedarTreesMosquitoesPage() {
 
         <h3>5. Limit other resting habitat too</h3>
         <p>While you are at it, address the rest of the resting micro-environment on the property: trim back overgrown shrubs, clear leaf litter from garden beds, and check our <Link href="/blog/hidden-mosquito-breeding-spots-backyard" className="text-brand-700 underline">hidden mosquito breeding spots guide</Link> for the standing-water sources that are quietly producing mosquitoes alongside your hedge.</p>
-        <p>For the patio itself &mdash; the spot the mosquitoes head for at dusk once they pour out of the hedge &mdash; a spot repellent device creates a protection zone around outdoor seating without spraying anything on skin. Thermacell units use a heat-activated mat that disperses a pyrethroid repellent (metofluthrin/prallethrin) over a roughly 20-square-metre area, which is useful for a defined seating area on a still evening. <BuyLink search="thermacell mosquito repeller">Check Thermacell patio repellers on Amazon.ca &rarr;</BuyLink> It is a complement to barrier spray, not a replacement &mdash; the device protects the people sitting on the patio, while the barrier spray reduces the population resting in the hedge in the first place.</p>
+        <p>For the patio itself &mdash; the spot the mosquitoes head for at dusk once they pour out of the hedge &mdash; a spot repellent device creates a protection zone around outdoor seating without spraying anything on skin. Thermacell units use a heat-activated mat that disperses a pyrethroid repellent (metofluthrin/prallethrin) over a roughly 20-square-metre area, which is useful for a defined seating area on a still evening. <BuyLink tag={AMZ_TAG} search="thermacell mosquito repeller">Check Thermacell patio repellers on Amazon.ca &rarr;</BuyLink> It is a complement to barrier spray, not a replacement &mdash; the device protects the people sitting on the patio, while the barrier spray reduces the population resting in the hedge in the first place.</p>
 
-        <TopPick
+        <TopPick tag={AMZ_TAG}
           label="Best for the Patio at Dusk"
           name="Thermacell Patio Repeller"
           blurb="For the seating area the mosquitoes head for once they pour out of the hedge, a heat-activated Thermacell mat creates a repellent zone around outdoor furniture — no spray on skin, no cords. It protects a defined seating area on a still evening and pairs naturally with barrier spray on the hedge itself."

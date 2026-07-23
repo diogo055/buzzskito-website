@@ -8,6 +8,7 @@ import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'knock-down-bed-bug-killer-review-canada'
 const DATE = '2026-07-21'
@@ -75,6 +76,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('knock-down-bed-bug-killer-review-canada')
+
 export default function KnockDownBedBugKillerReviewCanadaPage() {
   return (
     <>
@@ -96,7 +99,7 @@ export default function KnockDownBedBugKillerReviewCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="Knock Down Bed Bug Killer" search="knock down bed bug killer spray canada" label="The value pick" />
+      <StickyBuyBar tag={AMZ_TAG} name="Knock Down Bed Bug Killer" search="knock down bed bug killer spray canada" label="The value pick" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -119,7 +122,7 @@ export default function KnockDownBedBugKillerReviewCanadaPage() {
 
       <section className="bg-white px-4 py-2">
         <div className="max-w-3xl mx-auto">
-          <TopPick
+          <TopPick tag={AMZ_TAG}
             label="Best Value PMRA-Registered Bed Bug Spray"
             name="Knock Down Bed Bug Killer"
             blurb="The bed bug spray we point budget-minded Canadians to — because it is cheap, easy to find, and actually registered for use in Canada. It knocks down the bugs you directly hit, lays a short residual film along treated travel routes, and carries a Health Canada PCP number so you are not gambling on an unregistered US import. It is the value knockdown-and-perimeter layer of a plan, not the whole plan: bring heat for the eggs and a desiccant dust for the survivors."
@@ -164,28 +167,28 @@ export default function KnockDownBedBugKillerReviewCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Fast knockdown on direct contact; short residual film</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">No</strong> &mdash; adults &amp; nymphs only</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Registered</strong> &mdash; PMRA / PCP #</td>
-                  <td className="px-4 py-3"><BuyLink search="knock down bed bug killer spray canada" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="knock down bed bug killer spray canada" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Doktor Doom Sleep Tight<br /><span className="font-normal text-xs text-gray-500">mattress-labelled spray</span></td>
                   <td className="px-4 py-3 text-gray-700">Fast contact knockdown; mattress-and-frame directions</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">No</strong></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Registered</strong> &mdash; PMRA / PCP #</td>
-                  <td className="px-4 py-3"><BuyLink search="doktor doom sleep tight bed bug" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="doktor doom sleep tight bed bug" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Silica desiccant dust<br /><span className="font-normal text-xs text-gray-500">CimeXa-type</span></td>
                   <td className="px-4 py-3 text-gray-700">Dries the insect out over hours; lasts months in dry voids</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">No</strong> &mdash; but catches every hatchling</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Registered</strong> options exist</td>
-                  <td className="px-4 py-3"><BuyLink search="cimexa insecticide dust bed bugs" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="cimexa insecticide dust bed bugs" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Steam / heat<br /><span className="font-normal text-xs text-gray-500">steamer or room heater</span></td>
                   <td className="px-4 py-3 text-gray-700">Lethal temperature penetrates fabric &mdash; kills all stages</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Yes</strong> &mdash; the egg-killer</td>
                   <td className="px-4 py-3 text-gray-700">Device &mdash; no registration needed</td>
-                  <td className="px-4 py-3"><BuyLink search="bed bug steamer" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bed bug steamer" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">US-only grey-market spray<br /><span className="font-normal text-xs text-gray-500">cross-border listing</span></td>
@@ -219,9 +222,9 @@ export default function KnockDownBedBugKillerReviewCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of Knock Down and the layers you build around it:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="knock down bed bug killer spray canada">Knock Down Bed Bug Killer →</BuyLink>
-            <BuyLink search="cimexa insecticide dust bed bugs">Desiccant dust →</BuyLink>
-            <BuyLink search="bed bug steamer">Bed bug steamer →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="knock down bed bug killer spray canada">Knock Down Bed Bug Killer →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="cimexa insecticide dust bed bugs">Desiccant dust →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="bed bug steamer">Bed bug steamer →</BuyLink>
           </div>
 
           <h2>How It Actually Performs: A Competent Value Spray, Honest About the Rest</h2>

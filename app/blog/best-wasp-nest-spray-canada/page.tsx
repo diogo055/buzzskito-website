@@ -8,6 +8,7 @@ import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'best-wasp-nest-spray-canada'
 const DATE = '2026-07-21'
@@ -75,6 +76,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('best-wasp-nest-spray-canada')
+
 export default function BestWaspNestSprayCanadaPage() {
   return (
     <>
@@ -96,7 +99,7 @@ export default function BestWaspNestSprayCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="Raid Wasp & Hornet Bug Killer (foaming aerosol)" search="raid wasp hornet killer" label="Best overall" />
+      <StickyBuyBar tag={AMZ_TAG} name="Raid Wasp & Hornet Bug Killer (foaming aerosol)" search="raid wasp hornet killer" label="Best overall" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -119,7 +122,7 @@ export default function BestWaspNestSprayCanadaPage() {
 
       <section className="bg-white px-4 py-6">
         <div className="max-w-5xl mx-auto">
-          <AwardRow
+          <AwardRow tag={AMZ_TAG}
             heading="Our Picks — Best Wasp Nest Sprays in Canada"
             awards={[
               {
@@ -184,21 +187,21 @@ export default function BestWaspNestSprayCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Expanding foam blankets nest + entrance; residual kills returning foragers for hours</td>
                   <td className="px-4 py-3 text-gray-700">Eaves, deck rails, sheds, most nests</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Legal</strong> &mdash; PCP-registered</td>
-                  <td className="px-4 py-3"><BuyLink search="raid wasp hornet killer" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="raid wasp hornet killer" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Expanding foam<br /><span className="font-normal text-xs text-gray-500">Wilson WaspOut</span></td>
                   <td className="px-4 py-3 text-gray-700">Heavier foam smothers the full nest envelope; ideal pushed into burrow and void entrances</td>
                   <td className="px-4 py-3 text-gray-700">Exposed paper nests, ground &amp; void entrances</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Legal</strong> &mdash; PCP-registered</td>
-                  <td className="px-4 py-3"><BuyLink search="wilson waspout wasp hornet foam" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="wilson waspout wasp hornet foam" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Long jet<br /><span className="font-normal text-xs text-gray-500">Ortho Home Defense</span></td>
                   <td className="px-4 py-3 text-gray-700">Narrow straight stream for maximum distance; fast knockdown, thinner residual</td>
                   <td className="px-4 py-3 text-gray-700">High soffits and second-storey nests</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Legal</strong> &mdash; PCP-registered</td>
-                  <td className="px-4 py-3"><BuyLink search="ortho home defense hornet wasp killer" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="ortho home defense hornet wasp killer" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">US grey-market<br /><span className="font-normal text-xs text-gray-500">Spectracide &ldquo;27 ft&rdquo;, Hot Shot</span></td>
@@ -264,9 +267,9 @@ export default function BestWaspNestSprayCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the three picks:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="raid wasp hornet killer">Raid Wasp &amp; Hornet foam →</BuyLink>
-            <BuyLink search="wilson waspout wasp hornet foam">Wilson WaspOut foam →</BuyLink>
-            <BuyLink search="ortho home defense hornet wasp killer">Ortho long-reach jet →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="raid wasp hornet killer">Raid Wasp &amp; Hornet foam →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="wilson waspout wasp hornet foam">Wilson WaspOut foam →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="ortho home defense hornet wasp killer">Ortho long-reach jet →</BuyLink>
           </div>
 
           <h2>Why Foam Wins for Most Canadian Wasp Nests</h2>
@@ -275,7 +278,7 @@ export default function BestWaspNestSprayCanadaPage() {
           <p><strong>Wilson&rsquo;s WaspOut foam</strong> takes the same idea further with a heavier expanding foam that can smother an entire exposed paper nest &mdash; the classic grey football under a deck rail or soffit &mdash; and that pushes usefully into holes: a ground-nest burrow, a gap behind siding, a fencepost cavity. If your nest is a visible envelope or an entrance hole rather than open comb, WaspOut&rsquo;s foam coverage is the most complete of the picks.</p>
           <p><strong>Long-jet formulas</strong> like the Ortho Home Defense hornet and wasp aerosol trade the blanket for a narrow, straighter stream that throws farther. On a second-storey soffit nest, that reach is the difference between treating from your lawn and climbing a ladder at dusk &mdash; and staying off the ladder is worth more than any residual. The trade-off is real, though: streams run off vertical surfaces, so a jet-treated nest more often needs a second application the next evening.</p>
           <div className="not-prose my-4">
-            <BuyLink search="raid wasp hornet killer">Check Raid Wasp &amp; Hornet foam on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="raid wasp hornet killer">Check Raid Wasp &amp; Hornet foam on Amazon.ca →</BuyLink>
           </div>
 
           <h2>How to Spray a Wasp Nest Safely (The Full Technique)</h2>
@@ -303,7 +306,7 @@ export default function BestWaspNestSprayCanadaPage() {
           <h2>What Not to Use</h2>
           <p>For completeness, the popular non-answers. <strong>Gasoline</strong> poured into ground nests contaminates soil, creates a fire risk, and is illegal pesticide use. <strong>Boiling water</strong> scalds the top of a burrow and enrages the surviving 90% of the colony. <strong>Dish-soap sprays</strong> kill the individual wasps they drench but leave no residual for returning foragers and force you within arm&rsquo;s reach of the nest. <strong>WD-40</strong> is a solvent myth with the same fatal flaws. Beyond being ineffective, applying any substance as a pesticide that is not registered for that use is itself contrary to the <em>Pest Control Products Act</em> &mdash; the same law that keeps the grey-market cans out. A registered foam can costs less than a pizza and does the job from metres away; there is no scenario where the improvised option is the smart one.</p>
           <div className="not-prose my-4">
-            <BuyLink search="wilson waspout wasp hornet foam">Check Wilson WaspOut foam on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="wilson waspout wasp hornet foam">Check Wilson WaspOut foam on Amazon.ca →</BuyLink>
           </div>
 
           <h2>Frequently Asked Questions</h2>

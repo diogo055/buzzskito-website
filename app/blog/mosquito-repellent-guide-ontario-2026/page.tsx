@@ -8,6 +8,7 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'mosquito-repellent-guide-ontario-2026'
 const DATE = '2026-04-26'
@@ -69,6 +70,8 @@ export const metadata: Metadata = buildMetadata({
   publishedTime: DATE,
 })
 
+const AMZ_TAG = tagForSlug('mosquito-repellent-guide-ontario-2026')
+
 export default function MosquitoRepellentGuidePage() {
   return (
     <>
@@ -90,7 +93,7 @@ export default function MosquitoRepellentGuidePage() {
         </div>
       </section>
 
-      <StickyBuyBar name="Natrapel 20% Picaridin Insect Repellent" search="natrapel picaridin insect repellent" label="Best overall repellent" />
+      <StickyBuyBar tag={AMZ_TAG} name="Natrapel 20% Picaridin Insect Repellent" search="natrapel picaridin insect repellent" label="Best overall repellent" />
 
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
@@ -112,8 +115,8 @@ export default function MosquitoRepellentGuidePage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">The repellents that actually pass the research test in Ontario — picaridin or DEET on skin, Thermacell for a still patio:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="natrapel picaridin insect repellent">Picaridin repellent on Amazon.ca →</BuyLink>
-            <BuyLink search="thermacell patio shield mosquito repeller">Thermacell patio repeller →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="natrapel picaridin insect repellent">Picaridin repellent on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="thermacell patio shield mosquito repeller">Thermacell patio repeller →</BuyLink>
           </div>
           <p className="lead text-xl text-gray-700 leading-relaxed mb-6">There are dozens of mosquito repellents on shelves at Canadian Tire, Home Depot, and Shoppers Drug Mart. Most don&rsquo;t work as advertised. Here&rsquo;s what the peer-reviewed research and Health Canada approvals tell us about the <strong>best mosquito repellent</strong> — and the best mosquito repellent device — for Canada in 2026.</p>
 
@@ -121,7 +124,7 @@ export default function MosquitoRepellentGuidePage() {
           <p>Ranked by how well they hold up in real-world use and peer-reviewed testing. Every one below is protection you wear or place — for hands-off, whole-yard control skip to the strategy section. And if you only care about devices — Thermacell, traps, zappers — we&rsquo;ve ranked those head-to-head in our <Link href="/blog/best-mosquito-repellent-device-canada">best mosquito repellent device guide</Link>.</p>
 
           <div className="not-prose my-8">
-            <AwardRow
+            <AwardRow tag={AMZ_TAG}
               heading="Our Picks — Best Mosquito Repellents in Canada"
               awards={[
                 {
@@ -185,37 +188,37 @@ export default function MosquitoRepellentGuidePage() {
                   <td className="py-3 pr-4 font-semibold text-gray-900">Natrapel / Sawyer Picaridin (20%)</td>
                   <td className="py-3 pr-4">Skin spray</td>
                   <td className="py-3 pr-4"><strong>Best overall</strong> — odourless everyday backyard &amp; travel pick, 6–10 hrs.</td>
-                  <td className="py-3"><BuyLink search="natrapel picaridin insect repellent" block>Check price →</BuyLink></td>
+                  <td className="py-3"><BuyLink tag={AMZ_TAG} search="natrapel picaridin insect repellent" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-gray-200">
                   <td className="py-3 pr-4 font-semibold text-gray-900">OFF Deep Woods (25–30% DEET)</td>
                   <td className="py-3 pr-4">Skin spray</td>
                   <td className="py-3 pr-4"><strong>Best for heavy bug pressure</strong> — cottage docks, canoe trips, dense bush.</td>
-                  <td className="py-3"><BuyLink search="off deep woods insect repellent" block>Check price →</BuyLink></td>
+                  <td className="py-3"><BuyLink tag={AMZ_TAG} search="off deep woods insect repellent" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-gray-200">
                   <td className="py-3 pr-4 font-semibold text-gray-900">Thermacell Patio Shield</td>
                   <td className="py-3 pr-4">Area device</td>
                   <td className="py-3 pr-4"><strong>Best device</strong> — a ~20&nbsp;ft scent-free zone for still patios &amp; campsites, no skin spray.</td>
-                  <td className="py-3"><BuyLink search="thermacell patio shield mosquito repeller" block>Check price →</BuyLink></td>
+                  <td className="py-3"><BuyLink tag={AMZ_TAG} search="thermacell patio shield mosquito repeller" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-gray-200">
                   <td className="py-3 pr-4 font-semibold text-gray-900">Oil of Lemon Eucalyptus (Repel, 30%)</td>
                   <td className="py-3 pr-4">Natural skin spray</td>
                   <td className="py-3 pr-4"><strong>Best DEET-free pick</strong> — plant-derived PMD with real evidence, 4–6 hrs.</td>
-                  <td className="py-3"><BuyLink search="repel lemon eucalyptus insect repellent" block>Check price →</BuyLink></td>
+                  <td className="py-3"><BuyLink tag={AMZ_TAG} search="repel lemon eucalyptus insect repellent" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-gray-200">
                   <td className="py-3 pr-4 font-semibold text-gray-900">Backyard fogger (Cutter / Black Flag)</td>
                   <td className="py-3 pr-4">Yard fogger</td>
                   <td className="py-3 pr-4"><strong>Best one-off knockdown</strong> — clears a yard for hours before a party, not weeks.</td>
-                  <td className="py-3"><BuyLink search="cutter backyard mosquito fogger" block>Check price →</BuyLink></td>
+                  <td className="py-3"><BuyLink tag={AMZ_TAG} search="cutter backyard mosquito fogger" block>Check price →</BuyLink></td>
                 </tr>
                 <tr>
                   <td className="py-3 pr-4 font-semibold text-gray-900">Repellent bracelet / wristband</td>
                   <td className="py-3 pr-4">Wearable</td>
                   <td className="py-3 pr-4"><strong>Skip it</strong> — protects only a few cm around your wrist; you&rsquo;ll still get bitten on the ankles and neck.</td>
-                  <td className="py-3"><BuyLink search="mosquito repellent bracelet" block>Check price →</BuyLink></td>
+                  <td className="py-3"><BuyLink tag={AMZ_TAG} search="mosquito repellent bracelet" block>Check price →</BuyLink></td>
                 </tr>
               </tbody>
             </table>

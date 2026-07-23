@@ -7,6 +7,7 @@ import TopPick from '@/components/TopPick'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'mosquito-bite-treatment-relief'
 const DATE = '2026-07-13'
@@ -76,6 +77,8 @@ export const metadata: Metadata = buildMetadata({
   publishedTime: DATE,
   modifiedTime: UPDATED,
 })
+
+const AMZ_TAG = tagForSlug('mosquito-bite-treatment-relief')
 
 export default function MosquitoBiteTreatmentReliefPage() {
   return (
@@ -177,11 +180,11 @@ export default function MosquitoBiteTreatmentReliefPage() {
           </ol>
           <p className="not-prose text-sm text-gray-600 mb-1">Handy things to keep in the medicine cabinet or camp bag:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="after bite itch relief">Check after-bite relief on Amazon &rarr;</BuyLink>
-            <BuyLink search="hydrocortisone anti itch cream">Hydrocortisone anti-itch cream &rarr;</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="after bite itch relief">Check after-bite relief on Amazon &rarr;</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="hydrocortisone anti itch cream">Hydrocortisone anti-itch cream &rarr;</BuyLink>
           </div>
 
-          <TopPick
+          <TopPick tag={AMZ_TAG}
             label="Best for the Itch"
             name="1% Hydrocortisone Anti-Itch Cream"
             blurb="The workhorse of bite relief — a topical steroid that calms the histamine-driven inflammation behind the itch and swelling. The one thing worth keeping in the medicine cabinet before bite season starts."
@@ -225,7 +228,7 @@ export default function MosquitoBiteTreatmentReliefPage() {
 
           <h2>Stop the Bites at the Source</h2>
           <p>Every bite you treat started with a mosquito that was resting somewhere in your yard &mdash; in tall grass, under shrubs, in the shade of the fence line. You can keep antihistamines on hand, but the real fix is fewer mosquitoes. Dump standing water weekly (even a bottle cap breeds them), keep grass trimmed, and consider a barrier treatment that kills the adults where they hide. <Link href="/mosquito-control">BuzzSkito&rsquo;s professional barrier spray</Link> targets those resting zones and gives you 21&ndash;30 days of relief per treatment, so bite-and-scratch season is a lot shorter.</p>
-          <p>For quick prevention on the go, a <BuyLink search="bug bite suction tool">bite suction tool</BuyLink> can pull out some saliva right after a bite and blunt the reaction if you use it immediately, and a good repellent with DEET or picaridin stops bites before they happen.</p>
+          <p>For quick prevention on the go, a <BuyLink tag={AMZ_TAG} search="bug bite suction tool">bite suction tool</BuyLink> can pull out some saliva right after a bite and blunt the reaction if you use it immediately, and a good repellent with DEET or picaridin stops bites before they happen.</p>
 
           <h2>Mosquito Bite vs Other Bites</h2>
           <p>Not every itchy welt is a mosquito. If a bite shows up in a line or tight cluster, blisters, or itches out of all proportion to its size, it may be something else. These guides walk through the tell-tale differences:</p>

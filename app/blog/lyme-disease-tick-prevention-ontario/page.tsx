@@ -8,6 +8,7 @@ import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { TICK_BLOGS } from '@/lib/constants'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const POST = TICK_BLOGS.supporting[0]
 const UPDATED = '2026-04-20'
@@ -50,6 +51,8 @@ const FAQS = [
     answer: 'Use fine-tipped tweezers to grasp the tick as close to the skin as possible and pull straight upward with steady pressure. Do not twist, crush, or apply heat. Clean the bite area with rubbing alcohol. Note the date and, if possible, submit the tick to eTick.ca for identification. See a doctor if symptoms develop within 30 days.',
   },
 ]
+
+const AMZ_TAG = tagForSlug('lyme-disease-tick-prevention-ontario')
 
 export default function LymeDiseasePage() {
   return (
@@ -219,10 +222,10 @@ export default function LymeDiseasePage() {
         <AffiliateDisclosure />
         <p>
           A purpose-made removal hook like the Tick Twister grips the mouthparts at skin level without squeezing the body — worth keeping in the first-aid kit if you live near a ravine or walk a dog daily.{' '}
-          <BuyLink search="tick twister removal tool">Check price on Amazon.ca →</BuyLink>
+          <BuyLink tag={AMZ_TAG} search="tick twister removal tool">Check price on Amazon.ca →</BuyLink>
         </p>
 
-        <TopPick
+        <TopPick tag={AMZ_TAG}
           label="Best Tick Remover"
           name="Tick Twister Removal Hook"
           blurb="Because the Lyme bacterium transfers only after hours of attachment, a fast, clean removal is your single biggest lever. A slotted hook slides under the tick and lifts it out mouthparts-and-all — no squeezing the body, which is exactly what tweezers risk. Keep one in the first-aid kit if you walk a dog or live near a ravine."
@@ -262,12 +265,12 @@ export default function LymeDiseasePage() {
         <h3>On your body</h3>
         <ul>
           <li>Apply Health Canada-approved repellent containing DEET (20–30%) or icaridin to exposed skin.{' '}
-            <BuyLink search="icaridin insect repellent canada">Icaridin repellent on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="icaridin insect repellent canada">Icaridin repellent on Amazon.ca →</BuyLink>
           </li>
           <li>Wear light-coloured clothing — ticks are easier to spot on pale fabric</li>
           <li>Tuck pants into socks in long grass or wooded areas</li>
           <li>Permethrin-treated clothing provides excellent protection for people who spend a lot of time outdoors — permethrin gaiters cover the ankle-to-knee zone where most ticks latch on.{' '}
-            <BuyLink search="insectguard permethrin gaiters">Permethrin gaiters on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="insectguard permethrin gaiters">Permethrin gaiters on Amazon.ca →</BuyLink>
           </li>
         </ul>
         <p>

@@ -8,6 +8,7 @@ import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { TICK_BLOGS } from '@/lib/constants'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const POST = TICK_BLOGS.supporting[1]
 const UPDATED = '2026-07-12'
@@ -30,6 +31,8 @@ const FAQS = [
   { question: 'What is the lone star tick and how do I identify it?', answer: 'The lone star tick (Amblyomma americanum) is reddish-brown, and adult females have a single bright white or silver dot — the "lone star" — in the centre of the back. It is an emerging species in southwestern Ontario and is still rare in the GTA. It does not transmit Lyme disease but is associated with alpha-gal syndrome (a red-meat allergy) and ehrlichiosis.' },
   { question: 'What tool should I use to remove a tick?', answer: 'Use fine-tipped tweezers or a purpose-built tick-removal tool (a Tick Twister-style hook or a tick key). Grasp the tick at the head, as close to the skin as possible, and pull straight up with steady, even pressure — do not twist, squeeze the body, or use heat, petroleum jelly, or nail polish. A dedicated tool slides under the head and gives the cleanest pull, which matters because a feeding nymph can be smaller than a sesame seed. Our tick-removal tool guide compares the options.' },
 ]
+
+const AMZ_TAG = tagForSlug('what-ticks-look-like-ontario')
 
 export default function WhatTicksLookLikePage() {
   return (
@@ -185,8 +188,8 @@ export default function WhatTicksLookLikePage() {
 
         <h2>Found a Tick? Have the Right Removal Tool Ready</h2>
         <AffiliateDisclosure />
-        <p>Because a feeding tick can be smaller than a sesame seed, a purpose-built removal tool that slides under the head gives a far cleaner pull than fingers. Fine-tipped tweezers, Tick Twister-style hooks, and tick keys all work — keep one in your first-aid kit and one in your car. <BuyLink search="tick removal tool tweezers">Check tick-removal tools on Amazon.ca &rarr;</BuyLink></p>
-        <TopPick
+        <p>Because a feeding tick can be smaller than a sesame seed, a purpose-built removal tool that slides under the head gives a far cleaner pull than fingers. Fine-tipped tweezers, Tick Twister-style hooks, and tick keys all work — keep one in your first-aid kit and one in your car. <BuyLink tag={AMZ_TAG} search="tick removal tool tweezers">Check tick-removal tools on Amazon.ca &rarr;</BuyLink></p>
+        <TopPick tag={AMZ_TAG}
           label="Our Top Pick"
           name="Tick Twister-style removal hook set"
           blurb="A curved hook slides under the tick's head and lifts it out with a gentle twist — no squeezing the body, which is what pushes pathogens back into the bite. The best keep-in-your-kit tool for the sesame-seed-sized adults and near-invisible nymphs this guide describes."

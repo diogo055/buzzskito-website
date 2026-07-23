@@ -7,6 +7,7 @@ import TopPick from '@/components/TopPick'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'june-bugs-ontario'
 const DATE = '2026-07-12'
@@ -56,6 +57,8 @@ export const metadata: Metadata = buildMetadata({
   publishedTime: DATE,
   modifiedTime: UPDATED,
 })
+
+const AMZ_TAG = tagForSlug('june-bugs-ontario')
 
 export default function JuneBugsOntarioPage() {
   return (
@@ -191,7 +194,7 @@ export default function JuneBugsOntarioPage() {
             <li><strong>Keep the lawn thick and deep-rooted.</strong> Mow high (7–8 cm), water deeply but infrequently to encourage deep roots, and overseed thin areas. Dense turf tolerates a modest grub population without showing damage, and a robust root system recovers faster.</li>
             <li><strong>Time your watering.</strong> Since females prefer moist soil for egg-laying, letting an established lawn dry slightly during the peak June egg-laying window can reduce how many eggs survive — without starving the grass.</li>
           </ul>
-          <TopPick
+          <TopPick tag={AMZ_TAG}
             label="Best Grub Fix"
             name="Beneficial Nematodes (Heterorhabditis bacteriophora)"
             blurb="For the stage that actually matters — the white grubs under your lawn — live beneficial nematodes are the homeowner's most effective legal tool in Ontario. Applied to moist soil on an overcast late-summer evening and watered in, they hunt down and kill grubs before they become next year's beetles."
@@ -208,7 +211,7 @@ export default function JuneBugsOntarioPage() {
             <li><strong>Change your lights.</strong> Warm-yellow LED &ldquo;bug lights&rdquo; and motion-sensor fixtures cut the swarm dramatically because June bugs orient to bright, cool-white light.</li>
             <li><strong>Draw the blinds</strong> on lit windows during peak weeks so interior light doesn&rsquo;t leak out.</li>
             <li><strong>Hand-pick in the evening.</strong> Knocking beetles off plants into a bucket of soapy water is oddly effective for small yards and protects foliage.</li>
-            <li><strong>Trap at the property edge, not the middle.</strong> If you use a June bug or Japanese beetle trap, place it far from the plants you want to protect — lures can pull in more beetles than they catch. <BuyLink search="june bug beetle trap">Check June bug trap prices on Amazon.ca →</BuyLink></li>
+            <li><strong>Trap at the property edge, not the middle.</strong> If you use a June bug or Japanese beetle trap, place it far from the plants you want to protect — lures can pull in more beetles than they catch. <BuyLink tag={AMZ_TAG} search="june bug beetle trap">Check June bug trap prices on Amazon.ca →</BuyLink></li>
             <li><strong>Fix the lawn.</strong> Everything above about grub control is your long game — fewer grubs this year means fewer beetles next year.</li>
           </ol>
           <p>And if the beetles at the light are the least of your outdoor-pest worries, the same yard habits that harbour grubs — moisture, shade, and dense edge vegetation — are exactly where mosquitoes and ticks thrive too. A <Link href="/mosquito-control">professional barrier spray program</Link> targets those zones for the pests that actually bite, and pairs well with the lawn care that keeps June bug grubs down. See also our guide to <Link href="/blog/how-to-get-rid-of-mosquitoes-in-yard-ontario">getting rid of mosquitoes in an Ontario yard</Link>.</p>

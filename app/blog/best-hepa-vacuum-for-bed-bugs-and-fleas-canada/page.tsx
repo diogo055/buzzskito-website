@@ -8,6 +8,7 @@ import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'best-hepa-vacuum-for-bed-bugs-and-fleas-canada'
 const DATE = '2026-07-21'
@@ -71,6 +72,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('best-hepa-vacuum-for-bed-bugs-and-fleas-canada')
+
 export default function BestHepaVacuumBedBugsFleasCanadaPage() {
   return (
     <>
@@ -92,7 +95,7 @@ export default function BestHepaVacuumBedBugsFleasCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="Sealed-HEPA bagged canister vacuum" search="sealed hepa bagged canister vacuum" label="Best overall" />
+      <StickyBuyBar tag={AMZ_TAG} name="Sealed-HEPA bagged canister vacuum" search="sealed hepa bagged canister vacuum" label="Best overall" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -115,7 +118,7 @@ export default function BestHepaVacuumBedBugsFleasCanadaPage() {
 
       <section className="bg-white px-4 py-6">
         <div className="max-w-5xl mx-auto">
-          <AwardRow
+          <AwardRow tag={AMZ_TAG}
             heading="Our Picks — Best Sealed-HEPA Vacuums for Bed Bugs & Fleas in Canada"
             awards={[
               {
@@ -189,28 +192,28 @@ export default function BestHepaVacuumBedBugsFleasCanadaPage() {
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best</strong> &mdash; fully sealed body, seal-and-bin bag</td>
                   <td className="px-4 py-3 text-gray-700">Whole job: seams, edges, carpet, safe disposal</td>
                   <td className="px-4 py-3 text-gray-700">Premium price; hose to manage</td>
-                  <td className="px-4 py-3"><BuyLink search="miele canister vacuum sealed hepa bagged" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="miele canister vacuum sealed hepa bagged" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Whole-machine-HEPA stick<br /><span className="font-normal text-xs text-gray-500">cordless, bagless</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Good</strong> &mdash; sealed airflow, but empty outdoors</td>
                   <td className="px-4 py-3 text-gray-700">Effortless daily bed &amp; baseboard passes</td>
                   <td className="px-4 py-3 text-gray-700">Bagless disposal; limited runtime</td>
-                  <td className="px-4 py-3"><BuyLink search="dyson cordless vacuum hepa" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="dyson cordless vacuum hepa" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Corded HEPA handheld<br /><span className="font-normal text-xs text-gray-500">detail tool</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Good</strong> &mdash; contained dust, constant suction</td>
                   <td className="px-4 py-3 text-gray-700">Fine seam, piping, and bolt-hole work</td>
                   <td className="px-4 py-3 text-gray-700">Small capacity; not for floors</td>
-                  <td className="px-4 py-3"><BuyLink search="corded handheld hepa vacuum" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="corded handheld hepa vacuum" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Budget bagged canister<br /><span className="font-normal text-xs text-gray-500">value</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Fair</strong> &mdash; bag helps, body may leak</td>
                   <td className="px-4 py-3 text-gray-700">One-time or minor problem on a budget</td>
                   <td className="px-4 py-3 text-gray-700">Not fully sealed; weaker suction</td>
-                  <td className="px-4 py-3"><BuyLink search="bagged hepa canister vacuum" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bagged hepa canister vacuum" block>Check price →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -237,10 +240,10 @@ export default function BestHepaVacuumBedBugsFleasCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the four picks:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="miele canister vacuum sealed hepa bagged">Sealed-HEPA canister →</BuyLink>
-            <BuyLink search="dyson cordless vacuum hepa">Cordless HEPA stick →</BuyLink>
-            <BuyLink search="corded handheld hepa vacuum">HEPA handheld →</BuyLink>
-            <BuyLink search="bagged hepa canister vacuum">Budget bagged canister →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="miele canister vacuum sealed hepa bagged">Sealed-HEPA canister →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="dyson cordless vacuum hepa">Cordless HEPA stick →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="corded handheld hepa vacuum">HEPA handheld →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="bagged hepa canister vacuum">Budget bagged canister →</BuyLink>
           </div>
 
           <h2>Why &ldquo;Sealed HEPA&rdquo; Matters More Than the Filter Grade</h2>

@@ -8,6 +8,7 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'mosquito-repellent-for-dogs-canada'
 const DATE = '2026-07-12'
@@ -55,6 +56,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('mosquito-repellent-for-dogs-canada')
+
 export default function MosquitoRepellentForDogsCanadaPage() {
   return (
     <>
@@ -76,7 +79,7 @@ export default function MosquitoRepellentForDogsCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="K9 Advantix II (dog-safe mosquito + tick spot-on)" search="k9 advantix ii dogs" label="Best for dog-only homes" />
+      <StickyBuyBar tag={AMZ_TAG} name="K9 Advantix II (dog-safe mosquito + tick spot-on)" search="k9 advantix ii dogs" label="Best for dog-only homes" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -98,7 +101,7 @@ export default function MosquitoRepellentForDogsCanadaPage() {
 
       <section className="bg-white px-4 py-6">
         <div className="max-w-5xl mx-auto">
-          <AwardRow
+          <AwardRow tag={AMZ_TAG}
             heading="Our Picks — Dog-Safe Mosquito Repellents in Canada"
             awards={[
               {
@@ -171,31 +174,31 @@ export default function MosquitoRepellentForDogsCanadaPage() {
                     <td className="px-4 py-3 font-bold text-brand-800">K9 Advantix II <span className="font-normal text-xs text-rose-600">(dogs only)</span></td>
                     <td className="px-4 py-3 text-gray-700">Permethrin spot-on · repels mosquitoes, ticks, fleas</td>
                     <td className="px-4 py-3 font-mono text-gray-800">$55 – $95 / 4-pack</td>
-                    <td className="px-4 py-3"><BuyLink search="k9 advantix ii dogs" block>Check price →</BuyLink></td>
+                    <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="k9 advantix ii dogs" block>Check price →</BuyLink></td>
                   </tr>
                   <tr className="border-b border-navy-50">
                     <td className="px-4 py-3 font-bold text-brand-800">Vectra 3D <span className="font-normal text-xs text-rose-600">(dogs only)</span></td>
                     <td className="px-4 py-3 text-gray-700">Permethrin spot-on · repels mosquitoes + biting flies</td>
                     <td className="px-4 py-3 font-mono text-gray-800">$60 – $110 / 3-pack</td>
-                    <td className="px-4 py-3"><BuyLink search="vectra 3d dog" block>Check price →</BuyLink></td>
+                    <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="vectra 3d dog" block>Check price →</BuyLink></td>
                   </tr>
                   <tr className="border-b border-navy-50">
                     <td className="px-4 py-3 font-bold text-brand-800">Wondercide <span className="font-normal text-xs text-emerald-700">(cat-home safe)</span></td>
                     <td className="px-4 py-3 text-gray-700">Cedarwood / lemongrass spray · natural topical</td>
                     <td className="px-4 py-3 font-mono text-gray-800">$25 – $40</td>
-                    <td className="px-4 py-3"><BuyLink search="wondercide flea tick mosquito spray" block>Check price →</BuyLink></td>
+                    <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="wondercide flea tick mosquito spray" block>Check price →</BuyLink></td>
                   </tr>
                   <tr className="border-b border-navy-50">
                     <td className="px-4 py-3 font-bold text-brand-800">Vet&rsquo;s Best <span className="font-normal text-xs text-emerald-700">(cat-home safe)</span></td>
                     <td className="px-4 py-3 text-gray-700">Peppermint / clove spray · natural topical</td>
                     <td className="px-4 py-3 font-mono text-gray-800">$15 – $25</td>
-                    <td className="px-4 py-3"><BuyLink search="vets best flea tick dog spray" block>Check price →</BuyLink></td>
+                    <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="vets best flea tick dog spray" block>Check price →</BuyLink></td>
                   </tr>
                   <tr className="border-b border-navy-50">
                     <td className="px-4 py-3 font-bold text-brand-800">Cedarcide <span className="font-normal text-xs text-emerald-700">(cat-home safe)</span></td>
                     <td className="px-4 py-3 text-gray-700">Cedar oil spray · natural topical + yard use</td>
                     <td className="px-4 py-3 font-mono text-gray-800">$30 – $50</td>
-                    <td className="px-4 py-3"><BuyLink search="cedarcide dog spray" block>Check price →</BuyLink></td>
+                    <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="cedarcide dog spray" block>Check price →</BuyLink></td>
                   </tr>
                   <tr>
                     <td className="px-4 py-3 font-bold text-brand-800">Heartgard / NexGard <span className="font-normal text-xs text-gray-500">(Rx)</span></td>
@@ -253,8 +256,8 @@ export default function MosquitoRepellentForDogsCanadaPage() {
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
           <p className="not-prose text-sm text-gray-600 mb-1">Compare current Canadian prices on the dog-safe options mentioned below:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="k9 advantix ii dogs">K9 Advantix II price →</BuyLink>
-            <BuyLink search="wondercide flea tick mosquito dog">Wondercide spray →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="k9 advantix ii dogs">K9 Advantix II price →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="wondercide flea tick mosquito dog">Wondercide spray →</BuyLink>
           </div>
 
           <p><em>This guide is general information, not veterinary advice. Every dog is different — talk to your veterinarian before starting any new repellent or preventive, especially for puppies, seniors, pregnant or nursing dogs, or dogs with health conditions.</em></p>
@@ -296,13 +299,13 @@ export default function MosquitoRepellentForDogsCanadaPage() {
               <tr><th className="px-3 py-2 text-left">Option</th><th className="px-3 py-2 text-left">Best for</th><th className="px-3 py-2 text-left">Watch-outs</th><th className="px-3 py-2 text-left">Price check</th></tr>
             </thead>
             <tbody>
-              <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>K9 Advantix II</strong> / Vectra 3D</td><td className="px-3 py-2">Strong, long-lasting mosquito + tick repellency</td><td className="px-3 py-2">Dogs only · never around cats</td><td className="px-3 py-2"><BuyLink search="k9 advantix ii dogs" block>Check price →</BuyLink></td></tr>
-              <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Wondercide</strong> (cedar/lemongrass)</td><td className="px-3 py-2">Cat-home households · sensitive dogs</td><td className="px-3 py-2">Reapply ~every 2 hours</td><td className="px-3 py-2"><BuyLink search="wondercide flea tick mosquito spray" block>Check price →</BuyLink></td></tr>
-              <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Vet&rsquo;s Best</strong> / Cedarcide</td><td className="px-3 py-2">Budget natural top-up before walks</td><td className="px-3 py-2">Shorter-lived · avoid eyes</td><td className="px-3 py-2"><BuyLink search="vets best flea tick dog spray" block>Check price →</BuyLink></td></tr>
+              <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>K9 Advantix II</strong> / Vectra 3D</td><td className="px-3 py-2">Strong, long-lasting mosquito + tick repellency</td><td className="px-3 py-2">Dogs only · never around cats</td><td className="px-3 py-2"><BuyLink tag={AMZ_TAG} search="k9 advantix ii dogs" block>Check price →</BuyLink></td></tr>
+              <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Wondercide</strong> (cedar/lemongrass)</td><td className="px-3 py-2">Cat-home households · sensitive dogs</td><td className="px-3 py-2">Reapply ~every 2 hours</td><td className="px-3 py-2"><BuyLink tag={AMZ_TAG} search="wondercide flea tick mosquito spray" block>Check price →</BuyLink></td></tr>
+              <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Vet&rsquo;s Best</strong> / Cedarcide</td><td className="px-3 py-2">Budget natural top-up before walks</td><td className="px-3 py-2">Shorter-lived · avoid eyes</td><td className="px-3 py-2"><BuyLink tag={AMZ_TAG} search="vets best flea tick dog spray" block>Check price →</BuyLink></td></tr>
               <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Heartgard / NexGard</strong> (Rx)</td><td className="px-3 py-2">Heartworm prevention — every dog, all season</td><td className="px-3 py-2">Not a repellent · vet prescription</td><td className="px-3 py-2">Veterinarian only</td></tr>
             </tbody>
           </table>
-          <p className="not-prose text-sm text-gray-600 mb-6">Whichever spray you pick, apply to the coat (avoiding eyes, nose, and mouth), reapply before dawn/dusk outings, and store out of a curious dog&rsquo;s reach. <BuyLink search="wondercide flea tick mosquito dog">Compare natural spray prices →</BuyLink></p>
+          <p className="not-prose text-sm text-gray-600 mb-6">Whichever spray you pick, apply to the coat (avoiding eyes, nose, and mouth), reapply before dawn/dusk outings, and store out of a curious dog&rsquo;s reach. <BuyLink tag={AMZ_TAG} search="wondercide flea tick mosquito dog">Compare natural spray prices →</BuyLink></p>
 
           <h2>When to Use Which</h2>
           <ul>

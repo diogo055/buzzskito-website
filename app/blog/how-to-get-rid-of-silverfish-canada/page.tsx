@@ -8,6 +8,7 @@ import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'how-to-get-rid-of-silverfish-canada'
 const DATE = '2026-07-21'
@@ -75,6 +76,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('how-to-get-rid-of-silverfish-canada')
+
 export default function HowToGetRidOfSilverfishCanadaPage() {
   return (
     <>
@@ -96,7 +99,7 @@ export default function HowToGetRidOfSilverfishCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="Energy Star 50-pint basement dehumidifier" search="50 pint dehumidifier basement energy star" label="Best overall" />
+      <StickyBuyBar tag={AMZ_TAG} name="Energy Star 50-pint basement dehumidifier" search="50 pint dehumidifier basement energy star" label="Best overall" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -119,7 +122,7 @@ export default function HowToGetRidOfSilverfishCanadaPage() {
 
       <section className="bg-white px-4 py-6">
         <div className="max-w-5xl mx-auto">
-          <AwardRow
+          <AwardRow tag={AMZ_TAG}
             heading="Our Picks — The Silverfish Elimination Kit"
             awards={[
               {
@@ -262,9 +265,9 @@ export default function HowToGetRidOfSilverfishCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the kit:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="50 pint dehumidifier basement energy star">50-pint dehumidifier →</BuyLink>
-            <BuyLink search="silverfish sticky traps insect glue boards">Glue board traps →</BuyLink>
-            <BuyLink search="diatomaceous earth insect duster">DE + duster →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="50 pint dehumidifier basement energy star">50-pint dehumidifier →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="silverfish sticky traps insect glue boards">Glue board traps →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="diatomaceous earth insect duster">DE + duster →</BuyLink>
           </div>
 
           <h2>Why Canadian Basements Are Silverfish Factories</h2>
@@ -276,14 +279,14 @@ export default function HowToGetRidOfSilverfishCanadaPage() {
           <p>Sizing and setup, briefly. For a typical Canadian basement, a 50-pint (Energy Star rated) unit is the sweet spot &mdash; smaller 30-pint units are for single rooms, and undersized machines run constantly without ever hitting target. Place it centrally, away from walls, with the humidistat set to 45&ndash;50%; lower buys nothing extra against silverfish and costs more to run. The quality-of-life upgrade that decides whether the machine actually runs all season: a continuous-drain hose to a floor drain, so you are not emptying a bucket every day during the August humidity peak. Verify with a separate inexpensive hygrometer placed across the room &mdash; the machine&rsquo;s own reading is taken at its intake and flatters it. Expect the trap-line catch (step 2) to fall noticeably within four to six weeks of sustained 45&ndash;50% air, and remember the same range is what Health Canada suggests for keeping mould and dust mites in check, so the machine is doing double duty every hour it runs.</p>
           <p>Two supporting moves in the same spirit, both free: run the bathroom exhaust fan during and for twenty minutes after every shower (silverfish in an upstairs bathroom are almost always a ventilation problem, not a basement problem), and fix the slow drips &mdash; a weeping sink trap or sweating cold-water pipe creates a permanent humid pocket no room-level dehumidifier fully drains.</p>
           <div className="not-prose my-4">
-            <BuyLink search="50 pint dehumidifier basement energy star">Check 50-pint dehumidifiers on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="50 pint dehumidifier basement energy star">Check 50-pint dehumidifiers on Amazon.ca →</BuyLink>
           </div>
 
           <h2>Step 2 — Sticky Traps: Your Scoreboard, Not Your Strategy</h2>
           <p>Glue boards catch silverfish well &mdash; silverfish run wall edges at night like little commuters, and a flat board tight against the baseboard sits directly in traffic. But their real job is intelligence. Lay a numbered line of boards: basement storage corners, under the laundry sink, behind the toilet, along the furnace-room wall (checking for firebrats), and inside any closet where you have seen one. Check weekly and keep a tally.</p>
           <p>That tally answers the three questions that actually matter. <em>Where is the population?</em> The hot boards tell you which room gets the DE treatment and the storage overhaul. <em>Is the plan working?</em> The catch curve should bend down within a month of the dehumidifier holding target &mdash; if it does not, find the humid pocket you missed. <em>Are you done?</em> Four consecutive weeks of empty boards is a defensible all-clear. What traps will not do is eliminate the infestation alone: the breeding core lives in voids the boards cannot reach, and a trap line without moisture control is a subscription, not a solution.</p>
           <div className="not-prose my-4">
-            <BuyLink search="silverfish sticky traps insect glue boards">Check glue board multi-packs on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="silverfish sticky traps insect glue boards">Check glue board multi-packs on Amazon.ca →</BuyLink>
           </div>
 
           <h2>Step 3 — Diatomaceous Earth: The Crack-and-Crevice Kill</h2>
@@ -291,7 +294,7 @@ export default function HowToGetRidOfSilverfishCanadaPage() {
           <p>Application technique decides everything. Use a hand duster to lay a <em>thin, barely visible film</em> &mdash; insects detect and walk around visible piles &mdash; along baseboard cracks, into the gap under the sill plate, behind and under appliances, inside the voids where plumbing enters walls, and across the shelf-to-wall gaps in storage rooms. The catch in a silverfish context is obvious once said aloud: DE only works dry, and silverfish live in damp places. The sequencing fix: let the dehumidifier dry the room first, then dust; and in the meantime, apply only in sheltered dry spots (inside wall voids, under cabinet kick plates) rather than open damp floor.</p>
           <p>One Canadian compliance note before you buy. When DE is sold as an insecticide in Canada, it is a registered pesticide &mdash; the label should carry a PCP (Pest Control Products) registration number, and that label&rsquo;s directions are what govern indoor use. &ldquo;Food-grade&rdquo; DE sold as a feed additive is a different product category without pest-use directions. Check the label for a PCP number rather than taking a listing&rsquo;s word for it. We cover the product-picking details, the food-grade vs pool-grade distinction (pool-grade is genuinely hazardous to breathe &mdash; never use it), and full room-by-room technique in our dedicated <Link href="/blog/diatomaceous-earth-canada-buyers-guide">diatomaceous earth buyer&rsquo;s guide for Canada</Link>.</p>
           <div className="not-prose my-4">
-            <BuyLink search="diatomaceous earth insect duster">Check DE + duster kits on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="diatomaceous earth insect duster">Check DE + duster kits on Amazon.ca →</BuyLink>
           </div>
 
           <h2>The Dekko Question: America&rsquo;s Favourite Silverfish Fix, and the Canadian Catch</h2>
@@ -306,7 +309,7 @@ export default function HowToGetRidOfSilverfishCanadaPage() {
           <h2>Step 5 — Seal the Doors and Gaps</h2>
           <p>Silverfish arrive from outside more often than people assume &mdash; under exterior doors, through weep gaps, along the sill plate, and beside plumbing and cable penetrations &mdash; and once inside they commute between floors along the same runs. An afternoon with a caulk gun and a couple of door sweeps closes the highways: silicone caulk on foundation-level cracks and utility penetrations, sweeps on exterior and garage-entry doors, and weatherstripping where daylight shows around frames. In a Canadian house every one of those seals is also a heat-loss fix, which makes this the rare pest-control task with a payback in dollars regardless of insects. The same exclusion pass does double duty against the fall home-invader crowd &mdash; the technique overlaps almost completely with what we recommend for <Link href="/blog/how-to-keep-spiders-out-of-your-house">keeping spiders out</Link> and dealing with <Link href="/blog/how-to-get-rid-of-cluster-flies-canada">cluster flies</Link>, both of which exploit the identical gaps every October.</p>
           <div className="not-prose my-4">
-            <BuyLink search="door sweep silicone caulk gap sealant">Check door sweeps and sealant on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="door sweep silicone caulk gap sealant">Check door sweeps and sealant on Amazon.ca →</BuyLink>
           </div>
 
           <h2>When to Call a Professional Instead</h2>

@@ -7,6 +7,7 @@ import TopPick from '@/components/TopPick'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'lyme-disease-symptoms-guide'
 const DATE = '2026-07-13'
@@ -64,6 +65,8 @@ export const metadata: Metadata = buildMetadata({
   publishedTime: DATE,
   modifiedTime: UPDATED,
 })
+
+const AMZ_TAG = tagForSlug('lyme-disease-symptoms-guide')
 
 export default function LymeDiseaseSymptomsGuidePage() {
   return (
@@ -220,11 +223,11 @@ export default function LymeDiseaseSymptomsGuidePage() {
           <aside aria-label="If you find a tick" className="not-prose my-8 rounded-2xl border-2 border-emerald-300 bg-gradient-to-br from-emerald-50 to-white p-6 sm:p-7 shadow-sm">
             <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">If you find an attached tick</h3>
             <p className="text-sm text-gray-700 mb-3 leading-relaxed">Grasp it with fine-tipped tweezers as close to the skin as possible and pull straight up with steady, even pressure — no twisting, squeezing, or burning. Clean the bite, wash your hands, and note the date so you can watch for symptoms over the next 30 days. A dedicated tick-removal tool makes it far easier to grip the head cleanly.</p>
-            <BuyLink search="tick removal tool tweezers">Check tick-removal tools on Amazon →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="tick removal tool tweezers">Check tick-removal tools on Amazon →</BuyLink>
             <p className="text-xs text-gray-500 mt-3">Removal steps per the CDC. See our step-by-step guide to <Link href="/blog/how-to-remove-tick-safely" className="underline hover:text-brand-700">removing a tick safely</Link>, what to do if the <Link href="/blog/tick-head-stuck-in-skin" className="underline hover:text-brand-700">tick&rsquo;s head stays stuck in the skin</Link>, and the full <Link href="/blog/tick-bite-symptoms-what-to-do-ontario" className="underline hover:text-brand-700">what-to-do-after-a-tick-bite</Link> walkthrough.</p>
           </aside>
 
-          <TopPick
+          <TopPick tag={AMZ_TAG}
             label="Our Top Pick — Tick Remover"
             name="Fine-Tipped Tick Removal Tool Set"
             blurb="Because fast, clean removal is one of the best ways to lower Lyme risk, a dedicated tick-removal tool belongs in every household and dog-walking kit. A slim, fine-tipped tool grips the tick right at the skin so you can pull straight up without crushing the body — far more reliable than pinching with fingers or all-purpose tweezers."

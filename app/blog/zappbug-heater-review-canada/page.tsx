@@ -8,6 +8,7 @@ import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'zappbug-heater-review-canada'
 const DATE = '2026-07-21'
@@ -75,6 +76,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('zappbug-heater-review-canada')
+
 export default function ZappBugHeaterReviewCanadaPage() {
   return (
     <>
@@ -96,7 +99,7 @@ export default function ZappBugHeaterReviewCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="ZappBug Heater bed bug heat chamber" search="zappbug heater bed bug" label="Our verdict: 8.6/10" />
+      <StickyBuyBar tag={AMZ_TAG} name="ZappBug Heater bed bug heat chamber" search="zappbug heater bed bug" label="Our verdict: 8.6/10" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -119,7 +122,7 @@ export default function ZappBugHeaterReviewCanadaPage() {
 
       <section className="bg-white px-4 py-2">
         <div className="max-w-4xl mx-auto">
-          <TopPick
+          <TopPick tag={AMZ_TAG}
             label="Our Verdict"
             name="ZappBug Heater — portable bed bug heat chamber"
             blurb="A wire-frame chamber that pops up like a camping tent, runs a single 1500-watt heater off a standard household outlet, and takes your infested belongings above the temperature at which no bed bug life stage survives. The wireless thermometer — probe buried in your densest item — is the feature that separates it from improvised alternatives: you stop the cycle on evidence, not hope. Mid-hundreds Canadian pricing puts it well below one professional visit."
@@ -156,21 +159,21 @@ export default function ZappBugHeaterReviewCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Belongings: luggage, bedding, clothes, shoes, books, most electronics</td>
                   <td className="px-4 py-3 text-gray-700">Mid-hundreds, one-time</td>
                   <td className="px-4 py-3 text-xs text-gray-600">Best capacity-to-price-to-outlet-demand balance; the thermometer probe verifies every kill</td>
-                  <td className="px-4 py-3"><BuyLink search="zappbug heater bed bug" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="zappbug heater bed bug" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">ZappBug Room<br /><span className="font-normal text-xs text-gray-500">Big sibling</span></td>
                   <td className="px-4 py-3 text-gray-700">Mattresses, box springs, couches, dressers — near-room-scale items</td>
                   <td className="px-4 py-3 text-gray-700">Premium — four figures</td>
                   <td className="px-4 py-3 text-xs text-gray-600">Genuinely capable, but needs multiple heater units on separate circuits; for landlords and repeat situations</td>
-                  <td className="px-4 py-3"><BuyLink search="zappbug room bed bug heater" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="zappbug room bed bug heater" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">ThermalStrike Ranger<br /><span className="font-normal text-xs text-gray-500">Closest rival</span></td>
                   <td className="px-4 py-3 text-gray-700">Luggage and smaller belongings loads</td>
                   <td className="px-4 py-3 text-gray-700">Similar bracket to the Heater</td>
                   <td className="px-4 py-3 text-xs text-gray-600">Folding-panel design heats from all six sides; smaller interior — the sensible fallback if ZappBug stock lapses</td>
-                  <td className="px-4 py-3"><BuyLink search="thermalstrike bed bug heater" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="thermalstrike bed bug heater" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Renting a room heater</td>
@@ -238,8 +241,8 @@ export default function ZappBugHeaterReviewCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="zappbug heater bed bug">ZappBug Heater on Amazon.ca →</BuyLink>
-            <BuyLink search="thermalstrike bed bug heater">ThermalStrike Ranger (fallback) →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="zappbug heater bed bug">ZappBug Heater on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="thermalstrike bed bug heater">ThermalStrike Ranger (fallback) →</BuyLink>
           </div>
 
           <h2>Setup: Genuinely a One-Person, Five-Minute Job</h2>
@@ -260,7 +263,7 @@ export default function ZappBugHeaterReviewCanadaPage() {
           <p>Electronics deserve their own paragraph because they are both a classic harbourage and the item people are most afraid to treat. The good news: most consumer electronics carry manufacturer <em>storage</em> temperature ratings of 60°C or higher — comfortably above the 49–50°C a chamber cycle reaches. A powered-off laptop, phone, console, or router generally comes through a cycle unharmed, and treating them matters because bed bugs love the warm, dark seams of electronics. The rules: device off, check the manufacturer&rsquo;s storage spec first, and never run a cycle with a device powered on.</p>
           <p>The hard exclusion list is about everything else: aerosol cans, lighters, and loose batteries (pressure and fire risk); candles, crayons, cosmetics, and chocolate (melt); medications (most degrade above room temperature); vinyl records, cassettes, and photographs (warp); and glued or finished musical instruments (delamination). For irreplaceable delicates, the alternative is isolation — sealed in a bag for several months until anything inside has starved — rather than heat.</p>
           <div className="not-prose my-4">
-            <BuyLink search="zappbug heater bed bug">Check ZappBug Heater on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="zappbug heater bed bug">Check ZappBug Heater on Amazon.ca →</BuyLink>
           </div>
 
           <h2>ZappBug Heater vs Renting a Heater vs Paying a Pro</h2>

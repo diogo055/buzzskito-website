@@ -8,6 +8,7 @@ import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'best-bed-bug-spray-for-mattress-canada'
 const DATE = '2026-07-21'
@@ -75,6 +76,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('best-bed-bug-spray-for-mattress-canada')
+
 export default function BestBedBugSprayForMattressCanadaPage() {
   return (
     <>
@@ -96,7 +99,7 @@ export default function BestBedBugSprayForMattressCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="EcoRaider Bed Bug Killer Spray (plant-based, mattress-safe)" search="ecoraider bed bug killer spray" label="Best overall" />
+      <StickyBuyBar tag={AMZ_TAG} name="EcoRaider Bed Bug Killer Spray (plant-based, mattress-safe)" search="ecoraider bed bug killer spray" label="Best overall" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -119,7 +122,7 @@ export default function BestBedBugSprayForMattressCanadaPage() {
 
       <section className="bg-white px-4 py-6">
         <div className="max-w-5xl mx-auto">
-          <AwardRow
+          <AwardRow tag={AMZ_TAG}
             heading="Our Picks — Best Mattress-Safe Bed Bug Sprays in Canada"
             awards={[
               {
@@ -193,28 +196,28 @@ export default function BestBedBugSprayForMattressCanadaPage() {
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Yes</strong> &mdash; low-odour, popular on seams</td>
                   <td className="px-4 py-3 text-gray-700">Fast knockdown of visible bugs and nymphs</td>
                   <td className="px-4 py-3 text-gray-700">Modest residual; re-treat on schedule</td>
-                  <td className="px-4 py-3"><BuyLink search="ecoraider bed bug killer spray" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="ecoraider bed bug killer spray" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Canadian mattress-labelled<br /><span className="font-normal text-xs text-gray-500">Doktor Doom Sleep Tight</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Yes</strong> &mdash; PMRA-registered for mattresses</td>
                   <td className="px-4 py-3 text-gray-700">No-guesswork mattress + furniture treatment</td>
                   <td className="px-4 py-3 text-gray-700">Respect the dry-time before re-making</td>
-                  <td className="px-4 py-3"><BuyLink search="doktor doom sleep tight bed bug spray" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="doktor doom sleep tight bed bug spray" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Residual (hard surfaces)<br /><span className="font-normal text-xs text-gray-500">Konk</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Frame/edges</strong> &mdash; check label for surface</td>
                   <td className="px-4 py-3 text-gray-700">Lasting kill on frame, box spring, baseboards</td>
                   <td className="px-4 py-3 text-gray-700">Heavier residue; not for the sleep surface</td>
-                  <td className="px-4 py-3"><BuyLink search="konk bed bug killer spray" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="konk bed bug killer spray" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Natural / essential-oil<br /><span className="font-normal text-xs text-gray-500">geraniol formulas</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Yes</strong> &mdash; lowest-tox near the bed</td>
                   <td className="px-4 py-3 text-gray-700">Low-tox contact kill for sensitive homes</td>
                   <td className="px-4 py-3 text-gray-700">Short residual; skip unregistered products</td>
-                  <td className="px-4 py-3"><BuyLink search="natural bed bug spray geraniol" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="natural bed bug spray geraniol" block>Check price →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -241,10 +244,10 @@ export default function BestBedBugSprayForMattressCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the mattress-safe picks:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="ecoraider bed bug killer spray">EcoRaider →</BuyLink>
-            <BuyLink search="doktor doom sleep tight bed bug spray">Doktor Doom Sleep Tight →</BuyLink>
-            <BuyLink search="konk bed bug killer spray">Konk (frame &amp; edges) →</BuyLink>
-            <BuyLink search="natural bed bug spray geraniol">Natural geraniol spray →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="ecoraider bed bug killer spray">EcoRaider →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="doktor doom sleep tight bed bug spray">Doktor Doom Sleep Tight →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="konk bed bug killer spray">Konk (frame &amp; edges) →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="natural bed bug spray geraniol">Natural geraniol spray →</BuyLink>
           </div>
 
           <h2>Why the PMRA Registration Number Is Non-Negotiable in Canada</h2>

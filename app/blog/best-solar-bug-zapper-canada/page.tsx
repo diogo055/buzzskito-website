@@ -8,6 +8,7 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'best-solar-bug-zapper-canada'
 const DATE = '2026-07-14'
@@ -66,6 +67,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('best-solar-bug-zapper-canada')
+
 export default function BestSolarBugZapperCanadaPage() {
   return (
     <>
@@ -87,7 +90,7 @@ export default function BestSolarBugZapperCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="4,500V dual-charge solar bug zapper (solar + USB-C)" search="solar bug zapper outdoor 4500V USB-C" label="Best all-round pick" />
+      <StickyBuyBar tag={AMZ_TAG} name="4,500V dual-charge solar bug zapper (solar + USB-C)" search="solar bug zapper outdoor 4500V USB-C" label="Best all-round pick" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -109,7 +112,7 @@ export default function BestSolarBugZapperCanadaPage() {
 
       <section className="bg-white px-4 py-6">
         <div className="max-w-5xl mx-auto">
-          <AwardRow
+          <AwardRow tag={AMZ_TAG}
             heading="Our Picks — Best Solar Bug Zappers in Canada"
             awards={[
               {
@@ -196,8 +199,8 @@ export default function BestSolarBugZapperCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Compare current models and Canadian availability:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="solar bug zapper outdoor">Check solar zappers on Amazon.ca →</BuyLink>
-            <BuyLink search="solar powered bug zapper lantern">Lantern-style zappers →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="solar bug zapper outdoor">Check solar zappers on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="solar powered bug zapper lantern">Lantern-style zappers →</BuyLink>
           </div>
 
           <h2>What a $30–60 Solar Zapper Actually Is</h2>
@@ -221,9 +224,9 @@ export default function BestSolarBugZapperCanadaPage() {
           </table>
 
           <div className="not-prose mb-8 flex flex-wrap gap-3">
-            <BuyLink search="PALONE solar bug zapper">PALONE-style 4,500V units →</BuyLink>
-            <BuyLink search="PIC solar bug zapper lantern">PIC flame lantern zapper →</BuyLink>
-            <BuyLink search="solar bug zapper stake lights garden">Stake-light multi-packs →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="PALONE solar bug zapper">PALONE-style 4,500V units →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="PIC solar bug zapper lantern">PIC flame lantern zapper →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="solar bug zapper stake lights garden">Stake-light multi-packs →</BuyLink>
           </div>
 
           <h3>What separates a good unit from a landfill unit</h3>
@@ -286,7 +289,7 @@ export default function BestSolarBugZapperCanadaPage() {
           <p>Just don&rsquo;t let the marketing photos sell you a mosquito solution. Zappers of every wattage kill the insects that annoy you, not the ones that bite you. For a GTA backyard you actually want to sit in from May to September, the working stack is BTI dunks in standing water, a repellent zone on the patio, and residual barrier spray on the vegetation — with the solar zapper glowing decoratively down by the fence, doing its modest, cordless best.</p>
 
           <div className="not-prose my-6 flex flex-wrap gap-3">
-            <BuyLink search="solar bug zapper outdoor 4500V USB-C">Shop 4,500V dual-charge zappers →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="solar bug zapper outdoor 4500V USB-C">Shop 4,500V dual-charge zappers →</BuyLink>
           </div>
 
           <h2>Related Reading</h2>

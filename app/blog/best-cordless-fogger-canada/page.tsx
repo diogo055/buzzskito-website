@@ -8,6 +8,7 @@ import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'best-cordless-fogger-canada'
 const DATE = '2026-07-21'
@@ -75,6 +76,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('best-cordless-fogger-canada')
+
 export default function BestCordlessFoggerCanadaPage() {
   return (
     <>
@@ -96,7 +99,7 @@ export default function BestCordlessFoggerCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="Battery-powered cordless ULV fogger" search="cordless battery ulv fogger" label="Best overall" />
+      <StickyBuyBar tag={AMZ_TAG} name="Battery-powered cordless ULV fogger" search="cordless battery ulv fogger" label="Best overall" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -119,7 +122,7 @@ export default function BestCordlessFoggerCanadaPage() {
 
       <section className="bg-white px-4 py-6">
         <div className="max-w-5xl mx-auto">
-          <AwardRow
+          <AwardRow tag={AMZ_TAG}
             heading="Our Picks — Best Cordless (Battery) Foggers in Canada"
             awards={[
               {
@@ -193,28 +196,28 @@ export default function BestCordlessFoggerCanadaPage() {
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Balanced</strong> &mdash; mid tank, integrated battery</td>
                   <td className="px-4 py-3 text-gray-700">Do-it-all: yard, garage, coop, crawlspace</td>
                   <td className="px-4 py-3 text-gray-700">Runtime capped by built-in battery</td>
-                  <td className="px-4 py-3"><BuyLink search="hudson cordless ulv fogger" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="hudson cordless ulv fogger" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Battery backpack (PetraTools-style)<br /><span className="font-normal text-xs text-gray-500">large capacity</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Longest</strong> &mdash; big tank, swappable pack</td>
                   <td className="px-4 py-3 text-gray-700">Acreage, barns, greenhouses, big floors</td>
                   <td className="px-4 py-3 text-gray-700">Heavy when full; higher cost</td>
-                  <td className="px-4 py-3"><BuyLink search="petratools battery backpack fogger" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="petratools battery backpack fogger" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Cordless handheld<br /><span className="font-normal text-xs text-gray-500">compact</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Short</strong> &mdash; small tank, small battery</td>
                   <td className="px-4 py-3 text-gray-700">Single room, vehicle, coop, small yard</td>
                   <td className="px-4 py-3 text-gray-700">Frequent refills on big jobs</td>
-                  <td className="px-4 py-3"><BuyLink search="cordless handheld ulv fogger" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="cordless handheld ulv fogger" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Entry battery fogger<br /><span className="font-normal text-xs text-gray-500">budget / disinfecting</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Modest</strong> &mdash; light-duty output</td>
                   <td className="px-4 py-3 text-gray-700">Occasional light disinfecting at home</td>
                   <td className="px-4 py-3 text-gray-700">Not for large or frequent work</td>
-                  <td className="px-4 py-3"><BuyLink search="rechargeable cordless disinfectant fogger" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="rechargeable cordless disinfectant fogger" block>Check price →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -241,10 +244,10 @@ export default function BestCordlessFoggerCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the four picks:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="hudson cordless ulv fogger">Cordless ULV (Hudson-style) →</BuyLink>
-            <BuyLink search="petratools battery backpack fogger">Battery backpack →</BuyLink>
-            <BuyLink search="cordless handheld ulv fogger">Cordless handheld →</BuyLink>
-            <BuyLink search="rechargeable cordless disinfectant fogger">Budget battery fogger →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="hudson cordless ulv fogger">Cordless ULV (Hudson-style) →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="petratools battery backpack fogger">Battery backpack →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="cordless handheld ulv fogger">Cordless handheld →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="rechargeable cordless disinfectant fogger">Budget battery fogger →</BuyLink>
           </div>
 
           <h2>ULV Cold vs Thermal: Why Cordless Almost Always Means ULV</h2>

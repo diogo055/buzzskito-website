@@ -8,6 +8,7 @@ import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'best-bed-bug-trap-canada'
 const DATE = '2026-07-21'
@@ -75,6 +76,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('best-bed-bug-trap-canada')
+
 export default function BestBedBugTrapCanadaPage() {
   return (
     <>
@@ -96,7 +99,7 @@ export default function BestBedBugTrapCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="Double-well bed bug interceptor cups (Aspectek / ClimbUp-style)" search="aspectek bed bug interceptor trap" label="Best overall" />
+      <StickyBuyBar tag={AMZ_TAG} name="Double-well bed bug interceptor cups (Aspectek / ClimbUp-style)" search="aspectek bed bug interceptor trap" label="Best overall" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -119,7 +122,7 @@ export default function BestBedBugTrapCanadaPage() {
 
       <section className="bg-white px-4 py-6">
         <div className="max-w-5xl mx-auto">
-          <AwardRow
+          <AwardRow tag={AMZ_TAG}
             heading="Our Picks — Best Bed Bug Traps in Canada"
             awards={[
               {
@@ -193,21 +196,21 @@ export default function BestBedBugTrapCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Sleeper is the lure; bug climbs the leg and falls into a slick moat</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best</strong> &mdash; occupied bed, direction data, low cost</td>
                   <td className="px-4 py-3 text-gray-700">Needs isolatable legs; keep bedding off the floor</td>
-                  <td className="px-4 py-3"><BuyLink search="climbup bed bug interceptor" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="climbup bed bug interceptor" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Active lure trap<br /><span className="font-normal text-xs text-gray-500">heat + CO₂ + attractant</span></td>
                   <td className="px-4 py-3 text-gray-700">Generates its own warmth, CO₂, and lure to draw bugs across a room</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Good</strong> &mdash; empty rooms, storage, post-treatment checks</td>
                   <td className="px-4 py-3 text-gray-700">Higher cost; needs power or lure/CO₂ refills</td>
-                  <td className="px-4 py-3"><BuyLink search="active bed bug monitor lure trap" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="active bed bug monitor lure trap" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Glue / adhesive monitor<br /><span className="font-normal text-xs text-gray-500">sticky boards, strips</span></td>
                   <td className="px-4 py-3 text-gray-700">Sticky surface catches bugs that happen to cross it</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Weak</strong> &mdash; crude presence check only</td>
                   <td className="px-4 py-3 text-gray-700">Bugs walk around glue; dust kills the tack fast</td>
-                  <td className="px-4 py-3"><BuyLink search="bed bug glue trap monitor" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bed bug glue trap monitor" block>Check price →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -234,9 +237,9 @@ export default function BestBedBugTrapCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the main trap types:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="climbup bed bug interceptor">Interceptor cups →</BuyLink>
-            <BuyLink search="aspectek bed bug interceptor 8 pack">Aspectek 8-pack →</BuyLink>
-            <BuyLink search="active bed bug monitor lure trap">Active lure trap →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="climbup bed bug interceptor">Interceptor cups →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="aspectek bed bug interceptor 8 pack">Aspectek 8-pack →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="active bed bug monitor lure trap">Active lure trap →</BuyLink>
           </div>
 
           <h2>How Passive Interceptors Work — and Why They Come First</h2>
@@ -247,8 +250,8 @@ export default function BestBedBugTrapCanadaPage() {
           <p>The ClimbUp Insect Interceptor is the research-standard cup, but it is not the only good option, and for outfitting a whole home the price per leg matters. <strong>Aspectek</strong> is one of the most widely stocked interceptor brands on amazon.ca, typically sold in 4- and 8-packs, and it is a sensible budget-to-mid choice built on the same double-well pitfall design. A one-bedroom monitoring setup needs six to eight cups &mdash; four under the bed, two to four under nearby seating &mdash; and a landlord or a whole-house setup can need twenty or more, so a multi-pack is the cost-effective route.</p>
           <p>Whatever brand you choose, three quality checks separate a working interceptor from a decorative one. First, the inner well must be genuinely glossy &mdash; run a finger around it, because any texture is an escape ladder. Second, the cup must sit dead flat on the floor, or a rocking gap lets bugs bypass it. Third, the plastic must be thick enough not to crack under a loaded bed leg. Aspectek and generic multi-packs pass these checks often enough to be worth the savings, but they are worth verifying on arrival rather than assuming.</p>
           <div className="not-prose my-4 flex flex-wrap gap-3">
-            <BuyLink search="aspectek bed bug interceptor 8 pack">Aspectek 8-pack on Amazon.ca →</BuyLink>
-            <BuyLink search="bed bug interceptor traps">Interceptor multi-packs →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="aspectek bed bug interceptor 8 pack">Aspectek 8-pack on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="bed bug interceptor traps">Interceptor multi-packs →</BuyLink>
           </div>
 
           <h2>Active Lure Traps: When the Bed Isn&rsquo;t the Answer</h2>

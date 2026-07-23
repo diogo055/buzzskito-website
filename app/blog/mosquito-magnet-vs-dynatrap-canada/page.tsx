@@ -7,6 +7,7 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import AuthorByline from '@/components/AuthorByline'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'mosquito-magnet-vs-dynatrap-canada'
 const DATE = '2026-07-21'
@@ -74,6 +75,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('mosquito-magnet-vs-dynatrap-canada')
+
 export default function MosquitoMagnetVsDynatrapCanadaPage() {
   return (
     <>
@@ -95,7 +98,7 @@ export default function MosquitoMagnetVsDynatrapCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="Mosquito Magnet (propane CO₂ trap)" search="mosquito magnet trap" label="Best for real mosquito reduction" />
+      <StickyBuyBar tag={AMZ_TAG} name="Mosquito Magnet (propane CO₂ trap)" search="mosquito magnet trap" label="Best for real mosquito reduction" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -174,8 +177,8 @@ export default function MosquitoMagnetVsDynatrapCanadaPage() {
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Price check</td>
-                  <td className="px-4 py-3"><BuyLink search="mosquito magnet trap" block>Check price →</BuyLink></td>
-                  <td className="px-4 py-3"><BuyLink search="dynatrap dt2000xl" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="mosquito magnet trap" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="dynatrap dt2000xl" block>Check price →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -230,8 +233,8 @@ export default function MosquitoMagnetVsDynatrapCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian pricing on both traps:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="mosquito magnet trap">Mosquito Magnet on Amazon.ca →</BuyLink>
-            <BuyLink search="dynatrap dt2000xl">DynaTrap DT2000XL →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="mosquito magnet trap">Mosquito Magnet on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="dynatrap dt2000xl">DynaTrap DT2000XL →</BuyLink>
           </div>
 
           <h2>How the Mosquito Magnet Works</h2>

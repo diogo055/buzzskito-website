@@ -8,6 +8,7 @@ import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'best-mouse-trap-canada'
 const DATE = '2026-07-16'
@@ -73,6 +74,8 @@ export const metadata: Metadata = buildMetadata({
   publishedTime: DATE,
 })
 
+const AMZ_TAG = tagForSlug('best-mouse-trap-canada')
+
 export default function BestMouseTrapCanadaPage() {
   return (
     <>
@@ -94,7 +97,7 @@ export default function BestMouseTrapCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="Victor M325 wood snap trap (4-pack)" search="victor mouse trap 4 pack" label="Best overall" />
+      <StickyBuyBar tag={AMZ_TAG} name="Victor M325 wood snap trap (4-pack)" search="victor mouse trap 4 pack" label="Best overall" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -117,7 +120,7 @@ export default function BestMouseTrapCanadaPage() {
 
       <section className="bg-white px-4 py-6">
         <div className="max-w-5xl mx-auto">
-          <AwardRow
+          <AwardRow tag={AMZ_TAG}
             heading="Our Picks — Best Mouse Traps in Canada"
             awards={[
               {
@@ -201,9 +204,9 @@ export default function BestMouseTrapCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the three picks:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="victor mouse trap 4 pack">Victor M325 snap traps →</BuyLink>
-            <BuyLink search="victor electronic mouse trap">Victor M250S electronic →</BuyLink>
-            <BuyLink search="humane mouse trap catch and release">Motel Mouse catch-and-release →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="victor mouse trap 4 pack">Victor M325 snap traps →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="victor electronic mouse trap">Victor M250S electronic →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="humane mouse trap catch and release">Motel Mouse catch-and-release →</BuyLink>
           </div>
 
           <h2>Why Is the Victor M325 Snap Trap Still the Best?</h2>
@@ -211,7 +214,7 @@ export default function BestMouseTrapCanadaPage() {
           <p>The M325&rsquo;s expanded plastic trigger (versus the old small metal tab) roughly doubles the strike zone, which matters because mice often trigger traps with a paw or shoulder rather than politely biting the bait. Wood-based traps also hold scent from previous catches, which — counterintuitively — <em>attracts</em> mice rather than repelling them. Field studies of trap lines consistently find previously used traps outperform brand-new ones.</p>
           <p>Practical notes for Canadian buyers: buy more than you think you need (a 4-pack is a starting point, not a solution), wear gloves when setting to keep human scent off, and throw the trap away without guilt once it looks grimy — at this market price of a few dollars per trap, they are semi-disposable.</p>
           <div className="not-prose my-4">
-            <BuyLink search="victor mouse trap 4 pack">Check Victor M325 4-pack on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="victor mouse trap 4 pack">Check Victor M325 4-pack on Amazon.ca →</BuyLink>
           </div>
 
           <h2>Are Electronic Mouse Traps Like the Victor M250S Worth It?</h2>
@@ -219,7 +222,7 @@ export default function BestMouseTrapCanadaPage() {
           <p>The numbers: up to 100 kills per set of 4 AA batteries, a tunnel design that pets and children cannot reach into, and a kill rate in independent tests that rivals well-placed snap traps. The limits: indoor dry locations only (no garages with condensation, no crawl spaces), one runway covered per unit, and an upfront cost per trap that is 15–20× a wooden snap trap. For a full teardown of long-term reliability, battery life in real Canadian basements, and the common false-trigger complaints, see our <Link href="/blog/victor-electronic-mouse-trap-review-canada">Victor electronic mouse trap review</Link>.</p>
           <p>The smart deployment is hybrid: an M250S in the kitchen where you would rather not meet the result at breakfast, and cheap snap traps everywhere else.</p>
           <div className="not-prose my-4">
-            <BuyLink search="victor electronic mouse trap">Check Victor M250S on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="victor electronic mouse trap">Check Victor M250S on Amazon.ca →</BuyLink>
           </div>
 
           <h2>Do Humane Catch-and-Release Traps Actually Work?</h2>
@@ -231,7 +234,7 @@ export default function BestMouseTrapCanadaPage() {
           </ul>
           <p>If you accept those constraints — frequent checks, a real drive to a release site, and ideally not mid-winter — catch-and-release is a legitimate no-kill option. If you cannot commit to them, a snap trap is more humane in practice than a neglected live trap.</p>
           <div className="not-prose my-4">
-            <BuyLink search="humane mouse trap catch and release">Check Motel Mouse on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="humane mouse trap catch and release">Check Motel Mouse on Amazon.ca →</BuyLink>
           </div>
 
           <h2>Should You Use Glue Traps?</h2>

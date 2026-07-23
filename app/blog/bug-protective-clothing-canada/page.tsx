@@ -7,6 +7,7 @@ import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'bug-protective-clothing-canada'
 const DATE = '2026-07-14'
@@ -60,6 +61,8 @@ export const metadata: Metadata = buildMetadata({
   publishedTime: DATE,
 })
 
+const AMZ_TAG = tagForSlug('bug-protective-clothing-canada')
+
 export default function BugProtectiveClothingCanadaPage() {
   return (
     <>
@@ -81,7 +84,7 @@ export default function BugProtectiveClothingCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="Sea to Summit Mosquito Head Net" search="sea to summit mosquito head net" label="Best head net" />
+      <StickyBuyBar tag={AMZ_TAG} name="Sea to Summit Mosquito Head Net" search="sea to summit mosquito head net" label="Best head net" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -103,7 +106,7 @@ export default function BugProtectiveClothingCanadaPage() {
 
       <section className="bg-white px-4 py-6">
         <div className="max-w-5xl mx-auto">
-          <AwardRow
+          <AwardRow tag={AMZ_TAG}
             heading="Our Picks — Best Bug Protective Clothing in Canada"
             awards={[
               {
@@ -204,8 +207,8 @@ export default function BugProtectiveClothingCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Jump straight to current Canadian availability for the two kit essentials:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="coghlans bug jacket">Check the Coghlan&rsquo;s Bug Jacket on Amazon.ca &rarr;</BuyLink>
-            <BuyLink search="sea to summit mosquito head net">Sea to Summit Head Net &rarr;</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="coghlans bug jacket">Check the Coghlan&rsquo;s Bug Jacket on Amazon.ca &rarr;</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="sea to summit mosquito head net">Sea to Summit Head Net &rarr;</BuyLink>
           </div>
 
           <h2>Why Clothing Beats Spray During Black-Fly Season</h2>
@@ -218,27 +221,27 @@ export default function BugProtectiveClothingCanadaPage() {
           <h3>1. Coghlan&rsquo;s Bug Jacket — The Black-Fly Season Workhorse</h3>
           <p>Coghlan&rsquo;s is a Winnipeg company that has been making camping hardware since 1959, and its bug jacket is the default answer at Canadian Tire stores every spring for a reason: it&rsquo;s a simple, durable fine-mesh pullover jacket with an integrated hood that zips fully closed around your face, elastic at the cuffs, and a hem long enough to stay tucked when you bend over a garden bed or a boat motor.</p>
           <p>Wear it over a T-shirt with a ball cap underneath — the brim holds the hood mesh off your nose and cheeks, because black flies will bite through mesh resting directly on skin. It packs down to almost nothing and lives in the cottage cupboard from Victoria Day onward. Sizes run small through XXL; smalls fit most kids around 8 and up.</p>
-          <div className="not-prose my-4"><BuyLink search="coghlans bug jacket">Check price on Amazon.ca &rarr;</BuyLink></div>
+          <div className="not-prose my-4"><BuyLink tag={AMZ_TAG} search="coghlans bug jacket">Check price on Amazon.ca &rarr;</BuyLink></div>
 
           <h3>2. Coghlan&rsquo;s Bug Pants — Complete the Kit</h3>
           <p>The matching mesh pants get overlooked, and then June arrives in Haliburton and everyone understands. Black flies and mosquitoes concentrate their attacks on ankles and the backs of knees — thin skin, close to the ground-level vegetation where the insects rest. Coghlan&rsquo;s bug pants pull on over shorts or work pants, with an elastic waist and elastic ankle cuffs that close the crawl-space black flies exploit.</p>
           <p>They earn their spot for stationary activities: dock fishing, campfire evenings, gardening. Mesh pants run warm and snag-prone for active bush hiking, but for sitting still at dusk in June they&rsquo;re the difference between staying out and going in. Pair them with the jacket for head-to-ankle coverage.</p>
-          <div className="not-prose my-4"><BuyLink search="coghlans bug pants">Check price on Amazon.ca &rarr;</BuyLink></div>
+          <div className="not-prose my-4"><BuyLink tag={AMZ_TAG} search="coghlans bug pants">Check price on Amazon.ca &rarr;</BuyLink></div>
 
           <h3>3. Sea to Summit Mosquito Head Net — Best Everyday Head Net</h3>
           <p>If you buy exactly one item from this guide, buy a head net. It weighs about 35 grams (1.2 oz), packs smaller than a granola bar, and neutralizes the single most maddening thing biting insects do — swarming your face. The Sea to Summit Mosquito Head Net is our pick of the standard-mesh options because it gets the details right: black mesh (far easier to see through than pale mesh, because dark fibres don&rsquo;t scatter light into your eyes), a wide drawcord seal at the neck, and enough volume to fit over a brimmed hat so the mesh stays off your skin.</p>
           <p>Standard mesh — openings around 1.2 mm — stops every mosquito and black fly species in Ontario. Keep one in the glovebox, one in the tackle box, and one in the stroller basket; at this size and price there&rsquo;s no reason not to. It&rsquo;s the same logic as the broader netting category we cover in our <Link href="/blog/mosquito-net-canada">mosquito net guide for Canada</Link> — a physical barrier exactly where the bugs concentrate.</p>
-          <div className="not-prose my-4"><BuyLink search="sea to summit mosquito head net">Check price on Amazon.ca &rarr;</BuyLink></div>
+          <div className="not-prose my-4"><BuyLink tag={AMZ_TAG} search="sea to summit mosquito head net">Check price on Amazon.ca &rarr;</BuyLink></div>
 
           <h3>4. Sea to Summit Ultra-Mesh Head Net — For No-See-Um Country</h3>
           <p>Standard mesh has a blind spot: no-see-ums. These biting midges are under 1 mm long, and they pass through 1.2 mm mesh openings like the mesh isn&rsquo;t there. If you&rsquo;ve ever been swarmed by something you could barely see at a beach at dusk, on a Georgian Bay island, or beside a northern marsh — that&rsquo;s them, and a standard head net will genuinely not help you. Our <Link href="/blog/no-see-ums-biting-midges-canada">no-see-um guide for Canada</Link> covers the where and when in detail.</p>
           <p>The Ultra-Mesh version closes that gap with a much finer weave — no-see-um-class mesh runs around 0.6 mm openings, 500+ holes per square inch — while staying light enough to forget in a pocket. The trade-offs are a slightly dimmer view and less airflow. Buy this version if your summers involve shorelines, marsh edges, or paddling trips; buy the standard version if your bugs are backyard mosquitoes and cottage black flies.</p>
-          <div className="not-prose my-4"><BuyLink search="sea to summit ultra mesh head net">Check price on Amazon.ca &rarr;</BuyLink></div>
+          <div className="not-prose my-4"><BuyLink tag={AMZ_TAG} search="sea to summit ultra mesh head net">Check price on Amazon.ca &rarr;</BuyLink></div>
 
           <h3>5. InsectGuard Permethrin-Treated Sleeves &amp; Gaiters — The Legal Permethrin Play</h3>
           <p>InsectGuard&rsquo;s sleeves and gaiters take a different approach from everything above: instead of mesh you look through, they&rsquo;re stretchy fabric bands — worn on forearms or over ankles and lower legs — that come factory-treated with permethrin, the contact insecticide that repels and knocks down ticks and mosquitoes on treated fabric. Because the treatment is bonded into the fibres at the factory, these are the PMRA-compliant way to get permethrin protection in Canada (more on that legal distinction below).</p>
           <p>The gaiters are the standout for tick country. Ticks quest from grass and climb upward from your boots — exactly the zone an ankle gaiter covers. Slip a pair over your socks and pant cuffs before walking trail edges, tall grass, or unmowed cottage lots, and you&rsquo;ve armoured the primary tick entry point without treating an entire outfit. They also solve the summer problem with full treated outfits: in 30&deg;C July heat, a breathable band beats a long-sleeve treated shirt you won&rsquo;t actually wear.</p>
-          <div className="not-prose my-4"><BuyLink search="insectguard permethrin sleeves">Check price on Amazon.ca &rarr;</BuyLink></div>
+          <div className="not-prose my-4"><BuyLink tag={AMZ_TAG} search="insectguard permethrin sleeves">Check price on Amazon.ca &rarr;</BuyLink></div>
 
           <h2>Permethrin in Canada: Treated Garments Are Legal, DIY Sprays Are Not</h2>
           <p>This is the part of bug clothing where Canada and the United States genuinely differ, and where a lot of Canadian buyers get tripped up by American advice.</p>

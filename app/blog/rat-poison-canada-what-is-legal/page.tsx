@@ -7,6 +7,7 @@ import SpecialistDisclosure from '@/components/SpecialistDisclosure'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'rat-poison-canada-what-is-legal'
 const DATE = '2026-07-16'
@@ -67,6 +68,8 @@ export const metadata: Metadata = buildMetadata({
   type: 'article',
   publishedTime: DATE,
 })
+
+const AMZ_TAG = tagForSlug('rat-poison-canada-what-is-legal')
 
 export default function RatPoisonCanadaLegalPage() {
   return (
@@ -148,10 +151,10 @@ export default function RatPoisonCanadaLegalPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the PMRA-registered consumer option:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="tomcat rat killer disposable station">Tomcat Rat Killer disposable station →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="tomcat rat killer disposable station">Tomcat Rat Killer disposable station →</BuyLink>
           </div>
 
-          <TopPick
+          <TopPick tag={AMZ_TAG}
             label="The Legal Consumer Option"
             name="Tomcat Rat Killer Disposable Bait Station (bromethalin)"
             blurb="The main PMRA-registered consumer rat poison in Canada: a sealed, tamper-resistant station pre-loaded with bromethalin, where a lethal single feeding typically kills in 24–48 hours. It's the right pick for light exterior pressure around a shed or garage — but there's no antidote for bromethalin, so keep it away from pets and children, and reach for traps first for most interior problems."
@@ -175,8 +178,8 @@ export default function RatPoisonCanadaLegalPage() {
           <p>Respect what you&rsquo;re buying. Bromethalin has no antidote — for rats or for dogs — which is exactly why the PMRA only permits it inside sealed stations. Place stations against exterior walls along rodent runways, wear gloves, keep them where pets can&rsquo;t chew the housing, and remove them once feeding stops. Know the format&rsquo;s limits too: a disposable station handles light exterior pressure around a shed or garage; it does not clear an established interior infestation, and a poisoned rat can still die somewhere unreachable. Our <Link href="/blog/mouse-bait-station-canada">bait station guide</Link> covers placement, station types, and when enclosed bait genuinely beats a trap line.</p>
           <p>First-generation anticoagulant station baits — warfarin, chlorophacinone, diphacinone under Canadian hardware brands — are the other legal lane. They&rsquo;re slower and often need multiple feedings, but anticoagulant exposure in a pet has an effective antidote (vitamin K1), which some owners reasonably weigh against bromethalin&rsquo;s speed.</p>
           <div className="not-prose my-4 flex flex-wrap gap-3">
-            <BuyLink search="tomcat rat killer disposable station">Check Tomcat Rat Killer station on Amazon.ca →</BuyLink>
-            <BuyLink search="tomcat mouse killer disposable station">Tomcat Mouse Killer station →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="tomcat rat killer disposable station">Check Tomcat Rat Killer station on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="tomcat mouse killer disposable station">Tomcat Mouse Killer station →</BuyLink>
           </div>
 
           <h2>Why Is Every US &ldquo;Best Rat Poison&rdquo; List Wrong for Canada?</h2>

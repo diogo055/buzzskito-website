@@ -8,6 +8,7 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'mosquito-bits-canada-vs-dunks'
 const DATE = '2026-05-01'
@@ -78,6 +79,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('mosquito-bits-canada-vs-dunks')
+
 export default function MosquitoBitsCanadaPage() {
   return (
     <>
@@ -99,7 +102,7 @@ export default function MosquitoBitsCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="Summit Mosquito Bits (BTI granules)" search="summit mosquito bits" label="Fastest larvae kill" />
+      <StickyBuyBar tag={AMZ_TAG} name="Summit Mosquito Bits (BTI granules)" search="summit mosquito bits" label="Fastest larvae kill" />
 
       {/* QUICK ANSWER — first content element */}
       <section className="bg-white px-4 pt-8">
@@ -158,8 +161,8 @@ export default function MosquitoBitsCanadaPage() {
             </table>
           </div>
           <div className="mt-4 flex flex-wrap items-center gap-3">
-            <BuyLink search="summit mosquito bits">Check Mosquito Bits price on Amazon.ca →</BuyLink>
-            <BuyLink search="summit mosquito dunks">Compare with Mosquito Dunks →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="summit mosquito bits">Check Mosquito Bits price on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="summit mosquito dunks">Compare with Mosquito Dunks →</BuyLink>
           </div>
           <p className="text-xs text-gray-500 mt-3">
             Prices accurate as of May 2026. The 30-oz value pack is roughly 33% cheaper per ounce — buy it if you have multiple rain barrels, a pond, or want to share with a neighbour. Stock up in April–May before peak-season demand.
@@ -181,7 +184,7 @@ export default function MosquitoBitsCanadaPage() {
       {/* TOP PICK */}
       <section className="bg-white px-4 pt-6">
         <div className="max-w-4xl mx-auto">
-          <TopPick
+          <TopPick tag={AMZ_TAG}
             label="Our Top Pick"
             name="Summit Mosquito Bits (BTI granules)"
             blurb="The fastest larvae kill you can buy — starts releasing BTI within 30 minutes and clears treated water within 24 hours. Keep Dunks in the rain barrel for 30-day coverage; keep Bits on the shelf for every unexpected larvae find."
@@ -230,8 +233,8 @@ export default function MosquitoBitsCanadaPage() {
             </table>
           </div>
           <div className="mt-4 flex flex-wrap items-center gap-3">
-            <BuyLink search="summit mosquito bits" className="!px-3 !py-1.5 !text-xs">Check Bits price</BuyLink>
-            <BuyLink search="summit mosquito dunks" className="!px-3 !py-1.5 !text-xs">Check Dunks price</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="summit mosquito bits" className="!px-3 !py-1.5 !text-xs">Check Bits price</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="summit mosquito dunks" className="!px-3 !py-1.5 !text-xs">Check Dunks price</BuyLink>
           </div>
         </div>
       </section>

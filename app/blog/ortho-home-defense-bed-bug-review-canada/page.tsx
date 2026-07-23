@@ -8,6 +8,7 @@ import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'ortho-home-defense-bed-bug-review-canada'
 const DATE = '2026-07-21'
@@ -75,6 +76,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('ortho-home-defense-bed-bug-review-canada')
+
 export default function OrthoHomeDefenseBedBugReviewCanadaPage() {
   return (
     <>
@@ -96,7 +99,7 @@ export default function OrthoHomeDefenseBedBugReviewCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="Ortho Home Defense Bed Bug Killer" search="ortho home defense bed bug killer" label="Check Canadian availability" />
+      <StickyBuyBar tag={AMZ_TAG} name="Ortho Home Defense Bed Bug Killer" search="ortho home defense bed bug killer" label="Check Canadian availability" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -119,7 +122,7 @@ export default function OrthoHomeDefenseBedBugReviewCanadaPage() {
 
       <section className="bg-white px-4 py-2">
         <div className="max-w-3xl mx-auto">
-          <TopPick
+          <TopPick tag={AMZ_TAG}
             label="Verdict — Buy the Canadian-Registered Can, Verify the PCP Number"
             name="Ortho Home Defense Bed Bug Killer (Canadian PCP-registered version)"
             blurb="A capable, widely stocked contact-plus-residual spray for the bugs and surfaces you can reach — as long as the can in your hands is the Canadian-registered version with a PCP number, not the US import. It is a solid perimeter-and-frame tool, but it is weak on eggs and can meet pyrethroid resistance, so buy it as one layer of a multi-tool plan rather than a standalone fix. If you cannot confirm a PCP number, choose a clearly Canadian-registered brand instead."
@@ -155,28 +158,28 @@ export default function OrthoHomeDefenseBedBugReviewCanadaPage() {
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Verify</strong> &mdash; CA version has a PCP number; US version does not</td>
                   <td className="px-4 py-3 text-gray-700">Frame, baseboard &amp; perimeter residual</td>
                   <td className="px-4 py-3 text-gray-700">US import is not PMRA-legal here</td>
-                  <td className="px-4 py-3"><BuyLink search="ortho home defense bed bug killer" block>Check price &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="ortho home defense bed bug killer" block>Check price &rarr;</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Konk<br /><span className="font-normal text-xs text-gray-500">Bed Bug Killer</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Clear</strong> &mdash; Canadian brand, PCP-registered</td>
                   <td className="px-4 py-3 text-gray-700">No-guesswork Canadian-legal contact spray</td>
                   <td className="px-4 py-3 text-gray-700">Same egg &amp; resistance limits</td>
-                  <td className="px-4 py-3"><BuyLink search="konk bed bug killer canada" block>Check price &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="konk bed bug killer canada" block>Check price &rarr;</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Knock Down<br /><span className="font-normal text-xs text-gray-500">Bed Bug Killer</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Clear</strong> &mdash; Canadian brand, PCP-registered</td>
                   <td className="px-4 py-3 text-gray-700">Value contact-plus-residual, widely stocked</td>
                   <td className="px-4 py-3 text-gray-700">Pyrethroid-class; watch resistance</td>
-                  <td className="px-4 py-3"><BuyLink search="knock down bed bug killer canada" block>Check price &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="knock down bed bug killer canada" block>Check price &rarr;</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">EcoRaider<br /><span className="font-normal text-xs text-gray-500">Bed Bug Killer</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Botanical</strong> &mdash; plant-oil route; confirm the Canadian listing</td>
                   <td className="px-4 py-3 text-gray-700">Lower-tox option for sensitive rooms</td>
                   <td className="px-4 py-3 text-gray-700">Contact-reliant; little residual</td>
-                  <td className="px-4 py-3"><BuyLink search="ecoraider bed bug killer canada" block>Check price &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="ecoraider bed bug killer canada" block>Check price &rarr;</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -203,9 +206,9 @@ export default function OrthoHomeDefenseBedBugReviewCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability &mdash; and confirm a PCP number on the listing or label before you buy:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="ortho home defense bed bug killer">Ortho on Amazon.ca &rarr;</BuyLink>
-            <BuyLink search="konk bed bug killer canada">Konk (Canadian) &rarr;</BuyLink>
-            <BuyLink search="knock down bed bug killer canada">Knock Down (Canadian) &rarr;</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="ortho home defense bed bug killer">Ortho on Amazon.ca &rarr;</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="konk bed bug killer canada">Konk (Canadian) &rarr;</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="knock down bed bug killer canada">Knock Down (Canadian) &rarr;</BuyLink>
           </div>
 
           <h2>The PCP Number Is the Whole Test</h2>

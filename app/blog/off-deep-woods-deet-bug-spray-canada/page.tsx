@@ -7,6 +7,7 @@ import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'off-deep-woods-deet-bug-spray-canada'
 const DATE = '2026-07-12'
@@ -54,6 +55,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('off-deep-woods-deet-bug-spray-canada')
+
 export default function OffDeepWoodsDeetPage() {
   return (
     <>
@@ -75,7 +78,7 @@ export default function OffDeepWoodsDeetPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="OFF Deep Woods (25% DEET insect repellent)" search="off deep woods" label="Best DEET pick" />
+      <StickyBuyBar tag={AMZ_TAG} name="OFF Deep Woods (25% DEET insect repellent)" search="off deep woods" label="Best DEET pick" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -97,7 +100,7 @@ export default function OffDeepWoodsDeetPage() {
 
       <section className="bg-white px-4 py-6">
         <div className="max-w-5xl mx-auto">
-          <AwardRow
+          <AwardRow tag={AMZ_TAG}
             heading="Our Picks — Best OFF & DEET Bug Sprays in Canada"
             awards={[
               {
@@ -229,8 +232,8 @@ export default function OffDeepWoodsDeetPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Compare current Canadian prices on the OFF lineup and a gear-safe icaridin alternative:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="off deep woods">Check OFF Deep Woods price on Amazon.ca →</BuyLink>
-            <BuyLink search="off familycare insect repellent">OFF FamilyCare →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="off deep woods">Check OFF Deep Woods price on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="off familycare insect repellent">OFF FamilyCare →</BuyLink>
           </div>
 
           <h2 id="deet-explainer">DEET Percentage &amp; Duration, Explained</h2>
@@ -262,35 +265,35 @@ export default function OffDeepWoodsDeetPage() {
                   <td className="px-4 py-3 font-mono text-gray-800">≈ 25%</td>
                   <td className="px-4 py-3 text-gray-700">5–6 hrs</td>
                   <td className="px-4 py-3 text-gray-700">Hiking, cottage, heavy dusk pressure</td>
-                  <td className="px-4 py-3"><BuyLink search="off deep woods" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="off deep woods" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Deep Woods Dry</td>
                   <td className="px-4 py-3 font-mono text-gray-800">≈ 25%</td>
                   <td className="px-4 py-3 text-gray-700">5–6 hrs</td>
                   <td className="px-4 py-3 text-gray-700">Same power, powder-dry non-greasy feel</td>
-                  <td className="px-4 py-3"><BuyLink search="off deep woods dry">Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="off deep woods dry">Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Deep Woods Sportsmen</td>
                   <td className="px-4 py-3 font-mono text-gray-800">≈ 30%</td>
                   <td className="px-4 py-3 text-gray-700">up to 8 hrs</td>
                   <td className="px-4 py-3 text-gray-700">Backcountry, blackflies, worst conditions</td>
-                  <td className="px-4 py-3"><BuyLink search="off deep woods sportsmen">Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="off deep woods sportsmen">Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">FamilyCare</td>
                   <td className="px-4 py-3 font-mono text-gray-800">≈ 15%</td>
                   <td className="px-4 py-3 text-gray-700">3–4 hrs</td>
                   <td className="px-4 py-3 text-gray-700">Everyday backyard, errands, lighter exposure</td>
-                  <td className="px-4 py-3"><BuyLink search="off familycare insect repellent">Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="off familycare insect repellent">Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 font-bold text-brand-800">FamilyCare Smooth &amp; Dry</td>
                   <td className="px-4 py-3 font-mono text-gray-800">≈ 15%</td>
                   <td className="px-4 py-3 text-gray-700">3–4 hrs</td>
                   <td className="px-4 py-3 text-gray-700">Light everyday use · powder-dry finish</td>
-                  <td className="px-4 py-3"><BuyLink search="off familycare smooth dry">Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="off familycare smooth dry">Amazon.ca →</BuyLink></td>
                 </tr>
               </tbody>
             </table>

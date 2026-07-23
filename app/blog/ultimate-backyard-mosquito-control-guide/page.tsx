@@ -8,6 +8,7 @@ import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { MOSQUITO_BLOGS, CITIES } from '@/lib/constants'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const POST = MOSQUITO_BLOGS.pillar
 const UPDATED = POST.date
@@ -28,6 +29,8 @@ const FAQS = [
   { question: 'How much does professional backyard mosquito control cost in the GTA?', answer: 'A single professional backyard mosquito treatment starts at $99 for a standard lot (under 10,000 sq ft). Full-season plans, which give continuous protection from May through September, start at $549 for 5 sprays (monthly) or $994 for 10 sprays (bi-weekly). Pricing scales with lot size, and every BuzzSkito treatment is backed by our Bite-Free Guarantee.' },
   { question: 'Is professional outdoor mosquito control better than DIY?', answer: 'Yes. DIY methods — citronella, foggers, standing-water removal, and repelling plants — typically reduce mosquito pressure by only 15–30% because they do not treat the shaded vegetation where adult mosquitoes rest. Professional outdoor mosquito control combines standing-water elimination with a Health Canada-approved barrier spray applied to that resting habitat, cutting populations 85–95% on most GTA properties. The two approaches work best together: prevention plus barrier spray.' },
 ]
+
+const AMZ_TAG = tagForSlug('ultimate-backyard-mosquito-control-guide')
 
 export default function MosquitoPillarPage() {
   return (
@@ -135,9 +138,9 @@ export default function MosquitoPillarPage() {
 
         <h2>DIY Tools That Help Between Professional Visits</h2>
         <AffiliateDisclosure />
-        <p>For standing water you genuinely can&apos;t drain — rain barrels, ornamental ponds, or low spots that stay wet for days — drop in a <strong>Bti larvicide dunk</strong> such as Summit Mosquito Dunks. They float and slowly release a naturally occurring bacterium that kills mosquito larvae for about 30 days while staying safe for pets, birds, and fish. We break down brands and dosing in our <Link href="/blog/mosquito-dunks-canada-guide" className="text-brand-700 underline hover:text-brand-500">mosquito dunks guide for Canada</Link> — or <BuyLink search="summit mosquito dunks">Check price on Amazon.ca →</BuyLink></p>
+        <p>For standing water you genuinely can&apos;t drain — rain barrels, ornamental ponds, or low spots that stay wet for days — drop in a <strong>Bti larvicide dunk</strong> such as Summit Mosquito Dunks. They float and slowly release a naturally occurring bacterium that kills mosquito larvae for about 30 days while staying safe for pets, birds, and fish. We break down brands and dosing in our <Link href="/blog/mosquito-dunks-canada-guide" className="text-brand-700 underline hover:text-brand-500">mosquito dunks guide for Canada</Link> — or <BuyLink tag={AMZ_TAG} search="summit mosquito dunks">Check price on Amazon.ca →</BuyLink></p>
 
-        <TopPick
+        <TopPick tag={AMZ_TAG}
           label="Best DIY Add-On"
           name="Summit Mosquito Dunks (Bti larvicide)"
           blurb="For standing water you can't drain — rain barrels, ornamental ponds, chronic wet spots — these floating dunks release a naturally occurring bacterium (Bti) that kills mosquito larvae for about 30 days while staying safe around pets, birds, and fish. The simplest way to stop a breeding site before adults ever hatch."
@@ -147,7 +150,7 @@ export default function MosquitoPillarPage() {
           cons={['Only treats standing water — not resting adults', 'Needs replacing each month through the season']}
         />
         <p className="not-prose text-xs text-gray-500 mb-6">Score reflects BuzzSkito&rsquo;s own editorial rating, not an Amazon rating.</p>
-        <p>For the hours you&apos;re actually outside, a <strong>Thermacell repeller</strong> creates a roughly 20-foot zone of protection over a patio or deck without sprays or open flame, and the right skin repellent handles the rest. See how the options compare in our <Link href="/blog/picaridin-vs-deet-canada" className="text-brand-700 underline hover:text-brand-500">picaridin vs. DEET guide</Link> and <Link href="/blog/best-mosquito-trap-canada" className="text-brand-700 underline hover:text-brand-500">best mosquito traps in Canada</Link> — or <BuyLink search="thermacell mosquito repeller">Check price on Amazon.ca →</BuyLink></p>
+        <p>For the hours you&apos;re actually outside, a <strong>Thermacell repeller</strong> creates a roughly 20-foot zone of protection over a patio or deck without sprays or open flame, and the right skin repellent handles the rest. See how the options compare in our <Link href="/blog/picaridin-vs-deet-canada" className="text-brand-700 underline hover:text-brand-500">picaridin vs. DEET guide</Link> and <Link href="/blog/best-mosquito-trap-canada" className="text-brand-700 underline hover:text-brand-500">best mosquito traps in Canada</Link> — or <BuyLink tag={AMZ_TAG} search="thermacell mosquito repeller">Check price on Amazon.ca →</BuyLink></p>
         <p>These tools cut bites in the moment, but they don&apos;t clear the adult mosquitoes resting in your vegetation the way a professional barrier spray does. For a yard that stays bite-free all season, they work best alongside a treatment plan.</p>
 
         <h2>Gear &amp; Product Guides: Every Mosquito Device Reviewed</h2>

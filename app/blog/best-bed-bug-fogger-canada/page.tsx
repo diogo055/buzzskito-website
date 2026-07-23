@@ -8,6 +8,7 @@ import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'best-bed-bug-fogger-canada'
 const DATE = '2026-07-21'
@@ -75,6 +76,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('best-bed-bug-fogger-canada')
+
 export default function BestBedBugFoggerCanadaPage() {
   return (
     <>
@@ -96,7 +99,7 @@ export default function BestBedBugFoggerCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="PMRA-registered total-release fogger (Doktor Doom)" search="doktor doom total release fogger" label="If you must fog" />
+      <StickyBuyBar tag={AMZ_TAG} name="PMRA-registered total-release fogger (Doktor Doom)" search="doktor doom total release fogger" label="If you must fog" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -119,7 +122,7 @@ export default function BestBedBugFoggerCanadaPage() {
 
       <section className="bg-white px-4 py-6">
         <div className="max-w-5xl mx-auto">
-          <AwardRow
+          <AwardRow tag={AMZ_TAG}
             heading="Our Picks — PMRA-Registered Foggers in Canada (Used Correctly)"
             awards={[
               {
@@ -193,35 +196,35 @@ export default function BestBedBugFoggerCanadaPage() {
                   <td className="px-4 py-3 text-gray-700"><strong className="text-red-700">No</strong> &mdash; mist settles on surfaces</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-red-700">Yes</strong> &mdash; pyrethrin actives</td>
                   <td className="px-4 py-3 text-gray-700">Flushing a few exposed insects</td>
-                  <td className="px-4 py-3"><BuyLink search="doktor doom total release fogger" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="doktor doom total release fogger" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Steam<br /><span className="font-normal text-xs text-gray-500">dry-vapour steamer</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Yes</strong> &mdash; into seams &amp; folds</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">No</strong> &mdash; heat, not chemistry</td>
                   <td className="px-4 py-3 text-gray-700">On-contact kill of bugs &amp; eggs</td>
-                  <td className="px-4 py-3"><BuyLink search="bed bug steamer" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bed bug steamer" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Heat chamber / heater<br /><span className="font-normal text-xs text-gray-500">ZappBug, PackTite</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Yes</strong> &mdash; heats the whole item</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">No</strong> &mdash; lethal temperature</td>
                   <td className="px-4 py-3 text-gray-700">Portable items, luggage, whole rooms</td>
-                  <td className="px-4 py-3"><BuyLink search="bed bug heater chamber" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bed bug heater chamber" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Residual crack-and-crevice<br /><span className="font-normal text-xs text-gray-500">directed spray</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Yes</strong> &mdash; injected into cracks</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Partly</strong> &mdash; product-dependent</td>
                   <td className="px-4 py-3 text-gray-700">Weeks of residual in harbourage</td>
-                  <td className="px-4 py-3"><BuyLink search="bed bug crack crevice spray canada" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bed bug crack crevice spray canada" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Desiccant dust<br /><span className="font-normal text-xs text-gray-500">diatomaceous earth, silica</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Yes</strong> &mdash; blown into voids</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">No</strong> &mdash; physical, not chemical</td>
                   <td className="px-4 py-3 text-gray-700">Long-term kill in wall voids &amp; edges</td>
-                  <td className="px-4 py-3"><BuyLink search="diatomaceous earth bed bugs" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="diatomaceous earth bed bugs" block>Check price →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -248,10 +251,10 @@ export default function BestBedBugFoggerCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability &mdash; the PMRA-registered foggers, and the tools that actually work:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="doktor doom total release fogger">Doktor Doom fogger →</BuyLink>
-            <BuyLink search="konk total release fogger">Konk fogger →</BuyLink>
-            <BuyLink search="bed bug steamer">Bed-bug steamer →</BuyLink>
-            <BuyLink search="bed bug crack crevice spray canada">Residual spray →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="doktor doom total release fogger">Doktor Doom fogger →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="konk total release fogger">Konk fogger →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="bed bug steamer">Bed-bug steamer →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="bed bug crack crevice spray canada">Residual spray →</BuyLink>
           </div>
 
           <h2>Why Foggers Cannot Reach Bed Bugs</h2>

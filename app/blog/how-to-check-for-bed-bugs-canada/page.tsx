@@ -7,6 +7,7 @@ import SpecialistDisclosure from '@/components/SpecialistDisclosure'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'how-to-check-for-bed-bugs-canada'
 const DATE = '2026-07-16'
@@ -67,6 +68,8 @@ export const metadata: Metadata = buildMetadata({
   type: 'article',
   publishedTime: DATE,
 })
+
+const AMZ_TAG = tagForSlug('how-to-check-for-bed-bugs-canada')
 
 export default function HowToCheckForBedBugsCanadaPage() {
   return (
@@ -155,9 +158,9 @@ export default function HowToCheckForBedBugsCanadaPage() {
           <p>Two tools do 95% of the job: a bright flashlight and a thin, stiff card. The flashlight, held at a low raking angle, makes eggs and spotting pop against fabric; the card — an old credit card or a paint scraper — gets dragged slowly through mattress piping, frame joints, and baseboard gaps to flush bugs and debris out of cracks your eyes cannot reach. A cheap magnifier helps distinguish a 1.5 mm nymph from a carpet beetle larva.</p>
           <AffiliateDisclosure />
           <div className="not-prose my-4 flex flex-wrap gap-3">
-            <BuyLink search="bed bug detection kit">Flashlight + card detection kit on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="bed bug detection kit">Flashlight + card detection kit on Amazon.ca →</BuyLink>
           </div>
-          <TopPick
+          <TopPick tag={AMZ_TAG}
             label="Best Tool for the Job"
             name="Bed Bug Detection Kit (flashlight + card + magnifier)"
             blurb="A combination kit bundles the three tools that do almost the entire inspection: a bright flashlight to rake across fabric so eggs and spotting pop, a thin stiff card to drag through seams and joints, and a magnifier to tell a nymph from a carpet-beetle larva. Inexpensive, reusable trip after trip, and the fastest way to turn a suspicion into physical evidence."

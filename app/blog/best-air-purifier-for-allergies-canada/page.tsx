@@ -8,6 +8,7 @@ import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'best-air-purifier-for-allergies-canada'
 const DATE = '2026-07-21'
@@ -75,6 +76,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('best-air-purifier-for-allergies-canada')
+
 export default function BestAirPurifierForAllergiesCanadaPage() {
   return (
     <>
@@ -96,7 +99,7 @@ export default function BestAirPurifierForAllergiesCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="Levoit Core True-HEPA air purifier" search="levoit core true hepa air purifier" label="Best value" />
+      <StickyBuyBar tag={AMZ_TAG} name="Levoit Core True-HEPA air purifier" search="levoit core true hepa air purifier" label="Best value" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -119,7 +122,7 @@ export default function BestAirPurifierForAllergiesCanadaPage() {
 
       <section className="bg-white px-4 py-6">
         <div className="max-w-5xl mx-auto">
-          <AwardRow
+          <AwardRow tag={AMZ_TAG}
             heading="Our Picks — Best Air Purifiers for Allergies in Canada"
             awards={[
               {
@@ -193,28 +196,28 @@ export default function BestAirPurifierForAllergiesCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Bedroom / small living, ~250–400 sq ft</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best value</strong> &mdash; pollen &amp; ragweed in the room you sleep in</td>
                   <td className="px-4 py-3 text-gray-700">Undersized for great-rooms</td>
-                  <td className="px-4 py-3"><BuyLink search="levoit core 400s air purifier" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="levoit core 400s air purifier" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Coway Airmega 400 / AP-1512HH<br /><span className="font-normal text-xs text-gray-500">high-CADR True-HEPA</span></td>
                   <td className="px-4 py-3 text-gray-700">Open plan / basement, 400–1,500 sq ft</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best airflow</strong> &mdash; keeps a large space genuinely clean</td>
                   <td className="px-4 py-3 text-gray-700">Overkill for one bedroom</td>
-                  <td className="px-4 py-3"><BuyLink search="coway airmega air purifier" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="coway airmega air purifier" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Budget compact<br /><span className="font-normal text-xs text-gray-500">Levoit Core Mini</span></td>
                   <td className="px-4 py-3 text-gray-700">Nursery / office, under ~200 sq ft</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Fair</strong> &mdash; one small closeable room only</td>
                   <td className="px-4 py-3 text-gray-700">Low CADR; not for open plans</td>
-                  <td className="px-4 py-3"><BuyLink search="levoit core mini air purifier" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="levoit core mini air purifier" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">&ldquo;Whole-home&rdquo; single unit<br /><span className="font-normal text-xs text-gray-500">one machine, many rooms</span></td>
                   <td className="px-4 py-3 text-gray-700">Claimed 1,000+ sq ft (one open space)</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Oversold</strong> &mdash; can&rsquo;t pull air through doorways</td>
                   <td className="px-4 py-3 text-gray-700">Buy one unit per problem room instead</td>
-                  <td className="px-4 py-3"><BuyLink search="large room true hepa air purifier" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="large room true hepa air purifier" block>Check price →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -241,10 +244,10 @@ export default function BestAirPurifierForAllergiesCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the picks:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="levoit core 400s air purifier">Levoit Core →</BuyLink>
-            <BuyLink search="coway airmega air purifier">Coway Airmega →</BuyLink>
-            <BuyLink search="true hepa air purifier carbon">True-HEPA + carbon →</BuyLink>
-            <BuyLink search="levoit core mini air purifier">Budget compact →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="levoit core 400s air purifier">Levoit Core →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="coway airmega air purifier">Coway Airmega →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="true hepa air purifier carbon">True-HEPA + carbon →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="levoit core mini air purifier">Budget compact →</BuyLink>
           </div>
 
           <h2>True-HEPA vs &ldquo;HEPA-Type&rdquo;: The Label That Decides Everything</h2>

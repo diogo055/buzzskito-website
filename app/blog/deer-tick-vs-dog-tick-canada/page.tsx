@@ -7,6 +7,7 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'deer-tick-vs-dog-tick-canada'
 const DATE = '2026-04-28'
@@ -88,6 +89,8 @@ export const metadata: Metadata = buildMetadata({
   publishedTime: DATE,
   modifiedTime: '2026-07-12',
 })
+
+const AMZ_TAG = tagForSlug('deer-tick-vs-dog-tick-canada')
 
 export default function DeerTickVsDogTickPage() {
   return (
@@ -220,7 +223,7 @@ export default function DeerTickVsDogTickPage() {
           <h2>What to Do When You Find Either One</h2>
           <p>The removal technique is identical for both species: grasp the tick as close to the skin as possible with fine-tipped tweezers or a purpose-made tick tool, pull straight up with steady pressure, and disinfect the bite. A dedicated removal tool grips the mouthparts more reliably than fingers and reduces the risk of leaving the head behind.</p>
           <AffiliateDisclosure />
-          <TopPick
+          <TopPick tag={AMZ_TAG}
             label="Best Tool for the Job"
             name="Tick-Removal Tool Set (fine-tip tweezers + tick key)"
             blurb="Whether it turns out to be a deer tick or a dog tick, the safe removal is the same — and a purpose-made tool grips the mouthparts far more reliably than fingernails. A tweezer-plus-key set keeps one in the first-aid kit and one in the car, so you can pull a tick straight out cleanly before the 24-hour Lyme-transmission window matters."
@@ -229,7 +232,7 @@ export default function DeerTickVsDogTickPage() {
             pros={['Grips mouthparts to avoid leaving the head', 'Works for both tick species and on dogs', 'Compact — keep a spare in car and kit']}
             cons={['Keep it disinfected between uses', 'Fine tips can bend if forced']}
           />
-          <p><BuyLink search="tick removal tool tweezers">Check tick-removal tools on Amazon.ca →</BuyLink></p>
+          <p><BuyLink tag={AMZ_TAG} search="tick removal tool tweezers">Check tick-removal tools on Amazon.ca →</BuyLink></p>
           <p>For the full walkthrough and product picks, see our complete guides:</p>
           <ul>
             <li><Link href="/blog/how-to-remove-tick-safely">How to Remove a Tick Safely (Humans)</Link></li>

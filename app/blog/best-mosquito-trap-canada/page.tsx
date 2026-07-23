@@ -7,6 +7,7 @@ import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'best-mosquito-trap-canada'
 const DATE = '2026-07-12'
@@ -54,6 +55,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('best-mosquito-trap-canada')
+
 export default function BestMosquitoTrapCanadaPage() {
   return (
     <>
@@ -75,7 +78,7 @@ export default function BestMosquitoTrapCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="Mosquito Magnet Patriot Plus (propane CO₂ trap)" search="mosquito magnet trap" label="Best overall trap" />
+      <StickyBuyBar tag={AMZ_TAG} name="Mosquito Magnet Patriot Plus (propane CO₂ trap)" search="mosquito magnet trap" label="Best overall trap" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -97,7 +100,7 @@ export default function BestMosquitoTrapCanadaPage() {
 
       <section className="bg-white px-4 py-6">
         <div className="max-w-5xl mx-auto">
-          <AwardRow
+          <AwardRow tag={AMZ_TAG}
             heading="Our Picks — Best Mosquito Traps in Canada"
             awards={[
               {
@@ -171,28 +174,28 @@ export default function BestMosquitoTrapCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Burns propane → real CO₂ + heat + moisture, then vacuums females into a net</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best</strong> — 70–90% over 6–8 weeks</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$399 – $1,299</td>
-                  <td className="px-4 py-3"><BuyLink search="mosquito magnet trap" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="mosquito magnet trap" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">CO₂ / octenol lure<br /><span className="font-normal text-xs text-gray-500">BG-Mosquitaire, Flowtron</span></td>
                   <td className="px-4 py-3 text-gray-700">CO₂ cylinder or bottle + octenol lure mimics a host; fan suction</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Good</strong> — targets host-seeking females</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$200 – $500</td>
-                  <td className="px-4 py-3"><BuyLink search="biogents mosquitaire co2 trap" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="biogents mosquitaire co2 trap" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">UV + fan<br /><span className="font-normal text-xs text-gray-500">DynaTrap, bug zappers</span></td>
                   <td className="px-4 py-3 text-gray-700">UV light attracts insects; fan sucks them in (zappers electrocute)</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Weak</strong> — ~5% of catch is mosquitoes</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$30 – $329</td>
-                  <td className="px-4 py-3"><BuyLink search="dynatrap insect trap" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="dynatrap insect trap" block>Check price →</BuyLink></td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 font-bold text-brand-800">Indoor trap<br /><span className="font-normal text-xs text-gray-500">Katchy, DynaTrap indoor</span></td>
                   <td className="px-4 py-3 text-gray-700">Small UV + fan + sticky glue card for flying insects near a lamp</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Limited</strong> — best for gnats &amp; fruit flies</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$40 – $70</td>
-                  <td className="px-4 py-3"><BuyLink search="katchy indoor insect trap" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="katchy indoor insect trap" block>Check price →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -244,9 +247,9 @@ export default function BestMosquitoTrapCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Compare current Canadian prices across the main trap types:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="mosquito magnet trap">Propane trap on Amazon.ca →</BuyLink>
-            <BuyLink search="dynatrap insect trap">UV + fan trap →</BuyLink>
-            <BuyLink search="katchy indoor insect trap">Indoor trap →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="mosquito magnet trap">Propane trap on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="dynatrap insect trap">UV + fan trap →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="katchy indoor insect trap">Indoor trap →</BuyLink>
           </div>
 
           <h2 id="top-pick">Top Pick: Propane CO₂ Traps (Mosquito Magnet)</h2>

@@ -8,6 +8,7 @@ import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'best-ozone-generator-canada'
 const DATE = '2026-07-21'
@@ -75,6 +76,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('best-ozone-generator-canada')
+
 export default function BestOzoneGeneratorCanadaPage() {
   return (
     <>
@@ -96,7 +99,7 @@ export default function BestOzoneGeneratorCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="Airthereal MA10K-PRO ozone generator" search="airthereal ma10k-pro ozone generator" label="Best overall" />
+      <StickyBuyBar tag={AMZ_TAG} name="Airthereal MA10K-PRO ozone generator" search="airthereal ma10k-pro ozone generator" label="Best overall" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -119,7 +122,7 @@ export default function BestOzoneGeneratorCanadaPage() {
 
       <section className="bg-white px-4 py-6">
         <div className="max-w-5xl mx-auto">
-          <AwardRow
+          <AwardRow tag={AMZ_TAG}
             heading="Our Picks — Best Ozone Generators in Canada"
             awards={[
               {
@@ -193,28 +196,28 @@ export default function BestOzoneGeneratorCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Cars, closets, single tiny rooms</td>
                   <td className="px-4 py-3 text-gray-700">Short runs, largely disposable</td>
                   <td className="px-4 py-3 text-gray-700">Too weak for a whole room</td>
-                  <td className="px-4 py-3"><BuyLink search="mini plug in ozone generator car" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="mini plug in ozone generator car" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Mid-output portable<br /><span className="font-normal text-xs text-gray-500">~3,500–6,000 mg/h</span></td>
                   <td className="px-4 py-3 text-gray-700">Bedroom, bathroom, small basement</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Good</strong> — one cycle per room</td>
                   <td className="px-4 py-3 text-gray-700">Longer runs on heavy odours</td>
-                  <td className="px-4 py-3"><BuyLink search="airthereal b50 portable ozone generator" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="airthereal b50 portable ozone generator" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Commercial value<br /><span className="font-normal text-xs text-gray-500">Enerzen class</span></td>
                   <td className="px-4 py-3 text-gray-700">Apartments, rental turnovers, cars</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Strong</strong> — output per dollar</td>
                   <td className="px-4 py-3 text-gray-700">Shock-treatment discipline still required</td>
-                  <td className="px-4 py-3"><BuyLink search="enerzen commercial ozone generator" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="enerzen commercial ozone generator" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">High output<br /><span className="font-normal text-xs text-gray-500">~10,000 mg/h — MA10K-PRO</span></td>
                   <td className="px-4 py-3 text-gray-700">Whole floors, big basements, smoke damage</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best</strong> — fastest single cycle</td>
                   <td className="px-4 py-3 text-gray-700">Overkill and pricier for one small room</td>
-                  <td className="px-4 py-3"><BuyLink search="airthereal ma10k-pro ozone generator" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="airthereal ma10k-pro ozone generator" block>Check price →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -241,10 +244,10 @@ export default function BestOzoneGeneratorCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability across the output classes:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="airthereal ma10k-pro ozone generator">Airthereal MA10K-PRO →</BuyLink>
-            <BuyLink search="enerzen commercial ozone generator">Enerzen commercial →</BuyLink>
-            <BuyLink search="airthereal b50 portable ozone generator">Airthereal B-series →</BuyLink>
-            <BuyLink search="mini plug in ozone generator car">Compact plug-in →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="airthereal ma10k-pro ozone generator">Airthereal MA10K-PRO →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="enerzen commercial ozone generator">Enerzen commercial →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="airthereal b50 portable ozone generator">Airthereal B-series →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="mini plug in ozone generator car">Compact plug-in →</BuyLink>
           </div>
 
           <h2>The Safety Protocol Comes First</h2>

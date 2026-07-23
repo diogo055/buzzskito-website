@@ -6,6 +6,7 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import SpecialistDisclosure from '@/components/SpecialistDisclosure'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'how-to-keep-mice-out-of-your-house-winter'
 const DATE = '2026-07-16'
@@ -70,6 +71,8 @@ export const metadata: Metadata = buildMetadata({
   type: 'article',
   publishedTime: DATE,
 })
+
+const AMZ_TAG = tagForSlug('how-to-keep-mice-out-of-your-house-winter')
 
 export default function HowToKeepMiceOutWinterPage() {
   return (
@@ -168,9 +171,9 @@ export default function HowToKeepMiceOutWinterPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the core exclusion kit:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="steel wool mice">Coarse steel wool for gaps →</BuyLink>
-            <BuyLink search="exterior foam sealant gaps">Exterior gap sealant foam →</BuyLink>
-            <BuyLink search="door sweep garage">Rodent-rated door sweeps →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="steel wool mice">Coarse steel wool for gaps →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="exterior foam sealant gaps">Exterior gap sealant foam →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="door sweep garage">Rodent-rated door sweeps →</BuyLink>
           </div>
 
           <h2>What Is the October Exclusion Checklist?</h2>
@@ -178,10 +181,10 @@ export default function HowToKeepMiceOutWinterPage() {
           <ol>
             <li><strong>Walk the full exterior at knee height.</strong> Mice enter low. Probe every penetration, joint, and gap with the pencil; tape-flag anything it slides into. Check behind the AC cover plate, behind downspouts, and where decks and steps meet the wall.</li>
             <li><strong>Plug every flagged penetration.</strong> Pack copper mesh or coarse steel wool into the annular gaps around the AC lineset, gas line, hose bibs, and cable holes, then cap with exterior sealant or gap foam. Metal first, foam second — never foam alone.</li>
-            <li><strong>Cover the weep holes.</strong> Slide louvre inserts into every open vertical joint along the base course of the brick. Count the holes first and buy 10–20% extra; corner runs hide more than you expect. <span className="whitespace-nowrap"><BuyLink search="brick weep hole covers" className="!px-3 !py-1.5 !text-xs">Weep hole covers →</BuyLink></span></li>
+            <li><strong>Cover the weep holes.</strong> Slide louvre inserts into every open vertical joint along the base course of the brick. Count the holes first and buy 10–20% extra; corner runs hide more than you expect. <span className="whitespace-nowrap"><BuyLink tag={AMZ_TAG} search="brick weep hole covers" className="!px-3 !py-1.5 !text-xs">Weep hole covers →</BuyLink></span></li>
             <li><strong>Rebuild the garage-door seal.</strong> Replace a flattened or cracked bottom astragal, add corner seal pads at both bottom corners, and glue a threshold seal to the slab if it has sunk away from the door. Look for chew notches in the vertical weatherstripping — a gnawed half-moon means mice are already using this door.</li>
             <li><strong>Fit door sweeps.</strong> Every exterior door and every door between garage and house gets a rodent-rated sweep. The pass test: no daylight visible from inside with the lights off.</li>
-            <li><strong>Screen the vents.</strong> Confirm dryer and exhaust flappers close fully and add rodent guards; screen any open soffit gaps with 6 mm hardware cloth. <span className="whitespace-nowrap"><BuyLink search="quarter inch hardware cloth" className="!px-3 !py-1.5 !text-xs">1/4-inch hardware cloth →</BuyLink></span></li>
+            <li><strong>Screen the vents.</strong> Confirm dryer and exhaust flappers close fully and add rodent guards; screen any open soffit gaps with 6 mm hardware cloth. <span className="whitespace-nowrap"><BuyLink tag={AMZ_TAG} search="quarter inch hardware cloth" className="!px-3 !py-1.5 !text-xs">1/4-inch hardware cloth →</BuyLink></span></li>
             <li><strong>Starve the perimeter.</strong> Move bird feeders 10+ metres from the house, store seed and pet food in steel or heavy plastic bins, pick up fallen fruit, and pull firewood and cardboard off the ground along exterior walls — a wood pile against the house is a mouse staging area.</li>
             <li><strong>Set a sentinel trap line.</strong> Two or three snap traps along the garage back wall and the furnace-room wall, checked weekly through November, tell you whether the seal-up held. Our <Link href="/blog/best-mouse-trap-canada">best mouse trap guide</Link> covers which traps and exactly where they go.</li>
           </ol>

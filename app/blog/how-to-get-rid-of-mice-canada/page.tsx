@@ -7,6 +7,7 @@ import SpecialistDisclosure from '@/components/SpecialistDisclosure'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'how-to-get-rid-of-mice-canada'
 const DATE = '2026-07-16'
@@ -71,6 +72,8 @@ export const metadata: Metadata = buildMetadata({
   type: 'article',
   publishedTime: DATE,
 })
+
+const AMZ_TAG = tagForSlug('how-to-get-rid-of-mice-canada')
 
 export default function HowToGetRidOfMiceCanadaPage() {
   return (
@@ -182,7 +185,7 @@ export default function HowToGetRidOfMiceCanadaPage() {
           </ul>
           <p>On trap choice: the classic Victor M325 wood snap trap remains the workhorse because it is cheap enough to deploy by the dozen — our <Link href="/blog/best-mouse-trap-canada">best mouse trap in Canada comparison</Link> covers snap vs electronic vs catch-and-release in depth. For no-see, no-touch disposal in the kitchen, the Victor M250S electronic trap kills in under 5 seconds and handles up to 100 kills per set of AA batteries; we tore down its real-world reliability in our <Link href="/blog/victor-electronic-mouse-trap-review-canada">Victor electronic trap review</Link>. And if droppings are over 1 cm long, stop — you have rats, mouse traps physically cannot kill them, and you want the <Link href="/blog/best-rat-trap-canada">best rat trap guide</Link> instead.</p>
 
-          <TopPick
+          <TopPick tag={AMZ_TAG}
             label="Our Top Pick for the trap line"
             name="Victor M325 Wood Snap Trap"
             blurb="The workhorse of DIY mouse control: cheap enough to buy by the dozen so you can flood night one with 12+ traps, with a fast, reliable kill bar. Bait a pea-sized smear of peanut butter, set it trigger-to-baseboard, and let the first-night catch do the heavy lifting."
@@ -195,8 +198,8 @@ export default function HowToGetRidOfMiceCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the trap-line staples:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="victor mouse trap 4 pack">Victor M325 snap traps →</BuyLink>
-            <BuyLink search="victor electronic mouse trap">Victor M250S electronic →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="victor mouse trap 4 pack">Victor M325 snap traps →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="victor electronic mouse trap">Victor M250S electronic →</BuyLink>
           </div>
 
           <h2>Step 3 — How Do You Seal Mice Out for Good? (Exclusion)</h2>
@@ -210,8 +213,8 @@ export default function HowToGetRidOfMiceCanadaPage() {
           <p><strong>The one material warning:</strong> expanding foam by itself is not exclusion — mice chew through cured foam almost recreationally. Foam is only a draft layer over a steel wool or mesh core. Full seasonal timing and a room-by-room checklist are in our companion guide to <Link href="/blog/how-to-keep-mice-out-of-your-house-winter">keeping mice out of your house over winter</Link>.</p>
           <p className="not-prose text-sm text-gray-600 mb-1">The two exclusion materials that do most of the work:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="steel wool mice">Coarse steel wool for gaps →</BuyLink>
-            <BuyLink search="door sweep draft stopper">Door sweeps →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="steel wool mice">Coarse steel wool for gaps →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="door sweep draft stopper">Door sweeps →</BuyLink>
           </div>
 
           <h2>Step 4 — How Do You Know the Mice Are Actually Gone?</h2>

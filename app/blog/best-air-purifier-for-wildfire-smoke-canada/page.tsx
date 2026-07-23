@@ -8,6 +8,7 @@ import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'best-air-purifier-for-wildfire-smoke-canada'
 const DATE = '2026-07-21'
@@ -75,6 +76,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('best-air-purifier-for-wildfire-smoke-canada')
+
 export default function BestAirPurifierWildfireSmokeCanadaPage() {
   return (
     <>
@@ -96,7 +99,7 @@ export default function BestAirPurifierWildfireSmokeCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="Coway Airmega (true HEPA + carbon)" search="coway airmega air purifier" label="Best overall" />
+      <StickyBuyBar tag={AMZ_TAG} name="Coway Airmega (true HEPA + carbon)" search="coway airmega air purifier" label="Best overall" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -119,7 +122,7 @@ export default function BestAirPurifierWildfireSmokeCanadaPage() {
 
       <section className="bg-white px-4 py-6">
         <div className="max-w-5xl mx-auto">
-          <AwardRow
+          <AwardRow tag={AMZ_TAG}
             heading="Our Picks — Best Air Purifiers for Wildfire Smoke in Canada"
             awards={[
               {
@@ -202,35 +205,35 @@ export default function BestAirPurifierWildfireSmokeCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Living room / main floor</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Strong</strong> &mdash; real carbon stage</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">High</strong> &mdash; fast clearing</td>
-                  <td className="px-4 py-3"><BuyLink search="coway airmega air purifier" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="coway airmega air purifier" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Levoit smoke/carbon<br /><span className="font-normal text-xs text-gray-500">best for odour</span></td>
                   <td className="px-4 py-3 text-gray-700">Any room where smell is the issue</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best</strong> &mdash; deep carbon load</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Good</strong> &mdash; size-dependent</td>
-                  <td className="px-4 py-3"><BuyLink search="levoit air purifier smoke true hepa carbon" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="levoit air purifier smoke true hepa carbon" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Airmega large-room<br /><span className="font-normal text-xs text-gray-500">big spaces</span></td>
                   <td className="px-4 py-3 text-gray-700">Open-concept / large living room</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Strong</strong> &mdash; scaled carbon</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Highest</strong> &mdash; big-room CADR</td>
-                  <td className="px-4 py-3"><BuyLink search="coway airmega large room air purifier" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="coway airmega large room air purifier" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Levoit Core 400S<br /><span className="font-normal text-xs text-gray-500">best value</span></td>
                   <td className="px-4 py-3 text-gray-700">Bedroom / medium living room</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Fair</strong> &mdash; carbon layer</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Good</strong> &mdash; mid-size</td>
-                  <td className="px-4 py-3"><BuyLink search="levoit core 400s air purifier" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="levoit core 400s air purifier" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Levoit Core 300<br /><span className="font-normal text-xs text-gray-500">bedroom</span></td>
                   <td className="px-4 py-3 text-gray-700">Single closed bedroom</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Fair</strong> &mdash; thin carbon</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Modest</strong> &mdash; small-room only</td>
-                  <td className="px-4 py-3"><BuyLink search="levoit core 300 air purifier" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="levoit core 300 air purifier" block>Check price →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -257,10 +260,10 @@ export default function BestAirPurifierWildfireSmokeCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the picks:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="coway airmega air purifier">Coway Airmega →</BuyLink>
-            <BuyLink search="levoit air purifier smoke true hepa carbon">Levoit smoke/carbon →</BuyLink>
-            <BuyLink search="coway airmega large room air purifier">Airmega large-room →</BuyLink>
-            <BuyLink search="levoit core 400s air purifier">Levoit Core 400S →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="coway airmega air purifier">Coway Airmega →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="levoit air purifier smoke true hepa carbon">Levoit smoke/carbon →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="coway airmega large room air purifier">Airmega large-room →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="levoit core 400s air purifier">Levoit Core 400S →</BuyLink>
           </div>
 
           <h2>Why Smoke Needs Both HEPA and Carbon</h2>

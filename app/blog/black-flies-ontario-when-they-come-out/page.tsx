@@ -9,6 +9,7 @@ import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { MOSQUITO_BLOGS } from '@/lib/constants'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'black-flies-ontario-when-they-come-out'
 const DATE = '2026-04-26'
@@ -59,6 +60,8 @@ export const metadata: Metadata = buildMetadata({
   publishedTime: DATE,
   modifiedTime: UPDATED,
 })
+
+const AMZ_TAG = tagForSlug('black-flies-ontario-when-they-come-out')
 
 export default function BlackFliesOntarioPage() {
   return (
@@ -201,7 +204,7 @@ export default function BlackFliesOntarioPage() {
         <ul>
           <li><strong>Wash it right away.</strong> Clean the bite with soap and cool water to remove residual saliva and lower the infection risk from the open wound.</li>
           <li><strong>Cool the swelling.</strong> Apply a cold compress or ice wrapped in cloth for 10&ndash;15 minutes to bring down inflammation.</li>
-          <li><strong>Calm the itch.</strong> An after-bite itch relief product, hydrocortisone cream, or an oral antihistamine can take the edge off the itch and swelling. <BuyLink search="after bite itch relief">Check after-bite itch relief on Amazon.ca →</BuyLink></li>
+          <li><strong>Calm the itch.</strong> An after-bite itch relief product, hydrocortisone cream, or an oral antihistamine can take the edge off the itch and swelling. <BuyLink tag={AMZ_TAG} search="after bite itch relief">Check after-bite itch relief on Amazon.ca →</BuyLink></li>
           <li><strong>Do not scratch.</strong> Scratching reopens the wound and is the main way black fly bites become infected. Keep it covered if you cannot leave it alone.</li>
         </ul>
 
@@ -239,8 +242,8 @@ export default function BlackFliesOntarioPage() {
           <li><strong>Avoid scented products.</strong> Floral perfumes, scented sunscreens, and hair products attract black flies.</li>
           <li><strong>Wear light colours.</strong> Black flies are strongly attracted to dark blue, brown, and black. Light grey, beige, and white are far less attractive.</li>
           <li><strong>Cover up.</strong> Long sleeves, pants, and a hat block most bites — black flies are notorious for crawling into hairlines and behind ears.</li>
-          <li><strong>Use DEET or picaridin repellent</strong> on exposed skin. Picaridin (also sold as icaridin) is odourless, non-greasy, and does not damage plastics or gear the way DEET can, which makes it popular for all-day spring wear. <BuyLink search="picaridin insect repellent canada">Check picaridin repellents on Amazon.ca →</BuyLink> See our full <Link href="/blog/picaridin-vs-deet-canada" className="text-brand-700 underline">picaridin vs DEET comparison</Link> to pick the right active.</li>
-          <li><strong>Treat your clothing with permethrin.</strong> Permethrin-treated clothing is highly effective for outdoor workers, hikers, and anyone spending long hours near waterways during the May–June emergence — it kills black flies on contact and lasts through several washes. <BuyLink search="sawyer permethrin clothing spray">Check permethrin clothing spray on Amazon.ca →</BuyLink> Read our <Link href="/blog/permethrin-canada-yard-clothing-spray" className="text-brand-700 underline">permethrin guide for Canada</Link> for safe application.</li>
+          <li><strong>Use DEET or picaridin repellent</strong> on exposed skin. Picaridin (also sold as icaridin) is odourless, non-greasy, and does not damage plastics or gear the way DEET can, which makes it popular for all-day spring wear. <BuyLink tag={AMZ_TAG} search="picaridin insect repellent canada">Check picaridin repellents on Amazon.ca →</BuyLink> See our full <Link href="/blog/picaridin-vs-deet-canada" className="text-brand-700 underline">picaridin vs DEET comparison</Link> to pick the right active.</li>
+          <li><strong>Treat your clothing with permethrin.</strong> Permethrin-treated clothing is highly effective for outdoor workers, hikers, and anyone spending long hours near waterways during the May–June emergence — it kills black flies on contact and lasts through several washes. <BuyLink tag={AMZ_TAG} search="sawyer permethrin clothing spray">Check permethrin clothing spray on Amazon.ca →</BuyLink> Read our <Link href="/blog/permethrin-canada-yard-clothing-spray" className="text-brand-700 underline">permethrin guide for Canada</Link> for safe application.</li>
           <li><strong>Stay away from waterways during peak emergence.</strong> The closer you are to a river or stream in late May and early June, the heavier the pressure.</li>
           <li><strong>Eliminate yard rest sites.</strong> Trim back overgrown shrubs and dense vegetation along the property edge.</li>
           <li><strong>Schedule a barrier spray.</strong> A professional treatment in mid-May provides the strongest coverage during the worst three weeks.</li>
@@ -256,7 +259,7 @@ export default function BlackFliesOntarioPage() {
           <li><strong>Skip the scents.</strong> Floral perfumes, scented sunscreens, and hair products all attract black flies.</li>
         </ul>
 
-        <TopPick
+        <TopPick tag={AMZ_TAG}
           label="Best Repellent for Black Flies"
           name="Picaridin (Icaridin) Insect Repellent"
           blurb="For black flies, a 20% picaridin repellent is our go-to frontline defence — it is odourless, non-greasy, and won't melt plastics or gear the way DEET can, so it holds up through long spring days near waterways. Apply to every patch of exposed skin, since black flies crawl into hairlines and behind ears."

@@ -8,6 +8,7 @@ import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'how-to-get-rid-of-cluster-flies-canada'
 const DATE = '2026-07-21'
@@ -75,6 +76,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('how-to-get-rid-of-cluster-flies-canada')
+
 export default function ClusterFliesCanadaPage() {
   return (
     <>
@@ -96,7 +99,7 @@ export default function ClusterFliesCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="Clear window fly traps (for cluster flies at the glass)" search="window fly trap clear sticky" label="Most practical tool" />
+      <StickyBuyBar tag={AMZ_TAG} name="Clear window fly traps (for cluster flies at the glass)" search="window fly trap clear sticky" label="Most practical tool" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -119,7 +122,7 @@ export default function ClusterFliesCanadaPage() {
 
       <section className="bg-white px-4 py-6">
         <div className="max-w-3xl mx-auto">
-          <TopPick
+          <TopPick tag={AMZ_TAG}
             label="Most Practical Tool for Living-Space Flies"
             name="Clear window fly traps"
             blurb="Cluster flies that wake indoors head straight for the brightest window — so a clear, sticky window trap placed on the sunniest pane is the single most practical catch tool. The film disappears against the glass, quietly collects the flies as they gather, and peels off when full. It won't fix the source (that's sealing), but for the flies that reach living space it beats spraying every one you see. Refill packs are the recurring cost through the winter."
@@ -156,21 +159,21 @@ export default function ClusterFliesCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Catches flies as they gather at the brightest window</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">No</strong> &mdash; manages living-space flies</td>
                   <td className="px-4 py-3 text-gray-700">The money tool for flies that reach rooms</td>
-                  <td className="px-4 py-3"><BuyLink search="window fly trap clear sticky" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="window fly trap clear sticky" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">UV light-glue trap<br /><span className="font-normal text-xs text-gray-500">Plug-in indoor catcher</span></td>
                   <td className="px-4 py-3 text-gray-700">Draws flies to a UV light and a hidden glue card</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">No</strong> &mdash; manages living-space flies</td>
                   <td className="px-4 py-3 text-gray-700">A room where you&rsquo;d rather not see sticky strips</td>
-                  <td className="px-4 py-3"><BuyLink search="katchy indoor insect trap" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="katchy indoor insect trap" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Caulk &amp; exclusion<br /><span className="font-normal text-xs text-gray-500">Sealant + vent screening</span></td>
                   <td className="px-4 py-3 text-gray-700">Closes the gaps flies use to get into the walls</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Yes</strong> &mdash; the only step that does</td>
                   <td className="px-4 py-3 text-gray-700">Late-summer prevention, before they arrive</td>
-                  <td className="px-4 py-3"><BuyLink search="exterior gap silicone caulk" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="exterior gap silicone caulk" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Vacuum<br /><span className="font-normal text-xs text-gray-500">Wand or shop vac</span></td>
@@ -242,9 +245,9 @@ export default function ClusterFliesCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the practical tools:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="window fly trap clear sticky">Clear window fly traps →</BuyLink>
-            <BuyLink search="katchy indoor insect trap">UV light-glue trap →</BuyLink>
-            <BuyLink search="exterior gap silicone caulk">Exterior sealant →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="window fly trap clear sticky">Clear window fly traps →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="katchy indoor insect trap">UV light-glue trap →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="exterior gap silicone caulk">Exterior sealant →</BuyLink>
           </div>
 
           <h2>The Lifecycle: Earthworm Parasites, Not Kitchen Pests</h2>
@@ -274,7 +277,7 @@ export default function ClusterFliesCanadaPage() {
           <p>For the flies that make it into your rooms, the most practical tool exploits their one predictable behaviour: <strong>a waking cluster fly goes to the light.</strong> Put a catch device where the light is and you intercept them there.</p>
           <p>The simplest version is a <strong>clear window fly trap</strong> &mdash; a transparent sticky film or strip you apply to the sunniest windowpane. The flies gather at that window as they rouse, land on the glass, and stick. Because the film is nearly invisible, it does the job without the eyesore of a hanging strip, and you peel it off and replace it when it fills. The refills are the recurring cost through the winter, which is exactly what you would expect from a symptom-management tool. If you would rather not see sticky film on the glass, a <strong>UV light-glue trap</strong> of the kind we cover in our <Link href="/blog/katchy-indoor-insect-trap-review-canada">Katchy indoor insect trap review</Link> works in a room where flies collect &mdash; it draws them to a UV light and a concealed glue card. Neither trap touches the flies sleeping in the voids, so think of them as living-space management that pairs with sealing, not a replacement for it.</p>
           <div className="not-prose my-4">
-            <BuyLink search="window fly trap clear sticky">Check window fly traps on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="window fly trap clear sticky">Check window fly traps on Amazon.ca →</BuyLink>
           </div>
 
           <h2>The Vacuum Protocol</h2>

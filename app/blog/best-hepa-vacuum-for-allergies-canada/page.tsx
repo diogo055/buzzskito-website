@@ -8,6 +8,7 @@ import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'best-hepa-vacuum-for-allergies-canada'
 const DATE = '2026-07-21'
@@ -75,6 +76,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('best-hepa-vacuum-for-allergies-canada')
+
 export default function BestHepaVacuumForAllergiesCanadaPage() {
   return (
     <>
@@ -96,7 +99,7 @@ export default function BestHepaVacuumForAllergiesCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="Sealed-system HEPA bagged canister vacuum" search="miele sealed system hepa bagged canister vacuum" label="Best overall" />
+      <StickyBuyBar tag={AMZ_TAG} name="Sealed-system HEPA bagged canister vacuum" search="miele sealed system hepa bagged canister vacuum" label="Best overall" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -119,7 +122,7 @@ export default function BestHepaVacuumForAllergiesCanadaPage() {
 
       <section className="bg-white px-4 py-6">
         <div className="max-w-5xl mx-auto">
-          <AwardRow
+          <AwardRow tag={AMZ_TAG}
             heading="Our Picks — Best HEPA Vacuums for Allergies in Canada"
             awards={[
               {
@@ -193,28 +196,28 @@ export default function BestHepaVacuumForAllergiesCanadaPage() {
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best</strong> &mdash; fully sealed body, self-sealing bag</td>
                   <td className="px-4 py-3 text-gray-700">Maximum allergen containment; whole-home cleaning</td>
                   <td className="px-4 py-3 text-gray-700">Premium price; hose to manage</td>
-                  <td className="px-4 py-3"><BuyLink search="miele sealed system hepa bagged canister vacuum" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="miele sealed system hepa bagged canister vacuum" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Whole-machine-HEPA stick<br /><span className="font-normal text-xs text-gray-500">Dyson-style, cordless</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Good</strong> &mdash; sealed airflow, but empty outdoors</td>
                   <td className="px-4 py-3 text-gray-700">Effortless daily &amp; spot cleaning; small homes</td>
                   <td className="px-4 py-3 text-gray-700">Bagless disposal; limited runtime</td>
-                  <td className="px-4 py-3"><BuyLink search="dyson cordless vacuum whole machine hepa" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="dyson cordless vacuum whole machine hepa" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Sealed corded upright<br /><span className="font-normal text-xs text-gray-500">Shark-style, value</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Good</strong> &mdash; complete-seal system, HEPA</td>
                   <td className="px-4 py-3 text-gray-700">Embedded pet dander on wall-to-wall carpet</td>
                   <td className="px-4 py-3 text-gray-700">Bagless bin; heavier, corded</td>
-                  <td className="px-4 py-3"><BuyLink search="shark anti allergen complete seal hepa upright vacuum" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="shark anti allergen complete seal hepa upright vacuum" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Budget bagged canister<br /><span className="font-normal text-xs text-gray-500">value</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Fair</strong> &mdash; bag helps, body may leak</td>
                   <td className="px-4 py-3 text-gray-700">Mild allergy; lightly carpeted homes</td>
                   <td className="px-4 py-3 text-gray-700">Not fully sealed; weaker suction</td>
-                  <td className="px-4 py-3"><BuyLink search="bagged hepa canister vacuum" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bagged hepa canister vacuum" block>Check price →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -241,10 +244,10 @@ export default function BestHepaVacuumForAllergiesCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the four picks:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="miele sealed system hepa bagged canister vacuum">Sealed-system canister →</BuyLink>
-            <BuyLink search="dyson cordless vacuum whole machine hepa">Cordless HEPA stick →</BuyLink>
-            <BuyLink search="shark anti allergen complete seal hepa upright vacuum">Sealed HEPA upright →</BuyLink>
-            <BuyLink search="bagged hepa canister vacuum">Budget bagged canister →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="miele sealed system hepa bagged canister vacuum">Sealed-system canister →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="dyson cordless vacuum whole machine hepa">Cordless HEPA stick →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="shark anti allergen complete seal hepa upright vacuum">Sealed HEPA upright →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="bagged hepa canister vacuum">Budget bagged canister →</BuyLink>
           </div>
 
           <h2>Why &ldquo;Sealed System&rdquo; Matters More Than the Filter Grade</h2>

@@ -8,6 +8,7 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'best-screen-tent-canada'
 const DATE = '2026-07-14'
@@ -65,6 +66,8 @@ export const metadata: Metadata = buildMetadata({
   publishedTime: DATE,
 })
 
+const AMZ_TAG = tagForSlug('best-screen-tent-canada')
+
 export default function BestScreenTentCanadaPage() {
   return (
     <>
@@ -86,7 +89,7 @@ export default function BestScreenTentCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="Coleman Instant Screened Canopy 11x11" search="coleman instant screen house 11x11" label="Best overall" />
+      <StickyBuyBar tag={AMZ_TAG} name="Coleman Instant Screened Canopy 11x11" search="coleman instant screen house 11x11" label="Best overall" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -108,7 +111,7 @@ export default function BestScreenTentCanadaPage() {
 
       <section className="bg-white px-4 py-6">
         <div className="max-w-5xl mx-auto">
-          <AwardRow
+          <AwardRow tag={AMZ_TAG}
             heading="Our Picks — Best Screen Tents in Canada"
             awards={[
               {
@@ -194,7 +197,7 @@ export default function BestScreenTentCanadaPage() {
                     <td className="px-4 py-3 text-gray-700">{size}</td>
                     <td className="px-4 py-3 text-gray-700">{setup}</td>
                     <td className="px-4 py-3 text-xs text-gray-600">{best}</td>
-                    <td className="px-4 py-3"><BuyLink search={search} block>Check price →</BuyLink></td>
+                    <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search={search} block>Check price →</BuyLink></td>
                   </tr>
                 ))}
               </tbody>
@@ -212,7 +215,7 @@ export default function BestScreenTentCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Jump straight to current Canadian availability for our top pick:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="coleman instant screen house 11x11">Check the Coleman 11x11 on Amazon.ca &rarr;</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="coleman instant screen house 11x11">Check the Coleman 11x11 on Amazon.ca &rarr;</BuyLink>
           </div>
 
           <h2>Why a Screen Tent Is the Best Chemical-Free Mosquito Defence</h2>
@@ -233,27 +236,27 @@ export default function BestScreenTentCanadaPage() {
           <h3>1. Coleman Instant Screened Canopy 11x11 — Best Overall Screen House</h3>
           <p>Coleman&rsquo;s instant-frame design is the reason this is our top pick: the poles come pre-attached to the canopy, so setup is a matter of unfolding the frame, extending the telescoping legs, and clicking them into place. One adult can genuinely do it in about three minutes — no separate pole bundle, no threading fiberglass through sleeves in the wind.</p>
           <p>At 11 x 11 ft (3.4 x 3.4 m), the 121 sq ft footprint fits a standard campsite pad or a modest backyard deck, and it comfortably covers a table and four chairs. Two zippered doors mean you&rsquo;re not squeezing past seated guests to get out, and the wheeled carry bag makes it manageable for one person to haul from the car. For Canadian buyers this is the safest all-round choice: big enough for a family, fast enough that you&rsquo;ll actually bother setting it up for a two-night trip.</p>
-          <div className="not-prose my-4"><BuyLink search="coleman instant screen house 11x11">Check price on Amazon.ca &rarr;</BuyLink></div>
+          <div className="not-prose my-4"><BuyLink tag={AMZ_TAG} search="coleman instant screen house 11x11">Check price on Amazon.ca &rarr;</BuyLink></div>
 
           <h3>2. Coleman Skylodge 15x13 Screenhouse — Best for Hosting</h3>
           <p>The Skylodge is the screen house you buy when the 11x11 feels tight. Its 15 x 13 ft footprint delivers 195 sq ft (18 m&sup2;) — enough for a full-size picnic table with benches, a cooler, and standing room for six-plus people. The peak is tall enough that nobody hunches, which matters more than you&rsquo;d think over a three-hour cottage dinner.</p>
           <p>It uses the same instant-frame concept as the 11x11 but at this scale you&rsquo;ll want a second pair of hands to square it up, especially in any breeze. It&rsquo;s also bulkier in the trunk. If your screen tent will live mostly at a seasonal campsite, trailer lot, or cottage deck — set up for weeks at a time rather than packed daily — the extra space is worth every bit of the added bulk.</p>
-          <div className="not-prose my-4"><BuyLink search="coleman skylodge 15x13 screenhouse">Check price on Amazon.ca &rarr;</BuyLink></div>
+          <div className="not-prose my-4"><BuyLink tag={AMZ_TAG} search="coleman skylodge 15x13 screenhouse">Check price on Amazon.ca &rarr;</BuyLink></div>
 
           <h3>3. Coleman Back Home 12x10 — Best Backyard Screen House</h3>
           <p>The Back Home line is Coleman&rsquo;s backyard-oriented screen house: a 12 x 10 ft rectangle that suits deck and patio placement better than square campsite models, with an instant frame that goes up in three to five minutes. The rectangular footprint is the quiet advantage — most patio dining sets and rectangular tables fit a 12x10 more naturally than an 11x11 square.</p>
           <p>This is the model we&rsquo;d point at GTA homeowners who want a semi-permanent mesh dining room from May to September without committing to a steel-frame gazebo. Take it down for storms and it will give you multiple seasons; our <Link href="/blog/mosquito-screens-patio-canada">patio mosquito screen guide</Link> covers the full spectrum of patio options if your space needs something more fitted.</p>
-          <div className="not-prose my-4"><BuyLink search="coleman back home screen house 12x10">Check price on Amazon.ca &rarr;</BuyLink></div>
+          <div className="not-prose my-4"><BuyLink tag={AMZ_TAG} search="coleman back home screen house 12x10">Check price on Amazon.ca &rarr;</BuyLink></div>
 
           <h3>4. CAMPROS 12x10 Screen House — Best Budget Screen Tent</h3>
           <p>CAMPROS has built a reputation on amazon.ca for delivering a lot of tent per dollar, and its 12x10 screen house follows the formula: the same 120 sq ft coverage as the Coleman Back Home, mesh on all sides, two large doors — at a price that typically undercuts the name brands meaningfully.</p>
           <p>The trade-off is the frame. This is a traditional pole-assembly design: separate poles, sleeves, and a 10&ndash;15 minute setup that goes much better with two people. If the screen house is going up once at the cottage in June and coming down in September, that setup time is irrelevant and the CAMPROS is the value play. If you&rsquo;re packing it up every weekend, spend more on an instant or pop-up frame — you&rsquo;ll resent the poles by August.</p>
-          <div className="not-prose my-4"><BuyLink search="campros screen house 12x10">Check price on Amazon.ca &rarr;</BuyLink></div>
+          <div className="not-prose my-4"><BuyLink tag={AMZ_TAG} search="campros screen house 12x10">Check price on Amazon.ca &rarr;</BuyLink></div>
 
           <h3>5. EAST OAK 10x10 Pop-Up Screen Room — Best Pop-Up Screen House</h3>
           <p>The EAST OAK is the definition of a pop-up screen room: a hub-style frame that unfolds in one piece, like a giant umbrella. One person can have all 100 sq ft standing in about a minute, and takedown is just as fast. That makes it the pick for the situations where setup friction kills good intentions — dockside dinners, tailgates, beach days, weekly trips to the splash pad with a baby who needs a bite-free zone.</p>
           <p>The pop-up mechanism adds weight relative to its footprint, so think of it as car-to-site portable rather than carry-down-a-trail portable. And as with all pop-up frames, the many pivoting joints are the first casualty in high wind — stake it properly and drop it before storms. For pure speed-to-shelter, nothing else in this guide touches it.</p>
-          <div className="not-prose my-4"><BuyLink search="east oak pop up screen room 10x10">Check price on Amazon.ca &rarr;</BuyLink></div>
+          <div className="not-prose my-4"><BuyLink tag={AMZ_TAG} search="east oak pop up screen room 10x10">Check price on Amazon.ca &rarr;</BuyLink></div>
 
           <h2>Screen Tent vs Screen House vs Pop-Up Screen Room — Sorting Out the Names</h2>
           <p>Shopping this category in Canada is confusing because retailers use four names for near-identical products. Here&rsquo;s the decoder:</p>

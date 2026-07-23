@@ -35,7 +35,8 @@ export default function AwardCard({
   cons,
   cta = 'Check price on Amazon.ca',
   featured = false,
-}: Award) {
+  tag,
+}: Award & { tag?: string }) {
   return (
     <div
       className={`not-prose flex h-full flex-col rounded-2xl border bg-white p-5 shadow-sm transition-transform hover:-translate-y-0.5 ${
@@ -57,7 +58,7 @@ export default function AwardCard({
       <p className="mt-1 text-sm leading-relaxed text-gray-600">{why}</p>
       <ProsCons pros={pros ?? []} cons={cons ?? []} />
       <div className="mt-auto pt-4">
-        <BuyLink search={search} asin={asin} block>
+        <BuyLink search={search} asin={asin} tag={tag} block>
           {cta} →
         </BuyLink>
       </div>

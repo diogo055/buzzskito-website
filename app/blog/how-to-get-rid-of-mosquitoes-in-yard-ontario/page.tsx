@@ -8,6 +8,7 @@ import TopPick from '@/components/TopPick'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { MOSQUITO_BLOGS, TICK_BLOGS } from '@/lib/constants'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'how-to-get-rid-of-mosquitoes-in-yard-ontario'
 const DATE = '2026-04-29'
@@ -32,6 +33,8 @@ export const metadata: Metadata = buildMetadata({
   type: 'article',
   publishedTime: DATE,
 })
+
+const AMZ_TAG = tagForSlug('how-to-get-rid-of-mosquitoes-in-yard-ontario')
 
 export default function HowToGetRidOfMosquitoesInYardOntarioPage() {
   return (
@@ -97,9 +100,9 @@ export default function HowToGetRidOfMosquitoesInYardOntarioPage() {
 
         <h3>3. Treat Rain Barrels with BTI Mosquito Dunks</h3>
         <p>Rain barrels are productive mosquito breeding sites unless treated. BTI (Bacillus thuringiensis israelensis) mosquito dunks are the gold-standard solution &mdash; the widely sold Summit Mosquito Dunks are the reference product. They kill mosquito larvae within 24 hours and are completely safe for fish, pets, beneficial insects, and humans (<a href="https://www.canada.ca/en/health-canada/services/consumer-product-safety/pesticides-pest-management.html" rel="noopener" className="text-brand-700 hover:underline">Health Canada</a> registers BTI as a low-risk larvicide). One dunk treats up to 100 sq ft of water surface for 30 days.</p>
-        <p><BuyLink search="summit mosquito dunks">Check Summit Mosquito Dunks prices on Amazon.ca &rarr;</BuyLink> For dosing, brand comparisons, and safety notes, see our <Link href="/blog/mosquito-dunks-canada-guide" className="text-brand-700 hover:underline">complete guide to mosquito dunks in Canada</Link>.</p>
+        <p><BuyLink tag={AMZ_TAG} search="summit mosquito dunks">Check Summit Mosquito Dunks prices on Amazon.ca &rarr;</BuyLink> For dosing, brand comparisons, and safety notes, see our <Link href="/blog/mosquito-dunks-canada-guide" className="text-brand-700 hover:underline">complete guide to mosquito dunks in Canada</Link>.</p>
 
-        <TopPick
+        <TopPick tag={AMZ_TAG}
           label="Our Top Pick for Water You Can't Drain"
           name="Summit BTI Mosquito Dunks"
           blurb="For rain barrels, pond features, and pooling drains you can't empty, floating BTI dunks are the gold-standard larvicide — they kill mosquito larvae within a day and keep working for weeks, while staying safe around fish, pets, and pollinators. The single most useful buyable product in this whole guide."
@@ -129,7 +132,7 @@ export default function HowToGetRidOfMosquitoesInYardOntarioPage() {
 
         <h3>10. Use Personal DEET or Picaridin Repellent for Outdoor Activities</h3>
         <p>DEET (20–30% concentration) and picaridin (also called icaridin, 20%) are the most effective personal mosquito repellents in Canada. Both are registered by <a href="https://www.canada.ca/en/health-canada/services/consumer-product-safety/pesticides-pest-management.html" rel="noopener" className="text-brand-700 hover:underline">Health Canada</a>. DEET is the longest-studied active; picaridin is odourless, non-greasy, and won&apos;t damage plastics or gear. Apply when spending extended time outdoors, especially at dusk/dawn. Personal repellent doesn&apos;t reduce yard mosquito population — but it prevents bites during outdoor activities.</p>
-        <p><BuyLink search="picaridin insect repellent canada">Check picaridin repellent prices on Amazon.ca &rarr;</BuyLink> Not sure which active to pick? Our <Link href="/blog/picaridin-vs-deet-canada" className="text-brand-700 hover:underline">picaridin vs DEET comparison for Canada</Link> breaks down protection time, safety, and cost.</p>
+        <p><BuyLink tag={AMZ_TAG} search="picaridin insect repellent canada">Check picaridin repellent prices on Amazon.ca &rarr;</BuyLink> Not sure which active to pick? Our <Link href="/blog/picaridin-vs-deet-canada" className="text-brand-700 hover:underline">picaridin vs DEET comparison for Canada</Link> breaks down protection time, safety, and cost.</p>
 
         <h3>11. Check Tree Holes and Catch Basins on Your Lot</h3>
         <p>Old tree holes that collect rainwater are productive breeding sites — fill with sand or expanding foam. Driveway catch basins and yard drains can hold water for weeks; treat with BTI dunks if water persists.</p>

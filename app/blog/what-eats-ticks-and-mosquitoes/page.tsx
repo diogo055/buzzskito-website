@@ -7,6 +7,7 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'what-eats-ticks-and-mosquitoes'
 const DATE = '2026-07-12'
@@ -72,6 +73,8 @@ export const metadata: Metadata = buildMetadata({
   publishedTime: DATE,
   modifiedTime: UPDATED,
 })
+
+const AMZ_TAG = tagForSlug('what-eats-ticks-and-mosquitoes')
 
 export default function WhatEatsTicksAndMosquitoesPage() {
   return (
@@ -180,11 +183,11 @@ export default function WhatEatsTicksAndMosquitoesPage() {
             <li><strong>Chickens and ducks</strong> — eat ticks and, near water, mosquito larvae and pupae. Helpful in the areas they forage, but you would not want them foraging on your entertaining patio.</li>
             <li><strong>Opossums</strong> — the internet loves them, and there is some truth here: opossums groom fastidiously and eat ticks that latch onto them. A frequently cited 2009 study estimated one opossum could kill thousands of ticks a season. But an honest guide has to add the caveat: a 2021 study looked for ticks inside wild opossum stomachs and found essentially none, casting doubt on the tick-vacuum reputation. Opossums are still good neighbours to have — they just are not a tick-control plan.</li>
             <li><strong>Wild turkeys and ground birds</strong> — peck up ticks while foraging, but turkeys can also transport ticks onto a property, so the net effect is minor.</li>
-            <li><strong>Beneficial nematodes and fungi</strong> — microscopic <em>Steinernema</em> nematodes and the fungus <em>Metarhizium</em> attack ticks in the soil. This is an emerging, chemical-free approach that shows promise in trials, though field results are still patchy and treatments must be reapplied. If you want to try it, live nematodes are sold for lawn application and watered into the soil where ticks overwinter: <BuyLink search="beneficial nematodes lawn">Check price on Amazon.ca &rarr;</BuyLink></li>
+            <li><strong>Beneficial nematodes and fungi</strong> — microscopic <em>Steinernema</em> nematodes and the fungus <em>Metarhizium</em> attack ticks in the soil. This is an emerging, chemical-free approach that shows promise in trials, though field results are still patchy and treatments must be reapplied. If you want to try it, live nematodes are sold for lawn application and watered into the soil where ticks overwinter: <BuyLink tag={AMZ_TAG} search="beneficial nematodes lawn">Check price on Amazon.ca &rarr;</BuyLink></li>
             <li><strong>Ants, ground beetles, and parasitic wasps</strong> — provide a quiet background level of tick-egg and larva predation that you will never notice but that helps hold wild numbers down.</li>
           </ul>
 
-          <TopPick
+          <TopPick tag={AMZ_TAG}
             label="Best Natural Tick Control You Can Actually Buy"
             name="Beneficial Nematodes (live, lawn-applied)"
             blurb="If you want to recruit a real predator into your soil, live Steinernema nematodes are the one entry on this list you can order and apply yourself. Watered into shaded lawn edges and leaf-litter borders, they hunt tick larvae and nymphs where they overwinter. Results are patchy and need reapplication, so treat them as a chemical-free supplement to habitat control — not a standalone fix."

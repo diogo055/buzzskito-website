@@ -8,6 +8,7 @@ import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'best-commercial-fly-light-trap-canada'
 const DATE = '2026-07-21'
@@ -75,6 +76,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('best-commercial-fly-light-trap-canada')
+
 export default function BestCommercialFlyLightTrapCanadaPage() {
   return (
     <>
@@ -96,7 +99,7 @@ export default function BestCommercialFlyLightTrapCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="Awoco stainless glue-board fly light trap" search="awoco fly trap commercial stainless" label="Best value" />
+      <StickyBuyBar tag={AMZ_TAG} name="Awoco stainless glue-board fly light trap" search="awoco fly trap commercial stainless" label="Best value" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -119,7 +122,7 @@ export default function BestCommercialFlyLightTrapCanadaPage() {
 
       <section className="bg-white px-4 py-6">
         <div className="max-w-5xl mx-auto">
-          <AwardRow
+          <AwardRow tag={AMZ_TAG}
             heading="Our Picks — Best Commercial Fly Light Traps in Canada"
             awards={[
               {
@@ -193,28 +196,28 @@ export default function BestCommercialFlyLightTrapCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">UV lures flies onto a hidden replaceable adhesive board</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best</strong> &mdash; insects held intact, no scatter</td>
                   <td className="px-4 py-3 text-gray-700">Kitchens, prep, food storage, HACCP sites</td>
-                  <td className="px-4 py-3"><BuyLink search="awoco fly trap commercial stainless" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="awoco fly trap commercial stainless" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Multi-lamp ILT<br /><span className="font-normal text-xs text-gray-500">high-output</span></td>
                   <td className="px-4 py-3 text-gray-700">Multiple UV lamps + large glue board for open rooms</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Good</strong> &mdash; food-safe if glue-board type</td>
                   <td className="px-4 py-3 text-gray-700">Warehouses, food plants, big back-of-house</td>
-                  <td className="px-4 py-3"><BuyLink search="commercial insect light trap 2x15w glue board" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="commercial insect light trap 2x15w glue board" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Decorative sconce ILT<br /><span className="font-normal text-xs text-gray-500">front-of-house</span></td>
                   <td className="px-4 py-3 text-gray-700">Glue board hidden inside a wall-light-style shell</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Good</strong> &mdash; discreet, food-safe capture</td>
                   <td className="px-4 py-3 text-gray-700">Dining rooms, retail, cafe fronts</td>
-                  <td className="px-4 py-3"><BuyLink search="decorative fly light trap sconce glue board" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="decorative fly light trap sconce glue board" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Electric zapper<br /><span className="font-normal text-xs text-gray-500">grid kill</span></td>
                   <td className="px-4 py-3 text-gray-700">UV lures flies onto a high-voltage electrocution grid</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-red-700">Avoid</strong> &mdash; scatters fragments, not food-safe</td>
                   <td className="px-4 py-3 text-gray-700">Docks, warehouses, non-food back areas only</td>
-                  <td className="px-4 py-3"><BuyLink search="commercial bug zapper indoor" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="commercial bug zapper indoor" block>Check price →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -241,10 +244,10 @@ export default function BestCommercialFlyLightTrapCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the main commercial trap types:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="awoco fly trap commercial stainless">Awoco glue-board trap →</BuyLink>
-            <BuyLink search="vector insect light trap glue board">Vector encapsulation trap →</BuyLink>
-            <BuyLink search="commercial insect light trap 2x15w glue board">Multi-lamp ILT →</BuyLink>
-            <BuyLink search="decorative fly light trap sconce glue board">Decorative sconce trap →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="awoco fly trap commercial stainless">Awoco glue-board trap →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="vector insect light trap glue board">Vector encapsulation trap →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="commercial insect light trap 2x15w glue board">Multi-lamp ILT →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="decorative fly light trap sconce glue board">Decorative sconce trap →</BuyLink>
           </div>
 
           <h2>Glue-Board vs Zapper: The Choice That Decides Everything</h2>

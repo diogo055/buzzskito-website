@@ -7,6 +7,7 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'no-see-ums-biting-midges-ontario'
 const DATE = '2026-07-12'
@@ -56,6 +57,8 @@ export const metadata: Metadata = buildMetadata({
   publishedTime: DATE,
   modifiedTime: UPDATED,
 })
+
+const AMZ_TAG = tagForSlug('no-see-ums-biting-midges-ontario')
 
 export default function NoSeeUmsBitingMidgesOntarioPage() {
   return (
@@ -175,11 +178,11 @@ export default function NoSeeUmsBitingMidgesOntarioPage() {
           </ol>
           <p>Not sure which skin repellent to reach for? Our guide on <Link href="/blog/picaridin-vs-deet-canada">picaridin vs DEET in Canada</Link> breaks down which active fits which situation. To shop current options:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="picaridin insect repellent canada">Check picaridin repellent on Amazon.ca →</BuyLink>
-            <BuyLink search="thermacell mosquito repeller">Check a Thermacell repeller →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="picaridin insect repellent canada">Check picaridin repellent on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="thermacell mosquito repeller">Check a Thermacell repeller →</BuyLink>
           </div>
 
-          <TopPick
+          <TopPick tag={AMZ_TAG}
             label="Best Repellent for No-See-Ums"
             name="Picaridin (Icaridin) Insect Repellent"
             blurb="For biting midges, a Health Canada registered picaridin (icaridin) repellent is the most practical single pick — it protects the ankles, wrists, and hairline where no-see-ums feed, without DEET's oily feel or plastic-damaging tendencies. Apply to all exposed skin at dawn and dusk near water."

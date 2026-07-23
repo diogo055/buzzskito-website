@@ -8,6 +8,7 @@ import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'how-to-get-rid-of-rats-canada'
 const DATE = '2026-07-21'
@@ -75,6 +76,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('how-to-get-rid-of-rats-canada')
+
 export default function HowToGetRidOfRatsCanadaPage() {
   return (
     <>
@@ -96,7 +99,7 @@ export default function HowToGetRidOfRatsCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="Tomcat heavy-duty rat snap traps" search="tomcat rat snap trap" label="Best overall" />
+      <StickyBuyBar tag={AMZ_TAG} name="Tomcat heavy-duty rat snap traps" search="tomcat rat snap trap" label="Best overall" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -119,7 +122,7 @@ export default function HowToGetRidOfRatsCanadaPage() {
 
       <section className="bg-white px-4 py-6">
         <div className="max-w-5xl mx-auto">
-          <AwardRow
+          <AwardRow tag={AMZ_TAG}
             heading="Our Picks — The Rat Control Toolkit for Canadian Homes"
             awards={[
               {
@@ -188,25 +191,25 @@ export default function HowToGetRidOfRatsCanadaPage() {
                   <td className="px-4 py-3 font-bold text-brand-800">Heavy-duty snap traps<br /><span className="font-normal text-xs text-gray-500">Tomcat / Victor rat-size</span></td>
                   <td className="px-4 py-3 text-gray-700">Rat-rated spring kill; pre-bait unset 3&ndash;7 nights, then set the whole line at once</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">The workhorse</strong> &mdash; fastest legal knockdown, gives a body count</td>
-                  <td className="px-4 py-3"><BuyLink search="tomcat rat snap trap" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="tomcat rat snap trap" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">CO2 auto-trap<br /><span className="font-normal text-xs text-gray-500">Goodnature A24</span></td>
                   <td className="px-4 py-3 text-gray-700">CO2-powered striker kills instantly, body drops clear, trap self-resets &mdash; up to 24 kills per canister</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Hands-off upgrade</strong> for sheds, garages, under decks, cottages</td>
-                  <td className="px-4 py-3"><BuyLink search="goodnature a24 rat trap" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="goodnature a24 rat trap" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Bait station<br /><span className="font-normal text-xs text-gray-500">Tamper-resistant box</span></td>
                   <td className="px-4 py-3 text-gray-700">Lockable housing for legal consumer bait blocks &mdash; or non-toxic monitoring blocks to map activity</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Monitor first, bait last</strong> &mdash; poison is the last resort under Canadian rules</td>
-                  <td className="px-4 py-3"><BuyLink search="rat bait station tamper resistant" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="rat bait station tamper resistant" block>Check price →</BuyLink></td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 font-bold text-brand-800">Exclusion mesh<br /><span className="font-normal text-xs text-gray-500">Hardware cloth / copper mesh</span></td>
                   <td className="px-4 py-3 text-gray-700">Gnaw-proof metal closes every gap over ~2 cm &mdash; pipes, vents, door sweeps, deck skirting</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">The endgame</strong> &mdash; the only step that makes results permanent</td>
-                  <td className="px-4 py-3"><BuyLink search="rodent exclusion hardware cloth copper mesh" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="rodent exclusion hardware cloth copper mesh" block>Check price →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -279,9 +282,9 @@ export default function HowToGetRidOfRatsCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the toolkit:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="tomcat rat snap trap">Tomcat rat snap traps →</BuyLink>
-            <BuyLink search="goodnature a24 rat trap">Goodnature A24 →</BuyLink>
-            <BuyLink search="rodent exclusion hardware cloth copper mesh">Exclusion mesh →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="tomcat rat snap trap">Tomcat rat snap traps →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="goodnature a24 rat trap">Goodnature A24 →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="rodent exclusion hardware cloth copper mesh">Exclusion mesh →</BuyLink>
           </div>
 
           <h2>Snap Trapping Done Right: Pre-Baiting Beats Rat Paranoia</h2>
@@ -296,7 +299,7 @@ export default function HowToGetRidOfRatsCanadaPage() {
           </ul>
           <p>Trap selection is simple: modern press-to-set rat traps (Tomcat and Victor both make them) have the spring power a 300&ndash;500 g rat requires and set without risking fingers. We compare the specific models — including when the old-school wooden Victor still earns its place — in the <Link href="/blog/best-rat-trap-canada">best rat trap guide</Link>.</p>
           <div className="not-prose my-4">
-            <BuyLink search="tomcat rat snap trap">Check Tomcat rat snap traps on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="tomcat rat snap trap">Check Tomcat rat snap traps on Amazon.ca →</BuyLink>
           </div>
 
           <h2>The Goodnature A24: What a Premium Hands-Off Rat Trap Buys You</h2>
@@ -304,14 +307,14 @@ export default function HowToGetRidOfRatsCanadaPage() {
           <p>Where it shines in a Canadian context: sheds, detached garages, under-deck spaces, barns, and cottages — locations you do not visit daily, where a self-resetting, toxin-free device quietly works all season with zero secondary-poisoning risk to the owls, foxes, dogs, and cats that scavenge rat carcasses. Mounted at the manufacturer&rsquo;s height on a tree or wall, it is out of reach of most non-target wildlife, and Goodnature&rsquo;s own protocol includes a pre-feed step — a dab of lure with the trap inactive — that maps neatly onto the neophobia problem above. Do not skip it; an A24 deployed cold hits the same wall of suspicion any trap does.</p>
           <p>The honest trade-offs: it is a premium-tier purchase — several times the cost of a full snap-trap line — plus recurring CO2 canisters and lure pouches, so it makes most sense where its automation genuinely replaces labour. And Canadian retail stock fluctuates; check current availability and pricing rather than assuming, and verify you are buying the rat/stoat model with the Canadian accessories you need.</p>
           <div className="not-prose my-4">
-            <BuyLink search="goodnature a24 rat trap">Check Goodnature A24 availability on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="goodnature a24 rat trap">Check Goodnature A24 availability on Amazon.ca →</BuyLink>
           </div>
 
           <h2>Bait Stations: Monitor First, Poison Last</h2>
           <p>Tamper-resistant bait stations — the black lockable boxes you see behind restaurants — have two jobs for a Canadian homeowner, and the less obvious one is more useful. Loaded with <strong>non-toxic monitoring blocks</strong>, a station is an intelligence tool: place a few along fence lines, beside sheds, and near suspected burrows, and gnawed blocks tell you exactly where rats are travelling before you commit traps. That feeding map is worth more than any single kill.</p>
           <p>The second job — housing actual rodenticide — comes with rules. Any legal consumer bait in Canada must be deployed in a tamper-resistant station if children, pets, or wildlife could reach it, and the station is the easy part: the hard part is that the bait itself is tightly restricted, which is the next section. Our <Link href="/blog/mouse-bait-station-canada">bait station guide</Link> covers station selection and placement in depth; the short version is buy a station with a key lock and internal rods, anchor it so it cannot be flipped, and treat baiting as the last tool you reach for, not the first.</p>
           <div className="not-prose my-4">
-            <BuyLink search="rat bait station tamper resistant">Check tamper-resistant stations on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="rat bait station tamper resistant">Check tamper-resistant stations on Amazon.ca →</BuyLink>
           </div>
 
           <h2>The Canadian Rodenticide Reality: Check the PCP Number</h2>
@@ -330,7 +333,7 @@ export default function HowToGetRidOfRatsCanadaPage() {
           </ul>
           <p>The materials rule is absolute: <strong>metal or nothing</strong>. Galvanized 1/4-inch hardware cloth screwed over vents and skirting gaps, stuffable copper or stainless mesh packed into pipe penetrations and backed with sealant, sheet-metal kick plates on gnawed door corners. Expanding foam by itself is bedding material with a chew-through time measured in minutes; use it only as a weather seal <em>behind</em> metal. For burrows, collapse them after trapping quiets — an active colony just reopens them overnight. The complete shopping list and step-by-step sealing order is in our <Link href="/blog/rodent-exclusion-kit-canada">rodent exclusion kit guide</Link>, and the same principles protect smaller targets too — see <Link href="/blog/how-to-keep-mice-out-of-your-house-winter">winter mouse-proofing</Link> and even <Link href="/blog/how-to-keep-mice-out-of-your-car">keeping rodents out of parked cars</Link>.</p>
           <div className="not-prose my-4">
-            <BuyLink search="rodent exclusion hardware cloth copper mesh">Check exclusion mesh on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="rodent exclusion hardware cloth copper mesh">Check exclusion mesh on Amazon.ca →</BuyLink>
           </div>
 
           <h2>The Neighbour Problem: Bylaws, Bird Feeders, and the 50-Metre Truth</h2>

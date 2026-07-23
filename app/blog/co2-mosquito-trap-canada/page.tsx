@@ -8,6 +8,7 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'co2-mosquito-trap-canada'
 const DATE = '2026-07-14'
@@ -65,6 +66,8 @@ export const metadata: Metadata = buildMetadata({
   publishedTime: DATE,
 })
 
+const AMZ_TAG = tagForSlug('co2-mosquito-trap-canada')
+
 export default function Co2MosquitoTrapCanadaPage() {
   return (
     <>
@@ -86,7 +89,7 @@ export default function Co2MosquitoTrapCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="Biogents BG-Mosquitaire (electric CO2 mosquito trap)" search="biogents mosquitaire mosquito trap" label="Best CO2 trap" />
+      <StickyBuyBar tag={AMZ_TAG} name="Biogents BG-Mosquitaire (electric CO2 mosquito trap)" search="biogents mosquitaire mosquito trap" label="Best CO2 trap" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -110,7 +113,7 @@ export default function Co2MosquitoTrapCanadaPage() {
 
       <section className="bg-white px-4 py-6">
         <div className="max-w-5xl mx-auto">
-          <AwardRow
+          <AwardRow tag={AMZ_TAG}
             heading="Our Picks — Best CO2 Mosquito Traps in Canada"
             awards={[
               {
@@ -228,9 +231,9 @@ export default function Co2MosquitoTrapCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Compare current Canadian models and prices on Amazon.ca:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="biogents bg-home mosquito trap">Check price on Amazon.ca</BuyLink>
-            <BuyLink search="biogents gat trap kit">BG-GAT trap kit →</BuyLink>
-            <BuyLink search="biogents bg booster co2">CO2 booster →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="biogents bg-home mosquito trap">Check price on Amazon.ca</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="biogents gat trap kit">BG-GAT trap kit →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="biogents bg booster co2">CO2 booster →</BuyLink>
           </div>
 
           <h2>Why CO2 is the master mosquito cue</h2>
@@ -253,7 +256,7 @@ export default function Co2MosquitoTrapCanadaPage() {
           <p>The single most interesting trap Biogents makes needs no power and no CO2 at all. The <strong>BG-GAT (Gravid Aedes Trap)</strong> hunts a very specific, very valuable target: the <em>gravid</em> female — a mosquito that has already bitten someone, is now carrying eggs, and is prowling for a place to lay them. You fill the GAT with water and a grass-infusion lure so it smells like the perfect breeding puddle. She enters through a funnel to lay, hits a sticky or insecticidal surface, and never comes back out.</p>
           <p>Why does that matter more than catching random flyers? Because you are removing the exact insects about to seed the next generation. Kill one gravid female and you cancel the 100–300 eggs she was about to lay. GATs are deployed in clusters — three or more around a property — and they are ideal for the situations where a plug-in trap is a pain: cottages, off-grid yards, dense garden beds. They are also aimed squarely at <em>Aedes</em> — the aggressive, daytime-biting container mosquitoes that shrug off dusk-focused tactics. For a cottage owner who wants set-and-forget control with no electricity, a GAT cluster is genuinely clever.</p>
           <div className="not-prose my-6">
-            <BuyLink search="biogents gat trap kit">Check BG-GAT kits on Amazon.ca</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="biogents gat trap kit">Check BG-GAT kits on Amazon.ca</BuyLink>
           </div>
 
           <h2>Electric vs propane: the cost-per-season math</h2>

@@ -7,6 +7,7 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'american-dog-tick-canada'
 const DATE = '2026-04-28'
@@ -55,6 +56,8 @@ export const metadata: Metadata = buildMetadata({
   type: 'article',
   publishedTime: DATE,
 })
+
+const AMZ_TAG = tagForSlug('american-dog-tick-canada')
 
 export default function AmericanDogTickPage() {
   return (
@@ -168,7 +171,7 @@ export default function AmericanDogTickPage() {
 
           <h2>What to Do When You Find One</h2>
           <AffiliateDisclosure />
-          <TopPick
+          <TopPick tag={AMZ_TAG}
             label="Our Top Pick — Tick Removal"
             name="Fine-Tipped Tick-Removal Tweezers / Tick Twister Tool"
             blurb="Because the American dog tick has longer mouthparts than the blacklegged tick, a purpose-built remover that slides under the head and lifts straight out gives the cleanest pull — no squeezing the body, which is what raises infection risk. Keep one in the first-aid kit and one in the car for after trail walks."
@@ -179,7 +182,7 @@ export default function AmericanDogTickPage() {
           />
           <h3>On a human</h3>
           <ol>
-            <li>Use fine-tipped tweezers (or a Tick Twister tool). Because the American dog tick (<em>Dermacentor variabilis</em>) has longer mouthparts than the blacklegged tick, a purpose-built removal tool that slides under the head gives you the cleanest pull. <BuyLink search="tick removal tool tweezers">Check tick-removal tools on Amazon.ca &rarr;</BuyLink></li>
+            <li>Use fine-tipped tweezers (or a Tick Twister tool). Because the American dog tick (<em>Dermacentor variabilis</em>) has longer mouthparts than the blacklegged tick, a purpose-built removal tool that slides under the head gives you the cleanest pull. <BuyLink tag={AMZ_TAG} search="tick removal tool tweezers">Check tick-removal tools on Amazon.ca &rarr;</BuyLink></li>
             <li>Grasp the tick at the head, as close to skin as possible — NOT the body.</li>
             <li>Pull straight up with steady pressure. Don&rsquo;t twist or jerk. Tick releases in 5–15 seconds.</li>
             <li>Clean the bite with rubbing alcohol.</li>

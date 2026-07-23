@@ -7,6 +7,7 @@ import TopPick from '@/components/TopPick'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'red-ticks-and-clover-mites'
 const DATE = '2026-07-13'
@@ -56,6 +57,8 @@ export const metadata: Metadata = buildMetadata({
   publishedTime: DATE,
   modifiedTime: UPDATED,
 })
+
+const AMZ_TAG = tagForSlug('red-ticks-and-clover-mites')
 
 export default function RedTicksAndCloverMitesPage() {
   return (
@@ -159,9 +162,9 @@ export default function RedTicksAndCloverMitesPage() {
 
           <h2>2. Engorged Ticks — Real Ticks That Turned Red</h2>
           <p>The second common source of &ldquo;red tick&rdquo; confusion is a tick that has already been feeding. An unfed blacklegged (deer) tick, <em>Ixodes scapularis</em>, is small and dark. But as a tick feeds, its body balloons with blood and the colour shifts to grey, tan, rust, or reddish-brown. A swollen, reddish, grape- or bean-shaped bug attached to your skin or your pet is not a special &ldquo;red&rdquo; species — it is an ordinary tick that is <strong>engorged</strong> and actively feeding.</p>
-          <p>This is the version of &ldquo;red tick&rdquo; that actually matters for your health, because an attached, feeding tick is exactly the situation that can transmit disease. Blacklegged ticks are the main carriers of Lyme disease in Ontario and much of North America; the risk climbs the longer a tick stays attached, which is why prompt, correct removal is the whole game. Grip the tick with fine-tipped tweezers as close to the skin as possible and pull straight out with steady pressure — no twisting, no matches, no petroleum jelly. A dedicated fine-tipped remover makes this far cleaner than fingernails. <BuyLink search="tick removal tool tweezers">Check tick-removal tools on Amazon &rarr;</BuyLink></p>
+          <p>This is the version of &ldquo;red tick&rdquo; that actually matters for your health, because an attached, feeding tick is exactly the situation that can transmit disease. Blacklegged ticks are the main carriers of Lyme disease in Ontario and much of North America; the risk climbs the longer a tick stays attached, which is why prompt, correct removal is the whole game. Grip the tick with fine-tipped tweezers as close to the skin as possible and pull straight out with steady pressure — no twisting, no matches, no petroleum jelly. A dedicated fine-tipped remover makes this far cleaner than fingernails. <BuyLink tag={AMZ_TAG} search="tick removal tool tweezers">Check tick-removal tools on Amazon &rarr;</BuyLink></p>
 
-          <TopPick
+          <TopPick tag={AMZ_TAG}
             label="Our Top Pick for Tick Removal"
             name="Fine-Tipped Tick Remover Tool"
             blurb="If the red bug turns out to be an attached, engorged tick, a purpose-made fine-tipped remover grips right at the skin and lifts the tick straight out without squeezing its body — cleaner and safer than fingernails or household tweezers. Keep one in the first-aid kit and one in the car for post-hike checks."

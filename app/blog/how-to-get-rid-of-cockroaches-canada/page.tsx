@@ -8,6 +8,7 @@ import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'how-to-get-rid-of-cockroaches-canada'
 const DATE = '2026-07-21'
@@ -75,6 +76,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('how-to-get-rid-of-cockroaches-canada')
+
 export default function HowToGetRidOfCockroachesCanadaPage() {
   return (
     <>
@@ -96,7 +99,7 @@ export default function HowToGetRidOfCockroachesCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="Enclosed roach bait stations (domestic-class)" search="roach killing bait stations" label="Best first move" />
+      <StickyBuyBar tag={AMZ_TAG} name="Enclosed roach bait stations (domestic-class)" search="roach killing bait stations" label="Best first move" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -119,7 +122,7 @@ export default function HowToGetRidOfCockroachesCanadaPage() {
 
       <section className="bg-white px-4 py-6">
         <div className="max-w-5xl mx-auto">
-          <AwardRow
+          <AwardRow tag={AMZ_TAG}
             heading="Our Picks — The Cockroach Control Kit for Canadian Homes"
             awards={[
               {
@@ -182,25 +185,25 @@ export default function HowToGetRidOfCockroachesCanadaPage() {
                   <td className="px-4 py-3 font-bold text-brand-800">Enclosed bait stations<br /><span className="font-normal text-xs text-gray-500">Combat-style, domestic-class</span></td>
                   <td className="px-4 py-3 text-gray-700">Slow-acting food bait carried back to the harbourage; secondary kill via carcasses and droppings</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best consumer method</strong> &mdash; reaches roaches you never see</td>
-                  <td className="px-4 py-3"><BuyLink search="roach killing bait stations" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="roach killing bait stations" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Glue-board monitors<br /><span className="font-normal text-xs text-gray-500">Sticky traps</span></td>
                   <td className="px-4 py-3 text-gray-700">Passive capture along travel edges; reveals species, hot spots, and week-over-week trend</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Essential companion</strong> &mdash; measurement, not control</td>
-                  <td className="px-4 py-3"><BuyLink search="cockroach glue trap monitor" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="cockroach glue trap monitor" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Gel bait syringe<br /><span className="font-normal text-xs text-gray-500">Crack-and-crevice format</span></td>
                   <td className="px-4 py-3 text-gray-700">Dabs of bait placed directly into cracks, hinges, and seams roaches harbour in</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Powerful, with a catch</strong> &mdash; verify a Canadian PCP number on the label first</td>
-                  <td className="px-4 py-3"><BuyLink search="cockroach gel bait" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="cockroach gel bait" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Boric acid / DE dust<br /><span className="font-normal text-xs text-gray-500">Inorganic dusts</span></td>
                   <td className="px-4 py-3 text-gray-700">Thin film in dry hidden voids; abrades and poisons roaches that walk through</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Legitimate supplement</strong> &mdash; slow, dry areas only, apply thin</td>
-                  <td className="px-4 py-3"><BuyLink search="boric acid roach powder" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="boric acid roach powder" block>Check price →</BuyLink></td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 font-bold text-brand-800">Aerosol sprays &amp; foggers<br /><span className="font-normal text-xs text-gray-500">The satisfying mistake</span></td>
@@ -262,9 +265,9 @@ export default function HowToGetRidOfCockroachesCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the core kit:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="roach killing bait stations">Enclosed bait stations →</BuyLink>
-            <BuyLink search="cockroach glue trap monitor">Glue-board monitors →</BuyLink>
-            <BuyLink search="boric acid roach powder">Boric acid dust →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="roach killing bait stations">Enclosed bait stations →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="cockroach glue trap monitor">Glue-board monitors →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="boric acid roach powder">Boric acid dust →</BuyLink>
           </div>
 
           <h2>First, Know Your Enemy: German vs American vs Oriental</h2>
@@ -293,7 +296,7 @@ export default function HowToGetRidOfCockroachesCanadaPage() {
           </ul>
           <p>For cracks and seams a station physically cannot service &mdash; cabinet hinges, the seam where the backsplash meets the counter, the gap under a kickplate &mdash; a gel bait syringe adds precision. That is the format professionals use, and it comes with the one big Canadian caveat that gets its own section below.</p>
           <div className="not-prose my-4">
-            <BuyLink search="roach killing bait stations">Check enclosed bait stations on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="roach killing bait stations">Check enclosed bait stations on Amazon.ca →</BuyLink>
           </div>
 
           <h2>Sanitation: the Unpaid Half of the Program</h2>
@@ -310,7 +313,7 @@ export default function HowToGetRidOfCockroachesCanadaPage() {
           </ul>
           <p>Placement mirrors bait logic: flat against the wall-floor junction, under the sink, beside the stove, behind the toilet. Glue boards are devices, not pesticides, so they need no PMRA registration &mdash; there is no regulatory reason not to deploy them generously. Date each board with a marker; a dusty board stops catching and starts lying.</p>
           <div className="not-prose my-4">
-            <BuyLink search="cockroach glue trap monitor">Check glue-board monitors on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="cockroach glue trap monitor">Check glue-board monitors on Amazon.ca →</BuyLink>
           </div>
 
           <h2>The Apartment Problem: Your Unit Is Not the Colony</h2>

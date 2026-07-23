@@ -8,6 +8,7 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import SpecialistDisclosure from '@/components/SpecialistDisclosure'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'mouse-bait-station-canada'
 const DATE = '2026-07-16'
@@ -73,6 +74,8 @@ export const metadata: Metadata = buildMetadata({
   publishedTime: DATE,
 })
 
+const AMZ_TAG = tagForSlug('mouse-bait-station-canada')
+
 export default function MouseBaitStationCanadaPage() {
   return (
     <>
@@ -94,7 +97,7 @@ export default function MouseBaitStationCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="Tomcat Mouse Killer disposable bait station (bromethalin)" search="tomcat mouse killer disposable bait station" label="PMRA-legal pick" />
+      <StickyBuyBar tag={AMZ_TAG} name="Tomcat Mouse Killer disposable bait station (bromethalin)" search="tomcat mouse killer disposable bait station" label="PMRA-legal pick" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -121,10 +124,10 @@ export default function MouseBaitStationCanadaPage() {
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
           <p className="not-prose text-sm text-gray-600 mb-1">The PMRA-registered consumer option, available on Amazon.ca:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="tomcat mouse killer disposable bait station">Check Tomcat disposable bait stations on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="tomcat mouse killer disposable bait station">Check Tomcat disposable bait stations on Amazon.ca →</BuyLink>
           </div>
 
-          <TopPick
+          <TopPick tag={AMZ_TAG}
             label="Our Top Pick — Consumer-Legal Station"
             name="Tomcat Mouse Killer Disposable Bait Station (bromethalin)"
             blurb="The one station that ticks every Canadian box: PMRA-registered domestic class, 0.01% bromethalin sealed in a child- and dog-resistant housing, label-rated up to 12 mice per station, and actually stocked on Amazon.ca. No loose bait handling — when the block is gone, you bin the whole unit. Best for garages, sheds, crawl spaces, and cottage closings; for kitchens and living areas we still say trap first."
@@ -152,7 +155,7 @@ export default function MouseBaitStationCanadaPage() {
           <p>The Tomcat Mouse Killer disposable bait station is the answer for nearly everyone, because it is the PMRA-registered, consumer-legal option that is actually stocked in Canada. Each sealed station contains a 0.01% bromethalin block, is rated child- and dog-resistant, and is label-rated to kill up to 12 mice per station. When the bait is consumed, you throw the whole station away and set a fresh one — no bait handling, ever.</p>
           <p>Bromethalin is worth understanding before you buy. It is an acute neurotoxin, not an anticoagulant: a single feeding is lethal, the mouse stops feeding within hours, and death follows in roughly 24–48 hours. That speed is an advantage over warfarin-type baits, which need days of repeat feeding. The flip side is serious: <strong>bromethalin has no antidote.</strong> Anticoagulant poisoning in a pet can be treated with vitamin K therapy; bromethalin poisoning cannot. The tamper-resistant housing is your primary safeguard, and it is a good one — but a household with determined chewers or outdoor cats that hunt should weigh traps first.</p>
           <div className="not-prose my-4 flex flex-wrap gap-3">
-            <BuyLink search="tomcat mouse killer disposable bait station">Tomcat disposable stations (multi-pack) →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="tomcat mouse killer disposable bait station">Tomcat disposable stations (multi-pack) →</BuyLink>
           </div>
 
           <h2>Which US Bait Products Should Canadians Avoid?</h2>

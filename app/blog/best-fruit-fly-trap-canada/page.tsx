@@ -8,6 +8,7 @@ import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'best-fruit-fly-trap-canada'
 const DATE = '2026-07-21'
@@ -75,6 +76,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('best-fruit-fly-trap-canada')
+
 export default function BestFruitFlyTrapCanadaPage() {
   return (
     <>
@@ -96,7 +99,7 @@ export default function BestFruitFlyTrapCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="TERRO Fruit Fly Trap (2-pack, liquid lure)" search="terro fruit fly trap" label="Best overall" />
+      <StickyBuyBar tag={AMZ_TAG} name="TERRO Fruit Fly Trap (2-pack, liquid lure)" search="terro fruit fly trap" label="Best overall" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -119,7 +122,7 @@ export default function BestFruitFlyTrapCanadaPage() {
 
       <section className="bg-white px-4 py-6">
         <div className="max-w-5xl mx-auto">
-          <AwardRow
+          <AwardRow tag={AMZ_TAG}
             heading="Our Picks — Best Fruit Fly Traps in Canada"
             awards={[
               {
@@ -193,28 +196,28 @@ export default function BestFruitFlyTrapCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Vinegar-based fermentation scent draws flies inside; they drown in the liquid</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best</strong> &mdash; scent is how fruit flies hunt</td>
                   <td className="px-4 py-3 text-gray-700">Refill lure roughly monthly in season</td>
-                  <td className="px-4 py-3"><BuyLink search="terro fruit fly trap" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="terro fruit fly trap" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">UV + fan + glue<br /><span className="font-normal text-xs text-gray-500">Katchy</span></td>
                   <td className="px-4 py-3 text-gray-700">UV light attracts at night; fan pulls insects down onto a glue card</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Good</strong> &mdash; best-in-class for fungus gnats</td>
                   <td className="px-4 py-3 text-gray-700">Glue cards every few weeks</td>
-                  <td className="px-4 py-3"><BuyLink search="katchy indoor insect trap" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="katchy indoor insect trap" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Plug-in light + glue<br /><span className="font-normal text-xs text-gray-500">Zevo</span></td>
                   <td className="px-4 py-3 text-gray-700">Outlet unit; UV-and-blue light lures flies onto a hidden glue cartridge</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Moderate</strong> &mdash; light lure, tidy form factor</td>
                   <td className="px-4 py-3 text-gray-700">Glue cartridges every 1&ndash;2 months</td>
-                  <td className="px-4 py-3"><BuyLink search="zevo flying insect trap" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="zevo flying insect trap" block>Check price →</BuyLink></td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 font-bold text-brand-800">Sticky ribbon / stake<br /><span className="font-normal text-xs text-gray-500">assorted brands</span></td>
                   <td className="px-4 py-3 text-gray-700">Passive adhesive surface &mdash; no lure; catches flies that land by chance</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-red-700">Weak</strong> &mdash; supplemental only</td>
                   <td className="px-4 py-3 text-gray-700">Single-use, replace when covered</td>
-                  <td className="px-4 py-3"><BuyLink search="fruit fly sticky trap" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="fruit fly sticky trap" block>Check price →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -267,17 +270,17 @@ export default function BestFruitFlyTrapCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the four picks:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="terro fruit fly trap">TERRO apple traps →</BuyLink>
-            <BuyLink search="katchy indoor insect trap">Katchy UV trap →</BuyLink>
-            <BuyLink search="zevo flying insect trap">Zevo plug-in →</BuyLink>
-            <BuyLink search="fruit fly sticky trap">Sticky ribbons →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="terro fruit fly trap">TERRO apple traps →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="katchy indoor insect trap">Katchy UV trap →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="zevo flying insect trap">Zevo plug-in →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="fruit fly sticky trap">Sticky ribbons →</BuyLink>
           </div>
 
           <h2>Why the TERRO Apple Wins</h2>
           <p>Three things separate the TERRO from both DIY vinegar bowls and its store-shelf competitors. First, <strong>lure longevity</strong>: the formulation keeps releasing attractant at a useful rate for roughly 30 days, while a homemade ACV bowl peaks in the first day or two and then weakens as it evaporates and skins over. Second, <strong>the sealed apple housing</strong>: it cannot be tipped by a cat, an elbow, or a toddler, it hides the drowned flies (a real quality-of-life feature by week two), and it lets you put the trap directly on a food-prep counter without anyone at dinner asking what the bowl of floating insects is. Third, <strong>the two-pack format</strong> matches how fruit fly problems actually present — one zone at the fruit bowl, one at the sink — instead of pretending a single trap covers a kitchen.</p>
           <p>Two operating notes that prevent most bad reviews. The lure needs 24 to 48 hours after opening to build up scent and start catching seriously — people who declare it useless on day one simply have not waited. And the trap only catches adults: eggs already laid in your drain or produce keep hatching for another week or two no matter how good the trap is, which is why the realistic eradication window is two to three weeks, not two to three days.</p>
           <div className="not-prose my-4">
-            <BuyLink search="terro fruit fly trap">Check TERRO Fruit Fly Trap on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="terro fruit fly trap">Check TERRO Fruit Fly Trap on Amazon.ca →</BuyLink>
           </div>
 
           <h2>Refill Economics: The Real Cost of Each Trap</h2>
@@ -293,20 +296,20 @@ export default function BestFruitFlyTrapCanadaPage() {
           <p>The Katchy Indoor Insect Trap is the premium option in this roundup, and for a pure fruit fly problem it is honestly more machine than you need. Its UV-and-fan design shines when the enemy is <strong>fungus gnats</strong> — the skinny, mosquito-looking flies that rise from houseplant soil — because gnats are strongly light-attracted in a way fruit flies are not. Run overnight in a dark room, it clears gnat clouds impressively, and it will collect a respectable side-catch of fruit flies too.</p>
           <p>The winning combination for gnats is the Katchy for adults plus a BTI larvicide drench for the soil they breed in — the same <em>Bacillus thuringiensis israelensis</em> sold for mosquito larvae. Our guides to <Link href="/blog/mosquito-bits-canada-vs-dunks">Mosquito Bits vs Dunks</Link> and the <Link href="/blog/mosquito-dunks-canada-guide">Mosquito Dunks Canada guide</Link> cover exactly how to use BTI granules in houseplant watering — it is the single most effective fungus gnat move in Canada, and it is fully PMRA-registered. If your flies come from plant pots, start there; if they come from the fruit bowl, start with the TERRO; if you genuinely cannot tell, the Katchy hedges both bets.</p>
           <div className="not-prose my-4">
-            <BuyLink search="katchy indoor insect trap">Check Katchy on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="katchy indoor insect trap">Check Katchy on Amazon.ca →</BuyLink>
           </div>
 
           <h2>Zevo: Best Plug-In (With a Canadian Caveat)</h2>
           <p>The Zevo Flying Insect Trap answers a placement problem the counter traps cannot: bathrooms, hallways, bar carts, and rental kitchens with no spare counter space. It plugs directly into a wall outlet, lures with a UV-and-blue light spectrum, and traps flies on a glue cartridge hidden behind the light — nothing to empty, nothing visible, swap the cartridge when the indicator area fills. For drain flies drifting around a bathroom, or the wine-glass zone at the end of a party wall, it is the tidiest solution going.</p>
           <p>Two caveats keep it off the top spot. As a light-lure device it inherits the same structural disadvantage against scent-hunting fruit flies as every UV trap, so in a kitchen it plays support to a TERRO rather than replacing it. And its Canadian retail presence is genuinely inconsistent — the brand is a US Procter &amp; Gamble line, and amazon.ca stock of units and refill cartridges comes and goes. It remains a legitimate pick because the trap itself is a non-pesticidal device (no PMRA registration needed, unlike Zevo&rsquo;s aerosol spray siblings — more on that below); just verify current availability before planning around it.</p>
           <div className="not-prose my-4">
-            <BuyLink search="zevo flying insect trap">Check Zevo plug-in on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="zevo flying insect trap">Check Zevo plug-in on Amazon.ca →</BuyLink>
           </div>
 
           <h2>Sticky Ribbons: Cheap, Ugly, Occasionally Useful</h2>
           <p>The old-fashioned option still hanging in Canadian hardware stores works exactly as well as its design suggests: it catches whatever happens to land on it, and lures nothing. That makes ribbons and their prettier cousins — the yellow sticky stakes sold for plant pots — a supplemental tool. Sensible uses: hung above a compost bin or green bin where flies congregate anyway, stuck into houseplant soil to monitor and skim fungus gnats, or draped in a garage or cold room where appearance is irrelevant. Poor uses: as your only trap, or anywhere at head height in a kitchen, where they mostly catch hair. Buy the cheap generic packs; there is no meaningful brand differentiation in adhesive on a strip.</p>
           <div className="not-prose my-4">
-            <BuyLink search="fruit fly sticky trap">Check sticky ribbons on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="fruit fly sticky trap">Check sticky ribbons on Amazon.ca →</BuyLink>
           </div>
 
           <h2>Placement: Where Traps Actually Catch</h2>

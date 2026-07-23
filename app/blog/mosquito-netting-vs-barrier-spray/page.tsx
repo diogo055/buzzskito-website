@@ -7,6 +7,7 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'mosquito-netting-vs-barrier-spray'
 const DATE = '2026-04-26'
@@ -55,6 +56,8 @@ export const metadata: Metadata = buildMetadata({
   type: 'article',
   publishedTime: DATE,
 })
+
+const AMZ_TAG = tagForSlug('mosquito-netting-vs-barrier-spray')
 
 export default function MosquitoNettingVsSprayPage() {
   return (
@@ -141,13 +144,13 @@ export default function MosquitoNettingVsSprayPage() {
           <AffiliateDisclosure />
           <p>If netting is the right call for your space, the specific product matters more than most buyers expect. &ldquo;Mosquito netting&rdquo; covers four very different products, and the wrong shape is the number-one reason a net disappoints:</p>
           <ul>
-            <li><strong>Outdoor canopy nets</strong> — free-hanging mesh canopies that suspend from a pergola beam, shade-sail post, or tree branch over a daybed, hammock, or reading chair. The most flexible option for renters, since nothing attaches permanently to the house. <BuyLink search="outdoor canopy mosquito net">Check outdoor canopy nets on Amazon.ca &rarr;</BuyLink></li>
-            <li><strong>Patio netting curtains</strong> — mesh panels with grommet or hook-and-loop edges that enclose a covered porch, pergola, or open gazebo. They tie back during the day and draw shut at dusk, so the space stays usable. <BuyLink search="patio mosquito netting curtains">Browse patio netting curtains on Amazon.ca &rarr;</BuyLink></li>
+            <li><strong>Outdoor canopy nets</strong> — free-hanging mesh canopies that suspend from a pergola beam, shade-sail post, or tree branch over a daybed, hammock, or reading chair. The most flexible option for renters, since nothing attaches permanently to the house. <BuyLink tag={AMZ_TAG} search="outdoor canopy mosquito net">Check outdoor canopy nets on Amazon.ca &rarr;</BuyLink></li>
+            <li><strong>Patio netting curtains</strong> — mesh panels with grommet or hook-and-loop edges that enclose a covered porch, pergola, or open gazebo. They tie back during the day and draw shut at dusk, so the space stays usable. <BuyLink tag={AMZ_TAG} search="patio mosquito netting curtains">Browse patio netting curtains on Amazon.ca &rarr;</BuyLink></li>
             <li><strong>Pop-up screen houses and screened gazebos</strong> — freestanding mesh rooms that drop over a patio table. Best value for open decks with nothing overhead.</li>
             <li><strong>Bed, crib, and stroller nets</strong> — for sleeping spaces and infants; the full breakdown by use case is in our <Link href="/blog/mosquito-net-canada">mosquito net buyer&rsquo;s guide for Canada</Link>.</li>
           </ul>
 
-          <TopPick
+          <TopPick tag={AMZ_TAG}
             label="Best Netting Pick"
             name="Freestanding pop-up screen house (screened gazebo)"
             blurb="If netting is your answer, a freestanding pop-up screen house is the best value for most backyards — it drops over a patio table with nothing to attach to the house, giving you a fully enclosed, bug-free dining zone that packs away at season's end. Ideal for renters and open decks. Look for no-see-um mesh near water and weighted, zippered door panels for windy yards."

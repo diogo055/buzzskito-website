@@ -8,6 +8,7 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import SpecialistDisclosure from '@/components/SpecialistDisclosure'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'bed-bug-mattress-encasement-canada'
 const DATE = '2026-07-16'
@@ -73,6 +74,8 @@ export const metadata: Metadata = buildMetadata({
   publishedTime: DATE,
 })
 
+const AMZ_TAG = tagForSlug('bed-bug-mattress-encasement-canada')
+
 export default function BedBugMattressEncasementCanadaPage() {
   return (
     <>
@@ -94,7 +97,7 @@ export default function BedBugMattressEncasementCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="SafeRest Premium bed bug mattress encasement" search="saferest mattress encasement" label="Best encasement" />
+      <StickyBuyBar tag={AMZ_TAG} name="SafeRest Premium bed bug mattress encasement" search="saferest mattress encasement" label="Best encasement" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -117,7 +120,7 @@ export default function BedBugMattressEncasementCanadaPage() {
 
       <section className="bg-white px-4 py-6">
         <div className="max-w-5xl mx-auto">
-          <AwardRow
+          <AwardRow tag={AMZ_TAG}
             heading="Our Picks — Best Bed Bug Encasements in Canada"
             awards={[
               {
@@ -164,9 +167,9 @@ export default function BedBugMattressEncasementCanadaPage() {
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
           <p className="not-prose text-sm text-gray-600 mb-1">Compare current Canadian availability for the encasements covered in this guide:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="saferest mattress encasement">SafeRest encasement on Amazon.ca →</BuyLink>
-            <BuyLink search="utopia bedding zippered mattress encasement">Utopia zippered encasement →</BuyLink>
-            <BuyLink search="bed bug pillow protector">Bed bug pillow protectors →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="saferest mattress encasement">SafeRest encasement on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="utopia bedding zippered mattress encasement">Utopia zippered encasement →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="bed bug pillow protector">Bed bug pillow protectors →</BuyLink>
           </div>
 
           <h2>What Is a Bed Bug Encasement — and How Is It Different From a Mattress Cover?</h2>
@@ -199,20 +202,20 @@ export default function BedBugMattressEncasementCanadaPage() {
           <p>SafeRest has been the default answer in the encasement category for over a decade, and the reasons are specific rather than reputational. The zipper is a micro-tooth design — the teeth are small enough that a 1 mm first-instar nymph can&rsquo;t squeeze between them — and the end of the zipper track is secured so the pull can&rsquo;t drift open a few teeth in normal use. That end-stop detail sounds trivial; it&rsquo;s actually the single most common failure point in the category, covered in the next section. The fabric is a cotton-terry surface over a waterproof membrane, which also makes it a legitimate spill and allergen barrier, and the brand publishes independent lab-test claims for bed bug escape and bite-through.</p>
           <p>Buy one for the mattress and one for the box spring in the same order, and check the depth options against your mattress before adding to cart — SafeRest sells standard and deep versions, and a pillow-top queen usually needs the deep. In Canada the queen encasement typically lands in the $60–$90 range at regular pricing.</p>
           <div className="not-prose my-4">
-            <BuyLink search="saferest mattress encasement">Check SafeRest encasement on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="saferest mattress encasement">Check SafeRest encasement on Amazon.ca →</BuyLink>
           </div>
 
           <h2>Utopia Bedding — the Budget Prevention Pick</h2>
           <p>Utopia Bedding&rsquo;s zippered encasement is the volume seller on amazon.ca, and for prevention duty it&rsquo;s a defensible buy. It is a genuine six-sided zippered encasement — not a fitted protector — at a price that makes encasing every bed in a rental property or student house realistic, typically $25–$45 per mattress. The knit polyester is thinner than SafeRest&rsquo;s terry, the zipper is a standard tooth size, and there&rsquo;s no published lab testing behind the bed bug claims.</p>
           <p>That spec sheet defines its lane. If you&rsquo;re a landlord turning over units, you buy secondhand furniture, or you travel constantly and want cheap insurance on every bed, Utopia does the job. If bed bugs are <em>confirmed</em> in the mattress, the $30–$50 you save over SafeRest is a bad trade against the cost of a zipper gap quietly leaking nymphs for a year — go containment-grade for the infested bed and use Utopia on the other beds in the house.</p>
           <div className="not-prose my-4">
-            <BuyLink search="utopia bedding zippered mattress encasement">Check Utopia encasement on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="utopia bedding zippered mattress encasement">Check Utopia encasement on Amazon.ca →</BuyLink>
           </div>
 
           <h2>Don&rsquo;t Forget the Pillows</h2>
           <p>Pillow seams and piping are the same micro-habitat as mattress seams, and pillows are the most mobile object on your bed — they migrate to the couch for movie night, into the car for road trips, to the cottage in July. During an active infestation, unencased pillows are both a harborage and a distribution system. Zippered bed-bug-rated pillow protectors are cheap (usually 2-packs in the $20–$35 range), and they follow the same discipline as the mattress: zip them on, put your normal pillowcase over top, and leave them sealed for the full containment window.</p>
           <div className="not-prose my-4">
-            <BuyLink search="bed bug pillow protector">Check bed bug pillow protectors on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="bed bug pillow protector">Check bed bug pillow protectors on Amazon.ca →</BuyLink>
           </div>
 
           <h2>Where Encasements Fail: Zipper Quality and Three Other Weak Points</h2>

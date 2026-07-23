@@ -8,6 +8,7 @@ import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'how-to-get-rid-of-fruit-flies-canada'
 const DATE = '2026-07-21'
@@ -75,6 +76,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('how-to-get-rid-of-fruit-flies-canada')
+
 export default function HowToGetRidOfFruitFliesCanadaPage() {
   return (
     <>
@@ -96,7 +99,7 @@ export default function HowToGetRidOfFruitFliesCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="TERRO T2502 Fruit Fly Trap (2-pack)" search="terro fruit fly trap" label="Best ready-made trap" />
+      <StickyBuyBar tag={AMZ_TAG} name="TERRO T2502 Fruit Fly Trap (2-pack)" search="terro fruit fly trap" label="Best ready-made trap" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -119,7 +122,7 @@ export default function HowToGetRidOfFruitFliesCanadaPage() {
 
       <section className="bg-white px-4 py-2">
         <div className="max-w-4xl mx-auto">
-          <TopPick
+          <TopPick tag={AMZ_TAG}
             label="Our Top Pick — Ready-Made Trap"
             name="TERRO T2502 Fruit Fly Trap (2-pack)"
             blurb="The apple-shaped counter trap that actually earns its shelf space: a food-based liquid lure draws adults in through angled entry holes they can't navigate back out of. Sold in Canada with a Canadian label, non-insecticidal (fine right beside the fruit bowl), and each trap stays effective for up to 45 days once activated. It won't fix your drain or your recycling bin — nothing in a bottle will — but for mopping up the adult population while you remove the source, it beats every DIY jar we've tested on catch rate and on not stinking up the counter."
@@ -163,7 +166,7 @@ export default function HowToGetRidOfFruitFliesCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Adults</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best adult catcher</strong></td>
                   <td className="px-4 py-3 text-xs text-gray-600">Mops up the flying population while the source dries out</td>
-                  <td className="px-4 py-3"><BuyLink search="terro fruit fly trap" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="terro fruit fly trap" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">DIY vinegar jar<br /><span className="font-normal text-xs text-gray-500">ACV + dish soap</span></td>
@@ -177,14 +180,14 @@ export default function HowToGetRidOfFruitFliesCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Larvae + breeding film in pipes</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Essential if drains are the source</strong></td>
                   <td className="px-4 py-3 text-xs text-gray-600">3–5 consecutive nights after a physical scrub</td>
-                  <td className="px-4 py-3"><BuyLink search="green gobbler fruit fly goodbye drain gel" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="green gobbler fruit fly goodbye drain gel" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">UV + fan trap<br /><span className="font-normal text-xs text-gray-500">Katchy</span></td>
                   <td className="px-4 py-3 text-gray-700">Adults (evening/overnight)</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Helpful extra</strong> — better for gnats</td>
                   <td className="px-4 py-3 text-xs text-gray-600">Overnight catch in a dark kitchen; not fruit-fly-specific</td>
-                  <td className="px-4 py-3"><BuyLink search="katchy indoor insect trap" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="katchy indoor insect trap" block>Check price →</BuyLink></td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 font-bold text-brand-800">Foggers / fly sprays<br /><span className="font-normal text-xs text-gray-500">aerosol insecticides</span></td>
@@ -265,7 +268,7 @@ export default function HowToGetRidOfFruitFliesCanadaPage() {
             <li><strong>45 days per trap.</strong> One two-pack, opened in mid-August, covers the entire Canadian spike season. Place one by the fruit bowl and one by the sink or recycling.</li>
           </ul>
           <div className="not-prose my-4">
-            <BuyLink search="terro fruit fly trap">Check TERRO Fruit Fly Trap on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="terro fruit fly trap">Check TERRO Fruit Fly Trap on Amazon.ca →</BuyLink>
           </div>
           <p><strong>The honest word on the apple cider vinegar jar:</strong> it works, and you should still make one — as a supplement. A jar or bowl of ACV with one drop of dish soap (the soap collapses the surface tension so landing flies sink and drown) genuinely catches adults, costs nothing, and doubles as the locator tool from Step 1. Adding a plastic-wrap lid with pin holes converts it into a crude one-way trap and improves it further. What it cannot do is end an infestation: it addresses zero eggs and zero larvae, and its open design leaks catch. Treat DIY jars as free extra coverage in rooms where you have not deployed a real trap — never as the plan.</p>
           <p>A note on UV traps: a plug-in unit like the Katchy catches some fruit flies overnight in a dark kitchen, but UV light is a weak lure for <em>Drosophila</em> compared to fermentation odour — these machines earn their keep against fungus gnats far more than fruit flies. Our <Link href="/blog/katchy-indoor-insect-trap-review-canada">Katchy review</Link> covers exactly what it does and does not catch, and our <Link href="/blog/best-indoor-fly-mosquito-trap-canada">indoor fly and mosquito trap roundup</Link> compares the whole plug-in category. For a head-to-head of every fruit-fly-specific trap sold here, see the <Link href="/blog/best-fruit-fly-trap-canada">best fruit fly trap in Canada</Link> guide.</p>
@@ -279,7 +282,7 @@ export default function HowToGetRidOfFruitFliesCanadaPage() {
             <li><strong>Pour an enzyme or microbial drain gel at night</strong>, when the drain will sit unused for hours. The widely available option in Canada is Green Gobbler Fruit Fly Goodbye; enzyme gels cling to the pipe walls and digest the organic film rather than just flowing past it. Repeat for <strong>3–5 consecutive nights</strong> — one dose rarely clears an established film.</li>
           </ol>
           <div className="not-prose my-4">
-            <BuyLink search="green gobbler fruit fly goodbye drain gel">Check enzyme drain gel on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="green gobbler fruit fly goodbye drain gel">Check enzyme drain gel on Amazon.ca →</BuyLink>
           </div>
           <p>Enzyme drain gels are cleaners, not insecticides, which is exactly why they are the right tool: nothing toxic sits in your sink, and there is no Canadian regulatory problem. That distinction matters because the US market is full of <strong>insecticide drain products and total-release foggers that are not PMRA-registered for sale in Canada</strong> — cross-border listings and grey-market sellers offer US-label foggers and drain treatments that legally cannot be sold here and that you should not use around food surfaces regardless. Health Canada&rsquo;s rule is simple: an insecticide sold in Canada must carry a PCP registration number on a Canadian label. For fruit flies you never need to go near that aisle anyway — sanitation, a lure trap, and an enzyme gel out-perform any spray because sprays only touch the adults flying at that moment.</p>
           <p>One diagnostic caveat: fuzzy, moth-like flies resting on the bathroom wall are <strong>drain flies</strong>, not fruit flies. The drain-cleaning protocol above is the same, but fruit fly lure traps will not catch them — identification first, purchase second.</p>

@@ -8,6 +8,7 @@ import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'dupray-vs-mcculloch-steamer-canada'
 const DATE = '2026-07-21'
@@ -75,6 +76,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('dupray-vs-mcculloch-steamer-canada')
+
 export default function DuprayVsMccullochSteamerCanadaPage() {
   return (
     <>
@@ -96,7 +99,7 @@ export default function DuprayVsMccullochSteamerCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="Dupray Neat steam cleaner" search="dupray neat steam cleaner" label="Bed-bug winner" />
+      <StickyBuyBar tag={AMZ_TAG} name="Dupray Neat steam cleaner" search="dupray neat steam cleaner" label="Bed-bug winner" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -173,8 +176,8 @@ export default function DuprayVsMccullochSteamerCanadaPage() {
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Availability</td>
-                  <td className="px-4 py-3"><BuyLink search="dupray neat steam cleaner" block>Check price →</BuyLink></td>
-                  <td className="px-4 py-3"><BuyLink search="mcculloch mc1275 steam cleaner" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="dupray neat steam cleaner" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="mcculloch mc1275 steam cleaner" block>Check price →</BuyLink></td>
                   <td className="px-4 py-3 text-gray-700">Buy the Canadian 120V listing for the right plug and warranty</td>
                 </tr>
               </tbody>
@@ -202,8 +205,8 @@ export default function DuprayVsMccullochSteamerCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability for each machine:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="dupray neat steam cleaner">Dupray Neat →</BuyLink>
-            <BuyLink search="mcculloch mc1275 steam cleaner">McCulloch MC1275 →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="dupray neat steam cleaner">Dupray Neat →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="mcculloch mc1275 steam cleaner">McCulloch MC1275 →</BuyLink>
           </div>
 
           <h2>The PSI Myth: Why Pressure Does Not Kill Bed Bugs</h2>
@@ -240,7 +243,7 @@ export default function DuprayVsMccullochSteamerCanadaPage() {
           <h2>The Winner &mdash; and How to Use It</h2>
           <p>For bed bugs, the Dupray Neat is our pick. Steam is only the heat step, though, so use it inside a plan. Vacuum first with a <Link href="/blog/best-hepa-vacuum-for-bed-bugs-and-fleas-canada">sealed-HEPA vacuum</Link> to physically remove live adults and debris from the seams. Steam second, slowly, along every seam, tuft, fold, box-spring staple, frame joint, headboard crack, and baseboard, keeping the tip close and the velocity gentle. For the pile of clothing, bedding, and belongings you cannot steam individually, run a <Link href="/blog/bed-bug-heater-canada">bed-bug heater chamber</Link> &mdash; and if you travel, a <Link href="/blog/best-bed-bug-luggage-heater-canada">luggage-sized heater</Link> or the <Link href="/blog/zappbug-heater-review-canada">ZappBug</Link> handles suitcases. Then place <Link href="/blog/best-ozone-generator-canada">monitoring and follow-up tools</Link> and interceptor traps under the bed legs so you can see, week over week, whether the numbers are dropping.</p>
 
-          <TopPick
+          <TopPick tag={AMZ_TAG}
             label="Winner — Best for Bed Bugs"
             name="Dupray Neat Steam Cleaner"
             blurb="The Dupray Neat wins the head-to-head for bed bugs. Its stainless-steel boiler delivers hotter, drier, more sustained vapour and a long continuous run, so you can hold a killing temperature at the fabric surface through a whole-room job without fighting refills or over-wetting the mattress. It is the premium, pest-focused choice — and the one that forgives imperfect technique. The McCulloch MC1275 remains the better-value all-round household cleaner if bed bugs are a secondary concern."

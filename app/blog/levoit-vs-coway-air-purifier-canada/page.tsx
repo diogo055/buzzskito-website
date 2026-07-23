@@ -7,6 +7,7 @@ import SpecialistDisclosure from '@/components/SpecialistDisclosure'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'levoit-vs-coway-air-purifier-canada'
 const DATE = '2026-07-21'
@@ -77,6 +78,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('levoit-vs-coway-air-purifier-canada')
+
 export default function LevoitVsCowayAirPurifierCanadaPage() {
   return (
     <>
@@ -98,7 +101,7 @@ export default function LevoitVsCowayAirPurifierCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="Coway AP-1512HH (Airmega Mighty)" search={COWAY_SEARCH} label="Best for living rooms" />
+      <StickyBuyBar tag={AMZ_TAG} name="Coway AP-1512HH (Airmega Mighty)" search={COWAY_SEARCH} label="Best for living rooms" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -173,8 +176,8 @@ export default function LevoitVsCowayAirPurifierCanadaPage() {
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Availability</td>
-                  <td className="px-4 py-3"><BuyLink search={LEVOIT_SEARCH} block>Check price →</BuyLink></td>
-                  <td className="px-4 py-3"><BuyLink search={COWAY_SEARCH} block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search={LEVOIT_SEARCH} block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search={COWAY_SEARCH} block>Check price →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -201,8 +204,8 @@ export default function LevoitVsCowayAirPurifierCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability and the exact filter for each model:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search={LEVOIT_SEARCH}>Levoit Core 300 →</BuyLink>
-            <BuyLink search={COWAY_SEARCH}>Coway AP-1512HH →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search={LEVOIT_SEARCH}>Levoit Core 300 →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search={COWAY_SEARCH}>Coway AP-1512HH →</BuyLink>
           </div>
 
           <h2>Coverage and Air Changes: The Number That Actually Decides It</h2>

@@ -8,6 +8,7 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import SpecialistDisclosure from '@/components/SpecialistDisclosure'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'best-bed-bug-steamer-canada'
 const DATE = '2026-07-16'
@@ -77,6 +78,8 @@ export const metadata: Metadata = buildMetadata({
   publishedTime: DATE,
 })
 
+const AMZ_TAG = tagForSlug('best-bed-bug-steamer-canada')
+
 export default function BestBedBugSteamerCanadaPage() {
   return (
     <>
@@ -98,7 +101,7 @@ export default function BestBedBugSteamerCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="Vapamore MR-100 Primo bed bug steamer" search="vapamore mr-100 steamer" label="Best overall" />
+      <StickyBuyBar tag={AMZ_TAG} name="Vapamore MR-100 Primo bed bug steamer" search="vapamore mr-100 steamer" label="Best overall" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -125,12 +128,12 @@ export default function BestBedBugSteamerCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Compare current Canadian availability for the three steamers covered in this guide:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="vapamore mr-100 steamer">Vapamore MR-100 on Amazon.ca →</BuyLink>
-            <BuyLink search="mcculloch mc1275 steam cleaner">McCulloch MC1275 →</BuyLink>
-            <BuyLink search="pursteam steam cleaner">PurSteam →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="vapamore mr-100 steamer">Vapamore MR-100 on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="mcculloch mc1275 steam cleaner">McCulloch MC1275 →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="pursteam steam cleaner">PurSteam →</BuyLink>
           </div>
 
-          <AwardRow
+          <AwardRow tag={AMZ_TAG}
             heading="Our Picks — Best Bed Bug Steamers in Canada"
             awards={[
               {
@@ -209,19 +212,19 @@ export default function BestBedBugSteamerCanadaPage() {
           <h3>Vapamore MR-100 Primo — the premium pick</h3>
           <p>The MR-100 Primo is the machine we would buy for any real infestation. Its stainless-steel boiler produces consistent dry-vapour steam — low moisture content, so fabric gets hot rather than wet — and roughly 60 minutes of continuous output per fill, which matters enormously when a single mattress-and-box-spring pass takes an hour at the correct speed. The lifetime warranty is the quiet differentiator: bed bug steaming is hard on machines, and Vapamore&rsquo;s warranty outlasts every competitor in the category. Market range in Canada is typically $400–$500.</p>
           <div className="not-prose my-4">
-            <BuyLink search="vapamore mr-100 steamer">Check Vapamore MR-100 availability on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="vapamore mr-100 steamer">Check Vapamore MR-100 availability on Amazon.ca →</BuyLink>
           </div>
 
           <h3>McCulloch MC1275 — the best-value canister</h3>
           <p>The MC1275 is the most-recommended budget bed bug steamer in North America for a reason: 1,500 W of heating power, a 1.4 L tank good for about 45 minutes of steam, and an 18-piece accessory kit that includes the triangular brush head you want for mattress seams. The trade-offs against the Vapamore are a wetter steam output, a shorter warranty, and more plastic in the build — acceptable compromises at roughly half the price. For a contained single-bedroom problem caught early, this is the sensible buy. Market range is typically $150–$250.</p>
           <div className="not-prose my-4">
-            <BuyLink search="mcculloch mc1275 steam cleaner">Check McCulloch MC1275 availability on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="mcculloch mc1275 steam cleaner">Check McCulloch MC1275 availability on Amazon.ca →</BuyLink>
           </div>
 
           <h3>PurSteam — the handheld supplement</h3>
           <p>PurSteam&rsquo;s handheld units heat up in three to four minutes and cost a fraction of a canister machine, which makes them tempting — but be clear-eyed about the role. A ~0.35 L tank gives you 10–15 minutes of steam, nowhere near enough for a full bed treatment at slow-pass speed, and handheld pressure drops noticeably as the tank empties. Where it earns its spot: quick follow-up sessions in the 7–10 day re-treatment window, steaming luggage after travel, and touch-ups on interceptor-adjacent bed legs and frames. Buy it as a second machine, not a first.</p>
           <div className="not-prose my-4">
-            <BuyLink search="pursteam steam cleaner">Check PurSteam availability on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="pursteam steam cleaner">Check PurSteam availability on Amazon.ca →</BuyLink>
           </div>
 
           <h2>How do you actually steam for bed bugs? The slow-pass technique</h2>

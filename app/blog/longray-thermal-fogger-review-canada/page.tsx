@@ -8,6 +8,7 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'longray-thermal-fogger-review-canada'
 const DATE = '2026-07-21'
@@ -75,6 +76,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('longray-thermal-fogger-review-canada')
+
 export default function LongrayThermalFoggerReviewCanadaPage() {
   return (
     <>
@@ -96,7 +99,7 @@ export default function LongrayThermalFoggerReviewCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="Longray TS35A Pulse-Jet Thermal Fogger" search="longray ts35a thermal fogger" label="Flagship pulse-jet" />
+      <StickyBuyBar tag={AMZ_TAG} name="Longray TS35A Pulse-Jet Thermal Fogger" search="longray ts35a thermal fogger" label="Flagship pulse-jet" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -118,7 +121,7 @@ export default function LongrayThermalFoggerReviewCanadaPage() {
 
       <section className="bg-white px-4 py-6">
         <div className="max-w-4xl mx-auto">
-          <TopPick
+          <TopPick tag={AMZ_TAG}
             label="Our Verdict — Flagship Pulse-Jet Fogger"
             name="Longray TS35A Pulse-Jet Thermal Fogger"
             blurb="The TS35A is the machine to buy when the property genuinely justifies a professional-grade fogger. Cordless gasoline pulse-jet power heats fast, roams anywhere, and throws a dense, driftless 5–30 micron fog that penetrates hedgerows, tree lines, and shaded canopy an electric fogger or pump sprayer can't touch. Longray's long track record means parts and barrels stay available for a machine you'll run for years. It's overkill for a small suburban lot — but for acreage, cottages, campgrounds, and commercial grounds, it's the closest a homeowner gets to what the pros carry."
@@ -154,21 +157,21 @@ export default function LongrayThermalFoggerReviewCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Combustion flash-heats oil solution into a dense 5&ndash;30&micro;m fog</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Acreage &amp; scale</strong> &mdash; cordless reach, huge fog volume</td>
                   <td className="px-4 py-3 text-gray-700">Fire/burn risk, fuel, PPE, price</td>
-                  <td className="px-4 py-3"><BuyLink search="longray ts35a thermal fogger" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="longray ts35a thermal fogger" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Electric thermal<br /><span className="font-normal text-xs text-gray-500">Black Flag, Burgess</span></td>
                   <td className="px-4 py-3 text-gray-700">Electric element heats solution into thermal fog</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Small&ndash;mid yards</strong> near an outlet, quieter, cheaper</td>
                   <td className="px-4 py-3 text-gray-700">Corded tether, slower heat, smaller fog volume</td>
-                  <td className="px-4 py-3"><BuyLink search="black flag electric thermal fogger" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="black flag electric thermal fogger" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">ULV cold fogger<br /><span className="font-normal text-xs text-gray-500">electric or cordless</span></td>
                   <td className="px-4 py-3 text-gray-700">High-pressure air atomizes solution &mdash; no heat, no flame</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Indoors &amp; control</strong> &mdash; water-based, adjustable droplet, no fire</td>
                   <td className="px-4 py-3 text-gray-700">Less outdoor penetration than thermal; near-invisible fog</td>
-                  <td className="px-4 py-3"><BuyLink search="ulv cold fogger" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="ulv cold fogger" block>Check price →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -221,8 +224,8 @@ export default function LongrayThermalFoggerReviewCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability before you buy:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="longray ts35a thermal fogger">Longray TS35A on Amazon.ca →</BuyLink>
-            <BuyLink search="black flag electric thermal fogger">Electric alternative →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="longray ts35a thermal fogger">Longray TS35A on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="black flag electric thermal fogger">Electric alternative →</BuyLink>
           </div>
 
           <h2>What the Longray TS35A Actually Is</h2>

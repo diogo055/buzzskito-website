@@ -8,6 +8,7 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { MOSQUITO_BLOGS } from '@/lib/constants'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const POST = MOSQUITO_BLOGS.supporting[1]
 const UPDATED = '2026-07-12'
@@ -72,6 +73,8 @@ const FAQS = [
     answer: 'A professional mosquito barrier treatment lasts up to 30 days (3–4 weeks) per application. The residual insecticide bonds to leaf and shrub surfaces as it dries, killing mosquitoes that land to rest for the full window. Heavy rain within the first hour, intense heat and UV, and dense untreated vegetation nearby can shorten it, so most GTA yards are re-treated every 21–28 days from May through September for continuous protection.',
   },
 ]
+
+const AMZ_TAG = tagForSlug('how-long-does-mosquito-spray-last')
 
 export default function MosquitoSprayLastPage() {
   return (
@@ -146,7 +149,7 @@ export default function MosquitoSprayLastPage() {
           </table>
         </div>
         <AffiliateDisclosure />
-        <p>The one DIY item from that table worth pairing with professional treatment: BTi mosquito dunks for any standing water you cannot drain (rain barrels, pond edges). They stop larvae for 30 days and complement — rather than replace — the barrier spray doing the yard-wide work. <BuyLink search="summit mosquito dunks">Check Mosquito Dunks on Amazon.ca →</BuyLink></p>
+        <p>The one DIY item from that table worth pairing with professional treatment: BTi mosquito dunks for any standing water you cannot drain (rain barrels, pond edges). They stop larvae for 30 days and complement — rather than replace — the barrier spray doing the yard-wide work. <BuyLink tag={AMZ_TAG} search="summit mosquito dunks">Check Mosquito Dunks on Amazon.ca →</BuyLink></p>
 
         <h2>Why Professional Spray Lasts Longer Than DIY Options</h2>
         <p>Professional-grade residual insecticides used by BuzzSkito are formulated to bond tightly to vegetation surfaces as they dry. This creates a durable coating that persists through normal weather conditions for up to 30 days. Consumer products, which are diluted for safety in non-professional contexts, typically have much lower active ingredient concentrations and lack the adhesion chemistry that enables long-lasting residual protection. For a full side-by-side breakdown, see our guide on <Link href="/blog/mosquito-vs-diy-vs-professional-control" className="text-brand-700 hover:underline">DIY vs. professional mosquito control</Link>.</p>

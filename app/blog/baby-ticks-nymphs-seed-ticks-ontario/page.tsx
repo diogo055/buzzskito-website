@@ -7,6 +7,7 @@ import TopPick from '@/components/TopPick'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'baby-ticks-nymphs-seed-ticks-ontario'
 const DATE = '2026-07-12'
@@ -56,6 +57,8 @@ export const metadata: Metadata = buildMetadata({
   publishedTime: DATE,
   modifiedTime: UPDATED,
 })
+
+const AMZ_TAG = tagForSlug('baby-ticks-nymphs-seed-ticks-ontario')
 
 export default function BabyTicksNymphsSeedTicksOntarioPage() {
   return (
@@ -182,9 +185,9 @@ export default function BabyTicksNymphsSeedTicksOntarioPage() {
             <li><strong>Clean the bite</strong> with rubbing alcohol or soap and water afterward, and wash your hands.</li>
             <li><strong>Save the tick</strong> in a sealed bag or container if you want it identified or tested, and note the date. Watch the site for an expanding rash and see a doctor if a rash or flu-like symptoms appear.</li>
           </ol>
-          <p>Because nymphs are so easy to lose grip on, a proper fine-tipped tool is genuinely worth having in the first-aid kit before tick season. <BuyLink search="tick removal tool tweezers">Check tick-removal tools on Amazon.ca →</BuyLink> For a breakdown of which style works best, see our <Link href="/blog/tick-removal-tool-guide">tick removal tool guide</Link>.</p>
+          <p>Because nymphs are so easy to lose grip on, a proper fine-tipped tool is genuinely worth having in the first-aid kit before tick season. <BuyLink tag={AMZ_TAG} search="tick removal tool tweezers">Check tick-removal tools on Amazon.ca →</BuyLink> For a breakdown of which style works best, see our <Link href="/blog/tick-removal-tool-guide">tick removal tool guide</Link>.</p>
 
-          <TopPick
+          <TopPick tag={AMZ_TAG}
             label="Our Top Pick"
             name="Fine-Tipped Tick Removal Tool"
             blurb="For poppy-seed-sized nymphs, a dedicated fine-point or slotted tick remover grips the mouthparts where blunt household tweezers slip. Compact enough to keep in the first-aid kit or pack before tick season."

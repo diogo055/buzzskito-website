@@ -8,6 +8,7 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'picaridin-vs-deet-canada'
 const DATE = '2026-05-01'
@@ -77,6 +78,8 @@ export const metadata: Metadata = buildMetadata({
   publishedTime: DATE,
 })
 
+const AMZ_TAG = tagForSlug('picaridin-vs-deet-canada')
+
 export default function PicaridinVsDeetPage() {
   return (
     <>
@@ -98,7 +101,7 @@ export default function PicaridinVsDeetPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="Picaridin 20% insect repellent (Natrapel / OFF! Defense / Sawyer)" search="natrapel picaridin insect repellent" label="Our top pick" />
+      <StickyBuyBar tag={AMZ_TAG} name="Picaridin 20% insect repellent (Natrapel / OFF! Defense / Sawyer)" search="natrapel picaridin insect repellent" label="Our top pick" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -115,7 +118,7 @@ export default function PicaridinVsDeetPage() {
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
           </div>
-          <TopPick
+          <TopPick tag={AMZ_TAG}
             label="Our Top Pick"
             name="Picaridin 20% (Natrapel, OFF! Defense, or Sawyer)"
             blurb="The winner for most Canadians — the same 5–8 hour mosquito and 8-hour tick protection as DEET 30%, but non-greasy, odourless, and safe on plastics, sunglasses, and synthetic clothing."
@@ -230,8 +233,8 @@ export default function PicaridinVsDeetPage() {
           </div>
           <p className="mt-4 text-sm text-gray-600 flex flex-wrap items-center gap-2">
             <span>Compare live Canadian prices:</span>
-            <BuyLink search="natrapel picaridin insect repellent" className="!px-3 !py-1.5 !text-xs">Picaridin 20% on Amazon.ca</BuyLink>
-            <BuyLink search="off deep woods deet insect repellent" className="!px-3 !py-1.5 !text-xs">DEET 30% on Amazon.ca</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="natrapel picaridin insect repellent" className="!px-3 !py-1.5 !text-xs">Picaridin 20% on Amazon.ca</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="off deep woods deet insect repellent" className="!px-3 !py-1.5 !text-xs">DEET 30% on Amazon.ca</BuyLink>
           </p>
         </div>
       </section>
@@ -242,8 +245,8 @@ export default function PicaridinVsDeetPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Popular Health-Canada-approved options for each (Natrapel/OFF! picaridin, Watkins/OFF! DEET):</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="natrapel picaridin insect repellent">Check picaridin repellents on Amazon.ca →</BuyLink>
-            <BuyLink search="off deep woods deet insect repellent">Check DEET repellents →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="natrapel picaridin insect repellent">Check picaridin repellents on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="off deep woods deet insect repellent">Check DEET repellents →</BuyLink>
           </div>
 
           <h2>Best Picaridin Repellents in Canada</h2>
@@ -252,17 +255,17 @@ export default function PicaridinVsDeetPage() {
             <div className="rounded-xl border border-navy-100 bg-white p-4 shadow-sm flex flex-col">
               <p className="font-extrabold text-brand-900">Natrapel 20% Picaridin</p>
               <p className="text-sm text-gray-600 mt-1 mb-3 flex-1">Outdoor-store favourite &mdash; pump or continuous spray, travel-friendly, stocked at MEC and Atmosphere.</p>
-              <BuyLink search="natrapel picaridin 20 percent">Check price on Amazon.ca →</BuyLink>
+              <BuyLink tag={AMZ_TAG} search="natrapel picaridin 20 percent">Check price on Amazon.ca →</BuyLink>
             </div>
             <div className="rounded-xl border border-navy-100 bg-white p-4 shadow-sm flex flex-col">
               <p className="font-extrabold text-brand-900">OFF! Defense Picaridin</p>
               <p className="text-sm text-gray-600 mt-1 mb-3 flex-1">Most-stocked pharmacy pick &mdash; lotion or spray, budget-friendly, easy to find at Shoppers and Canadian Tire.</p>
-              <BuyLink search="off defense picaridin insect repellent">Check price on Amazon.ca →</BuyLink>
+              <BuyLink tag={AMZ_TAG} search="off defense picaridin insect repellent">Check price on Amazon.ca →</BuyLink>
             </div>
             <div className="rounded-xl border border-navy-100 bg-white p-4 shadow-sm flex flex-col">
               <p className="font-extrabold text-brand-900">Sawyer Picaridin</p>
               <p className="text-sm text-gray-600 mt-1 mb-3 flex-1">Long-lasting lotion loved by hikers and travellers &mdash; one application covers a full day outdoors.</p>
-              <BuyLink search="sawyer picaridin insect repellent">Check price on Amazon.ca →</BuyLink>
+              <BuyLink tag={AMZ_TAG} search="sawyer picaridin insect repellent">Check price on Amazon.ca →</BuyLink>
             </div>
           </div>
           <p className="text-sm text-gray-600">Skin repellent keeps bites off you for a few hours &mdash; it won&rsquo;t clear your yard. For hands-off, whole-property coverage, layer in <Link href="/mosquito-control">professional barrier spray</Link> with 21&ndash;30 day residual.</p>

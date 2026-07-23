@@ -8,6 +8,7 @@ import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'raccoon-deterrent-canada'
 const DATE = '2026-07-21'
@@ -75,6 +76,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('raccoon-deterrent-canada')
+
 export default function RaccoonDeterrentCanadaPage() {
   return (
     <>
@@ -96,7 +99,7 @@ export default function RaccoonDeterrentCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="Motion-activated sprinkler (Orbit Yard Enforcer)" search="motion activated sprinkler animal repellent" label="Best raccoon deterrent" />
+      <StickyBuyBar tag={AMZ_TAG} name="Motion-activated sprinkler (Orbit Yard Enforcer)" search="motion activated sprinkler animal repellent" label="Best raccoon deterrent" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -119,7 +122,7 @@ export default function RaccoonDeterrentCanadaPage() {
 
       <section className="bg-white px-4 py-6">
         <div className="max-w-5xl mx-auto">
-          <AwardRow
+          <AwardRow tag={AMZ_TAG}
             heading="Our Picks — Best Raccoon Deterrents in Canada"
             awards={[
               {
@@ -200,25 +203,25 @@ export default function RaccoonDeterrentCanadaPage() {
                   <td className="px-4 py-3 font-bold text-brand-800">Motion-activated sprinkler</td>
                   <td className="px-4 py-3 text-gray-700">Sudden water burst + noise + movement, triggered by an infrared sensor</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Strong</strong> &mdash; physical, unpredictable; slow habituation</td>
-                  <td className="px-4 py-3"><BuyLink search="motion activated sprinkler animal repellent" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="motion activated sprinkler animal repellent" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Bin straps &amp; lid locks</td>
                   <td className="px-4 py-3 text-gray-700">Removes the food reward driving the visits in the first place</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Strong</strong> &mdash; no reward, no routine; works every night</td>
-                  <td className="px-4 py-3"><BuyLink search="garbage can lid lock strap raccoon" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="garbage can lid lock strap raccoon" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Exclusion mesh (hardware cloth)</td>
                   <td className="px-4 py-3 text-gray-700">Buried galvanized barrier physically closes den sites under decks and sheds</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Strong</strong> &mdash; permanent when trenched in an L-footer</td>
-                  <td className="px-4 py-3"><BuyLink search="galvanized hardware cloth 1/2 inch" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="galvanized hardware cloth 1/2 inch" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Predator-eye / strobe lights</td>
                   <td className="px-4 py-3 text-gray-700">Red LED pairs or strobes mimic predator presence at night</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Weak</strong> &mdash; habituation within weeks; supplement only</td>
-                  <td className="px-4 py-3"><BuyLink search="solar predator eye deterrent light" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="solar predator eye deterrent light" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Ultrasonic repellers</td>
@@ -241,7 +244,7 @@ export default function RaccoonDeterrentCanadaPage() {
           <p>Placement decides most of the outcome. Cover the <strong>approach route</strong>, not the middle of the lawn: the fence gap they slip through, the garden bed being dug, the path to the fish pond, the base of the deck stairs. Set the sensor for night-only mode so the mail carrier stays dry, and move the unit a few metres every two or three weeks &mdash; raccoons are smart enough to map a static danger zone and route around it. One unit covers a typical urban backyard zone; large or complex lots want two, covering intersecting angles. The main Canadian caveat: these run on hose pressure, so they come inside before the first hard frost &mdash; which is fine, because raccoon pressure on gardens and ponds is a May-to-October problem anyway.</p>
           <p>We put the Orbit Yard Enforcer and its competitors through a full standalone teardown &mdash; sensor range, false-trigger rates, battery life, winter storage &mdash; in our <Link href="/blog/motion-activated-sprinkler-canada">motion-activated sprinkler guide for Canada</Link>. If you also fight cats or deer, it doubles as the buying guide for those.</p>
           <div className="not-prose my-4">
-            <BuyLink search="motion activated sprinkler animal repellent">Check motion-activated sprinklers on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="motion activated sprinkler animal repellent">Check motion-activated sprinklers on Amazon.ca →</BuyLink>
           </div>
 
           <h2>Green Bins and Garbage: Win the Food War First</h2>
@@ -254,7 +257,7 @@ export default function RaccoonDeterrentCanadaPage() {
             <li><strong>Dusk sweep.</strong> Pet food bowls come in at dusk, bird feeders get seed catchers (spilled seed is raccoon and rat food), and ripe fruit under trees gets picked up. Raccoons run a nightly circuit; a property that pays out nothing gets dropped from the route.</li>
           </ul>
           <div className="not-prose my-4">
-            <BuyLink search="garbage can lid lock strap raccoon">Check bin straps and lid locks on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="garbage can lid lock strap raccoon">Check bin straps and lid locks on Amazon.ca →</BuyLink>
           </div>
 
           <h2>Decks and Sheds: Exclusion Done Right (and the One-Way Door Rule)</h2>
@@ -272,7 +275,7 @@ export default function RaccoonDeterrentCanadaPage() {
             </p>
           </div>
           <div className="not-prose my-4">
-            <BuyLink search="galvanized hardware cloth 1/2 inch">Check galvanized hardware cloth on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="galvanized hardware cloth 1/2 inch">Check galvanized hardware cloth on Amazon.ca →</BuyLink>
           </div>
 
           <h2>Lights, Ultrasonics, and Scent Repellents: The Honest Bottom Tier</h2>

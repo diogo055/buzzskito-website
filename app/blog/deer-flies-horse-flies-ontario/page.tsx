@@ -7,6 +7,7 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'deer-flies-horse-flies-ontario'
 const DATE = '2026-07-12'
@@ -56,6 +57,8 @@ export const metadata: Metadata = buildMetadata({
   publishedTime: DATE,
   modifiedTime: UPDATED,
 })
+
+const AMZ_TAG = tagForSlug('deer-flies-horse-flies-ontario')
 
 export default function DeerFliesHorseFliesOntarioPage() {
   return (
@@ -145,11 +148,11 @@ export default function DeerFliesHorseFliesOntarioPage() {
 
           <p className="not-prose text-sm text-gray-600 mb-1">The two traps that actually work against biting flies:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="deer fly trap patch">Deer fly hat patches on Amazon.ca →</BuyLink>
-            <BuyLink search="deer fly sticky trap">Blue sticky ball traps →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="deer fly trap patch">Deer fly hat patches on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="deer fly sticky trap">Blue sticky ball traps →</BuyLink>
           </div>
 
-          <TopPick
+          <TopPick tag={AMZ_TAG}
             label="Best Deer Fly Trap"
             name="Blue Sticky Ball Deer Fly Trap"
             blurb="A blue coroplast sphere coated in sticky glue that sways in the breeze mimics a moving host, so deer and horse flies commit to it and stick fast. Hung in a sunny, open flight path near where you sit, it racks up large numbers over a season — the single most effective off-the-shelf tool for the flies that circle your head."
@@ -174,8 +177,8 @@ export default function DeerFliesHorseFliesOntarioPage() {
             <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Trap the flies that circle your head</h3>
             <p className="text-sm text-gray-700 mb-4 leading-relaxed">A blue sticky ball hung in a sunny, open flight path mimics a moving host and racks up dozens of deer and horse flies over a season. A sticky patch on your hat catches the ones that orbit you on the trail. Neither wipes out the population, but together they cut how many actually reach your skin.</p>
             <div className="flex flex-wrap gap-3">
-              <BuyLink search="deer fly sticky trap">Check blue sticky trap prices →</BuyLink>
-              <BuyLink search="deer fly trap patch">Check hat patch prices →</BuyLink>
+              <BuyLink tag={AMZ_TAG} search="deer fly sticky trap">Check blue sticky trap prices →</BuyLink>
+              <BuyLink tag={AMZ_TAG} search="deer fly trap patch">Check hat patch prices →</BuyLink>
             </div>
           </aside>
 
@@ -196,7 +199,7 @@ export default function DeerFliesHorseFliesOntarioPage() {
           <p>No single tactic clears biting flies, but stacking several makes a real difference around an Ontario home:</p>
           <ul>
             <li><strong>Blue sticky ball traps.</strong> Hang a blue coroplast sphere coated in sticky glue so it sways in the breeze in a sunny, open area near where you sit — the movement and dark colour draw deer and horse flies, which stick and cannot escape.</li>
-            <li><strong>Hat patches.</strong> A sticky <BuyLink search="deer fly trap patch">deer fly hat patch</BuyLink> on the crown of a light-coloured hat traps the flies that circle your head on trails and in the garden.</li>
+            <li><strong>Hat patches.</strong> A sticky <BuyLink tag={AMZ_TAG} search="deer fly trap patch">deer fly hat patch</BuyLink> on the crown of a light-coloured hat traps the flies that circle your head on trails and in the garden.</li>
             <li><strong>Dress light and cover up.</strong> Tabanids prefer dark, moving targets, so light colours, long sleeves, and long pants cut both attraction and access.</li>
             <li><strong>Time it.</strong> Activity peaks on hot, sunny, windless afternoons. Work outdoors in the early morning, on cool or overcast days, or when there is a breeze.</li>
             <li><strong>Repellents.</strong> DEET and picaridin (icaridin) help, though biting flies are somewhat less deterred than mosquitoes — reapply as directed. Follow the label and <a href="https://www.canada.ca/en/health-canada/services/consumer-product-safety/pesticides-pest-management.html" target="_blank" rel="noopener" className="underline">Health Canada</a> guidance.</li>

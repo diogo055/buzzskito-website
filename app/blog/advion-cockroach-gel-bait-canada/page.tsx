@@ -8,6 +8,7 @@ import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'advion-cockroach-gel-bait-canada'
 const DATE = '2026-07-21'
@@ -79,6 +80,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('advion-cockroach-gel-bait-canada')
+
 export default function AdvionCockroachGelBaitCanadaPage() {
   return (
     <>
@@ -100,7 +103,7 @@ export default function AdvionCockroachGelBaitCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="Combat roach killing bait stations (12-pack)" search="combat roach killing bait stations" label="Legal consumer pick" />
+      <StickyBuyBar tag={AMZ_TAG} name="Combat roach killing bait stations (12-pack)" search="combat roach killing bait stations" label="Legal consumer pick" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -181,37 +184,37 @@ export default function AdvionCockroachGelBaitCanadaPage() {
                   <td className="px-4 py-3 font-bold text-brand-800">Combat-style bait stations<br /><span className="font-normal text-xs text-gray-500">hydramethylnon, enclosed</span></td>
                   <td className="px-4 py-3 text-gray-700">Consumer bait stations widely stocked at Canadian retailers &mdash; delayed-kill bait in a child-resistant housing</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">The legal workhorse</strong></td>
-                  <td className="px-4 py-3"><BuyLink search="combat roach killing bait stations" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="combat roach killing bait stations" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Raid roach baits<br /><span className="font-normal text-xs text-gray-500">enclosed consumer stations</span></td>
                   <td className="px-4 py-3 text-gray-700">The other mainstream consumer station line on Canadian shelves &mdash; useful for rotating bait actives</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Solid second bait</strong></td>
-                  <td className="px-4 py-3"><BuyLink search="raid max roach bait stations" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="raid max roach bait stations" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Boric acid powder<br /><span className="font-normal text-xs text-gray-500">registered dust products</span></td>
                   <td className="px-4 py-3 text-gray-700">One of the oldest verified roach actives; thin films in cracks and voids, dry areas only</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Cheap force multiplier</strong></td>
-                  <td className="px-4 py-3"><BuyLink search="boric acid roach powder" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="boric acid roach powder" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Diatomaceous earth<br /><span className="font-normal text-xs text-gray-500">crawling-insect registrations</span></td>
                   <td className="px-4 py-3 text-gray-700">Mechanical desiccant dust with Canadian domestic registrations for crawling insects</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Void &amp; perimeter dust</strong></td>
-                  <td className="px-4 py-3"><BuyLink search="diatomaceous earth crawling insect killer" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="diatomaceous earth crawling insect killer" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Glue monitor traps<br /><span className="font-normal text-xs text-gray-500">sticky monitors</span></td>
                   <td className="px-4 py-3 text-gray-700">Devices, not pesticides &mdash; no PMRA registration required at all; your progress meter</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Zero-paperwork essential</strong></td>
-                  <td className="px-4 py-3"><BuyLink search="cockroach glue traps monitor" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="cockroach glue traps monitor" block>Check price →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
           </div>
 
-          <TopPick
+          <TopPick tag={AMZ_TAG}
             label="Best Compliant Bait System"
             name="Combat Roach Killing Bait Stations (large 12-pack)"
             blurb="The legal Canadian workhorse: enclosed, child-resistant stations pre-loaded with a delayed-kill hydramethylnon bait, so foragers feed and carry the dose back to the harbourage before dying — the same core playbook as professional gel, in the format the consumer class allows. Deploy them densely (12–24 stations for a real kitchen problem, not 4), pair with glue monitors to track progress, and check the PCP registration number on the pack you buy. Against light-to-moderate German cockroach pressure with sanitation handled, this plus patience genuinely works."

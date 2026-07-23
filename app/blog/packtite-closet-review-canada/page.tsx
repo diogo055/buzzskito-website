@@ -8,6 +8,7 @@ import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'packtite-closet-review-canada'
 const DATE = '2026-07-21'
@@ -75,6 +76,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('packtite-closet-review-canada')
+
 export default function PackTiteClosetReviewCanadaPage() {
   return (
     <>
@@ -96,7 +99,7 @@ export default function PackTiteClosetReviewCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="PackTite Closet bed-bug heat chamber" search="packtite closet bed bug heater" label="Flagship heat chamber" />
+      <StickyBuyBar tag={AMZ_TAG} name="PackTite Closet bed-bug heat chamber" search="packtite closet bed bug heater" label="Flagship heat chamber" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -119,7 +122,7 @@ export default function PackTiteClosetReviewCanadaPage() {
 
       <section className="bg-white px-4 py-6">
         <div className="max-w-3xl mx-auto">
-          <TopPick
+          <TopPick tag={AMZ_TAG}
             label="Our Verdict — Best for Bulky Loads"
             name="PackTite Closet Heat Chamber"
             score={8.7}
@@ -155,28 +158,28 @@ export default function PackTiteClosetReviewCanadaPage() {
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Large</strong> &mdash; multiple bags / deep loads</td>
                   <td className="px-4 py-3 text-gray-700">Bulky mixed loads, recurring use</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Intermittent</strong> &mdash; often US-shipped</td>
-                  <td className="px-4 py-3"><BuyLink search="packtite closet bed bug heater" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="packtite closet bed bug heater" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">PackTite Portable<br /><span className="font-normal text-xs text-gray-500">original, compact</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Single bag</strong></td>
                   <td className="px-4 py-3 text-gray-700">Travellers treating one suitcase</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Intermittent</strong></td>
-                  <td className="px-4 py-3"><BuyLink search="packtite portable bed bug heater" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="packtite portable bed bug heater" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">ZappBug Oven<br /><span className="font-normal text-xs text-gray-500">large square box</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Large</strong></td>
                   <td className="px-4 py-3 text-gray-700">Bulky loads when PackTite is out of stock</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Better</strong> &mdash; more often listed here</td>
-                  <td className="px-4 py-3"><BuyLink search="zappbug oven bed bug heater" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="zappbug oven bed bug heater" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">ThermalStrike Ranger<br /><span className="font-normal text-xs text-gray-500">zip-up luggage heater</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Single bag</strong></td>
                   <td className="px-4 py-3 text-gray-700">Travel-focused single-suitcase treatment</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Good</strong></td>
-                  <td className="px-4 py-3"><BuyLink search="thermalstrike ranger bed bug heater" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="thermalstrike ranger bed bug heater" block>Check price →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -203,9 +206,9 @@ export default function PackTiteClosetReviewCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the Closet and its main alternatives:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="packtite closet bed bug heater">PackTite Closet →</BuyLink>
-            <BuyLink search="zappbug oven bed bug heater">ZappBug Oven →</BuyLink>
-            <BuyLink search="thermalstrike ranger bed bug heater">ThermalStrike Ranger →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="packtite closet bed bug heater">PackTite Closet →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="zappbug oven bed bug heater">ZappBug Oven →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="thermalstrike ranger bed bug heater">ThermalStrike Ranger →</BuyLink>
           </div>
 
           <h2>Does It Actually Work? The Heat Science, Honestly</h2>

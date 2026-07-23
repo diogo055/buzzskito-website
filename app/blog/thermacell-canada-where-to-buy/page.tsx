@@ -9,6 +9,7 @@ import TopPick from '@/components/TopPick'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import AuthorByline from '@/components/AuthorByline'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'thermacell-canada-where-to-buy'
 const DATE = '2026-05-01'
@@ -83,6 +84,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('thermacell-canada-where-to-buy')
+
 export default function ThermacellCanadaPage() {
   return (
     <>
@@ -104,7 +107,7 @@ export default function ThermacellCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="Thermacell E90 Rechargeable Mosquito Repeller" search="thermacell e90 rechargeable mosquito repeller" label="Top Canadian pick" />
+      <StickyBuyBar tag={AMZ_TAG} name="Thermacell E90 Rechargeable Mosquito Repeller" search="thermacell e90 rechargeable mosquito repeller" label="Top Canadian pick" />
 
       {/* ANSWER CAPSULE */}
       <section className="bg-white px-4">
@@ -122,7 +125,7 @@ export default function ThermacellCanadaPage() {
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
           </div>
-          <TopPick
+          <TopPick tag={AMZ_TAG}
             label="Our Canadian Pick"
             name="Thermacell E90 Rechargeable"
             blurb="The top Thermacell you can actually buy in Canada — roughly 9 hours per charge, enough to outlast a full backyard evening without a mid-party recharge (the Liv smart system is US-only)."
@@ -232,8 +235,8 @@ export default function ThermacellCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Compare current Canadian prices (Patio Shield, E55, E90) and refill packs:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="thermacell patio shield mosquito repeller">Check Thermacell price on Amazon.ca →</BuyLink>
-            <BuyLink search="thermacell refill">Refill packs →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="thermacell patio shield mosquito repeller">Check Thermacell price on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="thermacell refill">Refill packs →</BuyLink>
           </div>
 
           <h2>Best Thermacell Models in Canada (2026 Comparison)</h2>
@@ -257,7 +260,7 @@ export default function ThermacellCanadaPage() {
                   <td className="px-3 py-3 text-gray-700">12-hr fuel cartridge</td>
                   <td className="px-3 py-3 text-gray-700">Cheapest pick · casual patio dinners</td>
                   <td className="px-3 py-3 font-mono text-gray-800">$35–$50</td>
-                  <td className="px-3 py-3"><BuyLink search="thermacell patio shield" block>Check price →</BuyLink></td>
+                  <td className="px-3 py-3"><BuyLink tag={AMZ_TAG} search="thermacell patio shield" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-3 py-3 font-bold text-brand-800">E55 Rechargeable</td>
@@ -265,7 +268,7 @@ export default function ThermacellCanadaPage() {
                   <td className="px-3 py-3 text-gray-700">~5.5 hr rechargeable</td>
                   <td className="px-3 py-3 text-gray-700">Best all-rounder · camping &amp; travel</td>
                   <td className="px-3 py-3 font-mono text-gray-800">$70–$90</td>
-                  <td className="px-3 py-3"><BuyLink search="thermacell e55 rechargeable mosquito repeller" block>Check price →</BuyLink></td>
+                  <td className="px-3 py-3"><BuyLink tag={AMZ_TAG} search="thermacell e55 rechargeable mosquito repeller" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-3 py-3 font-bold text-brand-800">E90 Rechargeable</td>
@@ -273,7 +276,7 @@ export default function ThermacellCanadaPage() {
                   <td className="px-3 py-3 text-gray-700">~9 hr rechargeable · rugged build</td>
                   <td className="px-3 py-3 text-gray-700">Longest runtime · all-evening hosting</td>
                   <td className="px-3 py-3 font-mono text-gray-800">$90–$120</td>
-                  <td className="px-3 py-3"><BuyLink search="thermacell e90 rechargeable mosquito repeller" block>Check price →</BuyLink></td>
+                  <td className="px-3 py-3"><BuyLink tag={AMZ_TAG} search="thermacell e90 rechargeable mosquito repeller" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-3 py-3 font-bold text-brand-800">Liv Smart System</td>
@@ -309,7 +312,7 @@ export default function ThermacellCanadaPage() {
           </div>
           <p className="not-prose mb-2 text-sm text-gray-600">Amazon.ca stocks bulk refill multi-packs — buy in spring before the June–July markup:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="thermacell mosquito repellent refill value pack">Check refill prices on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="thermacell mosquito repellent refill value pack">Check refill prices on Amazon.ca →</BuyLink>
           </div>
           <p>Getting the refill family right matters — E-Series cartridges will not fit a Patio Shield, and Original mats will not fit an E55 or E90. For a full breakdown of which refill fits which model, cost per hour, and how to recharge the batteries, see our <Link href="/blog/thermacell-refills-recharge-canada">Thermacell refills &amp; recharge Canada guide</Link>.</p>
 
@@ -320,7 +323,7 @@ export default function ThermacellCanadaPage() {
             <li><strong>E90 — the long-evening pick.</strong> Roughly 9 hours per charge, so it comfortably outlasts a full backyard gathering without a mid-party recharge. Our <Link href="/blog/thermacell-e90-canada-review">Thermacell E90 Canada review</Link> covers real-world runtime and where it earns the upgrade over the E55.</li>
             <li><strong>EX90 — the rugged pick.</strong> Same 9-hour battery as the E90 in a tougher, water-resistant housing with a lanyard loop. Built for cottage docks, canoe trips, hunting, and anywhere a patio unit would get knocked around.</li>
           </ul>
-          <p className="not-prose mb-6"><BuyLink search="thermacell ex90 rechargeable mosquito repeller">Check EX90 availability on Amazon.ca →</BuyLink></p>
+          <p className="not-prose mb-6"><BuyLink tag={AMZ_TAG} search="thermacell ex90 rechargeable mosquito repeller">Check EX90 availability on Amazon.ca →</BuyLink></p>
           <p>Simple rule of thumb: E55 for the patio table, E90 for long hosting evenings, EX90 for the cottage and backcountry. Whichever you choose, stock up on E-Series cartridges in spring — our <Link href="/blog/thermacell-refills-recharge-canada">refills &amp; recharge guide</Link> shows the cheapest way to buy them in Canada.</p>
 
           <h2>How Thermacell Actually Works</h2>

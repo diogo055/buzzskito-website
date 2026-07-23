@@ -8,6 +8,7 @@ import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { NEW_BLOGS_2, TICK_BLOGS } from '@/lib/constants'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const POST = NEW_BLOGS_2[2]
 
@@ -62,6 +63,8 @@ const FAQS = [
     answer: 'There is no exact way to know, but engorgement is the best clue: a flat, thin tick likely attached recently, while a swollen, balloon-like body suggests it has been feeding for a day or more. Use the last time you did a body check as your reference point. When in doubt, assume longer attachment and consult a healthcare provider, since Ontario Lyme disease risk climbs after 24–36 hours of attachment.',
   },
 ]
+
+const AMZ_TAG = tagForSlug('tick-bite-symptoms-what-to-do-ontario')
 
 export default function TickBiteSymptomsPage() {
   return (
@@ -159,7 +162,7 @@ export default function TickBiteSymptomsPage() {
         <p>The single most important factor in reducing Lyme disease transmission risk is how quickly you remove the tick. The blacklegged tick (deer tick) that transmits Lyme disease in Ontario generally needs to be attached for 24–36 hours to transmit the bacteria. Immediate, proper removal dramatically reduces your risk.</p>
 
         <h2>Step 2: Remove the Tick Correctly</h2>
-        <p><strong>What you need:</strong> Fine-tipped tweezers (not the wide, blunt kind). A dedicated tick removal tool also works well and makes it easier to grip close to the skin — see our <Link href="/blog/tick-removal-tool-guide" className="text-brand-700 hover:underline">tick removal tool guide</Link> for the options we recommend. <BuyLink search="tick removal tool tweezers">Check tick-removal tools on Amazon.ca →</BuyLink></p>
+        <p><strong>What you need:</strong> Fine-tipped tweezers (not the wide, blunt kind). A dedicated tick removal tool also works well and makes it easier to grip close to the skin — see our <Link href="/blog/tick-removal-tool-guide" className="text-brand-700 hover:underline">tick removal tool guide</Link> for the options we recommend. <BuyLink tag={AMZ_TAG} search="tick removal tool tweezers">Check tick-removal tools on Amazon.ca →</BuyLink></p>
         <ol>
           <li>Grasp the tick as close to the skin surface as possible with the tweezers.</li>
           <li>Pull upward with steady, even pressure — do not twist or jerk. Twisting can cause the mouthparts to break off and remain in the skin.</li>
@@ -168,7 +171,7 @@ export default function TickBiteSymptomsPage() {
           <li>Dispose of the tick by placing it in a sealed bag, submerging it in alcohol, or flushing it down the toilet.</li>
         </ol>
 
-        <TopPick
+        <TopPick tag={AMZ_TAG}
           label="Best Tool for the Job"
           name="Fine-Tipped Tick Removal Tool"
           blurb="A dedicated tick remover grips right at the skin and lifts the tick straight out — steadier and safer than fingernails or wide household tweezers, so the mouthparts are far less likely to snap off. Cheap, reusable, and worth keeping in every first-aid kit and hiking pack."

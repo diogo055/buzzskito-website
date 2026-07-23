@@ -8,6 +8,7 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import AuthorByline from '@/components/AuthorByline'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'best-gazebo-with-mosquito-net-canada'
 const DATE = '2026-07-21'
@@ -75,6 +76,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('best-gazebo-with-mosquito-net-canada')
+
 export default function BestGazeboWithMosquitoNetCanadaPage() {
   return (
     <>
@@ -96,7 +99,7 @@ export default function BestGazeboWithMosquitoNetCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="Soft-top screened gazebo (10×12, no-see-um mesh)" search="screened gazebo mosquito netting 10x12" label="Best overall" />
+      <StickyBuyBar tag={AMZ_TAG} name="Soft-top screened gazebo (10×12, no-see-um mesh)" search="screened gazebo mosquito netting 10x12" label="Best overall" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -118,7 +121,7 @@ export default function BestGazeboWithMosquitoNetCanadaPage() {
 
       <section className="bg-white px-4 py-6">
         <div className="max-w-5xl mx-auto">
-          <AwardRow
+          <AwardRow tag={AMZ_TAG}
             heading="Our Picks — Best Screened Gazebos in Canada"
             awards={[
               {
@@ -192,21 +195,21 @@ export default function BestGazeboWithMosquitoNetCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Polyester canopy on a steel or aluminum frame; zip-on mesh walls</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Take down for winter</strong>; open canopy in wind</td>
                   <td className="px-4 py-3 text-gray-700">Most decks &mdash; best all-round value</td>
-                  <td className="px-4 py-3"><BuyLink search="screened gazebo mosquito netting 10x12" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="screened gazebo mosquito netting 10x12" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Hard-top screened<br /><span className="font-normal text-xs text-gray-500">rigid roof</span></td>
                   <td className="px-4 py-3 text-gray-700">Aluminum or polycarbonate roof; heavy aluminum/steel frame; add-on screens</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Stays up year-round</strong>; best wind resistance</td>
                   <td className="px-4 py-3 text-gray-700">Permanent four-season outdoor room</td>
-                  <td className="px-4 py-3"><BuyLink search="hard top aluminum gazebo with mosquito netting" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="hard top aluminum gazebo with mosquito netting" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Pop-up screen house<br /><span className="font-normal text-xs text-gray-500">instant canopy</span></td>
                   <td className="px-4 py-3 text-gray-700">Lightweight fold-out frame with integrated mesh; packs into a bag</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Store between uses</strong>; least wind-stable</td>
                   <td className="px-4 py-3 text-gray-700">Occasional / budget / semi-portable</td>
-                  <td className="px-4 py-3"><BuyLink search="pop up gazebo with mosquito net 10x10" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="pop up gazebo with mosquito net 10x10" block>Check price →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -261,9 +264,9 @@ export default function BestGazeboWithMosquitoNetCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Compare current Canadian prices across the three gazebo types:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="screened gazebo mosquito netting 10x12">Soft-top screened gazebo →</BuyLink>
-            <BuyLink search="hard top aluminum gazebo with mosquito netting">Hard-top gazebo →</BuyLink>
-            <BuyLink search="pop up gazebo with mosquito net 10x10">Pop-up screen gazebo →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="screened gazebo mosquito netting 10x12">Soft-top screened gazebo →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="hard top aluminum gazebo with mosquito netting">Hard-top gazebo →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="pop up gazebo with mosquito net 10x10">Pop-up screen gazebo →</BuyLink>
           </div>
 
           <h2 id="best-overall">Best Overall: A Soft-Top Screened Gazebo (10×12, No-See-Um Mesh)</h2>
@@ -271,7 +274,7 @@ export default function BestGazeboWithMosquitoNetCanadaPage() {
           <p>The reason it wins for Canada specifically is the take-down. A soft-top comes apart in an afternoon and the canopy stores in the garage over winter, so you never have to gamble on whether a fabric roof will survive a February snow dump &mdash; it won&rsquo;t, and you simply won&rsquo;t ask it to. The trade-off is honest: the canopy fabric UV-degrades over roughly two to four seasons and will eventually need replacing, and you do have to remove it each fall. For most homeowners that is a fair price for a structure that costs a fraction of a hard-top and does the core job &mdash; keeping the table bug-free &mdash; just as well.</p>
           <p><strong>Best for:</strong> the majority of decks and patios, renters, and anyone who would rather take the top down each fall than pay for a permanent structure.</p>
           <div className="not-prose my-4">
-            <BuyLink search="screened gazebo mosquito netting 10x12">Check soft-top screened gazebos on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="screened gazebo mosquito netting 10x12">Check soft-top screened gazebos on Amazon.ca →</BuyLink>
           </div>
 
           <h2>Best Hard-Top: An Aluminum Gazebo That Stays Up All Year</h2>
@@ -279,19 +282,19 @@ export default function BestGazeboWithMosquitoNetCanadaPage() {
           <p>The catch is that a hard-top is a real purchase and a real installation. It costs far more than a soft-top, it wants a level concrete pad or a solidly framed deck, and assembly is a serious two-person, several-hour job with a lot of hardware. You should still confirm the manufacturer&rsquo;s snow-load rating against your region &mdash; a rating fine for coastal BC may not suit an Ontario or Quebec snow belt &mdash; and rake off deep accumulation after big storms. Even though the roof stays up, the fabric screen walls last longest if you remove and store them over winter. For a decade-long outdoor living space you use every summer, a hard-top earns its price; for occasional use it is overkill.</p>
           <p><strong>Best for:</strong> homeowners building a permanent four-season outdoor room on a concrete pad or heavy deck, in a spot exposed to wind.</p>
           <div className="not-prose my-4">
-            <BuyLink search="hard top aluminum gazebo with mosquito netting">Check hard-top gazebos on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="hard top aluminum gazebo with mosquito netting">Check hard-top gazebos on Amazon.ca →</BuyLink>
           </div>
 
           <h2>Best Budget: A Pop-Up Screen Gazebo</h2>
           <p>If your need is occasional &mdash; a few backyard dinners, the odd party, or a bug-free zone you can move around &mdash; a pop-up screen gazebo is the low-cost entry point. These instant-canopy screen houses fold out in minutes, cover a patio table for the evening, and pack down for storage. They blur into <Link href="/blog/best-screen-tent-canada">screen tent</Link> territory: lighter frames, thinner mesh, and less wind stability than a proper gazebo. Expect the mesh to wear within a season or two of hard use, and expect to close or drop it in gusty weather. As a first gazebo or a semi-portable extra, it does the job; as a permanent deck fixture it will not last.</p>
           <div className="not-prose my-4">
-            <BuyLink search="pop up gazebo with mosquito net 10x10">Check pop-up screen gazebos on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="pop up gazebo with mosquito net 10x10">Check pop-up screen gazebos on Amazon.ca →</BuyLink>
           </div>
 
           <h2>Best Large / Entertaining: A 12×14 (or Bigger) Screened Gazebo</h2>
           <p>When the gazebo is meant to be the backyard party zone &mdash; a full outdoor lounge and dining space, not just a table cover &mdash; size up to a 12&times;14 or larger soft-top with full-height zip screen walls. A footprint this size swallows a sectional plus a dining set with room to move, and turns the whole area into a screened room for a crowd. The trade-offs scale with the size: you need a large flat area, more anchoring points to secure against wind, and a bigger canopy to remove and store each fall. But for entertaining, nothing beats the feeling of a genuine bug-free outdoor room everyone can gather in.</p>
           <div className="not-prose my-4">
-            <BuyLink search="large screened gazebo 12x14 mosquito netting">Check large screened gazebos on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="large screened gazebo 12x14 mosquito netting">Check large screened gazebos on Amazon.ca →</BuyLink>
           </div>
 
           <h2>How to Choose: What You Are Actually Paying For</h2>

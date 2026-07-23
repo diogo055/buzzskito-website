@@ -8,6 +8,7 @@ import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'best-ulv-cold-fogger-canada'
 const DATE = '2026-07-21'
@@ -75,6 +76,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('best-ulv-cold-fogger-canada')
+
 export default function BestUlvColdFoggerCanadaPage() {
   return (
     <>
@@ -96,7 +99,7 @@ export default function BestUlvColdFoggerCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="PetraTools-class adjustable electric ULV cold fogger" search="petratools ulv cold fogger electric" label="Best overall" />
+      <StickyBuyBar tag={AMZ_TAG} name="PetraTools-class adjustable electric ULV cold fogger" search="petratools ulv cold fogger electric" label="Best overall" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -119,7 +122,7 @@ export default function BestUlvColdFoggerCanadaPage() {
 
       <section className="bg-white px-4 py-6">
         <div className="max-w-5xl mx-auto">
-          <AwardRow
+          <AwardRow tag={AMZ_TAG}
             heading="Our Picks — Best ULV Cold Foggers in Canada"
             awards={[
               {
@@ -193,28 +196,28 @@ export default function BestUlvColdFoggerCanadaPage() {
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best</strong> &mdash; corded, 1&ndash;2 gal tank</td>
                   <td className="px-4 py-3 text-gray-700">Whole rooms, basements, ducts; both fine mist and surface work</td>
                   <td className="px-4 py-3 text-gray-700">Tethered to an outlet; bulkier</td>
-                  <td className="px-4 py-3"><BuyLink search="petratools ulv cold fogger electric" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="petratools ulv cold fogger electric" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Commercial ULV<br /><span className="font-normal text-xs text-gray-500">Hudson-style</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best</strong> &mdash; corded, serviceable, heavy-duty</td>
                   <td className="px-4 py-3 text-gray-700">Daily professional / restoration / large-property use</td>
                   <td className="px-4 py-3 text-gray-700">Highest cost; overkill for occasional jobs</td>
-                  <td className="px-4 py-3"><BuyLink search="hudson commercial ulv fogger" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="hudson commercial ulv fogger" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Compact electric<br /><span className="font-normal text-xs text-gray-500">VonHaus-class</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Fair</strong> &mdash; corded, small tank</td>
                   <td className="px-4 py-3 text-gray-700">Single rooms, vehicles, occasional deodorizing</td>
                   <td className="px-4 py-3 text-gray-700">Little/no micron adjustment; frequent refills</td>
-                  <td className="px-4 py-3"><BuyLink search="vonhaus electric ulv fogger" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="vonhaus electric ulv fogger" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Cordless ULV<br /><span className="font-normal text-xs text-gray-500">battery</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Limited</strong> &mdash; battery runtime</td>
                   <td className="px-4 py-3 text-gray-700">Spot jobs and outlet-free areas where mobility wins</td>
                   <td className="px-4 py-3 text-gray-700">Short runtime; weaker atomization</td>
-                  <td className="px-4 py-3"><BuyLink search="cordless battery ulv fogger" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="cordless battery ulv fogger" block>Check price →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -241,10 +244,10 @@ export default function BestUlvColdFoggerCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the four picks:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="petratools ulv cold fogger electric">Adjustable electric ULV →</BuyLink>
-            <BuyLink search="hudson commercial ulv fogger">Commercial ULV →</BuyLink>
-            <BuyLink search="vonhaus electric ulv fogger">Compact fogger →</BuyLink>
-            <BuyLink search="cordless battery ulv fogger">Cordless ULV →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="petratools ulv cold fogger electric">Adjustable electric ULV →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="hudson commercial ulv fogger">Commercial ULV →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="vonhaus electric ulv fogger">Compact fogger →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="cordless battery ulv fogger">Cordless ULV →</BuyLink>
           </div>
 
           <h2>Cold Fogger vs Thermal Fogger: Which One Do You Actually Need?</h2>

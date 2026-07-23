@@ -8,6 +8,7 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'best-atv-sprayer-for-tick-yard-canada'
 const DATE = '2026-07-21'
@@ -76,6 +77,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('best-atv-sprayer-for-tick-yard-canada')
+
 export default function BestAtvSprayerForTickYardCanadaPage() {
   return (
     <>
@@ -97,7 +100,7 @@ export default function BestAtvSprayerForTickYardCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="Chapin 25-gallon tow-behind sprayer (boom + spot wand)" search="chapin 25 gallon tow behind sprayer" label="Best overall" />
+      <StickyBuyBar tag={AMZ_TAG} name="Chapin 25-gallon tow-behind sprayer (boom + spot wand)" search="chapin 25 gallon tow behind sprayer" label="Best overall" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -119,7 +122,7 @@ export default function BestAtvSprayerForTickYardCanadaPage() {
 
       <section className="bg-white px-4 py-6">
         <div className="max-w-5xl mx-auto">
-          <AwardRow
+          <AwardRow tag={AMZ_TAG}
             heading="Our Picks — Best ATV & Tow-Behind Sprayers for a Tick Yard in Canada"
             awards={[
               {
@@ -193,28 +196,28 @@ export default function BestAtvSprayerForTickYardCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Half-acre to ~2 acres, mixed lawn + tree line</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best</strong> &mdash; boom + spot wand</td>
                   <td className="px-4 py-3 text-gray-700">ATV or hitch mower</td>
-                  <td className="px-4 py-3"><BuyLink search="chapin 25 gallon tow behind sprayer" block>Check price &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="chapin 25 gallon tow behind sprayer" block>Check price &rarr;</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">15-gal spot sprayer<br /><span className="font-normal text-xs text-gray-500">handheld wand</span></td>
                   <td className="px-4 py-3 text-gray-700">Precise perimeter and edge treatment</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Excellent</strong> &mdash; wand-focused</td>
                   <td className="px-4 py-3 text-gray-700">ATV, mower, or mounted</td>
-                  <td className="px-4 py-3"><BuyLink search="chapin 15 gallon spot sprayer atv" block>Check price &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="chapin 15 gallon spot sprayer atv" block>Check price &rarr;</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Compact 15-gal tow<br /><span className="font-normal text-xs text-gray-500">value</span></td>
                   <td className="px-4 py-3 text-gray-700">Small suburban lot, short wooded edge</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Good</strong> &mdash; depends on wand</td>
                   <td className="px-4 py-3 text-gray-700">Lawn tractor / zero-turn</td>
-                  <td className="px-4 py-3"><BuyLink search="tow behind lawn sprayer 15 gallon" block>Check price &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="tow behind lawn sprayer 15 gallon" block>Check price &rarr;</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">40-gal ATV sprayer<br /><span className="font-normal text-xs text-gray-500">Fimco, boom</span></td>
                   <td className="px-4 py-3 text-gray-700">Multi-acre, long wooded perimeter</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best</strong> &mdash; big tank + wand</td>
                   <td className="px-4 py-3 text-gray-700">ATV / UTV / tractor</td>
-                  <td className="px-4 py-3"><BuyLink search="fimco 40 gallon atv sprayer boom" block>Check price &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="fimco 40 gallon atv sprayer boom" block>Check price &rarr;</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -272,10 +275,10 @@ export default function BestAtvSprayerForTickYardCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the four picks:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="chapin 25 gallon tow behind sprayer">25-gal tow-behind &rarr;</BuyLink>
-            <BuyLink search="chapin 15 gallon spot sprayer atv">15-gal spot sprayer &rarr;</BuyLink>
-            <BuyLink search="tow behind lawn sprayer 15 gallon">Compact 15-gal &rarr;</BuyLink>
-            <BuyLink search="fimco 40 gallon atv sprayer boom">40-gal ATV sprayer &rarr;</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="chapin 25 gallon tow behind sprayer">25-gal tow-behind &rarr;</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="chapin 15 gallon spot sprayer atv">15-gal spot sprayer &rarr;</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="tow behind lawn sprayer 15 gallon">Compact 15-gal &rarr;</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="fimco 40 gallon atv sprayer boom">40-gal ATV sprayer &rarr;</BuyLink>
           </div>
 
           <h2>Where Ticks Actually Live — and Why the Spot Wand Wins</h2>

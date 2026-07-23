@@ -8,6 +8,7 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import AuthorByline from '@/components/AuthorByline'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'diy-outdoor-misting-system-kit-canada'
 const DATE = '2026-07-21'
@@ -75,6 +76,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('diy-outdoor-misting-system-kit-canada')
+
 export default function DiyOutdoorMistingSystemKitCanadaPage() {
   return (
     <>
@@ -96,7 +99,7 @@ export default function DiyOutdoorMistingSystemKitCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="Aootek outdoor misting cooling kit" search="aootek outdoor misting cooling system kit" label="Best overall kit" />
+      <StickyBuyBar tag={AMZ_TAG} name="Aootek outdoor misting cooling kit" search="aootek outdoor misting cooling system kit" label="Best overall kit" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -118,7 +121,7 @@ export default function DiyOutdoorMistingSystemKitCanadaPage() {
 
       <section className="bg-white px-4 py-6">
         <div className="max-w-5xl mx-auto">
-          <AwardRow
+          <AwardRow tag={AMZ_TAG}
             heading="Our Picks — Best DIY Outdoor Misting Kits in Canada"
             awards={[
               {
@@ -192,21 +195,21 @@ export default function DiyOutdoorMistingSystemKitCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Screws onto the garden tap, ~40–60 psi through nozzles on tubing</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Good</strong> — cools a covered patio; may lightly dampen on still, humid days</td>
                   <td className="px-4 py-3 text-gray-700">Budget-friendly</td>
-                  <td className="px-4 py-3"><BuyLink search="aootek outdoor misting cooling system kit" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="aootek outdoor misting cooling system kit" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Booster-pump kit<br /><span className="font-normal text-xs text-gray-500">100–160 psi</span></td>
                   <td className="px-4 py-3 text-gray-700">Low-pressure kit plus an inline pump that raises pressure and sharpens droplets</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Better</strong> — finer, drier mist; feeds more nozzles evenly</td>
                   <td className="px-4 py-3 text-gray-700">Mid-range</td>
-                  <td className="px-4 py-3"><BuyLink search="misting system booster pump kit outdoor" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="misting system booster pump kit outdoor" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">High-pressure system<br /><span className="font-normal text-xs text-gray-500">800–1,000+ psi</span></td>
                   <td className="px-4 py-3 text-gray-700">Dedicated high-pressure pump + stainless nozzles produce a flash-evaporating dry fog</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best</strong> — strongest cooling, essentially no wet surfaces</td>
                   <td className="px-4 py-3 text-gray-700">Premium</td>
-                  <td className="px-4 py-3"><BuyLink search="high pressure misting system stainless nozzle" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="high pressure misting system stainless nozzle" block>Check price →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -264,9 +267,9 @@ export default function DiyOutdoorMistingSystemKitCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Compare current Canadian availability across the three kit classes:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="aootek outdoor misting cooling system kit">Aootek low-pressure kit →</BuyLink>
-            <BuyLink search="hiraliy misting system kit outdoor">HIRALIY value kit →</BuyLink>
-            <BuyLink search="high pressure misting system stainless nozzle">High-pressure system →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="aootek outdoor misting cooling system kit">Aootek low-pressure kit →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="hiraliy misting system kit outdoor">HIRALIY value kit →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="high pressure misting system stainless nozzle">High-pressure system →</BuyLink>
           </div>
 
           <h2>Top Pick: A Low-Pressure Garden-Hose Kit (Aootek / HIRALIY)</h2>

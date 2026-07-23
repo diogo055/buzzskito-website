@@ -6,6 +6,7 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'mosquito-hawk-explained'
 const DATE = '2026-04-28'
@@ -75,6 +76,8 @@ export const metadata: Metadata = buildMetadata({
   publishedTime: DATE,
   modifiedTime: UPDATED,
 })
+
+const AMZ_TAG = tagForSlug('mosquito-hawk-explained')
 
 export default function MosquitoHawkPage() {
   return (
@@ -234,7 +237,7 @@ export default function MosquitoHawkPage() {
             <li><strong>Vacuum</strong> the odd one off a wall or ceiling — their fragile legs make them easy to collect.</li>
             <li><strong>Seal the entry points.</strong> Repair torn window and door screens and swap porch bulbs for yellow &ldquo;bug lights,&rdquo; which attract far fewer flying insects.</li>
           </ul>
-          <p>If you&rsquo;d rather not wait for a batch of them to clear out on their own, a quick knock-down spray does the job: <BuyLink search="indoor flying insect killer spray">Check indoor flying-insect spray on Amazon.ca →</BuyLink> For a harmless insect that dies in days regardless, it&rsquo;s rarely necessary — but it&rsquo;s an option if they&rsquo;re bothering you.</p>
+          <p>If you&rsquo;d rather not wait for a batch of them to clear out on their own, a quick knock-down spray does the job: <BuyLink tag={AMZ_TAG} search="indoor flying insect killer spray">Check indoor flying-insect spray on Amazon.ca →</BuyLink> For a harmless insect that dies in days regardless, it&rsquo;s rarely necessary — but it&rsquo;s an option if they&rsquo;re bothering you.</p>
           <h3>Outdoors: larvae in the lawn</h3>
           <p>Outdoors, &ldquo;getting rid of mosquito hawks&rdquo; only matters if the soil-dwelling <strong>larvae</strong> (leatherjackets) are chewing your grass roots. Spraying the clumsy adults is pointless — they don&rsquo;t bite, they die in days, and an <Link href="/blog/how-long-does-mosquito-spray-last">adult-mosquito barrier spray</Link> won&rsquo;t reach larvae living underground. The section below covers how to confirm a real larvae problem and treat it.</p>
 
@@ -245,7 +248,7 @@ export default function MosquitoHawkPage() {
             <li>Flocks of starlings, robins, or crows aggressively pecking the lawn (they&rsquo;re eating leatherjackets)</li>
             <li>Visible larvae when you peel back grass — grey-brown tube-shaped grubs</li>
           </ul>
-          <p>Treatment for larvae infestations: beneficial nematodes (<em>Heterorhabditis bacteriophora</em>) applied in early fall when soil is warm and moist. These naturally parasitize crane fly larvae. Available at garden centres, through lawn care companies, or online: <BuyLink search="beneficial nematodes heterorhabditis bacteriophora">Beneficial nematodes on Amazon.ca →</BuyLink> <strong>BuzzSkito does not treat crane fly larvae</strong> — we focus on mosquitoes and ticks. Contact a lawn care specialist (LawnSavers, TruGreen) for serious crane fly issues.</p>
+          <p>Treatment for larvae infestations: beneficial nematodes (<em>Heterorhabditis bacteriophora</em>) applied in early fall when soil is warm and moist. These naturally parasitize crane fly larvae. Available at garden centres, through lawn care companies, or online: <BuyLink tag={AMZ_TAG} search="beneficial nematodes heterorhabditis bacteriophora">Beneficial nematodes on Amazon.ca →</BuyLink> <strong>BuzzSkito does not treat crane fly larvae</strong> — we focus on mosquitoes and ticks. Contact a lawn care specialist (LawnSavers, TruGreen) for serious crane fly issues.</p>
 
           <h2>Why This Matters for Mosquito Control</h2>
           <p>People with mosquito problems sometimes ask: &ldquo;Should I introduce mosquito hawks to eat my mosquitoes?&rdquo; The answer is no — they don&rsquo;t eat mosquitoes. The biological controls that DO eat mosquitoes:</p>

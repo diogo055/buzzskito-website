@@ -7,6 +7,7 @@ import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'mosquito-screens-patio-canada'
 const DATE = '2026-07-12'
@@ -54,6 +55,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('mosquito-screens-patio-canada')
+
 export default function MosquitoScreensPatioCanadaPage() {
   return (
     <>
@@ -75,7 +78,7 @@ export default function MosquitoScreensPatioCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="Pop-Up Screen House (screened gazebo)" search="pop up screen house gazebo" label="Best for open patios" />
+      <StickyBuyBar tag={AMZ_TAG} name="Pop-Up Screen House (screened gazebo)" search="pop up screen house gazebo" label="Best for open patios" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -97,7 +100,7 @@ export default function MosquitoScreensPatioCanadaPage() {
 
       <section className="bg-white px-4 py-6">
         <div className="max-w-5xl mx-auto">
-          <AwardRow
+          <AwardRow tag={AMZ_TAG}
             heading="Our Picks — Best Patio Mosquito Screens in Canada"
             awards={[
               {
@@ -178,31 +181,31 @@ export default function MosquitoScreensPatioCanadaPage() {
                   <td className="px-4 py-3 font-bold text-brand-800">Open deck / paver patio (no walls)</td>
                   <td className="px-4 py-3 text-gray-700">Pop-up screen house</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$120 – $250</td>
-                  <td className="px-4 py-3"><BuyLink search="pop up screen house gazebo" block>Check price &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="pop up screen house gazebo" block>Check price &rarr;</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Want a permanent room</td>
                   <td className="px-4 py-3 text-gray-700">Steel-frame screened gazebo</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$300 – $2,000</td>
-                  <td className="px-4 py-3"><BuyLink search="screened gazebo hardtop" block>Check price &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="screened gazebo hardtop" block>Check price &rarr;</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Patio / sliding door</td>
                   <td className="px-4 py-3 text-gray-700">Magnetic screen door</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$25 – $60</td>
-                  <td className="px-4 py-3"><BuyLink search="magnetic screen door" block>Check price &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="magnetic screen door" block>Check price &rarr;</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Pergola / covered patio</td>
                   <td className="px-4 py-3 text-gray-700">Clip-on mosquito netting curtains</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$80 – $300</td>
-                  <td className="px-4 py-3"><BuyLink search="mosquito netting curtain patio" block>Check price &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="mosquito netting curtain patio" block>Check price &rarr;</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Gaps around windows</td>
                   <td className="px-4 py-3 text-gray-700">Magnetic / replacement window screen kit</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$15 – $40</td>
-                  <td className="px-4 py-3"><BuyLink search="magnetic window screen mesh" block>Check price &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="magnetic window screen mesh" block>Check price &rarr;</BuyLink></td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 font-bold text-brand-800">Three-season room / high-end</td>
@@ -260,8 +263,8 @@ export default function MosquitoScreensPatioCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Compare current Canadian prices on the two most popular patio screen types:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="pop up screen house gazebo">Check screen-house prices on Amazon.ca &rarr;</BuyLink>
-            <BuyLink search="magnetic screen door">Magnetic screen doors &rarr;</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="pop up screen house gazebo">Check screen-house prices on Amazon.ca &rarr;</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="magnetic screen door">Magnetic screen doors &rarr;</BuyLink>
           </div>
 
           <h2>How to Choose a Patio Mosquito Screen</h2>
@@ -275,7 +278,7 @@ export default function MosquitoScreensPatioCanadaPage() {
           <p>If you want something that stays up all summer, a steel-frame or hardtop screened gazebo is a proper outdoor room: a solid roof (soft-top or aluminum hardtop) with zip-up mosquito netting walls you can roll open on calm days. Costco Canada is usually the best place to buy the larger 10&times;12 and 12&times;14 models during its spring sale; Canadian Tire and Home Depot stock mid-size units. Budget $300–$700 for a good soft-top and $900–$2,000 for a hardtop that doubles as rain shelter.</p>
 
           <h3>Gazebo mosquito netting (replacement walls &amp; add-on kits)</h3>
-          <p>The netting walls are always the first part of a screened gazebo to fail — zippers strip, mesh tears at the corners, and UV degrades the fabric long before the steel frame gives out. Don&rsquo;t scrap a $700 gazebo over worn mesh: <strong>replacement gazebo mosquito netting</strong> is sold as universal four-panel sets sized to the common 10&times;10, 10&times;12, and 12&times;14 frames, and the same kits add netting walls to an open (unscreened) gazebo. Measure post-to-post along the top rail before ordering, and choose sets with zippered door overlaps rather than plain magnet seams if your yard gets wind. <BuyLink search="gazebo replacement mosquito netting">Check gazebo replacement netting on Amazon.ca &rarr;</BuyLink></p>
+          <p>The netting walls are always the first part of a screened gazebo to fail — zippers strip, mesh tears at the corners, and UV degrades the fabric long before the steel frame gives out. Don&rsquo;t scrap a $700 gazebo over worn mesh: <strong>replacement gazebo mosquito netting</strong> is sold as universal four-panel sets sized to the common 10&times;10, 10&times;12, and 12&times;14 frames, and the same kits add netting walls to an open (unscreened) gazebo. Measure post-to-post along the top rail before ordering, and choose sets with zippered door overlaps rather than plain magnet seams if your yard gets wind. <BuyLink tag={AMZ_TAG} search="gazebo replacement mosquito netting">Check gazebo replacement netting on Amazon.ca &rarr;</BuyLink></p>
           <p>If the frame itself is done — or you want something portable for camping and cottage weekends — see our <Link href="/blog/best-screen-tent-canada">best screen tents in Canada</Link> guide before buying another full gazebo.</p>
 
           <h3>Magnetic screen doors (the cheapest high-impact fix)</h3>

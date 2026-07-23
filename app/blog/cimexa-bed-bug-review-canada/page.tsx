@@ -8,6 +8,7 @@ import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'cimexa-bed-bug-review-canada'
 const DATE = '2026-07-21'
@@ -71,6 +72,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('cimexa-bed-bug-review-canada')
+
 export default function CimexaBedBugReviewCanadaPage() {
   return (
     <>
@@ -92,7 +95,7 @@ export default function CimexaBedBugReviewCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="CimeXa silica gel dust" search="cimexa insecticide dust" label="Our verdict: 9.1/10" />
+      <StickyBuyBar tag={AMZ_TAG} name="CimeXa silica gel dust" search="cimexa insecticide dust" label="Our verdict: 9.1/10" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -115,7 +118,7 @@ export default function CimexaBedBugReviewCanadaPage() {
 
       <section className="bg-white px-4 py-2">
         <div className="max-w-4xl mx-auto">
-          <TopPick
+          <TopPick tag={AMZ_TAG}
             label="Our Verdict"
             name="CimeXa Silica Gel Dust — pro-grade bed bug desiccant"
             blurb="An engineered amorphous silica gel that professionals reach for when they want a residual that never expires and never meets resistance. It clings to a bed bug’s cuticle, strips the waxy layer that holds moisture in, and the insect dries out and dies over a few days &mdash; a mechanism no bed bug can evolve around. A barely-visible film into cracks and voids keeps killing for years, a fraction of a bottle treats a whole bedroom, and there is no pyrethroid chemistry for a resistant population to shrug off. It is not a knockdown spray and it will not reach eggs cemented in a seam, which is exactly why it earns its keep as the long-term backstop in a broader plan."
@@ -152,14 +155,14 @@ export default function CimexaBedBugReviewCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Amorphous silica desiccant &mdash; absorbs the cuticle wax; bug dehydrates</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best</strong> &mdash; days to kill, up to ~10 yr residual</td>
                   <td className="px-4 py-3 text-xs text-gray-600">Highest surface area, thinnest effective film, resistance-proof; the dust professionals prefer</td>
-                  <td className="px-4 py-3"><BuyLink search="cimexa insecticide dust" block>Check price &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="cimexa insecticide dust" block>Check price &rarr;</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Diatomaceous earth<br /><span className="font-normal text-xs text-gray-500">Budget desiccant</span></td>
                   <td className="px-4 py-3 text-gray-700">Fossil-diatom powder &mdash; same drying mechanism, coarser particle</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Slower</strong> &mdash; days to weeks, long residual if dry</td>
                   <td className="px-4 py-3 text-xs text-gray-600">Cheap and everywhere, also resistance-proof, but slower and needs a heavier deposit than silica gel</td>
-                  <td className="px-4 py-3"><BuyLink search="diatomaceous earth bed bugs food grade" block>Check price &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="diatomaceous earth bed bugs food grade" block>Check price &rarr;</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Pyrethroid dust<br /><span className="font-normal text-xs text-gray-500">e.g. deltamethrin dusts</span></td>
@@ -232,8 +235,8 @@ export default function CimexaBedBugReviewCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="cimexa insecticide dust">CimeXa dust on Amazon.ca &rarr;</BuyLink>
-            <BuyLink search="bellows hand duster pest control">Hand duster &rarr;</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="cimexa insecticide dust">CimeXa dust on Amazon.ca &rarr;</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="bellows hand duster pest control">Hand duster &rarr;</BuyLink>
           </div>
 
           <h2>CimeXa vs Diatomaceous Earth: Same Idea, Different League</h2>
@@ -260,7 +263,7 @@ export default function CimexaBedBugReviewCanadaPage() {
           <p>For a <strong>light, precautionary, or budget-constrained</strong> situation &mdash; dusting the voids of a guest room, hardening a home after travel, or working with almost no money &mdash; diatomaceous earth is a legitimate, effective, resistance-proof choice and there is no shame in reaching for it. The mistake in the other direction is more expensive: buying grey-market US chemical concentrates because a forum promised they are &ldquo;stronger.&rdquo; They are not stronger against a resistant population, they are frequently illegal to import into Canada, and they trade a clean physical mechanism for one the bugs may already beat. If you want the best dust and can buy the Canadian-cleared version, CimeXa is the pick; if you want the value option, DE; the chemical grey market is the option to avoid regardless of budget.</p>
 
           <div className="not-prose my-4">
-            <BuyLink search="cimexa insecticide dust">Check CimeXa on Amazon.ca &rarr;</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="cimexa insecticide dust">Check CimeXa on Amazon.ca &rarr;</BuyLink>
           </div>
 
           <h2>Where CimeXa Fits in a Real Bed Bug Plan</h2>

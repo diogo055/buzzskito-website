@@ -8,6 +8,7 @@ import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'best-bed-bug-spray-for-travel-canada'
 const DATE = '2026-07-21'
@@ -75,6 +76,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('best-bed-bug-spray-for-travel-canada')
+
 export default function BestBedBugSprayForTravelCanadaPage() {
   return (
     <>
@@ -96,7 +99,7 @@ export default function BestBedBugSprayForTravelCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="Doktor Doom Travel Pro bed bug spray" search="doktor doom travel pro bed bug spray" label="Best travel pick" />
+      <StickyBuyBar tag={AMZ_TAG} name="Doktor Doom Travel Pro bed bug spray" search="doktor doom travel pro bed bug spray" label="Best travel pick" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -119,7 +122,7 @@ export default function BestBedBugSprayForTravelCanadaPage() {
 
       <section className="bg-white px-4 py-6">
         <div className="max-w-5xl mx-auto">
-          <AwardRow
+          <AwardRow tag={AMZ_TAG}
             heading="Our Picks — Best Bed Bug Sprays for Travel in Canada"
             awards={[
               {
@@ -193,28 +196,28 @@ export default function BestBedBugSprayForTravelCanadaPage() {
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Spot kill + residual</strong> on seams and cracks</td>
                   <td className="px-4 py-3 text-gray-700">Only if the can is under 100&nbsp;mL; else checked bag</td>
                   <td className="px-4 py-3 text-gray-700">Flammable-propellant limits; surface use only</td>
-                  <td className="px-4 py-3"><BuyLink search="doktor doom travel pro bed bug spray" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="doktor doom travel pro bed bug spray" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Residual pump<br /><span className="font-normal text-xs text-gray-500">Proof travel size</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Pre-treating the suitcase</strong> to stay protected</td>
                   <td className="px-4 py-3 text-gray-700">Yes if the bottle is ≤100&nbsp;mL</td>
                   <td className="px-4 py-3 text-gray-700">Slower knockdown than an aerosol</td>
-                  <td className="px-4 py-3"><BuyLink search="proof bed bug dust mite spray travel size" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="proof bed bug dust mite spray travel size" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Fabric / gear treatment<br /><span className="font-normal text-xs text-gray-500">permethrin, label-specific</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Bonding to</strong> travel sacks, liners, gear</td>
                   <td className="px-4 py-3 text-gray-700">Small pumps can be; check the size</td>
                   <td className="px-4 py-3 text-gray-700">Fabric-only; never off-label on worn clothing</td>
-                  <td className="px-4 py-3"><BuyLink search="permethrin gear clothing treatment spray" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="permethrin gear clothing treatment spray" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Natural / plant-oil<br /><span className="font-normal text-xs text-gray-500">botanical</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Gentle spot touch-up</strong> in a room you sleep in</td>
                   <td className="px-4 py-3 text-gray-700">Usually yes in small sizes</td>
                   <td className="px-4 py-3 text-gray-700">Little residual — contact kill only</td>
-                  <td className="px-4 py-3"><BuyLink search="natural plant based bed bug spray travel" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="natural plant based bed bug spray travel" block>Check price →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -241,10 +244,10 @@ export default function BestBedBugSprayForTravelCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the four picks:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="doktor doom travel pro bed bug spray">Doktor Doom Travel Pro →</BuyLink>
-            <BuyLink search="proof bed bug dust mite spray travel size">Proof travel spray →</BuyLink>
-            <BuyLink search="permethrin gear clothing treatment spray">Fabric / gear spray →</BuyLink>
-            <BuyLink search="natural plant based bed bug spray travel">Natural travel spray →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="doktor doom travel pro bed bug spray">Doktor Doom Travel Pro →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="proof bed bug dust mite spray travel size">Proof travel spray →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="permethrin gear clothing treatment spray">Fabric / gear spray →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="natural plant based bed bug spray travel">Natural travel spray →</BuyLink>
           </div>
 
           <h2>The Carry-On Rule That Decides What You Can Pack</h2>

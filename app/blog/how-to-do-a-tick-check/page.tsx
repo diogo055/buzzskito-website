@@ -7,6 +7,7 @@ import TopPick from '@/components/TopPick'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'how-to-do-a-tick-check'
 const DATE = '2026-07-12'
@@ -56,6 +57,8 @@ export const metadata: Metadata = buildMetadata({
   publishedTime: DATE,
   modifiedTime: UPDATED,
 })
+
+const AMZ_TAG = tagForSlug('how-to-do-a-tick-check')
 
 export default function HowToDoATickCheckPage() {
   return (
@@ -189,9 +192,9 @@ export default function HowToDoATickCheckPage() {
             <li>Note the date. If you can, save the tick in a sealed bag or take a clear photo — it helps if symptoms appear.</li>
             <li>Watch the bite for 30 days. See a doctor if you develop an expanding (often bull&rsquo;s-eye) rash, fever, fatigue, or joint aches.</li>
           </ol>
-          <p>Keeping a proper tool by the door makes removal quick and clean when it counts. <BuyLink search="tick removal tool tweezers">Check tick-removal tools on Amazon.ca →</BuyLink></p>
+          <p>Keeping a proper tool by the door makes removal quick and clean when it counts. <BuyLink tag={AMZ_TAG} search="tick removal tool tweezers">Check tick-removal tools on Amazon.ca →</BuyLink></p>
 
-          <TopPick
+          <TopPick tag={AMZ_TAG}
             label="Our Top Pick"
             name="Fine-Tipped Tick-Removal Tool"
             blurb="A dedicated tick tool grips right at the skin and lifts the whole tick out cleanly — the single most useful thing to keep by the door in tick season, so you are never improvising with fingernails at the moment it matters."

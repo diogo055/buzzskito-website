@@ -8,6 +8,7 @@ import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'best-natural-bed-bug-spray-canada'
 const DATE = '2026-07-21'
@@ -75,6 +76,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('best-natural-bed-bug-spray-canada')
+
 export default function BestNaturalBedBugSprayCanadaPage() {
   return (
     <>
@@ -96,7 +99,7 @@ export default function BestNaturalBedBugSprayCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="EcoRaider plant-based bed bug killer" search="ecoraider bed bug killer spray" label="Best overall" />
+      <StickyBuyBar tag={AMZ_TAG} name="EcoRaider plant-based bed bug killer" search="ecoraider bed bug killer spray" label="Best overall" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -119,7 +122,7 @@ export default function BestNaturalBedBugSprayCanadaPage() {
 
       <section className="bg-white px-4 py-6">
         <div className="max-w-5xl mx-auto">
-          <AwardRow
+          <AwardRow tag={AMZ_TAG}
             heading="Our Picks — Best Natural Bed Bug Sprays in Canada"
             awards={[
               {
@@ -193,28 +196,28 @@ export default function BestNaturalBedBugSprayCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Essential-oil botanical</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best overall</strong> &mdash; fast, low-odour contact kill</td>
                   <td className="px-4 py-3 text-gray-700">Little residual once dry; check CA listing</td>
-                  <td className="px-4 py-3"><BuyLink search="ecoraider bed bug killer spray" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="ecoraider bed bug killer spray" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Proof<br /><span className="font-normal text-xs text-gray-500">botanical + mineral</span></td>
                   <td className="px-4 py-3 text-gray-700">Botanical + mineral residual</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Residual</strong> &mdash; keeps working in cracks longer</td>
                   <td className="px-4 py-3 text-gray-700">Still not a standalone cure</td>
-                  <td className="px-4 py-3"><BuyLink search="proof bed bug dust mite spray" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="proof bed bug dust mite spray" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Doktor Doom<br /><span className="font-normal text-xs text-gray-500">pyrethrins</span></td>
                   <td className="px-4 py-3 text-gray-700">Plant-derived pyrethrins</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">PMRA-registered</strong> &mdash; Canadian brand, PCP number</td>
                   <td className="px-4 py-3 text-gray-700">Harsher; caution around cats &amp; fish</td>
-                  <td className="px-4 py-3"><BuyLink search="doktor doom bed bug spray" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="doktor doom bed bug spray" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Budget botanical<br /><span className="font-normal text-xs text-gray-500">clove / lemongrass</span></td>
                   <td className="px-4 py-3 text-gray-700">Essential-oil blend</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Light work</strong> &mdash; spot-treating, supplement</td>
                   <td className="px-4 py-3 text-gray-700">Weakest knockdown; verify registration</td>
-                  <td className="px-4 py-3"><BuyLink search="natural essential oil bed bug spray" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="natural essential oil bed bug spray" block>Check price →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -241,10 +244,10 @@ export default function BestNaturalBedBugSprayCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the picks:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="ecoraider bed bug killer spray">EcoRaider →</BuyLink>
-            <BuyLink search="proof bed bug dust mite spray">Proof →</BuyLink>
-            <BuyLink search="doktor doom bed bug spray">Doktor Doom →</BuyLink>
-            <BuyLink search="natural essential oil bed bug spray">Budget botanical →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="ecoraider bed bug killer spray">EcoRaider →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="proof bed bug dust mite spray">Proof →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="doktor doom bed bug spray">Doktor Doom →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="natural essential oil bed bug spray">Budget botanical →</BuyLink>
           </div>
 
           <h2>How Natural Bed Bug Sprays Actually Work (and Where They Fail)</h2>

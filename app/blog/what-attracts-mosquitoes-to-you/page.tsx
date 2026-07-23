@@ -7,6 +7,7 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import TopPick from '@/components/TopPick'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'what-attracts-mosquitoes-to-you'
 const DATE = '2026-07-13'
@@ -56,6 +57,8 @@ export const metadata: Metadata = buildMetadata({
   publishedTime: DATE,
   modifiedTime: UPDATED,
 })
+
+const AMZ_TAG = tagForSlug('what-attracts-mosquitoes-to-you')
 
 export default function WhatAttractsMosquitoesToYouPage() {
   return (
@@ -162,8 +165,8 @@ export default function WhatAttractsMosquitoesToYouPage() {
             <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">If you are the one who always gets bitten</h3>
             <p className="text-sm text-gray-700 mb-4 leading-relaxed">You cannot change your CO&#8322; output or blood type, but a registered repellent hides the cues that lead a mosquito the last few metres to your skin. Picaridin is odourless, non-greasy, and won&rsquo;t damage plastics or gear the way DEET can.</p>
             <div className="not-prose flex flex-wrap gap-3">
-              <BuyLink search="picaridin insect repellent">Check picaridin repellent on Amazon →</BuyLink>
-              <BuyLink search="thermacell mosquito repeller">Thermacell patio repeller →</BuyLink>
+              <BuyLink tag={AMZ_TAG} search="picaridin insect repellent">Check picaridin repellent on Amazon →</BuyLink>
+              <BuyLink tag={AMZ_TAG} search="thermacell mosquito repeller">Thermacell patio repeller →</BuyLink>
             </div>
           </aside>
 
@@ -185,7 +188,7 @@ export default function WhatAttractsMosquitoesToYouPage() {
           </ol>
           <p>Curious how the insect itself works? Our <Link href="/blog/mosquito-facts">mosquito facts guide</Link> covers lifespan, breeding, flight range, and disease risk in plain language.</p>
 
-          <TopPick
+          <TopPick tag={AMZ_TAG}
             label="Our Top Pick for Personal Protection"
             name="Picaridin 20% Insect Repellent"
             blurb="If you are the person who always gets bitten, a picaridin repellent is the single most reliable thing you can put on your skin. It matches DEET for protection against mosquitoes but is odourless, non-greasy, and won't damage plastics, sunglasses, or gear — which makes it the one people actually keep reapplying."

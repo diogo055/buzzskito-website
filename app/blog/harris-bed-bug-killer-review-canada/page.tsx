@@ -8,6 +8,7 @@ import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'harris-bed-bug-killer-review-canada'
 const DATE = '2026-07-21'
@@ -75,6 +76,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('harris-bed-bug-killer-review-canada')
+
 export default function HarrisBedBugKillerReviewCanadaPage() {
   return (
     <>
@@ -96,7 +99,7 @@ export default function HarrisBedBugKillerReviewCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="Harris Toughest Bed Bug Killer (verify Canadian-registered SKU)" search="harris bed bug killer" label="Our verdict: 6.9/10 — conditional" />
+      <StickyBuyBar tag={AMZ_TAG} name="Harris Toughest Bed Bug Killer (verify Canadian-registered SKU)" search="harris bed bug killer" label="Our verdict: 6.9/10 — conditional" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -119,7 +122,7 @@ export default function HarrisBedBugKillerReviewCanadaPage() {
 
       <section className="bg-white px-4 py-2">
         <div className="max-w-4xl mx-auto">
-          <TopPick
+          <TopPick tag={AMZ_TAG}
             label="Our Verdict — Conditional"
             name="Harris Toughest Bed Bug Killer — a known-name contact spray with two big caveats"
             blurb="Harris is the brand nearly every Canadian searching for a bed bug spray eventually clicks on, and the Toughest liquid does the narrow thing a contact insecticide does: it kills the bed bugs it directly, thoroughly wets. That is genuinely useful for spot knockdown on bugs you can see and reach. But it is a pyrethroid, and the resistance now widespread in North American bed bug populations means the dried residual — the weeks-long protection the label implies — is exactly the part resistant bugs walk across and survive. It also cannot touch eggs sealed in seams or bugs hidden in voids. And before you buy at all, the legality question decides everything: only the specific PMRA-registered SKU sold through Canadian retail is legal here; a US listing that happens to ship is not. Buy it, if you buy it, as one Canadian-registered contact tool inside a layered plan — and lean on heat and desiccants for the durable kill."
@@ -156,21 +159,21 @@ export default function HarrisBedBugKillerReviewCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Pyrethroid contact/residual chemical</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Weak point</strong> &mdash; resistance undercuts the residual</td>
                   <td className="px-4 py-3 text-xs text-gray-600">Kills what you directly wet; buy only the PMRA-registered SKU; not a stand-alone fix</td>
-                  <td className="px-4 py-3"><BuyLink search="harris bed bug killer" block>Check price &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="harris bed bug killer" block>Check price &rarr;</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Silica gel desiccant dust<br /><span className="font-normal text-xs text-gray-500">CimeXa-type</span></td>
                   <td className="px-4 py-3 text-gray-700">Physical desiccation &mdash; dries the bug out</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best</strong> &mdash; resistance-proof, years-long residual</td>
                   <td className="px-4 py-3 text-xs text-gray-600">No resistance possible; near-permanent barrier in cracks and voids; the pro backstop</td>
-                  <td className="px-4 py-3"><BuyLink search="cimexa insecticide dust" block>Check price &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="cimexa insecticide dust" block>Check price &rarr;</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Heat / steam<br /><span className="font-normal text-xs text-gray-500">steamer or heater</span></td>
                   <td className="px-4 py-3 text-gray-700">Lethal heat &mdash; kills bugs and eggs alike</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best</strong> &mdash; no residual, but kills the eggs</td>
                   <td className="px-4 py-3 text-xs text-gray-600">The only common tool that reliably kills eggs; a device, not a pesticide &mdash; no PMRA issue</td>
-                  <td className="px-4 py-3"><BuyLink search="bed bug steamer" block>Check price &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bed bug steamer" block>Check price &rarr;</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Grey-market US concentrates<br /><span className="font-normal text-xs text-gray-500">Crossfire, Temprid FX, US-only Harris SKUs</span></td>
@@ -236,8 +239,8 @@ export default function HarrisBedBugKillerReviewCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability (confirm the PMRA-registered SKU before buying):</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="harris bed bug killer">Harris bed bug killer on Amazon.ca &rarr;</BuyLink>
-            <BuyLink search="cimexa insecticide dust">Silica-gel dust alternative &rarr;</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="harris bed bug killer">Harris bed bug killer on Amazon.ca &rarr;</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="cimexa insecticide dust">Silica-gel dust alternative &rarr;</BuyLink>
           </div>
 
           <h2>What the Harris &ldquo;Toughest&rdquo; Spray Actually Does</h2>
@@ -285,7 +288,7 @@ export default function HarrisBedBugKillerReviewCanadaPage() {
           <p>Read against that lineup, the Harris spray&rsquo;s role shrinks to what it is actually good at: knocking down the visible bugs you find while the resistance-proof tools do the lasting work. For anything beyond a caught-early, localized problem &mdash; a spreading infestation, bugs established in walls or furniture &mdash; a professional treatment is the honest answer. Our guides on <Link href="/blog/how-to-get-rid-of-bed-bugs-canada">how to get rid of bed bugs in Canada</Link> and <Link href="/blog/how-to-get-rid-of-bed-bugs-in-apartment-canada">bed bugs in an apartment</Link> lay out how the pieces fit.</p>
 
           <div className="not-prose my-4">
-            <BuyLink search="cimexa insecticide dust">See the resistance-proof dust alternative &rarr;</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="cimexa insecticide dust">See the resistance-proof dust alternative &rarr;</BuyLink>
           </div>
 
           <h2>What You&rsquo;re Actually Paying For &mdash; and When to Skip It</h2>

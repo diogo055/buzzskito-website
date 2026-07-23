@@ -8,6 +8,7 @@ import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'motion-activated-sprinkler-canada'
 const DATE = '2026-07-21'
@@ -75,6 +76,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('motion-activated-sprinkler-canada')
+
 export default function MotionActivatedSprinklerCanadaPage() {
   return (
     <>
@@ -96,7 +99,7 @@ export default function MotionActivatedSprinklerCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="Orbit Yard Enforcer motion-activated sprinkler" search="orbit yard enforcer motion activated sprinkler" label="Best overall" />
+      <StickyBuyBar tag={AMZ_TAG} name="Orbit Yard Enforcer motion-activated sprinkler" search="orbit yard enforcer motion activated sprinkler" label="Best overall" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -119,7 +122,7 @@ export default function MotionActivatedSprinklerCanadaPage() {
 
       <section className="bg-white px-4 py-6">
         <div className="max-w-5xl mx-auto">
-          <AwardRow
+          <AwardRow tag={AMZ_TAG}
             heading="Our Picks — Best Motion-Activated Sprinklers in Canada"
             awards={[
               {
@@ -212,9 +215,9 @@ export default function MotionActivatedSprinklerCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the three picks:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="orbit yard enforcer motion activated sprinkler">Orbit Yard Enforcer →</BuyLink>
-            <BuyLink search="orbit yard enforcer pro motion activated sprinkler">Yard Enforcer Pro →</BuyLink>
-            <BuyLink search="motion activated sprinkler animal repellent">Budget PIR sprinklers →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="orbit yard enforcer motion activated sprinkler">Orbit Yard Enforcer →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="orbit yard enforcer pro motion activated sprinkler">Yard Enforcer Pro →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="motion activated sprinkler animal repellent">Budget PIR sprinklers →</BuyLink>
           </div>
 
           <h2>Comparison: Orbit Yard Enforcer vs Pro vs Budget Clones</h2>
@@ -235,21 +238,21 @@ export default function MotionActivatedSprinklerCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Day / night / 24-hr selector + intelligent false-trigger filtering</td>
                   <td className="px-4 py-3 text-gray-700">~12 m range, 120° arc; ~7,500 cycles per 9V</td>
                   <td className="px-4 py-3 text-xs text-gray-600">Best overall — raccoons, cats, squirrels on a typical suburban lot</td>
-                  <td className="px-4 py-3"><BuyLink search="orbit yard enforcer motion activated sprinkler" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="orbit yard enforcer motion activated sprinkler" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Orbit Yard Enforcer Pro</td>
                   <td className="px-4 py-3 text-gray-700">Same day/night platform, upgraded build</td>
                   <td className="px-4 py-3 text-gray-700">Wider detection footprint per unit; 9V battery</td>
                   <td className="px-4 py-3 text-xs text-gray-600">Large or rural lots with multiple animal approach routes</td>
-                  <td className="px-4 py-3"><BuyLink search="orbit yard enforcer pro motion activated sprinkler" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="orbit yard enforcer pro motion activated sprinkler" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Budget PIR clones<br /><span className="font-normal text-xs text-gray-500">Hoont-style jet sprays</span></td>
                   <td className="px-4 py-3 text-gray-700">Usually motion-only — no day/night selector</td>
                   <td className="px-4 py-3 text-gray-700">Shorter range; AA batteries or small solar panels</td>
                   <td className="px-4 py-3 text-xs text-gray-600">One small garden bed on a tight budget; expect quality lottery</td>
-                  <td className="px-4 py-3"><BuyLink search="motion activated sprinkler animal repellent" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="motion activated sprinkler animal repellent" block>Check price →</BuyLink></td>
                 </tr>
               </tbody>
             </table>

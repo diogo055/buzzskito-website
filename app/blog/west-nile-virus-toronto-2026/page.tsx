@@ -7,6 +7,7 @@ import TopPick from '@/components/TopPick'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'west-nile-virus-toronto-2026'
 const DATE = '2026-07-09'
@@ -56,6 +57,8 @@ export const metadata: Metadata = buildMetadata({
   publishedTime: DATE,
   modifiedTime: UPDATED,
 })
+
+const AMZ_TAG = tagForSlug('west-nile-virus-toronto-2026')
 
 export default function WestNileTorontoPage() {
   return (
@@ -175,13 +178,13 @@ export default function WestNileTorontoPage() {
           <AffiliateDisclosure />
           <ol>
             <li><strong>Kill the stagnant water weekly.</strong> Scrub gutters clear of leaf sludge, tip and scrub birdbaths and buckets, and remove old tires. Scrubbing matters &mdash; mosquito eggs stick to container walls and survive drying.</li>
-            <li><strong>Larvicide what you cannot drain.</strong> A BTI dunk in a rain barrel or ornamental pond kills larvae within 24&ndash;48 hours and is harmless to fish, pets, birds, and people. See our <Link href="/blog/mosquito-dunks-canada-guide">Mosquito Dunks guide</Link>. <BuyLink search="summit mosquito dunks">Check Mosquito Dunks on Amazon.ca →</BuyLink> Granular Mosquito Bits give a faster knockdown using the same Bti active. <BuyLink search="summit mosquito bits">Check Mosquito Bits on Amazon.ca →</BuyLink></li>
+            <li><strong>Larvicide what you cannot drain.</strong> A BTI dunk in a rain barrel or ornamental pond kills larvae within 24&ndash;48 hours and is harmless to fish, pets, birds, and people. See our <Link href="/blog/mosquito-dunks-canada-guide">Mosquito Dunks guide</Link>. <BuyLink tag={AMZ_TAG} search="summit mosquito dunks">Check Mosquito Dunks on Amazon.ca →</BuyLink> Granular Mosquito Bits give a faster knockdown using the same Bti active. <BuyLink tag={AMZ_TAG} search="summit mosquito bits">Check Mosquito Bits on Amazon.ca →</BuyLink></li>
             <li><strong>Cover up at dusk and dawn</strong>, when <em>Culex</em> feeds. Long sleeves, and a Health Canada-approved repellent with <strong>DEET or icaridin</strong>. See our <Link href="/blog/picaridin-vs-deet-canada">icaridin vs DEET comparison</Link>.</li>
             <li><strong>Fix screens</strong> on windows and doors.</li>
             <li><strong>Reduce the resting adult population.</strong> <Link href="/mosquito-control">A professional barrier spray</Link> treats the shaded vegetation, hedge interiors, and fence lines where adult mosquitoes spend the day, with up to 30 days of residual protection through the August peak.</li>
           </ol>
 
-          <TopPick
+          <TopPick tag={AMZ_TAG}
             label="Best for the Culex breeding sites you can't drain"
             name="Summit Mosquito Dunks (BTI Larvicide)"
             blurb="The single most West Nile–specific product a homeowner can use: a floating Bti dunk that kills Culex larvae in the stagnant, organically rich water they breed in — rain barrels, ornamental ponds, clogged low spots. Harmless to fish, pets, birds, and people, and one dunk keeps working for about 30 days."

@@ -8,6 +8,7 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const POST = {
   title: 'Black Flies in the GTA 2026: Toronto, Mississauga, and the Cottage-Country Migration Pattern',
@@ -58,6 +59,8 @@ export const metadata: Metadata = buildMetadata({
   type: 'article',
   publishedTime: POST.date,
 })
+
+const AMZ_TAG = tagForSlug('black-flies-mississauga-toronto-gta-2026')
 
 export default function BlackFliesMississaugaTorontoGTAPage() {
   return (
@@ -156,12 +159,12 @@ export default function BlackFliesMississaugaTorontoGTAPage() {
 
         <h3>Thermacell during peak hours</h3>
         <AffiliateDisclosure />
-        <p>Thermacell units burn an allethrin pad and create a roughly 4-metre repellent cloud. They work on black flies and mosquitoes both. Run them on patios from 9:00 AM to 11:00 AM and from 4:00 PM to 7:00 PM during peak weeks. Effective. Not a substitute for barrier spray, but a useful supplement during outdoor entertaining. The rechargeable Thermacell E90 skips the butane cartridges entirely — a single charge covers a full evening on the patio. <BuyLink search="thermacell e90 rechargeable">Check the Thermacell E90 on Amazon.ca →</BuyLink></p>
+        <p>Thermacell units burn an allethrin pad and create a roughly 4-metre repellent cloud. They work on black flies and mosquitoes both. Run them on patios from 9:00 AM to 11:00 AM and from 4:00 PM to 7:00 PM during peak weeks. Effective. Not a substitute for barrier spray, but a useful supplement during outdoor entertaining. The rechargeable Thermacell E90 skips the butane cartridges entirely — a single charge covers a full evening on the patio. <BuyLink tag={AMZ_TAG} search="thermacell e90 rechargeable">Check the Thermacell E90 on Amazon.ca →</BuyLink></p>
 
         <h3>Personal protection</h3>
-        <p>Light-coloured clothing (beige, light grey, white). Long sleeves and pants during peak weeks. A hat with a brim — and a head net if you are gardening near the property edge or hiking the ravines. DEET (25-30% concentration) or picaridin (20%) on exposed skin; picaridin is odourless and won&rsquo;t damage gear the way DEET can. <BuyLink search="picaridin insect repellent">Check picaridin repellents on Amazon.ca →</BuyLink> For hands-free coverage during the worst weeks, a bug jacket with a built-in mesh hood beats reapplying spray — see our <Link href="/blog/bug-protective-clothing-canada" className="text-brand-700 underline">guide to bug-protective clothing</Link>. <BuyLink search="coghlans bug jacket">Check bug jackets on Amazon.ca →</BuyLink> For longer outdoor sessions, permethrin-treated clothing — apply 0.5% permethrin spray once, lasts six weeks or six washes. This is the single most effective personal protection layer for ravine walkers and gardeners.</p>
+        <p>Light-coloured clothing (beige, light grey, white). Long sleeves and pants during peak weeks. A hat with a brim — and a head net if you are gardening near the property edge or hiking the ravines. DEET (25-30% concentration) or picaridin (20%) on exposed skin; picaridin is odourless and won&rsquo;t damage gear the way DEET can. <BuyLink tag={AMZ_TAG} search="picaridin insect repellent">Check picaridin repellents on Amazon.ca →</BuyLink> For hands-free coverage during the worst weeks, a bug jacket with a built-in mesh hood beats reapplying spray — see our <Link href="/blog/bug-protective-clothing-canada" className="text-brand-700 underline">guide to bug-protective clothing</Link>. <BuyLink tag={AMZ_TAG} search="coghlans bug jacket">Check bug jackets on Amazon.ca →</BuyLink> For longer outdoor sessions, permethrin-treated clothing — apply 0.5% permethrin spray once, lasts six weeks or six washes. This is the single most effective personal protection layer for ravine walkers and gardeners.</p>
 
-        <TopPick
+        <TopPick tag={AMZ_TAG}
           label="Best Personal Protection"
           name="Permethrin clothing treatment spray (0.5%)"
           blurb="Because black flies cut rather than pierce, they shrug off skin repellents faster than mosquitoes do — so the gold standard is treating the clothing itself. One application binds to fabric, survives weeks of wear and several washes, and keeps working hands-free while you garden or walk the ravines during the worst three weeks. Treat clothing only, never skin."

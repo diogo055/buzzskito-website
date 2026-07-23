@@ -8,6 +8,7 @@ import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'best-rat-trap-canada'
 const DATE = '2026-07-16'
@@ -73,6 +74,8 @@ export const metadata: Metadata = buildMetadata({
   publishedTime: DATE,
 })
 
+const AMZ_TAG = tagForSlug('best-rat-trap-canada')
+
 export default function BestRatTrapCanadaPage() {
   return (
     <>
@@ -94,7 +97,7 @@ export default function BestRatTrapCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="Victor Metal Pedal Rat Snap Trap" search="victor rat trap" label="Best overall" />
+      <StickyBuyBar tag={AMZ_TAG} name="Victor Metal Pedal Rat Snap Trap" search="victor rat trap" label="Best overall" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -117,7 +120,7 @@ export default function BestRatTrapCanadaPage() {
 
       <section className="bg-white px-4 py-6">
         <div className="max-w-5xl mx-auto">
-          <AwardRow
+          <AwardRow tag={AMZ_TAG}
             heading="Our Picks — Best Rat Traps in Canada"
             awards={[
               {
@@ -164,9 +167,9 @@ export default function BestRatTrapCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Compare the three traps this guide recommends on Amazon.ca:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="victor rat trap">Victor rat snap trap →</BuyLink>
-            <BuyLink search="victor electronic rat trap">Victor electronic rat trap →</BuyLink>
-            <BuyLink search="tomcat rat snap trap">Tomcat rat snap trap →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="victor rat trap">Victor rat snap trap →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="victor electronic rat trap">Victor electronic rat trap →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="tomcat rat snap trap">Tomcat rat snap trap →</BuyLink>
           </div>
 
           <h2>Why Do Mouse Traps Fail on Rats?</h2>
@@ -235,8 +238,8 @@ export default function BestRatTrapCanadaPage() {
           <p>Trapping without exclusion is a treadmill. A Norway rat needs only a 2.5 cm gap — roughly a toonie — to enter a house. While traps are pre-baiting, walk the foundation: seal gaps around utility penetrations with steel wool plus sealant or hardware cloth (rats gnaw through foam and caulk alone), fix damaged window wells and door sweeps, cap floor drains, cut vegetation back from the foundation, and get firewood and clutter off the ground. The same exclusion logic — scaled to a 6 mm gap — applies to mice, and our <Link href="/blog/how-to-get-rid-of-mice-canada">getting rid of mice in Canada</Link> guide covers the full walkthrough. If trapping and exclusion haven&rsquo;t stopped the activity within 3–4 weeks, or you&rsquo;re finding burrow networks outdoors, it&rsquo;s worth pricing a licensed exterminator — see our <Link href="/pest-control-cost-canada">Canadian pest control cost guide</Link> for what rat jobs typically run.</p>
 
           <div className="not-prose my-6 flex flex-wrap gap-3">
-            <BuyLink search="victor rat trap">Check Victor rat trap on Amazon.ca →</BuyLink>
-            <BuyLink search="victor electronic rat trap">Check Victor electronic rat trap →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="victor rat trap">Check Victor rat trap on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="victor electronic rat trap">Check Victor electronic rat trap →</BuyLink>
           </div>
 
           <h2>Frequently Asked Questions</h2>

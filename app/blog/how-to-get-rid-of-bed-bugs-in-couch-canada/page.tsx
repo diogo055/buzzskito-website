@@ -8,6 +8,7 @@ import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'how-to-get-rid-of-bed-bugs-in-couch-canada'
 const DATE = '2026-07-21'
@@ -75,6 +76,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('how-to-get-rid-of-bed-bugs-in-couch-canada')
+
 export default function BedBugsInCouchCanadaPage() {
   return (
     <>
@@ -96,7 +99,7 @@ export default function BedBugsInCouchCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="Dry-vapour bed bug steamer" search="bed bug steamer dry vapour" label="Core tool" />
+      <StickyBuyBar tag={AMZ_TAG} name="Dry-vapour bed bug steamer" search="bed bug steamer dry vapour" label="Core tool" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -119,7 +122,7 @@ export default function BedBugsInCouchCanadaPage() {
 
       <section className="bg-white px-4 py-6">
         <div className="max-w-5xl mx-auto">
-          <AwardRow
+          <AwardRow tag={AMZ_TAG}
             heading="The Couch Kit — What You Actually Need to Clear a Sofa"
             awards={[
               {
@@ -191,25 +194,25 @@ export default function BedBugsInCouchCanadaPage() {
                   <td className="px-4 py-3 font-bold text-brand-800">1. Vacuum<br /><span className="font-normal text-xs text-gray-500">crevice tool</span></td>
                   <td className="px-4 py-3 text-gray-700">Physically removes live bugs, nymphs, and loose debris fast</td>
                   <td className="px-4 py-3 text-gray-700">Cemented eggs; bugs deep in frame</td>
-                  <td className="px-4 py-3"><BuyLink search="hepa handheld vacuum crevice tool" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="hepa handheld vacuum crevice tool" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">2. Steam<br /><span className="font-normal text-xs text-gray-500">dry vapour</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Kills</strong> bugs and eggs on contact with heat</td>
                   <td className="px-4 py-3 text-gray-700">Deep cracks heat can&rsquo;t reach; no residual</td>
-                  <td className="px-4 py-3"><BuyLink search="bed bug steamer dry vapour" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bed bug steamer dry vapour" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">3. Spray<br /><span className="font-normal text-xs text-gray-500">PMRA residual</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Residual</strong> keeps killing in cracks for weeks</td>
                   <td className="px-4 py-3 text-gray-700">Sealed voids; foam cores; won&rsquo;t kill all eggs</td>
-                  <td className="px-4 py-3"><BuyLink search="ecoraider bed bug spray" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="ecoraider bed bug spray" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">4. Encase<br /><span className="font-normal text-xs text-gray-500">zippered cover</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Contains</strong> what you can&rsquo;t treat; blocks re-entry</td>
                   <td className="px-4 py-3 text-gray-700">Slow — bugs starve over months, not days</td>
-                  <td className="px-4 py-3"><BuyLink search="bed bug cushion encasement zippered" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bed bug cushion encasement zippered" block>Check price →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -236,9 +239,9 @@ export default function BedBugsInCouchCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the core couch-kit tools:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="bed bug steamer dry vapour">Dry-vapour steamer →</BuyLink>
-            <BuyLink search="ecoraider bed bug spray">EcoRaider spray →</BuyLink>
-            <BuyLink search="bed bug cushion encasement zippered">Cushion encasement →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="bed bug steamer dry vapour">Dry-vapour steamer →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="ecoraider bed bug spray">EcoRaider spray →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="bed bug cushion encasement zippered">Cushion encasement →</BuyLink>
           </div>
 
           <h2>Step 1 — Confirm and Contain Before You Touch Anything</h2>

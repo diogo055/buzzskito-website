@@ -7,6 +7,7 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'can-mosquitoes-bite-through-clothes'
 const DATE = '2026-07-16'
@@ -67,6 +68,8 @@ export const metadata: Metadata = buildMetadata({
   type: 'article',
   publishedTime: DATE,
 })
+
+const AMZ_TAG = tagForSlug('can-mosquitoes-bite-through-clothes')
 
 export default function CanMosquitoesBiteThroughClothesPage() {
   return (
@@ -171,11 +174,11 @@ export default function CanMosquitoesBiteThroughClothesPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-2">For heavy-exposure situations — hiking, camping, or evenings in a buggy yard — permethrin-treated garments and a bug jacket are the most dependable clothing-based defence:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="insectguard permethrin treated shirt">Permethrin-treated shirt on Amazon.ca →</BuyLink>
-            <BuyLink search="coghlans bug jacket">Coghlan&rsquo;s bug jacket →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="insectguard permethrin treated shirt">Permethrin-treated shirt on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="coghlans bug jacket">Coghlan&rsquo;s bug jacket →</BuyLink>
           </div>
 
-          <TopPick
+          <TopPick tag={AMZ_TAG}
             label="Our Top Pick — Bite-Through Defence"
             name="Permethrin-Treated Shirt (factory Insect Shield)"
             blurb="The one clothing upgrade that fixes the thin-fabric problem directly: permethrin bonds to the fibres and kills or knocks down mosquitoes and ticks on contact, so they die or leave before the proboscis reaches skin. Factory-treated garments stay effective for dozens of washes with no reapplication — the most dependable clothing-based defence for anyone outdoors a lot."

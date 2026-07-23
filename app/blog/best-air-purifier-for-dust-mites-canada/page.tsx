@@ -8,6 +8,7 @@ import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'best-air-purifier-for-dust-mites-canada'
 const DATE = '2026-07-21'
@@ -75,6 +76,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('best-air-purifier-for-dust-mites-canada')
+
 export default function BestAirPurifierForDustMitesCanadaPage() {
   return (
     <>
@@ -96,7 +99,7 @@ export default function BestAirPurifierForDustMitesCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="True-HEPA air purifier (dust-mite allergen)" search="true hepa air purifier large room" label="Best overall" />
+      <StickyBuyBar tag={AMZ_TAG} name="True-HEPA air purifier (dust-mite allergen)" search="true hepa air purifier large room" label="Best overall" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -119,7 +122,7 @@ export default function BestAirPurifierForDustMitesCanadaPage() {
 
       <section className="bg-white px-4 py-6">
         <div className="max-w-5xl mx-auto">
-          <AwardRow
+          <AwardRow tag={AMZ_TAG}
             heading="Our Picks — Best Air Purifiers for Dust Mites in Canada"
             awards={[
               {
@@ -202,7 +205,7 @@ export default function BestAirPurifierForDustMitesCanadaPage() {
                     <td className="px-4 py-3 text-xs text-gray-600">{best}</td>
                     <td className="px-4 py-3 text-gray-700">{filter}</td>
                     <td className="px-4 py-3 text-gray-700">{cadr}</td>
-                    <td className="px-4 py-3"><BuyLink search={search} block>Check price →</BuyLink></td>
+                    <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search={search} block>Check price →</BuyLink></td>
                   </tr>
                 ))}
               </tbody>
@@ -213,16 +216,16 @@ export default function BestAirPurifierForDustMitesCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the main picks:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="coway airmega true hepa air purifier">Coway / Winix mid-size →</BuyLink>
-            <BuyLink search="coway airmega 400 large room air purifier">High-CADR large-room →</BuyLink>
-            <BuyLink search="levoit core hepa air purifier">Levoit budget unit →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="coway airmega true hepa air purifier">Coway / Winix mid-size →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="coway airmega 400 large room air purifier">High-CADR large-room →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="levoit core hepa air purifier">Levoit budget unit →</BuyLink>
           </div>
 
           <h2>Why True-HEPA Is Non-Negotiable</h2>
           <p>A True-HEPA filter is defined by a hard standard: it must capture at least <strong>99.97% of particles at 0.3 microns</strong>, the particle size that is hardest to trap, on a single pass through the media. In the European EN 1822 system the equivalent grade is labelled <strong>H13</strong>. That 0.3-micron figure is not a random benchmark &mdash; it sits right in the size range of the fine dust and dust-mite allergen fragments you are trying to remove, which is why True-HEPA is the correct spec for allergy control rather than overkill.</p>
           <p>The trap to avoid is language that sounds like HEPA but isn&rsquo;t. &ldquo;HEPA-type,&rdquo; &ldquo;HEPA-like,&rdquo; and &ldquo;99% at 2 microns&rdquo; all describe cheaper media that does not meet the standard and lets more allergen slip through. When you shop, look for the exact words <strong>True HEPA</strong> or <strong>H13</strong>, and if a listing only says &ldquo;HEPA&rdquo; without a spec, open the details and confirm the 99.97%-at-0.3-micron rating before you buy. For dust-mite allergy specifically, the HEPA stage is the part doing the work &mdash; not the ionizer, not the UV lamp, not the marketing.</p>
           <div className="not-prose my-4">
-            <BuyLink search="true hepa h13 air purifier">Check True-HEPA (H13) purifiers on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="true hepa h13 air purifier">Check True-HEPA (H13) purifiers on Amazon.ca →</BuyLink>
           </div>
 
           <h2>How to Size a Purifier by CADR (The Part Most People Get Wrong)</h2>
@@ -268,7 +271,7 @@ export default function BestAirPurifierForDustMitesCanadaPage() {
                     <td className="px-4 py-3 font-bold text-brand-800">{situation}</td>
                     <td className="px-4 py-3 text-gray-800">{buy}</td>
                     <td className="px-4 py-3 text-xs text-gray-600">{why}</td>
-                    <td className="px-4 py-3"><BuyLink search={search} block>Check price →</BuyLink></td>
+                    <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search={search} block>Check price →</BuyLink></td>
                   </tr>
                 ))}
               </tbody>

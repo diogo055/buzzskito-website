@@ -9,6 +9,7 @@ import TopPick from '@/components/TopPick'
 import AuthorByline from '@/components/AuthorByline'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { NEW_BLOGS_3, MOSQUITO_BLOGS } from '@/lib/constants'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const POST = NEW_BLOGS_3[3]
 const UPDATED = POST.date
@@ -49,6 +50,8 @@ const FAQS = [
       "BuzzSkito technicians apply barrier spray to foliage, fence lines, and shaded resting surfaces — not to open flowers or actively blooming plants. Pyrethroids are toxic to bees on direct contact when wet, but break down quickly once dry. We follow best-practice application timing (early morning or evening, outside peak pollinator activity hours) and avoid treating flowering plants. The risk to pollinators from a correctly applied residential barrier spray is very low.",
   },
 ]
+
+const AMZ_TAG = tagForSlug('natural-eco-friendly-mosquito-control-ontario')
 
 export default function NaturalMosquitoControlPage() {
   return (
@@ -99,7 +102,7 @@ export default function NaturalMosquitoControlPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="Summit BTi Mosquito Dunks" search="summit mosquito dunks" label="Best natural pick" />
+      <StickyBuyBar tag={AMZ_TAG} name="Summit BTi Mosquito Dunks" search="summit mosquito dunks" label="Best natural pick" />
 
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
         <AuthorByline datePublished={POST.date} dateModified={UPDATED} />
@@ -121,7 +124,7 @@ export default function NaturalMosquitoControlPage() {
           More GTA homeowners are asking us about natural and eco-friendly mosquito control options — and it&apos;s a fair question. This guide gives you an honest breakdown of what natural options actually do, where they fall short in Ontario&apos;s climate, and the right combination strategy for different property types.
         </p>
 
-        <TopPick
+        <TopPick tag={AMZ_TAG}
           label="Best Natural Pick"
           name="Summit BTi Mosquito Dunks"
           blurb="Of every natural option, BTi dunks are the one that genuinely works — a soil-bacterium larvicide that kills mosquito larvae in standing water without harming fish, birds, bees, or pets. It's the same tool the City of Toronto relies on for larviciding. Drop one in rain barrels, ponds, and birdbaths to stop the next generation before it can bite."
@@ -143,7 +146,7 @@ export default function NaturalMosquitoControlPage() {
         <p>Drop a BTi dunk into rain barrels, ornamental ponds, birdbaths, and any standing water that can&apos;t be eliminated. The bacterium reproduces in the water and kills larvae before they develop into biting adults. It is completely safe for fish, birds, bees, and mammals. The City of Toronto uses BTi as its primary larviciding tool across the city each year.</p>
         <AffiliateDisclosure />
         <div className="not-prose my-4">
-          <BuyLink search="summit mosquito dunks">Check Summit BTi mosquito dunks on Amazon.ca →</BuyLink>
+          <BuyLink tag={AMZ_TAG} search="summit mosquito dunks">Check Summit BTi mosquito dunks on Amazon.ca →</BuyLink>
         </div>
         <p><strong>Best for:</strong> Any property with decorative ponds, birdbaths, rain barrels, or areas of persistent standing water. Works in combination with other methods.</p>
 
@@ -155,7 +158,7 @@ export default function NaturalMosquitoControlPage() {
         <p>Cedar oil-based products are marketed as &ldquo;natural&rdquo; yard sprays and do have mosquito-repelling and insecticidal properties. The practical limitation for Ontario use is residual time — cedar oil volatilizes rapidly in heat and breaks down quickly in rain, typically providing 7–14 days of light protection versus 21–30 days from professional synthetic barrier spray.</p>
         <p>The best-known cedar-oil yard spray is Wondercide — we break down exactly how it holds up in GTA conditions in our full <Link href="/blog/wondercide-canada-review" className="text-brand-700 underline">Wondercide Canada review</Link>.</p>
         <div className="not-prose my-4">
-          <BuyLink search="wondercide yard spray">Check Wondercide yard spray on Amazon.ca →</BuyLink>
+          <BuyLink tag={AMZ_TAG} search="wondercide yard spray">Check Wondercide yard spray on Amazon.ca →</BuyLink>
         </div>
         <p><strong>Best for:</strong> Supplemental perimeter treatment between professional spray visits. Not sufficient as a standalone solution for high-pressure GTA properties.</p>
 

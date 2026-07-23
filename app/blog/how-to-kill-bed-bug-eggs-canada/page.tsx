@@ -8,6 +8,7 @@ import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'how-to-kill-bed-bug-eggs-canada'
 const DATE = '2026-07-21'
@@ -75,6 +76,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('how-to-kill-bed-bug-eggs-canada')
+
 export default function HowToKillBedBugEggsCanadaPage() {
   return (
     <>
@@ -96,7 +99,7 @@ export default function HowToKillBedBugEggsCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="Dry-vapour bed-bug steamer" search="bed bug steamer dry vapor" label="Kills eggs on contact" />
+      <StickyBuyBar tag={AMZ_TAG} name="Dry-vapour bed-bug steamer" search="bed bug steamer dry vapor" label="Kills eggs on contact" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -119,7 +122,7 @@ export default function HowToKillBedBugEggsCanadaPage() {
 
       <section className="bg-white px-4 py-6">
         <div className="max-w-5xl mx-auto">
-          <AwardRow
+          <AwardRow tag={AMZ_TAG}
             heading="The Tools That Actually Kill Bed-Bug Eggs in Canada"
             awards={[
               {
@@ -193,35 +196,35 @@ export default function HowToKillBedBugEggsCanadaPage() {
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Yes</strong> &mdash; on contact, reachable seams</td>
                   <td className="px-4 py-3 text-gray-700">Mattress seams, frames, tufts, baseboards</td>
                   <td className="px-4 py-3 text-gray-700">Only what the nozzle reaches; go slow</td>
-                  <td className="px-4 py-3"><BuyLink search="bed bug steamer dry vapor" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bed bug steamer dry vapor" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Heated chamber / bag<br /><span className="font-normal text-xs text-gray-500">whole-item heat</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Yes</strong> &mdash; throughout the item</td>
                   <td className="px-4 py-3 text-gray-700">Luggage, bedding, shoes, small furniture</td>
                   <td className="px-4 py-3 text-gray-700">Item must fit; long dwell per load</td>
-                  <td className="px-4 py-3"><BuyLink search="bed bug heater bag chamber" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bed bug heater bag chamber" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Hot dryer<br /><span className="font-normal text-xs text-gray-500">30+ min high heat</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Yes</strong> &mdash; launderable items</td>
                   <td className="px-4 py-3 text-gray-700">Clothing, sheets, soft launderable goods</td>
                   <td className="px-4 py-3 text-gray-700">Only for dryer-safe fabrics</td>
-                  <td className="px-4 py-3"><BuyLink search="bed bug laundry bags" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bed bug laundry bags" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Residual spray<br /><span className="font-normal text-xs text-gray-500">EcoRaider-type</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Partly</strong> &mdash; hits nymphs at hatch</td>
                   <td className="px-4 py-3 text-gray-700">Cracks and voids the heat missed</td>
                   <td className="px-4 py-3 text-gray-700">Less certain on eggs; check PCP number</td>
-                  <td className="px-4 py-3"><BuyLink search="ecoraider bed bug spray" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="ecoraider bed bug spray" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Contact knock-down spray<br /><span className="font-normal text-xs text-gray-500">store-bought</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-red-700">No</strong> &mdash; shell and cement block it</td>
                   <td className="px-4 py-3 text-gray-700">Killing visible adults only</td>
                   <td className="px-4 py-3 text-gray-700">Eggs survive &rarr; rebound in ~10 days</td>
-                  <td className="px-4 py-3"><BuyLink search="bed bug killer spray" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bed bug killer spray" block>Check price →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -248,10 +251,10 @@ export default function HowToKillBedBugEggsCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the egg-killing tools:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="bed bug steamer dry vapor">Dry-vapour steamer →</BuyLink>
-            <BuyLink search="bed bug heater bag chamber">Heated chamber →</BuyLink>
-            <BuyLink search="ecoraider bed bug spray">EcoRaider-type residual →</BuyLink>
-            <BuyLink search="cimexa desiccant dust bed bug">CimeXa dust →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="bed bug steamer dry vapor">Dry-vapour steamer →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="bed bug heater bag chamber">Heated chamber →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="ecoraider bed bug spray">EcoRaider-type residual →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="cimexa desiccant dust bed bug">CimeXa dust →</BuyLink>
           </div>
 
           <h2>Why Contact Sprays Miss the Eggs</h2>

@@ -8,6 +8,7 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const UPDATED = '2026-06-04'
 
@@ -49,6 +50,8 @@ export const metadata: Metadata = buildMetadata({
   type: 'article',
   publishedTime: POST.date,
 })
+
+const AMZ_TAG = tagForSlug('tick-season-burlington-when-are-ticks-active')
 
 export default function TickSeasonBurlingtonPage() {
   return (
@@ -151,7 +154,7 @@ export default function TickSeasonBurlingtonPage() {
         <p>Halton Region Public Health publishes a standard prevention checklist: wear long sleeves and tucked-in pants when hiking, use Health Canada-approved repellents containing DEET or icaridin, check yourself, your kids, and your pets after every outdoor exposure, and remove attached ticks promptly with fine-tipped tweezers. They emphasize the 24-36 hour rule — Lyme transmission typically requires sustained tick attachment, which is why daily checks matter.</p>
         <AffiliateDisclosure />
         <div className="not-prose my-4">
-          <BuyLink search="icaridin insect repellent canada">Check icaridin insect repellent on Amazon.ca →</BuyLink>
+          <BuyLink tag={AMZ_TAG} search="icaridin insect repellent canada">Check icaridin insect repellent on Amazon.ca →</BuyLink>
         </div>
 
         <p>For yards specifically, Public Health Ontario&rsquo;s habitat-modification guidance is consistent: maintain a 3-foot wood-chip or gravel buffer between lawn and any wooded edge, clear leaf litter weekly from May through July, keep grass short, and treat the perimeter professionally during the nymph window. See our full <Link href="/blog/ultimate-tick-control-guide-ontario" className="text-brand-700 underline">tick control guide</Link> for the complete protocol.</p>
@@ -166,10 +169,10 @@ export default function TickSeasonBurlingtonPage() {
           <li><strong>Year-round veterinary tick prevention for dogs.</strong> Burlington vets are reporting climbing canine Lyme cases. Talk to your vet.</li>
         </ol>
         <div className="not-prose my-4">
-          <BuyLink search="insectguard permethrin gaiters">Check InsectGuard permethrin-treated gaiters on Amazon.ca →</BuyLink>
+          <BuyLink tag={AMZ_TAG} search="insectguard permethrin gaiters">Check InsectGuard permethrin-treated gaiters on Amazon.ca →</BuyLink>
         </div>
 
-        <TopPick
+        <TopPick tag={AMZ_TAG}
           label="Best for Burlington trail users"
           name="InsectGuard Permethrin-Treated Gaiters"
           blurb="If you hike the escarpment, Mt. Nemo, RBG, or any wooded ravine edge, permethrin-treated clothing is the single most effective personal defence — it kills ticks on contact before they reach skin. One treatment on gaiters, socks, and pant cuffs lasts about six weeks or six washes and covers the exact nymph window when Burlington risk peaks."

@@ -8,6 +8,7 @@ import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'ecoraider-bed-bug-spray-review-canada'
 const DATE = '2026-07-21'
@@ -71,6 +72,8 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
+const AMZ_TAG = tagForSlug('ecoraider-bed-bug-spray-review-canada')
+
 export default function EcoRaiderBedBugSprayReviewCanadaPage() {
   return (
     <>
@@ -92,7 +95,7 @@ export default function EcoRaiderBedBugSprayReviewCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar name="EcoRaider / EcoVenger bed bug killer" search="ecoraider bed bug killer" label="Our verdict: 8.6/10" />
+      <StickyBuyBar tag={AMZ_TAG} name="EcoRaider / EcoVenger bed bug killer" search="ecoraider bed bug killer" label="Our verdict: 8.6/10" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -115,7 +118,7 @@ export default function EcoRaiderBedBugSprayReviewCanadaPage() {
 
       <section className="bg-white px-4 py-2">
         <div className="max-w-4xl mx-auto">
-          <TopPick
+          <TopPick tag={AMZ_TAG}
             label="Our Verdict"
             name="EcoRaider / EcoVenger Bed Bug Killer — plant-based contact spray"
             blurb="The rare botanical bed bug spray with real university testing behind it. Built on geraniol and plant oils rather than a synthetic pyrethroid, it kills adults, nymphs, and — unusually — eggs on direct contact, and it does so through a mode of action the resistant bed bugs now common across North America have not adapted to. That makes it the pick for anyone who wants a lower-toxicity spray they can use in an occupied bedroom without conceding effectiveness. The honest trade-off is residual: the botanicals break down faster than a synthetic film, so it is a contact killer you spray thoroughly and repeat, not a set-and-forget barrier. Pair it with a desiccant dust for long residual and a steamer for the deep eggs, and it earns its place."
@@ -152,21 +155,21 @@ export default function EcoRaiderBedBugSprayReviewCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Plant-based (geraniol + oils) contact kill; ovicidal on contact</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Beats resistance</strong> &mdash; short residual</td>
                   <td className="px-4 py-3 text-xs text-gray-600">The natural spray with real testing; kills eggs on contact; repeat because it fades fast</td>
-                  <td className="px-4 py-3"><BuyLink search="ecoraider bed bug killer" block>Check price &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="ecoraider bed bug killer" block>Check price &rarr;</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Pyrethroid sprays<br /><span className="font-normal text-xs text-gray-500">most drugstore/hardware sprays</span></td>
                   <td className="px-4 py-3 text-gray-700">Synthetic neurotoxin &mdash; poisons the nervous system</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Resistance undercuts it</strong> &mdash; longer residual</td>
                   <td className="px-4 py-3 text-xs text-gray-600">Cheap and everywhere, but widespread resistance means many populations survive it</td>
-                  <td className="px-4 py-3"><BuyLink search="bed bug spray pyrethroid canada" block>Check price &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bed bug spray pyrethroid canada" block>Check price &rarr;</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Desiccant dust<br /><span className="font-normal text-xs text-gray-500">CimeXa silica gel</span></td>
                   <td className="px-4 py-3 text-gray-700">Physical desiccation &mdash; dries the bug out over days</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Resistance-proof</strong> &mdash; residual up to ~10 yr</td>
                   <td className="px-4 py-3 text-xs text-gray-600">No instant knockdown, but a near-permanent void barrier &mdash; the perfect partner to a spray</td>
-                  <td className="px-4 py-3"><BuyLink search="cimexa insecticide dust" block>Check price &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="cimexa insecticide dust" block>Check price &rarr;</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Grey-market US concentrates<br /><span className="font-normal text-xs text-gray-500">Crossfire, Temprid FX</span></td>
@@ -233,8 +236,8 @@ export default function EcoRaiderBedBugSprayReviewCanadaPage() {
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability (listed under either name):</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink search="ecoraider bed bug killer">EcoRaider on Amazon.ca &rarr;</BuyLink>
-            <BuyLink search="ecovenger bed bug killer">EcoVenger (rebrand) &rarr;</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="ecoraider bed bug killer">EcoRaider on Amazon.ca &rarr;</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="ecovenger bed bug killer">EcoVenger (rebrand) &rarr;</BuyLink>
           </div>
 
           <h2>The Rutgers Testing: Why This Natural Spray Is Different</h2>
@@ -270,7 +273,7 @@ export default function EcoRaiderBedBugSprayReviewCanadaPage() {
           <p>When does something else fit better? If your priority is a <strong>long-lasting barrier</strong> that keeps killing for months with no repeat effort, a desiccant dust in the cracks and voids does that job far better than any spray &mdash; put your money into <Link href="/blog/cimexa-bed-bug-review-canada">CimeXa</Link> or budget <Link href="/blog/diatomaceous-earth-for-bed-bugs">diatomaceous earth</Link> for the residual and use EcoRaider only for surface knockdown. If your real problem is <strong>eggs buried deep in seams and furniture</strong>, no spray reaches them and the money belongs in a <Link href="/blog/best-bed-bug-steamer-canada">steamer</Link> or <Link href="/blog/bed-bug-heater-canada">heater</Link>. And the way to overspend badly is to chase grey-market US concentrates because a forum called them &ldquo;stronger&rdquo; &mdash; they are frequently illegal to import into Canada and lean on the very chemistry the bugs already survive. Buy EcoRaider for what it is best at (low-toxicity contact and egg kill), pair it with a dust and heat, and skip the grey market entirely.</p>
 
           <div className="not-prose my-4">
-            <BuyLink search="ecoraider bed bug killer">Check EcoRaider / EcoVenger on Amazon.ca &rarr;</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="ecoraider bed bug killer">Check EcoRaider / EcoVenger on Amazon.ca &rarr;</BuyLink>
           </div>
 
           <h2>The Regulatory Angle: Minimum-Risk Is Not PMRA Registration</h2>

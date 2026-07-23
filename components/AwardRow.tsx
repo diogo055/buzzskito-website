@@ -16,10 +16,13 @@ export default function AwardRow({
   heading = 'Our Picks',
   awards,
   whichToBuy,
+  tag,
 }: {
   heading?: string
   awards: Award[]
   whichToBuy?: ReactNode
+  /** Optional per-cluster tracking ID (lib/amazon-clusters.ts) — applied to every card's CTA. */
+  tag?: string
 }) {
   if (awards.length === 0) return null
   return (
@@ -32,7 +35,7 @@ export default function AwardRow({
       )}
       <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {awards.map((a) => (
-          <AwardCard key={a.badge + a.name} {...a} />
+          <AwardCard key={a.badge + a.name} {...a} tag={tag} />
         ))}
       </div>
       {whichToBuy && (

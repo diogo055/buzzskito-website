@@ -7,6 +7,7 @@ import TopPick from '@/components/TopPick'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'blacklegged-deer-tick-ontario'
 const DATE = '2026-07-12'
@@ -56,6 +57,8 @@ export const metadata: Metadata = buildMetadata({
   publishedTime: DATE,
   modifiedTime: UPDATED,
 })
+
+const AMZ_TAG = tagForSlug('blacklegged-deer-tick-ontario')
 
 export default function BlackleggedDeerTickOntarioPage() {
   return (
@@ -224,9 +227,9 @@ export default function BlackleggedDeerTickOntarioPage() {
             <li><strong>Clean the bite</strong> with soap and water or rubbing alcohol afterward.</li>
             <li><strong>Save the tick</strong> in a sealed bag or take a sharp, well-lit photo, and write down the date. That record matters if symptoms appear.</li>
           </ol>
-          <p>A dedicated fine-tipped tool grips a poppy-seed-sized nymph far more reliably than household tweezers. <BuyLink search="tick removal tool tweezers">Check tick-removal tools on Amazon.ca →</BuyLink></p>
+          <p>A dedicated fine-tipped tool grips a poppy-seed-sized nymph far more reliably than household tweezers. <BuyLink tag={AMZ_TAG} search="tick removal tool tweezers">Check tick-removal tools on Amazon.ca →</BuyLink></p>
 
-          <TopPick
+          <TopPick tag={AMZ_TAG}
             label="Our Top Pick — Tick Removal"
             name="Fine-Tipped Tick Removal Tool Set"
             blurb="A dedicated tick-removal tool grips right at the mouthparts and lifts a poppy-seed-sized nymph out cleanly — the safe, steady-pressure removal public-health agencies recommend, and far more reliable than fumbling with household tweezers when speed matters."
