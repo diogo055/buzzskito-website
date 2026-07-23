@@ -189,7 +189,7 @@ export default function HowManyTimesCanAMosquitoBiteYouPage() {
 
           <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
             <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Stop counting bites &mdash; cut the mosquitoes instead</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">One female can bite you a dozen times before you ever swat her. A professional barrier spray knocks down the adult mosquitoes resting in your shrubs, shade, and fence lines, so there are far fewer around to feed in the first place. BuzzSkito protects GTA yards with single treatments from $99 and seasonal plans, backed by 129 five-star reviews.</p>
+            <p className="text-sm text-gray-700 mb-4 leading-relaxed">One female can bite you a dozen times before you ever swat her. A professional barrier spray knocks down the adult mosquitoes resting in your shrubs, shade, and fence lines, so there are far fewer around to feed in the first place. BuzzSkito protects GTA yards with single treatments from $99 and seasonal plans, backed by 150 five-star reviews.</p>
             <div className="flex flex-wrap items-center gap-4">
               <Link href="/mosquito-control" className="btn-primary-sm">Explore Mosquito Control &rarr;</Link>
               <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>

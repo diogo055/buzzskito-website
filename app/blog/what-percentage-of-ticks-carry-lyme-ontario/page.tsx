@@ -150,7 +150,7 @@ export default function TicksCarryLymeOntarioPage() {
 
           <aside aria-label="Professional tick control" className="not-prose my-8 rounded-2xl border-2 border-emerald-300 bg-gradient-to-br from-emerald-50 to-white p-6 sm:p-7 shadow-sm">
             <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Cut the ticks in your own yard</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">You can&rsquo;t change the infection rate, but you can shrink how many ticks live where your family walks. BuzzSkito&rsquo;s professional tick barrier spray targets the lawn-to-woods edges, leaf litter, and fence lines where blacklegged ticks concentrate — backed by 129 five-star reviews across 19 GTA cities.</p>
+            <p className="text-sm text-gray-700 mb-4 leading-relaxed">You can&rsquo;t change the infection rate, but you can shrink how many ticks live where your family walks. BuzzSkito&rsquo;s professional tick barrier spray targets the lawn-to-woods edges, leaf litter, and fence lines where blacklegged ticks concentrate — backed by 150 five-star reviews across 19 GTA cities.</p>
             <div className="flex flex-wrap items-center gap-4">
               <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote →</Link>
               <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>

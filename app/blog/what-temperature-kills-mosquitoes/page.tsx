@@ -178,7 +178,7 @@ export default function WhatTemperatureKillsMosquitoesPage() {
 
           <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
             <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Waiting for frost isn&rsquo;t a mosquito plan</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">Because eggs and hibernating females survive every Ontario winter, populations rebuild fast each spring. BuzzSkito&rsquo;s licensed barrier spray knocks down adults and treats resting zones all season &mdash; from $99, backed by 129 five-star reviews across 19 GTA cities.</p>
+            <p className="text-sm text-gray-700 mb-4 leading-relaxed">Because eggs and hibernating females survive every Ontario winter, populations rebuild fast each spring. BuzzSkito&rsquo;s licensed barrier spray knocks down adults and treats resting zones all season &mdash; from $99, backed by 150 five-star reviews across 19 GTA cities.</p>
             <div className="flex flex-wrap items-center gap-4">
               <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote &rarr;</Link>
               <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>

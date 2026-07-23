@@ -115,7 +115,7 @@ export default function BestAtvSprayerForTickYardCanadaPage() {
               <li>Use a UV-stabilised poly tank and agitation if your product is a wettable powder.</li>
               <li>Only spray products with a Canadian PCP registration number &mdash; US bifenthrin/permethrin yard concentrates are not registered here.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 129 five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150 five-star Google reviews</p>
           </div>
         </div>
       </section>
@@ -316,7 +316,7 @@ export default function BestAtvSprayerForTickYardCanadaPage() {
 
           <aside aria-label="Professional tick control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
             <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Or let us handle the perimeter</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">BuzzSkito&rsquo;s licensed tick program treats the wooded edge and leaf litter with commercial-class registered product &mdash; five perimeter sprays a season, backed by 129 five-star reviews across 19 GTA cities. No rig to buy, tow, or store.</p>
+            <p className="text-sm text-gray-700 mb-4 leading-relaxed">BuzzSkito&rsquo;s licensed tick program treats the wooded edge and leaf litter with commercial-class registered product &mdash; five perimeter sprays a season, backed by 150 five-star reviews across 19 GTA cities. No rig to buy, tow, or store.</p>
             <div className="flex flex-wrap items-center gap-4">
               <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote &rarr;</Link>
               <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
@@ -364,7 +364,7 @@ export default function BestAtvSprayerForTickYardCanadaPage() {
         </div>
       </article>
 
-      <CTASection heading="Skip the Rig · Get a Licensed Tick Barrier" subtext="Get a free quote for a licensed tick perimeter treatment — five sprays a season, targeted at the wooded edge and leaf litter where ticks actually live. 129 five-star reviews across the GTA." variant="dark" />
+      <CTASection heading="Skip the Rig · Get a Licensed Tick Barrier" subtext="Get a free quote for a licensed tick perimeter treatment — five sprays a season, targeted at the wooded edge and leaf litter where ticks actually live. 150 five-star reviews across the GTA." variant="dark" />
     </>
   )
 }

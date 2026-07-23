@@ -272,7 +272,7 @@ export default function PestProductGuidesPage() {
           </h1>
           <p className="mt-5 max-w-3xl text-lg leading-relaxed text-brand-100 sm:text-xl">For mosquitoes &amp; ticks, this is the gear our licensed GTA technicians actually recommend. For every other household pest, it&rsquo;s independent Canadian product research — we don&rsquo;t treat those, we just help you find what works and what&rsquo;s legal here.</p>
           <p className="mt-4 flex flex-wrap items-center gap-x-3 gap-y-1 text-sm text-brand-200">
-            <span className="inline-flex items-center gap-1.5"><span className="text-amber-300">★★★★★</span> 129 five-star reviews</span>
+            <span className="inline-flex items-center gap-1.5"><span className="text-amber-300">★★★★★</span> 150 five-star reviews</span>
             <span className="text-brand-600">·</span>
             <span>Licensed GTA mosquito &amp; tick control</span>
             <span className="text-brand-600">·</span>
@@ -307,7 +307,7 @@ export default function PestProductGuidesPage() {
                 'The only two pests BuzzSkito treats as a service are mosquitoes and ticks, across 19+ GTA cities.',
               ].map((b) => (<li key={b} className="flex gap-2"><span className="mt-0.5 text-emerald-500" aria-hidden="true">▸</span><span>{b}</span></li>))}
             </ul>
-            <p className="mt-4 text-xs text-gray-500">— BuzzSkito Mosquito &amp; Tick Control · 129 five-star Google reviews · independent product research</p>
+            <p className="mt-4 text-xs text-gray-500">— BuzzSkito Mosquito &amp; Tick Control · 150 five-star Google reviews · independent product research</p>
           </div>
           <div className="mt-5"><SpecialistDisclosure pest="most household pests" /></div>
         </div>
@@ -369,7 +369,7 @@ export default function PestProductGuidesPage() {
           <aside aria-label="Services BuzzSkito provides" className="rounded-3xl border-2 border-emerald-300 bg-gradient-to-br from-emerald-50 to-white p-6 shadow-sm sm:p-8">
             <p className="mb-2 text-xs font-extrabold uppercase tracking-wider text-emerald-700">The pests we actually treat</p>
             <h2 className="mb-3 text-2xl font-extrabold text-brand-900">Want it handled for you? We treat mosquitoes and ticks.</h2>
-            <p className="mb-5 max-w-2xl text-sm leading-relaxed text-gray-700">Product guides are great for DIY. But for whole-yard mosquito and tick coverage across a full season, BuzzSkito&rsquo;s licensed barrier spray does what no consumer product can — same-day protection with weeks of residual, backed by 129 five-star reviews across 19+ GTA cities.</p>
+            <p className="mb-5 max-w-2xl text-sm leading-relaxed text-gray-700">Product guides are great for DIY. But for whole-yard mosquito and tick coverage across a full season, BuzzSkito&rsquo;s licensed barrier spray does what no consumer product can — same-day protection with weeks of residual, backed by 150 five-star reviews across 19+ GTA cities.</p>
             <div className="flex flex-wrap gap-3">
               <Link href="/mosquito-control" className="btn-primary-sm">Professional mosquito control →</Link>
               <Link href="/tick-control" className="btn-primary-sm">Professional tick control →</Link>

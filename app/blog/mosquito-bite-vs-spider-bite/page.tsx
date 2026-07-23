@@ -213,7 +213,7 @@ export default function MosquitoBiteVsSpiderBitePage() {
         </div>
       </article>
 
-      <CTASection heading="Fewer mosquitoes. Fewer bites to worry about." subtext="Get a free quote for licensed barrier spray. From $99. Same-day yard protection. 21–30 day residual. 129 five-star reviews across the GTA." variant="dark" />
+      <CTASection heading="Fewer mosquitoes. Fewer bites to worry about." subtext="Get a free quote for licensed barrier spray. From $99. Same-day yard protection. 21–30 day residual. 150 five-star reviews across the GTA." variant="dark" />
     </>
   )
 }

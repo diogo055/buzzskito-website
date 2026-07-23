@@ -121,7 +121,7 @@ export default function HowToCombatMosquitoesPage() {
 
           <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
             <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Let us handle step 9 for you</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">BuzzSkito&rsquo;s licensed barrier spray covers your whole yard from $99 — same-day protection, up to 30-day residual, 129 five-star reviews across 19 GTA cities.</p>
+            <p className="text-sm text-gray-700 mb-4 leading-relaxed">BuzzSkito&rsquo;s licensed barrier spray covers your whole yard from $99 — same-day protection, up to 30-day residual, 150 five-star reviews across 19 GTA cities.</p>
             <div className="flex flex-wrap items-center gap-4">
               <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote →</Link>
               <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>

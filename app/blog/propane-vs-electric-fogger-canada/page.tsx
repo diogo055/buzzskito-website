@@ -115,7 +115,7 @@ export default function PropaneVsElectricFoggerCanadaPage() {
               <li>Foggers target flying/resting mosquitoes &mdash; they do little for ticks, which sit low in leaf litter.</li>
               <li><strong>Use only a PMRA-registered fog solution.</strong> Many US fogging liquids are grey-market and not legal in Canada.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 129 five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150 five-star Google reviews</p>
           </div>
         </div>
       </section>
@@ -296,7 +296,7 @@ export default function PropaneVsElectricFoggerCanadaPage() {
 
           <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
             <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Or skip the fuel, the fog, and the guesswork</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">BuzzSkito&rsquo;s licensed barrier spray covers your whole GTA yard from $99 &mdash; correctly calibrated equipment, registered products, 21&ndash;30-day residual, and it controls ticks too. Backed by 129 five-star reviews across 19 cities.</p>
+            <p className="text-sm text-gray-700 mb-4 leading-relaxed">BuzzSkito&rsquo;s licensed barrier spray covers your whole GTA yard from $99 &mdash; correctly calibrated equipment, registered products, 21&ndash;30-day residual, and it controls ticks too. Backed by 150 five-star reviews across 19 cities.</p>
             <div className="flex flex-wrap items-center gap-4">
               <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote →</Link>
               <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>

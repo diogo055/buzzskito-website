@@ -223,7 +223,7 @@ export default function WhenToWorryMosquitoBitePage() {
         </div>
       </article>
 
-      <CTASection heading="Fewer bites, fewer worries" subtext="Cut mosquito pressure around your yard with licensed barrier spray. From $99. Serving 19 GTA cities with 129 five-star reviews." variant="dark" />
+      <CTASection heading="Fewer bites, fewer worries" subtext="Cut mosquito pressure around your yard with licensed barrier spray. From $99. Serving 19 GTA cities with 150 five-star reviews." variant="dark" />
     </>
   )
 }

@@ -191,7 +191,7 @@ export default function WhatColorsAttractMosquitoesPage() {
 
           <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
             <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Stop dressing around the problem</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">No shirt colour beats a treated yard. BuzzSkito&rsquo;s professional barrier spray covers your whole property from $99 &mdash; killing mosquitoes on contact and for 21&ndash;30 days after. Backed by 129 five-star reviews across 19 GTA cities.</p>
+            <p className="text-sm text-gray-700 mb-4 leading-relaxed">No shirt colour beats a treated yard. BuzzSkito&rsquo;s professional barrier spray covers your whole property from $99 &mdash; killing mosquitoes on contact and for 21&ndash;30 days after. Backed by 150 five-star reviews across 19 GTA cities.</p>
             <div className="flex flex-wrap items-center gap-4">
               <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote &rarr;</Link>
               <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>

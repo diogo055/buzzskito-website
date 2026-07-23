@@ -307,7 +307,7 @@ export default function BugProtectiveClothingCanadaPage() {
         </div>
       </article>
 
-      <CTASection heading="Mesh Protects You on the Trail — We Protect Your Yard" subtext="Licensed barrier spray from $99. Same-day yard protection across 19+ GTA cities. 129 five-star reviews." variant="dark" />
+      <CTASection heading="Mesh Protects You on the Trail — We Protect Your Yard" subtext="Licensed barrier spray from $99. Same-day yard protection across 19+ GTA cities. 150 five-star reviews." variant="dark" />
     </>
   )
 }

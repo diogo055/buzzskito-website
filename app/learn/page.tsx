@@ -91,7 +91,7 @@ export default function LearnHubPage() {
       <section className="pb-14 px-4 bg-white">
         <div className="max-w-4xl mx-auto rounded-2xl bg-brand-50 border border-brand-100 p-6 sm:p-7">
           <h2 className="text-lg font-extrabold text-brand-900 mb-2">Ready to put it into practice?</h2>
-          <p className="text-sm text-gray-700 leading-relaxed mb-4">Reading is step one — a professional barrier spray does the heavy lifting. BuzzSkito treats mosquitoes and ticks across 19 GTA cities, backed by 129 five-star reviews.</p>
+          <p className="text-sm text-gray-700 leading-relaxed mb-4">Reading is step one — a professional barrier spray does the heavy lifting. BuzzSkito treats mosquitoes and ticks across 19 GTA cities, backed by 150 five-star reviews.</p>
           <div className="flex flex-wrap gap-3">
             <Link href="/mosquito-control" className="btn-primary-sm">Mosquito Control</Link>
             <Link href="/tick-control" className="inline-flex items-center rounded-full border-2 border-brand-700 text-brand-700 font-bold px-4 py-2 text-sm hover:bg-brand-700 hover:text-white transition-colors">Tick Control</Link>

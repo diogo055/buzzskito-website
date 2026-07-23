@@ -267,7 +267,7 @@ export default function FlowtronBugZapperCanadaPage() {
 
           <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
             <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Want the mosquitoes actually gone?</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">A zapper handles moths; a barrier spray handles the biting. BuzzSkito treats your whole yard&rsquo;s vegetation from $99 for a single visit — and our tick program runs $597/season standalone or $497 bundled with any mosquito plan. Serving 19 GTA cities with 129 five-star reviews.</p>
+            <p className="text-sm text-gray-700 mb-4 leading-relaxed">A zapper handles moths; a barrier spray handles the biting. BuzzSkito treats your whole yard&rsquo;s vegetation from $99 for a single visit — and our tick program runs $597/season standalone or $497 bundled with any mosquito plan. Serving 19 GTA cities with 150 five-star reviews.</p>
             <div className="flex flex-wrap items-center gap-4">
               <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote →</Link>
               <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>

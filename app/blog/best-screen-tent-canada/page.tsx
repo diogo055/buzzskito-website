@@ -328,7 +328,7 @@ export default function BestScreenTentCanadaPage() {
         </div>
       </article>
 
-      <CTASection heading="Mesh Protects the Table — We Protect the Yard" subtext="Licensed barrier spray from $99. Same-day yard protection across 19+ GTA cities. 129 five-star reviews." variant="dark" />
+      <CTASection heading="Mesh Protects the Table — We Protect the Yard" subtext="Licensed barrier spray from $99. Same-day yard protection across 19+ GTA cities. 150 five-star reviews." variant="dark" />
     </>
   )
 }

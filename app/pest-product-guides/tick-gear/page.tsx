@@ -130,7 +130,7 @@ export default function TickGearGuidePage() {
             <>Remove an attached tick with fine-tipped tweezers or a tick tool, pulling straight up &mdash; never twist, burn, or smother it.</>,
             <>Professional barrier spray reaches the exact edge microhabitats DIY sprays miss and holds a residual for roughly 30 days.</>,
           ],
-          attribution: '— BuzzSkito, GTA mosquito & tick control · 129 five-star Google reviews',
+          attribution: '— BuzzSkito, GTA mosquito & tick control · 150 five-star Google reviews',
         }}
         serviceTieIn={{
           heading: 'We actually treat ticks',

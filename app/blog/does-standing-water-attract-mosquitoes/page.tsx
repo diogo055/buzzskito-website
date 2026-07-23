@@ -205,7 +205,7 @@ export default function StandingWaterMosquitoesPage() {
 
           <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
             <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Dumped every container and still getting bitten?</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">That is the adults flying in from off your property. BuzzSkito&rsquo;s barrier spray treats the shaded vegetation they rest on, from $99 — backed by 129 five-star reviews across 19 GTA cities.</p>
+            <p className="text-sm text-gray-700 mb-4 leading-relaxed">That is the adults flying in from off your property. BuzzSkito&rsquo;s barrier spray treats the shaded vegetation they rest on, from $99 — backed by 150 five-star reviews across 19 GTA cities.</p>
             <div className="flex flex-wrap items-center gap-4">
               <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote →</Link>
               <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
@@ -266,7 +266,7 @@ export default function StandingWaterMosquitoesPage() {
         </div>
       </article>
 
-      <CTASection heading="Dump the Water · We&rsquo;ll Handle the Rest" subtext="Get a free quote for professional yard barrier spray. From $99. Same-day protection. 129 five-star reviews." variant="dark" />
+      <CTASection heading="Dump the Water · We&rsquo;ll Handle the Rest" subtext="Get a free quote for professional yard barrier spray. From $99. Same-day protection. 150 five-star reviews." variant="dark" />
     </>
   )
 }

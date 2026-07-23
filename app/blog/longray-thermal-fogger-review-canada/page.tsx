@@ -114,7 +114,7 @@ export default function LongrayThermalFoggerReviewCanadaPage() {
               <li>In Canada you may only fog PMRA-registered products labelled for thermal fogging; US grey-market fogging concentrates are illegal here.</li>
               <li>It runs on gasoline with a very hot barrel &mdash; real fire, burn, and inhalation risk demands proper PPE and cool-down.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 129 five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150 five-star Google reviews</p>
           </div>
         </div>
       </section>
@@ -282,7 +282,7 @@ export default function LongrayThermalFoggerReviewCanadaPage() {
 
           <aside aria-label="Professional mosquito and tick control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
             <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Or skip the fogger, the fuel, and the PPE</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">BuzzSkito&rsquo;s licensed technicians apply commercial-class barrier spray &mdash; the product class homeowners can&rsquo;t buy &mdash; from $99 for a single treatment, with tick protection at $597/season standalone or $497 bundled with any mosquito plan. Whole-yard, 21&ndash;30 day residual, and it controls ticks too. Serving 19 GTA cities, backed by 129 five-star Google reviews.</p>
+            <p className="text-sm text-gray-700 mb-4 leading-relaxed">BuzzSkito&rsquo;s licensed technicians apply commercial-class barrier spray &mdash; the product class homeowners can&rsquo;t buy &mdash; from $99 for a single treatment, with tick protection at $597/season standalone or $497 bundled with any mosquito plan. Whole-yard, 21&ndash;30 day residual, and it controls ticks too. Serving 19 GTA cities, backed by 150 five-star Google reviews.</p>
             <div className="flex flex-wrap items-center gap-4">
               <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote →</Link>
               <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>

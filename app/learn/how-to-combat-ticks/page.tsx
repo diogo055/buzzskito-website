@@ -126,7 +126,7 @@ export default function HowToCombatTicksPage() {
 
           <aside aria-label="Professional tick control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
             <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Let us handle step 10 for you</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">BuzzSkito treats the exact yard-edge zones where ticks quest — 5 sprays per season, Health Canada-approved formula, 129 five-star reviews across the GTA.</p>
+            <p className="text-sm text-gray-700 mb-4 leading-relaxed">BuzzSkito treats the exact yard-edge zones where ticks quest — 5 sprays per season, Health Canada-approved formula, 150 five-star reviews across the GTA.</p>
             <div className="flex flex-wrap items-center gap-4">
               <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote →</Link>
               <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
