@@ -10,7 +10,7 @@ export default function Footer() {
   const tickCities = CITIES.map((c) => ({ name: c.name, href: c.tickSlug }))
 
   return (
-    <footer className="ink-band text-brand-300" role="contentinfo">
+    <footer className="ink-band text-brand-300 relative z-10" role="contentinfo">
       {/* localBusinessSchema is emitted per-page (with city-specific areaServed) — not in Footer to avoid duplicate aggregateRating. */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 py-16">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 gap-8">

@@ -40,7 +40,7 @@ export default function PressMentionBanner() {
   return (
     <aside
       aria-label="Press mentions"
-      className="bg-gradient-to-r from-amber-50 via-white to-amber-50 border-b border-amber-200/60"
+      className="relative z-10 bg-gradient-to-r from-amber-50 via-white to-amber-50 border-b border-amber-200/60"
     >
       <div className="max-w-7xl mx-auto px-4 py-2 sm:py-2.5">
         <div className="flex flex-col sm:flex-row items-center justify-center gap-1.5 sm:gap-5 text-center">

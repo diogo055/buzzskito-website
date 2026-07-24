@@ -18,11 +18,30 @@ export default function QuickAnswer({
   question,
   children,
   className = '',
+  dark = false,
 }: {
   question: string
   children: React.ReactNode
   className?: string
+  /** Renders as a lifted surface on the dark one-canvas pages. */
+  dark?: boolean
 }) {
+  if (dark) {
+    return (
+      <section className={`pt-8 pb-4 px-4 ${className}`} aria-label="Quick answer">
+        <div className="max-w-4xl mx-auto rounded-2xl surface-1 border-l-4 !border-l-amber-400 p-5 sm:p-8">
+          <p className="mb-2 inline-flex items-center gap-1.5 text-xs font-extrabold uppercase tracking-[0.18em] text-amber-400">
+            <Icon name="zap" className="h-3.5 w-3.5" />
+            Quick Answer
+          </p>
+          <h2 className="font-display text-xl sm:text-2xl font-extrabold tracking-tight text-white mb-3">{question}</h2>
+          <div className="speakable text-base text-[#c3cde2] leading-relaxed [&_strong]:text-white">
+            {children}
+          </div>
+        </div>
+      </section>
+    )
+  }
   return (
     <section className={`py-10 px-4 bg-white ${className}`} aria-label="Quick answer">
       <div className="max-w-4xl mx-auto rounded-2xl border border-gray-200 border-l-4 border-l-amber-400 bg-white p-7 sm:p-8 shadow-sm">

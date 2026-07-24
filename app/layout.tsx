@@ -1,9 +1,10 @@
 import type { Metadata, Viewport } from 'next'
-import { Inter, Bricolage_Grotesque } from 'next/font/google'
+import { Inter, Bricolage_Grotesque, Fraunces } from 'next/font/google'
 import Script from 'next/script'
 import { SpeedInsights } from '@vercel/speed-insights/next'
 import './globals.css'
 import Header from '@/components/Header'
+import SmoothScroll from '@/components/SmoothScroll'
 import Footer from '@/components/Footer'
 import StickyRiskCTA from '@/components/StickyRiskCTA'
 import PressMentionBanner from '@/components/PressMentionBanner'
@@ -24,6 +25,17 @@ const bricolage = Bricolage_Grotesque({
   weight: ['700', '800'],
   display: 'swap',
   variable: '--font-display',
+})
+
+// Editorial italic serif — used ONLY for single accent lines/words inside
+// display headings (the research-backed "one serif accent" premium cue).
+// One italic weight, latin subset, swap-loaded: tiny and CLS-free.
+const fraunces = Fraunces({
+  subsets: ['latin'],
+  weight: ['600'],
+  style: ['italic'],
+  display: 'swap',
+  variable: '--font-accent',
 })
 
 export const metadata: Metadata = {
@@ -86,7 +98,7 @@ export const viewport: Viewport = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en-CA" className={`${inter.variable} ${bricolage.variable}`}>
+    <html lang="en-CA" className={`${inter.variable} ${bricolage.variable} ${fraunces.variable}`}>
       <head>
         {/* Motion gate: scroll-reveal initial-hidden CSS only applies under
             html.anim, so no-JS users and HTML crawlers always see full content.
@@ -114,6 +126,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <link rel="dns-prefetch" href="//d3ey4dbjkt2f6s.cloudfront.net" />
       </head>
       <body className="bg-white text-gray-900 antialiased min-h-screen flex flex-col font-sans pb-16 sm:pb-0">
+        <SmoothScroll />
         <Header />
         <PressMentionBanner />
         <main id="main-content" className="flex-1" tabIndex={-1}>

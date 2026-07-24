@@ -20,10 +20,6 @@
 .pac-item-query { font-weight: 600 !important; color: #111827 !important; }
 
 @layer base {
-  :root {
-    scroll-behavior: smooth;
-  }
-
   html {
     scrollbar-gutter: stable;
   }
@@ -81,10 +77,17 @@
      sheen sweep + press feedback + gentle hover rise (compositor-only).
      .btn-ghost — secondary outline. */
   .btn-primary {
-    @apply relative inline-flex items-center justify-center gap-2 rounded-full bg-gradient-to-b from-amber-500 to-amber-600 px-8 py-4 text-lg font-extrabold text-white shadow-lg shadow-amber-900/25 transition-[transform,box-shadow] duration-300 hover:-translate-y-0.5 hover:shadow-xl hover:shadow-amber-900/30;
+    @apply relative inline-flex items-center justify-center gap-2 rounded-full px-8 py-4 text-lg font-extrabold text-white transition-[transform,box-shadow] duration-300 hover:-translate-y-0.5;
+    background-image: linear-gradient(180deg, #fbbf24 0%, #f59e0b 55%, #d97706 100%);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), inset 0 -1px 0 rgba(120, 53, 15, 0.35), 0 10px 28px -8px rgba(217, 119, 6, 0.5);
+  }
+  .btn-primary:hover {
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), inset 0 -1px 0 rgba(120, 53, 15, 0.35), 0 16px 36px -8px rgba(217, 119, 6, 0.6);
   }
   .btn-primary-sm {
-    @apply relative inline-flex items-center justify-center gap-2 rounded-full bg-gradient-to-b from-amber-500 to-amber-600 px-5 py-2.5 text-sm font-bold text-white shadow-md shadow-amber-900/20 transition-[transform,box-shadow] duration-300 hover:-translate-y-0.5 hover:shadow-lg;
+    @apply relative inline-flex items-center justify-center gap-2 rounded-full px-5 py-2.5 text-sm font-bold text-white transition-[transform,box-shadow] duration-300 hover:-translate-y-0.5;
+    background-image: linear-gradient(180deg, #fbbf24 0%, #f59e0b 55%, #d97706 100%);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), inset 0 -1px 0 rgba(120, 53, 15, 0.35), 0 8px 22px -8px rgba(217, 119, 6, 0.45);
   }
   .btn-ghost {
     @apply inline-flex items-center justify-center gap-2 rounded-full border-2 px-8 py-4 text-lg font-bold transition-colors;
@@ -103,7 +106,173 @@
     @apply text-xs font-extrabold uppercase tracking-[0.2em] text-amber-400;
   }
   .h2-display {
-    @apply font-display text-3xl sm:text-4xl lg:text-[2.75rem] font-extrabold tracking-tight leading-[1.1];
+    @apply font-display font-extrabold;
+    font-size: clamp(2.125rem, 1.35rem + 3.4vw, 3.625rem);
+    letter-spacing: -0.035em;
+    line-height: 1.04;
+    text-wrap: balance;
+  }
+
+  /* ── Two-tier section rhythm — kills the uniform py-16 metronome.
+     Major = flagship moments (services, reviews, story, guarantee, closer);
+     minor = supporting bands. Editorial pacing instead of template stripes. */
+  .section-major { padding-block: clamp(5rem, 6vw + 3rem, 9rem); }
+  .section-minor { padding-block: clamp(3.5rem, 4vw + 2rem, 5.5rem); }
+  /* Phones get a denser rhythm — the desktop clamps read as dead air on a
+     375px-wide screen where every band is one viewport tall. */
+  @media (max-width: 639px) {
+    .section-major { padding-block: 3.25rem; }
+    .section-minor { padding-block: 2.5rem; }
+  }
+
+  /* ── Lit surfaces — no flat #fff/#FAF7F2 planes between graded dark bands.
+     A 2-3% ambient wash reads as "designed light", not defaulted background. */
+  .paper-band {
+    background-color: #ffffff;
+    background-image:
+      radial-gradient(90% 55% at 50% 0%, #f8fafc 0%, rgba(248, 250, 252, 0) 60%),
+      radial-gradient(40% 45% at 100% 100%, rgba(239, 246, 255, 0.7), transparent 70%);
+  }
+  .cream-band {
+    background-color: #faf7f2;
+    background-image: radial-gradient(80% 50% at 50% 0%, #fffdf9, transparent 65%);
+  }
+
+  /* ── ONE-CANVAS SYSTEM — the whole homepage sits on a single near-black
+     navy floor; hierarchy comes from lifted surfaces (+3-7% brightness,
+     hairline borders, top-edge highlight), never from background stripes
+     or drop shadows. ── */
+  .surface-1 {
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.06);
+  }
+  .surface-2 {
+    background: rgba(255, 255, 255, 0.07);
+    border: 1px solid rgba(255, 255, 255, 0.13);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.08);
+  }
+  /* ── Mobile card-deck — bento cards stack over each other as you scroll ── */
+  @media (max-width: 639px) {
+    .bento-deck > * { position: sticky; background: #0c1424; }
+    .bento-deck > *:nth-child(1) { top: 5rem; }
+    .bento-deck > *:nth-child(2) { top: 5.75rem; }
+    .bento-deck > *:nth-child(3) { top: 6.5rem; }
+    .bento-deck > *:nth-child(4) { top: 7.25rem; }
+    .bento-deck > *:nth-child(5) { top: 8rem; }
+    .bento-deck > *:nth-child(6) { top: 8.75rem; }
+  }
+
+  /* Dark-canvas hover: cards brighten and lift — no muddy shadows */
+  .surface-1.hover-lift:hover,
+  .surface-2.hover-lift:hover {
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    border-color: rgba(255, 255, 255, 0.22);
+    background: rgba(255, 255, 255, 0.06);
+  }
+
+  /* ── DUSK SCENE — the backyard-at-dusk backdrop (see DuskScene.tsx).
+     Sky/horizon interpolate in oklab (no gray midpoints); stars are masked
+     to the upper sky; grain is 256px overlay-blend (banding killer). ── */
+  .dusk-sky {
+    background: linear-gradient(to bottom in oklab,
+      #01030a 0%, #040816 20%, #081026 38%, #0d1732 52%, #131f42 64%,
+      #1c2450 74%, #242850 82%, #33304e 90%, #453a48 96%, #57433c 100%);
+  }
+  .dusk-horizon {
+    background: radial-gradient(140% 55% at 50% 102%,
+      rgba(245, 166, 35, 0.16) 0%, rgba(245, 166, 35, 0.12) 18%,
+      rgba(240, 150, 40, 0.07) 38%, rgba(230, 130, 50, 0.03) 58%,
+      rgba(220, 120, 60, 0.008) 76%, transparent 88%);
+  }
+  .dusk-stars {
+    background-image:
+      radial-gradient(1px 1px at 15% 20%, rgba(255,255,255,0.55), transparent),
+      radial-gradient(1px 1px at 60% 8%, rgba(255,255,255,0.45), transparent),
+      radial-gradient(1.5px 1.5px at 82% 32%, rgba(220,230,255,0.4), transparent),
+      radial-gradient(1px 1px at 38% 41%, rgba(255,255,255,0.35), transparent),
+      radial-gradient(1px 1px at 92% 14%, rgba(255,255,255,0.5), transparent),
+      radial-gradient(1px 1px at 8% 34%, rgba(255,255,255,0.3), transparent),
+      radial-gradient(1px 1px at 47% 26%, rgba(255,255,255,0.4), transparent);
+    background-size: 520px 340px;
+    background-repeat: repeat;
+    opacity: 0.5;
+    mask-image: linear-gradient(to bottom, #000 0%, #000 32%, transparent 52%);
+    -webkit-mask-image: linear-gradient(to bottom, #000 0%, #000 32%, transparent 52%);
+  }
+  .dusk-vignette {
+    background: radial-gradient(120% 85% at 50% 38%, transparent 55%, rgba(2, 4, 10, 0.45) 100%);
+  }
+  .dusk-grain {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+    background-size: 256px 256px;
+    mix-blend-mode: overlay;
+    opacity: 0.4;
+  }
+
+  .btn-ghost-light {
+    @apply inline-flex items-center justify-center gap-2 rounded-full border px-6 py-3 font-bold text-white transition-colors;
+    border-color: rgba(255, 255, 255, 0.25);
+  }
+  .btn-ghost-light:hover { background: #ffffff; color: #172554; }
+
+  /* ── Lit blue secondary button — same machined material as the amber primary */
+  .btn-brand {
+    @apply relative inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 font-bold text-white transition-[transform,box-shadow] duration-300 hover:-translate-y-0.5;
+    background-image: linear-gradient(180deg, #2563eb 0%, #1d4ed8 60%, #1e40af 100%);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.22), 0 8px 22px -8px rgba(30, 64, 175, 0.45);
+  }
+
+  /* Oversized outlined marquee text — the big editorial brand band.
+     Stroke-only glyphs where supported; soft solid fallback elsewhere. */
+  .outline-text {
+    color: rgba(11, 22, 40, 0.14);
+  }
+  @supports (-webkit-text-stroke: 1px black) {
+    .outline-text {
+      color: transparent;
+      -webkit-text-stroke: 1.5px rgba(11, 22, 40, 0.22);
+    }
+  }
+  .outline-text-amber { color: #f59e0b !important; -webkit-text-stroke: 0 !important; }
+  .outline-text-light { color: rgba(255, 255, 255, 0.1); }
+  @supports (-webkit-text-stroke: 1px black) {
+    .outline-text-light {
+      color: transparent;
+      -webkit-text-stroke: 1.5px rgba(255, 255, 255, 0.28);
+    }
+  }
+
+  /* Editorial italic-serif accent — for ONE line/word inside a display
+     heading. The single cheapest "someone art-directed this" cue. */
+  .accent-serif {
+    font-family: var(--font-accent), Georgia, serif;
+    font-style: italic;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+  }
+
+  /* Ghost index numeral behind section headings ("01", "02" …) — the
+     repeated ritual that makes a page read composed. Decorative only. */
+  .ghost-num {
+    @apply pointer-events-none select-none absolute -top-10 right-0 font-display font-extrabold leading-none;
+    font-size: clamp(4.5rem, 9vw, 8rem);
+    color: rgba(11, 22, 40, 0.05);
+  }
+  .ghost-num-light { color: rgba(255, 255, 255, 0.05); }
+
+  /* Overlapping rounded section top — pulls a section up over the previous
+     one so the page reads as layered cards instead of flat stripes. */
+  .section-overlap {
+    @apply relative -mt-10 rounded-t-[2.5rem];
+    box-shadow: 0 -14px 32px -22px rgba(11, 22, 40, 0.22);
+  }
+
+  /* Below-fold render skip — browser skips layout/paint until near viewport.
+     contain-intrinsic-size reserves space so scrollbar/CLS stay stable. */
+  .cv-auto {
+    content-visibility: auto;
+    contain-intrinsic-size: auto 640px;
   }
 
   /* Dark ink band with a subtle top radial glow — depth without noise */
@@ -132,14 +301,17 @@
   /* ── Scroll reveal (used with components/Reveal.tsx) ── */
   html.anim .reveal {
     opacity: 0;
-    transform: translateY(18px);
-    transition: opacity 0.65s cubic-bezier(0.22, 1, 0.36, 1),
-                transform 0.65s cubic-bezier(0.22, 1, 0.36, 1);
-    will-change: opacity, transform;
+    transform: translateY(16px) scale(0.985);
+    filter: blur(5px);
+    transition: opacity 0.7s cubic-bezier(0.22, 1, 0.36, 1),
+                transform 0.7s cubic-bezier(0.22, 1, 0.36, 1),
+                filter 0.7s cubic-bezier(0.22, 1, 0.36, 1);
+    will-change: opacity, transform, filter;
   }
   html.anim .reveal.in-view {
     opacity: 1;
-    transform: translateY(0);
+    transform: translateY(0) scale(1);
+    filter: blur(0);
     will-change: auto;
   }
   /* Stagger delays for sibling reveals */
@@ -150,21 +322,147 @@
   html.anim .rd-5 { transition-delay: 0.40s; }
   html.anim .rd-6 { transition-delay: 0.48s; }
 
-  /* ── Button sheen — diagonal light sweep on hover/focus ── */
+  /* ── Button sheen — diagonal light sweep. Transform-based so it can also
+        auto-fire (.btn-attn) for the touch-majority who never hover. ── */
   .btn-sheen, .btn-primary, .btn-primary-sm { position: relative; overflow: hidden; }
   .btn-sheen::after, .btn-primary::after, .btn-primary-sm::after {
     content: '';
     position: absolute;
-    top: 0; left: -80%;
-    width: 50%; height: 100%;
+    top: 0; left: 0;
+    width: 60%; height: 100%;
     background: linear-gradient(105deg, transparent, rgba(255,255,255,0.45), transparent);
-    transform: skewX(-20deg);
-    transition: left 0.6s ease;
+    transform: translateX(-170%) skewX(-20deg);
+    transition: transform 0.6s ease;
     pointer-events: none;
   }
   .btn-sheen:hover::after, .btn-sheen:focus-visible::after,
   .btn-primary:hover::after, .btn-primary:focus-visible::after,
-  .btn-primary-sm:hover::after, .btn-primary-sm:focus-visible::after { left: 130%; }
+  .btn-primary-sm:hover::after, .btn-primary-sm:focus-visible::after { transform: translateX(340%) skewX(-20deg); }
+  /* Auto-sheen on hero + closing CTAs: one quiet glint every 6s */
+  .btn-attn::after { animation: sheen-auto 6s ease-in-out 2.5s infinite; }
+  @keyframes sheen-auto {
+    0%, 82%  { transform: translateX(-170%) skewX(-20deg); }
+    92%, 100% { transform: translateX(340%) skewX(-20deg); }
+  }
+
+  /* ── Star pop-in — the 5.0 proof moment (stars spring in one by one) ── */
+  html.anim .reveal .star-pop { opacity: 0; transform: scale(0.3); }
+  html.anim .reveal.in-view .star-pop {
+    opacity: 1; transform: scale(1);
+    transition: transform 0.5s cubic-bezier(0.34, 1.56, 0.64, 1), opacity 0.25s ease;
+  }
+  html.anim .reveal.in-view .star-pop:nth-child(1) { transition-delay: 0.35s; }
+  html.anim .reveal.in-view .star-pop:nth-child(2) { transition-delay: 0.42s; }
+  html.anim .reveal.in-view .star-pop:nth-child(3) { transition-delay: 0.49s; }
+  html.anim .reveal.in-view .star-pop:nth-child(4) { transition-delay: 0.56s; }
+  html.anim .reveal.in-view .star-pop:nth-child(5) { transition-delay: 0.63s; }
+
+  /* ── Longer-travel reveal for the floating stat card ── */
+  html.anim .reveal-far.reveal { transform: translateY(28px); }
+
+  /* ── Guarantee seal: spring stamp-down, then chips rise ── */
+  html.anim .reveal .seal-pop { opacity: 0; transform: scale(0.55); }
+  html.anim .reveal.in-view .seal-pop {
+    opacity: 1; transform: scale(1);
+    transition: transform 0.8s cubic-bezier(0.34, 1.56, 0.64, 1), opacity 0.3s ease;
+  }
+  html.anim .reveal .chip-rise { opacity: 0; transform: translateY(12px); }
+  html.anim .reveal.in-view .chip-rise {
+    opacity: 1; transform: none;
+    transition: transform 0.55s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.3s ease;
+  }
+  html.anim .reveal.in-view .chip-rise:nth-child(1) { transition-delay: 0.5s; }
+  html.anim .reveal.in-view .chip-rise:nth-child(2) { transition-delay: 0.6s; }
+  html.anim .reveal.in-view .chip-rise:nth-child(3) { transition-delay: 0.7s; }
+
+  /* ── Ghost numerals drift up as their section enters (scroll-driven tier).
+        Uses `translate` so Tailwind transform utilities stay untouched. ── */
+  @supports (animation-timeline: view()) {
+    .ghost-num {
+      animation: ghost-drift linear both;
+      animation-timeline: view();
+      animation-range: entry 0% cover 45%;
+    }
+    @keyframes ghost-drift {
+      from { translate: 0 44px; opacity: 0; }
+      to   { translate: 0 0;    opacity: 1; }
+    }
+  }
+
+  /* ════════════════════════════════════════════════════════════════════
+     SCROLL EXPERIENCE LAYER — the connective tissue (all scroll-driven
+     CSS, off-main-thread, @supports-gated; non-supporting browsers get
+     the exact page that existed before this layer).
+     ════════════════════════════════════════════════════════════════════ */
+  @supports (animation-timeline: scroll()) {
+
+    /* ── Pinned cinematic hero (desktop): the wrapper is taller than the
+          viewport; the hero pins while the camera pushes into the photo
+          and the copy drifts away. Without scroll timelines the wrapper
+          collapses to a normal hero. ── */
+    @media (min-width: 1024px) {
+      .hp-pin-wrap { height: 138vh; view-timeline: --hero block; }
+      .hp-pin { position: sticky; top: 0; height: 100vh; min-height: 0 !important; }
+      .hp-pin .hpa-photo {
+        animation: hp-push linear both;
+        animation-timeline: --hero;
+        animation-range: exit 0% exit 100%;
+      }
+      @keyframes hp-push {
+        from { transform: scale(1.02); }
+        to   { transform: scale(1.22); }
+      }
+      .hp-pin .hpa-drift {
+        animation: hp-copy linear both;
+        animation-timeline: --hero;
+        animation-range: exit 0% exit 90%;
+      }
+      @keyframes hp-copy {
+        from { transform: translateY(0); opacity: 1; }
+        to   { transform: translateY(-44px); opacity: 0.15; }
+      }
+      /* The barrier arc bows out first — it must never sit over the copy */
+      .hp-pin .hpa-arc-svg {
+        animation: hp-arc-out linear both;
+        animation-timeline: --hero;
+        animation-range: exit 0% exit 35%;
+      }
+      @keyframes hp-arc-out {
+        from { opacity: 1; transform: translateY(0); }
+        to   { opacity: 0; transform: translateY(28px); }
+      }
+    }
+
+    /* ── Treeline micro-parallax — the scene breathes with the page ── */
+    .dusk-tree-front { animation: tree-f linear both; animation-timeline: scroll(root); }
+    .dusk-tree-mid   { animation: tree-m linear both; animation-timeline: scroll(root); }
+    .dusk-tree-back  { animation: tree-b linear both; animation-timeline: scroll(root); }
+    @keyframes tree-f { from { transform: translateY(0); } to { transform: translateY(36px); } }
+    @keyframes tree-m { from { transform: translateY(0); } to { transform: translateY(22px); } }
+    @keyframes tree-b { from { transform: translateY(0); } to { transform: translateY(10px); } }
+
+    /* ── Scrubbed section headers — arrive with the scroll, reversible ── */
+    .scrub-h {
+      animation: scrub-head linear both;
+      animation-timeline: view();
+      animation-range: entry 5% cover 35%;
+    }
+    @keyframes scrub-head {
+      from { opacity: 0; translate: 0 28px; }
+      to   { opacity: 1; translate: 0 0; }
+    }
+
+    /* ── Zoom-through entrance for the photographic finale ── */
+    .cta-zoom {
+      animation: cta-settle linear both;
+      animation-timeline: view();
+      animation-range: entry 0% cover 55%;
+    }
+    @keyframes cta-settle {
+      from { transform: scale(1.22); }
+      to   { transform: scale(1); }
+    }
+  }
 
   /* ── City ticker marquee (decorative, aria-hidden, duplicated track) ── */
   .ticker-track {
@@ -225,6 +523,164 @@
   @keyframes star-sweep {
     0%, 60%, 100% { background-position: 100% 0; }
     25%           { background-position: -100% 0; }
+  }
+}
+
+/* ════════════════════════════════════════════════════════════════════════
+   PREMIUM LAYER — the "$100K site" pass (Jul 2026 homepage revamp)
+   Same contract as the motion system above: compositor-only, reduced-motion
+   gated, zero CLS, no libraries. Static texture/depth utilities live outside
+   the motion gate (they don't move); anything that moves lives inside it.
+   ════════════════════════════════════════════════════════════════════════ */
+
+/* ── Film grain — makes photography read editorial/expensive. Inline SVG
+      turbulence (no network request), fixed low opacity, never interactive. */
+.grain {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.05;
+  mix-blend-mode: overlay;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)' opacity='0.6'/%3E%3C/svg%3E");
+  background-size: 160px 160px;
+}
+
+/* ── Glass chip / bar — frosted trust surfaces over photography ── */
+.glass-chip {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+/* ── Gradient hairline ring — jewellery edge for the floating stat card ── */
+.hairline-amber {
+  border: 1px solid transparent;
+  background:
+    linear-gradient(#ffffff, #ffffff) padding-box,
+    linear-gradient(120deg, rgba(252, 211, 77, 0.9), rgba(245, 158, 11, 0.55) 30%, rgba(229, 231, 235, 0.9) 55%, rgba(252, 211, 77, 0.9)) border-box;
+}
+
+/* ── Ticker edge fade — the marquee dissolves at both edges ── */
+.edge-fade-x {
+  mask-image: linear-gradient(90deg, transparent, #000 10%, #000 90%, transparent);
+  -webkit-mask-image: linear-gradient(90deg, transparent, #000 10%, #000 90%, transparent);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+
+  /* ── Fireflies — tiny amber embers drifting through the summer night.
+        Two stacked animations (drift, twinkle); durations set inline. ── */
+  .ff {
+    position: absolute;
+    width: 4px; height: 4px;
+    border-radius: 9999px;
+    background: #fde68a;
+    box-shadow: 0 0 8px 3px rgba(251, 191, 36, 0.55), 0 0 20px 6px rgba(251, 191, 36, 0.18);
+    opacity: 0;
+    animation-name: ff-drift, ff-twinkle;
+    animation-timing-function: ease-in-out, ease-in-out;
+    animation-iteration-count: infinite, infinite;
+    animation-direction: alternate, alternate;
+  }
+  @keyframes ff-drift {
+    from { translate: 0 0; }
+    to   { translate: 38px -52px; }
+  }
+  @keyframes ff-twinkle {
+    0%, 12% { opacity: 0; }
+    45%     { opacity: 0.85; }
+    70%     { opacity: 0.25; }
+    100%    { opacity: 0.7; }
+  }
+
+  /* ── CTA barrier ring — a slow breath once resolved ── */
+  .ring-breathe {
+    animation: ring-breathe 5.5s ease-in-out infinite;
+  }
+  @keyframes ring-breathe {
+    0%, 100% { box-shadow: 0 0 50px -18px rgba(251, 191, 36, 0.35), inset 0 0 40px -30px rgba(251, 191, 36, 0.25); }
+    50%      { box-shadow: 0 0 70px -16px rgba(251, 191, 36, 0.5),  inset 0 0 48px -28px rgba(251, 191, 36, 0.35); }
+  }
+
+  /* ── Hero mist — a few blurred amber/white motes drifting through the
+        scene. transform/opacity only; each mote gets size/route via inline
+        style vars (--mx/--my drift vector, --md duration, --ms scale). ── */
+  .mist-p {
+    position: absolute;
+    border-radius: 9999px;
+    pointer-events: none;
+    filter: blur(14px);
+    opacity: 0;
+    animation: mist-drift var(--md, 16s) ease-in-out var(--mdel, 0s) infinite;
+  }
+  @keyframes mist-drift {
+    0%   { transform: translate3d(0, 0, 0) scale(var(--ms, 1)); opacity: 0; }
+    20%  { opacity: var(--mo, 0.35); }
+    80%  { opacity: var(--mo, 0.35); }
+    100% { transform: translate3d(var(--mx, 40px), var(--my, -60px), 0) scale(calc(var(--ms, 1) * 1.25)); opacity: 0; }
+  }
+
+  /* ── One-time light sweep across the amber H1 line (then settles) ── */
+  .text-sheen-once {
+    background: linear-gradient(100deg, #fbbf24 42%, #fef3c7 50%, #fbbf24 58%);
+    background-size: 250% 100%;
+    background-position: 100% 0;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: sheen-once 2.2s cubic-bezier(0.4, 0, 0.2, 1) 1.6s 1 both;
+  }
+  @keyframes sheen-once {
+    from { background-position: 100% 0; }
+    to   { background-position: -60% 0; }
+  }
+
+  /* ── Scroll cue — quiet bobbing chevron at the hero's bottom edge ── */
+  .scroll-cue { animation: cue-bob 2.4s ease-in-out infinite; }
+  @keyframes cue-bob {
+    0%, 100% { transform: translateY(0);   opacity: 0.7; }
+    50%      { transform: translateY(7px); opacity: 1; }
+  }
+
+  /* ── Guarantee seal — slow rotating dashed halo ── */
+  .seal-ring {
+    animation: seal-spin 40s linear infinite;
+  }
+  @keyframes seal-spin { to { transform: rotate(360deg); } }
+
+  /* ── Scroll-driven parallax (progressive enhancement) — inner image
+        drifts inside its overflow-hidden frame as the frame crosses the
+        viewport. Browsers without scroll timelines simply see a static
+        image. scale(1.12) guarantees no edge reveal → zero CLS. ── */
+  @supports (animation-timeline: view()) {
+    .sd-parallax {
+      animation: sd-drift linear both;
+      animation-timeline: view();
+      animation-range: entry 0% exit 100%;
+    }
+    @keyframes sd-drift {
+      from { transform: scale(1.14) translateY(3%); }
+      to   { transform: scale(1.04) translateY(-3%); }
+    }
+  }
+
+  /* ── FAQ smooth open (progressive enhancement, Chrome/Edge/Safari 18.4+;
+        others keep the instant toggle) ── */
+  @supports selector(::details-content) {
+    :root { interpolate-size: allow-keywords; }
+    details.faq-d::details-content {
+      opacity: 0;
+      block-size: 0;
+      overflow-y: clip;
+      transition: content-visibility 0.4s allow-discrete,
+                  opacity 0.4s ease,
+                  block-size 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+    }
+    details.faq-d[open]::details-content {
+      opacity: 1;
+      block-size: auto;
+    }
   }
 }
 
