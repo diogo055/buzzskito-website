@@ -62,7 +62,6 @@ export default function ServicesStory() {
     <section aria-labelledby="services-heading" className="section-major !pt-12 px-4">
       <div className="max-w-7xl mx-auto">
         <div className="scrub-h relative max-w-2xl mb-12 lg:mb-16">
-          <span className="ghost-num ghost-num-light" aria-hidden="true">01</span>
           <p className="kicker-light mb-3">Our Services</p>
           <h2 id="services-heading" className="h2-display text-white mb-3">
             Mosquito &amp; Tick Control <span className="accent-serif text-amber-400">Services</span>

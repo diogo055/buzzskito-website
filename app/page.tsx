@@ -161,7 +161,6 @@ export default function HomePage() {
             </div>
           </div>
           <div className="lg:col-span-3 relative">
-            <span className="ghost-num ghost-num-light" aria-hidden="true">03</span>
             <p className="kicker-light mb-3">Owner-Operated · Not a Franchise</p>
             <h2 id="meet-team" className="h2-display text-white mb-5">
               A local GTA team,<br className="hidden sm:block" /> <span className="accent-serif text-amber-400">not</span> a national call centre
@@ -190,7 +189,6 @@ export default function HomePage() {
       <section aria-labelledby="why-us" className="section-major px-4">
         <div className="max-w-6xl mx-auto">
           <div className="scrub-h relative max-w-2xl mb-10">
-            <span className="ghost-num ghost-num-light" aria-hidden="true">04</span>
             <p className="kicker-light mb-3">Why BuzzSkito</p>
             <h2 id="why-us" className="h2-display text-white mb-3">
               Why GTA Homeowners Choose BuzzSkito
@@ -245,7 +243,6 @@ export default function HomePage() {
       <section aria-labelledby="service-areas" className="cv-auto section-major px-4">
         <div className="max-w-7xl mx-auto">
           <div className="scrub-h relative mb-12 flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
-            <span className="ghost-num ghost-num-light" aria-hidden="true">05</span>
             <div>
               <p className="kicker-light mb-3">Service Areas</p>
               <h2 id="service-areas" className="h2-display text-white mb-3">
@@ -307,7 +304,6 @@ export default function HomePage() {
       <section aria-labelledby="faq-heading" className="cv-auto section-major px-4">
         <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-[2fr_3fr] gap-10 lg:gap-16 items-start">
           <div className="lg:sticky lg:top-28 relative">
-            <span className="ghost-num ghost-num-light" aria-hidden="true">06</span>
             <p className="kicker-light mb-3">Questions &amp; Answers</p>
             <h2 id="faq-heading" className="h2-display text-white">
               Frequently Asked Questions

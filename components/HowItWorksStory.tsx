@@ -51,7 +51,6 @@ export default function HowItWorksStory() {
     <section aria-labelledby="how-it-works" className="section-major px-4 text-white">
       <div className="max-w-6xl mx-auto">
         <div className="scrub-h relative mb-12 lg:mb-16">
-          <span className="ghost-num ghost-num-light" aria-hidden="true">02</span>
           <p className="kicker-light mb-3">How It Works</p>
           <h2 id="how-it-works" className="h2-display text-white">
             How BuzzSkito <span className="accent-serif text-amber-400">Works</span>
