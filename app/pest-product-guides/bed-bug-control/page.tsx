@@ -67,6 +67,221 @@ const SECTIONS: HubSection[] = [
       },
     ],
   },
+  {
+    name: 'Step-by-Step Treatment Plans',
+    icon: '📋',
+    intro: 'Bed bugs are beaten by a protocol, not a product. Start with the plan that matches your situation — a whole house, a rented apartment where the building controls treatment, or a single infested couch — then buy only the gear that plan calls for.',
+    guides: [
+      {
+        href: '/blog/how-to-get-rid-of-bed-bugs-canada',
+        title: 'How to Get Rid of Bed Bugs in Canada',
+        blurb: 'The complete step-by-step plan, start to finish.',
+        tone: 'top',
+      },
+      {
+        href: '/blog/how-to-get-rid-of-bed-bugs-yourself-diy-canada',
+        title: 'The Full DIY Protocol',
+        blurb: 'Every step of a self-managed treatment, in order.',
+      },
+      {
+        href: '/blog/how-to-get-rid-of-bed-bugs-in-apartment-canada',
+        title: 'Bed Bugs in an Apartment',
+        blurb: 'A renter’s containment-first plan when the building controls treatment.',
+      },
+      {
+        href: '/blog/how-to-get-rid-of-bed-bugs-in-couch-canada',
+        title: 'Bed Bugs in a Couch',
+        blurb: 'The steamer, spray and encasement protocol for upholstery.',
+      },
+      {
+        href: '/blog/how-to-kill-bed-bug-eggs-canada',
+        title: 'How to Kill Bed Bug Eggs',
+        blurb: 'Why heat wins on eggs and most sprays miss them entirely.',
+      },
+      {
+        href: '/blog/bed-bug-control-canada-hub',
+        title: 'Bed Bug Control Canada — Treatment Hub',
+        blurb: 'The full DIY treatment library in one place.',
+      },
+    ],
+  },
+  {
+    name: 'Heat Chambers & Room Heaters',
+    icon: '🌡️',
+    intro: 'Sustained heat is the only method that kills every life stage including eggs. Portable chambers handle luggage, bedding and small furniture; whole-room heaters treat an entire bedroom. This is the most expensive category, so compare before you commit.',
+    guides: [
+      {
+        href: '/blog/best-whole-room-bed-bug-heater-canada',
+        title: 'Best Whole-Room Bed Bug Heater',
+        blurb: 'DIY heat-treatment equipment compared for full-room jobs.',
+        tone: 'top',
+      },
+      {
+        href: '/blog/bed-bug-heat-treatment-diy-canada',
+        title: 'DIY Bed Bug Heat Treatment',
+        blurb: 'The temperatures, gear and protocol that actually kill.',
+      },
+      {
+        href: '/blog/heat-vs-chemical-bed-bug-treatment-canada',
+        title: 'Heat vs Chemical Treatment',
+        blurb: 'Which approach actually works, and when to choose each.',
+      },
+      {
+        href: '/blog/steamer-vs-heater-for-bed-bugs-canada',
+        title: 'Steamer vs Heater — Which First?',
+        blurb: 'Dupray steam against ZappBug heat, and which to buy first.',
+      },
+      {
+        href: '/blog/packtite-vs-zappbug-canada',
+        title: 'PackTite Closet vs ZappBug Room',
+        blurb: 'Head-to-head on the two big heater chambers.',
+      },
+      {
+        href: '/blog/packtite-closet-review-canada',
+        title: 'PackTite Closet Review',
+        blurb: 'Is the big heat chamber worth it?',
+      },
+      {
+        href: '/blog/packtite-portable-review-canada',
+        title: 'PackTite Portable Review',
+        blurb: 'The small folding heater — worth it for travellers?',
+      },
+      {
+        href: '/blog/zappbug-oven-2-review-canada',
+        title: 'ZappBug Oven 2 Review',
+        blurb: 'Is the large bed bug heat box worth the money?',
+      },
+      {
+        href: '/blog/zappbug-room-review-canada',
+        title: 'ZappBug Room Review',
+        blurb: 'The whole-room heater, honestly assessed.',
+      },
+      {
+        href: '/blog/thermalstrike-ranger-review-canada',
+        title: 'ThermalStrike Ranger Review',
+        blurb: 'Does the heated bed bug suitcase actually work?',
+      },
+    ],
+  },
+  {
+    name: 'Steamers Tested',
+    icon: '💨',
+    intro: 'A steamer is the single most useful tool in a DIY bed bug kit — but only if it holds a high enough temperature at the nozzle. These are the two workhorses most Canadian buyers land on.',
+    guides: [
+      {
+        href: '/blog/vapamore-mr100-steamer-review-canada',
+        title: 'Vapamore MR-100 Primo Review',
+        blurb: 'The dry-steam workhorse for bed bugs, tested.',
+        tone: 'top',
+      },
+      {
+        href: '/blog/mcculloch-mc1275-steamer-review-canada',
+        title: 'McCulloch MC1275 Review',
+        blurb: 'Is the budget heavy-duty steamer good enough for bed bugs?',
+      },
+    ],
+  },
+  {
+    name: 'Sprays, Dusts & Foggers — Reviewed',
+    icon: '🔬',
+    intro: 'Individual product reviews, with Canadian legality checked first. Several popular US bed bug products have no PMRA registration and cannot legally be sold or used here — those reviews say so plainly rather than sending you to a grey-market listing.',
+    guides: [
+      {
+        href: '/blog/cimexa-bed-bug-review-canada',
+        title: 'CimeXa Review',
+        blurb: 'Does the silica dust actually work?',
+        tone: 'top',
+      },
+      {
+        href: '/blog/doktor-doom-sleep-tight-review-canada',
+        title: 'Doktor Doom Sleep Tight Review',
+        blurb: 'The PMRA-registered mattress spray, tested against the grey market.',
+      },
+      {
+        href: '/blog/konk-bed-bug-killer-review-canada',
+        title: 'Konk Bed Bug Killer Review',
+        blurb: 'The legal, in-store aerosol, honestly assessed.',
+      },
+      {
+        href: '/blog/knock-down-bed-bug-killer-review-canada',
+        title: 'Knock Down Bed Bug Killer Review',
+        blurb: 'The hardware-store registered spray, and where it fits.',
+      },
+      {
+        href: '/blog/harris-bed-bug-killer-review-canada',
+        title: 'Harris Bed Bug Killer Review',
+        blurb: 'Does it work — and is it even legal here?',
+      },
+      {
+        href: '/blog/ortho-home-defense-bed-bug-review-canada',
+        title: 'Ortho Home Defense Review',
+        blurb: 'Is the US formula PMRA-legal in Canada?',
+      },
+      {
+        href: '/blog/crossfire-bed-bug-concentrate-review-canada',
+        title: 'MGK Crossfire Concentrate Review',
+        blurb: 'Why it is not the pick in Canada.',
+        tone: 'skip',
+      },
+      {
+        href: '/blog/ecoraider-bed-bug-spray-review-canada',
+        title: 'EcoRaider Review',
+        blurb: 'Does the plant-based killer actually work?',
+      },
+      {
+        href: '/blog/best-natural-bed-bug-spray-canada',
+        title: 'Best Natural Bed Bug Spray',
+        blurb: 'Plant-based, non-toxic and PMRA-legal picks.',
+      },
+      {
+        href: '/blog/best-bed-bug-spray-for-mattress-canada',
+        title: 'Best Spray for a Mattress',
+        blurb: 'Mattress-safe, PMRA-registered picks.',
+      },
+      {
+        href: '/blog/best-bed-bug-spray-for-travel-canada',
+        title: 'Best Spray for Travel',
+        blurb: 'Carry-on-legal luggage and hotel picks.',
+      },
+      {
+        href: '/blog/best-bed-bug-powder-canada',
+        title: 'Best Bed Bug Powder',
+        blurb: 'Silica gel against diatomaceous earth, compared.',
+      },
+      {
+        href: '/blog/best-bed-bug-fogger-canada',
+        title: 'Best Bed Bug Fogger',
+        blurb: 'Registered total-release options — and their real limits.',
+      },
+    ],
+  },
+  {
+    name: 'Detection, Traps & Encasements',
+    icon: '🛏️',
+    intro: 'Monitoring tells you whether treatment is working and when it is finally over. Encasements seal what you cannot treat directly, and interceptors under each bed leg double as an early-warning system.',
+    guides: [
+      {
+        href: '/blog/best-bed-bug-detector-canada',
+        title: 'Best Bed Bug Detector',
+        blurb: 'Passive interceptors against active monitors, compared.',
+      },
+      {
+        href: '/blog/best-bed-bug-trap-canada',
+        title: 'Best Bed Bug Trap',
+        blurb: 'Passive interceptors against active lure traps.',
+      },
+      {
+        href: '/blog/best-bed-bug-box-spring-encasement-canada',
+        title: 'Best Box Spring Encasement',
+        blurb: 'SureGuard against SafeRest against Utopia.',
+      },
+      {
+        href: '/blog/sureguard-mattress-encasement-review-canada',
+        title: 'SureGuard Encasement Review',
+        blurb: 'Is the Invisi-Zip seal actually bed-bug proof?',
+      },
+    ],
+  },
 ]
 
 const POSTS_LINKED = SECTIONS.reduce((n, s) => n + s.guides.length, 0)

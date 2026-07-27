@@ -76,8 +76,10 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: TITLE,
-  description: 'Compare Thermacell in Canada: Patio Shield, E55, E90 & Liv prices at Canadian Tire, refill costs, and do they really work in GTA yards.',
+  // Retargeted off "thermacell canadian tire" (7.3K impr, 0.08% CTR) — Canadian
+  // Tire owns that SERP. Aimed at the winnable "which model" research intent.
+  title: 'Thermacell Canada: E55 vs E90 vs Patio Shield',
+  description: 'Thermacell Canada prices compared: E55 5.5 hrs $70-$90, E90 9 hrs $90-$120, Patio Shield $35-$50. Plus refill costs and why Liv is not sold here.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,

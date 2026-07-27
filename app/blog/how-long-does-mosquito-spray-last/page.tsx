@@ -14,9 +14,9 @@ const POST = MOSQUITO_BLOGS.supporting[1]
 const UPDATED = '2026-07-12'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'How Long Does Mosquito Spray Last? (Barrier Sprays: 3–4 Weeks)',
+  title: 'How Long Does Mosquito Spray Last? Pro vs DIY',
   description:
-    'Professional mosquito barrier sprays last 3–4 weeks; DIY sprays 1–2 days. Rain and heat shorten it — re-treat every 3–4 weeks for a bite-free GTA yard.',
+    'How long does mosquito spray last? A 5-treatment chart — barrier spray, foggers, DEET, citronella, dunks — with rain resistance and GTA re-treat timing.',
   canonical: `/blog/${POST.slug}`,
   type: 'article',
   publishedTime: POST.date,

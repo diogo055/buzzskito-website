@@ -96,8 +96,8 @@ const FAQS = [
 export const metadata: Metadata = buildMetadata({
   // Head term (~pos 15). Title front-loads the keyword, matches "what they look
   // like" + the dominant "kill them" intent, and stays under 60 chars.
-  title: 'Mosquito Larvae: What They Look Like & How to Kill',
-  description: 'See what mosquito larvae look like, where they breed (pool, rain barrel, gutter) and how to kill them fast with BTI Dunks & Bits. Ontario guide.',
+  title: 'Mosquito Larvae: What They Look Like (5-8 mm)',
+  description: 'Mosquito larvae are 5-8 mm wigglers that hang head-down and dart in an S-shape. How to tell them from midge larvae and kill them in 24-48 hrs with BTI.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,

@@ -14,9 +14,9 @@ const POST = TICK_BLOGS.supporting[1]
 const UPDATED = '2026-07-12'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'What Does a Tick Look Like? Tick ID Guide (2026)',
+  title: 'Tick Identification Ontario: 3 Species + Sizes',
   description:
-    'What a tick looks like by species and life stage — blacklegged (deer), American dog, and lone star ticks. Size in mm, colour, field marks, and which ticks carry Lyme disease.',
+    'Tick identification in Ontario: blacklegged, American dog and lone star ticks by colour, field marks and size in mm — and which one actually carries Lyme.',
   canonical: `/blog/${POST.slug}`,
   type: 'article',
   publishedTime: POST.date,

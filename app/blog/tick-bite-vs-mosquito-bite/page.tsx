@@ -15,9 +15,9 @@ const DATE = '2026-04-07'
 const UPDATED = '2026-07-12'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Tick Bite vs Mosquito Bite: Symptoms & Pictures Compared',
+  title: 'Tick Bite vs Mosquito Bite: 9-Point Chart + Lyme',
   description:
-    'Tick bite vs mosquito bite — a side-by-side symptom comparison, how to tell the difference, warning signs of Lyme disease, and when to see a doctor. Updated 2026.',
+    'Tick bite vs mosquito bite compared across 9 points: onset, pain, itch, and the day 3–30 bull’s-eye rash window that separates a welt from Lyme risk.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,

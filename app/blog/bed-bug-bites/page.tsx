@@ -12,7 +12,12 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 const SLUG = 'bed-bug-bites'
 const DATE = '2026-07-19'
 const UPDATED = '2026-07-19'
+// H1 keeps the long descriptive form; SERP title is trimmed to 46 chars so it
+// survives Google's ~60-char cap once the " | BuzzSkito" template is appended.
+// Highest-ceiling page on the site: "bed bug bites" is 50K/mo CA, 506K/mo US.
+// Baseline before this change (Jul 27 2026): 785 impr, 1 click, avg pos 9.4.
 const TITLE = 'Bed Bug Bites: What They Look Like, How Long They Last & How to Tell for Sure (2026)'
+const META_TITLE = 'Bed Bug Bites: 3-5 in a Line, Up to 14-Day Lag'
 
 const FAQS = [
   {
@@ -66,9 +71,9 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: TITLE,
+  title: META_TITLE,
   description:
-    'What bed bug bites look like — the breakfast-lunch-dinner line pattern, bed bug vs mosquito vs flea bite comparison tables, the up-to-14-day delay, itch relief that helps, and how to confirm it is really bed bugs.',
+    'Bed bug bites show up in rough lines or clusters of 3-5 and can take up to 14 days to appear. Compare them side by side with mosquito and flea bites.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -252,8 +257,14 @@ export default function BedBugBitesPage() {
           ))}
         </div>
 
+        <h2>Confirmed it is bed bugs? Here is what actually works</h2>
+        <p>Identification is only step one &mdash; the bites stop when the infestation ends, and that takes a protocol rather than a single product. Our <Link href="/blog/how-to-get-rid-of-bed-bugs-canada">complete step-by-step plan for getting rid of bed bugs in Canada</Link> walks through the whole sequence in order, and the <Link href="/blog/how-to-get-rid-of-bed-bugs-yourself-diy-canada">full DIY protocol</Link> covers doing it yourself without hiring anyone. If you rent, treatment is usually the building&rsquo;s responsibility &mdash; the <Link href="/blog/how-to-get-rid-of-bed-bugs-in-apartment-canada">apartment containment plan</Link> covers what you can do in the meantime.</p>
+        <p>On method: sustained heat is the only approach that reliably kills every life stage including eggs, which is why <Link href="/blog/how-to-kill-bed-bug-eggs-canada">eggs survive most sprays</Link> and infestations rebound a week or two after a spray-only treatment. Our <Link href="/blog/heat-vs-chemical-bed-bug-treatment-canada">heat vs chemical comparison</Link> explains when each makes sense, and the <Link href="/pest-product-guides/bed-bug-control">bed bug product hub</Link> collects every tested tool &mdash; steamers, heater chambers, encasements, monitors and PMRA-registered sprays &mdash; in one place.</p>
+
         <h2>Related reading</h2>
         <ul>
+          <li><Link href="/blog/how-to-get-rid-of-bed-bugs-canada">How to Get Rid of Bed Bugs in Canada &mdash; Complete Plan</Link></li>
+          <li><Link href="/pest-product-guides/bed-bug-control">Bed Bug Products in Canada &mdash; What Actually Works</Link></li>
           <li><Link href="/blog/how-to-check-for-bed-bugs-canada">How to Check for Bed Bugs &mdash; Room-by-Room Inspection</Link></li>
           <li><Link href="/blog/bed-bug-interceptor-traps-canada">Bed Bug Interceptor Traps &mdash; Detect Before You Spray</Link></li>
           <li><Link href="/blog/do-bed-bug-sprays-actually-work">Do Bed Bug Sprays Actually Work?</Link></li>

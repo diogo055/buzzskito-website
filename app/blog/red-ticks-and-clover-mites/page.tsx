@@ -50,8 +50,8 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Red Ticks & Tiny Red Bugs: Clover Mites vs Ticks',
-  description: 'Most "red ticks" are actually clover mites or engorged ticks, not a red tick species. Compare clover mites, engorged ticks, and reddish lone star ticks — size, legs, colour, and whether they bite.',
+  title: 'Red Ticks or Clover Mites? Tell Apart by Size',
+  description: 'Red ticks are usually clover mites: 0.75 mm, bright red, swarming sunny walls. An engorged tick is 4–10 mm and attached to skin. Side-by-side size chart.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,

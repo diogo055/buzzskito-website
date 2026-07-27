@@ -169,8 +169,8 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: `What Is the Deadliest Animal in Canada? (2026 Data)`,
-  description: `The deadliest animal in the world and in Canada, 2026 data — mosquitoes kill an estimated 725,000–1,000,000 people a year, plus the full ranked list.`,
+  title: `Most Dangerous Animal in Canada: Death Counts`,
+  description: `The most dangerous animal in Canada by the numbers: wildlife-vehicle crashes kill about 28 people a year, insect stings 3–4, West Nile one death in 2024.`,
   canonical: SLUG,
 })
 

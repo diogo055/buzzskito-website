@@ -215,8 +215,8 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Ontario Lyme Disease Tracker 2026 — Live Case Counts, Endemic Zones, PHU Directory',
-  description: 'Free public health resource tracking Lyme disease across Ontario in 2026. Live case counts by Public Health Unit, endemic zone map (2010-2026 expansion), tick species ID guide, symptom decision tree, and PHU directory. Backed by Public Health Ontario surveillance data + PHAC.',
+  title: 'Ontario Tick & Lyme Risk Zones 2026 by Region',
+  description: 'Ontario tick and Lyme risk in 2026, health unit by health unit: 3,614 confirmed cases in 2025, 8 established endemic PHUs, 7 emerging, all 34 listed.',
   canonical: SLUG,
 })
 

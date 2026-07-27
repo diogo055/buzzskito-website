@@ -75,8 +75,8 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Natural Mosquito Repellent · What Works in Ontario',
-  description: 'Honest guide to natural mosquito repellents for Ontario yards. Citronella, OLE, BTI, plants, fans — what works, what does not, with peer-reviewed data.',
+  title: 'Natural Mosquito Repellent: What Works, Ranked',
+  description: 'Natural mosquito repellent ranked: oil of lemon eucalyptus gives about 95% protection for 4-6 hours, soybean oil 1.5 hours, a patio fan cuts landings 60-80%.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,

@@ -14,9 +14,9 @@ const POST = NEW_BLOGS_2[0]
 const UPDATED = POST.date
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Mosquito Repellent Plants Ontario: Citronella & 9 More',
+  title: 'Mosquito Repellent Plants: 10 Best for Ontario',
   description:
-    'The best mosquito-repellent plants for Ontario — plus a deep dive on the citronella plant: is it a perennial here, geranium vs. grass, and does it really work?',
+    'The 10 best mosquito repellent plants for Ontario, from lavender to catnip — plus the honest numbers: plants alone cut bites just 15-20% near a seating area.',
   canonical: `/blog/${POST.slug}`,
   type: 'article',
   publishedTime: POST.date,

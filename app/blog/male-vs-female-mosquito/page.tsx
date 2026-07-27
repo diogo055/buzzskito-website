@@ -45,8 +45,8 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Male vs Female Mosquito: Only Females Bite (Here Is Why) 2026',
-  description: 'Only female mosquitoes bite — males feed on nectar. Compare male vs female mosquitoes by diet, bite, lifespan, antennae, and role, and why it matters for yard control.',
+  title: 'Male vs Female Mosquito: 8 Differences Compared',
+  description: 'Male vs female mosquito compared across 8 traits — diet, mouthparts, antennae, lifespan (1-2 weeks vs 2-8 weeks) — and why it changes how you treat a yard.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,

@@ -199,8 +199,8 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: `Ticks in Ontario: 2026 Statistics, Species & Risk Data`,
-  description: `Free 2026 data on ticks in Ontario — the share of blacklegged ticks carrying Lyme, human Lyme case counts, species ID, tick season and risk-area maps.`,
+  title: `Ticks in Ontario 2026: What % Carry Lyme?`,
+  description: `About 20% of blacklegged ticks in Ontario risk areas carry Lyme, over 20% in Toronto. See the 2008-2023 trend, 2,369 cases in 2024 and the 43-species split.`,
   canonical: SLUG,
 })
 

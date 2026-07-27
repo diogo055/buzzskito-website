@@ -14,6 +14,7 @@ const SLUG = 'mosquito-bits-canada-vs-dunks'
 const DATE = '2026-05-01'
 const UPDATED = '2026-07-12'
 const TITLE = 'Mosquito Bits vs Dunks (Canada 2026): Kills Larvae Faster'
+const META_TITLE = 'Mosquito Bits Canada 2026: vs Dunks + Prices'
 
 const FAQS = [
   {
@@ -71,8 +72,8 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: TITLE,
-  description: 'Bits kill larvae in 24 hrs, Dunks last 30 days — which to use plus the cheapest place to buy each in Canada (Canadian Tire, Home Depot, Amazon.ca).',
+  title: META_TITLE,
+  description: 'Mosquito Bits Canada price check: $15–$22 per 8 oz at Canadian Tire, Home Depot and Rona. Bits start working in 30 minutes and last 7–14 days; dunks last 30.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,

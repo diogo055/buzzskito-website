@@ -50,8 +50,8 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Deer Flies vs Horse Flies Ontario: ID, Bites & Control 2026',
-  description: 'Tell deer flies from horse flies, understand why they dive-bomb your head, treat the painful bite, and control biting flies in your Ontario yard with traps and barrier spray.',
+  title: 'Deer Fly vs Horse Fly: 1 cm vs 2–3 cm (Ontario)',
+  description: 'Deer fly vs horse fly: deer flies are about 1 cm with banded wings and patterned eyes, horse flies 2–3 cm. Why the bite bleeds, and what stops them.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,

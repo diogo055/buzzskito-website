@@ -7,6 +7,8 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 const SLUG = 'why-do-mosquito-bites-itch'
 const DATE = '2026-07-15'
 const TITLE = 'Why Do Mosquito Bites Itch — and How Long Do They Last?'
+// SERP title only (H1 + schema keep TITLE). Layout appends ' | BuzzSkito' (12 chars) — keep <= 48.
+const SEO_TITLE = 'How Long Do Mosquito Bites Last? Full Timeline'
 
 const FAQS = [
   {
@@ -60,8 +62,8 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: TITLE,
-  description: 'Why do mosquito bites itch? Your immune system releases histamine against mosquito saliva. The science of the itch, the 3–7 day timeline, why bites feel worse at night, and why some swell up big.',
+  title: SEO_TITLE,
+  description: 'How long do mosquito bites last? Most fade in 3-7 days, but the delayed reaction peaks at 24-48 hours. Stage-by-stage timeline and why night is worse.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,

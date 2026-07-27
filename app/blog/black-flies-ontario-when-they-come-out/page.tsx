@@ -53,8 +53,8 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Black Fly Season in Ontario 2026: When They Start & End',
-  description: 'Black fly season in Ontario runs mid-May to late June — peak GTA weeks. Later in Muskoka and Northern Ontario. See 2026 start & end dates.',
+  title: 'Black Flies in Ontario: GTA & Muskoka 2026 Dates',
+  description: 'Black flies in Ontario emerge mid-May once streams hit 13–15°C, peak in June, and fade by mid-July. Full GTA calendar, plus Muskoka and northern timing.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,

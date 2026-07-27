@@ -71,8 +71,8 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: TITLE,
-  description: 'Picaridin vs DEET in Canada: which repellent works better, is picaridin (icaridin) safe, and the best picaridin insect repellents to buy. Updated 2026.',
+  title: 'Picaridin Insect Repellent Canada vs DEET (2026)',
+  description: 'Picaridin insect repellent in Canada: 20% picaridin gives 5-8 hrs on mosquitoes, 8 hrs on ticks, matching DEET 30% without melting plastics. Prices compared.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,

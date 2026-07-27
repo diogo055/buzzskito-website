@@ -51,8 +51,8 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Best Tick Repellent for Yards · Canada 2026 Guide',
-  description: 'Best tick repellents for Canadian yards. Cedar oil, professional barrier spray, DIY options compared. What works for Ontario tick control.',
+  title: 'Best Tick Repellent for Yards — Canada 2026',
+  description: 'Cedar-oil sprays cut yard tick numbers roughly 40-60% and need re-spraying every 2 weeks. See how they compare to granules and professional barrier spray.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,

@@ -83,8 +83,8 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: TITLE,
-  description: 'Where to buy permethrin in Canada: Sawyer clothing spray at Cabela\'s, MEC & Amazon.ca, is it legal, concentrate dilution rates, and clothing vs yard use.',
+  title: 'Permethrin Spray Canada: Legal? Where to Buy',
+  description: 'Permethrin spray is legal in Canada for clothing — Sawyer 0.5%, $24–$38 for 24 oz — but yard concentrate is licensed-applicator only. Where to buy it.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,

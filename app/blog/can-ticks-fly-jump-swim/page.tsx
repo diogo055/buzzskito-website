@@ -13,6 +13,8 @@ const SLUG = 'can-ticks-fly-jump-swim'
 const DATE = '2026-07-12'
 const UPDATED = '2026-07-12'
 const TITLE = 'Can Ticks Fly, Jump, or Swim? (Myths vs Facts, Ontario)'
+// SERP title only (H1 + schema keep TITLE). Layout appends ' | BuzzSkito' (12 chars) — keep <= 48.
+const SEO_TITLE = 'Can Ticks Swim or Drown? Will Washing Kill Them'
 
 const FAQS = [
   {
@@ -50,8 +52,8 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: TITLE,
-  description: 'No — ticks cannot fly, jump, or swim. They climb grass and quest for a passing host. They can survive underwater for days but do not swim to you. Myths vs facts on how ticks really move in Ontario.',
+  title: SEO_TITLE,
+  description: 'Can ticks swim or drown? No swimming legs, but a blacklegged tick survives 2-3 days underwater. Why a cold wash fails, and the 10-minute dryer fix.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,

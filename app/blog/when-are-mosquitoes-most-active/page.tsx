@@ -50,8 +50,10 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: TITLE,
-  description: 'Mosquitoes are most active at dawn and dusk, when heat and wind drop and humidity rises. See a time-of-day and temperature-threshold table, why Culex bite at dusk while Aedes bite midday, and the best time to spray or avoid bites.',
+  // AI Overview answers "dawn and dusk" outright, so the SERP title now sells the
+  // thing the snippet has no room for: the time-of-day + temperature table.
+  title: 'What Time Are Mosquitoes Most Active? Temp Table',
+  description: 'Mosquitoes are most active at dusk, but shaded yards bite midday. See the time-of-day and temperature table: peak at 24-28 C, near zero below 10 C.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,

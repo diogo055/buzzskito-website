@@ -6,6 +6,8 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 const SLUG = 'what-colors-attract-mosquitoes'
 const DATE = '2026-07-16'
 const TITLE = 'What Colors Attract Mosquitoes? (2022 Study: Red, Orange, Black, Cyan)'
+// SERP title only (H1 + schema keep TITLE). Layout appends ' | BuzzSkito' (12 chars) — keep <= 48.
+const SEO_TITLE = 'What Colors Attract Mosquitoes? All 8 Ranked'
 
 const FAQS = [
   {
@@ -55,8 +57,8 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: TITLE,
-  description: 'A 2022 Nature Communications study found mosquitoes are drawn to red, orange, black, and cyan after smelling CO2, and ignore green, blue, purple, and white. Which colours attract vs repel mosquitoes, why black attracts them, and what to wear in the GTA.',
+  title: SEO_TITLE,
+  description: 'What colors attract mosquitoes? A 2022 Nature Communications study split 8 shades into attract vs ignore. See the chart, 7 myths checked, and what to wear.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,

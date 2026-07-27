@@ -60,8 +60,8 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Do Cedar Trees Attract Mosquitoes? The Honest Answer (+ Fix)',
-  description: 'Cedars don\'t attract mosquitoes — but dense cedar hedges trap the moisture and shade they love. Here\'s the honest answer and how to fix it.',
+  title: 'Do Cedar Trees Attract Mosquitoes? Hedge vs Tree',
+  description: 'Cedar trees do not attract mosquitoes — cedar oil mildly repels them. Dense untrimmed hedges are the problem: prune, clear the base, treat the underside.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,

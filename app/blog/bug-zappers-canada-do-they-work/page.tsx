@@ -71,8 +71,8 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: TITLE,
-  description: 'Best bug zappers in Canada 2026: ranked picks for the flies & moths they kill, solar & indoor racket options, prices — plus the honest mosquito truth.',
+  title: 'Best Bug Zapper Canada 2026: 5 Ranked + Prices',
+  description: 'Best bug zapper picks for Canada 2026: 5 models ranked, $15 to $169, coverage by yard size — and the research on why only 0.13-4% of the catch is mosquitoes.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,

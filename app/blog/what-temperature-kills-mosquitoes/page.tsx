@@ -55,8 +55,8 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: TITLE,
-  description: 'What temperature kills mosquitoes? Adults die in a hard frost (about -2°C/28°F), go dormant below 10°C/50°F, and peak above 26°C/80°F — but eggs and hibernating females survive Ontario winters. Hard numbers, a temperature table, and 11 FAQs.',
+  title: 'What Temperature Kills Mosquitoes? Cold vs Heat',
+  description: 'What temperature kills mosquitoes? A hard frost near -2°C kills adults, 10°C grounds them, but heat rarely does. Full temperature table plus 11 Ontario FAQs.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,

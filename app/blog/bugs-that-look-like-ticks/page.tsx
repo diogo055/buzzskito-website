@@ -72,14 +72,18 @@ const FAQS = [
   },
 ]
 
-// TITLE NOTE (Jul 2026): was 68 chars and Google truncated it. This page carries
-// ~39,600 impressions/mo at position ~7.9 with 0.87% CTR — the single largest CTR
-// upside on the site (~650 clicks/mo). Trimmed under 60 chars, query front-loaded.
-// Caveat: part of the low CTR is structural — an AI Overview answers this query and
-// cites us. Measure for 4 weeks before changing again; don't churn the title.
+// TITLE NOTE (Jul 27 2026): third title on this URL. Previous was 'Bugs That Look
+// Like Ticks: 7 Lookalikes & ID Chart' (50 chars, set Jul 12 2026); now 'Bugs That
+// Look Like Ticks: 8 Legs or 6? ID Chart' (48 chars, 60 rendered with the layout
+// template) to lead with the leg-count angle that actually answers the query.
+// This page carries ~39,600 impressions/mo at position ~7.9 with 0.87% CTR — the
+// single largest CTR upside on the site (~650 clicks/mo). Caveat: part of the low
+// CTR is structural — an AI Overview answers this query and cites us. Note the
+// Jul 12 title only ran 14 of its intended 28 days, so that test is unattributable.
+// New measurement window runs to ~Aug 24 2026; don't churn the title before then.
 export const metadata: Metadata = buildMetadata({
-  title: 'Bugs That Look Like Ticks: 7 Lookalikes & ID Chart',
-  description: 'Found a bug that looks like a tick? Count the legs — ticks have 8. Compare 7 look-alikes: bed bugs, spider beetles, carpet beetles, weevils & poppy seeds.',
+  title: 'Bugs That Look Like Ticks: 8 Legs or 6? ID Chart',
+  description: 'Bugs that look like ticks, side by side: spider beetle, bed bug, carpet beetle, weevil and booklice — compared by legs, antennae and where you find them.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,

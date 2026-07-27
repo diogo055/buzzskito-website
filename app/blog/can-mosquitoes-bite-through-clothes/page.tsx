@@ -13,6 +13,7 @@ const SLUG = 'can-mosquitoes-bite-through-clothes'
 const DATE = '2026-07-16'
 const UPDATED = '2026-07-16'
 const TITLE = 'Can Mosquitoes Bite Through Clothes? Yes — Here Is Exactly Which Fabrics'
+const META_TITLE = 'Can Mosquitoes Bite Through Clothes? 8 Fabrics'
 
 const FAQS = [
   {
@@ -62,8 +63,8 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: TITLE,
-  description: 'Can mosquitoes bite through clothes? Yes — through thin, tight fabric (leggings, thin tees, thin socks) but not loose or thick weaves. Which fabrics, why, and how to stop bites through clothing. Canadian guide, updated 2026.',
+  title: META_TITLE,
+  description: 'Can mosquitoes bite through clothes? A proboscis reaches about 2 mm, so leggings fail and denim wins. See 8 fabrics ranked by bite risk, and how to stop them.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,

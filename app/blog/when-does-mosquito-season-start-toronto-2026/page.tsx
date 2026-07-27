@@ -12,9 +12,9 @@ const POST = {
 }
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Mosquito Season Start Toronto 2026',
+  title: 'Toronto Mosquito Season 2026: Month by Month',
   description:
-    'When does mosquito season start in Toronto? 2026 timing, lake effect delays, ravine warming patterns, and when to book your first professional treatment.',
+    'Toronto mosquito season starts mid-May and peaks in July. Ravine yards wake 1-2 weeks early, lakefront a week late — see the 2026 month-by-month timeline.',
   canonical: `/blog/${POST.slug}`,
   type: 'article',
   publishedTime: POST.date,

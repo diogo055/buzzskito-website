@@ -14,7 +14,7 @@ const SLUG = 'mosquito-fogger-canada'
 const DATE = '2026-07-12'
 const UPDATED = '2026-07-12'
 const TITLE = 'Mosquito Fogger Canada 2026 — Do They Work? Best Models + Fogging Liquid Guide'
-const META_TITLE = 'Mosquito Fogger Canada 2026: Do They Work? Best Models'
+const META_TITLE = 'Mosquito Fogger Canada 2026: Models & Liquid'
 
 const FAQS = [
   {
@@ -49,7 +49,7 @@ const FAQS = [
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'How mosquito foggers work, propane vs electric, which fogging liquid to buy, plus top Canadian models, prices, safety, and the honest limits (temporary knockdown only). Updated 2026.',
+  description: 'Mosquito fogger Canada guide: propane thermal vs electric ULV, which fogging liquid is PMRA-registered here, and why knockdown lasts hours, not weeks.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,

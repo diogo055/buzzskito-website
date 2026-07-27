@@ -53,8 +53,8 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: TITLE,
-  description: 'Mosquitoes bite your ankles and feet because CO2 sinks to ground level, foot bacteria (Brevibacterium — the Limburger-cheese microbe) smell irresistible, and low-flying Aedes hunt there. The science, plus how to stop ankle bites in the GTA.',
+  title: 'Why Do Mosquitoes Bite My Ankles? How to Stop It',
+  description: 'Why do mosquitoes bite my ankles? Exhaled CO2 is 1.5x denser than air and pools at ankle height, and foot bacteria smell like Limburger. Plus 6 fixes.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,

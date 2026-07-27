@@ -13,6 +13,7 @@ const SLUG = 'horse-fly-and-deer-fly-bite-treatment'
 const DATE = '2026-07-13'
 const UPDATED = '2026-07-13'
 const TITLE = 'Horse Fly & Deer Fly Bite Treatment: Relief, Healing, Risks'
+const META_TITLE = 'Deer Fly Bite: Treatment + How Long It Lasts'
 
 const FAQS = [
   {
@@ -50,8 +51,8 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: TITLE,
-  description: 'Horse fly and deer fly bites hurt because their scissor-like mouthparts cut the skin. Fast first aid, a relief remedy table, healing time, infection and allergy warning signs, and how to avoid them.',
+  title: META_TITLE,
+  description: 'A deer fly bite hurts because the fly cuts the skin open. First aid steps, a remedy table, the 2–4 day itch window, and infection red flags.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,

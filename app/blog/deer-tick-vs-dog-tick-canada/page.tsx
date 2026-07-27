@@ -82,8 +82,8 @@ const FAQS = [
 // search it. CTR sat at 0.13% on ~4,600 impressions. Re-ordered to match query order
 // and trimmed under 60 chars so Google stops truncating. Measure before changing again.
 export const metadata: Metadata = buildMetadata({
-  title: 'Deer Tick vs Dog Tick: The 3-Second Difference (Canada)',
-  description: 'Deer ticks are small and plain dark — and the only one carrying Lyme. Dog ticks are bigger with grey-brown markings. Size chart, photos, and what to do after a bite.',
+  title: 'Deer Tick vs Dog Tick: Size, Colour & Lyme Risk',
+  description: 'Deer tick vs dog tick: 3 mm and plain dark vs 5 mm with a mottled grey shield. Only deer ticks carry Lyme in Canada. Full ID table and what to do next.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,

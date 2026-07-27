@@ -20,9 +20,9 @@ const POST = {
 const UPDATED = POST.date
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Are Ticks Dangerous in Ontario 2026? (Worst Areas + Lyme Risk Map)',
+  title: 'Worst Areas for Ticks in Ontario + GTA Lyme Risk',
   description:
-    "Yes — Ontario blacklegged ticks transmit Lyme, Anaplasmosis, Babesiosis, and Powassan. 3,614 confirmed cases in 2025. See which GTA areas are highest-risk (Toronto ravines, Hamilton escarpment, Caledon hills, Rouge Park), how to protect your family, and your household risk score.",
+    'Where ticks are worst in Ontario: Toronto ravines, Mississauga conservation areas, Hamilton escarpment trails. 20–40% of blacklegged ticks there carry Lyme.',
   canonical: `/blog/${POST.slug}`,
   type: 'article',
   publishedTime: POST.date,

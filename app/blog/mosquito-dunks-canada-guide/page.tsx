@@ -77,8 +77,8 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Mosquito Dunks Canada: Price + Home Depot, Canadian Tire',
-  description: 'Mosquito dunks prices compared: Canadian Tire, Home Depot & Rona. What a 6-pack costs in 2026 + how many dunks per rain barrel or pond.',
+  title: 'Mosquito Dunks Canada 2026: Prices + 3 Mistakes',
+  description: 'Mosquito dunks in Canada run $10–$20 a 6-pack in 2026 — Canadian Tire and Home Depot $13.97–$15.99, Rona $14.49–$16.49. One dunk per 50 gallons.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,

@@ -159,8 +159,8 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: `Lyme Disease in Canada: Cases by Province (2026)`,
-  description: `Lyme disease in Canada by province (2026), from the Public Health Agency of Canada — national case counts, the year-by-year trend, and risk areas.`,
+  title: `Lyme Disease Canada: Cases by Province, Ranked`,
+  description: `Lyme disease cases in Canada reached 5,239 in 2024, up from 144 in 2009. Every province and territory ranked: Ontario leads on count, Nova Scotia on rate.`,
   canonical: SLUG,
 })
 

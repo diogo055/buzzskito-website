@@ -56,8 +56,10 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: TITLE,
-  description: 'How many times can a mosquito bite you? A single female bites repeatedly until full or interrupted, does not die after biting, and can bite several people. The numbers, the myths, and how to stop the bites.',
+  // Snippet-answered question. Title narrows to the "in one night" framing and the
+  // description leads with the cluster-of-bites specific the AI Overview omits.
+  title: 'How Many Times Can a Mosquito Bite in One Night',
+  description: 'How many times can a mosquito bite? An undisturbed female fills up in one 2-5 minute meal, so a cluster of 3-4 welts is usually one interrupted mosquito.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,

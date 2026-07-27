@@ -15,9 +15,9 @@ const POST = NEW_BLOGS[6]
 const UPDATED = POST.date
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Is Mosquito Spray Safe for Kids and Pets? Health Canada Approved (2026)',
+  title: 'Is Mosquito Yard Spray Safe for Dogs and Cats?',
   description:
-    "Health Canada-approved mosquito barrier spray: 30-min re-entry window, the science behind pyrethroid safety, and what cat owners need to know. Plus bees, vegetables, breastfeeding moms.",
+    "Is mosquito yard spray safe for dogs? Yes, once it dries, about 30 minutes. Cats need 2-3 hours indoors. What Health Canada approves, plus bees and gardens.",
   canonical: `/blog/${POST.slug}`,
   type: 'article',
   publishedTime: POST.date,

@@ -14,7 +14,7 @@ const SLUG = 'dynatrap-canada-review'
 const DATE = '2026-05-01'
 const UPDATED = '2026-07-12'
 const TITLE = 'DynaTrap Canada 2026 — Honest Review + Where to Buy (Do They Work?)'
-const META_TITLE = 'DynaTrap Canada Review 2026: Do They Actually Work?'
+const META_TITLE = 'DynaTrap Reviews Canada: Do They Really Work?'
 
 const FAQS = [
   {
@@ -85,7 +85,7 @@ const FAQS = [
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'DynaTrap review for Canada: real Costco & Canadian Tire prices, DT1050 vs DT1100 vs DT2030 compared, and the honest answer — do they kill mosquitoes?',
+  description: 'DynaTrap reviews for Canada: independent studies found under 5% of the catch is mosquitoes. DT150 to DT3050 prices compared, plus what works instead.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
