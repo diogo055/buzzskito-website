@@ -298,7 +298,7 @@ export default function PestControlCostCanadaPage() {
                 )
               })}
             </div>
-            <p className="text-xs text-gray-500 mt-5 italic">Bars are scaled to the $3,000 high end of whole-home bed-bug heat treatment. Carpenter ants run higher than general ants ($300–$800). All figures are typical ranges, not fixed prices — severity and property size move every estimate.</p>
+            <p className="text-xs text-gray-500 mt-5 italic">Bars are scaled to the $3,000 high end of whole-home bed-bug heat treatment. <Link href="/blog/carpenter-ants-canada" className="underline hover:text-emerald-700">Carpenter ants</Link> run higher than <Link href="/blog/how-to-get-rid-of-ants-canada" className="underline hover:text-emerald-700">general ants</Link> ($300–$800) because the quote usually includes finding the moisture damage the nest is sitting in. All figures are typical ranges, not fixed prices — severity and property size move every estimate.</p>
           </div>
 
           {/* Full by-pest table */}

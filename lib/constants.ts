@@ -1912,6 +1912,15 @@ export const NEW_BLOGS_32 = [
   { slug: "how-to-get-rid-of-bed-bugs-in-couch-canada", title: "How to Get Rid of Bed Bugs in a Couch (Canada 2026) — Steamer + Spray + Encasement Protocol", excerpt: "How to get rid of bed bugs in a couch in Canada: the vacuum-steam-spray-encase protocol step by step, why heat kills the eggs, choosing a PMRA-registered spray like EcoRaider, and when to save the couch vs replace it. Updated 2026.", date: '2026-07-21', category: 'tick' as const },
 ]
 
+// ── Wave map-to-1000 #4 — Wave 5: 5 crawling / occasional-invader pages (Jul 27 2026) ──
+export const NEW_BLOGS_33 = [
+  { slug: "how-to-get-rid-of-ants-canada", title: "How to Get Rid of Ants in Canada — Why Baiting Beats Every Spray in the Aisle", excerpt: "How to get rid of ants in Canada: why baiting beats spraying, gel vs liquid vs granular bait, and the rule that stops most DIY jobs — never wipe the trail.", date: '2026-07-27', category: 'tick' as const },
+  { slug: "carpenter-ants-canada", title: "Carpenter Ants in Canada — Find the Nest, or You Are Just Killing Ants", excerpt: "Carpenter ants in Canada: telling them from termites, why a winter sighting means a nest inside, why spraying the trail fails, and when to call a pro.", date: '2026-07-27', category: 'tick' as const },
+  { slug: "how-to-get-rid-of-centipedes-canada", title: "How to Get Rid of House Centipedes in Canada — Kill the Prey, Not the Predator", excerpt: "How to get rid of house centipedes in Canada: they are harmless predators, so the real fix is drying the basement to 45-50% RH and killing their prey.", date: '2026-07-27', category: 'tick' as const },
+  { slug: "how-to-get-rid-of-earwigs-canada", title: "How to Get Rid of Earwigs in Canada — Traps, Moisture, and the Ear Myth", excerpt: "How to get rid of earwigs in Canada: the ear myth debunked, why they surge in late summer, and the free oil-tin and newspaper traps that do the work.", date: '2026-07-27', category: 'tick' as const },
+  { slug: "how-to-get-rid-of-boxelder-bugs-canada", title: "How to Get Rid of Boxelder Bugs in Canada — The Sealing Window Nobody Tells You About", excerpt: "Boxelder bugs swarm warm south and west walls across Ontario each fall. Why indoor spraying backfires, and the late-August sealing window that ends it.", date: '2026-07-27', category: 'tick' as const },
+]
+
 // ── Season helpers ─────────────────────────────────────────────────────────────
 
 export const PEAK_SEASON = 'May through July'

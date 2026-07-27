@@ -43,6 +43,11 @@ export const ALL_CLUSTER_TAGS: string[] = Object.values(CLUSTER_TAGS)
 // - bed-bug is checked first so "bed-bug-fogger", "bed-bug-steamer" etc. all group
 //   under the bed-bug cluster (the page topic), not the device.
 // - pest verticals before device verticals, device verticals before the fallback.
+// - occasional invaders / crawlers (centipede, earwig, boxelder, silverfish, clover
+//   mite) deliberately have NO rule — they ride the 'general' tag. Giving them their
+//   own tag means registering a NEW tracking ID in Amazon Associates first; an
+//   unregistered tag earns nothing. Add the rule + CLUSTER_TAGS entry + the mirror in
+//   scripts/check-amazon.mjs only once that ID exists on the account.
 const RULES: Array<[RegExp, Cluster]> = [
   [/bed-?bug|packtite|zappbug|thermalstrike|thermal-strike|sleep-tight|encasement|cimexa|ecoraider/, 'bedbug'],
   [/\btick|lyme|blacklegged/, 'tick'],
