@@ -362,6 +362,7 @@ export default function MosquitoFoggerCanadaPage() {
 
           <h2 id="verdict">The Honest Verdict for GTA Buyers</h2>
           <p>A fogger is a genuinely useful tool &mdash; for the narrow job of clearing your yard right before you use it. If you host the occasional backyard gathering, a $60&ndash;$90 propane fogger plus a bottle of registered fogging liquid is a smart, cheap thing to keep in the shed. What a fogger cannot do is keep your yard livable all summer: the knockdown is over in hours, ticks are largely unaffected, and you would be re-fogging constantly to stay ahead of reinvasion. For baseline, weeks-long control &mdash; and for tick protection &mdash; a residual <Link href="/mosquito-control">professional barrier spray</Link> does far more per dollar and per hour of your time. The best setup for most GTA homeowners is both: a seasonal barrier program for the baseline, and a fogger on the shelf for event-day touch-ups.</p>
+          <p>A fogger is also just one machine in the DIY pest-control toolkit &mdash; if you are weighing backpack sprayers, steamers, or ULV units against each other, the equipment section of our <Link href="/pest-product-guides">pest product guides</Link> sizes and compares that heavier gear for Canadian buyers.</p>
 
           <h2>Related Reading</h2>
           <ul>

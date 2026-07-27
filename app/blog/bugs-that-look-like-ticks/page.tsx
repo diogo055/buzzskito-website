@@ -372,6 +372,7 @@ export default function BugsThatLookLikeTicksPage() {
 
         <h2>When in Doubt, Get a Professional Eye on It</h2>
         <p>If you have found bugs you cannot identify on your property — and especially if you have pets or children playing in the yard — book a <Link href="/free-yard-assessment" className="text-brand-700 underline">free yard assessment</Link>. Our technicians walk every property and can usually identify what you are seeing, point out the high-risk zones, and recommend the right level of treatment.</p>
+        <p>And if the bug turns out to be a bed bug rather than a tick, you are looking at a completely different treatment plan — our <Link href="/pest-product-guides" className="text-brand-700 underline">pest product guides</Link> include a full <Link href="/pest-product-guides/bed-bug-control" className="text-brand-700 underline">bed bug control library</Link> alongside the tick gear we recommend.</p>
 
         <h2>Related Guides</h2>
         <ul>

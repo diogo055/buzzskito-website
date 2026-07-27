@@ -388,6 +388,7 @@ export default function DynaTrapCanadaPage() {
 
           <h2>The Honest Verdict for GTA Buyers</h2>
           <p>If you&rsquo;re shopping for mosquito control specifically, skip DynaTrap and go directly to <Link href="/mosquito-control">professional barrier spray</Link> for whole-yard coverage. If you have a cottage and want a low-effort supplemental device that catches moths and the occasional mosquito while looking ambient on the deck, DynaTrap is fine.</p>
+          <p>One last note for shoppers: a UV trap is only one category of gear, and the rest of what we recommend for Canadian homes — repellents, larvicides, sprayers, and traps aimed at other pests entirely — lives in our <Link href="/pest-product-guides">pest product guides</Link>.</p>
 
           <h2>Related Reading</h2>
           <ul>

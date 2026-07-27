@@ -344,6 +344,7 @@ export default function PermethrinCanadaPage() {
             <li><strong>BTI dunks/bits</strong> in any standing water on your property</li>
             <li><strong>Professional barrier spray</strong> for whole-yard residual protection</li>
           </ol>
+          <p>Each of those five layers is its own buying decision, and the products we have vetted for Canadian availability and PMRA registration — skin repellents, treated clothing, larvicides, area devices — are sorted by pest in our <Link href="/pest-product-guides">guide to Canadian pest control products</Link>.</p>
 
           <h2>Related Reading</h2>
           <ul>

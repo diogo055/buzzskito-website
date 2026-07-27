@@ -285,6 +285,7 @@ export default function BlackFliesOntarioPage() {
 
         <h2>Get a Free Quote</h2>
         <p>If you are tired of dodging black flies in May and June, we can help. Book a <Link href="/free-yard-assessment" className="text-brand-700 underline">free yard assessment</Link> and we will walk through your property, identify rest zones and likely pressure sources, and give you an honest quote for seasonal coverage. We service 19 cities across the GTA — same-week scheduling for new customers during the spring rush.</p>
+        <p>If you would rather gear up for the May–June wave yourself, the repellents, protective clothing, and screened shelters we recommend for Canadian conditions are organised by pest and category in our <Link href="/pest-product-guides" className="text-brand-700 underline">pest product guides</Link>.</p>
 
         <h2>Related Guides</h2>
         <ul>

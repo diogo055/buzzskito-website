@@ -288,6 +288,7 @@ export default function MosquitoBitsCanadaPage() {
             <li><strong>Habitat modification</strong> — drain anything you can drain, mow short, clear leaf litter</li>
             <li><strong>Professional barrier spray</strong> — <Link href="/mosquito-control">BuzzSkito&rsquo;s seasonal program</Link> targets adult mosquitoes flying onto your property, with Health Canada-approved residual formula that lasts 21–30 days per treatment</li>
           </ol>
+          <p>That three-part stack covers mosquitoes, but BTI is only one product on a much longer Canadian shelf — our <Link href="/pest-product-guides">pest product guides</Link> group everything we have researched, from larvicides and traps through to repellents, by pest and by category.</p>
 
           <h2>Related Reading</h2>
           <ul>
