@@ -54,7 +54,7 @@ const FAQS = [
   },
   {
     question: 'What is the best mosquito repellent device?',
-    answer: 'The Thermacell patio repeller is the best mosquito repellent device for real-world use. It warms a repellent mat to create roughly a 20-foot (6 m) zone of protection around a still patio or campsite, with no spray on your skin and no smoke. Skip ultrasonic plug-ins and repellent bracelets — peer-reviewed studies show they have no measurable effect. For whole-yard, multi-week control, a professional barrier spray outperforms any device.',
+    answer: 'The Thermacell patio repeller is the best mosquito repellent device for real-world use. It warms a repellent mat to create roughly a 20-foot (6 m) zone of protection around a still patio or campsite, with no spray on your skin and no smoke. Skip ultrasonic plug-ins and repellent bracelets — peer-reviewed studies show they have no measurable effect. For whole-yard, multi-week control, a professional barrier spray works on a different principle: it leaves a residual on the shaded vegetation where mosquitoes rest, so it covers the entire property instead of one seating area and keeps working between visits.',
   },
   {
     question: 'Do mosquito foggers work?',

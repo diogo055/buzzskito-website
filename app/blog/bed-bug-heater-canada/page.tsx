@@ -142,7 +142,7 @@ export default function BedBugHeaterCanadaPage() {
               {
                 badge: 'Best Luggage-Size',
                 name: 'ThermalStrike Ranger Heated Enclosure',
-                why: 'A fold-flat, panel-heated enclosure sized for suitcases and backpacks — the purpose-built answer to the most common Canadian scenario: bugs hitchhiking home from a hotel in your bag.',
+                why: 'A fold-flat, panel-heated enclosure sized for suitcases and backpacks — the purpose-built answer to a commonly reported entry route into Canadian homes: bugs hitchhiking back from a hotel in your bag.',
                 search: 'thermalstrike bed bug heater luggage',
                 score: 8.3,
                 pros: ['Heating panels on every side reduce cold spots', 'Packs flat; light enough to store in a closet', 'Ideal treat-every-returning-bag habit for travellers'],

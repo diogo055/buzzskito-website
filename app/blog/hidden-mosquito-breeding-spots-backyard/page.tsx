@@ -76,7 +76,7 @@ export default function HiddenBreedingSpotsPage() {
               <li>Mosquitoes can breed in as little as one teaspoon (about 5 ml) of standing water — a bottle cap is enough.</li>
               <li>Above 21&deg;C, mosquito eggs hatch within 24&ndash;48 hours and larvae become biting adults in as little as 7&ndash;10 days.</li>
               <li>One female mosquito lays 100&ndash;200 eggs per batch and produces multiple batches per season.</li>
-              <li>BTI mosquito dunks ($10&ndash;$20 per pack at Canadian Tire and Home Depot) kill larvae within 24 hours and treat about 100 sq ft of water for 30 days — safe for fish, pets, and humans.</li>
+              <li>BTI mosquito dunks ($10&ndash;$20 per pack at Canadian Tire and Home Depot) are labelled to kill mosquito larvae within 24 hours, with one dunk treating about 100 sq ft of water for 30 days — safe for fish, pets, and humans.</li>
               <li>Mosquitoes can fly up to 3 km, so source elimination alone cuts your on-property population 40&ndash;60%; adding barrier spray reaches 85&ndash;95%.</li>
               <li>Properly chlorinated pools cannot support mosquito larvae, but rainwater pooling on the pool cover can.</li>
             </ul>

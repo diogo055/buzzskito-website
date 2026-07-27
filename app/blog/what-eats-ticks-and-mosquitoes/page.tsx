@@ -219,7 +219,7 @@ export default function WhatEatsTicksAndMosquitoesPage() {
           <h2>What Actually Works: A Layered Plan</h2>
           <p>The realistic way to enjoy an Ontario backyard combines habitat control, personal protection, and targeted treatment. Predators are a bonus layer on top.</p>
           <ol>
-            <li><strong>Remove standing water.</strong> This beats every predator combined. A female mosquito needs only a bottle cap of water. Empty birdbaths, buckets, toys, and plant saucers weekly, and unclog your gutters. For water you cannot drain, drop in BTI (Bti, a mosquito-specific bacterial larvicide) dunks.</li>
+            <li><strong>Remove standing water.</strong> This does more than any predator can, because it stops mosquitoes from being produced at all rather than removing a fraction of the adults after they emerge. A female mosquito needs only a bottle cap of water. Empty birdbaths, buckets, toys, and plant saucers weekly, and unclog your gutters. For water you cannot drain, drop in BTI (Bti, a mosquito-specific bacterial larvicide) dunks.</li>
             <li><strong>Deny ticks their habitat.</strong> Mow to 3–4 inches, clear leaf litter at yard edges, and keep a dry wood-chip or gravel strip between lawn and any woods or tall grass — ticks avoid crossing it.</li>
             <li><strong>Invite the good predators.</strong> A clean, stocked or aerated water feature brings dragonflies and frogs; native plantings support birds and beneficial insects.</li>
             <li><strong>Protect people directly.</strong> Use an approved repellent (DEET, picaridin/icaridin, or oil of lemon eucalyptus), tuck pants into socks in tick country, and treat clothing and footwear with permethrin.</li>

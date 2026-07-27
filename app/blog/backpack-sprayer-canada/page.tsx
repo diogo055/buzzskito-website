@@ -205,11 +205,11 @@ export default function BackpackSprayerCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="vevor battery backpack sprayer 4 gallon">VEVOR 4-gal (budget) →</BuyLink>
           </div>
 
-          <h2>What Our Technicians Actually Carry — and Why It Matters for Your Pick</h2>
-          <p>From May through September, BuzzSkito technicians run spray equipment across 19 GTA cities five days a week. Our trucks carry commercial gear — gas-powered mist blowers and pro-grade backpack units — but the physics of a good yard treatment is identical whether the tank costs $200 or $2,000. Three things decide the result:</p>
+          <h2>What We Actually Carry on the Van — and Why It Matters for Your Pick</h2>
+          <p>From May through September, BuzzSkito runs spray equipment across 19 GTA cities five days a week. Our van carries commercial gear — gas-powered mist blowers and pro-grade backpack units — but the physics of a good yard treatment is identical whether the tank costs $200 or $2,000. Three things decide the result:</p>
           <ul>
             <li><strong>Constant pressure.</strong> Mosquitoes rest on the <em>undersides</em> of leaves in shaded vegetation. Only a steady 40–60 PSI cone pattern produces droplets fine enough to wrap around foliage and coat those surfaces. Pressure that sags mid-tank leaves invisible gaps — and gaps are where the bites come from.</li>
-            <li><strong>Comfort for 30–45 minutes.</strong> A full 4-gallon tank is roughly 15 kg of liquid plus the unit itself — about 20 kg (45 lb) total. If the straps hurt at minute ten, you rush the back fence line. Every technician we&rsquo;ve trained sprayed worse when the gear fit badly.</li>
+            <li><strong>Comfort for 30–45 minutes.</strong> A full 4-gallon tank is roughly 15 kg of liquid plus the unit itself — about 20 kg (45 lb) total. If the straps hurt at minute ten, you rush the back fence line. Gear that carries badly shows up as thin, hurried coverage at the far end of the yard &mdash; every time.</li>
             <li><strong>Nozzle control.</strong> A fine cone for shrubs and leaf undersides; a coarser fan for the lawn-edge tick zone. One fixed nozzle means one of those jobs gets done poorly.</li>
           </ul>
           <p>That&rsquo;s the lens for every recommendation below: not spec-sheet maximums, but whether the unit holds pressure, carries comfortably, and switches patterns. It&rsquo;s also why every pick is battery-powered — after years of watching people (including our own early crew) fight manual pumps, we consider constant pressure the single biggest upgrade a homeowner can buy.</p>
@@ -273,7 +273,7 @@ export default function BackpackSprayerCanadaPage() {
           <ol>
             <li><strong>After every use:</strong> triple-rinse the tank, then spray clean water through the wand until it runs clear. Residue that dries in the line is tomorrow&rsquo;s clog.</li>
             <li><strong>Monthly in season:</strong> pull the nozzle tips and inline filter, rinse, and check O-rings. A worn 50-cent O-ring is the usual cause of the drip that soaks your lower back.</li>
-            <li><strong>Before first frost:</strong> drain the tank, pump, hose, and wand completely and let everything air-dry with the lid off. Water trapped in a diaphragm pump at −20°C expands and splits it — the most common fatal injury we see in homeowner gear.</li>
+            <li><strong>Before first frost:</strong> drain the tank, pump, hose, and wand completely and let everything air-dry with the lid off. Water trapped in a diaphragm pump at −20°C expands and splits it — the single most common cold-weather failure in homeowner gear.</li>
             <li><strong>Battery over winter:</strong> pull the lithium pack, charge to about half, and store it <em>indoors</em>. A full or empty lithium battery left in an unheated Ontario garage loses permanent capacity by spring.</li>
             <li><strong>Spring wake-up:</strong> silicone grease on seals and O-rings, run a tank of plain water first, and check every fitting under pressure before the first real load.</li>
           </ol>

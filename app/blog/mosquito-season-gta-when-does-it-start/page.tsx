@@ -154,7 +154,7 @@ export default function MosquitoSeasonPage() {
         </aside>
 
         <h2>What to Do While You Wait for the Season (and Your First Treatment)</h2>
-        <p>Booked your first barrier spray for early May but still getting bitten on a warm April evening? Or waiting for the truck between treatments? A portable repeller buys you a comfortable patio in the meantime. The most popular option in Canada is the <strong>Thermacell</strong> — a battery or fuel-powered device that creates a roughly 20&nbsp;ft (15&nbsp;sq&nbsp;m) zone of protection around a chair or table without sprays, sticky lotions, or citronella smoke.</p>
+        <p>Booked your first barrier spray for early May but still getting bitten on a warm April evening? Or waiting for the truck between treatments? A portable repeller buys you a comfortable patio in the meantime. The best-known option in Canada is the <strong>Thermacell</strong> — a battery or fuel-powered device that creates a roughly 20&nbsp;ft (15&nbsp;sq&nbsp;m) zone of protection around a chair or table without sprays, sticky lotions, or citronella smoke.</p>
         <p>It won&rsquo;t protect an entire yard the way a professional <Link href="/mosquito-control" className="text-brand-700">barrier treatment</Link> does, but for a single seating area it&rsquo;s the fastest same-day fix while the season warms up.</p>
 
         <AffiliateDisclosure />

@@ -150,7 +150,7 @@ export default function MosquitoLarvaePage() {
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-3">How do you kill mosquito larvae in standing water?</h2>
           <p className="speakable text-base text-gray-800 leading-relaxed mb-5">
-            <strong>The fastest way to kill mosquito larvae is to drain the water — this kills 100% of larvae instantly and costs nothing.</strong> If the water cannot be drained (a rain barrel, ornamental pond, or drainage ditch), drop in a BTI larvicide such as Mosquito Dunks or Mosquito Bits. BTI is a naturally occurring soil bacterium that kills mosquito larvae within 24 hours and is harmless to fish, frogs, pets, birds, bees, and people. One dunk treats about 100 square feet of water surface for 30 days and costs $10&ndash;$20 at Canadian Tire, Home Depot, or Rona.
+            <strong>The fastest way to kill mosquito larvae is to drain the water — this kills 100% of larvae instantly and costs nothing.</strong> If the water cannot be drained (a rain barrel, ornamental pond, or drainage ditch), drop in a BTI larvicide such as Mosquito Dunks or Mosquito Bits. BTI is a naturally occurring soil bacterium that kills mosquito larvae within 24 hours and is harmless to fish, frogs, pets, birds, bees, and people. One dunk treats about 100 square feet of water surface for 30 days, and a pack is one of the cheaper things in the garden aisle at Canadian Tire, Home Depot, or Rona.
           </p>
           <AffiliateDisclosure />
           <div className="mb-6 flex flex-wrap items-center gap-3">
@@ -309,7 +309,7 @@ export default function MosquitoLarvaePage() {
           <h2>How to Get Rid of Mosquito Larvae (Ranked by Effectiveness)</h2>
           <ol>
             <li><strong>Drain the water (best).</strong> Empty the container, fix the drainage, or eliminate the water source. 100% effective, free, instant.</li>
-            <li><strong>BTI Mosquito Dunks or Bits.</strong> Drop in any water you can&rsquo;t drain (rain barrel, ornamental pond, drainage ditch). BTI is a soil bacterium that kills only mosquito larvae — completely safe for fish, frogs, pets, humans, beneficial insects. $10–$20 at Canadian Tire / Home Depot. Lasts 30 days per dunk. <Link href="/blog/mosquito-dunks-canada-guide">Full Mosquito Dunks Canada guide</Link>, or compare the two formats in <Link href="/blog/mosquito-bits-canada-vs-dunks">Mosquito Bits vs Dunks</Link> — Bits act faster, Dunks last longer.</li>
+            <li><strong>BTI Mosquito Dunks or Bits.</strong> Drop in any water you can&rsquo;t drain (rain barrel, ornamental pond, drainage ditch). BTI is a soil bacterium that kills only mosquito larvae — completely safe for fish, frogs, pets, humans, beneficial insects. Sold at Canadian Tire and Home Depot — one of the cheapest fixes on the shelf. Lasts 30 days per dunk. <Link href="/blog/mosquito-dunks-canada-guide">Full Mosquito Dunks Canada guide</Link>, or compare the two formats in <Link href="/blog/mosquito-bits-canada-vs-dunks">Mosquito Bits vs Dunks</Link> — Bits act faster, Dunks last longer.</li>
             <li><strong>Add fish to ornamental ponds.</strong> Goldfish, koi, and mosquitofish eat larvae aggressively. A stocked pond rarely needs treatment.</li>
             <li><strong>Cooking oil or dish soap (last resort).</strong> A small amount on the water surface disrupts the larvae&rsquo;s breathing siphon. Effective in disposable containers; don&rsquo;t use in environmental water (kills other organisms).</li>
           </ol>

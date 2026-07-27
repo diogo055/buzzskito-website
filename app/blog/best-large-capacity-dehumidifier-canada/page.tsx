@@ -322,7 +322,6 @@ export default function BestLargeCapacityDehumidifierCanadaPage() {
             <li><Link href="/blog/best-dehumidifier-for-mold-canada">Best Dehumidifier for Mould Canada — Humidity Thresholds</Link></li>
             <li><Link href="/blog/best-air-purifier-for-dust-mites-canada">Best Air Purifier for Dust Mites Canada</Link></li>
             <li><Link href="/blog/best-hepa-vacuum-for-bed-bugs-and-fleas-canada">Best Sealed-HEPA Vacuum for Bed Bugs &amp; Fleas Canada</Link></li>
-            <li><Link href="/blog/best-air-purifier-for-allergies-canada">Best Air Purifier for Allergies Canada</Link></li>
           </ul>
 
           <div className="not-prose mt-10 rounded-xl border border-navy-100 bg-brand-50 px-5 py-4">

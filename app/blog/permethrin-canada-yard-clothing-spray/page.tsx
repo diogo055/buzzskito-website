@@ -22,7 +22,7 @@ const FAQS = [
   },
   {
     question: 'Where to buy permethrin spray in Canada?',
-    answer: 'Permethrin clothing spray (Sawyer brand, the most popular) is widely available in Canada at Cabela\'s Canada, Bass Pro Shops Canada, MEC, Canadian Tire, and Atmosphere. Pricing for the 24-oz Sawyer permethrin clothing spray runs $24–$38 in Canadian retailers. Permethrin yard concentrate (for outdoor application) is more restricted in Canada — Health Canada PCP regulations limit residential availability. Most yard-application permethrin in Canada is restricted to licensed pest control operators using commercial concentrations.',
+    answer: 'Permethrin clothing spray (Sawyer brand, the one Canadian retailers actually stock) is widely available in Canada at Cabela\'s Canada, Bass Pro Shops Canada, MEC, Canadian Tire, and Atmosphere. Pricing for the 24-oz Sawyer permethrin clothing spray runs $24–$38 in Canadian retailers. Permethrin yard concentrate (for outdoor application) is more restricted in Canada — Health Canada PCP regulations limit residential availability. Most yard-application permethrin in Canada is restricted to licensed pest control operators using commercial concentrations.',
   },
   {
     question: 'Where can I buy permethrin concentrate in Canada?',
@@ -34,7 +34,7 @@ const FAQS = [
   },
   {
     question: 'How much does permethrin cost in Canada?',
-    answer: 'Sawyer permethrin clothing spray (24 oz, the most common consumer product) runs $24–$38 across Canadian retailers in 2026. Smaller 12-oz bottles are $18–$28. Permethrin-treated clothing (Sawyer Insect Shield brand) costs $40–$120 per garment depending on style. Yard-application permethrin concentrate is mostly NOT available to Canadian consumers — Health Canada restricts higher-concentration formulations to licensed applicators. Professional barrier spray treatments by licensed Ontario operators (which use bifenthrin-based formulations approved by Health Canada) start from $99 per treatment.',
+    answer: 'Sawyer permethrin clothing spray (24 oz, the standard consumer size) runs $24–$38 across Canadian retailers in 2026. Smaller 12-oz bottles are $18–$28. Permethrin-treated clothing (Sawyer Insect Shield brand) costs $40–$120 per garment depending on style. Yard-application permethrin concentrate is mostly NOT available to Canadian consumers — Health Canada restricts higher-concentration formulations to licensed applicators. Professional barrier spray treatments by licensed Ontario operators (which use bifenthrin-based formulations approved by Health Canada) start from $99 per treatment.',
   },
   {
     question: 'Can I buy permethrin yard spray in Canada?',
@@ -236,7 +236,7 @@ export default function PermethrinCanadaPage() {
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
-          <p className="not-prose text-sm text-gray-600 mb-1">The most-recommended permethrin brand in Canada is Sawyer — for clothing, gear, and tents (never skin):</p>
+          <p className="not-prose text-sm text-gray-600 mb-1">The permethrin brand you will find in Canadian stores is Sawyer — for clothing, gear, and tents (never skin):</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="sawyer permethrin clothing spray">Check Sawyer Permethrin price on Amazon.ca →</BuyLink>
           </div>

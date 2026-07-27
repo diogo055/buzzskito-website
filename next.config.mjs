@@ -323,6 +323,21 @@ const nextConfig = {
       { source: '/home/f/mosquito-control-in-etobicoke-%E2%80%93-2025-guide',
         destination: '/etobicoke-mosquito-control', permanent: true },
 
+      // ── Retired off-moat appliance guides → product hub (2026-07-27) ─────────
+      // These 8 posts drifted into generic consumer air-quality/allergy appliance
+      // reviews — a category BuzzSkito, a licensed mosquito & tick control
+      // company, has no business publishing. Deleted and consolidated into the
+      // product hub so any residual authority and inbound links land somewhere
+      // relevant instead of 404ing.
+      { source: '/blog/best-air-purifier-for-wildfire-smoke-canada', destination: '/pest-product-guides', permanent: true },
+      { source: '/blog/best-air-purifier-for-mold-spores-canada',    destination: '/pest-product-guides', permanent: true },
+      { source: '/blog/best-air-purifier-for-pet-dander-canada',     destination: '/pest-product-guides', permanent: true },
+      { source: '/blog/best-air-purifier-for-allergies-canada',      destination: '/pest-product-guides', permanent: true },
+      { source: '/blog/best-air-purifier-for-large-room-canada',     destination: '/pest-product-guides', permanent: true },
+      { source: '/blog/best-hepa-vacuum-for-allergies-canada',       destination: '/pest-product-guides', permanent: true },
+      { source: '/blog/best-ozone-generator-canada',                 destination: '/pest-product-guides', permanent: true },
+      { source: '/blog/levoit-vs-coway-air-purifier-canada',         destination: '/pest-product-guides', permanent: true },
+
       // ── Catch-all wildcards — must be LAST ───────────────────────────────────
       // These catch any remaining /f/* or /home/f/* URL not explicitly mapped
       { source: '/f/:path*',      destination: '/mosquito-control', permanent: true },

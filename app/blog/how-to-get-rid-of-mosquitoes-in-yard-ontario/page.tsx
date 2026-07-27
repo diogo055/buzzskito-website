@@ -65,7 +65,7 @@ export default function HowToGetRidOfMosquitoesInYardOntarioPage() {
             <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The most effective way to get rid of mosquitoes in your Ontario yard is a layered approach: eliminate every standing-water source, treat water you can&apos;t drain with BTI mosquito dunks, apply a professional barrier spray to shrubs and fence-line resting sites, and re-treat every 3&ndash;4 weeks from May through September. This reduces mosquito populations 85&ndash;95%, versus 15&ndash;30% for repellent-only tactics.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
               <li>Mosquitoes can&apos;t breed without standing water &mdash; one uncovered birdbath can produce thousands of mosquitoes per week.</li>
-              <li>BTI mosquito dunks ($10&ndash;$20 per pack at Canadian Tire and Home Depot) kill larvae within 24 hours and treat up to 100 sq ft of water for 30 days.</li>
+              <li>BTI mosquito dunks (a low-cost garden-aisle buy at Canadian Tire and Home Depot) kill larvae within 24 hours and treat up to 100 sq ft of water for 30 days.</li>
               <li>Professional barrier spray on vegetation gives up to 30 days of residual control; single treatments start at $99.</li>
               <li>Source elimination plus barrier spray reduces mosquito populations 85&ndash;95%, versus 15&ndash;30% for DIY-only tactics.</li>
               <li>Mosquitoes are weak fliers stopped by wind above about 1.5 m/s, so a patio fan creates an instant mosquito-free zone.</li>
@@ -99,7 +99,7 @@ export default function HowToGetRidOfMosquitoesInYardOntarioPage() {
         <p>Clogged gutters accumulate organic debris and standing water at the roofline — a hidden breeding site most homeowners never check. Clean once in early May and again in mid-July, plus after major storms. Consider gutter guards if your property has heavy tree cover.</p>
 
         <h3>3. Treat Rain Barrels with BTI Mosquito Dunks</h3>
-        <p>Rain barrels are productive mosquito breeding sites unless treated. BTI (Bacillus thuringiensis israelensis) mosquito dunks are the gold-standard solution &mdash; the widely sold Summit Mosquito Dunks are the reference product. They kill mosquito larvae within 24 hours and are completely safe for fish, pets, beneficial insects, and humans (<a href="https://www.canada.ca/en/health-canada/services/consumer-product-safety/pesticides-pest-management.html" rel="noopener" className="text-brand-700 hover:underline">Health Canada</a> registers BTI as a low-risk larvicide). One dunk treats up to 100 sq ft of water surface for 30 days.</p>
+        <p>Rain barrels are productive mosquito breeding sites unless treated. BTI (Bacillus thuringiensis israelensis) mosquito dunks are the gold-standard solution &mdash; the widely sold Summit Mosquito Dunks are the reference product. Their label rates them to kill mosquito larvae within 24 hours, and they are completely safe for fish, pets, beneficial insects, and humans (<a href="https://www.canada.ca/en/health-canada/services/consumer-product-safety/pesticides-pest-management.html" rel="noopener" className="text-brand-700 hover:underline">Health Canada</a> registers BTI as a low-risk larvicide). One dunk treats up to 100 sq ft of water surface for 30 days.</p>
         <p><BuyLink tag={AMZ_TAG} search="summit mosquito dunks">Check Summit Mosquito Dunks prices on Amazon.ca &rarr;</BuyLink> For dosing, brand comparisons, and safety notes, see our <Link href="/blog/mosquito-dunks-canada-guide" className="text-brand-700 hover:underline">complete guide to mosquito dunks in Canada</Link>.</p>
 
         <TopPick tag={AMZ_TAG}
@@ -138,7 +138,7 @@ export default function HowToGetRidOfMosquitoesInYardOntarioPage() {
         <p>Old tree holes that collect rainwater are productive breeding sites — fill with sand or expanding foam. Driveway catch basins and yard drains can hold water for weeks; treat with BTI dunks if water persists.</p>
 
         <h3>12. Maintain Through the Full Season — Don't Stop in July</h3>
-        <p>Mosquito populations rebuild within 2–3 weeks if treatments stop. The most common mistake Ontario homeowners make is stopping mosquito control in late July when activity dips, then having a misery-spike in August. Continue barrier spray treatments through mid-September for full-season protection.</p>
+        <p>Mosquito populations rebuild within 2–3 weeks if treatments stop. A common mistake Ontario homeowners make is stopping mosquito control in late July when activity dips, then having a misery-spike in August. Continue barrier spray treatments through mid-September for full-season protection.</p>
 
 
         <h2>Bottom Line</h2>

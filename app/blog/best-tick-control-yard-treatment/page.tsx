@@ -150,11 +150,11 @@ export default function BestTickControlPage() {
         </div>
 
         <h2>Professional Barrier Spray: Why It's the Gold Standard</h2>
-        <p>Professional-grade residual insecticides applied by trained technicians consistently outperform all DIY alternatives for residential tick control. The advantages are straightforward:</p>
+        <p>Professional-grade residual insecticides are not a different chemistry from consumer products so much as a different concentration, coverage, and application standard &mdash; and for residential tick control, those three things are what decide the outcome. The specific differences:</p>
         <ul>
           <li><strong>Higher active ingredient concentration:</strong> Professional products have significantly higher concentrations than consumer products, providing better knockdown and longer residual activity.</li>
           <li><strong>Targeting expertise:</strong> Effective tick control requires thorough coverage of the specific microhabitats where ticks concentrate — lawn edges, leaf litter zones, under-deck areas, fence lines. A trained technician identifies and treats all these sites. Most homeowners miss some.</li>
-          <li><strong>Up to 30-day protection:</strong> Professional tick treatments provide the longest residual protection of any residential option — three times longer than the best consumer products.</li>
+          <li><strong>Up to 30-day protection:</strong> A professional treatment is formulated and applied for a full residual window, where most consumer ready-to-use sprays are labelled for days rather than weeks — so DIY needs re-application far more often to hold the same coverage.</li>
           <li><strong>All life stages:</strong> The professional formula kills adult ticks, nymphs, and larvae on contact — not just adults.</li>
           <li><strong>Guaranteed results:</strong> BuzzSkito backs every tick treatment with a free retreatment guarantee if ticks return within the protection window.</li>
         </ul>

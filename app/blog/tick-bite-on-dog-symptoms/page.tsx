@@ -134,7 +134,7 @@ export default function TickBiteOnDogSymptomsPage() {
           <p>If any appear and persist 24+ hours, call your vet.</p>
 
           <h3>Day 7–21 (anaplasmosis / ehrlichiosis window)</h3>
-          <p>Two of the most common Ontario tick-borne diseases — anaplasmosis and ehrlichiosis — show symptoms in this window:</p>
+          <p>Two tick-borne infections reported in Ontario — anaplasmosis and ehrlichiosis — show symptoms in this window:</p>
           <ul>
             <li>Lethargy and reduced energy</li>
             <li>Fever (above 39.5°C / 103°F)</li>

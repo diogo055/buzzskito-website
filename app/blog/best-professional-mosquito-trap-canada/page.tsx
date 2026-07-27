@@ -94,7 +94,7 @@ export default function BestProfessionalMosquitoTrapCanadaPage() {
             <span className="text-white">Best Professional Mosquito Trap Canada</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
-          <p className="text-xl text-brand-100 max-w-3xl">Pro-grade propane CO₂ trapping systems and larvicide autodissemination stations, compared for Canadian acreage and estate-size yards &mdash; how each attacks the mosquito life cycle, real coverage and running cost, correct placement, and where a same-day barrier spray still beats every trap.</p>
+          <p className="text-xl text-brand-100 max-w-3xl">Pro-grade propane CO₂ trapping systems and larvicide autodissemination stations, compared for Canadian acreage and estate-size yards &mdash; how each attacks the mosquito life cycle, real coverage and running cost, correct placement, and why a trap works by attrition over weeks while a same-day barrier spray cuts the biting population the afternoon it is applied.</p>
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>

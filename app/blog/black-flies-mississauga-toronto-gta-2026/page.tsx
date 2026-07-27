@@ -113,7 +113,7 @@ export default function BlackFliesMississaugaTorontoGTAPage() {
         </aside>
 
         <h2>The headline: black flies arrived early this year</h2>
-        <p>By the second week of May 2026, Mississauga residents were already posting in neighbourhood Facebook groups about being chased indoors. Toronto Star and CityNews both ran early-season coverage flagging an unusually aggressive insect spring. The pattern is consistent with what we see at BuzzSkito on technician routes: black fly emergence is running roughly two weeks ahead of the typical curve, and the suburban GTA — Mississauga, Oakville, Burlington, Vaughan, Markham — is bearing most of the impact.</p>
+        <p>By the second week of May 2026, Mississauga residents were already posting in neighbourhood Facebook groups about being chased indoors. Toronto Star and CityNews both ran early-season coverage flagging an unusually aggressive insect spring. The pattern is consistent with what we see at BuzzSkito on our own service routes: black fly emergence is running roughly two weeks ahead of the typical curve, and the suburban GTA — Mississauga, Oakville, Burlington, Vaughan, Markham — is bearing most of the impact.</p>
         <p>This is not unusual in the broad sense. Black flies emerge every spring in Ontario. What is unusual is the timing and the intensity, which we believe is driven by a mild April that warmed streams faster than usual and pushed the larval development cycle forward.</p>
 
         <h2>The cottage-country migration pattern (and why it matters for the GTA)</h2>

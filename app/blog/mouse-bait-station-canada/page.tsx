@@ -108,7 +108,7 @@ export default function MouseBaitStationCanadaPage() {
               <li>Health Canada&rsquo;s rodenticide risk-mitigation rules took effect in January 2013, pulling second-generation anticoagulants from all consumer shelves in Canada.</li>
               <li>Consumer-legal actives are limited to first-generation anticoagulants (warfarin, chlorophacinone, diphacinone) and bromethalin, sold only inside tamper-resistant stations.</li>
               <li>Tomcat disposable stations use 0.01% bromethalin and are label-rated to kill up to 12 mice per station.</li>
-              <li>Bromethalin kills after a single feeding, typically within 24–48 hours — and it has no antidote, unlike anticoagulant baits.</li>
+              <li>Bromethalin is an acute neurotoxin, lethal from a single feeding, with death documented at roughly 24–48 hours — and it has no antidote, unlike anticoagulant baits.</li>
               <li>Mice rarely travel more than 3–9 metres from the nest; place stations every 2–3 metres along active walls for results.</li>
               <li>Every legal product carries a PMRA registration number under the Pest Control Products Act — no number on the label means it is not legal in Canada.</li>
             </ul>

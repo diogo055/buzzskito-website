@@ -319,7 +319,6 @@ export default function BestCommercialFlyLightTrapCanadaPage() {
             <li><Link href="/blog/best-pest-control-equipment-canada">Best Pest Control Equipment Canada — The Full Device Hub</Link></li>
             <li><Link href="/blog/backpack-sprayer-canada">Best Backpack Sprayer Canada — Drain and Surface Treatment</Link></li>
             <li><Link href="/blog/best-pump-pressure-sprayer-canada">Best Pump Pressure Sprayer Canada</Link></li>
-            <li><Link href="/blog/best-ozone-generator-canada">Best Ozone Generator Canada — Odour and Sanitation</Link></li>
             <li><Link href="/blog/best-gas-backpack-fogger-canada">Best Gas Backpack Fogger Canada</Link></li>
             <li><Link href="/blog/best-professional-mosquito-trap-canada">Best Professional Mosquito Trap Canada</Link></li>
           </ul>

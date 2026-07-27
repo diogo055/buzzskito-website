@@ -330,7 +330,7 @@ export default function BestRodentRepellentForCarsCanadaPage() {
             <li><strong>5. Light the bay.</strong> Mount the battery strobe unit under the hood; check its batteries monthly, because deep cold drains them faster than the box promises.</li>
             <li><strong>6. Scent the cabin.</strong> Fresh peppermint pouches in the cabin, trunk, and glovebox; replace monthly when you do the battery check.</li>
             <li><strong>7. Trap the perimeter.</strong> Snap traps along the storage-bay walls and beside the tires, checked on the same monthly visit. Park on pavement rather than grass or gravel if you have the choice — mice prefer approach routes with cover.</li>
-            <li><strong>8. Disturb the peace.</strong> If the car can be started and moved a few metres monthly, do it. Vibration, noise, and a hot engine reset the &ldquo;abandoned shelter&rdquo; clock better than any product.</li>
+            <li><strong>8. Disturb the peace.</strong> If the car can be started and moved a few metres monthly, do it. Vibration, noise, and a hot engine reset the &ldquo;abandoned shelter&rdquo; clock &mdash; they signal that the space is occupied, which is the one thing a deterrent left sitting in a parked car cannot do.</li>
           </ul>
           <p>Eight steps, one afternoon, one monthly ten-minute visit. Compare that to the alternative: a spring start-up that ends with a tow truck and a harness quote.</p>
 

@@ -327,7 +327,6 @@ export default function ThermalVsUlvFoggerCanadaPage() {
             <li><Link href="/blog/backpack-sprayer-canada">Best Backpack Sprayer Canada — Liquid Application</Link></li>
             <li><Link href="/blog/best-pump-pressure-sprayer-canada">Best Pump Pressure Sprayer Canada</Link></li>
             <li><Link href="/blog/field-king-backpack-sprayer-review-canada">Field King Backpack Sprayer Review Canada</Link></li>
-            <li><Link href="/blog/best-ozone-generator-canada">Best Ozone Generator Canada — The No-Liquid Alternative</Link></li>
             <li><Link href="/blog/best-pest-control-equipment-canada">Best Pest Control Equipment Canada — The Full Device Hub</Link></li>
           </ul>
 

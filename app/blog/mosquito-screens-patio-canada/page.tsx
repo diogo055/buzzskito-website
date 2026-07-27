@@ -26,7 +26,7 @@ const FAQS = [
   },
   {
     question: 'How much does a screened gazebo or pop-up screen house cost in Canada?',
-    answer: 'In 2026, a basic pop-up screen house (roughly 10×10 ft, instant-setup fibreglass poles) runs $120–$250 at Canadian Tire or Walmart. A sturdier steel-frame screened gazebo (10×12 ft with a proper roof) is $300–$700, and a large 12×14 ft hardtop screened gazebo can reach $900–$2,000. Add-on mosquito netting curtain kits that clip onto an existing open gazebo or pergola cost $80–$300. Costco Canada often has the best pricing on the larger steel-frame and hardtop models during its spring outdoor-living sale (April–May); the pop-up units are cheapest at Canadian Tire and Walmart.',
+    answer: 'In 2026, a basic pop-up screen house (roughly 10×10 ft, instant-setup fibreglass poles) runs $120–$250 at Canadian Tire or Walmart. A sturdier steel-frame screened gazebo (10×12 ft with a proper roof) is $300–$700, and a large 12×14 ft hardtop screened gazebo can reach $900–$2,000. Add-on mosquito netting curtain kits that clip onto an existing open gazebo or pergola cost $80–$300. Costco Canada typically discounts the larger steel-frame and hardtop models during its spring outdoor-living sale (April–May), and the pop-up units are usually cheapest at big-box retailers like Canadian Tire and Walmart. Treat every figure here as a 2026 ballpark — outdoor-living pricing moves with the season and the sale calendar, so check the current shelf price before you budget.',
   },
   {
     question: 'Do patio mosquito screens or netting work as well as spraying the yard?',

@@ -318,7 +318,7 @@ export default function LymeDiseasePage() {
 
         {/* Author bio */}
         <p className="text-sm text-gray-500 mt-10 pt-6 border-t border-gray-200">
-          BuzzSkito is a licensed mosquito and tick control provider serving Mississauga, Toronto, Brampton, Oakville, Burlington, Hamilton, and the broader GTA. Our technicians are trained in integrated pest management and apply only Health Canada-registered products. For medical advice on tick bites or Lyme disease, consult a licensed healthcare provider. For tick identification, visit <a href="https://etick.ca" target="_blank" rel="noopener noreferrer" className="text-brand-700 hover:underline">eTick.ca</a> or <a href="https://www.publichealthontario.ca" target="_blank" rel="noopener noreferrer" className="text-brand-700 hover:underline">Public Health Ontario</a>.
+          BuzzSkito is a licensed mosquito and tick control provider serving Mississauga, Toronto, Brampton, Oakville, Burlington, Hamilton, and the broader GTA. Our technician is trained in integrated pest management and applies only Health Canada-registered products. For medical advice on tick bites or Lyme disease, consult a licensed healthcare provider. For tick identification, visit <a href="https://etick.ca" target="_blank" rel="noopener noreferrer" className="text-brand-700 hover:underline">eTick.ca</a> or <a href="https://www.publichealthontario.ca" target="_blank" rel="noopener noreferrer" className="text-brand-700 hover:underline">Public Health Ontario</a>.
         </p>
 
       </article>

@@ -298,7 +298,6 @@ export default function BestDehumidifierForMoldCanadaPage() {
             <li><Link href="/blog/best-dehumidifier-for-basement-canada">Best Dehumidifier for a Canadian Basement — Placement &amp; Seasonal Use</Link></li>
             <li><Link href="/blog/best-large-capacity-dehumidifier-canada">Best Large-Capacity Dehumidifier Canada — For the Wettest Spaces</Link></li>
             <li><Link href="/blog/best-air-purifier-for-dust-mites-canada">Best Air Purifier for Dust Mites Canada — The Same Damp Enemy</Link></li>
-            <li><Link href="/blog/best-air-purifier-for-allergies-canada">Best Air Purifier for Allergies Canada</Link></li>
             <li><Link href="/blog/best-hepa-vacuum-for-bed-bugs-and-fleas-canada">Best Sealed-HEPA Vacuum for Bed Bugs &amp; Fleas Canada</Link></li>
             <li><Link href="/blog/best-pest-control-equipment-canada">Best Pest-Control Equipment Canada — The Full Device Hub</Link></li>
           </ul>

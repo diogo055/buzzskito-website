@@ -23,11 +23,11 @@ const FAQS = [
   },
   {
     question: 'Where to buy mosquito bits in Canada?',
-    answer: 'Mosquito Bits are widely available across Canadian retailers: Canadian Tire (the most common stockist), Home Depot Canada, Rona, Lowe\'s Canada, garden centres, and Amazon.ca. The most-stocked brand is Summit Chemical (orange and green container — same brand as the popular dunks). A typical 8-oz container runs $15–$25. The 30-oz value pack at Costco runs $35–$55 and treats 4–8 times the area, making it the better deal for properties with multiple rain barrels or standing water sources.',
+    answer: 'Mosquito Bits are widely available across Canadian retailers: Canadian Tire, Home Depot Canada, Rona, Lowe\'s Canada, garden centres, and Amazon.ca. The brand Canadian stores commonly carry is Summit Chemical (orange and green container — same brand as the dunks). A typical 8-oz container runs $15–$25. The 30-oz value pack at Costco runs $35–$55 and treats 4–8 times the area, making it the better deal for properties with multiple rain barrels or standing water sources.',
   },
   {
     question: 'Mosquito Bits vs Mosquito Dunks — which should I use?',
-    answer: 'Same active ingredient (BTI), different release speed. Use DUNKS for long-term water sources (rain barrels, ornamental ponds, decorative water features) — they slow-release for 30 days. Use BITS for fast emergency knockdown or for water sources you don\'t want to look at a tablet floating in (small bird baths, kiddie pools, neglected pet bowls, drainage trays). Many homeowners use both: dunks dropped in the rain barrel for set-and-forget, bits sprinkled when you find larvae somewhere unexpected. Bits work in 30 minutes vs dunks taking 4 hours; bits last 7–14 days vs dunks lasting 30 days.',
+    answer: 'Same active ingredient (BTI), different release speed. Use DUNKS for long-term water sources (rain barrels, ornamental ponds, decorative water features) — they slow-release for 30 days. Use BITS for fast emergency knockdown or for water sources you don\'t want to look at a tablet floating in (small bird baths, kiddie pools, neglected pet bowls, drainage trays). Many homeowners use both: dunks dropped in the rain barrel for set-and-forget, bits sprinkled when you find larvae somewhere unexpected. Bits release their BTI within about 30 minutes while dunks release theirs slowly; on Summit\'s labelling, bits give 7–14 days of control versus about 30 days for a dunk.',
   },
   {
     question: 'How much do mosquito bits cost in Canada?',
@@ -39,7 +39,7 @@ const FAQS = [
   },
   {
     question: 'How fast do mosquito bits work?',
-    answer: 'Mosquito Bits start working within 30 minutes of contact with water. The BTI is released as the corn-cob granules absorb water, and larvae begin dying within 1–4 hours. Full kill of all larvae in the treated water typically completes within 24 hours. By comparison, mosquito dunks take 4–8 hours to begin working but last 30 days vs bits lasting 7–14 days.',
+    answer: 'Mosquito Bits are the fast-release BTI format: the corn-cob granules absorb water and start releasing BTI within about 30 minutes. Larvae have to eat the BTI for it to work, so the kill is not instant — Summit rates full larvae kill in treated water within 24 hours on the product label. Dunks carry the same BTI in a slow-release tablet, labelled for roughly 30 days of coverage versus 7–14 days for Bits.',
   },
   {
     question: 'Can I use mosquito bits in my rain barrel?',
@@ -130,7 +130,7 @@ export default function MosquitoBitsCanadaPage() {
           <p className="text-xs font-extrabold text-emerald-700 uppercase tracking-wider mb-2">Where to Buy in Canada · Updated July 2026</p>
           <h2 className="text-2xl font-extrabold text-brand-900 mb-4">Mosquito Bits: Where to Buy in Canada</h2>
           <p className="text-sm text-gray-700 mb-5 leading-relaxed">
-            Summit Chemical Mosquito Bits (orange and green container) is the most widely-stocked brand across Canadian retailers. Pricing varies by retailer and time of year — buy in spring before peak-season markup.
+            Summit Chemical Mosquito Bits (orange and green container) is the version you will usually find on Canadian shelves. Pricing varies by retailer and time of year — buy in spring before peak-season markup.
           </p>
           <AffiliateDisclosure />
           <div className="rounded-xl border border-navy-100 overflow-hidden bg-white shadow-sm">
@@ -214,7 +214,7 @@ export default function MosquitoBitsCanadaPage() {
                 {[
                   ['Active ingredient', 'BTI', 'BTI (same)'],
                   ['Format', 'Corn-cob granules', 'Donut-shaped tablet'],
-                  ['Release speed', 'Fast — 30 minutes', 'Slow — 4 hours start'],
+                  ['Release speed', 'Fast — about 30 minutes', 'Slow, sustained release'],
                   ['Duration', '7–14 days per application', '~30 days per dunk'],
                   ['Best for', 'Quick knockdown, small water', 'Long-term water sources'],
                   ['Visibility in water', 'Disperses, less visible', 'Floating tablet visible'],
@@ -245,7 +245,7 @@ export default function MosquitoBitsCanadaPage() {
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
           <h2>How Mosquito Bits Work</h2>
           <p>Mosquito Bits are corn-cob granules coated with BTI (<em>Bacillus thuringiensis</em> subspecies <em>israelensis</em>) — a soil bacterium discovered in 1976 that specifically targets the digestive systems of mosquito and black fly larvae. The corn-cob granules float briefly when sprinkled onto water, then sink as they absorb moisture. As the bits dissolve, they release BTI proteins into the water column where larvae filter-feed. Not sure the wrigglers you found are mosquito larvae? Our <Link href="/blog/mosquito-larvae-identification">mosquito larvae identification guide</Link> shows exactly what to look for before you treat.</p>
-          <p>BTI is one of the most species-specific insecticides ever developed. It only affects mosquito larvae, black fly larvae, and a few related midge species. Humans, pets, fish, frogs, dragonflies, water beetles, beneficial insects, pollinators, and birds are completely unaffected. Health Canada has approved BTI for residential use, and some provinces approve it for drinking water reservoirs.</p>
+          <p>BTI is one of the most species-specific insecticides ever developed. It only affects mosquito larvae, black fly larvae, and a few related midge species. Humans, pets, fish, frogs, dragonflies, water beetles, beneficial insects, pollinators, and birds are completely unaffected. Health Canada has approved BTI for residential use, and some provinces approve it for drinking water reservoirs. The timings quoted throughout this guide — full larvae kill within 24 hours, 7&ndash;14 days of control from Bits, about 30 days from a Dunk — are Summit&rsquo;s own product-label figures, not our field measurements.</p>
 
           <h2>When to Use Bits Instead of Dunks</h2>
           <ul>

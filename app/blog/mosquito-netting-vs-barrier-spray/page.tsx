@@ -185,7 +185,7 @@ export default function MosquitoNettingVsSprayPage() {
           <p>This costs around $1,000–$2,000 in year one (gazebo + first season of spray) and $549–$994/year after.</p>
 
           <h2>The Real Cost of Doing Nothing</h2>
-          <p>The most common Ontario homeowner choice is &ldquo;put up with it&rdquo; — citronella candles on the patio, swatting between bites, cutting outdoor time short. The hidden cost: you stop using your backyard. A 1,500 sq ft yard you don&rsquo;t use is the most expensive square footage on your property.</p>
+          <p>Plenty of Ontario homeowners default to &ldquo;put up with it&rdquo; — citronella candles on the patio, swatting between bites, cutting outdoor time short. The hidden cost: you stop using your backyard. A 1,500 sq ft yard you don&rsquo;t use is the most expensive square footage on your property.</p>
           <p>If you&rsquo;re reading this guide, you&rsquo;re past the &ldquo;put up with it&rdquo; phase. The honest question is whether netting (defined zone protection) or spray (whole-yard protection) fits your specific outdoor lifestyle.</p>
 
           <h2>Related Reading</h2>

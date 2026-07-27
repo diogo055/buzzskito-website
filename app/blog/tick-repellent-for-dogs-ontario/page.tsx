@@ -18,7 +18,7 @@ const TITLE = 'Tick Repellent for Dogs: What Actually Works (Ontario 2026)'
 const FAQS = [
   {
     question: 'What is the best tick repellent for dogs?',
-    answer: 'Veterinarians in Ontario recommend a prescription oral or topical preventative as the primary defence: oral isoxazolines (NexGard, Simparica, Bravecto, Credelio) kill ticks within 8–24 hours of attachment, and topical treatments (K9 Advantix II, Frontline Plus) repel or kill on contact. Only K9 Advantix II actively repels ticks before they bite; the oral products kill after the tick attaches. Speak to your veterinarian before starting any product — dosage depends on your dog\'s weight, age, and health history.',
+    answer: 'Veterinarians in Ontario recommend a prescription oral or topical preventative as the primary defence: the oral isoxazolines (NexGard, Simparica, Bravecto, Credelio) are labelled to kill ticks within roughly 8 to 24 hours of attachment, and topical treatments (K9 Advantix II, Frontline Plus) repel or kill on contact. Only K9 Advantix II actively repels ticks before they bite; the oral products kill after the tick attaches. Speak to your veterinarian before starting any product — dosage depends on your dog\'s weight, age, and health history.',
   },
   {
     question: 'What kills ticks on dogs instantly?',
@@ -290,7 +290,7 @@ export default function TickRepellentForDogsPage() {
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
 
           <h2>&ldquo;What Kills Ticks on Dogs Instantly?&rdquo; &mdash; The Honest Answer</h2>
-          <p>Nothing does. It is the most-searched phrase on this topic and it sets a false expectation. The fastest veterinary preventatives &mdash; the oral isoxazolines &mdash; kill an attached tick in roughly <strong>8 to 24 hours</strong>. Nothing you can buy kills a tick the moment it lands.</p>
+          <p>Nothing does. It is the most-searched phrase on this topic and it sets a false expectation. The fastest veterinary preventatives &mdash; the oral isoxazolines &mdash; are labelled to kill an attached tick in roughly <strong>8 to 24 hours</strong>. Nothing you can buy kills a tick the moment it lands.</p>
           <p>That sounds like bad news but it is not, because of how transmission works: a blacklegged tick usually needs to be <strong>attached for 24 to 48 hours</strong> before it passes the Lyme bacterium. A preventative that kills within 24 hours therefore beats the clock in most cases. And if you find a tick on your dog right now, the correct move is not medication at all &mdash; it is <strong>immediate mechanical removal</strong> with fine-tipped tweezers or a tick tool, gripping at skin level and pulling straight up with steady pressure.</p>
 
           <h2>Do Dog Ticks Carry Lyme Disease?</h2>

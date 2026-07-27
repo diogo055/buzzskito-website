@@ -43,7 +43,7 @@ const FAQS = [
   },
   {
     question: 'Do emerald cedars attract bugs?',
-    answer: 'Emerald cedars (Thuja occidentalis \'Smaragd\'), the most popular privacy hedge in the GTA, do not attract bugs chemically — cedar mildly repels insects. But when planted as a dense hedge and left untrimmed, they trap shade, moisture, and still air, giving mosquitoes and ticks an ideal daytime resting spot. A single specimen tree in open lawn causes no problem. The fix is management: prune to open the interior, clear the base, and treat the foliage.',
+    answer: 'Emerald cedars (Thuja occidentalis \'Smaragd\'), one of the most widely planted privacy hedges in the GTA, do not attract bugs chemically — cedar mildly repels insects. But when planted as a dense hedge and left untrimmed, they trap shade, moisture, and still air, giving mosquitoes and ticks an ideal daytime resting spot. A single specimen tree in open lawn causes no problem. The fix is management: prune to open the interior, clear the base, and treat the foliage.',
   },
   {
     question: 'Do juniper trees attract mosquitoes?',

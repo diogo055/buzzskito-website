@@ -112,7 +112,7 @@ export default function BlackFlagElectricFoggerReviewCanadaPage() {
               <li>The fog gives a strong same-evening knockdown but little lasting residue &mdash; re-fog before each event.</li>
               <li>In Canada, the insecticide you put in it must carry a Health Canada PCP (PMRA) registration number &mdash; do not import grey-market US concentrate.</li>
               <li>For acreage, a gas thermal fogger or battery backpack sprayer reaches farther.</li>
-              <li>For 21&ndash;30 days of whole-yard protection &mdash; and tick control &mdash; a licensed barrier spray beats any fogger.</li>
+              <li>For 21&ndash;30 days of whole-yard protection &mdash; and tick control &mdash; a licensed barrier spray works differently: it leaves a residual on the foliage mosquitoes rest on, which a fog does not.</li>
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150 five-star Google reviews</p>
           </div>

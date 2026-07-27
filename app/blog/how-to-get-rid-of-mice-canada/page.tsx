@@ -17,7 +17,7 @@ const TITLE = 'How to Get Rid of Mice in Canada 2026 — The 4-Step Plan That Ac
 const FAQS = [
   {
     question: 'How do you get rid of mice fast in Canada?',
-    answer: 'Run all four steps at once: strip the kitchen of accessible food the same day, deploy at least 12 snap traps along walls on night one (trap-line research shows the first night out-catches every night after), seal every exterior gap of 6 mm or more with coarse steel wool backed by caulk, and keep sentinel traps down for 7–10 quiet nights. Homes that trap without sealing re-catch new mice every fall; homes that do both are typically mouse-free in 1–3 weeks.',
+    answer: 'Run all four steps at once: strip the kitchen of accessible food the same day, deploy at least 12 snap traps along walls on night one (trap-line research shows the first night out-catches every night after), seal every exterior gap of 6 mm or more with coarse steel wool backed by caulk, and keep sentinel traps down for 7–10 quiet nights. Homes that trap without sealing re-catch new mice every fall; doing both at once is what ends the cycle instead of repeating it each autumn.',
   },
   {
     question: 'What time of year do mice enter houses in Canada?',
@@ -100,7 +100,7 @@ export default function HowToGetRidOfMiceCanadaPage() {
         <div className="max-w-4xl mx-auto">
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">To get rid of mice in Canada, run four steps simultaneously: strip accessible food from the kitchen the same day, deploy 12 or more snap traps along walls on night one (the Victor M325 is our standing pick), seal every exterior gap of 6 mm or more with coarse steel wool backed by caulk plus door sweeps, and keep sentinel traps down until you log 7–10 consecutive quiet nights. Trapping without sealing just restocks the house every fall; done together, most Canadian homes are clear in 1–3 weeks.</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">To get rid of mice in Canada, run four steps simultaneously: strip accessible food from the kitchen the same day, deploy 12 or more snap traps along walls on night one (the Victor M325 is our standing pick), seal every exterior gap of 6 mm or more with coarse steel wool backed by caulk plus door sweeps, and keep sentinel traps down until you log 7–10 consecutive quiet nights. Trapping without sealing just restocks the house every fall; done together, they remove the animals already inside and close the openings that let the next wave in.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
               <li>A mouse can squeeze through a 6 mm gap — the width of a standard pencil.</li>
               <li>The Canadian entry wave runs September–November, as overnight temperatures drop toward 10°C.</li>
@@ -162,12 +162,12 @@ export default function HowToGetRidOfMiceCanadaPage() {
               </tbody>
             </table>
           </div>
-          <p>Done together, a typical Canadian house problem is over in 1–3 weeks. Each step gets its own section below.</p>
+          <p>Done together, the four steps close out the problem instead of leaving it to repeat each autumn. Each step gets its own section below.</p>
 
           <h2>Step 1 — How Do You Cut Off Their Food? (The Kitchen Sanitation Triangle)</h2>
           <p>Deny the three things a mouse needs within its 3–9 metre foraging range: <strong>food, water, and harbourage</strong>. This is the sanitation triangle, and you can close most of it in an afternoon:</p>
           <ul>
-            <li><strong>Food:</strong> Move everything in gnawable packaging — cereal, rice, flour, pet kibble, birdseed — into glass, metal, or hard plastic containers. Vacuum the crumb zones behind the stove and fridge, and lift pet food bowls overnight; kibble left out is one of the most common mouse food sources in Canadian homes.</li>
+            <li><strong>Food:</strong> Move everything in gnawable packaging — cereal, rice, flour, pet kibble, birdseed — into glass, metal, or hard plastic containers. Vacuum the crumb zones behind the stove and fridge, and lift pet food bowls overnight; kibble left out is a commonly reported draw in Canadian homes, and it is a far easier meal than anything a mouse has to gnaw its way into.</li>
             <li><strong>Water:</strong> Mice need very little free water, so small sources matter — fix dripping taps, wipe sinks dry at night, address condensation around the hot water tank.</li>
             <li><strong>Harbourage:</strong> Get stored boxes off the floor onto shelving, break down loose cardboard (mice shred it for nesting), and open up cluttered corners in the basement and garage.</li>
           </ul>

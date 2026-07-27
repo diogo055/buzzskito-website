@@ -29,7 +29,7 @@ const FAQS = [
   },
   {
     question: 'Do all people with Lyme disease get the bullseye rash?',
-    answer: 'No. An estimated 20 to 30 percent of people who develop Lyme disease never notice a rash, and among those who do, the rash frequently lacks the textbook bullseye ring. Some people also do not recall being bitten, because the nymph-stage tick responsible for most infections is only about the size of a poppy seed. This is why you should not wait for a bullseye: if you develop unexplained fever, fatigue, or aches within weeks of possible tick exposure, especially in a risk area, see a healthcare provider.',
+    answer: 'No. The CDC estimates the erythema migrans rash appears in about 70 to 80 percent of infected people, which leaves roughly 20 to 30 percent who never develop or never notice one, and among those who do, the rash frequently lacks the textbook bullseye ring. Some people also do not recall being bitten, because the nymph-stage tick responsible for most infections is only about the size of a poppy seed. This is why you should not wait for a bullseye: if you develop unexplained fever, fatigue, or aches within weeks of possible tick exposure, especially in a risk area, see a healthcare provider.',
   },
   {
     question: 'Can you have Lyme without a rash?',

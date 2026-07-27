@@ -147,7 +147,7 @@ export default function BestBedBugFoggerCanadaPage() {
               {
                 badge: 'Better Chemical Step',
                 name: 'PMRA-Registered Residual Crack-and-Crevice Spray',
-                why: 'If you are set on a chemical step, a directed residual spray injected into seams, cracks, and screw holes beats any fog — it puts product exactly where bugs shelter and keeps killing for weeks. This is where fogger money is better spent.',
+                why: 'If you are set on a chemical step, a directed residual spray injected into seams, cracks, and screw holes does what a fog cannot — it puts product exactly where bugs shelter and keeps killing for weeks, whereas a fog only settles on exposed surfaces. This is where fogger money is better spent.',
                 search: 'bed bug crack crevice spray canada',
                 score: 8.3,
                 pros: ['Targets harbourage directly', 'Weeks of residual activity', 'Far more useful than an aerosol fog'],

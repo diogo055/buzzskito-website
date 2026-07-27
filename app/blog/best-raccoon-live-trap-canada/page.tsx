@@ -318,9 +318,7 @@ export default function BestRaccoonLiveTrapCanadaPage() {
           <ul>
             <li><Link href="/blog/best-pest-control-equipment-canada">Best Pest Control Equipment in Canada — The Full Device Hub</Link></li>
             <li><Link href="/blog/motion-activated-sprinkler-canada">Motion-Activated Sprinkler Canada — Deter Raccoons and Wildlife</Link></li>
-            <li><Link href="/blog/best-ozone-generator-canada">Best Ozone Generator Canada — Clearing Animal Odours After the Fact</Link></li>
             <li><Link href="/blog/best-hepa-vacuum-for-bed-bugs-and-fleas-canada">Best Sealed-HEPA Vacuum for Bed Bugs &amp; Fleas Canada</Link></li>
-            <li><Link href="/blog/best-air-purifier-for-allergies-canada">Best Air Purifier for Allergies Canada</Link></li>
           </ul>
 
           <div className="not-prose mt-10 rounded-xl border border-navy-100 bg-brand-50 px-5 py-4">

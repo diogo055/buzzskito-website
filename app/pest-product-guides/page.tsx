@@ -142,13 +142,13 @@ const RESEARCH: Category[] = [
     href: '/blog/best-pest-control-equipment-canada',
     name: 'DIY Pest-Control Equipment',
     icon: '🛠️',
-    count: '32 guides',
+    count: '24 guides',
     tone: 'research',
     blurb: 'The heavy gear — foggers, backpack sprayers, air purifiers, dehumidifiers and steamers — sized and compared for Canadian buyers.',
     posts: [
       { href: '/blog/best-thermal-fogger-canada', label: 'Thermal & ULV Foggers', note: 'Pulse-jet vs cold fog' },
       { href: '/blog/best-battery-backpack-sprayer-canada', label: 'Backpack Sprayers', note: 'Battery vs manual' },
-      { href: '/blog/best-air-purifier-for-mold-spores-canada', label: 'Air Purifiers', note: 'True-HEPA by room size' },
+      { href: '/blog/best-air-purifier-for-dust-mites-canada', label: 'Air Purifiers', note: 'Sealed-HEPA for allergen' },
       { href: '/blog/best-steam-cleaner-for-pest-control-canada', label: 'Steam Cleaners', note: 'Chemical-free heat' },
     ],
   },
@@ -171,7 +171,7 @@ const FAQS = [
   },
   {
     question: 'How many product guides are there, and how are they organised?',
-    answer: 'There are 230+ individual guides across nine categories: two we treat (Mosquito Gear and Tick Gear, picked by our technicians) and seven independent research libraries — Bed Bug Control, Rodent & Attic, Wildlife & Yard Animals, Flies & Gnats, Wasps/Hornets & Bees, Roaches/Spiders & Crawlers, and DIY Pest-Control Equipment. Bed bugs is the largest at 47 guides. Every one links only to products available on amazon.ca.',
+    answer: 'There are 220+ individual guides across nine categories: two we treat (Mosquito Gear and Tick Gear, picked by our technicians) and seven independent research libraries — Bed Bug Control, Rodent & Attic, Wildlife & Yard Animals, Flies & Gnats, Wasps/Hornets & Bees, Roaches/Spiders & Crawlers, and DIY Pest-Control Equipment. Bed bugs is the largest at 47 guides. Every one links only to products available on amazon.ca.',
   },
   {
     question: 'What does "PMRA domestic-class" mean, and why does it matter?',
@@ -193,7 +193,7 @@ const FAQS = [
 
 export const metadata: Metadata = buildMetadata({
   title: TITLE,
-  description: 'The gear BuzzSkito\'s licensed GTA technicians recommend for mosquitoes and ticks, plus 230+ independent, PMRA-legal Canadian product guides for bed bugs, rodents, wildlife, flies, wasps and more. Every pick is available on amazon.ca — no grey-market US products.',
+  description: 'The gear BuzzSkito\'s licensed GTA technicians recommend for mosquitoes and ticks, plus 220+ independent, PMRA-legal Canadian product guides for bed bugs, rodents, wildlife, flies, wasps and more. Every pick is available on amazon.ca — no grey-market US products.',
   canonical: `/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
