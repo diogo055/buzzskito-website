@@ -433,7 +433,7 @@ export default function MississaugaMosquitoControlPage() {
           <p className="text-center text-gray-500 text-sm mb-8">From our 150+ five-star Google reviews</p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {[
-              { author: 'Sarah M.', location: 'Port Credit', text: 'BuzzSkito treated our backyard in Mississauga and we noticed a huge difference immediately. No mosquitoes at our outdoor birthday party! The technician was professional and on time. Highly recommend.' },
+              { author: 'Katharine M.', location: 'Mississauga', text: 'Fantastic experience with the mosquito control last summer! We\u2019re re-signing for this season once again \u2014 we can finally enjoy our yard again in Mississauga.' },
               { author: 'Priya R.', location: 'Meadowvale', text: 'Called on a Tuesday, they were at my home by Thursday. The technician explained exactly what product they were using and why it\'s safe for our dog. Couldn\'t be happier with the results.' },
               { author: 'Jason T.', location: 'Erin Mills', text: 'Our house backs onto a stormwater pond and mosquitoes were terrible every summer. After the first BuzzSkito treatment the difference was night and day. We signed up for the full season.' },
               { author: 'Amanda K.', location: 'Streetsville', text: 'We live near the Credit River and tried everything — citronella, zappers, store sprays. Nothing worked until BuzzSkito. Professional service, great communication, and our yard is actually usable now.' },

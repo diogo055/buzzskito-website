@@ -309,7 +309,7 @@ export default function BurlingtonMosquitoPage() {
           <p className="text-center text-gray-500 text-sm mb-8">From our 150+ five-star Google reviews</p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {[
-              { author: 'Mike T.', location: 'Alton Village', text: 'Second year using BuzzSkito for the season package. Consistent, reliable, and actually works. Our backyard in Burlington used to be unbearable by July — now we\'re out there every evening.' },
+              { author: 'Anthony', location: 'Milton', text: 'Highly recommend this company for mosquito control. I got my house in Milton serviced recently and loved the end result!' },
               { author: 'Sandra H.', location: 'Roseland', text: 'Our mature garden near the lake was a mosquito magnet. BuzzSkito treated it carefully around all our plants and the results were immediate. Very professional team.' },
               { author: 'Greg W.', location: 'Aldershot', text: 'Living near the waterfront means mosquitoes every summer. We tried everything before calling BuzzSkito. One treatment made more difference than years of citronella candles.' },
               { author: 'Lisa M.', location: 'Millcroft', text: 'The stormwater pond behind our house made our backyard unusable. BuzzSkito changed that completely. Great communication, professional service, and our yard is finally enjoyable.' },

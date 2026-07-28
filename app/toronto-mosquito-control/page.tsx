@@ -432,9 +432,9 @@ export default function TorontoMosquitoPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {[
               { author: 'Linda C.', location: 'Rosedale', text: 'Very impressed with the SMS alerts before and after service. Our Toronto property backs onto a ravine so mosquitoes are a real issue — after the first treatment the difference was night and day.' },
-              { author: 'Sarah M.', location: 'Leaside', text: 'BuzzSkito treated our backyard and we noticed a huge difference immediately. No mosquitoes at our outdoor birthday party! The technician was professional and on time. Highly recommend.' },
+              { author: 'Katharine M.', location: 'Mississauga', text: 'Fantastic experience with the mosquito control last summer! We\u2019re re-signing for this season once again \u2014 we can finally enjoy our yard again in Mississauga.' },
               { author: 'Chris W.', location: 'The Beaches', text: 'Living near the lake means mosquitoes every summer. We tried everything — candles, zappers, sprays from the hardware store. One BuzzSkito treatment did more than all of them combined.' },
-              { author: 'Mike T.', location: 'Etobicoke', text: 'Second year using BuzzSkito for the season package. Consistent, reliable, and actually works. Our backyard used to be unbearable by July — now we\'re out there every evening.' },
+              { author: 'Anthony', location: 'Milton', text: 'Highly recommend this company for mosquito control. I got my house in Milton serviced recently and loved the end result!' },
             ].map(({ author, location, text }) => (
               <div key={author} className="bg-brand-50 rounded-2xl p-6 border border-brand-100">
                 <div className="flex items-center gap-1 mb-3">

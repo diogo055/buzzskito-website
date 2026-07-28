@@ -321,8 +321,8 @@ export default function TorontoTickSprayPage() {
             {[
               { author: 'Linda C.', location: 'Rosedale', text: 'Our property backs onto the Don Valley ravine and we found ticks on our dog multiple times. After BuzzSkito treated the perimeter, problem solved. The technician was very knowledgeable about ravine-specific tick zones.' },
               { author: 'Chris W.', location: 'The Beaches', text: 'With young kids playing near the ravine behind our house, tick prevention is non-negotiable. BuzzSkito handles it professionally and the SMS alerts before and after service are a great touch.' },
-              { author: 'Mike T.', location: 'Etobicoke', text: 'Living near the Humber Valley means ticks are part of the landscape. BuzzSkito treated our fence line and garden edges — exactly where ticks were coming from. No more finding them on our clothes after gardening.' },
-              { author: 'Sarah M.', location: 'Leaside', text: 'We bundle mosquito and tick treatments and the convenience is fantastic. One visit covers both. The technician explained exactly why the lawn edge and leaf litter areas are where ticks actually live.' },
+              { author: 'Anthony', location: 'Milton', text: 'Highly recommend this company for mosquito control. I got my house in Milton serviced recently and loved the end result!' },
+              { author: 'Katharine M.', location: 'Mississauga', text: 'Fantastic experience with the mosquito control last summer! We\u2019re re-signing for this season once again \u2014 we can finally enjoy our yard again in Mississauga.' },
             ].map(({ author, location, text }) => (
               <div key={author} className="bg-brand-50 rounded-2xl p-6 border border-brand-100">
                 <div className="flex items-center gap-1 mb-3">

@@ -321,7 +321,7 @@ export default function MississaugaTickPage() {
               { author: 'Priya R.', location: 'Meadowvale', text: 'The technician explained exactly what product they were using and why it\'s safe for our dog. Treated the garden edges and fence line where ticks were coming from. Couldn\'t be happier with the results.' },
               { author: 'Amanda K.', location: 'Streetsville', text: 'We live near the Credit River and found a tick on our daughter after playing in the yard. Called BuzzSkito and they were out within days. No more ticks since the treatment.' },
               { author: 'Jason T.', location: 'Lorne Park', text: 'Our property backs onto wooded ravine and tick prevention is a must for us. BuzzSkito knows exactly where to treat and the results are consistent every season.' },
-              { author: 'Sarah M.', location: 'Port Credit', text: 'We bundle mosquito and tick control and the convenience is great — one visit covers both. Professional service, excellent communication, and peace of mind for our family.' },
+              { author: 'Katharine M.', location: 'Mississauga', text: 'Fantastic experience with the mosquito control last summer! We\u2019re re-signing for this season once again \u2014 we can finally enjoy our yard again in Mississauga.' },
             ].map(({ author, location, text }) => (
               <div key={author} className="bg-brand-50 rounded-2xl p-6 border border-brand-100">
                 <div className="flex items-center gap-1 mb-3">

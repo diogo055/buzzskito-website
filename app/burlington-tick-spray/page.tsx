@@ -236,7 +236,7 @@ export default function BurlingtonTickPage() {
               { author: 'Sandra H.', location: 'Roseland', text: 'Our property backs onto Escarpment trails and ticks were a constant worry with our dog. BuzzSkito treated the fence line and garden edges — exactly where the ticks were coming from. Problem solved.' },
               { author: 'Greg W.', location: 'Headon Forest', text: 'Found a tick on my daughter after she was playing near the back fence. Called BuzzSkito the next day and they were out within the week. Professional, knowledgeable, and the treatment worked immediately.' },
               { author: 'Lisa M.', location: 'Alton Village', text: 'We bundle mosquito and tick control and the convenience is fantastic. One visit covers both. The technician explained exactly why certain areas of our yard were higher risk than others.' },
-              { author: 'Mike T.', location: 'North Burlington', text: 'Living near the Royal Botanical Gardens means tick prevention is a must. BuzzSkito handles it professionally and we haven\'t found a single tick since they started treating our yard.' },
+              { author: 'Anthony', location: 'Milton', text: 'Highly recommend this company for mosquito control. I got my house in Milton serviced recently and loved the end result!' },
             ].map(({ author, location, text }) => (
               <div key={author} className="bg-brand-50 rounded-2xl p-6 border border-brand-100">
                 <div className="flex items-center gap-1 mb-3">
