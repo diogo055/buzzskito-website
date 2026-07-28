@@ -54,7 +54,10 @@ const RULES: Array<[RegExp, Cluster]> = [
   [/mosquito|dynatrap|mosquito-magnet|west-nile|thermacell|permethrin|picaridin|\bdeet\b|repellent|citronella/, 'mosquito'],
   [/raccoon|deer|electric-fence|fence-charger|fence-for|repeller|yard-enforcer|havahart|zareba|nuisance-wildlife|spray-away|live-animal-trap|live-trap|motion-activated-sprinkler/, 'wildlife'],
   [/mouse|mice|\brat\b|rat-|rats\b|rodent|attic|\brv\b|rv-|vole|chipmunk|\bmole|squirrel|gopher|exclusion|goodnature|\ba24\b|rat-zapper/, 'rodent'],
-  [/horse-?fly|\bflies\b|fly-trap|fly-light|fly-killer|drain-fly|fungus-gnat|\bgnat|h-trap|faicuk|fly-sconce/, 'flies'],
+  // NOTE: `h-trap` (the H-Trap horse-fly trap) MUST stay anchored with \b — unanchored
+  // it swallows any slug ending in "h" before "-trap", e.g. silverfis|h-trap|s and
+  // roac|h-trap|s, which would bill roach and silverfish clicks to the flies tag.
+  [/horse-?fly|\bflies\b|fly-trap|fly-light|fly-killer|drain-fly|fungus-gnat|\bgnat|\bh-trap|faicuk|fly-sconce/, 'flies'],
   [/wasp|hornet|\bbee\b|bee-suit|yellow-?jacket|nest/, 'wasp'],
   [/carpenter-ant|\bants?\b|ant-control|ant-kit/, 'ant'],
   [/roach|cockroach/, 'roach'],

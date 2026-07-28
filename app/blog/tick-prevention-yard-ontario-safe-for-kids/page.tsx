@@ -176,6 +176,19 @@ export default function TickPreventionYardKidsPage() {
             <li><strong>Relocate play structures</strong> — if possible, move swings and play areas to the sunniest, most central part of the yard, away from borders</li>
           </ul>
 
+          <h2>The DIY Yard Layer: Treating the Edge Yourself</h2>
+          <p>Mowing, mulch strips, and leaf removal make the property edge less hospitable, but they do not kill the ticks already questing there. If you want to treat the edge yourself between professional visits — or you are not ready to book a technician at all — a cedar-oil yard concentrate that hooks onto a garden hose is the practical DIY option for the 1&ndash;3 metre border zone. It is the layer that actually reduces the number of ticks your children can walk into, which is why we put it ahead of anything you spray on skin.</p>
+          <TopPick tag={AMZ_TAG}
+            label="Our Top Pick for the Yard"
+            name="Wondercide Cedar-Oil Yard Spray (hose-end)"
+            blurb="A cedarwood-oil yard concentrate that attaches to a garden hose and covers roughly 465 m² — enough for the perimeter strip on a typical Ontario lot. Cedar oil kills and repels ticks on contact and is the DIY option parents pick most often because children and pets can return to the lawn once it dries. Treat the fence line, garden borders, and the base of hedges rather than the open lawn."
+            search="wondercide cedar oil yard spray ticks"
+            score={8.4}
+            pros={['Treats the actual questing zone, not just your skin', 'Kid- and pet-safe once dry', 'Hose-end applicator — no mixing or sprayer needed']}
+            cons={['Shorter residual than professional barrier spray — reapply every 3–4 weeks', 'Cedar scent is noticeable for a day']}
+          />
+          <p>For a wider comparison of DIY yard options — granules, concentrates, and tick tubes — see our guide to the <Link href="/blog/best-tick-repellent-yard-canada" className="text-brand-700 hover:underline">best tick repellent for your yard in Canada</Link>.</p>
+
           <h2>Is Professional Barrier Spray Safe for Children and Pets?</h2>
           <p>This is the question BuzzSkito gets most often from parents, and it deserves a direct answer: <strong>yes, Health Canada–approved tick barrier spray is safe for children and pets after a 30-minute drying period.</strong></p>
           <p>Here's the regulatory context. In Canada, all pesticides must be registered with Health Canada under the <em>Pest Control Products Act</em> before they can be sold or applied commercially. Registration requires rigorous safety testing including exposure scenarios for children and sensitive populations. The active ingredients in professional tick barrier spray — pyrethrins or synthetic pyrethroids like bifenthrin — are the same chemical class used in many common household products, including head lice treatments for children.</p>
@@ -200,7 +213,7 @@ export default function TickPreventionYardKidsPage() {
           <p>Yard treatment lowers the tick population where your children play, but a skin-applied repellent adds a second layer for trips to the park, cottage, or trail. For children, <strong>picaridin (icaridin)</strong> is the pediatric-friendly choice many parents prefer over DEET — Health Canada permits it for children as young as six months, it is odourless, and it will not damage plastics or clothing. Apply it to exposed skin before outdoor play and reapply per the label.</p>
           <p className="not-prose my-4"><BuyLink tag={AMZ_TAG} search="picaridin insect repellent canada">Check price on Amazon.ca →</BuyLink></p>
           <TopPick tag={AMZ_TAG}
-            label="Our Top Pick for Kids"
+            label="Our Top Pick for the Skin Layer"
             name="Picaridin (Icaridin) Insect Repellent"
             blurb="The pediatric-friendly skin layer many Ontario parents prefer over DEET — Health Canada permits picaridin for children as young as six months, it is odourless, and it will not damage plastics or clothing. Apply to exposed skin before outdoor play and reapply per the label."
             search="picaridin insect repellent canada"
@@ -270,7 +283,7 @@ export default function TickPreventionYardKidsPage() {
         </div>
       </section>
 
-      <StickyBuyBar tag={AMZ_TAG} name="Picaridin (Icaridin) Insect Repellent" search="picaridin insect repellent canada" label="Top pick for kids" />
+      <StickyBuyBar tag={AMZ_TAG} name="Wondercide Cedar-Oil Yard Spray (hose-end)" search="wondercide cedar oil yard spray ticks" label="Top pick for the yard" />
 
       <CTASection heading="Protect Your Family from Ticks This Season" subtext="Health Canada–approved barrier spray safe for children and pets after 30 minutes. No contracts." variant="dark" />
     </>

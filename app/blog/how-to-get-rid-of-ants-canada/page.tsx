@@ -416,6 +416,7 @@ export default function HowToGetRidOfAntsCanadaPage() {
             <li><strong>You gave up too early.</strong> Several weeks is normal. Judge by whether the trail is thinning, not by whether an ant exists.</li>
             <li><strong>It is not the species you think.</strong> Big black ants with sawdust are carpenter ants and need a moisture diagnosis; tiny pale ants in an apartment are pharaoh ants and need the building treated, not your kitchen.</li>
           </ul>
+          <p>If you have worked that list and still want a second opinion on the product itself, we ranked the shelf head-to-head &mdash; enclosed liquid stations, solid protein stations, gels and perimeter granules &mdash; in <Link href="/blog/best-ant-killer-canada">what actually kills an ant colony in Canada</Link>. And if the question is narrower than that, the station formats alone (bait stations versus glue boards, indoor versus outdoor, and which ones are genuinely pet-safe) are compared in our guide to <Link href="/blog/best-ant-traps-canada">choosing ant traps for a Canadian home</Link>.</p>
 
           <h2>Moisture and Exclusion: Stopping the Next Colony</h2>
           <p>Bait ends this colony. Moisture and gaps decide whether you do this again next June.</p>

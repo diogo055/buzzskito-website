@@ -269,6 +269,7 @@ export default function HowToGetRidOfEarwigsCanadaPage() {
           <p>You take away the damp, tight places they live in, and you trap what is left. That is the whole strategy, and it is unusually satisfying because &mdash; unlike cockroaches or bed bugs &mdash; earwigs cannot hide from it. An earwig has no water-tight armour and no ability to establish inside a dry heated house. It is an outdoor insect that spends the daylight hours wedged into something damp and narrow, comes out after dark to feed, and dies fast if it cannot find its way back to moisture before the sun comes up. Remove the damp narrow places along your foundation and you have removed the population, not annoyed it.</p>
           <p>That is also why this guide recommends so little to buy. The two most reliable earwig traps are a tin of cooking oil and a rolled-up newspaper, and the highest-value change you can make to a property is dragging mulch away from the siding with a rake. The only purchase that reliably earns its money is a door sweep &mdash; because the last mile of the problem is a 3 mm gap under a door, and no spray, trap, or powder solves a gap.</p>
           <p>The order matters: clear the harbourage first (trapping into a yard that is still producing earwigs is a treadmill), trap hard for two to three weeks during the peak, then seal the building so the survivors stay outside.</p>
+          <p>If you have already decided you want to buy something and just need to know <em>what</em>, our companion <Link href="/blog/best-earwig-killer-canada">guide to the best earwig killer in Canada</Link> ranks every method by what it physically does &mdash; including why no earwig bait exists, which perimeter products are actually PMRA-registered here, and which shelf items to skip.</p>
 
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the small kit that is actually worth buying:</p>
@@ -338,6 +339,7 @@ export default function HowToGetRidOfEarwigsCanadaPage() {
           <h2>Diatomaceous Earth: Genuinely Effective, With One Big Catch</h2>
           <p>Diatomaceous earth kills earwigs, and the mechanism is honest and mechanical: DE is a fine abrasive powder that scours and absorbs the waxy layer holding an insect&rsquo;s moisture in. An earwig that walks through a dry film loses water it cannot replace and dies. There is no resistance to develop, no bait acceptance required, and no expiry date as long as the dust stays dry.</p>
           <p>That last clause is the whole problem. Earwigs live in damp mulch, wet soil, and dew-soaked ground &mdash; the exact conditions that turn DE into inert paste. Anyone who tells you to &ldquo;dust the mulch beds with DE&rdquo; has not watched it cake after one heavy rain. Use it where it can stay dry:</p>
+          <p>The same damp-basement conditions that keep DE from working are what put earwigs, silverfish and centipedes in the same rooms every August, so the products overlap more than the pest names suggest &mdash; our <Link href="/blog/best-silverfish-traps-canada">silverfish trap comparison</Link> and <Link href="/blog/best-centipede-killer-canada">centipede killer breakdown</Link> both come back to the same humidity target. For the earwig-specific shelf, the ranked picks live in <Link href="/blog/best-earwig-killer-canada">what actually kills earwigs in Canada</Link>.</p>
           <ul>
             <li>The bare gravel band at the foundation you created earlier &mdash; a strip that dries quickly after rain, which is precisely why the band is worth making.</li>
             <li>Under exterior door thresholds and along garage sill plates.</li>
@@ -408,6 +410,7 @@ export default function HowToGetRidOfEarwigsCanadaPage() {
 
           <h2>Related Household Pest Guides</h2>
           <ul>
+            <li><Link href="/blog/best-earwig-killer-canada">Best Earwig Killer in Canada — What Actually Kills Them, and What Just Sells</Link></li>
             <li><Link href="/blog/how-to-get-rid-of-silverfish-canada">How to Get Rid of Silverfish in Canada — The Humidity Fix</Link></li>
             <li><Link href="/blog/diatomaceous-earth-canada-buyers-guide">Diatomaceous Earth in Canada — Buyer&rsquo;s Guide and Application Technique</Link></li>
             <li><Link href="/blog/how-to-keep-spiders-out-of-your-house">How to Keep Spiders Out of Your House</Link></li>

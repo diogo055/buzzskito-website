@@ -303,6 +303,7 @@ export default function NaturalMosquitoRepellentPage() {
             <li><strong>Mosquito Bits</strong> — granular, sprinkled in standing water. Faster knockdown.</li>
           </ul>
           <p>Available at Canadian Tire, Home Depot, garden centres. Use in: rain barrels, ornamental ponds, neglected birdbaths, drainage ditches, kiddie pools that can&rsquo;t be emptied, old tires holding water. <strong>One dunk in a rain barrel kills 100% of mosquito larvae for a month.</strong></p>
+          <p className="not-prose my-4">Of everything on this page, BTI is the only natural option that <em>removes</em> mosquitoes rather than repelling them for a few hours — and a season&rsquo;s supply costs about the same as one bottle of spray. <BuyLink tag={AMZ_TAG} search="mosquito dunks bti">Check Mosquito Dunks (BTI) on Amazon.ca →</BuyLink></p>
 
           <h2>The Underrated Trick: A Patio Fan</h2>
           <p>Mosquitoes are weak fliers. A standing fan on medium speed in your outdoor seating area drops mosquito landing rates by 60–80% in a 3–5 metre radius. It also disperses the CO<sub>2</sub> plume mosquitoes use to find you. Cost: $30. Effectiveness: comparable to applying repellent.</p>

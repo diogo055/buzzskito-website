@@ -187,6 +187,16 @@ export default function WhyMosquitoesBiteSomeMorePage() {
           <li><strong>Eliminate breeding sites</strong> — every standing-water source on your property is producing mosquitoes that will preferentially target the most attractive person in the household. See our <Link href="/blog/hidden-mosquito-breeding-spots-backyard" className="text-brand-700 underline">hidden mosquito breeding spots guide</Link> for the 12 most common sources homeowners miss.</li>
           <li><strong>Apply professional barrier spray</strong> — treats the resting habitat where mosquitoes shelter during the day, knocking down the adult population that is searching for hosts each evening. A properly applied <Link href="/mosquito-control" className="text-brand-700 underline">professional mosquito treatment</Link> protects every person in the household equally — your blood type does not matter to a yard with no mosquitoes in it.</li>
         </ul>
+        <p>Of those two, the one you can act on this afternoon for a few dollars is the breeding sites. Any water you cannot tip out — a rain barrel, a blocked gutter, a pond edge, a birdbath you want to keep — can be treated with a Bti larvicide instead, which kills the larvae in it without harming anything else that drinks from it.</p>
+        <TopPick tag={AMZ_TAG}
+          label="Best Pick for the Whole Household"
+          name="Summit Mosquito Dunks (Bti larvicide)"
+          blurb="Bacillus thuringiensis israelensis is lethal to mosquito larvae and harmless to fish, birds, pets, and people. One floating dunk treats roughly 9 m² of standing water for 30 days. Unlike anything you put on your skin, this lowers the number of mosquitoes in the yard — which is the only intervention that protects the mosquito magnet in your family and everyone else at the same time."
+          search="summit mosquito dunks"
+          score={9.0}
+          pros={['Reduces the mosquito population instead of just shielding one person', 'Safe around fish, birds, pets, and children', 'One dunk lasts 30 days in water you cannot drain']}
+          cons={['Only reaches standing water on your own property', 'No effect on adults already flying']}
+        />
 
         <h2>The Real Strategy: Stack Personal &amp; Environmental Protection</h2>
         <p>Realistically, the people who get bitten the least in Ontario are not the lucky genetic outliers — they are the people who do all the boring environmental work. Their yards are treated. Their breeding sites are eliminated. They wear DEET or picaridin when they are in higher-pressure areas. They wear light colours during peak mosquito hours. Layered, the effect is dramatic.</p>
@@ -236,7 +246,7 @@ export default function WhyMosquitoesBiteSomeMorePage() {
         </div>
       </section>
 
-      <StickyBuyBar tag={AMZ_TAG} name="Picaridin 20% insect repellent" search="picaridin insect repellent canada" label="Best repellent" />
+      <StickyBuyBar tag={AMZ_TAG} name="Summit Mosquito Dunks (Bti larvicide)" search="summit mosquito dunks" label="Treat the yard first" />
 
       <CTASection heading="The Mosquito Magnet of the House Deserves Better" subtext="Barrier spray makes the yard mosquito-free for everyone — regardless of blood type, body heat, or beer consumption." />
     </>

@@ -160,6 +160,11 @@ export default function TickSeasonOakvillePage() {
 
         <p>For yards specifically, Public Health Ontario&rsquo;s habitat-modification guidance lines up with what we apply on every Oakville treatment: maintain a 3-foot wood-chip or gravel buffer between lawn and any wooded edge, clear leaf litter and brush from fence lines weekly during peak months, keep grass short, and treat the perimeter professionally during the May-July nymph window. Read our full <Link href="/blog/ultimate-tick-control-guide-ontario" className="text-brand-700 underline">tick control guide</Link> for the deeper protocol.</p>
 
+        <p>If your lot backs onto the Bronte Creek or 16 Mile Creek corridors, there is one DIY layer worth adding to the buffer-and-mowing work: <strong>tick control tubes</strong>. Mice are the reservoir that infects the nymphs you actually meet in May and June, and the tubes get treated nesting cotton to them before those larvae ever become questing nymphs. Buy commercial tubes rather than building your own — PMRA rules say a permethrin product may only be used the way its own label directs, and only the purpose-made tubes are labelled for it. Our <Link href="/blog/tick-tubes-canada" className="text-brand-700 underline">tick tube guide for Canada</Link> covers placement and the two annual timing windows.</p>
+        <div className="not-prose my-4">
+          <BuyLink tag={AMZ_TAG} search="thermacell tick control tubes 12 pack">Check tick control tubes on Amazon.ca →</BuyLink>
+        </div>
+
         <h2>The 2026 Oakville protection plan</h2>
         <ol>
           <li><strong>Professional barrier spray in late May / early June.</strong> Targets the nymph peak. Applied along the back fence line, garden bed edges, leaf-litter zones, woodpiles, and any lawn-to-forest transition. Health Canada-approved formula, residual protection up to 30 days. See <Link href="/oakville-tick-spray" className="text-brand-700 underline">Oakville tick spray pricing</Link>.</li>

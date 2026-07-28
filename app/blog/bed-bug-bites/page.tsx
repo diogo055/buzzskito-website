@@ -7,6 +7,7 @@ import BuyLink from '@/components/BuyLink'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
+import StickyBuyBar from '@/components/StickyBuyBar'
 import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'bed-bug-bites'
@@ -260,6 +261,8 @@ export default function BedBugBitesPage() {
         <h2>Confirmed it is bed bugs? Here is what actually works</h2>
         <p>Identification is only step one &mdash; the bites stop when the infestation ends, and that takes a protocol rather than a single product. Our <Link href="/blog/how-to-get-rid-of-bed-bugs-canada">complete step-by-step plan for getting rid of bed bugs in Canada</Link> walks through the whole sequence in order, and the <Link href="/blog/how-to-get-rid-of-bed-bugs-yourself-diy-canada">full DIY protocol</Link> covers doing it yourself without hiring anyone. If you rent, treatment is usually the building&rsquo;s responsibility &mdash; the <Link href="/blog/how-to-get-rid-of-bed-bugs-in-apartment-canada">apartment containment plan</Link> covers what you can do in the meantime.</p>
         <p>On method: sustained heat is the only approach that reliably kills every life stage including eggs, which is why <Link href="/blog/how-to-kill-bed-bug-eggs-canada">eggs survive most sprays</Link> and infestations rebound a week or two after a spray-only treatment. Our <Link href="/blog/heat-vs-chemical-bed-bug-treatment-canada">heat vs chemical comparison</Link> explains when each makes sense, and the <Link href="/pest-product-guides/bed-bug-control">bed bug product hub</Link> collects every tested tool &mdash; steamers, heater chambers, encasements, monitors and PMRA-registered sprays &mdash; in one place.</p>
+        <p>Because the bites happen where you sleep, the fastest way to stop them tonight is to take the bed out of play. A six-sided zippered encasement seals whatever is already inside the mattress and denies new bugs the harbourage &mdash; <Link href="/blog/sureguard-mattress-encasement-review-canada">we looked closely at the SureGuard and its hidden zipper flap</Link>, the end-of-zipper gap being where cheap covers leak. Do the box spring at the same time: a hollow, stapled wooden frame is a better hiding place than a smooth mattress, which is the argument in <Link href="/blog/best-bed-bug-box-spring-encasement-canada">the piece of bedding people skip most often</Link>.</p>
+        <p>If you do want something wet on the bed, be careful what you reach for &mdash; only a product whose label explicitly names mattresses belongs on a sleeping surface, and <Link href="/blog/best-bed-bug-spray-for-mattress-canada">the short list that passes that test in Canada</Link> is shorter than the shelf suggests. And if the bites started after a trip, treat the luggage rather than the room: <Link href="/blog/best-bed-bug-spray-for-travel-canada">a carry-on-legal spray for hotel stays</Link> is the preventive version of this whole page.</p>
 
         <h2>Related reading</h2>
         <ul>
@@ -279,6 +282,10 @@ export default function BedBugBitesPage() {
         </div>
 
       </article>
+
+      {/* Persistent CTA carries the page's own advice: bites can never confirm the
+          species, so the useful next step is the 14-night interceptor test — not a cream. */}
+      <StickyBuyBar tag={AMZ_TAG} name="Bed Bug Interceptor Trap Set" search="bed bug interceptor traps" label="Confirm it first" />
     </>
   )
 }

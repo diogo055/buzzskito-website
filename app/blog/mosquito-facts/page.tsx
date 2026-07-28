@@ -191,7 +191,19 @@ export default function MosquitoFactsPage() {
           <p>Only mildly. Mosquitoes react to light, but they are far more powerfully drawn to the signals that mean &ldquo;host nearby&rdquo;: the <strong>carbon dioxide (CO2)</strong> in your breath, radiant body heat, humidity, and skin chemicals such as <strong>lactic acid</strong> and octenol. This is why UV bug zappers are poor mosquito control — they mostly electrocute harmless moths and beetles — while CO2-baited traps and repellents that mask your scent (DEET, picaridin/icaridin, oil of lemon eucalyptus) actually work. It also explains why some people get bitten more than others: it comes down to the chemistry and CO2 you emit, not the porch light.</p>
           <p>What <em>is</em> circling that light is usually something else. The big, gangly, long-legged insect people call a &ldquo;mosquito hawk&rdquo; is a crane fly, and despite the nickname <Link href="/blog/mosquito-hawk-explained">it neither bites you nor eats mosquitoes</Link>.</p>
 
-          <p>A good repellent handles you personally; treating the yard handles the source. If you spend a lot of time outdoors, a picaridin or DEET repellent is the simplest personal defence. <BuyLink tag={AMZ_TAG} search="picaridin mosquito repellent spray">Check mosquito repellents on Amazon.ca →</BuyLink></p>
+          <p>Everything above points at the same lever. A mosquito&rsquo;s first ten days are spent in water, she rarely travels more than a few hundred metres from where she hatched, and she cannot skip that stage. So the highest-leverage thing you can buy is not a spray for your skin — it is a <strong>Bti larvicide</strong> dropped into the water on your own property, which kills the larvae before they ever become the adults that bite you.</p>
+
+          <TopPick tag={AMZ_TAG}
+            label="Our Top Pick — Kill Them Before They Fly"
+            name="Summit Mosquito Dunks (Bti larvicide)"
+            blurb="A floating disc of Bacillus thuringiensis israelensis — a bacterium that is lethal to mosquito larvae and harmless to fish, birds, pets, and people. One dunk treats about 9 m² of standing water for 30 days: rain barrels, birdbaths, blocked gutters, pond edges, tarps, plant saucers. Because backyard mosquitoes hatch close to where they bite, this is the one purchase that reduces the population rather than just hiding you from it."
+            search="summit mosquito dunks"
+            score={9.0}
+            pros={['Attacks the larval stage — fewer adult mosquitoes, not just fewer bites on you', 'Safe around fish, birds, pets, and children', '30 days per dunk; works in any water you cannot drain']}
+            cons={['Only works on standing water you can reach — not a fix for a neighbour&rsquo;s pond', 'Does nothing to adults already flying']}
+          />
+
+          <p>Once the water is handled, a good repellent handles you personally. If you spend a lot of time outdoors — or away from a treated yard — a picaridin or DEET repellent is the simplest personal defence. <BuyLink tag={AMZ_TAG} search="picaridin mosquito repellent spray">Check mosquito repellents on Amazon.ca →</BuyLink></p>
 
           <TopPick tag={AMZ_TAG}
             label="Our Top Pick — Personal Repellent"
@@ -215,7 +227,7 @@ export default function MosquitoFactsPage() {
         </div>
       </article>
 
-      <StickyBuyBar tag={AMZ_TAG} name="Picaridin Mosquito Repellent Spray" search="picaridin mosquito repellent spray" label="Best repellent" />
+      <StickyBuyBar tag={AMZ_TAG} name="Summit Mosquito Dunks (Bti larvicide)" search="summit mosquito dunks" label="Best first buy" />
 
       <CTASection heading="Facts Are Nice — A Bite-Free Yard Is Better" subtext="Get a free quote for licensed barrier spray. From $99. Same-day protection. 30-day residual." variant="dark" />
     </>

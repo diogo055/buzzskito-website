@@ -26,12 +26,12 @@ const FEATURED: Category[] = [
     href: '/pest-product-guides/mosquito-gear',
     name: 'Mosquito Gear',
     icon: '🦟',
-    count: '62 guides',
+    count: '80+ guides',
     tone: 'treat',
-    blurb: 'The repellents, traps, foggers and area devices our licensed GTA technicians rate for real backyards — what works, what wastes money, and what to buy in Canada.',
+    blurb: 'The repellents, traps, foggers and area devices we recommend after spraying real GTA backyards for mosquitoes — what holds up on an actual property, what wastes money, and what you can legally buy in Canada.',
     posts: [
       { href: '/blog/best-mosquito-trap-canada', label: 'Best Mosquito Traps', note: 'What actually catches them' },
-      { href: '/blog/mosquito-magnet-canada', label: 'Mosquito Magnet', note: 'Propane CO₂ traps, tested' },
+      { href: '/blog/mosquito-magnet-canada', label: 'Mosquito Magnet', note: 'Propane CO₂ traps — do they work?' },
       { href: '/blog/thermacell-canada-where-to-buy', label: 'Thermacell Canada', note: 'Best patio repellent device' },
       { href: '/blog/best-mosquito-repellent-device-canada', label: 'Repellent Devices', note: 'Zone protection compared' },
     ],
@@ -40,7 +40,7 @@ const FEATURED: Category[] = [
     href: '/pest-product-guides/tick-gear',
     name: 'Tick Gear',
     icon: '🕷️',
-    count: '36 guides',
+    count: '60+ guides',
     tone: 'treat',
     blurb: 'Yard treatments, permethrin clothing sprays and removal tools — the tick gear we recommend to the same GTA homeowners we treat for Lyme-risk properties.',
     posts: [
@@ -58,7 +58,7 @@ const RESEARCH: Category[] = [
     href: '/pest-product-guides/bed-bug-control',
     name: 'Bed Bug Control',
     icon: '🛏️',
-    count: '47 guides',
+    count: '45+ guides',
     tone: 'research',
     blurb: 'Our biggest research library. The evidence-backed DIY stack — heat chambers, steamers, encasements and interceptors — with PMRA-registered sprays in a supporting role.',
     posts: [
@@ -72,7 +72,7 @@ const RESEARCH: Category[] = [
     href: '/pest-product-guides/rodent-control',
     name: 'Rodent & Attic',
     icon: '🐭',
-    count: '11 guides',
+    count: '13 guides',
     tone: 'research',
     blurb: 'Canadian rodenticide law is stricter than most US advice assumes, so traps and exclusion do the real work. Mice, rats and attic-proofing.',
     posts: [
@@ -86,9 +86,9 @@ const RESEARCH: Category[] = [
     href: '/blog/best-raccoon-live-trap-canada',
     name: 'Wildlife & Yard Animals',
     icon: '🦝',
-    count: '8 guides',
+    count: '4 guides',
     tone: 'research',
-    blurb: 'Raccoons, squirrels and deer — humane live traps, electric fencing and deterrents, with Ontario relocation law explained.',
+    blurb: 'Our smallest library, and deliberately so — raccoons are the one yard animal we cover in depth: humane live traps, electric fencing and deterrents, with Ontario relocation law explained.',
     posts: [
       { href: '/blog/best-raccoon-live-trap-canada', label: 'Raccoon Live Traps', note: 'Large humane cage traps' },
       { href: '/blog/best-electric-fence-for-raccoons-canada', label: 'Electric Fencing', note: 'What actually stops them' },
@@ -100,7 +100,7 @@ const RESEARCH: Category[] = [
     href: '/blog/best-fruit-fly-trap-canada',
     name: 'Flies & Gnats',
     icon: '🪰',
-    count: '7 guides',
+    count: '13 guides',
     tone: 'research',
     blurb: 'Fruit flies, cluster flies, fungus gnats and commercial fly problems — the traps and UV lights that clear each one.',
     posts: [
@@ -128,27 +128,60 @@ const RESEARCH: Category[] = [
     href: '/blog/how-to-get-rid-of-cockroaches-canada',
     name: 'Roaches, Spiders & Crawlers',
     icon: '🪳',
-    count: '10 guides',
+    count: '15 guides',
     tone: 'research',
-    blurb: 'Cockroach gel baits, spider sprays and crawling-pest gear (silverfish and more) that’s actually PMRA-legal here — not the US shopping list.',
+    blurb: 'Cockroach gel baits, spider sprays and crawling-pest gear (silverfish, earwigs, centipedes and more) that’s actually PMRA-legal here — not the US shopping list.',
     posts: [
       { href: '/blog/how-to-get-rid-of-cockroaches-canada', label: 'Get Rid of Cockroaches', note: 'The gel-bait method' },
+      { href: '/blog/best-cockroach-spray-canada', label: 'Cockroach Sprays', note: 'Why spraying often backfires' },
+      { href: '/blog/best-roach-traps-canada', label: 'Roach Traps', note: 'Glue boards find, baits kill' },
       { href: '/blog/advion-cockroach-gel-bait-canada', label: 'Advion Gel Bait', note: 'Is it legal in Canada?' },
       { href: '/blog/best-spider-spray-canada', label: 'Best Spider Sprays', note: 'Perimeter control' },
       { href: '/blog/how-to-get-rid-of-silverfish-canada', label: 'Silverfish', note: 'Dry them out' },
+      { href: '/blog/best-silverfish-traps-canada', label: 'Silverfish Traps', note: 'Catching vs. only counting' },
+      { href: '/blog/best-earwig-killer-canada', label: 'Earwig Killers', note: 'Dusts and traps, not baits' },
+      { href: '/blog/best-centipede-killer-canada', label: 'Centipede Killers', note: 'Dry air beats any chemical' },
+    ],
+  },
+  {
+    href: '/blog/how-to-get-rid-of-ants-canada',
+    name: 'Ants & Carpenter Ants',
+    icon: '🐜',
+    count: '4 guides',
+    tone: 'research',
+    blurb: 'Ants are a baiting problem, not a spraying problem — the colony sits somewhere you can’t reach, so contact killers only remove foragers. Carpenter ants get their own treatment: they’re a structural issue, not a kitchen one.',
+    posts: [
+      { href: '/blog/how-to-get-rid-of-ants-canada', label: 'Get Rid of Ants', note: 'Why baiting beats every spray' },
+      { href: '/blog/carpenter-ants-canada', label: 'Carpenter Ants', note: 'Find the nest, or you’re just killing ants' },
+      { href: '/blog/best-ant-traps-canada', label: 'Best Ant Traps', note: 'Bait stations vs glue traps' },
+      { href: '/blog/best-ant-killer-canada', label: 'Best Ant Killer', note: 'What actually kills the colony' },
+    ],
+  },
+  {
+    href: '/blog/best-flea-spray-for-home-canada',
+    name: 'Fleas',
+    icon: '🐕',
+    count: '4 guides',
+    tone: 'research',
+    blurb: 'Most of a flea population is eggs and larvae in the carpet, not adults on the pet — which is why an IGR spray plus a sealed-HEPA vacuum does more than the total-release fogger most people reach for first.',
+    posts: [
+      { href: '/blog/flea-bites-on-humans', label: 'Flea Bites on Humans', note: 'Confirm it’s fleas first' },
+      { href: '/blog/best-flea-spray-for-home-canada', label: 'Home Flea Sprays', note: 'The IGR matters more than the kill' },
+      { href: '/blog/best-flea-bomb-canada', label: 'Flea Bombs & Foggers', note: 'Why an IGR spray beats a fogger' },
+      { href: '/blog/best-hepa-vacuum-for-bed-bugs-and-fleas-canada', label: 'Sealed-HEPA Vacuums', note: 'Canister vs stick vs handheld' },
     ],
   },
   {
     href: '/blog/best-pest-control-equipment-canada',
     name: 'DIY Pest-Control Equipment',
     icon: '🛠️',
-    count: '24 guides',
+    count: '20+ guides',
     tone: 'research',
-    blurb: 'The heavy gear — foggers, backpack sprayers, air purifiers, dehumidifiers and steamers — sized and compared for Canadian buyers.',
+    blurb: 'The heavy gear — foggers, backpack sprayers, dehumidifiers and steamers — sized and compared for Canadian buyers.',
     posts: [
       { href: '/blog/best-thermal-fogger-canada', label: 'Thermal & ULV Foggers', note: 'Pulse-jet vs cold fog' },
       { href: '/blog/best-battery-backpack-sprayer-canada', label: 'Backpack Sprayers', note: 'Battery vs manual' },
-      { href: '/blog/best-air-purifier-for-dust-mites-canada', label: 'Air Purifiers', note: 'Sealed-HEPA for allergen' },
+      { href: '/blog/best-dehumidifier-for-basement-canada', label: 'Basement Dehumidifiers', note: 'Sizing, drainage & the pest angle' },
       { href: '/blog/best-steam-cleaner-for-pest-control-canada', label: 'Steam Cleaners', note: 'Chemical-free heat' },
     ],
   },
@@ -163,7 +196,7 @@ const CHOICES = [
 const FAQS = [
   {
     question: 'What is the difference between BuzzSkito\'s mosquito/tick guides and the other pest guides?',
-    answer: 'It comes down to whether we treat the pest. For mosquitoes and ticks, BuzzSkito is a licensed GTA control service, so those gear guides reflect what our technicians actually recommend after treating thousands of real backyards. For every other household pest — bed bugs, mice, rats, wildlife, flies, wasps, roaches and more — we do not offer any service, so those pages are independent product research written the same way a neutral review site would, with no service upsell riding on what you buy.',
+    answer: 'It comes down to whether we treat the pest. For mosquitoes and ticks, BuzzSkito is a licensed GTA control service, so those gear guides reflect what we actually recommend from treating real GTA yards, season after season. For every other household pest — bed bugs, mice, rats, ants, fleas, wildlife, flies, wasps, roaches and more — we do not offer any service, so those pages are independent product research written the same way a neutral review site would, with no service upsell riding on what you buy.',
   },
   {
     question: 'Which pests does BuzzSkito actually treat?',
@@ -171,7 +204,7 @@ const FAQS = [
   },
   {
     question: 'How many product guides are there, and how are they organised?',
-    answer: 'There are 220+ individual guides across nine categories: two we treat (Mosquito Gear and Tick Gear, picked by our technicians) and seven independent research libraries — Bed Bug Control, Rodent & Attic, Wildlife & Yard Animals, Flies & Gnats, Wasps/Hornets & Bees, Roaches/Spiders & Crawlers, and DIY Pest-Control Equipment. Bed bugs is the largest at 47 guides. Every one links only to products available on amazon.ca.',
+    answer: 'There are 280+ individual guides across eleven categories: two we treat (Mosquito Gear and Tick Gear, picked from our own GTA treatment work) and nine independent research libraries — Bed Bug Control, Rodent & Attic, Wildlife & Yard Animals, Flies & Gnats, Wasps/Hornets & Bees, Roaches/Spiders & Crawlers, Ants & Carpenter Ants, Fleas, and DIY Pest-Control Equipment. Mosquito gear is the largest library overall at 80+ guides; bed bugs is the largest of the independent research libraries at 45+. Every one links only to products available on amazon.ca.',
   },
   {
     question: 'What does "PMRA domestic-class" mean, and why does it matter?',
@@ -193,7 +226,7 @@ const FAQS = [
 
 export const metadata: Metadata = buildMetadata({
   title: TITLE,
-  description: 'The gear BuzzSkito\'s licensed GTA technicians recommend for mosquitoes and ticks, plus 220+ independent, PMRA-legal Canadian product guides for bed bugs, rodents, wildlife, flies, wasps and more. Every pick is available on amazon.ca — no grey-market US products.',
+  description: 'The gear BuzzSkito recommends from treating GTA yards for mosquitoes and ticks, plus independent, PMRA-legal Canadian product guides for bed bugs, rodents, ants, fleas, wildlife, flies, wasps and more — 280+ guides across eleven categories. Every pick is available on amazon.ca, with no grey-market US products.',
   canonical: `/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -238,7 +271,7 @@ export default function PestProductGuidesPage() {
   const postingSchema = {
     ...blogPostingSchema({
       title: TITLE,
-      description: 'The master hub for BuzzSkito\'s recommended products — technician-picked mosquito and tick gear plus 230+ independent, PMRA-legal Canadian guides for other household pests.',
+      description: 'The master hub for BuzzSkito\'s recommended products — mosquito and tick gear picked from real GTA treatment work, plus independent, PMRA-legal Canadian guides for other household pests. 280+ guides across eleven categories.',
       slug: SLUG,
       datePublished: DATE,
     }),
@@ -270,7 +303,7 @@ export default function PestProductGuidesPage() {
             The gear that actually works —{' '}
             <span className="bg-gradient-to-r from-emerald-300 to-amber-200 bg-clip-text text-transparent">and is legal in Canada</span>
           </h1>
-          <p className="mt-5 max-w-3xl text-lg leading-relaxed text-brand-100 sm:text-xl">For mosquitoes &amp; ticks, this is the gear our licensed GTA technicians actually recommend. For every other household pest, it&rsquo;s independent Canadian product research — we don&rsquo;t treat those, we just help you find what works and what&rsquo;s legal here.</p>
+          <p className="mt-5 max-w-3xl text-lg leading-relaxed text-brand-100 sm:text-xl">For mosquitoes &amp; ticks, this is the gear we actually recommend after treating GTA yards ourselves. For every other household pest, it&rsquo;s independent Canadian product research — we don&rsquo;t treat those, we just help you find what works and what&rsquo;s legal here.</p>
           <p className="mt-4 flex flex-wrap items-center gap-x-3 gap-y-1 text-sm text-brand-200">
             <span className="inline-flex items-center gap-1.5"><span className="text-amber-300">★★★★★</span> 150 five-star reviews</span>
             <span className="text-brand-600">·</span>
@@ -279,7 +312,7 @@ export default function PestProductGuidesPage() {
             <span>Every pick on amazon.ca</span>
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
-            {[{ v: '230+', l: 'Product guides' }, { v: '9', l: 'Categories' }, { v: 'PMRA-legal', l: 'Canadian picks only' }].map((s) => (
+            {[{ v: '280+', l: 'Product guides' }, { v: '11', l: 'Categories' }, { v: 'PMRA-legal', l: 'Canadian picks only' }].map((s) => (
               <div key={s.l} className="rounded-2xl border border-white/10 bg-white/5 px-5 py-3 backdrop-blur-sm">
                 <div className="text-2xl font-extrabold leading-none text-white">{s.v}</div>
                 <div className="mt-1.5 text-[11px] uppercase tracking-wide text-brand-300">{s.l}</div>
@@ -296,13 +329,13 @@ export default function PestProductGuidesPage() {
             <p className="mb-3 flex items-center gap-2 text-xs font-extrabold uppercase tracking-wider text-emerald-700">
               <span className="grid h-5 w-5 place-items-center rounded-full bg-emerald-600 text-[11px] text-white" aria-hidden="true">✓</span>Quick Answer
             </p>
-            <p className="text-[15px] font-medium leading-relaxed text-gray-800">This is BuzzSkito&rsquo;s master product hub — 230+ guides across nine categories. It splits in two: mosquito and tick gear picked by our licensed GTA technicians (the two pests we actually treat), and independent, PMRA-legal Canadian research for the household pests we don&rsquo;t — bed bugs, rodents, wildlife, flies, wasps, roaches and the DIY equipment behind them. Every recommendation is available on amazon.ca, with grey-market US products excluded by rule.</p>
+            <p className="text-[15px] font-medium leading-relaxed text-gray-800">This is BuzzSkito&rsquo;s master product hub — 280+ guides across eleven categories. It splits in two: mosquito and tick gear picked from our own licensed GTA treatment work (the two pests we actually treat), and independent, PMRA-legal Canadian research for the household pests we don&rsquo;t — bed bugs, rodents, ants, fleas, wildlife, flies, wasps, roaches and the DIY equipment behind them. Every recommendation is available on amazon.ca, with grey-market US products excluded by rule.</p>
             <ul className="mt-4 grid gap-x-6 gap-y-2 text-sm text-gray-700 sm:grid-cols-2">
               {[
-                'Nine categories: Mosquito, Tick, Bed Bug, Rodent, Wildlife, Flies, Wasps, Roaches/Crawlers and Equipment.',
-                'Mosquito & tick picks reflect thousands of real GTA treatments; other pests are neutral research.',
+                'Eleven categories: Mosquito, Tick, Bed Bug, Rodent, Wildlife, Flies, Wasps, Roaches/Crawlers, Ants, Fleas and Equipment.',
+                'Mosquito & tick picks come from the yards we actually treat; every other pest is neutral research.',
                 'Every pesticide holds a Health Canada PMRA domestic-class registration — no grey-market US products.',
-                'Bed bugs is the biggest library at 47 guides; heat beats sprays on the eggs.',
+                'Mosquito gear is the biggest library at 80+ guides; bed bugs leads the research side at 45+.',
                 'Second-gen anticoagulant rat poisons are not consumer-legal in Canada; bromethalin stations are.',
                 'The only two pests BuzzSkito treats as a service are mosquitoes and ticks, across 19+ GTA cities.',
               ].map((b) => (<li key={b} className="flex gap-2"><span className="mt-0.5 text-emerald-500" aria-hidden="true">▸</span><span>{b}</span></li>))}
@@ -341,7 +374,7 @@ export default function PestProductGuidesPage() {
             <h2 className="text-2xl font-extrabold text-brand-900">The two pests we treat</h2>
             <span className="rounded-full bg-emerald-100 px-2.5 py-1 text-[10px] font-bold uppercase tracking-wide text-emerald-800">Technician-picked</span>
           </div>
-          <p className="mb-6 max-w-2xl text-sm text-gray-500">BuzzSkito is a licensed GTA mosquito &amp; tick service. These picks come from what our technicians see work — and fail — in real backyards.</p>
+          <p className="mb-6 max-w-2xl text-sm text-gray-500">BuzzSkito is a licensed GTA mosquito &amp; tick service. These picks come from what we see work — and fail — on the properties we treat.</p>
           <div className="grid gap-6 md:grid-cols-2">
             {FEATURED.map((cat) => (<CategoryCard key={cat.href} cat={cat} />))}
           </div>

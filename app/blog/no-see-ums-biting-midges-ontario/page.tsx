@@ -151,6 +151,17 @@ export default function NoSeeUmsBitingMidgesOntarioPage() {
           <p>This is the single most frustrating thing about biting midges: your windows can be shut, your porch screened in, and they still get to you. Standard insect screening is woven with mesh openings of roughly <strong>1.1 to 1.5 mm</strong> — plenty fine for houseflies and mosquitoes, but a wide-open door for a 1 mm midge. They simply fly through the holes.</p>
           <p>The fix is <strong>&ldquo;no-see-um mesh,&rdquo;</strong> a finer weave (often labelled around 20x20 strands per inch, with openings near 0.6 mm) sold specifically for porches, gazebos, tents, and RV windows. The catch is airflow: tighter mesh cuts the breeze, so a screened porch can feel stuffier. A practical Ontario compromise is fine mesh on the most-used openings <em>plus</em> a fan on the patio — biting midges are weak fliers, and even a modest breeze grounds them.</p>
           <p>Mesh grade is also the spec to check before buying any outdoor enclosure, because most models ship with standard netting that midges walk straight through. If you are shopping for a deck structure, <Link href="/blog/best-gazebo-with-mosquito-net-canada">our screened gazebo buyer&rsquo;s guide</Link> explains how the holes-per-square-inch rating separates midge-proof models from mosquito-only ones.</p>
+          <p>You rarely need to redo the whole house. Rescreening the porch door and the two or three windows you actually sit beside covers most of the problem.</p>
+
+          <TopPick tag={AMZ_TAG}
+            label="Our Top Pick — The Fix That Lasts"
+            name="No-see-um mesh screening (20x20, ~0.6 mm openings)"
+            blurb="If midges are getting into a screened porch, sunroom, or RV, this is the purchase that actually ends the problem instead of managing it nightly. Rescreening the affected openings with fine no-see-um mesh closes the 1.1–1.5 mm gaps that standard fly screen leaves wide open to a 1 mm midge. It is a one-time job that keeps working every evening after, with no reapplication and nothing on your skin."
+            search="no see um mesh screen replacement"
+            score={9.0}
+            pros={['Permanent fix — no reapplying anything at dusk', 'Also stops mosquitoes, gnats, and thrips', 'Cheap per window; rolls cover a whole porch']}
+            cons={['Noticeably reduces airflow — pair with a fan', 'Requires rescreening the frames yourself']}
+          />
 
           <aside aria-label="Professional yard protection" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
             <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Midges rest in your yard&rsquo;s damp, shaded edges — we treat exactly those zones</h3>
@@ -221,9 +232,9 @@ export default function NoSeeUmsBitingMidgesOntarioPage() {
       </article>
 
       <StickyBuyBar
-        name="Picaridin (Icaridin) Insect Repellent"
-        search="picaridin insect repellent canada"
-        label="Best repellent"
+        name="No-see-um mesh screening (20x20)"
+        search="no see um mesh screen replacement"
+        label="The fix that lasts"
         tag={AMZ_TAG}
       />
 

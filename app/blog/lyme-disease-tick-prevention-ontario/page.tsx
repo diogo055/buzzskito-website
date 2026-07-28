@@ -255,8 +255,11 @@ export default function LymeDiseasePage() {
           <li>Discourage deer with fencing if your property backs onto a greenbelt</li>
         </ul>
         <p>
-          A passive layer worth adding: permethrin tick tubes let mice carry treated cotton back to their nests, killing the larval ticks that feed on them before those ticks ever quest for your family. See our <Link href="/blog/tick-tubes-canada" className="text-brand-700 hover:underline">guide to tick tubes in Canada</Link> for placement and timing.
+          A passive layer worth adding: permethrin tick tubes let mice carry treated cotton back to their nests, killing the larval ticks that feed on them before those ticks ever quest for your family. Commercial tubes are formulated and labelled for exactly this use, which matters in Canada — PMRA rules say a permethrin product may only be used the way its own label says. See our <Link href="/blog/tick-tubes-canada" className="text-brand-700 hover:underline">guide to tick tubes in Canada</Link> for placement and timing.
         </p>
+        <div className="not-prose my-4">
+          <BuyLink tag={AMZ_TAG} search="thermacell tick control tubes 12 pack">Check tick control tubes on Amazon.ca →</BuyLink>
+        </div>
         <p>
           For the most reliable yard protection, professional tick barrier spray treats exactly the zones where blacklegged ticks hide and wait. Our <Link href="/tick-control" className="text-brand-700 hover:underline">tick control treatments</Link> apply a Health Canada-registered residual formula to garden edges, foundation plantings, shaded turf, and wood borders — the areas that matter. One treatment provides up to 30 days of protection; we recommend two applications timed to spring nymph season and fall adult activity.
         </p>

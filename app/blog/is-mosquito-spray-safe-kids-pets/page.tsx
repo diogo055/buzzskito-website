@@ -133,10 +133,15 @@ export default function IsMosquitoSpraySafePage() {
         <p>Children are not at elevated risk from dried barrier spray at the amounts used in residential applications. Health Canada&rsquo;s PMRA registration process specifically evaluates exposure risks for children, who are treated as a sensitive subpopulation in their risk assessments. The registered label rates and re-entry intervals are set conservatively enough that normal children&rsquo;s activity (playing on the lawn, touching plants, putting hands in mouths) after the re-entry window poses no health risk based on available toxicological data.</p>
         <p>Pregnant women should apply the same common-sense approach as with any chemical product: avoid being present during application, and return to treated areas after the re-entry window has passed.</p>
 
+        <h2>The Lowest-Toxicity Yard Layer: BTI Larvicide</h2>
+        <p>If the pyrethroid question is what brought you here, it is worth knowing there is one yard-level product with an even wider safety margin than a barrier spray. <strong>BTI</strong> (<em>Bacillus thuringiensis israelensis</em>) is a naturally occurring soil bacterium, registered by Health Canada&rsquo;s PMRA, that kills mosquito larvae in standing water and is harmless to mammals, birds, fish, frogs, and pollinators. Sold as Mosquito Dunks (donut-shaped, one per month) or Mosquito Bits (granular, faster knockdown), you drop it into rain barrels, ornamental ponds, blocked drainage, birdbaths, and anything else on the property that holds water and cannot be emptied.</p>
+        <p>Be clear about what it does and does not do: BTI kills larvae, so it stops the next generation breeding on your own property. It has no effect on adult mosquitoes already flying in from a neighbour&rsquo;s yard or a nearby ravine — that is the job barrier spray does. But it is the one intervention that needs no re-entry interval at all, which makes it the natural first move for a household that wants to reduce mosquitoes with the smallest possible chemical footprint.</p>
+        <AffiliateDisclosure />
+        <p><BuyLink tag={AMZ_TAG} search="summit mosquito dunks bti">Check BTI Mosquito Dunks on Amazon.ca →</BuyLink></p>
+
         <h2>Choosing a Kid-Friendly Personal Repellent</h2>
         <p>Barrier spray treats your yard; a personal repellent protects skin when you leave it. Many parents are wary of DEET on young children, and there is a gentler, well-studied alternative: <strong>picaridin</strong> (also called icaridin). Health Canada rates picaridin as effective as DEET at comparable concentrations, and it&rsquo;s odourless, non-greasy, and won&rsquo;t damage plastics or clothing — which is why it&rsquo;s our go-to recommendation for a family personal repellent.</p>
         <p>On age limits, follow the label. Health Canada&rsquo;s guidance is that <strong>DEET is not recommended for infants under 6 months</strong>, and that <strong>icaridin (picaridin) products may be used on children as young as 6 months</strong> — one reason picaridin is often the more practical pick for young families. Always confirm the concentration and age directions on the specific product label. See Health Canada&rsquo;s <a href="https://www.canada.ca/en/health-canada/services/consumer-product-safety/pesticides-pest-management.html" rel="noopener" className="text-brand-700 underline">pesticides and pest management guidance</a> for the official position.</p>
-        <AffiliateDisclosure />
         <TopPick tag={AMZ_TAG}
           label="Our Top Pick — Kid-Friendly Repellent"
           name="Picaridin (Icaridin) Insect Repellent"
@@ -177,9 +182,9 @@ export default function IsMosquitoSpraySafePage() {
       </article>
 
       <StickyBuyBar
-        name="Picaridin (Icaridin) Insect Repellent"
-        search="picaridin insect repellent canada"
-        label="Kid-friendly repellent"
+        name="BTI Mosquito Dunks (Bacillus thuringiensis israelensis)"
+        search="summit mosquito dunks bti"
+        label="Safest yard layer"
         tag={AMZ_TAG}
       />
 
