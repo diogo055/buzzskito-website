@@ -139,6 +139,7 @@ export default function MaleVsFemaleMosquitoPage() {
 
           <h2>How to Tell Them Apart</h2>
           <p>Under a hand lens, the difference is obvious. The male&rsquo;s antennae are <strong>plumose</strong> — thick, bushy, and almost furry — because they are packed with sensors that pick up the specific wingbeat frequency of a female flying nearby. The female&rsquo;s antennae are thin and plain. Males also carry feathery palps flanking the mouth, whereas the female presents one straight, dark proboscis. Males tend to run a little smaller overall. In real life you almost never need to check: if a mosquito is on your arm taking a meal, it is a female, full stop.</p>
+          <p>A different mix-up trips people up far more often than male versus female: the oversized, long-legged insect wobbling around a porch light is almost always a crane fly, not a giant mosquito. It has no working biting mouthparts, and despite its nickname it does not hunt mosquitoes either &mdash; see <Link href="/blog/mosquito-hawk-explained">the mosquito hawk myth, explained</Link>.</p>
 
           <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
             <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">The biting females hide on shaded leaves — we treat exactly there</h3>
@@ -151,6 +152,7 @@ export default function MaleVsFemaleMosquitoPage() {
 
           <h2>Lifespan: Why Females Stick Around Longer</h2>
           <p>Male mosquitoes are built for a sprint. They emerge, join a dusk mating swarm within a few days, mate, and typically die within one to two weeks. Females are built for the long game. A female commonly lives two to eight weeks in summer, biting and laying eggs in repeated cycles the whole time. Some species stretch it much further: female <em>Culex</em> mosquitoes (the main West Nile carriers in Ontario) can overwinter as adults, hibernating in garages, sheds, and basements and re-emerging in spring. That longevity is exactly why a single female can be responsible for hundreds of offspring across a season.</p>
+          <p>The same longevity explains the bite count. She takes a fresh blood meal every few days to fund the next batch of eggs, and if you swat at her mid-meal she simply relands nearby to finish &mdash; which is how one insect ends up behind far more welts than people assume. We count it out in <Link href="/blog/how-many-times-can-a-mosquito-bite-you">how many times a single mosquito can bite you</Link>.</p>
 
           <h2>Do the Two Common GTA Mosquitoes Differ?</h2>
           <p>The male-versus-female rule holds across every species — but the biting females behave differently depending on the genus:</p>

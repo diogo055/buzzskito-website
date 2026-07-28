@@ -84,9 +84,11 @@ export default function HamiltonBurlingtonPage() {
 
         <h3>Red Hill Creek and Stoney Creek Ravines</h3>
         <p>The Red Hill Valley and Stoney Creek waterway create continuous mosquito corridors across the lower city. Properties along these ravine systems, including Rymal, Binbrook, and Heritage Green, experience elevated season-long pressure.</p>
+        <p>Stoney Creek has enough of its own geography — the Fifty Point shoreline, Winona, and the Escarpment shelf above Heritage Green — that we treat it separately in <Link href="/blog/mosquito-tick-control-stoney-creek" className="text-brand-700 hover:underline">our Stoney Creek mosquito and tick guide</Link>.</p>
 
         <h3>Tick Risk in Hamilton</h3>
         <p>Blacklegged ticks are established along Hamilton&apos;s Escarpment trail network, Dundas Valley Conservation Area, and Fifty Point Conservation Area near Winona. The Hamilton Conservation Authority has documented tick populations across most of its managed lands. Properties backing onto any forested conservation area should prioritize professional tick treatment.</p>
+        <p>The west-end communities carry the heaviest share of that risk, since Dundas Valley is one of the most consistently tick-positive conservation blocks the HCA surveys. We go through the Escarpment-edge streets and the two-treatment timing in <Link href="/blog/tick-control-ancaster-dundas-hamilton" className="text-brand-700 hover:underline">the Ancaster and Dundas tick control guide</Link>.</p>
 
         <h2>Burlington: Waterfront and Greenbelt Pressure</h2>
 

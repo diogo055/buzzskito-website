@@ -103,6 +103,7 @@ export default function HowToKeepTicksOutOfYardOntarioPage() {
 
         <h3>8. Inspect Yourself and Pets After Outdoor Activity</h3>
         <p>Lyme disease bacteria typically require 24–36 hours of tick attachment to transmit. Daily tick checks dramatically reduce infection risk. Focus checks on warm, hidden areas: behind ears, scalp, armpits, groin, behind knees. For dogs: between toes, under collars, around ears.</p>
+        <p>Pair the body check with the laundry step most people skip: put the clothes you wore straight into a hot dryer <em>before</em> washing them. Ten minutes on high heat kills ticks on dry fabric, while a normal wash on its own often does not &mdash; <Link href="/blog/do-ticks-die-in-the-washing-machine" className="text-brand-700 hover:underline">the post-hike laundry sequence</Link> lays out the temperatures behind it.</p>
 
         <h3>9. Use Permethrin-Treated Clothing for High-Risk Outdoor Activity</h3>
         <p>Permethrin kills blacklegged ticks on contact and is the active ingredient recommended for clothing treatment (never apply it to skin). You can buy pre-treated clothing or treat your own outdoor clothes with a spray like Sawyer permethrin &mdash; one application lasts roughly 6 washes on home-treated gear. Especially valuable for hiking the Bruce Trail, working in conservation-area-adjacent yards, or outdoor events in tick zones.</p>

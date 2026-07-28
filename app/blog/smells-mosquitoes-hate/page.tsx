@@ -170,6 +170,7 @@ export default function SmellsMosquitoesHatePage() {
 
           <h2>Scents Mosquitoes LOVE — What to Avoid</h2>
           <p>It is just as useful to know what draws mosquitoes in. They are attracted to carbon dioxide, the lactic acid and ammonia in sweat, body heat, and — importantly — <strong>floral and fruity fragrances</strong>. A sweet perfume, a scented lotion, or a fragranced body spray can make you noticeably more appealing to a hungry mosquito. On summer evenings in the GTA, skip the perfume, choose unscented sunscreen, and wear light-coloured, loose clothing, since mosquitoes also home in on dark fabric and heat.</p>
+          <p>One odour source is easy to forget because it is out of sight: foot and ankle bacteria. In a well-known 1996 experiment, malaria mosquitoes were drawn to Limburger cheese and to smelly feet at almost the same rate, which is part of <Link href="/blog/why-do-mosquitoes-bite-my-ankles">why bites cluster around ankles</Link>.</p>
 
           <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
             <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Scents wear off in minutes — a barrier spray lasts weeks</h3>

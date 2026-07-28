@@ -266,6 +266,7 @@ export default function BestScreenTentCanadaPage() {
             <li><strong>Instant screen house</strong> — Coleman&rsquo;s middle path: poles are pre-attached and telescope out, but the frame still unfolds in sections. Nearly pop-up speed with better wind behaviour.</li>
             <li><strong>Screened gazebo</strong> — a heavier steel-framed structure meant to stay up all season. Different category, different money.</li>
           </ul>
+          <p>If that last category is what you actually want — something that lives on the deck from May to September instead of folding into a bag — our guide to the <Link href="/blog/best-gazebo-with-mosquito-net-canada">best gazebos with mosquito netting in Canada</Link> compares soft-top and hard-top screened models, footprint sizing, and how to anchor one against summer wind.</p>
           <p>One thing none of these include: a floor. That&rsquo;s deliberate — you place them over grass, deck boards, or a campsite pad. If you want overhead-plus-under protection for sleeping outdoors, that&rsquo;s a bed net or camping tent problem; our <Link href="/blog/mosquito-net-canada">mosquito net guide for Canada</Link> covers those formats.</p>
 
           <h2>Setup Speed: Instant vs Pop-Up vs Pole-Style</h2>

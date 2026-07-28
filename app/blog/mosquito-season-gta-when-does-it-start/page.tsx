@@ -128,6 +128,7 @@ export default function MosquitoSeasonPage() {
         <h2>The Temperature Trigger: 10°C Is the Key Number</h2>
         <p>Mosquitoes become active when air temperatures consistently reach or exceed 10°C. Below this threshold, adult mosquitoes cannot fly effectively and larval development slows dramatically. This temperature threshold is why GTA mosquito season is compressed compared to warmer climates — but also why it can start surprisingly early in a warm spring.</p>
         <p>Overwintering mosquito eggs, laid in moist soil the previous fall, begin to hatch as soon as temperatures and moisture conditions are right. In a warm spring, this can happen as early as the third week of April in the GTA.</p>
+        <p>The other end of the scale is what closes the season. Adults go dormant below 10°C and a sustained hard frost near -2°C kills the ones still flying — <Link href="/blog/what-temperature-kills-mosquitoes" className="text-brand-700 hover:underline">the full temperature table</Link> shows where each threshold sits and why the population still rebounds every May.</p>
 
         <h2>Month-by-Month Mosquito Activity in the GTA</h2>
         <h3>April (Late): Season Begins</h3>

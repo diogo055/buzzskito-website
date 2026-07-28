@@ -229,6 +229,7 @@ export default function WhatDoesATickBiteLookLikePage() {
           </table>
         </div>
         <p>For a deeper side-by-side of the two most-confused bites, see <Link href="/blog/tick-bite-vs-mosquito-bite">tick bite vs mosquito bite</Link>.</p>
+        <p>The spider column is the one worth treating with the most caution, because the label gets applied far more often than it is earned — published reviews find most suspected spider bites are something else entirely. Our guide to <Link href="/blog/what-does-a-spider-bite-look-like">how a spider bite actually presents</Link> sets out the stages and the red flags.</p>
 
         <h2>Day-by-day: what a tick bite looks like over time</h2>
         <p>The appearance of a tick bite changes over days and weeks. Most bites simply fade, but the same timeline is when a Lyme disease rash can emerge, so it is worth knowing what each stage typically looks like.</p>

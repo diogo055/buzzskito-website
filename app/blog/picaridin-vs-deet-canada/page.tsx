@@ -272,6 +272,7 @@ export default function PicaridinVsDeetPage() {
 
           <h2>What Each Compound Actually Does</h2>
           <p><strong>DEET</strong> (N,N-Diethyl-meta-toluamide) was developed by the US military in 1946 and registered for civilian use in 1957. It works by interfering with mosquitoes&rsquo; olfactory receptors — they essentially can&rsquo;t smell you when DEET is on your skin. Eight decades of human use have produced extensive safety data; rare side effects include skin irritation in sensitive individuals.</p>
+          <p>The questions readers ask next are almost always about safety — Health Canada&rsquo;s 30% adult and 10% child concentration caps, the cancer claims that circulate online, and whether it is acceptable in pregnancy. We work through each of those in <Link href="/blog/is-deet-safe">our DEET safety explainer</Link>.</p>
           <p><strong>Picaridin</strong> (also called icaridin) was developed in the 1980s and approved by Health Canada in 2010. It works similarly to DEET — disrupting the mosquito&rsquo;s ability to detect human scent compounds (lactic acid, CO₂, octenol). Modern formulations are odourless, non-sticky, and safe on plastics and synthetic fabrics. The World Health Organization recommends picaridin for travel to disease-endemic regions.</p>
 
           <h2>The Plastic-Damage Problem with DEET</h2>

@@ -122,6 +122,7 @@ export default function TickSeasonPage() {
           <li><strong>Treatment 2 — Late August / September:</strong> Applied before the adult emergence peak, ensuring protection is active through the full fall tick season into November.</li>
         </ul>
         <p>Together, these two treatments provide coverage from late May through November — the complete active tick season for Ontario's blacklegged tick population.</p>
+        <p>Local calendars shift a little either side of that provincial average. In Oakville, the 16 Mile Creek corridor and Bronte Creek Provincial Park keep ticks active from roughly mid-March into November, which changes when the first treatment should land — the month-by-month version is in <Link href="/blog/tick-season-oakville-when-are-ticks-active" className="text-brand-700 hover:underline">the Oakville tick season breakdown</Link>.</p>
 
         <h2>Frequently Asked Questions</h2>
         <div className="not-prose space-y-3 my-6">

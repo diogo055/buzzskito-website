@@ -168,6 +168,7 @@ export default function SpringTickSeasonPage() {
           <li><strong>York Region / Oak Ridges Moraine:</strong> Slightly later emergence due to higher elevation and colder microclimates. See: <Link href="/blog/tick-control-richmond-hill-markham" className="text-brand-700 hover:underline">Richmond Hill & Markham tick guide</Link></li>
           <li><strong>Caledon / Halton Hills:</strong> Rural properties with extensive wood borders see the highest spring tick volumes. See: <Link href="/blog/tick-prevention-caledon-halton-hills" className="text-brand-700 hover:underline">Caledon & Halton Hills tick prevention</Link></li>
         </ul>
+        <p>Burlington is worth calling out on its own. Halton Region surveillance has recorded active adult ticks on the Mountainside and Mt. Nemo trails by the second week of March, because the lake buffer and the south-facing escarpment slope warm ahead of the rest of the region. <Link href="/blog/tick-season-burlington-when-are-ticks-active" className="text-brand-700 hover:underline">Our Burlington tick season guide</Link> walks through that local calendar month by month.</p>
 
         <h2>The Cost of Waiting Too Long</h2>
         <p>Homeowners who wait until they find a tick on themselves or a family member before booking treatment are already behind. By the time you encounter a tick in your yard, the local population is established and actively feeding. Every week of delay during the nymph emergence window (late May through July) increases your family&apos;s cumulative Lyme disease exposure risk.</p>

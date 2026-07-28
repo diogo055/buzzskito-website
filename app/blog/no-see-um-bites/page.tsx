@@ -161,6 +161,7 @@ export default function NoSeeUmBitesPage() {
           </table>
         </div>
         <p>The single most useful tell for no-see-ums is the combination of a <strong>burning first sting, tight clusters on exposed skin, and being outdoors near water at dawn or dusk</strong>. For a full breakdown of the two most-confused everyday bites, our companion guide compares <Link href="/blog/no-see-ums-biting-midges-ontario">no-see-um and mosquito bites</Link> in more detail.</p>
+        <p>One biter is easy to rule out on pain alone. A horse fly or deer fly slices the skin with blade-like mouthparts instead of piercing it, so the bite lands as a single hard sting that often bleeds and raises one large welt rather than a patch of small ones &mdash; and the <Link href="/blog/horse-fly-and-deer-fly-bite-treatment">first aid and healing timeline for tabanid bites</Link> differs accordingly, because you are caring for an open cut.</p>
 
         <h2>How long do no-see-um bites last?</h2>
         <p>For most people, a no-see-um bite is <strong>itchiest in the first 2 to 4 days</strong> and fades over roughly <strong>1 to 2 weeks</strong>. Firmer welts, small blisters, or a stronger allergic-type reaction can take longer &mdash; sometimes 2 to 3 weeks &mdash; and scratching that breaks the skin can drag out healing or invite infection.</p>

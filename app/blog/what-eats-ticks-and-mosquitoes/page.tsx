@@ -176,6 +176,7 @@ export default function WhatEatsTicksAndMosquitoesPage() {
             <li><strong>Bats</strong> — often marketed as a mosquito solution, but wild-diet studies consistently show mosquitoes are only a small fraction of what bats eat. They prefer bigger, higher-calorie moths and beetles. Bats are wonderful to support; just do not expect a bat house to clear your yard.</li>
             <li><strong>Purple martins and swallows</strong> — the same story. Purple martins are famous for &ldquo;eating 2,000 mosquitoes a day,&rdquo; a claim traced back to a misused study. Research on their actual diet finds mosquitoes are a tiny part of it.</li>
           </ul>
+          <p>Worth flagging one case of mistaken identity, because the nickname causes it: the long-legged insect most Ontarians see bouncing off a porch light is a crane fly, not a dragonfly, and it eats no mosquitoes at any life stage. <Link href="/blog/mosquito-hawk-explained">Our mosquito hawk explainer</Link> untangles which insect the name actually refers to.</p>
 
           <h2>What Eats Ticks?</h2>
           <p>Ticks have fewer natural enemies than mosquitoes, partly because they spend most of their lives hidden in leaf litter and grass rather than flying around. The animals that do eat them tend to be ground foragers and grooming mammals.</p>

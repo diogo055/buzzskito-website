@@ -221,6 +221,7 @@ export default function BugProtectiveClothingCanadaPage() {
           <h3>1. Coghlan&rsquo;s Bug Jacket — The Black-Fly Season Workhorse</h3>
           <p>Coghlan&rsquo;s is a Winnipeg company that has been making camping hardware since 1959, and its bug jacket is the default answer at Canadian Tire stores every spring for a reason: it&rsquo;s a simple, durable fine-mesh pullover jacket with an integrated hood that zips fully closed around your face, elastic at the cuffs, and a hem long enough to stay tucked when you bend over a garden bed or a boat motor.</p>
           <p>Wear it over a T-shirt with a ball cap underneath — the brim holds the hood mesh off your nose and cheeks, because black flies will bite through mesh resting directly on skin. It packs down to almost nothing and lives in the cottage cupboard from Victoria Day onward. Sizes run small through XXL; smalls fit most kids around 8 and up.</p>
+          <p>The same air-gap principle decides whether your ordinary clothes hold up. Because a mosquito&rsquo;s mouthparts reach only a couple of millimetres, fabric held off the skin defeats a bite while fabric pressed flat against it does not &mdash; our <Link href="/blog/can-mosquitoes-bite-through-clothes">fabric-by-fabric bite-risk breakdown</Link> shows where leggings, denim, and thin tees land.</p>
           <div className="not-prose my-4"><BuyLink tag={AMZ_TAG} search="coghlans bug jacket">Check price on Amazon.ca &rarr;</BuyLink></div>
 
           <h3>2. Coghlan&rsquo;s Bug Pants — Complete the Kit</h3>
@@ -267,6 +268,7 @@ export default function BugProtectiveClothingCanadaPage() {
             <li><strong>Health Canada-registered repellent</strong> — DEET or icaridin for the hands and any exposed skin the mesh doesn&rsquo;t cover</li>
           </ol>
           <p>Total kit weight is under a kilogram (about 2 lb), and everything works identically on day one and day sixty — no batteries, no fuel, no reapplication schedule.</p>
+          <p>Cottage country is not the only place that earns this kit. Black flies push deep into suburban GTA yards along the Credit, Humber, and Don corridors during the same weeks, which is why <Link href="/blog/black-flies-mississauga-toronto-gta-2026">black flies in Mississauga and Toronto</Link> catch so many homeowners off guard every May.</p>
 
           <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
             <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Armour up for the trail. Treat the yard at home.</h3>

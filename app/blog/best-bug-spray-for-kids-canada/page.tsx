@@ -327,6 +327,7 @@ export default function BestBugSprayForKidsCanadaPage() {
             <li><strong>Wash it off indoors</strong> — soap and water when playtime ends, and wash treated clothing before it&rsquo;s worn again.</li>
             <li><strong>Do a tick check</strong> — after any time in tall grass or wooded areas, check kids (and pets) head to toe.</li>
           </ul>
+          <p>Parents usually want to know whether DEET itself is the problem or just the dose. It is the dose — Health Canada holds children aged 2 to 12 to a maximum of 10% while allowing adults up to 30%, and we explain where those age limits come from in <Link href="/blog/is-deet-safe">our plain-language look at DEET safety</Link>.</p>
 
           <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
             <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Fewer bites means less bug spray</h3>

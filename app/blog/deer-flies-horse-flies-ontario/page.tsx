@@ -195,6 +195,7 @@ export default function DeerFliesHorseFliesOntarioPage() {
             <li><strong>Watch it.</strong> See a doctor for spreading redness, pus, a fast-growing welt, fever, or any strong allergic reaction (widespread hives, facial swelling, or trouble breathing).</li>
           </ol>
           <p>Most bites settle within a few days. Because the wound is a genuine cut rather than a pinprick, keeping it clean matters more than it does with a mosquito bite.</p>
+          <p>If the bite itself is what brought you here, our companion piece on <Link href="/blog/horse-fly-and-deer-fly-bite-treatment">how to treat a horse fly or deer fly bite</Link> goes further &mdash; a remedy-by-remedy relief table, the two-to-four-day itch window, and the specific signs that mean infection rather than normal healing.</p>
 
           <h2>Yard and Personal Control That Actually Helps</h2>
           <p>No single tactic clears biting flies, but stacking several makes a real difference around an Ontario home:</p>

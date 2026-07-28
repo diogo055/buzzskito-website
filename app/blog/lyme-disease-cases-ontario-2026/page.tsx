@@ -120,6 +120,7 @@ export default function LymeCasesOntario2026Page() {
           <li><strong>Peel Region:</strong> 119 cases (Mississauga, Brampton, Caledon)</li>
         </ol>
         <p>Note the GTA PHUs: Halton, Toronto, and Peel are all in the top 10. Five years ago, none of them were.</p>
+        <p>Those two western-GTA health units deserve a closer read if you live under them. We unpack <Link href="/blog/lyme-disease-cases-mississauga-oakville-2026" className="text-brand-700 underline">what the Peel and Halton numbers mean for Mississauga and Oakville households</Link>, including the Credit River and 16 Mile Creek corridors that account for much of the local exposure.</p>
 
         <h2>Why cases are climbing this fast</h2>
         <p>Three drivers, all stacking:</p>

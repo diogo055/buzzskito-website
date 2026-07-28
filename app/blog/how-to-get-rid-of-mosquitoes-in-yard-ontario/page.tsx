@@ -124,6 +124,7 @@ export default function HowToGetRidOfMosquitoesInYardOntarioPage() {
 
         <h3>7. Use Fans on Outdoor Living Areas</h3>
         <p>Mosquitoes are weak fliers. Wind speeds above ~1.5 m/s exceed their flight capability. A moderately powerful outdoor fan creates a localized "mosquito-free zone" around a deck or patio. Fans complement professional barrier spray — they don&apos;t replace it.</p>
+        <p>The same physics works indoors, which is why a box or ceiling fan aimed across a bed is the best no-chemical fix for the one mosquito that made it inside. If the problem has moved through your door, <Link href="/blog/how-to-get-rid-of-mosquitoes-in-the-house" className="text-brand-700 hover:underline">the indoor version of this playbook</Link> covers hunting it down and closing the gap it came in through.</p>
 
         <h3>8. Plant Mosquito-Repelling Plants Strategically</h3>
         <p>Lavender, basil, catnip, lemon balm, and citronella grass contain volatile oils mosquitoes find unpleasant. They reduce ambient mosquito pressure within 1–3 metres of the plant. Plant strategically near patios, doorways, and seating areas — not as a yard-wide solution. Combine with barrier spray for best results.</p>

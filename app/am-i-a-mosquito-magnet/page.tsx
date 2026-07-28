@@ -79,6 +79,7 @@ export default function MosquitoMagnetPage() {
 
           <h3 className="text-lg font-extrabold text-brand-900 mt-6 mb-2">Mid-range detection (5-15 metres)</h3>
           <p className="text-gray-700 mb-4"><strong>Body heat + visual contrast.</strong> Mosquitoes have infrared-sensitive antennae that detect body temperature gradients. They also use eyes (yes, mosquitoes have surprisingly good vision) to lock onto dark high-contrast targets against the background. Switching to light-coloured clothing reduces visual detection by 30-40% — one of the easiest changes you can make.</p>
+          <p className="text-gray-700 mb-4">Not every shade behaves the same way, either. A 2022 <em>Nature Communications</em> study found mosquitoes flew toward red, orange, black, and cyan while ignoring green, blue, purple, and white — the shade-by-shade breakdown sits in <Link href="/blog/what-colors-attract-mosquitoes" className="text-brand-700 underline">our colour-attraction chart</Link>.</p>
 
           <h3 className="text-lg font-extrabold text-brand-900 mt-6 mb-2">Close-range targeting (under 1 metre)</h3>
           <p className="text-gray-700 mb-4"><strong>Skin chemistry.</strong> Within striking distance, mosquitoes use highly specialized receptors to detect skin volatiles — lactic acid (post-exercise), ammonia, fatty acids, and blood-type-specific compounds. Skin microbiome composition matters too: people with more diverse skin bacteria are LESS attractive than those with low-diversity bacteria. This is partly genetic.</p>

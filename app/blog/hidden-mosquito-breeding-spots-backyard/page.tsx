@@ -211,6 +211,7 @@ export default function HiddenBreedingSpotsPage() {
         <h2>After Source Elimination: Professional Barrier Spray</h2>
         <p>Removing breeding sites is step one. Step two is treating the adult mosquito population that has already established itself in your vegetation. Professional barrier spray from BuzzSkito kills mosquitoes on contact across all your shrubs, garden edges, tree lines, and lawn perimeter — and the residual formula stays active for up to 30 days.</p>
         <p>Combined, source elimination and barrier spray is the most effective approach available to GTA homeowners — significantly outperforming either method alone.</p>
+        <p>Where homeowners lose ground is usually in the details: an uncovered rain barrel, a pool cover holding rainwater, or a spray aimed at the lawn rather than the shaded foliage where adults rest. Those and nine more are collected in <Link href="/blog/mosquito-mistakes-ontario-homeowners-make" className="text-brand-700 hover:underline">the mistakes Ontario homeowners make with mosquito control</Link>.</p>
 
         <h2>Frequently Asked Questions</h2>
         <div className="not-prose space-y-4 my-6">

@@ -246,6 +246,7 @@ export default function NaturalMosquitoRepellentPage() {
           <ul>
             <li><strong>Generic essential oil sprays</strong> (peppermint, lavender, tea tree blends) — 15–60 minutes of weak repellency.</li>
             <li><strong>Citronella candles</strong> — work only directly downwind within 1 metre.</li>
+            <li><strong>Citronella tiki torches</strong> — the same oil as a candle, but the flame usually stands farther from where you sit; see <Link href="/blog/do-tiki-torches-repel-mosquitoes">how citronella torches actually perform</Link>.</li>
             <li><strong>Mosquito-repelling plant beds</strong> — minimal effect unless leaves are crushed.</li>
             <li><strong>Ultrasonic devices</strong> — multiple peer-reviewed studies show no effect.</li>
             <li><strong>Bug zappers</strong> — kill mostly beneficial insects, not biting mosquitoes.</li>

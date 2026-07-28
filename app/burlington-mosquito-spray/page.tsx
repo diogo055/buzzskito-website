@@ -247,6 +247,7 @@ export default function BurlingtonMosquitoPage() {
 
           <h2>Also Providing Tick Control in Burlington</h2>
           <p>Burlington's wooded greenbelt corridors and Escarpment trails are significant tick habitat. See our <Link href="/burlington-tick-spray" className="text-brand-700 hover:underline">Burlington tick control service</Link>.</p>
+          <p>Ticks also start well before mosquito season does. Adults become active on the escarpment slope as early as the second week of March here, months ahead of the first mosquito treatment — the full picture is in <Link href="/blog/tick-season-burlington-when-are-ticks-active" className="text-brand-700 hover:underline">when ticks are active in Burlington</Link>.</p>
 
           <h2>Everything Burlington Homeowners Ask About Mosquito Control</h2>
 

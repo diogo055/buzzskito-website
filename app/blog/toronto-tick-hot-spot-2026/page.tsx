@@ -114,6 +114,7 @@ export default function TorontoTickHotSpotPage() {
           <li><strong>North:</strong> Sunnybrook + Lawrence Park ravines, York Mills, Bayview slope, Cricket Club edges</li>
         </ul>
         <p>The general rule: <strong>if you can see trees from your back fence, treat your property as elevated risk in 2026.</strong></p>
+        <p>The same rule holds west of the city, where Bronte Creek Provincial Park and the Royal Botanical Gardens anchor the pressure instead of the Don Valley. We ranked those neighbourhoods separately in <Link href="/blog/tick-hot-spots-oakville-burlington-2026" className="text-brand-700 underline">the Oakville and Burlington tick hot spot report</Link>.</p>
 
         <h2>The 2026 protection plan for Toronto homes</h2>
         <ol>

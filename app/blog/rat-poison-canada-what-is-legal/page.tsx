@@ -201,6 +201,7 @@ export default function RatPoisonCanadaLegalPage() {
 
           <h2>Should You Even Use Poison? Traps First</h2>
           <p>For most Canadian rat and mouse problems, no — a properly deployed trap line beats bait, and it isn&rsquo;t close. Traps kill in seconds instead of days, leave a retrievable carcass instead of a smell behind drywall, carry zero secondary-poisoning risk to owls and pets, and give you the only honest progress metric there is: a body count.</p>
+          <p>If bait looked appealing mainly because a trap line demands daily upkeep, there is a middle path worth pricing. A self-resetting CO₂ trap strikes, clears the carcass, and re-arms itself, so it runs unattended for weeks with no rodenticide anywhere in the chain and no secondary poisoning to relay to an owl or a dog. Our <Link href="/blog/goodnature-a24-review-canada">poison-free Goodnature A24 review</Link> covers where that premium is and is not worth paying.</p>
           <p>The playbook, with the deep-dives linked:</p>
           <ul>
             <li><strong>Rats:</strong> heavy-duty snap traps and smart placement — mouse traps physically cannot kill a rat. Start with the <Link href="/blog/best-rat-trap-canada">best rat trap guide</Link>.</li>

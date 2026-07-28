@@ -333,6 +333,7 @@ export default function OakvilleMosquitoPage() {
           {/* Tick Control */}
           <h2>Also Providing Tick Control in Oakville</h2>
           <p>Bronte Creek and Oakville&apos;s forested ravines are significant blacklegged tick habitat documented by Halton Region Public Health. If your property backs onto any ravine, conservation area, or wooded edge, tick control is an important complement to mosquito spray. See our <Link href="/oakville-tick-spray" className="text-brand-700 hover:underline">Oakville tick control service</Link> — many homeowners bundle both services for complete seasonal yard protection.</p>
+          <p>Tick timing does not line up neatly with mosquito timing, either: blacklegged ticks are out here from roughly mid-March through November, with a nymph peak from late May to July. <Link href="/blog/tick-season-oakville-when-are-ticks-active" className="text-brand-700 hover:underline">The Oakville tick season calendar</Link> shows how the two schedules overlap.</p>
 
           <h2>Everything Oakville Homeowners Ask About Mosquito Control</h2>
 

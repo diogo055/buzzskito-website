@@ -184,6 +184,7 @@ export default function BlackFliesOntarioPage() {
           <li><strong>Niagara Escarpment streams</strong> — affecting Ancaster, Dundas, Burlington, and the Halton Hills corridor</li>
         </ul>
         <p>Black flies are strong fliers and can travel several kilometres from their breeding sites in search of hosts. If your property is anywhere within a few kilometres of a clean, flowing waterway — and most of the GTA is — you will see black flies during the spring emergence. <Link href="/toronto-mosquito-control" className="text-brand-700 underline">Toronto homeowners</Link> with properties backing onto Don Valley ravines, Humber River corridors, or High Park feel this acutely each year.</p>
+        <p>For a neighbourhood-level breakdown of which streets those watersheds actually hit hardest, our <Link href="/blog/black-flies-mississauga-toronto-gta-2026" className="text-brand-700 underline">2026 GTA black fly map</Link> walks the Credit River corridor, the Don Valley, 16 Mile Creek, and the escarpment foot city by city.</p>
 
         <h2>Why Black Fly Bites Are Different</h2>
         <p>Black flies do not pierce the skin like mosquitoes — they cut it. Their mouthparts are designed to slice a small wound and lap up the pooling blood, similar to a horsefly but on a much smaller scale. The bite is often felt sharply when it happens, unlike a mosquito bite which usually goes unnoticed until the welt forms.</p>

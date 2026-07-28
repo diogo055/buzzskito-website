@@ -155,6 +155,7 @@ export default function WhereDoMosquitoesGoInWinterOntarioPage() {
           <h2>Diapause: A Mosquito&rsquo;s Version of Hibernation</h2>
           <p>Diapause is not just &ldquo;getting sleepy in the cold.&rdquo; It is a programmed dormancy triggered mainly by <strong>shortening daylight</strong> in late summer and early fall, reinforced by dropping temperatures. Once a female mosquito reads those cues, her body changes: she stops seeking blood, her ovaries pause, her metabolism slows to a crawl, and she stockpiles fat to live on for months.</p>
           <p>Crucially, diapausing mosquitoes also produce <strong>cryoprotectants</strong> — compounds such as glycerol that behave like a natural antifreeze, lowering the temperature at which their tissues would freeze and rupture. This is why a cold snap that would kill an active summer mosquito doesn&rsquo;t reliably kill a hibernating one. The female is chemically and behaviourally built to survive subfreezing conditions in her sheltered spot.</p>
+          <p>It also explains the mosquito that turns up indoors out of season. A diapausing <em>Culex</em> female sheltering in a heated basement, crawl space, or attached garage sits in far warmer conditions than the shed she was aiming for, and a warm stretch can rouse her into flying around the house in the middle of winter. If one is circling your bedroom in February, our guide to <Link href="/blog/how-to-get-rid-of-mosquitoes-in-the-house">getting rid of mosquitoes inside the house</Link> covers where to look for her and what actually works indoors.</p>
 
           <h2>What Temperature Stops — and Wakes — Mosquitoes</h2>
           <p>Mosquito activity is governed by temperature more than by the calendar. Here are the practical thresholds for the GTA:</p>
@@ -170,6 +171,7 @@ export default function WhereDoMosquitoesGoInWinterOntarioPage() {
             </tbody>
           </table>
           <p>Notice what&rsquo;s missing: a &ldquo;kill&rdquo; temperature. Cold pauses mosquitoes; it doesn&rsquo;t dependably kill the overwintering ones. Sheltered diapausing females and buried Aedes eggs are cold-adapted, so even a brutal Ontario winter leaves plenty of survivors to restart the population. The takeaway isn&rsquo;t &ldquo;wait for winter to solve it&rdquo; — it&rsquo;s that the reset button never really gets pressed.</p>
+          <p>There is a number for the adults you can see, mind you: a sustained hard frost around -2&deg;C finishes off active adults, while a light frost near 0&deg;C only stuns them. We put the full threshold table together in <Link href="/blog/what-temperature-kills-mosquitoes">what temperature kills mosquitoes</Link>.</p>
 
           <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
             <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Hit the first generation before it multiplies</h3>

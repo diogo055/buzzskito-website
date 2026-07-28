@@ -121,6 +121,7 @@ export default function LymeRiskAreas2026Page() {
 
         <h3>Oakville and Burlington</h3>
         <p>Bronte Creek Provincial Park, Sixteen Mile Creek, Sheldon Creek, and the Lake Ontario shoreline trail systems are confirmed risk zones. Burlington&apos;s proximity to the RBG and Escarpment trails further elevates risk. Halton Region public health actively monitors tick populations and reports positive findings each season.</p>
+        <p>Across both Peel and Halton the case mix has shifted from travel-acquired infections toward locally acquired ones. Our breakdown of <Link href="/blog/lyme-disease-cases-mississauga-oakville-2026" className="text-brand-700 hover:underline">Lyme case trends in Mississauga and Oakville</Link> walks through that shift and explains what reported counts leave out.</p>
         <p>See: <Link href="/oakville-tick-spray" className="text-brand-700 hover:underline">Oakville tick control</Link> | <Link href="/burlington-tick-spray" className="text-brand-700 hover:underline">Burlington tick control</Link></p>
 
         <h3>York Region (Richmond Hill, Markham, Vaughan)</h3>

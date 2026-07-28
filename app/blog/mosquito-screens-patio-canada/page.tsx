@@ -276,6 +276,7 @@ export default function MosquitoScreensPatioCanadaPage() {
 
           <h3>Screened gazebos (best for a permanent room)</h3>
           <p>If you want something that stays up all summer, a steel-frame or hardtop screened gazebo is a proper outdoor room: a solid roof (soft-top or aluminum hardtop) with zip-up mosquito netting walls you can roll open on calm days. Costco Canada is usually the best place to buy the larger 10&times;12 and 12&times;14 models during its spring sale; Canadian Tire and Home Depot stock mid-size units. Budget $300–$700 for a good soft-top and $900–$2,000 for a hardtop that doubles as rain shelter.</p>
+          <p>Choosing between the two roof styles is the whole decision, and it mostly comes down to whether you will take the canopy down each fall. We break that trade-off apart in our <Link href="/blog/best-gazebo-with-mosquito-net-canada">soft-top vs hard-top screened gazebo comparison</Link>, along with snow load, wind anchoring, and matching the footprint to your table.</p>
 
           <h3>Gazebo mosquito netting (replacement walls &amp; add-on kits)</h3>
           <p>The netting walls are always the first part of a screened gazebo to fail — zippers strip, mesh tears at the corners, and UV degrades the fabric long before the steel frame gives out. Don&rsquo;t scrap a $700 gazebo over worn mesh: <strong>replacement gazebo mosquito netting</strong> is sold as universal four-panel sets sized to the common 10&times;10, 10&times;12, and 12&times;14 frames, and the same kits add netting walls to an open (unscreened) gazebo. Measure post-to-post along the top rail before ordering, and choose sets with zippered door overlaps rather than plain magnet seams if your yard gets wind. <BuyLink tag={AMZ_TAG} search="gazebo replacement mosquito netting">Check gazebo replacement netting on Amazon.ca &rarr;</BuyLink></p>
@@ -324,6 +325,7 @@ export default function MosquitoScreensPatioCanadaPage() {
             <li><strong>Treat the rest of the yard</strong> — <Link href="/mosquito-control">professional barrier spray</Link> so the lawn, garden, and play area are usable, and ticks are covered</li>
           </ol>
           <p>This gives you a zero-chemical zone for calm evenings and a fully usable yard for everything else — for less hassle than trying to net your entire property.</p>
+          <p>On the hottest weeks there is an optional fourth layer worth considering over the seating area. A mist line drops the temperature in the misted zone by a few degrees and keeps mosquitoes drifting off it while the water runs, so <Link href="/blog/diy-outdoor-misting-system-kit-canada">a DIY misting kit over the seating area</Link> works alongside a screen rather than replacing one — it is comfort equipment, not mosquito control.</p>
 
           <h2>Related Reading</h2>
           <ul>

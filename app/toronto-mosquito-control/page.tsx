@@ -190,6 +190,7 @@ export default function TorontoMosquitoPage() {
           <h2>Why Toronto Has a Serious Mosquito Problem</h2>
           <p>Toronto's ravine system — the largest urban ravine network in North America — creates exceptional mosquito breeding conditions across the entire city. The <strong>Don River Valley</strong>, <strong>Humber River</strong>, and <strong>Highland Creek</strong> corridors provide the standing water, dense vegetation, and humidity that mosquitoes need throughout the season. Mosquitoes travel up to 3 km from breeding sites, meaning even Toronto properties well away from ravines experience dispersal pressure from the network.</p>
           <p>Beyond ravines, Toronto-specific factors compound the problem: mature tree canopy providing dense daytime resting habitat, irregular terrain creating standing water pockets after rain, urban heat island effects extending the active season, and the sheer density of vegetation in established neighbourhoods like Rosedale, Forest Hill, and Leaside.</p>
+          <p>Volume is only part of the concern. The <em>Culex</em> mosquitoes breeding in the city&apos;s storm catch basins are the ones that carry West Nile virus, and their risk window peaks in August and early September — <Link href="/blog/west-nile-virus-toronto-2026" className="text-brand-700 hover:underline">our Toronto West Nile guide</Link> tracks how that curve moves through the season.</p>
 
           <h2>Mosquito Pressure Zones by Toronto Neighbourhood</h2>
           <h3>Rosedale, Forest Hill &amp; Lawrence Park</h3>

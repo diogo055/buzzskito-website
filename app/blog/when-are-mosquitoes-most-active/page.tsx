@@ -209,6 +209,7 @@ export default function WhenAreMosquitoesMostActivePage() {
             <li><strong>Above ~35 C (95 F):</strong> too hot and dry — mosquitoes slow down and shelter in shade until conditions ease.</li>
           </ul>
           <p>Layer weather on top of temperature and you can almost predict a bad night: warm, humid, still, and overcast, a few days after rain (which refills the standing water where they lay eggs), is peak mosquito weather. Wind is your friend — a breeze above roughly 16 km/h (10 mph) grounds these weak fliers almost entirely.</p>
+          <p>Cold does more than ground them once it gets far enough down the scale. A sustained hard frost near -2 C kills active adults outright, though eggs and hibernating females come through it fine — the whole scale, from dormancy to die-off, is laid out in <Link href="/blog/what-temperature-kills-mosquitoes">our cold-versus-heat breakdown</Link>.</p>
 
           <h2>Why the Timing Matters for Bites — and for Spraying</h2>
           <p>Knowing when mosquitoes are active changes how you protect yourself and your yard:</p>

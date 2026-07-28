@@ -131,6 +131,7 @@ export default function WhenToScheduleFirstTreatmentPage() {
           <li><strong>Rural or large-lot properties</strong> (Caledon, Halton Hills, King City): These properties often see later spring soil temperatures — first or second week of May works well.</li>
           <li><strong>Hamilton:</strong> The escarpment microclimate means Hamilton can see early activity near Cootes Paradise and the waterfront — first week of May or late April for those areas.</li>
         </ul>
+        <p>Mississauga is the clearest example of that split, with waterfront and Credit River lots running about a week ahead of inland subdivisions at the start of the season and a week behind them at the end. We set out the dates neighbourhood by neighbourhood in <Link href="/blog/when-to-spray-mosquitoes-mississauga-2026" className="text-brand-700 hover:underline">the 2026 Mississauga spray calendar</Link>.</p>
 
         <h2>How to Book Before You Forget: Locking In Your Program</h2>
         <p>The peak booking window for GTA mosquito control is April. If you call in late May or June you&rsquo;re competing with every other homeowner who waited until mosquitoes were already a problem. The two practical ways to avoid this:</p>

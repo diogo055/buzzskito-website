@@ -173,6 +173,7 @@ export default function MosquitoFactsPage() {
 
           <h2>Why Do Mosquitoes Need Blood?</h2>
           <p>Here is the key misconception, corrected: female mosquitoes do not drink blood for nourishment. They drink it to <strong>reproduce</strong>. A blood meal delivers the concentrated protein, amino acids, and iron a female needs to build a batch of 100 to 300 eggs. Nectar keeps her alive and flying; blood turns into offspring. After a bite she rests for a couple of days while the eggs develop, then seeks out standing water to lay them — and often repeats the cycle several times.</p>
+          <p>Two follow-on questions fall out of that cycle, and both have a counter-intuitive answer. A mosquito does not die after biting you &mdash; that is the honeybee, whose barbed stinger tears out &mdash; and one interrupted female can leave several welts in a single evening rather than a single tidy bump. We settle both in our explainer on <Link href="/blog/how-many-times-can-a-mosquito-bite-you">whether a mosquito dies after it bites you</Link>.</p>
 
           <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
             <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Know the facts — now clear the yard</h3>
@@ -188,6 +189,7 @@ export default function MosquitoFactsPage() {
 
           <h2>Are Mosquitoes Attracted to Light?</h2>
           <p>Only mildly. Mosquitoes react to light, but they are far more powerfully drawn to the signals that mean &ldquo;host nearby&rdquo;: the <strong>carbon dioxide (CO2)</strong> in your breath, radiant body heat, humidity, and skin chemicals such as <strong>lactic acid</strong> and octenol. This is why UV bug zappers are poor mosquito control — they mostly electrocute harmless moths and beetles — while CO2-baited traps and repellents that mask your scent (DEET, picaridin/icaridin, oil of lemon eucalyptus) actually work. It also explains why some people get bitten more than others: it comes down to the chemistry and CO2 you emit, not the porch light.</p>
+          <p>What <em>is</em> circling that light is usually something else. The big, gangly, long-legged insect people call a &ldquo;mosquito hawk&rdquo; is a crane fly, and despite the nickname <Link href="/blog/mosquito-hawk-explained">it neither bites you nor eats mosquitoes</Link>.</p>
 
           <p>A good repellent handles you personally; treating the yard handles the source. If you spend a lot of time outdoors, a picaridin or DEET repellent is the simplest personal defence. <BuyLink tag={AMZ_TAG} search="picaridin mosquito repellent spray">Check mosquito repellents on Amazon.ca →</BuyLink></p>
 

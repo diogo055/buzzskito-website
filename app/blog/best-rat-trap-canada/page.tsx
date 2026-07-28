@@ -187,6 +187,7 @@ export default function BestRatTrapCanadaPage() {
 
           <h3>3. Tomcat Rat Snap Trap — easiest to set</h3>
           <p>Tomcat&rsquo;s moulded-plastic rat snap trap sets with one press of a foot or hand — no fingers near the strike zone — and its interlocking teeth grip rather than relying purely on impact. It&rsquo;s slightly less powerful than the Victor wood trap on the largest rats but far less intimidating to arm, washable, and it includes a removable bait cup you can fill and click in place before setting. If the Victor&rsquo;s spring bar has ever snapped on your thumb, this is your trap.</p>
+          <p>There is a fourth category worth knowing about if your rat problem never really ends: a CO₂-powered trap that strikes, drops the carcass clear, and re-arms itself, so it keeps working unattended instead of being &ldquo;done&rdquo; the moment it fires once. It costs many times what any of these three do, which is why it only earns its place against chronic pressure &mdash; we work through that maths in our <Link href="/blog/goodnature-a24-review-canada">Goodnature A24 review for Canada</Link>.</p>
 
           <h2>Rat Trap Comparison Table</h2>
           <table className="not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">

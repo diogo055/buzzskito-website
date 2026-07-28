@@ -209,6 +209,7 @@ export default function MosquitoRepellentPlantsPage() {
           <li><strong>Eucalyptus (in Ontario):</strong> Not cold-hardy here, and the diluted passive release of eucalyptol from a potted plant is too low to be effective outdoors.</li>
           <li><strong>Lemongrass:</strong> Confused with citronella grass. It contains some citral but at lower concentrations. Ornamental value only in Ontario.</li>
         </ul>
+        <p>The flip side of the question is worth knowing too, because a few common ornamentals quietly work against you: bromeliads, taro, cut bamboo, and any pot sitting in a drainage saucer hold the standing water mosquitoes actually breed in. We list the culprits in <Link href="/blog/what-flowers-attract-mosquitoes" className="text-brand-700 hover:underline">our Ontario garden guide to mosquito-friendly plants</Link>.</p>
 
         <h2>How to Maximize Effectiveness: The Layered Approach</h2>
         <p>For genuine mosquito reduction in your GTA backyard, plants work best as one layer in a multi-step strategy:</p>

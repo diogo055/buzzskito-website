@@ -203,6 +203,7 @@ export default function StandingWaterMosquitoesPage() {
             </tbody>
           </table>
           <p>One useful rule of thumb: mosquitoes do <strong>not</strong> breed in moving or agitated water. A fountain, a pond pump, or a small solar aerator keeps the surface disturbed enough that larvae cannot survive — which is why a running water feature is fine but the still bucket beside it is not.</p>
+          <p>Plants belong on that source list too, more often than gardeners expect. Bromeliad cups, taro leaves, cut bamboo stems, and the drainage saucer under a patio pot all hold water the same way a forgotten bucket does — we cover the garden-specific version in <Link href="/blog/what-flowers-attract-mosquitoes">which flowers and plants attract mosquitoes</Link>.</p>
 
           <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
             <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Dumped every container and still getting bitten?</h3>

@@ -272,6 +272,7 @@ export default function LymeDiseaseSymptomsGuidePage() {
             <li><strong>Manage your yard.</strong> Keep grass mowed, clear leaf litter, and create a barrier between the lawn and any woods or tall grass, since ticks quest from vegetation at the yard&rsquo;s edge.</li>
           </ol>
           <p>To recognize the tick that actually spreads Lyme, see our identification guide to the <Link href="/blog/blacklegged-deer-tick-ontario">blacklegged (deer) tick in Ontario</Link>. And if ticks are already a problem around your home, a professional barrier treatment targets the exact shaded edges and leaf litter where they wait.</p>
+          <p>Households with a dog have a second exposure route worth understanding, since the same ticks ride indoors on a pet&rsquo;s coat. <Link href="/blog/can-dogs-get-lyme-disease">Dogs can catch Lyme from those bites too</Link>, and their warning signs look nothing like ours &mdash; shifting-leg lameness instead of a rash, appearing months after the bite.</p>
 
           <aside aria-label="Professional tick control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
             <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Fewer ticks in your yard means fewer chances to be bitten</h3>

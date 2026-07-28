@@ -152,6 +152,7 @@ export default function IFoundTickOnMyDogPage() {
             <li>Joint stiffness or reluctance to jump on furniture</li>
           </ul>
           <p>If any of these appear, see your vet and mention the tick. A 4DX SNAP test takes 8 minutes and screens for Lyme, ehrlichiosis, anaplasmosis, and heartworm.</p>
+          <p>Worth knowing before that appointment: only a small share of infected dogs ever get sick, and a positive test in a dog with no symptoms is not automatically treated the same way as an ill one. Our guide on <Link href="/blog/can-dogs-get-lyme-disease">whether dogs get Lyme disease from ticks</Link> walks through the signs, the stages, and how vets decide.</p>
 
           <h2>Should You Take the Tick to a Vet or Lab?</h2>
           <p>Two free options exist in Ontario:</p>

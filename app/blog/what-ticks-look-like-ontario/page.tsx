@@ -186,6 +186,7 @@ export default function WhatTicksLookLikePage() {
           </table>
         </div>
         <p className="text-sm text-gray-500">Tip: a six-legged tick is a larva; nymphs and adults have eight legs. Larvae almost never carry Lyme, but nymphs — active in late spring and summer — cause most human infections precisely because they are so tiny.</p>
+        <p>That leg count is more than a field mark. Eight legs, no wings, and no antennae are the reason <Link href="/blog/are-ticks-arachnids-or-insects" className="text-brand-700 underline">ticks are classified as arachnids rather than insects</Link> — which is also why bug zappers and CO₂ traps built for flying insects do nothing about them.</p>
 
         <h2>Found a Tick? Have the Right Removal Tool Ready</h2>
         <AffiliateDisclosure />

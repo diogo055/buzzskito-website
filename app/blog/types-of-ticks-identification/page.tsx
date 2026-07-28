@@ -278,6 +278,7 @@ export default function TypesOfTicksIdentificationPage() {
 
           <h2>Not Sure It&rsquo;s Even a Tick?</h2>
           <p>Plenty of harmless bugs get mistaken for ticks — from engorged bed bugs and poppy-seed-sized beetles to spider beetles and even clumps of dirt. Legs are the fastest test: ticks have 8 (6 as larvae) and no wings or antennae. If yours has wings, more than 8 legs, or long antennae, it is not a tick. Compare side-by-side in our <Link href="/blog/bugs-that-look-like-ticks">bugs that look like ticks</Link> photo guide, and see the full visual reference in <Link href="/blog/what-ticks-look-like-ontario">what ticks look like</Link>.</p>
+          <p>The reason that leg test works so reliably is taxonomic: every tick on this page belongs to the class Arachnida, so <Link href="/blog/are-ticks-arachnids-or-insects">counting eight legs settles the arachnid-versus-insect question</Link> before you ever get to species.</p>
 
           <h2>If You Found a Tick on You</h2>
           <p>Regardless of species, act the same way: grip the tick with fine-tipped tweezers as close to the skin as possible and pull straight up with steady, even pressure — no twisting, burning, or smothering with petroleum jelly. Clean the bite, then note the date and, if you can, the species. Keeping a proper removal tool on hand makes this cleaner and reduces the chance of leaving mouthparts behind. <BuyLink tag={AMZ_TAG} search="tick removal tool fine tip tweezers">Check tick-removal tools on Amazon →</BuyLink></p>

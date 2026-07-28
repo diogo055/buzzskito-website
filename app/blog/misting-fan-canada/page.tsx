@@ -250,6 +250,7 @@ export default function MistingFanCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="landgarden fan misting kit">Check price on Amazon.ca</BuyLink>
           </div>
           <p>Our general steer for most homeowners: if you have a nearby tap and want maximum cooling with minimal fuss, a complete fan is worth the higher ticket. If you already own a solid fan and mainly want to experiment, a brass-nozzle kit is a low-risk starting point.</p>
+          <p>There is a third path worth knowing about if a fan-mounted kit feels too small for the space. Instead of clipping nozzles around a fan, you run the tubing along the pergola beam or gazebo frame itself and mist the whole seating perimeter &mdash; that is <Link href="/blog/diy-outdoor-misting-system-kit-canada">a perimeter misting line kit</Link>, and the same brass-over-plastic nozzle rule decides how many Ontario summers it survives.</p>
 
           <h2>Fan vs zapper vs barrier spray for patio comfort</h2>
           <p>These three tools get lumped together but they do genuinely different jobs. Here is how they compare for a typical GTA backyard &mdash; note there is no single winner, because they are not really substitutes for one another.</p>

@@ -149,6 +149,7 @@ export default function BurlingtonTickPage() {
             <li><strong>Palmer &amp; Brant Hills</strong> — near Spencer Creek valley and wooded ravines</li>
             <li><strong>Any property backing onto greenbelt, trails, or conservation land</strong></li>
           </ul>
+          <p>Aldershot and escarpment-edge Mountainside sit at the very top of that list once you account for the Royal Botanical Gardens and Mt. Nemo corridors. See <Link href="/blog/tick-hot-spots-oakville-burlington-2026" className="text-brand-700 hover:underline">which Burlington and Oakville neighbourhoods rank highest for ticks in 2026</Link>.</p>
 
           <h2>Tick Treatment Schedule for Burlington</h2>
           <div className="not-prose overflow-x-auto my-4">
@@ -175,6 +176,8 @@ export default function BurlingtonTickPage() {
               </tbody>
             </table>
           </div>
+
+          <p>Burlington runs ahead of the regional average at both ends of the year, with adults active any day above 4&deg;C from roughly mid-March into November. <Link href="/blog/tick-season-burlington-when-are-ticks-active" className="text-brand-700 hover:underline">Our month-by-month Burlington tick calendar</Link> explains why the escarpment slope and the lake buffer stretch the window.</p>
 
           <h2>Tick Spray Pricing in Burlington</h2>
           <div className="not-prose overflow-x-auto my-4">

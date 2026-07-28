@@ -298,6 +298,7 @@ export default function HowToGetRidOfRatsCanadaPage() {
             <li><strong>Maintain the line.</strong> Clear and rebait daily. When catches stop, do not celebrate yet — run 7&ndash;10 quiet nights with fresh droppings absent before declaring victory, then move to exclusion.</li>
           </ul>
           <p>Trap selection is simple: modern press-to-set rat traps (Tomcat and Victor both make them) have the spring power a 300&ndash;500 g rat requires and set without risking fingers. We compare the specific models — including when the old-school wooden Victor still earns its place — in the <Link href="/blog/best-rat-trap-canada">best rat trap guide</Link>.</p>
+          <p>The methods table above flags one option that sits outside the snap-trap category entirely: a CO2-powered auto-resetting trap that clears the carcass after each strike and re-arms itself, so it keeps hunting for weeks without a daily visit. That changes the maths on a shed, cottage, or fence line you cannot walk every morning &mdash; we put it through its paces in our <Link href="/blog/goodnature-a24-review-canada">review of the self-resetting Goodnature A24</Link>.</p>
           <div className="not-prose my-4">
             <BuyLink tag={AMZ_TAG} search="tomcat rat snap trap">Check Tomcat rat snap traps on Amazon.ca →</BuyLink>
           </div>

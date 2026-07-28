@@ -113,6 +113,7 @@ export default function PreventMosquitoesPage() {
 
         <h2>The Two-Part Strategy: Prevention + Treatment</h2>
         <p>Mosquito prevention and mosquito treatment are not competing approaches — they're complementary. Eliminating breeding sites (prevention) reduces how many mosquitoes can be produced on your property. Professional barrier spray (treatment) eliminates the adult mosquitoes that arrive from your property and neighbouring areas. Together, they deliver dramatically better results than either alone.</p>
+        <p>Knowing what not to do matters just as much. Spraying the open lawn instead of the shaded leaf undersides where mosquitoes actually rest, or cancelling treatments after one cold week in August, quietly undoes good prevention work — we round those up in <Link href="/blog/mosquito-mistakes-ontario-homeowners-make" className="text-brand-700 hover:underline">12 mosquito mistakes Ontario homeowners make every summer</Link>.</p>
 
         <h2>12 Ways to Prevent Mosquitoes in Your Ontario Backyard</h2>
 

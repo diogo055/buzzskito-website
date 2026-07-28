@@ -245,6 +245,8 @@ export default function CitronellaCandlesCanadaPage() {
           </div>
           <p className="not-prose text-sm text-gray-600 mb-6">Want a slightly wider still-air pocket? Smouldering <strong>coils</strong> and <strong>incense</strong> push more scent than a candle — at the cost of smoke that can bother asthma sufferers. <BuyLink tag={AMZ_TAG} search="citronella coils">Check coil prices →</BuyLink></p>
 
+          <p>Torches are the format buyers over-trust the most, because a row of flames looks like it ought to be doing something. It is the same citronella oil in a taller package, and the flame usually stands farther from your chair than a table candle does &mdash; <Link href="/blog/do-tiki-torches-repel-mosquitoes">the honest verdict on tiki torches</Link> walks through what the evidence actually supports.</p>
+
           <div className="not-prose my-6 rounded-xl bg-emerald-50 border-l-4 border-emerald-500 p-5">
             <p className="text-sm font-extrabold text-emerald-900 mb-1">Do citronella candles actually work? The honest answer.</p>
             <p className="text-sm text-gray-800 leading-relaxed">Yes — as a <em>mild, short-range</em> repellent. Controlled testing (Journal of the American Mosquito Control Association) puts a citronella candle at roughly 40–50% fewer bites for the person sitting right beside it in still air, with the effect dropping to near-zero within about a metre and in any breeze. It is genuinely better than nothing at your chair, but it will never clear a table, a patio, or a yard. For that, pair a <Link href="/blog/thermacell-canada-where-to-buy">Thermacell</Link> zone with <Link href="/mosquito-control">professional barrier spray</Link>, which also handles ticks — something citronella never touches.</p>
@@ -272,6 +274,7 @@ export default function CitronellaCandlesCanadaPage() {
             <li><strong>Ticks</strong> — citronella has no effect on ticks whatsoever</li>
             <li><strong>Replacing skin repellent on the move</strong> — a DEET or picaridin spray lasts hours; citronella minutes</li>
           </ul>
+          <p>Expecting a candle to cover a whole yard is one of the classic local errors, and it keeps company with waiting until July to start treating and leaving a rain barrel uncovered. All three appear on our list of <Link href="/blog/mosquito-mistakes-ontario-homeowners-make">the mosquito mistakes Ontario homeowners repeat every summer</Link>.</p>
 
           <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
             <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Or let us handle it</h3>

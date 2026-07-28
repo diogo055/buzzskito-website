@@ -159,6 +159,7 @@ export default function HowToDoATickCheckPage() {
             <li><strong>Finish at the legs and feet.</strong> Behind the knees, down the shins, around the ankles and sock line, and between the toes.</li>
             <li><strong>Shower.</strong> A shower within two hours rinses off unattached ticks and gives you a natural moment to feel for anything new.</li>
           </ol>
+          <p>Step one is deliberately first. It is the dryer, not the washer, that kills a tick on fabric: dry heat desiccates them within about ten minutes, while an ordinary wash cycle frequently leaves them alive to crawl out later. The tested temperatures behind that are in our guide to <Link href="/blog/do-ticks-die-in-the-washing-machine">do ticks die in the washing machine</Link>.</p>
 
           <h2>Checking Kids</h2>
           <p>Children are closer to the ground and often the first in the household to pick up a tick, so make the check part of the after-outdoors routine. Look over the whole body, but spend extra time on the <strong>scalp and hairline, behind and inside the ears, the back of the neck, the armpits, the belly button, and behind the knees</strong> — the areas a tick reaches quickest on a smaller frame. Keeping it light (a quick &ldquo;tick patrol&rdquo;) helps kids stay calm while you get a thorough look. Use your fingertips and a bright light, since a nymph can look like nothing more than a new freckle.</p>

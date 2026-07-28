@@ -157,6 +157,7 @@ export default function WestNileMississaugaPage() {
 
         <h3>Professional barrier spray for adult mosquitoes</h3>
         <p>Standing water elimination handles the larvae you can find. A professional barrier spray handles the adults that flew in from sites you can\'t. Targeted to shaded resting habitat — the underside of leaves, dense shrub interiors, mulched beds, fence-line vegetation — a barrier spray reduces yard mosquito biting pressure by 85-90% for roughly 30 days per treatment. For a meaningful season-long impact in a Mississauga yard, the BuzzSkito Standard Season runs 10 biweekly treatments from May through September.</p>
+        <p>When those treatments land matters as much as how many there are. The first spray should go down between May 20 and June 4 depending on the neighbourhood, and the last in mid-to-late September — the reasoning behind both bookends is in <Link href="/blog/when-to-spray-mosquitoes-mississauga-2026" className="text-brand-700 underline">our guide to when to spray in Mississauga</Link>.</p>
 
         <h3>Personal protection during dusk hours</h3>
         <p>Even with all of the above, plan for repellent during the 8-11 PM dusk window in June and July. Picaridin (20%), DEET (20-30%), or oil of lemon eucalyptus all work. Long sleeves and pants help. Move dinners and dog walks earlier when possible.</p>

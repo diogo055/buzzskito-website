@@ -152,6 +152,10 @@ export default function MosquitoBiteVsSpiderBitePage() {
             A harmless spider bite &mdash; the kind you would get from a common house, garden, or wolf spider in the GTA &mdash; looks like a small red bump, sometimes with mild surrounding redness, and it is more sore than itchy. It usually settles in a few days without treatment. The bites people fear look different: a medically significant bite can blister, bruise, form a target-like ring, or (with the widow) trigger cramping that spreads beyond the bite. Those are rare in Canada. If a &ldquo;spider bite&rdquo; is expanding, weeping pus, or forming a hard red ring, the likeliest explanation is not venom but a <strong>bacterial skin infection</strong> &mdash; which is exactly why it should be seen. Wondering what harmless critters get blamed for bites? Our <Link href="/blog/bugs-that-look-like-ticks" className="text-emerald-700 underline font-semibold">bugs that look like ticks</Link> guide covers the most common look-alikes.
           </p>
 
+          <p className="text-gray-700 leading-relaxed mb-4">
+            If it is the spider side you want in detail &mdash; how a bite changes hour by hour, what a widow or recluse bite actually does, and the warning signs that mean go now &mdash; our stage-by-stage guide to <Link href="/blog/what-does-a-spider-bite-look-like" className="text-emerald-700 underline font-semibold">what a spider bite looks like</Link> covers it.
+          </p>
+
           <h2 className="text-2xl font-extrabold text-brand-900 mt-10 mb-3">Single vs multiple bites: what the number tells you</h2>
           <p className="text-gray-700 leading-relaxed mb-4">
             The count is the fastest triage tool you have. <strong>Multiple bites almost always rule out a spider</strong> &mdash; a spider bites once to defend itself and then leaves, so three itchy welts up one ankle are mosquitoes, fleas, or bed bugs. A tight cluster in a line or small patch, especially overnight, points to bed bugs or fleas; scattered welts on skin exposed outdoors at dawn or dusk point to mosquitoes.

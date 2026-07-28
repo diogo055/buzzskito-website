@@ -156,6 +156,7 @@ export default function TickBiteOnDogSymptomsPage() {
             <li>Joint stiffness, reluctance to jump on furniture or climb stairs</li>
             <li>Up to 95% of dogs with Lyme are asymptomatic — annual 4DX screening recommended in Ontario tick zones</li>
           </ul>
+          <p>Because those signs surface months after the bite, it pays to know the whole arc before you are in it — <Link href="/blog/can-dogs-get-lyme-disease">how canine Lyme progresses through its three stages</Link>, and what treatment and recovery realistically look like.</p>
 
           <h3>Long-term (rare but serious)</h3>
           <p>A small percentage of dogs with untreated Lyme develop <strong>Lyme nephritis</strong> — a kidney inflammation that is frequently fatal. Watch for: increased thirst and urination, vomiting, weight loss, and weakness. These signs warrant immediate veterinary attention.</p>

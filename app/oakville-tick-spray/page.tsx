@@ -170,6 +170,7 @@ export default function OakvilleTickSprayPage() {
             <li><strong>River Oaks</strong> — Bronte Creek runs through the neighbourhood, creating consistent exposure</li>
             <li><strong>North Oakville</strong> — newer developments near Sixteen Mile Creek headwaters and Bronte Creek conservation buffer</li>
           </ul>
+          <p>We rank these neighbourhoods into four pressure bands, alongside the Burlington side of Halton, in our <Link href="/blog/tick-hot-spots-oakville-burlington-2026" className="text-brand-700 hover:underline">2026 Halton tick hot spot report</Link> — useful if you want to know whether your street warrants a seasonal plan or a single May treatment.</p>
 
           <h2>Oakville Neighbourhoods We Serve for Tick Control</h2>
           <div className="not-prose flex flex-wrap gap-2 mb-6">
@@ -209,6 +210,8 @@ export default function OakvilleTickSprayPage() {
               </tbody>
             </table>
           </div>
+
+          <p>That timing follows the local activity curve rather than a generic calendar. Oakville ticks reactivate above 4&deg;C — reliably by the third week of March — and stay active into November, as we set out in <Link href="/blog/tick-season-oakville-when-are-ticks-active" className="text-brand-700 hover:underline">our guide to when ticks are active in Oakville</Link>.</p>
 
           <h2>Tick Spray Pricing in Oakville</h2>
           <div className="not-prose overflow-x-auto my-4">

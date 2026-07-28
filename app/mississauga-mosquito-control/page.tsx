@@ -303,6 +303,8 @@ export default function MississaugaMosquitoControlPage() {
             </table>
           </div>
 
+          <p>Those dates shift by roughly a week either way depending on where you are in the city — Port Credit, Lorne Park, and the Credit River corridor start earlier and finish later than inland subdivisions. <Link href="/blog/when-to-spray-mosquitoes-mississauga-2026" className="text-brand-700 hover:underline">Our Mississauga spray-timing calendar</Link> breaks the windows down by neighbourhood.</p>
+
           <h2>Mosquito Control Pricing in Mississauga</h2>
           <p>Transparent pricing is something many Mississauga pest control companies avoid. We don't. BuzzSkito mosquito treatments start from $99 per visit — no contracts, no pressure to commit to a full season upfront.</p>
           <div className="not-prose overflow-x-auto my-4">

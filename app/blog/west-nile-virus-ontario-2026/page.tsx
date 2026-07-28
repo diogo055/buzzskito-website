@@ -124,6 +124,7 @@ export default function WestNile2026Page() {
           <li><strong>Brampton:</strong> Etobicoke Creek, new-build neighbourhoods with construction runoff, and poorly draining subdivisions. See: <Link href="/brampton-mosquito-control" className="text-brand-700 hover:underline">Brampton mosquito control</Link></li>
           <li><strong>Oakville / Burlington:</strong> Bronte Creek, lakeshore marshes, and waterfront properties with natural ponding areas. See: <Link href="/oakville-mosquito-control" className="text-brand-700 hover:underline">Oakville</Link> and <Link href="/burlington-mosquito-spray" className="text-brand-700 hover:underline">Burlington mosquito control</Link></li>
         </ul>
+        <p>Toronto carries the largest share of that catch-basin habitat, and the risk curve there is sharply seasonal — building through July, peaking in August, and collapsing after the first hard frost. We walk through that week-by-week in <Link href="/blog/west-nile-virus-toronto-2026" className="text-brand-700 hover:underline">the 2026 West Nile picture for Toronto</Link>.</p>
 
         <h2>Symptoms of West Nile Virus</h2>
         <p>Most WNV infections produce no symptoms at all. When illness occurs, it takes two forms:</p>

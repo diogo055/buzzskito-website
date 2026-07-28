@@ -331,6 +331,7 @@ export default function OffDeepWoodsDeetPage() {
             <li><strong>Face:</strong> never spray directly on the face — spray hands and wipe on, avoiding eyes and lips.</li>
             <li><strong>End of day:</strong> wash treated skin with soap and water once you are indoors for the night.</li>
           </ul>
+          <p>None of those rules imply the chemistry itself is hazardous — the U.S. EPA classifies DEET as &ldquo;not classifiable as to human carcinogenicity,&rdquo; and Health Canada caps the concentration rather than banning the ingredient. If that is the part you came to check, <Link href="/blog/is-deet-safe">is DEET safe?</Link> walks through what each agency actually concluded.</p>
 
           <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
             <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Tired of spraying yourself every night?</h3>
