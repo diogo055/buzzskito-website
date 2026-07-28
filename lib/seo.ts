@@ -100,11 +100,14 @@ export function localBusinessSchema(overrides: {
         { '@type': 'Offer', name: 'Tick Protection Program', priceCurrency: 'CAD', description: 'Seasonal tick barrier spray program. Available standalone or bundled with mosquito plan. Custom-quoted — call (289) 216-5030 for quote.' },
       ],
     },
+    // sameAs = EXTERNAL profiles only. Self-referential URLs (/reviews,
+    // /buzzskito-history) were removed: sameAs exists so Google can corroborate
+    // the entity against sources it already trusts, and pointing it back at our
+    // own pages corroborates nothing while diluting the two real signals. The
+    // organizationSchema below already made this fix — this block had not.
     sameAs: [
       BUSINESS.facebookUrl,
       BUSINESS.googleReviewUrl,
-      `${SITE_URL}/reviews`,
-      `${SITE_URL}/buzzskito-history`,
     ],
     knowsLanguage: 'en-CA',
     slogan: 'BuzzSkito Bite-Free Guarantee — Mosquito & Tick Specialist for the GTA',
