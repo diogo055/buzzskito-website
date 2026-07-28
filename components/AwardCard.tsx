@@ -1,4 +1,5 @@
 import BuyLink from '@/components/BuyLink'
+import AmazonLink from '@/components/AmazonLink'
 import EditorialScore from '@/components/EditorialScore'
 import ProsCons from '@/components/ProsCons'
 
@@ -54,7 +55,22 @@ export default function AwardCard({
         </span>
         {typeof score === 'number' && <EditorialScore score={score} />}
       </div>
-      <p className="mt-2 text-lg font-extrabold leading-tight text-brand-900">{name}</p>
+      {/* The product NAME is a link, not just the button below. Microsoft Clarity
+          showed ~8.7% dead clicks sitewide — nearly as many sessions as clicked
+          through to Amazon — and this card animates on hover (see the wrapper's
+          hover:-translate-y-0.5), which tells a reader the card is clickable while
+          only the footer button actually was. AmazonLink fails closed to a <span>,
+          so the name always renders even with no tag configured. */}
+      <p className="mt-2 text-lg font-extrabold leading-tight text-brand-900">
+        <AmazonLink
+          search={search}
+          asin={asin}
+          tag={tag}
+          className="text-brand-900 no-underline transition-colors hover:text-amber-700 hover:underline"
+        >
+          {name}
+        </AmazonLink>
+      </p>
       <p className="mt-1 text-sm leading-relaxed text-gray-600">{why}</p>
       <ProsCons pros={pros ?? []} cons={cons ?? []} />
       <div className="mt-auto pt-4">

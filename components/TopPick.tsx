@@ -1,4 +1,5 @@
 import BuyLink from '@/components/BuyLink'
+import AmazonLink from '@/components/AmazonLink'
 import EditorialScore from '@/components/EditorialScore'
 import ProsCons from '@/components/ProsCons'
 import { AMAZON_ENABLED, AMAZON_DISCLOSURE } from '@/lib/amazon'
@@ -44,7 +45,18 @@ export default function TopPick({
         <p className="text-xs font-extrabold uppercase tracking-wider text-amber-700">🏆 {label}</p>
         {typeof score === 'number' && <EditorialScore score={score} />}
       </div>
-      <p className="mb-1 text-lg font-extrabold text-brand-900">{name}</p>
+      {/* Name is a link as well as the button below — readers reach for the
+          product name first. AmazonLink fails closed to a <span>. */}
+      <p className="mb-1 text-lg font-extrabold text-brand-900">
+        <AmazonLink
+          search={search}
+          asin={asin}
+          tag={tag}
+          className="text-brand-900 no-underline transition-colors hover:text-amber-700 hover:underline"
+        >
+          {name}
+        </AmazonLink>
+      </p>
       <p className="mb-4 text-sm leading-relaxed text-gray-700">{blurb}</p>
       <ProsCons pros={pros ?? []} cons={cons ?? []} />
       <BuyLink search={search} asin={asin} tag={tag}>{cta}</BuyLink>
