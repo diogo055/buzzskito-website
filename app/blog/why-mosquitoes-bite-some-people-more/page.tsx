@@ -6,6 +6,7 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
+import StickyBuyBar from '@/components/StickyBuyBar'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { MOSQUITO_BLOGS } from '@/lib/constants'
 import { tagForSlug } from '@/lib/amazon-clusters'
@@ -233,6 +234,8 @@ export default function WhyMosquitoesBiteSomeMorePage() {
           </div>
         </div>
       </section>
+
+      <StickyBuyBar tag={AMZ_TAG} name="Picaridin 20% insect repellent" search="picaridin insect repellent canada" label="Best repellent" />
 
       <CTASection heading="The Mosquito Magnet of the House Deserves Better" subtext="Barrier spray makes the yard mosquito-free for everyone — regardless of blood type, body heat, or beer consumption." />
     </>

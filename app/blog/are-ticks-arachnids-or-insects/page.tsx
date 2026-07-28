@@ -4,6 +4,7 @@ import CTASection from '@/components/CTASection'
 import AuthorByline from '@/components/AuthorByline'
 import BuyLink from '@/components/BuyLink'
 import TopPick from '@/components/TopPick'
+import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
@@ -206,6 +207,8 @@ export default function AreTicksArachnidsOrInsectsPage() {
           </ul>
         </div>
       </article>
+
+      <StickyBuyBar tag={AMZ_TAG} name="Fine-tip tick removal tool" search="tick removal tool tweezers" label="For removal" />
 
       <CTASection heading="Ticks Are Arachnids — and They Wait in Your Yard&rsquo;s Edges" subtext="Insect gadgets miss them. A targeted barrier treatment removes ticks where they actually quest. From $99." variant="dark" />
     </>

@@ -7,6 +7,7 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import AuthorByline from '@/components/AuthorByline'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import TopPick from '@/components/TopPick'
+import StickyBuyBar from '@/components/StickyBuyBar'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { TICK_BLOGS } from '@/lib/constants'
 import { tagForSlug } from '@/lib/amazon-clusters'
@@ -404,6 +405,8 @@ export default function BugsThatLookLikeTicksPage() {
           </div>
         </div>
       </section>
+
+      <StickyBuyBar tag={AMZ_TAG} name="Fine-Tipped Tick Removal Tool" search="tick removal tool tweezers" label="If it is a tick" />
 
       <CTASection heading="Worried About Ticks on Your Property?" subtext="Free yard assessment from BuzzSkito — we walk your property, identify hot zones, and give you an honest quote." />
     </>

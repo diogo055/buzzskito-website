@@ -6,6 +6,7 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
+import StickyBuyBar from '@/components/StickyBuyBar'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { MOSQUITO_BLOGS, CITIES } from '@/lib/constants'
 import { tagForSlug } from '@/lib/amazon-clusters'
@@ -230,6 +231,8 @@ export default function MosquitoPillarPage() {
           ))}
         </div>
       </article>
+
+      <StickyBuyBar tag={AMZ_TAG} name="Summit Mosquito Dunks (Bti larvicide)" search="summit mosquito dunks" label="Best DIY add-on" />
 
       <CTASection heading="Ready to Reclaim Your Backyard?" subtext="Get a free mosquito control quote for your GTA property. No contracts required." />
     </>

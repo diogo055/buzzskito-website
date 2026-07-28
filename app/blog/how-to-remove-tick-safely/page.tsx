@@ -6,6 +6,7 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
+import StickyBuyBar from '@/components/StickyBuyBar'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema, howToSchema } from '@/lib/seo'
 import { TICK_BLOGS } from '@/lib/constants'
 import { tagForSlug } from '@/lib/amazon-clusters'
@@ -177,6 +178,13 @@ export default function RemoveTickPage() {
           <li><Link href="/tick-control" className="text-brand-700 hover:underline">BuzzSkito Tick Control Services</Link></li>
         </ul>
       </article>
+
+      <StickyBuyBar
+        name="Fine-Tipped Tick-Removal Tool"
+        search="tick removal tool tweezers"
+        label="For removal"
+        tag={AMZ_TAG}
+      />
 
       <CTASection heading="Prevent Tick Bites Before They Happen" subtext="Professional yard treatment reduces tick populations at the source. Free quote available." variant="dark" />
     </>

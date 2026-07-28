@@ -6,6 +6,7 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
+import StickyBuyBar from '@/components/StickyBuyBar'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
 
@@ -180,6 +181,13 @@ export default function IFoundTickOnMyDogPage() {
           </ul>
         </div>
       </article>
+
+      <StickyBuyBar
+        name="Dedicated Tick-Removal Tool"
+        search="tick removal tool tweezers"
+        label="For removal"
+        tag={AMZ_TAG}
+      />
 
       <CTASection heading="One Tick Today. How Many Tomorrow?" subtext="Most homeowners who find a tick on their dog find another within 2 weeks. Get tick barrier spray for your yard — from $99." variant="dark" />
     </>

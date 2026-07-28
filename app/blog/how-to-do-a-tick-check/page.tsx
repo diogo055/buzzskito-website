@@ -4,6 +4,7 @@ import CTASection from '@/components/CTASection'
 import AuthorByline from '@/components/AuthorByline'
 import BuyLink from '@/components/BuyLink'
 import TopPick from '@/components/TopPick'
+import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
@@ -215,6 +216,8 @@ export default function HowToDoATickCheckPage() {
           </ul>
         </div>
       </article>
+
+      <StickyBuyBar tag={AMZ_TAG} name="Fine-Tipped Tick-Removal Tool" search="tick removal tool tweezers" label="For removal" />
 
       <CTASection heading="Fewer Ticks in the Yard Means Fewer Tick Checks" subtext="A seasonal barrier spray removes ticks where they wait — lawn edges, leaf litter, and shaded borders. From $99." variant="dark" />
     </>

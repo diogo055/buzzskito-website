@@ -4,6 +4,7 @@ import CTASection from '@/components/CTASection'
 import AuthorByline from '@/components/AuthorByline'
 import BuyLink from '@/components/BuyLink'
 import TopPick from '@/components/TopPick'
+import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
@@ -134,6 +135,8 @@ export default function HowToKeepTicksOutOfYardOntarioPage() {
           <li><Link href="/tick-control" className="text-brand-700 hover:underline">View Our Tick Control Services</Link></li>
         </ul>
       </article>
+
+      <StickyBuyBar tag={AMZ_TAG} name="Sawyer Permethrin Clothing Spray" search="sawyer permethrin clothing spray" label="Best clothing spray" />
 
       <CTASection heading="Specialist Mosquito & Tick Control for Ontario" subtext="From $99 per treatment. BuzzSkito Bite-Free Guarantee. 150+ five-star reviews." />
     </>

@@ -7,6 +7,7 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
+import StickyBuyBar from '@/components/StickyBuyBar'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
 
@@ -173,6 +174,8 @@ export default function WestNileMississaugaPage() {
 
         <p className="text-sm text-gray-600 mt-8">Stay safe out there.<br/>— Alex &amp; The BuzzSkito Team</p>
       </article>
+
+      <StickyBuyBar tag={AMZ_TAG} name="Summit Mosquito Dunks (Bti larvicide)" search="summit mosquito dunks" label="For standing water" />
 
       <CTASection heading="West Nile is established in Mississauga — protect your yard before peak season" subtext="Free custom quote based on your address and lot size. Sent within 24 hours. Same-week barrier spray service across every Mississauga neighbourhood." />
     </>

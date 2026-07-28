@@ -6,6 +6,7 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
+import StickyBuyBar from '@/components/StickyBuyBar'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { TICK_BLOGS } from '@/lib/constants'
 import { tagForSlug } from '@/lib/amazon-clusters'
@@ -234,6 +235,8 @@ export default function WhatTicksLookLikePage() {
           <li><Link href="/tick-control" className="text-brand-700 hover:underline">BuzzSkito Tick Control Services</Link></li>
         </ul>
       </article>
+
+      <StickyBuyBar tag={AMZ_TAG} name="Tick Twister-style removal hook" search="tick twister removal tool" label="For removal" />
 
       <CTASection heading="Protect Your Yard from Ticks This Season" subtext="Professional tick spray kills ticks at all life stages. Free quote for your GTA property." variant="dark" />
     </>

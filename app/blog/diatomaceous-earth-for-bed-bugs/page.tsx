@@ -7,6 +7,7 @@ import SpecialistDisclosure from '@/components/SpecialistDisclosure'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
+import StickyBuyBar from '@/components/StickyBuyBar'
 import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'diatomaceous-earth-for-bed-bugs'
@@ -249,6 +250,8 @@ export default function DiatomaceousEarthForBedBugsPage() {
           </div>
         </div>
       </article>
+
+      <StickyBuyBar tag={AMZ_TAG} name="Safer’s Diatomaceous Earth" search="safers diatomaceous earth" label="The DE to buy" />
     </>
   )
 }

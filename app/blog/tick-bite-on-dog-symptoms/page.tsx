@@ -6,6 +6,7 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
+import StickyBuyBar from '@/components/StickyBuyBar'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
 
@@ -186,6 +187,8 @@ export default function TickBiteOnDogSymptomsPage() {
           </ul>
         </div>
       </article>
+
+      <StickyBuyBar tag={AMZ_TAG} name="Fine-tipped tick removal tool" search="tick removal tool tweezers" label="Keep on hand" />
 
       <CTASection heading="Stop the Next Tick Before It Bites" subtext="Yard tick spray prevents the dog-tick cycle. 5 sprays per season. From $597 — or tick add-on bundle available on quote." variant="dark" />
     </>

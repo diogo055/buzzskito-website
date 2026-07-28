@@ -6,6 +6,7 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
+import StickyBuyBar from '@/components/StickyBuyBar'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { MOSQUITO_BLOGS } from '@/lib/constants'
 import { tagForSlug } from '@/lib/amazon-clusters'
@@ -247,6 +248,8 @@ export default function CedarTreesMosquitoesPage() {
           </div>
         </div>
       </section>
+
+      <StickyBuyBar tag={AMZ_TAG} name="Thermacell Patio Repeller" search="thermacell mosquito repeller" label="For the patio at dusk" />
 
       <CTASection heading="Treat the Resting Habitat — Not the Hedge" subtext="Professional barrier spray targets the underside of cedars, ornamental beds, and lawn edges. Free quote available." />
     </>

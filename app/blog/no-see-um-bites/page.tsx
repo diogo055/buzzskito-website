@@ -6,6 +6,7 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
+import StickyBuyBar from '@/components/StickyBuyBar'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
 
@@ -259,6 +260,13 @@ export default function NoSeeUmBitesPage() {
         </ul>
 
       </article>
+
+      <StickyBuyBar
+        name="Hydrocortisone 1% Anti-Itch Cream"
+        search="hydrocortisone anti itch cream 1%"
+        label="For the itch"
+        tag={AMZ_TAG}
+      />
 
       <CTASection heading="Stop the Bites at the Source" subtext="Get a free quote for a licensed barrier treatment targeting the damp, shaded zones where biting midges and mosquitoes breed and rest. Serving 19 GTA cities." variant="dark" />
     </>

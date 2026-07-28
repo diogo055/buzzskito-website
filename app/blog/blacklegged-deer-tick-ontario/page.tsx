@@ -4,6 +4,7 @@ import CTASection from '@/components/CTASection'
 import AuthorByline from '@/components/AuthorByline'
 import BuyLink from '@/components/BuyLink'
 import TopPick from '@/components/TopPick'
+import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
@@ -255,6 +256,8 @@ export default function BlackleggedDeerTickOntarioPage() {
           </ul>
         </div>
       </article>
+
+      <StickyBuyBar tag={AMZ_TAG} name="Fine-Tipped Tick Removal Tool Set" search="tick removal tool tweezers" label="For removal" />
 
       <CTASection heading="Stop Deer Ticks at Your Yard&rsquo;s Edges" subtext="Blacklegged ticks wait in leaf litter and shaded borders. One licensed barrier spray removes them at the source. From $99." variant="dark" />
     </>

@@ -3,6 +3,7 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import BlogPostCTA from '@/components/BlogPostCTA'
 import BuyLink from '@/components/BuyLink'
+import StickyBuyBar from '@/components/StickyBuyBar'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
@@ -237,6 +238,8 @@ export default function MosquitoSprayLastPage() {
           </div>
         </div>
       </section>
+
+      <StickyBuyBar tag={AMZ_TAG} name="Summit Mosquito Dunks (BTi larvicide)" search="summit mosquito dunks" label="For standing water" />
 
       <CTASection heading="Professional Spray with 30-Day Guaranteed Protection" subtext="BuzzSkito backs every treatment with a free reapplication guarantee." />
     </>

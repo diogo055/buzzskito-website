@@ -7,6 +7,7 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
+import StickyBuyBar from '@/components/StickyBuyBar'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
 
@@ -193,6 +194,8 @@ export default function TickSeasonBurlingtonPage() {
           <li><Link href="/yard-risk-report" className="text-brand-700 underline">Free Yard Risk Report — Burlington address-specific score</Link></li>
         </ul>
       </article>
+
+      <StickyBuyBar tag={AMZ_TAG} name="InsectGuard Permethrin-Treated Gaiters" search="insectguard permethrin gaiters" label="For Burlington trails" />
 
       <CTASection heading="Burlington sits on two tick reservoirs — get your yard protected" subtext="Free custom quote based on your address and lot. Sent within 24 hours. Same-week service across Burlington including Aldershot, Millcroft, Tyandaga, Roseland, and Alton Village." />
     </>

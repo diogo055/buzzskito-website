@@ -6,6 +6,7 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
+import StickyBuyBar from '@/components/StickyBuyBar'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { NEW_BLOGS_2, TICK_BLOGS } from '@/lib/constants'
 import { tagForSlug } from '@/lib/amazon-clusters'
@@ -266,6 +267,8 @@ export default function TickBiteSymptomsPage() {
           <li><Link href="/tick-control" className="text-brand-700 hover:underline">View Our Tick Control Services</Link></li>
         </ul>
       </article>
+
+      <StickyBuyBar tag={AMZ_TAG} name="Fine-Tipped Tick Removal Tool" search="tick removal tool tweezers" label="For safe removal" />
 
       <CTASection heading="Protect Your Yard Before a Tick Bites" subtext="BuzzSkito professional tick spray kills ticks at all life stages. Our tick season program includes 5 treatments for full-season protection." />
     </>

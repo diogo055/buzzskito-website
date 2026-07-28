@@ -6,6 +6,7 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import AuthorByline from '@/components/AuthorByline'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import TopPick from '@/components/TopPick'
+import StickyBuyBar from '@/components/StickyBuyBar'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { TICK_BLOGS } from '@/lib/constants'
 import { tagForSlug } from '@/lib/amazon-clusters'
@@ -262,6 +263,8 @@ export default function AreTicksDangerousPage() {
           <li><Link href="/tick-control" className="text-brand-700 hover:underline">BuzzSkito Tick Control Services</Link></li>
         </ul>
       </article>
+
+      <StickyBuyBar tag={AMZ_TAG} name="Tick-removal tool kit" search="tick removal tool tweezers" label="For removal" />
 
       <CTASection heading="Don't Wait Until Someone Gets Bitten" subtext="Professional tick barrier spray reduces yard tick populations by up to 90%. Free quote for all GTA properties." variant="dark" />
     </>

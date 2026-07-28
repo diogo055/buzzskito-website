@@ -6,6 +6,7 @@ import BuyLink from '@/components/BuyLink'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import TopPick from '@/components/TopPick'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import StickyBuyBar from '@/components/StickyBuyBar'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
 
@@ -211,6 +212,8 @@ export default function MosquitoFactsPage() {
           </ul>
         </div>
       </article>
+
+      <StickyBuyBar tag={AMZ_TAG} name="Picaridin Mosquito Repellent Spray" search="picaridin mosquito repellent spray" label="Best repellent" />
 
       <CTASection heading="Facts Are Nice — A Bite-Free Yard Is Better" subtext="Get a free quote for licensed barrier spray. From $99. Same-day protection. 30-day residual." variant="dark" />
     </>

@@ -6,6 +6,7 @@ import BuyLink from '@/components/BuyLink'
 import TopPick from '@/components/TopPick'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import StickyBuyBar from '@/components/StickyBuyBar'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { NEW_BLOGS_2, MOSQUITO_BLOGS } from '@/lib/constants'
 import { tagForSlug } from '@/lib/amazon-clusters'
@@ -237,6 +238,13 @@ export default function MosquitoRepellentPlantsPage() {
           <li><Link href="/mosquito-control" className="text-brand-700 hover:underline">View Our Mosquito Control Services</Link></li>
         </ul>
       </article>
+
+      <StickyBuyBar
+        name="Thermacell Mosquito Repeller"
+        search="thermacell mosquito repeller"
+        label="For patio seating"
+        tag={AMZ_TAG}
+      />
 
       <CTASection heading="Combine Plants With Professional Protection" subtext="BuzzSkito barrier spray covers your entire yard — not just the plants. Up to 30-day protection guaranteed." />
     </>

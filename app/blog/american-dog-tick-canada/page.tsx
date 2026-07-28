@@ -6,6 +6,7 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
+import StickyBuyBar from '@/components/StickyBuyBar'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
 
@@ -216,6 +217,8 @@ export default function AmericanDogTickPage() {
           </ul>
         </div>
       </article>
+
+      <StickyBuyBar tag={AMZ_TAG} name="Fine-tipped tick-removal tool" search="tick removal tool tweezers" label="For removal" />
 
       <CTASection heading="Stop Finding Dog Ticks (And Deer Ticks) in Your Yard" subtext="Professional barrier spray reduces yard tick populations 80-95%. From seasonal pricing on quote." variant="dark" />
     </>

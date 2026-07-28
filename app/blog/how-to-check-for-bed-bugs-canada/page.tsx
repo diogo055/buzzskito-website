@@ -7,6 +7,7 @@ import SpecialistDisclosure from '@/components/SpecialistDisclosure'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
+import StickyBuyBar from '@/components/StickyBuyBar'
 import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'how-to-check-for-bed-bugs-canada'
@@ -249,6 +250,8 @@ export default function HowToCheckForBedBugsCanadaPage() {
             <Link href="/pest-product-guides" className="font-semibold text-emerald-700 underline">More independent Canadian pest product research →</Link>
           </div>
         </div>
+
+        <StickyBuyBar tag={AMZ_TAG} name="Bed Bug Detection Kit (flashlight + card)" search="bed bug detection kit" label="Best inspection tool" />
       </article>
     </>
   )

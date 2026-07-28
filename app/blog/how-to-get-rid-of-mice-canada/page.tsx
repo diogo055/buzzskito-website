@@ -7,6 +7,7 @@ import SpecialistDisclosure from '@/components/SpecialistDisclosure'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
+import StickyBuyBar from '@/components/StickyBuyBar'
 import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'how-to-get-rid-of-mice-canada'
@@ -267,6 +268,8 @@ export default function HowToGetRidOfMiceCanadaPage() {
             </p>
           </div>
         </div>
+
+        <StickyBuyBar tag={AMZ_TAG} name="Victor M325 Wood Snap Trap" search="victor mouse trap 4 pack" label="Best trap" />
       </article>
     </>
   )

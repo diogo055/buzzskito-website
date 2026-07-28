@@ -6,6 +6,7 @@ import BuyLink from '@/components/BuyLink'
 import TopPick from '@/components/TopPick'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import StickyBuyBar from '@/components/StickyBuyBar'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
 
@@ -225,6 +226,13 @@ export default function JuneBugsOntarioPage() {
           </ul>
         </div>
       </article>
+
+      <StickyBuyBar
+        name="Beneficial Nematodes for Lawn Grubs"
+        search="beneficial nematodes heterorhabditis bacteriophora lawn grub"
+        label="Best grub fix"
+        tag={AMZ_TAG}
+      />
 
       <CTASection heading="June Bugs Are Harmless — Mosquitoes and Ticks Aren&rsquo;t" subtext="Get a free quote for licensed barrier spray. From $99. Same-day yard protection across the GTA." variant="dark" />
     </>

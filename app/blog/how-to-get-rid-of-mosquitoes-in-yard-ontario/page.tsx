@@ -5,6 +5,7 @@ import AuthorByline from '@/components/AuthorByline'
 import BuyLink from '@/components/BuyLink'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import TopPick from '@/components/TopPick'
+import StickyBuyBar from '@/components/StickyBuyBar'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { MOSQUITO_BLOGS, TICK_BLOGS } from '@/lib/constants'
@@ -155,6 +156,8 @@ export default function HowToGetRidOfMosquitoesInYardOntarioPage() {
           <li><Link href="/tick-control" className="text-brand-700 hover:underline">View Our Tick Control Services</Link></li>
         </ul>
       </article>
+
+      <StickyBuyBar tag={AMZ_TAG} name="Summit BTI Mosquito Dunks" search="summit mosquito dunks" label="For standing water" />
 
       <CTASection heading="Specialist Mosquito & Tick Control for Ontario" subtext="From $99 per treatment. BuzzSkito Bite-Free Guarantee. 150+ five-star reviews." />
     </>

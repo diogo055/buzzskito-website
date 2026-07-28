@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
+import StickyBuyBar from '@/components/StickyBuyBar'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import SpecialistDisclosure from '@/components/SpecialistDisclosure'
 import FreshnessStamp from '@/components/FreshnessStamp'
@@ -244,6 +245,8 @@ export default function HowToKeepMiceOutWinterPage() {
             </p>
           </div>
         </div>
+
+        <StickyBuyBar tag={AMZ_TAG} name="Coarse Steel Wool (packs 6 mm gaps)" search="steel wool mice" label="For sealing gaps" />
       </article>
     </>
   )

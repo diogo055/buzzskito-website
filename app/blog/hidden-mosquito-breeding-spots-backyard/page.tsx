@@ -4,6 +4,7 @@ import CTASection from '@/components/CTASection'
 import AuthorByline from '@/components/AuthorByline'
 import BuyLink from '@/components/BuyLink'
 import TopPick from '@/components/TopPick'
+import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema, howToSchema } from '@/lib/seo'
@@ -230,6 +231,8 @@ export default function HiddenBreedingSpotsPage() {
           <li><Link href="/mosquito-control" className="text-brand-700 hover:underline">View Our Mosquito Control Services</Link></li>
         </ul>
       </article>
+
+      <StickyBuyBar tag={AMZ_TAG} name="Summit BTI Mosquito Dunks" search="summit mosquito dunks" label="For water you can’t drain" />
 
       <CTASection heading="Eliminate Breeding Sites — Then Eliminate the Mosquitoes" subtext="BuzzSkito barrier spray kills the adult population across your entire yard. Up to 30-day guaranteed protection." />
     </>

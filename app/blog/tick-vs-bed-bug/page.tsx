@@ -4,6 +4,7 @@ import CTASection from '@/components/CTASection'
 import AuthorByline from '@/components/AuthorByline'
 import BuyLink from '@/components/BuyLink'
 import TopPick from '@/components/TopPick'
+import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
@@ -193,6 +194,8 @@ export default function TickVsBedBugPage() {
           </ul>
         </div>
       </article>
+
+      <StickyBuyBar tag={AMZ_TAG} name="Fine-Tipped Tick Removal Tool" search="tick removal tool tweezers" label="For tick removal" />
 
       <CTASection heading="Ticks Come From Your Yard — Not Your Mattress" subtext="Barrier spray removes ticks at the source: lawn edges, leaf litter, fence lines. From $99." variant="dark" />
     </>

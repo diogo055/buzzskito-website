@@ -5,6 +5,7 @@ import AuthorByline from '@/components/AuthorByline'
 import BuyLink from '@/components/BuyLink'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import TopPick from '@/components/TopPick'
+import StickyBuyBar from '@/components/StickyBuyBar'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
@@ -219,6 +220,8 @@ export default function WhatAttractsMosquitoesToYouPage() {
           </ul>
         </div>
       </article>
+
+      <StickyBuyBar tag={AMZ_TAG} name="Picaridin 20% insect repellent" search="picaridin insect repellent" label="Best repellent" />
 
       <CTASection heading="Stop Being the One Who Always Gets Bitten" subtext="You can't change your blood type — but you can clear the mosquitoes from your yard. Licensed barrier spray from $99. +HST." variant="dark" />
     </>

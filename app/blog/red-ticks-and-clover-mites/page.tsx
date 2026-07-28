@@ -6,6 +6,7 @@ import BuyLink from '@/components/BuyLink'
 import TopPick from '@/components/TopPick'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import StickyBuyBar from '@/components/StickyBuyBar'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
 
@@ -220,6 +221,13 @@ export default function RedTicksAndCloverMitesPage() {
           </ul>
         </div>
       </article>
+
+      <StickyBuyBar
+        name="Fine-Tipped Tick Remover Tool"
+        search="tick removal tool tweezers"
+        label="For removal"
+        tag={AMZ_TAG}
+      />
 
       <CTASection heading="Not Sure What You Found? We Know Ticks" subtext="Clover mites are harmless — real ticks are not. One barrier spray removes ticks where they wait, from $99." variant="dark" />
     </>

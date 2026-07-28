@@ -6,6 +6,7 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
+import StickyBuyBar from '@/components/StickyBuyBar'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
 
@@ -219,6 +220,8 @@ export default function DeerFliesHorseFliesOntarioPage() {
           </ul>
         </div>
       </article>
+
+      <StickyBuyBar tag={AMZ_TAG} name="Blue Sticky Ball Deer Fly Trap" search="deer fly sticky trap" label="Best deer fly trap" />
 
       <CTASection heading="Cut the Biting Flies Around Your Patio" subtext="A barrier spray knocks down the mosquitoes and the biting flies resting in your yard&rsquo;s shaded edges. From $99. Serving 19 GTA cities." variant="dark" />
     </>

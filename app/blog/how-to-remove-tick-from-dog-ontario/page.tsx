@@ -6,6 +6,7 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
+import StickyBuyBar from '@/components/StickyBuyBar'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
 
@@ -184,6 +185,13 @@ export default function HowToRemoveTickFromDogPage() {
           </ul>
         </div>
       </article>
+
+      <StickyBuyBar
+        name="Fine-Tipped Tick-Removal Tool"
+        search="tick removal tool tweezers"
+        label="For removal"
+        tag={AMZ_TAG}
+      />
 
       <CTASection heading="Found a Tick? Stop Finding More." subtext="Get a free quote for tick barrier spray. 5 sprays per season. Free re-treatment if ticks return." variant="dark" />
     </>

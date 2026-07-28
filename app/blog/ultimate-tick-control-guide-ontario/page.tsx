@@ -7,6 +7,7 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
+import StickyBuyBar from '@/components/StickyBuyBar'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { TICK_BLOGS, CITIES } from '@/lib/constants'
 import { tagForSlug } from '@/lib/amazon-clusters'
@@ -244,6 +245,8 @@ export default function TickPillarPage() {
           ))}
         </div>
       </article>
+
+      <StickyBuyBar tag={AMZ_TAG} name="Fine-tip tick removal tool set" search="tick removal tool tweezers" label="For removal" />
 
       <CTASection heading="Protect Your Family from Ticks This Season" subtext="Get a free tick control quote for your GTA property. No contracts required." variant="dark" />
     </>

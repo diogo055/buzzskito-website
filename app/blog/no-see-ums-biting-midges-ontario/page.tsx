@@ -6,6 +6,7 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
+import StickyBuyBar from '@/components/StickyBuyBar'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
 
@@ -217,6 +218,13 @@ export default function NoSeeUmsBitingMidgesOntarioPage() {
           <p className="text-xs text-gray-500">Repellent guidance reflects Health Canada&rsquo;s pest-management information. Always follow the product label. See <a href="https://www.canada.ca/en/health-canada/services/consumer-product-safety/pesticides-pest-management.html" target="_blank" rel="noopener" className="underline hover:text-brand-700">Health Canada — Pesticides and Pest Management</a>.</p>
         </div>
       </article>
+
+      <StickyBuyBar
+        name="Picaridin (Icaridin) Insect Repellent"
+        search="picaridin insect repellent canada"
+        label="Best repellent"
+        tag={AMZ_TAG}
+      />
 
       <CTASection heading="Too Small to See, Big Enough to Ruin the Evening" subtext="Biting midges and mosquitoes rest in the same damp, shaded yard zones. One barrier treatment targets them at the source. From $99." variant="dark" />
     </>

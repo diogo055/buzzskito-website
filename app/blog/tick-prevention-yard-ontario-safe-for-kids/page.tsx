@@ -6,6 +6,7 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
+import StickyBuyBar from '@/components/StickyBuyBar'
 import { buildMetadata, breadcrumbSchema, faqSchema, blogPostingSchema, speakableSchema, howToSchema } from '@/lib/seo'
 import { BUSINESS } from '@/lib/constants'
 import { tagForSlug } from '@/lib/amazon-clusters'
@@ -268,6 +269,8 @@ export default function TickPreventionYardKidsPage() {
           </p>
         </div>
       </section>
+
+      <StickyBuyBar tag={AMZ_TAG} name="Picaridin (Icaridin) Insect Repellent" search="picaridin insect repellent canada" label="Top pick for kids" />
 
       <CTASection heading="Protect Your Family from Ticks This Season" subtext="Health Canada–approved barrier spray safe for children and pets after 30 minutes. No contracts." variant="dark" />
     </>

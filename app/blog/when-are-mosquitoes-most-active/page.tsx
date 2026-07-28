@@ -5,6 +5,7 @@ import AuthorByline from '@/components/AuthorByline'
 import BuyLink from '@/components/BuyLink'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import TopPick from '@/components/TopPick'
+import StickyBuyBar from '@/components/StickyBuyBar'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
@@ -238,6 +239,8 @@ export default function WhenAreMosquitoesMostActivePage() {
           </ul>
         </div>
       </article>
+
+      <StickyBuyBar tag={AMZ_TAG} name="Picaridin 20% insect repellent" search="picaridin insect repellent 20 percent" label="For peak hours" />
 
       <CTASection heading="Bite-Free at Dawn, Dusk, and Every Hour Between" subtext="A residual barrier spray treats the shaded spots where mosquitoes rest, so they are killed around the clock. From $99." variant="dark" />
     </>

@@ -6,6 +6,7 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
+import StickyBuyBar from '@/components/StickyBuyBar'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
 
@@ -294,6 +295,8 @@ export default function WhatDoesATickBiteLookLikePage() {
         </ul>
 
       </article>
+
+      <StickyBuyBar tag={AMZ_TAG} name="Tick remover kit (fine-tip + hook)" search="tick removal kit" label="For removal" />
 
       <CTASection heading="Fewer Ticks Where Your Family Plays" subtext="Get a free quote for licensed tick barrier spray targeting the yard edges where ticks wait. Serving 19 GTA cities." variant="dark" />
     </>

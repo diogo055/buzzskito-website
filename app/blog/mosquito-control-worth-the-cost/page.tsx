@@ -6,6 +6,7 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
+import StickyBuyBar from '@/components/StickyBuyBar'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { MOSQUITO_BLOGS } from '@/lib/constants'
 import { tagForSlug } from '@/lib/amazon-clusters'
@@ -236,6 +237,8 @@ export default function MosquitoControlWorthCostPage() {
           <li><Link href="/mosquito-control" className="text-brand-700 hover:underline">BuzzSkito Mosquito Control Services</Link></li>
         </ul>
       </article>
+
+      <StickyBuyBar tag={AMZ_TAG} name="Summit Mosquito Bits (BTi larvicide)" search="summit mosquito bits" label="Best DIY companion" />
 
       <CTASection heading="Ready to Reclaim Your Backyard This Summer?" subtext="Professional mosquito barrier spray from $120/treatment. Free quote for all GTA properties — no obligation." variant="dark" />
     </>

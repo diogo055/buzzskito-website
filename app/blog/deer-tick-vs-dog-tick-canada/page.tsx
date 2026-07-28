@@ -6,6 +6,7 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
+import StickyBuyBar from '@/components/StickyBuyBar'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
 
@@ -265,6 +266,8 @@ export default function DeerTickVsDogTickPage() {
           </ul>
         </div>
       </article>
+
+      <StickyBuyBar tag={AMZ_TAG} name="Tick-Removal Tool Set (tweezers + key)" search="tick removal tool tweezers" label="Best tool for the job" />
 
       <CTASection heading="Stop Both Tick Species Before They Reach Your Family" subtext="One yard barrier spray handles deer ticks AND dog ticks. From seasonal pricing on quote." variant="dark" />
     </>

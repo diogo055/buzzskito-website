@@ -7,6 +7,7 @@ import SpecialistDisclosure from '@/components/SpecialistDisclosure'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
+import StickyBuyBar from '@/components/StickyBuyBar'
 import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'flea-bites-on-humans'
@@ -235,6 +236,8 @@ export default function FleaBitesOnHumansPage() {
         </div>
 
       </article>
+
+      <StickyBuyBar tag={AMZ_TAG} name="Plug-in light flea trap" search="flea trap plug in" label="To confirm fleas" />
     </>
   )
 }

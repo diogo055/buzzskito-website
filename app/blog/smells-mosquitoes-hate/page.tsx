@@ -6,6 +6,7 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
+import StickyBuyBar from '@/components/StickyBuyBar'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
 
@@ -201,6 +202,13 @@ export default function SmellsMosquitoesHatePage() {
           </ul>
         </div>
       </article>
+
+      <StickyBuyBar
+        name="Oil of Lemon Eucalyptus Repellent"
+        search="oil of lemon eucalyptus repellent"
+        label="Strongest scent pick"
+        tag={AMZ_TAG}
+      />
 
       <CTASection heading="Scents Fade Fast — Real Protection Lasts Weeks" subtext="Skip the endless candles. One professional barrier spray treats your whole yard and keeps mosquitoes down for weeks. From $99." variant="dark" />
     </>

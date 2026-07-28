@@ -7,6 +7,7 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
+import StickyBuyBar from '@/components/StickyBuyBar'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
 
@@ -192,6 +193,8 @@ export default function TickSeasonOakvillePage() {
           <li><Link href="/yard-risk-report" className="text-brand-700 underline">Free Yard Risk Report — Oakville address-specific score</Link></li>
         </ul>
       </article>
+
+      <StickyBuyBar tag={AMZ_TAG} name="Permethrin-Treated Clothing & Gaiters" search="insectguard permethrin gaiters" label="Best personal protection" />
 
       <CTASection heading="Oakville tick pressure is climbing — get your yard protected" subtext="Free custom quote based on your address and lot. Sent within 24 hours. Same-week service across Oakville including West Oak Trails, Glen Abbey, Joshua Creek, Bronte, and Old Oakville." />
     </>

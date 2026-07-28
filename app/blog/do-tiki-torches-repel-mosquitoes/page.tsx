@@ -7,6 +7,7 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
+import StickyBuyBar from '@/components/StickyBuyBar'
 import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'do-tiki-torches-repel-mosquitoes'
@@ -275,6 +276,8 @@ export default function DoTikiTorchesRepelMosquitoesPage() {
           </ul>
         </div>
       </article>
+
+      <StickyBuyBar tag={AMZ_TAG} name="Thermacell E90 (rechargeable)" search="thermacell e90 rechargeable" label="Better than torches" />
 
       <CTASection heading="Torches for Ambiance · Barrier Spray for Actual Mosquitoes" subtext="Get a free quote for licensed barrier spray. From $99. Same-day yard protection. 21–30 day residual." variant="dark" />
     </>

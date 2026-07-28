@@ -6,6 +6,7 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
+import StickyBuyBar from '@/components/StickyBuyBar'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { BUSINESS } from '@/lib/constants'
 import { tagForSlug } from '@/lib/amazon-clusters'
@@ -279,6 +280,8 @@ export default function TickBiteVsMosquitoBitePage() {
           </p>
         </div>
       </section>
+
+      <StickyBuyBar tag={AMZ_TAG} name="Fine-Tipped Tick-Removal Tool Set" search="tick removal tool tweezers" label="For tick removal" />
 
       <CTASection heading="Protect Your Yard from Ticks and Mosquitoes" subtext="Professional barrier spray — kills ticks at all life stages. Up to 30 days per treatment." variant="dark" />
     </>

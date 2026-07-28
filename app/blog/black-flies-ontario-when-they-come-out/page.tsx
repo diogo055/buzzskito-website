@@ -7,6 +7,7 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
+import StickyBuyBar from '@/components/StickyBuyBar'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { MOSQUITO_BLOGS } from '@/lib/constants'
 import { tagForSlug } from '@/lib/amazon-clusters'
@@ -320,6 +321,8 @@ export default function BlackFliesOntarioPage() {
           </div>
         </div>
       </section>
+
+      <StickyBuyBar tag={AMZ_TAG} name="Picaridin (icaridin) insect repellent" search="picaridin insect repellent canada" label="Best for black flies" />
 
       <CTASection heading="Beat the Black Fly Wave This Spring" subtext="A May barrier spray cuts the worst three weeks of black fly pressure. Free yard assessment, no commitment." />
     </>

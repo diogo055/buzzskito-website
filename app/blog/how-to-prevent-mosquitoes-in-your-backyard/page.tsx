@@ -6,6 +6,7 @@ import BuyLink from '@/components/BuyLink'
 import TopPick from '@/components/TopPick'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import StickyBuyBar from '@/components/StickyBuyBar'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema, howToSchema } from '@/lib/seo'
 import { MOSQUITO_BLOGS } from '@/lib/constants'
 import { tagForSlug } from '@/lib/amazon-clusters'
@@ -183,6 +184,13 @@ export default function PreventMosquitoesPage() {
           <li><Link href="/mosquito-control" className="text-brand-700 hover:underline">BuzzSkito Mosquito Control Services</Link></li>
         </ul>
       </article>
+
+      <StickyBuyBar
+        name="Summit BTI Mosquito Dunks"
+        search="summit mosquito dunks"
+        label="For standing water"
+        tag={AMZ_TAG}
+      />
 
       <CTASection heading="Ready to Combine Prevention with Professional Treatment?" subtext="Get a free mosquito control quote and take back your backyard this season." />
     </>

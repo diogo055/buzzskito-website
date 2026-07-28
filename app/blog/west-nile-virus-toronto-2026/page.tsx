@@ -4,6 +4,7 @@ import CTASection from '@/components/CTASection'
 import AuthorByline from '@/components/AuthorByline'
 import BuyLink from '@/components/BuyLink'
 import TopPick from '@/components/TopPick'
+import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
@@ -214,6 +215,8 @@ export default function WestNileTorontoPage() {
           <p className="text-xs text-gray-500 mt-8">This article is general health information, not medical advice. If you have symptoms of neuroinvasive illness &mdash; high fever with neck stiffness, confusion, or seizures &mdash; seek emergency care immediately.</p>
         </div>
       </article>
+
+      <StickyBuyBar tag={AMZ_TAG} name="Summit Mosquito Dunks (Bti larvicide)" search="summit mosquito dunks" label="For water you can't drain" />
 
       <CTASection heading="Peak West Nile Season Is August. Treat Before It." subtext="Barrier spray suppresses the adult mosquito population for up to 30 days. Toronto & GTA, from $99." variant="dark" />
     </>

@@ -4,6 +4,7 @@ import CTASection from '@/components/CTASection'
 import AuthorByline from '@/components/AuthorByline'
 import BuyLink from '@/components/BuyLink'
 import TopPick from '@/components/TopPick'
+import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
@@ -305,6 +306,8 @@ export default function TypesOfTicksIdentificationPage() {
           </ul>
         </div>
       </article>
+
+      <StickyBuyBar tag={AMZ_TAG} name="Fine-Tipped Tick Removal Tool Set" search="tick removal tool fine tip tweezers" label="For tick removal" />
 
       <CTASection heading="Identified a Tick in Your Yard? Stop the Next One." subtext="BuzzSkito&rsquo;s licensed barrier treatment targets the grass, leaf litter, and shaded edges where ticks wait. From $99." variant="dark" />
     </>

@@ -7,6 +7,7 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
+import StickyBuyBar from '@/components/StickyBuyBar'
 import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'mosquito-netting-vs-barrier-spray'
@@ -200,6 +201,8 @@ export default function MosquitoNettingVsSprayPage() {
           </ul>
         </div>
       </article>
+
+      <StickyBuyBar tag={AMZ_TAG} name="Freestanding pop-up screen house" search="pop up screen house gazebo" label="Best netting pick" />
 
       <CTASection heading="Use Your Whole Yard Without a Screen Tent" subtext="Professional barrier spray covers the entire yard. Kids, pets, garden, BBQ — all bug-free. From $99." variant="dark" />
     </>

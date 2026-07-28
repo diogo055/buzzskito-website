@@ -7,6 +7,7 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
+import StickyBuyBar from '@/components/StickyBuyBar'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
 
@@ -222,6 +223,8 @@ export default function BlackFliesMississaugaTorontoGTAPage() {
           </div>
         </div>
       </section>
+
+      <StickyBuyBar tag={AMZ_TAG} name="Permethrin clothing spray (0.5%)" search="permethrin clothing spray" label="Best personal protection" />
 
       <CTASection heading="GTA black fly season is on now — get your yard protected" subtext="Free custom quote based on your address and lot. Sent within 24 hours. Same-week service across the GTA." />
     </>

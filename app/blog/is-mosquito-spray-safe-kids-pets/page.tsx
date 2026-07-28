@@ -7,6 +7,7 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
+import StickyBuyBar from '@/components/StickyBuyBar'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { NEW_BLOGS, MOSQUITO_BLOGS } from '@/lib/constants'
 import { tagForSlug } from '@/lib/amazon-clusters'
@@ -174,6 +175,13 @@ export default function IsMosquitoSpraySafePage() {
           </details>
         ))}
       </article>
+
+      <StickyBuyBar
+        name="Picaridin (Icaridin) Insect Repellent"
+        search="picaridin insect repellent canada"
+        label="Kid-friendly repellent"
+        tag={AMZ_TAG}
+      />
 
       <CTASection
         heading="Get a Safe, Effective Mosquito Treatment for Your Family"

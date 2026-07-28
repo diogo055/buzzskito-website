@@ -6,6 +6,7 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
+import StickyBuyBar from '@/components/StickyBuyBar'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
 
@@ -236,6 +237,8 @@ export default function WhatEatsTicksAndMosquitoesPage() {
           </ul>
         </div>
       </article>
+
+      <StickyBuyBar tag={AMZ_TAG} name="Beneficial nematodes (lawn-applied)" search="beneficial nematodes lawn" label="The predator you can buy" />
 
       <CTASection heading="Let Nature Help — But Cover the Gaps" subtext="Predators thin the wild population; a barrier spray protects the yard you actually use. From $99. Mosquitoes and ticks." variant="dark" />
     </>

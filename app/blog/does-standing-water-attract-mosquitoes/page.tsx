@@ -5,6 +5,7 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import TopPick from '@/components/TopPick'
+import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import { tagForSlug } from '@/lib/amazon-clusters'
@@ -265,6 +266,8 @@ export default function StandingWaterMosquitoesPage() {
           </ul>
         </div>
       </article>
+
+      <StickyBuyBar tag={AMZ_TAG} name="Summit Mosquito Dunks (BTI)" search="summit mosquito dunks" label="For water you can’t dump" />
 
       <CTASection heading="Dump the Water · We&rsquo;ll Handle the Rest" subtext="Get a free quote for professional yard barrier spray. From $99. Same-day protection. 150 five-star reviews." variant="dark" />
     </>

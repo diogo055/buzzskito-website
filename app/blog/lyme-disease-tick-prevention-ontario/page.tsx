@@ -6,6 +6,7 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
+import StickyBuyBar from '@/components/StickyBuyBar'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { TICK_BLOGS } from '@/lib/constants'
 import { tagForSlug } from '@/lib/amazon-clusters'
@@ -322,6 +323,13 @@ export default function LymeDiseasePage() {
         </p>
 
       </article>
+
+      <StickyBuyBar
+        name="Tick Twister Removal Hook"
+        search="tick twister removal tool"
+        label="Best tick remover"
+        tag={AMZ_TAG}
+      />
 
       <CTASection
         heading="Protect Your Yard from Lyme Disease Ticks This Season"

@@ -6,6 +6,7 @@ import TopPick from '@/components/TopPick'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import StickyBuyBar from '@/components/StickyBuyBar'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { NEW_BLOGS, MOSQUITO_BLOGS } from '@/lib/constants'
 import { tagForSlug } from '@/lib/amazon-clusters'
@@ -159,6 +160,8 @@ export default function MosquitoControlNearWaterPage() {
           </details>
         ))}
       </article>
+
+      <StickyBuyBar tag={AMZ_TAG} name="Summit Mosquito Dunks (Bti larvicide)" search="summit mosquito dunks" label="For standing water" />
 
       <CTASection
         heading="Waterfront or Ravine Property? Let&rsquo;s Build a Program That Works"

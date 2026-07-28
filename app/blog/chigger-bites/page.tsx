@@ -7,6 +7,7 @@ import SpecialistDisclosure from '@/components/SpecialistDisclosure'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
+import StickyBuyBar from '@/components/StickyBuyBar'
 import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'chigger-bites'
@@ -272,6 +273,8 @@ export default function ChiggerBitesPage() {
         </div>
 
       </article>
+
+      <StickyBuyBar tag={AMZ_TAG} name="Calamine lotion" search="calamine lotion" label="Best for the itch" />
     </>
   )
 }
