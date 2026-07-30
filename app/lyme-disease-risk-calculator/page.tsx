@@ -8,11 +8,11 @@ const SLUG = '/lyme-disease-risk-calculator'
 const FAQS = [
   {
     question: 'How is Lyme disease risk calculated for my household?',
-    answer: 'The Lyme Risk Calculator scores 6 inputs: your GTA address (Public Health Ontario tick surveillance data identifies four Lyme-endemic zones — Oak Ridges Moraine, Rouge National Urban Park, Niagara Escarpment edge, Hamilton-Wentworth conservation lands); your yard type (wooded/leafy/open); whether you have a dog and how it is walked; whether kids play outdoors; hiking habits; tick-check behaviour; and past tick exposure history. The output is a 1-100 household-level Lyme exposure score with personalized prevention guidance.',
+    answer: 'The Lyme Risk Calculator scores 6 inputs: your GTA city (we flag cities that contain or border terrain Public Health Ontario has mapped as blacklegged tick risk area — this grouping is ours, not PHO\'s); your yard type (wooded/leafy/open); whether you have a dog and how it is walked; whether kids play outdoors; hiking habits; tick-check behaviour; and past tick exposure history. The output is a 1-100 household-level Lyme exposure score with personalized prevention guidance. It is a relative planning tool, not a surveillance product — for the authoritative risk map covering your address, use PHO\'s Ontario Vector-Borne Disease Tool.',
   },
   {
-    question: 'Which GTA areas are Lyme-endemic?',
-    answer: 'Public Health Ontario currently flags four GTA zones as Lyme-endemic: (1) Oak Ridges Moraine — Caledon, King City, north Richmond Hill; (2) Rouge National Urban Park — Scarborough, east Markham; (3) Niagara Escarpment edge — Burlington, Halton Hills, Milton; (4) Hamilton-Wentworth conservation lands. Properties within 500m of any of these zones see elevated tick burden. Cases are now confirmed annually in every GTA city.',
+    question: 'Which GTA areas have blacklegged tick risk?',
+    answer: 'Public Health Ontario does not publish a list of "Lyme-endemic" municipalities or health units. It maps blacklegged tick risk areas as geographic areas built from field surveillance, published through the Ontario Vector-Borne Disease Tool. Those areas are drawn from where established tick populations have actually been found, so they do not follow municipal or health-unit boundaries — one city can contain both mapped risk area and areas with no identified risk — and the map is redrawn each year. The naturalized corridors most often mapped in and around the GTA include the Oak Ridges Moraine, the Rouge watershed, the Niagara Escarpment and the Hamilton-area conservation lands, but the only way to know about your own address is to check the tool. Ticks are also carried outside mapped areas every spring by deer and migratory birds, so a bite is possible anywhere in southern Ontario.',
   },
   {
     question: 'How long does a tick need to be attached to transmit Lyme?',
@@ -24,7 +24,7 @@ const FAQS = [
   },
   {
     question: 'How can I prevent Lyme disease for my family?',
-    answer: 'Five evidence-based prevention behaviours, ranked by effectiveness: (1) Reduce ticks in your yard with Health Canada-approved barrier spray; (2) Permethrin-treated clothing for hiking; (3) Daily tick checks after outdoor activities; (4) Picaridin 20% on exposed skin; (5) Shower within 2 hours of outdoor exposure to wash off unattached ticks. For dogs: NexGard, Bravecto, or Simparica oral tick preventatives.',
+    answer: 'Layer these, rather than picking one: daily tick checks after outdoor activities (removing a tick within 24-36 hours is the single most reliable way to stop transmission); permethrin-treated clothing for hiking; picaridin 20% on exposed skin; showering within 2 hours of outdoor exposure to wash off unattached ticks; and reducing tick habitat in your own yard by clearing leaf litter and treating the shaded perimeter with a Health Canada-registered residual acaricide. For dogs: NexGard, Bravecto, or Simparica oral tick preventatives. We are not ranking these against each other — the personal-protection steps are what CDC and Public Health Ontario emphasise, and yard treatment reduces the habitat rather than replacing tick checks.',
   },
   {
     question: 'My dog had a tick — am I at risk?',
@@ -38,7 +38,7 @@ const FAQS = [
 
 export const metadata: Metadata = buildMetadata({
   title: 'Lyme Disease Risk Calculator (GTA, Ontario) — Free Household Tick Exposure Score',
-  description: 'Free 60-second household Lyme disease risk calculator for the Greater Toronto Area. Backed by Public Health Ontario tick surveillance data. Get your 1-100 exposure score, prevention checklist, and yard treatment plan.',
+  description: 'Free 60-second household Lyme disease risk calculator for the Greater Toronto Area. Get your 1-100 exposure score, a prevention checklist, and a plain-English explanation of how Public Health Ontario actually maps blacklegged tick risk areas.',
   canonical: SLUG,
 })
 
@@ -51,9 +51,9 @@ export default function LymeRiskPage() {
 
       <section className="bg-gradient-to-br from-brand-950 via-brand-900 to-rose-900 text-white py-12 px-4">
         <div className="max-w-4xl mx-auto text-center">
-          <p className="text-xs font-extrabold text-amber-400 uppercase tracking-widest mb-2">Free · 60 Seconds · Backed by Public Health Ontario</p>
+          <p className="text-xs font-extrabold text-amber-400 uppercase tracking-widest mb-2">Free · 60 Seconds · Educational, Not Diagnostic</p>
           <h1 className="text-3xl sm:text-5xl font-extrabold mb-4 leading-tight">What&rsquo;s your family&rsquo;s <span className="text-amber-400">Lyme disease risk</span>?</h1>
-          <p className="text-lg text-brand-100 max-w-2xl mx-auto">Free household tick-exposure assessment for GTA families. Backed by Public Health Ontario surveillance data + CDC prevention guidelines.</p>
+          <p className="text-lg text-brand-100 max-w-2xl mx-auto">Free household tick-exposure assessment for GTA families. Prevention guidance follows CDC and Public Health Ontario recommendations; the score itself is our own relative estimate, not a public health product.</p>
         </div>
       </section>
 
@@ -64,35 +64,30 @@ export default function LymeRiskPage() {
           <p className="text-xs font-extrabold text-amber-700 uppercase tracking-wider mb-2">Quick Answer</p>
           <h2 className="text-xl font-extrabold text-brand-900 mb-3">How serious is Lyme disease in the GTA in 2026?</h2>
           <p className="text-base text-gray-800 leading-relaxed">
-            <strong>Lyme disease in the Greater Toronto Area has shifted from rare to actively expanding. Public Health Ontario currently flags four GTA zones as Lyme-endemic: the Oak Ridges Moraine (Caledon, King City, north Richmond Hill), Rouge National Urban Park (Scarborough, east Markham), Niagara Escarpment edge (Burlington, Halton Hills, Milton), and Hamilton-Wentworth conservation lands.</strong> Blacklegged tick populations have expanded ~20% per year in southern Ontario since 2015. Confirmed Lyme cases are now reported annually in every GTA city. The good news: Lyme is fully preventable when ticks are removed within 24-36 hours of attachment, and treatable with antibiotics when caught early. The bigger risk for most households isn&rsquo;t the disease itself — it&rsquo;s the gap between exposure and detection.
+            <strong>Lyme disease in the Greater Toronto Area has shifted from rare to actively expanding, and the honest answer to &ldquo;is my area endemic?&rdquo; is that Ontario does not classify areas that way.</strong> Public Health Ontario maps blacklegged tick <em>risk areas</em> as geographic areas drawn from field surveillance — published in the <a href="https://www.publichealthontario.ca/en/data-and-analysis/infectious-disease/vbd-tool" target="_blank" rel="noopener noreferrer" className="underline font-semibold">Ontario Vector-Borne Disease Tool</a>, redrawn annually, and not aligned to municipal or health-unit boundaries. Ontario reported 2,369 confirmed and probable Lyme cases in 2024, up 27% over 2023, according to the Public Health Agency of Canada. The good news: Lyme is largely preventable when ticks are removed within 24-36 hours of attachment, and treatable with antibiotics when caught early. The bigger risk for most households isn&rsquo;t the disease itself — it&rsquo;s the gap between exposure and detection.
           </p>
         </div>
       </section>
 
       <section className="bg-white py-14 px-4">
         <div className="max-w-3xl mx-auto prose-brand">
-          <h2 className="text-2xl font-extrabold text-brand-900 mb-3">The four GTA Lyme-endemic zones</h2>
-          <p className="text-gray-700 mb-4">Public Health Ontario maintains an annual blacklegged tick surveillance program. Areas where established tick populations sustain Lyme bacterium transmission are flagged as &ldquo;risk areas.&rdquo;</p>
-
-          <h3 className="text-lg font-extrabold text-brand-900 mt-6 mb-2">1. Oak Ridges Moraine</h3>
-          <p className="text-gray-700 mb-3">Includes Caledon, King City, and northern Richmond Hill. The moraine&rsquo;s mature mixed forests support large white-tailed deer populations. Lyme cases per 100,000 population in moraine-area postal codes run 3-5x the GTA average.</p>
-
-          <h3 className="text-lg font-extrabold text-brand-900 mt-6 mb-2">2. Rouge National Urban Park watershed</h3>
-          <p className="text-gray-700 mb-3">Covers eastern Scarborough and eastern Markham. Rouge National Urban Park is Canada&rsquo;s largest urban park (79+ km²) and contains one of the highest blacklegged tick densities in any North American urban park.</p>
-
-          <h3 className="text-lg font-extrabold text-brand-900 mt-6 mb-2">3. Niagara Escarpment edge</h3>
-          <p className="text-gray-700 mb-3">Burlington, Halton Hills, and Milton — properties along the escarpment edge plus Bruce Trail-adjacent neighbourhoods.</p>
-
-          <h3 className="text-lg font-extrabold text-brand-900 mt-6 mb-2">4. Hamilton-Wentworth conservation lands</h3>
-          <p className="text-gray-700 mb-3">Cootes Paradise, Dundas Valley, and Beverly Swamp — Hamilton&rsquo;s conservation lands network is one of southern Ontario&rsquo;s densest tick reservoirs.</p>
+          <h2 className="text-2xl font-extrabold text-brand-900 mb-3">How Ontario actually publishes tick risk</h2>
+          <p className="text-gray-700 mb-4">There is a widespread misconception — one this page previously repeated — that Public Health Ontario designates a fixed set of &ldquo;Lyme-endemic zones&rdquo; in the GTA. It does not, and we have removed that claim rather than relabelled it.</p>
+          <p className="text-gray-700 mb-4">What PHO publishes is a map of blacklegged tick <strong>risk areas</strong>, available through the <a href="https://www.publichealthontario.ca/en/data-and-analysis/infectious-disease/vbd-tool" target="_blank" rel="noopener noreferrer" className="text-brand-700 underline font-semibold">Ontario Vector-Borne Disease Tool</a>. Three things about that map matter for reading any regional summary you find online, including ours:</p>
+          <ul className="text-gray-700 mb-4 space-y-2">
+            <li><strong>They are geographic areas, not jurisdictions.</strong> Risk areas are drawn from where field surveillance has actually found established tick populations, so they do not follow municipal or public health unit boundaries. A single city can contain both mapped risk area and areas with no identified risk.</li>
+            <li><strong>The map is redrawn every year.</strong> The current map reflects newly identified or expanded risk areas based on the previous season&rsquo;s field data. Any list of zones written into a web page goes stale; the tool does not.</li>
+            <li><strong>Being outside a risk area is not the same as zero risk.</strong> Migratory songbirds carry <em>Ixodes scapularis</em> larvae and nymphs north each spring and drop them at stopover sites, and deer move them locally, so ticks turn up in places that cannot yet sustain a resident population.</li>
+          </ul>
+          <p className="text-gray-700 mb-4">The naturalized corridors most often associated with tick habitat in and around the GTA are the Oak Ridges Moraine, the Rouge watershed, the Niagara Escarpment and the Hamilton-area conservation lands — mature mixed forest with deer, the leaf-litter humidity ticks need, and long edges against residential lots. That is why this calculator adds weight for cities that contain or border them. <strong>That grouping is our own editorial heuristic, not a Public Health Ontario classification</strong>, and it is no substitute for checking the risk-area map for your own address.</p>
 
           <h2 className="text-2xl font-extrabold text-brand-900 mt-10 mb-3">How Lyme transmission actually works</h2>
           <p className="text-gray-700 mb-4">A blacklegged tick must be attached to a host for 24-36 hours minimum to transmit Lyme bacterium. The bacteria live in the tick&rsquo;s midgut and need time to migrate to the salivary glands before they can be transmitted. This is why daily tick checks after outdoor activities are so effective.</p>
 
           <h2 className="text-2xl font-extrabold text-brand-900 mt-10 mb-3">Evidence-based Lyme prevention</h2>
-          <p className="text-gray-700 mb-3">Ranked by effectiveness in CDC and Public Health Ontario guidance:</p>
+          <p className="text-gray-700 mb-3">These are layers, not a ranking. CDC and Public Health Ontario guidance puts the emphasis on personal protection and prompt tick removal; yard treatment reduces habitat and is a complement to those steps, not a replacement for them.</p>
           <ol className="text-gray-700 mb-4 space-y-2">
-            <li><strong>Reduce ticks in your yard.</strong> Health Canada-approved barrier spray reduces resident tick populations 80-90% for 21-30 days per treatment.</li>
+            <li><strong>Reduce ticks in your yard.</strong> A Health Canada-registered residual acaricide applied to the yard-edge, leaf-litter and shaded-perimeter zones where blacklegged ticks quest. It is repeated through the season because wildlife keeps carrying new ticks in — no treatment clears a property permanently.</li>
             <li><strong>Permethrin-treated clothing for hiking.</strong> Kills ticks on contact through fabric. Lasts 6 wash cycles.</li>
             <li><strong>Daily tick checks after outdoor activities.</strong> Focus on hairline, behind ears, armpits, waistband, behind knees.</li>
             <li><strong>Picaridin 20% on exposed skin.</strong> Repels ticks for 8 hours. Safe for kids 6 months and older.</li>
@@ -105,12 +100,13 @@ export default function LymeRiskPage() {
             <li>Remove it whole with fine-tipped tweezers — pull steady, don&rsquo;t squeeze the body.</li>
             <li>Save the tick in a sealed plastic container with a damp paper towel.</li>
             <li>Submit a photo to <a href="https://www.etick.ca/" target="_blank" rel="noopener noreferrer" className="text-brand-700 underline">eTick.ca</a> for free identification.</li>
-            <li>If it was a blacklegged tick attached &gt;24 hours in a Lyme-endemic area, contact your family doctor about doxycycline post-exposure prophylaxis (effective within 72 hours).</li>
+            <li>If it was a blacklegged tick attached &gt;24 hours, contact your family doctor about doxycycline post-exposure prophylaxis (effective within 72 hours).</li>
             <li>Watch for symptoms for 30 days: bullseye rash, fever, fatigue, headache, joint aches.</li>
           </ol>
 
           <h2 className="text-2xl font-extrabold text-brand-900 mt-10 mb-3">Sources</h2>
           <ul className="text-gray-700 mb-4 space-y-1 text-sm">
+            <li><a href="https://www.publichealthontario.ca/en/data-and-analysis/infectious-disease/vbd-tool" target="_blank" rel="noopener noreferrer" className="text-brand-700 underline">Public Health Ontario — Ontario Vector-Borne Disease Tool</a> (the authoritative blacklegged tick risk-area map, redrawn annually)</li>
             <li><a href="https://www.publichealthontario.ca/en/Data-and-Analysis/Infectious-Disease/Lyme-Disease-Active-Tick-Surveillance" target="_blank" rel="noopener noreferrer" className="text-brand-700 underline">Public Health Ontario — Lyme Disease Active Tick Surveillance</a></li>
             <li><a href="https://www.cdc.gov/lyme/index.html" target="_blank" rel="noopener noreferrer" className="text-brand-700 underline">CDC — Lyme Disease Information</a></li>
             <li><a href="https://www.etick.ca/" target="_blank" rel="noopener noreferrer" className="text-brand-700 underline">eTick.ca — Citizen-Science Tick Identification</a></li>

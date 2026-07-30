@@ -152,7 +152,7 @@ export default function SpringTickSeasonPage() {
         <p><Link href="/tick-control" className="text-brand-700 hover:underline">Professional tick barrier spray</Link> is applied to the zones where ticks are most concentrated — the transition between lawn and wooded or naturalized areas, garden borders, fence lines, shaded vegetation, stone walls, and wood pile surrounds. The Health Canada-approved formula kills ticks on contact and provides residual protection for 4 to 6 weeks.</p>
         <p>Key facts about professional tick treatment:</p>
         <ul>
-          <li>Reduces tick populations by up to 90% in treated zones</li>
+          <li>Places a Health Canada-registered residual acaricide on the leaf litter and shaded edges where ticks quest</li>
           <li>Safe for children and pets after the 30-minute drying window</li>
           <li>Targets all tick species and all life stages present on the property</li>
           <li>Applied by licensed Ontario technicians</li>

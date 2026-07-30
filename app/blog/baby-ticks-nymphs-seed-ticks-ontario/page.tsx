@@ -94,7 +94,7 @@ export default function BabyTicksNymphsSeedTicksOntarioPage() {
               <li>Unfed adult female blacklegged ticks are about 3&ndash;3.5 mm (sesame-seed sized), engorging up to roughly 10 mm.</li>
               <li>Larvae almost never carry Lyme because they have not yet taken an infected first blood meal; nymphs can.</li>
               <li>Remove any attached tick with fine-tipped tweezers, pulling straight up close to the skin.</li>
-              <li>Professional barrier spray targets the shaded, humid yard edges where nymphs wait, cutting yard tick numbers 80&ndash;95%.</li>
+              <li>Professional barrier spray targets the shaded, humid yard edges where nymphs wait &mdash; the residual goes where they quest, not across the open lawn.</li>
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
           </div>
@@ -160,7 +160,7 @@ export default function BabyTicksNymphsSeedTicksOntarioPage() {
 
           <aside aria-label="Professional tick control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
             <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Nymphs hide in your lawn edges — we treat exactly those zones</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">Blacklegged tick nymphs wait in leaf litter, tall grass, and shaded borders. BuzzSkito&rsquo;s barrier spray targets those exact zones for 80–95% tick reduction through the season. Single treatments from $99; seasonal tick programs available across 19 GTA cities.</p>
+            <p className="text-sm text-gray-700 mb-4 leading-relaxed">Blacklegged tick nymphs wait in leaf litter, tall grass, and shaded borders. BuzzSkito&rsquo;s barrier spray puts a Health Canada-registered residual acaricide on those exact zones, repeated through the season as the residual wears off. Single treatments from $99; seasonal tick programs available across 19 GTA cities.</p>
             <div className="flex flex-wrap items-center gap-4">
               <Link href="/tick-control" className="btn-primary-sm">Explore Tick Control →</Link>
               <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
@@ -206,7 +206,7 @@ export default function BabyTicksNymphsSeedTicksOntarioPage() {
             <li><strong>Add a 3-foot wood-chip or gravel strip</strong> between your lawn and any woods, ravine, or tall grass. Ticks avoid crossing the dry, sunny barrier.</li>
             <li><strong>Discourage mice.</strong> White-footed mice are the main host that infects larvae and nymphs, so store firewood off the ground and seal food sources.</li>
             <li><strong>Treat clothing with permethrin</strong> and tuck pants into socks. Nymphs board at ankle-to-knee height, so treated footwear and pant legs stop most bites.</li>
-            <li><strong>Professional barrier spray.</strong> <Link href="/tick-control">BuzzSkito&rsquo;s tick barrier treatment</Link> targets the lawn edges, leaf litter, and shaded borders where nymphs quest, for 80–95% season-long reduction.</li>
+            <li><strong>Professional barrier spray.</strong> <Link href="/tick-control">BuzzSkito&rsquo;s tick barrier treatment</Link> targets the lawn edges, leaf litter, and shaded borders where nymphs quest, re-applied through the season because the residual is temporary.</li>
           </ol>
           <p>For the full checklist, see <Link href="/blog/how-to-keep-ticks-out-of-yard-ontario">how to keep ticks out of your yard in Ontario</Link>. Ontario health authorities keep current tick-risk maps and prevention guidance too — the <a href="https://www.publichealthontario.ca/" target="_blank" rel="noopener" className="underline hover:text-brand-700">Public Health Ontario</a> and <a href="https://www.canada.ca/en/public-health/services/diseases/lyme-disease.html" target="_blank" rel="noopener" className="underline hover:text-brand-700">Government of Canada Lyme disease</a> pages are the best sources for local, up-to-date information.</p>
 

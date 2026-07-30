@@ -99,7 +99,7 @@ export default function MosquitoControlVaughanPage() {
 
         <h2>The Tick Problem in Vaughan That Most Homeowners Don&rsquo;t Know About</h2>
         <p>Most Vaughan homeowners are focused on mosquitoes, but the same conservation areas that drive mosquito pressure — Boyd Conservation Area, the Humber River valley, Kortright Centre — are confirmed blacklegged tick habitat. The City of Vaughan and York Region Public Health have documented established tick populations in these areas.</p>
-        <p>If your property backs onto any forested area in Vaughan, you should be treating for both. See our <Link href="/vaughan-tick-spray" className="text-brand-700 underline">Vaughan tick control service page</Link> for details on how barrier spray reduces tick exposure for your family and pets.</p>
+        <p>If your property backs onto any forested area in Vaughan, you should be treating for both. See our <Link href="/vaughan-tick-spray" className="text-brand-700 underline">Vaughan tick control service page</Link> for details on how barrier spray targets the shaded edges and leaf litter where ticks wait for a host.</p>
 
         <h2>What Mosquito Season Actually Looks Like in Vaughan</h2>
         <p>Based on the microclimates created by the Humber River and conservation lands, here is how the Vaughan mosquito season typically unfolds:</p>

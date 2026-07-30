@@ -172,7 +172,7 @@ export default function HowToRemoveTickFromDogPage() {
             <li><strong>Create a 3-foot wood chip or gravel barrier</strong> between your lawn and any wooded area or tall grass.</li>
             <li><strong>Trim shrubs</strong> and clear deer trails or brush piles.</li>
             <li><strong>Use a vet-prescribed monthly tick preventative</strong> on your dog (oral or topical). Between doses, a dog-safe tick repellent adds a layer of protection before walks in tall grass — see our <Link href="/blog/tick-repellent-for-dogs-ontario">dog tick repellent guide for Ontario</Link>, or <BuyLink tag={AMZ_TAG} search="dog tick repellent">check price on Amazon.ca →</BuyLink></li>
-            <li><strong>Apply professional tick barrier spray</strong> to your yard. <Link href="/tick-control">BuzzSkito&rsquo;s 5-spray season program</Link> targets ticks where they actually live — leaf litter, lawn edges, fence lines — and reduces yard tick populations by 90%+.</li>
+            <li><strong>Apply professional tick barrier spray</strong> to your yard. <Link href="/tick-control">BuzzSkito&rsquo;s 5-spray season program</Link> targets ticks where they actually live — leaf litter, lawn edges, fence lines — with a Health Canada-registered residual acaricide, repeated through the season. It lowers how often your dog runs into one at home; it does not replace a vet-prescribed preventative or daily tick checks.</li>
           </ol>
 
           <h2>Related Guides</h2>

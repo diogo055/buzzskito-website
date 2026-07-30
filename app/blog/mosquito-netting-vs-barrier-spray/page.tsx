@@ -86,10 +86,10 @@ export default function MosquitoNettingVsSprayPage() {
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Netting gives you a 100% bug-free zone — but only inside the enclosed area. Barrier spray cuts the mosquito population 90%+ across the entire yard. Choose netting for one defined patio spot or zero-pesticide protection; choose spray for whole-yard use with kids and pets.</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Netting gives you a physically bug-free zone — but only inside the enclosed area, and only while it stays sealed. Barrier spray treats the resting vegetation across the entire yard instead of enclosing one spot, though mosquitoes keep dispersing in from neighbouring properties. Choose netting for one defined patio spot or zero-pesticide protection; choose spray for whole-yard use with kids and pets.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
               <li>Mosquito netting is 100% effective inside the enclosed area and 0% effective outside it.</li>
-              <li>Professional barrier spray reduces yard-wide mosquito populations by 90%+ for 21–30 days per treatment.</li>
+              <li>Professional barrier spray leaves a residual on yard-wide resting vegetation for 21–30 days per treatment.</li>
               <li>Patio screen tents cost $200–$1,500; a freestanding screened gazebo runs roughly $300–$800.</li>
               <li>Netting is the only mosquito protection Health Canada recommends for babies under 6 months.</li>
               <li>Netting does nothing for ticks; barrier spray controls both mosquitoes and ticks.</li>
@@ -113,8 +113,8 @@ export default function MosquitoNettingVsSprayPage() {
               <tbody>
                 {[
                   ['Coverage', 'Enclosed area only', 'Entire yard'],
-                  ['Effectiveness inside', '100% bug-free', '90%+ population reduction'],
-                  ['Effectiveness outside the zone', '0% (not protected)', '90%+ population reduction'],
+                  ['Inside the zone', 'Physical barrier — nothing gets in while sealed', 'Residual on resting vegetation'],
+                  ['Outside the zone', 'No protection at all', 'Same residual treatment, lot-wide'],
                   ['Initial cost', '$200–$15,000 (depending on scope)', '$0'],
                   ['Annual cost', '$0 (after purchase)', 'available on quote'],
                   ['Setup', 'Permanent or seasonal install', 'None — we come to you'],

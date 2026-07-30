@@ -133,7 +133,7 @@ export default function WeddingMosquitoControlPage() {
 
           <h2>Why Not Just Use Citronella Candles or Bug Spray?</h2>
           <p>Citronella candles and personal insect repellent are the most common &ldquo;solutions&rdquo; for outdoor events &mdash; and the least effective. Candles protect a radius of only a few feet and only while burning. Asking wedding guests to apply DEET before a formal event is impractical. Neither approach addresses the source: mosquitoes resting in surrounding vegetation.</p>
-          <p>Professional barrier spray treats the actual resting sites &mdash; the undersides of leaves, shrub interiors, and fence lines where mosquitoes spend 90% of their time. One treatment eliminates the population around your venue and creates a barrier that repels new mosquitoes for weeks.</p>
+          <p>Professional barrier spray treats the actual resting sites &mdash; the undersides of leaves, shrub interiors, and fence lines where adult mosquitoes spend the daylight hours. One treatment knocks down what is resting there and leaves a residual on those surfaces for weeks. It will not clear the area &mdash; mosquitoes keep arriving from beyond the property line &mdash; which is why we time the application close to the event date.</p>
 
           <h2>Pricing for Event Treatments</h2>
           <p>Event mosquito treatments start from <strong>$99</strong> for standard venues. Final pricing depends on:</p>

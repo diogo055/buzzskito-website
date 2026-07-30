@@ -22,11 +22,11 @@ const UPDATED = '2026-05-28'
 const FAQS = [
   {
     question: 'Is professional mosquito control worth the cost?',
-    answer: 'For GTA properties with mosquito pressure above background levels — which is most properties from late June through August — yes, the cost math favours professional control. A full DIY toolkit (Thermacell + refills, store-bought sprays applied weekly, citronella candles, BTi for standing water, head nets, repellents) runs $450-$650 per summer for materials alone, ignoring time. Professional barrier spray service for a standard lot starts at $549 for a five-spray season ($99 per spray) and delivers 70-90% mosquito reduction throughout the protection window. The effectiveness gap is the bigger factor than the cost gap: DIY tactics individually deliver 20-50% reduction; professional treatment delivers 70-90%. For properties near water, ravines, or with heavy outdoor entertaining, professional is the better economic decision.',
+    answer: 'For GTA properties with mosquito pressure above background levels — which is most properties from late June through August — yes, the cost math favours professional control. A full DIY toolkit (Thermacell + refills, store-bought sprays applied weekly, citronella candles, BTi for standing water, head nets, repellents) runs $450-$650 per summer for materials alone, ignoring time. Professional barrier spray service for a standard lot starts at $549 for a five-spray season ($99 per spray). The difference is not just cost, it is coverage and persistence: a licensed applicator treats every shaded resting site across the lot with a residual that stays active on those surfaces for weeks, whereas the DIY stack is a set of short-range, short-lived tools that have to be re-run constantly. For properties near water, ravines, or with heavy outdoor entertaining, professional is the better economic decision.',
   },
   {
     question: 'Can I really get rid of mosquitoes with DIY products?',
-    answer: 'You can reduce mosquito pressure with DIY products. You cannot eliminate them. The honest accounting: BTi dunks in standing water genuinely break the breeding cycle in treated containers — but only if you find every standing-water source on the property. Thermacell creates a 4-metre repellent cloud while running — useful for patio dining, not for whole-yard protection. Store-bought hose-end sprays (Cutter, OFF! Yard, Repel) have minimal residual action; the active ingredient evaporates in 4-24 hours. Citronella candles work in a 1-2 metre radius and only in low wind. The combination of these tools, applied diligently, reduces pressure by 30-50% on a typical GTA lot. Professional barrier spray with a residual pyrethroid delivers 70-90% reduction. You can do meaningful DIY work; you cannot match the effectiveness ceiling of professional treatment.',
+    answer: 'You can reduce mosquito pressure with DIY products. You cannot eliminate them. The honest accounting: BTi dunks in standing water genuinely break the breeding cycle in treated containers — but only if you find every standing-water source on the property. Thermacell creates a 4-metre repellent cloud while running — useful for patio dining, not for whole-yard protection. Store-bought hose-end sprays (Cutter, OFF! Yard, Repel) have minimal residual action; the active ingredient evaporates in 4-24 hours. Citronella candles work in a 1-2 metre radius and only in low wind. Applied diligently, that combination genuinely helps on a typical GTA lot. What it cannot do is treat the shaded vegetation across the whole property and keep treating it: a professional barrier spray with a residual pyrethroid leaves an active surface on the leaf undersides and shrub interiors where adult mosquitoes spend the day, for weeks at a time. You can do meaningful DIY work; you cannot reproduce that coverage or that persistence by hand.',
   },
   {
     question: 'How much does a season of DIY mosquito control cost?',
@@ -91,10 +91,10 @@ export default function ProfessionalVsDIYPage() {
         <AuthorByline datePublished={POST.date} dateModified={UPDATED} />
         <div className="not-prose bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
           <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-          <p className="text-gray-800 text-[15px] leading-relaxed font-medium">On a typical GTA lot, professional barrier spray beats a DIY toolkit: a diligent DIY stack costs about $450&ndash;$650 a summer and cuts mosquito pressure 30&ndash;50%, while a professional barrier-spray season delivers 70&ndash;90% reduction with no labour. The best strategy is professional spray as the foundation with targeted DIY as the supplement.</p>
+          <p className="text-gray-800 text-[15px] leading-relaxed font-medium">On a typical GTA lot, professional barrier spray beats a DIY toolkit: a diligent DIY stack costs about $450&ndash;$650 a summer in materials alone and is built from short-range, short-lived tools you have to keep re-running, while a professional barrier-spray season treats the resting vegetation across the whole lot and leaves a residual there for weeks, with no labour on your part. The best strategy is professional spray as the foundation with targeted DIY as the supplement.</p>
           <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
             <li>A full DIY mosquito toolkit costs roughly $450&ndash;$650 per GTA summer plus 30&ndash;40 hours of labour.</li>
-            <li>DIY tactics individually cut mosquito pressure 20&ndash;50%; professional barrier spray delivers 70&ndash;90%.</li>
+            <li>DIY tactics are short-range and short-lived; professional barrier spray covers the whole lot and persists for weeks per application.</li>
             <li>A professional single treatment starts at $99; a 5-spray basic season is $549 and a 10-spray standard season is $994.</li>
             <li>Professional barrier spray holds a residual for 21&ndash;30 days (3&ndash;4 weeks) per application.</li>
             <li>BTi dunks give 95%+ larval kill for 30 days but do nothing for adult mosquitoes already biting.</li>
@@ -169,7 +169,7 @@ export default function ProfessionalVsDIYPage() {
 
         <h2>Professional barrier spray — what you actually get</h2>
         <p>A professional yard treatment uses a Health Canada-approved residual pyrethroid (typically deltamethrin, lambda-cyhalothrin, or bifenthrin) applied at a label-specified concentration through a precision <Link href="/blog/backpack-sprayer-canada" className="text-brand-700 underline">backpack sprayer</Link>. The applicator targets the surfaces where mosquitoes rest between feeding bouts: shrub interiors, the underside of leaves, fence lines, dense ornamental beds, the lawn-to-bed transition, woodpiles, and shaded fence corners. The formulation binds to plant surfaces and remains active for 21-30 days, knocking down mosquitoes on contact with treated foliage.</p>
-        <p>The effectiveness numbers — measured through mosquito counts before and after treatment by independent university extension services — typically show 70-90% population reduction within the treated area for 3-4 weeks. This is the headline gap with DIY: no consumer-grade tactic individually approaches that ceiling.</p>
+        <p>We are not going to put a percentage on our own service without a study behind it. The structural advantage over DIY is coverage and persistence: a licensed applicator treats every shaded resting site across the lot — leaf undersides, shrub interiors, fence-line vegetation, under decks — with a residual that stays active on those surfaces for weeks. No consumer-grade tactic covers that much surface area or lasts that long. What none of them do, ours included, is clear a yard: mosquitoes disperse in from neighbouring properties continuously.</p>
 
         <h3>What a season of professional service costs in the GTA</h3>
         <ul>
@@ -207,9 +207,9 @@ export default function ProfessionalVsDIYPage() {
           <li>Mosquito Magnet / Dynatrap after 6 weeks continuous operation: 30-60% population reduction</li>
           <li>Permethrin-treated clothing: 90%+ personal protection</li>
           <li>DEET/picaridin on exposed skin: 90%+ personal protection</li>
-          <li>Professional barrier spray on yard: 70-90% reduction within treated area, 3-4 weeks</li>
+          <li>Professional barrier spray on yard: residual stays active on treated resting vegetation for 3-4 weeks</li>
         </ul>
-        <p>The pattern is clear: the personal protection tactics (DEET, permethrin clothing) are highly effective on the body but do not protect the yard. The yard-protective DIY tactics top out at 40-60% effectiveness, often less. Professional barrier spray is the only intervention that delivers consistent 70-90% yard-level reduction.</p>
+        <p>The pattern is clear: the personal protection tactics (DEET, permethrin clothing) are highly effective on the body but do not protect the yard. The yard-protective DIY tactics are limited by range and by how fast their actives break down. Professional barrier spray is the only intervention here that treats the resting vegetation across an entire lot and keeps a residual on it for weeks &mdash; though it too has a limit, since mosquitoes disperse in continuously from neighbouring properties.</p>
 
         <h2>Safety comparison — the honest answer</h2>
         <p>Two very different concerns: human/pet safety, and pollinator/beneficial-insect safety.</p>
@@ -233,7 +233,7 @@ export default function ProfessionalVsDIYPage() {
           <li>Your yard is dry — no standing water, no irrigation ponds, no leaf-clogged gutters</li>
           <li>You use the yard occasionally rather than daily</li>
           <li>You have no young children, immunocompromised family members, or anyone with severe bite reactions</li>
-          <li>You are comfortable with 30-50% pressure reduction rather than 70-90%</li>
+          <li>You are comfortable with short-range, short-lived tools you re-run yourself rather than a residual maintained across the whole lot</li>
         </ul>
         <p>For these properties, a focused DIY stack — Thermacell on the patio, BTi anywhere standing water exists, permethrin-treated clothing for ravine walks, DEET for evenings — covers the realistic use case at minimum cost.</p>
 
@@ -253,13 +253,13 @@ export default function ProfessionalVsDIYPage() {
         <h2>The hybrid stack (what actually works best)</h2>
         <p>For most homeowners, the optimal strategy is not professional-only or DIY-only. It is professional barrier spray as the spine, with targeted DIY as the supplement.</p>
         <ul>
-          <li><strong>Professional barrier spray every 2-3 weeks (May-September)</strong> — the foundation. 70-90% yard-level reduction maintained throughout the season.</li>
+          <li><strong>Professional barrier spray every 2-3 weeks (May-September)</strong> — the foundation. It puts a residual on the shaded resting vegetation across the whole lot and the rolling re-treatments keep it there, but mosquitoes disperse back in continuously from neighbouring properties, which is why it is repeated rather than one-and-done.</li>
           <li><strong>BTi dunks in any standing water</strong> — eliminates breeding sources on your property at trivial cost.</li>
-          <li><strong>Thermacell on the patio during peak hours</strong> — adds 20-30% additional reduction in the immediate dining area.</li>
+          <li><strong>Thermacell on the patio during peak hours</strong> — puts a repellent vapour cloud over the seating area itself, roughly 4 metres across. It does nothing outside that radius and nothing once the unit is switched off.</li>
           <li><strong>Permethrin-treated pants and socks for outdoor work, gardening near edges, ravine walks</strong> — personal protection layer.</li>
           <li><strong>DEET or picaridin for outings beyond the treated yard</strong> — covers exposure off-property.</li>
         </ul>
-        <p>This stack costs roughly $700-$900 across a GTA summer ($549-$994 professional + $150-$200 DIY supplements) and delivers 85-95% effective protection across the use case. It is the recommendation we make to most clients — DIY does not go away, it gets focused on the gaps the professional treatment cannot address.</p>
+        <p>This stack costs roughly $700-$900 across a GTA summer ($549-$994 professional + $150-$200 DIY supplements). It is the recommendation we make to most clients — DIY does not go away, it gets focused on the gaps the professional treatment cannot address: the seating area while you are sitting in it, the standing water breeding on your own lot, and your body once you leave the treated yard. No combination of these eliminates mosquitoes, because adults keep dispersing in from off-property.</p>
 
         <h2>Mosquitoes are not the whole story — the tick add-on</h2>
         <p>The DIY-vs-professional analysis above applies to mosquitoes. For ticks, the calculus shifts further toward professional treatment because DIY tick options are even more limited (permethrin on clothing, lawn perimeter sprays, habitat modification — that is essentially the full toolkit) and the disease risk (Lyme, anaplasmosis) is higher than mosquito-borne disease risk in the GTA. If your property faces both pressures — which is most properties — the <Link href="/tick-control" className="text-brand-700 underline">tick add-on bundle</Link> with mosquito service is $497 for the tick portion (saves $100 versus standalone). The combined coverage is the most efficient form of yard protection.</p>

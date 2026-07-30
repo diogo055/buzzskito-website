@@ -142,7 +142,7 @@ export default function AncasterDundasTickPage() {
           <li>Wood pile areas and compost borders</li>
           <li>Any area where Escarpment or conservation-area vegetation encroaches onto the property</li>
         </ul>
-        <p>The formula provides 60–90 days of residual tick control per application. Two treatments per season — timed to nymph peak in late May and adult peak in September — deliver the most effective coverage across both activity windows.</p>
+        <p>The formula leaves a residual on the treated leaf litter and shaded edges that persists for weeks, not days — it is not a one-time fix, and it wears off. Two treatments per season — timed to nymph peak in late May and adult peak in September — deliver the most effective coverage across both activity windows.</p>
 
         <h2>Recommended Tick Control Schedule for Ancaster and Dundas</h2>
         <div className="not-prose overflow-x-auto my-6">

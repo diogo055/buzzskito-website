@@ -252,7 +252,7 @@ export default function DeerTickVsDogTickPage() {
             <li><strong>Discourage rodents</strong> (don&rsquo;t feed wildlife, store firewood off the ground) — mice are immature ticks&rsquo; primary host for both species.</li>
             <li><strong>Daily tick checks</strong> on yourself and dogs after walks in tick habitat. Concentrate on ears, armpits, paws, neck, tail base.</li>
             <li><strong>Vet-prescribed monthly tick preventative for dogs</strong> (Bravecto, NexGard, Simparica, K9 Advantix II) — protects against both species.</li>
-            <li><strong>Professional yard barrier spray.</strong> <Link href="/tick-control">BuzzSkito&rsquo;s 5-spray tick season program</Link> targets both deer ticks and dog ticks at lawn edges, leaf litter, fence lines, and shaded perimeters. 80–95% population reduction. $597 standalone or tick add-on bundle available on quote.</li>
+            <li><strong>Professional yard barrier spray.</strong> <Link href="/tick-control">BuzzSkito&rsquo;s 5-spray tick season program</Link> targets both deer ticks and dog ticks at lawn edges, leaf litter, fence lines, and shaded perimeters — the residual acaricide goes where they quest, not across the open lawn. $597 standalone or tick add-on bundle available on quote.</li>
           </ol>
 
           <h2>Related Reading</h2>

@@ -78,7 +78,7 @@ export default function HiddenBreedingSpotsPage() {
               <li>Above 21&deg;C, mosquito eggs hatch within 24&ndash;48 hours and larvae become biting adults in as little as 7&ndash;10 days.</li>
               <li>One female mosquito lays 100&ndash;200 eggs per batch and produces multiple batches per season.</li>
               <li>BTI mosquito dunks ($10&ndash;$20 per pack at Canadian Tire and Home Depot) are labelled to kill mosquito larvae within 24 hours, with one dunk treating about 100 sq ft of water for 30 days — safe for fish, pets, and humans.</li>
-              <li>Mosquitoes can fly up to 3 km, so source elimination alone cuts your on-property population 40&ndash;60%; adding barrier spray reaches 85&ndash;95%.</li>
+              <li>Mosquitoes can fly up to 3 km, so draining your own containers never reaches the ones bred elsewhere &mdash; treating resting vegetation is what covers those arrivals.</li>
               <li>Properly chlorinated pools cannot support mosquito larvae, but rainwater pooling on the pool cover can.</li>
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
@@ -103,8 +103,8 @@ export default function HiddenBreedingSpotsPage() {
                   ['Chlorinated pool risk', 'No — properly chlorinated pools cannot support larvae'],
                   ['Pool cover risk', 'High — water pools on covers and breeds mosquitoes; drain weekly'],
                   ['Mosquito flight range', 'Up to 3 km — your prevention only handles your property'],
-                  ['Source elimination alone', '40–60% reduction (your property)'],
-                  ['Source elimination + barrier spray', '85–95% reduction across full yard'],
+                  ['Source elimination alone', 'Removes the breeding sites you control; adults still fly in from off-property'],
+                  ['Source elimination + barrier spray', 'Removes local breeding AND treats resting vegetation for arrivals'],
                 ].map(([k, v]) => (
                   <tr key={k} className="border-b border-navy-50 last:border-0">
                     <td className="px-4 py-2.5 font-semibold text-brand-900 bg-gray-50 w-1/3">{k}</td>

@@ -45,7 +45,7 @@ const FAQS = [
   },
   {
     question: 'Does professional tick spray actually reduce Lyme disease risk?',
-    answer: 'Yes. Professional barrier spray applied to your yard\'s tick habitats — leaf litter, garden edges, shaded grass, wood borders — kills blacklegged ticks on contact and provides residual protection for up to 30 days. Studies on similar treatments show tick population reductions of up to 90% in treated areas.',
+    answer: 'Yes. Professional barrier spray applied to your yard\'s tick habitats — leaf litter, garden edges, shaded grass, wood borders — kills blacklegged ticks on contact and leaves a residual on those surfaces for up to 30 days. The point of applying it to leaf litter and shaded borders rather than the open lawn is that this is where ticks actually quest. It reduces how many ticks are sitting in those zones — it does not clear the property, and wildlife carries new ticks in all season, which is why applications are repeated.',
   },
   {
     question: 'What should I do if I find a tick on myself or my child?',
@@ -94,7 +94,7 @@ export default function LymeDiseasePage() {
             <li>Early symptoms appear 3–30 days after the bite; the bull&rsquo;s-eye rash shows in only about 70–80% of cases.</li>
             <li>Nymph-stage ticks cause most human Lyme cases and are only about the size of a poppy seed.</li>
             <li>Peak nymph activity in Ontario runs May through July, overlapping garden season and dog walking.</li>
-            <li>Professional barrier spray provides up to 30 days of residual protection and can cut yard tick populations by up to 90%.</li>
+            <li>Professional barrier spray provides up to 30 days of residual activity on the treated leaf litter, garden edges and wood borders where ticks quest.</li>
             <li>Remove ticks with fine-tipped tweezers, pulling straight up — no twisting — then save the tick for free eTick.ca identification.</li>
           </ul>
           <p className="mt-3 text-xs text-gray-500">— BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews. General information, not medical advice.</p>
@@ -336,7 +336,7 @@ export default function LymeDiseasePage() {
 
       <CTASection
         heading="Protect Your Yard from Lyme Disease Ticks This Season"
-        subtext="Professional barrier spray reduces tick populations in your yard by up to 90%. Serving Mississauga, Brampton, Oakville, Burlington, Hamilton, and the GTA. Get a free quote."
+        subtext="Professional barrier spray targets the leaf litter, garden edges and wood borders where ticks quest. Serving Mississauga, Brampton, Oakville, Burlington, Hamilton, and the GTA. Get a free quote."
         variant="dark"
       />
     </>

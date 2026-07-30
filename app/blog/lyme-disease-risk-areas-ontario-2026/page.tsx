@@ -13,9 +13,9 @@ const POST = {
 }
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Lyme Disease Risk Map Ontario 2026: 3,614 Cases + Why Toronto Is a Hot Spot',
+  title: 'Lyme Disease Risk Map Ontario 2026: Endemic Zones + Why Toronto Is a Hot Spot',
   description:
-    'Confirmed Lyme risk zones across Ontario in 2026 (as featured in Toronto Star). Public Health Ontario flagged 8 PHUs as established endemic + 7 emerging. 3,614 cases in 2025 (30× rise since 2010). GTA hotspots, map, and household risk score.',
+    'Confirmed Lyme risk zones across Ontario in 2026. Ontario reported 2,369 Lyme disease cases in 2024, up 27% on 2023 — the newest year PHAC has published. GTA hotspots, how risk areas are classified, and a household risk score.',
   canonical: `/blog/${POST.slug}`,
   type: 'article',
   publishedTime: POST.date,
@@ -45,7 +45,7 @@ const FAQS = [
   {
     question: 'Does professional tick spray reduce Lyme disease risk?',
     answer:
-      'Yes. Professional tick barrier spray applied to your yard perimeter and high-risk zones (garden edges, fence lines, shaded areas, wood borders) reduces tick populations by up to 90%. This meaningfully reduces the probability of a tick encounter on your own property — the place where most residential tick exposures occur. Combined with personal protection and tick checks, professional treatment is the most effective layer of defence for Ontario homeowners.',
+      'It helps, with limits worth stating plainly. Professional tick barrier spray applies a Health Canada-registered residual acaricide to your yard perimeter and the high-risk zones inside it — garden edges, fence lines, shaded areas, wood borders — because that is where blacklegged ticks quest, rather than out in the open lawn. That lowers the number of ticks sitting in those zones, which lowers the odds of an encounter on your own property. It does not eliminate ticks: the residual wears off, and deer, birds and rodents carry new ticks in through the season. Treat it as one layer alongside personal protection and daily tick checks, not as a replacement for them.',
   },
 ]
 
@@ -79,12 +79,12 @@ export default function LymeRiskAreas2026Page() {
           <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
           <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Public Health Ontario classifies virtually all of Southern Ontario — including every GTA municipality — as a blacklegged tick and Lyme disease risk area in 2026. If your yard borders forest, ravine, or conservation land, treat it as elevated risk.</p>
           <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
-            <li>Public Health Ontario flagged 8 public health units as established endemic and 7 as emerging Lyme risk for 2026.</li>
-            <li>Ontario reported 3,614 Lyme cases in 2025 — about 30 times the number a decade earlier.</li>
+            <li>Public Health Ontario maps established and emerging blacklegged tick risk areas in its Vector-Borne Disease Tool, which is updated each year — check it for the current classification where you live.</li>
+            <li>Ontario reported 2,369 confirmed and probable Lyme disease cases in 2024 &mdash; up 27% over the 1,859 reported in 2023, per the <a href="https://health-infobase.canada.ca/zoonoses/ticks/annual-report.html" target="_blank" rel="noopener" className="underline">Public Health Agency of Canada</a>. 2024 is the newest year published; there is no 2025 Ontario total yet.</li>
             <li>The blacklegged tick range expands roughly 35–55 km north per decade, driven by milder winters and migratory birds.</li>
             <li>Confirmed GTA risk zones include the Don Valley, Rouge Park, Credit River, Bronte Creek, 16 Mile Creek, and the Oak Ridges Moraine.</li>
             <li>An area is classed &ldquo;established risk&rdquo; once blacklegged ticks are found in consecutive years and at least one tests positive for Borrelia.</li>
-            <li>Professional tick barrier spray on perimeter zones reduces yard tick populations by up to 90%.</li>
+            <li>Professional tick barrier spray places a residual acaricide on the perimeter zones where ticks quest — a layer alongside tick checks, not a replacement for them.</li>
           </ul>
           <p className="mt-3 text-xs text-gray-500">— BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews. General information, not medical advice.</p>
         </div>
@@ -165,7 +165,7 @@ export default function LymeRiskAreas2026Page() {
         <p>Given the current risk landscape, GTA homeowners should take a layered approach to Lyme disease prevention:</p>
 
         <h3>1. Professional Tick Yard Treatment</h3>
-        <p><Link href="/tick-control" className="text-brand-700 hover:underline">Professional tick barrier spray</Link> reduces tick populations in your yard by up to 90%. Treatment targets the high-risk perimeter zones where ticks are most concentrated — garden edges, fence lines, shaded areas, stone walls, and the transition between lawn and wooded areas. Most homeowners schedule two treatments per season: late May and late August.</p>
+        <p><Link href="/tick-control" className="text-brand-700 hover:underline">Professional tick barrier spray</Link> targets the high-risk perimeter zones where ticks are most concentrated — garden edges, fence lines, shaded areas, stone walls, and the transition between lawn and wooded areas — with a Health Canada-registered residual acaricide. Because the residual is temporary and wildlife keeps reintroducing ticks, it is repeated rather than done once. Most homeowners schedule two treatments per season: late May and late August.</p>
 
         <h3>2. Habitat Modification</h3>
         <ul>
@@ -213,7 +213,7 @@ export default function LymeRiskAreas2026Page() {
         </ul>
       </article>
 
-      <CTASection heading="Protect Your Family in Ontario's Expanding Lyme Disease Zone" subtext="Professional tick barrier spray reduces yard tick populations by up to 90%. Free quote for all GTA properties." variant="dark" />
+      <CTASection heading="Protect Your Family in Ontario's Expanding Lyme Disease Zone" subtext="Professional tick barrier spray targets the garden edges, fence lines and wood borders where ticks quest. Free quote for all GTA properties." variant="dark" />
     </>
   )
 }

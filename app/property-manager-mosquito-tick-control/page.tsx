@@ -106,7 +106,7 @@ export default function PropertyManagerMosquitoTickControlPage() {
             </div>
             <div className="rounded-xl bg-gray-50 border-l-4 border-brand-700 p-5">
               <h3 className="text-lg font-extrabold text-brand-900 mb-2">⚠️ Liability exposure from tick-borne illness</h3>
-              <p className="text-sm text-gray-700">Public Health Ontario&rsquo;s 2025 surveillance data confirms blacklegged tick presence in every Ontario PHU. As Lyme disease cases rise (3,614 confirmed in 2025), tenants increasingly raise tick exposure as a habitability concern. Documented professional tick treatment is becoming baseline duty of care for landlords with properties backing onto ravines, conservation areas, or any naturalized green space.</p>
+              <p className="text-sm text-gray-700">Public Health Ontario&rsquo;s blacklegged tick surveillance now records established or emerging risk areas across most of southern Ontario. As Lyme disease cases rise (Ontario reported 2,369 confirmed and probable cases in 2024, up 27% over 2023, per the <a href="https://health-infobase.canada.ca/zoonoses/ticks/annual-report.html" target="_blank" rel="noopener" className="underline">Public Health Agency of Canada</a>), tenants increasingly raise tick exposure as a habitability concern. Documented professional tick treatment is becoming baseline duty of care for landlords with properties backing onto ravines, conservation areas, or any naturalized green space.</p>
             </div>
           </div>
         </div>

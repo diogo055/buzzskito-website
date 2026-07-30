@@ -33,7 +33,7 @@ const FAQS = [
   {
     question: 'Is professional mosquito control worth the money?',
     answer:
-      'For most GTA homeowners, yes. A full-season mosquito control program costs approximately $500-$900 (5-6 treatments) and delivers 85-95% mosquito population reduction on your property. This translates to consistent outdoor usability from May through September — evenings on the patio, weekend barbecues, children playing outside — without the biting, swatting, and retreat indoors that uncontrolled mosquito populations cause. When you consider that a single restaurant dinner for a family costs $100-$200, the per-month cost of season-long mosquito control ($100-$180/month) is a modest investment in outdoor quality of life.',
+      'For most GTA homeowners, yes. A full-season mosquito control program costs approximately $500-$900 (5-6 treatments) and keeps a residual on the shaded vegetation where adult mosquitoes rest during the day, refreshed before it wears off. The practical result is consistent outdoor usability from May through September — evenings on the patio, weekend barbecues, children playing outside — without the biting, swatting, and retreat indoors that uncontrolled mosquito populations cause. When you consider that a single restaurant dinner for a family costs $100-$200, the per-month cost of season-long mosquito control ($100-$180/month) is a modest investment in outdoor quality of life.',
   },
   {
     question: 'How much does a full season of mosquito control cost?',
@@ -43,7 +43,7 @@ const FAQS = [
   {
     question: 'Is professional mosquito spray better than DIY?',
     answer:
-      'Professional barrier spray is significantly more effective than most DIY options. Professional treatment achieves 85-95% mosquito population reduction for 21-30 days per application using Health Canada-approved formulas applied to all resting sites. DIY foggers provide short-term relief (hours to a day) and do not deliver residual protection. Citronella candles, tiki torches, and ultrasonic devices have minimal proven effectiveness. The one DIY measure that genuinely works — eliminating standing water — should be done in addition to professional treatment, not instead of it.',
+      'The difference is mechanical, not magical. Professional treatment applies a Health Canada-registered residual to all of the shaded resting sites across the lot — leaf undersides, shrub interiors, fence-line vegetation — and that residual stays active on those surfaces for 21-30 days per application. DIY foggers provide short-term relief (hours to a day) and do not deliver residual protection. Citronella candles, tiki torches, and ultrasonic devices have minimal proven effectiveness. The one DIY measure that genuinely works — eliminating standing water — should be done in addition to professional treatment, not instead of it.',
   },
   {
     question: 'What are the health risks of NOT having mosquito control?',
@@ -85,10 +85,10 @@ export default function MosquitoControlWorthCostPage() {
         <div className="max-w-3xl mx-auto">
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Yes &mdash; for most GTA homeowners professional mosquito control is worth the cost. A full-season program runs about $500&ndash;$900 for 5&ndash;6 treatments and reduces the mosquito population on your property by 85&ndash;95%, which works out to roughly $100&ndash;$180 per month for a backyard you can actually use from May through September.</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Yes &mdash; for most GTA homeowners professional mosquito control is worth the cost. A full-season program runs about $500&ndash;$900 for 5&ndash;6 treatments and puts a residual on the shaded vegetation where adult mosquitoes rest, repeated through the season because mosquitoes keep flying in from surrounding properties. That works out to roughly $100&ndash;$180 per month for a backyard you can actually use from May through September.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
               <li>A full-season program (5&ndash;6 treatments, May&ndash;September) costs $500&ndash;$900 for a standard GTA lot; single treatments run $120&ndash;$200.</li>
-              <li>Professional barrier spray achieves 85&ndash;95% mosquito population reduction with 21&ndash;30 days of residual protection per treatment.</li>
+              <li>Professional barrier spray treats every shaded resting site across the lot and holds a residual there for 21&ndash;30 days per treatment.</li>
               <li>Reclaiming 2&ndash;3 outdoor hours per week over a 20-week season prices the program at roughly $10&ndash;$22 per hour of usable backyard time.</li>
               <li>West Nile Virus has been detected in GTA mosquito populations every year since 2001; about 20% of infections cause West Nile Fever.</li>
               <li>A typical family already spends $200&ndash;$500 per season on DIY products (candles, foggers, zappers) that provide far less protection.</li>
@@ -129,7 +129,7 @@ export default function MosquitoControlWorthCostPage() {
           <li>Adults over 60 and immunocompromised individuals face the highest risk of severe outcomes</li>
           <li>There is no vaccine and no specific treatment for West Nile Virus</li>
         </ul>
-        <p>Professional mosquito control does not eliminate 100% of mosquitoes, but reducing the biting mosquito population on your property by 85-95% meaningfully reduces the probability of a WNV-infected bite. For households with elderly family members or immunocompromised individuals, this risk reduction has significant value.</p>
+        <p>Professional mosquito control does not eliminate mosquitoes — adults disperse onto a property from off-site sources up to 3 km away, which is why the treatment is repeated rather than one-and-done. What it does is hold a residual on the resting surfaces adults use on your own lot, so fewer of them are biting in the space your family actually occupies — and fewer bites means fewer opportunities for a WNV-infected one. For households with elderly family members or immunocompromised individuals, that matters.</p>
         <p>See: <Link href="/blog/west-nile-virus-ontario-2026" className="text-brand-700 hover:underline">West Nile Virus Risk Ontario 2026</Link></p>
 
         <h3>3. Reduced Allergic Reactions and Discomfort</h3>

@@ -186,7 +186,7 @@ export default function RemoveTickPage() {
         tag={AMZ_TAG}
       />
 
-      <CTASection heading="Prevent Tick Bites Before They Happen" subtext="Professional yard treatment reduces tick populations at the source. Free quote available." variant="dark" />
+      <CTASection heading="Prevent Tick Bites Before They Happen" subtext="Professional yard treatment targets the leaf litter and shaded edges where ticks wait. Free quote available." variant="dark" />
     </>
   )
 }

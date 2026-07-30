@@ -68,7 +68,7 @@ const FAQS = [
   {
     question: 'How many people get Lyme disease each year in Canada?',
     answer:
-      'Canada reported roughly 3,600 confirmed and probable Lyme disease cases in 2025, up from fewer than 150 a decade earlier, according to the Public Health Agency of Canada (PHAC). Cases have risen sharply as warming winters expand blacklegged tick range. Because milder infections often go undiagnosed, the true number is believed to be higher. PHAC publishes annual surveillance updates; consult a healthcare provider if you suspect a tick-borne illness.',
+      'Canada reported 5,809 confirmed and probable Lyme disease cases in 2024 — the most recent year published — up from fewer than 150 a decade earlier, according to the Public Health Agency of Canada (PHAC). That is a national incidence of 14.1 per 100,000, up from 11.9 in 2023. Cases have risen sharply as warming winters expand blacklegged tick range. Because milder infections often go undiagnosed, the true number is believed to be higher. PHAC publishes annual surveillance updates; consult a healthcare provider if you suspect a tick-borne illness.',
   },
   {
     question: 'How common is Lyme disease in Ontario?',
@@ -107,8 +107,8 @@ export default function AreTicksDangerousPage() {
           <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
           <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Yes &mdash; ticks are dangerous in Ontario. The blacklegged tick (<em>Ixodes scapularis</em>), now established across the GTA, can transmit Lyme disease, Anaplasmosis, Babesiosis, and Powassan virus. Remove any attached tick within 24 hours using fine-tipped tweezers or a tick-removal tool, save it for identification, and monitor for symptoms.</p>
           <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
-            <li>Canada reported roughly 3,600 confirmed and probable Lyme disease cases in 2025, up from fewer than 150 a decade earlier, per the Public Health Agency of Canada.</li>
-            <li>Ontario now reports over a thousand confirmed and probable Lyme cases in a typical recent year, according to Public Health Ontario.</li>
+            <li>Canada reported 5,809 confirmed and probable Lyme disease cases in 2024 &mdash; the newest year published &mdash; up from fewer than 150 a decade earlier, per the Public Health Agency of Canada.</li>
+            <li>Ontario accounted for 2,369 of those cases in 2024, about 41% of the national total and up 27% over 2023 (PHAC).</li>
             <li>Public Health Ontario has documented blacklegged ticks in every GTA municipality.</li>
             <li>Powassan virus is rare but can transmit in as little as 15 minutes after a tick attaches.</li>
             <li>Removing an attached tick within 24 hours sharply lowers the risk of Lyme transmission.</li>
@@ -189,7 +189,7 @@ export default function AreTicksDangerousPage() {
         <h2>How to Protect Your Family</h2>
 
         <h3>Professional Tick Treatment</h3>
-        <p><Link href="/tick-control" className="text-brand-700 hover:underline">Professional tick barrier spray</Link> is the most effective way to reduce tick populations on your property. Treatment targets the high-risk perimeter zones — garden edges, fence lines, shaded vegetation, stone walls, and the lawn-to-woods transition — reducing tick populations by up to 90%. Most GTA homeowners schedule two treatments per year: one in late May (targeting nymphs) and one in late August (targeting adult ticks before fall peak).</p>
+        <p><Link href="/tick-control" className="text-brand-700 hover:underline">Professional tick barrier spray</Link> is the most effective way to reduce tick populations on your property. Treatment puts a Health Canada-registered residual acaricide on the high-risk perimeter zones — garden edges, fence lines, shaded vegetation, stone walls, and the lawn-to-woods transition — because that is where ticks quest, not the middle of the lawn. It lowers the number of ticks in those zones rather than clearing the property, so it is paired with tick checks. Most GTA homeowners schedule two treatments per year: one in late May (targeting nymphs) and one in late August (targeting adult ticks before fall peak).</p>
 
         <h3>Yard Modifications</h3>
         <ul>
@@ -266,7 +266,7 @@ export default function AreTicksDangerousPage() {
 
       <StickyBuyBar tag={AMZ_TAG} name="Tick-removal tool kit" search="tick removal tool tweezers" label="For removal" />
 
-      <CTASection heading="Don't Wait Until Someone Gets Bitten" subtext="Professional tick barrier spray reduces yard tick populations by up to 90%. Free quote for all GTA properties." variant="dark" />
+      <CTASection heading="Don't Wait Until Someone Gets Bitten" subtext="Professional tick barrier spray targets the shaded edges and leaf litter where ticks wait. Free quote for all GTA properties." variant="dark" />
     </>
   )
 }

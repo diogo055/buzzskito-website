@@ -5,85 +5,90 @@ import { buildMetadata, breadcrumbSchema, faqSchema, speakableSchema } from '@/l
 
 const SLUG = '/ontario-lyme-disease-tracker-2026'
 
-// ── PUBLIC HEALTH ONTARIO CASE DATA ──────────────────────────────────────────
-// Source: Public Health Ontario Annual Lyme Disease Surveillance Reports
-// + Ontario MOH integrated Public Health Information System (iPHIS)
-// + PHAC Notifiable Disease Database for Lyme borreliosis
+// Every figure on this page must trace to a source in the SOURCES array below.
+// Do not add a number here without a fetched, citable primary source.
+const ACCESSED = '30 July 2026'
+
+// ── ONTARIO LYME CASES — PHAC NATIONAL SURVEILLANCE ──────────────────────────
+// Source: Public Health Agency of Canada, Health Infobase, "Annual report:
+// Lyme disease and other tick-borne diseases surveillance in Canada".
+// Case definition: confirmed + probable cases, as reported by provinces and
+// territories to PHAC. 2024 is the most recent published year.
 const ONTARIO_CASES = [
-  { year: 2010, cases: 119,  perCapita: 0.9 },
-  { year: 2011, cases: 153,  perCapita: 1.1 },
-  { year: 2012, cases: 215,  perCapita: 1.6 },
-  { year: 2013, cases: 232,  perCapita: 1.7 },
-  { year: 2014, cases: 213,  perCapita: 1.5 },
-  { year: 2015, cases: 257,  perCapita: 1.9 },
-  { year: 2016, cases: 379,  perCapita: 2.7 },
-  { year: 2017, cases: 988,  perCapita: 7.0 },
-  { year: 2018, cases: 624,  perCapita: 4.4 },
-  { year: 2019, cases: 1003, perCapita: 7.0 },
-  { year: 2020, cases: 1255, perCapita: 8.5 },
-  { year: 2021, cases: 1587, perCapita: 10.7 },
-  { year: 2022, cases: 2050, perCapita: 13.6 },
-  { year: 2023, cases: 2483, perCapita: 16.3 },
-  { year: 2024, cases: 3032, perCapita: 19.6 },
-  { year: 2025, cases: 3614, perCapita: 23.0 },
+  { year: 2022, cases: 1478, nationalTotal: 2525, note: 'Ontario was the largest single contributor to the national total.' },
+  { year: 2023, cases: 1859, nationalTotal: 4785, note: '39% of the Canadian total.' },
+  { year: 2024, cases: 2369, nationalTotal: 5809, note: '41% of the Canadian total. Up 27% over 2023.' },
 ]
 
-// ── ONTARIO LYME-ENDEMIC PUBLIC HEALTH UNITS ──────────────────────────────────
-// Source: Public Health Ontario Lyme Disease Estimated Risk Areas, updated 2025
-type EndemicTier = 'established' | 'emerging' | 'occasional' | 'low'
+// ── EARLIER ONTARIO FIGURES PUBLISHED BY PUBLIC HEALTH ONTARIO ───────────────
+// Kept separate from the PHAC series above on purpose: these come from a
+// different surveillance product with a different reporting cut, so the two
+// sets should not be plotted as one continuous line.
+const PHO_EARLIER = [
+  {
+    label: '2017',
+    value: '959 cases',
+    detail: 'Probable and confirmed Ontario cases, an incidence of 6.7 per 100,000 and three times the 2012–2016 average of 313.',
+    source: 'Nelder MP et al., Canada Communicable Disease Report 2018;44(10):231–236 (Public Health Ontario authors)',
+  },
+  {
+    label: '2018',
+    value: '612 cases',
+    detail: 'Reported Ontario cases, drawn from Public Health Ontario’s Monthly Infectious Diseases Surveillance Report (February 2019).',
+    source: 'ClimateData.ca, "Lyme disease in Ontario", citing Public Health Ontario',
+  },
+  {
+    label: '2015–2022',
+    value: '7,762 cases',
+    detail: 'Total Ontario cases across the eight-year period — 7,213 (92.9%) confirmed and 549 (7.1%) probable, from Ontario’s iPHIS reporting system.',
+    source: 'Adams JA et al., Emerging Infectious Diseases 2024;30(10):2006–2015',
+  },
+]
 
-interface PHUStatus {
+// ── ONTARIO PUBLIC HEALTH UNIT CONTACT DIRECTORY ─────────────────────────────
+// This is a contact directory, not a surveillance dataset. It carries no case
+// counts. Names, phone numbers and tick-submission contacts only.
+interface PHUContact {
   phu: string
-  status: EndemicTier
-  cases2025: number
-  population: number
-  riskAreas: string[]
   phone: string
   tickSubmission: string
 }
 
-const ONTARIO_PHUS: PHUStatus[] = [
-  // ESTABLISHED (high case counts, sustained tick populations)
-  { phu: 'Kingston, Frontenac & Lennox & Addington', status: 'established', cases2025: 412, population: 207000, riskAreas: ['Loughborough Lake', 'Frontenac Provincial Park', 'Battersea', 'Inverary'], phone: '(613) 549-1232', tickSubmission: 'KFL&A Public Health' },
-  { phu: 'Eastern Ontario Health Unit',              status: 'established', cases2025: 367, population: 215000, riskAreas: ['Cornwall', 'Hawkesbury', 'Russell', 'Alfred-Plantagenet'], phone: '(613) 933-1375', tickSubmission: 'EOHU.ca' },
-  { phu: 'Leeds, Grenville & Lanark District',       status: 'established', cases2025: 298, population: 175000, riskAreas: ['Brockville', 'Smiths Falls', 'Perth', 'Westport', 'Rideau Lakes'], phone: '(613) 345-5685', tickSubmission: 'healthunit.org' },
-  { phu: 'Hastings Prince Edward',                   status: 'established', cases2025: 245, population: 167000, riskAreas: ['Belleville', 'Quinte West', 'Tweed', 'Marmora', 'Picton'], phone: '(613) 966-5500', tickSubmission: 'hpepublichealth.ca' },
-  { phu: 'Ottawa Public Health',                     status: 'established', cases2025: 312, population: 1000000, riskAreas: ['Stittsville', 'Manotick', 'Greenbank', 'Ottawa Greenbelt'], phone: '(613) 580-6744', tickSubmission: 'ottawapublichealth.ca' },
-  { phu: 'Renfrew County & District',                status: 'established', cases2025: 156, population: 105000, riskAreas: ['Pembroke', 'Petawawa', 'Renfrew', 'Arnprior'], phone: '(613) 735-9724', tickSubmission: 'rcdhu.com' },
-  { phu: 'Peterborough Public Health',               status: 'established', cases2025: 134, population: 142000, riskAreas: ['Peterborough', 'Kawartha Lakes border', 'Apsley', 'Lakefield'], phone: '(705) 743-1000', tickSubmission: 'peterboroughpublichealth.ca' },
-  { phu: 'Niagara Region Public Health',             status: 'established', cases2025: 187, population: 477000, riskAreas: ['Niagara Falls', 'Welland', 'Pelham', 'Wainfleet'], phone: '(905) 688-8248', tickSubmission: 'niagararegion.ca' },
-
-  // EMERGING (rising case counts, expanding tick populations)
-  { phu: 'Halton Region Public Health',              status: 'emerging',    cases2025: 89,  population: 595000, riskAreas: ['Burlington escarpment', 'Halton Hills', 'Milton outskirts', 'Mount Nemo'], phone: '(905) 825-6000', tickSubmission: 'halton.ca' },
-  { phu: 'Simcoe Muskoka District Health Unit',      status: 'emerging',    cases2025: 112, population: 558000, riskAreas: ['Muskoka cottage country', 'Barrie outskirts', 'Tiny', 'Tay'], phone: '(705) 721-7330', tickSubmission: 'simcoemuskokahealth.org' },
-  { phu: 'Haliburton, Kawartha, Pine Ridge District', status: 'emerging',   cases2025: 98,  population: 199000, riskAreas: ['Lindsay', 'Cobourg', 'Port Hope', 'Haliburton Highlands'], phone: '(866) 888-4577', tickSubmission: 'hkpr.on.ca' },
-  { phu: 'York Region Public Health',                status: 'emerging',    cases2025: 76,  population: 1232000, riskAreas: ['King City', 'Oak Ridges Moraine', 'Whitchurch-Stouffville', 'East Gwillimbury'], phone: '1-877-464-9675', tickSubmission: 'york.ca' },
-  { phu: 'Lambton Public Health',                    status: 'emerging',    cases2025: 67,  population: 130000, riskAreas: ['Pinery Provincial Park', 'Bright\'s Grove', 'Forest', 'Sarnia'], phone: '(519) 383-8331', tickSubmission: 'lambtonpublichealth.ca' },
-  { phu: 'Wellington-Dufferin-Guelph Public Health', status: 'emerging',    cases2025: 54,  population: 290000, riskAreas: ['Guelph trail system', 'Erin', 'Mono', 'Hillsburgh'], phone: '(800) 265-7293', tickSubmission: 'wdgpublichealth.ca' },
-  { phu: 'Region of Waterloo Public Health',         status: 'emerging',    cases2025: 43,  population: 605000, riskAreas: ['Waterloo trails', 'St. Jacobs', 'Elmira', 'Wilmot'], phone: '(519) 575-4400', tickSubmission: 'regionofwaterloo.ca' },
-
-  // OCCASIONAL (cases reported, populations not yet established)
-  { phu: 'Toronto Public Health',                    status: 'occasional',  cases2025: 67,  population: 2930000, riskAreas: ['Rouge National Urban Park', 'High Park', 'Don Valley ravines', 'Toronto Islands'], phone: '(416) 338-7600', tickSubmission: 'toronto.ca/health' },
-  { phu: 'Region of Peel Public Health',             status: 'occasional',  cases2025: 45,  population: 1503000, riskAreas: ['Caledon Hills', 'Heart Lake', 'Greenbelt areas', 'Credit River corridor'], phone: '(905) 799-7700', tickSubmission: 'peelregion.ca' },
-  { phu: 'Hamilton Public Health Services',          status: 'occasional',  cases2025: 38,  population: 569000, riskAreas: ['Cootes Paradise', 'Dundas Valley', 'Beverly Swamp', 'Mount Albion'], phone: '(905) 546-3500', tickSubmission: 'hamilton.ca' },
-  { phu: 'Durham Region Health Department',          status: 'occasional',  cases2025: 41,  population: 720000, riskAreas: ['Pickering rural', 'Uxbridge moraine', 'Greenwood', 'Greenbank'], phone: '(905) 668-2020', tickSubmission: 'durham.ca' },
-  { phu: 'Brant County Health Unit',                 status: 'occasional',  cases2025: 22,  population: 137000, riskAreas: ['Grand River corridor', 'Brantford trails', 'Apps\' Mills'], phone: '(519) 753-4937', tickSubmission: 'bchu.org' },
-  { phu: 'Haldimand-Norfolk Health Unit',            status: 'occasional',  cases2025: 19,  population: 110000, riskAreas: ['Long Point', 'Backus Heritage Park', 'Lake Erie shoreline'], phone: '(519) 426-6170', tickSubmission: 'hnhu.org' },
-  { phu: 'Grey Bruce Health Unit',                   status: 'occasional',  cases2025: 28,  population: 159000, riskAreas: ['Bruce Peninsula', 'Sauble Beach', 'Owen Sound', 'Wiarton'], phone: '(519) 376-9420', tickSubmission: 'publichealthgreybruce.on.ca' },
-  { phu: 'Huron Perth Public Health',                status: 'occasional',  cases2025: 17,  population: 138000, riskAreas: ['Goderich', 'Bayfield', 'Stratford', 'Lake Huron shoreline'], phone: '(519) 482-3416', tickSubmission: 'hpph.ca' },
-
-  // LOW (rare cases, not enough surveillance data for endemic classification)
-  { phu: 'Algoma Public Health',                     status: 'low',         cases2025: 8,   population: 113000, riskAreas: ['Sault Ste. Marie', 'Pancake Bay'], phone: '(705) 942-4646', tickSubmission: 'algomapublichealth.com' },
-  { phu: 'North Bay Parry Sound District',           status: 'low',         cases2025: 12,  population: 130000, riskAreas: ['North Bay', 'Parry Sound', 'Mattawa'], phone: '(705) 474-1400', tickSubmission: 'myhealthunit.ca' },
-  { phu: 'Northwestern Health Unit',                 status: 'low',         cases2025: 6,   population: 80000,  riskAreas: ['Kenora', 'Dryden', 'Sioux Lookout'], phone: '(807) 468-3147', tickSubmission: 'nwhu.on.ca' },
-  { phu: 'Porcupine Health Unit',                    status: 'low',         cases2025: 4,   population: 81000,  riskAreas: ['Timmins', 'Cochrane', 'Kapuskasing'], phone: '(705) 267-1181', tickSubmission: 'porcupinehu.on.ca' },
-  { phu: 'Sudbury & Districts Health Unit',          status: 'low',         cases2025: 11,  population: 200000, riskAreas: ['Greater Sudbury', 'Manitoulin Island'], phone: '(705) 522-9200', tickSubmission: 'phsd.ca' },
-  { phu: 'Thunder Bay District Health Unit',         status: 'low',         cases2025: 9,   population: 152000, riskAreas: ['Thunder Bay', 'Sleeping Giant Provincial Park'], phone: '(807) 625-5900', tickSubmission: 'tbdhu.com' },
-  { phu: 'Timiskaming Health Unit',                  status: 'low',         cases2025: 3,   population: 32000,  riskAreas: ['New Liskeard', 'Kirkland Lake'], phone: '(705) 647-4305', tickSubmission: 'timiskaminghu.com' },
-  { phu: 'Chatham-Kent Public Health',               status: 'low',         cases2025: 14,  population: 104000, riskAreas: ['Rondeau Provincial Park', 'Wallaceburg'], phone: '(519) 352-7270', tickSubmission: 'ckphu.com' },
-  { phu: 'Middlesex-London Health Unit',             status: 'low',         cases2025: 21,  population: 522000, riskAreas: ['Komoka', 'Fanshawe', 'Springbank'], phone: '(519) 663-5317', tickSubmission: 'healthunit.com' },
-  { phu: 'Southwestern Public Health',               status: 'low',         cases2025: 16,  population: 213000, riskAreas: ['St. Thomas', 'Aylmer', 'Tillsonburg'], phone: '(519) 631-9900', tickSubmission: 'swpublichealth.ca' },
-  { phu: 'Windsor-Essex County Health Unit',         status: 'low',         cases2025: 13,  population: 422000, riskAreas: ['Point Pelee', 'Leamington', 'Kingsville'], phone: '(519) 258-2146', tickSubmission: 'wechu.org' },
+const ONTARIO_PHUS: PHUContact[] = [
+  { phu: 'Algoma Public Health',                        phone: '(705) 942-4646',  tickSubmission: 'algomapublichealth.com' },
+  { phu: 'Brant County Health Unit',                    phone: '(519) 753-4937',  tickSubmission: 'bchu.org' },
+  { phu: 'Chatham-Kent Public Health',                  phone: '(519) 352-7270',  tickSubmission: 'ckphu.com' },
+  { phu: 'Durham Region Health Department',             phone: '(905) 668-2020',  tickSubmission: 'durham.ca' },
+  { phu: 'Eastern Ontario Health Unit',                 phone: '(613) 933-1375',  tickSubmission: 'eohu.ca' },
+  { phu: 'Grey Bruce Health Unit',                      phone: '(519) 376-9420',  tickSubmission: 'publichealthgreybruce.on.ca' },
+  { phu: 'Haldimand-Norfolk Health Unit',               phone: '(519) 426-6170',  tickSubmission: 'hnhu.org' },
+  { phu: 'Haliburton, Kawartha, Pine Ridge District',   phone: '(866) 888-4577',  tickSubmission: 'hkpr.on.ca' },
+  { phu: 'Halton Region Public Health',                 phone: '(905) 825-6000',  tickSubmission: 'halton.ca' },
+  { phu: 'Hamilton Public Health Services',             phone: '(905) 546-3500',  tickSubmission: 'hamilton.ca' },
+  { phu: 'Hastings Prince Edward Public Health',        phone: '(613) 966-5500',  tickSubmission: 'hpepublichealth.ca' },
+  { phu: 'Huron Perth Public Health',                   phone: '(519) 482-3416',  tickSubmission: 'hpph.ca' },
+  { phu: 'Kingston, Frontenac & Lennox & Addington',    phone: '(613) 549-1232',  tickSubmission: 'KFL&A Public Health' },
+  { phu: 'Lambton Public Health',                       phone: '(519) 383-8331',  tickSubmission: 'lambtonpublichealth.ca' },
+  { phu: 'Leeds, Grenville & Lanark District',          phone: '(613) 345-5685',  tickSubmission: 'healthunit.org' },
+  { phu: 'Middlesex-London Health Unit',                phone: '(519) 663-5317',  tickSubmission: 'healthunit.com' },
+  { phu: 'Niagara Region Public Health',                phone: '(905) 688-8248',  tickSubmission: 'niagararegion.ca' },
+  { phu: 'North Bay Parry Sound District',              phone: '(705) 474-1400',  tickSubmission: 'myhealthunit.ca' },
+  { phu: 'Northwestern Health Unit',                    phone: '(807) 468-3147',  tickSubmission: 'nwhu.on.ca' },
+  { phu: 'Ottawa Public Health',                        phone: '(613) 580-6744',  tickSubmission: 'ottawapublichealth.ca' },
+  { phu: 'Peterborough Public Health',                  phone: '(705) 743-1000',  tickSubmission: 'peterboroughpublichealth.ca' },
+  { phu: 'Porcupine Health Unit',                       phone: '(705) 267-1181',  tickSubmission: 'porcupinehu.on.ca' },
+  { phu: 'Region of Peel Public Health',                phone: '(905) 799-7700',  tickSubmission: 'peelregion.ca' },
+  { phu: 'Region of Waterloo Public Health',            phone: '(519) 575-4400',  tickSubmission: 'regionofwaterloo.ca' },
+  { phu: 'Renfrew County & District Health Unit',       phone: '(613) 735-9724',  tickSubmission: 'rcdhu.com' },
+  { phu: 'Simcoe Muskoka District Health Unit',         phone: '(705) 721-7330',  tickSubmission: 'simcoemuskokahealth.org' },
+  { phu: 'Southwestern Public Health',                  phone: '(519) 631-9900',  tickSubmission: 'swpublichealth.ca' },
+  { phu: 'Sudbury & Districts Health Unit',             phone: '(705) 522-9200',  tickSubmission: 'phsd.ca' },
+  { phu: 'Thunder Bay District Health Unit',            phone: '(807) 625-5900',  tickSubmission: 'tbdhu.com' },
+  { phu: 'Timiskaming Health Unit',                     phone: '(705) 647-4305',  tickSubmission: 'timiskaminghu.com' },
+  { phu: 'Toronto Public Health',                       phone: '(416) 338-7600',  tickSubmission: 'toronto.ca/health' },
+  { phu: 'Wellington-Dufferin-Guelph Public Health',    phone: '(800) 265-7293',  tickSubmission: 'wdgpublichealth.ca' },
+  { phu: 'Windsor-Essex County Health Unit',            phone: '(519) 258-2146',  tickSubmission: 'wechu.org' },
+  { phu: 'York Region Public Health',                   phone: '1-877-464-9675',  tickSubmission: 'york.ca' },
 ]
 
 // ── ONTARIO TICK SPECIES ─────────────────────────────────────────────────────
@@ -106,9 +111,9 @@ const TICK_SPECIES: TickSpecies[] = [
     size: 'Adult: 3-5mm (sesame seed). Nymph: 1-2mm (poppy seed).',
     appearance: 'Adult females: red-orange body with black shield (scutum). Males: solid dark brown. Nymphs: tiny, translucent brown — easily missed.',
     vector: ['Lyme disease (Borrelia burgdorferi)', 'Anaplasmosis', 'Babesiosis', 'Powassan virus', 'Borrelia miyamotoi'],
-    activeMonths: 'April–November (peak: May–July nymphs, September–October adults)',
+    activeMonths: 'Spring through late autumn, and any mild day when temperatures are above freezing',
     preferredHosts: 'Mice, chipmunks, deer, dogs, humans',
-    range: 'Spreading rapidly across southern Ontario. Established in all eastern Ontario PHUs and increasingly throughout central/southern Ontario.',
+    range: 'The Lyme vector in Ontario. Public Health Ontario maps where established populations have been found — see the Vector-Borne Disease Tool for the current risk-area map rather than relying on a regional summary.',
     riskLevel: 'high',
   },
   {
@@ -117,9 +122,9 @@ const TICK_SPECIES: TickSpecies[] = [
     size: 'Adult: 5mm (pencil eraser). Engorged: pea-sized.',
     appearance: 'Brown body with distinctive cream-coloured marbled scutum. Larger and more visible than blacklegged ticks.',
     vector: ['Rocky Mountain Spotted Fever (rare in Ontario)', 'Tularemia (rare)'],
-    activeMonths: 'May–August',
+    activeMonths: 'Late spring through summer',
     preferredHosts: 'Dogs (preferred), humans, livestock',
-    range: 'Widespread across all of southern Ontario. The most commonly encountered tick on dogs and humans in the GTA.',
+    range: 'Widespread across southern Ontario and commonly encountered on dogs and humans. Not a Lyme disease vector.',
     riskLevel: 'moderate',
   },
   {
@@ -130,7 +135,7 @@ const TICK_SPECIES: TickSpecies[] = [
     vector: ['Ehrlichiosis in dogs', 'Babesiosis in dogs'],
     activeMonths: 'Year-round indoors',
     preferredHosts: 'Dogs almost exclusively (rarely bites humans)',
-    range: 'Indoor infestations possible across Ontario. Common in kennels, multi-dog homes. Usually introduced by travelling dogs.',
+    range: 'Indoor infestations possible. Common in kennels and multi-dog homes, usually introduced by travelling dogs.',
     riskLevel: 'low',
   },
   {
@@ -139,9 +144,9 @@ const TICK_SPECIES: TickSpecies[] = [
     size: 'Adult: 3-4mm. Nymphs: 1-2mm.',
     appearance: 'Adult females: distinctive single white "lone star" dot on back. Males: scattered white markings.',
     vector: ['Ehrlichiosis', 'Alpha-gal syndrome (red meat allergy)', 'Heartland virus', 'STARI (Southern Tick-Associated Rash Illness)'],
-    activeMonths: 'May–September',
+    activeMonths: 'Late spring through summer',
     preferredHosts: 'Deer, dogs, humans, ground-feeding birds',
-    range: 'Emerging in southern Ontario as of 2024. First established populations confirmed in Long Point and Pelee Island. Range expanding northward.',
+    range: 'Occasionally recorded in southern Ontario and not considered established province-wide. If you think you have found one, submit the photo to eTick.ca so it is captured in surveillance.',
     riskLevel: 'emerging',
   },
 ]
@@ -158,7 +163,7 @@ const LYME_STAGES: LymeStage[] = [
   {
     stage: 'Stage 1: Early Localized (3-30 days post-bite)',
     timing: 'Most common 7-14 days after attachment',
-    symptoms: ['Erythema migrans (bullseye rash) — present in 70-80% of confirmed cases', 'Fever, chills', 'Fatigue', 'Headache', 'Muscle aches', 'Joint stiffness', 'Swollen lymph nodes'],
+    symptoms: ['Erythema migrans (bullseye rash) — a single EM rash was reported in 76.4% of Canadian cases (PHAC Canadian Lyme Disease Enhanced Surveillance, 2009–2019)', 'Fever, chills', 'Fatigue', 'Headache', 'Muscle aches', 'Joint stiffness', 'Swollen lymph nodes'],
     whatToDo: 'See your family doctor or a walk-in clinic within 72 hours. A 14-21 day course of doxycycline is highly effective at this stage. If you cannot get an appointment, go to an Emergency Room — Lyme treatment is time-sensitive.',
   },
   {
@@ -175,75 +180,168 @@ const LYME_STAGES: LymeStage[] = [
   },
 ]
 
-const FAQS = [
+// ── SOURCES ──────────────────────────────────────────────────────────────────
+interface SourceRef {
+  publisher: string
+  title: string
+  url: string
+  supports: string
+}
+
+const SOURCES: SourceRef[] = [
   {
-    question: 'How many Lyme disease cases were reported in Ontario in 2025?',
-    answer: 'Public Health Ontario confirmed 3,614 Lyme disease cases in Ontario for 2025 — a 19% increase over 2024 (3,032 cases) and a 30-fold increase since 2010 (119 cases). The 2025 case rate is approximately 23 cases per 100,000 population, with the highest concentration in eastern Ontario PHUs (Kingston-Frontenac-Lennox-Addington, Eastern Ontario Health Unit, Leeds-Grenville-Lanark, and Hastings Prince Edward).',
+    publisher: 'Public Health Agency of Canada — Health Infobase',
+    title: 'Annual report: Lyme disease and other tick-borne diseases surveillance in Canada',
+    url: 'https://health-infobase.canada.ca/zoonoses/ticks/annual-report.html',
+    supports: 'Ontario 2,369 cases in 2024 and 1,859 in 2023, a 27% year-over-year increase; Ontario at 41% of the national total in 2024 and 39% in 2023; Canada 5,809 cases in 2024 at 14.1 per 100,000 and 4,785 in 2023 at 11.9; Canada 2,525 in 2022. 2024 is the most recent year published.',
   },
   {
-    question: 'Which Ontario regions are Lyme-endemic in 2026?',
-    answer: 'Public Health Ontario currently classifies eight PHUs as established Lyme-endemic regions: Kingston-Frontenac-Lennox-Addington, Eastern Ontario Health Unit, Leeds-Grenville-Lanark, Hastings Prince Edward, Ottawa, Renfrew County, Peterborough, and Niagara Region. Seven additional PHUs are emerging (Halton, Simcoe-Muskoka, Haliburton-Kawartha-Pine Ridge, York Region, Lambton, Wellington-Dufferin-Guelph, Waterloo). Lyme cases have been confirmed in every Ontario PHU since 2022.',
+    publisher: 'Public Health Agency of Canada',
+    title: 'Lyme disease surveillance, 2022 reporting year (national surveillance summary)',
+    url: 'https://www.canada.ca/en/public-health/services/diseases/lyme-disease/surveillance-lyme-disease.html',
+    supports: 'Ontario 1,478 cases in 2022, the largest provincial share of the 2,525 confirmed and probable cases reported nationally that year.',
+  },
+  {
+    publisher: 'Public Health Ontario (Nelder MP, Wijayasri S, Russell CB, et al.)',
+    title: 'The continued rise of Lyme disease in Ontario, Canada: 2017 — Canada Communicable Disease Report 2018;44(10):231–236',
+    url: 'https://pubmed.ncbi.nlm.nih.gov/31524884/',
+    supports: '959 probable and confirmed Ontario cases in 2017, an incidence of 6.7 per 100,000, three times the 2012–2016 average of 313.',
+  },
+  {
+    publisher: 'ClimateData.ca (citing Public Health Ontario)',
+    title: 'Lyme disease in Ontario',
+    url: 'https://climatedata.ca/lyme-disease-in-ontario/',
+    supports: '612 Ontario cases reported in 2018, from Public Health Ontario’s Monthly Infectious Diseases Surveillance Report (February 2019). The same page cites a Public Health Ontario extract giving 1,003 cases for 2017 — see the provenance note about why that differs from the 959 in the peer-reviewed report.',
+  },
+  {
+    publisher: 'Adams JA, Osasah V, Paphitis K, et al. — Emerging Infectious Diseases',
+    title: 'Age- and Sex-Specific Differences in Lyme Disease Health-Related Behaviors, Ontario, Canada, 2015–2022. Emerg Infect Dis. 2024;30(10):2006–2015',
+    url: 'https://wwwnc.cdc.gov/eid/article/30/10/24-0191_article',
+    supports: '7,762 Ontario cases reported over 2015–2022, of which 7,213 (92.9%) confirmed and 549 (7.1%) probable, from Ontario’s iPHIS system; roughly a three-fold rise in incidence over that period.',
+  },
+  {
+    publisher: 'Public Health Ontario',
+    title: 'Ontario Vector-Borne Disease Tool',
+    url: 'https://www.publichealthontario.ca/en/data-and-analysis/infectious-disease/vbd-tool',
+    supports: 'The authoritative Ontario source for human case counts (updated weekly) and for the blacklegged tick risk-area map, which is redrawn annually — the 2026 map reflects newly identified or expanded tick risk areas based on 2025 data. Risk areas are mapped as geographic areas, not as public health units.',
+  },
+  {
+    publisher: 'Ghanbari H, Siebels K, Dumas A, et al. — PLOS One',
+    title: 'A machine learning framework for estimating the probability of blacklegged tick population establishment in eastern Canada using Earth observation data. PLoS One 2025;20(9):e0332582',
+    url: 'https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0332582',
+    supports: 'The degree-day mechanism: "Below an approximate threshold of 2800 DD > 0°C, I. scapularis populations cannot establish or persist because the temperatures are too cold for the ticks to complete their lifecycle." Cites Ogden et al. 2005 for the threshold.',
+  },
+  {
+    publisher: 'Ogden NH, Bigras-Poulin M, O’Callaghan CJ, et al. — International Journal for Parasitology',
+    title: 'A dynamic population model to investigate effects of climate on geographic range and seasonality of the tick Ixodes scapularis. Int J Parasitol 2005;35(4):375–389',
+    url: 'https://pubmed.ncbi.nlm.nih.gov/15777914/',
+    supports: 'The original population model behind the 2,800–3,100 cumulative annual degree-days above 0°C requirement for blacklegged tick population persistence.',
+  },
+  {
+    publisher: 'Ogden NH, Maarouf A, Barker IK, et al. — International Journal for Parasitology',
+    title: 'Climate change and the potential for range expansion of the Lyme disease vector Ixodes scapularis in Canada. Int J Parasitol 2006;36(1):63–70 (PMID 16229849)',
+    url: 'https://pubmed.ncbi.nlm.nih.gov/16229849/',
+    supports: 'Mapping of annual degree-days >0°C limits for I. scapularis establishment using temperatures projected for the 2020s, 2050s and 2080s. The paper reports results in general geographic terms and does not name individual Ontario districts or years such as 2040.',
+  },
+  {
+    publisher: 'Ogden NH et al. — Applied and Environmental Microbiology',
+    title: 'Role of Migratory Birds in Introduction and Range Expansion of Ixodes scapularis Ticks and of Borrelia burgdorferi and Anaplasma phagocytophilum in Canada (2008)',
+    url: 'https://journals.asm.org/doi/full/10.1128/aem.01982-07',
+    supports: 'An estimated 50–175 million I. scapularis ticks dispersed into Canada each spring by migratory birds.',
+  },
+  {
+    publisher: 'Public Health Agency of Canada (PLOS One)',
+    title: 'Canadian Lyme Disease Enhanced Surveillance system, 2009–2019',
+    url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC10723709/',
+    supports: 'A single erythema migrans rash was the most reported clinical manifestation, present in 76.4% of Canadian cases.',
+  },
+  {
+    publisher: 'Bishop’s University & Université de Montréal',
+    title: 'eTick.ca — public tick image identification platform',
+    url: 'https://www.etick.ca/',
+    supports: 'The free national route for having a tick identified from photographs.',
+  },
+  {
+    publisher: 'Government of Ontario',
+    title: 'Lyme disease',
+    url: 'https://www.ontario.ca/page/lyme-disease',
+    supports: 'Provincial prevention guidance and what to do after a tick bite.',
+  },
+  {
+    publisher: 'Canadian Lyme Disease Foundation',
+    title: 'CanLyme',
+    url: 'https://canlyme.com/',
+    supports: 'Patient resources and physician referral information referenced in the stage guide.',
+  },
+]
+
+const FAQS = [
+  {
+    question: 'How many Lyme disease cases were reported in Ontario in 2024?',
+    answer: 'Ontario reported 2,369 confirmed and probable Lyme disease cases in 2024, according to the Public Health Agency of Canada’s Health Infobase annual tick-borne disease report. That is a 27% increase over the 1,859 cases reported in 2023, and it represents 41% of Canada’s national total of 5,809 cases. 2024 is the most recent year for which a final provincial figure has been published.',
+  },
+  {
+    question: 'Is there an Ontario Lyme disease case count for 2025?',
+    answer: 'No. As of July 2026, neither Public Health Ontario nor the Public Health Agency of Canada had published a final 2025 Lyme disease case count for Ontario. The latest published provincial year is 2024. Public Health Ontario’s Vector-Borne Disease Tool does publish weekly year-to-date counts during the season, but those are provisional and are revised as cases are investigated and classified — they are not a substitute for a finalised annual figure. If you see a 2025 Ontario total quoted anywhere, check whether it traces back to one of those two agencies.',
+  },
+  {
+    question: 'Which parts of Ontario have the highest Lyme disease risk?',
+    answer: 'Public Health Ontario maps blacklegged tick risk areas through its Ontario Vector-Borne Disease Tool, and those risk areas are drawn as geographic areas rather than along public health unit boundaries — a single health unit can contain risk areas and non-risk areas at the same time. The 2026 map reflects newly identified or expanded risk areas based on 2025 field data. Because the boundaries move every year and do not follow municipal lines, the honest answer is to check the current map for your own address rather than rely on any third-party regional ranking, including ours. BuzzSkito does not publish a regional risk ranking of its own.',
   },
   {
     question: 'How long does a tick need to be attached to transmit Lyme disease?',
-    answer: 'Most CDC and Public Health Ontario guidance states blacklegged ticks (Ixodes scapularis) need to be attached for 24-36 hours minimum to transmit Borrelia burgdorferi (the bacterium that causes Lyme disease). The bacteria need time to migrate from the tick gut to its salivary glands. Daily tick checks within 24 hours of outdoor activity essentially eliminate Lyme transmission risk because most ticks haven\'t had time to transmit.',
+    answer: 'Standard public health guidance in Canada and the United States is that blacklegged ticks (Ixodes scapularis) generally need to be attached for at least 24 to 36 hours to transmit Borrelia burgdorferi, the bacterium that causes Lyme disease. The bacteria need time to migrate from the tick gut to its salivary glands. Doing a full tick check within 24 hours of outdoor activity, and removing anything you find, greatly reduces the chance of transmission.',
   },
   {
-    question: 'What does early-stage Lyme disease look like in Ontario?',
-    answer: 'The classic early sign is erythema migrans — an expanding bullseye rash that appears 3-30 days after a tick bite, most commonly 7-14 days. About 70-80% of confirmed Ontario Lyme cases present with this rash. Other early symptoms: fever, chills, fatigue, headache, muscle and joint aches, swollen lymph nodes. If you see a bullseye rash or develop unexplained flu-like symptoms after known tick exposure, see a doctor within 72 hours — early Lyme treats easily with 14-21 days of doxycycline.',
+    question: 'What does early-stage Lyme disease look like?',
+    answer: 'The classic early sign is erythema migrans — an expanding rash, often but not always with a bullseye pattern, appearing 3 to 30 days after a tick bite and most commonly at 7 to 14 days. In the Canadian Lyme Disease Enhanced Surveillance data for 2009–2019, a single erythema migrans rash was the most frequently reported clinical manifestation, present in 76.4% of cases. Other early symptoms include fever, chills, fatigue, headache, muscle and joint aches, and swollen lymph nodes. If you see an expanding rash or develop unexplained flu-like symptoms after possible tick exposure, see a doctor promptly — early Lyme responds well to a 14 to 21 day course of doxycycline.',
   },
   {
     question: 'Where can I submit a tick for identification in Ontario?',
-    answer: 'eTick.ca is the free public tick identification service operated by Bishop\'s University. Submit clear photos of the tick (top view + side view) through their website. Identification typically returns within 24 hours. eTick is integrated with Ontario\'s public health surveillance system. Several Public Health Units also accept physical tick samples — see the directory below for your local PHU\'s tick submission protocol. eTick is the fastest and most widely-recommended option.',
+    answer: 'eTick.ca is the free public tick identification platform operated by Bishop’s University and the Université de Montréal. You submit clear photos of the tick — one from the top and one from the side — through the website, and trained identifiers return a species identification, usually within about a day. Several Ontario public health units also field tick questions directly; the directory further down this page lists phone numbers and the health unit contact for each one.',
   },
   {
     question: 'Why is Lyme disease spreading in Ontario?',
-    answer: 'Three converging factors: (1) Climate change — milder winters allow more blacklegged ticks to survive year-over-year; the southern Ontario hard-frost line has shifted ~30 km north per decade since 1990. (2) Migratory birds — songbirds carry blacklegged ticks northward each spring, depositing them in new areas. (3) White-tailed deer population recovery — deer are the primary reproductive host for adult blacklegged ticks; Ontario\'s deer population has grown 200% since 1980. Combined, these factors have driven a 30-fold increase in confirmed Ontario Lyme cases since 2010.',
+    answer: 'Two mechanisms are well documented in the peer-reviewed literature. First, temperature: blacklegged tick populations need enough accumulated warmth to complete their life cycle, and the published models use cumulative annual degree-days above 0°C rather than a single winter-cold threshold. Below roughly 2,800 degree-days above 0°C, Ixodes scapularis populations cannot establish or persist (Ghanbari et al., PLOS One 2025, citing Ogden et al. 2005). As accumulated degree-days rise, areas that were previously unsuitable become suitable. Second, dispersal: migratory songbirds carry tick larvae and nymphs north each spring — Ogden and colleagues estimated 50 to 175 million Ixodes scapularis ticks are dispersed into Canada annually by migratory birds (Applied and Environmental Microbiology, 2008). Together these mean ticks are constantly being seeded into new areas, and a growing share of those areas can now support them year-round.',
   },
   {
     question: 'What are the risks for dogs in Ontario?',
-    answer: 'Ontario veterinarians have reported a corresponding rise in canine Lyme cases since 2015. The 4DX Plus annual blood test (used by most Ontario vets) screens dogs for Lyme exposure plus three other tick-borne diseases (Anaplasma, Ehrlichia, heartworm). Oral preventatives (NexGard, Bravecto, Simparica) are the gold standard for tick prevention in dogs — they kill ticks within 4-12 hours of attachment, before disease transmission can occur. Topical preventatives (Frontline, Advantix) are less effective against blacklegged ticks.',
+    answer: 'Ontario veterinarians commonly recommend annual 4DX Plus blood testing, which screens dogs for exposure to Lyme (Borrelia burgdorferi), Anaplasma, Ehrlichia and heartworm in a single test. Oral preventatives (NexGard, Bravecto, Simparica) work systemically and kill ticks shortly after they bite a treated dog; topical products are generally considered less effective against blacklegged ticks. A canine Lyme vaccine is available in Ontario and is usually discussed for dogs that spend time in areas where blacklegged ticks are established. Talk to your veterinarian about what is appropriate for your dog.',
   },
   {
-    question: 'Can I get Lyme disease in downtown Toronto or Mississauga?',
-    answer: 'Yes — though the risk is lower than in eastern Ontario. Cases have been confirmed annually in Toronto, Mississauga, Brampton, and other GTA cities since 2022. Higher-risk GTA zones include Rouge National Urban Park (eastern Toronto/Markham), Don Valley ravine system, High Park, Toronto Islands, and the Caledon Hills (Oak Ridges Moraine). Migratory bird corridors deposit infected ticks in unexpected urban locations every spring. Daily tick checks after any outdoor activity in the GTA — including dog walks in city parks — are recommended.',
+    question: 'Can I get Lyme disease in the GTA?',
+    answer: 'Yes. Blacklegged ticks are present in parts of southern Ontario including the Greater Toronto Area, and migratory birds deposit ticks well outside established populations every spring. Rather than relying on a general statement about a city, check Public Health Ontario’s Vector-Borne Disease Tool risk-area map for your own area, and do a tick check after any outdoor activity — including dog walks in city parks and ravines.',
   },
   {
     question: 'Is this tracker a substitute for medical advice?',
-    answer: 'No. This tracker provides educational information about tick-borne disease epidemiology and prevention in Ontario. It is not diagnostic. If you have a confirmed tick bite, a bullseye rash, or unexplained symptoms after potential tick exposure, contact your family doctor, Telehealth Ontario (1-866-797-0000), or your local Public Health Unit. In emergencies (facial drooping, irregular heartbeat, severe headache with neck stiffness), go to an Emergency Room.',
+    answer: 'No. This page provides educational information about tick-borne disease surveillance and prevention in Ontario. It is not diagnostic. If you have a confirmed tick bite, an expanding rash, or unexplained symptoms after potential tick exposure, contact your family doctor, Health811 / Telehealth Ontario (1-866-797-0000), or your local public health unit. In emergencies (facial drooping, irregular heartbeat, severe headache with neck stiffness), go to an Emergency Room.',
   },
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Ontario Tick & Lyme Risk Zones 2026 by Region',
-  description: 'Ontario tick and Lyme risk in 2026, health unit by health unit: 3,614 confirmed cases in 2025, 8 established endemic PHUs, 7 emerging, all 34 listed.',
+  title: 'Ontario Lyme Disease Data 2024 + PHU Directory',
+  description: 'Ontario reported 2,369 Lyme disease cases in 2024, up 27% on 2023 — the newest year PHAC has published. Plus tick-submission contacts for every health unit.',
   canonical: SLUG,
 })
 
 export default function OntarioLymeTrackerPage() {
-  const totalCases2025 = 3614
-  const totalCases2024 = 3032
-  const yoyChange = Math.round(((totalCases2025 - totalCases2024) / totalCases2024) * 100)
-  const totalCasesAllTime = ONTARIO_CASES.reduce((s, y) => s + y.cases, 0)
-  const established = ONTARIO_PHUS.filter(p => p.status === 'established').sort((a, b) => b.cases2025 - a.cases2025)
-  const emerging = ONTARIO_PHUS.filter(p => p.status === 'emerging').sort((a, b) => b.cases2025 - a.cases2025)
-  const occasional = ONTARIO_PHUS.filter(p => p.status === 'occasional').sort((a, b) => b.cases2025 - a.cases2025)
-  const low = ONTARIO_PHUS.filter(p => p.status === 'low').sort((a, b) => b.cases2025 - a.cases2025)
+  const latest = ONTARIO_CASES[ONTARIO_CASES.length - 1]
+  const prior = ONTARIO_CASES[ONTARIO_CASES.length - 2]
   const maxCases = Math.max(...ONTARIO_CASES.map(c => c.cases))
 
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Ontario Lyme Disease Tracker 2026', url: SLUG }])) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Ontario Lyme Disease Tracker', url: SLUG }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(SLUG)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         '@context': 'https://schema.org',
         '@type': 'Dataset',
-        name: 'Ontario Lyme Disease Surveillance Tracker 2026',
-        description: 'Aggregated Lyme disease case counts, endemic zone classifications, and tick species data for the Province of Ontario, 2010-2026.',
+        name: 'Ontario Lyme Disease Surveillance Figures and Public Health Unit Tick-Submission Directory',
+        description: 'Published Ontario Lyme disease case counts for 2022-2024 as reported by the Public Health Agency of Canada, earlier Public Health Ontario figures, and a contact directory of Ontario public health units for tick submission. Contains no unpublished or estimated case counts.',
         url: `https://buzzskito.ca${SLUG}`,
         datePublished: '2026-05-01',
-        dateModified: '2026-07-01',
+        dateModified: '2026-07-30',
         distribution: { '@type': 'DataDownload', encodingFormat: 'text/html', contentUrl: `https://buzzskito.ca${SLUG}` },
         license: 'https://creativecommons.org/licenses/by/4.0/',
         creator: {
@@ -252,26 +350,26 @@ export default function OntarioLymeTrackerPage() {
           url: 'https://buzzskito.ca',
         },
         spatialCoverage: { '@type': 'Place', name: 'Ontario, Canada' },
-        temporalCoverage: '2010-01-01/2026-12-31',
+        temporalCoverage: '2015-01-01/2024-12-31',
         keywords: ['Lyme disease', 'Ontario', 'tick', 'public health', 'epidemiology', 'borreliosis'],
-        isBasedOn: ['https://www.publichealthontario.ca/en/data-and-analysis/infectious-disease/lyme-disease', 'https://www.canada.ca/en/public-health/services/diseases/lyme-disease.html', 'https://www.etick.ca/'],
+        isBasedOn: SOURCES.map(s => s.url),
       }) }} />
 
       {/* HERO */}
       <section className="bg-gradient-to-br from-brand-950 via-brand-900 to-rose-900 text-white py-14 px-4">
         <div className="max-w-6xl mx-auto text-center">
-          <p className="text-xs font-extrabold text-amber-400 uppercase tracking-widest mb-3">Free public health resource · Updated for 2026 · Data-backed</p>
+          <p className="text-xs font-extrabold text-amber-400 uppercase tracking-widest mb-3">Free public health resource · Every figure sourced · Reviewed {ACCESSED}</p>
           <h1 className="text-3xl sm:text-5xl font-extrabold mb-5 leading-tight">
-            Ontario Lyme Disease<br className="hidden sm:block" /> <span className="text-amber-400">Tracker 2026</span>
+            Ontario Lyme Disease<br className="hidden sm:block" /> <span className="text-amber-400">Data &amp; Tick Directory</span>
           </h1>
           <p className="text-lg text-brand-100 max-w-3xl mx-auto leading-relaxed mb-6">
-            Live case counts, endemic zone expansion, tick species guide, symptom decision tree, and full Public Health Unit directory. Aggregating data from Public Health Ontario, PHAC, and eTick.ca into one consumer-friendly resource for Ontario residents.
+            Published Ontario case counts, what they do and do not cover, a tick species guide, a symptom decision tree, and phone and tick-submission contacts for Ontario&rsquo;s public health units. Every number on this page names the agency that published it.
           </p>
           <div className="flex flex-wrap gap-2 justify-center text-xs">
+            <span className="bg-white/10 px-3 py-1 rounded-full">🇨🇦 PHAC Health Infobase</span>
             <span className="bg-white/10 px-3 py-1 rounded-full">📊 Public Health Ontario</span>
-            <span className="bg-white/10 px-3 py-1 rounded-full">🇨🇦 PHAC Surveillance</span>
             <span className="bg-white/10 px-3 py-1 rounded-full">🔬 eTick.ca</span>
-            <span className="bg-white/10 px-3 py-1 rounded-full">⚕️ All 34 Ontario PHUs</span>
+            <span className="bg-white/10 px-3 py-1 rounded-full">☎️ Health unit directory</span>
           </div>
         </div>
       </section>
@@ -280,123 +378,154 @@ export default function OntarioLymeTrackerPage() {
       <section className="bg-amber-50 border-y-4 border-amber-300 py-10 px-4">
         <div className="max-w-3xl mx-auto">
           <p className="text-xs font-extrabold text-amber-700 uppercase tracking-wider mb-2">Quick Answer</p>
-          <h2 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-3">How serious is Lyme disease in Ontario in 2026?</h2>
+          <h2 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-3">How much Lyme disease is there in Ontario?</h2>
           <p className="text-base text-gray-800 leading-relaxed">
-According to BuzzSkito&rsquo;s analysis of Public Health Ontario surveillance data, <strong>Ontario confirmed {totalCases2025.toLocaleString()} Lyme disease cases in 2025 — a {yoyChange}% increase over 2024 and a 30-fold increase since 2010.</strong> Lyme has shifted from a rare disease to one of Ontario&rsquo;s fastest-growing notifiable infections. Public Health Ontario classifies 8 of Ontario&rsquo;s 34 Public Health Units as established Lyme-endemic regions, with 7 additional PHUs in the &ldquo;emerging&rdquo; category. Lyme cases have now been confirmed annually in every Ontario PHU since 2022. The disease is highly preventable when ticks are removed within 24-36 hours of attachment, and treatable with antibiotics when caught early — but Ontario&rsquo;s expanding tick range means even GTA residents now need to take seasonal precautions.
+            <strong>Ontario reported {latest.cases.toLocaleString()} confirmed and probable Lyme disease cases in {latest.year}</strong> — a 27% increase over the {prior.cases.toLocaleString()} cases reported in {prior.year}, and 41% of Canada&rsquo;s national total of {latest.nationalTotal.toLocaleString()} cases. Those figures come from the <a href="https://health-infobase.canada.ca/zoonoses/ticks/annual-report.html" target="_blank" rel="noopener" className="underline font-semibold text-rose-700">Public Health Agency of Canada&rsquo;s annual tick-borne disease surveillance report</a>. <strong>{latest.year} is the most recent year published — there is no released Ontario figure for 2025.</strong> Lyme is highly preventable when ticks are removed within 24 to 36 hours of attachment, and treatable with antibiotics when caught early.
           </p>
         </div>
       </section>
 
-      {/* SECTION 1: LIVE DASHBOARD */}
+      {/* PROVENANCE */}
+      <section className="bg-white pt-10 px-4">
+        <div className="max-w-6xl mx-auto">
+          <div className="rounded-2xl border-2 border-brand-200 bg-brand-50/40 p-6">
+            <h2 className="text-lg font-extrabold text-brand-900 mb-2">Provenance note — read this before citing anything here</h2>
+            <ul className="space-y-2 text-sm text-gray-800 leading-relaxed">
+              <li>• <strong>The latest published Ontario year is 2024.</strong> No 2025 Ontario or national Lyme disease figure has been released by Public Health Ontario or by the Public Health Agency of Canada as of {ACCESSED}.</li>
+              <li>• <strong>This page publishes no estimates.</strong> Every case count below is a number an agency published, attributed to that agency. Where a year has no published figure, that year is simply absent. An earlier version of this page carried a modelled Ontario series including a 2025 total; those figures were not published by any agency and have been removed.</li>
+              <li>• <strong>Case definitions differ between sources.</strong> The PHAC series counts confirmed <em>and probable</em> cases as reported by the provinces. Public Health Ontario&rsquo;s own products use a provincial classification and a different reporting cut, so PHO and PHAC totals for the same year can differ. The two sets are shown separately below for that reason and should not be joined into one trend line.</li>
+              <li>• <strong>The health unit table is a contact directory, not surveillance data.</strong> It contains no case counts, because none are published at that level for recent years.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      {/* SECTION 1: PUBLISHED FIGURES */}
       <section className="bg-white py-14 px-4">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl font-extrabold text-brand-900 mb-2">Ontario Lyme Disease — by the Numbers</h2>
-          <p className="text-base text-gray-600 mb-8">Aggregated from Public Health Ontario annual surveillance reports, the Ontario Ministry of Health iPHIS database, and PHAC notifiable disease records.</p>
+          <h2 className="text-3xl font-extrabold text-brand-900 mb-2">Ontario Lyme Disease — the Published Figures</h2>
+          <p className="text-base text-gray-600 mb-8">Reported by the Public Health Agency of Canada in its annual tick-borne disease surveillance report. Confirmed and probable cases, as submitted by provinces and territories.</p>
 
           {/* Big stat tiles */}
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-10">
             <div className="rounded-2xl bg-gradient-to-br from-rose-500 to-red-700 text-white p-5 shadow-lg">
-              <p className="text-[11px] font-bold uppercase tracking-widest opacity-90">2025 confirmed cases</p>
-              <p className="text-4xl sm:text-5xl font-black mt-2">{totalCases2025.toLocaleString()}</p>
-              <p className="text-xs mt-2 opacity-90">▲ {yoyChange}% over 2024</p>
+              <p className="text-[11px] font-bold uppercase tracking-widest opacity-90">Ontario cases, {latest.year}</p>
+              <p className="text-4xl sm:text-5xl font-black mt-2">{latest.cases.toLocaleString()}</p>
+              <p className="text-xs mt-2 opacity-90">Latest published year</p>
             </div>
             <div className="rounded-2xl bg-gradient-to-br from-orange-500 to-amber-600 text-white p-5 shadow-lg">
-              <p className="text-[11px] font-bold uppercase tracking-widest opacity-90">Per 100k population</p>
-              <p className="text-4xl sm:text-5xl font-black mt-2">23.0</p>
-              <p className="text-xs mt-2 opacity-90">▲ from 0.9 in 2010</p>
+              <p className="text-[11px] font-bold uppercase tracking-widest opacity-90">Change on {prior.year}</p>
+              <p className="text-4xl sm:text-5xl font-black mt-2">+27%</p>
+              <p className="text-xs mt-2 opacity-90">{prior.cases.toLocaleString()} cases in {prior.year}</p>
             </div>
             <div className="rounded-2xl bg-gradient-to-br from-amber-500 to-yellow-600 text-white p-5 shadow-lg">
-              <p className="text-[11px] font-bold uppercase tracking-widest opacity-90">Endemic PHUs</p>
-              <p className="text-4xl sm:text-5xl font-black mt-2">{established.length}</p>
-              <p className="text-xs mt-2 opacity-90">+ {emerging.length} emerging</p>
+              <p className="text-[11px] font-bold uppercase tracking-widest opacity-90">Share of Canada</p>
+              <p className="text-4xl sm:text-5xl font-black mt-2">41%</p>
+              <p className="text-xs mt-2 opacity-90">Ontario&rsquo;s share of the {latest.year} total</p>
             </div>
             <div className="rounded-2xl bg-gradient-to-br from-purple-600 to-indigo-700 text-white p-5 shadow-lg">
-              <p className="text-[11px] font-bold uppercase tracking-widest opacity-90">15-yr cumulative</p>
-              <p className="text-4xl sm:text-5xl font-black mt-2">{(totalCasesAllTime / 1000).toFixed(1)}K</p>
-              <p className="text-xs mt-2 opacity-90">2010-2025 confirmed</p>
+              <p className="text-[11px] font-bold uppercase tracking-widest opacity-90">Canada, {latest.year}</p>
+              <p className="text-4xl sm:text-5xl font-black mt-2">{latest.nationalTotal.toLocaleString()}</p>
+              <p className="text-xs mt-2 opacity-90">14.1 per 100,000 nationally</p>
             </div>
           </div>
 
           {/* Trend chart */}
           <div className="rounded-2xl border-2 border-gray-200 bg-gradient-to-b from-gray-50 to-white p-6 shadow-sm">
-            <h3 className="text-lg font-extrabold text-brand-900 mb-1">Confirmed Lyme cases in Ontario, 2010–2025</h3>
-            <p className="text-xs text-gray-500 mb-5">Source: Public Health Ontario Annual Lyme Disease Reports + iPHIS notifiable disease database</p>
-            <div className="space-y-1.5">
+            <h3 className="text-lg font-extrabold text-brand-900 mb-1">Ontario Lyme disease cases, 2022–2024 (PHAC)</h3>
+            <p className="text-xs text-gray-500 mb-5">Confirmed and probable cases. Source: <a href="https://health-infobase.canada.ca/zoonoses/ticks/annual-report.html" target="_blank" rel="noopener" className="underline font-semibold">PHAC Health Infobase, annual tick-borne disease surveillance report</a>, accessed {ACCESSED}. Only years with a published Ontario figure are shown.</p>
+            <div className="space-y-2">
               {ONTARIO_CASES.map((y) => (
                 <div key={y.year} className="flex items-center gap-3">
                   <span className="text-xs font-bold text-gray-600 w-12 shrink-0">{y.year}</span>
                   <div className="flex-1 h-7 bg-gray-100 rounded-md overflow-hidden relative">
                     <div
-                      className={`h-full rounded-md ${y.year >= 2022 ? 'bg-gradient-to-r from-red-500 to-rose-600' : y.year >= 2017 ? 'bg-gradient-to-r from-orange-400 to-orange-500' : 'bg-gradient-to-r from-amber-300 to-amber-400'}`}
+                      className="h-full rounded-md bg-gradient-to-r from-red-500 to-rose-600"
                       style={{ width: `${(y.cases / maxCases) * 100}%` }}
                     />
                     <span className="absolute inset-0 flex items-center pl-3 text-xs font-bold text-white drop-shadow">{y.cases.toLocaleString()}</span>
                   </div>
-                  <span className="text-xs text-gray-500 w-16 shrink-0 text-right">{y.perCapita}/100k</span>
+                  <span className="text-xs text-gray-500 w-32 shrink-0 text-right hidden sm:block">of {y.nationalTotal.toLocaleString()} nationally</span>
                 </div>
               ))}
             </div>
-            <p className="text-xs text-gray-500 mt-5 italic">Cases per 100,000 Ontario residents have grown from 0.9 (2010) to 23.0 (2025) — a 25× increase. Two inflection points: 2017 (first year &gt; 900 cases) and 2022 (sustained &gt; 2,000 annually).</p>
+            <p className="text-xs text-gray-500 mt-5 italic">Ontario cases rose 27% between 2023 and 2024, the change PHAC reports for the province. Canada&rsquo;s national incidence was 14.1 per 100,000 in 2024, up from 11.9 in 2023. PHAC does not publish a separate Ontario incidence rate in this report, so none is shown here.</p>
+          </div>
+
+          {/* Earlier PHO figures */}
+          <div className="mt-6 rounded-2xl border-2 border-gray-200 bg-white p-6 shadow-sm">
+            <h3 className="text-lg font-extrabold text-brand-900 mb-1">Earlier Ontario figures published by Public Health Ontario</h3>
+            <p className="text-xs text-gray-500 mb-5">Shown separately from the PHAC chart above because they come from a different surveillance product with a different reporting cut. Do not plot them as one continuous series with the PHAC numbers.</p>
+            <div className="grid sm:grid-cols-3 gap-4">
+              {PHO_EARLIER.map((p) => (
+                <div key={p.label} className="rounded-xl border border-gray-200 bg-gray-50 p-4">
+                  <p className="text-[11px] font-bold uppercase tracking-widest text-gray-500">{p.label}</p>
+                  <p className="text-2xl font-black text-brand-900 mt-1">{p.value}</p>
+                  <p className="text-xs text-gray-700 mt-2 leading-relaxed">{p.detail}</p>
+                  <p className="text-[11px] text-gray-500 mt-2 italic">{p.source}</p>
+                </div>
+              ))}
+            </div>
+            <p className="text-xs text-gray-600 mt-4 leading-relaxed"><strong>A worked example of why case definitions matter:</strong> the peer-reviewed Public Health Ontario report gives 959 probable and confirmed Ontario cases for 2017, while a later Public Health Ontario extract quoted by ClimateData.ca gives 1,003 for the same year. Neither is wrong — they are different extracts taken at different times under different classifications. It is the reason this page does not merge sources into a single line.</p>
           </div>
         </div>
       </section>
 
-      {/* SECTION 2: ENDEMIC ZONE EXPANSION */}
+      {/* SECTION 2: HOW ONTARIO MAPS TICK RISK */}
       <section className="bg-gradient-to-br from-rose-50 via-orange-50 to-amber-50 py-14 px-4 border-y-4 border-rose-200">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl font-extrabold text-brand-900 mb-2">The Endemic Zone Expansion (2010 → 2026)</h2>
-          <p className="text-base text-gray-700 mb-8 max-w-3xl">In 2010, Public Health Ontario recognized just two established Lyme-endemic regions: Long Point Provincial Park (Lake Erie) and Turkey Point Provincial Park. By 2026, eight Public Health Units are classified as established endemic regions and seven more are emerging — covering most of southern and eastern Ontario.</p>
+          <h2 className="text-3xl font-extrabold text-brand-900 mb-2">How Ontario Actually Maps Tick Risk</h2>
+          <p className="text-base text-gray-700 mb-8 max-w-3xl">There is a widespread misconception — one this page previously repeated — that Ontario classifies public health units as &ldquo;endemic&rdquo; or &ldquo;emerging.&rdquo; It does not. Here is how the province really publishes tick risk, and what that means for reading any map you find online.</p>
 
           <div className="grid lg:grid-cols-2 gap-6">
-            {/* 2010 snapshot */}
             <div className="rounded-2xl bg-white p-6 shadow-md border-2 border-gray-200">
-              <p className="text-xs font-extrabold text-gray-500 uppercase tracking-widest mb-2">2010 snapshot</p>
-              <h3 className="text-2xl font-extrabold text-gray-700 mb-3">2 endemic areas</h3>
-              <ul className="space-y-2 text-sm text-gray-700">
-                <li className="flex gap-2"><span className="text-rose-500">●</span> Long Point Provincial Park (Norfolk County)</li>
-                <li className="flex gap-2"><span className="text-rose-500">●</span> Turkey Point Provincial Park (Norfolk County)</li>
-              </ul>
-              <p className="text-xs text-gray-500 mt-4 italic">Both Lake Erie shoreline locations. 119 confirmed cases province-wide.</p>
+              <p className="text-xs font-extrabold text-gray-500 uppercase tracking-widest mb-2">What Public Health Ontario publishes</p>
+              <h3 className="text-xl font-extrabold text-brand-900 mb-3">Blacklegged tick risk areas, drawn as geographic areas</h3>
+              <p className="text-sm text-gray-700 leading-relaxed mb-3">
+                Public Health Ontario maps blacklegged tick risk areas through the <a href="https://www.publichealthontario.ca/en/data-and-analysis/infectious-disease/vbd-tool" target="_blank" rel="noopener" className="underline font-semibold text-rose-700">Ontario Vector-Borne Disease Tool</a>. These are geographic areas built from field surveillance, and they do not follow public health unit or municipal boundaries — a single health unit can contain both risk areas and areas with no identified risk.
+              </p>
+              <p className="text-sm text-gray-700 leading-relaxed">
+                The map is redrawn each year. The 2026 map reflects newly identified or expanded tick risk areas based on 2025 field data. The same tool publishes human case counts for Lyme disease, anaplasmosis, babesiosis, Powassan virus and West Nile virus, updated weekly during the season.
+              </p>
             </div>
 
-            {/* 2026 snapshot */}
-            <div className="rounded-2xl bg-gradient-to-br from-rose-500 to-red-700 text-white p-6 shadow-lg">
-              <p className="text-xs font-extrabold uppercase tracking-widest mb-2 opacity-90">2026 snapshot</p>
-              <h3 className="text-2xl font-extrabold mb-3">15 endemic + emerging PHUs</h3>
-              <ul className="space-y-1.5 text-sm">
-                {established.slice(0, 8).map(p => <li key={p.phu} className="flex gap-2"><span>●</span><span>{p.phu}</span></li>)}
-                <li className="text-xs opacity-90 italic mt-2 pt-2 border-t border-white/20">+ 7 emerging PHUs (see table below)</li>
-              </ul>
-              <p className="text-xs mt-4 opacity-90 italic">3,614 confirmed cases province-wide (2025).</p>
+            <div className="rounded-2xl bg-white p-6 shadow-md border-2 border-amber-300">
+              <p className="text-xs font-extrabold text-amber-700 uppercase tracking-widest mb-2">What this page no longer claims</p>
+              <h3 className="text-xl font-extrabold text-brand-900 mb-3">No endemic tier list, no per-health-unit counts</h3>
+              <p className="text-sm text-gray-700 leading-relaxed mb-3">
+                A previous version of this page sorted Ontario&rsquo;s health units into &ldquo;established endemic,&rdquo; &ldquo;emerging,&rdquo; &ldquo;occasional&rdquo; and &ldquo;low&rdquo; tiers and attributed that grouping to Public Health Ontario. That classification was our own editorial construct, it was driven by case counts that were never published, and it has been removed rather than relabelled.
+              </p>
+              <p className="text-sm text-gray-700 leading-relaxed">
+                If you need to know the risk where you live, the risk-area map is the only authoritative answer, and it is free to consult. We would rather send you there than rank regions ourselves.
+              </p>
             </div>
           </div>
 
           <div className="mt-8 rounded-2xl bg-white border-l-4 border-rose-500 p-6 shadow-sm">
-            <h3 className="text-lg font-extrabold text-brand-900 mb-3">Why are endemic zones expanding?</h3>
-            <p className="text-sm text-gray-700 leading-relaxed mb-3">Three converging mechanisms drive Ontario&rsquo;s northward Lyme expansion, all extensively documented in peer-reviewed literature (Ogden et al., Bouchard et al., Leighton et al.):</p>
+            <h3 className="text-lg font-extrabold text-brand-900 mb-3">Why the suitable range is growing</h3>
+            <p className="text-sm text-gray-700 leading-relaxed mb-3">Two mechanisms are documented in the peer-reviewed literature. Both are about where ticks can complete a life cycle and how they get there — not about any single cold-snap temperature.</p>
             <ol className="space-y-3 text-sm text-gray-700">
-              <li><strong className="text-brand-900">1. Climate change.</strong> Mean annual minimum winter temperatures in southern Ontario have risen ~2.4°C since 1980. Blacklegged tick survival requires winter minimums above approximately -16°C — a threshold that now extends 350 km further north than it did in 1990.</li>
-              <li><strong className="text-brand-900">2. Migratory bird transport.</strong> Songbirds (especially American robins, white-throated sparrows) carry tick larvae and nymphs northward each spring along the eastern flyway. A single migratory bird can deposit dozens of ticks on a stopover site. PHAC modeling estimates 50-175 million ticks are transported into Canada annually by migratory birds.</li>
-              <li><strong className="text-brand-900">3. White-tailed deer expansion.</strong> Ontario&rsquo;s deer population has grown from approximately 200,000 (1980) to 600,000+ (2025). Adult blacklegged ticks reproduce primarily on deer. Wherever deer establish, established tick populations follow within 5-10 years.</li>
+              <li><strong className="text-brand-900">1. Accumulated warmth, measured in degree-days.</strong> Blacklegged tick establishment is modelled using cumulative annual degree-days above 0°C, not winter minimum temperatures. <a href="https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0332582" target="_blank" rel="noopener" className="underline font-semibold text-rose-700">Ghanbari et al. (PLOS One, 2025)</a> state it directly: &ldquo;Below an approximate threshold of 2800 DD &gt; 0°C, <em>I. scapularis</em> populations cannot establish or persist because the temperatures are too cold for the ticks to complete their lifecycle&rdquo; — citing <a href="https://pubmed.ncbi.nlm.nih.gov/15777914/" target="_blank" rel="noopener" className="underline font-semibold text-rose-700">Ogden et al. (Int J Parasitol, 2005)</a>, the population model that produced the roughly 2,800–3,100 degree-day requirement. As accumulated degree-days rise, places that previously could not hold a population can.</li>
+              <li><strong className="text-brand-900">2. Migratory bird transport.</strong> Songbirds carry tick larvae and nymphs northward each spring along the eastern flyway, dropping them at stopover sites. Ogden and colleagues estimate that <a href="https://journals.asm.org/doi/full/10.1128/aem.01982-07" target="_blank" rel="noopener" className="underline font-semibold text-rose-700">migratory birds disperse 50 million to 175 million Ixodes scapularis ticks into Canada each spring</a> (Applied and Environmental Microbiology, 2008). Ticks therefore arrive in places that cannot yet sustain them — which is why a tick bite outside a mapped risk area is still possible.</li>
             </ol>
-            <p className="text-xs text-gray-500 mt-4 italic">These mechanisms are independent and additive. Modeling by the Public Health Agency of Canada projects continued northward expansion through at least 2050.</p>
+            <p className="text-xs text-gray-500 mt-4 italic"><a href="https://pubmed.ncbi.nlm.nih.gov/16229849/" target="_blank" rel="noopener" className="underline">Ogden et al. (Int J Parasitol, 2006)</a> mapped these degree-day limits using temperatures projected for the 2020s, 2050s and 2080s. That paper reports its results in general geographic terms; it does not name individual Ontario districts or dates, and this page no longer attributes any such projection to it.</p>
           </div>
         </div>
       </section>
 
-      {/* SECTION 3: PERSONAL RISK WIDGET — pivots to Lyme calculator */}
+      {/* SECTION 3: PERSONAL RISK WIDGET */}
       <section className="bg-brand-950 text-white py-14 px-4">
         <div className="max-w-4xl mx-auto text-center">
           <p className="text-xs font-extrabold text-amber-400 uppercase tracking-widest mb-3">Section 3 · Check your address</p>
           <h2 className="text-2xl sm:text-3xl font-extrabold mb-4">What&rsquo;s your household&rsquo;s personal Lyme risk?</h2>
-          <p className="text-base text-brand-100 max-w-2xl mx-auto mb-6 leading-relaxed">Province-level statistics tell you the trend. Your personal risk depends on where you live, what your yard looks like, whether you have a dog, and how often your family is outdoors. Get your 1-100 household exposure score in 60 seconds.</p>
+          <p className="text-base text-brand-100 max-w-2xl mx-auto mb-6 leading-relaxed">Province-level statistics tell you the trend. Your personal exposure depends on where you live, what your yard looks like, whether you have a dog, and how often your family is outdoors. Get your 1-100 household exposure score in 60 seconds.</p>
           <Link
             href="/lyme-disease-risk-calculator"
             className="inline-block bg-amber-400 hover:bg-amber-300 text-brand-950 font-extrabold text-base px-8 py-4 rounded-full shadow-lg transition-all"
           >
             Get my Lyme risk score (free, 60 seconds) →
           </Link>
-          <p className="text-xs text-brand-300 mt-4">No credit card. No spam. Personalized to your address + family situation. Educational, not diagnostic.</p>
+          <p className="text-xs text-brand-300 mt-4">No credit card. No spam. This is an exposure questionnaire, not a surveillance product — educational, not diagnostic.</p>
         </div>
       </section>
 
@@ -404,7 +533,7 @@ According to BuzzSkito&rsquo;s analysis of Public Health Ontario surveillance da
       <section className="bg-white py-14 px-4">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl font-extrabold text-brand-900 mb-2">Ontario Tick Species — Identification Guide</h2>
-          <p className="text-base text-gray-700 mb-8 max-w-3xl">Four tick species are present in Ontario. Only one — the blacklegged tick — is the primary Lyme vector, but each species carries distinct risks. Photos and identification tools available through eTick.ca.</p>
+          <p className="text-base text-gray-700 mb-8 max-w-3xl">These are the tick species Ontario residents encounter most often. Only one — the blacklegged tick — is the Lyme vector, but each carries distinct risks. Photos and identification tools are available free through eTick.ca.</p>
 
           <div className="grid lg:grid-cols-2 gap-5">
             {TICK_SPECIES.map((t) => {
@@ -441,7 +570,7 @@ According to BuzzSkito&rsquo;s analysis of Public Health Ontario surveillance da
             })}
           </div>
           <div className="mt-6 rounded-xl bg-blue-50 border-l-4 border-blue-400 p-4 text-sm text-blue-900">
-            <strong>Identifying a tick on yourself or your dog?</strong> Submit a clear top + side photo to <a href="https://www.etick.ca/" target="_blank" rel="noopener" className="underline font-bold">eTick.ca</a> for free identification within 24 hours. eTick is the official tick identification service for Canada, operated by Bishop&rsquo;s University and integrated with Public Health Ontario surveillance.
+            <strong>Identifying a tick on yourself or your dog?</strong> Submit a clear top and side photo to <a href="https://www.etick.ca/" target="_blank" rel="noopener" className="underline font-bold">eTick.ca</a> for free identification. eTick is the Canadian public tick image identification platform, operated by Bishop&rsquo;s University and the Université de Montréal.
           </div>
         </div>
       </section>
@@ -494,7 +623,7 @@ According to BuzzSkito&rsquo;s analysis of Public Health Ontario surveillance da
               <li>• Sudden vision changes or severe joint swelling</li>
               <li>• Anaphylactic reaction (alpha-gal syndrome from Lone Star tick)</li>
             </ul>
-            <p className="text-xs mt-3 opacity-90 italic">Do not wait. Lyme carditis can cause complete heart block requiring temporary pacing. Lyme meningitis requires intravenous antibiotics. The cost of overcaution is a few hours in the ER. The cost of undercaution can be permanent.</p>
+            <p className="text-xs mt-3 opacity-90 italic">Do not wait. Lyme carditis can cause heart block requiring temporary pacing. Lyme meningitis requires intravenous antibiotics. The cost of overcaution is a few hours in the ER.</p>
           </div>
         </div>
       </section>
@@ -502,49 +631,16 @@ According to BuzzSkito&rsquo;s analysis of Public Health Ontario surveillance da
       {/* SECTION 6: PHU DIRECTORY */}
       <section className="bg-white py-14 px-4">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl font-extrabold text-brand-900 mb-2">Ontario Public Health Unit Directory</h2>
-          <p className="text-base text-gray-700 mb-2">All 34 Ontario PHUs ranked by 2025 confirmed Lyme case count. Click your PHU&rsquo;s tick submission link or call directly for tick identification, post-exposure guidance, or to report a confirmed case.</p>
-          <p className="text-xs text-gray-500 mb-8 italic">Population estimates: Statistics Canada 2024. Case counts: PHO surveillance 2025.</p>
-
-          {/* Established */}
-          <div className="mb-10">
-            <div className="flex items-center gap-2 mb-3">
-              <span className="inline-block w-3 h-3 rounded-full bg-rose-500"></span>
-              <h3 className="text-xl font-extrabold text-rose-700">Established Endemic ({established.length} PHUs)</h3>
-            </div>
-            <p className="text-xs text-gray-600 mb-3">Sustained blacklegged tick populations. Lyme transmission confirmed annually. Take all outdoor precautions.</p>
-            <PHUTable phus={established} />
+          <h2 className="text-3xl font-extrabold text-brand-900 mb-2">Where to Submit a Tick — Ontario Health Unit Directory</h2>
+          <p className="text-base text-gray-700 mb-2 max-w-3xl">Ontario&rsquo;s public health units answer tick questions, advise on post-exposure care, and can direct you to the right submission route for your area. This is a contact directory only — it carries no case counts, because no agency publishes recent Lyme case counts at the health unit level.</p>
+          <div className="rounded-xl border-2 border-blue-300 bg-blue-50 p-4 mb-6">
+            <p className="text-sm text-blue-900"><strong>Fastest route for most people:</strong> photograph the tick and submit it to <a href="https://www.etick.ca/" target="_blank" rel="noopener" className="underline font-semibold">eTick.ca</a>, the free national identification platform. Use the health unit below when you need local advice, when you have questions about post-exposure prophylaxis, or when eTick directs you to your local unit.</p>
           </div>
+          <p className="text-xs text-gray-500 mb-8 italic">Listed alphabetically. Ontario health unit names, mergers and phone lines change periodically — confirm before publishing this directory onward. Verified {ACCESSED}.</p>
 
-          {/* Emerging */}
-          <div className="mb-10">
-            <div className="flex items-center gap-2 mb-3">
-              <span className="inline-block w-3 h-3 rounded-full bg-orange-500"></span>
-              <h3 className="text-xl font-extrabold text-orange-700">Emerging ({emerging.length} PHUs)</h3>
-            </div>
-            <p className="text-xs text-gray-600 mb-3">Growing case counts and expanding tick populations. Likely to be re-classified as established within 2-5 years.</p>
-            <PHUTable phus={emerging} />
-          </div>
+          <PHUTable phus={ONTARIO_PHUS} />
 
-          {/* Occasional */}
-          <div className="mb-10">
-            <div className="flex items-center gap-2 mb-3">
-              <span className="inline-block w-3 h-3 rounded-full bg-amber-500"></span>
-              <h3 className="text-xl font-extrabold text-amber-700">Occasional ({occasional.length} PHUs)</h3>
-            </div>
-            <p className="text-xs text-gray-600 mb-3">Cases reported but populations not yet established. Migratory bird-deposited ticks dominant. GTA falls in this category.</p>
-            <PHUTable phus={occasional} />
-          </div>
-
-          {/* Low */}
-          <div>
-            <div className="flex items-center gap-2 mb-3">
-              <span className="inline-block w-3 h-3 rounded-full bg-emerald-500"></span>
-              <h3 className="text-xl font-extrabold text-emerald-700">Low Reported ({low.length} PHUs)</h3>
-            </div>
-            <p className="text-xs text-gray-600 mb-3">Sparse reporting. Mostly northern Ontario where tick populations remain limited by climate.</p>
-            <PHUTable phus={low} />
-          </div>
+          <p className="text-sm text-gray-700 mt-6">For the current blacklegged tick risk-area map covering all of these areas, use Public Health Ontario&rsquo;s <a href="https://www.publichealthontario.ca/en/data-and-analysis/infectious-disease/vbd-tool" target="_blank" rel="noopener" className="underline font-semibold text-rose-700">Ontario Vector-Borne Disease Tool</a>.</p>
         </div>
       </section>
 
@@ -552,14 +648,14 @@ According to BuzzSkito&rsquo;s analysis of Public Health Ontario surveillance da
       <section className="bg-blue-50 border-y-4 border-blue-300 py-14 px-4">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl font-extrabold text-brand-900 mb-2">eTick.ca — Free Tick Identification</h2>
-          <p className="text-base text-gray-700 mb-6">eTick is Canada&rsquo;s national public tick identification service. Free, 24-hour turnaround, integrated with Public Health Ontario surveillance. Operated by Bishop&rsquo;s University and Université de Montréal.</p>
+          <p className="text-base text-gray-700 mb-6">eTick is Canada&rsquo;s public tick image identification platform. It is free, and it is operated by Bishop&rsquo;s University and the Université de Montréal.</p>
 
           <div className="rounded-2xl bg-white p-6 shadow-md border-2 border-blue-200">
             <h3 className="text-lg font-extrabold text-brand-900 mb-4">How to submit a tick photo</h3>
             <ol className="space-y-3 text-sm text-gray-700">
               <li className="flex gap-3">
                 <span className="shrink-0 w-7 h-7 rounded-full bg-blue-500 text-white font-extrabold flex items-center justify-center text-xs">1</span>
-                <div><strong className="text-brand-900">Remove the tick.</strong> Use fine-tipped tweezers or a tick removal tool. Pull straight up with steady pressure — no twisting. Save the tick alive in a sealed container with a damp paper towel if possible.</div>
+                <div><strong className="text-brand-900">Remove the tick.</strong> Use fine-tipped tweezers or a tick removal tool. Pull straight up with steady pressure — no twisting. Keep the tick in a sealed container.</div>
               </li>
               <li className="flex gap-3">
                 <span className="shrink-0 w-7 h-7 rounded-full bg-blue-500 text-white font-extrabold flex items-center justify-center text-xs">2</span>
@@ -567,142 +663,99 @@ According to BuzzSkito&rsquo;s analysis of Public Health Ontario surveillance da
               </li>
               <li className="flex gap-3">
                 <span className="shrink-0 w-7 h-7 rounded-full bg-blue-500 text-white font-extrabold flex items-center justify-center text-xs">3</span>
-                <div><strong className="text-brand-900">Submit at <a href="https://www.etick.ca/" target="_blank" rel="noopener" className="underline">eTick.ca</a>.</strong> Create an account, upload photos, enter date + location of bite. Submission takes 3-5 minutes.</div>
+                <div><strong className="text-brand-900">Submit at <a href="https://www.etick.ca/" target="_blank" rel="noopener" className="underline">eTick.ca</a>.</strong> Create an account, upload photos, enter the date and location of the bite.</div>
               </li>
               <li className="flex gap-3">
                 <span className="shrink-0 w-7 h-7 rounded-full bg-blue-500 text-white font-extrabold flex items-center justify-center text-xs">4</span>
-                <div><strong className="text-brand-900">Receive identification within 24 hours.</strong> Most submissions are identified by trained entomologists within hours. You&rsquo;ll receive species, life stage, and post-exposure guidance.</div>
+                <div><strong className="text-brand-900">Receive an identification.</strong> Submissions are reviewed by trained identifiers, who return the species and life stage along with guidance on what to do next.</div>
               </li>
             </ol>
             <div className="mt-5 rounded-lg bg-amber-50 border-l-4 border-amber-400 p-4 text-sm text-gray-800">
-              <strong>Important:</strong> If the tick is identified as a blacklegged tick (Ixodes scapularis) and was attached for 24+ hours, contact your family doctor. Within 72 hours of attachment, a single 200mg dose of doxycycline can prevent Lyme infection (post-exposure prophylaxis). After 72 hours, watch for symptoms over the following 30 days.
+              <strong>Important:</strong> identification is not medical care. If the tick is a blacklegged tick and was attached for a prolonged period, contact your family doctor or your public health unit promptly — post-exposure prophylaxis is time-limited and the decision to offer it depends on local risk, attachment time and your own medical history. Watch for symptoms over the following 30 days regardless.
             </div>
           </div>
         </div>
       </section>
 
-      {/* SECTION 8: CLIMATE CONNECTION */}
-      <section className="bg-white py-14 px-4">
-        <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl font-extrabold text-brand-900 mb-2">The Climate Change Connection</h2>
-          <p className="text-base text-gray-700 mb-6">Ontario&rsquo;s Lyme expansion is a textbook climate-driven public health emergency. The mechanism is direct, well-documented, and accelerating.</p>
-
-          <div className="prose prose-sm max-w-none text-gray-700">
-            <h3 className="text-lg font-extrabold text-brand-900 mt-4 mb-2">The temperature threshold</h3>
-            <p>Blacklegged tick survival requires winter air temperatures above approximately -16°C and adequate snow cover for insulation. Ticks experiencing prolonged exposure below this threshold die. Historically, this threshold sat near a line running through North Bay-Ottawa-Cornwall, creating a hard southern boundary for tick populations.</p>
-            <p><strong>That boundary has now moved approximately 350 km north.</strong> Environment and Climate Change Canada records show mean January minimum temperatures in Ontario have risen 2.4°C since 1980. The current functional tick survival boundary runs through Sudbury-Timiskaming-Val-d&rsquo;Or — territory that was previously inhospitable.</p>
-
-            <h3 className="text-lg font-extrabold text-brand-900 mt-6 mb-2">The migratory bird mechanism</h3>
-            <p>Tick larvae and nymphs attach to migratory songbirds during the spring migration along the Eastern Flyway. Robins, sparrows, thrushes, and warblers carry these ticks northward over thousands of kilometres. When a bird stops to rest or feed, ticks can drop off — depositing potentially infected ticks in new geographic areas.</p>
-            <p>PHAC modelling estimates 50–175 million ticks are transported into Canada each spring by migratory birds. Even before climate change made an area survivable for resident tick populations, migratory deposition seeded those areas with ticks.</p>
-
-            <h3 className="text-lg font-extrabold text-brand-900 mt-6 mb-2">The deer multiplier</h3>
-            <p>Adult blacklegged ticks reproduce primarily on white-tailed deer. Female ticks engorge on deer, drop off, and lay 1,000-3,000 eggs. Without sufficient deer hosts, established tick populations cannot sustain themselves.</p>
-            <p>Ontario&rsquo;s deer population has tripled since 1980 — from roughly 200,000 to 600,000+ — driven by reduced hunting pressure, agricultural land conversion, and milder winters. Suburbanization has also created ideal deer habitat: forest-edge fragments adjacent to lawns and gardens. Wherever deer establish in southern Ontario, sustained tick populations follow within 5-10 years.</p>
-
-            <h3 className="text-lg font-extrabold text-brand-900 mt-6 mb-2">Projection to 2050</h3>
-            <p>PHAC modelling under multiple climate scenarios projects continued northward expansion of blacklegged tick range through at least 2050. By 2040, much of the Algoma and Sudbury districts are projected to support established tick populations. By 2050, the climate-suitable range for blacklegged ticks may extend as far north as James Bay coastline.</p>
-            <p>For Ontarians, this is not an abstract future concern. The Ontario you grew up in had tick-free summer trails. Your children&rsquo;s Ontario will not. Adaptive precaution — daily tick checks, prevention behaviours, professional yard treatment in high-risk areas — is the new baseline.</p>
-          </div>
-        </div>
-      </section>
-
-      {/* SECTION 9: PETS */}
+      {/* SECTION 8: PETS */}
       <section className="bg-amber-50 border-y-4 border-amber-300 py-14 px-4">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl font-extrabold text-brand-900 mb-2">Lyme Disease in Dogs (and Cats)</h2>
-          <p className="text-base text-gray-700 mb-6">Ontario veterinarians have seen a corresponding rise in canine Lyme cases since 2015. Dogs are also primary tick taxis — they sweep ticks from grass and brush, then deposit them on furniture, beds, and humans during petting and play.</p>
+          <p className="text-base text-gray-700 mb-6">Dogs are efficient tick taxis — they sweep ticks from grass and brush, then carry them onto furniture, beds and people. Prevention protects the household, not just the dog.</p>
 
           <div className="grid md:grid-cols-2 gap-5">
             <div className="rounded-2xl bg-white p-5 shadow-sm border-l-4 border-amber-500">
               <h3 className="text-lg font-extrabold text-brand-900 mb-2">4DX Plus testing</h3>
-              <p className="text-sm text-gray-700">Most Ontario veterinarians recommend annual 4DX Plus blood testing. The test screens dogs for exposure to four tick-borne diseases simultaneously: Lyme (Borrelia burgdorferi), Anaplasmosis, Ehrlichiosis, and heartworm. A positive 4DX result indicates exposure — not necessarily active disease — and prompts follow-up testing. Cost: typically $50-90 as part of an annual wellness exam.</p>
+              <p className="text-sm text-gray-700">Many Ontario veterinarians recommend annual 4DX Plus blood testing. The test screens dogs for exposure to four tick-borne diseases simultaneously: Lyme (Borrelia burgdorferi), Anaplasmosis, Ehrlichiosis, and heartworm. A positive result indicates exposure — not necessarily active disease — and prompts follow-up testing. Ask your clinic what it charges as part of an annual wellness exam.</p>
             </div>
             <div className="rounded-2xl bg-white p-5 shadow-sm border-l-4 border-amber-500">
               <h3 className="text-lg font-extrabold text-brand-900 mb-2">Oral preventatives</h3>
-              <p className="text-sm text-gray-700">NexGard (afoxolaner), Bravecto (fluralaner), and Simparica (sarolaner) are the gold standard for canine tick prevention in Ontario. They work systemically — when a tick bites a treated dog, the active ingredient kills the tick within 4-12 hours, before disease transmission can occur. NexGard is monthly; Bravecto is every 12 weeks. Topical preventatives (Frontline, Advantix) are less effective against blacklegged ticks specifically.</p>
+              <p className="text-sm text-gray-700">NexGard (afoxolaner), Bravecto (fluralaner), and Simparica (sarolaner) are widely used for canine tick prevention in Ontario. They work systemically — when a tick bites a treated dog, the active ingredient kills it. NexGard is monthly; Bravecto is every 12 weeks. Topical products (Frontline, Advantix) are generally considered less effective against blacklegged ticks specifically. Your veterinarian will match the product to your dog.</p>
             </div>
             <div className="rounded-2xl bg-white p-5 shadow-sm border-l-4 border-amber-500">
               <h3 className="text-lg font-extrabold text-brand-900 mb-2">Lyme vaccine for dogs</h3>
-              <p className="text-sm text-gray-700">A canine Lyme vaccine (Nobivac Lyme, RECOMBITEK Lyme) is available through Ontario veterinarians. Most vets recommend it for dogs in established endemic regions or dogs that frequently visit endemic areas (e.g., cottage dogs). It is not part of core vaccination but is increasingly common as endemic zones expand. Discuss with your vet.</p>
+              <p className="text-sm text-gray-700">A canine Lyme vaccine (Nobivac Lyme, RECOMBITEK Lyme) is available through Ontario veterinarians. It is usually discussed for dogs that spend time where blacklegged ticks are established — cottage dogs, hiking dogs, rural dogs. It is not a core vaccine. Discuss it with your vet.</p>
             </div>
             <div className="rounded-2xl bg-white p-5 shadow-sm border-l-4 border-amber-500">
               <h3 className="text-lg font-extrabold text-brand-900 mb-2">Cats — different story</h3>
-              <p className="text-sm text-gray-700">Cats appear naturally resistant to Lyme disease — confirmed feline Lyme cases are extremely rare even in highly endemic areas. However, outdoor cats can still carry ticks indoors and bring them into contact with humans and dogs. There is no canine-equivalent oral preventative for cats; consult your vet about appropriate options. Most veterinarians do not recommend Lyme vaccination for cats.</p>
+              <p className="text-sm text-gray-700">Clinical Lyme disease is rarely reported in cats. However, outdoor cats can still carry ticks indoors and bring them into contact with humans and dogs. Do not use dog tick products on cats — several are toxic to them. Ask your veterinarian what is safe.</p>
             </div>
           </div>
-          <p className="text-sm text-gray-700 mt-6 italic">If your dog has had a confirmed tick bite or shows symptoms (lameness, joint swelling, lethargy, loss of appetite, fever), contact your veterinarian. Canine Lyme typically responds well to a 4-week course of doxycycline if caught early.</p>
+          <p className="text-sm text-gray-700 mt-6 italic">If your dog has had a confirmed tick bite or shows symptoms (lameness, joint swelling, lethargy, loss of appetite, fever), contact your veterinarian. Canine Lyme typically responds well to doxycycline when caught early.</p>
         </div>
       </section>
 
-      {/* SECTION 10: RESOURCES & REFERENCES */}
+      {/* SECTION 9: SOURCES */}
       <section className="bg-gray-50 py-12 px-4">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-2xl font-extrabold text-brand-900 mb-2">Sources &amp; References</h2>
-          <p className="text-sm text-gray-600 mb-6">All data on this page is aggregated from publicly available government sources. Direct citations and links provided for transparency and verification. Last updated July 2026.</p>
+          <h2 className="text-2xl font-extrabold text-brand-900 mb-2">Sources</h2>
+          <p className="text-sm text-gray-600 mb-6">
+            Every statistic on this page traces to one of the sources below. Each entry names the publisher, the exact document, its URL, and the figures it supports. <strong>All sources accessed and verified {ACCESSED}.</strong> If you find a number on this page that you cannot trace to one of these, tell us at <a href="mailto:info@buzzskito.ca" className="underline font-semibold">info@buzzskito.ca</a> and we will correct or remove it.
+          </p>
 
           <div className="grid md:grid-cols-2 gap-4 text-sm">
-            <a href="https://www.publichealthontario.ca/en/data-and-analysis/infectious-disease/lyme-disease" target="_blank" rel="noopener" className="rounded-xl bg-white p-4 border border-gray-200 hover:border-brand-500 transition">
-              <p className="font-extrabold text-brand-900">Public Health Ontario</p>
-              <p className="text-xs text-gray-600 mt-0.5">Annual Lyme Disease Surveillance Reports + endemic area maps.</p>
-            </a>
-            <a href="https://www.canada.ca/en/public-health/services/diseases/lyme-disease/surveillance-lyme-disease.html" target="_blank" rel="noopener" className="rounded-xl bg-white p-4 border border-gray-200 hover:border-brand-500 transition">
-              <p className="font-extrabold text-brand-900">PHAC — Public Health Agency of Canada</p>
-              <p className="text-xs text-gray-600 mt-0.5">National Lyme disease surveillance + tick range modelling.</p>
-            </a>
-            <a href="https://www.etick.ca/" target="_blank" rel="noopener" className="rounded-xl bg-white p-4 border border-gray-200 hover:border-brand-500 transition">
-              <p className="font-extrabold text-brand-900">eTick.ca</p>
-              <p className="text-xs text-gray-600 mt-0.5">Free Canadian tick identification service. Bishop&rsquo;s University &amp; Université de Montréal.</p>
-            </a>
-            <a href="https://canlyme.com/" target="_blank" rel="noopener" className="rounded-xl bg-white p-4 border border-gray-200 hover:border-brand-500 transition">
-              <p className="font-extrabold text-brand-900">CanLyme — Canadian Lyme Disease Foundation</p>
-              <p className="text-xs text-gray-600 mt-0.5">Patient resources, Lyme-literate physician directory, advocacy.</p>
-            </a>
-            <a href="https://www.ontario.ca/page/lyme-disease" target="_blank" rel="noopener" className="rounded-xl bg-white p-4 border border-gray-200 hover:border-brand-500 transition">
-              <p className="font-extrabold text-brand-900">Ontario Ministry of Health</p>
-              <p className="text-xs text-gray-600 mt-0.5">Provincial Lyme disease information and prevention guidance.</p>
-            </a>
-            <a href="https://www.canada.ca/en/environment-climate-change.html" target="_blank" rel="noopener" className="rounded-xl bg-white p-4 border border-gray-200 hover:border-brand-500 transition">
-              <p className="font-extrabold text-brand-900">Environment and Climate Change Canada</p>
-              <p className="text-xs text-gray-600 mt-0.5">Climate normals, temperature trends, climate-vector projections.</p>
-            </a>
+            {SOURCES.map((s) => (
+              <a key={s.url} href={s.url} target="_blank" rel="noopener" className="rounded-xl bg-white p-4 border border-gray-200 hover:border-brand-500 transition">
+                <p className="text-[11px] font-bold uppercase tracking-wider text-gray-500">{s.publisher}</p>
+                <p className="font-extrabold text-brand-900 mt-0.5">{s.title}</p>
+                <p className="text-xs text-gray-600 mt-1"><strong>Supports:</strong> {s.supports}</p>
+                <p className="text-[10px] text-gray-400 mt-1 break-all">{s.url} · accessed {ACCESSED}</p>
+              </a>
+            ))}
           </div>
 
-          <div className="mt-8 rounded-xl bg-white p-5 border border-gray-200">
-            <p className="text-xs font-bold text-gray-700 uppercase tracking-wider mb-2">Cited research</p>
-            <ul className="space-y-1.5 text-xs text-gray-700">
-              <li>• Ogden NH, et al. &ldquo;Climate change and the potential for range expansion of the Lyme disease vector Ixodes scapularis in Canada.&rdquo; <em>International Journal for Parasitology</em> (2008).</li>
-              <li>• Bouchard C, et al. &ldquo;The increasing risk of Lyme disease in Canada.&rdquo; <em>Canadian Veterinary Journal</em> (2015).</li>
-              <li>• Leighton PA, et al. &ldquo;Predicting the speed of tick invasion: an empirical model of range expansion for the Lyme disease vector Ixodes scapularis in Canada.&rdquo; <em>Journal of Applied Ecology</em> (2012).</li>
-              <li>• Public Health Ontario. <em>Lyme Disease in Ontario: Surveillance and Disease Trends, 2010-2024.</em> Annual report series.</li>
-            </ul>
+          <div className="mt-8 rounded-xl bg-white p-5 border-2 border-brand-200">
+            <p className="text-xs font-bold text-brand-900 uppercase tracking-wider mb-2">Corrections log</p>
+            <p className="text-xs text-gray-700 leading-relaxed">
+              In July 2026 this page was rebuilt after an internal audit found that its year-by-year Ontario case series, its per-health-unit case counts and several of its climate figures could not be traced to any publishing agency. Most seriously, the page had carried a 2025 Ontario provincial total that no agency has ever released, and that figure had begun circulating online with this page as its only source. Every one of those numbers has been deleted rather than revised or softened, along with a four-tier &ldquo;endemic / emerging / occasional / low&rdquo; classification of health units that had been wrongly attributed to Public Health Ontario. We are not restating the withdrawn figures here, because reprinting them is how they spread. What remains on this page is limited to numbers published by the Public Health Agency of Canada, Public Health Ontario, or the peer-reviewed literature, each named in the source list above.
+            </p>
           </div>
         </div>
       </section>
 
-      {/* SECTION 11: LEAD FUNNEL FOOTER */}
+      {/* SECTION 10: LEAD FUNNEL FOOTER */}
       <section className="bg-gradient-to-br from-brand-950 via-brand-900 to-rose-900 text-white py-14 px-4">
         <div className="max-w-5xl mx-auto">
           <h2 className="text-3xl font-extrabold mb-3 text-center">What you can do this week</h2>
-          <p className="text-base text-brand-100 mb-8 text-center max-w-3xl mx-auto">Ontario&rsquo;s Lyme expansion isn&rsquo;t hypothetical — it&rsquo;s measurable, ongoing, and accelerating. Here are the three highest-leverage things you can do for your household&rsquo;s protection.</p>
+          <p className="text-base text-brand-100 mb-8 text-center max-w-3xl mx-auto">Ontario reported 27% more Lyme cases in 2024 than in 2023. Here are three practical things you can do for your household.</p>
 
           <div className="grid md:grid-cols-3 gap-5">
             <Link href="/lyme-disease-risk-calculator" className="rounded-2xl bg-white/10 backdrop-blur p-6 hover:bg-white/15 transition block">
               <p className="text-xs font-extrabold text-amber-400 uppercase tracking-widest mb-2">Step 1 · 60 seconds</p>
               <h3 className="text-lg font-extrabold mb-2">Get your household Lyme risk score</h3>
-              <p className="text-sm text-brand-200 mb-3">Free 60-second assessment. Custom 1-100 score based on your address, yard features, dog walking habits, and family outdoor exposure.</p>
+              <p className="text-sm text-brand-200 mb-3">Free 60-second questionnaire. A 1-100 exposure score based on your address, yard features, dog walking habits, and family outdoor exposure.</p>
               <span className="text-amber-400 font-bold text-sm">Take the calculator →</span>
             </Link>
             <Link href="/yard-risk-report" className="rounded-2xl bg-white/10 backdrop-blur p-6 hover:bg-white/15 transition block">
               <p className="text-xs font-extrabold text-amber-400 uppercase tracking-widest mb-2">Step 2 · Free report</p>
               <h3 className="text-lg font-extrabold mb-2">Free property tick risk report</h3>
-              <p className="text-sm text-brand-200 mb-3">Address-specific tick pressure assessment. Identifies high-risk yard features, neighbourhood factors, and barrier-spray priority zones.</p>
+              <p className="text-sm text-brand-200 mb-3">Address-specific assessment. Identifies high-risk yard features, neighbourhood factors, and where a barrier treatment would go first.</p>
               <span className="text-amber-400 font-bold text-sm">Get my yard report →</span>
             </Link>
             <Link href="/tick-control" className="rounded-2xl bg-white/10 backdrop-blur p-6 hover:bg-white/15 transition block">
               <p className="text-xs font-extrabold text-amber-400 uppercase tracking-widest mb-2">Step 3 · Pro treatment</p>
               <h3 className="text-lg font-extrabold mb-2">Professional tick barrier spray</h3>
-              <p className="text-sm text-brand-200 mb-3">Health Canada-approved residual spray. Reduces yard tick populations 80-90% for 21-30 days. Five-spray season program from $497.</p>
+              <p className="text-sm text-brand-200 mb-3">Health Canada-registered residual product, applied to the yard-edge and leaf-litter zones where ticks sit. Five-spray season program from $497.</p>
               <span className="text-amber-400 font-bold text-sm">Tick control plans →</span>
             </Link>
           </div>
@@ -711,7 +764,7 @@ According to BuzzSkito&rsquo;s analysis of Public Health Ontario surveillance da
             <p className="mb-2">BuzzSkito Mosquito &amp; Tick Control · Mississauga, ON · serving the GTA</p>
             <p className="mb-1">📞 <a href="tel:+12892165030" className="text-amber-400 underline">(289) 216-5030</a> · ✉️ <a href="mailto:info@buzzskito.ca" className="text-amber-400 underline">info@buzzskito.ca</a></p>
             <p className="mt-4 text-xs italic opacity-75 max-w-2xl mx-auto">
-              This page provides educational information aggregated from public sources. It is not medical advice. For confirmed tick bites, suspected symptoms, or post-exposure prophylaxis questions, contact your family doctor, Telehealth Ontario (1-866-797-0000), or your local Public Health Unit.
+              This page provides educational information aggregated from published government and peer-reviewed sources. It is not medical advice. For confirmed tick bites, suspected symptoms, or post-exposure prophylaxis questions, contact your family doctor, Health811 / Telehealth Ontario (1-866-797-0000), or your local public health unit.
             </p>
           </div>
         </div>
@@ -738,30 +791,31 @@ According to BuzzSkito&rsquo;s analysis of Public Health Ontario surveillance da
   )
 }
 
-function PHUTable({ phus }: { phus: PHUStatus[] }) {
+function PHUTable({ phus }: { phus: PHUContact[] }) {
   return (
     <div className="rounded-xl border border-gray-200 overflow-hidden bg-white shadow-sm">
       <div className="overflow-x-auto">
         <table className="w-full text-xs sm:text-sm">
+          <caption className="sr-only">Ontario public health units with phone numbers and tick-submission contacts. Contains no case counts.</caption>
           <thead className="bg-gray-100 text-gray-700">
             <tr>
-              <th className="text-left px-3 py-2 font-extrabold">Public Health Unit</th>
-              <th className="text-right px-3 py-2 font-extrabold whitespace-nowrap">2025 cases</th>
-              <th className="text-right px-3 py-2 font-extrabold whitespace-nowrap hidden sm:table-cell">Per 100k</th>
-              <th className="text-left px-3 py-2 font-extrabold hidden lg:table-cell">Risk areas</th>
-              <th className="text-left px-3 py-2 font-extrabold whitespace-nowrap">Phone</th>
+              <th scope="col" className="text-left px-3 py-2 font-extrabold">Public Health Unit</th>
+              <th scope="col" className="text-left px-3 py-2 font-extrabold whitespace-nowrap">Phone</th>
+              <th scope="col" className="text-left px-3 py-2 font-extrabold">Tick questions &amp; submission</th>
             </tr>
           </thead>
           <tbody>
             {phus.map(p => {
-              const per100k = ((p.cases2025 / p.population) * 100000).toFixed(1)
+              const isDomain = p.tickSubmission.includes('.')
               return (
                 <tr key={p.phu} className="border-t border-gray-100 hover:bg-gray-50">
-                  <td className="px-3 py-2 text-gray-800 font-semibold">{p.phu}</td>
-                  <td className="text-right px-3 py-2 font-bold text-rose-700">{p.cases2025}</td>
-                  <td className="text-right px-3 py-2 text-gray-600 hidden sm:table-cell">{per100k}</td>
-                  <td className="px-3 py-2 text-gray-600 text-[11px] hidden lg:table-cell">{p.riskAreas.slice(0, 3).join(', ')}</td>
+                  <th scope="row" className="text-left px-3 py-2 text-gray-800 font-semibold">{p.phu}</th>
                   <td className="px-3 py-2 whitespace-nowrap"><a href={`tel:${p.phone.replace(/[^+\d]/g, '')}`} className="text-brand-700 hover:text-amber-600 font-mono">{p.phone}</a></td>
+                  <td className="px-3 py-2 text-gray-700">
+                    {isDomain
+                      ? <a href={`https://${p.tickSubmission}`} target="_blank" rel="noopener" className="text-brand-700 hover:text-amber-600 underline">{p.tickSubmission}</a>
+                      : p.tickSubmission}
+                  </td>
                 </tr>
               )
             })}

@@ -80,8 +80,20 @@ const ONTARIO_12YR_TOTAL = 900 // 2002-2013 total confirmed Ontario human cases 
 
 // ── CANADA NATIONAL CASES BY YEAR ─────────────────────────────────────────────
 const CANADA_CASES_BY_YEAR = [
-  { year: '2022', cases: 45, note: 'Locally-acquired human cases nationwide (low season).' },
-  { year: '2024', cases: 177, note: 'Locally-acquired cases (+13 travel-related). Ontario 81 (46%), Quebec ~78 (44%).' },
+  {
+    year: '2022',
+    cases: 45,
+    note: 'Locally-acquired human cases nationwide (low season): 47 cases reported in total, of which 45 were acquired in Canada.',
+    sourceLabel: 'PHAC — 2022 West Nile virus and other mosquito-borne diseases surveillance in Canada',
+    sourceUrl: 'https://www.canada.ca/en/public-health/services/publications/diseases-conditions/west-nile-virus-surveillance/2022/annual-edition.html',
+  },
+  {
+    year: '2024',
+    cases: 177,
+    note: 'Locally-acquired cases (+13 travel-related). Ontario 81 (46%), Quebec 77 (44%).',
+    sourceLabel: 'PHAC — Annual report: West Nile virus and other mosquito-borne diseases surveillance in Canada',
+    sourceUrl: 'https://health-infobase.canada.ca/zoonoses/mosquito/annual-report.html',
+  },
 ]
 
 // ── 2024 CANADA CASE-SEVERITY BREAKDOWN ───────────────────────────────────────
@@ -341,7 +353,7 @@ export default function WestNileVirusOntarioTrackerPage() {
 
           <div className="rounded-2xl border-2 border-gray-200 bg-white p-6 shadow-sm">
             <h3 className="text-lg font-extrabold text-brand-900 mb-1">Confirmed human cases in Ontario: epidemic peaks vs. recent years</h3>
-            <p className="text-xs text-gray-500 mb-5">Source: PLOS One 12-year analysis (2002 &amp; 2012 epidemic years) and the Public Health Agency of Canada annual report (2024). 2025 in progress.</p>
+            <p className="text-xs text-gray-500 mb-5">Sources: <a href="https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0183568" target="_blank" rel="noopener" className="underline hover:text-emerald-700">Chen C-C et al., &ldquo;West Nile virus in Ontario, Canada: a twelve-year analysis of human case prevalence, mosquito surveillance, and climate data,&rdquo; PLOS One 2017;12(9):e0183568</a> (2002 and 2012 epidemic years, and the 900-case study total) and the <a href="https://health-infobase.canada.ca/zoonoses/mosquito/annual-report.html" target="_blank" rel="noopener" className="underline hover:text-emerald-700">Public Health Agency of Canada annual report</a> (2024). 2025 in progress.</p>
             <div className="space-y-3">
               {ONTARIO_CASES_BY_YEAR.map((y) => (
                 <div key={y.year} className="flex items-center gap-3">
@@ -371,22 +383,25 @@ export default function WestNileVirusOntarioTrackerPage() {
           {/* Canada national comparison */}
           <div className="mt-6 rounded-2xl border-2 border-gray-200 bg-white p-6 shadow-sm">
             <h3 className="text-lg font-extrabold text-brand-900 mb-1">Canada national locally-acquired human cases</h3>
-            <p className="text-xs text-gray-500 mb-5">Source: Public Health Agency of Canada annual surveillance report.</p>
+            <p className="text-xs text-gray-500 mb-5">Source: Public Health Agency of Canada annual surveillance reports &mdash; each year links to its own report below.</p>
             <div className="space-y-3">
               {CANADA_CASES_BY_YEAR.map((y) => (
-                <div key={y.year} className="flex items-center gap-3">
-                  <span className="text-xs font-bold text-gray-600 w-10 shrink-0">{y.year}</span>
-                  <div className="flex-1 h-8 bg-gray-100 rounded-md overflow-hidden relative">
-                    <div
-                      className="h-full rounded-md bg-gradient-to-r from-blue-500 to-indigo-600"
-                      style={{ width: `${Math.max((y.cases / maxCanada) * 100, 8)}%` }}
-                    />
-                    <span className="absolute inset-0 flex items-center pl-3 text-xs font-bold text-white drop-shadow">{y.cases} cases</span>
+                <div key={y.year}>
+                  <div className="flex items-center gap-3">
+                    <span className="text-xs font-bold text-gray-600 w-10 shrink-0">{y.year}</span>
+                    <div className="flex-1 h-8 bg-gray-100 rounded-md overflow-hidden relative">
+                      <div
+                        className="h-full rounded-md bg-gradient-to-r from-blue-500 to-indigo-600"
+                        style={{ width: `${Math.max((y.cases / maxCanada) * 100, 8)}%` }}
+                      />
+                      <span className="absolute inset-0 flex items-center pl-3 text-xs font-bold text-white drop-shadow">{y.cases} cases</span>
+                    </div>
                   </div>
+                  <p className="text-[11px] text-gray-500 mt-1 ml-[52px]">{y.note} Source: <a href={y.sourceUrl} target="_blank" rel="noopener" className="underline hover:text-emerald-700">{y.sourceLabel}</a></p>
                 </div>
               ))}
             </div>
-            <p className="text-xs text-gray-500 mt-5 italic">In 2024, Ontario (81) and Quebec (an estimated 78, derived from a stated 44% share) together accounted for roughly 90% of Canada&rsquo;s 177 locally-acquired cases (PHAC). 2022 was a notably low season at 45 cases nationwide.</p>
+            <p className="text-xs text-gray-500 mt-5 italic">In 2024, Ontario (81) and Quebec (77) together accounted for roughly 90% of Canada&rsquo;s 177 locally-acquired cases (<a href="https://health-infobase.canada.ca/zoonoses/mosquito/annual-report.html" target="_blank" rel="noopener" className="underline">PHAC</a>). 2022 was a notably low season: 47 cases reported nationwide, 45 of them locally acquired (<a href="https://www.canada.ca/en/public-health/services/publications/diseases-conditions/west-nile-virus-surveillance/2022/annual-edition.html" target="_blank" rel="noopener" className="underline">PHAC 2022 annual edition</a>).</p>
           </div>
 
           <div className="mt-6 rounded-xl bg-white border-l-4 border-amber-400 p-5 text-sm text-gray-800 shadow-sm">
@@ -470,7 +485,7 @@ export default function WestNileVirusOntarioTrackerPage() {
       <section className="bg-white py-14 px-4">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl font-extrabold text-brand-900 mb-2">What mosquito carries West Nile virus in Ontario?</h2>
-          <p className="text-base text-gray-700 mb-8 max-w-3xl">The <em>Culex pipiens / Culex restuans</em> complex is the primary WNV vector in Ontario and the dominant urban vector in the GTA. In a 12-year PLOS One analysis (2002&ndash;2013), 1,892 of 2,175 WNV-positive mosquito pools in Ontario &mdash; 87% &mdash; were the Culex pipiens/restuans complex.</p>
+          <p className="text-base text-gray-700 mb-8 max-w-3xl">The <em>Culex pipiens / Culex restuans</em> complex is the primary WNV vector in Ontario and the dominant urban vector in the GTA. In a <a href="https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0183568" target="_blank" rel="noopener" className="underline font-semibold text-emerald-700">12-year PLOS One analysis (2002&ndash;2013)</a>, 1,892 of 2,175 WNV-positive mosquito pools in Ontario &mdash; 87% &mdash; were the Culex pipiens/restuans complex.</p>
 
           <div className="grid lg:grid-cols-2 gap-6 mb-8">
             <div className="rounded-2xl border-2 border-gray-200 bg-gradient-to-b from-white to-gray-50 p-6 shadow-sm">
@@ -545,7 +560,7 @@ export default function WestNileVirusOntarioTrackerPage() {
 
           <div className="rounded-2xl bg-white p-6 shadow-md border-2 border-gray-200">
             <h3 className="text-lg font-extrabold text-brand-900 mb-1">2024 Canada reported-case severity breakdown</h3>
-            <p className="text-xs text-gray-500 mb-5">Source: Public Health Agency of Canada annual report (n = 177 reported cases, 2024). Percentages are of reported cases, not of all infections.</p>
+            <p className="text-xs text-gray-500 mb-5">Source: <a href="https://health-infobase.canada.ca/zoonoses/mosquito/annual-report.html" target="_blank" rel="noopener" className="underline hover:text-emerald-700">Public Health Agency of Canada &mdash; Annual report: West Nile virus and other mosquito-borne diseases surveillance in Canada</a> (n = 177 reported cases, 2024), which states: &ldquo;106 (60%) were neurological, 41 (23%) were non-neurological, 17 (10%) were unspecified, and 13 (7%) were asymptomatic.&rdquo; Percentages are of reported cases, not of all infections.</p>
             <div className="space-y-3">
               {CANADA_SEVERITY_2024.map((s) => (
                 <div key={s.label}>
@@ -651,15 +666,19 @@ export default function WestNileVirusOntarioTrackerPage() {
           <div className="grid md:grid-cols-2 gap-4 text-sm">
             <a href="https://health-infobase.canada.ca/zoonoses/mosquito/annual-report.html" target="_blank" rel="noopener" className="rounded-xl bg-white p-4 border border-gray-200 hover:border-emerald-500 transition">
               <p className="font-extrabold text-brand-900">Public Health Agency of Canada</p>
-              <p className="text-xs text-gray-600 mt-0.5">Annual WNV &amp; mosquito-borne disease surveillance report (2024 data).</p>
+              <p className="text-xs text-gray-600 mt-0.5">Annual report: West Nile virus and other mosquito-borne diseases surveillance in Canada (2024 data). Supports: 177 locally-acquired Canadian cases; Ontario 81 (46%) at 0.74 per 100,000; Quebec 77 (44%); severity split 106/41/17/13; 1 death.</p>
             </a>
             <a href="https://www.publichealthontario.ca/en/data-and-analysis/infectious-disease/west-nile-virus" target="_blank" rel="noopener" className="rounded-xl bg-white p-4 border border-gray-200 hover:border-emerald-500 transition">
               <p className="font-extrabold text-brand-900">Public Health Ontario</p>
               <p className="text-xs text-gray-600 mt-0.5">Ontario Vector-Borne Disease Tool (West Nile virus).</p>
             </a>
             <a href="https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0183568" target="_blank" rel="noopener" className="rounded-xl bg-white p-4 border border-gray-200 hover:border-emerald-500 transition">
-              <p className="font-extrabold text-brand-900">PLOS One</p>
-              <p className="text-xs text-gray-600 mt-0.5">West Nile virus in Ontario: a twelve-year analysis of human cases, mosquito surveillance &amp; climate data.</p>
+              <p className="font-extrabold text-brand-900">PLOS One (peer-reviewed)</p>
+              <p className="text-xs text-gray-600 mt-0.5">Chen C-C et al. &ldquo;West Nile virus in Ontario, Canada: a twelve-year analysis of human case prevalence, mosquito surveillance, and climate data.&rdquo; PLOS One 2017;12(9):e0183568. Supports: 900 Ontario human cases 2002&ndash;2013; 324 cases in 2002 and 239 in 2012; 2,175 WNV-positive pools of which 1,892 (87%) were Culex pipiens/restuans; 478 positive Culex pools in 2002 and 440 in 2012.</p>
+            </a>
+            <a href="https://www.canada.ca/en/public-health/services/publications/diseases-conditions/west-nile-virus-surveillance/2022/annual-edition.html" target="_blank" rel="noopener" className="rounded-xl bg-white p-4 border border-gray-200 hover:border-emerald-500 transition">
+              <p className="font-extrabold text-brand-900">Public Health Agency of Canada &mdash; 2022 annual edition</p>
+              <p className="text-xs text-gray-600 mt-0.5">2022 West Nile virus and other mosquito-borne diseases surveillance in Canada. Supports: 47 human cases reported in 2022, of which 45 were locally acquired.</p>
             </a>
             <a href="https://www.cdc.gov/west-nile-virus/hcp/clinical-signs/index.html" target="_blank" rel="noopener" className="rounded-xl bg-white p-4 border border-gray-200 hover:border-emerald-500 transition">
               <p className="font-extrabold text-brand-900">U.S. CDC — Clinical signs</p>
@@ -700,7 +719,7 @@ export default function WestNileVirusOntarioTrackerPage() {
             <ul className="space-y-1.5 text-xs text-gray-700">
               <li>• <strong>Data timing:</strong> the most recent full-year official figures are 2024 (Ontario 81; Canada 177). Ontario&rsquo;s final 2025 total was not yet published by PHO/PHAC as of mid-2026. Treat 2025/2026 figures as in-season / preliminary.</li>
               <li>• <strong>Reporting geography:</strong> PHO/PHAC report by province and public health unit, not by the marketing &ldquo;GTA&rdquo; boundary. Per-unit figures should not be summed into a single GTA total without noting reporting-period differences.</li>
-              <li>• <strong>Approximate figures:</strong> the Quebec 2024 figure (~78) is derived from a stated 44% share of 177. Hamilton&rsquo;s 7 cases (2024) comes from a local-health-unit report, not a PHO table. GTA pool/case figures are first-detection or point-in-time announcements, not full-season cumulative totals.</li>
+              <li>• <strong>Approximate figures:</strong> the Quebec 2024 figure is <strong>77</strong> cases (44%), stated directly in the <a href="https://health-infobase.canada.ca/zoonoses/mosquito/annual-report.html" target="_blank" rel="noopener" className="underline">PHAC annual report</a>; an earlier version of this page showed ~78 derived from the 44% share. Hamilton&rsquo;s 7 cases (2024) comes from a local-health-unit report, not a PHO table. GTA pool/case figures are first-detection or point-in-time announcements, not full-season cumulative totals.</li>
               <li>• <strong>CDC ratios:</strong> the 80% asymptomatic, 1-in-5 febrile, 1-in-150 neuroinvasive, and ~10% neuroinvasive case-fatality figures are U.S. surveillance-derived but are the standard reference used in Canadian public-health communications, including by Ontario health units.</li>
             </ul>
           </div>

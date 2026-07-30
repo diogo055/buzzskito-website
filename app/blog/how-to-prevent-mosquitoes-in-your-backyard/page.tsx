@@ -63,7 +63,7 @@ export default function PreventMosquitoesPage() {
               <li>Mosquitoes breed only in standing water &mdash; any container holding water for 48+ hours.</li>
               <li>Larvae develop from egg to biting adult in 7&ndash;14 days in warm Ontario summer weather.</li>
               <li>BTI mosquito dunks are safe for fish, pets, and humans, and one dunk treats up to 100 sq ft of water for 30 days.</li>
-              <li>Mosquitoes can fly up to 3 km, so prevention alone cuts your on-property population 40&ndash;60%; adding barrier spray reaches 85&ndash;95%.</li>
+              <li>Mosquitoes can fly up to 3 km, so prevention on your own lot never reaches the ones bred elsewhere &mdash; treating resting vegetation is what covers those arrivals.</li>
               <li>Mosquitoes are weak fliers that struggle above about 1 m/s of wind, so a patio fan keeps them off a seating area.</li>
               <li>A single professional barrier spray costs from $99 and gives up to 30 days of residual protection.</li>
             </ul>
@@ -87,8 +87,8 @@ export default function PreventMosquitoesPage() {
                   ['Mosquito flight range', 'Up to 3 km from breeding site — your prevention only handles your property'],
                   ['Peak mosquito activity', 'Dusk and dawn (about 30 min before sunset to 90 min after)'],
                   ['GTA mosquito season', 'Mid-May through September; peak late May–July'],
-                  ['Prevention alone effectiveness', '40–60% reduction (your property only)'],
-                  ['Prevention + barrier spray', '85–95% reduction across entire yard'],
+                  ['Prevention alone', 'Stops what breeds on your lot; does nothing about adults arriving from elsewhere'],
+                  ['Prevention + barrier spray', 'Covers both locally bred and incoming mosquitoes'],
                   ['Single barrier spray', 'From $99 · up to 30-day residual protection'],
                 ].map(([k, v]) => (
                   <tr key={k} className="border-b border-navy-50 last:border-0">

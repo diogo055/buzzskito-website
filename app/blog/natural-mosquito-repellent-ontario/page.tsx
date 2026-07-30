@@ -386,7 +386,7 @@ export default function NaturalMosquitoRepellentPage() {
 
           <h2>When Natural Isn&rsquo;t Enough</h2>
           <p>For most Ontario yards under low-to-moderate mosquito pressure, the strategy above works. But if your property backs onto a ravine, creek, river, conservation area, or stormwater pond, you&rsquo;re fighting an unwinnable battle with personal repellents alone. The mosquito source — adjacent natural habitat — is producing thousands of mosquitoes per night, and personal repellents only protect you when you remember to apply them.</p>
-          <p>For high-pressure GTA yards, professional barrier spray is the most efficient option. <Link href="/mosquito-control">BuzzSkito uses Health Canada-approved formulas</Link> applied to vegetation perimeters and shrub interiors where mosquitoes rest — reducing yard mosquito populations by 90%+ for 21–30 days per treatment. <Link href="/mosquito-spray-safety">Safe for kids and pets</Link> 30 minutes after drying.</p>
+          <p>For high-pressure GTA yards, professional barrier spray is the most efficient option. <Link href="/mosquito-control">BuzzSkito uses Health Canada-approved formulas</Link> applied to vegetation perimeters and shrub interiors where mosquitoes rest during the day — knocking down what is resting there and holding a residual on those surfaces for 21–30 days per treatment. <Link href="/mosquito-spray-safety">Safe for kids and pets</Link> 30 minutes after drying.</p>
 
           <h2>Related Guides</h2>
           <ul>

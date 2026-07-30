@@ -198,7 +198,7 @@ export default function WhatDoesTickLookLikeOnDogPage() {
 
       <StickyBuyBar tag={AMZ_TAG} name="Fine-tipped tick removal tweezers" search="tick removal tool tweezers" label="For removal" />
 
-      <CTASection heading="Tired of Finding Ticks on Your Dog?" subtext="Yard tick barrier spray reduces tick populations 90%+. From seasonal pricing on quote — tick add-on bundle available on quote." variant="dark" />
+      <CTASection heading="Tired of Finding Ticks on Your Dog?" subtext="Yard tick barrier spray targets the leaf litter and lawn edges where ticks wait. From seasonal pricing on quote — tick add-on bundle available on quote." variant="dark" />
     </>
   )
 }

@@ -122,7 +122,7 @@ export function scoreMagnet(answers: MagnetAnswers): MagnetResult {
     if (w >= 5) drivers.push({
       driver: 'Dark clothing outdoors',
       weight: w,
-      explanation: 'Mosquitoes use visual contrast against backgrounds to locate hosts. Dark colours (black, navy, dark red) absorb light and contrast strongly against typical evening environments. Light colours (white, beige, light pastels) blend in. Switching to lighter clothing reduces visual detection by 30-40%.',
+      explanation: 'Mosquitoes use visual contrast against backgrounds to locate hosts. Dark colours (black, navy, dark red) absorb light and contrast strongly against typical evening environments. Light colours (white, beige, light pastels) blend in. Switching to lighter clothing removes that contrast cue — it does not change the CO2, heat, or skin-chemistry cues, but it makes you harder to lock onto visually.',
     })
   }
   if (answers.fragrance) {
@@ -182,7 +182,7 @@ export function scoreMagnet(answers: MagnetAnswers): MagnetResult {
   if (topDrivers.some((d) => d.driver.includes('Blood type'))) diyTips.push('Blood type isn\'t something you can change — but you CAN counter it with picaridin or DEET 30% applied to skin during outdoor time.')
   if (topDrivers.some((d) => d.driver.includes('exercise'))) diyTips.push('Shower within 30 minutes of outdoor exercise — washing off lactic acid drops your attractiveness back to baseline within 5-10 minutes.')
   if (topDrivers.some((d) => d.driver.includes('Pregnancy'))) diyTips.push('Pregnancy attractor effect can\'t be reduced — but Health Canada-approved picaridin 20% (safe in pregnancy) provides 5-8 hours of effective skin protection.')
-  if (topDrivers.some((d) => d.driver.includes('clothing'))) diyTips.push('Switch evening outdoor wear to light colours — white, beige, light pastels. Reduces visual detection 30-40%.')
+  if (topDrivers.some((d) => d.driver.includes('clothing'))) diyTips.push('Switch evening outdoor wear to light colours — white, beige, light pastels. Removes the visual contrast cue mosquitoes lock onto, though it does not affect the CO2 and heat cues.')
   if (topDrivers.some((d) => d.driver.includes('alcohol'))) diyTips.push('If you\'re drinking outside, double up on repellent application — apply once 30 minutes before drinking and reapply after 90 minutes.')
   if (topDrivers.some((d) => d.driver.includes('dusk'))) diyTips.push('Add a Thermacell device to your patio for the dusk window — creates a 4.5m repellent zone around your seating area.')
   if (topDrivers.some((d) => d.driver.includes('fragrance'))) diyTips.push('Skip floral lotions/perfumes during outdoor evenings — switch to unscented or use eucalyptus-based products which actually repel mosquitoes.')

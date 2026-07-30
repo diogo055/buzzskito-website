@@ -26,7 +26,7 @@ const FAQS = [
   },
   {
     question: 'When should I spray my yard in Mississauga?',
-    answer: 'The two highest-leverage spray windows in Mississauga are the third week of May (catching the nymph emergence at the start of its peak) and the third week of August (front-running the adult fall surge). A single mid-May spray reduces tick pressure on a typical Mississauga property by 85-90% for roughly 30 days. For meaningful season-long protection, the BuzzSkito Standard Season runs 10 biweekly sprays from May through September. Waterfront and ravine-adjacent properties — Lorne Park, Mineola, Erindale, sections of Streetsville and Meadowvale — benefit from an earlier first spray in the last week of April.',
+    answer: 'The two highest-leverage spray windows in Mississauga are the third week of May (catching the nymph emergence at the start of its peak) and the third week of August (front-running the adult fall surge). A single mid-May spray places a residual acaricide on the shaded edges and leaf litter for roughly 30 days, after which it wears off. For meaningful season-long protection, the BuzzSkito Standard Season runs 10 biweekly sprays from May through September. Waterfront and ravine-adjacent properties — Lorne Park, Mineola, Erindale, sections of Streetsville and Meadowvale — benefit from an earlier first spray in the last week of April.',
   },
   {
     question: 'Can ticks survive Mississauga winters?',
@@ -71,7 +71,7 @@ export default function MississaugaTickSeasonPage() {
           <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
             <li>Blacklegged tick activity begins in late March or early April once temperatures hold above 4&deg;C &mdash; earlier than most homeowners assume.</li>
             <li>The May 20&ndash;June 21 nymph window is the single most likely time to be bitten in Mississauga.</li>
-            <li>A single mid-May barrier spray cuts tick pressure on a typical Mississauga property by 85&ndash;90% for about 30 days.</li>
+            <li>A single mid-May barrier spray leaves a residual on the shaded edges and leaf litter for about 30 days, then wears off.</li>
             <li>Peel Public Health surveillance confirmed nymph captures along the Credit River as early as the first week of May in 2026.</li>
             <li>Highest-risk neighbourhoods include Lorne Park, Mineola, Erindale, Streetsville, and Sherwood Forrest &mdash; all near the Credit River or Rattray Marsh.</li>
             <li>Ticks survive winter while ground temperatures stay above about -10&deg;C and resume questing within hours of a 4&ndash;7&deg;C thaw.</li>

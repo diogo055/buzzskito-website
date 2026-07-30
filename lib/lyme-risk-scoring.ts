@@ -31,29 +31,35 @@ export interface LymeResult {
   tierColor: 'red' | 'orange' | 'amber' | 'emerald'
   cityName: string | null
   isInServiceArea: boolean
-  isLymeEndemic: boolean
+  /** True when the city contains or borders an area PHO has mapped as a blacklegged tick risk area.
+   *  This is BuzzSkito's own proximity heuristic, not a Public Health Ontario classification. */
+  isNearMappedRiskArea: boolean
   driverList: string[]
   doctorAdvice: string
   prevention: string[]
   yardPivot: string
 }
 
-const LYME_ENDEMIC_CITIES = new Set(['caledon', 'king city', 'richmond hill', 'markham', 'scarborough', 'burlington', 'halton hills', 'milton', 'hamilton'])
+// Cities that contain or border terrain Public Health Ontario has mapped as blacklegged tick
+// risk area (Oak Ridges Moraine, Rouge watershed, Niagara Escarpment, Hamilton conservation
+// lands). This grouping is our own, built from the published risk-area map — PHO does not
+// classify municipalities, and risk areas do not follow municipal boundaries.
+const CITIES_BORDERING_MAPPED_RISK_AREAS = new Set(['caledon', 'king city', 'richmond hill', 'markham', 'scarborough', 'burlington', 'halton hills', 'milton', 'hamilton'])
 
 export function scoreLyme(a: LymeAnswers): LymeResult {
   let score = 15 // baseline GTA exposure
   const drivers: string[] = []
   const cityKey = a.city?.toLowerCase().trim() || ''
   const isInServiceArea = IN_SERVICE_AREA.has(cityKey)
-  const isLymeEndemic = LYME_ENDEMIC_CITIES.has(cityKey)
+  const isNearMappedRiskArea = CITIES_BORDERING_MAPPED_RISK_AREAS.has(cityKey)
 
   // Geographic baseline
-  if (isLymeEndemic) {
+  if (isNearMappedRiskArea) {
     score += 25
-    drivers.push(`Your city (${a.city}) sits in or borders one of the four Public Health Ontario Lyme-endemic zones — Oak Ridges Moraine, Rouge National Urban Park, Niagara Escarpment edge, or Hamilton-Wentworth conservation lands.`)
+    drivers.push(`${a.city} contains or borders terrain that Public Health Ontario has mapped as blacklegged tick risk area — the Oak Ridges Moraine, Rouge watershed, Niagara Escarpment or Hamilton conservation lands. PHO maps these as geographic areas, not by city, so check the Ontario Vector-Borne Disease Tool for your own address.`)
   } else if (isInServiceArea) {
     score += 12
-    drivers.push(`${a.city || 'Your area'} is not formally Lyme-endemic but blacklegged tick populations have expanded across the GTA at ~20% per year. Cases have been confirmed in every GTA city since 2022.`)
+    drivers.push(`${a.city || 'Your area'} sits outside the areas we flag as bordering mapped tick habitat, but blacklegged ticks are carried into new areas by deer and by migratory birds every spring, so a bite is still possible. Check the Ontario Vector-Borne Disease Tool for the current risk-area map covering your address.`)
   }
 
   // Yard features
@@ -155,7 +161,7 @@ export function scoreLyme(a: LymeAnswers): LymeResult {
 
   // Yard pivot
   const yardPivot = score >= 50
-    ? 'The biggest variable you control is making sure your own property isn\'t a tick reservoir. Even the best personal vigilance can\'t protect you from ticks dropped in your yard by deer, raccoons, mice, and your own pet returning from walks. Treating the yard perimeter, leaf litter, and shrub edges with a Health Canada-approved barrier spray reduces resident tick populations by 80-90% for 21-30 days at a time.'
+    ? 'The biggest variable you control is making sure your own property isn\'t a tick reservoir. Even the best personal vigilance can\'t protect you from ticks dropped in your yard by deer, raccoons, mice, and your own pet returning from walks. A barrier treatment applies a Health Canada-registered residual acaricide directly to the yard perimeter, leaf litter, and shaded shrub edges — the specific micro-habitats where blacklegged ticks quest, rather than the open lawn. No treatment eliminates ticks from a property, and ticks keep arriving on wildlife all season, so the point of re-application is to keep those edge zones under pressure through the active months rather than to guarantee a tick-free yard.'
     : 'Even at moderate risk, the highest-leverage move is ensuring your own yard isn\'t harbouring ticks. Single barrier spray treatments timed for late May, July, and early September catch the three peak tick activity windows.'
 
   return {
@@ -165,7 +171,7 @@ export function scoreLyme(a: LymeAnswers): LymeResult {
     tierColor,
     cityName: a.city,
     isInServiceArea,
-    isLymeEndemic,
+    isNearMappedRiskArea,
     driverList: drivers.slice(0, 5),
     doctorAdvice,
     prevention,

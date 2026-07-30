@@ -87,10 +87,10 @@ export default function MosquitoMagnetPage() {
         <div className="max-w-3xl mx-auto prose-brand">
           <div className="not-prose bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">For most Ontario backyards (0.1–1 acre), professional barrier spray beats a Mosquito Magnet: the spray typically cuts mosquito populations 90%+ across the whole lot, while a Magnet costs $700–$1,900 in year one and culls only 20–60%. Mosquito Magnets make sense mainly on large rural properties of 5+ acres.</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">For most Ontario backyards (0.1–1 acre), professional barrier spray is the better fit, and the reason is mechanical rather than numerical: the spray treats every surface across the lot where mosquitoes rest during the day, while a Mosquito Magnet is a single trapping point that has to pull mosquitoes toward it — and costs $700–$1,900 in year one. Mosquito Magnets make sense mainly on large rural properties of 5+ acres, where blanket treatment is impractical.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
               <li>A Mosquito Magnet unit costs $400–$1,200 upfront plus $300–$700 per season in propane and attractants.</li>
-              <li>Typical population reduction from a Mosquito Magnet is 20–60%; professional barrier spray typically achieves 90%+.</li>
+              <li>A Magnet works by drawing mosquitoes to one trapping point; barrier spray works by treating the resting surfaces across the whole lot. Neither clears a yard — mosquitoes disperse in from neighbouring properties.</li>
               <li>A Mosquito Magnet covers about 1 acre maximum; barrier spray covers the entire residential lot.</li>
               <li>Each propane tank lasts about 21 days, so a Magnet needs monthly tank and attractant swaps; barrier spray requires no homeowner maintenance.</li>
               <li>Over 5 years, a Mosquito Magnet costs about $2,700 — within $50 of BuzzSkito&rsquo;s Basic 5-spray seasonal plan at $549/year ($2,745), which delivers far greater coverage.</li>
@@ -165,7 +165,7 @@ export default function MosquitoMagnetPage() {
                   ['Total Year 1 cost', '$700–$1,900', 'available on quote'],
                   ['Coverage area', '~1 acre max', 'Entire residential lot'],
                   ['How it works', 'Captures adult mosquitoes', 'Kills + repels at resting sites'],
-                  ['Population reduction', '20–60% (typical)', '90%+ (typical)'],
+                  ['How it works', 'Draws mosquitoes to one trapping point', 'Residual on resting surfaces across the lot'],
                   ['Maintenance', 'Monthly propane + attractant changes', 'None (we come to you)'],
                   ['Storage', 'Indoor in winter, large unit', 'No equipment to store'],
                   ['Replacement parts', '$50–$200 every 2–3 years', 'N/A'],
@@ -204,7 +204,7 @@ export default function MosquitoMagnetPage() {
           <h2>The Cost Math (Ontario, 5-Year Total)</h2>
           <p>Mosquito Magnet (Pioneer model): $700 unit + $400/year × 5 years = <strong>$2,700 over 5 years</strong></p>
           <p>BuzzSkito Standard plan (10 sprays/season): $994/year × 5 years = <strong>$4,970 over 5 years</strong></p>
-          <p>So 5-year cost favours the Mosquito Magnet on paper — but the Magnet captures 20–60% of mosquitoes; the spray reduces population by 90%+. You&rsquo;re paying $2,300 less for half the result.</p>
+          <p>So 5-year cost favours the Mosquito Magnet on paper. What the cost line does not capture is coverage: a Magnet protects the area it can draw mosquitoes out of, while the spray treats the resting vegetation across the entire lot. On a typical suburban yard that difference is what you are actually buying.</p>
           <p><strong>BuzzSkito Basic plan (5 sprays/season): $549/year × 5 years = $2,745 over 5 years</strong> — within $50 of the Magnet&rsquo;s 5-year cost, with dramatically better coverage.</p>
 
           <h2>The Honest Recommendation</h2>
@@ -214,7 +214,7 @@ export default function MosquitoMagnetPage() {
             <li>Skip the bug zapper, ultrasonic devices, citronella torches</li>
             <li>Treat any standing water with BTI Mosquito Dunks ($15/season)</li>
             <li>Use a patio fan when sitting outside ($30 one-time, surprisingly effective)</li>
-            <li>Get professional barrier spray ($549–$994/season) for 90%+ population reduction</li>
+            <li>Get professional barrier spray ($549–$994/season) to treat the resting vegetation across the whole lot</li>
           </ul>
           <p>For rural acreage or extreme-pressure conservation-adjacent properties: barrier spray plus a Mosquito Magnet may be worth it.</p>
 
@@ -231,7 +231,7 @@ export default function MosquitoMagnetPage() {
         </div>
       </article>
 
-      <CTASection heading="$549/Season for 90%+ Population Reduction" subtext="Skip the propane tanks. Professional barrier spray controls the entire yard. From $99 single, $549 season." variant="dark" />
+      <CTASection heading="$549 for a Full Season of Barrier Spray" subtext="Skip the propane tanks. Professional barrier spray treats the resting vegetation across the entire yard. From $99 single, $549 season." variant="dark" />
     </>
   )
 }

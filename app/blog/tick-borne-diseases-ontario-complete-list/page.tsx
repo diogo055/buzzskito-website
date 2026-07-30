@@ -44,7 +44,7 @@ const FAQS = [
   {
     question: 'Does tick spray protect against all tick-borne diseases?',
     answer:
-      'Yes. Professional tick barrier spray reduces overall tick populations in your yard by up to 90%, which reduces your exposure to all tick species and all pathogens they carry — including Lyme disease, Anaplasmosis, Babesiosis, and Powassan virus. Because tick spray targets the ticks themselves rather than a specific pathogen, it provides broad protection against the full spectrum of tick-borne diseases present in Ontario.',
+      'It helps, and the reason is mechanical rather than pathogen-specific. A barrier spray puts a Health Canada-registered residual acaricide on the leaf litter, shaded edges and wood borders where ticks quest, so it acts on the ticks themselves rather than on any one pathogen — meaning it applies equally to Lyme disease, anaplasmosis, babesiosis and Powassan virus. What it does not do is clear a property: the residual is temporary, and deer, birds and rodents keep carrying new ticks in through the season. Use it as one layer alongside tick checks and personal protection.',
   },
 ]
 
@@ -79,7 +79,7 @@ export default function TickBorneDiseasesPage() {
             <li>Powassan causes encephalitis in about 10% of symptomatic cases, with a roughly 10&ndash;15% fatality rate.</li>
             <li>A single blacklegged tick can carry more than one pathogen, so co-infection is possible.</li>
             <li>Lyme, anaplasmosis, and B. miyamotoi are treated with doxycycline; Powassan has no specific treatment.</li>
-            <li>Professional tick barrier spray reduces yard tick populations by up to 90% across all species.</li>
+            <li>Professional tick barrier spray acts on the ticks themselves rather than any one pathogen, so it applies across all species found in Ontario.</li>
           </ul>
           <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
         </div>
@@ -216,7 +216,7 @@ export default function TickBorneDiseasesPage() {
         <h2>Protection Against All Tick-Borne Diseases</h2>
         <p>The best defence against the full spectrum of tick-borne diseases is preventing tick bites in the first place. A layered approach provides the most effective protection:</p>
         <ul>
-          <li><strong>Professional tick yard treatment:</strong> <Link href="/tick-control" className="text-brand-700 hover:underline">Barrier spray</Link> reduces tick populations by up to 90% across all species and all pathogens they carry</li>
+          <li><strong>Professional tick yard treatment:</strong> <Link href="/tick-control" className="text-brand-700 hover:underline">Barrier spray</Link> treats the questing zones and acts on the ticks themselves, so it is not specific to any one species or pathogen</li>
           <li><strong>Habitat modification:</strong> Remove leaf litter, keep lawns short, create gravel barriers at wood edges</li>
           <li><strong>Personal protection:</strong> DEET repellent, light-coloured clothing, tucked pants</li>
           <li><strong>Tick checks:</strong> Full-body checks within 2 hours of outdoor activity — especially critical for Powassan virus, which can transmit in under 15 minutes</li>

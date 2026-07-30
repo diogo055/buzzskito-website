@@ -99,7 +99,7 @@ export default function DaycareCampMosquitoTickControlPage() {
           <div className="space-y-4">
             <div className="rounded-xl bg-gray-50 border-l-4 border-emerald-500 p-5">
               <h3 className="text-lg font-extrabold text-brand-900 mb-2">📈 Tick expansion is now confirmed in every Ontario PHU</h3>
-              <p className="text-sm text-gray-700">Public Health Ontario&rsquo;s 2025 surveillance data confirms blacklegged tick presence in every Ontario Public Health Unit. For childcare facilities with outdoor play space backing onto ravines, conservation lands, or any naturalized green corridor, tick exposure for children is no longer hypothetical. Ontario Lyme disease cases hit 3,614 in 2025 — a 30-fold increase since 2010.</p>
+              <p className="text-sm text-gray-700">Public Health Ontario&rsquo;s blacklegged tick surveillance now records established or emerging risk areas across most of southern Ontario. For childcare facilities with outdoor play space backing onto ravines, conservation lands, or any naturalized green corridor, tick exposure for children is no longer hypothetical. Ontario reported 2,369 confirmed and probable Lyme disease cases in 2024 &mdash; up 27% over 2023, and the most of any province, per the <a href="https://health-infobase.canada.ca/zoonoses/ticks/annual-report.html" target="_blank" rel="noopener" className="underline">Public Health Agency of Canada</a>. 2024 is the most recent year published.</p>
             </div>
             <div className="rounded-xl bg-gray-50 border-l-4 border-emerald-500 p-5">
               <h3 className="text-lg font-extrabold text-brand-900 mb-2">👨‍👩‍👧 Parents are increasingly asking about it</h3>

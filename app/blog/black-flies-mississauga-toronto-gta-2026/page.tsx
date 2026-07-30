@@ -40,7 +40,7 @@ const FAQS = [
   },
   {
     question: 'Can I keep black flies out of my yard?',
-    answer: 'You cannot keep them entirely out — black flies are strong fliers that travel 5–10 km from breeding streams in search of hosts — but you can dramatically reduce the population that lingers and bites. Combine professional barrier spray on shrubs, fence lines, and ornamental beds (kills landing flies on contact), Thermacells on patios during peak hours (creates a 4-metre repellent zone), elimination of dense rest cover at the property edge, and personal protection (DEET, picaridin, light-coloured clothing). The combination cuts black fly bite pressure by 70–85% during peak weeks for most GTA properties.',
+    answer: 'You cannot keep them entirely out — black flies are strong fliers that travel 5–10 km from breeding streams in search of hosts — but you can dramatically reduce the population that lingers and bites. Combine professional barrier spray on shrubs, fence lines, and ornamental beds (kills landing flies on contact), Thermacells on patios during peak hours (creates a 4-metre repellent zone), elimination of dense rest cover at the property edge, and personal protection (DEET, picaridin, light-coloured clothing). Each layer covers a different part of the problem — the barrier spray treats the rest cover they use between feeding bouts, the Thermacell holds a repellent zone over the seating area, and the repellent protects you personally. None of it touches the breeding source, which is a river kilometres away, so black flies keep arriving during the emergence weeks and the treatment is repeated through that window.',
   },
   {
     question: 'Are black fly bites dangerous?',

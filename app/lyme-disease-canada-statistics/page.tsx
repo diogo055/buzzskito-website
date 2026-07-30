@@ -63,6 +63,7 @@ interface ExpansionPoint {
   metric: string
   value: string
   source: string
+  sourceUrl: string
   note: string
 }
 
@@ -70,20 +71,23 @@ const RANGE_EXPANSION: ExpansionPoint[] = [
   {
     metric: 'Blacklegged tick range expansion rate',
     value: '~35–55 km / year',
-    source: 'Climate-vector modelling (PMC, peer-reviewed)',
-    note: 'Ixodes scapularis spreading northward; roughly 46 km per year in modelled estimates.',
+    source: 'Leighton PA et al., J Applied Ecology 2012',
+    sourceUrl: 'https://besjournals.onlinelibrary.wiley.com/doi/10.1111/j.1365-2664.2012.02112.x',
+    note: 'Leighton et al. modelled the northward range front of Ixodes scapularis advancing at 46 km per year; the wider 35–55 km band is our own rounding envelope around that single published estimate, not a figure published by the authors.',
   },
   {
     metric: 'Locally-acquired infections, 2009 → 2019',
     value: '65.3% → 93.6%',
-    source: 'Canadian LDES (PLOS One / PMC)',
-    note: 'Share of cases acquired in Canada (not travel) — proof the tick is now established domestically.',
+    source: 'PHAC — Surveillance for Lyme disease in Canada, 2009–2019 (CCDR)',
+    sourceUrl: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC10723632/',
+    note: 'Share of cases with a known exposure location that were acquired in Canada (not travel) — evidence the tick is now established domestically.',
   },
   {
     metric: 'Projected northward habitat shift',
     value: '~200 km by the 2020s; ~1,000 km by the 2080s',
-    source: 'Risk-map modelling, high-emission scenario (PMC)',
-    note: 'Projected establishment range for Ixodes scapularis under continued warming.',
+    source: 'Attributed to Ogden NH et al., Int J Health Geogr 2008 — NOT VERIFIED',
+    sourceUrl: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC2412857/',
+    note: 'Flagged: we could not locate these specific kilometre figures in the linked paper, which reports risk in counts of census sub-divisions under IPCC scenario A2 rather than in kilometres. Do not cite these two numbers without checking the primary source yourself.',
   },
 ]
 
@@ -93,44 +97,102 @@ interface ComparisonPoint {
   value: string
   detail: string
   source: string
+  sourceUrl: string
 }
 
 const CANADA_US_COMPARISON: ComparisonPoint[] = [
   {
     label: 'Canada — reported cases (2024, preliminary)',
     value: '~5,239',
-    detail: 'PHAC surveillance count; fuller dashboard figure of 5,809 also published.',
-    source: 'PHAC Health Infobase',
+    detail: 'PHAC preliminary surveillance count; the Health Infobase dashboard publishes a fuller 2024 figure of 5,809 (50% confirmed, 50% probable).',
+    source: 'PHAC Health Infobase — annual report',
+    sourceUrl: 'https://health-infobase.canada.ca/zoonoses/ticks/annual-report.html',
   },
   {
     label: 'United States — reported cases (2023)',
     value: '89,000+',
     detail: 'Routine surveillance only — roughly one-fifth of the estimated true total.',
-    source: 'U.S. CDC',
+    source: 'U.S. CDC — Lyme Disease Surveillance and Data',
+    sourceUrl: 'https://www.cdc.gov/lyme/data-research/facts-stats/index.html',
   },
   {
     label: 'United States — estimated cases each year',
     value: '~476,000',
-    detail: 'CDC estimate from health-insurance claims (2010–2018) — true burden is multiples of reported counts.',
-    source: 'U.S. CDC',
+    detail: 'CDC estimate from health-insurance claims — the agency notes this likely includes patients treated on clinical suspicion who do not have Lyme disease.',
+    source: 'U.S. CDC — Lyme Disease Surveillance and Data',
+    sourceUrl: 'https://www.cdc.gov/lyme/data-research/facts-stats/index.html',
   },
 ]
 
 // ── SOURCES ───────────────────────────────────────────────────────────────────
-const SOURCES = [
-  { name: 'PHAC — Lyme disease: Monitoring (surveillance overview)', url: 'https://www.canada.ca/en/public-health/services/diseases/lyme-disease/surveillance-lyme-disease.html' },
-  { name: 'PHAC Health Infobase — Annual report: Lyme disease and other tick-borne diseases surveillance in Canada', url: 'https://health-infobase.canada.ca/zoonoses/ticks/annual-report.html' },
-  { name: 'Epidemiology and clinical manifestations of reported Lyme disease cases (Canadian LDES, PLOS One / PMC)', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC10723709/' },
-  { name: 'PHAC — Surveillance for Lyme disease in Canada, 2009–2019 (CCDR)', url: 'https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2022-48/issue-5-may-2022/ccdrv48i05a05-eng.pdf' },
-  { name: 'U.S. CDC — Lyme Disease Surveillance and Data (facts & stats)', url: 'https://www.cdc.gov/lyme/data-research/facts-stats/index.html' },
-  { name: 'Rapid Northward Expansion of the Blacklegged Tick in Response to Climate Change (PMC)', url: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12590538/' },
-  { name: 'Risk maps for range expansion of Ixodes scapularis in Canada with climate change (PMC)', url: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2412857/' },
+interface SourceRef {
+  name: string
+  publisher: string
+  url: string
+  supports: string
+}
+
+const SOURCES: SourceRef[] = [
+  {
+    name: 'Lyme disease: Monitoring (national surveillance overview)',
+    publisher: 'Public Health Agency of Canada',
+    url: 'https://www.canada.ca/en/public-health/services/diseases/lyme-disease/surveillance-lyme-disease.html',
+    supports: '28,033 cumulative human cases reported by provincial public health units, 2009–2025',
+  },
+  {
+    name: 'Annual report: Lyme disease and other tick-borne diseases surveillance in Canada (Health Infobase)',
+    publisher: 'Public Health Agency of Canada',
+    url: 'https://health-infobase.canada.ca/zoonoses/ticks/annual-report.html',
+    supports: '2024 total of 5,809 (50% confirmed / 50% probable); every 2024 province and territory count on this page (Ontario 2,369, Nova Scotia 2,350, Quebec 834, New Brunswick 111, Manitoba 84, Alberta 31, BC 21, PEI 4, NL 3, Saskatchewan 2, territories 0); shares 41% / 40% / 14%; national incidence 6.5 (2022), 11.9 (2023), 14.1 (2024) per 100,000; Nova Scotia highest incidence at 217 per 100,000; 2023 total 4,785 and 2022 total 2,525',
+  },
+  {
+    name: 'Lyme disease surveillance in Canada: Annual edition 2021',
+    publisher: 'Public Health Agency of Canada',
+    url: 'https://www.canada.ca/en/public-health/services/publications/diseases-conditions/lyme-disease-surveillance-canada-annual-edition-2021.html',
+    supports: '2020 total 1,617 (1,204 confirmed + 413 probable); 2021 total 3,147 (2,595 + 552), a 94.6% year-over-year increase and the largest annual count recorded at that time',
+  },
+  {
+    name: 'Epidemiology and clinical manifestations of reported Lyme disease cases: data from the Canadian Lyme Disease Enhanced Surveillance system (PLOS One)',
+    publisher: 'PLOS One (peer-reviewed) / PubMed Central',
+    url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC10723709/',
+    supports: '144 reported cases in 2009 rising to 2,636 in 2019; 10,150 cases over 2009–2019, of which 9,526 (93.9%) were acquired in Canada; single erythema migrans rash reported in 76.4% of cases',
+  },
+  {
+    name: 'Surveillance for Lyme disease in Canada, 2009–2019 (Canada Communicable Disease Report)',
+    publisher: 'Public Health Agency of Canada / PubMed Central',
+    url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC10723632/',
+    supports: 'Share of cases with a known exposure location acquired in Canada rising from 65.3% (2009) to 93.6% (2019)',
+  },
+  {
+    name: 'Lyme Disease Surveillance and Data (facts and statistics)',
+    publisher: 'U.S. Centers for Disease Control and Prevention',
+    url: 'https://www.cdc.gov/lyme/data-research/facts-stats/index.html',
+    supports: 'Over 89,000 cases reported to CDC in 2023; approximately 476,000 people diagnosed and treated for Lyme disease each year in the United States',
+  },
+  {
+    name: 'Leighton PA, Koffi JK, Pelcat Y, Lindsay LR, Ogden NH. "Predicting the speed of tick invasion: an empirical model of range expansion for the Lyme disease vector Ixodes scapularis in Canada." Journal of Applied Ecology. 2012;49(2):457–464',
+    publisher: 'Journal of Applied Ecology (British Ecological Society)',
+    url: 'https://besjournals.onlinelibrary.wiley.com/doi/10.1111/j.1365-2664.2012.02112.x',
+    supports: 'Northward range-front advance of Ixodes scapularis modelled at 46 km per year — the single published figure behind the "~35–55 km/year" band shown on this page',
+  },
+  {
+    name: 'Ogden NH, St-Onge L, Barker IK, et al. "Risk maps for range expansion of the Lyme disease vector, Ixodes scapularis, in Canada now and with climate change." International Journal of Health Geographics. 2008;7:24',
+    publisher: 'International Journal of Health Geographics / PubMed Central',
+    url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC2412857/',
+    supports: 'Climate-driven range projections to the 2020s, 2050s and 2080s under IPCC scenario A2. NOTE: we could not locate the "~200 km / ~1,000 km" kilometre figures quoted on this page in this paper — treat those two numbers as unverified',
+  },
+  {
+    name: 'Rapid northward expansion of the blacklegged tick, Ixodes scapularis, in response to climate change',
+    publisher: 'PubMed Central (peer-reviewed)',
+    url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC12590538/',
+    supports: 'General context on climate-driven northward expansion of Ixodes scapularis',
+  },
 ]
 
 const FAQS = [
   {
     question: 'How many Lyme disease cases are there in Canada?',
-    answer: 'Canada recorded approximately 5,239 reported Lyme disease cases in 2024 (the latest year), according to the Public Health Agency of Canada (PHAC) surveillance dashboard. A fuller, updated figure of 5,809 cases also appears in the same dashboard, because preliminary surveillance counts are routinely revised upward as late lab and clinical reports arrive. Since national surveillance began in 2009, PHAC has logged a cumulative 28,033 reported human cases through 2025. Important caveat: these are reported cases only — the true number of infections is believed to be several times higher, because many cases are never diagnosed, lab-confirmed, or reported to public health.',
+    answer: 'Canada recorded approximately 5,239 reported Lyme disease cases in 2024 (the latest year), according to the Public Health Agency of Canada (PHAC) surveillance dashboard. A fuller, updated figure of 5,809 cases also appears in the same dashboard, because preliminary surveillance counts are routinely revised upward as late lab and clinical reports arrive. 2024 is the most recent year PHAC has published — there is no 2025 national or provincial total yet. Important caveat: these are reported cases only — the true number of infections is believed to be several times higher, because many cases are never diagnosed, lab-confirmed, or reported to public health.',
   },
   {
     question: 'Which province has the most Lyme disease?',
@@ -231,10 +293,10 @@ export default function LymeDiseaseCanadaStatisticsPage() {
           <p className="text-xs font-extrabold text-amber-700 uppercase tracking-wider mb-2">Quick Answer</p>
           <h2 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-3">How many Lyme disease cases are there in Canada?</h2>
           <p className="text-base text-gray-800 leading-relaxed">
-            <span className="speakable"><strong>Canada reported approximately {cases2024.toLocaleString()} Lyme disease cases in 2024 &mdash; the latest year &mdash; a national incidence of 14.1 per 100,000 people, and an 18-fold increase from just 144 cases in 2009, according to the Public Health Agency of Canada.</strong></span>{' '}
+            <span className="speakable"><strong>Canada reported approximately {cases2024.toLocaleString()} Lyme disease cases in 2024 &mdash; the latest year &mdash; a national incidence of 14.1 per 100,000 people, and an 18-fold increase from just 144 cases in 2009, according to the <a href="https://health-infobase.canada.ca/zoonoses/ticks/annual-report.html" target="_blank" rel="noopener" className="underline">Public Health Agency of Canada</a>.</strong></span>{' '}
             By province, Ontario had the most reported cases (2,369, about 41% of the national total), with Nova Scotia a very close second (2,350, roughly 40%) and Quebec third (834, about 14%). Note that these are reported cases only: the true number of infections is believed to be several times higher, because many cases are never diagnosed or reported &mdash; the same underreporting the U.S. CDC documents, where an estimated 476,000 cases occur each year versus about 89,000 reported.
           </p>
-          <p className="text-xs text-gray-500 mt-3 italic">A fuller, revised 2024 figure of 5,809 cases also appears in PHAC&rsquo;s dashboard; preliminary counts are updated upward as late reports arrive. We use 5,239 as the conservative number throughout.</p>
+          <p className="text-xs text-gray-500 mt-3 italic">A fuller, revised 2024 figure of 5,809 cases (50% confirmed, 50% probable) appears in <a href="https://health-infobase.canada.ca/zoonoses/ticks/annual-report.html" target="_blank" rel="noopener" className="underline">PHAC&rsquo;s Health Infobase dashboard</a>; preliminary counts are updated upward as late reports arrive. We use 5,239 as the conservative number throughout.</p>
         </div>
       </section>
 
@@ -271,7 +333,7 @@ export default function LymeDiseaseCanadaStatisticsPage() {
           {/* Trend chart */}
           <div className="rounded-2xl border-2 border-gray-200 bg-gradient-to-b from-gray-50 to-white p-6 shadow-sm">
             <h3 className="text-lg font-extrabold text-brand-900 mb-1">Reported Lyme disease cases in Canada, by year</h3>
-            <p className="text-xs text-gray-500 mb-5">Source: Public Health Agency of Canada &mdash; Lyme disease: Monitoring + Health Infobase annual surveillance report + Canadian LDES (PLOS One). Verified anchor years shown; 2010&ndash;2018 omitted where single-year values were not individually confirmed.</p>
+            <p className="text-xs text-gray-500 mb-5">Sources: <a href="https://www.canada.ca/en/public-health/services/diseases/lyme-disease/surveillance-lyme-disease.html" target="_blank" rel="noopener" className="underline hover:text-brand-900">PHAC &mdash; Lyme disease: Monitoring</a> &middot; <a href="https://health-infobase.canada.ca/zoonoses/ticks/annual-report.html" target="_blank" rel="noopener" className="underline hover:text-brand-900">PHAC Health Infobase annual surveillance report</a> (2022&ndash;2024) &middot; <a href="https://www.canada.ca/en/public-health/services/publications/diseases-conditions/lyme-disease-surveillance-canada-annual-edition-2021.html" target="_blank" rel="noopener" className="underline hover:text-brand-900">PHAC Annual edition 2021</a> (2020 and 2021 totals) &middot; <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10723709/" target="_blank" rel="noopener" className="underline hover:text-brand-900">Canadian Lyme Disease Enhanced Surveillance system (PLOS One)</a> (2009 and 2019). Verified anchor years shown; 2010&ndash;2018 omitted where single-year values were not individually confirmed.</p>
             <div className="space-y-1.5">
               {CANADA_CASES_BY_YEAR.map((y) => (
                 <div key={y.year} className="flex items-center gap-3">
@@ -302,7 +364,7 @@ export default function LymeDiseaseCanadaStatisticsPage() {
           {/* Province bar chart */}
           <div className="rounded-2xl border-2 border-emerald-200 bg-white p-6 shadow-sm mb-6">
             <h3 className="text-lg font-extrabold text-brand-900 mb-1">Reported Lyme disease cases by province / territory, 2024</h3>
-            <p className="text-xs text-gray-500 mb-5">Source: Public Health Agency of Canada &mdash; Health Infobase annual surveillance dashboard, 2024 data.</p>
+            <p className="text-xs text-gray-500 mb-5">Source: <a href="https://health-infobase.canada.ca/zoonoses/ticks/annual-report.html" target="_blank" rel="noopener" className="underline hover:text-brand-900">Public Health Agency of Canada &mdash; Annual report: Lyme disease and other tick-borne diseases surveillance in Canada (Health Infobase), 2024 data</a>. Every count in this chart is stated directly in that report.</p>
             <div className="space-y-2">
               {CANADA_CASES_BY_PROVINCE.map((p) => {
                 const barColor =
@@ -339,7 +401,7 @@ export default function LymeDiseaseCanadaStatisticsPage() {
             <div className="rounded-2xl bg-gradient-to-br from-amber-500 to-orange-600 text-white p-6 shadow-lg">
               <p className="text-xs font-extrabold uppercase tracking-widest mb-2 opacity-90">Highest per-capita risk</p>
               <h3 className="text-2xl font-extrabold mb-2">Nova Scotia &mdash; ~217 / 100k</h3>
-              <p className="text-sm opacity-95 leading-relaxed">Nova Scotia reported 2,350 cases (about 40% of the national total) but, with a far smaller population, carries by far the highest per-capita incidence in Canada &mdash; roughly 217 per 100,000, more than 15&times; the national rate of 14.1.</p>
+              <p className="text-sm opacity-95 leading-relaxed">Nova Scotia reported 2,350 cases (about 40% of the national total) but, with a far smaller population, carries by far the highest per-capita incidence in Canada &mdash; <a href="https://health-infobase.canada.ca/zoonoses/ticks/annual-report.html" target="_blank" rel="noopener" className="underline">217 per 100,000 (PHAC)</a>, more than 15&times; the national rate of 14.1.</p>
             </div>
           </div>
 
@@ -361,17 +423,17 @@ export default function LymeDiseaseCanadaStatisticsPage() {
             <div className="rounded-2xl border-2 border-gray-200 bg-gradient-to-b from-gray-50 to-white p-5 shadow-sm">
               <p className="text-3xl font-black text-emerald-600">18×</p>
               <p className="text-sm text-gray-700 mt-1">increase in annual reported cases, 2009 (144) to 2019 (2,636)</p>
-              <p className="text-[11px] text-gray-500 mt-2 italic">Canadian LDES (PLOS One)</p>
+              <p className="text-[11px] text-gray-500 mt-2 italic"><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10723709/" target="_blank" rel="noopener" className="underline">Canadian LDES (PLOS One)</a></p>
             </div>
             <div className="rounded-2xl border-2 border-gray-200 bg-gradient-to-b from-gray-50 to-white p-5 shadow-sm">
               <p className="text-3xl font-black text-amber-600">65% → 94%</p>
               <p className="text-sm text-gray-700 mt-1">share of cases acquired locally in Canada, 2009 to 2019</p>
-              <p className="text-[11px] text-gray-500 mt-2 italic">Canadian LDES (PLOS One)</p>
+              <p className="text-[11px] text-gray-500 mt-2 italic"><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10723632/" target="_blank" rel="noopener" className="underline">PHAC &mdash; Surveillance for Lyme disease in Canada, 2009&ndash;2019 (CCDR)</a></p>
             </div>
             <div className="rounded-2xl border-2 border-gray-200 bg-gradient-to-b from-gray-50 to-white p-5 shadow-sm">
               <p className="text-3xl font-black text-rose-600">11.9 → 14.1</p>
               <p className="text-sm text-gray-700 mt-1">national incidence per 100,000, 2023 to 2024</p>
-              <p className="text-[11px] text-gray-500 mt-2 italic">PHAC Health Infobase</p>
+              <p className="text-[11px] text-gray-500 mt-2 italic"><a href="https://health-infobase.canada.ca/zoonoses/ticks/annual-report.html" target="_blank" rel="noopener" className="underline">PHAC Health Infobase</a></p>
             </div>
           </div>
 
@@ -392,7 +454,7 @@ export default function LymeDiseaseCanadaStatisticsPage() {
                     <tr key={r.metric} className="border-b border-emerald-100 align-top">
                       <td className="py-3 pr-4 font-bold text-gray-800">{r.metric}</td>
                       <td className="py-3 pr-4 font-extrabold text-emerald-700 whitespace-nowrap">{r.value}</td>
-                      <td className="py-3 text-gray-600">{r.note} <span className="italic text-gray-500">({r.source})</span></td>
+                      <td className="py-3 text-gray-600">{r.note} <a href={r.sourceUrl} target="_blank" rel="noopener" className="italic text-emerald-700 underline">({r.source})</a></td>
                     </tr>
                   ))}
                 </tbody>
@@ -437,7 +499,7 @@ export default function LymeDiseaseCanadaStatisticsPage() {
                 <p className="text-[11px] font-bold uppercase tracking-widest text-amber-400 mb-2">{c.label}</p>
                 <p className="text-3xl sm:text-4xl font-black">{c.value}</p>
                 <p className="text-xs text-brand-200 mt-2 leading-relaxed">{c.detail}</p>
-                <p className="text-[11px] text-brand-300 mt-2 italic">Source: {c.source}</p>
+                <p className="text-[11px] text-brand-300 mt-2 italic">Source: <a href={c.sourceUrl} target="_blank" rel="noopener" className="underline hover:text-amber-400">{c.source}</a></p>
               </div>
             ))}
           </div>
@@ -445,7 +507,7 @@ export default function LymeDiseaseCanadaStatisticsPage() {
           <div className="rounded-2xl bg-amber-400/10 border border-amber-400/30 p-6">
             <h3 className="text-lg font-extrabold text-amber-400 mb-2">The reported-vs-true-burden gap</h3>
             <p className="text-sm text-brand-100 leading-relaxed">
-              In the United States, the CDC estimates approximately 476,000 Lyme cases are diagnosed and treated each year (from health-insurance claims, 2010&ndash;2018), versus the 89,000+ reported through routine surveillance in 2023 &mdash; meaning roughly one in five true cases is captured by surveillance. Canadian researchers note the same underreporting applies here. So while Canada&rsquo;s ~5,239 reported cases (2024) look modest beside the U.S. total, the real number of Canadian infections is almost certainly several times higher. Treat every figure on this page as <strong className="text-white">reported cases</strong>, not a complete count of infections.
+              In the United States, <a href="https://www.cdc.gov/lyme/data-research/facts-stats/index.html" target="_blank" rel="noopener" className="underline text-amber-300">the CDC estimates approximately 476,000 Lyme cases are diagnosed and treated each year</a> (from health-insurance claims, 2010&ndash;2018), versus the 89,000+ reported through routine surveillance in 2023 &mdash; meaning roughly one in five true cases is captured by surveillance. Canadian researchers note the same underreporting applies here. So while Canada&rsquo;s ~5,239 reported cases (2024) look modest beside the U.S. total, the real number of Canadian infections is almost certainly several times higher. Treat every figure on this page as <strong className="text-white">reported cases</strong>, not a complete count of infections.
             </p>
           </div>
         </div>
@@ -494,7 +556,7 @@ export default function LymeDiseaseCanadaStatisticsPage() {
                   <li>• 14.1 per 100,000 national incidence (2024)</li>
                   <li>• Ontario 2,369 (41%) · Nova Scotia 2,350 (40%) · Quebec 834 (14%)</li>
                   <li>• 18× growth, 2009 (144) → 2019 (2,636)</li>
-                  <li>• 28,033 cumulative reported cases, 2009&ndash;2025</li>
+                  <li>• 2024 is the latest published year &mdash; <a href="https://www.canada.ca/en/public-health/services/diseases/lyme-disease/surveillance-lyme-disease.html" target="_blank" rel="noopener" className="underline">no 2025 national or provincial total exists yet (PHAC)</a></li>
                 </ul>
               </div>
               <div className="rounded-lg bg-white border border-amber-200 p-4">
@@ -507,11 +569,17 @@ export default function LymeDiseaseCanadaStatisticsPage() {
           {/* Primary sources */}
           <div className="mt-8">
             <h3 className="text-lg font-extrabold text-brand-900 mb-3">Primary sources &amp; further reading</h3>
-            <ul className="space-y-2 text-sm">
+            <ul className="space-y-4 text-sm">
               {SOURCES.map((s) => (
                 <li key={s.url} className="flex gap-2">
                   <span className="text-emerald-500 shrink-0">→</span>
-                  <a href={s.url} target="_blank" rel="noopener" className="text-blue-700 underline break-words">{s.name}</a>
+                  <span className="break-words">
+                    <a href={s.url} target="_blank" rel="noopener" className="text-blue-700 underline font-semibold break-words">{s.name}</a>
+                    {' — '}
+                    <span className="italic text-gray-600">{s.publisher}</span>
+                    <span className="block text-xs text-gray-600 mt-1">Supports: {s.supports}</span>
+                    <span className="block text-[11px] text-gray-400 mt-0.5 break-all">{s.url}</span>
+                  </span>
                 </li>
               ))}
             </ul>

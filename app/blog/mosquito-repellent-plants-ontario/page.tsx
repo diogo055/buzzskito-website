@@ -17,7 +17,7 @@ const UPDATED = POST.date
 export const metadata: Metadata = buildMetadata({
   title: 'Mosquito Repellent Plants: 10 Best for Ontario',
   description:
-    'The 10 best mosquito repellent plants for Ontario, from lavender to catnip — plus the honest numbers: plants alone cut bites just 15-20% near a seating area.',
+    'Mosquito repellent plants for Ontario: the 10 that actually work, from lavender to catnip, and the honest limit — they only act on the air right beside them.',
   canonical: `/blog/${POST.slug}`,
   type: 'article',
   publishedTime: POST.date,
@@ -87,8 +87,8 @@ export default function MosquitoRepellentPlantsPage() {
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
               <li>All 10 plants grow in USDA zones 5–6, matching GTA growing conditions.</li>
               <li>Catnip&apos;s nepetalactone tested roughly 10× more effective than DEET in Iowa State lab studies, though real-world results are more modest.</li>
-              <li>Plants alone deliver about a 15–20% reduction near seating areas — not full-yard control.</li>
-              <li>Combined with standing-water removal and professional barrier spray, reduction reaches 85–95% across the property.</li>
+              <li>Plants alone act on the air within a metre or two of the foliage, mostly when leaves are crushed — not full-yard control.</li>
+              <li>Plants are a marginal layer at best; standing-water removal and a barrier spray on resting vegetation are what actually change mosquito numbers on a property.</li>
               <li>The garden-centre &ldquo;citronella plant&rdquo; (Pelargonium citrosum) produces almost no airborne repellent passively — skip it.</li>
               <li>Best GTA planting time is mid-May, after the typical May 9–18 frost-free date.</li>
             </ul>
@@ -110,8 +110,8 @@ export default function MosquitoRepellentPlantsPage() {
                   ['Hardiest perennial', 'Lavender (Lavandula angustifolia) — Zone 5, drought-tolerant, easy in GTA'],
                   ['Best for containers', 'Basil, lemon balm, peppermint, citronella grass'],
                   ['Doesn’t work', '&ldquo;Citronella plant&rdquo; (Pelargonium citrosum) — minimal passive scent release'],
-                  ['Plants alone effectiveness', '15–20% reduction near seating; not full-yard control'],
-                  ['Combined with barrier spray', '85–95% reduction across full property'],
+                  ['Plants alone effectiveness', 'Marginal — limited to the air within 1–3 metres of the foliage; not full-yard control'],
+                  ['Combined with barrier spray', 'Barrier spray does the work; plants are decorative'],
                   ['Bee/pollinator safe', 'Yes — most repellent plants are excellent pollinator forage'],
                   ['Where to buy in Ontario', 'Sheridan Nurseries, Canadian Tire, Home Depot, local farmers markets (May–June)'],
                   ['Best planting time', 'Mid-May after last frost (GTA frost-free date typically May 9–18)'],

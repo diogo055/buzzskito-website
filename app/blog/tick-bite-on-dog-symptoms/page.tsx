@@ -92,7 +92,7 @@ export default function TickBiteOnDogSymptomsPage() {
               <li>Anaplasmosis shows in 1&ndash;2 weeks and ehrlichiosis in 1&ndash;3 weeks post-bite.</li>
               <li>Shifting-leg lameness is the most common sign of Lyme in dogs; the bull&rsquo;s-eye rash is rarely visible under fur.</li>
               <li>Canine Lyme responds well to doxycycline, typically a 28-day course.</li>
-              <li>Most yard ticks are picked up at home &mdash; professional yard spray cuts yard tick populations by 90%+.</li>
+              <li>Most yard ticks are picked up at home &mdash; professional yard spray targets the leaf litter and lawn edges where they wait.</li>
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
           </div>
@@ -175,7 +175,7 @@ export default function TickBiteOnDogSymptomsPage() {
           <ol>
             <li><strong>Vet-prescribed monthly preventative</strong> (Bravecto, NexGard, Simparica, or K9 Advantix II). These kill ticks before disease transmission. For walks and hikes between doses, a topical or collar-style <BuyLink tag={AMZ_TAG} search="dog tick repellent">dog tick repellent (check price on Amazon.ca →)</BuyLink> adds a layer of protection — see our <Link href="/blog/tick-repellent-for-dogs-ontario">guide to tick repellents for dogs in Ontario</Link>.</li>
             <li><strong>Daily tick checks</strong> after walks. <Link href="/blog/what-ticks-look-like-ontario">Know what ticks look like</Link>. Common spots: ears, armpits, paws, tail base, neck.</li>
-            <li><strong>Yard tick control</strong>. Most ticks your dog encounters are in your own yard. <Link href="/tick-control">BuzzSkito&rsquo;s 5-spray season program</Link> reduces yard tick populations by 90%+ — dramatically cutting your dog&rsquo;s exposure.</li>
+            <li><strong>Yard tick control</strong>. Most ticks your dog encounters are in your own yard. <Link href="/tick-control">BuzzSkito&rsquo;s 5-spray season program</Link> treats the leaf litter, lawn edges and fence lines where ticks wait for a host — the places your dog actually brushes past. It lowers the odds of a pickup at home, but it is not a substitute for a vet-prescribed preventative.</li>
           </ol>
 
           <h2>Related Reading</h2>

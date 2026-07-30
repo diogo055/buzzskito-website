@@ -123,7 +123,7 @@ export default function EstatePropertyMosquitoControlPage() {
             <div className="rounded-xl bg-gray-50 border border-gray-200 p-5">
               <h3 className="text-lg font-extrabold text-brand-900 mb-2">🏞️ Oak Ridges Moraine</h3>
               <p className="text-sm text-gray-700 mb-2"><strong>Caledon, King City, Kleinburg, north Richmond Hill, parts of Aurora.</strong></p>
-              <p className="text-sm text-gray-700">The Moraine&rsquo;s glacial topography creates persistent groundwater seeps, recharge ponds, and vernal pools that sustain mosquito breeding well into late summer. Public Health Ontario flags much of this corridor as Lyme-endemic. Most properties here benefit from 8-10 treatments per season.</p>
+              <p className="text-sm text-gray-700">The Moraine&rsquo;s glacial topography creates persistent groundwater seeps, recharge ponds, and vernal pools that sustain mosquito breeding well into late summer. Much of this corridor is mature forest with deer and deep leaf litter — the habitat blacklegged ticks need; check Public Health Ontario&rsquo;s Vector-Borne Disease Tool for the current mapped risk area at a specific address. Most properties here benefit from 8-10 treatments per season.</p>
             </div>
             <div className="rounded-xl bg-gray-50 border border-gray-200 p-5">
               <h3 className="text-lg font-extrabold text-brand-900 mb-2">⛰️ Niagara Escarpment Edge</h3>

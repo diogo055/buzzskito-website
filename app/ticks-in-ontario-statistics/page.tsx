@@ -14,6 +14,7 @@ const ANCHOR_STATS = [
     value: '~20%',
     detail: 'Over 20% in Toronto & NW Ontario',
     source: 'Northwestern Health Unit / City of Toronto (2023)',
+    sourceUrl: 'https://www.nwhu.on.ca/for-professionals/for-health-care-professionals/tick-borne-disease-information-for-health-care-professionals/',
     gradient: 'from-rose-500 to-red-700',
   },
   {
@@ -21,6 +22,7 @@ const ANCHOR_STATS = [
     value: '2,369',
     detail: '▲ 27% over 2023 — most of any province',
     source: 'Public Health Agency of Canada',
+    sourceUrl: 'https://health-infobase.canada.ca/zoonoses/ticks/annual-report.html',
     gradient: 'from-orange-500 to-amber-600',
   },
   {
@@ -28,6 +30,7 @@ const ANCHOR_STATS = [
     value: '43',
     detail: '12 established · only 1 spreads Lyme',
     source: 'Public Health Ontario',
+    sourceUrl: 'https://www.publichealthontario.ca/-/media/Documents/T/2023/tick-species-ontario-lyme.pdf',
     gradient: 'from-amber-500 to-yellow-600',
   },
   {
@@ -35,6 +38,7 @@ const ANCHOR_STATS = [
     value: '4°C',
     detail: 'Active any day above freezing',
     source: 'Public Health Ontario',
+    sourceUrl: '',
     gradient: 'from-emerald-600 to-teal-700',
   },
 ] as const
@@ -150,17 +154,74 @@ const TICK_SEASON = [
 ] as const
 
 // ── SOURCES ───────────────────────────────────────────────────────────────────
-const SOURCES = [
-  { name: 'Public Health Agency of Canada — Lyme disease and other tick-borne diseases surveillance annual report (Health Infobase)', url: 'https://health-infobase.canada.ca/zoonoses/ticks/annual-report.html' },
-  { name: 'Public Health Ontario — Ontario Vector-Borne Disease Tool (Blacklegged Tick Established Risk Areas)', url: 'https://www.publichealthontario.ca/en/Data-and-Analysis/Infectious-Disease/VBD-Tool' },
-  { name: 'Public Health Ontario — The Ticks of Ontario Synthesis (2nd Edition)', url: 'https://www.publichealthontario.ca/-/media/Documents/T/2023/tick-species-ontario-lyme.pdf' },
-  { name: 'Public Health Ontario — New Vector-Borne Disease Tool launch (2025)', url: 'https://www.publichealthontario.ca/en/About/News/2025/06/VBD-Tool-Launch' },
-  { name: "Public Health Ontario — Let's Talk About Ticks (tick season)", url: 'https://www.publichealthontario.ca/en/About/News/2022/Tick-Season' },
-  { name: 'Northwestern Health Unit — Tick-borne Disease Information for Health Care Professionals (>20% infection, 2023)', url: 'https://www.nwhu.on.ca/for-professionals/for-health-care-professionals/tick-borne-disease-information-for-health-care-professionals/' },
-  { name: 'PHO passive surveillance study — Ixodes scapularis & B. burgdorferi in Ontario (8.4% → 19.1%)', url: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4149368/' },
-  { name: 'PHAC — Lyme disease surveillance in Canada: Annual edition 2021 (national totals by year)', url: 'https://www.canada.ca/en/public-health/services/publications/diseases-conditions/lyme-disease-surveillance-canada-annual-edition-2021.html' },
-  { name: 'PHAC — Tick surveillance in Canada: Infographic 2022 (eTick / passive submissions)', url: 'https://www.canada.ca/en/public-health/services/publications/diseases-conditions/surveillance-ticks-canada-infographic-2022.html' },
-  { name: 'NCCEH — eTick.ca public tick identification & population monitoring platform', url: 'https://ncceh.ca/resources/blog/etickca-public-platform-image-based-identification-and-population-monitoring-ticks' },
+interface SourceRef {
+  name: string
+  publisher: string
+  url: string
+  supports: string
+}
+
+const SOURCES: SourceRef[] = [
+  {
+    name: 'Annual report: Lyme disease and other tick-borne diseases surveillance in Canada (Health Infobase)',
+    publisher: 'Public Health Agency of Canada',
+    url: 'https://health-infobase.canada.ca/zoonoses/ticks/annual-report.html',
+    supports: 'Canada 2022–2024 national totals (2,525 / 4,785 / 5,809); Ontario 2,369 cases in 2024 (41% of national) and +27% vs 2023; national incidence 6.5 → 11.9 → 14.1 per 100,000',
+  },
+  {
+    name: 'Lyme disease surveillance in Canada: Annual edition 2021',
+    publisher: 'Public Health Agency of Canada',
+    url: 'https://www.canada.ca/en/public-health/services/publications/diseases-conditions/lyme-disease-surveillance-canada-annual-edition-2021.html',
+    supports: '2020 total 1,617 (1,204 confirmed + 413 probable); 2021 total 3,147 (2,595 + 552), a 94.6% year-over-year increase',
+  },
+  {
+    name: 'Ontario Vector-Borne Disease Tool (blacklegged tick established risk areas)',
+    publisher: 'Public Health Ontario',
+    url: 'https://www.publichealthontario.ca/en/data-and-analysis/infectious-disease/vbd-tool',
+    supports: 'Established risk-area mapping; 13 newly identified risk areas across 6 public health units in the 2025 map (MSL 2, NIA 1, PEL 2, REN 3, SEH 3, WAT 2)',
+  },
+  {
+    name: 'Public Health Ontario Launches New Ontario Vector-Borne Disease Tool (June 2025)',
+    publisher: 'Public Health Ontario',
+    url: 'https://www.publichealthontario.ca/en/About/News/2025/06/VBD-Tool-Launch',
+    supports: 'Launch of the current risk-area mapping tool and its weekly in-season update cadence',
+  },
+  {
+    name: 'The Ticks of Ontario Synthesis (2nd Edition) — PDF',
+    publisher: 'Public Health Ontario',
+    url: 'https://www.publichealthontario.ca/-/media/Documents/T/2023/tick-species-ontario-lyme.pdf',
+    supports: '43 tick species recorded in Ontario: 12 established, 17 adventive, 14 travel-related',
+  },
+  {
+    name: "Let's Talk About Ticks",
+    publisher: 'Public Health Ontario',
+    url: 'https://www.publichealthontario.ca/en/About/News/2022/Tick-Season',
+    supports: 'Approximately 70% of Ontario Lyme cases reported in June, July and August; ticks can be found any time of year when the temperature is above freezing',
+  },
+  {
+    name: 'Tick-borne Disease Information for Health Care Professionals',
+    publisher: 'Northwestern Health Unit',
+    url: 'https://www.nwhu.on.ca/for-professionals/for-health-care-professionals/tick-borne-disease-information-for-health-care-professionals/',
+    supports: '"More than 20% of black-legged ticks in our area are positive for Borrelia burgdorferi" (fall 2023 tick-dragging); the >20% threshold as the post-exposure prophylaxis criterion',
+  },
+  {
+    name: 'Nelder MP, Russell C, Lindsay LR, et al. "Population-Based Passive Tick Surveillance and Detection of Expanding Foci of Blacklegged Ticks Ixodes scapularis and the Lyme Disease Agent Borrelia burgdorferi in Ontario, Canada." PLoS One. 2014;9(8):e105358',
+    publisher: 'PLoS One (peer-reviewed)',
+    url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC4149368/',
+    supports: 'B. burgdorferi prevalence in submitted I. scapularis rising from 8.4% (2008) to 19.1% (2012); species submission shares — I. scapularis 54.6%, D. variabilis 35.6% of 14,369 ticks',
+  },
+  {
+    name: 'Important Change to Passive Tick Surveillance in Ontario (health-professional advisory)',
+    publisher: 'Public Health Sudbury & Districts',
+    url: 'https://www.phsd.ca/professionals/health-professionals/advisory-alerts-health-care-professionals/important-change-to-passive-tick-surveillance-in-ontario/',
+    supports: 'The National Microbiology Laboratory stopped accepting blacklegged ticks for Borrelia burgdorferi testing as of September 20, 2021',
+  },
+  {
+    name: 'eTick.ca — public tick identification and population monitoring platform',
+    publisher: 'eTick / Bishop’s University (NCCEH overview)',
+    url: 'https://ncceh.ca/resources/blog/etickca-public-platform-image-based-identification-and-population-monitoring-ticks',
+    supports: 'Free public photo-based tick identification now used in place of specimen submission',
+  },
 ]
 
 const FAQS = [
@@ -283,13 +344,18 @@ According to BuzzSkito&rsquo;s analysis of Northwestern Health Unit and City of 
                 <p className="text-4xl sm:text-5xl font-black">{s.value}</p>
                 <p className="text-xs mt-2 font-bold opacity-95">{s.detail}</p>
                 <p className="text-[11px] mt-3 opacity-90 leading-snug">{s.label}</p>
-                <p className="text-[10px] mt-2 opacity-75 italic">Source: {s.source}</p>
+                <p className="text-[10px] mt-2 opacity-75 italic">
+                  Source:{' '}
+                  {s.sourceUrl
+                    ? <a href={s.sourceUrl} target="_blank" rel="noopener" className="underline hover:opacity-100">{s.source}</a>
+                    : s.source}
+                </p>
               </div>
             ))}
           </div>
 
           <div className="rounded-xl bg-amber-50 border-l-4 border-amber-400 p-4 text-sm text-gray-800">
-            <strong>Why &ldquo;in risk areas&rdquo; matters:</strong> Public Health Ontario shifted from publishing a single province-wide infection rate to mapping established risk areas, and the National Microbiology Lab stopped routine bacterial testing of submitted ticks in September 2021. The latest published province-wide prevalence figure was 19.1% in 2012 (up from 8.4% in 2008). Infection prevalence is near zero outside established areas &mdash; so a single province-wide percentage can mislead. Always frame the figure as &ldquo;in established risk areas.&rdquo;
+            <strong>Why &ldquo;in risk areas&rdquo; matters:</strong> Public Health Ontario shifted from publishing a single province-wide infection rate to <a href="https://www.publichealthontario.ca/en/data-and-analysis/infectious-disease/vbd-tool" target="_blank" rel="noopener" className="underline font-semibold">mapping established risk areas</a>, and the National Microbiology Laboratory <a href="https://www.phsd.ca/professionals/health-professionals/advisory-alerts-health-care-professionals/important-change-to-passive-tick-surveillance-in-ontario/" target="_blank" rel="noopener" className="underline font-semibold">stopped accepting blacklegged ticks for bacterial testing on September 20, 2021</a>. The latest published province-wide prevalence figure was <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4149368/" target="_blank" rel="noopener" className="underline font-semibold">19.1% in 2012 (up from 8.4% in 2008)</a>. Infection prevalence is near zero outside established areas &mdash; so a single province-wide percentage can mislead. Always frame the figure as &ldquo;in established risk areas.&rdquo;
           </div>
         </div>
       </section>
@@ -304,7 +370,7 @@ According to BuzzSkito&rsquo;s analysis of Northwestern Health Unit and City of 
             {/* Canada chart */}
             <div className="rounded-2xl border-2 border-gray-200 bg-white p-6 shadow-sm">
               <h3 className="text-lg font-extrabold text-brand-900 mb-1">Lyme disease cases in Canada, 2020&ndash;2024</h3>
-              <p className="text-xs text-gray-500 mb-5">Source: Public Health Agency of Canada &mdash; Lyme disease surveillance annual report (Health Infobase)</p>
+              <p className="text-xs text-gray-500 mb-5">Source: <a href="https://health-infobase.canada.ca/zoonoses/ticks/annual-report.html" target="_blank" rel="noopener" className="underline hover:text-brand-900">Public Health Agency of Canada &mdash; Annual report: Lyme disease and other tick-borne diseases surveillance in Canada (Health Infobase)</a>. 2020&ndash;2021 counts from <a href="https://www.canada.ca/en/public-health/services/publications/diseases-conditions/lyme-disease-surveillance-canada-annual-edition-2021.html" target="_blank" rel="noopener" className="underline hover:text-brand-900">PHAC Lyme disease surveillance in Canada: Annual edition 2021</a>.</p>
               <div className="space-y-2">
                 {CANADA_LYME.map((y) => (
                   <div key={y.year} className="flex items-center gap-3">
@@ -325,7 +391,7 @@ According to BuzzSkito&rsquo;s analysis of Northwestern Health Unit and City of 
             {/* Ontario chart */}
             <div className="rounded-2xl border-2 border-gray-200 bg-white p-6 shadow-sm">
               <h3 className="text-lg font-extrabold text-brand-900 mb-1">Lyme disease cases in Ontario, 2022&ndash;2024</h3>
-              <p className="text-xs text-gray-500 mb-5">Source: Public Health Agency of Canada &mdash; Health Infobase (Ontario provincial breakdown)</p>
+              <p className="text-xs text-gray-500 mb-5">Source: <a href="https://health-infobase.canada.ca/zoonoses/ticks/annual-report.html" target="_blank" rel="noopener" className="underline hover:text-brand-900">Public Health Agency of Canada &mdash; Health Infobase, annual tick-borne disease surveillance report (Ontario provincial breakdown)</a>. <span className="italic">Definition note: the 2022 and 2024 figures are PHAC counts (confirmed + probable); the 2023 figure of 1,799 is Public Health Ontario&rsquo;s confirmed-case count. PHAC reports 1,859 for Ontario in 2023, and its stated +27% year-over-year change is calculated on that basis.</span></p>
               <div className="space-y-2">
                 {ONTARIO_LYME.map((y) => (
                   <div key={y.year} className="flex items-center gap-3">
@@ -346,8 +412,8 @@ According to BuzzSkito&rsquo;s analysis of Northwestern Health Unit and City of 
 
           <div className="mt-8 rounded-2xl bg-white border-l-4 border-rose-500 p-6 shadow-sm">
             <h3 className="text-lg font-extrabold text-brand-900 mb-3">Tick range expansion</h3>
-            <p className="text-sm text-gray-700 leading-relaxed mb-3">Blacklegged tick established risk areas have expanded steadily since 2015 &mdash; from isolated Great Lakes shoreline pockets to most of southern Ontario plus pockets in the northwest, according to Public Health Ontario&rsquo;s Vector-Borne Disease Tool. In 2025 alone, <strong>13 new risk areas were added across 6 of Ontario&rsquo;s 34 public health units</strong>. A 2026 map will reflect the 2025 surveillance season.</p>
-            <p className="text-xs text-gray-500 italic">Source: Public Health Ontario &mdash; Ontario Vector-Borne Disease Tool &amp; New VBD Tool launch (2025). For Ontario&rsquo;s full year-by-year Lyme case history and a public-health-unit directory, see our <Link href="/ontario-lyme-disease-tracker-2026" className="underline font-semibold text-rose-700">Ontario Lyme Disease Tracker 2026</Link>.</p>
+            <p className="text-sm text-gray-700 leading-relaxed mb-3">Blacklegged tick established risk areas have expanded steadily since 2015 &mdash; from isolated Great Lakes shoreline pockets to most of southern Ontario plus pockets in the northwest, according to <a href="https://www.publichealthontario.ca/en/data-and-analysis/infectious-disease/vbd-tool" target="_blank" rel="noopener" className="underline font-semibold text-rose-700">Public Health Ontario&rsquo;s Ontario Vector-Borne Disease Tool</a>. In 2025 alone, <strong>13 new risk areas were added across 6 of Ontario&rsquo;s 34 public health units</strong> &mdash; MSL (2), NIA (1), PEL (2), REN (3), SEH (3) and WAT (2).</p>
+            <p className="text-xs text-gray-500 italic">Sources: <a href="https://www.publichealthontario.ca/en/data-and-analysis/infectious-disease/vbd-tool" target="_blank" rel="noopener" className="underline">Public Health Ontario &mdash; Ontario Vector-Borne Disease Tool (blacklegged tick established risk areas)</a> and <a href="https://www.publichealthontario.ca/en/About/News/2025/06/VBD-Tool-Launch" target="_blank" rel="noopener" className="underline">Public Health Ontario Launches New Ontario Vector-Borne Disease Tool (June 2025)</a>. For Ontario&rsquo;s full year-by-year Lyme case history and a public-health-unit directory, see our <Link href="/ontario-lyme-disease-tracker-2026" className="underline font-semibold text-rose-700">Ontario Lyme Disease Tracker 2026</Link>.</p>
           </div>
         </div>
       </section>
@@ -360,7 +426,7 @@ According to BuzzSkito&rsquo;s analysis of Northwestern Health Unit and City of 
 
           <div className="rounded-2xl border-2 border-gray-200 bg-gradient-to-b from-gray-50 to-white p-6 shadow-sm">
             <h3 className="text-lg font-extrabold text-brand-900 mb-1">Blacklegged tick infection prevalence in Ontario</h3>
-            <p className="text-xs text-gray-500 mb-5">Source: Public Health Ontario passive surveillance (2008, 2012) &middot; Northwestern Health Unit drag sampling (2023, established risk areas)</p>
+            <p className="text-xs text-gray-500 mb-5">Sources: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4149368/" target="_blank" rel="noopener" className="underline hover:text-brand-900">Nelder MP et al., &ldquo;Population-Based Passive Tick Surveillance and Detection of Expanding Foci of Blacklegged Ticks <em>Ixodes scapularis</em> and the Lyme Disease Agent <em>Borrelia burgdorferi</em> in Ontario, Canada,&rdquo; PLoS One 2014;9(8):e105358</a> (2008 and 2012 figures) &middot; <a href="https://www.nwhu.on.ca/for-professionals/for-health-care-professionals/tick-borne-disease-information-for-health-care-professionals/" target="_blank" rel="noopener" className="underline hover:text-brand-900">Northwestern Health Unit &mdash; Tick-borne Disease Information for Health Care Professionals</a> (fall 2023 tick-dragging, established risk areas)</p>
             <div className="space-y-3">
               {INFECTION_PREVALENCE.map((p) => (
                 <div key={p.period} className="flex items-center gap-3">
@@ -406,12 +472,12 @@ According to BuzzSkito&rsquo;s analysis of Northwestern Health Unit and City of 
               <p className="text-xs mt-2 opacity-90">species transmits Lyme disease</p>
             </div>
           </div>
-          <p className="text-xs text-gray-500 -mt-6 mb-10 italic">Source: Public Health Ontario &mdash; The Ticks of Ontario Synthesis (2nd Edition). Of 43 recorded species: 12 established, 17 adventive (carried in by migratory birds and wildlife), 14 travel-related.</p>
+          <p className="text-xs text-gray-500 -mt-6 mb-10 italic">Source: <a href="https://www.publichealthontario.ca/-/media/Documents/T/2023/tick-species-ontario-lyme.pdf" target="_blank" rel="noopener" className="underline hover:text-brand-900">Public Health Ontario &mdash; The Ticks of Ontario Synthesis (2nd Edition), PDF</a>. Of 43 recorded species: 12 established, 17 adventive (carried in by migratory birds and wildlife), 14 travel-related.</p>
 
           {/* Species submission share bar chart */}
           <div className="rounded-2xl border-2 border-gray-200 bg-white p-6 shadow-sm mb-8">
             <h3 className="text-lg font-extrabold text-brand-900 mb-1">Share of ticks submitted to Ontario surveillance, by species</h3>
-            <p className="text-xs text-gray-500 mb-5">Source: Public Health Ontario passive surveillance. Submission shares reflect what people submit, not true population proportions.</p>
+            <p className="text-xs text-gray-500 mb-5">Source: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4149368/" target="_blank" rel="noopener" className="underline hover:text-brand-900">Nelder MP et al., PLoS One 2014;9(8):e105358 &mdash; Ontario passive tick surveillance</a>, in which <em>Ixodes scapularis</em> was 54.6% (7,842) and <em>Dermacentor variabilis</em> 35.6% (5,117) of 14,369 submitted ticks. Submission shares reflect what people submit, not true population proportions.</p>
             <div className="space-y-3">
               {TICK_SPECIES.filter((t) => t.sharePct !== null).map((t) => (
                 <div key={t.scientific} className="flex items-center gap-3">
@@ -476,7 +542,7 @@ According to BuzzSkito&rsquo;s analysis of Northwestern Health Unit and City of 
               </div>
             ))}
           </div>
-          <p className="text-xs text-gray-500 mt-5 italic">Source: Public Health Ontario &mdash; Let&rsquo;s Talk About Ticks. Peak human-biting season is May&ndash;July (nymphs) with a second adult peak in September&ndash;October.</p>
+          <p className="text-xs text-gray-500 mt-5 italic">Source: <a href="https://www.publichealthontario.ca/en/About/News/2022/Tick-Season" target="_blank" rel="noopener" className="underline hover:text-brand-900">Public Health Ontario &mdash; Let&rsquo;s Talk About Ticks</a>, which reports that approximately 70% of Ontario Lyme cases are reported in June, July and August, coinciding with the poppy-seed-sized nymph stage, and that &ldquo;ticks can be found any time of year when the temperature is above freezing.&rdquo; The September&ndash;October adult peak and the 4&deg;C activity threshold are widely cited by Ontario public health units; they are not stated in this specific PHO release.</p>
         </div>
       </section>
 
@@ -484,7 +550,7 @@ According to BuzzSkito&rsquo;s analysis of Northwestern Health Unit and City of 
       <section className="bg-gradient-to-br from-rose-50 to-orange-50 py-14 px-4 border-y-4 border-rose-200">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl font-extrabold text-brand-900 mb-2">Where are the worst areas for ticks in Ontario?</h2>
-          <p className="text-base text-gray-700 mb-4">The highest blacklegged tick infection rates are reported in <strong>Toronto and Northwestern Ontario</strong>, where more than 20% of ticks test positive for the Lyme bacterium (Northwestern Health Unit; City of Toronto). Established risk areas now cover most of southern Ontario, with notable concentrations along the Great Lakes shorelines, the Oak Ridges Moraine, the Niagara Escarpment, and eastern Ontario.</p>
+          <p className="text-base text-gray-700 mb-4">The highest blacklegged tick infection rates are reported in <strong>Toronto and Northwestern Ontario</strong>, where more than 20% of ticks test positive for the Lyme bacterium (<a href="https://www.nwhu.on.ca/for-professionals/for-health-care-professionals/tick-borne-disease-information-for-health-care-professionals/" target="_blank" rel="noopener" className="underline font-semibold text-rose-700">Northwestern Health Unit</a>; City of Toronto). Established risk areas now cover most of southern Ontario, with notable concentrations along the Great Lakes shorelines, the Oak Ridges Moraine, the Niagara Escarpment, and eastern Ontario.</p>
           <div className="rounded-2xl bg-white border-l-4 border-rose-500 p-6 shadow-sm">
             <p className="text-sm text-gray-700 leading-relaxed">For a detailed, neighbourhood-level breakdown of the worst tick areas in Ontario &mdash; including specific parks, trails, and GTA hot spots &mdash; read our companion guide: <Link href="/blog/are-ticks-dangerous-ontario" className="underline font-bold text-rose-700">Are ticks dangerous in Ontario? Worst areas &amp; risk explained</Link>.</p>
           </div>
@@ -517,11 +583,17 @@ According to BuzzSkito&rsquo;s analysis of Northwestern Health Unit and City of 
             </div>
 
             <p className="text-xs font-extrabold text-gray-500 uppercase tracking-wider mb-2">Primary sources used on this page</p>
-            <ul className="space-y-1.5 text-xs text-gray-600">
+            <ul className="space-y-3 text-xs text-gray-600">
               {SOURCES.map((src) => (
                 <li key={src.url} className="flex gap-1.5">
                   <span className="text-amber-500 shrink-0">›</span>
-                  <a href={src.url} target="_blank" rel="noopener" className="underline hover:text-brand-900 break-words">{src.name}</a>
+                  <span className="break-words">
+                    <a href={src.url} target="_blank" rel="noopener" className="underline font-semibold text-brand-900 hover:text-amber-700 break-words">{src.name}</a>
+                    {' — '}
+                    <span className="italic">{src.publisher}</span>
+                    <span className="block text-[11px] text-gray-500 mt-0.5">Supports: {src.supports}</span>
+                    <span className="block text-[10px] text-gray-400 mt-0.5 break-all">{src.url}</span>
+                  </span>
                 </li>
               ))}
             </ul>

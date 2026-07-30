@@ -39,7 +39,7 @@ const FAQS = [
   },
   {
     question: 'How does professional mosquito control reduce West Nile risk?',
-    answer: 'A professional barrier spray program reduces West Nile risk through two mechanisms. First, it kills adult mosquitoes resting on the underside of leaves and on shaded vegetation during the day — including the Culex pipiens that would otherwise bite your family at dusk. Second, the residual barrier creates a kill zone for incoming mosquitoes flying in from neighbouring properties or public green space, dropping the biting pressure in your yard by 85-90% for roughly 30 days per treatment. Combined with weekly standing water elimination and personal repellent use after dusk, professional barrier spray reduces the effective WNV exposure window in your own yard to a fraction of what it would be untreated.',
+    answer: 'A professional barrier spray program reduces West Nile risk through two mechanisms. First, it kills adult mosquitoes resting on the underside of leaves and on shaded vegetation during the day — including the Culex pipiens that would otherwise bite your family at dusk. Second, the residual stays active on those treated surfaces for roughly 30 days, so mosquitoes flying in from neighbouring properties or public green space land on a treated surface rather than a clean one. It does not clear your yard — mosquitoes keep arriving, which is why the treatment is repeated — and it does not replace weekly standing water elimination or personal repellent after dusk. Those layers together are what lowers your household\'s WNV exposure.',
   },
 ]
 
@@ -88,7 +88,7 @@ export default function WestNileMississaugaPage() {
             <li>Culex pipiens is a weak flier, rarely travelling more than 200 metres from where it breeds, so local standing water drives local biting.</li>
             <li>It breeds in water as small as a bottle cap; a clogged gutter holding water for 7 days can produce hundreds of adults.</li>
             <li>Peel runs catch-basin larviciding but does not adulticide (fog) neighbourhoods, so yard standing water is the homeowner&rsquo;s responsibility.</li>
-            <li>A professional barrier spray reduces yard biting pressure by 85&ndash;90% for roughly 30 days per treatment.</li>
+            <li>A professional barrier spray holds a residual on the shaded resting vegetation for roughly 30 days per treatment, then wears off.</li>
           </ul>
           <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
           <p className="mt-1.5 text-xs text-gray-500">Health information for general education, not medical advice. Contact Peel Public Health or a healthcare provider about West Nile symptoms or concerns.</p>
@@ -156,7 +156,7 @@ export default function WestNileMississaugaPage() {
         />
 
         <h3>Professional barrier spray for adult mosquitoes</h3>
-        <p>Standing water elimination handles the larvae you can find. A professional barrier spray handles the adults that flew in from sites you can\'t. Targeted to shaded resting habitat — the underside of leaves, dense shrub interiors, mulched beds, fence-line vegetation — a barrier spray reduces yard mosquito biting pressure by 85-90% for roughly 30 days per treatment. For a meaningful season-long impact in a Mississauga yard, the BuzzSkito Standard Season runs 10 biweekly treatments from May through September.</p>
+        <p>Standing water elimination handles the larvae you can find. A professional barrier spray handles the adults that flew in from sites you can\'t. Targeted to shaded resting habitat — the underside of leaves, dense shrub interiors, mulched beds, fence-line vegetation — a barrier spray knocks down what is resting there and holds a residual on those surfaces for roughly 30 days per treatment, after which it wears off and mosquitoes from off-property fill back in. For a meaningful season-long impact in a Mississauga yard, the BuzzSkito Standard Season runs 10 biweekly treatments from May through September.</p>
         <p>When those treatments land matters as much as how many there are. The first spray should go down between May 20 and June 4 depending on the neighbourhood, and the last in mid-to-late September — the reasoning behind both bookends is in <Link href="/blog/when-to-spray-mosquitoes-mississauga-2026" className="text-brand-700 underline">our guide to when to spray in Mississauga</Link>.</p>
 
         <h3>Personal protection during dusk hours</h3>

@@ -78,7 +78,7 @@ export default function TickTreatmentCostPage() {
             <li>Larger lots (10,000&ndash;20,000 sq ft) run about $150&ndash;$250, and estate or rural properties $200&ndash;$350+.</li>
             <li>A 2-treatment seasonal package saves 15&ndash;25% versus one-off visits; a 3-treatment package saves 20&ndash;35%.</li>
             <li>BuzzSkito&rsquo;s tick season is $597 standalone or $497 bundled with any mosquito plan, with single treatments from $99.</li>
-            <li>Professional barrier spray gives 4&ndash;6 weeks of residual protection and up to 90% tick reduction in treated zones.</li>
+            <li>Professional barrier spray gives 4&ndash;6 weeks of residual activity, placed on the shaded edges and leaf litter where ticks quest rather than across the whole lawn.</li>
             <li>DIY granular treatments cost $30&ndash;$80 but last only 2&ndash;3 weeks and require precise application.</li>
           </ul>
           <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
@@ -150,7 +150,7 @@ export default function TickTreatmentCostPage() {
         <ul>
           <li><strong>Cost:</strong> $99 – $250 per treatment</li>
           <li><strong>Residual protection:</strong> 4 – 6 weeks</li>
-          <li><strong>Effectiveness:</strong> Up to 90% population reduction in treated zones</li>
+          <li><strong>What you get:</strong> A Health Canada-registered residual acaricide on the tick-questing zones — not a guarantee of a tick-free yard</li>
           <li><strong>Application precision:</strong> Licensed technician targets all habitat zones based on professional assessment</li>
           <li><strong>Guarantee:</strong> Re-treat if results are inadequate</li>
         </ul>

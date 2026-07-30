@@ -160,7 +160,7 @@ export default function TickRemovalToolGuidePage() {
             ]}
             whichToBuy={
               <>
-                <strong>Want one tool for the whole household?</strong> The <em>Best Overall</em> Tick Twister is the vet-standard pick. <strong>First time removing a tick?</strong> The <em>Best for Beginners</em> TickKey is nearly impossible to misuse. <strong>Dog owner or ravine-adjacent yard?</strong> The <em>Best Kit</em> bundles everything with a storage vial. But the surest way to never need any of them is to stop finding ticks — <Link href="/tick-control">professional yard tick control</Link> cuts yard tick populations 80–95%.
+                <strong>Want one tool for the whole household?</strong> The <em>Best Overall</em> Tick Twister is the vet-standard pick. <strong>First time removing a tick?</strong> The <em>Best for Beginners</em> TickKey is nearly impossible to misuse. <strong>Dog owner or ravine-adjacent yard?</strong> The <em>Best Kit</em> bundles everything with a storage vial. But the fewer ticks in the yard to begin with, the less often you need any of them — <Link href="/tick-control">professional yard tick control</Link> treats the leaf litter and shaded edges where they wait.
               </>
             }
           />
@@ -270,7 +270,7 @@ export default function TickRemovalToolGuidePage() {
           <p>Note: Knowing a tick was a blacklegged species doesn&rsquo;t mean Lyme was transmitted. Only 10–30% of blacklegged ticks in Ontario actually carry Borrelia bacteria. Symptom monitoring is more reliable than tick testing alone.</p>
 
           <h2>The Bigger Picture — Stop Finding Ticks</h2>
-          <p>The fastest way to never need a tick removal tool is to not have ticks in your yard. <Link href="/tick-control">BuzzSkito&rsquo;s 5-spray tick season program</Link> reduces yard tick populations by 80–95% — most customers stop finding ticks within 2 weeks of the first treatment. From seasonal pricing on quote (or $497 bundled with mosquito).</p>
+          <p>The less often ticks turn up in your yard, the less often you reach for the tool. <Link href="/tick-control">BuzzSkito&rsquo;s 5-spray tick season program</Link> puts a Health Canada-registered residual acaricide on the leaf litter, lawn edges and shaded perimeters where ticks quest, repeated through the season as the residual wears off. Keep a removal tool anyway — no yard treatment eliminates ticks, and you will still pick them up on trails and dog walks. From seasonal pricing on quote (or $497 bundled with mosquito).</p>
           <p>Want a passive DIY layer between treatments? Permethrin tick tubes let mice carry the treatment into their nests, killing larval ticks before they ever quest for a host — see our <Link href="/blog/tick-tubes-canada">guide to tick tubes in Canada</Link>.</p>
 
           <h2>Related Reading</h2>
@@ -284,7 +284,7 @@ export default function TickRemovalToolGuidePage() {
         </div>
       </article>
 
-      <CTASection heading="Stop Finding Ticks in the First Place" subtext="Yard tick barrier spray reduces tick populations 80-95%. From seasonal pricing on quote." variant="dark" />
+      <CTASection heading="Stop Finding Ticks in the First Place" subtext="Yard tick barrier spray treats the leaf litter and shaded edges where ticks quest. From seasonal pricing on quote." variant="dark" />
     </>
   )
 }

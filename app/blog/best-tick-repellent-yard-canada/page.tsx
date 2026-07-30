@@ -18,7 +18,7 @@ const TITLE = 'Best Tick Repellent for Yards — Canada 2026'
 const FAQS = [
   {
     question: 'What is the best tick repellent for yards in Canada?',
-    answer: 'Health Canada-approved professional barrier spray is the most effective tick yard repellent available — applied to leaf litter, lawn-to-woods edges, fence-line vegetation, and shaded perimeters where ticks live. Consumer DIY products (cedar-oil sprays, garlic sprays, granular pesticides from Home Depot) provide partial control but at lower concentrations and without targeted application to the specific micro-habitats ticks occupy. Professional yard tick spray reduces tick populations by 80–95% compared to 20–40% for typical DIY products.',
+    answer: 'Health Canada-approved professional barrier spray is the most effective tick yard repellent available — applied to leaf litter, lawn-to-woods edges, fence-line vegetation, and shaded perimeters where ticks live. Consumer DIY products (cedar-oil sprays, garlic sprays, granular pesticides from Home Depot) use lower concentrations and are usually broadcast over the lawn rather than placed in the shaded edge habitat ticks actually occupy. The difference is less about the chemistry than about where it lands and how long it persists — and neither approach eliminates ticks from a property, because wildlife keeps carrying new ones in all season.',
   },
   {
     question: 'Does cedar oil really repel ticks?',
@@ -52,7 +52,7 @@ const FAQS = [
 
 export const metadata: Metadata = buildMetadata({
   title: 'Best Tick Repellent for Yards — Canada 2026',
-  description: 'Cedar-oil sprays cut yard tick numbers roughly 40-60% and need re-spraying every 2 weeks. See how they compare to granules and professional barrier spray.',
+  description: 'Tick repellent for yard, Canada 2026: how cedar-oil sprays, permethrin granules and professional barrier spray differ, where each works, when to re-apply.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -88,12 +88,12 @@ export default function BestTickRepellentYardPage() {
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
           <div className="not-prose bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The best tick repellent for Ontario yards is a Health Canada-approved professional barrier spray &mdash; it cuts tick populations 80&ndash;95% by targeting the leaf litter and lawn edges where ticks actually live, with up to 30 days of residual protection. The best DIY runner-up is a cedar-oil spray like Wondercide, layered over free habitat fixes.</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The best tick repellent for Ontario yards is a Health Canada-approved professional barrier spray &mdash; it places a residual acaricide directly on the leaf litter and lawn edges where ticks actually live, and stays active on those surfaces for up to 30 days. The best DIY runner-up is a cedar-oil spray like Wondercide, layered over free habitat fixes.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
-              <li>Professional barrier spray reduces yard tick populations 80&ndash;95% and lasts up to 30 days &mdash; about three times longer than the best consumer products.</li>
+              <li>Professional barrier spray stays active on the treated edges for up to 30 days &mdash; about three times longer than the best consumer products, which is the real gap.</li>
               <li>Professional treatment kills adult ticks, nymphs, and larvae on contact, not just adults.</li>
-              <li>Permethrin-based granular pesticides give roughly 60&ndash;75% reduction when applied correctly.</li>
-              <li>Cedar-oil sprays like Wondercide deliver about 40&ndash;60% reduction and must be re-applied every 2 weeks.</li>
+              <li>Permethrin-based granular pesticides carry a synthetic residual down into the lawn and edge zones and hold 4&ndash;6 weeks &mdash; but only where you actually achieved even coverage.</li>
+              <li>Cedar-oil sprays like Wondercide repel and kill ticks on contact, but the oil evaporates far faster than a synthetic residual, so they need re-applying every 2 weeks.</li>
               <li>Consumer DIY tick sprays typically last only 1&ndash;14 days.</li>
               <li>A short lawn plus a 3-foot mulch barrier at property edges are free habitat fixes that reduce tick pressure.</li>
             </ul>
@@ -113,7 +113,7 @@ export default function BestTickRepellentYardPage() {
               {
                 badge: 'Best Overall DIY',
                 name: 'Wondercide Cedar-Oil Yard Spray',
-                why: 'The leading evidence-backed natural yard spray — real cedar-oil repellency at 40–60% population reduction when re-applied every 2 weeks. The strongest DIY layer to stack on top of the free habitat fixes.',
+                why: 'The leading natural yard spray. Cedar oil has documented contact repellency against ticks, but it evaporates much faster than a synthetic residual, so it holds only if you re-apply every 2 weeks. The strongest DIY layer to stack on top of the free habitat fixes.',
                 search: 'wondercide tick yard spray',
                 score: 8.3,
                 featured: true,
@@ -123,10 +123,10 @@ export default function BestTickRepellentYardPage() {
               {
                 badge: 'Best Granular',
                 name: 'Permethrin-Based Granular Pesticide',
-                why: 'Applied correctly, permethrin granules give roughly 60–75% reduction — the strongest DIY control if you nail even coverage over lawn edges and leaf-litter zones.',
+                why: 'Granules carry the residual down into the leaf-litter and lawn-edge zones ticks quest from, where a surface spray never lands — the strongest DIY control if you nail even coverage.',
                 search: 'permethrin granules yard tick',
                 score: 7.6,
-                pros: ['Highest DIY reduction (60–75%)', 'Lasts 4–6 weeks per application', 'Wide retailer availability'],
+                pros: ['Longest-holding residual of the DIY yard options', 'Lasts 4–6 weeks per application', 'Wide retailer availability'],
                 cons: ['Hard to spread evenly without gear', 'Synthetic pesticide handling care'],
               },
               {
@@ -150,7 +150,7 @@ export default function BestTickRepellentYardPage() {
             ]}
             whichToBuy={
               <>
-                <strong>Going fully natural?</strong> The <em>Best Overall DIY</em> Wondercide cedar-oil spray is the strongest layer — plan on bi-weekly application. <strong>Want maximum DIY knockdown?</strong> The <em>Best Granular</em> permethrin option reaches 60–75% when spread evenly. <strong>Spending real time in the yard or on trails?</strong> Add the <em>Best for Personal Wear</em> Sawyer Permethrin to your clothing. But for 80–95% reduction that targets where ticks actually live, nothing DIY matches <Link href="/tick-control">professional barrier spray</Link>.
+                <strong>Going fully natural?</strong> The <em>Best Overall DIY</em> Wondercide cedar-oil spray is the strongest layer — plan on bi-weekly application. <strong>Want maximum DIY knockdown?</strong> The <em>Best Granular</em> permethrin option holds the longest residual of the DIY choices, provided you spread it evenly. <strong>Spending real time in the yard or on trails?</strong> Add the <em>Best for Personal Wear</em> Sawyer Permethrin to your clothing. But for placing a longer-lasting residual precisely where ticks actually live, nothing DIY matches <Link href="/tick-control">professional barrier spray</Link>.
               </>
             }
           />
@@ -159,13 +159,13 @@ export default function BestTickRepellentYardPage() {
 
           <h3>🟢 Tier 1: Most effective</h3>
           <ul>
-            <li><strong>Professional Health Canada-approved barrier spray</strong> — Applied to leaf litter, lawn edges, fence lines, and shaded perimeters. 80–95% population reduction. ~seasonal pricing on quote for 5-spray program.</li>
+            <li><strong>Professional Health Canada-approved barrier spray</strong> — A Health Canada-registered residual acaricide applied to leaf litter, lawn edges, fence lines, and shaded perimeters — the zones ticks quest from. ~seasonal pricing on quote for 5-spray program.</li>
           </ul>
 
           <h3>🟡 Tier 2: Effective DIY options</h3>
           <ul>
-            <li><strong>Permethrin-based granular pesticides</strong> (e.g. Bayer Advanced) — Decent control if applied correctly. 60–75% reduction. Requires proper coverage technique.</li>
-            <li><strong>Cedar oil sprays</strong> (Wondercide, Cedarcide) — Mild but real repellency. 40–60% reduction at recommended concentrations. Re-apply every 2 weeks.</li>
+            <li><strong>Permethrin-based granular pesticides</strong> (e.g. Bayer Advanced) — Decent control if applied correctly. The granules carry a synthetic residual into the leaf-litter and edge zones and hold there 4–6 weeks. Requires proper coverage technique.</li>
+            <li><strong>Cedar oil sprays</strong> (Wondercide, Cedarcide) — Mild but real repellency at recommended concentrations, though consumer formulas run weaker than the concentrations used in testing. Re-apply every 2 weeks.</li>
           </ul>
 
           <h3>🟠 Tier 3: Habitat modification (FREE and important)</h3>
@@ -205,7 +205,7 @@ export default function BestTickRepellentYardPage() {
             <li><strong>Stack firewood off the ground and away from the house.</strong> Mice live in woodpiles. Ticks ride on mice.</li>
             <li><strong>Discourage deer.</strong> Deer fences, deer-resistant landscaping, no deer corn.</li>
           </ol>
-          <p>Studies in tick-endemic areas (CT, NY, ON) show that habitat modification alone reduces yard tick populations by 30–60% with zero pesticide use.</p>
+          <p>Habitat modification works by removing the conditions ticks need rather than by killing them: ticks dry out in short, sun-exposed turf, they overwinter in the leaf litter you rake away, and a dry wood-chip strip is a barrier they will not cross. It costs nothing and uses no pesticide. Its limit is that it only reshapes your own property — ticks keep arriving on deer, mice, and birds regardless.</p>
 
           <h2>The Professional Option (Why Most Ontario Homeowners End Up Here)</h2>
           <p>For Ontario homeowners in confirmed Lyme zones (Oak Ridges Moraine, Rouge Park, Bronte Creek, Dundas Valley, Niagara), professional barrier spray is the most effective and most cost-efficient option:</p>

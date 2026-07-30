@@ -17,7 +17,7 @@ const POST = TICK_BLOGS.pillar
 export const metadata: Metadata = buildMetadata({
   title: 'Tick Surge Ontario 2026: Complete Yard Control Guide (Lyme Risk + 5-Step Plan)',
   description:
-    "Ontario's 2026 tick surge is real — Toronto is now a hot spot. Identify all 4 species, see Lyme-endemic zones (3,614 cases in 2025), and use the 5-step yard plan that reduces ticks 80-90%. Free risk score by address.",
+    "Ontario's 2026 tick surge is real — Toronto is now a hot spot. Identify all 4 species, understand how Ontario actually maps tick risk areas (2,369 Ontario cases in 2024, the newest year PHAC has published), and use the 5-step yard plan. Free risk score by address.",
   canonical: `/blog/${POST.slug}`,
   type: 'article',
   publishedTime: POST.date,
@@ -65,9 +65,9 @@ export default function TickPillarPage() {
 
         <div className="not-prose bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
           <p className="text-xs font-extrabold text-emerald-700 uppercase tracking-wider mb-2">Quick Answer</p>
-          <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Effective tick control for Ontario yards is three layers working together: habitat modification (clear leaf litter, mow edges, add a gravel border), professional barrier spray on the specific zones where ticks concentrate, and personal protection — permethrin-treated clothing plus daily tick checks. Combined, this approach reduces tick encounters on residential properties by 80–90%.</p>
+          <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Effective tick control for Ontario yards is three layers working together: habitat modification (clear leaf litter, mow edges, add a gravel border), professional barrier spray on the specific zones where ticks concentrate, and personal protection — permethrin-treated clothing plus daily tick checks. Each layer covers a different failure mode: habitat work removes the humid leaf litter ticks need, the residual acaricide acts on the questing zones for a few weeks at a time, and personal protection catches the ticks that get through. None of the three eliminates ticks on its own, and none of them makes the tick check optional.</p>
           <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
-            <li>The three-layer approach (habitat, barrier spray, personal protection) reduces tick encounters on residential properties by 80&ndash;90%.</li>
+            <li>The three-layer approach (habitat, barrier spray, personal protection) works because each layer covers what the other two miss &mdash; none of them clears a property on its own.</li>
             <li>The blacklegged (deer) tick is Canada&rsquo;s primary Lyme vector; poppy-seed-sized nymphs active in May&ndash;June cause the majority of Ontario Lyme cases.</li>
             <li>Field studies find the overwhelming majority of yard ticks within about 3 metres of the lawn-to-wild transition edge.</li>
             <li>A professional barrier spray kills ticks at all life stages on contact and gives up to 30 days of residual protection per application.</li>

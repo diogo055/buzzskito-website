@@ -12,7 +12,7 @@ const TITLE = 'BuzzSkito 2026 GTA Mosquito & Tick Surveillance Report'
 export const metadata: Metadata = buildMetadata({
   title: '2026 GTA Mosquito & Tick Report (Original Data from 200+ Property Surveys)',
   description:
-    'BuzzSkito 2026 GTA Mosquito & Tick Surveillance Report — original data from 200+ property surveys across 19 GTA cities. Pressure tier maps, peak weeks, neighbourhood-level findings, Lyme-endemic boundaries. Free, cite-ready, journalist-friendly.',
+    'BuzzSkito 2026 GTA Mosquito & Tick Surveillance Report — original data from 200+ property surveys across 19 GTA cities. Pressure tier maps, peak weeks, neighbourhood-level findings, and tick-habitat corridors. Free, cite-ready, journalist-friendly.',
   canonical: SLUG,
   type: 'article',
   publishedTime: PUBLISHED,
@@ -37,7 +37,7 @@ const FAQS = [
   },
   {
     question: 'How many GTA properties experience mosquito or tick problems?',
-    answer: 'Public Health Ontario surveillance data plus 2025 BuzzSkito service data indicate approximately 60–75% of GTA properties experience meaningful mosquito pressure during peak season (June–July). Tick exposure is more concentrated: properties within 1 km of conservation areas, ravines, or wooded edges (estimated 35–45% of GTA residential properties) face confirmed blacklegged tick risk. Lyme disease cases in Ontario have increased more than tenfold over the past decade per public health data.',
+    answer: 'There is no published figure for this, so we will be clear about whose number this is. Across our own 2025 service and survey data, roughly 60–75% of the GTA properties we assessed showed meaningful mosquito pressure during peak season (June–July). That is BuzzSkito\'s own operational data from properties that contacted us — a self-selected sample, not a representative survey of the GTA, and not a Public Health Ontario statistic. Tick exposure is more concentrated in properties backing onto conservation areas, ravines, or wooded edges; for the authoritative picture of where blacklegged ticks are established, use Public Health Ontario\'s Ontario Vector-Borne Disease Tool risk-area map rather than any estimate of ours. On the disease side, the published record is clearer: Ontario reported 2,369 confirmed and probable Lyme disease cases in 2024, up 27% over 2023, according to the Public Health Agency of Canada.',
   },
   {
     question: 'When is the optimal time to start a barrier spray program in the GTA?',
@@ -226,12 +226,16 @@ export default function MosquitoIndexPage() {
         <p>Properties within <strong>500 metres of a stormwater pond</strong> experience consistent seasonal pressure regardless of personal property management. Barrier spray on the property is the most effective response since the pond itself is municipal land outside of homeowner control.</p>
 
         <h2>7. Treatment Effectiveness Findings</h2>
-        <p>BuzzSkito field data 2024–2026 supports the following treatment effectiveness assessments for residential GTA properties:</p>
+        {/* No percentages here. These were previously given as 40-60%, 85-95% and 95%+ attributed to
+            "BuzzSkito field data 2024-2026" - unpublished internal figures with no stated methodology,
+            on a page that invites journalists to cite it. Removed 30 Jul 2026. Each item now describes
+            what the method actually does and where it stops working. */}
+        <p>What each method actually does on a residential GTA property, and where each one stops:</p>
         <ul>
-          <li><strong>Single barrier spray (Health Canada-approved residual formula):</strong> 80–90% mosquito reduction within 24–48 hours of application; up to 30 days residual protection</li>
-          <li><strong>Source elimination alone (eliminating standing water on the property):</strong> 40–60% reduction (limited because adult mosquitoes disperse from off-property sources up to 3 km)</li>
-          <li><strong>Source elimination + barrier spray combined:</strong> 85–95% reduction across full property</li>
-          <li><strong>BTI larvicide treatment (mosquito dunks) in retained water sources:</strong> 95%+ larval mortality within 24 hours; treats larvae only, not adults</li>
+          <li><strong>Single barrier spray (Health Canada-registered residual formula):</strong> knocks down mosquitoes resting on the treated vegetation and leaves a residual on those surfaces for up to 30 days; mosquitoes disperse back in from surrounding properties, so it is repeated rather than one-and-done</li>
+          <li><strong>Source elimination alone (eliminating standing water on the property):</strong> removes the breeding sites you control, but adult mosquitoes disperse onto the property from off-site sources up to 3 km away, so it cannot clear a yard on its own</li>
+          <li><strong>Source elimination + barrier spray combined:</strong> the two work on different halves of the problem — one removes what breeds on your property, the other treats the resting surfaces adults use once they arrive. Neither substitutes for the other</li>
+          <li><strong>BTI larvicide (mosquito dunks) in water you cannot drain:</strong> a biological larvicide that kills mosquito larvae in the treated water. It does nothing to adults, so it is a complement to barrier treatment rather than an alternative</li>
           <li><strong>Personal repellents (DEET 20–30%, picaridin 20%):</strong> Effective for individual outdoor activity; do not reduce yard mosquito population</li>
         </ul>
 

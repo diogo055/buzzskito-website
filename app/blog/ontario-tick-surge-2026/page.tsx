@@ -18,11 +18,11 @@ const FAQS = [
   },
   {
     question: 'How dangerous is the surge for families and pets?',
-    answer: 'More ticks means more bite encounters, and a higher percentage of blacklegged ticks in 2026 are testing positive for Borrelia burgdorferi (the Lyme disease bacterium). Pets — especially dogs that walk in long grass, ravines, or wooded areas — are at significantly higher exposure risk. Children playing in backyards bordering naturalized areas face the same risk. Ontario reported 3,614 confirmed Lyme cases in 2025, a 30-fold increase since 2010, and 2026 is on track to surpass that.',
+    answer: 'More ticks means more bite encounters, and a higher percentage of blacklegged ticks in 2026 are testing positive for Borrelia burgdorferi (the Lyme disease bacterium). Pets — especially dogs that walk in long grass, ravines, or wooded areas — are at significantly higher exposure risk. Children playing in backyards bordering naturalized areas face the same risk. Ontario reported 2,369 confirmed and probable Lyme disease cases in 2024 — up 27% over the 1,859 reported in 2023, and about 41% of Canada\'s national total, according to the Public Health Agency of Canada. 2024 is the most recent year for which a provincial figure has been published; no 2025 Ontario total has been released.',
   },
   {
     question: "What's the most effective protection for my yard?",
-    answer: 'A professional tick barrier spray applied to perimeter zones (fence lines, garden beds, wood-edge transitions, leaf-litter areas, under decks) reduces tick populations on a residential property by 80-90% within 7-14 days of application. Spring + late summer applications cover both the nymph and adult tick activity peaks. Habitat modification (leaf removal, regular mowing, gravel/wood-chip buffer between lawn and forest) adds another 30-40% reduction. The two combined are the gold standard for residential tick control in Ontario.',
+    answer: 'A professional tick barrier spray puts a Health Canada-registered residual acaricide on the perimeter zones where blacklegged ticks actually sit — fence lines, garden beds, wood-edge transitions, leaf-litter areas and under decks — instead of the open lawn, where they largely do not. Spring and late-summer applications cover both the nymph and adult activity peaks. Habitat modification (leaf removal, regular mowing, and a gravel or wood-chip buffer between lawn and forest) removes the shaded humidity ticks need to survive between hosts, so the two work together. Neither eliminates ticks: wildlife carries new ones onto the property all season, which is why treatment is repeated rather than done once.',
   },
   {
     question: 'When should I start tick prevention?',
@@ -71,12 +71,12 @@ export default function OntarioTickSurge2026Page() {
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
         <div className="not-prose bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
           <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-          <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Ontario&rsquo;s 2026 tick season is running 2&ndash;3 weeks ahead of typical years, with blacklegged tick nymphs peaking from May through July. The most effective yard protection is a professional tick barrier spray in late May to early June plus habitat modification &mdash; together they sharply reduce on-property tick encounters.</p>
+          <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Ontario&rsquo;s 2026 tick season is running 2&ndash;3 weeks ahead of typical years, with blacklegged tick nymphs peaking from May through July. The most effective yard protection is a professional tick barrier spray in late May to early June plus habitat modification: the spray puts a residual acaricide on the shaded edges and leaf litter where ticks quest, and the habitat work removes the humidity they need to survive there between hosts. Neither eliminates ticks, so keep doing tick checks.</p>
           <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
             <li>Public health experts confirmed in May 2026 that tick activity across Southern Ontario is running 2&ndash;3 weeks ahead of typical years.</li>
-            <li>Ontario reported 3,614 confirmed Lyme disease cases in 2025 &mdash; roughly a 30-fold increase since 2010.</li>
-            <li>Professional tick barrier spray reduces on-property tick populations by 80&ndash;90% within 7&ndash;14 days of application.</li>
-            <li>Habitat modification &mdash; leaf-litter removal, short mowing, and a 3-foot gravel or wood-chip buffer &mdash; adds roughly another 30&ndash;40% reduction.</li>
+            <li>Ontario reported 2,369 confirmed and probable Lyme disease cases in 2024 &mdash; up 27% over 2023 and the most of any province (PHAC). 2024 is the newest published year.</li>
+            <li>Professional tick barrier spray puts a Health Canada-registered residual acaricide on the fence lines, leaf litter and wood-edge transitions where ticks quest &mdash; not the open lawn.</li>
+            <li>Habitat modification &mdash; leaf-litter removal, short mowing, and a 3-foot gravel or wood-chip buffer &mdash; works on a different mechanism: it dries out the shaded litter layer ticks need to survive between hosts.</li>
             <li>Blacklegged tick nymphs, the stage most associated with Lyme transmission, are active in Ontario from May through July.</li>
             <li>Lyme transmission typically requires 24&ndash;36 hours of tick attachment, so a daily tick-check habit dramatically reduces risk.</li>
           </ul>
@@ -91,7 +91,7 @@ export default function OntarioTickSurge2026Page() {
         </aside>
 
         <p className="text-lg text-gray-700 not-prose border-l-4 border-amber-400 pl-5 py-2 mb-8 leading-relaxed">
-          <strong>TL;DR:</strong> Ontario&rsquo;s tick population is running 2-3 weeks ahead of normal in 2026. Toronto is now classified as a hot spot. Blacklegged tick nymphs (the most dangerous Lyme-carrying stage) are peaking right now through July. Professional barrier spray + habitat modification cuts your property&rsquo;s tick population by 80-90%. The window for spring application is closing.
+          <strong>TL;DR:</strong> Ontario&rsquo;s tick population is running 2-3 weeks ahead of normal in 2026. Toronto is now classified as a hot spot. Blacklegged tick nymphs (the most dangerous Lyme-carrying stage) are peaking right now through July. Professional barrier spray puts a Health Canada-registered residual acaricide on the shaded edges and leaf litter where ticks quest, and habitat modification takes away the humidity they need there. The window for spring application is closing.
         </p>
 
         <h2>The 2026 tick surge, in one sentence</h2>
@@ -131,7 +131,7 @@ export default function OntarioTickSurge2026Page() {
 
         <h2>Related guides</h2>
         <ul>
-          <li><Link href="/blog/lyme-disease-risk-areas-ontario-2026" className="text-brand-700 underline">Lyme Disease Risk Areas Ontario 2026 (Endemic Map + 3,614 Cases)</Link></li>
+          <li><Link href="/blog/lyme-disease-risk-areas-ontario-2026" className="text-brand-700 underline">Lyme Disease Risk Areas Ontario 2026 (Endemic Map)</Link></li>
           <li><Link href="/blog/ultimate-tick-control-guide-ontario" className="text-brand-700 underline">Tick Surge Ontario 2026: Complete Yard Control Guide</Link></li>
           <li><Link href="/blog/are-ticks-dangerous-ontario" className="text-brand-700 underline">Are Ticks Dangerous in Ontario? What Every Family Should Know</Link></li>
           <li><Link href="/ontario-lyme-disease-tracker-2026" className="text-brand-700 underline">Ontario Lyme Disease Tracker — PHU-by-PHU live data</Link></li>

@@ -222,8 +222,8 @@ function ScoreReveal({ result, back, name, setName, email, setEmail, submitting,
         <p className="text-xs uppercase tracking-widest opacity-80 font-semibold mb-2">Your Household Lyme Risk</p>
         <div className="text-7xl font-black leading-none mb-1">{result.score}<span className="text-3xl opacity-70 font-bold"> / 100</span></div>
         <p className="text-2xl font-extrabold">{result.tierLabel}</p>
-        {result.isLymeEndemic && (
-          <div className="mt-4 inline-block bg-black/20 rounded-full px-4 py-2 text-xs font-bold backdrop-blur">⚠️ {result.cityName} is in a Public Health Ontario Lyme-endemic zone</div>
+        {result.isNearMappedRiskArea && (
+          <div className="mt-4 inline-block bg-black/20 rounded-full px-4 py-2 text-xs font-bold backdrop-blur">⚠️ {result.cityName} borders terrain mapped as blacklegged tick risk area</div>
         )}
       </div>
 

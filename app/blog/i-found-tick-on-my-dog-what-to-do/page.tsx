@@ -46,7 +46,7 @@ const FAQS = [
   },
   {
     question: 'How do I prevent finding ticks on my dog again?',
-    answer: 'A combined approach works best: (1) Monthly vet-prescribed tick preventative for your dog. (2) Keep your lawn mowed short and clear leaf litter from edges. (3) Avoid tall grass and brushy areas during walks. (4) Daily tick checks after every outdoor walk in tick season. (5) Professional tick barrier spray for your yard — BuzzSkito\'s 5-spray season program reduces tick populations by 90%+ in treated yards across the GTA.',
+    answer: 'A combined approach works best: (1) Monthly vet-prescribed tick preventative for your dog. (2) Keep your lawn mowed short and clear leaf litter from edges. (3) Avoid tall grass and brushy areas during walks. (4) Daily tick checks after every outdoor walk in tick season. (5) Professional tick barrier spray for your yard — BuzzSkito\'s 5-spray season program puts a Health Canada-registered residual acaricide on the leaf litter, lawn edges and fence lines where ticks wait, repeated through the season. It reduces the odds of an encounter at home; it does not clear a property, so keep doing steps 1 and 4.',
   },
 ]
 

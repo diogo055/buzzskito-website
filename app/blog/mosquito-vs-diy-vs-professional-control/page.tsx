@@ -15,7 +15,7 @@ const UPDATED = POST.date
 const FAQS = [
   {
     question: 'Does professional mosquito spray actually work?',
-    answer: 'Yes. Professional barrier spray applied to vegetation and shrubs provides up to 30 days of residual mosquito reduction per treatment. Studies and field results consistently show 60–90%+ reduction in mosquito activity in treated areas, compared to 11–42% reduction from citronella candles in the immediate vicinity. The key difference is professional-grade active ingredient concentrations and the expertise to achieve thorough coverage of all resting sites.',
+    answer: 'Yes, with a caveat worth stating. Professional barrier spray applied to vegetation and shrubs leaves a residual on those surfaces for up to 30 days per treatment, and it works because adult mosquitoes spend the day resting on shaded leaf undersides and inside shrubs — so treating those surfaces reaches them where they actually are. A citronella candle, by contrast, only masks scent cues within about a metre of the flame and stops working when it goes out. What the spray does not do is clear an area: mosquitoes disperse in from neighbouring properties and ravines, which is why treatment is repeated through the season.',
   },
   {
     question: 'Is professional mosquito control worth it?',
@@ -72,14 +72,14 @@ export default function DIYvsProfessionalPage() {
         <div className="not-prose"><AuthorByline datePublished={POST.date} dateModified={UPDATED} /></div>
         <div className="not-prose bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
           <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-          <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Professional barrier spray is the only approach that reliably cuts mosquito populations across an entire Ontario yard — a 60–90%+ reduction lasting up to 30 days per treatment. DIY tools like citronella, foggers, and DEET are useful supplements, not substitutes.</p>
+          <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Professional barrier spray is the only approach that treats the resting surfaces across an entire Ontario yard — a residual on shaded vegetation lasting up to 30 days per treatment. DIY tools like citronella, foggers, and DEET are useful supplements, not substitutes. Nothing here clears a yard; mosquitoes disperse back in from surrounding properties.</p>
           <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
             <li>Citronella candles reduce mosquito landings by only 11–42%, and only within about 1 metre of the flame.</li>
             <li>Consumer foggers and hose-end sprays last 1–7 days; professional barrier spray lasts up to 30 days.</li>
             <li>DEET protects the wearer's skin but does nothing to reduce the yard's mosquito population.</li>
             <li>BTI mosquito dunks kill larvae in standing water for about 30 days and are harmless to pets, birds, and fish.</li>
             <li>A Thermacell creates roughly a 6-metre repellent zone around a seated area — effective for a patio table, useless for a whole yard.</li>
-            <li>Professional barrier spray starts from $99 per treatment, with 60–90%+ population reduction in treated areas.</li>
+            <li>Professional barrier spray starts from $99 per treatment and leaves a residual on the shaded vegetation where mosquitoes rest during the day.</li>
           </ul>
           <p className="mt-3 text-xs text-gray-500">— BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
         </div>
@@ -89,7 +89,7 @@ export default function DIYvsProfessionalPage() {
         </p>
 
         <h2>Citronella Candles and Torches</h2>
-        <p><strong>Effectiveness: Low.</strong> Citronella products create a localized scent barrier that can marginally reduce mosquitoes near the immediate source — within about 1 metre of the flame. They have no residual effect and provide zero protection when the candle isn't lit. Research consistently shows citronella candles reduce mosquito landings by only 11–42% in the immediate vicinity, compared to 60–90%+ reduction with professional barrier spray.</p>
+        <p><strong>Effectiveness: Low.</strong> Citronella products create a localized scent barrier that can marginally reduce mosquitoes near the immediate source — within about 1 metre of the flame. They have no residual effect and provide zero protection when the candle isn't lit. Research consistently shows citronella candles reduce mosquito landings by only 11–42% in the immediate vicinity — and that protection ends the moment the flame does, whereas a barrier treatment leaves a residual on the vegetation for weeks.</p>
         <p><strong>Best use:</strong> As a supplement on a patio table while sitting directly beside it. Not a yard-wide solution.</p>
 
         <h2>DEET and Other Personal Repellents</h2>
