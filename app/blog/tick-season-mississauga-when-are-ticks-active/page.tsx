@@ -34,8 +34,10 @@ const FAQS = [
   },
 ]
 
+const META_TITLE = 'Tick Season Mississauga 2026: Month by Month'
+
 export const metadata: Metadata = buildMetadata({
-  title: 'Tick Season in Mississauga 2026: When Ticks Are Most Active',
+  title: META_TITLE,
   description:
     "Mississauga tick season 2026 calendar — month-by-month activity, Credit River + Rattray Marsh hotspots, and the exact yard treatment windows that matter. Peel Public Health backed.",
   canonical: `/blog/${POST.slug}`,

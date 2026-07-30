@@ -14,7 +14,7 @@ const SLUG = 'katchy-indoor-insect-trap-review-canada'
 const DATE = '2026-07-21'
 const UPDATED = '2026-07-21'
 const TITLE = 'Katchy Indoor Insect Trap Review (Canada 2026) — What It Actually Catches'
-const META_TITLE = 'Katchy Indoor Insect Trap Review Canada 2026: Honest Test'
+const META_TITLE = 'Katchy Trap Review Canada 2026: Gnats, Not Flies'
 
 const FAQS = [
   {

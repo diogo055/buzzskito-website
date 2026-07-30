@@ -14,6 +14,7 @@ const SLUG = 'best-rat-trap-canada'
 const DATE = '2026-07-16'
 const UPDATED = '2026-07-16'
 const TITLE = 'Best Rat Trap Canada 2026 — Snap vs Electronic + Why Mouse Traps Fail'
+const META_TITLE = 'Best Rat Trap Canada 2026: Why Mouse Traps Fail'
 
 const FAQS = [
   {
@@ -67,7 +68,7 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: TITLE,
+  title: META_TITLE,
   description: 'Independent Canadian guide to the best rat traps for 2026 — Victor snap vs electronic vs Tomcat, why mouse traps fail on rats, Norway vs roof rats in the GTA, pre-baiting for trap-shy rats, and what rodenticides are actually PMRA-legal.',
   canonical: `/blog/${SLUG}`,
   type: 'article',

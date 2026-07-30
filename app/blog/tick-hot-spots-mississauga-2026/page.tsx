@@ -34,8 +34,10 @@ const FAQS = [
   },
 ]
 
+const META_TITLE = 'Mississauga Tick Hot Spots 2026 by Neighbourhood'
+
 export const metadata: Metadata = buildMetadata({
-  title: 'Mississauga Tick Hot Spots 2026: The Highest-Risk Neighbourhoods',
+  title: META_TITLE,
   description:
     "Mississauga\'s 2026 tick hot spots ranked by neighbourhood. Why the Credit River corridor (Erindale, Streetsville, Credit Valley) leads, with Lorne Park and Mineola close behind. Peel Public Health data.",
   canonical: `/blog/${POST.slug}`,

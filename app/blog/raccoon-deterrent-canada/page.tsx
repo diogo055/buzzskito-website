@@ -14,7 +14,7 @@ const SLUG = 'raccoon-deterrent-canada'
 const DATE = '2026-07-21'
 const UPDATED = '2026-07-21'
 const TITLE = 'Best Raccoon Deterrent Canada 2026 — What Actually Works (and What Ontario Law Allows)'
-const META_TITLE = 'Best Raccoon Deterrent Canada 2026: What Actually Works'
+const META_TITLE = 'Raccoon Deterrents Canada: The 2026 Tier List'
 
 const FAQS = [
   {

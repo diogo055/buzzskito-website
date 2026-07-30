@@ -6,6 +6,7 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 const SLUG = 'west-nile-virus-symptoms'
 const DATE = '2026-07-19'
 const TITLE = 'West Nile Virus Symptoms: Timeline, First Signs, Diagnosis & When to See a Doctor (2026)'
+const META_TITLE = 'West Nile Virus Symptoms: 2-14 Day Timeline'
 
 const FAQS = [
   {
@@ -51,7 +52,7 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: TITLE,
+  title: META_TITLE,
   description:
     'West Nile virus symptoms explained: about 80% have no symptoms, 20% get West Nile fever, under 1% get serious illness. First signs, 2–14 day timeline, diagnosis, why it is not contagious, treatment, and when to see a doctor. Cites the CDC and PHAC.',
   canonical: `/blog/${SLUG}`,

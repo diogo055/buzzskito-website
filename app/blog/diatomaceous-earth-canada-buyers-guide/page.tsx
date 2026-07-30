@@ -14,6 +14,7 @@ const SLUG = 'diatomaceous-earth-canada-buyers-guide'
 const DATE = '2026-07-16'
 const UPDATED = '2026-07-16'
 const TITLE = 'Diatomaceous Earth Canada 2026 — Buyer\'s Guide to PMRA-Registered DE'
+const META_TITLE = 'Diatomaceous Earth Canada: PMRA-Registered DE'
 
 const FAQS = [
   {
@@ -63,7 +64,7 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: TITLE,
+  title: META_TITLE,
   description: 'Which diatomaceous earth is actually PMRA-registered in Canada (Safer\'s, Knock Down, Doktor Doom Be Green), how DE kills by desiccation in 24–72 hours, where it works and fails, and why the US food-grade-DE-as-pesticide advice is off-label here. Updated 2026.',
   canonical: `/blog/${SLUG}`,
   type: 'article',

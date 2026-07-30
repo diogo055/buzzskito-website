@@ -42,8 +42,10 @@ const FAQS = [
   },
 ]
 
+const META_TITLE = 'Lyme Disease Cases: Mississauga & Oakville 2026'
+
 export const metadata: Metadata = buildMetadata({
-  title: 'Lyme Disease Cases in Mississauga & Oakville 2026 — Peel + Halton Data',
+  title: META_TITLE,
   description:
     'Lyme cases in Peel and Halton have climbed since 2020. What the Public Health surveillance shows for Mississauga and Oakville, what the numbers miss, and the practical 2026 protection playbook.',
   canonical: `/blog/${POST.slug}`,

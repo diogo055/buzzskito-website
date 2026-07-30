@@ -14,6 +14,7 @@ const SLUG = 'backpack-sprayer-canada'
 const DATE = '2026-07-14'
 const UPDATED = '2026-07-14'
 const TITLE = 'Best Backpack Sprayers in Canada 2026 — Battery vs Manual for Mosquito & Tick Yard Treatment'
+const META_TITLE = 'Backpack Sprayer Canada 2026: Battery vs Manual'
 
 const FAQS = [
   {
@@ -55,7 +56,7 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: TITLE,
+  title: META_TITLE,
   description: 'The best backpack sprayers in Canada for 2026 — battery vs manual, what GTA mosquito control technicians actually carry, PMRA-legal products for Ontario, nozzle and PSI settings, and how to winterize for Canadian winters.',
   canonical: `/blog/${SLUG}`,
   type: 'article',

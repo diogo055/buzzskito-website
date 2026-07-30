@@ -11,8 +11,10 @@ const POST = {
   excerpt: 'How much does professional tick treatment cost in Ontario? 2026 pricing ranges, what affects cost, seasonal packages vs. one-time treatment, and BuzzSkito transparent pricing.',
 }
 
+const META_TITLE = 'Tick Treatment Cost Ontario 2026: Real Prices'
+
 export const metadata: Metadata = buildMetadata({
-  title: 'Tick Treatment Cost Ontario 2026 (Real Prices by Lot Size + Season)',
+  title: META_TITLE,
   description:
     'How much does professional tick treatment cost in Ontario? Single visit from $99 · 5-spray tick season $597 standalone or $497 bundled with mosquito plan. What changes the price (lot size, ravine proximity), what to avoid, and how BuzzSkito compares to LawnSavers ($129+).',
   canonical: `/blog/${POST.slug}`,

@@ -257,6 +257,7 @@ export default function DoktorDoomSleepTightReviewCanadaPage() {
           <h2>Is Doktor Doom Sleep Tight Worth It?</h2>
           <p>For the specific job of &ldquo;a legal, fast-acting contact spray a Canadian can buy and use on a bed,&rdquo; yes &mdash; Sleep Tight is a sensible, honest pick, and the PMRA registration alone makes it a better choice than the tempting grey-market US names. Where it stops being worth it is the moment you expect it to be the whole solution. A can of spray will not clear an established infestation, no spray will, and pouring money into more spray is the classic way people spend a lot and stay itchy. Buy one registered can, use it with discipline on the harbourage, and put the rest of your effort into the heat and dust and monitoring that actually finish the job. Do that, and the spray is a genuinely useful part of a plan that works. Skip the plan, and it is just a reassuring hiss.</p>
           <p>If you would rather compare the full device side of the fight &mdash; steamers, heaters, chambers, dusts, and traps in one place &mdash; our <Link href="/blog/best-pest-control-equipment-canada">Canadian pest control equipment hub</Link> lays out every category and where each one fits.</p>
+          <p>For the wider chemical picture &mdash; how Sleep Tight compares with every other registered Canadian can, which US products are illegal here, and what actually kills bed bug eggs &mdash; start with our <Link href="/blog/bed-bug-spray-canada">best bed bug spray and killer guide for Canada</Link>.</p>
 
           <h2>Frequently Asked Questions</h2>
           <div className="not-prose space-y-4">
@@ -273,6 +274,7 @@ export default function DoktorDoomSleepTightReviewCanadaPage() {
 
           <h2>Related Reading</h2>
           <ul>
+            <li><Link href="/blog/bed-bug-spray-canada">Best Bed Bug Spray &amp; Killer in Canada — Every PMRA-Legal Option Compared</Link></li>
             <li><Link href="/blog/cimexa-bed-bug-review-canada">CimeXa Bed Bug Review Canada — The Desiccant Dust That Kills for Months</Link></li>
             <li><Link href="/blog/best-natural-bed-bug-spray-canada">Best Natural Bed Bug Spray Canada — What Actually Works</Link></li>
             <li><Link href="/blog/best-bed-bug-steamer-canada">Best Bed-Bug Steamer Canada — Heat That Kills the Eggs</Link></li>

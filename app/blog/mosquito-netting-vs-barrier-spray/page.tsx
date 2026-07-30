@@ -14,6 +14,7 @@ const SLUG = 'mosquito-netting-vs-barrier-spray'
 const DATE = '2026-04-26'
 const UPDATED = '2026-04-26'
 const TITLE = 'Mosquito Netting vs Barrier Spray — Which Is Better? (2026)'
+const META_TITLE = 'Mosquito Netting vs Barrier Spray: Pros & Cons'
 
 const FAQS = [
   {
@@ -51,7 +52,7 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Mosquito Netting vs Barrier Spray · 2026 Comparison',
+  title: META_TITLE,
   description: 'Mosquito netting vs professional barrier spray for backyards. Cost, coverage, when to use which. Ontario 2026 guide.',
   canonical: `/blog/${SLUG}`,
   type: 'article',

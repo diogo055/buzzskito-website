@@ -13,7 +13,7 @@ const SLUG = 'mosquito-screens-patio-canada'
 const DATE = '2026-07-12'
 const UPDATED = '2026-07-12'
 const TITLE = 'Mosquito Screens for Your Patio (Canada 2026) — Buyer’s Guide'
-const META_TITLE = 'Mosquito Screens for Patio Canada 2026: Which Type to Buy'
+const META_TITLE = 'Mosquito Patio Screens Canada: 5 Types Compared'
 
 const FAQS = [
   {
@@ -123,22 +123,22 @@ export default function MosquitoScreensPatioCanadaPage() {
                 cons: ['Hours to assemble', 'Netting walls wear before the frame'],
               },
               {
-                badge: 'Cheapest High-Impact Fix',
-                name: 'Magnetic Screen Door',
-                why: 'A split mesh curtain with magnets that snap shut behind you — walk through hands-free carrying food, and mosquitoes stop streaming into the house. The single cheapest upgrade that makes a real difference.',
-                search: 'magnetic screen door',
-                score: 7.8,
-                pros: ['Very budget-friendly', 'Hands-free self-sealing seam', 'Fits hinged & sliding doors'],
-                cons: ['Bargain mesh tears in a season', 'Magnets misalign in wind'],
-              },
-              {
                 badge: 'Best for Pergolas & Covered Patios',
                 name: 'Clip-On Mosquito Netting Curtains',
-                why: 'Panels of mesh with hook-and-loop or grommet edges that clip onto an existing pergola, covered patio, or open gazebo and tie back during the day — enclose the space without rebuilding.',
+                why: 'Panels of mesh with hook-and-loop or grommet edges that clip onto an existing pergola, covered patio, or open gazebo and tie back during the day — enclose the space without rebuilding. If you already have a roof over the patio, this is the fix, not a second structure.',
                 search: 'mosquito netting curtain patio',
                 score: 7.5,
                 pros: ['No construction needed', 'Ties back when not in use', 'Mid-price, renter-friendly'],
                 cons: ['Less durable than framed walls', 'Needs a frame to attach to'],
+              },
+              {
+                badge: 'Cheapest High-Impact Fix',
+                name: 'Magnetic Screen Door',
+                why: 'A split mesh curtain with magnets that snap shut behind you — walk through hands-free carrying food, and mosquitoes stop streaming into the house. The single cheapest upgrade that makes a real difference, and worth buying alongside whatever else you choose.',
+                search: 'magnetic screen door',
+                score: 7.8,
+                pros: ['Very budget-friendly', 'Hands-free self-sealing seam', 'Fits hinged & sliding doors'],
+                cons: ['Bargain mesh tears in a season', 'Magnets misalign in wind'],
               },
               {
                 badge: 'Best Leak Sealer',
@@ -152,7 +152,7 @@ export default function MosquitoScreensPatioCanadaPage() {
             ]}
             whichToBuy={
               <>
-                <strong>Open deck with nothing overhead?</strong> The <em>Best Overall</em> pop-up screen house is the easiest win. <strong>Want a room that stays up all season?</strong> The <em>Best Permanent</em> screened gazebo earns it. <strong>Bugs following you in through the door?</strong> The <em>Cheapest Fix</em> magnetic door solves it for pennies. A screen only protects what it encloses, though — for the lawn, the pool deck, and ticks in the grass, pair it with <Link href="/mosquito-control">professional barrier spray</Link>.
+                <strong>Open deck with nothing overhead?</strong> The <em>Best Overall</em> pop-up screen house is the easiest win. <strong>Want a room that stays up all season?</strong> The <em>Best Permanent</em> screened gazebo earns it. <strong>Already have a pergola or a roofed patio?</strong> Don&rsquo;t buy a second structure &mdash; clip <em>netting curtains</em> to what you already own. <strong>Bugs following you in through the door?</strong> The <em>Cheapest Fix</em> magnetic door solves it for pennies. A screen only protects what it encloses, though — for the lawn, the pool deck, and ticks in the grass, pair it with <Link href="/mosquito-control">professional barrier spray</Link>.
               </>
             }
           />

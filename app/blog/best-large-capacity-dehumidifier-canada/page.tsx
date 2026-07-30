@@ -14,7 +14,7 @@ const SLUG = 'best-large-capacity-dehumidifier-canada'
 const DATE = '2026-07-21'
 const UPDATED = '2026-07-21'
 const TITLE = 'Best 70-Pint (Large-Capacity) Dehumidifier Canada 2026 — Big & Wet Basements, Drain-Pump Picks'
-const META_TITLE = 'Best 70-Pint Dehumidifier Canada 2026 — Large-Capacity Picks'
+const META_TITLE = 'Best 70-Pint Dehumidifier Canada: Drain Pumps'
 
 const FAQS = [
   {

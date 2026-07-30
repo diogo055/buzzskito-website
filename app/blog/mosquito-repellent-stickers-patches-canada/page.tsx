@@ -14,7 +14,7 @@ const SLUG = 'mosquito-repellent-stickers-patches-canada'
 const DATE = '2026-07-12'
 const UPDATED = '2026-07-12'
 const TITLE = 'Mosquito Repellent Stickers & Patches Canada — Do They Work?'
-const META_TITLE = 'Mosquito Repellent Stickers & Patches Canada 2026: Do They Work?'
+const META_TITLE = 'Mosquito Repellent Patches Canada: For Kids'
 
 const FAQS = [
   {

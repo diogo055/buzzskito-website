@@ -14,6 +14,7 @@ const SLUG = 'propane-mosquito-trap-canada'
 const DATE = '2026-07-14'
 const UPDATED = '2026-07-14'
 const TITLE = 'Propane Mosquito Traps in Canada 2026: Are $1,000+ CO2 Traps Worth It?'
+const META_TITLE = 'Propane Mosquito Traps Canada: Worth $1,000+?'
 
 const FAQS = [
   {
@@ -59,7 +60,7 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: TITLE,
+  title: META_TITLE,
   description: 'Propane mosquito traps in Canada, explained by GTA pros: how they burn propane into a CO2 plume, the real 1-acre coverage story, honest propane-consumption math for an Ontario season, which models sell on Amazon.ca, and whether a $1,000+ trap beats professional barrier spray. Updated July 2026.',
   canonical: `/blog/${SLUG}`,
   type: 'article',

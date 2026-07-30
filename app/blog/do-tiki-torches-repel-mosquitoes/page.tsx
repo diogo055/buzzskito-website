@@ -14,7 +14,7 @@ const SLUG = 'do-tiki-torches-repel-mosquitoes'
 const DATE = '2026-07-16'
 const UPDATED = '2026-07-16'
 const TITLE = 'Do Tiki Torches Repel Mosquitoes? The Honest 2026 Answer'
-const META_TITLE = 'Do Tiki Torches Repel Mosquitoes? Honest 2026 Canada Verdict'
+const META_TITLE = 'Do Tiki Torches Repel Mosquitoes? 2026 Verdict'
 
 const FAQS = [
   {

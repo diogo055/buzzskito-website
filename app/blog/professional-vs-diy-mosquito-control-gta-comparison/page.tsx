@@ -19,6 +19,8 @@ const POST = {
 
 const UPDATED = '2026-05-28'
 
+const META_TITLE = 'Professional vs DIY Mosquito Control GTA 2026'
+
 const FAQS = [
   {
     question: 'Is professional mosquito control worth the cost?',
@@ -51,7 +53,7 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Professional vs DIY Mosquito Control GTA 2026: Full Comparison',
+  title: META_TITLE,
   description:
     'Every DIY product (Thermacell, Mosquito Magnet, Dynatrap, dunks, citronella, store sprays, permethrin) versus professional barrier spray. Real cost math, effectiveness numbers, and safety analysis for GTA families.',
   canonical: `/blog/${POST.slug}`,

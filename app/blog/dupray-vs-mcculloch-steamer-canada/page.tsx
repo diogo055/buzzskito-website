@@ -14,7 +14,7 @@ const SLUG = 'dupray-vs-mcculloch-steamer-canada'
 const DATE = '2026-07-21'
 const UPDATED = '2026-07-21'
 const TITLE = 'Dupray Neat vs McCulloch MC1275 (Canada 2026) — PSI, Steam Temp & Which One Actually Kills Bed Bugs'
-const META_TITLE = 'Dupray Neat vs McCulloch MC1275 Steamer Canada 2026'
+const META_TITLE = 'Dupray Neat vs McCulloch MC1275 (Canada 2026)'
 
 const FAQS = [
   {

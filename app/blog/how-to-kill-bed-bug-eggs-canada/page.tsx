@@ -14,7 +14,7 @@ const SLUG = 'how-to-kill-bed-bug-eggs-canada'
 const DATE = '2026-07-21'
 const UPDATED = '2026-07-21'
 const TITLE = 'How to Kill Bed Bug Eggs in Canada 2026 — Why Heat Wins and Sprays Miss'
-const META_TITLE = 'How to Kill Bed Bug Eggs Canada 2026 — Heat vs Spray'
+const META_TITLE = 'Kill Bed Bug Eggs Canada: 3 Steps, Heat Wins'
 
 const FAQS = [
   {

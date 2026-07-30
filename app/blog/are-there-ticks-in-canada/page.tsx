@@ -6,6 +6,7 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 const SLUG = 'are-there-ticks-in-canada'
 const DATE = '2026-07-15'
 const TITLE = 'Are There Ticks in Canada? Where Ticks Are Found, Province by Province (2026)'
+const META_TITLE = 'Are There Ticks in Canada? 2026 Province Guide'
 
 const FAQS = [
   {
@@ -59,7 +60,7 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: TITLE,
+  title: META_TITLE,
   description: 'Ticks live in every Canadian province, but blacklegged (Lyme) ticks concentrate in the east. A 2026 province-by-province map of where ticks are found in Canada.',
   canonical: `/blog/${SLUG}`,
   type: 'article',

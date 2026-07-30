@@ -14,7 +14,7 @@ const SLUG = 'best-mosquito-trap-for-acreage-canada'
 const DATE = '2026-07-21'
 const UPDATED = '2026-07-21'
 const TITLE = 'Best Mosquito Trap for Acreage Canada 2026 — CO₂ Traps for Large Properties'
-const META_TITLE = 'Best Mosquito Trap for Acreage Canada 2026: CO₂ Traps'
+const META_TITLE = 'Best Mosquito Trap for Acreage Canada 2026'
 
 const FAQS = [
   {

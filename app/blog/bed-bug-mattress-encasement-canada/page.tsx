@@ -14,6 +14,7 @@ const SLUG = 'bed-bug-mattress-encasement-canada'
 const DATE = '2026-07-16'
 const UPDATED = '2026-07-16'
 const TITLE = 'Best Bed Bug Mattress Encasement in Canada 2026 — SafeRest vs Utopia + the 12–18 Month Rule'
+const META_TITLE = 'Bed Bug Mattress Encasement Canada: 2026 Picks'
 
 const FAQS = [
   {
@@ -67,7 +68,7 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: TITLE,
+  title: META_TITLE,
   description: 'SafeRest vs Utopia bed bug mattress encasements for Canadian homes — encasement vs cover explained, the 12–18 month containment rule, zipper failure points, and sizing. Independent research, updated 2026.',
   canonical: `/blog/${SLUG}`,
   type: 'article',

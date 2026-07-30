@@ -260,6 +260,7 @@ export default function PermethrinCanadaPage() {
 
           <h2>Why Yard-Application Permethrin Is Restricted in Canada</h2>
           <p>Health Canada&rsquo;s Pest Management Regulatory Agency (PMRA) classifies pesticides into Domestic, Commercial, and Restricted use categories. Higher-concentration permethrin products intended for yard application — the kind you can buy at a US Home Depot — fall under Commercial or Restricted classification in Canada, requiring a licensed applicator.</p>
+          <p>The same one-glance test applies to every household insecticide you buy online, not just permethrin: look for a Canadian PCP registration number on the label photo, and then check that your pest and your intended use site both appear on that label. Cross-border marketplace listings surface US-registered stock to Canadian buyers constantly, and it is the single most common way a Canadian ends up with a product they cannot legally use. We apply that check product by product in our Canadian buying guides for <Link href="/blog/best-cockroach-spray-canada">cockroach spray</Link>, <Link href="/blog/best-earwig-killer-canada">earwig traps and killers</Link>, and <Link href="/blog/best-centipede-killer-canada">centipede products</Link> &mdash; the last two include the American perimeter sprays that have no Canadian counterpart at all.</p>
           <p>This is partly because PMRA is more conservative about residential exposure than the US EPA, and partly because Ontario has additional Cosmetic Pesticides legislation limiting which products can be applied to residential lawns at all. The result: most yard-application permethrin you see online or in US retailers cannot be legally imported and applied to a Canadian residential property.</p>
           <p className="text-sm text-gray-600">Source: <a href="https://www.canada.ca/en/health-canada/services/consumer-product-safety/pesticides-pest-management.html" rel="noopener" target="_blank" className="text-emerald-700 underline">Health Canada &mdash; Pest Management Regulatory Agency (PMRA), Pesticides and Pest Management</a>.</p>
 
@@ -307,6 +308,8 @@ export default function PermethrinCanadaPage() {
           </div>
           <h3>3. Permethrin-Treated Pet Products (Dogs Only)</h3>
           <p>Some flea/tick collars and topical treatments for dogs use permethrin-based formulations. Veterinarian prescription typically required. NEVER use on cats — even passive exposure to permethrin is fatal to cats.</p>
+          <h3>4. Permethrin Indoor Residuals (Bed Bugs)</h3>
+          <p>Permethrin&rsquo;s other legal Canadian consumer route is indoors: PMRA domestic-class bed bug residuals such as Doktor Doom Pro Max use permethrin on baseboards, bed frames, and furniture perimeters, where a surface residual is exactly the right tool. Same active, entirely different label and directions from anything you would put on clothing — see our <Link href="/blog/bed-bug-spray-canada">guide to the best bed bug sprays and killers in Canada</Link> for which products carry a Canadian PCP number and which US names are not legal here.</p>
 
           <h2>The Licensed-Applicator Alternative for Whole-Yard Treatment</h2>
           <p>If you want yard-wide tick and mosquito protection (not just clothing), the only legal residential option in Ontario is hiring a licensed pesticide operator. Licensed Ontario applicators use Health Canada-approved formulations (typically bifenthrin or deltamethrin-based) that provide 21–30 days of residual yard protection per treatment.</p>
@@ -345,6 +348,8 @@ export default function PermethrinCanadaPage() {
             <li><strong>Professional barrier spray</strong> for whole-yard residual protection</li>
           </ol>
           <p>Each of those five layers is its own buying decision, and the products we have vetted for Canadian availability and PMRA registration — skin repellents, treated clothing, larvicides, area devices — are sorted by pest in our <Link href="/pest-product-guides">guide to Canadian pest control products</Link>.</p>
+          <p>There is a sixth layer that uses no chemistry at all: a physical barrier. Permethrin protects the clothing you are wearing, but it does nothing for the two hours you sit still at a picnic table — and mesh does that job perfectly, with nothing to reapply and no PMRA registration to think about. If you eat outdoors at a campsite, a dock, or a cottage deck, a <Link href="/blog/best-screen-tent-canada">screen tent or screen house</Link> is the cheapest reliable bite-free zone you can buy, and it works on black flies too, which repellents handle noticeably worse.</p>
+          <p>Notice what is <em>not</em> on that list: a UV bug trap. They are the most-advertised backyard device in Canada and the least useful layer here — independent trap studies put mosquitoes under 5% of a UV trap&rsquo;s catch, and ticks are not attracted to light at all. If one is on your shortlist anyway, read <Link href="/blog/dynatrap-canada-review">whether DynaTraps actually work on mosquitoes</Link> before you spend the money.</p>
 
           <h2>Related Reading</h2>
           <ul>
@@ -352,6 +357,9 @@ export default function PermethrinCanadaPage() {
             <li><Link href="/blog/thermacell-canada-where-to-buy">Thermacell Canada — Where to Buy + Do They Work</Link></li>
             <li><Link href="/blog/mosquito-bits-canada-vs-dunks">Mosquito Bits Canada vs Dunks</Link></li>
             <li><Link href="/blog/mosquito-repellent-guide-ontario-2026">Mosquito Repellent Guide — Ontario 2026</Link></li>
+            <li><Link href="/blog/best-screen-tent-canada">Best Screen Tents &amp; Screen Houses in Canada</Link></li>
+            <li><Link href="/blog/dynatrap-canada-review">Do DynaTraps Actually Work on Mosquitoes?</Link></li>
+            <li><Link href="/blog/best-wasp-trap-canada">Best Wasp Traps in Canada — Bag, Sticky &amp; Reusable Compared</Link></li>
             <li><Link href="/tick-control">BuzzSkito Tick Control Service</Link></li>
           </ul>
         </div>

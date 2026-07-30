@@ -14,7 +14,7 @@ const SLUG = 'rescue-why-trap-review-canada'
 const DATE = '2026-07-21'
 const UPDATED = '2026-07-21'
 const TITLE = 'RESCUE! WHY Trap Review Canada 2026 — Does the 2-Chamber Wasp Trap Work?'
-const META_TITLE = 'RESCUE! WHY Trap Review Canada 2026: Honest 2-Chamber Test'
+const META_TITLE = 'RESCUE! WHY Trap Canada 2026: Honest Review'
 
 const FAQS = [
   {

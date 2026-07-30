@@ -7,6 +7,7 @@ import { BUSINESS } from '@/lib/constants'
 const SLUG = 'can-lyme-disease-kill-you'
 const DATE = '2026-07-15'
 const TITLE = 'Can Lyme Disease Kill You, and Is It Curable? (2026 Canada Facts)'
+const META_TITLE = 'Can Lyme Disease Kill You? Is It Curable? 2026'
 
 const FAQS = [
   {
@@ -60,7 +61,7 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: TITLE,
+  title: META_TITLE,
   description:
     'Can Lyme disease kill you? Is it curable or contagious? Plain-English, PHAC- and CDC-cited answers for Canadians — early antibiotics are near-100% effective, deaths are very rare, and it does not spread person-to-person. Updated 2026.',
   canonical: `/blog/${SLUG}`,

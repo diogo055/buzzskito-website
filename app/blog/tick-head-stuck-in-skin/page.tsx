@@ -13,6 +13,7 @@ const SLUG = 'tick-head-stuck-in-skin'
 const DATE = '2026-07-16'
 const UPDATED = '2026-07-16'
 const TITLE = 'Tick Head Stuck in Skin? What to Do (and When It\'s Dangerous)'
+const META_TITLE = 'Tick Head Stuck in Skin: What to Do (Ontario)'
 
 const FAQS = [
   {
@@ -66,7 +67,7 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: TITLE,
+  title: META_TITLE,
   description:
     'Tick head stuck in your skin? What looks like a head is the tick\'s mouthparts. Leave it if it won\'t lift out easily — it works out like a splinter. How to remove it, whether it\'s dangerous, when to see a doctor (PHAC/CDC), plus dogs. Ontario guide, updated 2026.',
   canonical: `/blog/${SLUG}`,

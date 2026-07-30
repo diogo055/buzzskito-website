@@ -43,8 +43,10 @@ const FAQS = [
   },
 ]
 
+const META_TITLE = 'Tick Season Burlington 2026: Escarpment Risk'
+
 export const metadata: Metadata = buildMetadata({
-  title: 'Tick Season Burlington 2026: When Are Ticks Active? (Escarpment + RBG Risk)',
+  title: META_TITLE,
   description:
     'Burlington sits between the Niagara Escarpment and Lake Ontario — two of southern Ontario\'s most productive tick habitats. When tick season starts, why RBG and Mt. Nemo drive the pressure, and which Burlington neighbourhoods are highest risk in 2026.',
   canonical: `/blog/${POST.slug}`,

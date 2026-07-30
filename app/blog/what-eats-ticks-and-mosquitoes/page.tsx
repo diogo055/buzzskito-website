@@ -14,6 +14,7 @@ const SLUG = 'what-eats-ticks-and-mosquitoes'
 const DATE = '2026-07-12'
 const UPDATED = '2026-07-12'
 const TITLE = 'What Eats Ticks and Mosquitoes? Predators Ranked (Ontario)'
+const META_TITLE = 'What Eats Ticks and Mosquitoes? Predators Ranked'
 
 const FAQS = [
   {
@@ -67,7 +68,7 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'What Eats Ticks and Mosquitoes? Predators Ranked (Ontario 2026)',
+  title: META_TITLE,
   description: 'What eats mosquitoes and ticks? Dragonflies, bats, opossums, guinea fowl, frogs, fish and nematodes ranked by how well they really control a yard — plus an honest look at what actually works.',
   canonical: `/blog/${SLUG}`,
   type: 'article',

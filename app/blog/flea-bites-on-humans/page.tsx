@@ -14,6 +14,7 @@ const SLUG = 'flea-bites-on-humans'
 const DATE = '2026-07-19'
 const UPDATED = '2026-07-19'
 const TITLE = 'Flea Bites on Humans: What They Look Like & How to Tell It’s Fleas (2026)'
+const META_TITLE = 'Flea Bites on Humans vs Bed Bug Bites (2026)'
 
 const FAQS = [
   {
@@ -59,7 +60,7 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: TITLE,
+  title: META_TITLE,
   description:
     'What flea bites look like on humans — ankle clusters, red halos, instant itch — vs bed bug and mosquito bites, how long they last, whether fleas live on people, and how to clear a home infestation.',
   canonical: `/blog/${SLUG}`,

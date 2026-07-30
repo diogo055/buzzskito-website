@@ -14,6 +14,7 @@ const SLUG = 'baby-ticks-nymphs-seed-ticks-ontario'
 const DATE = '2026-07-12'
 const UPDATED = '2026-07-12'
 const TITLE = 'Baby Ticks: Nymphs & Seed Ticks in Ontario (Size + ID)'
+const META_TITLE = 'Baby Ticks Ontario: Seed Tick vs Nymph, 0.5-2 mm'
 
 const FAQS = [
   {
@@ -51,7 +52,7 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Baby Ticks: Nymphs & Seed Ticks in Ontario — Size, ID & Danger',
+  title: META_TITLE,
   description: 'Baby ticks explained: larvae ("seed ticks") are ~0.5 mm with six legs, nymphs are ~1–2 mm with eight legs and drive most Lyme disease. Size chart in mm, ID tips, safe removal, and yard prevention for Ontario.',
   canonical: `/blog/${SLUG}`,
   type: 'article',

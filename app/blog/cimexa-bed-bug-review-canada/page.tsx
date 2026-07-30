@@ -14,7 +14,7 @@ const SLUG = 'cimexa-bed-bug-review-canada'
 const DATE = '2026-07-21'
 const UPDATED = '2026-07-21'
 const TITLE = 'CimeXa Bed Bug Review Canada 2026 — Does the Silica Dust Actually Work?'
-const META_TITLE = 'CimeXa Dust Review Canada 2026: Silica Gel for Bed Bugs'
+const META_TITLE = 'CimeXa Review Canada 2026: Silica Bed Bug Dust'
 
 const FAQS = [
   {

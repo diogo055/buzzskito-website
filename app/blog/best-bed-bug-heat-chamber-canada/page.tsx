@@ -14,7 +14,7 @@ const SLUG = 'best-bed-bug-heat-chamber-canada'
 const DATE = '2026-07-21'
 const UPDATED = '2026-07-21'
 const TITLE = 'Best Bed Bug Heat Chamber Canada 2026 — ZappBug vs Thermal Strike vs DIY'
-const META_TITLE = 'Best Bed Bug Heat Chamber Canada 2026: ZappBug vs DIY'
+const META_TITLE = 'Best Bed Bug Heat Chamber Canada: ZappBug 2026'
 
 const FAQS = [
   {

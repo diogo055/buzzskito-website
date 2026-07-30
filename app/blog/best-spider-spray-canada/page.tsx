@@ -14,7 +14,7 @@ const SLUG = 'best-spider-spray-canada'
 const DATE = '2026-07-21'
 const UPDATED = '2026-07-21'
 const TITLE = 'Best Spider Spray Canada 2026 — PMRA-Registered Picks vs US Grey-Market'
-const META_TITLE = 'Best Spider Spray Canada 2026: PMRA-Registered Picks That Work'
+const META_TITLE = 'Best Spider Spray Canada 2026: PMRA-Registered'
 
 const FAQS = [
   {

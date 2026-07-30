@@ -14,7 +14,7 @@ const SLUG = 'zappbug-heater-review-canada'
 const DATE = '2026-07-21'
 const UPDATED = '2026-07-21'
 const TITLE = 'ZappBug Heater Review Canada 2026 — Does the Bed Bug Heat Chamber Actually Work?'
-const META_TITLE = 'ZappBug Heater Review Canada 2026: Bed Bug Heat Chamber'
+const META_TITLE = 'ZappBug Heater Review Canada 2026: What Fits'
 
 const FAQS = [
   {

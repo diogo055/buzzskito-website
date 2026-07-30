@@ -14,7 +14,7 @@ const SLUG = 'best-hepa-vacuum-for-bed-bugs-and-fleas-canada'
 const DATE = '2026-07-21'
 const UPDATED = '2026-07-21'
 const TITLE = 'Best Sealed-HEPA Vacuum for Bed Bugs & Fleas Canada 2026 — Canister vs Stick vs Handheld'
-const META_TITLE = 'Best HEPA Vacuum for Bed Bugs & Fleas Canada 2026'
+const META_TITLE = 'Best HEPA Vacuum for Bed Bugs & Fleas Canada'
 
 const FAQS = [
   {

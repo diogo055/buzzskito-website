@@ -14,7 +14,7 @@ const SLUG = 'best-bed-bug-detector-canada'
 const DATE = '2026-07-21'
 const UPDATED = '2026-07-21'
 const TITLE = 'Best Bed Bug Detector Canada 2026 — Passive Interceptors vs Active Monitors Compared'
-const META_TITLE = 'Best Bed Bug Detector Canada 2026: Passive vs Active'
+const META_TITLE = 'Best Bed Bug Detector Canada 2026: 3 Types'
 
 const FAQS = [
   {

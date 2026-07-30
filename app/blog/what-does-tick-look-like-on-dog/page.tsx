@@ -13,6 +13,7 @@ const SLUG = 'what-does-tick-look-like-on-dog'
 const DATE = '2026-04-26'
 const UPDATED = '2026-04-26'
 const TITLE = 'What Does a Tick Look Like on a Dog? (Ontario Field Guide 2026)'
+const META_TITLE = 'What Does a Tick Look Like on a Dog? Photos'
 
 const FAQS = [
   {
@@ -50,7 +51,7 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'What Does a Tick Look Like on a Dog? · Ontario Guide',
+  title: META_TITLE,
   description: 'Photos and descriptions to identify ticks on dogs in Ontario. Tick vs skin tag vs flea, deer tick vs dog tick, embedded vs engorged.',
   canonical: `/blog/${SLUG}`,
   type: 'article',

@@ -11,6 +11,8 @@ const POST = {
   excerpt: "Ontario's 2026 tick population is exploding — Toronto Star, CityNews, and TorontoToday all flagged the surge in May. Here's what's driving it, where it's worst, and the 5-step protection plan every GTA family should be running right now.",
 }
 
+const META_TITLE = 'Ontario Tick Surge 2026: A 5-Step Safety Plan'
+
 const FAQS = [
   {
     question: "What's causing the tick surge in Ontario in 2026?",
@@ -35,7 +37,7 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Ontario Tick Surge 2026: How to Protect Your Family (As Featured in the Toronto Star)',
+  title: META_TITLE,
   description:
     "Ontario's 2026 tick population is exploding — confirmed by Toronto Star, CityNews, and TorontoToday. Here's what's driving the surge, where it's worst in the GTA, and the 5-step protection plan every family should run right now.",
   canonical: `/blog/${POST.slug}`,

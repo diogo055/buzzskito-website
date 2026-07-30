@@ -14,6 +14,7 @@ const SLUG = 'do-bed-bug-sprays-actually-work'
 const DATE = '2026-07-16'
 const UPDATED = '2026-07-16'
 const TITLE = 'Do Bed Bug Sprays Actually Work? An Honest Canadian Answer (2026)'
+const META_TITLE = 'Do Bed Bug Sprays Actually Work? Canada 2026'
 
 const FAQS = [
   {
@@ -67,7 +68,7 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: TITLE,
+  title: META_TITLE,
   description: 'Do bed bug sprays actually work? Honest Canadian answer: contact sprays kill what they touch but miss 90%+ of an infestation. Pyrethroid resistance, residuals, and the heat/steam/encasement/interceptor stack that really works — PMRA-legal picks only.',
   canonical: `/blog/${SLUG}`,
   type: 'article',

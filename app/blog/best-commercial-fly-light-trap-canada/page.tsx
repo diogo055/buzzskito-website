@@ -99,16 +99,16 @@ export default function BestCommercialFlyLightTrapCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar tag={AMZ_TAG} name="Awoco stainless glue-board fly light trap" search="awoco fly trap commercial stainless" label="Best value" />
+      <StickyBuyBar tag={AMZ_TAG} name="Vector encapsulation insect light trap" search="vector insect light trap glue board" label="Best overall" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The best commercial fly light trap in Canada is a wall-mounted <strong>glue-board UV insect light trap</strong> with a shatterproof lamp &mdash; not an electric zapper. Glue-board traps hold captured flies intact on a replaceable adhesive board instead of scattering insect fragments, which is why food-safety programs specify them. <strong>Awoco</strong> stainless units are the value pick for restaurants and cafes; <strong>Vector</strong> encapsulation traps are the audit-ready pick for HACCP food plants. Size to your square footage, place near entry points, and change boards monthly and lamps yearly.</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The best commercial fly light trap in Canada is a wall-mounted <strong>glue-board UV insect light trap</strong> with a shatterproof lamp &mdash; not an electric zapper. Glue-board traps hold captured flies intact on a replaceable adhesive board instead of scattering insect fragments, which is why food-safety programs specify them. <strong>Vector</strong> encapsulation traps are the audit-ready pick for franchised, HACCP, or third-party-audited sites; <strong>Awoco</strong> stainless units are the value pick for an independent restaurant or cafe that is inspected but not audited. Size to your square footage, place near entry points, and change boards monthly and lamps yearly.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
               <li>Glue-board (encapsulation) beats electric zappers in any food area &mdash; zappers scatter fragments and are effectively banned from food-handling zones.</li>
-              <li>Awoco = value stainless units for kitchens; Vector = audit-ready encapsulation traps for HACCP-graded food plants.</li>
+              <li>Vector = audit-ready encapsulation traps for HACCP-graded and franchised sites; Awoco = value stainless units for an independent kitchen that is inspected but not audited.</li>
               <li>Size to rated coverage, then derate for shelving and equipment &mdash; flies must be able to see the lamp.</li>
               <li>Mount near doors and docks flies enter through, never over open food or prep surfaces.</li>
               <li>Change glue boards monthly (weekly in peak season) and UV-A lamps yearly &mdash; a lamp glows long after its UV output dies.</li>
@@ -126,23 +126,23 @@ export default function BestCommercialFlyLightTrapCanadaPage() {
             heading="Our Picks — Best Commercial Fly Light Traps in Canada"
             awards={[
               {
-                badge: 'Best Value',
-                name: 'Awoco Stainless Glue-Board Fly Light Trap',
-                why: 'A stainless-steel encapsulation unit with a decorative front that hides the board — discreet enough for a semi-public back area, priced for an independent kitchen. Solid catch for the money and wipe-clean for wash-down zones.',
-                search: 'awoco fly trap commercial stainless',
-                score: 8.6,
-                featured: true,
-                pros: ['Value-priced stainless housing', 'Decorative front hides the glue board', 'Wipe-clean for food areas'],
-                cons: ['Fewer audit-documentation features than pro brands', 'Coverage best for small-to-mid rooms'],
-              },
-              {
-                badge: 'Best for HACCP / Audits',
+                badge: 'Best Overall',
                 name: 'Vector Encapsulation Insect Light Trap',
-                why: 'A Rentokil professional brand built around food-safety auditing: shatterproof lamps, high glue-board surface area, and the recognizable unit an inspector expects. The pick when you are third-party audited and need documentation.',
+                why: 'A Rentokil professional brand built around food-safety auditing: shatterproof lamps, high glue-board surface area, and the recognizable unit an inspector expects. If your kitchen is inspected — and in Ontario every food premises is — this is the unit that answers the question before it is asked.',
                 search: 'vector insect light trap glue board',
                 score: 9.1,
+                featured: true,
                 pros: ['Shatterproof lamp — food-safe compliant', 'High glue-board catch surface', 'Recognized by auditors and inspectors'],
                 cons: ['Premium price', 'May use proprietary boards/lamps'],
+              },
+              {
+                badge: 'Best Value',
+                name: 'Awoco Stainless Glue-Board Fly Light Trap',
+                why: 'A stainless-steel encapsulation unit with a decorative front that hides the board — discreet enough for a semi-public back area, priced for an independent kitchen. Solid catch for the money and wipe-clean for wash-down zones. If you are not third-party audited, this is enough trap.',
+                search: 'awoco fly trap commercial stainless',
+                score: 8.6,
+                pros: ['Value-priced stainless housing', 'Decorative front hides the glue board', 'Wipe-clean for food areas'],
+                cons: ['Fewer audit-documentation features than pro brands', 'Coverage best for small-to-mid rooms'],
               },
               {
                 badge: 'Best for Large Rooms',
@@ -165,7 +165,7 @@ export default function BestCommercialFlyLightTrapCanadaPage() {
             ]}
             whichToBuy={
               <>
-                <strong>Independent restaurant or cafe on a budget?</strong> The <em>Best Value</em> Awoco stainless unit does the job and disappears into the back of house. <strong>HACCP-audited food plant or franchise with an inspection trail?</strong> The <em>Best for HACCP</em> Vector encapsulation trap is what auditors expect to see. <strong>Big warehouse or high-ceiling production room?</strong> Step up to the <em>Best for Large Rooms</em> multi-lamp unit. <strong>Dining room or retail floor where a trap can&rsquo;t look like a trap?</strong> The <em>Best Discreet</em> sconce-style unit hides in plain sight.
+                <strong>Third-party audited, franchised, or running a HACCP plan?</strong> The <em>Best Overall</em> Vector encapsulation trap is the unit auditors and inspectors expect to see, and the documentation trail is the whole point of paying for it. <strong>Independent restaurant or cafe that is inspected but not audited?</strong> The <em>Best Value</em> Awoco stainless unit genuinely does the job and disappears into the back of house &mdash; do not pay for audit features you will never be asked for. <strong>Big warehouse or high-ceiling production room?</strong> Step up to the <em>Best for Large Rooms</em> multi-lamp unit. <strong>Dining room or retail floor where a trap can&rsquo;t look like a trap?</strong> The <em>Best Discreet</em> sconce-style unit hides in plain sight.
               </>
             }
           />

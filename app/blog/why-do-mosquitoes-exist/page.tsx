@@ -6,6 +6,7 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 const SLUG = 'why-do-mosquitoes-exist'
 const DATE = '2026-07-15'
 const TITLE = 'Why Do Mosquitoes Exist? Their Purpose, Pollination Role & the Extinction Debate'
+const META_TITLE = 'Why Do Mosquitoes Exist? Purpose vs Extinction'
 
 const FAQS = [
   {
@@ -55,7 +56,7 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: TITLE,
+  title: META_TITLE,
   description: 'Why do mosquitoes exist and what is their purpose? A balanced 2026 look at mosquito pollination, their food-web role, the Nature extinction debate, and why a few species are the deadliest animal on Earth.',
   canonical: `/blog/${SLUG}`,
   type: 'article',

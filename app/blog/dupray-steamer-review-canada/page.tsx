@@ -14,7 +14,7 @@ const SLUG = 'dupray-steamer-review-canada'
 const DATE = '2026-07-21'
 const UPDATED = '2026-07-21'
 const TITLE = 'Dupray Steamer Review Canada 2026 — Is the Dupray Neat Worth It for Bed Bugs & Deep Cleaning?'
-const META_TITLE = 'Dupray Neat Steamer Review Canada 2026 — Honest Verdict'
+const META_TITLE = 'Dupray Steamer Review: Bed Bugs, Canada 2026'
 
 const FAQS = [
   {

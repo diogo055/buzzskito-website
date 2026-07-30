@@ -14,6 +14,7 @@ const SLUG = 'diatomaceous-earth-for-bed-bugs'
 const DATE = '2026-07-16'
 const UPDATED = '2026-07-16'
 const TITLE = 'Diatomaceous Earth for Bed Bugs — Does It Work? (Canada 2026)'
+const META_TITLE = 'Diatomaceous Earth for Bed Bugs: Does It Work?'
 
 const FAQS = [
   {
@@ -59,7 +60,7 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: TITLE,
+  title: META_TITLE,
   description: 'Does diatomaceous earth kill bed bugs? Honest lab-vs-field efficacy, exactly where to apply it (and where never to), food-grade vs pool-grade vs PMRA-registered, and the US desiccant dusts we won\'t recommend in Canada. Updated 2026.',
   canonical: `/blog/${SLUG}`,
   type: 'article',

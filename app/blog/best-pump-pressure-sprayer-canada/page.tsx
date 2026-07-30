@@ -14,7 +14,7 @@ const SLUG = 'best-pump-pressure-sprayer-canada'
 const DATE = '2026-07-21'
 const UPDATED = '2026-07-21'
 const TITLE = 'Best Pump Pressure Sprayer Canada 2026 — Chapin vs Solo Hand-Pump Tank Sprayers Compared'
-const META_TITLE = 'Best Pump Pressure Sprayer Canada 2026: Chapin vs Solo'
+const META_TITLE = 'Best Pump Pressure Sprayer Canada 2026 Compared'
 
 const FAQS = [
   {

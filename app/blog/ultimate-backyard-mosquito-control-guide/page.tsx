@@ -14,8 +14,10 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 const POST = MOSQUITO_BLOGS.pillar
 const UPDATED = POST.date
 
+const META_TITLE = 'Backyard Mosquito Control GTA 2026: Full Guide'
+
 export const metadata: Metadata = buildMetadata({
-  title: 'Backyard Mosquito Control GTA 2026 — The Complete Guide (What Works + What\'s a Scam)',
+  title: META_TITLE,
   description: 'The complete guide to backyard and outdoor mosquito control in the GTA: mosquito biology, prevention strategies, barrier spray explained, a seasonal Ontario calendar, and when to hire a pro. Professional treatment from $99.',
   canonical: `/blog/${POST.slug}`,
   type: 'article',

@@ -43,8 +43,10 @@ const FAQS = [
   },
 ]
 
+const META_TITLE = 'Oakville Tick Season 2026: Halton Risk Areas'
+
 export const metadata: Metadata = buildMetadata({
-  title: 'Tick Season Oakville 2026: When Are Ticks Active? (Halton Region Risk Map)',
+  title: META_TITLE,
   description:
     'Halton Region has confirmed Oakville as a Lyme disease risk area. When tick season starts in Oakville, why 16 Mile Creek and Bronte Creek Provincial Park drive the pressure, and which Oakville neighbourhoods are highest risk in 2026.',
   canonical: `/blog/${POST.slug}`,

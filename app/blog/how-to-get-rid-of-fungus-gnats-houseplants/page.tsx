@@ -14,7 +14,7 @@ const SLUG = 'how-to-get-rid-of-fungus-gnats-houseplants'
 const DATE = '2026-07-21'
 const UPDATED = '2026-07-21'
 const TITLE = 'How to Get Rid of Fungus Gnats in Houseplants — The Fix That Actually Works'
-const META_TITLE = 'How to Get Rid of Fungus Gnats in Houseplants (2026 Guide)'
+const META_TITLE = 'Fungus Gnats in Houseplants: The 3-Step Fix'
 
 const FAQS = [
   {

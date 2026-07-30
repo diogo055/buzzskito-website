@@ -14,7 +14,7 @@ const SLUG = 'best-gazebo-with-mosquito-net-canada'
 const DATE = '2026-07-21'
 const UPDATED = '2026-07-21'
 const TITLE = 'Best Gazebo With Mosquito Net Canada 2026 — Soft-Top vs Hard-Top Screened Picks'
-const META_TITLE = 'Best Gazebo With Mosquito Net Canada 2026 (Soft-Top vs Hard-Top)'
+const META_TITLE = 'Best Gazebo With Mosquito Net Canada 2026 Picks'
 
 const FAQS = [
   {
@@ -144,15 +144,6 @@ export default function BestGazeboWithMosquitoNetCanadaPage() {
                 cons: ['Premium price', 'Needs a level pad and 2-person install'],
               },
               {
-                badge: 'Best Budget',
-                name: 'Pop-Up Screen Gazebo (10×10)',
-                why: 'A lightweight instant-canopy screen house for occasional use — quick to pitch over a patio table for a weekend, at the lowest entry price.',
-                search: 'pop up gazebo with mosquito net 10x10',
-                score: 7.4,
-                pros: ['Lowest entry price', 'Fast pop-up setup', 'Easy to store or move'],
-                cons: ['Lighter frame, less wind-stable', 'Thinner mesh wears in 1–2 seasons'],
-              },
-              {
                 badge: 'Best Large / Entertaining',
                 name: 'Large Screened Gazebo (12×14 or bigger)',
                 why: 'A big-footprint soft-top that covers a full sectional plus a dining set — the pick when the gazebo is the backyard party zone, not just a table cover.',
@@ -161,10 +152,19 @@ export default function BestGazeboWithMosquitoNetCanadaPage() {
                 pros: ['Fits sectional + dining set', 'True outdoor entertaining space', 'Full-height zip screen walls'],
                 cons: ['Needs a large flat area', 'More anchoring points to secure'],
               },
+              {
+                badge: 'Best Budget',
+                name: 'Pop-Up Screen Gazebo (10×10)',
+                why: 'A lightweight instant-canopy screen house for occasional use — quick to pitch over a patio table for a weekend, at the lowest entry price. Buy it knowing what it is: a temporary cover, not a deck fixture.',
+                search: 'pop up gazebo with mosquito net 10x10',
+                score: 7.4,
+                pros: ['Lowest entry price', 'Fast pop-up setup', 'Easy to store or move'],
+                cons: ['Lighter frame, less wind-stable', 'Thinner mesh wears in 1–2 seasons'],
+              },
             ]}
             whichToBuy={
               <>
-                <strong>Typical suburban deck?</strong> The <em>Best Overall</em> 10&times;12 soft-top with no-see-um mesh covers a 6-seat table and takes down before winter. <strong>Want a permanent outdoor room?</strong> The <em>Best Hard-Top</em> stays up through storms and light snow. <strong>Occasional or tight budget?</strong> The <em>Best Budget</em> pop-up pitches in minutes. <strong>Hosting crowds?</strong> Size up to the <em>Best Large</em>. Whichever you pick, the screen only protects the footprint &mdash; add a <Link href="/mosquito-control">whole-yard barrier spray</Link> so the rest of the property is livable too.
+                <strong>Typical suburban deck?</strong> The <em>Best Overall</em> 10&times;12 soft-top with no-see-um mesh covers a 6-seat table and takes down before winter. <strong>Want a permanent outdoor room?</strong> The <em>Best Hard-Top</em> stays up through storms and light snow. <strong>Hosting crowds?</strong> Size up to the <em>Best Large</em> 12&times;14. <strong>Occasional use, or you just want the table covered for a few evenings?</strong> The <em>Best Budget</em> pop-up pitches in minutes and is genuinely enough &mdash; do not spend gazebo money on a job a screen house does. Whichever you pick, the screen only protects the footprint &mdash; add a <Link href="/mosquito-control">whole-yard barrier spray</Link> so the rest of the property is livable too.
               </>
             }
           />
@@ -285,16 +285,16 @@ export default function BestGazeboWithMosquitoNetCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="hard top aluminum gazebo with mosquito netting">Check hard-top gazebos on Amazon.ca →</BuyLink>
           </div>
 
-          <h2>Best Budget: A Pop-Up Screen Gazebo</h2>
-          <p>If your need is occasional &mdash; a few backyard dinners, the odd party, or a bug-free zone you can move around &mdash; a pop-up screen gazebo is the low-cost entry point. These instant-canopy screen houses fold out in minutes, cover a patio table for the evening, and pack down for storage. They blur into <Link href="/blog/best-screen-tent-canada">screen tent</Link> territory: lighter frames, thinner mesh, and less wind stability than a proper gazebo. Expect the mesh to wear within a season or two of hard use, and expect to close or drop it in gusty weather. As a first gazebo or a semi-portable extra, it does the job; as a permanent deck fixture it will not last.</p>
-          <div className="not-prose my-4">
-            <BuyLink tag={AMZ_TAG} search="pop up gazebo with mosquito net 10x10">Check pop-up screen gazebos on Amazon.ca →</BuyLink>
-          </div>
-
           <h2>Best Large / Entertaining: A 12×14 (or Bigger) Screened Gazebo</h2>
           <p>When the gazebo is meant to be the backyard party zone &mdash; a full outdoor lounge and dining space, not just a table cover &mdash; size up to a 12&times;14 or larger soft-top with full-height zip screen walls. A footprint this size swallows a sectional plus a dining set with room to move, and turns the whole area into a screened room for a crowd. The trade-offs scale with the size: you need a large flat area, more anchoring points to secure against wind, and a bigger canopy to remove and store each fall. But for entertaining, nothing beats the feeling of a genuine bug-free outdoor room everyone can gather in.</p>
           <div className="not-prose my-4">
             <BuyLink tag={AMZ_TAG} search="large screened gazebo 12x14 mosquito netting">Check large screened gazebos on Amazon.ca →</BuyLink>
+          </div>
+
+          <h2>Best Budget: A Pop-Up Screen Gazebo</h2>
+          <p>If your need is occasional &mdash; a few backyard dinners, the odd party, or a bug-free zone you can move around &mdash; a pop-up screen gazebo is the low-cost entry point. These instant-canopy screen houses fold out in minutes, cover a patio table for the evening, and pack down for storage. They blur into <Link href="/blog/best-screen-tent-canada">screen tent</Link> territory: lighter frames, thinner mesh, and less wind stability than a proper gazebo. Expect the mesh to wear within a season or two of hard use, and expect to close or drop it in gusty weather. As a first gazebo or a semi-portable extra, it does the job; as a permanent deck fixture it will not last.</p>
+          <div className="not-prose my-4">
+            <BuyLink tag={AMZ_TAG} search="pop up gazebo with mosquito net 10x10">Check pop-up screen gazebos on Amazon.ca →</BuyLink>
           </div>
 
           <h2>How to Choose: What You Are Actually Paying For</h2>

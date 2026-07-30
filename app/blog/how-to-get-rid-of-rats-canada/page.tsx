@@ -14,7 +14,7 @@ const SLUG = 'how-to-get-rid-of-rats-canada'
 const DATE = '2026-07-21'
 const UPDATED = '2026-07-21'
 const TITLE = 'How to Get Rid of Rats in Canada (2026) — Traps, Exclusion & What’s Actually Legal'
-const META_TITLE = 'How to Get Rid of Rats in Canada 2026: Traps, Exclusion & Legal Baits'
+const META_TITLE = 'Get Rid of Rats in Canada: Traps, Not Just Bait'
 
 const FAQS = [
   {

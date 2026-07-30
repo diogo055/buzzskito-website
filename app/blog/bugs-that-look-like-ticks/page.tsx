@@ -232,7 +232,7 @@ export default function BugsThatLookLikeTicksPage() {
           <li><strong>Where you found it:</strong> Bed bugs live indoors near sleeping areas — mattress seams, headboards, baseboards. Ticks live outdoors on vegetation and only enter homes attached to people or pets.</li>
           <li><strong>Behaviour:</strong> Bed bugs do not stay attached after feeding — they retreat to a hiding place to digest. Ticks attach for hours or days at a time.</li>
         </ul>
-        <p>If you found the bug in your bed, on your couch, or in a wall crevice — and especially if you have unexplained bites in lines or clusters — assume bed bugs and call a pest control specialist. If you found it after a hike, on your child&apos;s scalp, or attached to your dog, treat it as a potential tick. For a side-by-side breakdown of these two specifically, see our dedicated <Link href="/blog/tick-vs-bed-bug" className="text-brand-700 underline">tick vs bed bug</Link> comparison.</p>
+        <p>If you found the bug in your bed, on your couch, or in a wall crevice — and especially if you have unexplained bites in lines or clusters — assume bed bugs and call a pest control specialist. If you found it after a hike, on your child&apos;s scalp, or attached to your dog, treat it as a potential tick. For a side-by-side breakdown of these two specifically, see our dedicated <Link href="/blog/tick-vs-bed-bug" className="text-brand-700 underline">tick vs bed bug</Link> comparison. If it turns out to be bed bugs, our <Link href="/blog/bed-bug-spray-canada" className="text-brand-700 underline">guide to the best bed bug sprays and killers in Canada</Link> covers which products are PMRA-legal here and what actually kills the eggs.</p>
 
         <h2>2. Weevils</h2>
         <p>Weevils are small beetles with a distinctive elongated &quot;snout.&quot; The species most commonly mistaken for ticks in Ontario homes is the granary weevil (<em>Sitophilus granarius</em>) and the rice weevil (<em>Sitophilus oryzae</em>) — both pantry pests that show up in stored grains, flour, pasta, and pet food. They are about 3 mm long, dark brown to black, and oval-shaped, which gives them a passable resemblance to a small unfed tick at first glance.</p>
@@ -312,6 +312,7 @@ export default function BugsThatLookLikeTicksPage() {
           <li><strong>Where they live:</strong> Damp books, cardboard, paper, and mouldy areas — never attached to skin.</li>
         </ul>
         <p>Booklice do not bite, do not carry disease, and are simply a sign of humidity. Drying the area out and improving ventilation clears them.</p>
+        <p>That humidity signal is worth following, because booklice rarely turn up alone. The same damp basement or bathroom that produces them supports a whole cast of moisture-dependent household insects &mdash; and if what you found came from a storage box or a baseboard rather than off a trouser leg after a hike, it is far more likely one of those. Our companion buying guides cover what each one needs: <Link href="/blog/best-silverfish-traps-canada" className="text-brand-700 underline">which silverfish trap to buy</Link> if the insect is silver and wingless with three tails, and <Link href="/blog/best-centipede-killer-canada" className="text-brand-700 underline">what to buy for house centipedes</Link> if it was fast and long-legged. In both cases the fix is the same humidity work that clears booklice.</p>
 
         <h2>Is It a Poppy Seed, a Sesame Seed, or a Tick?</h2>
         <p>This is one of the most-searched tick questions, and for good reason: an unfed blacklegged (deer) tick nymph really is about the size and colour of a poppy seed, and a well-fed one resembles a sesame seed. People routinely spot a dark speck on their skin or scalp and cannot tell whether it is a seed, a fleck of dirt, or a tick.</p>
@@ -373,6 +374,7 @@ export default function BugsThatLookLikeTicksPage() {
 
         <h2>When in Doubt, Get a Professional Eye on It</h2>
         <p>If you have found bugs you cannot identify on your property — and especially if you have pets or children playing in the yard — book a <Link href="/free-yard-assessment" className="text-brand-700 underline">free yard assessment</Link>. Our technician walks every property and can usually identify what you are seeing, point out the high-risk zones, and recommend the right level of treatment.</p>
+        <p>And if what you found is not a tick at all but the biting flies that share the same habitat — mosquitoes, black flies, deer flies at a cottage or campsite — the fastest fix is a physical one. A <Link href="/blog/best-screen-tent-canada" className="text-brand-700 underline">screen tent or screen house</Link> gives you a guaranteed bite-free zone over the table with no chemicals involved, which is the one thing repellents cannot do reliably against black flies.</p>
         <p>And if the bug turns out to be a bed bug rather than a tick, you are looking at a completely different treatment plan — our <Link href="/pest-product-guides" className="text-brand-700 underline">pest product guides</Link> include a full <Link href="/pest-product-guides/bed-bug-control" className="text-brand-700 underline">bed bug control library</Link> alongside the tick gear we recommend.</p>
 
         <h2>Related Guides</h2>
@@ -383,6 +385,8 @@ export default function BugsThatLookLikeTicksPage() {
           <li><Link href="/blog/tick-removal-tool-guide" className="text-brand-700 hover:underline">Best Tick Removal Tools: Buyer&rsquo;s Guide</Link></li>
           <li><Link href="/blog/tick-vs-bed-bug" className="text-brand-700 hover:underline">Tick vs Bed Bug: Full Comparison</Link></li>
           <li><Link href="/blog/tick-bite-vs-mosquito-bite" className="text-brand-700 hover:underline">Tick Bite vs Mosquito Bite</Link></li>
+          <li><Link href="/blog/best-screen-tent-canada" className="text-brand-700 hover:underline">Best Screen Tents &amp; Screen Houses in Canada</Link></li>
+          <li><Link href="/blog/best-wasp-trap-canada" className="text-brand-700 hover:underline">Best Wasp Traps in Canada — Bag vs Sticky vs Reusable</Link></li>
           <li><Link href="/tick-control" className="text-brand-700 hover:underline">BuzzSkito Tick Control Services</Link></li>
         </ul>
       </article>

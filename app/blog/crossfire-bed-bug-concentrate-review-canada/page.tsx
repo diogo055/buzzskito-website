@@ -246,7 +246,7 @@ export default function CrossfireBedBugConcentrateReviewCanadaPage() {
             <li><strong>Heat and steam (the egg-killer).</strong> Sprays struggle with bed-bug eggs because they are cemented to fabric; heat does not care. A dry-vapour <Link href="/blog/best-bed-bug-steamer-canada">bed-bug steamer</Link> kills every life stage on contact along seams and tufts, and a <Link href="/blog/bed-bug-heater-canada">bed-bug heater</Link> decontaminates whole items like luggage and bedding. Heat has no resistance and no residue.</li>
             <li><strong>A sealed-HEPA vacuum (the removal step).</strong> A <Link href="/blog/best-hepa-vacuum-for-bed-bugs-and-fleas-canada">sealed-HEPA vacuum</Link> physically pulls live bugs and debris out of harbourages before you treat, without blowing them back into the room.</li>
             <li><strong>Encasements and interceptors (protect and monitor).</strong> A <Link href="/blog/bed-bug-mattress-encasement-canada">mattress encasement</Link> traps anything left inside and denies new bugs a home, while <Link href="/blog/bed-bug-interceptor-traps-canada">interceptor traps</Link> under the legs catch travellers and let you measure whether the population is actually falling.</li>
-            <li><strong>A registered ready-to-use spray, if you want one.</strong> If you specifically want a liquid for contact knockdown on visible bugs, choose one that shows a Canadian PCP number &mdash; our reviews of <Link href="/blog/konk-bed-bug-killer-review-canada">Konk Bed Bug Killer</Link>, <Link href="/blog/ecoraider-bed-bug-spray-review-canada">EcoRaider</Link>, and <Link href="/blog/ortho-home-defense-bed-bug-review-canada">Ortho Home Defense</Link> sort the genuinely Canada-available options from the U.S.-only ones.</li>
+            <li><strong>A registered ready-to-use spray, if you want one.</strong> If you specifically want a liquid for contact knockdown on visible bugs, choose one that shows a Canadian PCP number &mdash; our reviews of <Link href="/blog/konk-bed-bug-killer-review-canada">Konk Bed Bug Killer</Link>, <Link href="/blog/ecoraider-bed-bug-spray-review-canada">EcoRaider</Link>, and <Link href="/blog/ortho-home-defense-bed-bug-review-canada">Ortho Home Defense</Link> sort the genuinely Canada-available options from the U.S.-only ones, and our <Link href="/blog/bed-bug-spray-canada">bed bug spray and killer guide for Canada</Link> lays all of them out in one legal-vs-not-legal table.</li>
           </ul>
 
           <h2>How to Choose: What You Are Actually Paying For with a Concentrate</h2>
@@ -274,6 +274,7 @@ export default function CrossfireBedBugConcentrateReviewCanadaPage() {
 
           <h2>Related Reading</h2>
           <ul>
+            <li><Link href="/blog/bed-bug-spray-canada">Best Bed Bug Spray &amp; Killer in Canada — Every PMRA-Legal Option Compared</Link></li>
             <li><Link href="/blog/cimexa-bed-bug-review-canada">CimeXa Review Canada — The PMRA-Registered Silica Dust</Link></li>
             <li><Link href="/blog/best-bed-bug-powder-canada">Best Bed-Bug Powder Canada — Silica Dust vs Diatomaceous Earth</Link></li>
             <li><Link href="/blog/heat-vs-chemical-bed-bug-treatment-canada">Heat vs Chemical Bed-Bug Treatment in Canada</Link></li>

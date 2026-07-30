@@ -12,7 +12,7 @@ const SLUG = 'citronella-candles-canada-do-they-work'
 const DATE = '2026-07-12'
 const UPDATED = '2026-07-12'
 const TITLE = 'Do Citronella Candles Work in Canada? An Honest 2026 Verdict'
-const META_TITLE = 'Do Citronella Candles Work? Honest 2026 Canada Verdict'
+const META_TITLE = 'Do Citronella Candles Work? The 1-Metre Bubble'
 
 const FAQS = [
   {

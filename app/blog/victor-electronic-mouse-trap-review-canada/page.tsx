@@ -14,7 +14,7 @@ const SLUG = 'victor-electronic-mouse-trap-review-canada'
 const DATE = '2026-07-16'
 const UPDATED = '2026-07-16'
 const TITLE = 'Victor Electronic Mouse Trap Review (Canada 2026) — Is the M250S Worth It?'
-const META_TITLE = 'Victor Electronic Mouse Trap Review Canada 2026: M250S Honest Take'
+const META_TITLE = 'Victor M250S Mouse Trap Review Canada 2026'
 
 const FAQS = [
   {

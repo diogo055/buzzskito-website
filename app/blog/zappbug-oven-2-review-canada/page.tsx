@@ -14,7 +14,7 @@ const SLUG = 'zappbug-oven-2-review-canada'
 const DATE = '2026-07-21'
 const UPDATED = '2026-07-21'
 const TITLE = 'ZappBug Oven 2 Review Canada 2026 — Is the Large Bed Bug Heat Box Worth It?'
-const META_TITLE = 'ZappBug Oven 2 Review Canada 2026: Large Bed Bug Heat Box'
+const META_TITLE = 'ZappBug Oven 2 Canada Review: Two-Heater Box'
 
 const FAQS = [
   {

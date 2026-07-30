@@ -14,7 +14,7 @@ const SLUG = 'best-ulv-cold-fogger-canada'
 const DATE = '2026-07-21'
 const UPDATED = '2026-07-21'
 const TITLE = 'Best ULV Cold Fogger Canada 2026 — Electric Cold Foggers for Disinfectant & Pest Control Compared'
-const META_TITLE = 'Best ULV Cold Fogger Canada 2026 — Tested & Compared'
+const META_TITLE = 'Best ULV Cold Fogger Canada 2026: Micron Sizes'
 
 const FAQS = [
   {

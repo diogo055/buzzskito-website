@@ -14,6 +14,7 @@ const SLUG = 'types-of-ticks-identification'
 const DATE = '2026-07-13'
 const UPDATED = '2026-07-13'
 const TITLE = 'Types of Ticks: Identification Chart, Size & ID Guide'
+const META_TITLE = 'Types of Ticks: 5-Species ID Chart & Sizes'
 
 const FAQS = [
   {
@@ -67,7 +68,7 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: TITLE,
+  title: META_TITLE,
   description: 'Tick identification chart for the common North American ticks — blacklegged/deer, American dog, lone star, brown dog and Rocky Mountain wood tick. Compare size by life stage, colour, markings, range and disease risk, with photos and an ID FAQ.',
   canonical: `/blog/${SLUG}`,
   type: 'article',

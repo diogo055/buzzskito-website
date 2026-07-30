@@ -14,6 +14,7 @@ const SLUG = 'bed-bug-interceptor-traps-canada'
 const DATE = '2026-07-16'
 const UPDATED = '2026-07-16'
 const TITLE = 'Bed Bug Interceptor Traps Canada 2026 — Detect Before You Spray'
+const META_TITLE = 'Bed Bug Interceptor Traps Canada: 14-Night Test'
 
 const FAQS = [
   {
@@ -67,7 +68,7 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: TITLE,
+  title: META_TITLE,
   description: 'Bed bug interceptor traps for Canadian homes: how ClimbUp cups exploit bed bug climbing physiology, the 14-night monitoring protocol, how to read inner vs outer well catches, and why detection should always come before sprays. Independent research, updated 2026.',
   canonical: `/blog/${SLUG}`,
   type: 'article',

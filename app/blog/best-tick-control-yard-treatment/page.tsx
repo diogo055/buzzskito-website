@@ -14,8 +14,10 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 const POST = TICK_BLOGS.supporting[3]
 const UPDATED = '2026-07-16'
 
+const META_TITLE = 'Best Tick Control for Yards Ontario: 6 Methods'
+
 export const metadata: Metadata = buildMetadata({
-  title: 'Best Tick Control for Yards in Ontario 2026 (6 Methods Compared)',
+  title: META_TITLE,
   description:
     'Six tick control methods compared for Ontario yards in 2026 — professional barrier spray, consumer sprays, granular, cedar mulch, permethrin tick tubes, and DIY foggers. Effectiveness ratings, duration, and what actually works on blacklegged ticks.',
   canonical: `/blog/${POST.slug}`,

@@ -14,7 +14,7 @@ const SLUG = 'how-to-get-rid-of-cockroaches-canada'
 const DATE = '2026-07-21'
 const UPDATED = '2026-07-21'
 const TITLE = 'How to Get Rid of Cockroaches in Canada — The Bait-First Plan That Actually Works'
-const META_TITLE = 'How to Get Rid of Cockroaches in Canada (2026): Bait-First Plan'
+const META_TITLE = 'Get Rid of Cockroaches Canada: Bait, Not Spray'
 
 const FAQS = [
   {
@@ -116,6 +116,18 @@ export default function HowToGetRidOfCockroachesCanadaPage() {
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito Pest Product Guides &middot; independent Canadian research</p>
           </div>
+          <div className="not-prose rounded-xl border-l-4 border-emerald-500 bg-emerald-50/60 p-5 mb-6">
+            <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Ready to buy the kit?</p>
+            <p className="text-sm text-gray-800 leading-relaxed">
+              This page is the plan &mdash; species ID, sanitation, the bait-first sequence and the apartment problem. Three companion pages cover the purchases:
+            </p>
+            <ul className="mt-2 space-y-1.5 text-sm text-gray-800 list-disc pl-5">
+              <li><Link href="/blog/best-roach-traps-canada" className="text-emerald-700 underline font-semibold">Cockroach traps in Canada</Link> &mdash; glue boards versus enclosed bait stations, how many of each, and exactly where they go.</li>
+              <li><Link href="/blog/best-cockroach-spray-canada" className="text-emerald-700 underline font-semibold">Cockroach spray in Canada</Link> &mdash; the three jobs a can legitimately wins, and why spraying near your bait ruins it.</li>
+              <li><Link href="/blog/advion-cockroach-gel-bait-canada" className="text-emerald-700 underline font-semibold">Advion cockroach gel bait in Canada</Link> &mdash; the honest answer on the imported gel and the PCP-number check.</li>
+            </ul>
+          </div>
+
           <SpecialistDisclosure pest="cockroaches" />
         </div>
       </section>

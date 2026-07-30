@@ -14,7 +14,7 @@ const SLUG = 'advion-cockroach-gel-bait-canada'
 const DATE = '2026-07-21'
 const UPDATED = '2026-07-21'
 const TITLE = 'Advion Cockroach Gel Bait in Canada — The Honest Grey-Market Answer'
-const META_TITLE = 'Advion Cockroach Gel Bait Canada 2026: Legality, Grey Market & Legal Alternatives'
+const META_TITLE = 'Advion Cockroach Gel Bait Canada: 2026 Legality'
 
 const FAQS = [
   {

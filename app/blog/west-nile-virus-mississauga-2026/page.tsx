@@ -43,8 +43,10 @@ const FAQS = [
   },
 ]
 
+const META_TITLE = 'West Nile Virus Mississauga 2026: Peel Risk'
+
 export const metadata: Metadata = buildMetadata({
-  title: 'West Nile Virus Mississauga 2026: Risk, Surveillance + Yard Protection',
+  title: META_TITLE,
   description:
     "West Nile Virus is an established Peel Region concern in 2026. What Peel Public Health\'s surveillance finds, why Lake Ontario + Credit River wetlands matter, and yard prevention that works.",
   canonical: `/blog/${POST.slug}`,

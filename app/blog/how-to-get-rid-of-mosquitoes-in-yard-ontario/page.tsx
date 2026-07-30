@@ -15,6 +15,7 @@ const SLUG = 'how-to-get-rid-of-mosquitoes-in-yard-ontario'
 const DATE = '2026-04-29'
 const UPDATED = '2026-04-29'
 const TITLE = 'How to Get Rid of Mosquitoes in Your Yard & Keep Them Away'
+const META_TITLE = 'Get Rid of Mosquitoes in Your Yard: 12 Steps'
 
 const FAQS = [
   { question: `Eliminate Every Standing Water Source on Your Property`, answer: `Mosquitoes need standing water to breed — they cannot reproduce without it. The fastest single action you can take is a yard sweep eliminating every container holding water for 48+ hours: birdbaths (change weekly), plant saucers (drill drainage holes), kiddie pools (drain after use), wheelbarrows, buckets, recycling bin lids, garbage can lids, kids' toys, tarps with creases, and old tires. One uncovered birdbath can produce thousands of mosquitoes per week.` },
@@ -28,7 +29,7 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: `How to Get Rid of Mosquitoes in Your Yard & Keep Them Away`,
+  title: META_TITLE,
   description: `Ontario homeowner's guide to getting rid of mosquitoes in your yard and keeping them away for good. Fast ways to repel and keep mosquitoes away, plus 12 proven steps. Tested in GTA conditions.`,
   canonical: `/blog/${SLUG}`,
   type: 'article',

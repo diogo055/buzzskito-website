@@ -14,7 +14,7 @@ const SLUG = 'best-yellow-jacket-trap-canada'
 const DATE = '2026-07-21'
 const UPDATED = '2026-07-21'
 const TITLE = 'Best Yellow Jacket Trap Canada 2026 — And the SKU Mistake Everyone Makes'
-const META_TITLE = 'Best Yellow Jacket Trap Canada 2026: Picks + SKU Warning'
+const META_TITLE = 'Best Yellow Jacket Trap Canada 2026: SKU Warning'
 
 const FAQS = [
   {

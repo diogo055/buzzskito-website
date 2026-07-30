@@ -13,7 +13,7 @@ const SLUG = 'mosquito-magnet-vs-dynatrap-canada'
 const DATE = '2026-07-21'
 const UPDATED = '2026-07-21'
 const TITLE = 'Mosquito Magnet vs DynaTrap Canada 2026 — Which High-End Trap Actually Wins?'
-const META_TITLE = 'Mosquito Magnet vs DynaTrap Canada 2026: Head-to-Head'
+const META_TITLE = 'Mosquito Magnet vs DynaTrap Canada: Which Wins?'
 
 const FAQS = [
   {

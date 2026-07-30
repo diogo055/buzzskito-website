@@ -14,7 +14,7 @@ const SLUG = 'mosquito-net-canada'
 const DATE = '2026-07-12'
 const UPDATED = '2026-07-12'
 const TITLE = 'Mosquito Net Canada 2026 — Buyer’s Guide by Use (Bed, Head, Hammock)'
-const META_TITLE = 'Mosquito Net Canada 2026: Best Nets by Use + Where to Buy'
+const META_TITLE = 'Mosquito Net Canada 2026: Bed, Head & Hammock'
 
 const FAQS = [
   {

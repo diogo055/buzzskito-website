@@ -66,8 +66,10 @@ const FAQS = [
   },
 ]
 
+const META_TITLE = 'Mouse Bait Stations Canada 2026: PMRA Rules'
+
 export const metadata: Metadata = buildMetadata({
-  title: TITLE,
+  title: META_TITLE,
   description: 'Mouse bait stations in Canada: why only bromethalin disposable stations like Tomcat\'s are consumer-legal under PMRA rules, which US grey-market baits to avoid, station placement, and when traps beat bait. Updated 2026.',
   canonical: `/blog/${SLUG}`,
   type: 'article',

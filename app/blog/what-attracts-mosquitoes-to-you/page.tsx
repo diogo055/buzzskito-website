@@ -14,6 +14,7 @@ const SLUG = 'what-attracts-mosquitoes-to-you'
 const DATE = '2026-07-13'
 const UPDATED = '2026-07-13'
 const TITLE = 'What Attracts Mosquitoes to You? Why They Pick You (2026)'
+const META_TITLE = 'What Attracts Mosquitoes to You? The 3 Big Cues'
 
 const FAQS = [
   {
@@ -51,7 +52,7 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: TITLE,
+  title: META_TITLE,
   description: 'Mosquitoes zero in on CO₂, body heat, type O blood, lactic acid and skin bacteria, dark clothing, and beer. Here is exactly what makes you a mosquito magnet — plus how to be less attractive and actually stop the bites.',
   canonical: `/blog/${SLUG}`,
   type: 'article',

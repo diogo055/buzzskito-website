@@ -13,7 +13,7 @@ const SLUG = 'best-mosquito-trap-canada'
 const DATE = '2026-07-12'
 const UPDATED = '2026-07-12'
 const TITLE = 'Best Mosquito Trap Canada 2026 — Propane vs UV vs CO₂ Compared'
-const META_TITLE = 'Best Mosquito Trap Canada 2026: Propane vs UV vs CO₂'
+const META_TITLE = 'Best Mosquito Trap Canada 2026: Propane vs UV'
 
 const FAQS = [
   {

@@ -6,6 +6,7 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 const SLUG = 'when-to-worry-about-a-mosquito-bite'
 const DATE = '2026-07-15'
 const TITLE = 'When to Worry About a Mosquito Bite: Infection Signs, Allergy & When to See a Doctor (2026)'
+const META_TITLE = 'When to Worry About a Mosquito Bite: Red Flags'
 
 const FAQS = [
   {
@@ -59,7 +60,7 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: TITLE,
+  title: META_TITLE,
   description: 'When to worry about a mosquito bite: how to spot an infected bite vs a normal reaction, allergic reactions and skeeter syndrome, purple/bruised bites, swollen-eye bites, West Nile signs, and a clear see-a-doctor / call-911 checklist. Ontario 2026.',
   canonical: `/blog/${SLUG}`,
   type: 'article',

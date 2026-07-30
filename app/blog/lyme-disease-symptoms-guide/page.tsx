@@ -13,6 +13,7 @@ const SLUG = 'lyme-disease-symptoms-guide'
 const DATE = '2026-07-13'
 const UPDATED = '2026-07-13'
 const TITLE = 'Lyme Disease Symptoms: Early Signs, Rash & Stages Guide'
+const META_TITLE = 'Lyme Disease Symptoms: 3 Stages & the Rash'
 
 const FAQS = [
   {
@@ -58,7 +59,7 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Lyme Disease Symptoms: Early Signs, Rash & Stages (2026)',
+  title: META_TITLE,
   description: 'Lyme disease symptoms explained by stage: the early erythema migrans (bullseye) rash, flu-like signs, the 3–30 day tick-bite timeline, later joint, heart and nerve problems, and when to see a doctor. Sourced from Health Canada, Public Health Ontario, and the CDC.',
   canonical: `/blog/${SLUG}`,
   type: 'article',

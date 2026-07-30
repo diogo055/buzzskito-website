@@ -14,7 +14,7 @@ const SLUG = 'best-bug-spray-for-kids-canada'
 const DATE = '2026-07-12'
 const UPDATED = '2026-07-12'
 const TITLE = 'Best Bug Spray for Kids in Canada 2026 — Safe Picks by Age'
-const META_TITLE = 'Best Bug Spray for Kids Canada 2026: Safe Picks by Age'
+const META_TITLE = 'Best Bug Spray for Kids Canada 2026: DEET Ages'
 
 const FAQS = [
   {

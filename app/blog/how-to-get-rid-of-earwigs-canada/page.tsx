@@ -117,6 +117,13 @@ export default function HowToGetRidOfEarwigsCanadaPage() {
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito Pest Product Guides &middot; independent Canadian research</p>
           </div>
+          <div className="not-prose rounded-xl border-l-4 border-emerald-500 bg-emerald-50/60 p-5 mb-6">
+            <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Shopping instead?</p>
+            <p className="text-sm text-gray-800 leading-relaxed">
+              This page is the method &mdash; the biology, the Ontario timing, and the free traps that do most of the work. If you have already decided to spend money, <Link href="/blog/best-earwig-killer-canada" className="text-emerald-700 underline font-semibold">earwig traps and killers in Canada: what to buy</Link> covers what the Canadian shelf legally carries (and the famous American barrier spray it does not), which registered diatomaceous earth to buy and why the duster is not optional, why no commercial earwig trap is worth the money, and the two label checks &mdash; PCP number and use site &mdash; to run before you order.
+            </p>
+          </div>
+
           <SpecialistDisclosure pest="earwigs" />
         </div>
       </section>

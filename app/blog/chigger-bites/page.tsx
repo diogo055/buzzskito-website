@@ -14,6 +14,7 @@ const SLUG = 'chigger-bites'
 const DATE = '2026-07-19'
 const UPDATED = '2026-07-19'
 const TITLE = 'Chigger Bites: What They Look Like, How Long They Last & How to Treat Them (2026)'
+const META_TITLE = 'Chigger Bites: What They Look Like and How Long'
 
 const FAQS = [
   {
@@ -74,7 +75,7 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: TITLE,
+  title: META_TITLE,
   description:
     'What chigger bites look like, why they cluster at ankles and waistbands, how long they last, treatment that actually calms the itch, and the skin-burrowing myth debunked. Updated 2026.',
   canonical: `/blog/${SLUG}`,

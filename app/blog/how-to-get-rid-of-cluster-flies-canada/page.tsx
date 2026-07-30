@@ -14,7 +14,7 @@ const SLUG = 'how-to-get-rid-of-cluster-flies-canada'
 const DATE = '2026-07-21'
 const UPDATED = '2026-07-21'
 const TITLE = 'How to Get Rid of Cluster Flies in Canada (2026) — The Farmhouse & Cottage Guide'
-const META_TITLE = 'How to Get Rid of Cluster Flies in Canada 2026 — Farmhouse & Cottage Fix'
+const META_TITLE = 'Cluster Flies Canada 2026: The Farmhouse Fix'
 
 const FAQS = [
   {

@@ -6,6 +6,7 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 const SLUG = 'what-percentage-of-ticks-carry-lyme-ontario'
 const DATE = '2026-07-16'
 const TITLE = 'What Percentage of Ticks Carry Lyme Disease in Ontario? (2026 Data)'
+const META_TITLE = 'What Percent of Ticks Carry Lyme? Ontario 2026'
 
 const FAQS = [
   {
@@ -59,7 +60,7 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: TITLE,
+  title: META_TITLE,
   description: 'What percentage of ticks carry Lyme disease in Ontario? About 20% of blacklegged ticks in established risk areas carry Borrelia burgdorferi (Public Health Ontario). Infection rates by species and life stage, transmission time, and your real chance of Lyme from a bite. Updated 2026.',
   canonical: `/blog/${SLUG}`,
   type: 'article',

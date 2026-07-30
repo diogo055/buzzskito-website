@@ -13,6 +13,7 @@ const SLUG = 'rat-poison-canada-what-is-legal'
 const DATE = '2026-07-16'
 const UPDATED = '2026-07-16'
 const TITLE = 'Rat Poison in Canada 2026 — What\'s Actually Legal (and What Isn\'t)'
+const META_TITLE = 'Rat Poison Canada 2026: What Is Actually Legal'
 
 const FAQS = [
   {
@@ -62,7 +63,7 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: TITLE,
+  title: META_TITLE,
   description: 'Second-generation anticoagulant rat poisons are commercial-only in Canada. What the PMRA actually allows consumers, BC\'s SGAR ban, the US grey-market products to avoid, and the legal Tomcat bromethalin option. Updated 2026.',
   canonical: `/blog/${SLUG}`,
   type: 'article',

@@ -14,6 +14,7 @@ const SLUG = 'do-ticks-fly-or-jump'
 const DATE = '2026-07-09'
 const UPDATED = '2026-07-12'
 const TITLE = 'Do Ticks Fly or Jump? How They Actually Get on You (Ontario)'
+const META_TITLE = 'Do Ticks Fly or Jump? No — They Climb 30–50 cm'
 
 const FAQS = [
   {
@@ -47,7 +48,7 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Do Ticks Fly or Jump? How They Get on You (Ontario 2026)',
+  title: META_TITLE,
   description: 'No — ticks cannot fly or jump. They climb grass and wait to grab a passing host ("questing"). Here is how ticks actually reach you, how high they climb, and how to stop them in your yard.',
   canonical: `/blog/${SLUG}`,
   type: 'article',

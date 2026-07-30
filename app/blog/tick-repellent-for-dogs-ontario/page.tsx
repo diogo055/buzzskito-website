@@ -14,6 +14,7 @@ const SLUG = 'tick-repellent-for-dogs-ontario'
 const DATE = '2026-07-09'
 const UPDATED = '2026-07-12'
 const TITLE = 'Tick Repellent for Dogs: What Actually Works (Ontario 2026)'
+const META_TITLE = 'Tick Repellent for Dogs: What Works in Ontario'
 
 const FAQS = [
   {
@@ -51,7 +52,7 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Tick Repellent for Dogs: What Actually Works (Ontario 2026)',
+  title: META_TITLE,
   description: 'Which tick preventatives kill ticks fastest, whether dog ticks carry Lyme, what "kills ticks instantly," and why natural repellents fall short in Ontario. Vet-aligned, with yard prevention.',
   canonical: `/blog/${SLUG}`,
   type: 'article',

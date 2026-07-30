@@ -12,8 +12,10 @@ const POST = {
   excerpt: 'Updated 2026 map of confirmed Lyme disease risk areas across Ontario, including GTA-specific zones, public health surveillance data, and what homeowners can do to protect their families.',
 }
 
+const META_TITLE = 'Lyme Disease Risk Map Ontario 2026: GTA Zones'
+
 export const metadata: Metadata = buildMetadata({
-  title: 'Lyme Disease Risk Map Ontario 2026: Endemic Zones + Why Toronto Is a Hot Spot',
+  title: META_TITLE,
   description:
     'Confirmed Lyme risk zones across Ontario in 2026. Ontario reported 2,369 Lyme disease cases in 2024, up 27% on 2023 — the newest year PHAC has published. GTA hotspots, how risk areas are classified, and a household risk score.',
   canonical: `/blog/${POST.slug}`,

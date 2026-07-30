@@ -13,7 +13,7 @@ const SLUG = 'mosquito-coils-canada'
 const DATE = '2026-07-12'
 const UPDATED = '2026-07-12'
 const TITLE = 'Mosquito Coils Canada 2026 — Do They Work & Are They Safe?'
-const META_TITLE = 'Mosquito Coils Canada 2026: Do They Work & Are They Safe?'
+const META_TITLE = 'Mosquito Coils Canada 2026: Do They Work?'
 
 const FAQS = [
   {

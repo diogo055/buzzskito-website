@@ -14,7 +14,7 @@ const SLUG = 'motion-activated-sprinkler-canada'
 const DATE = '2026-07-21'
 const UPDATED = '2026-07-21'
 const TITLE = 'Best Motion-Activated Sprinkler Canada 2026 — Keep Raccoons, Cats & Squirrels Out'
-const META_TITLE = 'Best Motion-Activated Sprinkler Canada 2026: Orbit Yard Enforcer'
+const META_TITLE = 'Best Motion-Activated Sprinkler Canada 2026'
 
 const FAQS = [
   {

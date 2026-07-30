@@ -14,6 +14,7 @@ const SLUG = 'west-nile-virus-toronto-2026'
 const DATE = '2026-07-09'
 const UPDATED = '2026-07-09'
 const TITLE = 'West Nile Virus in Toronto: 2026 Risk, Symptoms & Prevention'
+const META_TITLE = 'West Nile Virus Toronto 2026: Peak Is August'
 
 const FAQS = [
   {
@@ -51,7 +52,7 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'West Nile Virus in Toronto 2026: Risk, Symptoms & Prevention',
+  title: META_TITLE,
   description: 'West Nile risk in Toronto peaks August–early September. Symptoms, which mosquitoes carry it, why stagnant water matters more than puddles, and how to protect your yard.',
   canonical: `/blog/${SLUG}`,
   type: 'article',

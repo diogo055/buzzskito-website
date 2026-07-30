@@ -14,6 +14,7 @@ const SLUG = 'electric-fly-swatter-canada'
 const DATE = '2026-07-14'
 const UPDATED = '2026-07-14'
 const TITLE = 'Best Electric Fly Swatter Canada 2026 — The Executioner vs Zap It vs Black Flag'
+const META_TITLE = 'Best Electric Fly Swatter Canada 2026: 3 Picks'
 
 const FAQS = [
   {
@@ -51,7 +52,7 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: TITLE,
+  title: META_TITLE,
   description: 'The Executioner vs Zap It vs Black Flag on Amazon.ca — grid voltage explained, single vs 3-layer mesh safety, battery vs USB, and what a bug zapper racket honestly kills. 2026 Canadian guide.',
   canonical: `/blog/${SLUG}`,
   type: 'article',

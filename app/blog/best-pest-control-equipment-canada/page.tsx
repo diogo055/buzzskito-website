@@ -14,7 +14,7 @@ const SLUG = 'best-pest-control-equipment-canada'
 const DATE = '2026-07-21'
 const UPDATED = '2026-07-21'
 const TITLE = 'Best Pest Control Equipment Canada 2026 — The Complete DIY Gear Guide'
-const META_TITLE = 'Best Pest Control Equipment Canada 2026 — Gear Guide'
+const META_TITLE = 'Best Pest Control Equipment Canada: 2026 Gear'
 
 const FAQS = [
   {

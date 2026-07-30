@@ -12,9 +12,13 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'best-cockroach-spray-canada'
 const DATE = '2026-07-28'
-const UPDATED = '2026-07-28'
-const TITLE = 'Best Cockroach Spray in Canada 2026 — And the Honest Reason Spraying Usually Makes It Worse'
-const META_TITLE = 'Best Cockroach Spray Canada 2026 + Roach Killer'
+const UPDATED = '2026-07-30'
+// This page owns the SPRAY AND AEROSOL purchase only: the three jobs a can legitimately
+// wins, how to read a Canadian label, and what not to buy. Traps and bait stations are
+// best-roach-traps-canada; the elimination plan is how-to-get-rid-of-cockroaches-canada.
+// SERP title trimmed to 45 chars so it survives Google's cap once " | BuzzSkito" is appended.
+const TITLE = 'Cockroach Spray in Canada — The Three Jobs Worth Buying a Can For'
+const META_TITLE = 'Cockroach Spray Canada: What to Buy, What Not'
 
 const FAQS = [
   {
@@ -69,7 +73,7 @@ const FAQS = [
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'Best cockroach spray in Canada 2026: why broadcast spraying scatters roaches into wall voids, the 3 jobs a spray actually wins, and PMRA-registered picks.',
+  description: 'Which cockroach spray to buy in Canada, and when not to: the three jobs a can genuinely wins, how to read a PCP label, and why spraying near bait ruins it.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -82,7 +86,7 @@ export default function BestCockroachSprayCanadaPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian buyer guide to cockroach sprays and roach killers: why repellent sprays scatter German cockroaches, the three jobs a spray legitimately does, PMRA/PCP label rules, gel bait and boric acid alternatives, and what not to buy.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Best Cockroach Spray Canada', url: `/blog/${SLUG}` }])) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Cockroach Spray Canada — What to Buy, What Not', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`, UPDATED)) }} />
 
@@ -91,7 +95,7 @@ export default function BestCockroachSprayCanadaPage() {
           <nav aria-label="Breadcrumb" className="text-brand-400 text-sm mb-4 flex gap-1">
             <Link href="/" className="hover:text-white">Home</Link><span>/</span>
             <Link href="/blog" className="hover:text-white">Blog</Link><span>/</span>
-            <span className="text-white">Best Cockroach Spray Canada</span>
+            <span className="text-white">Cockroach Spray — What to Buy, What Not</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
           <p className="text-xl text-brand-100 max-w-3xl">Most people searching for a roach killer are about to buy the one product category that scatters their infestation. Here is what a spray is genuinely good for, which registered Canadian options to buy for those jobs, and the thing you should buy before any of them.</p>
@@ -117,7 +121,73 @@ export default function BestCockroachSprayCanadaPage() {
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito Pest Product Guides &middot; independent Canadian research</p>
           </div>
+          <div className="not-prose rounded-xl border-l-4 border-brand-500 bg-brand-50 p-5 mb-6">
+            <p className="text-xs font-extrabold uppercase tracking-wider text-brand-700 mb-2">Four pages, four jobs</p>
+            <p className="text-sm text-gray-800 leading-relaxed">
+              <strong>This page covers sprays and aerosols only</strong> &mdash; the three jobs a can legitimately wins, which registered Canadian products do them, how to read the label, and what to leave on the shelf.
+            </p>
+            <ul className="mt-2 space-y-1.5 text-sm text-gray-800 list-disc pl-5">
+              <li><strong>Want the plan?</strong> <Link href="/blog/how-to-get-rid-of-cockroaches-canada" className="text-emerald-700 underline font-semibold">How to get rid of cockroaches in Canada</Link> &mdash; species ID, sanitation, the full bait-first sequence, and the apartment problem.</li>
+              <li><strong>Buying traps or bait stations?</strong> <Link href="/blog/best-roach-traps-canada" className="text-emerald-700 underline font-semibold">Cockroach traps in Canada</Link> &mdash; glue boards versus enclosed bait stations, how many of each, and where they go.</li>
+              <li><strong>Considering an imported gel?</strong> <Link href="/blog/advion-cockroach-gel-bait-canada" className="text-emerald-700 underline font-semibold">Advion cockroach gel bait in Canada</Link> covers the PMRA grey zone in detail.</li>
+            </ul>
+          </div>
+
           <SpecialistDisclosure pest="cockroaches" />
+        </div>
+      </section>
+
+      <section className="bg-white px-4 py-8">
+        <div className="max-w-4xl mx-auto">
+          <p className="text-xs font-extrabold text-emerald-700 uppercase tracking-wider mb-2">Decision Table</p>
+          <h2 className="text-2xl font-extrabold text-brand-900 mb-4">Pick in 60 Seconds: Should You Buy a Can At All?</h2>
+          <p className="text-sm text-gray-700 mb-5 leading-relaxed">
+            A cockroach spray is the right purchase in a narrow set of situations and the wrong one in most. Find your row before you order.
+          </p>
+          <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
+            <table className="w-full text-sm">
+              <thead className="bg-brand-800 text-white">
+                <tr>
+                  <th className="px-4 py-3 text-left">Your situation</th>
+                  <th className="px-4 py-3 text-left">Buy this</th>
+                  <th className="px-4 py-3 text-left">Why</th>
+                  <th className="px-4 py-3 text-left">Get it</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Small tan roaches with two dark stripes, breeding indoors</td>
+                  <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Bait, not spray.</strong> Put the can back</td>
+                  <td className="px-4 py-3 text-gray-700">A repellent residue scatters a German cockroach population deeper into voids and neighbouring units</td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="combat roach killing bait stations" block>Bait stations &rarr;</BuyLink></td>
+                </tr>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">A gap you cannot get a bait station into</td>
+                  <td className="px-4 py-3 text-gray-700">A Canadian-labelled aerosol <strong>with a straw applicator</strong></td>
+                  <td className="px-4 py-3 text-gray-700">Crack-and-crevice injection is the one indoor job a can does better than anything else</td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="crack and crevice insecticide aerosol straw" block>Aerosol with straw &rarr;</BuyLink></td>
+                </tr>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Large roaches wandering in from a drain or the yard</td>
+                  <td className="px-4 py-3 text-gray-700">Sealing and drain work first; an exterior perimeter product second, if your province permits it</td>
+                  <td className="px-4 py-3 text-gray-700">American and Oriental cockroaches are entering, not breeding &mdash; so the fix is at the entry</td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="door sweep under door draft stopper" block>Door sweep &rarr;</BuyLink></td>
+                </tr>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">One roach on the wall, right now</td>
+                  <td className="px-4 py-3 text-gray-700">Any registered contact aerosol &mdash; or a shoe. This is the honest use case</td>
+                  <td className="px-4 py-3 text-gray-700">Kills what it wets. Just keep it away from your bait placements</td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="crack and crevice insecticide aerosol straw" block>Contact aerosol &rarr;</BuyLink></td>
+                </tr>
+                <tr className="align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">You want it over with tonight</td>
+                  <td className="px-4 py-3 text-gray-700"><strong className="text-red-700">Not a fogger.</strong> Nothing on the consumer shelf does this</td>
+                  <td className="px-4 py-3 text-gray-700">Total-release foggers deposit on open surfaces, not in harbourages, and poison the ground your bait needs</td>
+                  <td className="px-4 py-3 text-xs text-gray-400">Do not buy</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
         </div>
       </section>
 
@@ -367,7 +437,8 @@ export default function BestCockroachSprayCanadaPage() {
 
           <h2>Related Cockroach &amp; Crawling-Pest Guides</h2>
           <ul>
-            <li><Link href="/blog/how-to-get-rid-of-cockroaches-canada">How to Get Rid of Cockroaches in Canada — The Bait-First Plan</Link></li>
+            <li><strong>The plan a spray fits into:</strong> <Link href="/blog/how-to-get-rid-of-cockroaches-canada">How to Get Rid of Cockroaches in Canada — The Bait-First Plan</Link></li>
+            <li><strong>Buying traps or bait stations instead?</strong> <Link href="/blog/best-roach-traps-canada">Cockroach Traps in Canada — Glue Boards Find Them, Bait Stations Kill Them</Link></li>
             <li><Link href="/blog/advion-cockroach-gel-bait-canada">Advion Cockroach Gel Bait in Canada — The Honest Grey-Market Answer</Link></li>
             <li><Link href="/blog/diatomaceous-earth-canada-buyers-guide">Diatomaceous Earth in Canada — Buyer&rsquo;s Guide and Application Technique</Link></li>
             <li><Link href="/blog/ultrasonic-pest-repellers-do-they-work">Do Ultrasonic Pest Repellers Actually Work?</Link></li>

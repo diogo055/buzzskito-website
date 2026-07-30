@@ -14,7 +14,7 @@ const SLUG = 'how-to-get-rid-of-bed-bugs-yourself-diy-canada'
 const DATE = '2026-07-21'
 const UPDATED = '2026-07-21'
 const TITLE = 'How to Get Rid of Bed Bugs Yourself in Canada 2026 — The Full DIY Protocol'
-const META_TITLE = 'Get Rid of Bed Bugs Yourself Canada 2026 — DIY Protocol'
+const META_TITLE = 'Get Rid of Bed Bugs Yourself: The 5-Tool Kit'
 
 const FAQS = [
   {

@@ -13,8 +13,8 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 const SLUG = 'best-wasp-trap-canada'
 const DATE = '2026-07-21'
 const UPDATED = '2026-07-21'
-const TITLE = 'Best Wasp Trap Canada 2026 — RESCUE! WHY vs TrapStik vs Bag Traps'
-const META_TITLE = 'Best Wasp Trap Canada 2026: RESCUE! WHY vs TrapStik vs Bag Traps'
+const TITLE = 'Best Wasp Traps in Canada: Bag, Sticky, Reusable and DIY Compared'
+const META_TITLE = 'Best Wasp Traps Canada 2026: Bag vs Reusable'
 
 const FAQS = [
   {
@@ -61,11 +61,19 @@ const FAQS = [
     question: 'Why are there suddenly so many wasps in late August?',
     answer: 'It is the colony life cycle, not bad luck. All season, workers hunted protein for larvae, and larvae repaid them with sweet secretions. In late August the queen stops laying workers, larvae dwindle, and the sugar tap turns off — leaving thousands of workers at peak population with nothing to do but hunt sweets: fallen fruit, pop, juice, ice cream. The colony will die with the first hard frosts (only new queens overwinter), but the four to six weeks before that are the worst wasp pressure of the Canadian year, and the window when traps earn their keep.',
   },
+  {
+    question: 'Where can I buy wasp traps in Canada?',
+    answer: 'Canadian Tire is the default stop and usually carries reusable traps, disposable bag traps, and sticky traps; Home Depot Canada stocks them in the garden-centre aisle; grocery and hardware stores tend to carry disposable bag traps only. Amazon.ca is the one channel that is not seasonal and the most reliable place to find attractant refill cartridges later in the summer. The catch is timing: wasp traps are seasonal stock that is strongest from May to July and thinning by late August — exactly when the worker spike sends everyone looking at once. Buy the trap and its refills together, and check the retailer listing before driving anywhere, because stock varies store to store.',
+  },
+  {
+    question: 'What is a wasp bag trap, and is it the same as a wasp nest bag?',
+    answer: 'No, and the mix-up is common. A disposable wasp bag trap is a pre-baited pouch you fill with water to the line and hang; it catches yellowjackets, is single-use, and gets thrown out full. Paper wasps and most hornets ignore its lure entirely. A "wasp nest bag" is something different — a decoy paper-lantern nest meant to discourage wasps from building nearby. A decoy is a deterrent, not a trap, and catches nothing. If you wanted something that actually collects wasps, you want the bag trap, not the decoy nest.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'The best wasp traps in Canada for 2026: RESCUE! WHY Trap vs TrapStik vs disposable bag traps vs DIY bottle traps — spring queen vs August worker timing, placement, yellowjacket vs paper wasp lures, and what needs PMRA registration.',
+  description: 'Reusable, sticky, disposable bag and DIY wasp traps compared for Canadian yards, plus where to hang them, when to set them out, and where to buy.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -78,7 +86,7 @@ export default function BestWaspTrapCanadaPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian comparison of the RESCUE! WHY Trap, TrapStik, disposable bag traps, and DIY bottle traps, with queen-vs-worker timing, placement science, and Canadian PMRA context.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Best Wasp Trap Canada', url: `/blog/${SLUG}` }])) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Best Wasp Traps Canada', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`, UPDATED)) }} />
 
@@ -87,7 +95,7 @@ export default function BestWaspTrapCanadaPage() {
           <nav aria-label="Breadcrumb" className="text-brand-400 text-sm mb-4 flex gap-1">
             <Link href="/" className="hover:text-white">Home</Link><span>/</span>
             <Link href="/blog" className="hover:text-white">Blog</Link><span>/</span>
-            <span className="text-white">Best Wasp Trap Canada</span>
+            <span className="text-white">Best Wasp Traps Canada</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
           <p className="text-xl text-brand-100 max-w-3xl">Reusable attractant traps, sticky visual traps, disposable bag traps, and the DIY pop bottle — compared honestly for Canadian yards, with the spring-queen and August-worker timing that decides whether any of them work.</p>
@@ -215,6 +223,60 @@ export default function BestWaspTrapCanadaPage() {
           <div className="mt-5 rounded-xl bg-amber-50 border-l-4 border-amber-400 p-4">
             <p className="text-sm text-gray-800 leading-relaxed">
               <strong className="text-amber-900">⚠️ Traps thin, they don&rsquo;t eliminate.</strong> A mature colony holds hundreds to thousands of workers and replaces losses daily. If you can see an active nest, you need nest treatment, not more traps &mdash; start with our <Link href="/blog/best-wasp-nest-spray-canada" className="text-emerald-700 underline font-semibold">PMRA-registered nest spray guide</Link> or the full <Link href="/blog/how-to-get-rid-of-wasps-canada" className="text-emerald-700 underline font-semibold">get-rid-of-wasps playbook</Link>.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-white px-4 py-10 border-b border-navy-100">
+        <div className="max-w-4xl mx-auto">
+          <p className="text-xs font-extrabold text-emerald-700 uppercase tracking-wider mb-2">Where to Buy in Canada &middot; Updated July 2026</p>
+          <h2 className="text-2xl font-extrabold text-brand-900 mb-4">Where to Buy Wasp Traps in Canada</h2>
+          <p className="text-sm text-gray-700 mb-5 leading-relaxed">
+            Wasp traps are seasonal stock in Canada, and that single fact drives most of the frustration. Shelf space appears with the spring garden reset and is cleared out for back-to-school &mdash; which is precisely when the <strong>August worker spike</strong> hits and everyone goes looking at once. The refills are the first thing to disappear, so if you run a reusable trap, buy the attractant when you buy the trap.
+          </p>
+          <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
+            <table className="w-full text-sm">
+              <thead className="bg-brand-800 text-white">
+                <tr>
+                  <th className="px-4 py-3 text-left">Where you&rsquo;re shopping</th>
+                  <th className="px-4 py-3 text-left">Typically carries</th>
+                  <th className="px-4 py-3 text-left">Worth knowing</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  ['Canadian Tire', 'Reusable traps, disposable bag traps, sticky traps', 'The default Canadian stop for wasp traps. Seasonal planogram — strongest May–July, thin by late August.'],
+                  ['Home Depot Canada', 'Reusable traps, bag traps, nest sprays', 'Garden-centre aisle. Often still has stock when the trap shelf elsewhere is picked over.'],
+                  ['Amazon.ca', 'Full range plus attractant refills', 'The only channel that reliably carries refill cartridges after midsummer, and it is not seasonal.'],
+                  ['Grocery & hardware', 'Disposable bag traps mostly', 'Convenient for a one-off August blitz; rarely stocks refills or sticky traps.'],
+                  ['Garden centres', 'Varies by store', 'Staff can usually tell you what is actually moving locally — useful in a bad wasp year.'],
+                ].map(([where, carries, note]) => (
+                  <tr key={where} className="border-b border-navy-50 last:border-0">
+                    <td className="px-4 py-3 font-bold text-brand-800 whitespace-nowrap">{where}</td>
+                    <td className="px-4 py-3 text-gray-800">{carries}</td>
+                    <td className="px-4 py-3 text-xs text-gray-600">{note}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-gray-500 mt-3">
+            Stock and pricing change constantly and vary by store &mdash; check the retailer&rsquo;s own listing before you drive anywhere. Availability notes above describe the usual Canadian seasonal pattern, not a live inventory check.
+          </p>
+
+          <h3 className="text-lg font-extrabold text-brand-900 mt-8 mb-3">&ldquo;Wasp bag traps&rdquo; &mdash; what people are actually asking for</h3>
+          <p className="text-sm text-gray-700 leading-relaxed mb-3">
+            A large share of Canadians searching for wasp traps are specifically after the <strong>hanging bag</strong> &mdash; the pre-baited pouch you fill with water to the line, hang, and throw out when it is full. It is worth being clear about what that product is and is not, because the name gets used loosely:
+          </p>
+          <ul className="text-sm text-gray-700 space-y-2 list-disc pl-5 mb-4">
+            <li><strong>A disposable bag trap</strong> catches yellowjackets. Its lure is yellowjacket-tuned, so paper wasps and most hornets ignore it entirely. If umbrella nests under your eaves are the problem, a bag trap will hang there all summer catching nothing.</li>
+            <li><strong>It is single-use.</strong> Cheap per unit, but covering May to September on bags alone costs more than one reusable trap plus refills. Bags are the right call for a party, a cottage weekend, or a sudden spike at the bins.</li>
+            <li><strong>A &ldquo;wasp nest bag&rdquo; is a different thing.</strong> Decoy nests are paper-lantern deterrents meant to discourage new nest-building, not traps &mdash; they catch nothing at all. If you searched for one expecting a trap, that is the mix-up.</li>
+          </ul>
+          <div className="rounded-xl bg-emerald-50 border border-emerald-200 p-4">
+            <p className="text-sm text-gray-800 leading-relaxed">
+              <strong className="text-emerald-800">Buying for a GTA yard?</strong> Southern Ontario&rsquo;s worst wasp pressure lands in <strong>August and early September</strong>, and that is the same fortnight the trap shelf empties. Hang traps at the perimeter before the spike rather than during it &mdash; and remember that a trap thins foragers but never removes a nest. If wasps are streaming from a hole in the lawn or a gap in the siding, see the <Link href="/blog/how-to-get-rid-of-ground-wasps-canada" className="text-emerald-700 underline font-semibold">ground-nesting wasp guide</Link>.
             </p>
           </div>
         </div>

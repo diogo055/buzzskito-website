@@ -14,6 +14,7 @@ const SLUG = 'mosquito-repellent-guide-ontario-2026'
 const DATE = '2026-04-26'
 const UPDATED = '2026-04-26'
 const TITLE = 'Mosquito Repellent Guide — Ontario 2026 (What Actually Works)'
+const META_TITLE = 'Best Mosquito Repellent Canada 2026: Ranked'
 
 const FAQS = [
   {
@@ -63,7 +64,7 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Best Mosquito Repellent 2026 — Canada Buyer’s Guide',
+  title: META_TITLE,
   description: 'Ranked 2026 guide to the best mosquito repellents & devices in Canada — Thermacell, DEET, picaridin. What actually works, what’s a scam.',
   canonical: `/blog/${SLUG}`,
   type: 'article',

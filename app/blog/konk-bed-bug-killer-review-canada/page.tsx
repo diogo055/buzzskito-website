@@ -14,7 +14,7 @@ const SLUG = 'konk-bed-bug-killer-review-canada'
 const DATE = '2026-07-21'
 const UPDATED = '2026-07-21'
 const TITLE = 'Konk Bed Bug Killer Review Canada 2026 — The Legal, In-Store Aerosol, Honestly Assessed'
-const META_TITLE = 'Konk Bed Bug Killer Review Canada 2026: Is It Worth It?'
+const META_TITLE = 'Konk Bed Bug Killer Review: Canada 2026 Verdict'
 
 const FAQS = [
   {
@@ -310,6 +310,7 @@ export default function KonkBedBugKillerReviewCanadaPage() {
           <h2>Verdict: 7.4/10 &mdash; A Sound Legal Knockdown Tool, Not a Cure</h2>
           <p>Konk Bed Bug Killer earns its 7.4 by being a good, honest version of a limited tool. As a Canadian-registered contact aerosol it does exactly what a contact aerosol should: it knocks down the bugs you spray, it is available without any grey-market fuss, and it comes with a reviewed label you can follow with confidence. The score sits where it does not because Konk is worse than its rivals &mdash; it is squarely competitive with them &mdash; but because the whole consumer-spray category shares a hard ceiling: pyrethroid resistance, untouched eggs, and no reach into deep harbourage.</p>
           <p>Buy it for what it is: the legal knockdown-and-spot layer in a plan that also brings heat for the eggs, dust for the voids, encasements for the mattress, and interceptors to monitor. Used that way it is a genuinely useful purchase and the right call over anything you would have to smuggle. Bought as a one-can answer to an established infestation, it will let you down &mdash; not because it is a bad spray, but because no spray is a plan.</p>
+          <p>Not settled on Konk yet? Our <Link href="/blog/bed-bug-spray-canada">bed bug spray and killer guide for Canada</Link> ranks it against every other PMRA-registered can, shows which US &ldquo;strongest bed bug killer&rdquo; picks are illegal here, and breaks down which chemicals kill eggs as well as bugs.</p>
 
           <h2>Frequently Asked Questions</h2>
           <div className="not-prose space-y-4">

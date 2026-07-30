@@ -304,6 +304,7 @@ export default function MosquitoFoggerCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="black flag fogger fuel">Black Flag fogger fuel →</BuyLink>
           </div>
           <p>One budgeting sanity check: if you find yourself re-fogging every week, the liquid bills add up fast for hours-long results. At that point a <Link href="/blog/backpack-sprayer-canada">backpack sprayer</Link> with a registered residual concentrate treats the same vegetation a professional targets and keeps working for weeks instead of hours &mdash; or skip the DIY labour entirely with a seasonal barrier program.</p>
+          <p>One thing an outdoor fogger is emphatically <em>not</em>: an indoor &ldquo;bug bomb&rdquo;. Total-release foggers for crawling pests work on a different principle and fail for a structural reason &mdash; they deposit on open surfaces while the insects sit inside wall voids, and the pressure of the release pushes survivors deeper rather than out. We say so plainly in our buying guides for <Link href="/blog/best-cockroach-spray-canada">cockroach spray</Link> and <Link href="/blog/best-centipede-killer-canada">centipede products</Link>, where a bomb is the one purchase that actively sets the plan back. Keep the fogger for the yard, twenty minutes before guests arrive, and leave the indoor version on the shelf.</p>
 
           <div className="not-prose my-6 rounded-xl bg-emerald-50 border-l-4 border-emerald-500 p-5">
             <p className="text-sm font-extrabold text-emerald-900 mb-1">Do mosquito foggers actually work? The honest answer.</p>
@@ -362,16 +363,21 @@ export default function MosquitoFoggerCanadaPage() {
 
           <h2 id="verdict">The Honest Verdict for GTA Buyers</h2>
           <p>A fogger is a genuinely useful tool &mdash; for the narrow job of clearing your yard right before you use it. If you host the occasional backyard gathering, a $60&ndash;$90 propane fogger plus a bottle of registered fogging liquid is a smart, cheap thing to keep in the shed. What a fogger cannot do is keep your yard livable all summer: the knockdown is over in hours, ticks are largely unaffected, and you would be re-fogging constantly to stay ahead of reinvasion. For baseline, weeks-long control &mdash; and for tick protection &mdash; a residual <Link href="/mosquito-control">professional barrier spray</Link> does far more per dollar and per hour of your time. The best setup for most GTA homeowners is both: a seasonal barrier program for the baseline, and a fogger on the shelf for event-day touch-ups.</p>
+          <p>The other way to buy yourself a bite-free evening is to stop fighting the air and enclose the space instead. A <Link href="/blog/best-screen-tent-canada">screen tent or screen house</Link> over the table protects that footprint the moment the last stake goes in &mdash; nothing to reapply, nothing that wears off in three hours, and it works on black flies as well as mosquitoes. It is the honest alternative to fogging before every dinner, and at a cottage, dock or campsite where no barrier spray applies, it is the only alternative.</p>
           <p>A fogger is also just one machine in the DIY pest-control toolkit &mdash; if you are weighing backpack sprayers, steamers, or ULV units against each other, the equipment section of our <Link href="/pest-product-guides">pest product guides</Link> sizes and compares that heavier gear for Canadian buyers.</p>
+          <p>The device most people compare a fogger against is a plug-in UV trap, and that comparison is not close. A fogger at least applies a registered insecticide to the air and foliage where mosquitoes rest; a UV-plus-fan trap emits no CO&#8322; and, in independent trap research, catches under 5% mosquitoes. Before you buy one instead of a fogger, read <Link href="/blog/dynatrap-canada-review">our DynaTrap review &mdash; do they actually work on mosquitoes?</Link></p>
 
           <h2>Related Reading</h2>
           <ul>
             <li><Link href="/blog/best-mosquito-trap-canada">Best Mosquito Trap Canada — CO₂, UV &amp; Propane Compared</Link></li>
+            <li><Link href="/blog/dynatrap-canada-review">Do DynaTraps Actually Work on Mosquitoes?</Link></li>
             <li><Link href="/blog/bug-zappers-canada-do-they-work">Bug Zappers Canada — Do They Actually Work?</Link></li>
             <li><Link href="/blog/backpack-sprayer-canada">Backpack Sprayer Canada — DIY Residual Spraying Guide</Link></li>
+            <li><Link href="/blog/best-screen-tent-canada">Best Screen Tents &amp; Screen Houses in Canada</Link></li>
             <li><Link href="/blog/ortho-home-defense-canada-review">Ortho Home Defense Canada Review</Link></li>
             <li><Link href="/mosquito-control">BuzzSkito Professional Mosquito Control Service</Link></li>
             <li><Link href="/blog/permethrin-canada-yard-clothing-spray">Permethrin Canada — Yard &amp; Clothing Spray Guide</Link></li>
+            <li><Link href="/blog/best-wasp-trap-canada">Best Wasp Traps Canada — Which Type Catches What</Link></li>
             <li><Link href="/free-yard-assessment">Get a Free Yard Assessment</Link></li>
             <li><Link href="/blog">More BuzzSkito mosquito &amp; tick guides</Link></li>
           </ul>

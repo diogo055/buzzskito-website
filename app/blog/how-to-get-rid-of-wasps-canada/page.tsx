@@ -14,7 +14,7 @@ const SLUG = 'how-to-get-rid-of-wasps-canada'
 const DATE = '2026-07-21'
 const UPDATED = '2026-07-21'
 const TITLE = 'How to Get Rid of Wasps in Canada — Identify, Treat, Prevent (2026)'
-const META_TITLE = 'How to Get Rid of Wasps Canada 2026: ID, Nest Removal, Traps'
+const META_TITLE = 'Get Rid of Wasps Canada: ID 3 Types, Find Nest'
 
 const FAQS = [
   {

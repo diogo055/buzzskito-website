@@ -14,7 +14,7 @@ const SLUG = 'chapin-battery-backpack-sprayer-review-canada'
 const DATE = '2026-07-21'
 const UPDATED = '2026-07-21'
 const TITLE = 'Chapin 63924 Battery Backpack Sprayer Review (Canada 2026) — Is the 24V Wide-Mouth Worth It?'
-const META_TITLE = 'Chapin 63924 Battery Backpack Sprayer Review Canada 2026'
+const META_TITLE = 'Chapin 63924 Backpack Sprayer Review Canada'
 
 const FAQS = [
   {

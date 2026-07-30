@@ -14,7 +14,7 @@ const SLUG = 'mosquito-repellent-bracelets-canada'
 const DATE = '2026-07-12'
 const UPDATED = '2026-07-12'
 const TITLE = 'Mosquito Repellent Bracelets Canada 2026 — Do They Actually Work?'
-const META_TITLE = 'Mosquito Repellent Bracelets Canada: Do They Work? (2026)'
+const META_TITLE = 'Do Mosquito Repellent Bracelets Work? Canada'
 
 const FAQS = [
   {

@@ -14,7 +14,7 @@ const SLUG = 'best-bed-bug-fogger-canada'
 const DATE = '2026-07-21'
 const UPDATED = '2026-07-21'
 const TITLE = 'Best Bed Bug Fogger Canada 2026 — PMRA-Registered Total-Release Options (and Their Limits)'
-const META_TITLE = 'Best Bed Bug Fogger Canada 2026 — PMRA-Registered Picks'
+const META_TITLE = 'Best Bed Bug Fogger Canada 2026 + Honest Limits'
 
 const FAQS = [
   {

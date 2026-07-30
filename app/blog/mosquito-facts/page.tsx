@@ -14,6 +14,7 @@ const SLUG = 'mosquito-facts'
 const DATE = '2026-07-12'
 const UPDATED = '2026-07-12'
 const TITLE = 'Mosquito Facts: How Long They Live, What They Eat & More'
+const META_TITLE = 'Mosquito Facts: Lifespan, Diet, Sleep & Light'
 
 const FAQS = [
   {
@@ -75,7 +76,7 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Mosquito Facts: How Long They Live, What They Eat & More (2026)',
+  title: META_TITLE,
   description: 'Quick, sourced answers to the most-asked mosquito questions: how long mosquitoes live, whether they sleep, if males bite, why females need blood, what mosquitoes eat, and whether they are attracted to light.',
   canonical: `/blog/${SLUG}`,
   type: 'article',

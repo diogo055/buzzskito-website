@@ -14,6 +14,7 @@ const SLUG = 'tick-bite-on-dog-symptoms'
 const DATE = '2026-04-26'
 const UPDATED = '2026-04-26'
 const TITLE = 'Tick Bite on Dog — Symptoms, What to Watch For (Ontario 2026)'
+const META_TITLE = 'Tick Bite on Dog: Symptoms & Lyme Risk Ontario'
 
 const FAQS = [
   {
@@ -51,7 +52,7 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Tick Bite on Dog · Symptoms & Lyme Risk (Ontario)',
+  title: META_TITLE,
   description: 'What a tick bite looks like on a dog, Lyme disease symptoms, when to call the vet, treatment, and prevention. Ontario 2026 guide.',
   canonical: `/blog/${SLUG}`,
   type: 'article',

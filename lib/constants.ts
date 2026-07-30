@@ -1089,8 +1089,8 @@ export const NEW_BLOGS_16 = [
 export const NEW_BLOGS_17 = [
   {
     slug: 'best-screen-tent-canada',
-    title: 'Best Screen Tents & Screen Houses in Canada 2026 — Coleman, CAMPROS, EAST OAK Compared',
-    excerpt: 'Coleman Instant 11x11, Skylodge 15x13, Back Home 12x10, CAMPROS and EAST OAK compared on size, setup speed, wind tolerance, and black-fly season performance.',
+    title: 'Best Screen Tents & Screen Houses in Canada 2026',
+    excerpt: 'Hub shelters, Coleman instant frames, pop-up screen rooms and pole-style dining tents compared on size (8x8 to 15x13), setup speed, wind tolerance and black-fly season performance.',
     date: '2026-07-14',
     category: 'mosquito' as const,
   },
@@ -1383,8 +1383,8 @@ export const NEW_BLOGS_22 = [
 export const NEW_BLOGS_23 = [
   {
     slug: 'bed-bug-spray-canada',
-    title: 'Best Bed Bug Spray Canada 2026 — What\'s Actually PMRA-Legal (and What Isn\'t)',
-    excerpt: 'The PMRA-legal bed bug sprays you can actually buy in Canada — Doktor Doom Sleep Tight, Pro Max, Knock Down, Konk — plus why US picks are illegal here.',
+    title: 'Best Bed Bug Spray & Killer in Canada (2026)',
+    excerpt: 'The strongest PMRA-legal bed bug sprays and killers sold in Canada, what each one actually kills, and why US picks like Crossfire are illegal here.',
     date: '2026-07-16',
     category: 'mosquito' as const,
   },
@@ -1592,8 +1592,8 @@ export const NEW_BLOGS_25 = [
 export const NEW_BLOGS_26 = [
   {
     slug: 'best-wasp-trap-canada',
-    title: 'Best Wasp Trap Canada 2026 — RESCUE! WHY vs TrapStik vs Bag Traps',
-    excerpt: 'RESCUE! WHY Trap vs TrapStik vs disposable bag traps vs the DIY pop bottle — spring-queen vs August-worker timing, 6–9 m placement, and what needs PMRA registration.',
+    title: 'Best Wasp Traps in Canada: Bag, Sticky, Reusable and DIY Compared',
+    excerpt: 'The four kinds of wasp trap compared for Canadian yards — what each one actually catches, where to hang them, the two timing windows that matter, and where to buy them.',
     date: '2026-07-21',
     category: 'mosquito' as const,
   },
@@ -1910,7 +1910,7 @@ export const NEW_BLOGS_33 = [
   { slug: "carpenter-ants-canada", title: "Carpenter Ants in Canada — Find the Nest, or You Are Just Killing Ants", excerpt: "Carpenter ants in Canada: telling them from termites, why a winter sighting means a nest inside, why spraying the trail fails, and when to call a pro.", date: '2026-07-27', category: 'tick' as const },
   { slug: "how-to-get-rid-of-centipedes-canada", title: "How to Get Rid of House Centipedes in Canada — Kill the Prey, Not the Predator", excerpt: "How to get rid of house centipedes in Canada: they are harmless predators, so the real fix is drying the basement to 45-50% RH and killing their prey.", date: '2026-07-27', category: 'tick' as const },
   { slug: "how-to-get-rid-of-earwigs-canada", title: "How to Get Rid of Earwigs in Canada — Traps, Moisture, and the Ear Myth", excerpt: "How to get rid of earwigs in Canada: the ear myth debunked, why they surge in late summer, and the free oil-tin and newspaper traps that do the work.", date: '2026-07-27', category: 'tick' as const },
-  { slug: "best-earwig-killer-canada", title: "Best Earwig Killer in Canada 2026 — What Actually Kills Them, and What Just Sells", excerpt: "Best earwig killer in Canada 2026: why a tin of oil out-kills the shelf, which PMRA-registered dusts and perimeter sprays work here, and what to skip.", date: '2026-07-28', category: 'tick' as const },
+  { slug: "best-earwig-killer-canada", title: "Earwig Traps and Killers in Canada — What to Buy, What to Make Instead, and What the Shelf Will Not Sell You", excerpt: "What to buy for earwigs in Canada: which registered dust and duster, why no commercial earwig trap is worth buying, and the perimeter products sold here.", date: '2026-07-28', category: 'tick' as const },
   { slug: "how-to-get-rid-of-boxelder-bugs-canada", title: "How to Get Rid of Boxelder Bugs in Canada — The Sealing Window Nobody Tells You About", excerpt: "Boxelder bugs swarm warm south and west walls across Ontario each fall. Why indoor spraying backfires, and the late-August sealing window that ends it.", date: '2026-07-27', category: 'tick' as const },
 ]
 
@@ -1920,10 +1920,10 @@ export const NEW_BLOGS_33 = [
 export const NEW_BLOGS_34 = [
   { slug: "best-ant-killer-canada", title: "Best Ant Killer in Canada 2026 — What Actually Kills the Colony", excerpt: "Best ant killer in Canada 2026: why bait beats every contact spray, indoor vs outdoor vs perimeter picks, and the PCP number to check before you buy.", date: '2026-07-28', category: 'tick' as const },
   { slug: "best-ant-traps-canada", title: "Best Ant Traps in Canada 2026 — Bait Stations vs Glue Traps, and What Actually Kills the Colony", excerpt: "Best ant traps in Canada 2026: liquid bait stations beat glue boards because the colony carries the bait to the queen. Placement, pet safety, PCP rules.", date: '2026-07-28', category: 'tick' as const },
-  { slug: "best-cockroach-spray-canada", title: "Best Cockroach Spray in Canada 2026 — And the Honest Reason Spraying Usually Makes It Worse", excerpt: "Best cockroach spray in Canada 2026: why broadcast spraying scatters roaches into wall voids, the 3 jobs a spray actually wins, and PMRA-registered picks.", date: '2026-07-28', category: 'tick' as const },
-  { slug: "best-roach-traps-canada", title: "Best Roach Traps in Canada 2026 — Glue Boards Find Them, Bait Stations Kill Them", excerpt: "Roach traps in Canada compared: glue boards diagnose where roaches live, enclosed bait stations do the killing. Placement, reading a catch, honest limits.", date: '2026-07-28', category: 'tick' as const },
-  { slug: "best-silverfish-traps-canada", title: "Best Silverfish Traps in Canada 2026 — What Catches Them, and What Only Counts Them", excerpt: "Silverfish traps compared for Canada: flat glue boards vs covered stations vs the free jar trap, why glue dies in damp basements, and the 45–50% humidity fix.", date: '2026-07-28', category: 'tick' as const },
-  { slug: "best-centipede-killer-canada", title: "Best Centipede Killer in Canada 2026 — What Actually Kills Them, and What Just Sells", excerpt: "Centipede killer options ranked for Canada: why a PCP-registered dust and a dehumidifier held at 45-50% RH beat every spray, and what to skip in 2026.", date: '2026-07-28', category: 'tick' as const },
+  { slug: "best-cockroach-spray-canada", title: "Cockroach Spray in Canada — The Three Jobs Worth Buying a Can For", excerpt: "Which cockroach spray to buy in Canada, and when not to: the three jobs a can genuinely wins, how to read a PCP label, and why spraying near bait ruins it.", date: '2026-07-28', category: 'tick' as const },
+  { slug: "best-roach-traps-canada", title: "Cockroach Traps in Canada — Glue Boards Find Them, Bait Stations Kill Them", excerpt: "Which cockroach trap to buy in Canada: glue boards diagnose where roaches live, enclosed bait stations do the killing. How many of each, placement, PCP check.", date: '2026-07-28', category: 'tick' as const },
+  { slug: "best-silverfish-traps-canada", title: "Silverfish Traps in Canada — Which Type to Buy, How Many, and Where Each One Goes", excerpt: "Which silverfish trap to buy in Canada: flat glue boards vs covered stations vs the free jar trap, how many you need, where each goes, and when to replace.", date: '2026-07-28', category: 'tick' as const },
+  { slug: "best-centipede-killer-canada", title: "Centipede Killer Canada — Which Product to Buy First, in What Order, and What the Label Must Say", excerpt: "What to buy for centipedes in Canada, in buying order: dehumidifier spec, which registered diatomaceous earth, how many glue boards, and the PCP label check.", date: '2026-07-28', category: 'tick' as const },
   { slug: "best-flea-spray-for-home-canada", title: "Best Flea Spray for Home Canada 2026 — Why the IGR Matters More Than the Kill", excerpt: "Flea spray for home use in Canada: why the IGR (methoprene or pyriproxyfen) matters more than the kill — adult fleas are only 5% of an infestation.", date: '2026-07-28', category: 'tick' as const },
   { slug: "best-flea-bomb-canada", title: "Best Flea Bomb in Canada 2026 — Why an IGR Spray Beats Every Fogger on the Shelf", excerpt: "Flea bomb guide for Canada: total-release foggers miss the 95% of fleas living as eggs, larvae and pupae in carpet base — here is what to buy instead.", date: '2026-07-28', category: 'tick' as const },
 ]

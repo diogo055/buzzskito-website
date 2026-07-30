@@ -14,7 +14,7 @@ const SLUG = 'zappbug-room-review-canada'
 const DATE = '2026-07-21'
 const UPDATED = '2026-07-21'
 const TITLE = 'ZappBug Room Review Canada 2026 — Is the Whole-Room Bed-Bug Heater Worth It?'
-const META_TITLE = 'ZappBug Room Review Canada 2026 — Whole-Room Heater'
+const META_TITLE = 'ZappBug Room Review Canada 2026: Sizing Guide'
 
 const FAQS = [
   {

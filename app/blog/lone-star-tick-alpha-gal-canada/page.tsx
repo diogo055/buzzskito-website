@@ -6,6 +6,7 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 const SLUG = 'lone-star-tick-alpha-gal-canada'
 const DATE = '2026-07-16'
 const TITLE = 'Lone Star Tick & Alpha-Gal (Red Meat Allergy): Is It in Canada? (2026)'
+const META_TITLE = 'Lone Star Tick in Canada: Alpha-Gal Risk 2026'
 
 const FAQS = [
   {
@@ -55,7 +56,7 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Lone Star Tick & Alpha-Gal (Red Meat Allergy): Is It in Canada?',
+  title: META_TITLE,
   description: 'The lone star tick causes the alpha-gal red meat allergy. Is it in Canada or Ontario? Status, symptoms, and real risk for GTA residents — Health Canada, PHAC & CDC-informed, 2026.',
   canonical: `/blog/${SLUG}`,
   type: 'article',

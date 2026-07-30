@@ -14,7 +14,7 @@ const SLUG = 'best-cordless-fogger-canada'
 const DATE = '2026-07-21'
 const UPDATED = '2026-07-21'
 const TITLE = 'Best Cordless Fogger Canada 2026 — Battery ULV Foggers, No Cord, Compared'
-const META_TITLE = 'Best Cordless Fogger Canada 2026: Battery ULV Foggers'
+const META_TITLE = 'Best Cordless Fogger Canada 2026: Battery ULV'
 
 const FAQS = [
   {

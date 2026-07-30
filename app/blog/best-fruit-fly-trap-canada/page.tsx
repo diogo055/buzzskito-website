@@ -14,7 +14,7 @@ const SLUG = 'best-fruit-fly-trap-canada'
 const DATE = '2026-07-21'
 const UPDATED = '2026-07-21'
 const TITLE = 'Best Fruit Fly Trap Canada 2026 — TERRO vs Katchy vs Sticky Ribbons'
-const META_TITLE = 'Best Fruit Fly Trap Canada 2026: TERRO vs Katchy vs Ribbons'
+const META_TITLE = 'Best Fruit Fly Trap Canada 2026: TERRO vs Katchy'
 
 const FAQS = [
   {

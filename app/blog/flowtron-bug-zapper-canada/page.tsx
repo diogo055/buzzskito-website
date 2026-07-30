@@ -14,6 +14,7 @@ const SLUG = 'flowtron-bug-zapper-canada'
 const DATE = '2026-07-14'
 const UPDATED = '2026-07-14'
 const TITLE = 'Flowtron Bug Zapper Canada Review 2026: BK-15D vs BK-40D vs BK-80D'
+const META_TITLE = 'Flowtron Bug Zapper Canada: BK-15D vs 40D vs 80D'
 
 const FAQS = [
   {
@@ -59,7 +60,7 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: TITLE,
+  title: META_TITLE,
   description: 'Flowtron bug zapper Canada review 2026 — BK-15D vs BK-40D vs BK-80D coverage, the octenol mosquito cartridge, BF-190 bulb replacement, placement, and the research on why zappers kill moths not mosquitoes. Where to buy on Amazon.ca.',
   canonical: `/blog/${SLUG}`,
   type: 'article',

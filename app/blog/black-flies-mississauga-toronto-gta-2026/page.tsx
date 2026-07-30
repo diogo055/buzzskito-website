@@ -52,8 +52,10 @@ const FAQS = [
   },
 ]
 
+const META_TITLE = 'Black Flies GTA 2026: Toronto & Mississauga'
+
 export const metadata: Metadata = buildMetadata({
-  title: 'Black Flies in the GTA 2026: Toronto, Mississauga + Cottage-Country Migration',
+  title: META_TITLE,
   description:
     'GTA black fly season 2026: why Mississauga\'s Credit River and the Don Valley get hit before downtown Toronto, the cottage-country migration pattern, and what professional spray actually does for black flies.',
   canonical: `/blog/${POST.slug}`,

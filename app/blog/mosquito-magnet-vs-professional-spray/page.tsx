@@ -14,6 +14,7 @@ const SLUG = 'mosquito-magnet-vs-professional-spray'
 const DATE = '2026-04-26'
 const UPDATED = '2026-04-26'
 const TITLE = 'Mosquito Magnet vs Professional Spray — Honest Comparison (2026)'
+const META_TITLE = 'Mosquito Magnet vs Professional Spray: Costs'
 
 const FAQS = [
   {
@@ -51,7 +52,7 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Mosquito Magnet vs Professional Spray · Cost & Effectiveness',
+  title: META_TITLE,
   description: 'Honest 2026 comparison: Mosquito Magnet traps vs professional barrier spray. Cost, effectiveness, real-world performance for Ontario backyards.',
   canonical: `/blog/${SLUG}`,
   type: 'article',

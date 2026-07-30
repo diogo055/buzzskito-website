@@ -14,7 +14,7 @@ const SLUG = 'best-live-animal-trap-canada'
 const DATE = '2026-07-21'
 const UPDATED = '2026-07-21'
 const TITLE = 'Best Live Animal Trap Canada 2026 — The Legal, Humane Guide (Read First)'
-const META_TITLE = 'Best Live Animal Trap Canada 2026: The Legal & Humane Guide'
+const META_TITLE = 'Best Live Animal Trap Canada: Ontario 1 km Rule'
 
 const FAQS = [
   {

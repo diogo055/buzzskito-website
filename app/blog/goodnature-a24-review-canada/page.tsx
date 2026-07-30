@@ -14,7 +14,7 @@ const SLUG = 'goodnature-a24-review-canada'
 const DATE = '2026-07-21'
 const UPDATED = '2026-07-21'
 const TITLE = 'Goodnature A24 Review Canada 2026 — The Self-Resetting, Poison-Free Rat Trap'
-const META_TITLE = 'Goodnature A24 Review Canada 2026: Poison-Free Auto-Reset Trap'
+const META_TITLE = 'Goodnature A24 Review Canada: 24-Kill Auto-Reset'
 
 const FAQS = [
   {

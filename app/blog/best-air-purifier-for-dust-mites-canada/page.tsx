@@ -14,7 +14,7 @@ const SLUG = 'best-air-purifier-for-dust-mites-canada'
 const DATE = '2026-07-21'
 const UPDATED = '2026-07-21'
 const TITLE = 'Best Air Purifier for Dust Mites Canada 2026 — True-HEPA, CADR & Room Sizing'
-const META_TITLE = 'Best Air Purifier for Dust Mites Canada 2026 (True-HEPA)'
+const META_TITLE = 'Best Air Purifier for Dust Mites Canada 2026'
 
 const FAQS = [
   {

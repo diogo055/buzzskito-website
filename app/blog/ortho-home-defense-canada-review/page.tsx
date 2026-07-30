@@ -14,7 +14,7 @@ const SLUG = 'ortho-home-defense-canada-review'
 const DATE = '2026-07-12'
 const UPDATED = '2026-07-12'
 const TITLE = 'Ortho Home Defense Canada 2026 — Review + What You Can Actually Buy'
-const META_TITLE = 'Ortho Home Defense Canada Review 2026: What Is Actually Sold Here'
+const META_TITLE = 'Ortho Home Defense Canada 2026: What\'s Sold Here'
 
 const FAQS = [
   {

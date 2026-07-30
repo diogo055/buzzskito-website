@@ -264,6 +264,7 @@ export default function KnockDownBedBugKillerReviewCanadaPage() {
           <h2>Is Knock Down Bed Bug Killer Worth It?</h2>
           <p>For the specific job of &ldquo;a legal, inexpensive, easy-to-find contact spray a Canadian can buy and use on the frame, box spring, and baseboards,&rdquo; yes &mdash; Knock Down is a sensible value pick, and its PMRA registration alone makes it a better choice than the tempting grey-market US names. Where it stops being worth it is the moment you expect it to be the whole solution. A can of spray will not clear an established infestation, no spray will, and pouring money into more spray is the classic way people spend a lot and stay itchy. Buy one registered can, use it with discipline on the harbourage, and put the money you saved by choosing the value option into the heat and dust and monitoring that actually finish the job. Do that, and the spray is a genuinely useful part of a plan that works. Skip the plan, and it is just a reassuring hiss.</p>
           <p>If you would rather compare the full device side of the fight &mdash; steamers, heaters, chambers, dusts, and traps in one place &mdash; our <Link href="/blog/best-pest-control-equipment-canada">Canadian pest control equipment hub</Link> lays out every category and where each one fits.</p>
+          <p>And if you are still deciding which can to buy at all, our <Link href="/blog/bed-bug-spray-canada">guide to the best bed bug sprays and killers in Canada</Link> puts Knock Down side by side with every other PMRA-registered option, shows which US products are illegal here, and answers what chemical actually kills bed bugs <em>and</em> their eggs.</p>
 
           <h2>Frequently Asked Questions</h2>
           <div className="not-prose space-y-4">
@@ -280,6 +281,7 @@ export default function KnockDownBedBugKillerReviewCanadaPage() {
 
           <h2>Related Reading</h2>
           <ul>
+            <li><Link href="/blog/bed-bug-spray-canada">Best Bed Bug Spray &amp; Killer in Canada — Every PMRA-Legal Option Compared</Link></li>
             <li><Link href="/blog/doktor-doom-sleep-tight-review-canada">Doktor Doom Sleep Tight Review Canada — The Mattress-Labelled Contact Spray</Link></li>
             <li><Link href="/blog/konk-bed-bug-killer-review-canada">Konk Bed Bug Killer Review Canada — Another Registered Canadian Spray</Link></li>
             <li><Link href="/blog/cimexa-bed-bug-review-canada">CimeXa Bed Bug Review Canada — The Desiccant Dust That Kills for Months</Link></li>

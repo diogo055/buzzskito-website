@@ -14,7 +14,7 @@ const SLUG = 'best-gas-backpack-fogger-canada'
 const DATE = '2026-07-21'
 const UPDATED = '2026-07-21'
 const TITLE = 'Best Gas Backpack Fogger Canada 2026 — Mist Blowers for Acreage Compared'
-const META_TITLE = 'Best Gas Backpack Fogger Canada 2026 (Mist Blowers)'
+const META_TITLE = 'Best Gas Backpack Fogger Canada 2026: Acreage'
 
 const FAQS = [
   {

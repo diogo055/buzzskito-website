@@ -12,11 +12,19 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'dynatrap-canada-review'
 const DATE = '2026-05-01'
-const UPDATED = '2026-07-12'
-const TITLE = 'DynaTrap Canada 2026 — Honest Review + Where to Buy (Do They Work?)'
-const META_TITLE = 'DynaTrap Reviews Canada: Do They Really Work?'
+const UPDATED = '2026-07-30'
+const TITLE = 'Do DynaTraps Actually Work on Mosquitoes? An Honest Canadian Review'
+const META_TITLE = 'Do DynaTraps Actually Work on Mosquitoes?'
 
 const FAQS = [
+  {
+    question: 'Are DynaTraps any good?',
+    answer: 'As general flying-insect catchers, yes — a DynaTrap reliably pulls moths, beetles, midges, and mayflies out of the air around a deck or dock, quietly and without chemicals. As mosquito control, no. Independent trap research from the University of Florida (Day 2002) and Notre Dame (2017) puts mosquitoes under 5% of a UV trap\'s catch, with 80–95% being non-biting species. So the honest answer depends on what you are buying it for: good value as a nuisance-insect catcher for cottage decks, poor value as the mosquito solution it is marketed as, and useless against ticks, which do not fly and are not drawn to UV light.',
+  },
+  {
+    question: 'Which DynaTrap is best for mosquitoes?',
+    answer: 'The DT3050 ($249–$329) is the best DynaTrap for mosquito-specific use because it is the only model in the Canadian lineup that adds a dedicated mosquito-attractant fan on top of the UV lamp. Coverage rating is not the deciding factor — a bigger 1-acre unit draws insects from more yard but catches the same species mix. That said, even the DT3050 emits no CO₂, the cue biting female mosquitoes actually hunt by, so it remains a supplement rather than a mosquito-control plan. If your budget is the constraint and nuisance insects are the real problem, the half-acre DT1050 ($149–$199) is the right size for a typical GTA backyard.',
+  },
   {
     question: 'Where to buy DynaTrap in Canada?',
     answer: 'DynaTrap devices are stocked at Costco Canada (best pricing on the larger half-acre and full-acre models when in season), Canadian Tire, Home Depot Canada, Amazon.ca, Lee Valley Tools, and Cabela\'s Canada. Costco often runs spring sales bringing the DT2030 (1-acre) down to $179–$229. The Atrakta booster cartridges (~$15–$25 each) are stocked at the same retailers plus most garden centres. Buy in April–May before peak-season markup; cartridge supply runs low by July.',
@@ -85,7 +93,7 @@ const FAQS = [
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'DynaTrap reviews for Canada: independent studies found under 5% of the catch is mosquitoes. DT150 to DT3050 prices compared, plus what works instead.',
+  description: 'Do DynaTraps actually work on mosquitoes? Independent studies put mosquitoes under 5% of a UV trap catch. What they really catch, and what works in Canada.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -97,7 +105,7 @@ const AMZ_TAG = tagForSlug('dynatrap-canada-review')
 export default function DynaTrapCanadaPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Comprehensive 2026 honest review of DynaTrap UV insect traps in Canada.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Do DynaTraps actually work on mosquitoes? What the independent trap research found, which model is best if you buy one, and what works better in a Canadian yard.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'DynaTrap Canada', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`, UPDATED)) }} />
@@ -107,22 +115,22 @@ export default function DynaTrapCanadaPage() {
           <nav aria-label="Breadcrumb" className="text-brand-400 text-sm mb-4 flex gap-1">
             <Link href="/" className="hover:text-white">Home</Link><span>/</span>
             <Link href="/blog" className="hover:text-white">Blog</Link><span>/</span>
-            <span className="text-white">DynaTrap Canada Review</span>
+            <span className="text-white">Do DynaTraps Work?</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
-          <p className="text-xl text-brand-100 max-w-3xl">An honest look at DynaTrap UV insect traps for Canadian backyards — pricing, what they actually catch (vs what they market), and better alternatives.</p>
+          <p className="text-xl text-brand-100 max-w-3xl">Short answer: they work as flying-insect catchers, and only marginally as mosquito traps. Here is what the independent research found, what a DynaTrap actually pulls out of a Canadian backyard, and what to buy instead if mosquitoes are the problem.</p>
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
 
-      <StickyBuyBar tag={AMZ_TAG} name="DynaTrap DT1050 (½ acre UV + fan trap)" search="dynatrap dt1050" label="Best size for GTA yards" />
+      <StickyBuyBar tag={AMZ_TAG} name="DynaTrap DT3050 (1 acre + attractant fan)" search="dynatrap dt3050" label="Best DynaTrap for mosquitoes" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
             <p className="text-gray-800 text-[15px] leading-relaxed font-medium">
-              DynaTraps are only a marginal mosquito tool — independent studies find 80–95% of what they catch is non-biting moths, beetles, and midges, with mosquitoes under 5%. If you still want one, the half-acre DT1050 ($149–$199) is the right size for a typical GTA backyard, but for real mosquito reduction a professional barrier spray or a CO₂ propane trap delivers far more per dollar.
+              <strong>Yes as a flying-insect catcher, barely as a mosquito trap.</strong> Independent studies find 80–95% of what a UV-plus-fan trap catches is non-biting moths, beetles, and midges, with mosquitoes under 5%. If mosquitoes are your goal and you still want a DynaTrap, the DT3050 ($249–$329) is the only model with a dedicated mosquito-attractant fan; the half-acre DT1050 ($149–$199) is the cheaper right-size pick if you mostly want moths and beetles off the deck. For actual mosquito reduction in a GTA yard, a professional barrier spray or a CO₂ propane trap delivers far more per dollar.
             </p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
               <li>Independent University of Florida and Notre Dame studies find mosquitoes are under 5% of a UV trap&rsquo;s catch — 80–95% is moths, beetles, and midges.</li>
@@ -137,12 +145,71 @@ export default function DynaTrapCanadaPage() {
         </div>
       </section>
 
+      <section className="bg-white px-4 pt-2 pb-8">
+        <div className="max-w-4xl mx-auto">
+          <h2 id="do-they-work" className="text-2xl sm:text-3xl font-extrabold text-brand-900 mb-4">Do DynaTraps Actually Work? The Evidence, Not the Marketing</h2>
+          <p className="text-[15px] text-gray-700 leading-relaxed mb-4">
+            A DynaTrap does exactly what the box says: a UV bulb draws flying insects in, and a quiet fan vacuums them down into a retaining basket where they dehydrate. Nobody disputes that the machine works. The real question is <em>which</em> insects end up in the basket — and that is where the marketing and the published research part company.
+          </p>
+
+          <h3 className="text-lg font-extrabold text-brand-900 mt-6 mb-2">Do DynaTrap mosquito traps work?</h3>
+          <p className="text-[15px] text-gray-700 leading-relaxed mb-4">
+            Only marginally, and the reason is built into the physics. Biting female mosquitoes hunt by <strong>CO₂, body heat, lactic acid, and skin scent</strong> — not by light. A DynaTrap emits no CO₂ at all. Its UV lamp is a powerful cue for moths (which navigate by light), beetles, midges, and mayflies, and a weak one for the insect you actually bought it for. Independent trap research from the University of Florida (Day, 2002) and Notre Dame (2017) consistently found mosquitoes making up under 5% of a UV trap&rsquo;s catch, with 80–95% being non-biting species. The Atrakta cartridge adds octenol, a synthetic stand-in for human breath, which nudges the mosquito share upward — but it does not close the gap with a <Link href="/blog/propane-mosquito-trap-canada" className="text-emerald-700 underline font-semibold">propane trap that burns real CO₂</Link>.
+          </p>
+
+          <h3 className="text-lg font-extrabold text-brand-900 mt-6 mb-2">Are DynaTraps any good?</h3>
+          <p className="text-[15px] text-gray-700 leading-relaxed mb-3">
+            Judged as the product it actually is, rather than the product it is advertised as, a DynaTrap is a decent general flying-insect catcher. Judged as mosquito control, it is a poor use of $150–$330. The honest split:
+          </p>
+          <div className="grid gap-4 sm:grid-cols-2 mb-4">
+            <div className="rounded-xl border border-emerald-200 bg-emerald-50 p-4">
+              <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Worth it for</p>
+              <ul className="text-sm text-gray-700 space-y-1.5 list-disc pl-4">
+                <li>Cottage decks and docks where moths, midges, and mayflies are the nuisance</li>
+                <li>A low-maintenance, chemical-free device that is safe around kids and pets</li>
+                <li>Supplementing — not replacing — a real mosquito plan</li>
+              </ul>
+            </div>
+            <div className="rounded-xl border border-rose-200 bg-rose-50 p-4">
+              <p className="text-xs font-extrabold uppercase tracking-wider text-rose-700 mb-2">Not worth it for</p>
+              <ul className="text-sm text-gray-700 space-y-1.5 list-disc pl-4">
+                <li>Primary mosquito control — the catch ratio is too poor</li>
+                <li>Ticks, which do not fly and are not drawn to UV at all</li>
+                <li>Properties bordering conservation land, where it kills pollinating moths and beneficial beetles</li>
+              </ul>
+            </div>
+          </div>
+
+          <h3 className="text-lg font-extrabold text-brand-900 mt-6 mb-2">Does a DynaTrap really work for mosquitoes in a Canadian backyard?</h3>
+          <p className="text-[15px] text-gray-700 leading-relaxed mb-4">
+            A GTA backyard makes the maths worse, not better. Most suburban mosquito pressure is re-invasion — adults flying in continuously from neighbours&rsquo; yards, ravines, and storm drainage. A single point-source trap has to out-compete you as an attractant while the supply keeps refilling, and a UV trap without CO₂ never wins that contest. It also does nothing about the second half of the season&rsquo;s problem: blacklegged ticks, which sit on vegetation and never fly. That is the gap a residual <Link href="/mosquito-control" className="text-emerald-700 underline font-semibold">whole-yard barrier spray</Link> is designed to fill, and why we treat traps as a supplement rather than a plan. If you want the full trap landscape — UV, CO₂, and propane compared side by side — start with our <Link href="/blog/best-mosquito-trap-canada" className="text-emerald-700 underline font-semibold">mosquito trap buyer&rsquo;s guide for Canada</Link>.
+          </p>
+        </div>
+      </section>
+
+      <section className="bg-white px-4">
+        <div className="max-w-4xl mx-auto">
+          <TopPick tag={AMZ_TAG}
+            label="Best DynaTrap if mosquitoes are the goal"
+            name="DynaTrap DT3050 (1 acre + mosquito attractant fan)"
+            blurb="If you are buying a DynaTrap in spite of everything above, buy the one built for the job. The DT3050 is the only model in the Canadian lineup that adds a dedicated mosquito-attractant fan on top of the UV lamp. That is the feature worth paying for — not the coverage rating, which changes how much yard the trap draws from but not the species mix it pulls in."
+            search="dynatrap dt3050"
+            score={7.0}
+            pros={['The only DynaTrap with a mosquito-attractant fan', 'Full-acre coverage — suits cottage lots and open properties', 'No chemicals — safe around kids and pets']}
+            cons={['Still a UV trap: no CO₂, the cue mosquitoes actually hunt by', 'Does nothing for ticks', 'Ongoing bulb + Atrakta cartridge costs']}
+          />
+          <p className="text-sm text-gray-600 -mt-4 mb-6">
+            On a budget, or mainly want moths and beetles off a standard suburban deck? The half-acre <strong>DT1050</strong> ($149–$199) is the right size for a typical GTA backyard and runs roughly $100–$130 less. <BuyLink tag={AMZ_TAG} search="dynatrap dt1050" className="!px-3 !py-1.5 !text-xs">Check DT1050 price</BuyLink>
+          </p>
+        </div>
+      </section>
+
       <section className="bg-gradient-to-br from-emerald-50 to-white border-b border-emerald-200 py-10 px-4">
         <div className="max-w-4xl mx-auto">
-          <p className="text-xs font-extrabold text-emerald-700 uppercase tracking-wider mb-2">Where to Buy in Canada · Updated May 2026</p>
-          <h2 className="text-2xl font-extrabold text-brand-900 mb-4">DynaTrap: Where to Buy in Canada</h2>
+          <p className="text-xs font-extrabold text-emerald-700 uppercase tracking-wider mb-2">Canadian Pricing · Updated May 2026</p>
+          <h2 className="text-2xl font-extrabold text-brand-900 mb-4">What a DynaTrap Costs in Canada</h2>
           <p className="text-sm text-gray-700 mb-5 leading-relaxed">
-            Costco Canada usually has the best pricing during spring promotions. Canadian Tire and Home Depot stock the smaller models year-round; cottage retailers stock the larger 1-acre models.
+            Decided it is worth it anyway? Here is what the two most common models run across Canadian retailers. Costco usually has the best pricing during spring promotions; Canadian Tire and Home Depot stock the smaller models year-round, and cottage retailers stock the larger 1-acre models.
           </p>
           <div className="rounded-xl border border-navy-100 overflow-hidden bg-white shadow-sm">
             <table className="w-full text-sm">
@@ -186,20 +253,6 @@ export default function DynaTrapCanadaPage() {
         </div>
       </section>
 
-      <section className="bg-white px-4">
-        <div className="max-w-4xl mx-auto">
-          <TopPick tag={AMZ_TAG}
-            label="Our DynaTrap Pick"
-            name="DynaTrap DT1050 (½ acre)"
-            blurb="If you're set on a DynaTrap, the half-acre DT1050 is the right size for a typical Canadian suburban backyard — the 1-acre models cost more without catching meaningfully more mosquitoes on a standard lot."
-            search="dynatrap dt1050"
-            score={7.0}
-            pros={['Right coverage for a standard GTA backyard', 'Quiet, low-maintenance UV + fan operation', 'No chemicals — safe around kids and pets']}
-            cons={['Only ~5% of the catch is mosquitoes', 'Does nothing for ticks', 'Ongoing bulb + Atrakta cartridge costs']}
-          />
-        </div>
-      </section>
-
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">DynaTrap Key Facts</h2>
@@ -235,14 +288,14 @@ export default function DynaTrapCanadaPage() {
         <div className="max-w-3xl mx-auto prose-brand">
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
           <AffiliateDisclosure />
-          <p className="not-prose text-sm text-gray-600 mb-1">Compare current Canadian prices (DT1050, DT1100, DT2030 half/full-acre) and Atrakta refills:</p>
+          <p className="not-prose text-sm text-gray-600 mb-1">Compare current Canadian prices (DT3050 attractant-fan model, DT2030/DT1100 full-acre, DT1050 half-acre) and Atrakta refills:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink tag={AMZ_TAG} search="dynatrap insect trap">Check DynaTrap price on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="dynatrap dt3050">Check DT3050 price on Amazon.ca →</BuyLink>
             <BuyLink tag={AMZ_TAG} search="dynatrap atrakta refill">Atrakta refill cartridges →</BuyLink>
           </div>
 
-          <h2 id="models">DynaTrap Models Compared: DT1050 vs DT1100 vs DT2030</h2>
-          <p>The number that matters is coverage. The <strong>DT1050</strong> is a half-acre unit sized for a typical GTA backyard; the <strong>DT1100</strong> and <strong>DT2030</strong> are full-acre units for large lots and cottage properties. Here is every model sold in Canada, what it covers, and a live Amazon.ca price check:</p>
+          <h2 id="models">DynaTrap Models Compared: DT3050 vs DT2030 vs DT1050</h2>
+          <p>Two numbers matter, and most buyers only look at one of them. <strong>Coverage</strong> tells you how much yard the trap draws from — the DT1050 is a half-acre unit sized for a typical GTA backyard, while the DT1100, DT2030, and DT3050 are full-acre units for large lots and cottage properties. But coverage does not change the species mix. The only spec that shifts the mosquito share at all is the <strong>attractant fan</strong>, and the DT3050 is the sole Canadian model that has one. The table below is ordered by mosquito suitability rather than price:</p>
           <div className="not-prose my-6 overflow-x-auto rounded-xl border border-navy-100 shadow-sm">
             <table className="w-full text-sm">
               <thead className="bg-brand-800 text-white">
@@ -255,19 +308,19 @@ export default function DynaTrapCanadaPage() {
                 </tr>
               </thead>
               <tbody>
-                <tr className="border-b border-navy-50">
-                  <td className="px-4 py-3 font-bold text-brand-800">DT150</td>
-                  <td className="px-4 py-3 text-gray-700">300 sq ft</td>
-                  <td className="px-4 py-3 text-gray-700">Balcony / small porch</td>
-                  <td className="px-4 py-3 font-mono text-gray-800">$79 – $129</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="dynatrap dt150" block>Check price →</BuyLink></td>
+                <tr className="border-b border-navy-50 bg-amber-50/60">
+                  <td className="px-4 py-3 font-bold text-brand-800">DT3050 <span className="font-normal text-xs text-gray-500">(+ attractant fan)</span></td>
+                  <td className="px-4 py-3 text-gray-700">1 acre (full)</td>
+                  <td className="px-4 py-3 text-gray-700"><strong>Best DynaTrap for mosquitoes</strong> — only model with an attractant fan</td>
+                  <td className="px-4 py-3 font-mono text-gray-800">$249 – $329</td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="dynatrap dt3050" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
-                  <td className="px-4 py-3 font-bold text-brand-800">DT1050 <span className="font-normal text-xs text-gray-500">(½ acre)</span></td>
-                  <td className="px-4 py-3 text-gray-700">½ acre</td>
-                  <td className="px-4 py-3 text-gray-700">Typical GTA backyard</td>
-                  <td className="px-4 py-3 font-mono text-gray-800">$149 – $199</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="dynatrap dt1050" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3 font-bold text-brand-800">DT2030 <span className="font-normal text-xs text-gray-500">(1 acre · 3-way)</span></td>
+                  <td className="px-4 py-3 text-gray-700">1 acre (full)</td>
+                  <td className="px-4 py-3 text-gray-700">Cottage decks · most popular</td>
+                  <td className="px-4 py-3 font-mono text-gray-800">$199 – $279</td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="dynatrap dt2030" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">DT1100 <span className="font-normal text-xs text-gray-500">(1 acre)</span></td>
@@ -277,18 +330,18 @@ export default function DynaTrapCanadaPage() {
                   <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="dynatrap dt1100" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
-                  <td className="px-4 py-3 font-bold text-brand-800">DT2030 <span className="font-normal text-xs text-gray-500">(1 acre · 3-way)</span></td>
-                  <td className="px-4 py-3 text-gray-700">1 acre (full)</td>
-                  <td className="px-4 py-3 text-gray-700">Cottage decks · most popular</td>
-                  <td className="px-4 py-3 font-mono text-gray-800">$199 – $279</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="dynatrap dt2030" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3 font-bold text-brand-800">DT1050 <span className="font-normal text-xs text-gray-500">(½ acre)</span></td>
+                  <td className="px-4 py-3 text-gray-700">½ acre</td>
+                  <td className="px-4 py-3 text-gray-700">Typical GTA backyard · cheapest sensible size</td>
+                  <td className="px-4 py-3 font-mono text-gray-800">$149 – $199</td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="dynatrap dt1050" block>Check price →</BuyLink></td>
                 </tr>
                 <tr>
-                  <td className="px-4 py-3 font-bold text-brand-800">DT3050 <span className="font-normal text-xs text-gray-500">(+ attractant fan)</span></td>
-                  <td className="px-4 py-3 text-gray-700">1 acre (full)</td>
-                  <td className="px-4 py-3 text-gray-700">Best DynaTrap for mosquitoes</td>
-                  <td className="px-4 py-3 font-mono text-gray-800">$249 – $329</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="dynatrap dt3050" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3 font-bold text-brand-800">DT150</td>
+                  <td className="px-4 py-3 text-gray-700">300 sq ft</td>
+                  <td className="px-4 py-3 text-gray-700">Balcony / small porch</td>
+                  <td className="px-4 py-3 font-mono text-gray-800">$79 – $129</td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="dynatrap dt150" block>Check price →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -392,6 +445,7 @@ export default function DynaTrapCanadaPage() {
 
           <h2>Related Reading</h2>
           <ul>
+            <li><Link href="/blog/best-mosquito-trap-canada">Best Mosquito Trap Canada — UV, CO₂ &amp; Propane Compared</Link></li>
             <li><Link href="/blog/mosquito-magnet-canada">Mosquito Magnet Canada — Where to Buy + Do They Work</Link></li>
             <li><Link href="/blog/thermacell-canada-where-to-buy">Thermacell Canada Guide</Link></li>
             <li><Link href="/blog/mosquito-dunks-canada-guide">Mosquito Dunks Canada Guide</Link></li>

@@ -14,6 +14,7 @@ const SLUG = 'best-mouse-trap-canada'
 const DATE = '2026-07-16'
 const UPDATED = '2026-07-16'
 const TITLE = 'Best Mouse Trap Canada 2026 — Snap vs Electronic vs Catch-and-Release'
+const META_TITLE = 'Best Mouse Trap Canada 2026: Snap vs Electronic'
 
 const FAQS = [
   {
@@ -67,7 +68,7 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: TITLE,
+  title: META_TITLE,
   description: 'Snap vs electronic vs catch-and-release vs glue mouse traps compared for Canadian homes. Top picks (Victor M325, M250S, Motel Mouse), placement science, and why traps beat poison under Canadian rodenticide rules. Updated 2026.',
   canonical: `/blog/${SLUG}`,
   type: 'article',

@@ -14,6 +14,7 @@ const SLUG = 'how-to-get-rid-of-mice-canada'
 const DATE = '2026-07-16'
 const UPDATED = '2026-07-16'
 const TITLE = 'How to Get Rid of Mice in Canada 2026 — The 4-Step Plan That Actually Works'
+const META_TITLE = 'Get Rid of Mice in Canada 2026: The 4-Step Plan'
 
 const FAQS = [
   {
@@ -67,7 +68,7 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: TITLE,
+  title: META_TITLE,
   description: 'The complete Canadian playbook for getting rid of mice: fall entry-wave timing, the 6 mm gap rule, the kitchen sanitation triangle, a 12-trap night-one deployment, and exclusion with steel wool and door sweeps. Updated 2026.',
   canonical: `/blog/${SLUG}`,
   type: 'article',

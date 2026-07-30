@@ -14,7 +14,7 @@ const SLUG = 'how-to-get-rid-of-bed-bugs-in-couch-canada'
 const DATE = '2026-07-21'
 const UPDATED = '2026-07-21'
 const TITLE = 'How to Get Rid of Bed Bugs in a Couch (Canada 2026) — Steamer + Spray + Encasement Protocol'
-const META_TITLE = 'How to Get Rid of Bed Bugs in a Couch Canada 2026'
+const META_TITLE = 'Bed Bugs in a Couch Canada: 5-Step Protocol'
 
 const FAQS = [
   {

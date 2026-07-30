@@ -14,7 +14,7 @@ const SLUG = 'mcculloch-mc1275-steamer-review-canada'
 const DATE = '2026-07-21'
 const UPDATED = '2026-07-21'
 const TITLE = 'McCulloch MC1275 Steamer Review Canada 2026 — Is the Budget Heavy-Duty Steamer Worth It for Bed Bugs?'
-const META_TITLE = 'McCulloch MC1275 Bed Bug Steamer Review Canada 2026'
+const META_TITLE = 'McCulloch MC1275 Steamer Review: Bed Bugs 2026'
 
 const FAQS = [
   {

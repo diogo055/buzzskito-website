@@ -70,8 +70,10 @@ const FAQS = [
   },
 ]
 
+const META_TITLE = 'Lyme Disease Cases Ontario: 2,369 in 2024'
+
 export const metadata: Metadata = buildMetadata({
-  title: 'Lyme Disease Cases in Ontario: 2,369 in 2024 (Latest Published Data)',
+  title: META_TITLE,
   description:
     'Ontario reported 2,369 confirmed and probable Lyme disease cases in 2024, up 27% over 2023 — the newest year PHAC has published. What the number covers, why no 2025 Ontario total exists yet, and the household protection plan.',
   canonical: `/blog/${POST.slug}`,

@@ -34,8 +34,10 @@ const FAQS = [
   },
 ]
 
+const META_TITLE = 'Toronto Tick Hot Spots 2026: Why Ravines Matter'
+
 export const metadata: Metadata = buildMetadata({
-  title: 'Why Toronto Is a Tick Hot Spot in 2026 (Toronto Star + Public Health Confirmed)',
+  title: META_TITLE,
   description:
     "Toronto is now a confirmed tick hot spot per Toronto Star + Public Health Ontario (May 2026). Why the city's ravines make it worse than the rest of the GTA, highest-risk neighbourhoods, and what every Toronto homeowner should do.",
   canonical: `/blog/${POST.slug}`,

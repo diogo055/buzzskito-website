@@ -6,6 +6,7 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 const SLUG = 'is-deet-safe'
 const DATE = '2026-07-15'
 const TITLE = 'Is DEET Safe? What It Is, Cancer Myths & Health Canada Limits (2026)'
+const META_TITLE = 'Is DEET Safe in 2026? Health Canada Limits'
 
 const FAQS = [
   {
@@ -59,7 +60,7 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: TITLE,
+  title: META_TITLE,
   description: 'Is DEET safe, and is it bad for you? What DEET is (N,N-diethyl-meta-toluamide), Health Canada concentration limits, the cancer myth, pregnancy and pet safety, why it is not banned, and expiry — attributed to Health Canada and the CDC. Updated 2026.',
   canonical: `/blog/${SLUG}`,
   type: 'article',

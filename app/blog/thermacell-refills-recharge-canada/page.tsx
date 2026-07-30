@@ -14,6 +14,7 @@ const SLUG = 'thermacell-refills-recharge-canada'
 const DATE = '2026-07-12'
 const UPDATED = '2026-07-12'
 const TITLE = 'Thermacell Refills & Recharge Canada — Costs, Models & Where to Buy'
+const META_TITLE = 'Thermacell Refills Canada: 4 Models, Cost/Hour'
 
 const FAQS = [
   {
@@ -51,7 +52,7 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: TITLE,
+  title: META_TITLE,
   description: 'Thermacell refills and recharge guide for Canada: where to buy E-Series cartridges, Original mats + butane, and Liv refills, cost per hour, refill compatibility by model (E55, E90, Patio Shield, Liv), and how to recharge and replace. Updated 2026.',
   canonical: `/blog/${SLUG}`,
   type: 'article',

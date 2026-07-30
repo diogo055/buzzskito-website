@@ -14,7 +14,7 @@ const SLUG = 'how-to-get-rid-of-bed-bugs-canada'
 const DATE = '2026-07-21'
 const UPDATED = '2026-07-21'
 const TITLE = 'How to Get Rid of Bed Bugs in Canada 2026 — The Complete Step-by-Step Plan'
-const META_TITLE = 'How to Get Rid of Bed Bugs Canada 2026 — Full Plan'
+const META_TITLE = 'How to Get Rid of Bed Bugs Canada: 7 Steps'
 
 const FAQS = [
   {

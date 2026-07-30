@@ -14,7 +14,7 @@ const SLUG = 'black-flag-electric-fogger-review-canada'
 const DATE = '2026-07-21'
 const UPDATED = '2026-07-21'
 const TITLE = 'Black Flag Electric Fogger Review (Canada 2026) — Is the 190107 Worth It?'
-const META_TITLE = 'Black Flag Electric Fogger Review Canada 2026 (190107)'
+const META_TITLE = 'Black Flag 190107 Fogger Review Canada 2026'
 
 const FAQS = [
   {

@@ -14,7 +14,7 @@ const SLUG = 'vapamore-mr100-steamer-review-canada'
 const DATE = '2026-07-21'
 const UPDATED = '2026-07-21'
 const TITLE = 'Vapamore MR-100 Primo Review Canada 2026 — The Dry-Steam Workhorse for Bed Bugs, Tested'
-const META_TITLE = 'Vapamore MR-100 Bed Bug Steamer Review Canada 2026'
+const META_TITLE = 'Vapamore MR-100 Review Canada: Bed Bug Steam'
 
 const FAQS = [
   {

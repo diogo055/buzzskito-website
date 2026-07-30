@@ -14,6 +14,7 @@ const SLUG = 'how-to-check-for-bed-bugs-canada'
 const DATE = '2026-07-16'
 const UPDATED = '2026-07-16'
 const TITLE = 'How to Check for Bed Bugs in Canada — Hotel, Apartment & Used Furniture (2026)'
+const META_TITLE = 'How to Check for Bed Bugs: 5 Signs, 5 Minutes'
 
 const FAQS = [
   {
@@ -63,7 +64,7 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: TITLE,
+  title: META_TITLE,
   description: 'How to check for bed bugs in Canada: the 5 confirmed signs, a 5-minute hotel room protocol, the used-furniture rule, and a Toronto/GTA apartment move-in checklist. Independent Canadian research, updated 2026.',
   canonical: `/blog/${SLUG}`,
   type: 'article',

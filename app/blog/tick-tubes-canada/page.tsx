@@ -14,6 +14,7 @@ const SLUG = 'tick-tubes-canada'
 const DATE = '2026-07-14'
 const UPDATED = '2026-07-14'
 const TITLE = 'Tick Tubes in Canada 2026: Do They Actually Work?'
+const META_TITLE = 'Tick Tubes Canada 2026: Do They Work?'
 
 const FAQS = [
   {
@@ -59,7 +60,7 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: TITLE,
+  title: META_TITLE,
   description: 'Do tick tubes work in Canada? How permethrin-cotton tubes break the deer-tick life cycle through mice, when and how to place them in Ontario, Thermacell vs generic vs DIY, where to buy in Canada, and why tubes plus perimeter spray beats either alone. Updated July 2026.',
   canonical: `/blog/${SLUG}`,
   type: 'article',

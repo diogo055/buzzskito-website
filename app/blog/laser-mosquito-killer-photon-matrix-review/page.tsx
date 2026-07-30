@@ -13,7 +13,7 @@ const SLUG = 'laser-mosquito-killer-photon-matrix-review'
 const DATE = '2026-07-12'
 const UPDATED = '2026-07-12'
 const TITLE = 'Laser Mosquito Killer 2026 — Is the Photon Matrix Real? (Honest Review)'
-const META_TITLE = 'Laser Mosquito Killer & Photon Matrix: Is It Real? (2026)'
+const META_TITLE = 'Laser Mosquito Killer: Is Photon Matrix Real?'
 
 const FAQS = [
   {

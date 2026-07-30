@@ -14,6 +14,7 @@ const SLUG = 'best-solar-bug-zapper-canada'
 const DATE = '2026-07-14'
 const UPDATED = '2026-07-14'
 const TITLE = 'Best Solar Bug Zappers in Canada 2026 — What a $30–60 Solar Zapper Can Actually Kill'
+const META_TITLE = 'Best Solar Bug Zapper Canada 2026: What It Kills'
 
 const FAQS = [
   {
@@ -59,7 +60,7 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: TITLE,
+  title: META_TITLE,
   description: 'Honest 2026 guide to solar bug zappers in Canada: what $30–60 stake and lantern zappers really kill, the best models on Amazon.ca, where solar beats plug-in, and what to use for actual mosquito control.',
   canonical: `/blog/${SLUG}`,
   type: 'article',

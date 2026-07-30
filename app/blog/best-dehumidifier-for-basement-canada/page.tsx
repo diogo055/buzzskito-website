@@ -14,7 +14,7 @@ const SLUG = 'best-dehumidifier-for-basement-canada'
 const DATE = '2026-07-21'
 const UPDATED = '2026-07-21'
 const TITLE = 'Best Dehumidifier for a Basement in Canada 2026 — Sizing, Drainage & the Pest Angle'
-const META_TITLE = 'Best Basement Dehumidifier Canada 2026: Sizing & Picks'
+const META_TITLE = 'Best Basement Dehumidifier Canada: 50% RH Target'
 
 const FAQS = [
   {

@@ -14,6 +14,7 @@ const SLUG = 'june-bugs-ontario'
 const DATE = '2026-07-12'
 const UPDATED = '2026-07-12'
 const TITLE = 'June Bugs in Ontario: ID, Why They Swarm Lights & How to Stop Them'
+const META_TITLE = 'June Bugs in Ontario: ID, Grubs & Light Swarms'
 
 const FAQS = [
   {
@@ -51,7 +52,7 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'June Bugs Ontario: ID, Why They Swarm Lights & How to Stop Them',
+  title: META_TITLE,
   description: 'June bugs (June beetles) are harmless to people but their white-grub larvae wreck lawns. How to identify them, why they swarm porch lights, their grub lifecycle, and how to keep them out of your Ontario yard.',
   canonical: `/blog/${SLUG}`,
   type: 'article',

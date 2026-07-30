@@ -14,7 +14,7 @@ const SLUG = 'rodent-exclusion-kit-canada'
 const DATE = '2026-07-21'
 const UPDATED = '2026-07-21'
 const TITLE = 'Rodent Exclusion Kit Canada 2026 — Seal Mice Out Before October'
-const META_TITLE = 'Rodent Exclusion Kit Canada 2026: Seal Mice Out Before October'
+const META_TITLE = 'Rodent Exclusion Kit Canada: 8 Spots to Seal'
 
 const FAQS = [
   {

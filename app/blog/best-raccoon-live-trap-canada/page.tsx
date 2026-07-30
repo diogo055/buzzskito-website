@@ -14,7 +14,7 @@ const SLUG = 'best-raccoon-live-trap-canada'
 const DATE = '2026-07-21'
 const UPDATED = '2026-07-21'
 const TITLE = 'Best Raccoon Live Trap Canada 2026 — Large Humane Cage Traps + Ontario Relocation Law'
-const META_TITLE = 'Best Raccoon Live Trap Canada 2026: Humane Cage Traps'
+const META_TITLE = 'Best Raccoon Live Trap Canada 2026: Cage Sizes'
 
 const FAQS = [
   {

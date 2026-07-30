@@ -12,6 +12,7 @@ const SLUG = 'mosquito-hawk-explained'
 const DATE = '2026-04-28'
 const UPDATED = '2026-07-12'
 const TITLE = 'Mosquito Hawk — What It Actually Is (Crane Fly Truth)'
+const META_TITLE = 'Mosquito Hawk: Do Crane Flies Eat Mosquitoes?'
 
 const FAQS = [
   {
@@ -69,7 +70,7 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Mosquito Hawk: What It Is & Do They Eat Mosquitoes?',
+  title: META_TITLE,
   description: 'A "mosquito hawk" is a crane fly — and no, it does NOT eat mosquitoes. What it is, if it bites, and how to get rid of them. Clear Ontario guide.',
   canonical: `/blog/${SLUG}`,
   type: 'article',

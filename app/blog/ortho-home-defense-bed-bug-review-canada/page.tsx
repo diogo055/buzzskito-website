@@ -14,7 +14,7 @@ const SLUG = 'ortho-home-defense-bed-bug-review-canada'
 const DATE = '2026-07-21'
 const UPDATED = '2026-07-21'
 const TITLE = 'Ortho Home Defense Bed Bug Killer Review Canada 2026 — Is the US Formula PMRA-Legal Here?'
-const META_TITLE = 'Ortho Home Defense Bed Bug Killer Review (Canada 2026)'
+const META_TITLE = 'Ortho Bed Bug Killer Canada 2026: Legal Here?'
 
 const FAQS = [
   {
@@ -253,6 +253,7 @@ export default function OrthoHomeDefenseBedBugReviewCanadaPage() {
           <h2>The Verdict</h2>
           <p>Ortho Home Defense Bed Bug Killer is a capable contact-plus-residual spray for the bugs and surfaces you can reach, and as a frame-and-perimeter tool it does its job. The single most important thing to get right in Canada is not performance but <strong>provenance</strong>: the US formula that dominates the search results and reviews is not PMRA-registered for use here, and the only reliable way to hold the legal Canadian version is to confirm a PCP registration number on the label. Do that, and Ortho is a reasonable pick. Can&rsquo;t confirm it, and a clearly Canadian-registered brand like Konk or Knock Down removes the doubt for the same core performance.</p>
           <p>Either way, temper the expectations any spray sets: it is weak on eggs, it can meet resistance, and it reaches surfaces but not the depths where bed bugs live. Buy it as one deliberate layer &mdash; alongside heat, encasements, and monitoring &mdash; and it contributes. Buy it as a miracle in a can, and it will disappoint you exactly the way every single-spray bed-bug plan does.</p>
+          <p>If the provenance question has put you off Ortho entirely, our <Link href="/blog/bed-bug-spray-canada">bed bug spray and killer guide for Canada</Link> carries a full legal-vs-not-legal table of every product in this category, plus a straight answer on what chemical kills bed bugs and their eggs.</p>
 
           <h2>Frequently Asked Questions</h2>
           <div className="not-prose space-y-4">

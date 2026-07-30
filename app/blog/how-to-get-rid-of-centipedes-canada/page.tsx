@@ -130,6 +130,13 @@ export default function HowToGetRidOfCentipedesCanadaPage() {
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito Pest Product Guides &middot; independent Canadian research</p>
           </div>
+          <div className="not-prose rounded-xl border-l-4 border-emerald-500 bg-emerald-50/60 p-5 mb-6">
+            <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Already decided to buy something?</p>
+            <p className="text-sm text-gray-800 leading-relaxed">
+              This page is the diagnosis and the plan &mdash; what a house centipede is, why it is in your basement, and the order the work goes in. The purchase side is a separate job: <Link href="/blog/best-centipede-killer-canada" className="text-emerald-700 underline font-semibold">what to buy for centipedes in Canada</Link> covers the buying order, how to size and spec the dehumidifier, which registered diatomaceous earth carries a PCP number, how many glue boards you actually need, and the two label checks to run before you add anything to a cart.
+            </p>
+          </div>
+
           <SpecialistDisclosure pest="centipedes" />
         </div>
       </section>

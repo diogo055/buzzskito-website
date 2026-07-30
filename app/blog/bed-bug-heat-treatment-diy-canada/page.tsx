@@ -14,7 +14,7 @@ const SLUG = 'bed-bug-heat-treatment-diy-canada'
 const DATE = '2026-07-21'
 const UPDATED = '2026-07-21'
 const TITLE = 'DIY Bed Bug Heat Treatment Canada 2026 — The Temperatures, Gear & Protocol That Actually Kill'
-const META_TITLE = 'DIY Bed Bug Heat Treatment Canada 2026 — Full Protocol'
+const META_TITLE = 'DIY Bed Bug Heat Treatment Canada: 50°C, 60 Min'
 
 const FAQS = [
   {

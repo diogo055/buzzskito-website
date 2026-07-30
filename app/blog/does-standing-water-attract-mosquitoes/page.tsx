@@ -14,6 +14,7 @@ const SLUG = 'does-standing-water-attract-mosquitoes'
 const DATE = '2026-07-16'
 const UPDATED = '2026-07-16'
 const TITLE = 'Does Standing Water Attract Mosquitoes? How Fast It Breeds Them'
+const META_TITLE = 'Standing Water Breeds Mosquitoes in 7–10 Days'
 
 const FAQS = [
   {
@@ -67,7 +68,7 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Does Standing Water Attract Mosquitoes? How Fast It Breeds Them',
+  title: META_TITLE,
   description: 'Yes — standing water breeds mosquitoes in just 7–10 days, in as little as a bottle cap of water. The weekly dump rule, BTI dunks for water you can\'t drain, and what counts. GTA guide.',
   canonical: `/blog/${SLUG}`,
   type: 'article',

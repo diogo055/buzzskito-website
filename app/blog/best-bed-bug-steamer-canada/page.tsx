@@ -14,6 +14,7 @@ const SLUG = 'best-bed-bug-steamer-canada'
 const DATE = '2026-07-16'
 const UPDATED = '2026-07-16'
 const TITLE = 'Best Bed Bug Steamer Canada 2026 — Vapamore MR-100 vs McCulloch MC1275 vs PurSteam'
+const META_TITLE = 'Best Bed Bug Steamer Canada 2026: 100°C Kill'
 
 const FAQS = [
   {
@@ -71,7 +72,7 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: TITLE,
+  title: META_TITLE,
   description: 'Independent Canadian guide to bed bug steamers: Vapamore MR-100 vs McCulloch MC1275 vs PurSteam, the 100°C kill science, the 2–3 cm/s slow-pass technique, what steam can\'t reach, and why steamers need no PMRA registration.',
   canonical: `/blog/${SLUG}`,
   type: 'article',

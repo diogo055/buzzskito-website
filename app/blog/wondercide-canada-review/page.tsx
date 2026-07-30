@@ -14,7 +14,7 @@ const SLUG = 'wondercide-canada-review'
 const DATE = '2026-07-12'
 const UPDATED = '2026-07-12'
 const TITLE = 'Wondercide Canada 2026 — Honest Review + Where to Buy (Does It Work?)'
-const META_TITLE = 'Wondercide Canada Review 2026: Is the Cedar-Oil Spray Worth It?'
+const META_TITLE = 'Wondercide Canada Review 2026: Does It Work?'
 
 const FAQS = [
   {

@@ -14,7 +14,7 @@ const SLUG = 'how-to-get-rid-of-ground-wasps-canada'
 const DATE = '2026-07-21'
 const UPDATED = '2026-07-21'
 const TITLE = 'How to Get Rid of Ground Wasps in Canada — Yellow Jacket Nests in the Lawn'
-const META_TITLE = 'How to Get Rid of Ground Wasps Canada 2026: Lawn Nest Guide'
+const META_TITLE = 'Ground Wasps Canada 2026: The Dusk Foam Method'
 
 const FAQS = [
   {

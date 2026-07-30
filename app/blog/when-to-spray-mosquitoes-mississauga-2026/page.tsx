@@ -34,8 +34,10 @@ const FAQS = [
   },
 ]
 
+const META_TITLE = 'When to Spray Mosquitoes in Mississauga 2026'
+
 export const metadata: Metadata = buildMetadata({
-  title: 'When to Spray Mosquitoes in Mississauga (2026 Service Calendar)',
+  title: META_TITLE,
   description:
     "A 2026 mosquito spray calendar for Mississauga homeowners. First spray timing, biweekly cadence, the September final spray, and microclimate adjustments for waterfront + Credit River properties.",
   canonical: `/blog/${POST.slug}`,

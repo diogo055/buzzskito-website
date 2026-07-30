@@ -14,7 +14,7 @@ const SLUG = 'best-mosquito-repellent-device-canada'
 const DATE = '2026-07-12'
 const UPDATED = '2026-07-13'
 const TITLE = 'Best Mosquito Repellent Device Canada 2026 — Machines Ranked'
-const META_TITLE = 'Best Mosquito Repellent Device Canada 2026 (Machines Ranked)'
+const META_TITLE = 'Best Mosquito Repellent Device Canada: 5 Ranked'
 
 const FAQS = [
   {

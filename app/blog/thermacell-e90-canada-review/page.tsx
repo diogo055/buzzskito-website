@@ -14,6 +14,7 @@ const SLUG = 'thermacell-e90-canada-review'
 const DATE = '2026-07-14'
 const UPDATED = '2026-07-14'
 const TITLE = 'Thermacell E90 Review Canada 2026 — vs E55, vs EX90 & Which Refills to Buy'
+const META_TITLE = 'Thermacell E90 Review Canada: 9-Hour Runtime'
 
 const FAQS = [
   {
@@ -59,7 +60,7 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: TITLE,
+  title: META_TITLE,
   description: 'Full Canadian review of the Thermacell E90 rechargeable mosquito repeller: 9-hour runtime, real-world 20-ft zone performance, E90 vs E55 vs EX90, PMRA status, and which E-Series refills to buy in 2026.',
   canonical: `/blog/${SLUG}`,
   type: 'article',

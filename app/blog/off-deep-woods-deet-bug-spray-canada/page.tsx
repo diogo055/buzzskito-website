@@ -13,7 +13,7 @@ const SLUG = 'off-deep-woods-deet-bug-spray-canada'
 const DATE = '2026-07-12'
 const UPDATED = '2026-07-12'
 const TITLE = 'OFF Deep Woods & DEET Bug Spray Canada 2026 — Which One to Buy'
-const META_TITLE = 'OFF Deep Woods Canada 2026: Which DEET Bug Spray to Buy'
+const META_TITLE = 'OFF Deep Woods Canada 2026: Which DEET to Buy'
 
 const FAQS = [
   {

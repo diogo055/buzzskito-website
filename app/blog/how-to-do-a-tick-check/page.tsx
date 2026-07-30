@@ -14,6 +14,7 @@ const SLUG = 'how-to-do-a-tick-check'
 const DATE = '2026-07-12'
 const UPDATED = '2026-07-12'
 const TITLE = 'How to Do a Tick Check: Full-Body Checklist (Ontario)'
+const META_TITLE = 'How to Do a Tick Check in Ontario: Full-Body Map'
 
 const FAQS = [
   {
@@ -51,7 +52,7 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'How to Do a Tick Check: Full-Body Checklist (Ontario 2026)',
+  title: META_TITLE,
   description: 'A step-by-step full-body tick check: where ticks hide (scalp, ears, armpits, groin, behind knees), how to check kids and pets, your after-hike routine, and what to do if you find one attached.',
   canonical: `/blog/${SLUG}`,
   type: 'article',

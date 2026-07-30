@@ -8,6 +8,7 @@ const SLUG = 'where-do-mosquitoes-go-in-winter-ontario'
 const DATE = '2026-07-12'
 const UPDATED = '2026-07-12'
 const TITLE = 'Where Do Mosquitoes Go in Winter? (Ontario Explained)'
+const META_TITLE = 'Where Do Mosquitoes Go in Winter? Ontario'
 
 const FAQS = [
   {
@@ -57,7 +58,7 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: TITLE,
+  title: META_TITLE,
   description: 'Where do mosquitoes go in winter in Ontario? They overwinter — as frost-hardy Aedes eggs, hibernating (diapausing) Culex females, or dormant larvae — then return in May. Here is what temperature stops and wakes them, and how to prep your yard.',
   canonical: `/blog/${SLUG}`,
   type: 'article',

@@ -14,7 +14,7 @@ const SLUG = 'thermalstrike-ranger-review-canada'
 const DATE = '2026-07-21'
 const UPDATED = '2026-07-21'
 const TITLE = 'ThermalStrike Ranger Review Canada 2026 — Does the Heated Bed Bug Suitcase Actually Work?'
-const META_TITLE = 'ThermalStrike Ranger Review Canada 2026: Heated Suitcase'
+const META_TITLE = 'ThermalStrike Ranger Review Canada 2026'
 
 const FAQS = [
   {

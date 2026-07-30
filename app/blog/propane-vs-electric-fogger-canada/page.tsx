@@ -15,7 +15,7 @@ const SLUG = 'propane-vs-electric-fogger-canada'
 const DATE = '2026-07-21'
 const UPDATED = '2026-07-21'
 const TITLE = 'Propane vs Electric Fogger Canada 2026 — Burgess vs Black Flag Compared'
-const META_TITLE = 'Propane vs Electric Fogger Canada 2026: Burgess vs Black Flag'
+const META_TITLE = 'Propane vs Electric Fogger: Canada 2026 Verdict'
 
 const FAQS = [
   {

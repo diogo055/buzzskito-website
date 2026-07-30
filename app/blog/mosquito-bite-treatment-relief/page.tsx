@@ -14,6 +14,7 @@ const SLUG = 'mosquito-bite-treatment-relief'
 const DATE = '2026-07-13'
 const UPDATED = '2026-07-13'
 const TITLE = 'Mosquito Bite Treatment: How to Stop the Itch Fast'
+const META_TITLE = 'Mosquito Bite Treatment: Stop the Itch Fast'
 
 const FAQS = [
   {
@@ -71,7 +72,7 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: TITLE,
+  title: META_TITLE,
   description: 'How to get rid of mosquito bites and stop the itch fast — cold, antihistamines, and hydrocortisone that actually work, myths that don’t, plus signs of infection, skeeter syndrome, and when to see a doctor.',
   canonical: `/blog/${SLUG}`,
   type: 'article',

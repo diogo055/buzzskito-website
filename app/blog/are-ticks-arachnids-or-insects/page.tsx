@@ -14,6 +14,7 @@ const SLUG = 'are-ticks-arachnids-or-insects'
 const DATE = '2026-07-13'
 const UPDATED = '2026-07-13'
 const TITLE = 'Are Ticks Arachnids or Insects? Why They Have 8 Legs'
+const META_TITLE = 'Are Ticks Arachnids or Insects? 8 Legs, No Wings'
 
 const FAQS = [
   {
@@ -51,7 +52,7 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Are Ticks Arachnids or Insects? Why They Have 8 Legs',
+  title: META_TITLE,
   description: 'Ticks are arachnids, not insects — they have 8 legs like spiders and mites, no wings, and no antennae. Here is the tick vs insect vs spider comparison, plus why it matters for control.',
   canonical: `/blog/${SLUG}`,
   type: 'article',

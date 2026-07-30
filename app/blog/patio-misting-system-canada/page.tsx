@@ -14,6 +14,7 @@ const SLUG = 'patio-misting-system-canada'
 const DATE = '2026-07-14'
 const UPDATED = '2026-07-14'
 const TITLE = 'Patio Misting Systems in Canada 2026: DIY Kits vs Professional Mosquito Misting Installs'
+const META_TITLE = 'Patio Misting Systems Canada: 4 Kits Compared'
 
 const FAQS = [
   {
@@ -55,7 +56,7 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: TITLE,
+  title: META_TITLE,
   description: 'Patio misting systems in Canada explained: cooling mist vs mosquito misting, the best hose-fed kits on Amazon.ca, why MistAway-style installs are rare here (PMRA rules), water pressure needs, and Ontario winterization. Updated 2026.',
   canonical: `/blog/${SLUG}`,
   type: 'article',

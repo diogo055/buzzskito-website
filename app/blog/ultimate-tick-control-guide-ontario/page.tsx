@@ -14,8 +14,10 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 
 const POST = TICK_BLOGS.pillar
 
+const META_TITLE = 'Ontario Tick Control: 5-Step Yard Plan 2026'
+
 export const metadata: Metadata = buildMetadata({
-  title: 'Tick Surge Ontario 2026: Complete Yard Control Guide (Lyme Risk + 5-Step Plan)',
+  title: META_TITLE,
   description:
     "Ontario's 2026 tick surge is real — Toronto is now a hot spot. Identify all 4 species, understand how Ontario actually maps tick risk areas (2,369 Ontario cases in 2024, the newest year PHAC has published), and use the 5-step yard plan. Free risk score by address.",
   canonical: `/blog/${POST.slug}`,

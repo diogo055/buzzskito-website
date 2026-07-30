@@ -14,7 +14,7 @@ const SLUG = 'how-to-get-rid-of-bed-bugs-in-apartment-canada'
 const DATE = '2026-07-21'
 const UPDATED = '2026-07-21'
 const TITLE = 'How to Get Rid of Bed Bugs in an Apartment (Canada 2026) — A Renter’s Containment-First Plan'
-const META_TITLE = 'Get Rid of Bed Bugs in an Apartment Canada 2026 — Renter Guide'
+const META_TITLE = 'Bed Bugs in an Apartment Canada: 5 Renter Steps'
 
 const FAQS = [
   {

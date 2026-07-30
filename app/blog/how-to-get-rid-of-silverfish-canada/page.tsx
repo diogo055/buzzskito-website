@@ -14,7 +14,7 @@ const SLUG = 'how-to-get-rid-of-silverfish-canada'
 const DATE = '2026-07-21'
 const UPDATED = '2026-07-21'
 const TITLE = 'How to Get Rid of Silverfish in Canada — The Humidity Fix That Actually Works'
-const META_TITLE = 'How to Get Rid of Silverfish in Canada (2026): The Humidity Fix'
+const META_TITLE = 'Get Rid of Silverfish Canada: Humidity Under 50%'
 
 const FAQS = [
   {
@@ -116,6 +116,13 @@ export default function HowToGetRidOfSilverfishCanadaPage() {
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito Pest Product Guides &middot; independent Canadian research</p>
           </div>
+          <div className="not-prose rounded-xl border-l-4 border-emerald-500 bg-emerald-50/60 p-5 mb-6">
+            <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Buying the trap line?</p>
+            <p className="text-sm text-gray-800 leading-relaxed">
+              This page is the plan. The equipment decision is a separate job: <Link href="/blog/best-silverfish-traps-canada" className="text-emerald-700 underline font-semibold">which silverfish trap to buy in Canada</Link> compares flat glue boards against covered stations and the free jar trap, gives the right starting quantity (six to ten, not twenty), maps which trap belongs in which room, and explains how fast adhesive dies in a damp basement so you budget for replacement rather than volume.
+            </p>
+          </div>
+
           <SpecialistDisclosure pest="silverfish" />
         </div>
       </section>

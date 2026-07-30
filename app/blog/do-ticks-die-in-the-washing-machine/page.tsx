@@ -8,6 +8,7 @@ const SLUG = 'do-ticks-die-in-the-washing-machine'
 const DATE = '2026-07-16'
 const UPDATED = '2026-07-16'
 const TITLE = 'Do Ticks Die in the Washing Machine or Dryer? (What Actually Works)'
+const META_TITLE = 'Do Ticks Die in the Washing Machine? 10-Min Fix'
 
 const FAQS = [
   {
@@ -53,7 +54,7 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Do Ticks Die in the Washing Machine or Dryer? (Ontario 2026)',
+  title: META_TITLE,
   description: 'Washing clothes — even hot — does not reliably kill ticks; only water at 54°C kills them. A dryer on high heat for 10 minutes does, via desiccation. The research, temperatures, and a post-hike protocol.',
   canonical: `/blog/${SLUG}`,
   type: 'article',

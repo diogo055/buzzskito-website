@@ -34,8 +34,10 @@ const FAQS = [
   },
 ]
 
+const META_TITLE = 'Oakville + Burlington Tick Hot Spots 2026'
+
 export const metadata: Metadata = buildMetadata({
-  title: 'Oakville + Burlington Tick Hot Spots 2026: Halton\'s Highest-Risk Neighbourhoods',
+  title: META_TITLE,
   description:
     'The 2026 neighbourhood-by-neighbourhood ranking of tick hot spots across Oakville and Burlington. North Oakville, Glen Abbey, Bronte, Aldershot, Mountainside, and every escarpment edge — ranked by Halton Region tick pressure.',
   canonical: `/blog/${POST.slug}`,

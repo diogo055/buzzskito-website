@@ -14,6 +14,7 @@ const SLUG = 'co2-mosquito-trap-canada'
 const DATE = '2026-07-14'
 const UPDATED = '2026-07-14'
 const TITLE = 'CO2 Mosquito Traps in Canada 2026: Biogents vs Propane Traps (No Tank Required)'
+const META_TITLE = 'CO2 Mosquito Traps Canada: Biogents vs Propane'
 
 const FAQS = [
   {
@@ -59,7 +60,7 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: TITLE,
+  title: META_TITLE,
   description: 'CO2 mosquito traps in Canada, explained by GTA pros: how Biogents research-grade traps compare to propane traps like Mosquito Magnet, why the BG-GAT is genius, sugar-yeast vs propane vs electric CO2, cost-per-season math, and where to buy on Amazon.ca. Updated July 2026.',
   canonical: `/blog/${SLUG}`,
   type: 'article',

@@ -13,68 +13,61 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'best-centipede-killer-canada'
 const DATE = '2026-07-28'
-const UPDATED = '2026-07-28'
-// H1 keeps the long descriptive form. SERP title is trimmed to 45 chars so it
-// survives Google's ~60-char cap once the " | BuzzSkito" template (12 chars) is
-// appended. Head term: "centipede killer".
-const TITLE = 'Best Centipede Killer in Canada 2026 — What Actually Kills Them, and What Just Sells'
-const META_TITLE = 'Best Centipede Killer Canada 2026: What Works'
+const UPDATED = '2026-07-30'
+// This page is deliberately the SHOPPING half of the centipede pair. The biology,
+// the diagnosis and the step-by-step plan live on how-to-get-rid-of-centipedes-canada;
+// everything here is "which product, what spec, what the label must say". SERP title
+// trimmed to 44 chars so it survives Google's cap once " | BuzzSkito" is appended.
+const TITLE = 'Centipede Killer Canada — Which Product to Buy First, in What Order, and What the Label Must Say'
+const META_TITLE = 'Centipede Killer Canada: What to Buy in 2026'
 
 const FAQS = [
   {
-    question: 'What is the best centipede killer in Canada?',
-    answer: 'The honest answer is dry air, not a chemical. House centipedes have no waterproof outer layer, so they can only live where humidity stays high — a properly sized dehumidifier holding a basement at 45–50% relative humidity kills the habitat, and takes much of their prey with it. If you want an actual insecticide, the option best suited to this animal is a PMRA-registered insecticidal diatomaceous earth — Safer’s Diatomaceous Earth is a registered brand widely stocked in Canada — dusted as a whisper-thin film into cracks, voids and the sill-plate gap: it kills by abrading the cuticle, so long legs and hard shells do not save the insect the way they do against a residual spray band. Before you apply it, check that the Canadian label carries a PCP registration number and lists centipedes or crawling insects among the pests it may be used against; the label directions are what make the use legal. Registered Canadian residual sprays (Doktor Doom, Konk OnGuard, Knock Down and similar domestic-class products) will kill centipedes on direct contact, but they are the weakest long-term option on this page.',
+    question: 'What should I actually buy for centipedes in Canada?',
+    answer: 'In this order: a dehumidifier, a multi-pack of flat glue boards, a PMRA-registered insecticidal diatomaceous earth with a bulb duster, and hardware for sealing (door sweeps, weep-hole screens, silicone sealant). A registered residual spray is an optional fifth item, not a first one. The reason for that order is that only the first item removes what a house centipede physically requires — damp harbourage — while the dust and the spray act on individual insects. Most people buy the order backwards, start with a spray, and end up buying the dehumidifier anyway a season later.',
   },
   {
-    question: 'Does bug spray kill centipedes?',
-    answer: 'A direct hit from almost any registered contact insecticide kills the centipede you sprayed. The problem is everything after that. Residual perimeter sprays work by leaving a treated band that an insect drags its body through — and a house centipede crosses that band on fifteen pairs of long legs with its body held well clear, picking up a fraction of the dose a flat-bodied silverfish would. The same reasoning is why a barrier band is a weak choice against long-legged spiders and harvestmen. Add the fact that the breeding harbourage sits inside wall voids, under the slab edge, in the sump pit and under the mulch outside, and that spraying does nothing to the prey population drawing them in, and you have a product that dents the sighting count for a few weeks and changes nothing structural.',
+    question: 'What size dehumidifier do I need for a centipede basement?',
+    answer: 'For a typical damp full basement in the GTA, the modern 50-pint class is the safe default; a small, only-slightly-damp finished area can do with less, and a large, wet or open-plan basement wants more capacity rather than a smaller machine running around the clock without reaching target. Two spec details decide whether you bought the right one. First, the US Department of Energy test procedure most manufacturers rate to was revised in 2019 to measure capacity under cooler conditions, so a machine rated today carries a lower pint number than an older unit of comparable real capacity — check which standard a listing quotes rather than assuming pints are pints. Second, if the space runs cool, buy a unit specifically rated for low-temperature operation with auto-defrost, or a desiccant model; a standard compressor unit can frost its coils in a cold basement or crawl space. Also look for a built-in humidistat and a continuous-drain port, because a machine whose bucket needs emptying daily gets switched off in week three.',
   },
   {
-    question: 'Is diatomaceous earth a good centipede killer?',
-    answer: 'It is the best product-shaped answer on this page, with one condition. DE kills mechanically — the microscopic particles abrade the waxy layer that holds an insect’s moisture in, and the animal dries out. There is no dose to under-apply on long legs, no resistance to develop, and it keeps working for months. The condition is that DE only works while it is dry, and centipedes live where it is damp, so the sequence matters: run the dehumidifier first, then dust. In Canada, buy DE that is sold as an insecticide, carries a PCP registration number, and lists centipedes or crawling insects on its Canadian label — Safer’s Diatomaceous Earth is widely stocked in Canada, with Knock Down and Doktor Doom Be Green as other registered options. "Food-grade" DE is a feed additive with no pesticide registration and no legal application directions, and pool-grade DE is calcined, contains crystalline silica, and should never be used for pest control.',
+    question: 'Which diatomaceous earth should I buy for centipedes, and how much?',
+    answer: 'Buy DE that is sold as an insecticide and carries a PCP registration number on the Canadian label, then read the label’s pest list to confirm centipedes or crawling insects appear on it — the number makes the product legal to sell here, the pest list makes your application legal. Registered consumer brands stocked in Canada include Safer’s Diatomaceous Earth, Knock Down and Doktor Doom Be Green. Quantity is almost never the constraint: a single consumer bag will treat the cracks and voids of an average house several times over, because the correct application is a barely visible film rather than a pile. What you are more likely to be missing is the applicator — budget for a bulb or hand duster alongside the bag, because shaking dust out of the container puts down visible drifts that insects walk around. Avoid "food-grade" DE, which is sold as a feed additive with no pesticide registration and no legal application directions, and never buy pool-grade for pest control: it is calcined and contains crystalline silica.',
   },
   {
-    question: 'Why does killing centipedes not work?',
-    answer: 'Because you are killing the predator and leaving the reason it came. House centipedes are nocturnal hunters whose diet is essentially the guest list of a damp Canadian basement: silverfish, firebrats, cockroach nymphs, spiders, ants, drain flies, and moth and carpet-beetle larvae. A steady centipede presence is direct evidence of a steady insect population you have not noticed, plus the moisture supporting both. Remove the centipedes and the prey keeps breeding, the damp void keeps producing new centipedes, and you conclude nothing works. Remove the damp and the prey, and the centipedes leave on their own — permanently, and without a repeat purchase.',
+    question: 'Do I need both a dust and a spray for centipedes?',
+    answer: 'No, and buying both is the most common way to overspend on this problem. The dust and the spray occupy the same slot in the plan — a chemical layer for the places centipedes shelter — and the dust is the better fit for this animal, because it keeps working for months while it stays dry and does not depend on the insect dragging its body across a treated band. Buy the spray instead of the dust only if you specifically want fast knockdown at entry points during an autumn migration, or you cannot get a duster into the voids you need to treat. Buying both usually means the spray sits in the garage after one weekend.',
   },
   {
-    question: 'What kills centipedes instantly?',
-    answer: 'A shoe, a vacuum hose, or a jar and a piece of card. For a single centipede on a bathroom wall at midnight, that is the entire technology required, and there is no product worth buying for it. A registered contact aerosol also kills on direct contact, but it takes seconds rather than being instant, it puts insecticide on a surface in your house for one insect, and it does nothing about the next one. If the squeamish factor is the real issue, a vacuum with a hose attachment is the least unpleasant tool in the house and you already own it.',
+    question: 'Is a "centipede killer" product different from a general crawling-insect product?',
+    answer: 'Almost never, and this is worth knowing before you pay a premium for the word. There is no consumer-market active ingredient developed specifically for centipedes; what is sold as a centipede killer in Canada is a general crawling-insect dust or residual whose Canadian label happens to list centipedes among its pests. That makes the pest list on the label the only thing worth comparing between two otherwise similar products — not the pest named on the front of the bottle. The same logic applies to bundles marketed as a "centipede kit": they are usually a residual spray, a bag of unregistered dust and a few glue boards at a premium over buying the two items that matter separately.',
   },
   {
-    question: 'Are US centipede sprays legal to use in Canada?',
-    answer: 'Not necessarily, and the label is the test. Under the Pest Control Products Act, conventional insecticides sold or used in Canada must be registered with Health Canada’s Pest Management Regulatory Agency and carry a Canadian PCP registration number on the label. Many of the perimeter and "home defense" insecticides that dominate American centipede advice are US EPA-registered products with no Canadian counterpart, and marketplace listings routinely surface US-market stock to Canadian buyers without flagging it. Before buying any insecticide online, zoom the label photo and look for a PCP number. Do not let a US "minimum-risk" claim on a listing stand in for that check: minimum-risk exemption is a US EPA framework, Canada does not automatically recognize it, and the botanical and essential-oil pest products legally sold here generally carry a PCP number of their own. The PCP number is the test, whatever the front of the bottle says — and it is a legal status, not an efficacy claim, so a registered essential-oil spray can be perfectly legal here and still do nothing about a centipede problem.',
+    question: 'Are US centipede sprays legal to buy and use in Canada?',
+    answer: 'Not necessarily, and the label is the test. Under the Pest Control Products Act, conventional insecticides sold or used in Canada must be registered with Health Canada’s Pest Management Regulatory Agency and carry a Canadian PCP registration number on the label. Many of the perimeter and "home defense" insecticides that dominate American centipede advice are US EPA-registered products with no Canadian counterpart, and marketplace listings routinely surface US-market stock to Canadian buyers without flagging it. Before buying any insecticide online, zoom the label photo and look for a PCP number. Do not let a US "minimum-risk" claim on a listing stand in for that check: minimum-risk exemption is a US EPA framework, Canada does not automatically recognize it, and the botanical and essential-oil pest products legally sold here generally carry a PCP number of their own. The PCP number is a legal status, not an efficacy claim — a registered essential-oil spray can be perfectly legal here and still do nothing about a centipede problem.',
   },
   {
-    question: 'Do centipede foggers or bug bombs work?',
-    answer: 'No, and they are worse than doing nothing. Total-release foggers deposit a fine insecticide layer on open, exposed surfaces — precisely where centipedes are not, since they spend daylight hours inside wall voids, under the slab edge and in the sump pit. The pressure of the release drives survivors deeper into those voids rather than out of them. Against that you are weighing genuine fire and inhalation hazards in an enclosed basement and a house you cannot enter for hours. There is no centipede scenario in which fogging is the right call.',
+    question: 'How many glue boards should I buy?',
+    answer: 'One multi-pack, which usually lands somewhere around a dozen boards, is the right starting purchase for a typical house — roughly three or four through the basement (storage corner, laundry area, sump or floor drain, furnace wall), one behind each bathroom vanity, and one in any room where you have actually seen a centipede. Buying more than that at the outset is wasted money, because the first week of catch data tells you which two or three locations matter and every board after that should concentrate there. Budget for replacement rather than volume: adhesive loses grip as it collects dust and as humidity rises, which is exactly the environment you are placing them in, so treat a board with a dulled or fuzzy-looking surface as spent regardless of how new it is.',
   },
   {
-    question: 'Do ultrasonic centipede repellers work?',
-    answer: 'No. Plug-in ultrasonic devices have failed repeatedly in controlled testing across pest categories, and there is no plausible mechanism by which a tone drives a centipede out of a damp wall void it physically needs to survive in. The same applies to the wider shortcut aisle sold for centipedes — peppermint and tea-tree sprays, cayenne, cedar oil, coffee grounds. None of them empties a harbourage or removes a food supply. The money is better spent on the dehumidifier, and the sealing work costs an afternoon rather than a product.',
+    question: 'Do centipede foggers, ultrasonic plug-ins or peppermint sprays work?',
+    answer: 'No, and all three are money that belonged to the dehumidifier. Total-release foggers deposit a fine insecticide layer on open, exposed surfaces — precisely where centipedes are not, since they spend daylight hours inside wall voids, under the slab edge and in the sump pit — and the pressure of the release drives survivors deeper into those voids, against genuine fire and inhalation hazards in an enclosed basement. Plug-in ultrasonic devices have failed repeatedly in controlled testing across pest categories, and there is no plausible mechanism by which a tone drives a centipede out of damp harbourage it physically needs. Peppermint, tea-tree, cedar and cayenne sprays put a scent on a surface; none of them removes moisture or prey, and reapplication becomes a chore abandoned in week two.',
   },
   {
-    question: 'What humidity kills centipedes?',
-    answer: 'There is no single lethal number, but the practical control target for a Canadian home is 45–50% relative humidity, verified with an inexpensive hygrometer placed away from the dehumidifier itself. Centipedes need consistently damp harbourage, and both they and much of what they hunt run out of habitat as a room dries into that range. That target also sits at the upper end of the summer indoor range Health Canada publishes in its residential indoor air quality guidance on mould, so the same machine is doing several jobs at once. Expect several weeks at target before the sighting count and glue-board catch clearly bend downward.',
+    question: 'What should I buy if I rent, or live in a condo?',
+    answer: 'Glue boards and a hygrometer, and nothing else. If the damp is coming from a unit, a crawl space or a common element you do not control, a dehumidifier you buy is treating someone else’s building at your expense, and a residual spray is treating a symptom you did not cause. The productive purchase is the pair of cheap instruments that let you document the problem — a numbered, dated trap line and a humidity reading — because a written record with dates is far more persuasive to a landlord or property manager than a description of what you saw at midnight.',
   },
   {
-    question: 'Should I spray outside for centipedes?',
-    answer: 'Rake before you spray. The outdoor reservoir is the mulch bed, leaf litter, woodpile, landscape timbers and flagstone pressed against your foundation — pull organic material back to leave a dry strip along the wall and you have removed the habitat rather than treating the surface it sits on. There is also a Canadian regulatory wrinkle US guides never mention: Ontario and several other provinces restrict the cosmetic use of pesticides on lawns and gardens, so the perimeter granules and hose-end concentrates American threads recommend may not be permitted for that use here at all. Check the product label and your provincial rules before buying anything for outdoor use, and note that a rake, a bag of clean stone and a caulk gun are unregulated and more durable.',
-  },
-  {
-    question: 'How do I get rid of centipedes permanently?',
-    answer: 'Three moves, in order. Dry the space: a correctly sized dehumidifier held at 45–50% RH removes the condition centipedes physically require. Remove the prey: lay flat glue boards for a week and read the whole catch, because the silverfish, roach nymphs, ants or fly larvae on those boards are the actual problem feeding the centipedes. Seal the walk-in: foundation cracks, door sweeps, brick weep-hole screens, basement window frames, utility penetrations, a lid on the sump pit, water down seldom-used floor drains, and mulch pulled back from the wall. Do all three and the problem does not come back next August, which no killer product can promise.',
-  },
-  {
-    question: 'Are house centipedes dangerous enough to justify insecticide?',
-    answer: 'Honestly, no. House centipedes do not transmit disease, do not damage the building, do not eat stored food, and bites are genuinely rare and minor because their instinct is to flee and their forcipules often cannot break adult human skin. They are startling, and being startled in your own bathroom is a legitimate reason to want them gone — but it is a reason to change the environment, not to put a residual insecticide on baseboards your family touches. If a household member is genuinely phobic, the honest priority list is still dehumidifier, glue boards, sealing, and dust in voids, with a registered spray as an optional stopgap rather than the plan.',
+    question: 'Is it worth paying a pest company for centipedes?',
+    answer: 'Rarely, and there is no honest scenario where a recurring spray contract for centipedes alone is the right purchase. BuzzSkito treats mosquitoes and ticks — we do not sell centipede work, and this page is our publishing team’s independent research. Three situations do justify paying someone: humidity that will not fall after weeks of a correctly sized dehumidifier at target, which usually points at a foundation leak, failed weeping tile or a plumbing leak and is a waterproofing or plumbing contractor call rather than a pest one; a glue-board catch that turns up cockroach nymphs or bed bugs, which are their own programs; and a building you do not control. Be suspicious of any quote for a centipede program that never mentions humidity, drainage or prey — that is a quote for the symptom, priced annually.',
   },
 ]
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
   description:
-    'Centipede killer options ranked for Canada: why a PCP-registered dust and a dehumidifier held at 45-50% RH beat every spray, and what to skip in 2026.',
+    'What to buy for centipedes in Canada, in buying order: dehumidifier spec, which registered diatomaceous earth, how many glue boards, and the PCP label check.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -86,8 +79,8 @@ const AMZ_TAG = tagForSlug(SLUG)
 export default function BestCentipedeKillerCanadaPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian buyer’s guide to centipede killers: why dehumidification outperforms every insecticide, how PCP-registered diatomaceous earth kills where sprays fail, what a registered residual spray can and cannot do, the outdoor perimeter without a sprayer, and the products not worth buying.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Best Centipede Killer Canada', url: `/blog/${SLUG}` }])) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian shopping guide for centipede products: the buying order, dehumidifier sizing specs, which registered diatomaceous earth to buy and how to apply it, how many glue boards, the exclusion hardware list, the PCP registration-number label check, and the products not worth buying.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Centipede Killer Canada — What to Buy', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`, UPDATED)) }} />
 
@@ -96,10 +89,10 @@ export default function BestCentipedeKillerCanadaPage() {
           <nav aria-label="Breadcrumb" className="text-brand-400 text-sm mb-4 flex gap-1">
             <Link href="/" className="hover:text-white">Home</Link><span>/</span>
             <Link href="/blog" className="hover:text-white">Blog</Link><span>/</span>
-            <span className="text-white">Best Centipede Killer</span>
+            <span className="text-white">Centipede Killer — What to Buy</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
-          <p className="text-xl text-brand-100 max-w-3xl">Most &ldquo;centipede killers&rdquo; kill the centipede in front of you and nothing else. Here is what actually empties a Canadian basement &mdash; ranked, with the products worth skipping named out loud.</p>
+          <p className="text-xl text-brand-100 max-w-3xl">The shopping half of the centipede problem: five product types, the buying order that stops you paying twice, the specs that decide whether the thing you bought works, and the one number on a Canadian label that tells you it is legal to use.</p>
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
@@ -110,19 +103,88 @@ export default function BestCentipedeKillerCanadaPage() {
         <div className="max-w-4xl mx-auto">
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The best centipede killer in Canada is a dehumidifier, and the second-best is a dust. House centipedes are predators with no waterproof cuticle, so they only live where the air is damp and the hunting is good &mdash; hold a basement at 45&ndash;50% RH and the habitat disappears along with much of their prey. If you want an insecticide, a PMRA-registered insecticidal diatomaceous earth &mdash; Safer&rsquo;s is a registered brand widely stocked in Canada &mdash; dusted into cracks and voids kills on contact and keeps working for months. Registered Canadian residual sprays kill the centipede you hit, but underperform as a barrier because fifteen pairs of long legs hold the body clear of the treated band.</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Buy in this order: a dehumidifier sized for the room, a multi-pack of flat glue boards, a PMRA-registered insecticidal diatomaceous earth plus a bulb duster, and sealing hardware. A registered residual spray is an optional fifth item, not the first. That order exists because only the dehumidifier removes what a house centipede physically requires &mdash; damp harbourage &mdash; while everything else acts on individual insects. On any insecticide, the label is the specification: check for a Canadian PCP registration number, then check that centipedes or crawling insects appear on the pest list.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
-              <li><strong>Killing centipedes treats the symptom</strong> &mdash; they are the visible evidence of a damp space and an insect population underneath it.</li>
-              <li><strong>Dehumidifier at 45&ndash;50% RH</strong> is the one purchase that ends it, and it starves silverfish, mites and mould at the same time.</li>
-              <li><strong>Insecticidal DE</strong> is the best actual killer product: mechanical, no resistance, months of residual &mdash; but inert the moment it gets damp, so dust after you dry.</li>
-              <li><strong>Residual sprays are the weak option here</strong> &mdash; long legs, sheltered harbourage, and an untouched food supply.</li>
-              <li><strong>Skip entirely:</strong> total-release foggers, ultrasonic plug-ins, peppermint and cayenne &ldquo;centipede repellents&rdquo;.</li>
-              <li><strong>Check the label for a PCP registration number and your pest</strong> &mdash; many US &ldquo;home defense&rdquo; products have no Canadian registration, and a US &ldquo;minimum-risk&rdquo; claim is not Canadian registration either.</li>
-              <li><strong>Outdoors, rake before you spray:</strong> mulch and leaf litter against the foundation are the reservoir, and provincial rules restrict cosmetic pesticide use on lawns and gardens.</li>
+              <li><strong>Dehumidifier spec that matters:</strong> pint class for the room, a low-temperature rating if the space runs cool, a built-in humidistat, and a continuous-drain port.</li>
+              <li><strong>DE spec that matters:</strong> a PCP number, your pest on the label, and a duster bought alongside the bag &mdash; the bag alone will not apply it thin enough.</li>
+              <li><strong>Glue boards:</strong> one multi-pack, not three. The first week of catch data decides where every board after that goes.</li>
+              <li><strong>Spray or dust, not both</strong> &mdash; they fill the same slot, and the dust suits this animal better.</li>
+              <li><strong>&ldquo;Centipede killer&rdquo; is a label, not a formulation:</strong> compare the pest list on the back, not the pest named on the front.</li>
+              <li><strong>Do not buy:</strong> total-release foggers, ultrasonic plug-ins, peppermint and cayenne sprays, or any bundled &ldquo;centipede kit&rdquo;.</li>
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito Pest Product Guides &middot; independent Canadian research</p>
           </div>
+
+          <div className="not-prose rounded-xl border-l-4 border-brand-500 bg-brand-50 p-5 mb-6">
+            <p className="text-xs font-extrabold uppercase tracking-wider text-brand-700 mb-2">Two pages, two jobs</p>
+            <p className="text-sm text-gray-800 leading-relaxed">
+              <strong>This page is the purchase decision</strong> &mdash; what to buy, in what order, at what spec, and how to read a Canadian label. It assumes you have already decided to spend money.
+              <br className="hidden sm:block" />
+              <strong className="block mt-2">If you want to know why they are there and what the plan is</strong> &mdash; identification, the moisture mechanism, what centipedes eat, the seasonal pattern, and the step-by-step protocol &mdash; that is a different job, and it lives on <Link href="/blog/how-to-get-rid-of-centipedes-canada" className="text-emerald-700 underline font-semibold">how to get rid of house centipedes in Canada</Link>. Read that one first if you are not sure a purchase is warranted at all.
+            </p>
+          </div>
+
           <SpecialistDisclosure pest="centipedes" />
+        </div>
+      </section>
+
+      <section className="bg-white px-4 py-8">
+        <div className="max-w-4xl mx-auto">
+          <p className="text-xs font-extrabold text-emerald-700 uppercase tracking-wider mb-2">Decision Table</p>
+          <h2 className="text-2xl font-extrabold text-brand-900 mb-4">Pick in 60 Seconds: Your Situation &rarr; What to Buy</h2>
+          <p className="text-sm text-gray-700 mb-5 leading-relaxed">
+            Nearly every centipede purchase falls into one of six situations, and the right cart is different in each. Find yours and stop reading.
+          </p>
+          <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
+            <table className="w-full text-sm">
+              <thead className="bg-brand-800 text-white">
+                <tr>
+                  <th className="px-4 py-3 text-left">Your situation</th>
+                  <th className="px-4 py-3 text-left">Buy this</th>
+                  <th className="px-4 py-3 text-left">Do not buy</th>
+                  <th className="px-4 py-3 text-left">Get it</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">One centipede, once, house otherwise fine</td>
+                  <td className="px-4 py-3 text-gray-700">Nothing. A vacuum hose is the correct tool and you own it</td>
+                  <td className="px-4 py-3 text-gray-700">Anything</td>
+                  <td className="px-4 py-3 text-xs text-gray-400">Free</td>
+                </tr>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Several a month, damp basement</td>
+                  <td className="px-4 py-3 text-gray-700">Dehumidifier first, glue boards same day, DE once the room is dry</td>
+                  <td className="px-4 py-3 text-gray-700">A spray as your opening move</td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="50 pint dehumidifier basement energy star" block>Dehumidifiers &rarr;</BuyLink></td>
+                </tr>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">You already own a dehumidifier and still see them</td>
+                  <td className="px-4 py-3 text-gray-700">A two-pack of hygrometers before anything else &mdash; the machine is usually not holding target, or the humid room is one you never checked</td>
+                  <td className="px-4 py-3 text-gray-700">A second dehumidifier</td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="digital hygrometer indoor humidity monitor 2 pack" block>Hygrometers &rarr;</BuyLink></td>
+                </tr>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Room is dry, they are still coming out of a crack</td>
+                  <td className="px-4 py-3 text-gray-700">Registered insecticidal DE plus a bulb duster &mdash; the duster is the part people forget</td>
+                  <td className="px-4 py-3 text-gray-700">Food-grade or pool-grade DE</td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="safers diatomaceous earth" block>Registered DE &rarr;</BuyLink></td>
+                </tr>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Autumn walk-in, older house, every September</td>
+                  <td className="px-4 py-3 text-gray-700">Door sweeps, weep-hole screens, silicone sealant &mdash; hardware, not pesticide</td>
+                  <td className="px-4 py-3 text-gray-700">Outdoor perimeter granules</td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="door sweep silicone caulk gap sealant" block>Sealing kit &rarr;</BuyLink></td>
+                </tr>
+                <tr className="align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Someone in the house is genuinely phobic and wants them dead now</td>
+                  <td className="px-4 py-3 text-gray-700">A domestic-class residual spray with a PCP number, at entry points only, running alongside the real work</td>
+                  <td className="px-4 py-3 text-gray-700">A fogger. Ever</td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="doktor doom residual insecticide spray" block>Registered spray &rarr;</BuyLink></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
         </div>
       </section>
 
@@ -175,7 +237,7 @@ export default function BestCentipedeKillerCanadaPage() {
             ]}
             whichToBuy={
               <>
-                <strong>Buying one thing?</strong> The <em>Best Overall</em> dehumidifier. It is the only item on this page that makes the problem stop coming back, and it works on the prey at the same time. <strong>Want something that actually kills, today?</strong> The <em>Best Actual Killer</em> registered DE, applied with a bulb duster &mdash; dust the sill-plate gap, under appliances and behind the laundry tub, and let the dehumidifier catch up. <strong>Not sure why they are there?</strong> Start with the <em>Best Diagnosis</em> glue boards for a week; they are one of the cheapest things in the aisle and the catch decides everything else. <strong>Autumn migration in an older house?</strong> Put the money into <em>Best Prevention</em> sealing rather than product. And if you want the full mechanism &mdash; why the predator is the symptom and not the problem &mdash; read <Link href="/blog/how-to-get-rid-of-centipedes-canada">how to get rid of house centipedes in Canada</Link>.
+                <strong>Buying one thing?</strong> The <em>Best Overall</em> dehumidifier. It is the only item on this page that makes the problem stop coming back, and it works on the prey at the same time. <strong>Want something that actually kills, today?</strong> The <em>Best Actual Killer</em> registered DE, applied with a bulb duster &mdash; dust the sill-plate gap, under appliances and behind the laundry tub, and let the dehumidifier catch up. <strong>Not sure why they are there?</strong> Start with the <em>Best Diagnosis</em> glue boards for a week; they are one of the cheapest things in the aisle and the catch decides everything else. <strong>Autumn migration in an older house?</strong> Put the money into <em>Best Prevention</em> sealing rather than product.
               </>
             }
           />
@@ -184,85 +246,70 @@ export default function BestCentipedeKillerCanadaPage() {
 
       <section className="bg-gradient-to-br from-emerald-50 to-white border-b border-emerald-200 py-10 px-4">
         <div className="max-w-4xl mx-auto">
-          <p className="text-xs font-extrabold text-emerald-700 uppercase tracking-wider mb-2">Every Option Ranked &middot; Updated July 2026</p>
-          <h2 className="text-2xl font-extrabold text-brand-900 mb-4">What Actually Kills Centipedes &mdash; and What Only Sells</h2>
+          <p className="text-xs font-extrabold text-emerald-700 uppercase tracking-wider mb-2">Spec Sheet &middot; Updated July 2026</p>
+          <h2 className="text-2xl font-extrabold text-brand-900 mb-4">Before You Buy: What You Are Actually Purchasing</h2>
           <p className="text-sm text-gray-700 mb-5 leading-relaxed">
-            Search &ldquo;centipede killer&rdquo; and the aisle offers you a shelf full of categories. Only a few of them are doing anything a month later. Here is the honest hierarchy for Canadian homes, with a live Amazon.ca price check where a product is worth checking &mdash; and no link at all where our answer is &ldquo;do not buy this&rdquo;.
+            Five product types get sold for centipedes in Canada. This is the spec comparison &mdash; what each one physically is, what quantity you need, how often you re-buy it, and whether it needs a Canadian registration number before it can legally be sold to you.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
             <table className="w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
-                  <th className="px-4 py-3 text-left">Option</th>
-                  <th className="px-4 py-3 text-left">How it kills</th>
-                  <th className="px-4 py-3 text-left">Still working in a month?</th>
-                  <th className="px-4 py-3 text-left">Verdict</th>
+                  <th className="px-4 py-3 text-left">Product type</th>
+                  <th className="px-4 py-3 text-left">Spec that decides it</th>
+                  <th className="px-4 py-3 text-left">How much you need</th>
+                  <th className="px-4 py-3 text-left">Re-buy cycle</th>
+                  <th className="px-4 py-3 text-left">PCP number required?</th>
                   <th className="px-4 py-3 text-left">Price check</th>
                 </tr>
               </thead>
               <tbody>
                 <tr className="border-b border-navy-50 align-top">
-                  <td className="px-4 py-3 font-bold text-brand-800">Dehumidifier<br /><span className="font-normal text-xs text-gray-500">45&ndash;50% RH target</span></td>
-                  <td className="px-4 py-3 text-gray-700">Removes the damp harbourage centipedes and their prey both require</td>
-                  <td className="px-4 py-3 text-gray-700">Yes &mdash; permanently, while it runs</td>
-                  <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">The real killer</strong> &mdash; buy this first</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="50 pint dehumidifier basement energy star" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3 font-bold text-brand-800">Dehumidifier<br /><span className="font-normal text-xs text-gray-500">Appliance</span></td>
+                  <td className="px-4 py-3 text-gray-700">Pint class for the room; low-temp rating if the space runs cool; humidistat; continuous-drain port</td>
+                  <td className="px-4 py-3 text-gray-700">One, correctly sized. Two small units is the wrong answer</td>
+                  <td className="px-4 py-3 text-gray-700">Years &mdash; it is capital, not consumable</td>
+                  <td className="px-4 py-3 text-gray-700">No &mdash; not a pesticide</td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="50 pint dehumidifier basement energy star" block>Check price &rarr;</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
-                  <td className="px-4 py-3 font-bold text-brand-800">Insecticidal DE<br /><span className="font-normal text-xs text-gray-500">Safer&rsquo;s, Knock Down, Doktor Doom Be Green</span></td>
-                  <td className="px-4 py-3 text-gray-700">Abrades the cuticle; the insect dehydrates &mdash; mechanical, not toxicological</td>
-                  <td className="px-4 py-3 text-gray-700">Yes &mdash; indefinitely, as long as it stays dry</td>
-                  <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best product</strong> &mdash; PCP number, and your pest on the label</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="safers diatomaceous earth" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3 font-bold text-brand-800">Insecticidal DE<br /><span className="font-normal text-xs text-gray-500">Registered dust</span></td>
+                  <td className="px-4 py-3 text-gray-700">PCP number on the Canadian label, and centipedes or crawling insects on the pest list. Buy a bulb duster with it</td>
+                  <td className="px-4 py-3 text-gray-700">One consumer bag covers an average house several times over</td>
+                  <td className="px-4 py-3 text-gray-700">Re-dust only where it has got damp or been disturbed</td>
+                  <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Yes</strong> &mdash; insecticidal DE is a pesticide</td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="safers diatomaceous earth" block>Check price &rarr;</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
-                  <td className="px-4 py-3 font-bold text-brand-800">Glue boards<br /><span className="font-normal text-xs text-gray-500">Flat monitors along walls</span></td>
-                  <td className="px-4 py-3 text-gray-700">Traps what walks the wall-floor junction &mdash; centipedes and their prey alike</td>
-                  <td className="px-4 py-3 text-gray-700">Yes, until dust or damp kills the surface</td>
-                  <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Start here</strong> &mdash; measurement first, control second</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="insect glue board traps multi pack" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3 font-bold text-brand-800">Glue boards<br /><span className="font-normal text-xs text-gray-500">Device, not pesticide</span></td>
+                  <td className="px-4 py-3 text-gray-700">Flat profile that sits tight to a baseboard, and adhesive area per board. Brand is close to irrelevant</td>
+                  <td className="px-4 py-3 text-gray-700">One multi-pack &mdash; roughly 6&ndash;10 placements for a typical house</td>
+                  <td className="px-4 py-3 text-gray-700">Weeks in a damp basement; a fuzzy or greyed surface is spent</td>
+                  <td className="px-4 py-3 text-gray-700">No &mdash; mechanical device</td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="insect glue board traps multi pack" block>Check price &rarr;</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
-                  <td className="px-4 py-3 font-bold text-brand-800">Registered residual spray<br /><span className="font-normal text-xs text-gray-500">Domestic-class, PCP-numbered</span></td>
-                  <td className="px-4 py-3 text-gray-700">Kills on direct contact; leaves a treated band the insect is supposed to cross</td>
-                  <td className="px-4 py-3 text-gray-700">Barely &mdash; and never touched the harbourage</td>
-                  <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Stopgap only</strong> &mdash; long legs beat the band</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="doktor doom residual insecticide spray" block>Check price →</BuyLink></td>
-                </tr>
-                <tr className="border-b border-navy-50 align-top">
-                  <td className="px-4 py-3 font-bold text-brand-800">Shoe, vacuum hose, jar<br /><span className="font-normal text-xs text-gray-500">The one on your wall right now</span></td>
-                  <td className="px-4 py-3 text-gray-700">Mechanically, instantly, for free</td>
-                  <td className="px-4 py-3 text-gray-700">No &mdash; and it never claimed to be</td>
-                  <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Correct tool</strong> for a single sighting</td>
-                  <td className="px-4 py-3 text-xs text-gray-400">Free &mdash; you own it</td>
-                </tr>
-                <tr className="border-b border-navy-50 align-top">
-                  <td className="px-4 py-3 font-bold text-brand-800">Outdoor perimeter granules<br /><span className="font-normal text-xs text-gray-500">The US-thread favourite</span></td>
-                  <td className="px-4 py-3 text-gray-700">Treats the soil surface the reservoir sits on, not the reservoir</td>
-                  <td className="px-4 py-3 text-gray-700">Washes and degrades; the mulch bed is untouched</td>
-                  <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Check provincial rules</strong> &mdash; cosmetic-use restrictions apply on lawns and gardens; rake first</td>
-                  <td className="px-4 py-3 text-xs text-gray-400">Not our recommendation</td>
-                </tr>
-                <tr className="border-b border-navy-50 align-top">
-                  <td className="px-4 py-3 font-bold text-brand-800">Total-release foggers<br /><span className="font-normal text-xs text-gray-500">&ldquo;Bug bombs&rdquo;</span></td>
-                  <td className="px-4 py-3 text-gray-700">Coats open surfaces where centipedes are not; pushes survivors into voids</td>
-                  <td className="px-4 py-3 text-gray-700">No</td>
-                  <td className="px-4 py-3 text-gray-700"><strong className="text-red-700">Avoid</strong> &mdash; real fire and inhalation hazards for no benefit</td>
-                  <td className="px-4 py-3 text-xs text-gray-400">Skip these</td>
+                  <td className="px-4 py-3 font-bold text-brand-800">Residual spray<br /><span className="font-normal text-xs text-gray-500">Domestic class</span></td>
+                  <td className="px-4 py-3 text-gray-700">PCP number, domestic (not commercial) class, and your pest on the label. Ready-to-use beats concentrate for one basement</td>
+                  <td className="px-4 py-3 text-gray-700">One bottle for entry points. You are not treating a whole house</td>
+                  <td className="px-4 py-3 text-gray-700">Per the label interval &mdash; residual activity fades</td>
+                  <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Yes</strong></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="doktor doom residual insecticide spray" block>Check price &rarr;</BuyLink></td>
                 </tr>
                 <tr className="align-top">
-                  <td className="px-4 py-3 font-bold text-brand-800">Ultrasonic plug-ins, peppermint, cayenne<br /><span className="font-normal text-xs text-gray-500">The shortcut aisle</span></td>
-                  <td className="px-4 py-3 text-gray-700">Nothing measurable. No mechanism that empties a damp wall void</td>
-                  <td className="px-4 py-3 text-gray-700">No</td>
-                  <td className="px-4 py-3 text-gray-700"><strong className="text-red-700">Don&rsquo;t bother</strong> &mdash; money that belonged to the dehumidifier</td>
-                  <td className="px-4 py-3 text-xs text-gray-400">Skip these</td>
+                  <td className="px-4 py-3 font-bold text-brand-800">Exclusion hardware<br /><span className="font-normal text-xs text-gray-500">Sweeps, screens, sealant</span></td>
+                  <td className="px-4 py-3 text-gray-700">Door-sweep width and threshold type; weep-hole covers that pass water; exterior-grade silicone or polyurethane</td>
+                  <td className="px-4 py-3 text-gray-700">Measure the doors first. One tube goes further than people expect</td>
+                  <td className="px-4 py-3 text-gray-700">Annual touch-up on an older foundation</td>
+                  <td className="px-4 py-3 text-gray-700">No &mdash; building materials</td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="door sweep silicone caulk gap sealant" block>Check price &rarr;</BuyLink></td>
                 </tr>
               </tbody>
             </table>
           </div>
           <div className="mt-5 rounded-xl bg-amber-50 border-l-4 border-amber-400 p-4">
             <p className="text-sm text-gray-800 leading-relaxed">
-              <strong className="text-amber-900">The sentence that saves you the most money:</strong> a house centipede is a predator, and predators do not stay where there is nothing to hunt. Every dollar aimed at the centipede is a dollar not aimed at the damp and the prey that produced it. Close the buffet, and the guest leaves without being killed.
+              <strong className="text-amber-900">The one line that saves the most money:</strong> the dust and the spray fill the same slot in the plan. Buy one of them, not both. If you cannot decide, buy the dust &mdash; it keeps working for months while it stays dry, and it reaches voids a spray never coats. The reasoning behind that ranking, and what centipedes are doing in the wall in the first place, is laid out in <Link href="/blog/how-to-get-rid-of-centipedes-canada" className="text-emerald-700 underline font-semibold">our house centipede guide</Link>.
             </p>
           </div>
         </div>
@@ -270,26 +317,26 @@ export default function BestCentipedeKillerCanadaPage() {
 
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-xl font-extrabold text-brand-900 mb-4">Centipede Killers &mdash; Key Facts</h2>
+          <h2 className="text-xl font-extrabold text-brand-900 mb-4">Centipede Buying Checklist &mdash; Quick Reference</h2>
           <div className="rounded-xl border border-navy-100 overflow-hidden">
             <table className="w-full text-sm">
               <tbody>
                 {[
-                  ['Best overall', 'Dehumidifier held at 45–50% RH — removes the habitat, not the animal'],
-                  ['Best insecticide', 'PMRA-registered insecticidal diatomaceous earth (Safer’s, Knock Down, Doktor Doom Be Green), dusted thin into cracks and voids'],
-                  ['Best diagnostic', 'Flat glue boards along wall-floor junctions — read the prey, not just the count'],
-                  ['Best chemical stopgap', 'Domestic-class residual spray with a PCP number, on entry points only'],
-                  ['Fastest single kill', 'A shoe or a vacuum hose — no product required'],
-                  ['Why sprays underperform', '15 pairs of long legs hold the body clear of the residue band'],
-                  ['Why DE works instead', 'Mechanical abrasion of the cuticle — no dose threshold, no resistance'],
-                  ['DE limitation', 'Inert once damp — sequence it after the dehumidifier, apply in sheltered voids'],
-                  ['DE grades', 'Buy insecticidal (PCP-numbered). Food-grade has no pest directions; never use pool-grade'],
-                  ['Canadian legal check', 'Insecticides sold here carry a PCP registration number — and the label’s pest list is what you may legally use it on'],
+                  ['Buy first', 'Dehumidifier sized for the room — the only item that removes the habitat'],
+                  ['Buy same day', 'One multi-pack of flat glue boards, numbered and dated'],
+                  ['Buy third', 'PMRA-registered insecticidal DE (Safer’s, Knock Down, Doktor Doom Be Green) — plus a bulb duster'],
+                  ['Buy before September', 'Door sweeps, weep-hole screens, exterior-grade sealant'],
+                  ['Optional fifth', 'Domestic-class residual spray with a PCP number, entry points only'],
+                  ['Dehumidifier spec', 'Pint class for the room, low-temperature rating if it runs cool, humidistat, continuous-drain port'],
+                  ['Pint-rating trap', 'The US DOE test procedure was revised in 2019 — a modern pint number is not an old pint number'],
+                  ['DE grade to buy', 'Insecticidal, PCP-numbered. Food-grade has no pest directions; never use pool-grade'],
+                  ['Label check #1', 'A Canadian PCP registration number on any conventional insecticide'],
+                  ['Label check #2', 'Centipedes or crawling insects on that label’s pest list — that is what makes your use legal'],
                   ['US “minimum-risk” claims', 'A US EPA framework Canada does not automatically recognize — look for the PCP number regardless'],
-                  ['Outdoor reservoir', 'Mulch, leaf litter, woodpiles, landscape timbers and flagstone against the foundation'],
-                  ['Outdoor rule', 'Provincial cosmetic-pesticide restrictions apply to lawns and gardens — rake and seal instead'],
-                  ['Not worth buying', 'Foggers, ultrasonic repellers, peppermint/cayenne sprays, most “centipede repellent” kits'],
-                  ['When a pro is the right call', 'Humidity will not fall after weeks at target, or the glue boards found roaches or bed bugs'],
+                  ['Outdoor products', 'Provincial cosmetic-pesticide restrictions apply to lawns and gardens — buy a rake and a caulk gun instead'],
+                  ['Do not buy', 'Foggers, ultrasonic plug-ins, peppermint/cayenne sprays, bundled “centipede kits”'],
+                  ['Renters and condos', 'Glue boards and a hygrometer only — document rather than equip'],
+                  ['Buy nothing if', 'One sighting, once, in a house that is otherwise fine'],
                 ].map(([k, v]) => (
                   <tr key={k} className="border-b border-navy-50 last:border-0">
                     <td className="px-4 py-2 font-semibold text-brand-800 bg-brand-50 w-1/3">{k}</td>
@@ -306,108 +353,99 @@ export default function BestCentipedeKillerCanadaPage() {
         <div className="max-w-3xl mx-auto prose-brand">
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
 
-          <h2>What Is the Best Centipede Killer in Canada?</h2>
-          <p>A dehumidifier. That is the genuinely useful answer, and we understand it is not the one you came for &mdash; you typed &ldquo;centipede killer&rdquo; because something with thirty legs poured across your bathroom wall at eleven at night and you would like it dead. Fair. But the reason this page exists is that the centipede aisle is one of the few in pest control where the product that says <em>killer</em> on the can is close to the worst thing you can buy, and the appliance nobody markets for insects is the best.</p>
-          <p>Here is the compressed version, so you can leave now if you want to. The house centipede &mdash; <em>Scutigera coleoptrata</em>, the one with fifteen pairs of impossibly long legs &mdash; never evolved the waxy, water-retaining cuticle that lets a beetle or an ant walk across a dry floor without consequence. It leaks water constantly and can only survive in damp harbourage. It is also a nocturnal <strong>predator</strong>: it does not eat your food, your books, your wiring or your insulation. It is in your basement because your basement is damp and full of insects. Take away either condition and it cannot stay. A dehumidifier holding 45&ndash;50% relative humidity takes away both at once, because most of what centipedes eat is also humidity-dependent.</p>
-          <p>If you want a product that kills on contact, buy a named, Canadian-registered insecticidal diatomaceous earth &mdash; Safer&rsquo;s is widely stocked in Canada, with Knock Down and Doktor Doom Be Green as other registered options &mdash; plus a bulb duster, and put a whisper-thin film in the cracks and voids where they actually live. If you want a spray, buy a Canadian domestic-class residual with a PCP number and treat entry points &mdash; but understand you are buying a few weeks of reduced sightings, not a solution. In both cases, read the label&rsquo;s pest list before you apply anything: the PCP number tells you the product is legal to sell here, and the pest list tells you what you are legally allowed to use it on. Everything below explains why the ranking falls that way, and which products we would tell a friend not to buy.</p>
+          <h2>The Buying Order, and Why It Is Not the Order the Aisle Suggests</h2>
+          <p>You typed &ldquo;centipede killer&rdquo; because something with thirty legs poured across your bathroom wall at eleven at night and you would like it dead. Fair. The awkward fact about this particular aisle is that the product with <em>killer</em> on the can belongs near the bottom of your list, and the appliance nobody markets for insects belongs at the top.</p>
+          <p>The short reason &mdash; the long one is on <Link href="/blog/how-to-get-rid-of-centipedes-canada">our house centipede guide</Link>, which covers the identification, the biology and the plan &mdash; is that a house centipede has no waterproof cuticle and cannot establish anywhere that stays dry. It is also a predator, so it only stays where there is something to hunt. Dry air takes away both conditions at once. Every other product on this page acts on individual insects while leaving the conditions untouched, which is why people who buy in aisle order tend to buy twice.</p>
+          <p>So: dehumidifier, glue boards, registered dust, sealing hardware, and a registered spray only if you specifically want knockdown at entry points. What follows is the spec detail for each of those purchases &mdash; the parts of a listing worth reading, and the parts that are marketing.</p>
 
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the picks:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink tag={AMZ_TAG} search="50 pint dehumidifier basement energy star">Basement dehumidifier →</BuyLink>
-            <BuyLink tag={AMZ_TAG} search="safers diatomaceous earth">Safer&rsquo;s DE →</BuyLink>
-            <BuyLink tag={AMZ_TAG} search="insect glue board traps multi pack">Glue board monitors →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="50 pint dehumidifier basement energy star">Basement dehumidifier &rarr;</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="safers diatomaceous earth">Safer&rsquo;s DE &rarr;</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="insect glue board traps multi pack">Glue board monitors &rarr;</BuyLink>
           </div>
 
-          <h2>The Reframe: You Are Buying a Killer for the Wrong Animal</h2>
-          <p>House centipedes hunt silverfish, firebrats, cockroach nymphs, spiders, ants, moth and carpet-beetle larvae, drain and fungus flies &mdash; and in unlucky homes, bed bugs. They work nights, along wall-floor junctions and in the voids behind and beneath things, which is exactly where their prey works too.</p>
-          <p>That single fact reorganises the whole shopping decision, for two reasons.</p>
-          <p><strong>It tells you what to fix.</strong> Predators do not colonise empty rooms. If you are seeing centipedes regularly &mdash; not one in April, but several a month &mdash; you are looking at direct evidence of an insect population you have not noticed, because the things centipedes eat are small, nocturnal and good at hiding. The useful question is never &ldquo;what do I spray?&rdquo; It is &ldquo;what has been feeding these, and where is the water coming from?&rdquo;</p>
-          <p><strong>It tells you why a killer alone backfires.</strong> Every centipede you remove is a small amount of free pest suppression removed with it, while the prey keeps breeding in a void you have not changed. In a house with a low-level silverfish or roach-nymph problem, a successful centipede-killing campaign can leave you objectively worse off: no predator, same food supply, same damp, and a new crop of centipedes from the same harbourage six weeks later. That is the loop the product aisle is designed around.</p>
-          <p>We are not going to tell you to love them. Nobody has to share a bathroom with an arthropod they find horrifying, and &ldquo;I want it gone&rdquo; is a completely legitimate goal. The distinction that matters is <em>act on the environment, not the animal</em> &mdash; because that is the version that also gets rid of whatever the centipedes were eating. The full mechanism, identification, and the seasonal pattern are in our companion guide on <Link href="/blog/how-to-get-rid-of-centipedes-canada">how to get rid of house centipedes in Canada</Link>; this page is the shopping decision.</p>
-
-          <h2>Why Centipede Sprays Underperform (the Physics, Not the Chemistry)</h2>
-          <p>Residual insecticides are good products used correctly. They fail against centipedes for a reason specific to the animal&rsquo;s shape.</p>
-          <p>A residual barrier works by depositing insecticide on a surface an insect must drag its body across; the dose comes from contact time and contact area. A cockroach or a silverfish moving along a baseboard is effectively belly-down on the treated band. A house centipede crosses the same band on fifteen pairs of long legs, body held well clear of the surface, touching it only at the tips of those legs. On that reasoning it should pick up a fraction of the dose, and that is the same reasoning behind the standard advice to treat voids and harbourage rather than trust a band for long-legged spiders and harvestmen. We are describing a mechanism here, not citing a trial, and you should weigh it as such &mdash; but it fits what the label directions for these products actually claim, which is contact kill, not a lasting fence.</p>
-          <p>Then stack the situational problems. The breeding harbourage is inside wall voids, under the slab edge, in the sump pit, beneath the deck and under the mulch outside &mdash; none of which a consumer spray reaches. The prey population that draws centipedes in is completely untouched by a perimeter treatment. And the damp that makes the space habitable is unaffected, so the moment residual activity fades, conditions are exactly as they were.</p>
-          <p>What a registered spray is legitimately good for: knocking down a heavy autumn migration at the entry points while you get the sealing done, and killing on direct contact when you meet one and do not want to use a shoe. Used that way, as a stopgap running alongside the real work, it is a defensible purchase. Used as the plan, it is a subscription. If sprays are what you came for and you want the registered Canadian options compared properly, our <Link href="/blog/best-spider-spray-canada">best spider spray in Canada guide</Link> covers the same domestic-class products in more depth &mdash; the shelf overlaps almost completely.</p>
+          <h2>Purchase #1: How to Size and Spec the Dehumidifier</h2>
+          <p>This is the item people get wrong most often, and the mistakes are all spec mistakes rather than brand mistakes.</p>
+          <p><strong>Pint class, and the rating trap.</strong> Dehumidifier capacity is quoted in pints per day, and the US Department of Energy test procedure that most manufacturers rate to was revised in 2019 to measure capacity under cooler test conditions. The practical consequence is that a machine rated today carries a lower pint number than an older unit of comparable real capacity. If you are comparing an older unit in the garage against a new listing, or reading an American guide written before the change, the numbers do not line up &mdash; check which test standard a listing quotes rather than assuming pints are pints. For a typical damp full basement in the GTA, the modern 50-pint class is the safe default. A small, only-slightly-damp finished area can do with less; a large, wet or open-plan basement wants more capacity rather than a smaller machine running around the clock and never reaching target.</p>
+          <p><strong>The low-temperature line in the spec sheet.</strong> Standard compressor dehumidifiers lose efficiency as temperature drops and can frost their coils in a cold basement or crawl space. If the space runs cool, look specifically for a unit rated for low-temperature operation with auto-defrost, or a desiccant model, which keeps working in cold air where a compressor unit stalls. The unheated crawl space is the classic case where someone buys the wrong machine, watches it ice up, and concludes dehumidifiers do not work.</p>
+          <p><strong>Two features that decide whether it still runs in August.</strong> A built-in humidistat, so you can set 45&ndash;50% and leave it, rather than a machine that runs flat out until the bucket fills. And a continuous-drain port, so you can run a hose to a floor drain or a condensate pump &mdash; because a machine that needs its bucket emptied daily through a humid August is a machine that gets switched off in week three. Buy a separate inexpensive hygrometer at the same time and place it across the room; the dehumidifier reads the air at its own intake and flatters itself.</p>
+          <p>Full sizing tables, drainage options and cold-basement model guidance are in our <Link href="/blog/best-dehumidifier-for-basement-canada">Canadian basement dehumidifier guide</Link>, and if the space is large or genuinely wet, the <Link href="/blog/best-large-capacity-dehumidifier-canada">large-capacity dehumidifier guide</Link> covers the step up.</p>
           <div className="not-prose my-4">
-            <BuyLink tag={AMZ_TAG} search="doktor doom residual insecticide spray">Check Doktor Doom registered residual spray on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="50 pint dehumidifier basement energy star">Check basement dehumidifiers on Amazon.ca &rarr;</BuyLink>
           </div>
 
-          <h2>Killer #1: Dry Air (the Purchase That Ends It)</h2>
-          <p>If you buy one thing from this page, buy this, and understand why it belongs in a &ldquo;killer&rdquo; ranking at all: it is the only item that removes the condition the animal requires to exist. There is no adaptation available to a house centipede that lets it live in dry air, no resistance to develop, and no hidden void that ambient humidity never reaches. Hold a basement at 45&ndash;50% RH through the summer and the centipedes leave, along with a good share of what they were hunting.</p>
-          <p><strong>Sizing, with the detail that trips Canadians up.</strong> Dehumidifier capacity is quoted in pints per day, and the US Department of Energy test procedure that most manufacturers rate to was revised in 2019 to measure capacity under cooler test conditions. The practical consequence is that a machine rated today carries a lower pint number than an older unit of comparable real capacity. If you are comparing an older unit in the garage against a new listing, or reading an American guide written before the change, the numbers do not line up &mdash; check which test standard a listing quotes rather than assuming pints are pints. For a typical damp full basement in the GTA, the modern 50-pint class is the safe default. A small, only-slightly-damp finished area can do with less; a large, wet or open-plan basement wants more capacity rather than a smaller machine running around the clock and never reaching target.</p>
-          <p><strong>Cold rooms need a different machine.</strong> Standard compressor dehumidifiers lose efficiency as temperature drops and can frost their coils in a cold basement or crawl space. If the space runs cool, look specifically for a unit rated for low-temperature operation with auto-defrost, or a desiccant model, which keeps working in cold air where a compressor unit stalls. The unheated crawl space is a common case where people buy the wrong machine, watch it ice up, and conclude dehumidifiers do not work.</p>
-          <p><strong>Setup decides whether it actually runs all season.</strong> Set the humidistat to 45&ndash;50%; going lower buys nothing extra against centipedes and costs more to run. Place the unit centrally with clearance around the intake rather than jammed against a wall. Run a continuous-drain hose to a floor drain or use a condensate pump, because a machine that needs its bucket emptied daily through a humid August is a machine that gets switched off in week three. Verify with a separate inexpensive hygrometer placed across the room &mdash; the dehumidifier reads the air at its own intake and flatters itself. Give it several weeks at target before you judge the result, and use glue-board counts rather than sightings as the scoreboard. Full sizing, drainage and cold-basement model guidance lives in our <Link href="/blog/best-dehumidifier-for-basement-canada">Canadian basement dehumidifier guide</Link>.</p>
-          <p>Two free moves in the same spirit, worth doing the same day: run the bathroom exhaust fan during every shower and for twenty minutes after (centipedes in an upstairs bathroom often point at that room&rsquo;s own ventilation rather than at the basement), and fix the slow drips &mdash; a weeping trap under a vanity or a sweating cold line creates a permanently humid pocket no room-level dehumidifier fully dries.</p>
+          <h2>Purchase #2: Which Diatomaceous Earth, and the Duster Nobody Budgets For</h2>
+          <p>DE is the best product-shaped answer for this animal, because it kills mechanically &mdash; the particles abrade and adsorb the waxy layer that holds an insect&rsquo;s moisture in &mdash; rather than by dose. There is nothing to develop resistance to, and it keeps working for months while it stays dry. Two things decide whether the bag you buy does anything.</p>
+          <p><strong>The label, not the bag.</strong> Buy DE that is <em>sold as an insecticide</em> and carries a PCP registration number, then read the pest list to confirm centipedes or crawling insects appear on it &mdash; the number makes the product legal to sell here, the pest list makes your application legal. Registered consumer brands stocked in Canada include <strong>Safer&rsquo;s Diatomaceous Earth</strong>, <strong>Knock Down</strong> and <strong>Doktor Doom Be Green</strong>. That is why the links on this page point at a named registered brand rather than a generic &ldquo;diatomaceous earth&rdquo; search, which mixes unregistered food-grade bags in with the registered ones. &ldquo;Food-grade&rdquo; DE is sold as an anti-caking agent or feed additive &mdash; no pesticide registration, no PCP number, no pest-use directions &mdash; and the registered version costs only a little more. Never buy pool-grade DE for pest control: it is calcined and contains crystalline silica, which is a genuine respiratory hazard rather than an internet scare.</p>
+          <p><strong>The applicator, which is a separate purchase.</strong> A bag on its own will not put down what you need, which is a barely visible film. Shaking dust out of a container leaves visible drifts, and insects detect and walk around visible piles &mdash; a common reason people conclude DE does not work. Budget for a bulb or hand duster in the same order. Wear a dust mask while applying; any fine dust is an irritant to breathe.</p>
+          <p><strong>Sequence, because it is a purchase-timing issue.</strong> DE only works while it is dry, and centipedes live where it is damp. Buying the dust before the dehumidifier means dusting a damp floor and making mud. Dry the space first, then dust the sill-plate gap, baseboard cracks, behind and under appliances, plumbing penetrations, under the laundry tub, the sump-pit rim and cabinet kick spaces. Grade distinctions and room-by-room technique are covered in our <Link href="/blog/diatomaceous-earth-canada-buyers-guide">diatomaceous earth buyer&rsquo;s guide for Canada</Link>.</p>
           <div className="not-prose my-4">
-            <BuyLink tag={AMZ_TAG} search="50 pint dehumidifier basement energy star">Check basement dehumidifiers on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="safers diatomaceous earth">Check Safer&rsquo;s registered DE on Amazon.ca &rarr;</BuyLink>
           </div>
 
-          <h2>Killer #2: Registered Insecticidal Diatomaceous Earth (the Best Actual Product)</h2>
-          <p>DE is the rare pest product whose mechanism is physical rather than chemical. The dust is made of fossilised diatom shells; under magnification the particles are sharp and highly absorbent. An insect that walks through a film picks it up on the cuticle, where it abrades and adsorbs the thin waxy layer that keeps the animal&rsquo;s water in. The insect dries out and dies. There is no nervous-system target, so there is nothing to become resistant to. And unlike a residual band, a dust does not depend on heavy belly contact: the reasoning is that legs and antennae pick the particles up and carry them back into the harbourage the animal is heading for, which is the part of the house you cannot reach with a spray. That is a mechanism argument rather than a measured result, but it is the reason dusts are the standard tool for void treatment.</p>
-          <p>For a moisture-dependent animal, that is close to a bespoke weapon. It is also why the sequencing rule exists: <strong>DE only works while it is dry</strong>, and centipedes live where it is damp. Dust a wet basement floor and you have made mud. Run the dehumidifier first, then treat.</p>
-          <p><strong>Technique, which decides everything.</strong> Use a hand duster, not a scoop, and lay a barely visible film &mdash; insects detect and walk around a visible pile, which is a common reason people conclude DE does not work. Target where centipedes and their prey actually travel: the sill-plate gap where framing meets foundation, baseboard cracks, behind and under appliances, the void where plumbing penetrates a wall, under the laundry tub, around the sump pit rim, inside cabinet kick spaces, and along the top plate in an unfinished basement ceiling. Wear a dust mask while applying &mdash; any fine dust is an irritant to breathe.</p>
-          <p><strong>The Canadian buying rule, which a lot of DE advice skips.</strong> Buy DE that is <em>sold as an insecticide</em> and carries a PCP registration number on the label, and then read the label&rsquo;s pest list to confirm centipedes or crawling insects are on it &mdash; the number makes the product legal to sell here, the pest list makes your application legal. Registered consumer brands stocked in Canada include <strong>Safer&rsquo;s Diatomaceous Earth</strong>, <strong>Knock Down</strong> and <strong>Doktor Doom Be Green</strong>; that is why the links on this page point at a named registered brand rather than at a search for &ldquo;diatomaceous earth&rdquo;, which mixes unregistered food-grade bags in with the registered ones. &ldquo;Food-grade&rdquo; DE is sold as an anti-caking agent or feed additive &mdash; no pesticide registration, no PCP number, no pest-use directions &mdash; and the registered version costs only a little more. Never use pool-grade DE for pest control: it is calcined and contains crystalline silica, which is a genuine respiratory hazard rather than an internet scare. Grade distinctions, product selection and room-by-room technique are covered in our <Link href="/blog/diatomaceous-earth-canada-buyers-guide">diatomaceous earth buyer&rsquo;s guide for Canada</Link>.</p>
+          <h2>Purchase #3: Glue Boards &mdash; Buy One Pack, Not Three</h2>
+          <p>Glue boards are the cheapest line on this page and the one that changes the rest of your spending, because the catch tells you which of the other purchases you actually need. The shopping rules are short.</p>
+          <p><strong>Buy flat, not branded.</strong> You want a low-profile board that sits tight against a baseboard, because centipedes and their prey travel wall-floor junctions rather than open floor. Adhesive area per board and the number in the pack are the only two variables worth comparing; a board with a pest name printed on it is the same adhesive wearing a costume.</p>
+          <p><strong>Buy one multi-pack.</strong> Six to ten placements covers a typical house &mdash; three or four through the basement, one behind each bathroom vanity, one wherever you have actually seen one. Additional boards beyond that add cost, not information.</p>
+          <p><strong>Budget for replacement, not volume.</strong> Adhesive loses grip as it collects dust and as humidity rises, which is precisely the environment you are placing it in. A board that looks fuzzy or greyed is spent no matter how new it is, so do not read an empty spent board as good news. In a damp basement, expect to be replacing boards while the dehumidifier catches up &mdash; which is one more reason the machine is the better half of this budget.</p>
+          <p>What the catch is telling you &mdash; silverfish, roach nymphs, earwigs, spiders, fly larvae, or reassuringly nothing at all &mdash; and what to do about each, is covered in the diagnosis section of <Link href="/blog/how-to-get-rid-of-centipedes-canada">the house centipede guide</Link>.</p>
           <div className="not-prose my-4">
-            <BuyLink tag={AMZ_TAG} search="safers diatomaceous earth">Check Safer&rsquo;s registered DE on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="insect glue board traps multi pack">Check glue board multi-packs on Amazon.ca &rarr;</BuyLink>
           </div>
 
-          <h2>Killer #3: Glue Boards, Used as Instruments</h2>
-          <p>Flat glue boards are one of the cheapest things in this aisle, and they buy more useful information than anything else you can put in a cart. They do kill &mdash; centipedes and their prey both travel the wall-floor junction at night, and a board tight against the baseboard sits directly in traffic &mdash; but their real job is diagnosis.</p>
-          <p>Lay a numbered, dated line: along exterior basement walls, behind the furnace and hot water tank, under the laundry tub, beside the sump pit, at the base of the stairs, and behind each bathroom vanity. Check weekly and pay more attention to what <em>else</em> is stuck to the board than to the centipedes:</p>
+          <h2>Purchase #4: The Exclusion Shopping List</h2>
+          <p>The September&ndash;October walk-in is a hardware problem, not a pesticide problem, and this is the one part of the job where a shopping list beats a strategy. Measure before you order:</p>
           <ul>
-            <li><strong>Silverfish and firebrats</strong> &mdash; a staple centipede food, and damp-dependent themselves. Same humidity fix, plus getting cardboard storage into sealed totes. See the <Link href="/blog/how-to-get-rid-of-silverfish-canada">silverfish guide</Link>.</li>
-            <li><strong>Small striped cockroach nymphs</strong> &mdash; treat this as urgent and switch to the <Link href="/blog/how-to-get-rid-of-cockroaches-canada">cockroach bait plan</Link>. The centipedes are the least of it.</li>
-            <li><strong>Earwigs</strong> &mdash; usually a mulch-line and moisture story at the foundation, covered in our <Link href="/blog/how-to-get-rid-of-earwigs-canada">earwig guide</Link>.</li>
-            <li><strong>Spiders</strong> &mdash; themselves a sign of a flying-insect food supply and the same ground-level entry gaps; the sealing work in our <Link href="/blog/how-to-keep-spiders-out-of-your-house">spider exclusion guide</Link> is the same afternoon.</li>
-            <li><strong>Small flies and larvae</strong> &mdash; drain flies point at a dirty or dried-out floor drain; fungus gnats at overwatered plants or genuinely wet soil under the slab.</li>
-            <li><strong>Almost nothing at all</strong> &mdash; genuinely good news. A couple of stray centipedes and a humidity issue, not an ecosystem.</li>
+            <li><strong>Door sweeps</strong> &mdash; measure door width and check the threshold type first. Exterior doors, the garage entry, the basement walkout. If daylight shows, something walks through it.</li>
+            <li><strong>Weep-hole covers</strong> &mdash; purpose-made screens or covers, not caulk. Brick-veneer weep holes must stay open for drainage, so you want a product that blocks insects and passes water.</li>
+            <li><strong>Exterior-grade silicone or polyurethane sealant</strong> &mdash; for foundation cracks at and just above grade, the sill-plate line from inside, and utility penetrations. One tube goes further than people expect.</li>
+            <li><strong>A sump-pit lid</strong> &mdash; gasketed if you can get one for your pit. It closes a standing evaporation source and a harbourage at the same time.</li>
+            <li><strong>Window-well covers</strong> &mdash; a leaf-filled window well is a damp insect hotel pressed against your basement glass.</li>
+            <li><strong>Clean stone, and a rake you probably own</strong> &mdash; pulling organic mulch back to leave a dry strip along the foundation removes the outdoor reservoir. Stone in that strip stays dry and holds no harbourage.</li>
           </ul>
-          <p>The count also gives you a trend line. Once the dehumidifier has held target for several weeks, boards should be trending down. If they are not, there is a humid pocket you have not found &mdash; check the crawl space, the cold room, the wall cavity near the sump, and the bathroom you assumed was fine.</p>
+          <p>Note what is <em>not</em> on that list: outdoor perimeter granules and hose-end concentrates. Those are the American answer, they treat the soil surface rather than the damp organic layer sitting on it, and Ontario and several other provinces restrict the cosmetic use of pesticides on lawns and gardens &mdash; so a granule an American guide recommends may not be permitted for that use here at all. Read the product label and check your provincial rules before buying anything for outdoor use.</p>
           <div className="not-prose my-4">
-            <BuyLink tag={AMZ_TAG} search="insect glue board traps multi pack">Check glue board multi-packs on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="door sweep silicone caulk gap sealant">Check door sweeps, screens and sealant on Amazon.ca &rarr;</BuyLink>
           </div>
 
-          <h2>The Outdoor Half: Rake Before You Spray</h2>
-          <p>Centipedes come indoors on foot, at ground level, and the heaviest push is when outdoor temperatures start dropping &mdash; in southern Ontario, usually September and October. The reservoir feeding that migration is the strip of ground touching your house: mulch beds, leaf litter, stacked firewood, landscape timbers, flagstone on soil, and a leaf-filled window well.</p>
-          <p>The American answer is a bag of perimeter granules and a hose-end concentrate. There are two problems with importing that advice. The first is that it does not work well: treating the soil surface does not empty the damp organic layer sitting on it, and rain moves the product off before it moves the population. The second is regulatory &mdash; Ontario and several other provinces restrict the <em>cosmetic</em> use of pesticides on lawns and gardens, so a granule an American guide recommends may not be permitted for that use here at all. Read the product label and check your provincial rules before you buy anything for outdoor use; the label is the law, not a suggestion.</p>
-          <p>The version that works and needs no registration check at all takes an afternoon:</p>
-          <ul>
-            <li><strong>Pull organic mulch back</strong> to leave a dry strip along the foundation. Clean stone in that strip stays dry and holds no harbourage.</li>
-            <li><strong>Clear leaf litter and window wells</strong>, and get stacked firewood off the wall and up on a rack.</li>
-            <li><strong>Seal foundation cracks and the sill-plate line</strong> with silicone or polyurethane sealant, inside and out.</li>
-            <li><strong>Screen brick-veneer weep holes</strong> rather than caulking them &mdash; those holes must stay open for drainage, so use purpose-made weep-hole covers that block insects and pass water.</li>
-            <li><strong>Fit door sweeps</strong> on exterior doors, the garage entry and the basement walkout. If daylight shows, a centipede walks through it.</li>
-            <li><strong>Seal utility penetrations</strong> &mdash; hose bibs, dryer vents (check the flap closes), gas and electrical entries, AC line sets, cable drops.</li>
-            <li><strong>Lid the sump pit</strong> and pour a couple of litres of water down seldom-used floor drains monthly so the trap seal does not evaporate into an open pipe.</li>
-            <li><strong>Fix grading and downspouts</strong> so water leaves the foundation. Chronic basement damp can be a gutter problem wearing a pest costume.</li>
-          </ul>
-          <p>That same pass is the one our guides to earwigs, spiders and fall invaders all call for, so one afternoon of work pays several times over.</p>
+          <h2>Purchase #5 (Optional): What a Registered Spray Is Legitimately For</h2>
+          <p>If you want a chemical in the plan, buy a Canadian domestic-class residual with a PCP number and treat entry points. Understand what you are buying: a few weeks of reduced sightings and reliable contact kill, not a solution.</p>
+          <p>The shape of the animal is why. A residual barrier works by depositing insecticide on a surface an insect must drag its body across, and the dose comes from contact time and contact area. A house centipede crosses that band on fifteen pairs of long legs with its body held well clear, touching it only at the tips. On that reasoning it should pick up a fraction of the dose a flat-bodied insect would, which is the same reasoning behind the standard advice to treat voids and harbourage rather than trust a band for long-legged spiders and harvestmen. That is a mechanism argument rather than a trial result, and it is consistent with what these labels actually claim, which is contact kill rather than a lasting fence.</p>
+          <p>Buy it if a household member is genuinely phobic and needs relief while the environment changes, or to knock down a heavy autumn migration at the entry points while you get the sealing done. Do not buy it as the plan, and do not treat surfaces children and pets contact routinely just because the label allows it. If sprays are what you came for and you want the registered Canadian options compared in more depth, our <Link href="/blog/best-spider-spray-canada">best spider spray in Canada guide</Link> covers the same domestic-class shelf &mdash; the products overlap almost completely.</p>
           <div className="not-prose my-4">
-            <BuyLink tag={AMZ_TAG} search="door sweep silicone caulk gap sealant">Check door sweeps, screens and sealant on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="doktor doom residual insecticide spray">Check Doktor Doom registered residual spray on Amazon.ca &rarr;</BuyLink>
           </div>
 
-          <h2>Products We Would Tell You Not to Buy</h2>
-          <p>A page about killers should be as clear about the money you should not spend.</p>
-          <p><strong>Total-release foggers.</strong> They deposit on open surfaces, which is precisely where centipedes are not; the release pushes survivors deeper into voids; and they carry real fire and inhalation hazards in an enclosed basement. Fogging has no place in a centipede plan.</p>
-          <p><strong>Ultrasonic plug-in repellers.</strong> These have failed repeatedly in controlled testing across pest categories, and no mechanism exists by which a tone empties a damp wall void an animal physically needs. We went through the evidence in our <Link href="/blog/ultrasonic-pest-repellers-do-they-work">ultrasonic pest repeller review</Link>.</p>
-          <p><strong>Peppermint, tea-tree, cedar and cayenne &ldquo;centipede repellent&rdquo; sprays.</strong> Be careful with the legality argument you will see attached to these. A US &ldquo;minimum-risk&rdquo; exemption is a US EPA framework and Canada does not automatically recognize it, so it is not evidence that a listing is legal to sell here &mdash; the botanical pest products legitimately on the Canadian market generally carry a PCP number like anything else. And registration, where it exists, is a legal status rather than an efficacy claim. Even taken at their best, a scent on a surface does not remove moisture or prey, and reapplication becomes a chore you abandon in week two.</p>
-          <p><strong>Grey-market US &ldquo;home defense&rdquo; concentrates.</strong> Cross-listed marketplace stock that has no Canadian PCP number leaves you with no Canadian label directions standing behind your use of it &mdash; and, as covered above, a residual band is the weak play against this insect regardless of what is in the bottle.</p>
-          <p><strong>Anything sold specifically as a &ldquo;centipede killer kit&rdquo;.</strong> It is usually a residual spray, a bag of unregistered dust and a couple of glue boards at a premium over buying the two things that matter separately. Buy the DE and the boards; skip the bundle.</p>
+          <h2>How to Read a Canadian Label Before You Add to Cart</h2>
+          <p>Most centipede advice online is written for an American audience with an American shelf, and marketplace listings blur the border constantly. Two checks, in order, take about fifteen seconds each.</p>
+          <p><strong>Check one: is there a PCP registration number?</strong> Under the Pest Control Products Act, conventional insecticides sold or used in Canada must be registered with Health Canada&rsquo;s Pest Management Regulatory Agency and carry a Canadian PCP registration number on the label. Zoom the label photo on the listing. If there is no number, there are no Canadian directions standing behind how you use it. Do not accept a US &ldquo;minimum-risk&rdquo; claim as a substitute &mdash; that is a US EPA framework, Canada does not automatically recognize it, and the botanical and essential-oil pest products legitimately sold here generally carry a PCP number of their own.</p>
+          <p><strong>Check two: is your pest on the pest list?</strong> This is the check almost nobody does. The PCP number tells you the product is legal to sell in Canada; the label&rsquo;s pest list tells you what you are legally allowed to use it on. A registered crawling-insect product that does not name centipedes or crawling insects generally is not a centipede product, whatever the front of the bottle says. And registration is a legal status rather than an efficacy claim &mdash; a registered essential-oil spray can be entirely legal here and still do nothing.</p>
+          <p>The rest of the shopping list &mdash; dehumidifiers, hygrometers, glue boards, weep-hole screens, door sweeps, sealant, sump lids &mdash; are appliances, devices and building materials. None of them are pesticides, none of them need a registration check, and all of them are stocked at Canadian Tire, Home Depot Canada, Rona and Home Hardware as well as online.</p>
 
-          <h2>What to Buy for Your Actual Situation</h2>
-          <p><strong>One centipede, once, in a house that is otherwise fine.</strong> Buy nothing. Vacuum it up, run the bathroom fan properly, and get on with your life. A single sighting in a Canadian house in July is normal.</p>
-          <p><strong>Several a month, damp basement, older house.</strong> This is the case this page is written for, and the order is: glue boards for a week to see what is down there, then the dehumidifier, then DE in the voids once the room is dry, then an afternoon of sealing before September. That sequence resolves the problem for good rather than for a season.</p>
-          <p><strong>Rental or condo, and the damp is not yours to fix.</strong> Glue boards, a hygrometer and a written report to the landlord or property manager. Do not spend on a dehumidifier for a moisture source in someone else&rsquo;s wall &mdash; document it instead.</p>
-          <p><strong>Genuine phobia in the household and you want them dead now.</strong> Legitimate. Do the boards and the dehumidifier anyway, and add a registered domestic-class residual spray at entry points as a stopgap so you get relief while the environment changes. Check that its Canadian label carries a PCP number and lists centipedes or crawling insects, then follow that label; do not treat surfaces children and pets contact routinely just because the can allows it.</p>
-          <p><strong>Sudden explosion after a flood, sump failure or a wet spring.</strong> The centipedes are downstream of a water event. Fix the water first &mdash; that is a contractor call, not a pest call &mdash; then dry, then dust.</p>
+          <h2>Five Ways People Buy the Wrong Centipede Product</h2>
+          <p>Every one of these is common enough to be worth naming.</p>
+          <p><strong>1. Buying the spray first.</strong> It is the cheapest item with the most confident packaging, and it is the one that changes least. People buy it, get three quiet weeks, buy it again, and eventually buy the dehumidifier anyway &mdash; having paid for both.</p>
+          <p><strong>2. Buying food-grade DE.</strong> It is sold beside the registered stuff, often cheaper, and it carries no pesticide registration, no PCP number and no legal application directions. The registered version costs only a little more and is the one with directions you can actually follow.</p>
+          <p><strong>3. Buying the dust without a duster.</strong> The single most common reason a DE application fails is that it went down as visible drifts instead of a whisper-thin film, and insects walk around drifts. The applicator is a separate, inexpensive item and it is not optional.</p>
+          <p><strong>4. Buying a bundled &ldquo;centipede kit&rdquo;.</strong> Usually a residual spray, a bag of unregistered dust and a few glue boards, at a premium over buying the two items that matter separately.</p>
+          <p><strong>5. Buying a second dehumidifier instead of a hygrometer.</strong> If you own a machine and still see centipedes, the likeliest explanation is that it is not holding target or the humid room is one you never checked. A two-pack of hygrometers is the cheapest instrument in this whole category and it settles the question in a day.</p>
+          <div className="not-prose my-4">
+            <BuyLink tag={AMZ_TAG} search="digital hygrometer indoor humidity monitor 2 pack">Check hygrometer 2-packs on Amazon.ca &rarr;</BuyLink>
+          </div>
 
-          <h2>When DIY Is the Wrong Call &mdash; and When a Pro Is Cheaper</h2>
-          <p>Centipedes are a genuinely DIY-solvable problem, and there is no honest scenario where a recurring spray contract for centipedes alone is the right purchase. We would say that even if we sold one &mdash; which, to be clear, we do not: BuzzSkito treats mosquitoes and ticks, and this page is our publishing team&rsquo;s independent research.</p>
-          <p>Bring in help in three situations. <strong>Humidity will not come down.</strong> If several weeks of a correctly sized dehumidifier at target does not move the hygrometer, you are likely dealing with a foundation leak, failed weeping tile, a plumbing leak inside a wall or ground water &mdash; and the right call is a waterproofing or plumbing contractor, not an exterminator. Paying a pest company to spray that basement quarterly is the expensive version of ignoring it. <strong>The glue boards found something else.</strong> Cockroach nymphs, bed bugs or a heavy carpet-beetle catch are their own problems with their own programs, and a licensed professional is genuinely worth the money there; our <Link href="/pest-control-cost-canada">Canadian pest control cost guide</Link> shows what interior general-pest work typically runs so you can sanity-check a quote. <strong>You do not control the building.</strong> Renters and condo owners should document rather than equip.</p>
-          <p>And be suspicious of any quote for a centipede program that never mentions humidity, drainage or prey. That is a quote for the symptom, priced annually.</p>
+          <h2>What Not to Buy at All</h2>
+          <p><strong>Total-release foggers.</strong> They deposit on open surfaces, which is precisely where centipedes are not; the release pushes survivors deeper into voids; and they carry real fire and inhalation hazards in an enclosed basement. There is no centipede scenario in which fogging is the right purchase.</p>
+          <p><strong>Ultrasonic plug-in repellers.</strong> These have failed repeatedly in controlled testing across pest categories, and no mechanism exists by which a tone empties damp harbourage an animal physically needs. We went through the evidence in our <Link href="/blog/ultrasonic-pest-repellers-do-they-work">ultrasonic pest repeller review</Link>.</p>
+          <p><strong>Peppermint, tea-tree, cedar and cayenne &ldquo;centipede repellent&rdquo; sprays.</strong> A scent on a surface does not remove moisture or prey, and reapplication becomes a chore you abandon in week two. Be careful with the legality argument attached to these, too: a US &ldquo;minimum-risk&rdquo; exemption is not evidence that a listing is legal to sell here.</p>
+          <p><strong>Grey-market US &ldquo;home defense&rdquo; concentrates.</strong> Cross-listed marketplace stock with no Canadian PCP number leaves you with no Canadian label directions standing behind your use of it &mdash; and a residual band is the weak play against this insect regardless of what is in the bottle.</p>
+
+          <h2>When the Right Answer Is to Buy Nothing</h2>
+          <p>Three situations where more spending is the wrong move.</p>
+          <p><strong>A single sighting.</strong> One centipede in a Canadian house in July is normal. Vacuum it, run the bathroom fan properly, buy nothing.</p>
+          <p><strong>You rent, or the damp is not yours to fix.</strong> Glue boards and a hygrometer, then a written report to the landlord or property manager. Do not buy a dehumidifier for a moisture source inside someone else&rsquo;s wall.</p>
+          <p><strong>Humidity will not come down.</strong> If several weeks of a correctly sized dehumidifier at target does not move the hygrometer, the next purchase is not a pest product &mdash; it is a contractor. A foundation leak, failed weeping tile, an in-wall plumbing leak or ground water is a waterproofing or plumbing call, and paying a pest company to spray that basement quarterly is the expensive way of ignoring it. Our <Link href="/pest-control-cost-canada">Canadian pest control cost guide</Link> shows what interior general-pest work typically runs if you do want to sanity-check a quote &mdash; and be suspicious of any centipede program that never mentions humidity, drainage or prey.</p>
 
           <h2>Frequently Asked Questions</h2>
           <div className="not-prose space-y-4">
@@ -424,11 +462,12 @@ export default function BestCentipedeKillerCanadaPage() {
 
           <h2>Related Guides</h2>
           <ul>
-            <li><Link href="/blog/how-to-get-rid-of-centipedes-canada">How to Get Rid of House Centipedes in Canada — Kill the Prey, Not the Predator</Link></li>
+            <li><strong>Start here if you have not diagnosed it yet:</strong> <Link href="/blog/how-to-get-rid-of-centipedes-canada">How to Get Rid of House Centipedes in Canada — Kill the Prey, Not the Predator</Link></li>
             <li><Link href="/blog/best-dehumidifier-for-basement-canada">Best Dehumidifier for a Basement in Canada — Sizing &amp; Drainage</Link></li>
+            <li><Link href="/blog/best-large-capacity-dehumidifier-canada">Best Large-Capacity Dehumidifier Canada — For Big or Wet Basements</Link></li>
             <li><Link href="/blog/diatomaceous-earth-canada-buyers-guide">Diatomaceous Earth in Canada — Buyer&rsquo;s Guide &amp; Technique</Link></li>
-            <li><Link href="/blog/how-to-get-rid-of-silverfish-canada">How to Get Rid of Silverfish in Canada — The Humidity Fix</Link></li>
-            <li><Link href="/blog/how-to-get-rid-of-earwigs-canada">How to Get Rid of Earwigs in Canada</Link></li>
+            <li><Link href="/blog/best-silverfish-traps-canada">Silverfish Traps in Canada — Which Type, How Many, Where They Go</Link></li>
+            <li><Link href="/blog/best-earwig-killer-canada">Earwig Traps and Killers in Canada — What to Buy</Link></li>
             <li><Link href="/blog/best-spider-spray-canada">Best Spider Spray Canada — PMRA-Registered Options</Link></li>
             <li><Link href="/blog/ultrasonic-pest-repellers-do-they-work">Do Ultrasonic Pest Repellers Actually Work?</Link></li>
             <li><Link href="/pest-control-cost-canada">Pest Control Cost Canada — What Professionals Charge</Link></li>
@@ -436,7 +475,7 @@ export default function BestCentipedeKillerCanadaPage() {
 
           <div className="not-prose mt-10 rounded-xl border border-navy-100 bg-brand-50 px-5 py-4">
             <p className="text-sm text-brand-900">
-              <Link href="/pest-product-guides" className="font-bold text-emerald-700 hover:text-emerald-800 underline">More independent Canadian pest product research →</Link>
+              <Link href="/pest-product-guides" className="font-bold text-emerald-700 hover:text-emerald-800 underline">More independent Canadian pest product research &rarr;</Link>
             </p>
           </div>
         </div>

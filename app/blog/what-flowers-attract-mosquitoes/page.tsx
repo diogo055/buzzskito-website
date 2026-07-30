@@ -6,6 +6,7 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 const SLUG = 'what-flowers-attract-mosquitoes'
 const DATE = '2026-07-15'
 const TITLE = 'What Flowers & Plants Attract Mosquitoes? An Ontario Garden Guide'
+const META_TITLE = 'What Flowers Attract Mosquitoes? Ontario Guide'
 const EXCERPT = 'Flowers don’t bite you — but water-holding plants like bromeliads, taro and water lettuce breed mosquitoes, while nectar blooms feed adults. Ontario guide.'
 
 const FAQS = [
@@ -52,7 +53,7 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'What Flowers & Plants Attract Mosquitoes? Ontario Garden Guide 2026',
+  title: META_TITLE,
   description: 'Flowers don’t attract mosquitoes to bite you — water-holding plants (bromeliads, taro, water lettuce), water gardens, and standing water in plant saucers do. The real culprits and fixes for Ontario yards.',
   canonical: `/blog/${SLUG}`,
   type: 'article',

@@ -14,6 +14,7 @@ const SLUG = 'blacklegged-deer-tick-ontario'
 const DATE = '2026-07-12'
 const UPDATED = '2026-07-12'
 const TITLE = 'Blacklegged (Deer) Tick Ontario: ID, Range & Lyme Risk'
+const META_TITLE = 'Blacklegged Deer Tick Ontario: ID & Lyme 2026'
 
 const FAQS = [
   {
@@ -51,7 +52,7 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Blacklegged (Deer) Tick Ontario: ID, Range & Lyme Risk 2026',
+  title: META_TITLE,
   description: 'The blacklegged (deer) tick, Ixodes scapularis, is Ontario\'s only Lyme-disease vector. Identify it by life stage, learn its Ontario range and season, why the dog tick does not spread Lyme, plus safe removal and when to test.',
   canonical: `/blog/${SLUG}`,
   type: 'article',

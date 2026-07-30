@@ -12,13 +12,34 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'best-screen-tent-canada'
 const DATE = '2026-07-14'
-const UPDATED = '2026-07-14'
-const TITLE = 'Best Screen Tents & Screen Houses in Canada 2026 — Coleman, CAMPROS, EAST OAK Compared'
+const UPDATED = '2026-07-30'
+const TITLE = 'Best Screen Tents & Screen Houses in Canada 2026'
+const META_TITLE = 'Best Screen Tents & Screen Houses Canada 2026'
 
 const FAQS = [
   {
     question: 'What is the best screen tent in Canada for 2026?',
-    answer: 'For most Canadian families, the Coleman Instant Screened Canopy 11x11 is the best all-round screen tent in 2026 — 121 sq ft (11.2 m²) of protected space, pre-attached poles, and a realistic three-minute setup that one adult can manage alone. If you need to cover a full picnic table plus chairs, step up to the Coleman Skylodge 15x13 (195 sq ft / 18 m²). Budget buyers get the most mesh per dollar from the CAMPROS 12x10, and if effortless one-person setup matters most — docks, tailgates, weekly park trips — the EAST OAK 10x10 pop-up screen room deploys its hub-style frame in about a minute.',
+    answer: 'The best screen tent overall is a six-sided hub shelter — the Clam Quick-Set Escape or Gazelle G6. Both have frames built to be pitched and struck repeatedly, and both are the only tier that takes clip-on fabric wind panels, which is what an exposed lakefront, a dock, or a weekly campsite actually needs. They cost several times a big-box screen house. If you camp a few weekends a summer at a sheltered inland site, buy the Coleman Instant Screened Canopy 11x11 instead — 121 sq ft (11.2 m²), pre-attached poles, a realistic three-minute solo setup — and spend the difference elsewhere. To cover a full picnic table plus chairs, step up to the Coleman Skylodge 15x13 (195 sq ft / 18 m²). For a rectangular patio dining set, the Coleman Back Home 12x10. Budget buyers get the most mesh per dollar from the CAMPROS 12x10, and the EAST OAK 10x10 pop-up screen room deploys in about a minute for docks, tailgates and weekly park trips.',
+  },
+  {
+    question: 'What is the best screen house for camping?',
+    answer: 'For camping specifically, weight the frame above size and price, because every pitch-and-strike cycle is a chance to lose a pole, bend a joint or tear a sleeve. If you camp most weekends, a hub shelter (Clam Quick-Set Escape, Gazelle G6) is the pick — one connected frame, no loose poles, and it stands up to being packed wet and pitched on gravel. If you camp a few times a season, the Coleman Instant Screened Canopy 11x11 gives you pre-attached poles at a big-box price and beats any pole-style tent in the same bracket. Size matters differently at a campsite too: a 10x10 or 11x11 fits far more provincial-park pads than a 15x13, and many parks cap the total shelter footprint you can pitch alongside a tent or trailer.',
+  },
+  {
+    question: 'What is a hub-style screen tent?',
+    answer: 'A hub-style screen tent has a frame made of pivoting hubs that unfold as one connected piece, like a giant umbrella — no separate pole bag, no sleeves to thread. The EAST OAK 10x10 pop-up screen room is the entry-level version; the Clam Quick-Set and Gazelle G-series are the heavy-duty version, six-sided rather than square. Advantages: one- to two-minute setup by one person, and far fewer loose parts to lose. Trade-off: the pivoting joints are the first thing to bend in high wind, and hub frames are heavy for their footprint — think car-to-site, not carry-in.',
+  },
+  {
+    question: 'Is a dining tent the same thing as a screen tent?',
+    answer: 'Yes — "dining tent", "kitchen tent", "screen house" and "screen tent" all describe the same product: a mesh-walled, roofed shelter with no floor that you pitch over a table. The names just describe the job. Two things to watch when shopping those terms: a "camping gazebo" or "camping shelter" is often an open-sided sun canopy with no mesh at all, which is useless against mosquitoes and black flies, and a "tent with a screen room" is a different product — a sleeping tent with a floor and a screened vestibule attached, smaller than a dedicated screen house and it comes down when you strike camp.',
+  },
+  {
+    question: 'Is an 8x8 screen tent big enough?',
+    answer: 'An 8x8 ft screen tent gives you 64 sq ft, which realistically holds two camp chairs and a small side table, or one person\'s cooking setup. It will not take a picnic table. Buy one only when the space genuinely constrains you — a tight campsite pad, a small dock, a balcony-sized deck. For a family, step up to 10x10 (100 sq ft) or 11x11 (121 sq ft), which fits a table plus four chairs with room to reach the door. For a full 6-ft picnic table with benches plus a cooler and standing room, you need 15x13 (195 sq ft).',
+  },
+  {
+    question: 'Where can I buy a Broadstone screen house in Canada?',
+    answer: 'Broadstone is Canadian Tire\'s own outdoor house brand, so Broadstone screen houses are sold through Canadian Tire stores and canadiantire.ca only — they are not listed on amazon.ca or at other retailers. Check store stock directly if a specific Broadstone model is what you want. If you just want a screen house in that part of the market rather than that badge specifically, the CAMPROS 12x10 and the Coleman Back Home 12x10 cover the same footprint and are listed year-round rather than seasonally.',
   },
   {
     question: 'What\'s the difference between a screen tent, a screen house, and a pop-up screen room?',
@@ -30,7 +51,7 @@ const FAQS = [
   },
   {
     question: 'Do screen tents keep out black flies and no-see-ums?',
-    answer: 'Standard mosquito mesh (roughly 1.2 mm holes) reliably stops mosquitoes and black flies, so all five models in this guide handle Ontario black-fly season (mid-May to late June in cottage country). No-see-ums (biting midges) are smaller — under 1 mm — and can pass through standard mesh. If you camp near Georgian Bay marshes or northern lakes where midges are the main problem, look for a model that advertises fine or "no-see-um" mesh, or add a fine-mesh inner layer. For typical GTA backyards and most Ontario campgrounds, standard mesh is enough.',
+    answer: 'Standard mosquito mesh (roughly 1.2 mm holes) reliably stops mosquitoes and black flies, so every model in this guide handles Ontario black-fly season (mid-May to late June in cottage country). No-see-ums (biting midges) are smaller — under 1 mm — and can pass through standard mesh. If you camp near Georgian Bay marshes or northern lakes where midges are the main problem, look for a model that advertises fine or "no-see-um" mesh, or add a fine-mesh inner layer. For typical GTA backyards and most Ontario campgrounds, standard mesh is enough.',
   },
   {
     question: 'How much wind can a screen tent handle?',
@@ -59,8 +80,8 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: TITLE,
-  description: 'The best screen tents and screen houses in Canada for 2026 — Coleman Instant 11x11, Skylodge 15x13, Back Home 12x10, CAMPROS and EAST OAK compared on size, setup speed, and Canadian summer weather.',
+  title: META_TITLE,
+  description: 'Screen tents and screen houses compared for Canada: Clam Quick-Set and Gazelle G6 hub shelters, Coleman Instant 11x11, Skylodge, EAST OAK pop-up, CAMPROS.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -71,7 +92,7 @@ const AMZ_TAG = tagForSlug('best-screen-tent-canada')
 export default function BestScreenTentCanadaPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Comprehensive 2026 guide to screen tents and screen houses in Canada — Coleman, CAMPROS, and EAST OAK compared for backyards, campsites, and cottage country.', slug: SLUG, datePublished: DATE })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Comprehensive 2026 guide to screen tents and screen houses in Canada — hub shelters, Coleman instant frames, pop-up screen rooms and pole-style dining tents compared for backyards, campsites, and cottage country.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Best Screen Tent Canada', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`)) }} />
@@ -84,25 +105,26 @@ export default function BestScreenTentCanadaPage() {
             <span className="text-white">Best Screen Tent Canada</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
-          <p className="text-xl text-brand-100 max-w-3xl">Five amazon.ca-confirmed screen houses compared for Canadian summers — size, setup speed, wind tolerance, and black-fly season performance. Plus when a mesh room beats spray entirely.</p>
+          <p className="text-xl text-brand-100 max-w-3xl">Six screen houses compared for Canadian summers — hub shelters, instant frames, pop-up screen rooms and pole-style dining tents — on size (8x8 through 15x13), setup speed, wind tolerance and black-fly season performance. Plus when a mesh room beats spray entirely.</p>
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
 
-      <StickyBuyBar tag={AMZ_TAG} name="Coleman Instant Screened Canopy 11x11" search="coleman instant screen house 11x11" label="Best overall" />
+      <StickyBuyBar tag={AMZ_TAG} name="Clam Quick-Set Escape Hub Shelter" search="clam quick set escape screen shelter" label="Best overall" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">For most Canadian backyards and campsites, the Coleman Instant Screened Canopy 11x11 is the best screen tent in 2026 &mdash; a 121 sq ft (11.2 m&sup2;) screen house with pre-attached poles that one adult can set up in about three minutes. Budget buyers should look at the CAMPROS 12x10, and the EAST OAK 10x10 pop-up wins for one-person setup.</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The best screen tent in Canada for 2026 is a six-sided hub shelter &mdash; the Clam Quick-Set Escape or Gazelle G6. It is the only tier built to be pitched and struck all season, and the only one that takes clip-on fabric wind panels. If you camp a few weekends a year at a sheltered inland site, the Coleman Instant Screened Canopy 11x11 is the value pick and the right answer for most people: 121 sq ft (11.2 m&sup2;) with pre-attached poles, up in about three minutes.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
+              <li>Hub shelters (Clam Quick-Set Escape, Gazelle G6) are six-sided, heavier-framed, and the only screen houses that accept wind panels &mdash; several times the price of a big-box model.</li>
               <li>The Coleman Instant Screened Canopy 11x11 covers 121 sq ft (11 x 11 ft) and sets up in about 3 minutes.</li>
               <li>The Coleman Skylodge 15x13 is the largest at 195 sq ft, standing in roughly 5 minutes with two people.</li>
-              <li>The CAMPROS 12x10 (120 sq ft) is the budget pick but uses traditional poles that take about 10&ndash;15 minutes.</li>
-              <li>The EAST OAK 10x10 pop-up (100 sq ft) sets up solo in roughly 1&ndash;2 minutes.</li>
-              <li>Expect to spend roughly $120&ndash;$400 for a quality screen house in Canada.</li>
-              <li>All five models are confirmed available on Amazon.ca as of July 2026.</li>
+              <li>The Coleman Back Home 12x10 is the rectangular backyard option; the CAMPROS 12x10 (120 sq ft) is the budget pick on traditional poles, about 10&ndash;15 minutes.</li>
+              <li>The EAST OAK 10x10 pop-up screen room (100 sq ft) sets up solo in roughly 1&ndash;2 minutes.</li>
+              <li>Sizes run 8x8 (compact, two chairs) through 15x13 (picnic table plus standing room). A dining tent, kitchen tent, camping shelter and camping gazebo are all the same category under different retail names.</li>
+              <li>Screen houses are seasonal stock in Canada; check current amazon.ca listings for what is actually available today.</li>
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
           </div>
@@ -116,13 +138,22 @@ export default function BestScreenTentCanadaPage() {
             awards={[
               {
                 badge: 'Best Overall',
+                name: 'Clam Quick-Set Escape / Gazelle G6 Hub Shelter',
+                why: 'The six-sided hub shelters serious campers buy when a season of wind has already killed one screen house. Heavier frames than entry-level pop-ups, and both lines sell optional fabric wind panels that clip to the outside — the one thing no Coleman or CAMPROS model offers. It is the best screen house here; it is not the cheapest, and we say plainly below who should skip it.',
+                search: 'clam quick set escape screen shelter',
+                score: 9.2,
+                featured: true,
+                pros: ['Six-sided hub frame, no dead square corners', 'Optional clip-on wind panels', 'Built to be packed and pitched repeatedly'],
+                cons: ['Costs several times an entry-level screen house', 'Heavy — car-to-site, not carry-in'],
+              },
+              {
+                badge: 'Best Value',
                 name: 'Coleman Instant Screened Canopy 11x11',
-                why: '121 sq ft of mesh-protected space with pre-attached poles — one adult can have it standing in about three minutes, and the footprint fits a standard campsite pad or backyard deck.',
+                why: '121 sq ft of mesh-protected space with pre-attached poles — one adult can have it standing in about three minutes, and the footprint fits a standard campsite pad or backyard deck. The right buy for occasional use at a sheltered inland site.',
                 search: 'coleman instant screen house 11x11',
                 score: 9.0,
-                featured: true,
                 pros: ['One-person ~3-minute setup', 'Fits a table plus four chairs', 'Two zippered doors'],
-                cons: ['Square footprint suits campsites more than long patios'],
+                cons: ['Square footprint suits campsites more than long patios', 'No wind-panel option'],
               },
               {
                 badge: 'Best for Hosting',
@@ -143,15 +174,6 @@ export default function BestScreenTentCanadaPage() {
                 cons: ['Not as fast as a pop-up', 'Take down for storms'],
               },
               {
-                badge: 'Best Budget',
-                name: 'CAMPROS 12x10 Screen House',
-                why: 'The same 120 sq ft coverage as the Coleman Back Home, mesh on all sides, two large doors — at a price that typically undercuts the name brands meaningfully.',
-                search: 'campros screen house 12x10',
-                score: 7.3,
-                pros: ['Most mesh per dollar', 'Steel frame flexes less in wind'],
-                cons: ['Traditional poles, 10–15 min setup', 'Better with two people'],
-              },
-              {
                 badge: 'Best Pop-Up',
                 name: 'EAST OAK 10x10 Pop-Up Screen Room',
                 why: 'A hub-style frame that unfolds in one piece like a giant umbrella — one person can have all 100 sq ft standing in about a minute, and takedown is just as fast.',
@@ -160,10 +182,19 @@ export default function BestScreenTentCanadaPage() {
                 pros: ['~1-minute solo setup', 'Ideal for docks and tailgates', 'Fast takedown'],
                 cons: ['Heavy for its footprint', 'Pivoting joints bend first in wind'],
               },
+              {
+                badge: 'Best Budget',
+                name: 'CAMPROS 12x10 Screen House',
+                why: 'The same 120 sq ft coverage as the Coleman Back Home, mesh on all sides, two large doors — at a price that typically undercuts the name brands meaningfully.',
+                search: 'campros screen house 12x10',
+                score: 7.3,
+                pros: ['Most mesh per dollar', 'Steel frame flexes less in wind'],
+                cons: ['Traditional poles, 10–15 min setup', 'Better with two people'],
+              },
             ]}
             whichToBuy={
               <>
-                <strong>Camping or a family at a standard site?</strong> The <em>Best Overall</em> Coleman 11x11 is the safe all-round pick. <strong>Hosting around a picnic table?</strong> Size up to the <em>Best for Hosting</em> Skylodge. <strong>Budget leads?</strong> The <em>Best Budget</em> CAMPROS gives the most mesh per dollar if you don&rsquo;t mind the poles. <strong>Setting up solo every weekend?</strong> The <em>Best Pop-Up</em> EAST OAK deploys in a minute. But a screen tent only protects the space it encloses — for whole-yard, all-season relief that also handles ticks, pair it with <Link href="/mosquito-control">professional barrier spray</Link>.
+                <strong>Exposed lakefront or dock, pitching and striking it most weekends, or already replaced one screen house after a windy season?</strong> The <em>Best Overall</em> Clam Quick-Set Escape or Gazelle G6 is the tier that actually solves that — the clip-on wind panels are the difference nothing else here offers. <strong>Camping a few weekends a year at a sheltered inland site, or a family at a standard campsite?</strong> Buy the <em>Best Value</em> Coleman 11x11 and spend the difference elsewhere; the hub shelter will not make those weekends better. <strong>Hosting around a picnic table?</strong> Size up to the <em>Best for Hosting</em> Skylodge 15x13. <strong>Deck or patio dining set?</strong> The rectangular <em>Best Backyard</em> Back Home 12x10. <strong>Setting up solo every weekend?</strong> The <em>Best Pop-Up</em> EAST OAK deploys in a minute. <strong>Budget leads?</strong> The <em>Best Budget</em> CAMPROS gives the most mesh per dollar if you don&rsquo;t mind the poles. But a screen tent only protects the space it encloses — for whole-yard, all-season relief that also handles ticks, pair it with <Link href="/mosquito-control">professional barrier spray</Link>.
               </>
             }
           />
@@ -186,25 +217,27 @@ export default function BestScreenTentCanadaPage() {
               </thead>
               <tbody>
                 {[
-                  { model: 'Coleman Instant Screened Canopy 11x11', size: '11 x 11 ft (3.4 x 3.4 m) · 121 sq ft', setup: 'Instant pre-attached poles · ~3 min', best: 'Best overall — families, campsites, decks', search: 'coleman instant screen house 11x11' },
+                  { model: 'Clam Quick-Set Escape / Gazelle G6 Hub Shelter', size: 'Six-sided hub · footprint varies by model', setup: 'Hub frame · ~1–2 min', best: 'Best overall — exposed, windy, repeat-pitch sites', search: 'clam quick set escape screen shelter' },
+                  { model: 'Coleman Instant Screened Canopy 11x11', size: '11 x 11 ft (3.4 x 3.4 m) · 121 sq ft', setup: 'Instant pre-attached poles · ~3 min', best: 'Best value — families, campsites, decks', search: 'coleman instant screen house 11x11' },
                   { model: 'Coleman Skylodge 15x13 Screenhouse', size: '15 x 13 ft (4.6 x 4 m) · 195 sq ft', setup: 'Instant frame · ~5 min with 2 people', best: 'Biggest space — picnic tables, hosting', search: 'coleman skylodge 15x13 screenhouse' },
                   { model: 'Coleman Back Home 12x10 Screenhouse', size: '12 x 10 ft (3.7 x 3 m) · 120 sq ft', setup: 'Instant frame · ~3–5 min', best: 'Backyard semi-permanent use', search: 'coleman back home screen house 12x10' },
-                  { model: 'CAMPROS 12x10 Screen House', size: '12 x 10 ft (3.7 x 3 m) · 120 sq ft', setup: 'Traditional poles · ~10–15 min', best: 'Budget pick — most mesh per dollar', search: 'campros screen house 12x10' },
                   { model: 'EAST OAK 10x10 Pop-Up Screen Room', size: '10 x 10 ft (3 x 3 m) · 100 sq ft', setup: 'Pop-up hub frame · ~1–2 min solo', best: 'One-person setup — docks, tailgates', search: 'east oak pop up screen room 10x10' },
+                  { model: 'CAMPROS 12x10 Screen House', size: '12 x 10 ft (3.7 x 3 m) · 120 sq ft', setup: 'Traditional poles · ~10–15 min', best: 'Budget pick — most mesh per dollar', search: 'campros screen house 12x10' },
+                  { model: 'Broadstone screen house (Canadian Tire house brand)', size: 'Varies by season — 10x10 and larger', setup: 'Model-dependent', best: 'In-store only — not listed on amazon.ca', search: '' },
                 ].map(({ model, size, setup, best, search }) => (
                   <tr key={model} className="border-b border-navy-50 last:border-0">
                     <td className="px-4 py-3 font-bold text-brand-800">{model}</td>
                     <td className="px-4 py-3 text-gray-700">{size}</td>
                     <td className="px-4 py-3 text-gray-700">{setup}</td>
                     <td className="px-4 py-3 text-xs text-gray-600">{best}</td>
-                    <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search={search} block>Check price →</BuyLink></td>
+                    <td className="px-4 py-3">{search ? <BuyLink tag={AMZ_TAG} search={search} block>Check price →</BuyLink> : <span className="text-xs text-gray-500">Canadian Tire only</span>}</td>
                   </tr>
                 ))}
               </tbody>
             </table>
           </div>
           <p className="text-xs text-gray-500 mt-3">
-            All five models confirmed available on amazon.ca as of July 2026. Expect to spend roughly $120&ndash;$400 for a quality screen house in Canada depending on size and frame type.
+            Screen houses are seasonal stock across every Canadian retailer, and the hub-shelter tier costs several times an entry-level model. Use the price-check links for what is actually listed on amazon.ca today rather than budgeting from a number we quoted last season.
           </p>
         </div>
       </section>
@@ -213,9 +246,10 @@ export default function BestScreenTentCanadaPage() {
         <div className="max-w-3xl mx-auto prose-brand">
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
           <AffiliateDisclosure />
-          <p className="not-prose text-sm text-gray-600 mb-1">Jump straight to current Canadian availability for our top pick:</p>
+          <p className="not-prose text-sm text-gray-600 mb-1">Jump straight to current Canadian availability &mdash; our top pick, and the value pick most people should buy:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink tag={AMZ_TAG} search="coleman instant screen house 11x11">Check the Coleman 11x11 on Amazon.ca &rarr;</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="clam quick set escape screen shelter">Check the Clam Quick-Set on Amazon.ca &rarr;</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="coleman instant screen house 11x11">Check the Coleman 11x11 &rarr;</BuyLink>
           </div>
 
           <h2>Why a Screen Tent Is the Best Chemical-Free Mosquito Defence</h2>
@@ -231,48 +265,78 @@ export default function BestScreenTentCanadaPage() {
             <li><strong>Black flies are the main enemy</strong> — repellents underperform against black flies; mesh doesn&rsquo;t care</li>
           </ul>
 
-          <h2>The 5 Best Screen Tents in Canada for 2026</h2>
+          <h2>The 6 Best Screen Tents in Canada for 2026</h2>
 
-          <h3>1. Coleman Instant Screened Canopy 11x11 — Best Overall Screen House</h3>
-          <p>Coleman&rsquo;s instant-frame design is the reason this is our top pick: the poles come pre-attached to the canopy, so setup is a matter of unfolding the frame, extending the telescoping legs, and clicking them into place. One adult can genuinely do it in about three minutes — no separate pole bundle, no threading fiberglass through sleeves in the wind.</p>
-          <p>At 11 x 11 ft (3.4 x 3.4 m), the 121 sq ft footprint fits a standard campsite pad or a modest backyard deck, and it comfortably covers a table and four chairs. Two zippered doors mean you&rsquo;re not squeezing past seated guests to get out, and the wheeled carry bag makes it manageable for one person to haul from the car. For Canadian buyers this is the safest all-round choice: big enough for a family, fast enough that you&rsquo;ll actually bother setting it up for a two-night trip.</p>
+          <h3>1. Clam Quick-Set Escape / Gazelle G6 — Best Screen Tent Overall (Hub Shelter)</h3>
+          <p>There is a tier above the big-box screen houses, and most guides skip it because the price makes people flinch. Clam&rsquo;s Quick-Set line and Gazelle&rsquo;s G-series are six-sided hub shelters: the frame is a set of pivoting hubs that unfold as one piece, same principle as the EAST OAK below but built considerably heavier. The six-sided plan is the other difference: the walls meet at obtuse angles rather than square corners, so chairs and a table sit further out toward the mesh than they do in a square tent whose corners nobody uses.</p>
+          <p>The feature that actually justifies the money is the wind panels. Both lines sell fabric side panels that clip onto the outside of the mesh walls, and no Coleman or CAMPROS model in this guide offers anything equivalent. Mesh alone lets wind through, which is fine — the roof is what catches it. A shelter you can partially skin on the windward side is a different proposition on an exposed lakefront site or a dock than one you can only stake harder.</p>
+          <p>This is also the tier people mean when they search for a &ldquo;hub style screen tent&rdquo;: no sleeves, no separate pole bag, one connected frame that opens like an umbrella and locks at each hub. It goes up in a minute or two and it goes down in the same, which is exactly why it survives a season of being packed and pitched — every setup cycle is the moment a pole-style tent loses a pole or a clip.</p>
+          <p><strong>Be honest with yourself about whether you need this.</strong> If you camp two weekends a summer at an inland site, buy the Coleman 11x11 below and spend the difference on something else — the hub shelter will not make those weekends better. This tier earns its price in one situation: you pitch and strike it often, or you pitch it somewhere genuinely windy, and you have already replaced a cheaper screen house once. Both are also heavy for the footprint. Think car-to-site, not carry-in.</p>
+          <div className="not-prose my-4 flex flex-wrap gap-3">
+            <BuyLink tag={AMZ_TAG} search="clam quick set escape screen shelter">Check the Clam Quick-Set on Amazon.ca &rarr;</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="gazelle g6 pop up portable gazebo screen tent">Check the Gazelle G6 &rarr;</BuyLink>
+          </div>
+
+          <h3>2. Coleman Instant Screened Canopy 11x11 — Best Value Screen House</h3>
+          <p>Coleman&rsquo;s instant-frame design is the reason this is the value pick and the model most people reading this should actually buy: the poles come pre-attached to the canopy, so setup is a matter of unfolding the frame, extending the telescoping legs, and clicking them into place. One adult can genuinely do it in about three minutes — no separate pole bundle, no threading fiberglass through sleeves in the wind.</p>
+          <p>At 11 x 11 ft (3.4 x 3.4 m), the 121 sq ft footprint fits a standard campsite pad or a modest backyard deck, and it comfortably covers a table and four chairs. Two zippered doors mean you&rsquo;re not squeezing past seated guests to get out, and the wheeled carry bag makes it manageable for one person to haul from the car. If you searched for an <strong>11x11 screen tent</strong> or a <strong>Coleman instant screen house</strong>, this is the model — big enough for a family, fast enough that you&rsquo;ll actually bother setting it up for a two-night trip. What it does not have is any wind-panel option, which is the single line separating it from the hub shelters above.</p>
           <div className="not-prose my-4"><BuyLink tag={AMZ_TAG} search="coleman instant screen house 11x11">Check price on Amazon.ca &rarr;</BuyLink></div>
 
-          <h3>2. Coleman Skylodge 15x13 Screenhouse — Best for Hosting</h3>
+          <h3>3. Coleman Skylodge 15x13 Screenhouse — Best for Hosting</h3>
           <p>The Skylodge is the screen house you buy when the 11x11 feels tight. Its 15 x 13 ft footprint delivers 195 sq ft (18 m&sup2;) — enough for a full-size picnic table with benches, a cooler, and standing room for six-plus people. The peak is tall enough that nobody hunches, which matters more than you&rsquo;d think over a three-hour cottage dinner.</p>
           <p>It uses the same instant-frame concept as the 11x11 but at this scale you&rsquo;ll want a second pair of hands to square it up, especially in any breeze. It&rsquo;s also bulkier in the trunk. If your screen tent will live mostly at a seasonal campsite, trailer lot, or cottage deck — set up for weeks at a time rather than packed daily — the extra space is worth every bit of the added bulk.</p>
           <div className="not-prose my-4"><BuyLink tag={AMZ_TAG} search="coleman skylodge 15x13 screenhouse">Check price on Amazon.ca &rarr;</BuyLink></div>
 
-          <h3>3. Coleman Back Home 12x10 — Best Backyard Screen House</h3>
+          <h3>4. Coleman Back Home 12x10 — Best Backyard Screen House</h3>
           <p>The Back Home line is Coleman&rsquo;s backyard-oriented screen house: a 12 x 10 ft rectangle that suits deck and patio placement better than square campsite models, with an instant frame that goes up in three to five minutes. The rectangular footprint is the quiet advantage — most patio dining sets and rectangular tables fit a 12x10 more naturally than an 11x11 square.</p>
           <p>This is the model we&rsquo;d point at GTA homeowners who want a semi-permanent mesh dining room from May to September without committing to a steel-frame gazebo. Take it down for storms and it will give you multiple seasons; our <Link href="/blog/mosquito-screens-patio-canada">patio mosquito screen guide</Link> covers the full spectrum of patio options if your space needs something more fitted.</p>
           <div className="not-prose my-4"><BuyLink tag={AMZ_TAG} search="coleman back home screen house 12x10">Check price on Amazon.ca &rarr;</BuyLink></div>
 
-          <h3>4. CAMPROS 12x10 Screen House — Best Budget Screen Tent</h3>
-          <p>CAMPROS has built a reputation on amazon.ca for delivering a lot of tent per dollar, and its 12x10 screen house follows the formula: the same 120 sq ft coverage as the Coleman Back Home, mesh on all sides, two large doors — at a price that typically undercuts the name brands meaningfully.</p>
-          <p>The trade-off is the frame. This is a traditional pole-assembly design: separate poles, sleeves, and a 10&ndash;15 minute setup that goes much better with two people. If the screen house is going up once at the cottage in June and coming down in September, that setup time is irrelevant and the CAMPROS is the value play. If you&rsquo;re packing it up every weekend, spend more on an instant or pop-up frame — you&rsquo;ll resent the poles by August.</p>
-          <div className="not-prose my-4"><BuyLink tag={AMZ_TAG} search="campros screen house 12x10">Check price on Amazon.ca &rarr;</BuyLink></div>
-
           <h3>5. EAST OAK 10x10 Pop-Up Screen Room — Best Pop-Up Screen House</h3>
           <p>The EAST OAK is the definition of a pop-up screen room: a hub-style frame that unfolds in one piece, like a giant umbrella. One person can have all 100 sq ft standing in about a minute, and takedown is just as fast. That makes it the pick for the situations where setup friction kills good intentions — dockside dinners, tailgates, beach days, weekly trips to the splash pad with a baby who needs a bite-free zone.</p>
-          <p>The pop-up mechanism adds weight relative to its footprint, so think of it as car-to-site portable rather than carry-down-a-trail portable. And as with all pop-up frames, the many pivoting joints are the first casualty in high wind — stake it properly and drop it before storms. For pure speed-to-shelter, nothing else in this guide touches it.</p>
+          <p>The pop-up mechanism adds weight relative to its footprint, so think of it as car-to-site portable rather than carry-down-a-trail portable. And as with all pop-up frames, the many pivoting joints are the first casualty in high wind — stake it properly and drop it before storms. It is the same hub principle as the Clam and Gazelle above, at a fraction of the price and a fraction of the frame; for pure speed-to-shelter at an entry price, nothing else in this guide touches it.</p>
           <div className="not-prose my-4"><BuyLink tag={AMZ_TAG} search="east oak pop up screen room 10x10">Check price on Amazon.ca &rarr;</BuyLink></div>
 
-          <h2>Screen Tent vs Screen House vs Pop-Up Screen Room — Sorting Out the Names</h2>
-          <p>Shopping this category in Canada is confusing because retailers use four names for near-identical products. Here&rsquo;s the decoder:</p>
+          <h3>6. CAMPROS 12x10 Screen House — Best Budget Screen Tent</h3>
+          <p>CAMPROS has built a reputation on amazon.ca for delivering a lot of tent per dollar, and its 12x10 screen house follows the formula: the same 120 sq ft coverage as the Coleman Back Home, mesh on all sides, two large doors — at a price that typically undercuts the name brands meaningfully.</p>
+          <p>The trade-off is the frame. This is a traditional pole-assembly design: separate poles, sleeves, and a 10&ndash;15 minute setup that goes much better with two people. If the screen house is going up once at the cottage in June and coming down in September, that setup time is irrelevant and the CAMPROS is the value play — and for that use it is a genuinely sensible buy, not a compromise. If you&rsquo;re packing it up every weekend, spend more on an instant or pop-up frame — you&rsquo;ll resent the poles by August.</p>
+          <div className="not-prose my-4"><BuyLink tag={AMZ_TAG} search="campros screen house 12x10">Check price on Amazon.ca &rarr;</BuyLink></div>
+
+          <h2>Screen Tent, Screen House, Dining Tent, Camping Shelter — Sorting Out the Names</h2>
+          <p>Shopping this category in Canada is confusing because retailers use half a dozen names for near-identical products, and the search results split accordingly. Here&rsquo;s the decoder:</p>
           <ul>
             <li><strong>Screen tent / screen house / screen house tent</strong> — interchangeable terms for a mesh-walled, roofed shelter with no floor. Coleman calls its products &ldquo;screenhouses&rdquo;; the category is the same.</li>
+            <li><strong>Dining tent / kitchen tent / dining tent for camping</strong> — the same mesh shelter, named for the job. &ldquo;Kitchen tent&rdquo; usually implies you&rsquo;ll put a camp stove and a prep table under it; if that&rsquo;s the plan, size up to a 12x10 or larger and keep the stove near a door, never in a closed corner.</li>
+            <li><strong>Camping shelter / camping gazebo</strong> — broader retail umbrella terms. Read the listing carefully: a lot of &ldquo;camping gazebos&rdquo; are open-sided sun canopies with <em>no mesh at all</em>, which makes them useless against mosquitoes and black flies. If the walls aren&rsquo;t mesh, it isn&rsquo;t a screen house.</li>
             <li><strong>Pop-up screen house / pop-up screen room</strong> — a screen house with a hub or accordion frame that unfolds as one connected unit (EAST OAK style). Fastest setup, heaviest packed weight for the size.</li>
             <li><strong>Instant screen house</strong> — Coleman&rsquo;s middle path: poles are pre-attached and telescope out, but the frame still unfolds in sections. Nearly pop-up speed with better wind behaviour.</li>
+            <li><strong>Hub shelter / hub-style screen tent</strong> — the heavy-duty end of the pop-up family (Clam Quick-Set, Gazelle G-series): a six-sided pivoting-hub frame built far sturdier than an entry-level pop-up, and the only format that takes clip-on wind panels. Several times the price.</li>
+            <li><strong>Tent with a screen room</strong> — not this category. That&rsquo;s a sleeping tent with a sewn-in floor and a screened vestibule attached to one end. You get a bug-free sitting area, but it&rsquo;s smaller than a dedicated screen house and it comes down when you strike camp. Buy one if you want one shelter for sleeping and sitting; buy a screen house if you want a bug-free room that stands on its own over a picnic table.</li>
             <li><strong>Screened gazebo</strong> — a heavier steel-framed structure meant to stay up all season. Different category, different money.</li>
           </ul>
           <p>If that last category is what you actually want — something that lives on the deck from May to September instead of folding into a bag — our guide to the <Link href="/blog/best-gazebo-with-mosquito-net-canada">best gazebos with mosquito netting in Canada</Link> compares soft-top and hard-top screened models, footprint sizing, and how to anchor one against summer wind.</p>
-          <p>One thing none of these include: a floor. That&rsquo;s deliberate — you place them over grass, deck boards, or a campsite pad. If you want overhead-plus-under protection for sleeping outdoors, that&rsquo;s a bed net or camping tent problem; our <Link href="/blog/mosquito-net-canada">mosquito net guide for Canada</Link> covers those formats.</p>
+          <p>One thing no dedicated screen house includes: a floor. That&rsquo;s deliberate — you place them over grass, deck boards, or a campsite pad. If you want overhead-plus-under protection for sleeping outdoors, that&rsquo;s a bed net or camping tent problem; our <Link href="/blog/mosquito-net-canada">mosquito net guide for Canada</Link> covers those formats.</p>
+
+          <h2>What Size Screen Tent Do You Need? 8x8 Through 15x13</h2>
+          <p>Footprint is the decision people get wrong most often, because a screen house that looks generous in a product photo shrinks the moment four people sit down and push their chairs back. Sizing by what actually goes underneath:</p>
+          <ul>
+            <li><strong>8x8 ft (64 sq ft)</strong> — the compact end of the category. Two camp chairs and a small side table, or one person&rsquo;s cooking setup. Genuinely useful at a tight backcountry-adjacent site or a small dock where a 10x10 won&rsquo;t fit, but it will not take a picnic table. Our six picks start at 10x10 for exactly that reason.</li>
+            <li><strong>10x10 ft (100 sq ft)</strong> — the standard pop-up size, and the largest footprint most provincial-park pads and small decks comfortably accept. Fits a round patio table and four chairs, or a picnic table with nobody able to walk around it.</li>
+            <li><strong>11x11 ft (121 sq ft)</strong> — the Coleman Instant size, and the sweet spot for a family: a table plus four chairs, with room to get past the seated guests to the door.</li>
+            <li><strong>12x10 ft (120 sq ft)</strong> — same area as 11x11 but rectangular, which matters if you own a rectangular patio dining set. The Back Home and CAMPROS shape.</li>
+            <li><strong>15x13 ft (195 sq ft)</strong> — hosting size. A full 6-ft picnic table with benches, a cooler, a side table, and standing room. Bulky in the trunk and it wants two people to square up.</li>
+          </ul>
+          <p>Two constraints worth checking before you order: measure the pad or deck, and check the campground&rsquo;s rules — many Ontario provincial-park sites cap the total shelter footprint you can pitch alongside a tent or trailer.</p>
+
+          <h2>The Best Screen House for Camping (vs the Best One for a Backyard)</h2>
+          <p>These are different buys, and the reviews that treat them as one category are the reason people end up disappointed. Camping punishes a screen house in a way a backyard never does: it gets packed wet, jammed into a trunk, pitched on gravel, and stood up in whatever wind the site happens to have that weekend.</p>
+          <p><strong>For camping</strong>, weight the frame above everything else. Every pitch-and-strike cycle is a chance to lose a pole, bend a joint, or tear a sleeve, so the fewer loose parts the better — which is why the hub shelters (Clam Quick-Set Escape, Gazelle G6) are the pick for anyone out most weekends, and why the Coleman Instant 11x11 with its pre-attached poles beats a pole-style tent of the same price for a family that camps a few times a season. A 10x10 or 11x11 footprint also fits more campsite pads than a 15x13 will.</p>
+          <p><strong>For a backyard or cottage deck</strong>, weight shape and shade instead. The shelter goes up once in May and comes down in September, so a 10&ndash;15 minute pole assembly costs you nothing and the CAMPROS becomes a genuinely sensible value buy. A rectangular 12x10 fits a patio dining set better than a square, and siting it under partial tree cover buys you seasons of extra fabric life. The one thing you cannot skip either way: drop it before storms.</p>
 
           <h2>Setup Speed: Instant vs Pop-Up vs Pole-Style</h2>
           <p>Setup time sounds like a spec-sheet detail until you&rsquo;ve assembled a pole-style screen house in a 20 km/h breeze while the burgers get cold. Our honest field expectations:</p>
           <ul>
-            <li><strong>Pop-up hub frames (EAST OAK):</strong> 1&ndash;2 minutes, one person. The frame does the work.</li>
+            <li><strong>Pop-up and hub frames (EAST OAK, Clam Quick-Set, Gazelle G6):</strong> 1&ndash;2 minutes, one person. The frame does the work. Note that the premium hub shelters are no faster than the cheap pop-up — you are paying for the frame and the wind panels, not the clock.</li>
             <li><strong>Instant frames (Coleman 11x11, Back Home, Skylodge):</strong> 3&ndash;5 minutes. One person for the 11x11; two people make the Skylodge civilized.</li>
             <li><strong>Traditional pole assembly (CAMPROS):</strong> 10&ndash;15 minutes with two people the first time; faster once you&rsquo;ve learned the pole order.</li>
           </ul>
@@ -303,10 +367,11 @@ export default function BestScreenTentCanadaPage() {
 
           <h2>Where to Buy a Screen House in Canada</h2>
           <p>Screen houses are aggressively seasonal in Canadian retail. Canadian Tire and Walmart Canada stock entry and mid-range models from roughly May through July, with selection thinning fast by August. Costco Canada rotates larger-format screen houses through warehouses and costco.ca in late spring — good value when the timing works, gone when it doesn&rsquo;t. Cabela&rsquo;s, Bass Pro Shops, and SAIL carry camping-oriented screen shelters more consistently for the cottage crowd.</p>
-          <p>Amazon.ca is the one channel where all five models in this guide are listed year-round, which matters if your screen house dies in a July storm and you need a replacement before the long weekend — exactly the scenario where in-store stock has already sold through.</p>
+          <p><strong>Looking for a Broadstone screen house?</strong> Broadstone is Canadian Tire&rsquo;s own outdoor house brand, so its screen houses are sold through Canadian Tire stores and canadiantire.ca only — you will not find them on amazon.ca, and no amount of searching will surface one. If a specific Broadstone model is what you want, check store stock directly. If you simply want a screen house at that end of the market, the CAMPROS 12x10 and the Coleman Back Home 12x10 are the equivalent footprints that <em>are</em> listed year-round.</p>
+          <p>Amazon.ca is the one channel that carries this whole range year-round, entry-level through hub shelter, which matters if your screen house dies in a July storm and you need a replacement before the long weekend — exactly the scenario where in-store stock has already sold through.</p>
 
           <h2>The Bottom Line</h2>
-          <p>The Coleman Instant Screened Canopy 11x11 is the best screen tent for most Canadians in 2026 — the right size, a genuinely fast setup, and proven hardware. Go Skylodge 15x13 if you host around a picnic table, CAMPROS 12x10 if budget leads, EAST OAK 10x10 if one-minute pop-up setup is the feature that gets it used. Whichever you choose: stake it, guy it, drop it for storms, and pair the screened zone with whole-yard protection if the rest of your property still belongs to the mosquitoes.</p>
+          <p>The best screen tent in Canada for 2026 is a six-sided hub shelter — a Clam Quick-Set Escape or Gazelle G6. It is the only tier with a frame built for repeated pitching and the only one that takes clip-on wind panels, which is what an exposed lakefront, a dock, or a weekly campsite actually demands. It also costs several times what a big-box screen house does, and that is the whole catch: if you camp a couple of weekends a summer at a sheltered inland site, the Coleman Instant Screened Canopy 11x11 is the better buy and we would not pretend otherwise. From there it is shape and size — Skylodge 15x13 if you host around a picnic table, Back Home 12x10 for a rectangular patio set, EAST OAK 10x10 if one-minute pop-up setup is the feature that gets it used, CAMPROS 12x10 if budget leads. Whichever you choose: stake it, guy it, drop it for storms, and pair the screened zone with whole-yard protection if the rest of your property still belongs to the mosquitoes.</p>
 
           <h2>Frequently Asked Questions</h2>
           <div className="not-prose space-y-4 my-6">

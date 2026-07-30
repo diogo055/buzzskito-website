@@ -13,6 +13,7 @@ const SLUG = 'bug-protective-clothing-canada'
 const DATE = '2026-07-14'
 const UPDATED = '2026-07-14'
 const TITLE = 'Bug Jackets, Head Nets & Protective Clothing in Canada 2026 — Black Fly Season Survival Kit'
+const META_TITLE = 'Bug Jackets & Head Nets Canada 2026: Black Fly'
 
 const FAQS = [
   {
@@ -54,7 +55,7 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: TITLE,
+  title: META_TITLE,
   description: 'The best bug jackets, mosquito head nets and PMRA-legal permethrin-treated clothing in Canada for 2026 — Coghlan\'s, Sea to Summit and InsectGuard compared, plus a black-fly season survival kit for cottage country.',
   canonical: `/blog/${SLUG}`,
   type: 'article',

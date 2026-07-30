@@ -14,7 +14,7 @@ const SLUG = 'how-to-keep-mice-out-of-your-car'
 const DATE = '2026-07-21'
 const UPDATED = '2026-07-21'
 const TITLE = 'How to Keep Mice Out of Your Car — Protect the Engine Bay, Wiring & Cabin'
-const META_TITLE = 'How to Keep Mice Out of Your Car (2026): Engine Bay, Wiring & Storage Guide'
+const META_TITLE = 'How to Keep Mice Out of Your Car: 4 Layers'
 
 const FAQS = [
   {

@@ -14,7 +14,7 @@ const SLUG = 'bed-bug-heater-canada'
 const DATE = '2026-07-21'
 const UPDATED = '2026-07-21'
 const TITLE = 'Best Bed Bug Heater Canada 2026 — Heat Chambers That Kill Every Life Stage'
-const META_TITLE = 'Best Bed Bug Heater Canada 2026: Heat Chambers Compared'
+const META_TITLE = 'Best Bed Bug Heater Canada 2026: 49°C Chambers'
 
 const FAQS = [
   {

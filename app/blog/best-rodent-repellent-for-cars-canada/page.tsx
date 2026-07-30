@@ -14,7 +14,7 @@ const SLUG = 'best-rodent-repellent-for-cars-canada'
 const DATE = '2026-07-21'
 const UPDATED = '2026-07-21'
 const TITLE = 'Best Rodent Repellent for Cars Canada 2026 — Tape vs Strobe vs Peppermint'
-const META_TITLE = 'Best Rodent Repellent for Cars Canada 2026: Tape vs Strobe vs Peppermint'
+const META_TITLE = 'Best Rodent Repellent for Cars Canada: 4 Ways'
 
 const FAQS = [
   {

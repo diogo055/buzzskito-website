@@ -6,6 +6,7 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 const SLUG = 'how-to-get-rid-of-mosquitoes-in-the-house'
 const DATE = '2026-07-15'
 const TITLE = 'How to Get Rid of Mosquitoes in the House (Fast) — 2026 Indoor Guide'
+const META_TITLE = 'How to Get Rid of Mosquitoes in the House Fast'
 
 const FAQS = [
   {
@@ -59,7 +60,7 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: TITLE,
+  title: META_TITLE,
   description: 'How to get rid of mosquitoes in the house fast — the fan trick, where mosquitoes hide in a room, how to find and kill them, natural methods, sleep protection, and finding the indoor breeding source. Ontario 2026 guide.',
   canonical: `/blog/${SLUG}`,
   type: 'article',

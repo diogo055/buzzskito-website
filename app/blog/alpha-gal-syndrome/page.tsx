@@ -6,6 +6,7 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 const SLUG = 'alpha-gal-syndrome'
 const DATE = '2026-07-19'
 const TITLE = 'Alpha-Gal Syndrome: The Tick Bite That Causes a Red Meat Allergy (2026)'
+const META_TITLE = 'Alpha-Gal Syndrome: Tick Bite Meat Allergy 2026'
 
 const FAQS = [
   {
@@ -59,7 +60,7 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: TITLE,
+  title: META_TITLE,
   description:
     'Alpha-gal syndrome (AGS) is a tick-triggered red meat allergy with a delayed 2–6 hour reaction. Symptoms, trigger foods, the lone star tick, alpha-gal IgE testing, treatment, and prevention — CDC and PHAC cited.',
   canonical: `/blog/${SLUG}`,

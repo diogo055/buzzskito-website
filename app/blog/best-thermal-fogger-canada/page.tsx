@@ -14,7 +14,7 @@ const SLUG = 'best-thermal-fogger-canada'
 const DATE = '2026-07-21'
 const UPDATED = '2026-07-21'
 const TITLE = 'Best Thermal Fogger Canada 2026 — Pulse-Jet vs Propane vs Electric for Mosquitoes'
-const META_TITLE = 'Best Thermal Fogger Canada 2026: Pulse-Jet vs Propane'
+const META_TITLE = 'Best Thermal Fogger Canada 2026 for Mosquitoes'
 
 const FAQS = [
   {

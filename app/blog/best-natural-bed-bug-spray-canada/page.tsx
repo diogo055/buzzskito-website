@@ -14,7 +14,7 @@ const SLUG = 'best-natural-bed-bug-spray-canada'
 const DATE = '2026-07-21'
 const UPDATED = '2026-07-21'
 const TITLE = 'Best Natural Bed Bug Spray Canada 2026 — Plant-Based, Non-Toxic & PMRA-Legal Picks'
-const META_TITLE = 'Best Natural Bed Bug Spray Canada 2026 (Plant-Based)'
+const META_TITLE = 'Natural Bed Bug Spray Canada 2026: EcoRaider'
 
 const FAQS = [
   {

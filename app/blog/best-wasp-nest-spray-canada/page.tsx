@@ -14,7 +14,7 @@ const SLUG = 'best-wasp-nest-spray-canada'
 const DATE = '2026-07-21'
 const UPDATED = '2026-07-21'
 const TITLE = 'Best Wasp Nest Spray Canada 2026 — PMRA-Legal Foams & Jets Compared'
-const META_TITLE = 'Best Wasp Nest Spray Canada 2026: PMRA-Legal Foams & Jets'
+const META_TITLE = 'Best Wasp Nest Spray Canada 2026: Foam vs Jet'
 
 const FAQS = [
   {

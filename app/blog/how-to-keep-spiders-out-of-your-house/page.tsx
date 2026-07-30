@@ -14,7 +14,7 @@ const SLUG = 'how-to-keep-spiders-out-of-your-house'
 const DATE = '2026-07-21'
 const UPDATED = '2026-07-21'
 const TITLE = 'How to Keep Spiders Out of Your House — What Actually Works (2026)'
-const META_TITLE = 'How to Keep Spiders Out of Your House: What Works (2026)'
+const META_TITLE = 'Keep Spiders Out of Your House (2026): 4 Fixes'
 
 const FAQS = [
   {

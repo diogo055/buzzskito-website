@@ -14,6 +14,7 @@ const SLUG = 'best-indoor-fly-mosquito-trap-canada'
 const DATE = '2026-07-12'
 const UPDATED = '2026-07-12'
 const TITLE = 'Best Indoor Fly & Mosquito Trap Canada 2026 (Plug-In Buyer’s Guide)'
+const META_TITLE = 'Best Indoor Fly & Mosquito Trap Canada 2026'
 
 const FAQS = [
   {
@@ -51,7 +52,7 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: TITLE,
+  title: META_TITLE,
   description: 'The best indoor fly and mosquito traps in Canada for 2026 — plug-in UV, fan-suction, and glue-board picks compared by room size and refill cost, how they work indoors, and whether they actually catch mosquitoes.',
   canonical: `/blog/${SLUG}`,
   type: 'article',

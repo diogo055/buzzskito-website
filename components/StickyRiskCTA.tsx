@@ -4,9 +4,15 @@ import { useEffect, useState } from 'react'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 
-// Routes where the sticky risk CTA should appear (high-traffic informational pages)
+// Routes where the sticky risk CTA should appear.
+//
+// DELIBERATELY EXCLUDES /blog/. That is the product-research library — 238 of its 293
+// pages carry Amazon affiliate links — and a yard-score lead-capture popup interrupting
+// someone mid-way through a buying guide serves neither purpose: it does not convert as
+// a service lead (wrong intent) and it costs the affiliate click we do want. This CTA
+// belongs on service and commercial pages, where a yard risk score is the natural
+// next step. Removed from /blog/ 30 Jul 2026.
 const SHOW_ON_PATHS = [
-  '/blog/',
   '/mosquito-control-cost',
   '/mosquito-control-pricing',
   '/mosquito-control-near-me',
@@ -31,7 +37,16 @@ export default function StickyRiskCTA() {
   const [scrolledPast, setScrolledPast] = useState(false)
 
   // Show only on relevant pages
-  const shouldShow = pathname && SHOW_ON_PATHS.some((p) => pathname.includes(p)) && !HIDE_ON_PATHS.some((p) => pathname.startsWith(p))
+  // The /blog/ guard must come FIRST and be explicit. SHOW_ON_PATHS is matched with
+  // includes(), so an entry like '/mosquito-control-cost' also matches the affiliate
+  // page /blog/mosquito-control-cost-ontario. Removing '/blog/' from the list was not
+  // enough on its own — this guard is what actually keeps the CTA off the 238 affiliate
+  // pages, and it must not be replaced by deleting service-page entries.
+  const shouldShow =
+    pathname &&
+    !pathname.startsWith('/blog/') &&
+    SHOW_ON_PATHS.some((p) => pathname.includes(p)) &&
+    !HIDE_ON_PATHS.some((p) => pathname.startsWith(p))
 
   useEffect(() => {
     const onScroll = () => {

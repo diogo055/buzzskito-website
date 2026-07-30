@@ -14,6 +14,7 @@ const SLUG = 'what-does-a-tick-bite-look-like'
 const DATE = '2026-07-15'
 const UPDATED = '2026-07-15'
 const TITLE = 'What Does a Tick Bite Look Like? Pictures, Timeline & How to Identify One (2026)'
+const META_TITLE = 'What Does a Tick Bite Look Like? Day by Day'
 
 const FAQS = [
   {
@@ -79,7 +80,7 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: TITLE,
+  title: META_TITLE,
   description:
     'What does a tick bite look like? A day-by-day appearance timeline, on-humans vs on-dogs vs embedded ticks, a tick-vs-mosquito-vs-flea-vs-spider bite comparison, and when to see a doctor. Ontario, 2026.',
   canonical: `/blog/${SLUG}`,

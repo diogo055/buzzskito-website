@@ -6,6 +6,7 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 const SLUG = 'can-dogs-get-lyme-disease'
 const DATE = '2026-07-15'
 const TITLE = 'Can Dogs Get Lyme Disease From Ticks? Signs, Stages & Treatment (2026)'
+const META_TITLE = 'Can Dogs Get Lyme Disease? Signs & 3 Stages'
 
 const FAQS = [
   {
@@ -59,7 +60,7 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: TITLE,
+  title: META_TITLE,
   description: 'Can dogs get Lyme disease from ticks? Yes. The first signs (shifting-leg lameness, fever), the 3 stages, whether it is curable, treatment, and whether cats can get it. Ontario vet-informed guide, 2026.',
   canonical: `/blog/${SLUG}`,
   type: 'article',

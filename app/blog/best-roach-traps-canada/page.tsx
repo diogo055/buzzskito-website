@@ -12,9 +12,13 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'best-roach-traps-canada'
 const DATE = '2026-07-28'
-const UPDATED = '2026-07-28'
-const TITLE = 'Best Roach Traps in Canada 2026 — Glue Boards Find Them, Bait Stations Kill Them'
-const META_TITLE = 'Best Roach Traps Canada 2026: Glue vs Bait'
+const UPDATED = '2026-07-30'
+// This page owns the TRAP AND BAIT-STATION purchase only. Sprays and aerosols are
+// best-cockroach-spray-canada; the elimination plan is how-to-get-rid-of-cockroaches-canada;
+// the legality of one imported gel is advion-cockroach-gel-bait-canada.
+// SERP title trimmed to 45 chars so it survives Google's cap once " | BuzzSkito" is appended.
+const TITLE = 'Cockroach Traps in Canada — Glue Boards Find Them, Bait Stations Kill Them'
+const META_TITLE = 'Cockroach Traps Canada: Glue vs Bait Stations'
 
 const FAQS = [
   {
@@ -69,7 +73,7 @@ const FAQS = [
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'Roach traps in Canada compared: glue boards diagnose where roaches live, enclosed bait stations do the killing. Placement, reading a catch, honest limits.',
+  description: 'Which cockroach trap to buy in Canada: glue boards diagnose where roaches live, enclosed bait stations do the killing. How many of each, placement, PCP check.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -82,7 +86,7 @@ export default function BestRoachTrapsCanadaPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian comparison of roach traps: glue-board monitors as diagnostic instruments versus enclosed bait stations as control, placement grids, how to read a catch to locate harbourage, and the honest limits of trapping.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Best Roach Traps Canada', url: `/blog/${SLUG}` }])) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Cockroach Traps Canada — Glue vs Bait Stations', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`, UPDATED)) }} />
 
@@ -91,7 +95,7 @@ export default function BestRoachTrapsCanadaPage() {
           <nav aria-label="Breadcrumb" className="text-brand-400 text-sm mb-4 flex gap-1">
             <Link href="/" className="hover:text-white">Home</Link><span>/</span>
             <Link href="/blog" className="hover:text-white">Blog</Link><span>/</span>
-            <span className="text-white">Best Roach Traps Canada</span>
+            <span className="text-white">Cockroach Traps — Glue vs Bait Stations</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
           <p className="text-xl text-brand-100 max-w-3xl">Two products get sold as &ldquo;roach traps&rdquo; and they do opposite jobs. Glue boards are instruments &mdash; they tell you the species, the room, and whether you are winning. Enclosed bait stations are the control. Buy both, and read the catch properly.</p>
@@ -116,7 +120,79 @@ export default function BestRoachTrapsCanadaPage() {
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito Pest Product Guides &middot; independent Canadian research</p>
           </div>
+          <div className="not-prose rounded-xl border-l-4 border-brand-500 bg-brand-50 p-5 mb-6">
+            <p className="text-xs font-extrabold uppercase tracking-wider text-brand-700 mb-2">Four pages, four jobs</p>
+            <p className="text-sm text-gray-800 leading-relaxed">
+              <strong>This page covers traps and bait stations only</strong> &mdash; which to buy, how many, where each one goes, and how to read a catch.
+            </p>
+            <ul className="mt-2 space-y-1.5 text-sm text-gray-800 list-disc pl-5">
+              <li><strong>Want the plan?</strong> <Link href="/blog/how-to-get-rid-of-cockroaches-canada" className="text-emerald-700 underline font-semibold">How to get rid of cockroaches in Canada</Link> &mdash; species ID, sanitation, the full bait-first sequence, and the apartment problem.</li>
+              <li><strong>Looking for a spray?</strong> <Link href="/blog/best-cockroach-spray-canada" className="text-emerald-700 underline font-semibold">Cockroach spray in Canada</Link> &mdash; read that one before you buy a can, because spraying near the stations on this page is the fastest way to ruin them.</li>
+              <li><strong>Considering an imported gel?</strong> <Link href="/blog/advion-cockroach-gel-bait-canada" className="text-emerald-700 underline font-semibold">Advion cockroach gel bait in Canada</Link> covers the PMRA grey zone in detail.</li>
+            </ul>
+          </div>
+
           <SpecialistDisclosure pest="cockroaches" />
+        </div>
+      </section>
+
+      <section className="bg-white px-4 py-8">
+        <div className="max-w-4xl mx-auto">
+          <p className="text-xs font-extrabold text-emerald-700 uppercase tracking-wider mb-2">Decision Table</p>
+          <h2 className="text-2xl font-extrabold text-brand-900 mb-4">Pick in 60 Seconds: Your Situation &rarr; Which Trap, and How Many</h2>
+          <p className="text-sm text-gray-700 mb-5 leading-relaxed">
+            The two products sold as &ldquo;roach traps&rdquo; do opposite jobs, so the right cart depends entirely on what you already know.
+          </p>
+          <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
+            <table className="w-full text-sm">
+              <thead className="bg-brand-800 text-white">
+                <tr>
+                  <th className="px-4 py-3 text-left">Your situation</th>
+                  <th className="px-4 py-3 text-left">Buy this</th>
+                  <th className="px-4 py-3 text-left">How many</th>
+                  <th className="px-4 py-3 text-left">Get it</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Saw one at midnight, no idea what it was</td>
+                  <td className="px-4 py-3 text-gray-700">Flat glue-board monitors first. The body settles the species in seconds and decides everything else</td>
+                  <td className="px-4 py-3 text-gray-700">A dozen</td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="cockroach glue traps sticky boards" block>Glue boards &rarr;</BuyLink></td>
+                </tr>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Confirmed small tan roaches with two dark stripes</td>
+                  <td className="px-4 py-3 text-gray-700">Enclosed domestic-class bait stations, plus boards to measure. This is a breeding population</td>
+                  <td className="px-4 py-3 text-gray-700">One station per cabinet and junction</td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="combat roach killing bait stations" block>Bait stations &rarr;</BuyLink></td>
+                </tr>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">One very large reddish-brown roach in the basement</td>
+                  <td className="px-4 py-3 text-gray-700">A couple of boards and a drain check. Usually a wanderer up a floor drain, not a colony</td>
+                  <td className="px-4 py-3 text-gray-700">2&ndash;3</td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="cockroach glue traps sticky boards" block>Glue boards &rarr;</BuyLink></td>
+                </tr>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Greasy kitchen, or kids and pets on the floor</td>
+                  <td className="px-4 py-3 text-gray-700">Covered glue traps for those spots &mdash; the housing keeps grease and paws off the adhesive</td>
+                  <td className="px-4 py-3 text-gray-700">Match the room count</td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="roach motel glue trap" block>Covered traps &rarr;</BuyLink></td>
+                </tr>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Apartment, or treated once and reinvaded</td>
+                  <td className="px-4 py-3 text-gray-700">A door sweep and silicone before more traps. Your unit is one node in a building-wide network</td>
+                  <td className="px-4 py-3 text-gray-700">Every hallway door</td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="door sweep under door draft stopper" block>Door sweep &rarr;</BuyLink></td>
+                </tr>
+                <tr className="align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">You already sprayed the baseboards</td>
+                  <td className="px-4 py-3 text-gray-700">Nothing yet. Wash those surfaces with soap and water first &mdash; pyrethroid residue is repellent and will route roaches around anything you place</td>
+                  <td className="px-4 py-3 text-gray-700">&mdash;</td>
+                  <td className="px-4 py-3 text-xs text-gray-400">Free, and it matters</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
         </div>
       </section>
 
@@ -382,7 +458,8 @@ export default function BestRoachTrapsCanadaPage() {
 
           <h2>Related Cockroach &amp; Crawling-Pest Guides</h2>
           <ul>
-            <li><Link href="/blog/how-to-get-rid-of-cockroaches-canada">How to Get Rid of Cockroaches in Canada — The Bait-First Plan</Link></li>
+            <li><strong>The plan these tools fit into:</strong> <Link href="/blog/how-to-get-rid-of-cockroaches-canada">How to Get Rid of Cockroaches in Canada — The Bait-First Plan</Link></li>
+            <li><strong>Buying a can instead?</strong> <Link href="/blog/best-cockroach-spray-canada">Cockroach Spray in Canada — The Three Jobs Worth Buying One For</Link></li>
             <li><Link href="/blog/advion-cockroach-gel-bait-canada">Advion Cockroach Gel Bait in Canada — The Honest Grey-Market Answer</Link></li>
             <li><Link href="/blog/how-to-get-rid-of-ants-canada">How to Get Rid of Ants in Canada — Why Baiting Beats Every Spray</Link></li>
             <li><Link href="/blog/how-to-get-rid-of-silverfish-canada">How to Get Rid of Silverfish in Canada — The Humidity Fix</Link></li>

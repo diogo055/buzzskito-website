@@ -14,7 +14,7 @@ const SLUG = 'mosquito-repellent-for-dogs-canada'
 const DATE = '2026-07-12'
 const UPDATED = '2026-07-12'
 const TITLE = 'Mosquito Repellent for Dogs Canada 2026 — Vet-Safe Picks + What Not to Use'
-const META_TITLE = 'Mosquito Repellent for Dogs Canada: Safe Picks (2026)'
+const META_TITLE = 'Mosquito Repellent for Dogs Canada: Vet-Safe'
 
 const FAQS = [
   {

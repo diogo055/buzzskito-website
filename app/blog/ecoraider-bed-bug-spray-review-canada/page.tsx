@@ -14,7 +14,7 @@ const SLUG = 'ecoraider-bed-bug-spray-review-canada'
 const DATE = '2026-07-21'
 const UPDATED = '2026-07-21'
 const TITLE = 'EcoRaider Bed Bug Spray Review Canada 2026 — Does the Plant-Based Killer Actually Work?'
-const META_TITLE = 'EcoRaider Bed Bug Spray Review Canada 2026 (EcoVenger)'
+const META_TITLE = 'EcoRaider Bed Bug Spray 2026 Review (Canada)'
 
 const FAQS = [
   {

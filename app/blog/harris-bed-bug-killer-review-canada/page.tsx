@@ -14,7 +14,7 @@ const SLUG = 'harris-bed-bug-killer-review-canada'
 const DATE = '2026-07-21'
 const UPDATED = '2026-07-21'
 const TITLE = 'Harris Bed Bug Killer Review Canada 2026 — Does the Toughest Spray Work, and Is It Even Legal Here?'
-const META_TITLE = 'Harris Bed Bug Killer Review Canada 2026: Honest Verdict'
+const META_TITLE = 'Harris Bed Bug Killer Review Canada: 6.9/10'
 
 const FAQS = [
   {

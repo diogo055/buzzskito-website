@@ -14,6 +14,7 @@ const SLUG = 'smells-mosquitoes-hate'
 const DATE = '2026-07-12'
 const UPDATED = '2026-07-12'
 const TITLE = 'Smells Mosquitoes Hate: 6 Scents That Actually Repel (Ontario)'
+const META_TITLE = 'Smells Mosquitoes Hate: 6 Scents Ranked'
 
 const FAQS = [
   {
@@ -51,7 +52,7 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: TITLE,
+  title: META_TITLE,
   description: 'What smells do mosquitoes hate? Citronella, lemongrass, peppermint, lavender, oil of lemon eucalyptus and garlic — how well each actually repels mosquitoes, how long it lasts, and why scents are weaker than sprays. Ontario 2026 guide.',
   canonical: `/blog/${SLUG}`,
   type: 'article',

@@ -14,6 +14,7 @@ const SLUG = 'no-see-um-bites'
 const DATE = '2026-07-19'
 const UPDATED = '2026-07-19'
 const TITLE = 'No-See-Um Bites: What They Look Like, Why They Itch So Much & How to Treat Them (2026)'
+const META_TITLE = 'No-See-Um Bites: 3 Look-Alikes and How to Treat'
 
 const FAQS = [
   {
@@ -59,7 +60,7 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: TITLE,
+  title: META_TITLE,
   description:
     'What do no-see-um bites look like, why do they itch more than mosquito bites, and how long do they last? A bite-ID guide with a no-see-um vs mosquito vs flea vs chigger comparison, itch-relief treatment, why they slip through screens, and prevention.',
   canonical: `/blog/${SLUG}`,

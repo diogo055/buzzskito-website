@@ -14,8 +14,10 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 const POST = NEW_BLOGS_2[1]
 const UPDATED = POST.date
 
+const META_TITLE = 'Hidden Mosquito Breeding Spots: 12 in Your Yard'
+
 export const metadata: Metadata = buildMetadata({
-  title: 'Hidden Mosquito Breeding Spots in Your GTA Backyard (12 You Probably Missed, 2026)',
+  title: META_TITLE,
   description:
     'The 12 most-missed mosquito breeding sites in GTA backyards — gutters, saucers, tarps, low lawn spots, recycling bins, kiddie pools. Find them, eliminate them, then layer professional barrier spray.',
   canonical: `/blog/${POST.slug}`,

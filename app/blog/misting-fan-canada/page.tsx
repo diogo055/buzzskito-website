@@ -14,6 +14,7 @@ const SLUG = 'misting-fan-canada'
 const DATE = '2026-07-14'
 const UPDATED = '2026-07-14'
 const TITLE = 'Best Outdoor Misting Fans in Canada 2026 for Patios — and Do They Keep Mosquitoes Away?'
+const META_TITLE = 'Best Outdoor Misting Fans Canada 2026 for Patios'
 
 const FAQS = [
   {
@@ -59,7 +60,7 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: TITLE,
+  title: META_TITLE,
   description: 'Do outdoor misting fans keep mosquitoes away? An honest 2026 guide for Canadian patios — complete fans vs kits, evaporative cooling for GTA heat waves, hard-water nozzle care, pre-frost storage, and how misting fans stack up against zappers and barrier spray.',
   canonical: `/blog/${SLUG}`,
   type: 'article',

@@ -13,6 +13,7 @@ const SLUG = 'how-to-keep-mice-out-of-your-house-winter'
 const DATE = '2026-07-16'
 const UPDATED = '2026-07-16'
 const TITLE = 'How to Keep Mice Out of Your House This Winter — Canadian Exclusion Guide 2026'
+const META_TITLE = 'Keep Mice Out of Your House in Winter: 6 mm Rule'
 
 const FAQS = [
   {
@@ -66,7 +67,7 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: TITLE,
+  title: META_TITLE,
   description: 'October exclusion checklist for Canadian homes: seal 6 mm gaps with steel wool + sealant, fix garage-door corners, AC line penetrations, and brick weep holes before the first frost. Updated 2026.',
   canonical: `/blog/${SLUG}`,
   type: 'article',

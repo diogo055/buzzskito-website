@@ -14,6 +14,7 @@ const SLUG = 'mosquito-magnet-canada'
 const DATE = '2026-05-01'
 const UPDATED = '2026-05-01'
 const TITLE = 'Mosquito Magnet Canada 2026 — Where to Buy + Do They Actually Work?'
+const META_TITLE = 'Mosquito Magnet Canada 2026: Where to Buy It'
 
 const FAQS = [
   {
@@ -59,7 +60,7 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: TITLE,
+  title: META_TITLE,
   description: 'Where to buy Mosquito Magnet in Canada (Costco, Amazon.ca, Cabela\'s, Lee Valley pricing), how propane CO₂ traps work, Patriot vs Executive vs Independence comparison, and whether they\'re worth it vs professional barrier spray. Updated 2026.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
