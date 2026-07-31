@@ -49,9 +49,21 @@ export const ALL_CLUSTER_TAGS: string[] = Object.values(CLUSTER_TAGS)
 //   unregistered tag earns nothing. Add the rule + CLUSTER_TAGS entry + the mirror in
 //   scripts/check-amazon.mjs only once that ID exists on the account.
 const RULES: Array<[RegExp, Cluster]> = [
-  [/bed-?bug|packtite|zappbug|thermalstrike|thermal-strike|sleep-tight|encasement|cimexa|ecoraider/, 'bedbug'],
+  // `punaise` = the French bed-bug term. French-language bed-bug pages sell the
+  // same encasements and interceptors as the English ones, so they must bill to
+  // the SAME existing bedbug tracking ID — no new tracking ID is involved.
+  [/bed-?bug|punaise|packtite|zappbug|thermalstrike|thermal-strike|sleep-tight|encasement|cimexa|ecoraider/, 'bedbug'],
   [/\btick|lyme|blacklegged/, 'tick'],
-  [/mosquito|dynatrap|mosquito-magnet|west-nile|thermacell|permethrin|picaridin|\bdeet\b|repellent|citronella/, 'mosquito'],
+  // `screen-door` = magnetic screen-door curtains. These are mosquito-barrier
+  // products whose slugs happen not to contain the word "mosquito"; they bill to
+  // the SAME existing mosquito tracking ID — no new tracking ID is involved.
+  // `repellent` MUST stay anchored to a mosquito-specific qualifier. Unanchored, the
+  // bare word swallowed every rodent repellent slug before the rodent rule below ever
+  // ran — mouse-repellent-canada and best-rodent-repellent-for-cars-canada both billed
+  // to the mosquito tracking ID, which defeats the entire point of per-cluster
+  // attribution. Every mosquito repellent slug already carries "mosquito", and every
+  // tick repellent slug is caught by the tick rule above, so nothing is lost.
+  [/mosquito|dynatrap|mosquito-magnet|west-nile|thermacell|permethrin|picaridin|\bdeet\b|insect-repellent|bug-repellent|citronella|screen-door/, 'mosquito'],
   [/raccoon|deer|electric-fence|fence-charger|fence-for|repeller|yard-enforcer|havahart|zareba|nuisance-wildlife|spray-away|live-animal-trap|live-trap|motion-activated-sprinkler/, 'wildlife'],
   [/mouse|mice|\brat\b|rat-|rats\b|rodent|attic|\brv\b|rv-|vole|chipmunk|\bmole|squirrel|gopher|exclusion|goodnature|\ba24\b|rat-zapper/, 'rodent'],
   // NOTE: `h-trap` (the H-Trap horse-fly trap) MUST stay anchored with \b — unanchored

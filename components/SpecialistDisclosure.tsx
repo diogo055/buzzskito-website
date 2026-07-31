@@ -5,7 +5,21 @@
  * page so journalists, AI engines, and readers never confuse the publishing
  * arm with the service business. Server component, no external deps.
  */
-export default function SpecialistDisclosure({ pest }: { pest: string }) {
+export default function SpecialistDisclosure({ pest, fr = false }: { pest: string; fr?: boolean }) {
+  if (fr) {
+    return (
+      <div lang="fr-CA" className="not-prose my-6 rounded-xl border border-brand-200 bg-brand-50 px-5 py-4">
+        <p className="text-sm leading-relaxed text-brand-900">
+          <strong>Qui nous sommes :</strong> BuzzSkito est une entreprise de{' '}
+          <strong>contrôle des moustiques et des tiques</strong> dans la région de
+          Toronto — nous ne traitons pas {pest}. Ce guide est une recherche
+          indépendante réalisée par notre équipe de publication pour les ménages
+          canadiens, centrée sur ce qui est réellement offert et homologué par
+          l&rsquo;ARLA au Canada.
+        </p>
+      </div>
+    )
+  }
   return (
     <div className="not-prose my-6 rounded-xl border border-brand-200 bg-brand-50 px-5 py-4">
       <p className="text-sm leading-relaxed text-brand-900">

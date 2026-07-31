@@ -222,7 +222,7 @@ export default function BugsThatLookLikeTicksPage() {
         </div>
 
         <h2>1. Bed Bugs</h2>
-        <p>The most common tick look-alike found indoors. Bed bugs (<em>Cimex lectularius</em>) are reddish-brown insects about the size of an apple seed when unfed, and they swell to a darker, balloon-like shape after feeding. Engorged bed bugs and engorged ticks can look very similar at a glance.</p>
+        <p>The most common tick look-alike found indoors. Bed bugs (<em>Cimex lectularius</em>) are reddish-brown insects about the size of an apple seed when unfed, and they swell to a darker, balloon-like shape after feeding. Engorged bed bugs and engorged ticks can look very similar at a glance. If the insect turned up in a mattress seam rather than on a trouser leg after a walk, the tick question is probably the wrong one &mdash; our guide to <Link href="/blog/bugs-that-look-like-bed-bugs-canada" className="text-brand-700 underline">bugs commonly mistaken for bed bugs in Canada</Link> runs the same elimination process across the nine indoor look-alikes.</p>
 
         <h3>How to tell them apart</h3>
         <ul>
@@ -291,7 +291,7 @@ export default function BugsThatLookLikeTicksPage() {
         </ul>
 
         <h2>6. Carpet Beetles</h2>
-        <p>Carpet beetles (family <em>Dermestidae</em>) are one of the most common &ldquo;is this a tick?&rdquo; finds indoors. Adults are only 2&ndash;4 mm, rounded and domed, and patterned with black, white, and orange scales — a shape and size that reads as a small unfed tick on a windowsill or baseboard.</p>
+        <p>Carpet beetles (family <em>Dermestidae</em>) are one of the most common &ldquo;is this a tick?&rdquo; finds indoors. Adults are only 2&ndash;4 mm, rounded and domed, and patterned with black, white, and orange scales — a shape and size that reads as a small unfed tick on a windowsill or baseboard. They are also the single most common bed-bug misidentification, so if you are finding them repeatedly rather than once, <Link href="/blog/how-to-get-rid-of-carpet-beetles-canada" className="text-brand-700 underline">how to get rid of carpet beetles in Canada</Link> covers the larvae doing the actual damage.</p>
 
         <h3>How to tell them apart</h3>
         <ul>

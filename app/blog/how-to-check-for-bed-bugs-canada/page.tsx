@@ -118,7 +118,7 @@ export default function HowToCheckForBedBugsCanadaPage() {
         <div className="max-w-3xl mx-auto prose-brand">
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
           <h2>What Are the 5 Signs of Bed Bugs?</h2>
-          <p>The five signs, in order of how conclusively they confirm an infestation, are: live bugs, cast skins, fecal spotting, eggs, and bite patterns — and only the first four count as proof. A single live bed bug is definitive. Everything else builds a case, and bites on their own build almost nothing.</p>
+          <p>The five signs, in order of how conclusively they confirm an infestation, are: live bugs, cast skins, fecal spotting, eggs, and bite patterns — and only the first four count as proof. A single live bed bug is definitive. Everything else builds a case, and bites on their own build almost nothing. Before trusting any of them, confirm the insect itself: carpet beetles, booklice and spider beetles all trigger false alarms, and <Link href="/blog/bugs-that-look-like-bed-bugs-canada" className="text-brand-700 underline">this look-alike identification guide</Link> separates them in under a minute.</p>
           <ol>
             <li><strong>Live bugs (definitive).</strong> Adults are 4–5 mm, flat, oval, reddish-brown — the classic comparison is an apple seed. After feeding they swell into a longer, darker, torpedo shape. Nymphs run 1–4.5 mm and are translucent to straw-coloured; a recently fed nymph looks like a moving drop of blood. Bed bugs have six legs and no wings — they cannot fly or jump, only crawl.</li>
             <li><strong>Cast skins / moulted shells (strong).</strong> Bed bugs moult five times on the way to adulthood, leaving behind translucent, bug-shaped shells in sizes from 1 mm up to adult size. Finding skins in multiple sizes means the population is breeding, not just a single hitchhiker.</li>
@@ -157,7 +157,7 @@ export default function HowToCheckForBedBugsCanadaPage() {
           </div>
 
           <h2>What Tools Do You Need to Check for Bed Bugs?</h2>
-          <p>Two tools do 95% of the job: a bright flashlight and a thin, stiff card. The flashlight, held at a low raking angle, makes eggs and spotting pop against fabric; the card — an old credit card or a paint scraper — gets dragged slowly through mattress piping, frame joints, and baseboard gaps to flush bugs and debris out of cracks your eyes cannot reach. A cheap magnifier helps distinguish a 1.5 mm nymph from a carpet beetle larva.</p>
+          <p>Two tools do 95% of the job: a bright flashlight and a thin, stiff card. The flashlight, held at a low raking angle, makes eggs and spotting pop against fabric; the card — an old credit card or a paint scraper — gets dragged slowly through mattress piping, frame joints, and baseboard gaps to flush bugs and debris out of cracks your eyes cannot reach. A cheap magnifier helps distinguish a 1.5 mm nymph from a carpet beetle larva. What the flashlight finds most often is fecal spotting, and <Link href="/blog/bed-bug-stains-poop-droppings-canada" className="text-brand-700 underline">what bed bug droppings actually look like on a sheet</Link> walks through the damp-swab test that separates them from ink, blood and mould.</p>
           <AffiliateDisclosure />
           <div className="not-prose my-4 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="bed bug detection kit">Flashlight + card detection kit on Amazon.ca →</BuyLink>

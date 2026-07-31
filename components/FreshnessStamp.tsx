@@ -9,11 +9,14 @@
 export default function FreshnessStamp({
   date,
   tone = 'light',
+  fr = false,
 }: {
   date: string
   tone?: 'light' | 'dark'
+  /** Render the stamp in French (for fr-CA pages). */
+  fr?: boolean
 }) {
-  const formatted = new Date(date).toLocaleDateString('en-CA', { year: 'numeric', month: 'long' })
+  const formatted = new Date(date).toLocaleDateString(fr ? 'fr-CA' : 'en-CA', { year: 'numeric', month: 'long' })
   return (
     <span
       className={`inline-flex items-center gap-1.5 text-xs font-semibold ${
@@ -23,7 +26,7 @@ export default function FreshnessStamp({
       <svg className="h-3.5 w-3.5" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24" aria-hidden="true">
         <path strokeLinecap="round" strokeLinejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
       </svg>
-      Updated {formatted}
+      {fr ? 'Mis à jour en ' : 'Updated '}{formatted}
     </span>
   )
 }

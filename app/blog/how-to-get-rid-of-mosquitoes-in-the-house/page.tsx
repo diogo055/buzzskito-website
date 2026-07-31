@@ -114,7 +114,7 @@ export default function GetRidOfMosquitoesInHousePage() {
 
           <h2>How do you get rid of mosquitoes inside the house?</h2>
           <p>There are four moves, and doing them in order matters. First, deny them the air: a fan aimed at where you sit or sleep protects you immediately. Second, hunt the adults already inside. Third, kill the breeding source so no new ones hatch. Fourth, seal the entry points so the problem doesn&rsquo;t come back. Everything below is detail on those four steps.</p>
-          <p>The most important mindset shift: the mosquito buzzing your bedroom did not spawn there. It either flew in through a gap or hatched from water sitting somewhere in your home. If you only swat the adult, another one shows up the next night. You have to close the door <em>and</em> drain the water.</p>
+          <p>The most important mindset shift: the mosquito buzzing your bedroom did not spawn there. It either flew in through a gap or hatched from water sitting somewhere in your home. If you only swat the adult, another one shows up the next night. You have to close the door <em>and</em> drain the water. If it flew in, the gap is usually a door that is propped or slow to close, which is exactly the job <Link href="/blog/best-magnetic-screen-door-canada" className="text-brand-700 underline">a magnetic screen door</Link> is built for.</p>
 
           <div className="not-prose my-6 rounded-xl bg-emerald-50 border-l-4 border-emerald-400 p-4">
             <p className="text-sm text-gray-800 leading-relaxed">

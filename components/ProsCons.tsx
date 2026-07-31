@@ -6,16 +6,19 @@
 export default function ProsCons({
   pros = [],
   cons = [],
+  fr = false,
 }: {
   pros?: string[]
   cons?: string[]
+  /** Render the column labels in French (for fr-CA pages). */
+  fr?: boolean
 }) {
   if (pros.length === 0 && cons.length === 0) return null
   return (
     <div className="not-prose my-5 grid gap-3 sm:grid-cols-2">
       {pros.length > 0 && (
         <div className="rounded-xl border border-emerald-200 bg-emerald-50/60 p-4">
-          <p className="mb-2 text-xs font-extrabold uppercase tracking-wider text-emerald-700">Pros</p>
+          <p className="mb-2 text-xs font-extrabold uppercase tracking-wider text-emerald-700">{fr ? 'Avantages' : 'Pros'}</p>
           <ul className="space-y-1.5">
             {pros.map((p, i) => (
               <li key={i} className="flex gap-2 text-sm text-gray-700">
@@ -28,7 +31,7 @@ export default function ProsCons({
       )}
       {cons.length > 0 && (
         <div className="rounded-xl border border-rose-200 bg-rose-50/50 p-4">
-          <p className="mb-2 text-xs font-extrabold uppercase tracking-wider text-rose-700">Cons</p>
+          <p className="mb-2 text-xs font-extrabold uppercase tracking-wider text-rose-700">{fr ? 'Inconvénients' : 'Cons'}</p>
           <ul className="space-y-1.5">
             {cons.map((c, i) => (
               <li key={i} className="flex gap-2 text-sm text-gray-700">

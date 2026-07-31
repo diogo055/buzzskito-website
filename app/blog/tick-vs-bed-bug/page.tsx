@@ -164,7 +164,7 @@ export default function TickVsBedBugPage() {
           />
 
           <h2>Why They Get Confused</h2>
-          <p>The confusion is understandable. Both are small, brown, wingless, and both <strong>engorge after a blood meal</strong> — which changes their shape enough that a fed tick and a fed bed bug can look genuinely similar to the naked eye. An unfed blacklegged tick is roughly 3 mm and flat; engorged, it swells to pea-sized and turns a grey-blue. An unfed bed bug is a flat 5 mm lentil; after feeding it rounds out and darkens to deep red.</p>
+          <p>The confusion is understandable. Both are small, brown, wingless, and both <strong>engorge after a blood meal</strong> — which changes their shape enough that a fed tick and a fed bed bug can look genuinely similar to the naked eye. An unfed blacklegged tick is roughly 3 mm and flat; engorged, it swells to pea-sized and turns a grey-blue. An unfed bed bug is a flat 5 mm lentil; after feeding it rounds out and darkens to deep red. Ticks are only one candidate, though. If you are not yet certain the insect is either one, work through <Link href="/blog/bugs-that-look-like-bed-bugs-canada" className="text-brand-700 underline">the nine insects that get mistaken for bed bugs</Link> first and narrow the field before spending anything.</p>
           <p>The features that never change are the leg count and the behaviour. Ticks are arachnids — eight legs, no antennae — and they stay latched. Bed bugs are insects — six legs, obvious antennae — and they never attach.</p>
 
           <aside aria-label="Professional tick control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">

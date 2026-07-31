@@ -1928,6 +1928,50 @@ export const NEW_BLOGS_34 = [
   { slug: "best-flea-bomb-canada", title: "Best Flea Bomb in Canada 2026 — Why an IGR Spray Beats Every Fogger on the Shelf", excerpt: "Flea bomb guide for Canada: total-release foggers miss the 95% of fleas living as eggs, larvae and pupae in carpet base — here is what to buy instead.", date: '2026-07-28', category: 'tick' as const },
 ]
 
+// ── Wave map-to-1000 #6 — Wave 7: 4 autumn-window identification / decision pages
+// (Jul 30 2026). Bed-bug look-alikes, mouse repellent, stink bugs, mouse droppings.
+export const NEW_BLOGS_35 = [
+  { slug: "bugs-that-look-like-bed-bugs-canada", title: "Bugs That Look Like Bed Bugs in Canada — The Nine Look-Alikes, and How to Tell Which One You Have", excerpt: "Bugs that look like bed bugs in Canada: carpet beetles, booklice, spider beetles, bat bugs, cockroach nymphs and ticks — how to tell them apart before you spend a dollar.", date: '2026-07-30', category: 'tick' as const },
+  { slug: "mouse-repellent-canada", title: "Mouse Repellent in Canada — What Actually Repels a Mouse, and What Just Sells Well", excerpt: "Mouse repellent in Canada: which types have real evidence, why ultrasonic and peppermint fail, and the exclusion-and-trap plan that actually works.", date: '2026-07-30', category: 'tick' as const },
+  { slug: "how-to-get-rid-of-stink-bugs-canada", title: "How to Get Rid of Stink Bugs in Canada — Get Them Out Without the Smell, Then Seal Them Out for Good", excerpt: "Stink bugs in Canada: how to get them out without the smell, the late-summer sealing window that keeps them out, and why indoor sprays make it worse.", date: '2026-07-30', category: 'tick' as const },
+  { slug: "what-does-mouse-poop-look-like-canada", title: "What Does Mouse Poop Look Like? — The Canadian ID Guide, and the Cleanup Order That Matters", excerpt: "What does mouse poop look like? Dark rice-grain pellets 3-6 mm, pointed at both ends — and how to tell them from rat, bat and roach droppings.", date: '2026-07-30', category: 'tick' as const },
+]
+
+// ── Wave map-to-1000 #6 — Wave 7b: 4 October-window pages (Jul 30 2026).
+// Bed-bug life stage + bite comparison, the Doktor Doom brand hub, and the site's
+// FIRST French-language page (a single fr-CA beachhead to measure — do not add a
+// second until it has 90 days of data). Numbered 38 to leave 36–37 free for the
+// sibling build waves shipping the same day.
+export const NEW_BLOGS_38 = [
+  { slug: "baby-bed-bugs-nymphs-canada", title: "Baby Bed Bugs in Canada — What Nymphs Look Like at Each Stage, and Why Finding One Changes the Plan", excerpt: "Baby bed bugs (nymphs) are 1–4.5 mm, translucent, and moult five times. How to tell them from carpet beetle larvae and booklice — and why finding one matters.", date: '2026-07-30', category: 'tick' as const },
+  { slug: "bed-bug-bites-vs-mosquito-bites", title: "Bed Bug Bites vs Mosquito Bites — Five Tells That Separate Them, and What to Do About Each", excerpt: "Bed bug bites vs mosquito bites: five tells that separate them — pattern, timing, where on the body, season and the room evidence that actually confirms it.", date: '2026-07-30', category: 'mosquito' as const },
+  { slug: "doktor-doom-canada-guide", title: "Doktor Doom in Canada — Which Product Does Which Job, and the Three Jobs It Is Wrong For", excerpt: "Doktor Doom in Canada: which product does which job, what the PCP registration number on the can actually buys you, and the three jobs the brand is wrong for.", date: '2026-07-30', category: 'tick' as const },
+  { slug: "traces-punaises-de-lit-matelas", title: "Traces de punaises de lit sur un matelas — lire les points noirs, les taches et les mues", excerpt: "Traces de punaises de lit sur un matelas : comment distinguer déjections, taches de sang, mues et œufs — et quoi faire avant d’acheter un produit.", date: '2026-07-30', category: 'tick' as const },
+]
+
+// ── Wave map-to-1000 #6 — Wave 7c: 8 sibling pages shipped 30 Jul 2026 (the slot
+// NEW_BLOGS_38's header reserved). Four bed-bug evidence/decision pages, plus the
+// four seasonal on-moat pages: pantry moths, carpet beetles, voles, carpenter bees
+// and the magnetic screen door. Build order 20 (squirrels) was deliberately NOT
+// shipped — it is a Feb-2027 page and does not exist on disk.
+export const NEW_BLOGS_36 = [
+  { slug: "pantry-moth-traps-canada", title: "Pantry Moth Traps in Canada — What They Actually Catch, What They Cannot, and the Cupboard Purge That Ends It", excerpt: "Pantry moth traps in Canada: what a pheromone trap actually catches (adult males only), how many to buy, and the cupboard purge that genuinely ends it.", date: '2026-07-30', category: 'tick' as const },
+  { slug: "bed-bug-stains-poop-droppings-canada", title: "Bed Bug Stains and Droppings — What Bed Bug Poop Actually Looks Like, and the Five Marks It Gets Confused With", excerpt: "Bed bug poop and stains explained: what the black pen-tip spots are, the damp-swab test that confirms them, and the five marks people confuse them with.", date: '2026-07-30', category: 'tick' as const },
+  { slug: "bed-bugs-on-the-ttc-toronto", title: "Bed Bugs on the TTC — What a Toronto Commuter Should Actually Worry About, and the Routine at the Door That Matters", excerpt: "Bed bugs on the TTC: why transit is a far poorer route than your own bedroom, what to do if you see one on a seat, and the door routine that works.", date: '2026-07-30', category: 'tick' as const },
+  { slug: "what-kills-bed-bugs-instantly-canada", title: "What Kills Bed Bugs Instantly in Canada — The Short List That Works on Contact, and Why Instant Is the Wrong Goal", excerpt: "What kills bed bugs instantly in Canada: steam, direct heat and a registered contact spray — plus why alcohol is a fire risk and foggers never reach them.", date: '2026-07-30', category: 'tick' as const },
+  { slug: "how-to-get-rid-of-carpet-beetles-canada", title: "How to Get Rid of Carpet Beetles in Canada — The Larvae Are the Pest, and the Vacuum Is the Weapon", excerpt: "Carpet beetles in Canada: the larvae do all the damage, not the adults. How to tell them from bed bugs and clothes moths, and the vacuum-first plan.", date: '2026-07-30', category: 'tick' as const },
+  { slug: "how-to-get-rid-of-voles-canada", title: "How to Get Rid of Voles in Canada — Vole vs Mouse, and Why the Damage Only Shows Up at Snowmelt", excerpt: "Voles in Canada: how to tell a vole from a mouse or a mole, why the runways appear at snowmelt, and the trapping, guards and habitat fixes that work.", date: '2026-07-30', category: 'tick' as const },
+  { slug: "best-magnetic-screen-door-canada", title: "Best Magnetic Screen Door in Canada — How to Size It, Which Mesh to Buy, and Why Most of Them Fail at the Top", excerpt: "Magnetic screen doors in Canada: how to measure the frame so it actually seals, standard vs no-see-um mesh, and the mounting failure that kills most of them.", date: '2026-07-30', category: 'mosquito' as const },
+  { slug: "how-to-get-rid-of-carpenter-bees-canada", title: "How to Get Rid of Carpenter Bees in Canada — Treat the Gallery, Plug It, Then Paint", excerpt: "Carpenter bees in Canada: how to tell them from bumblebees, why the males cannot sting, and the treat-plug-paint order that stops the holes returning.", date: '2026-07-30', category: 'tick' as const },
+]
+
+// ── Autumn 2026 build wave — bed-bug evidence, bed-bug cost, drain flies ──────
+export const NEW_BLOGS_37 = [
+  { slug: "bed-bug-shells-casings-shed-skins-canada", title: "Bed Bug Shells, Casings and Shed Skins — What You Found, and What It Actually Proves", excerpt: "Bed bug shells are moulted skins, not dead bugs. What a casing proves about feeding and breeding, how to tell one from a carpet beetle skin, and what to do next.", date: '2026-07-30', category: 'tick' as const },
+  { slug: "bed-bug-treatment-cost-canada", title: "Bed Bug Treatment Cost in Canada — What Decides the Number, and When DIY Is Genuinely Cheaper", excerpt: "Bed bug treatment cost in Canada: published heat vs chemical ranges with sources, what makes quotes vary, who pays in an Ontario rental, and when DIY is cheaper.", date: '2026-07-30', category: 'tick' as const },
+  { slug: "how-to-get-rid-of-drain-flies-canada", title: "How to Get Rid of Drain Flies in Canada — The Biofilm Is the Problem, Not the Drain", excerpt: "Drain flies breed in the biofilm coating your pipe walls, not in the water. Why bleach fails, the overnight tape test that finds the right drain, and the fix.", date: '2026-07-30', category: 'tick' as const },
+]
+
 // ── Season helpers ─────────────────────────────────────────────────────────────
 
 export const PEAK_SEASON = 'May through July'

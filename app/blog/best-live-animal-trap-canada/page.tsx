@@ -286,7 +286,7 @@ export default function BestLiveAnimalTrapCanadaPage() {
               </tbody>
             </table>
           </div>
-          <p>The pattern is consistent: a trap is the right buy only when a legal on-site release plus exclusion solves the problem — mainly groundhogs and some rodents. Everywhere else, either a deterrent (cheaper, no handling) or a licensed operator (safe, legal, effective) beats a cage trap. Spending trap money on hardware cloth and a motion sprinkler prevents the next animal too; spending it on a trap you use wrong just relocates the problem 900 metres down the street.</p>
+          <p>The pattern is consistent: a trap is the right buy only when a legal on-site release plus exclusion solves the problem — mainly groundhogs and some rodents. Everywhere else, either a deterrent (cheaper, no handling) or a licensed operator (safe, legal, effective) beats a cage trap. Spending trap money on hardware cloth and a motion sprinkler prevents the next animal too; spending it on a trap you use wrong just relocates the problem 900 metres down the street. Voles are one of the clearest cases for a kill trap over a cage, because they are a turf pest with no realistic release option &mdash; see <Link href="/blog/how-to-get-rid-of-voles-canada" className="text-brand-700 underline">the vole trapping, guard and habitat plan</Link>.</p>
 
           <h2>How to Use a Live Trap Humanely, Step by Step</h2>
           <ol>

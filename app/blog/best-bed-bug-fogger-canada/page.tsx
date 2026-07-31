@@ -146,26 +146,17 @@ export default function BestBedBugFoggerCanadaPage() {
               },
               {
                 badge: 'Better Chemical Step',
-                name: 'PMRA-Registered Residual Crack-and-Crevice Spray',
-                why: 'If you are set on a chemical step, a directed residual spray injected into seams, cracks, and screw holes does what a fog cannot — it puts product exactly where bugs shelter and keeps killing for weeks, whereas a fog only settles on exposed surfaces. This is where fogger money is better spent.',
-                search: 'bed bug crack crevice spray canada',
+                name: 'Doktor Doom Pro Max Residual Spray',
+                why: 'If you are set on a chemical step, a directed residual spray injected into seams, cracks, and screw holes does what a fog cannot — it puts product exactly where bugs shelter and keeps killing for weeks, whereas a fog only settles on exposed surfaces. Pro Max is a PMRA-registered permethrin residual for baseboards, bed legs, frames, and furniture perimeters; it is not for mattresses or bedding, so read the label use sites before you spray. This is where fogger money is better spent.',
+                search: 'doktor doom pro max',
                 score: 8.3,
-                pros: ['Targets harbourage directly', 'Weeks of residual activity', 'Far more useful than an aerosol fog'],
-                cons: ['Still limited by resistance', 'Requires careful application', 'Not a fogger'],
-              },
-              {
-                badge: 'Skip This',
-                name: 'US-Market &ldquo;Bed Bug Bomb&rdquo; Imports',
-                why: 'Popular American bed-bug foggers are formulated and registered for the US market and are generally NOT registered for sale in Canada. Buying them across the border or from grey-market resellers means using an unregistered pesticide here — avoid.',
-                search: 'pmra registered bed bug fogger canada',
-                score: 6.8,
-                pros: ['Widely advertised', 'Cheap online'],
-                cons: ['Not PMRA-registered for Canada', 'Grey-market / non-compliant', 'Same reach and resistance failures'],
+                pros: ['Targets harbourage directly', 'Weeks of residual activity', 'PMRA-registered — the PCP number is on the can'],
+                cons: ['Still limited by resistance', 'Not for mattresses or bedding', 'Requires careful, directed application'],
               },
             ]}
             whichToBuy={
               <>
-                <strong>Determined to fog an open room?</strong> Use the <em>Best PMRA Fogger</em> from Doktor Doom, strictly to the label, as a minor flush only. <strong>Large open space?</strong> The <em>Best for Large Rooms</em> Konk aerosol covers more ground. <strong>Want a chemical step that actually helps?</strong> Spend on the <em>Better Chemical Step</em> residual spray instead. And <strong>avoid</strong> the <em>Skip This</em> US imports entirely &mdash; they are not registered for Canada. The real fix lives in <Link href="/blog/best-bed-bug-steamer-canada">steam</Link> and <Link href="/blog/bed-bug-heater-canada">heat</Link>, not fog.
+                <strong>Determined to fog an open room?</strong> Use the <em>Best PMRA Fogger</em> from Doktor Doom, strictly to the label, as a minor flush only. <strong>Large open space?</strong> The <em>Best for Large Rooms</em> Konk aerosol covers more ground. <strong>Want a chemical step that actually helps?</strong> Spend on the <em>Better Chemical Step</em> residual spray instead. <strong>And do not buy a US-market &ldquo;bed bug bomb&rdquo; at all</strong> &mdash; the heavily advertised American cans are not PMRA-registered for Canada, so there is nothing here to link you to; see <Link href="/blog/bed-bug-spray-canada">what is actually registered and sold here</Link>. The real fix lives in <Link href="/blog/best-bed-bug-steamer-canada">steam</Link> and <Link href="/blog/bed-bug-heater-canada">heat</Link>, not fog.
               </>
             }
           />
@@ -217,14 +208,14 @@ export default function BestBedBugFoggerCanadaPage() {
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Yes</strong> &mdash; injected into cracks</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Partly</strong> &mdash; product-dependent</td>
                   <td className="px-4 py-3 text-gray-700">Weeks of residual in harbourage</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bed bug crack crevice spray canada" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="doktor doom pro max" block>Check price →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Desiccant dust<br /><span className="font-normal text-xs text-gray-500">diatomaceous earth, silica</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Yes</strong> &mdash; blown into voids</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">No</strong> &mdash; physical, not chemical</td>
                   <td className="px-4 py-3 text-gray-700">Long-term kill in wall voids &amp; edges</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="diatomaceous earth bed bugs" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="safers diatomaceous earth" block>Check price →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -254,7 +245,7 @@ export default function BestBedBugFoggerCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="doktor doom total release fogger">Doktor Doom fogger →</BuyLink>
             <BuyLink tag={AMZ_TAG} search="konk total release fogger">Konk fogger →</BuyLink>
             <BuyLink tag={AMZ_TAG} search="bed bug steamer">Bed-bug steamer →</BuyLink>
-            <BuyLink tag={AMZ_TAG} search="bed bug crack crevice spray canada">Residual spray →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="doktor doom pro max">Doktor Doom Pro Max residual →</BuyLink>
           </div>
 
           <h2>Why Foggers Cannot Reach Bed Bugs</h2>
@@ -266,7 +257,7 @@ export default function BestBedBugFoggerCanadaPage() {
           <p>The practical upshot is grim for the fogger buyer: you are delivering a resisted chemical, by a method that misses the target, at a dose that is often sub-lethal by the time it settles. And sub-lethal exposure is worse than useless &mdash; it is the exact selection pressure that breeds still-tougher survivors. This is why heat-based tools matter so much: a bed bug cannot evolve resistance to being cooked. A <Link href="/blog/best-bed-bug-steamer-canada">steamer</Link> or a <Link href="/blog/bed-bug-heater-canada">heater</Link> kills by physics, not chemistry, so resistance is irrelevant.</p>
 
           <h2>The PMRA-Registered vs Grey-Market Trap</h2>
-          <p>If you are going to buy a fogger anyway, the one rule you must not break is legality. In Canada every pesticide &mdash; including every fogger, spray, and dust &mdash; must be registered with Health Canada&rsquo;s Pest Management Regulatory Agency (PMRA) and carry a Pest Control Products (PCP) registration number printed on the label. That number is your proof the product was assessed for use in Canadian homes. Canadian brands such as Doktor Doom and Konk make total-release foggers that carry a PCP number and are legal to buy and use here.</p>
+          <p>If you are going to buy a fogger anyway, the one rule you must not break is legality. In Canada every pesticide &mdash; including every fogger, spray, and dust &mdash; must be registered with Health Canada&rsquo;s Pest Management Regulatory Agency (PMRA) and carry a Pest Control Products (PCP) registration number printed on the label. That number is your proof the product was assessed for use in Canadian homes. Canadian brands such as Doktor Doom and Konk make total-release foggers that carry a PCP number and are legal to buy and use here. Doktor Doom is the most widely stocked PMRA-registered option in this aisle, and <Link href="/blog/doktor-doom-canada-guide" className="text-brand-700 underline">the full Doktor Doom line-up explained</Link> shows where each can genuinely belongs.</p>
           <p>The trap is the grey market. Many of the most heavily advertised American &ldquo;bed bug bombs&rdquo; &mdash; the names you see all over US-focused search results &mdash; are formulated and registered for the American market and are <strong>not registered for sale in Canada</strong>. When they appear on cross-border listings or third-party marketplace sellers shipping into Canada, buying and using them means applying an unregistered pesticide in your home, which is not legal and carries no Canadian safety assessment. Before you buy any fogger, find the PCP number on the can. No number, no purchase. This is the single compliance point that separates a legal Canadian fogger from a border-hopped US product that happens to look identical.</p>
 
           <h2>How a Fogger Can Make Things Worse</h2>

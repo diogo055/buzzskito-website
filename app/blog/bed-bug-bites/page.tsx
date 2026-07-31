@@ -142,30 +142,9 @@ export default function BedBugBitesPage() {
         <p>The line pattern has a simple mechanical explanation: a single bug often probes several spots in one feeding session &mdash; it gets disturbed when the sleeper shifts, detaches, and reattaches a centimetre or two away. Bugs also feed along the edge where bedding or clothing meets exposed skin, so the row of welts frequently traces a collar line, a waistband, or the edge of a sheet.</p>
         <p>Location is the other half of the picture. Bed bugs cannot bite through fabric, so welts concentrate on <strong>skin that was uncovered during sleep</strong>: the face, neck, shoulders, arms, hands, and lower legs. Bites across areas that were snugly covered all night count as evidence <em>against</em> bed bugs. Reactions vary enormously person to person &mdash; from nothing at all to large hives or small blisters &mdash; which is why two people sharing a bed can wake up looking like they slept in different houses.</p>
 
-        <h2>Bed bug bites vs mosquito bites: how do you tell them apart?</h2>
-        <p>The fastest separators are <strong>pattern, timing, and context</strong>: bed bug bites arrive in lines or clusters after indoor sleep and can lag the actual bite by days, while mosquito bites are scattered singles that welt up within minutes of time outdoors. Here is the full comparison:</p>
-        <div className="overflow-x-auto not-prose my-6">
-          <table className="w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden">
-            <thead className="bg-brand-50">
-              <tr>
-                <th className="px-3 py-2 text-left">Feature</th>
-                <th className="px-3 py-2 text-left">Bed bug bites</th>
-                <th className="px-3 py-2 text-left">Mosquito bites</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr className="border-t border-navy-50"><td className="px-3 py-2 font-semibold">Pattern</td><td className="px-3 py-2">Lines, curves, or clusters of 3&ndash;5 (&ldquo;breakfast, lunch, dinner&rdquo;)</td><td className="px-3 py-2">Random, scattered singles</td></tr>
-              <tr className="border-t border-navy-50"><td className="px-3 py-2 font-semibold">When marks appear</td><td className="px-3 py-2">Hours to 14 days after the bite (per the CDC)</td><td className="px-3 py-2">Within minutes</td></tr>
-              <tr className="border-t border-navy-50"><td className="px-3 py-2 font-semibold">Where on the body</td><td className="px-3 py-2">Skin exposed during sleep: face, neck, arms, hands</td><td className="px-3 py-2">Any exposed skin, especially ankles and legs outdoors</td></tr>
-              <tr className="border-t border-navy-50"><td className="px-3 py-2 font-semibold">When you were bitten</td><td className="px-3 py-2">Overnight, indoors, any month of the year</td><td className="px-3 py-2">Outdoors, dawn and dusk, warm season</td></tr>
-              <tr className="border-t border-navy-50"><td className="px-3 py-2 font-semibold">Sensation at the time</td><td className="px-3 py-2">Painless &mdash; saliva contains an anaesthetic</td><td className="px-3 py-2">Often felt; itchy almost immediately</td></tr>
-              <tr className="border-t border-navy-50"><td className="px-3 py-2 font-semibold">How long they last</td><td className="px-3 py-2">1&ndash;2 weeks; dark marks can linger longer</td><td className="px-3 py-2">A few days</td></tr>
-              <tr className="border-t border-navy-50"><td className="px-3 py-2 font-semibold">Supporting evidence</td><td className="px-3 py-2">Blood smears on sheets, black fecal dots, shed skins, live bugs</td><td className="px-3 py-2">None &mdash; the insect is long gone</td></tr>
-              <tr className="border-t border-navy-50"><td className="px-3 py-2 font-semibold">Disease risk</td><td className="px-3 py-2">Not known to transmit disease (CDC, Health Canada)</td><td className="px-3 py-2">Can transmit West Nile virus and other pathogens</td></tr>
-            </tbody>
-          </table>
-        </div>
-        <p>Season and setting do a lot of work here. Across most of North America, waking up with fresh welts in January points strongly away from mosquitoes &mdash; and a cluster of new bites after a hotel stay, a used-furniture purchase, or a move points strongly toward bed bugs. Wondering about ticks instead? A tick is a different situation entirely &mdash; it stays attached to the skin and carries real disease risk &mdash; and our <Link href="/blog/tick-vs-bed-bug">tick vs bed bug guide</Link> covers that comparison in full.</p>
+        <h2>What else could have bitten you?</h2>
+        <p>If the other suspect is a mosquito, the separators are <strong>pattern, timing, and context</strong>: bed bug bites arrive in lines or clusters after indoor sleep and can lag the actual bite by days, while mosquito bites are scattered singles that welt up within minutes of time outdoors. That comparison has its own decision guide &mdash; <Link href="/blog/bed-bug-bites-vs-mosquito-bites" className="text-brand-700 underline">the five tells that separate bed bug bites from mosquito bites</Link> &mdash; which runs the full side-by-side, including season, and the different plan each answer leads to.</p>
+        <p>Two other lookalikes are worth ruling out. A tick is a different situation entirely &mdash; it stays attached to the skin and carries real disease risk &mdash; and our <Link href="/blog/tick-vs-bed-bug">tick vs bed bug guide</Link> covers that comparison in full. Very small bed bug nymphs bite too, and their bites are easy to attribute to something else; <Link href="/blog/baby-bed-bugs-nymphs-canada" className="text-brand-700 underline">the guide to baby bed bugs</Link> shows what to look for at 1&ndash;4.5 mm.</p>
 
         <h2>Bed bug bites vs flea bites</h2>
         <p>The giveaway is <strong>altitude</strong>: flea bites cluster around the ankles and lower legs &mdash; the height a flea can jump to from the floor &mdash; while bed bug bites favour the upper body and face, wherever skin was exposed in bed. Flea bites are also smaller, with a distinctive look: a tiny red spot with a lighter halo around it, and a sharp itch that starts fast.</p>
@@ -198,7 +177,7 @@ export default function BedBugBitesPage() {
         <p>A bite that keeps getting <em>worse</em> after the first several days &mdash; expanding redness, growing pain, warmth, or pus &mdash; is outside the normal pattern and belongs in the &ldquo;see a doctor&rdquo; column below.</p>
 
         <h2>Do bed bug bites itch?</h2>
-        <p>Usually yes &mdash; often intensely, and typically <strong>more than a mosquito bite and for longer</strong>. The itch tends to peak in the morning and evening and can be maddening enough to disrupt sleep on its own. But there is a critical exception: an estimated <strong>30% of people show no reaction at all</strong>, and the share is higher among older adults. In those people the bugs feed unnoticed indefinitely.</p>
+        <p>Usually yes &mdash; often intensely, and typically <strong>more than a mosquito bite and for longer</strong>. The itch tends to peak in the morning and evening and can be maddening enough to disrupt sleep on its own. But there is a critical exception: an estimated <strong>30% of people show no reaction at all</strong>, and the share is higher among older adults. In those people the bugs feed unnoticed indefinitely. For a side-by-side on the two most commonly swapped culprits, see <Link href="/blog/bed-bug-bites-vs-mosquito-bites" className="text-brand-700 underline">the five tells that separate bed bug bites from mosquito bites</Link>.</p>
         <p>The bite itself is painless while it happens. Bed bug saliva contains an anaesthetic and an anticoagulant, so the insect feeds for 3&ndash;10 minutes and leaves without waking the sleeper. Nobody feels the bite in the moment &mdash; the itch is always after the fact, which is exactly why the &ldquo;wait for bites&rdquo; strategy is such a poor detection method.</p>
 
         <h2>How do you treat bed bug bites?</h2>

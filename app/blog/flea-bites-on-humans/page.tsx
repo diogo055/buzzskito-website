@@ -131,7 +131,7 @@ export default function FleaBitesOnHumansPage() {
         </ul>
         <p>The itch starts <strong>within minutes</strong>. That fast reaction is one of the most useful tells, because the other common indoor biter &mdash; the bed bug &mdash; often produces a reaction delayed by hours or days.</p>
 
-        <h2>Flea bites vs bed bug bites vs mosquito bites: how do you tell?</h2>
+        <h2>Flea bites vs bed bug and mosquito bites: how do you tell?</h2>
         <p>The quickest separation is <strong>where the bites are, when they itch, and what pattern they form</strong>. Fleas hit the lower legs any time of day; bed bugs hit skin exposed during sleep; mosquitoes hit any exposed skin, mostly around dawn and dusk. Here is the full side-by-side:</p>
         <div className="overflow-x-auto not-prose my-6">
           <table className="w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden">
