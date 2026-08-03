@@ -324,7 +324,7 @@ export default function BugZappersCanadaPage() {
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="flowtron bug zapper outdoor">Check Flowtron price on Amazon.ca →</BuyLink>
           </div>
-          <p><strong>Reality check:</strong> none of these will noticeably reduce the mosquitoes biting you &mdash; that isn&rsquo;t what they&rsquo;re built for. If mosquitoes are the actual problem, a <Link href="/blog/thermacell-canada-where-to-buy">Thermacell patio zone</Link> or licensed <Link href="/mosquito-control">barrier spray</Link> will do more in one evening than a season of zapping moths.</p>
+          <p><strong>Reality check:</strong> none of these will noticeably reduce the mosquitoes biting you &mdash; that isn&rsquo;t what they&rsquo;re built for. If mosquitoes are the actual problem, a <Link href="/blog/thermacell-canada-where-to-buy">Thermacell patio zone</Link>, a same-day knockdown from a <Link href="/blog/mosquito-fogger-canada">mosquito fogger</Link>, or licensed <Link href="/mosquito-control">barrier spray</Link> will do more in one evening than a season of zapping moths.</p>
 
           <h2>Solar &amp; Outdoor Bug Zappers: Do They Work?</h2>
           <p>Solar bug zappers have taken off because they need no outlet &mdash; you stake one anywhere in the yard and a small panel charges a battery by day to run the UV light and electric grid after dark. For cordless placement (a far corner of the lot, a dock, a campsite) they&rsquo;re genuinely handy. Two honest caveats for Canadian yards: (1) the UV output on budget solar units is weak, so the kill radius is a few metres, not a whole yard; and (2) after a cloudy GTA day the battery may only run a couple of hours before it dies. Like every zapper, they catch mostly moths and gnats &mdash; not the female mosquitoes that actually bite.</p>
@@ -399,7 +399,7 @@ export default function BugZappersCanadaPage() {
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="electric fly swatter racket rechargeable">Check racket zappers on Amazon.ca →</BuyLink>
           </div>
-          <p>But for OUTDOOR yard mosquito control, racket zappers obviously don&rsquo;t scale. You can&rsquo;t swat a yard&rsquo;s worth of mosquitoes one at a time.</p>
+          <p>But for OUTDOOR yard mosquito control, racket zappers obviously don&rsquo;t scale. You can&rsquo;t swat a yard&rsquo;s worth of mosquitoes one at a time. The closest thing to an automated version is a <Link href="/blog/laser-mosquito-killer-photon-matrix-review">laser mosquito killer</Link>, which detects and shoots individual mosquitoes instead of waiting for them to fly into a grid &mdash; clever engineering, but short-range and far pricier than a $20 racket.</p>
 
           <h2>Related Reading</h2>
           <ul>

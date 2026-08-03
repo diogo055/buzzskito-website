@@ -398,7 +398,7 @@ export default function DynaTrapCanadaPage() {
           <h2>How the DynaTrap Mosquito Trap Works (and Why That Matters)</h2>
           <p>DynaTrap uses two ingredients: a UV light to attract insects, and a small fan to suck them into a catch basket where they dehydrate. The premium models add an Atrakta cartridge that releases octenol — a synthetic version of human breath/sweat compounds.</p>
           <p>The problem is fundamental: UV light attracts MANY species of flying insects, but most mosquitoes are <strong>not</strong> primarily UV-attracted. Female mosquitoes (the ones that bite) hunt for blood meals using CO₂, body heat, lactic acid, and skin scent — not light. UV light primarily attracts moths (which use it for navigation), beetles, midges, mayflies, and other phototactic species.</p>
-          <p>This is why University of Florida and Notre Dame studies consistently find DynaTrap-style devices catching 5% mosquitoes and 95% &ldquo;everything else.&rdquo; The Atrakta octenol cartridge modestly improves mosquito catch, but it&rsquo;s still well below <Link href="/blog/co2-mosquito-trap-canada">CO₂-generating</Link> <Link href="/blog/propane-mosquito-trap-canada">propane traps</Link>.</p>
+          <p>This is why University of Florida and Notre Dame studies consistently find DynaTrap-style devices catching 5% mosquitoes and 95% &ldquo;everything else.&rdquo; The Atrakta octenol cartridge modestly improves mosquito catch, but it&rsquo;s still well below <Link href="/blog/co2-mosquito-trap-canada">CO₂-generating</Link> <Link href="/blog/propane-mosquito-trap-canada">propane traps</Link>. A newer category skips the lure problem altogether: <Link href="/blog/laser-mosquito-killer-photon-matrix-review">laser mosquito zappers</Link> detect and shoot individual mosquitoes rather than trying to attract them, which trades the poor catch ratio for a range and line-of-sight limit instead.</p>
 
           <h2>What DynaTrap IS Good For</h2>
           <ul>
@@ -412,7 +412,7 @@ export default function DynaTrapCanadaPage() {
           <ul>
             <li><strong>Primary mosquito control</strong> — the catch ratio is too poor</li>
             <li><strong>Tick protection</strong> — ticks don&rsquo;t fly to traps</li>
-            <li><strong>Same-day yard rescue</strong> — even with continuous operation, mosquito reduction is modest</li>
+            <li><strong>Same-day yard rescue</strong> — even with continuous operation, mosquito reduction is modest; a barrier treatment or DIY <Link href="/blog/mosquito-fogger-canada">fogging for mosquitoes</Link> is what actually clears a yard before an evening outside</li>
             <li><strong>Properties bordering conservation areas</strong> — kills beneficial insects including pollinators</li>
             <li><strong>Replacing professional yard treatment</strong> — coverage area is too limited per dollar</li>
           </ul>

@@ -227,6 +227,7 @@ export default function MosquitoMagnetCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="mosquito magnet replacement net">Replacement nets →</BuyLink>
           </div>
           <p>Still comparing propane CO₂ traps before committing to the Mosquito Magnet ecosystem? Our <Link href="/blog/propane-mosquito-trap-canada">propane mosquito trap Canada guide</Link> covers the whole category — Mosquito Magnet alternatives, real running costs, and which units actually earn their keep.</p>
+          <p>The other device people cross-shop against a Magnet is the <Link href="/blog/laser-mosquito-killer-photon-matrix-review">mosquito laser</Link>. The photonic-fence concept is real in a lab, but the consumer units are still unproven pre-orders, so it isn&rsquo;t a substitute for a trap you can actually buy and run this season.</p>
 
           <h2>When Mosquito Magnet Is the Right Tool</h2>
           <ul>
@@ -246,6 +247,7 @@ export default function MosquitoMagnetCanadaPage() {
             <li><strong>Properties under 0.25 acres</strong> — the trap circulation radius is mostly outside your property</li>
             <li><strong>Households not committed to 24/7 operation</strong> — turning it off resets the population</li>
           </ul>
+          <p>The same-day gap has its own tool: <Link href="/blog/mosquito-fogger-canada">mosquito foggers</Link> knock down the adult mosquitoes already in a yard within minutes, but leave almost no residual behind, so new ones drift back in from neighbouring properties within a day or two. That is the opposite trade-off to a Magnet, which does nothing for tonight and a lot by August.</p>
 
           <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
             <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Or let us handle it</h3>

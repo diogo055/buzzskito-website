@@ -316,7 +316,7 @@ export default function MosquitoLarvaePage() {
 
           <h2>The Bigger Picture</h2>
           <p>Larvae control on your own property eliminates mosquitoes <em>born on your property</em>. But adult mosquitoes from neighbours&rsquo; yards, ravines, creeks, and conservation areas can fly up to 3 km — they will still find your yard regardless of how thoroughly you eliminate your own breeding sites.</p>
-          <p>For complete yard mosquito control, combine larval source reduction with <Link href="/mosquito-control">professional barrier spray</Link> that targets adult mosquitoes resting on your vegetation. Larvae control + barrier spray + habitat modification is the three-leg stool of effective residential mosquito management.</p>
+          <p>For complete yard mosquito control, combine larval source reduction with <Link href="/mosquito-control">professional barrier spray</Link> that targets adult mosquitoes resting on your vegetation. It is worth being clear about which tool does what: a <Link href="/blog/mosquito-fogger-canada">mosquito fogger</Link> kills flying adults and does nothing to larvae sitting in a rain barrel or ditch, so treat the water with BTI and save the fogging for the adults. Larvae control + barrier spray + habitat modification is the three-leg stool of effective residential mosquito management.</p>
 
           <h2>Related Reading</h2>
           <ul>
