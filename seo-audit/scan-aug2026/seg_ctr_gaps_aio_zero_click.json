@@ -1,0 +1,82 @@
+[
+ {
+  "q": "what time of day are mosquitoes most active",
+  "page": "/blog/when-are-mosquitoes-most-active",
+  "clicks": 1,
+  "impr": 2262,
+  "ctr": 0.04,
+  "pos": 5.97,
+  "lost": 94,
+  "type": "AIO_ZERO_CLICK"
+ },
+ {
+  "q": "how long do mosquito bites last",
+  "page": "/blog/why-do-mosquito-bites-itch",
+  "clicks": 3,
+  "impr": 1977,
+  "ctr": 0.15,
+  "pos": 9.48,
+  "lost": 42,
+  "type": "AIO_ZERO_CLICK"
+ },
+ {
+  "q": "what does a tick look like",
+  "page": "/blog/bugs-that-look-like-ticks",
+  "clicks": 8,
+  "impr": 260,
+  "ctr": 3.08,
+  "pos": 2.08,
+  "lost": 30,
+  "type": "AIO_ZERO_CLICK"
+ },
+ {
+  "q": "what do mosquito larvae look like",
+  "page": "/blog/mosquito-larvae-identification",
+  "clicks": 14,
+  "impr": 910,
+  "ctr": 1.54,
+  "pos": 6.05,
+  "lost": 24,
+  "type": "AIO_ZERO_CLICK"
+ },
+ {
+  "q": "what does mosquito larvae look like",
+  "page": "/blog/mosquito-larvae-identification",
+  "clicks": 12,
+  "impr": 998,
+  "ctr": 1.2,
+  "pos": 6.57,
+  "lost": 21,
+  "type": "AIO_ZERO_CLICK"
+ },
+ {
+  "q": "when are mosquitoes most active",
+  "page": "/blog/when-are-mosquitoes-most-active",
+  "clicks": 3,
+  "impr": 846,
+  "ctr": 0.36,
+  "pos": 8.08,
+  "lost": 20,
+  "type": "AIO_ZERO_CLICK"
+ },
+ {
+  "q": "how many times can a mosquito bite you",
+  "page": "/blog/how-many-times-can-a-mosquito-bite-you",
+  "clicks": 0,
+  "impr": 332,
+  "ctr": 0,
+  "pos": 5.26,
+  "lost": 18,
+  "type": "AIO_ZERO_CLICK"
+ },
+ {
+  "q": "how many times can a mosquito bite",
+  "page": "/blog/how-many-times-can-a-mosquito-bite-you",
+  "clicks": 0,
+  "impr": 374,
+  "ctr": 0,
+  "pos": 6.31,
+  "lost": 16,
+  "type": "AIO_ZERO_CLICK"
+ }
+]

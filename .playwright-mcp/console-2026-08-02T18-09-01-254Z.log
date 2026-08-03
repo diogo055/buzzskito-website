@@ -1,0 +1,168 @@
+[     944ms] [WARNING] Ignoring Event: localhost @ https://analytics.ahrefs.com/analytics.js:0
+[    2009ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3500/mosquito-control?_rsc=19zvn:0
+[    2009ms] [ERROR] Failed to fetch RSC payload for http://localhost:3500/mosquito-control. Falling back to browser navigation. TypeError: Failed to fetch
+    at f (http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:45434)
+    at http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:58960
+    at Object.u [as task] (http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:31835)
+    at c.s (http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:32540)
+    at c.enqueue (http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:31965)
+    at s (http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:58923)
+    at i (http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:58463)
+    at a (http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:65252)
+    at f (http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:75112)
+    at Object.action (http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:2:7082) @ http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:0
+[    2022ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3500/tick-control?_rsc=19zvn:0
+[    2022ms] [ERROR] Failed to fetch RSC payload for http://localhost:3500/tick-control. Falling back to browser navigation. TypeError: Failed to fetch
+    at f (http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:45434)
+    at http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:58960
+    at Object.u [as task] (http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:31835)
+    at c.s (http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:32540)
+    at c.enqueue (http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:31965)
+    at s (http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:58923)
+    at i (http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:58463)
+    at a (http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:65252)
+    at f (http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:75112)
+    at Object.action (http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:2:7082) @ http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:0
+[    3420ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3500/service-areas?_rsc=19zvn:0
+[    3420ms] [ERROR] Failed to fetch RSC payload for http://localhost:3500/service-areas. Falling back to browser navigation. TypeError: Failed to fetch
+    at f (http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:45434)
+    at http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:58960
+    at Object.u [as task] (http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:31835)
+    at c.s (http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:32540)
+    at c.enqueue (http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:31965)
+    at s (http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:58923)
+    at i (http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:58463)
+    at a (http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:65252)
+    at f (http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:75112)
+    at Object.action (http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:2:7082) @ http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:0
+[    3421ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3500/mississauga-mosquito-control?_rsc=19zvn:0
+[    3421ms] [ERROR] Failed to fetch RSC payload for http://localhost:3500/mississauga-mosquito-control. Falling back to browser navigation. TypeError: Failed to fetch
+    at f (http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:45434)
+    at http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:58960
+    at Object.u [as task] (http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:31835)
+    at c.s (http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:32540)
+    at c.enqueue (http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:31965)
+    at s (http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:58923)
+    at i (http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:58463)
+    at a (http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:65252)
+    at f (http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:75112)
+    at Object.action (http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:2:7082) @ http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:0
+[    3422ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3500/toronto-mosquito-control?_rsc=19zvn:0
+[    3422ms] [ERROR] Failed to fetch RSC payload for http://localhost:3500/toronto-mosquito-control. Falling back to browser navigation. TypeError: Failed to fetch
+    at f (http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:45434)
+    at http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:58960
+    at Object.u [as task] (http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:31835)
+    at c.s (http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:32540)
+    at c.enqueue (http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:31965)
+    at s (http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:58923)
+    at i (http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:58463)
+    at a (http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:65252)
+    at f (http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:75112)
+    at Object.action (http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:2:7082) @ http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:0
+[    3424ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3500/brampton-mosquito-control?_rsc=19zvn:0
+[    3424ms] [ERROR] Failed to fetch RSC payload for http://localhost:3500/brampton-mosquito-control. Falling back to browser navigation. TypeError: Failed to fetch
+    at f (http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:45434)
+    at http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:58960
+    at Object.u [as task] (http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:31835)
+    at c.s (http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:32540)
+    at Object.u [as task] (http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:31897) @ http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:0
+[    4390ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3500/oakville-mosquito-control?_rsc=19zvn:0
+[    4390ms] [ERROR] Failed to fetch RSC payload for http://localhost:3500/oakville-mosquito-control. Falling back to browser navigation. TypeError: Failed to fetch
+    at f (http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:45434)
+    at http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:58960
+    at Object.u [as task] (http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:31835)
+    at c.s (http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:32540)
+    at Object.u [as task] (http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:31897) @ http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:0
+[    4421ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3500/burlington-mosquito-spray?_rsc=19zvn:0
+[    4422ms] [ERROR] Failed to fetch RSC payload for http://localhost:3500/burlington-mosquito-spray. Falling back to browser navigation. TypeError: Failed to fetch
+    at f (http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:45434)
+    at http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:58960
+    at Object.u [as task] (http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:31835)
+    at c.s (http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:32540)
+    at Object.u [as task] (http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:31897) @ http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:0
+[    5793ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3500/vaughan-mosquito-control?_rsc=19zvn:0
+[    5793ms] [ERROR] Failed to fetch RSC payload for http://localhost:3500/vaughan-mosquito-control. Falling back to browser navigation. TypeError: Failed to fetch
+    at f (http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:45434)
+    at http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:58960
+    at Object.u [as task] (http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:31835)
+    at c.s (http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:32540)
+    at Object.u [as task] (http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:31897) @ http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:0
+[    5794ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3500/richmond-hill-mosquito-control?_rsc=19zvn:0
+[    5794ms] [ERROR] Failed to fetch RSC payload for http://localhost:3500/richmond-hill-mosquito-control. Falling back to browser navigation. TypeError: Failed to fetch
+    at f (http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:45434)
+    at http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:58960
+    at Object.u [as task] (http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:31835)
+    at c.s (http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:32540)
+    at Object.u [as task] (http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:31897) @ http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:0
+[    5794ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3500/markham-mosquito-control?_rsc=19zvn:0
+[    5795ms] [ERROR] Failed to fetch RSC payload for http://localhost:3500/markham-mosquito-control. Falling back to browser navigation. TypeError: Failed to fetch
+    at f (http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:45434)
+    at http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:58960
+    at Object.u [as task] (http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:31835)
+    at c.s (http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:32540)
+    at Object.u [as task] (http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:31897) @ http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:0
+[    5810ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3500/etobicoke-mosquito-control?_rsc=19zvn:0
+[    5811ms] [ERROR] Failed to fetch RSC payload for http://localhost:3500/etobicoke-mosquito-control. Falling back to browser navigation. TypeError: Failed to fetch
+    at f (http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:45434)
+    at http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:58960
+    at Object.u [as task] (http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:31835)
+    at c.s (http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:32540)
+    at Object.u [as task] (http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:31897) @ http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:0
+[    6780ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3500/scarborough-mosquito-control?_rsc=19zvn:0
+[    6780ms] [ERROR] Failed to fetch RSC payload for http://localhost:3500/scarborough-mosquito-control. Falling back to browser navigation. TypeError: Failed to fetch
+    at f (http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:45434)
+    at http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:58960
+    at Object.u [as task] (http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:31835)
+    at c.s (http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:32540)
+    at Object.u [as task] (http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:31897) @ http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:0
+[    6781ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3500/north-york-mosquito-control?_rsc=19zvn:0
+[    6781ms] [ERROR] Failed to fetch RSC payload for http://localhost:3500/north-york-mosquito-control. Falling back to browser navigation. TypeError: Failed to fetch
+    at f (http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:45434)
+    at http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:58960
+    at Object.u [as task] (http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:31835)
+    at c.s (http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:32540)
+    at Object.u [as task] (http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:31897) @ http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:0
+[    8148ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3500/caledon-mosquito-control?_rsc=19zvn:0
+[    8162ms] [ERROR] Failed to fetch RSC payload for http://localhost:3500/caledon-mosquito-control. Falling back to browser navigation. TypeError: Failed to fetch
+    at f (http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:45434)
+    at http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:58960
+    at Object.u [as task] (http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:31835)
+    at c.s (http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:32540)
+    at Object.u [as task] (http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:31897) @ http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:0
+[    8172ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3500/milton-mosquito-control?_rsc=19zvn:0
+[    8173ms] [ERROR] Failed to fetch RSC payload for http://localhost:3500/milton-mosquito-control. Falling back to browser navigation. TypeError: Failed to fetch
+    at f (http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:45434)
+    at http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:58960
+    at Object.u [as task] (http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:31835)
+    at c.s (http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:32540)
+    at Object.u [as task] (http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:31897) @ http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:0
+[    8174ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3500/blog?_rsc=19zvn:0
+[    8174ms] [ERROR] Failed to fetch RSC payload for http://localhost:3500/blog. Falling back to browser navigation. TypeError: Failed to fetch
+    at f (http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:45434)
+    at http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:58960
+    at Object.u [as task] (http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:31835)
+    at c.s (http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:32540)
+    at Object.u [as task] (http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:31897) @ http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:0
+[    8174ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3500/buzzskito-history?_rsc=19zvn:0
+[    8174ms] [ERROR] Failed to fetch RSC payload for http://localhost:3500/buzzskito-history. Falling back to browser navigation. TypeError: Failed to fetch
+    at f (http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:45434)
+    at http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:58960
+    at Object.u [as task] (http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:31835)
+    at c.s (http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:32540)
+    at Object.u [as task] (http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:31897) @ http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:0
+[    9138ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3500/frequently-asked-question?_rsc=19zvn:0
+[    9138ms] [ERROR] Failed to fetch RSC payload for http://localhost:3500/frequently-asked-question. Falling back to browser navigation. TypeError: Failed to fetch
+    at f (http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:45434)
+    at http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:58960
+    at Object.u [as task] (http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:31835)
+    at c.s (http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:32540)
+    at Object.u [as task] (http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:31897) @ http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:0
+[    9139ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3500/free-yard-assessment?_rsc=19zvn:0
+[    9139ms] [ERROR] Failed to fetch RSC payload for http://localhost:3500/free-yard-assessment. Falling back to browser navigation. TypeError: Failed to fetch
+    at f (http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:45434)
+    at http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:58960
+    at Object.u [as task] (http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:31835)
+    at c.s (http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:32540)
+    at Object.u [as task] (http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:1:31897) @ http://localhost:3500/_next/static/chunks/2117-ce93a708c907eb26.js:0
+[   10514ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3500/_vercel/speed-insights/script.js:0
+[   10514ms] [LOG] [Vercel Speed Insights] Failed to load script from /_vercel/speed-insights/script.js. Please check if any content blockers are enabled and try again. @ http://localhost:3500/_next/static/chunks/7096-3231227cee1edbe1.js:0

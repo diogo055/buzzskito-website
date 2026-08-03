@@ -1,0 +1,23 @@
+{
+ "canada_total": {
+  "queries": 22430,
+  "clicks": 1957,
+  "impressions": 178578
+ },
+ "city_named": {
+  "queries": 1247,
+  "clicks": 285,
+  "impressions": 18229
+ },
+ "service_intent": {
+  "queries": 2836,
+  "clicks": 182,
+  "impressions": 20547
+ },
+ "city_AND_service": {
+  "queries": 230,
+  "clicks": 10,
+  "impressions": 4789
+ },
+ "note": "GSC anonymises low-volume queries, so query-level clicks are a ~38% sample of the true total. Use for RELATIVE comparison, never as an absolute."
+}

@@ -207,6 +207,7 @@ export default function LymeRiskAreas2026Page() {
         <h2>Related Guides</h2>
         <ul>
           <li><Link href={`/blog/${TICK_BLOGS.pillar.slug}`} className="text-brand-700 hover:underline">{TICK_BLOGS.pillar.title}</Link></li>
+          <li><Link href="/ontario-lyme-disease-tracker-2026" className="text-brand-700 hover:underline">Ontario Lyme Disease Tracker 2026 — live case counts by public health unit</Link></li>
           <li><Link href="/blog/lyme-disease-tick-prevention-ontario" className="text-brand-700 hover:underline">Lyme Disease Prevention in Ontario</Link></li>
           <li><Link href="/blog/tick-borne-diseases-ontario-complete-list" className="text-brand-700 hover:underline">Every Tick-Borne Disease in Ontario</Link></li>
           <li><Link href="/blog/are-ticks-dangerous-ontario" className="text-brand-700 hover:underline">Are Ticks Dangerous in Ontario?</Link></li>

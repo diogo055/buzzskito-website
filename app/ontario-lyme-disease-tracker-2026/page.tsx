@@ -495,8 +495,11 @@ export default function OntarioLymeTrackerPage() {
               <p className="text-sm text-gray-700 leading-relaxed mb-3">
                 A previous version of this page sorted Ontario&rsquo;s health units into &ldquo;established endemic,&rdquo; &ldquo;emerging,&rdquo; &ldquo;occasional&rdquo; and &ldquo;low&rdquo; tiers and attributed that grouping to Public Health Ontario. That classification was our own editorial construct, it was driven by case counts that were never published, and it has been removed rather than relabelled.
               </p>
-              <p className="text-sm text-gray-700 leading-relaxed">
+              <p className="text-sm text-gray-700 leading-relaxed mb-3">
                 If you need to know the risk where you live, the risk-area map is the only authoritative answer, and it is free to consult. We would rather send you there than rank regions ourselves.
+              </p>
+              <p className="text-sm text-gray-700 leading-relaxed">
+                For a plain-language walkthrough of what Public Health Ontario has already classified across the GTA &mdash; the Don Valley, Rouge Park, Credit River, Bronte Creek, 16 Mile Creek and the Oak Ridges Moraine among them &mdash; see our summary of <Link href="/blog/lyme-disease-risk-areas-ontario-2026" className="underline font-semibold text-rose-700">blacklegged tick risk areas in Ontario</Link>. It reports PHO&rsquo;s classifications; it is not a ranking of our own.
               </p>
             </div>
           </div>

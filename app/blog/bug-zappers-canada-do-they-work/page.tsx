@@ -26,7 +26,7 @@ const FAQS = [
   },
   {
     question: 'How much do bug zappers cost in Canada?',
-    answer: 'Pricing as of May 2026 across Canadian retailers: Small indoor racket zappers $15–$30 (Black Flag, Executioner brands); small outdoor zappers (Black+Decker, Stinger) $30–$80 covering 1/4 to 1/2 acre; large outdoor zappers (Flowtron BK-15D, BK-40D) $80–$200 covering 1/2 to 1.5 acres; commercial-grade zappers (Flowtron PV-440, used in restaurant patios) $200–$400. Operating cost is just electricity — typically $20–$40/season. Replacement UV bulbs cost $15–$25 and need replacement annually.',
+    answer: 'Typical 2026-season pricing across Canadian retailers: Small indoor racket zappers $15–$30 (Black Flag, Executioner brands); small outdoor zappers (Black+Decker, Stinger) $30–$80 covering 1/4 to 1/2 acre; large outdoor zappers (Flowtron BK-15D, BK-40D) $80–$200 covering 1/2 to 1.5 acres; commercial-grade zappers (Flowtron PV-440, used in restaurant patios) $200–$400. Operating cost is just electricity — typically $20–$40/season. Replacement UV bulbs cost $15–$25 and need replacement annually.',
   },
   {
     question: 'Bug zappers vs Mosquito Magnet — which is better?',
@@ -125,7 +125,7 @@ export default function BugZappersCanadaPage() {
 
       <section className="bg-gradient-to-br from-emerald-50 to-white border-b border-emerald-200 py-10 px-4">
         <div className="max-w-4xl mx-auto">
-          <p className="text-xs font-extrabold text-emerald-700 uppercase tracking-wider mb-2">Where to Buy in Canada · Updated May 2026</p>
+          <p className="text-xs font-extrabold text-emerald-700 uppercase tracking-wider mb-2">Where to Buy in Canada · 2026 Season</p>
           <h2 className="text-2xl font-extrabold text-brand-900 mb-4">Bug Zappers: Where to Buy in Canada</h2>
           <p className="text-sm text-gray-700 mb-5 leading-relaxed">
             Bug zappers are widely stocked at Canadian retailers, but read the section below before buying — the research is clear that they don&rsquo;t reduce mosquito populations meaningfully.
@@ -159,7 +159,7 @@ export default function BugZappersCanadaPage() {
             </table>
           </div>
           <p className="text-xs text-gray-500 mt-3">
-            Prices accurate as of May 2026. Indoor handheld racket zappers (the only style we&rsquo;d actually recommend) run $15–$30 at the same retailers and Dollarama. Replacement UV bulbs $15–$25 (annual replacement needed).
+            Typical 2026-season pricing. Indoor handheld racket zappers (the only style we&rsquo;d actually recommend) run $15–$30 at the same retailers and Dollarama. Replacement UV bulbs $15–$25 (annual replacement needed).
           </p>
           <div className="mt-5 rounded-xl bg-rose-50 border-l-4 border-rose-400 p-4">
             <p className="text-sm text-gray-800 leading-relaxed">
