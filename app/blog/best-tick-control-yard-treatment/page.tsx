@@ -177,7 +177,7 @@ export default function BestTickControlPage() {
             <BuyLink tag={AMZ_TAG} search="wondercide tick yard spray">Check price on Amazon.ca &rarr;</BuyLink>
           </li>
           <li>
-            <strong>Permethrin clothing spray:</strong> For hikes and yard work, treating clothing and gear with a permethrin spray such as Sawyer&rsquo;s gives long-lasting, wearable protection that skin repellent alone can&rsquo;t match. Apply to garments &mdash; never skin.{' '}
+            <strong>Permethrin clothing spray:</strong> For hikes and yard work, treating clothing and gear with a <Link href="/blog/permethrin-canada-yard-clothing-spray" className="text-brand-700 hover:underline">permethrin spray</Link> such as Sawyer&rsquo;s gives long-lasting, wearable protection that skin repellent alone can&rsquo;t match. Apply to garments &mdash; never skin.{' '}
             <BuyLink tag={AMZ_TAG} search="sawyer permethrin clothing spray">Check price on Amazon.ca &rarr;</BuyLink>
           </li>
         </ul>

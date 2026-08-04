@@ -211,6 +211,7 @@ export default function WhatTicksLookLikePage() {
           <li><strong>Under decks and porches:</strong> Dark, humid zones that ticks use when conditions are dry or hot</li>
           <li><strong>Dense shrubs and ground cover:</strong> Ticks rest in humid vegetation between questing periods</li>
         </ul>
+        <p>Knowing those zones also tells you when to gear up. Because a nymph this small is easier to block than to spot, treated clothing is the standard defence before you walk the lawn edge, rake leaf litter, or move a woodpile: a <Link href="/blog/permethrin-canada-yard-clothing-spray" className="text-brand-700 underline">permethrin spray</Link> goes on boots, socks, and pant cuffs — on the fabric, never on skin — so ticks are stopped on the way up.</p>
 
         <h2>Frequently Asked Questions</h2>
         <div className="not-prose space-y-3 my-6">

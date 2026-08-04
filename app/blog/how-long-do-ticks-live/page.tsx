@@ -207,7 +207,7 @@ export default function HowLongDoTicksLivePage() {
             <li><strong>Extreme heat or hard freeze.</strong> Prolonged heat with low humidity, or deep cold without insulating snow and leaf litter, will kill ticks that cannot shelter.</li>
             <li><strong>Old age after reproduction.</strong> An adult female tick dies naturally after laying her single large batch of eggs &mdash; the end of the line for that generation.</li>
           </ol>
-          <p>The practical takeaway from all of this: you cannot out-wait ticks, because their whole strategy is patience, and you cannot count on winter or a dry spell to clear them. What you <em>can</em> do is remove the humid habitat they depend on &mdash; short grass, cleared leaf litter, a dry barrier between lawn and woods &mdash; and target the shaded edges where they concentrate.</p>
+          <p>The practical takeaway from all of this: you cannot out-wait ticks, because their whole strategy is patience, and you cannot count on winter or a dry spell to clear them. What you <em>can</em> do is remove the humid habitat they depend on &mdash; short grass, cleared leaf litter, a dry barrier between lawn and woods &mdash; and target the shaded edges where they concentrate. For the edges you still have to walk through, clothing and gear treated with <Link href="/blog/permethrin-canada-yard-clothing-spray">permethrin</Link> add a second layer &mdash; it is applied to fabric and yard vegetation, never to skin.</p>
 
           <h2>Quick Recap</h2>
           <ul>

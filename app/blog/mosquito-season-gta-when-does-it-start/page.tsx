@@ -186,6 +186,7 @@ export default function MosquitoSeasonPage() {
 
         <h2>The Case for Starting Treatment Early</h2>
         <p>The most common mistake GTA homeowners make is waiting too long to start mosquito treatment. By the time mosquitoes become noticeably bothersome (typically mid-June), populations have already been building for weeks. Starting treatment in the first week of May catches populations before they peak, giving barrier spray the best chance to reduce activity through the entire season.</p>
+        <p>The same timing logic applies to the standing water on your property. A BTI larvicide such as <Link href="/blog/mosquito-bits-canada-vs-dunks" className="text-brand-700 hover:underline">Mosquito Bits</Link> kills mosquito larvae in rain barrels, birdbaths, and clogged gutters before that first generation ever matures into biting adults — far easier than chasing those same mosquitoes around the yard in July.</p>
 
         <h2>Recommended 2026 GTA Mosquito Treatment Schedule</h2>
         <div className="not-prose overflow-x-auto my-6">

@@ -157,7 +157,7 @@ export default function MosquitoSprayLastPage() {
 
         <h2>Does Spraying for Mosquitoes Actually Work?</h2>
         <p>Yes — with an important clarification. Barrier spray works by creating a kill zone on your property, not by eliminating the source. Mosquitoes breed in standing water — ravines, ditches, neighbours' yards — and fly to your property looking for a place to rest and feed. When they land on treated vegetation, the residual insecticide kills them.</p>
-        <p>This is why re-application every 21–28 days is necessary: you're maintaining an ongoing barrier against a continuous source, not making a one-time fix. Homeowners near Toronto's ravines, Mississauga's Credit River, or any natural watercourse will see the most dramatic results because their mosquito pressure is highest and the treated barrier makes the biggest difference.</p>
+        <p>This is why re-application every 21–28 days is necessary: you're maintaining an ongoing barrier against a continuous source, not making a one-time fix. The barrier also only ever deals with the mosquitoes that reach your yard, so any standing water you do control — rain barrels, clogged gutters, plant saucers — is worth treating with a BTI larvicide such as granular <Link href="/blog/mosquito-bits-canada-vs-dunks" className="text-brand-700 hover:underline">BTI mosquito bits</Link>, which kill the larvae before they ever emerge as adults. Homeowners near Toronto's ravines, Mississauga's Credit River, or any natural watercourse will see the most dramatic results because their mosquito pressure is highest and the treated barrier makes the biggest difference.</p>
 
         <h2>What Affects How Long Mosquito Spray Lasts?</h2>
 

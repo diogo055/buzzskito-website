@@ -293,7 +293,7 @@ export default function TypesOfTicksIdentificationPage() {
             pros={['Grips at skin level to lift the whole tick', 'Reduces the chance of leaving mouthparts', 'Inexpensive first-aid-kit staple']}
             cons={['Not a substitute for prompt yard treatment', 'Fine tips need steady hands on tiny nymphs']}
           />
-          <p>Watch the bite site over the following days and weeks for an expanding <strong>erythema migrans</strong> (bull&rsquo;s-eye) rash, fever, aches, or fatigue, and see a doctor if any appear — early treatment is highly effective. For prevention on skin and clothing, EPA- and Health-Canada-registered repellents containing <strong>DEET</strong> or <strong>picaridin</strong>, and <strong>permethrin</strong> applied to clothing and gear, are the evidence-backed choices. <BuyLink tag={AMZ_TAG} search="permethrin clothing spray tick">Compare permethrin clothing spray →</BuyLink></p>
+          <p>Watch the bite site over the following days and weeks for an expanding <strong>erythema migrans</strong> (bull&rsquo;s-eye) rash, fever, aches, or fatigue, and see a doctor if any appear — early treatment is highly effective. Prevention does not change with the species — every tick on this chart is kept off the same way: EPA- and Health-Canada-registered repellents containing <strong>DEET</strong> or <strong>picaridin</strong> on skin, plus a <Link href="/blog/permethrin-canada-yard-clothing-spray">permethrin spray</Link> on clothing, gear and the yard edges where ticks wait, are the evidence-backed choices. <BuyLink tag={AMZ_TAG} search="permethrin clothing spray tick">Compare permethrin clothing spray →</BuyLink></p>
 
           <h2>Explore Each Tick in Detail</h2>
           <ul>

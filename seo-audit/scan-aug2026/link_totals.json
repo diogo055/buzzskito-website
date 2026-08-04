@@ -1,0 +1,10 @@
+{
+ "routes": 500,
+ "withImpressions": 447,
+ "orphans": 29,
+ "starvedEarners": 57,
+ "medianInbound": 4,
+ "totalInternalLinks": 5058,
+ "cannibalisedQueries": 24,
+ "headTermGaps": 48
+}

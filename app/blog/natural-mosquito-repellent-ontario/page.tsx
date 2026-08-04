@@ -300,7 +300,7 @@ export default function NaturalMosquitoRepellentPage() {
           <p>BTI is sold as:</p>
           <ul>
             <li><strong>Mosquito Dunks</strong> — donut-shaped, drop one in any water that can&rsquo;t be drained. Each dunk lasts 30 days.</li>
-            <li><strong>Mosquito Bits</strong> — granular, sprinkled in standing water. Faster knockdown.</li>
+            <li><strong>Mosquito Bits</strong> — granular, sprinkled in standing water. Faster knockdown, so <Link href="/blog/mosquito-bits-canada-vs-dunks">mosquito bits</Link> suit water you refresh often, while a dunk is better for a source you leave alone for a month.</li>
           </ul>
           <p>Available at Canadian Tire, Home Depot, garden centres. Use in: rain barrels, ornamental ponds, neglected birdbaths, drainage ditches, kiddie pools that can&rsquo;t be emptied, old tires holding water. <strong>One dunk in a rain barrel kills 100% of mosquito larvae for a month.</strong></p>
           <p className="not-prose my-4">Of everything on this page, BTI is the only natural option that <em>removes</em> mosquitoes rather than repelling them for a few hours — and a season&rsquo;s supply costs about the same as one bottle of spray. <BuyLink tag={AMZ_TAG} search="mosquito dunks bti">Check Mosquito Dunks (BTI) on Amazon.ca →</BuyLink></p>
