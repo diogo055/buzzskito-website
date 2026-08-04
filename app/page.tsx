@@ -11,6 +11,7 @@ import QuickAnswer from '@/components/QuickAnswer'
 import HowItWorksStory from '@/components/HowItWorksStory'
 import ServicesStory from '@/components/ServicesStory'
 import DuskScene from '@/components/DuskScene'
+import ProjectMap from '@/components/ProjectMap'
 import { Icon, IconChip } from '@/components/Icon'
 import { buildMetadata, localBusinessSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { BUSINESS, CITIES, MOSQUITO_BLOGS, TICK_BLOGS } from '@/lib/constants'
@@ -100,36 +101,17 @@ export default function HomePage() {
         </Reveal>
       </section>
 
-      {/* Brand marquee — oversized outlined editorial band. Decorative and
-          aria-hidden; every claim in it appears semantically elsewhere on
-          the page (reviews, guarantee, service areas). */}
-      <section className="relative overflow-hidden pt-10 sm:pt-14 pb-0 edge-fade-x" aria-hidden="true">
-        <div className="ticker-track items-baseline whitespace-nowrap font-display font-extrabold uppercase leading-none tracking-tight text-[clamp(3rem,7vw,5.5rem)]" style={{ animationDuration: '80s' }}>
-          {[0, 1].map((dup) => (
-            <span key={dup} className="flex shrink-0 items-baseline">
-              {[
-                'Bite-Free Summer',
-                '150+ Five-Star Reviews',
-                'No Contracts',
-                '19 GTA Cities',
-                'Same-Week Service',
-              ].map((phrase) => (
-                <span key={`${dup}-${phrase}`} className="flex items-baseline">
-                  <span className="outline-text-light px-8">{phrase}</span>
-                  <span className="text-white/15 text-[0.5em]" aria-hidden="true">✦</span>
-                </span>
-              ))}
-            </span>
-          ))}
-        </div>
-      </section>
+      {/* The oversized outlined brand marquee that used to sit here was removed
+          on 2026-08-04 — the Past Project Map now carries this slot. It was
+          decorative and aria-hidden, and every claim it made (150+ reviews, no
+          contracts, 19 GTA cities, same-week service) still appears
+          semantically elsewhere on the page, so nothing was lost for search or
+          for screen readers. */}
 
-      {/* QUICK ANSWER — for AI extraction + Google AI Overviews */}
-      <QuickAnswer dark question="What is BuzzSkito?">
-        <p>
-          <strong>BuzzSkito is a Mississauga-based mosquito and tick control specialist serving 19 cities and 60+ neighbourhoods across the Greater Toronto Area.</strong> Single barrier spray treatments start at <strong>$99</strong>, with seasonal programs available on quote. Treatments use Health Canada-approved formulas, are safe for kids and pets in 30 minutes, and provide up to 30 days of residual protection per visit. With <strong>150+ five-star Google reviews</strong> (zero negative), no contracts, and the <strong>BuzzSkito Bite-Free Guarantee</strong> — free re-treatment if pests return inside the protection window — BuzzSkito serves Mississauga, Toronto, Brampton, Oakville, Burlington, Hamilton, Vaughan, Markham, Richmond Hill, Etobicoke, Scarborough, North York, Caledon, Milton, Georgetown, Halton Hills, King City, Woodbridge, and Thornhill. Call (289) 216-5030.
-        </p>
-      </QuickAnswer>
+      {/* ── Past Project Map — social proof, replaces the old Quick Answer slot ──
+          Pins are pre-displaced 150-450m and zoom is locked; see
+          components/ProjectMapCanvas.tsx and lib/project-map-pins.ts. */}
+      <ProjectMap />
 
       {/* ── Services — sticky photo story (mirror of How It Works) ──────── */}
       <ServicesStory />
@@ -299,6 +281,19 @@ export default function HomePage() {
           </Reveal>
         </div>
       </section>
+
+      {/* QUICK ANSWER — for AI extraction + Google AI Overviews.
+          Moved here from the top of the page on 2026-08-04 when the Past Project
+          Map took that slot. It was MOVED, not deleted, on purpose: this block
+          carries the `.speakable` class that the page's speakableSchema targets
+          (cssSelector includes '.speakable'), and it is the densest
+          entity/service/city summary on the site's most-cited page. Deleting it
+          would have pointed the schema at a selector that no longer exists. */}
+      <QuickAnswer dark question="What is BuzzSkito?">
+        <p>
+          <strong>BuzzSkito is a Mississauga-based mosquito and tick control specialist serving 19 cities and 60+ neighbourhoods across the Greater Toronto Area.</strong> Single barrier spray treatments start at <strong>$99</strong>, with seasonal programs available on quote. Treatments use Health Canada-approved formulas, are safe for kids and pets in 30 minutes, and provide up to 30 days of residual protection per visit. With <strong>150+ five-star Google reviews</strong> (zero negative), no contracts, and the <strong>BuzzSkito Bite-Free Guarantee</strong> — free re-treatment if pests return inside the protection window — BuzzSkito serves Mississauga, Toronto, Brampton, Oakville, Burlington, Hamilton, Vaughan, Markham, Richmond Hill, Etobicoke, Scarborough, North York, Caledon, Milton, Georgetown, Halton Hills, King City, Woodbridge, and Thornhill. Call (289) 216-5030.
+        </p>
+      </QuickAnswer>
 
       {/* ── FAQ ─────────────────────────────────────────────────────────── */}
       <section aria-labelledby="faq-heading" className="cv-auto section-major px-4">
