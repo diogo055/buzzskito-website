@@ -188,6 +188,26 @@ export default function Footer() {
           </div>
         )}
 
+        {/* Sister company — Buzz Lighting, same owner, same crew, same GTA service
+            area, opposite season (mosquito May-Sep, lighting Sep-Dec). A plain
+            follow link on purpose: two real businesses under one owner is a
+            legitimate relationship, and nofollow would wrongly signal otherwise.
+            Kept to the footer only — not nav, not hero, not every post. */}
+        <div className="border-t border-white/10 pt-6 pb-1">
+          <p className="text-xs text-brand-500 text-center">
+            Sister company:{' '}
+            <a
+              href="https://buzzlighting.ca"
+              target="_blank"
+              rel="noopener"
+              className="font-semibold text-brand-300 hover:text-amber-400 transition-colors"
+            >
+              Buzz Lighting
+            </a>{' '}
+            &mdash; permanent outdoor LED &amp; Christmas light installation across the GTA.
+          </p>
+        </div>
+
         {/* Bottom */}
         <div className="border-t border-white/10 pt-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-brand-500">
           <p>© {year} {BUSINESS.legalName}. All rights reserved. · Mississauga, ON</p>
