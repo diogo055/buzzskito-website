@@ -20,7 +20,7 @@ const NEIGHBOURHOODS = ['Bronte','Glen Abbey','Joshua Creek','West Oak Trails','
 const FAQS = [
   {
     question: 'How much does tick spray cost in Oakville?',
-    answer: 'Tick spray in Oakville starts from $99 per application. Properties near Bronte Creek Provincial Park, the Sixteen Mile Creek, or any woodland edge benefit most from both spring and fall treatments. No contracts. Call (289) 216-5030.',
+    answer: 'Tick spray in Oakville starts from $99 per application. Properties near Bronte Creek Provincial Park, the Sixteen Mile Creek, or any woodland edge benefit most from the seasonal tick program — five treatments spread roughly monthly from May through September, $597 standalone or $497 added to any mosquito plan. No contracts. Call (289) 216-5030.',
   },
   {
     question: 'Is Bronte Creek Provincial Park a tick risk for Oakville homeowners?',
@@ -36,7 +36,7 @@ const FAQS = [
   },
   {
     question: 'How many tick treatments does my Oakville property need per season?',
-    answer: "We recommend two treatments per season: one in late May or early June targeting spring nymphs (peak risk, May–July), and one in August or September for adult tick emergence. Properties directly adjacent to Bronte Creek Provincial Park, wooded ravines, or properties with confirmed deer movement may benefit from a third visit. Each treatment provides up to 30 days of residual protection.",
+    answer: "We recommend five treatments per season, spread roughly monthly from May through September. Each application provides up to 30 days of residual protection, so monthly visits keep the barrier continuous through the May–July nymph peak — nymphs are poppy-seed sized, easily missed, and the stage responsible for most Lyme disease transmission. Adult ticks re-emerge later in the season and stay active into November in mild years, which the August and September visits target. Properties directly adjacent to Bronte Creek Provincial Park or wooded ravines also have ticks carried back in between visits by deer, mice, and birds, which is why the barrier is renewed monthly rather than left to a single application. The seasonal tick program is $597 standalone, or $497 added to any mosquito plan.",
   },
   {
     question: "Is tick spray safe near Oakville's creeks and wetlands?",
@@ -100,7 +100,7 @@ export default function OakvilleTickSprayPage() {
                   ['Service area', 'All Oakville neighbourhoods (Bronte, Glen Abbey, Joshua Creek, West Oak Trails, Clearview, Palermo, River Oaks, Kerr Village, Old Oakville, North Oakville, Eastlake, Falgarwood)'],
                   ['Specialization', 'Blacklegged tick (Ixodes scapularis) and American dog tick barrier spray'],
                   ['Pricing', 'From $99 per treatment · seasonal tick program $597 standalone or tick add-on bundle available on quote'],
-                  ['Treatment season', 'May through October (peak: late April–June nymph activity, then again Sep–Oct adult activity)'],
+                  ['Treatment season', 'May through September, roughly monthly (nymph peak May–July, adults active again through autumn)'],
                   ['Protection per visit', 'Up to 30 days residual on tick habitat zones'],
                   ['Re-entry time', '30 minutes after spray dries (kid and pet safe)'],
                   ['Recommended schedule', '5 treatments per season for ravine- or conservation-area-adjacent properties'],
@@ -197,9 +197,11 @@ export default function OakvilleTickSprayPage() {
               </thead>
               <tbody>
                 {[
-                  { t: 'Spring treatment', timing: 'Late May / Early June', target: 'Target nymphs — peak Lyme disease transmission risk (tiny, hard to detect)' },
-                  { t: 'Summer treatment (optional)', timing: 'Mid-July', target: 'Recommended for Bronte Creek, Glen Abbey ravine-adjacent properties' },
-                  { t: 'Fall treatment', timing: 'Late August / September', target: 'Target adult ticks before fall activity surge' },
+                  { t: 'Treatment 1', timing: 'May', target: 'Knock down overwintered adults and the first nymphs as the season opens' },
+                  { t: 'Treatment 2', timing: 'June', target: 'Peak nymph season — poppy-seed sized, easily missed, and the stage behind most Lyme transmission' },
+                  { t: 'Treatment 3', timing: 'July', target: 'Holds the barrier through the tail of the May–July nymph peak, with no gap in between' },
+                  { t: 'Treatment 4', timing: 'August', target: 'Re-treats ticks reintroduced by deer, mice, and birds from Bronte Creek and ravine edges' },
+                  { t: 'Treatment 5', timing: 'September', target: 'Adult tick resurgence — activity continues into November in mild years' },
                 ].map(({ t, timing, target }) => (
                   <tr key={t} className="border-b border-gray-200 even:bg-gray-50">
                     <td className="px-4 py-2 font-medium text-gray-800">{t}</td>
@@ -260,7 +262,7 @@ export default function OakvilleTickSprayPage() {
 
 
           <h2>Compare Oakville Pest Control Options</h2>
-          <p>Oakville has confirmed blacklegged tick exposure — see our specialist pest control guide: <Link href="/pest-control-oakville" className="text-brand-700 hover:underline font-semibold">Pest Control in Oakville</Link> for why a mosquito and tick specialist delivers better Lyme disease prevention than a general pest company. Compare top mosquito and tick control providers: <Link href="/best-mosquito-control-companies-oakville" className="text-brand-700 hover:underline font-semibold">Best Mosquito Control Companies in Oakville 2026</Link>.</p>
+          <p>Oakville has confirmed blacklegged tick exposure — see our specialist pest control guide: <Link href="/pest-control-oakville" className="text-brand-700 hover:underline font-semibold">Pest Control in Oakville</Link> for why a mosquito and tick specialist delivers better Lyme disease prevention than a general pest company. See our full mosquito programme for the same property: <Link href="/oakville-mosquito-control" className="text-brand-700 hover:underline font-semibold">Mosquito Control in Oakville</Link>.</p>
           <h2>Related Guides</h2>
           <ul>
             <li><Link href={`/blog/${TICK_BLOGS.pillar.slug}`} className="text-brand-700 hover:underline">{TICK_BLOGS.pillar.title}</Link></li>

@@ -61,12 +61,12 @@ export default function HowToKeepTicksOutOfYardOntarioPage() {
         <div className="max-w-4xl mx-auto">
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">To keep ticks out of your Ontario yard, put a 3-foot wood-chip or gravel barrier between lawn and woods, keep grass cut to 2 inches or less, clear leaf litter, move woodpiles and bird feeders at least 30 feet from play areas, and apply a professional tick barrier spray to the lawn-to-woods transition zone twice a season &mdash; late May and August/September.</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">To keep ticks out of your Ontario yard, put a 3-foot wood-chip or gravel barrier between lawn and woods, keep grass cut to 2 inches or less, clear leaf litter, move woodpiles and bird feeders at least 30 feet from play areas, and apply a professional tick barrier spray to the lawn-to-woods transition zone five times a season &mdash; roughly monthly from May through September.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
               <li>A 3-foot-wide wood-chip or gravel barrier between lawn and woods dries out ticks trying to cross &mdash; the CDC-recommended defence.</li>
               <li>Ticks live in the 1&ndash;3 metre transition zone where lawn meets woods, not in open, mowed lawn.</li>
               <li>Mice are the primary Lyme reservoir, so keep woodpiles, bird feeders, and compost at least 30 feet from play areas.</li>
-              <li>Professional tick barrier spray is applied twice per season &mdash; late May for nymphs and August/September for adults; single treatments start at $99.</li>
+              <li>Professional tick barrier spray is applied five times per season &mdash; roughly monthly from May through September, so there is no gap through the May&ndash;July nymph peak and coverage still holds when adults return in autumn; single treatments start at $99.</li>
               <li>Blacklegged ticks generally need 24&ndash;36 hours attached to transmit Lyme disease bacteria, so daily tick checks matter.</li>
               <li>Permethrin-treated clothing kills ticks on contact and lasts about 6 washes on home-treated gear (never apply to skin).</li>
             </ul>
@@ -98,8 +98,8 @@ export default function HowToKeepTicksOutOfYardOntarioPage() {
         <h3>6. Plant Deer-Resistant Landscaping if You're Near Conservation Land</h3>
         <p>White-tailed deer are the primary host for adult blacklegged ticks. Properties bordering conservation areas, ravines, or rural land that attract deer accumulate more ticks. Replace deer-favorite plants (hostas, daylilies, tulips) with deer-resistant alternatives (lavender, salvia, marigolds, Russian sage).</p>
 
-        <h3>7. Apply Professional Tick Barrier Spray Twice Per Season</h3>
-        <p>Late May and August/September are the optimal application windows — late May targets emerging nymphs (the highest-risk life stage for Lyme disease transmission) and August/September targets adult ticks before they overwinter. Spray must be applied to the specific 1–3 metre transition zones, not broadcast across the lawn. Single treatments start at $99.</p>
+        <h3>7. Apply Professional Tick Barrier Spray Five Times Per Season</h3>
+        <p>Five applications spread roughly monthly from May through September is what actually holds a barrier. Blacklegged tick nymphs peak from May into July, and nymphs are the stage that drives most Lyme transmission because they are poppy-seed sized and easily missed. Adults then re-emerge and stay active through the autumn, into November in mild years. The acaricide residual is temporary, and deer, mice, and birds continuously reintroduce ticks from adjacent woodland — so a one-off visit, or a spring-and-fall pair, leaves a multi-month hole straight through peak nymph season. Spray must be applied to the specific 1–3 metre transition zones, not broadcast across the lawn. Single treatments start at $99; a full five-treatment tick season is $597, or $497 added to any mosquito plan.</p>
 
         <h3>8. Inspect Yourself and Pets After Outdoor Activity</h3>
         <p>Lyme disease bacteria typically require 24–36 hours of tick attachment to transmit. Daily tick checks dramatically reduce infection risk. Focus checks on warm, hidden areas: behind ears, scalp, armpits, groin, behind knees. For dogs: between toes, under collars, around ears.</p>
@@ -120,7 +120,7 @@ export default function HowToKeepTicksOutOfYardOntarioPage() {
         <p>For a full walkthrough of treating clothes and yard gear, see our <Link href="/blog/permethrin-canada-yard-clothing-spray" className="text-brand-700 hover:underline">permethrin for yard &amp; clothing guide (Canada)</Link>, and compare skin-safe options in our <Link href="/blog/best-tick-repellent-yard-canada" className="text-brand-700 hover:underline">best tick repellents for the yard in Canada</Link> roundup.</p>
 
         <h3>10. Know the GTA's High-Risk Zones</h3>
-        <p>Public Health Ontario confirms blacklegged tick populations across the GTA. Highest-risk areas: Oak Ridges Moraine (King City, Caledon, Richmond Hill), Rouge National Urban Park (Scarborough, Markham), Niagara Escarpment (Hamilton, Burlington north end), Don Valley and ravine system (Toronto), Bronte Creek Provincial Park (Oakville/Burlington edge), and Boyd Conservation Area (Vaughan/Woodbridge). Properties within 1 km of these areas should treat barrier zones twice yearly minimum.</p>
+        <p>Public Health Ontario confirms blacklegged tick populations across the GTA. Highest-risk areas: Oak Ridges Moraine (King City, Caledon, Richmond Hill), Rouge National Urban Park (Scarborough, Markham), Niagara Escarpment (Hamilton, Burlington north end), Don Valley and ravine system (Toronto), Bronte Creek Provincial Park (Oakville/Burlington edge), and Boyd Conservation Area (Vaughan/Woodbridge). Properties within 1 km of these areas should run the full five-treatment season on their barrier zones — monthly May through September — rather than a single spring visit.</p>
 
 
         <h2>Bottom Line</h2>

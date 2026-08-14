@@ -57,7 +57,7 @@ export default function HamiltonBurlingtonPage() {
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
         <div className="not-prose bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
           <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-          <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Hamilton and Burlington face some of the GTA region&apos;s heaviest mosquito and tick pressure because the Niagara Escarpment, Cootes Paradise marsh, Bronte Creek, and the Royal Botanical Gardens all border residential neighbourhoods. Properties near these features should start seasonal barrier spray in early May, with tick applications timed to the spring nymph and fall adult peaks.</p>
+          <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Hamilton and Burlington face some of the GTA region&apos;s heaviest mosquito and tick pressure because the Niagara Escarpment, Cootes Paradise marsh, Bronte Creek, and the Royal Botanical Gardens all border residential neighbourhoods. Properties near these features should start seasonal barrier spray in early May, with tick applications repeating roughly monthly through September so the residual never lapses across peak nymph season.</p>
           <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
             <li>Properties within 500 m of Niagara Escarpment trails consistently experience elevated mosquito pressure.</li>
             <li>Cootes Paradise &mdash; one of the largest wetlands in the western Lake Ontario basin &mdash; drives overspill mosquito pressure into Westdale, Ainslie Wood, and the McMaster area.</li>
@@ -88,7 +88,7 @@ export default function HamiltonBurlingtonPage() {
 
         <h3>Tick Risk in Hamilton</h3>
         <p>Blacklegged ticks are established along Hamilton&apos;s Escarpment trail network, Dundas Valley Conservation Area, and Fifty Point Conservation Area near Winona. The Hamilton Conservation Authority has documented tick populations across most of its managed lands. Properties backing onto any forested conservation area should prioritize professional tick treatment.</p>
-        <p>The west-end communities carry the heaviest share of that risk, since Dundas Valley is one of the most consistently tick-positive conservation blocks the HCA surveys. We go through the Escarpment-edge streets and the two-treatment timing in <Link href="/blog/tick-control-ancaster-dundas-hamilton" className="text-brand-700 hover:underline">the Ancaster and Dundas tick control guide</Link>.</p>
+        <p>The west-end communities carry the heaviest share of that risk, since Dundas Valley is one of the most consistently tick-positive conservation blocks the HCA surveys. We go through the Escarpment-edge streets and the month-by-month treatment timing in <Link href="/blog/tick-control-ancaster-dundas-hamilton" className="text-brand-700 hover:underline">the Ancaster and Dundas tick control guide</Link>.</p>
 
         <h2>Burlington: Waterfront and Greenbelt Pressure</h2>
 
@@ -117,12 +117,15 @@ export default function HamiltonBurlingtonPage() {
             <tbody>
               {[
                 { t: 'Mosquito Treatment 1', timing: 'Early May', target: 'Establish barrier before peak season' },
-                { t: 'Tick Treatment 1', timing: 'Late May / Early June', target: 'Peak nymph activity period' },
+                { t: 'Tick Treatment 1', timing: 'Mid May', target: 'Nymphs emerging along wooded edges' },
                 { t: 'Mosquito Treatment 2', timing: 'Early June', target: 'Maintain season coverage' },
+                { t: 'Tick Treatment 2', timing: 'Mid June', target: 'Peak nymph activity — renews residual before it lapses' },
                 { t: 'Mosquito Treatment 3', timing: 'Early July', target: 'Peak mosquito season' },
-                { t: 'Tick Treatment 2', timing: 'Late July / Early August', target: 'Adult tick activity period' },
+                { t: 'Tick Treatment 3', timing: 'Mid July', target: 'Tail of nymph season; blocks wildlife re-introduction' },
                 { t: 'Mosquito Treatment 4', timing: 'Early August', target: 'Late-season surge' },
+                { t: 'Tick Treatment 4', timing: 'Mid August', target: 'Adults beginning to re-emerge' },
                 { t: 'Mosquito Treatment 5', timing: 'Early September', target: 'Season close-out' },
+                { t: 'Tick Treatment 5', timing: 'Mid September', target: 'Carries adult-tick cover into the autumn' },
               ].map(({ t, timing, target }) => (
                 <tr key={t} className="border-b border-gray-200 even:bg-gray-50">
                   <td className="px-4 py-2 font-medium text-gray-800">{t}</td>

@@ -170,7 +170,7 @@ const FAQS = [
 
 export const metadata: Metadata = buildMetadata({
   title: `Most Dangerous Animal in Canada: Death Counts`,
-  description: `The most dangerous animal in Canada by the numbers: wildlife-vehicle crashes kill about 28 people a year, insect stings 3–4, West Nile one death in 2024.`,
+  description: `By deaths in Canada: moose and deer kill ~28 people a year in vehicle collisions, stings 3–4, West Nile 1 death in 2024. Mosquitoes top the world list.`,
   canonical: SLUG,
 })
 
@@ -383,7 +383,7 @@ export default function DeadliestAnimalInCanadaPage() {
       <section className="bg-gradient-to-br from-emerald-50 via-teal-50 to-blue-50 py-14 px-4 border-y-4 border-emerald-200">
         <div className="max-w-5xl mx-auto">
           <h2 className="text-3xl font-extrabold text-brand-900 mb-2">Are mosquitoes dangerous in Canada?</h2>
-          <p className="text-base text-gray-700 mb-8 max-w-3xl">Yes &mdash; through <Link href="/blog/west-nile-virus-mosquito-risk-ontario" className="text-brand-700 hover:underline">West Nile virus</Link>, not malaria. And the risk is not steady: Canadian WNV case counts swing dramatically from year to year, which is exactly why public-health agencies treat each season as unpredictable.</p>
+          <p className="text-base text-gray-700 mb-8 max-w-3xl">Yes &mdash; through <Link href="/blog/west-nile-virus-mosquito-risk-ontario" className="text-brand-700 hover:underline">West Nile virus</Link>, not malaria. And the risk is not steady: Canadian WNV case counts swing dramatically from year to year, which is exactly why public-health agencies treat each season as unpredictable. In the GTA the 2025 season followed that pattern: Toronto Public Health confirmed WNV-positive mosquitoes in mid-July and a Toronto resident became Canada&rsquo;s first locally-acquired human case of the year, while Peel&rsquo;s first case was a Mississauga resident in September. Shrinking the adult Culex population around the house is the yard-level response &mdash; the job of a <Link href="/toronto-mosquito-control" className="text-brand-700 hover:underline">Toronto mosquito control</Link> or <Link href="/mississauga-mosquito-control" className="text-brand-700 hover:underline">Mississauga mosquito control</Link> barrier treatment.</p>
 
           <div className="rounded-2xl border-2 border-emerald-200 bg-white p-6 shadow-sm">
             <h3 className="text-lg font-extrabold text-brand-900 mb-1">West Nile virus &mdash; human cases in Canada (PHAC)</h3>

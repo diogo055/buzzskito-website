@@ -97,7 +97,7 @@ export const metadata: Metadata = buildMetadata({
   // Head term (~pos 15). Title front-loads the keyword, matches "what they look
   // like" + the dominant "kill them" intent, and stays under 60 chars.
   title: 'Mosquito Larvae: What They Look Like (5-8 mm)',
-  description: 'Mosquito larvae are 5-8 mm wigglers that hang head-down and dart in an S-shape. How to tell them from midge larvae and kill them in 24-48 hrs with BTI.',
+  description: 'Mosquito larvae are 5-8 mm wigglers that hang head-down and dart in an S-shape when disturbed. Draining kills them instantly, BTI in 24-48 hours.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -315,8 +315,8 @@ export default function MosquitoLarvaePage() {
           </ol>
 
           <h2>The Bigger Picture</h2>
-          <p>Larvae control on your own property eliminates mosquitoes <em>born on your property</em>. But adult mosquitoes from neighbours&rsquo; yards, ravines, creeks, and conservation areas can fly up to 3 km — they will still find your yard regardless of how thoroughly you eliminate your own breeding sites.</p>
-          <p>For complete yard mosquito control, combine larval source reduction with <Link href="/mosquito-control">professional barrier spray</Link> that targets adult mosquitoes resting on your vegetation. It is worth being clear about which tool does what: a <Link href="/blog/mosquito-fogger-canada">mosquito fogger</Link> kills flying adults and does nothing to larvae sitting in a rain barrel or ditch, so treat the water with BTI and save the fogging for the adults. Larvae control + barrier spray + habitat modification is the three-leg stool of effective residential mosquito management.</p>
+          <p>Larvae control on your own property eliminates mosquitoes <em>born on your property</em>. But adult mosquitoes from neighbours&rsquo; yards, ravines, creeks, and conservation areas can fly up to 3 km — they will still find your yard regardless of how thoroughly you eliminate your own breeding sites. That is why a spotless yard can still swarm: a ravine-backing lot in Toronto or a property along one of Mississauga&rsquo;s creek corridors sits well inside flight range of breeding water nobody owns, which is why we pair source reduction with <Link href="/toronto-mosquito-control">mosquito control in Toronto</Link> and <Link href="/mississauga-mosquito-control">mosquito control in Mississauga</Link> on those properties.</p>
+          <p>For complete yard mosquito control, combine larval source reduction with <Link href="/mosquito-control">professional barrier spray</Link> that targets adult mosquitoes resting on your vegetation. It is worth being clear about which tool does what: a <Link href="/blog/mosquito-fogger-canada">mosquito fogger</Link> kills flying adults and does nothing to larvae sitting in a rain barrel or ditch, so treat the water with BTI and save the fogging for the adults. If you are weighing a $10&ndash;$20 pack of dunks against hiring someone, single treatments start at $99 — see the full <Link href="/mosquito-control-cost">mosquito control cost breakdown</Link>. Larvae control + barrier spray + habitat modification is the three-leg stool of effective residential mosquito management.</p>
 
           <h2>Related Reading</h2>
           <ul>

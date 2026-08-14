@@ -65,7 +65,7 @@ const FAQS = [
 export const metadata: Metadata = buildMetadata({
   title: 'Mosquito Season Ontario: When They Come Out 2026',
   description:
-    'Mosquito season in Ontario starts in late April once days hold above 10°C and ends in early October. Month-by-month GTA timeline and 5-spray schedule.',
+    'Ontario mosquito season starts in late April above 10°C, peaks June–July, and ends in early October. Month-by-month GTA timeline and 5-spray schedule.',
   canonical: `/blog/${POST.slug}`,
   type: 'article',
   publishedTime: POST.date,
@@ -182,6 +182,8 @@ export default function MosquitoSeasonPage() {
           <li><strong><Link href="/toronto-mosquito-control" className="text-brand-700">Toronto</Link></strong> — Ravine-adjacent properties in Don Valley, Humber Valley, and High Park neighbourhoods</li>
           <li><strong><Link href="/hamilton-mosquito-control" className="text-brand-700">Hamilton</Link></strong> — Cootes Paradise and escarpment areas see early and sustained activity</li>
           <li><strong><Link href="/oakville-mosquito-control" className="text-brand-700">Oakville</Link></strong> — Glen Abbey and Joshua Creek ravines, and the Bronte Creek corridor</li>
+          <li><strong><Link href="/brampton-mosquito-control" className="text-brand-700">Brampton</Link></strong> — the Etobicoke Creek and Heart Lake corridors hold the shaded, damp cover mosquitoes rest in through the day</li>
+          <li><strong><Link href="/markham-mosquito-control" className="text-brand-700">Markham</Link></strong> — Rouge River valley and Milner Creek properties back onto the same kind of ravine habitat</li>
         </ul>
 
         <h2>The Case for Starting Treatment Early</h2>

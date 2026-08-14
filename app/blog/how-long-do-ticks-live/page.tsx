@@ -63,7 +63,7 @@ const FAQS = [
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'How long do ticks live? Two to three years outdoors, but only days to two weeks indoors, where air is too dry. Stage-by-stage table plus Ontario winter facts.',
+  description: 'Ticks live 2–3 years outdoors but only days to about two weeks indoors — the air is too dry. Lifespan by stage, winter survival, and time spent on a dog.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -160,7 +160,7 @@ export default function HowLongDoTicksLivePage() {
 
           <h2>Can Ticks Live in Your House?</h2>
           <p><strong>For Ontario&rsquo;s common ticks, the answer is essentially no.</strong> Blacklegged ticks and American dog ticks need relative humidity of roughly 80% or higher to survive for long. Heated, air-conditioned indoor air typically sits far below that &mdash; often 30–50% &mdash; which is a desert to a tick. A tick carried inside on a pant leg or a dog will usually dehydrate and die within a few days to a couple of weeks, and it cannot breed or establish a population indoors.</p>
-          <p>That is genuinely reassuring, and it is the opposite of how fleas and bed bugs behave. Fleas and bed bugs are adapted to complete their life cycles inside your home; blacklegged and dog ticks are not. If you keep finding ticks indoors, they are almost always being <strong>carried in fresh</strong> from the yard on people or pets &mdash; not reproducing in the carpet. The fix is therefore outdoors: reduce tick habitat around the property and check pets before they come in.</p>
+          <p>That is genuinely reassuring, and it is the opposite of how fleas and bed bugs behave. Fleas and bed bugs are adapted to complete their life cycles inside your home; blacklegged and dog ticks are not. If you keep finding ticks indoors, they are almost always being <strong>carried in fresh</strong> from the yard on people or pets &mdash; not reproducing in the carpet. The fix is therefore outdoors: reduce tick habitat around the property and check pets before they come in. In the GTA that almost always means one narrow strip — the shaded, humid margin where a lawn meets a ravine, woodlot, or fence line. It is the zone <Link href="/north-york-tick-spray">North York tick spray</Link> visits target along the Don valley ravines, and the same one <Link href="/burlington-tick-spray">tick control in Burlington</Link> works through the escarpment woodlots.</p>
           <p>There is one worldwide exception worth naming so you can rule it out: the <strong>brown dog tick</strong> (<em>Rhipicephalus sanguineus</em>) tolerates dry indoor air and <em>can</em> complete its entire life cycle inside homes and kennels, occasionally causing true indoor infestations. It is uncommon in Canada&rsquo;s outdoor climate, and most Ontario households will never encounter it, but if a home has a genuine repeat tick problem tied to a dog, it is worth mentioning to a veterinarian or licensed pest professional.</p>
 
           <aside aria-label="Professional tick control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">

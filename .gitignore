@@ -34,3 +34,8 @@ Thumbs.db
 # Claude Code build/run artifacts
 build.log
 start.log
+
+# Raw GSC API dumps — regenerable, 12-16MB each, and they bloat history permanently.
+# The analysis scripts alongside them are kept; re-pull the data when needed.
+seo-audit/**/gsc_full_scan.json
+seo-audit/**/gsc_by_country.json

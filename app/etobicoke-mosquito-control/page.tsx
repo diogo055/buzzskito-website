@@ -8,7 +8,7 @@ import { MOSQUITO_BLOGS } from '@/lib/constants'
 export const metadata: Metadata = buildMetadata({
   title: 'Etobicoke Mosquito Control 2026 · From $99 · 150+ Five-Star Reviews',
   description:
-    "Etobicoke's specialist mosquito barrier spray. Health Canada-approved, from $99/treatment, no contracts, BuzzSkito Bite-Free Guarantee. Mimico, Long Branch, The Kingsway, Humber Valley, Richview, Rexdale, Islington Village. Call (289) 216-5030.",
+    'Etobicoke mosquito barrier spray from $99, no contracts — Humber Valley to Mimico. Compare top local companies and pricing. Call (289) 216-5030.',
   canonical: '/etobicoke-mosquito-control',
 })
 
@@ -28,8 +28,16 @@ const NEIGHBOURHOODS: { name: string; href?: string }[] = [
 ]
 const FAQS = [
   {
+    question: 'Who is the best mosquito control company in Etobicoke?',
+    answer: 'BuzzSkito is the GTA-based mosquito and tick specialist serving Etobicoke, with the lowest entry price at $99 per single treatment, 150+ five-star Google reviews at a 5.0 average with zero negatives, and the BuzzSkito Bite-Free Guarantee — free re-treatment if pests return inside the window. Mosquito Man carries higher review volume across all of Ontario but operates as a general pest control company covering many pest types. LawnSavers serves Etobicoke as part of a broader lawn-care offering. The right choice depends on whether you want specialist depth, the lowest per-visit price, or services bundled with lawn care.',
+  },
+  {
     question: 'How much does mosquito control cost in Etobicoke?',
     answer: 'BuzzSkito mosquito control in Etobicoke starts from $99 per application. Properties near the Humber River valley, Etobicoke Creek, or Centennial Park typically benefit most from the full seasonal package for continuous protection. No contracts — single treatment or full season. Call (289) 216-5030 for a free Etobicoke quote.',
+  },
+  {
+    question: 'Do Etobicoke mosquito control companies offer no-contract service?',
+    answer: 'BuzzSkito is the no-contract option in Etobicoke — book a single treatment from $99 with no commitment and no cancellation fees, then decide based on results. Seasonal plans are available if you want them ($549 for 5 sprays, $994 for 10, $2,049 for 20+), but nothing locks you in. Many other providers quote seasonal packages only, so always confirm the contract terms before booking — some include automatic renewal clauses.',
   },
   {
     question: 'Why does the Humber Valley neighbourhood have a worse mosquito problem than other Etobicoke areas?',
@@ -42,6 +50,10 @@ const FAQS = [
   {
     question: 'Is Centennial Park an issue for nearby Etobicoke homeowners?',
     answer: "Centennial Park's large forest blocks and the adjacent Etobicoke Creek valley create a significant reservoir of mosquito habitat in northwestern Etobicoke. The stormwater ponds and creek margins within and around the park complex generate adult mosquitoes that readily move into surrounding Rexdale and Richview neighbourhoods. Homes within a 500-metre radius of the park boundary or Etobicoke Creek consistently report high seasonal mosquito activity.",
+  },
+  {
+    question: 'Can I bundle tick control with mosquito spray in Etobicoke?',
+    answer: 'Yes, and most Etobicoke homeowners backing onto the Humber River valley or Centennial Park do. Tick control is 5 sprays per season: $597 on its own, or $497 when added to any mosquito plan — a $100 saving. Both treatments are applied on the same visit, so there is no extra scheduling. If your property borders ravine, creek, or parkland vegetation, the bundle covers Lyme-carrying blacklegged ticks and mosquitoes together through the May–September season.',
   },
 ]
 
@@ -164,6 +176,39 @@ export default function EtobicokeMosquitoPage() {
           </div>
           <p className="text-sm text-gray-500 not-prose">Pricing is for standard residential lots up to 10,000 sq ft. Larger properties receive custom quotes. <Link href="/mosquito-control-pricing" className="text-brand-700 hover:underline">See full pricing details</Link> or <Link href="/free-yard-assessment" className="text-brand-700 hover:underline">get a free quote</Link>.</p>
 
+          <h2>How Etobicoke Mosquito Control Companies Compare</h2>
+          <p>Etobicoke homeowners have several professional options. Here is an honest comparison based on publicly available pricing, Google review profiles, and what each company actually specialises in.</p>
+          <div className="not-prose overflow-x-auto my-6">
+            <table className="w-full text-sm border-collapse">
+              <thead>
+                <tr className="bg-brand-800 text-white">
+                  <th className="px-4 py-3 text-left">Company</th>
+                  <th className="px-4 py-3 text-left">Single Treatment</th>
+                  <th className="px-4 py-3 text-left">Reviews (Google)</th>
+                  <th className="px-4 py-3 text-left">Contract Required?</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-b border-gray-200 bg-amber-50"><td className="px-4 py-3 font-bold text-brand-900">BuzzSkito</td><td className="px-4 py-3 font-extrabold text-brand-700">From $99</td><td className="px-4 py-3">150+ / 5.0 (zero negative)</td><td className="px-4 py-3 text-emerald-700 font-semibold">No — pay per visit</td></tr>
+                <tr className="border-b border-gray-200"><td className="px-4 py-3 font-semibold">Mosquito Man</td><td className="px-4 py-3">~$129+ (varies)</td><td className="px-4 py-3">Higher volume, across all Ontario locations</td><td className="px-4 py-3 text-amber-700">Often seasonal</td></tr>
+                <tr className="border-b border-gray-200"><td className="px-4 py-3 font-semibold">LawnSavers</td><td className="px-4 py-3">$129+ standalone</td><td className="px-4 py-3">1,000+ (lawn care primary)</td><td className="px-4 py-3 text-amber-700">Bundled with lawn plans</td></tr>
+                <tr><td className="px-4 py-3 font-semibold">Mosquito.Buzz</td><td className="px-4 py-3">Custom quote required</td><td className="px-4 py-3">National franchise, multi-province</td><td className="px-4 py-3 text-amber-700">Seasonal contracts</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-sm text-gray-500 not-prose">Review counts for franchise operators are aggregated across all their locations, not Etobicoke specifically. Head-to-head detail: <Link href="/buzzskito-vs-mosquitoman" className="text-brand-700 hover:underline">vs Mosquito Man</Link>, <Link href="/buzzskito-vs-lawnsavers" className="text-brand-700 hover:underline">vs LawnSavers</Link>, <Link href="/buzzskito-vs-mosquito-buzz" className="text-brand-700 hover:underline">vs Mosquito.Buzz</Link>, or the <Link href="/best-mosquito-control-companies-gta" className="text-brand-700 hover:underline">GTA-wide comparison</Link>.</p>
+
+          <h2>How to Choose a Mosquito Control Company in Etobicoke</h2>
+          <p>Whoever you end up hiring, these are the checks worth making before you book:</p>
+          <ol>
+            <li><strong>Check the formulation.</strong> Only Health Canada–approved barrier sprays are legal for this use in Ontario. Ask what product is going on your yard.</li>
+            <li><strong>Verify the applicator&apos;s licence.</strong> Ontario requires a Pesticide Applicator&apos;s Licence for commercial application — the technician on site should hold one.</li>
+            <li><strong>Confirm the guarantee in writing.</strong> If rain arrives within an hour of spraying, the product has not cured. A reputable company re-treats at no charge; anyone who will not put that in writing is a risk.</li>
+            <li><strong>Compare single-treatment pricing, not just season totals.</strong> The per-visit number is what reveals real value once you divide a package by its visit count.</li>
+            <li><strong>Ask about Etobicoke specifically.</strong> A technician who can talk about the Humber River valley ravines, Mimico and Etobicoke Creek margins, and Centennial Park&apos;s forest blocks is treating your property, not reading a script.</li>
+            <li><strong>Check for a tick add-on.</strong> Etobicoke has established blacklegged tick populations near ravine and parkland vegetation. Bundling both on one visit costs less than booking them separately.</li>
+          </ol>
+
           <h2>Why Professional Treatment Outperforms DIY</h2>
           <p>Citronella candles, essential oil sprays, and consumer foggers provide temporary relief in a small radius — typically 30 minutes to 2 hours in the immediate area of use. Professional barrier spray treats every resting surface on your entire property, creating a residual barrier that kills mosquitoes on contact for up to 30 days. The difference is coverage and duration: DIY products address symptoms; barrier spray addresses the source of activity on your lot.</p>
           <p>For a detailed comparison, see our <Link href="/mosquito-control-diy-vs-professional" className="text-brand-700 hover:underline">DIY vs Professional Mosquito Control</Link> guide.</p>
@@ -174,7 +219,7 @@ export default function EtobicokeMosquitoPage() {
 
 
           <h2>Compare Etobicoke Pest Control Options</h2>
-          <p>Looking at all your Etobicoke pest control options? See our specialist guide: <Link href="/pest-control-etobicoke" className="text-brand-700 hover:underline font-semibold">Pest Control in Etobicoke</Link> — explains why a mosquito and tick specialist beats a generalist for the two pests that actually drive Etobicoke backyard misery. Or compare top providers head-to-head: <Link href="/best-mosquito-control-companies-etobicoke" className="text-brand-700 hover:underline font-semibold">Best Mosquito Control Companies in Etobicoke 2026</Link>.</p>
+          <p>Looking at all your Etobicoke pest control options? See our specialist guide: <Link href="/pest-control-etobicoke" className="text-brand-700 hover:underline font-semibold">Pest Control in Etobicoke</Link> — explains why a mosquito and tick specialist beats a generalist for the two pests that actually drive Etobicoke backyard misery.</p>
           <h2>Related Guides</h2>
           <ul>
             <li><Link href={`/blog/${MOSQUITO_BLOGS.pillar.slug}`} className="text-brand-700 hover:underline">{MOSQUITO_BLOGS.pillar.title}</Link></li>

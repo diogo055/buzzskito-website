@@ -261,7 +261,7 @@ const FAQS = [
 
 export const metadata: Metadata = buildMetadata({
   title: `Ticks in Ontario 2026: What % Carry Lyme?`,
-  description: `About 20% of blacklegged ticks in Ontario risk areas carry Lyme, over 20% in Toronto. See the 2008-2023 trend, 2,369 cases in 2024 and the 43-species split.`,
+  description: `Over 20% of ticks in Toronto and northwestern Ontario carry Lyme — the province's highest rates. Where risk areas are, 2,369 cases in 2024, 43 species.`,
   canonical: SLUG,
 })
 
@@ -310,7 +310,7 @@ export default function TicksInOntarioStatisticsPage() {
             Ticks in Ontario:<br className="hidden sm:block" /> <span className="text-amber-400">2026 Statistics, Species &amp; Risk Data</span>
           </h1>
           <p className="text-lg text-brand-100 max-w-3xl mx-auto leading-relaxed mb-6">
-            How common are ticks in Ontario, which species carry Lyme disease, and how fast is the risk spreading? This free resource aggregates the latest available tick and Lyme disease statistics from Public Health Ontario, the Public Health Agency of Canada, and provincial surveillance into one citable page for journalists, researchers, and Ontario residents.
+            How common are ticks in Ontario, where is the risk highest, which species carry Lyme disease, and how fast is it spreading? The short version: infection rates are highest in Toronto and northwestern Ontario, where more than 20% of blacklegged ticks carry the Lyme bacterium. This free resource aggregates the latest available tick and Lyme disease statistics from Public Health Ontario, the Public Health Agency of Canada, and provincial surveillance into one citable page for journalists, researchers, and Ontario residents.
           </p>
           <div className="flex flex-wrap gap-2 justify-center text-xs">
             <span className="bg-white/10 px-3 py-1 rounded-full">📊 Public Health Ontario</span>
@@ -551,6 +551,7 @@ According to BuzzSkito&rsquo;s analysis of Northwestern Health Unit and City of 
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl font-extrabold text-brand-900 mb-2">Where are the worst areas for ticks in Ontario?</h2>
           <p className="text-base text-gray-700 mb-4">The highest blacklegged tick infection rates are reported in <strong>Toronto and Northwestern Ontario</strong>, where more than 20% of ticks test positive for the Lyme bacterium (<a href="https://www.nwhu.on.ca/for-professionals/for-health-care-professionals/tick-borne-disease-information-for-health-care-professionals/" target="_blank" rel="noopener" className="underline font-semibold text-rose-700">Northwestern Health Unit</a>; City of Toronto). Established risk areas now cover most of southern Ontario, with notable concentrations along the Great Lakes shorelines, the Oak Ridges Moraine, the Niagara Escarpment, and eastern Ontario.</p>
+          <p className="text-base text-gray-700 mb-4">For a homeowner the practical version of that map is the property line: a yard backing onto ravine, moraine or escarpment land carries more exposure than one in the middle of a subdivision. That pattern shows up right across the GTA: in the ravine network Toronto is built around, which is why <Link href="/toronto-tick-spray" className="underline font-semibold text-rose-700">tick spray in Toronto</Link> concentrates on ravine-edge yards rather than open lawn; along the Oak Ridges Moraine and Bruce Trail lands behind <Link href="/caledon-tick-spray" className="underline font-semibold text-rose-700">Caledon tick control</Link>; and on the escarpment-to-lakeshore corridor covered by <Link href="/burlington-tick-spray" className="underline font-semibold text-rose-700">Burlington tick treatment</Link>.</p>
           <div className="rounded-2xl bg-white border-l-4 border-rose-500 p-6 shadow-sm">
             <p className="text-sm text-gray-700 leading-relaxed">For a detailed, neighbourhood-level breakdown of the worst tick areas in Ontario &mdash; including specific parks, trails, and GTA hot spots &mdash; read our companion guide: <Link href="/blog/are-ticks-dangerous-ontario" className="underline font-bold text-rose-700">Are ticks dangerous in Ontario? Worst areas &amp; risk explained</Link>.</p>
           </div>

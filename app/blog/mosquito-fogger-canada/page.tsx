@@ -49,7 +49,7 @@ const FAQS = [
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'Mosquito fogger Canada guide: propane thermal vs electric ULV, which fogging liquid is PMRA-registered here, and why knockdown lasts hours, not weeks.',
+  description: 'Propane foggers run $60–$110, electric ULV $80–$250 — knockdown lasts 6–24 hours, not weeks. Best models plus which fogging liquid is PMRA-registered.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -74,7 +74,7 @@ export default function MosquitoFoggerCanadaPage() {
             <span className="text-white">Mosquito Fogger Canada</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
-          <p className="text-xl text-brand-100 max-w-3xl">How foggers actually work, propane vs electric, which fogging liquid goes in the tank, the top Canadian models and prices, and the honest limits &mdash; temporary knockdown, not lasting control.</p>
+          <p className="text-xl text-brand-100 max-w-3xl">A mosquito fogger clears the adult mosquitoes from a yard 20&ndash;30 minutes after you walk the perimeter, and that knockdown holds roughly 6&ndash;24 hours &mdash; real relief, almost no residual. Here is propane vs electric ULV, which fogging liquid is legal in Canada, and the top models and 2026 prices.</p>
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
@@ -303,7 +303,7 @@ export default function MosquitoFoggerCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="mosquito fogger insecticide liquid">Fogging insecticide liquid →</BuyLink>
             <BuyLink tag={AMZ_TAG} search="black flag fogger fuel">Black Flag fogger fuel →</BuyLink>
           </div>
-          <p>One budgeting sanity check: if you find yourself re-fogging every week, the liquid bills add up fast for hours-long results. At that point a <Link href="/blog/backpack-sprayer-canada">backpack sprayer</Link> with a registered residual concentrate treats the same vegetation a professional targets and keeps working for weeks instead of hours &mdash; or skip the DIY labour entirely with a seasonal barrier program.</p>
+          <p>One budgeting sanity check: if you find yourself re-fogging every week, the liquid bills add up fast for hours-long results. At that point a <Link href="/blog/backpack-sprayer-canada">backpack sprayer</Link> with a registered residual concentrate treats the same vegetation a professional targets and keeps working for weeks instead of hours &mdash; or skip the DIY labour entirely with a seasonal barrier program, which you can price against a summer of liquid refills on our <Link href="/mosquito-control-cost">mosquito control cost</Link> breakdown.</p>
           <p>One thing an outdoor fogger is emphatically <em>not</em>: an indoor &ldquo;bug bomb&rdquo;. Total-release foggers for crawling pests work on a different principle and fail for a structural reason &mdash; they deposit on open surfaces while the insects sit inside wall voids, and the pressure of the release pushes survivors deeper rather than out. We say so plainly in our buying guides for <Link href="/blog/best-cockroach-spray-canada">cockroach spray</Link> and <Link href="/blog/best-centipede-killer-canada">centipede products</Link>, where a bomb is the one purchase that actively sets the plan back. Keep the fogger for the yard, twenty minutes before guests arrive, and leave the indoor version on the shelf.</p>
 
           <div className="not-prose my-6 rounded-xl bg-emerald-50 border-l-4 border-emerald-500 p-5">
@@ -349,6 +349,7 @@ export default function MosquitoFoggerCanadaPage() {
           <p>If you would rather not handle insecticide clouds at all &mdash; or you want protection that also covers your clothing and gear for hikes and yard work &mdash; a treated-fabric approach is a useful complement. See our <Link href="/blog/permethrin-canada-yard-clothing-spray">permethrin Canada guide for yard and clothing spray</Link> for how residual permethrin differs from a short-lived fog.</p>
 
           <h2 id="vs-alternatives">Fogger vs Real Mosquito Solutions for GTA Yards</h2>
+          <p>Reinvasion pressure is what decides whether a fogger alone is enough. On a tight suburban lot where the neighbour&rsquo;s fence sits a few metres from the patio &mdash; a common setup on the properties we treat for <Link href="/mississauga-mosquito-control">mosquito control in Mississauga</Link> &mdash; fresh mosquitoes drift back in from surrounding yards within a day or two of fogging. Larger treed lots hold a fogging a little longer, but nothing holds it for weeks.</p>
           <table className="not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
             <thead className="bg-brand-50">
               <tr><th className="px-3 py-2 text-left">Solution</th><th className="px-3 py-2 text-left">Cost</th><th className="px-3 py-2 text-left">How long it lasts</th><th className="px-3 py-2 text-left">Tick coverage</th></tr>
@@ -362,7 +363,7 @@ export default function MosquitoFoggerCanadaPage() {
           </table>
 
           <h2 id="verdict">The Honest Verdict for GTA Buyers</h2>
-          <p>A fogger is a genuinely useful tool &mdash; for the narrow job of clearing your yard right before you use it. If you host the occasional backyard gathering, a $60&ndash;$90 propane fogger plus a bottle of registered fogging liquid is a smart, cheap thing to keep in the shed. What a fogger cannot do is keep your yard livable all summer: the knockdown is over in hours, ticks are largely unaffected, and you would be re-fogging constantly to stay ahead of reinvasion. For baseline, weeks-long control &mdash; and for tick protection &mdash; a residual <Link href="/mosquito-control">professional barrier spray</Link> does far more per dollar and per hour of your time. The best setup for most GTA homeowners is both: a seasonal barrier program for the baseline, and a fogger on the shelf for event-day touch-ups.</p>
+          <p>A fogger is a genuinely useful tool &mdash; for the narrow job of clearing your yard right before you use it. If you host the occasional backyard gathering, a $60&ndash;$90 propane fogger plus a bottle of registered fogging liquid is a smart, cheap thing to keep in the shed. What a fogger cannot do is keep your yard livable all summer: the knockdown is over in hours, ticks are largely unaffected, and you would be re-fogging constantly to stay ahead of reinvasion. For baseline, weeks-long control &mdash; and for tick protection &mdash; a residual <Link href="/mosquito-control">professional barrier spray</Link> does far more per dollar and per hour of your time. The best setup for most GTA homeowners is both: a seasonal barrier program for the baseline, and a fogger on the shelf for event-day touch-ups. If your lot is bigger or backs onto a woodlot, that baseline matters more rather than less &mdash; our <Link href="/vaughan-mosquito-control">mosquito control in Vaughan</Link> page walks through how a seasonal program is scheduled on properties like that.</p>
           <p>The other way to buy yourself a bite-free evening is to stop fighting the air and enclose the space instead. A <Link href="/blog/best-screen-tent-canada">screen tent or screen house</Link> over the table protects that footprint the moment the last stake goes in &mdash; nothing to reapply, nothing that wears off in three hours, and it works on black flies as well as mosquitoes. It is the honest alternative to fogging before every dinner, and at a cottage, dock or campsite where no barrier spray applies, it is the only alternative.</p>
           <p>A fogger is also just one machine in the DIY pest-control toolkit &mdash; if you are weighing backpack sprayers, steamers, or ULV units against each other, the equipment section of our <Link href="/pest-product-guides">pest product guides</Link> sizes and compares that heavier gear for Canadian buyers.</p>
           <p>The device most people compare a fogger against is a plug-in UV trap, and that comparison is not close. A fogger at least applies a registered insecticide to the air and foliage where mosquitoes rest; a UV-plus-fan trap emits no CO&#8322; and, in independent trap research, catches under 5% mosquitoes. Before you buy one instead of a fogger, read <Link href="/blog/dynatrap-canada-review">our DynaTrap review &mdash; do they actually work on mosquitoes?</Link></p>

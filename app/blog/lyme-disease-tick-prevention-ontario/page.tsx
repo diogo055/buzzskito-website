@@ -261,7 +261,10 @@ export default function LymeDiseasePage() {
           <BuyLink tag={AMZ_TAG} search="thermacell tick control tubes 12 pack">Check tick control tubes on Amazon.ca →</BuyLink>
         </div>
         <p>
-          For the most reliable yard protection, professional tick barrier spray treats exactly the zones where blacklegged ticks hide and wait. Our <Link href="/tick-control" className="text-brand-700 hover:underline">tick control treatments</Link> apply a Health Canada-registered residual formula to garden edges, foundation plantings, shaded turf, and wood borders — the areas that matter. One treatment provides up to 30 days of protection; we recommend two applications timed to spring nymph season and fall adult activity.
+          For the most reliable yard protection, professional tick barrier spray treats exactly the zones where blacklegged ticks hide and wait. Our <Link href="/tick-control" className="text-brand-700 hover:underline">tick control treatments</Link> apply a Health Canada-registered residual formula to garden edges, foundation plantings, shaded turf, and wood borders — the areas that matter. One treatment provides up to 30 days of protection, which is why the seasonal program is five treatments spread roughly monthly from May through September &mdash; $597 standalone, or $497 added to any mosquito plan.
+        </p>
+        <p>
+          The monthly cadence is the whole point. Nymphs &mdash; the poppy-seed-sized stage that drives most Lyme transmission because it is so easily missed &mdash; peak from May through July, and adults re-emerge and stay active through the autumn, into November in mild years. A pair of visits timed to spring and fall would leave a multi-month gap right across nymph season, which is precisely the wrong window to be uncovered. Deer, mice and birds also keep carrying fresh ticks in from the ravine or woodlot next door, so the barrier has to be renewed rather than applied once or twice and left to lapse.
         </p>
         <p>
           Your kids shouldn't have to stay off the grass. Your dog shouldn't come home from the backyard with a passenger. Professional treatment is the one layer that works while you're not thinking about it.

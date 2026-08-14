@@ -29,7 +29,7 @@ const FAQS = [
   },
   {
     question: 'How many tick treatments do I need per season?',
-    answer: 'BuzzSkito recommends two professional tick treatments per season: the first in late May or early June to target nymphs (the smallest and most dangerous tick life stage), and the second in late July or early August to target adult ticks. Properties with very high exposure may benefit from a third treatment in early fall.',
+    answer: 'BuzzSkito recommends five professional tick treatments per season — roughly one a month from May through September. Each application leaves up to 30 days of residual, so a monthly cadence is what keeps the barrier continuous instead of lapsing between visits. The May, June, and July applications cover peak blacklegged nymph activity — nymphs are the hardest life stage to spot and are responsible for most Lyme disease transmission — while the August and September applications carry coverage into the autumn, when adult ticks re-emerge and stay active in mild years into November. Because deer, mice, and birds continuously carry ticks back in from adjacent woodland, the barrier has to be renewed month after month rather than applied once or twice. A standalone tick season is $597, or $497 when added to any BuzzSkito mosquito plan.',
   },
   {
     question: 'What areas of my property should be treated for ticks?',
@@ -61,7 +61,7 @@ export default function VaughanKingCityTickControlPage() {
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
         <div className="not-prose bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
           <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-          <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Yes &mdash; Vaughan, Woodbridge, and King City face real, measurable tick risk. Boyd Conservation Area, the Humber River valley, and King Township&apos;s Oak Ridges Moraine lands are confirmed blacklegged tick habitat, and two barrier treatments per season &mdash; late May to early June for nymphs, late July to early August for adults &mdash; cover the active season.</p>
+          <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Yes &mdash; Vaughan, Woodbridge, and King City face real, measurable tick risk. Boyd Conservation Area, the Humber River valley, and King Township&apos;s Oak Ridges Moraine lands are confirmed blacklegged tick habitat, and five barrier treatments spread roughly monthly from May through September &mdash; each holding up to 30 days of residual &mdash; cover the active season without leaving a gap.</p>
           <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
             <li>Boyd Conservation Area and the Humber River valley are confirmed tick habitat documented by York Region Public Health.</li>
             <li>King Township consistently reports among the highest tick-positive rates in York Region.</li>
@@ -131,7 +131,8 @@ export default function VaughanKingCityTickControlPage() {
             </tbody>
           </table>
         </div>
-        <p>The nymph stage is the most dangerous because nymphs are tiny enough to be missed during tick checks, yet the majority of Lyme disease transmissions in Ontario occur from nymph bites. Targeting nymphs with a late-May treatment is the most critical intervention of the season.</p>
+        <p>The nymph stage is the most dangerous because nymphs are tiny enough to be missed during tick checks, yet the majority of Lyme disease transmissions in Ontario occur from nymph bites. Nymphs are not out for a single week, though — they stay active from May right through July, and a barrier application leaves up to 30 days of residual. That is why we treat five times a season, roughly once a month from May through September, rather than once or twice: the May, June, and July applications keep continuous cover across the entire nymph peak, and skipping a month opens a hole in the barrier during precisely the window you least want to be uncovered.</p>
+        <p>The later applications are not filler. Adult ticks re-emerge and stay active through the autumn — into November in mild years — so the August and September treatments carry protection past the point most homeowners assume the season has ended. And because deer, mice, and birds move continuously between the Humber valley woodland and adjacent back gardens, ticks are being reintroduced to your property all season long. A barrier is something you renew, not something you apply once and walk away from.</p>
 
         <h2>What BuzzSkito Treats and How</h2>
         <p>Our York Region tick treatments target the specific habitat zones where ticks concentrate:</p>
@@ -165,7 +166,7 @@ export default function VaughanKingCityTickControlPage() {
         </ul>
       </article>
 
-      <CTASection heading="York Region Tick Control — Free Quotes for Vaughan, King City & Woodbridge" subtext="Professional tick barrier spray targeting nymphs, adults, and larvae. Two seasonal treatments cover the full active season." />
+      <CTASection heading="York Region Tick Control — Free Quotes for Vaughan, King City & Woodbridge" subtext="Professional tick barrier spray targeting nymphs, adults, and larvae. Five treatments, roughly monthly from May through September, cover the full active season." />
     </>
   )
 }

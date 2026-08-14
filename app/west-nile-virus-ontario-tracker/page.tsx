@@ -225,7 +225,7 @@ const FAQS = [
 
 export const metadata: Metadata = buildMetadata({
   title: `West Nile Virus Ontario & Toronto: 2026 Tracker`,
-  description: `West Nile virus in Ontario: 81 confirmed human cases in 2024, 46% of the 177 nationwide. Cases by year, Toronto and Peel surveillance, and season timeline.`,
+  description: `Toronto confirmed WNV-positive mosquitoes July 18, 2025 and Canada's first locally-acquired human case of 2025 on July 31. Ontario logged 81 cases in 2024.`,
   canonical: SLUG,
 })
 
@@ -277,7 +277,7 @@ export default function WestNileVirusOntarioTrackerPage() {
             West Nile Virus in Ontario &amp; the GTA<br className="hidden sm:block" /> <span className="text-amber-400">2026 Case Tracker</span>
           </h1>
           <p className="text-lg text-brand-100 max-w-3xl mx-auto leading-relaxed mb-6">
-            A consumer-friendly tracker of West Nile virus (WNV) in Ontario and the Greater Toronto Area &mdash; confirmed human case counts, Toronto &amp; Peel mosquito surveillance, the mosquito vector that carries it, severity and fatality rates, and season timing. Every figure on this page is attributed to a named primary source: the Public Health Agency of Canada, Public Health Ontario, the U.S. CDC, and peer-reviewed surveillance literature.
+            Toronto Public Health detects WNV-positive mosquitoes most summers: the city&rsquo;s first positive batches of 2025 were confirmed July 18, and a Toronto resident became Canada&rsquo;s first locally-acquired human case of the year on July 31. This tracker covers West Nile virus (WNV) across Ontario and the Greater Toronto Area &mdash; confirmed human case counts, Toronto &amp; Peel mosquito surveillance, the mosquito vector that carries it, severity and fatality rates, and season timing. Every figure on this page is attributed to a named primary source: the Public Health Agency of Canada, Public Health Ontario, the U.S. CDC, and peer-reviewed surveillance literature.
           </p>
           <div className="flex flex-wrap gap-2 justify-center text-xs">
             <span className="bg-white/10 px-3 py-1 rounded-full">🇨🇦 Public Health Agency of Canada</span>
@@ -414,7 +414,7 @@ export default function WestNileVirusOntarioTrackerPage() {
       <section className="bg-white py-14 px-4">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl font-extrabold text-brand-900 mb-2">Has West Nile virus been found in Toronto?</h2>
-          <p className="text-base text-gray-700 mb-3 max-w-3xl">Yes. Toronto Public Health confirmed the city&rsquo;s first WNV-positive mosquito batches of 2025 on July 18, and a Toronto resident with no travel history became Canada&rsquo;s first locally-acquired human case of 2025, confirmed July 31 (Global News / PHAC). The table below summarizes recent per-health-unit findings across the GTA.</p>
+          <p className="text-base text-gray-700 mb-3 max-w-3xl">Yes. Toronto Public Health confirmed the city&rsquo;s first WNV-positive mosquito batches of 2025 on July 18, and a Toronto resident with no travel history became Canada&rsquo;s first locally-acquired human case of 2025, confirmed July 31 (Global News / PHAC). The table below summarizes recent per-health-unit findings across the GTA &mdash; York Region reported its first human case in the City of Vaughan, and Hamilton confirmed 7 human cases in 2024. If you live in one of those health units, our yard-level guidance for <Link href="/vaughan-mosquito-control" className="text-emerald-700 underline font-semibold">mosquito control in Vaughan</Link> and <Link href="/hamilton-mosquito-control" className="text-emerald-700 underline font-semibold">Hamilton mosquito control</Link> covers where Culex rests and breeds on a residential property.</p>
           <p className="text-xs text-gray-500 mb-8 italic">Note: Public health authorities report by province and public health unit, not by the marketing &ldquo;GTA&rdquo; boundary. Toronto, Peel, York and Hamilton are separate health units. Figures below are first-detection or point-in-time announcements from each unit&rsquo;s press releases &mdash; not full-season cumulative totals &mdash; and should not be summed into a single &ldquo;GTA total.&rdquo;</p>
 
           <div className="rounded-xl border border-gray-200 overflow-hidden bg-white shadow-sm">
@@ -456,7 +456,7 @@ export default function WestNileVirusOntarioTrackerPage() {
             </div>
             <div className="rounded-2xl bg-emerald-50 border-l-4 border-emerald-500 p-5">
               <h3 className="text-lg font-extrabold text-brand-900 mb-2">Peel surveillance, in brief</h3>
-              <p className="text-sm text-gray-700 leading-relaxed">Peel Public Health tests 33 traps weekly across Mississauga, Brampton and Caledon. The first 2025 positive pool was confirmed July 22, with 6 positive traps the week of July 27; Peel&rsquo;s first 2025 human case was a Mississauga resident (Sept 9). See our deeper local explainer, <Link href="/blog/west-nile-virus-mississauga-2026" className="text-emerald-700 underline font-semibold">West Nile virus in Mississauga 2026</Link>.</p>
+              <p className="text-sm text-gray-700 leading-relaxed">Peel Public Health tests 33 traps weekly across Mississauga, Brampton and Caledon. The first 2025 positive pool was confirmed July 22, with 6 positive traps the week of July 27; Peel&rsquo;s first 2025 human case was a Mississauga resident (Sept 9). See our deeper local explainer, <Link href="/blog/west-nile-virus-mississauga-2026" className="text-emerald-700 underline font-semibold">West Nile virus in Mississauga 2026</Link>, and the yard-level side of it on our <Link href="/mississauga-mosquito-control" className="text-emerald-700 underline font-semibold">Mississauga mosquito control</Link> page.</p>
             </div>
           </div>
         </div>

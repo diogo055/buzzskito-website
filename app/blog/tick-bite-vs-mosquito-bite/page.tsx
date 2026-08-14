@@ -18,7 +18,7 @@ const UPDATED = '2026-07-12'
 export const metadata: Metadata = buildMetadata({
   title: 'Tick Bite vs Mosquito Bite: 9-Point Chart + Lyme',
   description:
-    'Tick bite vs mosquito bite compared across 9 points: onset, pain, itch, and the day 3–30 bull’s-eye rash window that separates a welt from Lyme risk.',
+    'Mosquito bite: itchy welt in minutes, insect gone. Tick bite: painless, tick still attached — plus the 3–30 day bull’s-eye rash that signals Lyme.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -106,7 +106,7 @@ export default function TickBiteVsMosquitoBitePage() {
 
         <AuthorByline datePublished={DATE} dateModified={UPDATED} />
 
-        <p>Ontario homeowners who spend time outdoors — especially near conservation areas, ravines, or the Oak Ridges Moraine — should know how to tell a tick bite from a mosquito bite. While both can cause a red, irritated mark on the skin, the implications are very different. Mosquito bites are usually just itchy nuisances. Tick bites carry a small but real risk of Lyme disease, which is now established throughout the Greater Toronto Area and York Region.</p>
+        <p>The difference between a tick bite and a mosquito bite comes down to one check you can make immediately: a mosquito is long gone by the time you notice the itchy welt, while a tick is still attached and feeding. Ontario homeowners who spend time outdoors — especially near conservation areas, ravines, or the Oak Ridges Moraine — need that distinction, because while both can cause a red, irritated mark on the skin, the implications are very different. Mosquito bites are usually just itchy nuisances. Tick bites carry a small but real risk of Lyme disease, which is now established throughout the Greater Toronto Area and York Region.</p>
 
         <h2>The Key Difference: Mosquitoes Leave, Ticks Stay</h2>
         <p>The single most reliable way to distinguish a tick bite from a mosquito bite is whether the insect is still attached. <strong>Mosquitoes bite and immediately fly away.</strong> You may notice the bite minutes later as an itchy welt, but the mosquito is gone. <strong>Ticks attach and feed for hours or days.</strong> If you find an insect embedded in your skin, it is a tick — not a mosquito. This distinction matters because the sooner you remove a tick, the lower the risk of Lyme disease transmission. Removing a tick within 24 hours of attachment significantly reduces infection risk. The other comparison people arrive at in the middle of the night is <Link href="/blog/bed-bug-bites-vs-mosquito-bites" className="text-brand-700 underline">bed bug bites versus mosquito bites</Link>, which turns on pattern, timing and season rather than on whether anything is still attached.</p>
@@ -243,7 +243,7 @@ export default function TickBiteVsMosquitoBitePage() {
           <li><strong>Credit River corridor</strong> (Mississauga, Georgetown, Halton Hills)</li>
           <li><strong>Don River valley</strong> (Toronto, Richmond Hill, Markham)</li>
         </ul>
-        <p>York Region Public Health and Toronto Public Health both issue annual tick risk advisories for these areas. BuzzSkito serves all 19 GTA cities where tick and mosquito risk is meaningful.</p>
+        <p>York Region Public Health and Toronto Public Health both issue annual tick risk advisories for these areas. BuzzSkito serves all 19 GTA cities where tick and mosquito risk is meaningful. Along the ravine systems listed above, that means <Link href="/toronto-tick-spray" className="text-brand-700 hover:underline">Toronto tick spray</Link> for Don and Humber valley properties and <Link href="/etobicoke-tick-spray" className="text-brand-700 hover:underline">Etobicoke tick control</Link> where the lower Humber cuts through the neighbourhood. On the west side, <Link href="/mississauga-tick-spray" className="text-brand-700 hover:underline">tick spray in Mississauga</Link> covers the yards backing onto the Credit River corridor.</p>
 
         <h2>How to Protect Your Yard</h2>
         <p>For most GTA homeowners, the highest tick and mosquito exposure happens in their own backyard — not in the woods. Ticks wait on grass blades and vegetation at the edges of your lawn. Mosquitoes rest in shrubs and hedges during the day. Professional barrier spray targets these exact micro-habitats.</p>

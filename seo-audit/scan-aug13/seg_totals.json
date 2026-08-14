@@ -1,0 +1,25 @@
+{
+ "windows": {
+  "current": {
+   "start": "2026-07-15",
+   "end": "2026-08-11"
+  },
+  "previous": {
+   "start": "2026-06-17",
+   "end": "2026-07-14"
+  }
+ },
+ "pages_current": {
+  "rows": 485,
+  "clicks": 7629,
+  "impressions": 767271
+ },
+ "pages_previous": {
+  "rows": 273,
+  "clicks": 4910,
+  "impressions": 312269
+ },
+ "total_recoverable_clicks_fixable": 2117,
+ "total_clicks_locked_in_retailer_dead": 233,
+ "total_clicks_locked_in_aio": 501
+}

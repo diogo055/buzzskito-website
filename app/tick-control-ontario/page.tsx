@@ -31,7 +31,7 @@ const FAQS = [
   },
   {
     question: 'When is tick season in Ontario?',
-    answer: 'Blacklegged tick nymphs — the life stage responsible for most Lyme disease transmissions — are most active from May through July. This is the highest-risk period for Ontario homeowners. Adult ticks are active in early spring (March–April) and fall (October–November) whenever temperatures are above 4°C. Unlike mosquitoes, blacklegged ticks remain active on warm winter days above 4°C. The recommended treatment window is late May for nymph season, with a second treatment in August or September for adult activity.',
+    answer: 'Blacklegged tick nymphs — the life stage responsible for most Lyme disease transmissions — are most active from May through July. This is the highest-risk period for Ontario homeowners. Adult ticks are active in early spring (March–April) and fall (October–November) whenever temperatures are above 4°C. Unlike mosquitoes, blacklegged ticks remain active on warm winter days above 4°C. Because that active window stretches from spring into late autumn, the recommended treatment schedule is five applications spread roughly monthly from May through September — covering the entire nymph peak without a gap, then carrying residual protection into the fall adult period.',
   },
   {
     question: 'Which Ontario areas have the highest tick risk in the GTA?',
@@ -39,7 +39,7 @@ const FAQS = [
   },
   {
     question: 'How many tick treatments does an Ontario property need per season?',
-    answer: 'Most Ontario residential properties benefit from two tick treatments per season: one in late May or early June targeting nymph peak activity (May–July), and one in August or September for fall adult tick emergence. High-exposure properties — those adjacent to conservation lands, ravines, the Oak Ridges Moraine, or with confirmed deer movement — benefit from three treatments for continuous protection through the season. Each treatment provides up to 30 days of residual protection.',
+    answer: 'A full Ontario tick season is five treatments — roughly one a month from May through September. The reason is residual: each application protects for up to 30 days, so five visits are what it takes to hold the barrier continuously across the whole May-to-September season without a gap between applications. The May, June and July applications sit directly over the blacklegged tick nymph peak, the stage responsible for most Lyme disease transmission because nymphs are poppy-seed sized and routinely missed on a body check. The August and September applications cover adult ticks, which re-emerge in autumn and stay active into November in mild years. Repetition matters because the acaricide residual is temporary and deer, mice and birds continuously reintroduce ticks from adjacent woodland — a twice-yearly schedule leaves the middle of nymph season completely uncovered. BuzzSkito prices the tick season at $597 on its own, or $497 when added to any mosquito plan; single one-off treatments start from $99.',
   },
 ]
 
@@ -115,7 +115,7 @@ export default function TickControlOntarioPage() {
 
           <h2>Ontario Tick Season and Lyme Disease Risk</h2>
           <p>Blacklegged tick populations are established across Southern Ontario and continue to expand northward. The Oak Ridges Moraine — running through Richmond Hill, Vaughan, King Township, and Caledon — is Ontario&apos;s highest-density tick corridor and the primary route by which tick populations spread from rural to suburban landscapes. The Niagara Escarpment, Credit River, Humber River, and Don River systems create additional corridors distributing ticks into residential neighbourhoods throughout the GTA.</p>
-          <p>The two-treatment seasonal approach covers the full active window: a late May treatment targets nymph peak season (May–July, the highest Lyme disease transmission period), and an August treatment addresses fall adult emergence. High-exposure properties adjacent to conservation lands or with confirmed deer movement benefit from three seasonal treatments.</p>
+          <p>Our five-treatment season covers that full active window with visits spaced roughly monthly from May through September. The May, June and July applications sit on top of nymph peak season — the highest Lyme disease transmission period, because nymphs are poppy-seed sized and routinely missed on a body check — while the August and September visits carry the barrier into fall adult emergence, which can run into November in mild years. Each treatment holds for up to 30 days, and deer, mice and birds keep reintroducing ticks from neighbouring woodland all season, so monthly repetition is what maintains an unbroken barrier instead of leaving a multi-month gap at the worst point in the year. Tick control is $597 for the season on its own, or $497 added to any mosquito plan.</p>
 
           <h2>Tick Control by City</h2>
           <div className="not-prose grid grid-cols-2 sm:grid-cols-3 gap-4 mb-8">

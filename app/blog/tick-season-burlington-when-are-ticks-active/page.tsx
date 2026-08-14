@@ -27,7 +27,7 @@ const FAQS = [
   },
   {
     question: 'When does tick season start in Burlington?',
-    answer: 'Tick season in Burlington now starts in mid-to-late March and runs through November. Blacklegged ticks reactivate any day temperatures hold above 4°C, and Burlington\'s position at the western tip of Lake Ontario combined with the south-facing escarpment slope produces some of the earliest tick activity in the GTA. Halton Region surveillance has documented active adult ticks on Mountainside trails by the second week of March in recent years. The dangerous nymph peak runs late May through mid-July, and a second adult peak runs mid-September through October. Treating your Burlington yard in early May covers the nymph window; mid-September treatment covers the fall adults.',
+    answer: 'Tick season in Burlington now starts in mid-to-late March and runs through November. Blacklegged ticks reactivate any day temperatures hold above 4°C, and Burlington\'s position at the western tip of Lake Ontario combined with the south-facing escarpment slope produces some of the earliest tick activity in the GTA. Halton Region surveillance has documented active adult ticks on Mountainside trails by the second week of March in recent years. The dangerous nymph peak runs late May through mid-July, and a second adult peak runs mid-September through October. Because a professional barrier application holds about 30 days of residual, covering that full span takes five treatments spaced roughly monthly from May through September rather than a spring-and-fall pair — that is how BuzzSkito builds a Burlington tick season.',
   },
   {
     question: 'Is Royal Botanical Gardens a tick risk area?',
@@ -39,7 +39,7 @@ const FAQS = [
   },
   {
     question: 'When should I treat my Burlington yard for ticks?',
-    answer: 'The most effective single-treatment timing for a Burlington yard is the second or third week of May, which targets the leading edge of the nymph peak before transmission risk climbs. The most effective two-treatment plan is early May (nymphs) plus mid-September (adult fall peak). For high-risk properties — anything backing onto the escarpment, RBG, a conservation area, or a wooded ravine — we recommend the seasonal plan with treatments every 3-4 weeks from May through September. Single treatments are still valuable if you have an event coming up, but residual protection from a Health Canada-approved barrier spray runs about 30 days, so a single application in June does not cover August or September pressure.',
+    answer: 'The most effective single-treatment timing for a Burlington yard is the second or third week of May, which targets the leading edge of the nymph peak before transmission risk climbs. Full-season coverage is a different job: BuzzSkito\'s tick season plan is five treatments, spread roughly monthly from May through September. Residual protection from a Health Canada-approved barrier spray runs about 30 days, which is exactly why the visits are monthly — a spring-plus-fall pair would leave a multi-month hole straight through the late-May-to-July nymph peak, and nymphs drive most Lyme transmission because they are the size of a poppy seed and easily missed. Deer, mice, and birds also keep walking fresh ticks in from the escarpment, RBG, and every wooded ravine, so the barrier has to be renewed through the season rather than applied once or twice. That renewal matters most on high-risk properties — anything backing onto the escarpment, RBG, a conservation area, or a wooded ravine. Single treatments are still valuable if you have an event coming up, but one application in June does not cover August or September pressure.',
   },
 ]
 
@@ -89,7 +89,7 @@ export default function TickSeasonBurlingtonPage() {
             <li>Halton surveillance has recorded active adult ticks on Mt. Nemo and Mountainside trails by the second week of March.</li>
             <li>The late-May-to-July nymph peak is the highest human-risk window; poppy-seed-sized nymphs carry Borrelia burgdorferi at the same rate as adults.</li>
             <li>Aldershot, Mountainside, Tyandaga, Millcroft, and any escarpment-edge property are Burlington&rsquo;s highest-pressure zones in 2026.</li>
-            <li>A Health Canada-approved barrier spray lasts about 30 days, so BuzzSkito recommends early-May plus mid-September treatments.</li>
+            <li>A Health Canada-approved barrier spray lasts about 30 days, so BuzzSkito&rsquo;s tick season is five treatments spaced roughly monthly from May through September &mdash; monthly renewal is what removes the gap.</li>
           </ul>
           <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
         </div>
@@ -164,8 +164,8 @@ export default function TickSeasonBurlingtonPage() {
 
         <h2>The 2026 Burlington protection plan</h2>
         <ol>
-          <li><strong>Professional barrier spray in early-to-mid May.</strong> Targets the leading edge of the nymph peak. Applied along the back fence line, garden bed edges, leaf-litter zones, woodpiles, and any lawn-to-forest transition. Health Canada-approved formula, residual protection up to 30 days. See <Link href="/burlington-tick-spray" className="text-brand-700 underline">Burlington tick spray pricing</Link>.</li>
-          <li><strong>Repeat in mid-September.</strong> Hits the adult fall peak before October&rsquo;s peak transmission window.</li>
+          <li><strong>Five professional barrier sprays, roughly monthly from May through September.</strong> The first goes down in early-to-mid May to catch the leading edge of the nymph peak, and the last carries into the September-October adult peak. Applied along the back fence line, garden bed edges, leaf-litter zones, woodpiles, and any lawn-to-forest transition. Health Canada-approved formula, residual protection up to 30 days &mdash; which is precisely why the visits land about a month apart. See <Link href="/burlington-tick-spray" className="text-brand-700 underline">Burlington tick spray pricing</Link>.</li>
+          <li><strong>Why five and not one or two.</strong> A spring-plus-fall pair leaves a multi-month hole straight across the late-May-to-July nymph peak &mdash; the exact window when poppy-seed-sized nymphs drive most Lyme transmission. Burlington&rsquo;s deer, mice, and birds also keep reintroducing ticks from the escarpment, RBG, and the creek ravines all season, so the barrier has to be renewed rather than applied once and forgotten.</li>
           <li><strong>Habitat modification along forest, escarpment, and ravine edges.</strong> 3-foot wood-chip or gravel buffer, weekly leaf-litter clearing through May-July, mow tight.</li>
           <li><strong>Daily tick checks for the household and pets.</strong> Especially after RBG, Mt. Nemo, Mountainside trails, conservation area hikes, and off-leash dog parks.</li>
           <li><strong>Permethrin-treated clothing for escarpment hikers.</strong> 0.5% permethrin on hiking pants, socks, and shoes. One treatment lasts 6 weeks or 6 washes.</li>

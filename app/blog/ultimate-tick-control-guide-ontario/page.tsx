@@ -19,13 +19,14 @@ const META_TITLE = 'Ontario Tick Control: 5-Step Yard Plan 2026'
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
   description:
-    "Ontario's 2026 tick surge is real — Toronto is now a hot spot. Identify all 4 species, understand how Ontario actually maps tick risk areas (2,369 Ontario cases in 2024, the newest year PHAC has published), and use the 5-step yard plan. Free risk score by address.",
+    "Toronto and GTA ticks stay active any day above 4°C. Ontario's 3-zone yard plan: identify the species, treat the questing edge, skip what doesn't work.",
   canonical: `/blog/${POST.slug}`,
   type: 'article',
   publishedTime: POST.date,
 })
 
 const FAQS = [
+  { question: 'Are there ticks in Toronto?', answer: 'Yes. Blacklegged ticks — the Lyme disease vector — are established across the Greater Toronto Area, and Ontario public health surveillance has documented them in every GTA municipality, Toronto included. The ravine network (the Don, Humber, and Rouge valleys) and the conservation lands at the city edges are the highest-pressure habitat, and any backyard that meets a ravine, woodlot, or naturalized area can hold ticks. They are active on any day above 4°C, with a nymph peak in May–June and an adult peak in September–October, so yard treatment targets that lawn-to-wild transition band rather than the open lawn.' },
   { question: 'What is the most effective way to control ticks in a yard?', answer: 'Professional barrier spray targeting the high-risk zones in your yard — lawn edges, leaf litter, garden beds, fence lines, under decks, and woodpiles — is the most effective residential tick control method. Combined with habitat modification (leaf removal, mowing, wood-edge barriers), it provides comprehensive protection.' },
   { question: 'Can I get Lyme disease from ticks in my backyard in Ontario?', answer: 'Yes. Blacklegged ticks (the primary Lyme disease carrier) are established throughout Southern Ontario. Ontario public health agencies have confirmed Lyme-disease-carrying tick populations in Mississauga, Hamilton, Oakville, and across the GTA. Your backyard — particularly if it backs onto wooded or naturalized areas — is a realistic exposure site.' },
   { question: 'How do I know if I have ticks in my yard?', answer: 'The easiest method is a drag cloth test: attach white flannel to a stick and drag it slowly through lawn edges, along fences, and through garden beds. Ticks will cling to the cloth. You can also walk slowly through suspect areas wearing white socks and watch for small dark specks. Alternatively, have BuzzSkito assess your property as part of a free quote.' },
@@ -80,7 +81,7 @@ export default function TickPillarPage() {
         </div>
 
         <p className="text-lg text-gray-600 not-prose border-l-4 border-amber-400 pl-5 py-2 mb-8">
-          This is the definitive guide to tick control for Ontario homeowners: tick species, lifecycle, Lyme disease risk, where ticks hide in your yard, prevention strategies, and when to call a professional. For city-specific information, visit our <Link href="/tick-control" className="text-brand-700 underline">Tick Control hub page</Link>.
+          Ticks are active in Toronto and across the GTA on any day above 4&deg;C, with a nymph peak in May&ndash;June and an adult peak in September&ndash;October &mdash; so the 2026 plan starts in spring, not midsummer. This guide covers tick species, lifecycle, Lyme disease risk, where ticks hide in your yard, prevention strategies, and when to call a professional. For city-specific information, visit our <Link href="/tick-control" className="text-brand-700 underline">Tick Control hub page</Link> or our <Link href="/toronto-tick-spray" className="text-brand-700 underline">Toronto tick spray service</Link>.
         </p>
 
         <AffiliateDisclosure />
@@ -116,6 +117,8 @@ export default function TickPillarPage() {
           <li><strong>Tall grass and dense ground cover</strong> — ticks quest (wait for hosts) at the tips of grass blades and vegetation</li>
           <li><strong>Along fence lines</strong> — especially fences adjacent to naturalized areas</li>
         </ul>
+
+        <p>In the west end of the GTA that edge is usually a Humber River valley slope or a ravine lot line, which is why <Link href="/etobicoke-tick-spray" className="text-brand-700 underline hover:text-brand-500">Etobicoke tick spray</Link> is aimed at the fence line and the wooded margin rather than the open lawn.</p>
 
         <p>Read about tick identification: <Link href="/blog/what-ticks-look-like-ontario" className="text-brand-700 underline hover:text-brand-500">How to Identify Ticks in Ontario</Link></p>
 

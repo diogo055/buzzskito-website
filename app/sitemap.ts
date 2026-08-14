@@ -73,8 +73,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const highIntent: MetadataRoute.Sitemap = [
     '/how-it-works',
     '/commercial-mosquito-control',
-    '/mosquito-control-near-me',
-    '/tick-control-near-me',
+    // '/mosquito-control-near-me' and '/tick-control-near-me' 301 to their hub
+    // pages as of Aug 2026 — both sat at position ~46 duplicating the intent of
+    // /mosquito-control and /tick-control.
     '/mosquito-control-cost',
     '/mosquito-control-pricing',
     '/mosquito-control-ontario',
@@ -111,19 +112,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/pest-control-king-city',
     '/pest-control-woodbridge',
     '/pest-control-thornhill',
-    // ── Best Mosquito Control listicles (full GTA coverage Apr 2026) ──────────
-    '/best-mosquito-control-companies-brampton',
-    '/best-mosquito-control-companies-vaughan',
-    '/best-mosquito-control-companies-oakville',
-    '/best-mosquito-control-companies-mississauga',
-    '/best-mosquito-control-companies-toronto',
-    '/best-mosquito-control-companies-hamilton',
-    '/best-mosquito-control-companies-burlington',
-    '/best-mosquito-control-companies-markham',
-    '/best-mosquito-control-companies-richmond-hill',
-    '/best-mosquito-control-companies-north-york',
-    '/best-mosquito-control-companies-etobicoke',
-    '/best-mosquito-control-companies-scarborough',
+    // ── Best Mosquito Control listicles ──────────────────────────────────────
+    // The 12 per-city listicles were 301'd into their matching city service
+    // pages in Aug 2026 (see next.config.mjs). They overlapped those pages on
+    // 62–100% of their queries and were splitting the ranking signal — Google
+    // was choosing between 19 of our own URLs for "mosquito control toronto"
+    // and settling on none. Removed from the sitemap so it advertises only
+    // resolvable URLs. The regional GTA hub is not a duplicate and survives —
+    // it is listed in the highIntent block above.
     '/buzzskito-vs-mosquitoman',
     '/buzzskito-vs-mosquito-buzz',
     '/buzzskito-vs-lawnsavers',

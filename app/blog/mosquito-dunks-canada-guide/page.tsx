@@ -48,7 +48,7 @@ const FAQS = [
   },
   {
     question: 'How much do mosquito dunks cost in Canada?',
-    answer: 'In Canada, expect to pay $12–$20 for a 6-pack of mosquito dunks at major retailers in 2026. Canadian Tire and Home Depot typically list 6-packs at $13.97–$15.99. Rona is usually $14.99–$16.49. A 20-pack runs $25–$35 — better value if you have multiple rain barrels or a pond. Prices increase 10–15% in peak season (June–August), so buying in April–May saves money. Each dunk treats 100 sq ft of water for ~30 days, so a 6-pack covers a typical Canadian backyard rain barrel for the entire May–September season.',
+    answer: 'In Canada, expect to pay $12–$20 for a 6-pack of mosquito dunks at major retailers in 2026. Canadian Tire and Home Depot typically list 6-packs at $13.97–$15.99. Rona is usually $14.49–$16.49. A 20-pack runs $25–$35 — better value if you have multiple rain barrels or a pond. Prices increase 10–15% in peak season (June–August), so buying in April–May saves money. Each dunk treats 100 sq ft of water for ~30 days, so a 6-pack covers a typical Canadian backyard rain barrel for the entire May–September season.',
   },
   {
     question: 'Are mosquito dunks BTI-only or do they have other ingredients?',
@@ -78,7 +78,7 @@ const FAQS = [
 
 export const metadata: Metadata = buildMetadata({
   title: 'Mosquito Dunks Canada 2026: Prices + 3 Mistakes',
-  description: 'Mosquito dunks in Canada run $10–$20 a 6-pack in 2026 — Canadian Tire and Home Depot $13.97–$15.99, Rona $14.49–$16.49. One dunk per 50 gallons.',
+  description: 'One dunk treats 100 sq ft of water for 30 days. Canada 2026 prices compared: $13.97–$16.49 a 6-pack at Canadian Tire, Home Depot, Rona and Lowe\'s.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -178,7 +178,7 @@ export default function MosquitoDunksPage() {
           </p>
           <div className="mt-5 rounded-xl bg-amber-50 border-l-4 border-amber-400 p-4">
             <p className="text-sm text-gray-800 leading-relaxed">
-              <strong className="text-amber-900">⚠️ Important — dunks only solve half the problem.</strong> They kill mosquito <em>larvae</em> in the water you treat. Adult mosquitoes flying in from your neighbours&rsquo; yards, ravines, and creeks are unaffected. To actually enjoy your yard bite-free, combine dunks (your standing water) with <Link href="/mosquito-control" className="text-emerald-700 underline font-semibold">professional barrier spray</Link> on vegetation. Dunks: $15/season. Barrier spray: from $99/treatment.
+              <strong className="text-amber-900">⚠️ Important — dunks only solve half the problem.</strong> They kill mosquito <em>larvae</em> in the water you treat. Adult mosquitoes flying in from your neighbours&rsquo; yards, ravines, and creeks are unaffected. To actually enjoy your yard bite-free, combine dunks (your standing water) with <Link href="/mosquito-control" className="text-emerald-700 underline font-semibold">professional barrier spray</Link> on vegetation. Dunks: $15/season. Barrier spray: from $99/treatment &mdash; here is <Link href="/mosquito-control-cost" className="text-emerald-700 underline font-semibold">what a full season of mosquito control costs</Link> once lot size is factored in.
             </p>
           </div>
         </div>
@@ -279,13 +279,14 @@ export default function MosquitoDunksPage() {
           <p>Most Canadian homeowners with mosquito issues use both — dunks in rain barrels and ponds for set-and-forget protection, bits sprinkled into bird baths or unexpected standing water as needed.</p>
 
           <h2>The Bigger Mosquito Strategy</h2>
-          <p>Mosquito dunks solve only HALF of the mosquito problem — they kill larvae in the water you treat. They don&rsquo;t affect adult mosquitoes flying in from your neighbour&rsquo;s yard, the ravine behind your house, or the creek down the street.</p>
+          <p>Mosquito dunks solve only HALF of the mosquito problem — they kill larvae in the water you treat. They don&rsquo;t affect adult mosquitoes flying in from your neighbour&rsquo;s yard, the ravine behind your house, or the creek down the street. That off-property pressure is the whole story on ravine-backed lots, which is why <Link href="/toronto-mosquito-control">mosquito control in Toronto</Link> is almost never solved by treating your own standing water alone.</p>
           <p>For complete mosquito control in your GTA yard, combine three strategies:</p>
           <ol>
             <li><strong>BTI dunks/bits</strong> in any standing water on your property ($15/season — covers larvae from your own water)</li>
             <li><strong>Habitat modification</strong> — drain anything you can, mow grass short, clear leaf litter</li>
             <li><strong>Professional barrier spray</strong> — <Link href="/mosquito-control">BuzzSkito&rsquo;s seasonal program</Link> targets the adult mosquitoes flying onto your property from off-property sources, with a residual barrier that keeps them out for 21–30 days at a time</li>
           </ol>
+          <p>We run that third layer out of Mississauga across 19+ GTA cities — if you are treating a rain barrel here at home, the companion page for <Link href="/mississauga-mosquito-control">mosquito control in Mississauga</Link> covers what the barrier spray side of the season looks like.</p>
 
           <h2>Related Reading</h2>
           <ul>

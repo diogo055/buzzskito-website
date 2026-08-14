@@ -17,7 +17,7 @@ const NEIGHBOURHOODS = ['Unionville','Cornell','Milliken Mills','Berczy Village'
 const FAQS = [
   {
     question: 'How much does tick spray cost in Markham?',
-    answer: 'Tick spray in Markham starts from $99 per application. Properties near Rouge National Urban Park or any ravine corridor in Markham typically need both spring and fall treatments for complete seasonal protection. No contracts. Call (289) 216-5030.',
+    answer: 'Tick spray in Markham starts from $99 for a single application. Properties near Rouge National Urban Park or any ravine corridor in Markham typically need the full season programme for complete protection: five treatments spread roughly monthly from May through September, $597 on its own or $497 when added to a mosquito plan. Each application leaves up to 30 days of residual, and blacklegged nymphs — the stage that drives most Lyme transmission — peak from May through July, so monthly visits are what keep the barrier continuous instead of leaving a gap in the worst months. No contracts. Call (289) 216-5030.',
   },
   {
     question: 'Which Markham neighbourhoods have the highest tick risk?',
@@ -131,7 +131,7 @@ export default function MarkhamTickPage() {
 
 
           <h2>Compare Markham Pest Control Options</h2>
-          <p>Markham has confirmed blacklegged tick exposure — see our specialist pest control guide: <Link href="/pest-control-markham" className="text-brand-700 hover:underline font-semibold">Pest Control in Markham</Link> for why a mosquito and tick specialist delivers better Lyme disease prevention than a general pest company. Compare top mosquito and tick control providers: <Link href="/best-mosquito-control-companies-markham" className="text-brand-700 hover:underline font-semibold">Best Mosquito Control Companies in Markham 2026</Link>.</p>
+          <p>Markham has confirmed blacklegged tick exposure — see our specialist pest control guide: <Link href="/pest-control-markham" className="text-brand-700 hover:underline font-semibold">Pest Control in Markham</Link> for why a mosquito and tick specialist delivers better Lyme disease prevention than a general pest company. See our full mosquito programme for the same property: <Link href="/markham-mosquito-control" className="text-brand-700 hover:underline font-semibold">Mosquito Control in Markham</Link>.</p>
           <h2>Related Tick Control Guides</h2>
           <ul>
             <li><Link href={`/blog/${TICK_BLOGS.pillar.slug}`} className="text-brand-700 hover:underline">{TICK_BLOGS.pillar.title}</Link></li>

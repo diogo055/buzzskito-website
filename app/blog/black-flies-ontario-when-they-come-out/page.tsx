@@ -55,7 +55,7 @@ const FAQS = [
 
 export const metadata: Metadata = buildMetadata({
   title: 'Black Flies in Ontario: GTA & Muskoka 2026 Dates',
-  description: 'Black flies in Ontario emerge mid-May once streams hit 13–15°C, peak in June, and fade by mid-July. Full GTA calendar, plus Muskoka and northern timing.',
+  description: 'Black flies are 1–5 mm biting flies that cut the skin. In Ontario they emerge mid-May at 13–15°C, peak in June, fade by mid-July. GTA + Muskoka dates.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -283,7 +283,7 @@ export default function BlackFliesOntarioPage() {
 
         <h2>How BuzzSkito Helps With Black Flies</h2>
         <p>Our standard mosquito barrier spray service includes black fly control as part of the treatment. We focus the application on the resting habitats both insects share — under shrub canopies, along fence lines, in dense ornamental beds, on the underside of broad leaves, and across the lawn-bed transition zone. The Health Canada–approved residual formula remains active for up to 30 days, keeping pressure low through the peak black fly window even with rain events in between.</p>
-        <p>For properties near waterways — Credit River backyards in Mississauga, Don Valley ravine homes in North York, Humber-adjacent properties in Etobicoke and Vaughan — we recommend booking the first spray of the season for mid-to-late May. That single timing decision is the difference between a tolerable spring and a wash-out spring.</p>
+        <p>For properties near waterways we recommend booking the first spray of the season for mid-to-late May — the Credit River backyards covered by our <Link href="/mississauga-mosquito-control" className="text-brand-700 underline">Mississauga mosquito control</Link> service, the Don Valley ravine homes we treat under <Link href="/north-york-mosquito-control" className="text-brand-700 underline">North York mosquito control</Link>, and the Humber-adjacent properties in Vaughan and on our <Link href="/etobicoke-mosquito-control" className="text-brand-700 underline">Etobicoke mosquito control</Link> route. That single timing decision is the difference between a tolerable spring and a wash-out spring.</p>
 
         <h2>Get a Free Quote</h2>
         <p>If you are tired of dodging black flies in May and June, we can help. Book a <Link href="/free-yard-assessment" className="text-brand-700 underline">free yard assessment</Link> and we will walk through your property, identify rest zones and likely pressure sources, and give you an honest quote for seasonal coverage. We service 19 cities across the GTA — same-week scheduling for new customers during the spring rush.</p>

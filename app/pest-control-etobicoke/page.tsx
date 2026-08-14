@@ -282,7 +282,7 @@ export default function PestControlEtobicokePage() {
             <li><strong>Targeted barrier spray</strong> &mdash; Health Canada&ndash;approved formula applied with a precision backpack sprayer to vegetation, shrub interiors, and fence lines (not a blanket lawn soak).</li>
             <li><strong>30-minute re-entry</strong> &mdash; once the spray dries, your yard is safe for kids and pets. Protection lasts up to 30 days.</li>
           </ul>
-          <p>Weighing your options first? Compare providers on our <Link href="/best-mosquito-control-companies-etobicoke">best mosquito control companies in {CITY}</Link> roundup, or see how we handle the neighbouring market on our <Link href="/pest-control-toronto">Toronto pest control</Link> page.</p>
+          <p>Weighing your options first? Compare providers on our <Link href="/etobicoke-mosquito-control">best mosquito control companies in {CITY}</Link> roundup, or see how we handle the neighbouring market on our <Link href="/pest-control-toronto">Toronto pest control</Link> page.</p>
         </div>
       </section>
 

@@ -1,0 +1,142 @@
+[
+ {
+  "q": "what time of day are mosquitoes most active",
+  "page": "/blog/when-are-mosquitoes-most-active",
+  "clicks": 1,
+  "impr": 3124,
+  "ctr": 0.03,
+  "pos": 5.5,
+  "lost": 171,
+  "type": "AIO_ZERO_CLICK"
+ },
+ {
+  "q": "how long do mosquito bites last",
+  "page": "/blog/why-do-mosquito-bites-itch",
+  "clicks": 3,
+  "impr": 2764,
+  "ctr": 0.11,
+  "pos": 9.8,
+  "lost": 52,
+  "type": "AIO_ZERO_CLICK"
+ },
+ {
+  "q": "when are mosquitoes most active",
+  "page": "/blog/when-are-mosquitoes-most-active",
+  "clicks": 3,
+  "impr": 1997,
+  "ctr": 0.15,
+  "pos": 7.93,
+  "lost": 51,
+  "type": "AIO_ZERO_CLICK"
+ },
+ {
+  "q": "what does a tick look like",
+  "page": "/blog/bugs-that-look-like-ticks",
+  "clicks": 8,
+  "impr": 300,
+  "ctr": 2.67,
+  "pos": 2.01,
+  "lost": 35,
+  "type": "AIO_ZERO_CLICK"
+ },
+ {
+  "q": "how long do mosquitoes live",
+  "page": "/blog/how-many-times-can-a-mosquito-bite-you",
+  "clicks": 0,
+  "impr": 286,
+  "ctr": 0,
+  "pos": 2.71,
+  "lost": 29,
+  "type": "AIO_ZERO_CLICK"
+ },
+ {
+  "q": "what do mosquito larvae look like",
+  "page": "/blog/mosquito-larvae-identification",
+  "clicks": 12,
+  "impr": 816,
+  "ctr": 1.47,
+  "pos": 5.66,
+  "lost": 22,
+  "type": "AIO_ZERO_CLICK"
+ },
+ {
+  "q": "how many times can a mosquito bite you",
+  "page": "/blog/how-many-times-can-a-mosquito-bite-you",
+  "clicks": 1,
+  "impr": 511,
+  "ctr": 0.2,
+  "pos": 5.65,
+  "lost": 20,
+  "type": "AIO_ZERO_CLICK"
+ },
+ {
+  "q": "how many times can a mosquito bite",
+  "page": "/blog/how-many-times-can-a-mosquito-bite-you",
+  "clicks": 0,
+  "impr": 609,
+  "ctr": 0,
+  "pos": 6.82,
+  "lost": 20,
+  "type": "AIO_ZERO_CLICK"
+ },
+ {
+  "q": "what does mosquito larvae look like",
+  "page": "/blog/mosquito-larvae-identification",
+  "clicks": 10,
+  "impr": 883,
+  "ctr": 1.13,
+  "pos": 6.66,
+  "lost": 19,
+  "type": "AIO_ZERO_CLICK"
+ },
+ {
+  "q": "how long do ticks live",
+  "page": "/blog/how-long-do-ticks-live",
+  "clicks": 0,
+  "impr": 536,
+  "ctr": 0,
+  "pos": 7.33,
+  "lost": 18,
+  "type": "AIO_ZERO_CLICK"
+ },
+ {
+  "q": "how long can ticks live in a house",
+  "page": "/blog/how-long-do-ticks-live",
+  "clicks": 0,
+  "impr": 636,
+  "ctr": 0,
+  "pos": 8.26,
+  "lost": 17,
+  "type": "AIO_ZERO_CLICK"
+ },
+ {
+  "q": "what time are mosquitoes most active",
+  "page": "/blog/when-are-mosquitoes-most-active",
+  "clicks": 2,
+  "impr": 550,
+  "ctr": 0.36,
+  "pos": 6.75,
+  "lost": 16,
+  "type": "AIO_ZERO_CLICK"
+ },
+ {
+  "q": "how many times can one mosquito bite you",
+  "page": "/blog/how-many-times-can-a-mosquito-bite-you",
+  "clicks": 0,
+  "impr": 374,
+  "ctr": 0,
+  "pos": 6.08,
+  "lost": 16,
+  "type": "AIO_ZERO_CLICK"
+ },
+ {
+  "q": "what time do mosquitoes come out",
+  "page": "/blog/when-are-mosquitoes-most-active",
+  "clicks": 0,
+  "impr": 563,
+  "ctr": 0,
+  "pos": 7.84,
+  "lost": 15,
+  "type": "AIO_ZERO_CLICK"
+ }
+]

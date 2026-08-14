@@ -17,7 +17,7 @@ const UPDATED = '2026-07-12'
 export const metadata: Metadata = buildMetadata({
   title: 'Tick Identification Ontario: 3 Species + Sizes',
   description:
-    'Tick identification in Ontario: blacklegged, American dog and lone star ticks by colour, field marks and size in mm — and which one actually carries Lyme.',
+    "Ontario's 3 ticks at a glance: blacklegged (reddish-orange, black shield, 3–5 mm), dog tick (mottled grey), lone star (white dot). Only one carries Lyme.",
   canonical: `/blog/${POST.slug}`,
   type: 'article',
   publishedTime: POST.date,
@@ -211,6 +211,7 @@ export default function WhatTicksLookLikePage() {
           <li><strong>Under decks and porches:</strong> Dark, humid zones that ticks use when conditions are dry or hot</li>
           <li><strong>Dense shrubs and ground cover:</strong> Ticks rest in humid vegetation between questing periods</li>
         </ul>
+        <p>If the tick you are trying to identify came off one of those zones, the yard edge is what needs treating &mdash; not the middle of the lawn. That is exactly where a licensed barrier spray is applied: the 1&ndash;3 metre transition band, the leaf litter, and the under-deck edges, across the May-to-September season. We run it throughout the GTA, including <Link href="/mississauga-tick-spray" className="text-brand-700 underline">tick spray in Mississauga</Link> for Credit River and Rattray Marsh properties and <Link href="/brampton-tick-spray" className="text-brand-700 underline">tick control in Brampton</Link> for homes backing onto ravines and creek corridors.</p>
         <p>Knowing those zones also tells you when to gear up. Because a nymph this small is easier to block than to spot, treated clothing is the standard defence before you walk the lawn edge, rake leaf litter, or move a woodpile: a <Link href="/blog/permethrin-canada-yard-clothing-spray" className="text-brand-700 underline">permethrin spray</Link> goes on boots, socks, and pant cuffs — on the fabric, never on skin — so ticks are stopped on the way up.</p>
 
         <h2>Frequently Asked Questions</h2>

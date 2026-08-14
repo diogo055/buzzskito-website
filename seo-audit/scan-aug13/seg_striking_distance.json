@@ -1,0 +1,382 @@
+[
+ {
+  "q": "dynatrap",
+  "page": "/blog/dynatrap-canada-review",
+  "clicks": 5,
+  "impr": 1259,
+  "ctr": 0.4,
+  "pos": 10.78,
+  "lost": 11,
+  "type": "FIXABLE"
+ },
+ {
+  "q": "mosquito net",
+  "page": "/blog/mosquito-net-canada",
+  "clicks": 0,
+  "impr": 1019,
+  "ctr": 0,
+  "pos": 11.84,
+  "lost": 13,
+  "type": "FIXABLE"
+ },
+ {
+  "q": "electric fly swatter",
+  "page": "/blog/electric-fly-swatter-canada",
+  "clicks": 6,
+  "impr": 1005,
+  "ctr": 0.6,
+  "pos": 10.64,
+  "lost": 7,
+  "type": "FIXABLE"
+ },
+ {
+  "q": "tick vs bed bug",
+  "page": "/blog/tick-vs-bed-bug",
+  "clicks": 2,
+  "impr": 495,
+  "ctr": 0.4,
+  "pos": 11.52,
+  "lost": 4,
+  "type": "FIXABLE"
+ },
+ {
+  "q": "how long do mosquito bites itch",
+  "page": "/blog/why-do-mosquito-bites-itch",
+  "clicks": 0,
+  "impr": 486,
+  "ctr": 0,
+  "pos": 12.61,
+  "lost": 6,
+  "type": "AIO_ZERO_CLICK"
+ },
+ {
+  "q": "bug zapper",
+  "page": "/blog/bug-zappers-canada-do-they-work",
+  "clicks": 3,
+  "impr": 467,
+  "ctr": 0.64,
+  "pos": 13.03,
+  "lost": 3,
+  "type": "FIXABLE"
+ },
+ {
+  "q": "how long can a tick live without a host",
+  "page": "/blog/how-long-do-ticks-live",
+  "clicks": 2,
+  "impr": 463,
+  "ctr": 0.43,
+  "pos": 13,
+  "lost": 4,
+  "type": "AIO_ZERO_CLICK"
+ },
+ {
+  "q": "ticks vs bed bugs",
+  "page": "/blog/tick-vs-bed-bug",
+  "clicks": 1,
+  "impr": 377,
+  "ctr": 0.27,
+  "pos": 12.21,
+  "lost": 4,
+  "type": "FIXABLE"
+ },
+ {
+  "q": "fruit fly trap canadian tire",
+  "page": "/blog/best-fruit-fly-trap-canada",
+  "clicks": 1,
+  "impr": 309,
+  "ctr": 0.32,
+  "pos": 11.95,
+  "lost": 3,
+  "type": "RETAILER_DEAD"
+ },
+ {
+  "q": "dynatrap mosquito trap",
+  "page": "/blog/dynatrap-canada-review",
+  "clicks": 1,
+  "impr": 302,
+  "ctr": 0.33,
+  "pos": 11.78,
+  "lost": 3,
+  "type": "FIXABLE"
+ },
+ {
+  "q": "do citronella candles work",
+  "page": "/blog/citronella-candles-canada-do-they-work",
+  "clicks": 1,
+  "impr": 291,
+  "ctr": 0.34,
+  "pos": 11.17,
+  "lost": 3,
+  "type": "AIO_ZERO_CLICK"
+ },
+ {
+  "q": "bug zappers",
+  "page": "/blog/bug-zappers-canada-do-they-work",
+  "clicks": 0,
+  "impr": 283,
+  "ctr": 0,
+  "pos": 12.06,
+  "lost": 4,
+  "type": "FIXABLE"
+ },
+ {
+  "q": "mosquito control",
+  "page": "/toronto-mosquito-control",
+  "clicks": 0,
+  "impr": 256,
+  "ctr": 0,
+  "pos": 13.78,
+  "lost": 3,
+  "type": "FIXABLE"
+ },
+ {
+  "q": "mosquito control toronto",
+  "page": "/toronto-mosquito-control",
+  "clicks": 0,
+  "impr": 245,
+  "ctr": 0,
+  "pos": 22.5,
+  "lost": 1,
+  "type": "FIXABLE"
+ },
+ {
+  "q": "mosquito killer machine",
+  "page": "/blog/best-mosquito-repellent-device-canada",
+  "clicks": 1,
+  "impr": 236,
+  "ctr": 0.42,
+  "pos": 10.6,
+  "lost": 2,
+  "type": "FIXABLE"
+ },
+ {
+  "q": "rat traps",
+  "page": "/blog/best-rat-trap-canada",
+  "clicks": 0,
+  "impr": 234,
+  "ctr": 0,
+  "pos": 15.01,
+  "lost": 2,
+  "type": "FIXABLE"
+ },
+ {
+  "q": "how long does a mosquito bite last",
+  "page": "/blog/why-do-mosquito-bites-itch",
+  "clicks": 0,
+  "impr": 230,
+  "ctr": 0,
+  "pos": 10.8,
+  "lost": 3,
+  "type": "AIO_ZERO_CLICK"
+ },
+ {
+  "q": "when to worry about a mosquito bite",
+  "page": "/blog/when-to-worry-about-a-mosquito-bite",
+  "clicks": 0,
+  "impr": 230,
+  "ctr": 0,
+  "pos": 13.57,
+  "lost": 3,
+  "type": "FIXABLE"
+ },
+ {
+  "q": "screen tent",
+  "page": "/blog/best-screen-tent-canada",
+  "clicks": 0,
+  "impr": 227,
+  "ctr": 0,
+  "pos": 15.01,
+  "lost": 2,
+  "type": "FIXABLE"
+ },
+ {
+  "q": "effective rat traps",
+  "page": "/blog/best-rat-trap-canada",
+  "clicks": 0,
+  "impr": 226,
+  "ctr": 0,
+  "pos": 14.94,
+  "lost": 3,
+  "type": "FIXABLE"
+ },
+ {
+  "q": "thermacell refills canada",
+  "page": "/blog/thermacell-refills-recharge-canada",
+  "clicks": 2,
+  "impr": 224,
+  "ctr": 0.89,
+  "pos": 10.95,
+  "lost": 1,
+  "type": "FIXABLE"
+ },
+ {
+  "q": "canadian tire fruit fly trap",
+  "page": "/blog/best-fruit-fly-trap-canada",
+  "clicks": 0,
+  "impr": 224,
+  "ctr": 0,
+  "pos": 12.16,
+  "lost": 3,
+  "type": "RETAILER_DEAD"
+ },
+ {
+  "q": "how long are mosquito bites itchy",
+  "page": "/blog/why-do-mosquito-bites-itch",
+  "clicks": 0,
+  "impr": 207,
+  "ctr": 0,
+  "pos": 10.58,
+  "lost": 3,
+  "type": "AIO_ZERO_CLICK"
+ },
+ {
+  "q": "mosquito zapper",
+  "page": "/blog/bug-zappers-canada-do-they-work",
+  "clicks": 1,
+  "impr": 194,
+  "ctr": 0.52,
+  "pos": 12.79,
+  "lost": 2,
+  "type": "FIXABLE"
+ },
+ {
+  "q": "mosquito hawk",
+  "page": "/blog/mosquito-hawk-explained",
+  "clicks": 0,
+  "impr": 185,
+  "ctr": 0,
+  "pos": 10.7,
+  "lost": 2,
+  "type": "FIXABLE"
+ },
+ {
+  "q": "commercial pest control prices",
+  "page": "/pest-control-cost-canada",
+  "clicks": 0,
+  "impr": 179,
+  "ctr": 0,
+  "pos": 23.23,
+  "lost": 1,
+  "type": "FIXABLE"
+ },
+ {
+  "q": "do ultrasonic pest repellers work",
+  "page": "/blog/ultrasonic-pest-repellers-do-they-work",
+  "clicks": 0,
+  "impr": 176,
+  "ctr": 0,
+  "pos": 14.78,
+  "lost": 2,
+  "type": "AIO_ZERO_CLICK"
+ },
+ {
+  "q": "best gazebo for canadian winter",
+  "page": "/blog/best-gazebo-with-mosquito-net-canada",
+  "clicks": 1,
+  "impr": 173,
+  "ctr": 0.58,
+  "pos": 11.37,
+  "lost": 1,
+  "type": "FIXABLE"
+ },
+ {
+  "q": "mosquito nets",
+  "page": "/blog/mosquito-net-canada",
+  "clicks": 0,
+  "impr": 153,
+  "ctr": 0,
+  "pos": 11.71,
+  "lost": 2,
+  "type": "FIXABLE"
+ },
+ {
+  "q": "screen houses",
+  "page": "/blog/best-screen-tent-canada",
+  "clicks": 1,
+  "impr": 151,
+  "ctr": 0.66,
+  "pos": 14.98,
+  "lost": 1,
+  "type": "FIXABLE"
+ },
+ {
+  "q": "screen house",
+  "page": "/blog/best-screen-tent-canada",
+  "clicks": 0,
+  "impr": 147,
+  "ctr": 0,
+  "pos": 22.22,
+  "lost": 0,
+  "type": "FIXABLE"
+ },
+ {
+  "q": "what does flea bites look like",
+  "page": "/blog/flea-bites-on-humans",
+  "clicks": 0,
+  "impr": 147,
+  "ctr": 0,
+  "pos": 11.48,
+  "lost": 2,
+  "type": "AIO_ZERO_CLICK"
+ },
+ {
+  "q": "wasp control",
+  "page": "/blog/how-to-get-rid-of-wasps-canada",
+  "clicks": 0,
+  "impr": 143,
+  "ctr": 0,
+  "pos": 21.07,
+  "lost": 0,
+  "type": "FIXABLE"
+ },
+ {
+  "q": "mosquito dunks",
+  "page": "/blog/mosquito-dunks-canada-guide",
+  "clicks": 1,
+  "impr": 135,
+  "ctr": 0.74,
+  "pos": 11.3,
+  "lost": 1,
+  "type": "FIXABLE"
+ },
+ {
+  "q": "solar bug zapper",
+  "page": "/blog/best-solar-bug-zapper-canada",
+  "clicks": 1,
+  "impr": 134,
+  "ctr": 0.75,
+  "pos": 10.66,
+  "lost": 1,
+  "type": "FIXABLE"
+ },
+ {
+  "q": "do deer flies bite",
+  "page": "/blog/deer-flies-horse-flies-ontario",
+  "clicks": 0,
+  "impr": 134,
+  "ctr": 0,
+  "pos": 11.22,
+  "lost": 2,
+  "type": "FIXABLE"
+ },
+ {
+  "q": "tick lifespan",
+  "page": "/blog/how-long-do-ticks-live",
+  "clicks": 0,
+  "impr": 123,
+  "ctr": 0,
+  "pos": 10.84,
+  "lost": 2,
+  "type": "FIXABLE"
+ },
+ {
+  "q": "best ant traps",
+  "page": "/blog/best-ant-traps-canada",
+  "clicks": 1,
+  "impr": 121,
+  "ctr": 0.83,
+  "pos": 10.51,
+  "lost": 1,
+  "type": "FIXABLE"
+ }
+]

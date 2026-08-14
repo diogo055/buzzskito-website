@@ -89,7 +89,7 @@ export default function TickSeasonOakvillePage() {
             <li>The nymph peak runs late May through mid-July; poppy-seed-sized nymphs carry the same Lyme bacteria as adults.</li>
             <li>Blacklegged ticks reactivate above 4&deg;C, reliably by the third week of March &mdash; the active window has grown roughly three weeks since 2020.</li>
             <li>Highest-risk neighbourhoods include West Oak Trails, Palermo, Bronte, Joshua Creek, and Iroquois Ridge North.</li>
-            <li>BuzzSkito&rsquo;s two-treatment plan (late May/June plus mid-September) uses a Health Canada-approved formula with up to 30 days of residual protection.</li>
+            <li>BuzzSkito&rsquo;s tick season plan is five treatments, roughly monthly from May through September; the Health Canada-approved formula holds up to 30 days of residual, so monthly renewal is what closes the gap.</li>
           </ul>
           <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
         </div>
@@ -169,8 +169,8 @@ export default function TickSeasonOakvillePage() {
 
         <h2>The 2026 Oakville protection plan</h2>
         <ol>
-          <li><strong>Professional barrier spray in late May / early June.</strong> Targets the nymph peak. Applied along the back fence line, garden bed edges, leaf-litter zones, woodpiles, and any lawn-to-forest transition. Health Canada-approved formula, residual protection up to 30 days. See <Link href="/oakville-tick-spray" className="text-brand-700 underline">Oakville tick spray pricing</Link>.</li>
-          <li><strong>Repeat in mid-September.</strong> Hits the adult fall peak before October&rsquo;s peak transmission window.</li>
+          <li><strong>Five professional barrier sprays, roughly monthly from May through September.</strong> The season opens in May on the leading edge of the nymph peak and the final visit carries into the September-October adult peak. Applied along the back fence line, garden bed edges, leaf-litter zones, woodpiles, and any lawn-to-forest transition. Health Canada-approved formula, residual protection up to 30 days &mdash; which is exactly why the visits land about a month apart. See <Link href="/oakville-tick-spray" className="text-brand-700 underline">Oakville tick spray pricing</Link>.</li>
+          <li><strong>Why the cadence is monthly.</strong> A late-May visit paired with a September one leaves a multi-month hole straight through the nymph peak &mdash; the window when poppy-seed-sized nymphs drive most Lyme transmission. Deer and white-footed mice keep walking fresh ticks in from Bronte Creek, 16 Mile Creek, and the North Oakville woodlots all season, so the barrier has to be renewed rather than applied once or twice.</li>
           <li><strong>Habitat modification along the ravine edge.</strong> 3-foot wood-chip or gravel buffer, weekly leaf-litter clearing through May-July, mow tight to the buffer line.</li>
           <li><strong>Daily tick checks for the household and pets.</strong> Especially after Bronte Creek Provincial Park, 16 Mile Creek trail walks, off-leash dog parks, and gardening sessions.</li>
           <li><strong>Permethrin-treated clothing for trail hikers.</strong> 0.5% permethrin spray on hiking pants, socks, and shoes. One treatment lasts 6 weeks or 6 washes. The single most effective personal protection layer.</li>

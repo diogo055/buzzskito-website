@@ -20,7 +20,7 @@ const NEIGHBOURHOODS = ['High Park','East York','Don Mills','The Beaches','Scarb
 const FAQS = [
   {
     question: 'How much does tick spray cost in Toronto?',
-    answer: 'Tick spray in Toronto starts from $99 per application. Properties near the Don Valley, Humber River, or High Park typically benefit from both spring and fall applications. No contracts. Call (289) 216-5030 for a free Toronto tick spray quote.',
+    answer: 'Tick spray in Toronto starts from $99 per application. A full season is $597 standalone — five treatments spread across May through September — or $497 when added to any BuzzSkito mosquito plan, a $100 saving. Properties near the Don Valley, Humber River, or High Park benefit most from the full five-visit season, because ravine wildlife keeps carrying ticks back onto the property all summer. No contracts. Call (289) 216-5030 for a free Toronto tick spray quote.',
   },
   {
     question: 'Are there really ticks in Toronto?',
@@ -36,11 +36,11 @@ const FAQS = [
   },
   {
     question: 'When is tick season in Toronto?',
-    answer: "Blacklegged tick nymphs — the life stage responsible for most Lyme disease transmissions in Ontario — are most active from May through July. Adult ticks are active from October through November and again in early spring (March–April) when temperatures rise above 4°C. Nymphs are the most dangerous stage because they're tiny (poppy-seed sized) and often go undetected during tick checks. A May or June treatment specifically targets this peak nymph window.",
+    answer: "Blacklegged tick nymphs — the life stage responsible for most Lyme disease transmissions in Ontario — are most active from May through July. Adult ticks are active from October through November and again in early spring (March–April) when temperatures rise above 4°C. Nymphs are the most dangerous stage because they're tiny (poppy-seed sized) and often go undetected during tick checks. Our seasonal program treats monthly from May through September, so the peak nymph window is covered from start to finish rather than sampled once.",
   },
   {
     question: 'How many tick treatments does my Toronto property need?',
-    answer: "Two treatments per season cover the full active window: one in late May or early June to target nymph peak activity, and one in August or September for adult tick emergence. Properties in Don Valley, Humber Valley, or Scarborough ravine zones with higher tick pressure may benefit from a third treatment. Each application provides up to 30 days of residual protection.",
+    answer: "Five treatments per season — roughly one a month from May through September. Each application provides up to 30 days of residual protection, so monthly visits keep the barrier continuous instead of leaving a multi-month gap through peak nymph season in May–July, when the poppy-seed-sized nymphs responsible for most Lyme transmission are active. The later visits carry that barrier into the adult tick surge, which runs through autumn and into November in mild years. Repeat applications matter most in Don Valley, Humber Valley, and Scarborough ravine zones, where deer, mice, and birds continually reintroduce ticks from the adjacent woodland. A full season is $597 standalone, or $497 added to any mosquito plan; single treatments start from $99.",
   },
   {
     question: 'Is tick spray safe to use in Toronto near ravines and parks?',
@@ -108,7 +108,7 @@ export default function TorontoTickSprayPage() {
                   ['Service area', 'All Toronto neighbourhoods (High Park, East York, Don Mills, The Beaches, Scarborough, North York, Etobicoke, Leslieville, Rosedale, Forest Hill)'],
                   ['Specialization', 'Blacklegged tick (Ixodes scapularis) and American dog tick barrier spray'],
                   ['Pricing', 'From $99 per treatment · seasonal tick program $597 standalone or tick add-on bundle available on quote'],
-                  ['Treatment season', 'May through October (peak: late April–June nymph activity, then again Sep–Oct adult activity)'],
+                  ['Treatment season', 'May through September, treated monthly (nymph peak May–July; adult ticks stay active into the autumn)'],
                   ['Protection per visit', 'Up to 30 days residual on tick habitat zones'],
                   ['Re-entry time', '30 minutes after spray dries (kid and pet safe)'],
                   ['Recommended schedule', '5 treatments per season for ravine- or conservation-area-adjacent properties'],
@@ -168,10 +168,10 @@ export default function TorontoTickSprayPage() {
         <div className="max-w-4xl mx-auto prose-brand">
           <h2>Ticks in Toronto: The Real Risk</h2>
           <p>Toronto Public Health conducts annual tick surveillance and has confirmed established blacklegged tick populations in High Park, the Don Valley, and other ravine-adjacent areas. Lyme disease is a reportable illness in Ontario, and confirmed case numbers have increased steadily as tick populations expand across Southern Ontario.</p>
-          <p>The key insight for Toronto homeowners: ticks don't need a forest. They're found at the edge of any lawn that backs onto naturalized green space — including the thin strip of vegetation between a backyard fence and a ravine trail. If your property has any wooded edge, ravine view, or backs onto a park, annual tick treatment is a reasonable precaution.</p>
+          <p>The key insight for Toronto homeowners: ticks don't need a forest. They're found at the edge of any lawn that backs onto naturalized green space — including the thin strip of vegetation between a backyard fence and a ravine trail. If your property has any wooded edge, ravine view, or backs onto a park, seasonal tick treatment is a reasonable precaution.</p>
 
           <h2>Toronto Tick Season: When Is the Risk Highest?</h2>
-          <p>Ticks don't disappear in winter — they go dormant and become active again whenever temperatures rise above 4°C. In Toronto's climate, this creates two active windows you need to protect against:</p>
+          <p>Ticks don't disappear in winter — they go dormant and become active again whenever temperatures rise above 4°C. In Toronto's climate, that means tick pressure runs from the first spring thaw right through to late autumn — here is how the risk shifts across the season:</p>
           <div className="not-prose overflow-x-auto my-6">
             <table className="w-full text-sm border-collapse">
               <thead>
@@ -199,7 +199,7 @@ export default function TorontoTickSprayPage() {
               </tbody>
             </table>
           </div>
-          <p>The May–July nymph window is the most dangerous period for Lyme disease transmission in Ontario. Nymphs are the size of a poppy seed — often found and removed only after they've been attached long enough to transmit Lyme disease. A late May treatment specifically targets this peak window before nymph activity reaches its height.</p>
+          <p>The May–July nymph window is the most dangerous period for Lyme disease transmission in Ontario. Nymphs are the size of a poppy seed — often found and removed only after they've been attached long enough to transmit Lyme disease. A late May treatment gets ahead of this window, and the monthly visits that follow hold the barrier through June and July while nymph activity is at its height.</p>
 
           <h2>Is Tick Spray Safe for Children and Pets?</h2>
           <p>This is the most common question we get from Toronto parents — and the answer is yes, with one simple rule: stay off the treated area for 30 minutes while the product dries.</p>
@@ -208,7 +208,7 @@ export default function TorontoTickSprayPage() {
           <p>For full details, see our <Link href="/blog/is-mosquito-spray-safe-kids-pets" className="text-brand-700 hover:underline">guide to mosquito and tick spray safety for kids and pets</Link>.</p>
 
           <h2>Toronto Tick Treatment Schedule</h2>
-          <p>Two targeted treatments cover the critical active windows for blacklegged ticks in Toronto:</p>
+          <p>Our seasonal tick program is five treatments — roughly one a month from May through September. Each application holds for up to 30 days, so monthly visits leave no gap in the barrier during the months blacklegged ticks are active in Toronto:</p>
           <div className="not-prose overflow-x-auto my-6">
             <table className="w-full text-sm border-collapse">
               <thead>
@@ -220,9 +220,11 @@ export default function TorontoTickSprayPage() {
               </thead>
               <tbody>
                 {[
-                  { t: 'Treatment 1', timing: 'Late May – early June', target: 'Nymph peak — highest Lyme risk window in Ontario' },
-                  { t: 'Treatment 2', timing: 'August – early September', target: 'Adult tick emergence for fall active period' },
-                  { t: 'Treatment 3 (optional)', timing: 'Mid-July', target: 'High-pressure properties: ravine edge, Don/Humber zone' },
+                  { t: 'Treatment 1', timing: 'May', target: 'Nymph emergence — get ahead of the highest Lyme risk window in Ontario' },
+                  { t: 'Treatment 2', timing: 'June', target: 'Nymph peak — poppy-seed sized, so most bites go undetected' },
+                  { t: 'Treatment 3', timing: 'July', target: 'Late nymph activity, plus ticks carried back in from the Don and Humber ravines' },
+                  { t: 'Treatment 4', timing: 'August', target: 'Barrier renewed as the first new adults begin emerging' },
+                  { t: 'Treatment 5', timing: 'September', target: 'Adult tick activity heading into autumn — into November in mild years' },
                 ].map(({ t, timing, target }) => (
                   <tr key={t} className="border-b border-gray-200 even:bg-gray-50">
                     <td className="px-4 py-2 font-medium text-amber-700">{t}</td>
@@ -233,7 +235,7 @@ export default function TorontoTickSprayPage() {
               </tbody>
             </table>
           </div>
-          <p>Each treatment provides up to 30 days of residual protection. Many Toronto homeowners bundle tick and mosquito treatments — the same visit covers both, since ticks and mosquitoes rest on the same vegetation surfaces. See our <Link href="/toronto-mosquito-control" className="text-brand-700 hover:underline">Toronto mosquito control service</Link> for bundle pricing details.</p>
+          <p>Each treatment provides up to 30 days of residual protection, and the acaricide residual is temporary — deer, mice, and birds moving in from the ravines reintroduce ticks continuously, which is why the barrier has to be renewed rather than set once. The full five-visit season is $597 standalone, or $497 added to any BuzzSkito mosquito plan. Many Toronto homeowners bundle tick and mosquito treatments — the same visit covers both, since ticks and mosquitoes rest on the same vegetation surfaces. See our <Link href="/toronto-mosquito-control" className="text-brand-700 hover:underline">Toronto mosquito control service</Link> for bundle pricing details.</p>
 
           <h2>Where Tick Risk Is Highest in Toronto</h2>
           <ul>
@@ -300,7 +302,7 @@ export default function TorontoTickSprayPage() {
 
 
           <h2>Compare Toronto Pest Control Options</h2>
-          <p>Toronto has confirmed blacklegged tick exposure — see our specialist pest control guide: <Link href="/pest-control-toronto" className="text-brand-700 hover:underline font-semibold">Pest Control in Toronto</Link> for why a mosquito and tick specialist delivers better Lyme disease prevention than a general pest company. Compare top mosquito and tick control providers: <Link href="/best-mosquito-control-companies-toronto" className="text-brand-700 hover:underline font-semibold">Best Mosquito Control Companies in Toronto 2026</Link>.</p>
+          <p>Toronto has confirmed blacklegged tick exposure — see our specialist pest control guide: <Link href="/pest-control-toronto" className="text-brand-700 hover:underline font-semibold">Pest Control in Toronto</Link> for why a mosquito and tick specialist delivers better Lyme disease prevention than a general pest company. See our full mosquito programme for the same property: <Link href="/toronto-mosquito-control" className="text-brand-700 hover:underline font-semibold">Mosquito Control in Toronto</Link>.</p>
           <h2>Related Guides</h2>
           <ul>
             <li><Link href={`/blog/${TICK_BLOGS.pillar.slug}`} className="text-brand-700 hover:underline">{TICK_BLOGS.pillar.title}</Link></li>

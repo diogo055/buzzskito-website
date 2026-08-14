@@ -65,7 +65,7 @@ const FAQS = [
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'Ranked 2026 guide to the best mosquito repellents & devices in Canada — Thermacell, DEET, picaridin. What actually works, what’s a scam.',
+  description: 'Best mosquito repellent in Canada 2026: 20% picaridin — 6–10 odourless hours; 25–30% DEET for cottage country. Ranked picks, tiers, and what to skip.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -119,7 +119,7 @@ export default function MosquitoRepellentGuidePage() {
             <BuyLink tag={AMZ_TAG} search="natrapel picaridin insect repellent">Picaridin repellent on Amazon.ca →</BuyLink>
             <BuyLink tag={AMZ_TAG} search="thermacell patio shield mosquito repeller">Thermacell patio repeller →</BuyLink>
           </div>
-          <p className="lead text-xl text-gray-700 leading-relaxed mb-6">There are dozens of mosquito repellents on shelves at Canadian Tire, Home Depot, and Shoppers Drug Mart. Most don&rsquo;t work as advertised. Here&rsquo;s what the peer-reviewed research and Health Canada approvals tell us about the <strong>best mosquito repellent</strong> — and the best mosquito repellent device — for Canada in 2026.</p>
+          <p className="lead text-xl text-gray-700 leading-relaxed mb-6">The <strong>best mosquito repellent</strong> in Canada for 2026 is 20% picaridin (Natrapel or Sawyer) for everyday use, and 25–30% DEET when the bug pressure is heaviest; the best mosquito repellent device is the Thermacell patio repeller. Dozens of other bottles line the shelves at Canadian Tire, Home Depot, and Shoppers Drug Mart, and most don&rsquo;t work as advertised — here is what the peer-reviewed research and Health Canada approvals say about each one.</p>
 
           <h2 id="best-repellents">Best Mosquito Repellents in Canada (2026)</h2>
           <p>Ranked by how well they hold up in real-world use and peer-reviewed testing. Every one below is protection you wear or place — for hands-off, whole-yard control skip to the strategy section. And if you only care about devices — Thermacell, traps, zappers — we&rsquo;ve ranked those head-to-head in our <Link href="/blog/best-mosquito-repellent-device-canada">best mosquito repellent device guide</Link>.</p>
@@ -269,7 +269,7 @@ export default function MosquitoRepellentGuidePage() {
 
           <h2>The Strategy Most Ontario Homeowners Miss</h2>
           <p>Personal repellent is for outdoor activities <em>away</em> from your property. For your own backyard, a much better strategy is <strong>professional barrier spray</strong> — applied to vegetation perimeters and shrub interiors where mosquitoes rest. This controls the population in your yard for 21–30 days at a time, so you don&rsquo;t need to apply repellent every time you step outside.</p>
-          <p>Most homeowners think the choice is between DIY repellent or nothing. The third option — and usually the best one — is professional yard treatment so personal repellent becomes unnecessary at home.</p>
+          <p>Most homeowners think the choice is between DIY repellent or nothing. The third option — and usually the best one — is professional yard treatment so personal repellent becomes unnecessary at home. That is the model we run across the GTA from our Mississauga base: the same May-to-September programs behind our <Link href="/toronto-mosquito-control">mosquito control in Toronto</Link> and <Link href="/mississauga-mosquito-control">Mississauga mosquito spraying</Link>.</p>
 
           <h2>Cost Comparison (per Ontario season)</h2>
           <ul>
@@ -278,7 +278,7 @@ export default function MosquitoRepellentGuidePage() {
             <li><strong>BuzzSkito Basic seasonal (5 sprays):</strong> $549</li>
             <li><strong>BuzzSkito Standard seasonal (10 sprays):</strong> $994</li>
           </ul>
-          <p>For most Ontario yards, the Standard plan delivers a continuously bug-free yard from May through September. The cost works out to ~$100/month for full-yard control — comparable to monthly grocery spend on patio dinners that are now actually enjoyable.</p>
+          <p>For most Ontario yards, the Standard plan delivers a continuously bug-free yard from May through September. The cost works out to ~$100/month for full-yard control — comparable to monthly grocery spend on patio dinners that are now actually enjoyable. Season pricing scales with lot size, so if you are comparing a bottle of repellent against a full program, start with <Link href="/mosquito-control-cost">what mosquito control costs in Ontario</Link> by property size.</p>
 
           <h2>What to Skip</h2>
           <ul>
@@ -301,6 +301,25 @@ export default function MosquitoRepellentGuidePage() {
           </ul>
         </div>
       </article>
+
+      <section className="py-10 px-4 bg-brand-50">
+        <div className="max-w-3xl mx-auto">
+          <h2 className="text-2xl font-extrabold text-brand-900 mb-6">Mosquito Repellent FAQ</h2>
+          <div className="space-y-3">
+            {FAQS.map(({ question, answer }) => (
+              <details key={question} className="bg-white rounded-xl border border-brand-100 group">
+                <summary className="cursor-pointer px-5 py-4 font-semibold text-brand-900 list-none flex justify-between items-center">
+                  <span>{question}</span>
+                  <svg className="w-5 h-5 shrink-0 group-open:rotate-180 transition-transform text-brand-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                  </svg>
+                </summary>
+                <p className="px-5 pb-4 text-gray-600 text-sm">{answer}</p>
+              </details>
+            ))}
+          </div>
+        </div>
+      </section>
 
       <CTASection heading="Skip Personal Repellent in Your Own Yard" subtext="Professional barrier spray controls the population, not just what's on your skin. From $99." variant="dark" />
     </>

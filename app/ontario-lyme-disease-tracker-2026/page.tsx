@@ -285,6 +285,10 @@ const FAQS = [
     answer: 'No. As of July 2026, neither Public Health Ontario nor the Public Health Agency of Canada had published a final 2025 Lyme disease case count for Ontario. The latest published provincial year is 2024. Public Health Ontario’s Vector-Borne Disease Tool does publish weekly year-to-date counts during the season, but those are provisional and are revised as cases are investigated and classified — they are not a substitute for a finalised annual figure. If you see a 2025 Ontario total quoted anywhere, check whether it traces back to one of those two agencies.',
   },
   {
+    question: 'Where is the Ontario tick map for 2026?',
+    answer: 'The authoritative tick map for Ontario is the blacklegged tick risk-area layer inside Public Health Ontario’s Ontario Vector-Borne Disease Tool. It is free to consult, it is redrawn every year, and the 2026 version reflects field surveillance collected during the 2025 season. Two things matter when you read it. First, risk areas are drawn as geographic areas built from field data, not along municipal or public health unit lines, so a single health unit can contain both risk areas and areas with no identified risk — you have to look up your own address rather than your city. Second, the same tool publishes weekly in-season human case counts for Lyme, anaplasmosis, babesiosis, Powassan virus and West Nile virus, but those weekly figures are provisional and get revised. BuzzSkito does not publish a competing map: any third-party tick map of Ontario is a redraw of PHO’s, and it is usually a year or more out of date.',
+  },
+  {
     question: 'Which parts of Ontario have the highest Lyme disease risk?',
     answer: 'Public Health Ontario maps blacklegged tick risk areas through its Ontario Vector-Borne Disease Tool, and those risk areas are drawn as geographic areas rather than along public health unit boundaries — a single health unit can contain risk areas and non-risk areas at the same time. The 2026 map reflects newly identified or expanded risk areas based on 2025 field data. Because the boundaries move every year and do not follow municipal lines, the honest answer is to check the current map for your own address rather than rely on any third-party regional ranking, including ours. BuzzSkito does not publish a regional risk ranking of its own.',
   },
@@ -320,7 +324,7 @@ const FAQS = [
 
 export const metadata: Metadata = buildMetadata({
   title: 'Ontario Lyme Disease Data 2024 + PHU Directory',
-  description: 'Ontario reported 2,369 Lyme disease cases in 2024, up 27% on 2023 — the newest year PHAC has published. Plus tick-submission contacts for every health unit.',
+  description: "Ontario's tick risk map is redrawn each year by Public Health Ontario — how to read the 2026 version, 2,369 Lyme cases in 2024, and health unit contacts.",
   canonical: SLUG,
 })
 
@@ -644,6 +648,7 @@ export default function OntarioLymeTrackerPage() {
           <PHUTable phus={ONTARIO_PHUS} />
 
           <p className="text-sm text-gray-700 mt-6">For the current blacklegged tick risk-area map covering all of these areas, use Public Health Ontario&rsquo;s <a href="https://www.publichealthontario.ca/en/data-and-analysis/infectious-disease/vbd-tool" target="_blank" rel="noopener" className="underline font-semibold text-rose-700">Ontario Vector-Borne Disease Tool</a>.</p>
+          <p className="text-sm text-gray-700 mt-3">If that map shows risk where you live, the next question is usually about your own yard rather than the province. In Peel, the Credit River corridor runs from the escarpment down through Brampton and Mississauga and brings tick habitat to the back of a lot of residential lots &mdash; our <Link href="/mississauga-tick-spray" className="underline font-semibold text-rose-700">Mississauga tick control</Link> and <Link href="/brampton-tick-spray" className="underline font-semibold text-rose-700">Brampton tick spray</Link> pages explain which zones a yard-edge treatment actually covers, and which it does not.</p>
         </div>
       </section>
 

@@ -3,13 +3,13 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import CityHero from '@/components/CityHero'
 import QuickAnswer from '@/components/QuickAnswer'
-import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusinessSchema, speakableSchema, howToSchema } from '@/lib/seo'
+import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusinessSchema, speakableSchema, howToSchema, itemListSchema } from '@/lib/seo'
 import { BUSINESS, MOSQUITO_BLOGS, TICK_BLOGS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
   title: 'Brampton Mosquito Control 2026 · From $99 · 150+ Five-Star Reviews',
   description:
-    "Mosquito control spray in Brampton. Serving Castlemore, Heart Lake, Springdale & all neighbourhoods. Call (289) 216-5030.",
+    "Mosquito control in Brampton from $99 — no contracts, 150+ five-star reviews. Compare local providers on price, reviews & contracts. (289) 216-5030.",
   canonical: '/brampton-mosquito-control',
 })
 
@@ -34,8 +34,16 @@ const NEIGHBOURHOODS: { name: string; href?: string }[] = [
 
 const FAQS = [
   {
+    question: 'Who is the best mosquito control company in Brampton?',
+    answer: "It depends on what matters most to you. BuzzSkito is the lowest-priced option in Brampton (from $99 per treatment), with no contracts and 150+ five-star Google reviews. Mosquito Man has the largest review volume in the GTA (900+) and a longer track record. Mosquito.Buzz is a national franchise, so service depends on the local franchisee. LawnSavers bundles mosquito control with lawn care for existing lawn customers. Compare pricing, reviews, and contract terms side by side before you book.",
+  },
+  {
     question: 'How much does mosquito control cost in Brampton?',
     answer: 'BuzzSkito mosquito treatments in Brampton start from $99 per application for a standard residential lot. No contracts. Properties near stormwater ponds, Heart Lake Conservation Area, or Etobicoke Creek typically benefit most from the complete seasonal package. Call (289) 216-5030 for a free, no-obligation quote.',
+  },
+  {
+    question: 'Do Brampton mosquito control companies offer no-contract plans?',
+    answer: "BuzzSkito is the only major provider in Brampton offering true no-contract service — book a single treatment from $99 with no commitment and no cancellation fee. Most competitors in the Brampton market run seasonal program structures instead. Always confirm contract terms and cancellation policy before booking.",
   },
   {
     question: 'Why does Brampton have so many mosquitoes?',
@@ -67,7 +75,7 @@ const FAQS = [
   },
   {
     question: 'Does BuzzSkito also provide tick control in Brampton?',
-    answer: "Yes. Brampton's ravines, Heart Lake Conservation Area, and Humber River tributaries also harbour blacklegged ticks. Many Brampton homeowners bundle mosquito and tick treatments for complete yard protection throughout the season. Ask about seasonal bundle pricing when you call.",
+    answer: "Yes. Brampton's ravines, Heart Lake Conservation Area, and Humber River tributaries also harbour blacklegged ticks. Our standalone tick plan is $597 per season (5 sprays), or $497 when bundled with any mosquito plan — a $100 saving. Many Brampton homeowners bundle both for complete yard protection through the season.",
   },
 ]
 
@@ -80,6 +88,7 @@ export default function BramptonMosquitoPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema({ service: 'mosquito', city: 'Brampton' })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema('/brampton-mosquito-control', '2026-07-01')) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema({ name: 'Mosquito Control Companies Serving Brampton — 2026', description: 'Mosquito control companies serving Brampton compared on price, reviews, contracts, and coverage — BuzzSkito, Mosquito Man, Mosquito.Buzz, LawnSavers.', slug: SLUG, items: [{ name: 'BuzzSkito' }, { name: 'Mosquito Man' }, { name: 'Mosquito.Buzz' }, { name: 'LawnSavers' }] })) }} />
 
       <CityHero
         breadcrumbs={[
@@ -267,13 +276,48 @@ export default function BramptonMosquitoPage() {
 
           <h2>Choosing the Right Mosquito Control Service in Brampton</h2>
           <ul>
-            <li><strong>Health Canada–registered products.</strong> Any product applied must be registered under the Pest Control Products Act. BuzzSkito uses only registered, water-based formulas.</li>
+            <li><strong>Health Canada–registered products.</strong> Any product applied must be registered under the Pest Control Products Act and carry a valid PCP registration number — ask for it. BuzzSkito uses only registered, water-based formulas.</li>
             <li><strong>Licensed applicators.</strong> Ontario requires a Pesticide Applicator&apos;s Licence for all commercial applications.</li>
             <li><strong>Rain-back guarantee.</strong> Reputable companies re-treat if rain falls within the cure window. Standard at BuzzSkito.</li>
             <li><strong>No long-term contracts.</strong> Book a single treatment and evaluate results before committing.</li>
             <li><strong>Local Brampton knowledge.</strong> Companies that understand stormwater pond dynamics and Etobicoke Creek exposure treat more effectively.</li>
-            <li><strong>Transparent pricing.</strong> BuzzSkito publishes pricing and quotes over the phone — no mandatory &quot;assessment visit&quot; required first.</li>
+            <li><strong>Transparent pricing.</strong> BuzzSkito publishes pricing and quotes over the phone — no mandatory &quot;assessment visit&quot; required first. A company that will not quote over the phone often uses the home visit as a sales pitch.</li>
+            <li><strong>Real, specific reviews.</strong> Look for detailed reviews from Brampton addresses that describe the property and the result — not generic five-star listings with no detail.</li>
           </ul>
+
+          <h2 id="compare">Brampton Mosquito Control Companies Compared</h2>
+          <p>Brampton homeowners have several professional options. Here is an honest side-by-side based on publicly available pricing, Google reviews, and service offerings as of July 2026.</p>
+          <div className="not-prose overflow-x-auto my-4">
+            <table className="w-full text-sm border-collapse">
+              <thead>
+                <tr className="bg-brand-800 text-white">
+                  <th className="px-4 py-2 text-left">Company</th>
+                  <th className="px-4 py-2 text-left">Starting Price</th>
+                  <th className="px-4 py-2 text-left">Reviews</th>
+                  <th className="px-4 py-2 text-left">Contracts</th>
+                  <th className="px-4 py-2 text-left">Brampton Coverage</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  { company: 'BuzzSkito', price: 'From $99', reviews: '150+ (5.0★)', contracts: 'No contracts', area: 'All Brampton' },
+                  { company: 'Mosquito Man', price: 'Quote-based', reviews: '900+ (4.8★)', contracts: 'Seasonal', area: 'All Brampton' },
+                  { company: 'Mosquito.Buzz', price: 'Quote-based', reviews: 'Varies by franchise', contracts: 'Seasonal', area: 'Franchise' },
+                  { company: 'LawnSavers', price: 'From $129', reviews: '500+ combined', contracts: 'Seasonal', area: 'Brampton' },
+                ].map(({ company, price, reviews, contracts, area }) => (
+                  <tr key={company} className="border-b border-gray-200 even:bg-gray-50">
+                    <td className="px-4 py-2 font-semibold text-brand-800">{company}</td>
+                    <td className="px-4 py-2 font-extrabold text-brand-700">{price}</td>
+                    <td className="px-4 py-2 text-gray-600">{reviews}</td>
+                    <td className="px-4 py-2 text-gray-600">{contracts}</td>
+                    <td className="px-4 py-2 text-gray-600">{area}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-sm text-gray-500">Pricing reflects publicly available rates as of July 2026. Brampton pricing varies by lot size — larger Castlemore and Heart Lake properties fall on the higher end with every provider.</p>
+          <p>Mosquito Man is one of the longest-running options, with the largest review volume in the GTA. Mosquito.Buzz is a national franchise, so consistency depends on which franchisee covers your area. LawnSavers is primarily a lawn care company offering mosquito control as an add-on for existing lawn customers. BuzzSkito has the lowest published per-treatment price of the four and is the only one that books single visits with no contract — so you can trial one Brampton treatment from $99, judge the result, and decide whether to continue. Head-to-head detail: <Link href="/buzzskito-vs-mosquitoman" className="text-brand-700 hover:underline">BuzzSkito vs Mosquito Man</Link>, <Link href="/buzzskito-vs-lawnsavers" className="text-brand-700 hover:underline">BuzzSkito vs LawnSavers</Link>, and <Link href="/buzzskito-vs-mosquito-buzz" className="text-brand-700 hover:underline">BuzzSkito vs Mosquito.Buzz</Link>.</p>
 
           <h2>What to Expect on Your BuzzSkito Treatment Day</h2>
           <ol>
@@ -329,7 +373,7 @@ export default function BramptonMosquitoPage() {
           {/* Related Guides */}
 
           <h2>Compare Brampton Pest Control Options</h2>
-          <p>Looking at all your Brampton pest control options? See our specialist guide: <Link href="/pest-control-brampton" className="text-brand-700 hover:underline font-semibold">Pest Control in Brampton</Link> — explains why a mosquito and tick specialist beats a generalist for the two pests that actually drive Brampton backyard misery. Or compare top providers head-to-head: <Link href="/best-mosquito-control-companies-brampton" className="text-brand-700 hover:underline font-semibold">Best Mosquito Control Companies in Brampton 2026</Link>.</p>
+          <p>Looking at all your Brampton pest control options? See our specialist guide: <Link href="/pest-control-brampton" className="text-brand-700 hover:underline font-semibold">Pest Control in Brampton</Link> — explains why a mosquito and tick specialist beats a generalist for the two pests that actually drive Brampton backyard misery. For mosquito providers specifically, see the <a href="#compare" className="text-brand-700 hover:underline font-semibold">Brampton company comparison above</a>, or our <Link href="/best-mosquito-control-companies-gta" className="text-brand-700 hover:underline font-semibold">GTA-wide comparison</Link>.</p>
           <h2>Related Guides</h2>
           <ul>
             <li><Link href={`/blog/${MOSQUITO_BLOGS.pillar.slug}`} className="text-brand-700 hover:underline">{MOSQUITO_BLOGS.pillar.title}</Link></li>
@@ -388,7 +432,7 @@ export default function BramptonMosquitoPage() {
             ))}
           </div>
           <p className="text-center mt-8 text-sm text-gray-500">
-            Comparing options? See our honest <Link href="/best-mosquito-control-companies-brampton" className="text-brand-700 underline hover:text-brand-500">2026 Brampton mosquito control comparison</Link> — pricing, reviews, contracts side by side.
+            Comparing options? Our <a href="#compare" className="text-brand-700 underline hover:text-brand-500">2026 Brampton mosquito control comparison</a> puts pricing, reviews, and contracts side by side — or see the <Link href="/best-mosquito-control-companies-gta" className="text-brand-700 underline hover:text-brand-500">GTA-wide comparison</Link>.
           </p>
         </div>
       </section>

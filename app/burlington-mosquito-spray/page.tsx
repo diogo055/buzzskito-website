@@ -9,7 +9,7 @@ import { BUSINESS, MOSQUITO_BLOGS, TICK_BLOGS } from '@/lib/constants'
 export const metadata: Metadata = buildMetadata({
   title: 'Burlington Mosquito Control 2026 · From $99 · 150+ Five-Star Reviews',
   description:
-    'Professional mosquito spray in Burlington. Serving Alton Village, Roseland, Aldershot & all areas. From $99. Call (289) 216-5030.',
+    'Professional mosquito spray in Burlington from $99. Compare providers, pricing & neighbourhoods from Alton Village to Aldershot. Call (289) 216-5030.',
   canonical: '/burlington-mosquito-spray',
 })
 
@@ -36,6 +36,18 @@ const FAQS = [
   {
     question: 'How much does mosquito control cost in Burlington?',
     answer: 'BuzzSkito mosquito control in Burlington starts from $99 per application. Waterfront neighbourhoods and properties near Bronte Creek typically benefit most from the full seasonal package for continuous protection. No contracts. Call (289) 216-5030 for a free Burlington quote.',
+  },
+  {
+    question: 'Who is the best mosquito control company in Burlington?',
+    answer: 'BuzzSkito is the mosquito and tick specialist in the Burlington market, with the lowest entry price (from $99 per single treatment), 150+ five-star Google reviews at a 5.0 average with zero negatives, and the Bite-Free Guarantee — free re-treatment if mosquitoes return inside the protection window. Mosquito Man carries higher review volume across the GTA but operates as a general pest control company covering many pest types. LawnSavers serves Burlington as an add-on to its lawn-care programs. The right pick depends on whether you want specialist depth, the lowest per-visit price, or bundled lawn service.',
+  },
+  {
+    question: 'Do Burlington mosquito control companies require a contract?',
+    answer: 'BuzzSkito does not. You can book a single treatment from $99 with no commitment and no cancellation fee, then decide based on results. Most other Burlington providers steer you into a seasonal program instead. Whichever company you call, confirm the contract terms before booking and ask specifically about automatic renewal.',
+  },
+  {
+    question: 'What should I look for in a Burlington mosquito control company?',
+    answer: 'Start with the two things that are non-negotiable in Ontario — a Health Canada–approved product and a licensed pesticide applicator — then judge companies on transparency. A provider that publishes a per-visit price and puts its rain re-treatment policy in writing is easy to compare; one that quotes only after an in-home visit is not. BuzzSkito publishes from $99 per treatment, requires no contract, and backs every visit with the Bite-Free Guarantee.',
   },
   {
     question: 'Why are mosquitoes so bad in Burlington?',
@@ -227,6 +239,48 @@ export default function BurlingtonMosquitoPage() {
           </div>
           <p>See our <Link href="/mosquito-control-cost" className="text-brand-700 hover:underline">2026 pricing guide</Link> for a full Ontario breakdown. Call <a href={BUSINESS.phoneHref} className="text-brand-700 font-semibold hover:underline">{BUSINESS.phone}</a> for a free quote.</p>
 
+          <h2>How Burlington Mosquito Control Companies Compare</h2>
+          <p>Burlington homeowners have several professional options. Here is an honest comparison based on publicly available pricing, Google reviews, and Burlington service offerings for the 2026 season.</p>
+          <div className="not-prose overflow-x-auto my-4">
+            <table className="w-full text-sm border-collapse">
+              <thead>
+                <tr className="bg-brand-800 text-white">
+                  <th className="px-4 py-2 text-left">Company</th>
+                  <th className="px-4 py-2 text-left">Single Treatment</th>
+                  <th className="px-4 py-2 text-left">Google Reviews</th>
+                  <th className="px-4 py-2 text-left">Contract Required?</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  { company: 'BuzzSkito', price: 'From $99', reviews: '150+ · 5.0 average · zero negative', contract: 'No — pay per visit', highlight: true },
+                  { company: 'Mosquito Man', price: '$129+ (varies)', reviews: '900+ across the GTA', contract: 'Often seasonal', highlight: false },
+                  { company: 'LawnSavers', price: '$129+ standalone', reviews: '1,000+ (lawn care primary)', contract: 'Bundled with lawn plans', highlight: false },
+                  { company: 'Mosquito.Buzz', price: 'Custom quote required', reviews: 'Varies by franchise location', contract: 'Seasonal contracts', highlight: false },
+                ].map(({ company, price, reviews, contract, highlight }) => (
+                  <tr key={company} className={highlight ? 'border-b border-gray-200 bg-amber-50' : 'border-b border-gray-200'}>
+                    <td className="px-4 py-2 font-semibold text-brand-800">{company}</td>
+                    <td className={highlight ? 'px-4 py-2 font-extrabold text-brand-700' : 'px-4 py-2 text-gray-600'}>{price}</td>
+                    <td className="px-4 py-2 text-gray-600">{reviews}</td>
+                    <td className={highlight ? 'px-4 py-2 font-semibold text-emerald-700' : 'px-4 py-2 text-amber-700'}>{contract}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p>Only BuzzSkito treats mosquitoes and ticks exclusively &mdash; the other three are generalists who add mosquito spray to a wider pest or lawn programme.</p>
+
+          <h2>How to Choose a Mosquito Control Company in Burlington</h2>
+          <ol>
+            <li><strong>Confirm the formulation is Health Canada&ndash;approved.</strong> Only approved barrier products are legal for commercial application in Ontario. Ask before booking.</li>
+            <li><strong>Verify the applicator&apos;s licence.</strong> Ontario requires a Pesticide Applicator&apos;s Licence for any commercial application. Hesitation on this question is your answer.</li>
+            <li><strong>Get the rain guarantee in writing.</strong> If rain falls within an hour of application the product hasn&apos;t cured. A reputable company re-treats at no charge &mdash; ours is the Bite-Free Guarantee.</li>
+            <li><strong>Read Burlington reviews specifically.</strong> A national franchise can hold strong Toronto ratings and weak Halton ones. Filter reviews to your own city.</li>
+            <li><strong>Test their local knowledge.</strong> A technician who can explain how Bronte Creek, the Escarpment slope behind Tyandaga, and the Royal Botanical Gardens boundary each drive pressure differently has actually worked here.</li>
+            <li><strong>Compare single-treatment pricing, not package totals.</strong> The per-visit price is the only number that lets you compare providers like for like.</li>
+            <li><strong>Ask about the tick add-on.</strong> Burlington has confirmed blacklegged tick habitat along the greenbelt and Escarpment. Our tick programme runs 5 sprays per season and bundles with any mosquito plan.</li>
+          </ol>
+
           <h2>Professional Mosquito Control vs. DIY in Burlington</h2>
           <ul>
             <li><strong>Consumer foggers provide hours of relief, not 30 days.</strong> Professional barrier spray bonds to leaf surfaces and keeps working for weeks.</li>
@@ -290,7 +344,7 @@ export default function BurlingtonMosquitoPage() {
           {/* Related Guides */}
 
           <h2>Compare Burlington Pest Control Options</h2>
-          <p>Looking at all your Burlington pest control options? See our specialist guide: <Link href="/pest-control-burlington" className="text-brand-700 hover:underline font-semibold">Pest Control in Burlington</Link> — explains why a mosquito and tick specialist beats a generalist for the two pests that actually drive Burlington backyard misery. Or compare top providers head-to-head: <Link href="/best-mosquito-control-companies-burlington" className="text-brand-700 hover:underline font-semibold">Best Mosquito Control Companies in Burlington 2026</Link>.</p>
+          <p>Looking at all your Burlington pest control options? See our specialist guide: <Link href="/pest-control-burlington" className="text-brand-700 hover:underline font-semibold">Pest Control in Burlington</Link> — explains why a mosquito and tick specialist beats a generalist for the two pests that actually drive Burlington backyard misery. For head-to-head provider breakdowns see <Link href="/buzzskito-vs-mosquitoman" className="text-brand-700 hover:underline">BuzzSkito vs Mosquito Man</Link>, <Link href="/buzzskito-vs-lawnsavers" className="text-brand-700 hover:underline">BuzzSkito vs LawnSavers</Link>, and <Link href="/buzzskito-vs-mosquito-buzz" className="text-brand-700 hover:underline">BuzzSkito vs Mosquito.Buzz</Link>, or the <Link href="/best-mosquito-control-companies-gta" className="text-brand-700 hover:underline">GTA master comparison</Link>.</p>
           <h2>Related Guides</h2>
           <ul>
             <li><Link href={`/blog/${MOSQUITO_BLOGS.pillar.slug}`} className="text-brand-700 hover:underline">{MOSQUITO_BLOGS.pillar.title}</Link></li>

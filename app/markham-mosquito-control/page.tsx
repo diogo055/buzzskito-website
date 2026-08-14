@@ -8,7 +8,7 @@ import { MOSQUITO_BLOGS } from '@/lib/constants'
 export const metadata: Metadata = buildMetadata({
   title: 'Markham Mosquito Control 2026 · From $99 · 150+ Five-Star Reviews',
   description:
-    "Markham's specialist mosquito barrier spray. Health Canada-approved, from $99/treatment, no contracts, BuzzSkito Bite-Free Guarantee. Unionville, Cornell, Berczy Village, Wismer, Cathedraltown, Milliken Mills, Angus Glen. Call (289) 216-5030.",
+    'Markham mosquito barrier spray from $99. Health Canada-approved, no contracts, Bite-Free Guarantee, plus how to compare Markham providers. (289) 216-5030.',
   canonical: '/markham-mosquito-control',
 })
 
@@ -31,6 +31,14 @@ const FAQS = [
     answer: 'BuzzSkito mosquito control in Markham starts from $99 per application. Properties near Rouge National Urban Park, Swan Lake, or any ravine corridor typically benefit most from the full seasonal package for continuous protection. No contracts. Call (289) 216-5030 for a free Markham quote.',
   },
   {
+    question: 'Who is the best mosquito control company in Markham?',
+    answer: 'Markham homeowners are usually choosing between a mosquito and tick specialist and a general pest or lawn-care company. BuzzSkito treats mosquitoes and ticks only, starts at $99 for a single treatment, holds 150+ five-star Google reviews (5.0 average, zero negatives), and backs every visit with the Bite-Free Guarantee — free re-treatment if pests return inside the protection window. Mosquito Man is a franchise pest-control operation covering many pest types, and LawnSavers sells mosquito service alongside its lawn-care programs. If you want specialist depth and no contract, call (289) 216-5030.',
+  },
+  {
+    question: 'Do I have to sign a contract for mosquito control in Markham?',
+    answer: 'No. BuzzSkito works on a no-contract basis in Markham — book a single treatment from $99, judge the result, and decide from there. Seasonal plans are available if you want continuous coverage ($549 for 5 monthly treatments, $994 for 10 bi-weekly, $2,049 for weekly service May through September), but there are no cancellation fees and no automatic renewal. Before booking with any Markham provider, confirm the contract terms in writing — seasonal agreements often auto-renew.',
+  },
+  {
     question: 'Why do Unionville backyards have such a bad mosquito problem?',
     answer: "Unionville's Toogood Pond and the creek system flowing through the heritage village core create a natural mosquito nursery that is active from May through August. The mature tree canopy along Main Street Unionville and the adjacent park system retains moisture and provides ideal resting habitat for adult mosquitoes throughout the day. Homes backing onto the pond or within a few blocks of the creek typically benefit most from early-season barrier spray.",
   },
@@ -41,6 +49,10 @@ const FAQS = [
   {
     question: 'Is Swan Lake in Markham Village a source of mosquitoes?',
     answer: "Swan Lake and the Don River headwater tributaries running through Markham Village and Old Markham are active mosquito breeding sources through the early and mid season. The shallow margins of Swan Lake in particular warm quickly in spring, producing an early surge of adult mosquitoes before many homeowners have scheduled their first treatment. We recommend Markham Village homeowners book their first visit in early May.",
+  },
+  {
+    question: 'Can I bundle tick control with mosquito spray in Markham?',
+    answer: 'Yes, and it is the usual choice for homes near the Rouge National Urban Park or any forest edge in Cornell and Cathedraltown, where blacklegged (Lyme-carrying) ticks are established. Tick control runs five treatments across the May to September season: $597 on its own, or $497 when added to any mosquito plan, a $100 saving over booking it separately. See our Markham tick spray page for the full treatment schedule.',
   },
 ]
 
@@ -170,10 +182,19 @@ export default function MarkhamMosquitoPage() {
           <h2>When to Start Treatment</h2>
           <p>In the GTA, mosquito season typically runs from late April through September. The best time to book your first treatment is early-to-mid May, before populations peak. Starting early establishes a protective barrier before breeding cycles accelerate in June and July. <Link href="/blog/mosquito-season-gta-when-does-it-start" className="text-brand-700 hover:underline">Read our full seasonal timing guide</Link>.</p>
 
-
+          <h2>How to Choose a Mosquito Control Company in Markham</h2>
+          <p>Plenty of companies will spray a Markham backyard. These are the checks that separate a professional barrier treatment from a quick pass with a fogger — use them on us as readily as on anyone else.</p>
+          <ol>
+            <li><strong>Health Canada–approved product, applied under licence.</strong> Ontario requires a licensed pesticide applicator for any commercial application. Ask which product is going on your yard and who is holding the wand.</li>
+            <li><strong>A re-spray guarantee in writing.</strong> If rain arrives within an hour of application, the product has not cured. A reputable company re-treats at no charge — ours is the Bite-Free Guarantee.</li>
+            <li><strong>Pricing published before the sales call.</strong> You should be able to see a starting price without booking an in-home estimate first. Ours starts at $99 per treatment on a standard lot.</li>
+            <li><strong>Reviews from Markham customers, not brand-wide totals.</strong> A franchise can carry a large national review count and still be new on your street. Filter for your own city before you judge.</li>
+            <li><strong>Local knowledge of where the water is.</strong> Ask where the pressure on your street actually comes from. In Markham the honest answers are the Rouge River system, Milner Creek, Swan Lake, and Toogood Pond — a technician who cannot name the nearest one is guessing.</li>
+            <li><strong>Cost per visit, not just the season total.</strong> A seasonal package only looks cheap until you divide by the number of visits. Confirm how many treatments are included and how far apart they fall.</li>
+          </ol>
 
           <h2>Compare Markham Pest Control Options</h2>
-          <p>Looking at all your Markham pest control options? See our specialist guide: <Link href="/pest-control-markham" className="text-brand-700 hover:underline font-semibold">Pest Control in Markham</Link> — explains why a mosquito and tick specialist beats a generalist for the two pests that actually drive Markham backyard misery. Or compare top providers head-to-head: <Link href="/best-mosquito-control-companies-markham" className="text-brand-700 hover:underline font-semibold">Best Mosquito Control Companies in Markham 2026</Link>.</p>
+          <p>Looking at all your Markham pest control options? See our specialist guide: <Link href="/pest-control-markham" className="text-brand-700 hover:underline font-semibold">Pest Control in Markham</Link> — explains why a mosquito and tick specialist beats a generalist for the two pests that actually drive Markham backyard misery. Or compare top providers head-to-head: <Link href="/best-mosquito-control-companies-gta" className="text-brand-700 hover:underline font-semibold">Best Mosquito Control Companies in the GTA</Link>.</p>
           <h2>Related Guides</h2>
           <ul>
             <li><Link href={`/blog/${MOSQUITO_BLOGS.pillar.slug}`} className="text-brand-700 hover:underline">{MOSQUITO_BLOGS.pillar.title}</Link></li>

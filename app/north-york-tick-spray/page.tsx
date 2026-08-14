@@ -17,7 +17,7 @@ const NEIGHBOURHOODS = ['Don Mills','Willowdale','Lawrence Park','York Mills','B
 const FAQS = [
   {
     question: 'How much does tick spray cost in North York?',
-    answer: 'Tick spray in North York starts from $99 per application. Properties near the Don Valley, Serena Gundy Park, or Earl Bales Park benefit most from both spring and fall applications. No contracts. Call (289) 216-5030.',
+    answer: 'Tick spray in North York starts from $99 for a single application. Properties near the Don Valley, Serena Gundy Park, or Earl Bales Park benefit most from the full season programme: five treatments spread roughly monthly from May through September, $597 on its own or $497 when added to a mosquito plan. Each application leaves up to 30 days of residual, and ravine wildlife keeps carrying new ticks into backyards all season, so the barrier has to be renewed monthly rather than applied once or twice. No contracts. Call (289) 216-5030.',
   },
   {
     question: 'Which North York parks and ravines have confirmed tick populations?',
@@ -101,7 +101,7 @@ export default function NorthYorkTickPage() {
         <div className="max-w-4xl mx-auto prose-brand">
           <h2>Why Tick Spray Is Crucial in North York</h2>
           <p>North York is home to Toronto's most extensive ravine network. The Don Valley ravine system threads through Willowdale, Don Mills, Lawrence Park, and York Mills, connecting Serena Gundy Park, Sunnybrook Park, and Wilket Creek Park in a continuous green corridor. Toronto Public Health includes these ravines in its tick surveillance program, and blacklegged tick populations are well documented throughout. Homeowners whose properties back onto these ravines face real annual tick exposure — not a theoretical risk, but a documented one.</p>
-          <p>The Don Valley ravines attract abundant wildlife that serve as tick hosts: white-tailed deer, raccoons, and red foxes are common, and each carries ticks that can drop off in ravine-adjacent backyards. Burke Brook ravine in Lawrence Park is particularly notable — it runs through one of Toronto's most sought-after residential neighbourhoods, and tick activity there is confirmed. Professional barrier spray applied in spring and again in late summer is the single most effective tool for protecting North York families from tick-borne Lyme disease.</p>
+          <p>The Don Valley ravines attract abundant wildlife that serve as tick hosts: white-tailed deer, raccoons, and red foxes are common, and each carries ticks that can drop off in ravine-adjacent backyards. Burke Brook ravine in Lawrence Park is particularly notable — it runs through one of Toronto's most sought-after residential neighbourhoods, and tick activity there is confirmed. Because that wildlife keeps reintroducing ticks from the ravine all season, and each application leaves up to 30 days of residual, the barrier has to be renewed rather than applied once or twice. Professional barrier spray on a monthly cadence from May through September — five treatments across the season — is the single most effective tool for protecting North York families from tick-borne Lyme disease.</p>
 
           <h2>Tick Hotspots in North York</h2>
           <ul>
@@ -131,7 +131,7 @@ export default function NorthYorkTickPage() {
 
 
           <h2>Compare North York Pest Control Options</h2>
-          <p>North York has confirmed blacklegged tick exposure — see our specialist pest control guide: <Link href="/pest-control-north-york" className="text-brand-700 hover:underline font-semibold">Pest Control in North York</Link> for why a mosquito and tick specialist delivers better Lyme disease prevention than a general pest company. Compare top mosquito and tick control providers: <Link href="/best-mosquito-control-companies-north-york" className="text-brand-700 hover:underline font-semibold">Best Mosquito Control Companies in North York 2026</Link>.</p>
+          <p>North York has confirmed blacklegged tick exposure — see our specialist pest control guide: <Link href="/pest-control-north-york" className="text-brand-700 hover:underline font-semibold">Pest Control in North York</Link> for why a mosquito and tick specialist delivers better Lyme disease prevention than a general pest company. See our full mosquito programme for the same property: <Link href="/north-york-mosquito-control" className="text-brand-700 hover:underline font-semibold">Mosquito Control in North York</Link>.</p>
           <h2>Related Tick Control Guides</h2>
           <ul>
             <li><Link href={`/blog/${TICK_BLOGS.pillar.slug}`} className="text-brand-700 hover:underline">{TICK_BLOGS.pillar.title}</Link></li>

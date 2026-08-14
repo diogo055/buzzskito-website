@@ -94,12 +94,13 @@ export default function StoneyCeekMosquitoPage() {
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
         <div className="not-prose bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
           <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-          <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Stoney Creek properties face high mosquito and tick pressure from three directions &mdash; the Lake Ontario waterfront, the Red Hill Creek ravine corridor, and the Niagara Escarpment. Professional barrier spray gives 21&ndash;30 days of residual protection per treatment, with five mosquito treatments covering May through September.</p>
+          <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Stoney Creek properties face high mosquito and tick pressure from three directions &mdash; the Lake Ontario waterfront, the Red Hill Creek ravine corridor, and the Niagara Escarpment. Professional barrier spray gives 21&ndash;30 days of residual protection per treatment, with five mosquito treatments and five tick treatments covering May through September.</p>
           <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
             <li>Barrier spray bonds to leaf surfaces and provides 21&ndash;30 days of residual mosquito protection per application.</li>
             <li>Five treatments from May through September maintain consistent coverage for a standard Stoney Creek property.</li>
             <li>Fifty Point Conservation Area on the waterfront is documented blacklegged tick habitat confirmed by the Hamilton Conservation Authority.</li>
-            <li>Tick treatments target the 1&ndash;2 metre interface zone between maintained lawn and natural vegetation, where the overwhelming majority of tick encounters occur.</li>
+            <li>Tick treatments run five times a season, roughly monthly from May through September, and target the 1&ndash;2 metre interface zone between maintained lawn and natural vegetation, where the overwhelming majority of tick encounters occur.</li>
+            <li>Nymphs peak May through July and drive most Lyme transmission; adults stay active into November in mild years, so monthly coverage leaves no gap.</li>
             <li>Heritage Green and Battlefield homes near the Red Hill Valley report the most intense mosquito pressure &mdash; untreated yards often become unusable in the evenings by mid-June.</li>
             <li>Winona and Fifty Point rate high risk for both mosquitoes and ticks; new-build subdivisions in the east rate moderate to low.</li>
           </ul>
@@ -115,7 +116,7 @@ export default function StoneyCeekMosquitoPage() {
 
         <h3>The Lake Ontario Waterfront and Lakeshore Fringe</h3>
         <p>The waterfront strip — running through Fifty Point, Winona, and the eastern lakeshore communities — faces mosquito pressure from both the lake shoreline wetland margin and the warm, humid air that settles over lakefront properties on summer evenings. Lake-effect humidity keeps lakeshore vegetation moist and provides ideal resting conditions for adult mosquitoes from May through September.</p>
-        <p>Fifty Point Conservation Area, located directly on the Stoney Creek waterfront, is a documented blacklegged tick habitat. The Hamilton Conservation Authority has confirmed tick activity in its managed lands, and properties adjacent to the park boundary face genuine tick exposure risk throughout the spring and fall peak seasons.</p>
+        <p>Fifty Point Conservation Area, located directly on the Stoney Creek waterfront, is a documented blacklegged tick habitat. The Hamilton Conservation Authority has confirmed tick activity in its managed lands, and properties adjacent to the park boundary face genuine tick exposure risk from spring right through to fall.</p>
 
         <h3>Red Hill Creek and its Ravine Corridor</h3>
         <p>The Red Hill Valley is one of Hamilton&apos;s most significant mosquito corridors, and Stoney Creek sits directly at its southern extent. The creek and its tributaries — including Battlefield Creek and Green Mountain Creek — cut through the lower portions of Stoney Creek, creating shaded, moist ravine habitat that serves as a continuous mosquito breeding and resting zone throughout the season.</p>
@@ -158,7 +159,8 @@ export default function StoneyCeekMosquitoPage() {
 
         <h2>What Professional Mosquito and Tick Control Does for Stoney Creek Properties</h2>
         <p>Barrier spray for mosquitoes targets the foliage, fence lines, shaded vegetation, and perimeter plantings where adult mosquitoes rest during the day. The formula bonds to leaf surfaces and provides 21–30 days of residual protection per application. For a standard Stoney Creek residential property, five treatments from May through September maintain consistent coverage through the entire active season.</p>
-        <p>Tick control uses a targeted perimeter application — focused on the leaf litter zone, grass-to-garden border, and vegetation edges where blacklegged ticks wait for passing hosts. The treatment specifically targets the 1–2 metre &ldquo;interface zone&rdquo; between maintained lawn and natural vegetation, which is where the overwhelming majority of tick encounters occur. Two treatments per season — timed to nymph activity in spring and adult activity in fall — provide the most effective coverage.</p>
+        <p>Tick control uses a targeted perimeter application — focused on the leaf litter zone, grass-to-garden border, and vegetation edges where blacklegged ticks wait for passing hosts. The treatment specifically targets the 1–2 metre &ldquo;interface zone&rdquo; between maintained lawn and natural vegetation, which is where the overwhelming majority of tick encounters occur. Five treatments per season — spaced roughly a month apart from May through September — provide the most effective coverage.</p>
+        <p>The five-visit cadence is driven by the tick&apos;s own calendar and by how the product behaves. Blacklegged tick nymphs peak from May through July, and they are the stage that matters most for Lyme transmission because they are poppy-seed sized and easily missed on a skin check. Adults re-emerge in the fall and stay active into November in mild years. On top of that, the acaricide residual is temporary, and deer, mice, and birds moving in from the Escarpment forest and the Red Hill ravine reintroduce ticks continuously — so the barrier has to be renewed rather than set once. Monthly applications keep the coverage unbroken through the entire nymph window, which is precisely the gap a spring-and-fall pair of visits leaves open. Tick control is $597 for the season on its own, or $497 added to any mosquito plan.</p>
 
         <h2>Recommended Treatment Schedule for Stoney Creek</h2>
         <div className="not-prose overflow-x-auto my-6">
@@ -173,12 +175,15 @@ export default function StoneyCeekMosquitoPage() {
             <tbody>
               {[
                 { t: 'Mosquito Treatment 1', timing: 'Early May', target: 'First-generation adults before population builds' },
-                { t: 'Tick Treatment 1', timing: 'Late May', target: 'Peak nymph activity — highest Lyme transmission risk' },
+                { t: 'Tick Treatment 1', timing: 'Mid May', target: 'Nymph emergence begins — barrier down before the peak' },
                 { t: 'Mosquito Treatment 2', timing: 'Early June', target: 'Bridge into peak season' },
+                { t: 'Tick Treatment 2', timing: 'Mid June', target: 'Peak nymph activity — highest Lyme transmission risk' },
                 { t: 'Mosquito Treatment 3', timing: 'Early July', target: 'Peak mosquito pressure' },
+                { t: 'Tick Treatment 3', timing: 'Mid July', target: 'Tail of nymph season — holds the barrier through July' },
                 { t: 'Mosquito Treatment 4', timing: 'Early August', target: 'Late-season sustained pressure' },
-                { t: 'Tick Treatment 2', timing: 'Late August / September', target: 'Adult tick activity, fall peak' },
+                { t: 'Tick Treatment 4', timing: 'Mid August', target: 'Renews residual against ticks carried back in by wildlife' },
                 { t: 'Mosquito Treatment 5', timing: 'Early September', target: 'Season close-out' },
+                { t: 'Tick Treatment 5', timing: 'Mid September', target: 'Adult tick re-emergence — activity runs into November' },
               ].map(({ t, timing, target }) => (
                 <tr key={t} className="border-b border-gray-200 even:bg-gray-50">
                   <td className="px-4 py-2 font-medium text-gray-800">{t}</td>

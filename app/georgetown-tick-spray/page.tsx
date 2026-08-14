@@ -17,7 +17,7 @@ const NEIGHBOURHOODS = ['Old Georgetown','Glen Williams','Norval','Stewarttown',
 const FAQS = [
   {
     question: 'How much does tick spray cost in Georgetown?',
-    answer: 'Tick spray in Georgetown starts from $99 per application. Properties near the Credit River valley, Silver Creek Conservation Area, or any wooded area benefit most from both spring and fall treatments. No contracts. Call (289) 216-5030.',
+    answer: 'Tick spray in Georgetown starts from $99 per application. Properties near the Credit River valley, Silver Creek Conservation Area, or any wooded area are best covered by the full seasonal program — five treatments spaced roughly monthly from May through September, because each application holds up to 30 days of residual and monthly spacing is what removes the gap. The season program is $597 standalone, or $497 when added to a mosquito plan. No contracts. Call (289) 216-5030.',
   },
   {
     question: 'Is the Credit River valley near Georgetown a tick risk?',
@@ -101,7 +101,7 @@ export default function GeorgetownTickPage() {
         <div className="max-w-4xl mx-auto prose-brand">
           <h2>Why Tick Spray Is Crucial in Georgetown</h2>
           <p>Georgetown is surrounded by some of the richest natural habitats in Halton Region — and that makes it one of the higher-risk communities in the western GTA for blacklegged tick exposure. The Credit River valley runs directly through Georgetown and into Glen Williams, creating a continuous forested and riparian corridor that is confirmed blacklegged tick habitat. Halton Region includes Georgetown in its formal tick monitoring program, recognizing the risk this landscape poses to local residents.</p>
-          <p>Silver Creek Conservation Area is another significant local risk zone. Its mixture of forest, meadow, and wetland edges create the kind of varied habitat where tick populations establish and persist. The Niagara Escarpment trail corridor through Halton Hills — including the Limehouse area — provides additional forested movement routes for deer (the primary adult tick host), extending tick exposure beyond the immediate river valley to a broader swath of the community. For Georgetown homeowners, professional barrier spray applied in late May and again in late August is the most effective seasonal protection strategy.</p>
+          <p>Silver Creek Conservation Area is another significant local risk zone. Its mixture of forest, meadow, and wetland edges create the kind of varied habitat where tick populations establish and persist. The Niagara Escarpment trail corridor through Halton Hills — including the Limehouse area — provides additional forested movement routes for deer (the primary adult tick host), extending tick exposure beyond the immediate river valley to a broader swath of the community. For Georgetown homeowners, the most effective seasonal protection is the full program — five treatments spaced roughly monthly from May through September. Each application leaves up to 30 days of residual, so monthly spacing keeps the barrier continuous through peak nymph season in May, June, and July, and through the adults that re-emerge and stay active into the autumn.</p>
 
           <h2>Tick Hotspots in Georgetown</h2>
           <ul>

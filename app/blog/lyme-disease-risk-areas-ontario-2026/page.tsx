@@ -17,13 +17,18 @@ const META_TITLE = 'Lyme Disease Risk Map Ontario 2026: GTA Zones'
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
   description:
-    'Confirmed Lyme risk zones across Ontario in 2026. Ontario reported 2,369 Lyme disease cases in 2024, up 27% on 2023 — the newest year PHAC has published. GTA hotspots, how risk areas are classified, and a household risk score.',
+    "Every GTA municipality is a confirmed Lyme risk area in 2026. Ontario's mapped tick zones region by region, and how an area gets classed established risk.",
   canonical: `/blog/${POST.slug}`,
   type: 'article',
   publishedTime: POST.date,
 })
 
 const FAQS = [
+  {
+    question: 'Is there a Lyme disease map of Ontario for 2026?',
+    answer:
+      'Yes, and it is published by Public Health Ontario rather than by any private company. The blacklegged tick risk-area layer inside Ontario\'s Vector-Borne Disease Tool is the authoritative map, it is free to consult, and it is redrawn each year — the 2026 version reflects field surveillance collected during the 2025 season. One detail changes how you read it: risk areas are drawn as geographic areas from field data, not along municipal or health-unit boundaries, so a single city can contain both mapped risk areas and areas with no identified risk. Look up your own address rather than your city name. This page summarises what has already been classified region by region across Ontario; it is a plain-language reading of PHO\'s map, not a separate map of our own.',
+  },
   {
     question: 'Which Ontario cities are confirmed Lyme disease risk areas in 2026?',
     answer:
@@ -42,7 +47,7 @@ const FAQS = [
   {
     question: 'What should I do if I live in a Lyme disease risk area?',
     answer:
-      'If you live in a Lyme disease risk area (which now includes virtually all of Southern Ontario), take these steps: schedule professional tick yard treatment in late May and again in late August; do thorough tick checks after any outdoor activity; wear light-coloured clothing and DEET-based repellent in wooded or grassy areas; keep your yard trimmed and remove leaf litter; and consult a doctor promptly if you develop a bull\'s-eye rash or flu-like symptoms after a tick bite.',
+      'If you live in a Lyme disease risk area (which now includes virtually all of Southern Ontario), take these steps: schedule professional tick yard treatment on a monthly cadence through the season — five applications from May through September, so nothing is left uncovered during the May–July nymph peak or the fall adult resurgence; do thorough tick checks after any outdoor activity; wear light-coloured clothing and DEET-based repellent in wooded or grassy areas; keep your yard trimmed and remove leaf litter; and consult a doctor promptly if you develop a bull\'s-eye rash or flu-like symptoms after a tick bite.',
   },
   {
     question: 'Does professional tick spray reduce Lyme disease risk?',
@@ -111,6 +116,7 @@ export default function LymeRiskAreas2026Page() {
 
         <h3>Toronto</h3>
         <p>Toronto Public Health confirms blacklegged tick populations in the Don Valley, Rouge National Urban Park, High Park, Humber River valley, and smaller ravine systems throughout the city. Toronto has reported increasing numbers of locally acquired Lyme disease cases each year. Homeowners in neighbourhoods adjacent to ravines and wooded corridors face the highest risk.</p>
+        <p>Exposure is not spread evenly across the city, though. The Don and West Don valley network puts ravine-edge yards on the front line right through the middle of the old suburbs, which is why <Link href="/north-york-tick-spray" className="text-brand-700 hover:underline">tick spray for North York yards</Link> is aimed at the lawn-to-ravine transition rather than the open lawn; the Humber corridor does the same job on the west side, where <Link href="/etobicoke-tick-spray" className="text-brand-700 hover:underline">Etobicoke tick control</Link> concentrates on the same wooded edge.</p>
         <p>See: <Link href="/toronto-tick-spray" className="text-brand-700 hover:underline">Toronto tick control services</Link></p>
 
         <h3>Mississauga and Peel Region</h3>
@@ -167,7 +173,7 @@ export default function LymeRiskAreas2026Page() {
         <p>Given the current risk landscape, GTA homeowners should take a layered approach to Lyme disease prevention:</p>
 
         <h3>1. Professional Tick Yard Treatment</h3>
-        <p><Link href="/tick-control" className="text-brand-700 hover:underline">Professional tick barrier spray</Link> targets the high-risk perimeter zones where ticks are most concentrated — garden edges, fence lines, shaded areas, stone walls, and the transition between lawn and wooded areas — with a Health Canada-registered residual acaricide. Because the residual is temporary and wildlife keeps reintroducing ticks, it is repeated rather than done once. Most homeowners schedule two treatments per season: late May and late August.</p>
+        <p><Link href="/tick-control" className="text-brand-700 hover:underline">Professional tick barrier spray</Link> targets the high-risk perimeter zones where ticks are most concentrated — garden edges, fence lines, shaded areas, stone walls, and the transition between lawn and wooded areas — with a Health Canada-registered residual acaricide. Because the residual is temporary and wildlife keeps reintroducing ticks, it is repeated rather than done once. A full season is five treatments spaced roughly monthly from May through September. The early applications cover the May–July nymph peak, when the ticks driving most Lyme transmission are poppy-seed sized and easily missed on a body check, and the later ones carry the barrier into the start of fall adult activity, which can run into November in mild years. Deer, mice and birds keep walking new ticks in from adjacent woodland the whole time, so the point of monthly repetition is that there is never a multi-month gap in the middle of the season — which is exactly what a two-visit schedule leaves open.</p>
 
         <h3>2. Habitat Modification</h3>
         <ul>

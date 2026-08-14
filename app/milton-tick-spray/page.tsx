@@ -17,7 +17,7 @@ const NEIGHBOURHOODS = ['Bronte Meadows','Clarke','Coates','Dempsey','Dorset Par
 const FAQS = [
   {
     question: 'How much does tick spray cost in Milton?',
-    answer: 'Tick spray in Milton starts from $99 per application. Properties near Kelso Conservation Area, Rattlesnake Point, or Bronte Creek benefit most from both spring and fall applications. No contracts. Call (289) 216-5030.',
+    answer: 'Tick spray in Milton starts from $99 for a single application. Properties near Kelso Conservation Area, Rattlesnake Point, or Bronte Creek benefit most from the full season programme: five treatments spread roughly monthly from May through September, $597 on its own or $497 when added to a mosquito plan. Each application leaves up to 30 days of residual, so the monthly cadence closes the multi-month hole a two-visit schedule would leave open across peak nymph season. No contracts. Call (289) 216-5030.',
   },
   {
     question: 'Are the Niagara Escarpment parks near Milton real tick risks?',

@@ -188,9 +188,9 @@ export default function BestMosquitoControlCompaniesGTAPage() {
 
           <h2>City-Specific Comparisons</h2>
           <ul>
-            <li><Link href="/best-mosquito-control-companies-brampton" className="text-brand-700 hover:underline">Best Mosquito Control Companies in Brampton 2026</Link></li>
-            <li><Link href="/best-mosquito-control-companies-vaughan" className="text-brand-700 hover:underline">Best Mosquito Control Companies in Vaughan 2026</Link></li>
-            <li><Link href="/best-mosquito-control-companies-oakville" className="text-brand-700 hover:underline">Best Mosquito Control Companies in Oakville 2026</Link></li>
+            <li><Link href="/brampton-mosquito-control" className="text-brand-700 hover:underline">Mosquito Control in Brampton</Link></li>
+            <li><Link href="/vaughan-mosquito-control" className="text-brand-700 hover:underline">Mosquito Control in Vaughan</Link></li>
+            <li><Link href="/oakville-mosquito-control" className="text-brand-700 hover:underline">Mosquito Control in Oakville</Link></li>
           </ul>
 
           <h2>Related Pages</h2>

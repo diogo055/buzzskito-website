@@ -50,11 +50,11 @@ const FAQS = [
   },
   {
     question: 'How many tick treatments does a family yard need per season?',
-    answer: "For a property with moderate risk (backing onto a ravine, creek, or naturalized area), two treatments per season is the standard recommendation: one in late May targeting nymphs, and one in August or September before fall adult tick emergence. High-exposure properties adjacent to conservation lands, woodlands, or confirmed deer movement corridors may benefit from three treatments for continuous protection through the season.",
+    answer: "A full tick season is five treatments — roughly one a month from May through September. Blacklegged tick nymphs peak May through July, and nymphs are the stage that drives most Lyme transmission because they are poppy-seed sized and easily missed on a skin check. Adults re-emerge and stay active through the autumn, into November in mild years. The acaricide residual is temporary, and wildlife — deer, mice, and birds — continuously reintroduces ticks from adjacent woodland, so repeated applications hold a barrier that a one-off or twice-yearly visit cannot. Monthly coverage also means no multi-month gap is left open in the middle of peak nymph season. BuzzSkito's tick season is $597 on its own, or $497 added to any mosquito plan; a single one-off treatment starts at $99.",
   },
   {
     question: 'What is the best tick prevention strategy for a family with young children?',
-    answer: "A layered approach gives the best protection: (1) professional barrier spray applied to your yard before peak nymph season (late May), (2) physical barriers like a mulch or gravel strip at your property edge, (3) regular lawn mowing, (4) tick checks after outdoor play — especially the hairline, behind knees, and in armpits. Teaching children to stay out of tall grass and leaf litter areas also helps. No single measure is 100% effective; combining yard treatment with personal checks is the safest approach.",
+    answer: "A layered approach gives the best protection: (1) professional barrier spray on a monthly schedule from May through September, starting before peak nymph season, (2) physical barriers like a mulch or gravel strip at your property edge, (3) regular lawn mowing, (4) tick checks after outdoor play — especially the hairline, behind knees, and in armpits. Teaching children to stay out of tall grass and leaf litter areas also helps. No single measure is 100% effective; combining yard treatment with personal checks is the safest approach.",
   },
 ]
 
@@ -101,7 +101,7 @@ export default function TickPreventionYardKidsPage() {
               <li>Health Canada-approved barrier spray is safe for children and pets once dry, typically 30 minutes after application.</li>
               <li>Ticks concentrate in the first 1&ndash;3 metres where lawn meets garden beds, hedges, leaf litter, or fences &mdash; not the open lawn.</li>
               <li>Nymphs (poppy-seed-sized, 1&ndash;2 mm) are active May&ndash;July and carry the same Lyme risk as adults, causing most Ontario cases.</li>
-              <li>Most family yards need two treatments per season &mdash; late May for nymphs and August or September for fall adults.</li>
+              <li>A full tick season is five treatments, roughly monthly from May through September &mdash; enough to cover peak nymph season without a gap and still catch fall adults.</li>
               <li>A 1-metre wood-chip or gravel barrier strip between lawn and wooded edges deters ticks from crossing.</li>
               <li>Picaridin (icaridin) is Health Canada-permitted for children as young as 6 months as a second, skin-applied layer.</li>
             </ul>
@@ -202,12 +202,17 @@ export default function TickPreventionYardKidsPage() {
           </ul>
 
           <h2>Recommended Tick Treatment Schedule for Ontario Families</h2>
-          <p>The standard recommendation for a residential property in Ontario with children is two treatments per season:</p>
+          <p>The standard program for a residential property in Ontario with children is <strong>five treatments per season</strong> — roughly one a month from May through September:</p>
           <ol>
+            <li><strong>Early May</strong> — the season opener, laying the barrier down at the property edge before nymphs begin questing in earnest</li>
             <li><strong>Late May or early June</strong> — targets emerging nymphs before peak activity begins; this is the most important treatment of the year for families with young children</li>
-            <li><strong>August or September</strong> — targets fall adult tick emergence, which extends risk into October on warm years</li>
+            <li><strong>Late June or early July</strong> — holds the barrier through the peak of nymph season, when the poppy-seed-sized stage responsible for most Lyme cases is most active</li>
+            <li><strong>Late July or early August</strong> — the previous application's residual has worn off by now, and wildlife keeps carrying fresh ticks in from the woodland next door</li>
+            <li><strong>Late August or September</strong> — targets fall adult tick emergence, which extends risk into October and into November in mild years</li>
           </ol>
-          <p>Properties with higher exposure — backing onto conservation land, ravines, creek valleys, or with confirmed deer movement — benefit from a third treatment in late June or early July to maintain continuous coverage through peak nymph season. High-risk GTA zones include the Oak Ridges Moraine corridor (Richmond Hill, Vaughan, King City, Caledon), the Humber River valley, Credit River watershed, and any property adjacent to naturalized green space.</p>
+          <p>The five visits exist for one reason: the acaricide residual is temporary, and your property is continuously restocked with ticks by deer, mice, and birds moving in from the ravine, woodlot, or naturalized strip next door. A spring-and-fall pair of visits leaves a multi-month hole through May–July — exactly the window when nymphs are questing and children are outside every day. Monthly applications close it.</p>
+          <p>Higher-exposure properties — backing onto conservation land, ravines, creek valleys, or with confirmed deer movement — are where the full five-treatment season matters most. High-risk GTA zones include the Oak Ridges Moraine corridor (Richmond Hill, Vaughan, King City, Caledon), the Humber River valley, Credit River watershed, and any property adjacent to naturalized green space.</p>
+          <p>BuzzSkito prices a full five-treatment tick season at <strong>$597</strong> on its own, or <strong>$497</strong> when you add it to any mosquito plan — a $100 saving. A single one-off treatment starts at $99 if you want to try it before committing to the season.</p>
 
           <h2>Personal Repellent: The Second Layer for Kids</h2>
           <p>Yard treatment lowers the tick population where your children play, but a skin-applied repellent adds a second layer for trips to the park, cottage, or trail. For children, <strong>picaridin (icaridin)</strong> is the pediatric-friendly choice many parents prefer over DEET — Health Canada permits it for children as young as six months, it is odourless, and it will not damage plastics or clothing. Apply it to exposed skin before outdoor play and reapply per the label.</p>

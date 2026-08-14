@@ -17,7 +17,7 @@ const NEIGHBOURHOODS = ['King City village','Nobleton','Schomberg','King Townshi
 const FAQS = [
   {
     question: 'How much does tick spray cost in King City?',
-    answer: 'Tick spray in King City starts from $99 per application. Given King Township\'s exceptionally high tick activity near the Oak Ridges Moraine, Humber River headwaters, and extensive horse property corridors, most properties benefit from both spring and fall applications. No contracts. Call (289) 216-5030.',
+    answer: 'Tick spray in King City starts from $99 for a single application. Given King Township\'s exceptionally high tick activity near the Oak Ridges Moraine, Humber River headwaters, and extensive horse property corridors, most properties take the full season programme instead: five treatments spread roughly monthly from May through September, $597 on its own or $497 when added to a mosquito plan. Each application leaves up to 30 days of residual, so a monthly cadence keeps the barrier renewed straight through peak nymph season rather than leaving a multi-month gap. No contracts. Call (289) 216-5030.',
   },
   {
     question: 'Why is King Township considered one of the highest-risk tick areas in York Region?',

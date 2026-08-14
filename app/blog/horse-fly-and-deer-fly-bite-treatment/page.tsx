@@ -53,7 +53,7 @@ const FAQS = [
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'A deer fly bite hurts because the fly cuts the skin open. First aid steps, a remedy table, the 2–4 day itch window, and infection red flags.',
+  description: 'Deer fly bites hurt because the fly slices the skin open. Wash, ice 10–15 min, hydrocortisone — painful for hours, itchy 2–4 days, healed in a week.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -177,7 +177,7 @@ export default function HorseFlyDeerFlyBiteTreatmentPage() {
 
           <aside aria-label="Professional yard protection" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
             <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Biting flies love shaded, damp yard edges</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">Horse flies and deer flies rest in the same overgrown, humid borders where mosquitoes breed. A professional barrier treatment on lawn edges, fence lines and shaded borders knocks back the biting-insect pressure around your patio. BuzzSkito protects GTA yards with seasonal programs and single treatments from $99.</p>
+            <p className="text-sm text-gray-700 mb-4 leading-relaxed">Horse flies and deer flies rest in the same overgrown, humid borders where mosquitoes breed. A professional barrier treatment on lawn edges, fence lines and shaded borders knocks back the biting-insect pressure around your patio. That edge-and-treeline application matters most on the wooded, wetland-backed lots common in the rural GTA &mdash; the properties we cover with <Link href="/caledon-mosquito-control" className="text-brand-700 underline">mosquito control in Caledon</Link> and <Link href="/halton-hills-mosquito-control" className="text-brand-700 underline">Halton Hills mosquito control</Link>. BuzzSkito protects GTA yards with seasonal programs and <Link href="/mosquito-control-cost" className="text-brand-700 underline">single treatments from $99</Link>.</p>
             <div className="flex flex-wrap items-center gap-4">
               <Link href="/mosquito-control" className="btn-primary-sm">Explore Mosquito Control →</Link>
               <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>

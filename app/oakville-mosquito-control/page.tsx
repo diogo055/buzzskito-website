@@ -9,7 +9,7 @@ import { BUSINESS, MOSQUITO_BLOGS, TICK_BLOGS } from '@/lib/constants'
 export const metadata: Metadata = buildMetadata({
   title: 'Oakville Mosquito Control 2026 · From $99 · 150+ Five-Star Reviews',
   description:
-    'Mosquito control in Oakville. Barrier spray from $99. Serving Glen Abbey, Bronte, Old Oakville & all areas. Call (289) 216-5030.',
+    'Mosquito control in Oakville from $99, no contracts. Compare BuzzSkito vs Mosquito Man & LawnSavers. Glen Abbey, Bronte, Old Oakville. (289) 216-5030.',
   canonical: '/oakville-mosquito-control',
 })
 
@@ -45,8 +45,16 @@ const TESTIMONIALS = [
 
 const FAQS = [
   {
+    question: 'Who is the best mosquito control company in Oakville?',
+    answer: "Four providers realistically serve Oakville: BuzzSkito, Mosquito Man, Mosquito.Buzz, and LawnSavers. BuzzSkito has the lowest published entry price (from $99 per treatment), is the only no-contract option, and holds a 5.0 average across 150+ Google reviews. Mosquito Man has the largest review volume in the GTA (900+) and a longer track record, but sells seasonal programs rather than single visits. Mosquito.Buzz is a national franchise, so Oakville service depends on the local franchisee. LawnSavers suits homeowners already using them for lawn care. If you want to judge on results rather than marketing, a single no-contract treatment is the cheapest way to test any provider.",
+  },
+  {
     question: 'How much does mosquito control cost in Oakville?',
     answer: 'BuzzSkito mosquito treatments in Oakville start from $99 per application. Properties near Bronte Creek, the Sixteen Mile Creek, or the Lake Ontario waterfront typically need the full seasonal program for continuous protection. No contracts — book a single treatment or the full season. Call (289) 216-5030 for a free Oakville quote.',
+  },
+  {
+    question: 'Are no-contract mosquito control plans available in Oakville?',
+    answer: "Yes. BuzzSkito is the no-contract option in Oakville — most other providers serving the area sell seasonal programs that ask you to commit before you have seen any results. With BuzzSkito you can book a single treatment from $99, judge the difference in your own yard, and only then decide on a partial or full-season program. There are no cancellation fees.",
   },
   {
     question: 'Why is mosquito pressure high in Oakville despite its upscale setting?',
@@ -78,7 +86,7 @@ const FAQS = [
   },
   {
     question: 'Does BuzzSkito also provide tick control in Oakville?',
-    answer: "Yes. Bronte Creek and Oakville's ravines are significant blacklegged tick habitat. Many Oakville homeowners bundle mosquito and tick treatments for complete yard protection. See our Oakville tick control service or ask about bundle pricing when you call.",
+    answer: "Yes. Bronte Creek and Oakville's ravines are significant blacklegged tick habitat. Tick control is $597 for the season (5 sprays) on its own, or $497 when bundled with any mosquito plan — a $100 saving. Many Oakville homeowners bundle both for complete yard protection. See our Oakville tick control service, or ask about bundle pricing when you call.",
   },
   {
     question: 'Do I need to be home during the mosquito treatment?',
@@ -309,6 +317,46 @@ export default function OakvilleMosquitoPage() {
             <li><strong>Transparent pricing.</strong> A company that won&apos;t quote prices on their website or over the phone until after a &quot;free assessment&quot; visit is using the visit as a sales tool. BuzzSkito publishes pricing and quotes over the phone.</li>
           </ul>
 
+          {/* Provider comparison */}
+          <h2 id="compare-oakville-companies">Oakville Mosquito Control Companies Compared</h2>
+          <p>Here is how the providers serving Oakville compare on the things homeowners actually decide on — entry price, review volume, whether you are committed to a full season, and how much of Oakville each one covers. Figures reflect publicly available rates and Google review counts for the 2026 season.</p>
+          <div className="not-prose overflow-x-auto my-4">
+            <table className="w-full text-sm border-collapse">
+              <thead>
+                <tr className="bg-brand-800 text-white">
+                  <th className="px-4 py-2 text-left">Company</th>
+                  <th className="px-4 py-2 text-left">Starting Price</th>
+                  <th className="px-4 py-2 text-left">Reviews</th>
+                  <th className="px-4 py-2 text-left">Contracts</th>
+                  <th className="px-4 py-2 text-left">Oakville Coverage</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  { company: 'BuzzSkito', price: 'From $99', reviews: '150+ (5.0★)', contracts: 'No contracts', area: 'All Oakville' },
+                  { company: 'Mosquito Man', price: 'Quote-based', reviews: '900+ (4.8★)', contracts: 'Seasonal', area: 'All Oakville' },
+                  { company: 'Mosquito.Buzz', price: 'Quote-based', reviews: 'Varies by franchisee', contracts: 'Seasonal', area: 'Franchise' },
+                  { company: 'LawnSavers', price: 'From $129', reviews: '500+ combined', contracts: 'Seasonal', area: 'Oakville' },
+                ].map(({ company, price, reviews, contracts, area }) => (
+                  <tr key={company} className="border-b border-gray-200 even:bg-gray-50">
+                    <td className="px-4 py-2 font-semibold text-brand-800">{company}</td>
+                    <td className="px-4 py-2 font-extrabold text-brand-700">{price}</td>
+                    <td className="px-4 py-2 text-gray-600">{reviews}</td>
+                    <td className="px-4 py-2 text-gray-600">{contracts}</td>
+                    <td className="px-4 py-2 text-gray-600">{area}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <ul>
+            <li><strong>BuzzSkito</strong> — the lowest published entry price in Oakville and the only no-contract option, with a 5.0 average across 150+ Google reviews. Full coverage of Bronte, Glen Abbey, Joshua Creek, West Oak Trails, River Oaks, Old Oakville, North Oakville, Eastlake, Falgarwood, and Clearview, plus tick control that can be added to any plan.</li>
+            <li><strong>Mosquito Man</strong> — the largest review volume in the GTA and the longest track record here, but seasonal-program pricing with no per-treatment rate published.</li>
+            <li><strong>Mosquito.Buzz</strong> — a national franchise, so Oakville availability and service quality depend on which franchisee holds the territory. Quote-based, with a seasonal commitment standard.</li>
+            <li><strong>LawnSavers</strong> — primarily a lawn care company offering mosquito control as an add-on. The sensible pick if you already use them for lawn care and want a single invoice.</li>
+          </ul>
+          <p>One caveat that applies to every provider on this list: Old Oakville lakefront estates and the larger Joshua Creek and Glen Abbey lots price above the base rate everywhere. Confirm your lot-size tier before you book, not after the truck arrives.</p>
+
           {/* What to Expect */}
           <h2>What to Expect on Your BuzzSkito Treatment Day</h2>
           <ol>
@@ -332,7 +380,7 @@ export default function OakvilleMosquitoPage() {
 
           {/* Tick Control */}
           <h2>Also Providing Tick Control in Oakville</h2>
-          <p>Bronte Creek and Oakville&apos;s forested ravines are significant blacklegged tick habitat documented by Halton Region Public Health. If your property backs onto any ravine, conservation area, or wooded edge, tick control is an important complement to mosquito spray. See our <Link href="/oakville-tick-spray" className="text-brand-700 hover:underline">Oakville tick control service</Link> — many homeowners bundle both services for complete seasonal yard protection.</p>
+          <p>Bronte Creek and Oakville&apos;s forested ravines are significant blacklegged tick habitat documented by Halton Region Public Health. If your property backs onto any ravine, conservation area, or wooded edge, tick control is an important complement to mosquito spray. See our <Link href="/oakville-tick-spray" className="text-brand-700 hover:underline">Oakville tick control service</Link> — many homeowners bundle both services for complete seasonal yard protection. Tick control is $597 for the season (5 sprays) on its own, or $497 added to any mosquito plan, saving $100.</p>
           <p>Tick timing does not line up neatly with mosquito timing, either: blacklegged ticks are out here from roughly mid-March through November, with a nymph peak from late May to July. <Link href="/blog/tick-season-oakville-when-are-ticks-active" className="text-brand-700 hover:underline">The Oakville tick season calendar</Link> shows how the two schedules overlap.</p>
 
           <h2>Everything Oakville Homeowners Ask About Mosquito Control</h2>
@@ -376,7 +424,7 @@ export default function OakvilleMosquitoPage() {
           {/* Related Guides */}
 
           <h2>Compare Oakville Pest Control Options</h2>
-          <p>Looking at all your Oakville pest control options? See our specialist guide: <Link href="/pest-control-oakville" className="text-brand-700 hover:underline font-semibold">Pest Control in Oakville</Link> — explains why a mosquito and tick specialist beats a generalist for the two pests that actually drive Oakville backyard misery. Or compare top providers head-to-head: <Link href="/best-mosquito-control-companies-oakville" className="text-brand-700 hover:underline font-semibold">Best Mosquito Control Companies in Oakville 2026</Link>.</p>
+          <p>Looking at all your Oakville pest control options? See our specialist guide: <Link href="/pest-control-oakville" className="text-brand-700 hover:underline font-semibold">Pest Control in Oakville</Link> — explains why a mosquito and tick specialist beats a generalist for the two pests that actually drive Oakville backyard misery. For a head-to-head on price, reviews, and contracts, see the <a href="#compare-oakville-companies" className="text-brand-700 hover:underline font-semibold">Oakville provider comparison above</a>, or the <Link href="/best-mosquito-control-companies-gta" className="text-brand-700 hover:underline font-semibold">GTA-wide comparison</Link>.</p>
           <h2>Related Guides</h2>
           <ul>
             <li><Link href={`/blog/${MOSQUITO_BLOGS.pillar.slug}`} className="text-brand-700 hover:underline">{MOSQUITO_BLOGS.pillar.title}</Link></li>
@@ -433,7 +481,7 @@ export default function OakvilleMosquitoPage() {
             ))}
           </div>
           <p className="text-center mt-8 text-sm text-gray-500">
-            Shopping around? See our honest <Link href="/best-mosquito-control-companies-oakville" className="text-brand-700 underline hover:text-brand-500">2026 Oakville mosquito control comparison</Link> — pricing, reviews, contracts side by side.
+            Shopping around? See the <a href="#compare-oakville-companies" className="text-brand-700 underline hover:text-brand-500">2026 Oakville provider comparison</a> above — pricing, reviews, contracts side by side.
           </p>
         </div>
       </section>

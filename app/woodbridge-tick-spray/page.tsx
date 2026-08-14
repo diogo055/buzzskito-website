@@ -17,7 +17,7 @@ const NEIGHBOURHOODS = ['Islington Woods','Weston Downs','Pine Valley','Sonoma H
 const FAQS = [
   {
     question: 'How much does tick spray cost in Woodbridge?',
-    answer: 'Tick spray in Woodbridge starts from $99 per application. Properties near Boyd Conservation Area or the Humber River valley benefit most from both spring and fall applications. No contracts. Call (289) 216-5030.',
+    answer: 'Tick spray in Woodbridge starts from $99 per application. Properties near Boyd Conservation Area or the Humber River valley benefit most from the full seasonal program — five treatments spread roughly monthly from May through September — at $597 standalone, or $497 when added to any mosquito plan. No contracts. Call (289) 216-5030.',
   },
   {
     question: 'Which Woodbridge areas have the highest tick risk?',

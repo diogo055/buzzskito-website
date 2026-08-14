@@ -31,7 +31,7 @@ const FAQS = [
   {
     question: 'Is a seasonal tick treatment package worth the cost?',
     answer:
-      'Yes — for most GTA homeowners, a seasonal package (typically 2-3 treatments covering May through September) offers the best value. Seasonal packages reduce the per-treatment cost by 20-35% compared to individual bookings, provide consistent protection across both the nymph peak (May-July) and fall adult peak (September-November), and ensure your treatment dates are locked in during the busiest booking period.',
+      'Yes — for most GTA homeowners a full seasonal package is better value than booking visits one at a time. The BuzzSkito tick season is five treatments spaced roughly a month apart from May through September: $597 standalone, or $497 when added to any mosquito plan (a $100 saving on the same five sprays). Five visits matter because each application leaves about a month of residual activity, so a monthly cadence is what removes the gaps. A two-visit schedule leaves a multi-month hole straight through the May-July blacklegged nymph peak — the period that drives most Lyme transmission, because nymphs are poppy-seed sized and easily missed. Adults re-emerge and stay active through the autumn, into November in mild years, and deer, mice and birds keep reintroducing ticks from adjacent woodland, so the barrier has to be renewed rather than applied once or twice. Single one-off treatments start at $99 if you only need spot coverage.',
   },
   {
     question: 'Does lot size affect the price of tick treatment?',
@@ -78,7 +78,7 @@ export default function TickTreatmentCostPage() {
           <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
             <li>A single tick barrier spray on a standard residential lot (up to 10,000 sq ft) typically costs $99&ndash;$200 in Ontario.</li>
             <li>Larger lots (10,000&ndash;20,000 sq ft) run about $150&ndash;$250, and estate or rural properties $200&ndash;$350+.</li>
-            <li>A 2-treatment seasonal package saves 15&ndash;25% versus one-off visits; a 3-treatment package saves 20&ndash;35%.</li>
+            <li>A full tick season is five treatments spaced roughly a month apart, May through September &mdash; each spray&rsquo;s residual runs about that long, so a monthly cadence is what keeps the barrier from lapsing.</li>
             <li>BuzzSkito&rsquo;s tick season is $597 standalone or $497 bundled with any mosquito plan, with single treatments from $99.</li>
             <li>Professional barrier spray gives 4&ndash;6 weeks of residual activity, placed on the shaded edges and leaf litter where ticks quest rather than across the whole lawn.</li>
             <li>DIY granular treatments cost $30&ndash;$80 but last only 2&ndash;3 weeks and require precise application.</li>
@@ -103,11 +103,12 @@ export default function TickTreatmentCostPage() {
         </ul>
 
         <h3>Seasonal Package Pricing</h3>
-        <p>Most tick control companies offer seasonal packages that cover the two critical treatment windows (late May and late August/September). Some companies offer three-treatment packages for high-risk properties:</p>
+        <p>A seasonal package prices the whole tick season up front instead of visit by visit. Because a single application holds about a month of residual activity, covering May through September means returning roughly every four weeks &mdash; five treatments across the season. That cadence is the point of the package: it keeps the barrier live through the May-to-July blacklegged nymph peak, when the ticks most responsible for Lyme transmission are poppy-seed sized and easy to miss, and the September application carries its residual into the autumn, when adults re-emerge and stay active into November in mild years. Deer, mice and birds keep walking fresh ticks in from neighbouring woodland all season, so the barrier has to be renewed rather than applied once or twice.</p>
         <ul>
-          <li><strong>2-treatment seasonal package (standard lot):</strong> $170 – $350 (15-25% savings vs. individual bookings)</li>
-          <li><strong>3-treatment seasonal package (standard lot):</strong> $250 – $500 (20-35% savings vs. individual bookings)</li>
-          <li><strong>Combined tick + mosquito seasonal package:</strong> $400 – $800 for full-season protection against both pests</li>
+          <li><strong>Full tick season, standard lot (5 treatments, May – September):</strong> $597 with BuzzSkito — about $119 a visit, scheduled for you so no month gets skipped</li>
+          <li><strong>Tick season added to any mosquito plan:</strong> $497 — the same five sprays, $100 less than booking tick control on its own</li>
+          <li><strong>Combined tick + mosquito season:</strong> mosquito plans run $549 (5 sprays, monthly), $994 (10 sprays, bi-weekly) or $2,049 (20+ sprays, weekly), with the tick season added at $497</li>
+          <li><strong>One-off treatment:</strong> from $99 — worth booking before an event or after finding a tick, but it only protects for its own residual window</li>
         </ul>
 
         <h2>What Affects Tick Treatment Cost?</h2>
@@ -123,7 +124,7 @@ export default function TickTreatmentCostPage() {
         <p>GTA companies may charge slightly different rates based on service area travel distance. Properties in Hamilton, Caledon, or outer York Region may have a small travel surcharge compared to properties in Mississauga or central Toronto, depending on the company&apos;s base of operations.</p>
 
         <h3>4. Number of Treatments</h3>
-        <p>Seasonal packages always offer better per-treatment pricing than one-off bookings. If you know you want season-long protection, committing to a package upfront typically saves 20-35%.</p>
+        <p>One-off visits are priced per visit; a season is priced as a season. Season-long tick protection is five treatments roughly a month apart from May through September, which is what it takes to cover the gaps between residual windows. With BuzzSkito that season is $597 on its own, or $497 &mdash; $100 less for the same five sprays &mdash; when it is added to any mosquito plan.</p>
 
         <h3>5. Combined Services</h3>
         <p>Many companies (including BuzzSkito) offer combined tick and mosquito control packages. Because the same technician can treat both pests in a single visit (different application zones and timing), bundling both services is significantly cheaper than booking them separately from different providers.</p>
@@ -165,7 +166,7 @@ export default function TickTreatmentCostPage() {
         <ul>
           <li><strong>Lyme disease treatment costs:</strong> A course of antibiotics for early Lyme disease costs $50-$100 (OHIP-covered doctor visit + prescription). However, late-stage Lyme disease can involve thousands of dollars in medical costs, lost work time, and significant quality-of-life impact</li>
           <li><strong>Peace of mind:</strong> Knowing your yard is treated and your children and pets can play safely has significant quality-of-life value that is difficult to quantify</li>
-          <li><strong>Property enjoyment:</strong> Fear of ticks keeps many GTA families from using their own backyards. A $200-$400 annual investment to reclaim your outdoor space is, for most homeowners, a straightforward decision</li>
+          <li><strong>Property enjoyment:</strong> Fear of ticks keeps many GTA families from using their own backyards. A full covered season — $497 alongside a mosquito plan, $597 on its own — to reclaim your outdoor space from May to September is, for most homeowners, a straightforward decision</li>
           <li><strong>Pet protection supplement:</strong> Professional yard treatment complements veterinary tick prevention medication — together, they provide the most comprehensive protection available</li>
         </ul>
 
@@ -173,9 +174,9 @@ export default function TickTreatmentCostPage() {
         <p>BuzzSkito provides transparent, competitive tick control pricing for all GTA properties. Our pricing is based on lot size, and we provide exact quotes before any work is done — no surprises.</p>
         <ul>
           <li>Standard residential lots start from $99 per treatment</li>
-          <li>Seasonal packages available at reduced per-treatment rates</li>
-          <li>Combined tick + mosquito packages for maximum savings</li>
-          <li>Free, no-obligation quotes by phone or online</li>
+          <li>Full tick season — five treatments, roughly monthly from May through September — $597 on a standard lot</li>
+          <li>Same five-treatment tick season for $497 when it is added to any mosquito plan, a $100 saving</li>
+          <li>Free, no-obligation quotes by phone at (289) 216-5030 or online</li>
         </ul>
         <p>See: <Link href="/mosquito-control-pricing" className="text-brand-700 hover:underline">Full pricing details</Link> | <Link href="/free-yard-assessment" className="text-brand-700 hover:underline">Get a free quote</Link></p>
 

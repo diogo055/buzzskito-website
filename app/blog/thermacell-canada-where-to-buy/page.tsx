@@ -76,10 +76,13 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  // Retargeted off "thermacell canadian tire" (7.3K impr, 0.08% CTR) — Canadian
-  // Tire owns that SERP. Aimed at the winnable "which model" research intent.
+  // "thermacell canadian tire" (6.4K impr, pos 7.6) is retailer-owned intent —
+  // canadiantire.ca wins that click and no description changes that. This one
+  // serves the adjacent, winnable job: price-checking across retailers before
+  // driving to a store. Leads with the three model prices, names the retailers
+  // the page actually tabulates, and flags the Liv (US-only) gotcha.
   title: 'Thermacell Canada: E55 vs E90 vs Patio Shield',
-  description: 'Thermacell Canada prices compared: E55 5.5 hrs $70-$90, E90 9 hrs $90-$120, Patio Shield $35-$50. Plus refill costs and why Liv is not sold here.',
+  description: 'Thermacell Canada prices: Patio Shield $35-$50, E55 $70-$90, E90 $90-$120. Sold at Canadian Tire, Home Depot, Rona & MEC. Refills $15-$22. Liv is US-only.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -347,9 +350,9 @@ export default function ThermacellCanadaPage() {
           <h2>When Thermacell Falls Short</h2>
           <ul>
             <li><strong>Whole-yard protection</strong> — too small a coverage radius</li>
-            <li><strong>Windy locations</strong> — Lake Ontario waterfront patios with consistent breezes</li>
+            <li><strong>Windy locations</strong> — Lake Ontario waterfront patios with consistent breezes, which is why lakefront lots on our <Link href="/oakville-mosquito-control">Oakville mosquito control</Link> and <Link href="/burlington-mosquito-spray">Burlington mosquito spray</Link> routes do better with a residual barrier treatment than with a vapour zone the wind carries away</li>
             <li><strong>Open lawns away from a single seating point</strong></li>
-            <li><strong>Yards backing onto ravines or creeks</strong> — mosquito pressure overwhelms the small repellent zone</li>
+            <li><strong>Yards backing onto ravines or creeks</strong> — mosquito pressure overwhelms the small repellent zone, a recurring pattern on the ravine lots we treat with <Link href="/vaughan-mosquito-control">mosquito control in Vaughan</Link></li>
             <li><strong>Tick protection</strong> — Thermacell doesn&rsquo;t work on ticks (they don&rsquo;t fly)</li>
             <li><strong>Daytime backyard use</strong> — pollinators are foraging; better to wait until evening</li>
           </ul>

@@ -3,13 +3,13 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import CityHero from '@/components/CityHero'
 import QuickAnswer from '@/components/QuickAnswer'
-import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusinessSchema, speakableSchema, howToSchema } from '@/lib/seo'
+import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusinessSchema, speakableSchema, howToSchema, itemListSchema } from '@/lib/seo'
 import { BUSINESS, MOSQUITO_BLOGS, TICK_BLOGS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
   title: 'Mosquito Control Toronto — From $99 · 150+ 5-Star Reviews',
   description:
-    "Mosquito control in Toronto from $99. Barrier spray for ravine-adjacent yards — Rosedale, The Beaches, Etobicoke, Leaside. 150+ five-star reviews.",
+    "Mosquito control in Toronto from $99. Barrier spray for ravine-adjacent yards, plus an honest comparison of Toronto's providers. 150+ five-star reviews.",
   canonical: '/toronto-mosquito-control',
 })
 
@@ -38,6 +38,10 @@ const NEIGHBOURHOODS: { name: string; href?: string }[] = [
 ]
 
 const FAQS = [
+  {
+    question: 'Who is the best mosquito control company in Toronto?',
+    answer: "It depends on what you are optimizing for. BuzzSkito has the lowest published single-treatment price in Toronto ($99), 150+ perfect five-star Google reviews, and no contracts — and mosquitoes and ticks are the only two pests we treat. Mosquito Man has the largest review volume in the GTA (900+) and a longer local tenure, but sells seasonal programs on a contract model. Mosquito.Buzz is a national franchise, so your Toronto experience depends on which franchisee holds the territory. LawnSavers serves Toronto mainly as a mosquito add-on to its lawn-care programs, from $129 per treatment. The comparison table on this page lays out pricing, reviews, contracts, and coverage side by side.",
+  },
   {
     question: 'Why does Toronto have such a bad mosquito problem?',
     answer: "Toronto's extensive ravine system — the largest urban ravine network in North America — creates exceptional mosquito breeding conditions across the city. The Don River Valley, Humber River, and Highland Creek corridors provide the standing water, dense vegetation, and humidity that mosquitoes need to thrive. Neighbourhoods backing onto ravines experience the most intense pressure, but mosquitoes travel up to 3 km from breeding sites — which means most Toronto properties have some level of exposure.",
@@ -75,6 +79,10 @@ const FAQS = [
     answer: "BuzzSkito mosquito treatments in Toronto start from $99 per treatment. Pricing depends on your property size and the depth of coverage your lot requires. Ravine-adjacent properties may need more frequent or thorough application than sheltered urban lots. Call (289) 216-5030 for a free quote, or see our 2026 Ontario pricing guide for a full breakdown.",
   },
   {
+    question: 'Are no-contract mosquito control plans available in Toronto?',
+    answer: "Yes, though they are the exception — most providers serving Toronto sell seasonal programs with a commitment attached. BuzzSkito is the no-contract option: book a single $99 treatment, see what your yard looks like two weeks later, and only then decide on a season plan. We bill per visit rather than upfront, and there are no cancellation fees if you stop partway through the season.",
+  },
+  {
     question: 'What do BuzzSkito season plans cost in Toronto?',
     answer: "Toronto season-long mosquito plans are billed per season (May through September), plus HST, and scale with your lot size. The Basic Season is $549 for 5 monthly sprays, the Standard Season — our most popular — is $994 for 10 bi-weekly sprays, and the Exclusive Season is $2,049 for 20+ weekly sprays. You can add tick control to any mosquito plan for $497/season (5 tick-focused sprays), which is $100 off the $597 standalone tick program. Single treatments start at $99. Call (289) 216-5030 for a quote on your exact lot size.",
   },
@@ -89,6 +97,7 @@ export default function TorontoMosquitoPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(SLUG, '2026-07-12')) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema({ service: 'mosquito', city: 'Toronto' })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema({ name: 'Mosquito Control Companies Serving Toronto — Compared', description: 'Toronto mosquito control providers compared on pricing, Google reviews, contract terms, and neighbourhood coverage.', slug: SLUG, items: [{ name: 'BuzzSkito' }, { name: 'Mosquito Man' }, { name: 'Mosquito.Buzz' }, { name: 'LawnSavers' }] })) }} />
 
       <CityHero
         breadcrumbs={[
@@ -321,14 +330,60 @@ export default function TorontoMosquitoPage() {
             <li><strong>Larvicide tablets don&apos;t address the real problem.</strong> You can treat every puddle on your lot and still have severe mosquitoes because the dominant pressure comes from off-property ravine sources.</li>
           </ul>
 
-          <h2>Choosing the Right Mosquito Control Service in Toronto</h2>
-          <p>Several companies now offer mosquito control in Toronto. Here&apos;s what to evaluate:</p>
+          <h2 id="toronto-provider-comparison">Choosing the Right Mosquito Control Service in Toronto</h2>
+          <p>Several companies now offer mosquito control in Toronto. Here&apos;s an honest side-by-side of the providers serving the city, based on publicly listed pricing, Google review counts, and the Toronto coverage each one actually offers:</p>
+          <div className="not-prose overflow-x-auto my-6">
+            <table className="w-full text-sm border-collapse">
+              <thead>
+                <tr className="bg-brand-800 text-white">
+                  <th className="px-4 py-3 text-left">Company</th>
+                  <th className="px-4 py-3 text-left">Starting Price</th>
+                  <th className="px-4 py-3 text-left">Reviews</th>
+                  <th className="px-4 py-3 text-left">Contracts</th>
+                  <th className="px-4 py-3 text-left">Toronto Coverage</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  { company: 'BuzzSkito', price: 'From $99', reviews: '150+ (5.0★)', contracts: 'No contracts', area: 'All Toronto' },
+                  { company: 'Mosquito Man', price: 'Quote-based', reviews: '900+ (4.8★)', contracts: 'Seasonal', area: 'All Toronto' },
+                  { company: 'Mosquito.Buzz', price: 'Quote-based', reviews: 'Varies', contracts: 'Seasonal', area: 'Franchise' },
+                  { company: 'LawnSavers', price: 'From $129', reviews: '500+ combined', contracts: 'Seasonal', area: 'Toronto' },
+                ].map(({ company, price, reviews, contracts, area }) => (
+                  <tr key={company} className="border-b border-gray-200 even:bg-gray-50">
+                    <td className="px-4 py-3 font-semibold text-brand-800">{company}</td>
+                    <td className="px-4 py-3 font-extrabold text-brand-700">{price}</td>
+                    <td className="px-4 py-3 text-gray-600">{reviews}</td>
+                    <td className="px-4 py-3 text-gray-600">{contracts}</td>
+                    <td className="px-4 py-3 text-gray-600">{area}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-sm text-gray-500 not-prose mb-8">Pricing reflects publicly available rates. Estate lots — Bridle Path, Lawrence Park, Rosedale ravine frontage — price above the base rate at every provider.</p>
+
+          <h3>BuzzSkito — full Toronto coverage</h3>
+          <p>Mosquitoes and ticks are the only two pests we treat, and we cover every Toronto neighbourhood — the full list is in the neighbourhoods section above. Single treatments start at $99, with season plans and the tick add-on priced in the tables earlier on this page, all +HST with no hidden fees. We hold 150+ Google reviews at a 5.0 average with zero negative reviews, and every visit carries the Bite-Free Guarantee. No contracts, no cancellation fees, same-week service across the city.</p>
+
+          <h3>Mosquito Man — full Toronto coverage</h3>
+          <p>A long-running GTA mosquito control company with the largest review volume in the market at 900+. Seasonal programs run around $450 and per-treatment pricing isn&apos;t published; the model is a seasonal commitment with standard barrier spray. Established Toronto customer base. We break the differences down line by line in our <Link href="/buzzskito-vs-mosquitoman" className="text-brand-700 hover:underline">BuzzSkito vs Mosquito Man comparison</Link>.</p>
+
+          <h3>Mosquito.Buzz — franchise coverage</h3>
+          <p>A national Canadian franchise, which means the crew servicing your Toronto property depends on which franchisee holds the territory. Pricing is quote-based with no published rates, review quality varies by franchisee, and a seasonal commitment is standard.</p>
+
+          <h3>LawnSavers — Toronto coverage, lawn care first</h3>
+          <p>A lawn care company that offers mosquito control as a program add-on, from $129 per treatment, with 500+ Google reviews across all of its services. The sensible pick if LawnSavers already maintains your lawn and you want the mosquito service on the same invoice.</p>
+
+          <h3>What to verify before booking anyone in Toronto</h3>
           <ul>
             <li><strong>Health Canada–registered products.</strong> Any product applied must be registered under the Pest Control Products Act. BuzzSkito uses only registered, water-based formulas.</li>
             <li><strong>Licensed applicators.</strong> Ontario requires a Pesticide Applicator&apos;s Licence for commercial applications.</li>
             <li><strong>Rain-back guarantee.</strong> Reputable companies re-treat if rain falls within the cure window. Standard at BuzzSkito.</li>
             <li><strong>No long-term contracts.</strong> Book a single treatment and evaluate results before committing to a season.</li>
-            <li><strong>Local Toronto knowledge.</strong> Companies that understand ravine corridors and Toronto&apos;s specific geography treat more effectively than generic operators.</li>
+            <li><strong>Ravine-property experience.</strong> Don Valley, Humber, and Eastern Ravine lots are high-pressure zones — a company that understands Toronto&apos;s ravine corridors treats them far more effectively than a generic operator.</li>
+            <li><strong>Tick coverage from the same provider.</strong> Toronto has confirmed Lyme-vector ravines, and bundling tick control into your mosquito plan costs less than hiring a second company for it.</li>
+            <li><strong>Estate-lot pricing tier.</strong> On a large Bridle Path, Lawrence Park, or Rosedale lot, confirm which pricing tier applies before the first visit.</li>
             <li><strong>Transparent pricing.</strong> BuzzSkito publishes pricing and quotes over the phone — no mandatory &quot;assessment visit&quot; required first.</li>
           </ul>
 
@@ -343,7 +398,7 @@ export default function TorontoMosquitoPage() {
           </ol>
 
           <h2>Mosquito Spraying &amp; Tick Control in Toronto</h2>
-          <p>Searching for &quot;mosquito spraying Toronto,&quot; a &quot;mosquito exterminator,&quot; or &quot;tick control Toronto&quot;? That&apos;s exactly what BuzzSkito does &mdash; and it&apos;s all we do. Rather than a general exterminator that also handles ants, wasps, and rodents, we are a dedicated <strong>mosquito and tick specialist</strong>: every spray, every technician, and every product is optimized for the two pests that actually ruin Toronto backyards. Our licensed technician sprays the resting surfaces where adult mosquitoes shelter &mdash; leaf undersides, shrub interiors, fence lines, and ravine-edge vegetation &mdash; then treats the low, shaded transition zones where blacklegged ticks wait. Want to weigh your options first? Compare providers in our guide to the <Link href="/best-mosquito-control-companies-toronto" className="text-brand-700 hover:underline">best mosquito control companies in Toronto</Link>.</p>
+          <p>Searching for &quot;mosquito spraying Toronto,&quot; a &quot;mosquito exterminator,&quot; or &quot;tick control Toronto&quot;? That&apos;s exactly what BuzzSkito does &mdash; and it&apos;s all we do. Rather than a general exterminator that also handles ants, wasps, and rodents, we are a dedicated <strong>mosquito and tick specialist</strong>: every spray, every technician, and every product is optimized for the two pests that actually ruin Toronto backyards. Our licensed technician sprays the resting surfaces where adult mosquitoes shelter &mdash; leaf undersides, shrub interiors, fence lines, and ravine-edge vegetation &mdash; then treats the low, shaded transition zones where blacklegged ticks wait. Want to weigh your options first? We compare every provider serving the city — pricing, reviews, and contract terms — in the <a href="#toronto-provider-comparison" className="text-brand-700 hover:underline">Toronto provider comparison above</a>.</p>
 
           <h2>Also Providing Tick Control in Toronto</h2>
           <p>Toronto's ravine system also harbours blacklegged ticks, which carry Lyme disease. Ask about our <Link href="/toronto-tick-spray" className="text-brand-700 hover:underline">Toronto tick control service</Link>.</p>
@@ -412,7 +467,7 @@ export default function TorontoMosquitoPage() {
 
 
           <h2>Compare Toronto Pest Control Options</h2>
-          <p>Looking at all your Toronto pest control options? See our specialist guide: <Link href="/pest-control-toronto" className="text-brand-700 hover:underline font-semibold">Pest Control in Toronto</Link> — explains why a mosquito and tick specialist beats a generalist for the two pests that actually drive Toronto backyard misery. Or compare top providers head-to-head: <Link href="/best-mosquito-control-companies-toronto" className="text-brand-700 hover:underline font-semibold">Best Mosquito Control Companies in Toronto 2026</Link>.</p>
+          <p>Looking at all your Toronto pest control options? See our specialist guide: <Link href="/pest-control-toronto" className="text-brand-700 hover:underline font-semibold">Pest Control in Toronto</Link> — explains why a mosquito and tick specialist beats a generalist for the two pests that actually drive Toronto backyard misery. For head-to-head detail, see <Link href="/buzzskito-vs-mosquitoman" className="text-brand-700 hover:underline font-semibold">BuzzSkito vs Mosquito Man</Link> or the wider <Link href="/best-mosquito-control-companies-gta" className="text-brand-700 hover:underline font-semibold">GTA provider comparison</Link>.</p>
           <h2>Related Mosquito Control Guides</h2>
           <ul>
             <li><Link href={`/blog/${MOSQUITO_BLOGS.pillar.slug}`} className="text-brand-700 hover:underline">{MOSQUITO_BLOGS.pillar.title}</Link></li>

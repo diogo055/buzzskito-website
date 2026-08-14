@@ -3,13 +3,13 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import CityHero from '@/components/CityHero'
 import QuickAnswer from '@/components/QuickAnswer'
-import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusinessSchema, speakableSchema, howToSchema } from '@/lib/seo'
+import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusinessSchema, speakableSchema, howToSchema, itemListSchema } from '@/lib/seo'
 import { BUSINESS, MOSQUITO_BLOGS, TICK_BLOGS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
   title: 'Mississauga Mosquito Control 2026 · From $99 · 150+ Five-Star Reviews',
   description:
-    "Mississauga's specialist mosquito barrier spray. Health Canada-approved, from $99/treatment, no contracts, BuzzSkito Bite-Free Guarantee. Port Credit, Meadowvale, Streetsville, Erin Mills, Lorne Park. Call (289) 216-5030.",
+    "Mississauga mosquito barrier spray from $99, no contracts, 150+ five-star reviews. Compare Mississauga mosquito control companies. Call (289) 216-5030.",
   canonical: '/mississauga-mosquito-control',
 })
 
@@ -36,8 +36,16 @@ const NEIGHBOURHOODS: { name: string; href?: string }[] = [
 
 const FAQS = [
   {
+    question: 'Who is the best mosquito control company in Mississauga?',
+    answer: 'BuzzSkito is Mississauga-based and offers the lowest published entry price — $99 for a single treatment — plus 150+ Google reviews at a perfect 5.0 average and no contracts. Mosquito Man has the largest review volume in the GTA (900+) but operates on seasonal contracts. LawnSavers starts at $129 per treatment and suits homeowners already using their lawn care service. Mosquito.Buzz is a national franchise, so Mississauga service depends on franchisee availability. The right choice depends on whether you prioritize price, flexibility, or local ownership.',
+  },
+  {
     question: 'How much does mosquito control cost in Mississauga?',
     answer: 'BuzzSkito mosquito barrier spray treatments start from $99 per application for a standard residential lot. Pricing depends on your property size and treatment frequency. Call (289) 216-5030 or use our contact form for a free, no-obligation quote specific to your Mississauga property. There are no contracts — you can book a single treatment or a full seasonal package.',
+  },
+  {
+    question: 'Do Mississauga mosquito control companies offer no-contract service?',
+    answer: 'BuzzSkito is the primary no-contract option in Mississauga — book a single $99 treatment with no commitment and no cancellation fees, then decide on a seasonal plan based on the results you actually see. Most other Mississauga providers work on a seasonal program model. Always confirm contract length and cancellation terms before booking.',
   },
   {
     question: 'Why is mosquito pressure so high in Mississauga?',
@@ -69,7 +77,7 @@ const FAQS = [
   },
   {
     question: 'Does BuzzSkito also provide tick control in Mississauga?',
-    answer: "Yes. Mississauga's Credit River valley, Rattray Marsh, and Erindale Park are confirmed blacklegged tick habitat areas. Many Mississauga homeowners bundle mosquito and tick treatments for complete yard protection. Our tick spray targets the specific transition zones — lawn edges, leaf litter, garden beds — where ticks concentrate. Ask about our seasonal bundle pricing when you call.",
+    answer: "Yes. Mississauga's Credit River valley, Rattray Marsh, and Erindale Park are confirmed blacklegged tick habitat areas. Many Mississauga homeowners bundle mosquito and tick treatments for complete yard protection. Our tick spray targets the specific transition zones — lawn edges, leaf litter, garden beds — where ticks concentrate. A standalone tick season is $597 for five treatments; added to any mosquito plan it is $497, saving $100.",
   },
   {
     question: 'Do I need to be home during the treatment?',
@@ -85,6 +93,7 @@ export default function MississaugaMosquitoControlPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Mosquito Control', url: '/mosquito-control' }, { name: `${CITY}`, url: SLUG }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema({ service: 'mosquito', city: 'Mississauga' })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema({ name: 'Mosquito Control Companies Serving Mississauga — 2026', description: 'Mississauga mosquito control companies compared on starting price, Google reviews, contract terms, and city coverage.', slug: SLUG, items: [{ name: 'BuzzSkito' }, { name: 'Mosquito Man' }, { name: 'Mosquito.Buzz' }, { name: 'LawnSavers' }] })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema('/mississauga-mosquito-control', '2026-07-01')) }} />
 
       {/* Hero */}
@@ -250,12 +259,43 @@ export default function MississaugaMosquitoControlPage() {
           <p className="text-sm text-gray-500">Risk levels reflect typical season-long exposure based on geographic factors. Individual properties within each FSA vary — a Streetsville home directly on the Credit River faces higher pressure than a Streetsville home several blocks inland.</p>
 
           <h2>Comparing Mississauga Mosquito Control Companies</h2>
-          <p>Mississauga homeowners have several professional options. We&rsquo;ve put together honest, side-by-side comparisons:</p>
+          <p>Mississauga homeowners have several professional options. Here is an honest side-by-side based on publicly available pricing, Google review counts, and Mississauga-specific coverage &mdash; no affiliate links, no paid placements.</p>
+          <div className="not-prose overflow-x-auto my-4">
+            <table className="w-full text-sm border-collapse">
+              <thead>
+                <tr className="bg-brand-800 text-white">
+                  <th className="px-4 py-2 text-left">Company</th>
+                  <th className="px-4 py-2 text-left">Starting Price</th>
+                  <th className="px-4 py-2 text-left">Reviews</th>
+                  <th className="px-4 py-2 text-left">Contracts</th>
+                  <th className="px-4 py-2 text-left">Mississauga Coverage</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  { company: 'BuzzSkito', price: 'From $99', reviews: '150+ (5.0★)', contracts: 'No contracts', area: 'All Mississauga (HQ)' },
+                  { company: 'Mosquito Man', price: 'Quote-based', reviews: '900+ (4.8★)', contracts: 'Seasonal', area: 'All Mississauga' },
+                  { company: 'Mosquito.Buzz', price: 'Quote-based', reviews: 'Varies by franchisee', contracts: 'Seasonal', area: 'Franchise' },
+                  { company: 'LawnSavers', price: 'From $129', reviews: '500+ combined', contracts: 'Seasonal', area: 'Mississauga' },
+                ].map(({ company, price, reviews, contracts, area }) => (
+                  <tr key={company} className="border-b border-gray-200 even:bg-gray-50">
+                    <td className="px-4 py-2 font-semibold text-brand-800">{company}</td>
+                    <td className="px-4 py-2 font-extrabold text-brand-700">{price}</td>
+                    <td className="px-4 py-2 text-gray-600">{reviews}</td>
+                    <td className="px-4 py-2 text-gray-600">{contracts}</td>
+                    <td className="px-4 py-2 text-gray-600">{area}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-sm text-gray-500">Pricing reflects publicly available rates for the 2026 season. Mosquito Man does not publish per-treatment rates. Lakefront estate properties in Lorne Park and Mineola price above the base rate with any provider.</p>
+          <p>BuzzSkito is the Mississauga-based option on that list — this is our home market, which is why same-week booking is normal here rather than exceptional. Head-to-head breakdowns:</p>
           <ul>
-            <li><Link href="/best-mosquito-control-companies-mississauga" className="text-brand-700 hover:underline">Best mosquito control companies in Mississauga 2026</Link> — pricing, reviews, contracts</li>
             <li><Link href="/buzzskito-vs-mosquitoman" className="text-brand-700 hover:underline">BuzzSkito vs Mosquito Man</Link> — head-to-head comparison</li>
             <li><Link href="/buzzskito-vs-lawnsavers" className="text-brand-700 hover:underline">BuzzSkito vs LawnSavers</Link> — specialist vs lawn-care add-on</li>
             <li><Link href="/buzzskito-vs-mosquito-buzz" className="text-brand-700 hover:underline">BuzzSkito vs Mosquito.Buzz</Link> — local vs national franchise</li>
+            <li><Link href="/best-mosquito-control-companies-gta" className="text-brand-700 hover:underline">Best mosquito control companies across the GTA</Link> — the wider regional comparison</li>
           </ul>
 
           <h2>Our Mississauga Mosquito Treatment Process</h2>
@@ -351,6 +391,8 @@ export default function MississaugaMosquitoControlPage() {
             <li><strong>No pressure to commit to long-term contracts.</strong> Legitimate service companies let you book a single treatment and evaluate results before committing to a season. Be cautious of companies requiring 12-month contracts for seasonal outdoor service.</li>
             <li><strong>Local Mississauga knowledge.</strong> Companies that understand the Credit River corridor, Rattray Marsh, and Mississauga's specific neighbourhood geography will treat your property more effectively than generic operators using standard templates.</li>
             <li><strong>Transparent pricing.</strong> A company that won't quote prices on their website or over the phone until after a "free assessment" visit is using the visit as a sales tool, not a diagnostic one. BuzzSkito publishes pricing and quotes over the phone.</li>
+            <li><strong>A stated price tier for large lots.</strong> Estate properties in Lorne Park, Mineola, and lakefront Port Credit price above the standard residential rate. Get the tier that applies to your lot size confirmed before booking, not on treatment day.</li>
+            <li><strong>Coverage confirmed for your actual address.</strong> Mississauga is large and provider coverage is not uniform across it — confirm your specific postal code area is serviced before committing to a season.</li>
           </ul>
 
           <h2>What to Expect on Your BuzzSkito Treatment Day</h2>
@@ -415,7 +457,7 @@ export default function MississaugaMosquitoControlPage() {
 
 
           <h2>Compare Mississauga Pest Control Options</h2>
-          <p>Looking at all your Mississauga pest control options? See our specialist guide: <Link href="/pest-control-mississauga" className="text-brand-700 hover:underline font-semibold">Pest Control in Mississauga</Link> — explains why a mosquito and tick specialist beats a generalist for the two pests that actually drive Mississauga backyard misery. Or compare top providers head-to-head: <Link href="/best-mosquito-control-companies-mississauga" className="text-brand-700 hover:underline font-semibold">Best Mosquito Control Companies in Mississauga 2026</Link>.</p>
+          <p>Looking at all your Mississauga pest control options? See our specialist guide: <Link href="/pest-control-mississauga" className="text-brand-700 hover:underline font-semibold">Pest Control in Mississauga</Link> — explains why a mosquito and tick specialist beats a generalist for the two pests that actually drive Mississauga backyard misery. Provider-by-provider pricing, review counts, and contract terms are in the comparison table above.</p>
           <h2>Related Guides</h2>
           <ul>
             <li><Link href={`/blog/${MOSQUITO_BLOGS.pillar.slug}`} className="text-brand-700 hover:underline">{MOSQUITO_BLOGS.pillar.title}</Link></li>

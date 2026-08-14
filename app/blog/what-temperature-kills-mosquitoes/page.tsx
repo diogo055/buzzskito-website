@@ -56,7 +56,7 @@ const FAQS = [
 
 export const metadata: Metadata = buildMetadata({
   title: 'What Temperature Kills Mosquitoes? Cold vs Heat',
-  description: 'What temperature kills mosquitoes? A hard frost near -2°C kills adults, 10°C grounds them, but heat rarely does. Full temperature table plus 11 Ontario FAQs.',
+  description: 'Active adults die in a hard frost around -2°C (28°F) and stop flying below 10°C (50°F) — but eggs and hibernating females survive winter. Full temp table.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -166,7 +166,7 @@ export default function WhatTemperatureKillsMosquitoesPage() {
 
           <h2>What temperature is too cold for mosquitoes?</h2>
           <p>Anything below <strong>10&deg;C (50&deg;F)</strong> is too cold for mosquitoes to function normally &mdash; they go dormant and stop biting. In practical Ontario terms, once fall overnight lows sit consistently under 10&deg;C, mosquito activity collapses, and the first hard frost ends the active season. In a typical GTA autumn that means biting pressure fades through late September and October.</p>
-          <p>Warm microclimates change the math. Urban heat islands, sheltered ravines and mild lakeside pockets can keep pockets of mosquitoes active a few weeks longer than the regional average, so a downtown Toronto backyard may see stragglers after a Caledon acreage has gone quiet.</p>
+          <p>Warm microclimates change the math. Urban heat islands, sheltered ravines and mild lakeside pockets can keep pockets of mosquitoes active a few weeks longer than the regional average, so a downtown Toronto backyard may see stragglers after a Caledon acreage has gone quiet. That spread is why the end of biting season is a local question rather than a regional one &mdash; our pages on <Link href="/toronto-mosquito-control">mosquito control in Toronto</Link> and <Link href="/caledon-mosquito-control">mosquito control in Caledon</Link> set out what a May-to-September plan covers in each.</p>
 
           <h2>Does frost kill mosquitoes?</h2>
           <p>A hard frost kills active adults; a light frost usually does not. The distinction matters:</p>

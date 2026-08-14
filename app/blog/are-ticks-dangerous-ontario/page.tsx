@@ -23,13 +23,18 @@ const UPDATED = POST.date
 export const metadata: Metadata = buildMetadata({
   title: 'Worst Areas for Ticks in Ontario + GTA Lyme Risk',
   description:
-    'Where ticks are worst in Ontario: Toronto ravines, Mississauga conservation areas, Hamilton escarpment trails. 20–40% of blacklegged ticks there carry Lyme.',
+    'Where ticks are worst in Ontario: ravine edges, conservation lands, escarpment woodlots. In risk areas 20–40% of adult blacklegged ticks carry Lyme.',
   canonical: `/blog/${POST.slug}`,
   type: 'article',
   publishedTime: POST.date,
 })
 
 const FAQS = [
+  {
+    question: 'What are the worst areas for ticks in Ontario?',
+    answer:
+      'The worst tick areas are habitat types rather than particular towns: ravine slopes and valley trails, conservation-area and greenbelt boundaries, Niagara Escarpment and Oak Ridges Moraine woodlots, and any lot line where mowed lawn meets tall grass, brush, or leaf litter. Public Health Ontario publishes an estimated Lyme disease risk-area map each year, and blacklegged ticks have been documented in every GTA municipality — so the practical question is not which city you live in but whether your property touches naturalized ground. Within a yard, the highest-risk band is the first few metres of the lawn-to-wild transition edge.',
+  },
   {
     question: 'Are all ticks in Ontario dangerous?',
     answer:
@@ -122,7 +127,8 @@ export default function AreTicksDangerousPage() {
 
         <h2>The Short Answer: Yes, Ticks Are Dangerous in Ontario</h2>
         <p>Ticks in Ontario are not just a nuisance — they are a legitimate health risk. The blacklegged tick (<em>Ixodes scapularis</em>), now established across virtually all of Southern Ontario, can transmit Lyme disease, Anaplasmosis, Babesiosis, and Powassan virus. The number of confirmed Lyme disease cases in Canada has increased more than tenfold over the past decade, and the geographic range of disease-carrying ticks continues to expand northward every year.</p>
-        <p>For GTA homeowners, the days of dismissing ticks as a &quot;cottage country problem&quot; are over. Toronto ravines, Mississauga conservation areas, Hamilton escarpment trails, and suburban backyards across the region now harbour established blacklegged tick populations.</p>
+        <p>For GTA homeowners, the days of dismissing ticks as a &quot;cottage country problem&quot; are over. The worst areas for ticks in Ontario are not remote &mdash; they are <strong>edge habitats</strong>: ravine slopes, conservation-land trails, escarpment woodlots, and any lot line where mowed grass meets naturalized growth. Toronto ravines, Mississauga conservation areas, Hamilton escarpment trails, and suburban backyards across the region now harbour established blacklegged tick populations.</p>
+        <p>That same logic picks out the highest-risk addresses in our service area. Properties pressed against the Niagara Escarpment and the greenbelt corridors are the reason <Link href="/burlington-tick-spray" className="text-brand-700 hover:underline">tick spray in Burlington</Link> concentrates on those boundary edges, and the Oak Ridges Moraine and Credit River headwaters running through Caledon are why <Link href="/caledon-tick-spray" className="text-brand-700 hover:underline">Caledon tick control</Link> targets woodlot margins and fence rows rather than open lawn.</p>
 
         <h2>Which Ticks in Ontario Are Dangerous?</h2>
         <p>Ontario is home to several tick species, but they carry very different levels of risk:</p>
@@ -184,12 +190,12 @@ export default function AreTicksDangerousPage() {
           <li>Stone walls, wood piles, and garden beds</li>
           <li>The transition zone between lawn and wooded or naturalized areas</li>
         </ul>
-        <p>Any GTA property that borders a ravine, conservation area, woodlot, or naturalized landscape has potential tick habitat within the property boundary. Even properties without direct woodland borders can have ticks introduced by deer, rodents, or birds passing through the yard.</p>
+        <p>Any GTA property that borders a ravine, conservation area, woodlot, or naturalized landscape has potential tick habitat within the property boundary. Even properties without direct woodland borders can have ticks introduced by deer, rodents, or birds passing through the yard. That is as true in the ravine-laced inner suburbs — the Don and West Don valleys thread through residential streets, which is why <Link href="/north-york-tick-spray" className="text-brand-700 hover:underline">North York tick spray</Link> targets the ravine-facing edge of a lot — as it is on a rural acreage.</p>
 
         <h2>How to Protect Your Family</h2>
 
         <h3>Professional Tick Treatment</h3>
-        <p><Link href="/tick-control" className="text-brand-700 hover:underline">Professional tick barrier spray</Link> is the most effective way to reduce tick populations on your property. Treatment puts a Health Canada-registered residual acaricide on the high-risk perimeter zones — garden edges, fence lines, shaded vegetation, stone walls, and the lawn-to-woods transition — because that is where ticks quest, not the middle of the lawn. It lowers the number of ticks in those zones rather than clearing the property, so it is paired with tick checks. Most GTA homeowners schedule two treatments per year: one in late May (targeting nymphs) and one in late August (targeting adult ticks before fall peak).</p>
+        <p><Link href="/tick-control" className="text-brand-700 hover:underline">Professional tick barrier spray</Link> is the most effective way to reduce tick populations on your property. Treatment puts a Health Canada-registered residual acaricide on the high-risk perimeter zones — garden edges, fence lines, shaded vegetation, stone walls, and the lawn-to-woods transition — because that is where ticks quest, not the middle of the lawn. It lowers the number of ticks in those zones rather than clearing the property, so it is paired with tick checks. The BuzzSkito tick program is 5 sprays across the May-to-September season — spaced so the questing zones are re-treated as spring nymphs give way to fall adults — at $597 standalone, or $497 when added to any mosquito plan.</p>
 
         <h3>Yard Modifications</h3>
         <ul>

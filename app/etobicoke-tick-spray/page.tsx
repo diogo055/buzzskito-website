@@ -17,7 +17,7 @@ const NEIGHBOURHOODS = ['Mimico','Long Branch','New Toronto','The Kingsway','Hum
 const FAQS = [
   {
     question: 'How much does tick spray cost in Etobicoke?',
-    answer: 'Tick spray in Etobicoke starts from $99 per application. Properties near the Humber River valley, Etobicoke Creek, or Centennial Park benefit most from both spring and fall applications. No contracts. Call (289) 216-5030.',
+    answer: 'Tick spray in Etobicoke starts from $99 per application. Properties near the Humber River valley, Etobicoke Creek, or Centennial Park are best covered by the full seasonal program — five treatments spaced roughly monthly from May through September, because each application holds up to 30 days of residual and monthly spacing is what removes the gap. The season program is $597 standalone, or $497 when added to a mosquito plan. No contracts. Call (289) 216-5030.',
   },
   {
     question: 'Where are ticks most active in Etobicoke?',
@@ -131,7 +131,7 @@ export default function EtobicokeTickPage() {
 
 
           <h2>Compare Etobicoke Pest Control Options</h2>
-          <p>Etobicoke has confirmed blacklegged tick exposure — see our specialist pest control guide: <Link href="/pest-control-etobicoke" className="text-brand-700 hover:underline font-semibold">Pest Control in Etobicoke</Link> for why a mosquito and tick specialist delivers better Lyme disease prevention than a general pest company. Compare top mosquito and tick control providers: <Link href="/best-mosquito-control-companies-etobicoke" className="text-brand-700 hover:underline font-semibold">Best Mosquito Control Companies in Etobicoke 2026</Link>.</p>
+          <p>Etobicoke has confirmed blacklegged tick exposure — see our specialist pest control guide: <Link href="/pest-control-etobicoke" className="text-brand-700 hover:underline font-semibold">Pest Control in Etobicoke</Link> for why a mosquito and tick specialist delivers better Lyme disease prevention than a general pest company. See our full mosquito programme for the same property: <Link href="/etobicoke-mosquito-control" className="text-brand-700 hover:underline font-semibold">Mosquito Control in Etobicoke</Link>.</p>
           <h2>Related Tick Control Guides</h2>
           <ul>
             <li><Link href={`/blog/${TICK_BLOGS.pillar.slug}`} className="text-brand-700 hover:underline">{TICK_BLOGS.pillar.title}</Link></li>

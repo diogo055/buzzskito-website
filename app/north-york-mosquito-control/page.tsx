@@ -8,7 +8,7 @@ import { MOSQUITO_BLOGS } from '@/lib/constants'
 export const metadata: Metadata = buildMetadata({
   title: 'North York Mosquito Control 2026 · From $99 · 150+ Five-Star Reviews',
   description:
-    "North York's specialist mosquito barrier spray. Health Canada-approved, from $99/treatment, no contracts, BuzzSkito Bite-Free Guarantee. Willowdale, York Mills, Don Mills, Bridle Path, Bayview Village, Lansing, Newtonbrook. Call (289) 216-5030.",
+    "North York mosquito barrier spray from $99, no contracts, Bite-Free Guarantee. Compare providers, pricing and how to choose. Call (289) 216-5030.",
   canonical: '/north-york-mosquito-control',
 })
 
@@ -20,8 +20,10 @@ const NEIGHBOURHOODS: { name: string; href?: string }[] = [
   { name: 'Willowdale', href: '/willowdale-mosquito-control' },
   { name: 'Lawrence Park', href: '/lawrence-park-mosquito-control' },
   { name: 'York Mills', href: '/york-mills-mosquito-control' },
+  { name: 'Bridle Path', href: '/bridle-path-mosquito-control' },
   { name: 'Bayview Village' },
   { name: 'Lansing' },
+  { name: 'Newtonbrook' },
   { name: 'North York Centre' },
   { name: 'Parkwoods' },
 ]
@@ -41,6 +43,18 @@ const FAQS = [
   {
     question: 'Does Willowdale have as much mosquito pressure as the ravine areas?',
     answer: "Willowdale, North York Centre, and Lansing are more urban in character and generally have lower baseline mosquito pressure than the ravine-adjacent communities. However, mature street trees, garden ponds, improperly drained low-lying yards, and neighbourhood parks still produce localized pressure throughout the season. Willowdale homeowners with large, landscaped backyards — particularly those with ornamental water features or dense shrub borders — benefit meaningfully from professional barrier spray.",
+  },
+  {
+    question: 'Who is the best mosquito control company in North York?',
+    answer: "Honest answer: it depends on what you value. BuzzSkito treats mosquitoes and ticks only — that is the entire business — with 150+ five-star Google reviews (5.0 average), single treatments from $99, no contracts, and the Bite-Free Guarantee. Mosquito Man is a franchise with more total reviews across all of Ontario, but it operates as a general pest control company covering 10+ pest types. LawnSavers makes sense if you already use them for lawn care and want mosquito service bundled in. Mosquito.Buzz is a national franchise that quotes custom. For a ravine-edge North York property, specialist depth and a written re-treat guarantee usually matter more than franchise size.",
+  },
+  {
+    question: 'Do North York mosquito control companies offer no-contract service?',
+    answer: 'BuzzSkito is the no-contract option in North York — book a single treatment from $99, pay per visit, no cancellation fees, and judge the results before committing to a season. Seasonal plans are available ($549 for 5 treatments, $994 for 10, $2,049 for 20+) but never required. Most other providers steer you toward a seasonal agreement, so confirm the terms — including any automatic-renewal clause — before you book.',
+  },
+  {
+    question: 'Can I bundle tick control with mosquito spray in North York?',
+    answer: "Yes, and most ravine-adjacent North York homeowners do. The Don Valley, Burke Brook, and Sunnybrook Park corridors are blacklegged tick habitat, and the blacklegged tick is the Lyme disease vector in Ontario. Tick control is $597 for the season on its own, or $497 when added to any mosquito plan, and includes five tick treatments timed across the May–September season. Mosquito comfort plus Lyme prevention on the same visit schedule.",
   },
 ]
 
@@ -166,13 +180,47 @@ export default function NorthYorkMosquitoPage() {
           <p>Citronella candles, essential oil sprays, and consumer foggers provide temporary relief in a small radius — typically 30 minutes to 2 hours in the immediate area of use. Professional barrier spray treats every resting surface on your entire property, creating a residual barrier that kills mosquitoes on contact for up to 30 days. The difference is coverage and duration: DIY products address symptoms; barrier spray addresses the source of activity on your lot.</p>
           <p>For a detailed comparison, see our <Link href="/mosquito-control-diy-vs-professional" className="text-brand-700 hover:underline">DIY vs Professional Mosquito Control</Link> guide.</p>
 
+          <h2>Comparing North York Mosquito Control Companies</h2>
+          <p>North York homeowners have several professional options. Here is an honest side-by-side based on publicly available pricing, Google reviews, and what each company actually specializes in for the 2026 season.</p>
+          <div className="not-prose overflow-x-auto my-6">
+            <table className="w-full text-sm border-collapse">
+              <thead>
+                <tr className="bg-brand-800 text-white">
+                  <th className="px-4 py-3 text-left">Company</th>
+                  <th className="px-4 py-3 text-left">Single Treatment</th>
+                  <th className="px-4 py-3 text-left">Focus</th>
+                  <th className="px-4 py-3 text-left">Contract Required?</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-b border-gray-200 bg-amber-50"><td className="px-4 py-3 font-bold text-brand-900">BuzzSkito</td><td className="px-4 py-3 font-extrabold text-brand-700">From $99</td><td className="px-4 py-3">Mosquitoes &amp; ticks only · 150+ five-star reviews</td><td className="px-4 py-3 text-emerald-700 font-semibold">No — pay per visit</td></tr>
+                <tr className="border-b border-gray-200"><td className="px-4 py-3 font-semibold">Mosquito Man</td><td className="px-4 py-3">~$129+ (varies)</td><td className="px-4 py-3">General pest control franchise, 10+ pest types</td><td className="px-4 py-3 text-amber-700">Often seasonal</td></tr>
+                <tr className="border-b border-gray-200 bg-gray-50"><td className="px-4 py-3 font-semibold">LawnSavers</td><td className="px-4 py-3">$129+ standalone</td><td className="px-4 py-3">Lawn care primary, mosquito as add-on</td><td className="px-4 py-3 text-amber-700">Bundled with lawn plans</td></tr>
+                <tr><td className="px-4 py-3 font-semibold">Mosquito.Buzz</td><td className="px-4 py-3">Custom quote required</td><td className="px-4 py-3">National multi-province franchise</td><td className="px-4 py-3 text-amber-700">Seasonal contracts</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-sm text-gray-500 not-prose">Competitor figures reflect publicly published information for the 2026 season and can change without notice — confirm directly with each provider. Head-to-head breakdowns: <Link href="/buzzskito-vs-mosquitoman" className="text-brand-700 hover:underline">vs Mosquito Man</Link>, <Link href="/buzzskito-vs-lawnsavers" className="text-brand-700 hover:underline">vs LawnSavers</Link>, <Link href="/buzzskito-vs-mosquito-buzz" className="text-brand-700 hover:underline">vs Mosquito.Buzz</Link>.</p>
+
+          <h2>How to Choose a Mosquito Control Company in North York</h2>
+          <p>Whichever company you go with, these are the checks worth making before you hand over a credit card:</p>
+          <ol>
+            <li><strong>Health Canada–approved formulation.</strong> These are the only barrier sprays legal for commercial application in Ontario. Ask what is going on your yard before you book.</li>
+            <li><strong>A licensed applicator doing the work.</strong> Ontario requires a Pesticide Applicator&apos;s Licence for commercial application — not just somewhere in the company, but on the technician who shows up.</li>
+            <li><strong>A written re-treat guarantee.</strong> If rain falls within about an hour of application, the product has not cured. A reputable company re-sprays at no charge; if they will not put that in writing, keep looking.</li>
+            <li><strong>Published pricing.</strong> Companies that require an in-home estimate before naming any number are usually leaving room to price you by your house rather than by your lot.</li>
+            <li><strong>Single-treatment price, not just the seasonal total.</strong> Per-visit cost is the only honest way to compare programs that include different numbers of visits.</li>
+            <li><strong>Local knowledge.</strong> A technician who can tell you which ravine your yard drains toward — Burke Brook, Wilket Creek, the East Don — knows where the adults are actually resting during the day.</li>
+            <li><strong>Tick coverage available.</strong> North York&apos;s ravine corridors carry blacklegged ticks. A mosquito-only provider leaves half the ravine-edge problem untreated.</li>
+          </ol>
+
           <h2>When to Start Treatment</h2>
           <p>In the GTA, mosquito season typically runs from late April through September. The best time to book your first treatment is early-to-mid May, before populations peak. Starting early establishes a protective barrier before breeding cycles accelerate in June and July. <Link href="/blog/mosquito-season-gta-when-does-it-start" className="text-brand-700 hover:underline">Read our full seasonal timing guide</Link>.</p>
 
 
 
           <h2>Compare North York Pest Control Options</h2>
-          <p>Looking at all your North York pest control options? See our specialist guide: <Link href="/pest-control-north-york" className="text-brand-700 hover:underline font-semibold">Pest Control in North York</Link> — explains why a mosquito and tick specialist beats a generalist for the two pests that actually drive North York backyard misery. Or compare top providers head-to-head: <Link href="/best-mosquito-control-companies-north-york" className="text-brand-700 hover:underline font-semibold">Best Mosquito Control Companies in North York 2026</Link>.</p>
+          <p>Looking at all your North York pest control options? See our specialist guide: <Link href="/pest-control-north-york" className="text-brand-700 hover:underline font-semibold">Pest Control in North York</Link> — explains why a mosquito and tick specialist beats a generalist for the two pests that actually drive North York backyard misery. For the wider market, see <Link href="/best-mosquito-control-companies-gta" className="text-brand-700 hover:underline font-semibold">Best Mosquito Control Companies in the GTA</Link>.</p>
           <h2>Related Guides</h2>
           <ul>
             <li><Link href={`/blog/${MOSQUITO_BLOGS.pillar.slug}`} className="text-brand-700 hover:underline">{MOSQUITO_BLOGS.pillar.title}</Link></li>

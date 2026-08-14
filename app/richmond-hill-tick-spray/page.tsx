@@ -17,7 +17,7 @@ const NEIGHBOURHOODS = ['Oak Ridges','Jefferson','Bayview Hill','Mill Pond','Lan
 const FAQS = [
   {
     question: 'How much does tick spray cost in Richmond Hill?',
-    answer: 'Tick spray in Richmond Hill starts from $99 per application. Properties near Lake Wilcox, Jefferson Forest, or the Oak Ridges Trail benefit most from both spring and fall applications. No contracts. Call (289) 216-5030.',
+    answer: 'Tick spray in Richmond Hill starts from $99 per application. Properties near Lake Wilcox, Jefferson Forest, or the Oak Ridges Trail benefit most from the full seasonal program — five treatments spread roughly monthly from May through September — at $597 standalone, or $497 when added to any mosquito plan. No contracts. Call (289) 216-5030.',
   },
   {
     question: 'Why is Richmond Hill considered high-risk for ticks?',
@@ -29,7 +29,7 @@ const FAQS = [
   },
   {
     question: 'When should I schedule tick spray for my Richmond Hill property?',
-    answer: 'The first treatment should go down in late May or early June to catch the dangerous nymph stage — nymphs are tiny (poppy-seed sized) and responsible for most human Lyme disease cases. A second treatment in August or September targets fall adult ticks. Properties near the Moraine or Lake Wilcox should prioritize early-season treatment.',
+    answer: 'Start in May and stay covered through September. BuzzSkito recommends five treatments per season — roughly one a month — because each application leaves up to 30 days of residual protection, so monthly visits are what close the gap rather than leave one open. The May–July stretch matters most: blacklegged nymphs peak then, and because they are poppy-seed sized they are easily missed, which is why they drive most Lyme disease transmission. The later visits carry the barrier into the autumn, when adult ticks re-emerge and stay active into November in mild years. Properties near the Oak Ridges Moraine or Lake Wilcox should get on the schedule early, because deer, mice, and birds keep reintroducing ticks from the Moraine woodland all season. The seasonal tick program is $597 standalone, or $497 when added to any mosquito plan.',
   },
 ]
 
@@ -131,7 +131,7 @@ export default function RichmondHillTickPage() {
 
 
           <h2>Compare Richmond Hill Pest Control Options</h2>
-          <p>Richmond Hill has confirmed blacklegged tick exposure — see our specialist pest control guide: <Link href="/pest-control-richmond-hill" className="text-brand-700 hover:underline font-semibold">Pest Control in Richmond Hill</Link> for why a mosquito and tick specialist delivers better Lyme disease prevention than a general pest company. Compare top mosquito and tick control providers: <Link href="/best-mosquito-control-companies-richmond-hill" className="text-brand-700 hover:underline font-semibold">Best Mosquito Control Companies in Richmond Hill 2026</Link>.</p>
+          <p>Richmond Hill has confirmed blacklegged tick exposure — see our specialist pest control guide: <Link href="/pest-control-richmond-hill" className="text-brand-700 hover:underline font-semibold">Pest Control in Richmond Hill</Link> for why a mosquito and tick specialist delivers better Lyme disease prevention than a general pest company. See our full mosquito programme for the same property: <Link href="/richmond-hill-mosquito-control" className="text-brand-700 hover:underline font-semibold">Mosquito Control in Richmond Hill</Link>.</p>
           <h2>Related Tick Control Guides</h2>
           <ul>
             <li><Link href={`/blog/${TICK_BLOGS.pillar.slug}`} className="text-brand-700 hover:underline">{TICK_BLOGS.pillar.title}</Link></li>

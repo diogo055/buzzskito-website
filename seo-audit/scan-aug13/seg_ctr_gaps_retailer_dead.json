@@ -1,0 +1,32 @@
+[
+ {
+  "q": "thermacell canadian tire",
+  "page": "/blog/thermacell-canada-where-to-buy",
+  "clicks": 9,
+  "impr": 6371,
+  "ctr": 0.14,
+  "pos": 7.64,
+  "lost": 163,
+  "type": "RETAILER_DEAD"
+ },
+ {
+  "q": "canadian tire thermacell",
+  "page": "/blog/thermacell-canada-where-to-buy",
+  "clicks": 1,
+  "impr": 1777,
+  "ctr": 0.06,
+  "pos": 8.86,
+  "lost": 40,
+  "type": "RETAILER_DEAD"
+ },
+ {
+  "q": "mosquito dunks canadian tire",
+  "page": "/blog/mosquito-dunks-canada-guide",
+  "clicks": 4,
+  "impr": 625,
+  "ctr": 0.64,
+  "pos": 5.18,
+  "lost": 30,
+  "type": "RETAILER_DEAD"
+ }
+]

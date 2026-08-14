@@ -8,7 +8,7 @@ import { MOSQUITO_BLOGS } from '@/lib/constants'
 export const metadata: Metadata = buildMetadata({
   title: 'Richmond Hill Mosquito Control 2026 · From $99 · 150+ Five-Star Reviews',
   description:
-    "Richmond Hill's specialist mosquito barrier spray. Health Canada-approved, from $99/treatment, no contracts, BuzzSkito Bite-Free Guarantee. Oak Ridges, Lake Wilcox, Mill Pond, Bayview Hill, Jefferson, Crosby, Doncrest. Call (289) 216-5030.",
+    "Richmond Hill mosquito barrier spray from $99. Health Canada-approved, no contracts, Bite-Free Guarantee. Oak Ridges, Lake Wilcox. (289) 216-5030.",
   canonical: '/richmond-hill-mosquito-control',
 })
 
@@ -32,6 +32,14 @@ const FAQS = [
   {
     question: 'When is the best time to start mosquito treatments in Richmond Hill?',
     answer: "We recommend booking your first treatment in early to mid May. In Richmond Hill, the Oak Ridges Moraine influences local hydrology — snowmelt and spring rains fill moraine recharge ponds and vernal pools along trail corridors, allowing mosquitoes to breed earlier than in lower-lying communities. Getting ahead of the first emergence means far fewer mosquitoes to deal with all season.",
+  },
+  {
+    question: 'Do I have to sign a contract for mosquito control in Richmond Hill?',
+    answer: 'No. BuzzSkito is no-contract in Richmond Hill — book a single treatment from $99, judge it on the results, and stop there with no cancellation fee. If you want continuous coverage instead, seasonal plans run $549 for five visits, $994 for ten, and $2,049 for weekly service through the May–September season. Call (289) 216-5030 for a free Richmond Hill quote.',
+  },
+  {
+    question: 'Can I add tick control to my Richmond Hill mosquito treatment?',
+    answer: 'Yes — and along the Oak Ridges Moraine it is worth doing. Blacklegged ticks, the Lyme disease vector, are established through the Moraine trail corridor that runs across Oak Ridges and Jefferson. Our tick program is five sprays per season: $597 on its own, or $497 when bundled with any mosquito plan. Most Richmond Hill homeowners near the trails book both together.',
   },
 ]
 
@@ -159,8 +167,19 @@ export default function RichmondHillMosquitoPage() {
 
 
 
+          <h2>How to Choose a Mosquito Control Company in Richmond Hill</h2>
+          <p>Several companies spray for mosquitoes in Richmond Hill, and the things that separate them are rarely on the front page of a website. Before booking anyone — us included — check five things:</p>
+          <ol>
+            <li><strong>The formulation.</strong> Only Health Canada&ndash;approved barrier products are legal for commercial application in Ontario. Ask what is going on your property before you book.</li>
+            <li><strong>The applicator&apos;s licence.</strong> Ontario requires a licensed pesticide applicator for commercial application — not just a licensed company, but the person actually holding the sprayer.</li>
+            <li><strong>The guarantee, in writing.</strong> Barrier spray has to dry and bind to the foliage; a downpour straight after an application undercuts it. A reputable company re-treats at no charge. Ours is the BuzzSkito Bite-Free Guarantee.</li>
+            <li><strong>Published pricing.</strong> You should be able to see a number — ours starts at $99 per treatment — without sitting through an in-home estimate to get one.</li>
+            <li><strong>Actual Richmond Hill knowledge.</strong> A technician who can talk about Moraine recharge ponds, the Mill Pond creek corridor, and Lake Wilcox&apos;s marshy margins will find the resting habitat on your lot. One who treats every yard in the GTA identically will not.</li>
+          </ol>
+          <p>Contract terms are the other thing worth reading closely, since they vary widely between providers. BuzzSkito is no-contract: a single treatment from $99, or a seasonal plan, with no cancellation fees either way.</p>
+
           <h2>Compare Richmond Hill Pest Control Options</h2>
-          <p>Looking at all your Richmond Hill pest control options? See our specialist guide: <Link href="/pest-control-richmond-hill" className="text-brand-700 hover:underline font-semibold">Pest Control in Richmond Hill</Link> — explains why a mosquito and tick specialist beats a generalist for the two pests that actually drive Richmond Hill backyard misery. Or compare top providers head-to-head: <Link href="/best-mosquito-control-companies-richmond-hill" className="text-brand-700 hover:underline font-semibold">Best Mosquito Control Companies in Richmond Hill 2026</Link>.</p>
+          <p>Looking at all your Richmond Hill pest control options? See our specialist guide: <Link href="/pest-control-richmond-hill" className="text-brand-700 hover:underline font-semibold">Pest Control in Richmond Hill</Link> — explains why a mosquito and tick specialist beats a generalist for the two pests that actually drive Richmond Hill backyard misery. Or compare top providers head-to-head: <Link href="/best-mosquito-control-companies-gta" className="text-brand-700 hover:underline font-semibold">Best Mosquito Control Companies in the GTA</Link>.</p>
           <h2>Related Guides</h2>
           <ul>
             <li><Link href={`/blog/${MOSQUITO_BLOGS.pillar.slug}`} className="text-brand-700 hover:underline">{MOSQUITO_BLOGS.pillar.title}</Link></li>

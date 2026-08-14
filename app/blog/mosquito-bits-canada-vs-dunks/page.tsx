@@ -73,7 +73,7 @@ const FAQS = [
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'Mosquito Bits Canada price check: $15–$22 per 8 oz at Canadian Tire, Home Depot and Rona. Bits start working in 30 minutes and last 7–14 days; dunks last 30.',
+  description: 'Same BTI, different speed: Bits work in 30 minutes and last 7–14 days, Dunks last 30. Canada: $14.97–$21.49 per 8 oz at Canadian Tire, Home Depot, Rona.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -279,10 +279,10 @@ export default function MosquitoBitsCanadaPage() {
 
           <h2>The Smart Approach: Use Both</h2>
           <p>Most Canadian homeowners with mosquito issues end up using BOTH. The dunk goes in the rain barrel for set-and-forget protection — drop it in May, forget about it until June. The bits container sits in the garden shed for emergency use whenever you discover larvae somewhere unexpected.</p>
-          <p>For a typical GTA backyard with one rain barrel and a few potential standing-water spots, your annual BTI budget is roughly $30: one 6-pack of dunks ($15) covers the rain barrel for the full May–September season, and one 8-oz container of bits ($15–$22) handles every other standing-water situation that comes up.</p>
+          <p>For a typical GTA backyard with one rain barrel and a few potential standing-water spots, your annual BTI budget is roughly $30: one 6-pack of dunks ($15) covers the rain barrel for the full May–September season, and one 8-oz container of bits ($15–$22) handles every other standing-water situation that comes up. That $30 is the cheapest half of the job; for the other half, <Link href="/mosquito-control-cost">what professional mosquito control costs</Link> starts at $99 for a single treatment and scales with lot size. On a typical suburban lot — the kind a <Link href="/markham-mosquito-control">Markham mosquito control</Link> quote covers — the BTI still earns its $30, it just cannot reach the adults.</p>
 
           <h2>Bits + Barrier Spray: The Complete Mosquito Strategy</h2>
-          <p>BTI bits and dunks solve the LARVAL side of mosquito control — but they only work on water you actually treat. Adult mosquitoes flying in from neighbours&rsquo; yards, ravines, and creeks are unaffected. For complete protection in your GTA backyard:</p>
+          <p>BTI bits and dunks solve the LARVAL side of mosquito control — but they only work on water you actually treat. Adult mosquitoes flying in from neighbours&rsquo; yards, ravines, and creeks are unaffected. On the deep, tree-lined lots north of the city this is most of the problem — a sprinkle of bits in the plant saucers does nothing about what is already flying, which is the gap <Link href="/vaughan-mosquito-control">mosquito control in Vaughan</Link> is built to close. For complete protection in your GTA backyard:</p>
           <ol>
             <li><strong>BTI bits/dunks</strong> in any standing water on your property ($30/season)</li>
             <li><strong>Habitat modification</strong> — drain anything you can drain, mow short, clear leaf litter</li>

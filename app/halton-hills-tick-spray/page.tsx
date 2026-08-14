@@ -17,7 +17,7 @@ const NEIGHBOURHOODS = ['Georgetown','Acton','Glen Williams','Norval','Limehouse
 const FAQS = [
   {
     question: 'How much does tick spray cost in Halton Hills?',
-    answer: 'Tick spray in Halton Hills starts from $99 per application. Given the high tick activity near the Credit River, Niagara Escarpment, and Hilton Falls Conservation Area, most Halton Hills properties benefit from both spring and fall treatments. No contracts. Call (289) 216-5030.',
+    answer: 'Tick spray in Halton Hills starts from $99 per application. Given the high tick activity near the Credit River, Niagara Escarpment, and Hilton Falls Conservation Area, most Halton Hills properties are better served by the full seasonal program — five treatments spread roughly monthly from May through September — at $597 standalone, or $497 when added to any mosquito plan. No contracts. Call (289) 216-5030.',
   },
   {
     question: 'Why does Halton Hills have such high tick risk compared to other GTA communities?',
@@ -101,7 +101,7 @@ export default function HaltonHillsTickPage() {
         <div className="max-w-4xl mx-auto prose-brand">
           <h2>Why Tick Spray Is Crucial in Halton Hills</h2>
           <p>Halton Hills is one of the most tick-exposed municipalities in the western GTA, and Halton Region Public Health consistently flags it as a high-risk area. The reason is geography: Halton Hills is crossed by the Credit River from north to south, intersected by Silver Creek, and bordered on the west by the Niagara Escarpment — three separate natural systems that all independently host established blacklegged tick populations. The convergence of these habitats means tick exposure isn't limited to one corner of the municipality. It's region-wide.</p>
-          <p>For Georgetown residents near the Credit River or Silver Creek, and for Acton residents near rural field edges, the risk is not hypothetical. Halton Region's tick surveillance program documents blacklegged tick activity across these areas every season. Ticks in Halton Hills are active from early April through late November — a full eight months of exposure if untreated. For families with children or pets who use the backyard regularly, professional barrier spray applied twice per season is the most effective annual defence against Lyme disease.</p>
+          <p>For Georgetown residents near the Credit River or Silver Creek, and for Acton residents near rural field edges, the risk is not hypothetical. Halton Region's tick surveillance program documents blacklegged tick activity across these areas every season. Ticks in Halton Hills are active from early April through late November — a full eight months of exposure if untreated. For families with children or pets who use the backyard regularly, the most effective annual defence against Lyme disease is a full seasonal barrier program — five treatments spread roughly monthly from May through September. Each application leaves a temporary residual, and deer, mice, and birds keep reintroducing ticks from the escarpment woodlots and river corridors next door, so the barrier has to be renewed rather than set once. Monthly coverage means no multi-month gap through the May–July nymph peak — the stage responsible for most Lyme transmission, and the one homeowners miss because nymphs are the size of a poppy seed — and it carries protection into the autumn, when adult ticks re-emerge and stay active into November in mild years.</p>
 
           <h2>Tick Hotspots in Halton Hills</h2>
           <ul>

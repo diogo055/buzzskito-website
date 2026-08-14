@@ -17,7 +17,7 @@ const NEIGHBOURHOODS = ['Guildwood','West Hill','Highland Creek','Rouge','Malver
 const FAQS = [
   {
     question: 'How much does tick spray cost in Scarborough?',
-    answer: 'Tick spray in Scarborough starts from $99 per application. Properties near Rouge National Urban Park, Highland Creek valley, or any wooded ravine benefit most from both spring and fall treatments. No contracts. Call (289) 216-5030.',
+    answer: 'Tick spray in Scarborough starts from $99 per application. Properties near Rouge National Urban Park, Highland Creek valley, or any wooded ravine benefit most from the full seasonal program — five treatments spread roughly monthly from May through September — at $597 standalone, or $497 when added to any mosquito plan. No contracts. Call (289) 216-5030.',
   },
   {
     question: 'Is Rouge National Urban Park really a high-risk tick area?',
@@ -131,7 +131,7 @@ export default function ScarboroughTickPage() {
 
 
           <h2>Compare Scarborough Pest Control Options</h2>
-          <p>Scarborough has confirmed blacklegged tick exposure — see our specialist pest control guide: <Link href="/pest-control-scarborough" className="text-brand-700 hover:underline font-semibold">Pest Control in Scarborough</Link> for why a mosquito and tick specialist delivers better Lyme disease prevention than a general pest company. Compare top mosquito and tick control providers: <Link href="/best-mosquito-control-companies-scarborough" className="text-brand-700 hover:underline font-semibold">Best Mosquito Control Companies in Scarborough 2026</Link>.</p>
+          <p>Scarborough has confirmed blacklegged tick exposure — see our specialist pest control guide: <Link href="/pest-control-scarborough" className="text-brand-700 hover:underline font-semibold">Pest Control in Scarborough</Link> for why a mosquito and tick specialist delivers better Lyme disease prevention than a general pest company. See our full mosquito programme for the same property: <Link href="/scarborough-mosquito-control" className="text-brand-700 hover:underline font-semibold">Mosquito Control in Scarborough</Link>.</p>
           <h2>Related Tick Control Guides</h2>
           <ul>
             <li><Link href={`/blog/${TICK_BLOGS.pillar.slug}`} className="text-brand-700 hover:underline">{TICK_BLOGS.pillar.title}</Link></li>

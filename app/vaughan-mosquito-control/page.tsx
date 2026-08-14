@@ -9,7 +9,7 @@ import { BUSINESS, MOSQUITO_BLOGS } from '@/lib/constants'
 export const metadata: Metadata = buildMetadata({
   title: 'Vaughan Mosquito Control · From $99 · 150+ 5-Star Reviews',
   description:
-    'Vaughan mosquito control from $99 · 150+ 5-star reviews & free re-spray. Serving Woodbridge, Kleinburg, Thornhill & Maple. Free quote (289) 216-5030.',
+    'Vaughan mosquito control from $99 · 150+ 5-star reviews, no contracts. Compare Vaughan companies on price & coverage. Free quote (289) 216-5030.',
   canonical: '/vaughan-mosquito-control',
 })
 
@@ -29,12 +29,20 @@ const NEIGHBOURHOODS: { name: string; href?: string }[] = [
 ]
 const FAQS = [
   {
+    question: 'Who is the best mosquito control company in Vaughan?',
+    answer: 'Of the Vaughan providers compared on this page, BuzzSkito has the lowest published starting price ($99 per treatment), no contracts, and a 5.0 rating across 150+ Google reviews. Mosquito Man carries more cumulative reviews (900+) but sells seasonal contract programs, and LawnSavers (from $129 per treatment) suits homeowners already on its lawn-care plan. The right pick depends on whether you value price, flexibility, or a bundled lawn service. Call (289) 216-5030 for a free Vaughan quote.',
+  },
+  {
     question: 'How much does mosquito control cost in Vaughan?',
     answer: 'BuzzSkito mosquito treatments in Vaughan start from $99 per application. No contracts. Properties near Boyd Conservation Area, the Humber River, or the Kortright Centre for Conservation typically benefit most from the full seasonal package for continuous protection. Call (289) 216-5030 for a free Vaughan quote.',
   },
   {
     question: 'Why is mosquito pressure so intense near Boyd Conservation Area?',
     answer: "Boyd Conservation Area's Humber River floodplain, seasonal ponds, and dense forest understorey create ideal standing-water breeding habitat. Properties bordering Boyd or backing onto Humber River tributaries in Woodbridge and Islington Woods are typically among the first to see mosquitoes in spring and face the highest seasonal pressure. Professional barrier spray treats the vegetation buffer between your property and these natural areas.",
+  },
+  {
+    question: 'Which Vaughan neighbourhoods need the most mosquito control?',
+    answer: "Kleinburg estate properties with Humber River valley exposure, Woodbridge homes near the Humber, Maple properties along the East Don River corridor, and Thornhill backyards near the Bayview ravines see the highest mosquito pressure. Tick risk is elevated along those same green corridors and along the Oak Ridges Moraine edge, which is why many homeowners in these pockets book mosquito and tick treatment together.",
   },
   {
     question: 'Do the new Vellore Village and Patterson subdivisions have a mosquito problem?',
@@ -191,7 +199,7 @@ export default function VaughanMosquitoPage() {
           <p>Kleinburg village — with its Humber River frontage and Oak Ridges Moraine edge — is one of York Region&apos;s highest-pressure mosquito and tick zones. See our dedicated <Link href="/kleinburg-mosquito-control" className="text-brand-700 hover:underline">Kleinburg mosquito control service</Link> for neighbourhood-specific information.</p>
 
           <h2>Woodbridge, Thornhill &amp; Maple</h2>
-          <p>Woodbridge is Vaughan&apos;s largest and most mosquito-prone community — its Humber River frontage, Boyd Conservation edge, and dense stormwater-pond networks put most homes within flight range of a breeding site. Our <Link href="/woodbridge-mosquito-control" className="text-brand-700 hover:underline">mosquito control in Woodbridge</Link> covers West Woodbridge, Pine Valley, Vellore Village, and Sonoma Heights with the same barrier spray from $99. We also treat every <Link href="/thornhill-mosquito-control" className="text-brand-700 hover:underline">Thornhill</Link> street plus the Maple, Concord, and Patterson subdivisions — same crew, same Bite-Free Guarantee.</p>
+          <p>Woodbridge is Vaughan&apos;s largest and most mosquito-prone community — its Humber River frontage, Boyd Conservation edge, and dense stormwater-pond networks put most homes within flight range of a breeding site. Our <Link href="/woodbridge-mosquito-control" className="text-brand-700 hover:underline">mosquito control in Woodbridge</Link> covers West Woodbridge, Pine Valley, Vellore Village, and Sonoma Heights with the same barrier spray from $99. We also treat every <Link href="/thornhill-mosquito-control" className="text-brand-700 hover:underline">Thornhill</Link> street plus the Maple, Concord, and Patterson subdivisions — same crew, same Bite-Free Guarantee. The East Don River corridor through Maple and the Bayview ravine system behind Thornhill drive the same ravine-fed pressure as the Humber-side communities, so those streets are treated on the same schedule — and the tick risk along those corridors is why many of these homes bundle both services.</p>
 
           <h2>Also Providing Tick Control in Vaughan</h2>
           <p>Boyd Conservation Area, the Kortright Centre, and the Humber River valley are confirmed blacklegged tick habitat zones in York Region. If your property is near these areas, tick risk is real. Ask about our <Link href={TICK_SLUG} className="text-brand-700 hover:underline">Vaughan tick spray service</Link> — most homeowners bundle both treatments for complete yard protection. For the full local picture, read our guide to <Link href="/blog/tick-control-vaughan-king-city-woodbridge" className="text-brand-700 hover:underline">tick control across Vaughan, King City &amp; Woodbridge</Link>, and King City homeowners can book directly through our <Link href="/king-city-tick-spray" className="text-brand-700 hover:underline">King City tick spray service</Link>.</p>
@@ -218,6 +226,55 @@ export default function VaughanMosquitoPage() {
             </table>
           </div>
           <p className="text-sm text-gray-500 not-prose">Pricing is for standard residential lots up to 10,000 sq ft. Larger properties receive custom quotes. <Link href="/mosquito-control-pricing" className="text-brand-700 hover:underline">See full pricing details</Link> or <Link href="/free-yard-assessment" className="text-brand-700 hover:underline">get a free quote</Link>.</p>
+
+          <h2 id="compare-vaughan-companies">How BuzzSkito Compares to Other Vaughan Mosquito Control Companies</h2>
+          <p>Vaughan homeowners in Woodbridge, Kleinburg, Maple, Thornhill, and Concord have several professional options. Here is an honest side-by-side based on publicly available pricing, Google reviews, and Vaughan service offerings — no affiliate links, no paid placements.</p>
+          <div className="not-prose overflow-x-auto my-6">
+            <table className="w-full text-sm border-collapse">
+              <thead>
+                <tr className="bg-brand-800 text-white">
+                  <th className="px-4 py-3 text-left">Company</th>
+                  <th className="px-4 py-3 text-left">Starting Price</th>
+                  <th className="px-4 py-3 text-left">Reviews</th>
+                  <th className="px-4 py-3 text-left">Contracts</th>
+                  <th className="px-4 py-3 text-left">Vaughan Coverage</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  { company: 'BuzzSkito', price: 'From $99', reviews: '150+ (5.0★)', contracts: 'No contracts', area: 'All Vaughan' },
+                  { company: 'Mosquito Man', price: 'Quote-based', reviews: '900+ (4.8★)', contracts: 'Seasonal', area: 'All Vaughan' },
+                  { company: 'Mosquito.Buzz', price: 'Quote-based', reviews: 'Varies by franchisee', contracts: 'Seasonal', area: 'Franchise' },
+                  { company: 'LawnSavers', price: 'From $129', reviews: '500+ combined', contracts: 'Seasonal', area: 'Vaughan' },
+                ].map(({ company, price, reviews, contracts, area }) => (
+                  <tr key={company} className="border-b border-gray-200 even:bg-gray-50">
+                    <td className="px-4 py-3 font-semibold text-brand-800">{company}</td>
+                    <td className="px-4 py-3 font-extrabold text-brand-700">{price}</td>
+                    <td className="px-4 py-3 text-gray-600">{reviews}</td>
+                    <td className="px-4 py-3 text-gray-600">{contracts}</td>
+                    <td className="px-4 py-3 text-gray-600">{area}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-sm text-gray-500 not-prose mb-8">Competitor figures reflect publicly available rates and review counts. Large Kleinburg and Maple estate lots price above the base rate with every provider — always confirm your tier before booking. Compare the whole region in our <Link href="/best-mosquito-control-companies-gta" className="text-brand-700 hover:underline">GTA-wide provider comparison</Link>.</p>
+
+          <h3>What to Check Before Booking Any Vaughan Company</h3>
+          <div className="not-prose grid sm:grid-cols-2 gap-4 mb-8">
+            {[
+              { title: 'Licensed Applicator', desc: 'An Ontario Pesticide Applicator\'s Licence is mandatory for barrier spray. Ask to see it.' },
+              { title: 'Health Canada PCP Registration', desc: 'Every product applied to your yard needs a valid PCP number — confirm it before booking.' },
+              { title: 'Vaughan Coverage Confirmation', desc: 'Check they actually service Kleinburg, Maple, or Thornhill — some "GTA-wide" providers limit their Vaughan routes.' },
+              { title: 'Large-Lot Pricing Tier', desc: 'Kleinburg and Maple estate lots run past the standard 10,000 sq ft band. Get the tier in writing upfront.' },
+              { title: 'Re-Treatment Guarantee', desc: 'Ask whether a free re-spray is included if mosquitoes return inside the protection window. Ours is — the Bite-Free Guarantee.' },
+            ].map(({ title, desc }) => (
+              <div key={title} className="bg-brand-50 rounded-xl p-5 border border-brand-100">
+                <h4 className="font-bold text-brand-900 mb-2">{title}</h4>
+                <p className="text-sm text-gray-600">{desc}</p>
+              </div>
+            ))}
+          </div>
 
           <h2>Why Professional Treatment Outperforms DIY</h2>
           <p>Citronella candles, essential oil sprays, and consumer foggers provide temporary relief in a small radius — typically 30 minutes to 2 hours in the immediate area of use. Professional barrier spray treats every resting surface on your entire property, creating a residual barrier that kills mosquitoes on contact for up to 30 days. The difference is coverage and duration: DIY products address symptoms; barrier spray addresses the source of activity on your lot.</p>
@@ -268,7 +325,7 @@ export default function VaughanMosquitoPage() {
           {/* Related Guides */}
 
           <h2>Compare Vaughan Pest Control Options</h2>
-          <p>Looking at all your Vaughan pest control options? See our specialist guide: <Link href="/pest-control-vaughan" className="text-brand-700 hover:underline font-semibold">Pest Control in Vaughan</Link> — explains why a mosquito and tick specialist beats a generalist for the two pests that actually drive Vaughan backyard misery. Or compare top providers head-to-head: <Link href="/best-mosquito-control-companies-vaughan" className="text-brand-700 hover:underline font-semibold">Best Mosquito Control Companies in Vaughan 2026</Link>.</p>
+          <p>Looking at all your Vaughan pest control options? See our specialist guide: <Link href="/pest-control-vaughan" className="text-brand-700 hover:underline font-semibold">Pest Control in Vaughan</Link> — explains why a mosquito and tick specialist beats a generalist for the two pests that actually drive Vaughan backyard misery. Comparing providers instead? Jump to our <a href="#compare-vaughan-companies" className="text-brand-700 hover:underline font-semibold">side-by-side comparison of Vaughan mosquito control companies</a> above.</p>
           <h2>Related Guides</h2>
           <ul>
             <li><Link href={`/blog/${MOSQUITO_BLOGS.pillar.slug}`} className="text-brand-700 hover:underline">{MOSQUITO_BLOGS.pillar.title}</Link></li>
@@ -321,7 +378,7 @@ export default function VaughanMosquitoPage() {
             ))}
           </div>
           <p className="text-center mt-8 text-sm text-gray-500">
-            Shopping around? See our honest <Link href="/best-mosquito-control-companies-vaughan" className="text-brand-700 underline hover:text-brand-500">2026 Vaughan mosquito control comparison</Link> — pricing, reviews, contracts side by side.
+            Shopping around? See our honest <a href="#compare-vaughan-companies" className="text-brand-700 underline hover:text-brand-500">Vaughan mosquito control comparison</a> — pricing, reviews, and contracts side by side.
           </p>
         </div>
       </section>

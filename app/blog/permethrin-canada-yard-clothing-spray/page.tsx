@@ -84,7 +84,7 @@ const FAQS = [
 
 export const metadata: Metadata = buildMetadata({
   title: 'Permethrin Spray Canada: Legal? Where to Buy',
-  description: 'Permethrin spray is legal in Canada for clothing — Sawyer 0.5%, $24–$38 for 24 oz — but yard concentrate is licensed-applicator only. Where to buy it.',
+  description: 'Yes — permethrin is legal in Canada: Sawyer 0.5% clothing spray, $24–$38, at Canadian Tire, MEC, Cabela\'s. Yard concentrate needs a licensed applicator.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -313,7 +313,7 @@ export default function PermethrinCanadaPage() {
 
           <h2>The Licensed-Applicator Alternative for Whole-Yard Treatment</h2>
           <p>If you want yard-wide tick and mosquito protection (not just clothing), the only legal residential option in Ontario is hiring a licensed pesticide operator. Licensed Ontario applicators use Health Canada-approved formulations (typically bifenthrin or deltamethrin-based) that provide 21–30 days of residual yard protection per treatment.</p>
-          <p>BuzzSkito is licensed under Ontario Pesticide Operator Licence #L-240-2436835197 and provides residential mosquito and tick barrier spray across the GTA. Single treatments start at $99; seasonal programs cover the full May–September season with bi-weekly or weekly applications. <Link href="/mosquito-control">Get a free quote for your property →</Link></p>
+          <p>BuzzSkito is licensed under Ontario Pesticide Operator Licence #L-240-2436835197 and provides residential mosquito and tick barrier spray across the GTA. Single treatments start at $99; seasonal mosquito programs cover the full May–September season with bi-weekly or weekly applications, and the seasonal tick program runs 5 sprays. The properties that need it most are the ones backing onto the same escarpment and moraine habitat you would spray your hiking pants for &mdash; our <Link href="/caledon-tick-spray">tick spray in Caledon</Link> and <Link href="/burlington-tick-spray">Burlington tick control</Link> pages show what a yard treatment covers on those lots. <Link href="/mosquito-control">Get a free quote for your property →</Link></p>
 
           <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
             <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Or let us handle it</h3>
@@ -347,6 +347,7 @@ export default function PermethrinCanadaPage() {
             <li><strong>BTI dunks/bits</strong> in any standing water on your property</li>
             <li><strong>Professional barrier spray</strong> for whole-yard residual protection</li>
           </ol>
+          <p>Layer five is the only one that protects the ground rather than the person walking over it. Where a ravine or woodlot runs right behind the fence line &mdash; the highest-exposure setup our <Link href="/toronto-tick-spray">Toronto tick spray</Link> page describes &mdash; permethrin-treated clothing keeps the hiker safe but does nothing for kids playing on the lawn.</p>
           <p>Each of those five layers is its own buying decision, and the products we have vetted for Canadian availability and PMRA registration — skin repellents, treated clothing, larvicides, area devices — are sorted by pest in our <Link href="/pest-product-guides">guide to Canadian pest control products</Link>.</p>
           <p>There is a sixth layer that uses no chemistry at all: a physical barrier. Permethrin protects the clothing you are wearing, but it does nothing for the two hours you sit still at a picnic table — and mesh does that job perfectly, with nothing to reapply and no PMRA registration to think about. If you eat outdoors at a campsite, a dock, or a cottage deck, a <Link href="/blog/best-screen-tent-canada">screen tent or screen house</Link> is the cheapest reliable bite-free zone you can buy, and it works on black flies too, which repellents handle noticeably worse.</p>
           <p>Notice what is <em>not</em> on that list: a UV bug trap. They are the most-advertised backyard device in Canada and the least useful layer here — independent trap studies put mosquitoes under 5% of a UV trap&rsquo;s catch, and ticks are not attracted to light at all. If one is on your shortlist anyway, read <Link href="/blog/dynatrap-canada-review">whether DynaTraps actually work on mosquitoes</Link> before you spend the money.</p>

@@ -18,11 +18,11 @@ export const metadata: Metadata = buildMetadata({
 const FAQS = [
   { question: 'Are ticks active in winter in Ontario?', answer: 'Surprisingly, yes — blacklegged ticks remain active on days when temperatures exceed 4°C, even in winter. Unlike most Ontario insects, they don\'t die off in cold weather. This is why blacklegged ticks can be encountered on warm February or March days. American dog ticks and most other species do become dormant in winter.' },
   { question: 'What month has the most tick bites in Ontario?', answer: 'May and June see the highest rate of Lyme disease transmission in Ontario due to the emergence of nymph ticks, which are tiny and difficult to detect. Adult tick activity peaks again in September and October. Both windows require vigilance and ideally professional yard treatment.' },
-  { question: 'When should I get my first tick treatment of the season?', answer: 'Late May is the optimal timing for your first professional tick treatment in the GTA — coinciding with the emergence of nymphs (the highest-risk life stage) before they become established in your yard. Your second treatment should be scheduled for late August or early September.' },
+  { question: 'When should I get my first tick treatment of the season?', answer: 'May is the optimal timing for your first professional tick treatment in the GTA — laying the barrier down before nymphs (the highest-risk life stage) start questing in earnest. That first visit is the opener of a five-treatment season: applications run roughly one a month from May through September, because each one leaves up to 30 days of residual and wildlife keeps carrying fresh ticks in from adjacent woodland. BuzzSkito prices the full five-treatment tick season at $597 standalone, or $497 when added to any mosquito plan.' },
   { question: 'When do ticks come out in Ontario?', answer: 'Blacklegged ticks become active any time the temperature rises above roughly 4°C, so across most of Ontario they emerge as early as March or April once the snow melts. The first major surge is the May–June nymph season, the highest-risk window for Lyme disease. Because adults can appear on mild winter days too, treat any above-freezing time outdoors as possible tick weather.' },
   { question: 'When do ticks go away or die off in Ontario?', answer: 'Blacklegged ticks do not truly die off — adults stay active into November and re-emerge on any winter day above about 4°C, sheltering under leaf litter and snow during hard frost rather than dying. American dog ticks and most other species do become dormant for winter. Practically, peak risk winds down after the fall adult surge, but in Ontario vigilance never fully ends.' },
   { question: 'Are ticks active at night?', answer: 'Yes — unlike mosquitoes, ticks do not follow a day-night cycle. They quest for hosts whenever conditions are humid and mild enough, day or night. Ticks wait on grass and low vegetation for a host to brush past rather than actively hunting, so a dusk or nighttime walk through tall grass carries the same risk as a midday one. Always do a tick check after any time outdoors.' },
-  { question: 'When is peak tick season in Ontario?', answer: 'Ontario has two peaks. The highest-risk window is the May–June nymph season, when poppy-seed-sized nymphs emerge and cause most Lyme disease cases. A second peak arrives in September–October as adult blacklegged ticks become active before frost. Both windows call for daily tick checks and, ideally, professional yard treatment timed to late May and late August.' },
+  { question: 'When is peak tick season in Ontario?', answer: 'Ontario has two peaks. The highest-risk window is the May–June nymph season, when poppy-seed-sized nymphs emerge and cause most Lyme disease cases. A second peak arrives in September–October as adult blacklegged ticks become active before frost. Both windows call for daily tick checks and, ideally, professional yard treatment across the whole season — five applications spread roughly monthly from May through September, since each one holds for up to 30 days.' },
   { question: 'At what temperature do ticks become inactive?', answer: 'Blacklegged ticks generally go dormant once temperatures fall below about 4°C, which is why they can surprise people on mild winter days above that threshold. Cold does not kill them — they shelter under leaf litter and snow and resume questing whenever it warms up. Sustained hard frost reduces activity, but a single winter thaw can bring adults back out looking for a host.' },
 ]
 
@@ -56,7 +56,7 @@ export default function TickSeasonPage() {
             <li>The May&ndash;June nymph season is the highest-risk window and causes the majority of Ontario Lyme disease cases.</li>
             <li>Adult blacklegged ticks peak again in September&ndash;October and stay active until hard frost, into November.</li>
             <li>American dog ticks and most other species go dormant in winter, but blacklegged ticks never truly die off.</li>
-            <li>BuzzSkito&rsquo;s two-treatment program (late May plus late August/September) delivers up to 30 days of residual protection each, covering both peaks.</li>
+            <li>BuzzSkito&rsquo;s tick season is five treatments, roughly one a month from May through September &mdash; each delivers up to 30 days of residual, so the barrier never lapses across either peak.</li>
           </ul>
           <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
         </div>
@@ -66,7 +66,7 @@ export default function TickSeasonPage() {
         </p>
 
         <h2>The Key Distinction: Two Tick Seasons in Ontario</h2>
-        <p>Ontario's most dangerous tick — the blacklegged tick — has two distinct peak activity periods, driven by its lifecycle. This is why we recommend <strong>two professional tick treatments per season</strong>, not one.</p>
+        <p>Ontario's most dangerous tick — the blacklegged tick — has two distinct peak activity periods, driven by its lifecycle. Two peaks with months of activity in between is exactly why we run <strong>five professional tick treatments per season</strong>, roughly one a month from May through September, rather than a spring-and-fall pair.</p>
         <div className="not-prose grid grid-cols-1 sm:grid-cols-2 gap-5 my-6">
           <div className="bg-amber-50 border-2 border-amber-300 rounded-2xl p-6">
             <div className="font-extrabold text-amber-800 text-lg mb-2">⚠️ Spring Peak — May/June</div>
@@ -115,13 +115,17 @@ export default function TickSeasonPage() {
           </table>
         </div>
 
-        <h2>Why Two Treatments Cover Both Peak Windows</h2>
-        <p>BuzzSkito's recommended two-treatment tick control program is deliberately timed to cover both peak risk periods:</p>
+        <h2>How a Five-Treatment Season Covers Both Peak Windows</h2>
+        <p>BuzzSkito's recommended tick control program is five treatments spread roughly monthly from May through September. Each application leaves up to 30 days of residual on the vegetation where ticks quest, so a monthly cadence is what keeps the barrier continuous — across both peaks and the active months in between:</p>
         <ul>
-          <li><strong>Treatment 1 — Late May / Early June:</strong> Targets nymphs as they emerge. Each treatment provides up to 30 days of residual protection, covering the entire nymph season through summer.</li>
-          <li><strong>Treatment 2 — Late August / September:</strong> Applied before the adult emergence peak, ensuring protection is active through the full fall tick season into November.</li>
+          <li><strong>Treatment 1 — May:</strong> The season opener. Lays the barrier down at the property edge as nymphs begin emerging, ahead of Ontario's highest-risk Lyme window.</li>
+          <li><strong>Treatment 2 — June:</strong> Nymph peak. Poppy-seed-sized nymphs drive most Lyme transmission precisely because they are so easily missed on skin.</li>
+          <li><strong>Treatment 3 — July:</strong> Renews the barrier as the previous application's residual runs out, through the tail of nymph season.</li>
+          <li><strong>Treatment 4 — August:</strong> Holds coverage as the first new adults begin emerging, and against ticks carried back in from neighbouring woodland.</li>
+          <li><strong>Treatment 5 — September:</strong> Timed to the adult surge, with residual carrying into October as adults stay active toward frost.</li>
         </ul>
-        <p>Together, these two treatments provide coverage from late May through November — the complete active tick season for Ontario's blacklegged tick population.</p>
+        <p>The reason it is five and not two comes down to residual and re-infestation. Up to 30 days of protection per application means a spring-and-fall pair stops working within a month of each visit, leaving a multi-month hole from early summer onward — including the tail of nymph season, when the poppy-seed-sized nymphs that drive most Lyme transmission are still questing and easily missed. And because deer, mice, and birds keep moving ticks in from adjacent woodland all summer, the barrier has to be renewed rather than applied once or twice. Adults remain active into November in mild years, so keep up daily tick checks after the final visit even while the September residual is still working.</p>
+        <p>A full five-treatment tick season is <strong>$597</strong> standalone, or <strong>$497</strong> added to any mosquito plan — a $100 saving. A single one-off treatment starts at $99 if you would rather see the results before committing to the season.</p>
         <p>Local calendars shift a little either side of that provincial average. In Oakville, the 16 Mile Creek corridor and Bronte Creek Provincial Park keep ticks active from roughly mid-March into November, which changes when the first treatment should land — the month-by-month version is in <Link href="/blog/tick-season-oakville-when-are-ticks-active" className="text-brand-700 hover:underline">the Oakville tick season breakdown</Link>.</p>
 
         <h2>Frequently Asked Questions</h2>

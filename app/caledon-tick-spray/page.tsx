@@ -17,7 +17,7 @@ const NEIGHBOURHOODS = ['Bolton','Caledon East','Caledon Village','Palgrave','In
 const FAQS = [
   {
     question: 'How much does tick spray cost in Caledon?',
-    answer: 'Tick spray in Caledon starts from $99 per application. Given Caledon\'s high tick activity near Forks of the Credit Provincial Park, the Bruce Trail, and the Niagara Escarpment, most properties benefit from both spring and fall treatments. No contracts. Call (289) 216-5030.',
+    answer: 'Tick spray in Caledon starts from $99 per application. Given Caledon\'s high tick activity near Forks of the Credit Provincial Park, the Bruce Trail, and the Niagara Escarpment, most properties are best covered by the full seasonal program — five treatments spaced roughly monthly from May through September, because each application holds up to 30 days of residual and monthly spacing is what removes the gap. The season program is $597 standalone, or $497 when added to a mosquito plan. No contracts. Call (289) 216-5030.',
   },
   {
     question: 'Why does Caledon have some of the highest tick activity in the GTA?',
@@ -29,7 +29,7 @@ const FAQS = [
   },
   {
     question: 'Is Forks of the Credit Provincial Park near my Caledon property a tick risk?',
-    answer: 'Yes. Forks of the Credit Provincial Park is documented tick habitat — any property within several kilometres of the park, particularly those with deer-accessible yard space, faces annual tick pressure. The Caledon Trailway also passes through tick-active areas. BuzzSkito recommends properties near the park and trailway schedule a spring treatment in late May and a follow-up in August.',
+    answer: 'Yes. Forks of the Credit Provincial Park is documented tick habitat — any property within several kilometres of the park, particularly those with deer-accessible yard space, faces annual tick pressure. The Caledon Trailway also passes through tick-active areas. BuzzSkito recommends properties near the park and trailway run the full seasonal program — five treatments spaced roughly monthly from May through September. Each application leaves up to 30 days of residual, so monthly spacing keeps the barrier continuous through peak nymph season in May, June, and July, and through the adults that stay active into the autumn. Deer moving off the park and trailway reintroduce ticks all season, so the barrier has to be renewed rather than applied once or twice.',
   },
 ]
 

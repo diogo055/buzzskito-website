@@ -54,7 +54,7 @@ const FAQS = [
   },
   {
     question: 'Are there any bug zappers worth buying in Canada?',
-    answer: 'For specific use cases, yes: (1) Handheld electric racket zappers ($15–$30) — surprisingly effective for swatting individual mosquitoes you can see, satisfying for the occasional house mosquito; (2) Restaurant-grade indoor commercial zappers (Vector, Genus) for fly control in kitchens — these are designed for flies, not mosquitoes; (3) Small outdoor zappers as supplemental devices on cottage decks combined with proper mosquito control. For mosquito-specific yard control, save your money and invest in <Link href="/mosquito-control">professional barrier spray</Link> instead — the cost is comparable and the effectiveness is dramatically better.',
+    answer: 'For specific use cases, yes: (1) Handheld electric racket zappers ($15–$30) — surprisingly effective for swatting individual mosquitoes you can see, satisfying for the occasional house mosquito; (2) Restaurant-grade indoor commercial zappers (Vector, Genus) for fly control in kitchens — these are designed for flies, not mosquitoes; (3) Small outdoor zappers as supplemental devices on cottage decks combined with proper mosquito control. For mosquito-specific yard control, save your money and invest in professional barrier spray instead — the cost is comparable and the effectiveness is dramatically better.',
   },
   {
     question: 'What are the best bug zappers in Canada in 2026?',
@@ -72,7 +72,7 @@ const FAQS = [
 
 export const metadata: Metadata = buildMetadata({
   title: 'Best Bug Zapper Canada 2026: 5 Ranked + Prices',
-  description: 'Best bug zapper picks for Canada 2026: 5 models ranked, $15 to $169, coverage by yard size — and the research on why only 0.13-4% of the catch is mosquitoes.',
+  description: '5 bug zappers ranked for Canada 2026, $15–$169 by yard size — plus the research on why only 0.13–4% of the catch is mosquitoes. What to buy, what to skip.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -98,7 +98,7 @@ export default function BugZappersCanadaPage() {
             <span className="text-white">Bug Zappers Canada</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
-          <p className="text-xl text-brand-100 max-w-3xl">The peer-reviewed research, the cost in Canada, and the surprising truth: bug zappers kill mostly moths and beetles — not the mosquitoes biting you.</p>
+          <p className="text-xl text-brand-100 max-w-3xl">The five zappers Canadians actually buy, ranked from $15 to $169 — plus the peer-reviewed research and the surprising truth: bug zappers kill mostly moths and beetles, not the mosquitoes biting you.</p>
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
@@ -324,7 +324,7 @@ export default function BugZappersCanadaPage() {
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="flowtron bug zapper outdoor">Check Flowtron price on Amazon.ca →</BuyLink>
           </div>
-          <p><strong>Reality check:</strong> none of these will noticeably reduce the mosquitoes biting you &mdash; that isn&rsquo;t what they&rsquo;re built for. If mosquitoes are the actual problem, a <Link href="/blog/thermacell-canada-where-to-buy">Thermacell patio zone</Link>, a same-day knockdown from a <Link href="/blog/mosquito-fogger-canada">mosquito fogger</Link>, or licensed <Link href="/mosquito-control">barrier spray</Link> will do more in one evening than a season of zapping moths.</p>
+          <p><strong>Reality check:</strong> none of these will noticeably reduce the mosquitoes biting you &mdash; that isn&rsquo;t what they&rsquo;re built for. If mosquitoes are the actual problem, a <Link href="/blog/thermacell-canada-where-to-buy">Thermacell patio zone</Link>, a same-day knockdown from a <Link href="/blog/mosquito-fogger-canada">mosquito fogger</Link>, or licensed <Link href="/mosquito-control">barrier spray</Link> will do more in one evening than a season of zapping moths. Across the GTA that spray is the treatment we run ourselves, from <Link href="/oakville-mosquito-control">mosquito control in Oakville</Link> to the rest of our Mississauga-based service area.</p>
 
           <h2>Solar &amp; Outdoor Bug Zappers: Do They Work?</h2>
           <p>Solar bug zappers have taken off because they need no outlet &mdash; you stake one anywhere in the yard and a small panel charges a battery by day to run the UV light and electric grid after dark. For cordless placement (a far corner of the lot, a dock, a campsite) they&rsquo;re genuinely handy. Two honest caveats for Canadian yards: (1) the UV output on budget solar units is weak, so the kill radius is a few metres, not a whole yard; and (2) after a cloudy GTA day the battery may only run a couple of hours before it dies. Like every zapper, they catch mostly moths and gnats &mdash; not the female mosquitoes that actually bite.</p>
@@ -374,7 +374,7 @@ export default function BugZappersCanadaPage() {
           <p>If your goal is fewer mosquito bites in your Canadian backyard, the effective tools are:</p>
           <ol>
             <li><strong>Eliminate breeding water</strong> — drain anything you can, treat permanent water with <Link href="/blog/mosquito-dunks-canada-guide">BTI dunks</Link> ($15/season)</li>
-            <li><strong>Whole-yard barrier spray</strong> — <Link href="/mosquito-control">BuzzSkito&rsquo;s licensed application</Link> treats vegetation with Health Canada-approved residual formula. Mosquitoes resting on leaves die on contact for 21–30 days per treatment. Also kills ticks. ~$99 per treatment, $549–$994 for full-season programs.</li>
+            <li><strong>Whole-yard barrier spray</strong> — <Link href="/mosquito-control">BuzzSkito&rsquo;s licensed application</Link> treats vegetation with Health Canada-approved residual formula. Mosquitoes resting on leaves die on contact for 21–30 days per treatment. Also kills ticks. ~$99 per treatment, $549–$994 for full-season programs — GTA homeowners can book the same treatment locally, including <Link href="/vaughan-mosquito-control">mosquito control in Vaughan</Link>.</li>
             <li><strong>Patio repellent zone</strong> — <Link href="/blog/thermacell-canada-where-to-buy">Thermacell</Link> creates a 4.5m mosquito-free bubble around your seating</li>
             <li><strong>Personal repellent</strong> — <Link href="/blog/picaridin-vs-deet-canada">picaridin or DEET</Link> on exposed skin for active outdoor use</li>
             <li><strong>Cottage/rural CO₂ trap</strong> — <Link href="/blog/mosquito-magnet-canada">Mosquito Magnet</Link> for properties with chronic high populations</li>
@@ -392,6 +392,7 @@ export default function BugZappersCanadaPage() {
               <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Professional barrier spray</strong></td><td className="px-3 py-2">$549–$994/season</td><td className="px-3 py-2">Whole yard 21–30 days</td><td className="px-3 py-2">Low (targeted)</td></tr>
             </tbody>
           </table>
+          <p>Barrier spray is the only row in that table that treats the whole property rather than one device radius, which is also why it is the only one priced by lot size rather than by unit — the full breakdown of <Link href="/mosquito-control-cost">what mosquito control costs in Ontario</Link> shows how a season program scales from a standard lot upward.</p>
 
           <h2>The Indoor Racket Zapper Exception</h2>
           <p>One bug-zapper format does work: handheld electric racket zappers (Black Flag Executioner, Stinger Indoor Racket, etc.). These look like badminton rackets with electrified mesh. When a mosquito gets inside your house, you can swat it manually — the electrified mesh kills on contact. Costs $15–$30, available at Canadian Tire, Home Depot, Walmart, Dollarama. Lasts years. Genuinely useful for the occasional indoor mosquito. We&rsquo;ve ranked the models worth buying in our <Link href="/blog/electric-fly-swatter-canada">electric fly swatter Canada guide</Link>.</p>
@@ -414,6 +415,25 @@ export default function BugZappersCanadaPage() {
           </ul>
         </div>
       </article>
+
+      <section className="py-10 px-4 bg-brand-50">
+        <div className="max-w-3xl mx-auto">
+          <h2 className="text-2xl font-extrabold text-brand-900 mb-6">Bug Zapper FAQ</h2>
+          <div className="space-y-3">
+            {FAQS.map(({ question, answer }) => (
+              <details key={question} className="bg-white rounded-xl border border-brand-100 group">
+                <summary className="cursor-pointer px-5 py-4 font-semibold text-brand-900 list-none flex justify-between items-center">
+                  <span>{question}</span>
+                  <svg className="w-5 h-5 shrink-0 group-open:rotate-180 transition-transform text-brand-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                  </svg>
+                </summary>
+                <p className="px-5 pb-4 text-gray-600 text-sm">{answer}</p>
+              </details>
+            ))}
+          </div>
+        </div>
+      </section>
 
       <CTASection heading="Stop Killing Moths · Start Killing Mosquitoes" subtext="Get a free quote for licensed barrier spray. From $99. Health Canada approved. Whole-yard 30-day residual coverage." variant="dark" />
     </>

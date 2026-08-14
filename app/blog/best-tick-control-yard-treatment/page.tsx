@@ -69,7 +69,7 @@ export default function BestTickControlPage() {
             <li>The professional formula kills adult ticks, nymphs, and larvae on contact, not just adults.</li>
             <li>Consumer DIY tick sprays last only 1&ndash;14 days; granular treatments last about 1&ndash;4 weeks.</li>
             <li>Tick tubes (Damminix) target larvae only and work seasonally, while cedar mulch barriers are a deterrent only.</li>
-            <li>A layered plan uses 2 professional treatments per season &mdash; one in spring and one in late summer.</li>
+            <li>A layered plan uses 5 professional treatments per season &mdash; roughly one a month from May through September, so the residual never lapses during nymph peak.</li>
             <li>BuzzSkito backs every tick treatment with a free retreatment guarantee if ticks return within the protection window.</li>
           </ul>
           <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
@@ -165,9 +165,10 @@ export default function BestTickControlPage() {
         <p>The most effective tick control for Ontario homeowners combines:</p>
         <ol>
           <li><strong>Habitat modification</strong> — remove leaf litter, maintain lawn edges, move woodpiles, create mulch barriers at property edges</li>
-          <li><strong>Professional barrier spray</strong> — 2 treatments per season (spring and late summer) targeting all high-risk zones</li>
+          <li><strong>Professional barrier spray</strong> — 5 treatments per season, roughly one a month from May through September, targeting all high-risk zones</li>
           <li><strong>Personal protection</strong> — tick checks, repellent, appropriate clothing for outdoor activities</li>
         </ol>
+        <p>The five-visit cadence follows from the residual window and the biology. A professional application protects for up to 30 days, so monthly spacing across May to September is what keeps the barrier continuous. Blacklegged tick nymphs — the poppy-seed-sized stage responsible for most Lyme transmission, precisely because they are easy to miss — peak from May through July, and adults come back through the autumn, staying active into November in mild years. Wildlife is the other half of it: deer, mice, and birds reintroduce ticks from adjacent woodland all season, so the yard is being re-seeded continuously. A spring-and-late-summer pair leaves a multi-month gap right through nymph peak; five treatments do not.</p>
 
         <h3>DIY Products That Complement Professional Service</h3>
         <p>Between professional visits, a couple of DIY products round out the layered approach above &mdash; neither replaces a whole-yard barrier treatment, but both are worth keeping on hand:</p>

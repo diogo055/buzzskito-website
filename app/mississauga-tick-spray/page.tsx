@@ -16,9 +16,9 @@ export const metadata: Metadata = buildMetadata({
 const CITY = 'Mississauga'
 const NEIGHBOURHOODS = ['Port Credit','Meadowvale','Streetsville','Malton','Lorne Park','Cooksville','Lakeview','Erin Mills','Clarkson','Churchill Meadows','Mineola','Applewood']
 const FAQS = [
-  { question: 'How much does tick spray cost in Mississauga?', answer: 'Tick spray in Mississauga starts from $99 per application. Properties near the Credit River valley, Rattray Marsh, or Erindale Park benefit most from both spring and fall applications. No contracts. Call (289) 216-5030 for a free Mississauga tick spray quote.' },
+  { question: 'How much does tick spray cost in Mississauga?', answer: 'Tick spray in Mississauga starts from $99 per application. A full season is $597 standalone — five treatments across May through September — or $497 when added to any BuzzSkito mosquito plan, a $100 saving. Properties near the Credit River valley, Rattray Marsh, or Erindale Park benefit most from the full five-visit season, because wildlife moving between the conservation lands and your yard keeps reintroducing ticks all summer. No contracts. Call (289) 216-5030 for a free Mississauga tick spray quote.' },
   { question: 'Where are ticks most common in Mississauga?', answer: 'Ticks are concentrated in Mississauga\'s wooded and transitional areas: the Credit River valley and trail system, Rattray Marsh Conservation Area, Erindale Park, Meadowvale Conservation Area, and the forested edges of many neighbourhoods. Properties backing onto these areas have the highest tick exposure risk.' },
-  { question: 'How often does Mississauga need tick treatment?', answer: 'BuzzSkito recommends two treatments per season: one in late May or June targeting spring nymphs (the most dangerous stage for Lyme disease transmission), and one in August or September targeting adult fall ticks. Our treatments provide up to 30 days of protection each.' },
+  { question: 'How often does Mississauga need tick treatment?', answer: 'BuzzSkito recommends five treatments per season — roughly one a month from May through September. Each treatment provides up to 30 days of protection, so monthly visits keep the barrier continuous rather than leaving a multi-month gap through peak nymph season in May–July, when the poppy-seed-sized nymphs responsible for most Lyme disease transmission are active. The later visits carry protection into the adult tick surge that runs through autumn, into November in mild years. Because deer, mice, and birds keep bringing ticks in from the Credit River corridor and nearby conservation lands, repeated applications are what hold the barrier — a one-off visit cannot.' },
   { question: 'Do ticks really carry Lyme disease in Mississauga?', answer: 'Yes. The blacklegged tick (Ixodes scapularis), which transmits Lyme disease, is established in Mississauga\'s Conservation Areas. Ontario public health data shows increasing Lyme disease cases in the GTA. Professional tick control significantly reduces your risk of exposure.' },
   { question: 'What tick species are found in Mississauga?', answer: 'The blacklegged tick (deer tick) is the primary concern — it transmits Lyme disease and is established along the Credit River corridor and Rattray Marsh. American dog ticks are also common but rarely carry Lyme disease. Blacklegged tick nymphs are poppy-seed-sized and responsible for most Lyme transmissions because they\'re nearly invisible during tick checks.' },
   { question: 'Is tick spray safe for my family and pets?', answer: 'Yes. Our Health Canada-approved formula is safe for children and pets once dry — approximately 30 minutes after application. We apply to vegetation where ticks rest, not to grass or play areas. After the 30-minute drying window, your yard is fully safe with tick protection active.' },
@@ -76,7 +76,7 @@ export default function MississaugaTickPage() {
                   ['Service area', 'All Mississauga neighbourhoods (Port Credit, Meadowvale, Streetsville, Erin Mills, Lorne Park, Clarkson, Cooksville, Lakeview, Churchill Meadows, Mineola, Applewood, Credit Valley)'],
                   ['Specialization', 'Blacklegged tick (Ixodes scapularis) and American dog tick barrier spray'],
                   ['Pricing', 'From $99 per treatment · seasonal tick program $597 standalone or tick add-on bundle available on quote'],
-                  ['Treatment season', 'May through October (peak: late April–June nymph activity, then again Sep–Oct adult activity)'],
+                  ['Treatment season', 'May through September, treated monthly (nymph peak May–July; adult ticks stay active into the autumn)'],
                   ['Protection per visit', 'Up to 30 days residual on tick habitat zones'],
                   ['Re-entry time', '30 minutes after spray dries (kid and pet safe)'],
                   ['Recommended schedule', '5 treatments per season for ravine- or conservation-area-adjacent properties'],
@@ -228,6 +228,7 @@ export default function MississaugaTickPage() {
           </ul>
 
           <h2>Tick Treatment Schedule for Mississauga</h2>
+          <p>The seasonal program is five treatments, roughly one a month from May through September. Each visit holds for up to 30 days, so the barrier never lapses across the months blacklegged ticks are active here:</p>
           <div className="not-prose overflow-x-auto my-4">
             <table className="w-full text-sm border-collapse">
               <thead>
@@ -239,9 +240,11 @@ export default function MississaugaTickPage() {
               </thead>
               <tbody>
                 {[
-                  { t: 'Spring treatment', timing: 'Late May / Early June', target: 'Target nymphs — peak Lyme risk (tiny, hard to detect, most transmissions)' },
-                  { t: 'Summer treatment (optional)', timing: 'Mid-July', target: 'Recommended for Credit River, Rattray Marsh-adjacent properties' },
-                  { t: 'Fall treatment', timing: 'Late August / September', target: 'Target adult ticks before fall activity surge' },
+                  { t: 'Treatment 1', timing: 'May', target: 'Nymph emergence — get ahead of the peak Lyme risk window' },
+                  { t: 'Treatment 2', timing: 'June', target: 'Nymph peak — tiny, hard to detect, responsible for most transmissions' },
+                  { t: 'Treatment 3', timing: 'July', target: 'Late nymph activity, plus ticks carried in from the Credit River and Rattray Marsh' },
+                  { t: 'Treatment 4', timing: 'August', target: 'Barrier renewed as the first new adults begin emerging' },
+                  { t: 'Treatment 5', timing: 'September', target: 'Adult ticks ahead of the autumn surge — active into November in mild years' },
                 ].map(({ t, timing, target }) => (
                   <tr key={t} className="border-b border-gray-200 even:bg-gray-50">
                     <td className="px-4 py-2 font-medium text-gray-800">{t}</td>
@@ -301,7 +304,7 @@ export default function MississaugaTickPage() {
 
 
           <h2>Compare Mississauga Pest Control Options</h2>
-          <p>Mississauga has confirmed blacklegged tick exposure — see our specialist pest control guide: <Link href="/pest-control-mississauga" className="text-brand-700 hover:underline font-semibold">Pest Control in Mississauga</Link> for why a mosquito and tick specialist delivers better Lyme disease prevention than a general pest company. Compare top mosquito and tick control providers: <Link href="/best-mosquito-control-companies-mississauga" className="text-brand-700 hover:underline font-semibold">Best Mosquito Control Companies in Mississauga 2026</Link>.</p>
+          <p>Mississauga has confirmed blacklegged tick exposure — see our specialist pest control guide: <Link href="/pest-control-mississauga" className="text-brand-700 hover:underline font-semibold">Pest Control in Mississauga</Link> for why a mosquito and tick specialist delivers better Lyme disease prevention than a general pest company. See our full mosquito programme for the same property: <Link href="/mississauga-mosquito-control" className="text-brand-700 hover:underline font-semibold">Mosquito Control in Mississauga</Link>.</p>
           <h2>Related Tick Control Guides</h2>
           <ul>
             <li><Link href={`/blog/${TICK_BLOGS.pillar.slug}`} className="text-brand-700 hover:underline">{TICK_BLOGS.pillar.title}</Link></li>

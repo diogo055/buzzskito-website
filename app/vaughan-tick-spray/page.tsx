@@ -18,7 +18,7 @@ const NEIGHBOURHOODS = ['Woodbridge','Kleinburg','Maple','Concord','Thornhill','
 const FAQS = [
   {
     question: 'How much does tick spray cost in Vaughan?',
-    answer: 'Tick spray in Vaughan starts from $99 per application. Properties near Boyd Conservation Area, the Kortright Centre, or the Humber River valley benefit most from both spring and fall applications. No contracts. Call (289) 216-5030.',
+    answer: 'Tick spray in Vaughan starts from $99 per application. Properties near Boyd Conservation Area, the Kortright Centre, or the Humber River valley benefit most from the full seasonal program — five treatments spread roughly monthly from May through September — at $597 standalone, or $497 when added to any mosquito plan. No contracts. Call (289) 216-5030.',
   },
   {
     question: 'Where are ticks most common in Vaughan?',
@@ -30,7 +30,7 @@ const FAQS = [
   },
   {
     question: 'How many tick treatments does a Vaughan property need per year?',
-    answer: 'BuzzSkito recommends two treatments per season for most Vaughan properties: one in late May or early June targeting spring nymphs (the smallest and most dangerous life stage for Lyme disease transmission), and one in August or September targeting fall adult ticks. Each treatment provides up to 30 days of protection.',
+    answer: 'BuzzSkito recommends five treatments per season for most Vaughan properties — one roughly every month from May through September. Each application holds up to 30 days of residual protection, so monthly visits leave no gap through the May–July nymph peak, when the poppy-seed-sized nymphs that drive most Lyme disease transmission are questing at lawn edges, and they carry the barrier into the autumn, when adult ticks re-emerge and stay active into November in mild years. Repeat applications matter because the acaricide residual is temporary and deer, mice, and birds continuously reintroduce ticks from the adjacent conservation woodland — an occasional one-off visit cannot hold that barrier. The seasonal tick program is $597 standalone, or $497 added to any mosquito plan.',
   },
   {
     question: 'Is tick spray safe for my family and pets in Vaughan?',
@@ -99,7 +99,7 @@ export default function VaughanTickPage() {
                   ['Service area', 'All Vaughan neighbourhoods (Woodbridge, Kleinburg, Maple, Concord, Thornhill, Patterson, Vellore Village, Islington Woods, Sonoma Heights)'],
                   ['Specialization', 'Blacklegged tick (Ixodes scapularis) and American dog tick barrier spray'],
                   ['Pricing', 'From $99 per treatment · seasonal tick program $597 standalone or tick add-on bundle available on quote'],
-                  ['Treatment season', 'May through October (peak: late April–June nymph activity, then again Sep–Oct adult activity)'],
+                  ['Treatment season', 'May through September (nymph peak May–July, adult activity resuming into autumn)'],
                   ['Protection per visit', 'Up to 30 days residual on tick habitat zones'],
                   ['Re-entry time', '30 minutes after spray dries (kid and pet safe)'],
                   ['Recommended schedule', '5 treatments per season for ravine- or conservation-area-adjacent properties'],
@@ -190,7 +190,7 @@ export default function VaughanTickPage() {
 
 
           <h2>Compare Vaughan Pest Control Options</h2>
-          <p>Vaughan has confirmed blacklegged tick exposure — see our specialist pest control guide: <Link href="/pest-control-vaughan" className="text-brand-700 hover:underline font-semibold">Pest Control in Vaughan</Link> for why a mosquito and tick specialist delivers better Lyme disease prevention than a general pest company. Compare top mosquito and tick control providers: <Link href="/best-mosquito-control-companies-vaughan" className="text-brand-700 hover:underline font-semibold">Best Mosquito Control Companies in Vaughan 2026</Link>.</p>
+          <p>Vaughan has confirmed blacklegged tick exposure — see our specialist pest control guide: <Link href="/pest-control-vaughan" className="text-brand-700 hover:underline font-semibold">Pest Control in Vaughan</Link> for why a mosquito and tick specialist delivers better Lyme disease prevention than a general pest company. See our full mosquito programme for the same property: <Link href="/vaughan-mosquito-control" className="text-brand-700 hover:underline font-semibold">Mosquito Control in Vaughan</Link>.</p>
           <h2>Related Tick Control Guides</h2>
           <ul>
             <li><Link href={`/blog/${TICK_BLOGS.pillar.slug}`} className="text-brand-700 hover:underline">{TICK_BLOGS.pillar.title}</Link></li>

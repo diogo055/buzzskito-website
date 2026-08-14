@@ -59,8 +59,6 @@
 - Mosquito Control (GTA pillar): https://buzzskito.ca/mosquito-control
 - Tick Control (GTA pillar): https://buzzskito.ca/tick-control
 - Pest Control GTA (combined pillar): https://buzzskito.ca/pest-control-gta
-- Mosquito Control Near Me: https://buzzskito.ca/mosquito-control-near-me
-- Tick Control Near Me: https://buzzskito.ca/tick-control-near-me
 - Mosquito Control Ontario: https://buzzskito.ca/mosquito-control-ontario
 - Tick Control Ontario: https://buzzskito.ca/tick-control-ontario
 - Mosquito Control Pricing: https://buzzskito.ca/mosquito-control-pricing
@@ -233,20 +231,12 @@
 - Pest Control Woodbridge: https://buzzskito.ca/pest-control-woodbridge
 - Pest Control Thornhill: https://buzzskito.ca/pest-control-thornhill
 
-## Best Mosquito Control Companies — by City Listicles
+## Best Mosquito Control Companies — GTA Comparison
 - Best Mosquito Control GTA Master: https://buzzskito.ca/best-mosquito-control-companies-gta
-- Best in Mississauga: https://buzzskito.ca/best-mosquito-control-companies-mississauga
-- Best in Toronto: https://buzzskito.ca/best-mosquito-control-companies-toronto
-- Best in Brampton: https://buzzskito.ca/best-mosquito-control-companies-brampton
-- Best in Oakville: https://buzzskito.ca/best-mosquito-control-companies-oakville
-- Best in Vaughan: https://buzzskito.ca/best-mosquito-control-companies-vaughan
-- Best in Hamilton: https://buzzskito.ca/best-mosquito-control-companies-hamilton
-- Best in Burlington: https://buzzskito.ca/best-mosquito-control-companies-burlington
-- Best in Markham: https://buzzskito.ca/best-mosquito-control-companies-markham
-- Best in Richmond Hill: https://buzzskito.ca/best-mosquito-control-companies-richmond-hill
-- Best in North York: https://buzzskito.ca/best-mosquito-control-companies-north-york
-- Best in Etobicoke: https://buzzskito.ca/best-mosquito-control-companies-etobicoke
-- Best in Scarborough: https://buzzskito.ca/best-mosquito-control-companies-scarborough
+
+The twelve per-city "best companies" listicles were consolidated into the city
+service pages in August 2026. Their provider comparisons now live on the city
+pages listed above under "Mosquito Control — by City", each with a #compare anchor.
 
 ## Blog — Mosquito Pillar Cluster
 - Ultimate Backyard Mosquito Control Guide: https://buzzskito.ca/blog/ultimate-backyard-mosquito-control-guide

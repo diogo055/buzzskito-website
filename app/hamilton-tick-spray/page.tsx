@@ -20,7 +20,7 @@ const NEIGHBOURHOODS = ['Stoney Creek','Dundas','Ancaster','Westdale','Waterdown
 const FAQS = [
   {
     question: 'How much does tick spray cost in Hamilton?',
-    answer: 'Tick spray in Hamilton starts from $99 per application. Properties near the Niagara Escarpment, Dundas Valley Conservation Area, or Cootes Paradise benefit most from both spring and fall treatments. No contracts. Call (289) 216-5030.',
+    answer: 'Tick spray in Hamilton starts from $99 per application. Properties near the Niagara Escarpment, Dundas Valley Conservation Area, or Cootes Paradise benefit most from the seasonal tick program — five treatments spread roughly monthly from May through September, $597 standalone or $497 added to any mosquito plan. No contracts. Call (289) 216-5030.',
   },
   {
     question: 'Is the Dundas Valley a tick risk area?',
@@ -28,7 +28,7 @@ const FAQS = [
   },
   {
     question: 'How many tick treatments per year does a Hamilton property need?',
-    answer: "Two treatments per season provide full coverage: one in May or June targeting spring nymphs (the most dangerous Lyme disease transmission stage — tiny, May–July peak), and one in August or September for fall adult tick emergence. Each treatment provides up to 30 days of residual protection. Properties near the Niagara Escarpment trail system, Dundas Valley, or Cootes Paradise may benefit from a third treatment given Hamilton's elevated tick density.",
+    answer: "Five treatments per season, spread roughly monthly from May through September. Each application holds up to 30 days of residual protection, so monthly visits leave no multi-month gap in the middle of peak nymph season — blacklegged tick nymphs peak from May through July, and because they are poppy-seed sized and easily missed they are the stage that drives most Lyme disease transmission. Adults re-emerge later in the season and stay active into November in mild years, which the August and September visits cover. Deer, mice, and birds moving off the Niagara Escarpment and out of Dundas Valley continuously reintroduce ticks from adjacent woodland, so the barrier has to be renewed rather than applied once. The seasonal tick program is $597 standalone, or $497 added to any mosquito plan.",
   },
   {
     question: 'Why does Hamilton have particularly high tick risk?',
@@ -100,7 +100,7 @@ export default function HamiltonTickSprayPage() {
                   ['Service area', 'All Hamilton neighbourhoods (Stoney Creek, Dundas, Ancaster, Westdale, Waterdown, Rymal, Downtown Hamilton, Mount Hope, Binbrook, Flamborough)'],
                   ['Specialization', 'Blacklegged tick (Ixodes scapularis) and American dog tick barrier spray'],
                   ['Pricing', 'From $99 per treatment · seasonal tick program $597 standalone or tick add-on bundle available on quote'],
-                  ['Treatment season', 'May through October (peak: late April–June nymph activity, then again Sep–Oct adult activity)'],
+                  ['Treatment season', 'May through September, roughly monthly (nymph peak May–July, adults active again through autumn)'],
                   ['Protection per visit', 'Up to 30 days residual on tick habitat zones'],
                   ['Re-entry time', '30 minutes after spray dries (kid and pet safe)'],
                   ['Recommended schedule', '5 treatments per season for ravine- or conservation-area-adjacent properties'],
@@ -161,7 +161,7 @@ export default function HamiltonTickSprayPage() {
           <h2>Why Hamilton Backyards Are Prime Tick Zones</h2>
           <p>Hamilton has some of Southern Ontario's most significant tick habitat. The <strong>Dundas Valley Conservation Area</strong> — 1,200+ hectares of managed conservation land directly adjacent to Dundas and Ancaster — supports thriving blacklegged tick populations supported by large deer herds. The <strong>Niagara Escarpment</strong> trail corridor running through Ancaster, Westdale, and Stoney Creek creates continuous tick dispersal pathways into adjacent residential neighbourhoods. <strong>Cootes Paradise</strong> and Hamilton Harbour's naturalized shoreline add additional habitat pressure across the city's west end.</p>
           <p>Hamilton Conservation Authority conducts tick surveillance across managed lands and has documented established blacklegged tick populations in Dundas Valley, Spencer Gorge, and Fifty Point Conservation Area. With increasing Lyme disease case numbers in Ontario, professional tick treatment is an important annual precaution for Hamilton homeowners near these areas.</p>
-          <p>Ancaster and Dundas carry the sharpest version of that exposure, since both sit against the Escarpment with deer moving nightly through residential streets. Our guide to <Link href="/blog/tick-control-ancaster-dundas-hamilton" className="text-brand-700 hover:underline">tick control in Ancaster and Dundas</Link> covers the streets closest to the conservation boundary and the two-treatment timing that works there.</p>
+          <p>Ancaster and Dundas carry the sharpest version of that exposure, since both sit against the Escarpment with deer moving nightly through residential streets. Our guide to <Link href="/blog/tick-control-ancaster-dundas-hamilton" className="text-brand-700 hover:underline">tick control in Ancaster and Dundas</Link> covers the streets closest to the conservation boundary and the monthly May-to-September treatment timing that works there.</p>
 
           <h2>Hamilton Neighbourhoods We Serve</h2>
           <div className="not-prose flex flex-wrap gap-2 mb-6">
@@ -175,7 +175,7 @@ export default function HamiltonTickSprayPage() {
 
 
           <h2>Compare Hamilton Pest Control Options</h2>
-          <p>Hamilton has confirmed blacklegged tick exposure — see our specialist pest control guide: <Link href="/pest-control-hamilton" className="text-brand-700 hover:underline font-semibold">Pest Control in Hamilton</Link> for why a mosquito and tick specialist delivers better Lyme disease prevention than a general pest company. Compare top mosquito and tick control providers: <Link href="/best-mosquito-control-companies-hamilton" className="text-brand-700 hover:underline font-semibold">Best Mosquito Control Companies in Hamilton 2026</Link>.</p>
+          <p>Hamilton has confirmed blacklegged tick exposure — see our specialist pest control guide: <Link href="/pest-control-hamilton" className="text-brand-700 hover:underline font-semibold">Pest Control in Hamilton</Link> for why a mosquito and tick specialist delivers better Lyme disease prevention than a general pest company. See our full mosquito programme for the same property: <Link href="/hamilton-mosquito-control" className="text-brand-700 hover:underline font-semibold">Mosquito Control in Hamilton</Link>.</p>
           <h2>Related Guides</h2>
           <ul>
             <li><Link href={`/blog/${TICK_BLOGS.pillar.slug}`} className="text-brand-700 hover:underline">{TICK_BLOGS.pillar.title}</Link></li>
@@ -195,7 +195,7 @@ export default function HamiltonTickSprayPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {[
               { author: 'Steve R.', location: 'Westdale', text: 'Our yard backs onto Cootes Paradise and ticks were a serious concern. BuzzSkito treated the perimeter professionally and the difference was immediate. No more finding ticks after gardening.' },
-              { author: 'Karen L.', location: 'Dundas', text: 'Living near the Dundas Valley means ticks are unavoidable — unless you treat for them. BuzzSkito knows exactly where to focus and the results speak for themselves. Signed up for both treatments.' },
+              { author: 'Karen L.', location: 'Dundas', text: 'Living near the Dundas Valley means ticks are unavoidable — unless you treat for them. BuzzSkito knows exactly where to focus and the results speak for themselves. Signed up for the full season.' },
               { author: 'Paul G.', location: 'Ancaster', text: 'Found ticks on our dog twice last spring from the trail behind our house. After BuzzSkito treated the fence line and garden edges, haven\'t seen one since. Very knowledgeable team.' },
               { author: 'Jennifer W.', location: 'Stoney Creek', text: 'We bundle tick and mosquito control and the convenience is great. One visit, both problems handled. The technician was thorough and the communication was excellent.' },
             ].map(({ author, location, text }) => (

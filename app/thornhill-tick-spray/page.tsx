@@ -17,7 +17,7 @@ const NEIGHBOURHOODS = ['Thornhill Village','Royal Orchard','Pomona Mills','Aile
 const FAQS = [
   {
     question: 'How much does tick spray cost in Thornhill?',
-    answer: 'Tick spray in Thornhill starts from $99 per application. Properties near ravine corridors, conservation lands, or the Oak Ridges Moraine boundary benefit most from both spring and fall applications. No contracts. Call (289) 216-5030.',
+    answer: 'Tick spray in Thornhill starts from $99 per application. Properties near ravine corridors, conservation lands, or the Oak Ridges Moraine boundary benefit most from the full seasonal program — five treatments spread roughly monthly from May through September — at $597 standalone, or $497 when added to any mosquito plan. No contracts. Call (289) 216-5030.',
   },
   {
     question: 'Which Thornhill neighbourhoods have the highest tick risk?',

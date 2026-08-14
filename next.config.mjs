@@ -338,6 +338,42 @@ const nextConfig = {
       { source: '/blog/best-ozone-generator-canada',                 destination: '/pest-product-guides', permanent: true },
       { source: '/blog/levoit-vs-coway-air-purifier-canada',         destination: '/pest-product-guides', permanent: true },
 
+      // ── Local cannibalisation fix, Aug 2026 ─────────────────────────────────
+      // GSC showed 19 of our own pages competing for "mosquito control toronto"
+      // (1,056 impressions, 2 clicks) and 30 for "mosquito control near me" (0
+      // clicks). The best-mosquito-control-companies-* family overlapped its
+      // matching city page on 62–100% of queries — genuine duplicates, not a
+      // separate intent. Their unique content was merged into the city page
+      // first; these 301s consolidate the ranking signals behind one URL each.
+      //
+      // Deliberately NOT redirected:
+      //   /best-mosquito-control-companies-gta — regional hub, ranks 7.95 on its
+      //     own and overlaps no single city page.
+      //   /pest-control-<city> — only 20–43% query overlap and it owns genuinely
+      //     different terms ("pest control brampton"). It also states we do not
+      //     provide those services, so it must never receive mosquito booking intent.
+      { source: '/best-mosquito-control-companies-toronto',       destination: '/toronto-mosquito-control',       permanent: true },
+      { source: '/best-mosquito-control-companies-mississauga',   destination: '/mississauga-mosquito-control',   permanent: true },
+      { source: '/best-mosquito-control-companies-brampton',      destination: '/brampton-mosquito-control',      permanent: true },
+      { source: '/best-mosquito-control-companies-oakville',      destination: '/oakville-mosquito-control',      permanent: true },
+      { source: '/best-mosquito-control-companies-vaughan',       destination: '/vaughan-mosquito-control',       permanent: true },
+      { source: '/best-mosquito-control-companies-markham',       destination: '/markham-mosquito-control',       permanent: true },
+      { source: '/best-mosquito-control-companies-etobicoke',     destination: '/etobicoke-mosquito-control',     permanent: true },
+      { source: '/best-mosquito-control-companies-scarborough',   destination: '/scarborough-mosquito-control',   permanent: true },
+      { source: '/best-mosquito-control-companies-north-york',    destination: '/north-york-mosquito-control',    permanent: true },
+      { source: '/best-mosquito-control-companies-hamilton',      destination: '/hamilton-mosquito-control',      permanent: true },
+      { source: '/best-mosquito-control-companies-richmond-hill', destination: '/richmond-hill-mosquito-control', permanent: true },
+      // Burlington's service page is -mosquito-spray; there is no -mosquito-control route.
+      { source: '/best-mosquito-control-companies-burlington',    destination: '/burlington-mosquito-spray',      permanent: true },
+
+      // Same-intent service duplicates. "near me" variants sat at position 46
+      // with effectively no traffic while the hub pages they duplicate rank far
+      // better. /mosquito-control-pricing is deliberately left in place — it is
+      // referenced by 87 files and redirecting it would turn every one of those
+      // into a redirect chain for the sake of 182 impressions.
+      { source: '/mosquito-control-near-me', destination: '/mosquito-control', permanent: true },
+      { source: '/tick-control-near-me',     destination: '/tick-control',     permanent: true },
+
       // ── Catch-all wildcards — must be LAST ───────────────────────────────────
       // These catch any remaining /f/* or /home/f/* URL not explicitly mapped
       { source: '/f/:path*',      destination: '/mosquito-control', permanent: true },

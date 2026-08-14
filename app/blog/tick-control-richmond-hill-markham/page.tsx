@@ -34,7 +34,7 @@ const FAQS = [
   {
     question: 'When should Richmond Hill and Markham homeowners treat for ticks?',
     answer:
-      "Blacklegged ticks are active in two peak windows: spring (April–June) and fall (September–November). The spring window is the highest-risk period because nymphs — the tiny, hardest-to-see life stage — are most active. Your first treatment should go down in late April or early May, before the nymph emergence peak. A second treatment in late August or September covers the fall adult-tick activity period.",
+      "Treatment runs May through September — five barrier applications spaced roughly a month apart. The first goes down in early May, ahead of the nymph emergence peak. Nymphs are the poppy-seed-sized life stage that drives most Ontario Lyme transmission, and they stay active from May through July, so the June and July applications carry as much weight as the first one. The August and September treatments hold the barrier as adults re-emerge and stay active into November in mild years. Monthly spacing matters because the acaricide residual is temporary and deer, mice, and birds continually reintroduce ticks from adjacent woodland — a spring-and-fall pair of visits leaves the entire peak nymph window uncovered.",
   },
 ]
 
@@ -62,12 +62,13 @@ export default function TickControlRichmondHillMarkhamPage() {
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
         <div className="not-prose bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
           <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-          <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Richmond Hill and Markham sit directly on the Oak Ridges Moraine, so blacklegged tick populations here are established and self-sustaining. Yards backing onto forest, ravines, or Rouge National Urban Park need two barrier treatments per season &mdash; late April to early May for nymphs, and late August to September for fall adults.</p>
+          <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Richmond Hill and Markham sit directly on the Oak Ridges Moraine, so blacklegged tick populations here are established and self-sustaining. Yards backing onto forest, ravines, or Rouge National Urban Park need five barrier treatments per season &mdash; spaced roughly monthly from May through September, so peak nymph season is never left with a multi-month gap and the barrier still stands when fall adults return.</p>
           <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
             <li>The Oak Ridges Moraine is a 160 km glacial landform running directly through Richmond Hill and Markham.</li>
             <li>Rouge National Urban Park covers over 79 square kilometres and contains confirmed blacklegged tick populations.</li>
-            <li>Blacklegged ticks peak in two windows: spring (April–June) and fall (September–November).</li>
+            <li>Blacklegged ticks stay active from April into November — nymphs through spring and summer, adults again in the fall.</li>
             <li>Poppy-seed-sized nymphs are active May through July and cause most Ontario Lyme disease transmission.</li>
+            <li>Five treatments, roughly one a month from May through September, keep the barrier unbroken &mdash; the acaricide residual is temporary and wildlife keeps walking new ticks in from the woodland edge.</li>
             <li>Lyme transmission becomes a real possibility after 24–36 hours of tick attachment.</li>
             <li>Highest-risk areas: Oak Ridges and Jefferson Forest in Richmond Hill; Cornell, Cathedraltown, and Rouge Park in Markham.</li>
           </ul>
@@ -102,7 +103,8 @@ export default function TickControlRichmondHillMarkhamPage() {
 
         <h2>What Treatment Looks Like for These Properties</h2>
         <p>BuzzSkito&rsquo;s tick barrier spray targets the transition zones where ticks concentrate: leaf litter margins at the lawn edge, low ground cover, the base of shrubs, and shaded mulch beds. These are the areas where ticks quest (climb and wait) for passing hosts.</p>
-        <p>For Richmond Hill and Markham properties with forest or ravine backing, we typically recommend two treatments per season: one in late April or early May (catching the spring nymph emergence) and one in late August or early September (covering the fall adult-tick activity period). Some properties with very active deer corridors benefit from three treatments.</p>
+        <p>For Richmond Hill and Markham properties with forest or ravine backing, we recommend the full five-treatment season &mdash; applications spaced roughly a month apart from May through September. The first goes down in early May, ahead of the nymph emergence peak. Nymphs stay active through July, and because they are poppy-seed sized and easily missed they account for most Lyme transmission in Ontario, so the June and July applications cover the highest-risk stretch of the year. The August and September treatments carry the barrier into the adult-tick period, which runs into November in mild years.</p>
+        <p>The reason a season needs five visits rather than one or two comes down to how the product works and where the ticks come from. The acaricide residual is temporary, and the deer, mice, and birds moving between the moraine forest and your yard reintroduce ticks continuously &mdash; so the barrier has to be renewed, not just established. Monthly coverage also means there is no multi-month hole in the middle of nymph season, which is exactly what a spring-and-fall pair of visits leaves open. Tick control runs $597 for the season on its own, or $497 when added to any mosquito plan; single treatments start at $99.</p>
 
         <h2>Related Guides and Services</h2>
         <ul>

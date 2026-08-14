@@ -1,0 +1,158 @@
+{
+  "plan": [
+    {
+      "from": "/best-mosquito-control-companies-mississauga",
+      "to": "/mississauga-mosquito-control",
+      "city": "mississauga",
+      "why": "142 impr / 0 clk, beaten by /mississauga-mosquito-control"
+    },
+    {
+      "from": "/brampton-mosquito-control",
+      "to": "/pest-control-brampton",
+      "city": "brampton",
+      "why": "133 impr / 0 clk, beaten by /pest-control-brampton"
+    },
+    {
+      "from": "/best-mosquito-control-companies-brampton",
+      "to": "/pest-control-brampton",
+      "city": "brampton",
+      "why": "126 impr / 0 clk, beaten by /pest-control-brampton"
+    },
+    {
+      "from": "/best-mosquito-control-companies-oakville",
+      "to": "/oakville-mosquito-control",
+      "city": "oakville",
+      "why": "156 impr / 0 clk, beaten by /oakville-mosquito-control"
+    },
+    {
+      "from": "/pest-control-oakville",
+      "to": "/oakville-mosquito-control",
+      "city": "oakville",
+      "why": "114 impr / 0 clk, beaten by /oakville-mosquito-control"
+    },
+    {
+      "from": "/best-mosquito-control-companies-burlington",
+      "to": "/pest-control-burlington",
+      "city": "burlington",
+      "why": "24 impr / 0 clk, beaten by /pest-control-burlington"
+    },
+    {
+      "from": "/hamilton-mosquito-control",
+      "to": "/pest-control-hamilton",
+      "city": "hamilton",
+      "why": "270 impr / 1 clk, beaten by /pest-control-hamilton"
+    },
+    {
+      "from": "/best-mosquito-control-companies-hamilton",
+      "to": "/pest-control-hamilton",
+      "city": "hamilton",
+      "why": "132 impr / 0 clk, beaten by /pest-control-hamilton"
+    },
+    {
+      "from": "/best-mosquito-control-companies-vaughan",
+      "to": "/vaughan-mosquito-control",
+      "city": "vaughan",
+      "why": "317 impr / 0 clk, beaten by /vaughan-mosquito-control"
+    },
+    {
+      "from": "/richmond-hill-mosquito-control",
+      "to": "/pest-control-richmond-hill",
+      "city": "richmond-hill",
+      "why": "100 impr / 1 clk, beaten by /pest-control-richmond-hill"
+    },
+    {
+      "from": "/best-mosquito-control-companies-richmond-hill",
+      "to": "/pest-control-richmond-hill",
+      "city": "richmond-hill",
+      "why": "17 impr / 0 clk, beaten by /pest-control-richmond-hill"
+    },
+    {
+      "from": "/best-mosquito-control-companies-markham",
+      "to": "/markham-mosquito-control",
+      "city": "markham",
+      "why": "25 impr / 0 clk, beaten by /markham-mosquito-control"
+    },
+    {
+      "from": "/pest-control-markham",
+      "to": "/markham-mosquito-control",
+      "city": "markham",
+      "why": "67 impr / 0 clk, beaten by /markham-mosquito-control"
+    },
+    {
+      "from": "/best-mosquito-control-companies-etobicoke",
+      "to": "/etobicoke-mosquito-control",
+      "city": "etobicoke",
+      "why": "82 impr / 0 clk, beaten by /etobicoke-mosquito-control"
+    },
+    {
+      "from": "/scarborough-mosquito-control",
+      "to": "/best-mosquito-control-companies-scarborough",
+      "city": "scarborough",
+      "why": "27 impr / 0 clk, beaten by /best-mosquito-control-companies-scarborough"
+    },
+    {
+      "from": "/pest-control-scarborough",
+      "to": "/best-mosquito-control-companies-scarborough",
+      "city": "scarborough",
+      "why": "32 impr / 0 clk, beaten by /best-mosquito-control-companies-scarborough"
+    },
+    {
+      "from": "/north-york-mosquito-control",
+      "to": "/pest-control-north-york",
+      "city": "north-york",
+      "why": "51 impr / 0 clk, beaten by /pest-control-north-york"
+    },
+    {
+      "from": "/best-mosquito-control-companies-north-york",
+      "to": "/pest-control-north-york",
+      "city": "north-york",
+      "why": "102 impr / 0 clk, beaten by /pest-control-north-york"
+    },
+    {
+      "from": "/pest-control-caledon",
+      "to": "/caledon-mosquito-control",
+      "city": "caledon",
+      "why": "6 impr / 0 clk, beaten by /caledon-mosquito-control"
+    },
+    {
+      "from": "/pest-control-milton",
+      "to": "/milton-mosquito-control",
+      "city": "milton",
+      "why": "45 impr / 0 clk, beaten by /milton-mosquito-control"
+    },
+    {
+      "from": "/georgetown-mosquito-control",
+      "to": "/pest-control-georgetown",
+      "city": "georgetown",
+      "why": "122 impr / 0 clk, beaten by /pest-control-georgetown"
+    },
+    {
+      "from": "/pest-control-halton-hills",
+      "to": "/halton-hills-mosquito-control",
+      "city": "halton-hills",
+      "why": "5 impr / 0 clk, beaten by /halton-hills-mosquito-control"
+    },
+    {
+      "from": "/pest-control-king-city",
+      "to": "/king-city-mosquito-control",
+      "city": "king-city",
+      "why": "72 impr / 0 clk, beaten by /king-city-mosquito-control"
+    },
+    {
+      "from": "/pest-control-woodbridge",
+      "to": "/woodbridge-mosquito-control",
+      "city": "woodbridge",
+      "why": "26 impr / 0 clk, beaten by /woodbridge-mosquito-control"
+    },
+    {
+      "from": "/pest-control-thornhill",
+      "to": "/thornhill-mosquito-control",
+      "city": "thornhill",
+      "why": "2 impr / 0 clk, beaten by /thornhill-mosquito-control"
+    }
+  ],
+  "generated_from": {
+    "start": "2026-07-15",
+    "end": "2026-08-11"
+  }
+}

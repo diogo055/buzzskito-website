@@ -29,7 +29,7 @@ const FAQS = [
   {
     question: 'When should I schedule my first tick treatment in Ontario?',
     answer:
-      'The optimal timing for your first professional tick treatment in the GTA is late May. This coincides with the emergence of nymph-stage blacklegged ticks — the tiny, poppy-seed-sized life stage responsible for the majority of human Lyme disease cases. Treating in late May targets nymphs before they become established in your yard while also controlling any remaining adult ticks from the spring emergence. Your second treatment should follow in late August or early September.',
+      'The optimal timing for your first professional tick treatment in the GTA is late May. This coincides with the emergence of nymph-stage blacklegged ticks — the tiny, poppy-seed-sized life stage responsible for the majority of human Lyme disease cases. Treating in late May targets nymphs before they become established in your yard while also controlling any remaining adult ticks from the spring emergence. Because the residual from one application lasts weeks rather than months, the treatment is then repeated on a roughly monthly cadence — five applications across the May-to-September season — so the barrier stays live through the June-July nymph peak and into the fall adult resurgence instead of lapsing in the middle of the highest-risk window.',
   },
   {
     question: 'Are ticks active in April in Ontario?',
@@ -78,7 +78,7 @@ export default function SpringTickSeasonPage() {
             <li>Nymph-stage ticks are poppy-seed sized (about 1&ndash;2 mm) and drive most Ontario Lyme cases.</li>
             <li>May through July is the highest-risk period for tick-borne disease transmission.</li>
             <li>A blacklegged tick generally needs 24&ndash;36 hours attached to transmit Lyme disease.</li>
-            <li>Schedule the first barrier spray in late May and a second in late August or early September.</li>
+            <li>Schedule the first barrier spray in late May, then renew it roughly monthly &mdash; five treatments, May through September.</li>
             <li>Professional tick barrier spray provides 4&ndash;6 weeks of residual protection per application.</li>
           </ul>
           <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
@@ -117,13 +117,19 @@ export default function SpringTickSeasonPage() {
           <li>Eliminates remaining adult ticks from the spring emergence before they can lay eggs</li>
           <li>Targets newly emerged nymphs before they become established in your yard and before peak human exposure begins</li>
         </ul>
-        <p>A late May treatment provides protection through the critical June-July nymph activity window, which is the highest-risk period for Lyme disease transmission.</p>
+        <p>A late May treatment opens the critical June-July nymph activity window — the highest-risk period for Lyme disease transmission — with a fresh barrier in place. What it cannot do on its own is hold that window closed until the season ends.</p>
 
-        <h3>Second Treatment: Late August to Early September</h3>
-        <p>Your second tick treatment should be scheduled for late August or early September to target the fall adult tick emergence. Adult blacklegged ticks become active again in September and remain active through November (or later in mild years), creating a second peak risk window.</p>
+        <h3>Then Monthly: Five Treatments, May Through September</h3>
+        <p>One spray is not a season. Residual protection on the treated edges is measured in weeks, not months, so the barrier has to be renewed roughly every four weeks to stay continuous — five applications in total, spread across May through September.</p>
+        <p>Two things keep happening after that first visit, and both argue for the monthly cadence:</p>
+        <ul>
+          <li><strong>Nymphs stay active well past the first treatment.</strong> Blacklegged nymphs peak from May through July, and they drive most Lyme transmission because they are poppy-seed sized and routinely missed during tick checks. A schedule with a long gap in it leaves that stretch open — precisely the wrong months of the year to be uncovered.</li>
+          <li><strong>Wildlife keeps restocking your yard.</strong> Deer, mice, and birds move continuously between adjacent woodland and your property line, carrying new ticks in behind the treated barrier. The perimeter has to be re-established, not applied once and forgotten.</li>
+        </ul>
+        <p>The later applications also carry protection into the fall. Adult blacklegged ticks re-emerge and remain active through November (or later in mild years), so the September treatment goes down while that resurgence is beginning rather than after it.</p>
 
         <h3>Properties With High Tick Pressure</h3>
-        <p>Homeowners whose properties border conservation areas, ravines, woodlots, or the Niagara Escarpment may benefit from a three-treatment schedule: early May, late June, and early September. This provides overlapping coverage across the entire active tick season.</p>
+        <p>Homeowners whose properties border conservation areas, ravines, woodlots, or the Niagara Escarpment have the least margin for a lapse in coverage — the wildlife corridor runs right up to the lawn edge and pushes fresh ticks across it all summer. On those lots we start the season in early May rather than late, and run the full five-treatment schedule through September so no uncovered stretch opens up between applications.</p>
         <p>See: <Link href="/tick-control" className="text-brand-700 hover:underline">BuzzSkito tick control services</Link> | <Link href="/free-yard-assessment" className="text-brand-700 hover:underline">Get a free quote</Link></p>
 
         <h2>What You Can Do Right Now (Early Spring)</h2>

@@ -20,7 +20,7 @@ const NEIGHBOURHOODS = ["Mount Pleasant","Gore Meadows","Castlemore","Springdale
 const FAQS = [
   {
     question: 'How much does tick spray cost in Brampton?',
-    answer: 'Tick spray in Brampton starts from $99 per application. Properties near Heart Lake Conservation Area, Humber River tributaries, or any wooded ravine typically benefit from both spring and fall treatments. No contracts. Call (289) 216-5030.',
+    answer: 'Tick spray in Brampton starts from $99 per application. Properties near Heart Lake Conservation Area, Humber River tributaries, or any wooded ravine are best covered by the full seasonal program — five treatments spaced roughly monthly from May through September, because each application holds up to 30 days of residual and monthly spacing is what removes the gap. The season program is $597 standalone, or $497 when added to a mosquito plan. No contracts. Call (289) 216-5030.',
   },
   {
     question: 'Are ticks a real problem in Brampton?',
@@ -32,7 +32,7 @@ const FAQS = [
   },
   {
     question: 'When should Brampton homeowners schedule tick treatment?',
-    answer: "We recommend your first tick treatment in late May or early June to target nymphs — the most dangerous tick life stage because they're tiny and easily missed during tick checks. The second treatment in August or September addresses adult tick activity. Together these two visits provide protection throughout the active season. High-exposure properties near conservation lands may benefit from a third treatment.",
+    answer: "Start in May and keep treating roughly monthly through September — five treatments across the season. The May, June, and July applications cover peak blacklegged nymph activity; nymphs drive most Lyme transmission because they're poppy-seed sized and easily missed during tick checks. The August and September applications cover adults, which re-emerge and stay active through the autumn. Monthly spacing matters because each application leaves up to 30 days of residual, so a spring-and-fall pair would leave a multi-month hole straight through peak nymph season — precisely the wrong time to be uncovered. Deer, mice, and birds moving off Heart Lake Conservation Area and the ravine corridors keep reintroducing ticks, so the barrier has to be renewed rather than applied once or twice.",
   },
   {
     question: 'How does BuzzSkito treat for ticks in Brampton?',
@@ -100,7 +100,7 @@ export default function BramptonTickSprayPage() {
                   ['Service area', "All Brampton neighbourhoods (Mount Pleasant, Gore Meadows, Castlemore, Springdale, Bramalea, Creditview, Fletcher's Meadow, Heart Lake, Snelgrove, Sandalwood, Bram West)"],
                   ['Specialization', 'Blacklegged tick (Ixodes scapularis) and American dog tick barrier spray'],
                   ['Pricing', 'From $99 per treatment · seasonal tick program $597 standalone or tick add-on bundle available on quote'],
-                  ['Treatment season', 'May through October (peak: late April–June nymph activity, then again Sep–Oct adult activity)'],
+                  ['Treatment season', 'May through September, roughly monthly (peak: late April–June nymph activity, then again Sep–Oct adult activity)'],
                   ['Protection per visit', 'Up to 30 days residual on tick habitat zones'],
                   ['Re-entry time', '30 minutes after spray dries (kid and pet safe)'],
                   ['Recommended schedule', '5 treatments per season for ravine- or conservation-area-adjacent properties'],
@@ -186,6 +186,7 @@ export default function BramptonTickSprayPage() {
           </ul>
 
           <h2>Tick Control Treatment Schedule for Brampton</h2>
+          <p>The seasonal program is five treatments, spaced roughly monthly from May through September. Each application leaves up to 30 days of residual, so monthly spacing is what removes the gap between visits.</p>
           <div className="not-prose overflow-x-auto my-4">
             <table className="w-full text-sm border-collapse">
               <thead>
@@ -197,9 +198,11 @@ export default function BramptonTickSprayPage() {
               </thead>
               <tbody>
                 {[
-                  { t: 'Spring treatment', timing: 'Late May / Early June', target: 'Target nymphs — the most dangerous life stage (tiny, hard to detect, peak Lyme transmission)' },
-                  { t: 'Summer treatment (optional)', timing: 'Mid-July', target: 'Recommended for Heart Lake, Castlemore, and other high-exposure properties' },
-                  { t: 'Fall treatment', timing: 'Late August / September', target: 'Target adult ticks before fall activity surge and winter dormancy' },
+                  { t: 'Treatment 1', timing: 'May', target: 'First nymphs of the season — the most dangerous life stage (poppy-seed sized, easily missed during tick checks)' },
+                  { t: 'Treatment 2', timing: 'June', target: 'Peak nymph activity; renews the barrier as the May residual runs out' },
+                  { t: 'Treatment 3', timing: 'July', target: 'Late nymph season, plus ticks reintroduced by deer and mice moving off Heart Lake Conservation Area and the ravine corridors' },
+                  { t: 'Treatment 4', timing: 'August', target: 'Adult ticks becoming active again as nymph numbers fall away' },
+                  { t: 'Treatment 5', timing: 'September', target: 'Adults heading into autumn — they stay active into November in mild years' },
                 ].map(({ t, timing, target }) => (
                   <tr key={t} className="border-b border-gray-200 even:bg-gray-50">
                     <td className="px-4 py-2 font-medium text-gray-800">{t}</td>
@@ -260,7 +263,7 @@ export default function BramptonTickSprayPage() {
 
 
           <h2>Compare Brampton Pest Control Options</h2>
-          <p>Brampton has confirmed blacklegged tick exposure — see our specialist pest control guide: <Link href="/pest-control-brampton" className="text-brand-700 hover:underline font-semibold">Pest Control in Brampton</Link> for why a mosquito and tick specialist delivers better Lyme disease prevention than a general pest company. Compare top mosquito and tick control providers: <Link href="/best-mosquito-control-companies-brampton" className="text-brand-700 hover:underline font-semibold">Best Mosquito Control Companies in Brampton 2026</Link>.</p>
+          <p>Brampton has confirmed blacklegged tick exposure — see our specialist pest control guide: <Link href="/pest-control-brampton" className="text-brand-700 hover:underline font-semibold">Pest Control in Brampton</Link> for why a mosquito and tick specialist delivers better Lyme disease prevention than a general pest company. See our full mosquito programme for the same property: <Link href="/brampton-mosquito-control" className="text-brand-700 hover:underline font-semibold">Mosquito Control in Brampton</Link>.</p>
           <h2>Related Guides</h2>
           <ul>
             <li><Link href={`/blog/${TICK_BLOGS.pillar.slug}`} className="text-brand-700 hover:underline">{TICK_BLOGS.pillar.title}</Link></li>
