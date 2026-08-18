@@ -19,7 +19,19 @@
 - **Tick standalone:** $597/season (5 sprays)
 - **Tick bundle:** $497/season when added to any mosquito plan (save $100)
 - **Pricing scales by lot size:** 10K–100K sq ft. Full matrix in src/lib/pricing.ts on the Hub
-- **Tech commission:** $25/job. Product cost: ~$8/job.
+- **Costs (CORRECTED Aug 2026 — the old "$25/job commission" was superseded and was
+  producing wrong margin maths):** the technician has been **salaried since Jun 1**, so
+  cost is per DAY not per job. Live source of truth is `src/lib/season-ops-data.ts` in
+  the Hub: technician $170/day + insurance $8 + gas $40 = **$218 per service day**,
+  plus **~$8 product per visit**.
+  - **The marginal cost of one more visit on a day the van is already out is ~$8**,
+    against $170.88 average revenue per stop. This is why a bonus spray is a far
+    better incentive than an equivalent discount — roughly 21x the perceived value
+    per dollar spent. Never pay in dollars what you can pay in sprays.
+  - A tick treatment rides along on an existing mosquito stop (verified: zero separate
+    tick trips across 59 bundled applications), but tick is a different application, so
+    budget **~$107 per season**, not $8 — the $8 constant carries no tick line item and
+    no lot-size scaling.
 
 ## Tech Stack
 - **Website:** Next.js (App Router) + Tailwind CSS, deployed on Vercel at buzzskito.ca
