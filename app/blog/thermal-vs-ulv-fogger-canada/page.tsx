@@ -9,6 +9,7 @@ import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'thermal-vs-ulv-fogger-canada'
@@ -336,6 +337,7 @@ export default function ThermalVsUlvFoggerCanadaPage() {
             </p>
           </div>
         </div>
+        <AdjacentPestCTA variant="equipment" />
       </article>
     </>
   )

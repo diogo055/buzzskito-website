@@ -8,6 +8,7 @@ import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'best-hepa-vacuum-for-bed-bugs-and-fleas-canada'
@@ -321,6 +322,7 @@ export default function BestHepaVacuumBedBugsFleasCanadaPage() {
             </p>
           </div>
         </div>
+        <AdjacentPestCTA pest="bed bugs" />
       </article>
     </>
   )

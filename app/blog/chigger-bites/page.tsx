@@ -8,6 +8,7 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
+import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'chigger-bites'
@@ -273,6 +274,7 @@ export default function ChiggerBitesPage() {
           </p>
         </div>
 
+        <AdjacentPestCTA pest="chiggers" />
       </article>
 
       <StickyBuyBar tag={AMZ_TAG} name="Calamine lotion" search="calamine lotion" label="Best for the itch" />

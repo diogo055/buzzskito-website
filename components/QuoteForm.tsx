@@ -2,29 +2,10 @@
 
 import { useState, useEffect } from 'react'
 import { BUSINESS } from '@/lib/constants'
+import { getLandingPage, getReferrer } from '@/lib/attribution'
 
 const HUB_API_URL = process.env.NEXT_PUBLIC_HUB_API_URL || 'https://app.buzzskito.ca'
 
-// Store the first landing page in a cookie so we know what brought them here
-function getLandingPage(): string {
-  if (typeof window === 'undefined') return ''
-  // Check if we already stored it
-  const stored = document.cookie.split('; ').find(c => c.startsWith('bz_landing='))
-  if (stored) return decodeURIComponent(stored.split('=')[1])
-  // First visit — store current page
-  const page = window.location.pathname
-  document.cookie = `bz_landing=${encodeURIComponent(page)};path=/;max-age=${60 * 60 * 24 * 30}` // 30 days
-  return page
-}
-
-function getReferrer(): string {
-  if (typeof window === 'undefined') return ''
-  const stored = document.cookie.split('; ').find(c => c.startsWith('bz_ref='))
-  if (stored) return decodeURIComponent(stored.split('=')[1])
-  const ref = document.referrer || ''
-  document.cookie = `bz_ref=${encodeURIComponent(ref)};path=/;max-age=${60 * 60 * 24 * 30}`
-  return ref
-}
 
 type ServiceType = 'mosquito' | 'tick' | 'both'
 

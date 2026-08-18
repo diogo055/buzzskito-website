@@ -8,6 +8,7 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
+import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'do-bed-bug-sprays-actually-work'
@@ -231,6 +232,7 @@ export default function DoBedBugSpraysActuallyWorkPage() {
             </p>
           </div>
         </div>
+        <AdjacentPestCTA pest="bed bugs" />
       </article>
 
       <StickyBuyBar tag={AMZ_TAG} name="Bed Bug Steamer (dry-vapour)" search="bed bug steamer" label="What actually works" />

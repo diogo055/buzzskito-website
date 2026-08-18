@@ -8,6 +8,7 @@ import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'sureguard-mattress-encasement-review-canada'
@@ -296,6 +297,7 @@ export default function SureGuardMattressEncasementReviewCanadaPage() {
             </p>
           </div>
         </div>
+        <AdjacentPestCTA pest="bed bugs" />
       </article>
     </>
   )

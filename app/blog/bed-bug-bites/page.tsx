@@ -8,6 +8,7 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
+import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'bed-bug-bites'
@@ -260,6 +261,7 @@ export default function BedBugBitesPage() {
           </p>
         </div>
 
+        <AdjacentPestCTA pest="bed bugs" />
       </article>
 
       {/* Persistent CTA carries the page's own advice: bites can never confirm the

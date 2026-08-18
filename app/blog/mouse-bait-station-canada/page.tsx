@@ -8,6 +8,7 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import SpecialistDisclosure from '@/components/SpecialistDisclosure'
+import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'mouse-bait-station-canada'
@@ -245,6 +246,7 @@ export default function MouseBaitStationCanadaPage() {
             </p>
           </div>
         </div>
+        <AdjacentPestCTA pest="rodents" />
       </article>
     </>
   )

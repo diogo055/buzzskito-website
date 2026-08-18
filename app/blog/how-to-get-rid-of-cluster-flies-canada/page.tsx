@@ -8,6 +8,7 @@ import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'how-to-get-rid-of-cluster-flies-canada'
@@ -330,6 +331,7 @@ export default function ClusterFliesCanadaPage() {
             </p>
           </div>
         </div>
+        <AdjacentPestCTA pest="flies" />
       </article>
     </>
   )

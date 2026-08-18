@@ -8,6 +8,7 @@ import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'best-air-purifier-for-dust-mites-canada'
@@ -322,6 +323,7 @@ export default function BestAirPurifierForDustMitesCanadaPage() {
             </p>
           </div>
         </div>
+        <AdjacentPestCTA pest="dust mites and damp-loving pests" />
       </article>
     </>
   )

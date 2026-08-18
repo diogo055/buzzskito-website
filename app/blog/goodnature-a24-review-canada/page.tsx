@@ -8,6 +8,7 @@ import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'goodnature-a24-review-canada'
@@ -288,6 +289,7 @@ export default function GoodnatureA24ReviewCanadaPage() {
             </p>
           </div>
         </div>
+        <AdjacentPestCTA pest="rodents" />
       </article>
     </>
   )

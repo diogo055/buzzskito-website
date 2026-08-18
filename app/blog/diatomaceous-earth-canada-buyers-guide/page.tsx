@@ -8,6 +8,7 @@ import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'diatomaceous-earth-canada-buyers-guide'
@@ -278,6 +279,7 @@ export default function DiatomaceousEarthCanadaBuyersGuidePage() {
             </p>
           </div>
         </div>
+        <AdjacentPestCTA variant="equipment" />
       </article>
     </>
   )

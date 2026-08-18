@@ -8,6 +8,7 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
+import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'bed-bug-interceptor-traps-canada'
@@ -258,6 +259,7 @@ export default function BedBugInterceptorTrapsCanadaPage() {
             </p>
           </div>
         </div>
+        <AdjacentPestCTA pest="bed bugs" />
       </article>
 
       <StickyBuyBar tag={AMZ_TAG} name="ClimbUp Insect Interceptor" search="climbup bed bug interceptor" label="Top pick" />

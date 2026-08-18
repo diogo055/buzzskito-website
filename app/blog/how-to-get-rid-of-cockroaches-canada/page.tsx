@@ -8,6 +8,7 @@ import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'how-to-get-rid-of-cockroaches-canada'
@@ -374,6 +375,7 @@ export default function HowToGetRidOfCockroachesCanadaPage() {
             </p>
           </div>
         </div>
+        <AdjacentPestCTA pest="cockroaches" />
       </article>
     </>
   )

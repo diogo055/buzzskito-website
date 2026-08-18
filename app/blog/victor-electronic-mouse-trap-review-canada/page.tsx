@@ -8,6 +8,7 @@ import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'victor-electronic-mouse-trap-review-canada'
@@ -288,6 +289,7 @@ export default function VictorElectronicMouseTrapReviewPage() {
             <Link href="/pest-product-guides" className="font-bold text-emerald-700 hover:text-emerald-800">More independent Canadian pest product research →</Link>
           </div>
         </div>
+        <AdjacentPestCTA pest="rodents" />
       </article>
     </>
   )

@@ -8,6 +8,7 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
+import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'flea-bites-on-humans'
@@ -237,6 +238,7 @@ export default function FleaBitesOnHumansPage() {
           </p>
         </div>
 
+        <AdjacentPestCTA pest="fleas" />
       </article>
 
       <StickyBuyBar tag={AMZ_TAG} name="Plug-in light flea trap" search="flea trap plug in" label="To confirm fleas" />

@@ -8,6 +8,7 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import SpecialistDisclosure from '@/components/SpecialistDisclosure'
+import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'bed-bug-spray-canada'
@@ -419,6 +420,7 @@ export default function BedBugSprayCanadaPage() {
             <li><Link href="/blog/diatomaceous-earth-for-bed-bugs">Diatomaceous Earth for Bed Bugs</Link></li>
           </ul>
         </div>
+        <AdjacentPestCTA pest="bed bugs" />
       </article>
 
       <section className="py-10 px-4 bg-brand-50 border-t border-navy-100">

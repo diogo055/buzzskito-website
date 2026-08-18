@@ -8,6 +8,7 @@ import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'ecoraider-bed-bug-spray-review-canada'
@@ -326,6 +327,7 @@ export default function EcoRaiderBedBugSprayReviewCanadaPage() {
             </p>
           </div>
         </div>
+        <AdjacentPestCTA pest="bed bugs" />
       </article>
     </>
   )

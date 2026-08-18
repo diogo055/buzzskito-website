@@ -8,6 +8,7 @@ import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'best-dehumidifier-for-mold-canada'
@@ -308,6 +309,7 @@ export default function BestDehumidifierForMoldCanadaPage() {
             </p>
           </div>
         </div>
+        <AdjacentPestCTA pest="dust mites and damp-loving pests" />
       </article>
     </>
   )

@@ -8,6 +8,7 @@ import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'motion-activated-sprinkler-canada'
@@ -328,6 +329,7 @@ export default function MotionActivatedSprinklerCanadaPage() {
             </p>
           </div>
         </div>
+        <AdjacentPestCTA pest="wildlife" />
       </article>
     </>
   )

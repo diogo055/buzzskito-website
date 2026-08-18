@@ -8,6 +8,7 @@ import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'best-fruit-fly-trap-canada'
@@ -359,6 +360,7 @@ export default function BestFruitFlyTrapCanadaPage() {
             </p>
           </div>
         </div>
+        <AdjacentPestCTA pest="household pests" />
       </article>
     </>
   )

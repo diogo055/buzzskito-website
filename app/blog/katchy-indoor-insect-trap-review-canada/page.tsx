@@ -8,6 +8,7 @@ import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'katchy-indoor-insect-trap-review-canada'
@@ -291,6 +292,7 @@ export default function KatchyIndoorInsectTrapReviewCanadaPage() {
             </p>
           </div>
         </div>
+        <AdjacentPestCTA pest="flies" />
       </article>
     </>
   )

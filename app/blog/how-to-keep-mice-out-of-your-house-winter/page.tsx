@@ -7,6 +7,7 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import SpecialistDisclosure from '@/components/SpecialistDisclosure'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'how-to-keep-mice-out-of-your-house-winter'
@@ -248,6 +249,7 @@ export default function HowToKeepMiceOutWinterPage() {
         </div>
 
         <StickyBuyBar tag={AMZ_TAG} name="Coarse Steel Wool (packs 6 mm gaps)" search="steel wool mice" label="For sealing gaps" />
+        <AdjacentPestCTA pest="rodents" />
       </article>
     </>
   )

@@ -8,6 +8,7 @@ import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'best-flea-bomb-canada'
@@ -422,6 +423,7 @@ export default function BestFleaBombCanadaPage() {
             </p>
           </div>
         </div>
+        <AdjacentPestCTA pest="fleas" />
       </article>
     </>
   )

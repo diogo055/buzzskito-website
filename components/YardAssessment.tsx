@@ -9,9 +9,10 @@
 // `/free-yard-assessment` for backward compatibility with the 20+ pages that
 // link here.
 
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import { BUSINESS } from '@/lib/constants'
+import { getLandingPage, getReferrer } from '@/lib/attribution'
 import AddressAutocomplete, { type ParsedAddress } from './AddressAutocomplete'
 
 const HUB_API_URL = process.env.NEXT_PUBLIC_HUB_API_URL || 'https://app.buzzskito.ca'
@@ -28,6 +29,15 @@ export default function YardAssessment() {
   const [loading, setLoading] = useState(false)
   const [submitted, setSubmitted] = useState(false)
   const [error, setError] = useState('')
+  // First-touch attribution. Read on mount because both helpers touch
+  // document.cookie, which does not exist during SSR.
+  const [landingPage, setLandingPage] = useState('')
+  const [referrer, setReferrer] = useState('')
+
+  useEffect(() => {
+    setLandingPage(getLandingPage())
+    setReferrer(getReferrer())
+  }, [])
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault()
@@ -45,7 +55,11 @@ export default function YardAssessment() {
           phone: phone.trim() || null,
           address: address.trim(),
           service_type: serviceType,
-          landing_page: '/free-yard-assessment',
+          // Was hardcoded to '/free-yard-assessment', which meant every lead
+          // looked like it came from the form itself rather than the page that
+          // actually brought the visitor in.
+          landing_page: landingPage || '/free-yard-assessment',
+          referrer: referrer || undefined,
           // Geo data from Google Maps autocomplete (null if user typed manually).
           // Currently dropped by the endpoint but kept in the payload for forward
           // compatibility when the leads table grows geo columns.
