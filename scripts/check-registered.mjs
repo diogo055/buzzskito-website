@@ -50,7 +50,13 @@ const unregistered = slugs.filter((s) => !registered.has(s) && !extraSlugs.has(s
 // listed in that file's extraBlogSlugs (a second, equally valid registration path —
 // NEW_BLOGS_29 is deliberately handled that way). Only flag an array when it is
 // absent AND at least one of its slugs is reachable by neither route.
-const arrayBlocks = [...constantsSrc.matchAll(/export const (NEW_BLOGS(?:_\d+)?)\s*=([\s\S]*?)\n\]/g)]
+//
+// The name pattern accepts ANY NEW_BLOGS_* suffix, not just digits. Parallel build
+// waves each tried to claim the next free number and collided on NEW_BLOGS_39, so
+// arrays are now named descriptively (NEW_BLOGS_DEHUMIDIFIER_PRO, …). A digits-only
+// pattern silently skipped every one of those, meaning the arrays most likely to be
+// mis-registered — the ones written concurrently — were the ones going unchecked.
+const arrayBlocks = [...constantsSrc.matchAll(/export const (NEW_BLOGS(?:_[A-Z0-9_]+)?)\s*=([\s\S]*?)\n\]/g)]
 const arrays = arrayBlocks.map((m) => m[1])
 const slugsInArray = Object.fromEntries(
   arrayBlocks.map((m) => [m[1], [...m[2].matchAll(/slug:\s*['"]([^'"]+)['"]/g)].map((x) => x[1])])

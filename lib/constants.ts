@@ -1972,7 +1972,182 @@ export const NEW_BLOGS_37 = [
   { slug: "how-to-get-rid-of-drain-flies-canada", title: "How to Get Rid of Drain Flies in Canada — The Biofilm Is the Problem, Not the Drain", excerpt: "Drain flies breed in the biofilm coating your pipe walls, not in the water. Why bleach fails, the overnight tape test that finds the right drain, and the fix.", date: '2026-07-30', category: 'tick' as const },
 ]
 
+// ── Aug 2026 winter-earning wave — the two thinnest high-value gaps in the
+// year-round clusters. Both slugs carry a Canadian qualifier (measured 3.11x CTR
+// effect at matched intent + position), and both are deliberately off-season-proof:
+// the steamer and bedbug clusters earn through October when mosquito/tick go dormant.
+// NAMED, not numbered: several build waves shipped the same day and all claimed
+// NEW_BLOGS_39. A descriptive name cannot collide with the next wave.
+export const NEW_BLOGS_STEAMER_LANDLORD = [
+  { slug: "dupray-neat-vs-hill-injection-canada", title: "Dupray Neat vs Hill Injection (Canada 2026) — Home Steamer or Commercial Machine?", excerpt: "Dupray Neat vs Hill Injection in Canada: what the commercial machine actually buys you (uptime, not killing power), why the injection line is dead weight for bed bugs, and the point at which spending more starts to pay.", date: '2026-08-22', category: 'tick' as const },
+  { slug: "bed-bug-equipment-kit-for-landlords-canada", title: "Bed Bug Equipment Kit for Landlords in Canada — What to Stock for a Multi-Unit Building", excerpt: "The bed bug kit for Canadian landlords: what scales per bed (encasements, interceptors), what you buy once for the whole building (steamer, sealed-HEPA vacuum), and the multi-unit mistakes that cost the most.", date: '2026-08-22', category: 'tick' as const },
+]
+
+// ── Autumn 2026 build wave #2 — the bed-bug high-ticket decision gap ──────────
+// Two pages that sit immediately BEFORE the most expensive purchase in the
+// bed-bug cluster rather than adding another product roundup: the rent-vs-buy
+// objection that stops the sale, and the vehicle — the one bed-bug environment
+// none of the existing 49 bed-bug pages covered.
+export const NEW_BLOGS_BEDBUG_HIGH_TICKET = [
+  { slug: "bed-bug-heater-rental-vs-buying-canada", title: "Bed Bug Heater: Rent or Buy in Canada — The Arithmetic That Actually Decides It", excerpt: "Renting a bed bug heat chamber is barely possible in Canada. The cycle-count arithmetic that decides buy vs hire, how to size and verify a chamber, and the 120 V trap.", date: '2026-08-22', category: 'tick' as const },
+  { slug: "bed-bugs-in-a-car-heat-treatment-canada", title: "Bed Bugs in a Car — Why Heat Is the Only Real Answer, and How to Do It in Canada", excerpt: "Bed bugs in a car: why foggers are illegal and useless in a cabin, where they actually hide in a vehicle, the remove-launder-heat-vacuum-steam protocol, and why sun and winter both fail.", date: '2026-08-22', category: 'tick' as const },
+]
+
+// ── Aug 2026 winter-earning wave — steamer cluster, mainstream home SERP ─────
+// The steamer cluster converts at 6.13% (the best rate we measure) but its $47.99
+// AOV caps EPC, and all six existing pages are pest-facing. These two push the
+// cluster into the mainstream home-cleaning SERP where the volume and the baskets
+// are: steam mops ($150–$400) and upholstery extractors ($300–$600), both in the
+// 6% Home band, both year-round with no October cliff. Deliberately NOT another
+// bed-bug steamer page — they cross-link to those instead of competing with them.
+export const NEW_BLOGS_STEAMER_HOME = [
+  { slug: "best-steam-mop-for-hardwood-floors-canada", title: "Best Steam Mop for Hardwood Floors Canada — Adjustable Steam, Sealed Floors, and the Winter Gap Problem", excerpt: "Steam mops on hardwood in Canada: the ten-minute water-drop test that tells you if your floor can take steam, why adjustable output is the only feature that matters, and the dry-winter seam problem in Ontario homes.", date: '2026-08-22', category: 'tick' as const },
+  { slug: "best-upholstery-steam-cleaner-canada", title: "Best Upholstery Steam Cleaner Canada — Extractors, Vapour Steamers, and the Tag That Decides Which One You Need", excerpt: "Upholstery cleaning in Canada: extractor vs dry-vapour steamer, the W/S/WS/X code under your cushion, why suction beats heat, and how to avoid tide lines and wicking.", date: '2026-08-22', category: 'tick' as const },
+]
+
+// ── Winter-earning affiliate wave (Aug 22 2026) ────────────────────────
+// Built off the first per-cluster Amazon.ca earnings export: 74% of clicks are
+// mosquito/tick and go dormant in October, so these two target the high-basket,
+// winter/year-round clusters instead. Squirrel-proof feeders are a deep-winter
+// wildlife purchase (note: the "squirrel" token bills to the rodent tracking ID);
+// commercial steam cleaners sit in the steamer cluster, which converts at the
+// highest rate on the account, at roughly 20x the cluster's measured basket.
+export const NEW_BLOGS_WINTER_EARNERS = [
+  { slug: "best-squirrel-proof-bird-feeder-canada", title: "Best Squirrel-Proof Bird Feeder Canada 2026 — The Feeder Is Only Half the Job", excerpt: "Squirrel-proof bird feeders that work in Canada: weight-activated metal feeders, the 5-7-9 rule, baffles and poles, and the winter snow mistake.", date: '2026-08-22', category: 'tick' as const },
+  { slug: "best-commercial-steam-cleaner-canada", title: "Best Commercial Steam Cleaner Canada 2026 — Continuous Fill, Detergent Injection, and the Amperage Nobody Warns You About", excerpt: "Commercial steam cleaners in Canada: why continuous fill and detergent injection decide your shift, the 15-amp circuit trap, and hard-water boiler care.", date: '2026-08-22', category: 'tick' as const },
+]
+
+// ── Aug 2026 winter-earnings wave — dehumidifier cluster deepening ───────────
+// Built off the first per-cluster Amazon.ca earnings export (30d to 22 Aug 2026):
+// dehumidifier was the thinnest high-value cluster on the site — 3 pages earning
+// roughly double a mosquito page each per month. 74% of current clicks are
+// mosquito/tick and go dormant in October, so both of these are deliberately
+// year-round/winter-peaked. LGR targets the contractor who buys on spec, not
+// price; desiccant-vs-compressor is the X-vs-Y fork that routes buyers into the
+// crawl-space, cold-garage and whole-house pages.
+// NAMED, not numbered: four build waves shipped the same day and all four
+// claimed NEW_BLOGS_39. A descriptive name cannot collide with the next wave.
+export const NEW_BLOGS_DEHUMIDIFIER_PRO = [
+  { slug: "best-commercial-lgr-dehumidifier-canada", title: "Best Commercial LGR Dehumidifier Canada 2026 — Job-Site Drying, Rating Games & Air-Mover Pairing", excerpt: "Commercial LGR dehumidifiers for Canadian job sites: what low-grain refrigerant actually means, why the AHAM rating is the only honest one, sizing by cubic feet, air-mover pairing, circuit load, and when renting beats buying.", date: '2026-08-22', category: 'tick' as const },
+  { slug: "desiccant-vs-compressor-dehumidifier-canada", title: "Desiccant vs Compressor Dehumidifier Canada 2026 — Which One Works in a Cold Garage, Cellar or Cottage", excerpt: "Desiccant vs compressor dehumidifiers in Canada: why refrigerant coils frost below roughly 15°C, which class belongs in a cold garage, cellar, crawl space or cottage, what each really costs to run, and when the cheap option is correct.", date: '2026-08-22', category: 'tick' as const },
+]
+
+// ── Winter-earning wave (Aug 22 2026) — dehumidifier cluster expansion ────────
+// Per-cluster Amazon.ca earnings showed the dehumidifier cluster earning ~$11.58
+// per page per month against ~$5.83 for mosquito, off only three pages — and it
+// peaks in winter, exactly when the mosquito cluster (74% of clicks) goes dormant
+// in October. These two fill the thinnest high-value gap: a specific-space garage
+// buying guide, and the barrier-vs-dehumidifier decision page.
+//
+// NOTE: named rather than numbered because three other concurrent waves also
+// claimed NEW_BLOGS_39 — same convention as NEW_BLOGS_WINTER_EARNERS above.
+export const NEW_BLOGS_DEHUMIDIFIER_SPACES = [
+  { slug: "best-dehumidifier-for-cold-garage-canada", title: "Best Dehumidifier for a Cold Garage Canada 2026 — Rust, Slab Sweat & What Actually Works Below 10°C", excerpt: "Choosing a dehumidifier for an unheated Canadian garage: the temperature line where a compressor coil frosts and quits, when a desiccant unit is the right buy, sizing for a leaky garage envelope, drain hoses that freeze — and the cheaper fixes that solve most garages without an appliance.", date: '2026-08-22', category: 'tick' as const },
+  { slug: "crawl-space-dehumidifier-vs-vapour-barrier-canada", title: "Crawl Space Dehumidifier vs Vapour Barrier in Canada — Which One First, and Why the Honest Answer Is Both", excerpt: "Vapour barrier or dehumidifier for a damp Canadian crawl space? Why soil evaporation makes the barrier the source control and the dehumidifier the finisher, the five-step order of operations, liner thickness and seam detailing, low-temperature specs, and when the barrier alone is enough.", date: '2026-08-22', category: 'tick' as const },
+]
+
+// ── Winter-earning wave (Aug 22 2026) — cluster front doors ──────────────────
+// Built off the first per-cluster Amazon.ca earnings export (30d to 22 Aug 2026).
+// Two pages that sit at the FRONT of their cluster rather than adding another
+// roundup to the middle of it:
+//   · the dehumidifier sizing question — the last thing asked before buying, and
+//     the only page in that cluster that can route a reader to a $2,000 crawl-space
+//     or whole-home unit instead of a $250 portable, because sizing is what reveals
+//     they need the big machine. Shaped as a purchase table, deliberately NOT an
+//     explainer — the informational shape is what gave the air-purifier cluster
+//     its 0.68% CTR.
+//   · chimney exclusion hardware — the six existing wildlife pages are all traps,
+//     fences and deterrents; none covered permanent physical exclusion. Autumn/
+//     winter peak (raccoons den in chimneys Oct–Mar), 6% Home Improvement band,
+//     and the most urgent buyer state in the cluster: an animal already inside.
+// Numbered 44 deliberately: five sibling waves shipping the same day all claimed
+// NEW_BLOGS_39 concurrently, so 40–43 are left clear for that reconciliation.
+export const NEW_BLOGS_44 = [
+  { slug: "what-size-dehumidifier-do-i-need-canada", title: "What Size Dehumidifier Do I Need? The Canadian Sizing Table, by Space and Dampness", excerpt: "What size dehumidifier you need in Canada, by square footage and dampness: the 30 vs 50 pint call, why the 2019 rating change makes old advice under-size, cold-basement auto-defrost limits, and when a crawl-space or whole-home unit is the correct buy.", date: '2026-08-22', category: 'tick' as const },
+  { slug: "raccoon-proof-chimney-cap-canada", title: "Raccoon-Proof Chimney Caps in Canada — The Hardware That Ends It, and How to Fit It Without Trapping an Animal Inside", excerpt: "Raccoon-proof chimney caps in Canada: single-flue vs multi-flue vs chase-top, why stainless beats galvanized in Ontario winters, why attachment matters more than mesh, and the spring rule before you cap anything.", date: '2026-08-22', category: 'tick' as const },
+]
+
+// ── Autumn 2026 wildlife-exclusion wave (Aug 22 2026) ────────────────────────
+// Built off the first per-cluster Amazon.ca earnings export: wildlife earns
+// $0.465 EPC / ~$6.89 per page per month and peaks in AUTUMN/WINTER, exactly
+// when mosquito and tick (74% of clicks) go dormant in October. Both pages are
+// high-basket 6% Patio / Tools & Home Improvement builds sold by the roll —
+// deer netting and posts, hardware cloth and ground pins — and both are jobs a
+// Canadian homeowner does in the narrow window between the young going mobile
+// and the ground freezing. Numbered clear of the NEW_BLOGS_39 slot, which
+// several concurrent build waves collided on.
+export const NEW_BLOGS_49 = [
+  { slug: "best-deer-fence-for-gardens-canada", title: "Best Deer Fence for Gardens in Canada 2026 — 7 ft Netting, Posts, and the Install That Actually Holds", excerpt: "Deer fencing for Canadian gardens: why 7 ft is the threshold a 6 ft fence misses, UV-stabilised poly netting vs metal, post length and spacing, staking the bottom edge deer actually push under, snowpack maths, municipal height by-laws, and the autumn install window before the ground freezes.", date: '2026-08-22', category: 'tick' as const },
+  { slug: "raccoon-and-skunk-proofing-under-a-deck-canada", title: "Raccoon & Skunk Proofing Under a Deck in Canada — The L-Footing Trench That Actually Keeps Them Out", excerpt: "How to permanently exclude raccoons and skunks from under a deck, shed or porch in Canada: the half-inch galvanised hardware cloth L-footing, the no-dig surface apron, the three-night vacancy check, the denning-season window you must not seal in, and why Ontario's 1 km relocation law makes trapping pointless.", date: '2026-08-22', category: 'tick' as const },
+]
+
+// ── Aug 2026 winter-earning wave — dehumidifier cluster, the two highest-basket
+// gaps. Per-cluster Amazon.ca earnings (30d to 22 Aug 2026) put dehumidifier at
+// the top of the account on dollars per page, off only three pages, all of which
+// sell PORTABLE consumer units. These two open the two product classes those
+// pages never touch: a permanently installed low-clearance crawl-space unit, and
+// a ducted whole-home appliance. Both baskets are multiples of the measured
+// cluster AOV, and both peak in winter — when the mosquito/tick cluster (74% of
+// clicks) goes dormant in October.
+// NOTE: numbered 47 deliberately. On 22 Aug 2026 several separate build waves each
+// appended an array called NEW_BLOGS_39 to this file; picking a number well clear
+// of the sequence avoids adding to that collision.
+export const NEW_BLOGS_47 = [
+  { slug: "best-crawl-space-dehumidifier-canada", title: "Best Crawl Space Dehumidifier Canada 2026 — Low-Clearance Units, Pump Drainage & the Vapour Barrier That Comes First", excerpt: "Crawl space dehumidifiers for Canadian homes: why a low-profile purpose-built unit differs from a portable, measuring joist clearance, condensate pumps and the Ontario freeze rule, low-temperature operation, and why the vapour barrier has to come first.", date: '2026-08-22', category: 'tick' as const },
+  { slug: "best-whole-house-dehumidifier-canada", title: "Best Whole House Dehumidifier Canada 2026 — Ducted Units, Sizing & When a Portable Is Still the Right Answer", excerpt: "Ducted whole-house dehumidifiers in Canada: the floor-by-floor measurement that decides the purchase, why an oversized AC leaves a house cold and clammy, the three install configurations, why an HRV is not a dehumidifier, and the honest cases for buying a portable instead.", date: '2026-08-22', category: 'tick' as const },
+]
+
+// ── Autumn-exclusion wave (Aug 22 2026) — wildlife cluster, autumn-peaked ─────
+// Built off the first per-cluster Amazon.ca earnings export: wildlife earns
+// $0.465 EPC / ~$6.89 per page per month and peaks in autumn/winter, exactly when
+// the mosquito cluster (74% of clicks) goes dormant in October. Both pages sell
+// multi-unit exclusion hardware in the 6% Tools & Home Improvement / Patio bands
+// rather than single low-basket items: a roof has several vents, and a hedge is
+// bought by the linear foot. Deliberately a UNIQUELY NAMED array — four separate
+// NEW_BLOGS_39 declarations collided in this file during the 22 Aug wave.
+export const NEW_BLOGS_AUTUMN_EXCLUSION = [
+  { slug: "best-raccoon-proof-roof-vent-covers-canada", title: "Best Raccoon-Proof Roof Vent Covers Canada 2026 — Steel Guards That Actually Hold", excerpt: "Raccoon-proof roof vent covers in Canada: the gauge and mesh that decide whether a guard holds, why fastening into the deck rather than the plastic vent matters, the soffit return everybody misses, and the autumn install window.", date: '2026-08-22', category: 'mosquito' as const },
+  { slug: "how-to-stop-deer-eating-cedars-ontario", title: "How to Stop Deer Eating Your Cedars in Ontario — The Winter Plan That Actually Holds", excerpt: "Stop deer eating your cedars in Ontario: burlap on stakes, deer netting and egg-solids repellents — why browsed arborvitae barely regrows, how to size the wrap for snow lift, and the pre-freeze install deadline.", date: '2026-08-22', category: 'tick' as const },
+]
+
 // ── Season helpers ─────────────────────────────────────────────────────────────
 
 export const PEAK_SEASON = 'May through July'
 export const SERVICE_SEASON = 'May through September'
+
+// -- Wave: high-basket / counter-seasonal earners, 22 Aug 2026 ---------------
+// Chosen from the first per-cluster Amazon.ca earnings export (30d to 22 Aug),
+// which showed EPC is driven by BASKET SIZE rather than conversion rate: rodent
+// traps convert best on the whole site at 10.96% and earn $0.122 because the
+// basket is $26.63, while dehumidifiers earn $0.772 on a $145.59 basket.
+//
+// These pages therefore target the 6% Amazon.ca bands (Patio / Home / Home
+// Improvement) and large baskets -- screened structures, trapping systems,
+// drainage, sump pumps, patio heat -- and most peak in autumn and winter, when
+// roughly 74% of current site clicks go dormant.
+//
+// Named rather than numbered on purpose: ten arrays were appended concurrently
+// during the 22 Aug build and the NEW_BLOGS_39 slot collided several times. A
+// descriptive name cannot collide with the next wave.
+export const NEW_BLOGS_HIGH_BASKET_AUG22 = [
+  { slug: "battery-backup-sump-pump-canada", title: "Battery Backup Sump Pumps in Canada", excerpt: "A battery backup sump pump keeps an Ontario basement dry when spring storms take the power out. Sizing, batteries, alarms, and what to skip.", date: "2026-08-22", category: "tick" as const },
+  { slug: "best-patio-heater-canada", title: "Best Patio Heaters in Canada for 2026", excerpt: "Propane tower vs electric infrared patio heaters for Canadian yards: BTU and coverage, wind behaviour, running cost per evening, and CSA clearances.", date: "2026-08-22", category: "tick" as const },
+  { slug: "best-sump-pump-for-basement-canada", title: "Best Sump Pumps for Canadian Basements \u2014 Sizing by Lift Height, Switch Failure and Winter Discharge", excerpt: "Sizing a Canadian basement sump pump by lift height, not horsepower \u2014 cast iron vs thermoplastic, why the float switch fails first, and winter discharge.", date: "2026-08-22", category: "tick" as const },
+  { slug: "biogents-bg-mosquitaire-mosquito-trap-canada", title: "Biogents BG-Mosquitaire in Canada: CO2 vs Lure-Only, and What It Costs to Run", excerpt: "Biogents BG-Mosquitaire in Canada: CO2 versus lure-only, real running costs against propane, where to site it, and who should buy something cheaper.", date: "2026-08-22", category: "mosquito" as const },
+  { slug: "brush-cutter-for-overgrown-yard-canada", title: "Brush Cutters for an Overgrown Yard in Canada", excerpt: "Reclaiming an overgrown Canadian yard: string trimmer vs brush blade vs walk-behind, line and blade sizing, blade thrust, PPE, and when to rent instead.", date: "2026-08-22", category: "tick" as const },
+  { slug: "do-fire-pits-repel-mosquitoes-canada", title: "Do Fire Pits Keep Mosquitoes Away? The Honest Canadian Answer", excerpt: "Smoke repels mosquitoes; a smokeless fire pit mostly does not. The honest mechanism, what to buy instead, and how to size a pit for a Canadian yard.", date: "2026-08-22", category: "mosquito" as const },
+  { slug: "fall-yard-cleanup-leaf-blower-canada", title: "Leaf Blowers for Fall Yard Cleanup in Canada", excerpt: "How to pick a leaf blower for a Canadian fall cleanup: CFM vs MPH, sizing by lot, cordless vs gas backpack, vacuum and mulch modes, and winter storage.", date: "2026-08-22", category: "tick" as const },
+  { slug: "fix-standing-water-yard-mosquitoes-canada", title: "Fix Standing Water in Your Yard: The Canadian Drainage Guide", excerpt: "Standing water is the mosquito source, not the symptom. Drain a soggy Ontario yard with $150-$500 of pipe instead of a four-figure contractor quote.", date: "2026-08-22", category: "mosquito" as const },
+  { slug: "green-pool-mosquito-breeding-ontario", title: "Green Pools Breed Mosquitoes in Ontario \u2014 Covering, Circulating and Treating a Pool You Are Not Opening", excerpt: "An algae-green pool is the largest mosquito breeding site on any street. How to cover it, circulate it or larvicide it \u2014 plus the vacant house next door.", date: "2026-08-22", category: "mosquito" as const },
+  { slug: "gutter-guards-mosquito-breeding-canada", title: "Gutter Guards and Mosquito Breeding in Canada", excerpt: "A blocked eavestrough breeds mosquitoes for weeks. Micro-mesh vs foam, aluminium vs plastic, DIY at ~$1-2/ft against ~$22/ft installed in the GTA.", date: "2026-08-22", category: "mosquito" as const },
+  { slug: "hardtop-vs-soft-top-mosquito-gazebo-canada", title: "Hardtop vs Soft-Top Gazebo for Mosquitoes: Which One to Buy in Canada", excerpt: "Hardtop vs soft-top screened gazebo in Canada: mesh density, zipper life, Ontario snow load, anchoring, and whether replacement netting exists in year 3.", date: "2026-08-22", category: "mosquito" as const },
+  { slug: "mosquito-screened-porch-kit-canada", title: "Mosquito Screened Porch Kits in Canada: Screening an Existing Deck or Porch", excerpt: "Screen an existing deck or porch in Canada: DIY track-and-mesh kits vs custom curtains, how to measure, which mesh, and where zip-track fails in wind.", date: "2026-08-22", category: "mosquito" as const },
+  { slug: "mosquito-trap-running-cost-canada", title: "What Mosquito Traps Cost to Run in Canada", excerpt: "Propane tanks, lure cartridges, nets and hydro: what a mosquito trap actually costs to run for a Canadian season, and when spraying is cheaper.", date: "2026-08-22", category: "mosquito" as const },
+  { slug: "mouse-proof-garage-door-seal-canada", title: "Mouse-Proof Your Garage Door (Canada) \u2014 Sealing the Corner Gap", excerpt: "The garage door is the biggest gap in most Ontario homes. Threshold seals, bottom seal profiles, corner inserts, and the mesh fix that keeps mice out.", date: "2026-08-22", category: "tick" as const },
+  { slug: "outdoor-fan-mosquito-control-canada", title: "Outdoor Fans for Mosquito Control in Canada", excerpt: "Fans are the one non-chemical mosquito control that works on a deck. CFM targets, wet vs damp ratings for Ontario, and where to aim them.", date: "2026-08-22", category: "mosquito" as const },
+  { slug: "patio-heater-vs-fire-table-canada", title: "Patio Heater vs Fire Table in Canada \u2014 Which One Actually Keeps You Warm?", excerpt: "Propane fire table or patio heater for a Canadian yard? Heat delivered to people, burn time, covered-porch rules, sizing and clearance, compared honestly.", date: "2026-08-22", category: "tick" as const },
+  { slug: "pergola-mosquito-curtains-canada", title: "Pergola Mosquito Curtains in Canada: Mesh, Tracks & Sizing", excerpt: "Pergola mosquito curtains for Canadian yards: mesh size, ceiling track vs rod, no-see-um mesh for GTA waterfront lots, sizing, and winter storage.", date: "2026-08-22", category: "mosquito" as const },
+  { slug: "pond-aerator-mosquito-larvae-canada", title: "Pond Aerators vs Mosquito Larvae: The Canadian Sizing Guide", excerpt: "Mosquito larvae need a still surface to breathe. Sizing a pond aerator for a Canadian pond, Ontario winterizing, and why a fountain is not aeration.", date: "2026-08-22", category: "mosquito" as const },
+  { slug: "rain-barrel-mosquito-proof-canada", title: "How to Mosquito-Proof a Rain Barrel in Canada", excerpt: "Screen every opening, not just the lid. What mesh to use, why the overflow port is the real gap, diverters, stands and Bti \u2014 for Canadian rain barrels.", date: "2026-08-22", category: "mosquito" as const },
+  { slug: "rodent-proof-compost-bin-canada", title: "Rodent-Proof Compost Bins in Canada \u2014 What Actually Keeps Rats Out", excerpt: "Rodent-proof compost bins for Canadian yards: sealed tumblers, steel bins, hardware-cloth floors, lid clips, winter reality and the cheap retrofit.", date: "2026-08-22", category: "tick" as const },
+]
