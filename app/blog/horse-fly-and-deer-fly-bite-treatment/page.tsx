@@ -106,7 +106,7 @@ export default function HorseFlyDeerFlyBiteTreatmentPage() {
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">Bite Relief Table: What Each Remedy Does</h2>
-          <div className="rounded-xl border border-gray-200 overflow-hidden">
+          <div className="rounded-xl border border-gray-200 overflow-x-auto">
             <table className="w-full text-sm">
               <thead className="bg-brand-50">
                 <tr>
@@ -202,7 +202,7 @@ export default function HorseFlyDeerFlyBiteTreatmentPage() {
           <p className="text-sm text-gray-500">Authority: <a href="https://www.cdc.gov/tularemia/" target="_blank" rel="noopener" className="underline hover:text-brand-700">U.S. Centers for Disease Control and Prevention (CDC) — Tularemia</a>.</p>
 
           <h2>Horse Fly vs Deer Fly vs Mosquito Bite</h2>
-          <table className="not-prose w-full text-sm border-collapse border border-gray-200 rounded-lg overflow-hidden my-4">
+          <table className="min-w-[560px] not-prose w-full text-sm border-collapse border border-gray-200 rounded-lg overflow-hidden my-4">
             <thead className="bg-brand-50">
               <tr>
                 <th className="px-3 py-2 text-left">Feature</th>

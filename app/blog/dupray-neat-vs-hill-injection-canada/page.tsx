@@ -84,6 +84,7 @@ export default function DuprayNeatVsHillInjectionCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Dupray Neat steam cleaner" search="dupray neat steam cleaner" label="Right for most homes" />
 
       <section className="bg-white px-4">
@@ -156,7 +157,6 @@ export default function DuprayNeatVsHillInjectionCanadaPage() {
           <p>Buy the Neat. If you are a household &mdash; one bed, one apartment, a seasonal deep clean, a bed-bug problem you are handling yourself &mdash; the Neat does the identical thermal job as Dupray&rsquo;s commercial Hill Injection for a fraction of the money. The Hill Injection is not a &ldquo;better steamer&rdquo; in the way the price gap implies. It is a machine built for a different customer: somebody whose steamer is a tool of trade, running for hours a day, several jobs a week, where stopping to depressurise and refill is lost billable time.</p>
           <p>That distinction matters because the Amazon shelf does not explain it, and the natural instinct when you are frightened of bed bugs is to buy up. Spending more feels like buying certainty. It is not, and the reason is physics rather than brand loyalty: both machines boil water well past 100&deg;C, both lose most of that heat the moment the vapour leaves the nozzle, and both therefore depend entirely on the person holding the wand moving slowly enough. Technique is the variable. The tier of machine is not.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability for each:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="dupray neat steam cleaner">Dupray Neat on Amazon.ca &rarr;</BuyLink>
@@ -174,8 +174,8 @@ export default function DuprayNeatVsHillInjectionCanadaPage() {
           <h3>3. Duty cycle and the support path</h3>
           <p>Commercial machines are specified to run and keep running, with the seals, service intervals, and parts channel to match. A consumer machine used once a season will outlive you; a consumer machine used eight hours a day will not. This is a genuine difference, and it is precisely why the answer flips for a cleaning contractor. It is also why the used market for commercial steamers is worth treating carefully &mdash; hours matter on these the way kilometres matter on a van.</p>
 
-          <div className="not-prose rounded-xl border border-navy-100 overflow-hidden bg-white shadow-sm my-6 overflow-x-auto">
-            <table className="w-full text-sm">
+          <div className="not-prose rounded-xl border border-navy-100 overflow-x-auto bg-white shadow-sm my-6 overflow-x-auto">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Factor</th>

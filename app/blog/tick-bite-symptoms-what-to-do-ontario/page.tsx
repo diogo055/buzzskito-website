@@ -120,7 +120,7 @@ export default function TickBiteSymptomsPage() {
         <h2>Tick Bite vs. Mosquito Bite vs. Spider Bite: How to Tell the Difference</h2>
         <p>The first thing most people want to know is what the mark actually is. Use this comparison table to tell a tick bite apart from the two things it&apos;s most often confused with. When in doubt, treat an expanding rash after outdoor exposure as a tick bite until a doctor says otherwise.</p>
         <div className="not-prose overflow-x-auto my-6">
-          <table className="w-full text-sm border-collapse">
+          <table className="min-w-[560px] w-full text-sm border-collapse">
             <thead>
               <tr className="bg-brand-50 text-left">
                 <th className="border border-gray-200 px-3 py-2 font-semibold text-brand-900"> </th>

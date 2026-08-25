@@ -108,6 +108,7 @@ export default function MouseRepellentCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Stainless steel wool + copper mesh rodent fill" search="stainless steel wool rodent exclusion" label="What actually keeps mice out" />
 
       <section className="bg-white px-4">
@@ -147,7 +148,7 @@ export default function MouseRepellentCanadaPage() {
             The repellent aisle sells one product for six different problems. Find your row instead &mdash; in four of the six, the answer is not a repellent at all.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Your situation</th>
@@ -263,7 +264,7 @@ export default function MouseRepellentCanadaPage() {
             &ldquo;Mouse repellent&rdquo; is a shelf label, not a mechanism. These six products work in completely different ways, and most of the disappointment comes from buying one that physically cannot reach the animal.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Product</th>
@@ -327,7 +328,6 @@ export default function MouseRepellentCanadaPage() {
           <p>By late September, a heated house in Ontario offers a house mouse everything it needs in one package &mdash; stable warmth, unlimited nesting material in insulation and stored cardboard, food it can reach, and dense cover inside wall voids where nothing can follow. A cotton ball soaked in peppermint oil is a nuisance. It is not a competing offer. There is also a structural reason a scent product can look better on first impression than it turns out to be: it is at its most potent the day you open it and weaker every day after, so how it performs in its first week is not evidence of how it performs in its fourth.</p>
           <p>Two biological details make it worse. Mice habituate: a stimulus that is unpleasant but never actually harmful stops being avoided once the animal has crossed it a few times without consequence. And mice spend the great majority of their time inside structure &mdash; wall cavities, subfloors, soffits, the space above a dropped ceiling &mdash; where an airborne odour in the living room simply does not reach. You can perfume a kitchen thoroughly and change nothing about the nest four inches inside the wall behind the dishwasher.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">The short list that replaces a repellent, in the order you should buy it. Note what these have in common: every product linked anywhere on this page is hardware &mdash; a device rather than a pesticide &mdash; so none of them needs a PCP number, and none of them is the sort of unregistered grey-market repellent the label section warns you off.</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="stainless steel wool rodent exclusion">Steel wool fill &rarr;</BuyLink>

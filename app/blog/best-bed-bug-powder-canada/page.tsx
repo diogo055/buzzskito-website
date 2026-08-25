@@ -100,6 +100,7 @@ export default function BestBedBugPowderCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="CimeXa silica gel insecticide dust" search="cimexa insecticide dust" label="Best overall powder" />
 
       <section className="bg-white px-4">
@@ -181,7 +182,7 @@ export default function BestBedBugPowderCanadaPage() {
             The two main bed-bug powders kill the same way &mdash; by drying the insect out &mdash; but they are not interchangeable, and the duster you apply them with is nearly as important as the powder itself. Here is the honest breakdown, with a live Amazon.ca availability check per option.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Powder / tool</th>
@@ -197,28 +198,28 @@ export default function BestBedBugPowderCanadaPage() {
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best</strong> &mdash; faster kill, very light rate</td>
                   <td className="px-4 py-3 text-gray-700">Long residual in dry cracks &amp; voids</td>
                   <td className="px-4 py-3 text-gray-700">Buy the Canadian-market version</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="cimexa insecticide dust" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="cimexa insecticide dust" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Diatomaceous earth<br /><span className="font-normal text-xs text-gray-500">Doktor Doom, food-grade</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Good</strong> &mdash; slower, heavier film</td>
                   <td className="px-4 py-3 text-gray-700">Cheap, gentle, easy to find</td>
                   <td className="px-4 py-3 text-gray-700">Food-grade only; wear a mask</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="doktor doom diatomaceous earth" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="doktor doom diatomaceous earth" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Bulk food-grade DE<br /><span className="font-normal text-xs text-gray-500">value</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Good</strong> &mdash; slowest, most volume</td>
                   <td className="px-4 py-3 text-gray-700">Whole-home coverage on a budget</td>
                   <td className="px-4 py-3 text-gray-700">Never pool-grade (crystalline silica)</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="food grade diatomaceous earth bulk" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="food grade diatomaceous earth bulk" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Bulb hand-duster<br /><span className="font-normal text-xs text-gray-500">applicator</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Essential</strong> &mdash; meters the film</td>
                   <td className="px-4 py-3 text-gray-700">Fine, even dusting into cracks/voids</td>
                   <td className="px-4 py-3 text-gray-700">Takes practice not to over-puff</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bulb hand duster pest control" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bulb hand duster pest control" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -242,7 +243,6 @@ export default function BestBedBugPowderCanadaPage() {
           <p>The best bed-bug powder for most Canadian homes is a <strong>silica-gel dust</strong> &mdash; the amorphous-silica aerogel sold most recognizably as CimeXa &mdash; because it does the one thing a desiccant dust exists to do more efficiently than anything else on the shelf: it dries bed bugs out fast, at a barely-there application rate, and keeps doing it for months. The classic alternative, <strong>food-grade diatomaceous earth</strong> like Doktor Doom, kills the same way and earns its place on cost, availability, and gentleness, but it is slower and needs a heavier film to match silica. Both belong in the conversation, and this guide explains exactly when each is the smarter buy.</p>
           <p>Before anything else, one honest framing that will save you frustration: a powder is not a fast fix and it is not a complete fix. It is the patient, long-lasting <em>background</em> layer in a plan that also includes heat and physical removal. If you understand that going in, a dust becomes one of the most cost-effective tools you own. If you expect it to clear an infestation on its own in a weekend, it will disappoint you.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the powders and the applicator:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="cimexa insecticide dust">Silica gel dust →</BuyLink>

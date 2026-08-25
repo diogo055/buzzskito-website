@@ -100,6 +100,7 @@ export default function BestFleaSprayForHomeCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Home flea spray with an IGR (carpet & upholstery)" search="flea spray home carpet upholstery igr" label="Check the PCP number" />
 
       <section className="bg-white px-4">
@@ -178,7 +179,7 @@ export default function BestFleaSprayForHomeCanadaPage() {
             Five very different products get sold under the same &ldquo;flea spray&rdquo; shelf label. Only one of them is aimed at the part of the infestation that matters, and one of them is close to a waste of money.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Product type</th>
@@ -194,14 +195,14 @@ export default function BestFleaSprayForHomeCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Adults on contact, plus every egg and larva that develops in the treated area</td>
                   <td className="px-4 py-3 text-gray-700">Pupae inside their cocoons; anything you did not physically reach</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">The pick</strong> &mdash; the only one that breaks the cycle</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="flea spray home carpet upholstery igr" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="flea spray home carpet upholstery igr" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Adulticide-only spray<br /><span className="font-normal text-xs text-gray-500">pyrethrin / permethrin, no IGR</span></td>
                   <td className="px-4 py-3 text-gray-700">Adult fleas it directly contacts &mdash; fast, visible knockdown</td>
                   <td className="px-4 py-3 text-gray-700"><strong>The other 95%</strong> &mdash; eggs, larvae and pupae are untouched</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Half a solution on its own</strong> &mdash; relief now, relapse in two weeks. Buy one only alongside an IGR</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="flea killer spray indoor carpet" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="flea killer spray indoor carpet" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Total-release fogger<br /><span className="font-normal text-xs text-gray-500">the &ldquo;flea bomb&rdquo;</span></td>
@@ -243,7 +244,7 @@ export default function BestFleaSprayForHomeCanadaPage() {
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">Home Flea Spray — Key Facts</h2>
-          <div className="rounded-xl border border-navy-100 overflow-hidden">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto">
             <table className="w-full text-sm">
               <tbody>
                 {[
@@ -283,7 +284,6 @@ export default function BestFleaSprayForHomeCanadaPage() {
           <p>The reasoning behind that recommendation is the single most useful thing on this page. A flea infestation is not the insects you see. Standard entomological breakdowns put a household flea population at roughly <strong>50% eggs, 35% larvae, 10% pupae, and 5% adults</strong>. The adults you spot leaping off the dog are one insect in twenty. Everything else is invisible, and it is not on the pet &mdash; it is in your floor. Female fleas lay eggs on the host, but flea eggs are smooth and non-adhesive by design, so they roll off within hours and land wherever the animal has been: carpet pile, cracks between floorboards, the seam of the sofa cushion, the pet bed, the rug by the back door.</p>
           <p>Once you internalise that split, the product aisle reorganises itself. An adulticide-only spray is engineered against 5% of your problem. It will work &mdash; you will see dead fleas, the biting will ease, and you will believe you have won &mdash; and then, ten to fourteen days later, the eggs that were already in the carpet finish developing and you are back where you started, now convinced the product was junk. It was not junk. It was aimed at the wrong fifth of the population.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the kit &mdash; and on the spray, confirm the PCP registration number on the label photo before you buy:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="flea spray home carpet upholstery igr">IGR home flea spray →</BuyLink>

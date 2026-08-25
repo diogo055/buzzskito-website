@@ -104,7 +104,7 @@ export default function DoTicksFlyOrJumpPage() {
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">Ticks vs Fleas: How Each One Reaches You</h2>
-          <div className="rounded-xl border border-gray-200 overflow-hidden">
+          <div className="rounded-xl border border-gray-200 overflow-x-auto">
             <table className="w-full text-sm">
               <thead className="bg-brand-50">
                 <tr>
@@ -139,7 +139,7 @@ export default function DoTicksFlyOrJumpPage() {
       <section className="py-10 px-4 bg-brand-50/40">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">Tick Movement: Myth vs Fact</h2>
-          <div className="rounded-xl border border-gray-200 overflow-hidden bg-white">
+          <div className="rounded-xl border border-gray-200 overflow-x-auto bg-white">
             <table className="w-full text-sm">
               <thead className="bg-brand-50">
                 <tr>

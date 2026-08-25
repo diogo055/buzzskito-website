@@ -83,6 +83,7 @@ export default function BatteryBackupSumpPumpCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Battery Backup Sump Pump System" search="battery backup sump pump system" label="Best overall" />
 
       <section className="bg-white px-4">
@@ -203,7 +204,7 @@ export default function BatteryBackupSumpPumpCanadaPage() {
                     <td className="px-4 py-3 text-gray-700">{prot}</td>
                     <td className="px-4 py-3 text-gray-700">{band}</td>
                     <td className="px-4 py-3 text-xs text-gray-600">{ongoing}</td>
-                    <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search={search} block>Check price &rarr;</BuyLink></td>
+                    <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search={search} block>Check price on Amazon.ca &rarr;</BuyLink></td>
                   </tr>
                 ))}
               </tbody>
@@ -218,7 +219,6 @@ export default function BatteryBackupSumpPumpCanadaPage() {
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Jump to current Canadian availability &mdash; the complete system, and the battery that decides how long it runs:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="battery backup sump pump system">Check backup systems on Amazon.ca &rarr;</BuyLink>

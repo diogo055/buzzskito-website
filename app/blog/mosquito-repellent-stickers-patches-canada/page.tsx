@@ -79,6 +79,7 @@ export default function MosquitoRepellentStickersPatchesCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="BuzzPatch / NATPAT DEET-free kids' repellent stickers" search="buzzpatch natpat mosquito stickers" label="Most popular for kids" />
 
       <section className="bg-white px-4">
@@ -158,8 +159,8 @@ export default function MosquitoRepellentStickersPatchesCanadaPage() {
           <p className="text-sm text-gray-700 mb-5 leading-relaxed">
             Amazon.ca has the widest selection and the DEET-free kids&rsquo; brands. Well.ca is a solid Canadian source for natural patches. Big-box and Costco stock seasonally &mdash; buy in May or June before the popular kids&rsquo; packs sell out.
           </p>
-          <div className="rounded-xl border border-navy-100 overflow-hidden bg-white shadow-sm">
-            <table className="w-full text-sm">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto bg-white shadow-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Retailer</th>
@@ -199,7 +200,7 @@ export default function MosquitoRepellentStickersPatchesCanadaPage() {
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">Repellent Stickers &amp; Patches: Key Facts</h2>
-          <div className="rounded-xl border border-navy-100 overflow-hidden">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto">
             <table className="w-full text-sm">
               <tbody>
                 {[
@@ -229,7 +230,6 @@ export default function MosquitoRepellentStickersPatchesCanadaPage() {
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Compare current Canadian prices on the best-rated DEET-free stickers and patches:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="buzzpatch mosquito repellent stickers kids">Check kids&rsquo; sticker price on Amazon.ca →</BuyLink>
@@ -239,7 +239,7 @@ export default function MosquitoRepellentStickersPatchesCanadaPage() {
           <h2 id="best-packs">Best-Rated DEET-Free Stickers &amp; Patches Compared</h2>
           <p>All of these work on the same idea &mdash; a slow-release dose of plant oil that scents the air right around the patch. None is a miracle, but they differ in stickiness, oil blend, kid-appeal, and cost per patch. Here is an honest side-by-side with a live Amazon.ca price check for each:</p>
           <div className="not-prose my-6 overflow-x-auto rounded-xl border border-navy-100 shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Product</th>
@@ -255,28 +255,28 @@ export default function MosquitoRepellentStickersPatchesCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Citronella + essential-oil blend</td>
                   <td className="px-4 py-3 text-gray-700">Kids · strollers · cartoon stickers they will wear</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$18 – $28 / 60</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="buzzpatch natpat mosquito stickers" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="buzzpatch natpat mosquito stickers" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Cliganic Patches</td>
                   <td className="px-4 py-3 text-gray-700">Citronella + lemongrass</td>
                   <td className="px-4 py-3 text-gray-700">Budget family packs</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$12 – $20 / 60</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="cliganic mosquito repellent patches" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="cliganic mosquito repellent patches" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Generic Citronella Patches</td>
                   <td className="px-4 py-3 text-gray-700">Citronella oil</td>
                   <td className="px-4 py-3 text-gray-700">Cheapest bulk / stock-up</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$10 – $18 / 60–100</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="citronella mosquito patches bulk" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="citronella mosquito patches bulk" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 font-bold text-brand-800">Para&rsquo;Kito Refillable Clip <span className="font-normal text-xs text-gray-500">(reusable)</span></td>
                   <td className="px-4 py-3 text-gray-700">Geraniol pellet refill</td>
                   <td className="px-4 py-3 text-gray-700">Older kids &amp; adults · lasts longer per dollar</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$18 – $30 + refills</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="parakito mosquito refill clip" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="parakito mosquito refill clip" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -317,7 +317,7 @@ export default function MosquitoRepellentStickersPatchesCanadaPage() {
 
           <h2>Stickers vs Other Kid-Safe Options</h2>
           <p>Stickers are one tool in a bigger kit. Here is how they stack up against the other DEET-free and low-worry approaches Canadian parents reach for:</p>
-          <table className="not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
+          <table className="min-w-[560px] not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
             <thead className="bg-brand-50">
               <tr><th className="px-3 py-2 text-left">Option</th><th className="px-3 py-2 text-left">Protection</th><th className="px-3 py-2 text-left">Duration</th><th className="px-3 py-2 text-left">Baby-safe?</th></tr>
             </thead>

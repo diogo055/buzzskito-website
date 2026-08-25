@@ -100,6 +100,7 @@ export default function SureGuardMattressEncasementReviewCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="SureGuard zippered mattress encasement" search="sureguard mattress encasement bed bug proof" label="Reviewed pick" />
 
       <section className="bg-white px-4">
@@ -152,7 +153,7 @@ export default function SureGuardMattressEncasementReviewCanadaPage() {
             The only spec that decides whether an encasement holds is the zipper end-stop. Here is how SureGuard&rsquo;s Invisi-Zip flap compares to SafeRest&rsquo;s secured end-stop and to a typical budget encasement, with a live Amazon.ca availability check per option.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Encasement</th>
@@ -168,21 +169,21 @@ export default function SureGuardMattressEncasementReviewCanadaPage() {
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Strong</strong> &mdash; fine-tooth Invisi-Zip under a Velcro-sealed flap</td>
                   <td className="px-4 py-3 text-gray-700">Fully waterproof, noiseless, breathable</td>
                   <td className="px-4 py-3 text-gray-700">Active infestation on a slightly friendlier budget</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="sureguard mattress encasement bed bug proof" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="sureguard mattress encasement bed bug proof" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">SafeRest Premium<br /><span className="font-normal text-xs text-gray-500">category leader</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Strong</strong> &mdash; micro-zipper with secured end-stop, published lab claims</td>
                   <td className="px-4 py-3 text-gray-700">Cotton-terry over waterproof membrane</td>
                   <td className="px-4 py-3 text-gray-700">Longest track record; maximum peace of mind</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="saferest mattress encasement" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="saferest mattress encasement" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Budget zippered<br /><span className="font-normal text-xs text-gray-500">e.g. Utopia</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Fair</strong> &mdash; standard tooth, basic end-stop, no flap</td>
                   <td className="px-4 py-3 text-gray-700">Lightweight knit; some not waterproof</td>
                   <td className="px-4 py-3 text-gray-700">Prevention across many beds; rentals, guest rooms</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="utopia bedding zippered mattress encasement" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="utopia bedding zippered mattress encasement" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -206,7 +207,6 @@ export default function SureGuardMattressEncasementReviewCanadaPage() {
           <p>The SureGuard zippered mattress encasement earns a place among the small handful of encasements we would trust for an <em>active</em> bed-bug problem, and it earns it on the strength of one detail: the Invisi-Zip closure. Encasements are a category where the fabric is almost never the problem &mdash; the closure is &mdash; and SureGuard has clearly designed around that reality. If you are choosing between it and the long-time category leader, SafeRest, you are choosing between two genuinely good products, and this review is about where SureGuard&rsquo;s specific strengths and compromises land.</p>
           <p>This is a single-product review. If you want the broader head-to-head across the whole category, our <Link href="/blog/bed-bug-mattress-encasement-canada">bed-bug mattress encasement guide</Link> covers SafeRest, Utopia, and the general buying rules; here we go deep on the SureGuard itself.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability for the SureGuard and its closest alternative:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="sureguard mattress encasement bed bug proof">SureGuard encasement on Amazon.ca →</BuyLink>

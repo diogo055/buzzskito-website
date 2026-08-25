@@ -12,6 +12,8 @@
 //     so dormant visitors get a fresh chance.
 
 import { useEffect, useState } from 'react'
+import { usePathname } from 'next/navigation'
+import { getLandingPage, getReferrer } from '@/lib/attribution'
 
 const HUB_API_URL = process.env.NEXT_PUBLIC_HUB_API_URL || 'https://app.buzzskito.ca'
 const STORAGE_KEY = 'buzzskito-exit-intent-shown'
@@ -41,6 +43,7 @@ function recordShown() {
 }
 
 export default function ExitIntentPopup() {
+  const pathname = usePathname()
   const [open, setOpen] = useState(false)
   const [armed, setArmed] = useState(false)
   const [name, setName] = useState('')
@@ -53,6 +56,12 @@ export default function ExitIntentPopup() {
 
   // Arm after 8 seconds — gives the page time to load + visitor time to
   // engage with content. Firing too early feels gimmicky.
+  // Never on blog routes: the full-screen quote form fires on the
+  // scroll-back-up gesture that precedes a buy click, and on adjacent-pest
+  // pages it advertises a service the page itself says we don't offer.
+  // Same guard pattern as StickyRiskCTA / PressMentionBanner.
+  const onBlog = pathname ? pathname.startsWith('/blog/') : false
+
   useEffect(() => {
     if (isCooldownActive()) return
     const armTimer = setTimeout(() => setArmed(true), 8000)
@@ -99,6 +108,7 @@ export default function ExitIntentPopup() {
   }, [armed, open])
 
   function trigger() {
+    if (onBlog) return
     if (isCooldownActive()) return
     setOpen(true)
     recordShown()
@@ -123,7 +133,11 @@ export default function ExitIntentPopup() {
           phone: phone.trim() || null,
           address: address.trim(),
           service_type: 'both',
-          landing_page: '/exit-intent-popup',
+          // First-touch attribution (was hardcoded '/exit-intent-popup',
+          // which erased which page actually brought the visitor).
+          landing_page: getLandingPage() || '/exit-intent-popup',
+          referrer: getReferrer() || undefined,
+          source_component: 'exit-intent-popup',
         }),
       })
       if (!res.ok) throw new Error('Failed')
@@ -136,6 +150,8 @@ export default function ExitIntentPopup() {
   }
 
   if (!open) return null
+
+  if (onBlog) return null
 
   return (
     <div

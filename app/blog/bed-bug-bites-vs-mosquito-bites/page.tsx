@@ -105,6 +105,7 @@ export default function BedBugBitesVsMosquitoBitesPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Bed bug interceptor cups — settles it overnight" search="bed bug interceptor traps" label="If you suspect bed bugs" />
 
       <section className="bg-white px-4">
@@ -144,7 +145,7 @@ export default function BedBugBitesVsMosquitoBitesPage() {
             Read this from the bottom up if you want the honest version. The fifth row is worth more than the four above it combined, and every experienced inspector treats the first four as reasons to go looking rather than as an answer.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Signal</th>
@@ -259,7 +260,7 @@ export default function BedBugBitesVsMosquitoBitesPage() {
             The question is usually a specific scenario rather than a general one. Find your row.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">What is happening</th>
@@ -314,7 +315,7 @@ export default function BedBugBitesVsMosquitoBitesPage() {
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">Bed Bug vs Mosquito Bites &mdash; Quick Reference</h2>
-          <div className="rounded-xl border border-navy-100 overflow-hidden">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto">
             <table className="w-full text-sm">
               <tbody>
                 {[
@@ -355,7 +356,6 @@ export default function BedBugBitesVsMosquitoBitesPage() {
           <p>That is why guides built around photographs disappoint people. The photograph shows one person&rsquo;s reaction, and yours will differ. It is also why the useful signals are all contextual: <em>where</em> the marks are, <em>when</em> they appeared relative to the exposure, <em>what</em> the arrangement looks like, and <em>what else</em> is in the room. Those you can actually check.</p>
           <p>We should be upfront about our vantage point. BuzzSkito is a licensed mosquito and tick control company in Mississauga serving 19 GTA cities &mdash; mosquitoes are the pest we are actually out in yards treating every week from May to September, and we do not treat bed bugs. So the mosquito half of this page is our day job, the bed bug half is independent research, and we will happily tell you when neither of the products we could sell you is the right answer.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the two items that settle the question:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="bed bug interceptor traps">Interceptor cups &rarr;</BuyLink>

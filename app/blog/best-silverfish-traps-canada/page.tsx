@@ -100,6 +100,7 @@ export default function BestSilverfishTrapsCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Flat insect glue board traps (multi-pack)" search="insect glue board traps multi pack silverfish" label="Best overall trap" />
 
       <section className="bg-white px-4">
@@ -139,7 +140,7 @@ export default function BestSilverfishTrapsCanadaPage() {
             The right trap is a room-by-room answer, not a single product. This is the layout worth ordering for a typical Canadian house.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Room / situation</th>
@@ -253,7 +254,7 @@ export default function BestSilverfishTrapsCanadaPage() {
             &ldquo;Silverfish trap&rdquo; covers five quite different things, and only three of them are traps at all. Here is the honest breakdown, with a live Amazon.ca price check where a purchase makes sense.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Trap type</th>
@@ -269,14 +270,14 @@ export default function BestSilverfishTrapsCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Adhesive sheet laid in the wall-floor junction where silverfish walk at night</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Mapping the house</strong> &mdash; which rooms, how many, trending which way</td>
                   <td className="px-4 py-3 text-gray-700">Glue dies in dust and humidity</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="insect glue board traps multi pack silverfish" block>Check price &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="insect glue board traps multi pack silverfish" block>Check price on Amazon.ca &rarr;</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Covered glue station<br /><span className="font-normal text-xs text-gray-500">Tented / housed trap</span></td>
                   <td className="px-4 py-3 text-gray-700">Same adhesive, sheltered inside a housing with entry openings</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Damp basements</strong> and homes with pets or toddlers</td>
                   <td className="px-4 py-3 text-gray-700">More money per unit of sticky surface</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="covered insect glue trap station tented" block>Check price &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="covered insect glue trap station tented" block>Check price on Amazon.ca &rarr;</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">DIY jar trap<br /><span className="font-normal text-xs text-gray-500">Tape-wrapped glass jar</span></td>
@@ -316,7 +317,7 @@ export default function BestSilverfishTrapsCanadaPage() {
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">Silverfish Trap Buying Checklist</h2>
-          <div className="rounded-xl border border-navy-100 overflow-hidden">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto">
             <table className="w-full text-sm">
               <tbody>
                 {[
@@ -356,7 +357,6 @@ export default function BestSilverfishTrapsCanadaPage() {
           <p>Most successful insect traps work because of chemistry. A yellowjacket trap works because heptyl butyrate smells like food to a yellowjacket from metres away; a pantry moth trap works because a synthetic sex pheromone pulls males in from across a kitchen. Silverfish traps have nothing comparable. There is no consumer silverfish lure with credible evidence behind it, which means a silverfish trap has exactly one working mechanism: a sticky surface, sitting in a place a silverfish was going to walk anyway.</p>
           <p>Once you accept that, the shopping decision collapses into two variables &mdash; how much adhesive area you get, and how many boards you can afford to place. A product with &ldquo;silverfish&rdquo; printed on the box and a premium price attached is selling you a word, not a mechanism. Buy general insect glue boards, buy enough of them to cover every candidate room at once, and spend the money you saved on the thing that actually ends the problem.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the kit:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="insect glue board traps multi pack silverfish">Glue board multi-pack &rarr;</BuyLink>

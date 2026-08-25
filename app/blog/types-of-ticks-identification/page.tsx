@@ -206,8 +206,8 @@ export default function TypesOfTicksIdentificationPage() {
       <section className="py-10 px-4 bg-brand-50/40">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">Tick Size by Life Stage</h2>
-          <div className="rounded-xl border border-gray-200 overflow-hidden bg-white">
-            <table className="w-full text-sm">
+          <div className="rounded-xl border border-gray-200 overflow-x-auto bg-white">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-50">
                 <tr>
                   <th className="px-3 py-2 text-left">Life stage</th>

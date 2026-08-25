@@ -161,7 +161,7 @@ export default function CanLymeDiseaseKillYouPage() {
         </p>
 
         <div className="not-prose overflow-x-auto my-6">
-          <table className="w-full text-sm border-collapse">
+          <table className="min-w-[560px] w-full text-sm border-collapse">
             <thead>
               <tr className="bg-brand-900 text-white">
                 <th className="p-3 text-left">Stage</th>

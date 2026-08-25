@@ -33,12 +33,17 @@ export default function StickyBuyBar({
       <div className="mx-2 mb-2 flex items-center gap-3 rounded-2xl border border-gray-200 bg-white/95 px-3 py-2.5 shadow-2xl backdrop-blur">
         <div className="min-w-0 flex-1">
           <p className="text-[11px] font-extrabold uppercase tracking-wide text-amber-700 leading-none">{label}</p>
-          <p className="mt-0.5 truncate text-sm font-bold text-brand-900 leading-tight">{name}</p>
+          <p className="mt-0.5 line-clamp-2 text-sm font-bold text-brand-900 leading-tight">{name}</p>
         </div>
         <BuyLink search={search} asin={asin} tag={tag} className="shrink-0 !px-5 !py-2.5">
           {cta} →
         </BuyLink>
       </div>
+      {/* Disclosure travels WITH the bar so the first affiliate surface a
+          mobile reader meets is never undisclosed. */}
+      <p className="mx-2 mb-1 text-center text-[10px] leading-tight text-gray-500">
+        As an Amazon Associate, BuzzSkito earns from qualifying purchases.
+      </p>
     </StickyBarShell>
   )
 }

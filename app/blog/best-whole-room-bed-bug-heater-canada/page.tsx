@@ -100,6 +100,7 @@ export default function BestWholeRoomBedBugHeaterCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Portable bed bug heat treatment system" search="portable bed bug heater treatment" label="Best overall" />
 
       <section className="bg-white px-4">
@@ -181,7 +182,7 @@ export default function BestWholeRoomBedBugHeaterCanadaPage() {
             &ldquo;Bed bug heater&rdquo; covers several very different machines that solve different parts of the job. Here is the honest breakdown for a Canadian home, with a live Amazon.ca availability check per type.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Equipment type</th>
@@ -197,21 +198,21 @@ export default function BestWholeRoomBedBugHeaterCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Movable furniture, mattress, and belongings loaded inside</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best</strong> &mdash; walls contain the heat</td>
                   <td className="px-4 py-3 text-gray-700">Premium price; only treats what fits inside</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="zappbug room large heater" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="zappbug room large heater" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Portable room heater<br /><span className="font-normal text-xs text-gray-500">Nuventa-style forced air</span></td>
                   <td className="px-4 py-3 text-gray-700">Ambient room air, fixed structure, immovable furniture</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Good</strong> &mdash; if the room is sealed and small</td>
                   <td className="px-4 py-3 text-gray-700">Cold spots; insulation and leaks; sizing limits</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="nuventa portable bed bug heater" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="nuventa portable bed bug heater" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Mid-size heat chamber<br /><span className="font-normal text-xs text-gray-500">portable box</span></td>
                   <td className="px-4 py-3 text-gray-700">Clothing, luggage, bedding, books &mdash; movable items only</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">N/A</strong> &mdash; not a room tool</td>
                   <td className="px-4 py-3 text-gray-700">Capacity per cycle; cannot treat structure</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="zappbug portable heat chamber" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="zappbug portable heat chamber" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Grey-market commercial<br /><span className="font-normal text-xs text-gray-500">US 240V heater</span></td>
@@ -242,7 +243,6 @@ export default function BestWholeRoomBedBugHeaterCanadaPage() {
           <p>The best whole-room bed bug heat equipment for a Canadian home is a <strong>purpose-built portable heat system</strong> matched to the room you are treating &mdash; either a room-scale collapsible enclosure like the ZappBug Room that you load with furniture and belongings, or a dedicated forced-air portable heater such as a Nuventa unit that raises the ambient air of the room itself. Which one is &ldquo;best&rdquo; is not a fixed answer; it depends entirely on where the bugs are living. If they are in things you can move or fold, the enclosure wins because its walls do the containment for you. If they are dug into baseboards, wall voids, or a heavy bed you cannot take apart, you need a heater that treats the fixed structure in place.</p>
           <p>What both approaches share is the one thing that actually decides whether the treatment works: <strong>every hidden spot in the room has to reach and hold a lethal temperature</strong>. Bed bugs are killed by heat, but their eggs are stubborn, and eggs buried in a mattress core or tucked into a cold corner are exactly where amateur heat jobs leave survivors. The rest of this guide is about how to buy and run equipment that actually gets the cold spots hot &mdash; because that, not the wattage on the box, is where the money is won or lost.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the main heat-equipment types:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="zappbug room large heater">Room-scale enclosure →</BuyLink>

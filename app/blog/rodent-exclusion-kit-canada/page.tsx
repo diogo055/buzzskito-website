@@ -100,6 +100,7 @@ export default function RodentExclusionKitCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Copper mesh rodent exclusion roll" search="copper mesh rodent control" label="Best overall" />
 
       <section className="bg-white px-4">
@@ -181,7 +182,7 @@ export default function RodentExclusionKitCanadaPage() {
             Every material below gets sold for &ldquo;mouse-proofing&rdquo; somewhere. Only some of them survive rodent teeth and a Canadian winter. Here is the honest matrix, with a live Amazon.ca price check on the ones worth buying.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Material</th>
@@ -197,28 +198,28 @@ export default function RodentExclusionKitCanadaPage() {
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Yes</strong></td>
                   <td className="px-4 py-3 text-gray-700">Years &mdash; does not rust</td>
                   <td className="px-4 py-3 text-gray-700">Gaps, pipe penetrations, weep holes, corners</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="copper mesh rodent control" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="copper mesh rodent control" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Stainless-steel wool</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Yes</strong></td>
                   <td className="px-4 py-3 text-gray-700">Years &mdash; rust-resistant grade</td>
                   <td className="px-4 py-3 text-gray-700">Same jobs as copper mesh; denser pack</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="stainless steel wool rodent exclusion" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="stainless steel wool rodent exclusion" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">1/4&Prime; hardware cloth</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Yes</strong></td>
                   <td className="px-4 py-3 text-gray-700">Years &mdash; galvanized</td>
                   <td className="px-4 py-3 text-gray-700">Vents, soffit gaps, under decks &mdash; anything that must breathe</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="hardware cloth 1/4 inch galvanized" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="hardware cloth 1/4 inch galvanized" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Exterior sealant</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">No &mdash; lock only</strong></td>
                   <td className="px-4 py-3 text-gray-700">Years when exterior-grade</td>
                   <td className="px-4 py-3 text-gray-700">Over mesh plugs; hairline gaps under 6 mm</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="exterior polyurethane sealant masonry" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="exterior polyurethane sealant masonry" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Ordinary steel wool</td>
@@ -251,7 +252,7 @@ export default function RodentExclusionKitCanadaPage() {
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">Rodent Exclusion — Key Facts</h2>
-          <div className="rounded-xl border border-navy-100 overflow-hidden">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto">
             <table className="w-full text-sm">
               <tbody>
                 {[
@@ -288,7 +289,6 @@ export default function RodentExclusionKitCanadaPage() {
           <p>The logic of exclusion is worth stating plainly, because it inverts how most people fight mice. Trapping removes the mice that got in; exclusion removes the getting-in. A house mouse population compounds fast enough — a female can produce five to ten litters a year — that a house with open entry points is never &ldquo;done&rdquo; trapping. Seal the building and one autumn of honest work replaces every future October of catch-and-refill. Pest control professionals are blunt about this among themselves: exclusion is the part of rodent work that actually ends problems. The materials are cheap and none of them require any pesticide registration, which makes this the rare pest project with no regulatory footprint at all.</p>
           <p>What makes this a <em>Canadian</em> guide rather than a rewrite of American advice: our freeze-thaw cycles destroy ordinary steel wool in months, our brick-veneer housing stock makes weep holes a first-class entry point that US guides barely mention, and our October indoor-migration window puts a hard deadline on the work that milder climates never enforce.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the kit components:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="copper mesh rodent control">Copper mesh roll →</BuyLink>

@@ -101,6 +101,7 @@ export default function BestFleaBombCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Pet-hair vacuum with a beater bar and sealed filtration" search="upright vacuum pet hair carpet sealed hepa" label="The buy that always helps" />
 
       <section className="bg-white px-4">
@@ -208,7 +209,7 @@ export default function BestFleaBombCanadaPage() {
             Every flea method should be judged on one question: <em>which life stages does it touch?</em> A flea population is roughly 5% adults and 95% eggs, larvae and pupae, so anything that only handles adults is buying you days, not weeks. Here is the honest comparison.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Method</th>
@@ -238,14 +239,14 @@ export default function BestFleaBombCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Mechanical removal and kill; heat and agitation destroy every soft-bodied stage</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Eggs, larvae, adults</strong> &mdash; and flushes pupae out of dormancy</td>
                   <td className="px-4 py-3 text-gray-700">Requires daily discipline for weeks; nobody wants to hear it</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="upright vacuum pet hair carpet sealed hepa" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="upright vacuum pet hair carpet sealed hepa" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Plug-in light trap<br /><span className="font-normal text-xs text-gray-500">monitor first, kill second</span></td>
                   <td className="px-4 py-3 text-gray-700">Warm light lures host-seeking adults onto a sticky pad overnight</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Adults only</strong> &mdash; but gives you a measurable trend line</td>
                   <td className="px-4 py-3 text-gray-700">Never a cure on its own; useless if placed near a competing light</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="flea trap plug in" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="flea trap plug in" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 font-bold text-brand-800">Vet-directed pet treatment<br /><span className="font-normal text-xs text-gray-500">the actual source</span></td>
@@ -268,7 +269,7 @@ export default function BestFleaBombCanadaPage() {
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">Flea Bomb Buying &mdash; Key Facts</h2>
-          <div className="rounded-xl border border-navy-100 overflow-hidden">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto">
             <table className="w-full text-sm">
               <tbody>
                 {[
@@ -305,7 +306,6 @@ export default function BestFleaBombCanadaPage() {
           <p>Probably not &mdash; and it is worth being blunt about that at the top of a page that could very easily just sell you one. &ldquo;Flea bomb&rdquo; is the search people reach for at 9 p.m. in a hallway, holding a can and wondering whether to set it off. The answer, for a normal furnished house with a pet and carpet, is that a total-release fogger will cost you an evening out of the house, a full re-clean of every kitchen surface, and a fortnight of false hope.</p>
           <p>The reason is not that foggers use bad insecticide. The actives inside them are, in most cases, the same pyrethrins and pyrethroids you would find in a pump bottle. The problem is <em>delivery</em>. A fogger discharges the entire can into the air, the droplets drift on room currents, and gravity takes over &mdash; leaving a thin deposit on every upward-facing, unobstructed surface: the top of the couch, exposed carpet pile, the counter you forgot to cover, the kids&rsquo; toys. That is a reasonable way to kill a flying insect that lands in the open. It is close to the worst possible way to kill a flea.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the two tools you can simply buy &mdash; a vacuum and a light trap are unregulated hardware with no label to verify. The third thing that works, an IGR premise spray, is a registered pesticide and gets no link from us: the listing copy is not the label, so buy that one where you can read the PCP registration number and confirm fleas are on the pest list.</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="upright vacuum pet hair carpet sealed hepa">Pet-hair vacuum →</BuyLink>

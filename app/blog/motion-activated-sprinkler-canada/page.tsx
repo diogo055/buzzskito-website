@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
+import AmazonLink from '@/components/AmazonLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import SpecialistDisclosure from '@/components/SpecialistDisclosure'
 import AwardRow from '@/components/AwardRow'
@@ -100,13 +101,14 @@ export default function MotionActivatedSprinklerCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Orbit Yard Enforcer motion-activated sprinkler" search="orbit yard enforcer motion activated sprinkler" label="Best overall" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The best motion-activated sprinkler in Canada is the Orbit Yard Enforcer — its infrared sensor spots animals up to roughly 12 metres away across a 120-degree arc, its day/night selector lets you target nocturnal raccoons without soaking daytime birds or kids, and one 9V battery lasts the whole season. It is the rare deterrent that is humane, chemical-free, and needs no PMRA registration.</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The best motion-activated sprinkler in Canada is the <AmazonLink search="orbit yard enforcer motion activated sprinkler" tag={AMZ_TAG} className="font-bold underline decoration-emerald-500 underline-offset-2 hover:text-emerald-900">Orbit Yard Enforcer</AmazonLink> — its infrared sensor spots animals up to roughly 12 metres away across a 120-degree arc, its day/night selector lets you target nocturnal raccoons without soaking daytime birds or kids, and one 9V battery lasts the whole season. It is the rare deterrent that is humane, chemical-free, and needs no PMRA registration.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
               <li>Detects warm moving animals up to ~12 m away over a 120° arc, then fires a startling 5-second burst — about 2 cups of water per activation.</li>
               <li>Day-only, night-only, and 24-hour sensing modes: night-only is the raccoon and skunk setting; 24-hour is the cat setting.</li>
@@ -116,6 +118,9 @@ export default function MotionActivatedSprinklerCanadaPage() {
               <li>It is a mechanical device, not a pesticide — no PMRA registration needed, unlike the grey-market US repellent granules with no Canadian PCP number.</li>
             </ul>
             <p className="mt-3 text-xs text-gray-500">— BuzzSkito Pest Product Guides · independent Canadian research</p>
+            <div className="mt-4">
+              <BuyLink search="orbit yard enforcer motion activated sprinkler" tag={AMZ_TAG} block className="sm:w-auto sm:min-h-0 sm:inline-flex sm:rounded-full sm:px-4 sm:py-2">Check price on Amazon.ca →</BuyLink>
+            </div>
           </div>
           <SpecialistDisclosure pest="wildlife (raccoons, squirrels, cats)" />
         </div>
@@ -167,7 +172,7 @@ export default function MotionActivatedSprinklerCanadaPage() {
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">Motion-Activated Sprinklers — Key Facts</h2>
-          <div className="rounded-xl border border-navy-100 overflow-hidden">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto">
             <table className="w-full text-sm">
               <tbody>
                 {[
@@ -213,7 +218,6 @@ export default function MotionActivatedSprinklerCanadaPage() {
           </ul>
           <p>Detection reaches out to roughly 12 metres across an arc adjustable up to 120 degrees, and collars on the sprinkler head let you set both the spray distance and the width of the water pattern independently of the sensing zone. Each activation lasts about five seconds and uses around two cups of water — the point is startle, not irrigation. A single 9V battery drives the whole show for approximately 7,500 activation cycles, which in real Canadian use means you install a fresh battery in April and forget about it until Thanksgiving.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the three picks:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="orbit yard enforcer motion activated sprinkler">Orbit Yard Enforcer →</BuyLink>
@@ -222,8 +226,8 @@ export default function MotionActivatedSprinklerCanadaPage() {
           </div>
 
           <h2>Comparison: Orbit Yard Enforcer vs Pro vs Budget Clones</h2>
-          <div className="not-prose rounded-xl border border-navy-100 overflow-hidden bg-white shadow-sm my-6 overflow-x-auto">
-            <table className="w-full text-sm">
+          <div className="not-prose rounded-xl border border-navy-100 overflow-x-auto bg-white shadow-sm my-6 overflow-x-auto">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Model</th>
@@ -239,21 +243,21 @@ export default function MotionActivatedSprinklerCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Day / night / 24-hr selector + intelligent false-trigger filtering</td>
                   <td className="px-4 py-3 text-gray-700">~12 m range, 120° arc; ~7,500 cycles per 9V</td>
                   <td className="px-4 py-3 text-xs text-gray-600">Best overall — raccoons, cats, squirrels on a typical suburban lot</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="orbit yard enforcer motion activated sprinkler" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="orbit yard enforcer motion activated sprinkler" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Orbit Yard Enforcer Pro</td>
                   <td className="px-4 py-3 text-gray-700">Same day/night platform, upgraded build</td>
                   <td className="px-4 py-3 text-gray-700">Wider detection footprint per unit; 9V battery</td>
                   <td className="px-4 py-3 text-xs text-gray-600">Large or rural lots with multiple animal approach routes</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="orbit yard enforcer pro motion activated sprinkler" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="orbit yard enforcer pro motion activated sprinkler" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Budget PIR clones<br /><span className="font-normal text-xs text-gray-500">Hoont-style jet sprays</span></td>
                   <td className="px-4 py-3 text-gray-700">Usually motion-only — no day/night selector</td>
                   <td className="px-4 py-3 text-gray-700">Shorter range; AA batteries or small solar panels</td>
                   <td className="px-4 py-3 text-xs text-gray-600">One small garden bed on a tight budget; expect quality lottery</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="motion activated sprinkler animal repellent" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="motion activated sprinkler animal repellent" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
               </tbody>
             </table>

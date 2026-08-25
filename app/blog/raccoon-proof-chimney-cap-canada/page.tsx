@@ -92,6 +92,7 @@ export default function RaccoonProofChimneyCapCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Stainless steel chimney cap with animal screen" search="stainless steel chimney cap animal guard" label="The permanent fix" />
 
       <section className="bg-white px-4">
@@ -173,7 +174,7 @@ export default function RaccoonProofChimneyCapCanadaPage() {
             Buying the wrong class is the most common mistake here, and it is entirely avoidable &mdash; go up, look, and measure before you order. Find your chimney type on the left.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">What you have</th>
@@ -189,35 +190,35 @@ export default function RaccoonProofChimneyCapCanadaPage() {
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Single-flue clamp-on cap</strong></td>
                   <td className="px-4 py-3 text-gray-700">Outside dimensions of the tile, plus its height above the crown</td>
                   <td className="px-4 py-3 text-gray-700">Friction fit, or a loose clamp — levered off</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="stainless steel single flue chimney cap animal guard" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="stainless steel single flue chimney cap animal guard" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Masonry chimney, two or more flues, or a flush tile</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Multi-flue crown cap</strong></td>
                   <td className="px-4 py-3 text-gray-700">Outside dimensions of the whole crown</td>
                   <td className="px-4 py-3 text-gray-700">Undersized span; masonry anchors skipped</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="multi flue chimney cap stainless steel" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="multi flue chimney cap stainless steel" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Factory-built metal chimney in a framed chase</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Stainless chase cover + round cap</strong></td>
                   <td className="px-4 py-3 text-gray-700">Chase outside dimensions; flue pipe outside diameter</td>
                   <td className="px-4 py-3 text-gray-700">Galvanized cover rusts through and dishes water</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="stainless steel chimney chase cover" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="stainless steel chimney chase cover" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Fireplace you no longer use</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Top-sealing damper</strong></td>
                   <td className="px-4 py-3 text-gray-700">Flue tile size; cable run to the firebox</td>
                   <td className="px-4 py-3 text-gray-700">Perished gasket left unreplaced</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="top sealing chimney damper stainless" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="top sealing chimney damper stainless" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Roof and gable vents beside the chimney</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Stainless vent guards</strong></td>
                   <td className="px-4 py-3 text-gray-700">Vent opening size and louvre type</td>
                   <td className="px-4 py-3 text-gray-700">Thin plastic louvres pushed straight in</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="stainless steel roof vent guard animal" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="stainless steel roof vent guard animal" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -245,7 +246,6 @@ export default function RaccoonProofChimneyCapCanadaPage() {
           <p>A masonry chimney is an unusually good imitation of a hollow tree, which is the denning site raccoons evolved to use. It is vertical, dry, dark, sheltered from wind, warmer than the outside air because it runs through a heated house, and completely out of reach of coyotes and dogs. At the bottom of an open fireplace flue sits the <strong>smoke shelf</strong> &mdash; the small flat ledge just above the damper &mdash; and that shelf is the most common raccoon natal den in urban Ontario. A raccoon climbs brick without effort, and almost nobody looks at their own chimney top.</p>
           <p>The seasonality follows the biology. Autumn is when raccoons shop for winter denning sites, so chimney occupancy climbs from October onward. Ontario litters arrive from roughly March through May, and kits stay in the den, unable to climb, for something like eight to twelve weeks. That gives you two very different problems wearing the same costume: an autumn or winter raccoon is usually a single adult that can be evicted in a few days, while a spring raccoon is a family and the cap has to wait. Getting that distinction right is the difference between a fixed chimney and a wildlife tragedy sealed inside your masonry.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the exclusion hardware:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="stainless steel single flue chimney cap animal guard">Single-flue stainless cap →</BuyLink>
@@ -283,7 +283,7 @@ export default function RaccoonProofChimneyCapCanadaPage() {
           <p>A raccoon that loses the chimney does not leave the neighbourhood &mdash; it tries the next opening on the same roof. So treat the cap as one line on a roofline checklist. The usual runners-up are plastic roof and soffit vents that push straight in, a curled plumbing-stack boot, an open gable vent, a soft fascia corner where an upper roof meets a lower one, and the join above an attached garage. Stainless vent guards handle the vents; heavier galvanized hardware cloth handles the odd gaps. Do the walk-around in early autumn, before denning season is properly underway, and you fix the whole roof once rather than chasing an animal from opening to opening all winter. For ground-level den sites &mdash; decks, sheds, and porches &mdash; the buried L-footer method in our <Link href="/blog/raccoon-deterrent-canada">deterrent guide</Link> is the equivalent permanent fix, and our <Link href="/blog/best-live-animal-trap-canada">live trap guide</Link> explains why capture is the wrong tool in every one of these scenarios.</p>
 
           <h2>Chimney Exclusion — Key Facts</h2>
-          <div className="not-prose rounded-xl border border-navy-100 overflow-hidden my-6 overflow-x-auto">
+          <div className="not-prose rounded-xl border border-navy-100 overflow-x-auto my-6 overflow-x-auto">
             <table className="w-full text-sm">
               <tbody>
                 {[

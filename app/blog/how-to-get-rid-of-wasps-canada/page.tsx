@@ -96,6 +96,7 @@ export default function HowToGetRidOfWaspsCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="RESCUE! WHY Trap (wasps, hornets & yellowjackets)" search="rescue why trap" label="Best all-round trap" />
 
       <section className="bg-white px-4">
@@ -141,8 +142,8 @@ export default function HowToGetRidOfWaspsCanadaPage() {
           <p><strong>Yellowjackets</strong> (Vespula species — the German and common yellowjacket in the east, with the western yellowjacket on the prairies and in BC) are stockier, boldly yellow-and-black, and fly with legs tucked. They build <em>enclosed</em> paper nests you usually cannot see: underground in old rodent burrows, inside wall voids and soffits, or buried in dense hedges. Colonies explode through summer and can hold 1,000 to 4,000 workers by late August — which is also when yellowjackets switch to scavenging your BBQ, garbage, and pop cans. These are Canada&rsquo;s late-summer patio menace, and the ground-nesting variety gets its own dedicated playbook in our <Link href="/blog/how-to-get-rid-of-ground-wasps-canada">ground wasp guide</Link>.</p>
           <p><strong>Bald-faced hornets</strong> (Dolichovespula maculata) are not true hornets at all — they are aerial yellowjackets, black with ivory-white face markings. They build the iconic grey, football-shaped paper nest hanging from a tree branch, shrub, or eave, growing to basketball size by August with 100 to 400 workers inside. They defend a roughly 2-metre radius around the nest fiercely, and they can spray venom at the eyes of a perceived attacker. One reassurance for anxious searchers: the northern giant hornet (the so-called &ldquo;murder hornet&rdquo;) was declared eradicated from British Columbia in December 2024 and is not established anywhere in Canada.</p>
 
-          <div className="not-prose rounded-xl border border-navy-100 overflow-hidden bg-white shadow-sm my-6 overflow-x-auto">
-            <table className="w-full text-sm">
+          <div className="not-prose rounded-xl border border-navy-100 overflow-x-auto bg-white shadow-sm my-6 overflow-x-auto">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Species</th>
@@ -176,7 +177,7 @@ export default function HowToGetRidOfWaspsCanadaPage() {
 
           <h2>Step 3: DIY or Hire? The Honest Decision Line</h2>
           <p>This is the question that matters most, and the honest answer is that plenty of Canadian wasp jobs are <em>not</em> DIY jobs. Here is the line we would draw for our own houses:</p>
-          <div className="not-prose rounded-xl border border-navy-100 overflow-hidden bg-white shadow-sm my-6 overflow-x-auto">
+          <div className="not-prose rounded-xl border border-navy-100 overflow-x-auto bg-white shadow-sm my-6 overflow-x-auto">
             <table className="w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
@@ -217,7 +218,6 @@ export default function HowToGetRidOfWaspsCanadaPage() {
           </ul>
           <p>One seasonal note that saves money: colonies discovered in late September are weeks from natural death. Every Canadian wasp colony dies with the first hard frosts, and old nests are never reused — only new queens survive winter, and they start from scratch elsewhere. A late-fall nest in an out-of-the-way corner can often simply be left to die.</p>
 
-          <AffiliateDisclosure />
 
           <h2>Trap Strategy: The Part Most People Get Backwards</h2>
           <p>Traps are the most misused tool in wasp control, because the two things that make them work — timing and placement — are printed nowhere on the box. A trap does not eliminate a nest; an established colony produces new workers faster than any trap catches them. What traps do brilliantly is <em>intercept</em>: spring queens before they found colonies, and late-summer foragers before they reach your table.</p>
@@ -225,8 +225,8 @@ export default function HowToGetRidOfWaspsCanadaPage() {
           <p><strong>Rule two: 6+ metres from where people sit.</strong> A baited trap is an attractant. Hung on the patio umbrella, it pulls every forager in the neighbourhood toward your lunch. Hung at the fence line downwind, it pulls them away. Distance is the entire difference between a trap that helps and a trap that makes things worse.</p>
           <p>Which trap? The RESCUE! WHY trap is our all-rounder because its lure attracts all three groups — paper wasps included, which most heptyl-butyrate yellowjacket lures ignore. We tore it down component by component in our <Link href="/blog/rescue-why-trap-review-canada">RESCUE! WHY trap review</Link>. If your problem is purely late-summer yellowjackets around food, a dedicated unit compared in our <Link href="/blog/best-yellow-jacket-trap-canada">yellowjacket trap guide</Link> is cheaper per catch, and the broader field — bag traps, bottle traps, DIY soda-bottle designs — is ranked in the <Link href="/blog/best-wasp-trap-canada">best wasp trap roundup</Link>.</p>
 
-          <div className="not-prose rounded-xl border border-navy-100 overflow-hidden bg-white shadow-sm my-6 overflow-x-auto">
-            <table className="w-full text-sm">
+          <div className="not-prose rounded-xl border border-navy-100 overflow-x-auto bg-white shadow-sm my-6 overflow-x-auto">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Tool</th>
@@ -240,25 +240,25 @@ export default function HowToGetRidOfWaspsCanadaPage() {
                   <td className="px-4 py-3 font-bold text-brand-800">RESCUE! WHY Trap</td>
                   <td className="px-4 py-3 text-gray-700">All-season, all-species interception; reusable for years</td>
                   <td className="px-4 py-3 text-gray-700">Paper wasps, yellowjackets, bald-faced hornets</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="rescue why trap" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="rescue why trap" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">RESCUE! Yellowjacket Trap</td>
                   <td className="px-4 py-3 text-gray-700">Late-summer patio defence; spring queen trapping</td>
                   <td className="px-4 py-3 text-gray-700">Yellowjackets only (heptyl butyrate lure)</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="rescue yellowjacket trap" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="rescue yellowjacket trap" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Foaming wasp &amp; hornet spray</td>
                   <td className="px-4 py-3 text-gray-700">Night treatment of small exposed nests (PCP-registered cans only)</td>
                   <td className="px-4 py-3 text-gray-700">Direct nest treatment, 2–4 m jet</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="wasp hornet killer foam spray" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="wasp hornet killer foam spray" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Decoy wasp nest</td>
                   <td className="px-4 py-3 text-gray-700">Cheap maybe — territorial paper wasps sometimes avoid &ldquo;claimed&rdquo; areas</td>
                   <td className="px-4 py-3 text-gray-700">Deters some paper wasps; useless on ground nesters</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="wasp nest decoy" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="wasp nest decoy" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
               </tbody>
             </table>

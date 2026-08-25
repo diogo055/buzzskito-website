@@ -100,6 +100,7 @@ export default function GetRidOfBedBugsApartmentCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Bed-bug interceptor traps (under every leg)" search="bed bug interceptor traps" label="Start here" />
 
       <section className="bg-white px-4">
@@ -181,7 +182,7 @@ export default function GetRidOfBedBugsApartmentCanadaPage() {
             No single product clears an apartment. Each one covers a different part of the job, and the plan only works when they run together. Here is the honest breakdown, with a live Amazon.ca availability check per layer.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Layer</th>
@@ -197,28 +198,28 @@ export default function GetRidOfBedBugsApartmentCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Monitor activity + block the climb to the bed</td>
                   <td className="px-4 py-3 text-gray-700">Catch bugs already up in the mattress</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Essential</strong> &mdash; your scoreboard vs reintroduction</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bed bug interceptor traps" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bed bug interceptor traps" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Encasements<br /><span className="font-normal text-xs text-gray-500">mattress + box spring</span></td>
                   <td className="px-4 py-3 text-gray-700">Seal &amp; starve bugs in the biggest harbourage</td>
                   <td className="px-4 py-3 text-gray-700">Treat bugs elsewhere in the room</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Essential</strong> &mdash; saves your mattress</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bed bug mattress encasement zippered" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bed bug mattress encasement zippered" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Silica desiccant dust<br /><span className="font-normal text-xs text-gray-500">CimeXa</span></td>
                   <td className="px-4 py-3 text-gray-700">Long-lasting mechanical barrier in cracks &amp; voids</td>
                   <td className="px-4 py-3 text-gray-700">Work if piled thick or left damp</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Strong</strong> &mdash; no resistance, cheap residual</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="cimexa insecticide dust" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="cimexa insecticide dust" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Registered spray<br /><span className="font-normal text-xs text-gray-500">reachable surfaces</span></td>
                   <td className="px-4 py-3 text-gray-700">Knock down visible bugs on labelled surfaces</td>
                   <td className="px-4 py-3 text-gray-700">Reach eggs, seams, and wall voids</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Support only</strong> &mdash; never the whole plan</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bed bug spray canada" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bed bug spray canada" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -242,7 +243,6 @@ export default function GetRidOfBedBugsApartmentCanadaPage() {
           <p>Getting rid of bed bugs in an apartment is not the same problem as getting rid of them in a house, and the guides that treat it as the same set you up to fail. Three things change the moment you are a renter. First, you share walls, and bed bugs travel through wall voids, outlet boxes, plumbing runs, and baseboard gaps &mdash; so even a perfectly cleared unit can be re-seeded by an untreated neighbour. Second, you cannot do the single most reliable eradication method, whole-room heat treatment, because it needs commercial equipment and access you do not have. Third, and most importantly, in most Canadian provinces the professional extermination is not your bill to pay &mdash; it is your landlord&rsquo;s legal responsibility. Renters also tend to blame the wrong vector: for Toronto tenants who commute, <Link href="/blog/bed-bugs-on-the-ttc-toronto" className="text-brand-700 underline">how much risk transit really carries</Link> is worth reading before replacing a mattress that did not need replacing.</p>
           <p>That reality shapes the whole plan. Your job as a tenant is not to eradicate the building &mdash; it is to <strong>contain your unit, monitor honestly, and force the process forward</strong> with the landlord. The products below do exactly that: they stop the bites tonight, tell you whether the problem is shrinking or being refilled from next door, and prepare your unit so any professional treatment actually lands. For the general (non-apartment) walkthrough, see our <Link href="/blog/how-to-get-rid-of-bed-bugs-canada">full guide to getting rid of bed bugs in Canada</Link>; if you own your place and want the room-by-room DIY protocol, our <Link href="/blog/how-to-get-rid-of-bed-bugs-yourself-diy-canada">DIY bed-bug guide</Link> goes deeper on self-treatment.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the four kit layers:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="bed bug interceptor traps">Interceptor traps →</BuyLink>

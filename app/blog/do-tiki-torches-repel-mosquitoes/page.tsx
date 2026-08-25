@@ -114,7 +114,7 @@ export default function DoTikiTorchesRepelMosquitoesPage() {
       <section className="py-8 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">Tiki Torch Key Facts</h2>
-          <div className="rounded-xl border border-navy-100 overflow-hidden">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto">
             <table className="w-full text-sm">
               <tbody>
                 {[
@@ -173,7 +173,7 @@ export default function DoTikiTorchesRepelMosquitoesPage() {
           <h2>Tiki Torches vs What Actually Works: A Real Comparison</h2>
           <p>Here is how a citronella tiki torch stacks up against the tools that genuinely move the needle in a Canadian backyard:</p>
           <div className="not-prose my-6 overflow-x-auto rounded-xl border border-navy-100 shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Solution</th>

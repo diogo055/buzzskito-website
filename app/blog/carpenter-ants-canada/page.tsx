@@ -104,6 +104,7 @@ export default function CarpenterAntsCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Pinless wood moisture meter" search="pinless wood moisture meter" label="Find the nest first" />
 
       <section className="bg-white px-4">
@@ -181,7 +182,7 @@ export default function CarpenterAntsCanadaPage() {
             These three are routinely mistaken for one another in Ontario, and the correct response to each is completely different &mdash; one is a structural investigation, one is a licensed-inspector emergency, and one is a nuisance you can mostly ignore.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Insect</th>
@@ -227,7 +228,7 @@ export default function CarpenterAntsCanadaPage() {
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">Carpenter Ants in Canada — Key Facts</h2>
-          <div className="rounded-xl border border-navy-100 overflow-hidden">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto">
             <table className="w-full text-sm">
               <tbody>
                 {[
@@ -265,7 +266,6 @@ export default function CarpenterAntsCanadaPage() {
           <p>Kill the ants on the counter and you have removed a tiny fraction of a colony, in the worst possible way: the survivors reroute, the satellite nest relocates a stud bay deeper into the wall, and the trail you could have followed disappears. Find the nest and the treatment part is almost anticlimactic &mdash; a dust into that void, or a bait line on that trail, and it is done.</p>
           <p>So the plan for this page runs in that order. Confirm what you actually have. Read the frass. Work out whether the nest is inside the building or outside it &mdash; the season and the calendar will tell you more than the ants will. Understand the parent-and-satellite structure, because that is why this problem keeps coming back. Find the water, because the ants went where the wood was wet. Then, and only then, treat &mdash; and know the line where DIY stops being the cheaper option, because with carpenter ants that line arrives earlier than people expect.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the diagnostic kit:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="pinless wood moisture meter">Moisture meter &rarr;</BuyLink>

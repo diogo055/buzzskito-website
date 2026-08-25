@@ -100,6 +100,7 @@ export default function RescueWhyTrapReviewCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="RESCUE! WHY Trap (wasps, hornets & yellowjackets)" search="rescue why trap wasp hornet yellowjacket" label="Our verdict: buy it" />
 
       <section className="bg-white px-4">
@@ -169,7 +170,6 @@ export default function RescueWhyTrapReviewCanadaPage() {
           <p>Run the math on a Canadian season and the pattern becomes clear. Wasp pressure in southern Ontario runs from roughly late April to mid-October &mdash; call it 20 to 24 weeks. At a two-week cadence, that is <strong>10 to 12 refill kits per season</strong> if you run the trap continuously. In practice most owners run it hard from May to June for queen season, ease off in mid-summer, then run it again hard from August to frost when yellowjacket colonies peak &mdash; which lands closer to six to eight refills. Either way, over a full season you will spend noticeably more on attractant than you spent on the trap. That is not a scandal &mdash; it is the same razor-and-blades pattern as water filters or Thermacell repellent mats &mdash; but you should walk in knowing the trap is effectively a subscription product.</p>
           <p>Two cost-control tips from the owner community: buy refills two or three kits at a time in spring (big-box stores sell through refill stock by mid-summer in bad wasp years), and in the late-August scavenging peak you can stretch the bottom chamber with simple sugar bait &mdash; with the caveats we cover in the FAQ, chiefly that DIY sugar bait forfeits the bee-safe claim.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the trap and its refills:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="rescue why trap wasp hornet yellowjacket">RESCUE! WHY Trap &rarr;</BuyLink>
@@ -191,8 +191,8 @@ export default function RescueWhyTrapReviewCanadaPage() {
 
           <h2>WHY Trap vs TrapStik vs Disposable Traps</h2>
           <p>RESCUE! itself sells three different answers to the wasp problem, plus the hardware-store shelf is full of single-use bag traps. Here is how the categories compare for a Canadian yard:</p>
-          <div className="not-prose rounded-xl border border-navy-100 overflow-hidden bg-white shadow-sm my-6 overflow-x-auto">
-            <table className="w-full text-sm">
+          <div className="not-prose rounded-xl border border-navy-100 overflow-x-auto bg-white shadow-sm my-6 overflow-x-auto">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Trap</th>
@@ -208,21 +208,21 @@ export default function RescueWhyTrapReviewCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Dual scent lures; wasps enter, cannot exit, dehydrate</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Broadest</strong> &mdash; paper wasps, hornets, yellowjackets</td>
                   <td className="px-4 py-3 text-gray-700">Recurring &mdash; refill kit about every 2 weeks</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="rescue why trap wasp hornet yellowjacket" block>Check price &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="rescue why trap wasp hornet yellowjacket" block>Check price on Amazon.ca &rarr;</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">RESCUE! TrapStik<br /><span className="font-normal text-xs text-gray-500">glue, visual lure</span></td>
                   <td className="px-4 py-3 text-gray-700">Multi-colour visual pattern draws wasps onto adhesive</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Good</strong> for paper wasps at eaves; weaker on yellowjackets</td>
                   <td className="px-4 py-3 text-gray-700">None &mdash; replace the whole stick when full</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="rescue trapstik for wasps" block>Check price &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="rescue trapstik for wasps" block>Check price on Amazon.ca &rarr;</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Disposable bag trap<br /><span className="font-normal text-xs text-gray-500">RESCUE! Yellowjacket disposable</span></td>
                   <td className="px-4 py-3 text-gray-700">Pre-baited bag; add water, hang, toss when full</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Yellowjackets only</strong> &mdash; minimal paper wasp / hornet catch</td>
                   <td className="px-4 py-3 text-gray-700">Full replacement each time &mdash; adds up over a season</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="rescue disposable yellowjacket trap" block>Check price &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="rescue disposable yellowjacket trap" block>Check price on Amazon.ca &rarr;</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">DIY bottle trap<br /><span className="font-normal text-xs text-gray-500">pop bottle + sugar water</span></td>
@@ -250,7 +250,7 @@ export default function RescueWhyTrapReviewCanadaPage() {
           <p>The WHY Trap sidesteps that entire minefield. A scent lure with no killing agent is a <em>device</em>, not a pesticide &mdash; there is no PCP number to check because there is no pesticide to register. It cannot be misapplied, it cannot drift onto the neighbour&rsquo;s vegetable garden, and it is legal in every province including ones with strict cosmetic-pesticide rules. When you do need chemical control for an actual nest, buy it off a Canadian shelf with a PCP registration number on the label &mdash; the <Link href="/blog/best-wasp-nest-spray-canada">Canadian-legal nest sprays</Link> exist and work. And if the nest is inside a wall void, above a second-storey soffit, or anywhere a fall or a swarm is plausible, hiring a licensed exterminator is the sane move; our <Link href="/pest-control-cost-canada">Canadian pest control cost guide</Link> covers what wasp nest removal typically runs.</p>
 
           <h2>RESCUE! WHY Trap &mdash; Key Facts</h2>
-          <div className="not-prose rounded-xl border border-navy-100 overflow-hidden my-6">
+          <div className="not-prose rounded-xl border border-navy-100 overflow-x-auto my-6">
             <table className="w-full text-sm">
               <tbody>
                 {[

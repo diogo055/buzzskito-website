@@ -95,6 +95,7 @@ export default function DiatomaceousEarthCanadaBuyersGuidePage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Safer's Diatomaceous Earth insect killer" search="safers diatomaceous earth" label="Our top pick" />
 
       <section className="bg-white px-4">
@@ -120,7 +121,6 @@ export default function DiatomaceousEarthCanadaBuyersGuidePage() {
         <div className="max-w-3xl mx-auto prose-brand">
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
 
-          <AffiliateDisclosure />
 
           <AwardRow tag={AMZ_TAG}
             heading="Our Picks — PMRA-Registered Diatomaceous Earth in Canada"
@@ -176,8 +176,8 @@ export default function DiatomaceousEarthCanadaBuyersGuidePage() {
 
           <h2>Which Diatomaceous Earth Products Are PMRA-Registered in Canada?</h2>
           <p>Three consumer brands dominate the registered category, and two familiar US names are deliberately absent. Here is the field — including what we will <em>not</em> recommend and why:</p>
-          <div className="not-prose rounded-xl border border-navy-100 overflow-hidden bg-white shadow-sm my-6 overflow-x-auto">
-            <table className="w-full text-sm">
+          <div className="not-prose rounded-xl border border-navy-100 overflow-x-auto bg-white shadow-sm my-6 overflow-x-auto">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Product</th>

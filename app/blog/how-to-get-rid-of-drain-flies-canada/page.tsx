@@ -100,6 +100,7 @@ export default function DrainFliesCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Flexible drain brush set — the tool that removes the biofilm" search="flexible drain cleaning brush set long" label="The thing that actually works" />
 
       <section className="bg-white px-4">
@@ -130,7 +131,7 @@ export default function DrainFliesCanadaPage() {
             Find your row before you buy anything. Two of these rows do not need a product at all, and one of them needs a plumber rather than anything on this page.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Your situation</th>
@@ -246,7 +247,7 @@ export default function DrainFliesCanadaPage() {
             Getting this wrong is the most expensive mistake in the small-fly category, because each one breeds somewhere completely different. Identify first, buy second.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Fly</th>
@@ -292,7 +293,7 @@ export default function DrainFliesCanadaPage() {
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">Drain Flies &mdash; Quick Reference</h2>
-          <div className="rounded-xl border border-navy-100 overflow-hidden">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto">
             <table className="w-full text-sm">
               <tbody>
                 {[
@@ -333,7 +334,6 @@ export default function DrainFliesCanadaPage() {
           <p>Once you accept that, the whole shopping decision reorganises itself. The adults you can see are the output of the film, not the problem. Killing them is optional. And because the life cycle runs roughly 8 to 24 days depending on temperature &mdash; the figure published by <a href="https://extensionentomology.tamu.edu/wp-content/uploads/2017/09/Drain-Flies-Publ.-E-184.pdf" className="text-emerald-700 underline">Texas A&amp;M AgriLife Extension</a> and echoed by <a href="https://www.pubs.ext.vt.edu/ENTO/ENTO-414/ENTO-414.html" className="text-emerald-700 underline">Virginia Cooperative Extension</a> &mdash; a fresh crop appears every week or two for as long as the film survives. That is the entire explanation for &ldquo;I killed them all and they came back.&rdquo;</p>
           <p>So the money question is simple: does what I am about to buy physically remove or digest the film? A brush does. A bacterial product does. An aerosol, a plug-in repeller and a jug of bleach do not, which is why this page keeps steering you toward the least glamorous item in the aisle.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">The two purchases that do the actual work, in order:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="flexible drain cleaning brush set long">Flexible drain brush &rarr;</BuyLink>

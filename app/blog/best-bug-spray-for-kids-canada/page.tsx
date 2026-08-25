@@ -79,6 +79,7 @@ export default function BestBugSprayForKidsCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Natrapel Icaridin 20% insect repellent" search="natrapel icaridin 20%" label="Best for kids" />
 
       <section className="bg-white px-4">
@@ -166,8 +167,8 @@ export default function BestBugSprayForKidsCanadaPage() {
           <p className="text-sm text-gray-700 mb-5 leading-relaxed">
             Health Canada registers personal insect repellents and sets age-based rules for how strong they can be and how often they can be used. Here is the plain-English version parents actually need at the cottage.
           </p>
-          <div className="rounded-xl border border-navy-100 overflow-hidden bg-white shadow-sm overflow-x-auto">
-            <table className="w-full text-sm">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto bg-white shadow-sm overflow-x-auto">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Age</th>
@@ -207,7 +208,7 @@ export default function BestBugSprayForKidsCanadaPage() {
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">Kid-Safe Repellents at a Glance</h2>
-          <div className="rounded-xl border border-navy-100 overflow-hidden">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto">
             <table className="w-full text-sm">
               <tbody>
                 {[
@@ -236,7 +237,6 @@ export default function BestBugSprayForKidsCanadaPage() {
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Compare current Canadian prices on the kid-safe repellents below:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="natrapel icaridin 20%">Icaridin 20% for kids on Amazon.ca →</BuyLink>
@@ -246,7 +246,7 @@ export default function BestBugSprayForKidsCanadaPage() {
           <h2 id="picks">Best Bug Spray for Kids: Safe Picks Compared</h2>
           <p>Every product below is registered with Health Canada and appropriate for children of the listed age. Where a plastic or fabric matters (car seats, sunglasses, rain jackets), remember that <strong>icaridin and DEET-free options don&rsquo;t damage synthetics</strong> — DEET does. Prices are 2026 Canadian ranges from Canadian Tire, Home Depot Canada, MEC, and Amazon.ca.</p>
           <div className="not-prose my-6 overflow-x-auto rounded-xl border border-navy-100 shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Product</th>
@@ -262,42 +262,42 @@ export default function BestBugSprayForKidsCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Icaridin 20%</td>
                   <td className="px-4 py-3 text-gray-700">6 months+</td>
                   <td className="px-4 py-3 text-gray-700">Up to 12 h</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="natrapel icaridin" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="natrapel icaridin" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">PiActive <span className="font-normal text-xs text-gray-500">(Canadian brand)</span></td>
                   <td className="px-4 py-3 text-gray-700">Icaridin 20%</td>
                   <td className="px-4 py-3 text-gray-700">6 months+</td>
                   <td className="px-4 py-3 text-gray-700">Up to 7 h</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="piactive icaridin repellent" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="piactive icaridin repellent" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Sawyer Picaridin <span className="font-normal text-xs text-gray-500">(lotion)</span></td>
                   <td className="px-4 py-3 text-gray-700">Icaridin 20%</td>
                   <td className="px-4 py-3 text-gray-700">6 months+</td>
                   <td className="px-4 py-3 text-gray-700">Up to 12 h</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="sawyer picaridin lotion" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="sawyer picaridin lotion" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">OFF! FamilyCare <span className="font-normal text-xs text-gray-500">(low DEET)</span></td>
                   <td className="px-4 py-3 text-gray-700">DEET 5–10%</td>
                   <td className="px-4 py-3 text-gray-700">6 months+ *</td>
                   <td className="px-4 py-3 text-gray-700">~2–3 h</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="off familycare insect repellent" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="off familycare insect repellent" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">OFF! Botanicals <span className="font-normal text-xs text-gray-500">(DEET-free)</span></td>
                   <td className="px-4 py-3 text-gray-700">Oil of lemon eucalyptus (PMD)</td>
                   <td className="px-4 py-3 text-gray-700">3 years+</td>
                   <td className="px-4 py-3 text-gray-700">~4–6 h</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="off botanicals repellent" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="off botanicals repellent" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 font-bold text-brand-800">Bite Blocker <span className="font-normal text-xs text-gray-500">(toddler-gentle)</span></td>
                   <td className="px-4 py-3 text-gray-700">Soybean oil 2%</td>
                   <td className="px-4 py-3 text-gray-700">6 months+</td>
                   <td className="px-4 py-3 text-gray-700">~2 h</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bite blocker soybean repellent" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bite blocker soybean repellent" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
               </tbody>
             </table>

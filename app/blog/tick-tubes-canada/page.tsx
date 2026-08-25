@@ -90,6 +90,7 @@ export default function TickTubesCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Thermacell Tick Control Tubes" search="thermacell tick control tubes 12 pack" label="Top tick tube pick" />
 
       <section className="bg-white pt-8 px-4">
@@ -115,7 +116,7 @@ export default function TickTubesCanadaPage() {
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">Tick Tubes: Key Facts</h2>
-          <div className="rounded-xl border border-navy-100 overflow-hidden">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto">
             <table className="w-full text-sm">
               <tbody>
                 {[
@@ -160,7 +161,6 @@ export default function TickTubesCanadaPage() {
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Compare current Canadian options and pack sizes:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="thermacell tick control tubes 12 pack">Check price on Amazon.ca →</BuyLink>
@@ -215,7 +215,7 @@ export default function TickTubesCanadaPage() {
 
           <h2>Thermacell vs generic vs DIY tick tubes</h2>
           <p>Not all tubes are equal. Here is how the realistic Canadian options compare.</p>
-          <table className="not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
+          <table className="min-w-[560px] not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
             <thead className="bg-brand-50">
               <tr>
                 <th className="px-3 py-2 text-left">Option</th>

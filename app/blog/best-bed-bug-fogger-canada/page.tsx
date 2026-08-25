@@ -100,6 +100,7 @@ export default function BestBedBugFoggerCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="PMRA-registered total-release fogger (Doktor Doom)" search="doktor doom total release fogger" label="If you must fog" />
 
       <section className="bg-white px-4">
@@ -172,7 +173,7 @@ export default function BestBedBugFoggerCanadaPage() {
             A fogger is one way to deliver a treatment &mdash; and for bed bugs, the worst way. Here is how the aerosol fog stacks up against the delivery methods that reach harbourage, with a live Amazon.ca availability check per option.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Method</th>
@@ -188,35 +189,35 @@ export default function BestBedBugFoggerCanadaPage() {
                   <td className="px-4 py-3 text-gray-700"><strong className="text-red-700">No</strong> &mdash; mist settles on surfaces</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-red-700">Yes</strong> &mdash; pyrethrin actives</td>
                   <td className="px-4 py-3 text-gray-700">Flushing a few exposed insects</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="doktor doom total release fogger" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="doktor doom total release fogger" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Steam<br /><span className="font-normal text-xs text-gray-500">dry-vapour steamer</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Yes</strong> &mdash; into seams &amp; folds</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">No</strong> &mdash; heat, not chemistry</td>
                   <td className="px-4 py-3 text-gray-700">On-contact kill of bugs &amp; eggs</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bed bug steamer" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bed bug steamer" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Heat chamber / heater<br /><span className="font-normal text-xs text-gray-500">ZappBug, PackTite</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Yes</strong> &mdash; heats the whole item</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">No</strong> &mdash; lethal temperature</td>
                   <td className="px-4 py-3 text-gray-700">Portable items, luggage, whole rooms</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bed bug heater chamber" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bed bug heater chamber" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Residual crack-and-crevice<br /><span className="font-normal text-xs text-gray-500">directed spray</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Yes</strong> &mdash; injected into cracks</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Partly</strong> &mdash; product-dependent</td>
                   <td className="px-4 py-3 text-gray-700">Weeks of residual in harbourage</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="doktor doom pro max" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="doktor doom pro max" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Desiccant dust<br /><span className="font-normal text-xs text-gray-500">diatomaceous earth, silica</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Yes</strong> &mdash; blown into voids</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">No</strong> &mdash; physical, not chemical</td>
                   <td className="px-4 py-3 text-gray-700">Long-term kill in wall voids &amp; edges</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="safers diatomaceous earth" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="safers diatomaceous earth" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -240,7 +241,6 @@ export default function BestBedBugFoggerCanadaPage() {
           <p>If you have landed here typing &ldquo;best bed bug fogger,&rdquo; the most useful thing we can tell you is uncomfortable: the honest best fogger is the one you spend the least on, because a fogger is close to the least effective way to fight bed bugs. Among the total-release products actually legal to buy in Canada, a <strong>PMRA-registered pyrethrin fogger from Doktor Doom or Konk</strong> is the sensible pick if you insist on fogging &mdash; they carry a Health Canada registration number, they are widely stocked, and they do their narrow job of misting exposed surfaces. But every one of them shares the same two fatal flaws for this pest, and no brand escapes them.</p>
           <p>Those two flaws are simple. First, the mist cannot reach where bed bugs live. Second, the insecticide the mist carries is chemistry most bed bugs have already evolved to survive. Understanding both is the difference between wasting weeks and actually clearing an infestation, so the rest of this guide walks through them and then lays out the plan that works.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability &mdash; the PMRA-registered foggers, and the tools that actually work:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="doktor doom total release fogger">Doktor Doom fogger →</BuyLink>

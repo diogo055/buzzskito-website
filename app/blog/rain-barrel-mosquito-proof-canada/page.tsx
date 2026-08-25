@@ -157,6 +157,7 @@ export default function RainBarrelMosquitoProofPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Screened barrel + downspout diverter" search="downspout rain barrel diverter kit" label="The core fix" />
 
       <section className="bg-white px-4 pt-8">
@@ -211,7 +212,6 @@ export default function RainBarrelMosquitoProofPage() {
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
-          <AffiliateDisclosure />
 
           <h2>Why the Rain Barrel Became the Problem</h2>
           <p>Municipal and conservation-authority barrel sales have been running across the GTA for years, and they have worked &mdash; there are rain barrels behind an enormous number of Mississauga, Brampton, Oakville and Toronto houses that did not have one a decade ago. What went with them, in a lot of cases, was an open reservoir of warm, still, organically rich water sitting against a south-facing wall.</p>

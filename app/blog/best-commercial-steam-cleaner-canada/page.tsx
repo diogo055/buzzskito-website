@@ -91,6 +91,7 @@ export default function BestCommercialSteamCleanerCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Continuous-fill commercial steam cleaner" search="dupray hill injection commercial steam cleaner" label="Best overall" />
 
       <section className="bg-white px-4">
@@ -171,7 +172,7 @@ export default function BestCommercialSteamCleanerCanadaPage() {
             All four produce hot steam. What separates them is downtime, grease performance, and what state they leave the surface in. Here is the breakdown for a working operator, with a live Amazon.ca availability check per class.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Class</th>
@@ -187,28 +188,28 @@ export default function BestCommercialSteamCleanerCanadaPage() {
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best overall</strong> &mdash; food service, heavy washrooms, full-shift work</td>
                   <td className="px-4 py-3 text-gray-700">None &mdash; top up and keep working</td>
                   <td className="px-4 py-3 text-gray-700">Plate amperage vs the circuit on site</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="dupray hill injection commercial steam cleaner" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="dupray hill injection commercial steam cleaner" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Continuous fill, no injection<br /><span className="font-normal text-xs text-gray-500">value commercial</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best value</strong> &mdash; offices, retail, schools, residential turnovers</td>
                   <td className="px-4 py-3 text-gray-700">None</td>
                   <td className="px-4 py-3 text-gray-700">Slower on heavy kitchen grease</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="continuous fill commercial steam cleaner" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="continuous fill commercial steam cleaner" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Steam + vacuum extraction<br /><span className="font-normal text-xs text-gray-500">soft surfaces</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best</strong> &mdash; upholstery, mattresses, restrooms</td>
                   <td className="px-4 py-3 text-gray-700">Varies; plus waste-tank emptying</td>
                   <td className="px-4 py-3 text-gray-700">Heaviest class and the highest price</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="commercial steam cleaner with vacuum extraction" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="commercial steam cleaner with vacuum extraction" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Single-tank canister<br /><span className="font-normal text-xs text-gray-500">prosumer</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Fair</strong> &mdash; a few hours of steam a week</td>
                   <td className="px-4 py-3 text-gray-700">Roughly 15&ndash;25 min cool, fill and reheat</td>
                   <td className="px-4 py-3 text-gray-700">Not built for a full-shift duty cycle</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="commercial canister steam cleaner boiler" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="commercial canister steam cleaner boiler" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -232,7 +233,6 @@ export default function BestCommercialSteamCleanerCanadaPage() {
           <p>The best commercial steam cleaner for a Canadian operator is a continuous-fill boiler machine with detergent injection, in the 170&ndash;175&nbsp;&deg;C boiler class, from a brand with parts stocked in this country &mdash; Dupray&rsquo;s Hill Injection line being the obvious reference because the company is Canadian. That is the answer. What follows is why those particular specifications, and not the ones the marketing leads with, are the ones that decide whether the machine makes you money.</p>
           <p>Start from the right mental model. A commercial steamer is not a household steamer that happens to be larger. It is a machine engineered around one problem: keeping a boiler hot and pressurised while a person works a full shift. Every meaningful difference in price flows from that &mdash; the second tank and feed pump, the heavier element, the boiler metallurgy, the longer hose and better brushes. If you evaluate machines on steam temperature alone you will overpay for a specification that barely varies across the category and underpay for the ones that do.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the picks:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="dupray hill injection commercial steam cleaner">Continuous fill + injection →</BuyLink>

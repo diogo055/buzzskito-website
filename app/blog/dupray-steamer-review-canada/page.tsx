@@ -100,7 +100,8 @@ export default function DupraySteamerReviewCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar tag={AMZ_TAG} name="Dupray Neat steam cleaner" search="dupray neat steam cleaner" label="Reviewed here" />
+      <AffiliateDisclosure />
+      <StickyBuyBar tag={AMZ_TAG} name="Dupray Neat steam cleaner" asin="B07C44DM6D" search="dupray neat steam cleaner" label="Reviewed here" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -127,6 +128,7 @@ export default function DupraySteamerReviewCanadaPage() {
             label="Our Verdict — Dupray Neat"
             name="Dupray Neat Steam Cleaner"
             blurb="A Canadian-made, boiler-driven dry-vapour steamer that hits the two specs pest work actually needs: genuinely hot, low-moisture steam and a long continuous run so you can treat an entire mattress, box spring, and frame in one session. Corded and deliberate rather than grab-and-go, and it doubles as a chemical-free deep cleaner for kitchens, bathrooms, and floors — which is what makes the price defensible for a household that will keep using it. Not a standalone cure: pair it with a vacuum and interceptor monitoring."
+            asin="B07C44DM6D"
             search="dupray neat steam cleaner"
             score={9.1}
             pros={['Canadian brand — local Amazon.ca stock and warranty', 'Hot dry vapour that kills bugs and eggs, low moisture', 'Long continuous run — whole-bed treatment per fill', 'Doubles as a chemical-free household deep cleaner']}
@@ -143,7 +145,7 @@ export default function DupraySteamerReviewCanadaPage() {
             &ldquo;Steamer&rdquo; covers wildly different machines. For pest control you want the dry-vapour, boiler-driven class the Neat belongs to &mdash; not a wet garment steamer or a flash-heat pod handheld. Here is the honest comparison, with a live Amazon.ca availability check per class.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Steamer class</th>
@@ -159,28 +161,28 @@ export default function DupraySteamerReviewCanadaPage() {
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best</strong> &mdash; high heat, low moisture</td>
                   <td className="px-4 py-3 text-gray-700">Long &mdash; whole bed per fill</td>
                   <td className="px-4 py-3 text-gray-700">Bed bugs + chemical-free deep cleaning</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="dupray neat steam cleaner" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="dupray neat steam cleaner" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Heavy-duty commercial steamer<br /><span className="font-normal text-xs text-gray-500">large boiler</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best</strong> &mdash; high heat, low moisture</td>
                   <td className="px-4 py-3 text-gray-700">Longest &mdash; multi-room / commercial</td>
                   <td className="px-4 py-3 text-gray-700">Frequent or large-scale treatment</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="dupray commercial steam cleaner" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="dupray commercial steam cleaner" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Flash-heat handheld<br /><span className="font-normal text-xs text-gray-500">pod / budget</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Fair</strong> &mdash; heat fades, wetter</td>
                   <td className="px-4 py-3 text-gray-700">Short &mdash; minutes, then refill</td>
                   <td className="px-4 py-3 text-gray-700">Spot touch-ups, tight budgets</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="handheld steam cleaner bed bugs" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="handheld steam cleaner bed bugs" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Garment / floor steam mop<br /><span className="font-normal text-xs text-gray-500">wet steam</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-rose-700">Wrong tool</strong> &mdash; wet, lower heat</td>
                   <td className="px-4 py-3 text-gray-700">Varies</td>
                   <td className="px-4 py-3 text-gray-700">Wrinkles &amp; floors, not pests</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="garment steamer" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="garment steamer" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -204,7 +206,6 @@ export default function DupraySteamerReviewCanadaPage() {
           <p>The Dupray Neat is worth it for a specific kind of buyer: someone who wants a genuinely effective, chemical-free tool for a bed-bug scare <em>and</em> a serious deep-cleaning appliance they will keep using afterward. It is not worth it for someone who wants to occasionally de-wrinkle a shirt, and it is not a substitute for a full professional treatment when an infestation has spread through the walls of a home. Within that band, though, it is one of the more credible steam cleaners a Canadian household can buy &mdash; and the fact that Dupray is a Canadian company, with reliable Amazon.ca stock, a correct plug, and reachable warranty support, removes a whole layer of friction that plagues the grey-market steamers cluttering US-focused buyer guides.</p>
           <p>What follows is our independent take: why the steamer category matters for pest work at all, the two specs that actually separate a good steamer from a useless one, the technique that determines whether steaming works, the honest downsides, and how to decide whether the Neat is the right level of machine for you or overkill.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability and configuration:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="dupray neat steam cleaner">Dupray Neat →</BuyLink>

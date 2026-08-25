@@ -100,6 +100,7 @@ export default function BedBugsInCouchCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Dry-vapour bed bug steamer" search="bed bug steamer dry vapour" label="Core tool" />
 
       <section className="bg-white px-4">
@@ -181,7 +182,7 @@ export default function BedBugsInCouchCanadaPage() {
             No single tool clears an upholstered couch. Each step in the protocol covers a gap the others leave, and skipping one is the usual reason an infestation drags on. Here is the honest breakdown, with a live Amazon.ca availability check per tool.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Step</th>
@@ -195,25 +196,25 @@ export default function BedBugsInCouchCanadaPage() {
                   <td className="px-4 py-3 font-bold text-brand-800">1. Vacuum<br /><span className="font-normal text-xs text-gray-500">crevice tool</span></td>
                   <td className="px-4 py-3 text-gray-700">Physically removes live bugs, nymphs, and loose debris fast</td>
                   <td className="px-4 py-3 text-gray-700">Cemented eggs; bugs deep in frame</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="hepa handheld vacuum crevice tool" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="hepa handheld vacuum crevice tool" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">2. Steam<br /><span className="font-normal text-xs text-gray-500">dry vapour</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Kills</strong> bugs and eggs on contact with heat</td>
                   <td className="px-4 py-3 text-gray-700">Deep cracks heat can&rsquo;t reach; no residual</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bed bug steamer dry vapour" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bed bug steamer dry vapour" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">3. Spray<br /><span className="font-normal text-xs text-gray-500">PMRA residual</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Residual</strong> keeps killing in cracks for weeks</td>
                   <td className="px-4 py-3 text-gray-700">Sealed voids; foam cores; won&rsquo;t kill all eggs</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="ecoraider bed bug spray" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="ecoraider bed bug spray" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">4. Encase<br /><span className="font-normal text-xs text-gray-500">zippered cover</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Contains</strong> what you can&rsquo;t treat; blocks re-entry</td>
                   <td className="px-4 py-3 text-gray-700">Slow — bugs starve over months, not days</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bed bug cushion encasement zippered" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bed bug cushion encasement zippered" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -237,7 +238,6 @@ export default function BedBugsInCouchCanadaPage() {
           <p>Bed bugs are not loyal to beds; they are loyal to hosts. They settle wherever a person stays still for long stretches, and a couch qualifies just as much as a mattress does &mdash; people nap on it, watch television for hours, and in plenty of Canadian homes someone sleeps on it every night. That steady supply of a warm, breathing host turns upholstered furniture into prime harbourage. The bugs tuck into the seams and piping, wedge under the cushions, hide in the folds of the arms and back, and colonize the staple lines and joints of the frame underneath where you never look.</p>
           <p>The practical consequence is important: treating only the bedroom while ignoring the living-room couch simply hands the infestation a place to relocate and rebuild. If you have bed bugs anywhere, the couch is a suspect, and if the couch is the epicentre, the nearby baseboards, outlets, and the seams of adjacent chairs are almost certainly involved too. That is why the protocol below treats the couch <em>and</em> the room around it, not the sofa in isolation.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the core couch-kit tools:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="bed bug steamer dry vapour">Dry-vapour steamer →</BuyLink>

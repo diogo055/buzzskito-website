@@ -106,6 +106,7 @@ export default function HowToGetRidOfStinkBugsCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Exterior silicone caulk + sealant gun (the seal-out kit)" search="exterior silicone caulk sealant gun kit" label="The only permanent fix" />
 
       <section className="bg-white px-4">
@@ -136,7 +137,7 @@ export default function HowToGetRidOfStinkBugsCanadaPage() {
             The month you are reading this in matters more than the product you buy. Removal and prevention are two different jobs with two different seasons.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Your situation</th>
@@ -260,7 +261,6 @@ export default function HowToGetRidOfStinkBugsCanadaPage() {
           <p><strong>Not every shield bug is a pest.</strong> The green stink bug and several native brown species turn up in Ontario gardens and are of minor consequence. More importantly, the spined soldier bug &mdash; which looks like a brown stink bug with sharply pointed shoulder spines &mdash; is a predator that hunts caterpillars and beetle larvae, and killing it is a small own goal. If a shield bug is out in the garden rather than on your wall in September, the correct response is usually to leave it alone.</p>
           <p><strong>What it does not do</strong> is worth stating plainly, because it changes the whole plan: stink bugs do not bite, do not sting, carry no disease, do not reproduce indoors, do not eat fabric, food or timber, and do not damage the building. They are plant feeders that came in to sit out the winter. The house is shelter, not habitat.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">The whole shopping list for this problem, and it is all hardware:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="exterior silicone caulk sealant gun kit">Exterior caulk &rarr;</BuyLink>

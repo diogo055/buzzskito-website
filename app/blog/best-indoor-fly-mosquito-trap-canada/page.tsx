@@ -83,6 +83,7 @@ export default function BestIndoorFlyMosquitoTrapCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Katchy Indoor Insect Trap (UV + fan + glue board)" search="katchy indoor insect trap uv fan" label="Best overall indoor" />
 
       {/* Quick Answer — AI-extraction block */}
@@ -165,15 +166,15 @@ export default function BestIndoorFlyMosquitoTrapCanadaPage() {
           <p className="text-sm text-gray-700 mb-5 leading-relaxed">
             Four indoor trap styles cover nearly every situation. Match the trap to the room size and to whether you would rather buy refills or rinse a chamber. Prices are typical Canadian retail (Amazon.ca / Canadian Tire) as of July 2026.
           </p>
-          <div className="rounded-xl border border-navy-100 overflow-hidden bg-white shadow-sm">
-            <table className="w-full text-sm">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto bg-white shadow-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Pick</th>
                   <th className="px-4 py-3 text-left">Type</th>
                   <th className="px-4 py-3 text-left">Room size</th>
                   <th className="px-4 py-3 text-left">Refill cost</th>
-                  <th className="px-4 py-3 text-left">Check price</th>
+                  <th className="px-4 py-3 text-left">Check price on Amazon.ca</th>
                 </tr>
               </thead>
               <tbody>
@@ -182,28 +183,28 @@ export default function BestIndoorFlyMosquitoTrapCanadaPage() {
                   <td className="px-4 py-3 text-gray-800">UV + fan + glue board</td>
                   <td className="px-4 py-3 text-gray-700">Small–medium (bedroom, kitchen)</td>
                   <td className="px-4 py-3 text-gray-700">Glue boards ~$13–18 / 4-pack</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="katchy indoor insect trap uv fan" block>Check price &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="katchy indoor insect trap uv fan" block>Check price on Amazon.ca &rarr;</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Best for large rooms</td>
                   <td className="px-4 py-3 text-gray-800">UV + fan suction (no refill)</td>
                   <td className="px-4 py-3 text-gray-700">Up to ~600 sq ft</td>
                   <td className="px-4 py-3 text-gray-700">None — rinse the basket</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="dynatrap indoor insect trap dt160" block>Check price &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="dynatrap indoor insect trap dt160" block>Check price on Amazon.ca &rarr;</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Best plug-in (set &amp; forget)</td>
                   <td className="px-4 py-3 text-gray-800">UV + sticky cartridge</td>
                   <td className="px-4 py-3 text-gray-700">Small (nightstand outlet)</td>
                   <td className="px-4 py-3 text-gray-700">Cartridges ~$10–14 each</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="zevo flying insect trap plug in" block>Check price &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="zevo flying insect trap plug in" block>Check price on Amazon.ca &rarr;</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 last:border-0">
                   <td className="px-4 py-3 font-bold text-brand-800">Best budget / garage</td>
                   <td className="px-4 py-3 text-gray-800">UV glue-board wall unit</td>
                   <td className="px-4 py-3 text-gray-700">Medium (garage, entryway)</td>
                   <td className="px-4 py-3 text-gray-700">Glue cards ~$12 / 6-pack</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="indoor fly trap uv light glue board plug in" block>Check price &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="indoor fly trap uv light glue board plug in" block>Check price on Amazon.ca &rarr;</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -223,8 +224,8 @@ export default function BestIndoorFlyMosquitoTrapCanadaPage() {
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">Indoor Trap Types: What Each One Is Good At</h2>
-          <div className="rounded-xl border border-navy-100 overflow-hidden">
-            <table className="w-full text-sm">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-50">
                 <tr>
                   <th className="px-3 py-2 text-left">Trap type</th>
@@ -258,7 +259,6 @@ export default function BestIndoorFlyMosquitoTrapCanadaPage() {
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
-          <AffiliateDisclosure />
 
           <h2>How Indoor Insect Traps Actually Work</h2>
           <p>Nearly every consumer indoor trap starts with the same lure: a <strong>UV-A (blacklight) LED</strong> that many flying insects drift toward, especially in a darkened room. What happens next is what separates the categories. A <strong>glue-board</strong> trap holds a sticky sheet the insect lands on and cannot leave. A <strong>fan-suction</strong> trap uses a quiet fan to pull the insect down into a chamber where it dehydrates. A <strong>sticky-cartridge plug-in</strong> combines a small light with a replaceable adhesive card. And an <strong>electric bug-zapper grid</strong> electrocutes the insect on contact.</p>
@@ -302,7 +302,7 @@ export default function BestIndoorFlyMosquitoTrapCanadaPage() {
           </aside>
 
           <h2>Indoor Traps vs the Alternatives</h2>
-          <table className="not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
+          <table className="min-w-[560px] not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
             <thead className="bg-brand-50">
               <tr><th className="px-3 py-2 text-left">Solution</th><th className="px-3 py-2 text-left">Typical cost</th><th className="px-3 py-2 text-left">What it fixes</th><th className="px-3 py-2 text-left">Mosquitoes?</th></tr>
             </thead>

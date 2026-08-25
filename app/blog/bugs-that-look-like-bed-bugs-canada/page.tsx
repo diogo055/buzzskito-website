@@ -105,6 +105,7 @@ export default function BugsThatLookLikeBedBugsCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="ClimbUp bed bug interceptors (the confirm-or-rule-out device)" search="climbup bed bug interceptor" label="Settles it either way" />
 
       <section className="bg-white px-4">
@@ -259,7 +260,7 @@ export default function BugsThatLookLikeBedBugsCanadaPage() {
             Every row here is an insect commonly mistaken for a bed bug in Canadian homes. The &ldquo;giveaway&rdquo; column is the single feature that settles it without magnification.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Insect</th>
@@ -347,7 +348,6 @@ export default function BugsThatLookLikeBedBugsCanadaPage() {
           </ul>
           <p>Life stage complicates all of this, which is why nymphs cause so much confusion. A bed bug moults five times before adulthood, and a first-stage nymph is roughly 1&ndash;1.5 mm and nearly transparent until it feeds, at which point it turns bright red. That translucent stage is what gets reported as booklice, and the fed stage is what gets reported as a &ldquo;tiny red mite&rdquo;.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">The two items worth owning before you know the answer &mdash; both useful whichever way the identification falls:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="climbup bed bug interceptor">Interceptor cups &rarr;</BuyLink>

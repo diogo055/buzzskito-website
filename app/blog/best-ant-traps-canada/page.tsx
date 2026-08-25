@@ -104,6 +104,7 @@ export default function BestAntTrapsCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Enclosed liquid ant bait stations" search="terro liquid ant baits" label="Best overall" />
 
       <section className="bg-white px-4">
@@ -215,7 +216,7 @@ export default function BestAntTrapsCanadaPage() {
             Search &ldquo;ant traps&rdquo; on any Canadian retail site and you get several different product categories in one results page, only some of which can end an infestation. Here is what each one actually does, with an availability check only where a purchase makes sense.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Product</th>
@@ -231,7 +232,7 @@ export default function BestAntTrapsCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Foragers drink and survive the trip home; bait is shared with brood and queens by mouth-to-mouth feeding</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Yes</strong></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best consumer option</strong> &mdash; buy this first</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="terro liquid ant baits" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="terro liquid ant baits" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Solid / protein bait disc<br /><span className="font-normal text-xs text-gray-500">Enclosed, child-resistant</span></td>
@@ -289,7 +290,7 @@ export default function BestAntTrapsCanadaPage() {
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">Ant Traps in Canada — Key Facts</h2>
-          <div className="rounded-xl border border-navy-100 overflow-hidden">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto">
             <table className="w-full text-sm">
               <tbody>
                 {[
@@ -329,7 +330,6 @@ export default function BestAntTrapsCanadaPage() {
           <p>That design choice is the entire reason it works. The ants marching across your counter are foragers, a small and constantly replaced fraction of a colony that lives somewhere you cannot see: under the patio slab, in the void behind the dishwasher, beneath the front step. Kill every visible ant tonight and the queen replaces them within days. A bait station inverts the problem by turning the foragers into unpaid couriers &mdash; they drink, walk home, and are tapped for food by nestmates, larvae and the queen through the mouth-to-mouth food sharing that entomologists call trophallaxis. Over the following days the active ingredient distributes itself through the colony, including to the individuals no consumer product can otherwise touch.</p>
           <p>Everything else marketed as an ant trap is a variation on catching the couriers, which is why so many people conclude that ant traps do not work. They bought the wrong category. If you take one thing from this page: <strong>buy the trap that feeds ants, not the one that catches them.</strong></p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the one format we link &mdash; the protein discs, the outdoor stakes and the gel are the in-store purchases described above:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="terro liquid ant baits">Liquid bait stations →</BuyLink>

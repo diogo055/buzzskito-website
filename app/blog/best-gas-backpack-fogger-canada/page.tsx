@@ -100,6 +100,7 @@ export default function BestGasBackpackFoggerCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Solo 451 gas backpack mist blower" search="solo backpack mist blower" label="Best overall" />
 
       <section className="bg-white px-4">
@@ -181,7 +182,7 @@ export default function BestGasBackpackFoggerCanadaPage() {
             &ldquo;Gas backpack fogger&rdquo; covers a few different machines. Which one fits depends on your acreage, how far you need to throw, and whether you also apply dust or granules. Here is the honest breakdown, with a live Amazon.ca availability check per type.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Machine type</th>
@@ -197,28 +198,28 @@ export default function BestGasBackpackFoggerCanadaPage() {
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Strong</strong> &mdash; 10&ndash;15 m mist throw</td>
                   <td className="px-4 py-3 text-gray-700">Large lot to small acreage, tree lines</td>
                   <td className="px-4 py-3 text-gray-700">Liquid only; no dust kit</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="solo 451 backpack mist blower" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="solo 451 backpack mist blower" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">High-output fogger/duster<br /><span className="font-normal text-xs text-gray-500">Tomahawk TMD14</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Highest</strong> &mdash; most air, longest reach</td>
                   <td className="px-4 py-3 text-gray-700">Multiple acres, orchards, mixed jobs</td>
                   <td className="px-4 py-3 text-gray-700">Heavy full; overkill for a small yard</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="tomahawk backpack fogger mist duster" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="tomahawk backpack fogger mist duster" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Convertible 3-in-1<br /><span className="font-normal text-xs text-gray-500">Solo 423</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Good</strong> &mdash; wet mist + dry dust</td>
                   <td className="px-4 py-3 text-gray-700">Mixed rural property, lighter carry</td>
                   <td className="px-4 py-3 text-gray-700">Shorter throw; smaller tank</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="solo 423 mist blower duster" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="solo 423 mist blower duster" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Budget gas backpack<br /><span className="font-normal text-xs text-gray-500">entry 2-stroke</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Fair</strong> &mdash; adequate for occasional use</td>
                   <td className="px-4 py-3 text-gray-700">One-property owner, tight budget</td>
                   <td className="px-4 py-3 text-gray-700">Thinner parts and support</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="gas backpack mist blower" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="gas backpack mist blower" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -242,7 +243,6 @@ export default function BestGasBackpackFoggerCanadaPage() {
           <p>The phrase people search for is &ldquo;gas backpack fogger,&rdquo; but the machine that shows up is almost always a <strong>mist blower</strong> &mdash; and understanding that distinction is the first step to buying the right one. A gas backpack mist blower straps a 2-stroke engine to your back, spins a fan that produces a high-velocity air stream, and injects liquid into that stream so it is sheared into a fine mist and carried a long distance on the moving air. The airflow is the whole point: it is what lets you stand at the edge of a field and push treatment 10 to 15 metres into a hedgerow, or angle up and drive mist into the canopy of a tree, without dragging a hose or trailing a cord behind you.</p>
           <p>That makes it a fundamentally different tool from the two things it gets confused with. A <Link href="/blog/backpack-sprayer-canada">pump backpack sprayer</Link> pushes liquid through a nozzle under pressure and wets whatever you aim at from a metre or two away &mdash; no engine, no throw, but quiet, cheap, and precise. A true <em>fogger</em>, whether a thermal fogger or a cold <Link href="/blog/thermal-vs-ulv-fogger-canada">ULV unit</Link>, breaks liquid into far finer droplets for indoor spaces or dense canopy penetration. The gas backpack machines marketed for large properties sit between them: coarser than a ULV fog, far more reach than a pump sprayer. If &ldquo;untethered range across acreage&rdquo; is your problem, this is the category that solves it.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the four picks:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="solo 451 backpack mist blower">Solo 451 mist blower →</BuyLink>

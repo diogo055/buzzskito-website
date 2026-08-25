@@ -103,6 +103,7 @@ export default function HowToGetRidOfCarpenterBeesCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Hanging wooden carpenter bee trap" search="carpenter bee trap wooden hanging" label="Best supplement — paint is the fix" />
 
       <section className="bg-white px-4">
@@ -133,7 +134,7 @@ export default function HowToGetRidOfCarpenterBeesCanadaPage() {
             This is the check that decides whether you have a building problem or a beneficial insect, and it takes two seconds. Carpenter bees have a <strong>shiny, hairless, almost polished black abdomen</strong>. Bumblebees are densely furry from head to tail. Everything else follows from that.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Insect</th>
@@ -188,7 +189,7 @@ export default function HowToGetRidOfCarpenterBeesCanadaPage() {
           <p className="text-xs font-extrabold text-emerald-700 uppercase tracking-wider mb-2">Decision Table</p>
           <h2 className="text-2xl font-extrabold text-brand-900 mb-4">Pick in 60 Seconds: Your Situation &rarr; What to Do</h2>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Your situation</th>
@@ -299,7 +300,7 @@ export default function HowToGetRidOfCarpenterBeesCanadaPage() {
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">Carpenter Bee Control &mdash; Quick Reference</h2>
-          <div className="rounded-xl border border-navy-100 overflow-hidden">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto">
             <table className="w-full text-sm">
               <tbody>
                 {[
@@ -342,7 +343,6 @@ export default function HowToGetRidOfCarpenterBeesCanadaPage() {
           <p>One hole in one railing is not a structural event. The reason carpenter bees earn a page is <strong>reuse</strong>. Galleries are re-occupied and extended year after year by successive generations, so a fascia board that had one entrance in it three summers ago can now have a branching tunnel system inside it and half a dozen entrances along its length. Water gets into a board like that. And in a member that is carrying load &mdash; a rafter tail, a header, a deck beam &mdash; the accumulated hollowing is worth having somebody look at properly.</p>
           <p>The second reason is the bird. Woodpeckers detect larvae inside the galleries and will chisel the board open along the tunnel to reach them, turning a tidy one-centimetre hole into a long ragged trench. In many Canadian yards that woodpecker damage is far more expensive than anything the bees did directly. If you are looking at a shredded fascia and blaming the bird, the bird is a symptom.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the short list:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="carpenter bee trap wooden hanging">Carpenter bee traps &rarr;</BuyLink>

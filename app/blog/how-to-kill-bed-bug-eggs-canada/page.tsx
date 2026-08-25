@@ -100,6 +100,7 @@ export default function HowToKillBedBugEggsCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Dry-vapour bed-bug steamer" search="bed bug steamer dry vapor" label="Kills eggs on contact" />
 
       <section className="bg-white px-4">
@@ -181,7 +182,7 @@ export default function HowToKillBedBugEggsCanadaPage() {
             The single most important thing to understand: a bed-bug egg is not a smaller bed bug you can spray. It is a shelled, cemented target that survives what kills the adults. Here is how each method performs against the eggs specifically, with a live Amazon.ca availability check per tool.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Method</th>
@@ -197,35 +198,35 @@ export default function HowToKillBedBugEggsCanadaPage() {
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Yes</strong> &mdash; on contact, reachable seams</td>
                   <td className="px-4 py-3 text-gray-700">Mattress seams, frames, tufts, baseboards</td>
                   <td className="px-4 py-3 text-gray-700">Only what the nozzle reaches; go slow</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bed bug steamer dry vapor" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bed bug steamer dry vapor" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Heated chamber / bag<br /><span className="font-normal text-xs text-gray-500">whole-item heat</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Yes</strong> &mdash; throughout the item</td>
                   <td className="px-4 py-3 text-gray-700">Luggage, bedding, shoes, small furniture</td>
                   <td className="px-4 py-3 text-gray-700">Item must fit; long dwell per load</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bed bug heater bag chamber" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bed bug heater bag chamber" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Hot dryer<br /><span className="font-normal text-xs text-gray-500">30+ min high heat</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Yes</strong> &mdash; launderable items</td>
                   <td className="px-4 py-3 text-gray-700">Clothing, sheets, soft launderable goods</td>
                   <td className="px-4 py-3 text-gray-700">Only for dryer-safe fabrics</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bed bug laundry bags" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bed bug laundry bags" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Residual spray<br /><span className="font-normal text-xs text-gray-500">EcoRaider-type</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Partly</strong> &mdash; hits nymphs at hatch</td>
                   <td className="px-4 py-3 text-gray-700">Cracks and voids the heat missed</td>
                   <td className="px-4 py-3 text-gray-700">Less certain on eggs; check PCP number</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="ecoraider bed bug spray" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="ecoraider bed bug spray" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Contact knock-down spray<br /><span className="font-normal text-xs text-gray-500">store-bought</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-red-700">No</strong> &mdash; shell and cement block it</td>
                   <td className="px-4 py-3 text-gray-700">Killing visible adults only</td>
                   <td className="px-4 py-3 text-gray-700">Eggs survive &rarr; rebound in ~10 days</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bed bug killer spray" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bed bug killer spray" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -249,7 +250,6 @@ export default function HowToKillBedBugEggsCanadaPage() {
           <p>Most people who fight bed bugs and lose do everything right except one thing: they kill the bugs they can see and never deal with the eggs. It is an understandable mistake, because the eggs are almost invisible &mdash; pale, about a millimetre long, glued in small clusters deep inside seams &mdash; and because the first treatment <em>looks</em> like a success. The adults die, the biting stops, and you relax. Then, roughly six to ten days later, a wave of tiny nymphs hatches from the eggs your treatment never touched, and within a few weeks they are mature, feeding, and laying eggs of their own. This is the exact loop that convinces people bed bugs are &ldquo;impossible to get rid of.&rdquo; They are not. You just have to kill the eggs, and killing the eggs takes a different tool than killing the bugs.</p>
           <p>A bed-bug egg is engineered to survive. It has a hard outer shell (the chorion), it is cemented tightly into a crevice so it cannot be brushed or vacuumed away, and it sits in the most protected micro-locations in your home. That combination defeats the tool most people reach for first &mdash; a bottle of contact spray. Understanding <em>why</em> the spray fails is what points you at the tools that work. An empty shell is a different find with a different meaning: <Link href="/blog/bed-bug-shells-casings-shed-skins-canada" className="text-brand-700 underline">a moulted casing proves the bugs have been feeding and growing</Link>, which is firmer evidence than an egg you cannot date.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the egg-killing tools:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="bed bug steamer dry vapor">Dry-vapour steamer →</BuyLink>

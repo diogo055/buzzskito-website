@@ -100,6 +100,7 @@ export default function CrossfireBedBugConcentrateReviewCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="PMRA-registered silica desiccant dust (Canada-legal)" search="cimexa insecticide dust bed bug" label="Canada-legal pick" />
 
       <section className="bg-white px-4">
@@ -116,6 +117,9 @@ export default function CrossfireBedBugConcentrateReviewCanadaPage() {
               <li>If you want a spray, buy one that shows a Canadian PCP registration number on the label.</li>
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito Pest Product Guides &middot; independent Canadian research</p>
+            <div className="mt-4">
+              <BuyLink search="cimexa insecticide dust bed bug" tag={AMZ_TAG} block className="sm:w-auto sm:min-h-0 sm:inline-flex sm:rounded-full sm:px-4 sm:py-2">Check price on Amazon.ca →</BuyLink>
+            </div>
           </div>
           <SpecialistDisclosure pest="bed bugs" />
         </div>
@@ -152,7 +156,7 @@ export default function CrossfireBedBugConcentrateReviewCanadaPage() {
             The comparison that matters for a Canadian reader is not &ldquo;which spray is strongest&rdquo; &mdash; it is &ldquo;which tools are PMRA-registered and legal to use here.&rdquo; That single column reshuffles the whole table.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Option</th>
@@ -175,28 +179,28 @@ export default function CrossfireBedBugConcentrateReviewCanadaPage() {
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Yes</strong> &mdash; carries a PCP number</td>
                   <td className="px-4 py-3 text-gray-700">Kills nymphs/adults; not eggs directly</td>
                   <td className="px-4 py-3 text-gray-700">Long residual in cracks &amp; voids</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="cimexa insecticide dust bed bug" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="cimexa insecticide dust bed bug" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Dry-vapour steamer<br /><span className="font-normal text-xs text-gray-500">non-chemical</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Yes</strong> &mdash; appliance, no registration needed</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Yes</strong> &mdash; heat kills eggs on contact</td>
                   <td className="px-4 py-3 text-gray-700">Seams, tufts, folds &mdash; on-contact kill</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="dupray bed bug steamer" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="dupray bed bug steamer" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">PMRA-registered RTU spray<br /><span className="font-normal text-xs text-gray-500">ready to use</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Yes</strong> &mdash; check for a PCP number</td>
                   <td className="px-4 py-3 text-gray-700">Contact knockdown; limited residual</td>
                   <td className="px-4 py-3 text-gray-700">Visible bugs on non-porous surfaces</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="konk bed bug killer spray canada" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="konk bed bug killer spray canada" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Interceptors + encasement<br /><span className="font-normal text-xs text-gray-500">non-chemical</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Yes</strong> &mdash; physical devices</td>
                   <td className="px-4 py-3 text-gray-700">Traps eggs inside; starves the population</td>
                   <td className="px-4 py-3 text-gray-700">Monitoring &amp; protecting the bed</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bed bug interceptor traps" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bed bug interceptor traps" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -220,7 +224,6 @@ export default function CrossfireBedBugConcentrateReviewCanadaPage() {
           <p>MGK Crossfire Bed Bug Concentrate has a strong reputation among American pest-control operators, and it deserves it. It was built to solve the single hardest problem in bed-bug work &mdash; that the insects are now widely resistant to the pyrethroids that dominated the market for decades &mdash; by combining more than one class of active ingredient in one bottle. It is EPA-registered, it is a professional product, and in the United States it is a legitimate tool in a trained applicator&rsquo;s kit.</p>
           <p>None of that helps you if you live in Canada. Crossfire is <strong>not registered with Health Canada&rsquo;s Pest Management Regulatory Agency (PMRA)</strong>, and that single fact ends the conversation for a Canadian homeowner. A pesticide without a Canadian registration number has no legal use pattern here, no Canadian label to guide dilution and safety, and no lawful import path for use. This review exists to say that plainly &mdash; and then to point you at the products that <em>are</em> legal and that actually get the job done.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the tools we recommend instead:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="cimexa insecticide dust bed bug">Silica desiccant dust →</BuyLink>

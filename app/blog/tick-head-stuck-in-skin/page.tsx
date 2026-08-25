@@ -162,7 +162,7 @@ export default function TickHeadStuckInSkinPage() {
         <h2>Tick mouthparts left behind: leave it or dig it out?</h2>
         <p>Here&rsquo;s the decision at a glance. When a fragment is embedded, the trade-off is almost always in favour of leaving it alone.</p>
         <div className="not-prose overflow-x-auto my-6">
-          <table className="w-full text-sm border-collapse">
+          <table className="min-w-[560px] w-full text-sm border-collapse">
             <thead>
               <tr className="bg-brand-50 text-left">
                 <th className="border border-gray-200 px-3 py-2 font-semibold text-brand-900">Approach</th>

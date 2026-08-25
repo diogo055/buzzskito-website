@@ -115,6 +115,7 @@ export default function TracesPunaisesDeLitMatelasPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar
         tag={AMZ_TAG}
         name="Housse anti-punaises de lit pour matelas"
@@ -160,7 +161,7 @@ export default function TracesPunaisesDeLitMatelasPage() {
             Commencez par l&rsquo;emplacement : les punaises de lit se tiennent dans les coutures, le passepoil et les plis, jamais au milieu de la surface de couchage. Une tache centrale et une marque de couture ne racontent pas la même histoire.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Ce que vous voyez</th>
@@ -287,7 +288,7 @@ export default function TracesPunaisesDeLitMatelasPage() {
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">Traces de punaises de lit &mdash; aide-mémoire</h2>
-          <div className="rounded-xl border border-navy-100 overflow-hidden">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto">
             <table className="w-full text-sm">
               <tbody>
                 {[
@@ -328,7 +329,6 @@ export default function TracesPunaisesDeLitMatelasPage() {
           <p>Le matelas, lui, ne ment pas. Les punaises de lit laissent des traces physiques, durables et lisibles, et il n&rsquo;existe aucune autre explication crédible pour trois d&rsquo;entre elles. C&rsquo;est pourquoi tout inspecteur commence par le lit et non par la peau.</p>
           <p>Une précision d&rsquo;emplacement avant tout le reste, parce qu&rsquo;elle élimine à elle seule beaucoup de fausses alertes&nbsp;: <strong>les punaises de lit vivent en périphérie</strong>. Elles se glissent dans les coutures, le passepoil, les plis, l&rsquo;étiquette, les boutons, et surtout dans le sommier et le cadre &mdash; pas au milieu de la surface où vous dormez. Une grande tache jaunâtre diffuse au centre d&rsquo;un matelas est presque toujours de la transpiration.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-xs text-gray-500 bg-gray-50 border border-gray-200 rounded-lg px-4 py-2.5 my-4 leading-relaxed">
             <strong className="text-gray-600">En français&nbsp;:</strong> BuzzSkito est partenaire du Programme Partenaires d&rsquo;Amazon et touche une commission sur les achats admissibles, sans frais supplémentaires pour vous. Nous ne recommandons que des articles que nous utiliserions nous-mêmes, et nous vous dirons quand il ne faut rien acheter.
           </p>

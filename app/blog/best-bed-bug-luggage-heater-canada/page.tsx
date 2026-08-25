@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
+import AmazonLink from '@/components/AmazonLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import SpecialistDisclosure from '@/components/SpecialistDisclosure'
 import AwardRow from '@/components/AwardRow'
@@ -100,13 +101,14 @@ export default function BestBedBugLuggageHeaterCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="PackTite Closet bed-bug heat chamber" search="packtite closet bed bug heater" label="Best overall" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The best bed-bug luggage heater in Canada is a <strong>hanging closet-style heat chamber</strong> like the PackTite Closet: it fits a full suitcase plus clothing, reaches and holds the roughly <strong>50°C (120°F+)</strong> internal temperature that kills adults, nymphs, and eggs, and includes a probe thermometer so you can confirm the coldest item inside actually got hot. Choose a folding suitcase-style unit like the ThermalStrike Ranger if you want a heater that packs flat to travel with you, or a large rigid box for treating several bags at once. The one rule that decides success is holding lethal temperature at the cold core of the load &mdash; not just heating the surrounding air.</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The best bed-bug luggage heater in Canada is a <strong>hanging closet-style heat chamber</strong> like the <AmazonLink search="packtite closet bed bug heater" tag={AMZ_TAG} className="font-bold underline decoration-emerald-500 underline-offset-2 hover:text-emerald-900">PackTite Closet</AmazonLink>: it fits a full suitcase plus clothing, reaches and holds the roughly <strong>50°C (120°F+)</strong> internal temperature that kills adults, nymphs, and eggs, and includes a probe thermometer so you can confirm the coldest item inside actually got hot. Choose a folding suitcase-style unit like the ThermalStrike Ranger if you want a heater that packs flat to travel with you, or a large rigid box for treating several bags at once. The one rule that decides success is holding lethal temperature at the cold core of the load &mdash; not just heating the surrounding air.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
               <li>Heat kills every life stage: adults and nymphs at ~45°C, and eggs &mdash; the toughest &mdash; at about 48&ndash;50°C sustained.</li>
               <li>The dwell timer starts when the <strong>coldest, densest item</strong> hits temperature, not when you switch the unit on.</li>
@@ -116,6 +118,9 @@ export default function BestBedBugLuggageHeaterCanadaPage() {
               <li>Heat chambers are devices, not pesticides &mdash; no PMRA registration; the thing to check is Canadian electrical certification.</li>
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito Pest Product Guides &middot; independent Canadian research</p>
+            <div className="mt-4">
+              <BuyLink search="packtite closet bed bug heater" tag={AMZ_TAG} block className="sm:w-auto sm:min-h-0 sm:inline-flex sm:rounded-full sm:px-4 sm:py-2">Check price on Amazon.ca →</BuyLink>
+            </div>
           </div>
           <SpecialistDisclosure pest="bed bugs" />
         </div>
@@ -181,7 +186,7 @@ export default function BestBedBugLuggageHeaterCanadaPage() {
             All four styles reach the temperature that kills bed bugs and their eggs, but they solve different problems and suit different loads. Here is the honest breakdown, with a live Amazon.ca availability check per type.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Chamber type</th>
@@ -197,28 +202,28 @@ export default function BestBedBugLuggageHeaterCanadaPage() {
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Large</strong> &mdash; full bag plus clothing</td>
                   <td className="px-4 py-3 text-gray-700">Versatile all-rounder; even, verified heat</td>
                   <td className="px-4 py-3 text-gray-700">Premium price; needs hanging space</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="packtite closet bed bug heater" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="packtite closet bed bug heater" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Folding suitcase<br /><span className="font-normal text-xs text-gray-500">ThermalStrike Ranger</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Single bag</strong> &mdash; packs flat</td>
                   <td className="px-4 py-3 text-gray-700">Decontaminating luggage on the road</td>
                   <td className="px-4 py-3 text-gray-700">One bag at a time; slower on dense loads</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="thermalstrike ranger bed bug heater" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="thermalstrike ranger bed bug heater" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Rigid box / room<br /><span className="font-normal text-xs text-gray-500">large capacity</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Very large</strong> &mdash; several bags, bedding</td>
                   <td className="px-4 py-3 text-gray-700">Big jobs and bulky loads in one cycle</td>
                   <td className="px-4 py-3 text-gray-700">Floor space; longer warm-up</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="zappbug room bed bug heater" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="zappbug room bed bug heater" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Budget folding<br /><span className="font-normal text-xs text-gray-500">value</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Small</strong> &mdash; carry-on or clothing</td>
                   <td className="px-4 py-3 text-gray-700">Occasional single-bag need on a budget</td>
                   <td className="px-4 py-3 text-gray-700">Pack loosely; verify the temperature</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="zappbug oven bed bug heater" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="zappbug oven bed bug heater" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -242,7 +247,6 @@ export default function BestBedBugLuggageHeaterCanadaPage() {
           <p>A hanging closet-style heat chamber is the best bed-bug luggage heater for most Canadian homes &mdash; not because it is the biggest or the most powerful, but because it does the two things this job actually demands: it fits a real load (a full suitcase plus the clothing inside it), and it lets you <em>verify</em> that the coldest item in that load reached the temperature that kills bed-bug eggs. Everything else in our picks is a variation on those two ideas. A folding suitcase-style unit trades capacity for the ability to pack flat and travel with you; a large rigid box trades portability for treating several bags at once; a budget folding chamber trades size and features for price. All four appear above because different travellers and households need different trade-offs, but the reasoning below explains why the closet chamber sits at the top.</p>
           <p>The single idea that separates a heat treatment that works from one that quietly fails is this: <strong>bed bugs and their eggs die from sustained heat at the cold core of the load, not from hot air brushing the surface.</strong> That distinction is invisible &mdash; a bag can feel warm and be full of viable eggs &mdash; and it is the most important thing to understand before you spend money.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the four picks:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="packtite closet bed bug heater">Hanging closet chamber →</BuyLink>

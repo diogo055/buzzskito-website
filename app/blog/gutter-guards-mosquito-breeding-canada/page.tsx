@@ -140,6 +140,7 @@ export default function GutterGuardsMosquitoBreedingPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Aluminium micro-mesh gutter guard" search="aluminum micro mesh gutter guard 200 ft" label="The style that works" />
 
       <section className="bg-white px-4 pt-8">
@@ -198,7 +199,6 @@ export default function GutterGuardsMosquitoBreedingPage() {
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
-          <AffiliateDisclosure />
 
           <h2>The Breeding Site Nobody Inspects</h2>
           <p>When a homeowner in Mississauga or Etobicoke calls about mosquitoes that will not go away, the property walk covers the usual suspects: plant saucers, the tarp over the woodpile, the wheelbarrow, the birdbath, the <Link href="/blog/rain-barrel-mosquito-proof-canada">rain barrel</Link>. Those are the sites people have heard of, and they are real. The one nobody has looked at is directly above their heads.</p>

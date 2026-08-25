@@ -91,6 +91,7 @@ export default function BestSolarBugZapperCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="4,500V dual-charge solar bug zapper (solar + USB-C)" search="solar bug zapper outdoor 4500V USB-C" label="Best all-round pick" />
 
       <section className="bg-white px-4">
@@ -107,6 +108,9 @@ export default function BestSolarBugZapperCanadaPage() {
               <li>Plug-in zappers run 5,500V and up, but even those catch few mosquitoes.</li>
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+            <div className="mt-4">
+              <BuyLink search="PALONE solar bug zapper 4500V USB-C" tag={AMZ_TAG} block className="sm:w-auto sm:min-h-0 sm:inline-flex sm:rounded-full sm:px-4 sm:py-2">Check price on Amazon.ca →</BuyLink>
+            </div>
           </div>
         </div>
       </section>
@@ -166,7 +170,7 @@ export default function BestSolarBugZapperCanadaPage() {
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">Solar Bug Zapper Reality Check — Key Facts</h2>
-          <div className="rounded-xl border border-navy-100 overflow-hidden">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto">
             <table className="w-full text-sm">
               <tbody>
                 {[
@@ -197,7 +201,6 @@ export default function BestSolarBugZapperCanadaPage() {
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Compare current models and Canadian availability:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="solar bug zapper outdoor">Check solar zappers on Amazon.ca →</BuyLink>
@@ -212,7 +215,7 @@ export default function BestSolarBugZapperCanadaPage() {
           <h2>The Best Solar Bug Zappers in Canada (2026)</h2>
           <p>Four formats dominate Amazon.ca listings this season. Brands on the budget end rotate constantly (PALONE, AMUFER, OnBeam and a dozen near-identical labels), so shop by spec sheet, not brand loyalty.</p>
 
-          <table className="not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
+          <table className="min-w-[560px] not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
             <thead className="bg-brand-50">
               <tr><th className="px-3 py-2 text-left">Model / format</th><th className="px-3 py-2 text-left">Coverage &amp; specs</th><th className="px-3 py-2 text-left">Power source</th><th className="px-3 py-2 text-left">Best for</th></tr>
             </thead>
@@ -264,7 +267,7 @@ export default function BestSolarBugZapperCanadaPage() {
           </aside>
 
           <h2>Solar Zapper vs the Alternatives for Canadian Yards</h2>
-          <table className="not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
+          <table className="min-w-[560px] not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
             <thead className="bg-brand-50">
               <tr><th className="px-3 py-2 text-left">Option</th><th className="px-3 py-2 text-left">Typical cost</th><th className="px-3 py-2 text-left">Kills mosquitoes?</th><th className="px-3 py-2 text-left">Needs an outlet?</th></tr>
             </thead>

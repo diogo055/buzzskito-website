@@ -100,6 +100,7 @@ export default function KonkBedBugKillerReviewCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Konk Bed Bug Killer aerosol" search="konk bed bug killer aerosol" label="Our verdict: 7.4/10" />
 
       <section className="bg-white px-4">
@@ -144,7 +145,7 @@ export default function KonkBedBugKillerReviewCanadaPage() {
             &ldquo;Bed bug spray&rdquo; hides real differences in chemistry, residual, and &mdash; the one Canadians should not skip &mdash; legality. Here is where Konk sits against the other options you will see on the shelf and in the forums, with a live Amazon.ca availability check per row.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Product</th>
@@ -160,28 +161,28 @@ export default function KonkBedBugKillerReviewCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Contact aerosol &mdash; pyrethrin/pyrethroid</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Legal &amp; handy</strong> &mdash; fast knockdown, category-normal resistance limit</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">PMRA-registered</strong>, made in Canada</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="konk bed bug killer aerosol" block>Check price &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="konk bed bug killer aerosol" block>Check price on Amazon.ca &rarr;</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Other consumer aerosols<br /><span className="font-normal text-xs text-gray-500">Harris, Ortho, Raid-style</span></td>
                   <td className="px-4 py-3 text-gray-700">Contact/residual sprays &mdash; mostly pyrethroid</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Similar ceiling</strong> &mdash; same resistance limitation across the category</td>
                   <td className="px-4 py-3 text-gray-700">Verify the exact listing &mdash; many are US-market</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bed bug killer spray canada" block>Check price &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bed bug killer spray canada" block>Check price on Amazon.ca &rarr;</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Plant-oil spray<br /><span className="font-normal text-xs text-gray-500">e.g. EcoRaider</span></td>
                   <td className="px-4 py-3 text-gray-700">Botanical &mdash; geraniol/cedar-type actives</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">No pyrethroid</strong> &mdash; appeals to chem-avoiders; residual &amp; cost trade-offs</td>
                   <td className="px-4 py-3 text-gray-700">Check the Canadian listing before buying</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="ecoraider bed bug spray" block>Check price &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="ecoraider bed bug spray" block>Check price on Amazon.ca &rarr;</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Desiccant dust<br /><span className="font-normal text-xs text-gray-500">CimeXa / diatomaceous earth</span></td>
                   <td className="px-4 py-3 text-gray-700">Silica desiccant &mdash; kills by drying insects out</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Resistance-proof</strong> &mdash; slow, but near-permanent void barrier</td>
                   <td className="px-4 py-3 text-gray-700">Sold through Canadian retail &mdash; confirm the version</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="cimexa insecticide dust" block>Check price &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="cimexa insecticide dust" block>Check price on Amazon.ca &rarr;</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Grey-market US concentrates<br /><span className="font-normal text-xs text-gray-500">Crossfire, Temprid FX</span></td>
@@ -207,7 +208,7 @@ export default function KonkBedBugKillerReviewCanadaPage() {
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">Konk Bed Bug Killer &mdash; Key Facts</h2>
-          <div className="rounded-xl border border-navy-100 overflow-hidden">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto">
             <table className="w-full text-sm">
               <tbody>
                 {[
@@ -244,7 +245,6 @@ export default function KonkBedBugKillerReviewCanadaPage() {
           <p>As an insecticide, Konk is a pyrethrin/pyrethroid-based contact aerosol: fast chemistry that knocks down the bugs it directly wets. That is a real capability and it is worth having. But it is also chemistry the whole category shares, and the whole category shares its ceiling &mdash; which is exactly why the rest of this review spends as much time on where Konk stops as on what it does. An honest review of a bed bug spray is mostly a review of expectations.</p>
           <p>This review sits alongside our broader <Link href="/blog/bed-bug-control-canada-hub">Canadian bed bug control hub</Link> and our <Link href="/blog/best-pest-control-equipment-canada">pest control equipment guide</Link>; here we focus on one registered can and exactly what it is and is not good for.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="konk bed bug killer aerosol">Konk on Amazon.ca &rarr;</BuyLink>

@@ -141,7 +141,7 @@ export default function NoSeeUmBitesPage() {
         <h2>No-see-um bites vs mosquito, flea, and chigger bites</h2>
         <p>All four leave small, itchy red bumps, so the differences in <em>first sensation</em>, <em>pattern</em>, and <em>location</em> matter most. Here is a side-by-side of the bites people most often confuse:</p>
         <div className="overflow-x-auto not-prose my-6">
-          <table className="w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden">
+          <table className="min-w-[560px] w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden">
             <thead className="bg-brand-50">
               <tr>
                 <th className="px-3 py-2 text-left">Feature</th>
@@ -178,6 +178,7 @@ export default function NoSeeUmBitesPage() {
         </ul>
         <p>These are general comfort measures, not a diagnosis, prescription, or dosing advice &mdash; always follow the product directions, and if you are pregnant, treating a young child, unsure which product is right, or the reaction is severe, ask a pharmacist or healthcare provider. For a fuller run-down of what actually eases bite itch, see our <Link href="/blog/mosquito-bite-treatment-relief">mosquito bite treatment and relief guide</Link>, which applies equally to midge bites.</p>
 
+        <AffiliateDisclosure />
         <TopPick tag={AMZ_TAG}
           label="Best for the Itch"
           name="Hydrocortisone 1% Anti-Itch Cream"
@@ -192,7 +193,7 @@ export default function NoSeeUmBitesPage() {
         <p>The frustrating part of no-see-um season is that closing up the porch does not always help &mdash; the midges come straight through the screen. The reason is <strong>mesh size</strong>. Standard insect screening is woven with openings of roughly <strong>1.1 to 1.5 mm (about 1/16 inch)</strong>, sized to stop houseflies and mosquitoes. A no-see-um is only about <strong>1 to 3 mm long</strong> and slim enough to fly right through those gaps.</p>
         <p>Keeping them out takes a finer weave, sold as <strong>&ldquo;no-see-um mesh.&rdquo;</strong> Here is how the common options compare:</p>
         <div className="overflow-x-auto not-prose my-6">
-          <table className="w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden">
+          <table className="min-w-[560px] w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden">
             <thead className="bg-brand-50">
               <tr>
                 <th className="px-3 py-2 text-left">Screen type</th>
@@ -209,7 +210,6 @@ export default function NoSeeUmBitesPage() {
           </table>
         </div>
         <p>The catch with fine mesh is <strong>reduced airflow</strong> &mdash; the tighter the weave, the stuffier the porch. A practical fix that works with the insect&rsquo;s own weakness: run a fan. Biting midges are feeble fliers and cannot push against moving air, so a breeze on a seating area keeps them off even where the mesh is standard.</p>
-        <AffiliateDisclosure />
         <p className="not-prose my-4">
           <BuyLink tag={AMZ_TAG} search="no see um mesh screen">Check no-see-um mesh screen on Amazon &rarr;</BuyLink>
         </p>

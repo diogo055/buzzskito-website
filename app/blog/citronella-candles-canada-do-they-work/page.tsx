@@ -104,8 +104,8 @@ export default function CitronellaCandlesCanadaPage() {
           <p className="text-sm text-gray-700 mb-5 leading-relaxed">
             Citronella products are cheap and stocked almost everywhere from May through September. Because the protection is short-range, buying a few candles for a small seating group beats one big candle in the middle of a wide patio.
           </p>
-          <div className="rounded-xl border border-navy-100 overflow-hidden bg-white shadow-sm">
-            <table className="w-full text-sm">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto bg-white shadow-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Retailer</th>
@@ -146,7 +146,7 @@ export default function CitronellaCandlesCanadaPage() {
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">Citronella Key Facts</h2>
-          <div className="rounded-xl border border-navy-100 overflow-hidden">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto">
             <table className="w-full text-sm">
               <tbody>
                 {[
@@ -187,7 +187,7 @@ export default function CitronellaCandlesCanadaPage() {
           <h2 id="formats">Citronella Formats Compared: Candles vs Torches vs Coils vs Spray</h2>
           <p>Every citronella product uses the same active ingredient — oil from lemongrass (<em>Cymbopogon</em>) — so what really separates them is <strong>how much scent they push into the air and how close you sit to it</strong>. Here is every common format sold in Canada, roughly how far each one reaches, a 2026 price range, and a live Amazon.ca price check:</p>
           <div className="not-prose my-6 overflow-x-auto rounded-xl border border-navy-100 shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Format</th>
@@ -203,42 +203,42 @@ export default function CitronellaCandlesCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Melts scented wax</td>
                   <td className="px-4 py-3 text-gray-700">Under 0.5 m</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$6 – $15</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="citronella candle tin" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="citronella candle tin" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">3-wick bucket candle</td>
                   <td className="px-4 py-3 text-gray-700">Bigger flame, warmer plume</td>
                   <td className="px-4 py-3 text-gray-700">~1 m in still air</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$12 – $30</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="citronella bucket candle 3 wick" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="citronella bucket candle 3 wick" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Tiki torch + fuel</td>
                   <td className="px-4 py-3 text-gray-700">Large flame at patio edge</td>
                   <td className="px-4 py-3 text-gray-700">~1 m near each torch</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$20 – $45</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="citronella torch fuel" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="citronella torch fuel" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Coils</td>
                   <td className="px-4 py-3 text-gray-700">Smoulders, releases smoke</td>
                   <td className="px-4 py-3 text-gray-700">1–2 m in still air (smoke)</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$8 – $20</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="citronella coils" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="citronella coils" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Incense sticks</td>
                   <td className="px-4 py-3 text-gray-700">Smoulders, releases smoke</td>
                   <td className="px-4 py-3 text-gray-700">Under 1 m</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$6 – $18</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="citronella incense sticks" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="citronella incense sticks" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 font-bold text-brand-800">Spray / lotion</td>
                   <td className="px-4 py-3 text-gray-700">Applied to skin</td>
                   <td className="px-4 py-3 text-gray-700">On-skin · wears off 20–60 min</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$8 – $20</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="citronella spray repellent" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="citronella spray repellent" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -287,7 +287,7 @@ export default function CitronellaCandlesCanadaPage() {
 
           <h2>Citronella vs What Actually Works in a GTA Backyard</h2>
           <p>Citronella candles sit at the very bottom of the mosquito-control ladder — cheap, pleasant, and short-range. Here is how they stack up against the tools that genuinely move the needle:</p>
-          <table className="not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
+          <table className="min-w-[560px] not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
             <thead className="bg-brand-50">
               <tr><th className="px-3 py-2 text-left">Solution</th><th className="px-3 py-2 text-left">Coverage</th><th className="px-3 py-2 text-left">Mosquito reduction</th><th className="px-3 py-2 text-left">Tick coverage</th></tr>
             </thead>

@@ -100,6 +100,7 @@ export default function BestBedBugDetectorCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Bed bug interceptor traps (under-leg monitors)" search="bed bug interceptor traps" label="Best overall detector" />
 
       <section className="bg-white px-4">
@@ -190,7 +191,7 @@ export default function BestBedBugDetectorCanadaPage() {
             &ldquo;Bed bug detector&rdquo; covers three different jobs: catching bugs already on the move, spot-checking enclosed places, and actively luring bugs out to answer a question fast. Here is the honest breakdown, with a live Amazon.ca availability check per type.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Detector type</th>
@@ -206,28 +207,28 @@ export default function BestBedBugDetectorCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Two-well cup under each leg; bugs fall in, can&rsquo;t climb out</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Continuous</strong> &mdash; days to weeks at low levels</td>
                   <td className="px-4 py-3 text-gray-700">Always-on monitoring; progress tracking; partial barrier</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bed bug interceptor traps aspectek" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bed bug interceptor traps aspectek" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Active lured monitor<br /><span className="font-normal text-xs text-gray-500">heat / CO₂ cue</span></td>
                   <td className="px-4 py-3 text-gray-700">Emits warmth or CO&#8322; to draw host-seeking bugs to the trap</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Fastest</strong> &mdash; detects low populations soonest</td>
                   <td className="px-4 py-3 text-gray-700">Empty rooms; quick confident answers; documented checks</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="active bed bug monitor co2" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="active bed bug monitor co2" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Glue-strip monitor<br /><span className="font-normal text-xs text-gray-500">BuggyBeds</span></td>
                   <td className="px-4 py-3 text-gray-700">Adhesive card that traps bugs crawling across it</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Spot</strong> &mdash; depends on direct contact</td>
                   <td className="px-4 py-3 text-gray-700">Drawers, headboards, luggage, storage gaps</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="buggybeds bed bug monitor" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="buggybeds bed bug monitor" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Inspection kit<br /><span className="font-normal text-xs text-gray-500">light + magnifier</span></td>
                   <td className="px-4 py-3 text-gray-700">You inspect seams and joints directly with light and magnification</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Immediate</strong> &mdash; only what you can see</td>
                   <td className="px-4 py-3 text-gray-700">Confirming a find; reading harbourage before you act</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bed bug inspection flashlight magnifier kit" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bed bug inspection flashlight magnifier kit" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -251,7 +252,6 @@ export default function BestBedBugDetectorCanadaPage() {
           <p>A set of passive interceptor traps is the best bed-bug detector for most Canadian homes &mdash; not because it is clever or expensive, but because it does the one thing detection actually requires better than anything else at the price: it sits in the bug&rsquo;s path and quietly catches whatever moves through, night after night, for months, with no power and no refills. Bed bugs are ambush feeders that travel from a hiding place to a sleeping host and back, and the legs of your bed are the highway they use. An interceptor under each leg turns that highway into a toll booth you can read every morning.</p>
           <p>Every other detector on this page is a variation on a single question &mdash; <em>are there bed bugs moving here?</em> &mdash; answered with a different trade-off. An active lured monitor trades cost for speed, generating heat or carbon dioxide to pull bugs out of hiding so you get an answer in a night instead of a fortnight. A glue-strip monitor trades catch-rate for reach, slipping into drawers and luggage where a cup will not fit. An inspection kit trades passivity for effort, letting you go and look for the bugs yourself. All five appear in our picks because different situations need different trade-offs, but the reasoning below explains why the humble interceptor sits at the top.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the main detector types:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="bed bug interceptor traps aspectek">Passive interceptors →</BuyLink>

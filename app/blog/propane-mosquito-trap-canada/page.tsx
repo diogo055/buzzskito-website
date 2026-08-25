@@ -90,6 +90,7 @@ export default function PropaneMosquitoTrapCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Mosquito Magnet Patriot Plus (propane CO₂ trap)" search="mosquito magnet patriot plus" label="Our value pick" />
 
       <section className="bg-white px-4">
@@ -127,7 +128,7 @@ export default function PropaneMosquitoTrapCanadaPage() {
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">Propane Trap Models Sold in Canada — At a Glance</h2>
-          <div className="rounded-xl border border-navy-100 overflow-hidden bg-white shadow-sm overflow-x-auto">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto bg-white shadow-sm overflow-x-auto">
             <table className="w-full text-sm min-w-[760px]">
               <thead className="bg-brand-800 text-white">
                 <tr>
@@ -181,7 +182,7 @@ export default function PropaneMosquitoTrapCanadaPage() {
                     <td className="px-4 py-3 text-gray-700">{spec}</td>
                     <td className="px-4 py-3 text-gray-700">{power}</td>
                     <td className="px-4 py-3 text-xs text-gray-600">{best}</td>
-                    <td className="px-4 py-3">{search ? <BuyLink tag={AMZ_TAG} search={search} className="!px-3 !py-1.5 !text-xs whitespace-nowrap">Check price</BuyLink> : <span className="text-xs text-gray-400">—</span>}</td>
+                    <td className="px-4 py-3">{search ? <BuyLink tag={AMZ_TAG} search={search} className="!px-3 !py-1.5 !text-xs whitespace-nowrap">Check price on Amazon.ca</BuyLink> : <span className="text-xs text-gray-400">—</span>}</td>
                   </tr>
                 ))}
               </tbody>
@@ -196,7 +197,6 @@ export default function PropaneMosquitoTrapCanadaPage() {
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Compare current Canadian models, attractants and parts on Amazon.ca:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="mosquito magnet executive">Check price on Amazon.ca</BuyLink>

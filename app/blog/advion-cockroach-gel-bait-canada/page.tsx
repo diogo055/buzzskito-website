@@ -4,7 +4,7 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import SpecialistDisclosure from '@/components/SpecialistDisclosure'
-import TopPick from '@/components/TopPick'
+import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
@@ -104,6 +104,7 @@ export default function AdvionCockroachGelBaitCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Combat roach killing bait stations (12-pack)" search="combat roach killing bait stations" label="Legal consumer pick" />
 
       <section className="bg-white px-4">
@@ -151,9 +152,8 @@ export default function AdvionCockroachGelBaitCanadaPage() {
           <h2>The Compliant Toolkit: What Canadian Consumers Can Actually Use</h2>
           <p>Domestic-class cockroach control in Canada runs on four legs: enclosed bait stations, registered dusts (boric acid and diatomaceous earth), glue monitors, and sanitation. Here is how the products the internet recommends map onto Canadian reality &mdash; with price checks only where a consumer purchase makes sense. For everything in the table, the standing rule applies: confirm the PCP registration number on the pack you actually receive.</p>
 
-          <AffiliateDisclosure />
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm my-6">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Product / category</th>
@@ -185,44 +185,82 @@ export default function AdvionCockroachGelBaitCanadaPage() {
                   <td className="px-4 py-3 font-bold text-brand-800">Combat-style bait stations<br /><span className="font-normal text-xs text-gray-500">hydramethylnon, enclosed</span></td>
                   <td className="px-4 py-3 text-gray-700">Consumer bait stations widely stocked at Canadian retailers &mdash; delayed-kill bait in a child-resistant housing</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">The legal workhorse</strong></td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="combat roach killing bait stations" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="combat roach killing bait stations" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Raid roach baits<br /><span className="font-normal text-xs text-gray-500">enclosed consumer stations</span></td>
                   <td className="px-4 py-3 text-gray-700">The other mainstream consumer station line on Canadian shelves &mdash; useful for rotating bait actives</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Solid second bait</strong></td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="raid max roach bait stations" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="raid max roach bait stations" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Boric acid powder<br /><span className="font-normal text-xs text-gray-500">registered dust products</span></td>
                   <td className="px-4 py-3 text-gray-700">One of the oldest verified roach actives; thin films in cracks and voids, dry areas only</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Cheap force multiplier</strong></td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="boric acid roach powder" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="boric acid roach powder" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Diatomaceous earth<br /><span className="font-normal text-xs text-gray-500">crawling-insect registrations</span></td>
                   <td className="px-4 py-3 text-gray-700">Mechanical desiccant dust with Canadian domestic registrations for crawling insects</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Void &amp; perimeter dust</strong></td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="diatomaceous earth crawling insect killer" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="diatomaceous earth crawling insect killer" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Glue monitor traps<br /><span className="font-normal text-xs text-gray-500">sticky monitors</span></td>
                   <td className="px-4 py-3 text-gray-700">Devices, not pesticides &mdash; no PMRA registration required at all; your progress meter</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Zero-paperwork essential</strong></td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="cockroach glue traps monitor" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="cockroach glue traps monitor" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
           </div>
 
-          <TopPick tag={AMZ_TAG}
-            label="Best Compliant Bait System"
-            name="Combat Roach Killing Bait Stations (large 12-pack)"
-            blurb="The legal Canadian workhorse: enclosed, child-resistant stations pre-loaded with a delayed-kill hydramethylnon bait, so foragers feed and carry the dose back to the harbourage before dying — the same core playbook as professional gel, in the format the consumer class allows. Deploy them densely (12–24 stations for a real kitchen problem, not 4), pair with glue monitors to track progress, and check the PCP registration number on the pack you buy. Against light-to-moderate German cockroach pressure with sanitation handled, this plus patience genuinely works."
-            search="combat roach killing bait stations"
-            score={8.2}
-            pros={['Enclosed, child-resistant format — the class Canada permits', 'Delayed-kill bait exploits the same transfer effect as pro gels', 'Cheap enough to deploy at the density that actually works']}
-            cons={['Slower and less potent than professional-tier gel', 'Loses the menu contest in an unsanitized kitchen', 'No IGR partner — expect a longer campaign']}
+          <AwardRow tag={AMZ_TAG}
+            heading="Our Picks — The Legal Cockroach Toolkit"
+            awards={[
+              {
+                badge: 'Best Overall',
+                name: 'Combat Roach Killing Bait Stations (large 12-pack)',
+                why: 'The legal Canadian workhorse: enclosed, child-resistant stations pre-loaded with delayed-kill hydramethylnon bait, so foragers carry the dose back to the harbourage — the same core playbook as professional gel, in the format the consumer class allows.',
+                search: 'combat roach killing bait stations',
+                score: 8.2,
+                featured: true,
+                pros: ['Enclosed, child-resistant format — the class Canada permits', 'Cheap enough to deploy at the 12–24 station density that actually works'],
+                cons: ['Not enough for daylight sightings or any multi-unit building — that threshold calls for a licensed exterminator, not more stations'],
+              },
+              {
+                badge: 'Best for Bait Rotation',
+                name: 'Raid Max Roach Bait Stations',
+                why: 'The other mainstream station line on Canadian shelves — a different bait active, which is exactly what you want when a colony turns bait-averse mid-campaign.',
+                search: 'raid max roach bait stations',
+                score: 7.8,
+                pros: ['Rotating bait actives is how professionals defeat aversion', 'Widely stocked at Canadian retailers'],
+                cons: ['Not your first buy — deploy a dense Combat set first and add this line when you rotate actives'],
+              },
+              {
+                badge: 'Best Chemical-Free',
+                name: 'Cockroach Glue Trap Monitors',
+                why: 'Devices, not pesticides — zero PMRA paperwork, and the only honest progress meter your campaign has: falling counts by week four mean the bait is winning.',
+                search: 'cockroach glue traps monitor',
+                score: 7.9,
+                pros: ['No registration questions at all — fine for rentals and condos', 'Shows you where the harbourages are before you place a single station'],
+                cons: ['Measures the problem instead of fixing it — a monitor-only plan is just counting roaches, so pair it with bait stations'],
+              },
+              {
+                badge: 'Best Budget Add-On',
+                name: 'Boric Acid Roach Powder',
+                why: 'One of the oldest verified roach actives — a barely-there dust film in cracks, kick plates, and voids catches the roaches that never visit a station.',
+                search: 'boric acid roach powder',
+                score: 7.4,
+                pros: ['Cheap force multiplier for a station deployment', 'Registered domestic-class products carry a PCP number'],
+                cons: ['Skip it as your only purchase — it complements stations rather than replacing them, and it cakes uselessly in damp spots'],
+              },
+            ]}
+            whichToBuy={
+              <>
+                <strong>Light-to-moderate kitchen problem?</strong> Put <em>glue monitors</em> down for a few nights, then deploy the <em>Best Overall</em> Combat stations densely &mdash; 12 to 24, clustered on the evidence. <strong>Counts stalling or bait going untouched?</strong> Rotate actives with the <em>Raid</em> line and dust the voids stations can&rsquo;t reach with <em>boric acid</em>. <strong>Daylight sightings, roaches beyond the kitchen, or a multi-unit building?</strong> That is past the consumer tier &mdash; a licensed pro can legally run the professional gels this article is about; our <Link href="/pest-control-cost-canada">cost guide</Link> shows what that should run.
+              </>
+            }
           />
 
           <h2>How to Run the Legal Playbook (IGR-Free, Eyes Open)</h2>
@@ -238,7 +276,7 @@ export default function AdvionCockroachGelBaitCanadaPage() {
           <p>The full room-by-room campaign &mdash; including apartment-specific tactics and what to do about neighbouring units &mdash; lives in our <Link href="/blog/how-to-get-rid-of-cockroaches-canada">complete guide to getting rid of cockroaches in Canada</Link>; this page is the legality-and-products chapter of that playbook.</p>
 
           <h2>Cockroach Bait in Canada &mdash; Key Facts</h2>
-          <div className="not-prose rounded-xl border border-navy-100 overflow-hidden my-6">
+          <div className="not-prose rounded-xl border border-navy-100 overflow-x-auto my-6">
             <table className="w-full text-sm">
               <tbody>
                 {[

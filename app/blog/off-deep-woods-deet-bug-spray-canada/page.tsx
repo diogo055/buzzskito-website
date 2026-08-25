@@ -78,6 +78,7 @@ export default function OffDeepWoodsDeetPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="OFF Deep Woods (25% DEET insect repellent)" search="off deep woods" label="Best DEET pick" />
 
       <section className="bg-white px-4">
@@ -157,8 +158,8 @@ export default function OffDeepWoodsDeetPage() {
           <p className="text-sm text-gray-700 mb-5 leading-relaxed">
             OFF is stocked almost everywhere in Canada. Costco usually wins on the per-can price with seasonal multipacks; Canadian Tire, Home Depot, Walmart, and Shoppers carry singles all season. Prices below are typical 2026 ranges.
           </p>
-          <div className="rounded-xl border border-navy-100 overflow-hidden bg-white shadow-sm">
-            <table className="w-full text-sm">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto bg-white shadow-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Retailer</th>
@@ -199,7 +200,7 @@ export default function OffDeepWoodsDeetPage() {
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">DEET Bug Spray Key Facts (Canada)</h2>
-          <div className="rounded-xl border border-navy-100 overflow-hidden">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto">
             <table className="w-full text-sm">
               <tbody>
                 {[
@@ -229,7 +230,6 @@ export default function OffDeepWoodsDeetPage() {
 
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Compare current Canadian prices on the OFF lineup and a gear-safe icaridin alternative:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="off deep woods">Check OFF Deep Woods price on Amazon.ca →</BuyLink>
@@ -249,7 +249,7 @@ export default function OffDeepWoodsDeetPage() {
           <h2 id="off-lineup">The OFF Lineup Compared — Which One to Buy</h2>
           <p>OFF sells several formulas that look similar on the shelf but are aimed at different jobs. Here is the practical breakdown for Canadian buyers, with a live Amazon.ca price check on each:</p>
           <div className="not-prose my-6 overflow-x-auto rounded-xl border border-navy-100 shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">OFF product</th>
@@ -265,7 +265,7 @@ export default function OffDeepWoodsDeetPage() {
                   <td className="px-4 py-3 font-mono text-gray-800">≈ 25%</td>
                   <td className="px-4 py-3 text-gray-700">5–6 hrs</td>
                   <td className="px-4 py-3 text-gray-700">Hiking, cottage, heavy dusk pressure</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="off deep woods" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="off deep woods" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Deep Woods Dry</td>
@@ -307,7 +307,7 @@ export default function OffDeepWoodsDeetPage() {
 
           <h2 id="deet-vs-picaridin">OFF Deep Woods vs Picaridin &amp; Other Repellents</h2>
           <p>DEET is not the only option, and for a lot of Canadians it is no longer the best everyday one. Here is how OFF Deep Woods stacks up against the alternatives you will see on the same shelf:</p>
-          <table className="not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
+          <table className="min-w-[560px] not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
             <thead className="bg-brand-50">
               <tr><th className="px-3 py-2 text-left">Repellent</th><th className="px-3 py-2 text-left">Active</th><th className="px-3 py-2 text-left">Feel / odour</th><th className="px-3 py-2 text-left">Best for</th></tr>
             </thead>

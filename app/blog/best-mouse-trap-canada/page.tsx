@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
+import AmazonLink from '@/components/AmazonLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import SpecialistDisclosure from '@/components/SpecialistDisclosure'
 import AwardRow from '@/components/AwardRow'
@@ -99,13 +100,14 @@ export default function BestMouseTrapCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Victor M325 wood snap trap (4-pack)" search="victor mouse trap 4 pack" label="Best overall" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The best mouse trap for most Canadian homes is the classic Victor M325 wood snap trap — it kills quickly when set against a wall, is reusable dozens of times, and costs the least per catch of any method. Choose the Victor M250S electronic trap if you want no-see, no-touch disposal, and the Motel Mouse catch-and-release only if you can check it every few hours and release mice 2+ km away.</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The best mouse trap for most Canadian homes is the classic <AmazonLink search="victor mouse trap 4 pack" tag={AMZ_TAG} className="font-bold underline decoration-emerald-500 underline-offset-2 hover:text-emerald-900">Victor M325 wood snap trap</AmazonLink> — it kills quickly when set against a wall, is reusable dozens of times, and costs the least per catch of any method. Choose the Victor M250S electronic trap if you want no-see, no-touch disposal, and the Motel Mouse catch-and-release only if you can check it every few hours and release mice 2+ km away.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
               <li>A female house mouse can produce 5–10 litters per year of 5–6 pups each — two mice in October can become 30+ by January.</li>
               <li>Place traps every 2–3 metres along walls, trigger end touching the baseboard; mice rarely travel more than 3–9 metres from the nest.</li>
@@ -115,6 +117,9 @@ export default function BestMouseTrapCanadaPage() {
               <li>Glue traps are legal in most of Canada but discouraged by humane organizations; England and Wales banned public use in 2022.</li>
             </ul>
             <p className="mt-3 text-xs text-gray-500">— BuzzSkito Pest Product Guides · independent Canadian research</p>
+            <div className="mt-4">
+              <BuyLink search="victor mouse trap 4 pack" tag={AMZ_TAG} block className="sm:w-auto sm:min-h-0 sm:inline-flex sm:rounded-full sm:px-4 sm:py-2">Check price on Amazon.ca →</BuyLink>
+            </div>
           </div>
           <SpecialistDisclosure pest="mice" />
         </div>
@@ -172,8 +177,8 @@ export default function BestMouseTrapCanadaPage() {
 
           <h2>Snap vs Electronic vs Catch-and-Release vs Glue: How Do They Compare?</h2>
           <p>Here is how the four trap categories stack up for Canadian homes. Note what is <em>not</em> in this table: poison. Rodenticides are a last resort in Canada for legal and practical reasons we cover below.</p>
-          <div className="not-prose rounded-xl border border-navy-100 overflow-hidden bg-white shadow-sm my-6 overflow-x-auto">
-            <table className="w-full text-sm">
+          <div className="not-prose rounded-xl border border-navy-100 overflow-x-auto bg-white shadow-sm my-6 overflow-x-auto">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Trap type</th>
@@ -203,7 +208,6 @@ export default function BestMouseTrapCanadaPage() {
           </div>
           <p className="text-sm text-gray-600">Mouse traps are mechanical devices, not pesticides — none of them require PMRA registration, which is exactly why they are the frictionless, fully legal first move for any Canadian household.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the three picks:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="victor mouse trap 4 pack">Victor M325 snap traps →</BuyLink>

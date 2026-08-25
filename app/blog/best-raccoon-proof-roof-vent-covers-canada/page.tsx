@@ -84,6 +84,7 @@ export default function BestRaccoonProofRoofVentCoversCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Galvanized steel roof vent guard" search="roof vent guard galvanized steel animal" label="Best raccoon-proof vent cover" />
 
       <section className="bg-white px-4">
@@ -165,7 +166,6 @@ export default function BestRaccoonProofRoofVentCoversCanadaPage() {
           <p>A galvanized steel vent guard, half-inch mesh, 19 gauge or heavier, fastened through the roof deck rather than into the vent &mdash; that is the whole answer, and everything below is why each part of it matters. Roof exclusion in Canada gets discussed as though it were a chimney problem, because a chimney cap is the visible, photogenic fix. But on a typical GTA house the chimney is capped and the roof vents are not, and the roof vents are plastic. That is where the animals go.</p>
           <p>Walk the perimeter of almost any Mississauga or Etobicoke two-storey and count what is up there: three to six plastic box vents near the ridge, a plumbing stack with a rubber boot, a bathroom fan outlet, continuous vented aluminum soffit around the eaves, and possibly a gable louvre. Every one is a designed opening into the building envelope, screened from the factory with thin insect mesh or a moulded plastic grille. None of it was engineered against a nine-kilogram mammal with hands.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the hardware:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="roof vent guard galvanized steel animal">Steel roof vent guards &rarr;</BuyLink>
@@ -222,7 +222,7 @@ export default function BestRaccoonProofRoofVentCoversCanadaPage() {
           <p>For the rest of the raccoon picture &mdash; why Ontario&rsquo;s one-kilometre relocation limit makes trapping self-defeating, and which yard-level deterrents have evidence behind them &mdash; our <Link href="/blog/raccoon-deterrent-canada">raccoon deterrent guide for Canada</Link> is the companion piece, and the <Link href="/blog/best-raccoon-live-trap-canada">raccoon live trap guide</Link> covers the legal limits honestly. The same exclusion logic runs at ground level in our <Link href="/blog/rodent-exclusion-kit-canada">rodent exclusion kit guide</Link> and the <Link href="/blog/how-to-keep-mice-out-of-your-house-winter">winter mouse-proofing guide</Link> &mdash; the quarter-inch end of the same job.</p>
 
           <h2>Roof Vent Exclusion — Key Specifications</h2>
-          <div className="not-prose rounded-xl border border-navy-100 overflow-hidden my-6 overflow-x-auto">
+          <div className="not-prose rounded-xl border border-navy-100 overflow-x-auto my-6 overflow-x-auto">
             <table className="w-full text-sm">
               <tbody>
                 {[

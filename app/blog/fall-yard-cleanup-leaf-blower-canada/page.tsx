@@ -83,6 +83,7 @@ export default function FallYardCleanupLeafBlowerCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="60V-Class Cordless Leaf Blower" search="60v cordless leaf blower" label="Best for most yards" />
 
       <section className="bg-white px-4">
@@ -216,7 +217,6 @@ export default function FallYardCleanupLeafBlowerCanadaPage() {
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Jump to current Canadian availability &mdash; the pick for most yards, and the one for big properties:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="60v cordless leaf blower">See 60V cordless blowers &rarr;</BuyLink>

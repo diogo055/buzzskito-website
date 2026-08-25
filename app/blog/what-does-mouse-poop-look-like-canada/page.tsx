@@ -109,6 +109,7 @@ export default function WhatDoesMousePoopLookLikeCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Victor snap traps (what to buy once you've confirmed it)" search="victor mouse trap 4 pack" label="The next step after ID" />
 
       <section className="bg-white px-4">
@@ -139,7 +140,7 @@ export default function WhatDoesMousePoopLookLikeCanadaPage() {
             Size first, then shape, then the pattern they are lying in. The pattern is the part most guides leave out and it is often the fastest tell.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Animal</th>
@@ -292,7 +293,6 @@ export default function WhatDoesMousePoopLookLikeCanadaPage() {
           <p>Alongside the droppings, look for the other traces that confirm it: <strong>urine staining</strong>, since mice dribble more or less constantly as they travel; <strong>grease marks</strong>, dark smudges where oily fur repeatedly brushes the same corner or gap edge; <strong>gnaw marks</strong> with fine parallel tooth grooves on cardboard, food packaging and soft plastic; and <strong>nesting material</strong>, which is shredded paper, insulation, fabric or cardboard packed into a hidden cavity. In long-running infestations, urine and body oils combine with dust into small hardened mounds sometimes called urine pillars &mdash; a sign of a population that has been established for a while rather than a recent arrival.</p>
           <p>A note on ultraviolet lights, which get recommended a lot: rodent urine does fluoresce, but so do a great many ordinary household residues, detergents, adhesives and cleaning products. A UV torch is a reasonable way to decide where to look more closely. It is not proof on its own.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">If the droppings are fresh, these are the three purchases in the order they should happen:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="n95 respirator masks niosh">Respirator &rarr;</BuyLink>

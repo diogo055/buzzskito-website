@@ -3,6 +3,7 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
+import AmazonLink from '@/components/AmazonLink'
 import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
@@ -79,13 +80,14 @@ export default function MosquitoFoggerCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Black Flag Propane Mosquito Fogger" search="black flag propane fogger" label="Best overall fogger" />
 
       <section className="bg-white px-4 pt-8">
         <div className="max-w-4xl mx-auto">
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Mosquito foggers work for fast, temporary knockdown but not lasting control &mdash; and for most GTA yards a propane thermal fogger like the Black Flag is the best pick because it&rsquo;s cordless, cheap, and clears adult mosquitoes 20&ndash;30 minutes before guests arrive. For weeks of hands-off protection, pair it with a <Link href="/mosquito-control" className="text-emerald-700 underline">professional barrier spray</Link>.</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Mosquito foggers work for fast, temporary knockdown but not lasting control &mdash; and for most GTA yards a propane thermal fogger like the <AmazonLink search="black flag propane fogger" tag={AMZ_TAG} className="font-bold underline decoration-emerald-500 underline-offset-2 hover:text-emerald-900">Black Flag</AmazonLink> is the best pick because it&rsquo;s cordless, cheap, and clears adult mosquitoes 20&ndash;30 minutes before guests arrive. For weeks of hands-off protection, pair it with a <Link href="/mosquito-control" className="text-emerald-700 underline">professional barrier spray</Link>.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
               <li>A fogger disperses pyrethrin/pyrethroid insecticide that kills adult mosquitoes on contact; a yard is noticeably clearer 20&ndash;30 minutes after fogging.</li>
               <li>Fogging leaves almost no residual &mdash; knockdown lasts roughly 6 to 24 hours before mosquitoes drift back.</li>
@@ -95,6 +97,9 @@ export default function MosquitoFoggerCanadaPage() {
               <li>Foggers barely touch ticks, which hide low in leaf litter; a barrier spray lasts 21&ndash;30 days and covers ticks.</li>
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+            <div className="mt-4">
+              <BuyLink search="black flag propane fogger" tag={AMZ_TAG} block className="sm:w-auto sm:min-h-0 sm:inline-flex sm:rounded-full sm:px-4 sm:py-2">Check price on Amazon.ca →</BuyLink>
+            </div>
           </div>
         </div>
       </section>
@@ -106,8 +111,8 @@ export default function MosquitoFoggerCanadaPage() {
           <p className="text-sm text-gray-700 mb-5 leading-relaxed">
             The foggers are easy to find; the <strong>fogging liquid</strong> is the tricky part. Many US ready-to-use fogging insecticides are not registered with Health Canada&rsquo;s PMRA, so Canadian stock is inconsistent and sells out in mid-summer. Buy the machine and liquid together in spring, and confirm the liquid carries a Canadian PCP registration number.
           </p>
-          <div className="rounded-xl border border-navy-100 overflow-hidden bg-white shadow-sm">
-            <table className="w-full text-sm">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto bg-white shadow-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Retailer</th>
@@ -200,7 +205,7 @@ export default function MosquitoFoggerCanadaPage() {
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">Mosquito Fogger Key Facts</h2>
-          <div className="rounded-xl border border-navy-100 overflow-hidden">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto">
             <table className="w-full text-sm">
               <tbody>
                 {[
@@ -231,7 +236,6 @@ export default function MosquitoFoggerCanadaPage() {
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Compare current Canadian prices on propane foggers, electric ULV cold foggers, and fogging liquid:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="propane mosquito fogger">Check fogger prices on Amazon.ca →</BuyLink>
@@ -249,7 +253,7 @@ export default function MosquitoFoggerCanadaPage() {
           <h2 id="models">Best Mosquito Foggers in Canada Compared</h2>
           <p>Here are the fogger types most commonly sold in Canada, what each is best at, an approximate 2026 Canadian price, and a live Amazon.ca price check. The three classic propane units (Black Flag, Repel, Burgess) all run on the same principle &mdash; heat an oil-based fogging insecticide into a visible fog &mdash; and differ mostly in tank size, build, and price.</p>
           <div className="not-prose my-6 overflow-x-auto rounded-xl border border-navy-100 shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Fogger</th>
@@ -265,28 +269,28 @@ export default function MosquitoFoggerCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Thermal / propane</td>
                   <td className="px-4 py-3 text-gray-700">Classic backyard knockdown</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$60 – $90</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="black flag propane fogger" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="black flag propane fogger" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Repel Propane Fogger</td>
                   <td className="px-4 py-3 text-gray-700">Thermal / propane</td>
                   <td className="px-4 py-3 text-gray-700">Yard &amp; campsite clearing</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$60 – $95</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="repel propane insect fogger" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="repel propane insect fogger" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Burgess Propane Fogger</td>
                   <td className="px-4 py-3 text-gray-700">Thermal / propane</td>
                   <td className="px-4 py-3 text-gray-700">Larger tank · faster coverage</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$70 – $110</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="burgess propane insect fogger" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="burgess propane insect fogger" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 font-bold text-brand-800">Electric ULV Cold Fogger</td>
                   <td className="px-4 py-3 text-gray-700">Cold / electric</td>
                   <td className="px-4 py-3 text-gray-700">Reusable · water-based · precise</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$80 – $250</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="electric ulv cold fogger" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="electric ulv cold fogger" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -350,7 +354,7 @@ export default function MosquitoFoggerCanadaPage() {
 
           <h2 id="vs-alternatives">Fogger vs Real Mosquito Solutions for GTA Yards</h2>
           <p>Reinvasion pressure is what decides whether a fogger alone is enough. On a tight suburban lot where the neighbour&rsquo;s fence sits a few metres from the patio &mdash; a common setup on the properties we treat for <Link href="/mississauga-mosquito-control">mosquito control in Mississauga</Link> &mdash; fresh mosquitoes drift back in from surrounding yards within a day or two of fogging. Larger treed lots hold a fogging a little longer, but nothing holds it for weeks.</p>
-          <table className="not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
+          <table className="min-w-[560px] not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
             <thead className="bg-brand-50">
               <tr><th className="px-3 py-2 text-left">Solution</th><th className="px-3 py-2 text-left">Cost</th><th className="px-3 py-2 text-left">How long it lasts</th><th className="px-3 py-2 text-left">Tick coverage</th></tr>
             </thead>

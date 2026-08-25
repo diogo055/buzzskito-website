@@ -88,6 +88,7 @@ export default function BedBugEquipmentKitForLandlordsCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Bed bug encasements and interceptors (multi-pack)" search="bed bug mattress encasement multi pack" label="Start here" />
 
       <section className="bg-white px-4">
@@ -169,7 +170,6 @@ export default function BedBugEquipmentKitForLandlordsCanadaPage() {
           <p>It is a bin, in a locked storage room, containing the equipment needed to inspect, contain, monitor and prepare a unit &mdash; and it is deliberately not a chemical kit. That distinction is the entire design principle. Everything in this list is a physical tool or a barrier: encasements, interceptors, monitors, a steamer, a HEPA vacuum, disposal bags. None of it is a pest control product, so none of it carries a PMRA registration, a licence requirement, or a re-entry interval, and there is no question about whether you are allowed to use it in your own building.</p>
           <p>The pesticide half of bed bug control belongs to a licensed exterminator, and for a landlord that is not a cost-saving compromise, it is the correct division of labour. A mis-applied product in a building with shared walls is a liability event. Your kit&rsquo;s job is everything around the treatment: finding the problem early, proving what you found, containing what you have, preparing the unit so the professional&rsquo;s visit actually works, and monitoring afterwards so you know whether it did.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability for the kit lines:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="bed bug mattress encasement multi pack">Encasements (multi-pack) &rarr;</BuyLink>
@@ -183,8 +183,8 @@ export default function BedBugEquipmentKitForLandlordsCanadaPage() {
           <p><strong>Consumables scale, and they scale on beds rather than doors.</strong> A six-unit building with one bed per unit is six mattress encasements plus six box-spring encasements, and a minimum of twenty-four interceptor traps &mdash; four under each bed. A two-bedroom unit is two of everything. Encasements typically run $40&ndash;$90 for a queen in Canada, so the encasement line on a six-unit building is a real number worth planning for rather than an impulse purchase during a complaint. Buy them in multi-packs, measure depths first &mdash; standard mattresses are 20&ndash;30 cm and pillow-tops need a deep-pocket size &mdash; and label each set by unit.</p>
           <p><strong>Machines do not scale.</strong> One steamer and one sealed-HEPA vacuum serve an entire building, and they keep serving it for years. That asymmetry is why the correct buying order is consumables first: the encasements and interceptors are the cheap, high-multiplicity items that protect your mattresses and produce your evidence, and they are also the ones landlords chronically under-buy because a bulk order looks expensive next to a single machine.</p>
 
-          <div className="not-prose rounded-xl border border-navy-100 overflow-hidden bg-white shadow-sm my-6 overflow-x-auto">
-            <table className="w-full text-sm">
+          <div className="not-prose rounded-xl border border-navy-100 overflow-x-auto bg-white shadow-sm my-6 overflow-x-auto">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Kit line</th>

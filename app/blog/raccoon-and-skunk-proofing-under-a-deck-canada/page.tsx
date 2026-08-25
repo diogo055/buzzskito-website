@@ -84,6 +84,7 @@ export default function RaccoonAndSkunkProofingUnderADeckCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Half-inch galvanised hardware cloth" search="galvanized hardware cloth 1/2 inch 36 inch roll" label="The permanent fix" />
 
       <section className="bg-white px-4">
@@ -175,7 +176,6 @@ export default function RaccoonAndSkunkProofingUnderADeckCanadaPage() {
           <p>A deck, shed, porch or set of concrete steps offers a wild animal the three things a den site needs: a dry roof, a defensible entrance, and total concealment from anything larger. It is warmer than open ground in winter, shaded in summer, and it sits inside a suburban food landscape of green bins, pet bowls, bird seed and grub-rich lawn. From a raccoon or skunk&rsquo;s perspective it is not a compromise. It is better than anything available in the ravine.</p>
           <p>That is why repellents lose this fight. You are not competing against indifference; you are competing against the best den site for several hundred metres. Scent granules, lights, ultrasonic devices and one-off harassment can move an animal for a few nights, but the void stays open and the next animal &mdash; or the same one &mdash; moves back in. The only intervention that ends it is closing the space, and closing it in a way that survives digging.</p>
 
-          <AffiliateDisclosure />
           <h2>Raccoon or Skunk? Read the Entrance</h2>
           <p>The fix is identical for both, but knowing which one you have changes your timing and your caution level.</p>
           <ul>
@@ -247,7 +247,7 @@ export default function RaccoonAndSkunkProofingUnderADeckCanadaPage() {
           <p>Then remove the reason they were shopping your address in the first place: strap or latch the green bin, freeze meat scraps until collection morning, bring pet bowls in at dusk, and pick up spilled bird seed. A sealed structure plus a property that pays out nothing is what gets you dropped from the nightly route entirely. And if the job is bigger than a deck &mdash; an attic entry, a roofline vent, anything involving a ladder and a possible maternity den &mdash; hand it to a licensed wildlife control company; our <Link href="/pest-control-cost-canada">Canadian pest control cost guide</Link> covers what that work should run so you can spot a padded quote.</p>
 
           <h2>Deck Exclusion — Key Facts</h2>
-          <div className="not-prose rounded-xl border border-navy-100 overflow-hidden my-6 overflow-x-auto">
+          <div className="not-prose rounded-xl border border-navy-100 overflow-x-auto my-6 overflow-x-auto">
             <table className="w-full text-sm">
               <tbody>
                 {[

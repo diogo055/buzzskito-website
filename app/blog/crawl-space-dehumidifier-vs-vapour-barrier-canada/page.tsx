@@ -84,6 +84,7 @@ export default function CrawlSpaceDehumidifierVsVapourBarrierCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Reinforced crawl space vapour barrier" search="reinforced crawl space vapor barrier 12 mil" label="Do this first" />
 
       <section className="bg-white px-4">
@@ -174,7 +175,7 @@ export default function CrawlSpaceDehumidifierVsVapourBarrierCanadaPage() {
             These two products solve different halves of the same problem, and buying them out of order is what makes crawl space projects expensive. Find the row that describes your space.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Your crawl space</th>
@@ -190,21 +191,21 @@ export default function CrawlSpaceDehumidifierVsVapourBarrierCanadaPage() {
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Barrier only, to start</strong></td>
                   <td className="px-4 py-3 text-gray-700">Soil evaporation is the dominant, endless source</td>
                   <td className="px-4 py-3 text-gray-700">Rake out rock and debris or you will tear it</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="reinforced crawl space vapor barrier 12 mil" block>Check price &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="reinforced crawl space vapor barrier 12 mil" block>Check price on Amazon.ca &rarr;</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Sealed / encapsulated<br /><span className="font-normal text-xs text-gray-500">vents closed</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Both</strong></td>
                   <td className="px-4 py-3 text-gray-700">A sealed space needs something actively removing moisture</td>
                   <td className="px-4 py-3 text-gray-700">Combustion appliances and radon &mdash; check before sealing</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="crawl space dehumidifier low temperature" block>Check price &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="crawl space dehumidifier low temperature" block>Check price on Amazon.ca &rarr;</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Liner down, still damp<br /><span className="font-normal text-xs text-gray-500">above 60% for weeks</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Dehumidifier</strong></td>
                   <td className="px-4 py-3 text-gray-700">Source is controlled; this is the residual load</td>
                   <td className="px-4 py-3 text-gray-700">Minimum operating temperature, and the drain route</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="crawl space dehumidifier low temperature" block>Check price &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="crawl space dehumidifier low temperature" block>Check price on Amazon.ca &rarr;</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Standing water<br /><span className="font-normal text-xs text-gray-500">or a seasonal pool</span></td>
@@ -235,7 +236,6 @@ export default function CrawlSpaceDehumidifierVsVapourBarrierCanadaPage() {
           <p>Lay the <strong>vapour barrier first</strong>. In a Canadian crawl space with an exposed earth floor, moisture evaporating out of the soil is the largest single source of humidity in the space, and unlike weather it never pauses. A dehumidifier set over bare ground is therefore competing with the earth itself: it will hold the reading down while it runs, and the space will refill as soon as it stops. Covering the soil removes that source outright, for a materials cost in the low hundreds rather than the four figures a proper crawl space dehumidifier commands.</p>
           <p>The reason this article exists is that the honest answer to &ldquo;which one&rdquo; is often <em>both</em> &mdash; but in a specific order, with a measurement in between. Barrier, then measure for a month, then decide about the machine. Do it the other way around and you buy the expensive half to solve a problem the cheap half would have removed.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the parts:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="reinforced crawl space vapor barrier 12 mil">Reinforced barrier &rarr;</BuyLink>

@@ -100,6 +100,7 @@ export default function BestUlvColdFoggerCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="PetraTools-class adjustable electric ULV cold fogger" search="petratools ulv cold fogger electric" label="Best overall" />
 
       <section className="bg-white px-4">
@@ -181,7 +182,7 @@ export default function BestUlvColdFoggerCanadaPage() {
             All four are ULV cold foggers, but they solve different parts of the job. Here is the honest breakdown, with a live Amazon.ca availability check per type.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Fogger type</th>
@@ -197,28 +198,28 @@ export default function BestUlvColdFoggerCanadaPage() {
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best</strong> &mdash; corded, 1&ndash;2 gal tank</td>
                   <td className="px-4 py-3 text-gray-700">Whole rooms, basements, ducts; both fine mist and surface work</td>
                   <td className="px-4 py-3 text-gray-700">Tethered to an outlet; bulkier</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="petratools ulv cold fogger electric" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="petratools ulv cold fogger electric" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Commercial ULV<br /><span className="font-normal text-xs text-gray-500">Hudson-style</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best</strong> &mdash; corded, serviceable, heavy-duty</td>
                   <td className="px-4 py-3 text-gray-700">Daily professional / restoration / large-property use</td>
                   <td className="px-4 py-3 text-gray-700">Highest cost; overkill for occasional jobs</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="hudson commercial ulv fogger" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="hudson commercial ulv fogger" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Compact electric<br /><span className="font-normal text-xs text-gray-500">VonHaus-class</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Fair</strong> &mdash; corded, small tank</td>
                   <td className="px-4 py-3 text-gray-700">Single rooms, vehicles, occasional deodorizing</td>
                   <td className="px-4 py-3 text-gray-700">Little/no micron adjustment; frequent refills</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="vonhaus electric ulv fogger" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="vonhaus electric ulv fogger" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Cordless ULV<br /><span className="font-normal text-xs text-gray-500">battery</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Limited</strong> &mdash; battery runtime</td>
                   <td className="px-4 py-3 text-gray-700">Spot jobs and outlet-free areas where mobility wins</td>
                   <td className="px-4 py-3 text-gray-700">Short runtime; weaker atomization</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="cordless battery ulv fogger" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="cordless battery ulv fogger" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -242,7 +243,6 @@ export default function BestUlvColdFoggerCanadaPage() {
           <p>The best ULV cold fogger for most Canadian buyers is an adjustable corded electric unit &mdash; a PetraTools-class machine &mdash; because it does the two things this tool exists to do better than the other designs on this page: it lets you dial the droplet size to match the job, and it carries enough solution to finish a real space without stopping to refill. Everything else in our picks is a trade against those two ideas. A commercial Hudson-style ULV trades some convenience for rebuildable durability; a compact VonHaus-class unit trades adjustability and tank size for price and portability; a cordless model trades power and runtime for freedom from an outlet. All four appear above because different jobs need different trade-offs, but the reasoning below explains why the adjustable electric machine sits at the top.</p>
           <p>The most important thing to understand before you spend a dollar is that a cold fogger is a <em>delivery device</em>, not a treatment. It atomizes whatever liquid you pour into it into a fine, drifting mist. That means the machine is only ever as good, as legal, and as effective as the solution you put in &mdash; a point that matters enormously in Canada, where what you are allowed to fog is tightly regulated even though the fogger itself is not.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the four picks:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="petratools ulv cold fogger electric">Adjustable electric ULV →</BuyLink>

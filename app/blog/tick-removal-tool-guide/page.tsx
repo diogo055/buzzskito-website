@@ -82,6 +82,7 @@ export default function TickRemovalToolGuidePage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Tick Twister / O’Tom Tick Twister removal tool" search="tick twister removal tool" label="Best overall tool" />
 
       <article className="py-12 px-4 bg-white">
@@ -100,7 +101,6 @@ export default function TickRemovalToolGuidePage() {
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
           </div>
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">The two tools vets and Canadian hikers keep on hand — a fine-tipped tweezer and a tick-hook set (under $15):</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="tick twister removal tool">Check tick-removal tools on Amazon.ca →</BuyLink>
@@ -167,7 +167,7 @@ export default function TickRemovalToolGuidePage() {
 
           <h2>Tick Removal Tool Comparison</h2>
           <div className="not-prose overflow-x-auto my-6">
-            <table className="w-full text-sm border-collapse">
+            <table className="min-w-[560px] w-full text-sm border-collapse">
               <thead>
                 <tr className="bg-brand-800 text-white">
                   <th className="px-3 py-2 text-left">Tool</th>
@@ -190,7 +190,7 @@ export default function TickRemovalToolGuidePage() {
                     <td className="px-3 py-2 text-gray-600 text-xs">{mech}</td>
                     <td className="px-3 py-2 text-gray-600 text-xs">{best}</td>
                     <td className="px-3 py-2 text-center text-gray-600 text-xs">{price}</td>
-                    <td className="px-3 py-2 text-center whitespace-nowrap">{search ? <BuyLink tag={AMZ_TAG} search={search} block>Check price →</BuyLink> : <span className="text-xs text-gray-400">&mdash;</span>}</td>
+                    <td className="px-3 py-2 text-center whitespace-nowrap">{search ? <BuyLink tag={AMZ_TAG} search={search} block>Check price on Amazon.ca →</BuyLink> : <span className="text-xs text-gray-400">&mdash;</span>}</td>
                   </tr>
                 ))}
               </tbody>

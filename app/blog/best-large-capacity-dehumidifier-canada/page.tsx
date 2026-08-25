@@ -96,7 +96,8 @@ export default function BestLargeCapacityDehumidifierCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar tag={AMZ_TAG} name="Large-capacity Energy Star basement dehumidifier" search="midea cube 50 pint dehumidifier" label="Best overall" />
+      <AffiliateDisclosure />
+      <StickyBuyBar tag={AMZ_TAG} name="Large-capacity Energy Star basement dehumidifier" asin="B0GL7Y575V" search="midea cube 50 pint dehumidifier" label="Best overall" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -126,6 +127,7 @@ export default function BestLargeCapacityDehumidifierCanadaPage() {
                 badge: 'Best Overall',
                 name: 'Midea Cube-Class 50-Pint (Energy Star)',
                 why: 'A top-tier compressor unit (the old "70-pint" class) that pairs strong moisture removal with Energy Star efficiency for a long humid season. Auto-defrost keeps it working in a cool basement, and it drains continuously so it never sits idle with a full bucket.',
+                asin: 'B0GL7Y575V',
                 search: 'midea cube 50 pint dehumidifier',
                 score: 9.2,
                 featured: true,
@@ -186,7 +188,7 @@ export default function BestLargeCapacityDehumidifierCanadaPage() {
             All four cover a large space, but they solve different basement problems. Here is the honest breakdown, with a live Amazon.ca availability check per type.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Unit type</th>
@@ -202,28 +204,28 @@ export default function BestLargeCapacityDehumidifierCanadaPage() {
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best</strong> &mdash; continuous drain, auto-defrost to ~5&deg;C</td>
                   <td className="px-4 py-3 text-gray-700">Large or wet basements, all-season running</td>
                   <td className="px-4 py-3 text-gray-700">Higher up-front cost; needs a drain route</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="midea cube 50 pint dehumidifier" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="midea cube 50 pint dehumidifier" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Built-in pump model<br /><span className="font-normal text-xs text-gray-500">compressor + pump</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best drainage</strong> &mdash; pushes water UP and out</td>
                   <td className="px-4 py-3 text-gray-700">Basements with no drain below the unit</td>
                   <td className="px-4 py-3 text-gray-700">Pump adds cost and a wear part</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="frigidaire dehumidifier with pump 50 pint" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="frigidaire dehumidifier with pump 50 pint" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Value compressor<br /><span className="font-normal text-xs text-gray-500">Waykar-class</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Good</strong> &mdash; gravity drain; check defrost spec</td>
                   <td className="px-4 py-3 text-gray-700">Big, damp-not-soaked basements on a budget</td>
                   <td className="px-4 py-3 text-gray-700">Less efficient; usually no pump</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="waykar 50 pint dehumidifier basement" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="waykar 50 pint dehumidifier basement" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Desiccant / crawlspace<br /><span className="font-normal text-xs text-gray-500">cold-space specialist</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Cold-proof</strong> &mdash; no cold coil to frost</td>
                   <td className="px-4 py-3 text-gray-700">Unheated crawlspaces, cellars, winter cottages</td>
                   <td className="px-4 py-3 text-gray-700">Higher power draw; lower capacity</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="desiccant dehumidifier crawlspace" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="desiccant dehumidifier crawlspace" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -247,7 +249,6 @@ export default function BestLargeCapacityDehumidifierCanadaPage() {
           <p>For a large or wet basement, the best dehumidifier is a top-tier Energy Star compressor unit &mdash; the class that used to be sold as &ldquo;70-pint&rdquo; and is now labelled around &ldquo;50-pint&rdquo; &mdash; run with continuous drainage and, in most basements, a pump. That is the short answer, and the rest of this guide is really about the details that separate a large unit that quietly fixes your basement from one that runs non-stop and never wins: the capacity rating, the auto-defrost coil, the drainage route, and the efficiency that determines what it costs you over a long humid season.</p>
           <p>Everything in our picks above is a variation on those trade-offs. The flagship buys you capacity plus efficiency; the pump model buys you drainage freedom; the value unit trades efficiency for a lower price; and the desiccant unit trades capacity for the ability to keep working in the cold. Different basements need different compromises, which is why there is no single &ldquo;best&rdquo; for everyone &mdash; but there is a best for <em>your</em> basement, and the reasoning below points you to it.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the main large-capacity types:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="midea cube 50 pint dehumidifier">Energy Star flagship →</BuyLink>

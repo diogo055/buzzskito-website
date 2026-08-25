@@ -3,6 +3,7 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
+import AmazonLink from '@/components/AmazonLink'
 import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
@@ -90,6 +91,7 @@ export default function Co2MosquitoTrapCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Biogents BG-Mosquitaire (electric CO2 mosquito trap)" search="biogents mosquitaire mosquito trap" label="Best CO2 trap" />
 
       <section className="bg-white px-4">
@@ -97,7 +99,7 @@ export default function Co2MosquitoTrapCanadaPage() {
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
             <p className="text-gray-800 text-[15px] leading-relaxed font-medium">
-              For most GTA backyards, an electric <strong>Biogents</strong> trap (BG-Home or BG-Mosquitaire) is the best CO2 mosquito trap because it runs on a wall plug and a chemical lure with no propane tank, and it uses the same research-grade design mosquito scientists deploy. Propane traps like Mosquito Magnet cover larger acreage but require a mandatory 20 lb tank.
+              For most GTA backyards, an electric <strong>Biogents</strong> trap (BG-Home or <AmazonLink search="biogents mosquitaire mosquito trap" tag={AMZ_TAG} className="font-bold underline decoration-emerald-500 underline-offset-2 hover:text-emerald-900">BG-Mosquitaire</AmazonLink>) is the best CO2 mosquito trap because it runs on a wall plug and a chemical lure with no propane tank, and it uses the same research-grade design mosquito scientists deploy. Propane traps like Mosquito Magnet cover larger acreage but require a mandatory 20 lb tank.
             </p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
               <li>Electric Biogents traps (BG-Home, BG-Mosquitaire) run on a wall plug and the BG-Lure &mdash; no propane tank required.</li>
@@ -108,6 +110,9 @@ export default function Co2MosquitoTrapCanadaPage() {
               <li>No CO2 mosquito trap catches ticks, because ticks do not fly to a CO2 plume.</li>
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+            <div className="mt-4">
+              <BuyLink search="biogents mosquitaire mosquito trap" tag={AMZ_TAG} block className="sm:w-auto sm:min-h-0 sm:inline-flex sm:rounded-full sm:px-4 sm:py-2">Check price on Amazon.ca →</BuyLink>
+            </div>
           </div>
         </div>
       </section>
@@ -167,7 +172,7 @@ export default function Co2MosquitoTrapCanadaPage() {
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">CO2 Mosquito Trap Options — At a Glance</h2>
-          <div className="rounded-xl border border-navy-100 overflow-hidden bg-white shadow-sm overflow-x-auto">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto bg-white shadow-sm overflow-x-auto">
             <table className="w-full text-sm min-w-[640px]">
               <thead className="bg-brand-800 text-white">
                 <tr>
@@ -229,7 +234,6 @@ export default function Co2MosquitoTrapCanadaPage() {
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Compare current Canadian models and prices on Amazon.ca:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="biogents bg-home mosquito trap">Check price on Amazon.ca</BuyLink>

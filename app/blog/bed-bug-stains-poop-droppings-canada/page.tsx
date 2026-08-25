@@ -100,6 +100,7 @@ export default function BedBugStainsCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Bed bug interceptor traps (under each bed leg)" search="bed bug interceptor traps climbup" label="Confirm before you spend" />
 
       <section className="bg-white px-4">
@@ -139,7 +140,7 @@ export default function BedBugStainsCanadaPage() {
             The single most expensive mistake at this stage is buying a spray before you know what you are looking at. Find your row.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">What you found</th>
@@ -247,7 +248,7 @@ export default function BedBugStainsCanadaPage() {
             Every row below has sent someone to a hardware store for a spray they did not need, or has been dismissed as nothing by someone who did. The damp-swab test in the third column separates them faster than any photograph comparison.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Mark</th>
@@ -314,7 +315,7 @@ export default function BedBugStainsCanadaPage() {
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">Bed Bug Staining &mdash; Quick Reference</h2>
-          <div className="rounded-xl border border-navy-100 overflow-hidden">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto">
             <table className="w-full text-sm">
               <tbody>
                 {[
@@ -355,7 +356,6 @@ export default function BedBugStainsCanadaPage() {
           <p>On an absorbent surface &mdash; a cotton sheet, the fabric piping around a mattress, the gauze under a box spring, an upholstered headboard &mdash; the droplet spreads into the weave before it dries. That is why bed bug spots look <em>bled</em>: soft, feathered edges, exactly like touching the fabric with the tip of a felt marker. On a non-absorbent surface &mdash; a lacquered bed frame, a metal slat, painted baseboard trim, the plastic of an outlet cover &mdash; there is nowhere for the liquid to go, so it dries on top as a small, slightly raised, faintly glossy black speck. Run a fingernail across one and you can feel it. Same insect, same material, two completely different-looking marks, which is why a photo you found online may not match what is in front of you.</p>
           <p>The colour is the giveaway and the reason the swab test works. The material is haem-derived, so when you rehydrate it, it releases the rusty reddish-brown that gives every bed bug guide its identical piece of advice: <strong>dab a damp white cloth or wet cotton swab on the edge of the mark.</strong> Bed bug faeces smear reddish-brown into white cotton. Cockroach frass, which is dry and solid, does not smear. Mould has texture and no discrete dots. Ink smears its own colour. Dried blood is redder and flakes off rather than bleeding out. Test the edge rather than the centre, so you keep an intact example if a professional needs to look at it later.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">If the evidence checks out, this is the short list worth checking:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="bed bug interceptor traps climbup">Interceptor traps &rarr;</BuyLink>

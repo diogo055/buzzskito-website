@@ -140,7 +140,7 @@ export default function CanDogsGetLymeDiseasePage() {
           <h2>What are the 3 stages of Lyme disease in dogs?</h2>
           <p>Veterinary sources often describe Lyme disease in dogs in three broad phases. Staging in dogs is less clearly defined than in people, and many dogs never move past the first phase &mdash; or show no signs at all &mdash; but this framework helps explain how the disease can progress if left unchecked.</p>
           <div className="not-prose my-6 overflow-x-auto">
-            <table className="w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden">
+            <table className="min-w-[560px] w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden">
               <thead className="bg-brand-50">
                 <tr>
                   <th className="px-3 py-2 text-left font-bold text-brand-800">Stage</th>

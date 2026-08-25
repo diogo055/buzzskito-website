@@ -100,6 +100,7 @@ export default function BestBedBugSprayForMattressCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="EcoRaider Bed Bug Killer Spray (plant-based, mattress-safe)" search="ecoraider bed bug killer spray" label="Best overall" />
 
       <section className="bg-white px-4">
@@ -181,7 +182,7 @@ export default function BestBedBugSprayForMattressCanadaPage() {
             All four types kill bed bugs, but only some are label-approved for the surface you sleep on. Here is the honest breakdown, with a live Amazon.ca availability check per type.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Spray type</th>
@@ -197,28 +198,28 @@ export default function BestBedBugSprayForMattressCanadaPage() {
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Yes</strong> &mdash; low-odour, popular on seams</td>
                   <td className="px-4 py-3 text-gray-700">Fast knockdown of visible bugs and nymphs</td>
                   <td className="px-4 py-3 text-gray-700">Modest residual; re-treat on schedule</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="ecoraider bed bug killer spray" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="ecoraider bed bug killer spray" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Canadian mattress-labelled<br /><span className="font-normal text-xs text-gray-500">Doktor Doom Sleep Tight</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Yes</strong> &mdash; PMRA-registered for mattresses</td>
                   <td className="px-4 py-3 text-gray-700">No-guesswork mattress + furniture treatment</td>
                   <td className="px-4 py-3 text-gray-700">Respect the dry-time before re-making</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="doktor doom sleep tight bed bug spray" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="doktor doom sleep tight bed bug spray" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Residual (hard surfaces)<br /><span className="font-normal text-xs text-gray-500">Konk</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Frame/edges</strong> &mdash; check label for surface</td>
                   <td className="px-4 py-3 text-gray-700">Lasting kill on frame, box spring, baseboards</td>
                   <td className="px-4 py-3 text-gray-700">Heavier residue; not for the sleep surface</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="konk bed bug killer spray" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="konk bed bug killer spray" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Natural / essential-oil<br /><span className="font-normal text-xs text-gray-500">geraniol formulas</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Yes</strong> &mdash; lowest-tox near the bed</td>
                   <td className="px-4 py-3 text-gray-700">Low-tox contact kill for sensitive homes</td>
                   <td className="px-4 py-3 text-gray-700">Short residual; skip unregistered products</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="natural bed bug spray geraniol" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="natural bed bug spray geraniol" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -242,7 +243,6 @@ export default function BestBedBugSprayForMattressCanadaPage() {
           <p>There is a dangerous assumption baked into the phrase &ldquo;bed bug spray&rdquo; &mdash; that because a product kills bed bugs, it is safe to spray anywhere bed bugs live, including the mattress you sleep on. It is not. A large share of the strongest bed bug sprays, foggers, and concentrates on the market are labelled strictly for cracks, crevices, and baseboards, and their directions explicitly exclude the sleeping surface. Spraying one of those onto a mattress and then lying on it all night is off-label and unsafe.</p>
           <p>A <strong>mattress-labelled</strong> spray is a different animal. It has been formulated, tested, and registered specifically so that it can be applied to a surface your skin will contact, usually with a direction to let the mattress dry fully before you re-make the bed. The word you are hunting for on the can is literally <em>&ldquo;mattress.&rdquo;</em> If it is not there, that product goes on the frame and baseboards, not the bed. This single label check is more important than any brand ranking below.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the mattress-safe picks:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="ecoraider bed bug killer spray">EcoRaider →</BuyLink>

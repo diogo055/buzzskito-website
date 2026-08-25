@@ -174,8 +174,8 @@ export default function UltrasonicPestRepellersPage() {
 
           <h2>Ultrasonic Repellers vs Methods That Work: How Do They Compare?</h2>
           <p>One table, whole decision: every row below the first has controlled evidence and a measurable outcome; the first row has neither.</p>
-          <div className="not-prose rounded-xl border border-navy-100 overflow-hidden bg-white shadow-sm my-6 overflow-x-auto">
-            <table className="w-full text-sm">
+          <div className="not-prose rounded-xl border border-navy-100 overflow-x-auto bg-white shadow-sm my-6 overflow-x-auto">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Method</th>

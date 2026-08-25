@@ -99,6 +99,7 @@ export default function BedBugsOnTheTTCTorontoPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Bed bug interceptor traps — the only real answer" search="bed bug interceptor traps climbup" label="If you want to actually know" />
 
       <section className="bg-white px-4">
@@ -136,7 +137,7 @@ export default function BedBugsOnTheTTCTorontoPage() {
             This table is the entire argument of the page. Read down it and notice where your commute sits relative to everything above it &mdash; then spend your attention accordingly.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Route</th>
@@ -244,7 +245,7 @@ export default function BedBugsOnTheTTCTorontoPage() {
             Most transit bed bug reports are made in a half-second glance at something small and brown, at an angle, in poor light. Several ordinary insects get mistaken for bed bugs in exactly those conditions, which is why a photograph is worth so much more than a memory.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Insect</th>
@@ -290,7 +291,7 @@ export default function BedBugsOnTheTTCTorontoPage() {
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">Toronto Transit and Bed Bugs &mdash; Quick Reference</h2>
-          <div className="rounded-xl border border-navy-100 overflow-hidden">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto">
             <table className="w-full text-sm">
               <tbody>
                 {[
@@ -332,7 +333,6 @@ export default function BedBugsOnTheTTCTorontoPage() {
           <p>Now put that animal on a Toronto subway car. There is no stationary sleeping host to feed on, because a ride is minutes long and passengers move constantly. There is very little harbourage compared with a bedroom &mdash; predominantly hard, smooth, cleanable surfaces rather than mattress piping, box spring frames and headboard voids. The vehicle vibrates continuously. It is cleaned on a schedule and taken out of service when something is reported. And crucially, an established population needs a harbourage where a fed female can lay repeatedly and where nymphs can develop through several moults, undisturbed, close to a reliable food source. A transit vehicle offers essentially none of that.</p>
           <p>So the honest picture is not &ldquo;bed bugs live on the TTC.&rdquo; It is that an individual bed bug, having arrived on somebody&rsquo;s bag or coat from a home, can end up on a seat, and can then crawl onto the next bag that sits there long enough. That transfer is real. It is also a narrow, low-probability event on any given trip, and it is not the mechanism responsible for most Toronto infestations. What is responsible sits in the ranking table above, and it is almost entirely about beds.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">If you want to stop wondering rather than keep worrying, this is the short list:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="bed bug interceptor traps climbup">Interceptor traps &rarr;</BuyLink>

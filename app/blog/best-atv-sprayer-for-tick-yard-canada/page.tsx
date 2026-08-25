@@ -100,6 +100,7 @@ export default function BestAtvSprayerForTickYardCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Chapin 25-gallon tow-behind sprayer (boom + spot wand)" search="chapin 25 gallon tow behind sprayer" label="Best overall" />
 
       <section className="bg-white px-4">
@@ -180,7 +181,7 @@ export default function BestAtvSprayerForTickYardCanadaPage() {
             Every one of these can treat a tick perimeter, but they suit different property sizes and different balances of broadcast boom versus precise edge work. Here is the honest breakdown, with a live Amazon.ca availability check per type.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Sprayer type</th>
@@ -196,28 +197,28 @@ export default function BestAtvSprayerForTickYardCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Half-acre to ~2 acres, mixed lawn + tree line</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best</strong> &mdash; boom + spot wand</td>
                   <td className="px-4 py-3 text-gray-700">ATV or hitch mower</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="chapin 25 gallon tow behind sprayer" block>Check price &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="chapin 25 gallon tow behind sprayer" block>Check price on Amazon.ca &rarr;</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">15-gal spot sprayer<br /><span className="font-normal text-xs text-gray-500">handheld wand</span></td>
                   <td className="px-4 py-3 text-gray-700">Precise perimeter and edge treatment</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Excellent</strong> &mdash; wand-focused</td>
                   <td className="px-4 py-3 text-gray-700">ATV, mower, or mounted</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="chapin 15 gallon spot sprayer atv" block>Check price &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="chapin 15 gallon spot sprayer atv" block>Check price on Amazon.ca &rarr;</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Compact 15-gal tow<br /><span className="font-normal text-xs text-gray-500">value</span></td>
                   <td className="px-4 py-3 text-gray-700">Small suburban lot, short wooded edge</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Good</strong> &mdash; depends on wand</td>
                   <td className="px-4 py-3 text-gray-700">Lawn tractor / zero-turn</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="tow behind lawn sprayer 15 gallon" block>Check price &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="tow behind lawn sprayer 15 gallon" block>Check price on Amazon.ca &rarr;</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">40-gal ATV sprayer<br /><span className="font-normal text-xs text-gray-500">Fimco, boom</span></td>
                   <td className="px-4 py-3 text-gray-700">Multi-acre, long wooded perimeter</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best</strong> &mdash; big tank + wand</td>
                   <td className="px-4 py-3 text-gray-700">ATV / UTV / tractor</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="fimco 40 gallon atv sprayer boom" block>Check price &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="fimco 40 gallon atv sprayer boom" block>Check price on Amazon.ca &rarr;</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -236,7 +237,7 @@ export default function BestAtvSprayerForTickYardCanadaPage() {
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">Tick-Yard Sprayer Buying — Key Facts</h2>
-          <div className="rounded-xl border border-navy-100 overflow-hidden">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto">
             <table className="w-full text-sm">
               <tbody>
                 {[
@@ -272,7 +273,6 @@ export default function BestAtvSprayerForTickYardCanadaPage() {
           <p>The best sprayer for a tick yard is not simply the biggest tank on the biggest ATV &mdash; it is the one that lets you put product exactly where ticks live, at enough pressure to reach them. For most Canadian acreage that means a <strong>25-gallon tow-behind sprayer</strong> like the Chapin 97600 that combines a folding boom for the open lawn with a handheld spot-wand hose for the perimeter. The tank size covers a half-acre to a couple of acres per fill, the 12-volt pump keeps pressure steady so your application rate does not sag, and &mdash; most importantly &mdash; the spot wand lets you drive product into the wooded edge and leaf litter that a boom sails right over.</p>
           <p>Understanding why the wand matters more than the boom is the key to buying the right rig, and it starts with knowing where ticks actually are in a yard. Get that wrong and you will spend money broadcasting the one part of the property ticks avoid.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the four picks:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="chapin 25 gallon tow behind sprayer">25-gal tow-behind &rarr;</BuyLink>
@@ -325,7 +325,7 @@ export default function BestAtvSprayerForTickYardCanadaPage() {
 
           <h2>Tow-Behind Sprayer vs Backpack vs Professional Service</h2>
           <p>A tow-behind ATV sprayer is not always the right answer &mdash; it earns its cost on acreage and is overkill on a small lot. Here is how the honest options compare for a tick yard:</p>
-          <table className="not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
+          <table className="min-w-[560px] not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
             <thead className="bg-brand-50">
               <tr><th className="px-3 py-2 text-left">Option</th><th className="px-3 py-2 text-left">Best property</th><th className="px-3 py-2 text-left">Edge coverage</th><th className="px-3 py-2 text-left">Effort</th></tr>
             </thead>

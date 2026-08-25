@@ -99,6 +99,7 @@ export default function HowToGetRidOfCarpetBeetlesCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Sealed-HEPA vacuum with a crevice tool" search="sealed hepa vacuum crevice tool" label="The tool that does the work" />
 
       <section className="bg-white px-4">
@@ -129,7 +130,7 @@ export default function HowToGetRidOfCarpetBeetlesCanadaPage() {
             Carpet beetle money goes wrong in one predictable way: people buy a treatment for a room when the problem is an object. Find your row instead.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">What you are seeing</th>
@@ -245,7 +246,7 @@ export default function HowToGetRidOfCarpetBeetlesCanadaPage() {
             Carpet beetle larvae are the single most common thing mistaken for bed bugs in a Canadian bedroom, and the mistake is expensive in both directions &mdash; people buy bed bug treatments they do not need, or dismiss real bed bugs as &ldquo;just carpet beetles.&rdquo; Two features settle it: <strong>bristles</strong> and <strong>body shape</strong>.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">What you found</th>
@@ -298,7 +299,7 @@ export default function HowToGetRidOfCarpetBeetlesCanadaPage() {
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">Carpet Beetle Control &mdash; Quick Reference</h2>
-          <div className="rounded-xl border border-navy-100 overflow-hidden">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto">
             <table className="w-full text-sm">
               <tbody>
                 {[
@@ -339,7 +340,6 @@ export default function HowToGetRidOfCarpetBeetlesCanadaPage() {
           <p>The damage is done entirely by the larvae, and they look nothing like the adult. A carpet beetle larva is elongated and tapered like a small carrot or torpedo, banded in browns, and covered in bristles that give it a distinctly hairy outline, often with a tuft of longer hairs at one end. It moves slowly, avoids light, and lives inside the thing it is eating. That is the animal you are hunting, and the adult on the windowsill is best understood as a notification: <em>larvae completed their development in this part of the house</em>.</p>
           <p>This is also why carpet beetles are frequently a multi-year problem in a home where nobody has ever seen the pest. The whole feeding stage can run for many months, and in a cool, marginal food source it can stretch far longer &mdash; so a population can persist quietly inside a soffit or a storage box through several seasons, sending a few adults to the window each summer, while the homeowner treats a carpet that was never the issue.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the short list that genuinely matters:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="sealed hepa vacuum crevice tool">Vacuum + crevice tool &rarr;</BuyLink>

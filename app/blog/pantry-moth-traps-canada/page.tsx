@@ -103,6 +103,7 @@ export default function PantryMothTrapsCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="TERRO Pantry Moth Traps (pheromone monitor)" search="terro pantry moth traps" label="Buy this first" />
 
       <section className="bg-white px-4">
@@ -133,7 +134,7 @@ export default function PantryMothTrapsCanadaPage() {
             Pantry-moth spending goes wrong in one predictable way: people buy more traps when the traps keep catching. That is the trap doing its job and telling you the source is still in the cupboard. Find your row instead.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Your situation</th>
@@ -241,7 +242,7 @@ export default function PantryMothTrapsCanadaPage() {
             Most wasted money on this problem comes from buying for the wrong insect. Cedar blocks, lavender sachets and wool-safe sprays are all built for clothes moths &mdash; a different family with a different diet living in a different room. Here is how to tell which one you have before you spend anything.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Insect</th>
@@ -290,7 +291,7 @@ export default function PantryMothTrapsCanadaPage() {
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">Pantry Moth Buying Checklist &mdash; Quick Reference</h2>
-          <div className="rounded-xl border border-navy-100 overflow-hidden">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto">
             <table className="w-full text-sm">
               <tbody>
                 {[
@@ -331,7 +332,6 @@ export default function PantryMothTrapsCanadaPage() {
           <p>It cannot catch females, because females are not looking for the female pheromone. It cannot affect eggs, which are laid in and around the food. And it has no reach at all into the larval stage &mdash; the cream-coloured, dark-headed caterpillars that are doing every bit of the damage, tunnelling through your rice and leaving the silk webbing that made you go looking in the first place. By the time an adult moth is flying around your kitchen light, it has already finished eating; adult Indianmeal moths barely feed at all. <strong>The moth you see is the symptom. The larva you have not found is the problem.</strong></p>
           <p>So why buy one? Because a pantry moth infestation is invisible for weeks at a time and you cannot manage what you cannot measure. The trap answers three questions nothing else will: is there a breeding population here or did one moth hitch a ride in a grocery bag; which room is it centred on, when moths have been drifting through three of them; and &mdash; the question that actually matters &mdash; is it over. There is also a secondary benefit worth having: removing males continuously suppresses successful mating over time, which slows a population down while your purge does the real work. That is a helpful side effect, not a strategy.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the short list worth buying:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="terro pantry moth traps">Pantry moth traps &rarr;</BuyLink>

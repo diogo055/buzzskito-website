@@ -79,6 +79,7 @@ export default function MosquitoRepellentBraceletsCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="PARA'KITO refillable repellent band" search="parakito mosquito bracelet" label="Best-value band" />
 
       <section className="bg-white px-4">
@@ -158,8 +159,8 @@ export default function MosquitoRepellentBraceletsCanadaPage() {
           <p className="text-sm text-gray-700 mb-5 leading-relaxed">
             Bands are cheap and widely stocked — Canadian Tire, Home Depot Canada, Walmart, Shoppers Drug Mart, and Amazon.ca all carry them in season. Refillable bands are the better value if you plan to use one across the whole summer.
           </p>
-          <div className="rounded-xl border border-navy-100 overflow-hidden bg-white shadow-sm">
-            <table className="w-full text-sm">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto bg-white shadow-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Retailer</th>
@@ -200,7 +201,7 @@ export default function MosquitoRepellentBraceletsCanadaPage() {
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">Mosquito Repellent Bracelet Key Facts</h2>
-          <div className="rounded-xl border border-navy-100 overflow-hidden">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto">
             <table className="w-full text-sm">
               <tbody>
                 {[
@@ -231,7 +232,6 @@ export default function MosquitoRepellentBraceletsCanadaPage() {
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Compare current Canadian prices on the best-rated bands and refills:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="parakito mosquito bracelet">Check refillable band price on Amazon.ca →</BuyLink>
@@ -241,7 +241,7 @@ export default function MosquitoRepellentBraceletsCanadaPage() {
           <h2 id="best">Best-Rated Mosquito Repellent Bracelets in Canada</h2>
           <p>Every band on the market works on the same limited-radius principle, so the honest way to choose is by <strong>refillability, price, and materials</strong> — not by promised range, because none of them cover much range. Here are the options most stocked and best-reviewed on Amazon.ca and at Canadian retailers in 2026, with a live price check for each:</p>
           <div className="not-prose my-6 overflow-x-auto rounded-xl border border-navy-100 shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Bracelet</th>
@@ -257,28 +257,28 @@ export default function MosquitoRepellentBraceletsCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Refillable pellets</td>
                   <td className="px-4 py-3 text-gray-700">Season-long value · kids</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$18 – $30</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="parakito mosquito band" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="parakito mosquito band" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Citronella Disposable <span className="font-normal text-xs text-gray-500">(10-pk)</span></td>
                   <td className="px-4 py-3 text-gray-700">Disposable</td>
                   <td className="px-4 py-3 text-gray-700">Cheap · parties · one-offs</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$8 – $15</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="citronella mosquito bracelet 10 pack" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="citronella mosquito bracelet 10 pack" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Mosquito Guard Bands</td>
                   <td className="px-4 py-3 text-gray-700">Disposable</td>
                   <td className="px-4 py-3 text-gray-700">DEET-free · kids&rsquo; wrists</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$10 – $16</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="mosquito guard repellent bracelet" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="mosquito guard repellent bracelet" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 font-bold text-brand-800">Invisaband <span className="font-normal text-xs text-gray-500">(bulk)</span></td>
                   <td className="px-4 py-3 text-gray-700">Disposable</td>
                   <td className="px-4 py-3 text-gray-700">Party packs · camping trips</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$12 – $22</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="invisaband citronella bracelet" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="invisaband citronella bracelet" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -323,7 +323,7 @@ export default function MosquitoRepellentBraceletsCanadaPage() {
           </aside>
 
           <h2>Bracelet vs Spray vs Yard Treatment</h2>
-          <table className="not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
+          <table className="min-w-[560px] not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
             <thead className="bg-brand-50">
               <tr><th className="px-3 py-2 text-left">Solution</th><th className="px-3 py-2 text-left">Cost</th><th className="px-3 py-2 text-left">Protection</th><th className="px-3 py-2 text-left">Tick coverage</th></tr>
             </thead>

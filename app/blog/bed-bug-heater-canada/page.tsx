@@ -104,6 +104,7 @@ export default function BedBugHeaterCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="ZappBug Oven 2 heat chamber" search="zappbug oven 2 bed bug heater" label="Best overall" />
 
       <section className="bg-white px-4">
@@ -176,7 +177,7 @@ export default function BedBugHeaterCanadaPage() {
             Every option below kills by the same mechanism — sustained core temperature above the lethal threshold — but they differ enormously in capacity, engineering, and how much of the job they can actually do. Here is the honest breakdown.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Option</th>
@@ -192,28 +193,28 @@ export default function BedBugHeaterCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Checked suitcases, boxes, bedding, pillows, shoes, books, small furniture</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Yes</strong> — with probe-verified hold</td>
                   <td className="px-4 py-3 text-gray-700">4–8 hours per load</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="zappbug oven 2 bed bug heater" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="zappbug oven 2 bed bug heater" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Luggage-size enclosure<br /><span className="font-normal text-xs text-gray-500">ThermalStrike Ranger</span></td>
                   <td className="px-4 py-3 text-gray-700">One suitcase or backpack at a time — the post-travel decontamination station</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Yes</strong> — panel heat on all sides</td>
                   <td className="px-4 py-3 text-gray-700">2–8 hours depending on packing density</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="thermalstrike bed bug heater luggage" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="thermalstrike bed bug heater luggage" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">DIY heater + probe<br /><span className="font-normal text-xs text-gray-500">Sealed closet, bin, or tent rig</span></td>
                   <td className="px-4 py-3 text-gray-700">Whatever your enclosure holds — if you can seal it, heat it, and verify the core</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Only if held correctly</strong> — cold spots are the failure mode</td>
                   <td className="px-4 py-3 text-gray-700">6+ hours, actively monitored</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="wireless probe thermometer remote monitor" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="wireless probe thermometer remote monitor" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Steamer (surfaces)<br /><span className="font-normal text-xs text-gray-500">Complements every chamber</span></td>
                   <td className="px-4 py-3 text-gray-700">Mattress seams, bed frame, baseboards, upholstery — the structure a chamber can&rsquo;t reach</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Yes</strong> — on contact at the surface</td>
                   <td className="px-4 py-3 text-gray-700">Slow, deliberate passes; no residual</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bed bug steamer" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bed bug steamer" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -232,7 +233,7 @@ export default function BedBugHeaterCanadaPage() {
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">Bed Bug Heat Treatment — Key Facts</h2>
-          <div className="rounded-xl border border-navy-100 overflow-hidden">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto">
             <table className="w-full text-sm">
               <tbody>
                 {[
@@ -278,7 +279,6 @@ export default function BedBugHeaterCanadaPage() {
           <p>A heat chamber lives in a different legal universe. It kills by temperature — physics, not chemistry — so it is a device, not a pest control product. No PMRA registration, no restricted claims, no domestic-versus-commercial class split. When a chamber says &ldquo;kills all life stages including eggs,&rdquo; that is not a regulated pesticide claim being stretched; it is a plain statement of thermal biology that has been replicated in laboratories for a century. The regulatory asymmetry is the quiet reason the serious end of the Canadian bed bug industry runs on heat and steam while the consumer shelf runs on weak pyrethroid aerosols.</p>
           <p>The same asymmetry explains the grey market you will trip over in US forums and videos. American advice leans heavily on professional insecticides like <strong>Crossfire, Temprid FX, and Bedlam Plus</strong> — products with real efficacy data behind them in the US, and precisely zero legal status here. None of them are PMRA-registered; importing or using them in Canada violates the Pest Control Products Act. We name them not to tempt you but to close the loop: the products the internet says to buy are illegal here, the products that are legal here are weak against eggs and resistant strains, and the tool that sidesteps the entire problem — heat — is sitting legally on the shelf with no registration required. That is the argument for a chamber in one paragraph.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the three picks:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="zappbug oven 2 bed bug heater">ZappBug Oven 2 →</BuyLink>
@@ -311,7 +311,7 @@ export default function BedBugHeaterCanadaPage() {
 
           <h2>Buy vs Rent vs Professional Heat: The Decision Framework</h2>
           <p>The right spend depends on one diagnostic question: <strong>are the bugs in your belongings, or in your building?</strong> Bites plus a suspect trip and no established harborage means belongings. Live bugs in the bed frame joints, cast skins along baseboards, spotting on the box spring, activity in more than one room — that is the building, and the calculus changes completely. If you are not sure which situation you are in, start with our guide to <Link href="/blog/how-to-check-for-bed-bugs-canada">checking for bed bugs properly</Link> before spending anything.</p>
-          <table className="not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
+          <table className="min-w-[560px] not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
             <thead className="bg-brand-50">
               <tr><th className="px-3 py-2 text-left">Path</th><th className="px-3 py-2 text-left">Typical Canadian cost</th><th className="px-3 py-2 text-left">Right when</th><th className="px-3 py-2 text-left">Wrong when</th></tr>
             </thead>

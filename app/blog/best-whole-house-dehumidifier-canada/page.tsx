@@ -84,6 +84,7 @@ export default function BestWholeHouseDehumidifierCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Ducted whole-home dehumidifier" search="aprilaire whole house dehumidifier ducted" label="Best overall" />
 
       <section className="bg-white px-4">
@@ -165,7 +166,7 @@ export default function BestWholeHouseDehumidifierCanadaPage() {
             Four things Canadian homeowners reach for when the house feels clammy. Only two of them are dehumidifiers, and only one of them is usually necessary. Here is what each actually does.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Route</th>
@@ -181,14 +182,14 @@ export default function BestWholeHouseDehumidifierCanadaPage() {
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best</strong> &mdash; genuinely house-wide damp</td>
                   <td className="px-4 py-3 text-gray-700">Yes, on its own control, whole house</td>
                   <td className="px-4 py-3 text-gray-700">Contractor install, dedicated circuit, possible permit</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="aprilaire whole house dehumidifier ducted" block>Check price &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="aprilaire whole house dehumidifier ducted" block>Check price on Amazon.ca &rarr;</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Portable<br /><span className="font-normal text-xs text-gray-500">Energy Star, continuous drain</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best value</strong> &mdash; damp confined to the basement</td>
                   <td className="px-4 py-3 text-gray-700">Yes, but one zone only</td>
                   <td className="px-4 py-3 text-gray-700">Needs a drain route or you empty a bucket</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="energy star 50 pint dehumidifier continuous drain" block>Check price &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="energy star 50 pint dehumidifier continuous drain" block>Check price on Amazon.ca &rarr;</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">HRV / ERV<br /><span className="font-normal text-xs text-gray-500">ventilation</span></td>
@@ -226,7 +227,6 @@ export default function BestWholeHouseDehumidifierCanadaPage() {
           <p>The best whole house dehumidifier for a Canadian home is a ducted Aprilaire E-series unit in the 70 to 95 pint-per-day class, installed on the HVAC return so that dried air distributes through the ductwork the house already has, and running on its own humidity control rather than waiting for the air conditioner to be cooling. Budget roughly the $2,000 to $3,000 CAD range for the appliance and an HVAC contractor visit for the installation.</p>
           <p>That is the answer to the question as asked. The more useful answer is that most Canadian homes do not need one, and the way to find out which category you are in costs about the price of dinner: put a hygrometer on each floor for a week of humid weather and read the numbers.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="aprilaire whole house dehumidifier ducted">Ducted whole-home &rarr;</BuyLink>

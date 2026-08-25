@@ -104,6 +104,7 @@ export default function DoktorDoomCanadaGuidePage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Doktor Doom Residual Insecticide Spray" search="doktor doom residual insecticide" label="Most useful in the range" />
 
       <section className="bg-white px-4">
@@ -143,7 +144,7 @@ export default function DoktorDoomCanadaGuidePage() {
             The names do not tell you much, and people routinely buy the bed product for a baseboard job or the perimeter product for a mattress. This is the mapping. In every row, the label on the can you actually receive overrides this table &mdash; it is the legal document, and formulations and labels change.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Product</th>
@@ -316,7 +317,7 @@ export default function DoktorDoomCanadaGuidePage() {
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">Doktor Doom in Canada &mdash; Quick Reference</h2>
-          <div className="rounded-xl border border-navy-100 overflow-hidden">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto">
             <table className="w-full text-sm">
               <tbody>
                 {[
@@ -357,7 +358,6 @@ export default function DoktorDoomCanadaGuidePage() {
           <p>That gap is a regulatory one rather than a retail accident. Under Canada&rsquo;s <em>Pest Control Products Act</em>, an insecticide sold or used in this country must be registered with Health Canada&rsquo;s Pest Management Regulatory Agency and carry a Canadian label with a PCP registration number. A product registered by the US EPA has cleared a different regulator against different requirements, and its American label is not a Canadian one. Provincial rules then narrow the field again for outdoor cosmetic use: Ontario permits only a list of lower-risk active ingredients for cosmetic lawn and garden use, and Quebec runs a separate regime under its own <em>Code de gestion des pesticides</em>. The net effect for a homeowner is that the aisle here is genuinely narrower than the one across the border, and the popular American answer is frequently unavailable rather than merely out of stock.</p>
           <p>So the honest framing of this brand is not &ldquo;the strongest thing you can buy&rdquo;. It is <strong>the range that is legally on the shelf, across enough pests that you rarely have to go looking abroad</strong> &mdash; and that is a real and underrated advantage, because the alternative people reach for is a grey-market import with no Canadian directions behind it.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability across the range:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="doktor doom residual insecticide">Residual spray &rarr;</BuyLink>

@@ -100,6 +100,7 @@ export default function PackTitePortableReviewCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="PackTite Portable bed-bug heater" search="packtite portable bed bug heater" label="Best for small items & travel" />
 
       <section className="bg-white px-4">
@@ -143,7 +144,7 @@ export default function PackTitePortableReviewCanadaPage() {
             The PackTite Portable is one point on a spectrum of heat chambers, from small folding bags up to closet- and room-scale units. Here is where it sits against the alternatives Canadians actually buy, with a live amazon.ca availability check per option.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Chamber</th>
@@ -159,28 +160,28 @@ export default function PackTitePortableReviewCanadaPage() {
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Small</strong> &mdash; contained items</td>
                   <td className="px-4 py-3 text-gray-700">Shoes, books, bags, travel gear</td>
                   <td className="px-4 py-3 text-gray-700">Intermittent CA stock; no big loads</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="packtite portable bed bug heater" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="packtite portable bed bug heater" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">ZappBug heater<br /><span className="font-normal text-xs text-gray-500">boxy bag</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Small&ndash;Med</strong> &mdash; varies by model</td>
                   <td className="px-4 py-3 text-gray-700">Same items, more consistent stock</td>
                   <td className="px-4 py-3 text-gray-700">Still verify core temp on dense loads</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="zappbug bed bug heater" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="zappbug bed bug heater" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">ThermalStrike Ranger<br /><span className="font-normal text-xs text-gray-500">luggage-scale bag</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Medium</strong> &mdash; suitcase-friendly</td>
                   <td className="px-4 py-3 text-gray-700">Luggage and larger soft loads</td>
                   <td className="px-4 py-3 text-gray-700">Bulkier to store than a folding bag</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="thermalstrike ranger bed bug heater" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="thermalstrike ranger bed bug heater" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Closet / room heater<br /><span className="font-normal text-xs text-gray-500">large chamber</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Large</strong> &mdash; wardrobe / room</td>
                   <td className="px-4 py-3 text-gray-700">Whole wardrobes and bulky items</td>
                   <td className="px-4 py-3 text-gray-700">Higher cost; needs space to set up</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bed bug heater closet room" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bed bug heater closet room" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -204,7 +205,6 @@ export default function PackTitePortableReviewCanadaPage() {
           <p>The PackTite Portable is a soft-sided, folding heat chamber &mdash; think of a reinforced fabric bag with a heating element and a fan &mdash; designed to do one thing well: bring the items you place inside it up to a temperature that kills bed bugs and their eggs, then hold it there. It is the small, packable member of a family of heat-treatment tools that runs all the way up to closet- and room-scale units. Where the big chambers process wardrobes and furniture, the Portable is aimed squarely at the belongings a washing machine and dryer cannot help you with: shoes, books, backpacks, purses, stuffed animals, folded soft goods, and travel gear.</p>
           <p>That narrow focus is the whole point. A dryer already kills bed bugs on anything you can safely tumble-dry, so the reason a heat chamber exists at all is for the objects a dryer would destroy. The PackTite Portable earns its place by treating those objects chemically-free, in one unattended cycle, at a temperature that reaches every life stage including the eggs that sprays so often miss. And because it folds flat, it stores in a closet and travels in a car trunk &mdash; which is precisely why apartment dwellers and frequent travellers reach for it over a rigid box.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the PackTite Portable and its closest stand-ins:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="packtite portable bed bug heater">PackTite Portable →</BuyLink>

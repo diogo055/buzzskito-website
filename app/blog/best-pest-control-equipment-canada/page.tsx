@@ -100,6 +100,7 @@ export default function BestPestControlEquipmentCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Battery backpack sprayer (the DIY workhorse)" search="battery backpack sprayer" label="Start here" />
 
       <section className="bg-white px-4">
@@ -181,7 +182,7 @@ export default function BestPestControlEquipmentCanadaPage() {
             &ldquo;Pest control equipment&rdquo; spans a dozen very different machines. Here is the honest map of the whole cluster &mdash; what each category is for, the pest it targets, and a live Amazon.ca availability check per type. Each row links to its full buyer&rsquo;s guide.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Category</th>
@@ -195,43 +196,43 @@ export default function BestPestControlEquipmentCanadaPage() {
                   <td className="px-4 py-3 font-bold text-brand-800">Backpack sprayer<br /><span className="font-normal text-xs text-gray-500">battery / manual</span></td>
                   <td className="px-4 py-3 text-gray-700">Applies liquid product evenly over surfaces at steady pressure</td>
                   <td className="px-4 py-3 text-gray-700">Yards, perimeters, foliage — routine treatment</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="battery backpack sprayer" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="battery backpack sprayer" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Thermal fogger<br /><span className="font-normal text-xs text-gray-500">outdoor</span></td>
                   <td className="px-4 py-3 text-gray-700">Heats liquid into a dense, drifting fog that penetrates deep</td>
                   <td className="px-4 py-3 text-gray-700">Outdoor mosquitoes, dense shrubs, voids</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="thermal fogger pest control" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="thermal fogger pest control" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">ULV cold fogger<br /><span className="font-normal text-xs text-gray-500">indoor / outdoor</span></td>
                   <td className="px-4 py-3 text-gray-700">Air-shears liquid into an adjustable droplet — no heat</td>
                   <td className="px-4 py-3 text-gray-700">Indoor control, water-based & disinfectant solutions</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="ulv cold fogger" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="ulv cold fogger" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Bed-bug heat chamber<br /><span className="font-normal text-xs text-gray-500">heat</span></td>
                   <td className="px-4 py-3 text-gray-700">Holds a sustained lethal temperature to bake items through</td>
                   <td className="px-4 py-3 text-gray-700">Luggage, bedding, belongings — bed bugs</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bed bug heat chamber" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bed bug heat chamber" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Steam cleaner<br /><span className="font-normal text-xs text-gray-500">heat</span></td>
                   <td className="px-4 py-3 text-gray-700">Drives dry killing heat into seams and harbourage</td>
                   <td className="px-4 py-3 text-gray-700">Bed-bug seams, mattresses, baseboards</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="commercial steam cleaner pest control" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="commercial steam cleaner pest control" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Sealed-HEPA purifier<br /><span className="font-normal text-xs text-gray-500">air quality</span></td>
                   <td className="px-4 py-3 text-gray-700">Filters allergen, mould spores, and smoke from the air</td>
                   <td className="px-4 py-3 text-gray-700">Dust mites, mould, wildfire smoke</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="sealed hepa air purifier" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="sealed hepa air purifier" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Dehumidifier<br /><span className="font-normal text-xs text-gray-500">air quality</span></td>
                   <td className="px-4 py-3 text-gray-700">Removes the moisture pests and mould depend on</td>
                   <td className="px-4 py-3 text-gray-700">Basements, crawlspaces — prevention</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="basement dehumidifier" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="basement dehumidifier" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -255,7 +256,6 @@ export default function BestPestControlEquipmentCanadaPage() {
           <p>Search &ldquo;best pest control equipment&rdquo; and you get a jumble of sprayers, foggers, heaters, steamers, and gadgets thrown together as if they were interchangeable. They are not. Each machine solves a specific part of a specific problem, and the fastest way to waste money is to buy a device hoping it will do a job it was never designed for. This hub is the map: it sorts the whole cluster into the handful of categories that matter, tells you which pest each one is actually for, and links to the full buyer&rsquo;s guide for every category so you can go as deep as your problem requires.</p>
           <p>The mental model that keeps DIYers out of trouble is simple: you are not buying <em>a</em> machine, you are assembling a <em>toolkit</em>, one device per problem, over time. Almost everyone starts with a sprayer because almost every program uses one. From there you add the one specialist tool your specific pest justifies &mdash; a fogger for reach, heat tools for bed bugs, air-quality gear for mould and allergens &mdash; and you skip the rest until a real problem earns the purchase. Read this page as the index; follow the links for the detail.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Jump straight to a category&rsquo;s current Canadian availability:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="battery backpack sprayer">Backpack sprayer →</BuyLink>

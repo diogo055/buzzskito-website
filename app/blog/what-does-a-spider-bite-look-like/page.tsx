@@ -132,7 +132,7 @@ export default function WhatDoesASpiderBiteLookLikePage() {
         <h2>How can you tell a spider bite from other bites?</h2>
         <p>The quickest separators are <strong>count, pattern, and timing</strong>: spider bites are solitary and often noticed hours late, while blood-feeding pests leave itchy bites in multiples. Here is the side-by-side:</p>
         <div className="overflow-x-auto not-prose my-6">
-          <table className="w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden">
+          <table className="min-w-[560px] w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden">
             <thead className="bg-brand-50">
               <tr>
                 <th className="px-3 py-2 text-left">Feature</th>

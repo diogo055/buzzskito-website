@@ -98,6 +98,7 @@ export default function MosquitoMagnetVsDynatrapCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Mosquito Magnet (propane CO₂ trap)" search="mosquito magnet trap" label="Best for real mosquito reduction" />
 
       <section className="bg-white px-4">
@@ -177,8 +178,8 @@ export default function MosquitoMagnetVsDynatrapCanadaPage() {
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Price check</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="mosquito magnet trap" block>Check price →</BuyLink></td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="dynatrap dt2000xl" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="mosquito magnet trap" block>Check price on Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="dynatrap dt2000xl" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -197,7 +198,7 @@ export default function MosquitoMagnetVsDynatrapCanadaPage() {
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">The Verdict at a Glance</h2>
-          <div className="rounded-xl border border-navy-100 overflow-hidden">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto">
             <table className="w-full text-sm">
               <tbody>
                 {[
@@ -230,7 +231,6 @@ export default function MosquitoMagnetVsDynatrapCanadaPage() {
           <p>Both machines get shelved under &ldquo;mosquito trap,&rdquo; both are premium purchases, and both are rated to cover roughly an acre &mdash; which is exactly why people cross-shop them. But under the plastic they attack the problem in completely different ways, and that single difference determines whether you actually get fewer mosquito bites. The <strong>Mosquito Magnet</strong> makes real carbon dioxide by burning propane; the <strong>DynaTrap DT2000XL</strong> makes ultraviolet light. Mosquitoes hunt CO₂. Moths hunt light. Everything else in this comparison flows from that one fact.</p>
           <p>Get that straight and the buying decision gets much simpler. If your goal is measurably fewer biting mosquitoes on a large property and you are willing to run and feed a propane machine all season, the Mosquito Magnet is the better tool. If you want a quiet, low-cost, low-maintenance appliance that thins the general cloud of flying insects around a deck &mdash; and you accept that mosquitoes are only part of what it removes &mdash; the DynaTrap is the easier machine to live with. Below is the honest, mechanism-first breakdown so you can match the trap to your actual yard.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian pricing on both traps:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="mosquito magnet trap">Mosquito Magnet on Amazon.ca →</BuyLink>

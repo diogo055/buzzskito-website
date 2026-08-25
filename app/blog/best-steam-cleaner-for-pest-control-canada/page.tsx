@@ -100,6 +100,7 @@ export default function BestSteamCleanerForPestControlCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Dupray Neat dry-vapour steam cleaner" search="dupray neat steam cleaner" label="Best overall" />
 
       <section className="bg-white px-4">
@@ -181,7 +182,7 @@ export default function BestSteamCleanerForPestControlCanadaPage() {
             All four can kill bed bugs, dust mites, and fleas on contact, but they differ on how hot and how dry the steam is, and how long you can work before stopping. Here is the honest breakdown, with a live Amazon.ca availability check per type.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Steamer type</th>
@@ -197,28 +198,28 @@ export default function BestSteamCleanerForPestControlCanadaPage() {
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best</strong> &mdash; hot, ~5% moisture, penetrates</td>
                   <td className="px-4 py-3 text-gray-700">Whole job: mattress seams, upholstery, safe on fabric</td>
                   <td className="px-4 py-3 text-gray-700">Premium price; heat-up wait</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="dupray neat steam cleaner" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="dupray neat steam cleaner" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Continuous-fill<br /><span className="font-normal text-xs text-gray-500">Vapamore MR-100 Primo</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best</strong> &mdash; strong heat, refill without cooling</td>
                   <td className="px-4 py-3 text-gray-700">Long uninterrupted whole-room sessions</td>
                   <td className="px-4 py-3 text-gray-700">Larger and heavier to move</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="vapamore mr-100 primo steam cleaner" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="vapamore mr-100 primo steam cleaner" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Value canister<br /><span className="font-normal text-xs text-gray-500">McCulloch heavy-duty</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Good</strong> &mdash; real boiler heat, slightly wetter</td>
                   <td className="px-4 py-3 text-gray-700">One-off bed-bug or flea job on a budget</td>
                   <td className="px-4 py-3 text-gray-700">Wetter steam; bulkier hose</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="mcculloch heavy duty steam cleaner" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="mcculloch heavy duty steam cleaner" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Handheld / spot<br /><span className="font-normal text-xs text-gray-500">compact portable</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Fair</strong> &mdash; lower sustained heat, cools fast</td>
                   <td className="px-4 py-3 text-gray-700">Touch-ups: a chair, a suitcase seam, a corner</td>
                   <td className="px-4 py-3 text-gray-700">Short runtime; not for whole rooms</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="handheld high pressure steam cleaner" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="handheld high pressure steam cleaner" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -242,7 +243,6 @@ export default function BestSteamCleanerForPestControlCanadaPage() {
           <p>A heavy-duty dry-vapour steam cleaner is the best tool for killing bed bugs, dust mites, and fleas &mdash; not because it is the most powerful appliance in the store, but because it is the only design that does the two things this job actually demands: it delivers lethal heat deep into the seams and cracks where pests hide, and it does so without soaking the fabric you are treating. Everything else is a compromise on one of those two axes. A continuous-fill unit trades size for endurance; a value canister trades a little dryness for price; a handheld trades sustained heat for portability. All four appear in our picks above because different households need different trade-offs, but the reasoning below explains why a dry-vapour boiler sits at the top.</p>
           <p>The distinction that matters is between a steamer that <em>looks</em> like it is working &mdash; a visible plume, a hot nozzle &mdash; and one that actually delivers penetrating, dwelling heat to the egg glued deep in a mattress seam. That gap is invisible until an infestation refuses to drop despite &ldquo;treating&rdquo; it, and it is the single most important thing to understand before you spend money.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the four picks:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="dupray neat steam cleaner">Dupray Neat →</BuyLink>

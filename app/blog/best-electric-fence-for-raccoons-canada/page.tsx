@@ -100,6 +100,7 @@ export default function BestElectricFenceForRaccoonsCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Zareba raccoon garden electric fence kit" search="zareba electric fence garden kit" label="Best overall kit" />
 
       <section className="bg-white px-4">
@@ -190,7 +191,7 @@ export default function BestElectricFenceForRaccoonsCanadaPage() {
             An electric fence is an energizer plus wire, posts, insulators, and grounding. The energizer is the heart of it, and the right one depends on where your garden is and how much wire you are running. Here is the honest breakdown, with a live Amazon.ca availability check per type.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Option</th>
@@ -206,28 +207,28 @@ export default function BestElectricFenceForRaccoonsCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">AC outlet</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best start</strong> &mdash; small garden, fastest setup</td>
                   <td className="px-4 py-3 text-gray-700">Add ground rods; small-plot sizing</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="zareba electric fence garden kit" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="zareba electric fence garden kit" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Gallagher energizer<br /><span className="font-normal text-xs text-gray-500">plug-in / DC, premium</span></td>
                   <td className="px-4 py-3 text-gray-700">AC or 12V DC</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best power</strong> &mdash; long life, weedy runs</td>
                   <td className="px-4 py-3 text-gray-700">Energizer only; buy the rest</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="gallagher fence energizer" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="gallagher fence energizer" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Solar energizer<br /><span className="font-normal text-xs text-gray-500">self-charging DC</span></td>
                   <td className="px-4 py-3 text-gray-700">Solar + battery</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best off-grid</strong> &mdash; remote plots, runs</td>
                   <td className="px-4 py-3 text-gray-700">Short winter sun; clear snow off panel</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="solar electric fence energizer kit" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="solar electric fence energizer kit" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Budget plug-in charger<br /><span className="font-normal text-xs text-gray-500">value</span></td>
                   <td className="px-4 py-3 text-gray-700">AC outlet</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Fair</strong> &mdash; cheapest working small fence</td>
                   <td className="px-4 py-3 text-gray-700">Little headroom; nothing else included</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="plug in electric fence charger low impedance" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="plug in electric fence charger low impedance" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -251,7 +252,6 @@ export default function BestElectricFenceForRaccoonsCanadaPage() {
           <p>The best electric fence for raccoons is not a single product &mdash; it is a small system built around the right energizer. For most Canadian home gardens that system is a low-impedance energizer feeding two poly-wire strands set low to the ground, and the simplest way to get there is a complete garden kit like the <strong>Zareba</strong>, which puts the energizer, wire, posts, and insulators in one box. Where you want more power and a longer service life, you build around a <strong>Gallagher</strong> energizer and supply your own wire and grounding. Where there is no outlet, a <strong>solar</strong> unit charges itself. All of these appear in our picks above because different gardens need different trade-offs, but the reasoning below explains why the layout and the grounding matter more than the brand on the box.</p>
           <p>The thing to understand before you spend money is that a raccoon fence succeeds or fails on two details almost everyone underestimates: <em>where the wires sit</em> and <em>how well the fence is grounded</em>. Get those right with a modest energizer and you will stop raccoons. Get them wrong with the most expensive energizer on the shelf and you will have an inert length of wire. This guide is built around getting those two right.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the main options:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="zareba electric fence garden kit">Zareba garden kit →</BuyLink>

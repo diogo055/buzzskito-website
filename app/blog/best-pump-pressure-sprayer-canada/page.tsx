@@ -100,6 +100,7 @@ export default function BestPumpPressureSprayerCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Viton-sealed hand-pump tank sprayer (Chapin / Solo)" search="chapin viton pump sprayer 2 gallon" label="Best overall" />
 
       <section className="bg-white px-4">
@@ -181,7 +182,7 @@ export default function BestPumpPressureSprayerCanadaPage() {
             &ldquo;Pump sprayer&rdquo; spans a small handheld bottle to a four-gallon backpack. They solve different parts of the job, and the right one depends mostly on how much ground you cover and how much weight you want to carry full. Here is the honest breakdown, with a live Amazon.ca availability check per type.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Sprayer type</th>
@@ -197,28 +198,28 @@ export default function BestPumpPressureSprayerCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Very small</td>
                   <td className="px-4 py-3 text-gray-700">Patios, planters, spot treatments, indoor edges</td>
                   <td className="px-4 py-3 text-gray-700">Constant refilling on any real area</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="handheld pump sprayer 1 litre" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="handheld pump sprayer 1 litre" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">1-gallon tank<br /><span className="font-normal text-xs text-gray-500">Chapin / Solo, ~4 L</span></td>
                   <td className="px-4 py-3 text-gray-700">Small</td>
                   <td className="px-4 py-3 text-gray-700">Small yards, garden beds, easy to carry full</td>
                   <td className="px-4 py-3 text-gray-700">Refills on a mid-size lot</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="chapin 1 gallon viton pump sprayer" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="chapin 1 gallon viton pump sprayer" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">2-gallon tank<br /><span className="font-normal text-xs text-gray-500">Chapin / Solo, ~8 L</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Sweet spot</strong></td>
                   <td className="px-4 py-3 text-gray-700">Typical suburban yard, fence line, perimeter</td>
                   <td className="px-4 py-3 text-gray-700">Heavy by hand once full</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="chapin 2 gallon viton pump sprayer" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="chapin 2 gallon viton pump sprayer" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">4-gallon backpack<br /><span className="font-normal text-xs text-gray-500">lever pump, ~15 L</span></td>
                   <td className="px-4 py-3 text-gray-700">Large</td>
                   <td className="px-4 py-3 text-gray-700">Acreage, long sessions, sustained pressure</td>
                   <td className="px-4 py-3 text-gray-700">Bulk + cost; overkill for a small yard</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="backpack sprayer 4 gallon viton" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="backpack sprayer 4 gallon viton" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -242,7 +243,6 @@ export default function BestPumpPressureSprayerCanadaPage() {
           <p>The best pump pressure sprayer for most Canadian homeowners is a 2 gallon (roughly 8 litre) hand-pump tank sprayer with Viton seals, a brass or stainless adjustable wand, and an in-line filter &mdash; and both Chapin and Solo build exactly to that spec. The choice between the two brands is less about which is &ldquo;better&rdquo; in the abstract and more about which trade-off fits you: Chapin is the value-and-availability brand you will find on every Canadian Tire and Home Depot shelf, and Solo is the rebuild-forever workhorse you keep going for a decade. Around that core sit two size variations &mdash; a light handheld for a patio and a four-gallon backpack for a large lot &mdash; and the whole decision comes down to matching capacity, seal grade, and wand quality to the ground you actually cover.</p>
           <p>What separates a sprayer you love from one you curse is rarely the tank. It is the seals, the pump feel, and whether parts are available when something wears &mdash; the unglamorous details that a spec sheet buries and a cheap unit skips. This guide walks through each of them so you buy once and buy right.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the four picks:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="chapin 2 gallon viton pump sprayer">Chapin 2-gallon (Viton) →</BuyLink>

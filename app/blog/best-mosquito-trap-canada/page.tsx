@@ -78,6 +78,7 @@ export default function BestMosquitoTrapCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Mosquito Magnet Patriot Plus (propane CO₂ trap)" search="mosquito magnet trap" label="Best overall trap" />
 
       <section className="bg-white px-4">
@@ -94,6 +95,9 @@ export default function BestMosquitoTrapCanadaPage() {
               <li>Only barrier spray controls both mosquitoes and ticks across the whole property at once.</li>
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+            <div className="mt-4">
+              <BuyLink search="mosquito magnet trap" tag={AMZ_TAG} block className="sm:w-auto sm:min-h-0 sm:inline-flex sm:rounded-full sm:px-4 sm:py-2">Check price on Amazon.ca →</BuyLink>
+            </div>
           </div>
         </div>
       </section>
@@ -158,7 +162,7 @@ export default function BestMosquitoTrapCanadaPage() {
             &ldquo;Mosquito trap&rdquo; covers four very different machines. The one that works best for you depends on your property size and whether you want mosquito-specific reduction or general flying-insect catch. Here is the honest breakdown, with a live Amazon.ca price check per type.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Trap type</th>
@@ -174,28 +178,28 @@ export default function BestMosquitoTrapCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Burns propane → real CO₂ + heat + moisture, then vacuums females into a net</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best</strong> — 70–90% over 6–8 weeks</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$399 – $1,299</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="mosquito magnet trap" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="mosquito magnet trap" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">CO₂ / octenol lure<br /><span className="font-normal text-xs text-gray-500">BG-Mosquitaire, Flowtron</span></td>
                   <td className="px-4 py-3 text-gray-700">CO₂ cylinder or bottle + octenol lure mimics a host; fan suction</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Good</strong> — targets host-seeking females</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$200 – $500</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="biogents mosquitaire co2 trap" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="biogents mosquitaire co2 trap" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">UV + fan<br /><span className="font-normal text-xs text-gray-500">DynaTrap, bug zappers</span></td>
                   <td className="px-4 py-3 text-gray-700">UV light attracts insects; fan sucks them in (zappers electrocute)</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Weak</strong> — ~5% of catch is mosquitoes</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$30 – $329</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="dynatrap insect trap" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="dynatrap insect trap" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 font-bold text-brand-800">Indoor trap<br /><span className="font-normal text-xs text-gray-500">Katchy, DynaTrap indoor</span></td>
                   <td className="px-4 py-3 text-gray-700">Small UV + fan + sticky glue card for flying insects near a lamp</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Limited</strong> — best for gnats &amp; fruit flies</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$40 – $70</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="katchy indoor insect trap" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="katchy indoor insect trap" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -214,7 +218,7 @@ export default function BestMosquitoTrapCanadaPage() {
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">Mosquito Trap Buying — Key Facts</h2>
-          <div className="rounded-xl border border-navy-100 overflow-hidden">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto">
             <table className="w-full text-sm">
               <tbody>
                 {[
@@ -244,7 +248,6 @@ export default function BestMosquitoTrapCanadaPage() {
 
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Compare current Canadian prices across the main trap types:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="mosquito magnet trap">Propane trap on Amazon.ca →</BuyLink>
@@ -279,7 +282,7 @@ export default function BestMosquitoTrapCanadaPage() {
 
           <h2>Traps vs Professional Barrier Spray for GTA Yards</h2>
           <p>Traps and barrier spray are not really competitors — they solve different problems. A trap slowly thins the mosquito population over weeks and is ideal for large, chronic-problem properties. Barrier spray coats vegetation with a residual that kills mosquitoes on contact for 21&ndash;30 days, works the same day, covers the entire yard, and controls ticks. Here is how the options stack up for a typical GTA property:</p>
-          <table className="not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
+          <table className="min-w-[560px] not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
             <thead className="bg-brand-50">
               <tr><th className="px-3 py-2 text-left">Solution</th><th className="px-3 py-2 text-left">First-year cost</th><th className="px-3 py-2 text-left">Mosquito reduction</th><th className="px-3 py-2 text-left">Tick coverage</th></tr>
             </thead>

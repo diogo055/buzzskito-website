@@ -100,7 +100,8 @@ export default function DuprayVsMccullochSteamerCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar tag={AMZ_TAG} name="Dupray Neat steam cleaner" search="dupray neat steam cleaner" label="Bed-bug winner" />
+      <AffiliateDisclosure />
+      <StickyBuyBar tag={AMZ_TAG} name="Dupray Neat steam cleaner" asin="B07C44DM6D" search="dupray neat steam cleaner" label="Bed-bug winner" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -129,7 +130,7 @@ export default function DuprayVsMccullochSteamerCanadaPage() {
             Both machines steam hot enough to kill bed bugs on contact. What separates them is <em>how well they hold</em> a killing temperature through a long session, how dry the vapour is, and how often you have to stop. Here is the honest side-by-side, with a live Amazon.ca availability check for each.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Factor</th>
@@ -177,8 +178,8 @@ export default function DuprayVsMccullochSteamerCanadaPage() {
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Availability</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="dupray neat steam cleaner" block>Check price →</BuyLink></td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="mcculloch mc1275 steam cleaner" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="dupray neat steam cleaner" block>Check price on Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="mcculloch mc1275 steam cleaner" block>Check price on Amazon.ca →</BuyLink></td>
                   <td className="px-4 py-3 text-gray-700">Buy the Canadian 120V listing for the right plug and warranty</td>
                 </tr>
               </tbody>
@@ -203,7 +204,6 @@ export default function DuprayVsMccullochSteamerCanadaPage() {
           <p>These two machines dominate the &ldquo;which steamer kills bed bugs&rdquo; conversation in Canada for a simple reason: they are the two most recommended options at opposite ends of the value curve. The <strong>Dupray Neat</strong> is the premium, pest-focused pick &mdash; a compact, Canadian-founded steam cleaner built around a stainless-steel boiler and dry-vapour output. The <strong>McCulloch MC1275</strong> is the versatile, budget-friendly workhorse &mdash; a do-everything household steam cleaner with a huge accessory kit that also happens to kill bed bugs on contact.</p>
           <p>The verdict is not close if bed bugs are your only reason for buying: the Neat wins because everything it does better maps directly onto killing eggs reliably. But &ldquo;better for bed bugs&rdquo; and &ldquo;better value for a household&rdquo; are different questions, and the MC1275 wins the second one convincingly. The rest of this guide explains exactly why, starting with the spec everybody gets wrong.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability for each machine:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="dupray neat steam cleaner">Dupray Neat →</BuyLink>
@@ -250,6 +250,7 @@ export default function DuprayVsMccullochSteamerCanadaPage() {
             label="Winner — Best for Bed Bugs"
             name="Dupray Neat Steam Cleaner"
             blurb="The Dupray Neat wins the head-to-head for bed bugs. Its stainless-steel boiler delivers hotter, drier, more sustained vapour and a long continuous run, so you can hold a killing temperature at the fabric surface through a whole-room job without fighting refills or over-wetting the mattress. It is the premium, pest-focused choice — and the one that forgives imperfect technique. The McCulloch MC1275 remains the better-value all-round household cleaner if bed bugs are a secondary concern."
+            asin="B07C44DM6D"
             search="dupray neat steam cleaner"
             score={9.1}
             pros={['Stainless-steel boiler holds heat', 'Dry vapour — kills eggs, dries fast', 'Long continuous run for whole-room jobs', 'Canadian-founded — easy warranty support']}

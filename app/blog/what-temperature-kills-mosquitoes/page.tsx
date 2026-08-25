@@ -107,7 +107,7 @@ export default function WhatTemperatureKillsMosquitoesPage() {
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-2xl font-extrabold text-brand-900 mb-4">Mosquito Behaviour by Temperature</h2>
-          <div className="rounded-xl border border-navy-100 overflow-hidden bg-white shadow-sm overflow-x-auto">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto bg-white shadow-sm overflow-x-auto">
             <table className="w-full text-sm min-w-[520px]">
               <thead className="bg-brand-800 text-white">
                 <tr>

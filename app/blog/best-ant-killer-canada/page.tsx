@@ -100,6 +100,7 @@ export default function BestAntKillerCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="TERRO Liquid Ant Baits (indoor stations)" search="terro liquid ant baits" label="Best overall" />
 
       <section className="bg-white px-4">
@@ -193,7 +194,7 @@ export default function BestAntKillerCanadaPage() {
             The ant aisle is really three aisles wearing one label. Products built for an indoor trail, products built to survive a Canadian summer outdoors, and barrier products that were never meant to be a colony treatment at all. Buying across those lines is an expensive mistake.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Product type</th>
@@ -209,21 +210,21 @@ export default function BestAntKillerCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Indoor &mdash; on the trail, behind appliances, under sinks</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">The colony</strong>, including queens and brood</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Buy this first</strong></td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="terro liquid ant baits" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="terro liquid ant baits" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Protein / grease bait<br /><span className="font-normal text-xs text-gray-500">Combat Ant Killing Bait Stations</span></td>
                   <td className="px-4 py-3 text-gray-700">Indoor &mdash; beside the liquid station, same trail</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">The colony</strong>, when it is rearing brood</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Essential backup</strong> &mdash; run both</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="combat ant killing bait stations" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="combat ant killing bait stations" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Weatherproof bait stakes<br /><span className="font-normal text-xs text-gray-500">Outdoor liquid bait</span></td>
                   <td className="px-4 py-3 text-gray-700">Outdoor &mdash; nest openings, foundation line, under decks</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Outdoor colonies</strong> before they move indoors</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">The right outdoor buy</strong></td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="terro outdoor liquid ant bait stakes" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="terro outdoor liquid ant bait stakes" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Gel bait syringe<br /><span className="font-normal text-xs text-gray-500">Crack-and-crevice format</span></td>
@@ -237,7 +238,7 @@ export default function BestAntKillerCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Indoor &mdash; one spot, one moment, then wash it</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Only the ants it wets</strong></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Narrow use only</strong> &mdash; never the strategy</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="doktor doom house and garden insect spray" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="doktor doom house and garden insect spray" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Perimeter residual barrier<br /><span className="font-normal text-xs text-gray-500">Concentrate + pump sprayer</span></td>
@@ -251,7 +252,7 @@ export default function BestAntKillerCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Indoor &mdash; dry voids, sill plates, under appliances</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Stragglers</strong> that cross the film</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Useful supplement</strong> &mdash; dry areas only, never near bait. Buy the PCP-registered insecticidal grade by name, not unregistered food-grade DE</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="safers diatomaceous earth" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="safers diatomaceous earth" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Ultrasonic repellers<br /><span className="font-normal text-xs text-gray-500">Plug-in devices</span></td>
@@ -274,7 +275,7 @@ export default function BestAntKillerCanadaPage() {
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">Ant Killer Buying — Key Facts</h2>
-          <div className="rounded-xl border border-navy-100 overflow-hidden">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto">
             <table className="w-full text-sm">
               <tbody>
                 {[
@@ -312,7 +313,6 @@ export default function BestAntKillerCanadaPage() {
           <p>The best ant killer for a Canadian home is a slow-acting liquid bait station placed directly on the ant trail &mdash; and TERRO Liquid Ant Baits are an easy default simply because they are inexpensive, widely stocked in Canadian hardware and grocery aisles with Canadian label directions on the pack, and built on the mechanism that works. The active is borax (sodium tetraborate) suspended in a sweet liquid inside an enclosed plastic station. A forager drinks, survives, walks home, and feeds the load to nestmates by trophallaxis &mdash; the mouth-to-mouth food sharing that moves a meal from a foraging worker to nurses, brood, and eventually the queen.</p>
           <p>That mechanism is the whole story, and it explains why so many products fail. What you see on the counter is a forager crew: a small, expendable fraction of a colony that lives in a wall void, under a slab, or in a driveway crack. The queen is the production line. Any product that kills ants on contact removes couriers and leaves the production line running, which is why a can of spray produces a clean counter for two days and a fresh trail on day three.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the main picks:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="terro liquid ant baits">TERRO Liquid Ant Baits →</BuyLink>

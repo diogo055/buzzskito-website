@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
+import AmazonLink from '@/components/AmazonLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import SpecialistDisclosure from '@/components/SpecialistDisclosure'
 import AwardRow from '@/components/AwardRow'
@@ -100,13 +101,14 @@ export default function BestFruitFlyTrapCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="TERRO Fruit Fly Trap (2-pack, liquid lure)" search="terro fruit fly trap" label="Best overall" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The best fruit fly trap in Canada is the TERRO Fruit Fly Trap &mdash; the little red apple with a vinegar-based liquid lure. Fruit flies hunt by fermentation smell, not light, so a scent lure out-catches UV traps and sticky ribbons in a kitchen. Each apple works for about 30 days, refill lure keeps seasonal costs low, and pairing traps with breeding-source removal ends most infestations in two to three weeks.</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The best fruit fly trap in Canada is the <AmazonLink search="terro fruit fly trap" tag={AMZ_TAG} className="font-bold underline decoration-emerald-500 underline-offset-2 hover:text-emerald-900">TERRO Fruit Fly Trap</AmazonLink> &mdash; the little red apple with a vinegar-based liquid lure. Fruit flies hunt by fermentation smell, not light, so a scent lure out-catches UV traps and sticky ribbons in a kitchen. Each apple works for about 30 days, refill lure keeps seasonal costs low, and pairing traps with breeding-source removal ends most infestations in two to three weeks.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
               <li>Fruit flies go from egg to breeding adult in 8&ndash;10 days, and a female lays up to 500 eggs &mdash; traps alone never outrun that math.</li>
               <li>The TERRO&rsquo;s vinegar lure needs 24&ndash;48 hours to reach full strength; each trap then catches for about 30 days.</li>
@@ -116,6 +118,9 @@ export default function BestFruitFlyTrapCanadaPage() {
               <li>US aerosol &ldquo;fruit fly killer&rdquo; sprays without a PMRA registration number are not legal in Canada &mdash; traps are devices and sidestep the issue entirely.</li>
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito Pest Product Guides &middot; independent Canadian research</p>
+            <div className="mt-4">
+              <BuyLink search="terro fruit fly trap" tag={AMZ_TAG} block className="sm:w-auto sm:min-h-0 sm:inline-flex sm:rounded-full sm:px-4 sm:py-2">Check price on Amazon.ca →</BuyLink>
+            </div>
           </div>
           <SpecialistDisclosure pest="fruit flies" />
         </div>
@@ -181,7 +186,7 @@ export default function BestFruitFlyTrapCanadaPage() {
             Fruit fly traps differ on one axis that matters more than any other: <strong>what does the luring</strong>. Fruit flies navigate to food by fermentation odour, so scent-lure traps have a structural advantage in a kitchen, while light-based traps win on the species that light actually attracts. Here is the honest breakdown, with a live Amazon.ca price check per type.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Trap type</th>
@@ -197,28 +202,28 @@ export default function BestFruitFlyTrapCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Vinegar-based fermentation scent draws flies inside; they drown in the liquid</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best</strong> &mdash; scent is how fruit flies hunt</td>
                   <td className="px-4 py-3 text-gray-700">Refill lure roughly monthly in season</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="terro fruit fly trap" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="terro fruit fly trap" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">UV + fan + glue<br /><span className="font-normal text-xs text-gray-500">Katchy</span></td>
                   <td className="px-4 py-3 text-gray-700">UV light attracts at night; fan pulls insects down onto a glue card</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Good</strong> &mdash; best-in-class for fungus gnats</td>
                   <td className="px-4 py-3 text-gray-700">Glue cards every few weeks</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="katchy indoor insect trap" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="katchy indoor insect trap" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Plug-in light + glue<br /><span className="font-normal text-xs text-gray-500">Zevo</span></td>
                   <td className="px-4 py-3 text-gray-700">Outlet unit; UV-and-blue light lures flies onto a hidden glue cartridge</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Moderate</strong> &mdash; light lure, tidy form factor</td>
                   <td className="px-4 py-3 text-gray-700">Glue cartridges every 1&ndash;2 months</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="zevo flying insect trap" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="zevo flying insect trap" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 font-bold text-brand-800">Sticky ribbon / stake<br /><span className="font-normal text-xs text-gray-500">assorted brands</span></td>
                   <td className="px-4 py-3 text-gray-700">Passive adhesive surface &mdash; no lure; catches flies that land by chance</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-red-700">Weak</strong> &mdash; supplemental only</td>
                   <td className="px-4 py-3 text-gray-700">Single-use, replace when covered</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="fruit fly sticky trap" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="fruit fly sticky trap" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -232,7 +237,7 @@ export default function BestFruitFlyTrapCanadaPage() {
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">Fruit Fly Trapping — Key Facts</h2>
-          <div className="rounded-xl border border-navy-100 overflow-hidden">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto">
             <table className="w-full text-sm">
               <tbody>
                 {[
@@ -268,7 +273,6 @@ export default function BestFruitFlyTrapCanadaPage() {
           <p>The TERRO Fruit Fly Trap — the small red apple with a bottle of amber liquid inside — is the best fruit fly trap for most Canadian kitchens, and the reason is biology rather than branding. A fruit fly locates food almost entirely by smell: the yeasty, acetic odour of fermentation. The TERRO&rsquo;s lure is a vinegar-based formulation of exactly that odour profile, concentrated and sealed so it broadcasts for about a month instead of the few days an open bowl of apple cider vinegar manages. Flies follow the scent through the holes in the apple, land on the liquid, and drown. You never see them; you eventually just notice you have not seen <em>any</em> in a while. One thing it will not catch is a pantry moth: those answer a species-specific pheromone lure rather than vinegar, so see <Link href="/blog/pantry-moth-traps-canada" className="text-brand-700 underline">which pantry moth trap to buy and how many you need</Link> if the flier came out of a flour bag.</p>
           <p>That scent-first logic is also the honest frame for the whole category. Light-based traps — the Katchy, plug-in units like the Zevo — are real products with real strengths, but for <em>Drosophila</em> specifically they are fighting with the wrong lure. Where they earn their place is the adjacent problems: fungus gnats, which genuinely are light-attracted, and the &ldquo;small flying things, unsure which&rdquo; situation half of readers are actually in. This guide is the commercial companion to our step-by-step <Link href="/blog/how-to-get-rid-of-fruit-flies-canada">how to get rid of fruit flies in Canada</Link> playbook — that page covers finding the breeding source; this one covers which hardware to buy.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the four picks:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="terro fruit fly trap">TERRO apple traps →</BuyLink>

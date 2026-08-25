@@ -104,6 +104,7 @@ export default function HowToGetRidOfAntsCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Liquid ant bait stations (borax)" search="terro liquid ant baits" label="Best first move" />
 
       <section className="bg-white px-4">
@@ -182,7 +183,7 @@ export default function HowToGetRidOfAntsCanadaPage() {
             Thirty seconds of identification decides everything downstream &mdash; whether you bait, whether you must never spray, and whether you are dealing with a nuisance or a repair bill. These five cover the situations a Canadian homeowner needs to be able to tell apart.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Ant</th>
@@ -247,7 +248,7 @@ export default function HowToGetRidOfAntsCanadaPage() {
             The ant shelf sells seven very different things, and only one of them actively makes your problem worse. Here is the honest hierarchy for Canadian homes, with an availability check only where a purchase actually makes sense.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Method</th>
@@ -261,25 +262,25 @@ export default function HowToGetRidOfAntsCanadaPage() {
                   <td className="px-4 py-3 font-bold text-brand-800">Liquid borax bait<br /><span className="font-normal text-xs text-gray-500">Enclosed stations</span></td>
                   <td className="px-4 py-3 text-gray-700">Sweet liquid with a slow-acting active; shared through the colony by mouth-to-mouth feeding</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best consumer method</strong> &mdash; reaches the queen</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="terro liquid ant baits" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="terro liquid ant baits" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Solid / protein bait<br /><span className="font-normal text-xs text-gray-500">Enclosed discs</span></td>
                   <td className="px-4 py-3 text-gray-700">Covers the grease-and-protein half of the menu when a colony is rearing brood</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Essential backup</strong> &mdash; run it alongside liquid</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="combat ant killing bait stations" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="combat ant killing bait stations" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Gel bait syringe<br /><span className="font-normal text-xs text-gray-500">Crack-and-crevice format</span></td>
                   <td className="px-4 py-3 text-gray-700">Pinhead dabs placed directly into seams, hinges and pipe collars ants travel through</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Powerful, with a catch</strong> &mdash; verify a Canadian PCP number</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="ant gel bait" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="ant gel bait" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Diatomaceous earth<br /><span className="font-normal text-xs text-gray-500">Inorganic dust</span></td>
                   <td className="px-4 py-3 text-gray-700">Thin film in dry voids and wall cavities; abrades the waxy cuticle and dehydrates ants that cross it</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Useful supplement</strong> &mdash; dry areas only, never near bait</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="diatomaceous earth insect duster" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="diatomaceous earth insect duster" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Granular outdoor bait<br /><span className="font-normal text-xs text-gray-500">Broadcast format</span></td>
@@ -313,7 +314,7 @@ export default function HowToGetRidOfAntsCanadaPage() {
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">Ant Control in Canada — Key Facts</h2>
-          <div className="rounded-xl border border-navy-100 overflow-hidden">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto">
             <table className="w-full text-sm">
               <tbody>
                 {[
@@ -353,7 +354,6 @@ export default function HowToGetRidOfAntsCanadaPage() {
           <p>Bait inverts that. Ants feed each other by trophallaxis &mdash; they carry food in a social stomach and regurgitate it to nestmates, larvae, and the queen. A forager that drinks slow-acting bait does not die on your counter; it walks home, gets tapped for food by a dozen nestmates, and the active ingredient distributes itself through the colony over days. That is the only mechanism available to a Canadian consumer that reaches the individuals who matter, and it is the reason professionals bait rather than spray for nuisance ants too.</p>
           <p>The plan in one paragraph: identify your species (thirty seconds, and it changes what you do), find and follow the trail to the entry point, place slow-acting bait <em>on</em> the trail, remove competing food but <strong>leave the trail itself alone</strong>, tolerate a recruitment surge for the first few days, wait several weeks without touching anything, and only then clean up and seal the entry. The rest of this guide is that plan in detail &mdash; plus the two situations where it changes: carpenter ants, and apartments.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the core kit:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="terro liquid ant baits">Liquid bait stations →</BuyLink>

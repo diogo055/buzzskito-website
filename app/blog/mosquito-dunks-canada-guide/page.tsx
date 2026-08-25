@@ -5,7 +5,8 @@ import BlogPostCTA from '@/components/BlogPostCTA'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import InlineYardRiskCTA from '@/components/InlineYardRiskCTA'
 import BuyLink from '@/components/BuyLink'
-import TopPick from '@/components/TopPick'
+import AmazonLink from '@/components/AmazonLink'
+import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
@@ -107,6 +108,7 @@ export default function MosquitoDunksPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Summit Mosquito Dunks (6-pack)" search="summit mosquito dunks" label="Best for standing water" />
 
       <div className="max-w-4xl mx-auto px-4 -mt-6 sm:-mt-8 relative z-10">
@@ -118,7 +120,7 @@ export default function MosquitoDunksPage() {
         <div className="max-w-4xl mx-auto">
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">For long-term standing water like rain barrels and ponds, Mosquito Dunks are the best pick &mdash; each donut-shaped BTI tablet treats up to 100 sq ft of water for about 30 days and is safe for fish, pets, and pollinators. For fast knockdown of unexpected larvae, use quick-release Mosquito Bits instead.</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">For long-term standing water like rain barrels and ponds, <AmazonLink search="summit mosquito dunks" tag={AMZ_TAG} className="font-bold underline decoration-emerald-500 underline-offset-2 hover:text-emerald-900">Mosquito Dunks</AmazonLink> are the best pick &mdash; each donut-shaped BTI tablet treats up to 100 sq ft of water for about 30 days and is safe for fish, pets, and pollinators. For fast knockdown of unexpected larvae, use quick-release Mosquito Bits instead.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
               <li>One mosquito dunk treats up to 100 sq ft of water surface and lasts about 30 days.</li>
               <li>Dunks contain only BTI (Bacillus thuringiensis israelensis); the Summit brand is Health Canada-registered under PCP #18158.</li>
@@ -128,6 +130,9 @@ export default function MosquitoDunksPage() {
               <li>Dunks only kill larvae in treated water; adult mosquitoes flying in need a barrier spray.</li>
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+            <div className="mt-4">
+              <BuyLink search="summit mosquito dunks" tag={AMZ_TAG} block className="sm:w-auto sm:min-h-0 sm:inline-flex sm:rounded-full sm:px-4 sm:py-2">Check price on Amazon.ca →</BuyLink>
+            </div>
           </div>
         </div>
       </section>
@@ -140,9 +145,8 @@ export default function MosquitoDunksPage() {
           <p className="text-sm text-gray-700 mb-5 leading-relaxed">
             Summit Chemical mosquito dunks (the orange-and-white 6-pack) and Safer&rsquo;s Brand are the two most widely stocked options across Canadian retailers. Here&rsquo;s the typical pricing as of spring 2026:
           </p>
-          <AffiliateDisclosure />
-          <div className="rounded-xl border border-navy-100 overflow-hidden bg-white shadow-sm">
-            <table className="w-full text-sm">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto bg-white shadow-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Retailer</th>
@@ -184,16 +188,46 @@ export default function MosquitoDunksPage() {
         </div>
       </section>
 
-      {/* TOP PICK */}
+      {/* AWARD ROW — multi-intent picks */}
       <section className="bg-white px-4 pt-6">
         <div className="max-w-4xl mx-auto">
-          <TopPick tag={AMZ_TAG}
-            name="Summit Mosquito Dunks (6-pack)"
-            blurb="One dunk treats up to 100 sq ft of standing water for ~30 days — a single 6-pack covers a typical rain barrel for the entire May–September season, and it's completely safe for fish, pets, and pollinators."
-            search="summit mosquito dunks"
-            score={8.8}
-            pros={['Kills larvae for ~30 days per dunk', 'BTI is safe for fish, pets, and pollinators', 'Budget-friendly and widely stocked in Canada']}
-            cons={['Only treats water you can reach', 'Does nothing to adult mosquitoes flying in']}
+          <AwardRow tag={AMZ_TAG}
+            heading="Our Picks — Which BTI Format for Which Job"
+            awards={[
+              {
+                badge: 'Best for Ponds & Multiple Barrels',
+                name: 'Summit Mosquito Dunks — 20-Pack',
+                why: 'The $25–$35 bulk box — better per-dunk value than the 6-pack when you have multiple rain barrels, a pond, or a drainage ditch to cover from May through September.',
+                search: 'summit mosquito dunks',
+                score: 8.6,
+                pros: ['Cheaper per dunk than the 6-pack', 'Covers several water sources all season', 'One spring purchase covers the season — shelves thin out by mid-July'],
+                cons: ['A single rain barrel only needs a 6-pack per season', 'Same 100 sq ft / ~30 days per dunk — bulk doesn’t change coverage'],
+              },
+              {
+                badge: 'Best Overall',
+                name: 'Summit Mosquito Dunks (6-Pack)',
+                why: 'One dunk treats up to 100 sq ft of standing water for ~30 days — a single 6-pack covers a typical rain barrel for the entire May–September season, and it’s completely safe for fish, pets, and pollinators.',
+                search: 'summit mosquito dunks',
+                score: 8.8,
+                featured: true,
+                pros: ['Kills larvae for ~30 days per dunk', 'BTI is safe for fish, pets, and pollinators', 'Budget-friendly and widely stocked in Canada'],
+                cons: ['Only treats water you can reach', 'Does nothing to adult mosquitoes flying in'],
+              },
+              {
+                badge: 'Best for Fast Knockdown',
+                name: 'Summit Mosquito Bits (BTI granules)',
+                why: 'The same BTI in quick-release granules — works within minutes when you find larvae unexpectedly, and easier than a dunk for fungus gnats because you sprinkle it straight onto potting soil.',
+                search: 'summit mosquito bits',
+                score: 8.7,
+                pros: ['Acts within minutes, not days', 'Right size for bird baths and plant saucers', 'Sprinkles onto potting soil for fungus gnat larvae'],
+                cons: ['Days of coverage, not the ~30 a dunk gives a rain barrel', 'Long-term water sources are better served by a dunk'],
+              },
+            ]}
+            whichToBuy={
+              <>
+                <strong>One rain barrel?</strong> The <em>Best Overall</em> 6-pack solves the whole season &mdash; one dunk per month, May through September. <strong>A pond, several barrels, or a ditch that holds water?</strong> The 20-pack costs less per dunk and won&rsquo;t run out in August. <strong>Wrigglers in a bird bath, saucer, or houseplant soil?</strong> Quick-release <em>Bits</em> work in minutes and go straight onto potting soil for fungus gnats. The limit they all share: BTI kills larvae in treated water only &mdash; the adults flying in from ravines and neighbours&rsquo; yards are what a <Link href="/mosquito-control">whole-yard barrier spray</Link> handles.
+              </>
+            }
           />
         </div>
       </section>
@@ -202,7 +236,7 @@ export default function MosquitoDunksPage() {
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">Mosquito Dunks Key Facts</h2>
-          <div className="rounded-xl border border-navy-100 overflow-hidden">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto">
             <table className="w-full text-sm">
               <tbody>
                 {[

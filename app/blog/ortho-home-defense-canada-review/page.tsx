@@ -79,6 +79,7 @@ export default function OrthoHomeDefenseCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Ortho Bug B Gon ECO (Canadian perimeter insect control)" search="ortho bug b gon eco" label="Best legal Canadian pick" />
 
       <section className="bg-white px-4">
@@ -120,8 +121,8 @@ export default function OrthoHomeDefenseCanadaPage() {
           <p className="text-sm text-gray-700 mb-5 leading-relaxed">
             The single most important thing to know before you shop: the famous bifenthrin &ldquo;Home Defense Max&rdquo; you see in US stores is <strong>not</strong> registered with Health Canada and is not a legal cosmetic-use product in Ontario. Here is what is US-only, and what you can actually buy at Canadian Tire, Home Depot Canada, and Amazon.ca.
           </p>
-          <div className="rounded-xl border border-navy-100 overflow-hidden bg-white shadow-sm">
-            <table className="w-full text-sm">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto bg-white shadow-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Ortho product</th>
@@ -135,31 +136,31 @@ export default function OrthoHomeDefenseCanadaPage() {
                   <td className="px-4 py-3 font-bold text-brand-800">Home Defense Max <span className="font-normal text-xs text-gray-500">(Indoor &amp; Perimeter)</span></td>
                   <td className="px-4 py-3 text-gray-700">Bifenthrin perimeter barrier</td>
                   <td className="px-4 py-3 text-rose-700 font-semibold">US only — not PMRA-registered</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="ortho home defense max insect killer" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="ortho home defense max insect killer" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Home Defense Insect Killer <span className="font-normal text-xs text-gray-500">(Lawn &amp; Landscape)</span></td>
                   <td className="px-4 py-3 text-gray-700">Bifenthrin yard spray</td>
                   <td className="px-4 py-3 text-rose-700 font-semibold">US only — cosmetic-use ban (ON)</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="ortho home defense insect killer lawn" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="ortho home defense insect killer lawn" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Bug B Gon <span className="font-normal text-xs text-gray-500">(US bifenthrin)</span></td>
                   <td className="px-4 py-3 text-gray-700">Insect killer for lawns/gardens</td>
                   <td className="px-4 py-3 text-rose-700 font-semibold">US formula — not sold here</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="ortho bug b gon insect killer" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="ortho bug b gon insect killer" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Bug B Gon ECO <span className="font-normal text-xs text-gray-500">(Canadian line)</span></td>
                   <td className="px-4 py-3 text-gray-700">Reduced-risk crawling-insect control</td>
                   <td className="px-4 py-3 text-emerald-700 font-semibold">Sold in Canada · PMRA-registered</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="ortho bug b gon eco" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="ortho bug b gon eco" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 font-bold text-brand-800">Home Defense / Bug B Gon Mosquito Killer</td>
                   <td className="px-4 py-3 text-gray-700">Contact mosquito knockdown mist</td>
                   <td className="px-4 py-3 text-amber-700 font-semibold">Mostly US · limited/none here</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="ortho home defense mosquito killer" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="ortho home defense mosquito killer" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -178,7 +179,7 @@ export default function OrthoHomeDefenseCanadaPage() {
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">Ortho in Canada: Key Facts</h2>
-          <div className="rounded-xl border border-navy-100 overflow-hidden">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto">
             <table className="w-full text-sm">
               <tbody>
                 {[
@@ -209,7 +210,6 @@ export default function OrthoHomeDefenseCanadaPage() {
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Shopping the Canadian Ortho line, or a comparable perimeter product that is registered here:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="ortho bug b gon eco">Check Ortho Bug B Gon ECO on Amazon.ca →</BuyLink>
@@ -256,7 +256,7 @@ export default function OrthoHomeDefenseCanadaPage() {
           <p>If you have a pet household, an edible garden, or you are simply not comfortable handling a pesticide yourself, that is a perfectly good reason to have a licensed, insured applicator do it instead.</p>
 
           <h2>Ortho vs a Professional Barrier Treatment</h2>
-          <table className="not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
+          <table className="min-w-[560px] not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
             <thead className="bg-brand-50">
               <tr><th className="px-3 py-2 text-left">Option</th><th className="px-3 py-2 text-left">Legal in ON for yards</th><th className="px-3 py-2 text-left">Mosquito control</th><th className="px-3 py-2 text-left">Tick coverage</th></tr>
             </thead>

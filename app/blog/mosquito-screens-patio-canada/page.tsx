@@ -78,6 +78,7 @@ export default function MosquitoScreensPatioCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Pop-Up Screen House (screened gazebo)" search="pop up screen house gazebo" label="Best for open patios" />
 
       <section className="bg-white px-4">
@@ -167,7 +168,7 @@ export default function MosquitoScreensPatioCanadaPage() {
             There is no single &ldquo;best&rdquo; mosquito screen — the right one depends on whether your space is open, covered, has a door, or just needs its windows sealed. Match your situation to the row below, then check current Canadian pricing.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Your situation</th>
@@ -181,31 +182,31 @@ export default function MosquitoScreensPatioCanadaPage() {
                   <td className="px-4 py-3 font-bold text-brand-800">Open deck / paver patio (no walls)</td>
                   <td className="px-4 py-3 text-gray-700">Pop-up screen house</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$120 – $250</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="pop up screen house gazebo" block>Check price &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="pop up screen house gazebo" block>Check price on Amazon.ca &rarr;</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Want a permanent room</td>
                   <td className="px-4 py-3 text-gray-700">Steel-frame screened gazebo</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$300 – $2,000</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="screened gazebo hardtop" block>Check price &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="screened gazebo hardtop" block>Check price on Amazon.ca &rarr;</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Patio / sliding door</td>
                   <td className="px-4 py-3 text-gray-700">Magnetic screen door</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$25 – $60</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="magnetic screen door" block>Check price &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="magnetic screen door" block>Check price on Amazon.ca &rarr;</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Pergola / covered patio</td>
                   <td className="px-4 py-3 text-gray-700">Clip-on mosquito netting curtains</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$80 – $300</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="mosquito netting curtain patio" block>Check price &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="mosquito netting curtain patio" block>Check price on Amazon.ca &rarr;</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Gaps around windows</td>
                   <td className="px-4 py-3 text-gray-700">Magnetic / replacement window screen kit</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$15 – $40</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="magnetic window screen mesh" block>Check price &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="magnetic window screen mesh" block>Check price on Amazon.ca &rarr;</BuyLink></td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 font-bold text-brand-800">Three-season room / high-end</td>
@@ -230,7 +231,7 @@ export default function MosquitoScreensPatioCanadaPage() {
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">Mosquito Screen Types at a Glance</h2>
-          <div className="rounded-xl border border-navy-100 overflow-hidden">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto">
             <table className="w-full text-sm">
               <tbody>
                 {[
@@ -260,7 +261,6 @@ export default function MosquitoScreensPatioCanadaPage() {
 
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Compare current Canadian prices on the two most popular patio screen types:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="pop up screen house gazebo">Check screen-house prices on Amazon.ca &rarr;</BuyLink>
@@ -305,7 +305,7 @@ export default function MosquitoScreensPatioCanadaPage() {
 
           <h2>Screens vs Spray: They Solve Different Problems</h2>
           <p>A screen is a barrier around <em>you</em>. Barrier spray is a treatment across the <em>whole yard</em>. Here is the honest comparison for a GTA property:</p>
-          <table className="not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
+          <table className="min-w-[560px] not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
             <thead className="bg-brand-50">
               <tr><th className="px-3 py-2 text-left">Solution</th><th className="px-3 py-2 text-left">Cost</th><th className="px-3 py-2 text-left">Protects</th><th className="px-3 py-2 text-left">Tick coverage</th></tr>
             </thead>

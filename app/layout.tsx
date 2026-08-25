@@ -9,6 +9,7 @@ import Footer from '@/components/Footer'
 import StickyRiskCTA from '@/components/StickyRiskCTA'
 import PressMentionBanner from '@/components/PressMentionBanner'
 import ExitIntentPopup from '@/components/ExitIntentPopup'
+import LeadBarGate from '@/components/LeadBarGate'
 import { BUSINESS, SITE_URL } from '@/lib/constants'
 import { websiteSchema, organizationSchema, personSchema } from '@/lib/seo'
 
@@ -121,6 +122,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           dangerouslySetInnerHTML={{ __html: JSON.stringify(personSchema()) }}
         />
         {/* DNS prefetch for performance */}
+        {/* Amazon.ca is the revenue destination on ~300 pages — warm the
+            connection so the buy tap doesn't pay DNS+TLS latency. */}
+        <link rel="preconnect" href="https://www.amazon.ca" />
+        <link rel="dns-prefetch" href="//www.amazon.ca" />
         <link rel="dns-prefetch" href="//www.google-analytics.com" />
         <link rel="dns-prefetch" href="//connect.facebook.net" />
         <link rel="dns-prefetch" href="//d3ey4dbjkt2f6s.cloudfront.net" />
@@ -137,6 +142,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Footer />
 
         {/* ── Sticky Mobile CTA Bar ──────────────────────────────────── */}
+        <LeadBarGate>
         <div className="fixed bottom-0 left-0 right-0 z-50 bg-ink-950 border-t border-white/10 px-4 pb-3 pt-1.5 sm:hidden" role="complementary" aria-label="Quick actions">
           <p className="text-center text-[10px] font-semibold text-brand-300 mb-1.5" aria-hidden="true">
             <span className="text-amber-400">★ 5.0</span> · 150+ Google reviews · Bite-Free Guarantee
@@ -157,6 +163,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             </a>
           </div>
         </div>
+        </LeadBarGate>
 
         {/* ── Google Analytics GA4 ─────────────────────────────────────── */}
         <Script

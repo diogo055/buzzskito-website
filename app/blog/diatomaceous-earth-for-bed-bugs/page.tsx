@@ -114,8 +114,8 @@ export default function DiatomaceousEarthForBedBugsPage() {
         <div className="max-w-4xl mx-auto">
           <h2 className="text-2xl font-extrabold text-brand-900 mb-4">Food-Grade vs Pool-Grade vs PMRA-Registered DE</h2>
           <p className="text-sm text-gray-700 mb-5 leading-relaxed">Not all diatomaceous earth is the same product, and in Canada the grade decides both whether it is <em>legal</em> to use on pests and whether it is <em>safe</em> to breathe. Only the registered-insecticide grade belongs on bed bugs &mdash; always confirm the grade and any PCP number on the bag you buy.</p>
-          <div className="rounded-xl border border-navy-100 overflow-hidden bg-white shadow-sm overflow-x-auto">
-            <table className="w-full text-sm">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto bg-white shadow-sm overflow-x-auto">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Grade</th>

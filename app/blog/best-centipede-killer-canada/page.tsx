@@ -97,6 +97,7 @@ export default function BestCentipedeKillerCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Safer's Diatomaceous Earth (PMRA-registered insect dust)" search="safers diatomaceous earth" label="Best actual killer" />
 
       <section className="bg-white px-4">
@@ -136,7 +137,7 @@ export default function BestCentipedeKillerCanadaPage() {
             Nearly every centipede purchase falls into one of six situations, and the right cart is different in each. Find yours and stop reading.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Your situation</th>
@@ -252,7 +253,7 @@ export default function BestCentipedeKillerCanadaPage() {
             Five product types get sold for centipedes in Canada. This is the spec comparison &mdash; what each one physically is, what quantity you need, how often you re-buy it, and whether it needs a Canadian registration number before it can legally be sold to you.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Product type</th>
@@ -270,7 +271,7 @@ export default function BestCentipedeKillerCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">One, correctly sized. Two small units is the wrong answer</td>
                   <td className="px-4 py-3 text-gray-700">Years &mdash; it is capital, not consumable</td>
                   <td className="px-4 py-3 text-gray-700">No &mdash; not a pesticide</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="50 pint dehumidifier basement energy star" block>Check price &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="50 pint dehumidifier basement energy star" block>Check price on Amazon.ca &rarr;</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Insecticidal DE<br /><span className="font-normal text-xs text-gray-500">Registered dust</span></td>
@@ -278,7 +279,7 @@ export default function BestCentipedeKillerCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">One consumer bag covers an average house several times over</td>
                   <td className="px-4 py-3 text-gray-700">Re-dust only where it has got damp or been disturbed</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Yes</strong> &mdash; insecticidal DE is a pesticide</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="safers diatomaceous earth" block>Check price &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="safers diatomaceous earth" block>Check price on Amazon.ca &rarr;</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Glue boards<br /><span className="font-normal text-xs text-gray-500">Device, not pesticide</span></td>
@@ -286,7 +287,7 @@ export default function BestCentipedeKillerCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">One multi-pack &mdash; roughly 6&ndash;10 placements for a typical house</td>
                   <td className="px-4 py-3 text-gray-700">Weeks in a damp basement; a fuzzy or greyed surface is spent</td>
                   <td className="px-4 py-3 text-gray-700">No &mdash; mechanical device</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="insect glue board traps multi pack" block>Check price &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="insect glue board traps multi pack" block>Check price on Amazon.ca &rarr;</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Residual spray<br /><span className="font-normal text-xs text-gray-500">Domestic class</span></td>
@@ -294,7 +295,7 @@ export default function BestCentipedeKillerCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">One bottle for entry points. You are not treating a whole house</td>
                   <td className="px-4 py-3 text-gray-700">Per the label interval &mdash; residual activity fades</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Yes</strong></td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="doktor doom residual insecticide spray" block>Check price &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="doktor doom residual insecticide spray" block>Check price on Amazon.ca &rarr;</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Exclusion hardware<br /><span className="font-normal text-xs text-gray-500">Sweeps, screens, sealant</span></td>
@@ -302,7 +303,7 @@ export default function BestCentipedeKillerCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Measure the doors first. One tube goes further than people expect</td>
                   <td className="px-4 py-3 text-gray-700">Annual touch-up on an older foundation</td>
                   <td className="px-4 py-3 text-gray-700">No &mdash; building materials</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="door sweep silicone caulk gap sealant" block>Check price &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="door sweep silicone caulk gap sealant" block>Check price on Amazon.ca &rarr;</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -318,7 +319,7 @@ export default function BestCentipedeKillerCanadaPage() {
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">Centipede Buying Checklist &mdash; Quick Reference</h2>
-          <div className="rounded-xl border border-navy-100 overflow-hidden">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto">
             <table className="w-full text-sm">
               <tbody>
                 {[
@@ -358,7 +359,6 @@ export default function BestCentipedeKillerCanadaPage() {
           <p>The short reason &mdash; the long one is on <Link href="/blog/how-to-get-rid-of-centipedes-canada">our house centipede guide</Link>, which covers the identification, the biology and the plan &mdash; is that a house centipede has no waterproof cuticle and cannot establish anywhere that stays dry. It is also a predator, so it only stays where there is something to hunt. Dry air takes away both conditions at once. Every other product on this page acts on individual insects while leaving the conditions untouched, which is why people who buy in aisle order tend to buy twice.</p>
           <p>So: dehumidifier, glue boards, registered dust, sealing hardware, and a registered spray only if you specifically want knockdown at entry points. What follows is the spec detail for each of those purchases &mdash; the parts of a listing worth reading, and the parts that are marketing.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the picks:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="50 pint dehumidifier basement energy star">Basement dehumidifier &rarr;</BuyLink>

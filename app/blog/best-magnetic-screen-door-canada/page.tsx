@@ -102,6 +102,7 @@ export default function BestMagneticScreenDoorCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Heavy-duty magnetic screen door with a full magnet line" search="magnetic screen door heavy duty mesh" label="Best overall" />
 
       <section className="bg-white px-4">
@@ -142,7 +143,7 @@ export default function BestMagneticScreenDoorCanadaPage() {
           <p className="text-xs font-extrabold text-emerald-700 uppercase tracking-wider mb-2">Decision Table</p>
           <h2 className="text-2xl font-extrabold text-brand-900 mb-4">Pick in 60 Seconds: Your Door &rarr; What to Buy</h2>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Your situation</th>
@@ -253,7 +254,7 @@ export default function BestMagneticScreenDoorCanadaPage() {
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">Magnetic Screen Doors &mdash; Quick Reference</h2>
-          <div className="rounded-xl border border-navy-100 overflow-hidden">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto">
             <table className="w-full text-sm">
               <tbody>
                 {[
@@ -295,7 +296,6 @@ export default function BestMagneticScreenDoorCanadaPage() {
           <p>That problem is worth solving. On a summer evening a patio door gets opened dozens of times, and each time it stands open for ten or twenty seconds with the interior lights on behind it. A curtain turns that into a sealed opening you can pass through with a tray in both hands. Nothing else in the category does that, and it is why the product exists rather than a hinged screen door.</p>
           <p>What it is not is a solution to mosquitoes. It is a solution to mosquitoes <em>coming inside through that door</em>. It does nothing for the deck, the lawn, the pool, the walk to the shed, or the hour you actually wanted to spend outside &mdash; and it does nothing at all for ticks, which live in grass and leaf litter and never approach a doorway. Every honest screen guide has to make that distinction up front, because a household buying a curtain to fix an unusable yard is going to be disappointed by a product that worked exactly as designed.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="magnetic screen door heavy duty mesh">Heavy-duty curtain &rarr;</BuyLink>

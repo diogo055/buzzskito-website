@@ -107,7 +107,7 @@ export default function MosquitoBiteVsSpiderBitePage() {
             The second clue is <strong>whether you felt it</strong>. Mosquito saliva contains a mild anaesthetic, so you almost never notice the bite itself &mdash; you only find the itchy welt later. A spider bite is far more likely to register as a sharp pinprick or sting. &ldquo;I woke up itchy&rdquo; leans strongly toward mosquito; &ldquo;I felt something bite me&rdquo; leans toward spider or another stinging insect.
           </p>
 
-          <div className="rounded-xl border border-navy-100 overflow-hidden bg-white shadow-sm my-6">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto bg-white shadow-sm my-6">
             <table className="w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>

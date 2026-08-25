@@ -99,6 +99,7 @@ export default function LongrayThermalFoggerReviewCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Longray TS35A Pulse-Jet Thermal Fogger" search="longray ts35a thermal fogger" label="Flagship pulse-jet" />
 
       <section className="bg-white px-4">
@@ -157,21 +158,21 @@ export default function LongrayThermalFoggerReviewCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Combustion flash-heats oil solution into a dense 5&ndash;30&micro;m fog</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Acreage &amp; scale</strong> &mdash; cordless reach, huge fog volume</td>
                   <td className="px-4 py-3 text-gray-700">Fire/burn risk, fuel, PPE, price</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="longray ts35a thermal fogger" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="longray ts35a thermal fogger" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Electric thermal<br /><span className="font-normal text-xs text-gray-500">Black Flag, Burgess</span></td>
                   <td className="px-4 py-3 text-gray-700">Electric element heats solution into thermal fog</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Small&ndash;mid yards</strong> near an outlet, quieter, cheaper</td>
                   <td className="px-4 py-3 text-gray-700">Corded tether, slower heat, smaller fog volume</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="black flag electric thermal fogger" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="black flag electric thermal fogger" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">ULV cold fogger<br /><span className="font-normal text-xs text-gray-500">electric or cordless</span></td>
                   <td className="px-4 py-3 text-gray-700">High-pressure air atomizes solution &mdash; no heat, no flame</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Indoors &amp; control</strong> &mdash; water-based, adjustable droplet, no fire</td>
                   <td className="px-4 py-3 text-gray-700">Less outdoor penetration than thermal; near-invisible fog</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="ulv cold fogger" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="ulv cold fogger" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -190,7 +191,7 @@ export default function LongrayThermalFoggerReviewCanadaPage() {
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">Longray TS35A — Key Facts at a Glance</h2>
-          <div className="rounded-xl border border-navy-100 overflow-hidden">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto">
             <table className="w-full text-sm">
               <tbody>
                 {[
@@ -221,7 +222,6 @@ export default function LongrayThermalFoggerReviewCanadaPage() {
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability before you buy:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="longray ts35a thermal fogger">Longray TS35A on Amazon.ca →</BuyLink>
@@ -291,7 +291,7 @@ export default function LongrayThermalFoggerReviewCanadaPage() {
 
           <h2>Fogger vs Professional Barrier Spray for a GTA Property</h2>
           <p>A thermal fogger and a barrier spray solve different problems, and the smartest large-property owners often use both. Fogging delivers fast adult knockdown across a big area — perfect for the evening of an event. Barrier spray deposits a residual film on vegetation that keeps killing mosquitoes that land on the leaves for 21–30 days, covers the whole yard, and — unlike any fog — also controls ticks. Here is how the options stack up:</p>
-          <table className="not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
+          <table className="min-w-[560px] not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
             <thead className="bg-brand-50">
               <tr><th className="px-3 py-2 text-left">Solution</th><th className="px-3 py-2 text-left">Best at</th><th className="px-3 py-2 text-left">Duration</th><th className="px-3 py-2 text-left">Tick coverage</th></tr>
             </thead>

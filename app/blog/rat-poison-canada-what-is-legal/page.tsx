@@ -118,8 +118,8 @@ export default function RatPoisonCanadaLegalPage() {
           <h2>What Rat Poison Is Actually Legal in Canada?</h2>
           <p>For homeowners, exactly two families of rodenticide are legal: first-generation anticoagulants (warfarin, chlorophacinone, diphacinone) and bromethalin — and only when sold as ready-to-use, tamper-resistant bait stations. Everything else, including every second-generation anticoagulant that dominates American &ldquo;best rat poison&rdquo; lists, is commercial-class: legal for licensed applicators, illegal for you.</p>
           <p>The dividing line is Health Canada&rsquo;s Pest Management Regulatory Agency (PMRA). Every legal pesticide in Canada carries a PMRA Registration Number on the label — it reads &ldquo;Reg. No. XXXXX P.C.P. Act.&rdquo; No number, not legal. Here is how the actives you&rsquo;ll see recommended online actually shake out:</p>
-          <div className="not-prose rounded-xl border border-navy-100 overflow-hidden bg-white shadow-sm my-6 overflow-x-auto">
-            <table className="w-full text-sm">
+          <div className="not-prose rounded-xl border border-navy-100 overflow-x-auto bg-white shadow-sm my-6 overflow-x-auto">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Active ingredient</th>

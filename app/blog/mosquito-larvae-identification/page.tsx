@@ -167,8 +167,8 @@ export default function MosquitoLarvaePage() {
             pros={['Kills larvae in 24–48 hours', 'Safe for fish, pets, and people', 'One dunk lasts ~30 days']}
             cons={['Slower than simply draining the water', 'Not needed for water you can just dump']}
           />
-          <div className="rounded-xl border border-gray-200 overflow-hidden">
-            <table className="w-full text-sm">
+          <div className="rounded-xl border border-gray-200 overflow-x-auto">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-50">
                 <tr>
                   <th className="px-3 py-2 text-left">Method</th>
@@ -206,7 +206,7 @@ export default function MosquitoLarvaePage() {
           <p className="speakable text-base text-gray-800 leading-relaxed mb-5">
             <strong>If the wiggler hangs head-down at the water surface and darts downward in an S-shape when disturbed, it is a mosquito larva.</strong> Midge larvae look similar but live in bottom mud and swim in a figure-eight; mayfly larvae have feathery gills along the abdomen; drain-fly larvae live in slimy pipe film, not open water. Only mosquito larvae breathe through a siphon at the surface, and only mosquito larvae become biting adults.
           </p>
-          <div className="rounded-xl border border-gray-200 overflow-hidden">
+          <div className="rounded-xl border border-gray-200 overflow-x-auto">
             <table className="w-full text-sm">
               <thead className="bg-brand-50">
                 <tr>
@@ -238,7 +238,7 @@ export default function MosquitoLarvaePage() {
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">Mosquito Larvae Identification Key Facts</h2>
-          <div className="rounded-xl border border-navy-100 overflow-hidden">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto">
             <table className="w-full text-sm">
               <tbody>
                 {[

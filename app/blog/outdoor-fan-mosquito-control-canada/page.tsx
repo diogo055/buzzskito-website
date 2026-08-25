@@ -83,6 +83,7 @@ export default function OutdoorFanMosquitoControlCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Wet-rated outdoor ceiling fan, 60 in" search="wet rated outdoor ceiling fan 60 inch" label="Best overall" />
 
       <section className="bg-white px-4">
@@ -202,7 +203,7 @@ export default function OutdoorFanMosquitoControlCanadaPage() {
                     <td className="px-4 py-3 text-gray-700">{flow}</td>
                     <td className="px-4 py-3 text-gray-700">{rating}</td>
                     <td className="px-4 py-3 text-xs text-gray-600">{best}</td>
-                    <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search={search} block>Check price →</BuyLink></td>
+                    <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search={search} block>Check price on Amazon.ca →</BuyLink></td>
                   </tr>
                 ))}
               </tbody>
@@ -217,7 +218,6 @@ export default function OutdoorFanMosquitoControlCanadaPage() {
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Jump straight to current Canadian availability — the covered-deck pick, and the open-deck pick most people should buy:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="wet rated outdoor ceiling fan 60 inch">Check wet-rated ceiling fans &rarr;</BuyLink>

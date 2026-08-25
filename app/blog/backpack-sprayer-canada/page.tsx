@@ -86,6 +86,7 @@ export default function BackpackSprayerCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="PetraTools HD4000 ProSeries battery backpack sprayer" search="petratools hd4000 battery backpack sprayer" label="Best overall sprayer" />
 
       <section className="bg-white px-4">
@@ -161,7 +162,7 @@ export default function BackpackSprayerCanadaPage() {
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">Best Backpack Sprayers in Canada 2026 — Compared</h2>
-          <div className="rounded-xl border border-navy-100 overflow-hidden bg-white shadow-sm overflow-x-auto">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto bg-white shadow-sm overflow-x-auto">
             <table className="w-full min-w-[760px] text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
@@ -184,7 +185,7 @@ export default function BackpackSprayerCanadaPage() {
                     <td className="px-4 py-3 text-gray-800" dangerouslySetInnerHTML={{ __html: specs }} />
                     <td className="px-4 py-3 text-gray-800">{power}</td>
                     <td className="px-4 py-3 text-xs text-gray-600">{best}</td>
-                    <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search={search} block>Check price →</BuyLink></td>
+                    <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search={search} block>Check price on Amazon.ca →</BuyLink></td>
                   </tr>
                 ))}
               </tbody>
@@ -199,7 +200,6 @@ export default function BackpackSprayerCanadaPage() {
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability on our two most-recommended units:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="petratools hd4000 battery backpack sprayer">PetraTools HD4000 on Amazon.ca →</BuyLink>

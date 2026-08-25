@@ -78,6 +78,7 @@ export default function MosquitoCoilsCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="PIC Mosquito Repellent Coils" search="pic mosquito coils" label="Best value coil" />
 
       <section className="bg-white px-4 pt-8">
@@ -157,8 +158,8 @@ export default function MosquitoCoilsCanadaPage() {
           <p className="text-sm text-gray-700 mb-5 leading-relaxed">
             Coils are cheap and everywhere in season. Canadian Tire, Home Depot, and Walmart carry PIC and OFF! insecticidal coils plus citronella coils; camping stores stock Coghlan&rsquo;s. Amazon.ca is the place for bulk multipacks.
           </p>
-          <div className="rounded-xl border border-navy-100 overflow-hidden bg-white shadow-sm">
-            <table className="w-full text-sm">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto bg-white shadow-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Retailer</th>
@@ -199,7 +200,7 @@ export default function MosquitoCoilsCanadaPage() {
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">Mosquito Coil Key Facts</h2>
-          <div className="rounded-xl border border-navy-100 overflow-hidden">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto">
             <table className="w-full text-sm">
               <tbody>
                 {[
@@ -227,7 +228,6 @@ export default function MosquitoCoilsCanadaPage() {
 
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Compare current Canadian prices on the coils people actually buy — PIC, OFF!, and citronella:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="pic mosquito coils">Check PIC coil price on Amazon.ca →</BuyLink>
@@ -237,7 +237,7 @@ export default function MosquitoCoilsCanadaPage() {
           <h2 id="best-coils">Best Mosquito Coils in Canada Compared</h2>
           <p>There are really only three coil families worth knowing in Canada: the pyrethroid workhorses (PIC and OFF!), and citronella coils for people who want a plant-based option. Here is how they compare, with a live Amazon.ca price check on each:</p>
           <div className="not-prose my-6 overflow-x-auto rounded-xl border border-navy-100 shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Coil</th>
@@ -253,7 +253,7 @@ export default function MosquitoCoilsCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">d-allethrin</td>
                   <td className="px-4 py-3 text-gray-700">Best value · widely stocked</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$6 – $12 / pack</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="pic mosquito coils" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="pic mosquito coils" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">OFF! Mosquito Coils</td>
@@ -323,7 +323,7 @@ export default function MosquitoCoilsCanadaPage() {
           </aside>
 
           <h2>Mosquito Coils vs Other Personal &amp; Yard Solutions</h2>
-          <table className="not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
+          <table className="min-w-[560px] not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
             <thead className="bg-brand-50">
               <tr><th className="px-3 py-2 text-left">Solution</th><th className="px-3 py-2 text-left">Cost</th><th className="px-3 py-2 text-left">Coverage</th><th className="px-3 py-2 text-left">Tick coverage</th></tr>
             </thead>

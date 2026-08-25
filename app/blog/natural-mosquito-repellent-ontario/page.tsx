@@ -105,6 +105,7 @@ export default function NaturalMosquitoRepellentPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Off! Botanicals (oil of lemon eucalyptus)" search="off botanicals lemon eucalyptus" label="Best natural pick" />
 
       <article className="py-12 px-4 bg-white">
@@ -126,7 +127,6 @@ export default function NaturalMosquitoRepellentPage() {
 
           <p className="lead text-xl text-gray-700 leading-relaxed mb-6">If you&rsquo;re trying to avoid DEET, you&rsquo;re not alone. Most Ontario homeowners would prefer a natural option — but the marketing claims for &ldquo;natural mosquito repellent&rdquo; products often outpace the science. Here&rsquo;s what the peer-reviewed research actually says works in Ontario backyards in 2026 — including why <Link href="/blog/picaridin-vs-deet-canada" className="text-emerald-800 underline underline-offset-2">picaridin</Link>, modelled on a black-pepper compound, is the best-tolerated non-DEET option for all-day wear.</p>
 
-          <AffiliateDisclosure />
 
           <AwardRow tag={AMZ_TAG}
             heading="Our Picks — Best Natural & Non-DEET Repellents"
@@ -270,25 +270,25 @@ export default function NaturalMosquitoRepellentPage() {
                   <td className="py-3 pr-4 font-semibold">Off! Botanicals</td>
                   <td className="py-3 pr-4">Lemon eucalyptus (OLE / PMD)</td>
                   <td className="py-3 pr-4">4–6 hrs</td>
-                  <td className="py-3"><BuyLink tag={AMZ_TAG} search="off botanicals lemon eucalyptus" block>Check price →</BuyLink></td>
+                  <td className="py-3"><BuyLink tag={AMZ_TAG} search="off botanicals lemon eucalyptus" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-gray-200">
                   <td className="py-3 pr-4 font-semibold">Picaridin spray</td>
                   <td className="py-3 pr-4">Picaridin 20% (DEET-free)</td>
                   <td className="py-3 pr-4">8–12 hrs</td>
-                  <td className="py-3"><BuyLink tag={AMZ_TAG} search="picaridin insect repellent 20 percent" block>Check price →</BuyLink></td>
+                  <td className="py-3"><BuyLink tag={AMZ_TAG} search="picaridin insect repellent 20 percent" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-gray-200">
                   <td className="py-3 pr-4 font-semibold">Watkins Original</td>
                   <td className="py-3 pr-4">Citronella + plant oils</td>
                   <td className="py-3 pr-4">2–3 hrs</td>
-                  <td className="py-3"><BuyLink tag={AMZ_TAG} search="watkins mosquito insect repellent" block>Check price →</BuyLink></td>
+                  <td className="py-3"><BuyLink tag={AMZ_TAG} search="watkins mosquito insect repellent" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr>
                   <td className="py-3 pr-4 font-semibold">Citronella spray</td>
                   <td className="py-3 pr-4">Citronella oil</td>
                   <td className="py-3 pr-4">30–60 min</td>
-                  <td className="py-3"><BuyLink tag={AMZ_TAG} search="citronella insect repellent spray" block>Check price →</BuyLink></td>
+                  <td className="py-3"><BuyLink tag={AMZ_TAG} search="citronella insect repellent spray" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
               </tbody>
             </table>

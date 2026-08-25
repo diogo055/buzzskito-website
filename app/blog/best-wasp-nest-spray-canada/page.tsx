@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
+import AmazonLink from '@/components/AmazonLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import SpecialistDisclosure from '@/components/SpecialistDisclosure'
 import AwardRow from '@/components/AwardRow'
@@ -100,13 +101,14 @@ export default function BestWaspNestSprayCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Raid Wasp & Hornet Bug Killer (foaming aerosol)" search="raid wasp hornet killer" label="Best overall" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The best wasp nest spray for most Canadian homes is a PMRA-registered foaming aerosol like Raid Wasp &amp; Hornet Bug Killer &mdash; the foam blankets the nest entrance, traps returning workers, and keeps killing for hours. Wilson WaspOut is the strongest pure-foam alternative, and a long-jet Ortho Home Defense hornet and wasp aerosol is the pick when reach matters more than coverage. Spray at dusk, from the far end of the jet&rsquo;s reach, and always check the can for a Canadian PCP registration number.</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The best wasp nest spray for most Canadian homes is a PMRA-registered foaming aerosol like <AmazonLink search="raid wasp hornet killer" tag={AMZ_TAG} className="font-bold underline decoration-emerald-500 underline-offset-2 hover:text-emerald-900">Raid Wasp &amp; Hornet Bug Killer</AmazonLink> &mdash; the foam blankets the nest entrance, traps returning workers, and keeps killing for hours. Wilson WaspOut is the strongest pure-foam alternative, and a long-jet Ortho Home Defense hornet and wasp aerosol is the pick when reach matters more than coverage. Spray at dusk, from the far end of the jet&rsquo;s reach, and always check the can for a Canadian PCP registration number.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
               <li>Legal wasp sprays in Canada carry a PCP registration number from Health Canada&rsquo;s PMRA &mdash; no number on the can, not legal to sell or use here.</li>
               <li>US products like Spectracide&rsquo;s &ldquo;27-foot&rdquo; jet are EPA-registered, not PMRA-registered &mdash; importing or using them in Canada is grey-market and an offence under the Pest Control Products Act.</li>
@@ -116,6 +118,9 @@ export default function BestWaspNestSprayCanadaPage() {
               <li>Never seal a wall-void nest entrance right after spraying: trapped survivors can chew through drywall into the house.</li>
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito Pest Product Guides &middot; independent Canadian research</p>
+            <div className="mt-4">
+              <BuyLink search="raid wasp hornet killer" tag={AMZ_TAG} block className="sm:w-auto sm:min-h-0 sm:inline-flex sm:rounded-full sm:px-4 sm:py-2">Check price on Amazon.ca →</BuyLink>
+            </div>
           </div>
           <SpecialistDisclosure pest="wasps" />
         </div>
@@ -172,7 +177,7 @@ export default function BestWaspNestSprayCanadaPage() {
             Every wasp spray on a Canadian shelf is one of two formats &mdash; foam or jet &mdash; and every can in a cross-border trunk is a third category you should not touch. Here is the honest breakdown, with a live Amazon.ca price check for the legal picks.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Format</th>
@@ -188,21 +193,21 @@ export default function BestWaspNestSprayCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Expanding foam blankets nest + entrance; residual kills returning foragers for hours</td>
                   <td className="px-4 py-3 text-gray-700">Eaves, deck rails, sheds, most nests</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Legal</strong> &mdash; PCP-registered</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="raid wasp hornet killer" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="raid wasp hornet killer" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Expanding foam<br /><span className="font-normal text-xs text-gray-500">Wilson WaspOut</span></td>
                   <td className="px-4 py-3 text-gray-700">Heavier foam smothers the full nest envelope; ideal pushed into burrow and void entrances</td>
                   <td className="px-4 py-3 text-gray-700">Exposed paper nests, ground &amp; void entrances</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Legal</strong> &mdash; PCP-registered</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="wilson waspout wasp hornet foam" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="wilson waspout wasp hornet foam" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Long jet<br /><span className="font-normal text-xs text-gray-500">Ortho Home Defense</span></td>
                   <td className="px-4 py-3 text-gray-700">Narrow straight stream for maximum distance; fast knockdown, thinner residual</td>
                   <td className="px-4 py-3 text-gray-700">High soffits and second-storey nests</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Legal</strong> &mdash; PCP-registered</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="ortho home defense hornet wasp killer" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="ortho home defense hornet wasp killer" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">US grey-market<br /><span className="font-normal text-xs text-gray-500">Spectracide &ldquo;27 ft&rdquo;, Hot Shot</span></td>
@@ -228,7 +233,7 @@ export default function BestWaspNestSprayCanadaPage() {
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">Wasp Nest Spray Buying — Key Facts</h2>
-          <div className="rounded-xl border border-navy-100 overflow-hidden">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto">
             <table className="w-full text-sm">
               <tbody>
                 {[
@@ -265,7 +270,6 @@ export default function BestWaspNestSprayCanadaPage() {
           <p>This matters for wasp sprays specifically because the most famous wasp sprays on the internet are American. Spectracide Wasp &amp; Hornet Killer &mdash; the one with the &ldquo;up to 27 foot&rdquo; jet claim that dominates US reviews &mdash; is registered with the US EPA, not the PMRA. So are US-labelled Hot Shot aerosols and the US formulation sold as Raid Wasp &amp; Hornet Killer 33, which is not the same registered product as the Canadian Raid can. Under the federal <em>Pest Control Products Act</em>, importing, selling, or using an unregistered pesticide in Canada is an offence. A can that crossed the border in a trunk, or shipped from a third-party marketplace seller who does not filter by country, is grey-market &mdash; and every product recommendation below is a Canadian-registered alternative that makes the grey-market can pointless anyway.</p>
           <p>One practical habit solves all of this: <strong>flip the can over and find the PCP number before you buy.</strong> Brand names migrate across the border; registration numbers do not.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the three picks:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="raid wasp hornet killer">Raid Wasp &amp; Hornet foam →</BuyLink>

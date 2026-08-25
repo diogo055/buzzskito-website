@@ -92,6 +92,7 @@ export default function WhatSizeDehumidifierDoINeedCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="50-pint dehumidifier — the Canadian basement default" search="50 pint dehumidifier energy star continuous drain" label="Most common correct size" />
 
       <section className="bg-white px-4">
@@ -124,7 +125,7 @@ export default function WhatSizeDehumidifierDoINeedCanadaPage() {
             <strong>What these bands assume, so you can adjust them.</strong> The square-footage figures below are deliberately more conservative than the generic AHAM-style sizing charts you will find elsewhere, and it is worth knowing why rather than just trusting us. Those charts were built around a <em>warm, conditioned room</em>; the rows here assume a <strong>cool Canadian basement at roughly 15&ndash;18 &deg;C</strong>, where a compressor unit pulls noticeably less water per hour than its rating implies, and they already step up a class for genuine dampness. If your space is warm, heated year-round, and only <em>moderately</em> damp &mdash; a finished basement that feels a little close in July, nothing more &mdash; then a 30&ndash;35 pint unit is genuinely fine well past 1,000 sq ft, and our <Link href="/blog/best-dehumidifier-for-basement-canada">basement dehumidifier guide</Link> works through that warmer, drier case in detail. Cold and musty pushes you up a row; warm and merely stuffy pulls you down one.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Space &amp; dampness</th>
@@ -140,49 +141,49 @@ export default function WhatSizeDehumidifierDoINeedCanadaPage() {
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">20&ndash;30 pint compact</strong></td>
                   <td className="px-4 py-3 text-gray-700">A humidistat you can set to a number</td>
                   <td className="px-4 py-3 text-gray-700">$150&ndash;$250</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="compact 30 pint dehumidifier energy star humidistat" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="compact 30 pint dehumidifier energy star humidistat" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">500&ndash;1,000 sq ft<br /><span className="font-normal text-xs text-gray-500">finished basement or condo, feels close in summer</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">30&ndash;35 pint</strong></td>
                   <td className="px-4 py-3 text-gray-700">Energy Star + gravity drain port</td>
                   <td className="px-4 py-3 text-gray-700">$200&ndash;$350</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="35 pint dehumidifier energy star continuous drain" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="35 pint dehumidifier energy star continuous drain" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">1,000&ndash;2,000 sq ft<br /><span className="font-normal text-xs text-gray-500">damp basement, musty smell, bare block walls</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">50 pint &mdash; the default</strong></td>
                   <td className="px-4 py-3 text-gray-700">Auto-defrost for a cool basement</td>
                   <td className="px-4 py-3 text-gray-700">$280&ndash;$450</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="50 pint dehumidifier energy star continuous drain" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="50 pint dehumidifier energy star continuous drain" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Wet basement, or no floor drain<br /><span className="font-normal text-xs text-gray-500">standing damp, sump-less, drain above the unit</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">50 pint with built-in pump</strong></td>
                   <td className="px-4 py-3 text-gray-700">Internal condensate pump + long lift hose</td>
                   <td className="px-4 py-3 text-gray-700">$400&ndash;$600</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="50 pint dehumidifier with built in pump" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="50 pint dehumidifier with built in pump" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Crawl space / cold cellar<br /><span className="font-normal text-xs text-gray-500">unheated, 5&ndash;15 &deg;C, rubble or block foundation</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Low-temperature crawl-space unit</strong></td>
                   <td className="px-4 py-3 text-gray-700">Rated low-temp operation + hot-gas defrost + pump</td>
                   <td className="px-4 py-3 text-gray-700">$1,000&ndash;$2,000</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="crawl space dehumidifier low temperature with pump" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="crawl space dehumidifier low temperature with pump" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Unheated garage, workshop, cottage<br /><span className="font-normal text-xs text-gray-500">regularly below ~5 &deg;C</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Desiccant dehumidifier</strong></td>
                   <td className="px-4 py-3 text-gray-700">Rotor type &mdash; no cold coil to frost</td>
                   <td className="px-4 py-3 text-gray-700">$300&ndash;$600</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="desiccant dehumidifier cold room garage" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="desiccant dehumidifier cold room garage" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Whole house, several floors<br /><span className="font-normal text-xs text-gray-500">chronic humidity, existing ductwork</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Ducted whole-home unit</strong></td>
                   <td className="px-4 py-3 text-gray-700">Sized and installed by an HVAC contractor</td>
                   <td className="px-4 py-3 text-gray-700">$1,500&ndash;$3,000+ installed</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="whole house ducted dehumidifier" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="whole house ducted dehumidifier" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -258,7 +259,6 @@ export default function WhatSizeDehumidifierDoINeedCanadaPage() {
           <p>For a damp Canadian basement of roughly 1,000 to 2,000 square feet, you need a <strong>50-pint dehumidifier</strong> on the current rating scale; for a single moderately damp room or a condo under about 1,000 square feet, a <strong>30&ndash;35 pint</strong> unit is correct. That covers the large majority of houses, and if you take nothing else from this page, take the table above and buy the row that matches your space. The rest of this guide exists because three things routinely push people into the wrong row: they size on square footage while ignoring how damp the space actually is, they compare a modern pint rating against an old one, and they forget that a Canadian basement is cold enough to change the machine&rsquo;s behaviour.</p>
           <p>Dehumidifier capacity is quoted in <em>pints of water removed per day</em> under a defined lab condition. It is a throughput figure, not a coverage figure, which is why square footage alone can never settle the question &mdash; a small, wet, unfinished basement holds far more water than a large, dry, finished one, and the machine has to remove water, not floor area.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability by size class:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="50 pint dehumidifier energy star continuous drain">50 pint (basement default) →</BuyLink>

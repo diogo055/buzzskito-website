@@ -100,6 +100,7 @@ export default function BedBugShellsCasingsPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="ClimbUp Insect Interceptors — turn husks into a yes or no" search="climbup bed bug interceptor" label="Confirm it is active" />
 
       <section className="bg-white px-4">
@@ -140,7 +141,7 @@ export default function BedBugShellsCasingsPage() {
             Find the row that matches what is actually in front of you. The wrong first purchase here is expensive, and in one row the right answer is to stop and buy nothing at all.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">What you found</th>
@@ -256,7 +257,7 @@ export default function BedBugShellsCasingsPage() {
             Almost every &ldquo;is this a bed bug shell?&rdquo; question resolves to one of these six. Work down the <em>tell</em> column &mdash; each one is visible with a bright light and a magnifier, and the first that matches is your answer.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">What it is</th>
@@ -314,7 +315,7 @@ export default function BedBugShellsCasingsPage() {
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">Bed Bug Shells &mdash; Quick Reference</h2>
-          <div className="rounded-xl border border-navy-100 overflow-hidden">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto">
             <table className="w-full text-sm">
               <tbody>
                 {[
@@ -354,7 +355,6 @@ export default function BedBugShellsCasingsPage() {
           <p>The detail that turns this from trivia into evidence is the trigger. A bed bug passes through <strong>five nymphal stages</strong> on the way to adulthood, and <strong>each of those stages requires a blood meal before the moult can proceed</strong> &mdash; a point the <a href="https://bedbugs.tennessee.edu/biology-and-identification/" className="text-emerald-700 underline">University of Tennessee bed bug program</a> states plainly in its biology summary. No blood, no moult. So every husk in your mattress seam is not just a sign that a bed bug was present; it is physical proof that a bed bug <em>fed on a person in that bed</em> and then grew.</p>
           <p>That single fact does most of the diagnostic work on this page. It closes off the most comforting explanation people reach for &mdash; that a bug hitchhiked in on a suitcase and died &mdash; because a hitchhiker that never fed leaves no husk. It also explains why shells are so often the first evidence found: one bug reaching adulthood can leave up to five of them, so the casings pile up faster than the bugs themselves do, and they sit still in a seam where a live bug will not.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">The two purchases that turn a pile of husks into an actual answer:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="climbup bed bug interceptor">Interceptor traps &rarr;</BuyLink>

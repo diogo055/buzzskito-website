@@ -109,7 +109,7 @@ export default function LoneStarTickAlphaGalCanadaPage() {
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">Lone Star Tick &amp; Alpha-Gal — Key Facts</h2>
-          <div className="rounded-xl border border-navy-100 overflow-hidden">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto">
             <table className="w-full text-sm">
               <tbody>
                 {[
@@ -153,7 +153,7 @@ export default function LoneStarTickAlphaGalCanadaPage() {
 
           <h2>How the lone star tick compares to Ontario&rsquo;s established ticks</h2>
           <p>The quickest way to place the lone star tick in context is side by side with the two ticks you are actually likely to encounter in the GTA.</p>
-          <table className="not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
+          <table className="min-w-[560px] not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
             <thead className="bg-brand-50">
               <tr>
                 <th className="px-3 py-2 text-left">Feature</th>

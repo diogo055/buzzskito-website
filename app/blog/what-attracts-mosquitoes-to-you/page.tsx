@@ -109,7 +109,7 @@ export default function WhatAttractsMosquitoesToYouPage() {
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">What Makes You a Mosquito Magnet — Ranked</h2>
           <p className="text-sm text-gray-600 mb-4">Factors are listed strongest first. The final column is the honest one: how much of it you can actually do something about.</p>
-          <div className="rounded-xl border border-gray-200 overflow-hidden">
+          <div className="rounded-xl border border-gray-200 overflow-x-auto">
             <table className="w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>

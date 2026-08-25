@@ -100,6 +100,7 @@ export default function BestDehumidifierForBasementCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="hOmeLabs 50-Pint Energy Star Dehumidifier" search="homelabs 50 pint dehumidifier" label="Best overall" />
 
       <section className="bg-white px-4">
@@ -182,7 +183,6 @@ export default function BestDehumidifierForBasementCanadaPage() {
           <p><strong>Dust mites</strong> do not drink; they absorb water vapour directly from the air through their bodies, so they physically cannot sustain a population below roughly 50% relative humidity. <strong>Silverfish</strong> and <strong>cockroaches</strong> are both strongly humidity-seeking insects that congregate wherever the air is dampest &mdash; the reason you find them in the bathroom, under the sink, and in the basement rather than the dry living room. And <strong>mould</strong> needs sustained humidity above about 60&ndash;70% (or an actively damp surface) to colonize. Hold a basement steadily at 45% RH and you are not just more comfortable; you have removed the environmental foundation all four depend on &mdash; along with the damp-loving crowd that trades on it, from <Link href="/blog/how-to-get-rid-of-earwigs-canada">earwigs pushing in from the mulch line</Link> to the <Link href="/blog/how-to-get-rid-of-centipedes-canada">house centipedes that only stay where prey is plentiful</Link>.</p>
           <p>That is the honest case for spending real money here. A right-sized dehumidifier is the closest thing to a root-cause fix for a chronically damp, buggy basement &mdash; it does not chase individual insects, it changes the terms of the space so the insects stop wanting to live there. This guide chooses units on that basis: whether they can hold a Canadian basement below 50% RH, reliably, all season, without you babysitting a bucket.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the picks:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="homelabs 50 pint dehumidifier">hOmeLabs 50-pint →</BuyLink>
@@ -193,8 +193,8 @@ export default function BestDehumidifierForBasementCanadaPage() {
           <h2>How to Size a Basement Dehumidifier (Pints vs Square Feet)</h2>
           <p>Sizing is the decision that makes or breaks the purchase, and it is where most people go wrong &mdash; usually by buying too small to save money, then wondering why the unit runs non-stop and the basement is still damp. Dehumidifier capacity is rated in <strong>pints of water removed per day</strong>. Note that the rating scale changed: under the current U.S. Department of Energy test method (adopted 2019), the same physical machine is now labelled with a lower pint number than it was under the old standard, because the new test runs at a cooler, more realistic temperature. So a modern &ldquo;50-pint&rdquo; unit is roughly as capable as an old &ldquo;70-pint&rdquo; one &mdash; do not compare an old spec sheet to a new one.</p>
           <p>Here is a practical sizing table for Canadian basements under the current rating method. &ldquo;Damp&rdquo; means it feels humid; &ldquo;wet&rdquo; means you can see moisture, smell must, or find condensation on cold surfaces:</p>
-          <div className="not-prose rounded-xl border border-navy-100 overflow-hidden bg-white shadow-sm my-6 overflow-x-auto">
-            <table className="w-full text-sm">
+          <div className="not-prose rounded-xl border border-navy-100 overflow-x-auto bg-white shadow-sm my-6 overflow-x-auto">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Basement size</th>
@@ -216,7 +216,7 @@ export default function BestDehumidifierForBasementCanadaPage() {
                     <td className="px-4 py-3 text-gray-700">{damp}</td>
                     <td className="px-4 py-3 text-gray-700">{wet}</td>
                     <td className="px-4 py-3 text-gray-700">{pick}</td>
-                    <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search={search} block>Check price →</BuyLink></td>
+                    <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search={search} block>Check price on Amazon.ca →</BuyLink></td>
                   </tr>
                 ))}
               </tbody>

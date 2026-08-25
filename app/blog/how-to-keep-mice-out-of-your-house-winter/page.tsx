@@ -138,8 +138,8 @@ export default function HowToKeepMiceOutWinterPage() {
 
           <h2>Which Sealing Materials Actually Stop Mice?</h2>
           <p>Metal stops mice; everything else just slows them down. Mice gnaw through cured spray foam, caulk, plastic, rubber, and even soft aluminum flashing. The professional standard is a composite plug: a metal layer they cannot chew, locked in place by a sealant layer that stops air and moisture. Here is how the common materials compare: It is also why the repellent aisle disappoints people every October &mdash; <Link href="/blog/mouse-repellent-canada" className="text-brand-700 underline">peppermint sprays, ultrasonic plugs and granular deterrents</Link> are no substitute for a chew-proof seal.</p>
-          <div className="not-prose rounded-xl border border-navy-100 overflow-hidden bg-white shadow-sm my-6 overflow-x-auto">
-            <table className="w-full text-sm">
+          <div className="not-prose rounded-xl border border-navy-100 overflow-x-auto bg-white shadow-sm my-6 overflow-x-auto">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Material</th>

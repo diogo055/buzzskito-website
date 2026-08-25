@@ -100,6 +100,7 @@ export default function BestBatteryBackpackSprayerCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Chapin 24V lithium backpack sprayer" search="chapin 24v battery backpack sprayer" label="Best overall" />
 
       <section className="bg-white px-4">
@@ -180,7 +181,7 @@ export default function BestBatteryBackpackSprayerCanadaPage() {
             All four are lithium (or rechargeable) backpack sprayers that spare your arm the constant hand-pumping of a manual unit. They differ in pump quality, pressure, tank size, and &mdash; the factor buyers underrate &mdash; how easily you can get parts in Canada. Here is the honest breakdown, with a live Amazon.ca availability check per model.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Model</th>
@@ -196,28 +197,28 @@ export default function BestBatteryBackpackSprayerCanadaPage() {
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best support</strong> &mdash; 24V lithium, diaphragm pump, adjustable</td>
                   <td className="px-4 py-3 text-gray-700">Everything: weeds, fertilizer, pest control, large lots</td>
                   <td className="px-4 py-3 text-gray-700">Premium price; heavy full</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="chapin 24v battery backpack sprayer" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="chapin 24v battery backpack sprayer" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Field King<br /><span className="font-normal text-xs text-gray-500">pro-grade</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Toughest</strong> &mdash; commercial pump &amp; seals</td>
                   <td className="px-4 py-3 text-gray-700">All-day and commercial use</td>
                   <td className="px-4 py-3 text-gray-700">Priciest; overkill for light use</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="field king battery backpack sprayer" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="field king battery backpack sprayer" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Petra 4-gal<br /><span className="font-normal text-xs text-gray-500">best value</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Most runtime/$</strong> &mdash; big tank, lithium</td>
                   <td className="px-4 py-3 text-gray-700">Large yards on a homeowner budget</td>
                   <td className="px-4 py-3 text-gray-700">Fewer specialty parts than Chapin</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="petra 4 gallon battery backpack sprayer" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="petra 4 gallon battery backpack sprayer" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Budget lithium<br /><span className="font-normal text-xs text-gray-500">entry</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Basic</strong> &mdash; rechargeable, often sealed</td>
                   <td className="px-4 py-3 text-gray-700">Occasional, light jobs</td>
                   <td className="px-4 py-3 text-gray-700">Hard to service; weaker pump</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="lithium battery backpack sprayer" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="lithium battery backpack sprayer" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -241,7 +242,6 @@ export default function BestBatteryBackpackSprayerCanadaPage() {
           <p>The best battery backpack sprayer for most Canadians is a <strong>24V lithium-ion model with a diaphragm pump and adjustable pressure</strong>, and among those the <strong>Chapin 24V</strong> is the pick we keep coming back to &mdash; not because it out-muscles every rival on paper, but because it does the fundamentals well and, uniquely, you can actually get parts and a replacement battery for it in Canada. A backpack sprayer is a tool you keep for years and wear out one seal at a time, so serviceability quietly matters more than any single spec on the box. The Field King and Petra earn their places for pro-grade toughness and outright value respectively, but the Chapin is the safest first buy.</p>
           <p>The real decision is not which brand but which <em>type</em>: a battery (lithium) sprayer versus the manual pump kind you may already own, and then within the battery category, the pump, the pressure, and the tank size. Get those right and any of the three big names will serve you well. Get them wrong &mdash; a sealed budget unit with no parts, a piston pump on gritty chemicals, a 4-gallon tank you cannot comfortably carry &mdash; and even a good brand disappoints. The rest of this guide walks through each of those choices honestly.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the picks:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="chapin 24v battery backpack sprayer">Chapin 24V →</BuyLink>

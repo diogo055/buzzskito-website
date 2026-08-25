@@ -99,6 +99,7 @@ export default function BestMosquitoTrapForAcreageCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Mosquito Magnet Executive (propane CO₂ trap)" search="mosquito magnet executive propane trap" label="Best for acreage" />
 
       <section className="bg-white px-4">
@@ -179,7 +180,7 @@ export default function BestMosquitoTrapForAcreageCanadaPage() {
             On a large property the question is not just &ldquo;does it work&rdquo; but &ldquo;how much land does one unit actually cover, and what will a season cost.&rdquo; Here is the honest breakdown for acreage, with a live Amazon.ca price check per type.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Trap type</th>
@@ -195,21 +196,21 @@ export default function BestMosquitoTrapForAcreageCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">~1 acre</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best</strong> — real CO₂ draws females</td>
                   <td className="px-4 py-3 text-gray-700">$400–$600 (propane + attractant)</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="mosquito magnet executive propane trap" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="mosquito magnet executive propane trap" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">CO₂ / octenol lure<br /><span className="font-normal text-xs text-gray-500">Flowtron, Biogents</span></td>
                   <td className="px-4 py-3 text-gray-700">~½–¾ acre</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Good</strong> — host-seeking females</td>
                   <td className="px-4 py-3 text-gray-700">CO₂ cylinders or octenol refills</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="flowtron mosquito power co2 trap" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="flowtron mosquito power co2 trap" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Big UV + fan<br /><span className="font-normal text-xs text-gray-500">DynaTrap XL</span></td>
                   <td className="px-4 py-3 text-gray-700">Up to ~1 acre (rated)</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Modest</strong> — light, not CO₂</td>
                   <td className="px-4 py-3 text-gray-700">Bulbs + optional lure cartridges</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="dynatrap xl dt3050 insect trap" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="dynatrap xl dt3050 insect trap" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -228,7 +229,7 @@ export default function BestMosquitoTrapForAcreageCanadaPage() {
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">Acreage Mosquito Trap — Key Facts</h2>
-          <div className="rounded-xl border border-navy-100 overflow-hidden">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto">
             <table className="w-full text-sm">
               <tbody>
                 {[
@@ -264,7 +265,6 @@ export default function BestMosquitoTrapForAcreageCanadaPage() {
           <p>A mosquito trap that disappoints in a small suburban backyard can be genuinely effective on acreage &mdash; and understanding why is the key to buying the right one. In a tight subdivision lot, your neighbours&rsquo; yards re-seed the mosquito population every night faster than any trap can thin it; you are bailing water out of a boat that keeps filling. On a large rural or semi-rural property, the mosquitoes biting you are usually breeding on <em>your</em> land &mdash; in a pond, a ditch, a low wet corner, or the damp treeline &mdash; which means a trap that removes egg-laying females is actually shrinking a self-contained population instead of fighting an endless influx. That is the whole reason CO₂ traps earn their keep on acreage but underwhelm downtown.</p>
           <p>The trade-off is scale and logistics. Covering an acre is one thing; covering three or five means multiple units, multiple propane tanks, and a maintenance rhythm you have to actually keep. This guide is built around that reality: not just which trap is best, but how many you need, where to put them, and what a season really costs. If you want the wider device context, our <Link href="/blog/best-pest-control-equipment-canada">Canadian pest-control equipment hub</Link> maps every tool from traps to foggers to sprayers.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian prices across the acreage trap options:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="mosquito magnet executive propane trap">Propane CO₂ trap →</BuyLink>

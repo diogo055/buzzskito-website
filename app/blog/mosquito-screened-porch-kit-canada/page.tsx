@@ -84,6 +84,7 @@ export default function MosquitoScreenedPorchKitCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Outdoor porch screen curtain kit with track hardware" search="outdoor porch screen curtain kit with track hardware" label="Start here" />
 
       <section className="bg-white px-4">
@@ -210,7 +211,6 @@ export default function MosquitoScreenedPorchKitCanadaPage() {
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
-          <AffiliateDisclosure />
 
           <h2>You Already Own the Expensive Part</h2>
           <p>Most mosquito-shelter advice online is written for someone standing on an open lawn, which is why it keeps recommending screen tents and gazebos. If you have a covered porch, a deck under a second-storey overhang, or a solid-roof pergola, that advice is wrong for you: you already own the roof, the posts and the floor. What you are missing is mesh and a way to hang it.</p>

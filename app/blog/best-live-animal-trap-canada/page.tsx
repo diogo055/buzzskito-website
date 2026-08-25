@@ -100,6 +100,7 @@ export default function BestLiveAnimalTrapCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Havahart medium 1-door live cage trap" search="havahart live animal trap medium" label="For legal on-site release" />
 
       <section className="bg-white px-4">
@@ -207,7 +208,6 @@ export default function BestLiveAnimalTrapCanadaPage() {
           <p>If there is a poster child for legitimate DIY live-trapping in Ontario, it is the groundhog (woodchuck) that has tunnelled under a shed, deck, or garden. Groundhogs make the cut for a few specific reasons: they are <strong>solitary</strong> (no colony to orphan), they are <strong>not a rabies-vector species</strong> (lower handling risk than raccoons or skunks), and a legal on-site release within 1 km can genuinely resolve the immediate conflict when paired with filling the burrow.</p>
           <p>Even here, do it right. Confirm you are <strong>outside the peak denning window</strong> so you are not separating a mother from young. Check your <strong>municipal bylaws</strong> — some Ontario municipalities regulate or restrict trapping and relocation even on private property, and the provincial rule is a floor, not the whole story. Bait with what a groundhog actually wants (cantaloupe, sweet corn, lettuce, peas) placed well behind the trigger plate, keep the trap shaded, and check it every few hours. And be realistic: unless you also collapse and screen the burrow, the vacant tunnel is prime real estate and a new groundhog will likely claim it within a season. The trap buys you a window to exclude — it is not the fix by itself.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the four trap sizes (for legal, on-site release only):</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="havahart live animal trap medium">Medium 1-door (groundhogs) →</BuyLink>
@@ -221,15 +221,15 @@ export default function BestLiveAnimalTrapCanadaPage() {
 
           <h2>How to Choose a Live Trap (When You Genuinely Need One)</h2>
           <p>For the narrow set of legal, humane cases — mostly groundhogs and small rodents you can release on-site — here is what actually separates a good cage trap from a frustrating one. These are the features worth paying for and the ones that are marketing.</p>
-          <div className="not-prose rounded-xl border border-navy-100 overflow-hidden bg-white shadow-sm my-6 overflow-x-auto">
-            <table className="w-full text-sm">
+          <div className="not-prose rounded-xl border border-navy-100 overflow-x-auto bg-white shadow-sm my-6 overflow-x-auto">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Trap size</th>
                   <th className="px-4 py-3 text-left">Our pick</th>
                   <th className="px-4 py-3 text-left">Target animals</th>
                   <th className="px-4 py-3 text-left">Doors</th>
-                  <th className="px-4 py-3 text-left">Check price</th>
+                  <th className="px-4 py-3 text-left">Check price on Amazon.ca</th>
                 </tr>
               </thead>
               <tbody>
@@ -244,7 +244,7 @@ export default function BestLiveAnimalTrapCanadaPage() {
                     <td className="px-4 py-3 text-gray-800">{pick}</td>
                     <td className="px-4 py-3 text-gray-700">{target}</td>
                     <td className="px-4 py-3 text-gray-700">{doors}</td>
-                    <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search={search} block>Check price →</BuyLink></td>
+                    <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search={search} block>Check price on Amazon.ca →</BuyLink></td>
                   </tr>
                 ))}
               </tbody>
@@ -261,7 +261,7 @@ export default function BestLiveAnimalTrapCanadaPage() {
 
           <h2>Buy a Trap, or Spend the Same Money Elsewhere?</h2>
           <p>Because a cage trap and a professional call sit at very different price points, it is worth being honest about where the money is best spent — and the answer depends entirely on the animal and the situation.</p>
-          <div className="not-prose rounded-xl border border-navy-100 overflow-hidden bg-white shadow-sm my-6 overflow-x-auto">
+          <div className="not-prose rounded-xl border border-navy-100 overflow-x-auto bg-white shadow-sm my-6 overflow-x-auto">
             <table className="w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>

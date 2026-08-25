@@ -84,6 +84,7 @@ export default function HardtopVsSoftTopMosquitoGazeboCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Aluminium hardtop gazebo 10x12 with netting + curtain set" search="hardtop gazebo 10x12 aluminum with mosquito netting curtains" label="Best long-term buy" />
 
       <section className="bg-white px-4">
@@ -210,7 +211,6 @@ export default function HardtopVsSoftTopMosquitoGazeboCanadaPage() {
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
-          <AffiliateDisclosure />
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="hardtop gazebo 10x12 aluminum with mosquito netting curtains">Check hardtop gazebos on Amazon.ca &rarr;</BuyLink>
             <BuyLink tag={AMZ_TAG} search="soft top gazebo with mosquito netting 10x12">Check soft-top gazebos &rarr;</BuyLink>

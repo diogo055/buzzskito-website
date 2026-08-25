@@ -110,7 +110,7 @@ export default function WhatTicksLookLikePage() {
         <h2>Tick Species Comparison Chart</h2>
         <p>Use this at-a-glance table to tell the three ticks apart by colour, size, and — most importantly — whether they can transmit Lyme disease. For a deeper side-by-side, see our <Link href="/blog/deer-tick-vs-dog-tick-canada" className="text-brand-700 underline">deer tick vs dog tick comparison</Link>.</p>
         <div className="not-prose rounded-xl border border-brand-100 overflow-x-auto my-6">
-          <table className="w-full text-sm">
+          <table className="min-w-[560px] w-full text-sm">
             <thead>
               <tr className="bg-brand-50 text-left">
                 <th className="px-4 py-2 font-bold text-brand-900">Species</th>
@@ -159,7 +159,7 @@ export default function WhatTicksLookLikePage() {
         <h3>Tick Size by Life Stage (in mm)</h3>
         <p>Ticks grow through four stages, and each looks different. This is why a tick can look like anything from a fleck of dirt to a small grape depending on its age and whether it has fed:</p>
         <div className="not-prose rounded-xl border border-brand-100 overflow-x-auto my-6">
-          <table className="w-full text-sm">
+          <table className="min-w-[560px] w-full text-sm">
             <thead>
               <tr className="bg-brand-50 text-left">
                 <th className="px-4 py-2 font-bold text-brand-900">Life stage</th>

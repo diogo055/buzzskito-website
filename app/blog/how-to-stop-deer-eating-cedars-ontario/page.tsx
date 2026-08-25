@@ -84,6 +84,7 @@ export default function HowToStopDeerEatingCedarsOntarioPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Natural burlap roll for winter hedge protection" search="burlap roll winter plant protection natural jute" label="The barrier that works" />
 
       <section className="bg-white px-4">
@@ -170,7 +171,6 @@ export default function HowToStopDeerEatingCedarsOntarioPage() {
           <p>That is also why a hedge can look perfect for three growing seasons and be destroyed in one February. From May to October a deer walking your property line has far better options: garden growth, field edges, acorns, the neighbour&rsquo;s hostas. Your cedars are not being spared because they are unappealing &mdash; they are being spared because they rank fourth. Come November the first three are finished or buried, and the ranking changes. The worst of it lands in January and February, when the snowpack is deepest and every green thing above snow level is on the menu.</p>
           <p>The practical read: a hedge protected in late October costs you an afternoon. The same hedge in January cannot be protected at all, because you cannot drive a stake into frozen ground.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the materials:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="burlap roll winter plant protection natural jute">Burlap rolls &rarr;</BuyLink>
@@ -227,7 +227,7 @@ export default function HowToStopDeerEatingCedarsOntarioPage() {
           <p>Two related notes on cedar hedges. They are frequently blamed for mosquitoes, which is a separate misunderstanding &mdash; see <Link href="/blog/do-cedar-trees-attract-mosquitoes">do cedar trees attract mosquitoes</Link>. And if you find gnawed bark at the base of young cedars at snowmelt rather than browsed foliage at head height, that is voles, not deer: our <Link href="/blog/how-to-get-rid-of-voles-canada">vole guide for Canada</Link> covers the trunk guards that stop them.</p>
 
           <h2>Winter Cedar Protection — Key Facts</h2>
-          <div className="not-prose rounded-xl border border-navy-100 overflow-hidden my-6 overflow-x-auto">
+          <div className="not-prose rounded-xl border border-navy-100 overflow-x-auto my-6 overflow-x-auto">
             <table className="w-full text-sm">
               <tbody>
                 {[

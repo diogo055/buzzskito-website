@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
+import AmazonLink from '@/components/AmazonLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import SpecialistDisclosure from '@/components/SpecialistDisclosure'
 import TopPick from '@/components/TopPick'
@@ -100,13 +101,14 @@ export default function KatchyIndoorInsectTrapReviewCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Katchy Indoor Insect Trap" search="katchy indoor insect trap" label="Our verdict: 8.3/10" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The Katchy Indoor Insect Trap is genuinely worth buying — for fungus gnats and fruit flies. Its UV light draws small flying insects in, a quiet fan pulls them down, and a replaceable glue board holds them. Run it overnight in a dark room within a metre of infested houseplants or the fruit bowl and it fills boards. It is <em>not</em> an effective house fly or mosquito trap, and anyone selling it as one is overselling it.</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The <AmazonLink search="katchy indoor insect trap" tag={AMZ_TAG} className="font-bold underline decoration-emerald-500 underline-offset-2 hover:text-emerald-900">Katchy Indoor Insect Trap</AmazonLink> is genuinely worth buying — for fungus gnats and fruit flies. Its UV light draws small flying insects in, a quiet fan pulls them down, and a replaceable glue board holds them. Run it overnight in a dark room within a metre of infested houseplants or the fruit bowl and it fills boards. It is <em>not</em> an effective house fly or mosquito trap, and anyone selling it as one is overselling it.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
               <li>Mechanism: UV attraction + downdraft fan + sticky glue board — a purely physical trap with zero insecticide.</li>
               <li>Strong against fungus gnats, fruit flies, and drain flies; weak against house flies and mosquitoes, which do not hunt by UV light.</li>
@@ -116,6 +118,9 @@ export default function KatchyIndoorInsectTrapReviewCanadaPage() {
               <li>Our editorial score: 8.3/10 — the best-built device in the indoor fly-control aisle, bought for the right job.</li>
             </ul>
             <p className="mt-3 text-xs text-gray-500">— BuzzSkito Pest Product Guides · independent Canadian research</p>
+            <div className="mt-4">
+              <BuyLink search="katchy indoor insect trap" tag={AMZ_TAG} block className="sm:w-auto sm:min-h-0 sm:inline-flex sm:rounded-full sm:px-4 sm:py-2">Check price on Amazon.ca →</BuyLink>
+            </div>
           </div>
           <SpecialistDisclosure pest="indoor flying insects" />
         </div>
@@ -158,9 +163,8 @@ export default function KatchyIndoorInsectTrapReviewCanadaPage() {
           <h2>Katchy vs TERRO vs Indoor Zapper: Which Should You Buy?</h2>
           <p>The Katchy is the highest-ticket device in the indoor fly-control aisle, so it has to justify itself against a lure trap that costs a fraction as much and the zappers hanging beside it. Here is the honest three-way comparison for Canadian kitchens:</p>
 
-          <AffiliateDisclosure />
-          <div className="not-prose rounded-xl border border-navy-100 overflow-hidden bg-white shadow-sm my-6 overflow-x-auto">
-            <table className="w-full text-sm">
+          <div className="not-prose rounded-xl border border-navy-100 overflow-x-auto bg-white shadow-sm my-6 overflow-x-auto">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Device</th>
@@ -178,7 +182,7 @@ export default function KatchyIndoorInsectTrapReviewCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Fungus gnats, fruit flies, drain flies</td>
                   <td className="px-4 py-3 text-gray-700">House flies, mosquitoes</td>
                   <td className="px-4 py-3 text-gray-700">Glue boards every 2–4 weeks</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="katchy indoor insect trap" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="katchy indoor insect trap" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">TERRO Fruit Fly Trap</td>
@@ -186,7 +190,7 @@ export default function KatchyIndoorInsectTrapReviewCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Fruit flies specifically</td>
                   <td className="px-4 py-3 text-gray-700">Gnats, drain flies, everything else</td>
                   <td className="px-4 py-3 text-gray-700">Lure refills roughly monthly</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="terro fruit fly trap" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="terro fruit fly trap" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Indoor bug zapper</td>
@@ -194,7 +198,7 @@ export default function KatchyIndoorInsectTrapReviewCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Moths, midges, stronger UV-drawn fliers</td>
                   <td className="px-4 py-3 text-gray-700">Same UV limits — plus noise and debris ejection</td>
                   <td className="px-4 py-3 text-gray-700">None (occasional bulb)</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="indoor bug zapper" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="indoor bug zapper" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -230,7 +234,7 @@ export default function KatchyIndoorInsectTrapReviewCanadaPage() {
           <p>For fruit flies, the fix is sanitation: fruit into the fridge, compost caddy emptied and rinsed, drains cleaned, recycling bin rinsed. The step-by-step lives in our <Link href="/blog/how-to-get-rid-of-fruit-flies-canada">fruit fly elimination guide</Link>. And if what you are fighting turns out to be bigger than a small-fly problem — persistent flies from an unknown dead-animal source, or a structural issue — our <Link href="/pest-control-cost-canada">Canadian pest control cost guide</Link> covers what professional help runs so you can decide when DIY has hit its limit.</p>
 
           <h2>Katchy Review — Key Facts</h2>
-          <div className="not-prose rounded-xl border border-navy-100 overflow-hidden my-6 overflow-x-auto">
+          <div className="not-prose rounded-xl border border-navy-100 overflow-x-auto my-6 overflow-x-auto">
             <table className="w-full text-sm">
               <tbody>
                 {[

@@ -147,7 +147,7 @@ export default function AncasterDundasTickPage() {
 
         <h2>Recommended Tick Control Schedule for Ancaster and Dundas</h2>
         <div className="not-prose overflow-x-auto my-6">
-          <table className="w-full text-sm border-collapse">
+          <table className="min-w-[560px] w-full text-sm border-collapse">
             <thead>
               <tr className="bg-brand-800 text-white">
                 <th className="px-4 py-2 text-left">Treatment</th>

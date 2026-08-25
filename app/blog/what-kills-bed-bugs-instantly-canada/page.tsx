@@ -105,6 +105,7 @@ export default function WhatKillsBedBugsInstantlyCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Dry-vapour steamer — the genuinely instant tool" search="bed bug steamer dry vapour" label="Kills on contact" />
 
       <section className="bg-white px-4">
@@ -144,7 +145,7 @@ export default function WhatKillsBedBugsInstantlyCanadaPage() {
             The two columns that matter are next to each other on purpose. Almost every disappointing bed bug outcome comes from buying something excellent in the first column and assuming it delivers the second.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Method</th>
@@ -303,7 +304,7 @@ export default function WhatKillsBedBugsInstantlyCanadaPage() {
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">Instant Bed Bug Kill &mdash; Quick Reference</h2>
-          <div className="rounded-xl border border-navy-100 overflow-hidden">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto">
             <table className="w-full text-sm">
               <tbody>
                 {[
@@ -343,7 +344,6 @@ export default function WhatKillsBedBugsInstantlyCanadaPage() {
           <p>The complication is not that those methods are weak. It is that all three are <em>blind</em>. They kill exactly what they physically touch and nothing else &mdash; and at any given moment, the great majority of a bed bug population is not on a surface where you can touch it. It is compressed into mattress piping, the folded seam of a box spring, the screw holes and joints of a bed frame, the hollow back of a headboard, the gap behind a baseboard, and, in an established infestation, the wall void behind all of it. On top of that sits the egg problem: eggs are glued in place, protected by a shell that most contact insecticides do not penetrate, and they go on hatching for a couple of weeks after you treat.</p>
           <p>So an instant method applied once produces a very specific and very common outcome: a satisfying evening, a quiet week, and bites again in the third week. Not because the product failed at what it does, but because it was asked to do a job it cannot physically perform. <strong>Speed and reach are different properties, and you need both.</strong></p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the tools that do the work:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="bed bug steamer dry vapour">Dry-vapour steamer &rarr;</BuyLink>

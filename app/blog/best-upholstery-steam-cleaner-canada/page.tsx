@@ -84,6 +84,7 @@ export default function BestUpholsterySteamCleanerCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Portable heated upholstery extractor" search="portable upholstery extractor heated spot cleaner" label="Best overall" />
 
       <section className="bg-white px-4">
@@ -174,7 +175,7 @@ export default function BestUpholsterySteamCleanerCanadaPage() {
             All four get listed under &ldquo;upholstery steam cleaner&rdquo; and they do markedly different things. The column that matters is <em>does it remove anything</em>, with a live Amazon.ca availability check per class.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Class</th>
@@ -190,21 +191,21 @@ export default function BestUpholsterySteamCleanerCanadaPage() {
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Yes</strong> &mdash; into a dirty-water tank</td>
                   <td className="px-4 py-3 text-gray-700">Couches, mattress spots, car interiors, stairs</td>
                   <td className="px-4 py-3 text-gray-700">Refills; easy to over-wet if you hurry</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="portable upholstery extractor heated spot cleaner" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="portable upholstery extractor heated spot cleaner" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Full-size deep cleaner<br /><span className="font-normal text-xs text-gray-500">upright + hose tool</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Yes</strong> &mdash; strongest extraction</td>
                   <td className="px-4 py-3 text-gray-700">Wall-to-wall carpet plus upholstery</td>
                   <td className="px-4 py-3 text-gray-700">Heavy and bulky to store</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bissell big green deep cleaner upholstery tool" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bissell big green deep cleaner upholstery tool" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Dry-vapour steamer<br /><span className="font-normal text-xs text-gray-500">boiler, no suction</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">No</strong> &mdash; loosens, you blot</td>
                   <td className="px-4 py-3 text-gray-700">Seams, tufting, odour, dust mites, no-residue work</td>
                   <td className="px-4 py-3 text-gray-700">Slow technique; will not lift a stain</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="dry vapour steam cleaner upholstery tool" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="dry vapour steam cleaner upholstery tool" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Handheld garment steamer<br /><span className="font-normal text-xs text-gray-500">wet, low-temperature steam</span></td>
@@ -235,7 +236,6 @@ export default function BestUpholsterySteamCleanerCanadaPage() {
           <p>For most Canadian homes the answer is a portable heated extractor &mdash; a Bissell-class spot and upholstery machine that sprays warm solution into the fabric and immediately vacuums the dirty water back out &mdash; typically in the $200&ndash;$400 CAD range and widely stocked here. If what you want instead is heat without wetting the piece, a dry-vapour steamer with an upholstery tool is the right machine, and it is a genuinely different purchase. The first removes soil. The second does not.</p>
           <p>That distinction is the whole guide, and it is worth being blunt about because the search term hides it. People type &ldquo;upholstery steam cleaner&rdquo; and mean &ldquo;get the dirt out of my couch&rdquo;, and a large share of the machines sold under that phrase cannot do it. A vapour steamer will make a cushion cleaner-smelling, hotter, and slightly damp; the soil it lifted is still in the fabric when it cools. If there is a stain in front of you, you need suction.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the picks:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="portable upholstery extractor heated spot cleaner">Portable extractor (best overall) →</BuyLink>

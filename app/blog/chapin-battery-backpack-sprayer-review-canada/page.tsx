@@ -100,6 +100,7 @@ export default function ChapinBatteryBackpackSprayerReviewCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Chapin 63924 24V battery backpack sprayer" search="chapin 63924 battery backpack sprayer" label="Reviewed pick" />
 
       <section className="bg-white px-4">
@@ -143,7 +144,7 @@ export default function ChapinBatteryBackpackSprayerReviewCanadaPage() {
             The 63924 isn&rsquo;t the only way to solve the &ldquo;I need to spray a lot of ground&rdquo; problem. Here is the honest breakdown against the cheaper Chapin battery model and the manual pump backpacks it competes with, each with a live Amazon.ca availability check.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Sprayer</th>
@@ -159,28 +160,28 @@ export default function ChapinBatteryBackpackSprayerReviewCanadaPage() {
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best</strong> &mdash; 24V lithium, large wide-mouth tank</td>
                   <td className="px-4 py-3 text-gray-700">High-volume spraying, powder mixing, easy cleanout</td>
                   <td className="px-4 py-3 text-gray-700">Higher price; heavy when full</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="chapin 63924 battery backpack sprayer" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="chapin 63924 battery backpack sprayer" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Chapin 20V battery backpack<br /><span className="font-normal text-xs text-gray-500">narrow-mouth, budget</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Good</strong> &mdash; battery pump, lower voltage</td>
                   <td className="px-4 py-3 text-gray-700">Premixed liquids on small–medium lots</td>
                   <td className="px-4 py-3 text-gray-700">Narrow neck; shorter runtime per charge</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="chapin 20v battery backpack sprayer" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="chapin 20v battery backpack sprayer" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Manual pump backpack<br /><span className="font-normal text-xs text-gray-500">no battery</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Fair</strong> &mdash; hand pump, nothing to fail</td>
                   <td className="px-4 py-3 text-gray-700">Occasional light spraying on a small lot</td>
                   <td className="px-4 py-3 text-gray-700">Arm fatigue; uneven pressure between strokes</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="manual pump backpack sprayer" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="manual pump backpack sprayer" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Handheld / pump sprayer<br /><span className="font-normal text-xs text-gray-500">1–2 gal</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Fair</strong> &mdash; tiny tank, most portable</td>
                   <td className="px-4 py-3 text-gray-700">Spot spraying, patios, single beds</td>
                   <td className="px-4 py-3 text-gray-700">Constant refilling on any real area</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="1 gallon handheld pump sprayer" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="1 gallon handheld pump sprayer" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -204,7 +205,6 @@ export default function ChapinBatteryBackpackSprayerReviewCanadaPage() {
           <p>The Chapin 63924 sits in a specific and useful spot in the sprayer market: it is a 24V lithium, four-gallon (about fifteen-litre) battery backpack sprayer with a <strong>wide-mouth tank opening</strong>, aimed at people who have graduated past the small pump sprayer but do not want a gas-powered or towed rig. The honest verdict is that it earns its higher price for one kind of buyer and is a waste of money for another, and the whole decision comes down to how much you actually spray.</p>
           <p>If you cover a large property regularly &mdash; acreage, a hobby farm, orchard rows, long fence lines, or any lot where you find yourself refilling and pumping a smaller sprayer over and over &mdash; the 63924 changes the job. The battery pump holds a constant pressure so your spray pattern and application rate stay even from the first squeeze of the trigger to the last drop in the tank, and the large tank means fewer trips back to the mixing station. If instead you spray a small city lot two or three times a season with premixed liquid, you are buying comfort and capacity you will rarely use, and a manual pump backpack &mdash; or even a <Link href="/blog/backpack-sprayer-canada">standard backpack sprayer</Link> &mdash; does the same work for a fraction of the outlay.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the Chapin 63924 and its alternatives:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="chapin 63924 battery backpack sprayer">Chapin 63924 (24V) →</BuyLink>

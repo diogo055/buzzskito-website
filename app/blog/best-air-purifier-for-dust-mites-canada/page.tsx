@@ -100,6 +100,7 @@ export default function BestAirPurifierForDustMitesCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="True-HEPA air purifier (dust-mite allergen)" search="true hepa air purifier large room" label="Best overall" />
 
       <section className="bg-white px-4">
@@ -183,8 +184,8 @@ export default function BestAirPurifierForDustMitesCanadaPage() {
 
           <h2>True-HEPA, CADR, and Room Sizing: How Do They Compare?</h2>
           <p>Two numbers decide whether a purifier will actually help your allergy: the filter grade and the airflow. Everything else on the box is secondary. Here is how the specs that matter stack up.</p>
-          <div className="not-prose rounded-xl border border-navy-100 overflow-hidden bg-white shadow-sm my-6 overflow-x-auto">
-            <table className="w-full text-sm">
+          <div className="not-prose rounded-xl border border-navy-100 overflow-x-auto bg-white shadow-sm my-6 overflow-x-auto">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Pick</th>
@@ -206,7 +207,7 @@ export default function BestAirPurifierForDustMitesCanadaPage() {
                     <td className="px-4 py-3 text-xs text-gray-600">{best}</td>
                     <td className="px-4 py-3 text-gray-700">{filter}</td>
                     <td className="px-4 py-3 text-gray-700">{cadr}</td>
-                    <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search={search} block>Check price →</BuyLink></td>
+                    <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search={search} block>Check price on Amazon.ca →</BuyLink></td>
                   </tr>
                 ))}
               </tbody>
@@ -214,7 +215,6 @@ export default function BestAirPurifierForDustMitesCanadaPage() {
           </div>
           <p className="text-sm text-gray-600">Air purifiers are appliances, not pesticides &mdash; there is no PMRA registration involved, so they are a frictionless, fully legal first step for any Canadian allergy sufferer.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the main picks:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="coway airmega true hepa air purifier">Coway / Winix mid-size →</BuyLink>
@@ -251,8 +251,8 @@ export default function BestAirPurifierForDustMitesCanadaPage() {
 
           <h2>Budget vs Premium: The Honest Comparison</h2>
           <p>Here is the buy-vs-cheaper-alternative decision laid out plainly, because it genuinely comes down to your room, not the badge.</p>
-          <div className="not-prose rounded-xl border border-navy-100 overflow-hidden bg-white shadow-sm my-6 overflow-x-auto">
-            <table className="w-full text-sm">
+          <div className="not-prose rounded-xl border border-navy-100 overflow-x-auto bg-white shadow-sm my-6 overflow-x-auto">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Your situation</th>
@@ -272,7 +272,7 @@ export default function BestAirPurifierForDustMitesCanadaPage() {
                     <td className="px-4 py-3 font-bold text-brand-800">{situation}</td>
                     <td className="px-4 py-3 text-gray-800">{buy}</td>
                     <td className="px-4 py-3 text-xs text-gray-600">{why}</td>
-                    <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search={search} block>Check price →</BuyLink></td>
+                    <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search={search} block>Check price on Amazon.ca →</BuyLink></td>
                   </tr>
                 ))}
               </tbody>

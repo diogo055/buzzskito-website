@@ -104,6 +104,7 @@ export default function FungusGnatsHouseplantsPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Summit Mosquito Bits (BTI larvicide granules)" search="summit mosquito bits" label="The larval kill" />
 
       <section className="bg-white px-4">
@@ -176,7 +177,7 @@ export default function FungusGnatsHouseplantsPage() {
             The internet offers a dozen fungus gnat cures. Most treat one life stage and ignore the other &mdash; which is why so many people cycle through all of them and conclude nothing works. Here is what each method actually does.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Method</th>
@@ -199,21 +200,21 @@ export default function FungusGnatsHouseplantsPage() {
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Yes</strong> — biological kill of every larva that feeds on treated soil</td>
                   <td className="px-4 py-3 text-gray-700">No</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">The actual fix</strong> — repeat for 2&ndash;3 weeks to break the cycle</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="summit mosquito bits" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="summit mosquito bits" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Yellow sticky cards<br /><span className="font-normal text-xs text-gray-500">Staked at soil level</span></td>
                   <td className="px-4 py-3 text-gray-700">No</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Yes</strong> — removes egg-layers and shows you the trend</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Essential partner</strong> — knockdown + your progress scoreboard</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="yellow sticky traps fungus gnats houseplants" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="yellow sticky traps fungus gnats houseplants" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">UV trap device<br /><span className="font-normal text-xs text-gray-500">Katchy</span></td>
                   <td className="px-4 py-3 text-gray-700">No</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Yes</strong> — passive room-wide capture overnight</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Supplement</strong> — worth it for heavy infestations and big collections</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="katchy indoor insect trap" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="katchy indoor insect trap" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Hydrogen peroxide drench<br /><span className="font-normal text-xs text-gray-500">3% diluted 1:4 in water</span></td>
@@ -248,7 +249,7 @@ export default function FungusGnatsHouseplantsPage() {
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">Fungus Gnats — Key Facts</h2>
-          <div className="rounded-xl border border-navy-100 overflow-hidden">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto">
             <table className="w-full text-sm">
               <tbody>
                 {[
@@ -295,7 +296,6 @@ export default function FungusGnatsHouseplantsPage() {
           </ul>
           <p>For a light infestation &mdash; a few gnats a week &mdash; this step plus sticky cards is often the entire cure. For anything more established, add the larvicide.</p>
 
-          <AffiliateDisclosure />
 
           <h2>Step 2 — Trap the Adults: Yellow Sticky Cards</h2>
           <p>Fungus gnat adults orient strongly to the colour yellow, and the humble yellow sticky card exploits it perfectly. Stake or clip cards horizontally or at a low angle just above the soil surface &mdash; that is where adults cruise, land, and lay &mdash; with one card per affected pot and a couple of extras near the worst cluster. Catches start within hours, which is satisfying, but the card&rsquo;s real value is strategic: every female stuck to a card is up to two hundred eggs that never enter your soil, and the card itself is your <strong>scoreboard</strong>. Count roughly what a fresh card catches in its first two days at the start of treatment, then compare a fresh card two weeks in. Falling numbers mean the protocol is working; a card that stays nearly clean for a week means you are done.</p>

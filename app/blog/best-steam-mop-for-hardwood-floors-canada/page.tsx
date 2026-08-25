@@ -84,6 +84,7 @@ export default function BestSteamMopForHardwoodFloorsCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Adjustable-steam microfibre mop" search="bissell powerfresh steam mop hardwood" label="Best overall" />
 
       <section className="bg-white px-4">
@@ -174,7 +175,7 @@ export default function BestSteamMopForHardwoodFloorsCanadaPage() {
             Four different machines get sold as &ldquo;steam mops&rdquo;, and only two of them belong anywhere near a wood floor. Here is the honest split, with a live Amazon.ca availability check per class.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Class</th>
@@ -190,28 +191,28 @@ export default function BestSteamMopForHardwoodFloorsCanadaPage() {
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best</strong> &mdash; run it on low</td>
                   <td className="px-4 py-3 text-gray-700">Mixed homes: wood, tile, sealed vinyl</td>
                   <td className="px-4 py-3 text-gray-700">Check the &ldquo;low&rdquo; is genuinely low, not a marketing label</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bissell powerfresh steam mop hardwood" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bissell powerfresh steam mop hardwood" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Single-setting mop<br /><span className="font-normal text-xs text-gray-500">on or off</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Avoid</strong> &mdash; too much moisture</td>
                   <td className="px-4 py-3 text-gray-700">Tile, sealed concrete, entry floors</td>
                   <td className="px-4 py-3 text-gray-700">No way to dial it back for wood</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="steam mop hardwood floors adjustable steam" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="steam mop hardwood floors adjustable steam" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Canister steamer + floor tool<br /><span className="font-normal text-xs text-gray-500">boiler unit, many attachments</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Only with care</strong> &mdash; hot, dry vapour, fast passes</td>
                   <td className="px-4 py-3 text-gray-700">Grout, upholstery, sealed everything else</td>
                   <td className="px-4 py-3 text-gray-700">Heavy, and easy to over-treat a soft finish</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="canister steam cleaner floor tool" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="canister steam cleaner floor tool" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Flat microfibre mop<br /><span className="font-normal text-xs text-gray-500">no steam at all</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Always safe</strong> &mdash; zero heat, zero risk</td>
                   <td className="px-4 py-3 text-gray-700">Laminate, oiled and waxed floors, routine dusting</td>
                   <td className="px-4 py-3 text-gray-700">No sanitising benefit; needs a neutral cleaner</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="microfiber flat spray mop hardwood floor" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="microfiber flat spray mop hardwood floor" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -235,7 +236,6 @@ export default function BestSteamMopForHardwoodFloorsCanadaPage() {
           <p>The best steam mop for hardwood is an adjustable-output microfibre mop &mdash; a Bissell PowerFresh-class unit for most Canadian homes, or a Dupray Bliss-class machine if you want a domestic brand behind the warranty &mdash; used on its lowest setting, on a floor with an intact film finish, with the head always moving. That is the entire recommendation. Everything below is why each of those conditions is doing real work, and what happens when one of them is missing.</p>
           <p>The framing most buyers arrive with is wrong in a way that matters. People ask &ldquo;is steam bad for hardwood?&rdquo; as though steam were a chemical. It is not &mdash; it is hot water in a form that is very good at finding small gaps. On a floor with an intact polyurethane finish, that water lands on a sealed film, loosens the soil, and is lifted straight back off by the pad a second later; the wood underneath never meets it. On a worn traffic lane, a waxed or oiled surface, or open seams between boards, the same water goes <em>into</em> the wood, and swollen fibre, cupped boards and a clouded finish all follow from that one distinction. Your job when shopping is not to find the gentlest mop. It is to find out which floor you own.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the picks:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="bissell powerfresh steam mop hardwood">Adjustable mop (best overall) →</BuyLink>

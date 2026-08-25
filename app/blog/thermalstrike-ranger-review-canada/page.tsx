@@ -100,6 +100,7 @@ export default function ThermalStrikeRangerReviewCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="ThermalStrike Ranger heated bed bug suitcase" search="thermalstrike ranger heated suitcase bed bug" label="Our verdict: 8.2/10" />
 
       <section className="bg-white px-4">
@@ -144,7 +145,7 @@ export default function ThermalStrikeRangerReviewCanadaPage() {
             There is more than one way to keep bed bugs from riding your luggage into your home. Here is how the built-in-heater suitcase stacks up against a standalone chamber, a fold-out luggage heater bag, and the low-tech freezer route, with a live Amazon.ca availability check per option.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Option</th>
@@ -160,21 +161,21 @@ export default function ThermalStrikeRangerReviewCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Heater built into a hard-shell suitcase; plug in and treat the bag&rsquo;s own contents</td>
                   <td className="px-4 py-3 text-gray-700">Frequent travellers who want zero-setup prevention</td>
                   <td className="px-4 py-3 text-xs text-gray-600"><strong className="text-emerald-700">Best travel fit</strong> — treats belongings in the bag they arrived in; single-suitcase capacity</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="thermalstrike ranger heated suitcase bed bug" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="thermalstrike ranger heated suitcase bed bug" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Standalone heat chamber<br /><span className="font-normal text-xs text-gray-500">ZappBug Heater, PackTite</span></td>
                   <td className="px-4 py-3 text-gray-700">Pop-up box you unpack belongings into and heat separately</td>
                   <td className="px-4 py-3 text-gray-700">Home remediation across many belongings, not just luggage</td>
                   <td className="px-4 py-3 text-xs text-gray-600"><strong className="text-emerald-700">Best capacity</strong> — bedding, coats, books, multiple bags; needs setup and floor space</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="zappbug heater bed bug" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="zappbug heater bed bug" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Fold-out luggage heater bag<br /><span className="font-normal text-xs text-gray-500">heated liner / soft bag</span></td>
                   <td className="px-4 py-3 text-gray-700">A soft heated envelope you place your ordinary suitcase inside</td>
                   <td className="px-4 py-3 text-gray-700">Keeping a suitcase you already like and adding heat</td>
                   <td className="px-4 py-3 text-xs text-gray-600"><strong className="text-amber-700">Flexible</strong> — packs flat, but an extra step vs a self-heating bag</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bed bug luggage heater bag" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bed bug luggage heater bag" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Freezing<br /><span className="font-normal text-xs text-gray-500">home freezer</span></td>
@@ -200,7 +201,7 @@ export default function ThermalStrikeRangerReviewCanadaPage() {
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">ThermalStrike Ranger — Key Facts</h2>
-          <div className="rounded-xl border border-navy-100 overflow-hidden">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto">
             <table className="w-full text-sm">
               <tbody>
                 {[
@@ -237,7 +238,6 @@ export default function ThermalStrikeRangerReviewCanadaPage() {
           <p>The clever part is <em>where</em> the heat is applied. A traditional heat chamber &mdash; the <Link href="/blog/zappbug-heater-review-canada">ZappBug Heater</Link>, a <Link href="/blog/packtite-portable-review-canada">PackTite</Link>, or any of the pop-up boxes in our <Link href="/blog/best-bed-bug-heat-chamber-canada">heat chamber roundup</Link> &mdash; asks you to unpack your luggage into a separate container and treat it there. That works, but it introduces a gap: the moment between carrying an untreated bag into your home and getting its contents into the chamber is exactly when a stray bug can walk off onto your carpet. The Ranger closes that gap by making the suitcase and the chamber the same object. The belongings never leave the sealed shell they travelled in until after they have been cooked. Prevention stops being a task you might skip and becomes a habit built into the hardware.</p>
           <p>This review sits alongside our broader <Link href="/blog/bed-bug-heater-canada">bed bug heater guide for Canada</Link> and the <Link href="/blog/best-bed-bug-luggage-heater-canada">luggage-heater roundup</Link>; here we go deep on the single self-heating suitcase we would actually recommend to a traveller first.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="thermalstrike ranger heated suitcase bed bug">ThermalStrike Ranger on Amazon.ca →</BuyLink>

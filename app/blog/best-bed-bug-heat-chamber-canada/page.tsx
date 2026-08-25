@@ -100,7 +100,8 @@ export default function BestBedBugHeatChamberCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar tag={AMZ_TAG} name="ZappBug portable bed bug heater" search="zappbug bed bug heater" label="Best overall" />
+      <AffiliateDisclosure />
+      <StickyBuyBar tag={AMZ_TAG} name="ZappBug portable bed bug heater" asin="B00F6EV306" search="zappbug bed bug heater" label="Best overall" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -130,6 +131,7 @@ export default function BestBedBugHeatChamberCanadaPage() {
                 badge: 'Best Overall',
                 name: 'ZappBug Original (portable heat chamber)',
                 why: 'The default choice for household bed-bug work: a collapsible insulated cube with built-in heaters and a probe thermometer that holds luggage, clothing, shoes, and books past the 48°C kill line for eggs and adults alike. Big enough for most jobs, small enough to store.',
+                asin: 'B00F6EV306',
                 search: 'zappbug original bed bug heater',
                 score: 9.1,
                 featured: true,
@@ -181,7 +183,7 @@ export default function BestBedBugHeatChamberCanadaPage() {
             All four reach the lethal 48&deg;C threshold, but they differ in what they can hold and how much you trust the temperature. Here is the honest breakdown, with a live Amazon.ca availability check per type.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Chamber type</th>
@@ -197,28 +199,28 @@ export default function BestBedBugHeatChamberCanadaPage() {
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best overall</strong> &mdash; clothing, luggage, shoes, books</td>
                   <td className="px-4 py-3 text-gray-700">Suitcases, bins, stacks of clothing</td>
                   <td className="px-4 py-3 text-gray-700">Multi-hour cycles; premium price</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="zappbug original bed bug heater" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="zappbug original bed bug heater" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">ZappBug Room<br /><span className="font-normal text-xs text-gray-500">large chamber</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Furniture</strong> &mdash; chairs, big loads, family laundry</td>
                   <td className="px-4 py-3 text-gray-700">Small armchair, stacked chairs, large totes</td>
                   <td className="px-4 py-3 text-gray-700">Larger footprint; still not for mattresses</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="zappbug room bed bug heater" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="zappbug room bed bug heater" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Thermal Strike bag<br /><span className="font-normal text-xs text-gray-500">heated travel bag</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Travel</strong> &mdash; decontaminate a suitcase on the road</td>
                   <td className="px-4 py-3 text-gray-700">Luggage-sized loads only</td>
                   <td className="px-4 py-3 text-gray-700">Not for furniture or big loads</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="thermal strike ranger bed bug heater bag" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="thermal strike ranger bed bug heater bag" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">DIY chamber<br /><span className="font-normal text-xs text-gray-500">tote + heater + thermometer</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Budget one-off</strong> &mdash; only if you monitor temperature</td>
                   <td className="px-4 py-3 text-gray-700">Whatever your tote or bag holds</td>
                   <td className="px-4 py-3 text-gray-700">Fire risk; uneven heat; easy to miss cold pockets</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="portable bed bug heater unit" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="portable bed bug heater unit" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -242,7 +244,6 @@ export default function BestBedBugHeatChamberCanadaPage() {
           <p>A purpose-built portable heat chamber &mdash; the ZappBug Original for most households, the ZappBug Room when you need to fit furniture &mdash; is the best bed-bug heat chamber you can buy in Canada. The reason is narrow and important: of all the anti-bed-bug tools a consumer can own, a heat chamber is one of the very few that reliably kills the <em>eggs</em>, and it does so for every item you can carry to it, with no residue and nothing left to hatch. A steamer does the same on surfaces you can reach; a vacuum removes what you can see; a chamber quietly decontaminates the belongings &mdash; the luggage, clothing, shoes, books, and toys &mdash; that would otherwise sit bagged in a corner making you nervous for weeks.</p>
           <p>The distinction that separates a chamber that works from one that wastes an afternoon is not the wattage or the brand on the box &mdash; it is whether the <em>coldest point in the load</em> actually crosses the lethal temperature and stays there. That single idea drives everything below, from why the built-in thermometer matters more than anything else, to why you should unfold a bulky coat before you close the lid.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the picks:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="zappbug original bed bug heater">ZappBug Original →</BuyLink>

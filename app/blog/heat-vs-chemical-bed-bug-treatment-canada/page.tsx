@@ -100,6 +100,7 @@ export default function HeatVsChemicalBedBugTreatmentCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="ZappBug bed-bug heater" search="zappbug bed bug heater" label="Heat — our winner" />
 
       <section className="bg-white px-4">
@@ -129,7 +130,7 @@ export default function HeatVsChemicalBedBugTreatmentCanadaPage() {
             Both methods kill bed bugs. What separates them is <em>how completely</em> and <em>how dependably</em> they do it on the parts of the job that actually cause DIY treatments to fail &mdash; eggs, resistance, and reach. Here is the honest side-by-side, with a live Amazon.ca availability check for the representative tool in each column.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Factor</th>
@@ -177,8 +178,8 @@ export default function HeatVsChemicalBedBugTreatmentCanadaPage() {
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Availability</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="zappbug bed bug heater" block>Check price →</BuyLink></td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="doktor doom bed bug spray" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="zappbug bed bug heater" block>Check price on Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="doktor doom bed bug spray" block>Check price on Amazon.ca →</BuyLink></td>
                   <td className="px-4 py-3 text-gray-700">Buy the Canadian listing &mdash; sprays must be PMRA-registered</td>
                 </tr>
               </tbody>
@@ -203,7 +204,6 @@ export default function HeatVsChemicalBedBugTreatmentCanadaPage() {
           <p>Ask which method &ldquo;works,&rdquo; and the honest answer is that both do &mdash; but they fail in completely different ways, and one fails far less often for a home treatment. <strong>Heat</strong> is the physical method: raise the temperature of the bugs and their environment past a lethal threshold and hold it there, and everything dies, from the newest-laid egg to the toughest adult. <strong>Chemical</strong> is the biological method: deposit an insecticide the bug contacts and absorbs, and it dies &mdash; if the dose reaches it, and if that bug&rsquo;s population is not resistant, and if the target is not sealed inside an egg.</p>
           <p>Those two &ldquo;ifs&rdquo; on the chemical side &mdash; resistance and eggs &mdash; are exactly where most DIY spray-only treatments stall, and they are precisely the two problems heat does not have. That is why, when we have to name a single better primary method for a Canadian household, we name heat, and we route to a portable heat chamber like the <Link href="/blog/zappbug-heater-review-canada">ZappBug</Link> as the tool. But naming a winner is not the same as declaring the loser useless. A registered residual spray does something heat physically cannot, and the best treatments use both. The rest of this guide explains why heat leads, where chemical is genuinely better, and how to combine them.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability for the tool in each method:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="zappbug bed bug heater">ZappBug heater →</BuyLink>

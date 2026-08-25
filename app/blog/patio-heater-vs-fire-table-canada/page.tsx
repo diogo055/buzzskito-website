@@ -83,6 +83,7 @@ export default function PatioHeaterVsFireTableCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Propane Tower Patio Heater (~46,000 BTU)" search="propane patio heater 46000 btu tower" label="Most heat per dollar" />
 
       <section className="bg-white px-4">
@@ -201,7 +202,7 @@ export default function PatioHeaterVsFireTableCanadaPage() {
                     <td className="px-4 py-3 text-gray-700">{out}</td>
                     <td className="px-4 py-3 text-gray-700">{heat}</td>
                     <td className="px-4 py-3 text-xs text-gray-600">{best}</td>
-                    <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search={search} block>Check price &rarr;</BuyLink></td>
+                    <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search={search} block>Check price on Amazon.ca &rarr;</BuyLink></td>
                   </tr>
                 ))}
               </tbody>
@@ -216,7 +217,6 @@ export default function PatioHeaterVsFireTableCanadaPage() {
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Jump straight to current Canadian availability &mdash; the warmth pick and the ambience pick:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="propane patio heater 46000 btu tower">Check tower heaters on Amazon.ca &rarr;</BuyLink>

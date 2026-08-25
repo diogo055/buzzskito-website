@@ -55,6 +55,7 @@ export default function BestTickControlPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Wondercide Tick &amp; Flea Yard Spray" search="wondercide tick yard spray" label="Best DIY yard spray" />
 
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
@@ -75,7 +76,6 @@ export default function BestTickControlPage() {
           <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
         </div>
 
-        <AffiliateDisclosure />
         <AwardRow tag={AMZ_TAG}
           heading="Our Picks — Best DIY Tick Products to Layer With a Barrier Spray"
           awards={[
@@ -121,7 +121,7 @@ export default function BestTickControlPage() {
 
         <h2>Tick Control Options Compared</h2>
         <div className="not-prose overflow-x-auto my-6">
-          <table className="w-full text-sm border-collapse">
+          <table className="min-w-[560px] w-full text-sm border-collapse">
             <thead>
               <tr className="bg-brand-800 text-white">
                 <th className="px-3 py-2 text-left">Method</th>

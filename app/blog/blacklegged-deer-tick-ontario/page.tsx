@@ -106,8 +106,8 @@ export default function BlackleggedDeerTickOntarioPage() {
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">Identify the Blacklegged Tick by Life Stage</h2>
-          <div className="rounded-xl border border-gray-200 overflow-hidden">
-            <table className="w-full text-sm">
+          <div className="rounded-xl border border-gray-200 overflow-x-auto">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-50">
                 <tr>
                   <th className="px-3 py-2 text-left">Life stage</th>
@@ -144,7 +144,7 @@ export default function BlackleggedDeerTickOntarioPage() {
       <section className="py-10 px-4 bg-brand-50/40">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">Why the Deer Tick &mdash; Not the Dog Tick &mdash; Spreads Lyme</h2>
-          <div className="rounded-xl border border-gray-200 overflow-hidden bg-white">
+          <div className="rounded-xl border border-gray-200 overflow-x-auto bg-white">
             <table className="w-full text-sm">
               <thead className="bg-brand-50">
                 <tr>

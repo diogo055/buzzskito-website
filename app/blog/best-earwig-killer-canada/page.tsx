@@ -100,6 +100,7 @@ export default function BestEarwigKillerCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Safer's Diatomaceous Earth (PMRA-registered insect dust)" search="safers diatomaceous earth" label="Best product you can buy" />
 
       <section className="bg-white px-4">
@@ -139,7 +140,7 @@ export default function BestEarwigKillerCanadaPage() {
             Earwig spending goes wrong in a predictable way &mdash; people buy a knockdown for a harbourage problem. Find your row instead.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Your situation</th>
@@ -255,7 +256,7 @@ export default function BestEarwigKillerCanadaPage() {
             &ldquo;Earwig killer&rdquo; is not one product category &mdash; it is seven different mechanisms sold under one search term, and most of the disappointment comes from buying a mechanism that cannot physically reach the insect. Here is what each one is, plus the Canadian availability note that decides whether you can legally buy it at all.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Method</th>
@@ -332,7 +333,7 @@ export default function BestEarwigKillerCanadaPage() {
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">Earwig Buying Checklist &mdash; Quick Reference</h2>
-          <div className="rounded-xl border border-navy-100 overflow-hidden">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto">
             <table className="w-full text-sm">
               <tbody>
                 {[
@@ -373,7 +374,6 @@ export default function BestEarwigKillerCanadaPage() {
           <p>Ant and cockroach control is dominated by baiting because those insects share food socially &mdash; a forager takes a slow-acting toxicant back and it moves through the colony, killing insects you never see. Earwigs are not eusocial. A female earwig guards her own eggs and tends her own first-stage nymphs, but there is no colony, no food-sharing network, and nothing for a bait to travel through. Every single earwig has to individually contact the thing that kills it.</p>
           <p>That one fact reorganises the entire shelf. Every earwig product is a one-insect-at-a-time mechanism, which means the only two questions worth asking about anything in your cart are <em>how many earwigs will physically touch this</em> and <em>how long does it stay lethal</em>. A dry film of diatomaceous earth across a threshold scores well on both. A contact aerosol scores well on the first, for the seconds it stays wet. And an oil tin sunk into the bed &mdash; which pulls earwigs in by odour, at night, in the exact place they live &mdash; quietly outscores nearly everything you can buy, which is why the honest version of this page has to start by talking you out of a purchase.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the short list that is genuinely worth buying:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="safers diatomaceous earth">Safer&rsquo;s DE &rarr;</BuyLink>

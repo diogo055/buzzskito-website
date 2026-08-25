@@ -109,7 +109,7 @@ export default function CanTicksFlyJumpSwimPage() {
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">Can Ticks Fly, Jump, Swim, Drop, or Drown? Myth vs Fact</h2>
-          <div className="rounded-xl border border-gray-200 overflow-hidden">
+          <div className="rounded-xl border border-gray-200 overflow-x-auto">
             <table className="w-full text-sm">
               <thead className="bg-brand-50">
                 <tr>

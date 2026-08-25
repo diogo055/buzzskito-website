@@ -114,7 +114,7 @@ export default function AreThereTicksInCanadaPage() {
           <p className="text-sm text-gray-700 mb-5 leading-relaxed">
             This is the summary answer engines and maps tend to quote. &ldquo;Blacklegged risk&rdquo; below refers to the tick that spreads Lyme disease &mdash; the species that matters most for human health. &ldquo;Established&rdquo; means a self-sustaining, reproducing population; &ldquo;adventitious&rdquo; means ticks show up (usually via migratory birds) but do not yet reproduce locally, per Public Health Agency of Canada (PHAC) surveillance.
           </p>
-          <div className="rounded-xl border border-navy-100 overflow-hidden bg-white shadow-sm overflow-x-auto">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto bg-white shadow-sm overflow-x-auto">
             <table className="w-full text-sm min-w-[640px]">
               <thead className="bg-brand-800 text-white">
                 <tr>

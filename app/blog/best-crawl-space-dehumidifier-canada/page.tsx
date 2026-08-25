@@ -84,7 +84,8 @@ export default function BestCrawlSpaceDehumidifierCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar tag={AMZ_TAG} name="Low-profile crawl space dehumidifier with pump" search="alorair crawl space dehumidifier with pump" label="Best overall" />
+      <AffiliateDisclosure />
+      <StickyBuyBar tag={AMZ_TAG} name="Low-profile crawl space dehumidifier (HD55-class)" asin="B097JH2HDH" search="alorair crawl space dehumidifier with pump" label="Best overall" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -114,6 +115,7 @@ export default function BestCrawlSpaceDehumidifierCanadaPage() {
                 badge: 'Best Overall',
                 name: 'AlorAir Sentinel HD55-Class Crawl Space Dehumidifier',
                 why: 'The reference machine for this job: a low-profile chassis that slides under floor joists, no bucket at all so it can never stall on a full tank, a low-temperature operating range with proper defrost, and auto-restart after a power cut. Add the optional condensate pump and remote control and it becomes a genuinely install-and-forget appliance.',
+                asin: 'B097JH2HDH',
                 search: 'alorair crawl space dehumidifier with pump',
                 score: 9.3,
                 featured: true,
@@ -165,7 +167,7 @@ export default function BestCrawlSpaceDehumidifierCanadaPage() {
             Four genuinely different answers, and the cheapest one is right more often than the industry admits. Here is what each is actually for, with a live Amazon.ca availability check per route.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Route</th>
@@ -181,28 +183,28 @@ export default function BestCrawlSpaceDehumidifierCanadaPage() {
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Always first</strong> &mdash; any bare-earth crawl space</td>
                   <td className="px-4 py-3 text-gray-700">None needed &mdash; nothing to drain</td>
                   <td className="px-4 py-3 text-gray-700">Seams and wall terminations must be sealed properly</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="crawl space vapor barrier 10 mil poly seam tape" block>Check price &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="crawl space vapor barrier 10 mil poly seam tape" block>Check price on Amazon.ca &rarr;</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Purpose-built low-profile<br /><span className="font-normal text-xs text-gray-500">AlorAir HD55 class</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best all-round</strong> &mdash; still damp after the barrier</td>
                   <td className="px-4 py-3 text-gray-700">Built-in pump lifts up and out; no bucket</td>
                   <td className="px-4 py-3 text-gray-700">Measure joist clearance before ordering</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="alorair crawl space dehumidifier with pump" block>Check price &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="alorair crawl space dehumidifier with pump" block>Check price on Amazon.ca &rarr;</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">High-capacity ducted<br /><span className="font-normal text-xs text-gray-500">90 PPD class</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best</strong> &mdash; long, L-shaped, or partly vented</td>
                   <td className="px-4 py-3 text-gray-700">Pump, plus duct collars for air distribution</td>
                   <td className="px-4 py-3 text-gray-700">Needs a flex-duct run planned in advance</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="ducted crawl space dehumidifier 90 pint commercial" block>Check price &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="ducted crawl space dehumidifier 90 pint commercial" block>Check price on Amazon.ca &rarr;</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Portable + external pump<br /><span className="font-normal text-xs text-gray-500">budget route</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Fair</strong> &mdash; small, warm, encapsulated space</td>
                   <td className="px-4 py-3 text-gray-700">Gravity hose, or a separate condensate pump</td>
                   <td className="px-4 py-3 text-gray-700">No auto-restart; frosts up when it gets cold</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="condensate pump for dehumidifier continuous drain" block>Check price &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="condensate pump for dehumidifier continuous drain" block>Check price on Amazon.ca &rarr;</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -226,7 +228,6 @@ export default function BestCrawlSpaceDehumidifierCanadaPage() {
           <p>The best crawl space dehumidifier for a Canadian home is a low-profile, purpose-built commercial unit with a built-in condensate pump and a published low-temperature operating range &mdash; the AlorAir Sentinel HD55 class is the machine most people mean when they use the term. It differs from the portable you would buy for a basement in four specific ways, and every one of them exists because a crawl space is a place nobody visits: it is short enough to sit under the floor joists, it has no bucket at all so it cannot stall when a tank fills, it pushes its condensate uphill because there is rarely a drain below it, and it comes back on by itself after the power blinks.</p>
           <p>That machine costs roughly three to five times what a good portable costs. Before you spend it, the honest first question is whether your crawl space still has a bare dirt floor &mdash; because if it does, no dehumidifier of any size is the right purchase yet.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="alorair crawl space dehumidifier with pump">Low-profile crawl space unit &rarr;</BuyLink>

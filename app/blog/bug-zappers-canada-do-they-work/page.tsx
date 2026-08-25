@@ -3,6 +3,7 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema, itemListSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
+import AmazonLink from '@/components/AmazonLink'
 import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
@@ -103,6 +104,7 @@ export default function BugZappersCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Flowtron BK-40D Electronic Insect Killer" search="flowtron bk-40d bug zapper" label="If you must buy one" />
 
       <section className="bg-white px-4">
@@ -115,10 +117,13 @@ export default function BugZappersCanadaPage() {
               <li>The other 96&ndash;99% of what zappers kill are non-biting moths, beetles, midges, and beneficial insects.</li>
               <li>Female mosquitoes (the ones that bite) hunt using CO&#8322;, heat, and skin scent, not UV light.</li>
               <li>Handheld electric racket zappers ($15&ndash;$30) are the only zapper format worth buying, for swatting individual mosquitoes.</li>
-              <li>The Flowtron BK-40D covers up to 1 acre for moths, gnats, and beetles &mdash; not mosquitoes.</li>
+              <li>The <AmazonLink search="flowtron bk-40d bug zapper" tag={AMZ_TAG} className="font-bold underline decoration-emerald-500 underline-offset-2 hover:text-emerald-900">Flowtron BK-40D</AmazonLink> covers up to 1 acre for moths, gnats, and beetles &mdash; not mosquitoes.</li>
               <li>For real mosquito control, use professional barrier spray, BTI dunks, or a Thermacell for patio use.</li>
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+            <div className="mt-4">
+              <BuyLink search="flowtron bk-40d bug zapper" tag={AMZ_TAG} block className="sm:w-auto sm:min-h-0 sm:inline-flex sm:rounded-full sm:px-4 sm:py-2">Check price on Amazon.ca →</BuyLink>
+            </div>
           </div>
         </div>
       </section>
@@ -130,8 +135,8 @@ export default function BugZappersCanadaPage() {
           <p className="text-sm text-gray-700 mb-5 leading-relaxed">
             Bug zappers are widely stocked at Canadian retailers, but read the section below before buying — the research is clear that they don&rsquo;t reduce mosquito populations meaningfully.
           </p>
-          <div className="rounded-xl border border-navy-100 overflow-hidden bg-white shadow-sm">
-            <table className="w-full text-sm">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto bg-white shadow-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Retailer</th>
@@ -243,7 +248,7 @@ export default function BugZappersCanadaPage() {
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">The Research on Bug Zappers</h2>
-          <div className="rounded-xl border border-navy-100 overflow-hidden">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto">
             <table className="w-full text-sm">
               <tbody>
                 {[
@@ -274,7 +279,6 @@ export default function BugZappersCanadaPage() {
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Short version: electric zappers don&rsquo;t reduce mosquito bites. If you want a plug-in device that actually targets mosquitoes, a CO₂/UV trap like DynaTrap is the honest pick:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="dynatrap mosquito trap">See a real mosquito trap on Amazon.ca →</BuyLink>
@@ -291,7 +295,7 @@ export default function BugZappersCanadaPage() {
           <h2>Best Bug Zappers in Canada 2026 (For the Flies &amp; Moths They DO Kill)</h2>
           <p>Let&rsquo;s be honest about what a bug zapper is actually good for: nuisance flying insects &mdash; moths, gnats, midges, June beetles, the odd wasp &mdash; that swarm a patio light on a summer evening. If that&rsquo;s your goal (a deck that <em>feels</em> less buggy, not fewer mosquito bites), these are the units Canadians buy most in 2026, ranked by the job each one does best. Prices are typical Canadian Tire ranges.</p>
           <div className="not-prose overflow-x-auto my-4">
-            <table className="w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden">
+            <table className="min-w-[560px] w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden">
               <thead className="bg-brand-50">
                 <tr>
                   <th className="px-3 py-2 text-left">#</th>
@@ -337,7 +341,7 @@ export default function BugZappersCanadaPage() {
           <h2>Where to Buy Bug Zappers in Canada (Costco vs Canadian Tire vs Amazon)</h2>
           <p>All the big Canadian retailers stock zappers from spring through late summer, but they&rsquo;re good at different things. Here is the honest comparison &mdash; who has the best pricing, who actually has stock in July, and where to go for a specific model:</p>
           <div className="not-prose overflow-x-auto my-4">
-            <table className="w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden">
+            <table className="min-w-[560px] w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden">
               <thead className="bg-brand-50">
                 <tr>
                   <th className="px-3 py-2 text-left">Retailer</th>
@@ -381,7 +385,7 @@ export default function BugZappersCanadaPage() {
           </ol>
 
           <h2>Bug Zappers vs Real Solutions — Cost-Effectiveness</h2>
-          <table className="not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
+          <table className="min-w-[560px] not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
             <thead className="bg-brand-50">
               <tr><th className="px-3 py-2 text-left">Solution</th><th className="px-3 py-2 text-left">First-year cost</th><th className="px-3 py-2 text-left">Mosquito reduction</th><th className="px-3 py-2 text-left">Pollinator impact</th></tr>
             </thead>

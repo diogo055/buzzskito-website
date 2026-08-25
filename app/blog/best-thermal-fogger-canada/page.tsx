@@ -99,6 +99,7 @@ export default function BestThermalFoggerCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Longray pulse-jet thermal fogger" search="longray thermal fogger" label="Best pro-grade fogger" />
 
       <section className="bg-white px-4">
@@ -115,6 +116,9 @@ export default function BestThermalFoggerCanadaPage() {
               <li>Professional barrier spray covers the whole yard for 21&ndash;30 days from $99 and controls ticks too.</li>
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+            <div className="mt-4">
+              <BuyLink search="longray thermal fogger" tag={AMZ_TAG} block className="sm:w-auto sm:min-h-0 sm:inline-flex sm:rounded-full sm:px-4 sm:py-2">Check price on Amazon.ca →</BuyLink>
+            </div>
           </div>
         </div>
       </section>
@@ -179,7 +183,7 @@ export default function BestThermalFoggerCanadaPage() {
             &ldquo;Thermal fogger&rdquo; covers three machines that all use heat to make a fog but differ sharply in fog quality, running cost, and how big a property they can handle. Here is the honest breakdown, with a live Amazon.ca price check per type.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Fogger type</th>
@@ -195,21 +199,21 @@ export default function BestThermalFoggerCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Pulse-jet engine flash-heats fuel + fluid into a dense, ultra-fine fog</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Large</strong> — acreage, tree lines</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$500 – $1,200</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="longray thermal fogger" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="longray thermal fogger" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Propane-cartridge<br /><span className="font-normal text-xs text-gray-500">Black Flag, Burgess</span></td>
                   <td className="px-4 py-3 text-gray-700">Disposable propane cartridge heats the barrel; fluid vaporizes on contact</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Suburban lot</strong> — occasional use</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$70 – $130</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="black flag propane fogger" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="black flag propane fogger" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Electric<br /><span className="font-normal text-xs text-gray-500">corded heating coil</span></td>
                   <td className="px-4 py-3 text-gray-700">Corded electric coil heats the barrel — no propane, steady output</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Near an outlet</strong> — cord-limited</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$120 – $250</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="electric thermal fogger" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="electric thermal fogger" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -228,7 +232,7 @@ export default function BestThermalFoggerCanadaPage() {
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">Thermal Fogger Buying — Key Facts</h2>
-          <div className="rounded-xl border border-navy-100 overflow-hidden">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto">
             <table className="w-full text-sm">
               <tbody>
                 {[
@@ -264,7 +268,6 @@ export default function BestThermalFoggerCanadaPage() {
           <p>A professional pulse-jet thermal fogger is the best machine you can buy for mosquito knockdown on a large Canadian property &mdash; not because it is the cheapest or the simplest, but because it does the one thing thermal fogging is uniquely good at, better than anything else: it turns fluid into an enormous cloud of sub-20-micron droplets that hangs in the air and drifts deep into the shrubs, hedgerows, and tree lines where mosquitoes rest during the day. The Longray family is the reference point here, and it is why our <Link href="/blog/longray-thermal-fogger-review-canada">full Longray review</Link> treats it as the benchmark. But &ldquo;best&rdquo; depends entirely on your property and how often you fog, which is why the propane and electric options above exist &mdash; and why, for most suburban lots, a fogger is not actually the right tool at all.</p>
           <p>Before we get into machines, understand the distinction that governs everything: in Canada the <strong>fogger is a device and the fluid is a pesticide</strong>. The hardware is unregulated; the chemistry you run through it is tightly regulated. Get that backwards and you can spend a fortune on a legal machine and then break the law with an illegal fluid. Everything below is organized around that reality.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Compare current Canadian prices across the main fogger types:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="longray thermal fogger">Pulse-jet fogger on Amazon.ca →</BuyLink>
@@ -311,7 +314,7 @@ export default function BestThermalFoggerCanadaPage() {
 
           <h2>Fogging vs Professional Barrier Spray for GTA Yards</h2>
           <p>Thermal fogging and barrier spray are not really competitors &mdash; they solve different problems. A fogger gives you a fast, dramatic, same-evening knockdown of the adult mosquitoes present right now, which is perfect an hour before an event on a big property. But the residual is short: the fine fog settles as a light film that breaks down in sun and dew within hours to a couple of days. Barrier spray instead deposits a measured residual on leaf surfaces that keeps killing mosquitoes that land for 21&ndash;30 days, covers the whole yard in one visit, and &mdash; crucially &mdash; also targets ticks in their low, shaded harbourage, which drifting fog barely reaches. Here is how the options stack up for a typical GTA property:</p>
-          <table className="not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
+          <table className="min-w-[560px] not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
             <thead className="bg-brand-50">
               <tr><th className="px-3 py-2 text-left">Solution</th><th className="px-3 py-2 text-left">First-year cost</th><th className="px-3 py-2 text-left">Mosquito control</th><th className="px-3 py-2 text-left">Tick coverage</th></tr>
             </thead>

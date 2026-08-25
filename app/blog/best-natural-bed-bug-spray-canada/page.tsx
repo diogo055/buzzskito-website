@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
+import AmazonLink from '@/components/AmazonLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import SpecialistDisclosure from '@/components/SpecialistDisclosure'
 import AwardRow from '@/components/AwardRow'
@@ -100,13 +101,14 @@ export default function BestNaturalBedBugSprayCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="EcoRaider plant-based bed bug killer" search="ecoraider bed bug killer spray" label="Best overall" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The best natural bed bug spray in Canada is a <strong>plant-based contact killer like EcoRaider</strong>, worked directly into mattress seams, frame joints, and cracks. Botanical actives (geraniol, cedar) kill adults, nymphs, and directly-sprayed eggs with low odour and low toxicity &mdash; a good fit for bedrooms with kids or pets. <strong>Proof</strong> adds a longer-lasting botanical-plus-mineral residual; <strong>Doktor Doom</strong> is the pick when you want a Canadian brand with a clear PMRA registration number. The catch that applies to every spray: contact killers only kill what they wet, so no spray alone clears an infestation &mdash; pair it with heat, encasements, and interceptor traps.</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The best natural bed bug spray in Canada is a <strong>plant-based contact killer like <AmazonLink search="ecoraider bed bug killer spray" tag={AMZ_TAG} className="font-bold underline decoration-emerald-500 underline-offset-2 hover:text-emerald-900">EcoRaider</AmazonLink></strong>, worked directly into mattress seams, frame joints, and cracks. Botanical actives (geraniol, cedar) kill adults, nymphs, and directly-sprayed eggs with low odour and low toxicity &mdash; a good fit for bedrooms with kids or pets. <strong>Proof</strong> adds a longer-lasting botanical-plus-mineral residual; <strong>Doktor Doom</strong> is the pick when you want a Canadian brand with a clear PMRA registration number. The catch that applies to every spray: contact killers only kill what they wet, so no spray alone clears an infestation &mdash; pair it with heat, encasements, and interceptor traps.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
               <li>Natural sprays are <strong>contact killers</strong> &mdash; they kill what the spray physically touches and leave little lasting residual.</li>
               <li>Plant-based (geraniol, cedar, pyrethrins) means lower toxicity than synthetic pyrethroids &mdash; but &ldquo;non-toxic&rdquo; still means read the label.</li>
@@ -116,6 +118,9 @@ export default function BestNaturalBedBugSprayCanadaPage() {
               <li>A spray is one layer of a plan: spray, heat, encase, and monitor with interceptor traps.</li>
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito Pest Product Guides &middot; independent Canadian research</p>
+            <div className="mt-4">
+              <BuyLink search="ecoraider bed bug killer spray" tag={AMZ_TAG} block className="sm:w-auto sm:min-h-0 sm:inline-flex sm:rounded-full sm:px-4 sm:py-2">Check price on Amazon.ca →</BuyLink>
+            </div>
           </div>
           <SpecialistDisclosure pest="bed bugs" />
         </div>
@@ -181,7 +186,7 @@ export default function BestNaturalBedBugSprayCanadaPage() {
             All four are lower-toxicity, plant-based options, but they trade off knockdown speed, residual length, and Canadian registration differently. Here is the honest breakdown, with a live Amazon.ca availability check per pick.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Spray</th>
@@ -197,28 +202,28 @@ export default function BestNaturalBedBugSprayCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Essential-oil botanical</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best overall</strong> &mdash; fast, low-odour contact kill</td>
                   <td className="px-4 py-3 text-gray-700">Little residual once dry; check CA listing</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="ecoraider bed bug killer spray" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="ecoraider bed bug killer spray" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Proof<br /><span className="font-normal text-xs text-gray-500">botanical + mineral</span></td>
                   <td className="px-4 py-3 text-gray-700">Botanical + mineral residual</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Residual</strong> &mdash; keeps working in cracks longer</td>
                   <td className="px-4 py-3 text-gray-700">Still not a standalone cure</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="proof bed bug dust mite spray" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="proof bed bug dust mite spray" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Doktor Doom<br /><span className="font-normal text-xs text-gray-500">pyrethrins</span></td>
                   <td className="px-4 py-3 text-gray-700">Plant-derived pyrethrins</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">PMRA-registered</strong> &mdash; Canadian brand, PCP number</td>
                   <td className="px-4 py-3 text-gray-700">Harsher; caution around cats &amp; fish</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="doktor doom bed bug spray" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="doktor doom bed bug spray" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Budget botanical<br /><span className="font-normal text-xs text-gray-500">clove / lemongrass</span></td>
                   <td className="px-4 py-3 text-gray-700">Essential-oil blend</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Light work</strong> &mdash; spot-treating, supplement</td>
                   <td className="px-4 py-3 text-gray-700">Weakest knockdown; verify registration</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="natural essential oil bed bug spray" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="natural essential oil bed bug spray" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -242,7 +247,6 @@ export default function BestNaturalBedBugSprayCanadaPage() {
           <p>The best natural bed bug spray for most Canadian homes is a plant-based contact killer &mdash; EcoRaider is our overall pick &mdash; applied directly into the seams, joints, and cracks where bed bugs actually hide. &ldquo;Natural&rdquo; here means the active ingredients are plant-derived (essential oils such as geraniol and cedar, or plant-extracted pyrethrins) rather than synthetic pyrethroids, which is exactly what people want when they are spraying a mattress they sleep on or a child&rsquo;s room. All four picks above are lower-toxicity botanical options; they differ mainly in how fast they knock bugs down, how long they keep working, and whether they carry a clear Canadian registration.</p>
           <p>But the most important thing to understand before you buy anything is not which brand wins &mdash; it is what a spray can and cannot do. A contact spray kills the bugs and eggs it physically touches and very little else. That single fact shapes every honest recommendation on this page, and it is the reason a spray is one layer of a plan rather than the plan itself.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the picks:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="ecoraider bed bug killer spray">EcoRaider →</BuyLink>

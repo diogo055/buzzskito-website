@@ -135,7 +135,7 @@ export default function FleaBitesOnHumansPage() {
         <h2>Flea bites vs bed bug and mosquito bites: how do you tell?</h2>
         <p>The quickest separation is <strong>where the bites are, when they itch, and what pattern they form</strong>. Fleas hit the lower legs any time of day; bed bugs hit skin exposed during sleep; mosquitoes hit any exposed skin, mostly around dawn and dusk. Here is the full side-by-side:</p>
         <div className="overflow-x-auto not-prose my-6">
-          <table className="w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden">
+          <table className="min-w-[560px] w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden">
             <thead className="bg-brand-50">
               <tr>
                 <th className="px-3 py-2 text-left">Feature</th>

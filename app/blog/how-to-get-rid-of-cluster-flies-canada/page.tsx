@@ -100,6 +100,7 @@ export default function ClusterFliesCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Clear window fly traps (for cluster flies at the glass)" search="window fly trap clear sticky" label="Most practical tool" />
 
       <section className="bg-white px-4">
@@ -144,7 +145,7 @@ export default function ClusterFliesCanadaPage() {
             The biggest mistake Canadian homeowners make is reaching for a can of fly spray, which treats the handful of flies you can see and ignores the thousands you can&rsquo;t. Here is the honest breakdown of what each tool is for &mdash; and which one actually reduces next year&rsquo;s numbers.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Tool</th>
@@ -160,21 +161,21 @@ export default function ClusterFliesCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Catches flies as they gather at the brightest window</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">No</strong> &mdash; manages living-space flies</td>
                   <td className="px-4 py-3 text-gray-700">The money tool for flies that reach rooms</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="window fly trap clear sticky" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="window fly trap clear sticky" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">UV light-glue trap<br /><span className="font-normal text-xs text-gray-500">Plug-in indoor catcher</span></td>
                   <td className="px-4 py-3 text-gray-700">Draws flies to a UV light and a hidden glue card</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">No</strong> &mdash; manages living-space flies</td>
                   <td className="px-4 py-3 text-gray-700">A room where you&rsquo;d rather not see sticky strips</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="katchy indoor insect trap" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="katchy indoor insect trap" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Caulk &amp; exclusion<br /><span className="font-normal text-xs text-gray-500">Sealant + vent screening</span></td>
                   <td className="px-4 py-3 text-gray-700">Closes the gaps flies use to get into the walls</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Yes</strong> &mdash; the only step that does</td>
                   <td className="px-4 py-3 text-gray-700">Late-summer prevention, before they arrive</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="exterior gap silicone caulk" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="exterior gap silicone caulk" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Vacuum<br /><span className="font-normal text-xs text-gray-500">Wand or shop vac</span></td>
@@ -207,7 +208,7 @@ export default function ClusterFliesCanadaPage() {
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">Cluster Flies — Key Facts</h2>
-          <div className="rounded-xl border border-navy-100 overflow-hidden">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto">
             <table className="w-full text-sm">
               <tbody>
                 {[
@@ -243,7 +244,6 @@ export default function ClusterFliesCanadaPage() {
           <p>If you own an older farmhouse, a rural home, or a lake cottage in Canada, you know the scene: a warm afternoon in October, or a bright thaw in February, and suddenly there are dozens &mdash; sometimes hundreds &mdash; of big, sluggish grey flies bumping against the sunny windows. They are slow, they cluster, and they seem to come from nowhere. These are cluster flies, and almost everything the average pest-spray label implies about them is wrong.</p>
           <p>The single most important thing to understand is that cluster flies are <strong>not filth flies</strong>. A house fly breeds in garbage and manure; a fruit fly breeds in overripe produce and drain scum. Cluster flies do neither. Their story starts in your lawn and fields, not your kitchen &mdash; and once you understand their lifecycle, the entire control strategy falls into place and you stop wasting money on the tools that don&rsquo;t work. They also arrive on the same autumn schedule, and rarely alone: the same warm south wall pulls in <Link href="/blog/how-to-get-rid-of-stink-bugs-canada" className="text-brand-700 underline">brown marmorated stink bugs and Asian lady beetles</Link>, which need the identical sealing work rather than a different spray.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the practical tools:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="window fly trap clear sticky">Clear window fly traps →</BuyLink>

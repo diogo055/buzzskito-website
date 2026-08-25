@@ -100,6 +100,7 @@ export default function ZappBugRoomReviewCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="ZappBug Room whole-room heater" search="zappbug room bed bug heater" label="Reviewed here" />
 
       <section className="bg-white px-4">
@@ -143,7 +144,7 @@ export default function ZappBugRoomReviewCanadaPage() {
             The Room is one of several ways to put lethal heat on bed bugs. Here is the honest comparison against the tools it competes with, with a live Amazon.ca availability check per option.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Option</th>
@@ -159,35 +160,35 @@ export default function ZappBugRoomReviewCanadaPage() {
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Largest</strong> &mdash; a bedroom of goods per cycle</td>
                   <td className="px-4 py-3 text-gray-700">High-volume, repeated batch treatment</td>
                   <td className="px-4 py-3 text-gray-700">Premium price; bulky; slow dense loads</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="zappbug room bed bug heater" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="zappbug room bed bug heater" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">ZappBug Oven 2<br /><span className="font-normal text-xs text-gray-500">mid enclosure</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Medium</strong> &mdash; several totes&rsquo; worth</td>
                   <td className="px-4 py-3 text-gray-700">Households treating moderate loads</td>
                   <td className="px-4 py-3 text-gray-700">Many cycles for a whole room</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="zappbug oven 2 bed bug heater" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="zappbug oven 2 bed bug heater" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">PackTite Closet<br /><span className="font-normal text-xs text-gray-500">closet enclosure</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Large</strong> &mdash; hanging + piled goods</td>
                   <td className="px-4 py-3 text-gray-700">Wardrobes and hangable clothing</td>
                   <td className="px-4 py-3 text-gray-700">Premium; different form factor</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="packtite closet bed bug heater" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="packtite closet bed bug heater" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">ThermalStrike Ranger<br /><span className="font-normal text-xs text-gray-500">heated bag</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Small</strong> &mdash; luggage-sized</td>
                   <td className="px-4 py-3 text-gray-700">Travellers, single bags, spot loads</td>
                   <td className="px-4 py-3 text-gray-700">One bag at a time</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="thermalstrike ranger heated bag" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="thermalstrike ranger heated bag" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Bed-bug steamer<br /><span className="font-normal text-xs text-gray-500">for fixed items</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">n/a</strong> &mdash; treats in place</td>
                   <td className="px-4 py-3 text-gray-700">Mattress, frame, baseboards, seams</td>
                   <td className="px-4 py-3 text-gray-700">Slow; not for bulk soft goods</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bed bug steamer dry vapour" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bed bug steamer dry vapour" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -211,7 +212,6 @@ export default function ZappBugRoomReviewCanadaPage() {
           <p>The ZappBug Room is the largest enclosure in the ZappBug family, and understanding it starts with understanding what it is <em>not</em>. It is not the compact ZappBug Heater or the mid-sized ZappBug Oven 2 &mdash; the suitcase-and-tote units most people picture when they hear the brand. The Room is a big, collapsible fabric box, closer to the footprint of a small closet, that you assemble on the floor, load with belongings, seal, and heat until everything inside is held at a temperature lethal to bed bugs and their eggs. Where the smaller units treat one bag at a time, the Room is built to treat a mountain: a whole bedroom&rsquo;s worth of clothing, bedding, cushions, shoes, books, boxes, and small furniture in a single cycle.</p>
           <p>That capacity is the entire reason the Room exists, and it is the main thing you are paying the premium for. If you have ever tried to clear an active infestation by running load after load through a small heater &mdash; a genuinely miserable, days-long grind &mdash; the appeal of doing it in one or two big cycles is obvious. But the same size that makes the Room powerful also makes it slower to heat through, bulkier to store, and pointless for anyone who only needs to zap a single suitcase. This review is about matching the tool to the job honestly.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the Room and its closest alternatives:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="zappbug room bed bug heater">ZappBug Room →</BuyLink>

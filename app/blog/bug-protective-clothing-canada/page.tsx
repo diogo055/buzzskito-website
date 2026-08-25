@@ -85,6 +85,7 @@ export default function BugProtectiveClothingCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Sea to Summit Mosquito Head Net" search="sea to summit mosquito head net" label="Best head net" />
 
       <section className="bg-white px-4">
@@ -170,7 +171,7 @@ export default function BugProtectiveClothingCanadaPage() {
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">Bug Protective Clothing Compared — Canada 2026</h2>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Product</th>
@@ -205,7 +206,6 @@ export default function BugProtectiveClothingCanadaPage() {
 
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Jump straight to current Canadian availability for the two kit essentials:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="coghlans bug jacket">Check the Coghlan&rsquo;s Bug Jacket on Amazon.ca &rarr;</BuyLink>

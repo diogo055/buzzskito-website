@@ -183,7 +183,7 @@ export default function DoBedBugSpraysActuallyWorkPage() {
 
           <h2>Bed bug control methods compared</h2>
           <div className="not-prose my-6 overflow-x-auto rounded-xl border border-navy-100">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Method</th>

@@ -104,6 +104,7 @@ export default function BestCockroachSprayCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Combat roach bait stations (buy bait before any spray)" search="combat roach killing bait stations" label="Best overall" />
 
       <section className="bg-white px-4">
@@ -146,7 +147,7 @@ export default function BestCockroachSprayCanadaPage() {
             A cockroach spray is the right purchase in a narrow set of situations and the wrong one in most. Find your row before you order.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Your situation</th>
@@ -240,7 +241,7 @@ export default function BestCockroachSprayCanadaPage() {
             &ldquo;Cockroach spray&rdquo; is one shelf in an aisle of very different tools, and the shelf people reach for first is the one that helps least. Here is the whole aisle, with a pointer to where you can check each one on Amazon.ca &mdash; and the categories we send you away from entirely, with no buy button at all.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Product type</th>
@@ -254,25 +255,25 @@ export default function BestCockroachSprayCanadaPage() {
                   <td className="px-4 py-3 font-bold text-brand-800">Gel bait<br /><span className="font-normal text-xs text-gray-500">Syringe, pea-sized dots</span></td>
                   <td className="px-4 py-3 text-gray-700">Foragers eat and return to harbourage; delayed-kill active spreads through the colony</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Buy bait first</strong> &mdash; it reaches insects no aerosol will. Buy a named Canadian-labelled brand, not whatever a generic gel search returns</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="combat roach killing gel" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="combat roach killing gel" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Enclosed bait stations<br /><span className="font-normal text-xs text-gray-500">Child- and pet-resistant discs</span></td>
                   <td className="px-4 py-3 text-gray-700">Same delayed-kill principle in a sealed housing you can place under sinks and behind appliances</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Excellent</strong> &mdash; deploy many more than you think, not two</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="combat roach killing bait stations" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="combat roach killing bait stations" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Crack-and-crevice aerosol<br /><span className="font-normal text-xs text-gray-500">Straw applicator can</span></td>
                   <td className="px-4 py-3 text-gray-700">Injects a residual into gaps and voids; also kills on contact</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Good in its lane</strong> &mdash; terrible as a broadcast spray</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="raid ant and roach killer" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="raid ant and roach killer" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Registered insecticidal dust<br /><span className="font-normal text-xs text-gray-500">Boric acid or diatomaceous earth + bulb duster</span></td>
                   <td className="px-4 py-3 text-gray-700">Thin film in dry voids; ingested during grooming, kills over several days</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Great value</strong> &mdash; long-lasting where it stays dry. Buy a registered brand; food- and craft-grade powders carry no PCP number</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="safers diatomaceous earth" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="safers diatomaceous earth" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Glue monitors<br /><span className="font-normal text-xs text-gray-500">Flat sticky boards</span></td>
@@ -315,7 +316,7 @@ export default function BestCockroachSprayCanadaPage() {
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">Cockroach Spray Buying — Key Facts</h2>
-          <div className="rounded-xl border border-navy-100 overflow-hidden">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto">
             <table className="w-full text-sm">
               <tbody>
                 {[
@@ -352,7 +353,6 @@ export default function BestCockroachSprayCanadaPage() {
           <p>If you want the answer that will actually solve your problem rather than the answer that sells the most cans: <strong>the best cockroach spray in Canada is the one you barely use.</strong> For the German cockroach &mdash; the species commonly found breeding indoors in Canadian kitchens and bathrooms &mdash; a spray is the wrong instrument, and the right one is bait. That is not a hedge or a marketing pivot. It is the reason professional exterminators walk into a roach job carrying a bait gun and a duster instead of a pressurized tank.</p>
           <p>But &ldquo;don&rsquo;t spray&rdquo; is also incomplete advice, because a spray genuinely does three things nothing else does. It can put a residual film into a crack you cannot bait. It can put an intercepting band around the outside of a house where American and Oriental cockroaches live &mdash; subject to your provincial rules, covered below. And it can kill the roach standing on your counter right now, which matters more to most people than any entomologist admits. So the useful version of the answer is: <strong>buy bait first, then buy one Canadian-labelled aerosol with a straw applicator and use it only in those three roles.</strong></p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">We link named brands rather than category searches, so that what you land on is something you can actually check for a PCP number:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="combat roach killing bait stations">Combat roach bait stations →</BuyLink>

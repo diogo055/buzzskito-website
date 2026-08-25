@@ -100,6 +100,7 @@ export default function MccullochMc1275SteamerReviewCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="McCulloch MC1275 steam cleaner" search="mcculloch mc1275 steam cleaner" label="Reviewed here" />
 
       <section className="bg-white px-4">
@@ -143,7 +144,7 @@ export default function MccullochMc1275SteamerReviewCanadaPage() {
             &ldquo;Steamer&rdquo; covers wildly different machines. For pest control you want the low-moisture, boiler-driven class the MC1275 belongs to &mdash; not a wet garment steamer or a flash-heat pod handheld. Here is where it lands against the premium Canadian brand and the cheaper alternatives, with a live Amazon.ca availability check per option.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Steamer</th>
@@ -159,28 +160,28 @@ export default function MccullochMc1275SteamerReviewCanadaPage() {
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best</strong> &mdash; high heat, low moisture</td>
                   <td className="px-4 py-3 text-gray-700">Long &mdash; whole bed per fill</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">US-market</strong> &mdash; verify seller &amp; warranty</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="mcculloch mc1275 steam cleaner" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="mcculloch mc1275 steam cleaner" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Dupray Neat<br /><span className="font-normal text-xs text-gray-500">premium boiler</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best</strong> &mdash; high heat, low moisture</td>
                   <td className="px-4 py-3 text-gray-700">Long &mdash; whole bed per fill</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Canadian brand</strong> &mdash; local stock &amp; warranty</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="dupray neat steam cleaner" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="dupray neat steam cleaner" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Flash-heat handheld<br /><span className="font-normal text-xs text-gray-500">pod / budget</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Fair</strong> &mdash; heat fades, wetter</td>
                   <td className="px-4 py-3 text-gray-700">Short &mdash; minutes, then refill</td>
                   <td className="px-4 py-3 text-gray-700">Widely stocked domestically</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="handheld steam cleaner bed bugs" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="handheld steam cleaner bed bugs" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Garment / floor steam mop<br /><span className="font-normal text-xs text-gray-500">wet steam</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-rose-700">Wrong tool</strong> &mdash; wet, lower heat</td>
                   <td className="px-4 py-3 text-gray-700">Varies</td>
                   <td className="px-4 py-3 text-gray-700">Widely stocked domestically</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="garment steamer" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="garment steamer" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -204,7 +205,6 @@ export default function MccullochMc1275SteamerReviewCanadaPage() {
           <p>The McCulloch MC1275 is worth it for the buyer who wants the most steamer for the least money and is willing to do a small amount of homework on where it is shipping from. It is the machine that keeps getting named in DIY bed-bug threads because it hits the two specs that matter for pest work &mdash; a hot, low-moisture boiler and a long continuous run &mdash; at a price that undercuts the premium brands. For a Canadian household on a budget fighting a caught-early infestation, that combination is hard to argue with. The one honest asterisk is that it is a US-market unit, so the frictionless local-warranty experience you get from a domestic brand is not guaranteed; you trade a little support certainty for real savings.</p>
           <p>What follows is our independent take: why the steamer category matters for pest work at all, the two specs that actually separate a good steamer from a useless one, the US-ship caveat in plain language, the technique that decides whether steaming works, the real downsides, and how to decide whether the MC1275 is the right pick for you or whether the premium is worth paying.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability and seller:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="mcculloch mc1275 steam cleaner">McCulloch MC1275 →</BuyLink>

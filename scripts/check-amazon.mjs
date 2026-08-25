@@ -77,6 +77,11 @@ for (const f of files) {
     const matches = line.match(URL_RE)
     if (!matches) return
     for (const m of matches) {
+      // A bare-origin resource hint (<link rel="preconnect"/"dns-prefetch"
+      // href="https://www.amazon.ca">) is not a clickable link and carries no
+      // tag by design. Exempt the EXACT origin only — any URL with a path or
+      // query is still held to the tag rule.
+      if (m === 'https://www.amazon.ca' || m === '//www.amazon.ca') continue
       if (ASSET_RE.test(m)) violations.push([f, i + 1, m, 'hotlinked Amazon asset — never allowed'])
       else if (!TAG) violations.push([f, i + 1, m, 'Amazon URL present but PUBLIC_AMAZON_TAG is unset (output must be zero)'])
       else if (!VALID_TAGS.some((t) => m.includes(`tag=${t}`))) violations.push([f, i + 1, m, `Amazon URL missing a valid tag (default ${TAG} or a cluster tag)`])

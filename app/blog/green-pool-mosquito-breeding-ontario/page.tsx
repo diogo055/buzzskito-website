@@ -85,6 +85,7 @@ export default function GreenPoolMosquitoBreedingOntarioPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Mesh Winter Safety Pool Cover" search="mesh winter safety pool cover inground" label="Best overall" />
 
       <section className="bg-white px-4">
@@ -224,7 +225,6 @@ export default function GreenPoolMosquitoBreedingOntarioPage() {
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
-          <AffiliateDisclosure />
 
           <h2>Why a Green Pool Out-Breeds Everything Else in the Yard</h2>
           <p>Everyone has heard that a mosquito can breed in a teaspoon of water, and it is true. What that framing hides is the part that matters operationally: mosquitoes lay on the <em>surface</em> of still water, so breeding capacity scales with surface area, not volume. A bird bath offers roughly a square foot. A 16 x 32 ft inground pool offers about 512. That is the whole explanation for why one neglected pool can make a street miserable while a dozen conscientious neighbours empty their saucers.</p>

@@ -93,6 +93,7 @@ export default function BestSumpPumpForBasementCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="1/3 HP Cast Iron Submersible Sump Pump" search="1/3 hp cast iron submersible sump pump" label="Best overall" />
 
       <section className="bg-white px-4">
@@ -231,7 +232,6 @@ export default function BestSumpPumpForBasementCanadaPage() {
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
-          <AffiliateDisclosure />
 
           <h2>Why a Pest Control Company Cares About Your Sump Pump</h2>
           <p>We spray mosquitoes and ticks; we do not treat basements. But we walk a lot of properties, and the pattern is consistent enough to write down: the homes with silverfish, house centipedes, sowbugs and a persistent musty smell are overwhelmingly the homes with a wet slab. Not a flooded basement &mdash; a <em>damp</em> one. Concrete that never quite dries, a cold wall that sweats, a pit that is always a little full.</p>

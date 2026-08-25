@@ -100,6 +100,7 @@ export default function VapamoreMR100SteamerReviewCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Vapamore MR-100 Primo dry-steam cleaner" search="vapamore mr-100 primo steam cleaner" label="The dry-steam workhorse" />
 
       <section className="bg-white px-4">
@@ -152,7 +153,7 @@ export default function VapamoreMR100SteamerReviewCanadaPage() {
             Bed-bug shoppers almost always weigh the MR-100 against the Dupray Neat, the McCulloch MC1275, and a cheap handheld. Here is the honest breakdown of what each is really for, with a live Amazon.ca availability check per row.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Steamer</th>
@@ -168,28 +169,28 @@ export default function VapamoreMR100SteamerReviewCanadaPage() {
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Strong</strong> &mdash; stainless boiler, dry plume, full kit</td>
                   <td className="px-4 py-3 text-gray-700">Seams, tufts, baseboards; all-round DIY bed-bug work</td>
                   <td className="px-4 py-3 text-gray-700">No mid-run refill; corded</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="vapamore mr-100 primo steam cleaner" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="vapamore mr-100 primo steam cleaner" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Dupray Neat<br /><span className="font-normal text-xs text-gray-500">premium sealed body</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Strong</strong> &mdash; all-metal, long boiler life</td>
                   <td className="px-4 py-3 text-gray-700">Buyers who want the most sealed, durable build</td>
                   <td className="px-4 py-3 text-gray-700">Smaller stock kit than the MR-100</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="dupray neat steam cleaner" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="dupray neat steam cleaner" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">McCulloch MC1275<br /><span className="font-normal text-xs text-gray-500">value canister</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Fair</strong> &mdash; big accessory set, wetter steam</td>
                   <td className="px-4 py-3 text-gray-700">Budget all-rounder; general cleaning first</td>
                   <td className="px-4 py-3 text-gray-700">Steam is wetter — watch for spitting</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="mcculloch mc1275 steam cleaner" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="mcculloch mc1275 steam cleaner" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Cheap handheld steamer<br /><span className="font-normal text-xs text-gray-500">avoid for infestations</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-red-700">Weak</strong> &mdash; low pressure, spits water</td>
                   <td className="px-4 py-3 text-gray-700">A single suspected bug or a quick once-over</td>
                   <td className="px-4 py-3 text-gray-700">Scatters bugs instead of killing them</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="handheld steam cleaner bed bugs" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="handheld steam cleaner bed bugs" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -213,7 +214,6 @@ export default function VapamoreMR100SteamerReviewCanadaPage() {
           <p>The Vapamore MR-100 Primo is a corded, canister-style <strong>dry-vapour steam cleaner</strong> built around a stainless-steel boiler, and it has spent years as a quiet favourite of hands-on operators fighting bed bugs. It is not a specialised &ldquo;bed-bug machine&rdquo; &mdash; it is a general dry-steam cleaner &mdash; but the qualities that make a good dry-steam cleaner are exactly the qualities that kill bed bugs: a boiler that holds real pressure, a plume that is genuinely low-moisture, and a set of narrow nozzles that can drive heat into a mattress seam. Buy it if you have an active or suspected bed-bug problem and you are committed to doing the hands-on work of steaming every harbourage yourself. Skip it if you want a set-and-forget solution &mdash; no steamer is that.</p>
           <p>What follows is an honest, technique-first review: how hot it actually gets where it matters, why the &ldquo;dry&rdquo; in dry steam is the whole point, how long it runs, which accessories do the killing, and how it stacks up against the Dupray Neat that shoppers always cross-reference. If you want the broader landscape first, our <Link href="/blog/best-bed-bug-steamer-canada">best bed-bug steamer roundup</Link> compares the whole category; this page is the deep dive on the MR-100 specifically.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the MR-100 and the steamers people cross-shop:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="vapamore mr-100 primo steam cleaner">Vapamore MR-100 Primo →</BuyLink>

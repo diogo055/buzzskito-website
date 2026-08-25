@@ -112,6 +112,7 @@ export default function HowToGetRidOfCentipedesCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Energy Star basement dehumidifier (50-pint class)" search="50 pint dehumidifier basement energy star" label="The actual fix" />
 
       <section className="bg-white px-4">
@@ -197,7 +198,7 @@ export default function HowToGetRidOfCentipedesCanadaPage() {
             The centipede aisle sells a lot of things. Almost none of them touch the reason centipedes are in your house. Here is the honest hierarchy for Canadian homes.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Method</th>
@@ -211,7 +212,7 @@ export default function HowToGetRidOfCentipedesCanadaPage() {
                   <td className="px-4 py-3 font-bold text-brand-800">Dehumidification<br /><span className="font-normal text-xs text-gray-500">45&ndash;50% RH target</span></td>
                   <td className="px-4 py-3 text-gray-700">Removes the damp harbourage centipedes and their prey both require</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">The fix</strong> &mdash; the only one that removes the cause</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="50 pint dehumidifier basement energy star" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="50 pint dehumidifier basement energy star" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Prey elimination<br /><span className="font-normal text-xs text-gray-500">Silverfish, roaches, ants, flies</span></td>
@@ -223,19 +224,19 @@ export default function HowToGetRidOfCentipedesCanadaPage() {
                   <td className="px-4 py-3 font-bold text-brand-800">Exclusion &amp; sealing<br /><span className="font-normal text-xs text-gray-500">Gaps, weep holes, drains, sump lid</span></td>
                   <td className="px-4 py-3 text-gray-700">Physically stops the ground-level walk-in and the autumn migration</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">High value</strong> &mdash; permanent, no chemicals</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="door sweep silicone caulk gap sealant" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="door sweep silicone caulk gap sealant" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Glue boards<br /><span className="font-normal text-xs text-gray-500">Flat monitors along walls</span></td>
                   <td className="px-4 py-3 text-gray-700">Catches centipedes and, more usefully, reveals the prey population</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Start here</strong> &mdash; measurement, not control</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="insect glue board traps multi pack" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="insect glue board traps multi pack" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Diatomaceous earth<br /><span className="font-normal text-xs text-gray-500">Thin dust in dry cracks</span></td>
                   <td className="px-4 py-3 text-gray-700">Abrades the cuticle of anything that walks through it &mdash; while it stays dry</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Useful supplement</strong> &mdash; inert once damp, so sequence it after the dehumidifier; buy a registered insecticidal DE with a PCP number, not food-grade</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="safers diatomaceous earth" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="safers diatomaceous earth" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Residual perimeter spray<br /><span className="font-normal text-xs text-gray-500">Consumer barrier products</span></td>
@@ -269,7 +270,7 @@ export default function HowToGetRidOfCentipedesCanadaPage() {
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">House Centipedes in Canada — Key Facts</h2>
-          <div className="rounded-xl border border-navy-100 overflow-hidden">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto">
             <table className="w-full text-sm">
               <tbody>
                 {[
@@ -308,7 +309,6 @@ export default function HowToGetRidOfCentipedesCanadaPage() {
           <p>That is the reframe this whole page is built on, and it is worth sitting with before you spend money. If you are seeing house centipedes regularly &mdash; not one in April, but several a month &mdash; you do not have a centipede problem. You have a moisture problem and an insect problem, and the centipedes are the only visible evidence of either. Killing them removes your early-warning system and your unpaid predator while leaving the silverfish, roach nymphs, ants, spiders, or fly larvae underneath to keep breeding. Before long the damp void produces more centipedes, and you conclude that nothing works.</p>
           <p>So here is the plan, in one paragraph. Confirm what you are looking at. Lay glue boards for a week and read the whole catch, because the non-centipedes on those boards are your actual diagnosis. Put a dehumidifier in the basement, set it to 45&ndash;50% relative humidity, and verify with a separate hygrometer. Deal with whatever prey the boards revealed. Then spend an afternoon on exclusion &mdash; foundation cracks, door sweeps, brick weep holes, the dried-out floor-drain trap, the open sump pit, the mulch piled against the wall. Everything below is that plan in detail, plus an honest account of what the shortcut products do and do not do.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the kit:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="50 pint dehumidifier basement energy star">Basement dehumidifier →</BuyLink>

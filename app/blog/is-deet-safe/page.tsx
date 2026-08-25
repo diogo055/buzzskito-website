@@ -113,7 +113,7 @@ export default function IsDeetSafePage() {
           <p className="text-sm text-gray-700 mb-4 leading-relaxed">
             Health Canada regulates DEET as a personal insect repellent and sets age-based concentration and frequency limits. These are the current Canadian guidelines for over-the-counter DEET products.
           </p>
-          <div className="rounded-xl border border-navy-100 overflow-hidden bg-white shadow-sm">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto bg-white shadow-sm">
             <table className="w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>

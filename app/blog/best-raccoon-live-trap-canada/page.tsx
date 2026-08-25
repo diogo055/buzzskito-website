@@ -96,7 +96,8 @@ export default function BestRaccoonLiveTrapCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar tag={AMZ_TAG} name="Havahart X-Large one-door live trap" search="havahart xl one door live trap raccoon" label="Best overall" />
+      <AffiliateDisclosure />
+      <StickyBuyBar tag={AMZ_TAG} name="Havahart X-Large one-door live trap" asin="B00004RAMT" search="havahart xl one door live trap raccoon" label="Best overall" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -126,6 +127,7 @@ export default function BestRaccoonLiveTrapCanadaPage() {
                 badge: 'Best Overall',
                 name: 'Havahart X-Large One-Door Live Trap',
                 why: 'The reference raccoon trap: a ~32-inch galvanized body long enough that a full-grown adult steps all the way onto the trip plate before the door drops, with heavy mesh a raccoon cannot bend or reach through. A single spring-loaded door and a smooth interior make it reliable and humane.',
+                asin: 'B00004RAMT',
                 search: 'havahart xl one door live trap raccoon',
                 score: 9.1,
                 featured: true,
@@ -186,7 +188,7 @@ export default function BestRaccoonLiveTrapCanadaPage() {
             Every trap below is a large, humane, catch-and-release cage &mdash; the differences are in how a raccoon behaves toward each design, how the build holds up, and what you pay. Here is the honest breakdown, with a live Amazon.ca availability check per type.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Trap type</th>
@@ -202,35 +204,35 @@ export default function BestRaccoonLiveTrapCanadaPage() {
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best</strong> &mdash; most reliable catch for a wary adult</td>
                   <td className="px-4 py-3 text-gray-700">A single raccoon done right the first time</td>
                   <td className="px-4 py-3 text-gray-700">Premium price; bulky</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="havahart xl one door live trap raccoon" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="havahart xl one door live trap raccoon" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Large heavy-duty<br /><span className="font-normal text-xs text-gray-500">Duke cage trap</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best value</strong> &mdash; adult sizing for less</td>
                   <td className="px-4 py-3 text-gray-700">A sturdy catch on a budget</td>
                   <td className="px-4 py-3 text-gray-700">Confirm the large size, not the mid</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="duke heavy duty large cage trap raccoon" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="duke heavy duty large cage trap raccoon" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Large two-door<br /><span className="font-normal text-xs text-gray-500">Havahart Easy-Set</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Good</strong> &mdash; easier entry for a trap-shy animal</td>
                   <td className="px-4 py-3 text-gray-700">A raccoon that keeps dodging a single-door</td>
                   <td className="px-4 py-3 text-gray-700">Two mechanisms; can spring early</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="havahart two door large live trap raccoon" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="havahart two door large live trap raccoon" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Rigid professional<br /><span className="font-normal text-xs text-gray-500">welded steel</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Good</strong> &mdash; toughest for repeat use</td>
                   <td className="px-4 py-3 text-gray-700">Many captures over many seasons</td>
                   <td className="px-4 py-3 text-gray-700">Heaviest; priced for pros</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="tomahawk rigid professional live trap raccoon" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="tomahawk rigid professional live trap raccoon" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Collapsible budget<br /><span className="font-normal text-xs text-gray-500">folding cage</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Fair</strong> &mdash; stores flat, lighter gauge</td>
                   <td className="px-4 py-3 text-gray-700">A strictly one-time problem</td>
                   <td className="px-4 py-3 text-gray-700">Hinges weaken; thinner wire</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="large collapsible steel live cage trap raccoon" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="large collapsible steel live cage trap raccoon" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -254,7 +256,6 @@ export default function BestRaccoonLiveTrapCanadaPage() {
           <p>The best raccoon live trap for a Canadian homeowner is a <strong>large single-door galvanized-steel cage trap in the 32-inch class</strong> &mdash; the kind sold as &ldquo;extra-large&rdquo; or &ldquo;raccoon-sized,&rdquo; not the mid-size &ldquo;raccoon and cat&rdquo; box that fills most search results. The Havahart X-Large one-door is the reference pick because it gets the one thing right that everything else depends on: it is long enough that a full-grown raccoon has to step completely onto the trip plate to reach the bait, so the door drops behind the animal rather than on its back. The Duke heavy-duty large cage trap earns the value spot with a very similar footprint for less money, and the two-door, professional, and budget options above cover the situations where the top pick is not the right fit.</p>
           <p>Notice that four of the five picks are variations on the same idea: a big, strong, humane cage. That is deliberate. Unlike a lot of pest-control gear, a raccoon trap does not come in wildly different technologies &mdash; it comes in different <em>sizes and build qualities</em>, and getting those two right is nearly the whole game. The rest of this guide explains how to judge them, and, just as importantly, the legal rules that decide whether you should be trapping at all.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the main picks:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="havahart xl one door live trap raccoon">XL single-door →</BuyLink>

@@ -84,6 +84,7 @@ export default function DesiccantVsCompressorDehumidifierCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Desiccant dehumidifier for cold rooms" search="ivation desiccant dehumidifier" label="Cold-room winner" />
 
       <section className="bg-white px-4">
@@ -174,7 +175,7 @@ export default function DesiccantVsCompressorDehumidifierCanadaPage() {
             Both classes remove water from air. They differ in <em>how</em>, and that difference decides everything about where each one belongs in a Canadian house.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Factor</th>
@@ -222,8 +223,8 @@ export default function DesiccantVsCompressorDehumidifierCanadaPage() {
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Availability</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="ivation desiccant dehumidifier" block>Check price →</BuyLink></td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="dehumidifier auto defrost energy star continuous drain" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="ivation desiccant dehumidifier" block>Check price on Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="dehumidifier auto defrost energy star continuous drain" block>Check price on Amazon.ca →</BuyLink></td>
                   <td className="px-4 py-3 text-gray-700">Buy the Canadian 120V listing for the right plug and warranty</td>
                 </tr>
               </tbody>
@@ -248,7 +249,6 @@ export default function DesiccantVsCompressorDehumidifierCanadaPage() {
           <p>The choice is decided by the temperature of the room, not by its size, its dampness, or the price of the machine. If the space stays above roughly 15&deg;C year-round, buy a compressor unit. If it drops below that for a meaningful part of the year, buy a desiccant. Everything else &mdash; capacity, brand, tank size, smart features &mdash; is a second-order decision you make after that one.</p>
           <p>This is the rare buying question where Canada genuinely changes the answer. In a climate where the shoulder seasons are long and half the storage space in the country is unheated, the room you most want to dry is very often the room a compressor cannot dry. That is why so many Canadians conclude their dehumidifier is defective in November when it worked perfectly in August. It is not defective. It is the wrong class of machine for a cold room.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="ivation desiccant dehumidifier">Desiccant (cold rooms) →</BuyLink>

@@ -120,7 +120,7 @@ export default function TickPreventionYardKidsPage() {
           <p>Ontario has two main tick seasons, corresponding to two active life stages of the blacklegged tick:</p>
 
           <div className="not-prose overflow-x-auto mb-6">
-            <table className="w-full text-sm border-collapse rounded-xl overflow-hidden">
+            <table className="min-w-[560px] w-full text-sm border-collapse rounded-xl overflow-hidden">
               <thead>
                 <tr className="bg-amber-700 text-white">
                   <th className="text-left px-4 py-3 font-bold">Life Stage</th>

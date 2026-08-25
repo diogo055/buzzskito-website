@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
+import AmazonLink from '@/components/AmazonLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import SpecialistDisclosure from '@/components/SpecialistDisclosure'
 import AwardRow from '@/components/AwardRow'
@@ -99,13 +100,14 @@ export default function BestRatTrapCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Victor Metal Pedal Rat Snap Trap" search="victor rat trap" label="Best overall" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The best rat trap for most Canadian homes is the classic Victor Metal Pedal rat snap trap — powerful enough for a 200–500 g Norway rat, reusable for years, and cheap enough to deploy the 4–6 traps a real infestation needs. If you don&rsquo;t want to see or handle a dead rat, the Victor Electronic Rat Trap kills inside an enclosed chamber with an 8,000-volt shock.</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The best rat trap for most Canadian homes is the classic <AmazonLink search="victor rat trap" tag={AMZ_TAG} className="font-bold underline decoration-emerald-500 underline-offset-2 hover:text-emerald-900">Victor Metal Pedal rat snap trap</AmazonLink> — powerful enough for a 200–500 g Norway rat, reusable for years, and cheap enough to deploy the 4–6 traps a real infestation needs. If you don&rsquo;t want to see or handle a dead rat, the Victor Electronic Rat Trap kills inside an enclosed chamber with an 8,000-volt shock.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
               <li>Adult Norway rats weigh 200–500 g — 10–20x a house mouse — so mouse traps wound rats instead of killing them and create trap-shy survivors.</li>
               <li>Rats avoid new objects for 3–7 days (neophobia); pre-bait traps UNSET for 3–5 nights before arming them.</li>
@@ -115,6 +117,9 @@ export default function BestRatTrapCanadaPage() {
               <li>Deploy 4–6 traps at once, 3–5 m apart, perpendicular to walls with the trigger end at the baseboard.</li>
             </ul>
             <p className="mt-3 text-xs text-gray-500">— BuzzSkito Pest Product Guides · independent Canadian research</p>
+            <div className="mt-4">
+              <BuyLink search="victor rat trap" tag={AMZ_TAG} block className="sm:w-auto sm:min-h-0 sm:inline-flex sm:rounded-full sm:px-4 sm:py-2">Check price on Amazon.ca →</BuyLink>
+            </div>
           </div>
           <SpecialistDisclosure pest="rats" />
         </div>
@@ -166,7 +171,6 @@ export default function BestRatTrapCanadaPage() {
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Compare the three traps this guide recommends on Amazon.ca:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="victor rat trap">Victor rat snap trap →</BuyLink>
@@ -192,7 +196,7 @@ export default function BestRatTrapCanadaPage() {
           <p>There is a fourth category worth knowing about if your rat problem never really ends: a CO₂-powered trap that strikes, drops the carcass clear, and re-arms itself, so it keeps working unattended instead of being &ldquo;done&rdquo; the moment it fires once. It costs many times what any of these three do, which is why it only earns its place against chronic pressure &mdash; we work through that maths in our <Link href="/blog/goodnature-a24-review-canada">Goodnature A24 review for Canada</Link>.</p>
 
           <h2>Rat Trap Comparison Table</h2>
-          <table className="not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
+          <table className="min-w-[560px] not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
             <thead className="bg-brand-50">
               <tr><th className="px-3 py-2 text-left">Option</th><th className="px-3 py-2 text-left">Type</th><th className="px-3 py-2 text-left">Kill method</th><th className="px-3 py-2 text-left">Reusable</th><th className="px-3 py-2 text-left">Best for</th></tr>
             </thead>

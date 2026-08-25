@@ -99,6 +99,7 @@ export default function BestGazeboWithMosquitoNetCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Soft-top screened gazebo (10×12, no-see-um mesh)" search="screened gazebo mosquito netting 10x12" label="Best overall" />
 
       <section className="bg-white px-4">
@@ -179,7 +180,7 @@ export default function BestGazeboWithMosquitoNetCanadaPage() {
             &ldquo;Gazebo with mosquito netting&rdquo; covers three very different structures. The right one depends on whether you take it down each fall, how much wind your yard gets, and how big an area you want to seal. Here is the honest breakdown, with a live Amazon.ca price check per type.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Gazebo type</th>
@@ -195,21 +196,21 @@ export default function BestGazeboWithMosquitoNetCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Polyester canopy on a steel or aluminum frame; zip-on mesh walls</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Take down for winter</strong>; open canopy in wind</td>
                   <td className="px-4 py-3 text-gray-700">Most decks &mdash; best all-round value</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="screened gazebo mosquito netting 10x12" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="screened gazebo mosquito netting 10x12" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Hard-top screened<br /><span className="font-normal text-xs text-gray-500">rigid roof</span></td>
                   <td className="px-4 py-3 text-gray-700">Aluminum or polycarbonate roof; heavy aluminum/steel frame; add-on screens</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Stays up year-round</strong>; best wind resistance</td>
                   <td className="px-4 py-3 text-gray-700">Permanent four-season outdoor room</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="hard top aluminum gazebo with mosquito netting" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="hard top aluminum gazebo with mosquito netting" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Pop-up screen house<br /><span className="font-normal text-xs text-gray-500">instant canopy</span></td>
                   <td className="px-4 py-3 text-gray-700">Lightweight fold-out frame with integrated mesh; packs into a bag</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Store between uses</strong>; least wind-stable</td>
                   <td className="px-4 py-3 text-gray-700">Occasional / budget / semi-portable</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="pop up gazebo with mosquito net 10x10" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="pop up gazebo with mosquito net 10x10" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -228,7 +229,7 @@ export default function BestGazeboWithMosquitoNetCanadaPage() {
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">Screened Gazebo Buying — Key Facts</h2>
-          <div className="rounded-xl border border-navy-100 overflow-hidden">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto">
             <table className="w-full text-sm">
               <tbody>
                 {[
@@ -261,7 +262,6 @@ export default function BestGazeboWithMosquitoNetCanadaPage() {
         <div className="max-w-3xl mx-auto prose-brand">
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Compare current Canadian prices across the three gazebo types:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="screened gazebo mosquito netting 10x12">Soft-top screened gazebo →</BuyLink>
@@ -320,7 +320,7 @@ export default function BestGazeboWithMosquitoNetCanadaPage() {
 
           <h2>Gazebo vs Cheaper Alternatives — the Honest Comparison</h2>
           <p>Before you spend on a full screened gazebo, it is worth knowing when something cheaper does the job &mdash; and when it doesn&rsquo;t. Here is how the realistic options stack up for a Canadian deck.</p>
-          <table className="not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
+          <table className="min-w-[560px] not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
             <thead className="bg-brand-50">
               <tr><th className="px-3 py-2 text-left">Option</th><th className="px-3 py-2 text-left">Relative cost</th><th className="px-3 py-2 text-left">Bug protection</th><th className="px-3 py-2 text-left">Best when</th></tr>
             </thead>

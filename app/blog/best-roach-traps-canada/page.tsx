@@ -104,6 +104,7 @@ export default function BestRoachTrapsCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Combat Roach Killing Bait Stations (check the PCP number)" search="combat roach killing bait stations" label="Best overall" />
 
       <section className="bg-white px-4">
@@ -145,7 +146,7 @@ export default function BestRoachTrapsCanadaPage() {
             The two products sold as &ldquo;roach traps&rdquo; do opposite jobs, so the right cart depends entirely on what you already know.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Your situation</th>
@@ -253,7 +254,7 @@ export default function BestRoachTrapsCanadaPage() {
             The word &ldquo;trap&rdquo; is doing an enormous amount of work in this aisle. Two of these five are genuinely useful, one is useful in a narrow way, and two should not be in your cart at all. Here is the honest breakdown for Canadian homes, with a live Amazon.ca availability check where a purchase makes sense.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Type</th>
@@ -269,21 +270,21 @@ export default function BestRoachTrapsCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Roach feeds on slow-acting bait, carries it back to the harbourage and dies there; secondary kill via carcasses and droppings</td>
                   <td className="px-4 py-3 text-gray-700">Control</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Buy this first</strong> &mdash; the only option that reaches roaches you never see</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="combat roach killing bait stations" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="combat roach killing bait stations" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Flat glue board<br /><span className="font-normal text-xs text-gray-500">Plain adhesive monitor</span></td>
                   <td className="px-4 py-3 text-gray-700">Passive capture along travel edges; a numbered grid maps species, hot rooms and week-over-week trend</td>
                   <td className="px-4 py-3 text-gray-700">Diagnosis</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Buy this second</strong> &mdash; measurement, not control</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="cockroach glue traps sticky boards" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="cockroach glue traps sticky boards" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Covered glue trap<br /><span className="font-normal text-xs text-gray-500">&ldquo;Roach motel&rdquo; housing</span></td>
                   <td className="px-4 py-3 text-gray-700">Same adhesive, shielded from grease, dust, kids and pets by a cardboard or plastic shell</td>
                   <td className="px-4 py-3 text-gray-700">Diagnosis</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Situationally better</strong> &mdash; greasy kitchens and homes with pets</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="roach motel glue trap" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="roach motel glue trap" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">DIY jar trap<br /><span className="font-normal text-xs text-gray-500">Jar + oil rim + bait</span></td>
@@ -313,7 +314,7 @@ export default function BestRoachTrapsCanadaPage() {
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">Roach Traps in Canada — Key Facts</h2>
-          <div className="rounded-xl border border-navy-100 overflow-hidden">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto">
             <table className="w-full text-sm">
               <tbody>
                 {[
@@ -353,7 +354,6 @@ export default function BestRoachTrapsCanadaPage() {
           <p>If you want to <em>know what you are dealing with</em> &mdash; the species, the room, the direction, and whether your plan is working &mdash; the answer is a dozen <strong>flat glue-board monitors</strong>, numbered and dated. Glue boards are not a control method. They are instrumentation &mdash; cheap, under-used instrumentation that tends to get skipped on the way to a spray can.</p>
           <p>Most Canadian households should buy both. If the budget forces a choice, buy the stations: an unmeasured campaign that works still works, while a beautifully measured campaign with nothing killing anything just documents a growing infestation.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the kit. The stations are a pesticide, so zoom the listing photo and confirm a Canadian PCP registration number on the label before you order; the glue boards carry no insecticide, so there is nothing to verify on those:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="combat roach killing bait stations">Combat bait stations →</BuyLink>

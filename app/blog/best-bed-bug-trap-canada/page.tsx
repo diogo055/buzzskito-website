@@ -100,6 +100,7 @@ export default function BestBedBugTrapCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Double-well bed bug interceptor cups (Aspectek / ClimbUp-style)" search="aspectek bed bug interceptor trap" label="Best overall" />
 
       <section className="bg-white px-4">
@@ -181,7 +182,7 @@ export default function BestBedBugTrapCanadaPage() {
             &ldquo;Bed bug trap&rdquo; covers three very different devices. Which one is best for you depends on whether the room is occupied, how big it is, and whether you want direction data or just presence/absence. Here is the honest breakdown, with a live Amazon.ca availability check per type.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Trap type</th>
@@ -197,21 +198,21 @@ export default function BestBedBugTrapCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Sleeper is the lure; bug climbs the leg and falls into a slick moat</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best</strong> &mdash; occupied bed, direction data, low cost</td>
                   <td className="px-4 py-3 text-gray-700">Needs isolatable legs; keep bedding off the floor</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="climbup bed bug interceptor" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="climbup bed bug interceptor" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Active lure trap<br /><span className="font-normal text-xs text-gray-500">heat + CO₂ + attractant</span></td>
                   <td className="px-4 py-3 text-gray-700">Generates its own warmth, CO₂, and lure to draw bugs across a room</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Good</strong> &mdash; empty rooms, storage, post-treatment checks</td>
                   <td className="px-4 py-3 text-gray-700">Higher cost; needs power or lure/CO₂ refills</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="active bed bug monitor lure trap" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="active bed bug monitor lure trap" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Glue / adhesive monitor<br /><span className="font-normal text-xs text-gray-500">sticky boards, strips</span></td>
                   <td className="px-4 py-3 text-gray-700">Sticky surface catches bugs that happen to cross it</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Weak</strong> &mdash; crude presence check only</td>
                   <td className="px-4 py-3 text-gray-700">Bugs walk around glue; dust kills the tack fast</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bed bug glue trap monitor" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bed bug glue trap monitor" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -235,7 +236,6 @@ export default function BestBedBugTrapCanadaPage() {
           <p>For the overwhelming majority of Canadian homes, the best bed bug trap is a <strong>passive double-well interceptor cup</strong> &mdash; the Aspectek and ClimbUp-style pitfall traps that slip under each bed leg. That is not a fashion choice; it is the tool urban entomologists reach for first, the one used in most of the published field research, and the cheapest reliable way to answer the only question that matters at the start of a bed bug scare: <em>do I actually have them, and where?</em> An interceptor needs no power, no pesticide, and no refills. You are the attractant &mdash; the bug walks to feed on you, climbs the leg, and drops into a moat it physically cannot climb out of.</p>
           <p>But &ldquo;best&rdquo; depends on the room. The one situation where a passive cup fails is an <strong>empty room</strong>: with no sleeper to intercept, the cup catches nothing and tells you nothing. That is exactly where an <strong>active lure trap</strong> earns its place &mdash; it makes its own heat, CO₂, and scent, so it keeps hunting in a vacant suite, a storage unit, an office, or a room you have just treated and cleared of furniture. The two trap families are not rivals; they cover different halves of the problem, which is why this roundup names a best pick in each.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the main trap types:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="climbup bed bug interceptor">Interceptor cups →</BuyLink>

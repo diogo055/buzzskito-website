@@ -90,6 +90,7 @@ export default function FlowtronBugZapperCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Flowtron BK-40D Electronic Insect Killer" search="flowtron bk-40d bug zapper" label="Best zapper pick" />
 
       <section className="bg-white px-4">
@@ -127,8 +128,8 @@ export default function FlowtronBugZapperCanadaPage() {
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">Flowtron BK-15D vs BK-40D vs BK-80D at a Glance</h2>
-          <div className="rounded-xl border border-navy-100 overflow-hidden shadow-sm">
-            <table className="w-full text-sm">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto shadow-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Model</th>
@@ -194,7 +195,7 @@ export default function FlowtronBugZapperCanadaPage() {
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">Flowtron Bug Zapper Key Facts</h2>
-          <div className="rounded-xl border border-navy-100 overflow-hidden">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto">
             <table className="w-full text-sm">
               <tbody>
                 {[
@@ -225,7 +226,6 @@ export default function FlowtronBugZapperCanadaPage() {
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Compare current Canadian pricing and models on Amazon.ca:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="flowtron bk-40d bug zapper">Check price on Amazon.ca</BuyLink>
@@ -285,7 +285,7 @@ export default function FlowtronBugZapperCanadaPage() {
 
           <h2>Flowtron vs DynaTrap vs Propane Traps</h2>
           <p>People shopping for a Flowtron are usually cross-shopping other trap categories, so here is how they line up for a Canadian yard:</p>
-          <table className="not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
+          <table className="min-w-[560px] not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
             <thead className="bg-brand-50">
               <tr><th className="px-3 py-2 text-left">Trap type</th><th className="px-3 py-2 text-left">How it lures</th><th className="px-3 py-2 text-left">Mosquito performance</th><th className="px-3 py-2 text-left">Best at</th></tr>
             </thead>

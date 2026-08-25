@@ -92,6 +92,7 @@ export default function RodentProofCompostBinCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Sealed dual-chamber tumbling composter" search="dual chamber tumbling composter" label="Best overall" />
 
       <section className="bg-white px-4">
@@ -203,21 +204,21 @@ export default function RodentProofCompostBinCanadaPage() {
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Yes</strong> &mdash; no burrow route</td>
                   <td className="px-4 py-3 text-gray-700">Freezes solid Dec&ndash;Mar</td>
                   <td className="px-4 py-3 text-gray-700">Kitchen scraps under real rodent pressure</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="dual chamber tumbling composter" block>Check price &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="dual chamber tumbling composter" block>Check price on Amazon.ca &rarr;</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Powder-coated steel enclosed bin</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Yes</strong> &mdash; with a closed base</td>
                   <td className="px-4 py-3 text-gray-700">Slow but holds heat longest</td>
                   <td className="px-4 py-3 text-gray-700">Laneways, dense urban lots, established rats</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="metal compost bin rodent proof" block>Check price &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="metal compost bin rodent proof" block>Check price on Amazon.ca &rarr;</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Open-bottom plastic bin <em>plus</em> hardware-cloth floor</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Yes</strong> &mdash; once retrofitted</td>
                   <td className="px-4 py-3 text-gray-700">Good &mdash; soil contact buffers cold</td>
                   <td className="px-4 py-3 text-gray-700">The cheapest credible fix for a bin you own</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="hardware cloth 1/4 inch galvanized" block>Check price &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="hardware cloth 1/4 inch galvanized" block>Check price on Amazon.ca &rarr;</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Open-bottom plastic dome as sold</td>
@@ -231,14 +232,14 @@ export default function RodentProofCompostBinCanadaPage() {
                   <td className="px-4 py-3 text-gray-700"><strong className="text-red-700">No</strong></td>
                   <td className="px-4 py-3 text-gray-700">Good &mdash; volume holds heat</td>
                   <td className="px-4 py-3 text-gray-700">Leaves, grass and trimmings on a rural lot</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="wire mesh compost bin" block>Check price &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="wire mesh compost bin" block>Check price on Amazon.ca &rarr;</BuyLink></td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 font-bold text-brand-800">Bokashi bucket (indoor pre-ferment)</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Yes</strong> &mdash; it lives indoors</td>
                   <td className="px-4 py-3 text-gray-700">Unaffected by cold</td>
                   <td className="px-4 py-3 text-gray-700">Meat and dairy, apartments, winter months</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bokashi composting bin kit" block>Check price &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bokashi composting bin kit" block>Check price on Amazon.ca &rarr;</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -252,7 +253,7 @@ export default function RodentProofCompostBinCanadaPage() {
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">Rodent-Proof Composting — Key Specs</h2>
-          <div className="rounded-xl border border-navy-100 overflow-hidden">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto">
             <table className="w-full text-sm">
               <tbody>
                 {[
@@ -290,7 +291,6 @@ export default function RodentProofCompostBinCanadaPage() {
           <p>The gap threshold is the second point, and people consistently check the wrong surfaces. Wall panels are rarely the problem. The problems are edges and openings: the seam where a lid meets the rim, the lip of an access hatch that has warped in the sun, factory ventilation slots that were sized for airflow rather than exclusion, and drainage holes drilled at half an inch because half an inch drains better. A rat gets through anything a quarter passes; a mouse through anything a dime passes. Carry an actual coin when you inspect a bin &mdash; it removes every judgment call, and it is the same test we use on buildings in our <Link href="/blog/rodent-exclusion-kit-canada">rodent exclusion kit guide</Link>.</p>
           <p>Third is the lid, which is the easiest failure to fix and the most commonly ignored. A lid that rests in place is a door. Raccoons open them deliberately; wind opens them by accident; and once the lid is off, the bin is simply an open food source with walls. Clips or a cam strap solve it in five minutes.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the pieces this guide recommends:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="dual chamber tumbling composter">Sealed tumbler &rarr;</BuyLink>

@@ -87,6 +87,7 @@ export default function DoFirePitsRepelMosquitoesCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="24-in Stainless Smokeless Fire Pit" search="smokeless fire pit stainless steel 24 inch" label="Best fire, honestly rated" />
 
       <section className="bg-white px-4">
@@ -204,7 +205,7 @@ export default function DoFirePitsRepelMosquitoesCanadaPage() {
                     <td className="px-4 py-3 font-bold text-brand-800">{a}</td>
                     <td className="px-4 py-3 text-gray-700">{how}</td>
                     <td className="px-4 py-3 text-xs text-gray-600">{cov}</td>
-                    <td className="px-4 py-3">{search ? <BuyLink tag={AMZ_TAG} search={search} block>Check price &rarr;</BuyLink> : <Link href="/free-yard-assessment" className="text-xs font-bold text-brand-700 hover:underline">Get a quote &rarr;</Link>}</td>
+                    <td className="px-4 py-3">{search ? <BuyLink tag={AMZ_TAG} search={search} block>Check price on Amazon.ca &rarr;</BuyLink> : <Link href="/free-yard-assessment" className="text-xs font-bold text-brand-700 hover:underline">Get a quote &rarr;</Link>}</td>
                   </tr>
                 ))}
               </tbody>
@@ -219,7 +220,6 @@ export default function DoFirePitsRepelMosquitoesCanadaPage() {
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Jump straight to current Canadian availability &mdash; the fire, and the thing that actually helps with the bugs:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="smokeless fire pit stainless steel 24 inch">Check smokeless fire pits on Amazon.ca &rarr;</BuyLink>

@@ -100,6 +100,7 @@ export default function GetRidOfBedBugsYourselfDiyCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="DIY bed-bug treatment kit (steamer + dust + encasements + interceptors)" search="bed bug treatment kit steamer interceptor" label="The DIY basket" />
 
       <section className="bg-white px-4">
@@ -190,7 +191,7 @@ export default function GetRidOfBedBugsYourselfDiyCanadaPage() {
             Every tool below closes a gap the others leave open. Skip one and you leave the bed bugs a door. Here is the honest role of each, with a live Amazon.ca availability check.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Tool</th>
@@ -206,35 +207,35 @@ export default function GetRidOfBedBugsYourselfDiyCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">On-contact kill of bugs &amp; eggs in seams</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Yes</strong> &mdash; heat kills eggs</td>
                   <td className="px-4 py-3 text-gray-700">No &mdash; only where applied</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bed bug steamer dry vapour" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bed bug steamer dry vapour" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Desiccant dust<br /><span className="font-normal text-xs text-gray-500">silica or DE</span></td>
                   <td className="px-4 py-3 text-gray-700">Residual kill in cracks &amp; voids for weeks</td>
                   <td className="px-4 py-3 text-gray-700">Indirectly &mdash; dries out nymphs</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Yes</strong> &mdash; weeks, if kept dry</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="silica bed bug desiccant dust" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="silica bed bug desiccant dust" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Sealed-HEPA vacuum<br /><span className="font-normal text-xs text-gray-500">physical removal</span></td>
                   <td className="px-4 py-3 text-gray-700">Strips live bugs &amp; debris from edges fast</td>
                   <td className="px-4 py-3 text-gray-700">No &mdash; eggs are glued down</td>
                   <td className="px-4 py-3 text-gray-700">No &mdash; removal only</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="sealed hepa vacuum crevice tool" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="sealed hepa vacuum crevice tool" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Encasements<br /><span className="font-normal text-xs text-gray-500">mattress + box spring</span></td>
                   <td className="px-4 py-3 text-gray-700">Trap what&rsquo;s inside; block re-entry</td>
                   <td className="px-4 py-3 text-gray-700">Traps them to die of starvation</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Yes</strong> &mdash; stays on 12+ months</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bed bug proof mattress encasement certified" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bed bug proof mattress encasement certified" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Interceptor traps<br /><span className="font-normal text-xs text-gray-500">monitor + block</span></td>
                   <td className="px-4 py-3 text-gray-700">Catch travellers; measure progress</td>
                   <td className="px-4 py-3 text-gray-700">No &mdash; catches adults &amp; nymphs</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Yes</strong> &mdash; ongoing monitor</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bed bug interceptor traps" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bed bug interceptor traps" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -258,7 +259,6 @@ export default function GetRidOfBedBugsYourselfDiyCanadaPage() {
           <p>The single most useful thing to understand before you spend a dollar is this: bed bugs are not beaten by a product, they are beaten by a <em>protocol</em>. Nearly every failed DIY story follows the same arc &mdash; someone buys a spray, hits the mattress, sees fewer bugs for a week, declares victory, and then watches the infestation roar back as a fresh wave of eggs hatches. The bugs were never gone; they were hiding in the box spring, the baseboard crack, and the headboard screw holes, and their eggs sat immune to the chemistry the whole time. It is worth knowing what that dollar is being measured against: <Link href="/blog/bed-bug-treatment-cost-canada" className="text-brand-700 underline">the pro-versus-DIY cost comparison</Link> prices a full protocol next to a professional quote so you can tell which side of the line your infestation sits on.</p>
           <p>A protocol wins because it attacks the infestation from five directions at once and keeps the pressure on for as long as the life cycle demands. You physically remove what you can reach, kill what you can touch with heat, poison the travel routes with a residual dust, lock down the bed with encasements, and measure the whole campaign with interceptor traps. For a contained, single-home infestation caught reasonably early, this genuinely works &mdash; and it costs a fraction of what a professional charges, with most of the money going into reusable equipment you keep. What it demands in return is discipline: weeks of repeated, patient work rather than one dramatic afternoon.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the core basket:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="bed bug steamer dry vapour">Steamer →</BuyLink>

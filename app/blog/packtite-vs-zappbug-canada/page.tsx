@@ -100,6 +100,7 @@ export default function PacktiteVsZappbugCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="ZappBug Room bed-bug heater" search="zappbug room bed bug heater" label="Bulk-treatment winner" />
 
       <section className="bg-white px-4">
@@ -129,7 +130,7 @@ export default function PacktiteVsZappbugCanadaPage() {
             Both chambers heat items hot enough to kill bed bugs and their eggs. What separates them is <em>how much they hold</em>, <em>what shape of load</em> they are built for, and how confidently you can verify the coldest core actually reached a lethal temperature. Here is the honest side-by-side, with a live Amazon.ca availability check for each.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Factor</th>
@@ -177,8 +178,8 @@ export default function PacktiteVsZappbugCanadaPage() {
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Availability</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="zappbug room bed bug heater" block>Check price →</BuyLink></td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="packtite closet bed bug heater" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="zappbug room bed bug heater" block>Check price on Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="packtite closet bed bug heater" block>Check price on Amazon.ca →</BuyLink></td>
                   <td className="px-4 py-3 text-gray-700">Buy the Canadian 120V listing for the right plug and warranty</td>
                 </tr>
               </tbody>
@@ -203,7 +204,6 @@ export default function PacktiteVsZappbugCanadaPage() {
           <p>These two chambers dominate the &ldquo;which heater kills bed bugs in my belongings&rdquo; conversation in Canada for a simple reason: they solve the same problem &mdash; killing bed bugs throughout portable items by surrounding them with lethal heat &mdash; but they are built around two different shapes of that problem. The <strong>ZappBug Room</strong> is the large-capacity, do-everything heat chamber: a tall soft-walled cube you fill with a mixed pile of luggage, totes, shoes, and clothing and treat in a small number of cycles, with placed probes to confirm the kill. The <strong>PackTite Closet</strong> is the specialist: an upright hanging chamber designed so garments hang uncreased on a rail while hot air circulates around each one, and it folds flat into a closet when you are done.</p>
           <p>The verdict is not close if you are treating a genuine infestation with a wide variety of belongings: the ZappBug Room wins because its capacity and probe-verified core temperature are exactly what turn an all-day job into a few confident runs. But &ldquo;better for a broad infestation&rdquo; and &ldquo;better for hung clothing and compact storage&rdquo; are different questions, and the PackTite Closet answers the second one well. The rest of this guide explains exactly why, starting with the spec everybody gets wrong.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability for each chamber:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="zappbug room bed bug heater">ZappBug Room →</BuyLink>

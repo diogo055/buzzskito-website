@@ -128,7 +128,7 @@ export default function WhatColorsAttractMosquitoesPage() {
           <p>Keep the expectation realistic. Colour is the weakest lever of the three main attractant categories. If you are the person who always gets bitten while everyone else is fine, the cause is far more likely your CO2 output, skin chemistry, or even your blood type than your shirt &mdash; we break that down in <Link href="/blog/what-blood-type-do-mosquitoes-bite">what blood type mosquitoes bite most</Link>.</p>
 
           <h2>Myth vs Fact: Mosquitoes and Colour</h2>
-          <div className="not-prose my-6 rounded-xl border border-navy-100 overflow-hidden shadow-sm">
+          <div className="not-prose my-6 rounded-xl border border-navy-100 overflow-x-auto shadow-sm">
             <table className="w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
@@ -157,7 +157,7 @@ export default function WhatColorsAttractMosquitoesPage() {
 
           <h2>The Colour Cheat Sheet: Attract vs Ignore</h2>
           <p>Here is the 2022 <em>Nature Communications</em> finding distilled into a wear-it-or-skip-it table for your next backyard evening in the GTA.</p>
-          <div className="not-prose my-6 rounded-xl border border-navy-100 overflow-hidden shadow-sm">
+          <div className="not-prose my-6 rounded-xl border border-navy-100 overflow-x-auto shadow-sm">
             <table className="w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>

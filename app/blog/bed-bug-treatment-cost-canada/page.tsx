@@ -101,6 +101,7 @@ export default function BedBugTreatmentCostCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Dry-vapour steamer — the one DIY item worth real money" search="vapamore mr-100 steamer" label="The DIY kit's big-ticket item" />
 
       <section className="bg-white px-4">
@@ -140,7 +141,7 @@ export default function BedBugTreatmentCostCanadaPage() {
             No Canadian government body publishes pest control prices, so every number below is a <em>typical range reported by a quoting platform</em>, with the source named beside it. Treat them as a sanity check on a quote you have been given, not as a price you are entitled to.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">What is being priced</th>
@@ -305,7 +306,7 @@ export default function BedBugTreatmentCostCanadaPage() {
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">Bed Bug Cost &mdash; Quick Reference</h2>
-          <div className="rounded-xl border border-navy-100 overflow-hidden">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto">
             <table className="w-full text-sm">
               <tbody>
                 {[
@@ -344,7 +345,6 @@ export default function BedBugTreatmentCostCanadaPage() {
           <p>Bed bugs are the most expensive common household pest in Canada, and they are also the one where a phone quote means the least. The reason is that the price is not really attached to the pest &mdash; it is attached to the <em>volume of space that has to be treated</em> and the <em>number of times someone has to come back</em>. Those two variables are set by how long the infestation has been running and how many rooms it has reached, and neither is knowable until somebody looks.</p>
           <p>This is why the published ranges above are so wide, and why a company quoting confidently before inspecting is telling you something about itself. A single bedroom caught within weeks and a three-bedroom unit where bugs have reached the living room couch are not the same job by a factor of several, and the second one usually also needs the neighbouring units looked at.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">The two items worth buying no matter which way you go &mdash; they contain the problem and measure progress:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="saferest mattress encasement">Zippered encasements &rarr;</BuyLink>

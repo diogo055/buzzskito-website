@@ -3,6 +3,7 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
+import AmazonLink from '@/components/AmazonLink'
 import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
@@ -87,13 +88,14 @@ export default function BestMosquitoRepellentDeviceCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Thermacell Zone Repeller (E-Series / Patio Shield)" search="thermacell patio shield" label="Best overall" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">For most Canadian backyards, the best mosquito repellent device is a Thermacell zone repeller ($35&ndash;$229) &mdash; it creates a bite-free 6-metre (about 20-foot) bubble around your patio in roughly 15 minutes, with no smoke or spray. For thinning a whole large lot, a propane CO&#8322; trap is the strongest killing device but takes 6&ndash;8 weeks.</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">For most Canadian backyards, the best mosquito repellent device is a <AmazonLink search="thermacell patio shield" tag={AMZ_TAG} className="font-bold underline decoration-emerald-500 underline-offset-2 hover:text-emerald-900">Thermacell zone repeller</AmazonLink> ($35&ndash;$229) &mdash; it creates a bite-free 6-metre (about 20-foot) bubble around your patio in roughly 15 minutes, with no smoke or spray. For thinning a whole large lot, a propane CO&#8322; trap is the strongest killing device but takes 6&ndash;8 weeks.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
               <li>A Thermacell zone repeller ($35&ndash;$229) protects a 6-metre (about 20-foot) zone and starts working in roughly 15 minutes.</li>
               <li>A propane CO&#8322; trap (Mosquito Magnet) covers up to about 1 acre and costs $400&ndash;$1,300, thinning the population over 6&ndash;8 weeks.</li>
@@ -103,6 +105,9 @@ export default function BestMosquitoRepellentDeviceCanadaPage() {
               <li>No plug-in device covers your whole yard and ticks at once, so the ideal setup is a Thermacell where you sit plus barrier spray for the yard.</li>
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+            <div className="mt-4">
+              <BuyLink search="thermacell patio shield" tag={AMZ_TAG} block className="sm:w-auto sm:min-h-0 sm:inline-flex sm:rounded-full sm:px-4 sm:py-2">Check price on Amazon.ca →</BuyLink>
+            </div>
           </div>
         </div>
       </section>
@@ -115,7 +120,7 @@ export default function BestMosquitoRepellentDeviceCanadaPage() {
             Five device categories dominate the Canadian market. They are not interchangeable — a zone repeller protects where you sit, a propane trap slowly thins the whole yard, and a bug zapper mostly kills the wrong insects. Here is each type ranked, with coverage, price, and a live Amazon.ca price check.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Device type</th>
@@ -133,7 +138,7 @@ export default function BestMosquitoRepellentDeviceCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">6 m / ~20 ft zone</td>
                   <td className="px-4 py-3 text-gray-700">Patio, deck, camping</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$35 – $229</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="thermacell patio shield" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="thermacell patio shield" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Propane CO₂ trap</td>
@@ -141,7 +146,7 @@ export default function BestMosquitoRepellentDeviceCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Up to 1 acre</td>
                   <td className="px-4 py-3 text-gray-700">Cottages, rural acreage</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$400 – $1,300</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="mosquito magnet trap" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="mosquito magnet trap" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">UV + fan trap (DynaTrap)</td>
@@ -149,7 +154,7 @@ export default function BestMosquitoRepellentDeviceCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">300 sq ft – 1 acre</td>
                   <td className="px-4 py-3 text-gray-700">Supplemental insect catch</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$79 – $330</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="dynatrap insect trap" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="dynatrap insect trap" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Propane / electric fogger</td>
@@ -157,7 +162,7 @@ export default function BestMosquitoRepellentDeviceCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Temporary knockdown</td>
                   <td className="px-4 py-3 text-gray-700">Pre-event, few hours</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$40 – $150</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="propane mosquito fogger" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="propane mosquito fogger" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 font-bold text-brand-800">Bug zapper <span className="font-normal text-xs text-rose-500">✗ worst</span></td>
@@ -165,7 +170,7 @@ export default function BestMosquitoRepellentDeviceCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Small radius</td>
                   <td className="px-4 py-3 text-gray-700">Not mosquitoes (moths/beetles)</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$30 – $120</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="electric bug zapper outdoor" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="electric bug zapper outdoor" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -236,7 +241,7 @@ export default function BestMosquitoRepellentDeviceCanadaPage() {
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">Device Categories at a Glance</h2>
-          <div className="rounded-xl border border-navy-100 overflow-hidden">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto">
             <table className="w-full text-sm">
               <tbody>
                 {[
@@ -265,7 +270,6 @@ export default function BestMosquitoRepellentDeviceCanadaPage() {
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Jump straight to a live Canadian price check by device type:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="thermacell patio shield">Thermacell on Amazon.ca →</BuyLink>
@@ -344,7 +348,7 @@ export default function BestMosquitoRepellentDeviceCanadaPage() {
           </aside>
 
           <h2>Devices vs Professional Barrier Spray for GTA Yards</h2>
-          <table className="not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
+          <table className="min-w-[560px] not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
             <thead className="bg-brand-50">
               <tr><th className="px-3 py-2 text-left">Option</th><th className="px-3 py-2 text-left">First-year cost</th><th className="px-3 py-2 text-left">What it does</th><th className="px-3 py-2 text-left">Tick coverage</th></tr>
             </thead>

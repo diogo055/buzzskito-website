@@ -102,6 +102,7 @@ export default function NaturalMosquitoControlPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Summit BTi Mosquito Dunks" search="summit mosquito dunks" label="Best natural pick" />
 
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
@@ -144,7 +145,6 @@ export default function NaturalMosquitoControlPage() {
         <h3>1. Bacillus thuringiensis israelensis (BTi) — Highly Effective for Larvae</h3>
         <p>BTi is a naturally occurring soil bacterium that produces proteins toxic specifically to mosquito (and blackfly) larvae. It is available in &ldquo;dunk&rdquo; or &ldquo;granule&rdquo; form and is the most effective natural tool available for Ontario homeowners with standing water on their property.</p>
         <p>Drop a BTi dunk into rain barrels, ornamental ponds, birdbaths, and any standing water that can&apos;t be eliminated. The bacterium reproduces in the water and kills larvae before they develop into biting adults. It is completely safe for fish, birds, bees, and mammals. The City of Toronto uses BTi as its primary larviciding tool across the city each year.</p>
-        <AffiliateDisclosure />
         <div className="not-prose my-4">
           <BuyLink tag={AMZ_TAG} search="summit mosquito dunks">Check Summit BTi mosquito dunks on Amazon.ca →</BuyLink>
         </div>

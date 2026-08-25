@@ -100,6 +100,7 @@ export default function PropaneVsElectricFoggerCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Burgess propane thermal fogger" search="burgess propane insect fogger" label="Best overall fogger" />
 
       <section className="bg-white px-4">
@@ -174,8 +175,8 @@ export default function PropaneVsElectricFoggerCanadaPage() {
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Availability</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="burgess propane insect fogger" block>Check price →</BuyLink></td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="black flag electric insect fogger" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="burgess propane insect fogger" block>Check price on Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="black flag electric insect fogger" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -242,7 +243,6 @@ export default function PropaneVsElectricFoggerCanadaPage() {
           <p>Strip away the branding and both a Burgess propane fogger and a Black Flag electric fogger are the same kind of machine: a <strong>thermal fogger</strong>. Each heats a coil until an insecticide-and-carrier solution flash-vaporizes into a dense, visible cloud of ultra-fine droplets that drift into foliage and settle onto surfaces. The mosquitoes flying in that air get knocked down, and the treated leaves carry a light residual for a short window afterward. The one and only meaningful difference between the two machines is <em>how the coil gets hot</em> — propane burns a cylinder, electric draws wall current. Everything else you are comparing flows from that single choice of power source.</p>
           <p>So the real question is not &ldquo;which fogs better&rdquo; — they fog essentially the same — but &ldquo;which power source fits my property and my patience.&rdquo; Below is how that decision actually breaks down, and, just as importantly, the compliance point that matters more than the machine: the fog solution you load has to be registered for use in Canada.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of both machines:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="burgess propane insect fogger">Burgess propane fogger →</BuyLink>
@@ -280,7 +280,7 @@ export default function PropaneVsElectricFoggerCanadaPage() {
 
           <h2>Foggers vs the Rest of the Mosquito Toolkit</h2>
           <p>A fogger is one option among several, and the honest framing is that it is the fast-knockdown specialist. Here is roughly how it sits against the other common approaches for a GTA backyard:</p>
-          <table className="not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
+          <table className="min-w-[560px] not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
             <thead className="bg-brand-50">
               <tr><th className="px-3 py-2 text-left">Tool</th><th className="px-3 py-2 text-left">Strength</th><th className="px-3 py-2 text-left">Lasts</th><th className="px-3 py-2 text-left">Ticks?</th></tr>
             </thead>

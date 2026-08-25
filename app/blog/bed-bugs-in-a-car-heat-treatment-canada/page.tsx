@@ -90,6 +90,7 @@ export default function BedBugsInACarHeatTreatmentCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Portable heat chamber — for everything you can carry out of the car" search="portable bed bug heat chamber" label="The one purchase that does the work" />
 
       <section className="bg-white px-4">
@@ -172,7 +173,6 @@ export default function BedBugsInACarHeatTreatmentCanadaPage() {
           <p>That reframing changes what you are buying. Your objective in a vehicle is to eliminate hitchhikers and stop the car quietly re-seeding a house you just treated &mdash; not to eradicate a breeding population out of seat foam. It is a smaller job than a bedroom, it is finishable in a day, and the number of hiding places is a fraction of what a furnished room offers.</p>
           <p>There are real exceptions, and they are worth naming honestly. A vehicle somebody sleeps in &mdash; long-haul, camping, or someone living in their car &mdash; supplies exactly the still, repeated feeding a bedroom does, and can genuinely establish. So can a car that carried an infested mattress or sofa and then sat unused for weeks afterwards. If either describes you, treat the vehicle with the same seriousness as a room.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Current Canadian availability for the four tools:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="portable bed bug heat chamber">Heat chamber &rarr;</BuyLink>

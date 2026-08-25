@@ -84,6 +84,7 @@ export default function BestDehumidifierForColdGarageCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Desiccant dehumidifier for cold garages" search="desiccant dehumidifier garage cold" label="Best for cold" />
 
       <section className="bg-white px-4">
@@ -165,7 +166,7 @@ export default function BestDehumidifierForColdGarageCanadaPage() {
             The single number that decides your purchase is how cold the garage gets during the months you care about. Read the row that matches your space and ignore the others.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Garage temperature</th>
@@ -181,14 +182,14 @@ export default function BestDehumidifierForColdGarageCanadaPage() {
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Compressor + auto-defrost</strong></td>
                   <td className="px-4 py-3 text-gray-700">Most efficient per litre; biggest capacities; lowest price</td>
                   <td className="px-4 py-3 text-gray-700">Confirm auto-defrost is actually listed</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="dehumidifier auto defrost 50 pint continuous drain" block>Check price &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="dehumidifier auto defrost 50 pint continuous drain" block>Check price on Amazon.ca &rarr;</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Roughly 1&ndash;10&deg;C<br /><span className="font-normal text-xs text-gray-500">detached, uninsulated</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Desiccant</strong></td>
                   <td className="px-4 py-3 text-gray-700">No cold coil to frost; output holds as the room cools</td>
                   <td className="px-4 py-3 text-gray-700">Higher running cost; smaller capacity</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="desiccant dehumidifier garage cold" block>Check price &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="desiccant dehumidifier garage cold" block>Check price on Amazon.ca &rarr;</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Below 0&deg;C<br /><span className="font-normal text-xs text-gray-500">a real Ontario January</span></td>
@@ -202,7 +203,7 @@ export default function BestDehumidifierForColdGarageCanadaPage() {
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Hygrometer, two weeks</strong></td>
                   <td className="px-4 py-3 text-gray-700">Turns a several-hundred-dollar guess into a reading</td>
                   <td className="px-4 py-3 text-gray-700">Cheap sensors drift &mdash; watch the trend, not the digit</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="digital hygrometer indoor humidity monitor" block>Check price &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="digital hygrometer indoor humidity monitor" block>Check price on Amazon.ca &rarr;</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -226,7 +227,6 @@ export default function BestDehumidifierForColdGarageCanadaPage() {
           <p>The best dehumidifier for a cold Canadian garage is a <strong>desiccant unit if the space lives between roughly 1&deg;C and 10&deg;C</strong>, and a <strong>35&ndash;50 pint compressor unit with auto-defrost if it holds above 10&deg;C</strong> &mdash; and in a garage that spends the winter below freezing, the right answer is no dehumidifier at all. That is the entire decision, and it turns on temperature rather than on square footage, brand, or pint rating. Everything below explains why that line exists and what to do on either side of it.</p>
           <p>It is worth being blunt about the alternative, because a lot of money gets spent badly here. A garage is a genuinely different space from a basement, and buying the machine that works beautifully downstairs and putting it in an unheated garage is the single most common mistake we see. The unit runs, it makes noise, it costs you electricity, and its bucket stays nearly empty &mdash; not because the garage is dry, but because a frosted coil cannot condense water. Understanding that failure mode before you buy is worth more than any brand comparison.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the picks:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="desiccant dehumidifier garage cold">Desiccant (cold garage) &rarr;</BuyLink>

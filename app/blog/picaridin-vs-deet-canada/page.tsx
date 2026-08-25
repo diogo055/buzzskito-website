@@ -101,6 +101,7 @@ export default function PicaridinVsDeetPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Picaridin 20% insect repellent (Natrapel / OFF! Defense / Sawyer)" search="natrapel picaridin insect repellent" label="Our top pick" />
 
       <section className="bg-white px-4">
@@ -137,8 +138,8 @@ export default function PicaridinVsDeetPage() {
           <p className="text-sm text-gray-700 mb-5 leading-relaxed">
             Both are widely stocked across pharmacies, big-box retailers, and outdoor stores. Pricing is essentially identical — choose based on application preference (greasy vs non-greasy, scent, plastic compatibility).
           </p>
-          <div className="rounded-xl border border-navy-100 overflow-hidden bg-white shadow-sm">
-            <table className="w-full text-sm">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto bg-white shadow-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Retailer</th>
@@ -197,7 +198,7 @@ export default function PicaridinVsDeetPage() {
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">Picaridin vs DEET — Side-by-Side Comparison</h2>
-          <div className="rounded-xl border border-navy-100 overflow-hidden">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto">
             <table className="w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
@@ -242,7 +243,6 @@ export default function PicaridinVsDeetPage() {
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Popular Health-Canada-approved options for each (Natrapel/OFF! picaridin, Watkins/OFF! DEET):</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="natrapel picaridin insect repellent">Check picaridin repellents on Amazon.ca →</BuyLink>

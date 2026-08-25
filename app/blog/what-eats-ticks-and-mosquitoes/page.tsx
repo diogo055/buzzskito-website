@@ -124,7 +124,7 @@ export default function WhatEatsTicksAndMosquitoesPage() {
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">Predators of Ticks &amp; Mosquitoes, Ranked for Real Yard Control</h2>
-          <div className="rounded-xl border border-gray-200 overflow-hidden overflow-x-auto">
+          <div className="rounded-xl border border-gray-200 overflow-x-auto overflow-x-auto">
             <table className="w-full text-sm min-w-[640px]">
               <thead className="bg-brand-800 text-white">
                 <tr>

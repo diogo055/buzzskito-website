@@ -84,6 +84,7 @@ export default function BestDeerFenceForGardensCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="7 ft UV-stabilised poly deer netting" search="7 ft deer fence netting 100 ft roll" label="Best deer fence" />
 
       <section className="bg-white px-4">
@@ -175,7 +176,6 @@ export default function BestDeerFenceForGardensCanadaPage() {
           <p>Seven feet of UV-stabilised black polypropylene netting, on posts every ten to twelve feet, with a tensioned top line and a bottom edge staked to the ground. That is the answer for the overwhelming majority of Canadian gardens, and everything below is either how to get that right or the specific cases where something else is correct.</p>
           <p>What makes deer fencing unusual is how binary the outcome is. Most pest and wildlife products give you partial results &mdash; a repellent reduces damage, a deterrent works for a while. A deer fence either exceeds the threshold the animal will commit to, in which case damage stops completely, or it does not, in which case you have spent several hundred dollars decorating the path they were already walking. There is very little middle ground. That is why the height number and the bottom edge get the attention here and the brand name gets almost none.</p>
 
-          <AffiliateDisclosure />
           <h2>Why 7 ft Is the Number (and the Three Times It Is Not)</h2>
           <p>A healthy white-tailed deer clears a six-foot fence from a standstill. Not a determined deer, not a spooked deer &mdash; an ordinary one, in the course of a normal night. Six-foot netting is sold in volume because six feet is the height people expect a fence to be, and it is the most expensive mistake in this category: it costs nearly what seven-foot netting costs, takes exactly the same weekend to install, and does not work. If your budget only reaches six feet of a premium product, buy seven feet of a cheaper one.</p>
           <p>Eight feet is genuinely better where you can get it, for one Canadian reason that most guides written for milder climates never mention: <strong>snow raises the ground</strong>. Two feet of settled snowpack against a seven-foot fence leaves a five-foot obstacle, and it does so in the exact months when browse pressure is worst and a deer has the strongest reason to try. If the thing you are protecting is a cedar hedge, a young orchard, or shrubs that matter in winter, build to eight.</p>
@@ -188,8 +188,8 @@ export default function BestDeerFenceForGardensCanadaPage() {
 
           <h2>Deer Barrier Options Compared</h2>
           <p>Here is the honest comparison, with a live Amazon.ca availability check for the options worth buying.</p>
-          <div className="not-prose rounded-xl border border-navy-100 overflow-hidden bg-white shadow-sm my-6 overflow-x-auto">
-            <table className="w-full text-sm">
+          <div className="not-prose rounded-xl border border-navy-100 overflow-x-auto bg-white shadow-sm my-6 overflow-x-auto">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Option</th>
@@ -205,35 +205,35 @@ export default function BestDeerFenceForGardensCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">7&ndash;8 ft</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Good</strong> &mdash; re-tension after heavy snow</td>
                   <td className="px-4 py-3 text-gray-700">Gardens, hedges, whole-yard perimeters</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="7 ft deer fence netting 100 ft roll" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="7 ft deer fence netting 100 ft roll" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Bulk netting (330 ft roll)</td>
                   <td className="px-4 py-3 text-gray-700">7&ndash;8 ft</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Good</strong> &mdash; fewer seams to fail</td>
                   <td className="px-4 py-3 text-gray-700">Property lines, orchards, acreage</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="deer netting 330 ft bulk roll fence" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="deer netting 330 ft bulk roll fence" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Welded-wire metal deer fence</td>
                   <td className="px-4 py-3 text-gray-700">7&ndash;8 ft</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Excellent</strong> &mdash; permanent</td>
                   <td className="px-4 py-3 text-gray-700">Dogs, bears, machinery, falling branches</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="welded wire deer fence metal roll" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="welded wire deer fence metal roll" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Slanted or double-row layout</td>
                   <td className="px-4 py-3 text-gray-700">5&ndash;6 ft each</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Good</strong> &mdash; low profile sheds snow</td>
                   <td className="px-4 py-3 text-gray-700">Where a by-law caps height; wide lots</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="6 ft garden fence netting posts" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="6 ft garden fence netting posts" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Electric wire fence</td>
                   <td className="px-4 py-3 text-gray-700">4&ndash;5 ft, multi-wire</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Mixed</strong> &mdash; grounding suffers in frozen soil</td>
                   <td className="px-4 py-3 text-gray-700">Orchards and plots you can maintain weekly</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="solar electric fence kit garden" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="solar electric fence kit garden" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Repellent sprays</td>
@@ -297,7 +297,7 @@ export default function BestDeerFenceForGardensCanadaPage() {
           <p>The honest limit is that it does not clear what is already there. Ticks established in leaf litter and along the lawn-to-brush transition persist on their own, carried by mice, chipmunks and birds that walk straight under any deer fence. So a deer fence is one layer. Clearing leaf litter, keeping a hard edge between lawn and brush, and treating that transition zone is the other &mdash; our guide to <Link href="/blog/how-to-keep-ticks-out-of-yard-ontario">keeping ticks out of an Ontario yard</Link> covers the landscaping side, and the <Link href="/blog/blacklegged-deer-tick-ontario">blacklegged deer tick in Ontario</Link> explains why the deer connection matters at all. For properties in the GTA, our tick program runs five applications across the May-to-September season, targeted at that transition zone rather than the open lawn.</p>
 
           <h2>Deer Fencing — Key Facts</h2>
-          <div className="not-prose rounded-xl border border-navy-100 overflow-hidden my-6 overflow-x-auto">
+          <div className="not-prose rounded-xl border border-navy-100 overflow-x-auto my-6 overflow-x-auto">
             <table className="w-full text-sm">
               <tbody>
                 {[

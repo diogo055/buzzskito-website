@@ -99,6 +99,7 @@ export default function DiyOutdoorMistingSystemKitCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Aootek outdoor misting cooling kit" search="aootek outdoor misting cooling system kit" label="Best overall kit" />
 
       <section className="bg-white px-4">
@@ -179,7 +180,7 @@ export default function DiyOutdoorMistingSystemKitCanadaPage() {
             &ldquo;Outdoor misting kit&rdquo; spans three pressure classes that behave very differently. The right one depends on your patio size, how exposed it is, and how much you mind a little dampness on a still day. Here is the honest breakdown, with a live Amazon.ca availability check per type.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Kit type</th>
@@ -195,21 +196,21 @@ export default function DiyOutdoorMistingSystemKitCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Screws onto the garden tap, ~40–60 psi through nozzles on tubing</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Good</strong> — cools a covered patio; may lightly dampen on still, humid days</td>
                   <td className="px-4 py-3 text-gray-700">Budget-friendly</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="aootek outdoor misting cooling system kit" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="aootek outdoor misting cooling system kit" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Booster-pump kit<br /><span className="font-normal text-xs text-gray-500">100–160 psi</span></td>
                   <td className="px-4 py-3 text-gray-700">Low-pressure kit plus an inline pump that raises pressure and sharpens droplets</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Better</strong> — finer, drier mist; feeds more nozzles evenly</td>
                   <td className="px-4 py-3 text-gray-700">Mid-range</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="misting system booster pump kit outdoor" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="misting system booster pump kit outdoor" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">High-pressure system<br /><span className="font-normal text-xs text-gray-500">800–1,000+ psi</span></td>
                   <td className="px-4 py-3 text-gray-700">Dedicated high-pressure pump + stainless nozzles produce a flash-evaporating dry fog</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best</strong> — strongest cooling, essentially no wet surfaces</td>
                   <td className="px-4 py-3 text-gray-700">Premium</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="high pressure misting system stainless nozzle" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="high pressure misting system stainless nozzle" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -228,7 +229,7 @@ export default function DiyOutdoorMistingSystemKitCanadaPage() {
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">Misting Kit Buying — Key Facts</h2>
-          <div className="rounded-xl border border-navy-100 overflow-hidden">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto">
             <table className="w-full text-sm">
               <tbody>
                 {[
@@ -264,7 +265,6 @@ export default function DiyOutdoorMistingSystemKitCanadaPage() {
           <p>An outdoor misting kit is a length of small-diameter tubing dotted with fine-orifice nozzles that you run along the top of a pergola, gazebo, or patio umbrella and connect to a water source. When the water is on, each nozzle atomizes a little of it into a fog of tiny droplets. Those droplets evaporate almost instantly in warm air, and evaporation pulls heat out of the surrounding air &mdash; the same physics that makes you feel cold stepping out of a pool. On a hot day, a well-placed kit can drop the temperature in the misted zone by several degrees, which is the reason most people buy one.</p>
           <p>The mosquito benefit is a genuine side effect of that same mist, and it is worth being precise about. Mosquitoes are slow, low-power fliers that home in on the plume of carbon dioxide and body heat rising off you. A curtain of moving, cooling, humidified air does three things at once: it disrupts and dilutes that CO&#8322; plume so you are harder to find, it adds air movement that weak-flying mosquitoes struggle to push through, and it cools your skin so you radiate a less obvious target. The result is that mosquitoes tend to drift out of the misted envelope and hover elsewhere while the system runs. That is real and useful &mdash; but it is <em>deterrence within the misted zone</em>, not control of the yard. The moment you turn the water off, or step outside the mist, the mosquitoes are still there.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Compare current Canadian availability across the three kit classes:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="aootek outdoor misting cooling system kit">Aootek low-pressure kit →</BuyLink>
@@ -307,7 +307,7 @@ export default function DiyOutdoorMistingSystemKitCanadaPage() {
 
           <h2>Misting Kit vs Traps, Foggers, and Barrier Spray</h2>
           <p>A misting kit is one layer of a comfortable backyard, not the whole answer. Each tool solves a different piece of the mosquito problem, and the honest move is to understand what each one buys you:</p>
-          <table className="not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
+          <table className="min-w-[560px] not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
             <thead className="bg-brand-50">
               <tr><th className="px-3 py-2 text-left">Tool</th><th className="px-3 py-2 text-left">What it does</th><th className="px-3 py-2 text-left">Coverage</th><th className="px-3 py-2 text-left">Ticks?</th></tr>
             </thead>

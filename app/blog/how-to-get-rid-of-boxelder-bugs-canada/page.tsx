@@ -100,6 +100,7 @@ export default function HowToGetRidOfBoxelderBugsCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Exterior-grade sealant + caulking gun" search="exterior silicone caulk sealant gun kit" label="Seal, don’t spray" />
 
       <section className="bg-white px-4">
@@ -177,7 +178,7 @@ export default function HowToGetRidOfBoxelderBugsCanadaPage() {
             Almost everything marketed for boxelder bugs treats the symptom. Only the sealing and vent-screening rows in this table reduce how many bugs show up next September &mdash; and both are inexpensive hardware rather than chemistry.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Method</th>
@@ -193,21 +194,21 @@ export default function HowToGetRidOfBoxelderBugsCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Closes the cracks around windows, trim, utility penetrations and siding edges they enter through</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Yes</strong> &mdash; the highest-value method here</td>
                   <td className="px-4 py-3 text-gray-700">Late July &ndash; mid August, before congregation</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="exterior silicone caulk sealant gun kit" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="exterior silicone caulk sealant gun kit" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Vent screening<br /><span className="font-normal text-xs text-gray-500">Fine insect mesh</span></td>
                   <td className="px-4 py-3 text-gray-700">Blocks soffit, gable, ridge and exhaust vents — the roofline entries caulk can&rsquo;t close</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Yes</strong> &mdash; the other half of the exclusion job</td>
                   <td className="px-4 py-3 text-gray-700">Same late-summer window</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="fine insect screen mesh roll aluminum" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="fine insect screen mesh roll aluminum" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Interior-side sealing<br /><span className="font-normal text-xs text-gray-500">Outlet gaskets, casing caulk</span></td>
                   <td className="px-4 py-3 text-gray-700">Stops bugs already in the wall cavity from emerging into rooms</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">No</strong> &mdash; but it&rsquo;s the best autumn/winter move</td>
                   <td className="px-4 py-3 text-gray-700">Any time — indoor work</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="foam outlet gasket door sweep weatherstrip kit" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="foam outlet gasket door sweep weatherstrip kit" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Soapy water<br /><span className="font-normal text-xs text-gray-500">Dish soap + spray bottle</span></td>
@@ -221,7 +222,7 @@ export default function HowToGetRidOfBoxelderBugsCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Removes bugs mechanically without crushing, staining, or residue</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">No</strong> &mdash; winter clean-up</td>
                   <td className="px-4 py-3 text-gray-700">Every mild winter day</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="wet dry shop vacuum with hose" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="wet dry shop vacuum with hose" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Exterior residual spray<br /><span className="font-normal text-xs text-gray-500">Licensed applicator</span></td>
@@ -261,7 +262,7 @@ export default function HowToGetRidOfBoxelderBugsCanadaPage() {
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">Boxelder Bugs in Canada — Key Facts</h2>
-          <div className="rounded-xl border border-navy-100 overflow-hidden">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto">
             <table className="w-full text-sm">
               <tbody>
                 {[
@@ -302,7 +303,6 @@ export default function HowToGetRidOfBoxelderBugsCanadaPage() {
           <p>Once you accept that, the whole shape of the problem changes. There is no colony to poison and no breeding site to find. There is a building with gaps in it and a neighbourhood full of Manitoba maples. Every dollar spent on insecticide buys you a few dead bugs and a stained curtain; every dollar spent on sealant buys you fewer bugs next year, and the year after, and a warmer house in February. That is the trade, and it is not close.</p>
           <p>What follows is the practical version: how to be sure it is actually a boxelder bug, why they own your south wall specifically, the narrow timing window that makes or breaks the exclusion job, what to do if you are reading this in October and have already missed it, and the honest verdict on the question everyone eventually asks &mdash; whether to cut down the tree.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the exclusion kit:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="exterior silicone caulk sealant gun kit">Exterior sealant + gun →</BuyLink>

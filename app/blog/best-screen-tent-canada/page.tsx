@@ -3,6 +3,7 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
+import AmazonLink from '@/components/AmazonLink'
 import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
@@ -110,13 +111,14 @@ export default function BestScreenTentCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Clam Quick-Set Escape Hub Shelter" search="clam quick set escape screen shelter" label="Best overall" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The best screen tent in Canada for 2026 is a six-sided hub shelter &mdash; the Clam Quick-Set Escape or Gazelle G6. It is the only tier built to be pitched and struck all season, and the only one that takes clip-on fabric wind panels. If you camp a few weekends a year at a sheltered inland site, the Coleman Instant Screened Canopy 11x11 is the value pick and the right answer for most people: 121 sq ft (11.2 m&sup2;) with pre-attached poles, up in about three minutes.</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The best screen tent in Canada for 2026 is a six-sided hub shelter &mdash; the <AmazonLink search="clam quick set escape screen shelter" tag={AMZ_TAG} className="font-bold underline decoration-emerald-500 underline-offset-2 hover:text-emerald-900">Clam Quick-Set Escape</AmazonLink> or Gazelle G6. It is the only tier built to be pitched and struck all season, and the only one that takes clip-on fabric wind panels. If you camp a few weekends a year at a sheltered inland site, the Coleman Instant Screened Canopy 11x11 is the value pick and the right answer for most people: 121 sq ft (11.2 m&sup2;) with pre-attached poles, up in about three minutes.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
               <li>Hub shelters (Clam Quick-Set Escape, Gazelle G6) are six-sided, heavier-framed, and the only screen houses that accept wind panels &mdash; several times the price of a big-box model.</li>
               <li>The Coleman Instant Screened Canopy 11x11 covers 121 sq ft (11 x 11 ft) and sets up in about 3 minutes.</li>
@@ -127,6 +129,9 @@ export default function BestScreenTentCanadaPage() {
               <li>Screen houses are seasonal stock in Canada; check current amazon.ca listings for what is actually available today.</li>
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+            <div className="mt-4">
+              <BuyLink search="clam quick set escape screen shelter" tag={AMZ_TAG} block className="sm:w-auto sm:min-h-0 sm:inline-flex sm:rounded-full sm:px-4 sm:py-2">Check price on Amazon.ca →</BuyLink>
+            </div>
           </div>
         </div>
       </section>
@@ -230,7 +235,7 @@ export default function BestScreenTentCanadaPage() {
                     <td className="px-4 py-3 text-gray-700">{size}</td>
                     <td className="px-4 py-3 text-gray-700">{setup}</td>
                     <td className="px-4 py-3 text-xs text-gray-600">{best}</td>
-                    <td className="px-4 py-3">{search ? <BuyLink tag={AMZ_TAG} search={search} block>Check price →</BuyLink> : <span className="text-xs text-gray-500">Canadian Tire only</span>}</td>
+                    <td className="px-4 py-3">{search ? <BuyLink tag={AMZ_TAG} search={search} block>Check price on Amazon.ca →</BuyLink> : <span className="text-xs text-gray-500">Canadian Tire only</span>}</td>
                   </tr>
                 ))}
               </tbody>
@@ -245,7 +250,6 @@ export default function BestScreenTentCanadaPage() {
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Jump straight to current Canadian availability &mdash; our top pick, and the value pick most people should buy:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="clam quick set escape screen shelter">Check the Clam Quick-Set on Amazon.ca &rarr;</BuyLink>

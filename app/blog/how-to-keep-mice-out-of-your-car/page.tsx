@@ -100,6 +100,7 @@ export default function HowToKeepMiceOutOfYourCarPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Capsaicin rodent deterrent tape (wire-wrap style)" search="rodent deterrent tape capsaicin wire" label="Best deterrent" />
 
       <section className="bg-white px-4">
@@ -172,7 +173,7 @@ export default function HowToKeepMiceOutOfYourCarPage() {
             The internet&rsquo;s advice for mice in cars runs from genuinely effective to pure folklore, and most articles refuse to say which is which. Here is the whole menu with an honest effectiveness call on each — and a live Amazon.ca price check for the ones worth buying.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Method</th>
@@ -192,19 +193,19 @@ export default function HowToKeepMiceOutOfYourCarPage() {
                   <td className="px-4 py-3 font-bold text-brand-800">Capsaicin rodent tape</td>
                   <td className="px-4 py-3 text-gray-700">Chili-pepper-treated harness tape; gnawing mice get an irritant burn at the wire</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Works</strong> on what you can wrap</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="rodent deterrent tape capsaicin wire" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="rodent deterrent tape capsaicin wire" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Snap traps around the car</td>
                   <td className="px-4 py-3 text-gray-700">Perimeter trap line along garage walls intercepts mice before they climb a tire</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Works</strong> &mdash; essential for stored cars</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="victor mouse trap 4 pack" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="victor mouse trap 4 pack" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Under-hood strobe/ultrasonic</td>
                   <td className="px-4 py-3 text-gray-700">Intermittent LED flashes (useful) plus ultrasonic sound (rodents habituate)</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Partial</strong> &mdash; strobe layer only, never solo</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="under hood rodent repeller strobe light battery" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="under hood rodent repeller strobe light battery" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Peppermint oil / scent sprays</td>
@@ -232,7 +233,7 @@ export default function HowToKeepMiceOutOfYourCarPage() {
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">Mice in Cars — Key Facts</h2>
-          <div className="rounded-xl border border-navy-100 overflow-hidden">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto">
             <table className="w-full text-sm">
               <tbody>
                 {[
@@ -279,7 +280,6 @@ export default function HowToKeepMiceOutOfYourCarPage() {
           </ul>
           <p>From the driver&rsquo;s seat, the later-stage tells are a check-engine light or a misfire after the car has been sitting, a dusty, musty, or ammonia smell from the vents when the fan first runs (mice love the HVAC intake and cabin-air filter), scratching sounds after you park, and — in the endgame — a car that simply will not start. If you are already at droppings-plus-nest, skip ahead to the trapping section: deterrents do not evict tenants.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the three picks:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="rodent deterrent tape capsaicin wire">Capsaicin rodent tape →</BuyLink>

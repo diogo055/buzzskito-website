@@ -128,8 +128,8 @@ export default function HowToCheckForBedBugsCanadaPage() {
             <li><strong>Bites in lines or clusters (suggestive only).</strong> The often-quoted &ldquo;breakfast, lunch, dinner&rdquo; pattern of three bites in a rough line is consistent with bed bugs but never diagnostic. Mosquitoes, fleas, mites, and plain skin conditions produce look-alike welts, and — critically — studies commonly cite that around 30% of people do not react to bed bug bites at all. Two people can share a bed over an active infestation and only one wakes up itchy.</li>
           </ol>
 
-          <div className="not-prose my-6 rounded-xl border border-navy-100 overflow-hidden bg-white shadow-sm overflow-x-auto">
-            <table className="w-full text-sm">
+          <div className="not-prose my-6 rounded-xl border border-navy-100 overflow-x-auto bg-white shadow-sm overflow-x-auto">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Sign</th>

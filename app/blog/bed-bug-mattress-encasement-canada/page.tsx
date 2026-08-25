@@ -99,7 +99,8 @@ export default function BedBugMattressEncasementCanadaPage() {
         </div>
       </section>
 
-      <StickyBuyBar tag={AMZ_TAG} name="SafeRest Premium bed bug mattress encasement" search="saferest mattress encasement" label="Best encasement" />
+      <AffiliateDisclosure />
+      <StickyBuyBar tag={AMZ_TAG} name="SafeRest Premium bed bug mattress encasement" asin="B004BAEF7E" search="saferest mattress encasement" label="Best encasement" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -129,6 +130,7 @@ export default function BedBugMattressEncasementCanadaPage() {
                 badge: 'Best Overall',
                 name: 'SafeRest Premium Mattress Encasement',
                 why: 'A lab-tested, six-sided seal with a micro-tooth zipper and a secured end-stop — the exact closure detail that decides whether containment holds for the full year.',
+                asin: 'B004BAEF7E',
                 search: 'saferest mattress encasement',
                 score: 9.1,
                 featured: true,
@@ -165,7 +167,6 @@ export default function BedBugMattressEncasementCanadaPage() {
 
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
-          <AffiliateDisclosure />
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
           <p className="not-prose text-sm text-gray-600 mb-1">Compare current Canadian availability for the encasements covered in this guide:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
@@ -189,7 +190,7 @@ export default function BedBugMattressEncasementCanadaPage() {
           <p>The rule has a brutal corollary: <strong>opening the zipper resets the clock</strong>. Unzip the encasement at month eight to &ldquo;check&rdquo; or wash it, and any survivors walk out. Keep a normal washable protector or fitted sheet over the encasement and launder that instead; the encasement itself stays sealed until at least a full year has passed with no bites, no fecal spotting on the fabric, and no live bugs in your interceptors. Our guide on <Link href="/blog/how-to-check-for-bed-bugs-canada">how to check for bed bugs</Link> covers exactly what those signs look like.</p>
 
           <h2>SafeRest vs Utopia vs Pillow Encasements — Comparison</h2>
-          <table className="not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
+          <table className="min-w-[560px] not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
             <thead className="bg-brand-50">
               <tr><th className="px-3 py-2 text-left">Product</th><th className="px-3 py-2 text-left">Zipper security</th><th className="px-3 py-2 text-left">Fabric</th><th className="px-3 py-2 text-left">Sizes / depth</th><th className="px-3 py-2 text-left">Best for</th></tr>
             </thead>

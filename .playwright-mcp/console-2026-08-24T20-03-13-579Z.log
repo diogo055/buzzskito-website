@@ -1,0 +1,34 @@
+[     550ms] [LOG] Error: Fides Wrapper: No valid GPP string value was found. GPP CMP will not be loaded.
+    at c (https://www.nytimes.com/wirecutter/reviews/best-bug-repellent/:31:192)
+    at e (https://www.nytimes.com/wirecutter/reviews/best-bug-repellent/:24:20)
+    at fidesScript (https://www.nytimes.com/wirecutter/reviews/best-bug-repellent/:93:6)
+    at https://www.nytimes.com/wirecutter/reviews/best-bug-repellent/:93:332 @ https://www.nytimes.com/wirecutter/reviews/best-bug-repellent/:23
+[    1236ms] [WARNING] Manifest: property 'start_url' ignored, should be same origin as document. @ https://dv-siren-prd.global.ssl.fastly.net/static/manifest.json:0
+[    1574ms] [LOG] Error: Fides Wrapper: No valid GPP string value was found. GPP CMP will not be loaded.
+    at b (<anonymous>:2:2311)
+    at i (<anonymous>:2:945)
+    at <anonymous>:2:2626
+    at <anonymous>:2:2950
+    at https://dv-siren-prd.global.ssl.fastly.net/_next/static/chunks/main-eba7dfb19b73ab76.js:1:6722
+    at Array.forEach (<anonymous>)
+    at r (https://dv-siren-prd.global.ssl.fastly.net/_next/static/chunks/main-eba7dfb19b73ab76.js:1:6709)
+    at https://dv-siren-prd.global.ssl.fastly.net/_next/static/chunks/main-eba7dfb19b73ab76.js:1:6199
+    at Array.forEach (<anonymous>)
+    at Object.updateHead (https://dv-siren-prd.global.ssl.fastly.net/_next/static/chunks/main-eba7dfb19b73ab76.js:1:6187) @ :1
+[    1991ms] [WARNING] limitedAds is not set, defaulting to false @ https://www.nytimes.com/wirecutter/reviews/best-bug-repellent/:212
+[    2612ms] [WARNING] Statsig skipped: missing or invalid statsig bootstrap in authOptions. @ https://myaccount.nytimes.com/lire_ui/js/register-regilite.bundle.js?v=9e37684:1
+[    2631ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://s.go-mpulse.net/boomerang/ATH8A-MAMN8-XPXCH-N5KAX-8D239:0
+[    2693ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://s.go-mpulse.net/boomerang/ATH8A-MAMN8-XPXCH-N5KAX-8D239:0
+[    3021ms] [WARNING] [GSI_LOGGER]: Your client application uses one of the Google One Tap prompt UI status methods that may stop functioning when FedCM becomes mandatory. Refer to the migration guide to update your code accordingly and opt-in to FedCM to test your changes. Learn more: https://developers.google.com/identity/gsi/web/guides/fedcm-migration?s=dc#display_moment and https://developers.google.com/identity/gsi/web/guides/fedcm-migration?s=dc#skipped_moment @ https://accounts.google.com/gsi/client:86
+[    3032ms] [ERROR] Not signed in with the identity provider. @ https://www.nytimes.com/wirecutter/reviews/best-bug-repellent/:0
+[    3149ms] [WARNING] [GPT] PubAdsService.setTargeting is deprecated, use googletag.setConfig({targeting: ...}) instead.
+https://goo.gle/gpt-message#170 @ https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202608200101/pubads_impl.js?cb=122880584:18
+[    3157ms] [WARNING] [GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.
+https://goo.gle/gpt-message#171 @ https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202608200101/pubads_impl.js?cb=122880584:18
+[    3367ms] [ERROR] Creating a worker from 'blob:https://myaccount.nytimes.com/0d1de588-25bb-471f-a9ad-c82dd3c486ba' violates the following Content Security Policy directive: "script-src 'self' 'unsafe-inline' 'unsafe-eval' *.nytimes.com *.nyt.com https://www.gstatic.com https://www.google.com https://www.googletagmanager.com https://www.google-analytics.com https://sc-static.net https://js.datadome.co https://*.go-mpulse.net". Note that 'worker-src' was not explicitly set, so 'script-src' is used as a fallback. The action has been blocked. @ https://dd.nytimes.com/tags.js:1
+[    5017ms] [ERROR] Failed to load resource: net::ERR_TOO_MANY_REDIRECTS @ https://partners.tremorhub.com/sync?UIIQ=e7c48fe5-125e-4c7a-bec7-4c1c9c895130:0
+[    5452ms] [INFO] Powered by AMP ⚡ HTML – Version 2607210106000 https://www.nytimes.com/wirecutter/reviews/best-bug-repellent/ @ https://cdn.ampproject.org/rtv/012607210106000/amp4ads-v0.mjs:1
+[    5783ms] [ERROR] Failed to load resource: net::ERR_TOO_MANY_REDIRECTS @ https://pxl.iqm.com/i/ck/pubmatic?puid=F984DDE6-7EF8-458A-853F-01B66BA4A465:0
+[    6605ms] [WARNING] The resource https://s.go-mpulse.net/boomerang/ATH8A-MAMN8-XPXCH-N5KAX-8D239 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://myaccount.nytimes.com/auth/iframe/register-regilite?response_type=cookie&client_id=wirecutter&redirect_uri=undefined&display=wirecutter-inline-regilite&asset=wc_nl_inline&application=wirecutter&preloaded=false#lire-ui-713059:0
+[    5017ms] [ERROR] Failed to load resource: net::ERR_TOO_MANY_REDIRECTS @ https://partners.tremorhub.com/sync?UIIQ=e7c48fe5-125e-4c7a-bec7-4c1c9c895130:0
+[    5783ms] [ERROR] Failed to load resource: net::ERR_TOO_MANY_REDIRECTS @ https://pxl.iqm.com/i/ck/pubmatic?puid=F984DDE6-7EF8-458A-853F-01B66BA4A465:0

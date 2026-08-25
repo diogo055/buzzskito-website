@@ -84,6 +84,7 @@ export default function FixStandingWaterYardPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="4&quot; Perforated Drain Pipe with Filter Sock" search="4 inch perforated drain pipe filter sock" label="Core drainage part" />
 
       <section className="bg-white px-4 pt-8">
@@ -219,7 +220,6 @@ export default function FixStandingWaterYardPage() {
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
-          <AffiliateDisclosure />
 
           <h2>Step One Is Free: Time Your Puddles</h2>
           <p>Before you buy a metre of pipe, find out whether you actually have a breeding problem or just a wet yard. Those are not the same thing, and confusing them is how people spend $400 solving a puddle that was never producing a mosquito.</p>

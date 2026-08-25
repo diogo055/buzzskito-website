@@ -100,6 +100,7 @@ export default function SteamerVsHeaterForBedBugsCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Dupray Neat steam cleaner" search="dupray neat steam cleaner" label="Buy this one first" />
 
       <section className="bg-white px-4">
@@ -129,7 +130,7 @@ export default function SteamerVsHeaterForBedBugsCanadaPage() {
             Both machines kill bed bugs and eggs with heat, and both are fully legal appliances in Canada. What separates them is <em>where the heat goes</em> &mdash; a steamer treats fixed surfaces you aim at, a heater treats loose items you enclose. Here is the honest side-by-side, with a live Amazon.ca availability check for each.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Factor</th>
@@ -177,8 +178,8 @@ export default function SteamerVsHeaterForBedBugsCanadaPage() {
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Availability</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="dupray neat steam cleaner" block>Check price →</BuyLink></td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="zappbug bed bug heater" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="dupray neat steam cleaner" block>Check price on Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="zappbug bed bug heater" block>Check price on Amazon.ca →</BuyLink></td>
                   <td className="px-4 py-3 text-gray-700">Buy the Canadian 120V listing for plug &amp; warranty</td>
                 </tr>
               </tbody>
@@ -203,7 +204,6 @@ export default function SteamerVsHeaterForBedBugsCanadaPage() {
           <p>The single most useful thing to understand before you spend a dollar is that a steamer and a heater chamber are not competing answers to the same question &mdash; they are two tools that solve two different halves of a bed-bug problem, and the honest recommendation for most people is that you will eventually want both. A <strong>steamer</strong> such as the Dupray Neat is a surface weapon: you aim a nozzle and drive intense, on-contact heat into the seams of your mattress, the joints of your bed frame, the cracks of a headboard, and the run of baseboard around the room. A <strong>heater chamber</strong> such as the ZappBug is a bulk-item weapon: you load clothing, bedding, luggage, shoes, and books inside, close it, and let dry heat soak the entire enclosed load until nothing alive remains &mdash; eggs included.</p>
           <p>So the &ldquo;which is better&rdquo; question really becomes &ldquo;which do I need first,&rdquo; and the answer there is clear. Buy the steamer first, because the bed and the area right around it are where a bed-bug population concentrates, and none of that furniture will ever fit inside a heater. The rest of this guide explains exactly why each tool covers the gap the other leaves &mdash; and how to use them together.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability for each tool:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="dupray neat steam cleaner">Dupray steamer →</BuyLink>

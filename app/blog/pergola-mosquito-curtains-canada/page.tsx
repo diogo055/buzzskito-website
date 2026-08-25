@@ -83,6 +83,7 @@ export default function PergolaMosquitoCurtainsCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Ceiling-mount curtain track kit for pergolas" search="ceiling mount curtain track kit with glides" label="Best mounting" />
 
       <section className="bg-white px-4">
@@ -203,7 +204,7 @@ export default function PergolaMosquitoCurtainsCanadaPage() {
                     <td className="px-4 py-3 font-bold text-brand-800">{part}</td>
                     <td className="px-4 py-3 text-gray-700">{spec}</td>
                     <td className="px-4 py-3 text-xs text-gray-600">{skip}</td>
-                    <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search={search} block>Check price &rarr;</BuyLink></td>
+                    <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search={search} block>Check price on Amazon.ca &rarr;</BuyLink></td>
                   </tr>
                 ))}
               </tbody>
@@ -218,7 +219,6 @@ export default function PergolaMosquitoCurtainsCanadaPage() {
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">The two parts most people get wrong &mdash; the mounting and the mesh:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="ceiling mount curtain track kit with glides">Check curtain track on Amazon.ca &rarr;</BuyLink>

@@ -79,6 +79,7 @@ export default function WondercideCanadaReviewPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Wondercide Flea & Tick Spray (cedarwood + lemongrass)" search="wondercide flea and tick spray" label="Best for pets" />
 
       <section className="bg-white pt-8 px-4">
@@ -122,8 +123,8 @@ export default function WondercideCanadaReviewPage() {
           <p className="text-sm text-gray-700 mb-5 leading-relaxed">
             Wondercide is a US brand, so Canadian supply mostly comes through third-party sellers on Amazon.ca, specialty and natural pet stores, and direct shipping from wondercide.com. Stock is inconsistent and pricing runs above US shelf prices &mdash; check the seller and the product line before you buy.
           </p>
-          <div className="rounded-xl border border-navy-100 overflow-hidden bg-white shadow-sm">
-            <table className="w-full text-sm">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto bg-white shadow-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Retailer</th>
@@ -164,7 +165,7 @@ export default function WondercideCanadaReviewPage() {
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">Wondercide Key Facts</h2>
-          <div className="rounded-xl border border-navy-100 overflow-hidden">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto">
             <table className="w-full text-sm">
               <tbody>
                 {[
@@ -195,7 +196,6 @@ export default function WondercideCanadaReviewPage() {
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Compare current Canadian prices across the Wondercide line (Flea &amp; Tick pet spray, Yard + Garden, personal repellent):</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="wondercide flea and tick spray">Check Flea &amp; Tick price on Amazon.ca →</BuyLink>
@@ -205,7 +205,7 @@ export default function WondercideCanadaReviewPage() {
           <h2 id="products">Wondercide Products Compared: Flea &amp; Tick vs Yard + Garden vs Personal</h2>
           <p>Wondercide is not a single product &mdash; it is a family of cedar-oil sprays for different jobs, and buying the wrong one is the most common mistake. The <strong>Flea &amp; Tick Spray</strong> goes on your pet and indoor surfaces; the <strong>Yard + Garden</strong> line treats the outdoor perimeter; the <strong>personal repellent</strong> goes on you before a hike. Here is every main line sold into Canada, what it is for, and a live Amazon.ca price check:</p>
           <div className="not-prose my-6 overflow-x-auto rounded-xl border border-navy-100 shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Product</th>
@@ -221,28 +221,28 @@ export default function WondercideCanadaReviewPage() {
                   <td className="px-4 py-3 text-gray-700">On pets, bedding, indoor surfaces</td>
                   <td className="px-4 py-3 text-gray-700">Cedarwood + lemongrass + sesame oil</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$35 – $60</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="wondercide flea and tick spray" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="wondercide flea and tick spray" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Yard + Garden Ready-to-Spray</td>
                   <td className="px-4 py-3 text-gray-700">Hose-end perimeter treatment</td>
                   <td className="px-4 py-3 text-gray-700">Cedar oil blend</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$45 – $95</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="wondercide yard and garden ready to spray" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="wondercide yard and garden ready to spray" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Yard + Garden Concentrate</td>
                   <td className="px-4 py-3 text-gray-700">Mixes multiple gallons for larger lots</td>
                   <td className="px-4 py-3 text-gray-700">Cedar oil blend (concentrated)</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$70 – $130</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="wondercide yard and garden concentrate" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="wondercide yard and garden concentrate" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 font-bold text-brand-800">Flea, Tick &amp; Mosquito Repellent <span className="font-normal text-xs text-gray-500">(personal)</span></td>
                   <td className="px-4 py-3 text-gray-700">On skin/clothing before outdoor time</td>
                   <td className="px-4 py-3 text-gray-700">Cedarwood / lemongrass / peppermint</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$25 – $40</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="wondercide flea tick mosquito repellent" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="wondercide flea tick mosquito repellent" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -293,7 +293,7 @@ export default function WondercideCanadaReviewPage() {
           </aside>
 
           <h2>Wondercide vs Real Yard Tick Solutions</h2>
-          <table className="not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
+          <table className="min-w-[560px] not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
             <thead className="bg-brand-50">
               <tr><th className="px-3 py-2 text-left">Solution</th><th className="px-3 py-2 text-left">Cost</th><th className="px-3 py-2 text-left">Protection window</th><th className="px-3 py-2 text-left">Yard tick coverage</th></tr>
             </thead>

@@ -59,7 +59,7 @@ export default function TopPick({
       </p>
       <p className="mb-4 text-sm leading-relaxed text-gray-700">{blurb}</p>
       <ProsCons pros={pros ?? []} cons={cons ?? []} />
-      <BuyLink search={search} asin={asin} tag={tag}>{cta}</BuyLink>
+      <BuyLink search={search} asin={asin} tag={tag} block className="sm:w-auto sm:min-h-0 sm:inline-flex sm:rounded-full sm:px-4 sm:py-2">{cta}</BuyLink>
     </div>
   )
 }

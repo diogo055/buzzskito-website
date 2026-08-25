@@ -100,6 +100,7 @@ export default function BedBugHeatTreatmentDiyCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Portable bed bug heat chamber (ZappBug Room)" search="zappbug room bed bug heater" label="Best for home DIY" />
 
       <section className="bg-white px-4">
@@ -181,7 +182,7 @@ export default function BedBugHeatTreatmentDiyCanadaPage() {
             &ldquo;DIY heat&rdquo; is really three different approaches with very different safety profiles and coverage. Here is the honest breakdown, with a live Amazon.ca availability check per method.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Method</th>
@@ -197,7 +198,7 @@ export default function BedBugHeatTreatmentDiyCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Belongings — clothing, bedding, luggage, small items</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Yes</strong> — all stages</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best</strong> — engineered to hold temp safely</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="zappbug room bed bug heater" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="zappbug room bed bug heater" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Space heaters in a room<br /><span className="font-normal text-xs text-gray-500">improvised</span></td>
@@ -211,7 +212,7 @@ export default function BedBugHeatTreatmentDiyCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Mattress seams, frame, baseboards heat chambers can&rsquo;t reach</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Yes</strong> — on contact</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Good</strong> — hot water, mind the burn risk</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bed bug steamer dry vapor" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bed bug steamer dry vapor" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Freezer (cold)<br /><span className="font-normal text-xs text-gray-500">the opposite of heat</span></td>
@@ -242,7 +243,6 @@ export default function BedBugHeatTreatmentDiyCanadaPage() {
           <p>Every DIY bed bug method runs into the same wall eventually: the eggs. Female bed bugs cement their eggs to fabric with a coating that vacuuming cannot lift, and many contact sprays do not penetrate the shell, so a treatment that wipes out the adults but spares the eggs simply resets the clock &mdash; a fresh generation hatches in about ten days and you are back where you started. Heat is one of the very few approaches that solves this. A high-enough temperature, held long enough, cooks the developing embryo inside the shell and kills every life stage at once: adults, nymphs, and eggs. That is the entire reason heat treatment is worth the effort and the gear.</p>
           <p>But that advantage comes with one strict condition, and understanding it is the difference between a treatment that works and one that quietly fails. The lethal temperature has to reach the bug, wherever it is hiding &mdash; and bed bugs hide in exactly the coldest, most heat-shielded places: deep in a folded quilt, the core of a packed duffel, the toe of a shoe, a mattress seam. Everything below is about getting the heat all the way in there and proving that it arrived.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the DIY heat gear:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="zappbug room bed bug heater">ZappBug Room →</BuyLink>

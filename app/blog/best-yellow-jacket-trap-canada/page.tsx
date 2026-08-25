@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
+import AmazonLink from '@/components/AmazonLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import SpecialistDisclosure from '@/components/SpecialistDisclosure'
 import AwardRow from '@/components/AwardRow'
@@ -104,13 +105,14 @@ export default function BestYellowJacketTrapCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="RESCUE! Reusable Yellowjacket Trap (standard/East attractant)" search="rescue reusable yellowjacket trap" label="Best overall" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The best yellow jacket trap in Canada is the RESCUE! Reusable Yellowjacket Trap with the standard (East-formula) attractant &mdash; but only if you avoid the YJTD-W &ldquo;West of the Rockies&rdquo; SKU, whose heptyl butyrate lure barely works on the eastern, German, and common yellowjackets that dominate Ontario. Hang traps 6+ metres from your patio, and expect them to thin foragers, not eliminate a nest.</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The best yellow jacket trap in Canada is the <AmazonLink search="rescue reusable yellowjacket trap" tag={AMZ_TAG} className="font-bold underline decoration-emerald-500 underline-offset-2 hover:text-emerald-900">RESCUE! Reusable Yellowjacket Trap</AmazonLink> with the standard (East-formula) attractant &mdash; but only if you avoid the YJTD-W &ldquo;West of the Rockies&rdquo; SKU, whose heptyl butyrate lure barely works on the eastern, German, and common yellowjackets that dominate Ontario. Hang traps 6+ metres from your patio, and expect them to thin foragers, not eliminate a nest.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
               <li>RESCUE! sells two attractant formulas: the &ldquo;W&rdquo; SKU targets western species &mdash; eastern Canada needs the standard/East version.</li>
               <li>Yellow jackets want protein (meat, insects) in May&ndash;July and switch to sugar in August&ndash;September &mdash; match refillable trap bait to the month.</li>
@@ -120,6 +122,9 @@ export default function BestYellowJacketTrapCanadaPage() {
               <li>Traps are devices, not pesticides &mdash; no PMRA registration needed, unlike grey-market US sprays and poison baits.</li>
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito Pest Product Guides &middot; independent Canadian research</p>
+            <div className="mt-4">
+              <BuyLink search="rescue reusable yellowjacket trap" tag={AMZ_TAG} block className="sm:w-auto sm:min-h-0 sm:inline-flex sm:rounded-full sm:px-4 sm:py-2">Check price on Amazon.ca →</BuyLink>
+            </div>
           </div>
           <SpecialistDisclosure pest="yellow jackets" />
         </div>
@@ -193,8 +198,8 @@ export default function BestYellowJacketTrapCanadaPage() {
           <p>Trapping strategy falls straight out of that biology, in three rules: match the bait to the colony&rsquo;s current appetite, place traps to intercept foragers away from you, and be honest that a trap thins the workforce without touching the nest.</p>
 
           <h2>How the Four Trap Styles Compare</h2>
-          <div className="not-prose rounded-xl border border-navy-100 overflow-hidden bg-white shadow-sm my-6 overflow-x-auto">
-            <table className="w-full text-sm">
+          <div className="not-prose rounded-xl border border-navy-100 overflow-x-auto bg-white shadow-sm my-6 overflow-x-auto">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Trap</th>
@@ -210,35 +215,34 @@ export default function BestYellowJacketTrapCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Species-matched cartridge, weeks per refill; bee-safe</td>
                   <td className="px-4 py-3 text-gray-700">Yes &mdash; body lasts years</td>
                   <td className="px-4 py-3 text-xs text-gray-600">Best overall for Ontario &amp; eastern Canada</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="rescue reusable yellowjacket trap" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="rescue reusable yellowjacket trap" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">RESCUE! WHY Trap<br /><span className="font-normal text-xs text-gray-500">wasps + hornets + yellowjackets</span></td>
                   <td className="px-4 py-3 text-gray-700">Multi-attractant, dual chamber</td>
                   <td className="px-4 py-3 text-gray-700">Yes &mdash; with refill kits</td>
                   <td className="px-4 py-3 text-xs text-gray-600">Mixed pressure when you can&rsquo;t ID the wasp</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="rescue why trap wasp hornet yellow jacket" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="rescue why trap wasp hornet yellow jacket" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">RESCUE! Disposable bag<br /><span className="font-normal text-xs text-gray-500">pre-baited, add water</span></td>
                   <td className="px-4 py-3 text-gray-700">Pre-loaded attractant, water-activated</td>
                   <td className="px-4 py-3 text-gray-700">No &mdash; hang, fill, bin</td>
                   <td className="px-4 py-3 text-xs text-gray-600">Events, cottages, zero-maintenance perimeters</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="rescue disposable yellowjacket trap" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="rescue disposable yellowjacket trap" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Bottle-style refillable<br /><span className="font-normal text-xs text-gray-500">bait it yourself</span></td>
                   <td className="px-4 py-3 text-gray-700">Your bait: protein early season, sugar late</td>
                   <td className="px-4 py-3 text-gray-700">Yes &mdash; indefinitely</td>
                   <td className="px-4 py-3 text-xs text-gray-600">Hands-on users running the seasonal bait switch</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="hanging wasp trap reusable bottle" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="hanging wasp trap reusable bottle" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
           </div>
           <p className="text-sm text-gray-600">All four are mechanical devices, not pesticides &mdash; none require PMRA registration, so all are legal in every province. Retail pricing runs from pocket change for a disposable bag to a modest one-time spend for the reusable bodies, with attractant refills the only recurring cost.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the picks:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="rescue reusable yellowjacket trap">RESCUE! reusable trap →</BuyLink>
@@ -247,7 +251,7 @@ export default function BestYellowJacketTrapCanadaPage() {
           </div>
 
           <h2>Yellow Jacket Trapping — Key Facts</h2>
-          <div className="not-prose rounded-xl border border-navy-100 overflow-hidden my-6">
+          <div className="not-prose rounded-xl border border-navy-100 overflow-x-auto my-6">
             <table className="w-full text-sm">
               <tbody>
                 {[

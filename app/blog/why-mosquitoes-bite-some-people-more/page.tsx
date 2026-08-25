@@ -188,6 +188,7 @@ export default function WhyMosquitoesBiteSomeMorePage() {
           <li><strong>Apply professional barrier spray</strong> — treats the resting habitat where mosquitoes shelter during the day, knocking down the adult population that is searching for hosts each evening. A properly applied <Link href="/mosquito-control" className="text-brand-700 underline">professional mosquito treatment</Link> protects every person in the household equally — your blood type does not matter to a yard with no mosquitoes in it.</li>
         </ul>
         <p>Of those two, the one you can act on this afternoon for a few dollars is the breeding sites. Any water you cannot tip out — a rain barrel, a blocked gutter, a pond edge, a birdbath you want to keep — can be treated with a Bti larvicide instead, which kills the larvae in it without harming anything else that drinks from it.</p>
+        <AffiliateDisclosure />
         <TopPick tag={AMZ_TAG}
           label="Best Pick for the Whole Household"
           name="Summit Mosquito Dunks (Bti larvicide)"
@@ -200,7 +201,6 @@ export default function WhyMosquitoesBiteSomeMorePage() {
 
         <h2>The Real Strategy: Stack Personal &amp; Environmental Protection</h2>
         <p>Realistically, the people who get bitten the least in Ontario are not the lucky genetic outliers — they are the people who do all the boring environmental work. Their yards are treated. Their breeding sites are eliminated. They wear DEET or picaridin when they are in higher-pressure areas. They wear light colours during peak mosquito hours. Layered, the effect is dramatic.</p>
-        <AffiliateDisclosure />
         <p>On the personal-protection side, two products do most of the work. For skin, a <strong>picaridin</strong> repellent is the modern pick — it lasts as long as DEET, is nearly odourless, and won&apos;t damage plastics, sunglasses, or gear: <BuyLink tag={AMZ_TAG} search="picaridin insect repellent canada">Check price on Amazon.ca →</BuyLink>. For a stationary patio or deck, a <strong>Thermacell</strong> creates a scent-free protection zone with nothing sprayed on your skin at all: <BuyLink tag={AMZ_TAG} search="thermacell mosquito repeller">Check price on Amazon.ca →</BuyLink>. For the full rundown of what actually works here, see our <Link href="/blog/mosquito-repellent-guide-ontario-2026" className="text-brand-700 underline">Ontario mosquito repellent guide</Link>.</p>
 
         <TopPick tag={AMZ_TAG}

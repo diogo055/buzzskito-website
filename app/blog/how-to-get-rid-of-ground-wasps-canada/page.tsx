@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
+import AmazonLink from '@/components/AmazonLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import SpecialistDisclosure from '@/components/SpecialistDisclosure'
 import AwardRow from '@/components/AwardRow'
@@ -104,13 +105,14 @@ export default function HowToGetRidOfGroundWaspsCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Wilson OneShot Jet Foam Wasp & Hornet Killer" search="wilson one shot foam wasp hornet killer" label="Best ground-nest foam" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">To get rid of ground wasps in Canada, confirm the single entrance hole in daylight, then treat it at dusk &mdash; when the whole colony is home and sluggish &mdash; by soaking the entrance from 2&ndash;3 metres away with a PMRA-registered jet foam like Wilson OneShot Jet Foam Wasp &amp; Hornet Killer. Leave the hole open, walk away, and expect near-zero traffic within 48 hours.</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">To get rid of ground wasps in Canada, confirm the single entrance hole in daylight, then treat it at dusk &mdash; when the whole colony is home and sluggish &mdash; by soaking the entrance from 2&ndash;3 metres away with a PMRA-registered jet foam like <AmazonLink search="wilson one shot foam wasp hornet killer" tag={AMZ_TAG} className="font-bold underline decoration-emerald-500 underline-offset-2 hover:text-emerald-900">Wilson OneShot Jet Foam Wasp &amp; Hornet Killer</AmazonLink>. Leave the hole open, walk away, and expect near-zero traffic within 48 hours.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
               <li>Ground nests in Canadian lawns are almost always yellow jackets that took over an old rodent burrow &mdash; colonies reach hundreds to several thousand workers by late August.</li>
               <li>Mower and trimmer vibration reads as a digging predator to the colony &mdash; it is the number-one trigger for mass sting attacks over ground nests.</li>
@@ -120,6 +122,9 @@ export default function HowToGetRidOfGroundWaspsCanadaPage() {
               <li>Multiple entrance holes, a nest feeding into a wall void, or a sting allergy in the house means stop and hire a licensed local exterminator.</li>
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito Pest Product Guides &middot; independent Canadian research</p>
+            <div className="mt-4">
+              <BuyLink search="wilson one shot foam wasp hornet killer" tag={AMZ_TAG} block className="sm:w-auto sm:min-h-0 sm:inline-flex sm:rounded-full sm:px-4 sm:py-2">Check price on Amazon.ca →</BuyLink>
+            </div>
           </div>
           <SpecialistDisclosure pest="ground wasps" />
         </div>
@@ -190,7 +195,6 @@ export default function HowToGetRidOfGroundWaspsCanadaPage() {
           <p>This is why the danger curve climbs through the season. In June a nest holds a few dozen wasps and a mowing pass gets you one or two stings; by late August and September the same nest holds its maximum population, its brood is at peak value, and the colony is at its most defensive &mdash; the mass-sting incidents that put people in Canadian emergency rooms cluster exactly there. If you hit a nest with the mower: abandon the mower, walk away fast in a straight line into a building or vehicle, and do not swat &mdash; crushed wasps release more alarm pheromone. Come back for the mower after dark.</p>
           <p>Until the nest is dead, flag a generous no-mow zone around it and tell everyone in the house. A nest you know about and avoid is a minor hazard; a nest a landscaper or visiting kid does not know about is the dangerous one.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the gear this guide uses:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="wilson one shot foam wasp hornet killer">Wilson OneShot Jet Foam →</BuyLink>
@@ -220,8 +224,8 @@ export default function HowToGetRidOfGroundWaspsCanadaPage() {
           <p>The Canadian-label <strong>Raid Max Wasp &amp; Hornet</strong> earns its place for one scenario: entrances you cannot safely approach within foam range &mdash; on a slope above you, beside a woodpile, at the base of a hedge you cannot see into. Its straight jet reaches from roughly 5&ndash;6 metres, letting you collapse the entrance traffic from real stand-off distance, then follow up with foam at the hole once things quiet down. For a full comparison of every registered can on the Canadian market, see our <Link href="/blog/best-wasp-nest-spray-canada">best wasp nest spray guide</Link>.</p>
 
           <h2>How the Methods Compare</h2>
-          <div className="not-prose rounded-xl border border-navy-100 overflow-hidden bg-white shadow-sm my-6 overflow-x-auto">
-            <table className="w-full text-sm">
+          <div className="not-prose rounded-xl border border-navy-100 overflow-x-auto bg-white shadow-sm my-6 overflow-x-auto">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Method</th>
@@ -237,21 +241,21 @@ export default function HowToGetRidOfGroundWaspsCanadaPage() {
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Yes</strong> &mdash; nest uninhabitable in ~48 h</td>
                   <td className="px-4 py-3 text-gray-700">Low (2&ndash;3 m stand-off, colony dormant)</td>
                   <td className="px-4 py-3 text-gray-700">PMRA domestic class &mdash; fully legal</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="wilson one shot foam wasp hornet killer" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="wilson one shot foam wasp hornet killer" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Long-range jet spray<br /><span className="font-normal text-xs text-gray-500">Raid Max, Doktor Doom</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Usually</strong> &mdash; weaker burrow penetration than foam</td>
                   <td className="px-4 py-3 text-gray-700">Low (5&ndash;6 m stand-off)</td>
                   <td className="px-4 py-3 text-gray-700">PMRA domestic class &mdash; fully legal</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="raid max wasp hornet bug killer" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="raid max wasp hornet bug killer" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Yellow jacket trap<br /><span className="font-normal text-xs text-gray-500">RESCUE! WHY</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">No</strong> &mdash; thins foragers only</td>
                   <td className="px-4 py-3 text-gray-700">Minimal</td>
                   <td className="px-4 py-3 text-gray-700">Device, no registration needed</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="rescue why trap wasp hornet yellowjacket" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="rescue why trap wasp hornet yellowjacket" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Boiling water</td>

@@ -100,6 +100,7 @@ export default function GoodnatureA24ReviewCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Goodnature A24 self-resetting rat & mouse trap" search="goodnature a24 automatic rat trap" label="Poison-free auto-reset" />
 
       <section className="bg-white px-4">
@@ -157,7 +158,6 @@ export default function GoodnatureA24ReviewCanadaPage() {
           <p>The mechanism is elegant. A rodent, drawn by a long-life lure smeared at the mouth of the trap, pushes up into a chamber sized for its head. That movement trips a leaf-spring trigger, which releases a piston driven by the compressed CO₂. The piston strikes the skull with high energy &mdash; a fast, humane kill &mdash; then retracts. The dead rodent, no longer holding itself up, simply drops out the bottom of the trap onto the ground (or into whatever you place below), and the trap resets to its armed position in seconds.</p>
           <p>The &ldquo;24&rdquo; in the name is the strike budget: a single 16-gram CO₂ canister holds enough gas to power up to 24 strikes before it needs replacing. Between the auto-reset and that strike budget, the trap can run genuinely unattended &mdash; the exact opposite of a snap trap that is &ldquo;done&rdquo; the moment it fires once. Add the long-life lure (formulated to stay attractive for roughly six months) and you have a device you can set on a fence post in May and barely think about until fall.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability and pricing:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="goodnature a24 automatic rat trap">Goodnature A24 on Amazon.ca →</BuyLink>
@@ -192,8 +192,8 @@ export default function GoodnatureA24ReviewCanadaPage() {
 
           <h2>A24 vs Snap Trap vs Bait Station: The Honest Comparison</h2>
           <p>Here is how the three main lethal options stack up for a Canadian home. Note what wins where &mdash; there is no single &ldquo;best&rdquo; that ignores your situation.</p>
-          <div className="not-prose rounded-xl border border-navy-100 overflow-hidden bg-white shadow-sm my-6 overflow-x-auto">
-            <table className="w-full text-sm">
+          <div className="not-prose rounded-xl border border-navy-100 overflow-x-auto bg-white shadow-sm my-6 overflow-x-auto">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Option</th>
@@ -211,7 +211,7 @@ export default function GoodnatureA24ReviewCanadaPage() {
                   <td className="px-4 py-3 text-emerald-700 font-semibold">Yes — up to 24/canister</td>
                   <td className="px-4 py-3 text-emerald-700">None — fully poison-free</td>
                   <td className="px-4 py-3 text-xs text-gray-600">Chronic rat pressure; hands-off; poison-free homes</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="goodnature a24 automatic rat trap" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="goodnature a24 automatic rat trap" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Snap trap</td>
@@ -219,7 +219,7 @@ export default function GoodnatureA24ReviewCanadaPage() {
                   <td className="px-4 py-3 text-amber-700 font-semibold">No — manual reset</td>
                   <td className="px-4 py-3 text-emerald-700">None — poison-free</td>
                   <td className="px-4 py-3 text-xs text-gray-600">Single rodent or a short, attended trap line</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="rat snap trap heavy duty" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="rat snap trap heavy duty" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Bait station</td>
@@ -227,7 +227,7 @@ export default function GoodnatureA24ReviewCanadaPage() {
                   <td className="px-4 py-3 text-gray-500">N/A — refill bait</td>
                   <td className="px-4 py-3 text-red-700">Poison + secondary-poisoning risk</td>
                   <td className="px-4 py-3 text-xs text-gray-600">Heavy exterior infestations where legal</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="tomcat rat bait station" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="tomcat rat bait station" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
               </tbody>
             </table>

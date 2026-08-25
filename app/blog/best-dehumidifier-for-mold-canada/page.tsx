@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
+import AmazonLink from '@/components/AmazonLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import SpecialistDisclosure from '@/components/SpecialistDisclosure'
 import AwardRow from '@/components/AwardRow'
@@ -100,13 +101,14 @@ export default function BestDehumidifierForMoldCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Energy Star dehumidifier with hygrostat" search="frigidaire dehumidifier hygrostat continuous drain" label="Best overall" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The best dehumidifier for mould in Canada is a <strong>mid-to-large-capacity Energy Star unit with a built-in hygrostat</strong> &mdash; a Frigidaire or Midea in the 35&ndash;50 pint class for a typical basement. Set it to hold <strong>45&ndash;50% relative humidity</strong>, which is below the ~60% threshold where mould grows, and run it on a <strong>continuous-drain hose</strong> so the tank never fills and stalls it. A dehumidifier prevents and controls mould by removing the moisture spores need &mdash; it does not clean mould that is already there. Size it to the room; an undersized unit runs non-stop and never wins.</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The best dehumidifier for mould in Canada is a <strong>mid-to-large-capacity Energy Star unit with a built-in hygrostat</strong> &mdash; a <AmazonLink search="frigidaire dehumidifier hygrostat continuous drain" tag={AMZ_TAG} className="font-bold underline decoration-emerald-500 underline-offset-2 hover:text-emerald-900">Frigidaire</AmazonLink> or Midea in the 35&ndash;50 pint class for a typical basement. Set it to hold <strong>45&ndash;50% relative humidity</strong>, which is below the ~60% threshold where mould grows, and run it on a <strong>continuous-drain hose</strong> so the tank never fills and stalls it. A dehumidifier prevents and controls mould by removing the moisture spores need &mdash; it does not clean mould that is already there. Size it to the room; an undersized unit runs non-stop and never wins.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
               <li>Keep relative humidity <strong>below 60%</strong> (target 45&ndash;50%) and mould spores stay dormant &mdash; they need moisture to grow.</li>
               <li>A <strong>hygrostat</strong> lets the unit hold a setpoint and cycle, instead of running flat-out until the tank overflows.</li>
@@ -116,6 +118,9 @@ export default function BestDehumidifierForMoldCanadaPage() {
               <li>Energy Star + right sizing keeps the hydro cost modest against the cost of a mould problem left to grow.</li>
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito Pest Product Guides &middot; independent Canadian research</p>
+            <div className="mt-4">
+              <BuyLink search="frigidaire dehumidifier hygrostat continuous drain" tag={AMZ_TAG} block className="sm:w-auto sm:min-h-0 sm:inline-flex sm:rounded-full sm:px-4 sm:py-2">Check price on Amazon.ca →</BuyLink>
+            </div>
           </div>
           <SpecialistDisclosure pest="mould" />
         </div>
@@ -181,7 +186,7 @@ export default function BestDehumidifierForMoldCanadaPage() {
             All four control humidity, but they suit different spaces and dampness levels. Here is the honest breakdown for mould control, with a live Amazon.ca availability check per class.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Class</th>
@@ -197,28 +202,28 @@ export default function BestDehumidifierForMoldCanadaPage() {
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best all-round</strong> &mdash; typical damp basement</td>
                   <td className="px-4 py-3 text-gray-700">Continuous drain to a floor drain or sump</td>
                   <td className="px-4 py-3 text-gray-700">Needs a drain route or you empty a bucket</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="frigidaire dehumidifier hygrostat continuous drain" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="frigidaire dehumidifier hygrostat continuous drain" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">High-capacity + pump<br /><span className="font-normal text-xs text-gray-500">very wet spaces</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best</strong> &mdash; wet basement, no floor drain</td>
                   <td className="px-4 py-3 text-gray-700">Built-in pump drains upward, out a window/sink</td>
                   <td className="px-4 py-3 text-gray-700">Higher cost; pump adds maintenance</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="high capacity dehumidifier with pump 50 pint" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="high capacity dehumidifier with pump 50 pint" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Value mid-size<br /><span className="font-normal text-xs text-gray-500">Midea-class</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Good</strong> &mdash; same features, lower price</td>
                   <td className="px-4 py-3 text-gray-700">Continuous drain supported</td>
                   <td className="px-4 py-3 text-gray-700">Fewer premium extras</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="midea dehumidifier humidistat energy star" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="midea dehumidifier humidistat energy star" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Compact<br /><span className="font-normal text-xs text-gray-500">smaller rooms</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Fair</strong> &mdash; a single moderately damp room</td>
                   <td className="px-4 py-3 text-gray-700">Small tank; some support a hose</td>
                   <td className="px-4 py-3 text-gray-700">Undersized for a full wet basement</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="compact dehumidifier energy star humidistat" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="compact dehumidifier energy star humidistat" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -242,7 +247,6 @@ export default function BestDehumidifierForMoldCanadaPage() {
           <p>The best dehumidifier for mould in a Canadian home is a mid-to-large-capacity, Energy Star unit with a built-in hygrostat &mdash; a Frigidaire or Midea in the 35&ndash;50 pint class covers the typical damp basement &mdash; run on continuous drainage and set to hold 45&ndash;50% relative humidity. That single sentence contains the whole strategy, and everything below unpacks why each part of it matters. The machine is not fighting mould directly; it is removing the humidity that mould needs to exist. Get the humidity right and the mould problem largely solves itself; get it wrong and no amount of scrubbing keeps the growth from returning.</p>
           <p>The mistake that sinks most purchases is treating a dehumidifier like any other appliance and buying on price alone. For mould control specifically, three features decide whether the machine works: a real hygrostat so it holds a target, enough capacity for the space so it actually reaches that target, and a drainage setup so it runs uninterrupted. A cheap box missing any of the three will disappoint you in a damp basement, which is exactly where you need it most.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the picks:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="frigidaire dehumidifier hygrostat continuous drain">Frigidaire (best overall) →</BuyLink>

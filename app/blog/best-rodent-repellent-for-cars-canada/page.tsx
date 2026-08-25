@@ -104,6 +104,7 @@ export default function BestRodentRepellentForCarsCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Capsaicin rodent deterrent tape (Honda-style)" search="rodent deterrent tape capsaicin" label="Best overall" />
 
       <section className="bg-white px-4">
@@ -185,7 +186,7 @@ export default function BestRodentRepellentForCarsCanadaPage() {
             &ldquo;Rodent repellent for cars&rdquo; covers four very different tools, and they are not interchangeable &mdash; each attacks a different part of the problem. Here is the honest breakdown, with our evidence rating and a live Amazon.ca price check per type.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Type</th>
@@ -201,28 +202,28 @@ export default function BestRodentRepellentForCarsCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Hot-pepper extract in the tape itself &mdash; the first gnaw is immediately aversive</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Strongest here</strong> &mdash; taste aversion doesn&rsquo;t habituate like scent</td>
                   <td className="px-4 py-3 text-gray-700">None after installation; inspect yearly</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="rodent deterrent tape capsaicin" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="rodent deterrent tape capsaicin" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Strobe / ultrasonic<br /><span className="font-normal text-xs text-gray-500">Battery under-hood units</span></td>
                   <td className="px-4 py-3 text-gray-700">Intermittent bright light (plus ultrasound) makes the bay feel unsafe as shelter</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Mixed</strong> &mdash; ultrasound habituates; the strobe in an enclosed bay is the better half</td>
                   <td className="px-4 py-3 text-gray-700">Battery check monthly (faster in deep cold)</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="under hood rodent repeller battery" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="under hood rodent repeller battery" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Peppermint pouches<br /><span className="font-normal text-xs text-gray-500">Essential-oil sachets</span></td>
                   <td className="px-4 py-3 text-gray-700">High-concentration mint scent is aversive &mdash; until it evaporates</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-red-700">Weakest</strong> &mdash; real but short-lived; supplementary only</td>
                   <td className="px-4 py-3 text-gray-700">Replace monthly, without fail</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="peppermint oil rodent repellent pouches" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="peppermint oil rodent repellent pouches" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 font-bold text-brand-800">Perimeter snap traps<br /><span className="font-normal text-xs text-gray-500">Victor wood traps, around the car</span></td>
                   <td className="px-4 py-3 text-gray-700">Removes the local mice on the approach routes before they climb in</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Proven</strong> &mdash; population control is the layer no repellent replaces</td>
                   <td className="px-4 py-3 text-gray-700">Check and re-bait on a schedule</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="victor mouse trap 4 pack" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="victor mouse trap 4 pack" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -241,7 +242,7 @@ export default function BestRodentRepellentForCarsCanadaPage() {
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">Rodent-Proofing a Car — Key Facts</h2>
-          <div className="rounded-xl border border-navy-100 overflow-hidden">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto">
             <table className="w-full text-sm">
               <tbody>
                 {[
@@ -278,7 +279,6 @@ export default function BestRodentRepellentForCarsCanadaPage() {
           <p>The market structure is easy to see once you sort it by mechanism. Taste deterrents (the tape) punish the chew itself and do not fade into background smell. Light-and-sound units attack the engine bay&rsquo;s appeal as dark shelter, with honestly mixed evidence. Scent products (peppermint) are aversive but evaporate. And traps do the one thing no repellent can — reduce the number of mice in your garage in the first place. A serious defence, especially for a vehicle heading into Canadian winter storage, stacks the layers rather than betting on one.</p>
           <p>This guide is the product-picking companion to our <Link href="/blog/how-to-keep-mice-out-of-your-car">how to keep mice out of your car</Link> playbook, which covers the parking habits, food rules, and inspection routine around the gear. Here we rank the gear itself.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the four picks:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="rodent deterrent tape capsaicin">Capsaicin deterrent tape →</BuyLink>

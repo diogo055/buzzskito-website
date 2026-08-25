@@ -100,6 +100,7 @@ export default function RaccoonDeterrentCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Motion-activated sprinkler (Orbit Yard Enforcer)" search="motion activated sprinkler animal repellent" label="Best raccoon deterrent" />
 
       <section className="bg-white px-4">
@@ -116,6 +117,9 @@ export default function RaccoonDeterrentCanadaPage() {
               <li>Ultrasonic repellers and mothballs are the two classic wastes: the first has weak evidence, the second is an illegal off-label pesticide use in Canada.</li>
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito Pest Product Guides &middot; independent Canadian research</p>
+            <div className="mt-4">
+              <BuyLink search="motion activated sprinkler animal repellent" tag={AMZ_TAG} block className="sm:w-auto sm:min-h-0 sm:inline-flex sm:rounded-full sm:px-4 sm:py-2">Check price on Amazon.ca →</BuyLink>
+            </div>
           </div>
           <SpecialistDisclosure pest="raccoons" />
         </div>
@@ -186,11 +190,10 @@ export default function RaccoonDeterrentCanadaPage() {
           <p>The rule exists for solid reasons. Long-distance relocation is how rabies and canine distemper jump between animal populations &mdash; and Ontario has been fighting a raccoon-strain rabies outbreak in the Hamilton area since 2015 with aerial vaccine-bait drops. Relocated raccoons also fare terribly: dumped into another raccoon&rsquo;s territory with no known den sites or food caches, most die or immediately start moving &mdash; often straight back toward home, since raccoons navigate familiar territory well inside a couple of kilometres.</p>
           <p>Play the logic forward and trapping collapses on its own terms. A raccoon released 1 km away (the legal maximum) is back in your yard within a night or two. A raccoon trapped in May is very likely a nursing mother, and her kits starve in your chimney or under your deck while she is in the trap &mdash; which is a wildlife tragedy and, shortly afterward, a smell you will not forget. This is why every reputable wildlife agency in the province, and every licensed wildlife control company worth hiring, runs on the same playbook: <strong>deterrence, harassment, and exclusion</strong>. That is the playbook this guide equips.</p>
 
-          <AffiliateDisclosure />
           <h2>The Raccoon Deterrent Tier List — Every Option Compared</h2>
           <p>Here is every deterrent category sold in Canada, ranked by real-world evidence against urban raccoons, with a live Amazon.ca availability check for the ones worth buying.</p>
-          <div className="not-prose rounded-xl border border-navy-100 overflow-hidden bg-white shadow-sm my-6 overflow-x-auto">
-            <table className="w-full text-sm">
+          <div className="not-prose rounded-xl border border-navy-100 overflow-x-auto bg-white shadow-sm my-6 overflow-x-auto">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Deterrent</th>
@@ -204,25 +207,25 @@ export default function RaccoonDeterrentCanadaPage() {
                   <td className="px-4 py-3 font-bold text-brand-800">Motion-activated sprinkler</td>
                   <td className="px-4 py-3 text-gray-700">Sudden water burst + noise + movement, triggered by an infrared sensor</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Strong</strong> &mdash; physical, unpredictable; slow habituation</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="motion activated sprinkler animal repellent" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="motion activated sprinkler animal repellent" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Bin straps &amp; lid locks</td>
                   <td className="px-4 py-3 text-gray-700">Removes the food reward driving the visits in the first place</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Strong</strong> &mdash; no reward, no routine; works every night</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="garbage can lid lock strap raccoon" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="garbage can lid lock strap raccoon" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Exclusion mesh (hardware cloth)</td>
                   <td className="px-4 py-3 text-gray-700">Buried galvanized barrier physically closes den sites under decks and sheds</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Strong</strong> &mdash; permanent when trenched in an L-footer</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="galvanized hardware cloth 1/2 inch" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="galvanized hardware cloth 1/2 inch" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Predator-eye / strobe lights</td>
                   <td className="px-4 py-3 text-gray-700">Red LED pairs or strobes mimic predator presence at night</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Weak</strong> &mdash; habituation within weeks; supplement only</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="solar predator eye deterrent light" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="solar predator eye deterrent light" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Ultrasonic repellers</td>
@@ -299,7 +302,7 @@ export default function RaccoonDeterrentCanadaPage() {
           <p>One safety note wherever raccoons have lingered: their communal latrines (flat roofs, deck corners, sandboxes, woodpiles) can carry <strong>raccoon roundworm</strong> (Baylisascaris procyonis) eggs, which are hazardous if ingested and resistant to most disinfectants. Clean latrine sites with boiling water, gloves, and a mask &mdash; never a dry sweep or shop vac &mdash; and report any raccoon seen staggering, circling, or active and fearless in daylight to your local animal services rather than approaching it; Ontario has been suppressing a raccoon-strain rabies outbreak in the Hamilton area since 2015, and canine distemper produces near-identical symptoms.</p>
 
           <h2>Raccoon Deterrence — Key Facts</h2>
-          <div className="not-prose rounded-xl border border-navy-100 overflow-hidden my-6 overflow-x-auto">
+          <div className="not-prose rounded-xl border border-navy-100 overflow-x-auto my-6 overflow-x-auto">
             <table className="w-full text-sm">
               <tbody>
                 {[

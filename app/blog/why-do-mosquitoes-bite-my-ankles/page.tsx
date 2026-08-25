@@ -107,7 +107,7 @@ export default function WhyMosquitoesBiteAnklesPage() {
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">Where Mosquitoes Bite Most &mdash; And Why</h2>
           <p className="text-sm text-gray-600 mb-4">Bite likelihood by body zone for common GTA summer mosquitoes. The lower body dominates because CO&#8322;, heat, and bacterial odour all concentrate near the ground.</p>
-          <div className="rounded-xl border border-gray-200 overflow-hidden">
+          <div className="rounded-xl border border-gray-200 overflow-x-auto">
             <div className="overflow-x-auto">
               <table className="w-full text-sm">
                 <thead className="bg-brand-800 text-white">

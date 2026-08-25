@@ -79,6 +79,7 @@ export default function MosquitoNetCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Mosquito Head Net (worn over a brim hat)" search="mosquito head net hat" label="Best-value pick" />
 
       <section className="bg-white px-4">
@@ -117,12 +118,11 @@ export default function MosquitoNetCanadaPage() {
         <div className="max-w-4xl mx-auto">
           <p className="text-xs font-extrabold text-emerald-700 uppercase tracking-wider mb-2">Buyer&rsquo;s Guide by Use &middot; Updated July 2026</p>
           <h2 className="text-2xl font-extrabold text-brand-900 mb-4">Which mosquito net for which job (and where to buy it)</h2>
-          <AffiliateDisclosure />
           <p className="text-sm text-gray-700 mb-5 leading-relaxed">
             &ldquo;Mosquito net&rdquo; covers half a dozen very different products. Buying the wrong shape is the number-one reason a net disappoints &mdash; a cone over a king bed leaves the corners open, a short hammock net leaves your feet exposed. Start from the space you need to protect and work back to the type. Prices are 2026 Canadian ranges.
           </p>
-          <div className="rounded-xl border border-navy-100 overflow-hidden bg-white shadow-sm overflow-x-auto">
-            <table className="w-full text-sm">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto bg-white shadow-sm overflow-x-auto">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Use case</th>
@@ -136,43 +136,43 @@ export default function MosquitoNetCanadaPage() {
                   <td className="px-4 py-3 font-bold text-brand-800">Bedroom (permanent)</td>
                   <td className="px-4 py-3 text-gray-700">Rectangular 4-corner canopy net, ceiling-hung</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$30 &ndash; $70</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="mosquito net bed canopy" block>Check price &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="mosquito net bed canopy" block>Check price on Amazon.ca &rarr;</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Travel / cottage bed</td>
                   <td className="px-4 py-3 text-gray-700">Free-standing pop-up bed net (no hanging)</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$35 &ndash; $80</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="pop up mosquito net bed self standing" block>Check price &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="pop up mosquito net bed self standing" block>Check price on Amazon.ca &rarr;</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Crib / toddler</td>
                   <td className="px-4 py-3 text-gray-700">Fitted dome crib net</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$20 &ndash; $45</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="crib mosquito net dome" block>Check price &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="crib mosquito net dome" block>Check price on Amazon.ca &rarr;</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Face &amp; neck outdoors</td>
                   <td className="px-4 py-3 text-gray-700">Head net / net hat (mesh hood over a brim)</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$8 &ndash; $20</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="mosquito head net hat" block>Check price &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="mosquito head net hat" block>Check price on Amazon.ca &rarr;</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Hammock</td>
                   <td className="px-4 py-3 text-gray-700">Full-length zip-around hammock bug net</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$30 &ndash; $90</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="hammock mosquito net full length" block>Check price &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="hammock mosquito net full length" block>Check price on Amazon.ca &rarr;</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Baby stroller</td>
                   <td className="px-4 py-3 text-gray-700">Universal elastic-edge stroller net</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$10 &ndash; $25</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="stroller mosquito net universal" block>Check price &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="stroller mosquito net universal" block>Check price on Amazon.ca &rarr;</BuyLink></td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 font-bold text-brand-800">Patio / deck (a group)</td>
                   <td className="px-4 py-3 text-gray-700">Pop-up screen house / mesh gazebo room</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$60 &ndash; $200</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="pop up screen house gazebo mesh" block>Check price &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="pop up screen house gazebo mesh" block>Check price on Amazon.ca &rarr;</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -186,7 +186,7 @@ export default function MosquitoNetCanadaPage() {
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">Mosquito Net Key Facts</h2>
-          <div className="rounded-xl border border-navy-100 overflow-hidden">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto">
             <table className="w-full text-sm">
               <tbody>
                 {[
@@ -266,7 +266,7 @@ export default function MosquitoNetCanadaPage() {
           </ul>
 
           <h2>Net vs repellent vs barrier spray</h2>
-          <table className="not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
+          <table className="min-w-[560px] not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
             <thead className="bg-brand-50">
               <tr><th className="px-3 py-2 text-left">Tool</th><th className="px-3 py-2 text-left">Protects</th><th className="px-3 py-2 text-left">Cost</th><th className="px-3 py-2 text-left">Tick coverage</th></tr>
             </thead>

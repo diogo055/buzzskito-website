@@ -1,0 +1,1314 @@
+- generic [active] [ref=f231e1]:
+  - generic [ref=f231e3]:
+    - generic [ref=f231e4]:
+      - banner [ref=f231e6]:
+        - generic [ref=f231e9]:
+          - link "Skip to Content" [ref=f231e10] [cursor=pointer]:
+            - /url: "#main"
+            - text: Skip To Content
+          - link "Skip to Site Index" [ref=f231e11] [cursor=pointer]:
+            - /url: "#site-index"
+            - text: Skip To Site Index
+          - link "Wirecutter" [ref=f231e15] [cursor=pointer]:
+            - /url: https://www.nytimes.com/wirecutter/
+          - navigation [ref=f231e30]:
+            - button "Open navigation menu" [ref=f231e31] [cursor=pointer]
+        - search [ref=f231e35]:
+          - generic [ref=f231e37]:
+            - button [ref=f231e38] [cursor=pointer]
+            - searchbox "Ask Wirecutter Finder" [ref=f231e42] [cursor=pointer]
+      - complementary "Disclosure" [ref=f231e43]:
+        - paragraph [ref=f231e44]:
+          - text: We independently review everything we recommend. We may make money from the links on our site.
+          - link "Learn more about Wirecutter" [ref=f231e45] [cursor=pointer]:
+            - /url: /wirecutter/about/
+            - text: Learn more›
+      - navigation [ref=f231e53] [cursor=pointer]:
+        - generic [ref=f231e54]:
+          - generic [ref=f231e55]: BROWSE
+          - generic [ref=f231e57]: Sections in this article
+      - main [ref=f231e61]:
+        - article [ref=f231e62]:
+          - generic [ref=f231e63]:
+            - generic [ref=f231e64]:
+              - generic [ref=f231e67]:
+                - generic [ref=f231e69]:
+                  - list [ref=f231e70]:
+                    - listitem [ref=f231e71]:
+                      - link "Outdoors" [ref=f231e72] [cursor=pointer]:
+                        - /url: /wirecutter/outdoors/
+                      - text: ›
+                    - listitem [ref=f231e73]:
+                      - link "Outdoor gear" [ref=f231e74] [cursor=pointer]:
+                        - /url: /wirecutter/outdoors/gear/
+                  - heading "The Best Bug Repellents" [level=1] [ref=f231e75]
+                  - generic [ref=f231e76]:
+                    - generic [ref=f231e77]:
+                      - text: Updated
+                      - time [ref=f231e78]: June 12, 2026
+                    - generic [ref=f231e79]: 1 Deal
+                  - generic [ref=f231e80]:
+                    - generic [ref=f231e81]:
+                      - button "Copy the link to the The Best Bug Repellents page" [ref=f231e82] [cursor=pointer]
+                      - status
+                    - link "Share on X" [ref=f231e87] [cursor=pointer]:
+                      - /url: https://x.com/intent/post?text=The Best Bug Repellents %7C Wirecutter&url=https://www.nytimes.com/wirecutter/reviews/best-bug-repellent/&via=wirecutter
+                    - link "Share on Facebook" [ref=f231e90] [cursor=pointer]:
+                      - /url: https://facebook.com/sharer/sharer.php?u=https://www.nytimes.com/wirecutter/reviews/best-bug-repellent/
+                    - link "Share on Email" [ref=f231e93] [cursor=pointer]:
+                      - /url: "mailto:?subject=Wirecutter: The Best Bug Repellents&body=Wirecutter: The Best Bug Repellents%0D%0A%0D%0Ahttps://www.nytimes.com/wirecutter/reviews/best-bug-repellent/"
+                - generic [ref=f231e97]:
+                  - figure [ref=f231e99]:
+                    - generic [ref=f231e100]:
+                      - img "Different bottles of bug repellent." [ref=f231e104]
+                      - generic [ref=f231e105]: Michael Murtaugh/NYT Wirecutter
+                  - generic [ref=f231e109]:
+                    - link [ref=f231e111] [cursor=pointer]:
+                      - /url: https://www.nytimes.com/wirecutter/authors/doug-mahoney/
+                      - img "Doug Mahoney" [ref=f231e113]
+                    - generic [ref=f231e114]:
+                      - paragraph [ref=f231e115]:
+                        - text: By
+                        - link "Doug Mahoney" [ref=f231e116] [cursor=pointer]:
+                          - /url: https://www.nytimes.com/wirecutter/authors/doug-mahoney/
+                      - paragraph [ref=f231e117]: Doug Mahoney is a writer covering home-improvement topics, outdoor power equipment, and bug repellents.
+              - generic [ref=f231e118]:
+                - generic [ref=f231e119]:
+                  - paragraph [ref=f231e120]: Yes, bug bites are annoying. But they’re much more than that.
+                  - paragraph [ref=f231e121]: Because of mosquito and tick-borne illnesses, a simple bite can be debilitating (or even lethal) in worst case scenarios.
+                  - paragraph [ref=f231e122]:
+                    - text: For one that’s safe and effective—and that won’t stink or leave a puddle of oil on your skin—try the picaridin formula in
+                    - link "Sawyer Products 20% Picaridin Insect Repellent" [ref=f231e123] [cursor=pointer]:
+                      - /url: https://www.nytimes.com/wirecutter/out/link/31704/152384/4/89467/?merchant=Amazon
+                    - text: . It’s the best bottle of bug spray we found after testing over 30 repellents and talking to everyone from the EPA to the American Mosquito Control Association.
+                - generic [ref=f231e126]:
+                  - paragraph [ref=f231e127]: Advertisement
+                  - link "SKIP ADVERTISEMENT" [ref=f231e128] [cursor=pointer]:
+                    - /url: "#after-dfp-ad-lede-mobile-top-ad"
+                - button [ref=f231e129] [cursor=pointer]:
+                  - generic [ref=f231e134]: See all our picks
+                - region [ref=f231e135]:
+                  - heading "Everything we recommend" [level=2] [ref=f231e136]
+                  - list [ref=f231e138]:
+                    - listitem [ref=f231e139]:
+                      - generic [ref=f231e140]:
+                        - link [ref=f231e142] [cursor=pointer]:
+                          - /url: https://www.nytimes.com/wirecutter/out/link/31704/152384/4/148205
+                        - generic [ref=f231e143]:
+                          - paragraph [ref=f231e144]: Top pick
+                          - heading [level=3] [ref=f231e145]:
+                            - link "The best bug repellent" [ref=f231e146] [cursor=pointer]:
+                              - /url: https://www.nytimes.com/wirecutter/out/link/31704/152384/4/148205
+                          - heading [level=4] [ref=f231e147]:
+                            - link "Sawyer Products 20% Picaridin Insect Repellent" [ref=f231e148] [cursor=pointer]:
+                              - /url: https://www.nytimes.com/wirecutter/out/link/31704/152384/4/148205
+                          - generic [ref=f231e149]:
+                            - link "$10 from Amazon" [ref=f231e152] [cursor=pointer]:
+                              - /url: https://www.nytimes.com/wirecutter/out/link/31704/152384/4/148205
+                            - link "$10 from Walmart" [ref=f231e158] [cursor=pointer]:
+                              - /url: https://www.nytimes.com/wirecutter/out/link/31704/152386/4/148205
+                            - link "$10 from REI" [ref=f231e164] [cursor=pointer]:
+                              - /url: https://www.nytimes.com/wirecutter/out/link/31704/183617/4/148205
+                    - listitem [ref=f231e168]:
+                      - generic [ref=f231e169]:
+                        - link "Deal" [ref=f231e171] [cursor=pointer]:
+                          - /url: https://www.nytimes.com/wirecutter/out/deals/250622?merchant=Amazon
+                        - generic [ref=f231e173]:
+                          - paragraph [ref=f231e174]: Runner-up
+                          - heading [level=3] [ref=f231e175]:
+                            - link "Another standout picaridin spray" [ref=f231e176] [cursor=pointer]:
+                              - /url: https://www.nytimes.com/wirecutter/out/deals/250622?merchant=Amazon
+                          - heading [level=4] [ref=f231e177]:
+                            - link "Grand Tongo DEET-Free Insect Repellent" [ref=f231e178] [cursor=pointer]:
+                              - /url: https://www.nytimes.com/wirecutter/out/deals/250622?merchant=Amazon
+                          - generic [ref=f231e181]:
+                            - generic [ref=f231e182]:
+                              - generic [ref=f231e183]: Was
+                              - deletion [ref=f231e184]: $15
+                            - link "$12 from Amazon" [ref=f231e185] [cursor=pointer]:
+                              - /url: https://www.nytimes.com/wirecutter/out/deals/250622?merchant=Amazon
+                    - listitem [ref=f231e189]:
+                      - generic [ref=f231e190]:
+                        - link [ref=f231e192] [cursor=pointer]:
+                          - /url: https://www.nytimes.com/wirecutter/out/link/10333/138906/4/252257
+                        - generic [ref=f231e193]:
+                          - paragraph [ref=f231e194]: Best for...
+                          - heading [level=3] [ref=f231e195]:
+                            - link "Best for an above-average DEET option" [ref=f231e196] [cursor=pointer]:
+                              - /url: https://www.nytimes.com/wirecutter/out/link/10333/138906/4/252257
+                          - heading [level=4] [ref=f231e197]:
+                            - link "Cutter Backwoods Dry Insect Repellent" [ref=f231e198] [cursor=pointer]:
+                              - /url: https://www.nytimes.com/wirecutter/out/link/10333/138906/4/252257
+                          - link "$7 from Amazon" [ref=f231e202] [cursor=pointer]:
+                            - /url: https://www.nytimes.com/wirecutter/out/link/10333/138906/4/252257
+                    - listitem [ref=f231e206]:
+                      - generic [ref=f231e207]:
+                        - link [ref=f231e209] [cursor=pointer]:
+                          - /url: https://www.nytimes.com/wirecutter/out/link/80519/237547/4/256531
+                        - generic [ref=f231e210]:
+                          - paragraph [ref=f231e211]: Best for...
+                          - heading [level=3] [ref=f231e212]:
+                            - link "Best for a DEET or picaridin alternative" [ref=f231e213] [cursor=pointer]:
+                              - /url: https://www.nytimes.com/wirecutter/out/link/80519/237547/4/256531
+                          - heading [level=4] [ref=f231e214]:
+                            - link "Mimikai Mosquito & Tick Bug Spray" [ref=f231e215] [cursor=pointer]:
+                              - /url: https://www.nytimes.com/wirecutter/out/link/80519/237547/4/256531
+                          - generic [ref=f231e216]:
+                            - link "$15 from Amazon" [ref=f231e219] [cursor=pointer]:
+                              - /url: https://www.nytimes.com/wirecutter/out/link/80519/237547/4/256531
+                            - link "$15 from REI" [ref=f231e225] [cursor=pointer]:
+                              - /url: https://www.nytimes.com/wirecutter/out/link/80519/240343/4/256531
+                    - listitem [ref=f231e229]:
+                      - generic [ref=f231e230]:
+                        - link [ref=f231e232] [cursor=pointer]:
+                          - /url: https://www.nytimes.com/wirecutter/out/link/26876/152387/4/252258
+                        - generic [ref=f231e233]:
+                          - paragraph [ref=f231e234]: Best for...
+                          - heading [level=3] [ref=f231e235]:
+                            - link "Best for clothing, gear, and tick protection" [ref=f231e236] [cursor=pointer]:
+                              - /url: https://www.nytimes.com/wirecutter/out/link/26876/152387/4/252258
+                          - heading [level=4] [ref=f231e237]:
+                            - link "Sawyer Products Permethrin Fabric Treatment" [ref=f231e238] [cursor=pointer]:
+                              - /url: https://www.nytimes.com/wirecutter/out/link/26876/152387/4/252258
+                          - generic [ref=f231e239]:
+                            - generic [ref=f231e240]:
+                              - link "$28 from Amazon" [ref=f231e242] [cursor=pointer]:
+                                - /url: https://www.nytimes.com/wirecutter/out/link/26876/152387/4/252258
+                              - paragraph [ref=f231e246]: (pack of two)
+                            - generic [ref=f231e247]:
+                              - link "$14 from Walmart" [ref=f231e249] [cursor=pointer]:
+                                - /url: https://www.nytimes.com/wirecutter/out/link/26876/170563/4/252258
+                              - paragraph [ref=f231e253]: (12-ounce)
+                            - generic [ref=f231e254]:
+                              - link "$15 from REI" [ref=f231e256] [cursor=pointer]:
+                                - /url: https://www.nytimes.com/wirecutter/out/link/26876/161746/4/252258
+                              - paragraph [ref=f231e260]: (12 ounces)
+                  - button "View all recommended products" [ref=f231e262] [cursor=pointer]
+                - generic [ref=f231e266]:
+                  - heading "How we picked" [level=1] [ref=f231e267]
+                  - separator
+                  - list [ref=f231e268]:
+                    - listitem [ref=f231e269]:
+                      - generic [ref=f231e272]:
+                        - generic [ref=f231e273]: EPA approval
+                        - paragraph [ref=f231e275]: EPA-approved repellents have undergone extensive safety and efficacy testing and can be trusted.
+                    - listitem [ref=f231e276]:
+                      - generic [ref=f231e279]:
+                        - generic [ref=f231e280]: 20% picaridin
+                        - paragraph [ref=f231e282]: Most of our recommendations use a 20% concentration of picaridin, which offers long-lasting repellency for ticks and mosquitoes with none of DEET’s downsides.
+                    - listitem [ref=f231e283]:
+                      - generic [ref=f231e286]:
+                        - generic [ref=f231e287]: Testing, within limits
+                        - paragraph [ref=f231e289]: We test our picks for usability, as opposed to efficacy, because the variables of environment, physiology, and bug behavior affect performance.
+                    - listitem [ref=f231e290]:
+                      - generic [ref=f231e293]:
+                        - generic [ref=f231e294]: Spray matters
+                        - paragraph [ref=f231e296]: The best repellents have a nice, even spray that is easy to apply. The worst ones are spitty and messy, and can overspray or puddle up.
+                - generic [ref=f231e297]:
+                  - generic [ref=f231e298]:
+                    - heading "Top pick" [level=4] [ref=f231e299]
+                    - generic [ref=f231e302]:
+                      - link [ref=f231e304] [cursor=pointer]:
+                        - /url: https://www.nytimes.com/wirecutter/out/link/31704/152384/4/148205?merchant=Amazon
+                      - generic [ref=f231e306]:
+                        - generic [ref=f231e307]:
+                          - heading [level=2] [ref=f231e309]:
+                            - link "Top pick, The best bug repellent Sawyer Products 20% Picaridin Insect Repellent" [ref=f231e310] [cursor=pointer]:
+                              - /url: https://www.nytimes.com/wirecutter/out/link/31704/152384/4/148205?merchant=Amazon
+                              - generic [ref=f231e311]: Top pick,
+                              - text: The best bug repellent
+                              - generic [ref=f231e312]: Sawyer Products 20% Picaridin Insect Repellent
+                          - heading [level=3] [ref=f231e313]:
+                            - link [ref=f231e314] [cursor=pointer]:
+                              - /url: https://www.nytimes.com/wirecutter/out/link/31704/152384/4/148205?merchant=Amazon
+                              - text: Sawyer Products 20% Picaridin Insect Repellent
+                        - paragraph [ref=f231e315]: This EPA-approved picaridin formula is safe and effective, and it comes in a bottle that’s better than that of competitors at spraying evenly and accurately.
+                        - generic [ref=f231e317]:
+                          - 'link "Buying options: $10 from Amazon , opens in a new tab" [ref=f231e319] [cursor=pointer]':
+                            - /url: https://www.nytimes.com/wirecutter/out/link/31704/152384/4/148205?merchant=Amazon
+                            - generic [ref=f231e320]: "Buying options:"
+                            - text: $10 from Amazon
+                            - generic [ref=f231e321]: ", opens in a new tab"
+                          - link "$10 from Walmart , opens in a new tab" [ref=f231e323] [cursor=pointer]:
+                            - /url: https://www.nytimes.com/wirecutter/out/link/31704/152386/4/148205?merchant=Walmart
+                            - text: $10 from Walmart
+                            - generic [ref=f231e324]: ", opens in a new tab"
+                          - link "$10 from REI , opens in a new tab" [ref=f231e326] [cursor=pointer]:
+                            - /url: https://www.nytimes.com/wirecutter/out/link/31704/183617/4/148205?merchant=REI
+                            - text: $10 from REI
+                            - generic [ref=f231e327]: ", opens in a new tab"
+                  - paragraph [ref=f231e328]:
+                    - link "Our research" [ref=f231e329] [cursor=pointer]:
+                      - /url: "#how-we-picked-and-tested"
+                    - text: led us to seek a spray with a 20% concentration of picaridin—a repellent chemical that’s as effective as DEET, but without the drawbacks. Sawyer is our favorite, but
+                    - link "any repellent with 20% picaridin" [ref=f231e330] [cursor=pointer]:
+                      - /url: "#the-competition"
+                    - text: should have the same effectiveness. We zeroed in on
+                    - link "Sawyer Products 20% Picaridin Insect Repellent" [ref=f231e331] [cursor=pointer]:
+                      - /url: https://www.nytimes.com/wirecutter/out/link/31704/152384/4/89467/?merchant=Amazon
+                    - text: in particular because its smart, compact bottle design makes it easy to apply evenly and accurately. Its pump spray is less likely than aerosol competitors to overspray or leave a puddle on your skin, and its secure, two-capped design prevents accidental leaks inside a backpack or other bag. Sawyer’s repellent is widely available in a variety of sizes—smaller ones for the backpack, plus a larger size to keep by the front door.
+                  - generic [ref=f231e332]:
+                    - heading "Runner-up" [level=4] [ref=f231e333]
+                    - generic [ref=f231e336]:
+                      - link [ref=f231e338] [cursor=pointer]:
+                        - /url: https://www.nytimes.com/wirecutter/out/deals/250622?merchant=Amazon
+                      - generic [ref=f231e340]:
+                        - generic [ref=f231e341]:
+                          - heading [level=2] [ref=f231e343]:
+                            - link "Runner-up, Another standout picaridin spray Grand Tongo DEET-Free Insect Repellent" [ref=f231e344] [cursor=pointer]:
+                              - /url: https://www.nytimes.com/wirecutter/out/deals/250622?merchant=Amazon
+                              - generic [ref=f231e345]: Runner-up,
+                              - text: Another standout picaridin spray
+                              - generic [ref=f231e346]: Grand Tongo DEET-Free Insect Repellent
+                          - heading [level=3] [ref=f231e347]:
+                            - link [ref=f231e348] [cursor=pointer]:
+                              - /url: https://www.nytimes.com/wirecutter/out/deals/250622?merchant=Amazon
+                              - text: Grand Tongo DEET-Free Insect Repellent
+                        - paragraph [ref=f231e349]: Grand Tongo offers the same protection as Sawyer’s repellent. It’s available in a variety of sizes, including a small travel size we really like.
+                        - generic [ref=f231e352]:
+                          - 'link "Buying options: DEAL, original price $15 , sale price $12 from Amazon , opens in a new tab" [ref=f231e353] [cursor=pointer]':
+                            - /url: https://www.nytimes.com/wirecutter/out/deals/250622?merchant=Amazon
+                            - generic [ref=f231e354]: "Buying options:"
+                            - generic [ref=f231e355]:
+                              - generic [ref=f231e356]:
+                                - deletion [ref=f231e357]:
+                                  - generic [ref=f231e358]: DEAL, original price
+                                  - text: $15
+                                - generic [ref=f231e359]: ", sale price"
+                              - text: $12 from Amazon
+                            - generic [ref=f231e360]: ", opens in a new tab"
+                          - paragraph [ref=f231e362]: With clipped on-page coupon
+                  - paragraph [ref=f231e363]:
+                    - text: If our top pick is not available, our next choice is
+                    - link "Grand Tongo Deet Free Insect Repellent" [ref=f231e364] [cursor=pointer]:
+                      - /url: https://www.nytimes.com/wirecutter/out/link/70471/216825/4/216314/?merchant=Amazon
+                    - text: . It has the same 20% concentration of picaridin as the Sawyer repellent, so it provides the same amount of protection. Grand Tongo is available in three sizes, including a very convenient 1-ounce pump spray that is about the size of a really chunky credit card. Because it so easily fits in a pants pocket, handbag or backpack, it’s an ideal grab-and-go travel size. This picaridin spray is available in a variety of scents (
+                    - link "citrus and sandalwood" [ref=f231e365] [cursor=pointer]:
+                      - /url: https://www.nytimes.com/wirecutter/out/link/70472/216827/4/256530/?merchant=Amazon
+                    - text: ","
+                    - link "green tea and mint" [ref=f231e366] [cursor=pointer]:
+                      - /url: https://www.nytimes.com/wirecutter/out/link/70473/216828/4/216316/?merchant=Amazon
+                    - text: ", and"
+                    - link "fragrance free" [ref=f231e367] [cursor=pointer]:
+                      - /url: https://www.nytimes.com/wirecutter/out/link/70471/216825/4/216314/?merchant=Amazon
+                    - text: ).
+                  - generic [ref=f231e368]:
+                    - heading "Best for..." [level=4] [ref=f231e369]
+                    - generic [ref=f231e372]:
+                      - link [ref=f231e374] [cursor=pointer]:
+                        - /url: https://www.nytimes.com/wirecutter/out/link/10333/138906/4/252257?merchant=Amazon
+                      - generic [ref=f231e376]:
+                        - generic [ref=f231e377]:
+                          - heading [level=2] [ref=f231e379]:
+                            - link "Best for..., Best for an above-average DEET option Cutter Backwoods Dry Insect Repellent" [ref=f231e380] [cursor=pointer]:
+                              - /url: https://www.nytimes.com/wirecutter/out/link/10333/138906/4/252257?merchant=Amazon
+                              - generic [ref=f231e381]: Best for...,
+                              - text: Best for an above-average DEET option
+                              - generic [ref=f231e382]: Cutter Backwoods Dry Insect Repellent
+                          - heading [level=3] [ref=f231e383]:
+                            - link [ref=f231e384] [cursor=pointer]:
+                              - /url: https://www.nytimes.com/wirecutter/out/link/10333/138906/4/252257?merchant=Amazon
+                              - text: Cutter Backwoods Dry Insect Repellent
+                        - paragraph [ref=f231e385]: DEET formulas aren’t more effective than picaridin (they tend to smell bad and feel oily, too). Cutter Backwoods Dry, with its even aerosol spray and locking cap, is the best DEET repellent we’ve found.
+                        - 'link "Buying options: $7 from Amazon , opens in a new tab" [ref=f231e389] [cursor=pointer]':
+                          - /url: https://www.nytimes.com/wirecutter/out/link/10333/138906/4/252257?merchant=Amazon
+                          - generic [ref=f231e390]: "Buying options:"
+                          - text: $7 from Amazon
+                          - generic [ref=f231e391]: ", opens in a new tab"
+                  - paragraph [ref=f231e392]:
+                    - text: DEET formulas aren’t our first choice because they smell bad, feel oily, and can damage plastic and synthetic fabrics. There’s no question DEET is effective—decades of tests and studies have established it as the gold standard in bug repellents—but it’s
+                    - link "no more effective than picaridin" [ref=f231e393] [cursor=pointer]:
+                      - /url: https://academic.oup.com/jtm/article/25/suppl_1/S10/4990399
+                    - text: . If this type of classic repellent is all you can find (or if you prefer it), the best version we’ve found is
+                    - link "Cutter Backwoods Dry Insect Repellent" [ref=f231e394] [cursor=pointer]:
+                      - /url: https://www.nytimes.com/wirecutter/out/link/10333/138906/4/89470/?merchant=Amazon
+                    - text: . Its 25% DEET formula protects against mosquitoes for up to 10 hours, and it smells milder and feels less oily than other DEET repellents we tried. Its locking cap is a design feature many other aerosol sprays lack.
+                  - generic [ref=f231e397]:
+                    - paragraph [ref=f231e398]: Advertisement
+                    - link "SKIP ADVERTISEMENT" [ref=f231e399] [cursor=pointer]:
+                      - /url: "#after-dfp-ad-chapter-mid-2"
+                  - generic [ref=f231e400]:
+                    - heading "Best for..." [level=4] [ref=f231e401]
+                    - generic [ref=f231e404]:
+                      - link [ref=f231e406] [cursor=pointer]:
+                        - /url: https://www.nytimes.com/wirecutter/out/link/80519/237547/4/256531?merchant=Amazon
+                      - generic [ref=f231e408]:
+                        - generic [ref=f231e409]:
+                          - heading [level=2] [ref=f231e411]:
+                            - link "Best for..., Best for a DEET or picaridin alternative Mimikai Mosquito & Tick Bug Spray" [ref=f231e412] [cursor=pointer]:
+                              - /url: https://www.nytimes.com/wirecutter/out/link/80519/237547/4/256531?merchant=Amazon
+                              - generic [ref=f231e413]: Best for...,
+                              - text: Best for a DEET or picaridin alternative
+                              - generic [ref=f231e414]: Mimikai Mosquito & Tick Bug Spray
+                          - heading [level=3] [ref=f231e415]:
+                            - link [ref=f231e416] [cursor=pointer]:
+                              - /url: https://www.nytimes.com/wirecutter/out/link/80519/237547/4/256531?merchant=Amazon
+                              - text: Mimikai Mosquito & Tick Bug Spray
+                        - paragraph [ref=f231e417]: Mimikai doesn’t last as long as our other picks (especially on ticks), but its unique formula combines oil of lemon eucalyptus and 2-Undecanone to produce a low-toxicity alternative.
+                        - generic [ref=f231e419]:
+                          - 'link "Buying options: $15 from Amazon , opens in a new tab" [ref=f231e421] [cursor=pointer]':
+                            - /url: https://www.nytimes.com/wirecutter/out/link/80519/237547/4/256531?merchant=Amazon
+                            - generic [ref=f231e422]: "Buying options:"
+                            - text: $15 from Amazon
+                            - generic [ref=f231e423]: ", opens in a new tab"
+                          - link "$15 from REI , opens in a new tab" [ref=f231e425] [cursor=pointer]:
+                            - /url: https://www.nytimes.com/wirecutter/out/link/80519/240343/4/256531?merchant=REI
+                            - text: $15 from REI
+                            - generic [ref=f231e426]: ", opens in a new tab"
+                  - paragraph [ref=f231e427]:
+                    - text: If you can’t get your hands on our picaridin-based picks, or you’re looking for the absolute lowest toxicity from an EPA-approved repellent, we recommend
+                    - link "Mimikai Mosquito & Tick Bug Spray" [ref=f231e428] [cursor=pointer]:
+                      - /url: https://www.nytimes.com/wirecutter/out/link/80519/237547/4/252263/?merchant=Amazon
+                    - text: . Made with a combination of oil of lemon eucalyptus and 2-Undecanone—a newly approved repellent chemical based on a compound found in the wild tomato plant—Mimikai’s Tick & Bug Spray ranks marginally better than picaridin or DEET on factors such as dermal toxicity, eye irritation and skin irritation. We think that, if used correctly, our other picks should not pose a problem, but it’s clear that Mimikai poses less of one. Mimikai offers decent repellency (8-hours for mosquitoes and 4-hours for ticks), but we still prefer the longer-lasting products, especially when it comes to ticks.
+                  - generic [ref=f231e429]:
+                    - heading "Best for..." [level=4] [ref=f231e430]
+                    - generic [ref=f231e433]:
+                      - link [ref=f231e435] [cursor=pointer]:
+                        - /url: https://www.nytimes.com/wirecutter/out/link/26876/152387/4/252258?merchant=Amazon
+                      - generic [ref=f231e437]:
+                        - generic [ref=f231e438]:
+                          - heading [level=2] [ref=f231e440]:
+                            - link "Best for..., Best for clothing, gear, and tick protection Sawyer Products Permethrin Fabric Treatment" [ref=f231e441] [cursor=pointer]:
+                              - /url: https://www.nytimes.com/wirecutter/out/link/26876/152387/4/252258?merchant=Amazon
+                              - generic [ref=f231e442]: Best for...,
+                              - text: Best for clothing, gear, and tick protection
+                              - generic [ref=f231e443]: Sawyer Products Permethrin Fabric Treatment
+                          - heading [level=3] [ref=f231e444]:
+                            - link [ref=f231e445] [cursor=pointer]:
+                              - /url: https://www.nytimes.com/wirecutter/out/link/26876/152387/4/252258?merchant=Amazon
+                              - text: Sawyer Products Permethrin Fabric Treatment
+                        - paragraph [ref=f231e446]: For clothing and gear (but not skin), Sawyer’s permethrin repellent is as effective as similar formulas at repelling ticks and mosquitoes, and its trigger spray is easier to control.
+                        - generic [ref=f231e448]:
+                          - generic [ref=f231e449]:
+                            - 'link "Buying options: $28 from Amazon , opens in a new tab" [ref=f231e450] [cursor=pointer]':
+                              - /url: https://www.nytimes.com/wirecutter/out/link/26876/152387/4/252258?merchant=Amazon
+                              - generic [ref=f231e451]: "Buying options:"
+                              - text: $28 from Amazon
+                              - generic [ref=f231e452]: ", opens in a new tab"
+                            - paragraph [ref=f231e453]: (pack of two)
+                          - generic [ref=f231e454]:
+                            - link "$14 from Walmart , opens in a new tab" [ref=f231e455] [cursor=pointer]:
+                              - /url: https://www.nytimes.com/wirecutter/out/link/26876/170563/4/252258?merchant=Walmart
+                              - text: $14 from Walmart
+                              - generic [ref=f231e456]: ", opens in a new tab"
+                            - paragraph [ref=f231e457]: (12-ounce)
+                          - generic [ref=f231e458]:
+                            - link "$15 from REI , opens in a new tab" [ref=f231e459] [cursor=pointer]:
+                              - /url: https://www.nytimes.com/wirecutter/out/link/26876/161746/4/252258?merchant=REI
+                              - text: $15 from REI
+                              - generic [ref=f231e460]: ", opens in a new tab"
+                            - paragraph [ref=f231e461]: (12 ounces)
+                  - paragraph [ref=f231e462]:
+                    - text: To give your clothing and gear (but not your skin) an added level of protection against ticks, we recommend
+                    - link "Sawyer Products Permethrin Fabric Treatment" [ref=f231e463] [cursor=pointer]:
+                      - /url: https://www.nytimes.com/wirecutter/out/link/26876/152387/4/89468/?merchant=Amazon
+                    - text: ", a formula with 0.5% permethrin. Like the other permethrin repellents we looked at, each application provides about six washings (or six weeks, whichever comes first) of protection. The bottle’s trigger spray is easier to control and apply evenly than others we tried; the 12-ounce size is enough to treat two outfits (shirt, pants, socks). A"
+                    - link "24-ounce size" [ref=f231e464] [cursor=pointer]:
+                      - /url: https://www.nytimes.com/wirecutter/out/link/7898/23220/4/132206/?merchant=Amazon
+                    - text: is also available. If you can’t find our pick, look for
+                    - link "other brands" [ref=f231e465] [cursor=pointer]:
+                      - /url: "#the-competition"
+                    - text: with a 0.5% concentration of permethrin, like
+                    - link "Ranger Ready Permethrin Spray" [ref=f231e466] [cursor=pointer]:
+                      - /url: https://www.nytimes.com/wirecutter/out/link/51532/182571/4/148281/?merchant=Amazon
+                    - text: ","
+                    - link "Ben’s Clothing and Gear Insect Repellent" [ref=f231e467] [cursor=pointer]:
+                      - /url: https://www.nytimes.com/wirecutter/out/link/31706/152391/4/89472/?merchant=Amazon
+                    - text: ", or"
+                    - link "Coleman Gear and Clothing Insect Treatment" [ref=f231e468] [cursor=pointer]:
+                      - /url: https://www.nytimes.com/wirecutter/out/link/31707/152392/4/89473/?merchant=Amazon
+                    - text: . We have more tick advice, including what to do if you find one on you,
+                    - link "here" [ref=f231e469] [cursor=pointer]:
+                      - /url: https://www.nytimes.com/wirecutter/blog/prevent-ticks-lyme-disease/
+                    - text: .
+            - generic [ref=f231e472]:
+              - paragraph [ref=f231e473]: Advertisement
+              - link "SKIP ADVERTISEMENT" [ref=f231e474] [cursor=pointer]:
+                - /url: "#after-dfp-ad-interAd"
+            - generic [ref=f231e475]:
+              - generic [ref=f231e477]:
+                - heading "The research" [level=2] [ref=f231e482]
+                - generic [ref=f231e485]:
+                  - tab "Why you should trust us" [selected] [ref=f231e486] [cursor=pointer]
+                  - tabpanel [ref=f231e487]:
+                    - list [ref=f231e488]:
+                      - listitem [ref=f231e489]:
+                        - text: While researching this guide, we spoke with Joe Conlon, then the technical adviser of the
+                        - link "American Mosquito Control Association" [ref=f231e490] [cursor=pointer]:
+                          - /url: https://www.mosquito.org/
+                        - text: (AMCA) and
+                        - link "Sonja Swiger" [ref=f231e491] [cursor=pointer]:
+                          - /url: https://entomology.tamu.edu/people/swiger-sonja/
+                        - text: ", an associate professor in Texas A&M University’s Department of Entomology. We interviewed Judi Anderson, director of the"
+                        - link "DEET Education Program" [ref=f231e492] [cursor=pointer]:
+                          - /url: https://www.repellentinfo.org/
+                        - text: ", an organization"
+                        - link "supported by the companies" [ref=f231e493] [cursor=pointer]:
+                          - /url: https://www.repellentinfo.org/about
+                        - text: that make and sell DEET-based products. We also talked to Travis Avery, sales and marketing director at
+                        - link "Sawyer Products" [ref=f231e494] [cursor=pointer]:
+                          - /url: https://sawyer.com/
+                        - text: ", Chris Fuentes, founder and former CEO of"
+                        - link "Ranger Ready" [ref=f231e495] [cursor=pointer]:
+                          - /url: https://rangerready.com/
+                        - text: ", and"
+                        - link "Michelle Arnau" [ref=f231e496] [cursor=pointer]:
+                          - /url: https://www.linkedin.com/in/michelle-arnau-748a182/
+                        - text: and
+                        - link "Stephanie Watson" [ref=f231e497] [cursor=pointer]:
+                          - /url: https://www.linkedin.com/in/stephanie-watson-90458034/
+                        - text: ", the founders of Mimikai."
+                      - listitem [ref=f231e498]:
+                        - text: We also spoke with the
+                        - link "Environmental Protection Agency" [ref=f231e499] [cursor=pointer]:
+                          - /url: https://www.epa.gov/
+                        - text: to learn more about its
+                        - link "extensive approval process" [ref=f231e500] [cursor=pointer]:
+                          - /url: https://www.epa.gov/insect-repellents/regulation-skin-applied-repellents
+                        - text: for repellent chemicals. In addition, we relied on the findings of the
+                        - link "Centers for Disease Control and Prevention" [ref=f231e501] [cursor=pointer]:
+                          - /url: https://www.cdc.gov/
+                        - text: and the
+                        - link "World Health Organization" [ref=f231e502] [cursor=pointer]:
+                          - /url: https://www.who.int/
+                        - text: regarding the safety and effectiveness of various repellents.
+                      - listitem [ref=f231e503]:
+                        - text: We also relied on the
+                        - link "National Pesticide Information Center" [ref=f231e504] [cursor=pointer]:
+                          - /url: http://npic.orst.edu/ingred/ptype/repel.html
+                        - text: ", a joint effort by Oregon State University and the EPA. The NPIC is a treasure trove of fully referenced repellent information, with comprehensive directories for every chemical and extensive links out to relevant EPA documents and peer-reviewed studies."
+                      - listitem [ref=f231e505]:
+                        - text: The
+                        - link "Environmental Working Group" [ref=f231e506] [cursor=pointer]:
+                          - /url: https://www.ewg.org/research/ewgs-guide-bug-repellents
+                        - text: ", a nonprofit research and advocacy organization focused on environmental and health issues, also offers detailed, well-supported research on repellent chemicals, which we reviewed."
+                      - listitem [ref=f231e507]:
+                        - text: Like all Wirecutter journalists, we review and test products with complete editorial independence. We’re never made aware of any
+                        - link "business implications" [ref=f231e508] [cursor=pointer]:
+                          - /url: https://www.nytimes.com/wirecutter/reviews/how-wirecutter-makes-money/
+                        - text: of our editorial recommendations. Read more about our
+                        - link "editorial standards" [ref=f231e509] [cursor=pointer]:
+                          - /url: https://www.nytimes.com/wirecutter/about/
+                        - text: .
+                - generic [ref=f231e512]:
+                  - tab "Who this is for" [selected] [ref=f231e513] [cursor=pointer]
+                  - tabpanel [ref=f231e514]:
+                    - paragraph [ref=f231e515]:
+                      - text: Mosquitoes and ticks pose a much bigger threat than just being incredibly annoying. A single bite “can be a matter of life and death,” said Joe Conlon of the AMCA. “There are lethal diseases out there, or ones that ... cripple you for life if you’re not using the right type of repellent.” Anyone spending time outdoors should think seriously about using a bug spray (or
+                      - link "a spatial repellent" [ref=f231e516] [cursor=pointer]:
+                        - /url: https://www.nytimes.com/wirecutter/reviews/mosquito-control-gear/
+                      - text: ) to ward off biting insects.
+                    - paragraph [ref=f231e517]:
+                      - text: According to
+                      - link "this 2018 CDC report" [ref=f231e518] [cursor=pointer]:
+                        - /url: https://www.cdc.gov/mmwr/volumes/67/wr/mm6717e1.htm?s_cid=mm6717e1_x
+                      - text: ", tick-borne diseases—including Lyme disease, spotted fevers, babesiosis, anaplasmosis, and ehrlichiosis—more than doubled in the US between 2004 and 2016, and they’ve occurred in new, expanded risk areas. I live in New Hampshire, and in the past 15 years, I have been treated for Lyme five times. I was lucky to spot it by its telltale"
+                      - link "bull’s-eye rash" [ref=f231e519] [cursor=pointer]:
+                        - /url: https://www.cdc.gov/lyme/signs-symptoms/index.html
+                      - text: (not everyone does). On two of those occasions, I had to undergo a four-week course of the antibiotic doxycycline, which is awful in its own right. I also have family members who have been deeply affected by Lyme. Seeing what this disease
+                      - link "is capable of" [ref=f231e520] [cursor=pointer]:
+                        - /url: https://www.cdc.gov/lyme/signs-symptoms/index.html
+                      - text: is a sobering experience; I can’t stress enough how important it is to protect yourself against tick bites.
+                    - paragraph [ref=f231e521]:
+                      - text: The CDC also reports epidemics of the mosquito-transmitted West Nile virus in the US.
+                      - link "This map of West Nile cases in 2025" [ref=f231e522] [cursor=pointer]:
+                        - /url: https://www.cdc.gov/west-nile-virus/data-maps/current-year-data.html
+                      - text: shows infections in 47 states. Because such findings rely on a person seeking care and the medical provider actually reporting the case, the prevalence of bug-borne disease is likely worse than even the CDC says.
+                    - paragraph [ref=f231e523]: Even if you live in an area with a larger-scale mosquito-control program, repellents are still a good idea. Texas A&M entomologist Sonja Swiger told us that community-wide vector control “can still only control so much, so to get down to your personal space, you have to add to it.”
+                    - complementary [ref=f231e524]:
+                      - heading "To create a bug-free bubble outdoors" [level=4] [ref=f231e525]
+                      - list [ref=f231e526]:
+                        - listitem [ref=f231e527]:
+                          - article [ref=f231e528]:
+                            - link [ref=f231e530] [cursor=pointer]:
+                              - /url: https://www.nytimes.com/wirecutter/reviews/mosquito-control-gear/
+                              - img "The Best Mosquito Control Gear for Your Patio or Yard" [ref=f231e532]
+                            - heading [level=3] [ref=f231e534]:
+                              - link "The Best Mosquito Control Gear for Your Patio or Yard" [ref=f231e535] [cursor=pointer]:
+                                - /url: https://www.nytimes.com/wirecutter/reviews/mosquito-control-gear/
+                    - generic [ref=f231e538]:
+                      - paragraph [ref=f231e539]: Advertisement
+                      - link "SKIP ADVERTISEMENT" [ref=f231e540] [cursor=pointer]:
+                        - /url: "#after-dfp-ad-chapter-mid-4"
+                - generic [ref=f231e543]:
+                  - tab "How we picked and tested" [selected] [ref=f231e544] [cursor=pointer]
+                  - tabpanel [ref=f231e545]:
+                    - figure "Some of the insect repellents we’ve tested over the years. Michael Murtaugh/NYT Wirecutter" [ref=f231e546]:
+                      - img "A group of repellents we tested." [ref=f231e550]
+                      - generic [ref=f231e551]:
+                        - text: Some of the insect repellents we’ve tested over the years.
+                        - generic [ref=f231e552]: Michael Murtaugh/NYT Wirecutter
+                    - paragraph [ref=f231e553]:
+                      - text: The heart of any bottle of bug spray is the repellent chemical, so we started there before we dug into specific products. To cut to the chase, our research led us to picaridin, a repellent chemical endorsed by the
+                      - link "CDC" [ref=f231e554] [cursor=pointer]:
+                        - /url: https://wwwnc.cdc.gov/travel/page/avoid-bug-bites
+                      - text: and the
+                      - link "WHO" [ref=f231e555] [cursor=pointer]:
+                        - /url: https://www.who.int/publications/m/item/information-for-travellers-visiting-countries-with-zika-virus-transmission
+                      - text: . Independent tests prove that a 20% concentration of picaridin can repel mosquitoes and ticks for up to 12 hours. But we began our search considering all options, using expert guidance to determine what mattered most when seeking a formula to recommend. Below is an overview of the factors we considered.
+                    - paragraph [ref=f231e556]:
+                      - strong [ref=f231e557]: "EPA approval:"
+                      - text: This requirement left us with a short list of skin-applied repellents focusing on picaridin, DEET, IR3535, 2-Undecanone and oil of lemon eucalyptus, or OLE (as well as PMD, its synthetic form). To meet EPA approval, a chemical must undergo extensive testing and evaluation for efficacy, safety, and the potential for environmental hazards. “If it doesn’t have an EPA registration, then it hasn’t been proven,“ Texas A&M’s Swiger told us.
+                    - complementary [ref=f231e558]:
+                      - paragraph [ref=f231e559]: “Is garlic repellent? Yes, it is. Is it a good repellent? No, it isn’t.” —Joe Conlon, technical adviser of the American Mosquito Control Association
+                    - paragraph [ref=f231e560]:
+                      - text: Because they are classified as pesticides, the EPA approves for use not only all repellent chemicals but also every product that includes those chemicals. This approval extends all the way to the specific labeling on the bottle, including efficacy times, application procedures, and storage and handling. In fact, according to the
+                      - link "EPA website" [ref=f231e561] [cursor=pointer]:
+                        - /url: https://www.epa.gov/pesticide-labels/introduction-pesticide-labels
+                      - text: ", this labeling is “legally enforceable … In other words, the label is the law.”"
+                    - paragraph [ref=f231e562]:
+                      - text: Store shelves are loaded with repellents that are not approved by the EPA. Most of these are based on essential oils, including cedar oil, lemongrass oil, peppermint oil, and citronella oil. The fact is,
+                      - link "essential oils make terrible bug repellents" [ref=f231e563] [cursor=pointer]:
+                        - /url: https://www.nytimes.com/wirecutter/blog/essential-oils-terrible-bug-repellents/
+                      - text: . Conlon told us that although many of these formulas have some effectiveness, it lasts for a very limited time. “If you spread garlic all over your body, you’re going to get 20 minutes of repellency, then you’re going to have to do it again,” Conlon said. “Is garlic repellent? Yes, it is. Is it a good repellent? No, it isn’t.”
+                    - paragraph [ref=f231e564]:
+                      - strong [ref=f231e565]: "Safety:"
+                      - text: Picaridin was created in the 1980s, so it hasn’t been studied as much as DEET, which has been around since the 1940s. But like DEET, picaridin does have a proven track record of safety. According to the
+                      - link "NPIC" [ref=f231e566] [cursor=pointer]:
+                        - /url: http://npic.orst.edu/factsheets/PicaridinGen.html#symptoms
+                      - text: ", skin irritation due to picaridin is “very uncommon,” and the chemical “is considered practically nontoxic if inhaled.” Further, the"
+                      - link "EPA" [ref=f231e567] [cursor=pointer]:
+                        - /url: https://www.cdph.ca.gov/Programs/CID/DCDC/Pages/EPA-Registered-Repellent-Ingredients.aspx
+                      - text: has approved the chemical for use in children as young as 2 months old. For pregnant women, the EWG recommends a picaridin concentration of 20% and a DEET concentration of no more than 20% to 30%. “What studies have been done have found no connection between picaridin use and any neurotoxicity, carcinogenicity, mutagenicity, or anything like that,” Conlon told us.
+                    - paragraph [ref=f231e568]:
+                      - strong [ref=f231e569]: "Effectiveness:"
+                      - text: A 2018 review published in
+                      - link "the Journal of Travel Medicine" [ref=f231e570] [cursor=pointer]:
+                        - /url: https://academic.oup.com/jtm/article/25/suppl_1/S10/4990399
+                      - text: analyzed 11 studies comparing DEET and picaridin, and concluded that “the studies showed little potential difference between DEET and picaridin applied at the same dosage, with some evidence pointing to a superior persistence for picaridin.” According to the EPA-approved labels, a repellent with 20% picaridin can provide protection for up to 12 hours, while one with 25% DEET provides up to 10 hours. The studies mentioned in the Journal of Travel Medicine analysis offered varying results, with the majority showing 20% picaridin effectiveness up to and beyond nine and 10 hours.
+                    - paragraph [ref=f231e571]:
+                      - text: We should also note that the percentage of an active ingredient doesn’t necessarily translate to increased efficacy. It appears that after a certain concentration, a maximum effectiveness is reached, and additional concentration results in longer protection time only. According to the
+                      - link "CDC" [ref=f231e572] [cursor=pointer]:
+                        - /url: https://wwwnc.cdc.gov/travel/yellowbook/2020/noninfectious-health-risks/mosquitoes-ticks-and-other-arthropods
+                      - text: ", “DEET efficacy tends to plateau at a concentration of approximately 50%.” The CDC also recommends using a DEET concentration of at least 20% to ward off ticks, implying that lower concentrations have reduced effectiveness against such hardier insects."
+                    - paragraph [ref=f231e573]:
+                      - strong [ref=f231e574]: "Minimal drawbacks:"
+                      - link "DEET (PDF)" [ref=f231e575] [cursor=pointer]:
+                        - /url: https://www3.epa.gov/pesticides/chem_search/reg_actions/reregistration/fs_PC-080301_1-Apr-98.pdf
+                      - text: is effective but tends to be oily and smelly. Judi Anderson, director of the
+                      - link "DEET Education Program" [ref=f231e576] [cursor=pointer]:
+                        - /url: http://www.deetonline.org/
+                      - text: ", told us, “DEET-based products are not recommended for use directly on certain fabrics, such as rayon, spandex, acetate, or other synthetic fabrics,” adding that “it can affect the finish of many hard surfaces, such as plastic, vinyl, paint, or lacquer.”"
+                      - link "Oil of lemon eucalyptus (PDF)" [ref=f231e577] [cursor=pointer]:
+                        - /url: https://www3.epa.gov/pesticides/chem_search/reg_actions/registration/fs_PC-011550_01-Apr-00.pdf
+                      - text: doesn’t last as long as DEET and picaridin, and the biggest drawback in our tests was the extremely strong odor.
+                      - link "IR3535 (PDF)" [ref=f231e578] [cursor=pointer]:
+                        - /url: https://www3.epa.gov/pesticides/chem_search/reg_actions/registration/fs_PC-113509_01-Jan-00.pdf
+                      - text: ", like DEET, also affects plastics. And permethrin, an EPA-approved pesticide that is particularly useful against ticks, is meant to be used on clothing and gear—think a backpack or tent—but not directly on skin. High concentrations of permethrin, when wet, can be toxic to cats, but once it dries, there’s no issue. Picaridin has relatively few drawbacks, which is why it leads our recommendations, but over years of testing we’ve come to appreciate that any EPA-approved repellent can play an effective role on bug defense, even if there are flaws to be aware of."
+                    - paragraph [ref=f231e579]:
+                      - strong [ref=f231e580]: "A decent spray bottle:"
+                      - text: A good repellent is wasted in a bad bottle. The best ones apply repellent in an even coat with limited overspray. Kids are squirmy, so getting repellent on them takes precision, as does applying spray to the neck and shoulder area. Locking caps are a plus, prohibiting accidental sprays and providing one more barrier for a curious child to overcome. We looked at both pump sprays and aerosols. Some manufacturers offer repellent lotions. We have more thoughts on these
+                      - link "below" [ref=f231e581] [cursor=pointer]:
+                        - /url: "#repellent-lotions-cons-and-a-couple-pros"
+                      - text: .
+                    - paragraph [ref=f231e582]:
+                      - strong [ref=f231e583]: We did not test for efficacy
+                      - text: of the individual repellents, for a few reasons. First, there are simply too many variables to consider to make any sweeping statements on repellency. The US alone has over 176 species of mosquitoes, and, as Conlon has written for the AMCA, “The process of a mosquito questing for a blood meal involves a complex, interconnected cascade of behaviors, each probably having its own cues, be they visual, thermal, or olfactory.” In other words, the way someone smells, what they’re wearing, how much they’re sweating, and weather conditions can all affect mosquito attraction.
+                    - paragraph [ref=f231e584]:
+                      - strong [ref=f231e585]: We did test for usability,
+                      - text: looking at different competitors’ bottles and comparing design details that we noticed when applying (lots of) bug spray firsthand. Is the spray nice and even? Does the repellent bottle have any safety features? Is it likely to activate when stuffed into a backpack? Are there any overwhelming odors?
+                    - complementary [ref=f231e586]:
+                      - heading "Readers also like" [level=4] [ref=f231e587]
+                      - list [ref=f231e588]:
+                        - listitem [ref=f231e589]:
+                          - article [ref=f231e590]:
+                            - link [ref=f231e592] [cursor=pointer]:
+                              - /url: https://www.nytimes.com/wirecutter/blog/do-bug-zappers-work/
+                              - img "Do Bug Zappers Work? Yeah—About As Well As Any Other Indiscriminate Wildlife Slaughter." [ref=f231e594]
+                            - heading [level=3] [ref=f231e596]:
+                              - link "Do Bug Zappers Work? Yeah—About As Well As Any Other Indiscriminate Wildlife Slaughter." [ref=f231e597] [cursor=pointer]:
+                                - /url: https://www.nytimes.com/wirecutter/blog/do-bug-zappers-work/
+                    - generic [ref=f231e600]:
+                      - paragraph [ref=f231e601]: Advertisement
+                      - link "SKIP ADVERTISEMENT" [ref=f231e602] [cursor=pointer]:
+                        - /url: "#after-dfp-ad-chapter-mid-5"
+                - generic [ref=f231e605]:
+                  - 'tab "Top pick: Sawyer Products 20% Picaridin Insect Repellent" [selected] [ref=f231e606] [cursor=pointer]'
+                  - tabpanel [ref=f231e607]:
+                    - figure "Doug Mahoney/NYT Wirecutter" [ref=f231e608]:
+                      - link [ref=f231e609] [cursor=pointer]:
+                        - /url: https://cdn.thewirecutter.com/wp-content/media/2026/04/IMG_1741-scaled.jpg
+                        - img "Two bottles of Sawyer Products Premium Insect Repellent." [ref=f231e610]
+                    - generic [ref=f231e613]:
+                      - heading "Top pick" [level=4] [ref=f231e614]
+                      - generic [ref=f231e617]:
+                        - link [ref=f231e619] [cursor=pointer]:
+                          - /url: https://www.nytimes.com/wirecutter/out/link/31704/152384/4/148205?merchant=Amazon
+                        - generic [ref=f231e621]:
+                          - generic [ref=f231e622]:
+                            - heading [level=2] [ref=f231e624]:
+                              - link "Top pick, The best bug repellent Sawyer Products 20% Picaridin Insect Repellent" [ref=f231e625] [cursor=pointer]:
+                                - /url: https://www.nytimes.com/wirecutter/out/link/31704/152384/4/148205?merchant=Amazon
+                                - generic [ref=f231e626]: Top pick,
+                                - text: The best bug repellent
+                                - generic [ref=f231e627]: Sawyer Products 20% Picaridin Insect Repellent
+                            - heading [level=3] [ref=f231e628]:
+                              - link [ref=f231e629] [cursor=pointer]:
+                                - /url: https://www.nytimes.com/wirecutter/out/link/31704/152384/4/148205?merchant=Amazon
+                                - text: Sawyer Products 20% Picaridin Insect Repellent
+                          - paragraph [ref=f231e630]: This EPA-approved picaridin formula is safe and effective, and it comes in a bottle that’s better than that of competitors at spraying evenly and accurately.
+                          - generic [ref=f231e632]:
+                            - 'link "Buying options: $10 from Amazon , opens in a new tab" [ref=f231e634] [cursor=pointer]':
+                              - /url: https://www.nytimes.com/wirecutter/out/link/31704/152384/4/148205?merchant=Amazon
+                              - generic [ref=f231e635]: "Buying options:"
+                              - text: $10 from Amazon
+                              - generic [ref=f231e636]: ", opens in a new tab"
+                            - link "$10 from Walmart , opens in a new tab" [ref=f231e638] [cursor=pointer]:
+                              - /url: https://www.nytimes.com/wirecutter/out/link/31704/152386/4/148205?merchant=Walmart
+                              - text: $10 from Walmart
+                              - generic [ref=f231e639]: ", opens in a new tab"
+                            - link "$10 from REI , opens in a new tab" [ref=f231e641] [cursor=pointer]:
+                              - /url: https://www.nytimes.com/wirecutter/out/link/31704/183617/4/148205?merchant=REI
+                              - text: $10 from REI
+                              - generic [ref=f231e642]: ", opens in a new tab"
+                    - paragraph [ref=f231e643]:
+                      - text: After testing over 25 spray repellents, we’ve concluded that
+                      - link "Sawyer Products 20% Picaridin Insect Repellent" [ref=f231e644] [cursor=pointer]:
+                        - /url: https://www.nytimes.com/wirecutter/out/link/31704/152384/4/89467/?merchant=Amazon
+                      - text: is the best. It has a 20% picaridin formula, making it effective against mosquitoes and ticks for up to 12 hours. Compared with the other picaridin-based repellents we looked at, the Sawyer spray applies repellent the most evenly, with the least amount of overspray. We also like its double cap design. Formula, though, has not changed.
+                    - paragraph [ref=f231e645]:
+                      - strong [ref=f231e646]: Sawyer insect repellent has a 20% picaridin base.
+                      - text: As we
+                      - link "outlined above," [ref=f231e647] [cursor=pointer]:
+                        - /url: "#how-we-picked-and-tested"
+                      - text: this chemical has the most positives and the fewest negatives of any EPA-approved repellent.
+                    - paragraph [ref=f231e648]:
+                      - strong [ref=f231e649]: It sprays evenly.
+                      - text: All 20% picaridin repellents should provide similar protection, but the Sawyer pump spray stands apart due to a couple of usability features. Compared with other pump sprays, the Sawyer offers the most even cloud of repellent. The majority of the others we tested were too wet, and some even spat out little puddles, leaving thick droplets on the skin. We also like their aerosol spray bottle, but know that those are much harder to control and result in a lot more overspray. They also make it difficult to spray areas near the face, like the shoulders.
+                    - figure "Sawyer’s two-cap design ensures it won’t activate in a stuffed backpack. Doug Mahoney/NYT Wirecutter" [ref=f231e650]:
+                      - link [ref=f231e651] [cursor=pointer]:
+                        - /url: https://cdn.thewirecutter.com/wp-content/media/2026/04/IMG_1747-scaled.jpg
+                        - img "Up close picture of Sawyer’s two-cap design" [ref=f231e656]
+                      - generic [ref=f231e657]:
+                        - text: Sawyer’s two-cap design ensures it won’t activate in a stuffed backpack.
+                        - generic [ref=f231e658]: Doug Mahoney/NYT Wirecutter
+                    - paragraph [ref=f231e659]:
+                      - strong [ref=f231e660]: It’s easy to tell how much you have left (compared to an aerosol spray).
+                      - text: Another benefit to a pump bottle is that if you just give the bottle a little shake you can get a good sense of how much repellent is left. This is much harder to do with an aerosol can. (That’s more like shaking a can of whipped cream.)
+                    - paragraph [ref=f231e661]:
+                      - strong [ref=f231e662]: Sawyer's picaridin has minimal odor (well, there’s a very slight odor if you put your nose right to your skin), and it’s not oily.
+                      - text: Once it dries, there are really no “tells” that you’re covered in bug repellent, other than a very slight tackiness on the skin that seems to go away within an hour. If you still use a DEET-based repellent, this will likely be a very different experience for you.
+                    - figure "The Sawyer repellent coats the skin evenly, with no spitting or puddling. This is an older version of their bottle, but the newer one has the same spray. Kyle Fitzgerald/NYT Wirecutter" [ref=f231e663]:
+                      - generic [ref=f231e665]:
+                        - text: The Sawyer repellent coats the skin evenly, with no spitting or puddling. This is an older version of their bottle, but the newer one has the same spray.
+                        - generic [ref=f231e666]: Kyle Fitzgerald/NYT Wirecutter
+                    - paragraph [ref=f231e667]:
+                      - strong [ref=f231e668]: It has two caps, which is a big winner, especially if you have kids.
+                      - text: Both caps click in tightly, and it’s really difficult to pull them straight off. We’re not saying they’re totally childproof, but the added difficulty might be enough to discourage a toddler’s curiosity (or buy you some time to confiscate the bottle). This second cap also guarantees that the repellent won’t accidentally be set off while stuffed in a backpack or beach bag. If you don’t want to deal with the second cap, it can be discarded.
+                    - heading "Flaws but not dealbreakers" [level=3] [ref=f231e669]
+                    - paragraph [ref=f231e670]: The only real downside to the Sawyer repellent is that, like all picaridin sprays, it has a slight off-smell to it when first applied. Once it dries, which takes only a couple of minutes, the odor dissipates to nearly nothing, so this is only a minor gripe, and it’s consistent across all the repellents we tested.
+                    - paragraph [ref=f231e671]:
+                      - text: As a pump spray, this repellent is sold in 3- and 4-ounce sizes. It is also available in a
+                      - link "6-ounce aerosol" [ref=f231e672] [cursor=pointer]:
+                        - /url: https://www.nytimes.com/wirecutter/out/link/38632/162190/4/115058/?merchant=Amazon
+                      - text: (with a
+                      - link "twin pack" [ref=f231e673] [cursor=pointer]:
+                        - /url: https://www.nytimes.com/wirecutter/out/link/38633/162191/4/115059/?merchant=Amazon
+                      - text: option), which offers a continuous spray. We found it harder to use than the pump spray, but it offers the same protection, if the pump spray is out of stock or if you simply prefer the aerosol format.
+                    - generic [ref=f231e676]:
+                      - paragraph [ref=f231e677]: Advertisement
+                      - link "SKIP ADVERTISEMENT" [ref=f231e678] [cursor=pointer]:
+                        - /url: "#after-dfp-ad-chapter-mid-6"
+                - generic [ref=f231e681]:
+                  - 'tab "Runner-up: Grand Tongo DEET-Free Insect Repellent" [selected] [ref=f231e682] [cursor=pointer]'
+                  - tabpanel [ref=f231e683]:
+                    - figure "Doug Mahoney/NYT Wirecutter" [ref=f231e684]:
+                      - link [ref=f231e685] [cursor=pointer]:
+                        - /url: https://cdn.thewirecutter.com/wp-content/media/2026/04/IMG_1743-scaled.jpg
+                        - img "3 bottles of different sizes and scents of Grand Tongo DEET-Free Insect Repellent" [ref=f231e686]
+                    - generic [ref=f231e689]:
+                      - heading "Runner-up" [level=4] [ref=f231e690]
+                      - generic [ref=f231e693]:
+                        - link [ref=f231e695] [cursor=pointer]:
+                          - /url: https://www.nytimes.com/wirecutter/out/deals/250622?merchant=Amazon
+                        - generic [ref=f231e697]:
+                          - generic [ref=f231e698]:
+                            - heading [level=2] [ref=f231e700]:
+                              - link "Runner-up, Another standout picaridin spray Grand Tongo DEET-Free Insect Repellent" [ref=f231e701] [cursor=pointer]:
+                                - /url: https://www.nytimes.com/wirecutter/out/deals/250622?merchant=Amazon
+                                - generic [ref=f231e702]: Runner-up,
+                                - text: Another standout picaridin spray
+                                - generic [ref=f231e703]: Grand Tongo DEET-Free Insect Repellent
+                            - heading [level=3] [ref=f231e704]:
+                              - link [ref=f231e705] [cursor=pointer]:
+                                - /url: https://www.nytimes.com/wirecutter/out/deals/250622?merchant=Amazon
+                                - text: Grand Tongo DEET-Free Insect Repellent
+                          - paragraph [ref=f231e706]: Grand Tongo offers the same protection as Sawyer’s repellent. It’s available in a variety of sizes, including a small travel size we really like.
+                          - generic [ref=f231e709]:
+                            - 'link "Buying options: DEAL, original price $15 , sale price $12 from Amazon , opens in a new tab" [ref=f231e710] [cursor=pointer]':
+                              - /url: https://www.nytimes.com/wirecutter/out/deals/250622?merchant=Amazon
+                              - generic [ref=f231e711]: "Buying options:"
+                              - generic [ref=f231e712]:
+                                - generic [ref=f231e713]:
+                                  - deletion [ref=f231e714]:
+                                    - generic [ref=f231e715]: DEAL, original price
+                                    - text: $15
+                                  - generic [ref=f231e716]: ", sale price"
+                                - text: $12 from Amazon
+                              - generic [ref=f231e717]: ", opens in a new tab"
+                            - paragraph [ref=f231e719]: With clipped on-page coupon
+                    - paragraph [ref=f231e720]:
+                      - text: If Sawyer’s repellent is not available, we’ll happily reach for
+                      - link "Grand Tongo DEET-Free Insect Repellent" [ref=f231e721] [cursor=pointer]:
+                        - /url: https://www.nytimes.com/wirecutter/out/link/70471/216825/4/216314/?merchant=Amazon
+                      - text: . Grand Tongo’s repellent has the same 20% picaridin concentration as our top pick, so it should have the same effectiveness against ticks and mosquitoes. It comes in either a pump- or trigger-spray bottle, the latter of which emits a nice, even clout of repellent.
+                    - figure "The 1-ounce size is extremely convenient and easy to toss in a backpack, handbag, or even a pants pocket. oug Mahoney/NYT Wirecutter" [ref=f231e722]:
+                      - link [ref=f231e723] [cursor=pointer]:
+                        - /url: https://cdn.thewirecutter.com/wp-content/media/2026/04/IMG_1745-scaled.jpg
+                        - img "Grand Tongo green tea and mint in the 1-ounce size" [ref=f231e724]
+                      - generic [ref=f231e725]:
+                        - text: The 1-ounce size is extremely convenient and easy to toss in a backpack, handbag, or even a pants pocket.
+                        - generic [ref=f231e726]: oug Mahoney/NYT Wirecutter
+                    - paragraph [ref=f231e727]:
+                      - strong [ref=f231e728]: We really like the 1-ounce size.
+                      - text: It comes in a few sizes, but our favorite is the micro
+                      - link "1-ounce spray" [ref=f231e729] [cursor=pointer]:
+                        - /url: https://www.nytimes.com/wirecutter/out/link/82101/240328/4/256532/?merchant=Amazon
+                      - text: that comes in the shape of a ½-inch thick credit card. It fits in a back pocket and is useful to keep on hand, especially for day hikes, outdoor festivals, and other events where you don’t want to be burdened by a big, clunky bottle of repellent.
+                    - paragraph [ref=f231e730]:
+                      - strong [ref=f231e731]: It has a variety of scents.
+                      - text: Grand Tongo is available in a variety of scents (
+                      - link "citrus and sandalwood" [ref=f231e732] [cursor=pointer]:
+                        - /url: https://www.nytimes.com/wirecutter/out/link/70472/216827/4/256530/?merchant=Amazon
+                      - text: ","
+                      - link "green tea and mint" [ref=f231e733] [cursor=pointer]:
+                        - /url: https://www.nytimes.com/wirecutter/out/link/70473/216828/4/216316/?merchant=Amazon
+                      - text: ", and"
+                      - link "fragrance free" [ref=f231e734] [cursor=pointer]:
+                        - /url: https://www.nytimes.com/wirecutter/out/link/70471/216825/4/216314/?merchant=Amazon
+                      - text: ). Even though the odor of picaridin is still prominent, we found all of the scents to be pleasant.
+                    - heading "Flaws but not dealbreakers" [level=3] [ref=f231e735]
+                    - paragraph [ref=f231e736]: "Grand Tongo shares the relatively minor downsides common to picaridin sprays: A slight odor, and perfumes you might not prefer. Although any of these formulas pay for themselves by avoiding the nuisance and risk of bug bites, we could note as a minor flaw that the price of Grand Tongo and Sawyer sprays tend to be higher per ounce than classic DEET formulas. Another minor inconvenience we could note about the handy 1-ounce size is that, unlike Sawyer’s secure dual lid bottle, this size lacks a lid lock. An accidental spray in a pocket or bag is possible, although it was not a problem we had in testing."
+                - generic [ref=f231e739]:
+                  - 'tab "Best for an above-average DEET option: Cutter Backwoods Dry Insect Repellent" [selected] [ref=f231e740] [cursor=pointer]'
+                  - tabpanel [ref=f231e741]:
+                    - figure "Michael Murtaugh/NYT Wirecutter" [ref=f231e742]:
+                      - img "A bottle of Cutter Backwoods Dry, a DEET-based bug repellent we recommend." [ref=f231e746]
+                    - generic [ref=f231e749]:
+                      - heading "Best for..." [level=4] [ref=f231e750]
+                      - generic [ref=f231e753]:
+                        - link [ref=f231e755] [cursor=pointer]:
+                          - /url: https://www.nytimes.com/wirecutter/out/link/10333/138906/4/252257?merchant=Amazon
+                        - generic [ref=f231e757]:
+                          - generic [ref=f231e758]:
+                            - heading [level=2] [ref=f231e760]:
+                              - link "Best for..., Best for an above-average DEET option Cutter Backwoods Dry Insect Repellent" [ref=f231e761] [cursor=pointer]:
+                                - /url: https://www.nytimes.com/wirecutter/out/link/10333/138906/4/252257?merchant=Amazon
+                                - generic [ref=f231e762]: Best for...,
+                                - text: Best for an above-average DEET option
+                                - generic [ref=f231e763]: Cutter Backwoods Dry Insect Repellent
+                            - heading [level=3] [ref=f231e764]:
+                              - link [ref=f231e765] [cursor=pointer]:
+                                - /url: https://www.nytimes.com/wirecutter/out/link/10333/138906/4/252257?merchant=Amazon
+                                - text: Cutter Backwoods Dry Insect Repellent
+                          - paragraph [ref=f231e766]: DEET formulas aren’t more effective than picaridin (they tend to smell bad and feel oily, too). Cutter Backwoods Dry, with its even aerosol spray and locking cap, is the best DEET repellent we’ve found.
+                          - 'link "Buying options: $7 from Amazon , opens in a new tab" [ref=f231e770] [cursor=pointer]':
+                            - /url: https://www.nytimes.com/wirecutter/out/link/10333/138906/4/252257?merchant=Amazon
+                            - generic [ref=f231e771]: "Buying options:"
+                            - text: $7 from Amazon
+                            - generic [ref=f231e772]: ", opens in a new tab"
+                    - paragraph [ref=f231e773]:
+                      - text: If you can’t find a picaridin-based repellent, if you have a reaction to it (which we’ve heard anecdotally can happen), or if you simply prefer to stick with the active ingredient you’ve always relied on, we think the DEET-based
+                      - link "Cutter Backwoods Dry Insect Repellent" [ref=f231e774] [cursor=pointer]:
+                        - /url: https://www.nytimes.com/wirecutter/out/link/10333/138906/4/89470/?merchant=Amazon
+                      - text: is the best option.
+                    - paragraph [ref=f231e775]:
+                      - strong [ref=f231e776]: DEET works.
+                      - text: There’s no question DEET repellents are effective—in decades of testing since the 1940s, DEET has become, in
+                      - link "Conlon’s words" [ref=f231e777] [cursor=pointer]:
+                        - /url: https://www.mosquito.org/page/FAQ#Which%20repellent%20works%20best?
+                      - text: ", “the standard by which all other repellents are judged.” But DEET is not any more effective than picaridin, and our firsthand tests confirmed its well-known drawbacks."
+                    - paragraph [ref=f231e778]:
+                      - strong [ref=f231e779]: This is a less oily, less smelly DEET formula
+                      - text: . Cutter’s dry formula means it’s not as oily as regular DEET spray. And although it has an odor, it’s not as strong a scent compared with that of other repellents that contain DEET.
+                    - paragraph [ref=f231e780]:
+                      - strong [ref=f231e781]: You get solid protection.
+                      - text: Cutter is a 25% DEET formula, which the EPA-approved label says provides up to 10 hours of protection, but a study published in
+                      - link "The New England Journal of Medicine" [ref=f231e782] [cursor=pointer]:
+                        - /url: https://www.nejm.org/doi/full/10.1056/nejmoa011699
+                      - text: concluded that a 23.8% DEET product had a mean protection time closer to five hours. The
+                      - link "American Academy of Pediatrics" [ref=f231e783] [cursor=pointer]:
+                        - /url: https://www.aap.org/en/patient-care/environmental-health/promoting-healthy-environments-for-children/insect-repellents/?srsltid=AfmBOorOALX2BslGG63QOZDmrhyG2WhGzbiFJTfzhel2wKUUZvcYuZLS
+                      - text: states “When used on children, insect repellents should contain no more than 30% DEET,” so Cutter’s formula provides long-lasting protection while still meeting that threshold.
+                    - paragraph [ref=f231e784]:
+                      - strong [ref=f231e785]: It sprays relatively evenly, and its cap can lock.
+                      - text: The Cutter is an aerosol spray. The reason we didn’t go with a pump spray here is that none of the dry DEET formulations come in pump-spray bottles. That said, this spray nozzle applied more evenly than others we tried, and a handy twisting lock on the cap helps prevent it from accidentally depressing and discharging in a bag or backpack.
+                    - heading "Flaws But Not Dealbreakers" [level=3] [ref=f231e786]
+                    - paragraph [ref=f231e787]:
+                      - strong [ref=f231e788]: DEET ain’t perfect.
+                      - text: Compared to picaridin sprays, DEET formulas are smellier and oilier, and can damage plastics and synthetic fabrics. (So be careful when using it around your camera, rain jacket, and laminated trail map.)
+                    - paragraph [ref=f231e789]:
+                      - strong [ref=f231e790]: You can spray too much, or not have enough.
+                      - text: Aerosol cans in general tend to overspray, which makes it harder than our picaridin picks to apply in limited areas. The can’s heft and solid metal exterior can make it hard to tell how much repellent you have left as the bottle gets low.
+                    - generic [ref=f231e793]:
+                      - paragraph [ref=f231e794]: Advertisement
+                      - link "SKIP ADVERTISEMENT" [ref=f231e795] [cursor=pointer]:
+                        - /url: "#after-dfp-ad-chapter-mid-7"
+                - generic [ref=f231e798]:
+                  - 'tab "Best for a DEET and picaridin alternative: Mimikai Mosquito & Tick Spray" [selected] [ref=f231e799] [cursor=pointer]'
+                  - tabpanel [ref=f231e800]:
+                    - figure "Doug Mahoney/NYT Wirecutter" [ref=f231e801]:
+                      - link [ref=f231e802] [cursor=pointer]:
+                        - /url: https://cdn.thewirecutter.com/wp-content/media/2026/04/IMG_1740-scaled.jpg
+                        - img "Two bottles of Mimikai Mosquito & Tick Spray" [ref=f231e807]
+                    - generic [ref=f231e810]:
+                      - heading "Best for..." [level=4] [ref=f231e811]
+                      - generic [ref=f231e814]:
+                        - link [ref=f231e816] [cursor=pointer]:
+                          - /url: https://www.nytimes.com/wirecutter/out/link/80519/237547/4/256531?merchant=Amazon
+                        - generic [ref=f231e818]:
+                          - generic [ref=f231e819]:
+                            - heading [level=2] [ref=f231e821]:
+                              - link "Best for..., Best for a DEET or picaridin alternative Mimikai Mosquito & Tick Bug Spray" [ref=f231e822] [cursor=pointer]:
+                                - /url: https://www.nytimes.com/wirecutter/out/link/80519/237547/4/256531?merchant=Amazon
+                                - generic [ref=f231e823]: Best for...,
+                                - text: Best for a DEET or picaridin alternative
+                                - generic [ref=f231e824]: Mimikai Mosquito & Tick Bug Spray
+                            - heading [level=3] [ref=f231e825]:
+                              - link [ref=f231e826] [cursor=pointer]:
+                                - /url: https://www.nytimes.com/wirecutter/out/link/80519/237547/4/256531?merchant=Amazon
+                                - text: Mimikai Mosquito & Tick Bug Spray
+                          - paragraph [ref=f231e827]: Mimikai doesn’t last as long as our other picks (especially on ticks), but its unique formula combines oil of lemon eucalyptus and 2-Undecanone to produce a low-toxicity alternative.
+                          - generic [ref=f231e829]:
+                            - 'link "Buying options: $15 from Amazon , opens in a new tab" [ref=f231e831] [cursor=pointer]':
+                              - /url: https://www.nytimes.com/wirecutter/out/link/80519/237547/4/256531?merchant=Amazon
+                              - generic [ref=f231e832]: "Buying options:"
+                              - text: $15 from Amazon
+                              - generic [ref=f231e833]: ", opens in a new tab"
+                            - link "$15 from REI , opens in a new tab" [ref=f231e835] [cursor=pointer]:
+                              - /url: https://www.nytimes.com/wirecutter/out/link/80519/240343/4/256531?merchant=REI
+                              - text: $15 from REI
+                              - generic [ref=f231e836]: ", opens in a new tab"
+                    - paragraph [ref=f231e837]:
+                      - link "Mimikai Mosquito & Tick Bug Spray" [ref=f231e838] [cursor=pointer]:
+                        - /url: https://www.nytimes.com/wirecutter/out/link/80519/237547/4/252263/?merchant=Amazon
+                      - text: doesn’t have the long-lasting protection of the picaridin-based products, but, according to the EPA, it has a lower toxicity level. Like picaridin, it goes on with a slightly chemical smell that quickly dissipates, in this case, replaced by a light floral odor.
+                    - paragraph [ref=f231e839]:
+                      - strong [ref=f231e840]: The formula uses two active ingredients, one of which is newly approved.
+                      - text: For its repellency, Mimikai relies on 2-Undecanone and oil of lemon eucalyptus. 2-Undecanone is a new active ingredient, based on a compound found in the wild tomato plant. Because of this dual-chemical formulation, the percentage of each active ingredient is relatively low, only 11% for OLE and 7.75% for 2-Undecanone.
+                    - paragraph [ref=f231e841]:
+                      - strong [ref=f231e842]: It has the lowest toxicity of any EPA-approved repellent.
+                      - text: The EPA evaluates each bug repellent for toxicity across a series of categories (eye irritation, skin irritation, etc), assigning each product a classification on a scale of one to four. The product then receives a final classification based on the highest toxicity classification it has been assigned. Mimikai is the only repellent we’ve seen that achieves Category IV, the least toxic. This can be seen by the fact that the label of the repellent has
+                      - link "no signal words" [ref=f231e843] [cursor=pointer]:
+                        - /url: https://www.epa.gov/pesticide-labels/label-review-training-module-2-parts-label-page-2
+                      - text: (remember, the label is an EPA-approved document), such as ‘caution,’ ‘warning,’ or ‘danger.’
+                    - paragraph [ref=f231e844]: Picaridin products fall into category III (slightly toxic), because it attains that level in the categories of oral, dermal, and acute eye irritation. Picaridin products, if used properly, carry little risk, and Mimikai poses even less of one.
+                    - paragraph [ref=f231e845]:
+                      - strong [ref=f231e846]: It smells nice, but goes on a bit oily.
+                      - text: Mimikai reminds us of picaridin in how it goes on. At first, there is a chemical smell, but that quickly fades to the background. But unlike most picaridin products, Mimikai is scented, so after a few moments, we were left with a light (and fairly pleasant) floral odor. Mimikai is also oily, so where picaridin leaves a dry forearm, Mimikai leaves a slightly shiny one.
+                    - paragraph [ref=f231e847]:
+                      - strong [ref=f231e848]: There are different labels, but it’s all the same.
+                      - text: In addition to the Mosquito & Tick Bug Spray (available in both
+                      - link "pump spray" [ref=f231e849] [cursor=pointer]:
+                        - /url: https://www.nytimes.com/wirecutter/out/link/80519/237547/4/252263/?merchant=Amazon
+                      - text: and
+                      - link "spray mist" [ref=f231e850] [cursor=pointer]:
+                        - /url: https://www.nytimes.com/wirecutter/out/link/82102/240329/4/256533/?merchant=Amazon
+                      - text: ), Mimikai also sells Kid’s Mosquito & Tick Bug Spray (also available in both
+                      - link "pump spray" [ref=f231e851] [cursor=pointer]:
+                        - /url: https://www.nytimes.com/wirecutter/out/link/82103/240330/4/256534/?merchant=Amazon
+                      - text: and
+                      - link "spray mist" [ref=f231e852] [cursor=pointer]:
+                        - /url: https://www.nytimes.com/wirecutter/out/link/82104/240331/4/256535/?merchant=Amazon
+                      - text: ). While the labels are different between the two products, what’s inside the bottle is not.
+                    - heading "Flaws but not dealbreakers" [level=3] [ref=f231e853]
+                    - paragraph [ref=f231e854]:
+                      - strong [ref=f231e855]: It doesn’t last as long as our other picks, especially against ticks.
+                      - text: We think that 8-hours of protection against mosquitoes is adequate for most scenarios. But Mimikai has a much shorter duration when it comes to ticks. Four hours is still a respectable amount of protection, but it’s only a third of the 12-hours that a 20% picaridin repellent provides. In places (or lifestyles) where ticks are of primary concern, Mimikai will need to be reapplied every four hours, something that might become tedious (or forgotten) during longer outings. We really appreciate that picaridin offers one-shot, 12-hour protection with really no need to reapply, or even think about it for the remainder of the day. We’d recommend anyone relying on Mimikai in tick country to supplement the protection with permethrin sprayed on clothing, shoes, and gear.
+                    - paragraph [ref=f231e856]:
+                      - strong [ref=f231e857]: The product and company are brand new.
+                      - text: This isn’t necessarily a flaw, just our general caution with any new and unproven product or company (in this case, both). While all indications are that Mimikai will be able to handle their growth, there is still no track record to rely on as far as customer service, inventory, shipping, etc.
+                    - generic [ref=f231e860]:
+                      - paragraph [ref=f231e861]: Advertisement
+                      - link "SKIP ADVERTISEMENT" [ref=f231e862] [cursor=pointer]:
+                        - /url: "#after-dfp-ad-chapter-mid-8"
+                - generic [ref=f231e865]:
+                  - 'tab "Best for clothing, gear, and tick protection: Sawyer Products Permethrin Fabric Treatment" [selected] [ref=f231e866] [cursor=pointer]'
+                  - tabpanel [ref=f231e867]:
+                    - figure "Michael Murtaugh/NYT Wirecutter" [ref=f231e868]:
+                      - img "A spray bottle and aerosol bottle of Sawyer Products Premium Insect Repellent Clothing & Gear, an insect repellent we recommend." [ref=f231e872]
+                    - generic [ref=f231e875]:
+                      - heading "Best for..." [level=4] [ref=f231e876]
+                      - generic [ref=f231e879]:
+                        - link [ref=f231e881] [cursor=pointer]:
+                          - /url: https://www.nytimes.com/wirecutter/out/link/26876/152387/4/252258?merchant=Amazon
+                        - generic [ref=f231e883]:
+                          - generic [ref=f231e884]:
+                            - heading [level=2] [ref=f231e886]:
+                              - link "Best for..., Best for clothing, gear, and tick protection Sawyer Products Permethrin Fabric Treatment" [ref=f231e887] [cursor=pointer]:
+                                - /url: https://www.nytimes.com/wirecutter/out/link/26876/152387/4/252258?merchant=Amazon
+                                - generic [ref=f231e888]: Best for...,
+                                - text: Best for clothing, gear, and tick protection
+                                - generic [ref=f231e889]: Sawyer Products Permethrin Fabric Treatment
+                            - heading [level=3] [ref=f231e890]:
+                              - link [ref=f231e891] [cursor=pointer]:
+                                - /url: https://www.nytimes.com/wirecutter/out/link/26876/152387/4/252258?merchant=Amazon
+                                - text: Sawyer Products Permethrin Fabric Treatment
+                          - paragraph [ref=f231e892]: For clothing and gear (but not skin), Sawyer’s permethrin repellent is as effective as similar formulas at repelling ticks and mosquitoes, and its trigger spray is easier to control.
+                          - generic [ref=f231e894]:
+                            - generic [ref=f231e895]:
+                              - 'link "Buying options: $28 from Amazon , opens in a new tab" [ref=f231e896] [cursor=pointer]':
+                                - /url: https://www.nytimes.com/wirecutter/out/link/26876/152387/4/252258?merchant=Amazon
+                                - generic [ref=f231e897]: "Buying options:"
+                                - text: $28 from Amazon
+                                - generic [ref=f231e898]: ", opens in a new tab"
+                              - paragraph [ref=f231e899]: (pack of two)
+                            - generic [ref=f231e900]:
+                              - link "$14 from Walmart , opens in a new tab" [ref=f231e901] [cursor=pointer]:
+                                - /url: https://www.nytimes.com/wirecutter/out/link/26876/170563/4/252258?merchant=Walmart
+                                - text: $14 from Walmart
+                                - generic [ref=f231e902]: ", opens in a new tab"
+                              - paragraph [ref=f231e903]: (12-ounce)
+                            - generic [ref=f231e904]:
+                              - link "$15 from REI , opens in a new tab" [ref=f231e905] [cursor=pointer]:
+                                - /url: https://www.nytimes.com/wirecutter/out/link/26876/161746/4/252258?merchant=REI
+                                - text: $15 from REI
+                                - generic [ref=f231e906]: ", opens in a new tab"
+                              - paragraph [ref=f231e907]: (12 ounces)
+                    - paragraph [ref=f231e908]:
+                      - text: If you live in
+                      - link "tick country" [ref=f231e909] [cursor=pointer]:
+                        - /url: https://www.cdc.gov/ticks/about/where-ticks-live.html
+                      - text: ", get"
+                      - link "Sawyer Products Permethrin Fabric Treatment" [ref=f231e910] [cursor=pointer]:
+                        - /url: https://www.nytimes.com/wirecutter/out/link/26876/152387/4/89468/?merchant=Amazon
+                      - text: ", which contains 0.5% permethrin, an insecticide that’s effective at stopping ticks, those particularly nasty creatures that carry Lyme, Rocky Mountain spotted fever, and a host of other serious diseases. We looked at four different permethrin sprays and preferred Sawyer’s due to its slightly better bottles, options for wide or narrow spray, broad availability, and variety of sizes (but the others we tried have the same reported effectiveness)."
+                    - paragraph [ref=f231e911]:
+                      - strong [ref=f231e912]: Permethrin protects clothes.
+                      - text: You don’t apply permethrin directly to your skin. Instead, this odorless spray is used to treat clothing and pieces of gear, like a tent or backpack. Once dried, it offers protection for up to six washings (or about six weeks).
+                    - paragraph [ref=f231e913]:
+                      - strong [ref=f231e914]: It combines well with other repellents.
+                      - text: Permethrin is suitable for most fabrics and should be used alongside other repellents. You treat clothes and gear with permethrin in advance, then apply a picaridin or DEET repellent as you head, for example, into
+                      - link "the Peruvian jungle" [ref=f231e915] [cursor=pointer]:
+                        - /url: https://amazon.com/gp/customer-reviews/R2EZKEV1TTFPAY?tag=thewire06-20&linkCode=xm2&ascsubtag=YT86777
+                      - text: .
+                    - paragraph [ref=f231e916]:
+                      - strong [ref=f231e917]: Same stuff, slightly better bottle.
+                      - text: The trigger spray on the Sawyer’s pump bottle is very even and easy to control compared to other
+                      - link "similarly capable permethrin formulas" [ref=f231e918] [cursor=pointer]:
+                        - /url: "#the-competition"
+                      - text: we tested. If you prefer, this repellent also comes in an aerosol can, which is great if you’re treating something large—like a tent—so you don’t wear out your index finger. The pump spray also comes in a
+                      - link "24-ounce size" [ref=f231e919] [cursor=pointer]:
+                        - /url: https://www.nytimes.com/wirecutter/out/link/7898/23220/4/89471/?merchant=Amazon
+                      - text: for the biggest jobs.
+                    - paragraph [ref=f231e920]:
+                      - text: The differences among the permethrin options are less pronounced than with the other types of repellents we recommend. The need for a super-precise spray pattern is not as important here, because it gets sprayed on a large object instead of, say, your ankle, your wrist, or the back of your neck. The most important thing to look for by far is EPA approval and the presence of 0.5% permethrin; competitors such as
+                      - link "Ranger Ready Permethrin 0.5% Clothing-Worn Repellent" [ref=f231e921] [cursor=pointer]:
+                        - /url: https://www.nytimes.com/wirecutter/out/link/51532/182571/4/148281/?merchant=Amazon
+                      - text: ","
+                      - link "Ben’s Clothing and Gear Insect Repellent" [ref=f231e922] [cursor=pointer]:
+                        - /url: https://www.nytimes.com/wirecutter/out/link/31706/152391/4/89472/?merchant=Amazon
+                      - text: ", and"
+                      - link "Coleman Gear and Clothing Insect Treatment" [ref=f231e923] [cursor=pointer]:
+                        - /url: https://www.nytimes.com/wirecutter/out/link/31707/152392/4/89473/?merchant=Amazon
+                      - text: are also fine options.
+                    - figure "Once permethrin is fully applied to these hiking boots, they’ll repel ticks for roughly six weeks. Kyle Fitzgerald/NYT Wirecutter" [ref=f231e924]:
+                      - generic [ref=f231e926]:
+                        - text: Once permethrin is fully applied to these hiking boots, they’ll repel ticks for roughly six weeks.
+                        - generic [ref=f231e927]: Kyle Fitzgerald/NYT Wirecutter
+                    - heading "Flaws But Not Dealbreakers" [level=3] [ref=f231e928]
+                    - paragraph [ref=f231e929]:
+                      - strong [ref=f231e930]: Permethrin is not applied like a regular repellent.
+                      - text: For it to be fully effective, you can’t just put a few squirts on your pants as you head out the door. Each item needs to be fully treated, and that means it needs a thick coat of spray. Sawyer recommends taking each item outside and coating it until the moisture causes the fabric to darken. At that point, the permethrin needs to dry fully before something is worn.
+                    - paragraph [ref=f231e931]:
+                      - strong [ref=f231e932]: Some people worry that because permethrin is an insecticide, it will harm them, but this isn’t the case.
+                      - text: Permethrin kills ticks by interfering with how neurons fire in the bugs’ little brains, causing them to spasm and die. But how our neurons fire is slightly different; plus, we’re much larger and can metabolize permethrin before it reaches our nervous system (permethrin is
+                      - link "over 2,250 times more toxic to ticks (PDF)" [ref=f231e933] [cursor=pointer]:
+                        - /url: https://gillmass.org/files/Gill_BOH_2018_Permethrin_Fact_Sheet_TER.pdf
+                      - text: than to humans) and a 140-pound person would have no adverse health effects even if exposed to 32 grams of permethrin in a day, and a bottle of clothing treatment has less than 1 gram of permethrin. (If you’re pregnant, know that animal studies have found no evidence that permethrin is harmful—but make sure to read the next paragraph.)
+                    - paragraph [ref=f231e934]:
+                      - strong [ref=f231e935]: Permethrin is toxic to cats.
+                      - link "On its site" [ref=f231e936] [cursor=pointer]:
+                        - /url: https://sawyer.com/maximize-effectiveness-permethrin-fabric-treatment/
+                      - text: ", Sawyer Products states that cats should not be exposed to wet permethrin, but that there is no risk once it’s dried. An"
+                      - link "article in NPR" [ref=f231e937] [cursor=pointer]:
+                        - /url: https://www.npr.org/sections/health-shots/2018/07/11/627843581/if-you-spray-your-clothes-with-permethrin-be-careful-around-the-cat
+                      - text: looked into the issue and found that the problems typically start with higher concentrations of the chemical, but we think it’s a smart idea to be very aware of your feline friends when you spray your items.
+                    - complementary [ref=f231e938]:
+                      - heading "Readers also like" [level=4] [ref=f231e939]
+                      - list [ref=f231e940]:
+                        - listitem [ref=f231e941]:
+                          - article [ref=f231e942]:
+                            - link [ref=f231e944] [cursor=pointer]:
+                              - /url: https://www.nytimes.com/wirecutter/blog/prevent-ticks-lyme-disease/
+                              - img "We Hate Ticks, Too. Here’s How to Protect Yourself and Prevent Bites." [ref=f231e946]
+                            - heading [level=3] [ref=f231e948]:
+                              - link "We Hate Ticks, Too. Here’s How to Protect Yourself and Prevent Bites." [ref=f231e949] [cursor=pointer]:
+                                - /url: https://www.nytimes.com/wirecutter/blog/prevent-ticks-lyme-disease/
+                    - generic [ref=f231e952]:
+                      - paragraph [ref=f231e953]: Advertisement
+                      - link "SKIP ADVERTISEMENT" [ref=f231e954] [cursor=pointer]:
+                        - /url: "#after-dfp-ad-chapter-mid-9"
+                - generic [ref=f231e957]:
+                  - 'tab "Repellent lotions: Cons and a couple pros" [selected] [ref=f231e958] [cursor=pointer]'
+                  - tabpanel [ref=f231e959]:
+                    - figure "Repellent lotions are also available. They offer long-lasting protection but take about 20 minutes to be effective. Michael Murtaugh/NYT Wirecutter" [ref=f231e960]:
+                      - img "Two bottles of lotian bog repellent from Sawyer and Proven." [ref=f231e964]
+                      - generic [ref=f231e965]:
+                        - text: Repellent lotions are also available. They offer long-lasting protection but take about 20 minutes to be effective.
+                        - generic [ref=f231e966]: Michael Murtaugh/NYT Wirecutter
+                    - paragraph [ref=f231e967]: Some companies, including Sawyer and Proven, sell repellent lotions with a 20% picaridin concentration. We tested both, and they do have advantages. But we don’t think repellent lotions are the best option for general use, although they may work in your specific circumstances.
+                    - paragraph [ref=f231e968]: Repellent lotions have two major downsides. First, they can’t be applied to clothing, so they’re less versatile. There is no way to get them onto your shoes or boots for added tick protection. The same goes for a backpack or a tent. Second, Conlon told us that after application, lotions take about 20 minutes to start repelling bugs. Sprays, like those we recommend, are more immediately effective.
+                    - paragraph [ref=f231e969]:
+                      - text: The upside of a lotion is that its effectiveness lasts longer than that of a spray. According to the labeling on the Sawyer and Proven lotions, the repellency time bumps up to 14 hours, as opposed to the 12 hours for the spray versions. The lotion may also be easier to apply to difficult areas, like the forehead or the back of the neck, or on a particularly squirmy child. As with the spray bottles, Sawyer
+                      - link "4-" [ref=f231e970] [cursor=pointer]:
+                        - /url: https://www.nytimes.com/wirecutter/out/link/14203/40582/4/184414/?merchant=Amazon
+                      - text: and
+                      - link "32-ounce" [ref=f231e971] [cursor=pointer]:
+                        - /url: https://www.nytimes.com/wirecutter/out/link/61607/201046/4/184415/?merchant=Amazon
+                      - text: while Proven is available in both
+                      - link "2-" [ref=f231e972] [cursor=pointer]:
+                        - /url: https://www.nytimes.com/wirecutter/out/link/38636/162195/4/115062/?merchant=Amazon
+                      - text: and
+                      - link "6-ounce" [ref=f231e973] [cursor=pointer]:
+                        - /url: https://www.nytimes.com/wirecutter/out/link/38637/162196/4/115063/?merchant=Amazon
+                      - text: bottles.
+                - generic [ref=f231e976]:
+                  - 'tab "Other repellents worth considering: Similar stuff, different bottles" [selected] [ref=f231e977] [cursor=pointer]'
+                  - tabpanel [ref=f231e978]:
+                    - figure "Many repellents with a 20% picaridin formulation should be just as effective as our picks. Michael Murtaugh/NYT Wirecutter" [ref=f231e979]:
+                      - img "A selection of the best 20 percent picaridin repellents, in a line." [ref=f231e983]
+                      - generic [ref=f231e984]:
+                        - text: Many repellents with a 20% picaridin formulation should be just as effective as our picks.
+                        - generic [ref=f231e985]: Michael Murtaugh/NYT Wirecutter
+                    - paragraph [ref=f231e986]:
+                      - text: Any other repellent with 20% picaridin should offer the same protection against mosquitoes and ticks for a similar duration of time. We’ve tested other brands, and even though they have some drawbacks—mostly centered on the spray pattern—they’re all valid options. One example, a former runner-up in this guide, is
+                      - link "Ranger Ready Picaridin 20% Tick + Insect Repellent" [ref=f231e987] [cursor=pointer]:
+                        - /url: https://www.nytimes.com/wirecutter/out/link/51017/181356/4/256536/?merchant=Amazon
+                      - text: . In years of research and testing, we’ve found it offers the same protection as Sawyer’s repellent, and is available in pump- and trigger-spray bottles in a variety of scents.
+                    - paragraph [ref=f231e988]:
+                      - link "Proven 12 Hour Mosquito + Tick Spray" [ref=f231e989] [cursor=pointer]:
+                        - /url: https://www.nytimes.com/wirecutter/out/link/38160/161412/4/115051/?merchant=Amazon
+                      - text: and
+                      - link "Natrapel Tick & Insect Repellent" [ref=f231e990] [cursor=pointer]:
+                        - /url: https://www.nytimes.com/wirecutter/out/link/31705/152390/4/89469/?merchant=Walmart
+                      - text: are pump sprays that are wet and spitty at times. We like that the Proven repellent has a completely clear bottle, which makes it easy to see how much is left, and that. Natrapel’s bottle has a small viewing window along the side.
+                    - paragraph [ref=f231e991]:
+                      - link "Off Defense Insect Repellent 1 With Picaridin" [ref=f231e992] [cursor=pointer]:
+                        - /url: https://www.nytimes.com/wirecutter/out/link/45079/171988/4/132201/?merchant=Amazon
+                      - text: is available in both an aerosol can and a pump-spray bottle. It’s very similar to our Sawyer pick, but it doesn’t have the range of buying options or the second cap. Off also has a
+                      - link "Clean Feel Aerosol Insect Repellent" [ref=f231e993] [cursor=pointer]:
+                        - /url: https://www.nytimes.com/wirecutter/out/link/61602/201040/4/184408/?merchant=Amazon
+                      - text: . 20% picaridin formula.
+                    - paragraph [ref=f231e994]:
+                      - link "Ben’s Tick Repellent Eco-Spray" [ref=f231e995] [cursor=pointer]:
+                        - /url: https://www.nytimes.com/wirecutter/out/link/38159/172911/4/115053/?merchant=Amazon
+                      - text: is marketed as a tick repellent, but the 20% picaridin formula is just as effective on mosquitoes. This one is available only in an aerosol can, which can spray upside-down, but produced a dense and focused spray that we found harder to control than the others.
+                    - paragraph [ref=f231e996]:
+                      - link "Earthkind Stay Away Mosquitoes Insect Repellent" [ref=f231e997] [cursor=pointer]:
+                        - /url: https://www.nytimes.com/wirecutter/out/link/51020/181359/4/148218/?merchant=Amazon
+                      - text: has the spittiest spray of the bottles we looked at, but it has 20% picaridin, so it’ll work against mosquitoes and ticks. Earthkind also sells a
+                      - link "0.6-ounce travel size" [ref=f231e998] [cursor=pointer]:
+                        - /url: https://www.nytimes.com/wirecutter/out/link/51558/182606/4/148282/?merchant=Amazon
+                      - text: ", which is similarly spitty and pricey per-ounce, but makes a great grab-and-go option for a pocket or a purse."
+                    - figure "Michael Murtaugh/NYT Wirecutter" [ref=f231e999]:
+                      - img "The two red repellant bottles set against a pale blue background" [ref=f231e1003]
+                    - paragraph [ref=f231e1006]:
+                      - text: Formulas with 15% picaridin concentrations work too, but for shorter periods of time.
+                      - link "Repel Tick Defense" [ref=f231e1007] [cursor=pointer]:
+                        - /url: https://www.nytimes.com/wirecutter/out/link/46383/173869/4/134316/?merchant=Amazon
+                      - text: each have a 15% picaridin concentration, versus our picks’ 20%. The repellency is the same, but it lasts for just 10 hours, as opposed to the 12 you’d get with a 20% formula.
+                    - complementary [ref=f231e1008]:
+                      - heading "Readers also like" [level=4] [ref=f231e1009]
+                      - list [ref=f231e1010]:
+                        - listitem [ref=f231e1011]:
+                          - article [ref=f231e1012]:
+                            - link [ref=f231e1014] [cursor=pointer]:
+                              - /url: https://www.nytimes.com/wirecutter/blog/essential-oils-terrible-bug-repellents/
+                              - img "Why Essential Oils Make Terrible Bug Repellents" [ref=f231e1016]
+                            - heading [level=3] [ref=f231e1018]:
+                              - link "Why Essential Oils Make Terrible Bug Repellents" [ref=f231e1019] [cursor=pointer]:
+                                - /url: https://www.nytimes.com/wirecutter/blog/essential-oils-terrible-bug-repellents/
+                    - generic [ref=f231e1022]:
+                      - paragraph [ref=f231e1023]: Advertisement
+                      - link "SKIP ADVERTISEMENT" [ref=f231e1024] [cursor=pointer]:
+                        - /url: "#after-dfp-ad-chapter-mid-10"
+                - generic [ref=f231e1027]:
+                  - tab "What to look forward to" [selected] [ref=f231e1028] [cursor=pointer]
+                  - tabpanel "What to look forward to We’re continuing to look into the active ingredient nootkatone, which was approved by the EPA in 2020. There are no products available yet which use it, but we hope to soon have a sense of the timeline and what we might expect from the ingredient in terms of repellency." [ref=f231e1029]:
+                    - paragraph [ref=f231e1030]:
+                      - text: We’re continuing to look into the active ingredient
+                      - link "nootkatone" [ref=f231e1031] [cursor=pointer]:
+                        - /url: https://nootkashield.com
+                      - text: ", which was"
+                      - link "approved by the EPA" [ref=f231e1032] [cursor=pointer]:
+                        - /url: https://www.epa.gov/pesticides/nootkatone-now-registered-epa
+                      - text: in 2020. There are no products available yet which use it, but we hope to soon have a sense of the timeline and what we might expect from the ingredient in terms of repellency.
+                - generic [ref=f231e1035]:
+                  - tab "The competition" [selected] [ref=f231e1036] [cursor=pointer]
+                  - tabpanel [ref=f231e1037]:
+                    - paragraph [ref=f231e1038]:
+                      - text: We tested the
+                      - link "Pestly All-Natural Insect Repellent" [ref=f231e1039] [cursor=pointer]:
+                        - /url: https://www.nytimes.com/wirecutter/out/link/70474/216831/4/216317/?merchant=Pestly
+                      - text: . It is clearly the best essential oil repellent
+                      - link "we’ve tried" [ref=f231e1040] [cursor=pointer]:
+                        - /url: https://www.nytimes.com/wirecutter/blog/essential-oils-terrible-bug-repellents/
+                      - text: . The company has figured out how to encapsulate the volatile oils so they don’t evaporate so quickly. They’ve also conducted a number of studies to the rigorous standards of the EPA that demonstrate a strong degree of effectiveness against mosquitoes. But it’s still not a product we recommend. We have more details
+                      - link "here" [ref=f231e1041] [cursor=pointer]:
+                        - /url: https://www.nytimes.com/wirecutter/reviews/pestly-all-natural-bug-spray-review/
+                      - text: .
+                    - paragraph [ref=f231e1042]:
+                      - text: SC Johnson’s
+                      - link "Stem for Mosquitoes" [ref=f231e1043] [cursor=pointer]:
+                        - /url: https://www.nytimes.com/wirecutter/out/link/51021/181360/4/148216/?merchant=Amazon
+                      - text: ", an essential-oil–based repellent that intrigued us due to the backing of SC Johnson, the makers of Off. Unfortunately, the spray is extremely spitty and, like other essential-oil repellents, doesn’t have the EPA’s extensive testing to back up its effectiveness."
+                    - paragraph [ref=f231e1044]:
+                      - text: We looked at Off’s
+                      - link "Deep Woods Insect Repellent V" [ref=f231e1045] [cursor=pointer]:
+                        - /url: https://www.nytimes.com/wirecutter/out/link/10329/152397/4/89478/?merchant=Walmart
+                      - text: and
+                      - link "Deep Woods Insect Repellent VIII (Dry)" [ref=f231e1046] [cursor=pointer]:
+                        - /url: https://www.nytimes.com/wirecutter/out/link/10335/190265/4/89479/?merchant=The%20Home%20Depot
+                      - text: ", and, for a DEET option, neither is as good as"
+                      - link "Cutter Backwoods Dry" [ref=f231e1047] [cursor=pointer]:
+                        - /url: "#also-great-cutter-backwoods-dry-insect-repellent"
+                      - text: . Deep Woods Dry is the better of the two, but the spray is thick, and it puddled on our arms. The regular Deep Woods is oily and smells pretty bad.
+                    - paragraph [ref=f231e1048]: Repel Insect Repellent Sportsmen Max Formula 40% DEET is another DEET formulation.
+                    - paragraph [ref=f231e1049]:
+                      - text: We tested a number of lemon eucalyptus (OLE) repellents, prior to Mimikai’s introduction, and found they have an extremely strong smell. Our candidates included
+                      - link "Murphy’s Lemon Eucalyptus Bug Spray" [ref=f231e1050] [cursor=pointer]:
+                        - /url: https://www.nytimes.com/wirecutter/out/link/61603/201041/4/184410/?merchant=Target
+                      - text: and
+                      - link "Cutter’s Lemon Eucalyptus Insect Repellent" [ref=f231e1051] [cursor=pointer]:
+                        - /url: https://www.nytimes.com/wirecutter/out/link/61604/201042/4/184411/?merchant=Amazon
+                      - text: . We gave one bottle a single squirt in a closed room, and we could still smell it an hour later. Outside, with the repellent sprayed on our arms, it became the kind of smell we could taste in our mouths and feel in our throats.
+                    - paragraph [ref=f231e1052]:
+                      - link "Coleman SkinSmart DEET-free Insect Repellent" [ref=f231e1053] [cursor=pointer]:
+                        - /url: https://www.nytimes.com/wirecutter/out/link/31713/152399/4/89481/?merchant=Walmart
+                      - text: and
+                      - link "Zevo On Body Mosquito Repellent + Tick Repellent" [ref=f231e1054] [cursor=pointer]:
+                        - /url: https://www.nytimes.com/wirecutter/out/link/61605/201061/4/184412/?merchant=Target
+                      - text: rely on the active ingredient IR3535 and go on dry with a light, floral scent. As the
+                      - link "EWG" [ref=f231e1055] [cursor=pointer]:
+                        - /url: https://www.ewg.org/research/ewgs-guide-bug-repellents/repellent-chemicals
+                      - text: notes, IR3535, like DEET, may damage plastics.
+                    - paragraph [ref=f231e1056]:
+                      - link "Bullfrog Mosquito Coast Bug Spray Insect Repellent + Sunscreen SPF 50" [ref=f231e1057] [cursor=pointer]:
+                        - /url: https://www.nytimes.com/wirecutter/out/link/61606/201044/4/184413/?merchant=Amazon
+                      - text: is another IR3535 repellent, but this one is paired with a sunscreen, which is not recommended because sunscreen and insect repellents should be applied at different rates.
+                    - paragraph [ref=f231e1058]:
+                      - text: At the other end of the concentration spectrum are products such as
+                      - link "Off FamilyCare Insect Repellent I" [ref=f231e1059] [cursor=pointer]:
+                        - /url: https://www.nytimes.com/wirecutter/out/link/45541/172570/4/132209/?merchant=Amazon
+                      - text: with 15% DEET. To prevent Lyme disease, the
+                      - link "CDC" [ref=f231e1060] [cursor=pointer]:
+                        - /url: https://wwwnc.cdc.gov/travel/yellowbook/2020/noninfectious-health-risks/mosquitoes-ticks-and-other-arthropods
+                      - text: “recommends using products with ≥20% DEET,” so these lower concentrations may not provide adequate protection against ticks.
+                    - paragraph [ref=f231e1061]:
+                      - emphasis [ref=f231e1062]: This article was edited by Harry Sawyers.
+              - generic [ref=f231e1064]:
+                - heading "Meet your guide" [level=2] [ref=f231e1065]
+                - generic [ref=f231e1066]:
+                  - paragraph [ref=f231e1070]: Doug Mahoney
+                  - paragraph [ref=f231e1072]: I write about a variety of home topics that range from tools and outdoor power equipment to fire safety and plumbing (toilets, bidets, and plungers). I also handle our pest-control guides, including those focused on bug repellents and mousetraps. I assist with some emergency-prep coverage, as well.
+          - generic [ref=f231e1075]:
+            - generic [ref=f231e1077]:
+              - heading "Further reading" [level=2] [ref=f231e1078]
+              - list [ref=f231e1080]:
+                - listitem [ref=f231e1081]:
+                  - article [ref=f231e1082]:
+                    - link [ref=f231e1084] [cursor=pointer]:
+                      - /url: https://www.nytimes.com/wirecutter/reviews/the-best-bug-killing-gear/
+                      - img "The various bug killing devices we tested for this guide against a pale orange background." [ref=f231e1088]
+                    - heading [level=3] [ref=f231e1090]:
+                      - link "The Best Bug-Killing Gear" [ref=f231e1091] [cursor=pointer]:
+                        - /url: https://www.nytimes.com/wirecutter/reviews/the-best-bug-killing-gear/
+                - listitem [ref=f231e1092]:
+                  - article "Do Bug Zappers Work? Yeah—About As Well As Any Other Indiscriminate Wildlife Slaughter." [ref=f231e1093]:
+                    - link [ref=f231e1095] [cursor=pointer]:
+                      - /url: https://www.nytimes.com/wirecutter/blog/do-bug-zappers-work/
+                      - img "A closeup of dead bugs in the blue light of a bug zapper." [ref=f231e1099]
+                    - heading [level=3] [ref=f231e1101]:
+                      - link "Do Bug Zappers Work? Yeah—About As Well As Any Other Indiscriminate Wildlife Slaughter." [ref=f231e1102] [cursor=pointer]:
+                        - /url: https://www.nytimes.com/wirecutter/blog/do-bug-zappers-work/
+                - listitem [ref=f231e1103]:
+                  - article [ref=f231e1104]:
+                    - link [ref=f231e1106] [cursor=pointer]:
+                      - /url: https://www.nytimes.com/wirecutter/reviews/national-park-rangers-bug-control-tips/
+                      - img "Black and white cut out photos of two park rangers on an illustrated Everglades background with bugs." [ref=f231e1110]
+                    - heading [level=3] [ref=f231e1112]:
+                      - link "How National Park Rangers Protect Themselves From Bugs (and How You Can Too)" [ref=f231e1113] [cursor=pointer]:
+                        - /url: https://www.nytimes.com/wirecutter/reviews/national-park-rangers-bug-control-tips/
+                - listitem [ref=f231e1114]:
+                  - article [ref=f231e1115]:
+                    - link [ref=f231e1117] [cursor=pointer]:
+                      - /url: https://www.nytimes.com/wirecutter/lists/bug-control-gear-that-actually-works/
+                    - heading [level=3] [ref=f231e1122]:
+                      - link "Bug Control Gear That Actually Works" [ref=f231e1123] [cursor=pointer]:
+                        - /url: https://www.nytimes.com/wirecutter/lists/bug-control-gear-that-actually-works/
+            - generic [ref=f231e1126]:
+              - paragraph [ref=f231e1127]: Advertisement
+              - link "SKIP ADVERTISEMENT" [ref=f231e1128] [cursor=pointer]:
+                - /url: "#after-dfp-ad-bottom"
+      - contentinfo [ref=f231e1129]:
+        - generic [ref=f231e1130]:
+          - link "Wirecutter" [ref=f231e1133] [cursor=pointer]:
+            - /url: https://www.nytimes.com/wirecutter/
+          - generic [ref=f231e1134]:
+            - generic [ref=f231e1135]:
+              - paragraph [ref=f231e1136]: Wirecutter is the product recommendation service from The New York Times. Our journalists combine independent research with (occasionally) over-the-top testing so you can make quick and confident buying decisions. Whether it’s finding great products or discovering helpful advice, we’ll help you get it right (the first time).
+              - generic [ref=f231e1137]:
+                - link "Find us on Facebook" [ref=f231e1138] [cursor=pointer]:
+                  - /url: https://www.facebook.com/thewirecutter/
+                - link "Find us on Instagram" [ref=f231e1141] [cursor=pointer]:
+                  - /url: https://www.instagram.com/wirecutter/
+                - link "Find us on X" [ref=f231e1144] [cursor=pointer]:
+                  - /url: https://x.com/wirecutter/
+                - link "Find us on Tiktok" [ref=f231e1147] [cursor=pointer]:
+                  - /url: https://www.tiktok.com/@wirecutter
+            - list [ref=f231e1151]:
+              - listitem [ref=f231e1152]:
+                - link "About Wirecutter" [ref=f231e1153] [cursor=pointer]:
+                  - /url: /wirecutter/about/
+              - listitem [ref=f231e1154]:
+                - link "Our team" [ref=f231e1155] [cursor=pointer]:
+                  - /url: /wirecutter/masthead/
+              - listitem [ref=f231e1156]:
+                - link "Staff demographics" [ref=f231e1157] [cursor=pointer]:
+                  - /url: /wirecutter/staff-demographics/
+              - listitem [ref=f231e1158]:
+                - link "Jobs at Wirecutter" [ref=f231e1159] [cursor=pointer]:
+                  - /url: https://job-boards.greenhouse.io/thenewyorktimes?keyword=wirecutter
+              - listitem [ref=f231e1160]:
+                - link "How to pitch" [ref=f231e1161] [cursor=pointer]:
+                  - /url: /wirecutter/how-to-pitch/
+            - list [ref=f231e1163]:
+              - listitem [ref=f231e1164]:
+                - link "Contact The New York Times" [ref=f231e1165] [cursor=pointer]:
+                  - /url: https://help.nytimes.com/hc/en-us/articles/115015385887-Contact-The-New-York-Times
+              - listitem [ref=f231e1166]:
+                - link "Send us feedback" [ref=f231e1167] [cursor=pointer]:
+                  - /url: https://www.nytimes.com/article/wirecutter-feedback.html
+              - listitem [ref=f231e1168]:
+                - link "Newsletters" [ref=f231e1169] [cursor=pointer]:
+                  - /url: /wirecutter/newsletters/
+          - list [ref=f231e1172]:
+            - listitem [ref=f231e1173]:
+              - text: © 2026 Wirecutter, Inc.,
+              - link "A New York Times Company" [ref=f231e1174] [cursor=pointer]:
+                - /url: https://www.nytimes.com/
+            - listitem [ref=f231e1175]:
+              - link "Privacy Policy" [ref=f231e1176] [cursor=pointer]:
+                - /url: https://www.nytimes.com/privacy/privacy-policy
+            - listitem [ref=f231e1177]:
+              - link "Terms of Service" [ref=f231e1178] [cursor=pointer]:
+                - /url: https://help.nytimes.com/hc/en-us/articles/115014893428-Terms-of-service
+            - listitem [ref=f231e1179]:
+              - link "Cookie Policy" [ref=f231e1180] [cursor=pointer]:
+                - /url: https://www.nytimes.com/privacy/cookie-policy
+            - listitem [ref=f231e1181]:
+              - link "Partnerships & Advertising" [ref=f231e1182] [cursor=pointer]:
+                - /url: /wirecutter/partners/
+            - listitem [ref=f231e1183]:
+              - link "Licensing & Reprints" [ref=f231e1184] [cursor=pointer]:
+                - /url: https://info.wrightsmedia.com/nyt-wirecutter-licensing
+            - listitem [ref=f231e1185]:
+              - link "RSS" [ref=f231e1186] [cursor=pointer]:
+                - /url: /wirecutter/feed/
+          - list [ref=f231e1189]:
+            - listitem [ref=f231e1190]:
+              - link "Your Privacy Choices" [ref=f231e1191] [cursor=pointer]:
+                - /url: https://www.nytimes.com/privacy/your-privacy-choices
+    - complementary
+  - alert [ref=f231e1196]

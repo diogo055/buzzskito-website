@@ -96,6 +96,7 @@ export default function BedBugHeaterRentalVsBuyingCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="High-temp probe thermometer — the cheapest item that decides everything" search="high temperature probe thermometer" label="Buy this either way" />
 
       <section className="bg-white px-4">
@@ -178,7 +179,6 @@ export default function BedBugHeaterRentalVsBuyingCanadaPage() {
           <p>The reason is liability. Running an occupied residential room up to lethal temperature is not a matter of plugging something in. Professional whole-home heat uses commercial heaters paired with air movers to prevent cold pockets, remote temperature probes placed in the harbourages rather than in open air, and an operator who stays on site for the entire cycle watching the readings and moving contents. That skill set is the service. Handing a homeowner the hardware and none of the training is a fire and carbon-monoxide risk that no equipment owner wants on their insurance, which is why the Canadian market offers heat as a staffed job rather than as a weekend rental.</p>
           <p>So the honest decision tree has three branches, not two: <strong>buy a portable chamber</strong> and run a disciplined programme yourself, <strong>hire an operator</strong> for staffed whole-home heat, or <strong>buy nothing</strong> because your problem is better solved with encasements, interceptors and a steamer. Almost every reader who arrives here searching for a rental belongs in one of those three, and the rest of this page is about telling them apart.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Current Canadian availability for the items discussed below:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="high temperature probe thermometer">Probe thermometer &rarr;</BuyLink>
@@ -196,7 +196,7 @@ export default function BedBugHeaterRentalVsBuyingCanadaPage() {
           <p>Match your situation to the row. The right answer for a detached house with one affected bedroom is not the right answer for a rented apartment on a shared wall.</p>
 
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm my-6">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Your situation</th>

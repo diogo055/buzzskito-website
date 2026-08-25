@@ -92,6 +92,7 @@ export default function BestSquirrelProofBirdFeederCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Weight-activated squirrel-proof tube feeder" search="brome squirrel buster plus bird feeder" label="Best overall" />
 
       <section className="bg-white px-4">
@@ -173,7 +174,7 @@ export default function BestSquirrelProofBirdFeederCanadaPage() {
             Every one of these is sold as &ldquo;squirrel-proof&rdquo;, but they block different attacks. Here is the honest breakdown, with a live Amazon.ca availability check per type.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Type</th>
@@ -189,28 +190,28 @@ export default function BestSquirrelProofBirdFeederCanadaPage() {
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best all-round</strong> &mdash; any squirrel that stands on the feeder</td>
                   <td className="px-4 py-3 text-gray-700">Ground foraging under the feeder</td>
                   <td className="px-4 py-3 text-gray-700">Passive; nothing to freeze or charge</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="brome squirrel buster plus bird feeder" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="brome squirrel buster plus bird feeder" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Pole + baffle<br /><span className="font-normal text-xs text-gray-500">cone or torpedo</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best value</strong> &mdash; climbing the pole from the ground</td>
                   <td className="px-4 py-3 text-gray-700">Drop-in from a branch, jump from a fence or deck</td>
                   <td className="px-4 py-3 text-gray-700">Snow drifts effectively shorten the pole</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bird feeder pole with squirrel baffle kit" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bird feeder pole with squirrel baffle kit" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Caged feeder<br /><span className="font-normal text-xs text-gray-500">steel mesh surround</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Good</strong> &mdash; squirrels and large nuisance birds alike</td>
                   <td className="px-4 py-3 text-gray-700">Nothing much, but it excludes cardinals and jays too</td>
                   <td className="px-4 py-3 text-gray-700">Robust; mesh can ice up in freezing rain</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="caged squirrel proof bird feeder metal" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="caged squirrel proof bird feeder metal" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Motorised spinner<br /><span className="font-normal text-xs text-gray-500">battery-powered perch ring</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Fair</strong> &mdash; squirrels that perch, in mild weather</td>
                   <td className="px-4 py-3 text-gray-700">Anything, once the battery is flat</td>
                   <td className="px-4 py-3 text-gray-700">Poor &mdash; cold guts battery life, ice stiffens the mechanism</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="spinning squirrel proof bird feeder battery" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="spinning squirrel proof bird feeder battery" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -234,7 +235,6 @@ export default function BestSquirrelProofBirdFeederCanadaPage() {
           <p>The best squirrel-proof bird feeder for a Canadian yard is a weight-activated metal tube feeder &mdash; a Brome Squirrel Buster Plus for a full yard, the smaller Squirrel Buster Classic where space or budget is tighter &mdash; mounted on a pole with a baffle and positioned by the 5&ndash;7&ndash;9 rule. That is the whole recommendation, and the rest of this guide is about why each half of it matters, because buying the feeder without the placement is the single most common way Canadians spend $150 and still lose.</p>
           <p>The mechanism is worth understanding before you spend anything. A weight-activated feeder carries a metal shroud around the seed ports on a calibrated spring. A chickadee at roughly 11 grams, a goldfinch at 13, even a cardinal at 45, sits on the perch and nothing moves. A grey squirrel at 400 to 600 grams puts the shroud straight down over the ports, and the feeder closes while the animal is standing on it. Nothing is powered, nothing is triggered electronically, and nothing needs charging &mdash; which is exactly why this is the design that survives a Canadian January when a battery-powered spinner does not.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the picks:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="brome squirrel buster plus bird feeder">Squirrel Buster Plus →</BuyLink>

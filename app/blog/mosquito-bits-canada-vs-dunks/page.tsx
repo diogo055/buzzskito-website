@@ -3,7 +3,8 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
-import TopPick from '@/components/TopPick'
+import AmazonLink from '@/components/AmazonLink'
+import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
@@ -103,6 +104,7 @@ export default function MosquitoBitsCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Summit Mosquito Bits (BTI granules)" search="summit mosquito bits" label="Fastest larvae kill" />
 
       {/* QUICK ANSWER — first content element */}
@@ -110,7 +112,7 @@ export default function MosquitoBitsCanadaPage() {
         <div className="max-w-4xl mx-auto">
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">For fast larvae knockdown, Mosquito Bits are the best pick &mdash; they release BTI within about 30 minutes and clear treated water within 24 hours &mdash; while Mosquito Dunks slow-release the same BTI for a full 30 days. Most GTA homeowners keep both.</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">For fast larvae knockdown, <AmazonLink search="summit mosquito bits" tag={AMZ_TAG} className="font-bold underline decoration-emerald-500 underline-offset-2 hover:text-emerald-900">Mosquito Bits</AmazonLink> are the best pick &mdash; they release BTI within about 30 minutes and clear treated water within 24 hours &mdash; while Mosquito Dunks slow-release the same BTI for a full 30 days. Most GTA homeowners keep both.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
               <li>Mosquito Bits start releasing BTI within about 30 minutes and reach full larvae kill within 24 hours.</li>
               <li>Mosquito Dunks slow-release BTI for roughly 30 days; Bits last about 7 to 14 days per application.</li>
@@ -120,6 +122,9 @@ export default function MosquitoBitsCanadaPage() {
               <li>BTI only treats the water you apply it to; adult mosquitoes flying in still need a barrier spray.</li>
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+            <div className="mt-4">
+              <BuyLink search="summit mosquito bits" tag={AMZ_TAG} block className="sm:w-auto sm:min-h-0 sm:inline-flex sm:rounded-full sm:px-4 sm:py-2">Check price on Amazon.ca →</BuyLink>
+            </div>
           </div>
         </div>
       </section>
@@ -132,9 +137,8 @@ export default function MosquitoBitsCanadaPage() {
           <p className="text-sm text-gray-700 mb-5 leading-relaxed">
             Summit Chemical Mosquito Bits (orange and green container) is the version you will usually find on Canadian shelves. Pricing varies by retailer and time of year — buy in spring before peak-season markup.
           </p>
-          <AffiliateDisclosure />
-          <div className="rounded-xl border border-navy-100 overflow-hidden bg-white shadow-sm">
-            <table className="w-full text-sm">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto bg-white shadow-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Retailer</th>
@@ -182,17 +186,46 @@ export default function MosquitoBitsCanadaPage() {
         </div>
       </section>
 
-      {/* TOP PICK */}
+      {/* AWARD ROW — multi-intent picks */}
       <section className="bg-white px-4 pt-6">
         <div className="max-w-4xl mx-auto">
-          <TopPick tag={AMZ_TAG}
-            label="Our Top Pick"
-            name="Summit Mosquito Bits (BTI granules)"
-            blurb="The fastest larvae kill you can buy — starts releasing BTI within 30 minutes and clears treated water within 24 hours. Keep Dunks in the rain barrel for 30-day coverage; keep Bits on the shelf for every unexpected larvae find."
-            search="summit mosquito bits"
-            score={8.7}
-            pros={['Releases BTI within about 30 minutes', 'Full larvae kill within 24 hours', 'Safe for pets, fish, and pollinators', 'Budget-friendly per treated water source']}
-            cons={['Shorter duration than Dunks (7–14 days)', 'Only treats the water you apply it to']}
+          <AwardRow tag={AMZ_TAG}
+            heading="Our Picks — BTI for Every Standing-Water Situation"
+            awards={[
+              {
+                badge: 'Best Value for Multiple Sources',
+                name: 'Summit Mosquito Bits — 30 oz Value Pack',
+                why: 'Three times the size of the 8-oz container for roughly twice the price — about 33% cheaper per ounce. The right buy for properties with multiple rain barrels, a pond, or a neighbour to split with.',
+                search: 'summit mosquito bits',
+                score: 8.5,
+                pros: ['Roughly 33% cheaper per ounce than the 8 oz', 'Treats 4–8x the area of the small container', 'Sealed bits keep 2–3 years in dry storage'],
+                cons: ['Overkill for a single rain barrel — the 8 oz covers a typical yard', 'Once opened, use within a year and keep it dry'],
+              },
+              {
+                badge: 'Best Overall — Fastest Kill',
+                name: 'Summit Mosquito Bits (8 oz)',
+                why: 'The fastest larvae kill you can buy — starts releasing BTI within 30 minutes and clears treated water within 24 hours. One container treats 500–1,000 sq ft of water surface.',
+                search: 'summit mosquito bits',
+                score: 8.7,
+                featured: true,
+                pros: ['Releases BTI within about 30 minutes', 'Full larvae kill within 24 hours', 'Safe for pets, fish, and pollinators'],
+                cons: ['Lasts 7–14 days — rain-barrel owners are better served by a Dunk', 'Only treats the water you apply it to'],
+              },
+              {
+                badge: 'Best for Rain Barrels & Ponds',
+                name: 'Summit Mosquito Dunks (6-pack)',
+                why: 'The same BTI in a slow-release tablet: one dunk per 50-gallon rain barrel covers about 30 days, so a 6-pack handles the whole May–September season. Fish-safe in ornamental ponds.',
+                search: 'summit mosquito dunks',
+                score: 8.6,
+                pros: ['~30 days of coverage per dunk — set and forget', 'One 6-pack covers a rain barrel all season', 'Safe for goldfish, koi, and water plants'],
+                cons: ['Slow release — larvae found today call for Bits instead', 'The floating tablet is visible in small bird baths'],
+              },
+            ]}
+            whichToBuy={
+              <>
+                <strong>Found wrigglers right now?</strong> The <em>Best Overall</em> 8-oz Bits clear treated water within 24 hours &mdash; keep a container in the shed for every surprise find. <strong>Rain barrel or pond you check monthly?</strong> Drop in a <em>Dunk</em> &mdash; one tablet lasts about 30 days versus 7&ndash;14 for Bits. <strong>Several barrels, a pond, or a neighbour to split with?</strong> The 30-oz <em>Best Value</em> pack runs about 33% cheaper per ounce. Whichever you pick, BTI only handles larvae in the water you treat &mdash; the adults flying in are the job of a <Link href="/mosquito-control">whole-yard barrier spray</Link>.
+              </>
+            }
           />
         </div>
       </section>
@@ -201,7 +234,7 @@ export default function MosquitoBitsCanadaPage() {
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">Mosquito Bits vs Mosquito Dunks — Direct Comparison</h2>
-          <div className="rounded-xl border border-navy-100 overflow-hidden">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto">
             <table className="w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>

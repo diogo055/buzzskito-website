@@ -96,6 +96,7 @@ export default function CimexaBedBugReviewCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="CimeXa silica gel dust" search="cimexa insecticide dust" label="Our verdict: 9.1/10" />
 
       <section className="bg-white px-4">
@@ -140,7 +141,7 @@ export default function CimexaBedBugReviewCanadaPage() {
             &ldquo;Dust the cracks&rdquo; covers three very different powders, and they are not equal. Here is how the pro-grade silica gel stacks up against the hardware-store desiccant and the chemical dusts &mdash; on how they kill, how long they last, and where the Canadian-availability lines sit.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Dust</th>
@@ -156,14 +157,14 @@ export default function CimexaBedBugReviewCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Amorphous silica desiccant &mdash; absorbs the cuticle wax; bug dehydrates</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best</strong> &mdash; days to kill, up to ~10 yr residual</td>
                   <td className="px-4 py-3 text-xs text-gray-600">Highest surface area, thinnest effective film, resistance-proof; the dust professionals prefer</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="cimexa insecticide dust" block>Check price &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="cimexa insecticide dust" block>Check price on Amazon.ca &rarr;</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Diatomaceous earth<br /><span className="font-normal text-xs text-gray-500">Budget desiccant</span></td>
                   <td className="px-4 py-3 text-gray-700">Fossil-diatom powder &mdash; same drying mechanism, coarser particle</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Slower</strong> &mdash; days to weeks, long residual if dry</td>
                   <td className="px-4 py-3 text-xs text-gray-600">Cheap and everywhere, also resistance-proof, but slower and needs a heavier deposit than silica gel</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="diatomaceous earth bed bugs food grade" block>Check price &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="diatomaceous earth bed bugs food grade" block>Check price on Amazon.ca &rarr;</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Pyrethroid dust<br /><span className="font-normal text-xs text-gray-500">e.g. deltamethrin dusts</span></td>
@@ -196,7 +197,7 @@ export default function CimexaBedBugReviewCanadaPage() {
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">CimeXa &mdash; Key Facts</h2>
-          <div className="rounded-xl border border-navy-100 overflow-hidden">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto">
             <table className="w-full text-sm">
               <tbody>
                 {[
@@ -233,7 +234,6 @@ export default function CimexaBedBugReviewCanadaPage() {
           <p>The mechanism is mechanical and elegant. An insect&rsquo;s waterproofing is a thin waxy layer on its exoskeleton; lose that layer and it cannot hold moisture, and a creature the size of a bed bug has very little water to lose. CimeXa&rsquo;s microscopic silica particles cling to that cuticle as the bug walks through a treated crack, abrade and absorb the wax, and over the following days the insect desiccates and dies. Because the particles are so fine and so absorbent &mdash; silica gel has an enormous surface area per gram &mdash; a barely-visible film does the work that a heavier deposit of a coarser dust would need. This is why pest professionals keep it on the truck: a resistance-proof residual that, applied correctly, essentially never wears out.</p>
           <p>This review sits alongside our broader <Link href="/blog/bed-bug-control-canada-hub">Canadian bed bug control hub</Link> and our <Link href="/blog/best-pest-control-equipment-canada">pest control equipment guide</Link>; here we go deep on the single dust we would reach for first.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="cimexa insecticide dust">CimeXa dust on Amazon.ca &rarr;</BuyLink>

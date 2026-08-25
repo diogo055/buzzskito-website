@@ -100,6 +100,7 @@ export default function BestBedBugBoxSpringEncasementCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="SureGuard zippered box-spring encasement" search="sureguard box spring encasement zippered" label="Best overall" />
 
       <section className="bg-white px-4">
@@ -181,7 +182,7 @@ export default function BestBedBugBoxSpringEncasementCanadaPage() {
             All four are genuine six-sided zippered encasements, but they trade fabric weight, certification, and price differently. Here is the honest breakdown, with a live Amazon.ca availability check per pick.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Encasement</th>
@@ -197,28 +198,28 @@ export default function BestBedBugBoxSpringEncasementCanadaPage() {
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best all-round</strong> &mdash; six-sided, bite-proof, tough fabric</td>
                   <td className="px-4 py-3 text-gray-700">The safe default for an active problem</td>
                   <td className="px-4 py-3 text-gray-700">Order the exact foundation depth</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="sureguard box spring encasement zippered" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="sureguard box spring encasement zippered" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">SafeRest<br /><span className="font-normal text-xs text-gray-500">premium</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Certified</strong> &mdash; lab-tested seal, heaviest fabric</td>
                   <td className="px-4 py-3 text-gray-700">Buyers who want documented testing</td>
                   <td className="px-4 py-3 text-gray-700">Premium price; heavier to fit</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="saferest box spring encasement bed bug proof" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="saferest box spring encasement bed bug proof" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Utopia Bedding<br /><span className="font-normal text-xs text-gray-500">value</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Good</strong> &mdash; genuine seal, lighter fabric</td>
                   <td className="px-4 py-3 text-gray-700">Multi-bed jobs and rentals</td>
                   <td className="px-4 py-3 text-gray-700">Handle the lighter zipper gently</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="utopia bedding box spring encasement zippered" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="utopia bedding box spring encasement zippered" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Budget cover<br /><span className="font-normal text-xs text-gray-500">one-off</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Fair</strong> &mdash; verify it is truly six-sided</td>
                   <td className="px-4 py-3 text-gray-700">One low-pressure bed on a budget</td>
                   <td className="px-4 py-3 text-gray-700">Open-bottom fakes hide in this tier</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bed bug box spring cover zippered six sided" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bed bug box spring cover zippered six sided" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -242,7 +243,6 @@ export default function BestBedBugBoxSpringEncasementCanadaPage() {
           <p>If you take one thing from this guide, take this: in a bed-bug fight the box spring is more important to seal than the mattress, and it is the piece people forget. A mattress is a large, mostly smooth, exposed surface. A box spring is the opposite &mdash; a hollow wooden frame, stapled together, wrapped in fabric, and very often lined with corrugated cardboard on the inside. That construction is a purpose-built bed-bug hotel: dark, protected, full of tight cracks and voids along the wood joints and staple lines, and almost impossible to inspect without dismantling it. Bed bugs are thigmotactic, meaning they seek out tight spaces where their bodies touch a surface on multiple sides, and a box-spring frame offers hundreds of those spots. Given a choice, they will colonise the box spring before the mattress.</p>
           <p>So when someone encases the mattress, congratulates themselves, and leaves the box spring bare, the result is predictable: the population simply shifts down into the foundation and keeps feeding on whoever sleeps above. You have sealed the smaller, easier problem and left the larger, harder one wide open. The correct move &mdash; the one every professional protocol specifies &mdash; is to encase the mattress <em>and</em> the box spring at the same time, turning the whole sleep surface into a single sealed unit.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the four picks:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="sureguard box spring encasement zippered">SureGuard box-spring →</BuyLink>

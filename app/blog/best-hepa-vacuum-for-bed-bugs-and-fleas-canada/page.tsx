@@ -96,6 +96,7 @@ export default function BestHepaVacuumBedBugsFleasCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Sealed-HEPA bagged canister vacuum" search="sealed hepa bagged canister vacuum" label="Best overall" />
 
       <section className="bg-white px-4">
@@ -177,7 +178,7 @@ export default function BestHepaVacuumBedBugsFleasCanadaPage() {
             All four can help with bed bugs and fleas, but they solve different parts of the job. Here is the honest breakdown, with a live Amazon.ca availability check per type.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Vacuum type</th>
@@ -193,28 +194,28 @@ export default function BestHepaVacuumBedBugsFleasCanadaPage() {
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best</strong> &mdash; fully sealed body, seal-and-bin bag</td>
                   <td className="px-4 py-3 text-gray-700">Whole job: seams, edges, carpet, safe disposal</td>
                   <td className="px-4 py-3 text-gray-700">Premium price; hose to manage</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="miele canister vacuum sealed hepa bagged" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="miele canister vacuum sealed hepa bagged" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Whole-machine-HEPA stick<br /><span className="font-normal text-xs text-gray-500">cordless, bagless</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Good</strong> &mdash; sealed airflow, but empty outdoors</td>
                   <td className="px-4 py-3 text-gray-700">Effortless daily bed &amp; baseboard passes</td>
                   <td className="px-4 py-3 text-gray-700">Bagless disposal; limited runtime</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="dyson cordless vacuum hepa" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="dyson cordless vacuum hepa" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Corded HEPA handheld<br /><span className="font-normal text-xs text-gray-500">detail tool</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Good</strong> &mdash; contained dust, constant suction</td>
                   <td className="px-4 py-3 text-gray-700">Fine seam, piping, and bolt-hole work</td>
                   <td className="px-4 py-3 text-gray-700">Small capacity; not for floors</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="corded handheld hepa vacuum" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="corded handheld hepa vacuum" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Budget bagged canister<br /><span className="font-normal text-xs text-gray-500">value</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Fair</strong> &mdash; bag helps, body may leak</td>
                   <td className="px-4 py-3 text-gray-700">One-time or minor problem on a budget</td>
                   <td className="px-4 py-3 text-gray-700">Not fully sealed; weaker suction</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bagged hepa canister vacuum" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bagged hepa canister vacuum" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -238,7 +239,6 @@ export default function BestHepaVacuumBedBugsFleasCanadaPage() {
           <p>A sealed-HEPA bagged canister is the best vacuum for bed bugs and fleas in Canadian homes &mdash; not because it is the most powerful appliance in the store, but because it is the only design that does the two things this specific job demands: it holds onto everything it captures, and it lets you get rid of that capture cleanly. Everything else is a variation on those two ideas. A cordless stick with whole-machine HEPA trades the bag for convenience; a corded handheld trades capacity for reach; a budget bagged canister trades a fully sealed body for price. All four appear in our picks above because different households need different trade-offs, but the reasoning below explains why the sealed, bagged canister sits at the top.</p>
           <p>The distinction that matters is between a vacuum that <em>catches</em> pests and a vacuum that catches them and then <em>quietly leaks them back into your home</em>. That second failure mode is invisible until an allergy flares or the infestation stubbornly refuses to drop, and it is the single most important thing to understand before you spend money.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the four picks:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="miele canister vacuum sealed hepa bagged">Sealed-HEPA canister →</BuyLink>

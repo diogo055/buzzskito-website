@@ -100,6 +100,7 @@ export default function BedBugControlCanadaHubPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Bed-bug treatment kit (heat, encasements, desiccant, interceptors)" search="bed bug treatment kit interceptors encasement" label="Build the kit" />
 
       <section className="bg-white px-4">
@@ -190,7 +191,7 @@ export default function BedBugControlCanadaHubPage() {
             Bed-bug control is a toolkit, and each category solves a different part of the life cycle. Here is the honest map of what to reach for, with a live Amazon.ca availability check per category and links to the deep-dive guide for each.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Category</th>
@@ -206,56 +207,56 @@ export default function BedBugControlCanadaHubPage() {
                   <td className="px-4 py-3 text-gray-700">Heats a room past the lethal threshold, reaching all harbourage</td>
                   <td className="px-4 py-3 text-emerald-700 font-semibold">Yes</td>
                   <td className="px-4 py-3 text-gray-700"><Link href="/blog/best-whole-room-bed-bug-heater-canada" className="text-emerald-700 underline">Whole-room heater guide</Link></td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="whole room bed bug heater" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="whole room bed bug heater" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Heat chambers</td>
                   <td className="px-4 py-3 text-gray-700">Decontaminates belongings, luggage, and bedding by heat</td>
                   <td className="px-4 py-3 text-emerald-700 font-semibold">Yes</td>
                   <td className="px-4 py-3 text-gray-700"><Link href="/blog/best-bed-bug-heat-chamber-canada" className="text-emerald-700 underline">Heat chamber guide</Link></td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="packtite bed bug heat chamber" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="packtite bed bug heat chamber" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Desiccant dusts</td>
                   <td className="px-4 py-3 text-gray-700">Long-lasting residual kill in cracks and voids by dehydration</td>
                   <td className="px-4 py-3 text-amber-700 font-semibold">No*</td>
                   <td className="px-4 py-3 text-gray-700"><Link href="/blog/cimexa-bed-bug-review-canada" className="text-emerald-700 underline">CimeXa review</Link> &middot; <Link href="/blog/diatomaceous-earth-for-bed-bugs" className="text-emerald-700 underline">DE guide</Link></td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="cimexa insecticide dust bed bugs" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="cimexa insecticide dust bed bugs" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Steamers</td>
                   <td className="px-4 py-3 text-gray-700">Kills on contact deep in seams, tufts, and upholstery</td>
                   <td className="px-4 py-3 text-emerald-700 font-semibold">Yes</td>
                   <td className="px-4 py-3 text-gray-700"><Link href="/blog/best-bed-bug-steamer-canada" className="text-emerald-700 underline">Steamer guide</Link></td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bed bug steamer dry vapour" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bed bug steamer dry vapour" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Encasements</td>
                   <td className="px-4 py-3 text-gray-700">Seals the mattress/box spring, trapping bugs and easing inspection</td>
                   <td className="px-4 py-3 text-gray-500">Traps</td>
                   <td className="px-4 py-3 text-gray-700"><Link href="/blog/bed-bug-mattress-encasement-canada" className="text-emerald-700 underline">Encasement guide</Link></td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bed bug mattress encasement" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bed bug mattress encasement" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Interceptors &amp; detectors</td>
                   <td className="px-4 py-3 text-gray-700">Catch travelling bugs; confirm infestation and progress</td>
                   <td className="px-4 py-3 text-gray-500">Monitors</td>
                   <td className="px-4 py-3 text-gray-700"><Link href="/blog/bed-bug-interceptor-traps-canada" className="text-emerald-700 underline">Interceptor guide</Link> &middot; <Link href="/blog/best-bed-bug-detector-canada" className="text-emerald-700 underline">Detector guide</Link></td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bed bug interceptor traps" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bed bug interceptor traps" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Sealed-HEPA vacuums</td>
                   <td className="px-4 py-3 text-gray-700">Physically removes live bugs and debris from seams and edges</td>
                   <td className="px-4 py-3 text-gray-500">Removes</td>
                   <td className="px-4 py-3 text-gray-700"><Link href="/blog/best-hepa-vacuum-for-bed-bugs-and-fleas-canada" className="text-emerald-700 underline">HEPA vacuum guide</Link></td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="sealed hepa bagged canister vacuum" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="sealed hepa bagged canister vacuum" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Sprays</td>
                   <td className="px-4 py-3 text-gray-700">Contact knockdown on visible bugs; weakest leg of the plan</td>
                   <td className="px-4 py-3 text-red-600 font-semibold">No</td>
                   <td className="px-4 py-3 text-gray-700"><Link href="/blog/bed-bug-spray-canada" className="text-emerald-700 underline">Spray guide</Link> &middot; <Link href="/blog/best-natural-bed-bug-spray-canada" className="text-emerald-700 underline">Natural sprays</Link></td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bed bug spray canada" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bed bug spray canada" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -279,7 +280,6 @@ export default function BedBugControlCanadaHubPage() {
           <p>Bed bugs are the most persistent household pest a Canadian homeowner is likely to face, and the reason is biology, not effort. A single female lays hundreds of eggs in her lifetime, glues them into cracks and seams with a coating that shrugs off most sprays, and the population hides within a few metres of where you sleep &mdash; in the box spring, the frame, the headboard, the baseboards, even wall outlets. Any tool that hits only one part of that picture leaves a reservoir to rebuild from. That is why this hub is organised around a <em>plan</em> rather than a product: you win by stacking methods that each cover a different weakness, then holding the line for weeks until the monitors go quiet.</p>
           <p>This page is the map. Below is the layered protocol, the honest ranking of every tool category, a room-by-room walkthrough, guidance on what you are actually paying for as the budget climbs, and a clear line on when a smart homeowner should stop and call a licensed professional. Each category links out to a dedicated deep-dive if you want the model-by-model detail. Francophone readers can follow the mattress-evidence half of it in French: <Link href="/blog/traces-punaises-de-lit-matelas" className="text-brand-700 underline">traces de punaises de lit sur un matelas</Link>.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the core kit:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="whole room bed bug heater">Whole-room heater →</BuyLink>

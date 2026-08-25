@@ -99,6 +99,7 @@ export default function VictorElectronicMouseTrapReviewPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Victor M250S Electronic Mouse Trap" search="victor electronic mouse trap m250s" label="Best overall" />
 
       <section className="bg-white px-4">
@@ -125,7 +126,7 @@ export default function VictorElectronicMouseTrapReviewPage() {
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">Victor M250S Key Facts</h2>
-          <div className="rounded-xl border border-navy-100 overflow-hidden">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto">
             <table className="w-full text-sm">
               <tbody>
                 {[
@@ -156,7 +157,6 @@ export default function VictorElectronicMouseTrapReviewPage() {
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of both models:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="victor electronic mouse trap m250s">Victor M250S on Amazon.ca →</BuyLink>
@@ -209,7 +209,7 @@ export default function VictorElectronicMouseTrapReviewPage() {
           <h2>How Does It Compare to Snap Traps and Bait Stations?</h2>
           <p>Here is the honest matchup across the main mouse-control options Canadians actually buy. (For the full field including live-catch and multi-catch traps, see our <Link href="/blog/best-mouse-trap-canada">best mouse trap in Canada roundup</Link>.)</p>
           <div className="not-prose my-6 overflow-x-auto rounded-xl border border-navy-100 shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Option</th>

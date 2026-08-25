@@ -3,7 +3,7 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
-import TopPick from '@/components/TopPick'
+import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
@@ -118,6 +118,7 @@ export default function PermethrinCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Sawyer Permethrin Clothing + Gear Spray (0.5%)" search="sawyer permethrin clothing spray" label="Best consumer permethrin" />
 
       {/* ANSWER CAPSULE */}
@@ -136,14 +137,43 @@ export default function PermethrinCanadaPage() {
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
           </div>
-          <TopPick tag={AMZ_TAG}
-            label="Our Top Pick"
-            name="Sawyer Permethrin Clothing + Gear Spray (0.5%)"
-            blurb="The only consumer permethrin you can legally buy in Canada — spray it on pants, socks, and boots (never skin, never your lawn) and it keeps killing ticks on contact for 6 weeks or 6 wash cycles."
-            search="sawyer permethrin clothing spray"
-            score={8.7}
-            pros={['Kills ticks on contact through treated fabric', 'One application lasts 6 weeks or 6 wash cycles', 'Legal consumer product, widely stocked in Canada']}
-            cons={['Clothing only — never skin or lawn', 'Highly toxic to cats until fully dry']}
+          <AwardRow tag={AMZ_TAG}
+            heading="Our Picks — The Permethrin You Can Actually Buy in Canada"
+            awards={[
+              {
+                badge: 'Best Set-and-Forget',
+                name: 'Insect Shield Permethrin-Treated Clothing',
+                why: 'Factory-treated garments from outdoor brands (ExOfficio, Orvis, Columbia) whose bonded permethrin survives 70 wash cycles — versus 6 for spray-on. Higher upfront cost, far lower long-term cost for frequent hikers.',
+                search: 'insect shield permethrin treated clothing',
+                score: 8.4,
+                pros: ['Protection lasts 70 wash cycles — no annual respray', 'No handling of liquid permethrin at all', 'Sold for kids as well as adults'],
+                cons: ['$40–$120 per garment adds up across a wardrobe', 'Covers only the garments you buy — the spray also treats boots, packs, and tents'],
+              },
+              {
+                badge: 'Best Overall',
+                name: 'Sawyer Permethrin Clothing + Gear Spray (24 oz)',
+                why: 'The only consumer permethrin you can legally buy in Canada — spray it on pants, socks, and boots (never skin, never your lawn) and it keeps killing ticks on contact for 6 weeks or 6 wash cycles. One 24-oz bottle treats about two full outfits.',
+                search: 'sawyer permethrin clothing spray',
+                score: 8.7,
+                featured: true,
+                pros: ['Kills ticks on contact through treated fabric', 'One application lasts 6 weeks or 6 wash cycles', 'Legal consumer product, widely stocked in Canada'],
+                cons: ['Clothing and gear only — never skin, never your lawn', 'Highly toxic to cats until fully dry — air it out 24+ hours'],
+              },
+              {
+                badge: 'Best Starter Size',
+                name: 'Sawyer Permethrin Spray (12 oz)',
+                why: 'The same 0.5% Sawyer formula in the smaller $18–$28 bottle — enough to treat roughly one full hiking outfit for a season of weekend trips before you commit to the big bottle.',
+                search: 'sawyer permethrin clothing spray',
+                score: 8.0,
+                pros: ['Cheapest way to try permethrin-treated clothing', 'Same 6-week / 6-wash protection as the 24 oz', 'Small enough to stash in a gear bin'],
+                cons: ['Runs out fast treating a family’s gear — the 24 oz costs less per ounce', 'Same rules apply: clothing only, and cats need it fully dry'],
+              },
+            ]}
+            whichToBuy={
+              <>
+                <strong>Hiking or working in tick country most weekends?</strong> The <em>Best Overall</em> 24-oz Sawyer bottle treats about two full outfits and re-treats them all season. <strong>Want zero maintenance?</strong> <em>Best Set-and-Forget</em> Insect Shield clothing is factory-bonded for 70 wash cycles &mdash; buy it as the pants and socks you hike in most. <strong>Just trying permethrin out?</strong> Start with the 12-oz bottle. And if you came here for <strong>yard permethrin concentrate</strong>: it is not sold to Canadian consumers at any price &mdash; whole-yard treatment legally requires a licensed applicator, which is what our <Link href="/mosquito-control">licensed barrier spray service</Link> covers from $99.
+              </>
+            }
           />
         </div>
       </section>
@@ -156,9 +186,8 @@ export default function PermethrinCanadaPage() {
           <p className="text-sm text-gray-700 mb-5 leading-relaxed">
             Sawyer permethrin <strong>CLOTHING spray</strong> is widely available across Canadian outdoor and big-box retailers. Permethrin <strong>YARD concentrate</strong> is restricted to licensed pest control operators under Health Canada PMRA regulations.
           </p>
-          <AffiliateDisclosure />
-          <div className="rounded-xl border border-navy-100 overflow-hidden bg-white shadow-sm">
-            <table className="w-full text-sm">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto bg-white shadow-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Retailer</th>
@@ -203,7 +232,7 @@ export default function PermethrinCanadaPage() {
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">Permethrin Key Facts (Canada)</h2>
-          <div className="rounded-xl border border-navy-100 overflow-hidden">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto">
             <table className="w-full text-sm">
               <tbody>
                 {[
@@ -266,8 +295,8 @@ export default function PermethrinCanadaPage() {
 
           <h2>Permethrin Concentrate: Dilution &amp; Coverage (Reference)</h2>
           <p>If you have researched permethrin <strong>concentrate</strong> — the 10% to 36.8% liquids sold to US homeowners under names like Permethrin SFR, Martin&rsquo;s 10%, or GordonV — this is what the dilution and coverage math looks like. Important: these concentrates are <strong>not sold to Canadian consumers</strong> and cannot be legally applied to a residential lawn in Canada. The table is a reference only so you understand what a licensed applicator is metering when they treat your yard.</p>
-          <div className="not-prose rounded-xl border border-navy-100 overflow-hidden my-4">
-            <table className="w-full text-sm">
+          <div className="not-prose rounded-xl border border-navy-100 overflow-x-auto my-4">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-3 py-2 text-left">Concentrate</th>
@@ -325,7 +354,7 @@ export default function PermethrinCanadaPage() {
           </aside>
 
           <h2>Permethrin vs Other Repellents — Side-by-Side</h2>
-          <table className="not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
+          <table className="min-w-[560px] not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
             <thead className="bg-brand-50">
               <tr><th className="px-3 py-2 text-left">Compound</th><th className="px-3 py-2 text-left">Application</th><th className="px-3 py-2 text-left">Duration</th><th className="px-3 py-2 text-left">Best For</th></tr>
             </thead>

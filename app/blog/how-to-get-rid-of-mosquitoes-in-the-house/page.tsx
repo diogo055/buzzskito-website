@@ -144,7 +144,7 @@ export default function GetRidOfMosquitoesInHousePage() {
           <h2>Where do mosquitoes hide in a room?</h2>
           <p>Mosquitoes are not out in the open during the day — they rest in cool, dark, humid, sheltered places and only get active at dusk. If you can&rsquo;t find the one that bit you last night, you&rsquo;re probably looking in the wrong half of the room. They favour the lower, shaded areas, not the bright centre of the ceiling. Here&rsquo;s where to look:</p>
 
-          <div className="not-prose my-6 rounded-xl border border-navy-100 overflow-hidden">
+          <div className="not-prose my-6 rounded-xl border border-navy-100 overflow-x-auto">
             <table className="w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
@@ -211,7 +211,7 @@ export default function GetRidOfMosquitoesInHousePage() {
           <h2>Why do I keep getting mosquitoes in my house?</h2>
           <p>It comes down to two questions: how are they getting in, and what&rsquo;s producing them? Run this quick diagnostic table.</p>
 
-          <div className="not-prose my-6 rounded-xl border border-navy-100 overflow-hidden">
+          <div className="not-prose my-6 rounded-xl border border-navy-100 overflow-x-auto">
             <table className="w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
@@ -252,7 +252,7 @@ export default function GetRidOfMosquitoesInHousePage() {
           </aside>
 
           <h2>Indoor mosquito control: quick reference</h2>
-          <div className="not-prose my-6 rounded-xl border border-navy-100 overflow-hidden">
+          <div className="not-prose my-6 rounded-xl border border-navy-100 overflow-x-auto">
             <table className="w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>

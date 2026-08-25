@@ -97,6 +97,7 @@ export default function ThermalVsUlvFoggerCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="PetraTools cordless ULV cold fogger" search="petratools ulv cordless fogger" label="Best all-round pick" />
 
       <section className="bg-white px-4">
@@ -229,8 +230,8 @@ export default function ThermalVsUlvFoggerCanadaPage() {
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Availability</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="longray thermal fogger" block>Check price →</BuyLink></td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="petratools ulv cordless fogger" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="longray thermal fogger" block>Check price on Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="petratools ulv cordless fogger" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -254,7 +255,6 @@ export default function ThermalVsUlvFoggerCanadaPage() {
           <p>Strip away the marketing and the thermal-versus-ULV choice reduces to one physical difference: <strong>how the machine turns liquid into fog</strong>. A thermal fogger uses <em>heat</em> &mdash; a propane flame or a glowing electric coil &mdash; to flash the carrier liquid into vapour that instantly condenses into a dense, visible cloud of ultra-fine droplets. A ULV (ultra-low volume) fogger uses <em>cold air</em> &mdash; a powerful motor drives a high-pressure air stream that mechanically shears the liquid into a mist at the nozzle. Heat versus air. Everything else about these machines &mdash; droplet size, where you can use them, what liquids they take, how much they cost &mdash; flows directly from that one design decision.</p>
           <p>That is why there is no single &ldquo;better&rdquo; fogger, only a better fit for your job. A <Link href="/blog/best-gas-backpack-fogger-canada">gas thermal fogger</Link> like a Longray is a specialist built to blanket large outdoor areas with penetrating fog. A ULV cold fogger like a PetraTools unit is a generalist built to apply water-based products precisely and safely, indoors or out. The rest of this guide walks through the factors that decide which one belongs in your shed, then names the pick that suits the most buyers.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the two types:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="longray thermal fogger">Longray thermal fogger →</BuyLink>

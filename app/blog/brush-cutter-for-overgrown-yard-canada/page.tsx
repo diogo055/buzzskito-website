@@ -83,6 +83,7 @@ export default function BrushCutterForOvergrownYardCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Straight-Shaft Brush Cutter" search="gas brush cutter straight shaft" label="Best for woody growth" />
 
       <section className="bg-white px-4">
@@ -217,7 +218,6 @@ export default function BrushCutterForOvergrownYardCanadaPage() {
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Jump to current Canadian availability &mdash; the blade-capable machine, and the value pick for grass-only lots:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="gas brush cutter straight shaft">See straight-shaft brush cutters &rarr;</BuyLink>

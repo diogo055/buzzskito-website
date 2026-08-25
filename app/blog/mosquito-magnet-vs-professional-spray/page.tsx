@@ -82,6 +82,7 @@ export default function MosquitoMagnetPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Mosquito Magnet Patriot Plus (propane CO₂ trap)" search="mosquito magnet patriot plus" label="Trap price check" />
 
       <article className="py-12 px-4 bg-white">
@@ -99,7 +100,6 @@ export default function MosquitoMagnetPage() {
             <p className="mt-3 text-xs text-gray-500">— BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
           </div>
 
-          <AffiliateDisclosure />
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
           <p className="lead text-xl text-gray-700 leading-relaxed mb-6">Mosquito Magnet traps work — they capture real mosquitoes. But they&rsquo;re expensive, need ongoing supplies, and only cull a portion of your yard&rsquo;s mosquito population. Here&rsquo;s how they compare to professional barrier spray, which controls the population at the source.</p>
 

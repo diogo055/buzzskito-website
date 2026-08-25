@@ -161,7 +161,7 @@ export default function ChiggerBitesPage() {
         <h2>Chigger bites vs mosquito bites vs bed bug bites: how do you tell them apart?</h2>
         <p>The three get confused constantly, but pattern, location, and timing separate them reliably. Here is the side-by-side:</p>
         <div className="overflow-x-auto not-prose my-6">
-          <table className="w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden">
+          <table className="min-w-[560px] w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden">
             <thead className="bg-brand-50">
               <tr>
                 <th className="px-3 py-2 text-left">Feature</th>
@@ -196,6 +196,7 @@ export default function ChiggerBitesPage() {
           <li><strong>Use an over-the-counter anti-itch product as directed on the label</strong> &mdash; calamine lotion and anti-itch creams are the standard first line, and a pharmacist can point you to an oral antihistamine if the itch is disrupting sleep. Follow label directions; this guide does not replace them.</li>
           <li><strong>Keep fingernails off the welts.</strong> Scratching is the main route to broken skin and bacterial infection, which is the one genuinely concerning complication of North American chigger bites.</li>
         </ol>
+        <AffiliateDisclosure />
         <TopPick tag={AMZ_TAG}
           label="Best for the itch"
           name="Calamine lotion"
@@ -205,7 +206,6 @@ export default function ChiggerBitesPage() {
           pros={['Soothes itch without harsh solvents', 'Inexpensive and widely available', 'Gentle on inflamed, scratched skin']}
           cons={['Needs frequent reapplication', 'Pink residue on skin and clothes', 'Calms the itch — does not shorten the bite']}
         />
-        <AffiliateDisclosure />
         <div className="not-prose my-4 flex flex-wrap gap-3">
           <BuyLink tag={AMZ_TAG} search="calamine lotion">Check calamine lotion on Amazon &rarr;</BuyLink>
           <BuyLink tag={AMZ_TAG} search="chigger bite itch relief cream">Check anti-itch creams on Amazon &rarr;</BuyLink>

@@ -100,6 +100,7 @@ export default function HowToGetRidOfSilverfishCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Energy Star 50-pint basement dehumidifier" search="50 pint dehumidifier basement energy star" label="Best overall" />
 
       <section className="bg-white px-4">
@@ -188,7 +189,7 @@ export default function HowToGetRidOfSilverfishCanadaPage() {
             Three very different insects get reported as &ldquo;silverfish&rdquo; in Canadian homes, and one of them is actually on your side. Thirty seconds of ID changes both where you fight and whether you fight at all.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Insect</th>
@@ -234,7 +235,7 @@ export default function HowToGetRidOfSilverfishCanadaPage() {
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">Silverfish Control — Key Facts</h2>
-          <div className="rounded-xl border border-navy-100 overflow-hidden">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto">
             <table className="w-full text-sm">
               <tbody>
                 {[
@@ -270,7 +271,6 @@ export default function HowToGetRidOfSilverfishCanadaPage() {
           <p>By removing the one thing they cannot live without: humid air. That sounds too simple to be the answer, so here is the biology that makes it true. Silverfish are among the most ancient insects on Earth &mdash; they predate flight itself &mdash; and they never evolved the water-tight cuticle that lets beetles or ants cross dry ground. A silverfish is, functionally, an animal that must live inside a humid microclimate at all times: reproduction requires roughly 75&ndash;95% relative humidity, and eggs and nymphs simply desiccate in sustained dry air. Hold a room at 45&ndash;50% RH and you have not made it unpleasant for silverfish; you have made it uninhabitable.</p>
           <p>That is why this guide is structured around a dehumidifier rather than a spray. Insecticides kill the silverfish that walk across them, but the breeding population lives deep in wall voids, under sill plates, and behind built-ins where no consumer treatment reaches &mdash; and with adults living 2&ndash;8 years and surviving months without food, a population you merely trim will refill. Change the air, and every hidden individual is fighting the same losing battle no matter where it hides. Traps become your scoreboard, diatomaceous earth your crack-and-crevice cleanup crew, and sealing your relapse prevention.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the kit:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="50 pint dehumidifier basement energy star">50-pint dehumidifier →</BuyLink>

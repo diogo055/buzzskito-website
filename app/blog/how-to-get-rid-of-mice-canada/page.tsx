@@ -138,8 +138,8 @@ export default function HowToGetRidOfMiceCanadaPage() {
 
           <h2>What Is the Fastest Way to Get Rid of Mice?</h2>
           <p>Run sanitation, trapping, exclusion, and monitoring <em>simultaneously</em> — not as an escalation ladder. Most DIY failures follow the same script: two traps catch two mice, the traps go quiet, everyone relaxes, and the droppings return with the next cold snap because the entry gap was never sealed. The four steps only work as a package: Repellents are conspicuously absent from that list, and deliberately so: <Link href="/blog/mouse-repellent-canada" className="text-brand-700 underline">what actually repels a mouse versus what merely sells well</Link> sets out which shelf products have any evidence behind them at all.</p>
-          <div className="not-prose rounded-xl border border-navy-100 overflow-hidden bg-white shadow-sm my-6 overflow-x-auto">
-            <table className="w-full text-sm">
+          <div className="not-prose rounded-xl border border-navy-100 overflow-x-auto bg-white shadow-sm my-6 overflow-x-auto">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Step</th>
@@ -188,6 +188,7 @@ export default function HowToGetRidOfMiceCanadaPage() {
           </ul>
           <p>On trap choice: the classic Victor M325 wood snap trap remains the workhorse because it is cheap enough to deploy by the dozen — our <Link href="/blog/best-mouse-trap-canada">best mouse trap in Canada comparison</Link> covers snap vs electronic vs catch-and-release in depth. For no-see, no-touch disposal in the kitchen, the Victor M250S electronic trap kills in under 5 seconds and handles up to 100 kills per set of AA batteries; we tore down its real-world reliability in our <Link href="/blog/victor-electronic-mouse-trap-review-canada">Victor electronic trap review</Link>. And if droppings are over 1 cm long, stop — you have rats, mouse traps physically cannot kill them, and you want the <Link href="/blog/best-rat-trap-canada">best rat trap guide</Link> instead.</p>
 
+          <AffiliateDisclosure />
           <TopPick tag={AMZ_TAG}
             label="Our Top Pick for the trap line"
             name="Victor M325 Wood Snap Trap"
@@ -198,7 +199,6 @@ export default function HowToGetRidOfMiceCanadaPage() {
             cons={['Must be handled and re-set by hand', 'Too small to kill rats — check dropping size first']}
           />
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the trap-line staples:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="victor mouse trap 4 pack">Victor M325 snap traps →</BuyLink>

@@ -100,6 +100,7 @@ export default function BestBedBugSprayForTravelCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Doktor Doom Travel Pro bed bug spray" search="doktor doom travel pro bed bug spray" label="Best travel pick" />
 
       <section className="bg-white px-4">
@@ -181,7 +182,7 @@ export default function BestBedBugSprayForTravelCanadaPage() {
             All four help on the road, but they solve different parts of the travel problem. Here is the honest breakdown, with a live Amazon.ca availability check per type.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Spray type</th>
@@ -197,28 +198,28 @@ export default function BestBedBugSprayForTravelCanadaPage() {
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Spot kill + residual</strong> on seams and cracks</td>
                   <td className="px-4 py-3 text-gray-700">Only if the can is under 100&nbsp;mL; else checked bag</td>
                   <td className="px-4 py-3 text-gray-700">Flammable-propellant limits; surface use only</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="doktor doom travel pro bed bug spray" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="doktor doom travel pro bed bug spray" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Residual pump<br /><span className="font-normal text-xs text-gray-500">Proof travel size</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Pre-treating the suitcase</strong> to stay protected</td>
                   <td className="px-4 py-3 text-gray-700">Yes if the bottle is ≤100&nbsp;mL</td>
                   <td className="px-4 py-3 text-gray-700">Slower knockdown than an aerosol</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="proof bed bug dust mite spray travel size" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="proof bed bug dust mite spray travel size" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Fabric / gear treatment<br /><span className="font-normal text-xs text-gray-500">permethrin, label-specific</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Bonding to</strong> travel sacks, liners, gear</td>
                   <td className="px-4 py-3 text-gray-700">Small pumps can be; check the size</td>
                   <td className="px-4 py-3 text-gray-700">Fabric-only; never off-label on worn clothing</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="permethrin gear clothing treatment spray" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="permethrin gear clothing treatment spray" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Natural / plant-oil<br /><span className="font-normal text-xs text-gray-500">botanical</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Gentle spot touch-up</strong> in a room you sleep in</td>
                   <td className="px-4 py-3 text-gray-700">Usually yes in small sizes</td>
                   <td className="px-4 py-3 text-gray-700">Little residual — contact kill only</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="natural plant based bed bug spray travel" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="natural plant based bed bug spray travel" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -242,7 +243,6 @@ export default function BestBedBugSprayForTravelCanadaPage() {
           <p>The best travel bed-bug spray is the one you can legally pack and confidently use on the surfaces that matter &mdash; and for Canadian travellers that means a small, <strong>PMRA-registered</strong> product built for luggage seams and hotel harbourage rather than a full-size home aerosol you cannot even carry onto the plane. A travel spray is a narrow tool with a specific job: it protects your suitcase and lets you spot-treat something you find on arrival. It is not, and cannot be, a way to clear an active infestation, and any product that promises otherwise on a trip-size can is overselling.</p>
           <p>That job splits into two jobs, which is why our picks above are differentiated by intent. If you want one reliable, Canada-legal can that does knockdown and leaves a residual film, the <strong>Doktor Doom Travel Pro</strong> is the standout &mdash; a Canadian, Health Canada&ndash;registered aerosol in a compact format. If your priority is pre-treating a suitcase so it stays protected across a week, a lower-odour <strong>Proof travel-size</strong> residual is gentler and longer-lasting near bedding. The fabric and natural picks cover narrower needs. The reasoning below explains how to match the tool to the trip &mdash; and, just as importantly, what the spray does <em>not</em> replace.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the four picks:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="doktor doom travel pro bed bug spray">Doktor Doom Travel Pro →</BuyLink>

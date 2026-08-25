@@ -83,6 +83,7 @@ export default function MosquitoTrapRunningCostCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Biogents BG-Mosquitaire CO2 lure trap" search="biogents bg mosquitaire co2 mosquito trap" label="Best running-cost value" />
 
       <section className="bg-white px-4">
@@ -216,7 +217,6 @@ export default function MosquitoTrapRunningCostCanadaPage() {
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Jump straight to current Canadian availability — the machine whose feed cost stays sane, and the season consumables that go with it:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="biogents bg mosquitaire co2 mosquito trap">Check the BG-Mosquitaire on Amazon.ca &rarr;</BuyLink>
@@ -279,7 +279,7 @@ export default function MosquitoTrapRunningCostCanadaPage() {
                     <td className="px-4 py-3 font-bold text-brand-800">{item}</td>
                     <td className="px-4 py-3 text-gray-700">{cadence}</td>
                     <td className="px-4 py-3 text-gray-700">{qty}</td>
-                    <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search={search} block>Check price &rarr;</BuyLink></td>
+                    <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search={search} block>Check price on Amazon.ca &rarr;</BuyLink></td>
                   </tr>
                 ))}
               </tbody>

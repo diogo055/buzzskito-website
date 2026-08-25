@@ -84,6 +84,7 @@ export default function MouseProofGarageDoorSealCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Garage door threshold seal kit" search="garage door threshold seal kit" label="Best overall" />
 
       <section className="bg-white px-4">
@@ -195,35 +196,35 @@ export default function MouseProofGarageDoorSealCanadaPage() {
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Yes</strong> &mdash; with corners packed</td>
                   <td className="px-4 py-3 text-gray-700">Excellent &mdash; bond it in warm, dry weather</td>
                   <td className="px-4 py-3 text-gray-700">Slab is sloped, chipped or worn low</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="garage door threshold seal kit" block>Check price &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="garage door threshold seal kit" block>Check price on Amazon.ca &rarr;</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Replacement bottom seal (astragal)</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Yes</strong> &mdash; on a flat floor</td>
                   <td className="px-4 py-3 text-gray-700">Good if EPDM/TPE; poor if rigid vinyl</td>
                   <td className="px-4 py-3 text-gray-700">Rubber is cracked, hard or torn</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="garage door bottom seal t end rubber" block>Check price &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="garage door bottom seal t end rubber" block>Check price on Amazon.ca &rarr;</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Corner seal inserts + copper mesh</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Yes</strong> &mdash; the actual entry point</td>
                   <td className="px-4 py-3 text-gray-700">Excellent &mdash; no cure time</td>
                   <td className="px-4 py-3 text-gray-700">Always. Every door has corner voids</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="garage door corner seal inserts" block>Check price &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="garage door corner seal inserts" block>Check price on Amazon.ca &rarr;</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Brush weatherstrip, side jambs</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Yes</strong> &mdash; closes the side route</td>
                   <td className="px-4 py-3 text-gray-700">Excellent &mdash; bristles do not stiffen</td>
                   <td className="px-4 py-3 text-gray-700">Jambs are settled, warped or gapped</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="garage door side jamb brush weather stripping" block>Check price &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="garage door side jamb brush weather stripping" block>Check price on Amazon.ca &rarr;</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Quarter-inch hardware cloth</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Yes</strong> &mdash; for larger voids</td>
                   <td className="px-4 py-3 text-gray-700">Excellent &mdash; galvanized</td>
                   <td className="px-4 py-3 text-gray-700">Gaps at the frame, block wall or slab edge</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="hardware cloth 1/4 inch galvanized" block>Check price &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="hardware cloth 1/4 inch galvanized" block>Check price on Amazon.ca &rarr;</BuyLink></td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 font-bold text-brand-800">Spray foam used alone</td>
@@ -244,7 +245,7 @@ export default function MouseProofGarageDoorSealCanadaPage() {
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">Garage Door Exclusion — Key Specs</h2>
-          <div className="rounded-xl border border-navy-100 overflow-hidden">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto">
             <table className="w-full text-sm">
               <tbody>
                 {[
@@ -282,7 +283,6 @@ export default function MouseProofGarageDoorSealCanadaPage() {
           <p>A mouse needs about 6 mm. That is the whole equation. Close the door on a bright afternoon, walk outside, and look along the bottom from ground level with the sun behind the building: any daylight is an opening a mouse has already found. Do the same at the two vertical edges. It is the fastest inspection on the entire house, and it takes thirty seconds.</p>
           <p>The stakes are higher than the garage itself. An attached garage is a staging area, not a destination: warm relative to outdoors, sheltered, often storing birdseed, pet food or bulk dry goods, and sharing a wall and a doorway with your living space. A great many autumn calls that start &ldquo;we heard something in the wall&rdquo; began with an animal that got into the garage in October. Sealing this door is upstream of most of the rest of the work.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the hardware this guide recommends:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="garage door threshold seal kit">Threshold seal kit &rarr;</BuyLink>

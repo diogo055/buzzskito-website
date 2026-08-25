@@ -1,0 +1,25 @@
+[    2293ms] [LOG] GCM Consent Action @ :2
+[    2297ms] [LOG] Messaging without detection successfully executed. @ https://cdn.privacy-mgmt.com/unified/wrapperMessagingWithoutDetection.js:0
+[    2299ms] [LOG] [event] onSPReady [undefined] @ https://www.bobvila.com/reviews/best-mosquito-traps/:259
+[    2300ms] [LOG] [event] onMessageReceiveData [usnat, Object] @ https://www.bobvila.com/reviews/best-mosquito-traps/:256
+[    2300ms] [LOG] [event] onConsentReady [usnat, null, undefined, Object] @ https://www.bobvila.com/reviews/best-mosquito-traps/:268
+[    2301ms] [LOG] [event] onMessageReceiveData [gdpr, Object] @ https://www.bobvila.com/reviews/best-mosquito-traps/:256
+[    2302ms] [LOG] [event] onConsentReady [gdpr, null, undefined, Object] @ https://www.bobvila.com/reviews/best-mosquito-traps/:268
+[    2305ms] [LOG] interaction complete @ https://cdn.privacy-mgmt.com/unified/wrapperMessagingWithoutDetection.js:0
+[    3274ms] [LOG] [13, 0, 1, undefined] @ https://cdn.intergi.com/pf_v2?country=CA&browser=Chrome&device=desktop&website_id=75187:0
+[    3274ms] [LOG] [13, 0, 1, undefined] @ https://cdn.intergi.com/pf_v2?country=CA&browser=Chrome&device=desktop&website_id=75187:0
+[    3298ms] [WARNING] loadAmazonNativeApstag function is not available. @ https://www.bobvila.com/reviews/best-mosquito-traps/:37
+[    3508ms] [LOG] [13, 0, 1, 1] @ https://cdn.intergi.com/pf_v2?country=CA&browser=Chrome&device=desktop&website_id=75187:0
+[    3508ms] [LOG] [13, 0, 1, 1] @ https://cdn.intergi.com/pf_v2?country=CA&browser=Chrome&device=desktop&website_id=75187:0
+[    3511ms] [LOG] [13, 0, 1, 1] @ https://cdn.intergi.com/pf_v2?country=CA&browser=Chrome&device=desktop&website_id=75187:0
+[    3512ms] [LOG] [13, 0, 1, 1] @ https://cdn.intergi.com/pf_v2?country=CA&browser=Chrome&device=desktop&website_id=75187:0
+[    3517ms] [LOG] [13, 0, 1, 1] @ https://cdn.intergi.com/pf_v2?country=CA&browser=Chrome&device=desktop&website_id=75187:0
+[    3517ms] [LOG] [13, 0, 1, 1] @ https://cdn.intergi.com/pf_v2?country=CA&browser=Chrome&device=desktop&website_id=75187:0
+[    7332ms] [WARNING] The resource https://fonts.googleapis.com/css2?family=IBM+Plex+Mono%3Awght%40400%3B600%3B700&display=swap&ver=0.1.0 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.bobvila.com/reviews/best-mosquito-traps/:0
+[    7333ms] [WARNING] The resource https://fonts.googleapis.com/css2?family=Roboto%3Aital%2Cwght%400%2C400%3B0%2C600%3B0%2C700%3B1%2C400%3B1%2C600%3B1%2C700&display=swap&ver=0.1.0 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.bobvila.com/reviews/best-mosquito-traps/:0
+[    8456ms] [ERROR] Failed to load resource: net::ERR_TOO_MANY_REDIRECTS @ https://cm.g.doubleclick.net/pixel?google_nid=semasio_ddp&google_cm&google_hm=MzgyODVGNDVCMkMzRTlCRg%3D%3D&gdpr=0&gdpr_consent=:0
+[    8702ms] [ERROR] Refused to display 'https://tracookiepixel.xyz/' in a frame because it set 'X-Frame-Options' to 'deny'. @ chrome-error://chromewebdata/:0
+[   12191ms] [WARNING] The resource https://fonts.googleapis.com/css2?family=IBM+Plex+Mono%3Awght%40400%3B600%3B700&display=swap&ver=0.1.0 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.bobvila.com/reviews/best-mosquito-traps/:0
+[   12191ms] [WARNING] The resource https://fonts.googleapis.com/css2?family=Roboto%3Aital%2Cwght%400%2C400%3B0%2C600%3B0%2C700%3B1%2C400%3B1%2C600%3B1%2C700&display=swap&ver=0.1.0 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.bobvila.com/reviews/best-mosquito-traps/:0
+[   16921ms] [WARNING] The resource https://fonts.googleapis.com/css2?family=IBM+Plex+Mono%3Awght%40400%3B600%3B700&display=swap&ver=0.1.0 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.bobvila.com/reviews/best-mosquito-traps/:0
+[   16921ms] [WARNING] The resource https://fonts.googleapis.com/css2?family=Roboto%3Aital%2Cwght%400%2C400%3B0%2C600%3B0%2C700%3B1%2C400%3B1%2C600%3B1%2C700&display=swap&ver=0.1.0 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.bobvila.com/reviews/best-mosquito-traps/:0

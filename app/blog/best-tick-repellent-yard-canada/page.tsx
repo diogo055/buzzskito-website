@@ -81,6 +81,7 @@ export default function BestTickRepellentYardPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Wondercide Cedar-Oil Yard Spray" search="wondercide tick yard spray" label="Best DIY pick" />
 
       <article className="py-12 px-4 bg-white">
@@ -99,7 +100,6 @@ export default function BestTickRepellentYardPage() {
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
           </div>
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">DIY yard-scale tick products Canadians buy most (nothing replaces a professional barrier spray, but these help):</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="wondercide tick yard spray">Check yard tick sprays on Amazon.ca →</BuyLink>

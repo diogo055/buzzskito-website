@@ -83,6 +83,7 @@ export default function ThermacellRefillsRechargeCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Thermacell E-Series Refill Cartridge (E55/E90)" search="thermacell e-series refill" label="Most-bought refill" />
 
       {/* Quick Answer — AI-extraction block */}
@@ -112,8 +113,8 @@ export default function ThermacellRefillsRechargeCanadaPage() {
           <p className="text-sm text-gray-700 mb-5 leading-relaxed">
             The single most common Thermacell mistake is buying the wrong refill. Match the refill family to your device before you check out &mdash; an E-Series cartridge will not fit a Patio Shield, and Original mats will not fit an E55.
           </p>
-          <div className="rounded-xl border border-navy-100 overflow-hidden bg-white shadow-sm">
-            <table className="w-full text-sm">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto bg-white shadow-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Refill type</th>
@@ -157,8 +158,8 @@ export default function ThermacellRefillsRechargeCanadaPage() {
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">Refill &amp; Recharge Compatibility by Model</h2>
-          <div className="rounded-xl border border-navy-100 overflow-hidden">
-            <table className="w-full text-sm">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-50">
                 <tr>
                   <th className="px-3 py-2 text-left">Model</th>
@@ -196,7 +197,6 @@ export default function ThermacellRefillsRechargeCanadaPage() {
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian prices on the refill that fits your model:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="thermacell e-series refill">E-Series cartridge (E55/E90) →</BuyLink>
@@ -244,7 +244,7 @@ export default function ThermacellRefillsRechargeCanadaPage() {
           <p>On <strong>fuel-powered models</strong>, there are two consumables. Replace the flat repellent <strong>mat</strong> when it fades from blue to white (about 4 hours of use each), and replace the <strong>butane fuel cartridge</strong> when the device will no longer light (about 12 hours per cartridge). Original refill packs bundle both so you always have matched supplies on hand.</p>
 
           <h2>Thermacell vs Whole-Yard Control</h2>
-          <table className="not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
+          <table className="min-w-[560px] not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
             <thead className="bg-brand-50">
               <tr><th className="px-3 py-2 text-left">Approach</th><th className="px-3 py-2 text-left">Coverage</th><th className="px-3 py-2 text-left">Duration</th><th className="px-3 py-2 text-left">Ticks?</th></tr>
             </thead>

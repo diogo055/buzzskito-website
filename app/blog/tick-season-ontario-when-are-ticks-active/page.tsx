@@ -82,7 +82,7 @@ export default function TickSeasonPage() {
 
         <h2>Month-by-Month Tick Activity in Ontario 2026</h2>
         <div className="not-prose overflow-x-auto my-6">
-          <table className="w-full text-sm border-collapse">
+          <table className="min-w-[560px] w-full text-sm border-collapse">
             <thead>
               <tr className="bg-brand-800 text-white">
                 <th className="px-3 py-2 text-left">Month</th>

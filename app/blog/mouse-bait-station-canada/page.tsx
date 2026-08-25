@@ -100,6 +100,7 @@ export default function MouseBaitStationCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Tomcat Mouse Killer disposable bait station (bromethalin)" search="tomcat mouse killer disposable bait station" label="PMRA-legal pick" />
 
       <section className="bg-white px-4">
@@ -123,7 +124,6 @@ export default function MouseBaitStationCanadaPage() {
 
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
-          <AffiliateDisclosure />
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
           <p className="not-prose text-sm text-gray-600 mb-1">The PMRA-registered consumer option, available on Amazon.ca:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
@@ -173,7 +173,7 @@ export default function MouseBaitStationCanadaPage() {
 
           <h2>Bait Stations vs Traps: Which Should You Use?</h2>
           <p>Traps first, stations second — that is our standing recommendation for Canadian homes, and here is the honest comparison behind it:</p>
-          <table className="not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
+          <table className="min-w-[560px] not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
             <thead className="bg-brand-50">
               <tr><th className="px-3 py-2 text-left">Method</th><th className="px-3 py-2 text-left">Consumer-legal in Canada?</th><th className="px-3 py-2 text-left">Kill confirmed?</th><th className="px-3 py-2 text-left">Secondary-poison risk</th><th className="px-3 py-2 text-left">Best use</th></tr>
             </thead>

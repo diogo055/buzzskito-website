@@ -100,6 +100,7 @@ export default function HowToGetRidOfRatsCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Tomcat heavy-duty rat snap traps" search="tomcat rat snap trap" label="Best overall" />
 
       <section className="bg-white px-4">
@@ -178,7 +179,7 @@ export default function HowToGetRidOfRatsCanadaPage() {
           <p className="text-xs font-extrabold text-emerald-700 uppercase tracking-wider mb-2">Methods Compared &middot; Updated July 2026</p>
           <h2 className="text-2xl font-extrabold text-brand-900 mb-4">Rat Control Methods for Canadian Homes — What Each One Actually Does</h2>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Method</th>
@@ -192,25 +193,25 @@ export default function HowToGetRidOfRatsCanadaPage() {
                   <td className="px-4 py-3 font-bold text-brand-800">Heavy-duty snap traps<br /><span className="font-normal text-xs text-gray-500">Tomcat / Victor rat-size</span></td>
                   <td className="px-4 py-3 text-gray-700">Rat-rated spring kill; pre-bait unset 3&ndash;7 nights, then set the whole line at once</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">The workhorse</strong> &mdash; fastest legal knockdown, gives a body count</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="tomcat rat snap trap" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="tomcat rat snap trap" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">CO2 auto-trap<br /><span className="font-normal text-xs text-gray-500">Goodnature A24</span></td>
                   <td className="px-4 py-3 text-gray-700">CO2-powered striker kills instantly, body drops clear, trap self-resets &mdash; up to 24 kills per canister</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Hands-off upgrade</strong> for sheds, garages, under decks, cottages</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="goodnature a24 rat trap" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="goodnature a24 rat trap" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Bait station<br /><span className="font-normal text-xs text-gray-500">Tamper-resistant box</span></td>
                   <td className="px-4 py-3 text-gray-700">Lockable housing for legal consumer bait blocks &mdash; or non-toxic monitoring blocks to map activity</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Monitor first, bait last</strong> &mdash; poison is the last resort under Canadian rules</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="rat bait station tamper resistant" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="rat bait station tamper resistant" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 font-bold text-brand-800">Exclusion mesh<br /><span className="font-normal text-xs text-gray-500">Hardware cloth / copper mesh</span></td>
                   <td className="px-4 py-3 text-gray-700">Gnaw-proof metal closes every gap over ~2 cm &mdash; pipes, vents, door sweeps, deck skirting</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">The endgame</strong> &mdash; the only step that makes results permanent</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="rodent exclusion hardware cloth copper mesh" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="rodent exclusion hardware cloth copper mesh" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -224,7 +225,7 @@ export default function HowToGetRidOfRatsCanadaPage() {
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">Rats in Canada — Key Facts</h2>
-          <div className="rounded-xl border border-navy-100 overflow-hidden">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto">
             <table className="w-full text-sm">
               <tbody>
                 {[
@@ -280,7 +281,6 @@ export default function HowToGetRidOfRatsCanadaPage() {
           <p>The instinct when rats appear is to buy poison and be done. In Canada that plan fails three ways. First, the legal way: the potent baits that made &ldquo;throw poison at it&rdquo; plausible in US forums are commercial-class here — more on that below. Second, the biological way: a rat colony is a <em>production system</em>. A female Norway rat can produce 3&ndash;6 litters a year of 6&ndash;12 pups; killing individuals without touching food supply and harbourage just opens vacancies that breeding and immigration refill within weeks. Third, the practical way: baited rats routinely die inside wall voids and under floors, and a decomposing rat is a multi-week odour event no bait-station feature prevents.</p>
           <p>But traps alone are also only half a strategy. A trap line with an open bird feeder, an accessible compost bin, and an unsealed foundation is a treadmill: you are harvesting the surplus of a rat farm you are still operating. The full loop &mdash; food gone, traps out, holes sealed &mdash; is what actually ends the problem, and each step makes the next one work better: hungry rats hit traps faster, and sealed buildings turn any survivor into an outdoor problem instead of a tenant.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the toolkit:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="tomcat rat snap trap">Tomcat rat snap traps →</BuyLink>

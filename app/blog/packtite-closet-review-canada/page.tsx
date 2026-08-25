@@ -100,6 +100,7 @@ export default function PackTiteClosetReviewCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="PackTite Closet bed-bug heat chamber" search="packtite closet bed bug heater" label="Flagship heat chamber" />
 
       <section className="bg-white px-4">
@@ -143,7 +144,7 @@ export default function PackTiteClosetReviewCanadaPage() {
             The Closet competes with a handful of other portable heat chambers and luggage heaters. They all kill bed bugs with sustained heat; they differ on capacity, shape, and &mdash; crucially in Canada &mdash; how easy they are to actually buy. Here is the honest breakdown, with a live Amazon.ca availability check per option.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Chamber</th>
@@ -159,28 +160,28 @@ export default function PackTiteClosetReviewCanadaPage() {
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Large</strong> &mdash; multiple bags / deep loads</td>
                   <td className="px-4 py-3 text-gray-700">Bulky mixed loads, recurring use</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Intermittent</strong> &mdash; often US-shipped</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="packtite closet bed bug heater" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="packtite closet bed bug heater" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">PackTite Portable<br /><span className="font-normal text-xs text-gray-500">original, compact</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Single bag</strong></td>
                   <td className="px-4 py-3 text-gray-700">Travellers treating one suitcase</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Intermittent</strong></td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="packtite portable bed bug heater" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="packtite portable bed bug heater" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">ZappBug Oven<br /><span className="font-normal text-xs text-gray-500">large square box</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Large</strong></td>
                   <td className="px-4 py-3 text-gray-700">Bulky loads when PackTite is out of stock</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Better</strong> &mdash; more often listed here</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="zappbug oven bed bug heater" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="zappbug oven bed bug heater" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">ThermalStrike Ranger<br /><span className="font-normal text-xs text-gray-500">zip-up luggage heater</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Single bag</strong></td>
                   <td className="px-4 py-3 text-gray-700">Travel-focused single-suitcase treatment</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Good</strong></td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="thermalstrike ranger bed bug heater" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="thermalstrike ranger bed bug heater" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -204,7 +205,6 @@ export default function PackTiteClosetReviewCanadaPage() {
           <p>The PackTite Closet is the big sibling in a product family that more or less invented the consumer bed-bug heat chamber. Where the original PackTite Portable is a compact zip-up bag sized for a single suitcase, the Closet is a tall, collapsible chamber built to take a genuinely large load in one cycle: multiple bags at once, a comforter and pillows, a deep stack of seasonal clothing, or the combined soft goods of a whole bedroom. It works on the oldest, most reliable principle in bed-bug control &mdash; heat. A controlled heating element circulates hot air through the chamber until the contents climb above the temperature bed bugs and their eggs can survive, and then it holds them there.</p>
           <p>That heritage matters, because heat is one of the few interventions that kills <em>every</em> life stage. Adults, nymphs, and &mdash; the part that defeats so many other methods &mdash; the eggs. A vacuum removes what it can reach, a contact spray hits what it touches, but a properly run heat cycle penetrates into the folds of a duffel bag and the core of a folded sweater and cooks everything hiding there at once. The Closet is the tool you reach for when the thing you need to de-bug is too bulky, too numerous, or too delicate to wash, and when you need to be sure the middle of the load got as hot as the outside.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the Closet and its main alternatives:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="packtite closet bed bug heater">PackTite Closet →</BuyLink>

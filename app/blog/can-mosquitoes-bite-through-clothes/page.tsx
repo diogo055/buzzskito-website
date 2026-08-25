@@ -132,7 +132,7 @@ export default function CanMosquitoesBiteThroughClothesPage() {
           <h2>What fabric do mosquitoes bite through?</h2>
           <p><strong>Mosquitoes bite through thin, tight, stretchy fabric and are stopped by thick, tightly woven, or loose fabric.</strong> The table below sorts the everyday materials by bite risk so you can dress for a buggy evening without guessing.</p>
 
-          <div className="not-prose my-6 rounded-xl border border-navy-100 overflow-hidden shadow-sm">
+          <div className="not-prose my-6 rounded-xl border border-navy-100 overflow-x-auto shadow-sm">
             <table className="w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>

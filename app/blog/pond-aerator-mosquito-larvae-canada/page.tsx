@@ -84,6 +84,7 @@ export default function PondAeratorMosquitoLarvaePage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Pond Aeration Kit — Compressor, Weighted Line &amp; Diffuser" search="pond aeration kit compressor diffuser weighted tubing" label="Core system" />
 
       <section className="bg-white px-4 pt-8">
@@ -219,7 +220,6 @@ export default function PondAeratorMosquitoLarvaePage() {
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
-          <AffiliateDisclosure />
 
           <h2>The Mechanism: Why Still Water Is the Whole Problem</h2>
           <p>Mosquito larvae breathe air. That one fact explains everything about pond aeration and mosquitoes, and it is worth being precise about because it is the rare piece of backyard pest advice where the folk wisdom happens to be mechanically correct.</p>

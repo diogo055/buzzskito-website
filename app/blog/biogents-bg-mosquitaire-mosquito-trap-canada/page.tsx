@@ -83,6 +83,7 @@ export default function BiogentsBgMosquitaireCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Biogents BG-Mosquitaire mosquito trap" search="biogents bg-mosquitaire mosquito trap" label="The version most people should buy" />
 
       <section className="bg-white px-4">
@@ -204,7 +205,7 @@ export default function BiogentsBgMosquitaireCanadaPage() {
                     <td className="px-4 py-3 text-gray-700">{how}</td>
                     <td className="px-4 py-3 text-gray-700">{feed}</td>
                     <td className="px-4 py-3 text-xs text-gray-600">{best}</td>
-                    <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search={search} block>Check price &rarr;</BuyLink></td>
+                    <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search={search} block>Check price on Amazon.ca &rarr;</BuyLink></td>
                   </tr>
                 ))}
               </tbody>
@@ -219,7 +220,6 @@ export default function BiogentsBgMosquitaireCanadaPage() {
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">The two orders that matter &mdash; the trap, and the lure you will need before August:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="biogents bg-mosquitaire mosquito trap">Check the BG-Mosquitaire on Amazon.ca &rarr;</BuyLink>

@@ -103,6 +103,7 @@ export default function HowToGetRidOfVolesCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Quarter-inch galvanised hardware cloth (trunk guards)" search="hardware cloth 1 4 inch galvanized mesh" label="The buy that prevents real loss" />
 
       <section className="bg-white px-4">
@@ -133,7 +134,7 @@ export default function HowToGetRidOfVolesCanadaPage() {
             This is the single highest-value thirty seconds on the page. Four small mammals get called &ldquo;the thing wrecking my lawn,&rdquo; and only one of them is actually eating your plants. Getting it wrong means buying a product aimed at an animal you do not have.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Animal</th>
@@ -188,7 +189,7 @@ export default function HowToGetRidOfVolesCanadaPage() {
           <p className="text-xs font-extrabold text-emerald-700 uppercase tracking-wider mb-2">Decision Table</p>
           <h2 className="text-2xl font-extrabold text-brand-900 mb-4">Pick in 60 Seconds: Your Situation &rarr; What to Do</h2>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Your situation</th>
@@ -299,7 +300,7 @@ export default function HowToGetRidOfVolesCanadaPage() {
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">Vole Control &mdash; Quick Reference</h2>
-          <div className="rounded-xl border border-navy-100 overflow-hidden">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto">
             <table className="w-full text-sm">
               <tbody>
                 {[
@@ -341,7 +342,6 @@ export default function HowToGetRidOfVolesCanadaPage() {
           <p>The build is the tell. A vole is chunky and compact with a blunt, rounded snout, small eyes, and ears so short they are largely buried in fur, and its tail is short &mdash; nearer the length of its hind foot than the length of its body. A house mouse is the opposite in every one of those features: slender, sharply pointed nose, big ears standing clear of the head, and a long scaly tail as long as the rest of it. The behaviour follows the anatomy. Voles are adapted for pushing through grass at ground level and tunnelling shallowly in soil, not for climbing into a pantry, and they are near-permanently outdoors.</p>
           <p>What they eat matters just as much. Voles are herbivores: grasses, roots, seeds, bulbs, hosta, and &mdash; the expensive one &mdash; the inner bark of young trees and shrubs, particularly in winter when nothing green is available. And because they are near the bottom of the food chain, they live under constant predation pressure from hawks, owls, foxes, coyotes, weasels, and cats, which is the single most useful fact in this entire guide. <strong>Voles need cover.</strong> An open, short-mown lawn is dangerous ground for them. Tall grass, a weedy fence line, thick ground cover, a heap of mulch against a trunk, or a snowpack are what make a yard survivable. Take that away and you have done more than any product does.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the short list:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="hardware cloth 1 4 inch galvanized mesh">Hardware cloth &rarr;</BuyLink>

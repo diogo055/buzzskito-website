@@ -100,6 +100,7 @@ export default function HowToGetRidOfEarwigsCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Door sweeps + exterior caulk (exclusion kit)" search="door sweep silicone caulk gap sealant" label="Best first move" />
 
       <section className="bg-white px-4">
@@ -184,7 +185,7 @@ export default function HowToGetRidOfEarwigsCanadaPage() {
             Plenty of insects get called earwigs when they are not, and two of the common look-alikes are beneficial insects you should leave alone. The forceps at the back end are the tell &mdash; nothing else on this list has them.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Insect</th>
@@ -237,7 +238,7 @@ export default function HowToGetRidOfEarwigsCanadaPage() {
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">Earwig Control in Canada — Key Facts</h2>
-          <div className="rounded-xl border border-navy-100 overflow-hidden">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto">
             <table className="w-full text-sm">
               <tbody>
                 {[
@@ -278,7 +279,6 @@ export default function HowToGetRidOfEarwigsCanadaPage() {
           <p>The order matters: clear the harbourage first (trapping into a yard that is still producing earwigs is a treadmill), trap hard for two to three weeks during the peak, then seal the building so the survivors stay outside.</p>
           <p>If you have already decided you want to buy something and just need to know <em>what</em>, our companion <Link href="/blog/best-earwig-killer-canada">guide to the best earwig killer in Canada</Link> ranks every method by what it physically does &mdash; including why no earwig bait exists, which perimeter products are actually PMRA-registered here, and which shelf items to skip.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the small kit that is actually worth buying:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="door sweep silicone caulk gap sealant">Door sweeps + caulk →</BuyLink>

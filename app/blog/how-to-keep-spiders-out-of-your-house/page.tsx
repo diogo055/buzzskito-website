@@ -100,6 +100,7 @@ export default function HowToKeepSpidersOutPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Spider & insect glue traps (baseboard monitoring)" search="spider insect glue traps" label="Monitoring pick" />
 
       <section className="bg-white px-4">
@@ -176,7 +177,7 @@ export default function HowToKeepSpidersOutPage() {
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">Keeping Spiders Out — Key Facts</h2>
-          <div className="rounded-xl border border-navy-100 overflow-hidden">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto">
             <table className="w-full text-sm">
               <tbody>
                 {[
@@ -221,8 +222,8 @@ export default function HowToKeepSpidersOutPage() {
 
           <h2>What Works vs What Doesn&rsquo;t: The Evidence Table</h2>
           <p>Spider prevention is drowning in folk remedies, so here is the field sorted by evidence. Note the pattern: the physical methods carry the weight, the chemical barrier is a legitimate supplement, and the popular &ldquo;natural&rdquo; options bring up the rear.</p>
-          <div className="not-prose rounded-xl border border-navy-100 overflow-hidden bg-white shadow-sm my-6 overflow-x-auto">
-            <table className="w-full text-sm">
+          <div className="not-prose rounded-xl border border-navy-100 overflow-x-auto bg-white shadow-sm my-6 overflow-x-auto">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Method</th>
@@ -236,13 +237,13 @@ export default function HowToKeepSpidersOutPage() {
                   <td className="px-4 py-3 font-bold text-brand-800">Sealing entry points</td>
                   <td className="px-4 py-3 text-gray-700">Door sweeps, weatherstripping, caulk, and screen repair physically close the routes in</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Strong</strong> — the only permanent fix</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="exterior door sweep weatherstripping" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="exterior door sweep weatherstripping" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Sticky traps</td>
                   <td className="px-4 py-3 text-gray-700">Glue boards along baseboards intercept wandering males and map room-by-room activity</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Strong</strong> — for interception &amp; monitoring</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="spider insect glue traps" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="spider insect glue traps" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Vacuum + egg-sac removal</td>
@@ -254,7 +255,7 @@ export default function HowToKeepSpidersOutPage() {
                   <td className="px-4 py-3 font-bold text-brand-800">PMRA perimeter spray</td>
                   <td className="px-4 py-3 text-gray-700">Residual barrier at door frames, foundation gaps, window wells; works for weeks</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Good</strong> — as a supplement to sealing</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="doktor doom residual insecticide spray" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="doktor doom residual insecticide spray" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Peppermint oil</td>
@@ -272,7 +273,6 @@ export default function HowToKeepSpidersOutPage() {
             </table>
           </div>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current availability of the three tools that do the heavy lifting:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="spider insect glue traps">Spider glue traps →</BuyLink>

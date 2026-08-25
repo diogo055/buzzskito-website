@@ -210,7 +210,7 @@ export default function WhatDoesATickBiteLookLikePage() {
         <h2>Tick bite vs mosquito, flea, and spider bites</h2>
         <p>Because the first red bump can look similar, the differences in <em>sensation</em>, <em>pattern</em>, and <em>what happens next</em> matter most. Here is how a tick bite compares to the other common Ontario culprits:</p>
         <div className="overflow-x-auto not-prose my-6">
-          <table className="w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden">
+          <table className="min-w-[560px] w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden">
             <thead className="bg-brand-50">
               <tr>
                 <th className="px-3 py-2 text-left">Feature</th>

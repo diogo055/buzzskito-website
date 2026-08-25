@@ -100,6 +100,7 @@ export default function FieldKingBackpackSprayerReviewCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Field King 190515 battery backpack sprayer" search="field king 190515 battery backpack sprayer" label="Best overall" />
 
       <section className="bg-white px-4">
@@ -143,7 +144,7 @@ export default function FieldKingBackpackSprayerReviewCanadaPage() {
             The Field King battery model is the pick for most regular sprayers, but it is not the only sensible choice. Here is the honest breakdown against its own manual sibling and the tiers above and below it, with a live Amazon.ca availability check per option.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Sprayer</th>
@@ -159,28 +160,28 @@ export default function FieldKingBackpackSprayerReviewCanadaPage() {
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best</strong> &mdash; lithium pump, constant ~40 psi</td>
                   <td className="px-4 py-3 text-gray-700">Frequent use, larger lots, long sessions</td>
                   <td className="px-4 py-3 text-gray-700">Battery to charge; higher price</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="field king 190515 battery backpack sprayer" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="field king 190515 battery backpack sprayer" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Field King 190328<br /><span className="font-normal text-xs text-gray-500">manual pump, 4 gal</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Good</strong> &mdash; hand-pump, same rebuildable pump</td>
                   <td className="px-4 py-3 text-gray-700">Light, occasional spraying; lowest cost</td>
                   <td className="px-4 py-3 text-gray-700">Constant pumping; pressure fades</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="field king 190328 backpack sprayer" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="field king 190328 backpack sprayer" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Budget battery backpack<br /><span className="font-normal text-xs text-gray-500">value brand</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Fair</strong> &mdash; battery, but sealed pump</td>
                   <td className="px-4 py-3 text-gray-700">Occasional user who wants no pumping cheaply</td>
                   <td className="px-4 py-3 text-gray-700">Often not rebuildable; weaker seals</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="battery backpack sprayer" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="battery backpack sprayer" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Pro import backpack<br /><span className="font-normal text-xs text-gray-500">contractor grade</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best+</strong> &mdash; heavy-duty, high pressure</td>
                   <td className="px-4 py-3 text-gray-700">Daily commercial spraying, big acreage</td>
                   <td className="px-4 py-3 text-gray-700">Premium price; overkill for a homeowner</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="professional backpack sprayer" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="professional backpack sprayer" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -204,7 +205,6 @@ export default function FieldKingBackpackSprayerReviewCanadaPage() {
           <p>Backpack spraying has one universally hated moment: about ninety seconds into a job, the pressure you built with the pump lever starts to sag, the spray pattern collapses into a dribble, and you have to stop, pump the lever a dozen times, and start again &mdash; over and over, tank after tank, until your forearm is done. The Field King 190515 exists to delete that moment entirely. Instead of a hand lever, a rechargeable lithium battery drives an internal diaphragm pump that senses the trigger and holds a steady pressure &mdash; around 40 psi &mdash; from the first squeeze to the last drop in the tank. You walk, you spray, and that is the whole interaction. No pumping, no pressure sag, no forearm burn.</p>
           <p>That sounds like a comfort feature, and it is, but it is also a <em>quality</em> feature. A manual sprayer&rsquo;s output rises and falls with each pump cycle, which means your application rate is uneven &mdash; heavier right after you pump, lighter just before. Constant pressure gives you a constant flow and a constant droplet size, so the product lands evenly across the whole area you are treating. For anything where dose consistency matters &mdash; herbicides, insecticides, fungicides &mdash; even coverage is not a luxury; it is the difference between a treatment that works uniformly and one with missed strips and over-dosed patches.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the Field King and its manual sibling:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="field king 190515 battery backpack sprayer">Battery 190515 →</BuyLink>

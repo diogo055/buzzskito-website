@@ -100,6 +100,7 @@ export default function BestCommercialFlyLightTrapCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Vector encapsulation insect light trap" search="vector insect light trap glue board" label="Best overall" />
 
       <section className="bg-white px-4">
@@ -181,7 +182,7 @@ export default function BestCommercialFlyLightTrapCanadaPage() {
             &ldquo;Commercial fly trap&rdquo; covers several very different machines, and only some belong in a food area. Here is the honest breakdown, with a live Amazon.ca availability check per type.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Trap type</th>
@@ -197,28 +198,28 @@ export default function BestCommercialFlyLightTrapCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">UV lures flies onto a hidden replaceable adhesive board</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best</strong> &mdash; insects held intact, no scatter</td>
                   <td className="px-4 py-3 text-gray-700">Kitchens, prep, food storage, HACCP sites</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="awoco fly trap commercial stainless" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="awoco fly trap commercial stainless" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Multi-lamp ILT<br /><span className="font-normal text-xs text-gray-500">high-output</span></td>
                   <td className="px-4 py-3 text-gray-700">Multiple UV lamps + large glue board for open rooms</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Good</strong> &mdash; food-safe if glue-board type</td>
                   <td className="px-4 py-3 text-gray-700">Warehouses, food plants, big back-of-house</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="commercial insect light trap 2x15w glue board" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="commercial insect light trap 2x15w glue board" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Decorative sconce ILT<br /><span className="font-normal text-xs text-gray-500">front-of-house</span></td>
                   <td className="px-4 py-3 text-gray-700">Glue board hidden inside a wall-light-style shell</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Good</strong> &mdash; discreet, food-safe capture</td>
                   <td className="px-4 py-3 text-gray-700">Dining rooms, retail, cafe fronts</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="decorative fly light trap sconce glue board" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="decorative fly light trap sconce glue board" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Electric zapper<br /><span className="font-normal text-xs text-gray-500">grid kill</span></td>
                   <td className="px-4 py-3 text-gray-700">UV lures flies onto a high-voltage electrocution grid</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-red-700">Avoid</strong> &mdash; scatters fragments, not food-safe</td>
                   <td className="px-4 py-3 text-gray-700">Docks, warehouses, non-food back areas only</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="commercial bug zapper indoor" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="commercial bug zapper indoor" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -242,7 +243,6 @@ export default function BestCommercialFlyLightTrapCanadaPage() {
           <p>The best commercial fly light trap for a Canadian kitchen, food plant, or back-of-house is a wall-mounted <strong>glue-board UV insect light trap</strong> (often abbreviated ILT, and sometimes called an &ldquo;encapsulation&rdquo; trap) fitted with a shatterproof-coated lamp. Everything worth knowing about buying one flows from a single design decision: how the trap deals with the fly once the light has lured it in. A glue-board unit holds the fly intact on a replaceable adhesive card hidden inside the housing; an electric zapper explodes it on a grid. That one difference determines whether a trap belongs in a food area at all, and it is the reason nearly every commercial food operator and every food-safety auditor in the country specifies glue-board over zapper.</p>
           <p>Among glue-board units, two brand names come up more than any other in Canadian commercial buying: <strong>Awoco</strong> and <strong>Vector</strong>. They are not really rivals so much as answers to two different questions. Awoco answers &ldquo;I run an independent kitchen and want a discreet stainless unit that works, for a fair price.&rdquo; Vector &mdash; a Rentokil professional brand &mdash; answers &ldquo;I am HACCP- or third-party-audited and need a trap an inspector already recognizes, with the documentation trail to match.&rdquo; Both appear in our picks above, alongside a high-output unit for large rooms and a decorative unit for customer-facing spaces, because the right trap depends entirely on the room and the audit.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the main commercial trap types:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="awoco fly trap commercial stainless">Awoco glue-board trap →</BuyLink>

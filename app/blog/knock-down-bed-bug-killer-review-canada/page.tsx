@@ -100,6 +100,7 @@ export default function KnockDownBedBugKillerReviewCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Knock Down Bed Bug Killer" search="knock down bed bug killer spray canada" label="The value pick" />
 
       <section className="bg-white px-4">
@@ -152,7 +153,7 @@ export default function KnockDownBedBugKillerReviewCanadaPage() {
             A contact spray is one tool, not the toolbox. Here is how Knock Down lines up against the other layers of a real bed bug plan, with a live Amazon.ca availability check per option. Notice the pattern: nothing on this list is a complete answer by itself.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Weapon</th>
@@ -168,28 +169,28 @@ export default function KnockDownBedBugKillerReviewCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Fast knockdown on direct contact; short residual film</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">No</strong> &mdash; adults &amp; nymphs only</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Registered</strong> &mdash; PMRA / PCP #</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="knock down bed bug killer spray canada" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="knock down bed bug killer spray canada" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Doktor Doom Sleep Tight<br /><span className="font-normal text-xs text-gray-500">mattress-labelled spray</span></td>
                   <td className="px-4 py-3 text-gray-700">Fast contact knockdown; mattress-and-frame directions</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">No</strong></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Registered</strong> &mdash; PMRA / PCP #</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="doktor doom sleep tight bed bug" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="doktor doom sleep tight bed bug" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Silica desiccant dust<br /><span className="font-normal text-xs text-gray-500">CimeXa-type</span></td>
                   <td className="px-4 py-3 text-gray-700">Dries the insect out over hours; lasts months in dry voids</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">No</strong> &mdash; but catches every hatchling</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Registered</strong> options exist</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="cimexa insecticide dust bed bugs" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="cimexa insecticide dust bed bugs" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Steam / heat<br /><span className="font-normal text-xs text-gray-500">steamer or room heater</span></td>
                   <td className="px-4 py-3 text-gray-700">Lethal temperature penetrates fabric &mdash; kills all stages</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Yes</strong> &mdash; the egg-killer</td>
                   <td className="px-4 py-3 text-gray-700">Device &mdash; no registration needed</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bed bug steamer" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bed bug steamer" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">US-only grey-market spray<br /><span className="font-normal text-xs text-gray-500">cross-border listing</span></td>
@@ -220,7 +221,6 @@ export default function KnockDownBedBugKillerReviewCanadaPage() {
           <p>Knock Down is one of those insecticide names Canadians recognise from the shelf at the hardware store &mdash; a water-based, general-purpose crawling-insect and bed bug killer sold in a spray format meant for seams, frames, cracks, and baseboards. On paper that describes a great many bed bug sprays. What separates this one, for a Canadian buyer, is not a proprietary active ingredient; it is a registration number. Knock Down&rsquo;s consumer bed bug products carry a <strong>Health Canada Pest Control Product (PCP) registration</strong>, which means the formula and its label were reviewed for sale and use in this country. That sounds like a bureaucratic footnote. In practice it is one of the two best reasons to reach for it.</p>
           <p>Here is why. Many of the bed bug sprays you will read about in online guides &mdash; including some of the most-recommended American brand names &mdash; are registered for the United States only. Buying one through a cross-border or grey-market listing means using an <em>unregistered pesticide</em> in Canada, which is not legal, and it means you have no assurance that what is in the can, at what strength, and with what safety directions, matches anything reviewed for Canadian use. Knock Down sidesteps all of that: it is sold here, registered here, and labelled here. When people ask us for &ldquo;a cheap bed bug spray that works,&rdquo; the honest Canadian-specific answer starts with &ldquo;the one you are actually allowed to use&rdquo; &mdash; and Knock Down is usually the most affordable, easiest-to-find name on that short list.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of Knock Down and the layers you build around it:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="knock down bed bug killer spray canada">Knock Down Bed Bug Killer →</BuyLink>

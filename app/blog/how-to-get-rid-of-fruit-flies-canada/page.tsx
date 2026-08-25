@@ -100,6 +100,7 @@ export default function HowToGetRidOfFruitFliesCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="TERRO T2502 Fruit Fly Trap (2-pack)" search="terro fruit fly trap" label="Best ready-made trap" />
 
       <section className="bg-white px-4">
@@ -144,7 +145,7 @@ export default function HowToGetRidOfFruitFliesCanadaPage() {
             No single product ends a fruit fly infestation, because every product on this list targets only one life stage. The winning combination is always sanitation (removes eggs and larvae) plus a trap (removes adults) plus drain treatment when the sink is involved.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Method</th>
@@ -167,7 +168,7 @@ export default function HowToGetRidOfFruitFliesCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Adults</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best adult catcher</strong></td>
                   <td className="px-4 py-3 text-xs text-gray-600">Mops up the flying population while the source dries out</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="terro fruit fly trap" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="terro fruit fly trap" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">DIY vinegar jar<br /><span className="font-normal text-xs text-gray-500">ACV + dish soap</span></td>
@@ -181,14 +182,14 @@ export default function HowToGetRidOfFruitFliesCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Larvae + breeding film in pipes</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Essential if drains are the source</strong></td>
                   <td className="px-4 py-3 text-xs text-gray-600">3–5 consecutive nights after a physical scrub</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="green gobbler fruit fly goodbye drain gel" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="green gobbler fruit fly goodbye drain gel" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">UV + fan trap<br /><span className="font-normal text-xs text-gray-500">Katchy</span></td>
                   <td className="px-4 py-3 text-gray-700">Adults (evening/overnight)</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Helpful extra</strong> — better for gnats</td>
                   <td className="px-4 py-3 text-xs text-gray-600">Overnight catch in a dark kitchen; not fruit-fly-specific</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="katchy indoor insect trap" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="katchy indoor insect trap" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 font-bold text-brand-800">Foggers / fly sprays<br /><span className="font-normal text-xs text-gray-500">aerosol insecticides</span></td>
@@ -209,7 +210,7 @@ export default function HowToGetRidOfFruitFliesCanadaPage() {
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">Fruit Flies in Canada — Key Facts</h2>
-          <div className="rounded-xl border border-navy-100 overflow-hidden">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto">
             <table className="w-full text-sm">
               <tbody>
                 {[
@@ -258,7 +259,6 @@ export default function HowToGetRidOfFruitFliesCanadaPage() {
           <p><strong>The overnight jar test:</strong> if you cannot find the source, make it tell you where it is. Set small jars of apple cider vinegar covered in plastic wrap with pin holes in several rooms — kitchen counter, near the sink, by the recycling, near the houseplants. The jar with the most flies in the morning marks the zone; search within a few metres of it. (Lots of catch near houseplants but tan flies without red eyes? You likely have fungus gnats instead — different insect, different fix, covered below.)</p>
           <p>Once found, the fix is unglamorous: throw out or refrigerate the produce, rinse the recycling, wash the bins with hot soapy water, and dry the wet spots. Every subsequent product exists only to clean up the survivors of this step.</p>
 
-          <AffiliateDisclosure />
 
           <h2>Step 2: Trap the Adults — TERRO vs the Vinegar Jar</h2>
           <p>With the source gone, the remaining adults are a dying population — but they can live another two weeks and will spend that time hunting for a new egg-laying site. Trapping shortens the tail dramatically.</p>

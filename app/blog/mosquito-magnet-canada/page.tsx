@@ -3,8 +3,9 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
+import AmazonLink from '@/components/AmazonLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
-import TopPick from '@/components/TopPick'
+import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
@@ -90,13 +91,14 @@ export default function MosquitoMagnetCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Mosquito Magnet Patriot Plus (propane CO₂ trap)" search="mosquito magnet patriot plus" label="Best overall trap" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Mosquito Magnets do work — and for most buyers the Mosquito Magnet Patriot Plus is the model to get, because it treats up to 1 acre at $399–$549 while the pricier Executive only pays off on cottages and rural acreage. For typical GTA suburban backyards, professional barrier spray from $99 per treatment delivers faster, cheaper results; the Magnet earns its cost on 1+ acre rural and cottage properties.</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Mosquito Magnets do work — and for most buyers the <AmazonLink search="mosquito magnet patriot plus" tag={AMZ_TAG} className="font-bold underline decoration-emerald-500 underline-offset-2 hover:text-emerald-900">Mosquito Magnet Patriot Plus</AmazonLink> is the model to get, because it treats up to 1 acre at $399–$549 while the pricier Executive only pays off on cottages and rural acreage. For typical GTA suburban backyards, professional barrier spray from $99 per treatment delivers faster, cheaper results; the Magnet earns its cost on 1+ acre rural and cottage properties.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
               <li>The Mosquito Magnet Patriot Plus costs $399–$549 in Canada; the top-tier Executive runs $899–$1,299.</li>
               <li>CDC-cited research shows Mosquito Magnets reduce mosquito populations 70–90% within a 1-acre radius after 6–8 weeks of continuous operation.</li>
@@ -106,6 +108,9 @@ export default function MosquitoMagnetCanadaPage() {
               <li>Professional barrier spray from $99 per treatment protects a yard the same day with 21–30 days of residual.</li>
             </ul>
             <p className="mt-3 text-xs text-gray-500">— BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
+            <div className="mt-4">
+              <BuyLink search="mosquito magnet patriot plus" tag={AMZ_TAG} block className="sm:w-auto sm:min-h-0 sm:inline-flex sm:rounded-full sm:px-4 sm:py-2">Check price on Amazon.ca →</BuyLink>
+            </div>
           </div>
         </div>
       </section>
@@ -117,8 +122,8 @@ export default function MosquitoMagnetCanadaPage() {
           <p className="text-sm text-gray-700 mb-5 leading-relaxed">
             Mosquito Magnet is a premium-priced product. Costco Canada usually has the best pricing on the Patriot model when stocked. Cabela&rsquo;s and Lee Valley carry the full lineup year-round.
           </p>
-          <div className="rounded-xl border border-navy-100 overflow-hidden bg-white shadow-sm">
-            <table className="w-full text-sm">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto bg-white shadow-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Retailer</th>
@@ -149,7 +154,7 @@ export default function MosquitoMagnetCanadaPage() {
             Prices accurate as of May 2026. Annual operating cost (propane + attractant cartridges) adds $400–$600/season. Total year-one investment: $850–$1,100 for Patriot Plus, $1,300–$1,900 for Executive.
           </p>
           <p className="mt-4 text-sm text-gray-700">
-            Amazon.ca carries the full Mosquito Magnet lineup with Prime shipping. <BuyLink tag={AMZ_TAG} search="mosquito magnet trap" className="!px-3 !py-1.5 !text-xs">Check price</BuyLink>
+            Amazon.ca carries the full Mosquito Magnet lineup with Prime shipping. <BuyLink tag={AMZ_TAG} search="mosquito magnet trap" className="!px-3 !py-1.5 !text-xs">Check price on Amazon.ca</BuyLink>
           </p>
           <div className="mt-5 rounded-xl bg-amber-50 border-l-4 border-amber-400 p-4">
             <p className="text-sm text-gray-800 leading-relaxed">
@@ -159,16 +164,44 @@ export default function MosquitoMagnetCanadaPage() {
         </div>
       </section>
 
-      <section className="bg-white px-4">
-        <div className="max-w-4xl mx-auto">
-          <TopPick tag={AMZ_TAG}
-            label="Our Mosquito Magnet Pick"
-            name="Mosquito Magnet Patriot Plus"
-            blurb="Treats up to 1 acre and is sufficient for most GTA suburban backyards — the pricier Executive only earns its upgrade on cottages and rural acreage where multi-season durability pays off."
-            search="mosquito magnet patriot plus"
-            score={8.6}
-            pros={['Generates real CO₂ that draws egg-laying females', 'Covers up to ~1 acre', 'Entry-level price in the Mosquito Magnet lineup']}
-            cons={['Takes 4–8 weeks to reduce populations', 'Ongoing propane + attractant cost', 'No effect on ticks']}
+      <section className="bg-white px-4 py-6">
+        <div className="max-w-5xl mx-auto">
+          <AwardRow tag={AMZ_TAG}
+            heading="Our Picks — Mosquito Magnet in Canada"
+            awards={[
+              {
+                badge: 'Best Overall',
+                name: 'Mosquito Magnet Patriot Plus',
+                why: 'Treats up to 1 acre and is sufficient for most GTA suburban backyards — the same propane CO₂ engine as the models costing twice as much, at the entry price in the lineup.',
+                search: 'mosquito magnet patriot plus',
+                score: 8.6,
+                featured: true,
+                pros: ['Generates real CO₂ that draws egg-laying females', 'Covers up to ~1 acre at the lowest price in the lineup'],
+                cons: ['Skip it on lots under 0.25 acres — the capture radius mostly sits outside your property, and barrier spray protects a small yard faster'],
+              },
+              {
+                badge: 'Best for Cottages & Acreage',
+                name: 'Mosquito Magnet Executive',
+                why: 'The top consumer model — improved attractant delivery, longer cartridge life, and tougher construction built for multi-season cottage and rural duty.',
+                search: 'mosquito magnet executive',
+                score: 8.3,
+                pros: ['Built to survive multi-season cottage use', 'Longer cartridge life means fewer mid-season maintenance trips'],
+                cons: ['Overkill on a typical suburban lot — the Patriot Plus covers the same acre for roughly half the price'],
+              },
+              {
+                badge: 'Season Essential',
+                name: 'Octenol Attractant Refills',
+                why: 'Each cartridge lasts about 21 days, so a full May–September season burns through 6–7 — and Canadian stock thins out by mid-July.',
+                search: 'mosquito magnet octenol attractant',
+                pros: ['Keeps capture rates up on the trap you already own', 'Spring multi-packs dodge the July supply squeeze'],
+                cons: ['Only worth buying if you run a Magnet — it’s a lure cartridge, not a trap'],
+              },
+            ]}
+            whichToBuy={
+              <>
+                <strong>Typical suburban backyard, committed to 24/7 operation?</strong> The <em>Best Overall</em> Patriot Plus is all the trap most properties can use. <strong>Cottage, rural acreage, or chronic pressure near wetlands?</strong> The <em>Executive</em> earns its premium in durability and longer cartridge life. <strong>Already running a Magnet?</strong> Buy <em>attractant refills</em> in spring, before mid-July thins the shelves. And remember what no trap on this page does: protect tonight&rsquo;s BBQ or touch ticks &mdash; every Magnet needs 4&ndash;8 weeks to work, while <Link href="/mosquito-control">professional barrier spray</Link> covers mosquitoes and ticks the same day.
+              </>
+            }
           />
         </div>
       </section>
@@ -176,7 +209,7 @@ export default function MosquitoMagnetCanadaPage() {
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">Mosquito Magnet Key Facts</h2>
-          <div className="rounded-xl border border-navy-100 overflow-hidden">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto">
             <table className="w-full text-sm">
               <tbody>
                 {[
@@ -207,7 +240,6 @@ export default function MosquitoMagnetCanadaPage() {
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Compare current Canadian prices and models (Patriot Plus, Independence, Executive):</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="mosquito magnet trap">Check Mosquito Magnet price on Amazon.ca →</BuyLink>
@@ -259,17 +291,19 @@ export default function MosquitoMagnetCanadaPage() {
           </aside>
 
           <h2>Mosquito Magnet vs Other Solutions for GTA Properties</h2>
-          <table className="not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
-            <thead className="bg-brand-50">
-              <tr><th className="px-3 py-2 text-left">Solution</th><th className="px-3 py-2 text-left">First-year cost</th><th className="px-3 py-2 text-left">Time to results</th><th className="px-3 py-2 text-left">Tick coverage</th></tr>
-            </thead>
-            <tbody>
-              <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Mosquito Magnet Patriot</strong></td><td className="px-3 py-2">$850–$1,100</td><td className="px-3 py-2">4–8 weeks</td><td className="px-3 py-2">None</td></tr>
-              <tr className="border-t border-navy-50"><td className="px-3 py-2"><Link href="/blog/thermacell-canada-where-to-buy">Thermacell</Link></td><td className="px-3 py-2">$80–$150</td><td className="px-3 py-2">Immediate (4.5m only)</td><td className="px-3 py-2">None</td></tr>
-              <tr className="border-t border-navy-50"><td className="px-3 py-2"><Link href="/blog/mosquito-dunks-canada-guide">BTI dunks/bits</Link></td><td className="px-3 py-2">$30/season</td><td className="px-3 py-2">24 hours (water only)</td><td className="px-3 py-2">None</td></tr>
-              <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Professional barrier spray</strong></td><td className="px-3 py-2">$549–$994/season</td><td className="px-3 py-2">Same day · 21–30 days</td><td className="px-3 py-2">Yes — full coverage</td></tr>
-            </tbody>
-          </table>
+          <div className="not-prose overflow-x-auto my-4">
+            <table className="min-w-[560px] w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden">
+              <thead className="bg-brand-50">
+                <tr><th className="px-3 py-2 text-left">Solution</th><th className="px-3 py-2 text-left">First-year cost</th><th className="px-3 py-2 text-left">Time to results</th><th className="px-3 py-2 text-left">Tick coverage</th></tr>
+              </thead>
+              <tbody>
+                <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Mosquito Magnet Patriot</strong></td><td className="px-3 py-2">$850–$1,100</td><td className="px-3 py-2">4–8 weeks</td><td className="px-3 py-2">None</td></tr>
+                <tr className="border-t border-navy-50"><td className="px-3 py-2"><Link href="/blog/thermacell-canada-where-to-buy">Thermacell</Link></td><td className="px-3 py-2">$80–$150</td><td className="px-3 py-2">Immediate (4.5m only)</td><td className="px-3 py-2">None</td></tr>
+                <tr className="border-t border-navy-50"><td className="px-3 py-2"><Link href="/blog/mosquito-dunks-canada-guide">BTI dunks/bits</Link></td><td className="px-3 py-2">$30/season</td><td className="px-3 py-2">24 hours (water only)</td><td className="px-3 py-2">None</td></tr>
+                <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Professional barrier spray</strong></td><td className="px-3 py-2">$549–$994/season</td><td className="px-3 py-2">Same day · 21–30 days</td><td className="px-3 py-2">Yes — full coverage</td></tr>
+              </tbody>
+            </table>
+          </div>
 
           <h2>The Smart Stack for GTA Backyards</h2>
           <p>For typical GTA suburban properties (5,000–15,000 sq ft), the most effective mosquito + tick strategy is:</p>

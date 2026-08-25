@@ -105,6 +105,7 @@ export default function BabyBedBugsNymphsCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Bed bug interceptor cups (under each bed leg)" search="bed bug interceptor traps" label="Confirm it overnight" />
 
       <section className="bg-white px-4">
@@ -144,7 +145,7 @@ export default function BabyBedBugsNymphsCanadaPage() {
             A bed bug does not grow gradually. It grows in five steps, and each step is gated by a blood meal &mdash; feed, moult, repeat. The practical value of knowing the stages is that the size of what you found tells you roughly how long it has been eating in your home.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Stage</th>
@@ -277,7 +278,7 @@ export default function BabyBedBugsNymphsCanadaPage() {
             Most &ldquo;baby bed bug&rdquo; photographs sent to entomology extension services turn out to be something else, and the alternatives matter because three of them need no treatment at all. Work down the outline first &mdash; flat oval versus bristly versus striped decides it faster than colour does.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">What it is</th>
@@ -337,7 +338,7 @@ export default function BabyBedBugsNymphsCanadaPage() {
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">Baby Bed Bugs &mdash; Quick Reference</h2>
-          <div className="rounded-xl border border-navy-100 overflow-hidden">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto">
             <table className="w-full text-sm">
               <tbody>
                 {[
@@ -378,7 +379,6 @@ export default function BabyBedBugsNymphsCanadaPage() {
           <p>A bed bug that rides home in a suitcase, a returned library book, or a second-hand nightstand arrives as whatever stage it was when it climbed aboard. If what you are finding is a millimetre-long translucent insect on your box spring, the arithmetic runs backwards from there: something laid an egg, the egg was cemented into a seam or a crack in your home, and it hatched. That is a reproducing population living on your bed, not a single stray insect from a hotel.</p>
           <p>It reorganises the response. A suspected introduction &mdash; one adult, found on a bag, no other evidence &mdash; can sometimes be handled by treating the item and monitoring. A confirmed nymph means you are treating the bed, the frame, the harbourage around it and the room, on a repeating schedule, and you should plan for eggs you will never see. It also means time has passed. Nobody finds the first nymph on day one.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the two items worth buying first:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="bed bug interceptor traps">Interceptor cups &rarr;</BuyLink>

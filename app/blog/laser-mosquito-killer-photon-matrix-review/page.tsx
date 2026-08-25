@@ -3,7 +3,8 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
-import TopPick from '@/components/TopPick'
+import AwardRow from '@/components/AwardRow'
+import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
@@ -97,6 +98,9 @@ export default function LaserMosquitoKillerPhotonMatrixPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
+      <StickyBuyBar tag={AMZ_TAG} name="Mosquito Magnet Propane CO₂ Trap" search="mosquito magnet trap" label="Proven pick instead" />
+
       <section className="bg-gradient-to-br from-emerald-50 to-white border-b border-emerald-200 py-10 px-4">
         <div className="max-w-4xl mx-auto">
           <p className="text-xs font-extrabold text-emerald-700 uppercase tracking-wider mb-2">Reality Check · Updated July 2026</p>
@@ -104,9 +108,9 @@ export default function LaserMosquitoKillerPhotonMatrixPage() {
           <p className="text-sm text-gray-700 mb-5 leading-relaxed">
             The laser mosquito killer is a real research concept wrapped in a lot of crowdfunding marketing. Here is the honest status of each part of the pitch &mdash; and, in the last column, what actually works today with a live Canadian price check.
           </p>
-          <div className="rounded-xl border border-navy-100 overflow-hidden bg-white shadow-sm">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto bg-white shadow-sm">
             <div className="overflow-x-auto">
-              <table className="w-full text-sm">
+              <table className="min-w-[560px] w-full text-sm">
                 <thead className="bg-brand-800 text-white">
                   <tr>
                     <th className="px-4 py-3 text-left">Option</th>
@@ -126,19 +130,19 @@ export default function LaserMosquitoKillerPhotonMatrixPage() {
                     <td className="px-4 py-3 font-bold text-brand-800">Propane CO₂ trap (Mosquito Magnet)</td>
                     <td className="px-4 py-3 text-gray-700">Proven · in stock</td>
                     <td className="px-4 py-3 font-mono text-gray-800">$400 – $1,300</td>
-                    <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="mosquito magnet trap" block>Check price →</BuyLink></td>
+                    <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="mosquito magnet trap" block>Check price on Amazon.ca →</BuyLink></td>
                   </tr>
                   <tr className="border-b border-navy-50">
                     <td className="px-4 py-3 font-bold text-brand-800">Thermacell patio repellent</td>
                     <td className="px-4 py-3 text-gray-700">Proven · in stock</td>
                     <td className="px-4 py-3 font-mono text-gray-800">$35 – $220</td>
-                    <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="thermacell patio shield" block>Check price →</BuyLink></td>
+                    <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="thermacell patio shield" block>Check price on Amazon.ca →</BuyLink></td>
                   </tr>
                   <tr className="border-b border-navy-50">
                     <td className="px-4 py-3 font-bold text-brand-800">BTI dunks (larvae control)</td>
                     <td className="px-4 py-3 text-gray-700">Proven · in stock</td>
                     <td className="px-4 py-3 font-mono text-gray-800">$15 – $30 / season</td>
-                    <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="mosquito dunks bti" block>Check price →</BuyLink></td>
+                    <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="mosquito dunks bti" block>Check price on Amazon.ca →</BuyLink></td>
                   </tr>
                   <tr>
                     <td className="px-4 py-3 font-bold text-brand-800">Professional barrier spray</td>
@@ -164,7 +168,7 @@ export default function LaserMosquitoKillerPhotonMatrixPage() {
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">Laser Mosquito Killer — Key Facts</h2>
-          <div className="rounded-xl border border-navy-100 overflow-hidden">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto">
             <table className="w-full text-sm">
               <tbody>
                 {[
@@ -195,23 +199,43 @@ export default function LaserMosquitoKillerPhotonMatrixPage() {
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
-          <AffiliateDisclosure />
 
-          <TopPick tag={AMZ_TAG}
-            label="Proven Pick Instead"
-            name="Mosquito Magnet Propane CO₂ Trap"
-            blurb="Skip the crowdfunded laser gamble. If you want a device that measurably thins the mosquito population today, the propane CO₂ trap is the one with real independent testing behind it — it burns propane to make genuine CO₂, heat, and moisture, the exact cues an egg-laying female hunts, then vacuums her in. Best suited to larger and cottage properties, in stock now, no pre-order lottery."
-            search="mosquito magnet trap"
-            score={8.9}
-            pros={['Real independent testing, not demo-video hype', 'Available and shipping in Canada today', 'Targets the egg-laying females that seed the next generation']}
-            cons={['Premium up-front and seasonal running cost', 'Does nothing for ticks — no airborne device does']}
+          <AwardRow tag={AMZ_TAG}
+            heading="Skip the Gamble — The Real Alternatives You Can Buy Today"
+            awards={[
+              {
+                badge: 'Best Real Alternative',
+                name: 'Mosquito Magnet Propane CO₂ Trap',
+                why: 'The device with real independent testing behind it — it burns propane to make genuine CO₂, heat, and moisture, the exact cues an egg-laying female hunts, then vacuums her in. Best suited to larger and cottage properties, in stock now, no pre-order lottery.',
+                search: 'mosquito magnet trap',
+                score: 8.9,
+                featured: true,
+                pros: ['Real independent testing, not demo-video hype', 'Available and shipping in Canada today', 'Targets the egg-laying females that seed the next generation'],
+                cons: ['Premium up-front and seasonal running cost', 'Does nothing for ticks — no airborne device does'],
+              },
+              {
+                badge: 'Best for Sitting Areas',
+                name: 'Thermacell Patio Shield',
+                why: 'Heats a repellent mat to create a roughly 20 sq metre bubble around a deck, dock, or campsite within minutes — the closest thing on this page to the instant relief the laser demos promise, except it ships today.',
+                search: 'thermacell patio shield',
+                score: 8.5,
+                pros: ['Working within minutes — same-evening relief', 'Widely stocked at Canadian Tire, Home Depot, Costco'],
+                cons: ['Covers one seating zone, not the whole yard', 'Ongoing refill mats to budget for'],
+              },
+              {
+                badge: 'Best Budget Buy',
+                name: 'Mosquito Dunks (BTI Larvae Control)',
+                why: 'A few dollars a season to kill larvae in rain barrels, low spots, and clogged gutters before they ever fly — a naturally occurring bacterium harmless to pets, birds, and fish, and quietly one of the highest-value moves you can make.',
+                search: 'mosquito dunks bti',
+                score: 8.3,
+                pros: ['$15–$30 covers a whole season', 'Stops the next generation at the source'],
+                cons: ['Prevention only — no effect on biting adults', 'You have to find every standing-water spot'],
+              },
+            ]}
+            whichToBuy={<>
+              Want the biggest whole-property dent from a device you can order right now? The <strong>Mosquito Magnet</strong> is the proven pick. If your problem is really the patio at dusk, the <strong>Thermacell</strong> gets you there tonight for a fraction of a laser pledge. Only spending a few dollars? Start with <strong>BTI dunks</strong> in any standing water. And if you want the whole yard handled — ticks included, which no airborne device touches — <Link href="/mosquito-control">professional barrier spray</Link> starts from $99 per treatment.
+            </>}
           />
-
-          <p className="not-prose text-sm text-gray-600 mb-1">Skip the crowdfunding gamble &mdash; check current Canadian prices on the traps and repellents that actually work today:</p>
-          <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink tag={AMZ_TAG} search="mosquito magnet trap">Mosquito Magnet on Amazon.ca →</BuyLink>
-            <BuyLink tag={AMZ_TAG} search="thermacell patio shield">Thermacell on Amazon.ca →</BuyLink>
-          </div>
 
           <h2 id="what-it-is">What Is a &ldquo;Laser Mosquito Killer&rdquo;?</h2>
           <p>The phrase covers a class of devices built on one idea engineers call a <strong>&ldquo;photonic fence.&rdquo;</strong> A sensor &mdash; a camera, or in newer designs a <strong>lidar</strong> (laser-ranging) unit &mdash; watches a slice of air. When something the size and wingbeat of a mosquito flies through, software identifies it, works out its position in a fraction of a second, and fires a small laser to kill or disable it. The most talked-about consumer version is the <strong>Photon Matrix</strong>, which pairs a lidar sensor with a targeting laser and, in its marketing, promises to knock mosquitoes out of the air within a few metres while sparing pets, hands, and faces.</p>
@@ -269,7 +293,8 @@ export default function LaserMosquitoKillerPhotonMatrixPage() {
           <p>The most complete option is a licensed technician treating the shady, leafy vegetation where mosquitoes rest during the day. You get <strong>same-day relief and 21&ndash;30 days of residual coverage across the whole yard</strong> &mdash; and unlike any trap or laser, barrier treatment also knocks down <Link href="/mosquito-control">ticks</Link>, which no airborne device touches. For a typical GTA lot, this is the single most effective line item, starting from $99 per treatment.</p>
 
           <h2>Laser Mosquito Killer vs. Proven Solutions</h2>
-          <table className="not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
+          <div className="not-prose overflow-x-auto rounded-lg border border-navy-100 my-4">
+          <table className="min-w-[560px] w-full text-sm border-collapse">
             <thead className="bg-brand-50">
               <tr><th className="px-3 py-2 text-left">Solution</th><th className="px-3 py-2 text-left">Available now?</th><th className="px-3 py-2 text-left">Mosquito reduction</th><th className="px-3 py-2 text-left">Tick coverage</th></tr>
             </thead>
@@ -280,6 +305,7 @@ export default function LaserMosquitoKillerPhotonMatrixPage() {
               <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Professional barrier spray</strong></td><td className="px-3 py-2">Yes</td><td className="px-3 py-2">Whole yard 21–30 days</td><td className="px-3 py-2">Yes — full coverage</td></tr>
             </tbody>
           </table>
+          </div>
 
           <h2>The Honest Verdict</h2>
           <p>The laser mosquito killer is one of the more exciting ideas in pest control, and the photonic-fence research behind it is genuinely real. But excitement is not the same as availability. As of 2026, the Photon Matrix and its cousins are crowdfunded pre-orders without independent testing or recognized eye-safety certification, priced above a full season of professional service, covering only a few metres, and doing nothing for ticks. Watch the category with interest &mdash; do not rely on it to keep the bites off you this July.</p>

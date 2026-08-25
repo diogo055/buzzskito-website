@@ -90,6 +90,7 @@ export default function MistingFanCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Portable oscillating outdoor misting fan" search="portable oscillating misting fan outdoor" label="Best patio pick" />
 
       <section className="bg-white px-4 pt-8">
@@ -113,7 +114,7 @@ export default function MistingFanCanadaPage() {
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">Outdoor Misting Fan Options in Canada — At a Glance</h2>
-          <div className="rounded-xl border border-navy-100 overflow-hidden bg-white shadow-sm overflow-x-auto">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto bg-white shadow-sm overflow-x-auto">
             <table className="w-full text-sm min-w-[680px]">
               <thead className="bg-brand-800 text-white">
                 <tr>
@@ -221,7 +222,6 @@ export default function MistingFanCanadaPage() {
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Compare current Canadian listings, tank sizes, and nozzle materials on Amazon.ca:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="portable oscillating misting fan outdoor">Check price on Amazon.ca</BuyLink>
@@ -255,7 +255,7 @@ export default function MistingFanCanadaPage() {
 
           <h2>Fan vs zapper vs barrier spray for patio comfort</h2>
           <p>These three tools get lumped together but they do genuinely different jobs. Here is how they compare for a typical GTA backyard &mdash; note there is no single winner, because they are not really substitutes for one another.</p>
-          <table className="not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
+          <table className="min-w-[560px] not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
             <thead className="bg-brand-50">
               <tr>
                 <th className="px-3 py-2 text-left">Solution</th>

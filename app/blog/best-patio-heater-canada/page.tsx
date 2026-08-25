@@ -83,6 +83,7 @@ export default function BestPatioHeaterCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="48,000 BTU Propane Tower Patio Heater" search="propane patio heater 48000 btu tower" label="Best overall" />
 
       <section className="bg-white px-4">
@@ -205,7 +206,7 @@ export default function BestPatioHeaterCanadaPage() {
                     <td className="px-4 py-3 text-gray-700">{zone}</td>
                     <td className="px-4 py-3 text-xs text-gray-600">{cost}</td>
                     <td className="px-4 py-3 text-xs text-gray-600">{best}</td>
-                    <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search={search} block>Check price &rarr;</BuyLink></td>
+                    <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search={search} block>Check price on Amazon.ca &rarr;</BuyLink></td>
                   </tr>
                 ))}
               </tbody>
@@ -220,7 +221,6 @@ export default function BestPatioHeaterCanadaPage() {
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Jump to current Canadian availability &mdash; the open-yard pick and the covered-porch pick:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="propane patio heater 48000 btu tower">Check propane towers on Amazon.ca &rarr;</BuyLink>

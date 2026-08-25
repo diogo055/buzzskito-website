@@ -83,6 +83,7 @@ export default function TickRepellentForDogsPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="K9 Advantix II (topical tick repellent for dogs)" search="K9 Advantix II for dogs" label="Best OTC tick repellent" />
 
       {/* Quick Answer — AI-extraction capsule */}
@@ -111,7 +112,6 @@ export default function TickRepellentForDogsPage() {
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">Dog Tick Preventatives Compared</h2>
-          <AffiliateDisclosure />
           <div className="rounded-xl border border-gray-200 overflow-x-auto">
             <table className="w-full text-sm min-w-[720px]">
               <thead className="bg-brand-50">
@@ -148,7 +148,7 @@ export default function TickRepellentForDogsPage() {
                     mode: 'Repels + kills on contact',
                     speed: 'Contact',
                     lasts: '1 month',
-                    where: <BuyLink tag={AMZ_TAG} search="K9 Advantix II for dogs" block>Check price →</BuyLink>,
+                    where: <BuyLink tag={AMZ_TAG} search="K9 Advantix II for dogs" block>Check price on Amazon.ca →</BuyLink>,
                   },
                   {
                     type: 'Topical, kill-only',
@@ -156,7 +156,7 @@ export default function TickRepellentForDogsPage() {
                     mode: 'Kills after contact',
                     speed: '24–48 hrs',
                     lasts: '1 month',
-                    where: <BuyLink tag={AMZ_TAG} search="Frontline Plus for dogs" block>Check price →</BuyLink>,
+                    where: <BuyLink tag={AMZ_TAG} search="Frontline Plus for dogs" block>Check price on Amazon.ca →</BuyLink>,
                   },
                   {
                     type: 'Tick collar',
@@ -164,7 +164,7 @@ export default function TickRepellentForDogsPage() {
                     mode: 'Repels + kills',
                     speed: 'Contact',
                     lasts: 'Up to 8 months',
-                    where: <BuyLink tag={AMZ_TAG} search="Seresto tick collar for dogs" block>Check price →</BuyLink>,
+                    where: <BuyLink tag={AMZ_TAG} search="Seresto tick collar for dogs" block>Check price on Amazon.ca →</BuyLink>,
                   },
                   {
                     type: 'Removal tool',

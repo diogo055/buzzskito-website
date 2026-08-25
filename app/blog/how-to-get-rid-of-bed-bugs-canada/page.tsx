@@ -100,6 +100,7 @@ export default function HowToGetRidOfBedBugsCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Bed-bug mattress encasement + interceptor traps" search="bed bug mattress encasement" label="Start here" />
 
       <section className="bg-white px-4">
@@ -181,7 +182,7 @@ export default function HowToGetRidOfBedBugsCanadaPage() {
             Every successful bed-bug elimination follows the same arc. Here is the whole plan in one table, with a live Amazon.ca availability check on the tool each step depends on.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Step</th>
@@ -195,43 +196,43 @@ export default function HowToGetRidOfBedBugsCanadaPage() {
                   <td className="px-4 py-3 font-bold text-brand-800">1. Confirm</td>
                   <td className="px-4 py-3 text-gray-700">Verify it&rsquo;s bed bugs and map every harbourage</td>
                   <td className="px-4 py-3 text-gray-700">Flashlight, magnifier, detector/monitor</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bed bug detector monitor" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bed bug detector monitor" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">2. Isolate</td>
                   <td className="px-4 py-3 text-gray-700">Make the bed an island; keep bedding off the floor</td>
                   <td className="px-4 py-3 text-gray-700">Interceptor traps under every leg</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bed bug interceptor traps" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bed bug interceptor traps" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">3. Encase</td>
                   <td className="px-4 py-3 text-gray-700">Seal mattress &amp; box spring to trap and block</td>
                   <td className="px-4 py-3 text-gray-700">Zippered bite-proof encasements</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bed bug mattress encasement zippered" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bed bug mattress encasement zippered" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">4. Launder + heat items</td>
                   <td className="px-4 py-3 text-gray-700">Dryer on high; box-heat what you can&rsquo;t wash</td>
                   <td className="px-4 py-3 text-gray-700">Clothes dryer + a box/garment heater</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="zappbug bed bug heater" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="zappbug bed bug heater" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">5. Steam the seams</td>
                   <td className="px-4 py-3 text-gray-700">Drive lethal heat into folds, cracks, frame joints</td>
                   <td className="px-4 py-3 text-gray-700">Dry-vapour steamer</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bed bug steamer dry vapour" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bed bug steamer dry vapour" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">6. Dust the voids</td>
                   <td className="px-4 py-3 text-gray-700">Thin silica film in walls, outlets, baseboards</td>
                   <td className="px-4 py-3 text-gray-700">Silica desiccant (CimeXa)</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="cimexa silica bed bug dust" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="cimexa silica bed bug dust" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">7. Monitor to zero</td>
                   <td className="px-4 py-3 text-gray-700">Recheck traps weekly; repeat 3&ndash;6 until clear</td>
                   <td className="px-4 py-3 text-gray-700">The interceptors from step 2</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bed bug interceptor traps" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bed bug interceptor traps" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -255,7 +256,6 @@ export default function HowToGetRidOfBedBugsCanadaPage() {
           <p>The reason bed bugs have a reputation for being impossible to beat is not that they are indestructible &mdash; it is that people fight them the wrong way. They buy a can of spray or a fogger, treat the mattress, feel a few days of relief as the visible bugs die, and then get bitten again a week later when the eggs hatch. The bugs were never the hard part; the <em>eggs</em> are. Female bed bugs cement their eggs into fabric seams, screw holes, and cracks with a glue-like coating, and those eggs shrug off nearly every spray, fog, and powder on the market. Only sustained heat reliably kills them. So a plan that ignores the eggs is a plan that fails on a two-week delay, every time. Finding a translucent 1&ndash;2 mm insect rather than an adult changes the reading of the situation as well: <Link href="/blog/baby-bed-bugs-nymphs-canada" className="text-brand-700 underline">a nymph means the bugs are breeding on site</Link>, not merely hitchhiking in.</p>
           <p>The good news is that a proper plan is not complicated &mdash; it is just several simple things done together and repeated. This guide is the map. It is deliberately a cornerstone: each step below has a dedicated deep-dive guide, and you should follow those links when you reach the step that applies to you. Read this once to understand the whole shape of the fight, then work the steps in order.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">The four tools every Canadian bed-bug plan is built on — check current availability:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="bed bug mattress encasement zippered">Encasements →</BuyLink>

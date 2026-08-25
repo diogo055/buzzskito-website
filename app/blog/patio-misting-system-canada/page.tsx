@@ -86,6 +86,7 @@ export default function PatioMistingSystemCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="HOMENOTE Misting Kit with 5 Brass Nozzles" search="homenote misting kit brass nozzles" label="Best small-patio kit" />
 
       <section className="bg-white px-4">
@@ -109,8 +110,8 @@ export default function PatioMistingSystemCanadaPage() {
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">Patio Misting Kits Worth Buying in Canada 2026 — Compared</h2>
-          <div className="rounded-xl border border-navy-100 overflow-hidden bg-white shadow-sm overflow-x-auto">
-            <table className="w-full text-sm">
+          <div className="rounded-xl border border-navy-100 overflow-x-auto bg-white shadow-sm overflow-x-auto">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Kit</th>
@@ -196,7 +197,6 @@ export default function PatioMistingSystemCanadaPage() {
 
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
-          <AffiliateDisclosure />
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability on the two kits we recommend most often:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">

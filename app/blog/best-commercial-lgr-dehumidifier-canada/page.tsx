@@ -84,6 +84,7 @@ export default function BestCommercialLgrDehumidifierCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Commercial LGR dehumidifier with pump" search="alorair storm lgr commercial dehumidifier pump" label="Best overall" />
 
       <section className="bg-white px-4">
@@ -175,7 +176,7 @@ export default function BestCommercialLgrDehumidifierCanadaPage() {
             Four different machines get called &ldquo;dehumidifiers&rdquo; and they are not substitutes for one another. The dividing lines are how dry the air can get before the machine stalls, and how cold the room can get before it stops mattering.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Class</th>
@@ -191,28 +192,28 @@ export default function BestCommercialLgrDehumidifierCanadaPage() {
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best</strong> &mdash; active water losses, structural drying</td>
                   <td className="px-4 py-3 text-gray-700">Keeps working into the 30s gpp</td>
                   <td className="px-4 py-3 text-gray-700">Usable near freezing, but efficiency drops</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="alorair storm lgr commercial dehumidifier pump" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="alorair storm lgr commercial dehumidifier pump" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Conventional refrigerant<br /><span className="font-normal text-xs text-gray-500">standard commercial</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Fair</strong> &mdash; damp crawl spaces, wet but not soaked</td>
                   <td className="px-4 py-3 text-gray-700">Stalls around the mid-50s gpp</td>
                   <td className="px-4 py-3 text-gray-700">Frosts and defrosts as the room cools</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="commercial dehumidifier crawl space 120 pint" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="commercial dehumidifier crawl space 120 pint" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Desiccant<br /><span className="font-normal text-xs text-gray-500">adsorbent wheel</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best</strong> &mdash; cold and unheated spaces</td>
                   <td className="px-4 py-3 text-gray-700">Goes lower than any refrigerant class</td>
                   <td className="px-4 py-3 text-gray-700">Barely affected by temperature</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="desiccant dehumidifier cold room continuous drain" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="desiccant dehumidifier cold room continuous drain" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Residential Energy Star<br /><span className="font-normal text-xs text-gray-500">basement appliance</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best</strong> &mdash; holding a comfortable humidity long-term</td>
                   <td className="px-4 py-3 text-gray-700">Not designed to chase the dry end</td>
                   <td className="px-4 py-3 text-gray-700">Needs auto-defrost below ~18&deg;C</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="energy star dehumidifier humidistat continuous drain" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="energy star dehumidifier humidistat continuous drain" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -236,7 +237,6 @@ export default function BestCommercialLgrDehumidifierCanadaPage() {
           <p>For most Canadian contractors the answer is a mid-size AlorAir Storm-class LGR with an onboard condensate pump &mdash; roughly 90 to 120 pints AHAM, rotomolded, stackable, and drawing under 9 amps on a standard 115V circuit. That machine covers the overwhelming majority of what actually happens in this country: a burst supply line in a finished basement, a failed sump during a spring thaw, a washing machine hose that let go while nobody was home. Dri-Eaz-class units are built heavier and are the better buy once the machine works every week rather than twice a year.</p>
           <p>The brand matters less than three decisions that most first-time buyers get wrong: buying on the wrong capacity number, under-buying air movers, and ignoring the electrical load. Get those three right and a mid-priced machine outperforms an expensive one badly deployed. Job-site LGRs are a serious purchase in Canada &mdash; mid-size units sit broadly in the $900 to $1,600 range, with heavier fleet-grade machines well above that &mdash; so the cost of getting the decision wrong is real.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the picks:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="alorair storm lgr commercial dehumidifier pump">AlorAir Storm-class (best overall) →</BuyLink>

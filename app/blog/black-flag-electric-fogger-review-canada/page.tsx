@@ -99,6 +99,7 @@ export default function BlackFlagElectricFoggerReviewCanadaPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Black Flag 190107 Electric Insect Fogger" search="black flag electric fogger" label="Best-selling backyard fogger" />
 
       <section className="bg-white px-4">
@@ -141,7 +142,7 @@ export default function BlackFlagElectricFoggerReviewCanadaPage() {
             The Black Flag is one of four ways to put insecticide onto your yard, and each suits a different property and budget. Here is the honest breakdown, with a live Amazon.ca availability check per type.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="w-full text-sm">
+            <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Machine</th>
@@ -157,28 +158,28 @@ export default function BlackFlagElectricFoggerReviewCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Heating coil vaporizes oil-based concentrate into dense fog</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Normal backyards</strong> within cord reach</td>
                   <td className="px-4 py-3 text-gray-700">Tethered to an outlet; hours of knockdown, not weeks</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="black flag electric fogger" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="black flag electric fogger" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Gas thermal fogger<br /><span className="font-normal text-xs text-gray-500">propane, cordless</span></td>
                   <td className="px-4 py-3 text-gray-700">Propane flame heats concentrate into fog; no cord</td>
                   <td className="px-4 py-3 text-gray-700">Acreage, rural lots, campgrounds</td>
                   <td className="px-4 py-3 text-gray-700">Heavier, pricier, needs propane cartridges</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="propane thermal fogger" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="propane thermal fogger" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">ULV cold fogger<br /><span className="font-normal text-xs text-gray-500">water-based mist</span></td>
                   <td className="px-4 py-3 text-gray-700">Air pressure atomizes water-based product &mdash; no heat, no visible cloud</td>
                   <td className="px-4 py-3 text-gray-700">Water-based products; near structures &amp; indoors</td>
                   <td className="px-4 py-3 text-gray-700">Less dramatic fog; costs more than electric thermal</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="ulv cold fogger" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="ulv cold fogger" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Battery backpack sprayer<br /><span className="font-normal text-xs text-gray-500">liquid barrier</span></td>
                   <td className="px-4 py-3 text-gray-700">Pumps liquid insecticide onto foliage as a spray, not a fog</td>
                   <td className="px-4 py-3 text-gray-700">Deliberate barrier coverage over larger yards</td>
                   <td className="px-4 py-3 text-gray-700">Slower, more physical; no drifting fog effect</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="battery backpack sprayer" block>Check price →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="battery backpack sprayer" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -202,7 +203,6 @@ export default function BlackFlagElectricFoggerReviewCanadaPage() {
           <p>The Black Flag 190107 is the fogger most Canadians picture when they picture backyard mosquito fogging: a light, corded machine you plug into an outlet, let warm up for a few minutes, and then walk around the yard trailing a thick white cloud of insecticidal fog. It is a best-seller for a simple reason &mdash; it is the cheapest and least intimidating way to put a real thermal fog onto your property. There is no propane to buy, no fuel to prime, and nothing to assemble beyond fitting the reservoir and plugging it in. For a homeowner who wants to clear the yard before a barbecue, a graduation party, or a backyard wedding, it does exactly what it promises.</p>
           <p>What matters is understanding what you are buying and what you are not. This is a <strong>knockdown tool</strong>. It kills the mosquitoes present in your yard right now and buys you a pleasant evening. It is not a barrier, it does not last for weeks, and it does nothing for ticks. Reviewed against that honest job description, it earns its popularity. Reviewed as a season-long solution, it will disappoint &mdash; and most of the one-star complaints online come from people who expected the second thing from a machine built for the first.</p>
 
-          <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability and pricing:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="black flag electric fogger">Black Flag electric fogger →</BuyLink>
@@ -256,7 +256,7 @@ export default function BlackFlagElectricFoggerReviewCanadaPage() {
 
           <h2>Fogger vs Barrier Spray for a GTA Yard</h2>
           <p>The honest framing is that a fogger and a barrier spray are not really competitors &mdash; they do different jobs, and the smartest homeowners use both. A fogger is an on-demand knockdown you control yourself: cheap up front, instant, and perfect for that evening. A <Link href="/mosquito-control">professional barrier spray</Link> is durable coverage: a licensed technician coats your vegetation with a PMRA-registered residual that keeps killing mosquitoes for 21&ndash;30 days, treats the whole property in one visit, and controls ticks &mdash; something no fogger does.</p>
-          <table className="not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
+          <table className="min-w-[560px] not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
             <thead className="bg-brand-50">
               <tr><th className="px-3 py-2 text-left">Approach</th><th className="px-3 py-2 text-left">Duration</th><th className="px-3 py-2 text-left">Coverage</th><th className="px-3 py-2 text-left">Ticks?</th></tr>
             </thead>
