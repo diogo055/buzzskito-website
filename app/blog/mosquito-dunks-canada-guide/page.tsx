@@ -125,7 +125,7 @@ export default function MosquitoDunksPage() {
               <li>One mosquito dunk treats up to 100 sq ft of water surface and lasts about 30 days.</li>
               <li>Dunks contain only BTI (Bacillus thuringiensis israelensis); the Summit brand is Health Canada-registered under PCP #18158.</li>
               <li>BTI kills mosquito and black fly larvae within 24&ndash;48 hours and is safe for humans, pets, fish, frogs, and pollinators.</li>
-              <li>A 6-pack costs about $10&ndash;$20 in Canada (Canadian Tire, Home Depot, Rona, Lowe&rsquo;s, Amazon.ca).</li>
+              <li>A 6-pack costs about $10&ndash;$20 at hardware stores (Canadian Tire, Home Depot, Rona, Lowe&rsquo;s); Amazon.ca runs higher, about $27&ndash;$30.</li>
               <li>Use one dunk per 50 gallons in a rain barrel and replace it monthly from May through September.</li>
               <li>Dunks only kill larvae in treated water; adult mosquitoes flying in need a barrier spray.</li>
             </ul>

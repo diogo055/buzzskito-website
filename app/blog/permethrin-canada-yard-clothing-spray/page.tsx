@@ -66,11 +66,11 @@ const FAQS = [
   },
   {
     question: 'Where can I buy permethrin near me in Canada?',
-    answer: 'In Canada, the permethrin you can buy locally is Sawyer 0.5% clothing spray, stocked seasonally at Canadian Tire, Cabela\'s, Bass Pro, MEC, and Atmosphere, plus year-round on Amazon.ca. Outdoor specialty stores carry it most reliably. Yard-application permethrin concentrate is not sold to consumers anywhere in Canada — Health Canada PMRA restricts it to licensed applicators. For whole-yard tick and mosquito treatment, hire a licensed Ontario operator instead.',
+    answer: 'In Canada, the permethrin you can buy locally is Sawyer 0.5% clothing spray, stocked seasonally at Canadian Tire, Cabela\'s, Bass Pro, MEC, and Atmosphere; Amazon.ca stock comes and goes, so do not count on it. Outdoor specialty stores carry it most reliably. Yard-application permethrin concentrate is not sold to consumers anywhere in Canada — Health Canada PMRA restricts it to licensed applicators. For whole-yard tick and mosquito treatment, hire a licensed Ontario operator instead.',
   },
   {
     question: 'Where do you buy Sawyer permethrin spray in Canada?',
-    answer: 'Sawyer permethrin clothing spray is sold at Cabela\'s Canada, Bass Pro Shops Canada, MEC, Canadian Tire, and Atmosphere, and is available year-round on Amazon.ca. The 24-oz bottle runs $24–$38; the 12-oz is $18–$28. Outdoor specialty retailers keep the most consistent stock, while big-box stores like Canadian Tire carry it mainly during spring and summer. It is a clothing-and-gear spray — never apply it to your lawn or skin.',
+    answer: 'Sawyer permethrin clothing spray is sold at Cabela\'s Canada, Bass Pro Shops Canada, MEC, Canadian Tire, and Atmosphere, while Amazon.ca stock is intermittent at best. The 24-oz bottle runs $24–$38; the 12-oz is $18–$28. Outdoor specialty retailers keep the most consistent stock, while big-box stores like Canadian Tire carry it mainly during spring and summer. It is a clothing-and-gear spray — never apply it to your lawn or skin.',
   },
   {
     question: 'How do you get permethrin in Canada?',
