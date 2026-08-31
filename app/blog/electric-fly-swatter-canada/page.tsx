@@ -85,7 +85,7 @@ export default function ElectricFlySwatterCanadaPage() {
       </section>
 
       <AffiliateDisclosure />
-      <StickyBuyBar tag={AMZ_TAG} name="The Executioner Electric Fly Swatter" search="executioner fly swatter racket" label="Best overall racket" />
+      <StickyBuyBar tag={AMZ_TAG} name="The Executioner Electric Fly Swatter" asin="B01EXES2SK" search="executioner fly swatter racket" label="Best overall racket" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -117,6 +117,7 @@ export default function ElectricFlySwatterCanadaPage() {
                 badge: 'Best Overall',
                 name: 'The Executioner Electric Fly Swatter',
                 why: 'A single-layer zinc-steel grid at roughly 3,000 volts with nothing between the insect and the charge — flies, mosquitoes, and wasps drop on the first swing.',
+                asin: 'B01EXES2SK',
                 search: 'executioner fly swatter racket',
                 score: 9.1,
                 featured: true,

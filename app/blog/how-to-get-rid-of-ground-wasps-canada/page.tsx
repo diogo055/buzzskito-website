@@ -106,7 +106,7 @@ export default function HowToGetRidOfGroundWaspsCanadaPage() {
       </section>
 
       <AffiliateDisclosure />
-      <StickyBuyBar tag={AMZ_TAG} name="Wilson OneShot Jet Foam Wasp & Hornet Killer" search="wilson one shot foam wasp hornet killer" label="Best ground-nest foam" />
+      <StickyBuyBar tag={AMZ_TAG} name="Wilson OneShot Jet Foam Wasp & Hornet Killer" asin="B00LM93R58" search="wilson one shot foam wasp hornet killer" label="Best ground-nest foam" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -139,6 +139,7 @@ export default function HowToGetRidOfGroundWaspsCanadaPage() {
                 badge: 'Best Overall',
                 name: 'Wilson OneShot Jet Foam Wasp & Hornet Killer',
                 why: 'The Canadian, PMRA-registered answer to a nest in the ground: a d-phenothrin + tetramethrin foam that jets 2–2.5 m, expands into the burrow entrance, and makes the nest uninhabitable within about 48 hours.',
+                asin: 'B00LM93R58',
                 search: 'wilson one shot foam wasp hornet killer',
                 score: 9.0,
                 featured: true,

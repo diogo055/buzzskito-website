@@ -105,7 +105,7 @@ export default function BedBugSprayCanadaPage() {
       </section>
 
       <AffiliateDisclosure />
-      <StickyBuyBar tag={AMZ_TAG} name="Doktor Doom Sleep Tight bed bug spray" search="doktor doom sleep tight bed bug spray" label="Best PMRA-legal pick" />
+      <StickyBuyBar tag={AMZ_TAG} name="Doktor Doom Sleep Tight bed bug spray" asin="B0D2PFS1WZ" search="doktor doom sleep tight bed bug spray" label="Best PMRA-legal pick" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -176,6 +176,7 @@ export default function BedBugSprayCanadaPage() {
                 badge: 'Best Overall',
                 name: 'Doktor Doom Sleep Tight',
                 why: 'The only widely stocked Canadian spray labelled for direct use on mattresses and box springs — a plant-derived pyrethrin that kills on contact, dries fast, and won’t stain most fabrics.',
+                asin: 'B0D2PFS1WZ',
                 search: 'doktor doom sleep tight bed bug spray',
                 score: 8.6,
                 featured: true,

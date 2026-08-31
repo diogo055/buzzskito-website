@@ -109,7 +109,7 @@ export default function MosquitoDunksPage() {
       </section>
 
       <AffiliateDisclosure />
-      <StickyBuyBar tag={AMZ_TAG} name="Summit Mosquito Dunks (6-pack)" search="summit mosquito dunks" label="Best for standing water" />
+      <StickyBuyBar tag={AMZ_TAG} name="Summit Mosquito Dunks (6-pack)" asin="B005UTKT0W" search="summit mosquito dunks" label="Best for standing water" />
 
       <div className="max-w-4xl mx-auto px-4 -mt-6 sm:-mt-8 relative z-10">
         <BlogPostCTA />
@@ -207,6 +207,7 @@ export default function MosquitoDunksPage() {
                 badge: 'Best Overall',
                 name: 'Summit Mosquito Dunks (6-Pack)',
                 why: 'One dunk treats up to 100 sq ft of standing water for ~30 days — a single 6-pack covers a typical rain barrel for the entire May–September season, and it’s completely safe for fish, pets, and pollinators.',
+                asin: 'B005UTKT0W',
                 search: 'summit mosquito dunks',
                 score: 8.8,
                 featured: true,

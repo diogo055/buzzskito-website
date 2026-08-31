@@ -20,7 +20,7 @@ const META_TITLE = 'Raccoon Deterrents Canada: The 2026 Tier List'
 const FAQS = [
   {
     question: 'What is the best raccoon deterrent in Canada?',
-    answer: 'The best raccoon deterrent for Canadian yards is a motion-activated sprinkler — a sudden burst of water paired with movement and noise is one of the few stimuli raccoons do not fully habituate to, and models like the Orbit Yard Enforcer run all season on a garden hose and a 9V battery. But no single gadget wins alone: the strategy that actually works is layered — strap or latch your green bin and garbage (remove the food reward), install a motion sprinkler on the approach routes, and seal decks and sheds with buried galvanized hardware cloth. Lights, ultrasonic devices, and scent repellents sit at the bottom of the evidence pile and should never be the plan on their own.',
+    answer: 'The best raccoon deterrent for Canadian yards is a motion-activated sprinkler — a sudden burst of water paired with movement and noise is one of the few stimuli raccoons do not fully habituate to, and models like the Orbit Yard Enforcer run all season on a garden hose and four AA batteries. But no single gadget wins alone: the strategy that actually works is layered — strap or latch your green bin and garbage (remove the food reward), install a motion sprinkler on the approach routes, and seal decks and sheds with buried galvanized hardware cloth. Lights, ultrasonic devices, and scent repellents sit at the bottom of the evidence pile and should never be the plan on their own.',
   },
   {
     question: 'Is it legal to trap and relocate raccoons in Ontario?',
@@ -101,7 +101,7 @@ export default function RaccoonDeterrentCanadaPage() {
       </section>
 
       <AffiliateDisclosure />
-      <StickyBuyBar tag={AMZ_TAG} name="Motion-activated sprinkler (Orbit Yard Enforcer)" search="motion activated sprinkler animal repellent" label="Best raccoon deterrent" />
+      <StickyBuyBar tag={AMZ_TAG} name="Motion-activated sprinkler (Orbit Yard Enforcer)" asin="B009F1R0GC" search="motion activated sprinkler animal repellent" label="Best raccoon deterrent" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -133,7 +133,8 @@ export default function RaccoonDeterrentCanadaPage() {
               {
                 badge: 'Best Overall',
                 name: 'Orbit Yard Enforcer Motion-Activated Sprinkler',
-                why: 'The one active deterrent with a real track record on raccoons: a sudden burst of water plus mechanical noise, delivered unpredictably. Runs all season on a hose and a 9V battery, with a day/night sensor so it only fires when you want it to.',
+                why: 'The one active deterrent with a real track record on raccoons: a sudden burst of water plus mechanical noise, delivered unpredictably. Runs all season on a hose and four AA batteries, with a day/night sensor so it only fires when you want it to.',
+                asin: 'B009F1R0GC',
                 search: 'motion activated sprinkler animal repellent',
                 score: 9.0,
                 featured: true,

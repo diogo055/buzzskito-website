@@ -95,7 +95,7 @@ export default function MosquitoRepellentGuidePage() {
       </section>
 
       <AffiliateDisclosure />
-      <StickyBuyBar tag={AMZ_TAG} name="Natrapel 20% Picaridin Insect Repellent" search="natrapel picaridin insect repellent" label="Best overall repellent" />
+      <StickyBuyBar tag={AMZ_TAG} name="Natrapel 20% Picaridin Insect Repellent" asin="B0BYFF3S3V" search="natrapel picaridin insect repellent" label="Best overall repellent" />
 
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
@@ -133,6 +133,7 @@ export default function MosquitoRepellentGuidePage() {
                   name: 'Natrapel 20% Picaridin',
                   why: 'Odourless, 6–10 hours of protection, and it won’t melt plastics or fabrics. The best all-round everyday backyard and travel pick for Ontario.',
                   search: 'natrapel picaridin insect repellent',
+                  asin: 'B0BYFF3S3V',
                   score: 9.1,
                   featured: true,
                   pros: ['6–10 hours of protection', 'Odourless and non-greasy', 'Safe on gear, plastics and fabrics'],

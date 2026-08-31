@@ -99,7 +99,7 @@ export default function LaserMosquitoKillerPhotonMatrixPage() {
       </section>
 
       <AffiliateDisclosure />
-      <StickyBuyBar tag={AMZ_TAG} name="Mosquito Magnet Propane CO₂ Trap" search="mosquito magnet trap" label="Proven pick instead" />
+      <StickyBuyBar tag={AMZ_TAG} name="Mosquito Magnet Propane CO₂ Trap" asin="B07QFNSC8Z" search="mosquito magnet trap" label="Proven pick instead" />
 
       <section className="bg-gradient-to-br from-emerald-50 to-white border-b border-emerald-200 py-10 px-4">
         <div className="max-w-4xl mx-auto">
@@ -208,6 +208,7 @@ export default function LaserMosquitoKillerPhotonMatrixPage() {
                 name: 'Mosquito Magnet Propane CO₂ Trap',
                 why: 'The device with real independent testing behind it — it burns propane to make genuine CO₂, heat, and moisture, the exact cues an egg-laying female hunts, then vacuums her in. Best suited to larger and cottage properties, in stock now, no pre-order lottery.',
                 search: 'mosquito magnet trap',
+                asin: 'B07QFNSC8Z',
                 score: 8.9,
                 featured: true,
                 pros: ['Real independent testing, not demo-video hype', 'Available and shipping in Canada today', 'Targets the egg-laying females that seed the next generation'],
