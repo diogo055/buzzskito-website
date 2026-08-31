@@ -151,4 +151,10 @@ export const ADJACENT_PEST_ROUTES = new Set<string>([
   '/blog/zappbug-heater-review-canada',
   '/blog/zappbug-oven-2-review-canada',
   '/blog/zappbug-room-review-canada',
+  '/blog/best-cockroach-killer-canada',
+  '/blog/wasp-dust-canada',
+  '/blog/best-wasp-killer-canada',
+  '/blog/how-to-get-rid-of-spiders-in-house-canada',
+  '/blog/cluster-flies-in-house-canada',
+  '/blog/earwig-traps-indoor-canada',
 ])
