@@ -248,6 +248,19 @@ export default function AlphaGalSyndromePage() {
           <li><Link href="/blog/lyme-disease-symptoms-guide">Lyme Disease Symptoms Guide</Link></li>
         </ul>
 
+        <h2>Frequently Asked Questions</h2>
+        <div className="not-prose space-y-4">
+          {FAQS.map(({ question, answer }) => (
+            <details key={question} className="group rounded-xl border border-navy-100 bg-white p-4">
+              <summary className="cursor-pointer font-bold text-brand-900 list-none flex justify-between items-center gap-3">
+                {question}
+                <span className="text-emerald-600 group-open:rotate-45 transition-transform text-xl leading-none">+</span>
+              </summary>
+              <p className="mt-3 text-sm text-gray-700 leading-relaxed">{answer}</p>
+            </details>
+          ))}
+        </div>
+
       </article>
 
       <CTASection heading="Fewer Ticks Where Your Family Spends Time" subtext="Alpha-gal starts with a tick bite. Get a free quote for a licensed tick barrier treatment targeting the yard edges where ticks wait." variant="dark" />

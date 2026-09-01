@@ -257,6 +257,19 @@ export default function TickHeadStuckInSkinPage() {
           <li><Link href="/blog/tick-bite-symptoms-what-to-do-ontario">Tick Bite Symptoms &amp; What to Do in Ontario</Link></li>
           <li><Link href="/blog/how-to-remove-tick-from-dog-ontario">How to Remove a Tick from a Dog in Ontario</Link></li>
         </ul>
+        <h2>Frequently Asked Questions</h2>
+        <div className="not-prose space-y-4">
+          {FAQS.map(({ question, answer }) => (
+            <details key={question} className="group rounded-xl border border-navy-100 bg-white p-4">
+              <summary className="cursor-pointer font-bold text-brand-900 list-none flex justify-between items-center gap-3">
+                {question}
+                <span className="text-emerald-600 group-open:rotate-45 transition-transform text-xl leading-none">+</span>
+              </summary>
+              <p className="mt-3 text-sm text-gray-700 leading-relaxed">{answer}</p>
+            </details>
+          ))}
+        </div>
+
       </article>
 
       <CTASection heading="Keep ticks out of your yard this season" subtext="Get a free quote for licensed tick barrier treatment across the GTA. 150 five-star reviews. Book before peak season." variant="dark" />

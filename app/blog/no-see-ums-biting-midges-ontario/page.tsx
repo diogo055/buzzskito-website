@@ -229,6 +229,19 @@ export default function NoSeeUmsBitingMidgesOntarioPage() {
             <li><Link href="/mosquito-control">BuzzSkito Professional Mosquito Control Service</Link></li>
           </ul>
           <p className="text-xs text-gray-500">Repellent guidance reflects Health Canada&rsquo;s pest-management information. Always follow the product label. See <a href="https://www.canada.ca/en/health-canada/services/consumer-product-safety/pesticides-pest-management.html" target="_blank" rel="noopener" className="underline hover:text-brand-700">Health Canada — Pesticides and Pest Management</a>.</p>
+        <h2>Frequently Asked Questions</h2>
+        <div className="not-prose space-y-4">
+          {FAQS.map(({ question, answer }) => (
+            <details key={question} className="group rounded-xl border border-navy-100 bg-white p-4">
+              <summary className="cursor-pointer font-bold text-brand-900 list-none flex justify-between items-center gap-3">
+                {question}
+                <span className="text-emerald-600 group-open:rotate-45 transition-transform text-xl leading-none">+</span>
+              </summary>
+              <p className="mt-3 text-sm text-gray-700 leading-relaxed">{answer}</p>
+            </details>
+          ))}
+        </div>
+
         </div>
       </article>
 

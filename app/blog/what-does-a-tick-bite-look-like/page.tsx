@@ -296,6 +296,19 @@ export default function WhatDoesATickBiteLookLikePage() {
           <li><Link href="/blog/tick-bite-vs-mosquito-bite">Tick Bite vs Mosquito Bite</Link></li>
         </ul>
 
+        <h2>Frequently Asked Questions</h2>
+        <div className="not-prose space-y-4">
+          {FAQS.map(({ question, answer }) => (
+            <details key={question} className="group rounded-xl border border-navy-100 bg-white p-4">
+              <summary className="cursor-pointer font-bold text-brand-900 list-none flex justify-between items-center gap-3">
+                {question}
+                <span className="text-emerald-600 group-open:rotate-45 transition-transform text-xl leading-none">+</span>
+              </summary>
+              <p className="mt-3 text-sm text-gray-700 leading-relaxed">{answer}</p>
+            </details>
+          ))}
+        </div>
+
       </article>
 
       <StickyBuyBar tag={AMZ_TAG} name="Tick remover kit (fine-tip + hook)" search="tick removal kit" label="For removal" />

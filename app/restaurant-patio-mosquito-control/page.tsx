@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import CityHero from '@/components/CityHero'
-import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, speakableSchema, howToSchema } from '@/lib/seo'
+import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusinessSchema, speakableSchema, howToSchema } from '@/lib/seo'
 
 export const metadata: Metadata = buildMetadata({
   title: 'Restaurant Patio Mosquito Control | GTA Service',
@@ -37,6 +37,7 @@ const FAQS = [
 export default function RestaurantPatioMosquitoControlPage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema({ description: 'Mosquito barrier spray for restaurant patios, bar terraces, and outdoor dining areas across the Greater Toronto Area.' })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema({ name: 'Restaurant Patio Mosquito Control', description: 'Professional mosquito barrier spray for restaurant patios, bar terraces, and outdoor dining areas across the Greater Toronto Area.', slug: '/restaurant-patio-mosquito-control' })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Mosquito Control', url: '/mosquito-control' }, { name: 'Commercial', url: '/commercial-mosquito-control' }, { name: 'Restaurant Patio', url: '/restaurant-patio-mosquito-control' }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />

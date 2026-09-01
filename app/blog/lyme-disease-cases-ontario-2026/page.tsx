@@ -209,6 +209,19 @@ export default function LymeCasesOntario2026Page() {
           <li><Link href="/blog/ultimate-tick-control-guide-ontario" className="text-brand-700 underline">Tick Surge Ontario 2026: Complete Yard Control Guide</Link></li>
           <li><Link href="/lyme-disease-canada-statistics" className="text-brand-700 underline">Lyme Disease in Canada: the national statistics</Link></li>
         </ul>
+        <h2>Frequently Asked Questions</h2>
+        <div className="not-prose space-y-4">
+          {FAQS.map(({ question, answer }) => (
+            <details key={question} className="group rounded-xl border border-navy-100 bg-white p-4">
+              <summary className="cursor-pointer font-bold text-brand-900 list-none flex justify-between items-center gap-3">
+                {question}
+                <span className="text-emerald-600 group-open:rotate-45 transition-transform text-xl leading-none">+</span>
+              </summary>
+              <p className="mt-3 text-sm text-gray-700 leading-relaxed">{answer}</p>
+            </details>
+          ))}
+        </div>
+
       </article>
 
       <CTASection heading="Ontario&rsquo;s tick trend is going one direction — get your yard protected" subtext="Free custom quote based on your lot and yard features. Sent within 24 hours." />

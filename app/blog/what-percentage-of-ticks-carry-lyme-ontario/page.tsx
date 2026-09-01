@@ -183,6 +183,19 @@ export default function TicksCarryLymeOntarioPage() {
           </ul>
 
           <p className="text-xs text-gray-500 mt-8 border-t border-gray-200 pt-4">Sources: Public Health Ontario (passive tick surveillance, <em>B. burgdorferi</em> prevalence); Public Health Agency of Canada (Lyme disease surveillance, 2024); U.S. Centers for Disease Control and Prevention (tick attachment and transmission risk). This article is general health education, not medical advice. Consult a healthcare provider or your local public health unit for guidance specific to your situation.</p>
+        <h2>Frequently Asked Questions</h2>
+        <div className="not-prose space-y-4">
+          {FAQS.map(({ question, answer }) => (
+            <details key={question} className="group rounded-xl border border-navy-100 bg-white p-4">
+              <summary className="cursor-pointer font-bold text-brand-900 list-none flex justify-between items-center gap-3">
+                {question}
+                <span className="text-emerald-600 group-open:rotate-45 transition-transform text-xl leading-none">+</span>
+              </summary>
+              <p className="mt-3 text-sm text-gray-700 leading-relaxed">{answer}</p>
+            </details>
+          ))}
+        </div>
+
         </div>
       </article>
 

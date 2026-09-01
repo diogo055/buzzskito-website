@@ -85,6 +85,10 @@ export default function MosquitoControlCostPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${POST.slug}`, UPDATED)) }}
+      />
 
       <section className="bg-gradient-to-br from-brand-950 to-brand-800 text-white py-14 px-4">
         <div className="max-w-4xl mx-auto">

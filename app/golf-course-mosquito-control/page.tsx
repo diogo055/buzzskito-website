@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import CityHero from '@/components/CityHero'
-import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, speakableSchema, howToSchema } from '@/lib/seo'
+import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusinessSchema, speakableSchema, howToSchema } from '@/lib/seo'
 import { BUSINESS } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
@@ -38,6 +38,7 @@ const FAQS = [
 export default function GolfCourseMosquitoControlPage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema({ description: 'Mosquito and tick barrier spray for golf courses, country clubs, and recreational facilities across Ontario.' })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema({ name: 'Golf Course Mosquito & Tick Control', description: 'Professional mosquito and tick barrier spray for golf courses, country clubs, and recreational facilities across Ontario.', slug: '/golf-course-mosquito-control' })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Mosquito Control', url: '/mosquito-control' }, { name: 'Commercial', url: '/commercial-mosquito-control' }, { name: 'Golf Course', url: '/golf-course-mosquito-control' }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />

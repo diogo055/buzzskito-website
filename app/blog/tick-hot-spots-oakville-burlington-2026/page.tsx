@@ -173,6 +173,19 @@ export default function TickHotSpotsOakvilleBurlingtonPage() {
           <li><Link href="/blog/mosquito-season-gta-when-does-it-start" className="text-brand-700 underline">Mosquito Season GTA — When Does It Start?</Link></li>
           <li><Link href="/yard-risk-report" className="text-brand-700 underline">Free Yard Risk Report — Halton address-specific score</Link></li>
         </ul>
+        <h2>Frequently Asked Questions</h2>
+        <div className="not-prose space-y-4">
+          {FAQS.map(({ question, answer }) => (
+            <details key={question} className="group rounded-xl border border-navy-100 bg-white p-4">
+              <summary className="cursor-pointer font-bold text-brand-900 list-none flex justify-between items-center gap-3">
+                {question}
+                <span className="text-emerald-600 group-open:rotate-45 transition-transform text-xl leading-none">+</span>
+              </summary>
+              <p className="mt-3 text-sm text-gray-700 leading-relaxed">{answer}</p>
+            </details>
+          ))}
+        </div>
+
       </article>
 
       <CTASection heading="Halton tick pressure is climbing — find out your address-specific risk" subtext="Free custom quote and risk score based on your Oakville or Burlington address. Sent within 24 hours. Same-week service across every Halton neighbourhood." />

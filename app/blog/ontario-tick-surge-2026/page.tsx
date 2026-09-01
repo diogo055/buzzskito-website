@@ -138,6 +138,19 @@ export default function OntarioTickSurge2026Page() {
           <li><Link href="/blog/are-ticks-dangerous-ontario" className="text-brand-700 underline">Are Ticks Dangerous in Ontario? What Every Family Should Know</Link></li>
           <li><Link href="/ontario-lyme-disease-tracker-2026" className="text-brand-700 underline">Ontario Lyme Disease Tracker — PHU-by-PHU live data</Link></li>
         </ul>
+        <h2>Frequently Asked Questions</h2>
+        <div className="not-prose space-y-4">
+          {FAQS.map(({ question, answer }) => (
+            <details key={question} className="group rounded-xl border border-navy-100 bg-white p-4">
+              <summary className="cursor-pointer font-bold text-brand-900 list-none flex justify-between items-center gap-3">
+                {question}
+                <span className="text-emerald-600 group-open:rotate-45 transition-transform text-xl leading-none">+</span>
+              </summary>
+              <p className="mt-3 text-sm text-gray-700 leading-relaxed">{answer}</p>
+            </details>
+          ))}
+        </div>
+
       </article>
 
       <CTASection heading="Get your yard protected before peak tick season" subtext="Free custom quote based on your lot size and risk profile — sent within 24 hours. No contracts." />
