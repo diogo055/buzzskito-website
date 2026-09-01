@@ -39,3 +39,7 @@ start.log
 # The analysis scripts alongside them are kept; re-pull the data when needed.
 seo-audit/**/gsc_full_scan.json
 seo-audit/**/gsc_by_country.json
+
+# Large cached GSC/Ahrefs pulls (Stage A caches)
+data/gsc/*.json
+data/gsc/*.csv

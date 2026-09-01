@@ -1,0 +1,36 @@
+{
+  "program": "Affiliate Revenue Multiplication",
+  "started": "2026-09-01",
+  "stage": "B",
+  "task": "Stage A complete; starting Stage B technical baseline",
+  "completed": [
+    "A1 repo map -> data/repo-map.md",
+    "A2 GSC 12mo cached (corrected for multi-dim pruning)",
+    "A3 content-inventory.json (521 pages)",
+    "A4 coverage-map.md",
+    "A5 striking-distance.csv (111 scored)",
+    "A6 monetization-gaps.csv (only 3 pages - Stage D is near-complete)",
+    "A7 us-opportunity.md (~22,400 clicks/mo modelled upside)",
+    "A8 cannibalization.md (193 queries, flagged only)",
+    "A9 affiliate-links.json (2,365 links; 2,350 are search= not ASIN)",
+    "A10 winning-template.md",
+    "A11 content-decay.csv (empty - site too young)",
+    "A12 traffic-geography.md",
+    "Stage A gate report -> reports/stage-a-gate.md"
+  ],
+  "notes": {
+    "baseline_reconciliation": "Brief cites ~$515/mo run rate (Jul14-Aug29). Fresh dashboard Aug 1-30 shows $653 for August alone; GSC 28d to Aug 29 = 9,123 clicks. Brief baseline slightly stale but directionally right - reconciled in Stage A gate report.",
+    "levanta": "Account pending approval. Stage F blocked, everything else proceeds. Ship Associates links, log swaps.",
+    "stage_c_conflict": "Brief assumes links hardcoded in ~51 files needing ASIN-keyed centralization. Actual architecture: centralized builder lib/amazon.ts + 15 cluster tags lib/amazon-clusters.ts + component layer (BuyLink/AwardRow/StickyBuyBar), mostly search= links with 17 verified ASIN pins. Centralization largely EXISTS - the missing piece is per-link click tracking. Will adapt Stage C to reality per section 15."
+  },
+  "key_findings": {
+    "us_share_real": "15.2% Aug 2026 per GSC, not 33% per brief/Ahrefs. Compounding: 3.5%->15.2% in 4 months.",
+    "stage_d_is_done": "Only 3 pages with >=50 clicks and <2 links (~$12/mo). Real opportunity is 2,350 search= links needing ASIN pins.",
+    "stage_c_reframed": "Link centralization already exists (lib/amazon.ts fail-closed builder). Missing piece is per-link click tracking - gates all feedback loops.",
+    "allocation_inverted": "Clicks/page: wasp 150.9 (7 pages) vs bedbug 12.1 (46 pages) vs home-air-water 5.3 (14 pages). 28x spread, inverse to page count.",
+    "biggest_single_item": "house centipede: 150,761/mo US, we rank pos 2.2 in CANADA and are absent in US.",
+    "gsc_pruning": "page+country dims lose 59% of clicks. Never use multi-dim rollups for totals.",
+    "top25_all_existing": "All top-25 striking-distance targets are EXISTING pages needing improvement, not new pages."
+  },
+  "ahrefs_units_used": 6417
+}
