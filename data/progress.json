@@ -1,8 +1,8 @@
 {
   "program": "Affiliate Revenue Multiplication",
   "started": "2026-09-01",
-  "stage": "B",
-  "task": "Stage A complete; starting Stage B technical baseline",
+  "stage": "C",
+  "task": "Stage B complete. Next: Stage C per-link click tracking (the missing instrument).",
   "completed": [
     "A1 repo map -> data/repo-map.md",
     "A2 GSC 12mo cached (corrected for multi-dim pruning)",
@@ -16,7 +16,12 @@
     "A10 winning-template.md",
     "A11 content-decay.csv (empty - site too young)",
     "A12 traffic-geography.md",
-    "Stage A gate report -> reports/stage-a-gate.md"
+    "Stage A gate report -> reports/stage-a-gate.md",
+    "B13-16 indexation/sitemap/robots: CLEAN. 350/358 blog pages have impressions; 8 zeros all published Aug. Sitemap 530 urls valid, resubmitted.",
+    "B18-19 geo-signal audit: blog/learn carry ZERO local schema - the brief premise was false. Canada signal lives in root template + body copy only.",
+    "B FIX: rendered 971 invisible FAQ answers across 107 pages (Google FAQPage requires visible Q&A). 459,484 impr affected.",
+    "B FIX: localBusinessSchema added to 4 vertical service pages; speakableSchema called on 5 posts with dead imports.",
+    "B20 hreflang: none exists; deferred - nothing to annotate with one URL per topic."
   ],
   "notes": {
     "baseline_reconciliation": "Brief cites ~$515/mo run rate (Jul14-Aug29). Fresh dashboard Aug 1-30 shows $653 for August alone; GSC 28d to Aug 29 = 9,123 clicks. Brief baseline slightly stale but directionally right - reconciled in Stage A gate report.",
@@ -30,7 +35,16 @@
     "allocation_inverted": "Clicks/page: wasp 150.9 (7 pages) vs bedbug 12.1 (46 pages) vs home-air-water 5.3 (14 pages). 28x spread, inverse to page count.",
     "biggest_single_item": "house centipede: 150,761/mo US, we rank pos 2.2 in CANADA and are absent in US.",
     "gsc_pruning": "page+country dims lose 59% of clicks. Never use multi-dim rollups for totals.",
-    "top25_all_existing": "All top-25 striking-distance targets are EXISTING pages needing improvement, not new pages."
+    "top25_all_existing": "All top-25 striking-distance targets are EXISTING pages needing improvement, not new pages.",
+    "zero_images": "ALL 358 blog pages contain ZERO images - verified in prerendered HTML. 26 identification pages carrying 213,359 impr/28d have no visual asset. public/ holds only brand/service photography. This is the largest untapped Stage E lever (brief section 8).",
+    "invisible_faq_fixed": "107 pages emitted FAQPage schema never rendered on-page (971 Q&A pairs, 459,484 impr = 48% of site impressions). Fixed Sep 1."
   },
-  "ahrefs_units_used": 6417
+  "ahrefs_units_used": 6417,
+  "rejected_after_verification": [
+    "keywords:[] on content pages - buildMetadata serves all 546 pages incl 181 service pages",
+    "gating widgets off /learn - 6 lead-gen service pages, zero affiliate links, one is striking-distance #24",
+    "Canada-in-title hurts US CTR - falsified by its own example; 1-vs-0 clicks is noise",
+    "dropping faqSchema on 107 - would strip schema from 88 service-intent pages",
+    "mainEntityOfPage realignment - 359 ranking pages, no measured benefit"
+  ]
 }
