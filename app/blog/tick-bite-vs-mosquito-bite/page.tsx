@@ -7,6 +7,7 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
+import Figure from '@/components/Figure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { BUSINESS } from '@/lib/constants'
 import { tagForSlug } from '@/lib/amazon-clusters'
@@ -109,6 +110,14 @@ export default function TickBiteVsMosquitoBitePage() {
         <p>The difference between a tick bite and a mosquito bite comes down to one check you can make immediately: a mosquito is long gone by the time you notice the itchy welt, while a tick is still attached and feeding. Ontario homeowners who spend time outdoors — especially near conservation areas, ravines, or the Oak Ridges Moraine — need that distinction, because while both can cause a red, irritated mark on the skin, the implications are very different. Mosquito bites are usually just itchy nuisances. Tick bites carry a small but real risk of Lyme disease, which is now established throughout the Greater Toronto Area and York Region.</p>
 
         <h2>The Key Difference: Mosquitoes Leave, Ticks Stay</h2>
+        <Figure
+          src="/diagrams/bite-pattern-comparison.svg"
+          alt="Diagram comparing the distribution patterns of mosquito, bed bug, flea, chigger, tick and no-see-um bites on the body"
+          caption="A mosquito bite is one of several scattered across exposed skin and puffs up within minutes. A tick bite is usually single, often with the tick still attached — and a ring that spreads over days needs a doctor, not a pharmacy."
+          width={720}
+          height={440}
+          priority
+        />
         <p>The single most reliable way to distinguish a tick bite from a mosquito bite is whether the insect is still attached. <strong>Mosquitoes bite and immediately fly away.</strong> You may notice the bite minutes later as an itchy welt, but the mosquito is gone. <strong>Ticks attach and feed for hours or days.</strong> If you find an insect embedded in your skin, it is a tick — not a mosquito. This distinction matters because the sooner you remove a tick, the lower the risk of Lyme disease transmission. Removing a tick within 24 hours of attachment significantly reduces infection risk. The other comparison people arrive at in the middle of the night is <Link href="/blog/bed-bug-bites-vs-mosquito-bites" className="text-brand-700 underline">bed bug bites versus mosquito bites</Link>, which turns on pattern, timing and season rather than on whether anything is still attached.</p>
 
         <h2>Side-by-Side Symptom Comparison</h2>

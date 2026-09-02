@@ -7,6 +7,7 @@ import TopPick from '@/components/TopPick'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import StickyBuyBar from '@/components/StickyBuyBar'
+import Figure from '@/components/Figure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
 
@@ -147,6 +148,14 @@ export default function RedTicksAndCloverMitesPage() {
           <AffiliateDisclosure />
 
           <h2>Why &ldquo;Red Tick&rdquo; Is Almost Always a Case of Mistaken Identity</h2>
+          <Figure
+            src="/diagrams/bugs-that-look-like-ticks.svg"
+            alt="Comparison chart of a blacklegged tick against spider beetle, clover mite and bed bug across leg count, antennae, body shape, colour and true size"
+            caption="A bright red speck that leaves a red smear when crushed is a clover mite, not a tick. Clover mites are about 0.75 mm with one very long front pair of legs; ticks are brown to red-brown and never that vivid."
+            width={720}
+            height={420}
+            priority
+          />
           <p>Thousands of people every month search for a &ldquo;red tick,&rdquo; &ldquo;tiny red tick,&rdquo; or &ldquo;bright red tick&rdquo; after spotting a vivid crimson speck on a wall, a windowsill, or their own skin. The reassuring news is that there is no widespread tick species that is a clean, uniform red. When the colour red enters the picture, one of three things is nearly always going on: you have found a <strong>clover mite</strong>, you have found a <strong>tick that turned reddish after feeding</strong>, or you have found a genuine tick species that happens to have a <strong>reddish-brown body</strong>, like the lone star tick. Knowing which one you are looking at takes just a few seconds once you know what to check.</p>
 
           <h2>1. Clover Mites — the Real Answer Most of the Time</h2>
