@@ -1,0 +1,37 @@
+{
+  "changes": [
+    {
+      "date": "2026-09-02",
+      "stage": "E",
+      "change": "US striking-distance expansion: PAA H2s + US species/seasonality/agency sourcing added to 9 pages",
+      "pages": [
+        "bug-zappers-canada-do-they-work",
+        "best-bed-bug-spray-for-mattress-canada",
+        "mosquito-hawk-explained",
+        "what-does-a-spider-bite-look-like",
+        "mosquito-larvae-identification",
+        "flea-bites-on-humans",
+        "what-blood-type-do-mosquitoes-bite",
+        "chigger-bites",
+        "no-see-um-bites"
+      ],
+      "usVolumeTargeted": 167000,
+      "insertions": 2763,
+      "deletions": 9,
+      "baselineUsPositions": {
+        "bug zapper": 16.7,
+        "bed bug spray": 15.0,
+        "mosquito hawk": 19.2,
+        "what does a spider bite look like": 11.6,
+        "mosquito larvae": 11.5,
+        "bed bug flea bites on humans": 19.8,
+        "what blood type do mosquitoes like": 19.6,
+        "what do chigger bites look like": 9.3,
+        "no see um bites": 6.5
+      },
+      "remeasureOn": "2026-09-30",
+      "killCriterion": "brief s13 task 74: if the first 5 pages average fewer than 3 positions gained after 4 weeks, HALT stage E and diagnose before touching the rest",
+      "confound": "these pages also received visible FAQ blocks (2026-09-01) and several received diagrams (2026-09-01/02); see data/experiment-diagrams.md"
+    }
+  ]
+}

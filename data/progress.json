@@ -2,7 +2,7 @@
   "program": "Affiliate Revenue Multiplication",
   "started": "2026-09-01",
   "stage": "E/D-hybrid",
-  "task": "ASIN wave 2 done (7 pins). Next: wave 3 pins, remaining image pages, US striking-distance.",
+  "task": "Stage E wave 1 shipped. Next: re-measure 2026-09-30, then wave 2 US pages.",
   "completed": [
     "A1 repo map -> data/repo-map.md",
     "A2 GSC 12mo cached (corrected for multi-dim pruning)",
@@ -30,7 +30,12 @@
     "SAFETY: Health Canada recall notice added to best-wasp-nest-spray-canada (Raid Max PCP 30746, verified against recalls-rappels.canada.ca).",
     "ACCURACY: OLE trial-duration vs PMRA label-duration distinction added to natural-mosquito-repellent-ontario.",
     "ACCURACY: permethrin page no longer claims Sawyer on Amazon.ca and no longer routes readers to restricted-class commercial concentrates (verified live on amazon.ca).",
-    "BUG FIX: amazonUrl() emitted a blank-search link (?k=) when given neither ASIN nor search; now fails closed. BuyLink renders nothing instead of a dead button."
+    "BUG FIX: amazonUrl() emitted a blank-search link (?k=) when given neither ASIN nor search; now fails closed. BuyLink renders nothing instead of a dead button.",
+    "STAGE E wave 1: 9 US striking-distance pages expanded (167K US volume). 2,763 insertions, 0 real deletions. Verified per page.",
+    "MEASURED: visual-ID queries convert 2.1x worse than others (0.39% vs 0.83% CTR) across 32,452 US impressions - the justification for the diagram programme.",
+    "FALSIFIED my own hypothesis that US visibility is confined to Canada-named queries: only 3.1% of US impressions, and we rank BETTER on neutral queries.",
+    "Registered data/experiment-diagrams.md with a stop rule before any outcome is known.",
+    "FORECAST: work to date worth ~+23% (+$1,415/yr). $10K/mo needs US traffic AND Levanta high-ticket AND an off-SEO traffic source."
   ],
   "notes": {
     "baseline_reconciliation": "Brief cites ~$515/mo run rate (Jul14-Aug29). Fresh dashboard Aug 1-30 shows $653 for August alone; GSC 28d to Aug 29 = 9,123 clicks. Brief baseline slightly stale but directionally right - reconciled in Stage A gate report.",
@@ -71,5 +76,6 @@
     "Levanta account approval - Stage F only",
     "EDITORIAL: best-wasp-nest-spray-canada Best Overall pick is a recalled SKU family; consider promoting a different Best Overall",
     "EDITORIAL: mosquito-bits-canada-vs-dunks states $34.99-$45 for 30oz Bits; live .ca price is now $74.36 (38% above the stated range)"
-  ]
+  ],
+  "next_scheduled_measurement": "2026-09-30 \u2014 re-measure Stage E positions and the diagram CTR experiment together"
 }
