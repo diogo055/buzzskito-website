@@ -97,7 +97,7 @@ export default function HowToGetRidOfWaspsCanadaPage() {
       </section>
 
       <AffiliateDisclosure />
-      <StickyBuyBar tag={AMZ_TAG} name="RESCUE! WHY Trap (wasps, hornets & yellowjackets)" search="rescue why trap" label="Best all-round trap" />
+      <StickyBuyBar tag={AMZ_TAG} name="RESCUE! WHY Trap (wasps, hornets & yellowjackets)" asin="B00BPTN6YC" search="rescue why trap" label="Best all-round trap" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -124,6 +124,7 @@ export default function HowToGetRidOfWaspsCanadaPage() {
             label="Our Top Trap Pick"
             name="RESCUE! WHY Trap (Wasps, Hornets & Yellowjackets)"
             blurb="The one trap that covers all three wasp groups Canadians actually deal with. Its dual-chamber design and multi-attractant lure catch paper wasps, bald-faced hornets, and yellowjackets in a single unit, each lure refill runs about two weeks, and it is reusable season after season. Hang it 6+ metres from your patio starting in mid-April to intercept spring queens. Reasonably priced for a multi-season tool — full teardown in our dedicated review below."
+            asin="B00BPTN6YC"
             search="rescue why trap"
             score={8.7}
             pros={['Catches all three wasp groups, not just yellowjackets', 'Reusable for years; only the lure is consumable', 'Spring deployment intercepts colony-founding queens']}

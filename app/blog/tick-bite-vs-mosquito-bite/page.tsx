@@ -188,6 +188,7 @@ export default function TickBiteVsMosquitoBitePage() {
           name="Fine-Tipped Tick-Removal Tool Set"
           blurb="A dedicated tick tool grips the tick right at the skin and lifts it straight out with even pressure — cleaner than fumbling with household tweezers, which matters most for tiny nymphs that are the hardest to grasp and the most likely to carry Lyme. Keep one in the first-aid kit before you need it."
           search="tick removal tool tweezers"
+          asin="B075DKL3Z6"
           score={8.7}
           pros={['Grips at the skin line for a clean, whole-tick pull', 'Works on tiny nymphs household tweezers miss', 'Inexpensive kit to keep on hand year-round']}
           cons={['Still requires steady technique — no twisting or crushing', 'Does not replace watching the bite for 3–30 days']}
@@ -281,7 +282,7 @@ export default function TickBiteVsMosquitoBitePage() {
         </div>
       </section>
 
-      <StickyBuyBar tag={AMZ_TAG} name="Fine-Tipped Tick-Removal Tool Set" search="tick removal tool tweezers" label="For tick removal" />
+      <StickyBuyBar tag={AMZ_TAG} name="Fine-Tipped Tick-Removal Tool Set" search="tick removal tool tweezers" asin="B075DKL3Z6" label="For tick removal" />
 
       <CTASection heading="Protect Your Yard from Ticks and Mosquitoes" subtext="Professional barrier spray — kills ticks at all life stages. Up to 30 days per treatment." variant="dark" />
     </>

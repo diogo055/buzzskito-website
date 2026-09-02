@@ -31,6 +31,9 @@ export default function BuyLink({
   component?: string
 }) {
   if (!AMAZON_ENABLED) return null
+  // No ASIN and no search means there is nothing to link to — render no button
+  // rather than a dead one styled to look clickable.
+  if (!asin && !(search ?? '').trim()) return null
   const base = block
     ? 'not-prose flex w-full min-h-[44px] items-center justify-center gap-1.5 rounded-xl bg-gradient-to-b from-amber-500 to-amber-600 px-5 py-3 text-sm font-bold text-white no-underline shadow-sm transition-transform hover:-translate-y-0.5'
     : 'not-prose inline-flex min-h-[44px] items-center gap-1.5 rounded-full bg-gradient-to-b from-amber-500 to-amber-600 px-4 py-2 text-sm font-bold text-white no-underline shadow-sm transition-transform hover:-translate-y-0.5'

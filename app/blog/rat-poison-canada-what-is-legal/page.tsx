@@ -160,6 +160,7 @@ export default function RatPoisonCanadaLegalPage() {
             name="Tomcat Rat Killer Disposable Bait Station (bromethalin)"
             blurb="The main PMRA-registered consumer rat poison in Canada: a sealed, tamper-resistant station pre-loaded with bromethalin, where a lethal single feeding typically kills in 24–48 hours. It's the right pick for light exterior pressure around a shed or garage — but there's no antidote for bromethalin, so keep it away from pets and children, and reach for traps first for most interior problems."
             search="tomcat rat killer disposable station"
+            asin="B012ODWW7Y"
             score={7.4}
             pros={['PMRA-registered for Canadian consumers', 'Sealed, tamper-resistant station', 'Faster than anticoagulants (24–48 hrs)']}
             cons={['No antidote for bromethalin', 'Poisoned rat can die out of reach', 'Traps beat it for most interior jobs']}

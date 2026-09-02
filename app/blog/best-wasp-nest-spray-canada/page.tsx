@@ -106,6 +106,19 @@ export default function BestWaspNestSprayCanadaPage() {
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
+          <div className="bg-red-50 border-2 border-red-300 rounded-xl p-5 my-6">
+            <p className="text-xs font-extrabold uppercase tracking-wider text-red-700 mb-2">Health Canada recall &mdash; check your can before you buy or use one</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed">
+              Health Canada has recalled <strong>Raid Max&reg; Wasp &amp; Hornet Foam Bug Killer 2</strong> (PCP registration <strong>30746</strong>) because cans manufactured at one facility can leak. Around 456,800 units were sold in Canada between December 2023 and January 2025. This affects that specific SKU, not every Raid wasp product &mdash; but the names are close enough that it is worth checking the PCP number printed on any can you already own or are about to buy.
+            </p>
+            <p className="text-gray-800 text-[15px] leading-relaxed mt-2">
+              Handle a leaking can carefully and wear gloves. Check whether yours is affected at{' '}
+              <a href="https://www.raidrecallcanada.com" rel="nofollow noopener noreferrer" target="_blank" className="font-semibold underline decoration-red-400 underline-offset-2">raidrecallcanada.com</a>{' '}
+              or read the{' '}
+              <a href="https://recalls-rappels.canada.ca/en/alert-recall/raidr-outdoor-ant-nest-destroyer-2-and-raid-maxr-wasp-hornet-foam-bug-killer-2" rel="nofollow noopener noreferrer" target="_blank" className="font-semibold underline decoration-red-400 underline-offset-2">Health Canada recall notice</a>.
+              The same recall also covers Raid&reg; Outdoor Ant Nest Destroyer 2 (PCP 30744). As of Health Canada&rsquo;s update, no injuries had been reported in Canada.
+            </p>
+          </div>
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
             <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The best wasp nest spray for most Canadian homes is a PMRA-registered foaming aerosol like <AmazonLink search="raid wasp hornet killer" tag={AMZ_TAG} className="font-bold underline decoration-emerald-500 underline-offset-2 hover:text-emerald-900">Raid Wasp &amp; Hornet Bug Killer</AmazonLink> &mdash; the foam blankets the nest entrance, traps returning workers, and keeps killing for hours. Wilson WaspOut is the strongest pure-foam alternative, and a long-jet Ortho Home Defense hornet and wasp aerosol is the pick when reach matters more than coverage. Spray at dusk, from the far end of the jet&rsquo;s reach, and always check the can for a Canadian PCP registration number.</p>

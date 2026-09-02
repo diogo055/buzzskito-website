@@ -106,7 +106,7 @@ export default function NaturalMosquitoRepellentPage() {
       </section>
 
       <AffiliateDisclosure />
-      <StickyBuyBar tag={AMZ_TAG} name="Off! Botanicals (oil of lemon eucalyptus)" search="off botanicals lemon eucalyptus" label="Best natural pick" />
+      <StickyBuyBar tag={AMZ_TAG} name="Off! Botanicals (oil of lemon eucalyptus)" search="off botanicals lemon eucalyptus" asin="B0CWQ3G2RB" label="Best natural pick" />
 
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
@@ -136,6 +136,7 @@ export default function NaturalMosquitoRepellentPage() {
                 name: 'Off! Botanicals (oil of lemon eucalyptus)',
                 why: 'The single plant-derived active Health Canada and the CDC rate on par with low-concentration DEET. Refined PMD gives around 95% protection with a light botanical scent.',
                 search: 'off botanicals lemon eucalyptus',
+                asin: 'B0CWQ3G2RB',
                 score: 9.0,
                 featured: true,
                 pros: ['DEET-comparable protection', '4–6 hours per application', 'Plant-derived (PMD)'],
@@ -203,6 +204,11 @@ export default function NaturalMosquitoRepellentPage() {
                   <td className="py-3 pr-4"><em>Eucalyptus citriodora</em></td>
                   <td className="py-3 pr-4">~95% (DEET-comparable)</td>
                   <td className="py-3">4&ndash;6 hrs</td>
+                </tr>
+                <tr className="border-b border-gray-200 bg-amber-50">
+                  <td className="py-3 pr-4 text-xs text-amber-900" colSpan={4}>
+                    <strong>Read the can, not just this row.</strong> The 4&ndash;6 hour figure comes from published trials of OLE at higher concentrations. Canadian PMRA-registered retail SKUs carry their own, more conservative label durations &mdash; the OFF! Botanicals lotion sold here is labelled up to 2 hours against mosquitoes and up to 5 hours against black flies. Reapply on the label&rsquo;s schedule, not this table&rsquo;s.
+                  </td>
                 </tr>
                 <tr className="border-b border-gray-200">
                   <td className="py-3 pr-4 font-semibold">Soybean oil</td>

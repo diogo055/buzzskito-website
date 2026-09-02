@@ -156,6 +156,7 @@ export default function HorseFlyDeerFlyBiteTreatmentPage() {
             name="Hydrocortisone 1% Anti-Itch Cream"
             blurb="For the itch and inflammation of a horse fly or deer fly bite, a 1% hydrocortisone cream is the most reliable over-the-counter fix — it calms the immune reaction to the fly's saliva so the welt stops itching and settles faster. Keep a tube in the car or bag through fly season."
             search="hydrocortisone anti itch cream"
+            asin="B0GBY8KXFY"
             score={8.6}
             pros={['Calms itch and swelling fast', 'Inexpensive and widely stocked', 'Small enough to keep on hand']}
             cons={['Apply to intact skin only', 'Not for a deep, open, weeping cut']}
@@ -262,7 +263,7 @@ export default function HorseFlyDeerFlyBiteTreatmentPage() {
         </div>
       </article>
 
-      <StickyBuyBar tag={AMZ_TAG} name="Hydrocortisone 1% Anti-Itch Cream" search="hydrocortisone anti itch cream" label="For bite relief" />
+      <StickyBuyBar tag={AMZ_TAG} name="Hydrocortisone 1% Anti-Itch Cream" search="hydrocortisone anti itch cream" asin="B0GBY8KXFY" label="For bite relief" />
 
       <CTASection heading="Fewer Biting Flies Around Your Patio" subtext="Horse flies and deer flies rest in the same overgrown, damp yard edges as mosquitoes. One barrier treatment cuts the pressure. From $99." variant="dark" />
     </>

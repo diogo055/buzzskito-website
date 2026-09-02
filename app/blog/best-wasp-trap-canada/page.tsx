@@ -106,7 +106,7 @@ export default function BestWaspTrapCanadaPage() {
       </section>
 
       <AffiliateDisclosure />
-      <StickyBuyBar tag={AMZ_TAG} name="RESCUE! WHY Trap (wasps, hornets & yellowjackets)" search="rescue why trap wasp hornet yellowjacket" label="Best overall" />
+      <StickyBuyBar tag={AMZ_TAG} name="RESCUE! WHY Trap (wasps, hornets & yellowjackets)" asin="B00BPTN6YC" search="rescue why trap wasp hornet yellowjacket" label="Best overall" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -139,6 +139,7 @@ export default function BestWaspTrapCanadaPage() {
                 badge: 'Best Overall',
                 name: 'RESCUE! WHY Trap (Wasps, Hornets & Yellowjackets)',
                 why: 'The only mainstream trap engineered for all three problem groups at once — a double-chamber design with separate top and bottom attractants. Reusable for years; you only rebuy the modestly priced lure refills.',
+                asin: 'B00BPTN6YC',
                 search: 'rescue why trap wasp hornet yellowjacket',
                 score: 9.0,
                 featured: true,

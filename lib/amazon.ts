@@ -45,5 +45,11 @@ export function amazonUrl(opts: { asin?: string; search?: string; tag?: string }
   if (opts.asin) {
     return `https://www.amazon.ca/dp/${enc(opts.asin)}?tag=${t}&linkCode=ll1&language=en_CA`
   }
-  return `https://www.amazon.ca/s?k=${enc(opts.search ?? '')}&tag=${t}&linkCode=ll2&language=en_CA`
+  // Fail closed on an empty query too. Without this, a card that deliberately has
+  // no product to link to (because the product is not sold on amazon.ca) would
+  // still emit `?k=` — a link to a BLANK Amazon search. Callers that legitimately
+  // have nothing to sell should render no button at all.
+  const q = (opts.search ?? '').trim()
+  if (!q) return null
+  return `https://www.amazon.ca/s?k=${enc(q)}&tag=${t}&linkCode=ll2&language=en_CA`
 }

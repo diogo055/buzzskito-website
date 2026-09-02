@@ -18,7 +18,7 @@ const TITLE = 'Permethrin Canada: Where to Buy + Is It Legal? (2026)'
 const FAQS = [
   {
     question: 'Is permethrin legal in Canada?',
-    answer: 'Yes — permethrin is legal in Canada and registered by Health Canada\'s Pest Management Regulatory Agency (PMRA). The catch is the format: low-concentration permethrin CLOTHING spray (Sawyer 0.5%) is legal to buy and use as a consumer product, and permethrin-treated clothing is legal to buy and wear. However, higher-concentration permethrin YARD/lawn concentrates are classified as commercial or restricted-class products and can only be legally applied by a licensed pest control operator. So it is legal to buy Sawyer permethrin at Canadian Tire, MEC, Cabela\'s, and Amazon.ca for clothing — it is NOT legal for a homeowner to spray concentrated permethrin on their own lawn.',
+    answer: 'Yes — permethrin is legal in Canada and registered by Health Canada\'s Pest Management Regulatory Agency (PMRA). The catch is the format: low-concentration permethrin CLOTHING spray (Sawyer 0.5%) is legal to buy and use as a consumer product, and permethrin-treated clothing is legal to buy and wear. However, higher-concentration permethrin YARD/lawn concentrates are classified as commercial or restricted-class products and can only be legally applied by a licensed pest control operator. So it is legal to buy Sawyer permethrin at Canadian Tire, MEC, Cabela\'s for clothing — it is NOT legal for a homeowner to spray concentrated permethrin on their own lawn.',
   },
   {
     question: 'Where to buy permethrin spray in Canada?',
@@ -74,7 +74,7 @@ const FAQS = [
   },
   {
     question: 'How do you get permethrin in Canada?',
-    answer: 'For clothing use, simply buy ready-to-use Sawyer 0.5% permethrin spray at Canadian outdoor retailers or on Amazon.ca, or buy factory-treated Insect Shield garments — both are legal consumer products. What you cannot legally get in Canada is yard/turf permethrin concentrate: Health Canada PMRA classifies it as commercial- or restricted-class, so only a licensed applicator can obtain and apply it. For whole-yard protection, book a licensed Ontario operator like BuzzSkito.',
+    answer: 'For clothing use, simply buy ready-to-use Sawyer 0.5% permethrin spray at Canadian outdoor retailers, or buy factory-treated Insect Shield garments — both are legal consumer products. What you cannot legally get in Canada is yard/turf permethrin concentrate: Health Canada PMRA classifies it as commercial- or restricted-class, so only a licensed applicator can obtain and apply it. For whole-yard protection, book a licensed Ontario operator like BuzzSkito.',
   },
   {
     question: 'Why is permethrin not on Canadian store shelves?',
@@ -111,7 +111,7 @@ export default function PermethrinCanadaPage() {
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
           <div className="speakable rounded-xl bg-white/10 border border-white/20 p-4 mb-4 max-w-3xl">
             <p className="text-xs font-extrabold text-amber-300 uppercase tracking-wider mb-1">Is permethrin legal in Canada?</p>
-            <p className="text-base sm:text-lg text-white leading-relaxed">Yes &mdash; permethrin is legal in Canada. Health Canada&rsquo;s PMRA registers low-concentration Sawyer 0.5% clothing spray as a consumer product you can buy at Cabela&rsquo;s, MEC, Canadian Tire and Amazon.ca. Higher-concentration yard/turf concentrate is restricted &mdash; only a licensed Ontario applicator may spray it on your lawn.</p>
+            <p className="text-base sm:text-lg text-white leading-relaxed">Yes &mdash; permethrin is legal in Canada. Health Canada&rsquo;s PMRA registers low-concentration Sawyer 0.5% clothing spray as a consumer product you can buy at Cabela&rsquo;s, MEC and Canadian Tire. Higher-concentration yard/turf concentrate is restricted &mdash; only a licensed Ontario applicator may spray it on your lawn.</p>
           </div>
           <p className="text-xl text-brand-100 max-w-3xl">Where to buy Sawyer permethrin clothing spray in Canada, why yard-application is restricted by Health Canada, and the licensed Ontario alternative for whole-yard tick and mosquito control.</p>
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
@@ -119,14 +119,14 @@ export default function PermethrinCanadaPage() {
       </section>
 
       <AffiliateDisclosure />
-      <StickyBuyBar tag={AMZ_TAG} name="Sawyer Permethrin Clothing + Gear Spray (0.5%)" search="sawyer permethrin clothing spray" label="Best consumer permethrin" />
+      <StickyBuyBar tag={AMZ_TAG} name="Permethrin-treated clothing (Insect Shield)" search="insect shield permethrin treated clothing" label="Legal ready-to-wear option" />
 
       {/* ANSWER CAPSULE */}
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">For most Canadians the only permethrin you can legally buy is Sawyer 0.5% clothing spray &mdash; the best consumer pick for killing ticks on treated clothing &mdash; sold at Cabela&rsquo;s, MEC, Canadian Tire and Amazon.ca for $24&ndash;$38. Higher-concentration yard concentrate is restricted to licensed applicators, so whole-yard protection means hiring a licensed Ontario operator.</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">For most Canadians the only permethrin you can legally buy is Sawyer 0.5% clothing spray &mdash; the best consumer pick for killing ticks on treated clothing &mdash; sold at Cabela&rsquo;s, MEC and Canadian Tire for $24&ndash;$38. Higher-concentration yard concentrate is restricted to licensed applicators, so whole-yard protection means hiring a licensed Ontario operator.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
               <li>Sawyer permethrin clothing spray (24 oz) costs $24&ndash;$38 in Canada; the 12 oz runs $18&ndash;$28.</li>
               <li>Permethrin bonds to fabric and stays effective through 6 wash cycles or about 6 weeks of wear.</li>
@@ -152,8 +152,7 @@ export default function PermethrinCanadaPage() {
               {
                 badge: 'Best Overall',
                 name: 'Sawyer Permethrin Clothing + Gear Spray (24 oz)',
-                why: 'The only consumer permethrin you can legally buy in Canada — spray it on pants, socks, and boots (never skin, never your lawn) and it keeps killing ticks on contact for 6 weeks or 6 wash cycles. One 24-oz bottle treats about two full outfits.',
-                search: 'sawyer permethrin clothing spray',
+                why: 'The only consumer permethrin you can legally buy in Canada — spray it on pants, socks, and boots (never skin, never your lawn) and it keeps killing ticks on contact for 6 weeks or 6 wash cycles. One 24-oz bottle treats about two full outfits. Not stocked on Amazon.ca — buy it from the Canadian outdoor retailers priced in the table below.',
                 score: 8.7,
                 featured: true,
                 pros: ['Kills ticks on contact through treated fabric', 'One application lasts 6 weeks or 6 wash cycles', 'Legal consumer product, widely stocked in Canada'],
@@ -162,8 +161,7 @@ export default function PermethrinCanadaPage() {
               {
                 badge: 'Best Starter Size',
                 name: 'Sawyer Permethrin Spray (12 oz)',
-                why: 'The same 0.5% Sawyer formula in the smaller $18–$28 bottle — enough to treat roughly one full hiking outfit for a season of weekend trips before you commit to the big bottle.',
-                search: 'sawyer permethrin clothing spray',
+                why: 'The same 0.5% Sawyer formula in the smaller $18–$28 bottle — enough to treat roughly one full hiking outfit for a season of weekend trips before you commit to the big bottle. Also a Canadian-retailer buy, not an Amazon one.',
                 score: 8.0,
                 pros: ['Cheapest way to try permethrin-treated clothing', 'Same 6-week / 6-wash protection as the 24 oz', 'Small enough to stash in a gear bin'],
                 cons: ['Runs out fast treating a family’s gear — the 24 oz costs less per ounce', 'Same rules apply: clothing only, and cats need it fully dry'],
@@ -215,7 +213,7 @@ export default function PermethrinCanadaPage() {
             </table>
           </div>
           <div className="mt-4 flex flex-wrap items-center gap-3">
-            <BuyLink tag={AMZ_TAG} search="sawyer permethrin clothing spray">Check Sawyer Permethrin price on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="insect shield permethrin treated clothing">Shop permethrin-treated clothing on Amazon.ca →</BuyLink>
           </div>
           <p className="text-xs text-gray-500 mt-3">
             Prices accurate as of July 2026. Sawyer permethrin clothing spray is the only widely-stocked option in Canada — Insect Shield factory-treated clothing is also available at $40–$120 per garment.
@@ -267,7 +265,7 @@ export default function PermethrinCanadaPage() {
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
           <p className="not-prose text-sm text-gray-600 mb-1">The permethrin brand you will find in Canadian stores is Sawyer — for clothing, gear, and tents (never skin):</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink tag={AMZ_TAG} search="sawyer permethrin clothing spray">Check Sawyer Permethrin price on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="insect shield permethrin treated clothing">Shop permethrin-treated clothing on Amazon.ca →</BuyLink>
           </div>
           <h2>What Permethrin Does (and Why It&rsquo;s Different from DEET)</h2>
           <p>Permethrin is a synthetic version of pyrethrin, the natural insecticide found in chrysanthemum flowers. Unlike DEET and picaridin (which are <strong>repellents</strong> applied to skin), permethrin is a <strong>contact insecticide</strong> applied to clothing. When a tick or mosquito lands on permethrin-treated fabric, the chemical disrupts its nervous system within seconds — the insect either falls off or dies before biting through the fabric.</p>
@@ -280,7 +278,7 @@ export default function PermethrinCanadaPage() {
               <tr><th className="px-3 py-2 text-left">Permethrin format</th><th className="px-3 py-2 text-left">Legal for consumers in Canada?</th><th className="px-3 py-2 text-left">Where</th></tr>
             </thead>
             <tbody>
-              <tr className="border-t border-navy-50"><td className="px-3 py-2">Sawyer 0.5% clothing/gear spray</td><td className="px-3 py-2 text-emerald-700 font-semibold">Yes — buy &amp; use freely</td><td className="px-3 py-2">Cabela&rsquo;s, MEC, Canadian Tire, Amazon.ca</td></tr>
+              <tr className="border-t border-navy-50"><td className="px-3 py-2">Sawyer 0.5% clothing/gear spray</td><td className="px-3 py-2 text-emerald-700 font-semibold">Yes — buy &amp; use freely</td><td className="px-3 py-2">Cabela&rsquo;s, MEC, Canadian Tire</td></tr>
               <tr className="border-t border-navy-50"><td className="px-3 py-2">Insect Shield treated clothing</td><td className="px-3 py-2 text-emerald-700 font-semibold">Yes — buy &amp; wear</td><td className="px-3 py-2">Outdoor apparel brands, Amazon.ca</td></tr>
               <tr className="border-t border-navy-50"><td className="px-3 py-2">10%–36.8% yard/turf concentrate</td><td className="px-3 py-2 text-rose-700 font-semibold">No — licensed applicator only</td><td className="px-3 py-2">Not sold to Canadian consumers</td></tr>
             </tbody>
@@ -328,7 +326,7 @@ export default function PermethrinCanadaPage() {
           <h3>1. Sawyer Permethrin Clothing Spray (0.5%)</h3>
           <p>The standard product. Apply to outdoor clothing — pants, shirts, socks, hat, hiking boots, gear bags. Let dry 24 hours before wearing. Re-apply after 6 wash cycles. Effective against ticks, mosquitoes, blackflies, and chiggers.</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink tag={AMZ_TAG} search="sawyer permethrin clothing spray">Check Sawyer Permethrin spray price on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="insect shield permethrin treated clothing">Shop permethrin-treated clothing on Amazon.ca →</BuyLink>
           </div>
           <h3>2. Insect Shield Factory-Treated Clothing</h3>
           <p>Pre-treated clothing from outdoor brands (ExOfficio, Orvis, Columbia, etc.) using a proprietary permethrin-bonding process. Lasts 70 wash cycles vs 6 for spray-on. Higher upfront cost ($40–$120 per garment) but far lower long-term cost for frequent hikers.</p>
