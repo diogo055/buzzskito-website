@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" width="720" height="400" role="img" aria-label="Identification chart of the three ticks found in Ontario: blacklegged tick, American dog tick and lone star tick, with markings, size and disease risk">
+  <title>Ticks in Ontario — which one is on you</title>
+  <desc>The blacklegged or deer tick has a plain dark shield and orange-red body and is the only Ontario tick that transmits Lyme disease. The American dog tick is larger with white marbled markings on the shield and does not carry Lyme. The lone star tick has a single white dot on the female and is uncommon but expanding.</desc>
+  <rect width="720" height="400" fill="#ffffff"/>
+
+  <text x="24" y="34" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#0f2942">The three ticks you may find in Ontario</text>
+  <text x="24" y="56" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="13" fill="#5a6b7c">Only one of them transmits Lyme disease. The shield markings tell you which you have.</text>
+
+  <!-- ═══ BLACKLEGGED ═══ -->
+  <g transform="translate(24,80)">
+    <rect x="0" y="0" width="218" height="238" rx="10" fill="#fff5f5" stroke="#f0a9a2" stroke-width="2"/>
+    <text x="16" y="26" font-family="system-ui,sans-serif" font-size="14" font-weight="700" fill="#0f2942">Blacklegged tick</text>
+    <text x="16" y="44" font-family="system-ui,sans-serif" font-size="11" fill="#5a6b7c">also called deer tick</text>
+
+    <g transform="translate(109,116)">
+      <g stroke="#1a1a1a" stroke-width="2" fill="none">
+        <path d="M-20,-16 L-40,-28 M-22,-6 L-46,-10 M-22,6 L-46,12 M-20,16 L-40,32"/>
+        <path d="M20,-16 L40,-28 M22,-6 L46,-10 M22,6 L46,12 M20,16 L40,32"/>
+      </g>
+      <ellipse cx="0" cy="2" rx="22" ry="28" fill="#c1552e"/>
+      <path d="M-16,-18 q16,-9 32,0 q2,14 -16,18 q-18,-4 -16,-18 z" fill="#241a14"/>
+      <path d="M0,-28 l-3,-8 h6 z" fill="#241a14"/>
+    </g>
+    <text x="16" y="186" font-family="system-ui,sans-serif" font-size="11.5" fill="#33566b"><tspan font-weight="700">Shield:</tspan> plain dark, no pattern</text>
+    <text x="16" y="203" font-family="system-ui,sans-serif" font-size="11.5" fill="#33566b"><tspan font-weight="700">Body:</tspan> orange-red &#183; <tspan font-weight="700">legs:</tspan> black</text>
+    <text x="16" y="220" font-family="system-ui,sans-serif" font-size="11.5" fill="#33566b"><tspan font-weight="700">Adult:</tspan> 3 mm &#183; nymph 1.5 mm</text>
+    <rect x="12" y="228" width="194" height="0" fill="none"/>
+  </g>
+  <g transform="translate(24,324)">
+    <rect x="0" y="0" width="218" height="32" rx="7" fill="#fee2e0"/>
+    <text x="12" y="21" font-family="system-ui,sans-serif" font-size="11.5" font-weight="700" fill="#9b2c22">Carries Lyme disease</text>
+  </g>
+
+  <!-- ═══ AMERICAN DOG ═══ -->
+  <g transform="translate(252,80)">
+    <rect x="0" y="0" width="218" height="238" rx="10" fill="#fafcfd" stroke="#dbe4ec"/>
+    <text x="16" y="26" font-family="system-ui,sans-serif" font-size="14" font-weight="700" fill="#0f2942">American dog tick</text>
+    <text x="16" y="44" font-family="system-ui,sans-serif" font-size="11" fill="#5a6b7c">the common one on pets</text>
+
+    <g transform="translate(109,116)">
+      <g stroke="#3a2410" stroke-width="2.2" fill="none">
+        <path d="M-24,-18 L-46,-32 M-26,-6 L-52,-12 M-26,7 L-52,14 M-24,19 L-46,36"/>
+        <path d="M24,-18 L46,-32 M26,-6 L52,-12 M26,7 L52,14 M24,19 L46,36"/>
+      </g>
+      <ellipse cx="0" cy="2" rx="27" ry="33" fill="#6b4a2e"/>
+      <path d="M-20,-22 q20,-11 40,0 q3,17 -20,22 q-23,-5 -20,-22 z" fill="#3a2a1c"/>
+      <g fill="#e8e0d0" opacity="0.9">
+        <path d="M-14,-18 q8,-4 6,4 q-6,4 -6,-4 z"/>
+        <path d="M2,-20 q9,-3 7,5 q-7,4 -7,-5 z"/>
+        <path d="M-8,-6 q10,-3 8,5 q-9,3 -8,-5 z"/>
+        <path d="M8,-8 q9,-2 7,5 q-8,3 -7,-5 z"/>
+      </g>
+      <path d="M0,-33 l-3,-8 h6 z" fill="#3a2a1c"/>
+    </g>
+    <text x="16" y="192" font-family="system-ui,sans-serif" font-size="11.5" fill="#33566b"><tspan font-weight="700">Shield:</tspan> white marbled pattern</text>
+    <text x="16" y="209" font-family="system-ui,sans-serif" font-size="11.5" fill="#33566b"><tspan font-weight="700">Body:</tspan> brown &#183; noticeably larger</text>
+    <text x="16" y="226" font-family="system-ui,sans-serif" font-size="11.5" fill="#33566b"><tspan font-weight="700">Adult:</tspan> 5 mm unfed</text>
+  </g>
+  <g transform="translate(252,324)">
+    <rect x="0" y="0" width="218" height="32" rx="7" fill="#e8f5ee"/>
+    <text x="12" y="21" font-family="system-ui,sans-serif" font-size="11.5" font-weight="700" fill="#1e6b4f">Does not carry Lyme</text>
+  </g>
+
+  <!-- ═══ LONE STAR ═══ -->
+  <g transform="translate(480,80)">
+    <rect x="0" y="0" width="216" height="238" rx="10" fill="#fafcfd" stroke="#dbe4ec"/>
+    <text x="16" y="26" font-family="system-ui,sans-serif" font-size="14" font-weight="700" fill="#0f2942">Lone star tick</text>
+    <text x="16" y="44" font-family="system-ui,sans-serif" font-size="11" fill="#5a6b7c">uncommon, but expanding north</text>
+
+    <g transform="translate(108,116)">
+      <g stroke="#4a3218" stroke-width="2" fill="none">
+        <path d="M-21,-16 L-42,-30 M-23,-5 L-48,-10 M-23,7 L-48,13 M-21,17 L-42,33"/>
+        <path d="M21,-16 L42,-30 M23,-5 L48,-10 M23,7 L48,13 M21,17 L42,33"/>
+      </g>
+      <ellipse cx="0" cy="2" rx="24" ry="30" fill="#8a5a2e"/>
+      <circle cx="0" cy="8" r="7" fill="#f0e6c8"/>
+      <path d="M-17,-19 q17,-10 34,0 q2,10 -17,13 q-19,-3 -17,-13 z" fill="#5c3d1e"/>
+      <path d="M0,-30 l-3,-7 h6 z" fill="#5c3d1e"/>
+    </g>
+    <text x="16" y="192" font-family="system-ui,sans-serif" font-size="11.5" fill="#33566b"><tspan font-weight="700">Shield:</tspan> one white dot (female)</text>
+    <text x="16" y="209" font-family="system-ui,sans-serif" font-size="11.5" fill="#33566b"><tspan font-weight="700">Body:</tspan> round, tan-brown</text>
+    <text x="16" y="226" font-family="system-ui,sans-serif" font-size="11.5" fill="#33566b"><tspan font-weight="700">Adult:</tspan> 4 mm &#183; very aggressive</text>
+  </g>
+  <g transform="translate(480,324)">
+    <rect x="0" y="0" width="216" height="32" rx="7" fill="#fff7ed"/>
+    <text x="12" y="21" font-family="system-ui,sans-serif" font-size="11.5" font-weight="700" fill="#92400e">Linked to alpha-gal allergy</text>
+  </g>
+
+  <text x="24" y="380" font-family="system-ui,sans-serif" font-size="11.5" fill="#5a6b7c">Nymphs cause most Lyme cases because they are poppy-seed sized and easy to miss. A tick attached under 24 hours rarely transmits &#8212; check the same day you come in from long grass.</text>
+</svg>

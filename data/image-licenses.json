@@ -8,11 +8,11 @@
     ],
     "approvedSources": [
       "Original diagrams authored for BuzzSkito (licence: original, no attribution needed)",
-      "CDC Public Health Image Library (PHIL) — largely public domain, verify per asset",
-      "USDA / EPA / NIH / NIAID — generally public domain",
-      "Public Health Ontario / Health Canada — Crown copyright, verify terms per asset",
-      "University extension services (Ohio State, Penn State, UC IPM, URI TickEncounter) — terms vary",
-      "Wikimedia Commons filtered to CC0 / CC BY / CC BY-SA — record required attribution"
+      "CDC Public Health Image Library (PHIL) \u2014 largely public domain, verify per asset",
+      "USDA / EPA / NIH / NIAID \u2014 generally public domain",
+      "Public Health Ontario / Health Canada \u2014 Crown copyright, verify terms per asset",
+      "University extension services (Ohio State, Penn State, UC IPM, URI TickEncounter) \u2014 terms vary",
+      "Wikimedia Commons filtered to CC0 / CC BY / CC BY-SA \u2014 record required attribution"
     ]
   },
   "images": [
@@ -22,9 +22,11 @@
       "author": "BuzzSkito",
       "created": "2026-09-02",
       "attributionRequired": false,
-      "usedOn": ["/blog/tick-vs-bed-bug"],
+      "usedOn": [
+        "/blog/tick-vs-bed-bug"
+      ],
       "depicts": "Blacklegged tick life stages (larva 0.5mm, nymph 1.5mm, unfed adult female 3mm, engorged 10mm) and bed bug (nymph 1.5mm, adult 5mm) drawn to a shared millimetre scale.",
-      "factBasis": "Ixodes scapularis stage measurements and bed bug adult size (~5mm, apple-seed) are standard CDC/public-health reference figures. Leg count 8 (tick nymph/adult) vs 6 (bed bug) is definitional — ticks are arachnids.",
+      "factBasis": "Ixodes scapularis stage measurements and bed bug adult size (~5mm, apple-seed) are standard CDC/public-health reference figures. Leg count 8 (tick nymph/adult) vs 6 (bed bug) is definitional \u2014 ticks are arachnids.",
       "notes": "Schematic silhouettes, not photographs. Scale bar is the load-bearing element; do not rescale figures independently of it."
     },
     {
@@ -33,7 +35,9 @@
       "author": "BuzzSkito",
       "created": "2026-09-02",
       "attributionRequired": false,
-      "usedOn": ["/blog/what-does-mouse-poop-look-like-canada"],
+      "usedOn": [
+        "/blog/what-does-mouse-poop-look-like-canada"
+      ],
       "depicts": "Dropping size and end-shape comparison: house mouse 3-6mm pointed, Norway rat 12-19mm blunt, roof rat 12-13mm tapered, squirrel 8mm barrel, bat guano 6-12mm crumbling, cockroach 1-2mm ridged.",
       "factBasis": "Standard rodent-identification reference measurements used by public health and extension services. Norway rat blunt vs roof rat tapered ends is the conventional field distinction.",
       "notes": "Carries the hantavirus-safe cleanup warning (no dry sweeping or vacuuming) inside the graphic, per Health Canada / CDC guidance."
@@ -44,7 +48,9 @@
       "author": "BuzzSkito",
       "created": "2026-09-02",
       "attributionRequired": false,
-      "usedOn": ["/blog/bugs-that-look-like-ticks"],
+      "usedOn": [
+        "/blog/bugs-that-look-like-ticks"
+      ],
       "depicts": "Blacklegged tick compared against spider beetle, clover mite and bed bug across four discriminating attributes: leg count, antennae, body shape, colour, true size.",
       "factBasis": "Ticks (Arachnida) have 8 legs and no antennae; spider beetles and bed bugs (Insecta) have 6 legs plus antennae. Clover mites are 8-legged, ~0.75mm, bright red, with a distinctively elongated front leg pair.",
       "notes": "Figures are enlarged for legibility; true size is stated in a dedicated column rather than implied by the drawing."
@@ -55,7 +61,9 @@
       "author": "BuzzSkito",
       "created": "2026-09-02",
       "attributionRequired": false,
-      "usedOn": ["/blog/mosquito-larvae-identification"],
+      "usedOn": [
+        "/blog/mosquito-larvae-identification"
+      ],
       "depicts": "Mosquito larvae suspended head-down from the water surface with siphon, abdomen and head labelled; comma-shaped pupa; and the two common look-alikes (midge bloodworm, rat-tailed maggot).",
       "factBasis": "Culicidae larvae hang from the surface film and respire through a posterior siphon; 3-12mm depending on instar; pupa is comma-shaped and non-feeding. Chironomid larvae are red (haemoglobin) and bottom-dwelling. Rat-tailed maggot is a syrphid with an elongated respiratory siphon.",
       "notes": "The S-shaped thrashing motion is the field-reliable behavioural cue and is called out explicitly."
@@ -75,6 +83,64 @@
       "depicts": "Distribution and grouping patterns for mosquito, bed bug, flea, chigger, tick and no-see-um bites on schematic limb outlines.",
       "factBasis": "Pattern-based differentiation (bed bug linear/clustered on mattress-contact skin; flea concentrated below the knee; chigger at clothing-compression lines; mosquito random on exposed skin) is the standard clinical and entomological heuristic.",
       "notes": "DELIBERATE DESIGN DECISION: this diagram shows PATTERN AND DISTRIBUTION on neutral limb outlines, never skin appearance. Bite appearance varies enormously by individual and skin tone, so depicting it would risk misrepresenting a medical condition. The graphic makes only the claim it can support. Carries the 'spreading ring needs a doctor' note for tick bites."
+    },
+    {
+      "file": "/diagrams/mosquito-bite-mechanism.svg",
+      "licence": "original",
+      "author": "BuzzSkito",
+      "created": "2026-09-02",
+      "attributionRequired": false,
+      "usedOn": [
+        "/blog/why-do-mosquito-bites-itch",
+        "/blog/how-many-times-can-a-mosquito-bite-you",
+        "/blog/why-do-mosquitoes-bite-my-ankles"
+      ],
+      "depicts": "Cross-section of a mosquito feeding: six mouthpart stylets piercing skin to a capillary, saliva injection, and a four-step sequence ending in the histamine reaction that causes the welt.",
+      "factBasis": "Female Culicidae feed using a fascicle of six stylets (two maxillae, two mandibles, hypopharynx delivering saliva, labrum drawing blood). Saliva contains anticoagulants and is injected before feeding; the welt and itch are an IgE-mediated histamine response to salivary proteins, not to the puncture. Feeding takes roughly 2-4 minutes and an interrupted female re-lands.",
+      "notes": "Schematic. Skin layers are simplified and not to anatomical scale; the stylet callout is a magnified inset, labelled as such."
+    },
+    {
+      "file": "/diagrams/horse-fly-vs-deer-fly.svg",
+      "licence": "original",
+      "author": "BuzzSkito",
+      "created": "2026-09-02",
+      "attributionRequired": false,
+      "usedOn": [
+        "/blog/horse-fly-and-deer-fly-bite-treatment",
+        "/blog/deer-flies-horse-flies-ontario"
+      ],
+      "depicts": "Side-by-side of Tabanus (horse fly, 20-25mm, clear wings, solid iridescent eyes) and Chrysops (deer fly, 8-10mm, banded wings, striped gold-green eyes).",
+      "factBasis": "Tabanidae females are telmophages: mandibular blades lacerate skin and they feed from the resulting blood pool, which is why the bite is immediately painful and often bleeds. Chrysops species are distinguished by patterned wings; Tabanus species have unmarked wings and are substantially larger.",
+      "notes": "Wing pattern is the field-reliable discriminator and is the element the graphic leads with."
+    },
+    {
+      "file": "/diagrams/bed-bug-evidence-chart.svg",
+      "licence": "original",
+      "author": "BuzzSkito",
+      "created": "2026-09-02",
+      "attributionRequired": false,
+      "usedOn": [
+        "/blog/bed-bug-stains-poop-droppings-canada",
+        "/blog/bugs-that-look-like-bed-bugs-canada"
+      ],
+      "depicts": "Bed bug evidence on a mattress seam: faecal spots (~1mm, bleeding into fabric), crushed-bug rust smears, translucent shed skins across five instars (1.5-5mm), pearl-white eggs (~1mm), and a live adult.",
+      "factBasis": "Cimex lectularius passes digested blood as liquid faeces that wicks into fabric, distinguishing it from surface dirt. Five nymphal instars each moult, so multiple sizes of exuviae indicate an established breeding population rather than an introduction. Eggs are ~1mm, cemented into harbourage seams, and resist many contact insecticides.",
+      "notes": "Includes an explicit 'bites alone are not evidence' panel: bite reaction varies enormously between individuals, so bites are deliberately excluded from the evidence list."
+    },
+    {
+      "file": "/diagrams/tick-species-ontario.svg",
+      "licence": "original",
+      "author": "BuzzSkito",
+      "created": "2026-09-02",
+      "attributionRequired": false,
+      "usedOn": [
+        "/blog/what-ticks-look-like-ontario",
+        "/blog/types-of-ticks-identification",
+        "/blog/what-does-tick-look-like-on-dog"
+      ],
+      "depicts": "The three tick species found in Ontario compared on scutum markings, body colour, adult size and disease risk: blacklegged 3mm plain dark shield, American dog tick 5mm white marbled shield, lone star 4mm single white dot.",
+      "factBasis": "Ixodes scapularis (blacklegged/deer tick) is the only established Ontario vector of Borrelia burgdorferi. Dermacentor variabilis (American dog tick) has ornate white scutal markings and does not transmit Lyme. Amblyomma americanum females carry a single white scutal spot and are associated with alpha-gal syndrome; it is not yet established in Ontario but is expanding northward.",
+      "notes": "Disease-risk statements are limited to well-established vector relationships. The 'under 24 hours rarely transmits' note reflects standard public-health guidance on attachment time."
     }
   ]
 }

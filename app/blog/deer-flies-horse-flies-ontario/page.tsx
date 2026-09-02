@@ -7,6 +7,7 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
+import Figure from '@/components/Figure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
 
@@ -164,6 +165,14 @@ export default function DeerFliesHorseFliesOntarioPage() {
           />
 
           <h2>Meet Ontario&rsquo;s Two Biting Flies</h2>
+          <Figure
+            src="/diagrams/horse-fly-vs-deer-fly.svg"
+            alt="Side-by-side comparison of horse fly and deer fly showing size, wing markings, eye pattern and bite behaviour"
+            caption="The wings settle it: deer flies carry dark bands across theirs, horse flies do not. Both hunt by sight on hot still days near water."
+            width={720}
+            height={380}
+            priority
+          />
           <p>If a fast, tenacious fly has ever ruined a lakeside hike or a canoe portage, it was almost certainly a deer fly or a horse fly. Both belong to the family <strong>Tabanidae</strong> — the group entomologists literally call &ldquo;horse flies and deer flies.&rdquo; They share the same basic biology: only the females bite, because they need a protein-rich blood meal to develop their eggs. The males are harmless flower visitors, feeding on nectar and pollen and never touching you.</p>
           <p>The quickest way to tell them apart is <strong>size and eyes</strong>. A deer fly is roughly the size of a housefly, has clear wings crossed by dark bands or smudges, and carries dazzling green-and-gold patterned eyes. A horse fly is a heavyweight — up to three centimetres — with a thick body, mostly clear wings, and huge solid dark eyes. Deer flies circle your head; horse flies tend to plant themselves on your back or legs and bite before you notice.</p>
 

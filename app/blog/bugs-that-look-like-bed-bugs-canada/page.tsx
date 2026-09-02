@@ -9,6 +9,7 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import CTASection from '@/components/CTASection'
+import Figure from '@/components/Figure'
 import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'bugs-that-look-like-bed-bugs-canada'
@@ -338,6 +339,13 @@ export default function BugsThatLookLikeBedBugsCanadaPage() {
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
 
           <h2>Start With the Bed Bug Itself: Five Features That Settle It</h2>
+          <Figure
+            src="/diagrams/bed-bug-evidence-chart.svg"
+            alt="Chart of bed bug evidence including faecal spots, rust smears, shed skins and eggs, each shown at true size"
+            caption="Before identifying the insect, check for the evidence trail. Shed skins in several sizes and ink-like spotting along a seam confirm bed bugs in a way a single ambiguous insect never can."
+            width={720}
+            height={400}
+          />
           <p>Almost every bad identification comes from matching on colour. Reddish-brown describes a bed bug, a spider beetle, a larder beetle, a flea, a tick and half the beetles that wander into a Canadian house in July. Colour is the least useful feature available. These five are the ones that actually decide.</p>
           <ul>
             <li><strong>Flat, not domed.</strong> An unfed adult bed bug is compressed top to bottom &mdash; the classic description is an apple seed, and the point of the comparison is the flatness, not the colour. Beetles are three-dimensional: rounded backs, a hard shell, and a visible seam running down the middle where the two wing covers meet. If you can see that seam, you are holding a beetle.</li>

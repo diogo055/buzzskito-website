@@ -7,6 +7,7 @@ import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import Figure from '@/components/Figure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
 
@@ -245,6 +246,14 @@ export default function TypesOfTicksIdentificationPage() {
           <p>Finding a tick is unsettling — but the species you are looking at changes everything about the risk and what you should do next. This hub is the master identification page: use the chart above to narrow it down fast, then follow the links to a detailed close-up guide for each specific tick. Below, we walk through the four features that actually let you tell ticks apart, then hit each common North American species one by one.</p>
 
           <h2>The 4 Features That Identify Any Tick</h2>
+          <Figure
+            src="/diagrams/tick-species-ontario.svg"
+            alt="Identification chart of the blacklegged tick, American dog tick and lone star tick found in Ontario with markings, size and disease risk"
+            caption="White marbling on the shield means American dog tick, which does not carry Lyme. A single white dot means a female lone star tick."
+            width={720}
+            height={400}
+            priority
+          />
           <p>You do not need to be an entomologist. Nearly every backyard tick ID comes down to four things:</p>
           <ol>
             <li><strong>Size &amp; life stage.</strong> Is it sand-grain small (larva), poppy-seed small (nymph), or sesame-seed sized (adult)? A swollen, bean-like body means it has already fed. See <Link href="/blog/baby-ticks-nymphs-seed-ticks-ontario">baby ticks, nymphs &amp; seed ticks</Link> for the tiny stages.</li>

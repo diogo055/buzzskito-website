@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import AuthorByline from '@/components/AuthorByline'
+import Figure from '@/components/Figure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 
 const SLUG = 'how-many-times-can-a-mosquito-bite-you'
@@ -142,6 +143,14 @@ export default function HowManyTimesCanAMosquitoBiteYouPage() {
           <AuthorByline datePublished={DATE} />
 
           <h2>How many times can one mosquito bite you?</h2>
+          <Figure
+            src="/diagrams/mosquito-bite-mechanism.svg"
+            alt="Diagram showing how a mosquito feeds for two to four minutes and will land again if interrupted, leaving several bites"
+            caption="A feeding female needs two to four minutes. Interrupt her and she simply lands again, which is why a single mosquito often leaves several bites in a row."
+            width={720}
+            height={420}
+            priority
+          />
           <p>One mosquito can bite you as many times as it takes her to get a full meal &mdash; often several times in a single sitting. A female mosquito does not have a bite budget that runs out; she is driven to keep feeding until her abdomen is stretched full of blood. If she manages that in one undisturbed bite, you get one welt. If she is knocked off, brushed away, or startled by a twitch before she finishes, she simply relands a short distance away and starts a new bite to top up. Each of those restarts can leave its own mark, which is why one persistent mosquito can be responsible for a whole cluster.</p>
           <p>Left completely alone, a female drinks roughly 2 to 5 microliters of blood over about 2 to 5 minutes, swelling to as much as three times her own body weight before she is satisfied. That single meal is usually enough to supply the protein she needs to develop a batch of 100 to 300 eggs. The takeaway for anyone counting welts: the number of bites you end up with has far more to do with how many times you disturbed her than with any fixed limit built into the mosquito.</p>
 

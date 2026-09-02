@@ -7,6 +7,7 @@ import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import Figure from '@/components/Figure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
 
@@ -161,6 +162,14 @@ export default function HorseFlyDeerFlyBiteTreatmentPage() {
           />
 
           <h2>Why Horse Fly and Deer Fly Bites Hurt So Much</h2>
+          <Figure
+            src="/diagrams/horse-fly-vs-deer-fly.svg"
+            alt="Side-by-side comparison of horse fly and deer fly showing size, wing markings, eye pattern and bite behaviour"
+            caption="Banded wings mean deer fly; clear wings and roughly twice the size mean horse fly. Both cut the skin rather than piercing it, which is why the bite hurts immediately and often bleeds."
+            width={720}
+            height={380}
+            priority
+          />
           <p>A mosquito slides a fine, flexible stylet into your skin so smoothly you often do not feel it. Horse flies and deer flies — both members of the fly family <strong>Tabanidae</strong> — do the opposite. The female (only females bite; they need a blood meal to develop eggs) carries a set of short, blade-like mouthparts. She uses them to <strong>slice the skin open like tiny scissors</strong>, creating a small pool of blood that she then sponges up. That cutting action is the whole reason the bite delivers an instant, burning sting and frequently bleeds.</p>
           <p>On top of the mechanical damage, the fly injects saliva loaded with <strong>anticoagulants</strong> to keep the blood flowing. Your immune system reacts to those proteins, which is what drives the itching, redness and swelling in the hours and days that follow. Between the torn skin and the reaction to the saliva, a tabanid bite simply irritates far more tissue than a clean mosquito prick — so it hurts more, swells more, and lingers longer.</p>
 

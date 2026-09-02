@@ -7,6 +7,7 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
+import Figure from '@/components/Figure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { TICK_BLOGS } from '@/lib/constants'
 import { tagForSlug } from '@/lib/amazon-clusters'
@@ -79,6 +80,14 @@ export default function WhatTicksLookLikePage() {
         </p>
 
         <h2>The Three Ticks Ontario Homeowners Need to Know</h2>
+        <Figure
+          src="/diagrams/tick-species-ontario.svg"
+          alt="Identification chart of the blacklegged tick, American dog tick and lone star tick found in Ontario with markings, size and disease risk"
+          caption="The shield markings separate them. A plain dark shield on an orange-red body is the blacklegged tick — the only one of the three that transmits Lyme disease in Ontario."
+          width={720}
+          height={400}
+          priority
+        />
 
         <h3>1. Blacklegged Tick (Deer Tick) — <em>Ixodes scapularis</em></h3>
         <p><strong>Why it matters:</strong> The primary carrier of Lyme disease in Ontario. Population is established and expanding across Southern Ontario.</p>

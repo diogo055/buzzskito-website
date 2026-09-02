@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import AuthorByline from '@/components/AuthorByline'
+import Figure from '@/components/Figure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 
 const SLUG = 'why-do-mosquito-bites-itch'
@@ -152,6 +153,14 @@ export default function WhyDoMosquitoBitesItchPage() {
           <AuthorByline datePublished={DATE} />
 
           <h2>Why do mosquito bites itch?</h2>
+          <Figure
+            src="/diagrams/mosquito-bite-mechanism.svg"
+            alt="Diagram showing how a mosquito pierces skin with six mouthparts, injects saliva, and why the immune reaction to that saliva causes the itch"
+            caption="The itch is an immune reaction to mosquito saliva, not to the puncture. She injects it first to stop your blood clotting, which is also why you rarely feel the bite happening."
+            width={720}
+            height={420}
+            priority
+          />
           <p>Mosquito bites itch because of an allergic reaction to the mosquito&rsquo;s saliva &mdash; not because of the tiny puncture wound. When a female mosquito feeds, she injects a small amount of saliva loaded with anticoagulant and other proteins that stop your blood from clotting so she can drink freely. Your immune system flags those proteins as foreign invaders and orders specialized cells (mast cells) to release <strong>histamine</strong>. Histamine is the chemical behind the whole reaction: it widens local blood vessels, makes them leak fluid into the surrounding skin, and stimulates the nerve endings that report itch to your brain.</p>
           <p>That is why the classic mosquito welt is red, raised, and maddeningly itchy all at once &mdash; it is your body&rsquo;s defence system overreacting to a harmless bit of insect spit. And it is why the treatments that actually work target the histamine, not the bite: antihistamines and 1% hydrocortisone calm the immune reaction, while picking at the puncture does nothing. Our companion guide on <Link href="/blog/mosquito-bite-treatment-relief">how to stop a mosquito bite from itching</Link> walks through exactly what to reach for.</p>
 

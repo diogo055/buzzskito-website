@@ -6,6 +6,7 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
+import Figure from '@/components/Figure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
 
@@ -100,6 +101,13 @@ export default function WhatDoesTickLookLikeOnDogPage() {
           <p className="lead text-xl text-gray-700 leading-relaxed mb-6">You found a small bump on your dog and you&rsquo;re trying to figure out if it&rsquo;s a tick. The fastest test: ticks have <strong>8 legs</strong>, are <strong>oval and flat</strong> when unfed, and <strong>swell up like a balloon</strong> when full of blood. Here&rsquo;s how to identify them with confidence.</p>
 
           <h2>The Quick Identification Checklist</h2>
+          <Figure
+            src="/diagrams/tick-species-ontario.svg"
+            alt="Identification chart of the blacklegged tick, American dog tick and lone star tick found in Ontario with markings, size and disease risk"
+            caption="The American dog tick is the one most often found on pets, and it is the largest of the three. Its white marbled shield distinguishes it from the Lyme-carrying blacklegged tick."
+            width={720}
+            height={400}
+          />
           <p>Before reading further, run through these 4 quick checks:</p>
           <ol>
             <li><strong>Eight legs?</strong> → Likely a tick (or spider, but spiders aren&rsquo;t attached to your dog)</li>

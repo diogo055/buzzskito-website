@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import AuthorByline from '@/components/AuthorByline'
+import Figure from '@/components/Figure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 
 const SLUG = 'why-do-mosquitoes-bite-my-ankles'
@@ -144,6 +145,13 @@ export default function WhyMosquitoesBiteAnklesPage() {
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
 
           <h2>Why do mosquitoes bite my ankles?</h2>
+          <Figure
+            src="/diagrams/mosquito-bite-mechanism.svg"
+            alt="Diagram showing the mosquito feeding sequence and the immune reaction that produces the welt and itch"
+            caption="Whatever draws her to your ankles, the mechanism after landing is the same: saliva goes in first, and the welt is your reaction to it."
+            width={720}
+            height={420}
+          />
           <p>Mosquitoes bite your ankles because they sit at ground level, exactly where a mosquito&rsquo;s strongest tracking cues collect. The carbon dioxide you exhale is about 1.5 times denser than air, so instead of rising it sinks and pools low, forming an invisible scent trail near the ground. Add the concentrated odour of foot-and-ankle bacteria, and your lower legs become the loudest &ldquo;human host&rdquo; signal on your whole body.</p>
           <p>Behaviour reinforces the physics. Many of the mosquitoes you meet in a GTA backyard &mdash; particularly the daytime <em>Aedes</em> species &mdash; are low fliers that naturally hunt close to the ground. They intercept that pooled CO&#8322; and follow it straight to your ankles. Because your ankles are usually bare below shorts, hard to see, and awkward to swat, the mosquito gets an uninterrupted meal before you even register it is there. It is the same host-detection system described in our guide to <Link href="/blog/what-attracts-mosquitoes-to-you">what attracts mosquitoes to you</Link> &mdash; just concentrated at the lowest, most exposed part of your body.</p>
 

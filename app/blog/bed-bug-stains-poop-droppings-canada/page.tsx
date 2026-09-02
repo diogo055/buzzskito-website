@@ -9,6 +9,7 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import CTASection from '@/components/CTASection'
+import Figure from '@/components/Figure'
 import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'bed-bug-stains-poop-droppings-canada'
@@ -352,6 +353,14 @@ export default function BedBugStainsCanadaPage() {
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
 
           <h2>What the Stain Actually Is</h2>
+          <Figure
+            src="/diagrams/bed-bug-evidence-chart.svg"
+            alt="Chart of bed bug evidence including faecal spots, rust smears, shed skins and eggs, each shown at true size"
+            caption="Faecal spotting along a mattress seam is the most reliable single sign. Each spot is about a millimetre and bleeds into fabric like ink rather than sitting on top of it."
+            width={720}
+            height={400}
+            priority
+          />
           <p>A bed bug feeds on blood and digests it, and what comes out the other end is mostly the leftover, broken-down remains of that blood. It is excreted as a liquid droplet, not a solid pellet, and that single fact explains every visual property people find confusing.</p>
           <p>On an absorbent surface &mdash; a cotton sheet, the fabric piping around a mattress, the gauze under a box spring, an upholstered headboard &mdash; the droplet spreads into the weave before it dries. That is why bed bug spots look <em>bled</em>: soft, feathered edges, exactly like touching the fabric with the tip of a felt marker. On a non-absorbent surface &mdash; a lacquered bed frame, a metal slat, painted baseboard trim, the plastic of an outlet cover &mdash; there is nowhere for the liquid to go, so it dries on top as a small, slightly raised, faintly glossy black speck. Run a fingernail across one and you can feel it. Same insect, same material, two completely different-looking marks, which is why a photo you found online may not match what is in front of you.</p>
           <p>The colour is the giveaway and the reason the swab test works. The material is haem-derived, so when you rehydrate it, it releases the rusty reddish-brown that gives every bed bug guide its identical piece of advice: <strong>dab a damp white cloth or wet cotton swab on the edge of the mark.</strong> Bed bug faeces smear reddish-brown into white cotton. Cockroach frass, which is dry and solid, does not smear. Mould has texture and no discrete dots. Ink smears its own colour. Dried blood is redder and flakes off rather than bleeding out. Test the edge rather than the centre, so you keep an intact example if a professional needs to look at it later.</p>

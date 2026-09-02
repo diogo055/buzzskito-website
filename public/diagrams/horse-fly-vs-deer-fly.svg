@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" width="720" height="380" role="img" aria-label="Side-by-side comparison of horse fly and deer fly showing size, wing markings, eye pattern and bite behaviour">
+  <title>Horse fly vs deer fly — how to tell which one bit you</title>
+  <desc>Horse flies are 20 to 25 millimetres with clear wings and solid iridescent eyes. Deer flies are 8 to 10 millimetres with dark bands across the wings and gold or green eyes with zigzag stripes. Both cut the skin rather than piercing it, which is why the bite bleeds and hurts immediately.</desc>
+  <rect width="720" height="380" fill="#ffffff"/>
+
+  <text x="24" y="34" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#0f2942">Horse fly or deer fly? Look at the wings</text>
+  <text x="24" y="56" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="13" fill="#5a6b7c">Both cut the skin open rather than piercing it &#8212; which is why the bite hurts at once and often bleeds.</text>
+
+  <!-- ═══ HORSE FLY ═══ -->
+  <g transform="translate(24,80)">
+    <rect x="0" y="0" width="330" height="212" rx="10" fill="#fafcfd" stroke="#dbe4ec"/>
+    <text x="16" y="26" font-family="system-ui,sans-serif" font-size="14.5" font-weight="700" fill="#0f2942">Horse fly</text>
+    <text x="16" y="45" font-family="system-ui,sans-serif" font-size="11.5" fill="#5a6b7c">20&#8211;25 mm &#183; as big as a bumblebee</text>
+
+    <g transform="translate(168,116)">
+      <!-- clear wings -->
+      <ellipse cx="-16" cy="-22" rx="54" ry="15" fill="#cfd9e0" opacity="0.5" transform="rotate(-22)"/>
+      <ellipse cx="-16" cy="14" rx="54" ry="15" fill="#cfd9e0" opacity="0.5" transform="rotate(22)"/>
+      <!-- abdomen -->
+      <ellipse cx="-30" cy="-2" rx="46" ry="21" fill="#4a4038"/>
+      <ellipse cx="-30" cy="-8" rx="40" ry="9" fill="#5c5147" opacity="0.7"/>
+      <!-- thorax -->
+      <ellipse cx="18" cy="0" rx="22" ry="19" fill="#3a332c"/>
+      <!-- head with huge solid eye -->
+      <circle cx="46" cy="2" r="18" fill="#2b2621"/>
+      <circle cx="50" cy="0" r="14" fill="#5a7d4a"/>
+      <ellipse cx="46" cy="-4" rx="6" ry="4" fill="#8fae72" opacity="0.6"/>
+      <!-- legs -->
+      <g stroke="#3a332c" stroke-width="2" fill="none">
+        <path d="M-6,18 q-6,22 -22,28 M12,18 q0,24 -10,32 M28,16 q8,22 2,30"/>
+      </g>
+    </g>
+    <text x="16" y="176" font-family="system-ui,sans-serif" font-size="11.5" fill="#33566b"><tspan font-weight="700">Wings:</tspan> clear or smoky, no pattern</text>
+    <text x="16" y="194" font-family="system-ui,sans-serif" font-size="11.5" fill="#33566b"><tspan font-weight="700">Eyes:</tspan> solid iridescent green or purple</text>
+  </g>
+
+  <!-- ═══ DEER FLY ═══ -->
+  <g transform="translate(366,80)">
+    <rect x="0" y="0" width="330" height="212" rx="10" fill="#fafcfd" stroke="#dbe4ec"/>
+    <text x="16" y="26" font-family="system-ui,sans-serif" font-size="14.5" font-weight="700" fill="#0f2942">Deer fly</text>
+    <text x="16" y="45" font-family="system-ui,sans-serif" font-size="11.5" fill="#5a6b7c">8&#8211;10 mm &#183; house-fly sized</text>
+
+    <g transform="translate(168,116)">
+      <!-- banded wings -->
+      <g transform="rotate(-20)">
+        <ellipse cx="-8" cy="-16" rx="34" ry="10" fill="#d6dee4" opacity="0.6"/>
+        <path d="M-30,-20 q10,10 4,18 q-8,-6 -14,-10 z" fill="#4a4038" opacity="0.75"/>
+        <path d="M-6,-22 q8,12 2,20 q-8,-8 -12,-14 z" fill="#4a4038" opacity="0.7"/>
+      </g>
+      <g transform="rotate(20)">
+        <ellipse cx="-8" cy="12" rx="34" ry="10" fill="#d6dee4" opacity="0.6"/>
+        <path d="M-30,8 q10,10 4,18 q-8,-6 -14,-10 z" fill="#4a4038" opacity="0.75"/>
+      </g>
+      <!-- abdomen with stripes -->
+      <ellipse cx="-18" cy="0" rx="28" ry="13" fill="#b58a3c"/>
+      <g fill="#3a332c">
+        <path d="M-34,-9 l6,18 h-5 l-6,-18 z"/>
+        <path d="M-20,-11 l6,22 h-5 l-6,-22 z"/>
+        <path d="M-6,-10 l6,20 h-5 l-6,-20 z"/>
+      </g>
+      <!-- thorax -->
+      <ellipse cx="12" cy="0" rx="14" ry="12" fill="#6b5a30"/>
+      <!-- head with striped eye -->
+      <circle cx="30" cy="1" r="12" fill="#3a332c"/>
+      <circle cx="32" cy="0" r="9.5" fill="#b8a02c"/>
+      <g stroke="#5a4a12" stroke-width="1.6" fill="none">
+        <path d="M24,-4 q8,4 16,-1 M24,2 q8,4 16,-1 M25,7 q7,3 14,-1"/>
+      </g>
+      <g stroke="#6b5a30" stroke-width="1.6" fill="none">
+        <path d="M-2,11 q-4,16 -16,20 M8,11 q0,18 -8,24 M18,10 q6,16 0,22"/>
+      </g>
+    </g>
+    <text x="16" y="176" font-family="system-ui,sans-serif" font-size="11.5" fill="#33566b"><tspan font-weight="700">Wings:</tspan> dark bands or smoky patches &#8212; the giveaway</text>
+    <text x="16" y="194" font-family="system-ui,sans-serif" font-size="11.5" fill="#33566b"><tspan font-weight="700">Eyes:</tspan> gold or green with zigzag stripes</text>
+  </g>
+
+  <!-- shared behaviour strip -->
+  <g transform="translate(24,306)">
+    <rect x="0" y="0" width="672" height="56" rx="10" fill="#fff7ed" stroke="#f5c98a"/>
+    <text x="16" y="22" font-family="system-ui,sans-serif" font-size="12" font-weight="700" fill="#92400e">Both behave the same way &#8212; and repellent barely helps</text>
+    <text x="16" y="41" font-family="system-ui,sans-serif" font-size="11.5" fill="#78350f">Females only. They hunt by sight, circle the highest point (your head), are worst on hot still days near water, and are drawn to dark moving shapes. DEET is far less effective on them than on mosquitoes &#8212; covering up and light colours do more.</text>
+  </g>
+</svg>

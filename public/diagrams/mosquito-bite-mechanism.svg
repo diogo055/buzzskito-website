@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" width="720" height="420" role="img" aria-label="Diagram showing how a mosquito feeds through six mouthpart stylets, why saliva causes the itch, and the timeline of the reaction">
+  <title>How a mosquito bite works — and why it itches</title>
+  <desc>A female mosquito pierces skin with six needle-like mouthparts, injects saliva containing anticoagulants, and draws blood for 2 to 4 minutes. The itch is an immune reaction to that saliva, not the puncture. A single mosquito can bite repeatedly until it is full or interrupted.</desc>
+  <rect width="720" height="420" fill="#ffffff"/>
+
+  <text x="24" y="34" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#0f2942">Why the bite itches &#8212; and why one mosquito bites more than once</text>
+  <text x="24" y="56" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="13" fill="#5a6b7c">The itch is your immune system reacting to mosquito saliva. The puncture itself you would never feel.</text>
+
+  <!-- ═══ LEFT: the feeding diagram ═══ -->
+  <g transform="translate(24,84)">
+    <rect x="0" y="0" width="360" height="232" rx="10" fill="#fafcfd" stroke="#dbe4ec"/>
+
+    <!-- skin layers -->
+    <rect x="16" y="120" width="328" height="30" fill="#f6ded0"/>
+    <rect x="16" y="150" width="328" height="46" fill="#efc9b4"/>
+    <rect x="16" y="196" width="328" height="22" fill="#e0ae95"/>
+    <text x="352" y="140" text-anchor="end" font-family="system-ui,sans-serif" font-size="10.5" fill="#8a6a58">epidermis</text>
+    <text x="352" y="176" text-anchor="end" font-family="system-ui,sans-serif" font-size="10.5" fill="#8a6a58">dermis</text>
+
+    <!-- blood vessel -->
+    <path d="M40,178 q80,-14 150,2 q70,14 150,-4" stroke="#c0392b" stroke-width="7" fill="none" opacity="0.75"/>
+    <text x="46" y="200" font-family="system-ui,sans-serif" font-size="10.5" fill="#a33226">capillary</text>
+
+    <!-- mosquito body -->
+    <g transform="translate(150,58)">
+      <!-- wings -->
+      <ellipse cx="-16" cy="-6" rx="30" ry="8" fill="#c8d4dc" opacity="0.55" transform="rotate(-18)"/>
+      <ellipse cx="-12" cy="2" rx="28" ry="7" fill="#c8d4dc" opacity="0.45" transform="rotate(-6)"/>
+      <!-- abdomen (filling) -->
+      <ellipse cx="-6" cy="6" rx="26" ry="11" fill="#7a5c48" transform="rotate(-14)"/>
+      <ellipse cx="-10" cy="7" rx="14" ry="8" fill="#a33226" opacity="0.75" transform="rotate(-14)"/>
+      <!-- thorax + head -->
+      <ellipse cx="20" cy="14" rx="11" ry="9" fill="#5f4636"/>
+      <circle cx="33" cy="20" r="7" fill="#4a372a"/>
+      <!-- legs -->
+      <g stroke="#5f4636" stroke-width="1.6" fill="none">
+        <path d="M6,14 q-8,20 -26,26 M14,16 q-4,24 -16,34 M24,20 q4,22 -4,32"/>
+      </g>
+      <!-- proboscis piercing down to the vessel -->
+      <line x1="36" y1="26" x2="42" y2="62" stroke="#3a2a20" stroke-width="2.4"/>
+    </g>
+
+    <!-- magnified stylet callout -->
+    <g transform="translate(214,96)">
+      <circle cx="0" cy="0" r="42" fill="#ffffff" stroke="#9dcfba" stroke-width="2"/>
+      <g stroke="#5a6b7c" stroke-width="1.4">
+        <line x1="-14" y1="-26" x2="-14" y2="26"/>
+        <line x1="-7" y1="-28" x2="-7" y2="28"/>
+        <line x1="0" y1="-30" x2="0" y2="30" stroke="#c0392b" stroke-width="2"/>
+        <line x1="7" y1="-28" x2="7" y2="28"/>
+        <line x1="14" y1="-26" x2="14" y2="26"/>
+        <line x1="20" y1="-22" x2="20" y2="22"/>
+      </g>
+      <text x="0" y="-48" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" font-weight="700" fill="#1e6b4f">6 mouthparts</text>
+      <line x1="-30" y1="34" x2="-52" y2="18" stroke="#9dcfba" stroke-dasharray="3 3"/>
+    </g>
+    <text x="180" y="222" font-family="system-ui,sans-serif" font-size="11" fill="#33566b">Two saw-edged cutters, two holders, one saliva tube, one blood tube.</text>
+  </g>
+
+  <!-- ═══ RIGHT: the sequence ═══ -->
+  <g transform="translate(404,84)">
+    <text x="0" y="14" font-family="system-ui,sans-serif" font-size="13.5" font-weight="700" fill="#0f2942">What happens, in order</text>
+
+    <g font-family="system-ui,sans-serif">
+      <g transform="translate(0,34)">
+        <circle cx="10" cy="8" r="10" fill="#1e6b4f"/><text x="10" y="12" text-anchor="middle" font-size="11" font-weight="700" fill="#fff">1</text>
+        <text x="28" y="6" font-size="12" font-weight="600" fill="#0f2942">She probes for a vessel</text>
+        <text x="28" y="22" font-size="11" fill="#5a6b7c">Only females feed &#8212; they need protein for eggs.</text>
+      </g>
+      <g transform="translate(0,84)">
+        <circle cx="10" cy="8" r="10" fill="#1e6b4f"/><text x="10" y="12" text-anchor="middle" font-size="11" font-weight="700" fill="#fff">2</text>
+        <text x="28" y="6" font-size="12" font-weight="600" fill="#0f2942">Saliva goes in first</text>
+        <text x="28" y="22" font-size="11" fill="#5a6b7c">It stops clotting and numbs the spot &#8212; which is</text>
+        <text x="28" y="36" font-size="11" fill="#5a6b7c">why you rarely feel the bite happening.</text>
+      </g>
+      <g transform="translate(0,148)">
+        <circle cx="10" cy="8" r="10" fill="#1e6b4f"/><text x="10" y="12" text-anchor="middle" font-size="11" font-weight="700" fill="#fff">3</text>
+        <text x="28" y="6" font-size="12" font-weight="600" fill="#0f2942">She feeds for 2&#8211;4 minutes</text>
+        <text x="28" y="22" font-size="11" fill="#5a6b7c">Interrupt her and she simply lands again &#8212;</text>
+        <text x="28" y="36" font-size="11" fill="#5a6b7c">one mosquito can leave several bites.</text>
+      </g>
+      <g transform="translate(0,212)">
+        <circle cx="10" cy="8" r="10" fill="#b45309"/><text x="10" y="12" text-anchor="middle" font-size="11" font-weight="700" fill="#fff">4</text>
+        <text x="28" y="6" font-size="12" font-weight="600" fill="#b45309">Your body reacts to the saliva</text>
+        <text x="28" y="22" font-size="11" fill="#5a6b7c">Histamine release causes the welt and the itch.</text>
+        <text x="28" y="36" font-size="11" fill="#5a6b7c">The reaction is the symptom, not the puncture.</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- timeline strip -->
+  <g transform="translate(24,336)">
+    <rect x="0" y="0" width="672" height="62" rx="10" fill="#f0f7f4" stroke="#9dcfba"/>
+    <text x="16" y="22" font-family="system-ui,sans-serif" font-size="12" font-weight="700" fill="#1e6b4f">Typical timeline</text>
+    <g font-family="system-ui,sans-serif" font-size="11.5" fill="#33566b">
+      <text x="16" y="44">Bite felt: rarely</text>
+      <text x="164" y="44">Welt: within minutes</text>
+      <text x="330" y="44">Peak itch: 24&#8211;48 h</text>
+      <text x="494" y="44">Gone: 3&#8211;7 days</text>
+    </g>
+    <line x1="150" y1="38" x2="158" y2="38" stroke="#9dcfba" stroke-width="2"/>
+    <line x1="316" y1="38" x2="324" y2="38" stroke="#9dcfba" stroke-width="2"/>
+    <line x1="480" y1="38" x2="488" y2="38" stroke="#9dcfba" stroke-width="2"/>
+  </g>
+</svg>
