@@ -1,0 +1,182 @@
+[
+ {
+  "q": "mouse poop",
+  "mkt": "US",
+  "pos": 4,
+  "vol": 40368,
+  "cpc": 0.1,
+  "page": "/blog/what-does-mouse-poop-look-like-canada",
+  "score": 15744
+ },
+ {
+  "q": "what does a spider bite look like",
+  "mkt": "US",
+  "pos": 11.64,
+  "vol": 33459,
+  "cpc": 0.03,
+  "page": "/blog/what-does-a-spider-bite-look-like",
+  "score": 2610
+ },
+ {
+  "q": "bug zapper",
+  "mkt": "US",
+  "pos": 16.67,
+  "vol": 26851,
+  "cpc": 0.3,
+  "page": "/blog/bug-zappers-canada-do-they-work",
+  "score": 31416
+ },
+ {
+  "q": "bed bug spray",
+  "mkt": "US",
+  "pos": 15,
+  "vol": 21837,
+  "cpc": 0.35,
+  "page": "/blog/best-bed-bug-spray-for-mattress-canada",
+  "score": 29808
+ },
+ {
+  "q": "mosquito larvae",
+  "mkt": "US",
+  "pos": 11.48,
+  "vol": 19647,
+  "cpc": 0.3,
+  "page": "/blog/mosquito-larvae-identification",
+  "score": 15325
+ },
+ {
+  "q": "no see um bites",
+  "mkt": "US",
+  "pos": 6.45,
+  "vol": 19419,
+  "cpc": 0.03,
+  "page": "/blog/no-see-um-bites",
+  "score": 2272
+ },
+ {
+  "q": "mosquito dunks",
+  "mkt": "US",
+  "pos": 4.54,
+  "vol": 17011,
+  "cpc": 0.07,
+  "page": "/blog/mosquito-dunks-canada-guide",
+  "score": 13932
+ },
+ {
+  "q": "mosquito hawk",
+  "mkt": "US",
+  "pos": 19.24,
+  "vol": 16046,
+  "cpc": 0.03,
+  "page": "/blog/mosquito-hawk-explained",
+  "score": 626
+ },
+ {
+  "q": "bed bug flea bites on humans",
+  "mkt": "US",
+  "pos": 19.75,
+  "vol": 10890,
+  "cpc": 0.03,
+  "page": "/blog/flea-bites-on-humans",
+  "score": 425
+ },
+ {
+  "q": "what do chigger bites look like",
+  "mkt": "US",
+  "pos": 9.25,
+  "vol": 9859,
+  "cpc": 0.03,
+  "page": "/blog/chigger-bites",
+  "score": 769
+ },
+ {
+  "q": "what blood type do mosquitoes like",
+  "mkt": "US",
+  "pos": 19.64,
+  "vol": 9202,
+  "cpc": 0.01,
+  "page": "/blog/what-blood-type-do-mosquitoes-bite",
+  "score": 239
+ },
+ {
+  "q": "best fruit fly trap",
+  "mkt": "US",
+  "pos": 7,
+  "vol": 8040,
+  "cpc": 0.1,
+  "page": "/blog/best-fruit-fly-trap-canada",
+  "score": 9407
+ },
+ {
+  "q": "dynatrap",
+  "mkt": "US",
+  "pos": 4.77,
+  "vol": 5428,
+  "cpc": 0.2,
+  "page": "/blog/dynatrap-canada-review",
+  "score": 12702
+ },
+ {
+  "q": "tick vs bed bug",
+  "mkt": "US",
+  "pos": 10.3,
+  "vol": 5005,
+  "cpc": 0.01,
+  "page": "/blog/tick-vs-bed-bug",
+  "score": 390
+ },
+ {
+  "q": "mosquito magnet",
+  "mkt": "US",
+  "pos": 5.14,
+  "vol": 3617,
+  "cpc": 0.25,
+  "page": "/blog/mosquito-magnet-canada",
+  "score": 10580
+ },
+ {
+  "q": "when are mosquitoes most active",
+  "mkt": "US",
+  "pos": 6.59,
+  "vol": 2996,
+  "cpc": 0.03,
+  "page": "/blog/when-are-mosquitoes-most-active",
+  "score": 351
+ },
+ {
+  "q": "photon matrix",
+  "mkt": "US",
+  "pos": 7.34,
+  "vol": 2700,
+  "cpc": 0.8,
+  "page": "/blog/laser-mosquito-killer-photon-matrix-review",
+  "score": 25272
+ },
+ {
+  "q": "best rat trap",
+  "mkt": "US",
+  "pos": 9,
+  "vol": 2700,
+  "cpc": 0.3,
+  "page": "/blog/best-rat-trap-canada",
+  "score": 6318
+ },
+ {
+  "q": "best wasp spray",
+  "mkt": "US",
+  "pos": 8,
+  "vol": 2578,
+  "cpc": 0.1,
+  "page": "/blog/best-wasp-nest-spray-canada",
+  "score": 2011
+ },
+ {
+  "q": "what temperature do mosquitoes die",
+  "mkt": "US",
+  "pos": 8.1,
+  "vol": 2095,
+  "cpc": 0.02,
+  "page": "/blog/what-temperature-kills-mosquitoes",
+  "score": 109
+ }
+]
