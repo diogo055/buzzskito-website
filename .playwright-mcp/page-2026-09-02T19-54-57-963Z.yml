@@ -1,0 +1,1548 @@
+- generic [ref=f59e2]:
+  - dialog [ref=f59e3]:
+    - generic [ref=f59e4]:
+      - heading "Interest-Based Ads Notice" [level=4] [ref=f59e5]
+      - paragraph [ref=f59e6]:
+        - text: We show interest-based ads (sometimes referred to as personalized or targeted ads) to display features, products, or services that may be of interest to you. To learn more, or to adjust your preferences, please refer to our
+        - link "Interest-Based Ads page" [ref=f59e7] [cursor=pointer]:
+          - /url: /gp/help/customer/display.html?nodeId=GLVB9XDF9M8MU7UZ&language=en_CA
+        - text: .
+    - generic [ref=f59e12] [cursor=pointer]:
+      - button "Continue Shopping" [ref=f59e13]
+      - generic [ref=f59e14]: Continue Shopping
+  - navigation "Shortcuts menu" [ref=f59e15]:
+    - heading "Skip to" [level=2] [ref=f59e16]
+    - list "Skip to" [ref=f59e17]:
+      - listitem [ref=f59e18]:
+        - link "main content" [ref=f59e19] [cursor=pointer]:
+          - /url: "#skippedLink"
+          - text: Main content
+      - listitem [ref=f59e20]:
+        - link "About this item" [ref=f59e21] [cursor=pointer]:
+          - /url: "#featurebullets_feature_div"
+      - listitem [ref=f59e22]:
+        - link "Skip to buying options" [ref=f59e23] [cursor=pointer]:
+          - /url: "#buybox"
+          - text: Buying options
+      - listitem [ref=f59e24]:
+        - link "Reviews" [ref=f59e25] [cursor=pointer]:
+          - /url: "#customerReviews"
+    - separator [ref=f59e26]
+    - heading "Keyboard shortcuts" [level=2] [ref=f59e27]
+    - list "Keyboard shortcuts" [ref=f59e28]:
+      - listitem [ref=f59e29]:
+        - link "Search, Alt, forward slash" [ref=f59e30] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=f59e31]:
+            - generic [ref=f59e32]: Search
+            - generic [ref=f59e33]:
+              - generic [ref=f59e34]: Alt
+              - generic [ref=f59e35]: +
+              - generic [ref=f59e36]: /
+      - listitem [ref=f59e37]:
+        - link "Cart, shift, Alt, c" [ref=f59e38] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=f59e39]:
+            - generic [ref=f59e40]: Cart
+            - generic [ref=f59e41]:
+              - generic [ref=f59e42]: Shift
+              - generic [ref=f59e43]: +
+              - generic [ref=f59e44]: Alt
+              - generic [ref=f59e45]: +
+              - generic [ref=f59e46]: C
+      - listitem [ref=f59e47]:
+        - link "Home, shift, Alt, h" [ref=f59e48] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=f59e49]:
+            - generic [ref=f59e50]: Home
+            - generic [ref=f59e51]:
+              - generic [ref=f59e52]: Shift
+              - generic [ref=f59e53]: +
+              - generic [ref=f59e54]: Alt
+              - generic [ref=f59e55]: +
+              - generic [ref=f59e56]: H
+      - listitem [ref=f59e57]:
+        - link "Your orders, shift, Alt, o" [ref=f59e58] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=f59e59]:
+            - generic [ref=f59e60]: Orders
+            - generic [ref=f59e61]:
+              - generic [ref=f59e62]: Shift
+              - generic [ref=f59e63]: +
+              - generic [ref=f59e64]: Alt
+              - generic [ref=f59e65]: +
+              - generic [ref=f59e66]: O
+      - listitem [ref=f59e67]:
+        - button "Add to cart, shift, Alt, K" [ref=f59e68] [cursor=pointer]:
+          - generic [ref=f59e69]:
+            - generic [ref=f59e70]: Add to cart
+            - generic [ref=f59e71]:
+              - generic [ref=f59e72]: Shift
+              - generic [ref=f59e73]: +
+              - generic [ref=f59e74]: Alt
+              - generic [ref=f59e75]: +
+              - generic [ref=f59e76]: K
+      - listitem [ref=f59e77]:
+        - button "Product summary, shift, Alt, d" [ref=f59e78] [cursor=pointer]:
+          - generic [ref=f59e79]:
+            - generic [ref=f59e80]: Product summary
+            - generic [ref=f59e81]:
+              - generic [ref=f59e82]: Shift
+              - generic [ref=f59e83]: +
+              - generic [ref=f59e84]: Alt
+              - generic [ref=f59e85]: +
+              - generic [ref=f59e86]: D
+      - listitem [ref=f59e87]:
+        - button "Show/hide shortcuts, shift, Alt, z" [ref=f59e88] [cursor=pointer]:
+          - generic [ref=f59e89]:
+            - generic [ref=f59e90]: Show/Hide shortcuts
+            - generic [ref=f59e91]:
+              - generic [ref=f59e92]: Shift
+              - generic [ref=f59e93]: +
+              - generic [ref=f59e94]: Alt
+              - generic [ref=f59e95]: +
+              - generic [ref=f59e96]: Z
+    - generic [ref=f59e99]:
+      - generic [ref=f59e100] [cursor=pointer]
+      - generic [ref=f59e102]: To move between items, use your keyboard's up or down arrows.
+  - banner [ref=f59e103]:
+    - navigation "Primary" [ref=f59e104]:
+      - generic [ref=f59e105]:
+        - generic [ref=f59e106]:
+          - link "Amazon.ca" [ref=f59e108] [cursor=pointer]:
+            - /url: /ref=nav_logo
+            - generic: .ca
+          - button "Delivering to Brampton L6V Update location" [ref=f59e111] [cursor=pointer]:
+            - generic [ref=f59e113]:
+              - generic [ref=f59e114]: Delivering to Brampton L6V
+              - generic [ref=f59e115]: Update location
+        - search [ref=f59e118]:
+          - generic [ref=f59e121]:
+            - generic [ref=f59e122]: Patio, Lawn & Garden
+            - combobox "Select the department you want to search in" [ref=f59e125] [cursor=pointer]:
+              - option "All Departments"
+              - option "Alexa Skills"
+              - option "Amazon Devices"
+              - option "Amazon Haul"
+              - option "Amazon Resale"
+              - option "Apps & Games"
+              - option "Audible Audiobooks"
+              - option "Automotive"
+              - option "Baby"
+              - option "Beauty"
+              - option "Books"
+              - option "Clothing, Shoes & Jewellery"
+              - option "Women's Clothing, Shoes & Jewellery"
+              - option "Men's Clothing, Shoes & Jewellery"
+              - option "Girl's Clothing, Shoes & Jewellery"
+              - option "Boy's Clothing, Shoes & Jewellery"
+              - option "Baby Clothing, Shoes and Jewellery"
+              - option "Electronics"
+              - option "Gift Cards"
+              - option "Grocery"
+              - option "Handmade"
+              - option "Health & Personal Care"
+              - option "Home & Kitchen"
+              - option "Industrial & Scientific"
+              - option "Kindle Store"
+              - option "Luggage & Travel Gear"
+              - option "Luxury Beauty"
+              - option "Movies & TV"
+              - option "MP3 Music"
+              - option "Music"
+              - option "Musical Instruments, Stage & Studio"
+              - option "Office Products"
+              - option "Patio, Lawn & Garden" [selected]
+              - option "Pet Supplies"
+              - option "Prime Video"
+              - option "Smart Home"
+              - option "Software"
+              - option "Sports & Outdoors"
+              - option "Subscribe & Save"
+              - option "Tools & Home Improvement"
+              - option "Toys & Games"
+              - option "Video Games"
+          - searchbox "Search Amazon.ca" [ref=f59e128]
+          - generic "Go" [ref=f59e131] [cursor=pointer]:
+            - button "Go" [ref=f59e132]
+        - generic [ref=f59e134]:
+          - generic [ref=f59e135]:
+            - link "Choose a language for shopping in Amazon Canada. The current selection is English (EN)." [ref=f59e136] [cursor=pointer]:
+              - /url: /customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=topnav_lang
+              - generic [ref=f59e139]:
+                - img "Canada" [ref=f59e140]
+                - generic [ref=f59e141]: EN
+            - button "Expand to Change Language or Country" [ref=f59e142] [cursor=pointer]
+          - generic [ref=f59e143]:
+            - link "Hello, sign in Account & Lists" [ref=f59e144] [cursor=pointer]:
+              - /url: https://www.amazon.ca/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.ca%2Fdp%2FB0CNH8VZYX%3Fref_%3Dnav_ya_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=caflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+              - generic [ref=f59e145]: Hello, sign in
+              - generic [ref=f59e147]: Account & Lists
+            - button "Expand Account and Lists" [ref=f59e148] [cursor=pointer]
+          - link "Returns & Orders" [ref=f59e149] [cursor=pointer]:
+            - /url: /gp/css/order-history?ref_=nav_orders_first
+            - generic [ref=f59e150]: Returns
+            - generic [ref=f59e151]: "& Orders"
+          - link "0 items in cart" [ref=f59e152] [cursor=pointer]:
+            - /url: /gp/cart/view.html?ref_=nav_cart
+            - generic [ref=f59e153]: "0"
+            - generic [ref=f59e156]: Cart
+      - generic [ref=f59e158]:
+        - button "Open All Categories Menu" [ref=f59e160] [cursor=pointer]:
+          - generic [ref=f59e162]: All
+        - list [ref=f59e166]:
+          - listitem [ref=f59e167]:
+            - link "Amazon Haul" [ref=f59e169] [cursor=pointer]:
+              - /url: /haul/store?ref_=nav_cs_hul_disb
+          - listitem [ref=f59e170]:
+            - link "Best Sellers" [ref=f59e172] [cursor=pointer]:
+              - /url: /Best-Sellers-generic/zgbs/?ref_=nav_cs_bestsellers
+          - listitem [ref=f59e173]:
+            - link "Amazon Basics" [ref=f59e175] [cursor=pointer]:
+              - /url: /stores/AmazonBasics/page/A99D7218-C1F4-42C0-ABF4-05A153EF2C61?channel=discovbar&field-lbr_brands_browse-bin=AmazonBasics&ref_=nav_cs_amazonbasics
+          - listitem [ref=f59e176]:
+            - generic [ref=f59e177]:
+              - link "Prime" [ref=f59e178] [cursor=pointer]:
+                - /url: /prime?ref_=nav_cs_primelink_nonmember
+              - button "Prime Details" [ref=f59e179] [cursor=pointer]
+          - listitem [ref=f59e180]:
+            - link "Deals Store" [ref=f59e182] [cursor=pointer]:
+              - /url: /deals?ref_=nav_cs_gb
+          - listitem [ref=f59e183]:
+            - link "New Releases" [ref=f59e185] [cursor=pointer]:
+              - /url: /gp/new-releases/?ref_=nav_cs_newreleases
+          - listitem [ref=f59e186]:
+            - link "Electronics" [ref=f59e188] [cursor=pointer]:
+              - /url: /Electronics-Accessories/b/?ie=UTF8&node=667823011&ref_=nav_cs_electronics
+          - listitem [ref=f59e189]:
+            - link "Music" [ref=f59e191] [cursor=pointer]:
+              - /url: /music/player?ref_=nav_cs_music
+          - listitem [ref=f59e192]:
+            - link "Home" [ref=f59e194] [cursor=pointer]:
+              - /url: /gp/browse.html?node=2206275011&ref_=nav_cs_home
+          - listitem [ref=f59e195]:
+            - link "Home Improvement" [ref=f59e197] [cursor=pointer]:
+              - /url: /Home-Improvement/b/?ie=UTF8&node=3006902011&ref_=nav_cs_hi
+          - listitem [ref=f59e198]:
+            - link "Sports & Outdoors" [ref=f59e200] [cursor=pointer]:
+              - /url: /sporting-goods/b/?ie=UTF8&node=2242989011&ref_=nav_cs_sports
+          - listitem [ref=f59e201]:
+            - link "Fashion" [ref=f59e203] [cursor=pointer]:
+              - /url: /gp/browse.html?node=21204935011&ref_=nav_cs_fashion
+          - listitem [ref=f59e204]:
+            - link "Health & Household" [ref=f59e206] [cursor=pointer]:
+              - /url: /Health-Personal-Care/b/?ie=UTF8&node=6205177011&ref_=nav_cs_hpc
+          - listitem [ref=f59e207]:
+            - link "Automotive" [ref=f59e209] [cursor=pointer]:
+              - /url: /automotive/b/?ie=UTF8&node=6948389011&ref_=nav_cs_automotive
+          - listitem [ref=f59e210]:
+            - link "Toys & Games" [ref=f59e212] [cursor=pointer]:
+              - /url: /Toys-Games/b/?ie=UTF8&node=6205517011&ref_=nav_cs_toys
+          - listitem [ref=f59e213]:
+            - link "Custom Products" [ref=f59e215] [cursor=pointer]:
+              - /url: /Amazon-Custom/b/?ie=UTF8&node=23773954011&ref_=nav_cs_custom
+          - listitem [ref=f59e216]:
+            - link "Computers" [ref=f59e218] [cursor=pointer]:
+              - /url: /Computers-Accessories/b/?ie=UTF8&node=2404990011&ref_=nav_cs_pc
+          - listitem [ref=f59e219]:
+            - link "Pet Supplies" [ref=f59e221] [cursor=pointer]:
+              - /url: /pet-supplies-dog-cat-food-bed-toy/b/?ie=UTF8&node=6205514011&ref_=nav_cs_pets
+          - listitem [ref=f59e222]:
+            - generic [ref=f59e223]:
+              - link "Gift Cards" [ref=f59e224] [cursor=pointer]:
+                - /url: /gp/browse.html?node=9230166011&ref_=nav_cs_gc
+              - button "Gift Cards Details" [ref=f59e225] [cursor=pointer]
+          - listitem [ref=f59e226]:
+            - link "Computer & Video Games" [ref=f59e228] [cursor=pointer]:
+              - /url: /video-games-hardware-accessories/b/?ie=UTF8&node=3198031&ref_=nav_cs_video_games
+          - listitem [ref=f59e229]:
+            - link "Beauty & Personal Care" [ref=f59e231] [cursor=pointer]:
+              - /url: /Beauty/b/?ie=UTF8&node=6205124011&ref_=nav_cs_beauty
+          - listitem [ref=f59e232]:
+            - link "Grocery" [ref=f59e234] [cursor=pointer]:
+              - /url: /grocery/b/?ie=UTF8&node=6967215011&ref_=nav_cs_grocery
+          - listitem [ref=f59e235]:
+            - link "Baby" [ref=f59e237] [cursor=pointer]:
+              - /url: /gp/browse.html?node=3561346011&ref_=nav_cs_baby
+          - listitem [ref=f59e238]:
+            - link "Audible" [ref=f59e240] [cursor=pointer]:
+              - /url: /gp/browse.html?node=20037536011&ref_=nav_cs_audible
+          - listitem [ref=f59e241]:
+            - link "Sell" [ref=f59e243] [cursor=pointer]:
+              - /url: /b/?node=15664730011&ld=AZCASOA-sell&ref_=nav_cs_sell
+          - listitem [ref=f59e244]:
+            - link "Subscribe & Save" [ref=f59e246] [cursor=pointer]:
+              - /url: /auto-deliveries/landing?ref_=nav_cs_sns
+          - listitem [ref=f59e247]:
+            - link "Kindle Books" [ref=f59e249] [cursor=pointer]:
+              - /url: /ebooks-kindle/b/?ie=UTF8&node=2980423011&ref_=nav_cs_kindle_books
+          - listitem [ref=f59e250]:
+            - link "Customer Service" [ref=f59e252] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?ref_=nav_cs_help
+        - link "Reacher - Watch now" [ref=f59e255] [cursor=pointer]:
+          - /url: /gp/video/ssoredirect/?ie=UTF8&pvp=%2Fdetail%2Famzn1.dv.gti.526198e4-d03e-4ba0-8232-c507b31dbbad%2F%3Fref_%3Ddvm_crs_nav_ca_s_dt_swm_l_al_rchr_tp&ref_=nav_swm_undefined&pf_rd_p=5033040d-5681-40a7-a3ae-3d33da6158eb&pf_rd_s=nav-sitewide-msg&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=A2EUQ1WTGCTBG2&pf_rd_r=D9T1KDMZ314X2H2A2CNT
+      - generic [ref=f59e256]:
+        - generic [ref=f59e257]:
+          - link "Patio, Lawn & Garden" [ref=f59e258] [cursor=pointer]:
+            - /url: /Patio-Lawn-Garden/b/?ie=UTF8&node=6205499011&ref_=topnav_storetab_lg
+          - link "Bestsellers" [ref=f59e259] [cursor=pointer]:
+            - /url: /gp/bestsellers/lawn-garden/?ie=UTF8&ref_=sv_lg_1
+          - link "Gardening" [ref=f59e260] [cursor=pointer]:
+            - /url: /Gardening/b/?ie=UTF8&node=2224149011&ref_=sv_lg_2
+          - link "Barbecues & Outdoor Cooking" [ref=f59e261] [cursor=pointer]:
+            - /url: /Outdoor-Cooking/b/?ie=UTF8&node=6257202011&ref_=sv_lg_3
+          - link "Patio Furniture & Accessories" [ref=f59e262] [cursor=pointer]:
+            - /url: /Patio-Furniture-Accessories/b/?ie=UTF8&node=2224159011&ref_=sv_lg_4
+          - link "Mowers & Outdoor Power Tools" [ref=f59e263] [cursor=pointer]:
+            - /url: /Outdoor-Power-Lawn-Equipment/b/?ie=UTF8&node=6257267011&ref_=sv_lg_5
+          - link "Outdoor Décor" [ref=f59e264] [cursor=pointer]:
+            - /url: /Outdoor-Decor/b/?ie=UTF8&node=2224158011&ref_=sv_lg_6
+          - link "Snow Removal" [ref=f59e265] [cursor=pointer]:
+            - /url: /Snow-Removal-Tools/b/?ie=UTF8&node=6257556011&ref_=sv_lg_7
+          - link "Deals" [ref=f59e266] [cursor=pointer]:
+            - /url: /b/?ie=UTF8&node=6548466011&ref_=sv_lg_8
+        - generic [ref=f59e270]:
+          - link "Sign in" [ref=f59e271] [cursor=pointer]:
+            - /url: https://www.amazon.ca/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.ca%2Fdp%2FB0CNH8VZYX%3Fref_%3Dnav_custrec_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=caflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+          - generic [ref=f59e273]:
+            - text: New customer?
+            - link "New to Amazon? Start here to create an account" [ref=f59e274] [cursor=pointer]:
+              - /url: https://www.amazon.ca/ap/register?openid.return_to=https%3A%2F%2Fwww.amazon.ca%2Fdp%2FB0CNH8VZYX%2F%3F_encoding%3DUTF8%26ref_%3Dnav_custrec_newcust&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=caflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+              - text: Start here.
+      - dialog [ref=f59e279]
+  - generic [ref=f59e281]:
+    - heading "Product summary presents key product information Keyboard shortcut Shift + Alt + D" [level=1] [ref=f59e283]:
+      - button "Product summary presents key product information" [ref=f59e285] [cursor=pointer]
+      - separator [ref=f59e288]
+      - generic [ref=f59e289]:
+        - text: Keyboard shortcut
+        - generic [ref=f59e290]: Shift + Alt + D
+    - main [ref=f59e291]:
+      - generic [ref=f59e292]:
+        - link [ref=f59e296] [cursor=pointer]:
+          - /url: /b/?_encoding=UTF8&node=211728126011&pd_rd_w=5InVa&content-id=amzn1.sym.5bac85bd-89b7-4150-b39a-3cf5609f7497&pf_rd_p=5bac85bd-89b7-4150-b39a-3cf5609f7497&pf_rd_r=D9T1KDMZ314X2H2A2CNT&pd_rd_wg=NTPWN&pd_rd_r=46888aac-1e9d-414e-8cdc-717106768663
+          - img "Seasonal essentials Fall favourites you'll love" [ref=f59e297]
+        - list [ref=f59e302]:
+          - listitem [ref=f59e303]:
+            - link "Patio, Lawn & Garden" [ref=f59e305] [cursor=pointer]:
+              - /url: /Patio-Lawn-Garden/b/ref=dp_bc_1?ie=UTF8&node=6205499011
+          - listitem [ref=f59e306]: ›
+          - listitem [ref=f59e307]:
+            - link "Pest Control" [ref=f59e309] [cursor=pointer]:
+              - /url: /Pest-Control/b/ref=dp_bc_2?ie=UTF8&node=2224160011
+          - listitem [ref=f59e310]: ›
+          - listitem [ref=f59e311]:
+            - link "Traps" [ref=f59e313] [cursor=pointer]:
+              - /url: /Pest-Control-Traps/b/ref=dp_bc_3?ie=UTF8&node=6257487011
+      - generic [ref=f59e314]:
+        - generic [ref=f59e315]:
+          - generic [ref=f59e319]:
+            - img "Amazon Prime Logo" [ref=f59e321]
+            - generic [ref=f59e322]: Enjoy fast, free delivery, exclusive deals, and award-winning movies & TV shows.
+            - button "Join Prime" [ref=f59e324] [cursor=pointer]
+          - generic [ref=f59e335]:
+            - generic [ref=f59e342]:
+              - generic [ref=f59e343]: $5.29
+              - generic [ref=f59e344]:
+                - text: $
+                - generic [ref=f59e345]:
+                  - text: "5"
+                  - generic [ref=f59e346]: .
+                - text: "29"
+            - generic [ref=f59e348]:
+              - generic [ref=f59e350]:
+                - generic [ref=f59e353]:
+                  - generic [ref=f59e354]: FREE delivery Sunday, September 6 on orders shipped by Amazon over $35
+                  - generic [ref=f59e356]: Or fastest delivery Friday, September 4. Order within 8 hrs 5 mins
+                - button "Delivering to Brampton L6V – Update location" [ref=f59e360] [cursor=pointer]
+              - generic [ref=f59e367]: In Stock
+              - generic [ref=f59e376]:
+                - generic [ref=f59e377]: "Quantity:"
+                - combobox "Quantity:" [ref=f59e378]:
+                  - option "1" [selected]
+                  - option "2"
+                  - option "3"
+                  - option "4"
+                  - option "5"
+                  - option "6"
+                - generic [ref=f59e379] [cursor=pointer]: Quantity:1
+              - generic [ref=f59e387] [cursor=pointer]:
+                - button "Add to cart" [ref=f59e388]
+                - generic [ref=f59e389]: Add to cart
+              - generic [ref=f59e394] [cursor=pointer]:
+                - button "Buy Now" [ref=f59e395]
+                - generic [ref=f59e396]: Buy Now
+              - generic [ref=f59e399]:
+                - group "Seller, shipping and buying option details" [ref=f59e401]:
+                  - generic [ref=f59e402]:
+                    - heading "Shipper / Seller" [level=4] [ref=f59e403]
+                    - link "Amazon.ca" [ref=f59e408] [cursor=pointer]:
+                      - /url: /hz/contact-us/foresight/hubgateway?_encoding=UTF8&nodeId=643004
+                  - generic [ref=f59e409]:
+                    - heading "Returns" [level=4] [ref=f59e410]
+                    - button "Eligible for Return, Refund or Replacement within 30 days of receipt" [ref=f59e414] [cursor=pointer]
+                  - generic [ref=f59e418]:
+                    - heading "Payment" [level=4] [ref=f59e419]
+                    - button "Secure transaction" [ref=f59e423] [cursor=pointer]
+                - button "See more" [ref=f59e426] [cursor=pointer]
+            - generic [ref=f59e428]:
+              - separator [ref=f59e429]
+              - link "Add to Wish List" [ref=f59e434] [cursor=pointer]:
+                - /url: https://www.amazon.ca/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.ca%2Fgp%2Faw%2Fd%2FB0CNH8VZYX&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=caamazon&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&
+          - generic [ref=f59e438]:
+            - iframe [ref=f59e439]:
+              - generic [ref=f60e3]:
+                - link "Lqucwepp 4PCS Wide Pedal Rat Trap for Kitchens,Warehouses,and Garages" [ref=f60e5] [cursor=pointer]:
+                  - /url: https://www.amazon.ca/sspa/click?ie=UTF8&spc=MTo4NDc3MDEzODgwMDA1NzI4OjE3ODgzNzg4OTU6c3BfZGV0YWlsX3JpZ2h0X3NoYXJlZDozMDExNDQzNzc1Nzk3MDI6Ojo6&url=%2Fdp%2FB0G3TJMBN7%2Fref%3Dsspa_dk_detail_right_aax_0%3Fpsc%3D1%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWxfcmlnaHRfc2hhcmVk
+                - img "Lqucwepp 4PCS Wide Pedal Rat Trap for Kitchens,Warehouses,and Garages" [ref=f60e8]
+                - generic [ref=f60e10]:
+                  - generic [ref=f60e12]:
+                    - generic [ref=f60e13]: Lqucwepp 4PCS Wide Pedal Rat Trap for Kitchens,Warehouses,and Garages
+                    - generic [ref=f60e14]: Lqucwepp 4PCS Wide Pedal Rat...
+                  - generic [ref=f60e15]: 1.0 1
+                  - generic [ref=f60e18]:
+                    - generic [ref=f60e19]: $15.99
+                    - generic [ref=f60e20]:
+                      - text: $
+                      - generic [ref=f60e21]:
+                        - text: "15"
+                        - generic [ref=f60e22]: .
+                      - text: "99"
+            - button "Leave feedback on Sponsored ad" [ref=f59e441] [cursor=pointer]:
+              - generic [ref=f59e442]: Sponsored
+        - generic [ref=f59e444]:
+          - generic [ref=f59e446]:
+            - button [ref=f59e447]:
+              - button "Share" [ref=f59e448] [cursor=pointer]
+            - generic [ref=f59e452]:
+              - generic [ref=f59e454]:
+                - list
+                - list [ref=f59e455]:
+                  - listitem [ref=f59e456] [cursor=pointer]:
+                    - button [ref=f59e459]:
+                      - img "Victor Wide Pedal Rat Trap - M205TRI" [ref=f59e460]
+              - link "Click to see full view" [ref=f59e464] [cursor=pointer]:
+                - /url: "#"
+              - radiogroup "Image thumbnails" [ref=f59e466]:
+                - listitem [ref=f59e467]:
+                  - radio [ref=f59e472] [cursor=pointer]
+                - listitem [ref=f59e474]:
+                  - radio [ref=f59e479] [cursor=pointer]
+                - listitem [ref=f59e481]:
+                  - radio [ref=f59e486] [cursor=pointer]
+                - listitem [ref=f59e488]:
+                  - radio [ref=f59e493] [cursor=pointer]
+                - listitem [ref=f59e495]:
+                  - radio [ref=f59e500] [cursor=pointer]
+                - listitem [ref=f59e502]:
+                  - radio [ref=f59e507] [cursor=pointer]
+                - listitem [ref=f59e509]:
+                  - generic [ref=f59e513] [cursor=pointer]:
+                    - radio "7+" [ref=f59e514]
+                    - generic [ref=f59e515]: 7+
+          - generic [ref=f59e518]:
+            - generic:
+              - button
+          - generic:
+            - link:
+              - generic:
+                - list
+        - generic [ref=f59e519]:
+          - heading "Victor Wide Pedal Rat Trap - M205TRI" [level=1] [ref=f59e522]
+          - 'link "Brand: Victor" [ref=f59e525] [cursor=pointer]':
+            - /url: /Victor/b/ref=bl_dp_s_web_16342191011?ie=UTF8&node=16342191011&field-lbr_brands_browse-bin=Victor
+          - generic [ref=f59e527]:
+            - generic "4.2 out of 5 stars" [ref=f59e529]:
+              - button "4.2 out of 5 stars" [ref=f59e531] [cursor=pointer]: "4.2"
+            - link "143 Reviews" [ref=f59e536] [cursor=pointer]:
+              - /url: "#averageCustomerReviewsAnchor"
+              - text: (143)
+          - generic [ref=f59e537]: 300+ bought in past month
+          - separator [ref=f59e541]
+          - generic [ref=f59e544]:
+            - generic [ref=f59e547]:
+              - generic [ref=f59e548]: $5.29
+              - generic [ref=f59e550]:
+                - text: $
+                - generic [ref=f59e551]:
+                  - text: "5"
+                  - generic [ref=f59e552]: .
+                - text: "29"
+            - generic:
+              - table
+            - generic [ref=f59e557]:
+              - generic [ref=f59e558] [cursor=pointer]: Save 5%
+              - generic [ref=f59e559]:
+                - text: on any 5
+                - link "qualifying items" [ref=f59e561] [cursor=pointer]:
+                  - /url: /promotion/psp/A2BCF666XZ7UFF?ref=psp_external&redirectAsin=B0CNH8VZYX&redirectMerchantId=A3DWYIK6Y9EEQB&ref=cxcw_psp_A2BCF666XZ7UFF&source=dp_cxcw
+                - text: "|"
+                - link "Terms" [ref=f59e564] [cursor=pointer]:
+                  - /url: "#"
+          - list [ref=f59e568]:
+            - rowgroup [ref=f59e569]:
+              - listitem [ref=f59e570]: Brand Victor
+              - listitem [ref=f59e571]: Colour Brown
+              - listitem [ref=f59e572]: Style Professional
+              - listitem [ref=f59e573]: Material Wood
+              - listitem [ref=f59e574]: Product Dimensions 33L x 107W x 267H millimeters
+          - generic [ref=f59e576]:
+            - separator [ref=f59e577]
+            - heading "About this item" [level=1] [ref=f59e578]
+            - list [ref=f59e579]:
+              - listitem [ref=f59e580]: Expanded trigger for the highest catch rates
+              - listitem [ref=f59e581]: Easy to use thanks to its Wide Pedal design
+              - listitem [ref=f59e582]: For clean and quick trapping
+              - listitem [ref=f59e583]: Made in USA (with global components)
+              - listitem [ref=f59e584]: Easy disposal
+              - listitem [ref=f59e585]: Made with wood from Forest Stewardship Council (FSC) certified forests
+              - listitem [ref=f59e586]: Provides visible proof of rodent capture
+            - generic [ref=f59e587]:
+              - text: ›
+              - link "See more product details" [ref=f59e588] [cursor=pointer]:
+                - /url: "#productDetails"
+          - link "Report an issue with this product" [ref=f59e594] [cursor=pointer]:
+            - /url: javascript:void(0)
+        - generic [ref=f59e596]:
+          - separator [ref=f59e597]
+          - generic [ref=f59e600]:
+            - iframe [ref=f59e601]:
+              - generic [ref=f61e4]:
+                - link "KENNEAS Rat Traps Boxes Child & Pet Safe (2-Pack, Veto Pro) | Outdoors & Indoors, Heavy Duty, Rodent Traps, Instant Kill Rat Snap Traps" [ref=f61e6] [cursor=pointer]:
+                  - /url: https://www.amazon.ca/sspa/click?ie=UTF8&spc=MToxNjMxMTAxOTIyNTA1NTU2OjE3ODgzNzg4OTU6c3BfaHFwX3NoYXJlZDozMDE0OTg0ODI0MTU2MDI6Ojo6&url=%2Fdp%2FB0GZNF54ZR%2Fref%3Dsspa_dk_hqp_detail_aax_0%3Fpsc%3D1%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9ocXBfc2hhcmVk
+                - img "KENNEAS Rat Traps Boxes Child &amp; Pet Safe (2-Pack, Veto Pro) | Outdoors &amp; Indoors, Heavy Duty, Rodent Traps, Instant Kill Rat Snap Traps" [ref=f61e7]
+                - generic [ref=f61e8]:
+                  - generic [ref=f61e9]: KENNEAS Rat Traps Boxes Child & Pet Safe (2-Pack, Veto Pro) | Outdoors & Indoors, Heavy...
+                  - generic [ref=f61e10]:
+                    - generic [ref=f61e11]: "30"
+                    - generic [ref=f61e13]: "|"
+                    - text: $29.99
+                  - generic [ref=f61e14]: Shop now ›
+            - button "Leave feedback on Sponsored ad" [ref=f59e603] [cursor=pointer]:
+              - generic [ref=f59e604]: Sponsored
+      - generic [ref=f59e610]:
+        - separator [ref=f59e611]
+        - heading "Frequently bought together" [level=2] [ref=f59e612]
+        - generic [ref=f59e613]:
+          - group "Frequently bought together" [ref=f59e614]:
+            - generic [ref=f59e615]:
+              - generic [ref=f59e616]:
+                - 'checkbox "This item: Victor Wide Pedal Rat Trap - M205TRI" [checked] [ref=f59e622]'
+                - generic [ref=f59e627]:
+                  - generic [ref=f59e628]: "This item: Victor Wide Pedal Rat Trap - M205TRI"
+                  - generic [ref=f59e636]:
+                    - generic [ref=f59e637]: $5.29
+                    - generic [ref=f59e638]:
+                      - text: $
+                      - generic [ref=f59e639]:
+                        - text: "5"
+                        - generic [ref=f59e640]: .
+                      - text: "29"
+              - generic [ref=f59e641]:
+                - generic [ref=f59e642]:
+                  - generic [ref=f59e643]: +
+                  - checkbox "Victor Power Kill Rat Trap - 2-Pack of Easy Set Reusable Rat Trap, Large Heavy Duty Snap Traps for Indoor and Outdoor Rodent Pest Control, High-Impact Kill Bar, Mounting Holes, M144-2B" [checked] [ref=f59e647]
+                  - link [ref=f59e651] [cursor=pointer]:
+                    - /url: /Victor-M144-2B-Power-Kill-Trap/dp/B0CCWRKQ56/ref=pd_bxgy_thbs_d_sccl_1/136-2017124-6834262?pd_rd_w=4GOep&content-id=amzn1.sym.3fbca0d1-1458-4bd6-b996-3b17cfc4a1ee&pf_rd_p=3fbca0d1-1458-4bd6-b996-3b17cfc4a1ee&pf_rd_r=D9T1KDMZ314X2H2A2CNT&pd_rd_wg=FGgHu&pd_rd_r=e0bacaf6-8349-4a97-b474-91c32fffa1cc&pd_rd_i=B0CCWRKQ56&psc=1
+                    - img "Victor Power Kill Rat Trap - 2-Pack of Easy Set Reusable Rat Trap, Large Heavy Duty Snap Traps for Indoor and Outdoor Rodent" [ref=f59e652]
+                - generic [ref=f59e653]:
+                  - link "Victor Power Kill Rat Trap - 2-Pack of Easy Set Reusable Rat Trap, Large Heavy Duty Snap Traps for Indoor and Outdoor Rodent Pest Control, High-Impact Kill Bar, Mounting Holes, M144-2B" [ref=f59e655] [cursor=pointer]:
+                    - /url: /Victor-M144-2B-Power-Kill-Trap/dp/B0CCWRKQ56/ref=pd_bxgy_d_sccl_1/136-2017124-6834262?pd_rd_w=4GOep&content-id=amzn1.sym.3fbca0d1-1458-4bd6-b996-3b17cfc4a1ee&pf_rd_p=3fbca0d1-1458-4bd6-b996-3b17cfc4a1ee&pf_rd_r=D9T1KDMZ314X2H2A2CNT&pd_rd_wg=FGgHu&pd_rd_r=e0bacaf6-8349-4a97-b474-91c32fffa1cc&pd_rd_i=B0CCWRKQ56&psc=1
+                  - generic [ref=f59e663]:
+                    - generic [ref=f59e664]: $11.99
+                    - generic [ref=f59e665]:
+                      - text: $
+                      - generic [ref=f59e666]:
+                        - text: "11"
+                        - generic [ref=f59e667]: .
+                      - text: "99"
+              - generic [ref=f59e668]:
+                - generic [ref=f59e669]:
+                  - generic [ref=f59e670]: +
+                  - checkbox "Tomcat Wooden Rat Trap | Easy-Set Rodent Control | Chemical-Free, Pesticide-Free | Reusable for Effective Rat Control" [checked] [ref=f59e674]
+                  - link [ref=f59e678] [cursor=pointer]:
+                    - /url: /Tomcat-Easy-Set-Chemical-Free-Pesticide-Free-Effective/dp/B012VO4TLS/ref=pd_bxgy_thbs_d_sccl_2/136-2017124-6834262?pd_rd_w=4GOep&content-id=amzn1.sym.3fbca0d1-1458-4bd6-b996-3b17cfc4a1ee&pf_rd_p=3fbca0d1-1458-4bd6-b996-3b17cfc4a1ee&pf_rd_r=D9T1KDMZ314X2H2A2CNT&pd_rd_wg=FGgHu&pd_rd_r=e0bacaf6-8349-4a97-b474-91c32fffa1cc&pd_rd_i=B012VO4TLS&psc=1
+                    - img "Tomcat Wooden Rat Trap | Easy-Set Rodent Control | Chemical-Free, Pesticide-Free | Reusable for Effective Rat Control" [ref=f59e679]
+                - generic [ref=f59e680]:
+                  - link "Tomcat Wooden Rat Trap | Easy-Set Rodent Control | Chemical-Free, Pesticide-Free | Reusable for Effective Rat Control" [ref=f59e682] [cursor=pointer]:
+                    - /url: /Tomcat-Easy-Set-Chemical-Free-Pesticide-Free-Effective/dp/B012VO4TLS/ref=pd_bxgy_d_sccl_2/136-2017124-6834262?pd_rd_w=4GOep&content-id=amzn1.sym.3fbca0d1-1458-4bd6-b996-3b17cfc4a1ee&pf_rd_p=3fbca0d1-1458-4bd6-b996-3b17cfc4a1ee&pf_rd_r=D9T1KDMZ314X2H2A2CNT&pd_rd_wg=FGgHu&pd_rd_r=e0bacaf6-8349-4a97-b474-91c32fffa1cc&pd_rd_i=B012VO4TLS&psc=1
+                  - generic [ref=f59e690]:
+                    - generic [ref=f59e691]: $4.68
+                    - generic [ref=f59e692]:
+                      - text: $
+                      - generic [ref=f59e693]:
+                        - text: "4"
+                        - generic [ref=f59e694]: .
+                      - text: "68"
+          - generic [ref=f59e696]:
+            - generic [ref=f59e698]:
+              - text: "Total price:"
+              - generic [ref=f59e699]:
+                - generic [ref=f59e700]: $21.96
+                - generic [ref=f59e701]:
+                  - text: $
+                  - generic [ref=f59e702]: "21."
+                  - text: "96"
+            - generic [ref=f59e708] [cursor=pointer]:
+              - button "Add all 3 to Cart, Victor Wide Pedal Rat Trap - M205TRI" [ref=f59e709]
+              - generic [ref=f59e710]: Add all 3 to Cart
+      - generic [ref=f59e713]:
+        - separator [ref=f59e714]
+        - region "4 stars and above" [ref=f59e715]:
+          - generic [ref=f59e717]:
+            - heading "4 stars and above" [level=2] [ref=f59e718]
+            - link "Sponsored" [ref=f59e722] [cursor=pointer]:
+              - /url: "#sp_detail_thematic-highly_rated_feedbackForm"
+          - list [ref=f59e732]:
+            - listitem [ref=f59e733]:
+              - generic [ref=f59e734]:
+                - link "Catchmaster Rat, Snake and Mouse Traps 6Pk, Large Bulk Glue Rat Traps for Home, Adhesive Plastic Tray for Inside House, Snake, Mice, & Spider Catcher, Pest Control for House & Garage" [ref=f59e735] [cursor=pointer]:
+                  - /url: /sspa/click?ie=UTF8&spc=MTozOTc1Mjk3MjM4MTIyODYxOjE3ODgzNzg4OTU6c3BfZGV0YWlsX3RoZW1hdGljOjMwMTE1NzcyNzc0ODUwMjo6Ojo&url=%2Fdp%2FB00CEEDFS4%2Fref%3Dsspa_dk_detail_0%3Fpsc%3D1%26pd_rd_i%3DB00CEEDFS4%26pd_rd_w%3DR5Cmd%26content-id%3Damzn1.sym.d5d8d23e-566e-44f0-8f4f-36dd2d453cec%26pf_rd_p%3Dd5d8d23e-566e-44f0-8f4f-36dd2d453cec%26pf_rd_r%3DD9T1KDMZ314X2H2A2CNT%26pd_rd_wg%3DFGgHu%26pd_rd_r%3De0bacaf6-8349-4a97-b474-91c32fffa1cc%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWxfdGhlbWF0aWM
+                  - generic [ref=f59e739]: Catchmaster Rat, Snake and Mouse Traps 6Pk, Large Bulk Glue Rat Traps for Home, Adh...
+                - link "4.4 out of 5 stars 31,690 ratings" [ref=f59e741] [cursor=pointer]:
+                  - /url: /sspa/click?ie=UTF8&spc=MTozOTc1Mjk3MjM4MTIyODYxOjE3ODgzNzg4OTU6c3BfZGV0YWlsX3RoZW1hdGljOjMwMTE1NzcyNzc0ODUwMjo6Ojo&url=%2Fdp%2FB00CEEDFS4%2Fref%3Dsspa_dk_detail_0%3Fpsc%3D1%26pd_rd_i%3DB00CEEDFS4%26pd_rd_w%3DR5Cmd%26content-id%3Damzn1.sym.d5d8d23e-566e-44f0-8f4f-36dd2d453cec%26pf_rd_p%3Dd5d8d23e-566e-44f0-8f4f-36dd2d453cec%26pf_rd_r%3DD9T1KDMZ314X2H2A2CNT%26pd_rd_wg%3DFGgHu%26pd_rd_r%3De0bacaf6-8349-4a97-b474-91c32fffa1cc%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWxfdGhlbWF0aWM#customerReviews
+                  - text: 31,690
+                - link "$22.62" [ref=f59e744] [cursor=pointer]:
+                  - /url: /sspa/click?ie=UTF8&spc=MTozOTc1Mjk3MjM4MTIyODYxOjE3ODgzNzg4OTU6c3BfZGV0YWlsX3RoZW1hdGljOjMwMTE1NzcyNzc0ODUwMjo6Ojo&url=%2Fdp%2FB00CEEDFS4%2Fref%3Dsspa_dk_detail_0%3Fpsc%3D1%26pd_rd_i%3DB00CEEDFS4%26pd_rd_w%3DR5Cmd%26content-id%3Damzn1.sym.d5d8d23e-566e-44f0-8f4f-36dd2d453cec%26pf_rd_p%3Dd5d8d23e-566e-44f0-8f4f-36dd2d453cec%26pf_rd_r%3DD9T1KDMZ314X2H2A2CNT%26pd_rd_wg%3DFGgHu%26pd_rd_r%3De0bacaf6-8349-4a97-b474-91c32fffa1cc%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWxfdGhlbWF0aWM
+                  - generic [ref=f59e745]:
+                    - generic [ref=f59e746]: $22.62
+                    - generic [ref=f59e747]:
+                      - text: $
+                      - generic [ref=f59e748]:
+                        - text: "22"
+                        - generic [ref=f59e749]: .
+                      - text: "62"
+                - link "FREE delivery Sun, Sep 6 on $35 of items shipped by Amazon" [ref=f59e751] [cursor=pointer]:
+                  - /url: /sspa/click?ie=UTF8&spc=MTozOTc1Mjk3MjM4MTIyODYxOjE3ODgzNzg4OTU6c3BfZGV0YWlsX3RoZW1hdGljOjMwMTE1NzcyNzc0ODUwMjo6Ojo&url=%2Fdp%2FB00CEEDFS4%2Fref%3Dsspa_dk_detail_0%3Fpsc%3D1%26pd_rd_i%3DB00CEEDFS4%26pd_rd_w%3DR5Cmd%26content-id%3Damzn1.sym.d5d8d23e-566e-44f0-8f4f-36dd2d453cec%26pf_rd_p%3Dd5d8d23e-566e-44f0-8f4f-36dd2d453cec%26pf_rd_r%3DD9T1KDMZ314X2H2A2CNT%26pd_rd_wg%3DFGgHu%26pd_rd_r%3De0bacaf6-8349-4a97-b474-91c32fffa1cc%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWxfdGhlbWF0aWM
+            - listitem [ref=f59e757]:
+              - generic [ref=f59e758]:
+                - link "Catchmaster Max-Catch Mouse & Insect Glue Trap 72pk, Mouse Traps Indoor for Home, Sticky Pest Control Adhesive Tray for Catching Bugs, Bulk Classic Glue Boards" [ref=f59e759] [cursor=pointer]:
+                  - /url: /sspa/click?ie=UTF8&spc=MTozOTc1Mjk3MjM4MTIyODYxOjE3ODgzNzg4OTU6c3BfZGV0YWlsX3RoZW1hdGljOjMwMTIxNzgzODA3OTUwMjo6Ojo&url=%2Fdp%2FB003ORTFH0%2Fref%3Dsspa_dk_detail_1%3Fpsc%3D1%26pd_rd_i%3DB003ORTFH0%26pd_rd_w%3DR5Cmd%26content-id%3Damzn1.sym.d5d8d23e-566e-44f0-8f4f-36dd2d453cec%26pf_rd_p%3Dd5d8d23e-566e-44f0-8f4f-36dd2d453cec%26pf_rd_r%3DD9T1KDMZ314X2H2A2CNT%26pd_rd_wg%3DFGgHu%26pd_rd_r%3De0bacaf6-8349-4a97-b474-91c32fffa1cc%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWxfdGhlbWF0aWM
+                  - generic [ref=f59e763]: Catchmaster Max-Catch Mouse & Insect Glue Trap 72pk, Mouse Traps Indoor for Home, S...
+                - link "4.4 out of 5 stars 92,158 ratings" [ref=f59e765] [cursor=pointer]:
+                  - /url: /sspa/click?ie=UTF8&spc=MTozOTc1Mjk3MjM4MTIyODYxOjE3ODgzNzg4OTU6c3BfZGV0YWlsX3RoZW1hdGljOjMwMTIxNzgzODA3OTUwMjo6Ojo&url=%2Fdp%2FB003ORTFH0%2Fref%3Dsspa_dk_detail_1%3Fpsc%3D1%26pd_rd_i%3DB003ORTFH0%26pd_rd_w%3DR5Cmd%26content-id%3Damzn1.sym.d5d8d23e-566e-44f0-8f4f-36dd2d453cec%26pf_rd_p%3Dd5d8d23e-566e-44f0-8f4f-36dd2d453cec%26pf_rd_r%3DD9T1KDMZ314X2H2A2CNT%26pd_rd_wg%3DFGgHu%26pd_rd_r%3De0bacaf6-8349-4a97-b474-91c32fffa1cc%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWxfdGhlbWF0aWM#customerReviews
+                  - text: 92,158
+                - link "$49.14" [ref=f59e768] [cursor=pointer]:
+                  - /url: /sspa/click?ie=UTF8&spc=MTozOTc1Mjk3MjM4MTIyODYxOjE3ODgzNzg4OTU6c3BfZGV0YWlsX3RoZW1hdGljOjMwMTIxNzgzODA3OTUwMjo6Ojo&url=%2Fdp%2FB003ORTFH0%2Fref%3Dsspa_dk_detail_1%3Fpsc%3D1%26pd_rd_i%3DB003ORTFH0%26pd_rd_w%3DR5Cmd%26content-id%3Damzn1.sym.d5d8d23e-566e-44f0-8f4f-36dd2d453cec%26pf_rd_p%3Dd5d8d23e-566e-44f0-8f4f-36dd2d453cec%26pf_rd_r%3DD9T1KDMZ314X2H2A2CNT%26pd_rd_wg%3DFGgHu%26pd_rd_r%3De0bacaf6-8349-4a97-b474-91c32fffa1cc%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWxfdGhlbWF0aWM
+                  - generic [ref=f59e769]:
+                    - generic [ref=f59e770]: $49.14
+                    - generic [ref=f59e771]:
+                      - text: $
+                      - generic [ref=f59e772]:
+                        - text: "49"
+                        - generic [ref=f59e773]: .
+                      - text: "14"
+                - link "FREE delivery Sun, Sep 6" [ref=f59e775] [cursor=pointer]:
+                  - /url: /sspa/click?ie=UTF8&spc=MTozOTc1Mjk3MjM4MTIyODYxOjE3ODgzNzg4OTU6c3BfZGV0YWlsX3RoZW1hdGljOjMwMTIxNzgzODA3OTUwMjo6Ojo&url=%2Fdp%2FB003ORTFH0%2Fref%3Dsspa_dk_detail_1%3Fpsc%3D1%26pd_rd_i%3DB003ORTFH0%26pd_rd_w%3DR5Cmd%26content-id%3Damzn1.sym.d5d8d23e-566e-44f0-8f4f-36dd2d453cec%26pf_rd_p%3Dd5d8d23e-566e-44f0-8f4f-36dd2d453cec%26pf_rd_r%3DD9T1KDMZ314X2H2A2CNT%26pd_rd_wg%3DFGgHu%26pd_rd_r%3De0bacaf6-8349-4a97-b474-91c32fffa1cc%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWxfdGhlbWF0aWM
+            - listitem [ref=f59e781]:
+              - generic [ref=f59e782]:
+                - link "Mouse Traps 8 Pack - Humane Instant Catch Reusable Indoor/Outdoor Snap Traps for Small Mice, Safe & Effective Rodent Catcher with Easy Clean Design (Kids & Pets Friendly)" [ref=f59e783] [cursor=pointer]:
+                  - /url: /sspa/click?ie=UTF8&spc=MTozOTc1Mjk3MjM4MTIyODYxOjE3ODgzNzg4OTU6c3BfZGV0YWlsX3RoZW1hdGljOjMwMTEzMDU3NDI1ODcwMjo6Ojo&url=%2Fdp%2FB09DCV79XW%2Fref%3Dsspa_dk_detail_2%3Fpsc%3D1%26pd_rd_i%3DB09DCV79XW%26pd_rd_w%3DR5Cmd%26content-id%3Damzn1.sym.d5d8d23e-566e-44f0-8f4f-36dd2d453cec%26pf_rd_p%3Dd5d8d23e-566e-44f0-8f4f-36dd2d453cec%26pf_rd_r%3DD9T1KDMZ314X2H2A2CNT%26pd_rd_wg%3DFGgHu%26pd_rd_r%3De0bacaf6-8349-4a97-b474-91c32fffa1cc%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWxfdGhlbWF0aWM
+                  - generic [ref=f59e787]: Mouse Traps 8 Pack - Humane Instant Catch Reusable Indoor/Outdoor Snap…
+                - link "4.3 out of 5 stars 3,563 ratings" [ref=f59e789] [cursor=pointer]:
+                  - /url: /sspa/click?ie=UTF8&spc=MTozOTc1Mjk3MjM4MTIyODYxOjE3ODgzNzg4OTU6c3BfZGV0YWlsX3RoZW1hdGljOjMwMTEzMDU3NDI1ODcwMjo6Ojo&url=%2Fdp%2FB09DCV79XW%2Fref%3Dsspa_dk_detail_2%3Fpsc%3D1%26pd_rd_i%3DB09DCV79XW%26pd_rd_w%3DR5Cmd%26content-id%3Damzn1.sym.d5d8d23e-566e-44f0-8f4f-36dd2d453cec%26pf_rd_p%3Dd5d8d23e-566e-44f0-8f4f-36dd2d453cec%26pf_rd_r%3DD9T1KDMZ314X2H2A2CNT%26pd_rd_wg%3DFGgHu%26pd_rd_r%3De0bacaf6-8349-4a97-b474-91c32fffa1cc%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWxfdGhlbWF0aWM#customerReviews
+                  - text: 3,563
+                - generic [ref=f59e791]:
+                  - link "Amazon's Choice":
+                    - /url: /sspa/click?ie=UTF8&spc=MTozOTc1Mjk3MjM4MTIyODYxOjE3ODgzNzg4OTU6c3BfZGV0YWlsX3RoZW1hdGljOjMwMTEzMDU3NDI1ODcwMjo6Ojo&url=%2Fdp%2FB09DCV79XW%2Fref%3Dsspa_dk_detail_2%3Fpsc%3D1%26pd_rd_i%3DB09DCV79XW%26pd_rd_w%3DR5Cmd%26content-id%3Damzn1.sym.d5d8d23e-566e-44f0-8f4f-36dd2d453cec%26pf_rd_p%3Dd5d8d23e-566e-44f0-8f4f-36dd2d453cec%26pf_rd_r%3DD9T1KDMZ314X2H2A2CNT%26pd_rd_wg%3DFGgHu%26pd_rd_r%3De0bacaf6-8349-4a97-b474-91c32fffa1cc%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWxfdGhlbWF0aWM
+                - link "$19.99" [ref=f59e795] [cursor=pointer]:
+                  - /url: /sspa/click?ie=UTF8&spc=MTozOTc1Mjk3MjM4MTIyODYxOjE3ODgzNzg4OTU6c3BfZGV0YWlsX3RoZW1hdGljOjMwMTEzMDU3NDI1ODcwMjo6Ojo&url=%2Fdp%2FB09DCV79XW%2Fref%3Dsspa_dk_detail_2%3Fpsc%3D1%26pd_rd_i%3DB09DCV79XW%26pd_rd_w%3DR5Cmd%26content-id%3Damzn1.sym.d5d8d23e-566e-44f0-8f4f-36dd2d453cec%26pf_rd_p%3Dd5d8d23e-566e-44f0-8f4f-36dd2d453cec%26pf_rd_r%3DD9T1KDMZ314X2H2A2CNT%26pd_rd_wg%3DFGgHu%26pd_rd_r%3De0bacaf6-8349-4a97-b474-91c32fffa1cc%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWxfdGhlbWF0aWM
+                  - generic [ref=f59e796]:
+                    - generic [ref=f59e797]: $19.99
+                    - generic [ref=f59e798]:
+                      - text: $
+                      - generic [ref=f59e799]:
+                        - text: "19"
+                        - generic [ref=f59e800]: .
+                      - text: "99"
+                - link "FREE delivery Sun, Sep 6 on $35 of items shipped by Amazon" [ref=f59e802] [cursor=pointer]:
+                  - /url: /sspa/click?ie=UTF8&spc=MTozOTc1Mjk3MjM4MTIyODYxOjE3ODgzNzg4OTU6c3BfZGV0YWlsX3RoZW1hdGljOjMwMTEzMDU3NDI1ODcwMjo6Ojo&url=%2Fdp%2FB09DCV79XW%2Fref%3Dsspa_dk_detail_2%3Fpsc%3D1%26pd_rd_i%3DB09DCV79XW%26pd_rd_w%3DR5Cmd%26content-id%3Damzn1.sym.d5d8d23e-566e-44f0-8f4f-36dd2d453cec%26pf_rd_p%3Dd5d8d23e-566e-44f0-8f4f-36dd2d453cec%26pf_rd_r%3DD9T1KDMZ314X2H2A2CNT%26pd_rd_wg%3DFGgHu%26pd_rd_r%3De0bacaf6-8349-4a97-b474-91c32fffa1cc%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWxfdGhlbWF0aWM
+            - listitem [ref=f59e808]:
+              - generic [ref=f59e809]:
+                - link "4 Pack 93 Holes Humane Mouse Traps Indoor for Home/Outdoor, Live Catch and Release Mice Traps, Easy to Set and Reusable, Safe for Family and Pets" [ref=f59e810] [cursor=pointer]:
+                  - /url: /sspa/click?ie=UTF8&spc=MTozOTc1Mjk3MjM4MTIyODYxOjE3ODgzNzg4OTU6c3BfZGV0YWlsX3RoZW1hdGljOjMwMTM1MzIyMzIwNDYwMjo6Ojo&url=%2Fdp%2FB0C163HPZ4%2Fref%3Dsspa_dk_detail_3%3Fpsc%3D1%26pd_rd_i%3DB0C163HPZ4%26pd_rd_w%3DR5Cmd%26content-id%3Damzn1.sym.d5d8d23e-566e-44f0-8f4f-36dd2d453cec%26pf_rd_p%3Dd5d8d23e-566e-44f0-8f4f-36dd2d453cec%26pf_rd_r%3DD9T1KDMZ314X2H2A2CNT%26pd_rd_wg%3DFGgHu%26pd_rd_r%3De0bacaf6-8349-4a97-b474-91c32fffa1cc%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWxfdGhlbWF0aWM
+                  - generic [ref=f59e814]: 4 Pack 93 Holes Humane Mouse Traps Indoor for Home/Outdoor, Live Catch and Release ...
+                - link "4.0 out of 5 stars 1,242 ratings" [ref=f59e816] [cursor=pointer]:
+                  - /url: /sspa/click?ie=UTF8&spc=MTozOTc1Mjk3MjM4MTIyODYxOjE3ODgzNzg4OTU6c3BfZGV0YWlsX3RoZW1hdGljOjMwMTM1MzIyMzIwNDYwMjo6Ojo&url=%2Fdp%2FB0C163HPZ4%2Fref%3Dsspa_dk_detail_3%3Fpsc%3D1%26pd_rd_i%3DB0C163HPZ4%26pd_rd_w%3DR5Cmd%26content-id%3Damzn1.sym.d5d8d23e-566e-44f0-8f4f-36dd2d453cec%26pf_rd_p%3Dd5d8d23e-566e-44f0-8f4f-36dd2d453cec%26pf_rd_r%3DD9T1KDMZ314X2H2A2CNT%26pd_rd_wg%3DFGgHu%26pd_rd_r%3De0bacaf6-8349-4a97-b474-91c32fffa1cc%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWxfdGhlbWF0aWM#customerReviews
+                  - text: 1,242
+                - link "$35.99" [ref=f59e819] [cursor=pointer]:
+                  - /url: /sspa/click?ie=UTF8&spc=MTozOTc1Mjk3MjM4MTIyODYxOjE3ODgzNzg4OTU6c3BfZGV0YWlsX3RoZW1hdGljOjMwMTM1MzIyMzIwNDYwMjo6Ojo&url=%2Fdp%2FB0C163HPZ4%2Fref%3Dsspa_dk_detail_3%3Fpsc%3D1%26pd_rd_i%3DB0C163HPZ4%26pd_rd_w%3DR5Cmd%26content-id%3Damzn1.sym.d5d8d23e-566e-44f0-8f4f-36dd2d453cec%26pf_rd_p%3Dd5d8d23e-566e-44f0-8f4f-36dd2d453cec%26pf_rd_r%3DD9T1KDMZ314X2H2A2CNT%26pd_rd_wg%3DFGgHu%26pd_rd_r%3De0bacaf6-8349-4a97-b474-91c32fffa1cc%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWxfdGhlbWF0aWM
+                  - generic [ref=f59e820]:
+                    - generic [ref=f59e821]: $35.99
+                    - generic [ref=f59e822]:
+                      - text: $
+                      - generic [ref=f59e823]:
+                        - text: "35"
+                        - generic [ref=f59e824]: .
+                      - text: "99"
+                - link "FREE delivery Sun, Sep 6" [ref=f59e826] [cursor=pointer]:
+                  - /url: /sspa/click?ie=UTF8&spc=MTozOTc1Mjk3MjM4MTIyODYxOjE3ODgzNzg4OTU6c3BfZGV0YWlsX3RoZW1hdGljOjMwMTM1MzIyMzIwNDYwMjo6Ojo&url=%2Fdp%2FB0C163HPZ4%2Fref%3Dsspa_dk_detail_3%3Fpsc%3D1%26pd_rd_i%3DB0C163HPZ4%26pd_rd_w%3DR5Cmd%26content-id%3Damzn1.sym.d5d8d23e-566e-44f0-8f4f-36dd2d453cec%26pf_rd_p%3Dd5d8d23e-566e-44f0-8f4f-36dd2d453cec%26pf_rd_r%3DD9T1KDMZ314X2H2A2CNT%26pd_rd_wg%3DFGgHu%26pd_rd_r%3De0bacaf6-8349-4a97-b474-91c32fffa1cc%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWxfdGhlbWF0aWM
+            - listitem [ref=f59e832]:
+              - generic [ref=f59e833]:
+                - link "Catchmaster Mouse & Insect Super Glue Traps 30PK, Mouse Traps Indoor for Home, Extra Strength Sticky Pest Control Adhesive Tray for Catching Bugs, Rats & Rodents, Bulk Glue Boards" [ref=f59e834] [cursor=pointer]:
+                  - /url: /sspa/click?ie=UTF8&spc=MTozOTc1Mjk3MjM4MTIyODYxOjE3ODgzNzg4OTU6c3BfZGV0YWlsX3RoZW1hdGljOjMwMTI3MTc3NDA3MDkwMjo6Ojo&url=%2Fdp%2FB002Y6GAN4%2Fref%3Dsspa_dk_detail_4%3Fpsc%3D1%26pd_rd_i%3DB002Y6GAN4%26pd_rd_w%3DR5Cmd%26content-id%3Damzn1.sym.d5d8d23e-566e-44f0-8f4f-36dd2d453cec%26pf_rd_p%3Dd5d8d23e-566e-44f0-8f4f-36dd2d453cec%26pf_rd_r%3DD9T1KDMZ314X2H2A2CNT%26pd_rd_wg%3DFGgHu%26pd_rd_r%3De0bacaf6-8349-4a97-b474-91c32fffa1cc%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWxfdGhlbWF0aWM
+                  - generic [ref=f59e838]: Catchmaster Mouse & Insect Super Glue Traps 30PK, Mouse Traps Indoor for Home, Extr...
+                - link "4.4 out of 5 stars 6,472 ratings" [ref=f59e840] [cursor=pointer]:
+                  - /url: /sspa/click?ie=UTF8&spc=MTozOTc1Mjk3MjM4MTIyODYxOjE3ODgzNzg4OTU6c3BfZGV0YWlsX3RoZW1hdGljOjMwMTI3MTc3NDA3MDkwMjo6Ojo&url=%2Fdp%2FB002Y6GAN4%2Fref%3Dsspa_dk_detail_4%3Fpsc%3D1%26pd_rd_i%3DB002Y6GAN4%26pd_rd_w%3DR5Cmd%26content-id%3Damzn1.sym.d5d8d23e-566e-44f0-8f4f-36dd2d453cec%26pf_rd_p%3Dd5d8d23e-566e-44f0-8f4f-36dd2d453cec%26pf_rd_r%3DD9T1KDMZ314X2H2A2CNT%26pd_rd_wg%3DFGgHu%26pd_rd_r%3De0bacaf6-8349-4a97-b474-91c32fffa1cc%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWxfdGhlbWF0aWM#customerReviews
+                  - text: 6,472
+                - link "$31.65" [ref=f59e843] [cursor=pointer]:
+                  - /url: /sspa/click?ie=UTF8&spc=MTozOTc1Mjk3MjM4MTIyODYxOjE3ODgzNzg4OTU6c3BfZGV0YWlsX3RoZW1hdGljOjMwMTI3MTc3NDA3MDkwMjo6Ojo&url=%2Fdp%2FB002Y6GAN4%2Fref%3Dsspa_dk_detail_4%3Fpsc%3D1%26pd_rd_i%3DB002Y6GAN4%26pd_rd_w%3DR5Cmd%26content-id%3Damzn1.sym.d5d8d23e-566e-44f0-8f4f-36dd2d453cec%26pf_rd_p%3Dd5d8d23e-566e-44f0-8f4f-36dd2d453cec%26pf_rd_r%3DD9T1KDMZ314X2H2A2CNT%26pd_rd_wg%3DFGgHu%26pd_rd_r%3De0bacaf6-8349-4a97-b474-91c32fffa1cc%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWxfdGhlbWF0aWM
+                  - generic [ref=f59e844]:
+                    - generic [ref=f59e845]: $31.65
+                    - generic [ref=f59e846]:
+                      - text: $
+                      - generic [ref=f59e847]:
+                        - text: "31"
+                        - generic [ref=f59e848]: .
+                      - text: "65"
+                - link "FREE delivery Wed, Sep 9 on $35 of items shipped by Amazon" [ref=f59e850] [cursor=pointer]:
+                  - /url: /sspa/click?ie=UTF8&spc=MTozOTc1Mjk3MjM4MTIyODYxOjE3ODgzNzg4OTU6c3BfZGV0YWlsX3RoZW1hdGljOjMwMTI3MTc3NDA3MDkwMjo6Ojo&url=%2Fdp%2FB002Y6GAN4%2Fref%3Dsspa_dk_detail_4%3Fpsc%3D1%26pd_rd_i%3DB002Y6GAN4%26pd_rd_w%3DR5Cmd%26content-id%3Damzn1.sym.d5d8d23e-566e-44f0-8f4f-36dd2d453cec%26pf_rd_p%3Dd5d8d23e-566e-44f0-8f4f-36dd2d453cec%26pf_rd_r%3DD9T1KDMZ314X2H2A2CNT%26pd_rd_wg%3DFGgHu%26pd_rd_r%3De0bacaf6-8349-4a97-b474-91c32fffa1cc%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWxfdGhlbWF0aWM
+            - listitem [ref=f59e856]:
+              - generic [ref=f59e857]:
+                - link "Mouse Trap, Rat Traps,Sticky Mouse Traps,Mice Trap Pest Trap Glue can Catch All Kinds of Rodent pests and mice Suitable for Indoor and Outdoor 5 Packs" [ref=f59e858] [cursor=pointer]:
+                  - /url: /sspa/click?ie=UTF8&spc=MTozOTc1Mjk3MjM4MTIyODYxOjE3ODgzNzg4OTU6c3BfZGV0YWlsX3RoZW1hdGljOjIwMDAzNjY2MzI1OTg2MTo6Ojo&url=%2Fdp%2FB08JQ6153F%2Fref%3Dsspa_dk_detail_5%3Fpsc%3D1%26pd_rd_i%3DB08JQ6153F%26pd_rd_w%3DR5Cmd%26content-id%3Damzn1.sym.d5d8d23e-566e-44f0-8f4f-36dd2d453cec%26pf_rd_p%3Dd5d8d23e-566e-44f0-8f4f-36dd2d453cec%26pf_rd_r%3DD9T1KDMZ314X2H2A2CNT%26pd_rd_wg%3DFGgHu%26pd_rd_r%3De0bacaf6-8349-4a97-b474-91c32fffa1cc%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWxfdGhlbWF0aWM
+                  - generic [ref=f59e862]: Mouse Trap, Rat Traps,Sticky Mouse Traps,Mice Trap Pest Trap Glue can Catch…
+                - link "4.2 out of 5 stars 303 ratings" [ref=f59e864] [cursor=pointer]:
+                  - /url: /sspa/click?ie=UTF8&spc=MTozOTc1Mjk3MjM4MTIyODYxOjE3ODgzNzg4OTU6c3BfZGV0YWlsX3RoZW1hdGljOjIwMDAzNjY2MzI1OTg2MTo6Ojo&url=%2Fdp%2FB08JQ6153F%2Fref%3Dsspa_dk_detail_5%3Fpsc%3D1%26pd_rd_i%3DB08JQ6153F%26pd_rd_w%3DR5Cmd%26content-id%3Damzn1.sym.d5d8d23e-566e-44f0-8f4f-36dd2d453cec%26pf_rd_p%3Dd5d8d23e-566e-44f0-8f4f-36dd2d453cec%26pf_rd_r%3DD9T1KDMZ314X2H2A2CNT%26pd_rd_wg%3DFGgHu%26pd_rd_r%3De0bacaf6-8349-4a97-b474-91c32fffa1cc%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWxfdGhlbWF0aWM#customerReviews
+                  - text: "303"
+                - 'link "-11% $16.99 Was: $18.99 Was: null" [ref=f59e867] [cursor=pointer]':
+                  - /url: /sspa/click?ie=UTF8&spc=MTozOTc1Mjk3MjM4MTIyODYxOjE3ODgzNzg4OTU6c3BfZGV0YWlsX3RoZW1hdGljOjIwMDAzNjY2MzI1OTg2MTo6Ojo&url=%2Fdp%2FB08JQ6153F%2Fref%3Dsspa_dk_detail_5%3Fpsc%3D1%26pd_rd_i%3DB08JQ6153F%26pd_rd_w%3DR5Cmd%26content-id%3Damzn1.sym.d5d8d23e-566e-44f0-8f4f-36dd2d453cec%26pf_rd_p%3Dd5d8d23e-566e-44f0-8f4f-36dd2d453cec%26pf_rd_r%3DD9T1KDMZ314X2H2A2CNT%26pd_rd_wg%3DFGgHu%26pd_rd_r%3De0bacaf6-8349-4a97-b474-91c32fffa1cc%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWxfdGhlbWF0aWM
+                  - text: "-11%"
+                  - generic [ref=f59e868]:
+                    - generic [ref=f59e869]: $16.99
+                    - generic [ref=f59e870]:
+                      - text: $
+                      - generic [ref=f59e871]:
+                        - text: "16"
+                        - generic [ref=f59e872]: .
+                      - text: "99"
+                  - generic [ref=f59e873]: "Was: $18.99"
+                  - generic [ref=f59e874]:
+                    - text: "Was:"
+                    - generic [ref=f59e875]:
+                      - generic [ref=f59e876]: "null"
+                      - text: $18.99
+                - link "FREE delivery Sun, Sep 6 on $35 of items shipped by Amazon" [ref=f59e878] [cursor=pointer]:
+                  - /url: /sspa/click?ie=UTF8&spc=MTozOTc1Mjk3MjM4MTIyODYxOjE3ODgzNzg4OTU6c3BfZGV0YWlsX3RoZW1hdGljOjIwMDAzNjY2MzI1OTg2MTo6Ojo&url=%2Fdp%2FB08JQ6153F%2Fref%3Dsspa_dk_detail_5%3Fpsc%3D1%26pd_rd_i%3DB08JQ6153F%26pd_rd_w%3DR5Cmd%26content-id%3Damzn1.sym.d5d8d23e-566e-44f0-8f4f-36dd2d453cec%26pf_rd_p%3Dd5d8d23e-566e-44f0-8f4f-36dd2d453cec%26pf_rd_r%3DD9T1KDMZ314X2H2A2CNT%26pd_rd_wg%3DFGgHu%26pd_rd_r%3De0bacaf6-8349-4a97-b474-91c32fffa1cc%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWxfdGhlbWF0aWM
+            - listitem [ref=f59e884]:
+              - generic [ref=f59e885]:
+                - link "Kensizer Small Animal Humane Live Cage Rat Mouse Chipmunk Mice Voles Hamsters Trap That Work for Indoor and Outdoor, Catch and Release" [ref=f59e886] [cursor=pointer]:
+                  - /url: /sspa/click?ie=UTF8&spc=MTozOTc1Mjk3MjM4MTIyODYxOjE3ODgzNzg4OTU6c3BfZGV0YWlsX3RoZW1hdGljOjMwMDAyOTU2MjQ4MDIwMjo6Ojo&url=%2Fdp%2FB0C8Z22G4S%2Fref%3Dsspa_dk_detail_6%3Fpsc%3D1%26pd_rd_i%3DB0C8Z22G4S%26pd_rd_w%3DR5Cmd%26content-id%3Damzn1.sym.d5d8d23e-566e-44f0-8f4f-36dd2d453cec%26pf_rd_p%3Dd5d8d23e-566e-44f0-8f4f-36dd2d453cec%26pf_rd_r%3DD9T1KDMZ314X2H2A2CNT%26pd_rd_wg%3DFGgHu%26pd_rd_r%3De0bacaf6-8349-4a97-b474-91c32fffa1cc%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWxfdGhlbWF0aWM
+                  - generic [ref=f59e890]: Kensizer Small Animal Humane Live Cage Rat Mouse Chipmunk Mice Voles Hamsters Trap ...
+                - link "4.3 out of 5 stars 272 ratings" [ref=f59e892] [cursor=pointer]:
+                  - /url: /sspa/click?ie=UTF8&spc=MTozOTc1Mjk3MjM4MTIyODYxOjE3ODgzNzg4OTU6c3BfZGV0YWlsX3RoZW1hdGljOjMwMDAyOTU2MjQ4MDIwMjo6Ojo&url=%2Fdp%2FB0C8Z22G4S%2Fref%3Dsspa_dk_detail_6%3Fpsc%3D1%26pd_rd_i%3DB0C8Z22G4S%26pd_rd_w%3DR5Cmd%26content-id%3Damzn1.sym.d5d8d23e-566e-44f0-8f4f-36dd2d453cec%26pf_rd_p%3Dd5d8d23e-566e-44f0-8f4f-36dd2d453cec%26pf_rd_r%3DD9T1KDMZ314X2H2A2CNT%26pd_rd_wg%3DFGgHu%26pd_rd_r%3De0bacaf6-8349-4a97-b474-91c32fffa1cc%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWxfdGhlbWF0aWM#customerReviews
+                  - text: "272"
+                - link "$30.99" [ref=f59e895] [cursor=pointer]:
+                  - /url: /sspa/click?ie=UTF8&spc=MTozOTc1Mjk3MjM4MTIyODYxOjE3ODgzNzg4OTU6c3BfZGV0YWlsX3RoZW1hdGljOjMwMDAyOTU2MjQ4MDIwMjo6Ojo&url=%2Fdp%2FB0C8Z22G4S%2Fref%3Dsspa_dk_detail_6%3Fpsc%3D1%26pd_rd_i%3DB0C8Z22G4S%26pd_rd_w%3DR5Cmd%26content-id%3Damzn1.sym.d5d8d23e-566e-44f0-8f4f-36dd2d453cec%26pf_rd_p%3Dd5d8d23e-566e-44f0-8f4f-36dd2d453cec%26pf_rd_r%3DD9T1KDMZ314X2H2A2CNT%26pd_rd_wg%3DFGgHu%26pd_rd_r%3De0bacaf6-8349-4a97-b474-91c32fffa1cc%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWxfdGhlbWF0aWM
+                  - generic [ref=f59e896]:
+                    - generic [ref=f59e897]: $30.99
+                    - generic [ref=f59e898]:
+                      - text: $
+                      - generic [ref=f59e899]:
+                        - text: "30"
+                        - generic [ref=f59e900]: .
+                      - text: "99"
+                - link "FREE delivery Sun, Sep 6 on $35 of items shipped by Amazon" [ref=f59e902] [cursor=pointer]:
+                  - /url: /sspa/click?ie=UTF8&spc=MTozOTc1Mjk3MjM4MTIyODYxOjE3ODgzNzg4OTU6c3BfZGV0YWlsX3RoZW1hdGljOjMwMDAyOTU2MjQ4MDIwMjo6Ojo&url=%2Fdp%2FB0C8Z22G4S%2Fref%3Dsspa_dk_detail_6%3Fpsc%3D1%26pd_rd_i%3DB0C8Z22G4S%26pd_rd_w%3DR5Cmd%26content-id%3Damzn1.sym.d5d8d23e-566e-44f0-8f4f-36dd2d453cec%26pf_rd_p%3Dd5d8d23e-566e-44f0-8f4f-36dd2d453cec%26pf_rd_r%3DD9T1KDMZ314X2H2A2CNT%26pd_rd_wg%3DFGgHu%26pd_rd_r%3De0bacaf6-8349-4a97-b474-91c32fffa1cc%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWxfdGhlbWF0aWM
+      - generic [ref=f59e913]:
+        - generic [ref=f59e915]:
+          - separator [ref=f59e916]
+          - heading "Product details" [level=2] [ref=f59e917]
+          - list [ref=f59e919]:
+            - listitem [ref=f59e920]:
+              - generic [ref=f59e921]: "Product Dimensions ‏ : ‎ 3.3 x 10.67 x 26.67 cm; 127.01 g"
+            - listitem [ref=f59e922]:
+              - generic [ref=f59e923]: "Date First Available ‏ : ‎ Aug. 19 2023"
+            - listitem [ref=f59e924]:
+              - generic [ref=f59e925]: "Manufacturer ‏ : ‎ Woodstream Corporation"
+            - listitem [ref=f59e926]:
+              - generic [ref=f59e927]: "ASIN ‏ : ‎ B0CNH8VZYX"
+            - listitem [ref=f59e928]:
+              - generic [ref=f59e929]: "Item model number ‏ : ‎ M205TRI"
+            - listitem [ref=f59e930]:
+              - generic [ref=f59e931]: "Country of origin ‏ : ‎ USA"
+            - listitem [ref=f59e932]:
+              - generic [ref=f59e933]: "Department ‏ : ‎ Women"
+            - listitem [ref=f59e934]:
+              - generic [ref=f59e935]:
+                - text: "Best Sellers Rank: #766 in Patio, Lawn & Garden ("
+                - link "See Top 100 in Patio, Lawn & Garden" [ref=f59e936] [cursor=pointer]:
+                  - /url: /gp/bestsellers/lawn-garden/ref=pd_zg_ts_lawn-garden
+                - text: )
+                - list [ref=f59e937]:
+                  - listitem [ref=f59e938]:
+                    - generic [ref=f59e939]:
+                      - text: "#107 in"
+                      - link "Pest Control Traps" [ref=f59e940] [cursor=pointer]:
+                        - /url: /gp/bestsellers/lawn-garden/6257487011/ref=pd_zg_hrsr_lawn-garden
+            - listitem [ref=f59e941]:
+              - generic [ref=f59e942]:
+                - text: "Customer Reviews:"
+                - generic [ref=f59e943]:
+                  - generic "4.2 out of 5 stars" [ref=f59e945]:
+                    - button "4.2 out of 5 stars" [ref=f59e947] [cursor=pointer]: "4.2"
+                  - link "143 Reviews" [ref=f59e952] [cursor=pointer]:
+                    - /url: "#averageCustomerReviewsAnchor"
+                    - text: (143)
+        - generic [ref=f59e953]:
+          - separator [ref=f59e954]
+          - generic [ref=f59e956]:
+            - heading "Product information" [level=1] [ref=f59e957]
+            - generic [ref=f59e961]:
+              - generic [ref=f59e962]:
+                - button [ref=f59e967] [cursor=pointer]:
+                  - heading "Item details" [level=5] [ref=f59e969]
+                - generic [ref=f59e972]:
+                  - heading "Feedback" [level=3] [ref=f59e973]
+                  - generic [ref=f59e978]:
+                    - text: Would you like to
+                    - button "tell us about a lower price?" [ref=f59e980] [cursor=pointer]
+              - generic [ref=f59e984]:
+                - button [ref=f59e987] [cursor=pointer]:
+                  - heading "Features & Specs" [level=5] [ref=f59e989]
+                - button [ref=f59e992] [cursor=pointer]:
+                  - heading "Measurements" [level=5] [ref=f59e994]
+                - button [ref=f59e997] [cursor=pointer]:
+                  - heading "Style" [level=5] [ref=f59e999]
+                - button [ref=f59e1002] [cursor=pointer]:
+                  - heading "Additional details" [level=5] [ref=f59e1004]
+        - generic [ref=f59e1007]:
+          - heading "Product description" [level=2] [ref=f59e1010]
+          - paragraph [ref=f59e1012]: The original wood-based wire snap trap, the Victor Wide Pedal Rat Trap, provides immediate rodent control and is safe for household or business use. For effective rat control, each rat trap comes with a wide, expanded professional trip pedal. The wide pedal of this rat trap is easily activated – both by rodent interest in food and through accidental contact as rats scamper across the floor – to ensure maximum trapping. Once a rodent triggers the pedal, the rat trap immediately springs closed to eliminate the pest on contact. The rat trap can then be easily disposed of for quick and clean removal. These traps require no chemicals or poisons, so they are an ideal rat control device for use around food, water, children and pets. The disposable rat trap is safe for use around food, water, children and pets. Victor Easy Set Rat Traps are perfect for use anywhere in your home or business. These rat traps should be placed where rodents travel, such as along walls at 2 to 3 foot intervals.
+        - generic:
+          - navigation:
+            - navigation "Navigate within the product detail page":
+              - navigation "Back to top jump link":
+                - generic: Top
+              - navigation "About this item widget jump link":
+                - generic: About this item
+              - navigation "Similar widget jump link":
+                - generic: Similar
+              - navigation "Product information widget jump link":
+                - generic: Product information
+              - navigation "From the brand widget jump link":
+                - generic: From the Brand
+              - navigation "Customer reviews widget jump link":
+                - generic: Reviews
+            - navigation "Back to top Image jump link":
+              - img "Victor Wide Pedal Rat Trap - M205TRI"
+            - navigation "Back to top title jump link":
+              - generic: Victor Wide Pedal Rat Trap - M205TRI
+      - generic [ref=f59e1015]:
+        - separator [ref=f59e1016]
+        - region "Customers frequently viewed" [ref=f59e1017]:
+          - generic [ref=f59e1019]:
+            - heading "Customers frequently viewed" [level=2] [ref=f59e1020]
+            - generic [ref=f59e1022]:
+              - link "Sponsored" [ref=f59e1024] [cursor=pointer]:
+                - /url: "#sp_detail2-cfv_feedbackForm"
+              - text: "| Popular products in the last 7 days"
+          - list [ref=f59e1034]:
+            - listitem [ref=f59e1035]:
+              - generic [ref=f59e1036]:
+                - link "Mousinator Tunnel Rat Trap | 2-Pack | Dual-Entry Enclosed Rat Snap Traps" [ref=f59e1037] [cursor=pointer]:
+                  - /url: /sspa/click?ie=UTF8&spc=MTo4OTU3NDgzNjYwNzQzOTExOjE3ODgzNzg4OTU6c3BfZGV0YWlsMjozMDEyNzM2MDYyMTk3MDI6Ojo6&url=%2Fdp%2FB0GQ5Z4KC9%2Fref%3Dsspa_dk_detail_0%3Fpsc%3D1%26pd_rd_i%3DB0GQ5Z4KC9%26pd_rd_w%3DrSteS%26content-id%3Damzn1.sym.ec1ad0c2-d14d-4068-a362-d9dbd12be2f6%26pf_rd_p%3Dec1ad0c2-d14d-4068-a362-d9dbd12be2f6%26pf_rd_r%3DD9T1KDMZ314X2H2A2CNT%26pd_rd_wg%3DFGgHu%26pd_rd_r%3De0bacaf6-8349-4a97-b474-91c32fffa1cc%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy
+                - link "4.2 out of 5 stars 58 ratings" [ref=f59e1043] [cursor=pointer]:
+                  - /url: /sspa/click?ie=UTF8&spc=MTo4OTU3NDgzNjYwNzQzOTExOjE3ODgzNzg4OTU6c3BfZGV0YWlsMjozMDEyNzM2MDYyMTk3MDI6Ojo6&url=%2Fdp%2FB0GQ5Z4KC9%2Fref%3Dsspa_dk_detail_0%3Fpsc%3D1%26pd_rd_i%3DB0GQ5Z4KC9%26pd_rd_w%3DrSteS%26content-id%3Damzn1.sym.ec1ad0c2-d14d-4068-a362-d9dbd12be2f6%26pf_rd_p%3Dec1ad0c2-d14d-4068-a362-d9dbd12be2f6%26pf_rd_r%3DD9T1KDMZ314X2H2A2CNT%26pd_rd_wg%3DFGgHu%26pd_rd_r%3De0bacaf6-8349-4a97-b474-91c32fffa1cc%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy#customerReviews
+                  - text: "58"
+                - link "$28.99" [ref=f59e1046] [cursor=pointer]:
+                  - /url: /sspa/click?ie=UTF8&spc=MTo4OTU3NDgzNjYwNzQzOTExOjE3ODgzNzg4OTU6c3BfZGV0YWlsMjozMDEyNzM2MDYyMTk3MDI6Ojo6&url=%2Fdp%2FB0GQ5Z4KC9%2Fref%3Dsspa_dk_detail_0%3Fpsc%3D1%26pd_rd_i%3DB0GQ5Z4KC9%26pd_rd_w%3DrSteS%26content-id%3Damzn1.sym.ec1ad0c2-d14d-4068-a362-d9dbd12be2f6%26pf_rd_p%3Dec1ad0c2-d14d-4068-a362-d9dbd12be2f6%26pf_rd_r%3DD9T1KDMZ314X2H2A2CNT%26pd_rd_wg%3DFGgHu%26pd_rd_r%3De0bacaf6-8349-4a97-b474-91c32fffa1cc%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy
+                  - generic [ref=f59e1047]:
+                    - generic [ref=f59e1048]: $28.99
+                    - generic [ref=f59e1049]:
+                      - text: $
+                      - generic [ref=f59e1050]:
+                        - text: "28"
+                        - generic [ref=f59e1051]: .
+                      - text: "99"
+                - link "FREE delivery Sun, Sep 6 on $35 of items shipped by Amazon" [ref=f59e1053] [cursor=pointer]:
+                  - /url: /sspa/click?ie=UTF8&spc=MTo4OTU3NDgzNjYwNzQzOTExOjE3ODgzNzg4OTU6c3BfZGV0YWlsMjozMDEyNzM2MDYyMTk3MDI6Ojo6&url=%2Fdp%2FB0GQ5Z4KC9%2Fref%3Dsspa_dk_detail_0%3Fpsc%3D1%26pd_rd_i%3DB0GQ5Z4KC9%26pd_rd_w%3DrSteS%26content-id%3Damzn1.sym.ec1ad0c2-d14d-4068-a362-d9dbd12be2f6%26pf_rd_p%3Dec1ad0c2-d14d-4068-a362-d9dbd12be2f6%26pf_rd_r%3DD9T1KDMZ314X2H2A2CNT%26pd_rd_wg%3DFGgHu%26pd_rd_r%3De0bacaf6-8349-4a97-b474-91c32fffa1cc%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy
+            - listitem [ref=f59e1059]:
+              - generic [ref=f59e1060]:
+                - link "[Upgraded] Mouse Trap Bucket,Rat Trap Bucket lid Mouse/Rat Trap with Automatic Reset Multi-Trap/Humane Trap Indoor Outdoor no See Kill Compatible with 5 Gallon Bucket" [ref=f59e1061] [cursor=pointer]:
+                  - /url: /sspa/click?ie=UTF8&spc=MTo4OTU3NDgzNjYwNzQzOTExOjE3ODgzNzg4OTU6c3BfZGV0YWlsMjozMDAwNjExMzA4MjM5MDI6Ojo6&url=%2Fdp%2FB0CGDHRPHP%2Fref%3Dsspa_dk_detail_1%3Fpsc%3D1%26pd_rd_i%3DB0CGDHRPHP%26pd_rd_w%3DrSteS%26content-id%3Damzn1.sym.ec1ad0c2-d14d-4068-a362-d9dbd12be2f6%26pf_rd_p%3Dec1ad0c2-d14d-4068-a362-d9dbd12be2f6%26pf_rd_r%3DD9T1KDMZ314X2H2A2CNT%26pd_rd_wg%3DFGgHu%26pd_rd_r%3De0bacaf6-8349-4a97-b474-91c32fffa1cc%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy
+                  - generic [ref=f59e1065]: "[Upgraded] Mouse Trap Bucket,Rat Trap Bucket lid Mouse/Rat Trap with Automatic Rese..."
+                - link "3.8 out of 5 stars 441 ratings" [ref=f59e1067] [cursor=pointer]:
+                  - /url: /sspa/click?ie=UTF8&spc=MTo4OTU3NDgzNjYwNzQzOTExOjE3ODgzNzg4OTU6c3BfZGV0YWlsMjozMDAwNjExMzA4MjM5MDI6Ojo6&url=%2Fdp%2FB0CGDHRPHP%2Fref%3Dsspa_dk_detail_1%3Fpsc%3D1%26pd_rd_i%3DB0CGDHRPHP%26pd_rd_w%3DrSteS%26content-id%3Damzn1.sym.ec1ad0c2-d14d-4068-a362-d9dbd12be2f6%26pf_rd_p%3Dec1ad0c2-d14d-4068-a362-d9dbd12be2f6%26pf_rd_r%3DD9T1KDMZ314X2H2A2CNT%26pd_rd_wg%3DFGgHu%26pd_rd_r%3De0bacaf6-8349-4a97-b474-91c32fffa1cc%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy#customerReviews
+                  - text: "441"
+                - link "$28.99" [ref=f59e1070] [cursor=pointer]:
+                  - /url: /sspa/click?ie=UTF8&spc=MTo4OTU3NDgzNjYwNzQzOTExOjE3ODgzNzg4OTU6c3BfZGV0YWlsMjozMDAwNjExMzA4MjM5MDI6Ojo6&url=%2Fdp%2FB0CGDHRPHP%2Fref%3Dsspa_dk_detail_1%3Fpsc%3D1%26pd_rd_i%3DB0CGDHRPHP%26pd_rd_w%3DrSteS%26content-id%3Damzn1.sym.ec1ad0c2-d14d-4068-a362-d9dbd12be2f6%26pf_rd_p%3Dec1ad0c2-d14d-4068-a362-d9dbd12be2f6%26pf_rd_r%3DD9T1KDMZ314X2H2A2CNT%26pd_rd_wg%3DFGgHu%26pd_rd_r%3De0bacaf6-8349-4a97-b474-91c32fffa1cc%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy
+                  - generic [ref=f59e1071]:
+                    - generic [ref=f59e1072]: $28.99
+                    - generic [ref=f59e1073]:
+                      - text: $
+                      - generic [ref=f59e1074]:
+                        - text: "28"
+                        - generic [ref=f59e1075]: .
+                      - text: "99"
+                - link "FREE delivery Sun, Sep 6 on $35 of items shipped by Amazon" [ref=f59e1077] [cursor=pointer]:
+                  - /url: /sspa/click?ie=UTF8&spc=MTo4OTU3NDgzNjYwNzQzOTExOjE3ODgzNzg4OTU6c3BfZGV0YWlsMjozMDAwNjExMzA4MjM5MDI6Ojo6&url=%2Fdp%2FB0CGDHRPHP%2Fref%3Dsspa_dk_detail_1%3Fpsc%3D1%26pd_rd_i%3DB0CGDHRPHP%26pd_rd_w%3DrSteS%26content-id%3Damzn1.sym.ec1ad0c2-d14d-4068-a362-d9dbd12be2f6%26pf_rd_p%3Dec1ad0c2-d14d-4068-a362-d9dbd12be2f6%26pf_rd_r%3DD9T1KDMZ314X2H2A2CNT%26pd_rd_wg%3DFGgHu%26pd_rd_r%3De0bacaf6-8349-4a97-b474-91c32fffa1cc%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy
+            - listitem [ref=f59e1083]:
+              - generic [ref=f59e1084]:
+                - link "1 Door Humane Live Animal Cage Trap, Metal Mesh Material Mouse Traps for Rat, Mouse, Hamster, Gopher, Chipmunk, Weasel and Other Small Mouse (Black)" [ref=f59e1085] [cursor=pointer]:
+                  - /url: /sspa/click?ie=UTF8&spc=MTo4OTU3NDgzNjYwNzQzOTExOjE3ODgzNzg4OTU6c3BfZGV0YWlsMjoyMDAwNzM4MTM3NjkxOTg6Ojo6&url=%2Fdp%2FB096985FQB%2Fref%3Dsspa_dk_detail_2%3Fpsc%3D1%26pd_rd_i%3DB096985FQB%26pd_rd_w%3DrSteS%26content-id%3Damzn1.sym.ec1ad0c2-d14d-4068-a362-d9dbd12be2f6%26pf_rd_p%3Dec1ad0c2-d14d-4068-a362-d9dbd12be2f6%26pf_rd_r%3DD9T1KDMZ314X2H2A2CNT%26pd_rd_wg%3DFGgHu%26pd_rd_r%3De0bacaf6-8349-4a97-b474-91c32fffa1cc%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy
+                  - generic [ref=f59e1089]: 1 Door Humane Live Animal Cage Trap, Metal Mesh Material Mouse Traps for Rat, Mouse...
+                - link "3.9 out of 5 stars 511 ratings" [ref=f59e1091] [cursor=pointer]:
+                  - /url: /sspa/click?ie=UTF8&spc=MTo4OTU3NDgzNjYwNzQzOTExOjE3ODgzNzg4OTU6c3BfZGV0YWlsMjoyMDAwNzM4MTM3NjkxOTg6Ojo6&url=%2Fdp%2FB096985FQB%2Fref%3Dsspa_dk_detail_2%3Fpsc%3D1%26pd_rd_i%3DB096985FQB%26pd_rd_w%3DrSteS%26content-id%3Damzn1.sym.ec1ad0c2-d14d-4068-a362-d9dbd12be2f6%26pf_rd_p%3Dec1ad0c2-d14d-4068-a362-d9dbd12be2f6%26pf_rd_r%3DD9T1KDMZ314X2H2A2CNT%26pd_rd_wg%3DFGgHu%26pd_rd_r%3De0bacaf6-8349-4a97-b474-91c32fffa1cc%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy#customerReviews
+                  - text: "511"
+                - 'link "-28% $17.99 Was: $24.99 Was: null" [ref=f59e1094] [cursor=pointer]':
+                  - /url: /sspa/click?ie=UTF8&spc=MTo4OTU3NDgzNjYwNzQzOTExOjE3ODgzNzg4OTU6c3BfZGV0YWlsMjoyMDAwNzM4MTM3NjkxOTg6Ojo6&url=%2Fdp%2FB096985FQB%2Fref%3Dsspa_dk_detail_2%3Fpsc%3D1%26pd_rd_i%3DB096985FQB%26pd_rd_w%3DrSteS%26content-id%3Damzn1.sym.ec1ad0c2-d14d-4068-a362-d9dbd12be2f6%26pf_rd_p%3Dec1ad0c2-d14d-4068-a362-d9dbd12be2f6%26pf_rd_r%3DD9T1KDMZ314X2H2A2CNT%26pd_rd_wg%3DFGgHu%26pd_rd_r%3De0bacaf6-8349-4a97-b474-91c32fffa1cc%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy
+                  - text: "-28%"
+                  - generic [ref=f59e1095]:
+                    - generic [ref=f59e1096]: $17.99
+                    - generic [ref=f59e1097]:
+                      - text: $
+                      - generic [ref=f59e1098]:
+                        - text: "17"
+                        - generic [ref=f59e1099]: .
+                      - text: "99"
+                  - generic [ref=f59e1100]: "Was: $24.99"
+                  - generic [ref=f59e1101]:
+                    - text: "Was:"
+                    - generic [ref=f59e1102]:
+                      - generic [ref=f59e1103]: "null"
+                      - text: $24.99
+                - link "FREE delivery Wed, Sep 9 on $35 of items shipped by Amazon" [ref=f59e1105] [cursor=pointer]:
+                  - /url: /sspa/click?ie=UTF8&spc=MTo4OTU3NDgzNjYwNzQzOTExOjE3ODgzNzg4OTU6c3BfZGV0YWlsMjoyMDAwNzM4MTM3NjkxOTg6Ojo6&url=%2Fdp%2FB096985FQB%2Fref%3Dsspa_dk_detail_2%3Fpsc%3D1%26pd_rd_i%3DB096985FQB%26pd_rd_w%3DrSteS%26content-id%3Damzn1.sym.ec1ad0c2-d14d-4068-a362-d9dbd12be2f6%26pf_rd_p%3Dec1ad0c2-d14d-4068-a362-d9dbd12be2f6%26pf_rd_r%3DD9T1KDMZ314X2H2A2CNT%26pd_rd_wg%3DFGgHu%26pd_rd_r%3De0bacaf6-8349-4a97-b474-91c32fffa1cc%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy
+            - listitem [ref=f59e1111]:
+              - generic [ref=f59e1112]:
+                - link "Auto Rolling Reset Mouse Trap, Safe Rolling Bucket Lid Rat Trap, Humane Rolling Reset Rat Trap Safe for Children and Pets, Live Catch and Release Bucket Mouse Trap for Home (Yellow, 1)" [ref=f59e1113] [cursor=pointer]:
+                  - /url: /sspa/click?ie=UTF8&spc=MTo4OTU3NDgzNjYwNzQzOTExOjE3ODgzNzg4OTU6c3BfZGV0YWlsMjoyMDAwMzU2MjE3MDAzOTg6Ojo6&url=%2Fdp%2FB09NNP8LWV%2Fref%3Dsspa_dk_detail_3%3Fpsc%3D1%26pd_rd_i%3DB09NNP8LWV%26pd_rd_w%3DrSteS%26content-id%3Damzn1.sym.ec1ad0c2-d14d-4068-a362-d9dbd12be2f6%26pf_rd_p%3Dec1ad0c2-d14d-4068-a362-d9dbd12be2f6%26pf_rd_r%3DD9T1KDMZ314X2H2A2CNT%26pd_rd_wg%3DFGgHu%26pd_rd_r%3De0bacaf6-8349-4a97-b474-91c32fffa1cc%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy
+                  - generic [ref=f59e1117]: Auto Rolling Reset Mouse Trap, Safe Rolling Bucket Lid Rat Trap, Humane Rolling Res...
+                - link "3.5 out of 5 stars 789 ratings" [ref=f59e1119] [cursor=pointer]:
+                  - /url: /sspa/click?ie=UTF8&spc=MTo4OTU3NDgzNjYwNzQzOTExOjE3ODgzNzg4OTU6c3BfZGV0YWlsMjoyMDAwMzU2MjE3MDAzOTg6Ojo6&url=%2Fdp%2FB09NNP8LWV%2Fref%3Dsspa_dk_detail_3%3Fpsc%3D1%26pd_rd_i%3DB09NNP8LWV%26pd_rd_w%3DrSteS%26content-id%3Damzn1.sym.ec1ad0c2-d14d-4068-a362-d9dbd12be2f6%26pf_rd_p%3Dec1ad0c2-d14d-4068-a362-d9dbd12be2f6%26pf_rd_r%3DD9T1KDMZ314X2H2A2CNT%26pd_rd_wg%3DFGgHu%26pd_rd_r%3De0bacaf6-8349-4a97-b474-91c32fffa1cc%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy#customerReviews
+                  - text: "789"
+                - link "$15.99" [ref=f59e1122] [cursor=pointer]:
+                  - /url: /sspa/click?ie=UTF8&spc=MTo4OTU3NDgzNjYwNzQzOTExOjE3ODgzNzg4OTU6c3BfZGV0YWlsMjoyMDAwMzU2MjE3MDAzOTg6Ojo6&url=%2Fdp%2FB09NNP8LWV%2Fref%3Dsspa_dk_detail_3%3Fpsc%3D1%26pd_rd_i%3DB09NNP8LWV%26pd_rd_w%3DrSteS%26content-id%3Damzn1.sym.ec1ad0c2-d14d-4068-a362-d9dbd12be2f6%26pf_rd_p%3Dec1ad0c2-d14d-4068-a362-d9dbd12be2f6%26pf_rd_r%3DD9T1KDMZ314X2H2A2CNT%26pd_rd_wg%3DFGgHu%26pd_rd_r%3De0bacaf6-8349-4a97-b474-91c32fffa1cc%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy
+                  - generic [ref=f59e1123]:
+                    - generic [ref=f59e1124]: $15.99
+                    - generic [ref=f59e1125]:
+                      - text: $
+                      - generic [ref=f59e1126]:
+                        - text: "15"
+                        - generic [ref=f59e1127]: .
+                      - text: "99"
+                - link "FREE delivery Sun, Sep 6 on $35 of items shipped by Amazon" [ref=f59e1129] [cursor=pointer]:
+                  - /url: /sspa/click?ie=UTF8&spc=MTo4OTU3NDgzNjYwNzQzOTExOjE3ODgzNzg4OTU6c3BfZGV0YWlsMjoyMDAwMzU2MjE3MDAzOTg6Ojo6&url=%2Fdp%2FB09NNP8LWV%2Fref%3Dsspa_dk_detail_3%3Fpsc%3D1%26pd_rd_i%3DB09NNP8LWV%26pd_rd_w%3DrSteS%26content-id%3Damzn1.sym.ec1ad0c2-d14d-4068-a362-d9dbd12be2f6%26pf_rd_p%3Dec1ad0c2-d14d-4068-a362-d9dbd12be2f6%26pf_rd_r%3DD9T1KDMZ314X2H2A2CNT%26pd_rd_wg%3DFGgHu%26pd_rd_r%3De0bacaf6-8349-4a97-b474-91c32fffa1cc%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy
+            - listitem [ref=f59e1135]:
+              - generic [ref=f59e1136]:
+                - link "Rat Traps for Big & Large Rats | Outdoor Traps, Big Mouse | Dual Tunnel Rat Traps Snap Trap | Dog Friendly & Kids Safe Design | Prevents Accidental Triggering | Reusable Heavy Duty Rat Trap that Works" [ref=f59e1137] [cursor=pointer]:
+                  - /url: /sspa/click?ie=UTF8&spc=MTo4OTU3NDgzNjYwNzQzOTExOjE3ODgzNzg4OTU6c3BfZGV0YWlsMjozMDEyMjY2MDQxMjE0MDI6Ojo6&url=%2Fdp%2FB0FP7FPM67%2Fref%3Dsspa_dk_detail_4%3Fpsc%3D1%26pd_rd_i%3DB0FP7FPM67%26pd_rd_w%3DrSteS%26content-id%3Damzn1.sym.ec1ad0c2-d14d-4068-a362-d9dbd12be2f6%26pf_rd_p%3Dec1ad0c2-d14d-4068-a362-d9dbd12be2f6%26pf_rd_r%3DD9T1KDMZ314X2H2A2CNT%26pd_rd_wg%3DFGgHu%26pd_rd_r%3De0bacaf6-8349-4a97-b474-91c32fffa1cc%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy
+                  - generic [ref=f59e1141]: Rat Traps for Big & Large Rats | Outdoor Traps, Big Mouse | Dual Tunnel Rat Traps S...
+                - link "4.4 out of 5 stars 47 ratings" [ref=f59e1143] [cursor=pointer]:
+                  - /url: /sspa/click?ie=UTF8&spc=MTo4OTU3NDgzNjYwNzQzOTExOjE3ODgzNzg4OTU6c3BfZGV0YWlsMjozMDEyMjY2MDQxMjE0MDI6Ojo6&url=%2Fdp%2FB0FP7FPM67%2Fref%3Dsspa_dk_detail_4%3Fpsc%3D1%26pd_rd_i%3DB0FP7FPM67%26pd_rd_w%3DrSteS%26content-id%3Damzn1.sym.ec1ad0c2-d14d-4068-a362-d9dbd12be2f6%26pf_rd_p%3Dec1ad0c2-d14d-4068-a362-d9dbd12be2f6%26pf_rd_r%3DD9T1KDMZ314X2H2A2CNT%26pd_rd_wg%3DFGgHu%26pd_rd_r%3De0bacaf6-8349-4a97-b474-91c32fffa1cc%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy#customerReviews
+                  - text: "47"
+                - link "$29.99" [ref=f59e1146] [cursor=pointer]:
+                  - /url: /sspa/click?ie=UTF8&spc=MTo4OTU3NDgzNjYwNzQzOTExOjE3ODgzNzg4OTU6c3BfZGV0YWlsMjozMDEyMjY2MDQxMjE0MDI6Ojo6&url=%2Fdp%2FB0FP7FPM67%2Fref%3Dsspa_dk_detail_4%3Fpsc%3D1%26pd_rd_i%3DB0FP7FPM67%26pd_rd_w%3DrSteS%26content-id%3Damzn1.sym.ec1ad0c2-d14d-4068-a362-d9dbd12be2f6%26pf_rd_p%3Dec1ad0c2-d14d-4068-a362-d9dbd12be2f6%26pf_rd_r%3DD9T1KDMZ314X2H2A2CNT%26pd_rd_wg%3DFGgHu%26pd_rd_r%3De0bacaf6-8349-4a97-b474-91c32fffa1cc%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy
+                  - generic [ref=f59e1147]:
+                    - generic [ref=f59e1148]: $29.99
+                    - generic [ref=f59e1149]:
+                      - text: $
+                      - generic [ref=f59e1150]:
+                        - text: "29"
+                        - generic [ref=f59e1151]: .
+                      - text: "99"
+                - link "FREE delivery Sun, Sep 6 on $35 of items shipped by Amazon" [ref=f59e1153] [cursor=pointer]:
+                  - /url: /sspa/click?ie=UTF8&spc=MTo4OTU3NDgzNjYwNzQzOTExOjE3ODgzNzg4OTU6c3BfZGV0YWlsMjozMDEyMjY2MDQxMjE0MDI6Ojo6&url=%2Fdp%2FB0FP7FPM67%2Fref%3Dsspa_dk_detail_4%3Fpsc%3D1%26pd_rd_i%3DB0FP7FPM67%26pd_rd_w%3DrSteS%26content-id%3Damzn1.sym.ec1ad0c2-d14d-4068-a362-d9dbd12be2f6%26pf_rd_p%3Dec1ad0c2-d14d-4068-a362-d9dbd12be2f6%26pf_rd_r%3DD9T1KDMZ314X2H2A2CNT%26pd_rd_wg%3DFGgHu%26pd_rd_r%3De0bacaf6-8349-4a97-b474-91c32fffa1cc%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy
+            - listitem [ref=f59e1159]:
+              - generic [ref=f59e1160]:
+                - link "Catchmaster Rat, Snake and Mouse Traps 6Pk, Large Bulk Glue Rat Traps for Home, Adhesive Plastic Tray for Inside House, Snake, Mice, & Spider Catcher, Pest Control for House & Garage" [ref=f59e1161] [cursor=pointer]:
+                  - /url: /sspa/click?ie=UTF8&spc=MTo4OTU3NDgzNjYwNzQzOTExOjE3ODgzNzg4OTU6c3BfZGV0YWlsMjozMDExNTc3Mjc3NDg1MDI6Ojo6&url=%2Fdp%2FB00CEEDFS4%2Fref%3Dsspa_dk_detail_5%3Fpsc%3D1%26pd_rd_i%3DB00CEEDFS4%26pd_rd_w%3DrSteS%26content-id%3Damzn1.sym.ec1ad0c2-d14d-4068-a362-d9dbd12be2f6%26pf_rd_p%3Dec1ad0c2-d14d-4068-a362-d9dbd12be2f6%26pf_rd_r%3DD9T1KDMZ314X2H2A2CNT%26pd_rd_wg%3DFGgHu%26pd_rd_r%3De0bacaf6-8349-4a97-b474-91c32fffa1cc%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy
+                  - generic [ref=f59e1165]: Catchmaster Rat, Snake and Mouse Traps 6Pk, Large Bulk Glue Rat Traps for Home, Adh...
+                - link "4.4 out of 5 stars 31,690 ratings" [ref=f59e1167] [cursor=pointer]:
+                  - /url: /sspa/click?ie=UTF8&spc=MTo4OTU3NDgzNjYwNzQzOTExOjE3ODgzNzg4OTU6c3BfZGV0YWlsMjozMDExNTc3Mjc3NDg1MDI6Ojo6&url=%2Fdp%2FB00CEEDFS4%2Fref%3Dsspa_dk_detail_5%3Fpsc%3D1%26pd_rd_i%3DB00CEEDFS4%26pd_rd_w%3DrSteS%26content-id%3Damzn1.sym.ec1ad0c2-d14d-4068-a362-d9dbd12be2f6%26pf_rd_p%3Dec1ad0c2-d14d-4068-a362-d9dbd12be2f6%26pf_rd_r%3DD9T1KDMZ314X2H2A2CNT%26pd_rd_wg%3DFGgHu%26pd_rd_r%3De0bacaf6-8349-4a97-b474-91c32fffa1cc%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy#customerReviews
+                  - text: 31,690
+                - link "$22.62" [ref=f59e1170] [cursor=pointer]:
+                  - /url: /sspa/click?ie=UTF8&spc=MTo4OTU3NDgzNjYwNzQzOTExOjE3ODgzNzg4OTU6c3BfZGV0YWlsMjozMDExNTc3Mjc3NDg1MDI6Ojo6&url=%2Fdp%2FB00CEEDFS4%2Fref%3Dsspa_dk_detail_5%3Fpsc%3D1%26pd_rd_i%3DB00CEEDFS4%26pd_rd_w%3DrSteS%26content-id%3Damzn1.sym.ec1ad0c2-d14d-4068-a362-d9dbd12be2f6%26pf_rd_p%3Dec1ad0c2-d14d-4068-a362-d9dbd12be2f6%26pf_rd_r%3DD9T1KDMZ314X2H2A2CNT%26pd_rd_wg%3DFGgHu%26pd_rd_r%3De0bacaf6-8349-4a97-b474-91c32fffa1cc%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy
+                  - generic [ref=f59e1171]:
+                    - generic [ref=f59e1172]: $22.62
+                    - generic [ref=f59e1173]:
+                      - text: $
+                      - generic [ref=f59e1174]:
+                        - text: "22"
+                        - generic [ref=f59e1175]: .
+                      - text: "62"
+                - link "FREE delivery Sun, Sep 6 on $35 of items shipped by Amazon" [ref=f59e1177] [cursor=pointer]:
+                  - /url: /sspa/click?ie=UTF8&spc=MTo4OTU3NDgzNjYwNzQzOTExOjE3ODgzNzg4OTU6c3BfZGV0YWlsMjozMDExNTc3Mjc3NDg1MDI6Ojo6&url=%2Fdp%2FB00CEEDFS4%2Fref%3Dsspa_dk_detail_5%3Fpsc%3D1%26pd_rd_i%3DB00CEEDFS4%26pd_rd_w%3DrSteS%26content-id%3Damzn1.sym.ec1ad0c2-d14d-4068-a362-d9dbd12be2f6%26pf_rd_p%3Dec1ad0c2-d14d-4068-a362-d9dbd12be2f6%26pf_rd_r%3DD9T1KDMZ314X2H2A2CNT%26pd_rd_wg%3DFGgHu%26pd_rd_r%3De0bacaf6-8349-4a97-b474-91c32fffa1cc%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy
+            - listitem [ref=f59e1183]:
+              - generic [ref=f59e1184]:
+                - link "Rat Traps Indoor Outdoor - 2 Pack Dual-Entry Large Rat Trap Outdoor and Indoor for Home, Garden and Restaurant | Easy to Use Rodent Traps with Safe Hands Free Design" [ref=f59e1185] [cursor=pointer]:
+                  - /url: /sspa/click?ie=UTF8&spc=MTo4OTU3NDgzNjYwNzQzOTExOjE3ODgzNzg4OTU6c3BfZGV0YWlsMjozMDA3Mjc0MTMwNDM3MDI6Ojo6&url=%2Fdp%2FB07BNQ3R9H%2Fref%3Dsspa_dk_detail_6%3Fpsc%3D1%26pd_rd_i%3DB07BNQ3R9H%26pd_rd_w%3DrSteS%26content-id%3Damzn1.sym.ec1ad0c2-d14d-4068-a362-d9dbd12be2f6%26pf_rd_p%3Dec1ad0c2-d14d-4068-a362-d9dbd12be2f6%26pf_rd_r%3DD9T1KDMZ314X2H2A2CNT%26pd_rd_wg%3DFGgHu%26pd_rd_r%3De0bacaf6-8349-4a97-b474-91c32fffa1cc%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy%26smid%3DA1UZCH2PLDQOPE
+                  - generic [ref=f59e1189]: Rat Traps Indoor Outdoor - 2 Pack Dual-Entry Large Rat Trap Outdoor and Indoor…
+                - link "3.8 out of 5 stars 4,935 ratings" [ref=f59e1191] [cursor=pointer]:
+                  - /url: /sspa/click?ie=UTF8&spc=MTo4OTU3NDgzNjYwNzQzOTExOjE3ODgzNzg4OTU6c3BfZGV0YWlsMjozMDA3Mjc0MTMwNDM3MDI6Ojo6&url=%2Fdp%2FB07BNQ3R9H%2Fref%3Dsspa_dk_detail_6%3Fpsc%3D1%26pd_rd_i%3DB07BNQ3R9H%26pd_rd_w%3DrSteS%26content-id%3Damzn1.sym.ec1ad0c2-d14d-4068-a362-d9dbd12be2f6%26pf_rd_p%3Dec1ad0c2-d14d-4068-a362-d9dbd12be2f6%26pf_rd_r%3DD9T1KDMZ314X2H2A2CNT%26pd_rd_wg%3DFGgHu%26pd_rd_r%3De0bacaf6-8349-4a97-b474-91c32fffa1cc%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy%26smid%3DA1UZCH2PLDQOPE#customerReviews
+                  - text: 4,935
+                - link "$29.99" [ref=f59e1194] [cursor=pointer]:
+                  - /url: /sspa/click?ie=UTF8&spc=MTo4OTU3NDgzNjYwNzQzOTExOjE3ODgzNzg4OTU6c3BfZGV0YWlsMjozMDA3Mjc0MTMwNDM3MDI6Ojo6&url=%2Fdp%2FB07BNQ3R9H%2Fref%3Dsspa_dk_detail_6%3Fpsc%3D1%26pd_rd_i%3DB07BNQ3R9H%26pd_rd_w%3DrSteS%26content-id%3Damzn1.sym.ec1ad0c2-d14d-4068-a362-d9dbd12be2f6%26pf_rd_p%3Dec1ad0c2-d14d-4068-a362-d9dbd12be2f6%26pf_rd_r%3DD9T1KDMZ314X2H2A2CNT%26pd_rd_wg%3DFGgHu%26pd_rd_r%3De0bacaf6-8349-4a97-b474-91c32fffa1cc%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy%26smid%3DA1UZCH2PLDQOPE
+                  - generic [ref=f59e1195]:
+                    - generic [ref=f59e1196]: $29.99
+                    - generic [ref=f59e1197]:
+                      - text: $
+                      - generic [ref=f59e1198]:
+                        - text: "29"
+                        - generic [ref=f59e1199]: .
+                      - text: "99"
+                - link "FREE delivery Sun, Sep 6 on $35 of items shipped by Amazon" [ref=f59e1201] [cursor=pointer]:
+                  - /url: /sspa/click?ie=UTF8&spc=MTo4OTU3NDgzNjYwNzQzOTExOjE3ODgzNzg4OTU6c3BfZGV0YWlsMjozMDA3Mjc0MTMwNDM3MDI6Ojo6&url=%2Fdp%2FB07BNQ3R9H%2Fref%3Dsspa_dk_detail_6%3Fpsc%3D1%26pd_rd_i%3DB07BNQ3R9H%26pd_rd_w%3DrSteS%26content-id%3Damzn1.sym.ec1ad0c2-d14d-4068-a362-d9dbd12be2f6%26pf_rd_p%3Dec1ad0c2-d14d-4068-a362-d9dbd12be2f6%26pf_rd_r%3DD9T1KDMZ314X2H2A2CNT%26pd_rd_wg%3DFGgHu%26pd_rd_r%3De0bacaf6-8349-4a97-b474-91c32fffa1cc%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy%26smid%3DA1UZCH2PLDQOPE
+      - generic [ref=f59e1209]:
+        - iframe [ref=f59e1210]:
+          - generic "Sponsored Ad" [ref=f62e2]:
+            - insertion [ref=f62e3]:
+              - iframe [ref=f62e4]:
+                - link [ref=f64e4] [cursor=pointer]:
+                  - /url: https://adclick.g.doubleclick.net/pcs/click?xai=AKAOjst-lR_L0pOtxrdzCqUGjbPGfozs0xnNfKq2NcMVvVkhUkuLmbQRkNICc2-CiaLQQn1mndESo8KpOUGsQcb1aSGVa9eNN4UgTIjJmbkquUzaZw1TbaNNqMMKLqseDZfvTPA3bcscUeQBFI_7QtF5KmT5AxOyHtmxXIKebwEPhM00XlU3K-mT1ZqL8hqs_YGM8XZqIGzMyjbWW6PGAmJy28tAjFI4WnknIJrwVuN38pCmFlRn31PRbu3heG7Vw__zRL_VRzNu3fA1khG_Qcp_pS4RYatzAixhM6HJwQUFzu3MUzfStFiEB26YYKNp-02wf4M2CY4zIMuDa672CnR1p0Qj1EssHT6xhSKbkOae_wyjurCsrauNKVF50q1oFHG7mODTkONv1eAoIDKcbqk5ToyLLYyhIF5xL8BA_pzt-WQNf8Ko5d0Ol7ptB8pYRAboyOR3gNHDUrmC2yHGxaISz9CmnnUqrYr85U9zLq56DH38o47atQZ__fEgSL0efPVwLLIZLKz8qdHLKLQy-g6QcrQR1fyPSBu167s&sai=AMfl-YS3-K3TmEn13I_dC4ecnNA096WyyZvBMfZEjDPuREU5cKi3a5IdIJST_b0DUGkrQ4rvEH6UlAEpBT5GOOgM6a3MLHH1cA61DVQjRgL_tJb5Nmr-oL3L9C4kL_X9X6YPjSsWksfLRHo5yipWpPxbYcf9BPJlXWw7e9i-viyGQjdhltGEUJAD57pi7qaD2OGf_8Ixv_o_j2QpOk9IehdfcsBmhafgOnbKPfMHCotHOjtENHXn-16I-zGGd_gzX4Yi0emaQ2hk6Lkv-GliFfVXR4SHtIan_i3C2l6-eqvxnRQOPhIjW5Qqwj3T25fNLXgP-QqcEPVO7r1ckszWrhKlu63At0sWdA&sig=Cg0ArKJSzFuOGHCMQQOz&cry=1&fbs_aeid=%5Bgw_fbsaeid%5D&urlfix=1&adurl=https://aax-us-east-retail-direct.amazon.com/x/c/RF04RlTyt6y-m1TDmiM8qy8AAAGgY7BU8AEAAAIBAQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDIgICBeltsP/clv1c_ek-43HUxHdDCTYlXYPhfteysJ3sxNuMQgizbQDQq5OKLxTIUA_biY_xDINFKiRAGy3Yeu_2ye_ftB5pKCiwxrTQ3J1h_We0ZTCzqjDddLEneUmzqm0hizS1oLG8bUL24v4l5HVCfHhzT13TWBJ90RCli8X7ngnmACrRALhScnlxq2-Ds2ke8iCzURtG-dehv3M71sWF-TKf-3S-7whJG6cLCqZ8PX6I5nibbR0Djsf3Jn4E3Uf59RfuE5ALHy1zwoukYr4ic3ABurhd6W84ExJcdsBciozFgmGq_uPdhYH-m7hlr9TkmSViOOU_B-PqF2PlI9FlzMWuimDPRXcDXD8zXlSE_PLQEQAt0eslq1MagnYb77Ouc11e50uxOLEsyeijmzsR7HsSPreg4cB4LsqGNAW5ncnWM7roP5yuJChrigSg9d6fBTRkzCvfTTFMPcpmP6Uk9kTSSK55n44ghT45-AC8paW71XCULCSBzUpbLwwEE-LBSYqJi-try_R8PLzCZnp6QD-dbvimWn84CbfZMkLt_MQbTPKWVy7pe7Xc_-ZU2GLGfqx7gTG7Fi6s5QVZiaq7JFRIuIPtA2Ug2D5u7i943KOYaKIdQlGK8Wma_2M7bqON_WJDUXgF1TXLQlC6IS7BuQZugguK2sM53l4oMOTK-bUJbxvsCbKbZPhwXSWM2bZYrhb8WOXbdidlcuyNVioY27sv4vtYl7vJBYYLwt-NvzzgToG5ZUAl40JPTVf7u14EpGjN4DaF9L-Z2pCCnlRmKNjw3zagI8JT2SdhDr7uNDRuCAEI3Zg/https://www.scotiabank.com/ca/en/business-banking/banking-solutions/business-bank-accounts/right-size-account-for-business.html%3Fcid%3Ddb_az_SMB_SMB-AO_1_LF_021_BNS-26-0072-SMB_0426_SMB%26dclid%3D%25edclid!%26gad_source%3D7%26gad_campaignid%3D23743238129
+                  - img "Advertisement" [ref=f64e5]
+        - button "Leave feedback on Sponsored ad" [ref=f59e1212] [cursor=pointer]:
+          - generic [ref=f59e1213]: Sponsored
+      - generic [ref=f59e1217]:
+        - separator [ref=f59e1218]
+        - generic [ref=f59e1219]:
+          - heading "Brands in this category on Amazon" [level=2] [ref=f59e1220]
+          - button "Leave feedback on sponsored ad" [ref=f59e1225] [cursor=pointer]: Sponsored
+          - generic [ref=f59e1227]:
+            - button [disabled] [ref=f59e1230]
+            - list [ref=f59e1232]:
+              - listitem [ref=f59e1233]:
+                - generic [ref=f59e1234]:
+                  - link "Sponsored ad from MOUSINATOR. Shop MOUSINATOR." [ref=f59e1235] [cursor=pointer]:
+                    - /url: https://aax-us-east-retail-direct.amazon.com/x/c/JM0krB0do_-S4wV30gM-kFoAAAGgY7BU3wEAAAH2AQBvbm9fdHhuX2JpZDcgICBvbm9fdHhuX2ltcDEgICDrfMqS/clv1c_ek-wBfHXFbbWzjK3YqvOrRfcOWxCnjr7XMMVxZra39rlZUbPaoKN3USGs-vI5XyOme2IJiBYIqhIfU5zYfvr7F5CoesSPFQ_dpNF9hOOH8RXN9Ctt7W2QyTI4_hvnH7fIKJvOrZ_xnzSh17Xvt9t-oR7oNqI_jWSWtQQz76gyKrHadtcvuArSwTnzjIV9TmIAv-W4tNb_0dPHmL7m2RDskqyTQ9vTAoEUdkqItN3ycqjF3fvR1wkul6fRhwKHdrqbgsi3qeKG6tHELt0O4-w-gFg2VWMLPatyQAhZLBbrKzdKb-5VE0FUTDfLzpshneerrayeR9KBKEHub1x4DplAgH5Sq_qLU87NF4l0KOS1VI_0V3V4EbOgCAV6LwCGxm4WAVBym3-eahkSCvKDZKyyNfWmTz5Yn07bJXq4adIcBQp5bgEFc25A62wUMmaYFiS1-V_VHwQD58Grd5ZA7xQkSVSV9XIz7LTL5lSyv0utXeTJolj4BEo8sJ6KLE2FDgrsfBG1Qlmeo-uOm676VZWI2Au5nUpSgluLUgyhH71rpSowdLgSUCQz822GGBcTmrF5m3GkgCRCspFZeYRgKLsJoqsDpLH6OL-P_NiX6JEqPxbmbJCsgFzLCoKIJbhvBvY2ktPAdyn3yszN5Pu7-vKWrGzC219H61nGkPysvdfO2Yto-TNTj5DtLl_naimM6S2A7jp-Z37Pdpb6QybnQJJKq5OXUUxRp8R4EHlnsIrFR_8Ya9eN1cJxn4wJibmlcC5W3ygNUMpprBz0UWfBNh5GH97-ZGiavC4i1oStZS1SFFpeSBY09_dTwssWofT-Rk2wt2OM0fyfQBKnqwG5DXvnKV7hr10R0kk9oW2j91uR-QfUDB3GcbPYq3LeDxeW-BEpMsYtp-EY_b7OrJvgiXf6zoPFEyElxDNBAsK90F2TmqCK-Mm1qScpOTYZlc_-hLMNa9OVHzJ3_LrYtIOK0Ywww1YsyGyhsQkZRiNtkNi2myMCINpfTtlWlY0AZdW2WyTcXXSI3inP77ckrhK_PzbKHzhjctTBfHDd9ssVhdSZIgRDZbmHDs_k83kmTbP8jJimu6SRKLAsa13l3UulfYtEV7b8si5GZI1N0vS7AyZqL2IPdFEdWxdMPdcXqtQZuU6YSn47vMGvBDtec-Aq3sCGVBa-4cWQ0G38ZKbmy4JG28Db-cePShzHnYRC-F-Tgf9sMIENKwRUEoPJhE_-7q9Uk_OQX9lGMqjfdTQTwe4-Ofppvmwzxf8NDO-cg80012ZT6kyGSu6wgd6e1i3bGQJCgl5g1gVIv9w4MOocHfsJERlLOrNich87tyGGte1pFOxab9upvDGcp9U9HqnKcXVYdkFIh_C65v9BwUvAJLzP7V11HddVbCfMbkBU0zyIdOvW3Ks_Ak5WpUhOqXZEV_PLKhDyqo6gtOS8r2pGB4B4PQBQRy08mehX-a8xgtuMz0Ne4O9JPJEDz92GMvhyxHAArMOtqW5h6Awg3-rERvSe2J648e-BiXugI0YSZQ7HBRXignr35cqvXxvKGJAx3m31QucZY_MN3XC1P4l7oOvhZICcXTG3rvKPga4iKYo8tZjz4nicCTiXLU/https://www.amazon.ca/stores/page/8029D3AB-4830-40A5-A7D1-207144F6F6B4/?_encoding=UTF8&store_ref=SB_A10396784B9M63T4BEK6-A04628951WO4C77V3JA39&pd_rd_plhdr=t&aaxitk=9655d7b8dfa8254c9b74ebe704eb65bc&hsa_cr_id=0&lp_asins=B0F3MHRL1T%2CB0CPD5RGCQ%2CB0GQQBZRT4&lp_slot=desktop-arbies&lp_page_asin=B0CNH8VZYX&pd_rd_i=ad1&ref_=sbx_be_dp_arbies_mbd_mb0_bkgd&pd_rd_w=BTaSw&content-id=amzn1.sym.f6213712-4a6f-4f87-9a7b-9a3c64c49057&pf_rd_p=f6213712-4a6f-4f87-9a7b-9a3c64c49057&pf_rd_r=D9T1KDMZ314X2H2A2CNT&pd_rd_wg=FGgHu&pd_rd_r=e0bacaf6-8349-4a97-b474-91c32fffa1cc
+                  - generic:
+                    - generic:
+                      - link [ref=f59e1236] [cursor=pointer]:
+                        - /url: https://aax-us-east-retail-direct.amazon.com/x/c/JM0krB0do_-S4wV30gM-kFoAAAGgY7BU3wEAAAH2AQBvbm9fdHhuX2JpZDcgICBvbm9fdHhuX2ltcDEgICDrfMqS/clv1c_ek-wBfHXFbbWzjK3YqvOrRfcOWxCnjr7XMMVxZra39rlZUbPaoKN3USGs-vI5XyOme2IJiBYIqhIfU5zYfvr7F5CoesSPFQ_dpNF9hOOH8RXN9Ctt7W2QyTI4_hvnH7fIKJvOrZ_xnzSh17Xvt9t-oR7oNqI_jWSWtQQz76gyKrHadtcvuArSwTnzjIV9TmIAv-W4tNb_0dPHmL7m2RDskqyTQ9vTAoEUdkqItN3ycqjF3fvR1wkul6fRhwKHdrqbgsi3qeKG6tHELt0O4-w-gFg2VWMLPatyQAhZLBbrKzdKb-5VE0FUTDfLzpshneerrayeR9KBKEHub1x4DplAgH5Sq_qLU87NF4l0KOS1VI_0V3V4EbOgCAV6LwCGxm4WAVBym3-eahkSCvKDZKyyNfWmTz5Yn07bJXq4adIcBQp5bgEFc25A62wUMmaYFiS1-V_VHwQD58Grd5ZA7xQkSVSV9XIz7LTL5lSyv0utXeTJolj4BEo8sJ6KLE2FDgrsfBG1Qlmeo-uOm676VZWI2Au5nUpSgluLUgyhH71rpSowdLgSUCQz822GGBcTmrF5m3GkgCRCspFZeYRgKLsJoqsDpLH6OL-P_NiX6JEqPxbmbJCsgFzLCoKIJbhvBvY2ktPAdyn3yszN5Pu7-vKWrGzC219H61nGkPysvdfO2Yto-TNTj5DtLl_naimM6S2A7jp-Z37Pdpb6QybnQJJKq5OXUUxRp8R4EHlnsIrFR_8Ya9eN1cJxn4wJibmlcC5W3ygNUMpprBz0UWfBNh5GH97-ZGiavC4i1oStZS1SFFpeSBY09_dTwssWofT-Rk2wt2OM0fyfQBKnqwG5DXvnKV7hr10R0kk9oW2j91uR-QfUDB3GcbPYq3LeDxeW-BEpMsYtp-EY_b7OrJvgiXf6zoPFEyElxDNBAsK90F2TmqCK-Mm1qScpOTYZlc_-hLMNa9OVHzJ3_LrYtIOK0Ywww1YsyGyhsQkZRiNtkNi2myMCINpfTtlWlY0AZdW2WyTcXXSI3inP77ckrhK_PzbKHzhjctTBfHDd9ssVhdSZIgRDZbmHDs_k83kmTbP8jJimu6SRKLAsa13l3UulfYtEV7b8si5GZI1N0vS7AyZqL2IPdFEdWxdMPdcXqtQZuU6YSn47vMGvBDtec-Aq3sCGVBa-4cWQ0G38ZKbmy4JG28Db-cePShzHnYRC-F-Tgf9sMIENKwRUEoPJhE_-7q9Uk_OQX9lGMqjfdTQTwe4-Ofppvmwzxf8NDO-cg80012ZT6kyGSu6wgd6e1i3bGQJCgl5g1gVIv9w4MOocHfsJERlLOrNich87tyGGte1pFOxab9upvDGcp9U9HqnKcXVYdkFIh_C65v9BwUvAJLzP7V11HddVbCfMbkBU0zyIdOvW3Ks_Ak5WpUhOqXZEV_PLKhDyqo6gtOS8r2pGB4B4PQBQRy08mehX-a8xgtuMz0Ne4O9JPJEDz92GMvhyxHAArMOtqW5h6Awg3-rERvSe2J648e-BiXugI0YSZQ7HBRXignr35cqvXxvKGJAx3m31QucZY_MN3XC1P4l7oOvhZICcXTG3rvKPga4iKYo8tZjz4nicCTiXLU/https://www.amazon.ca/stores/page/8029D3AB-4830-40A5-A7D1-207144F6F6B4/?_encoding=UTF8&store_ref=SB_A10396784B9M63T4BEK6-A04628951WO4C77V3JA39&pd_rd_plhdr=t&aaxitk=9655d7b8dfa8254c9b74ebe704eb65bc&hsa_cr_id=0&lp_asins=B0F3MHRL1T%2CB0CPD5RGCQ%2CB0GQQBZRT4&lp_slot=desktop-arbies&lp_page_asin=B0CNH8VZYX&pd_rd_i=ad1&ref_=sbx_be_dp_arbies_mbd_mb0_asin&pd_rd_w=BTaSw&content-id=amzn1.sym.f6213712-4a6f-4f87-9a7b-9a3c64c49057&pf_rd_p=f6213712-4a6f-4f87-9a7b-9a3c64c49057&pf_rd_r=D9T1KDMZ314X2H2A2CNT&pd_rd_wg=FGgHu&pd_rd_r=e0bacaf6-8349-4a97-b474-91c32fffa1cc
+                        - img "Sponsored ad from MOUSINATOR. Shop MOUSINATOR." [ref=f59e1237]
+                      - generic:
+                        - link:
+                          - /url: https://aax-us-east-retail-direct.amazon.com/x/c/JM0krB0do_-S4wV30gM-kFoAAAGgY7BU3wEAAAH2AQBvbm9fdHhuX2JpZDcgICBvbm9fdHhuX2ltcDEgICDrfMqS/clv1c_ek-wBfHXFbbWzjK3YqvOrRfcOWxCnjr7XMMVxZra39rlZUbPaoKN3USGs-vI5XyOme2IJiBYIqhIfU5zYfvr7F5CoesSPFQ_dpNF9hOOH8RXN9Ctt7W2QyTI4_hvnH7fIKJvOrZ_xnzSh17Xvt9t-oR7oNqI_jWSWtQQz76gyKrHadtcvuArSwTnzjIV9TmIAv-W4tNb_0dPHmL7m2RDskqyTQ9vTAoEUdkqItN3ycqjF3fvR1wkul6fRhwKHdrqbgsi3qeKG6tHELt0O4-w-gFg2VWMLPatyQAhZLBbrKzdKb-5VE0FUTDfLzpshneerrayeR9KBKEHub1x4DplAgH5Sq_qLU87NF4l0KOS1VI_0V3V4EbOgCAV6LwCGxm4WAVBym3-eahkSCvKDZKyyNfWmTz5Yn07bJXq4adIcBQp5bgEFc25A62wUMmaYFiS1-V_VHwQD58Grd5ZA7xQkSVSV9XIz7LTL5lSyv0utXeTJolj4BEo8sJ6KLE2FDgrsfBG1Qlmeo-uOm676VZWI2Au5nUpSgluLUgyhH71rpSowdLgSUCQz822GGBcTmrF5m3GkgCRCspFZeYRgKLsJoqsDpLH6OL-P_NiX6JEqPxbmbJCsgFzLCoKIJbhvBvY2ktPAdyn3yszN5Pu7-vKWrGzC219H61nGkPysvdfO2Yto-TNTj5DtLl_naimM6S2A7jp-Z37Pdpb6QybnQJJKq5OXUUxRp8R4EHlnsIrFR_8Ya9eN1cJxn4wJibmlcC5W3ygNUMpprBz0UWfBNh5GH97-ZGiavC4i1oStZS1SFFpeSBY09_dTwssWofT-Rk2wt2OM0fyfQBKnqwG5DXvnKV7hr10R0kk9oW2j91uR-QfUDB3GcbPYq3LeDxeW-BEpMsYtp-EY_b7OrJvgiXf6zoPFEyElxDNBAsK90F2TmqCK-Mm1qScpOTYZlc_-hLMNa9OVHzJ3_LrYtIOK0Ywww1YsyGyhsQkZRiNtkNi2myMCINpfTtlWlY0AZdW2WyTcXXSI3inP77ckrhK_PzbKHzhjctTBfHDd9ssVhdSZIgRDZbmHDs_k83kmTbP8jJimu6SRKLAsa13l3UulfYtEV7b8si5GZI1N0vS7AyZqL2IPdFEdWxdMPdcXqtQZuU6YSn47vMGvBDtec-Aq3sCGVBa-4cWQ0G38ZKbmy4JG28Db-cePShzHnYRC-F-Tgf9sMIENKwRUEoPJhE_-7q9Uk_OQX9lGMqjfdTQTwe4-Ofppvmwzxf8NDO-cg80012ZT6kyGSu6wgd6e1i3bGQJCgl5g1gVIv9w4MOocHfsJERlLOrNich87tyGGte1pFOxab9upvDGcp9U9HqnKcXVYdkFIh_C65v9BwUvAJLzP7V11HddVbCfMbkBU0zyIdOvW3Ks_Ak5WpUhOqXZEV_PLKhDyqo6gtOS8r2pGB4B4PQBQRy08mehX-a8xgtuMz0Ne4O9JPJEDz92GMvhyxHAArMOtqW5h6Awg3-rERvSe2J648e-BiXugI0YSZQ7HBRXignr35cqvXxvKGJAx3m31QucZY_MN3XC1P4l7oOvhZICcXTG3rvKPga4iKYo8tZjz4nicCTiXLU/https://www.amazon.ca/stores/page/8029D3AB-4830-40A5-A7D1-207144F6F6B4/?_encoding=UTF8&store_ref=SB_A10396784B9M63T4BEK6-A04628951WO4C77V3JA39&pd_rd_plhdr=t&aaxitk=9655d7b8dfa8254c9b74ebe704eb65bc&hsa_cr_id=0&lp_asins=B0F3MHRL1T%2CB0CPD5RGCQ%2CB0GQQBZRT4&lp_slot=desktop-arbies&lp_page_asin=B0CNH8VZYX&pd_rd_i=ad1&ref_=sbx_be_dp_arbies_mbd_mb0_bkgd&pd_rd_w=BTaSw&content-id=amzn1.sym.f6213712-4a6f-4f87-9a7b-9a3c64c49057&pf_rd_p=f6213712-4a6f-4f87-9a7b-9a3c64c49057&pf_rd_r=D9T1KDMZ314X2H2A2CNT&pd_rd_wg=FGgHu&pd_rd_r=e0bacaf6-8349-4a97-b474-91c32fffa1cc
+                        - generic:
+                          - link [ref=f59e1238] [cursor=pointer]:
+                            - /url: https://aax-us-east-retail-direct.amazon.com/x/c/JM0krB0do_-S4wV30gM-kFoAAAGgY7BU3wEAAAH2AQBvbm9fdHhuX2JpZDcgICBvbm9fdHhuX2ltcDEgICDrfMqS/clv1c_ek-wBfHXFbbWzjK3YqvOrRfcOWxCnjr7XMMVxZra39rlZUbPaoKN3USGs-vI5XyOme2IJiBYIqhIfU5zYfvr7F5CoesSPFQ_dpNF9hOOH8RXN9Ctt7W2QyTI4_hvnH7fIKJvOrZ_xnzSh17Xvt9t-oR7oNqI_jWSWtQQz76gyKrHadtcvuArSwTnzjIV9TmIAv-W4tNb_0dPHmL7m2RDskqyTQ9vTAoEUdkqItN3ycqjF3fvR1wkul6fRhwKHdrqbgsi3qeKG6tHELt0O4-w-gFg2VWMLPatyQAhZLBbrKzdKb-5VE0FUTDfLzpshneerrayeR9KBKEHub1x4DplAgH5Sq_qLU87NF4l0KOS1VI_0V3V4EbOgCAV6LwCGxm4WAVBym3-eahkSCvKDZKyyNfWmTz5Yn07bJXq4adIcBQp5bgEFc25A62wUMmaYFiS1-V_VHwQD58Grd5ZA7xQkSVSV9XIz7LTL5lSyv0utXeTJolj4BEo8sJ6KLE2FDgrsfBG1Qlmeo-uOm676VZWI2Au5nUpSgluLUgyhH71rpSowdLgSUCQz822GGBcTmrF5m3GkgCRCspFZeYRgKLsJoqsDpLH6OL-P_NiX6JEqPxbmbJCsgFzLCoKIJbhvBvY2ktPAdyn3yszN5Pu7-vKWrGzC219H61nGkPysvdfO2Yto-TNTj5DtLl_naimM6S2A7jp-Z37Pdpb6QybnQJJKq5OXUUxRp8R4EHlnsIrFR_8Ya9eN1cJxn4wJibmlcC5W3ygNUMpprBz0UWfBNh5GH97-ZGiavC4i1oStZS1SFFpeSBY09_dTwssWofT-Rk2wt2OM0fyfQBKnqwG5DXvnKV7hr10R0kk9oW2j91uR-QfUDB3GcbPYq3LeDxeW-BEpMsYtp-EY_b7OrJvgiXf6zoPFEyElxDNBAsK90F2TmqCK-Mm1qScpOTYZlc_-hLMNa9OVHzJ3_LrYtIOK0Ywww1YsyGyhsQkZRiNtkNi2myMCINpfTtlWlY0AZdW2WyTcXXSI3inP77ckrhK_PzbKHzhjctTBfHDd9ssVhdSZIgRDZbmHDs_k83kmTbP8jJimu6SRKLAsa13l3UulfYtEV7b8si5GZI1N0vS7AyZqL2IPdFEdWxdMPdcXqtQZuU6YSn47vMGvBDtec-Aq3sCGVBa-4cWQ0G38ZKbmy4JG28Db-cePShzHnYRC-F-Tgf9sMIENKwRUEoPJhE_-7q9Uk_OQX9lGMqjfdTQTwe4-Ofppvmwzxf8NDO-cg80012ZT6kyGSu6wgd6e1i3bGQJCgl5g1gVIv9w4MOocHfsJERlLOrNich87tyGGte1pFOxab9upvDGcp9U9HqnKcXVYdkFIh_C65v9BwUvAJLzP7V11HddVbCfMbkBU0zyIdOvW3Ks_Ak5WpUhOqXZEV_PLKhDyqo6gtOS8r2pGB4B4PQBQRy08mehX-a8xgtuMz0Ne4O9JPJEDz92GMvhyxHAArMOtqW5h6Awg3-rERvSe2J648e-BiXugI0YSZQ7HBRXignr35cqvXxvKGJAx3m31QucZY_MN3XC1P4l7oOvhZICcXTG3rvKPga4iKYo8tZjz4nicCTiXLU/https://www.amazon.ca/stores/page/8029D3AB-4830-40A5-A7D1-207144F6F6B4/?_encoding=UTF8&store_ref=SB_A10396784B9M63T4BEK6-A04628951WO4C77V3JA39&pd_rd_plhdr=t&aaxitk=9655d7b8dfa8254c9b74ebe704eb65bc&hsa_cr_id=0&lp_asins=B0F3MHRL1T%2CB0CPD5RGCQ%2CB0GQQBZRT4&lp_slot=desktop-arbies&lp_page_asin=B0CNH8VZYX&pd_rd_i=ad1&ref_=sbx_be_dp_arbies_mbd_mb0_logo&pd_rd_w=BTaSw&content-id=amzn1.sym.f6213712-4a6f-4f87-9a7b-9a3c64c49057&pf_rd_p=f6213712-4a6f-4f87-9a7b-9a3c64c49057&pf_rd_r=D9T1KDMZ314X2H2A2CNT&pd_rd_wg=FGgHu&pd_rd_r=e0bacaf6-8349-4a97-b474-91c32fffa1cc
+                            - img "MOUSINATOR" [ref=f59e1239]
+                          - link:
+                            - /url: https://aax-us-east-retail-direct.amazon.com/x/c/JM0krB0do_-S4wV30gM-kFoAAAGgY7BU3wEAAAH2AQBvbm9fdHhuX2JpZDcgICBvbm9fdHhuX2ltcDEgICDrfMqS/clv1c_ek-wBfHXFbbWzjK3YqvOrRfcOWxCnjr7XMMVxZra39rlZUbPaoKN3USGs-vI5XyOme2IJiBYIqhIfU5zYfvr7F5CoesSPFQ_dpNF9hOOH8RXN9Ctt7W2QyTI4_hvnH7fIKJvOrZ_xnzSh17Xvt9t-oR7oNqI_jWSWtQQz76gyKrHadtcvuArSwTnzjIV9TmIAv-W4tNb_0dPHmL7m2RDskqyTQ9vTAoEUdkqItN3ycqjF3fvR1wkul6fRhwKHdrqbgsi3qeKG6tHELt0O4-w-gFg2VWMLPatyQAhZLBbrKzdKb-5VE0FUTDfLzpshneerrayeR9KBKEHub1x4DplAgH5Sq_qLU87NF4l0KOS1VI_0V3V4EbOgCAV6LwCGxm4WAVBym3-eahkSCvKDZKyyNfWmTz5Yn07bJXq4adIcBQp5bgEFc25A62wUMmaYFiS1-V_VHwQD58Grd5ZA7xQkSVSV9XIz7LTL5lSyv0utXeTJolj4BEo8sJ6KLE2FDgrsfBG1Qlmeo-uOm676VZWI2Au5nUpSgluLUgyhH71rpSowdLgSUCQz822GGBcTmrF5m3GkgCRCspFZeYRgKLsJoqsDpLH6OL-P_NiX6JEqPxbmbJCsgFzLCoKIJbhvBvY2ktPAdyn3yszN5Pu7-vKWrGzC219H61nGkPysvdfO2Yto-TNTj5DtLl_naimM6S2A7jp-Z37Pdpb6QybnQJJKq5OXUUxRp8R4EHlnsIrFR_8Ya9eN1cJxn4wJibmlcC5W3ygNUMpprBz0UWfBNh5GH97-ZGiavC4i1oStZS1SFFpeSBY09_dTwssWofT-Rk2wt2OM0fyfQBKnqwG5DXvnKV7hr10R0kk9oW2j91uR-QfUDB3GcbPYq3LeDxeW-BEpMsYtp-EY_b7OrJvgiXf6zoPFEyElxDNBAsK90F2TmqCK-Mm1qScpOTYZlc_-hLMNa9OVHzJ3_LrYtIOK0Ywww1YsyGyhsQkZRiNtkNi2myMCINpfTtlWlY0AZdW2WyTcXXSI3inP77ckrhK_PzbKHzhjctTBfHDd9ssVhdSZIgRDZbmHDs_k83kmTbP8jJimu6SRKLAsa13l3UulfYtEV7b8si5GZI1N0vS7AyZqL2IPdFEdWxdMPdcXqtQZuU6YSn47vMGvBDtec-Aq3sCGVBa-4cWQ0G38ZKbmy4JG28Db-cePShzHnYRC-F-Tgf9sMIENKwRUEoPJhE_-7q9Uk_OQX9lGMqjfdTQTwe4-Ofppvmwzxf8NDO-cg80012ZT6kyGSu6wgd6e1i3bGQJCgl5g1gVIv9w4MOocHfsJERlLOrNich87tyGGte1pFOxab9upvDGcp9U9HqnKcXVYdkFIh_C65v9BwUvAJLzP7V11HddVbCfMbkBU0zyIdOvW3Ks_Ak5WpUhOqXZEV_PLKhDyqo6gtOS8r2pGB4B4PQBQRy08mehX-a8xgtuMz0Ne4O9JPJEDz92GMvhyxHAArMOtqW5h6Awg3-rERvSe2J648e-BiXugI0YSZQ7HBRXignr35cqvXxvKGJAx3m31QucZY_MN3XC1P4l7oOvhZICcXTG3rvKPga4iKYo8tZjz4nicCTiXLU/https://www.amazon.ca/stores/page/8029D3AB-4830-40A5-A7D1-207144F6F6B4/?_encoding=UTF8&store_ref=SB_A10396784B9M63T4BEK6-A04628951WO4C77V3JA39&pd_rd_plhdr=t&aaxitk=9655d7b8dfa8254c9b74ebe704eb65bc&hsa_cr_id=0&lp_asins=B0F3MHRL1T%2CB0CPD5RGCQ%2CB0GQQBZRT4&lp_slot=desktop-arbies&lp_page_asin=B0CNH8VZYX&pd_rd_i=ad1&ref_=sbx_be_dp_arbies_mbd_mb0_hl&pd_rd_w=BTaSw&content-id=amzn1.sym.f6213712-4a6f-4f87-9a7b-9a3c64c49057&pf_rd_p=f6213712-4a6f-4f87-9a7b-9a3c64c49057&pf_rd_r=D9T1KDMZ314X2H2A2CNT&pd_rd_wg=FGgHu&pd_rd_r=e0bacaf6-8349-4a97-b474-91c32fffa1cc
+                          - link "Shop MOUSINATOR" [ref=f59e1240] [cursor=pointer]:
+                            - /url: https://aax-us-east-retail-direct.amazon.com/x/c/JM0krB0do_-S4wV30gM-kFoAAAGgY7BU3wEAAAH2AQBvbm9fdHhuX2JpZDcgICBvbm9fdHhuX2ltcDEgICDrfMqS/clv1c_ek-wBfHXFbbWzjK3YqvOrRfcOWxCnjr7XMMVxZra39rlZUbPaoKN3USGs-vI5XyOme2IJiBYIqhIfU5zYfvr7F5CoesSPFQ_dpNF9hOOH8RXN9Ctt7W2QyTI4_hvnH7fIKJvOrZ_xnzSh17Xvt9t-oR7oNqI_jWSWtQQz76gyKrHadtcvuArSwTnzjIV9TmIAv-W4tNb_0dPHmL7m2RDskqyTQ9vTAoEUdkqItN3ycqjF3fvR1wkul6fRhwKHdrqbgsi3qeKG6tHELt0O4-w-gFg2VWMLPatyQAhZLBbrKzdKb-5VE0FUTDfLzpshneerrayeR9KBKEHub1x4DplAgH5Sq_qLU87NF4l0KOS1VI_0V3V4EbOgCAV6LwCGxm4WAVBym3-eahkSCvKDZKyyNfWmTz5Yn07bJXq4adIcBQp5bgEFc25A62wUMmaYFiS1-V_VHwQD58Grd5ZA7xQkSVSV9XIz7LTL5lSyv0utXeTJolj4BEo8sJ6KLE2FDgrsfBG1Qlmeo-uOm676VZWI2Au5nUpSgluLUgyhH71rpSowdLgSUCQz822GGBcTmrF5m3GkgCRCspFZeYRgKLsJoqsDpLH6OL-P_NiX6JEqPxbmbJCsgFzLCoKIJbhvBvY2ktPAdyn3yszN5Pu7-vKWrGzC219H61nGkPysvdfO2Yto-TNTj5DtLl_naimM6S2A7jp-Z37Pdpb6QybnQJJKq5OXUUxRp8R4EHlnsIrFR_8Ya9eN1cJxn4wJibmlcC5W3ygNUMpprBz0UWfBNh5GH97-ZGiavC4i1oStZS1SFFpeSBY09_dTwssWofT-Rk2wt2OM0fyfQBKnqwG5DXvnKV7hr10R0kk9oW2j91uR-QfUDB3GcbPYq3LeDxeW-BEpMsYtp-EY_b7OrJvgiXf6zoPFEyElxDNBAsK90F2TmqCK-Mm1qScpOTYZlc_-hLMNa9OVHzJ3_LrYtIOK0Ywww1YsyGyhsQkZRiNtkNi2myMCINpfTtlWlY0AZdW2WyTcXXSI3inP77ckrhK_PzbKHzhjctTBfHDd9ssVhdSZIgRDZbmHDs_k83kmTbP8jJimu6SRKLAsa13l3UulfYtEV7b8si5GZI1N0vS7AyZqL2IPdFEdWxdMPdcXqtQZuU6YSn47vMGvBDtec-Aq3sCGVBa-4cWQ0G38ZKbmy4JG28Db-cePShzHnYRC-F-Tgf9sMIENKwRUEoPJhE_-7q9Uk_OQX9lGMqjfdTQTwe4-Ofppvmwzxf8NDO-cg80012ZT6kyGSu6wgd6e1i3bGQJCgl5g1gVIv9w4MOocHfsJERlLOrNich87tyGGte1pFOxab9upvDGcp9U9HqnKcXVYdkFIh_C65v9BwUvAJLzP7V11HddVbCfMbkBU0zyIdOvW3Ks_Ak5WpUhOqXZEV_PLKhDyqo6gtOS8r2pGB4B4PQBQRy08mehX-a8xgtuMz0Ne4O9JPJEDz92GMvhyxHAArMOtqW5h6Awg3-rERvSe2J648e-BiXugI0YSZQ7HBRXignr35cqvXxvKGJAx3m31QucZY_MN3XC1P4l7oOvhZICcXTG3rvKPga4iKYo8tZjz4nicCTiXLU/https://www.amazon.ca/stores/page/8029D3AB-4830-40A5-A7D1-207144F6F6B4/?_encoding=UTF8&store_ref=SB_A10396784B9M63T4BEK6-A04628951WO4C77V3JA39&pd_rd_plhdr=t&aaxitk=9655d7b8dfa8254c9b74ebe704eb65bc&hsa_cr_id=0&lp_asins=B0F3MHRL1T%2CB0CPD5RGCQ%2CB0GQQBZRT4&lp_slot=desktop-arbies&lp_page_asin=B0CNH8VZYX&pd_rd_i=ad1&ref_=sbx_be_dp_arbies_mbd_mb0_cta&pd_rd_w=BTaSw&content-id=amzn1.sym.f6213712-4a6f-4f87-9a7b-9a3c64c49057&pf_rd_p=f6213712-4a6f-4f87-9a7b-9a3c64c49057&pf_rd_r=D9T1KDMZ314X2H2A2CNT&pd_rd_wg=FGgHu&pd_rd_r=e0bacaf6-8349-4a97-b474-91c32fffa1cc
+                            - generic [ref=f59e1243]:
+                              - text: Shop
+                              - generic [ref=f59e1244]: MOUSINATOR
+              - listitem [ref=f59e1247]:
+                - generic [ref=f59e1248]:
+                  - link "Sponsored ad from BOWOD. Shop BOWOD." [ref=f59e1249] [cursor=pointer]:
+                    - /url: https://aax-us-east-retail-direct.amazon.com/x/c/JLhaF9Sq525wIjE7nvcQTeQAAAGgY7BU4AEAAAH2AQBvbm9fdHhuX2JpZDcgICBvbm9fdHhuX2ltcDEgICDqzbG3/clv1c_ek-wBff3ErTa3ut7cPsEbugzoh05WFHJpwxcBCJyjxEibxJeBAUPTj-7udXgeUrn3Fo3kjWFtKuk1JN8QrOWSMlQ7w9gBamOcALUc0WG0K6qC5DRER59nQ354M94Pu7eoukxwqg7rR-2pnt5rukiq1BbpPUM1iZL0ETz9x2OFObfnRb_MEFoZXzivLnxleKcZ4Gnvlur34cDV-rp2wtW-2CT1Zc7OJ_0xeLUQnE1EbO-SPKyccdfksuVuPF5Rhf7UVsqciSaP99lQVi_IV7ZaJ76BUiHtMLAfkPMaKyoU5C7FP4XmW3vqu8PdnVS57TOG5MH76OFRWWqxPKqC4dS0PTDJFlxT9WXlJT4lJp6OWWWNI0NKWK2RGdo8ymIXCAiJocw_qZ6roZQG-r2K1kw9SHsJrB7-hPvkGrEnE19oe5biX-u83XGx4dWPRXnXHt304ue0QgVOFz8dd0HuRtF2mKCSk1-is5SS8OH7zHPOu9ekb-TnanQh_W6VbvVxosczjbbqOgPVotChR-mxZRpuoPTUas4Wvhh-xSb4_E9s8VNbyx-P1oLM9FiT8yegy2iCX4QjA0vjPdV4BNcweF3I1qP6ENsTnlR3LPV-4PjGYOsrUyaQ9o0HpZkuqTc3yvluRWEIYvdPr6M-x01wmVrnDlvWNmxC_6BD5vTxCBmsE3iJNE2rA4MZeMqj-hhWLiyIv5-FYo9l4Fesv4Q_VfuXIt84kiGVOeUg2aw1EewOI_Np_FM6Kbxub_Cu_hsbeeKrXqz1x-4TkYMdyc_TesSoUv1eWXZbluk4M2c1atfskoQCHSGmZbU86TF7BwQJv3pDkwNfDgykL5rsFP3IJv0bTmpuZoaK1icxeBJlhN_gxAyynE7s4U9xKTnQQ4feyOENnMH7tfjcPkA5PrcmQs_BBunu298LyJy9B3oDcf35AZdhrSIB_avphAfW732DUFY4iQ2DuOgwm8rmqnPyx8JdfSObBPLPyttqmixTgtA8uJ4g30bZD4oxlVEBbeJBTDhrAgrJi7urpZLzJSTi8AFTnpLfgd0KxHhVCmpKzEoM-u-Q47ToXAh2EYV_F-BDx7b1dS1fxPCiOAF5vBrZlFrDQeZJ9Ds-uglQ3CC58drlcl-GddHjnsB8FujEf_ZCkAcgeizVzsDepYM-01JS7wiqlsAWLLFYYxczK1u9ct7UL455VYbZWXDiyAZvdzxut2MG4Q9a3TDITTh7t-gmUnmrYnTKbLo1pJtr23ECe9moi35sKmU2cItb0d2khTP_hFeQ-qs49P10QOC_VjRXWEoGtOvrPOAob9wAWB15RcXwI38d3C8Z2WLmXIxjpx9YBxuiywmXvlRf9CkidD5PQwWKwnwuXad5OP721i40dn4GsqAUoaeK_UrlK93m9VhM5To_ba0mZniCm-JOwnxTj4rxNBd3pSZ_UvD8DycSsPbZWaApthFLlP6SZsZIRAquT9bhOwyadG0WGrUzsMe_fIzUj1vGQirTsTKM5ftyMiyr97DrZ70kHeJb0KcSUq3rH2flfX9Y43kAISYg0WK8GS709ZttezW7qI0Dqn2rvPf5tKLaF1KzjPn-u8kiOUmhalV5mvdKeTeOOW4mhM/https://www.amazon.ca/stores/page/AF837FCB-27C6-4B24-A783-E10F66E7EB74/?_encoding=UTF8&store_ref=SB_A09121793W2ODJ2ABJD7-A0437023N82D5POXXHQL&pd_rd_plhdr=t&aaxitk=10640a3b172307dae7f13390dce3547c&hsa_cr_id=0&lp_asins=B0CNJZTP79%2CB0CN8WYZVS%2CB0FR4CWMLJ&lp_slot=desktop-arbies&lp_page_asin=B0CNH8VZYX&pd_rd_i=ad2&ref_=sbx_be_dp_arbies_mbd_mb1_bkgd&pd_rd_w=BTaSw&content-id=amzn1.sym.f6213712-4a6f-4f87-9a7b-9a3c64c49057&pf_rd_p=f6213712-4a6f-4f87-9a7b-9a3c64c49057&pf_rd_r=D9T1KDMZ314X2H2A2CNT&pd_rd_wg=FGgHu&pd_rd_r=e0bacaf6-8349-4a97-b474-91c32fffa1cc
+                  - generic:
+                    - generic:
+                      - link [ref=f59e1250] [cursor=pointer]:
+                        - /url: https://aax-us-east-retail-direct.amazon.com/x/c/JLhaF9Sq525wIjE7nvcQTeQAAAGgY7BU4AEAAAH2AQBvbm9fdHhuX2JpZDcgICBvbm9fdHhuX2ltcDEgICDqzbG3/clv1c_ek-wBff3ErTa3ut7cPsEbugzoh05WFHJpwxcBCJyjxEibxJeBAUPTj-7udXgeUrn3Fo3kjWFtKuk1JN8QrOWSMlQ7w9gBamOcALUc0WG0K6qC5DRER59nQ354M94Pu7eoukxwqg7rR-2pnt5rukiq1BbpPUM1iZL0ETz9x2OFObfnRb_MEFoZXzivLnxleKcZ4Gnvlur34cDV-rp2wtW-2CT1Zc7OJ_0xeLUQnE1EbO-SPKyccdfksuVuPF5Rhf7UVsqciSaP99lQVi_IV7ZaJ76BUiHtMLAfkPMaKyoU5C7FP4XmW3vqu8PdnVS57TOG5MH76OFRWWqxPKqC4dS0PTDJFlxT9WXlJT4lJp6OWWWNI0NKWK2RGdo8ymIXCAiJocw_qZ6roZQG-r2K1kw9SHsJrB7-hPvkGrEnE19oe5biX-u83XGx4dWPRXnXHt304ue0QgVOFz8dd0HuRtF2mKCSk1-is5SS8OH7zHPOu9ekb-TnanQh_W6VbvVxosczjbbqOgPVotChR-mxZRpuoPTUas4Wvhh-xSb4_E9s8VNbyx-P1oLM9FiT8yegy2iCX4QjA0vjPdV4BNcweF3I1qP6ENsTnlR3LPV-4PjGYOsrUyaQ9o0HpZkuqTc3yvluRWEIYvdPr6M-x01wmVrnDlvWNmxC_6BD5vTxCBmsE3iJNE2rA4MZeMqj-hhWLiyIv5-FYo9l4Fesv4Q_VfuXIt84kiGVOeUg2aw1EewOI_Np_FM6Kbxub_Cu_hsbeeKrXqz1x-4TkYMdyc_TesSoUv1eWXZbluk4M2c1atfskoQCHSGmZbU86TF7BwQJv3pDkwNfDgykL5rsFP3IJv0bTmpuZoaK1icxeBJlhN_gxAyynE7s4U9xKTnQQ4feyOENnMH7tfjcPkA5PrcmQs_BBunu298LyJy9B3oDcf35AZdhrSIB_avphAfW732DUFY4iQ2DuOgwm8rmqnPyx8JdfSObBPLPyttqmixTgtA8uJ4g30bZD4oxlVEBbeJBTDhrAgrJi7urpZLzJSTi8AFTnpLfgd0KxHhVCmpKzEoM-u-Q47ToXAh2EYV_F-BDx7b1dS1fxPCiOAF5vBrZlFrDQeZJ9Ds-uglQ3CC58drlcl-GddHjnsB8FujEf_ZCkAcgeizVzsDepYM-01JS7wiqlsAWLLFYYxczK1u9ct7UL455VYbZWXDiyAZvdzxut2MG4Q9a3TDITTh7t-gmUnmrYnTKbLo1pJtr23ECe9moi35sKmU2cItb0d2khTP_hFeQ-qs49P10QOC_VjRXWEoGtOvrPOAob9wAWB15RcXwI38d3C8Z2WLmXIxjpx9YBxuiywmXvlRf9CkidD5PQwWKwnwuXad5OP721i40dn4GsqAUoaeK_UrlK93m9VhM5To_ba0mZniCm-JOwnxTj4rxNBd3pSZ_UvD8DycSsPbZWaApthFLlP6SZsZIRAquT9bhOwyadG0WGrUzsMe_fIzUj1vGQirTsTKM5ftyMiyr97DrZ70kHeJb0KcSUq3rH2flfX9Y43kAISYg0WK8GS709ZttezW7qI0Dqn2rvPf5tKLaF1KzjPn-u8kiOUmhalV5mvdKeTeOOW4mhM/https://www.amazon.ca/stores/page/AF837FCB-27C6-4B24-A783-E10F66E7EB74/?_encoding=UTF8&store_ref=SB_A09121793W2ODJ2ABJD7-A0437023N82D5POXXHQL&pd_rd_plhdr=t&aaxitk=10640a3b172307dae7f13390dce3547c&hsa_cr_id=0&lp_asins=B0CNJZTP79%2CB0CN8WYZVS%2CB0FR4CWMLJ&lp_slot=desktop-arbies&lp_page_asin=B0CNH8VZYX&pd_rd_i=ad2&ref_=sbx_be_dp_arbies_mbd_mb1_asin&pd_rd_w=BTaSw&content-id=amzn1.sym.f6213712-4a6f-4f87-9a7b-9a3c64c49057&pf_rd_p=f6213712-4a6f-4f87-9a7b-9a3c64c49057&pf_rd_r=D9T1KDMZ314X2H2A2CNT&pd_rd_wg=FGgHu&pd_rd_r=e0bacaf6-8349-4a97-b474-91c32fffa1cc
+                        - img "Sponsored ad from BOWOD. Shop BOWOD." [ref=f59e1251]
+                      - generic:
+                        - link:
+                          - /url: https://aax-us-east-retail-direct.amazon.com/x/c/JLhaF9Sq525wIjE7nvcQTeQAAAGgY7BU4AEAAAH2AQBvbm9fdHhuX2JpZDcgICBvbm9fdHhuX2ltcDEgICDqzbG3/clv1c_ek-wBff3ErTa3ut7cPsEbugzoh05WFHJpwxcBCJyjxEibxJeBAUPTj-7udXgeUrn3Fo3kjWFtKuk1JN8QrOWSMlQ7w9gBamOcALUc0WG0K6qC5DRER59nQ354M94Pu7eoukxwqg7rR-2pnt5rukiq1BbpPUM1iZL0ETz9x2OFObfnRb_MEFoZXzivLnxleKcZ4Gnvlur34cDV-rp2wtW-2CT1Zc7OJ_0xeLUQnE1EbO-SPKyccdfksuVuPF5Rhf7UVsqciSaP99lQVi_IV7ZaJ76BUiHtMLAfkPMaKyoU5C7FP4XmW3vqu8PdnVS57TOG5MH76OFRWWqxPKqC4dS0PTDJFlxT9WXlJT4lJp6OWWWNI0NKWK2RGdo8ymIXCAiJocw_qZ6roZQG-r2K1kw9SHsJrB7-hPvkGrEnE19oe5biX-u83XGx4dWPRXnXHt304ue0QgVOFz8dd0HuRtF2mKCSk1-is5SS8OH7zHPOu9ekb-TnanQh_W6VbvVxosczjbbqOgPVotChR-mxZRpuoPTUas4Wvhh-xSb4_E9s8VNbyx-P1oLM9FiT8yegy2iCX4QjA0vjPdV4BNcweF3I1qP6ENsTnlR3LPV-4PjGYOsrUyaQ9o0HpZkuqTc3yvluRWEIYvdPr6M-x01wmVrnDlvWNmxC_6BD5vTxCBmsE3iJNE2rA4MZeMqj-hhWLiyIv5-FYo9l4Fesv4Q_VfuXIt84kiGVOeUg2aw1EewOI_Np_FM6Kbxub_Cu_hsbeeKrXqz1x-4TkYMdyc_TesSoUv1eWXZbluk4M2c1atfskoQCHSGmZbU86TF7BwQJv3pDkwNfDgykL5rsFP3IJv0bTmpuZoaK1icxeBJlhN_gxAyynE7s4U9xKTnQQ4feyOENnMH7tfjcPkA5PrcmQs_BBunu298LyJy9B3oDcf35AZdhrSIB_avphAfW732DUFY4iQ2DuOgwm8rmqnPyx8JdfSObBPLPyttqmixTgtA8uJ4g30bZD4oxlVEBbeJBTDhrAgrJi7urpZLzJSTi8AFTnpLfgd0KxHhVCmpKzEoM-u-Q47ToXAh2EYV_F-BDx7b1dS1fxPCiOAF5vBrZlFrDQeZJ9Ds-uglQ3CC58drlcl-GddHjnsB8FujEf_ZCkAcgeizVzsDepYM-01JS7wiqlsAWLLFYYxczK1u9ct7UL455VYbZWXDiyAZvdzxut2MG4Q9a3TDITTh7t-gmUnmrYnTKbLo1pJtr23ECe9moi35sKmU2cItb0d2khTP_hFeQ-qs49P10QOC_VjRXWEoGtOvrPOAob9wAWB15RcXwI38d3C8Z2WLmXIxjpx9YBxuiywmXvlRf9CkidD5PQwWKwnwuXad5OP721i40dn4GsqAUoaeK_UrlK93m9VhM5To_ba0mZniCm-JOwnxTj4rxNBd3pSZ_UvD8DycSsPbZWaApthFLlP6SZsZIRAquT9bhOwyadG0WGrUzsMe_fIzUj1vGQirTsTKM5ftyMiyr97DrZ70kHeJb0KcSUq3rH2flfX9Y43kAISYg0WK8GS709ZttezW7qI0Dqn2rvPf5tKLaF1KzjPn-u8kiOUmhalV5mvdKeTeOOW4mhM/https://www.amazon.ca/stores/page/AF837FCB-27C6-4B24-A783-E10F66E7EB74/?_encoding=UTF8&store_ref=SB_A09121793W2ODJ2ABJD7-A0437023N82D5POXXHQL&pd_rd_plhdr=t&aaxitk=10640a3b172307dae7f13390dce3547c&hsa_cr_id=0&lp_asins=B0CNJZTP79%2CB0CN8WYZVS%2CB0FR4CWMLJ&lp_slot=desktop-arbies&lp_page_asin=B0CNH8VZYX&pd_rd_i=ad2&ref_=sbx_be_dp_arbies_mbd_mb1_bkgd&pd_rd_w=BTaSw&content-id=amzn1.sym.f6213712-4a6f-4f87-9a7b-9a3c64c49057&pf_rd_p=f6213712-4a6f-4f87-9a7b-9a3c64c49057&pf_rd_r=D9T1KDMZ314X2H2A2CNT&pd_rd_wg=FGgHu&pd_rd_r=e0bacaf6-8349-4a97-b474-91c32fffa1cc
+                        - generic:
+                          - link:
+                            - /url: https://aax-us-east-retail-direct.amazon.com/x/c/JLhaF9Sq525wIjE7nvcQTeQAAAGgY7BU4AEAAAH2AQBvbm9fdHhuX2JpZDcgICBvbm9fdHhuX2ltcDEgICDqzbG3/clv1c_ek-wBff3ErTa3ut7cPsEbugzoh05WFHJpwxcBCJyjxEibxJeBAUPTj-7udXgeUrn3Fo3kjWFtKuk1JN8QrOWSMlQ7w9gBamOcALUc0WG0K6qC5DRER59nQ354M94Pu7eoukxwqg7rR-2pnt5rukiq1BbpPUM1iZL0ETz9x2OFObfnRb_MEFoZXzivLnxleKcZ4Gnvlur34cDV-rp2wtW-2CT1Zc7OJ_0xeLUQnE1EbO-SPKyccdfksuVuPF5Rhf7UVsqciSaP99lQVi_IV7ZaJ76BUiHtMLAfkPMaKyoU5C7FP4XmW3vqu8PdnVS57TOG5MH76OFRWWqxPKqC4dS0PTDJFlxT9WXlJT4lJp6OWWWNI0NKWK2RGdo8ymIXCAiJocw_qZ6roZQG-r2K1kw9SHsJrB7-hPvkGrEnE19oe5biX-u83XGx4dWPRXnXHt304ue0QgVOFz8dd0HuRtF2mKCSk1-is5SS8OH7zHPOu9ekb-TnanQh_W6VbvVxosczjbbqOgPVotChR-mxZRpuoPTUas4Wvhh-xSb4_E9s8VNbyx-P1oLM9FiT8yegy2iCX4QjA0vjPdV4BNcweF3I1qP6ENsTnlR3LPV-4PjGYOsrUyaQ9o0HpZkuqTc3yvluRWEIYvdPr6M-x01wmVrnDlvWNmxC_6BD5vTxCBmsE3iJNE2rA4MZeMqj-hhWLiyIv5-FYo9l4Fesv4Q_VfuXIt84kiGVOeUg2aw1EewOI_Np_FM6Kbxub_Cu_hsbeeKrXqz1x-4TkYMdyc_TesSoUv1eWXZbluk4M2c1atfskoQCHSGmZbU86TF7BwQJv3pDkwNfDgykL5rsFP3IJv0bTmpuZoaK1icxeBJlhN_gxAyynE7s4U9xKTnQQ4feyOENnMH7tfjcPkA5PrcmQs_BBunu298LyJy9B3oDcf35AZdhrSIB_avphAfW732DUFY4iQ2DuOgwm8rmqnPyx8JdfSObBPLPyttqmixTgtA8uJ4g30bZD4oxlVEBbeJBTDhrAgrJi7urpZLzJSTi8AFTnpLfgd0KxHhVCmpKzEoM-u-Q47ToXAh2EYV_F-BDx7b1dS1fxPCiOAF5vBrZlFrDQeZJ9Ds-uglQ3CC58drlcl-GddHjnsB8FujEf_ZCkAcgeizVzsDepYM-01JS7wiqlsAWLLFYYxczK1u9ct7UL455VYbZWXDiyAZvdzxut2MG4Q9a3TDITTh7t-gmUnmrYnTKbLo1pJtr23ECe9moi35sKmU2cItb0d2khTP_hFeQ-qs49P10QOC_VjRXWEoGtOvrPOAob9wAWB15RcXwI38d3C8Z2WLmXIxjpx9YBxuiywmXvlRf9CkidD5PQwWKwnwuXad5OP721i40dn4GsqAUoaeK_UrlK93m9VhM5To_ba0mZniCm-JOwnxTj4rxNBd3pSZ_UvD8DycSsPbZWaApthFLlP6SZsZIRAquT9bhOwyadG0WGrUzsMe_fIzUj1vGQirTsTKM5ftyMiyr97DrZ70kHeJb0KcSUq3rH2flfX9Y43kAISYg0WK8GS709ZttezW7qI0Dqn2rvPf5tKLaF1KzjPn-u8kiOUmhalV5mvdKeTeOOW4mhM/https://www.amazon.ca/stores/page/AF837FCB-27C6-4B24-A783-E10F66E7EB74/?_encoding=UTF8&store_ref=SB_A09121793W2ODJ2ABJD7-A0437023N82D5POXXHQL&pd_rd_plhdr=t&aaxitk=10640a3b172307dae7f13390dce3547c&hsa_cr_id=0&lp_asins=B0CNJZTP79%2CB0CN8WYZVS%2CB0FR4CWMLJ&lp_slot=desktop-arbies&lp_page_asin=B0CNH8VZYX&pd_rd_i=ad2&ref_=sbx_be_dp_arbies_mbd_mb1_hl&pd_rd_w=BTaSw&content-id=amzn1.sym.f6213712-4a6f-4f87-9a7b-9a3c64c49057&pf_rd_p=f6213712-4a6f-4f87-9a7b-9a3c64c49057&pf_rd_r=D9T1KDMZ314X2H2A2CNT&pd_rd_wg=FGgHu&pd_rd_r=e0bacaf6-8349-4a97-b474-91c32fffa1cc
+                          - link "Shop BOWOD" [ref=f59e1252] [cursor=pointer]:
+                            - /url: https://aax-us-east-retail-direct.amazon.com/x/c/JLhaF9Sq525wIjE7nvcQTeQAAAGgY7BU4AEAAAH2AQBvbm9fdHhuX2JpZDcgICBvbm9fdHhuX2ltcDEgICDqzbG3/clv1c_ek-wBff3ErTa3ut7cPsEbugzoh05WFHJpwxcBCJyjxEibxJeBAUPTj-7udXgeUrn3Fo3kjWFtKuk1JN8QrOWSMlQ7w9gBamOcALUc0WG0K6qC5DRER59nQ354M94Pu7eoukxwqg7rR-2pnt5rukiq1BbpPUM1iZL0ETz9x2OFObfnRb_MEFoZXzivLnxleKcZ4Gnvlur34cDV-rp2wtW-2CT1Zc7OJ_0xeLUQnE1EbO-SPKyccdfksuVuPF5Rhf7UVsqciSaP99lQVi_IV7ZaJ76BUiHtMLAfkPMaKyoU5C7FP4XmW3vqu8PdnVS57TOG5MH76OFRWWqxPKqC4dS0PTDJFlxT9WXlJT4lJp6OWWWNI0NKWK2RGdo8ymIXCAiJocw_qZ6roZQG-r2K1kw9SHsJrB7-hPvkGrEnE19oe5biX-u83XGx4dWPRXnXHt304ue0QgVOFz8dd0HuRtF2mKCSk1-is5SS8OH7zHPOu9ekb-TnanQh_W6VbvVxosczjbbqOgPVotChR-mxZRpuoPTUas4Wvhh-xSb4_E9s8VNbyx-P1oLM9FiT8yegy2iCX4QjA0vjPdV4BNcweF3I1qP6ENsTnlR3LPV-4PjGYOsrUyaQ9o0HpZkuqTc3yvluRWEIYvdPr6M-x01wmVrnDlvWNmxC_6BD5vTxCBmsE3iJNE2rA4MZeMqj-hhWLiyIv5-FYo9l4Fesv4Q_VfuXIt84kiGVOeUg2aw1EewOI_Np_FM6Kbxub_Cu_hsbeeKrXqz1x-4TkYMdyc_TesSoUv1eWXZbluk4M2c1atfskoQCHSGmZbU86TF7BwQJv3pDkwNfDgykL5rsFP3IJv0bTmpuZoaK1icxeBJlhN_gxAyynE7s4U9xKTnQQ4feyOENnMH7tfjcPkA5PrcmQs_BBunu298LyJy9B3oDcf35AZdhrSIB_avphAfW732DUFY4iQ2DuOgwm8rmqnPyx8JdfSObBPLPyttqmixTgtA8uJ4g30bZD4oxlVEBbeJBTDhrAgrJi7urpZLzJSTi8AFTnpLfgd0KxHhVCmpKzEoM-u-Q47ToXAh2EYV_F-BDx7b1dS1fxPCiOAF5vBrZlFrDQeZJ9Ds-uglQ3CC58drlcl-GddHjnsB8FujEf_ZCkAcgeizVzsDepYM-01JS7wiqlsAWLLFYYxczK1u9ct7UL455VYbZWXDiyAZvdzxut2MG4Q9a3TDITTh7t-gmUnmrYnTKbLo1pJtr23ECe9moi35sKmU2cItb0d2khTP_hFeQ-qs49P10QOC_VjRXWEoGtOvrPOAob9wAWB15RcXwI38d3C8Z2WLmXIxjpx9YBxuiywmXvlRf9CkidD5PQwWKwnwuXad5OP721i40dn4GsqAUoaeK_UrlK93m9VhM5To_ba0mZniCm-JOwnxTj4rxNBd3pSZ_UvD8DycSsPbZWaApthFLlP6SZsZIRAquT9bhOwyadG0WGrUzsMe_fIzUj1vGQirTsTKM5ftyMiyr97DrZ70kHeJb0KcSUq3rH2flfX9Y43kAISYg0WK8GS709ZttezW7qI0Dqn2rvPf5tKLaF1KzjPn-u8kiOUmhalV5mvdKeTeOOW4mhM/https://www.amazon.ca/stores/page/AF837FCB-27C6-4B24-A783-E10F66E7EB74/?_encoding=UTF8&store_ref=SB_A09121793W2ODJ2ABJD7-A0437023N82D5POXXHQL&pd_rd_plhdr=t&aaxitk=10640a3b172307dae7f13390dce3547c&hsa_cr_id=0&lp_asins=B0CNJZTP79%2CB0CN8WYZVS%2CB0FR4CWMLJ&lp_slot=desktop-arbies&lp_page_asin=B0CNH8VZYX&pd_rd_i=ad2&ref_=sbx_be_dp_arbies_mbd_mb1_cta&pd_rd_w=BTaSw&content-id=amzn1.sym.f6213712-4a6f-4f87-9a7b-9a3c64c49057&pf_rd_p=f6213712-4a6f-4f87-9a7b-9a3c64c49057&pf_rd_r=D9T1KDMZ314X2H2A2CNT&pd_rd_wg=FGgHu&pd_rd_r=e0bacaf6-8349-4a97-b474-91c32fffa1cc
+                            - generic [ref=f59e1255]:
+                              - text: Shop
+                              - generic [ref=f59e1256]: BOWOD
+              - listitem [ref=f59e1259]:
+                - generic [ref=f59e1260]:
+                  - link "Sponsored ad from laimiod. \"Ultrasonic Rodent Repeller.\" Shop laimiod." [ref=f59e1261] [cursor=pointer]:
+                    - /url: https://aax-us-east-retail-direct.amazon.com/x/c/JHlwixl9e8QhP9RMnCpSS8wAAAGgY7BU4gEAAAH2AQBvbm9fdHhuX2JpZDcgICBvbm9fdHhuX2ltcDEgICAxQT_3/clv1c_ek-wBfHXLcTWXmxhtxdAiFwLMKlTuQp95ZJU7DL4lio51vqrntXLwKvKlS27KbRuRFx7wh4yiAFc3EAROIHubJ5vocvMDBiAqwUv-_mglN3w0wRqrxbnuzJogvl2iEbZW_cUXqoWCM8Pyuecqo9JzfKz4NydvoUqoOWzTzKO9mYvmOlzZJSfC2GJLtzi-9x8lpovgtVFHAXkvVQU58lBm6KpXF42CcM2s9QqbX_tXtHZe9e5kF_nTyVpgFEpIUKGl76M1kdvzedhYQAk0KXCjjdzn4pWnBAZCA34waM4qpr_3PsjEBU2wGujm0COwzp0mbDQ0DHbNniJmhVtkHiwynbMEPe5d_4_1hA_-3maQC5H4vfCSldAJjAvGM_e6F0y77TV6r79PEWJWYBAkRc4Jq_Hgj0me2DUslir7_JqogOCny-NjaYgevNazs1IY0XlbFtRxYZliscAxtNkYcYbc5l0k_xNRQ3VVq8KxffYV2-esE-iML-qa6lRSrriMt6pJypy8DAysVvjpnq9BqD49AaCl4-5jyptesYtTfX3QN-xxrlZiv3Gcyqlpyd2ZA8GS4pDr4QwhEH7sU0_JhtvSpW_xZSQYugN-KNWyhaB7kglYmFN43JHu8LcAKzZ2KR1vmoyZ8YSBKR3KAJYbo2Ol-VM7XHPPaQRiJ5jBCYNt9gOPYSW0wnPx8EQtkDP-QAsyWlScT3Wcq2jOpjI3SAvMIt2ZZzwZIX6Uq8FxZSmNNdaIpLSx0gp7juoOUtbpiJdgXMnqYYwV2gINiQpMuifPD5prJo94iM0kE-iQYIDrcHKPqJTezKqoXCpMG2HUggCPWiGMIZaLGr26D2tPPFr1iUEdfDaZact8z9LZFZaBzqq7f_QTHh3Iga1se4CJVyca23ArPcNKinnaNVh1luiRSpj2gpkiRKAAAA1zMwGcLVw5BQuIMI535FYLp8mMOwKhNIsrSXsyKN9rOr657HwJ0GNXcht9ncnDv_bgDpF4zFWBjEbB-89FHbVeyELmp31H83apOp8iQ0NPJerjXuI68LjywxQdyoCbUl99kFv9zBL-CNEGD9QIp_JTk5GterI-Eb0qK9dULsoXHs4zfIrYtGpGYckmPfdybSLcaV3rD916C4vhrumqYAw2G_DwJ5fb-oAielSj9Om8KuWT39m0T_OCrlTHb2dM4SWcbLqRQVU5vmd1pZKtQDotxYeX0rzGk8exgQ1wG-8WSM82BLmLPJQ-ggjKGpFmvKECs0TCVqOW2BZNfk7cm5T5RE7rgT8o2oxjlBqYUQdDY7m7sAjAlt7ZxfNFH7JIAjq5KEybfcgpaUutkNuJe7yslI0enxN7olZEtWcJtBVWqWsThYk00QWormQrAQvJJRyU6SI0Hc_cMKKXnH45iRmVT1yXApRPlkpdsABj1iWkQc3KcDNh2vuI5UqPwHmjZdon79CINhTc5byfZvAwiGO1KbPDTSDUzpUnIaot4R96PU0wbyyqoyepsRsqAjx0OaNlC467miBEIgxwJCnfNfDY1oiGyarcWYZk4rhKEm6540HOtCowLWh1Mqg_95ynOZS1t7mktOLyu4-cwNshDVUXUCOEaLYxYPQkUS5rvsA2Dxy7WWsz3FHyw/https://www.amazon.ca/stores/page/CDAD1A59-200D-4351-99CF-A7A79D54CC03/?_encoding=UTF8&store_ref=SB_A01488751WYPTRQ00VTQL-A04842831DJIIFVUNI65Z&pd_rd_plhdr=t&aaxitk=1fa0d4cabf976746b23137607126c60b&hsa_cr_id=0&lp_asins=B0G3X4C6W1%2CB0G3WXPX8K&lp_slot=desktop-arbies&lp_page_asin=B0CNH8VZYX&pd_rd_i=ad3&ref_=sbx_be_dp_arbies_mbd_mb2_bkgd&pd_rd_w=BTaSw&content-id=amzn1.sym.f6213712-4a6f-4f87-9a7b-9a3c64c49057&pf_rd_p=f6213712-4a6f-4f87-9a7b-9a3c64c49057&pf_rd_r=D9T1KDMZ314X2H2A2CNT&pd_rd_wg=FGgHu&pd_rd_r=e0bacaf6-8349-4a97-b474-91c32fffa1cc
+                  - generic:
+                    - generic:
+                      - link [ref=f59e1262] [cursor=pointer]:
+                        - /url: https://aax-us-east-retail-direct.amazon.com/x/c/JHlwixl9e8QhP9RMnCpSS8wAAAGgY7BU4gEAAAH2AQBvbm9fdHhuX2JpZDcgICBvbm9fdHhuX2ltcDEgICAxQT_3/clv1c_ek-wBfHXLcTWXmxhtxdAiFwLMKlTuQp95ZJU7DL4lio51vqrntXLwKvKlS27KbRuRFx7wh4yiAFc3EAROIHubJ5vocvMDBiAqwUv-_mglN3w0wRqrxbnuzJogvl2iEbZW_cUXqoWCM8Pyuecqo9JzfKz4NydvoUqoOWzTzKO9mYvmOlzZJSfC2GJLtzi-9x8lpovgtVFHAXkvVQU58lBm6KpXF42CcM2s9QqbX_tXtHZe9e5kF_nTyVpgFEpIUKGl76M1kdvzedhYQAk0KXCjjdzn4pWnBAZCA34waM4qpr_3PsjEBU2wGujm0COwzp0mbDQ0DHbNniJmhVtkHiwynbMEPe5d_4_1hA_-3maQC5H4vfCSldAJjAvGM_e6F0y77TV6r79PEWJWYBAkRc4Jq_Hgj0me2DUslir7_JqogOCny-NjaYgevNazs1IY0XlbFtRxYZliscAxtNkYcYbc5l0k_xNRQ3VVq8KxffYV2-esE-iML-qa6lRSrriMt6pJypy8DAysVvjpnq9BqD49AaCl4-5jyptesYtTfX3QN-xxrlZiv3Gcyqlpyd2ZA8GS4pDr4QwhEH7sU0_JhtvSpW_xZSQYugN-KNWyhaB7kglYmFN43JHu8LcAKzZ2KR1vmoyZ8YSBKR3KAJYbo2Ol-VM7XHPPaQRiJ5jBCYNt9gOPYSW0wnPx8EQtkDP-QAsyWlScT3Wcq2jOpjI3SAvMIt2ZZzwZIX6Uq8FxZSmNNdaIpLSx0gp7juoOUtbpiJdgXMnqYYwV2gINiQpMuifPD5prJo94iM0kE-iQYIDrcHKPqJTezKqoXCpMG2HUggCPWiGMIZaLGr26D2tPPFr1iUEdfDaZact8z9LZFZaBzqq7f_QTHh3Iga1se4CJVyca23ArPcNKinnaNVh1luiRSpj2gpkiRKAAAA1zMwGcLVw5BQuIMI535FYLp8mMOwKhNIsrSXsyKN9rOr657HwJ0GNXcht9ncnDv_bgDpF4zFWBjEbB-89FHbVeyELmp31H83apOp8iQ0NPJerjXuI68LjywxQdyoCbUl99kFv9zBL-CNEGD9QIp_JTk5GterI-Eb0qK9dULsoXHs4zfIrYtGpGYckmPfdybSLcaV3rD916C4vhrumqYAw2G_DwJ5fb-oAielSj9Om8KuWT39m0T_OCrlTHb2dM4SWcbLqRQVU5vmd1pZKtQDotxYeX0rzGk8exgQ1wG-8WSM82BLmLPJQ-ggjKGpFmvKECs0TCVqOW2BZNfk7cm5T5RE7rgT8o2oxjlBqYUQdDY7m7sAjAlt7ZxfNFH7JIAjq5KEybfcgpaUutkNuJe7yslI0enxN7olZEtWcJtBVWqWsThYk00QWormQrAQvJJRyU6SI0Hc_cMKKXnH45iRmVT1yXApRPlkpdsABj1iWkQc3KcDNh2vuI5UqPwHmjZdon79CINhTc5byfZvAwiGO1KbPDTSDUzpUnIaot4R96PU0wbyyqoyepsRsqAjx0OaNlC467miBEIgxwJCnfNfDY1oiGyarcWYZk4rhKEm6540HOtCowLWh1Mqg_95ynOZS1t7mktOLyu4-cwNshDVUXUCOEaLYxYPQkUS5rvsA2Dxy7WWsz3FHyw/https://www.amazon.ca/stores/page/CDAD1A59-200D-4351-99CF-A7A79D54CC03/?_encoding=UTF8&store_ref=SB_A01488751WYPTRQ00VTQL-A04842831DJIIFVUNI65Z&pd_rd_plhdr=t&aaxitk=1fa0d4cabf976746b23137607126c60b&hsa_cr_id=0&lp_asins=B0G3X4C6W1%2CB0G3WXPX8K&lp_slot=desktop-arbies&lp_page_asin=B0CNH8VZYX&pd_rd_i=ad3&ref_=sbx_be_dp_arbies_mbd_mb2_asin&pd_rd_w=BTaSw&content-id=amzn1.sym.f6213712-4a6f-4f87-9a7b-9a3c64c49057&pf_rd_p=f6213712-4a6f-4f87-9a7b-9a3c64c49057&pf_rd_r=D9T1KDMZ314X2H2A2CNT&pd_rd_wg=FGgHu&pd_rd_r=e0bacaf6-8349-4a97-b474-91c32fffa1cc
+                        - img "Sponsored ad from laimiod. \"Ultrasonic Rodent Repeller.\" Shop laimiod." [ref=f59e1263]
+                      - generic:
+                        - link:
+                          - /url: https://aax-us-east-retail-direct.amazon.com/x/c/JHlwixl9e8QhP9RMnCpSS8wAAAGgY7BU4gEAAAH2AQBvbm9fdHhuX2JpZDcgICBvbm9fdHhuX2ltcDEgICAxQT_3/clv1c_ek-wBfHXLcTWXmxhtxdAiFwLMKlTuQp95ZJU7DL4lio51vqrntXLwKvKlS27KbRuRFx7wh4yiAFc3EAROIHubJ5vocvMDBiAqwUv-_mglN3w0wRqrxbnuzJogvl2iEbZW_cUXqoWCM8Pyuecqo9JzfKz4NydvoUqoOWzTzKO9mYvmOlzZJSfC2GJLtzi-9x8lpovgtVFHAXkvVQU58lBm6KpXF42CcM2s9QqbX_tXtHZe9e5kF_nTyVpgFEpIUKGl76M1kdvzedhYQAk0KXCjjdzn4pWnBAZCA34waM4qpr_3PsjEBU2wGujm0COwzp0mbDQ0DHbNniJmhVtkHiwynbMEPe5d_4_1hA_-3maQC5H4vfCSldAJjAvGM_e6F0y77TV6r79PEWJWYBAkRc4Jq_Hgj0me2DUslir7_JqogOCny-NjaYgevNazs1IY0XlbFtRxYZliscAxtNkYcYbc5l0k_xNRQ3VVq8KxffYV2-esE-iML-qa6lRSrriMt6pJypy8DAysVvjpnq9BqD49AaCl4-5jyptesYtTfX3QN-xxrlZiv3Gcyqlpyd2ZA8GS4pDr4QwhEH7sU0_JhtvSpW_xZSQYugN-KNWyhaB7kglYmFN43JHu8LcAKzZ2KR1vmoyZ8YSBKR3KAJYbo2Ol-VM7XHPPaQRiJ5jBCYNt9gOPYSW0wnPx8EQtkDP-QAsyWlScT3Wcq2jOpjI3SAvMIt2ZZzwZIX6Uq8FxZSmNNdaIpLSx0gp7juoOUtbpiJdgXMnqYYwV2gINiQpMuifPD5prJo94iM0kE-iQYIDrcHKPqJTezKqoXCpMG2HUggCPWiGMIZaLGr26D2tPPFr1iUEdfDaZact8z9LZFZaBzqq7f_QTHh3Iga1se4CJVyca23ArPcNKinnaNVh1luiRSpj2gpkiRKAAAA1zMwGcLVw5BQuIMI535FYLp8mMOwKhNIsrSXsyKN9rOr657HwJ0GNXcht9ncnDv_bgDpF4zFWBjEbB-89FHbVeyELmp31H83apOp8iQ0NPJerjXuI68LjywxQdyoCbUl99kFv9zBL-CNEGD9QIp_JTk5GterI-Eb0qK9dULsoXHs4zfIrYtGpGYckmPfdybSLcaV3rD916C4vhrumqYAw2G_DwJ5fb-oAielSj9Om8KuWT39m0T_OCrlTHb2dM4SWcbLqRQVU5vmd1pZKtQDotxYeX0rzGk8exgQ1wG-8WSM82BLmLPJQ-ggjKGpFmvKECs0TCVqOW2BZNfk7cm5T5RE7rgT8o2oxjlBqYUQdDY7m7sAjAlt7ZxfNFH7JIAjq5KEybfcgpaUutkNuJe7yslI0enxN7olZEtWcJtBVWqWsThYk00QWormQrAQvJJRyU6SI0Hc_cMKKXnH45iRmVT1yXApRPlkpdsABj1iWkQc3KcDNh2vuI5UqPwHmjZdon79CINhTc5byfZvAwiGO1KbPDTSDUzpUnIaot4R96PU0wbyyqoyepsRsqAjx0OaNlC467miBEIgxwJCnfNfDY1oiGyarcWYZk4rhKEm6540HOtCowLWh1Mqg_95ynOZS1t7mktOLyu4-cwNshDVUXUCOEaLYxYPQkUS5rvsA2Dxy7WWsz3FHyw/https://www.amazon.ca/stores/page/CDAD1A59-200D-4351-99CF-A7A79D54CC03/?_encoding=UTF8&store_ref=SB_A01488751WYPTRQ00VTQL-A04842831DJIIFVUNI65Z&pd_rd_plhdr=t&aaxitk=1fa0d4cabf976746b23137607126c60b&hsa_cr_id=0&lp_asins=B0G3X4C6W1%2CB0G3WXPX8K&lp_slot=desktop-arbies&lp_page_asin=B0CNH8VZYX&pd_rd_i=ad3&ref_=sbx_be_dp_arbies_mbd_mb2_bkgd&pd_rd_w=BTaSw&content-id=amzn1.sym.f6213712-4a6f-4f87-9a7b-9a3c64c49057&pf_rd_p=f6213712-4a6f-4f87-9a7b-9a3c64c49057&pf_rd_r=D9T1KDMZ314X2H2A2CNT&pd_rd_wg=FGgHu&pd_rd_r=e0bacaf6-8349-4a97-b474-91c32fffa1cc
+                        - generic:
+                          - link [ref=f59e1264] [cursor=pointer]:
+                            - /url: https://aax-us-east-retail-direct.amazon.com/x/c/JHlwixl9e8QhP9RMnCpSS8wAAAGgY7BU4gEAAAH2AQBvbm9fdHhuX2JpZDcgICBvbm9fdHhuX2ltcDEgICAxQT_3/clv1c_ek-wBfHXLcTWXmxhtxdAiFwLMKlTuQp95ZJU7DL4lio51vqrntXLwKvKlS27KbRuRFx7wh4yiAFc3EAROIHubJ5vocvMDBiAqwUv-_mglN3w0wRqrxbnuzJogvl2iEbZW_cUXqoWCM8Pyuecqo9JzfKz4NydvoUqoOWzTzKO9mYvmOlzZJSfC2GJLtzi-9x8lpovgtVFHAXkvVQU58lBm6KpXF42CcM2s9QqbX_tXtHZe9e5kF_nTyVpgFEpIUKGl76M1kdvzedhYQAk0KXCjjdzn4pWnBAZCA34waM4qpr_3PsjEBU2wGujm0COwzp0mbDQ0DHbNniJmhVtkHiwynbMEPe5d_4_1hA_-3maQC5H4vfCSldAJjAvGM_e6F0y77TV6r79PEWJWYBAkRc4Jq_Hgj0me2DUslir7_JqogOCny-NjaYgevNazs1IY0XlbFtRxYZliscAxtNkYcYbc5l0k_xNRQ3VVq8KxffYV2-esE-iML-qa6lRSrriMt6pJypy8DAysVvjpnq9BqD49AaCl4-5jyptesYtTfX3QN-xxrlZiv3Gcyqlpyd2ZA8GS4pDr4QwhEH7sU0_JhtvSpW_xZSQYugN-KNWyhaB7kglYmFN43JHu8LcAKzZ2KR1vmoyZ8YSBKR3KAJYbo2Ol-VM7XHPPaQRiJ5jBCYNt9gOPYSW0wnPx8EQtkDP-QAsyWlScT3Wcq2jOpjI3SAvMIt2ZZzwZIX6Uq8FxZSmNNdaIpLSx0gp7juoOUtbpiJdgXMnqYYwV2gINiQpMuifPD5prJo94iM0kE-iQYIDrcHKPqJTezKqoXCpMG2HUggCPWiGMIZaLGr26D2tPPFr1iUEdfDaZact8z9LZFZaBzqq7f_QTHh3Iga1se4CJVyca23ArPcNKinnaNVh1luiRSpj2gpkiRKAAAA1zMwGcLVw5BQuIMI535FYLp8mMOwKhNIsrSXsyKN9rOr657HwJ0GNXcht9ncnDv_bgDpF4zFWBjEbB-89FHbVeyELmp31H83apOp8iQ0NPJerjXuI68LjywxQdyoCbUl99kFv9zBL-CNEGD9QIp_JTk5GterI-Eb0qK9dULsoXHs4zfIrYtGpGYckmPfdybSLcaV3rD916C4vhrumqYAw2G_DwJ5fb-oAielSj9Om8KuWT39m0T_OCrlTHb2dM4SWcbLqRQVU5vmd1pZKtQDotxYeX0rzGk8exgQ1wG-8WSM82BLmLPJQ-ggjKGpFmvKECs0TCVqOW2BZNfk7cm5T5RE7rgT8o2oxjlBqYUQdDY7m7sAjAlt7ZxfNFH7JIAjq5KEybfcgpaUutkNuJe7yslI0enxN7olZEtWcJtBVWqWsThYk00QWormQrAQvJJRyU6SI0Hc_cMKKXnH45iRmVT1yXApRPlkpdsABj1iWkQc3KcDNh2vuI5UqPwHmjZdon79CINhTc5byfZvAwiGO1KbPDTSDUzpUnIaot4R96PU0wbyyqoyepsRsqAjx0OaNlC467miBEIgxwJCnfNfDY1oiGyarcWYZk4rhKEm6540HOtCowLWh1Mqg_95ynOZS1t7mktOLyu4-cwNshDVUXUCOEaLYxYPQkUS5rvsA2Dxy7WWsz3FHyw/https://www.amazon.ca/stores/page/CDAD1A59-200D-4351-99CF-A7A79D54CC03/?_encoding=UTF8&store_ref=SB_A01488751WYPTRQ00VTQL-A04842831DJIIFVUNI65Z&pd_rd_plhdr=t&aaxitk=1fa0d4cabf976746b23137607126c60b&hsa_cr_id=0&lp_asins=B0G3X4C6W1%2CB0G3WXPX8K&lp_slot=desktop-arbies&lp_page_asin=B0CNH8VZYX&pd_rd_i=ad3&ref_=sbx_be_dp_arbies_mbd_mb2_logo&pd_rd_w=BTaSw&content-id=amzn1.sym.f6213712-4a6f-4f87-9a7b-9a3c64c49057&pf_rd_p=f6213712-4a6f-4f87-9a7b-9a3c64c49057&pf_rd_r=D9T1KDMZ314X2H2A2CNT&pd_rd_wg=FGgHu&pd_rd_r=e0bacaf6-8349-4a97-b474-91c32fffa1cc
+                            - img "laimiod" [ref=f59e1265]
+                          - link "Ultrasonic Rodent Repeller" [ref=f59e1266] [cursor=pointer]:
+                            - /url: https://aax-us-east-retail-direct.amazon.com/x/c/JHlwixl9e8QhP9RMnCpSS8wAAAGgY7BU4gEAAAH2AQBvbm9fdHhuX2JpZDcgICBvbm9fdHhuX2ltcDEgICAxQT_3/clv1c_ek-wBfHXLcTWXmxhtxdAiFwLMKlTuQp95ZJU7DL4lio51vqrntXLwKvKlS27KbRuRFx7wh4yiAFc3EAROIHubJ5vocvMDBiAqwUv-_mglN3w0wRqrxbnuzJogvl2iEbZW_cUXqoWCM8Pyuecqo9JzfKz4NydvoUqoOWzTzKO9mYvmOlzZJSfC2GJLtzi-9x8lpovgtVFHAXkvVQU58lBm6KpXF42CcM2s9QqbX_tXtHZe9e5kF_nTyVpgFEpIUKGl76M1kdvzedhYQAk0KXCjjdzn4pWnBAZCA34waM4qpr_3PsjEBU2wGujm0COwzp0mbDQ0DHbNniJmhVtkHiwynbMEPe5d_4_1hA_-3maQC5H4vfCSldAJjAvGM_e6F0y77TV6r79PEWJWYBAkRc4Jq_Hgj0me2DUslir7_JqogOCny-NjaYgevNazs1IY0XlbFtRxYZliscAxtNkYcYbc5l0k_xNRQ3VVq8KxffYV2-esE-iML-qa6lRSrriMt6pJypy8DAysVvjpnq9BqD49AaCl4-5jyptesYtTfX3QN-xxrlZiv3Gcyqlpyd2ZA8GS4pDr4QwhEH7sU0_JhtvSpW_xZSQYugN-KNWyhaB7kglYmFN43JHu8LcAKzZ2KR1vmoyZ8YSBKR3KAJYbo2Ol-VM7XHPPaQRiJ5jBCYNt9gOPYSW0wnPx8EQtkDP-QAsyWlScT3Wcq2jOpjI3SAvMIt2ZZzwZIX6Uq8FxZSmNNdaIpLSx0gp7juoOUtbpiJdgXMnqYYwV2gINiQpMuifPD5prJo94iM0kE-iQYIDrcHKPqJTezKqoXCpMG2HUggCPWiGMIZaLGr26D2tPPFr1iUEdfDaZact8z9LZFZaBzqq7f_QTHh3Iga1se4CJVyca23ArPcNKinnaNVh1luiRSpj2gpkiRKAAAA1zMwGcLVw5BQuIMI535FYLp8mMOwKhNIsrSXsyKN9rOr657HwJ0GNXcht9ncnDv_bgDpF4zFWBjEbB-89FHbVeyELmp31H83apOp8iQ0NPJerjXuI68LjywxQdyoCbUl99kFv9zBL-CNEGD9QIp_JTk5GterI-Eb0qK9dULsoXHs4zfIrYtGpGYckmPfdybSLcaV3rD916C4vhrumqYAw2G_DwJ5fb-oAielSj9Om8KuWT39m0T_OCrlTHb2dM4SWcbLqRQVU5vmd1pZKtQDotxYeX0rzGk8exgQ1wG-8WSM82BLmLPJQ-ggjKGpFmvKECs0TCVqOW2BZNfk7cm5T5RE7rgT8o2oxjlBqYUQdDY7m7sAjAlt7ZxfNFH7JIAjq5KEybfcgpaUutkNuJe7yslI0enxN7olZEtWcJtBVWqWsThYk00QWormQrAQvJJRyU6SI0Hc_cMKKXnH45iRmVT1yXApRPlkpdsABj1iWkQc3KcDNh2vuI5UqPwHmjZdon79CINhTc5byfZvAwiGO1KbPDTSDUzpUnIaot4R96PU0wbyyqoyepsRsqAjx0OaNlC467miBEIgxwJCnfNfDY1oiGyarcWYZk4rhKEm6540HOtCowLWh1Mqg_95ynOZS1t7mktOLyu4-cwNshDVUXUCOEaLYxYPQkUS5rvsA2Dxy7WWsz3FHyw/https://www.amazon.ca/stores/page/CDAD1A59-200D-4351-99CF-A7A79D54CC03/?_encoding=UTF8&store_ref=SB_A01488751WYPTRQ00VTQL-A04842831DJIIFVUNI65Z&pd_rd_plhdr=t&aaxitk=1fa0d4cabf976746b23137607126c60b&hsa_cr_id=0&lp_asins=B0G3X4C6W1%2CB0G3WXPX8K&lp_slot=desktop-arbies&lp_page_asin=B0CNH8VZYX&pd_rd_i=ad3&ref_=sbx_be_dp_arbies_mbd_mb2_hl&pd_rd_w=BTaSw&content-id=amzn1.sym.f6213712-4a6f-4f87-9a7b-9a3c64c49057&pf_rd_p=f6213712-4a6f-4f87-9a7b-9a3c64c49057&pf_rd_r=D9T1KDMZ314X2H2A2CNT&pd_rd_wg=FGgHu&pd_rd_r=e0bacaf6-8349-4a97-b474-91c32fffa1cc
+                          - link "Shop laimiod" [ref=f59e1267] [cursor=pointer]:
+                            - /url: https://aax-us-east-retail-direct.amazon.com/x/c/JHlwixl9e8QhP9RMnCpSS8wAAAGgY7BU4gEAAAH2AQBvbm9fdHhuX2JpZDcgICBvbm9fdHhuX2ltcDEgICAxQT_3/clv1c_ek-wBfHXLcTWXmxhtxdAiFwLMKlTuQp95ZJU7DL4lio51vqrntXLwKvKlS27KbRuRFx7wh4yiAFc3EAROIHubJ5vocvMDBiAqwUv-_mglN3w0wRqrxbnuzJogvl2iEbZW_cUXqoWCM8Pyuecqo9JzfKz4NydvoUqoOWzTzKO9mYvmOlzZJSfC2GJLtzi-9x8lpovgtVFHAXkvVQU58lBm6KpXF42CcM2s9QqbX_tXtHZe9e5kF_nTyVpgFEpIUKGl76M1kdvzedhYQAk0KXCjjdzn4pWnBAZCA34waM4qpr_3PsjEBU2wGujm0COwzp0mbDQ0DHbNniJmhVtkHiwynbMEPe5d_4_1hA_-3maQC5H4vfCSldAJjAvGM_e6F0y77TV6r79PEWJWYBAkRc4Jq_Hgj0me2DUslir7_JqogOCny-NjaYgevNazs1IY0XlbFtRxYZliscAxtNkYcYbc5l0k_xNRQ3VVq8KxffYV2-esE-iML-qa6lRSrriMt6pJypy8DAysVvjpnq9BqD49AaCl4-5jyptesYtTfX3QN-xxrlZiv3Gcyqlpyd2ZA8GS4pDr4QwhEH7sU0_JhtvSpW_xZSQYugN-KNWyhaB7kglYmFN43JHu8LcAKzZ2KR1vmoyZ8YSBKR3KAJYbo2Ol-VM7XHPPaQRiJ5jBCYNt9gOPYSW0wnPx8EQtkDP-QAsyWlScT3Wcq2jOpjI3SAvMIt2ZZzwZIX6Uq8FxZSmNNdaIpLSx0gp7juoOUtbpiJdgXMnqYYwV2gINiQpMuifPD5prJo94iM0kE-iQYIDrcHKPqJTezKqoXCpMG2HUggCPWiGMIZaLGr26D2tPPFr1iUEdfDaZact8z9LZFZaBzqq7f_QTHh3Iga1se4CJVyca23ArPcNKinnaNVh1luiRSpj2gpkiRKAAAA1zMwGcLVw5BQuIMI535FYLp8mMOwKhNIsrSXsyKN9rOr657HwJ0GNXcht9ncnDv_bgDpF4zFWBjEbB-89FHbVeyELmp31H83apOp8iQ0NPJerjXuI68LjywxQdyoCbUl99kFv9zBL-CNEGD9QIp_JTk5GterI-Eb0qK9dULsoXHs4zfIrYtGpGYckmPfdybSLcaV3rD916C4vhrumqYAw2G_DwJ5fb-oAielSj9Om8KuWT39m0T_OCrlTHb2dM4SWcbLqRQVU5vmd1pZKtQDotxYeX0rzGk8exgQ1wG-8WSM82BLmLPJQ-ggjKGpFmvKECs0TCVqOW2BZNfk7cm5T5RE7rgT8o2oxjlBqYUQdDY7m7sAjAlt7ZxfNFH7JIAjq5KEybfcgpaUutkNuJe7yslI0enxN7olZEtWcJtBVWqWsThYk00QWormQrAQvJJRyU6SI0Hc_cMKKXnH45iRmVT1yXApRPlkpdsABj1iWkQc3KcDNh2vuI5UqPwHmjZdon79CINhTc5byfZvAwiGO1KbPDTSDUzpUnIaot4R96PU0wbyyqoyepsRsqAjx0OaNlC467miBEIgxwJCnfNfDY1oiGyarcWYZk4rhKEm6540HOtCowLWh1Mqg_95ynOZS1t7mktOLyu4-cwNshDVUXUCOEaLYxYPQkUS5rvsA2Dxy7WWsz3FHyw/https://www.amazon.ca/stores/page/CDAD1A59-200D-4351-99CF-A7A79D54CC03/?_encoding=UTF8&store_ref=SB_A01488751WYPTRQ00VTQL-A04842831DJIIFVUNI65Z&pd_rd_plhdr=t&aaxitk=1fa0d4cabf976746b23137607126c60b&hsa_cr_id=0&lp_asins=B0G3X4C6W1%2CB0G3WXPX8K&lp_slot=desktop-arbies&lp_page_asin=B0CNH8VZYX&pd_rd_i=ad3&ref_=sbx_be_dp_arbies_mbd_mb2_cta&pd_rd_w=BTaSw&content-id=amzn1.sym.f6213712-4a6f-4f87-9a7b-9a3c64c49057&pf_rd_p=f6213712-4a6f-4f87-9a7b-9a3c64c49057&pf_rd_r=D9T1KDMZ314X2H2A2CNT&pd_rd_wg=FGgHu&pd_rd_r=e0bacaf6-8349-4a97-b474-91c32fffa1cc
+                            - generic [ref=f59e1270]:
+                              - text: Shop
+                              - generic [ref=f59e1271]: laimiod
+              - listitem [ref=f59e1274]:
+                - generic [ref=f59e1275]:
+                  - link "Sponsored ad from Catchmaster. Shop Catchmaster." [ref=f59e1276] [cursor=pointer]:
+                    - /url: https://aax-us-east-retail-direct.amazon.com/x/c/JEestJNAZtvNWbXEzG31XAEAAAGgY7BU4wEAAAH2AQBvbm9fdHhuX2JpZDcgICBvbm9fdHhuX2ltcDEgICDGtQyx/clv1c_ek-wBfPXEsTa3eLbk2sFb2s_oBsZ2FC5xdCMU2Dw3WW4mnEAqeebJyUPKizbjPCutK0kzx37dnBA33zrR9EXILK8v8UlTePKdQwKkdbmeM1jU_mYSkPoFEq4grrzZ47wx5bHopkS0XtTzGTC5oRi7tgboNuO_kGOGrTwiDC-2uoHaPhyqkZz5S5S7zsyu9kn7eaYxFejb3SglSXPkgFRsy7eSK87HwPAHCRtYkuUeNyLTiv5tBIRb5wRof7gE_yPieeJlkZY5iPB95JlAMIEslWTjdfqeUCLLyFwHjIkwRo111NqoNPn60xw6PXwccfv0tZ1c6U3Qi93UUSaLUpyj9n7y_BWwgIGNvB72PLWxMa__ekHMpb6ywvT7CPCVb24t5oVzJ6r_tdR1w4csv6UjCKf_AzcM0_CEvwH7Hr8SvFFG8P4xMRqEJI8gKoZ_e7d73E2kGUWQzRL7YOxjJ2BS6m9ASn9ByULWZadTImA7J7v0pfSqCQ-ucUHeo1A-UWRatw_awCul7sOONzq7W8Ngg11s07og7-HG47ONQojs4PysJ1SFjtqE7AgN56tycxjzQpco_cQj-ux_PV9SZfM8NXw84wTcR2SJUjzH3ltJLlLZdIDpKdOII25N-jGtml75pHM1nb6GWFNlQyonyukTVUEb-B0JltnowJV9kPcEoOxySw2iMinutDDBqOURkbKjGvtIl4QnEVdbC073xEeBz8T23wIHmSgl_c3uyMrS7l78VoZ-i7sX02oEJValhc-U24FpjmtUd-ucFk1tt8ie5bIxHroEvGVzyDYlxc1ecXux3FfWiInDQzQeA6MVjSxOCawLn91Q7CAGZYbyH5WlIpng_bvsS5PcLPE7bga5PSj6ZmocuVp1fLOnPHIKkA4QPZXr2W5RF3OEQVEF5gR3d9tByqAJbXDPgOPw-KVvA-Sy1L_7bk_6X_Hp70XUb_V0EF875CpBsf9TrSfRh4eq95DOzw4tq6yQGvi_yRfILlaMh7EVSJVas4uLcycnYZ5tVAgSdZftfGg7R3hCTx7AyPGxT_TVCjk6NJV3iadb3BqWjufsV76wu1Z2O-jdSH4ysmhTTprxFMmgevvKwYRPUJ5ahi2p_cS_iTWr9zRZKaNhkluUaEdvajdmwzDsI7z8cVy9aQ6KN-HdKZ0AjZAFotwsSGGIlcmxDOcocoO-uEEHH4uCc2CFZrk0T6NIgr-OQYuJfVGs2zjmrwHwGLheWU38cv9DxkgLOb9zprCHzziZqBwEgGK-84ZNCOYcyUMorSatZ8DGfn3VZSeKxs0_jE1y_EVPO1bNrVvevZy1Uk0nQOE2kBLssl2qSjfnLRfdq9_S0ue5JjwASEbogLR8iTw3_kNKlgkmjNpHjjm9-A9lN1HFtuHv5K8iT70kBsmUvn-zToeponn0w5j9oz9eBUfJ8xUS19P8oiqhN0-ByB5ojn3z19u1Q35vmYfpUz1BZTp4YFkxJrXYgrFRNM9RxQBzIuU4Xc1qtcwYxlE4xS_CE5wI_uXYVsNUS3qEJZEmCx0vS4elAle1Arw_k3vK2S4hPrSvtwLomNlu8_-RoKME3CRO2gGpJrt2oDi6LWcqA/https://www.amazon.ca/stores/page/E742F00A-6929-4DCF-8FA1-1AFF93BB5D3E/?_encoding=UTF8&store_ref=SB_A03763043A9FNIYADQ5ZE-A01809833SFMRRA1MXSF2&pd_rd_plhdr=t&aaxitk=187fe508767c33c74e24552f3ae2d0c6&hsa_cr_id=0&lp_asins=B003ORTFH0%2CB007E83LUM%2CB00CEEF7PI&lp_slot=desktop-arbies&lp_page_asin=B0CNH8VZYX&pd_rd_i=ad4&ref_=sbx_be_dp_arbies_mbd_mb3_bkgd&pd_rd_w=BTaSw&content-id=amzn1.sym.f6213712-4a6f-4f87-9a7b-9a3c64c49057&pf_rd_p=f6213712-4a6f-4f87-9a7b-9a3c64c49057&pf_rd_r=D9T1KDMZ314X2H2A2CNT&pd_rd_wg=FGgHu&pd_rd_r=e0bacaf6-8349-4a97-b474-91c32fffa1cc
+                  - generic:
+                    - generic:
+                      - link [ref=f59e1277] [cursor=pointer]:
+                        - /url: https://aax-us-east-retail-direct.amazon.com/x/c/JEestJNAZtvNWbXEzG31XAEAAAGgY7BU4wEAAAH2AQBvbm9fdHhuX2JpZDcgICBvbm9fdHhuX2ltcDEgICDGtQyx/clv1c_ek-wBfPXEsTa3eLbk2sFb2s_oBsZ2FC5xdCMU2Dw3WW4mnEAqeebJyUPKizbjPCutK0kzx37dnBA33zrR9EXILK8v8UlTePKdQwKkdbmeM1jU_mYSkPoFEq4grrzZ47wx5bHopkS0XtTzGTC5oRi7tgboNuO_kGOGrTwiDC-2uoHaPhyqkZz5S5S7zsyu9kn7eaYxFejb3SglSXPkgFRsy7eSK87HwPAHCRtYkuUeNyLTiv5tBIRb5wRof7gE_yPieeJlkZY5iPB95JlAMIEslWTjdfqeUCLLyFwHjIkwRo111NqoNPn60xw6PXwccfv0tZ1c6U3Qi93UUSaLUpyj9n7y_BWwgIGNvB72PLWxMa__ekHMpb6ywvT7CPCVb24t5oVzJ6r_tdR1w4csv6UjCKf_AzcM0_CEvwH7Hr8SvFFG8P4xMRqEJI8gKoZ_e7d73E2kGUWQzRL7YOxjJ2BS6m9ASn9ByULWZadTImA7J7v0pfSqCQ-ucUHeo1A-UWRatw_awCul7sOONzq7W8Ngg11s07og7-HG47ONQojs4PysJ1SFjtqE7AgN56tycxjzQpco_cQj-ux_PV9SZfM8NXw84wTcR2SJUjzH3ltJLlLZdIDpKdOII25N-jGtml75pHM1nb6GWFNlQyonyukTVUEb-B0JltnowJV9kPcEoOxySw2iMinutDDBqOURkbKjGvtIl4QnEVdbC073xEeBz8T23wIHmSgl_c3uyMrS7l78VoZ-i7sX02oEJValhc-U24FpjmtUd-ucFk1tt8ie5bIxHroEvGVzyDYlxc1ecXux3FfWiInDQzQeA6MVjSxOCawLn91Q7CAGZYbyH5WlIpng_bvsS5PcLPE7bga5PSj6ZmocuVp1fLOnPHIKkA4QPZXr2W5RF3OEQVEF5gR3d9tByqAJbXDPgOPw-KVvA-Sy1L_7bk_6X_Hp70XUb_V0EF875CpBsf9TrSfRh4eq95DOzw4tq6yQGvi_yRfILlaMh7EVSJVas4uLcycnYZ5tVAgSdZftfGg7R3hCTx7AyPGxT_TVCjk6NJV3iadb3BqWjufsV76wu1Z2O-jdSH4ysmhTTprxFMmgevvKwYRPUJ5ahi2p_cS_iTWr9zRZKaNhkluUaEdvajdmwzDsI7z8cVy9aQ6KN-HdKZ0AjZAFotwsSGGIlcmxDOcocoO-uEEHH4uCc2CFZrk0T6NIgr-OQYuJfVGs2zjmrwHwGLheWU38cv9DxkgLOb9zprCHzziZqBwEgGK-84ZNCOYcyUMorSatZ8DGfn3VZSeKxs0_jE1y_EVPO1bNrVvevZy1Uk0nQOE2kBLssl2qSjfnLRfdq9_S0ue5JjwASEbogLR8iTw3_kNKlgkmjNpHjjm9-A9lN1HFtuHv5K8iT70kBsmUvn-zToeponn0w5j9oz9eBUfJ8xUS19P8oiqhN0-ByB5ojn3z19u1Q35vmYfpUz1BZTp4YFkxJrXYgrFRNM9RxQBzIuU4Xc1qtcwYxlE4xS_CE5wI_uXYVsNUS3qEJZEmCx0vS4elAle1Arw_k3vK2S4hPrSvtwLomNlu8_-RoKME3CRO2gGpJrt2oDi6LWcqA/https://www.amazon.ca/stores/page/E742F00A-6929-4DCF-8FA1-1AFF93BB5D3E/?_encoding=UTF8&store_ref=SB_A03763043A9FNIYADQ5ZE-A01809833SFMRRA1MXSF2&pd_rd_plhdr=t&aaxitk=187fe508767c33c74e24552f3ae2d0c6&hsa_cr_id=0&lp_asins=B003ORTFH0%2CB007E83LUM%2CB00CEEF7PI&lp_slot=desktop-arbies&lp_page_asin=B0CNH8VZYX&pd_rd_i=ad4&ref_=sbx_be_dp_arbies_mbd_mb3_asin&pd_rd_w=BTaSw&content-id=amzn1.sym.f6213712-4a6f-4f87-9a7b-9a3c64c49057&pf_rd_p=f6213712-4a6f-4f87-9a7b-9a3c64c49057&pf_rd_r=D9T1KDMZ314X2H2A2CNT&pd_rd_wg=FGgHu&pd_rd_r=e0bacaf6-8349-4a97-b474-91c32fffa1cc
+                        - img "Sponsored ad from Catchmaster. Shop Catchmaster." [ref=f59e1278]
+                      - generic:
+                        - link:
+                          - /url: https://aax-us-east-retail-direct.amazon.com/x/c/JEestJNAZtvNWbXEzG31XAEAAAGgY7BU4wEAAAH2AQBvbm9fdHhuX2JpZDcgICBvbm9fdHhuX2ltcDEgICDGtQyx/clv1c_ek-wBfPXEsTa3eLbk2sFb2s_oBsZ2FC5xdCMU2Dw3WW4mnEAqeebJyUPKizbjPCutK0kzx37dnBA33zrR9EXILK8v8UlTePKdQwKkdbmeM1jU_mYSkPoFEq4grrzZ47wx5bHopkS0XtTzGTC5oRi7tgboNuO_kGOGrTwiDC-2uoHaPhyqkZz5S5S7zsyu9kn7eaYxFejb3SglSXPkgFRsy7eSK87HwPAHCRtYkuUeNyLTiv5tBIRb5wRof7gE_yPieeJlkZY5iPB95JlAMIEslWTjdfqeUCLLyFwHjIkwRo111NqoNPn60xw6PXwccfv0tZ1c6U3Qi93UUSaLUpyj9n7y_BWwgIGNvB72PLWxMa__ekHMpb6ywvT7CPCVb24t5oVzJ6r_tdR1w4csv6UjCKf_AzcM0_CEvwH7Hr8SvFFG8P4xMRqEJI8gKoZ_e7d73E2kGUWQzRL7YOxjJ2BS6m9ASn9ByULWZadTImA7J7v0pfSqCQ-ucUHeo1A-UWRatw_awCul7sOONzq7W8Ngg11s07og7-HG47ONQojs4PysJ1SFjtqE7AgN56tycxjzQpco_cQj-ux_PV9SZfM8NXw84wTcR2SJUjzH3ltJLlLZdIDpKdOII25N-jGtml75pHM1nb6GWFNlQyonyukTVUEb-B0JltnowJV9kPcEoOxySw2iMinutDDBqOURkbKjGvtIl4QnEVdbC073xEeBz8T23wIHmSgl_c3uyMrS7l78VoZ-i7sX02oEJValhc-U24FpjmtUd-ucFk1tt8ie5bIxHroEvGVzyDYlxc1ecXux3FfWiInDQzQeA6MVjSxOCawLn91Q7CAGZYbyH5WlIpng_bvsS5PcLPE7bga5PSj6ZmocuVp1fLOnPHIKkA4QPZXr2W5RF3OEQVEF5gR3d9tByqAJbXDPgOPw-KVvA-Sy1L_7bk_6X_Hp70XUb_V0EF875CpBsf9TrSfRh4eq95DOzw4tq6yQGvi_yRfILlaMh7EVSJVas4uLcycnYZ5tVAgSdZftfGg7R3hCTx7AyPGxT_TVCjk6NJV3iadb3BqWjufsV76wu1Z2O-jdSH4ysmhTTprxFMmgevvKwYRPUJ5ahi2p_cS_iTWr9zRZKaNhkluUaEdvajdmwzDsI7z8cVy9aQ6KN-HdKZ0AjZAFotwsSGGIlcmxDOcocoO-uEEHH4uCc2CFZrk0T6NIgr-OQYuJfVGs2zjmrwHwGLheWU38cv9DxkgLOb9zprCHzziZqBwEgGK-84ZNCOYcyUMorSatZ8DGfn3VZSeKxs0_jE1y_EVPO1bNrVvevZy1Uk0nQOE2kBLssl2qSjfnLRfdq9_S0ue5JjwASEbogLR8iTw3_kNKlgkmjNpHjjm9-A9lN1HFtuHv5K8iT70kBsmUvn-zToeponn0w5j9oz9eBUfJ8xUS19P8oiqhN0-ByB5ojn3z19u1Q35vmYfpUz1BZTp4YFkxJrXYgrFRNM9RxQBzIuU4Xc1qtcwYxlE4xS_CE5wI_uXYVsNUS3qEJZEmCx0vS4elAle1Arw_k3vK2S4hPrSvtwLomNlu8_-RoKME3CRO2gGpJrt2oDi6LWcqA/https://www.amazon.ca/stores/page/E742F00A-6929-4DCF-8FA1-1AFF93BB5D3E/?_encoding=UTF8&store_ref=SB_A03763043A9FNIYADQ5ZE-A01809833SFMRRA1MXSF2&pd_rd_plhdr=t&aaxitk=187fe508767c33c74e24552f3ae2d0c6&hsa_cr_id=0&lp_asins=B003ORTFH0%2CB007E83LUM%2CB00CEEF7PI&lp_slot=desktop-arbies&lp_page_asin=B0CNH8VZYX&pd_rd_i=ad4&ref_=sbx_be_dp_arbies_mbd_mb3_bkgd&pd_rd_w=BTaSw&content-id=amzn1.sym.f6213712-4a6f-4f87-9a7b-9a3c64c49057&pf_rd_p=f6213712-4a6f-4f87-9a7b-9a3c64c49057&pf_rd_r=D9T1KDMZ314X2H2A2CNT&pd_rd_wg=FGgHu&pd_rd_r=e0bacaf6-8349-4a97-b474-91c32fffa1cc
+                        - generic:
+                          - link [ref=f59e1279] [cursor=pointer]:
+                            - /url: https://aax-us-east-retail-direct.amazon.com/x/c/JEestJNAZtvNWbXEzG31XAEAAAGgY7BU4wEAAAH2AQBvbm9fdHhuX2JpZDcgICBvbm9fdHhuX2ltcDEgICDGtQyx/clv1c_ek-wBfPXEsTa3eLbk2sFb2s_oBsZ2FC5xdCMU2Dw3WW4mnEAqeebJyUPKizbjPCutK0kzx37dnBA33zrR9EXILK8v8UlTePKdQwKkdbmeM1jU_mYSkPoFEq4grrzZ47wx5bHopkS0XtTzGTC5oRi7tgboNuO_kGOGrTwiDC-2uoHaPhyqkZz5S5S7zsyu9kn7eaYxFejb3SglSXPkgFRsy7eSK87HwPAHCRtYkuUeNyLTiv5tBIRb5wRof7gE_yPieeJlkZY5iPB95JlAMIEslWTjdfqeUCLLyFwHjIkwRo111NqoNPn60xw6PXwccfv0tZ1c6U3Qi93UUSaLUpyj9n7y_BWwgIGNvB72PLWxMa__ekHMpb6ywvT7CPCVb24t5oVzJ6r_tdR1w4csv6UjCKf_AzcM0_CEvwH7Hr8SvFFG8P4xMRqEJI8gKoZ_e7d73E2kGUWQzRL7YOxjJ2BS6m9ASn9ByULWZadTImA7J7v0pfSqCQ-ucUHeo1A-UWRatw_awCul7sOONzq7W8Ngg11s07og7-HG47ONQojs4PysJ1SFjtqE7AgN56tycxjzQpco_cQj-ux_PV9SZfM8NXw84wTcR2SJUjzH3ltJLlLZdIDpKdOII25N-jGtml75pHM1nb6GWFNlQyonyukTVUEb-B0JltnowJV9kPcEoOxySw2iMinutDDBqOURkbKjGvtIl4QnEVdbC073xEeBz8T23wIHmSgl_c3uyMrS7l78VoZ-i7sX02oEJValhc-U24FpjmtUd-ucFk1tt8ie5bIxHroEvGVzyDYlxc1ecXux3FfWiInDQzQeA6MVjSxOCawLn91Q7CAGZYbyH5WlIpng_bvsS5PcLPE7bga5PSj6ZmocuVp1fLOnPHIKkA4QPZXr2W5RF3OEQVEF5gR3d9tByqAJbXDPgOPw-KVvA-Sy1L_7bk_6X_Hp70XUb_V0EF875CpBsf9TrSfRh4eq95DOzw4tq6yQGvi_yRfILlaMh7EVSJVas4uLcycnYZ5tVAgSdZftfGg7R3hCTx7AyPGxT_TVCjk6NJV3iadb3BqWjufsV76wu1Z2O-jdSH4ysmhTTprxFMmgevvKwYRPUJ5ahi2p_cS_iTWr9zRZKaNhkluUaEdvajdmwzDsI7z8cVy9aQ6KN-HdKZ0AjZAFotwsSGGIlcmxDOcocoO-uEEHH4uCc2CFZrk0T6NIgr-OQYuJfVGs2zjmrwHwGLheWU38cv9DxkgLOb9zprCHzziZqBwEgGK-84ZNCOYcyUMorSatZ8DGfn3VZSeKxs0_jE1y_EVPO1bNrVvevZy1Uk0nQOE2kBLssl2qSjfnLRfdq9_S0ue5JjwASEbogLR8iTw3_kNKlgkmjNpHjjm9-A9lN1HFtuHv5K8iT70kBsmUvn-zToeponn0w5j9oz9eBUfJ8xUS19P8oiqhN0-ByB5ojn3z19u1Q35vmYfpUz1BZTp4YFkxJrXYgrFRNM9RxQBzIuU4Xc1qtcwYxlE4xS_CE5wI_uXYVsNUS3qEJZEmCx0vS4elAle1Arw_k3vK2S4hPrSvtwLomNlu8_-RoKME3CRO2gGpJrt2oDi6LWcqA/https://www.amazon.ca/stores/page/E742F00A-6929-4DCF-8FA1-1AFF93BB5D3E/?_encoding=UTF8&store_ref=SB_A03763043A9FNIYADQ5ZE-A01809833SFMRRA1MXSF2&pd_rd_plhdr=t&aaxitk=187fe508767c33c74e24552f3ae2d0c6&hsa_cr_id=0&lp_asins=B003ORTFH0%2CB007E83LUM%2CB00CEEF7PI&lp_slot=desktop-arbies&lp_page_asin=B0CNH8VZYX&pd_rd_i=ad4&ref_=sbx_be_dp_arbies_mbd_mb3_logo&pd_rd_w=BTaSw&content-id=amzn1.sym.f6213712-4a6f-4f87-9a7b-9a3c64c49057&pf_rd_p=f6213712-4a6f-4f87-9a7b-9a3c64c49057&pf_rd_r=D9T1KDMZ314X2H2A2CNT&pd_rd_wg=FGgHu&pd_rd_r=e0bacaf6-8349-4a97-b474-91c32fffa1cc
+                            - img "Catchmaster" [ref=f59e1280]
+                          - link:
+                            - /url: https://aax-us-east-retail-direct.amazon.com/x/c/JEestJNAZtvNWbXEzG31XAEAAAGgY7BU4wEAAAH2AQBvbm9fdHhuX2JpZDcgICBvbm9fdHhuX2ltcDEgICDGtQyx/clv1c_ek-wBfPXEsTa3eLbk2sFb2s_oBsZ2FC5xdCMU2Dw3WW4mnEAqeebJyUPKizbjPCutK0kzx37dnBA33zrR9EXILK8v8UlTePKdQwKkdbmeM1jU_mYSkPoFEq4grrzZ47wx5bHopkS0XtTzGTC5oRi7tgboNuO_kGOGrTwiDC-2uoHaPhyqkZz5S5S7zsyu9kn7eaYxFejb3SglSXPkgFRsy7eSK87HwPAHCRtYkuUeNyLTiv5tBIRb5wRof7gE_yPieeJlkZY5iPB95JlAMIEslWTjdfqeUCLLyFwHjIkwRo111NqoNPn60xw6PXwccfv0tZ1c6U3Qi93UUSaLUpyj9n7y_BWwgIGNvB72PLWxMa__ekHMpb6ywvT7CPCVb24t5oVzJ6r_tdR1w4csv6UjCKf_AzcM0_CEvwH7Hr8SvFFG8P4xMRqEJI8gKoZ_e7d73E2kGUWQzRL7YOxjJ2BS6m9ASn9ByULWZadTImA7J7v0pfSqCQ-ucUHeo1A-UWRatw_awCul7sOONzq7W8Ngg11s07og7-HG47ONQojs4PysJ1SFjtqE7AgN56tycxjzQpco_cQj-ux_PV9SZfM8NXw84wTcR2SJUjzH3ltJLlLZdIDpKdOII25N-jGtml75pHM1nb6GWFNlQyonyukTVUEb-B0JltnowJV9kPcEoOxySw2iMinutDDBqOURkbKjGvtIl4QnEVdbC073xEeBz8T23wIHmSgl_c3uyMrS7l78VoZ-i7sX02oEJValhc-U24FpjmtUd-ucFk1tt8ie5bIxHroEvGVzyDYlxc1ecXux3FfWiInDQzQeA6MVjSxOCawLn91Q7CAGZYbyH5WlIpng_bvsS5PcLPE7bga5PSj6ZmocuVp1fLOnPHIKkA4QPZXr2W5RF3OEQVEF5gR3d9tByqAJbXDPgOPw-KVvA-Sy1L_7bk_6X_Hp70XUb_V0EF875CpBsf9TrSfRh4eq95DOzw4tq6yQGvi_yRfILlaMh7EVSJVas4uLcycnYZ5tVAgSdZftfGg7R3hCTx7AyPGxT_TVCjk6NJV3iadb3BqWjufsV76wu1Z2O-jdSH4ysmhTTprxFMmgevvKwYRPUJ5ahi2p_cS_iTWr9zRZKaNhkluUaEdvajdmwzDsI7z8cVy9aQ6KN-HdKZ0AjZAFotwsSGGIlcmxDOcocoO-uEEHH4uCc2CFZrk0T6NIgr-OQYuJfVGs2zjmrwHwGLheWU38cv9DxkgLOb9zprCHzziZqBwEgGK-84ZNCOYcyUMorSatZ8DGfn3VZSeKxs0_jE1y_EVPO1bNrVvevZy1Uk0nQOE2kBLssl2qSjfnLRfdq9_S0ue5JjwASEbogLR8iTw3_kNKlgkmjNpHjjm9-A9lN1HFtuHv5K8iT70kBsmUvn-zToeponn0w5j9oz9eBUfJ8xUS19P8oiqhN0-ByB5ojn3z19u1Q35vmYfpUz1BZTp4YFkxJrXYgrFRNM9RxQBzIuU4Xc1qtcwYxlE4xS_CE5wI_uXYVsNUS3qEJZEmCx0vS4elAle1Arw_k3vK2S4hPrSvtwLomNlu8_-RoKME3CRO2gGpJrt2oDi6LWcqA/https://www.amazon.ca/stores/page/E742F00A-6929-4DCF-8FA1-1AFF93BB5D3E/?_encoding=UTF8&store_ref=SB_A03763043A9FNIYADQ5ZE-A01809833SFMRRA1MXSF2&pd_rd_plhdr=t&aaxitk=187fe508767c33c74e24552f3ae2d0c6&hsa_cr_id=0&lp_asins=B003ORTFH0%2CB007E83LUM%2CB00CEEF7PI&lp_slot=desktop-arbies&lp_page_asin=B0CNH8VZYX&pd_rd_i=ad4&ref_=sbx_be_dp_arbies_mbd_mb3_hl&pd_rd_w=BTaSw&content-id=amzn1.sym.f6213712-4a6f-4f87-9a7b-9a3c64c49057&pf_rd_p=f6213712-4a6f-4f87-9a7b-9a3c64c49057&pf_rd_r=D9T1KDMZ314X2H2A2CNT&pd_rd_wg=FGgHu&pd_rd_r=e0bacaf6-8349-4a97-b474-91c32fffa1cc
+                          - link "Shop Catchmaster" [ref=f59e1281] [cursor=pointer]:
+                            - /url: https://aax-us-east-retail-direct.amazon.com/x/c/JEestJNAZtvNWbXEzG31XAEAAAGgY7BU4wEAAAH2AQBvbm9fdHhuX2JpZDcgICBvbm9fdHhuX2ltcDEgICDGtQyx/clv1c_ek-wBfPXEsTa3eLbk2sFb2s_oBsZ2FC5xdCMU2Dw3WW4mnEAqeebJyUPKizbjPCutK0kzx37dnBA33zrR9EXILK8v8UlTePKdQwKkdbmeM1jU_mYSkPoFEq4grrzZ47wx5bHopkS0XtTzGTC5oRi7tgboNuO_kGOGrTwiDC-2uoHaPhyqkZz5S5S7zsyu9kn7eaYxFejb3SglSXPkgFRsy7eSK87HwPAHCRtYkuUeNyLTiv5tBIRb5wRof7gE_yPieeJlkZY5iPB95JlAMIEslWTjdfqeUCLLyFwHjIkwRo111NqoNPn60xw6PXwccfv0tZ1c6U3Qi93UUSaLUpyj9n7y_BWwgIGNvB72PLWxMa__ekHMpb6ywvT7CPCVb24t5oVzJ6r_tdR1w4csv6UjCKf_AzcM0_CEvwH7Hr8SvFFG8P4xMRqEJI8gKoZ_e7d73E2kGUWQzRL7YOxjJ2BS6m9ASn9ByULWZadTImA7J7v0pfSqCQ-ucUHeo1A-UWRatw_awCul7sOONzq7W8Ngg11s07og7-HG47ONQojs4PysJ1SFjtqE7AgN56tycxjzQpco_cQj-ux_PV9SZfM8NXw84wTcR2SJUjzH3ltJLlLZdIDpKdOII25N-jGtml75pHM1nb6GWFNlQyonyukTVUEb-B0JltnowJV9kPcEoOxySw2iMinutDDBqOURkbKjGvtIl4QnEVdbC073xEeBz8T23wIHmSgl_c3uyMrS7l78VoZ-i7sX02oEJValhc-U24FpjmtUd-ucFk1tt8ie5bIxHroEvGVzyDYlxc1ecXux3FfWiInDQzQeA6MVjSxOCawLn91Q7CAGZYbyH5WlIpng_bvsS5PcLPE7bga5PSj6ZmocuVp1fLOnPHIKkA4QPZXr2W5RF3OEQVEF5gR3d9tByqAJbXDPgOPw-KVvA-Sy1L_7bk_6X_Hp70XUb_V0EF875CpBsf9TrSfRh4eq95DOzw4tq6yQGvi_yRfILlaMh7EVSJVas4uLcycnYZ5tVAgSdZftfGg7R3hCTx7AyPGxT_TVCjk6NJV3iadb3BqWjufsV76wu1Z2O-jdSH4ysmhTTprxFMmgevvKwYRPUJ5ahi2p_cS_iTWr9zRZKaNhkluUaEdvajdmwzDsI7z8cVy9aQ6KN-HdKZ0AjZAFotwsSGGIlcmxDOcocoO-uEEHH4uCc2CFZrk0T6NIgr-OQYuJfVGs2zjmrwHwGLheWU38cv9DxkgLOb9zprCHzziZqBwEgGK-84ZNCOYcyUMorSatZ8DGfn3VZSeKxs0_jE1y_EVPO1bNrVvevZy1Uk0nQOE2kBLssl2qSjfnLRfdq9_S0ue5JjwASEbogLR8iTw3_kNKlgkmjNpHjjm9-A9lN1HFtuHv5K8iT70kBsmUvn-zToeponn0w5j9oz9eBUfJ8xUS19P8oiqhN0-ByB5ojn3z19u1Q35vmYfpUz1BZTp4YFkxJrXYgrFRNM9RxQBzIuU4Xc1qtcwYxlE4xS_CE5wI_uXYVsNUS3qEJZEmCx0vS4elAle1Arw_k3vK2S4hPrSvtwLomNlu8_-RoKME3CRO2gGpJrt2oDi6LWcqA/https://www.amazon.ca/stores/page/E742F00A-6929-4DCF-8FA1-1AFF93BB5D3E/?_encoding=UTF8&store_ref=SB_A03763043A9FNIYADQ5ZE-A01809833SFMRRA1MXSF2&pd_rd_plhdr=t&aaxitk=187fe508767c33c74e24552f3ae2d0c6&hsa_cr_id=0&lp_asins=B003ORTFH0%2CB007E83LUM%2CB00CEEF7PI&lp_slot=desktop-arbies&lp_page_asin=B0CNH8VZYX&pd_rd_i=ad4&ref_=sbx_be_dp_arbies_mbd_mb3_cta&pd_rd_w=BTaSw&content-id=amzn1.sym.f6213712-4a6f-4f87-9a7b-9a3c64c49057&pf_rd_p=f6213712-4a6f-4f87-9a7b-9a3c64c49057&pf_rd_r=D9T1KDMZ314X2H2A2CNT&pd_rd_wg=FGgHu&pd_rd_r=e0bacaf6-8349-4a97-b474-91c32fffa1cc
+                            - generic [ref=f59e1284]:
+                              - text: Shop
+                              - generic [ref=f59e1285]: Catchmaster
+            - button [ref=f59e1290] [cursor=pointer]
+      - generic "Top reviews" [ref=f59e1293]:
+        - separator [ref=f59e1294]
+        - generic [ref=f59e1296]:
+          - generic [ref=f59e1297]:
+            - generic [ref=f59e1302]:
+              - heading "Customer reviews" [level=2] [ref=f59e1304]
+              - generic [ref=f59e1306]:
+                - generic [ref=f59e1308]:
+                  - generic [ref=f59e1309]: 4.2 out of 5 stars
+                  - generic [ref=f59e1312]: 4.2 out of 5
+                - generic [ref=f59e1315]: 143 global ratings
+              - list [ref=f59e1320]:
+                - listitem [ref=f59e1321]:
+                  - link "68 percent of reviews have 5 stars" [ref=f59e1324] [cursor=pointer]:
+                    - /url: /portal/customer-reviews/B0CNH8VZYX/ref=acr_dp_hist_5?ie=UTF8&filterByStar=five_star&reviewerType=all_reviews#reviews-filter-bar
+                    - generic [ref=f59e1325]: 5 star
+                    - progressbar [ref=f59e1327]
+                    - generic [ref=f59e1328]: 68%
+                - listitem [ref=f59e1329]:
+                  - link "9 percent of reviews have 4 stars" [ref=f59e1332] [cursor=pointer]:
+                    - /url: /portal/customer-reviews/B0CNH8VZYX/ref=acr_dp_hist_4?ie=UTF8&filterByStar=four_star&reviewerType=all_reviews#reviews-filter-bar
+                    - generic [ref=f59e1333]: 4 star
+                    - progressbar [ref=f59e1335]
+                    - generic [ref=f59e1336]: 9%
+                - listitem [ref=f59e1337]:
+                  - link "8 percent of reviews have 3 stars" [ref=f59e1340] [cursor=pointer]:
+                    - /url: /portal/customer-reviews/B0CNH8VZYX/ref=acr_dp_hist_3?ie=UTF8&filterByStar=three_star&reviewerType=all_reviews#reviews-filter-bar
+                    - generic [ref=f59e1341]: 3 star
+                    - progressbar [ref=f59e1343]
+                    - generic [ref=f59e1344]: 8%
+                - listitem [ref=f59e1345]:
+                  - link "4 percent of reviews have 2 stars" [ref=f59e1348] [cursor=pointer]:
+                    - /url: /portal/customer-reviews/B0CNH8VZYX/ref=acr_dp_hist_2?ie=UTF8&filterByStar=two_star&reviewerType=all_reviews#reviews-filter-bar
+                    - generic [ref=f59e1349]: 2 star
+                    - progressbar [ref=f59e1351]
+                    - generic [ref=f59e1352]: 4%
+                - listitem [ref=f59e1353]:
+                  - link "11 percent of reviews have 1 stars" [ref=f59e1356] [cursor=pointer]:
+                    - /url: /portal/customer-reviews/B0CNH8VZYX/ref=acr_dp_hist_1?ie=UTF8&filterByStar=one_star&reviewerType=all_reviews#reviews-filter-bar
+                    - generic [ref=f59e1357]: 1 star
+                    - progressbar [ref=f59e1359]
+                    - generic [ref=f59e1360]: 11%
+              - button "How are ratings calculated?" [ref=f59e1365] [cursor=pointer]
+            - separator [ref=f59e1367]
+            - separator [ref=f59e1368]
+            - generic [ref=f59e1371]:
+              - iframe [ref=f59e1372]:
+                - generic [ref=f63e4]:
+                  - link "Lqucwepp 4PCS Wide Pedal Rat Trap for Kitchens,Warehouses,and Garages" [ref=f63e5] [cursor=pointer]:
+                    - /url: https://aax-us-east-retail-direct.amazon.com/x/c/RK8_v5JQ4HFvyI7SPtXYJecAAAGgY7BUrAEAAAIBBABvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDIgICCupq8t/clv1c_ek8OM3GX57OOBXerVh5X2IeO2xVicCArEtDgtaLX073sFi9yUMhoLiz9L38_-R9X--edcCDxWeucYq8NTAFYM0JOCvODp5u1kuCEdLdABq1z8sf97PH78GSfuR6W8hn21os6r5VTIl-AihlFn-Khf8GKYgxxtgXLh-S-f5-05L8HaeMTTF2ZI6cedSe0bRR0WcxBK4Ji1U3nYVY0mnzzJtxJKOsMauMHJ92RGetq90qlEyLLIpWF4-tx3_j9hPpjvDioi9nr-F_XiXAgItiTD3r3xOap92pyX4Sl0vGp9O4LemEAbkLjmw8pHUhjPzsP-S74OcFK4oBtSjFkxa0OyH_GGLnW4ohr7BtIhmHTXcLssCs0XenhSln0rd9Y0hb8E6XSLucuPNndDJDP1_lf_KYjMCyNFSEMB6lzQ-wZhiWvMfWlhw2v5SqaGqHyEKofixY5yLeJ3tSoSEMKX13r6z80cs9PDHAzfAs/https://www.amazon.ca/sspa/click?ie=UTF8&spc=MTo4OTczMDQ1ODQ2MDk4MTA0OjE3ODgzNzg4OTU6c3BfY3JyX3NoYXJlZDozMDExNDQzNzc1Nzk3MDI6Ojo6&url=%2Fdp%2FB0G3TJMBN7%2Fref%3Dsspa_dk_crr_aax_0%3Fpsc%3D1%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9jcnJfc2hhcmVk
+                  - img "Lqucwepp 4PCS Wide Pedal Rat Trap for Kitchens,Warehouses,and Garages" [ref=f63e9]
+                  - generic [ref=f63e11]: Lqucwepp 4PCS Wide Pedal Rat Trap for Kitchens,Warehouses,and Garages
+                  - generic [ref=f63e12]:
+                    - generic [ref=f63e13]:
+                      - link "1" [ref=f63e15] [cursor=pointer]:
+                        - /url: https://aax-us-east-retail-direct.amazon.com/x/c/RK8_v5JQ4HFvyI7SPtXYJecAAAGgY7BUrAEAAAIBBABvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDIgICCupq8t/clv1c_ek8OM3GX57OOBXerVh5X2IeO2xVicCArEtDgtaLX073sFi9yUMhoLiz9L38_-R9X--edcCDxWeucYq8NTAFYM0JOCvODp5u1kuCEdLdABq1z8sf97PH78GSfuR6W8hn21os6r5VTIl-AihlFn-Khf8GKYgxxtgXLh-S-f5-05L8HaeMTTF2ZI6cedSe0bRR0WcxBK4Ji1U3nYVY0mnzzJtxJKOsMauMHJ92RGetq90qlEyLLIpWF4-tx3_j9hPpjvDioi9nr-F_XiXAgItiTD3r3xOap92pyX4Sl0vGp9O4LemEAbkLjmw8pHUhjPzsP-S74OcFK4oBtSjFkxa0OyH_GGLnW4ohr7BtIhmHTXcLssCs0XenhSln0rd9Y0hb8E6XSLucuPNndDJDP1_lf_KYjMCyNFSEMB6lzQ-wZhiWvMfWlhw2v5SqaGqHyEKofixY5yLeJ3tSoSEMKX13r6z80cs9PDHAzfAs/https://www.amazon.ca/sspa/click?ie=UTF8&spc=MTo4OTczMDQ1ODQ2MDk4MTA0OjE3ODgzNzg4OTU6c3BfY3JyX3NoYXJlZDozMDExNDQzNzc1Nzk3MDI6Ojo6&url=%2Fdp%2FB0G3TJMBN7%2Fref%3Dsspa_dk_crr_aax_0%3Fpsc%3D1%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9jcnJfc2hhcmVk#customerReviews
+                      - generic [ref=f63e17]: $15.99
+                    - link "Shop now" [ref=f63e21] [cursor=pointer]:
+                      - /url: https://aax-us-east-retail-direct.amazon.com/x/c/RK8_v5JQ4HFvyI7SPtXYJecAAAGgY7BUrAEAAAIBBABvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDIgICCupq8t/clv1c_ek8OM3GX57OOBXerVh5X2IeO2xVicCArEtDgtaLX073sFi9yUMhoLiz9L38_-R9X--edcCDxWeucYq8NTAFYM0JOCvODp5u1kuCEdLdABq1z8sf97PH78GSfuR6W8hn21os6r5VTIl-AihlFn-Khf8GKYgxxtgXLh-S-f5-05L8HaeMTTF2ZI6cedSe0bRR0WcxBK4Ji1U3nYVY0mnzzJtxJKOsMauMHJ92RGetq90qlEyLLIpWF4-tx3_j9hPpjvDioi9nr-F_XiXAgItiTD3r3xOap92pyX4Sl0vGp9O4LemEAbkLjmw8pHUhjPzsP-S74OcFK4oBtSjFkxa0OyH_GGLnW4ohr7BtIhmHTXcLssCs0XenhSln0rd9Y0hb8E6XSLucuPNndDJDP1_lf_KYjMCyNFSEMB6lzQ-wZhiWvMfWlhw2v5SqaGqHyEKofixY5yLeJ3tSoSEMKX13r6z80cs9PDHAzfAs/https://www.amazon.ca/sspa/click?ie=UTF8&spc=MTo4OTczMDQ1ODQ2MDk4MTA0OjE3ODgzNzg4OTU6c3BfY3JyX3NoYXJlZDozMDExNDQzNzc1Nzk3MDI6Ojo6&url=%2Fdp%2FB0G3TJMBN7%2Fref%3Dsspa_dk_crr_aax_0%3Fpsc%3D1%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9jcnJfc2hhcmVk
+              - button "Leave feedback on Sponsored ad" [ref=f59e1374] [cursor=pointer]:
+                - generic [ref=f59e1375]: Sponsored
+          - generic [ref=f59e1380]:
+            - generic [ref=f59e1384]:
+              - heading "Customers say" [level=3] [ref=f59e1385]
+              - generic [ref=f59e1386]: Customers describe this pest control device as an excellent product and the best trap they have used. However, they report significant issues with stability, noting that it won't stay set and wouldn't hold position. Customers have mixed opinions on the device's effectiveness and durability.
+              - generic [ref=f59e1388]:
+                - generic [ref=f59e1389]:
+                  - generic [ref=f59e1390]: AI Generated from the text of customer reviews
+                  - generic [ref=f59e1392]: Generated from the text of customer reviews
+                - heading "Select to learn more" [level=4] [ref=f59e1393]
+                - tablist "Select to learn more" [ref=f59e1394]:
+                  - generic [ref=f59e1395]:
+                    - tab "Positive aspect, quality, 25 mentions" [ref=f59e1399]:
+                      - button "Quality(25)" [ref=f59e1400] [cursor=pointer]
+                    - tab "Mixed aspect, effectiveness, 46 mentions" [ref=f59e1409]:
+                      - button "Effectiveness(46)" [ref=f59e1410] [cursor=pointer]
+                    - tab "Mixed aspect, durability, 9 mentions" [ref=f59e1419]:
+                      - button "Durability(9)" [ref=f59e1420] [cursor=pointer]
+                    - tab "Negative aspect, stability, 7 mentions" [ref=f59e1429]:
+                      - button "Stability(7)" [ref=f59e1430] [cursor=pointer]
+            - generic [ref=f59e1437]:
+              - group [ref=f59e1440]:
+                - generic [ref=f59e1441]:
+                  - heading "Reviews with images" [level=3] [ref=f59e1443]
+                  - link "See all photos" [ref=f59e1446] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - group [ref=f59e1450]:
+                  - list [ref=f59e1451]:
+                    - listitem [ref=f59e1452]:
+                      - button [ref=f59e1454] [cursor=pointer]:
+                        - img "Customer Image, click to open customer review" [ref=f59e1455]
+              - separator [ref=f59e1457]
+            - generic [ref=f59e1462]:
+              - generic [ref=f59e1463]:
+                - heading "Top reviews from Canada" [level=3] [ref=f59e1464]
+                - list [ref=f59e1465]:
+                  - listitem [ref=f59e1466]:
+                    - generic [ref=f59e1469]:
+                      - link "Todd" [ref=f59e1471] [cursor=pointer]:
+                        - /url: /gp/profile/amzn1.account.AHRATAFGP7BS3D4QEI7RLVYBCDGA?ref=cm_cr_dp_d_bdcrb_top
+                      - generic [ref=f59e1477]: 5 out of 5 stars
+                      - link [ref=f59e1480] [cursor=pointer]:
+                        - /url: /portal/customer-reviews/srp/-/R3AQ8ZLSX11W1P/ref=cm_cr_dp_d_rvw_ttl?_encoding=UTF8&ie=UTF8
+                        - heading "Productive when used properly" [level=5] [ref=f59e1481]
+                      - generic [ref=f59e1482]: Reviewed in Canada on August 1, 2025
+                      - link "Verified Purchase" [ref=f59e1486] [cursor=pointer]:
+                        - /url: /gp/help/customer/display.html/ref=cm_cr_dp_d_rvw_avp?ie=UTF8&nodeId=G8UYX7LALQC8V9KA
+                      - paragraph [ref=f59e1496]: These are better than the non-paddle type traps in my opinion. I screw these to a piece of 2x4 and put them behind a deck box up against my garage. The paddle is so wide that the rats spring the traps trying to walk over the traps. Very productive. Very important to attach them to something heavy otherwise they just flip around when sprung. Also, the rat could run off with the trap depending where it is caught.
+                      - generic [ref=f59e1498]:
+                        - generic [ref=f59e1502] [cursor=pointer]:
+                          - button "Helpful" [ref=f59e1503]
+                          - generic [ref=f59e1504]: Helpful
+                        - button "Report Review" [ref=f59e1508] [cursor=pointer]: Report
+                  - listitem [ref=f59e1509]:
+                    - generic [ref=f59e1512]:
+                      - link "Greg" [ref=f59e1514] [cursor=pointer]:
+                        - /url: /gp/profile/amzn1.account.AEVKNQSZ4QKFMXM54DCZWDDIVXGA?ref=cm_cr_dp_d_bdcrb_top
+                      - generic [ref=f59e1520]: 5 out of 5 stars
+                      - link [ref=f59e1523] [cursor=pointer]:
+                        - /url: /portal/customer-reviews/srp/-/RWNIE9P6FMXN9/ref=cm_cr_dp_d_rvw_ttl?_encoding=UTF8&ie=UTF8
+                        - heading "Victor a better Rat Trap - NO Comparison to the competition" [level=5] [ref=f59e1524]
+                      - generic [ref=f59e1525]: Reviewed in Canada on October 4, 2025
+                      - link "Verified Purchase" [ref=f59e1529] [cursor=pointer]:
+                        - /url: /gp/help/customer/display.html/ref=cm_cr_dp_d_rvw_avp?ie=UTF8&nodeId=G8UYX7LALQC8V9KA
+                      - paragraph [ref=f59e1539]: Clearly this is the best trap compared to competition like Tom Kitten... used multiple times and never a problem they are well made > spend the extra 1.00 and buy a better trap. I bought 2 then 2 more as they work so well, congratulations to this company made in America and an awesome product. I think it is owned by Woodstream products - don't be cheap and waste your money on ratty products go with Victor.
+                      - generic [ref=f59e1540]: 2 people found this helpful
+                      - generic [ref=f59e1542]:
+                        - generic [ref=f59e1546] [cursor=pointer]:
+                          - button "Helpful" [ref=f59e1547]
+                          - generic [ref=f59e1548]: Helpful
+                        - button "Report Review" [ref=f59e1552] [cursor=pointer]: Report
+                  - listitem [ref=f59e1553]:
+                    - generic [ref=f59e1556]:
+                      - link "VelvetElvis" [ref=f59e1558] [cursor=pointer]:
+                        - /url: /gp/profile/amzn1.account.AH7M7PM5DCYXBLPZISNWUXEB3JIQ?ref=cm_cr_dp_d_bdcrb_top
+                      - generic [ref=f59e1564]: 5 out of 5 stars
+                      - link [ref=f59e1567] [cursor=pointer]:
+                        - /url: /portal/customer-reviews/srp/-/R177J8PT73YB0V/ref=cm_cr_dp_d_rvw_ttl?_encoding=UTF8&ie=UTF8
+                        - heading "Tried and trusted" [level=5] [ref=f59e1568]
+                      - generic [ref=f59e1569]: Reviewed in Canada on September 13, 2025
+                      - link "Verified Purchase" [ref=f59e1573] [cursor=pointer]:
+                        - /url: /gp/help/customer/display.html/ref=cm_cr_dp_d_rvw_avp?ie=UTF8&nodeId=G8UYX7LALQC8V9KA
+                      - generic [ref=f59e1582]:
+                        - paragraph [ref=f59e1583]: There's a reason this style of trap has been around for decades - they just work.
+                        - paragraph [ref=f59e1584]: Tried a glue trap in the past, and they are just not humane. They trap the rodent, but they're still alive. So then you're faced with dispatching the critter yourself, or let them expire slowly and agonizingly. This trap doesn't have that problem.
+                      - generic [ref=f59e1585]: 2 people found this helpful
+                      - generic [ref=f59e1587]:
+                        - generic [ref=f59e1591] [cursor=pointer]:
+                          - button "Helpful" [ref=f59e1592]
+                          - generic [ref=f59e1593]: Helpful
+                        - button "Report Review" [ref=f59e1597] [cursor=pointer]: Report
+                  - listitem [ref=f59e1598]:
+                    - generic [ref=f59e1601]:
+                      - link "Christine" [ref=f59e1603] [cursor=pointer]:
+                        - /url: /gp/profile/amzn1.account.AHJIW4YOZUP3YOJKOH3U3D37GOTQ?ref=cm_cr_dp_d_bdcrb_top
+                      - generic [ref=f59e1609]: 1 out of 5 stars
+                      - link [ref=f59e1612] [cursor=pointer]:
+                        - /url: /portal/customer-reviews/srp/-/R1GJTGZEN5B9W3/ref=cm_cr_dp_d_rvw_ttl?_encoding=UTF8&ie=UTF8
+                        - heading "Not effective" [level=5] [ref=f59e1613]
+                      - generic [ref=f59e1614]: Reviewed in Canada on July 24, 2026
+                      - link "Verified Purchase" [ref=f59e1618] [cursor=pointer]:
+                        - /url: /gp/help/customer/display.html/ref=cm_cr_dp_d_rvw_avp?ie=UTF8&nodeId=G8UYX7LALQC8V9KA
+                      - paragraph [ref=f59e1628]: Purchased two of these rat traps for my husband. The copper hook has nothing to hold onto on the plastic plate, so it just snaps shut. Just about lost fingers as it wouldn't hold. Please go back to the metal plates
+                      - generic [ref=f59e1630]:
+                        - generic [ref=f59e1634] [cursor=pointer]:
+                          - button "Helpful" [ref=f59e1635]
+                          - generic [ref=f59e1636]: Helpful
+                        - button "Report Review" [ref=f59e1640] [cursor=pointer]: Report
+                  - listitem [ref=f59e1641]:
+                    - generic [ref=f59e1644]:
+                      - link "John R" [ref=f59e1646] [cursor=pointer]:
+                        - /url: /gp/profile/amzn1.account.AFX7P4CRM4DU7YF42VNQBTRTK77Q?ref=cm_cr_dp_d_bdcrb_top
+                      - generic [ref=f59e1652]: 5 out of 5 stars
+                      - link [ref=f59e1655] [cursor=pointer]:
+                        - /url: /portal/customer-reviews/srp/-/RFUV5TBQFCPBL/ref=cm_cr_dp_d_rvw_ttl?_encoding=UTF8&ie=UTF8
+                        - heading "Effective" [level=5] [ref=f59e1656]
+                      - generic [ref=f59e1657]: Reviewed in Canada on February 5, 2026
+                      - link "Verified Purchase" [ref=f59e1661] [cursor=pointer]:
+                        - /url: /gp/help/customer/display.html/ref=cm_cr_dp_d_rvw_avp?ie=UTF8&nodeId=G8UYX7LALQC8V9KA
+                      - paragraph [ref=f59e1671]: I ordered three traps. One was defective, and Amazon refunded me without having to do a return. The other two set properly. I deployed one and trapped my first rat within hours of setting the trap. Remember that you need to prebait, or it will be much harder than that to catch rats.
+                      - generic [ref=f59e1673]:
+                        - generic [ref=f59e1677] [cursor=pointer]:
+                          - button "Helpful" [ref=f59e1678]
+                          - generic [ref=f59e1679]: Helpful
+                        - button "Report Review" [ref=f59e1683] [cursor=pointer]: Report
+                  - listitem [ref=f59e1684]:
+                    - generic [ref=f59e1687]:
+                      - link "rickem8" [ref=f59e1689] [cursor=pointer]:
+                        - /url: /gp/profile/amzn1.account.AHX5FDX2FPZSOYUTONGCGHVDH5SQ?ref=cm_cr_dp_d_bdcrb_top
+                      - generic [ref=f59e1695]: 4 out of 5 stars
+                      - link [ref=f59e1698] [cursor=pointer]:
+                        - /url: /portal/customer-reviews/srp/-/R1V50489B95UTN/ref=cm_cr_dp_d_rvw_ttl?_encoding=UTF8&ie=UTF8
+                        - heading "works" [level=5] [ref=f59e1699]
+                      - generic [ref=f59e1700]: Reviewed in Canada on April 23, 2025
+                      - link "Verified Purchase" [ref=f59e1704] [cursor=pointer]:
+                        - /url: /gp/help/customer/display.html/ref=cm_cr_dp_d_rvw_avp?ie=UTF8&nodeId=G8UYX7LALQC8V9KA
+                      - generic [ref=f59e1713]:
+                        - paragraph [ref=f59e1714]: K....lots of tension on the spring....keep your fingers clear. The plastic part is not so good....Found it would set on the far side of where you set the trap. Center didnt work. Got a rat last night using butter.
+                        - paragraph [ref=f59e1715]: K...trap lasted for 3 rats and a mouse....then fell apart....cause of the soft wood. On the new one found the plastic part no good again. Bent the end of the copper wire that holds the spring in place and was able to set it. FTR...still have all my fingers. Was touch and go tho. Price is right.
+                      - generic [ref=f59e1716]: One person found this helpful
+                      - generic [ref=f59e1718]:
+                        - generic [ref=f59e1722] [cursor=pointer]:
+                          - button "Helpful" [ref=f59e1723]
+                          - generic [ref=f59e1724]: Helpful
+                        - button "Report Review" [ref=f59e1728] [cursor=pointer]: Report
+                  - listitem [ref=f59e1729]:
+                    - generic [ref=f59e1732]:
+                      - link "Brenda Eugene" [ref=f59e1734] [cursor=pointer]:
+                        - /url: /gp/profile/amzn1.account.AE4ZIKJNF2NGBNELKWJ5P6IJJXCQ?ref=cm_cr_dp_d_bdcrb_top
+                      - generic [ref=f59e1740]: 3 out of 5 stars
+                      - link [ref=f59e1743] [cursor=pointer]:
+                        - /url: /portal/customer-reviews/srp/-/R2YO5XQZRAUVXP/ref=cm_cr_dp_d_rvw_ttl?_encoding=UTF8&ie=UTF8
+                        - heading "Spring too strong" [level=5] [ref=f59e1744]
+                      - generic [ref=f59e1745]: Reviewed in Canada on August 25, 2026
+                      - link "Verified Purchase" [ref=f59e1749] [cursor=pointer]:
+                        - /url: /gp/help/customer/display.html/ref=cm_cr_dp_d_rvw_avp?ie=UTF8&nodeId=G8UYX7LALQC8V9KA
+                      - paragraph [ref=f59e1759]: Spring was way too tight on mine so they wouldn't hold position. Watch your fingers!
+                      - generic [ref=f59e1761]:
+                        - generic [ref=f59e1765] [cursor=pointer]:
+                          - button "Helpful" [ref=f59e1766]
+                          - generic [ref=f59e1767]: Helpful
+                        - button "Report Review" [ref=f59e1771] [cursor=pointer]: Report
+                  - listitem [ref=f59e1772]:
+                    - generic [ref=f59e1775]:
+                      - link "Mario Audet" [ref=f59e1777] [cursor=pointer]:
+                        - /url: /gp/profile/amzn1.account.AGJMXXBHYPMC7GRD2LEESDEJ3Q4Q?ref=cm_cr_dp_d_bdcrb_top
+                      - generic [ref=f59e1783]: 5 out of 5 stars
+                      - link [ref=f59e1786] [cursor=pointer]:
+                        - /url: /portal/customer-reviews/srp/-/R16YL58AUZJGQF/ref=cm_cr_dp_d_rvw_ttl?_encoding=UTF8&ie=UTF8
+                        - heading "as advertised" [level=5] [ref=f59e1787]
+                      - generic [ref=f59e1788]: Reviewed in Canada on June 15, 2026
+                      - link "Verified Purchase" [ref=f59e1792] [cursor=pointer]:
+                        - /url: /gp/help/customer/display.html/ref=cm_cr_dp_d_rvw_avp?ie=UTF8&nodeId=G8UYX7LALQC8V9KA
+                      - paragraph [ref=f59e1802]: as advertised
+                      - generic [ref=f59e1804]:
+                        - generic [ref=f59e1808] [cursor=pointer]:
+                          - button "Helpful" [ref=f59e1809]
+                          - generic [ref=f59e1810]: Helpful
+                        - button "Report Review" [ref=f59e1814] [cursor=pointer]: Report
+              - link "See more reviews" [ref=f59e1816] [cursor=pointer]:
+                - /url: /portal/customer-reviews/B0CNH8VZYX/ref=cm_cr_dp_d_show_all_top?_encoding=UTF8&ie=UTF8&reviewerType=all_reviews
+  - complementary "Your recently viewed items and featured recommendations"
+  - generic [ref=f59e1822]:
+    - button "Back to top" [ref=f59e1823] [cursor=pointer]
+    - generic [ref=f59e1825]:
+      - generic [ref=f59e1826]:
+        - heading "Get to Know Us" [level=6] [ref=f59e1827]
+        - list [ref=f59e1828]:
+          - listitem [ref=f59e1829]:
+            - link "Careers" [ref=f59e1830] [cursor=pointer]:
+              - /url: https://www.amazon.jobs
+          - listitem [ref=f59e1831]:
+            - link "Amazon and Our Planet" [ref=f59e1832] [cursor=pointer]:
+              - /url: https://www.aboutamazon.ca/planet/?ref=footer_corpres
+          - listitem [ref=f59e1833]:
+            - link "Modern Slavery Statement" [ref=f59e1834] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=GXYZF9M33FRJ5TMA
+          - listitem [ref=f59e1835]:
+            - link "Investor Relations" [ref=f59e1836] [cursor=pointer]:
+              - /url: https://www.amazon.ca/ir
+          - listitem [ref=f59e1837]:
+            - link "Press Releases" [ref=f59e1838] [cursor=pointer]:
+              - /url: https://www.amazon.ca/pr
+          - listitem [ref=f59e1839]:
+            - link "Amazon Science" [ref=f59e1840] [cursor=pointer]:
+              - /url: https://www.amazon.science
+      - generic [ref=f59e1842]:
+        - heading "Make Money with Us" [level=6] [ref=f59e1843]
+        - list [ref=f59e1844]:
+          - listitem [ref=f59e1845]:
+            - link "Sell on Amazon" [ref=f59e1846] [cursor=pointer]:
+              - /url: https://sell.amazon.ca/en?ld=AZFSSOA-CA-footer&ref_=footer_soa
+          - listitem [ref=f59e1847]:
+            - link "Supply to Amazon" [ref=f59e1848] [cursor=pointer]:
+              - /url: https://supply.amazon.ca?ref_=footer_sta
+          - listitem [ref=f59e1849]:
+            - link "Become an Affiliate" [ref=f59e1850] [cursor=pointer]:
+              - /url: https://associates.amazon.ca
+          - listitem [ref=f59e1851]:
+            - link "Protect & Build Your Brand" [ref=f59e1852] [cursor=pointer]:
+              - /url: https://brandservices.amazon.ca/?ref=AOCAABRLGNRFOOT&ld=AOCAABRLGNRFOOT
+          - listitem [ref=f59e1853]:
+            - link "Sell on Amazon Handmade" [ref=f59e1854] [cursor=pointer]:
+              - /url: https://sell.amazon.ca/en/programs/handmade/?ld=AZCAHND-footer&ref_=footer_sell
+          - listitem [ref=f59e1855]:
+            - link "Advertise Your Products" [ref=f59e1856] [cursor=pointer]:
+              - /url: https://advertising.amazon.ca/?ref=footer_advtsing_amzn_ca
+          - listitem [ref=f59e1857]:
+            - link "Independently Publish with Us" [ref=f59e1858] [cursor=pointer]:
+              - /url: https://kdp.amazon.com?language=en_US
+          - listitem [ref=f59e1859]:
+            - link "Host an Amazon Hub" [ref=f59e1860] [cursor=pointer]:
+              - /url: https://www.amazon.ca/b?ie=UTF8&node=15576834011
+      - generic [ref=f59e1862]:
+        - heading "Amazon Payment Products" [level=6] [ref=f59e1863]
+        - list [ref=f59e1864]:
+          - listitem [ref=f59e1865]:
+            - link "Amazon.ca Rewards Mastercard" [ref=f59e1866] [cursor=pointer]:
+              - /url: /dp/B07MJM4F44?plattr=CACBCCFOOT&ref_=nav_cbcc_ca_footer
+          - listitem [ref=f59e1867]:
+            - link "Shop with Points" [ref=f59e1868] [cursor=pointer]:
+              - /url: https://www.amazon.ca/hp/shopwithpoints/servicing
+          - listitem [ref=f59e1869]:
+            - link "Reload Your Balance" [ref=f59e1870] [cursor=pointer]:
+              - /url: /gp/gc/create?ref_=footer_reload_ca
+          - listitem [ref=f59e1871]:
+            - link "Amazon Currency Converter" [ref=f59e1872] [cursor=pointer]:
+              - /url: /gp/browse.html?node=8438004011&ref_=footer_tfx_ca_en
+          - listitem [ref=f59e1873]:
+            - link "Gift Cards" [ref=f59e1874] [cursor=pointer]:
+              - /url: /gp/browse.html?node=9230166011&ref_=footer_gift_cards_ca_en
+          - listitem [ref=f59e1875]:
+            - link "Amazon Cash" [ref=f59e1876] [cursor=pointer]:
+              - /url: /gp/browse.html?node=17321486011&ref_=footer_cash_ca_en
+      - generic [ref=f59e1878]:
+        - heading "Let Us Help You" [level=6] [ref=f59e1879]
+        - list [ref=f59e1880]:
+          - listitem [ref=f59e1881]:
+            - link "Shipping Rates & Policies" [ref=f59e1882] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=915470&ref_=footer_shiprates
+          - listitem [ref=f59e1883]:
+            - link "Amazon Prime" [ref=f59e1884] [cursor=pointer]:
+              - /url: /gp/prime?ref_=footer_prime
+          - listitem [ref=f59e1885]:
+            - link "Returns Are Easy" [ref=f59e1886] [cursor=pointer]:
+              - /url: /gp/css/returns/homepage.html?ref_=footer_hy_f_4
+          - listitem [ref=f59e1887]:
+            - link "Manage your Content and Devices" [ref=f59e1888] [cursor=pointer]:
+              - /url: /hz/mycd/myx?ref_=footer_myk
+          - listitem [ref=f59e1889]:
+            - link "Recalls and Product Safety Alerts" [ref=f59e1890] [cursor=pointer]:
+              - /url: https://www.amazon.ca/product-safety-alerts?ref_=footer_bsx_ypsa
+          - listitem [ref=f59e1891]:
+            - link "Registry & Gift List" [ref=f59e1892] [cursor=pointer]:
+              - /url: /registries?ref_=nav_footer_registry_giftlist_desktop
+          - listitem [ref=f59e1893]:
+            - link "Customer Service" [ref=f59e1894] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=508510&ref_=footer_gw_m_b_he
+    - generic [ref=f59e1896]:
+      - link "Amazon Canada Home" [ref=f59e1899] [cursor=pointer]:
+        - /url: /?ref_=footer_logo
+      - generic [ref=f59e1902]:
+        - generic [ref=f59e1903]:
+          - link "Choose a language for shopping. Current selection is English." [ref=f59e1904] [cursor=pointer]:
+            - /url: /customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=footer_lang
+            - generic [ref=f59e1906]: English
+          - button "Expand to Change Language or Country" [ref=f59e1907] [cursor=pointer]
+        - button "Choose a country/region for shopping. The current selection is Canada." [ref=f59e1908] [cursor=pointer]:
+          - generic [ref=f59e1910]: Canada
+    - generic "More on Amazon" [ref=f59e1911]:
+      - generic "More on Amazon" [ref=f59e1912]:
+        - list [ref=f59e1913]:
+          - listitem [ref=f59e1914]:
+            - link [ref=f59e1915] [cursor=pointer]:
+              - /url: https://music.amazon.ca?ref=dm_aff_amz_ca
+              - heading "Amazon Music" [level=5] [ref=f59e1916]
+              - generic [ref=f59e1917]: Stream millionsof songs
+          - listitem [ref=f59e1918]
+          - listitem [ref=f59e1919]:
+            - link "Amazon Advertising Find, attract and engage customers" [ref=f59e1920] [cursor=pointer]:
+              - /url: https://advertising.amazon.ca/?ref=footer_advtsing_amzn_ca
+              - heading "Amazon Advertising" [level=5] [ref=f59e1921]
+              - generic [ref=f59e1922]: Find, attract and engage customers
+          - listitem [ref=f59e1923]
+          - listitem [ref=f59e1924]:
+            - link [ref=f59e1925] [cursor=pointer]:
+              - /url: /business?ref_=footer_retail_b2b
+              - heading "Amazon Business" [level=5] [ref=f59e1926]
+              - generic [ref=f59e1927]: Everything foryour business
+          - listitem [ref=f59e1928]
+          - listitem [ref=f59e1929]:
+            - link [ref=f59e1930] [cursor=pointer]:
+              - /url: https://www.abebooks.com
+              - heading "AbeBooks" [level=5] [ref=f59e1931]
+              - generic [ref=f59e1932]: Books, art& collectables
+          - listitem [ref=f59e1933]
+          - listitem [ref=f59e1934]:
+            - link [ref=f59e1935] [cursor=pointer]:
+              - /url: /gp/browse.html?node=16055945011&ref_=_ca_footer_drive
+              - heading "Amazon Drive" [level=5] [ref=f59e1936]
+              - generic [ref=f59e1937]: Cloud storagefrom Amazon
+        - list [ref=f59e1938]:
+          - listitem [ref=f59e1939]:
+            - link [ref=f59e1940] [cursor=pointer]:
+              - /url: https://aws.amazon.com/what-is-cloud-computing/?sc_channel=EL&sc_campaign=CA_amazonfooter
+              - heading "Amazon Web Services" [level=5] [ref=f59e1941]
+              - generic [ref=f59e1942]: Scalable CloudComputing Services
+          - listitem [ref=f59e1943]
+          - listitem [ref=f59e1944]:
+            - link [ref=f59e1945] [cursor=pointer]:
+              - /url: https://www.goodreads.com/
+              - heading "Goodreads" [level=5] [ref=f59e1946]
+              - generic [ref=f59e1947]: Book reviews& recommendations
+          - listitem [ref=f59e1948]
+          - listitem [ref=f59e1949]:
+            - link [ref=f59e1950] [cursor=pointer]:
+              - /url: https://www.imdb.com/
+              - heading "IMDb" [level=5] [ref=f59e1951]
+              - generic [ref=f59e1952]: Movies, TV& Celebrities
+          - listitem [ref=f59e1953]
+          - listitem [ref=f59e1954]:
+            - link [ref=f59e1955] [cursor=pointer]:
+              - /url: /gp/browse.html?node=16055944011&ref_=_gno_p_foot
+              - heading "Amazon Photos" [level=5] [ref=f59e1956]
+              - generic [ref=f59e1957]: Unlimited Photo StorageFree With Prime
+          - listitem [ref=f59e1958]
+          - listitem [ref=f59e1959]:
+            - link [ref=f59e1960] [cursor=pointer]:
+              - /url: https://www.shopbop.com/
+              - heading "Shopbop" [level=5] [ref=f59e1961]
+              - generic [ref=f59e1962]: DesignerFashion Brands
+        - list [ref=f59e1963]:
+          - listitem [ref=f59e1964]:
+            - link [ref=f59e1965] [cursor=pointer]:
+              - /url: /gp/browse.html?node=8929975011&ref_=footer_warehouse_deals
+              - heading "Amazon Resale" [level=5] [ref=f59e1966]
+              - generic [ref=f59e1967]: Great Deals onQuality Used Products
+          - listitem [ref=f59e1968]
+          - listitem [ref=f59e1969]:
+            - link [ref=f59e1970] [cursor=pointer]:
+              - /url: https://www.wholefoodsmarket.com
+              - heading "Whole Foods Market" [level=5] [ref=f59e1971]
+              - generic [ref=f59e1972]: We Believe inReal Food
+          - listitem [ref=f59e1973]
+          - listitem [ref=f59e1974]:
+            - link [ref=f59e1975] [cursor=pointer]:
+              - /url: /gp/browse.html?node=17351028011&ref_=footer_carenew
+              - heading "Amazon Renewed" [level=5] [ref=f59e1976]
+              - generic [ref=f59e1977]: Refurbished techyou can trust
+          - listitem [ref=f59e1978]
+          - listitem [ref=f59e1979]:
+            - link [ref=f59e1980] [cursor=pointer]:
+              - /url: https://blinkforhome.com/?ref=nav_footer_ca
+              - heading "Blink" [level=5] [ref=f59e1981]
+              - generic [ref=f59e1982]: Smart Securityfor Every Home
+          - listitem [ref=f59e1983]
+          - listitem [ref=f59e1984]
+    - generic [ref=f59e1985]:
+      - list [ref=f59e1986]:
+        - listitem [ref=f59e1987]:
+          - link "Conditions of Use" [ref=f59e1988] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=918816&ref_=footer_cou
+        - listitem [ref=f59e1989]:
+          - link "Privacy Notice" [ref=f59e1990] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=918814&ref_=footer_privacy
+        - listitem [ref=f59e1991]:
+          - link "Cookies Notice" [ref=f59e1992] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=GVASXV5UZ64R4Y25&ref_=footer_cookies_notice
+        - listitem [ref=f59e1993]:
+          - link "Interest-Based Ads" [ref=f59e1994] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=202146130&ref_=footer_iba
+      - generic [ref=f59e1995]: © 1996-2026, Amazon.com, Inc. or its affiliates
+    - list [ref=f59e1997]:
+      - listitem [ref=f59e1998]: Amazon.com.ca ULC | 40 King Street W 47th Floor, Toronto, Ontario, Canada, M5H 3Y2 |1-877-586-3230

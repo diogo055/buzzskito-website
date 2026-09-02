@@ -102,7 +102,7 @@ export default function MotionActivatedSprinklerCanadaPage() {
       </section>
 
       <AffiliateDisclosure />
-      <StickyBuyBar tag={AMZ_TAG} name="Orbit Yard Enforcer motion-activated sprinkler" search="orbit yard enforcer motion activated sprinkler" label="Best overall" />
+      <StickyBuyBar tag={AMZ_TAG} name="Orbit Yard Enforcer motion-activated sprinkler" search="orbit yard enforcer motion activated sprinkler" asin="B009F1R0GC" label="Best overall" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -136,6 +136,7 @@ export default function MotionActivatedSprinklerCanadaPage() {
                 name: 'Orbit Yard Enforcer',
                 why: 'The category benchmark: ~12 m / 120° infrared detection, a genuine day/night/24-hour mode selector, ~7,500 activations per 9V battery, and a pass-through hose port for daisy-chaining. The mode selector alone justifies it over clones.',
                 search: 'orbit yard enforcer motion activated sprinkler',
+                asin: 'B009F1R0GC',
                 score: 9.1,
                 featured: true,
                 pros: ['Day / night / 24-hour sensing modes', 'Season-long battery life on one 9V', 'Pass-through port to chain a second unit'],

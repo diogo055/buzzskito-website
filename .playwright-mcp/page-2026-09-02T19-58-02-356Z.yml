@@ -1,0 +1,684 @@
+- generic [ref=f153e2]:
+  - navigation "Shortcuts menu" [ref=f153e3]:
+    - heading "Skip to" [level=2] [ref=f153e4]
+    - list "Skip to" [ref=f153e5]:
+      - listitem [ref=f153e6]:
+        - link "main content" [ref=f153e7] [cursor=pointer]:
+          - /url: "#skippedLink"
+          - text: Main content
+    - separator [ref=f153e8]
+    - heading "Keyboard shortcuts" [level=2] [ref=f153e9]
+    - list "Keyboard shortcuts" [ref=f153e10]:
+      - listitem [ref=f153e11]:
+        - link "Search, Alt, forward slash" [ref=f153e12] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=f153e13]:
+            - generic [ref=f153e14]: Search
+            - generic [ref=f153e15]:
+              - generic [ref=f153e16]: Alt
+              - generic [ref=f153e17]: +
+              - generic [ref=f153e18]: /
+      - listitem [ref=f153e19]:
+        - link "Cart, shift, Alt, c" [ref=f153e20] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=f153e21]:
+            - generic [ref=f153e22]: Cart
+            - generic [ref=f153e23]:
+              - generic [ref=f153e24]: Shift
+              - generic [ref=f153e25]: +
+              - generic [ref=f153e26]: Alt
+              - generic [ref=f153e27]: +
+              - generic [ref=f153e28]: C
+      - listitem [ref=f153e29]:
+        - link "Home, shift, Alt, h" [ref=f153e30] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=f153e31]:
+            - generic [ref=f153e32]: Home
+            - generic [ref=f153e33]:
+              - generic [ref=f153e34]: Shift
+              - generic [ref=f153e35]: +
+              - generic [ref=f153e36]: Alt
+              - generic [ref=f153e37]: +
+              - generic [ref=f153e38]: H
+      - listitem [ref=f153e39]:
+        - link "Your orders, shift, Alt, o" [ref=f153e40] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=f153e41]:
+            - generic [ref=f153e42]: Orders
+            - generic [ref=f153e43]:
+              - generic [ref=f153e44]: Shift
+              - generic [ref=f153e45]: +
+              - generic [ref=f153e46]: Alt
+              - generic [ref=f153e47]: +
+              - generic [ref=f153e48]: O
+      - listitem [ref=f153e49]:
+        - button "Show/hide shortcuts, shift, Alt, z" [ref=f153e50] [cursor=pointer]:
+          - generic [ref=f153e51]:
+            - generic [ref=f153e52]: Show/Hide shortcuts
+            - generic [ref=f153e53]:
+              - generic [ref=f153e54]: Shift
+              - generic [ref=f153e55]: +
+              - generic [ref=f153e56]: Alt
+              - generic [ref=f153e57]: +
+              - generic [ref=f153e58]: Z
+    - generic [ref=f153e59]: To move between items, use your keyboard's up or down arrows.
+  - banner [ref=f153e65]:
+    - navigation "Primary" [ref=f153e66]:
+      - generic [ref=f153e67]:
+        - generic [ref=f153e68]:
+          - link "Amazon.ca" [ref=f153e70] [cursor=pointer]:
+            - /url: /ref=nav_logo
+            - generic: .ca
+          - button "Delivering to Brampton L6V Update location" [ref=f153e73] [cursor=pointer]:
+            - generic [ref=f153e75]:
+              - generic [ref=f153e76]: Delivering to Brampton L6V
+              - generic [ref=f153e77]: Update location
+        - search [ref=f153e80]:
+          - generic [ref=f153e83]:
+            - generic [ref=f153e84]: All
+            - combobox "Select the department you want to search in" [ref=f153e87] [cursor=pointer]:
+              - option "All Departments" [selected]
+              - option "Alexa Skills"
+              - option "Amazon Devices"
+              - option "Amazon Haul"
+              - option "Amazon Resale"
+              - option "Apps & Games"
+              - option "Audible Audiobooks"
+              - option "Automotive"
+              - option "Baby"
+              - option "Beauty"
+              - option "Books"
+              - option "Clothing, Shoes & Jewellery"
+              - option "Women's Clothing, Shoes & Jewellery"
+              - option "Men's Clothing, Shoes & Jewellery"
+              - option "Girl's Clothing, Shoes & Jewellery"
+              - option "Boy's Clothing, Shoes & Jewellery"
+              - option "Baby Clothing, Shoes and Jewellery"
+              - option "Electronics"
+              - option "Gift Cards"
+              - option "Grocery"
+              - option "Handmade"
+              - option "Health & Personal Care"
+              - option "Home & Kitchen"
+              - option "Industrial & Scientific"
+              - option "Kindle Store"
+              - option "Luggage & Travel Gear"
+              - option "Luxury Beauty"
+              - option "Movies & TV"
+              - option "MP3 Music"
+              - option "Music"
+              - option "Musical Instruments, Stage & Studio"
+              - option "Office Products"
+              - option "Patio, Lawn & Garden"
+              - option "Pet Supplies"
+              - option "Prime Video"
+              - option "Smart Home"
+              - option "Software"
+              - option "Sports & Outdoors"
+              - option "Subscribe & Save"
+              - option "Tools & Home Improvement"
+              - option "Toys & Games"
+              - option "Video Games"
+          - searchbox "Search Amazon.ca" [ref=f153e90]
+          - generic "Go" [ref=f153e93] [cursor=pointer]:
+            - button "Go" [ref=f153e94]
+        - generic [ref=f153e96]:
+          - generic [ref=f153e97]:
+            - link "Choose a language for shopping in Amazon Canada. The current selection is English (EN)." [ref=f153e98] [cursor=pointer]:
+              - /url: /customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=topnav_lang
+              - generic [ref=f153e101]:
+                - img "Canada" [ref=f153e102]
+                - generic [ref=f153e103]: EN
+            - button "Expand to Change Language or Country" [ref=f153e104] [cursor=pointer]
+          - generic [ref=f153e105]:
+            - link "Hello, sign in Account & Lists" [ref=f153e106] [cursor=pointer]:
+              - /url: https://www.amazon.ca/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.ca%2Fsp%3Fseller%3DAHB6M8I8W73JG%26ref_%3Dnav_ya_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=caflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+              - generic [ref=f153e107]: Hello, sign in
+              - generic [ref=f153e109]: Account & Lists
+            - button "Expand Account and Lists" [ref=f153e110] [cursor=pointer]
+          - link "Returns & Orders" [ref=f153e111] [cursor=pointer]:
+            - /url: /gp/css/order-history?ref_=nav_orders_first
+            - generic [ref=f153e112]: Returns
+            - generic [ref=f153e113]: "& Orders"
+          - link "0 items in cart" [ref=f153e114] [cursor=pointer]:
+            - /url: /gp/cart/view.html?ref_=nav_cart
+            - generic [ref=f153e115]: "0"
+            - generic [ref=f153e118]: Cart
+      - generic [ref=f153e120]:
+        - button "Open All Categories Menu" [ref=f153e122] [cursor=pointer]:
+          - generic [ref=f153e124]: All
+        - list [ref=f153e128]:
+          - listitem [ref=f153e129]:
+            - link "Amazon Haul" [ref=f153e131] [cursor=pointer]:
+              - /url: /haul/store?ref_=nav_cs_hul_disb
+          - listitem [ref=f153e132]:
+            - link "Best Sellers" [ref=f153e134] [cursor=pointer]:
+              - /url: /Best-Sellers-generic/zgbs/?ref_=nav_cs_bestsellers
+          - listitem [ref=f153e135]:
+            - link "Amazon Basics" [ref=f153e137] [cursor=pointer]:
+              - /url: /stores/AmazonBasics/page/A99D7218-C1F4-42C0-ABF4-05A153EF2C61?channel=discovbar&field-lbr_brands_browse-bin=AmazonBasics&ref_=nav_cs_amazonbasics
+          - listitem [ref=f153e138]:
+            - generic [ref=f153e139]:
+              - link "Prime" [ref=f153e140] [cursor=pointer]:
+                - /url: /prime?ref_=nav_cs_primelink_nonmember
+              - button "Prime Details" [ref=f153e141] [cursor=pointer]
+          - listitem [ref=f153e142]:
+            - link "Deals Store" [ref=f153e144] [cursor=pointer]:
+              - /url: /deals?ref_=nav_cs_gb
+          - listitem [ref=f153e145]:
+            - link "New Releases" [ref=f153e147] [cursor=pointer]:
+              - /url: /gp/new-releases/?ref_=nav_cs_newreleases
+          - listitem [ref=f153e148]:
+            - link "Electronics" [ref=f153e150] [cursor=pointer]:
+              - /url: /Electronics-Accessories/b/?ie=UTF8&node=667823011&ref_=nav_cs_electronics
+          - listitem [ref=f153e151]:
+            - link "Music" [ref=f153e153] [cursor=pointer]:
+              - /url: /music/player?ref_=nav_cs_music
+          - listitem [ref=f153e154]:
+            - link "Home" [ref=f153e156] [cursor=pointer]:
+              - /url: /gp/browse.html?node=2206275011&ref_=nav_cs_home
+          - listitem [ref=f153e157]:
+            - link "Home Improvement" [ref=f153e159] [cursor=pointer]:
+              - /url: /Home-Improvement/b/?ie=UTF8&node=3006902011&ref_=nav_cs_hi
+          - listitem [ref=f153e160]:
+            - link "Sports & Outdoors" [ref=f153e162] [cursor=pointer]:
+              - /url: /sporting-goods/b/?ie=UTF8&node=2242989011&ref_=nav_cs_sports
+          - listitem [ref=f153e163]:
+            - link "Fashion" [ref=f153e165] [cursor=pointer]:
+              - /url: /gp/browse.html?node=21204935011&ref_=nav_cs_fashion
+          - listitem [ref=f153e166]:
+            - link "Health & Household" [ref=f153e168] [cursor=pointer]:
+              - /url: /Health-Personal-Care/b/?ie=UTF8&node=6205177011&ref_=nav_cs_hpc
+          - listitem [ref=f153e169]:
+            - link "Automotive" [ref=f153e171] [cursor=pointer]:
+              - /url: /automotive/b/?ie=UTF8&node=6948389011&ref_=nav_cs_automotive
+          - listitem [ref=f153e172]:
+            - link "Toys & Games" [ref=f153e174] [cursor=pointer]:
+              - /url: /Toys-Games/b/?ie=UTF8&node=6205517011&ref_=nav_cs_toys
+          - listitem [ref=f153e175]:
+            - link "Custom Products" [ref=f153e177] [cursor=pointer]:
+              - /url: /Amazon-Custom/b/?ie=UTF8&node=23773954011&ref_=nav_cs_custom
+          - listitem [ref=f153e178]:
+            - link "Computers" [ref=f153e180] [cursor=pointer]:
+              - /url: /Computers-Accessories/b/?ie=UTF8&node=2404990011&ref_=nav_cs_pc
+          - listitem [ref=f153e181]:
+            - link "Pet Supplies" [ref=f153e183] [cursor=pointer]:
+              - /url: /pet-supplies-dog-cat-food-bed-toy/b/?ie=UTF8&node=6205514011&ref_=nav_cs_pets
+          - listitem [ref=f153e184]:
+            - generic [ref=f153e185]:
+              - link "Gift Cards" [ref=f153e186] [cursor=pointer]:
+                - /url: /gp/browse.html?node=9230166011&ref_=nav_cs_gc
+              - button "Gift Cards Details" [ref=f153e187] [cursor=pointer]
+          - listitem [ref=f153e188]:
+            - link "Computer & Video Games" [ref=f153e190] [cursor=pointer]:
+              - /url: /video-games-hardware-accessories/b/?ie=UTF8&node=3198031&ref_=nav_cs_video_games
+          - listitem [ref=f153e191]:
+            - link "Beauty & Personal Care" [ref=f153e193] [cursor=pointer]:
+              - /url: /Beauty/b/?ie=UTF8&node=6205124011&ref_=nav_cs_beauty
+          - listitem [ref=f153e194]:
+            - link "Grocery" [ref=f153e196] [cursor=pointer]:
+              - /url: /grocery/b/?ie=UTF8&node=6967215011&ref_=nav_cs_grocery
+          - listitem [ref=f153e197]:
+            - link "Baby" [ref=f153e199] [cursor=pointer]:
+              - /url: /gp/browse.html?node=3561346011&ref_=nav_cs_baby
+          - listitem [ref=f153e200]:
+            - link "Audible" [ref=f153e202] [cursor=pointer]:
+              - /url: /gp/browse.html?node=20037536011&ref_=nav_cs_audible
+          - listitem [ref=f153e203]:
+            - link "Sell" [ref=f153e205] [cursor=pointer]:
+              - /url: /b/?node=15664730011&ld=AZCASOA-sell&ref_=nav_cs_sell
+          - listitem [ref=f153e206]:
+            - link "Subscribe & Save" [ref=f153e208] [cursor=pointer]:
+              - /url: /auto-deliveries/landing?ref_=nav_cs_sns
+          - listitem [ref=f153e209]:
+            - link "Kindle Books" [ref=f153e211] [cursor=pointer]:
+              - /url: /ebooks-kindle/b/?ie=UTF8&node=2980423011&ref_=nav_cs_kindle_books
+          - listitem [ref=f153e212]:
+            - link "Customer Service" [ref=f153e214] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?ref_=nav_cs_help
+        - link "Get Halloween finds delivered fast" [ref=f153e217] [cursor=pointer]:
+          - /url: /b/?_encoding=UTF8&node=221526303011&ref_=nav_swm_undefined&pf_rd_p=7427d2c7-b080-4242-a9ac-c523bb3295e0&pf_rd_s=nav-sitewide-msg&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=A2EUQ1WTGCTBG2&pf_rd_r=Y778HBDEG51AWDABEC6H
+      - generic [ref=f153e218]:
+        - generic [ref=f153e219]:
+          - link "Today's Deals" [ref=f153e220] [cursor=pointer]:
+            - /url: /gp/goldbox/?ie=UTF8&ref_=topnav_storetab_gb
+          - link "Outlet Deals" [ref=f153e221] [cursor=pointer]:
+            - /url: /b/?ie=UTF8&node=9833876011&ref_=sv_gb_1
+          - link "Amazon Resale" [ref=f153e222] [cursor=pointer]:
+            - /url: /b/?ie=UTF8&node=8929975011&ref_=sv_gb_2
+          - link "Coupons" [ref=f153e223] [cursor=pointer]:
+            - /url: /b/?ie=UTF8&node=12218500011&ref_=sv_gb_3
+          - link "Book Deals" [ref=f153e224] [cursor=pointer]:
+            - /url: /amz-books/book-deals/?_encoding=UTF8&ref_=sv_gb_4
+          - link "Subscribe & Save" [ref=f153e225] [cursor=pointer]:
+            - /url: /Subscribe/b/?ie=UTF8&node=6583741011&ref_=sv_gb_5
+          - link "Buy More & Save" [ref=f153e226] [cursor=pointer]:
+            - /url: /super/?_encoding=UTF8&ref_=sv_gb_6
+        - generic [ref=f153e230]:
+          - link "Sign in" [ref=f153e231] [cursor=pointer]:
+            - /url: https://www.amazon.ca/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.ca%2Fsp%3Fseller%3DAHB6M8I8W73JG%26ref_%3Dnav_custrec_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=caflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+          - generic [ref=f153e233]:
+            - text: New customer?
+            - link "New to Amazon? Start here to create an account" [ref=f153e234] [cursor=pointer]:
+              - /url: https://www.amazon.ca/ap/register?openid.return_to=https%3A%2F%2Fwww.amazon.ca%2Fsp%2F%3F_encoding%3DUTF8%26seller%3DAHB6M8I8W73JG%26ref_%3Dnav_custrec_newcust&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=caflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+              - text: Start here.
+      - dialog [ref=f153e239]
+  - generic [ref=f153e245]:
+    - generic [ref=f153e247]:
+      - generic [ref=f153e251]:
+        - heading "Bookstore North America" [level=1] [ref=f153e253]
+        - link "Visit the Bookstore North America storefront" [ref=f153e256] [cursor=pointer]:
+          - /url: /s?ie=UTF8&marketplaceID=A2EUQ1WTGCTBG2&me=AHB6M8I8W73JG
+        - link "4 out of 5 stars | 70% positive in the last 12 months (213 ratings)" [ref=f153e259] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=f153e260]: 4 out of 5 stars
+          - img "|" [ref=f153e262]
+          - text: 70% positive in the last 12 months (213 ratings)
+      - generic [ref=f153e267]:
+        - generic [ref=f153e268]: Protected by A-to-z Guarantee
+        - text: The Amazon A-to-z Guarantee protects you when you purchase items sold and fulfilled by a third-party seller.
+        - generic:
+          - link:
+            - /url: https://www.amazon.ca/gp/help/customer/display.html?ref_=v_sp_atoz_help&nodeId=GQ37ZCNECJKTFYQV
+    - generic [ref=f153e277]:
+      - generic [ref=f153e278]:
+        - heading "About Seller" [level=3] [ref=f153e280]
+        - generic [ref=f153e282]:
+          - generic [ref=f153e284]:
+            - paragraph [ref=f153e285]: "Thank you for choosing to shop with us. We are dedicated to offering you an exceptional shopping experience, which includes:"
+            - paragraph
+            - list [ref=f153e286]:
+              - listitem [ref=f153e287]: Outstanding Customer Service
+              - listitem [ref=f153e288]: A Fair and Flexible Return and Exchange Policy
+              - listitem [ref=f153e289]: Affordable and Competitive Shipping Rates
+            - paragraph
+            - paragraph [ref=f153e290]: To ensure clarity and confidence in your purchase, we encourage you to review our policies on orders, returns, and refunds. Bookstore North America is here to make your shopping experience as seamless as possible.
+            - paragraph
+            - paragraph [ref=f153e291]:
+              - strong [ref=f153e292]: Delivery Times & Delays
+            - list [ref=f153e293]:
+              - listitem [ref=f153e294]:
+                - strong [ref=f153e295]: No Guaranteed Deli...
+          - button "See more" [ref=f153e298] [cursor=pointer]
+      - generic [ref=f153e301]:
+        - generic [ref=f153e302]: Have a question for Bookstore North America?
+        - link "Ask a question" [ref=f153e312] [cursor=pointer]:
+          - /url: https://amazon.ca/gp/help/contact-seller/contact-seller.html?marketplaceID=A2EUQ1WTGCTBG2&sellerID=AHB6M8I8W73JG&ref_=v_sp_contact_seller
+    - generic [ref=f153e320]:
+      - heading "Reviews" [level=3] [ref=f153e322]
+      - generic [ref=f153e324]:
+        - generic [ref=f153e325]:
+          - generic [ref=f153e326]:
+            - generic [ref=f153e327]:
+              - generic [ref=f153e329]:
+                - generic [ref=f153e330]:
+                  - link [ref=f153e332] [cursor=pointer]:
+                    - /url: "#"
+                  - text: 3.8out of 5
+                - generic [ref=f153e334]: 213ratings
+              - generic [ref=f153e336]:
+                - combobox [ref=f153e337]:
+                  - option "1 month"
+                  - option "3 months"
+                  - option "12 months" [selected]
+                  - option "Lifetime"
+                - generic [ref=f153e338] [cursor=pointer]: 12 months
+            - table [ref=f153e344]:
+              - rowgroup [ref=f153e345]:
+                - row [ref=f153e346]:
+                  - cell [ref=f153e347]:
+                    - link "5 star" [ref=f153e348] [cursor=pointer]:
+                      - /url: "#"
+                  - cell [ref=f153e349]:
+                    - progressbar "62%" [ref=f153e350]
+                  - cell [ref=f153e352]:
+                    - link "62%" [ref=f153e353] [cursor=pointer]:
+                      - /url: "#"
+                - row [ref=f153e354]:
+                  - cell [ref=f153e355]:
+                    - link "4 star" [ref=f153e356] [cursor=pointer]:
+                      - /url: "#"
+                  - cell [ref=f153e357]:
+                    - progressbar "8%" [ref=f153e358]
+                  - cell [ref=f153e360]:
+                    - link "8%" [ref=f153e361] [cursor=pointer]:
+                      - /url: "#"
+                - row [ref=f153e362]:
+                  - cell [ref=f153e363]:
+                    - link "3 star" [ref=f153e364] [cursor=pointer]:
+                      - /url: "#"
+                  - cell [ref=f153e365]:
+                    - progressbar "2%" [ref=f153e366]
+                  - cell [ref=f153e368]:
+                    - link "2%" [ref=f153e369] [cursor=pointer]:
+                      - /url: "#"
+                - row [ref=f153e370]:
+                  - cell [ref=f153e371]:
+                    - link "2 star" [ref=f153e372] [cursor=pointer]:
+                      - /url: "#"
+                  - cell [ref=f153e373]:
+                    - progressbar "5%" [ref=f153e374]
+                  - cell [ref=f153e375]:
+                    - link "5%" [ref=f153e376] [cursor=pointer]:
+                      - /url: "#"
+                - row [ref=f153e377]:
+                  - cell [ref=f153e378]:
+                    - link "1 star" [ref=f153e379] [cursor=pointer]:
+                      - /url: "#"
+                  - cell [ref=f153e380]:
+                    - progressbar "23%" [ref=f153e381]
+                  - cell [ref=f153e382]:
+                    - link "23%" [ref=f153e383] [cursor=pointer]:
+                      - /url: "#"
+            - button "Learn more about how seller reviews work on Amazon" [ref=f153e387] [cursor=pointer]
+          - generic [ref=f153e390]:
+            - generic [ref=f153e391]: Share your thoughts with other customers
+            - link "Leave seller feedback" [ref=f153e396] [cursor=pointer]:
+              - /url: /gp/feedback/leave-consolidated-feedback.html?ref_=v_sp_seller_feedback
+        - generic [ref=f153e397]:
+          - generic [ref=f153e398]:
+            - generic [ref=f153e399]: FILTER BY
+            - generic [ref=f153e403]:
+              - combobox [ref=f153e404]:
+                - option "All stars" [selected]
+                - option "5 star only"
+                - option "4 star only"
+                - option "3 star only"
+                - option "2 star only"
+                - option "1 star only"
+                - option "All positive"
+                - option "All critical"
+              - generic [ref=f153e405] [cursor=pointer]: All stars
+          - generic [ref=f153e410]:
+            - text: 213total ratings,213with feedback for12 months
+            - button [ref=f153e413] [cursor=pointer]
+          - generic [ref=f153e414]:
+            - generic [ref=f153e416]:
+              - generic [ref=f153e417]: 1 out of 5 stars
+              - generic [ref=f153e421]:
+                - generic [ref=f153e422]: “ Produit endommagé et le vendeur en n'avait rien à foutre ”
+                - generic [ref=f153e424]: By jean bachand on September 1, 2026.
+            - generic [ref=f153e426]:
+              - generic [ref=f153e427]: 5 out of 5 stars
+              - generic [ref=f153e431]:
+                - generic [ref=f153e432]: “ Pardfait ”
+                - generic [ref=f153e434]: By Nicole Goyer on August 26, 2026.
+            - generic [ref=f153e436]:
+              - generic [ref=f153e437]: 3 out of 5 stars
+              - generic [ref=f153e441]:
+                - generic [ref=f153e442]: “ I have not received return shipping instructions for this order. Please send me the return shipping instructions. Thank you, Gordon Rempel. ”
+                - generic [ref=f153e444]: By Amazon Customer on August 10, 2026.
+            - generic [ref=f153e446]:
+              - generic [ref=f153e447]: 5 out of 5 stars
+              - generic [ref=f153e451]:
+                - generic [ref=f153e452]: “ tres bon ”
+                - generic [ref=f153e454]: By Serge Genest on July 31, 2026.
+            - generic [ref=f153e456]:
+              - generic [ref=f153e457]: 1 out of 5 stars
+              - generic [ref=f153e461]:
+                - generic [ref=f153e462]: “ Item was not shipped. expected delivery as our pet is critical on their diet and we ran out of food for her. ”
+                - generic [ref=f153e464]: By Charles on July 31, 2026.
+          - text: “ ” “ ”
+          - list [ref=f153e469]:
+            - listitem [ref=f153e470]:
+              - generic [ref=f153e471]: Previous
+            - listitem [ref=f153e472]
+            - listitem [ref=f153e474]:
+              - link "Next" [ref=f153e477] [cursor=pointer]:
+                - /url: "#"
+    - generic [ref=f153e485]:
+      - heading "Return & Refund Policies" [level=3] [ref=f153e487]
+      - generic [ref=f153e490]:
+        - paragraph [ref=f153e492]:
+          - text: Please refer to the
+          - link "Amazon.ca Return Policy" [ref=f153e494] [cursor=pointer]:
+            - /url: https://www.amazon.ca/gp/help/customer/display.html?ref_=v_sp_return_help&nodeId=GKM69DUUYKQWKWX7
+          - text: or contact Bookstore North America to get information about any additional policies that may apply.
+        - paragraph [ref=f153e496]:
+          - link "Contact this seller" [ref=f153e498] [cursor=pointer]:
+            - /url: https://amazon.ca/gp/help/contact-seller/contact-seller.html?marketplaceID=A2EUQ1WTGCTBG2&sellerID=AHB6M8I8W73JG&ref_=v_sp_contact_seller
+        - paragraph [ref=f153e500]:
+          - text: To initiate a return, visit
+          - link "Amazon's Online Return Centre" [ref=f153e502] [cursor=pointer]:
+            - /url: https://www.amazon.ca/gp/orc/returns/homepage.html?ref_=v_sp_return_center
+          - text: to request a return authorization from the seller.
+    - generic [ref=f153e510]:
+      - heading "Amazon's A-to-z Guarantee" [level=3] [ref=f153e512]
+      - generic [ref=f153e514]:
+        - text: The Amazon A-to-Z Guarantee protects you when you purchase items sold and fulfilled by a third-party seller. Our guarantee covers both the timely delivery and the condition of your items. If either are unsatisfactory, you can report the problem to us and our team will determine if you are eligible for a refund.
+        - link "See full details" [ref=f153e517] [cursor=pointer]:
+          - /url: https://www.amazon.ca/gp/help/customer/display.html?ref_=v_sp_atoz_help&nodeId=GQ37ZCNECJKTFYQV
+    - generic [ref=f153e525]:
+      - button [ref=f153e531] [cursor=pointer]:
+        - heading [level=5] [ref=f153e533]:
+          - heading "Shipping Policies" [level=3] [ref=f153e534]
+      - separator [ref=f153e537]
+      - button [ref=f153e543] [cursor=pointer]:
+        - heading [level=5] [ref=f153e545]:
+          - heading "Other Policies" [level=3] [ref=f153e546]
+      - separator [ref=f153e549]
+      - button [ref=f153e555] [cursor=pointer]:
+        - heading [level=5] [ref=f153e557]:
+          - heading "Help" [level=3] [ref=f153e558]
+    - generic [ref=f153e566]:
+      - heading "Products" [level=3] [ref=f153e568]
+      - generic [ref=f153e569]:
+        - link "See all products" [ref=f153e571] [cursor=pointer]:
+          - /url: /s?ie=UTF8&marketplaceID=A2EUQ1WTGCTBG2&me=AHB6M8I8W73JG
+        - text: currently offered by the seller.
+    - paragraph [ref=f153e576]:
+      - link "Leave seller feedback" [ref=f153e578] [cursor=pointer]:
+        - /url: /gp/feedback/leave-consolidated-feedback.html?ref_=v_sp_seller_feedback
+  - complementary "Your recently viewed items and featured recommendations"
+  - generic [ref=f153e579]:
+    - button "Back to top" [ref=f153e580] [cursor=pointer]
+    - generic [ref=f153e582]:
+      - generic [ref=f153e583]:
+        - heading "Get to Know Us" [level=6] [ref=f153e584]
+        - list [ref=f153e585]:
+          - listitem [ref=f153e586]:
+            - link "Careers" [ref=f153e587] [cursor=pointer]:
+              - /url: https://www.amazon.jobs
+          - listitem [ref=f153e588]:
+            - link "Amazon and Our Planet" [ref=f153e589] [cursor=pointer]:
+              - /url: https://www.aboutamazon.ca/planet/?ref=footer_corpres
+          - listitem [ref=f153e590]:
+            - link "Modern Slavery Statement" [ref=f153e591] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=GXYZF9M33FRJ5TMA
+          - listitem [ref=f153e592]:
+            - link "Investor Relations" [ref=f153e593] [cursor=pointer]:
+              - /url: https://www.amazon.ca/ir
+          - listitem [ref=f153e594]:
+            - link "Press Releases" [ref=f153e595] [cursor=pointer]:
+              - /url: https://www.amazon.ca/pr
+          - listitem [ref=f153e596]:
+            - link "Amazon Science" [ref=f153e597] [cursor=pointer]:
+              - /url: https://www.amazon.science
+      - generic [ref=f153e599]:
+        - heading "Make Money with Us" [level=6] [ref=f153e600]
+        - list [ref=f153e601]:
+          - listitem [ref=f153e602]:
+            - link "Sell on Amazon" [ref=f153e603] [cursor=pointer]:
+              - /url: https://sell.amazon.ca/en?ld=AZFSSOA-CA-footer&ref_=footer_soa
+          - listitem [ref=f153e604]:
+            - link "Supply to Amazon" [ref=f153e605] [cursor=pointer]:
+              - /url: https://supply.amazon.ca?ref_=footer_sta
+          - listitem [ref=f153e606]:
+            - link "Become an Affiliate" [ref=f153e607] [cursor=pointer]:
+              - /url: https://associates.amazon.ca
+          - listitem [ref=f153e608]:
+            - link "Protect & Build Your Brand" [ref=f153e609] [cursor=pointer]:
+              - /url: https://brandservices.amazon.ca/?ref=AOCAABRLGNRFOOT&ld=AOCAABRLGNRFOOT
+          - listitem [ref=f153e610]:
+            - link "Sell on Amazon Handmade" [ref=f153e611] [cursor=pointer]:
+              - /url: https://sell.amazon.ca/en/programs/handmade/?ld=AZCAHND-footer&ref_=footer_sell
+          - listitem [ref=f153e612]:
+            - link "Advertise Your Products" [ref=f153e613] [cursor=pointer]:
+              - /url: https://advertising.amazon.ca/?ref=footer_advtsing_amzn_ca
+          - listitem [ref=f153e614]:
+            - link "Independently Publish with Us" [ref=f153e615] [cursor=pointer]:
+              - /url: https://kdp.amazon.com?language=en_US
+          - listitem [ref=f153e616]:
+            - link "Host an Amazon Hub" [ref=f153e617] [cursor=pointer]:
+              - /url: https://www.amazon.ca/b?ie=UTF8&node=15576834011
+      - generic [ref=f153e619]:
+        - heading "Amazon Payment Products" [level=6] [ref=f153e620]
+        - list [ref=f153e621]:
+          - listitem [ref=f153e622]:
+            - link "Amazon.ca Rewards Mastercard" [ref=f153e623] [cursor=pointer]:
+              - /url: /dp/B07MJM4F44?plattr=CACBCCFOOT&ref_=nav_cbcc_ca_footer
+          - listitem [ref=f153e624]:
+            - link "Shop with Points" [ref=f153e625] [cursor=pointer]:
+              - /url: https://www.amazon.ca/hp/shopwithpoints/servicing
+          - listitem [ref=f153e626]:
+            - link "Reload Your Balance" [ref=f153e627] [cursor=pointer]:
+              - /url: /gp/gc/create?ref_=footer_reload_ca
+          - listitem [ref=f153e628]:
+            - link "Amazon Currency Converter" [ref=f153e629] [cursor=pointer]:
+              - /url: /gp/browse.html?node=8438004011&ref_=footer_tfx_ca_en
+          - listitem [ref=f153e630]:
+            - link "Gift Cards" [ref=f153e631] [cursor=pointer]:
+              - /url: /gp/browse.html?node=9230166011&ref_=footer_gift_cards_ca_en
+          - listitem [ref=f153e632]:
+            - link "Amazon Cash" [ref=f153e633] [cursor=pointer]:
+              - /url: /gp/browse.html?node=17321486011&ref_=footer_cash_ca_en
+      - generic [ref=f153e635]:
+        - heading "Let Us Help You" [level=6] [ref=f153e636]
+        - list [ref=f153e637]:
+          - listitem [ref=f153e638]:
+            - link "Shipping Rates & Policies" [ref=f153e639] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=915470&ref_=footer_shiprates
+          - listitem [ref=f153e640]:
+            - link "Amazon Prime" [ref=f153e641] [cursor=pointer]:
+              - /url: /gp/prime?ref_=footer_prime
+          - listitem [ref=f153e642]:
+            - link "Returns Are Easy" [ref=f153e643] [cursor=pointer]:
+              - /url: /gp/css/returns/homepage.html?ref_=footer_hy_f_4
+          - listitem [ref=f153e644]:
+            - link "Manage your Content and Devices" [ref=f153e645] [cursor=pointer]:
+              - /url: /hz/mycd/myx?ref_=footer_myk
+          - listitem [ref=f153e646]:
+            - link "Recalls and Product Safety Alerts" [ref=f153e647] [cursor=pointer]:
+              - /url: https://www.amazon.ca/product-safety-alerts?ref_=footer_bsx_ypsa
+          - listitem [ref=f153e648]:
+            - link "Registry & Gift List" [ref=f153e649] [cursor=pointer]:
+              - /url: /registries?ref_=nav_footer_registry_giftlist_desktop
+          - listitem [ref=f153e650]:
+            - link "Customer Service" [ref=f153e651] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=508510&ref_=footer_gw_m_b_he
+    - generic [ref=f153e653]:
+      - link "Amazon Canada Home" [ref=f153e656] [cursor=pointer]:
+        - /url: /?ref_=footer_logo
+      - generic [ref=f153e659]:
+        - generic [ref=f153e660]:
+          - link "Choose a language for shopping. Current selection is English." [ref=f153e661] [cursor=pointer]:
+            - /url: /customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=footer_lang
+            - generic [ref=f153e663]: English
+          - button "Expand to Change Language or Country" [ref=f153e664] [cursor=pointer]
+        - button "Choose a country/region for shopping. The current selection is Canada." [ref=f153e665] [cursor=pointer]:
+          - generic [ref=f153e667]: Canada
+    - generic "More on Amazon" [ref=f153e668]:
+      - generic "More on Amazon" [ref=f153e669]:
+        - list [ref=f153e670]:
+          - listitem [ref=f153e671]:
+            - link [ref=f153e672] [cursor=pointer]:
+              - /url: https://music.amazon.ca?ref=dm_aff_amz_ca
+              - heading "Amazon Music" [level=5] [ref=f153e673]
+              - generic [ref=f153e674]: Stream millionsof songs
+          - listitem [ref=f153e675]
+          - listitem [ref=f153e676]:
+            - link "Amazon Advertising Find, attract and engage customers" [ref=f153e677] [cursor=pointer]:
+              - /url: https://advertising.amazon.ca/?ref=footer_advtsing_amzn_ca
+              - heading "Amazon Advertising" [level=5] [ref=f153e678]
+              - generic [ref=f153e679]: Find, attract and engage customers
+          - listitem [ref=f153e680]
+          - listitem [ref=f153e681]:
+            - link [ref=f153e682] [cursor=pointer]:
+              - /url: /business?ref_=footer_retail_b2b
+              - heading "Amazon Business" [level=5] [ref=f153e683]
+              - generic [ref=f153e684]: Everything foryour business
+          - listitem [ref=f153e685]
+          - listitem [ref=f153e686]:
+            - link [ref=f153e687] [cursor=pointer]:
+              - /url: https://www.abebooks.com
+              - heading "AbeBooks" [level=5] [ref=f153e688]
+              - generic [ref=f153e689]: Books, art& collectables
+          - listitem [ref=f153e690]
+          - listitem [ref=f153e691]:
+            - link [ref=f153e692] [cursor=pointer]:
+              - /url: /gp/browse.html?node=16055945011&ref_=_ca_footer_drive
+              - heading "Amazon Drive" [level=5] [ref=f153e693]
+              - generic [ref=f153e694]: Cloud storagefrom Amazon
+        - list [ref=f153e695]:
+          - listitem [ref=f153e696]:
+            - link [ref=f153e697] [cursor=pointer]:
+              - /url: https://aws.amazon.com/what-is-cloud-computing/?sc_channel=EL&sc_campaign=CA_amazonfooter
+              - heading "Amazon Web Services" [level=5] [ref=f153e698]
+              - generic [ref=f153e699]: Scalable CloudComputing Services
+          - listitem [ref=f153e700]
+          - listitem [ref=f153e701]:
+            - link [ref=f153e702] [cursor=pointer]:
+              - /url: https://www.goodreads.com/
+              - heading "Goodreads" [level=5] [ref=f153e703]
+              - generic [ref=f153e704]: Book reviews& recommendations
+          - listitem [ref=f153e705]
+          - listitem [ref=f153e706]:
+            - link [ref=f153e707] [cursor=pointer]:
+              - /url: https://www.imdb.com/
+              - heading "IMDb" [level=5] [ref=f153e708]
+              - generic [ref=f153e709]: Movies, TV& Celebrities
+          - listitem [ref=f153e710]
+          - listitem [ref=f153e711]:
+            - link [ref=f153e712] [cursor=pointer]:
+              - /url: /gp/browse.html?node=16055944011&ref_=_gno_p_foot
+              - heading "Amazon Photos" [level=5] [ref=f153e713]
+              - generic [ref=f153e714]: Unlimited Photo StorageFree With Prime
+          - listitem [ref=f153e715]
+          - listitem [ref=f153e716]:
+            - link [ref=f153e717] [cursor=pointer]:
+              - /url: https://www.shopbop.com/
+              - heading "Shopbop" [level=5] [ref=f153e718]
+              - generic [ref=f153e719]: DesignerFashion Brands
+        - list [ref=f153e720]:
+          - listitem [ref=f153e721]:
+            - link [ref=f153e722] [cursor=pointer]:
+              - /url: /gp/browse.html?node=8929975011&ref_=footer_warehouse_deals
+              - heading "Amazon Resale" [level=5] [ref=f153e723]
+              - generic [ref=f153e724]: Great Deals onQuality Used Products
+          - listitem [ref=f153e725]
+          - listitem [ref=f153e726]:
+            - link [ref=f153e727] [cursor=pointer]:
+              - /url: https://www.wholefoodsmarket.com
+              - heading "Whole Foods Market" [level=5] [ref=f153e728]
+              - generic [ref=f153e729]: We Believe inReal Food
+          - listitem [ref=f153e730]
+          - listitem [ref=f153e731]:
+            - link [ref=f153e732] [cursor=pointer]:
+              - /url: /gp/browse.html?node=17351028011&ref_=footer_carenew
+              - heading "Amazon Renewed" [level=5] [ref=f153e733]
+              - generic [ref=f153e734]: Refurbished techyou can trust
+          - listitem [ref=f153e735]
+          - listitem [ref=f153e736]:
+            - link [ref=f153e737] [cursor=pointer]:
+              - /url: https://blinkforhome.com/?ref=nav_footer_ca
+              - heading "Blink" [level=5] [ref=f153e738]
+              - generic [ref=f153e739]: Smart Securityfor Every Home
+          - listitem [ref=f153e740]
+          - listitem [ref=f153e741]
+    - generic [ref=f153e742]:
+      - list [ref=f153e743]:
+        - listitem [ref=f153e744]:
+          - link "Conditions of Use" [ref=f153e745] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=918816&ref_=footer_cou
+        - listitem [ref=f153e746]:
+          - link "Privacy Notice" [ref=f153e747] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=918814&ref_=footer_privacy
+        - listitem [ref=f153e748]:
+          - link "Cookies Notice" [ref=f153e749] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=GVASXV5UZ64R4Y25&ref_=footer_cookies_notice
+        - listitem [ref=f153e750]:
+          - link "Interest-Based Ads" [ref=f153e751] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=202146130&ref_=footer_iba
+      - generic [ref=f153e752]: © 1996-2026, Amazon.com, Inc. or its affiliates
+    - list [ref=f153e754]:
+      - listitem [ref=f153e755]: Amazon.com.ca ULC | 40 King Street W 47th Floor, Toronto, Ontario, Canada, M5H 3Y2 |1-877-586-3230

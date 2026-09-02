@@ -1,0 +1,627 @@
+- generic [ref=f171e2]:
+  - navigation "Shortcuts menu" [ref=f171e3]:
+    - heading "Skip to" [level=2] [ref=f171e4]
+    - list "Skip to" [ref=f171e5]:
+      - listitem [ref=f171e6]:
+        - link "main content" [ref=f171e7] [cursor=pointer]:
+          - /url: "#skippedLink"
+          - text: Main content
+    - separator [ref=f171e8]
+    - heading "Keyboard shortcuts" [level=2] [ref=f171e9]
+    - list "Keyboard shortcuts" [ref=f171e10]:
+      - listitem [ref=f171e11]:
+        - link "Search, Alt, forward slash" [ref=f171e12] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=f171e13]:
+            - generic [ref=f171e14]: Search
+            - generic [ref=f171e15]:
+              - generic [ref=f171e16]: Alt
+              - generic [ref=f171e17]: +
+              - generic [ref=f171e18]: /
+      - listitem [ref=f171e19]:
+        - link "Cart, shift, Alt, c" [ref=f171e20] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=f171e21]:
+            - generic [ref=f171e22]: Cart
+            - generic [ref=f171e23]:
+              - generic [ref=f171e24]: Shift
+              - generic [ref=f171e25]: +
+              - generic [ref=f171e26]: Alt
+              - generic [ref=f171e27]: +
+              - generic [ref=f171e28]: C
+      - listitem [ref=f171e29]:
+        - link "Home, shift, Alt, h" [ref=f171e30] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=f171e31]:
+            - generic [ref=f171e32]: Home
+            - generic [ref=f171e33]:
+              - generic [ref=f171e34]: Shift
+              - generic [ref=f171e35]: +
+              - generic [ref=f171e36]: Alt
+              - generic [ref=f171e37]: +
+              - generic [ref=f171e38]: H
+      - listitem [ref=f171e39]:
+        - link "Your orders, shift, Alt, o" [ref=f171e40] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=f171e41]:
+            - generic [ref=f171e42]: Orders
+            - generic [ref=f171e43]:
+              - generic [ref=f171e44]: Shift
+              - generic [ref=f171e45]: +
+              - generic [ref=f171e46]: Alt
+              - generic [ref=f171e47]: +
+              - generic [ref=f171e48]: O
+      - listitem [ref=f171e49]:
+        - button "Show/hide shortcuts, shift, Alt, z" [ref=f171e50] [cursor=pointer]:
+          - generic [ref=f171e51]:
+            - generic [ref=f171e52]: Show/Hide shortcuts
+            - generic [ref=f171e53]:
+              - generic [ref=f171e54]: Shift
+              - generic [ref=f171e55]: +
+              - generic [ref=f171e56]: Alt
+              - generic [ref=f171e57]: +
+              - generic [ref=f171e58]: Z
+    - generic [ref=f171e59]: To move between items, use your keyboard's up or down arrows.
+  - banner [ref=f171e65]:
+    - navigation "Primary" [ref=f171e66]:
+      - generic [ref=f171e67]:
+        - generic [ref=f171e68]:
+          - link "Amazon.ca" [ref=f171e70] [cursor=pointer]:
+            - /url: /ref=nav_logo
+            - generic: .ca
+          - button "Delivering to Brampton L6V Update location" [ref=f171e73] [cursor=pointer]:
+            - generic [ref=f171e75]:
+              - generic [ref=f171e76]: Delivering to Brampton L6V
+              - generic [ref=f171e77]: Update location
+        - search [ref=f171e80]:
+          - generic [ref=f171e83]:
+            - generic [ref=f171e84]: All
+            - combobox "Select the department you want to search in" [ref=f171e87] [cursor=pointer]:
+              - option "All Departments" [selected]
+              - option "Alexa Skills"
+              - option "Amazon Devices"
+              - option "Amazon Haul"
+              - option "Amazon Resale"
+              - option "Apps & Games"
+              - option "Audible Audiobooks"
+              - option "Automotive"
+              - option "Baby"
+              - option "Beauty"
+              - option "Books"
+              - option "Clothing, Shoes & Jewellery"
+              - option "Women's Clothing, Shoes & Jewellery"
+              - option "Men's Clothing, Shoes & Jewellery"
+              - option "Girl's Clothing, Shoes & Jewellery"
+              - option "Boy's Clothing, Shoes & Jewellery"
+              - option "Baby Clothing, Shoes and Jewellery"
+              - option "Electronics"
+              - option "Gift Cards"
+              - option "Grocery"
+              - option "Handmade"
+              - option "Health & Personal Care"
+              - option "Home & Kitchen"
+              - option "Industrial & Scientific"
+              - option "Kindle Store"
+              - option "Luggage & Travel Gear"
+              - option "Luxury Beauty"
+              - option "Movies & TV"
+              - option "MP3 Music"
+              - option "Music"
+              - option "Musical Instruments, Stage & Studio"
+              - option "Office Products"
+              - option "Patio, Lawn & Garden"
+              - option "Pet Supplies"
+              - option "Prime Video"
+              - option "Smart Home"
+              - option "Software"
+              - option "Sports & Outdoors"
+              - option "Subscribe & Save"
+              - option "Tools & Home Improvement"
+              - option "Toys & Games"
+              - option "Video Games"
+          - searchbox "Search Amazon.ca" [ref=f171e90]: terro
+          - generic "Go" [ref=f171e93] [cursor=pointer]:
+            - button "Go" [ref=f171e94]
+        - generic [ref=f171e96]:
+          - generic [ref=f171e97]:
+            - link "Choose a language for shopping in Amazon Canada. The current selection is English (EN)." [ref=f171e98] [cursor=pointer]:
+              - /url: /customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=topnav_lang
+              - generic [ref=f171e101]:
+                - img "Canada" [ref=f171e102]
+                - generic [ref=f171e103]: EN
+            - button "Expand to Change Language or Country" [ref=f171e104] [cursor=pointer]
+          - generic [ref=f171e105]:
+            - link "Hello, sign in Account & Lists" [ref=f171e106] [cursor=pointer]:
+              - /url: https://www.amazon.ca/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.ca%2Fs%3Fk%3Dterro%26rh%3Dp_123%253A234140%26ref_%3Dnav_ya_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=caflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+              - generic [ref=f171e107]: Hello, sign in
+              - generic [ref=f171e109]: Account & Lists
+            - button "Expand Account and Lists" [ref=f171e110] [cursor=pointer]
+          - link "Returns & Orders" [ref=f171e111] [cursor=pointer]:
+            - /url: /gp/css/order-history?ref_=nav_orders_first
+            - generic [ref=f171e112]: Returns
+            - generic [ref=f171e113]: "& Orders"
+          - link "0 items in cart" [ref=f171e114] [cursor=pointer]:
+            - /url: /gp/cart/view.html?ref_=nav_cart
+            - generic [ref=f171e115]: "0"
+            - generic [ref=f171e118]: Cart
+      - generic [ref=f171e120]:
+        - button "Open All Categories Menu" [ref=f171e122] [cursor=pointer]:
+          - generic [ref=f171e124]: All
+        - list [ref=f171e128]:
+          - listitem [ref=f171e129]:
+            - link "Amazon Haul" [ref=f171e131] [cursor=pointer]:
+              - /url: /haul/store?ref_=nav_cs_hul_disb
+          - listitem [ref=f171e132]:
+            - link "Best Sellers" [ref=f171e134] [cursor=pointer]:
+              - /url: /Best-Sellers-generic/zgbs/?ref_=nav_cs_bestsellers
+          - listitem [ref=f171e135]:
+            - link "Amazon Basics" [ref=f171e137] [cursor=pointer]:
+              - /url: /stores/AmazonBasics/page/A99D7218-C1F4-42C0-ABF4-05A153EF2C61?channel=discovbar&field-lbr_brands_browse-bin=AmazonBasics&ref_=nav_cs_amazonbasics
+          - listitem [ref=f171e138]:
+            - generic [ref=f171e139]:
+              - link "Prime" [ref=f171e140] [cursor=pointer]:
+                - /url: /prime?ref_=nav_cs_primelink_nonmember
+              - button "Prime Details" [ref=f171e141] [cursor=pointer]
+          - listitem [ref=f171e142]:
+            - link "Deals Store" [ref=f171e144] [cursor=pointer]:
+              - /url: /deals?ref_=nav_cs_gb
+          - listitem [ref=f171e145]:
+            - link "New Releases" [ref=f171e147] [cursor=pointer]:
+              - /url: /gp/new-releases/?ref_=nav_cs_newreleases
+          - listitem [ref=f171e148]:
+            - link "Electronics" [ref=f171e150] [cursor=pointer]:
+              - /url: /Electronics-Accessories/b/?ie=UTF8&node=667823011&ref_=nav_cs_electronics
+          - listitem [ref=f171e151]:
+            - link "Music" [ref=f171e153] [cursor=pointer]:
+              - /url: /music/player?ref_=nav_cs_music
+          - listitem [ref=f171e154]:
+            - link "Home" [ref=f171e156] [cursor=pointer]:
+              - /url: /gp/browse.html?node=2206275011&ref_=nav_cs_home
+          - listitem [ref=f171e157]:
+            - link "Home Improvement" [ref=f171e159] [cursor=pointer]:
+              - /url: /Home-Improvement/b/?ie=UTF8&node=3006902011&ref_=nav_cs_hi
+          - listitem [ref=f171e160]:
+            - link "Sports & Outdoors" [ref=f171e162] [cursor=pointer]:
+              - /url: /sporting-goods/b/?ie=UTF8&node=2242989011&ref_=nav_cs_sports
+          - listitem [ref=f171e163]:
+            - link "Fashion" [ref=f171e165] [cursor=pointer]:
+              - /url: /gp/browse.html?node=21204935011&ref_=nav_cs_fashion
+          - listitem [ref=f171e166]:
+            - link "Health & Household" [ref=f171e168] [cursor=pointer]:
+              - /url: /Health-Personal-Care/b/?ie=UTF8&node=6205177011&ref_=nav_cs_hpc
+          - listitem [ref=f171e169]:
+            - link "Automotive" [ref=f171e171] [cursor=pointer]:
+              - /url: /automotive/b/?ie=UTF8&node=6948389011&ref_=nav_cs_automotive
+          - listitem [ref=f171e172]:
+            - link "Toys & Games" [ref=f171e174] [cursor=pointer]:
+              - /url: /Toys-Games/b/?ie=UTF8&node=6205517011&ref_=nav_cs_toys
+          - listitem [ref=f171e175]:
+            - link "Custom Products" [ref=f171e177] [cursor=pointer]:
+              - /url: /Amazon-Custom/b/?ie=UTF8&node=23773954011&ref_=nav_cs_custom
+          - listitem [ref=f171e178]:
+            - link "Computers" [ref=f171e180] [cursor=pointer]:
+              - /url: /Computers-Accessories/b/?ie=UTF8&node=2404990011&ref_=nav_cs_pc
+          - listitem [ref=f171e181]:
+            - link "Pet Supplies" [ref=f171e183] [cursor=pointer]:
+              - /url: /pet-supplies-dog-cat-food-bed-toy/b/?ie=UTF8&node=6205514011&ref_=nav_cs_pets
+          - listitem [ref=f171e184]:
+            - generic [ref=f171e185]:
+              - link "Gift Cards" [ref=f171e186] [cursor=pointer]:
+                - /url: /gp/browse.html?node=9230166011&ref_=nav_cs_gc
+              - button "Gift Cards Details" [ref=f171e187] [cursor=pointer]
+          - listitem [ref=f171e188]:
+            - link "Computer & Video Games" [ref=f171e190] [cursor=pointer]:
+              - /url: /video-games-hardware-accessories/b/?ie=UTF8&node=3198031&ref_=nav_cs_video_games
+          - listitem [ref=f171e191]:
+            - link "Beauty & Personal Care" [ref=f171e193] [cursor=pointer]:
+              - /url: /Beauty/b/?ie=UTF8&node=6205124011&ref_=nav_cs_beauty
+          - listitem [ref=f171e194]:
+            - link "Grocery" [ref=f171e196] [cursor=pointer]:
+              - /url: /grocery/b/?ie=UTF8&node=6967215011&ref_=nav_cs_grocery
+          - listitem [ref=f171e197]:
+            - link "Baby" [ref=f171e199] [cursor=pointer]:
+              - /url: /gp/browse.html?node=3561346011&ref_=nav_cs_baby
+          - listitem [ref=f171e200]:
+            - link "Audible" [ref=f171e202] [cursor=pointer]:
+              - /url: /gp/browse.html?node=20037536011&ref_=nav_cs_audible
+          - listitem [ref=f171e203]:
+            - link "Sell" [ref=f171e205] [cursor=pointer]:
+              - /url: /b/?node=15664730011&ld=AZCASOA-sell&ref_=nav_cs_sell
+          - listitem [ref=f171e206]:
+            - link "Subscribe & Save" [ref=f171e208] [cursor=pointer]:
+              - /url: /auto-deliveries/landing?ref_=nav_cs_sns
+          - listitem [ref=f171e209]:
+            - link "Kindle Books" [ref=f171e211] [cursor=pointer]:
+              - /url: /ebooks-kindle/b/?ie=UTF8&node=2980423011&ref_=nav_cs_kindle_books
+          - listitem [ref=f171e212]:
+            - link "Customer Service" [ref=f171e214] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?ref_=nav_cs_help
+        - link "Prime | Movies and TV Shows" [ref=f171e217] [cursor=pointer]:
+          - /url: /r/?_encoding=UTF8&aid=ZOEO2Qn-SMaahpgtFNyUvg&dest=https%3A%2F%2Fwww.primevideo.com%2Fregion%2Fna%2Foffers%2Fnonprimehomepage%2Fref%3Ddvm_crs_nav_ca_s_swm_eg_al_np&ref_=nav_swm_undefined&pf_rd_p=db723882-cf0a-4c6a-afa9-12ba2eb81150&pf_rd_s=nav-sitewide-msg&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=A2EUQ1WTGCTBG2&pf_rd_r=JTJGTQGQ5VA627CWSA5C
+      - generic [ref=f171e218]:
+        - generic [ref=f171e219]:
+          - link "Today's Deals" [ref=f171e220] [cursor=pointer]:
+            - /url: /gp/goldbox/?ie=UTF8&ref_=topnav_storetab_gb
+          - link "Outlet Deals" [ref=f171e221] [cursor=pointer]:
+            - /url: /b/?ie=UTF8&node=9833876011&ref_=sv_gb_1
+          - link "Amazon Resale" [ref=f171e222] [cursor=pointer]:
+            - /url: /b/?ie=UTF8&node=8929975011&ref_=sv_gb_2
+          - link "Coupons" [ref=f171e223] [cursor=pointer]:
+            - /url: /b/?ie=UTF8&node=12218500011&ref_=sv_gb_3
+          - link "Book Deals" [ref=f171e224] [cursor=pointer]:
+            - /url: /amz-books/book-deals/?_encoding=UTF8&ref_=sv_gb_4
+          - link "Subscribe & Save" [ref=f171e225] [cursor=pointer]:
+            - /url: /Subscribe/b/?ie=UTF8&node=6583741011&ref_=sv_gb_5
+          - link "Buy More & Save" [ref=f171e226] [cursor=pointer]:
+            - /url: /super/?_encoding=UTF8&ref_=sv_gb_6
+        - generic [ref=f171e230]:
+          - link "Sign in" [ref=f171e231] [cursor=pointer]:
+            - /url: https://www.amazon.ca/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.ca%2Fs%3Fk%3Dterro%26rh%3Dp_123%253A234140%26ref_%3Dnav_custrec_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=caflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+          - generic [ref=f171e233]:
+            - text: New customer?
+            - link "New to Amazon? Start here to create an account" [ref=f171e234] [cursor=pointer]:
+              - /url: https://www.amazon.ca/ap/register?openid.return_to=https%3A%2F%2Fwww.amazon.ca%2Fs%2F%3F_encoding%3DUTF8%26k%3Dterro%26rh%3Dp_123%253A234140%26ref_%3Dnav_custrec_newcust&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=caflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+              - text: Start here.
+      - dialog [ref=f171e239]
+  - generic [ref=f171e242]:
+    - generic [ref=f171e244]:
+      - generic [ref=f171e246]:
+        - generic [ref=f171e250]:
+          - heading "No results for your search query." [level=2] [ref=f171e252]
+          - generic [ref=f171e253]: Try checking your spelling or use more general terms
+        - generic [ref=f171e259]:
+          - generic "Related searches in terro" [ref=f171e260]:
+            - heading "Related searches" [level=2] [ref=f171e263]
+          - list [ref=f171e265]:
+            - generic [ref=f171e266]:
+              - listitem [ref=f171e267]:
+                - link "terro fruit fly trap refill liquid" [ref=f171e269] [cursor=pointer]:
+                  - /url: /s?k=terro+fruit+fly+trap+refill+liquid&ref=rsl_sug_0_0&pd_rd_w=4ay99&content-id=amzn1.sym.0d1337af-d86c-4e88-8b83-77fcd8510369:amzn1.sym.0d1337af-d86c-4e88-8b83-77fcd8510369&pf_rd_p=0d1337af-d86c-4e88-8b83-77fcd8510369&pf_rd_r=JTJGTQGQ5VA627CWSA5C&pd_rd_wg=Fx9wY&pd_rd_r=bdb19985-2582-49bb-bb8f-bf403abd8191&qid=1788379118
+              - listitem [ref=f171e275]:
+                - link "terro liquid" [ref=f171e277] [cursor=pointer]:
+                  - /url: /s?k=terro+liquid&ref=rsl_sug_0_3&pd_rd_w=4ay99&content-id=amzn1.sym.0d1337af-d86c-4e88-8b83-77fcd8510369:amzn1.sym.0d1337af-d86c-4e88-8b83-77fcd8510369&pf_rd_p=0d1337af-d86c-4e88-8b83-77fcd8510369&pf_rd_r=JTJGTQGQ5VA627CWSA5C&pd_rd_wg=Fx9wY&pd_rd_r=bdb19985-2582-49bb-bb8f-bf403abd8191&qid=1788379118
+            - generic [ref=f171e283]:
+              - listitem [ref=f171e284]:
+                - link "terro garbage guard" [ref=f171e286] [cursor=pointer]:
+                  - /url: /s?k=terro+garbage+guard&ref=rsl_sug_0_1&pd_rd_w=4ay99&content-id=amzn1.sym.0d1337af-d86c-4e88-8b83-77fcd8510369:amzn1.sym.0d1337af-d86c-4e88-8b83-77fcd8510369&pf_rd_p=0d1337af-d86c-4e88-8b83-77fcd8510369&pf_rd_r=JTJGTQGQ5VA627CWSA5C&pd_rd_wg=Fx9wY&pd_rd_r=bdb19985-2582-49bb-bb8f-bf403abd8191&qid=1788379118
+              - listitem [ref=f171e292]:
+                - link "garbage guard trash can insect killer" [ref=f171e294] [cursor=pointer]:
+                  - /url: /s?k=garbage+guard+trash+can+insect+killer&ref=rsl_sug_0_4&pd_rd_w=4ay99&content-id=amzn1.sym.0d1337af-d86c-4e88-8b83-77fcd8510369:amzn1.sym.0d1337af-d86c-4e88-8b83-77fcd8510369&pf_rd_p=0d1337af-d86c-4e88-8b83-77fcd8510369&pf_rd_r=JTJGTQGQ5VA627CWSA5C&pd_rd_wg=Fx9wY&pd_rd_r=bdb19985-2582-49bb-bb8f-bf403abd8191&qid=1788379118
+            - generic [ref=f171e300]:
+              - listitem [ref=f171e301]:
+                - link "garbage guards" [ref=f171e303] [cursor=pointer]:
+                  - /url: /s?k=garbage+guards&ref=rsl_sug_0_2&pd_rd_w=4ay99&content-id=amzn1.sym.0d1337af-d86c-4e88-8b83-77fcd8510369:amzn1.sym.0d1337af-d86c-4e88-8b83-77fcd8510369&pf_rd_p=0d1337af-d86c-4e88-8b83-77fcd8510369&pf_rd_r=JTJGTQGQ5VA627CWSA5C&pd_rd_wg=Fx9wY&pd_rd_r=bdb19985-2582-49bb-bb8f-bf403abd8191&qid=1788379118
+              - listitem [ref=f171e309]:
+                - link "terro fly" [ref=f171e311] [cursor=pointer]:
+                  - /url: /s?k=terro+fly&ref=rsl_sug_0_5&pd_rd_w=4ay99&content-id=amzn1.sym.0d1337af-d86c-4e88-8b83-77fcd8510369:amzn1.sym.0d1337af-d86c-4e88-8b83-77fcd8510369&pf_rd_p=0d1337af-d86c-4e88-8b83-77fcd8510369&pf_rd_r=JTJGTQGQ5VA627CWSA5C&pd_rd_wg=Fx9wY&pd_rd_r=bdb19985-2582-49bb-bb8f-bf403abd8191&qid=1788379118
+        - generic [ref=f171e320]:
+          - separator [ref=f171e321]
+          - generic [ref=f171e322]:
+            - heading "Brands related to your search" [ref=f171e323]
+            - button "Leave feedback on sponsored ad" [ref=f171e328] [cursor=pointer]: Sponsored
+            - generic [ref=f171e332]:
+              - generic [ref=f171e334]:
+                - generic:
+                  - generic:
+                    - link:
+                      - /url: https://sponsored-ads.amazon.ca/clk/?_encoding=UTF8&p=eAFdkEFu00AYhdVWQAkVVFkUKctIZFExydiOHbuShWbGbhraJrHjKmo21sSeOFYd252ZtimL7FkhIXEBNpyDM8AF2CNxBFBaQIK3er8-Pf1PrxJv__j57evD6lOkumeeMg66JMBdtb6h7O_NWJ4uQ2PcP0OpjpdTvU_doHWwl3UmJ4YVOSdH-uh2fH7eK4LB0POfGHrT0puKoTbhZHOEp9vIDY5cvzeqPq88ipm4kEVZ3Tnr-y4ZdPu9ievU3m5UttcknMpZ9TFd0DdF3oxo7cVcUMBZVCwWLI-pTIscCMav04gBwSiP5mAqZ_UHLA8J2lcXV5lMwZTTPAYRZ1Sm1wz8_ggiymMBSprmknEQFblkuVR3TzEJteHoJHTc0XEwGNbNygbc_fj9y6d3n0Ft9096XUQrRVZ_pkIINaga7Xa7bVmmukWQc7BFhmTfr2IHI1Ie9sAyWeHLeyVohb3SGlqn6F-tcLLC3gqjO5Os8B2u7ZDEXXZRlCTGBVM_bFbeb86lLMVBq3Vzc9P8O05LyIIz0SppwlqOquK2ohCADHII2gqBABmYAM1SLEVTIekY8NVdIORsZo9wiKCmmqahaJ6Lx8rg1Ol6Qw0gqBgd3dC1bi9wLOI7_utBo4xDHodlNo-5LRtzQcOIh2lsw0ZWhlSkubAx7Dj9I23S8V7e20Pf66_x5RXjt7ZknBfrU2SFtP_ftCHiMqRxmPDiqrTX-7YNy-zo0NQss5HatBQNuq4txseZjs1bv_gFs1DYNg&v=c1&r=https%3A%2F%2Fwww.amazon.ca%2Fstores%2Fpage%2FD22B411C-A6CF-41C0-A6BC-39191320C760%3Fstore_ref%3DSB_A03288613QEBW1OMDGQP3-A01675653GITD9CRDRJO%26pd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26lp_asins%3DB07DNH3Z7Q%2CB07DNHFRQN%26lp_query%3Dterro%26lp_slot%3Ddesktop-hsa-3psl%26sdp_ad_group%3D200046987508398%26i%3Daps%26aref%3DsWKl5B8yRo&ref_=sbx_be_s_3psl_mbd_mb0_bkgd&pd_rd_w=wZCU2&content-id=amzn1.sym.34848826-10f1-4dd5-89af-10553fe5612d%3Aamzn1.sym.34848826-10f1-4dd5-89af-10553fe5612d&pf_rd_p=34848826-10f1-4dd5-89af-10553fe5612d&pf_rd_r=JTJGTQGQ5VA627CWSA5C&pd_rd_wg=Ob3vd&pd_rd_r=feae2304-6591-46f2-aa82-b6e3a75d8e4b
+                    - link [ref=f171e335] [cursor=pointer]:
+                      - /url: https://sponsored-ads.amazon.ca/clk/?_encoding=UTF8&p=eAFdkEFu00AYhdVWQAkVVFkUKctIZFExydiOHbuShWbGbhraJrHjKmo21sSeOFYd252ZtimL7FkhIXEBNpyDM8AF2CNxBFBaQIK3er8-Pf1PrxJv__j57evD6lOkumeeMg66JMBdtb6h7O_NWJ4uQ2PcP0OpjpdTvU_doHWwl3UmJ4YVOSdH-uh2fH7eK4LB0POfGHrT0puKoTbhZHOEp9vIDY5cvzeqPq88ipm4kEVZ3Tnr-y4ZdPu9ievU3m5UttcknMpZ9TFd0DdF3oxo7cVcUMBZVCwWLI-pTIscCMav04gBwSiP5mAqZ_UHLA8J2lcXV5lMwZTTPAYRZ1Sm1wz8_ggiymMBSprmknEQFblkuVR3TzEJteHoJHTc0XEwGNbNygbc_fj9y6d3n0Ft9096XUQrRVZ_pkIINaga7Xa7bVmmukWQc7BFhmTfr2IHI1Ie9sAyWeHLeyVohb3SGlqn6F-tcLLC3gqjO5Os8B2u7ZDEXXZRlCTGBVM_bFbeb86lLMVBq3Vzc9P8O05LyIIz0SppwlqOquK2ohCADHII2gqBABmYAM1SLEVTIekY8NVdIORsZo9wiKCmmqahaJ6Lx8rg1Ol6Qw0gqBgd3dC1bi9wLOI7_utBo4xDHodlNo-5LRtzQcOIh2lsw0ZWhlSkubAx7Dj9I23S8V7e20Pf66_x5RXjt7ZknBfrU2SFtP_ftCHiMqRxmPDiqrTX-7YNy-zo0NQss5HatBQNuq4txseZjs1bv_gFs1DYNg&v=c1&r=https%3A%2F%2Fwww.amazon.ca%2Fstores%2Fpage%2FD22B411C-A6CF-41C0-A6BC-39191320C760%3Fstore_ref%3DSB_A03288613QEBW1OMDGQP3-A01675653GITD9CRDRJO%26pd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26lp_asins%3DB07DNH3Z7Q%2CB07DNHFRQN%26lp_query%3Dterro%26lp_slot%3Ddesktop-hsa-3psl%26sdp_ad_group%3D200046987508398%26i%3Daps%26aref%3DsWKl5B8yRo&ref_=sbx_be_s_3psl_mbd_mb0_ls&pd_rd_w=wZCU2&content-id=amzn1.sym.34848826-10f1-4dd5-89af-10553fe5612d%3Aamzn1.sym.34848826-10f1-4dd5-89af-10553fe5612d&pf_rd_p=34848826-10f1-4dd5-89af-10553fe5612d&pf_rd_r=JTJGTQGQ5VA627CWSA5C&pd_rd_wg=Ob3vd&pd_rd_r=feae2304-6591-46f2-aa82-b6e3a75d8e4b
+                      - img "Weiman" [ref=f171e336]
+                    - generic [ref=f171e338]:
+                      - generic [ref=f171e339]:
+                        - link [ref=f171e340] [cursor=pointer]:
+                          - /url: https://sponsored-ads.amazon.ca/clk/?_encoding=UTF8&p=eAFdkEFu00AYhdVWQAkVVFkUKctIZFExydiOHbuShWbGbhraJrHjKmo21sSeOFYd252ZtimL7FkhIXEBNpyDM8AF2CNxBFBaQIK3er8-Pf1PrxJv__j57evD6lOkumeeMg66JMBdtb6h7O_NWJ4uQ2PcP0OpjpdTvU_doHWwl3UmJ4YVOSdH-uh2fH7eK4LB0POfGHrT0puKoTbhZHOEp9vIDY5cvzeqPq88ipm4kEVZ3Tnr-y4ZdPu9ievU3m5UttcknMpZ9TFd0DdF3oxo7cVcUMBZVCwWLI-pTIscCMav04gBwSiP5mAqZ_UHLA8J2lcXV5lMwZTTPAYRZ1Sm1wz8_ggiymMBSprmknEQFblkuVR3TzEJteHoJHTc0XEwGNbNygbc_fj9y6d3n0Ft9096XUQrRVZ_pkIINaga7Xa7bVmmukWQc7BFhmTfr2IHI1Ie9sAyWeHLeyVohb3SGlqn6F-tcLLC3gqjO5Os8B2u7ZDEXXZRlCTGBVM_bFbeb86lLMVBq3Vzc9P8O05LyIIz0SppwlqOquK2ohCADHII2gqBABmYAM1SLEVTIekY8NVdIORsZo9wiKCmmqahaJ6Lx8rg1Ol6Qw0gqBgd3dC1bi9wLOI7_utBo4xDHodlNo-5LRtzQcOIh2lsw0ZWhlSkubAx7Dj9I23S8V7e20Pf66_x5RXjt7ZknBfrU2SFtP_ftCHiMqRxmPDiqrTX-7YNy-zo0NQss5HatBQNuq4txseZjs1bv_gFs1DYNg&v=c1&r=https%3A%2F%2Fwww.amazon.ca%2Fstores%2Fpage%2FD22B411C-A6CF-41C0-A6BC-39191320C760%3Fstore_ref%3DSB_A03288613QEBW1OMDGQP3-A01675653GITD9CRDRJO%26pd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26lp_asins%3DB07DNH3Z7Q%2CB07DNHFRQN%26lp_query%3Dterro%26lp_slot%3Ddesktop-hsa-3psl%26sdp_ad_group%3D200046987508398%26i%3Daps%26aref%3DsWKl5B8yRo&ref_=sbx_be_s_3psl_mbd_mb0_bkgd&pd_rd_w=wZCU2&content-id=amzn1.sym.34848826-10f1-4dd5-89af-10553fe5612d%3Aamzn1.sym.34848826-10f1-4dd5-89af-10553fe5612d&pf_rd_p=34848826-10f1-4dd5-89af-10553fe5612d&pf_rd_r=JTJGTQGQ5VA627CWSA5C&pd_rd_wg=Ob3vd&pd_rd_r=feae2304-6591-46f2-aa82-b6e3a75d8e4b
+                        - link [ref=f171e341] [cursor=pointer]:
+                          - /url: https://sponsored-ads.amazon.ca/clk/?_encoding=UTF8&p=eAFdkEFu00AYhdVWQAkVVFkUKctIZFExydiOHbuShWbGbhraJrHjKmo21sSeOFYd252ZtimL7FkhIXEBNpyDM8AF2CNxBFBaQIK3er8-Pf1PrxJv__j57evD6lOkumeeMg66JMBdtb6h7O_NWJ4uQ2PcP0OpjpdTvU_doHWwl3UmJ4YVOSdH-uh2fH7eK4LB0POfGHrT0puKoTbhZHOEp9vIDY5cvzeqPq88ipm4kEVZ3Tnr-y4ZdPu9ievU3m5UttcknMpZ9TFd0DdF3oxo7cVcUMBZVCwWLI-pTIscCMav04gBwSiP5mAqZ_UHLA8J2lcXV5lMwZTTPAYRZ1Sm1wz8_ggiymMBSprmknEQFblkuVR3TzEJteHoJHTc0XEwGNbNygbc_fj9y6d3n0Ft9096XUQrRVZ_pkIINaga7Xa7bVmmukWQc7BFhmTfr2IHI1Ie9sAyWeHLeyVohb3SGlqn6F-tcLLC3gqjO5Os8B2u7ZDEXXZRlCTGBVM_bFbeb86lLMVBq3Vzc9P8O05LyIIz0SppwlqOquK2ohCADHII2gqBABmYAM1SLEVTIekY8NVdIORsZo9wiKCmmqahaJ6Lx8rg1Ol6Qw0gqBgd3dC1bi9wLOI7_utBo4xDHodlNo-5LRtzQcOIh2lsw0ZWhlSkubAx7Dj9I23S8V7e20Pf66_x5RXjt7ZknBfrU2SFtP_ftCHiMqRxmPDiqrTX-7YNy-zo0NQss5HatBQNuq4txseZjs1bv_gFs1DYNg&v=c1&r=https%3A%2F%2Fwww.amazon.ca%2Fstores%2Fpage%2FD22B411C-A6CF-41C0-A6BC-39191320C760%3Fstore_ref%3DSB_A03288613QEBW1OMDGQP3-A01675653GITD9CRDRJO%26pd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26lp_asins%3DB07DNH3Z7Q%2CB07DNHFRQN%26lp_query%3Dterro%26lp_slot%3Ddesktop-hsa-3psl%26sdp_ad_group%3D200046987508398%26i%3Daps%26aref%3DsWKl5B8yRo&ref_=sbx_be_s_3psl_mbd_mb0_logo&pd_rd_w=wZCU2&content-id=amzn1.sym.34848826-10f1-4dd5-89af-10553fe5612d%3Aamzn1.sym.34848826-10f1-4dd5-89af-10553fe5612d&pf_rd_p=34848826-10f1-4dd5-89af-10553fe5612d&pf_rd_r=JTJGTQGQ5VA627CWSA5C&pd_rd_wg=Ob3vd&pd_rd_r=feae2304-6591-46f2-aa82-b6e3a75d8e4b
+                          - img "Weiman" [ref=f171e343]
+                      - generic [ref=f171e344]:
+                        - link [ref=f171e345] [cursor=pointer]:
+                          - /url: https://sponsored-ads.amazon.ca/clk/?_encoding=UTF8&p=eAFdkEFu00AYhdVWQAkVVFkUKctIZFExydiOHbuShWbGbhraJrHjKmo21sSeOFYd252ZtimL7FkhIXEBNpyDM8AF2CNxBFBaQIK3er8-Pf1PrxJv__j57evD6lOkumeeMg66JMBdtb6h7O_NWJ4uQ2PcP0OpjpdTvU_doHWwl3UmJ4YVOSdH-uh2fH7eK4LB0POfGHrT0puKoTbhZHOEp9vIDY5cvzeqPq88ipm4kEVZ3Tnr-y4ZdPu9ievU3m5UttcknMpZ9TFd0DdF3oxo7cVcUMBZVCwWLI-pTIscCMav04gBwSiP5mAqZ_UHLA8J2lcXV5lMwZTTPAYRZ1Sm1wz8_ggiymMBSprmknEQFblkuVR3TzEJteHoJHTc0XEwGNbNygbc_fj9y6d3n0Ft9096XUQrRVZ_pkIINaga7Xa7bVmmukWQc7BFhmTfr2IHI1Ie9sAyWeHLeyVohb3SGlqn6F-tcLLC3gqjO5Os8B2u7ZDEXXZRlCTGBVM_bFbeb86lLMVBq3Vzc9P8O05LyIIz0SppwlqOquK2ohCADHII2gqBABmYAM1SLEVTIekY8NVdIORsZo9wiKCmmqahaJ6Lx8rg1Ol6Qw0gqBgd3dC1bi9wLOI7_utBo4xDHodlNo-5LRtzQcOIh2lsw0ZWhlSkubAx7Dj9I23S8V7e20Pf66_x5RXjt7ZknBfrU2SFtP_ftCHiMqRxmPDiqrTX-7YNy-zo0NQss5HatBQNuq4txseZjs1bv_gFs1DYNg&v=c1&r=https%3A%2F%2Fwww.amazon.ca%2Fstores%2Fpage%2FD22B411C-A6CF-41C0-A6BC-39191320C760%3Fstore_ref%3DSB_A03288613QEBW1OMDGQP3-A01675653GITD9CRDRJO%26pd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26lp_asins%3DB07DNH3Z7Q%2CB07DNHFRQN%26lp_query%3Dterro%26lp_slot%3Ddesktop-hsa-3psl%26sdp_ad_group%3D200046987508398%26i%3Daps%26aref%3DsWKl5B8yRo&ref_=sbx_be_s_3psl_mbd_mb0_bkgd&pd_rd_w=wZCU2&content-id=amzn1.sym.34848826-10f1-4dd5-89af-10553fe5612d%3Aamzn1.sym.34848826-10f1-4dd5-89af-10553fe5612d&pf_rd_p=34848826-10f1-4dd5-89af-10553fe5612d&pf_rd_r=JTJGTQGQ5VA627CWSA5C&pd_rd_wg=Ob3vd&pd_rd_r=feae2304-6591-46f2-aa82-b6e3a75d8e4b
+                        - link "Clean, Polish & Protect Your Hardwood Floors" [ref=f171e346] [cursor=pointer]:
+                          - /url: https://sponsored-ads.amazon.ca/clk/?_encoding=UTF8&p=eAFdkEFu00AYhdVWQAkVVFkUKctIZFExydiOHbuShWbGbhraJrHjKmo21sSeOFYd252ZtimL7FkhIXEBNpyDM8AF2CNxBFBaQIK3er8-Pf1PrxJv__j57evD6lOkumeeMg66JMBdtb6h7O_NWJ4uQ2PcP0OpjpdTvU_doHWwl3UmJ4YVOSdH-uh2fH7eK4LB0POfGHrT0puKoTbhZHOEp9vIDY5cvzeqPq88ipm4kEVZ3Tnr-y4ZdPu9ievU3m5UttcknMpZ9TFd0DdF3oxo7cVcUMBZVCwWLI-pTIscCMav04gBwSiP5mAqZ_UHLA8J2lcXV5lMwZTTPAYRZ1Sm1wz8_ggiymMBSprmknEQFblkuVR3TzEJteHoJHTc0XEwGNbNygbc_fj9y6d3n0Ft9096XUQrRVZ_pkIINaga7Xa7bVmmukWQc7BFhmTfr2IHI1Ie9sAyWeHLeyVohb3SGlqn6F-tcLLC3gqjO5Os8B2u7ZDEXXZRlCTGBVM_bFbeb86lLMVBq3Vzc9P8O05LyIIz0SppwlqOquK2ohCADHII2gqBABmYAM1SLEVTIekY8NVdIORsZo9wiKCmmqahaJ6Lx8rg1Ol6Qw0gqBgd3dC1bi9wLOI7_utBo4xDHodlNo-5LRtzQcOIh2lsw0ZWhlSkubAx7Dj9I23S8V7e20Pf66_x5RXjt7ZknBfrU2SFtP_ftCHiMqRxmPDiqrTX-7YNy-zo0NQss5HatBQNuq4txseZjs1bv_gFs1DYNg&v=c1&r=https%3A%2F%2Fwww.amazon.ca%2Fstores%2Fpage%2FD22B411C-A6CF-41C0-A6BC-39191320C760%3Fstore_ref%3DSB_A03288613QEBW1OMDGQP3-A01675653GITD9CRDRJO%26pd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26lp_asins%3DB07DNH3Z7Q%2CB07DNHFRQN%26lp_query%3Dterro%26lp_slot%3Ddesktop-hsa-3psl%26sdp_ad_group%3D200046987508398%26i%3Daps%26aref%3DsWKl5B8yRo&ref_=sbx_be_s_3psl_mbd_mb0_hl&pd_rd_w=wZCU2&content-id=amzn1.sym.34848826-10f1-4dd5-89af-10553fe5612d%3Aamzn1.sym.34848826-10f1-4dd5-89af-10553fe5612d&pf_rd_p=34848826-10f1-4dd5-89af-10553fe5612d&pf_rd_r=JTJGTQGQ5VA627CWSA5C&pd_rd_wg=Ob3vd&pd_rd_r=feae2304-6591-46f2-aa82-b6e3a75d8e4b
+                          - generic [ref=f171e348]:
+                            - generic [ref=f171e349]: Clean, Polish & Protect Your Hardwood Floors
+                            - generic [ref=f171e350]: Clean, Polish & Protect Your Hardwood Floors
+              - generic [ref=f171e352]:
+                - generic:
+                  - generic:
+                    - link:
+                      - /url: https://sponsored-ads.amazon.ca/clk/?_encoding=UTF8&p=eAFdkMtu00AYhdVWQAkVVFm0UpaRyKJikvH4FleykMd23dA0zZVW3Ywm9sSx6tjOzKQJLLJhxRYk9uWZ2LHiCXgEUMpFgrM6vz4d_UenFO1-__Hty8PyUwf5o55yOQzcIQ5QdUs5OpiwLFkR47IzchIdr8Z6h_rDxvFBO01nKMrAxa16Ou96nOkjM1j2nxh63dLrioHq8Hp7gMe7jj889futQfmw9Chi4kbmRXlv1On77kXQaV37XuX9Vml3Q8hYTsqP6Yy-zbN6SCvPp4ICzsJ8NmNZRGWSZ0AwfpuEDAhGeTgFYzmpPmAZcZ0jNFukMgFjTrMIhJxRmdwy8PsjCCmPBChokknGQZhnkmUS7Z9jl6jdQZt4_uBseNGtNktbyv7nD1_f3d15lf0_6U0RtRBp9ZkKIVR01dSghRA00I7reMc7btc96pexhx23OGmBVbzG81-KnTXuFVbXOnf-1RrHa9xbY-fexGt8jyt7buyvAieMY-OGoU_bpY_bUykLcdxoLJfL-t9xGkLmnIlGQWPWQKYFTcNTgeVjHWj6iQ-arqUDHUKkqIqmNg3l5X2AcDaxB5g4UFObJtKUqzbuXw2DzhkyEXCgBZGmNRWnM2i55-ZIu4ZerYgIj0iRTiNuy9pUUBJykkQ2rKUFoSLJhI1hE72-ap-opy8whBD5KOiNNni-YPyNLRnn-eYUaS7t_0etiaggNCIxzxeFvRlY1U3DRIYKoVZLbFqIGt30XryyVpY_ceb8J2DJ178&v=c1&r=https%3A%2F%2Fwww.amazon.ca%2Fstores%2Fpage%2F279076D3-9EB5-45FE-8C95-500213143861%3Fstore_ref%3DSB_A04387241XLBRXTGNK272-A09024481ANSICM7U4Z0D%26pd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26lp_asins%3DB082VXLF3H%2CB0002E2GQU%26lp_query%3Dterro%26lp_slot%3Ddesktop-hsa-3psl%26sdp_ad_group%3D300035767263004%26i%3Daps%26aref%3DuJ9x9EfAqr&ref_=sbx_be_s_3psl_mbd_mb1_bkgd&pd_rd_w=wZCU2&content-id=amzn1.sym.34848826-10f1-4dd5-89af-10553fe5612d%3Aamzn1.sym.34848826-10f1-4dd5-89af-10553fe5612d&pf_rd_p=34848826-10f1-4dd5-89af-10553fe5612d&pf_rd_r=JTJGTQGQ5VA627CWSA5C&pd_rd_wg=Ob3vd&pd_rd_r=feae2304-6591-46f2-aa82-b6e3a75d8e4b
+                    - link [ref=f171e353] [cursor=pointer]:
+                      - /url: https://sponsored-ads.amazon.ca/clk/?_encoding=UTF8&p=eAFdkMtu00AYhdVWQAkVVFm0UpaRyKJikvH4FleykMd23dA0zZVW3Ywm9sSx6tjOzKQJLLJhxRYk9uWZ2LHiCXgEUMpFgrM6vz4d_UenFO1-__Hty8PyUwf5o55yOQzcIQ5QdUs5OpiwLFkR47IzchIdr8Z6h_rDxvFBO01nKMrAxa16Ou96nOkjM1j2nxh63dLrioHq8Hp7gMe7jj889futQfmw9Chi4kbmRXlv1On77kXQaV37XuX9Vml3Q8hYTsqP6Yy-zbN6SCvPp4ICzsJ8NmNZRGWSZ0AwfpuEDAhGeTgFYzmpPmAZcZ0jNFukMgFjTrMIhJxRmdwy8PsjCCmPBChokknGQZhnkmUS7Z9jl6jdQZt4_uBseNGtNktbyv7nD1_f3d15lf0_6U0RtRBp9ZkKIVR01dSghRA00I7reMc7btc96pexhx23OGmBVbzG81-KnTXuFVbXOnf-1RrHa9xbY-fexGt8jyt7buyvAieMY-OGoU_bpY_bUykLcdxoLJfL-t9xGkLmnIlGQWPWQKYFTcNTgeVjHWj6iQ-arqUDHUKkqIqmNg3l5X2AcDaxB5g4UFObJtKUqzbuXw2DzhkyEXCgBZGmNRWnM2i55-ZIu4ZerYgIj0iRTiNuy9pUUBJykkQ2rKUFoSLJhI1hE72-ap-opy8whBD5KOiNNni-YPyNLRnn-eYUaS7t_0etiaggNCIxzxeFvRlY1U3DRIYKoVZLbFqIGt30XryyVpY_ceb8J2DJ178&v=c1&r=https%3A%2F%2Fwww.amazon.ca%2Fstores%2Fpage%2F279076D3-9EB5-45FE-8C95-500213143861%3Fstore_ref%3DSB_A04387241XLBRXTGNK272-A09024481ANSICM7U4Z0D%26pd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26lp_asins%3DB082VXLF3H%2CB0002E2GQU%26lp_query%3Dterro%26lp_slot%3Ddesktop-hsa-3psl%26sdp_ad_group%3D300035767263004%26i%3Daps%26aref%3DuJ9x9EfAqr&ref_=sbx_be_s_3psl_mbd_mb1_ls&pd_rd_w=wZCU2&content-id=amzn1.sym.34848826-10f1-4dd5-89af-10553fe5612d%3Aamzn1.sym.34848826-10f1-4dd5-89af-10553fe5612d&pf_rd_p=34848826-10f1-4dd5-89af-10553fe5612d&pf_rd_r=JTJGTQGQ5VA627CWSA5C&pd_rd_wg=Ob3vd&pd_rd_r=feae2304-6591-46f2-aa82-b6e3a75d8e4b
+                      - img "Lavazza Premium Coffee Corp." [ref=f171e354]
+                    - generic [ref=f171e356]:
+                      - generic [ref=f171e357]:
+                        - link [ref=f171e358] [cursor=pointer]:
+                          - /url: https://sponsored-ads.amazon.ca/clk/?_encoding=UTF8&p=eAFdkMtu00AYhdVWQAkVVFm0UpaRyKJikvH4FleykMd23dA0zZVW3Ywm9sSx6tjOzKQJLLJhxRYk9uWZ2LHiCXgEUMpFgrM6vz4d_UenFO1-__Hty8PyUwf5o55yOQzcIQ5QdUs5OpiwLFkR47IzchIdr8Z6h_rDxvFBO01nKMrAxa16Ou96nOkjM1j2nxh63dLrioHq8Hp7gMe7jj889futQfmw9Chi4kbmRXlv1On77kXQaV37XuX9Vml3Q8hYTsqP6Yy-zbN6SCvPp4ICzsJ8NmNZRGWSZ0AwfpuEDAhGeTgFYzmpPmAZcZ0jNFukMgFjTrMIhJxRmdwy8PsjCCmPBChokknGQZhnkmUS7Z9jl6jdQZt4_uBseNGtNktbyv7nD1_f3d15lf0_6U0RtRBp9ZkKIVR01dSghRA00I7reMc7btc96pexhx23OGmBVbzG81-KnTXuFVbXOnf-1RrHa9xbY-fexGt8jyt7buyvAieMY-OGoU_bpY_bUykLcdxoLJfL-t9xGkLmnIlGQWPWQKYFTcNTgeVjHWj6iQ-arqUDHUKkqIqmNg3l5X2AcDaxB5g4UFObJtKUqzbuXw2DzhkyEXCgBZGmNRWnM2i55-ZIu4ZerYgIj0iRTiNuy9pUUBJykkQ2rKUFoSLJhI1hE72-ap-opy8whBD5KOiNNni-YPyNLRnn-eYUaS7t_0etiaggNCIxzxeFvRlY1U3DRIYKoVZLbFqIGt30XryyVpY_ceb8J2DJ178&v=c1&r=https%3A%2F%2Fwww.amazon.ca%2Fstores%2Fpage%2F279076D3-9EB5-45FE-8C95-500213143861%3Fstore_ref%3DSB_A04387241XLBRXTGNK272-A09024481ANSICM7U4Z0D%26pd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26lp_asins%3DB082VXLF3H%2CB0002E2GQU%26lp_query%3Dterro%26lp_slot%3Ddesktop-hsa-3psl%26sdp_ad_group%3D300035767263004%26i%3Daps%26aref%3DuJ9x9EfAqr&ref_=sbx_be_s_3psl_mbd_mb1_bkgd&pd_rd_w=wZCU2&content-id=amzn1.sym.34848826-10f1-4dd5-89af-10553fe5612d%3Aamzn1.sym.34848826-10f1-4dd5-89af-10553fe5612d&pf_rd_p=34848826-10f1-4dd5-89af-10553fe5612d&pf_rd_r=JTJGTQGQ5VA627CWSA5C&pd_rd_wg=Ob3vd&pd_rd_r=feae2304-6591-46f2-aa82-b6e3a75d8e4b
+                        - link [ref=f171e359] [cursor=pointer]:
+                          - /url: https://sponsored-ads.amazon.ca/clk/?_encoding=UTF8&p=eAFdkMtu00AYhdVWQAkVVFm0UpaRyKJikvH4FleykMd23dA0zZVW3Ywm9sSx6tjOzKQJLLJhxRYk9uWZ2LHiCXgEUMpFgrM6vz4d_UenFO1-__Hty8PyUwf5o55yOQzcIQ5QdUs5OpiwLFkR47IzchIdr8Z6h_rDxvFBO01nKMrAxa16Ou96nOkjM1j2nxh63dLrioHq8Hp7gMe7jj889futQfmw9Chi4kbmRXlv1On77kXQaV37XuX9Vml3Q8hYTsqP6Yy-zbN6SCvPp4ICzsJ8NmNZRGWSZ0AwfpuEDAhGeTgFYzmpPmAZcZ0jNFukMgFjTrMIhJxRmdwy8PsjCCmPBChokknGQZhnkmUS7Z9jl6jdQZt4_uBseNGtNktbyv7nD1_f3d15lf0_6U0RtRBp9ZkKIVR01dSghRA00I7reMc7btc96pexhx23OGmBVbzG81-KnTXuFVbXOnf-1RrHa9xbY-fexGt8jyt7buyvAieMY-OGoU_bpY_bUykLcdxoLJfL-t9xGkLmnIlGQWPWQKYFTcNTgeVjHWj6iQ-arqUDHUKkqIqmNg3l5X2AcDaxB5g4UFObJtKUqzbuXw2DzhkyEXCgBZGmNRWnM2i55-ZIu4ZerYgIj0iRTiNuy9pUUBJykkQ2rKUFoSLJhI1hE72-ap-opy8whBD5KOiNNni-YPyNLRnn-eYUaS7t_0etiaggNCIxzxeFvRlY1U3DRIYKoVZLbFqIGt30XryyVpY_ceb8J2DJ178&v=c1&r=https%3A%2F%2Fwww.amazon.ca%2Fstores%2Fpage%2F279076D3-9EB5-45FE-8C95-500213143861%3Fstore_ref%3DSB_A04387241XLBRXTGNK272-A09024481ANSICM7U4Z0D%26pd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26lp_asins%3DB082VXLF3H%2CB0002E2GQU%26lp_query%3Dterro%26lp_slot%3Ddesktop-hsa-3psl%26sdp_ad_group%3D300035767263004%26i%3Daps%26aref%3DuJ9x9EfAqr&ref_=sbx_be_s_3psl_mbd_mb1_logo&pd_rd_w=wZCU2&content-id=amzn1.sym.34848826-10f1-4dd5-89af-10553fe5612d%3Aamzn1.sym.34848826-10f1-4dd5-89af-10553fe5612d&pf_rd_p=34848826-10f1-4dd5-89af-10553fe5612d&pf_rd_r=JTJGTQGQ5VA627CWSA5C&pd_rd_wg=Ob3vd&pd_rd_r=feae2304-6591-46f2-aa82-b6e3a75d8e4b
+                          - img "Lavazza Premium Coffee Corp." [ref=f171e361]
+                      - generic [ref=f171e362]:
+                        - link [ref=f171e363] [cursor=pointer]:
+                          - /url: https://sponsored-ads.amazon.ca/clk/?_encoding=UTF8&p=eAFdkMtu00AYhdVWQAkVVFm0UpaRyKJikvH4FleykMd23dA0zZVW3Ywm9sSx6tjOzKQJLLJhxRYk9uWZ2LHiCXgEUMpFgrM6vz4d_UenFO1-__Hty8PyUwf5o55yOQzcIQ5QdUs5OpiwLFkR47IzchIdr8Z6h_rDxvFBO01nKMrAxa16Ou96nOkjM1j2nxh63dLrioHq8Hp7gMe7jj889futQfmw9Chi4kbmRXlv1On77kXQaV37XuX9Vml3Q8hYTsqP6Yy-zbN6SCvPp4ICzsJ8NmNZRGWSZ0AwfpuEDAhGeTgFYzmpPmAZcZ0jNFukMgFjTrMIhJxRmdwy8PsjCCmPBChokknGQZhnkmUS7Z9jl6jdQZt4_uBseNGtNktbyv7nD1_f3d15lf0_6U0RtRBp9ZkKIVR01dSghRA00I7reMc7btc96pexhx23OGmBVbzG81-KnTXuFVbXOnf-1RrHa9xbY-fexGt8jyt7buyvAieMY-OGoU_bpY_bUykLcdxoLJfL-t9xGkLmnIlGQWPWQKYFTcNTgeVjHWj6iQ-arqUDHUKkqIqmNg3l5X2AcDaxB5g4UFObJtKUqzbuXw2DzhkyEXCgBZGmNRWnM2i55-ZIu4ZerYgIj0iRTiNuy9pUUBJykkQ2rKUFoSLJhI1hE72-ap-opy8whBD5KOiNNni-YPyNLRnn-eYUaS7t_0etiaggNCIxzxeFvRlY1U3DRIYKoVZLbFqIGt30XryyVpY_ceb8J2DJ178&v=c1&r=https%3A%2F%2Fwww.amazon.ca%2Fstores%2Fpage%2F279076D3-9EB5-45FE-8C95-500213143861%3Fstore_ref%3DSB_A04387241XLBRXTGNK272-A09024481ANSICM7U4Z0D%26pd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26lp_asins%3DB082VXLF3H%2CB0002E2GQU%26lp_query%3Dterro%26lp_slot%3Ddesktop-hsa-3psl%26sdp_ad_group%3D300035767263004%26i%3Daps%26aref%3DuJ9x9EfAqr&ref_=sbx_be_s_3psl_mbd_mb1_bkgd&pd_rd_w=wZCU2&content-id=amzn1.sym.34848826-10f1-4dd5-89af-10553fe5612d%3Aamzn1.sym.34848826-10f1-4dd5-89af-10553fe5612d&pf_rd_p=34848826-10f1-4dd5-89af-10553fe5612d&pf_rd_r=JTJGTQGQ5VA627CWSA5C&pd_rd_wg=Ob3vd&pd_rd_r=feae2304-6591-46f2-aa82-b6e3a75d8e4b
+                        - link "Elevate Your Coffee With Lavazza Super Crema" [ref=f171e364] [cursor=pointer]:
+                          - /url: https://sponsored-ads.amazon.ca/clk/?_encoding=UTF8&p=eAFdkMtu00AYhdVWQAkVVFm0UpaRyKJikvH4FleykMd23dA0zZVW3Ywm9sSx6tjOzKQJLLJhxRYk9uWZ2LHiCXgEUMpFgrM6vz4d_UenFO1-__Hty8PyUwf5o55yOQzcIQ5QdUs5OpiwLFkR47IzchIdr8Z6h_rDxvFBO01nKMrAxa16Ou96nOkjM1j2nxh63dLrioHq8Hp7gMe7jj889futQfmw9Chi4kbmRXlv1On77kXQaV37XuX9Vml3Q8hYTsqP6Yy-zbN6SCvPp4ICzsJ8NmNZRGWSZ0AwfpuEDAhGeTgFYzmpPmAZcZ0jNFukMgFjTrMIhJxRmdwy8PsjCCmPBChokknGQZhnkmUS7Z9jl6jdQZt4_uBseNGtNktbyv7nD1_f3d15lf0_6U0RtRBp9ZkKIVR01dSghRA00I7reMc7btc96pexhx23OGmBVbzG81-KnTXuFVbXOnf-1RrHa9xbY-fexGt8jyt7buyvAieMY-OGoU_bpY_bUykLcdxoLJfL-t9xGkLmnIlGQWPWQKYFTcNTgeVjHWj6iQ-arqUDHUKkqIqmNg3l5X2AcDaxB5g4UFObJtKUqzbuXw2DzhkyEXCgBZGmNRWnM2i55-ZIu4ZerYgIj0iRTiNuy9pUUBJykkQ2rKUFoSLJhI1hE72-ap-opy8whBD5KOiNNni-YPyNLRnn-eYUaS7t_0etiaggNCIxzxeFvRlY1U3DRIYKoVZLbFqIGt30XryyVpY_ceb8J2DJ178&v=c1&r=https%3A%2F%2Fwww.amazon.ca%2Fstores%2Fpage%2F279076D3-9EB5-45FE-8C95-500213143861%3Fstore_ref%3DSB_A04387241XLBRXTGNK272-A09024481ANSICM7U4Z0D%26pd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26lp_asins%3DB082VXLF3H%2CB0002E2GQU%26lp_query%3Dterro%26lp_slot%3Ddesktop-hsa-3psl%26sdp_ad_group%3D300035767263004%26i%3Daps%26aref%3DuJ9x9EfAqr&ref_=sbx_be_s_3psl_mbd_mb1_hl&pd_rd_w=wZCU2&content-id=amzn1.sym.34848826-10f1-4dd5-89af-10553fe5612d%3Aamzn1.sym.34848826-10f1-4dd5-89af-10553fe5612d&pf_rd_p=34848826-10f1-4dd5-89af-10553fe5612d&pf_rd_r=JTJGTQGQ5VA627CWSA5C&pd_rd_wg=Ob3vd&pd_rd_r=feae2304-6591-46f2-aa82-b6e3a75d8e4b
+                          - generic [ref=f171e366]:
+                            - generic [ref=f171e367]: Elevate Your Coffee With Lavazza Super Crema
+                            - generic [ref=f171e368]: Elevate Your Coffee With Lavazza Super Crema
+              - generic [ref=f171e370]:
+                - generic:
+                  - generic:
+                    - link:
+                      - /url: https://sponsored-ads.amazon.ca/clk/?_encoding=UTF8&p=eAFdkM1u00AUhdVWQAkVVFkUKctIZFExyXhsj-1KFvLYThrapGn-SrOxJvbEMUlsd2baBBbZs0biEXgNHoAtL8CWTbfsQCk_EpzVufp0dI9OIdq9_fH1y_3iYwf5g3Plot9w-6SBylvK4cGEpckqwBftgZPoZDXW29Tv144OJq95vdnz-4Ol7FSTmVqVl-BV3H2E9aqlVxWMqnC03SPjXcfvH_vdZq_4tPAgYmIms7y4N2h3ffes0W6OfK_0bquwuyHBWE6KD-mCvs3SakhLz6aCAs7CbLFgaURlkqVAMH6ThAwIRnk4BWM5Kd9jaeA6h2hxPZcJGHOaRiDkjMrkhoHfH0FIeSRATpNUMg7CLJUslWi_RdxA7fROA8_vnfTPOmWzsIX2v91--v75o1fa_5PeFFFzMS8_USGECFmKAQ0VQox2XMc72nE77mG3SDziuHm9CVbxmlz9UuysyXludayW86_WJF6T8zVx7ky8Jne4tOfG_qrhhHGMZwx92C68355KmYujWm25XFb_jlMTMuNM1HIas5plqrpW9xEwDKwBzVRVYOlEB4ZiYewRhA1MXtwFAs4mdo8EDtQtFVsG0kbDC6XZGmJ0OQQOxJqlaJZS70DDQ86JeWL2KnkU8CjI59OI27IyFTQIeZBENqzM84CKJBU2ga7-ErfcRus5gW7dPB329eMNvrpm_I0tGefZ5hTzTNr_j1oRUR7QKIh5dp3bm4E1AyumAlUdapXEprmo0E3vK1e0ZjcLUzd-An5k2RU&v=c1&r=https%3A%2F%2Fwww.amazon.ca%2Fstores%2Fpage%2F98354FE2-7764-4833-95B5-71966DB2676B%3Fstore_ref%3DSB_A059369724ZVW1IMV62YV-A06491491FP07D2AK8K8S%26pd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26lp_asins%3DB0C5J6MCGM%2CB0CF8LVT5H%26lp_query%3Dterro%26lp_slot%3Ddesktop-hsa-3psl%26sdp_ad_group%3D300047618103504%26i%3Daps%26aref%3DqCsMkvm857&ref_=sbx_be_s_3psl_mbd_mb2_bkgd&pd_rd_w=wZCU2&content-id=amzn1.sym.34848826-10f1-4dd5-89af-10553fe5612d%3Aamzn1.sym.34848826-10f1-4dd5-89af-10553fe5612d&pf_rd_p=34848826-10f1-4dd5-89af-10553fe5612d&pf_rd_r=JTJGTQGQ5VA627CWSA5C&pd_rd_wg=Ob3vd&pd_rd_r=feae2304-6591-46f2-aa82-b6e3a75d8e4b
+                    - link [ref=f171e371] [cursor=pointer]:
+                      - /url: https://sponsored-ads.amazon.ca/clk/?_encoding=UTF8&p=eAFdkM1u00AUhdVWQAkVVFkUKctIZFExyXhsj-1KFvLYThrapGn-SrOxJvbEMUlsd2baBBbZs0biEXgNHoAtL8CWTbfsQCk_EpzVufp0dI9OIdq9_fH1y_3iYwf5g3Plot9w-6SBylvK4cGEpckqwBftgZPoZDXW29Tv144OJq95vdnz-4Ol7FSTmVqVl-BV3H2E9aqlVxWMqnC03SPjXcfvH_vdZq_4tPAgYmIms7y4N2h3ffes0W6OfK_0bquwuyHBWE6KD-mCvs3SakhLz6aCAs7CbLFgaURlkqVAMH6ThAwIRnk4BWM5Kd9jaeA6h2hxPZcJGHOaRiDkjMrkhoHfH0FIeSRATpNUMg7CLJUslWi_RdxA7fROA8_vnfTPOmWzsIX2v91--v75o1fa_5PeFFFzMS8_USGECFmKAQ0VQox2XMc72nE77mG3SDziuHm9CVbxmlz9UuysyXludayW86_WJF6T8zVx7ky8Jne4tOfG_qrhhHGMZwx92C68355KmYujWm25XFb_jlMTMuNM1HIas5plqrpW9xEwDKwBzVRVYOlEB4ZiYewRhA1MXtwFAs4mdo8EDtQtFVsG0kbDC6XZGmJ0OQQOxJqlaJZS70DDQ86JeWL2KnkU8CjI59OI27IyFTQIeZBENqzM84CKJBU2ga7-ErfcRus5gW7dPB329eMNvrpm_I0tGefZ5hTzTNr_j1oRUR7QKIh5dp3bm4E1AyumAlUdapXEprmo0E3vK1e0ZjcLUzd-An5k2RU&v=c1&r=https%3A%2F%2Fwww.amazon.ca%2Fstores%2Fpage%2F98354FE2-7764-4833-95B5-71966DB2676B%3Fstore_ref%3DSB_A059369724ZVW1IMV62YV-A06491491FP07D2AK8K8S%26pd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26lp_asins%3DB0C5J6MCGM%2CB0CF8LVT5H%26lp_query%3Dterro%26lp_slot%3Ddesktop-hsa-3psl%26sdp_ad_group%3D300047618103504%26i%3Daps%26aref%3DqCsMkvm857&ref_=sbx_be_s_3psl_mbd_mb2_ls&pd_rd_w=wZCU2&content-id=amzn1.sym.34848826-10f1-4dd5-89af-10553fe5612d%3Aamzn1.sym.34848826-10f1-4dd5-89af-10553fe5612d&pf_rd_p=34848826-10f1-4dd5-89af-10553fe5612d&pf_rd_r=JTJGTQGQ5VA627CWSA5C&pd_rd_wg=Ob3vd&pd_rd_r=feae2304-6591-46f2-aa82-b6e3a75d8e4b
+                      - img "Vevor" [ref=f171e372]
+                    - generic [ref=f171e374]:
+                      - generic [ref=f171e375]:
+                        - link [ref=f171e376] [cursor=pointer]:
+                          - /url: https://sponsored-ads.amazon.ca/clk/?_encoding=UTF8&p=eAFdkM1u00AUhdVWQAkVVFkUKctIZFExyXhsj-1KFvLYThrapGn-SrOxJvbEMUlsd2baBBbZs0biEXgNHoAtL8CWTbfsQCk_EpzVufp0dI9OIdq9_fH1y_3iYwf5g3Plot9w-6SBylvK4cGEpckqwBftgZPoZDXW29Tv144OJq95vdnz-4Ol7FSTmVqVl-BV3H2E9aqlVxWMqnC03SPjXcfvH_vdZq_4tPAgYmIms7y4N2h3ffes0W6OfK_0bquwuyHBWE6KD-mCvs3SakhLz6aCAs7CbLFgaURlkqVAMH6ThAwIRnk4BWM5Kd9jaeA6h2hxPZcJGHOaRiDkjMrkhoHfH0FIeSRATpNUMg7CLJUslWi_RdxA7fROA8_vnfTPOmWzsIX2v91--v75o1fa_5PeFFFzMS8_USGECFmKAQ0VQox2XMc72nE77mG3SDziuHm9CVbxmlz9UuysyXludayW86_WJF6T8zVx7ky8Jne4tOfG_qrhhHGMZwx92C68355KmYujWm25XFb_jlMTMuNM1HIas5plqrpW9xEwDKwBzVRVYOlEB4ZiYewRhA1MXtwFAs4mdo8EDtQtFVsG0kbDC6XZGmJ0OQQOxJqlaJZS70DDQ86JeWL2KnkU8CjI59OI27IyFTQIeZBENqzM84CKJBU2ga7-ErfcRus5gW7dPB329eMNvrpm_I0tGefZ5hTzTNr_j1oRUR7QKIh5dp3bm4E1AyumAlUdapXEprmo0E3vK1e0ZjcLUzd-An5k2RU&v=c1&r=https%3A%2F%2Fwww.amazon.ca%2Fstores%2Fpage%2F98354FE2-7764-4833-95B5-71966DB2676B%3Fstore_ref%3DSB_A059369724ZVW1IMV62YV-A06491491FP07D2AK8K8S%26pd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26lp_asins%3DB0C5J6MCGM%2CB0CF8LVT5H%26lp_query%3Dterro%26lp_slot%3Ddesktop-hsa-3psl%26sdp_ad_group%3D300047618103504%26i%3Daps%26aref%3DqCsMkvm857&ref_=sbx_be_s_3psl_mbd_mb2_bkgd&pd_rd_w=wZCU2&content-id=amzn1.sym.34848826-10f1-4dd5-89af-10553fe5612d%3Aamzn1.sym.34848826-10f1-4dd5-89af-10553fe5612d&pf_rd_p=34848826-10f1-4dd5-89af-10553fe5612d&pf_rd_r=JTJGTQGQ5VA627CWSA5C&pd_rd_wg=Ob3vd&pd_rd_r=feae2304-6591-46f2-aa82-b6e3a75d8e4b
+                        - link [ref=f171e377] [cursor=pointer]:
+                          - /url: https://sponsored-ads.amazon.ca/clk/?_encoding=UTF8&p=eAFdkM1u00AUhdVWQAkVVFkUKctIZFExyXhsj-1KFvLYThrapGn-SrOxJvbEMUlsd2baBBbZs0biEXgNHoAtL8CWTbfsQCk_EpzVufp0dI9OIdq9_fH1y_3iYwf5g3Plot9w-6SBylvK4cGEpckqwBftgZPoZDXW29Tv144OJq95vdnz-4Ol7FSTmVqVl-BV3H2E9aqlVxWMqnC03SPjXcfvH_vdZq_4tPAgYmIms7y4N2h3ffes0W6OfK_0bquwuyHBWE6KD-mCvs3SakhLz6aCAs7CbLFgaURlkqVAMH6ThAwIRnk4BWM5Kd9jaeA6h2hxPZcJGHOaRiDkjMrkhoHfH0FIeSRATpNUMg7CLJUslWi_RdxA7fROA8_vnfTPOmWzsIX2v91--v75o1fa_5PeFFFzMS8_USGECFmKAQ0VQox2XMc72nE77mG3SDziuHm9CVbxmlz9UuysyXludayW86_WJF6T8zVx7ky8Jne4tOfG_qrhhHGMZwx92C68355KmYujWm25XFb_jlMTMuNM1HIas5plqrpW9xEwDKwBzVRVYOlEB4ZiYewRhA1MXtwFAs4mdo8EDtQtFVsG0kbDC6XZGmJ0OQQOxJqlaJZS70DDQ86JeWL2KnkU8CjI59OI27IyFTQIeZBENqzM84CKJBU2ga7-ErfcRus5gW7dPB329eMNvrpm_I0tGefZ5hTzTNr_j1oRUR7QKIh5dp3bm4E1AyumAlUdapXEprmo0E3vK1e0ZjcLUzd-An5k2RU&v=c1&r=https%3A%2F%2Fwww.amazon.ca%2Fstores%2Fpage%2F98354FE2-7764-4833-95B5-71966DB2676B%3Fstore_ref%3DSB_A059369724ZVW1IMV62YV-A06491491FP07D2AK8K8S%26pd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26lp_asins%3DB0C5J6MCGM%2CB0CF8LVT5H%26lp_query%3Dterro%26lp_slot%3Ddesktop-hsa-3psl%26sdp_ad_group%3D300047618103504%26i%3Daps%26aref%3DqCsMkvm857&ref_=sbx_be_s_3psl_mbd_mb2_logo&pd_rd_w=wZCU2&content-id=amzn1.sym.34848826-10f1-4dd5-89af-10553fe5612d%3Aamzn1.sym.34848826-10f1-4dd5-89af-10553fe5612d&pf_rd_p=34848826-10f1-4dd5-89af-10553fe5612d&pf_rd_r=JTJGTQGQ5VA627CWSA5C&pd_rd_wg=Ob3vd&pd_rd_r=feae2304-6591-46f2-aa82-b6e3a75d8e4b
+                          - img "Vevor" [ref=f171e379]
+                      - generic [ref=f171e380]:
+                        - link [ref=f171e381] [cursor=pointer]:
+                          - /url: https://sponsored-ads.amazon.ca/clk/?_encoding=UTF8&p=eAFdkM1u00AUhdVWQAkVVFkUKctIZFExyXhsj-1KFvLYThrapGn-SrOxJvbEMUlsd2baBBbZs0biEXgNHoAtL8CWTbfsQCk_EpzVufp0dI9OIdq9_fH1y_3iYwf5g3Plot9w-6SBylvK4cGEpckqwBftgZPoZDXW29Tv144OJq95vdnz-4Ol7FSTmVqVl-BV3H2E9aqlVxWMqnC03SPjXcfvH_vdZq_4tPAgYmIms7y4N2h3ffes0W6OfK_0bquwuyHBWE6KD-mCvs3SakhLz6aCAs7CbLFgaURlkqVAMH6ThAwIRnk4BWM5Kd9jaeA6h2hxPZcJGHOaRiDkjMrkhoHfH0FIeSRATpNUMg7CLJUslWi_RdxA7fROA8_vnfTPOmWzsIX2v91--v75o1fa_5PeFFFzMS8_USGECFmKAQ0VQox2XMc72nE77mG3SDziuHm9CVbxmlz9UuysyXludayW86_WJF6T8zVx7ky8Jne4tOfG_qrhhHGMZwx92C68355KmYujWm25XFb_jlMTMuNM1HIas5plqrpW9xEwDKwBzVRVYOlEB4ZiYewRhA1MXtwFAs4mdo8EDtQtFVsG0kbDC6XZGmJ0OQQOxJqlaJZS70DDQ86JeWL2KnkU8CjI59OI27IyFTQIeZBENqzM84CKJBU2ga7-ErfcRus5gW7dPB329eMNvrpm_I0tGefZ5hTzTNr_j1oRUR7QKIh5dp3bm4E1AyumAlUdapXEprmo0E3vK1e0ZjcLUzd-An5k2RU&v=c1&r=https%3A%2F%2Fwww.amazon.ca%2Fstores%2Fpage%2F98354FE2-7764-4833-95B5-71966DB2676B%3Fstore_ref%3DSB_A059369724ZVW1IMV62YV-A06491491FP07D2AK8K8S%26pd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26lp_asins%3DB0C5J6MCGM%2CB0CF8LVT5H%26lp_query%3Dterro%26lp_slot%3Ddesktop-hsa-3psl%26sdp_ad_group%3D300047618103504%26i%3Daps%26aref%3DqCsMkvm857&ref_=sbx_be_s_3psl_mbd_mb2_bkgd&pd_rd_w=wZCU2&content-id=amzn1.sym.34848826-10f1-4dd5-89af-10553fe5612d%3Aamzn1.sym.34848826-10f1-4dd5-89af-10553fe5612d&pf_rd_p=34848826-10f1-4dd5-89af-10553fe5612d&pf_rd_r=JTJGTQGQ5VA627CWSA5C&pd_rd_wg=Ob3vd&pd_rd_r=feae2304-6591-46f2-aa82-b6e3a75d8e4b
+                        - link "VEVOR Utility Service Cart" [ref=f171e382] [cursor=pointer]:
+                          - /url: https://sponsored-ads.amazon.ca/clk/?_encoding=UTF8&p=eAFdkM1u00AUhdVWQAkVVFkUKctIZFExyXhsj-1KFvLYThrapGn-SrOxJvbEMUlsd2baBBbZs0biEXgNHoAtL8CWTbfsQCk_EpzVufp0dI9OIdq9_fH1y_3iYwf5g3Plot9w-6SBylvK4cGEpckqwBftgZPoZDXW29Tv144OJq95vdnz-4Ol7FSTmVqVl-BV3H2E9aqlVxWMqnC03SPjXcfvH_vdZq_4tPAgYmIms7y4N2h3ffes0W6OfK_0bquwuyHBWE6KD-mCvs3SakhLz6aCAs7CbLFgaURlkqVAMH6ThAwIRnk4BWM5Kd9jaeA6h2hxPZcJGHOaRiDkjMrkhoHfH0FIeSRATpNUMg7CLJUslWi_RdxA7fROA8_vnfTPOmWzsIX2v91--v75o1fa_5PeFFFzMS8_USGECFmKAQ0VQox2XMc72nE77mG3SDziuHm9CVbxmlz9UuysyXludayW86_WJF6T8zVx7ky8Jne4tOfG_qrhhHGMZwx92C68355KmYujWm25XFb_jlMTMuNM1HIas5plqrpW9xEwDKwBzVRVYOlEB4ZiYewRhA1MXtwFAs4mdo8EDtQtFVsG0kbDC6XZGmJ0OQQOxJqlaJZS70DDQ86JeWL2KnkU8CjI59OI27IyFTQIeZBENqzM84CKJBU2ga7-ErfcRus5gW7dPB329eMNvrpm_I0tGefZ5hTzTNr_j1oRUR7QKIh5dp3bm4E1AyumAlUdapXEprmo0E3vK1e0ZjcLUzd-An5k2RU&v=c1&r=https%3A%2F%2Fwww.amazon.ca%2Fstores%2Fpage%2F98354FE2-7764-4833-95B5-71966DB2676B%3Fstore_ref%3DSB_A059369724ZVW1IMV62YV-A06491491FP07D2AK8K8S%26pd_rd_plhdr%3Dt%26hsa_cr_id%3D0%26lp_asins%3DB0C5J6MCGM%2CB0CF8LVT5H%26lp_query%3Dterro%26lp_slot%3Ddesktop-hsa-3psl%26sdp_ad_group%3D300047618103504%26i%3Daps%26aref%3DqCsMkvm857&ref_=sbx_be_s_3psl_mbd_mb2_hl&pd_rd_w=wZCU2&content-id=amzn1.sym.34848826-10f1-4dd5-89af-10553fe5612d%3Aamzn1.sym.34848826-10f1-4dd5-89af-10553fe5612d&pf_rd_p=34848826-10f1-4dd5-89af-10553fe5612d&pf_rd_r=JTJGTQGQ5VA627CWSA5C&pd_rd_wg=Ob3vd&pd_rd_r=feae2304-6591-46f2-aa82-b6e3a75d8e4b
+                          - generic [ref=f171e384]:
+                            - generic [ref=f171e385]: VEVOR Utility Service Cart
+                            - generic [ref=f171e386]: VEVOR Utility Service Cart
+        - generic [ref=f171e392]:
+          - heading "Need help?" [level=2] [ref=f171e395]
+          - generic [ref=f171e396]:
+            - link "Visit the help section" [ref=f171e397] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=918718
+            - text: or
+            - link "contact us" [ref=f171e398] [cursor=pointer]:
+              - /url: /gp/help/customer/contact-us
+        - generic [ref=f171e401]:
+          - iframe [ref=f171e402]:
+            - generic [ref=f172e3]:
+              - generic [ref=f172e4]: "Click to navigate to product detail page Sponsored Ad. Product image. Branded image. Olay Face Moisturizer, Regenerist Micro-Sculpting Facial Cream for Women - Instant Hydration, Anti-Aging, Anti-Wrinkle, Firming Skin Care - Hyaluronic Acid, Niacinamide, Amino Peptides, 50 mL. Price: $30.36."
+              - img "Product image" [ref=f172e12]
+              - link "Click to navigate to product detail page" [ref=f172e16] [cursor=pointer]:
+                - /url: https://www.amazon.ca/dp/B0012J30LY?aref=QM7LMZEPcn&aaxitk=8bad247226745a295846581157176d00&language=en_CA&pd_rd_plhdr=t&ref=dacx_dp_584056573136723107_587937547440624411
+          - button "Leave feedback on Sponsored ad" [ref=f171e404] [cursor=pointer]:
+            - generic [ref=f171e405]: Sponsored
+      - link "Go back to the filtering menu" [ref=f171e407] [cursor=pointer]:
+        - /url: "#s-skipLinkTargetForFilterOptions"
+    - dialog "Filters" [ref=f171e408]:
+      - generic [ref=f171e409]:
+        - link "Skip to the main search results" [ref=f171e410] [cursor=pointer]:
+          - /url: "#s-skipLinkTargetForMainSearchResults"
+        - generic [ref=f171e416]:
+          - iframe [ref=f171e417]:
+            - region "Sponsored ad from Acmind" [ref=f173e3]:
+              - link "Acmind Buy now 10 Pack Fruit Fly Trap Indoor – Hanging Fly Traps, Purely Physical Fly Catcher, No Chemicals, Safe for Home & Kitchen 10 Pack Fruit Fly Trap Indoor – Hanging Fly Traps, Purely Physical Fly Catcher, No Chemicals, Safe for Home & Kitchen $20.99 Eligible for Amazon Prime." [ref=f173e4] [cursor=pointer]:
+                - generic [ref=f173e5]:
+                  - generic [ref=f173e6]:
+                    - generic [ref=f173e7]: Acmind
+                    - generic [ref=f173e8]: Buy now
+                  - img "10 Pack Fruit Fly Trap Indoor – Hanging Fly Traps, Purely Physical Fly Catcher, No Chemicals, Safe for Home & Kitchen" [ref=f173e16]
+                  - generic [ref=f173e17]:
+                    - generic [ref=f173e18]: 10 Pack Fruit Fly Trap Indoor – Hanging Fly Traps, Purely Physical Fly Catcher, No Chemicals, Safe for Home & Kitchen
+                    - generic [ref=f173e24]:
+                      - generic [ref=f173e25]: $20.99
+                      - generic [ref=f173e26]:
+                        - generic [ref=f173e27]: $
+                        - generic [ref=f173e28]: "20"
+                        - generic [ref=f173e29]: "99"
+                      - img "Eligible for Amazon Prime." [ref=f173e32]
+          - button "Leave feedback on Sponsored ad" [ref=f171e419] [cursor=pointer]:
+            - generic [ref=f171e420]: Sponsored
+  - complementary "Your recently viewed items and featured recommendations"
+  - generic [ref=f171e422]:
+    - button "Back to top" [ref=f171e423] [cursor=pointer]
+    - generic [ref=f171e425]:
+      - generic [ref=f171e426]:
+        - heading "Get to Know Us" [level=6] [ref=f171e427]
+        - list [ref=f171e428]:
+          - listitem [ref=f171e429]:
+            - link "Careers" [ref=f171e430] [cursor=pointer]:
+              - /url: https://www.amazon.jobs
+          - listitem [ref=f171e431]:
+            - link "Amazon and Our Planet" [ref=f171e432] [cursor=pointer]:
+              - /url: https://www.aboutamazon.ca/planet/?ref=footer_corpres
+          - listitem [ref=f171e433]:
+            - link "Modern Slavery Statement" [ref=f171e434] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=GXYZF9M33FRJ5TMA
+          - listitem [ref=f171e435]:
+            - link "Investor Relations" [ref=f171e436] [cursor=pointer]:
+              - /url: https://www.amazon.ca/ir
+          - listitem [ref=f171e437]:
+            - link "Press Releases" [ref=f171e438] [cursor=pointer]:
+              - /url: https://www.amazon.ca/pr
+          - listitem [ref=f171e439]:
+            - link "Amazon Science" [ref=f171e440] [cursor=pointer]:
+              - /url: https://www.amazon.science
+      - generic [ref=f171e442]:
+        - heading "Make Money with Us" [level=6] [ref=f171e443]
+        - list [ref=f171e444]:
+          - listitem [ref=f171e445]:
+            - link "Sell on Amazon" [ref=f171e446] [cursor=pointer]:
+              - /url: https://sell.amazon.ca/en?ld=AZFSSOA-CA-footer&ref_=footer_soa
+          - listitem [ref=f171e447]:
+            - link "Supply to Amazon" [ref=f171e448] [cursor=pointer]:
+              - /url: https://supply.amazon.ca?ref_=footer_sta
+          - listitem [ref=f171e449]:
+            - link "Become an Affiliate" [ref=f171e450] [cursor=pointer]:
+              - /url: https://associates.amazon.ca
+          - listitem [ref=f171e451]:
+            - link "Protect & Build Your Brand" [ref=f171e452] [cursor=pointer]:
+              - /url: https://brandservices.amazon.ca/?ref=AOCAABRLGNRFOOT&ld=AOCAABRLGNRFOOT
+          - listitem [ref=f171e453]:
+            - link "Sell on Amazon Handmade" [ref=f171e454] [cursor=pointer]:
+              - /url: https://sell.amazon.ca/en/programs/handmade/?ld=AZCAHND-footer&ref_=footer_sell
+          - listitem [ref=f171e455]:
+            - link "Advertise Your Products" [ref=f171e456] [cursor=pointer]:
+              - /url: https://advertising.amazon.ca/?ref=footer_advtsing_amzn_ca
+          - listitem [ref=f171e457]:
+            - link "Independently Publish with Us" [ref=f171e458] [cursor=pointer]:
+              - /url: https://kdp.amazon.com?language=en_US
+          - listitem [ref=f171e459]:
+            - link "Host an Amazon Hub" [ref=f171e460] [cursor=pointer]:
+              - /url: https://www.amazon.ca/b?ie=UTF8&node=15576834011
+      - generic [ref=f171e462]:
+        - heading "Amazon Payment Products" [level=6] [ref=f171e463]
+        - list [ref=f171e464]:
+          - listitem [ref=f171e465]:
+            - link "Amazon.ca Rewards Mastercard" [ref=f171e466] [cursor=pointer]:
+              - /url: /dp/B07MJM4F44?plattr=CACBCCFOOT&ref_=nav_cbcc_ca_footer
+          - listitem [ref=f171e467]:
+            - link "Shop with Points" [ref=f171e468] [cursor=pointer]:
+              - /url: https://www.amazon.ca/hp/shopwithpoints/servicing
+          - listitem [ref=f171e469]:
+            - link "Reload Your Balance" [ref=f171e470] [cursor=pointer]:
+              - /url: /gp/gc/create?ref_=footer_reload_ca
+          - listitem [ref=f171e471]:
+            - link "Amazon Currency Converter" [ref=f171e472] [cursor=pointer]:
+              - /url: /gp/browse.html?node=8438004011&ref_=footer_tfx_ca_en
+          - listitem [ref=f171e473]:
+            - link "Gift Cards" [ref=f171e474] [cursor=pointer]:
+              - /url: /gp/browse.html?node=9230166011&ref_=footer_gift_cards_ca_en
+          - listitem [ref=f171e475]:
+            - link "Amazon Cash" [ref=f171e476] [cursor=pointer]:
+              - /url: /gp/browse.html?node=17321486011&ref_=footer_cash_ca_en
+      - generic [ref=f171e478]:
+        - heading "Let Us Help You" [level=6] [ref=f171e479]
+        - list [ref=f171e480]:
+          - listitem [ref=f171e481]:
+            - link "Shipping Rates & Policies" [ref=f171e482] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=915470&ref_=footer_shiprates
+          - listitem [ref=f171e483]:
+            - link "Amazon Prime" [ref=f171e484] [cursor=pointer]:
+              - /url: /gp/prime?ref_=footer_prime
+          - listitem [ref=f171e485]:
+            - link "Returns Are Easy" [ref=f171e486] [cursor=pointer]:
+              - /url: /gp/css/returns/homepage.html?ref_=footer_hy_f_4
+          - listitem [ref=f171e487]:
+            - link "Manage your Content and Devices" [ref=f171e488] [cursor=pointer]:
+              - /url: /hz/mycd/myx?ref_=footer_myk
+          - listitem [ref=f171e489]:
+            - link "Recalls and Product Safety Alerts" [ref=f171e490] [cursor=pointer]:
+              - /url: https://www.amazon.ca/product-safety-alerts?ref_=footer_bsx_ypsa
+          - listitem [ref=f171e491]:
+            - link "Registry & Gift List" [ref=f171e492] [cursor=pointer]:
+              - /url: /registries?ref_=nav_footer_registry_giftlist_desktop
+          - listitem [ref=f171e493]:
+            - link "Customer Service" [ref=f171e494] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=508510&ref_=footer_gw_m_b_he
+    - generic [ref=f171e496]:
+      - link "Amazon Canada Home" [ref=f171e499] [cursor=pointer]:
+        - /url: /?ref_=footer_logo
+      - generic [ref=f171e502]:
+        - generic [ref=f171e503]:
+          - link "Choose a language for shopping. Current selection is English." [ref=f171e504] [cursor=pointer]:
+            - /url: /customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=footer_lang
+            - generic [ref=f171e506]: English
+          - button "Expand to Change Language or Country" [ref=f171e507] [cursor=pointer]
+        - button "Choose a country/region for shopping. The current selection is Canada." [ref=f171e508] [cursor=pointer]:
+          - generic [ref=f171e510]: Canada
+    - generic "More on Amazon" [ref=f171e511]:
+      - generic "More on Amazon" [ref=f171e512]:
+        - list [ref=f171e513]:
+          - listitem [ref=f171e514]:
+            - link [ref=f171e515] [cursor=pointer]:
+              - /url: https://music.amazon.ca?ref=dm_aff_amz_ca
+              - heading "Amazon Music" [level=5] [ref=f171e516]
+              - generic [ref=f171e517]: Stream millionsof songs
+          - listitem [ref=f171e518]
+          - listitem [ref=f171e519]:
+            - link "Amazon Advertising Find, attract and engage customers" [ref=f171e520] [cursor=pointer]:
+              - /url: https://advertising.amazon.ca/?ref=footer_advtsing_amzn_ca
+              - heading "Amazon Advertising" [level=5] [ref=f171e521]
+              - generic [ref=f171e522]: Find, attract and engage customers
+          - listitem [ref=f171e523]
+          - listitem [ref=f171e524]:
+            - link [ref=f171e525] [cursor=pointer]:
+              - /url: /business?ref_=footer_retail_b2b
+              - heading "Amazon Business" [level=5] [ref=f171e526]
+              - generic [ref=f171e527]: Everything foryour business
+          - listitem [ref=f171e528]
+          - listitem [ref=f171e529]:
+            - link [ref=f171e530] [cursor=pointer]:
+              - /url: https://www.abebooks.com
+              - heading "AbeBooks" [level=5] [ref=f171e531]
+              - generic [ref=f171e532]: Books, art& collectables
+          - listitem [ref=f171e533]
+          - listitem [ref=f171e534]:
+            - link [ref=f171e535] [cursor=pointer]:
+              - /url: /gp/browse.html?node=16055945011&ref_=_ca_footer_drive
+              - heading "Amazon Drive" [level=5] [ref=f171e536]
+              - generic [ref=f171e537]: Cloud storagefrom Amazon
+        - list [ref=f171e538]:
+          - listitem [ref=f171e539]:
+            - link [ref=f171e540] [cursor=pointer]:
+              - /url: https://aws.amazon.com/what-is-cloud-computing/?sc_channel=EL&sc_campaign=CA_amazonfooter
+              - heading "Amazon Web Services" [level=5] [ref=f171e541]
+              - generic [ref=f171e542]: Scalable CloudComputing Services
+          - listitem [ref=f171e543]
+          - listitem [ref=f171e544]:
+            - link [ref=f171e545] [cursor=pointer]:
+              - /url: https://www.goodreads.com/
+              - heading "Goodreads" [level=5] [ref=f171e546]
+              - generic [ref=f171e547]: Book reviews& recommendations
+          - listitem [ref=f171e548]
+          - listitem [ref=f171e549]:
+            - link [ref=f171e550] [cursor=pointer]:
+              - /url: https://www.imdb.com/
+              - heading "IMDb" [level=5] [ref=f171e551]
+              - generic [ref=f171e552]: Movies, TV& Celebrities
+          - listitem [ref=f171e553]
+          - listitem [ref=f171e554]:
+            - link [ref=f171e555] [cursor=pointer]:
+              - /url: /gp/browse.html?node=16055944011&ref_=_gno_p_foot
+              - heading "Amazon Photos" [level=5] [ref=f171e556]
+              - generic [ref=f171e557]: Unlimited Photo StorageFree With Prime
+          - listitem [ref=f171e558]
+          - listitem [ref=f171e559]:
+            - link [ref=f171e560] [cursor=pointer]:
+              - /url: https://www.shopbop.com/
+              - heading "Shopbop" [level=5] [ref=f171e561]
+              - generic [ref=f171e562]: DesignerFashion Brands
+        - list [ref=f171e563]:
+          - listitem [ref=f171e564]:
+            - link [ref=f171e565] [cursor=pointer]:
+              - /url: /gp/browse.html?node=8929975011&ref_=footer_warehouse_deals
+              - heading "Amazon Resale" [level=5] [ref=f171e566]
+              - generic [ref=f171e567]: Great Deals onQuality Used Products
+          - listitem [ref=f171e568]
+          - listitem [ref=f171e569]:
+            - link [ref=f171e570] [cursor=pointer]:
+              - /url: https://www.wholefoodsmarket.com
+              - heading "Whole Foods Market" [level=5] [ref=f171e571]
+              - generic [ref=f171e572]: We Believe inReal Food
+          - listitem [ref=f171e573]
+          - listitem [ref=f171e574]:
+            - link [ref=f171e575] [cursor=pointer]:
+              - /url: /gp/browse.html?node=17351028011&ref_=footer_carenew
+              - heading "Amazon Renewed" [level=5] [ref=f171e576]
+              - generic [ref=f171e577]: Refurbished techyou can trust
+          - listitem [ref=f171e578]
+          - listitem [ref=f171e579]:
+            - link [ref=f171e580] [cursor=pointer]:
+              - /url: https://blinkforhome.com/?ref=nav_footer_ca
+              - heading "Blink" [level=5] [ref=f171e581]
+              - generic [ref=f171e582]: Smart Securityfor Every Home
+          - listitem [ref=f171e583]
+          - listitem [ref=f171e584]
+    - generic [ref=f171e585]:
+      - list [ref=f171e586]:
+        - listitem [ref=f171e587]:
+          - link "Conditions of Use" [ref=f171e588] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=918816&ref_=footer_cou
+        - listitem [ref=f171e589]:
+          - link "Privacy Notice" [ref=f171e590] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=918814&ref_=footer_privacy
+        - listitem [ref=f171e591]:
+          - link "Cookies Notice" [ref=f171e592] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=GVASXV5UZ64R4Y25&ref_=footer_cookies_notice
+        - listitem [ref=f171e593]:
+          - link "Interest-Based Ads" [ref=f171e594] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=202146130&ref_=footer_iba
+      - generic [ref=f171e595]: © 1996-2026, Amazon.com, Inc. or its affiliates
+    - list [ref=f171e597]:
+      - listitem [ref=f171e598]: Amazon.com.ca ULC | 40 King Street W 47th Floor, Toronto, Ontario, Canada, M5H 3Y2 |1-877-586-3230

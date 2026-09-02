@@ -79,7 +79,7 @@ export default function BestMosquitoTrapCanadaPage() {
       </section>
 
       <AffiliateDisclosure />
-      <StickyBuyBar tag={AMZ_TAG} name="Mosquito Magnet Patriot Plus (propane CO₂ trap)" search="mosquito magnet trap" label="Best overall trap" />
+      <StickyBuyBar tag={AMZ_TAG} name="Mosquito Magnet Patriot Plus (propane CO₂ trap)" search="mosquito magnet trap" asin="B07QJY2NL1" label="Best overall trap" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -112,6 +112,7 @@ export default function BestMosquitoTrapCanadaPage() {
                 name: 'Mosquito Magnet Patriot Plus (propane CO₂)',
                 why: 'The only trap type that makes real CO₂ — the cue biting females hunt for. Independent testing supports 70–90% population reduction over 6–8 weeks on up to 1 acre.',
                 search: 'mosquito magnet trap',
+                asin: 'B07QJY2NL1',
                 score: 9.2,
                 featured: true,
                 pros: ['Genuinely reduces the biting population', 'Covers up to ~1 acre', 'Targets egg-laying females'],

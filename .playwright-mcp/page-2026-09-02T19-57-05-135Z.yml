@@ -1,0 +1,13 @@
+- generic [active] [ref=f143e1]:
+  - link "Amazon":
+    - /url: /
+    - img "Amazon" [ref=f143e2] [cursor=pointer]
+  - search [ref=f143e3]:
+    - generic [ref=f143e4]:
+      - textbox "Search" [ref=f143e5]
+      - button "Go" [ref=f143e6] [cursor=pointer]
+  - generic [ref=f143e7]:
+    - link [ref=f143e9] [cursor=pointer]:
+      - /url: /
+      - img "Sorry! We couldn't find that page. Try searching or go to Amazon's home page." [ref=f143e10]
+    - img "Dogs of Amazon" [ref=f143e12]

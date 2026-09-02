@@ -1296,3 +1296,368 @@ rat-specific and a rule-1 failure. Correctly rejected.
    card to one model would make it pinnable, but ClimbUp's .ca supply ($111.03/12 from a
    single 3-review reseller) should inform which model is chosen. The search fallback is
    currently returning correct product, so this is not urgent.
+
+---
+
+## Wave 3 — bed-bug concentrate / roach spray / CO2 trap batch (2026-09-02)
+
+Three pages assigned. **Zero pinned, three skipped.** Every hero failed rule 1 at the
+same place: the brand the article actually recommends has no live amazon.ca listing at
+all. No file in `app/blog/` was modified by this batch — the diff is this log entry only.
+
+All searches run live on amazon.ca on 2026-09-02, delivering to Brampton L6V, signed out.
+
+### Pinned
+
+None.
+
+### Skipped — search link kept
+
+| Slug | Hero as written | Why no pin |
+|---|---|---|
+| co2-mosquito-trap-canada | `StickyBuyBar` + featured award = **Biogents BG-Mosquitaire** (`search="biogents mosquitaire mosquito trap"`) | **Biogents does not sell on amazon.ca.** Three independent searches returned zero Biogents products of any kind |
+| crossfire-bed-bug-concentrate-review-canada | `StickyBuyBar` + `TopPick` = **PMRA-registered silica desiccant dust** (`search="cimexa insecticide dust bed bug"`) | **No amorphous-silica-gel insecticide dust exists on amazon.ca.** CimeXa is absent; the search returns diatomaceous earth and permethrin sprays, which are different chemistry |
+| best-cockroach-spray-canada | `StickyBuyBar` + featured award = **Combat roach bait stations** (`search="combat roach killing bait stations"`) | Only Combat-adjacent listing on .ca is **B0HDCKM1N9**, a brand-obfuscated `Generic` reseller item. Decisive rule-1 failure |
+
+### Verification notes for this batch
+
+**co2-mosquito-trap-canada — Biogents is simply not on amazon.ca.**
+Three queries, all zero brand hits:
+
+- `biogents` → 33 cards; top results are Mosquito Magnet, Trappify, Thermacell, Flowtron, Bite Shield. No Biogents.
+- `bg-mosquitaire` → header "1-48 of 95 results", 60 cards scanned, **0** matching `/biogents|mosquitaire|bg-gat|bg-home/`.
+- `biogents bg mosquitaire trap` filtered to Patio, Lawn & Garden → 33 cards, **0** hits.
+
+The page's own literal `search=` string (`biogents mosquitaire mosquito trap`, 168
+results) returns PALONE bug-zapper rackets, a STEM plug-in fly trap, ZENLEA and Master
+zappers, and octenol lure refills — i.e. the exact search-link failure this whole
+programme exists to fix, but with no pinnable target to fix it with.
+
+**A substitute was considered and rejected.** The obvious candidate is Mosquito Magnet
+(B07QFNSC8Z, already pinned on `laser-mosquito-killer-photon-matrix-review`). It is a
+rule-2 near-miss twice over: the StickyBuyBar and the featured card both read the brand
+name *"Biogents BG-Mosquitaire"*, and the article's thesis is explicitly that electric
+Biogents beats propane for GTA yards — the Quick Answer says propane traps "require a
+mandatory 20 lb tank" and cost "$350-$550/season" against "$60-$120". Pinning the
+runner-up under the winner's name would contradict the page's own verdict. Skip.
+
+**crossfire-bed-bug-concentrate-review-canada — the recommended chemistry is not sold here.**
+
+- `cimexa insecticide dust bed bug` (the live `search=` prop) → 41 cards, **zero CimeXa,
+  zero silica gel**. Returns ECOPEST/OnGuard permethrin concentrates, KNOCK DOWN and
+  Ortho Bed Bug B Gon diatomaceous earth, bed-bug glue traps, Raid aerosols, KONK.
+- `cimexa` → 33 cards, one single hit: **B0F44B2PDV**, a *Relime powder duster* that
+  merely lists "Cimexa" in its compatibility copy. The dust itself is not on .ca.
+- `silica gel desiccant dust insecticide bed bug` → 60 cards, 55 "silica" matches, all of
+  them **moisture-absorber packets** (wisedry, Dry & Dry, Wisesorb, Sukh, Fonday). Not
+  insecticides.
+- `amorphous silica gel insecticide dust bed bug duster` in Patio, Lawn & Garden → 21
+  cards; every relevant hit is a *duster applicator* (Aspectek B01D0I21CI, Dr. Killigan's
+  B078SK3R8Z) or diatomaceous earth (Eco-Way B0FP9P4399).
+
+**Substituting diatomaceous earth was considered and rejected on two grounds.** (1) The
+`TopPick` blurb names the mechanism precisely — "an **amorphous-silica-gel** desiccant
+dust" — and DE is a different material (fossilised diatoms) with different performance;
+pinning it would make the editorial text describe a product the button does not sell.
+(2) The page's entire thesis is *buy the thing with a Canadian PCP number*, and the DE
+listings surfaced lead with **"Food Grade"** (Doktor Doom B0F67FVMTP, KNOCK DOWN
+B01FV3O3JO, B098TX2Y4C) — food-grade DE carries no PCP registration and no Canadian label
+directions for killing insects. This is the `advion-cockroach-gel-bait-canada` precedent
+exactly: on a page that tells readers to refuse unregistered product, the pin would invert
+the article. Note the sister page `best-cockroach-spray-canada` makes this same point in
+its own award copy ("a generic 'diatomaceous earth' ... search returns mostly food- and
+craft-grade material that carries no PCP number").
+
+Also worth recording for the next checker: this hero is **class-based, not brand-based** —
+`name="PMRA-Registered Silica Desiccant Dust"`, no brand anywhere in the card. Same
+structural situation as `bed-bug-stains-poop-droppings-canada`. Until the editorial commits
+to a named, .ca-available registered product, there is nothing to pin even in principle.
+
+**best-cockroach-spray-canada — B0HDCKM1N9 re-verified live, still disqualifying.**
+Opened the product page directly on 2026-09-02:
+
+- Title: `Co-mbat Max, Roach-Kil-ling Bait (18ct)` — hyphens inserted mid-word to evade
+  brand matching.
+- **Brand: Generic. Manufacturer: Generic.** Place of Business `JYD2365123`.
+- **$49.99**, `$49.99/count`, seller **Quality--Shop** (third party), **Non-returnable**.
+- **"Only 2 left in stock"** — down from "Only 3 left" when the advion page checked it.
+- Breadcrumb: `Health & Personal Care › Vitamins, Minerals & Supplements › Herbal
+  Supplements`. A roach bait filed under herbal supplements.
+
+`combat roach killing bait stations` (60 cards) and `combat cockroach bait station henkel`
+(14 cards) both surface this as the *only* Combat-adjacent listing; everything else is
+sticky glue traps (MOUSINATOR, Coremaster, CatchCore), Raid ant baits, ECOPEST boron gel,
+and KNOCK DOWN DE. There is no first-party Henkel Combat listing on amazon.ca.
+
+This is the same skip already recorded for `advion-cockroach-gel-bait-canada`, and it is
+if anything more clear-cut here: this page's Quick Answer instructs the reader to check
+the pack for a "Reg. No. ___ P.C.P. Act" number, and the award card itself warns that
+"marketplace listings mix Canadian and US-imported stock". Pinning a `Generic`-branded,
+non-returnable, 2-in-stock reseller listing at $49.99 would be the precise behaviour the
+page tells readers to refuse.
+
+**Rule 2 note:** the secondary awards on this page (Raid Ant & Roach Killer, Safer's
+diatomaceous earth) were *not* evaluated for pinning and were left as search links, per
+the hero-only rule. Neither is the hero — the StickyBuyBar and the `featured: true` card
+are both Combat.
+
+### Constraint check
+
+- `git diff` on the three assigned pages: **no changes**. Zero `asin=` props added
+  anywhere; every existing `search=` prop untouched.
+- No title, meta, H1, Quick Answer, verdict, score, or prose edited on any of the three.
+- No price, star rating, review count, best-seller rank, image, or `AggregateRating`
+  schema added. Prices and stock figures appear in this log only, as verification
+  evidence — never on the pages.
+- No shared file touched (`lib/`, `components/`, `app/sitemap.ts`, `app/blog/page.tsx`).
+- Edit to this log is append-only.
+- `npx tsc --noEmit` exits 0.
+
+### Left for a human
+
+1. **`co2-mosquito-trap-canada` is unpinnable until Biogents lists on .ca, and that is a
+   revenue problem, not a link problem.** Every buy button on the page — hero, three award
+   cards, the CO2 booster, the BG-GAT kit — points at a brand Amazon Canada does not
+   stock, so each one lands the reader on zapper rackets and octenol refills. The article
+   is correct on the merits; the affiliate path underneath it does not exist on .ca. Worth
+   an editorial decision: either add a genuinely-available secondary pick, or accept the
+   page as traffic/authority rather than affiliate revenue.
+2. **`crossfire-bed-bug-concentrate-review-canada` has the same gap in milder form.** The
+   Canada-legal recommendation is real and the reasoning is sound, but the specific
+   chemistry it names cannot be bought on amazon.ca. The steamer and interceptor rows in
+   the same table *are* purchasable, and the steamer row already points at a product this
+   programme has pinned elsewhere (`dupray-steamer-review-canada` → B07C44DM6D) — a
+   possible editorial reshuffle of which tool is the hero, but that is a content decision,
+   not a link fix, and outside this batch's remit.
+3. **Combat's absence from amazon.ca is now confirmed twice** (advion page, this page). If
+   a third page names Combat as its hero, skip it without re-verifying from scratch — but
+   re-check quarterly, since a first-party Henkel listing appearing would make three pages
+   pinnable at once.
+
+## Wave 3 batch — black flies / no-see-ums / DynaTrap, checked 2026-09-02
+
+**Result: 0 pinned, 3 skipped.** All three heroes failed rule 1, for two different
+reasons. Two are class-named heroes (no brand in the card, so there is no brand/model to
+match); the third names an exact model that amazon.ca does not sell at all. No near-miss
+substitutes were made. Zero lines changed in all three page files.
+
+| Slug | Hero as written | ASIN | Action | Reason |
+|---|---|---|---|---|
+| dynatrap-canada-review | `StickyBuyBar` + featured `AwardCard` + `TopPick` = "DynaTrap DT3050 (1 acre + mosquito attractant fan)" | — | **SKIP** | **The DT3050 is not sold on amazon.ca.** Verified across four queries (`dynatrap dt3050`, `dynatrap insect trap`, `dynatrap 1 acre mosquito trap`, and `dynatrap` filtered to Patio/Lawn/Garden). The site's whole DynaTrap *trap* catalogue is two units: **B0DH5ZLK26 DT1130-CA** (1/2 acre LED, $129.99) and **B0GND1CY8C** (1/4-acre portable). No DT3050, no DT2030, no DT1050, no 1-acre model in any form. Everything else DynaTrap-branded on .ca is bulbs and glue cards. Substituting the DT1130-CA would be a rule-2 near-miss and worse: the article's stated and only reason to pick the DT3050 is that it is "the only model in the Canadian lineup that adds a dedicated mosquito-attractant fan… That is the feature worth paying for." The DT1130-CA has no attractant fan, and is half the coverage. Pinning it under a bar reading "DT3050 (1 acre + attractant fan)" would be a straight falsehood |
+| black-flies-ontario-when-they-come-out | `StickyBuyBar` "Picaridin (icaridin) insect repellent" + `TopPick` "Picaridin (Icaridin) Insect Repellent" | — | **SKIP** | **Class-named hero — the page names no repellent brand anywhere** (the only brand token on the page is "sawyer" inside a *secondary* inline permethrin BuyLink). Same ground as the bed-bug-stains skip in the prior wave. Compounding it: the search is **healthy, not broken** — `picaridin insect repellent canada` returns **B0BYFF3S3V Natrapel Icaridin 100 mL at #1** ($11.53) and the 170 g variant at #2, i.e. the search already lands on the site's own established house pick, with Care Plus 20% Icaridin, Ben's Icaridin and PiACTIVE 20% below it. No junk, no wrong category, no markup. A pin buys ~nothing here and costs honesty: rule 4 forbids renaming the card, so a generic "Picaridin (Icaridin) Insect Repellent" card with category-level pros ("safe on plastics, sunglasses, and gear") would silently route to one brand's 100 mL bottle. Note also that B0BYFF3S3V's listing never states its concentration (see the wave-2 audit note), so it cannot self-evidence this card's explicit "20% picaridin" claim |
+| no-see-ums-biting-midges-ontario | `TopPick` + `StickyBuyBar` = "No-see-um mesh screening (20x20, ~0.6 mm openings)" | — | **SKIP** | Class-named hero, **and** no listing on .ca passes rule 1. Detail below — this is the one page in the batch where the search is genuinely broken, so it is worth a human's attention |
+
+### no-see-ums — why every candidate failed (the search here IS broken)
+
+`no see um mesh screen replacement` currently returns, in order: **B0DR8DG3WC ($19.99),
+B09BKYBFGY ($17.98), B06XXXM74W ($16.99), B0GVMF4KKM ($17.99) — all four are ordinary
+fiberglass window screen**, which is exactly the 1.1–1.5 mm product the article's own
+thesis tells the reader will NOT stop a 1 mm midge. Real 20x20 mesh does not appear until
+position 5. This is the textbook failure the pinning programme exists to fix — and it still
+cannot be fixed by pinning, because:
+
+1. **The only 20x20 no-see-um family on .ca is one unrated third-party size matrix.** Brand
+   "PPS Professional Screen", manufacturer Wuqiang Superstar Fiberglass Products Co. Checked
+   B0CSFKHTZZ (4' x 25') live: **$133.85, "Usually ships within 3 to 4 days", Shipper/Seller
+   "ShoppingCentre\*"** — not Amazon.ca, not FBA. `Material : 20x20` does match the article's
+   spec, and the bullets do describe spline installation. But **every SKU in the family has
+   zero ratings**, and the seller's own pricing contradicts itself, which is decisive under the
+   "buy box is not a third-party markup" test — I cannot establish a fair price when the matrix
+   is this incoherent:
+
+   | SKU | Size | Sq ft | Price | $/sq ft |
+   |---|---|---|---|---|
+   | B0CSFJB589 | 4' x 10' | 40 | $101.79 | **$2.54** |
+   | B0CSFJT8R2 | 6' x 10' | 60 | $110.10 | $1.84 |
+   | B0CSFKHTZZ | 4' x 25' | 100 | $133.85 | $1.34 |
+   | B0CSFHZFDR | 5' x 25' | 125 | $141.34 | $1.13 |
+   | B0CSFJP8J4 | 6' x 25' | 150 | $139.12 | **$0.93** |
+   | B0CSFJ1V35 | 7' x 25' | 175 | $305.84 | $1.75 |
+   | B0CSFH5ZMP | 8' x 25' | 200 | $334.26 | $1.67 |
+   | B0CSFJFFZR | 5' x 50' | 250 | $221.64 | $0.89 |
+   | B0CSFHCJ57 | 6' x 50' | 300 | $455.68 | $1.52 |
+
+   A 2.9x spread with no volume logic, and two outright inversions: the **5' x 25' costs more
+   than the 6' x 25'** for 25 sq ft less material, and the **6' x 50' costs 2.06x the 5' x 50'**
+   for 1.2x the material. That is algorithmic reseller repricing, not a stable catalogue price.
+
+2. **The one branded, brand-direct alternative fails the article's load-bearing spec.**
+   **B008TK7KXI Skeeta No-see-um Netting 54" x 10 yd** is genuinely clean on the commercial
+   checks — In Stock, $44.90, 4.0 stars (24), **Shipper/Seller "Skeeta Inc."** (brand-direct, no
+   markup). But the listing has **no feature bullets and no spec table at all**: it states no
+   mesh count and no opening size, so the article's checkable "20x20 / ~0.6 mm" claim — the
+   entire point of the page — cannot be verified from it. It is also soft *netting*, not
+   splineable *screening*, against a card whose cons read "Requires rescreening the frames
+   yourself." Product-type near-miss on top of an unverifiable spec.
+
+3. No Phifer (the usual name-brand 20x20) exists on amazon.ca — checked.
+
+### Constraint audit (repo)
+- **Zero lines changed** across all three page files; `git diff` on them is empty. No `asin`
+  prop added anywhere, so every `search=` prop is preserved verbatim by construction.
+- No title/meta/H1/Quick Answer/prose/verdict/score touched. No price, rating, review count,
+  BSR, or image added. No AggregateRating schema. No shared files touched (`lib/`,
+  `components/`, `app/sitemap.ts`, `app/blog/page.tsx` all untouched).
+- Log edit is append-only. `npx tsc --noEmit` exits 0.
+
+### Left for a human — two editorial calls this programme cannot make
+
+1. **`dynatrap-canada-review` has a genuinely broken hero and it needs an editorial fix, not
+   a link fix.** `dynatrap dt3050` returns **4 results on amazon.ca and not one is a trap** —
+   a $9.99 replacement bulb, $32.86 sticky cards, two more bulb multipacks — surrounded by
+   sponsored fly paper, ultrasonic repellers and glue boards. So the StickyBuyBar on this page
+   currently sends a reader who came for a $249–$329 machine to a page of $9.99 consumables.
+   That is the AOV leak in its purest form, and pinning cannot close it because the product does
+   not exist on .ca. Options, in the order I would rank them: (a) re-cut the hero to the
+   **DT1130-CA (B0DH5ZLK26, $129.99)** with the blurb rewritten honestly — it is the only
+   DynaTrap a Canadian reader can actually buy, and the page's real verdict ("barely a mosquito
+   trap") arguably suits the cheaper unit better anyway; (b) point the hero at the CO2/propane
+   trap the article already says is the better buy, via `best-mosquito-trap-canada`; or (c) drop
+   the Amazon hero and let the barrier-spray CTA carry the page. Note the article's own
+   comparison table already links `dynatrap dt1100 canada` and names "DT1100-CA / DT1130-CA",
+   so option (a) is a small edit, not a rewrite. **This needs a human because it changes an
+   editorial verdict and a scored top pick, which rule 4 puts out of my reach.**
+
+2. **`no-see-ums-biting-midges-ontario` is one card-naming decision away from being pinnable.**
+   The page is a strong candidate on the merits — it is the only one of the three where the
+   search demonstrably sells the wrong product — but the hero has no brand and no size, so
+   there is nothing to match. If someone commits the card to a named SKU, the pin follows
+   immediately. Before doing that, note the supply problem the table above documents: the
+   spec-correct product on .ca is a zero-rating 3P matrix with incoherent pricing, and the
+   clean brand-direct option (Skeeta) will not evidence the 20x20 spec. Best value in the
+   family if it is chosen anyway is **B0CSFJP8J4 (6' x 25', $139.12, $0.93/sq ft)**; the
+   **4' x 10' at $2.54/sq ft is the one to avoid** — it is the cheapest sticker price and by
+   far the worst value, which is exactly the SKU an unpinned reader is most likely to pick.
+
+3. **Standing re-check note:** the DynaTrap finding is a catalogue-availability fact, not a
+   stock blip. Re-test with the plain `dynatrap` query filtered to Patio, Lawn & Garden — if a
+   1-acre unit ever appears on .ca, this page becomes pinnable as written.
+
+---
+
+## Wave 3 — steamer / sprinkler / biting-fly batch (2026-09-02)
+
+Assigned pages: `best-bed-bug-steamer-canada`, `motion-activated-sprinkler-canada`,
+`deer-flies-horse-flies-ontario`. **Result: 1 pinned, 2 skipped.**
+
+The two skips are different failures and should not be collapsed together. One is a
+**supply** failure (the hero product is not sold on amazon.ca at all); the other is the
+familiar **class-based hero** failure (the article names a product category, not a model).
+The supply failure on the steamer page is the more serious of the two and is written up
+below as a revenue finding, not just a skip.
+
+### Pinned
+
+| Page | Product | ASIN | Verified on 2026-09-02 |
+|---|---|---|---|
+| motion-activated-sprinkler-canada | Orbit 62100 Yard Enforcer motion-activated sprinkler, single unit | B009F1R0GC | **In Stock**, **$136.68**, **Shipper/Seller Amazon.ca (first-party — no 3P markup)**. Brand byline "Brand: Orbit", **Manufacturer: Orbit**, `input#ASIN` = B009F1R0GC. **Item model number 62100**, Model Number 62100, MPN 62100Z. Number of Packs 1. 3-year manufacturer warranty. **#11 in Lawn & Garden Sprinklers**, #2,140 in Patio Lawn & Garden. 3.7★ (10,811) |
+
+**Why this ASIN is unambiguously the article's Best Overall.** The card names the "Orbit Yard
+Enforcer"; the listing's model number field reads **62100** twice and the bullets say
+"Yard Enforcer" by name. The article's two load-bearing differentiators are reproduced
+verbatim in Amazon's own bullets: "**day only, night only, or 24 hour protection**" (the
+card's "Day / night / 24-hour sensing modes", which the page argues is the whole reason to
+buy it over clones) and "**over 7,500 activation cycles**... as little as **2 cups of water
+per activation**" (the Quick Answer's "~7,500 activations", "about 2 cups of water per
+activation"). Price sits sensibly against the 2-pack B0B1SG9MJH at $260 (~$130/unit), so the
+buy box is not a markup.
+
+**Sibling models deliberately not used.** The same search returns Orbit **62120** Garden
+Enforcer, **62400** Green Enforcer and **62000** Enforcer 2-/3-packs. These are different
+products at different price points; only 62100 is "Yard Enforcer", which is what the page
+recommends. The 2-pack was also rejected — the article recommends one unit.
+
+**Flag — a factual error in our own copy, not a product mismatch (do not "fix" by
+re-pinning).** The page says "one **9V battery** lasts the whole season" (Quick Answer) and
+"~7,500 activations per **9V battery**" / "Season-long battery life on one 9V" (card).
+Amazon's listing, the bullets and the Batteries detail field all say **4 AA batteries**. The
+7,500-cycle figure the article quotes is correct and comes from this listing; the battery
+format is wrong. Identity of the pinned product is not in doubt (model 62100 confirmed in
+three fields), so the pin stands. Per method rule 4 the prose was **not** edited — this
+needs an editorial pass, flagged below.
+
+### Skipped — search link kept
+
+| Page | Reason |
+|---|---|
+| best-bed-bug-steamer-canada | **The hero product is not sold on amazon.ca.** See the write-up below — this is a live revenue leak, not a routine skip. |
+| deer-flies-horse-flies-ontario | **Class-based hero with no honest match in the catalogue.** The `TopPick` is named "Blue Sticky Ball Deer Fly Trap" and no brand or model appears anywhere on the page. Verified across `deer fly sticky trap` (218 results) and `bug ball blue deer fly trap` (85 results): amazon.ca carries **no blue coroplast sticky sphere**. The only ball-format deer-fly products are generic 18" **inflatable** balls sold **"Glue Not Included"** (B0G35FFRJT, B0GSWML65W, B0GZP28G97) — a different mechanism from the "blue coroplast sphere coated in sticky glue" the card describes, and a product that arrives non-functional. Everything else returned is **yellow** fruit-fly/gnat sticky balls (wrong target insect) or Trappify/Rescue! house-fly paper. Pinning any of these is a rule-2 near-miss and would also invent an editorial pick the article never made. |
+
+### best-bed-bug-steamer-canada — the hero cannot be bought, and the search link is spending clicks on accessories
+
+This page's hero (StickyBuyBar + featured AwardCard + Quick Answer) is the **Vapamore MR-100
+Primo**. It is not on amazon.ca. Verified on the bare brand query `vapamore` — **27 results,
+zero steamer machines**. Every Vapamore listing is an accessory or a different appliance:
+
+| ASIN | What it actually is | Price |
+|---|---|---|
+| B07144ZY8Z | MR-100 Primo **Upgrade Pack** (tools/accessories only) — carries *Amazon's Choice* | $242.81, only 4 left |
+| B08192JBCG | Micro Fiber Floor Pad for MR-100 Primo | $42.20 |
+| B01M6ZZ5ZN | MR-100 Steamer **Funnel** | $62.82 |
+| B00304ONN8 / B0058OIOVK / B00CEZW8MW | Cotton cover / floor pad / brass brush | $37–$42 |
+| B00U9RMLRO | MR-500 Vento **canister vacuum** (not a steamer) | — |
+
+**This is very likely the mechanism behind the cluster's $47.99 average basket.** The hero
+search `vapamore mr-100 steamer` returns **17 results**, and the only Vapamore item on it is
+the **$242.81 accessory upgrade pack for a machine the reader does not own**. The rest of the
+page-one inventory is unbranded $66–$99 handheld steamers (B0GTZH5K8R, B0FPPRLQD2,
+B0H4ZFCLC4, B0H45WS5XZ, MLMLANT at $69.99, Gautye at $84.97) plus Dupray accessory bundles.
+A reader who trusts the Quick Answer and clicks cannot buy the recommended product, and the
+cheapest plausible-looking substitute in front of them lands almost exactly on $47.99.
+
+**No substitution was made, on purpose.** The obvious move — repoint the hero at the
+McCulloch MC1275 — is a rule-2/rule-4 violation: the title tag, H1, Quick Answer, StickyBuyBar
+label and featured card all name Vapamore, so swapping the link alone would make the hero
+button contradict the sentence above it. That is an editorial decision, not a link fix.
+
+**Groundwork done for whoever makes that call.** The page's own *Best Value* pick verifies
+clean: **McCulloch MC1275**, **B0000DF0RB** — In Stock, **$232.89**, **Shipper/Seller
+Amazon.ca (first-party)**, brand byline "Brand: McCulloch", title confirms "**18 Accessories**"
+(the card claims an 18-piece kit). Note $232.89 sits at the very top of the card's stated
+"$150–$250 range".
+
+### Verification notes for this batch
+
+- Every ASIN above was opened as a live `/dp/` page; fields were read from that page, not
+  from search-result tiles. Reads were done as atomic navigate+extract batches because
+  concurrent agents were sharing the browser and repeatedly navigated the tab mid-read — two
+  extractions returned another agent's page (a `biogents` search, and the Combat roach-bait
+  listing from the wave above) and were discarded and re-run rather than trusted.
+- Buy box checked on both verified ASINs; both are **sold and shipped by Amazon.ca**, so
+  neither is a third-party markup listing.
+- Hero-only respected (rule 2): on the sprinkler page the two pinned surfaces are the
+  `StickyBuyBar` (line 105) and the `featured: true` AwardCard. The `Yard Enforcer Pro` and
+  `Budget PIR` cards, the Quick Answer `AmazonLink`, the Quick Answer `BuyLink`, the three
+  compare-rail `BuyLink`s and the three comparison-table `BuyLink`s were all left as search
+  links.
+- `search=` preserved verbatim on both pinned surfaces; `asin=` added alongside it.
+- Diff is **+2 lines / −1 line in one file**, both changes additive prop insertions. No
+  title, meta, H1, Quick Answer, verdict, score, prose or existing link altered. No price,
+  star rating, review count, BSR, image or AggregateRating added to any page. No shared files
+  touched. The other two assigned pages carry zero `asin` props.
+- `npx tsc --noEmit` exits **0**.
+
+### Left for a human
+
+1. **`best-bed-bug-steamer-canada` needs an editorial decision, and it is the highest-value
+   item in this batch.** The page's #1 recommendation is unpurchasable through our only
+   affiliate channel while the page keeps sending its highest-intent clicks into a search
+   result whose best Vapamore match is a $242 accessory. Promoting the MC1275 (B0000DF0RB,
+   verified above) to Best Overall would fix the revenue leak *and* make the hero pinnable in
+   one pass. Until someone decides, the search fallback stays — it is bad, but a wrong pin
+   would be worse.
+2. **`motion-activated-sprinkler-canada` battery spec is wrong in three places** — Quick
+   Answer ("one 9V battery lasts the whole season"), the card's `why` ("~7,500 activations per
+   9V battery") and its pros list ("Season-long battery life on one 9V"). The Orbit 62100
+   takes **4 AA**. The 7,500-cycle claim is correct and can stay. Not fixed here because
+   rule 4 forbids touching prose; it is a copy edit, not a link change.
+3. **`deer-flies-horse-flies-ontario` — the one genuinely branded, on-target product in this
+   cluster is the hat patch, not the ball.** `4/Pk Deerfly Patches / TredNot Deer Fly Patch`
+   (B003NJ7VWA, $19.99, 4.0★/212) is a real named product matching what the article describes
+   in prose. It was **not** verified to rule-1 depth and must not be pinned as-is: it is the
+   *secondary* link, while the hero is the ball. If the ball trap genuinely cannot be sourced
+   in Canada, the honest fix is editorial — reconsider which product leads the page — not a
+   link swap.
+4. **Quarterly re-check for B009F1R0GC** is low-risk: first-party, 10.8K reviews, #11 in its
+   category, listed since 2012. Re-confirm the buy box is still Amazon.ca and that the model
+   number still reads 62100 (Orbit rebadges Enforcer variants).

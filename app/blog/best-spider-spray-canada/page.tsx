@@ -101,7 +101,7 @@ export default function BestSpiderSprayCanadaPage() {
       </section>
 
       <AffiliateDisclosure />
-      <StickyBuyBar tag={AMZ_TAG} name="Doktor Doom Residual Insecticide Spray" search="doktor doom residual insecticide spray" label="Best overall" />
+      <StickyBuyBar tag={AMZ_TAG} name="Doktor Doom Residual Insecticide Spray" search="doktor doom residual insecticide spray" asin="B0CXV32GKD" label="Best overall" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -132,6 +132,7 @@ export default function BestSpiderSprayCanadaPage() {
                 name: 'Doktor Doom Residual Insecticide Spray',
                 why: 'The Canadian-market residual staple: formulated for crack-and-crevice and perimeter use, leaves a weeks-long treated zone across the lines wandering spiders walk, and is stocked at Canadian retailers so you are never tempted by grey-market imports. Check the PCP number on the exact can — the brand sells several formulations.',
                 search: 'doktor doom residual insecticide spray',
+                asin: 'B0CXV32GKD',
                 score: 8.9,
                 featured: true,
                 pros: ['Weeks of residual at thresholds and baseboards', 'Domestic-class Canadian product, widely stocked', 'Labelled for the crack-and-crevice work spiders require'],
