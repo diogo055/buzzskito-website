@@ -14,6 +14,8 @@
 // value bakes into the static HTML that Amazon crawls.
 // ─────────────────────────────────────────────────────────────────────────────
 
+import { levantaFor } from './levanta-links'
+
 const TAG =
   process.env.PUBLIC_AMAZON_TAG ??
   process.env.NEXT_PUBLIC_AMAZON_TAG ??
@@ -42,6 +44,13 @@ const enc = (s: string) =>
 export function amazonUrl(opts: { asin?: string; search?: string; tag?: string }): string | null {
   if (!AMAZON_ENABLED) return null // fail closed — env tag is the master switch
   const t = opts.tag && opts.tag.length > 0 ? opts.tag : TAG
+  // Levanta wins when configured for this ASIN. Its commission comes from the
+  // BRAND via Amazon Attribution and cannot be stacked with the Associates
+  // native commission on the same sale — so the Associates tag is dropped here
+  // rather than appended. See lib/levanta-links.ts for the tradeoff.
+  const lev = levantaFor(opts.asin)
+  if (lev) return lev.url
+
   if (opts.asin) {
     return `https://www.amazon.ca/dp/${enc(opts.asin)}?tag=${t}&linkCode=ll1&language=en_CA`
   }

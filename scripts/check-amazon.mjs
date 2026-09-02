@@ -39,6 +39,25 @@ const CLUSTER_TAGS = [
   'buzzskito-ant-20', 'buzzskito-roach-20', 'buzzskito-general-20',
 ]
 const VALID_TAGS = TAG ? [TAG, ...CLUSTER_TAGS] : []
+// Levanta partner links are brand-paid via Amazon Attribution and deliberately carry
+// NO Associates tag — stacking the two on one sale is not permitted. They would
+// otherwise trip the missing-tag rule below, so allowlist exactly the URLs declared
+// in lib/levanta-links.ts. Read as text, not imported, to keep the guard independent
+// of app code (same reason CLUSTER_TAGS is mirrored rather than imported).
+const LEVANTA_URLS = (() => {
+  try {
+    const src = readFileSync('lib/levanta-links.ts', 'utf8')
+    const body = src.slice(src.indexOf('export const LEVANTA_LINKS'))
+    // only URLs on non-comment lines, so the commented-out example never counts
+    return body
+      .split(/\r?\n/)
+      .filter((l) => !l.trimStart().startsWith('//'))
+      .flatMap((l) => l.match(/url:\s*'([^']+)'/g) || [])
+      .map((m) => m.replace(/url:\s*'/, '').replace(/'$/, ''))
+  } catch { return [] }
+})()
+if (LEVANTA_URLS.length) console.log(`  (allowlisting ${LEVANTA_URLS.length} Levanta partner link(s))`)
+
 const ROOT = '.next'
 const URL_RE = /https?:\/\/[^\s"'<>\\)]*(amazon\.(?:ca|com)|amzn\.to|media-amazon|amazon-adsystem)[^\s"'<>\\)]*/gi
 const ASSET_RE = /media-amazon|amazon-adsystem/i
@@ -82,6 +101,8 @@ for (const f of files) {
       // tag by design. Exempt the EXACT origin only — any URL with a path or
       // query is still held to the tag rule.
       if (m === 'https://www.amazon.ca' || m === '//www.amazon.ca') continue
+      // An exact-match Levanta partner link is brand-paid and correctly untagged.
+      if (LEVANTA_URLS.some((u) => m === u || m.startsWith(u))) continue
       if (ASSET_RE.test(m)) violations.push([f, i + 1, m, 'hotlinked Amazon asset — never allowed'])
       else if (!TAG) violations.push([f, i + 1, m, 'Amazon URL present but PUBLIC_AMAZON_TAG is unset (output must be zero)'])
       else if (!VALID_TAGS.some((t) => m.includes(`tag=${t}`))) violations.push([f, i + 1, m, `Amazon URL missing a valid tag (default ${TAG} or a cluster tag)`])
