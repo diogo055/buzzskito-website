@@ -92,7 +92,7 @@ export default function MosquitoMagnetCanadaPage() {
       </section>
 
       <AffiliateDisclosure />
-      <StickyBuyBar tag={AMZ_TAG} name="Mosquito Magnet Patriot Plus (propane CO₂ trap)" search="mosquito magnet patriot plus" label="Best overall trap" />
+      <StickyBuyBar tag={AMZ_TAG} name="Mosquito Magnet Patriot Plus (propane CO₂ trap)" asin="B07QJY2NL1" search="mosquito magnet patriot plus" label="Best overall trap" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -173,6 +173,7 @@ export default function MosquitoMagnetCanadaPage() {
                 badge: 'Best Overall',
                 name: 'Mosquito Magnet Patriot Plus',
                 why: 'Treats up to 1 acre and is sufficient for most GTA suburban backyards — the same propane CO₂ engine as the models costing twice as much, at the entry price in the lineup.',
+                asin: 'B07QJY2NL1',
                 search: 'mosquito magnet patriot plus',
                 score: 8.6,
                 featured: true,

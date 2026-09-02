@@ -83,7 +83,7 @@ export default function TickRemovalToolGuidePage() {
       </section>
 
       <AffiliateDisclosure />
-      <StickyBuyBar tag={AMZ_TAG} name="Tick Twister / O’Tom Tick Twister removal tool" search="tick twister removal tool" label="Best overall tool" />
+      <StickyBuyBar tag={AMZ_TAG} name="Tick Twister / O’Tom Tick Twister removal tool" asin="B0D4DTM25H" search="tick twister removal tool" label="Best overall tool" />
 
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
@@ -115,6 +115,7 @@ export default function TickRemovalToolGuidePage() {
                 badge: 'Best Overall',
                 name: 'Tick Twister / O’Tom Tick Twister',
                 why: 'The hooked notch slides under the tick and twists it free without squeezing the body — the standard tool most veterinarians recommend, and budget-friendly.',
+                asin: 'B0D4DTM25H',
                 search: 'tick twister removal tool',
                 score: 9.1,
                 featured: true,
