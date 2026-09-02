@@ -1,3 +1,21 @@
+> # ⚠ SUPERSEDED IN PART — read data/levanta-catalogue-findings.md first
+>
+> On 2026-09-02 the Levanta catalogue was inspected directly in the account (it is
+> browsable before approval). Two of this document's load-bearing assumptions are wrong:
+>
+> 1. **Levanta's Canadian pest catalogue is EMPTY.** Filtering to marketplace=amazon.ca and
+>    searching `pest`, `insect` or `bed bug` all return "No products found". The entire CA
+>    catalogue is book lights, pillows, flossers and olive-oil sprayers. Every pest product
+>    is US-marketplace only. With 85% Canadian traffic, this is a US play, not a CA one —
+>    which inverts its priority rather than confirming it.
+> 2. **Rank 1 (Woodstream / Mosquito Magnet, est. $735/mo) does not appear in the catalogue**
+>    on either marketplace. Treat that row as unverified.
+>
+> Real observed rates are in the findings file. Several are BELOW Amazon's own rate —
+> Summit Mosquito Dunks is 3%, and Dunks is this site's widest product footprint.
+> The ranking method and the page/click mappings below remain sound; the brand
+> availability and rate assumptions do not.
+
 > ## CORRECTION APPLIED BEFORE SAVING — read this first
 >
 > This document states that **5.8% of affiliate-page clicks are US**. That figure is an
