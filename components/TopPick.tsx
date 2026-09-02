@@ -52,6 +52,7 @@ export default function TopPick({
           search={search}
           asin={asin}
           tag={tag}
+          component="TopPick"
           className="text-brand-900 no-underline transition-colors hover:text-amber-700 hover:underline"
         >
           {name}

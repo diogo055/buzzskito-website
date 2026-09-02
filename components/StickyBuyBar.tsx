@@ -35,7 +35,7 @@ export default function StickyBuyBar({
           <p className="text-[11px] font-extrabold uppercase tracking-wide text-amber-700 leading-none">{label}</p>
           <p className="mt-0.5 line-clamp-2 text-sm font-bold text-brand-900 leading-tight">{name}</p>
         </div>
-        <BuyLink search={search} asin={asin} tag={tag} className="shrink-0 !px-5 !py-2.5">
+        <BuyLink search={search} asin={asin} tag={tag} component="StickyBuyBar" className="shrink-0 !px-5 !py-2.5">
           {cta} →
         </BuyLink>
       </div>

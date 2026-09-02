@@ -68,6 +68,8 @@ export default function AwardCard({
           search={search}
           asin={asin}
           tag={tag}
+          component="AwardCard"
+          label={badge}
           className="text-brand-900 no-underline transition-colors hover:text-amber-700 hover:underline"
         >
           {name}

@@ -10,6 +10,7 @@ import StickyRiskCTA from '@/components/StickyRiskCTA'
 import PressMentionBanner from '@/components/PressMentionBanner'
 import ExitIntentPopup from '@/components/ExitIntentPopup'
 import LeadBarGate from '@/components/LeadBarGate'
+import AffiliateClickTracker from '@/components/AffiliateClickTracker'
 import { BUSINESS, SITE_URL } from '@/lib/constants'
 import { websiteSchema, organizationSchema, personSchema } from '@/lib/seo'
 
@@ -138,6 +139,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           {children}
         </main>
         <StickyRiskCTA />
+        <AffiliateClickTracker />
         <ExitIntentPopup />
         <Footer />
 

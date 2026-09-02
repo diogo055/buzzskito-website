@@ -17,6 +17,7 @@ export default function BuyLink({
   className = '',
   block = false,
   tag,
+  component = 'BuyLink',
 }: {
   asin?: string
   search?: string
@@ -26,13 +27,15 @@ export default function BuyLink({
   block?: boolean
   /** Optional per-cluster tracking ID (lib/amazon-clusters.ts). */
   tag?: string
+  /** Analytics-only placement label; StickyBuyBar overrides this. */
+  component?: string
 }) {
   if (!AMAZON_ENABLED) return null
   const base = block
     ? 'not-prose flex w-full min-h-[44px] items-center justify-center gap-1.5 rounded-xl bg-gradient-to-b from-amber-500 to-amber-600 px-5 py-3 text-sm font-bold text-white no-underline shadow-sm transition-transform hover:-translate-y-0.5'
     : 'not-prose inline-flex min-h-[44px] items-center gap-1.5 rounded-full bg-gradient-to-b from-amber-500 to-amber-600 px-4 py-2 text-sm font-bold text-white no-underline shadow-sm transition-transform hover:-translate-y-0.5'
   return (
-    <AmazonLink asin={asin} search={search} tag={tag} className={`${base} ${className}`}>
+    <AmazonLink asin={asin} search={search} tag={tag} component={component} className={`${base} ${className}`}>
       {children}
     </AmazonLink>
   )
