@@ -2,7 +2,7 @@
   "program": "Affiliate Revenue Multiplication",
   "started": "2026-09-01",
   "stage": "E/D-hybrid",
-  "task": "Next: continue image programme (21 identification pages left) + ASIN pinning at scale (2,350 search links)",
+  "task": "ASIN wave 2 done (7 pins). Next: wave 3 pins, remaining image pages, US striking-distance.",
   "completed": [
     "A1 repo map -> data/repo-map.md",
     "A2 GSC 12mo cached (corrected for multi-dim pruning)",
@@ -24,7 +24,13 @@
     "B20 hreflang: none exists; deferred - nothing to annotate with one URL per topic.",
     "IMAGES: components/Figure.tsx + 5 original diagrams wired into 8 pages; data/image-licenses.json policy established. Site had ZERO images across 358 pages.",
     "STAGE C DONE: per-link affiliate click tracking via event delegation (components/AffiliateClickTracker.tsx). AmazonLink stays a server component; no href rewriting; verified no Amazon URL leaks into data attrs.",
-    "reports/latest.md written per brief section 17."
+    "reports/latest.md written per brief section 17.",
+    "IMAGES wave 2: 4 more diagrams -> 10 pages. 18 pages now carry a visual (was 0).",
+    "ASIN wave 2: 18 pages, 7 verified pins, 11 correct skips, 0 reverted.",
+    "SAFETY: Health Canada recall notice added to best-wasp-nest-spray-canada (Raid Max PCP 30746, verified against recalls-rappels.canada.ca).",
+    "ACCURACY: OLE trial-duration vs PMRA label-duration distinction added to natural-mosquito-repellent-ontario.",
+    "ACCURACY: permethrin page no longer claims Sawyer on Amazon.ca and no longer routes readers to restricted-class commercial concentrates (verified live on amazon.ca).",
+    "BUG FIX: amazonUrl() emitted a blank-search link (?k=) when given neither ASIN nor search; now fails closed. BuyLink renders nothing instead of a dead button."
   ],
   "notes": {
     "baseline_reconciliation": "Brief cites ~$515/mo run rate (Jul14-Aug29). Fresh dashboard Aug 1-30 shows $653 for August alone; GSC 28d to Aug 29 = 9,123 clicks. Brief baseline slightly stale but directionally right - reconciled in Stage A gate report.",
@@ -59,5 +65,11 @@
     "2. Finish image programme - 21 identification pages still imageless, ~150,000 impressions",
     "3. US striking-distance - ~22,400 clicks/mo modelled at pos 5",
     "4. Re-measure the 107 FAQ pages and 8 figure pages in GSC around 2026-09-29 (3-4 weeks post-deploy) per section 13 task 73"
+  ],
+  "owner_actions_outstanding": [
+    "Amazon Top-Sellers + Linked-Product reports (requested 3x) - would let ASIN priority follow real purchase data instead of traffic",
+    "Levanta account approval - Stage F only",
+    "EDITORIAL: best-wasp-nest-spray-canada Best Overall pick is a recalled SKU family; consider promoting a different Best Overall",
+    "EDITORIAL: mosquito-bits-canada-vs-dunks states $34.99-$45 for 30oz Bits; live .ca price is now $74.36 (38% above the stated range)"
   ]
 }
