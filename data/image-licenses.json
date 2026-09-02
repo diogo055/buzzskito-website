@@ -121,7 +121,8 @@
       "attributionRequired": false,
       "usedOn": [
         "/blog/bed-bug-stains-poop-droppings-canada",
-        "/blog/bugs-that-look-like-bed-bugs-canada"
+        "/blog/bugs-that-look-like-bed-bugs-canada",
+        "/blog/flea-bites-on-humans"
       ],
       "depicts": "Bed bug evidence on a mattress seam: faecal spots (~1mm, bleeding into fabric), crushed-bug rust smears, translucent shed skins across five instars (1.5-5mm), pearl-white eggs (~1mm), and a live adult.",
       "factBasis": "Cimex lectularius passes digested blood as liquid faeces that wicks into fabric, distinguishing it from surface dirt. Five nymphal instars each moult, so multiple sizes of exuviae indicate an established breeding population rather than an introduction. Eggs are ~1mm, cemented into harbourage seams, and resist many contact insecticides.",
@@ -141,6 +142,19 @@
       "depicts": "The three tick species found in Ontario compared on scutum markings, body colour, adult size and disease risk: blacklegged 3mm plain dark shield, American dog tick 5mm white marbled shield, lone star 4mm single white dot.",
       "factBasis": "Ixodes scapularis (blacklegged/deer tick) is the only established Ontario vector of Borrelia burgdorferi. Dermacentor variabilis (American dog tick) has ornate white scutal markings and does not transmit Lyme. Amblyomma americanum females carry a single white scutal spot and are associated with alpha-gal syndrome; it is not yet established in Ontario but is expanding northward.",
       "notes": "Disease-risk statements are limited to well-established vector relationships. The 'under 24 hours rarely transmits' note reflects standard public-health guidance on attachment time."
+    },
+    {
+      "file": "/diagrams/crane-fly-vs-mosquito.svg",
+      "licence": "original",
+      "author": "BuzzSkito",
+      "created": "2026-09-02",
+      "attributionRequired": false,
+      "usedOn": [
+        "/blog/mosquito-hawk-explained"
+      ],
+      "depicts": "A crane fly (\"mosquito hawk\", family Tipulidae) and a mosquito (family Culicidae) drawn to a single shared millimetre/inch ruler: crane fly body 15-25mm with 1.0-6.5cm wingspan and very long fragile legs, mosquito body 3-6mm. Callouts label the crane fly's soft non-piercing snout and the mosquito's needle-like proboscis.",
+      "factBasis": "Crane fly adult body length 15-25mm and wingspan 1.0-6.5cm, and mosquito adult body length 3-6mm, are standard entomological reference figures. Adult crane flies have reduced, non-functional mouthparts and are anatomically incapable of killing or consuming other insects; only female mosquitoes have a functional piercing proboscis used to take blood. Crane fly larvae (leatherjackets) develop in soil and decaying organic matter; mosquito larvae develop in standing water.",
+      "notes": "Schematic silhouettes, not photographs. The shared ruler is the load-bearing element - the two insects must never be rescaled independently of it. Mirrors the labelled crane-fly-beside-a-mosquito scale asset that the US AI Overview reaches for on the 'mosquito hawk' query."
     }
   ]
 }

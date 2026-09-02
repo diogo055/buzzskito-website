@@ -69,6 +69,94 @@ const FAQS = [
     question: 'Are electric bug zapper rackets worth it?',
     answer: 'Yes — for the specific job of killing individual mosquitoes and flies you can see indoors, a handheld electric racket (Black Flag Executioner, Stinger, or a generic rechargeable model) is the one bug-zapper format we genuinely recommend. It is cheap ($15–$30), lasts years, needs no bulbs, and kills on contact when you swing it. What it cannot do is protect a whole yard passively — you have to be there swinging it. For hands-off outdoor coverage you still need barrier spray or a Thermacell zone. Rechargeable USB models beat the AA-battery versions on power and cost over time.',
   },
+  {
+    question: 'Do bug zappers actually work?',
+    answer: 'They work — just not on the insect you bought one for. Peer-reviewed catch counts put mosquitoes at 0.13% to 4% of everything a residential bug zapper kills; the rest are moths, midges, beetles, lacewings and other non-biting insects. The American Mosquito Control Association reports no significant difference in mosquito numbers between yards with a zapper and yards without one, based on the University of Notre Dame yard trials in which mosquitoes were roughly 4.1% and 6.4% of the daily catch. So: effective at killing insects, ineffective at reducing bites.',
+  },
+  {
+    question: 'Why did people stop using bug zappers?',
+    answer: 'Three things turned opinion between the late 1990s and today. First, the catch data went public — the University of Delaware count (Frick & Tallamy, 1996) found just 0.22% of 13,789 zapped insects were mosquitoes. Second, the ecological cost got quantified: the American Mosquito Control Association estimates electrocuting devices kill 71 billion to 350 billion beneficial insects a year in the United States, and both the Xerces Society and the Audubon Society now recommend against residential outdoor UV zappers. Third, better targeted tools arrived — CO₂-baited traps, repellent zone devices, and licensed residual barrier spray, all of which attack the mosquito rather than attracting whatever flies at a light.',
+  },
+  {
+    question: 'What is the most effective bug zapper?',
+    answer: 'It depends what you mean by effective. For killing the most insects per night, the highest-wattage outdoor unit with the widest rated coverage — the 80 W class rated for about 1.5 acres. For killing a mosquito you can actually see, a handheld electric racket, which is the only zapper format we recommend without caveats. For reducing the mosquitoes biting you in a yard, no bug zapper is effective at all — the effective devices are CO₂-baited traps, repellent zones, and professional barrier spray, none of which use UV light.',
+  },
+  {
+    question: 'What is the best bug zapper for a screened-in porch?',
+    answer: 'A low-wattage indoor-rated unit — 15 to 20 watts, typically rated for 800 to 6,000 sq ft — hung 6 to 8 feet up and at least 15 feet from where anyone sits or eats. The screen already excludes most flying insects, so the zapper only has to handle the gnats and midges that slip through; an acre-rated outdoor unit under a porch roof is actively drawing insects toward you. Never hang an outdoor-only unit indoors and never hang any unit over a dining table — Kansas State University research (Urban & Broce) documented that electrocuting an insect scatters fragments and can aerosolize bacteria and viral particles several feet around the grid. Repair torn screening first; it removes more mosquitoes than any device.',
+  },
+  {
+    question: 'How do bug zappers work?',
+    answer: 'A fluorescent UV-A "blacklight" tube (roughly 350–370 nm) or, in newer units, a UV LED, emits light that night-flying insects navigate by. Insects fly toward it and bridge a pair of high-voltage wires in front of the tube, completing the circuit and being killed on contact. A transformer steps household 120 V up to somewhere between about 2,000 V and 4,500 V at very low current. The entire mechanism depends on the target insect steering by light — which is why it works so well on moths and so poorly on host-seeking female mosquitoes, who follow CO₂, body heat and skin chemistry instead.',
+  },
+  {
+    question: 'What kind of bugs does a bug zapper kill?',
+    answer: 'Overwhelmingly non-biting night-flying insects: moths (the single largest category), midges, caddisflies, mayflies, June beetles, lacewings, and assorted small flies. Mosquitoes are 0.13% to 4% of the catch. It will kill house flies and fungus gnats that come to the light. It does very little for fruit flies (they are drawn to fermenting fruit, not UV — a cider-vinegar trap works far better), essentially nothing for wasps (day-active and not strongly UV-attracted), and nothing at all for fleas, which live on hosts and in carpet and never fly to a light.',
+  },
+  {
+    question: 'Do bug zappers work in daylight?',
+    answer: 'Barely. The grid still functions, but ambient sunlight erases the contrast that made the UV tube visible to insects in the first place, so the attraction radius collapses. That matters more in the United States than in Canada: Aedes aegypti and Aedes albopictus, the container-breeding species established across the American South and spreading north, are aggressive daytime biters. A night-time UV device aimed at a daytime biter is not underperforming — it is aimed at the wrong half of the day. Running a zapper through the day mostly wastes electricity and bulb life.',
+  },
+  {
+    question: 'Should I leave a bug zapper on all night?',
+    answer: 'You can, but there is little reason to. Insect flight activity to light peaks in the hours around dusk and falls off sharply after midnight, so most of the catch happens early. Running it all night burns bulb hours, adds electricity cost, keeps the audible zap going next to bedrooms, and increases the beneficial-insect toll for very little extra benefit. A timer or a photocell set to run from dusk until roughly midnight captures most of the catch. If the unit is anywhere near a bedroom window, switching it off before bed is the more livable choice.',
+  },
+  {
+    question: 'Do bug zappers use a lot of electricity?',
+    answer: 'Less than most people expect. A 40 W unit run 8 hours a night draws about 0.32 kWh per night, or roughly 38 kWh across a four-month northern season. An 80 W unit run 12 hours a night through a long southern season lands nearer 140 kWh. At typical 2026 residential rates that is a few dollars at the small end and roughly $20 to $40 at the large end. The consumable that actually costs money is the UV tube: $15 to $25, replaced annually, because fluorescent tubes lose UV output well before they stop lighting up.',
+  },
+  {
+    question: 'What are the disadvantages of a bug zapper?',
+    answer: 'Six, in rough order of importance. (1) It does not reduce mosquito bites — 0.13% to 4% of the catch. (2) It kills large volumes of beneficial insects, including nighttime pollinating moths and aphid-eating lacewings. (3) It draws insects toward the area you put it in, so poor placement makes things worse. (4) Electrocution scatters insect fragments and can aerosolize bacteria and viral particles for several feet (Kansas State University, Urban & Broce), so it should never sit near food. (5) The constant zap is genuinely disruptive near bedrooms and patios. (6) Ongoing cost and maintenance: annual bulb replacement plus a debris tray and grid that need cleaning every two to four weeks.',
+  },
+  {
+    question: 'Should I turn my bug zapper off in the rain?',
+    answer: 'Not if it is an outdoor-rated unit — those are built to stay out through rain, and many US listings quote an IPX4 or IPX5 weather rating. You do not need to run out and unplug one during a shower. What you must not do is take an indoor-only unit outside, pressure-wash or hose down any unit, or run an outdoor zapper from a non-GFCI outlet. In a severe storm, or if the unit is sitting in standing water, unplug it. At season end, bring it indoors rather than leaving it hanging through winter — freeze-thaw cycles are what destroy housings and sockets in both Ontario and the northern US.',
+  },
+  {
+    question: 'Is black light or white light better for bug zappers?',
+    answer: 'Black light. The UV-A band around 350–370 nm is what night-flying insects steer by, and a blacklight tube pulls in far more moths, midges and beetles than a plain white bulb of the same wattage. Newer units use UV LEDs in a similar band, which hold their output across a season instead of dimming and draw less power. Neither choice changes the mosquito outcome, because host-seeking females are not navigating by light at all — better light-emitting technology solves the wrong half of the problem.',
+  },
+  {
+    question: 'How many volts is a bug zapper?',
+    answer: 'US retail listings commonly advertise grid voltages between about 2,000 V and 4,500 V, with 3,000 V and 4,000 V the most common figures on the shelf. The number is close to meaningless as a buying signal: the grid runs at high voltage and very low current, and once it is high enough to arc across an insect bridging the wires, more volts do not produce more kills. Wattage and rated coverage area are the specifications that actually change what the device catches. Treat a 4,500 V badge the way you would treat a horsepower sticker on a lawnmower box.',
+  },
+  {
+    question: 'What happens if you touch a bug zapper?',
+    answer: 'Outdoor units have an outer guard cage specifically so fingers and paws cannot reach the electrified grid, and the grid carries thousands of volts at very low current, so serious injury is rare. It is still live equipment and should be treated that way: unplug before servicing, never push anything metal through the guard, wait a few minutes after unplugging because the internal capacitor can hold a charge, and keep units out of reach of children. A shock would be painful and startling. If anyone is shocked and feels unwell afterwards, seek medical care rather than waiting it out — this is general information, not medical advice.',
+  },
+  {
+    question: 'Can a bug zapper start a fire?',
+    answer: 'The risk is low but not zero, and it comes down to maintenance and placement. Insect debris that accumulates on the grid can carbonize and sustain an arc, which is the practical reason for cleaning the grid and emptying the tray every two to four weeks in season. Do not hang a unit tight against dry eaves, wood siding, or stored materials; give it clear air on all sides. Use an outdoor-rated extension cord and a GFCI-protected exterior outlet, never an indoor cord run out a window. A unit that smells scorched or arcs audibly between kills should be unplugged and cleaned before it is used again.',
+  },
+  {
+    question: 'How do you clean a bug zapper?',
+    answer: 'Unplug it and wait several minutes before touching anything — the internal capacitor can retain a charge after the power is off. Empty the debris tray, then brush the grid with the nylon brush that shipped with the unit; never use a metal tool, your finger, or a hose. Wipe the UV tube with a dry cloth, because a film of insect residue measurably reduces light output and therefore catch. Let everything dry completely before plugging it back in. Do this every two to four weeks through the season. Replace the UV tube annually — it dims long before it burns out.',
+  },
+  {
+    question: 'Where should you place a bug zapper, and how high should you hang it?',
+    answer: 'Hang it 6 to 8 feet off the ground, at the edge of the area you use rather than in the middle of it, and at least 15 to 25 feet (about 5 to 8 metres) from where people sit or eat. The device is an attractant, so putting it beside the patio table draws insects toward you and kills only a fraction of them. Keep it away from doorways for the same reason, away from bedroom windows because of the noise, and away from a bright porch light that will simply out-compete it. Outdoor units belong on a GFCI-protected exterior outlet with an outdoor-rated cord.',
+  },
+  {
+    question: 'Can you use a bug zapper indoors?',
+    answer: 'Only a unit the manufacturer rates for indoor use, and not everywhere indoors. Keep it well away from food preparation and dining areas: Kansas State University research (Urban & Broce) documented that electrocution scatters insect fragments and can aerosolize bacteria and viral particles for several feet around the grid. Commercial kitchens use glue-board insect light traps instead of electrocuting units for exactly that reason — the insect is caught on an adhesive sheet rather than blown apart. For a house, screens plus a handheld electric racket handle indoor mosquitoes far better than any plug-in UV device.',
+  },
+  {
+    question: 'Is the UV light in a bug zapper dangerous?',
+    answer: 'The tube is a low-output UV-A blacklight, not a germicidal UV-C lamp, so the exposure risk is low at normal distances. The sensible precaution is distance rather than avoidance: keep a running zapper at least 3 metres (about 10 feet) from where people sit for extended periods, which is the same standoff that keeps insect debris out of your airspace and the zap out of your ears. Do not stare directly into the tube at close range, and do not run a unit at head height beside a seating area. This is general information, not medical advice.',
+  },
+  {
+    question: 'Do bug zappers work in the American South where mosquitoes bite during the day?',
+    answer: 'Even less well than in the north, and for a structural reason. Across the Southeast and Gulf, a large share of biting pressure comes from Aedes aegypti and Aedes albopictus — container-breeding species that bite aggressively in daylight and rarely travel far from the house. A UV zapper is a night-time device with almost no daytime attraction radius, so it never encounters them. Culex quinquefasciatus, the southern house mosquito and the region\'s main West Nile vector according to Mississippi State University Extension, is night-active but still not UV-responsive. Southern yards need standing-water elimination, screening and treated resting habitat, not a light.',
+  },
+  {
+    question: 'Where can I buy a bug zapper in the United States?',
+    answer: 'The Home Depot and Lowe\'s carry the full outdoor line plus replacement UV bulbs ($25–$180); Walmart is the cheapest entry point but rarely stocks spare tubes ($15–$130); Ace Hardware, including Westlake Ace, has a smaller range but staff who can match a replacement bulb ($20–$150); Tractor Supply is the best option for acreage-rated units and outbuildings ($30–$200); and Harbor Freight is the cheapest place in the country to buy a handheld electric racket, the one format actually worth owning ($5–$20). Amazon carries the widest model range if you need a specific unit. Canadian readers should use the Canadian Tire, Rona, Costco Canada and Home Depot Canada pricing above instead.',
+  },
+  {
+    question: 'How many square feet does a bug zapper cover?',
+    answer: 'Small indoor and porch units are typically rated for 800 to 6,000 sq ft. A 15 W outdoor unit is usually rated for half an acre, about 21,780 sq ft; a 40 W unit for one acre, 43,560 sq ft; and an 80 W unit for about 1.5 acres, roughly 65,340 sq ft. Treat every one of those figures as a manufacturer attraction-radius claim rather than a verified kill zone: the US EPA regulates bug zappers as pesticide devices under FIFRA and does not review efficacy claims before sale, and Canada has no equivalent pre-market efficacy check either.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({
@@ -405,6 +493,212 @@ export default function BugZappersCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="electric fly swatter racket rechargeable">Check racket zappers on Amazon.ca →</BuyLink>
           </div>
           <p>But for OUTDOOR yard mosquito control, racket zappers obviously don&rsquo;t scale. You can&rsquo;t swat a yard&rsquo;s worth of mosquitoes one at a time. The closest thing to an automated version is a <Link href="/blog/laser-mosquito-killer-photon-matrix-review">laser mosquito killer</Link>, which detects and shoots individual mosquitoes instead of waiting for them to fly into a grid &mdash; clever engineering, but short-range and far pricier than a $20 racket.</p>
+
+          <h2>Do bug zappers actually work?</h2>
+          <p>They work &mdash; just not on the insect you bought one for. Peer-reviewed catch counts put mosquitoes at 0.13% to 4% of everything a residential zapper kills. The American Mosquito Control Association reports no significant difference in mosquito numbers between yards with a zapper and yards without one. They are genuinely effective on moths, midges and beetles.</p>
+          <p>The distinction matters because &ldquo;does it work&rdquo; hides two different questions. <em>Does the device kill insects?</em> Yes, thousands per season. <em>Does it reduce the number of mosquitoes biting you?</em> No. The American Mosquito Control Association&rsquo;s summary of the University of Notre Dame yard trials is the cleanest statement of it: mosquitoes made up roughly 4.1% and 6.4% of the daily catch, and comparing yards with and without a zapper produced no significant difference in the mosquitoes actually present.</p>
+          <p>That is the same finding the University of Delaware reached in 1996 (Frick &amp; Tallamy), the University of Florida&rsquo;s extension work has repeated, and Wirecutter reached independently. Four decades of counting, one answer.</p>
+
+          <h2>Why did people stop using bug zappers?</h2>
+          <p>Three things turned opinion. The 1996 University of Delaware count found 0.22% of 13,789 zapped insects were mosquitoes. The American Mosquito Control Association estimates electrocuting devices kill 71 billion to 350 billion beneficial insects a year in the United States. And better targeted tools arrived &mdash; CO&#8322; traps, repellent zones and residual barrier spray.</p>
+          <p>The peak of the backyard bug zapper was roughly 1975 to 2000, before the entomology caught up with the marketing. What broke the habit, in order:</p>
+          <ul>
+            <li><strong>The catch data went public.</strong> Once homeowners learned the zapper was killing moths and lacewings at a ratio of several hundred to one biting mosquito, the value proposition collapsed.</li>
+            <li><strong>The ecological cost got quantified.</strong> The Xerces Society for Invertebrate Conservation and the National Audubon Society both formally recommend against residential outdoor UV zappers. The AMCA&rsquo;s 71&ndash;350 billion beneficial-insect estimate is a United States figure &mdash; the scale is national, not per-yard.</li>
+            <li><strong>Substitutes got better.</strong> CO&#8322;-baited traps target the actual host cue. Repellent zone devices protect a seating area. Licensed barrier spray treats the vegetation mosquitoes rest on. All three attack the mosquito instead of attracting whatever flies at a light.</li>
+            <li><strong>The noise and the mess.</strong> A grid firing every few seconds all night is not a small thing next to a bedroom window, and the debris tray is unpleasant.</li>
+          </ul>
+          <p>What did <em>not</em> change is retail availability. Zappers still fill shelves every spring at The Home Depot, Lowe&rsquo;s, Ace Hardware, Walmart, Canadian Tire and Rona, because they sell on the promise, not the result.</p>
+
+          <h2>What is the most effective bug zapper?</h2>
+          <p>For mosquitoes, none of them &mdash; that is the honest answer. For nuisance moths, midges and beetles, effectiveness tracks UV wattage and coverage area, so the largest unit you can safely site wins. Indoors, the most effective format is a handheld electric racket, because you aim it at the insect you can actually see.</p>
+          <p>If &ldquo;most effective&rdquo; means &ldquo;kills the most insects per night,&rdquo; the answer is simply the highest-wattage outdoor unit with the widest rated coverage &mdash; in practice the 80 W class rated for about 1.5 acres. If it means &ldquo;solves my mosquito problem,&rdquo; the effective devices are not zappers at all: a CO&#8322;-baited trap, a repellent zone, or a residual barrier application. The ranked table earlier on this page sorts the zapper field by the job each unit does best; the cost-effectiveness table below it shows why none of those jobs is mosquito reduction.</p>
+
+          <h2>What is the best bug zapper for a screened-in porch?</h2>
+          <p>A low-wattage indoor-rated unit &mdash; 15 to 20 watts &mdash; hung 6 to 8 feet up and at least 15 feet from where anyone sits or eats. The screen already excludes most flying insects, so the zapper only has to handle the gnats and midges that slip through. Never hang an outdoor-only unit under a porch roof.</p>
+          <p>Screened porches are a standard feature across the American South and Midwest and much rarer in the Greater Toronto Area, so the sizing advice is genuinely different from the open-deck case:</p>
+          <ul>
+            <li><strong>Size down, hard.</strong> An acre-rated outdoor unit under an 8-foot ceiling is drawing insects from the yard <em>toward</em> the porch. On an enclosed porch, the goal is to kill what is already inside, not to advertise.</li>
+            <li><strong>Check the rating, not the shape.</strong> A screened porch is still exposed to blowing rain and humidity. An indoor-only unit gets a damp night it was not built for; look for a unit the manufacturer rates for covered outdoor use.</li>
+            <li><strong>Keep it away from the table.</strong> Work at Kansas State University (Urban &amp; Broce) documented that electrocuting an insect scatters fragments and can aerosolize bacteria and viral particles the insect was carrying, for several feet around the grid. That is the reason not to hang one over a dining table or a food-prep surface, indoors or on a porch.</li>
+            <li><strong>Fix the screen first.</strong> A single torn corner or a gap at the door sweep lets in more mosquitoes than any zapper removes. Screen repair is the highest-return hour you will spend on a porch.</li>
+            <li><strong>For a porch you actually sit on,</strong> a repellent zone device does far more for biting pressure than any zapper, because it works on the mosquito&rsquo;s chemistry rather than her eyesight.</li>
+          </ul>
+
+          <h2>What to Consider Before Buying a Bug Zapper</h2>
+          <p>Every specification on a bug zapper box maps to one of six decisions. Here is what each number actually controls, with the US-market units the listings use.</p>
+          <div className="not-prose overflow-x-auto my-4">
+            <table className="min-w-[640px] w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden">
+              <thead className="bg-brand-50">
+                <tr>
+                  <th className="px-3 py-2 text-left">Criterion</th>
+                  <th className="px-3 py-2 text-left">What listings show</th>
+                  <th className="px-3 py-2 text-left">What it actually controls</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  { c: 'Power source', spec: 'Corded 120 V (US) / 120 V (Canada), solar panel + battery, or USB-rechargeable handheld', ctrl: 'Where you can put it. Corded units run all night at full output; solar units are placement-free but dim, and a cloudy day can cut runtime to a couple of hours.' },
+                  { c: 'Indoor vs outdoor rating', spec: 'IPX4 / IPX5 weather rating on outdoor listings; "indoor use only" on plug-in units', ctrl: 'Whether rain ruins it. An indoor-only unit under a porch roof still meets humidity and blowing rain. Match the rating to the site, not the shape of the housing.' },
+                  { c: 'Coverage area', spec: '800 sq ft, 2,100 sq ft, 6,000 sq ft, ½ acre, 1 acre, 1.5 acres', ctrl: 'How far the UV is visible to insects. Treat it as an attraction radius claim from the manufacturer, not a verified kill zone — no US agency reviews these figures before sale.' },
+                  { c: 'Grid voltage', spec: 'Commonly 2,000 V – 4,500 V on US retail listings', ctrl: 'Almost nothing you care about. Above roughly 2,000 V the grid kills anything that bridges it; a higher number is a marketing figure, not more mosquitoes.' },
+                  { c: 'Bulb type and wattage', spec: '15 W / 20 W / 40 W / 80 W fluorescent UV-A tube, or newer UV LED', ctrl: 'Attraction range and running cost. Fluorescent tubes dim measurably over a season and are the annual replacement part; LED units hold output longer and draw less power.' },
+                  { c: 'Bait / attractant', spec: 'Octenol cartridge sold separately, sometimes "mosquito lure"', ctrl: 'Whether the device is even aimed at mosquitoes. Octenol mimics a mammal breath cue. Note that adding it changes the product\'s US regulatory status — see the EPA section below.' },
+                ].map(({ c, spec, ctrl }) => (
+                  <tr key={c} className="border-t border-navy-50 align-top">
+                    <td className="px-3 py-2 font-bold text-brand-800">{c}</td>
+                    <td className="px-3 py-2 text-gray-700">{spec}</td>
+                    <td className="px-3 py-2 text-xs text-gray-600">{ctrl}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p>Two things are missing from that list on purpose. There is no &ldquo;kills mosquitoes&rdquo; specification, because no manufacturer has to substantiate one before sale. And there is no filter for pollinator impact, because every UV zapper has the same one.</p>
+
+          <h2>Bug Zapper Coverage and Voltage by Size (Square Feet, Acres and Watts)</h2>
+          <p>The single question most buyers are actually asking is &ldquo;which size do I need,&rdquo; and it is the question the manufacturer sizing ladders answer fastest. Here is the standard Flowtron ladder &mdash; the reference most other brands size against &mdash; with both the acreage figures used in Canada and the square footage US listings lead with. The anchor conversion: <strong>1 acre = 43,560 sq ft</strong>.</p>
+          <div className="not-prose overflow-x-auto my-4">
+            <table className="min-w-[640px] w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden">
+              <thead className="bg-brand-50">
+                <tr>
+                  <th className="px-3 py-2 text-left">Model class</th>
+                  <th className="px-3 py-2 text-left">UV wattage</th>
+                  <th className="px-3 py-2 text-left">Rated coverage</th>
+                  <th className="px-3 py-2 text-left">In square feet</th>
+                  <th className="px-3 py-2 text-left">Suits</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  { m: 'Compact indoor / porch unit', w: '15 – 20 W', cov: 'Under ¼ acre', sqft: '≈ 800 – 6,000 sq ft', use: 'Screened porch, garage, covered patio, three-season room' },
+                  { m: 'Flowtron BK-15D class', w: '15 W', cov: '½ acre', sqft: '≈ 21,780 sq ft', use: 'Small suburban lot, deck perimeter, townhouse yard' },
+                  { m: 'Flowtron BK-40D class', w: '40 W', cov: '1 acre', sqft: '43,560 sq ft', use: 'Standard detached lot with mature trees; the volume seller in both countries' },
+                  { m: 'Flowtron BK-80D class', w: '80 W', cov: '1.5 acres', sqft: '≈ 65,340 sq ft', use: 'Acreage, rural property, lakefront, large open lawn' },
+                  { m: 'Commercial-grade unit', w: '80 W+', cov: '1.5 acres+', sqft: '65,340 sq ft+', use: 'Restaurant patio, campground, barn or stable aisle' },
+                  { m: 'Handheld electric racket', w: 'n/a (battery grid)', cov: 'Arm’s reach', sqft: 'Whatever you can swing at', use: 'The one format that reliably kills a mosquito you can see' },
+                ].map(({ m, w, cov, sqft, use }) => (
+                  <tr key={m} className="border-t border-navy-50 align-top">
+                    <td className="px-3 py-2 font-semibold text-brand-800">{m}</td>
+                    <td className="px-3 py-2 font-mono text-gray-800">{w}</td>
+                    <td className="px-3 py-2 text-gray-700">{cov}</td>
+                    <td className="px-3 py-2 font-mono text-gray-800">{sqft}</td>
+                    <td className="px-3 py-2 text-xs text-gray-600">{use}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p><strong>On voltage:</strong> US listings advertise grid voltages from about 2,000 V to 4,500 V, and the number is close to meaningless as a buying signal. The grid runs at high voltage and very low current; once it is high enough to arc across an insect bridging the wires, more volts do not produce more kills. Wattage and coverage are the specifications that change the result. Treat a 4,500 V badge the way you would treat a horsepower sticker on a lawnmower box.</p>
+          <p><strong>Metric-to-US conversions used elsewhere on this page,</strong> for readers working in feet: a 4.5 m repellent zone is about 15 ft across; the 3 m minimum standoff distance from a running zapper is about 10 ft; ½ acre is about 21,780 sq ft and 1 acre is 43,560 sq ft. Model-by-model detail on the BK-15D, BK-40D and BK-80D, including the octenol-cartridge question, is in our dedicated <Link href="/blog/flowtron-bug-zapper-canada">Flowtron bug zapper review</Link>.</p>
+
+          <h2>Where to Buy Bug Zappers in the United States</h2>
+          <p>US readers arriving on this page will not find Canadian Tire or Rona nearby, so here is the American shelf equivalent. Two notes before the table: the biggest difference between the two markets is that the US has a genuine rural-hardware channel (Tractor Supply, Ace) carrying acreage-sized units that Canadian big-box stores mostly skip, and that handheld racket swatters &mdash; the one format worth owning &mdash; are cheapest at discount-tool retailers rather than garden centres.</p>
+          <div className="not-prose overflow-x-auto my-4">
+            <table className="min-w-[640px] w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden">
+              <thead className="bg-brand-50">
+                <tr>
+                  <th className="px-3 py-2 text-left">US retailer</th>
+                  <th className="px-3 py-2 text-left">What they stock</th>
+                  <th className="px-3 py-2 text-left">Typical price (USD)</th>
+                  <th className="px-3 py-2 text-left">Honest verdict</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  { name: 'The Home Depot', sel: 'Full outdoor line plus replacement UV bulbs, spring through late summer', price: '$25 – $180', verdict: 'The default walk-in option in most US metros, and one of the few that reliably carries replacement tubes' },
+                  { name: 'Lowe’s', sel: 'Flowtron and Stinger outdoor units, rackets, seasonal endcaps', price: '$25 – $170', verdict: 'Comparable to Home Depot; stock thins fast after the Fourth of July' },
+                  { name: 'Walmart', sel: 'Budget through mid-range outdoor units, solar stakes, rackets', price: '$15 – $130', verdict: 'Cheapest entry point, thinnest on parts — assume no replacement bulbs' },
+                  { name: 'Ace Hardware (incl. Westlake Ace)', sel: 'Neighbourhood-hardware selection, strong on bulbs and accessories', price: '$20 – $150', verdict: 'Smaller range but staff who can find you the right replacement tube; the local-pack answer for "bug zapper near me"' },
+                  { name: 'Harbor Freight', sel: 'Handheld electric racket swatters, budget corded units', price: '$5 – $20', verdict: 'The cheapest place in the US to buy the one zapper format that actually works — the handheld racket' },
+                  { name: 'Tractor Supply', sel: 'Acreage-rated outdoor units, barn and stable models, bulk bulbs', price: '$30 – $200', verdict: 'The rural-US equivalent of the Canadian Tire slot; best for 1-acre-plus properties and outbuildings' },
+                  { name: 'Amazon', sel: 'Widest model range, including specific Flowtron models, solar stakes and rechargeable rackets', price: 'Changes daily — check live', verdict: 'Best for a specific model or an off-season purchase when store shelves have been cleared' },
+                ].map(({ name, sel, price, verdict }) => (
+                  <tr key={name} className="border-t border-navy-50 align-top">
+                    <td className="px-3 py-2 font-bold text-brand-800">{name}</td>
+                    <td className="px-3 py-2 text-gray-700">{sel}</td>
+                    <td className="px-3 py-2 font-mono text-gray-800">{price}</td>
+                    <td className="px-3 py-2 text-xs text-gray-600">{verdict}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="not-prose text-xs text-gray-500 mb-4">Typical 2026-season US shelf pricing, for planning only &mdash; confirm before you drive. Canadian pricing and retailers are in the Canadian tables above.</p>
+          <p className="not-prose text-sm text-gray-600 mb-1">Comparing models before you go to a store?</p>
+          <div className="not-prose mb-6 flex flex-wrap gap-3">
+            <BuyLink tag={AMZ_TAG} search="bug zapper outdoor 1 acre">Compare acre-rated bug zappers →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="electric fly swatter racket rechargeable">Compare handheld racket zappers →</BuyLink>
+          </div>
+
+          <h2>Owning a Bug Zapper: Placement, Cleaning, Rain, Electricity and Fire Safety</h2>
+          <p>If you already own one &mdash; or you are buying one for moths and gnats with your eyes open &mdash; these are the ownership questions that decide whether it works well and lasts. They are also the questions almost nobody answers properly.</p>
+          <h3>Where to place and how high to hang it</h3>
+          <p>Hang it 6 to 8 feet off the ground, at the edge of the area you use rather than in the middle of it, and at least 15 to 25 feet from where people sit or eat. The device is an attractant: putting it beside the patio table draws insects toward you and then kills a fraction of them in your airspace. Keep it away from doorways for the same reason, away from bedroom windows because of the noise, and out of direct competition with a bright porch light, which will simply out-compete it. Plug outdoor units into a GFCI-protected exterior outlet using an outdoor-rated cord.</p>
+          <h3>How to clean a bug zapper</h3>
+          <p>Unplug it and wait a few minutes before touching anything &mdash; the internal capacitor can hold a charge after the power is off. Empty the debris tray, then brush the grid with the nylon brush that shipped with the unit (never a metal tool, never your finger, never a hose). Wipe the UV tube with a dry cloth, because a film of insect residue measurably cuts light output. Let everything dry fully before plugging it back in. Do this every two to four weeks in season; a grid caked with debris arcs, smells, and kills less.</p>
+          <h3>Rain, weather and whether to turn it off</h3>
+          <p>Outdoor-rated units are built to stay out in rain &mdash; many US listings quote an IPX4 or IPX5 rating &mdash; so you do not need to run out and unplug one in a shower. What you must not do is take an indoor-rated unit outside, pressure-wash any unit, or plug an outdoor unit into a non-GFCI outlet. In a severe storm or standing water, unplug it. Bring the unit indoors at the end of the season rather than leaving it on the hook through winter; freeze-thaw cycles are what kill housings and sockets in both Ontario and the northern US.</p>
+          <h3>How much electricity does a bug zapper use</h3>
+          <p>Less than most people assume. A 40 W unit run 8 hours a night draws about 0.32 kWh nightly, so roughly 38 kWh across a four-month season. An 80 W unit run 12 hours a night on a longer southern season lands nearer 140 kWh. At typical 2026 residential rates that is a few dollars at the low end and roughly $20 to $40 at the high end &mdash; which is the range quoted in the research table above, and it assumes a large unit run long hours. The replacement UV tube, at $15 to $25 annually, often costs more than the power.</p>
+          <h3>Can a bug zapper start a fire, and what happens if you touch one</h3>
+          <p>Both risks are low but neither is zero, and both come down to maintenance. Accumulated insect debris on the grid is the fire concern: it can carbonize and sustain an arc, which is the practical reason for the cleaning schedule above and for not hanging a unit tight against dry eaves, siding or stored materials. As for touching one: the grid carries thousands of volts at very low current, and outdoor units have an outer guard cage specifically to keep fingers and paws away from it. Treat it as live equipment regardless &mdash; unplug before servicing, never poke anything metal through the guard, and keep it out of reach of children. If anyone receives a shock and feels unwell afterwards, seek medical care rather than waiting it out.</p>
+          <h3>Bulbs, blacklight and daylight</h3>
+          <p>The tube in a conventional zapper is a UV-A &ldquo;blacklight&rdquo; in roughly the 350&ndash;370 nm band, which is what phototactic night-flying insects steer by; a plain white bulb attracts far fewer of them. Newer units substitute UV LEDs, which hold output longer and draw less power &mdash; the same fluorescent-to-LED shift that has happened across lighting generally. None of this changes the mosquito result, because host-seeking females are following CO&#8322; and skin chemistry rather than light. It also explains why zappers do very little in daylight: the grid still works, but ambient sunlight erases the contrast that made the tube visible in the first place.</p>
+
+          <h2>Mosquitoes in the United States vs Canada &mdash; and Why Zappers Fail Even Harder in the South</h2>
+          <p className="not-prose text-sm text-gray-600 italic border-l-4 border-gray-200 pl-4 my-4">This is general information, not medical advice. If you are concerned about a bite reaction, a fever after mosquito exposure, or any symptom that worries you, contact a healthcare provider. In an emergency, call your local emergency number.</p>
+          <p>This page was written from a Canadian yard, where the mosquito that bothers you is a night-and-dusk biter and the season runs May to September. That framing transfers cleanly to the Northeast and Upper Midwest and badly everywhere else, so here is the American picture alongside it.</p>
+          <p>The American Mosquito Control Association recognises 174 mosquito species in the United States, unevenly distributed &mdash; Texas has the most at 85 species, Hawaii the fewest at 6 &mdash; and at least 43 US species have been found infected with West Nile virus. The four that matter most for a homeowner deciding whether a UV device is worth buying:</p>
+          <ul>
+            <li><strong><em>Culex quinquefasciatus</em> (southern house mosquito)</strong> &mdash; the primary West Nile vector across the American South. Mississippi State University Extension identifies it as the main WNV carrier in the region. Night-active, breeds in nutrient-rich standing water, and unbothered by UV light.</li>
+            <li><strong><em>Culex pipiens</em> (northern house mosquito)</strong> &mdash; the equivalent WNV vector across the northern US and into southern Canada. Also night-active.</li>
+            <li><strong><em>Aedes aegypti</em> (yellow fever mosquito)</strong> &mdash; established across the Southeast and Gulf, a vector of dengue, Zika and chikungunya, and an <strong>aggressive daytime biter</strong> that breeds in containers within a few yards of the house.</li>
+            <li><strong><em>Aedes albopictus</em> (Asian tiger mosquito)</strong> &mdash; the same container-breeding, day-biting profile, spreading steadily north through the mid-Atlantic and lower Midwest.</li>
+          </ul>
+          <p><strong>This is the US-specific reason a bug zapper is an even worse purchase in Houston, Miami or Atlanta than in Mississauga.</strong> A UV zapper is a night-time device. The mosquitoes doing most of the biting in the American South and increasingly the mid-Atlantic are <em>Aedes</em> species that bite in daylight, breed in a saucer under a flowerpot, and never see the tube. A device that only advertises at night against an insect that bites at noon is not underperforming &mdash; it is aimed at the wrong half of the day.</p>
+          <p>The health context is not hypothetical. The US Centers for Disease Control and Prevention reported the 2026 West Nile season off to its earliest and heaviest start since 2004: 48 human cases by June 30, 38 of them neuroinvasive, with activity in 23 states &mdash; the most states reporting at that point in the year in a decade. CDC surveillance has also recorded more than 500 US dengue cases this year. CDC&rsquo;s prevention guidance is EPA-registered repellent, covering up, avoiding exposure between dusk and dawn, and screening the house, while its Integrated Mosquito Management framework adds eliminating standing water and treating larval and resting habitat &mdash; lists on which UV electrocution appears nowhere.</p>
+          <p>For US readers who want a local, non-commercial source rather than a company blog, the land-grant extension services are the American equivalent of provincial public health here: the University of Florida&rsquo;s UF/IFAS Extension and Mississippi State University Extension both publish plain-language mosquito guidance for their regions, and the National Pesticide Information Center (Oregon State University, 1-800-858-7378) answers device and pesticide questions directly by phone. The Kansas State University work by Urban and Broce is the source for the aerosolization caution about siting a zapper near food.</p>
+
+          <h2>When Is Mosquito Season Where You Live? US Regions vs Canada</h2>
+          <p>&ldquo;Mosquito season&rdquo; on this page means the Ontario season. It is not the American one. If you are sizing a season&rsquo;s worth of running hours, bulb life or control spending, use your own row:</p>
+          <div className="not-prose overflow-x-auto my-4">
+            <table className="min-w-[640px] w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden">
+              <thead className="bg-brand-50">
+                <tr>
+                  <th className="px-3 py-2 text-left">Region</th>
+                  <th className="px-3 py-2 text-left">Typical mosquito season</th>
+                  <th className="px-3 py-2 text-left">What that means for a zapper</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  { r: 'Gulf Coast, Florida, South Texas, southern California and Arizona', s: 'Effectively year-round', n: 'No off-season, so bulbs dim and debris accumulates continuously. Miami-Dade surveillance shows Aedes aegypti peaking in the summer wet season while Culex quinquefasciatus peaks in winter — two different peaks, neither answered by UV.' },
+                  { r: 'Southeast and mid-Atlantic', s: 'Roughly March – November', n: 'Long season, heavy Aedes albopictus daytime biting pressure. A night-only device misses most of the problem.' },
+                  { r: 'Midwest', s: 'Roughly April – October', n: 'Culex-dominated and night-active, so the zapper at least overlaps the biting window — it still does not reduce it.' },
+                  { r: 'Northeast and Upper Midwest', s: 'Roughly May – September', n: 'The one US band where the Canadian framing on this page transfers unchanged.' },
+                  { r: 'Southern Ontario and the GTA (Canada)', s: 'May – September, peak June – July', n: 'The season this page was written for; our own service window runs May through September.' },
+                ].map(({ r, s, n }) => (
+                  <tr key={r} className="border-t border-navy-50 align-top">
+                    <td className="px-3 py-2 font-semibold text-brand-800">{r}</td>
+                    <td className="px-3 py-2 text-gray-700">{s}</td>
+                    <td className="px-3 py-2 text-xs text-gray-600">{n}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p>The practical consequence: a homeowner in Minnesota can buy one UV tube a year and store the unit for seven months. A homeowner in south Florida is running the same device continuously, replacing tubes more often, and still contending with a daytime biter it cannot see.</p>
+
+          <h2>How Bug Zappers Are Regulated: US EPA vs Health Canada</h2>
+          <p>Neither country tests whether a bug zapper works before it goes on sale, but they get there by different routes, and the distinction explains a lot about the marketing.</p>
+          <p><strong>In the United States,</strong> the Environmental Protection Agency treats a bug zapper as a <em>pesticide device</em> under FIFRA rather than as a pesticide product. A device is not registered and its efficacy is not reviewed before sale; what the EPA does require is that it be produced in an EPA-registered establishment carrying an establishment number, and that the maker hold data substantiating any efficacy claim printed on the box. That is why the coverage figures on the shelf are attraction claims rather than verified kill zones &mdash; nobody checked them. Crucially, the moment a manufacturer adds an octenol attractant cartridge, the product stops being a bare device and moves toward registered-pesticide territory, with the substantiation that entails.</p>
+          <p><strong>In Canada,</strong> the Health Canada line quoted elsewhere on this page refers to something different and stronger: the residual insecticide used in a licensed barrier application is a <em>registered pest control product</em> reviewed under the Pest Control Products Act, applied by a licensed technician. A zapper is not that. When you read &ldquo;Health Canada-approved&rdquo; in our service section, it describes the product a licensed applicator sprays, not the device you plug in.</p>
+          <p>The practical takeaway is the same on both sides of the border: no regulator has ever told a bug zapper manufacturer to prove it reduces mosquitoes, because none of them claims to reduce mosquitoes in the fine print. Read the box carefully and you will find it claims to attract and kill <em>flying insects</em> &mdash; which is precisely, and only, what it does.</p>
+
+          <h2>Other Names for Bug Zappers &mdash; and How the Technology Changed</h2>
+          <p>Searching for these devices is harder than it should be because they carry at least five names. The formal engineering term is an <strong>electrical discharge insect control system</strong>. Trade and regulatory documents use <strong>electric insect killer</strong> and <strong>insect electrocutor trap</strong>. Consumers say <strong>bug zapper</strong>, and in commercial food-service contexts you will see <strong>fly killer unit</strong> or <strong>insect light trap</strong> &mdash; though the last of those usually means a glue-board unit, which catches insects on an adhesive sheet instead of electrocuting them, and is the format health inspectors prefer near food precisely because nothing gets scattered.</p>
+          <p>The hardware itself has changed once in fifty years. The original design paired a fluorescent UV-A blacklight tube with a high-voltage wire grid, and that combination still dominates the outdoor category. The shift underway now is to UV LEDs, which run cooler, draw less power, hold their output across a season instead of dimming, and remove the annual tube replacement. What has not changed, through both generations, is the underlying premise: the device attracts insects that navigate by light. Female mosquitoes do not. Better light-emitting technology solves the wrong half of the problem, and it will keep solving the wrong half no matter how good the LEDs get.</p>
 
           <h2>Related Reading</h2>
           <ul>
