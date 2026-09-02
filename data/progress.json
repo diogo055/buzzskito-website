@@ -1,8 +1,8 @@
 {
   "program": "Affiliate Revenue Multiplication",
   "started": "2026-09-01",
-  "stage": "C",
-  "task": "Stage B complete. Next: Stage C per-link click tracking (the missing instrument).",
+  "stage": "E/D-hybrid",
+  "task": "Next: continue image programme (21 identification pages left) + ASIN pinning at scale (2,350 search links)",
   "completed": [
     "A1 repo map -> data/repo-map.md",
     "A2 GSC 12mo cached (corrected for multi-dim pruning)",
@@ -21,7 +21,10 @@
     "B18-19 geo-signal audit: blog/learn carry ZERO local schema - the brief premise was false. Canada signal lives in root template + body copy only.",
     "B FIX: rendered 971 invisible FAQ answers across 107 pages (Google FAQPage requires visible Q&A). 459,484 impr affected.",
     "B FIX: localBusinessSchema added to 4 vertical service pages; speakableSchema called on 5 posts with dead imports.",
-    "B20 hreflang: none exists; deferred - nothing to annotate with one URL per topic."
+    "B20 hreflang: none exists; deferred - nothing to annotate with one URL per topic.",
+    "IMAGES: components/Figure.tsx + 5 original diagrams wired into 8 pages; data/image-licenses.json policy established. Site had ZERO images across 358 pages.",
+    "STAGE C DONE: per-link affiliate click tracking via event delegation (components/AffiliateClickTracker.tsx). AmazonLink stays a server component; no href rewriting; verified no Amazon URL leaks into data attrs.",
+    "reports/latest.md written per brief section 17."
   ],
   "notes": {
     "baseline_reconciliation": "Brief cites ~$515/mo run rate (Jul14-Aug29). Fresh dashboard Aug 1-30 shows $653 for August alone; GSC 28d to Aug 29 = 9,123 clicks. Brief baseline slightly stale but directionally right - reconciled in Stage A gate report.",
@@ -46,5 +49,15 @@
     "Canada-in-title hurts US CTR - falsified by its own example; 1-vs-0 clicks is noise",
     "dropping faqSchema on 107 - would strip schema from 88 service-intent pages",
     "mainEntityOfPage realignment - 359 ranking pages, no measured benefit"
+  ],
+  "blocked": {
+    "levanta": "account pending approval - Stage F only",
+    "amazon_reports": "Top-Sellers + Linked-Product requested from owner twice, not yet provided; gates ASIN pinning priority order"
+  },
+  "next_actions": [
+    "1. ASIN pinning at scale - 2,350 of 2,365 links are search URLs; measured haircut $200-400 intent -> $47.99 realised basket",
+    "2. Finish image programme - 21 identification pages still imageless, ~150,000 impressions",
+    "3. US striking-distance - ~22,400 clicks/mo modelled at pos 5",
+    "4. Re-measure the 107 FAQ pages and 8 figure pages in GSC around 2026-09-29 (3-4 weeks post-deploy) per section 13 task 73"
   ]
 }
