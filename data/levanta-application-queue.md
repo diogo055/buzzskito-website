@@ -1,20 +1,21 @@
-> # ⚠ SUPERSEDED IN PART — read data/levanta-catalogue-findings.md first
+> # ⚠ READ data/levanta-catalogue-findings.md FIRST
 >
-> On 2026-09-02 the Levanta catalogue was inspected directly in the account (it is
-> browsable before approval). Two of this document's load-bearing assumptions are wrong:
+> On 2026-09-02 the Levanta catalogue was inspected directly in the account (it is browsable
+> before approval). Two of this document's assumptions need correcting:
 >
-> 1. **Levanta's Canadian pest catalogue is EMPTY.** Filtering to marketplace=amazon.ca and
->    searching `pest`, `insect` or `bed bug` all return "No products found". The entire CA
->    catalogue is book lights, pillows, flossers and olive-oil sprayers. Every pest product
->    is US-marketplace only. With 85% Canadian traffic, this is a US play, not a CA one —
->    which inverts its priority rather than confirming it.
-> 2. **Rank 1 (Woodstream / Mosquito Magnet, est. $735/mo) does not appear in the catalogue**
->    on either marketplace. Treat that row as unverified.
+> 1. **Canadian listings exist but are NOT ACTIVATED.** Every pest product checked resolves
+>    on amazon.ca with a real price and rate — Harris bed bug killer is CA$84.07 at 20% =
+>    **CA$16.81 per conversion, 7.6x our current average order** — but each is marked
+>    "This product has not been activated on Levanta for Amazon Attribution". The catalogue
+>    is not missing; a brand-side switch is off. **Ask each brand to activate amazon.ca as
+>    part of the application** — that single request decides whether a partnership is worth
+>    15% or 100% of its headline value.
+> 2. **Rank 1 (Woodstream / Mosquito Magnet, est. $735/mo) was not found** in the catalogue.
+>    Treat that row as unverified until searched in-account.
 >
-> Real observed rates are in the findings file. Several are BELOW Amazon's own rate —
-> Summit Mosquito Dunks is 3%, and Dunks is this site's widest product footprint.
-> The ranking method and the page/click mappings below remain sound; the brand
-> availability and rate assumptions do not.
+> Observed rates are in the findings file. Several are BELOW Amazon's own rate — Summit
+> Mosquito Dunks is 3%, on this site's widest product footprint. The ranking method and the
+> page/click mappings below remain sound; the brand availability and rate assumptions do not.
 
 > ## CORRECTION APPLIED BEFORE SAVING — read this first
 >

@@ -2,34 +2,59 @@
 
 **Observed directly in the account on 2026-09-02**, while it still shows "Account pending
 approval". The catalogue is browsable before approval, which settles what no amount of
-outside research could. Nothing was applied for, partnered with, or clicked — read only.
+outside research could. Read-only throughout: nothing applied for, no brand contacted.
+
+> ### Correction, same day
+> An earlier version of this file said Levanta's Canadian pest catalogue was **empty**.
+> That was wrong, and the owner was right to push back — the global search returns plenty
+> of bed bug products. The accurate finding is below and it is materially more useful.
 
 ---
 
-## The headline: Levanta's Canadian pest catalogue is empty
+## The real finding: Canadian listings EXIST but are not activated
 
-Filtering the product catalogue to **marketplace = amazon.ca**:
+Every pest product checked resolves on **both** marketplaces. The Canadian record carries a
+real price and a real commission rate. What it does not carry is activation:
 
-| Search | Result on amazon.ca |
-|---|---|
-| `pest` | **No products found** |
-| `insect` | **No products found** |
-| `bed bug` | **No products found** |
-| *(no search — entire CA catalogue)* | Book lights, memory-foam pillows, water flossers, bone-conduction headphones, and ~15 colour variants of one olive-oil sprayer |
+> **"This product is disabled"**
+> **"This product has not been activated on Levanta for Amazon Attribution"**
 
-Meanwhile **amazon.com** carries a deep pest catalogue with curated collections literally
-named *"Mosquito End of Season Strategies"*, *"Wasp and Hornet Control Solutions"*,
-*"Late Season Tick Defense"* and *"Winter Proof Your Home Against Rodents"*.
+Verified on three products, all showing the identical pattern:
 
-**Every pest product on Levanta is US-marketplace only. 85% of this site's traffic is
-Canadian.** That is the whole finding, and it reverses the programme's assumption that
-Levanta is the main lever on revenue per order.
+| Product | US listing | CA listing | CA $/conversion | CA status |
+|---|---|---|---|---|
+| Harris Toughest Bed Bug Killer (gallon) | $59.99 · 20% · **live** | CA$84.07 · 20% | **CA$16.81** | disabled |
+| PF Harris Zapper First Home Use 135 | — | CA$13.89 · 20% | CA$2.78 | disabled |
+| Rocco & Roxie Stain & Odor Eliminator | $59.99 · 20% · live | CA$67.03 · 20% | CA$13.41 | disabled |
+
+That is why filtering the product catalogue to **marketplace = amazon.ca** and searching
+`pest`, `insect` or `bed bug` returns "No products found" — the filter lists only *activated*
+products. The data is there; the switch is off.
+
+**Why this matters more than "empty":** the rates are already set, and they are good.
+Harris at CA$16.81 per conversion is **7.6× this site's current $2.21 average order**. The
+blocker is a brand-side toggle, not a missing catalogue — and a toggle is something the
+owner can ask for.
 
 ---
 
-## The real rates (US marketplace)
+## The concrete ask to make on application
 
-Verified on-screen. `Access` = already usable; `Apply` = brand reviews the request.
+When applying to any of these brands, lead with the marketplace request, because it is the
+difference between the partnership being worth ~15% of its headline value and 100% of it:
+
+> "My audience is 85% Canadian — roughly 8,600 organic visits a month to pest-control
+> buying guides. Your amazon.ca listings show in Levanta but aren't activated for Amazon
+> Attribution. Can you enable the CA marketplace?"
+
+That is a normal, low-friction request. Brands enrol per marketplace largely because nobody
+asked them to do otherwise.
+
+---
+
+## Observed rates (US marketplace, live)
+
+`Access` = usable without an application; `Apply` = brand reviews the request.
 
 | Product | Price | Rate | $/conversion | vs our $2.21 | State |
 |---|---|---|---|---|---|
@@ -53,49 +78,39 @@ Verified on-screen. `Access` = already usable; `Apply` = brand reviews the reque
 | Sawyer Permethrin, 12 oz trigger | $10.79 | 7% | $0.76 | 0.3× | Apply |
 | **Summit Mosquito Dunks, 6-pk** | $30.99 | **3%** | $0.93 | **0.4×** | Access |
 
+Curated pest collections exist on the US marketplace: *"Mosquito End of Season Strategies"*,
+*"Wasp and Hornet Control Solutions"*, *"Late Season Tick Defense"*, *"Winter Proof Your
+Home Against Rodents"*.
+
 ---
 
-## Three corrections this forces
+## Three corrections to the programme's assumptions
 
-**1. "Levanta pays 3–5× Amazon's native rate" is not generally true.**
+**1. "Levanta pays 3–5× Amazon's native rate" is not general.**
 Thermacell is 7%. DynaTrap is 8%. **Summit Mosquito Dunks is 3% — below Amazon's own rate**,
-and Dunks is the single widest product footprint on this site (19 hero placements). Switching
-Summit to Levanta would *lose* money. The 3–5× multiple holds only for a specific band of
-mid-size brands: Premo Guard, BugMD, Harris, GOOTOP, Advecta.
+on the widest product footprint this site has (19 hero placements). Switching Summit would
+*lose* money. The 3–5× multiple holds for a specific band of mid-size brands: Premo Guard,
+BugMD, Harris, GOOTOP, Advecta.
 
 **2. The brief's reference case does not resolve as described.**
-It cites "Flowtron Bug Zapper, ASIN B01F1TGEOK, $259.99, 15% = $39.00". What is actually in
-the catalogue is Flowtron at **10–15% across $79.99–$399.99 units**. The nearest thing to a
-$39 conversion is the 2-acre Indoor/Outdoor Fly Control at 10% of CA$399.99 = $40 — a
-different, much more expensive product than the brief's premise.
+It cites "Flowtron, ASIN B01F1TGEOK, $259.99, 15% = $39.00". Flowtron is actually 10–15%
+across $79.99–$399.99 units; the nearest $39 conversion is a different, pricier 2-acre
+product at 10%.
 
-**3. The queue's rank-1 pick is unreachable.**
-`data/levanta-application-queue.md` ranks **Woodstream / Mosquito Magnet** first at an
-estimated $735/month. No Mosquito Magnet product appears in the Levanta catalogue on either
-marketplace in the searches run. That row should be treated as unverified until the owner
-searches the directory himself.
+**3. The application queue's rank-1 pick could not be found.**
+Woodstream / Mosquito Magnet, estimated at $735/month, did not appear in the searches run.
+Treat that row as unverified until searched in-account.
 
 ---
 
-## What this means for sequencing
+## Sequencing
 
-Levanta remains worth doing, but it is **a US-traffic play, not a Canadian one** — which
-inverts its priority. It becomes valuable in proportion to how much US traffic the site
-wins, and US share has gone 3.5% → 15.2% since May.
+Levanta is worth doing, and the CA activation ask is the highest-leverage thing in it. If a
+brand activates amazon.ca, its rate applies to 85% of this site's traffic instead of 15%.
+Until then:
 
-The practical read:
-- **Do not** rebuild Canadian pages around Levanta. There is nothing there to sell.
-- **Do** revisit once US traffic is materially larger. At 15% US share, a US-only programme
-  is worth roughly 15c on the dollar of its headline rate.
-- **Amazon Associates stays the engine for Canada**, which is 85% of the business.
-- The genuinely high-value US rows — Premo Guard at $22.49, Flowtron 2-acre at $40, Rugged
-  Ranch at $37.70 — are worth applying for *if and when* the matching US pages exist.
-
----
-
-## Method note
-
-Read-only. No application submitted, no "Partner now" clicked, no brand contacted — those
-create a business relationship and belong to the owner. What was done here is exactly the
-research the login gate was blocking, and it resolved in ten minutes what three agents could
-not settle from outside.
+- **Amazon Associates stays the engine for Canada** — 85% of the business.
+- **Apply to the high-rate US brands** (Premo Guard, Harris, BugMD, GOOTOP, Flowtron) and
+  ask each for CA activation as part of the application.
+- **Do not** switch Summit, Sawyer, Thermacell or DynaTrap to Levanta on rate alone; three
+  of those four pay less than or barely more than Amazon already does.
