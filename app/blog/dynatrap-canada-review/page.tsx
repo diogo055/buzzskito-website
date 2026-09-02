@@ -125,7 +125,7 @@ export default function DynaTrapCanadaPage() {
       </section>
 
       <AffiliateDisclosure />
-      <StickyBuyBar tag={AMZ_TAG} name="DynaTrap DT3050 (1 acre + attractant fan)" search="dynatrap dt3050" label="Best DynaTrap for mosquitoes" />
+      <StickyBuyBar tag={AMZ_TAG} name="DynaTrap UV + fan insect trap" search="dynatrap insect trap" label="See DynaTrap models sold in Canada" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -140,6 +140,7 @@ export default function DynaTrapCanadaPage() {
               <li>The half-acre DT1050 ($149–$199) suits a typical GTA backyard; the 1-acre DT2030 ($199–$279) is for cottage lots.</li>
               <li>UV bulbs are rated ~3,000 hours (about 4 months of 24/7 use) and drop to ~50% output by month 4 — replace each season.</li>
               <li>First-year cost for a DT2030 with cartridges and bulbs runs about $290–$380.</li>
+              <li><strong>Availability note (checked September 2026):</strong> Amazon.ca currently lists only the DT1130-CA (half acre) and a quarter-acre portable &mdash; searching the DT3050 there returns replacement bulbs and glue cards, not the trap. For the DT3050 or DT2030, check Canadian Tire, Home Depot or Costco rather than Amazon.</li>
               <li>DynaTraps do nothing for ticks, which do not fly to UV light.</li>
             </ul>
             <p className="mt-3 text-xs text-gray-500">— BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>

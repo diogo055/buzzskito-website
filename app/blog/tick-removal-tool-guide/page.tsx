@@ -207,7 +207,7 @@ export default function TickRemovalToolGuidePage() {
           <h3>🥇 1. Tick Twister / O&rsquo;Tom Tick Twister — Best Overall</h3>
           <p>A small plastic hooked tool with a notch. Slide the notch under the tick at skin level, twist 2–3 times, tick releases. Works for all tick sizes and species. Used by most veterinarians as the standard recommendation.</p>
           <ul>
-            <li><strong>Cost:</strong> $5–$10 (2-pack with different sizes)</li>
+            <li><strong>Cost:</strong> $5–$10 (3-pack: large, small and micro)</li>
             <li><strong>Pros:</strong> Can&rsquo;t squeeze the body; works on tiny nymphs and large engorged adults; pet stores carry it</li>
             <li><strong>Cons:</strong> Easy to lose (small plastic); requires a brief learning curve</li>
             <li><strong>Where to buy:</strong> Amazon, PetSmart, your vet&rsquo;s front desk</li>
