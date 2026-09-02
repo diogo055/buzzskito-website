@@ -9,6 +9,7 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import CTASection from '@/components/CTASection'
+import Figure from '@/components/Figure'
 import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'what-does-mouse-poop-look-like-canada'
@@ -288,6 +289,14 @@ export default function WhatDoesMousePoopLookLikeCanadaPage() {
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
 
           <h2>What Mouse Droppings Actually Look Like</h2>
+          <Figure
+            src="/diagrams/mouse-vs-rat-droppings.svg"
+            alt="Actual-size comparison of house mouse, Norway rat, roof rat, squirrel, bat and cockroach droppings with a millimetre scale"
+            caption="Droppings drawn to actual size. Size narrows it to a species group; the shape of the ends separates mouse from rat, and rat from squirrel."
+            width={720}
+            height={430}
+            priority
+          />
           <p>A house mouse dropping is a dark pellet about the size of a grain of rice &mdash; roughly 3 to 6 millimetres long and a millimetre or two across &mdash; that <strong>tapers to a point at both ends</strong>. Fresh, it is dark brown to black, slightly soft, and carries a faint sheen. As it dries it loses that sheen, hardens, and fades toward a dull grey, and an old dropping crumbles to powder under pressure.</p>
           <p>The detail that identifies the animal as reliably as the pellet does is <strong>the scatter</strong>. Mice do not use latrines. They defecate continuously as they move, dozens of times a day, so the evidence appears strung along the routes they travel rather than gathered in one place: a line of pellets against the back edge of a countertop, a handful inside a cutlery drawer, a scatter at the back of a pantry shelf, more under the sink and behind the stove. If you are finding small dark pellets in four different rooms, that is one mouse behaving normally rather than four separate problems.</p>
           <p>Alongside the droppings, look for the other traces that confirm it: <strong>urine staining</strong>, since mice dribble more or less constantly as they travel; <strong>grease marks</strong>, dark smudges where oily fur repeatedly brushes the same corner or gap edge; <strong>gnaw marks</strong> with fine parallel tooth grooves on cardboard, food packaging and soft plastic; and <strong>nesting material</strong>, which is shredded paper, insulation, fabric or cardboard packed into a hidden cavity. In long-running infestations, urine and body oils combine with dust into small hardened mounds sometimes called urine pillars &mdash; a sign of a population that has been established for a while rather than a recent arrival.</p>

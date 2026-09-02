@@ -9,6 +9,7 @@ import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
+import Figure from '@/components/Figure'
 import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'chigger-bites'
@@ -144,6 +145,13 @@ export default function ChiggerBitesPage() {
         <p className="text-sm text-gray-600 italic border-l-4 border-gray-200 pl-4">This is general information, not medical advice. If you are worried about a bite reaction, signs of infection, or symptoms that do not fit the patterns described here, contact a healthcare provider. In an emergency, call your local emergency number.</p>
 
         <h2>What are chigger bites?</h2>
+        <Figure
+          src="/diagrams/bite-pattern-comparison.svg"
+          alt="Diagram comparing the distribution patterns of mosquito, bed bug, flea, chigger, tick and no-see-um bites on the body"
+          caption="Chigger bites gather where clothing presses against skin — sock line, waistband, behind the knees. That distribution is the clearest way to separate them from flea or mosquito bites."
+          width={720}
+          height={440}
+        />
         <p>Chigger bites are the itchy welts left by the <strong>larval stage of trombiculid mites</strong> &mdash; tiny relatives of ticks and spiders known regionally as chiggers, harvest mites, red bugs, or berry bugs. Only the larva bites. It is about <strong>0.15&ndash;0.3 mm long (roughly 1/150 of an inch)</strong>, reddish-orange, and six-legged, which makes it effectively invisible on skin without magnification &mdash; a big part of why the bites feel so mysterious.</p>
         <p>Contrary to popular belief, chiggers do not drink blood. The larva attaches at a pore or hair follicle, injects saliva containing digestive enzymes that break down skin cells, and sips the liquefied tissue through a hardened tube of saliva called a <strong>stylostome</strong>. Your immune system reacts to the saliva and the stylostome, and that reaction &mdash; not the mechanical bite &mdash; produces the outsized, days-long itch. After feeding for anywhere from a few hours to a few days, the larva drops off, moults, and never bites again; nymph and adult trombiculid mites eat soil insects and their eggs, not people.</p>
 

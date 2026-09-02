@@ -6,6 +6,7 @@ import BuyLink from '@/components/BuyLink'
 import TopPick from '@/components/TopPick'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import Figure from '@/components/Figure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
 
@@ -271,6 +272,14 @@ export default function MosquitoLarvaePage() {
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
 
           <h2>The Mosquito Lifecycle (Why It Matters)</h2>
+          <Figure
+            src="/diagrams/mosquito-larvae-identification.svg"
+            alt="Diagram of mosquito larvae hanging head-down from the water surface with siphon, abdomen and head labelled, beside midge and rat-tailed maggot look-alikes"
+            caption="Mosquito larvae hang head-down from the surface and breathe through a tail siphon. Red bottom-dwelling wrigglers are midges, and a single long tail means a harmless hoverfly larva."
+            width={720}
+            height={400}
+            priority
+          />
           <p>Mosquitoes have 4 distinct life stages, all but the last one in water:</p>
           <ol>
             <li><strong>Egg (1–3 days)</strong> — Female mosquitoes lay eggs in standing water or in moist soil that floods. Some species lay floating egg rafts; others lay individually.</li>

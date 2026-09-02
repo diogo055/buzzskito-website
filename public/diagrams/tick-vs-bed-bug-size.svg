@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" width="720" height="400" role="img" aria-label="Actual-size comparison of blacklegged tick life stages against a bed bug, with a millimetre scale">
+  <title>Tick vs bed bug — actual size comparison</title>
+  <desc>Blacklegged tick larva 0.5 mm, nymph 1.5 mm, unfed adult female 3 mm and engorged adult 10 mm, compared with a bed bug nymph 1.5 mm and adult 5 mm, drawn to a shared millimetre scale.</desc>
+  <rect width="720" height="400" fill="#ffffff"/>
+
+  <text x="24" y="34" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#0f2942">Tick vs bed bug &#8212; drawn to actual size</text>
+  <text x="24" y="56" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="13" fill="#5a6b7c">Eight legs and a teardrop body means tick. Six legs and a flat oval means bed bug.</text>
+
+  <!-- ── shared scale bar ── 1 mm = 16 px ── -->
+  <g transform="translate(24,352)">
+    <line x1="0" y1="0" x2="160" y2="0" stroke="#0f2942" stroke-width="2"/>
+    <g stroke="#0f2942" stroke-width="2">
+      <line x1="0" y1="-5" x2="0" y2="5"/><line x1="32" y1="-4" x2="32" y2="4"/>
+      <line x1="64" y1="-4" x2="64" y2="4"/><line x1="96" y1="-4" x2="96" y2="4"/>
+      <line x1="128" y1="-4" x2="128" y2="4"/><line x1="160" y1="-5" x2="160" y2="5"/>
+    </g>
+    <text x="0" y="22" font-family="system-ui,sans-serif" font-size="11" fill="#5a6b7c">0</text>
+    <text x="60" y="22" font-family="system-ui,sans-serif" font-size="11" fill="#5a6b7c">5 mm</text>
+    <text x="146" y="22" font-family="system-ui,sans-serif" font-size="11" fill="#5a6b7c">10 mm</text>
+    <text x="190" y="5" font-family="system-ui,sans-serif" font-size="12" fill="#5a6b7c" font-style="italic">All figures on this chart share this scale.</text>
+  </g>
+
+  <!-- ══ TICKS (8 legs) ══ -->
+  <text x="24" y="86" font-family="system-ui,sans-serif" font-size="14" font-weight="700" fill="#1e6b4f">BLACKLEGGED TICK &#8212; 8 legs</text>
+
+  <!-- larva 0.5mm -->
+  <g transform="translate(56,132)">
+    <g stroke="#7a4a1e" stroke-width="0.8" fill="none">
+      <path d="M-4,-3 L-9,-6 M-4,0 L-10,0 M-4,3 L-9,6 M4,-3 L9,-6 M4,0 L10,0 M4,3 L9,6"/>
+    </g>
+    <ellipse cx="0" cy="0" rx="4" ry="4.6" fill="#8b5a2b"/>
+    <text x="0" y="34" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" font-weight="600" fill="#0f2942">Larva</text>
+    <text x="0" y="49" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="#5a6b7c">0.5 mm &#183; 6 legs</text>
+  </g>
+
+  <!-- nymph 1.5mm -->
+  <g transform="translate(168,132)">
+    <g stroke="#7a4a1e" stroke-width="1" fill="none">
+      <path d="M-9,-7 L-17,-12 M-9,-2 L-19,-4 M-9,3 L-19,5 M-9,8 L-17,14 M9,-7 L17,-12 M9,-2 L19,-4 M9,3 L19,5 M9,8 L17,14"/>
+    </g>
+    <ellipse cx="0" cy="0" rx="9" ry="11" fill="#8b5a2b"/>
+    <ellipse cx="0" cy="-8" rx="3.5" ry="3" fill="#5c3a1a"/>
+    <text x="0" y="40" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" font-weight="600" fill="#0f2942">Nymph</text>
+    <text x="0" y="55" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="#5a6b7c">1.5 mm &#183; poppy seed</text>
+    <text x="0" y="70" text-anchor="middle" font-family="system-ui,sans-serif" font-size="10.5" fill="#b45309" font-weight="600">most bites</text>
+  </g>
+
+  <!-- adult unfed 3mm -->
+  <g transform="translate(300,132)">
+    <g stroke="#3a2410" stroke-width="1.4" fill="none">
+      <path d="M-17,-13 L-32,-22 M-18,-4 L-35,-7 M-18,5 L-35,9 M-17,14 L-32,25 M17,-13 L32,-22 M18,-4 L35,-7 M18,5 L35,9 M17,14 L32,25"/>
+    </g>
+    <ellipse cx="0" cy="0" rx="18" ry="22" fill="#8b2f10"/>
+    <ellipse cx="0" cy="-13" rx="10" ry="9" fill="#2b1a0c"/>
+    <path d="M0,-21 l-2.5,-6 h5 z" fill="#2b1a0c"/>
+    <text x="0" y="52" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" font-weight="600" fill="#0f2942">Adult female</text>
+    <text x="0" y="67" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="#5a6b7c">3 mm &#183; sesame seed</text>
+  </g>
+
+  <!-- engorged 10mm -->
+  <g transform="translate(474,132)">
+    <g stroke="#3a2410" stroke-width="1.4" fill="none">
+      <path d="M-30,-14 L-44,-24 M-32,-4 L-48,-8 M-32,6 L-48,10 M-30,16 L-44,27"/>
+      <path d="M30,-14 L44,-24 M32,-4 L48,-8 M32,6 L48,10 M30,16 L44,27"/>
+    </g>
+    <ellipse cx="0" cy="2" rx="32" ry="38" fill="#9aa66b"/>
+    <ellipse cx="-9" cy="-9" rx="9" ry="12" fill="#b3bd85" opacity="0.6"/>
+    <ellipse cx="0" cy="-32" rx="9" ry="7" fill="#2b1a0c"/>
+    <text x="0" y="68" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" font-weight="600" fill="#0f2942">Engorged adult</text>
+    <text x="0" y="83" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="#5a6b7c">up to 10 mm after feeding</text>
+  </g>
+
+  <!-- ══ BED BUGS (6 legs) ══ -->
+  <text x="24" y="248" font-family="system-ui,sans-serif" font-size="14" font-weight="700" fill="#8a2b2b">BED BUG &#8212; 6 legs</text>
+
+  <!-- bed bug nymph 1.5mm -->
+  <g transform="translate(168,296)">
+    <g stroke="#a06a4a" stroke-width="1" fill="none">
+      <path d="M-8,-6 L-16,-10 M-8,0 L-18,0 M-8,6 L-16,10 M8,-6 L16,-10 M8,0 L18,0 M8,6 L16,10"/>
+    </g>
+    <ellipse cx="0" cy="0" rx="8" ry="11" fill="#d9a679"/>
+    <ellipse cx="0" cy="-8" rx="4" ry="3" fill="#b9885c"/>
+    <text x="0" y="36" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" font-weight="600" fill="#0f2942">Nymph</text>
+    <text x="0" y="51" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="#5a6b7c">1.5 mm &#183; translucent</text>
+  </g>
+
+  <!-- bed bug adult 5mm -->
+  <g transform="translate(300,296)">
+    <g stroke="#6b2f18" stroke-width="1.4" fill="none">
+      <path d="M-25,-12 L-38,-19 M-26,0 L-42,0 M-25,12 L-38,19 M25,-12 L38,-19 M26,0 L42,0 M25,12 L38,19"/>
+    </g>
+    <ellipse cx="0" cy="0" rx="26" ry="20" fill="#8f4a24"/>
+    <g stroke="#6b2f18" stroke-width="1" opacity="0.65">
+      <path d="M-18,-9 h36 M-20,-3 h40 M-20,3 h40 M-18,9 h36"/>
+    </g>
+    <ellipse cx="0" cy="-17" rx="7" ry="5" fill="#5c2f14"/>
+    <text x="0" y="48" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" font-weight="600" fill="#0f2942">Adult</text>
+    <text x="0" y="63" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="#5a6b7c">5 mm &#183; apple seed, flat</text>
+  </g>
+
+  <!-- the deciding difference -->
+  <g transform="translate(430,262)">
+    <rect x="0" y="0" width="262" height="72" rx="10" fill="#f0f7f4" stroke="#9dcfba"/>
+    <text x="14" y="24" font-family="system-ui,sans-serif" font-size="12.5" font-weight="700" fill="#1e6b4f">The one check that settles it</text>
+    <text x="14" y="44" font-family="system-ui,sans-serif" font-size="11.5" fill="#33566b">Count the legs. Ticks are arachnids &#8212; eight</text>
+    <text x="14" y="60" font-family="system-ui,sans-serif" font-size="11.5" fill="#33566b">as nymphs and adults. Bed bugs always have six.</text>
+  </g>
+</svg>

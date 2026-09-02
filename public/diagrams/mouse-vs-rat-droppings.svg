@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 430" width="720" height="430" role="img" aria-label="Actual-size comparison of mouse, rat, squirrel, bat and cockroach droppings with a millimetre scale">
+  <title>Mouse vs rat droppings — actual size and shape</title>
+  <desc>Mouse droppings 3 to 6 millimetres with pointed ends, Norway rat 12 to 19 millimetres with blunt ends, roof rat 12 to 13 millimetres tapered, squirrel 8 millimetres barrel shaped, bat guano 6 to 12 millimetres that crumbles, and cockroach 1 to 2 millimetres ridged, all drawn to a shared millimetre scale.</desc>
+  <rect width="720" height="430" fill="#ffffff"/>
+
+  <text x="24" y="34" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#0f2942">What you found &#8212; drawn to actual size</text>
+  <text x="24" y="56" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="13" fill="#5a6b7c">Size tells you the species. Shape of the ends tells you which rodent.</text>
+
+  <!-- scale: 1mm = 14px -->
+  <g transform="translate(24,388)">
+    <line x1="0" y1="0" x2="280" y2="0" stroke="#0f2942" stroke-width="2"/>
+    <g stroke="#0f2942" stroke-width="2">
+      <line x1="0" y1="-5" x2="0" y2="5"/><line x1="70" y1="-4" x2="70" y2="4"/>
+      <line x1="140" y1="-4" x2="140" y2="4"/><line x1="210" y1="-4" x2="210" y2="4"/>
+      <line x1="280" y1="-5" x2="280" y2="5"/>
+    </g>
+    <text x="0" y="22" font-family="system-ui,sans-serif" font-size="11" fill="#5a6b7c">0</text>
+    <text x="58" y="22" font-family="system-ui,sans-serif" font-size="11" fill="#5a6b7c">5 mm</text>
+    <text x="126" y="22" font-family="system-ui,sans-serif" font-size="11" fill="#5a6b7c">10 mm</text>
+    <text x="196" y="22" font-family="system-ui,sans-serif" font-size="11" fill="#5a6b7c">15 mm</text>
+    <text x="266" y="22" font-family="system-ui,sans-serif" font-size="11" fill="#5a6b7c">20 mm</text>
+    <text x="316" y="6" font-family="system-ui,sans-serif" font-size="12" font-style="italic" fill="#5a6b7c">Every dropping below is drawn on this scale.</text>
+  </g>
+
+  <!-- MOUSE 3-6mm pointed -->
+  <g transform="translate(30,96)">
+    <text x="0" y="0" font-family="system-ui,sans-serif" font-size="13.5" font-weight="700" fill="#0f2942">House mouse</text>
+    <text x="0" y="18" font-family="system-ui,sans-serif" font-size="11.5" fill="#5a6b7c">3&#8211;6 mm &#183; both ends pointed</text>
+    <g fill="#4a3524">
+      <path d="M0,44 q10,-9 42,-6 q10,1 14,4 q-6,5 -16,6 q-30,3 -40,-4 z"/>
+      <path d="M8,64 q10,-8 40,-5 q9,1 12,4 q-6,4 -15,5 q-28,3 -37,-4 z"/>
+      <path d="M2,84 q9,-8 38,-6 q9,1 12,4 q-6,4 -14,5 q-28,3 -36,-3 z"/>
+    </g>
+    <text x="0" y="112" font-family="system-ui,sans-serif" font-size="11" fill="#8a6d4f">rice-grain sized, scattered</text>
+  </g>
+
+  <!-- NORWAY RAT 12-19mm blunt -->
+  <g transform="translate(250,96)">
+    <text x="0" y="0" font-family="system-ui,sans-serif" font-size="13.5" font-weight="700" fill="#0f2942">Norway rat</text>
+    <text x="0" y="18" font-family="system-ui,sans-serif" font-size="11.5" fill="#5a6b7c">12&#8211;19 mm &#183; ends blunt/rounded</text>
+    <g fill="#3a2a1c">
+      <rect x="0" y="34" width="224" height="22" rx="11"/>
+      <rect x="10" y="66" width="196" height="20" rx="10"/>
+    </g>
+    <text x="0" y="112" font-family="system-ui,sans-serif" font-size="11" fill="#8a6d4f">large capsule, like an olive pit</text>
+  </g>
+
+  <!-- ROOF RAT 12-13mm tapered -->
+  <g transform="translate(30,196)">
+    <text x="0" y="0" font-family="system-ui,sans-serif" font-size="13.5" font-weight="700" fill="#0f2942">Roof rat</text>
+    <text x="0" y="18" font-family="system-ui,sans-serif" font-size="11.5" fill="#5a6b7c">12&#8211;13 mm &#183; ends tapered</text>
+    <g fill="#40301f">
+      <path d="M0,44 q14,-13 84,-9 q56,3 84,9 q-28,7 -84,9 q-70,4 -84,-9 z"/>
+      <path d="M10,74 q13,-12 78,-8 q52,3 78,8 q-26,6 -78,8 q-65,4 -78,-8 z"/>
+    </g>
+    <text x="0" y="102" font-family="system-ui,sans-serif" font-size="11" fill="#8a6d4f">curved, thinner than Norway rat</text>
+  </g>
+
+  <!-- SQUIRREL 8mm barrel -->
+  <g transform="translate(250,196)">
+    <text x="0" y="0" font-family="system-ui,sans-serif" font-size="13.5" font-weight="700" fill="#0f2942">Squirrel</text>
+    <text x="0" y="18" font-family="system-ui,sans-serif" font-size="11.5" fill="#5a6b7c">8 mm &#183; barrel, rounded ends</text>
+    <g fill="#5a4630">
+      <rect x="0" y="36" width="112" height="26" rx="13"/>
+      <rect x="16" y="72" width="104" height="24" rx="12"/>
+    </g>
+    <text x="0" y="112" font-family="system-ui,sans-serif" font-size="11" fill="#8a6d4f">fatter than rat, found in attics</text>
+  </g>
+
+  <!-- BAT 6-12mm crumbles -->
+  <g transform="translate(30,306)">
+    <text x="0" y="0" font-family="system-ui,sans-serif" font-size="13.5" font-weight="700" fill="#0f2942">Bat guano</text>
+    <text x="0" y="18" font-family="system-ui,sans-serif" font-size="11.5" fill="#5a6b7c">6&#8211;12 mm &#183; crumbles to shiny specks</text>
+    <g fill="#2e2a24">
+      <path d="M0,36 q10,-8 78,-6 q34,1 46,6 q-16,6 -46,7 q-66,3 -78,-7 z"/>
+    </g>
+    <g fill="#6b6250">
+      <circle cx="12" cy="60" r="2"/><circle cx="26" cy="63" r="1.6"/><circle cx="40" cy="59" r="2.2"/>
+      <circle cx="56" cy="62" r="1.7"/><circle cx="70" cy="60" r="2"/><circle cx="86" cy="63" r="1.5"/>
+    </g>
+    <text x="0" y="80" font-family="system-ui,sans-serif" font-size="11" fill="#8a6d4f">crushes to glitter &#8212; insect wings</text>
+  </g>
+
+  <!-- COCKROACH 1-2mm ridged -->
+  <g transform="translate(250,306)">
+    <text x="0" y="0" font-family="system-ui,sans-serif" font-size="13.5" font-weight="700" fill="#0f2942">Cockroach</text>
+    <text x="0" y="18" font-family="system-ui,sans-serif" font-size="11.5" fill="#5a6b7c">1&#8211;2 mm &#183; ridged, blunt ends</text>
+    <g fill="#241a12">
+      <rect x="0" y="36" width="28" height="9" rx="4"/>
+      <rect x="38" y="36" width="24" height="9" rx="4"/>
+      <rect x="72" y="37" width="26" height="8" rx="4"/>
+      <rect x="10" y="52" width="26" height="9" rx="4"/>
+      <rect x="46" y="53" width="22" height="8" rx="4"/>
+    </g>
+    <text x="0" y="80" font-family="system-ui,sans-serif" font-size="11" fill="#8a6d4f">like ground pepper, often in cupboards</text>
+  </g>
+
+  <!-- safety callout -->
+  <g transform="translate(470,300)">
+    <rect x="0" y="0" width="228" height="76" rx="10" fill="#fef3f2" stroke="#f0a9a2"/>
+    <text x="14" y="24" font-family="system-ui,sans-serif" font-size="12.5" font-weight="700" fill="#9b2c22">Do not sweep or vacuum</text>
+    <text x="14" y="43" font-family="system-ui,sans-serif" font-size="11.5" fill="#6b3a33">Dry sweeping rodent droppings sends</text>
+    <text x="14" y="58" font-family="system-ui,sans-serif" font-size="11.5" fill="#6b3a33">particles airborne. Dampen with</text>
+    <text x="14" y="70" font-family="system-ui,sans-serif" font-size="11.5" fill="#6b3a33">disinfectant first, then wipe up.</text>
+  </g>
+</svg>

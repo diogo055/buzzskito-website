@@ -8,6 +8,7 @@ import AuthorByline from '@/components/AuthorByline'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
+import Figure from '@/components/Figure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { TICK_BLOGS } from '@/lib/constants'
 import { tagForSlug } from '@/lib/amazon-clusters'
@@ -143,6 +144,14 @@ export default function BugsThatLookLikeTicksPage() {
         <AffiliateDisclosure />
 
         <h2>The 30-Second Tick ID Rule</h2>
+        <Figure
+          src="/diagrams/bugs-that-look-like-ticks.svg"
+          alt="Comparison chart of a blacklegged tick against spider beetle, clover mite and bed bug across leg count, antennae, body shape, colour and true size"
+          caption="The four attributes that separate a tick from its common look-alikes. Legs and antennae settle almost every case: eight legs and no antennae means tick."
+          width={720}
+          height={420}
+          priority
+        />
         <p>Before going through the look-alikes, here is the fastest reliable check. Ticks are <strong>arachnids</strong>, not insects. That means:</p>
         <ul>
           <li><strong>8 legs</strong> as adults (6 as larvae)</li>

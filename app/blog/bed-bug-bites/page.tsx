@@ -9,6 +9,7 @@ import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
+import Figure from '@/components/Figure'
 import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'bed-bug-bites'
@@ -139,6 +140,13 @@ export default function BedBugBitesPage() {
         <p className="text-sm text-gray-600 italic border-l-4 border-gray-200 pl-4">This is general information, not medical advice. If you are concerned about bites, an allergic reaction, or a skin infection, see a healthcare provider. In an emergency, call your local emergency number.</p>
 
         <h2>What do bed bug bites look like?</h2>
+        <Figure
+          src="/diagrams/bite-pattern-comparison.svg"
+          alt="Diagram comparing the distribution patterns of mosquito, bed bug, flea, chigger, tick and no-see-um bites on the body"
+          caption="Bed bug bites tend to run in lines or clusters of three on skin that met the mattress. Mosquito bites are scattered and isolated; flea bites concentrate below the knee."
+          width={720}
+          height={440}
+        />
         <p>Bed bug bites look like <strong>small, raised, itchy welts arranged in a rough line, curve, or tight zigzag cluster</strong> &mdash; most often three to five marks, a pattern so common it earned the nickname <strong>&ldquo;breakfast, lunch, dinner.&rdquo;</strong> Each welt is typically 0.2&ndash;2 cm (about 1/16&ndash;3/4 in) across, red on lighter skin and often purple, plum, or dark brown on deeper skin tones, sometimes with a tiny darker point at the centre where the bug fed.</p>
         <p>The line pattern has a simple mechanical explanation: a single bug often probes several spots in one feeding session &mdash; it gets disturbed when the sleeper shifts, detaches, and reattaches a centimetre or two away. Bugs also feed along the edge where bedding or clothing meets exposed skin, so the row of welts frequently traces a collar line, a waistband, or the edge of a sheet.</p>
         <p>Location is the other half of the picture. Bed bugs cannot bite through fabric, so welts concentrate on <strong>skin that was uncovered during sleep</strong>: the face, neck, shoulders, arms, hands, and lower legs. Bites across areas that were snugly covered all night count as evidence <em>against</em> bed bugs. Reactions vary enormously person to person &mdash; from nothing at all to large hives or small blisters &mdash; which is why two people sharing a bed can wake up looking like they slept in different houses.</p>

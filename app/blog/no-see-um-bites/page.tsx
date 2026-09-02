@@ -7,6 +7,7 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
+import Figure from '@/components/Figure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
 
@@ -124,6 +125,13 @@ export default function NoSeeUmBitesPage() {
         <p className="text-sm text-gray-600 italic border-l-4 border-gray-200 pl-4">This is general information, not medical advice. If a bite looks infected, you feel unwell, or you have a severe reaction, contact a healthcare provider. In an emergency, call 911.</p>
 
         <h2>What do no-see-um bites look like?</h2>
+        <Figure
+          src="/diagrams/bite-pattern-comparison.svg"
+          alt="Diagram comparing the distribution patterns of mosquito, bed bug, flea, chigger, tick and no-see-um bites on the body"
+          caption="Where bites sit and how they group identifies the insect far more reliably than how a single mark looks. No-see-um bites arrive as a dense patch on exposed skin near water at dawn or dusk."
+          width={720}
+          height={440}
+        />
         <p>A no-see-um bite typically begins as a <strong>sharp, burning pinprick</strong> &mdash; noticeably stingier than the near-painless first moment of a mosquito bite. Within a few hours the spot usually becomes a small flat red dot that rises into an itchy welt. Because biting midges feed in groups, the bites tend to show up in <strong>clusters or scattered patches</strong> rather than as one isolated bump.</p>
         <p>Look for these common features:</p>
         <ul>

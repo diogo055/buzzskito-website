@@ -1,0 +1,80 @@
+{
+  "policy": {
+    "rule": "Every image on this site MUST have a row here before it ships. An unlicensed medical or identification image is a legal problem, not a style problem.",
+    "never": [
+      "Use an image to depict a condition it does not actually show.",
+      "Hotlink. Download, optimise, self-host.",
+      "Ship a third-party asset without rendering its required attribution visibly in the caption."
+    ],
+    "approvedSources": [
+      "Original diagrams authored for BuzzSkito (licence: original, no attribution needed)",
+      "CDC Public Health Image Library (PHIL) — largely public domain, verify per asset",
+      "USDA / EPA / NIH / NIAID — generally public domain",
+      "Public Health Ontario / Health Canada — Crown copyright, verify terms per asset",
+      "University extension services (Ohio State, Penn State, UC IPM, URI TickEncounter) — terms vary",
+      "Wikimedia Commons filtered to CC0 / CC BY / CC BY-SA — record required attribution"
+    ]
+  },
+  "images": [
+    {
+      "file": "/diagrams/tick-vs-bed-bug-size.svg",
+      "licence": "original",
+      "author": "BuzzSkito",
+      "created": "2026-09-02",
+      "attributionRequired": false,
+      "usedOn": ["/blog/tick-vs-bed-bug"],
+      "depicts": "Blacklegged tick life stages (larva 0.5mm, nymph 1.5mm, unfed adult female 3mm, engorged 10mm) and bed bug (nymph 1.5mm, adult 5mm) drawn to a shared millimetre scale.",
+      "factBasis": "Ixodes scapularis stage measurements and bed bug adult size (~5mm, apple-seed) are standard CDC/public-health reference figures. Leg count 8 (tick nymph/adult) vs 6 (bed bug) is definitional — ticks are arachnids.",
+      "notes": "Schematic silhouettes, not photographs. Scale bar is the load-bearing element; do not rescale figures independently of it."
+    },
+    {
+      "file": "/diagrams/mouse-vs-rat-droppings.svg",
+      "licence": "original",
+      "author": "BuzzSkito",
+      "created": "2026-09-02",
+      "attributionRequired": false,
+      "usedOn": ["/blog/what-does-mouse-poop-look-like-canada"],
+      "depicts": "Dropping size and end-shape comparison: house mouse 3-6mm pointed, Norway rat 12-19mm blunt, roof rat 12-13mm tapered, squirrel 8mm barrel, bat guano 6-12mm crumbling, cockroach 1-2mm ridged.",
+      "factBasis": "Standard rodent-identification reference measurements used by public health and extension services. Norway rat blunt vs roof rat tapered ends is the conventional field distinction.",
+      "notes": "Carries the hantavirus-safe cleanup warning (no dry sweeping or vacuuming) inside the graphic, per Health Canada / CDC guidance."
+    },
+    {
+      "file": "/diagrams/bugs-that-look-like-ticks.svg",
+      "licence": "original",
+      "author": "BuzzSkito",
+      "created": "2026-09-02",
+      "attributionRequired": false,
+      "usedOn": ["/blog/bugs-that-look-like-ticks"],
+      "depicts": "Blacklegged tick compared against spider beetle, clover mite and bed bug across four discriminating attributes: leg count, antennae, body shape, colour, true size.",
+      "factBasis": "Ticks (Arachnida) have 8 legs and no antennae; spider beetles and bed bugs (Insecta) have 6 legs plus antennae. Clover mites are 8-legged, ~0.75mm, bright red, with a distinctively elongated front leg pair.",
+      "notes": "Figures are enlarged for legibility; true size is stated in a dedicated column rather than implied by the drawing."
+    },
+    {
+      "file": "/diagrams/mosquito-larvae-identification.svg",
+      "licence": "original",
+      "author": "BuzzSkito",
+      "created": "2026-09-02",
+      "attributionRequired": false,
+      "usedOn": ["/blog/mosquito-larvae-identification"],
+      "depicts": "Mosquito larvae suspended head-down from the water surface with siphon, abdomen and head labelled; comma-shaped pupa; and the two common look-alikes (midge bloodworm, rat-tailed maggot).",
+      "factBasis": "Culicidae larvae hang from the surface film and respire through a posterior siphon; 3-12mm depending on instar; pupa is comma-shaped and non-feeding. Chironomid larvae are red (haemoglobin) and bottom-dwelling. Rat-tailed maggot is a syrphid with an elongated respiratory siphon.",
+      "notes": "The S-shaped thrashing motion is the field-reliable behavioural cue and is called out explicitly."
+    },
+    {
+      "file": "/diagrams/bite-pattern-comparison.svg",
+      "licence": "original",
+      "author": "BuzzSkito",
+      "created": "2026-09-02",
+      "attributionRequired": false,
+      "usedOn": [
+        "/blog/no-see-um-bites",
+        "/blog/chigger-bites",
+        "/blog/bed-bug-bites",
+        "/blog/flea-bites-on-humans"
+      ],
+      "depicts": "Distribution and grouping patterns for mosquito, bed bug, flea, chigger, tick and no-see-um bites on schematic limb outlines.",
+      "factBasis": "Pattern-based differentiation (bed bug linear/clustered on mattress-contact skin; flea concentrated below the knee; chigger at clothing-compression lines; mosquito random on exposed skin) is the standard clinical and entomological heuristic.",
+      "notes": "DELIBERATE DESIGN DECISION: this diagram shows PATTERN AND DISTRIBUTION on neutral limb outlines, never skin appearance. Bite appearance varies enormously by individual and skin tone, so depicting it would risk misrepresenting a medical condition. The graphic makes only the claim it can support. Carries the 'spreading ring needs a doctor' note for tick bites."
+    }
+  ]
+}

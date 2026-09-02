@@ -9,6 +9,7 @@ import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
+import Figure from '@/components/Figure'
 import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'flea-bites-on-humans'
@@ -123,6 +124,13 @@ export default function FleaBitesOnHumansPage() {
         <p className="text-sm text-gray-600 italic border-l-4 border-gray-200 pl-4">This article is general information, not medical advice. Reactions to insect bites vary from person to person &mdash; if you are concerned about bites, an unusual rash, or any symptoms, see a healthcare provider. For severe allergic reactions, seek emergency care immediately.</p>
 
         <h2>What do flea bites look like on humans?</h2>
+        <Figure
+          src="/diagrams/bite-pattern-comparison.svg"
+          alt="Diagram comparing the distribution patterns of mosquito, bed bug, flea, chigger, tick and no-see-um bites on the body"
+          caption="Flea bites cluster tightly around the ankles and lower legs, usually with a small red dot at the centre. Bites above the waist in lines point to bed bugs instead."
+          width={720}
+          height={440}
+        />
         <p>Flea bites on humans look like <strong>small red bumps in clusters, usually on the ankles and lower legs, each often ringed by a lighter red halo</strong>. Individual bites are small &mdash; about 1&ndash;3 mm (roughly 1/8 in) &mdash; with a tiny darker puncture point in the centre where the flea fed. Unlike a mosquito welt, a flea bite usually stays a firm, discrete bump rather than puffing up, though people who are sensitized to flea saliva can develop larger hives or wheals around each bite.</p>
         <p>Three features together make the pattern distinctive:</p>
         <ul>

@@ -7,6 +7,7 @@ import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import Figure from '@/components/Figure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
 
@@ -146,6 +147,14 @@ export default function TickVsBedBugPage() {
           <AffiliateDisclosure />
 
           <h2>The 10-Second Check</h2>
+          <Figure
+            src="/diagrams/tick-vs-bed-bug-size.svg"
+            alt="Actual-size comparison of blacklegged tick larva, nymph, adult and engorged adult against bed bug nymph and adult, on a shared millimetre scale"
+            caption="Ticks and bed bugs drawn to the same millimetre scale. The deciding check is leg count: ticks are arachnids with eight legs as nymphs and adults, bed bugs are insects with six."
+            width={720}
+            height={400}
+            priority
+          />
           <ol>
             <li><strong>Is it attached to your skin and hard to brush off?</strong> → Tick. Remove it with <BuyLink tag={AMZ_TAG} search="tick removal tool tweezers">fine-tipped tick removal tweezers</BuyLink>, pulling straight up. See our <Link href="/blog/tick-removal-tool-guide">tick removal tool guide</Link> for the best picks.</li>
             <li><strong>Count the legs.</strong> Eight legs means tick. Six legs plus antennae means bed bug.</li>
