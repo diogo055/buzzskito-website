@@ -249,6 +249,16 @@ export default function BestMosquitoTrapCanadaPage() {
 
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
+          <div className="not-prose bg-amber-50 border border-amber-300 rounded-xl p-4 my-6 text-[15px] leading-relaxed text-gray-800">
+            <p className="text-xs font-extrabold uppercase tracking-wider text-amber-800 mb-2">Buying used? Check the serial number</p>
+            <p>
+              A 2018 CPSC recall (18-114) covered some Mosquito Magnet traps &mdash; Patriot/Patriot Plus and Executive among them &mdash; but only units built between December 2014 and December 2016, serials <strong>PT01438&ndash;PT01642</strong> and <strong>EX01444&ndash;EX01637</strong>. The hazard was cleaning the trap <em>while it was still running</em> with a Quick Clear Cartridge kit, which could damage the gas regulator. One incident, no injuries. Units built since carry a brass check valve on the gas hose and are unaffected, so a new purchase is outside the range.
+            </p>
+            <p className="mt-2">
+              It is worth knowing if you are buying second-hand, because a serial is not visible before purchase. Woodstream still offers the free regulator repair on affected units.{' '}
+              <a href="https://www.cpsc.gov/Recalls/2018/Woodstream-Recalls-Mosquito-Magnet-Traps-Due-to-Injury-Hazard" rel="nofollow noopener noreferrer" target="_blank" className="font-semibold underline decoration-amber-500 underline-offset-2">CPSC notice</a>.
+            </p>
+          </div>
           <p className="not-prose text-sm text-gray-600 mb-1">Compare current Canadian prices across the main trap types:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="mosquito magnet trap">Propane trap on Amazon.ca →</BuyLink>
