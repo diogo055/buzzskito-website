@@ -240,6 +240,7 @@ export default function HorseFlyDeerFlyBiteTreatmentPage() {
             <li><strong>Time it right.</strong> Avoid open, sunny areas near water during the hottest part of the day when deer flies swarm.</li>
             <li><strong>Reduce yard harbourage.</strong> Keep grass short and shaded, damp edges trimmed back — the same borders that shelter <Link href="/blog/deer-flies-horse-flies-ontario">deer flies and horse flies</Link> also breed mosquitoes.</li>
           </ul>
+          <p>Repellent is the weak link in that list — tabanids lock onto a dark, warm, moving shape as much as onto scent, which is why a well-treated arm still gets landed on. Mesh has no such problem: a horse fly or deer fly is many times larger than the roughly 1.2&nbsp;mm openings in ordinary insect screen, so a physical barrier stops them outright where repellent only discourages them. If the bad hours are lunch and afternoon at a dock, campsite or picnic table, a <Link href="/blog/best-screen-tent-canada">screen house pitched over the table</Link> is the version of that barrier you can carry, and for a deck or patio you use every day, <Link href="/blog/mosquito-screens-patio-canada">screening the space itself</Link> is the permanent one — either way you get back the sunny hours near the treeline when deer flies are worst.</p>
 
           <h2>Related Reading</h2>
           <ul>

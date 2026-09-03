@@ -332,6 +332,7 @@ export default function NoSeeUmBitesPage() {
         <p className="not-prose my-4">
           <BuyLink tag={AMZ_TAG} search="no see um mesh screen">Check no-see-um mesh screen on Amazon &rarr;</BuyLink>
         </p>
+        <p>On a porch, though, the finer weave is rarely a single-panel swap &mdash; you are rescreening a whole enclosure, and on that job the mesh grade matters more than the hardware you hang it from, so it is the decision to settle first. Our guide to <Link href="/blog/mosquito-screened-porch-kit-canada">screening an existing porch or deck</Link> compares the curtain-and-track, zip-track, and roll-mesh-under-batten routes and covers where the airflow penalty of no-see-um mesh is worth paying &mdash; essentially any lot backing onto a creek, ravine, stormwater pond, or marsh.</p>
 
         <h2>No-see-ums in the house: getting them out and keeping them out</h2>
         <p>Indoors, no-see-ums are almost always <strong>visitors, not residents</strong>. They drift in through standard screening or an open door at dusk and cannot breed in a dry house, because their larvae need constantly wet organic material. Block the entry points, run a fan, and move the lights they gather around, and an indoor problem usually ends within days.</p>
@@ -347,6 +348,7 @@ export default function NoSeeUmBitesPage() {
         <p className="not-prose my-4">
           <BuyLink tag={AMZ_TAG} search="window screen repair kit">Check window screen repair kits on Amazon &rarr;</BuyLink>
         </p>
+        <p>Doors are the other half of that job and the half most people leave open. A magnetic screen curtain closes the back or patio door you keep walking through, but the standard fibreglass mesh most of them ship with passes midges exactly the way an ordinary window screen does &mdash; you have to choose the no-see-um weave on purpose. Our guide to <Link href="/blog/best-magnetic-screen-door-canada">magnetic screen doors</Link> covers that mesh decision alongside the two things that actually decide whether a curtain seals &mdash; measuring the frame opening rather than the door slab, and mounting the top hem so it cannot peel away from the trim.</p>
         <p>One useful piece of triage: if you are seeing plenty of tiny flies indoors but nobody is being bitten, they are probably not no-see-ums at all. Fungus gnats breeding in overwatered houseplants and drain flies breeding in a slow sink trap both look like specks in the air, and neither bites people. Biting midges bite &mdash; that is how you know.</p>
 
         <h2>How do you prevent no-see-um bites?</h2>
