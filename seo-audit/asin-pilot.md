@@ -2464,3 +2464,636 @@ item at season's end — buyable, not a stockout. Re-confirm at the May re-stock
    the Western-lure caveat stated plainly. That rewrite is out of scope here (rule 4) and is worth
    more than the pin was.
 2. `tick-removal-tool-guide` line 210: "2-pack" → "3-pack" (see above).
+
+## Wave 4 — flea bomb / steam cleaner / tiki torches (verified 2026-09-02)
+
+Batch of 3 pages. 1 pinned (2 link points), 2 skipped. Every check run live against
+amazon.ca on 2026-09-02, not inherited from the earlier waves' notes.
+
+| Page | Product | ASIN | Verified on 2026-09-02 |
+|---|---|---|---|
+| best-steam-cleaner-for-pest-control-canada | Dupray Neat Steam Cleaner — Essential Pack (17-piece) | B07C44DM6D | In Stock, $249.99, **Shipper/Seller "Dupray Canada"** (the manufacturer's own storefront — byline "Visit the Dupray Store", so not a 3P markup). Brand Dupray, model name "Neat Steam Cleaner", 1500 W, 54 fl oz tank, 4.4★ (22,998), 500+ bought past month. Third page to carry this pin, alongside `dupray-steamer-review-canada` and `dupray-vs-mcculloch-steamer-canada` |
+
+Size-variant note: the listing has two sizes — 17-piece Neat ($249.99, where `/dp/` lands)
+and 41-piece "Neat Steam Cleaner Pack Pro" ($349.98). The article names no piece count for
+the hero, so the 17-piece pin contradicts nothing. Its award card asks for "the concentrator
+and detail-brush accessories the job needs"; the listing's Included Components field reads
+"Brass Brush, Nylon Brushes, Tubes extension, Bonnets, pads, tools", which covers the
+detail brushes.
+
+**Caveat the next checker should not have to rediscover — boiler temperature.** The page's
+Quick Answer describes the winning category as "a heavy-duty dry-vapour unit whose boiler
+reaches roughly **150–170°C**" and then names the Dupray Neat as the reference machine. The
+Amazon listing's own bullet says the Neat "**Heats up to 275°F/135°C**" — i.e. below the
+band the page states. This is a pre-existing editorial claim on the page (it predates every
+ASIN wave and is identical on the two sibling Dupray pages), and pinning does not create or
+worsen it: the `search=` link already resolved to this same machine. Nothing was changed,
+per the no-prose rule. But if that 150–170°C figure is ever revisited editorially, this is
+the listing that contradicts it — decide it as a content question, not an ASIN question.
+
+### Skipped in this batch — search link kept
+
+| Page | Reason |
+|---|---|
+| best-flea-bomb-canada | **CLASS-NAMED HERO — nothing to match.** Both hero link points are generic: StickyBuyBar is "Pet-hair vacuum with a beater bar and sealed filtration" and the featured award is "High-Suction Vacuum With a Beater Bar and Sealed Filtration" (`search="upright vacuum pet hair carpet sealed hepa"`). No brand or model is named for the vacuum anywhere on the page — grepped the full file for the usual vacuum brands (Dyson, Shark, Bissell, Hoover, Miele, Eureka, Kenmore, SEBO, Riccar) and got zero real hits. Same call as the picaridin/no-see-um-mesh class heroes. The #2 award, "Plug-In Light Flea Trap", is class-named too. The only branded products on the page are **Doktor Doom / Konk foggers**, and rule 7 blocks those twice over: they are not the hero, and the page's verdict on foggers is openly hostile ("Not recommended — read the conditions first", "the best flea bomb is no flea bomb"). Safer's DE appears only as a secondary in-body link, not a hero. Correct outcome: no pin |
+| do-tiki-torches-repel-mosquitoes | **Same E90 listing problem that skipped `thermacell-e90-canada-review`, re-verified from scratch today and still true.** Hero on both link points (TopPick + StickyBuyBar) is the "Thermacell E90 (rechargeable patio zone)". A live `thermacell e90` search returns 43 results with **no E-ZoneGuard Patio 9-Hr listing**: the lineup is Patio 5.5-Hr $53.99, Patio+ 6.5-Hr $71.98, Adventure 9-Hr $74.97, E55 ~$71. The only E90-titled ASIN is **B0C9MNZPQ9** ($82.84, In Stock), and it fails rule 1 on two independent counts. (1) **Identity contradicts itself:** the title says "Rechargeable E90", but the listing's own Product description reads *"Thermacell **EX90** is easy to use... engineered specifically for the avid outdoors person and traveler... the **EX90** provides a 20-foot zone"*, with the EX90's 9-hr-per-charge spec. That is the rugged travel model, not the patio model — and this page's hero blurb sells "a real hands-off **patio** zone" for a deck. Judging identity on the body copy rather than the SKU string is exactly the yellow-jacket lesson. (2) ~~**Third-party markup:** buy box held by reseller "WoodStock Supplies" at $82.84 while the search page lists "More buying choices $52.84 (14 new offers)" — a ~57% premium.~~ **[AUDITOR CORRECTION 2026-09-02 — ground (2) does not hold; do not propagate it.]** The detail page's own "Other sellers on Amazon" panel reads **"New (14) from $82.84"**, i.e. $82.84 *is* the floor across all 14 offers, not a 57% premium over $52.84. The "$52.84" figure appears nowhere in a re-extraction of the search results and was most likely a misread of an adjacent row (the Patio 5.5-Hr sits at $53.99). The buy box **is** third-party (WoodStock Supplies, not Thermacell), which is worth noting, but it is **not marked up**. Ground (1), the E90/EX90 identity contradiction, was independently re-verified and stands on its own — **the skip is correct on identity alone.** Re-check only if a clean first-party "E-ZoneGuard Patio 9Hr" listing appears |
+
+## Wave 3 — centipede / dog-repellent / bed-bug-powder batch (2026-09-02)
+
+All three pages verified live on amazon.ca on 2026-09-02. **Result: 0 pinned, 3 skipped.**
+No file in this batch was modified — all three still carry zero `asin` props and every
+`search=` prop is byte-identical to HEAD. `npx tsc --noEmit` exits 0.
+
+### Skipped — search link kept (3 pages)
+
+| Page | Reason |
+|---|---|
+| how-to-get-rid-of-centipedes-canada | **Class-named hero — nothing to match.** StickyBuyBar is `name="Energy Star basement dehumidifier (50-pint class)"` and the featured "Best Overall" card is `Energy Star Basement Dehumidifier (50-Pint Class)`. Grepped the whole file for a manufacturer (Frigidaire, Midea, Hisense, Danby, hOmeLabs, Honeywell, Tosot, Colzer, Waykar, Vremi, GE): **zero brand names anywhere on the page.** The card's own con — "Compressor units struggle in cold crawl spaces — check the **low-temp rating**" — is an instruction to the reader to spec their own unit, and the `whichToBuy` block explicitly defers sizing to `/blog/best-dehumidifier-for-basement-canada`. Same call as `what-size-dehumidifier-do-i-need-canada` ("hero is deliberately generic — 50-pint default") and `best-upholstery-steam-cleaner-canada`. Note: a healthy 50-pint ASIN **does** exist in this repo (Midea Cube B0GL7Y575V, pinned on `best-large-capacity-dehumidifier-canada`), and it was deliberately **not** borrowed here — routing a category recommendation to one vendor is the exact failure mode the method forbids. Search link kept |
+| mosquito-repellent-for-dogs-canada | **Product verifies, but the hero spans four separate weight-band ASINs with no on-page selector.** K9 Advantix II is genuinely live and healthy on .ca — e.g. **B07YWB2PG4** (Medium, 4.6–11 kg / 10–24 lbs, 4 doses): In Stock, $79.37, **Shipper/Seller Amazon.ca (first-party)**, byline "Visit the K9 Advantix Store", manufacturer **Elanco** (correct — Elanco holds the ex-Bayer Advantix line), country of origin Germany, model 90208390, BSR #2 in Dog Flea Drops, 4.5★/2,423. Price sits inside the article's stated "$55–$95 for a 4-pack". **So why skip:** the .ca listings are split by dog weight band (Small / Medium 10–24 lb / Large / XL over 55 lb) as *independent* listings, and the on-page twister offers **dose count only (2 / 4 / 6)** — verified on both B07YWB2PG4 and B0862TCMDW: neither variant picker exposes a weight band. The article names no band and makes weight-dosing the product's selling point ("a vet-recommended spot-on **dosed by weight**", pro: "Dosed by dog weight"), so any single pin hard-routes every reader to one dose of a **permethrin** spot-on with no way to correct it on the landing page. This is the `raccoon-proof-chimney-cap-canada` case ("size-dependent — a single-size ASIN risks wrong-size purchases"), **not** the `bed-bug-mattress-encasement-canada` case, which was pinnable precisely because the size picker was on the page. **Second, independent reason:** the revenue argument runs backwards here. The unpinned `k9 advantix ii dogs` search is effectively navigational — the top ~10 results are all genuine K9 Advantix II — and it ranks the **XL 6-dose B0862TCMDW at $130.82 first**. Pinning the Medium 4-dose would *lower* basket from $130.82 to $79.37, and pinning the XL to chase the $130.82 would be choosing a dose band for commission rather than for the reader (rule 8). Amazon is not mis-picking the product on this term, so there is no defect to fix. Search link kept |
+| best-bed-bug-powder-canada | **CimeXa is not sold on amazon.ca.** Hero is unambiguous — StickyBuyBar `name="CimeXa silica gel insecticide dust"` and the featured "Best Overall" card `CimeXa Silica Gel Insecticide Dust` (score 9.2). Verified 2026-09-02 with three searches: `cimexa insecticide dust` → 54 results, **zero** CimeXa (top hits are ECOPEST / OnGuard permethrin jugs, Knock Down DE, Safer's, Raid); `CimeXa` → 23 results, **zero** CimeXa (scraped every `data-asin` — Knock Down, Doktor Doom, Raid, OnGuard, ECOGUARD, Aspectek, ultrasonic repellers); `Rockwell Labs silica gel dust` → the string "cimexa" does not appear anywhere in the page body, and results are moisture-absorbent desiccant beads (Dry & Dry, wisedry, Hydrosorbent), a different product class entirely. This independently reproduces the finding already logged against `crossfire-bed-bug-concentrate-review-canada` (same 23-result count, same zero). **The page already flags this itself** — the Best Overall card's first con reads "Confirm the Canadian-market version before buying" — so the hedge is correct and no substitution is appropriate. No near-miss pinned: the runner-up Doktor Doom DE card was deliberately **not** promoted into the hero, because the hero's whole thesis is *silica gel beats diatomaceous earth*, so pinning a DE product to a silica-gel card would invert the article's own comparison (and rule 2 restricts pins to the hero regardless). Search link kept. **Editorial flag for Diogo, not a link fix:** the Quick Answer states "The best bed-bug powder in Canada is a silica-gel dust like CimeXa" — a product Canadians cannot buy on Amazon.ca. Worth either re-pointing the hero at a Canada-stocked silica dust or stating plainly that CimeXa must be sourced outside Amazon |
+
+## Wave 4 — fruit fly / silverfish / mouse-poop batch (2026-09-02)
+
+Three pages assigned: `how-to-get-rid-of-fruit-flies-canada`, `how-to-get-rid-of-silverfish-canada`,
+`what-does-mouse-poop-look-like-canada`. **Result: 1 pinned, 2 skipped.** One file touched,
+two lines added, both additive `asin=` props with the `search=` prop preserved verbatim.
+
+| Page | Action | ASIN | Verification |
+|---|---|---|---|
+| what-does-mouse-poop-look-like-canada | **PINNED** (StickyBuyBar + featured AwardCard) | **B0CQ8RSTC9** | Victor M150-12 Metal Pedal Sustainably Sourced FSC Wood Snap Mouse Trap — 12 Traps. Brand **Victor**, Manufacturer **Woodstream Corporation**, Item model number **M150-12**, Country of origin USA. **In Stock**, **Shipper/Seller: Amazon.ca** (no third-party markup), **$17.04**, 4.2★ / 3,896 ratings, **Amazon's Choice**, 100+ bought in past month, BSR #48 in Pest Control Traps. Category Patio, Lawn & Garden › Pest Control › Traps. Product description confirms the mechanism: "The original wood-based wire snap trap… Once a rodent triggers the metal pedal, the trap immediately snaps closed to kill the mouse." |
+| how-to-get-rid-of-fruit-flies-canada | **SKIPPED** | — | TERRO sells no fruit fly trap on amazon.ca. See below. |
+| how-to-get-rid-of-silverfish-canada | **SKIPPED** | — | Every card is class-named; no brand appears anywhere on the page. See below. |
+
+### what-does-mouse-poop-look-like-canada — why the 12-pack is the right pin
+
+- **The hero names a brand, not a model.** `StickyBuyBar name="Victor snap traps (what to buy
+  once you've confirmed it)"` (line 114) and the featured `AwardCard name="Victor Snap Traps
+  (Multi-Pack)"` (line 238). Brand = Victor, mechanism = snap trap, count = "Multi-Pack".
+  The page's own file-header comment states the split explicitly — "best-mouse-trap-canada owns
+  the trap comparison" — so this page deliberately does not pick a model, and pinning a specific
+  Victor wooden snap-trap multi-pack instantiates the card rather than overriding it.
+- **No count is stated in reader-facing copy.** Grepped the whole file for `4-pack` / `4 pack` /
+  `pedal` / `expanded` / `wood` / `M325` / `dozen`: **zero hits in visible prose**. The only
+  "4 pack" on the page lives inside the `search=` prop, which the reader never sees and which is
+  preserved verbatim. So there is no quantity claim for a 12-pack to contradict — and the card's
+  own body copy ("buy far more than feels reasonable… a dense line set all at once usually
+  delivers its biggest catch on the first night") argues for the larger pack, not against it.
+- **There is no Victor 4-pack, and no M325, on amazon.ca.** Two queries run:
+  `victor mouse trap 4 pack` (82 results) and `victor m325 wood snap trap` (15 results). Victor's
+  complete live mouse lineup across both: **B0CQ8RSTC9** (M150-12 Metal Pedal wood, 12 traps,
+  $17.04), **M035-12** (Plastic Pedal Easy Set wood, 12 traps, $16.63, 4.0★/2K), M140SSR 2-Pack
+  Quick-Kill ($44.32), M140B 2-Pack Quick-Kill ($10.98), M137B Quick-Set ($8.49), M335TRI
+  Multi-Catch ($8.98), M337TRI Live Catch ($6.99), M310S Tin Cat ($27.96). **No M325 in either
+  result set, and no Victor pack of four anything.**
+- **Chose M150-12 over M035-12** on mechanical tiebreaks only, since this page's copy is silent on
+  pedal type and both are Victor FSC-wood snap traps at ~$17 for 12: M150-12 is higher rated
+  (4.2★/3,896 vs 4.0★/2,000), is **Amazon's Choice**, and is **shipped and sold by Amazon.ca**.
+  Not an editorial change — both candidates are the exact product the card names.
+- **Decoy avoided: B0HF3ZKDV9**, "Victor Metal Pedal Mouse Traps, 12-Pack" at **$27.99** — the same
+  12 wooden traps at **64% more**, from a **Small Business** third-party seller, delivery
+  **Sep 27 – Oct 23**. That is precisely the third-party-markup case rule 1 exists to catch.
+- **Spec-field trap checked and cleared.** B0CQ8RSTC9's *product description* block ends with
+  "This **2-pack** of mouse traps is an economical option" — stale Woodstream boilerplate carried
+  over from the 2-pack SKU, the same class of error as the "lotion listed as Aerosol" case.
+  Identity was judged on the other evidence, which is unanimous for 12: the **title**
+  ("- 12 Traps"), the **model number** (M150-**12**), the **search-result title**, the **shipping
+  weight** (421.84 g ≈ 12 × ~30 g traps plus carton; a genuine 2-pack would be ~70 g), and the
+  **package dimensions** in the buy-box spec block (24.5 × 15 × 11.1 cm — a 12-trap carton —
+  versus the 9.91 × 4.57 × 1.52 cm single-trap footprint listed lower down).
+- **Species checked**, per the Wave 3 rat/mouse mismatch lesson: title, description and browse
+  category all say **mouse**. This page is about *mouse* droppings and explicitly routes rat-sized
+  pellets away to the rat guide, so a mouse trap is the correct species. Victor's only live
+  metal-pedal-class *rat* item (B0CNH8VZYX, Wide Pedal M205TRI) was correctly left alone — wrong
+  page.
+- Not pinned: the three non-hero `BuyLink`s in the kit strip (lines 307–309 — respirator, snap
+  traps, exclusion fill) remain search links, per rule 2.
+
+### how-to-get-rid-of-fruit-flies-canada — SKIPPED (brand absent from amazon.ca)
+
+The hero is unambiguous and brand-plus-model specific: `StickyBuyBar name="TERRO T2502 Fruit Fly
+Trap (2-pack)" search="terro fruit fly trap"` (line 104) plus the `TopPick` of the same name
+(score 8.7); the Quick Answer and FAQ 1 both name the **T2502 Canadian label** by SKU.
+
+Two independent queries run today. **`terro fruit fly trap`** — 141 results, and the only TERRO
+SKUs on page one are **T510 Fly Magnet sticky fly paper** ($4.98, Amazon's Choice), **T300CAN
+Liquid Ant Bait Stations** ($9.98, Bestseller) and **T3206SR Spider & Insect Trap** ($16.45).
+**`terro T2502 fruit fly trap apple`** — 30 results, the same three TERRO SKUs, no T2502, and no
+apple-shaped TERRO trap of any kind. Everything else returned is a sponsored Cusbus plug-in UV
+unit, Trappify sticky sticks, generic 20-pack yellow sticky cards, mason-jar lids, and **refill
+liquid** listings for other vendors' traps.
+
+This independently reproduces the Wave 3 finding on the sibling page `best-fruit-fly-trap-canada`
+(logged 2026-09-02, four queries, upheld on independent audit) — the two pages share the identical
+`search=` prop and the identical named product. **Do NOT substitute** a generic red/apple trap or
+a refill-liquid listing: the page's thesis is brand-specific *and* quantity-specific *and*
+regulatory-specific ("Canadian label", "non-insecticidal food-based lure", "up to 45 days",
+"2-pack"), so any swap is the rule-2 near-miss. Search link kept verbatim.
+
+### how-to-get-rid-of-silverfish-canada — SKIPPED (class-named hero, no brand on the page)
+
+`StickyBuyBar name="Energy Star 50-pint basement dehumidifier"` (line 104) and the featured
+`AwardCard name="Energy Star 50-Pint Basement Dehumidifier"` (score 9.3). **No brand or model
+appears anywhere on the page** — not in the hero, the H1, the Quick Answer, the twelve FAQs, or
+the prose. The other three cards are class-named too: "Insect Glue Board Traps (Multi-Pack)",
+"Diatomaceous Earth (Insecticidal, DE Duster)", "Door Sweeps + Silicone Caulk Kit". There is
+nothing to match, so no search was needed to reach the decision — pinning would silently convert a
+*category* recommendation into a single-vendor one. Same call as
+`what-size-dehumidifier-do-i-need-canada` ("hero is deliberately generic — 50-pint default") and
+`best-upholstery-steam-cleaner-canada`.
+
+Worth recording that the dehumidifier cluster has now failed to pin **six times for six different
+reasons**: `best-dehumidifier-for-mold-canada` (3P-gouged), `best-dehumidifier-for-basement-canada`
+(model not sold on .ca), `what-size-dehumidifier-do-i-need-canada` (generic),
+`best-whole-house-dehumidifier-canada` (3P imports), `desiccant-vs-compressor-dehumidifier-canada`
+(single 3P reseller), and now this one (class-named). The two that *did* pin — Midea Cube
+B0GL7Y575V and AlorAir HD55 B097JH2HDH — are the exceptions. If a future wave wants this page
+pinned, that is an editorial job (naming a specific 50-pint unit in the card), not a link job.
+
+### Verification run
+
+- **`npx tsc --noEmit` exits 0.**
+- **Rule 3 (search preserved):** `git diff` shows both changed lines keep
+  `search="victor mouse trap 4 pack"` / `search: 'victor mouse trap 4 pack'` byte-for-byte; the
+  only edit is an inserted `asin` prop.
+- **Rules 4–6:** the diff is **2 insertions across 1 file** — no title, meta description, H1,
+  Quick Answer, editorial verdict, score, prose or existing link altered; no price, star rating,
+  review count, best-seller rank, product image or AggregateRating added; no shared file touched.
+- **Rule 9:** no Health Canada recall found against Victor M150 / Woodstream wooden snap traps.
+
+### Left for a human
+
+1. **`best-mouse-trap-canada` recommends a product that is not sold on amazon.ca.** That page picks
+   the **"Victor M325 wood snap trap (4-pack)"** as Best Overall — in the StickyBuyBar, the Quick
+   Answer link, the featured AwardCard, the comparison table, an H2, and FAQ 1 ("a **4-pack**
+   covers a typical kitchen or garage problem"). Verified today: `victor m325 wood snap trap`
+   returns **15 results with zero M325**, and Victor's only live .ca wooden snap traps are the
+   **M150-12** and **M035-12**, both **12-packs**. So that page's central recommendation, its model
+   number, and its 4-pack quantity claim are all unpurchasable in Canada. The fix is an editorial
+   rewrite (re-anchor to M150-12 or M035-12 and correct "4-pack" to "12-pack"), not an `asin=`
+   addition — out of scope here under rule 4 and the touch-only-my-three-files constraint, but it
+   is the same failure mode as the TERRO fruit fly page and worth more than a pin.
+
+## Wave 4 — pinned 2026-09-02 (2 pages pinned, 1 skipped)
+
+| Page | Product | ASIN | Verified on 2026-09-02 |
+|---|---|---|---|
+| best-ant-killer-canada | TERRO Liquid Ant Bait Stations **T300CAN** — 6-count indoor liquid bait stations | B014H8NZ7U | In Stock, $9.98, **Shipper/Seller Amazon.ca (first-party)**. Brand byline "Terro", Manufacturer TERRO, **Item model number T300CAN** — the Canadian SKU, not the US T300. #12 in Patio, Lawn & Garden / **#1 in Pest Control Lures**, 4.3★ (10,027) |
+| bed-bug-heater-canada | ZappBug Oven 2 heat chamber (39.5 × 39.5 × 28 in, dual 1500 W) | B00JU5G1PY | In Stock, $545.72, **Shipper/Seller ZappBug** (brand direct, not a reseller). 4.1★ (184) |
+
+### best-ant-killer-canada — why T300CAN and not the US pack
+The article's Best Overall card leans on "widely stocked here, and **sold with Canadian
+label directions on the pack**", and the page elsewhere warns that "marketplace listings
+can mix Canadian and US packs — buy the one showing a PCP number". Amazon's item model
+number field reads `T300CAN`; RONA sells the same `T300CAN` 6-pack in Canadian retail,
+corroborating that this is the Canadian-registered SKU rather than a US T300 import. The
+article states no quantity, so the canonical 6-count carries no size mismatch. Buy box is
+Amazon.ca first-party at $9.98 — normal Canadian retail, no third-party markup.
+
+### bed-bug-heater-canada — the title says "XL", the product is the Oven 2
+**Read this before re-verifying.** The amazon.ca title is "The ZappBug Oven 2 **XL** kill
+more bed bugs in larger items with heat", while the article's hero is the plain **Oven 2**
+("mid-size chamber"). The title is the anomaly, not the product. Every concrete fact on the
+listing describes the standard Oven 2:
+
+- Its own first feature bullet: "**Medium size**: Measures **39.5 inches-by-39.5 inches-by-28**".
+- Amazon spec table Product Dimensions: **100.3 × 100.3 × 71.1 cm** = exactly 39.5 × 39.5 × 28 in.
+- "**Two 1500-Watt** thermal heating units"; "Included extension cord allows for easier
+  access to **2nd circuit**".
+
+Manufacturer cross-check (zappbug.com): ZappBug's own catalogue contains exactly three
+chambers — **ZappBug Heater $219.99**, **ZappBug Oven 2 $389.99 (exterior 39.5 × 39.5 × 28
+in, requires 2 separate circuits)**, and **ZappBug Room $1,695**. There is **no separate
+"Oven 2 XL" product**, and the accessory listings confirm it ("Thermal Unit for ZappBug
+Heater, Oven 2 & Room", "Thermometer for ZappBug Heater & Oven 2" — no XL variant). A
+third-party eBay listing likewise titles it "Oven 2 XL" while stating 40 × 40 × 28. So "XL"
+is marketing wording on the one and only Oven 2, distinguishing it from the smaller Heater.
+
+Price sanity: $389.99 USD MSRP × ~1.38 ≈ $538 CAD against the listed $545.72 CAD, sold by
+the brand itself — MSRP-equivalent, not a reseller markup. Same caveat as the earlier
+ZappBug pins: ships from the US, so check delivery cost at checkout. This is the same class
+of badge-vs-spec mismatch documented for the Havahart 1079SR in Wave 1 — judged on what the
+product IS (dimensions, heater count, circuit requirement), not on the marketing word.
+
+### best-dehumidifier-for-basement-canada — SKIPPED, no clean hOmeLabs listing
+The hero is the "hOmeLabs 50-Pint Energy Star Dehumidifier" (Energy Star, continuous gravity
+drain, auto-defrost, explicitly **no built-in pump**). hOmeLabs has effectively left the
+Canadian channel; every hOmeLabs listing left on amazon.ca is a third-party reseller at a
+large markup, the wrong capacity, or an internally contradictory listing. Rule 1 disqualifies
+all of them, and a near-miss substitute is worse than the search link:
+
+| ASIN | Listing | Price | Seller | Why it fails |
+|---|---|---|---|---|
+| B073VBWKJZ | hOmeLabs 4,500 Sq. Ft Energy Star — "removes up to 50 pints" | **$944.80** | NEFELLI LLC (3P) | This IS the model the article means, at roughly 3× normal retail. Only 9 left |
+| B08MWQSGQ5 | hOmeLabs 3,500 Sq. Ft Dehumidifier **with Pump**, 40 pint | **$865.07** | Canavax (3P) | ~3× markup, and the pump contradicts the card's stated "no built-in pump" |
+| B06X9MFTZZ | hOmeLabs 3,000 Sq. Ft Energy Star — 35 pint current DOE | $597.63 | Botley Store (3P) | Markup; wrong capacity; title says 3,000 sq ft while spec table says 4,500. Only 3 left |
+| B0D1H9DXJZ | hOmeLabs "1,800 Sq Ft 8 Pint" | $385.58 | NelsonLife (3P) | Listing contradicts itself — title 8 pint, bullets describe 4,500 sq ft / 50 pint |
+| B0DX7GQSP5 | hOmeLabs 8 Pint / 1,800 sq ft Wi-Fi | $219.99 | KNDirect (3P) | Wrong capacity — an 8-pint unit cannot hold a 1,500–2,500 sq ft basement |
+
+Deliberately **not** substituted with the Midea Cube: rule 2 pins the hero only, and the
+Midea is a different award card on this page ("Best Energy-Efficient & Quiet"). Re-check when
+hOmeLabs returns to a first-party or fairly-priced Canadian buy box. Health Canada recall
+check run for all three heroes — nothing on TERRO or ZappBug (the live 2026 pest recall is
+Raid ant & hornet spray, which this site does not pin).
+
+## Wave 4 batch C — verified 2026-09-02 (3 pages, 0 pinned, 3 skipped)
+
+All three heroes were checked live on amazon.ca in a real browser session (search page,
+`/dp/`, and the all-offers panel where a buy box was missing). None could be pinned without
+breaking a rule. Every `search=` kept verbatim; no page file in this batch was edited.
+`npx tsc --noEmit` clean.
+
+| Page | Action | Reason |
+|---|---|---|
+| picaridin-vs-deet-canada | **Skipped** | Class hero naming three brands with "or" |
+| how-to-keep-mice-out-of-your-car | **Skipped** | Class hero + no candidate whose identity verifies |
+| black-flag-electric-fogger-review-canada | **Skipped** | No featured offer; sole offer a US 3P at ~5x |
+
+### picaridin-vs-deet-canada — skipped (class hero)
+
+Hero is class-named at both link points and the class is explicitly multi-brand:
+StickyBuyBar name "Picaridin 20% insect repellent (Natrapel / OFF! Defense / Sawyer)",
+TopPick name "Picaridin 20% (Natrapel, OFF! Defense, or Sawyer)". The head noun is the
+compound; the brands are parenthetical examples joined by "or". The body copy then declines
+to choose in so many words: "All three of these are 20% picaridin... Any one of them gives
+you the full 5-8 hours... pick the format you like best." The page already carries three
+per-brand cards (Natrapel / OFF! Defense / Sawyer), each with its own secondary BuyLink —
+that trio IS the page's mechanism for letting the reader choose.
+
+Pinning the hero to any one of them would silently convert an explicit category
+recommendation into a single-vendor one — changing the editorial verdict by means of a link.
+Same call as the `best-flea-bomb-canada` and `best-upholstery-steam-cleaner-canada` skips.
+
+Availability was NOT the problem — recorded so a future checker does not redo the search
+work. Natrapel 20% icaridin 100 mL **B0BYFF3S3V** is live and already pinned on the sibling
+page `mosquito-repellent-guide-ontario-2026` (verified 2026-08-31, first-party Amazon.ca).
+If this page's award card is ever narrowed editorially to one named brand, B0BYFF3S3V is
+the ready pin, subject only to the quarterly model-number re-check documented in the Wave 2
+note above. Until the card names a single winner, this stays a search.
+
+Basket-risk note: the harm this programme fixes is basket randomisation on high-AOV
+clusters. All three named picaridin brands sit in a ~$10-18 band and the hero search string
+already resolves to picaridin repellents, so the revenue forgone by skipping is near zero.
+
+### how-to-keep-mice-out-of-your-car — skipped (class hero, and the best candidate cannot be identity-verified)
+
+Hero at both link points is "Capsaicin Rodent Deterrent Tape" / "Capsaicin rodent deterrent
+tape (wire-wrap style)" — no brand is named anywhere on the page. Grepped the file: the only
+marque mentions are Honda/Toyota/Subaru as lawsuit defendants, plus Honda as the automaker
+that "made the fix famous" through its dealer parts counter. The article then says
+"aftermarket versions are now widely available" and warns that "marketing claims vary by
+brand — so read the label of the specific product you buy, check for a PCP number". That is
+an explicit instruction to the reader to evaluate the individual product, which is the
+opposite of what a pinned hero does.
+
+Two independent failures, either one sufficient:
+
+1. **Class hero, no brand to match.** Same call as the picaridin / no-see-um-mesh skips.
+2. **Neither live candidate survives rule 1.** The hero's own search string
+   (`rodent deterrent tape capsaicin wire`) returns ZERO capsaicin tape products on
+   amazon.ca — the entire first page is copper mesh, steel wool, glue traps and ultrasonic
+   plug-ins. Searching `capsaicin rodent tape` surfaces only two real candidates, and both
+   fail:
+   - **B0F1VZYNFM** — "Lakota Naturals Honda Tape Replacement 19MM x 20M OEM 4019-2317",
+     $47.02, In Stock, Ships from Amazon, sold by "Your Family Market", 143 ratings.
+     The listing never says capsaicin or capsicum anywhere — not in the title, not in the
+     bullets ("Wires, pipes, cables and more", "MANY APPLICATIONS"). It is sized to replace
+     the Honda part number, which is not the same claim as being the treated tape. This is
+     the yellow-jacket lesson exactly: matching a SKU string is not verifying what the
+     product IS. Identity unverifiable, so skip.
+   - **B0FZVZ5L9G** — "Rodent Anti-Chew Deterrent Tape - Replacement for Honda Rodent Tape
+     OEM 4019-2317 ... Capsicum-Infused ... 3/4 in x 65 ft", brand **GROUP DMR**, sold by
+     GROUP DMR (brand = seller), $82.69 (**$1.27/ft**), 50 ratings. It does state the
+     capsicum treatment, but it is an unknown reseller-brand at roughly double the cheaper
+     candidate per foot and well above what a genuine Honda 4019-2317 roll costs at a
+     dealer counter. Routing a no-brand category hero into a $82.69 unknown-brand listing
+     is the "near-miss substitute is worse than a search link" failure.
+
+   Re-check if a recognised brand — or genuine Honda OEM 4019-2317 — appears on .ca.
+
+Flagged separately as a CONTENT issue, not an ASIN one: the hero search string currently
+returns no capsaicin tape at all, so the page's number-one "Best Deterrent" CTA lands
+readers on copper mesh. Fixing that means editing an existing link, which this programme is
+not permitted to do — hand it to a content pass.
+
+### black-flag-electric-fogger-review-canada — skipped (no buy box; sole offer a US third-party at ~5x)
+
+This page names an exact model, so it got a full check rather than a class-hero dismissal.
+The ASIN exists: **B0000BYBSD**, title "Black Flag 190107 Electric Insect Fogger for Killing
+and Repelling Mosquitoes, Flies, and Flying Insects Outdoors", brand byline Black Flag,
+4.2 stars (815 ratings). Correct product, exact model. It still fails rule 1 on availability
+and price:
+
+- The `/dp/` page has no Add-to-Cart and no buy box — only "See All Buying Options", under
+  an Amazon "Price higher than typical" warning.
+- The all-offers panel reads **"No featured offers available"** and lists exactly ONE offer:
+  **$420.00 plus $16.59 delivery, arriving September 15-24, shipped from the United States,
+  sold by "gimantic warehouse deals"** (seller rating 4/5 from 40 ratings, 73% positive
+  lifetime), with import fees flagged on the offer.
+
+The 190107 is a sub-$100 machine. A single grey-import reseller at roughly $437 delivered is
+a textbook third-party markup, and pinning it would directly falsify the page's own thesis:
+the Quick Answer, the TopPick blurb and the closing verdict all sell this as "the cheapest,
+most accessible way into thermal fogging" and "the most affordable, lowest-hassle machine
+going". The pin would make the hero contradict the article at the moment of the click.
+
+Also checked and ruled out as substitutes: **B01MR7LT8H** "190396 Electric Insect Fogger,
+40-oz. - Quantity 3" at $600 (different model AND a three-pack, 3P priced), and the generic
+ULV cold foggers that dominate the search results — the wrong machine class entirely, as the
+page's own comparison table explains at length.
+
+This confirms the earlier wave's "Black Flag fogger verified absent" finding and sharpens
+it: the ASIN is not absent, but it is not purchasable on amazon.ca at a defensible price,
+which for our purposes is the same outcome. The search link stays.
+
+Escalated as a content/commercial question, deliberately not decided here: an entire review
+page is built on a product no Canadian reader can currently buy on Amazon.ca. Options are a
+retailer-availability note, redirecting intent to the page's own
+`/blog/best-thermal-fogger-canada` sibling, or leaving it informational. No prose was
+touched.
+
+## Wave 4 — bed-bug-spray / TTC / indoor-fly-trap batch (2026-09-02)
+
+**Result: 1 pinned, 2 skipped.** Both skips were re-verified live from scratch rather than
+inherited from the prior waves' notes — both hold, and both are the *correct* outcome
+rather than a failure. Three link points changed in total, all on one page.
+
+| Slug | Hero as written | ASIN | Action | Reason |
+|---|---|---|---|---|
+| best-indoor-fly-mosquito-trap-canada | `StickyBuyBar` "Katchy Indoor Insect Trap (UV + fan + glue board)" + featured `AwardCard` "UV + Fan + Glue-Board Trap (Katchy-style)" | **B07B6RZP4H** | **PINNED** (2 link points) | Genuine original Katchy, in stock, only offer on .ca, price inside the article's own stated band. Detail below |
+| best-natural-bed-bug-spray-canada | `StickyBuyBar` "EcoRaider plant-based bed bug killer" + featured `AwardCard` "EcoRaider Plant-Based Bed Bug Killer" | — | **SKIP** | **EcoRaider is still not sold on amazon.ca.** Re-tested 2026-09-02 from scratch: `ecoraider bed bug killer spray` returns **23 results, zero EcoRaider** (ECOPEST, OnGuard, ECOGUARD, Raid, KONK, Knock Down); bare `ecoraider` returns **11 results, zero EcoRaider** (ECOGUARD P-22 / Pro-Perm jugs, an ultrasonic repeller, Raid, a bed-bug interceptor). Third independent confirmation of the wave-1 finding. **No substitution made:** the page's #2 and #3 picks (Proof, Doktor Doom) *are* stocked, but pinning either under a StickyBuyBar that reads "EcoRaider plant-based bed bug killer" would be a straight falsehood, and rule 2 confines the pin to the hero. Same call as `dynatrap-canada-review`. Editorial fix, not a link fix |
+| bed-bugs-on-the-ttc-toronto | `StickyBuyBar` "Bed bug interceptor traps — the only real answer" + featured `AwardCard` "Bed Bug Interceptor Traps (Under Each Bed Leg)" | — | **SKIP** | Two independent grounds, both re-verified. Detail below |
+
+### best-indoor-fly-mosquito-trap-canada → B07B6RZP4H (the pin)
+
+| Check | Result |
+|---|---|
+| ASIN resolves | Yes — `ASIN : B07B6RZP4H` |
+| Title (.ca) | "Katchy Fruit Fly Trap - Indoor Mosquito, Gnat, Insect Trap w/UV Light & Suction Fan - Manual, Non-Zapper Insect Catcher Traps for Bug-Free Home - 5 X 8.8 Inches (Black)" |
+| Identity cross-check | **The same ASIN on amazon.com is titled "The Original Katchy Indoor Insect Trap — Fan Powered with UV Light"** — i.e. this is the flagship classic Katchy, not a lookalike or a bundle. The .ca title is a re-keyworded rendering of the identical item |
+| Brand / Manufacturer | KATCHY / KATCHY, Place of Business **Ferndale, WA** |
+| Mechanism ↔ card parity | Listing bullets carry the card's exact mechanism: "combines the power of **UV light and a suction fan** to attract pests, which get trapped to the **sticky disc**" = the card's "UV + fan + glue board". Bullets also independently carry the card's "silent" pro ("DUAL SETTINGS… 'standard' and 'silent'") and its target pests ("gnats, fruit flies, and moths") |
+| Stock | **In Stock**, quantity selector runs to 10 |
+| Price / seller | **$84.05**, FREE delivery Sep 15–24, Shipper/Seller **Meighen Island** (3P) |
+| Quantity conflict | None — neither hero surface states a count, and the article states no price for the trap itself |
+| Editorial stance | The page's own Best Overall, score 8.6; rules 7 and 8 satisfied |
+
+**Why the pin is worth making — the search is actively leaking basket.** The site's own
+query `katchy indoor insect trap uv fan` currently returns **four sponsored non-Katchy
+products above the first genuine Katchy**: Cusbus fruit-fly plug-in $25.99, a Coremaster
+**cockroach/silverfish glue-board 12-pack $16.99** (wrong pest entirely), a generic $39.99
+plug-in, and a $39.99 bug zapper. A reader clicking a bar that reads "Katchy Indoor Insect
+Trap" lands on a screen whose visible top row is $17–$40 of other things. That is the exact
+basket-erosion mechanism this programme exists to fix, and the gap here is roughly 2–5×.
+
+**Markup test — passed, with the reasoning recorded.** $84.05 is a 3P buy box, so it was
+checked properly rather than waved through:
+
+1. **No cheaper offer exists for this ASIN.** `/gp/offer-listing/B07B6RZP4H` redirects
+   straight back to the dp and the search row carries no "More buying choices" line —
+   a single offer, so there is no undercut offer being marked up over.
+2. **The whole Katchy catalogue on .ca sits in one band**, not just this SKU: Duo Black
+   B08TKG5M4S $104.90, Duo White B08Y65R582 $102.40, Automatic B07H2JGSM6 $84.05, classic
+   White B07M8VX4T9 $88.05, "Original" B0FX2Q7P4Z $93.32. A reseller markup shows up as one
+   outlier ASIN; this is a market-wide import premium.
+3. **Independent Canadian reference points.** amazon.com priced *for delivery to Canada*
+   quotes Katchy at **CAD 74.88 (Duo White bundle), CAD 79.86 (Midnight), CAD 97.83 (Duo
+   Black bundle)** — $84.05 sits inside that band. **Walmart.ca does not stock Katchy at
+   all** (4 results for the query, none of them Katchy), so there is no cheaper Canadian
+   retail channel being undercut. Same shape as the wave-4 RESCUE! call.
+4. **The article's own numbers accommodate it.** Its comparison table prices the indoor
+   UV/glue trap category at **"$25–$90 + refills"**; $84.05 is inside that. No reader
+   expectation is broken, and rule 4 was not touched to make it fit.
+
+**Two Amazon spec fields on this listing are wrong — flagged so a future auditor does not
+re-litigate them.** The top spec table reads `Colour: Purple` (the title says Black),
+`Material: Paper`, and `Product Dimensions 10.9 x 10.9 x 0.5 cm` — that is a **glue board**,
+not a trap. The Product-details block further down gives the real item: **13.97 x 13.97 x
+23.11 cm, 150 g, Manufacturer KATCHY, first available May 19 2018**. Per the established
+method, identity was judged on title, bullets, brand byline and manufacturer — all four
+agree — not on a single spec field. Same failure mode as the Natrapel "Item form: Aerosol".
+
+**Watch items for the quarterly check.** (a) Delivery is **Sep 15–24** — a slow
+seller-fulfilled window, acceptable but worth re-checking; if Meighen Island goes out of
+stock this ASIN has no backup offer, and the pin should then be dropped rather than
+re-pointed. (b) Katchy's current-generation model is the **Duo** (scent pod, B08TKG5M4S,
+$104.90) and Amazon labels the pinned unit "There is a newer model of this item" — the Duo
+was **not** substituted, because it is a different product at a different price and the
+page's hero describes the classic UV + fan + glue-board unit. If the classic is delisted,
+the correct response is an editorial decision about the Duo, not a silent re-point.
+
+### bed-bugs-on-the-ttc-toronto — why it is a skip (both grounds re-verified)
+
+**Ground 1 — the hero is class-named.** `StickyBuyBar name="Bed bug interceptor traps — the
+only real answer"` and the featured card `name: 'Bed Bug Interceptor Traps (Under Each Bed
+Leg)'`. The card's `why` describes a *mechanism* only ("bed bugs climb the textured outer
+wall and cannot climb the smooth inner one"), and **no brand appears anywhere in the visible
+editorial** — not in the H1, Quick Answer, risk table, FAQs, or any of the four "worth
+buying" cards. The only brand token on the entire page is the string `climbup` inside the
+`search=` prop, which no reader ever sees. Pinning would silently convert a deliberately
+category-level recommendation into one vendor's SKU. Identical call to
+`bed-bug-stains-poop-droppings-canada` (skipped twice) and `black-flies-ontario`.
+
+**Ground 2 — ClimbUp still fails rule 1 on price, independently re-checked 2026-09-02.**
+`climbup insect interceptor` returns exactly one genuine ClimbUp item:
+**B00743B6ZE "Climbup Insect Interceptor - Box (12 Traps)", $111.03 ($9.25/count), was
+$116.69, "Only 6 left in stock", 3.1★ on 3 ratings, delivery Sep 9–11.** Against the
+well-stocked equivalents *on the same results page*: **ECOPEST Bed Bug Blocker (Pro) 8-pack
+B07MG8BD7X $39.99 ($5.00/cup), 4.1★ on 4.6K**; **4-pack B07SPDXVMM $25.99 ($6.50/cup), 4.3★
+on 3.2K**; **Aspectek 4-pack B0186A8ARK $23.99 ($6.00/cup), 4.0★ on 1.7K**. ClimbUp is
+**1.4–1.85× per cup** on a three-review single-reseller listing with six units left. No
+substitution was made: ECOPEST, TruGuard, Aspectek and Coremaster are all *different
+brands*, and swapping one in would invent a brand recommendation this page deliberately
+declines to make.
+
+**The fallback here is healthy, which is why the skip costs nothing.** `bed bug interceptor
+traps climbup` returns 23 results whose top organic slots are all correct-category
+double-well interceptors at sane prices — TruGuard XL 4-pack, TruGuard X 12-pack, ECOPEST
+Bed Bug Blocker (Pro) 4/8/12-packs, Aspectek 4-pack. The reader arrives at the right shelf.
+Unlike the no-see-um case, nothing is broken; there is simply nothing to pin.
+
+**Editorial note for a human (out of scope under rule 4).** This page and
+`bed-bug-stains-poop-droppings-canada` share the same class-named interceptor hero, and the
+site's *own* sibling `bed-bug-interceptor-traps-canada` already commits to a brand. If that
+sibling's committed pick is one of the stocked .ca families (ECOPEST / TruGuard / Aspectek
+rather than ClimbUp), naming it on these two pages would make both pinnable in one edit and
+would end the recurring skip. That is a content decision, not a link decision.
+
+**Verification method note.** Every claim above was read off a live amazon.ca session on
+2026-09-02 (result counts, titles, prices, per-unit prices, seller/shipper, stock strings,
+delivery windows), plus one amazon.com read for the B07B6RZP4H identity cross-check and one
+walmart.ca read for the Canadian-retail reference. `npx tsc --noEmit` exits 0.
+
+## Wave 4 — INDEPENDENT AUDIT (2026-09-02)
+
+Auditor re-verified every claim in the wave-4 report against live sources. **The single pin in
+this batch was REVERTED.** Net result for the batch: **0 pinned, 3 skipped.**
+
+| Page | Auditor action | Finding |
+|---|---|---|
+| best-steam-cleaner-for-pest-control-canada | **PIN REVERTED** (`asin="B07C44DM6D"` removed from both link points; `search="dupray neat steam cleaner"` preserved verbatim) | **RULE 9 VIOLATION — active Health Canada recall.** The Dupray Neat Steam Cleaner is under a joint Health Canada / US CPSC consumer product recall, "Dupray Neat Steam Cleaner recalled due to burn hazard", last updated **2026-02-26**. Model **DUP020WNA**, batch/date codes **0118-01 through 0425-05** affected (0525-XX and later are not). Cause: an overfilled/corroded boiler with a malfunctioning pressure-release cap **can rupture**. As of 2026-01-20 Health Canada logged **15 boiler ruptures, 4 injuries** (burns, lacerations, a broken wrist) and 7 property-damage reports. The notice states the Canada Consumer Product Safety Act **prohibits recalled units from being redistributed, sold, or given away in Canada**. An Amazon listing gives the buyer **no way to select a batch code**, so a purchase through our link cannot be steered to safe stock. Rule 9 is unconditional: do not pin, flag it. |
+| best-flea-bomb-canada | **SKIP CONFIRMED** | Independently verified. Both hero points are class-named ("Pet-hair vacuum with a beater bar and sealed filtration" / "High-Suction Vacuum With a Beater Bar and Sealed Filtration"). Re-ran the brand grep: the 11 apparent "SEBO" hits are a **substring false positive inside the word "ba-sebo-ards"** — genuine brand hits are zero, exactly as reported. Rule 7 correctly blocks the Doktor Doom / Konk foggers: they are award #3 (badge "If You Still Want a Fogger"), not the hero, and the page's verdict is openly hostile ("the best flea bomb is no flea bomb", "Not recommended — read the conditions first", "A fogger is not in that list"). |
+| do-tiki-torches-repel-mosquitoes | **SKIP CONFIRMED** (on one of the two stated grounds) | Correct outcome. Re-verified live: 43 results for `thermacell e90`, **no E-ZoneGuard Patio 9-Hr listing** (lineup: Patio 5.5-Hr $53.99, Patio+ $71.98, Adventure $74.97, E55 $71.45). B0C9MNZPQ9's title says "Rechargeable E90" while its own Product description says **"Thermacell EX90 ... engineered specifically for the avid outdoors person and traveler"** — a self-contradicting listing, so identity cannot be verified and rule 1's "if you cannot verify, SKIP" applies. **However the report's second ground (a ~57% third-party markup) is factually wrong** — see the struck-through correction in the wave-4 entry above. |
+
+### Systemic finding — the same recalled ASIN is live on two other pages
+
+`B07C44DM6D` was pinned in **wave 1** and is still committed on two pages **outside this batch**,
+two occurrences each:
+
+- `app/blog/dupray-steamer-review-canada/page.tsx` (lines 104, 131)
+- `app/blog/dupray-vs-mcculloch-steamer-canada/page.tsx` (lines 104, 253)
+
+Both are live in production and both point a buyer at a recalled burn-hazard appliance under a
+"Best Overall" endorsement. Left untouched here only because they are out of this batch's scope —
+**they need the same revert urgently.**
+
+### Process lesson for future waves
+
+Rule 9 (Health Canada recall) was the one check the wave-4 report never ran; its Amazon-side
+verification was otherwise accurate in every particular. **A recall is invisible on the Amazon
+listing** — B07C44DM6D shows In Stock, 4.4 stars, 22,998 ratings, "500+ bought in past month",
+sold by Dupray's own storefront, and reads as a model pin. Amazon-side verification alone cannot
+surface it. **Add a `recalls-rappels.canada.ca` search on the brand + model to the standard
+pre-pin checklist, before any pin is written.**
+
+Also worth noting: the temperature discrepancy the report flagged as a content question (listing
+says the Neat "Heats up to 275°F/135°C"; the page's Quick Answer demands a boiler at "roughly
+150–170°C") sits directly adjacent to a recall whose failure mode is **boiler rupture**. That
+editorial claim should be settled by a human, and it is now more than a tidiness issue.
+
+### Independent audit — Wave 4 batch C (auditor pass, 2026-09-02)
+
+Re-verified the three batch-C pages against amazon.ca without trusting the batch report.
+
+| Page | Claimed | Auditor verdict |
+|---|---|---|
+| picaridin-vs-deet-canada | Skipped (class hero) | **Upheld** |
+| how-to-keep-mice-out-of-your-car | Skipped (class hero, identity unverifiable) | **Upheld** |
+| black-flag-electric-fogger-review-canada | Skipped (no featured offer) | **Upheld** |
+
+**Nothing removed — there was nothing to remove.** All three files are byte-identical to
+HEAD (`git diff HEAD` empty) and contain zero `asin=` props, so no pin could be wrong. Every
+`search=` is intact and unmodified. `npx tsc --noEmit` exits 0.
+
+**B0000BYBSD re-verified independently.** Title matches the hero verbatim ("Black Flag 190107
+Electric Insect Fogger for Killing and Repelling Mosquitoes, Flies, and Flying Insects
+Outdoors"), brand byline Black Flag, 4.2 stars / 815 ratings. No Add-to-Cart and no Buy-Now
+button; "No featured offers available" and "price higher than typical" both present. The skip
+is correct under rule 1. Minor variance from the batch report: the offscreen price read
+**$400.00**, not $420.00 — immaterial, both are ~4-5x a sub-$100 machine, and the decision is
+unchanged. The prior wave's "verified absent" record for this fogger is genuinely **wrong**;
+the listing is live, it simply has no featured offer.
+
+**Mice-in-car escalation confirmed real.** The hero search `rodent deterrent tape capsaicin
+wire` returns **zero** capsaicin/capsicum products in the top 12 — sonic mole stakes, rat
+mesh, 4x steel wool and 5x copper mesh. The page's "Best deterrent" CTA does land readers on
+an unrelated category. B0F1VZYNFM ("Lakota Naturals Honda Tape Replacement 19MM x 20M OEM
+4019-2317", Lakota Naturals, $47.02) mentions capsaicin/capsicum **nowhere** in its full page
+text; the batch agent's application of the yellow-jacket lesson here was correct.
+
+**Method note.** The shared browser was being re-tabbed mid-call by concurrent agents; two
+early reads returned another agent's fruit-fly and mouse-trap pages. All figures above were
+re-taken via same-origin `fetch` inside an amazon.ca context with a URL guard, which is
+immune to that race. Any batch reporting DOM figures from this shared session without a guard
+should be re-checked.
+
+---
+
+## Independent audit — Wave 3 (centipede / dog-repellent / bed-bug-powder), 2026-09-02
+
+Auditor pass over `how-to-get-rid-of-centipedes-canada`, `mosquito-repellent-for-dogs-canada`,
+`best-bed-bug-powder-canada`. Wave report claimed **0 pinned, 3 skipped, no file modified**.
+
+**Verdict: report accurate on every checkable claim. Nothing to revert.** No `asin` prop was
+added anywhere, so the serious error class this audit hunts — a pin that should have been a
+skip — is structurally absent. Zero ASINs removed because zero were added.
+
+| Check | Result |
+|---|---|
+| Files modified | **None.** `git diff HEAD` = **0 bytes** for all three files. md5 deltas vs HEAD are CRLF/LF only |
+| `asin=` props present | **0** in all three files |
+| `search=` props preserved | Yes — trivially, since no byte changed. `50 pint dehumidifier basement energy star`, `k9 advantix ii dogs`, `cimexa insecticide dust` all intact |
+| `npx tsc --noEmit` | **Exit 0** |
+| `asin-pilot.md` append-only | **346 insertions, 0 deletions** — no concurrent agent's section clobbered |
+
+### Skip-by-skip re-verification (live, own browser tab, `location.href`-guarded)
+
+| Page | Skip upheld? | Independent evidence |
+|---|---|---|
+| how-to-get-rid-of-centipedes-canada | **Yes** | Hero is a pure class name. `StickyBuyBar name="Energy Star basement dehumidifier (50-pint class)"`, featured card `name: 'Energy Star Basement Dehumidifier (50-Pint Class)'`. Re-ran the brand grep (Frigidaire/Midea/Hisense/Danby/hOmeLabs/Honeywell/Tosot/Colzer/Waykar/Vremi/GE/Ivation/Kesnos/Shinco) — **zero hits**. `whichToBuy` defers sizing to `/blog/best-dehumidifier-for-basement-canada`. The claimed restraint is real: `B0GL7Y575V` **is** pinned on `best-large-capacity-dehumidifier-canada` (line 100) and was correctly not borrowed — that page's `search="midea cube 50 pint dehumidifier"` names a brand, the centipede page's names none |
+| best-bed-bug-powder-canada | **Yes** | CimeXa absence reproduced independently, and the report's exact counts verify: `s?k=cimexa` → DOM `s-metadata` `"totalResultCount":23` (report said 23), **zero** CimeXa products; every `cimexa` string in the DOM is search-box echo, `<title>`, or script config — the only product-adjacent mention is a DE **duster** listing CimeXa in compatibility copy. `s?k=cimexa+insecticide+dust` → "1-48 of **54** results" (report said 54), zero CimeXa. Third independent confirmation on this repo |
+| mosquito-repellent-for-dogs-canada | **Yes** | The load-bearing claim verifies at the data layer. `B07YWB2PG4` = "K9 Advantix II … **Medium Dogs weighing 4.6 kg to 11 kg (10 lbs. to 24 lbs.)-4 doses**", In Stock, $79.37, byline "Visit the K9 Advantix Store". Its twister JSON is `"dimensions":["size_name"]` with values `{B088BYRD5V:"2 doses", B07YWB2PG4:"4 doses", B0862V9SG5:"6 doses"}` — **dose count is the only selectable dimension; weight band is not selectable.** `B0862TCMDW` = "…**Extra Large Dogs weighing over 25 kg (over 55 lbs.)-6 doses**", $130.82, In Stock, and carries its own separate `["size_name"]` twister (`B088BZC1JX` 2, `B0862TVSRX` 4, `B0862TCMDW` 6). **Weight bands are separate parent listings**, so any pin hard-routes a permethrin dose band with no on-page correction — the `raccoon-proof-chimney-cap-canada` case, correctly distinguished from `bed-bug-mattress-encasement-canada` (size picker on page). Revenue claim also verifies: `k9 advantix ii dogs` returns **B0862TCMDW at $130.82 organic-first**, and the top 11 organic results are all genuine K9 Advantix (first non-brand hit is ParaPet at #12). The term is navigational — Amazon is not mis-picking — so the steamer-cluster defect does not exist here |
+
+### Notes
+
+- **The dog page is the one worth understanding**, and the wave report got it right for the right
+  reason. Pinning the Medium 4-dose would have *cut* basket $130.82 → $79.37; pinning the XL to
+  chase $130.82 would have picked a **pesticide dose band for commission**, which rule 8 forbids
+  on a product the article itself sells on being "dosed by dog weight". Both directions are wrong,
+  which is what makes it a skip rather than a close call.
+- **One claim I could not fully confirm** (non-load-bearing, since the page was skipped): the
+  report states `B07YWB2PG4`'s buy box is "Shipper/Seller Amazon.ca first-party". I confirmed the
+  listing renders "Shipper / Seller" buy-box labels but did not extract the merchant value. Does
+  not affect the skip.
+- **Editorial escalation, unchanged from the wave report and now confirmed a third time:**
+  `best-bed-bug-powder-canada` hard-recommends a product Canadians cannot buy on Amazon.ca — the
+  Quick Answer reads "The best bed-bug powder in Canada is a silica-gel dust like CimeXa" and the
+  Best Overall card scores it 9.2. The card's con ("Confirm the Canadian-market version before
+  buying") under-states it: there is no Canadian-market version on .ca to confirm. Same defect
+  already logged against `crossfire-bed-bug-concentrate-review-canada`. **This is a content fix
+  for a human, not a link fix** — correctly left untouched under rule 4.
+- Live price spot-check on the dog page's stated "$55–$95 for a 4-pack": 4-packs are $79.37
+  (Medium) and $92.64 (`B0862TVSRX` XL, `B07YW8JTVT`) — inside the range but near its ceiling.
+  2-pack XL $55.24; 6-packs $120.69–$130.82. Range holds today; one price move breaches it.
+
+---
+
+### INDEPENDENT AUDIT — wave 4 batch: best-natural-bed-bug-spray-canada / bed-bugs-on-the-ttc-toronto / best-indoor-fly-mosquito-trap-canada (2026-09-02)
+
+Second agent, verified live on amazon.ca from scratch. Nothing inherited from the pinning agent's notes.
+
+| slug | claim audited | verdict | evidence |
+|---|---|---|---|
+| best-indoor-fly-mosquito-trap-canada | PIN B07B6RZP4H | **PIN UPHELD — not removed** | `/dp/B07B6RZP4H` resolves. Title "Katchy Fruit Fly Trap - Indoor Mosquito, Gnat, Insect Trap w/UV Light & Suction Fan - Manual, Non-Zapper ... 5 X 8.8 Inches (Black)". Brand byline **KATCHY**, Manufacturer **KATCHY**, Ferndale WA. Target Species "Mosquitos, Gnats, Moths, Fruit Flies". Style **Manual** (not the Automatic/Duo). Unit Count **1**, Number of Pieces **1** — no multipack conflict, and the hero states no count. Detail-block dims **13.97 x 13.97 x 23.11 cm, 150 g** = the trap body (matches the title's 5 x 8.8 in). **In Stock**, $84.05, seller Meighen Island (3P). Date first available May 19 2018 = the original unit |
+| best-natural-bed-bug-spray-canada | SKIP (EcoRaider absent) | **SKIP UPHELD** | Re-tested independently: `ecoraider bed bug killer spray` → **35 results, zero EcoRaider**; bare `ecoraider` → **23 results, zero EcoRaider** (Amazon fuzzy-substitutes ECOGUARD). No "no results" banner — the brand simply is not carried. File byte-identical to HEAD; no substitute pinned. **Fourth** independent confirmation |
+| bed-bugs-on-the-ttc-toronto | SKIP (class-named hero) | **SKIP UPHELD** | Ground (1) is dispositive and verified in source: the string `climbup` appears exactly 4x in the file (lines 103, 201, 338, 367) and **every one is inside a `search=` prop** — StickyBuyBar, the featured card, and two BuyLinks. Zero brand tokens in visible editorial. Hero is `Bed Bug Interceptor Traps (Under Each Bed Leg)`, `why` describes only a mechanism. Pinning would invent a brand recommendation the page deliberately declines to make. File byte-identical to HEAD |
+
+**Markup test re-run independently (the pin's main risk).** B07B6RZP4H is the **joint-cheapest genuine Katchy on amazon.ca**, not an outlier: on the article's own query the Katchy shelf reads B07B6RZP4H $84.05, B07H2JGSM6 $84.05, B07M8VX4T9 $88.05, B0FX2Q7P4Z $93.32, B08Y65R582 $102.40, Duo B08TKG5M4S $104.90. A whole-brand $84–$105 band is an import premium, not a single-ASIN reseller markup. `/gp/offer-listing/B07B6RZP4H` **302s back to the dp** (`ref=olp-opf-redir`) and `#universalMbcContent` is null — one offer only, so there is no cheaper offer being marked up over. Passes rule 1.
+
+**The pin fixes a real, confirmed leak.** Re-ran `katchy indoor insect trap uv fan`: position 1 is a **sponsored $16.99 Coremaster cockroach/silverfish glue-board 12-pack (B0GV4MZ7C1)** — wrong pest, wrong product class — above every genuine Katchy. Readers clicking a bar labelled "Katchy Indoor Insect Trap" were landing on that.
+
+**Rule 9 (recall):** no Health Canada / recalls.gc.ca recall found for the Katchy trap. Clear.
+
+**Notes recorded so a future auditor does not re-litigate them:**
+- **`Item model number: Aspectek` on B07B6RZP4H is NOT a brand mismatch.** Aspectek is Katchy's original manufacturing partner and this is a legacy catalogue field. Brand byline, Manufacturer, Place of Business and title all say KATCHY. Judged on identity, per the standing method.
+- The bogus spec rows the pinning agent flagged are confirmed real and confirmed harmless: `Colour Purple` / `Material Paper` / `Item Dimensions 10.9 x 10.9 x 0.5 cm` are **glue-board** values sitting in the trap's attribute table. The Product-details block on the same page gives the true item. Same failure mode as the Natrapel "Item form: Aerosol" note.
+- Variation parent is **B08NQ2VQ9F**; the family is Black $84.05 / White $88.05. The pinned child is the cheaper one. No refill SKU sits inside the buy family.
+- Listing carries **3.6 stars on 88,697 ratings**. Low-ish, but the editorial already names Katchy by brand and scores it 8.6 — the pin changes *which Katchy the reader lands on*, not which brand is recommended. No rule-8 issue.
+- **Link plumbing verified functional:** `lib/amazon.ts:54` prefers `asin` and emits `/dp/{asin}?tag=`, falling back to `/s?k=` only when `asin` is absent — so the pin is not a no-op and `search=` remains a live fallback if it is ever dropped.
+
+**Cross-page opportunity (out of this batch's scope, not touched):** `app/blog/katchy-indoor-insect-trap-review-canada/page.tsx:105` carries `StickyBuyBar name="Katchy Indoor Insect Trap" search="katchy indoor insect trap"` with **no asin**, and its verdict is a positive 8.3/10. The same now-verified B07B6RZP4H applies there and it feeds off the same polluted search shelf. Candidate for the next wave.
+
+**Minor drift in the pinning agent's report, non-material:** it logged the EcoRaider queries as 23 / 11 results; I measured 35 / 23. Amazon result counts vary by session. The finding that matters — **zero EcoRaider in either** — reproduced exactly. It also logged the audit-log append as 458 added / 0 removed; `git diff --numstat` now reads 580 / 0 because parallel agents appended to the same file. The append-only invariant holds.
+
+---
+
+## MANDATORY PRE-PIN CHECK, added 2026-09-02 after a near miss
+
+**Search recalls-rappels.canada.ca for the brand + model BEFORE pinning any ASIN.**
+
+A recall is invisible from the Amazon listing. B07C44DM6D (Dupray Neat Steam Cleaner)
+presented as a textbook-clean pin: In Stock, 4.4 stars over 22,998 ratings, "500+ bought in
+past month", buy box held by Dupray's own Canadian storefront, price inside the article's
+stated band. It passed every Amazon-side check.
+
+It is under an active Health Canada + US CPSC recall dated 2026-02-26 for **burn hazard from
+boiler rupture** — model DUP020WNA, batches 0118-01 to 0425-05, 15 ruptures and 4 injuries
+including a broken wrist, ~97,000 units sold in Canada. Health Canada's guidance is to stop
+using it immediately.
+
+The wave-4 auditor caught it. The pinning agent did not, because nothing on Amazon says so.
+
+**Amazon-side verification can never surface a recall. Check the regulator.**
+
+Also relevant: `best-wasp-nest-spray-canada` recommends Raid Max Wasp & Hornet Foam Bug
+Killer 2 (PCP 30746), also under an active Health Canada recall for leaking cans. That page
+now carries a recall notice.

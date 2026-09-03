@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
+import Figure from '@/components/Figure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 
 const SLUG = 'what-temperature-kills-mosquitoes'
@@ -51,6 +52,58 @@ const FAQS = [
   {
     question: 'When does mosquito season end in the GTA?',
     answer: 'Mosquito activity in the Greater Toronto Area typically winds down through September and October as overnight lows fall below 10°C, and effectively ends with the first hard frost — usually mid-to-late October in most GTA cities, later in mild-microclimate or urban-heat areas. Warm autumns can extend biting into November. See our GTA mosquito season guide for the full month-by-month timeline.',
+  },
+  {
+    question: 'What temperature do mosquitoes die at in the United States?',
+    answer: 'The same numbers apply in Fahrenheit: active adult mosquitoes die in a hard freeze of 28°F (-2°C) held for a couple of hours, which is the National Weather Service threshold for a killing freeze. They stop flying and feeding below 50°F (10°C), and larvae in standing water stop developing and start dying somewhere around 46–53°F (8–12°C), long before that water freezes. Where this differs from Canada is coverage, not physics — South Florida, the Gulf Coast, South Texas, coastal Southern California, Hawaii and the low Arizona desert rarely or never reach 28°F, so mosquitoes there are never killed off by cold at all.',
+  },
+  {
+    question: 'Do mosquitoes die in winter in Florida and the southern US?',
+    answer: 'Mostly no. UF/IFAS Extension is clear that Florida has mosquitoes year-round, and in South Florida there is no true off-season — populations dip in the coolest weeks and rebound within days of the next warm rain. North and Central Florida, the Gulf Coast and South Texas get brief cold snaps that knock adults down, but rarely the sustained 28°F (-2°C) hard freeze needed to kill them off, and eggs survive regardless. If you live below roughly the I-10 corridor, plan for twelve months of mosquito pressure rather than a frost-defined season.',
+  },
+  {
+    question: 'Will a cold room kill mosquitoes?',
+    answer: 'Only if it is genuinely cold and stays that way. Below 50°F (10°C) a mosquito stops flying, host-seeking and feeding, and will eventually die — but of starvation and exhaustion over days, not of cold itself. To kill an adult mosquito outright with cold you need freezing temperatures, around 32°F (0°C) or below, held for hours. A cool basement or an unheated bedroom in the 50s or 60s°F just makes them sluggish, and they recover as soon as the room warms up.',
+  },
+  {
+    question: 'Do mosquitos die in AC?',
+    answer: 'No. Air conditioning slows mosquitoes down; it does not kill them. Most US homes are held at 72–78°F (22–26°C), which sits squarely inside the 70–80°F band mosquitoes actually prefer, so an indoor mosquito stays active and keeps biting. What AC genuinely does is dry the indoor air, and low humidity shortens a mosquito\'s lifespan and discourages it from settling. Sealing screens and removing indoor standing water does far more than the thermostat.',
+  },
+  {
+    question: 'Can a mosquito die from heat?',
+    answer: 'Yes. Mosquitoes are cold-blooded, so heat kills them the same way cold does — it just takes a narrower margin. Sustained temperatures above roughly 95°F (35°C) push adults into heat stress: lifespan shortens, egg production falls, and dehydration becomes the limiting factor. Above about 100–104°F (38–40°C) exposed adults die within hours. In practice they rarely sit in that heat, because they retreat to shade and damp shelter before it gets lethal.',
+  },
+  {
+    question: 'Are mosquitoes out in 100 degree weather?',
+    answer: 'Not in the open sun. At 100°F (38°C) mosquitoes are still alive and still on your property, but they stop flying in exposed heat and shelter in shade — dense shrubs, damp mulch, under decks, crawl spaces, storm drains. Biting pressure collapses through the hottest part of a Phoenix or Dallas afternoon and comes back hard at dusk when the air cools back into the 80s°F. A 100°F day usually means fewer bites at 3pm and more at 8pm, not fewer mosquitoes.',
+  },
+  {
+    question: 'What temperature do mosquitoes stop coming out?',
+    answer: '50°F (10°C) is the line. Below it mosquitoes stop flying, stop host-seeking and stop feeding — they either find shelter to overwinter or die off. You notice the decline well before that threshold: below 60°F (15°C) they fly poorly and biting pressure drops sharply, which is why a cool evening feels dramatically less buggy than a warm one at the same time of year.',
+  },
+  {
+    question: 'What temperature do mosquitoes go away at night?',
+    answer: 'The same 50°F (10°C) threshold applies after dark. An evening that cools below 60°F (15°C) makes biting noticeably lighter, and once the overnight low drops under 50°F mosquitoes stop flying altogether. This is why a clear, cool, breezy night feels bug-free while a warm, humid, still one does not — temperature and wind, not darkness, are what shut them down. Wind above roughly 10 mph grounds them regardless of temperature.',
+  },
+  {
+    question: 'What kills mosquitoes instantly?',
+    answer: 'A contact insecticide labelled for flying insects kills an adult mosquito in seconds, and a swatter or electric racket kills the one in front of you. Nothing that works instantly also reduces the population, because the eggs and larvae producing the next generation are untouched. The things that actually shrink mosquito numbers are slow: emptying standing water, treating breeding sites with Bti larvicide, and a residual barrier treatment on resting vegetation. In the US, any product you apply must be EPA-registered and used exactly as its label directs.',
+  },
+  {
+    question: 'What do mosquitoes hate the most?',
+    answer: 'Wind and dry air, more than any smell. Mosquitoes are weak fliers and a breeze above roughly 10 mph grounds them, which is why a box fan on a patio is one of the most reliable low-tech defences there is. They also avoid hot, dry, exposed ground in favour of still, humid shade. For skin protection, CDC recommends EPA-registered repellents containing DEET, picaridin, IR3535, oil of lemon eucalyptus (OLE/PMD), para-menthane-diol or 2-undecanone.',
+  },
+  {
+    question: 'What smell do mosquitoes hate most?',
+    answer: 'Oil of lemon eucalyptus (OLE) and its refined component PMD is the only plant-derived scent CDC lists alongside DEET and picaridin as an EPA-registered repellent with tested effectiveness. Citronella, lavender, peppermint, garlic and vanilla all repel mosquitoes weakly and briefly — typically under an hour, and only within centimetres of the source — which is why scented candles and repellent plants underperform so badly in a real backyard.',
+  },
+  {
+    question: 'Do mosquitoes bite less if you shower?',
+    answer: 'Slightly, and only for a while. Mosquitoes locate you by exhaled carbon dioxide, body heat and the bacteria that produce skin odour, so washing off sweat and lactic acid can make you marginally less attractive for a short period. But you keep exhaling CO2 and radiating heat the moment you step out, and heavily scented soaps and lotions can attract mosquitoes rather than deter them. A shower is not protection; an EPA-registered repellent is.',
+  },
+  {
+    question: 'What is the worst month for mosquitoes?',
+    answer: 'It depends on your latitude. Across Canada and the northern United States, July is the worst month — it combines the highest temperatures with the accumulated output of every generation since spring. On the Gulf Coast and in Florida the peak is longer and rain-driven, roughly May through October, with late summer often the worst as salt-marsh and floodwater species respond to storms. In the desert Southwest, monsoon rain rather than temperature sets the peak, usually July into September.',
   },
 ]
 
@@ -140,6 +193,61 @@ export default function WhatTemperatureKillsMosquitoesPage() {
         </div>
       </section>
 
+      {/* ── FAHRENHEIT-FIRST REFERENCE (added for US readers; the °C table above is unchanged) ── */}
+      <section className="bg-white px-4 pt-10">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-2xl font-extrabold text-brand-900 mb-3">Mosquito Temperatures in Fahrenheit (US Quick Reference)</h2>
+          <p className="text-gray-700 mb-5 max-w-3xl">
+            BuzzSkito is a Canadian crew and the table above is written in Celsius, but roughly one in six people reading this page is now in the United States. Here is the same physics with <strong>&deg;F first</strong> &mdash; plus three numbers the &deg;C table does not carry: the <strong>70&ndash;80&deg;F preferred band</strong>, the temperature at which mosquito <strong>larvae</strong> stop developing, and the National Weather Service&rsquo;s own hard-freeze threshold.
+          </p>
+
+          <Figure
+            src="/diagrams/mosquito-temperature-scale-fahrenheit.svg"
+            alt="Temperature scale showing what mosquitoes do from 100°F heat stress down to a 28°F hard freeze, in Fahrenheit with Celsius in brackets"
+            caption="Mosquito activity by temperature, °F first. Above 95°F they overheat; 70–80°F is their preferred band; below 50°F they stop flying; 28°F held for hours kills active adults — but not eggs or hibernating females."
+            width={720}
+            height={470}
+            priority
+          />
+
+          <div className="rounded-xl border border-navy-100 overflow-x-auto bg-white shadow-sm mt-6">
+            <table className="w-full text-sm min-w-[680px]">
+              <thead className="bg-brand-800 text-white">
+                <tr>
+                  <th className="px-4 py-3 text-left">Temperature (&deg;F)</th>
+                  <th className="px-4 py-3 text-left">&deg;C</th>
+                  <th className="px-4 py-3 text-left">What mosquitoes do</th>
+                  <th className="px-4 py-3 text-left">Where in the US this bites hardest</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  ['100°F and above', '38°C+', 'Too hot to fly in open sun — adults retreat to shade, damp mulch, crawl spaces and storm drains; biting shifts to dawn and dusk', 'Phoenix, Las Vegas, inland California, West Texas in July and August'],
+                  ['95–100°F', '35–38°C', 'Heat stress — lifespan shortens, egg output falls, dehydration becomes the limiting factor', 'Southwest, Gulf Coast and Central Valley heat waves'],
+                  ['80–95°F', '27–35°C', 'Peak biting and fastest larval development — the worst band for a homeowner', 'Almost the entire country, June through August'],
+                  ['70–80°F', '21–27°C', 'The preferred range — comfortable, aggressive, breeding steadily', 'Most of the US spring to fall — and the inside of an air-conditioned house'],
+                  ['60–70°F', '15–21°C', 'Slowing — clumsy flight, biting pressure drops noticeably', 'Spring and fall shoulder seasons everywhere'],
+                  ['Below 50°F', 'Below 10°C', 'The switch — they stop flying, host-seeking and feeding; shelter to overwinter or die off', 'The universal season trigger, north and south'],
+                  ['~46–53°F', '~8–12°C', 'Larvae in standing water stop developing and begin dying — long before the water freezes', 'Anywhere with a real winter; container water cools faster than ponds'],
+                  ['32°F', '0°C', 'Light frost stuns and immobilizes exposed adults; many recover when it warms back up', 'North Florida and the Gulf Coast may see only this, and only briefly'],
+                  ['28°F held for hours', '-2°C', 'NWS hard freeze — kills active adults outright; eggs and diapausing females survive it', 'Reliable annually across the North; rare to absent in the far South'],
+                ].map(([f, c, b, us]) => (
+                  <tr key={f} className="border-b border-navy-50 last:border-0 align-top">
+                    <td className="px-4 py-3 font-bold text-brand-800 whitespace-nowrap">{f}</td>
+                    <td className="px-4 py-3 font-mono text-gray-800 whitespace-nowrap">{c}</td>
+                    <td className="px-4 py-3 text-gray-700">{b}</td>
+                    <td className="px-4 py-3 text-gray-600">{us}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-gray-500 mt-3">
+            Cold thresholds follow the same sources as the Celsius table above (<a href="https://www.cdc.gov/mosquitoes/" target="_blank" rel="noopener" className="text-emerald-700 underline">CDC</a>, <a href="https://www.mosquito.org/mosquito-information/" target="_blank" rel="noopener" className="text-emerald-700 underline">American Mosquito Control Association</a>). The 28&deg;F hard-freeze figure is the <a href="https://forecast.weather.gov/glossary.php?word=freeze" target="_blank" rel="noopener" className="text-emerald-700 underline">NOAA / National Weather Service</a> threshold. Heat figures follow published thermal-tolerance work on <em>Aedes</em> and <em>Culex</em>; the larval band reflects the lower developmental threshold for <em>Aedes aegypti</em> larvae of about 11.8&deg;C (53&deg;F), below which development stops and mortality climbs steeply. Exact figures vary a few degrees by species.
+          </p>
+        </div>
+      </section>
+
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
 
@@ -192,8 +300,191 @@ export default function WhatTemperatureKillsMosquitoesPage() {
           <h2>Does hot weather kill mosquitoes?</h2>
           <p>Rarely, in Ontario. Mosquitoes tolerate heat far better than cold &mdash; they stay active well into the 30s&deg;C. Sustained temperatures above roughly <strong>35&deg;C (95&deg;F)</strong> do stress adults and speed up water evaporation, but they also accelerate the larval cycle in whatever water remains. So a GTA heat wave usually means <em>more</em> mosquitoes within a couple of weeks, not fewer &mdash; unless the standing water they breed in dries out completely.</p>
 
+          <h2>Does any of this change where you live in the United States?</h2>
+          <p><strong>Yes &mdash; and for one region it changes the whole premise of this page.</strong> Everything above is written for Ontario and it transfers cleanly to the northern United States, because it is the same physics and the same winter. Maine, Michigan, Minnesota, upstate New York and Pennsylvania all get the frost that ends the flying season, and the 50&deg;F (10&deg;C) switch works identically there. But <strong>large parts of the US never get a killing freeze at all</strong>: South Florida, the Gulf Coast, South Texas, coastal Southern California, the low Arizona desert and Hawaii. If you live in any of those, &ldquo;wait for the first frost&rdquo; is not a plan, because the frost is not coming.</p>
+          <p>The universal trigger is the same everywhere &mdash; mosquitoes become active once temperatures hold above <strong>50&deg;F (10&deg;C)</strong> &mdash; so the only thing that changes by region is <em>when your calendar crosses that line</em>, and whether it ever crosses back.</p>
+          <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm my-6">
+            <table className="w-full text-sm min-w-[720px]">
+              <thead className="bg-brand-50">
+                <tr>
+                  <th className="px-3 py-2 text-left">Region</th>
+                  <th className="px-3 py-2 text-left">Season typically starts</th>
+                  <th className="px-3 py-2 text-left">Season typically ends</th>
+                  <th className="px-3 py-2 text-left">Does the frost rule on this page apply?</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  ['Alaska', 'Mid-June', 'Late July into August', 'Yes, emphatically — short, intense season bounded by cold at both ends'],
+                  ['Northern New England, Upper Midwest, Montana, the Dakotas', 'Early May', 'First hard freeze, usually October', 'Yes — this is the closest US match to the Ontario timeline above'],
+                  ['Great Lakes, Northeast, Pennsylvania', 'Late April', 'October, later in urban heat islands', 'Yes — read the Ontario sections as written'],
+                  ['Pacific Northwest', 'April', 'October–November', 'Mostly — freezes arrive later and lighter west of the Cascades'],
+                  ['Northern California', 'Early April', 'November', 'Partly — inland valleys freeze, the coast often does not'],
+                  ['Mid-Atlantic, Ohio Valley, mid-South', 'April', 'November', 'Yes, but late — expect biting weeks after the leaves turn'],
+                  ['Desert Southwest (AZ, NV, inland CA)', 'March', 'November, with a rain-driven monsoon peak', 'Barely — heat and rainfall, not cold, set the season here'],
+                  ['Texas Gulf Coast, Louisiana, Deep South', 'March', 'December, and some years not at all', 'Unreliably — freezes reach here but are brief, and numbers rebound within weeks'],
+                  ['North Florida', 'Early March', 'First frost, if one comes', 'Marginally — a light frost may arrive, a sustained 28°F freeze usually does not'],
+                  ['South Florida, coastal Southern California, Hawaii, extreme south', 'Early February, or never stops', 'No reliable end', 'NO — there is no off-season. Plan for twelve months, not a frost date'],
+                ].map(([region, start, end, applies]) => (
+                  <tr key={region} className="border-t border-navy-50 align-top">
+                    <td className="px-3 py-2 font-semibold text-brand-800">{region}</td>
+                    <td className="px-3 py-2 text-gray-700">{start}</td>
+                    <td className="px-3 py-2 text-gray-700">{end}</td>
+                    <td className="px-3 py-2 text-gray-700">{applies}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-sm text-gray-600">These are the widely published US regional windows, all keyed to the same 50&deg;F (10&deg;C) trigger this page already uses &mdash; treat them as typical, not as forecast dates. <a href="https://blogs.ifas.ufl.edu/levyco/2023/07/11/theres-a-mosquito-season-in-florida/" target="_blank" rel="noopener" className="text-emerald-700 underline">UF/IFAS Extension</a> is explicit that Florida has mosquitoes year-round, and that the practical &ldquo;season&rdquo; there is set by rainfall rather than by cold. For dates specific to your county, your <strong>state cooperative extension service</strong> (<a href="https://texasinsects.tamu.edu/" target="_blank" rel="noopener" className="text-emerald-700 underline">Texas A&amp;M AgriLife</a>, <a href="https://extension.psu.edu/mosquitoes" target="_blank" rel="noopener" className="text-emerald-700 underline">Penn State Extension</a>, UF/IFAS) and your local <strong>mosquito control district</strong> are the free, genuinely expert sources &mdash; and both publish for their own state rather than for the country as a whole.</p>
+          <p className="text-sm text-gray-600"><strong>An honest note for US readers.</strong> BuzzSkito is a licensed mosquito and tick company serving the Greater Toronto Area in Ontario, Canada. We do not operate in the United States, so the service pages linked on this site will not help you find a treatment &mdash; this section exists to answer your question, not to sell you anything. The physics, the thresholds and the species biology are identical on both sides of the border; only the phone number is local.</p>
+
+          <h2>Which mosquito is it? US species and how each one survives the cold</h2>
+          <p><strong>The overwintering strategy is a property of the species, not of the weather &mdash; which is why naming the species matters.</strong> <em>Aedes</em> mosquitoes survive winter as eggs and the adults die; <em>Culex</em> mosquitoes survive as mated adult females that sleep through it. That single difference explains why a hard freeze feels decisive and never is.</p>
+          <p>The <a href="https://www.cdc.gov/mosquitoes/about/about-mosquitoes-in-the-united-states.html" target="_blank" rel="noopener" className="text-emerald-700 underline">CDC</a> names the US species that spread disease: <em>Aedes aegypti</em>, <em>Culex pipiens</em>, <em>Culex tarsalis</em>, <em>Culex quinquefasciatus</em>, <em>Anopheles freeborni</em> and <em>Anopheles quadrimaculatus</em>. Add <em>Aedes albopictus</em>, the Asian tiger mosquito, which is established across the Southeast and pushing north.</p>
+          <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm my-6">
+            <table className="w-full text-sm min-w-[760px]">
+              <thead className="bg-brand-50">
+                <tr>
+                  <th className="px-3 py-2 text-left">Species</th>
+                  <th className="px-3 py-2 text-left">Common name</th>
+                  <th className="px-3 py-2 text-left">Where in the US</th>
+                  <th className="px-3 py-2 text-left">How it survives the cold</th>
+                  <th className="px-3 py-2 text-left">Why CDC tracks it</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  ['Aedes aegypti', 'Yellow fever mosquito', 'Gulf Coast, Florida, South Texas, southern Arizona, southern California', 'Desiccation-resistant eggs that simply wait for water — quiescence, not true diapause. The adults die; the eggs do not', 'Dengue, chikungunya, Zika'],
+                  ['Aedes albopictus', 'Asian tiger mosquito', 'Southeast, Mid-Atlantic, lower Midwest and spreading north', 'Cold-hardy eggs that enter a genuine photoperiod-cued diapause — this is exactly why it survives further north than Ae. aegypti', 'Dengue, chikungunya, Zika; aggressive daytime biter'],
+                  ['Culex pipiens', 'Northern house mosquito', 'Northern two-thirds of the US and southern Canada, including the GTA', 'Mated females overwinter as adults in true diapause — basements, culverts, sewers, sheds, crawl spaces', 'West Nile virus, St. Louis encephalitis'],
+                  ['Culex quinquefasciatus', 'Southern house mosquito', 'The South, roughly below the Culex pipiens line', 'Barely has to — stays active through most southern winters with no meaningful dormant period', 'West Nile virus'],
+                  ['Culex tarsalis', 'Western encephalitis mosquito', 'Western and central US, especially irrigated agricultural land', 'Diapausing mated females, sheltered below the frost line', 'West Nile virus and other encephalitis viruses'],
+                  ['Anopheles quadrimaculatus', 'Common malaria mosquito', 'Eastern United States', 'Adult females overwinter in sheltered, humid refuges', 'Malaria vector — historically, and in rare locally acquired US cases'],
+                  ['Anopheles freeborni', 'Western malaria mosquito', 'Western United States', 'Adult females enter dormancy and shelter through winter', 'Malaria vector'],
+                ].map(([sp, common, range, winter, why]) => (
+                  <tr key={sp} className="border-t border-navy-50 align-top">
+                    <td className="px-3 py-2 font-semibold text-brand-800 italic">{sp}</td>
+                    <td className="px-3 py-2 text-gray-700">{common}</td>
+                    <td className="px-3 py-2 text-gray-700">{range}</td>
+                    <td className="px-3 py-2 text-gray-700">{winter}</td>
+                    <td className="px-3 py-2 text-gray-700">{why}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-sm text-gray-600">Species names and disease associations are as listed by <a href="https://www.cdc.gov/mosquitoes/about/about-mosquitoes-in-the-united-states.html" target="_blank" rel="noopener" className="text-emerald-700 underline">CDC, &ldquo;About Mosquitoes in the United States&rdquo;</a>, which notes that West Nile virus is among the most common mosquito-borne diseases in the continental United States. In Canada, <em>Culex pipiens</em> is likewise the West Nile vector of concern, alongside the floodwater species <em>Aedes vexans</em> and cold-tolerant <em>Culiseta</em> &mdash; the northern picture described earlier on this page.</p>
+
+          <h2>Diapause vs quiescence: the two different ways mosquitoes wait out the cold</h2>
+          <p><strong>Most articles &mdash; including, until now, the sections above &mdash; call every form of mosquito overwintering &ldquo;diapause.&rdquo; They are actually two distinct mechanisms, and the difference is what determines how fast your yard repopulates in spring.</strong> Public health entomologists at the US Army and the <a href="https://www.army.mil/article/283270" target="_blank" rel="noopener" className="text-emerald-700 underline">Defense Health Agency</a> draw the line explicitly.</p>
+          <ul>
+            <li><strong>Diapause &mdash; the adult waits.</strong> A programmed, hormonally maintained shutdown triggered <em>in advance</em> by shortening day length in late summer, not by the cold itself. A mated <em>Culex pipiens</em> female fattens up, stops seeking blood, and enters a dormancy she holds all winter in a culvert, sewer, shed or basement. She is alive the entire time. When spring lengthens the days and warms her shelter, she wakes, takes a blood meal, and lays the first eggs of the year &mdash; which is why <em>Culex</em> populations can start biting almost immediately in spring.</li>
+            <li><strong>Quiescence &mdash; the adult is gone and the egg waits.</strong> Not programmed, and not anticipatory: it is a simple pause imposed by conditions and released the moment they improve. <em>Aedes aegypti</em> lays desiccation-resistant eggs on the damp walls of containers, tyres, gutters and plant saucers. The adult that laid them died in the fall. The eggs sit dry and dormant, and development restarts within <em>days</em> of warm water covering them.</li>
+          </ul>
+          <p>The two overlap in cold climates &mdash; northern <em>Aedes albopictus</em> eggs enter a true photoperiod-cued diapause before the quiescent phase, which is precisely how that species has pushed so far north. But the distinction is still the useful one, because it tells you what you are fighting in April. Where <em>Culex</em> dominates, the first mosquitoes of the year are last year&rsquo;s females waking up. Where <em>Aedes</em> dominates, the first mosquitoes of the year hatch out of water that has been sitting in your yard since the fall &mdash; and no amount of cold in between made any difference to them.</p>
+
+          <h2>How cold is a &ldquo;killing frost&rdquo;, exactly? The NWS definitions</h2>
+          <p><strong>&ldquo;Sustained cold&rdquo; has an official number in the United States.</strong> The <a href="https://forecast.weather.gov/glossary.php?word=freeze" target="_blank" rel="noopener" className="text-emerald-700 underline">National Weather Service</a> defines a <strong>hard freeze</strong> &mdash; also called a killing freeze &mdash; as surface air temperature reaching <strong>28&deg;F (-2&deg;C) or below</strong>. That is the threshold at which water inside plant cells freezes and ruptures the cell walls, killing most vegetation outright, and it is the same threshold at which exposed active adult mosquitoes die.</p>
+          <p>You will see competing pages quote &ldquo;two consecutive hours at or below 28&deg;F.&rdquo; That is a fair working rule and it matches how the alert behaves in practice, but be precise about what is official and what is convention: the NWS definition is <em>temperature-based</em>, and the duration applied before a Hard Freeze Warning is issued is set by the local forecast office &mdash; typically an hour or more, and worded slightly differently office to office.</p>
+          <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm my-6">
+            <table className="w-full text-sm min-w-[640px]">
+              <thead className="bg-brand-50">
+                <tr>
+                  <th className="px-3 py-2 text-left">NWS product</th>
+                  <th className="px-3 py-2 text-left">Roughly what temperature</th>
+                  <th className="px-3 py-2 text-left">What it means for mosquitoes</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  ['Frost Advisory', 'Around 33–36°F (1–2°C), with conditions favouring frost formation', 'Nothing decisive. Mosquitoes stopped flying weeks ago at 50°F; frost on the grass does not reach anything that is overwintering'],
+                  ['Freeze Warning', '32°F (0°C) or below', 'A light freeze stuns and immobilizes exposed adults. Many recover once the sun is up and the air warms'],
+                  ['Hard Freeze Warning', '28°F (-2°C) or below', 'This is the killing freeze. Exposed active adults die. Eggs and diapausing females are unaffected — they are physiologically built for it'],
+                  ['No freeze at all, all winter', 'Above 32°F year-round', 'The southern-US case: adults are never killed off, populations only dip. There is no reset and no off-season'],
+                ].map(([product, temp, meaning]) => (
+                  <tr key={product} className="border-t border-navy-50 align-top">
+                    <td className="px-3 py-2 font-semibold text-brand-800">{product}</td>
+                    <td className="px-3 py-2 text-gray-700">{temp}</td>
+                    <td className="px-3 py-2 text-gray-700">{meaning}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-sm text-gray-600">Thresholds and product names follow NOAA / National Weather Service usage; local forecast offices vary the exact criteria and seasonal issuance windows. Canadian readers: Environment and Climate Change Canada uses frost advisories rather than the US freeze-warning tiers, but the -2&deg;C / 28&deg;F killing point is the same number.</p>
+
+          <h2>Why one source says mosquitoes peak at 80&deg;F and another says 80&deg;F can kill them</h2>
+          <p><strong>Both are true, and they are describing two different things.</strong> Search this question and you will find pages saying mosquitoes are most active above 80&deg;F, and other pages warning that above 80&deg;F mosquitoes risk dehydration and death. The contradiction is only apparent: <strong>80&deg;F is close to the top of the activity curve and nowhere near the top of the survival curve.</strong></p>
+          <ul>
+            <li><strong>Activity peak.</strong> Biting, host-seeking and larval development all accelerate with temperature and reach their practical maximum somewhere in the 80s&deg;F. That is why 80&deg;F+ is described as peak activity &mdash; it is the band in which a mosquito does the most damage per hour.</li>
+            <li><strong>Preferred range.</strong> Sustained comfort sits a little lower, around <strong>70&ndash;80&deg;F (21&ndash;27&deg;C)</strong>. This is where mosquitoes both perform well and live longest, which is why it is the band most US sources name as &ldquo;preferred.&rdquo;</li>
+            <li><strong>Survival ceiling.</strong> Dehydration risk climbs across the 80s&deg;F and becomes genuinely limiting above about <strong>95&deg;F (35&deg;C)</strong>, with lethality above roughly <strong>100&ndash;104&deg;F (38&ndash;40&deg;C)</strong> for exposed adults. A mosquito&rsquo;s body is mostly water and it has no way to cool itself.</li>
+          </ul>
+          <p>So a hot spell shortens individual mosquito lifespans while simultaneously speeding up the larval cycle in whatever water is left. Those two effects usually cancel out or favour the mosquitoes, which is why heat waves so rarely deliver the relief people expect &mdash; the same conclusion the Ontario section above reaches, arrived at from the opposite direction.</p>
+
+          <h2>Can a mosquito die from heat?</h2>
+          <p><strong>Yes. Mosquitoes are cold-blooded, so heat kills them the same way cold does &mdash; there is simply a narrower margin at the top end.</strong> Sustained temperatures above roughly 95&deg;F (35&deg;C) push adults into heat stress: lifespan shortens, egg production falls, and dehydration becomes the limiting factor. Above about 100&ndash;104&deg;F (38&ndash;40&deg;C), exposed adults die within hours.</p>
+          <p>In practice they rarely sit still and take it. Mosquitoes thermoregulate behaviourally &mdash; they move rather than endure, dropping into shaded, humid microclimates that can run 10&ndash;15&deg;F cooler than the air over an open lawn. Under a deck, inside dense shrubs, in damp mulch and leaf litter, in a storm drain, against the shaded north wall of a house. This is exactly why a residual barrier treatment targets <em>resting</em> vegetation rather than open air, and why the shady half of a property is almost always the buggy half.</p>
+          <p>The heat also works on the water. Above roughly 95&deg;F shallow containers evaporate fast, and a breeding site that dries completely takes the larvae with it. But the same heat compresses the egg-to-adult cycle in every container that <em>does not</em> dry out, sometimes to under a week. A hot, dry spell can genuinely reduce mosquito numbers. A hot, wet spell reliably does the opposite.</p>
+
+          <h2>Are mosquitoes out in 100 degree weather?</h2>
+          <p><strong>Not in the open sun.</strong> At 100&deg;F (38&deg;C) mosquitoes are still alive and still on your property, but they stop flying in exposed heat and shelter &mdash; dense shrubs, damp mulch, under decks, crawl spaces, storm drains. Biting pressure collapses through the hottest part of a Phoenix, Las Vegas or Dallas afternoon, and returns hard at dusk as the air falls back into the 80s&deg;F.</p>
+          <p>The practical consequence for a Southwest or Gulf Coast reader is a schedule change rather than a reprieve. A 100&deg;F day usually means fewer bites at 3pm and more at 8pm &mdash; the same dawn-and-dusk pattern described in <Link href="/blog/when-are-mosquitoes-most-active">when mosquitoes are most active</Link>, just pushed harder to the edges of the day. And in monsoon country the heat arrives with rain, which refills every container and low spot on the property; the mosquito problem that follows a run of 100&deg;F days is usually worse, not better, about ten days later.</p>
+
+          <h2>Do mosquitos die in AC?</h2>
+          <p><strong>No. Air conditioning slows mosquitoes down; it does not kill them.</strong> Most US homes are held at 72&ndash;78&deg;F (22&ndash;26&deg;C), which sits squarely inside the 70&ndash;80&deg;F band mosquitoes actually prefer. An indoor mosquito in an air-conditioned house is in comfortable conditions and will keep biting. To kill it with cold you would have to run the house below 50&deg;F, and even that takes days.</p>
+          <p>What AC does do is useful, just indirectly. It <strong>dries the air</strong>. Mosquitoes lose water fast and depend on humidity; a house held at 40&ndash;50% relative humidity shortens their lifespan and makes them far less inclined to settle and rest indoors. That is a real effect, but it is a slow one measured in days, not a kill switch.</p>
+          <p>If mosquitoes keep appearing indoors, the thermostat is the wrong lever entirely. They are getting in through torn screens, gaps under doors and open windows at dusk, or breeding in something inside &mdash; a plant saucer, a forgotten vase, a floor drain, a condensate pan, a sump. Our guide on <Link href="/blog/how-to-get-rid-of-mosquitoes-in-the-house">getting rid of mosquitoes in the house</Link> covers the search pattern.</p>
+
+          <h2>Will a cold room kill mosquitoes?</h2>
+          <p><strong>Only if it is genuinely cold and stays that way.</strong> Below 50&deg;F (10&deg;C) a mosquito stops flying, host-seeking and feeding, and will eventually die &mdash; but of starvation and exhaustion over a period of days, not of the cold itself. To kill an adult outright with cold you need freezing temperatures, 32&deg;F (0&deg;C) or below, held for hours. A refrigerator does it. A cool basement or an unheated bedroom in the 50s or 60s&deg;F does not; it just makes them sluggish, and they recover as soon as the room warms.</p>
+          <p>There is a sharper reason not to rely on a cold room: it is the exact strategy several species have already defeated. Diapausing <em>Culex pipiens</em> females deliberately seek out cool, humid, sheltered spaces to spend the winter, and an unheated basement, crawl space or garage is a textbook overwintering site. Turning a room cold can attract the very mosquitoes you are trying to kill.</p>
+
+          <h2>What temperature do mosquitoes stop coming out?</h2>
+          <p><strong>50&deg;F (10&deg;C) is the line.</strong> Below it mosquitoes stop flying, stop host-seeking and stop feeding; they either find shelter to overwinter or die off. You will notice the decline well before that threshold &mdash; below 60&deg;F (15&deg;C) they fly poorly and biting pressure drops sharply, which is why a cool evening feels dramatically less buggy than a warm one in the same week.</p>
+          <p>That single number is the most portable fact on this page. It is what sets the start of the season in Alaska in mid-June and in South Florida in February; it is what ends the season in Ontario in October and never ends it in Honolulu. If you want one temperature to watch, watch the overnight low against 50&deg;F, not the daytime high.</p>
+
+          <h2>What temperature do mosquitoes go away at night?</h2>
+          <p><strong>The same 50&deg;F (10&deg;C) threshold applies after dark.</strong> An evening that cools below 60&deg;F (15&deg;C) makes biting noticeably lighter, and once the overnight low drops under 50&deg;F mosquitoes stop flying altogether. A clear, cool, breezy night feels bug-free while a warm, humid, still one does not &mdash; it is temperature and wind doing that, not darkness.</p>
+          <p>Two other night-time variables matter as much as the thermometer. <strong>Wind</strong> above roughly 10 mph grounds mosquitoes outright regardless of how warm it is, which is why a fan on a patio outperforms most gadgets. And <strong>clear skies</strong> radiate heat away far faster than cloud cover, so a clear night in the shoulder season crosses the 50&deg;F line hours earlier than an overcast one at the same forecast high. For the dusk-and-dawn timing pattern that overlays all of this, see <Link href="/blog/when-are-mosquitoes-most-active">when mosquitoes are most active</Link>.</p>
+
+          <h2>What kills mosquitoes instantly?</h2>
+          <p><strong>A contact insecticide labelled for flying insects kills an adult mosquito in seconds, and a swatter or electric racket kills the one in front of you.</strong> Nothing that works instantly also reduces the population, because the eggs and larvae producing the next generation are untouched. That gap between &ldquo;kills this mosquito now&rdquo; and &ldquo;means fewer mosquitoes next week&rdquo; is the whole game.</p>
+          <p>What actually shrinks numbers is slower and less satisfying: emptying and scrubbing every container that holds water, treating breeding sites you cannot drain with a <em>Bacillus thuringiensis israelensis</em> (Bti) larvicide, and applying a residual barrier treatment to the shaded resting vegetation where adults spend the day. In the United States, any product you apply must be registered with the <a href="https://www.epa.gov/mosquitocontrol" target="_blank" rel="noopener" className="text-emerald-700 underline">US Environmental Protection Agency</a> and used exactly as its label directs &mdash; the label is the law. In Canada the equivalent authority is Health Canada&rsquo;s <a href="https://www.canada.ca/en/health-canada/services/consumer-product-safety/pesticides-pest-management.html" target="_blank" rel="noopener" className="text-emerald-700 underline">Pest Management Regulatory Agency</a>, and several provinces including Ontario restrict cosmetic outdoor pesticides. See <Link href="/blog/does-standing-water-attract-mosquitoes">how standing water drives mosquito numbers</Link> and <Link href="/blog/how-long-does-mosquito-spray-last">how long mosquito spray actually lasts</Link>.</p>
+
+          <h2>What do mosquitoes hate the most?</h2>
+          <p><strong>Wind and dry air, more than any smell.</strong> Mosquitoes are weak fliers and a breeze above roughly 10 mph grounds them, which makes a box fan one of the most reliable low-tech defences on a patio. They also avoid hot, dry, exposed ground in favour of still, humid shade &mdash; so the shady, sheltered corner of a yard is where they will always be.</p>
+          <p>For skin protection, the CDC recommends EPA-registered repellents containing <strong>DEET</strong>, <strong>picaridin</strong>, <strong>IR3535</strong>, <strong>oil of lemon eucalyptus (OLE)</strong>, <strong>para-menthane-diol (PMD)</strong> or <strong>2-undecanone</strong>. &ldquo;EPA-registered&rdquo; is the operative phrase: it means the product has been reviewed for both safety and effectiveness, which is precisely what untested homemade and botanical mixtures have not been. The EPA&rsquo;s <a href="https://www.epa.gov/insect-repellents/find-repellent-right-you" target="_blank" rel="noopener" className="text-emerald-700 underline">repellent search tool</a> lets you filter registered products by how many hours of protection they provide.</p>
+
+          <h2>What smell do mosquitoes hate most?</h2>
+          <p><strong>Oil of lemon eucalyptus (OLE), and its refined active component PMD, is the only plant-derived scent the CDC lists alongside DEET and picaridin as a registered repellent with tested effectiveness.</strong> Everything else in the &ldquo;smells mosquitoes hate&rdquo; genre &mdash; citronella, lavender, peppermint, garlic, vanilla, coffee grounds &mdash; repels weakly and briefly, usually under an hour and only within centimetres of the source.</p>
+          <p>This is why scented candles and repellent plants underperform so badly in a real backyard: the volatile oils disperse in open air almost immediately, and a mosquito tracking your exhaled carbon dioxide from 30 feet away never enters the small envelope where the scent is concentrated enough to matter. We set that reasoning against the published evidence in <Link href="/blog/smells-mosquitoes-hate">smells mosquitoes hate</Link> and <Link href="/blog/citronella-candles-canada-do-they-work">whether citronella candles work</Link>. Note also that OLE is not recommended for children under three years old &mdash; check the label, which carries the age restrictions.</p>
+
+          <h2>Do mosquitoes bite less if you shower?</h2>
+          <p><strong>Slightly, and only for a while.</strong> Mosquitoes find you by exhaled carbon dioxide, body heat, and the volatile compounds skin bacteria produce from sweat. Washing removes sweat and lactic acid, so a shower can make you marginally less attractive for a short period. It is a real effect and a small one.</p>
+          <p>It is also easily undone. You start exhaling CO<sub>2</sub> and radiating heat again the moment you step out, skin bacteria re-establish within hours, and heavily scented soaps, shampoos and lotions can attract mosquitoes rather than deter them. A hot shower can even leave you warmer and more detectable for a while. Treat showering as hygiene, not as protection &mdash; an EPA-registered repellent is the thing that works. What genuinely drives biting risk is covered in <Link href="/blog/what-attracts-mosquitoes-to-you">what attracts mosquitoes to you</Link>.</p>
+
+          <h2>What&rsquo;s the worst month for mosquitoes?</h2>
+          <p><strong>It depends on your latitude, and the answer splits cleanly along the same line as the frost rule.</strong> Across Canada and the northern United States, <strong>July</strong> is the worst month &mdash; it combines the highest temperatures with the accumulated output of every generation since spring. On the Gulf Coast and in Florida the peak is longer and rain-driven, roughly May through October, with late summer often the worst as salt-marsh and floodwater species respond to storms. In the desert Southwest, monsoon rain rather than temperature sets it, usually July into September.</p>
+          <p>The mechanism is the same everywhere: mosquito numbers track <em>accumulated warm days plus available water</em>, not the temperature of any single day. That is why the worst month is almost never the hottest month &mdash; it lags it by two to four weeks, the time it takes a generation hatched in the heat to reach biting age. For the Ontario version of this calendar, see <Link href="/blog/mosquito-season-gta-when-does-it-start">when mosquito season starts in the GTA</Link>.</p>
+
+          <h2>Sources and agencies behind the numbers on this page</h2>
+          <p className="text-sm text-gray-600">Temperature thresholds, species and disease statements are sourced to public health agencies and weather services on both sides of the border. Nothing on this page is a medical recommendation; if you develop fever, headache, rash, joint pain or neurological symptoms after mosquito bites, contact a healthcare provider.</p>
+          <ul className="text-sm text-gray-600">
+            <li><strong>United States &mdash; public health:</strong> <a href="https://www.cdc.gov/mosquitoes/about/about-mosquitoes-in-the-united-states.html" target="_blank" rel="noopener" className="text-emerald-700 underline">CDC &mdash; About Mosquitoes in the United States</a> (species and the diseases they spread) and <a href="https://www.cdc.gov/mosquitoes/" target="_blank" rel="noopener" className="text-emerald-700 underline">CDC &mdash; Mosquitoes</a> (bite prevention and registered repellent actives).</li>
+            <li><strong>United States &mdash; pesticide regulation:</strong> <a href="https://www.epa.gov/mosquitocontrol" target="_blank" rel="noopener" className="text-emerald-700 underline">US EPA &mdash; Mosquito Control</a> and the <a href="https://www.epa.gov/insect-repellents/find-repellent-right-you" target="_blank" rel="noopener" className="text-emerald-700 underline">EPA repellent search tool</a>.</li>
+            <li><strong>Mosquito-control profession:</strong> the <a href="https://www.mosquito.org/mosquito-information/" target="_blank" rel="noopener" className="text-emerald-700 underline">American Mosquito Control Association (AMCA)</a>, whose member districts run local surveillance across the US.</li>
+            <li><strong>Freeze and frost definitions:</strong> <a href="https://forecast.weather.gov/glossary.php?word=freeze" target="_blank" rel="noopener" className="text-emerald-700 underline">NOAA / National Weather Service glossary</a>.</li>
+            <li><strong>Military entomology:</strong> the <a href="https://www.army.mil/article/283270" target="_blank" rel="noopener" className="text-emerald-700 underline">US Army / Defense Health Agency</a> article distinguishing diapause from quiescence.</li>
+            <li><strong>State cooperative extension services:</strong> <a href="https://blogs.ifas.ufl.edu/levyco/2023/07/11/theres-a-mosquito-season-in-florida/" target="_blank" rel="noopener" className="text-emerald-700 underline">UF/IFAS Extension</a> on Florida&rsquo;s year-round season, <a href="https://extension.psu.edu/mosquitoes" target="_blank" rel="noopener" className="text-emerald-700 underline">Penn State Extension</a> and <a href="https://texasinsects.tamu.edu/" target="_blank" rel="noopener" className="text-emerald-700 underline">Texas A&amp;M AgriLife</a>.</li>
+            <li><strong>Canada:</strong> Health Canada&rsquo;s <a href="https://www.canada.ca/en/health-canada/services/consumer-product-safety/pesticides-pest-management.html" target="_blank" rel="noopener" className="text-emerald-700 underline">Pest Management Regulatory Agency</a> for product registration, and <a href="https://www.publichealthontario.ca/" target="_blank" rel="noopener" className="text-emerald-700 underline">Public Health Ontario</a> for provincial West Nile virus surveillance.</li>
+          </ul>
+
           <h2>The bottom line on temperature and mosquitoes</h2>
           <p>Mosquitoes are governed almost entirely by temperature: they peak above 26&deg;C, slow below 15&deg;C, go dormant below 10&deg;C, and their active adults die in a hard frost around -2&deg;C. But because freeze-tolerant eggs and hibernating females survive every Ontario winter, no cold snap &mdash; and no single frost &mdash; actually clears your yard for good. Managing water and resting habitat is what shrinks the population you have to live with each summer.</p>
+
+          <p>One addition for readers in the United States: everything in that paragraph holds from the Great Lakes northward, and the northern-US case is the Ontario case with a different flag on it. Below roughly the I-10 corridor it does not. <strong>South Florida, the Gulf Coast, South Texas, coastal Southern California, southern Arizona and Hawaii do not get a reliable 28&deg;F hard freeze, so cold never resets anything.</strong> In those regions mosquito pressure is set by rainfall and standing water alone, all twelve months of the year &mdash; which makes water management not merely the more effective lever, but the only one you have.</p>
 
           <h2>Related Reading</h2>
           <ul>
@@ -201,6 +492,10 @@ export default function WhatTemperatureKillsMosquitoesPage() {
             <li><Link href="/blog/mosquito-season-gta-when-does-it-start">When Does Mosquito Season Start in the GTA?</Link></li>
             <li><Link href="/blog/when-are-mosquitoes-most-active">When Are Mosquitoes Most Active?</Link></li>
             <li><Link href="/mosquito-control">BuzzSkito Professional Mosquito Control Service</Link></li>
+            <li><Link href="/blog/smells-mosquitoes-hate">What Smells Do Mosquitoes Hate? (What the Evidence Shows)</Link></li>
+            <li><Link href="/blog/what-attracts-mosquitoes-to-you">What Attracts Mosquitoes to You?</Link></li>
+            <li><Link href="/blog/how-to-get-rid-of-mosquitoes-in-the-house">How to Get Rid of Mosquitoes in the House</Link></li>
+            <li><Link href="/blog/does-standing-water-attract-mosquitoes">Does Standing Water Attract Mosquitoes?</Link></li>
           </ul>
         <h2>Frequently Asked Questions</h2>
         <div className="not-prose space-y-4">

@@ -101,7 +101,7 @@ export default function BestAntKillerCanadaPage() {
       </section>
 
       <AffiliateDisclosure />
-      <StickyBuyBar tag={AMZ_TAG} name="TERRO Liquid Ant Baits (indoor stations)" search="terro liquid ant baits" label="Best overall" />
+      <StickyBuyBar tag={AMZ_TAG} name="TERRO Liquid Ant Baits (indoor stations)" search="terro liquid ant baits" asin="B014H8NZ7U" label="Best overall" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -132,6 +132,7 @@ export default function BestAntKillerCanadaPage() {
                 name: 'TERRO Liquid Ant Baits (Indoor Stations)',
                 why: 'The default first purchase for a Canadian kitchen trail. A sweet borax liquid inside an enclosed station, formulated slow enough that the forager survives the trip home and shares the dose through the nest. Inexpensive, widely stocked here, and sold with Canadian label directions on the pack.',
                 search: 'terro liquid ant baits',
+                asin: 'B014H8NZ7U',
                 featured: true,
                 pros: ['Reaches the queen — effectively the only consumer category that does', 'Enclosed station, no open pesticide surface', 'Widely stocked in Canada with Canadian label directions on the pack'],
                 cons: ['Sugar-only — grease-feeding colonies may ignore it', 'Needs days to weeks, not minutes'],

@@ -84,7 +84,7 @@ export default function BestIndoorFlyMosquitoTrapCanadaPage() {
       </section>
 
       <AffiliateDisclosure />
-      <StickyBuyBar tag={AMZ_TAG} name="Katchy Indoor Insect Trap (UV + fan + glue board)" search="katchy indoor insect trap uv fan" label="Best overall indoor" />
+      <StickyBuyBar tag={AMZ_TAG} name="Katchy Indoor Insect Trap (UV + fan + glue board)" search="katchy indoor insect trap uv fan" asin="B07B6RZP4H" label="Best overall indoor" />
 
       {/* Quick Answer — AI-extraction block */}
       <section className="bg-white px-4">
@@ -116,6 +116,7 @@ export default function BestIndoorFlyMosquitoTrapCanadaPage() {
                 name: 'UV + Fan + Glue-Board Trap (Katchy-style)',
                 why: 'Quietly catches fruit flies, fungus gnats, houseflies, and the occasional indoor mosquito using cheap replaceable glue boards — the best all-round pick for a bedroom or kitchen.',
                 search: 'katchy indoor insect trap uv fan',
+                asin: 'B07B6RZP4H',
                 score: 8.6,
                 featured: true,
                 pros: ['Silent and mess-free', 'Cheap glue-board refills', 'Great on gnats & fruit flies'],

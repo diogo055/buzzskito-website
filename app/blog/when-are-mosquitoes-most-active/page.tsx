@@ -4,6 +4,7 @@ import CTASection from '@/components/CTASection'
 import AuthorByline from '@/components/AuthorByline'
 import BuyLink from '@/components/BuyLink'
 import FreshnessStamp from '@/components/FreshnessStamp'
+import Figure from '@/components/Figure'
 import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
@@ -12,7 +13,7 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'when-are-mosquitoes-most-active'
 const DATE = '2026-07-13'
-const UPDATED = '2026-07-13'
+const UPDATED = '2026-09-02'
 const TITLE = 'When Are Mosquitoes Most Active? Time of Day & Temperature'
 
 const FAQS = [
@@ -47,6 +48,46 @@ const FAQS = [
   {
     question: 'Does mosquito activity change through the season?',
     answer: 'Yes. Activity builds as spring temperatures climb past 10 C, peaks in the hottest, most humid stretch of summer (in much of North America that is roughly June through August), and tapers as nights cool in fall. The daily dawn/dusk pattern holds throughout, but the size of each peak grows and shrinks with the season. See our guide to mosquito season and when it starts for the month-by-month picture.',
+  },
+  {
+    question: 'What time do mosquitoes stop biting at night?',
+    answer: 'Most mosquitoes have stopped biting, or fallen to a fraction of their peak, by roughly 2 to 4 a.m. Culex biting climbs steeply around sunset, peaks in the first one to two hours after dark, holds until about midnight, then tapers through the small hours before a smaller rise near dawn. Anopheles hold a broader plateau across the night. Aedes daytime biters mostly quiet down within an hour or two of full dark. They are not watching a clock: activity falls as the air cools toward 10 C (50 F) and as their internal daily rhythm winds down.',
+  },
+  {
+    question: 'Do mosquitoes sleep?',
+    answer: 'Not the way people do, but they do rest. Mosquitoes run on a strong daily rhythm and spend their inactive hours in a quiescent state — motionless on a cool, humid, shaded surface, less responsive to light and movement, with metabolism dialled down. Day-biting Aedes rest at night; night-biting Culex rest through the day under decks, inside dense shrubs, and along shaded fence lines. Those resting surfaces are exactly what a residual barrier treatment targets, which is why treatment is not timed to a bite window.',
+  },
+  {
+    question: 'What smell do mosquitoes hate most?',
+    answer: 'The scent with the strongest evidence behind it is oil of lemon eucalyptus (OLE) and its refined form PMD — the plant-derived active that the CDC lists alongside DEET, picaridin, IR3535 and 2-undecanone among EPA-registered repellent ingredients. Citronella, peppermint, lavender and garlic do repel mosquitoes, but weakly and briefly, because the vapour drifts away in minutes. Mosquitoes find you by exhaled carbon dioxide, body heat and skin odour, so masking one smell rarely stops them. A registered repellent on skin does.',
+  },
+  {
+    question: 'Do mosquitoes prefer fat or skinny people?',
+    answer: 'Body size is not the trait mosquitoes read. They home in on exhaled carbon dioxide, body heat and skin odour, as the American Mosquito Control Association describes. A larger body generally exhales more carbon dioxide and radiates more heat, so it can attract more mosquitoes on average — but that effect is small next to skin bacteria, sweat and lactic acid, recent exercise, and pregnancy, which raises both carbon dioxide output and skin temperature. Blood-type claims circulate widely; the evidence behind them is thin and inconsistent.',
+  },
+  {
+    question: 'What month is worst for mosquitoes?',
+    answer: 'Across most of the United States, July and August are the worst months. By region: the Gulf Coast, Florida and Hawaii run roughly February to November and peak May through September; the South and Southwest run March to September; the Mid-Atlantic, Midwest and West run April to September; New England, the northern Midwest and the Pacific Northwest run May to September and peak in July. Alaska compresses into late June and early July. In the Greater Toronto Area, the worst stretch is late June through early August.',
+  },
+  {
+    question: 'What will keep mosquitoes from biting you?',
+    answer: 'The CDC lists the same short set: an EPA-registered repellent containing DEET, picaridin, IR3535, oil of lemon eucalyptus (OLE), para-menthane-diol (PMD) or 2-undecanone; loose long sleeves and pants; permethrin-treated clothing and gear (never applied to skin); screens and air conditioning indoors; and emptying standing water weekly so the next generation never hatches. A patio fan is the underrated one — mosquitoes are weak fliers, and moving air makes a seating area close to bite-proof at dusk.',
+  },
+  {
+    question: 'When is mosquito season in Florida?',
+    answer: 'Close to year-round. In south Florida mosquitoes stay active every month; statewide the season runs roughly February or March through November, with the heaviest biting from June through September when summer rain refills container and floodwater habitat. Florida hosts both Aedes aegypti and Aedes albopictus, so daytime biting is normal there rather than the exception, and Culex quinquefasciatus carries West Nile virus after dark. University of Florida IFAS Extension and county mosquito control districts publish local activity updates.',
+  },
+  {
+    question: 'When is mosquito season in Texas?',
+    answer: 'Roughly March through October, and closer to year-round in the Rio Grande Valley and along the Gulf Coast. Peak biting runs May through September, with large floodwater broods appearing about a week to ten days after heavy rain. Texas carries one of the longest mosquito species lists in the country, including Culex quinquefasciatus (the southern house mosquito and the main West Nile carrier there), plus Aedes aegypti and Aedes albopictus as daytime biters. Texas A&M AgriLife Extension tracks regional activity.',
+  },
+  {
+    question: 'When is mosquito season in Alaska?',
+    answer: 'Short and intense. Mosquitoes emerge as snowmelt pools thaw in May, peak from mid-June to mid-July, and drop off through August. Because sub-arctic summer twilight lasts for hours, the dusk window stretches and biting can continue through most of the so-called night in June. Alaska mosquitoes are overwhelmingly snowmelt and floodwater species — abundant and aggressive, but West Nile virus is not established in Alaska, so the problem there is nuisance biting rather than disease risk.',
+  },
+  {
+    question: 'How does mosquito season compare between the United States and Canada?',
+    answer: 'The daily pattern is identical; the calendar is not. Most of Canada runs a compressed May-to-September season that peaks from late June through early August and ends with the first hard frost. Much of the southern United States runs from February or March into November, and south Florida, Hawaii and south Texas are effectively year-round. Same species groups, same temperature thresholds — the difference is simply how many months a year the thermometer sits above them.',
   },
 ]
 
@@ -200,6 +241,55 @@ export default function WhenAreMosquitoesMostActivePage() {
             </div>
           </aside>
 
+          <h2>When Do Mosquitoes Stop Biting at Night?</h2>
+          <p><strong>Most mosquitoes have stopped biting, or dropped to a fraction of their peak, by roughly 2 to 4 a.m.</strong> Biting does not switch off at midnight. It decays. <strong>Culex</strong> house mosquitoes climb steeply in the half hour before sunset, peak in the first one to two hours of darkness, hold that pressure until around midnight, then fade through the small hours &mdash; and by the 2&ndash;4 a.m. window most of them have settled onto resting surfaces. A smaller second rise follows around dawn. <strong>Anopheles</strong> hold a flatter plateau right across the night, which is why they are the group most likely to bite you at 3 a.m. <strong>Aedes</strong> daytime biters mostly quiet down within an hour or two of full dark.</p>
+          <p>They are not reading a clock. Two things wind them down together: the air keeps cooling toward the ~10&nbsp;C (50&nbsp;F) floor where flight stops, and their own circadian rhythm &mdash; the internal daily clock that sets when each species flies &mdash; runs out its evening programme. That is why a warm, muggy night with no cooling keeps biting going far later than a night that drops sharply after sunset, and why the same yard can be unbearable at 11 p.m. in July and quiet at 11 p.m. in September.</p>
+
+          <Figure
+            src="/diagrams/mosquito-activity-24-hour-clock.svg"
+            alt="Twenty-four hour chart of mosquito biting activity by species group, showing the Culex peak in the one to two hours after local sunset, the Aedes daytime plateau with a midday heat dip, the broad Anopheles overnight plateau, and biting falling away between about 2 and 4 a.m."
+            caption="Relative biting pressure across 24 hours. The clock is anchored to local sunrise and sunset, which shift by hours between June and September and between Miami and Anchorage — so read the shape, not the tick labels."
+            width={720}
+            height={420}
+          />
+
+          <h3>The bite clock, anchored to local sunset</h3>
+          <p>Sunset is the only anchor that travels. A fixed clock time is useless across a continent &mdash; 8 p.m. is full dark in Miami in November and broad daylight in Anchorage in June &mdash; so the windows below are given relative to <em>your</em> local sunrise and sunset. Look up either for your ZIP or postal code and the rest of the table falls into place.</p>
+          <div className="not-prose my-6 rounded-xl border border-gray-200 overflow-x-auto">
+            <table className="min-w-[560px] w-full text-sm">
+              <thead className="bg-brand-50">
+                <tr>
+                  <th className="px-3 py-2 text-left">Window (relative to local sun)</th>
+                  <th className="px-3 py-2 text-left">Biting pressure</th>
+                  <th className="px-3 py-2 text-left">Which mosquitoes</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  ['60 min before sunrise → 60 min after', 'High', 'Culex tapering off, Aedes switching on — the two overlap'],
+                  ['Mid-morning → early afternoon', 'Low in sun, moderate in shade', 'Aedes only; Culex and Anopheles are resting'],
+                  ['Hottest 2–3 hrs of the afternoon', 'Dips', 'Even Aedes retreat deeper into shade above ~35 C (95 F)'],
+                  ['Late afternoon → 30 min before sunset', 'Rising fast', 'Aedes second peak, Culex beginning to move'],
+                  ['30 min before sunset → 90 min after', 'PEAK', 'Culex surge; the single worst window of the day'],
+                  ['2 hrs after sunset → midnight', 'High, slowly falling', 'Culex still feeding; Anopheles ramping up'],
+                  ['Midnight → 2 a.m.', 'Moderate', 'Anopheles plateau; Culex thinning out'],
+                  ['2 a.m. → 4 a.m.', 'Low — the nightly floor', 'Most mosquitoes have settled onto resting surfaces'],
+                ].map(([window, level, who]) => (
+                  <tr key={window} className="border-t border-gray-100 align-top">
+                    <td className="px-3 py-2 font-semibold text-brand-800">{window}</td>
+                    <td className="px-3 py-2 text-gray-700">{level}</td>
+                    <td className="px-3 py-2 text-gray-700">{who}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-gray-500 not-prose">Sunset-anchored windows shift with latitude and month. Far-north summers (Alaska, northern Canada) hold long twilight, which stretches the dusk peak for hours; low-latitude sunsets are abrupt, which compresses it.</p>
+
+          <h2>Do Mosquitoes Sleep?</h2>
+          <p>Not the way you do &mdash; but yes, they rest, and the rest period is the mirror image of the bite window. Mosquitoes have no eyelids and nothing resembling mammalian sleep architecture, but they run on a strong circadian rhythm and pass their inactive hours in a <strong>quiescent state</strong>: motionless on a cool, humid, shaded surface, metabolism dialled down, noticeably slower to respond to light and movement. Nudge a resting Culex at noon and it is sluggish in a way the same insect never is at 9 p.m.</p>
+          <p>Which half of the day they spend resting depends on the species. Day-biting <em>Aedes</em> rest at night. Night-biting <em>Culex</em> and <em>Anopheles</em> rest through the daylight hours, tucked under decks, inside dense shrubs, in tall grass, and along the shaded side of a fence. This is the single most useful fact on this page for anyone actually trying to reduce bites: <strong>you always know where they are for roughly half of every day</strong>, which is why a residual barrier treatment targets resting surfaces rather than chasing a bite window.</p>
+
           <h2>The Temperature Thresholds That Switch Mosquitoes On and Off</h2>
           <p>Temperature is the master switch. Mosquitoes are cold-blooded, so their flight and feeding track the thermometer:</p>
           <ul>
@@ -210,6 +300,38 @@ export default function WhenAreMosquitoesMostActivePage() {
           </ul>
           <p>Layer weather on top of temperature and you can almost predict a bad night: warm, humid, still, and overcast, a few days after rain (which refills the standing water where they lay eggs), is peak mosquito weather. Wind is your friend — a breeze above roughly 16 km/h (10 mph) grounds these weak fliers almost entirely.</p>
           <p>Cold does more than ground them once it gets far enough down the scale. A sustained hard frost near -2 C kills active adults outright, though eggs and hibernating females come through it fine — the whole scale, from dormancy to die-off, is laid out in <Link href="/blog/what-temperature-kills-mosquitoes">our cold-versus-heat breakdown</Link>.</p>
+
+          <h3>The same thresholds in Fahrenheit</h3>
+          <p>If you are checking a U.S. forecast, here is the same scale with Fahrenheit first. Nothing changes but the units &mdash; mosquitoes respond to the temperature, not the scale you read it on.</p>
+          <div className="not-prose my-6 rounded-xl border border-gray-200 overflow-x-auto">
+            <table className="min-w-[560px] w-full text-sm">
+              <thead className="bg-brand-50">
+                <tr>
+                  <th className="px-3 py-2 text-left">Temperature (&deg;F / &deg;C)</th>
+                  <th className="px-3 py-2 text-left">Activity</th>
+                  <th className="px-3 py-2 text-left">What you notice outside</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  ['Below 50 °F (10 °C)', 'Effectively off', 'No flight, no biting — the floor the whole season is built on'],
+                  ['50–60 °F (10–15 °C)', 'Barely on', 'A few sluggish fliers at dusk; an evening in this range feels bite-free'],
+                  ['60–74 °F (15–23 °C)', 'Building', 'Biting ramps up steadily; dusk starts to matter'],
+                  ['75–82 °F (24–28 °C)', 'PEAK', 'The sweet spot — fastest egg-to-adult development, heaviest biting'],
+                  ['83–94 °F (28–34 °C)', 'High, but shade-shifted', 'Still biting hard, but in shade and at the edges of the day'],
+                  ['Above 95 °F (35 °C)', 'Declining', 'Too hot and dry; mosquitoes retreat to cool, humid resting spots'],
+                  ['Wind above 10 mph (16 km/h)', 'Grounded', 'Weak fliers — a breezy patio is close to bite-free at any temperature'],
+                ].map(([temp, level, note]) => (
+                  <tr key={temp} className="border-t border-gray-100 align-top">
+                    <td className="px-3 py-2 font-semibold text-brand-800">{temp}</td>
+                    <td className="px-3 py-2 text-gray-700">{level}</td>
+                    <td className="px-3 py-2 text-gray-700">{note}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p>One practical use for that table on either side of the border: the season <em>opens</em> when daily highs hold above 50&nbsp;&deg;F (10&nbsp;C) for about a week, and closes at the first hard frost. That is why the calendar answer below differs so much between Minneapolis and Miami while the thermometer answer is identical.</p>
 
           <h2>Why the Timing Matters for Bites — and for Spraying</h2>
           <p>Knowing when mosquitoes are active changes how you protect yourself and your yard:</p>
@@ -230,6 +352,138 @@ export default function WhenAreMosquitoesMostActivePage() {
             cons={['Reapply after heavy sweating or swimming', 'Personal protection only — does not treat the yard']}
           />
           <p>For a room-by-room and yard-by-yard plan, see our full guide on <Link href="/blog/how-to-get-rid-of-mosquitoes-in-yard-ontario">how to get rid of mosquitoes in your yard</Link>. To understand how these daily peaks scale up and down across the summer, read <Link href="/blog/mosquito-season-gta-when-does-it-start">when mosquito season starts and how long it lasts</Link>.</p>
+
+          <h2>When Are Mosquitoes Most Active in the United States? Season by Region</h2>
+          <p>The daily clock above is the same everywhere. The <em>calendar</em> is not. Mosquito season opens when daily temperatures hold above roughly 50&nbsp;&deg;F (10&nbsp;C) and closes at the first hard frost, so the length of the season is really a map of how long your local thermometer stays above that line. In the United States that ranges from about ten months on the Gulf Coast to about six weeks in interior Alaska. The <a href="https://www.cdc.gov/mosquitoes/" target="_blank" rel="noopener">U.S. Centers for Disease Control and Prevention (CDC)</a> notes that more than 200 mosquito species live in the continental United States and its territories, of which only about a dozen spread germs that make people sick &mdash; the rest are nuisance biters.</p>
+          <div className="not-prose my-6 rounded-xl border border-gray-200 overflow-x-auto">
+            <table className="min-w-[640px] w-full text-sm">
+              <thead className="bg-brand-50">
+                <tr>
+                  <th className="px-3 py-2 text-left">Region</th>
+                  <th className="px-3 py-2 text-left">Representative states</th>
+                  <th className="px-3 py-2 text-left">Season</th>
+                  <th className="px-3 py-2 text-left">Worst stretch</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  ['Gulf Coast, Florida & Hawaii', 'S. Florida, coastal Louisiana, Mississippi, Alabama, coastal Texas, Hawaii', 'Roughly Feb–Nov; effectively year-round in south Florida and Hawaii', 'Jun–Sep'],
+                  ['South & Southwest', 'Georgia, the Carolinas, Tennessee, Arkansas, Oklahoma, most of Texas, New Mexico, Arizona, southern California', 'Roughly Mar–Oct', 'May–Sep'],
+                  ['Mid-Atlantic, Midwest & West', 'Virginia, Maryland, Ohio, Indiana, Illinois, Missouri, Kansas, Nebraska, Colorado, Utah, Nevada, most of California', 'Roughly Apr–Sep', 'Jun–Aug'],
+                  ['New England, N. Midwest & Pacific NW', 'Maine, Vermont, New Hampshire, Massachusetts, New York, Michigan, Wisconsin, Minnesota, the Dakotas, Montana, Idaho, Washington, Oregon', 'Roughly May–Sep', 'Jul'],
+                  ['Alaska', '—', 'Roughly late May–Aug', 'Mid-Jun to mid-Jul'],
+                  ['Canada (for comparison)', 'Ontario, Quebec, the Prairies, interior British Columbia', 'Roughly May–Sep, ending at the first hard frost', 'Late Jun–early Aug'],
+                ].map(([region, states, season, worst]) => (
+                  <tr key={region} className="border-t border-gray-100 align-top">
+                    <td className="px-3 py-2 font-semibold text-brand-800">{region}</td>
+                    <td className="px-3 py-2 text-gray-700">{states}</td>
+                    <td className="px-3 py-2 text-gray-700">{season}</td>
+                    <td className="px-3 py-2 text-gray-700">{worst}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-gray-500 not-prose">Regional bands are typical, not guaranteed. A warm spring or a late frost moves both ends by weeks, and elevation matters as much as latitude &mdash; Flagstaff and Phoenix are in the same state and not in the same mosquito season.</p>
+
+          <h3>Florida</h3>
+          <p>Close to year-round. South Florida never really closes; statewide, expect roughly February or March through November, with the heaviest biting from June through September when the summer rains refill container and floodwater habitat. Florida is one of the few places where <em>both</em> <em>Aedes aegypti</em> and <em>Aedes albopictus</em> are common, so daytime biting in the shade is the norm rather than the exception, while <em>Culex quinquefasciatus</em> takes over after dark. <a href="https://edis.ifas.ufl.edu/" target="_blank" rel="noopener">University of Florida IFAS Extension</a> and the county mosquito control districts publish local activity updates worth checking before an outdoor event.</p>
+
+          <h3>Texas</h3>
+          <p>Roughly March through October, and close to year-round in the Rio Grande Valley and along the Gulf Coast. Peak biting runs May through September, and the defining feature of a Texas season is the flood brood: about a week to ten days after heavy rain, floodwater species emerge in numbers that make a normal evening unusable. <em>Culex quinquefasciatus</em> is the main West Nile carrier in the state, biting from dusk into the night, while <em>Aedes aegypti</em> and <em>Aedes albopictus</em> handle the daylight hours. <a href="https://agrilifeextension.tamu.edu/" target="_blank" rel="noopener">Texas A&amp;M AgriLife Extension</a> tracks regional activity.</p>
+
+          <h3>California and Southern California</h3>
+          <p>Most of California runs roughly April through October. Southern California stretches longer &mdash; March into November in the coastal and desert-adjacent counties, and mild winters can leave <em>Aedes aegypti</em> and <em>Aedes albopictus</em> biting into December in the Los Angeles and San Diego basins. Both of those invasive daytime species have established across large parts of the state since the 2010s, which is why Southern Californians increasingly report ankle bites at midday, a pattern the state did not have a generation ago. Inland and in the Central Valley, <em>Culex tarsalis</em> is the West Nile mosquito to watch, and it peaks at dusk around irrigated farmland.</p>
+
+          <h3>Arizona</h3>
+          <p>Roughly March through October, with a sharp twist: the monsoon. Mosquito numbers in Phoenix and Tucson track the July&ndash;September monsoon rains far more closely than they track the calendar, because the desert has little standing water until a storm creates it. Expect a lull through the driest, hottest pre-monsoon weeks &mdash; sustained days above 95&nbsp;&deg;F (35&nbsp;C) suppress activity &mdash; then a hard surge within one to two weeks of the first heavy rains. <em>Aedes aegypti</em> is established in both metro areas and bites during the day.</p>
+
+          <h3>Minnesota</h3>
+          <p>Roughly May through September, peaking in late June and July. Minnesota is the classic snowmelt-and-floodwater state: the first big brood emerges from thawing spring pools, and every substantial summer rain produces another wave about a week later. <em>Aedes vexans</em> is the mosquito most Minnesotans are actually swatting, and <em>Culex tarsalis</em> is the West Nile concern in the western and central parts of the state. The season closes abruptly &mdash; one hard frost and it is over.</p>
+
+          <h3>Alaska</h3>
+          <p>Short and intense: mosquitoes emerge as the snowmelt pools thaw in May, peak from mid-June to mid-July, and drop away through August. Alaska&rsquo;s particular quirk is light. Sub-arctic summer twilight lasts for hours and never fully darkens in the north, which stretches the dusk window so far that biting can continue through most of what passes for night in June. The upside: West Nile virus is not established in Alaska, so the problem is nuisance biting rather than disease risk.</p>
+
+          <h2>What Month Is Worst for Mosquitoes?</h2>
+          <p><strong>July and August, across most of the United States and Canada.</strong> The exceptions run in both directions: the Gulf Coast, Florida and Hawaii peak from June through September inside a February-to-November season, while Alaska compresses its entire worst stretch into mid-June to mid-July. Southern Ontario peaks from late June through early August.</p>
+          <p>The reason July and August win almost everywhere is that two curves overlap there. Temperature sits in or near the 75&ndash;82&nbsp;&deg;F (24&ndash;28&nbsp;C) sweet spot, so egg-to-adult development is at its fastest &mdash; roughly a week in warm weather instead of two or three. At the same time, several generations have already stacked up since spring, so the population is at its largest at exactly the moment it is reproducing fastest. Add the humid, still, overcast evenings typical of late summer and you get the worst biting of the year. For the month-by-month picture in southern Ontario specifically, see <Link href="/blog/mosquito-season-gta-when-does-it-start">when mosquito season starts and how long it lasts</Link>.</p>
+
+          <h2>U.S. Mosquito Species and When Each One Bites</h2>
+          <p>&ldquo;When are mosquitoes most active&rdquo; has a different answer in Minneapolis than in Miami largely because the species mix is different. The three genera in the table further up are the framework; below are the specific U.S. species that framework resolves into, and the hours each one keeps.</p>
+          <div className="not-prose my-6 rounded-xl border border-gray-200 overflow-x-auto">
+            <table className="min-w-[680px] w-full text-sm">
+              <thead className="bg-brand-50">
+                <tr>
+                  <th className="px-3 py-2 text-left">Species</th>
+                  <th className="px-3 py-2 text-left">Where in the U.S.</th>
+                  <th className="px-3 py-2 text-left">When it bites</th>
+                  <th className="px-3 py-2 text-left">Why it matters</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  ['Culex pipiens — northern house mosquito', 'Northern U.S.: Midwest, Northeast, Pacific NW (and across southern Canada)', 'Dusk into the night', 'The principal West Nile virus vector in the north'],
+                  ['Culex quinquefasciatus — southern house mosquito', 'The South, Gulf Coast, Southwest, southern California', 'Dusk into the night', 'The principal West Nile virus vector in the South'],
+                  ['Culex tarsalis — western encephalitis mosquito', 'Western and central U.S., especially irrigated farmland and the Great Plains', 'Dusk and the first hours of darkness', 'The key West Nile vector across the West — the species most Western readers have never heard of'],
+                  ['Aedes albopictus — Asian tiger mosquito', 'Southeast and Mid-Atlantic, pushing north into the Midwest and Northeast', 'Daytime, with dawn and late-afternoon peaks', 'Aggressive shade biter; breeds in containers, so it is a backyard problem'],
+                  ['Aedes aegypti — yellow fever mosquito', 'Gulf Coast, Florida, south Texas, Arizona, parts of southern California', 'Daytime, often indoors and close to homes', 'Dengue, Zika and chikungunya vector where established'],
+                  ['Aedes sollicitans — eastern saltmarsh mosquito', 'Atlantic and Gulf coastal marshes', 'Peaks at dusk; will bite in shade by day', 'A strong flier that travels miles inland — why a coastal town gets swarmed days after a high tide'],
+                  ['Aedes vexans — inland floodwater mosquito', 'Across the U.S. and Canada', 'Dusk peak', 'The "after the rain" mosquito; enormous broods roughly a week after flooding'],
+                  ['Psorophora ciliata — gallinipper', 'Gulf Coast, Southeast, Mississippi Valley', 'Dusk, and in numbers after floods', 'Very large and painfully aggressive; appears in floodwater broods'],
+                  ['Anopheles quadrimaculatus — common malaria mosquito', 'Eastern U.S.', 'Dusk to dawn, through the night', 'Historic malaria vector; malaria is not established in the U.S. today'],
+                ].map(([species, where, when, why]) => (
+                  <tr key={species} className="border-t border-gray-100 align-top">
+                    <td className="px-3 py-2 font-semibold text-brand-800">{species}</td>
+                    <td className="px-3 py-2 text-gray-700">{where}</td>
+                    <td className="px-3 py-2 text-gray-700">{when}</td>
+                    <td className="px-3 py-2 text-gray-700">{why}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p>Two cautions on ranges. The CDC builds its estimated potential-range maps for <em>Aedes aegypti</em> and <em>Aedes albopictus</em> from county-level and historical collection records combined with climate suitability, and they are explicitly maps of where the species could survive if introduced during the months mosquitoes are locally active &mdash; not maps of disease risk. The CDC also cautions that a species may turn up in an area the map does not shade, simply because nobody has trapped and reported it there. Second, ranges move. <em>Aedes albopictus</em> has been expanding northward for three decades; a species list that was right for your county in 2005 may be incomplete now. For current local surveillance, the <a href="https://www.mosquito.org/" target="_blank" rel="noopener">American Mosquito Control Association (AMCA)</a> maintains a directory of member districts, and most U.S. states run a public arbovirus surveillance page.</p>
+
+          <h2>In Canada: The Same Behaviour, a Much Shorter Calendar</h2>
+          <p>Canadian readers get the same daily clock &mdash; dusk peak, 2&ndash;4 a.m. floor, Aedes biting in shade at midday &mdash; inside a season that runs roughly May through September and ends decisively at the first hard frost. In the Greater Toronto Area the practical window is early May to late September, with the worst biting from late June through early August. The compressed season is the whole difference: southern Ontario simply does not spend February above 50&nbsp;&deg;F (10&nbsp;C), so there is no February mosquito.</p>
+          <p>The species mix is narrower but familiar. <em>Culex pipiens</em> and <em>Culex restuans</em> are the West Nile carriers <a href="https://www.publichealthontario.ca/en/Diseases-and-Conditions/Infectious-Diseases/Vector-Borne-Zoonotic-Diseases/West-Nile-Virus" target="_blank" rel="noopener">Public Health Ontario</a> tracks through its summer trapping programme, and they bite from dusk into the night &mdash; the reason WNV risk in Ontario is an evening-and-night risk, not a midday one. <em>Aedes vexans</em> is the floodwater mosquito behind the wave that shows up a week after a heavy summer rain. <em>Aedes albopictus</em>, the daytime shade biter, has been detected in southernmost Ontario in recent years but is nowhere near as established as it is in the U.S. Southeast. National West Nile updates are published by the <a href="https://www.canada.ca/en/public-health/services/diseases/west-nile-virus.html" target="_blank" rel="noopener">Public Health Agency of Canada</a>, and repellent active ingredients sold in Canada are registered by <a href="https://www.canada.ca/en/health-canada/services/consumer-product-safety/pesticides-pest-management.html" target="_blank" rel="noopener">Health Canada&rsquo;s Pest Management Regulatory Agency (PMRA)</a>.</p>
+          <p className="text-sm text-gray-600 not-prose">A note on who we are: BuzzSkito treats yards in the Greater Toronto Area only &mdash; <Link href="/mosquito-control" className="underline">mosquito control</Link> across 19+ GTA cities. If you are reading this from the United States, everything above about timing, temperature and species applies to your yard too; for treatment, the AMCA directory linked above will point you to a licensed operator or mosquito control district near you.</p>
+
+          <h2>What Smell Do Mosquitoes Hate Most?</h2>
+          <p><strong>Oil of lemon eucalyptus (OLE), and its refined form PMD, is the scent with the strongest evidence behind it</strong> &mdash; the plant-derived active the CDC lists alongside DEET, picaridin, IR3535 and 2-undecanone among EPA-registered repellent ingredients. Citronella, peppermint, lavender and garlic do repel mosquitoes, but weakly and briefly, because the vapour drifts away within minutes.</p>
+          <p>The reason scent-based folk remedies disappoint is that they are trying to beat a three-channel sensor. Mosquitoes locate you first by the plume of <strong>carbon dioxide</strong> you exhale, from tens of metres away; then by <strong>body heat</strong> and moisture as they get close; and finally by <strong>skin odour</strong> &mdash; the lactic acid, ammonia and bacterial by-products on your skin. A citronella candle perfumes a small volume of moving air. It does not remove your CO&#8322; plume, your body heat, or your skin.</p>
+          <p>What genuinely works on the smell channel is a repellent applied to skin, because it interferes with the mosquito&rsquo;s receptors right where it would land. Choose an active ingredient registered by the <a href="https://www.epa.gov/insect-repellents" target="_blank" rel="noopener">U.S. Environmental Protection Agency (EPA)</a> &mdash; its repellent search tool filters by protection time and by the pest you want to repel &mdash; or, in Canada, one registered by Health Canada&rsquo;s PMRA. <BuyLink tag={AMZ_TAG} search="oil of lemon eucalyptus insect repellent">Check oil of lemon eucalyptus repellents on Amazon &rarr;</BuyLink></p>
+          <p className="text-sm text-gray-600 not-prose">One safety note carried straight from the CDC: OLE and PMD products are not recommended for children under three years old. DEET and picaridin have their own age guidance on the label &mdash; read it, since the concentration determines how long a single application lasts, not how strong the protection is.</p>
+
+          <h2>What Will Keep Mosquitoes From Biting You?</h2>
+          <p><strong>An EPA-registered repellent on exposed skin is the single most reliable defence</strong> &mdash; DEET, picaridin, IR3535, oil of lemon eucalyptus, PMD or 2-undecanone. Layer on loose long sleeves, permethrin-treated clothing and gear (never applied to skin), screens indoors, a fan on the patio, and weekly emptying of standing water so the next generation never hatches.</p>
+          <p>In practice these stack, and each one covers a gap the others leave:</p>
+          <ul>
+            <li><strong>Repellent on skin</strong> &mdash; the only measure that works on a mosquito already at your ankle. Concentration governs duration, not strength: a higher-percentage DEET lasts longer, it does not repel harder.</li>
+            <li><strong>Clothing</strong> &mdash; loose long sleeves and pants beat tight ones, because <em>Aedes</em> will bite straight through fabric stretched against skin. Permethrin-treated clothing is widely sold in the United States and is applied to garments, never to skin; in Canada, consumer permethrin clothing sprays are not registered the way they are stateside, so factory-treated garments are the usual route &mdash; check the PMRA listing before buying.</li>
+            <li><strong>Moving air</strong> &mdash; the most underrated item on the list. Mosquitoes are weak fliers, and a breeze above roughly 10 mph (16 km/h) grounds them, so an oscillating fan makes a patio close to bite-proof during the dusk peak with no chemistry at all. <BuyLink tag={AMZ_TAG} search="outdoor oscillating patio fan">Check outdoor patio fans on Amazon &rarr;</BuyLink></li>
+            <li><strong>Screens and timing</strong> &mdash; intact window screens stop the <em>Culex</em> that follow indoor light after dark, which is the entire mechanism behind the 2 a.m. whine in a bedroom.</li>
+            <li><strong>Standing water, weekly</strong> &mdash; a bottle cap of water is enough for some container breeders. Emptying saucers, toys, tarps and clogged gutters every week is the one action that shrinks next fortnight&rsquo;s dusk swarm rather than tonight&rsquo;s.</li>
+          </ul>
+
+          <h2>Do Mosquitoes Prefer Fat or Skinny People?</h2>
+          <p><strong>Neither, directly &mdash; body shape is not a signal mosquitoes can read.</strong> They track exhaled carbon dioxide, body heat and skin odour. A larger body generally exhales more carbon dioxide and radiates more heat, so it can attract somewhat more mosquitoes, but skin bacteria, sweat, recent exercise and pregnancy shift the odds far more than size does.</p>
+          <p>The American Mosquito Control Association describes the same three cues, and the practical consequence is that the &ldquo;mosquito magnet&rdquo; in your household is usually explained by something other than build. Anyone who has just exercised is exhaling more CO&#8322;, running hotter, and carrying more lactic acid on the skin &mdash; three signals raised at once. Pregnancy raises both CO&#8322; output and skin temperature. Skin microbiome composition varies a lot between people and appears to matter more than most single factors. Alcohol is commonly reported to increase attractiveness, though the evidence is modest. Blood-type claims circulate constantly online; the studies behind them are small and inconsistent, and it is not a finding to plan an evening around.</p>
+          <p>The useful takeaway is that none of these traits are worth worrying about, because all of them are overridden by the same intervention. Whatever your CO&#8322; output, an EPA- or PMRA-registered repellent on exposed skin closes the gap between the most-bitten person at the table and the least-bitten one.</p>
+
+          <div className="not-prose my-8 rounded-2xl border-2 border-emerald-200 bg-emerald-50/60 p-6">
+            <h2 className="text-xl font-extrabold text-brand-900 mb-3 mt-0">Key Takeaways</h2>
+            <ul className="space-y-2 text-sm text-gray-800 list-disc pl-5">
+              <li><strong>Dusk is the peak</strong> &mdash; from about 30 minutes before local sunset to 90 minutes after it is the worst window of the day for most mosquitoes.</li>
+              <li><strong>Biting stops between roughly 2 and 4 a.m.</strong>, then rises again briefly at dawn. Anopheles are the group most likely to be biting in the middle of the night.</li>
+              <li><strong>Aedes break the rule.</strong> The Asian tiger mosquito and <em>Aedes aegypti</em> bite in shade all day, which is why a leafy yard can be miserable at noon.</li>
+              <li><strong>The thermometer sets the season:</strong> activity switches on above 50&nbsp;&deg;F (10&nbsp;C), peaks at 75&ndash;82&nbsp;&deg;F (24&ndash;28&nbsp;C), and declines above 95&nbsp;&deg;F (35&nbsp;C). Wind above 10 mph (16 km/h) grounds them.</li>
+              <li><strong>The calendar is regional.</strong> Gulf Coast and Florida run February to November; the Midwest and Mid-Atlantic April to September; New England and the northern Midwest May to September; Alaska mid-June to mid-July; southern Ontario May to September, worst late June to early August.</li>
+              <li><strong>July and August are the worst months</strong> across most of the U.S. and Canada, because peak temperature and peak accumulated population coincide.</li>
+              <li><strong>Species determine the hours.</strong> <em>Culex</em> (all three U.S. species) bite dusk into night and carry West Nile virus; <em>Aedes</em> bite by day; <em>Anopheles</em> hold the overnight plateau.</li>
+              <li><strong>Treat resting spots, not bite windows.</strong> Mosquitoes spend half of every day motionless in shaded, humid cover &mdash; that is the target that works around the clock.</li>
+            </ul>
+          </div>
 
           <h2>Related Reading</h2>
           <ul>

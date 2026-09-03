@@ -90,6 +90,54 @@ const FAQS = [
     question: 'Is a DynaTrap worth it?',
     answer: 'It depends on your goal. As a mosquito solution, a DynaTrap is not worth it for most Canadian backyards — independent studies show roughly 95% of its catch is non-biting moths and beetles, with mosquitoes under 5%. As a general flying-insect catcher for a cottage deck, it can be worth the $80–$330 if you know what to expect. For real mosquito relief, professional barrier spray or a CO₂ propane trap delivers far more per dollar.',
   },
+  {
+    question: 'Why does a DynaTrap have to be 20 feet away?',
+    answer: 'Because the trap has to beat you as an attractant. DynaTrap specifies placement 20–40 feet (roughly 6–12 metres) from where people actually sit, and 3–6 feet (about 1–2 metres) off the ground, in shade near the vegetation where insects rest. Set it on the table beside you and the UV lamp simply pulls more insects toward your chair — you become the competing attractant, and you win, because you exhale CO₂ and the trap does not. Distance is what lets the lamp be the strongest signal in that patch of yard rather than a rival to your own body heat, breath and skin scent.',
+  },
+  {
+    question: 'Should I leave my DynaTrap on all the time?',
+    answer: 'Yes. DynaTrap is designed for continuous 24/7 operation through the season. The mechanism is cumulative rather than instant — the unit only lowers the local flying-insect population if it is catching through the dawn and dusk windows when the American Mosquito Control Association notes most species are most active. Running it only while you are outdoors is the worst pattern available: it draws insects toward the area at exactly the moment you are sitting in it. Power draw is modest, and the LED units in the current lineup draw less than the older fluorescent generation.',
+  },
+  {
+    question: 'What are people saying about the DynaTrap insect trap at Costco?',
+    answer: 'Owner discussion on Reddit (r/Costco, r/MosquitoHating, r/HoustonGardening), Houzz, Facebook groups and retailer review tabs is broadly consistent, and broadly consistent with the research: the basket fills quickly with moths, gnats, midges and beetles, and mosquito counts disappoint — including owners who ran the unit through a mosquito-heavy evening and found none in the catch. Several owners of large lots also dispute the acreage rating. The people who report being happy are almost always those who wanted a general flying-insect catcher; the people who report being disappointed wanted fewer bites. Costco in the US carries the half-acre LED unit; Costco Canada stocks the line seasonally each spring.',
+  },
+  {
+    question: 'Which is better, DynaTrap or Thermacell?',
+    answer: 'They solve different problems. Thermacell creates a repellent zone of roughly 15 by 15 feet (about 4.5 metres) around the device and reaches full effect in minutes, so it is the better buy if the goal is not being bitten while you sit outside this evening. A DynaTrap works yard-wide over weeks, but the published research says most of what it removes is non-biting insects. For personal bite protection, Thermacell wins clearly. For pulling moths, midges and beetles off a deck all season, DynaTrap wins. Neither one affects ticks, and neither is a substitute for treating the yard itself.',
+  },
+  {
+    question: 'How much does a DynaTrap cost in the US?',
+    answer: 'Direct from DynaTrap in the United States at the time of this update: the 1-acre LED (DT2030 / DT2030-GR) is $99.00, the half-acre LED (DT1130SR / DT1130-GR) is $79.99, and the quarter-acre LED portable (DT030) is $59.99. Third-party US retail sits in a similar band, with larger three-quarter-acre units commonly seen between roughly $145 and $175 depending on retailer. Every price elsewhere on this page is in Canadian dollars for the Canadian lineup and is not comparable line for line — the US model range is different, and cheaper.',
+  },
+  {
+    question: 'Does a DynaTrap really produce CO₂?',
+    answer: 'DynaTrap markets a three-way system: UV light, a fan, and a titanium-dioxide (TiO₂) coated surface described as photocatalytically releasing a trace of carbon dioxide to mimic human breath. Testing at the University of Wisconsin detected no CO₂ coming off that surface. That finding is the crux of this review: CO₂ is the primary cue a biting female mosquito hunts by, and even if a trace were present it would be dwarfed by an actual person breathing 20 feet away. Treat the third way as marketing language rather than a working mechanism — the light and the fan are the two ingredients that are real.',
+  },
+  {
+    question: 'Do DynaTrap LED models need bulb replacement?',
+    answer: 'Split the question by generation. The current US outdoor line — DT2030, DT1130SR and DT030 — is sold as LED, and an LED array is not a user-replaceable consumable the way a fluorescent tube is. Legacy fluorescent units genuinely do take replacement bulbs: the DT2000XL series takes the 32050 bulb, the half-acre models take the 41050, the DT1700 series takes the 43050, and the Flylight takes the 21050. If you own a fluorescent unit, replacing the bulb each season matters because UV output drops long before the tube stops lighting. If you own an LED unit, budget for Atrakta lures instead — that is the real recurring cost.',
+  },
+  {
+    question: 'What months should I run a DynaTrap in the United States?',
+    answer: 'There is no single US season, and DynaTrap\'s own guidance is temperature-based rather than calendar-based — mosquitoes typically become active once conditions hold above about 45°F. In practice: South Florida from early February; the Gulf Coast, Florida and Hawaii roughly February to November, year-round in places; Texas and Louisiana from early March; the Northeast (NY, NJ, PA, New England) April to October with peak from mid-May to late June; the northern tier May to September, ending at first frost. In Canada the working window is May to September. A Houston or Tampa owner runs the unit two to three times as long as a Toronto one, which multiplies lure and running costs in the same proportion.',
+  },
+  {
+    question: 'Is DynaTrap EPA approved?',
+    answer: 'No, and under US law it does not have to be. Under FIFRA, something that kills pests by physical or mechanical means and contains no pesticide active ingredient is classified as a pesticide device, not a pesticide, and is exempt from EPA product registration. Devices must be produced in an EPA-registered establishment, carry an establishment number, and hold data supporting the efficacy claims they make — but no EPA review of effectiveness happens before the product goes on sale. Labelling on exempt devices also may not tie a pest to a specific disease. That is how a UV trap can be sold nationwide as a mosquito trap without ever having proved to a regulator that it reduces bites.',
+  },
+  {
+    question: 'Does a DynaTrap help against West Nile virus mosquitoes?',
+    answer: 'It is close to the worst possible match. According to the CDC, West Nile virus is the most common mosquito-borne disease in the continental United States, and it is spread by Culex mosquitoes — a night-active genus that hunts by CO₂ and body odour and is not strongly drawn to ultraviolet light. In other words, the mosquito that matters most for US disease risk is precisely the one a light-based trap under-catches. The CDC notes that over 200 mosquito species live in the continental US and its territories and that about 12 of them spread germs that can make people sick; a UV trap does not preferentially remove those 12.',
+  },
+  {
+    question: 'Do DynaTraps catch ticks in the US?',
+    answer: 'No. Ticks do not fly, are not attracted to UV light, and cannot be vacuumed out of the air, so no trap of this type affects them at any latitude. In the United States, Lyme disease is spread by the blacklegged tick (Ixodes scapularis) across the Northeast and Upper Midwest and by the western blacklegged tick (Ixodes pacificus) on the Pacific coast, with the lone star tick (Amblyomma americanum) spreading across the Eastern, Southeastern and South-Central states. The CDC reports over 89,000 Lyme cases from state health departments in 2023, and other CDC estimation methods put the number of people diagnosed and treated at approximately 476,000 each year. Tick control is a ground-and-vegetation job — our own tick program is five sprays per season.',
+  },
+  {
+    question: 'Which DynaTrap models are sold in the United States?',
+    answer: 'The current US outdoor store lists the 1-acre LED DT2030 and DT2030-GR, the half-acre LED DT1130SR and DT1130-GR, and the quarter-acre LED portable DT030. Legacy and retailer-specific SKUs still widely in circulation include the DT160, DT152, DT1050, DT1210, DT1775, DT2000XL and DT2000XLP, alongside the indoor and decorative ranges — Sonata, Decora, DOT, Willow, Luxe, Ultralight and Flylight. The Canadian lineup is not the same, which is why a model number on a US listing may have no Canadian equivalent and vice versa. Check the model number on the box, not the marketing name, before buying accessories.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({
@@ -437,6 +485,124 @@ export default function DynaTrapCanadaPage() {
           <p>The problem is fundamental: UV light attracts MANY species of flying insects, but most mosquitoes are <strong>not</strong> primarily UV-attracted. Female mosquitoes (the ones that bite) hunt for blood meals using CO₂, body heat, lactic acid, and skin scent — not light. UV light primarily attracts moths (which use it for navigation), beetles, midges, mayflies, and other phototactic species.</p>
           <p>This is why University of Florida and Notre Dame studies consistently find DynaTrap-style devices catching 5% mosquitoes and 95% &ldquo;everything else.&rdquo; The Atrakta octenol cartridge modestly improves mosquito catch, but it&rsquo;s still well below <Link href="/blog/co2-mosquito-trap-canada">CO₂-generating</Link> <Link href="/blog/propane-mosquito-trap-canada">propane traps</Link>. A newer category skips the lure problem altogether: <Link href="/blog/laser-mosquito-killer-photon-matrix-review">laser mosquito zappers</Link> detect and shoot individual mosquitoes rather than trying to attract them, which trades the poor catch ratio for a range and line-of-sight limit instead.</p>
 
+          <h2 id="three-way-co2-claim">The &ldquo;3-Way&rdquo; CO₂ Claim: What DynaTrap Says, and What Testing Found</h2>
+          <p>Everything above says a DynaTrap emits no CO₂. It is worth stating plainly what the manufacturer actually claims, because the claim is more specific than &ldquo;UV and a fan&rdquo; and deserves to be answered on its own terms rather than ignored.</p>
+          <p>DynaTrap markets the outdoor units as a <strong>three-way</strong> system. Way one is the UV lamp. Way two is the whisper-quiet fan. Way three is a <strong>titanium-dioxide (TiO₂) coated surface</strong>, described as photocatalytically releasing a trace amount of carbon dioxide to mimic human breath. Retailer listings and hands-on reviews repeat this third mechanism almost word for word, which is why so many buyers arrive believing the unit does produce CO₂.</p>
+          <p><strong>Testing at the University of Wisconsin detected no CO₂ coming off that photocatalytic surface.</strong> That is the single most important sentence for anyone weighing this purchase. Even setting the measurement aside, the arithmetic does not work: a resting adult exhales carbon dioxide continuously and in quantities orders of magnitude beyond anything a coated plastic panel could photocatalyse, so a person sitting 20 feet away would out-signal the trap regardless. The light is real. The fan is real. The third way is the part that does not survive measurement — and it is the only one of the three that would have mattered to a biting female mosquito.</p>
+          <p>This is not a reason to think the device is fraudulent. It is a reason to buy it for what it demonstrably does — vacuum phototactic flying insects out of the air — rather than for the mechanism printed on the box.</p>
+
+          <h2 id="does-dynatrap-actually-work">Does DynaTrap Actually Work? What Independent Hands-On Testers Reported</h2>
+          <p><strong>Yes as an insect vacuum, barely as mosquito control.</strong> Hands-on testers who ran units for days and weeks reported baskets full of moths, gnats, flies and beetles — and kept getting bitten. That matches the published trap research: mosquitoes are a single-digit share of the catch, and biting females are a small fraction of even that.</p>
+          <p>BuzzSkito has not lab-tested a DynaTrap, and this page will not pretend otherwise. What follows is a summary of testing published by outlets that <em>did</em> run units in real yards, reported with attribution so you can weigh the source yourself:</p>
+          <div className="not-prose my-6 overflow-x-auto rounded-xl border border-navy-100 shadow-sm">
+            <table className="min-w-[640px] w-full text-sm">
+              <thead className="bg-brand-800 text-white">
+                <tr>
+                  <th className="px-4 py-3 text-left">Who tested it</th>
+                  <th className="px-4 py-3 text-left">Unit &amp; duration</th>
+                  <th className="px-4 py-3 text-left">Setup</th>
+                  <th className="px-4 py-3 text-left">What they reported</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-b border-navy-50">
+                  <td className="px-4 py-3 font-bold text-brand-800">Bob Vila</td>
+                  <td className="px-4 py-3 text-gray-700">Three-quarter-acre DT1750, run continuously with the basin emptied each morning</td>
+                  <td className="px-4 py-3 text-gray-700">Residential yard; named tester with a published methodology and a &ldquo;meet the tester&rdquo; section</td>
+                  <td className="px-4 py-3 text-gray-700">Caught mosquitoes, moths, flies, gnats, fruit flies, stink bugs — and honey bees, which the tester flagged as a problem. Several dozen insects escaped during emptying even with precautions. Scored 8.75/10 as a device.</td>
+                </tr>
+                <tr className="border-b border-navy-50">
+                  <td className="px-4 py-3 font-bold text-brand-800">Reviewed.com</td>
+                  <td className="px-4 py-3 text-gray-700">DT1050 (US$74.99), 14 consecutive days</td>
+                  <td className="px-4 py-3 text-gray-700">Backyard adjacent to a county water overflow lake — high mosquito pressure. Deliberately placed about 10 ft from the seating area, <em>below</em> the manufacturer&rsquo;s 20–40 ft spec</td>
+                  <td className="px-4 py-3 text-gray-700">The tester was bitten within five minutes of sitting down. Published verdict: it does not effectively reduce outdoor pests.</td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-3 font-bold text-brand-800">Owner threads (Reddit, Houzz, retailer review tabs)</td>
+                  <td className="px-4 py-3 text-gray-700">Mixed models, full seasons</td>
+                  <td className="px-4 py-3 text-gray-700">Self-reported home use across the US and Canada</td>
+                  <td className="px-4 py-3 text-gray-700">Recurring pattern: baskets dominated by moths and gnats; owners reporting near-zero mosquitoes after long evening runs; large-lot owners disputing the acreage rating.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p>Read the two published tests together and a useful nuance appears. Bob Vila scored the unit well <em>as a machine</em> — it is quiet, it builds a full basket, it does what a fan and a lamp can do. Reviewed reached the opposite verdict because it asked a different question: did the number of bites go down? Both can be true at once, and both are consistent with the university trap research. The device works; the marketing category is wrong.</p>
+
+          <h3>What the US agencies and university studies say</h3>
+          <p>The Canadian-facing sections above cite the University of Florida (Day, 2002) and Notre Dame work in general terms. For US readers, the <strong>American Mosquito Control Association (AMCA)</strong> — the primary US professional body — publishes the same conclusion in harder numbers:</p>
+          <ul>
+            <li><strong>4.1% and 6.4%.</strong> Two University of Notre Dame studies found mosquitoes made up only those shares of the daily catch across an entire season.</li>
+            <li><strong>0.13%.</strong> The share of insects killed that were female mosquitoes — the only ones that bite.</li>
+            <li><strong>No significant difference</strong> in the number of mosquitoes found in yards with electrocuting traps versus yards without them.</li>
+            <li><strong>71 billion to 350 billion beneficial insects</strong> estimated killed annually in the US by electrocuting devices, with knock-on effects on songbird food supply.</li>
+            <li>AMCA explicitly cautions against putting too much faith in traps as a sole means of control, and notes that most mosquito species have a flight range of 1–3 miles — which is why a single point-source trap is fighting continuous re-invasion.</li>
+          </ul>
+          <p>A <strong>University of Delaware</strong> study of light traps collected more than 13,000 insects over ten weeks and found only 31 were biting flies — about 0.22%. <strong>Colorado State University Extension</strong> reaches the same conclusion about UV and electrocuting devices. A DynaTrap is not a high-voltage zapper — it suffocates rather than electrocutes, so the beneficial-insect toll is not identical — but the attraction mechanism it depends on is the same UV cue, and so is the resulting species mix.</p>
+
+          <h2 id="why-20-feet-away">Why Does a DynaTrap Have to Be 20 Feet Away?</h2>
+          <p><strong>Because the trap has to beat you as an attractant.</strong> DynaTrap specifies 20–40 feet (roughly 6–12 metres) from where people sit, and 3–6 feet (about 1–2 metres) off the ground. Closer than that and the UV lamp is simply pulling insects toward your chair instead of away from it.</p>
+          <p>This is the most misunderstood instruction in the manual, and the reason a lot of one-star reviews exist. A trap is not a shield. It does not create a protected bubble the way a <Link href="/blog/thermacell-canada-where-to-buy">Thermacell</Link> does. It works by being the most attractive thing in that area of the yard, so insects commit to it instead of to you. The moment it is within a few feet of your seating, you and the trap are competing for the same insects — and you win, because you exhale CO₂, radiate body heat and give off lactic acid and skin scent, none of which the device can match. Reviewed.com&rsquo;s test is the clean demonstration: the unit was deliberately placed about 10 ft from the seats, well inside the spec, and the tester was bitten within five minutes.</p>
+          <p>Practical placement, US units first:</p>
+          <ul>
+            <li><strong>20–40 ft (6–12 m)</strong> from the patio, deck or fire pit — far enough that it is not competing with you, close enough that it is still inside the pressure zone.</li>
+            <li><strong>3–6 ft (1–2 m) off the ground</strong>, hung or on a pole, not sitting on the deck boards.</li>
+            <li><strong>In shade during the day</strong>, near the vegetation and damp edges where insects rest — hedge lines, tree edges, the shaded side of a shed.</li>
+            <li><strong>Away from competing light.</strong> Porch lights, string lights and pool lights all wash out the UV cue. If you run string lights over the patio, the trap is not the brightest thing in the yard and will underperform.</li>
+            <li><strong>Not directly under trees</strong> that drop sap or leaves into the fan, and not in a spot that takes the full force of driving rain.</li>
+          </ul>
+          <p>None of this changes the species mix. It changes whether the unit performs at the top or the bottom of its own modest range — which is worth doing if you already own one.</p>
+
+          <h2 id="leave-it-on">Should I Leave My DynaTrap On All the Time?</h2>
+          <p><strong>Yes.</strong> DynaTrap is built for continuous 24/7 operation, and the unit only lowers local flying-insect numbers if it is running through the dawn and dusk windows when the American Mosquito Control Association notes most species are most active. Switching it on only when you step outside draws insects to you at the worst possible moment.</p>
+          <p>The mechanism is cumulative, not instant. A trap that has been running for three weeks has removed three weeks of emerging adults from the immediate area; a trap switched on at 7pm has removed nothing and is, for the first hour, a net attractant. That is the single most common self-inflicted failure with this product category.</p>
+          <p>Two practical notes. First, running costs are small — the current LED line draws less than the older fluorescent generation, and even continuous operation is a low-single-digit dollar figure per month in most US markets. Second, continuous operation is what drives the maintenance cadence: empty the basket every one to two weeks in peak season (every two to three weeks on the larger units, which have bigger baskets), because a packed basket reduces airflow and a reduced airflow reduces catch. If you are in a region where the unit runs nine months rather than five, scale the cleaning and lure budget accordingly.</p>
+
+          <h2 id="costco-owner-opinion">What Are People Saying About the DynaTrap Insect Trap at Costco?</h2>
+          <p><strong>Owner threads land in roughly the same place.</strong> Reddit, Houzz, Facebook groups and retailer review tabs consistently report a basket that fills fast — mostly moths, gnats and midges — and mosquito counts that disappoint. Buyers who wanted a general flying-insect catcher are usually happy; buyers who wanted fewer bites usually are not.</p>
+          <p>Costco is where a large share of DynaTrap volume moves in both countries, so the Costco-specific owner discussion is unusually substantial. The recurring themes across those threads:</p>
+          <ul>
+            <li><strong>&ldquo;Mostly moths and gnats.&rdquo;</strong> The most common description of the catch, including from owners who added the Atrakta lure specifically to shift the mix.</li>
+            <li><strong>Zero-mosquito evenings.</strong> Multiple owners report leaving a unit running for hours in an area with obvious mosquito activity and finding no mosquitoes in the basket.</li>
+            <li><strong>Disputed acreage.</strong> Owners of genuinely large lots — several acres — report that the coverage rating does not describe their experience. The rating assumes open, unobstructed air; fences, hedges and buildings shrink it.</li>
+            <li><strong>Value framing.</strong> The most-cited Costco thread is framed around whether the roughly $70 half-acre unit is worth the money at all — which tells you what the honest price bracket for this decision is in the US, and it is not a $250 one.</li>
+            <li><strong>Satisfied owners exist,</strong> and they are almost always people who bought it for patio moths, dock midges or general nuisance insects rather than for bite reduction.</li>
+          </ul>
+          <p>What makes this worth reading rather than dismissing: the owner consensus and the university research agree. That is unusual. When forum anecdote and peer-reviewed trap studies converge on the same species split, the conclusion is about as solid as consumer-product evidence gets.</p>
+
+          <h2 id="dynatrap-vs-thermacell">DynaTrap vs Thermacell: Which Is Better?</h2>
+          <p><strong>Different jobs.</strong> Thermacell creates a repellent zone of roughly 15 by 15 feet within minutes, so it wins for stopping bites while you sit outside tonight. DynaTrap works yard-wide over weeks but removes mostly non-biting insects. For bite protection choose Thermacell; for pulling moths off a deck choose DynaTrap. Neither affects ticks.</p>
+          <div className="not-prose my-6 overflow-x-auto rounded-xl border border-navy-100 shadow-sm">
+            <table className="min-w-[620px] w-full text-sm">
+              <thead className="bg-brand-800 text-white">
+                <tr>
+                  <th className="px-4 py-3 text-left">&nbsp;</th>
+                  <th className="px-4 py-3 text-left">DynaTrap (UV + fan trap)</th>
+                  <th className="px-4 py-3 text-left">Thermacell (repellent zone)</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  ['What it actually does', 'Attracts and captures flying insects', 'Repels mosquitoes out of a defined zone'],
+                  ['Time to effect', 'Weeks — it is a population-reduction device', 'About 15 minutes'],
+                  ['Area', 'Rated ¼ acre to 1 acre of yard (open air)', 'Roughly 15 × 15 ft (about 4.5 m) around the device'],
+                  ['Protects you from bites?', 'Not directly — it must be 20–40 ft away from you', 'Yes — that is the entire design goal'],
+                  ['What it removes', 'Mostly moths, gnats, midges, beetles', 'Removes nothing — mosquitoes leave the zone'],
+                  ['Pollinator impact', 'Kills non-target insects including moths and bees', 'No kill; repellent only'],
+                  ['Ongoing cost', 'Atrakta lures; UV bulbs on legacy fluorescent models', 'Repellent refills and (on older units) fuel cartridges'],
+                  ['Works on ticks?', 'No', 'No'],
+                  ['Best for', 'Cottage decks, docks, patio nuisance insects all season', 'Sitting outside tonight without being bitten'],
+                ].map(([spec, dyna, therm]) => (
+                  <tr key={spec} className="border-b border-navy-50 last:border-0">
+                    <td className="px-4 py-3 font-semibold text-brand-800 bg-brand-50 align-top">{spec}</td>
+                    <td className="px-4 py-3 text-gray-700 align-top">{dyna}</td>
+                    <td className="px-4 py-3 text-gray-700 align-top">{therm}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p>The comparison is asked as an either/or, but the two devices do not really compete — they fail in opposite directions. Thermacell protects a small zone completely and the rest of the property not at all; DynaTrap works across the property and protects nothing in particular. If you are choosing one and the complaint is &ldquo;we get bitten on the deck,&rdquo; buy the Thermacell. If the complaint is &ldquo;there are moths everywhere and the porch light is a disaster,&rdquo; buy the DynaTrap. If the complaint is &ldquo;we cannot use the yard,&rdquo; neither device is the answer — that is a treatment problem, and it is the one case where a <Link href="/mosquito-control">residual barrier treatment</Link> across the whole property is the honest recommendation, because it also covers ticks, which neither device touches. Full details on the repellent side are in our <Link href="/blog/thermacell-canada-where-to-buy">Thermacell guide</Link>.</p>
+
           <h2>What DynaTrap IS Good For</h2>
           <ul>
             <li><strong>Cottage country deck use</strong> — catches moths, beetles, and the occasional mosquito while you sit outside</li>
@@ -479,6 +645,203 @@ export default function DynaTrapCanadaPage() {
           <h2>The Honest Verdict for GTA Buyers</h2>
           <p>If you&rsquo;re shopping for mosquito control specifically, skip DynaTrap and go directly to <Link href="/mosquito-control">professional barrier spray</Link> for whole-yard coverage. If you have a cottage and want a low-effort supplemental device that catches moths and the occasional mosquito while looking ambient on the deck, DynaTrap is fine.</p>
           <p>One last note for shoppers: a UV trap is only one category of gear, and the rest of what we recommend for Canadian homes — repellents, larvicides, sprayers, and traps aimed at other pests entirely — lives in our <Link href="/pest-product-guides">pest product guides</Link>.</p>
+
+          <div className="not-prose my-8 rounded-xl bg-sky-50 border-l-4 border-sky-500 p-5">
+            <p className="text-sm font-extrabold text-sky-900 mb-1">Reading this from the United States? Two things to know first.</p>
+            <p className="text-sm text-gray-800 leading-relaxed">
+              <strong>1. Every price above is in Canadian dollars</strong>, for the Canadian model range and Canadian retailers. Do not convert them and do not compare them line-for-line with a US listing — the US lineup is a different set of SKUs at meaningfully lower prices, set out below in USD.
+              <br /><br />
+              <strong>2. The evidence does not change at the border.</strong> The species mix a UV trap catches, the absence of CO₂, and the fact that it does nothing for ticks are physics, not geography. What changes is which mosquitoes matter, how long your season runs, which models you can buy, and which agency you can check us against. The rest of this page covers all four.
+            </p>
+          </div>
+
+          <h2 id="dynatrap-united-states">DynaTrap in the United States: Current Models, US Prices and Where to Buy</h2>
+          <p>The US and Canadian catalogues are not the same, and model numbers do not map cleanly across. Here is the <strong>current US outdoor lineup as listed by DynaTrap directly</strong>, in USD:</p>
+          <div className="not-prose my-6 overflow-x-auto rounded-xl border border-navy-100 shadow-sm">
+            <table className="min-w-[620px] w-full text-sm">
+              <thead className="bg-brand-800 text-white">
+                <tr>
+                  <th className="px-4 py-3 text-left">Model (US)</th>
+                  <th className="px-4 py-3 text-left">Coverage</th>
+                  <th className="px-4 py-3 text-left">Light source</th>
+                  <th className="px-4 py-3 text-left">Direct price (USD)</th>
+                  <th className="px-4 py-3 text-left">Who it suits</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  ['DT2030 / DT2030-GR', '1 acre', 'LED', '$99.00', 'Large or open US lots; the flagship outdoor unit'],
+                  ['DT1130SR / DT1130-GR', '½ acre', 'LED', '$79.99', 'The volume seller — typical suburban yard, and the Costco unit'],
+                  ['DT030', '¼ acre', 'LED (portable)', '$59.99', 'Patios, campsites, decks; cheapest way to find out if you like the category'],
+                ].map(([model, cover, light, price, who]) => (
+                  <tr key={model} className="border-b border-navy-50 last:border-0">
+                    <td className="px-4 py-3 font-bold text-brand-800">{model}</td>
+                    <td className="px-4 py-3 text-gray-700">{cover}</td>
+                    <td className="px-4 py-3 text-gray-700">{light}</td>
+                    <td className="px-4 py-3 font-mono text-gray-800">{price}</td>
+                    <td className="px-4 py-3 text-gray-700">{who}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="not-prose text-xs text-gray-500 mb-6">Direct-from-manufacturer US pricing at the time of this update. Third-party US retail runs a similar band; larger three-quarter-acre units are commonly listed between roughly $145 and $175 depending on retailer. Prices move seasonally — treat these as the shape of the market, not a quote.</p>
+          <p>Beyond those three, a long tail of <strong>legacy and retailer-specific US SKUs</strong> is still in circulation and still supported: the <strong>DT160</strong> and <strong>DT152</strong> (small/quarter-acre), <strong>DT1050</strong> and <strong>DT1210</strong> (half-acre), <strong>DT1775</strong> (three-quarter-acre), and the <strong>DT2000XL</strong> and <strong>DT2000XLP</strong> full-size units. Indoor and decorative ranges — Sonata, Decora, DOT, Willow, Luxe, Ultralight and Flylight — use the same UV-plus-fan principle in a housing designed to sit in a room rather than a yard. If you are buying accessories, <strong>go by the model number stamped on the unit, not the marketing name</strong>; the ranges overlap and the lure and bulb fitments do not.</p>
+
+          <h3>Where to buy a DynaTrap in the US</h3>
+          <p>The Canadian retailer table earlier on this page (Costco Canada, Canadian Tire, Home Depot Canada, Lee Valley, Cabela&rsquo;s Canada) is the Canadian picture. In the US the retail set is different:</p>
+          <div className="not-prose my-6 overflow-x-auto rounded-xl border border-navy-100 shadow-sm">
+            <table className="min-w-[560px] w-full text-sm">
+              <thead className="bg-brand-800 text-white">
+                <tr>
+                  <th className="px-4 py-3 text-left">US retailer</th>
+                  <th className="px-4 py-3 text-left">What they typically stock</th>
+                  <th className="px-4 py-3 text-left">Note</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  ['DynaTrap.com (direct)', 'Full current outdoor + indoor lineup, lures, spare parts', 'The reference price list, and the only reliable source of legacy replacement bulbs'],
+                  ['Costco', 'Half-acre LED unit, seasonally', 'Usually the cheapest route to the volume model; stock is seasonal'],
+                  ['Home Depot', 'DT1050 and current outdoor models', 'Large owner-review tab — useful primary reading before you buy'],
+                  ['Amazon (DynaTrap brand store)', 'Broadest model coverage incl. legacy SKUs and lures', 'Best for Atrakta lure refills and odd model numbers'],
+                  ['Walmart', 'Mid-size outdoor units', 'Frequently the lowest listed price on three-quarter-acre units'],
+                  ['Lowe\'s', 'Outdoor lineup, seasonal', 'Spring/summer floor stock'],
+                  ['Tractor Supply', 'Half-acre and larger', 'Rural and acreage buyers'],
+                  ['QVC', 'Half-acre LED bundles', 'Often sold as multi-packs'],
+                  ['Solutions Stores', 'DT2000XLP and pro-oriented SKUs', 'Pest-control specialist channel'],
+                ].map(([retailer, stock, note]) => (
+                  <tr key={retailer} className="border-b border-navy-50 last:border-0">
+                    <td className="px-4 py-3 font-bold text-brand-800">{retailer}</td>
+                    <td className="px-4 py-3 text-gray-700">{stock}</td>
+                    <td className="px-4 py-3 text-xs text-gray-600">{note}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="not-prose text-xs text-gray-500 mb-6">BuzzSkito is a Canadian service business and our affiliate links point to Amazon.ca. US readers should buy from a US retailer above; the US retailer list is provided for accuracy, not as a referral.</p>
+          <p>One item is worth buying regardless of which country you are in and which model you own: the <strong>Atrakta lure</strong>. It is DynaTrap&rsquo;s universal add-on — a sealed octenol cartridge that works across the range and lasts roughly eight weeks (about 60 days) per lure. Octenol is a synthetic stand-in for compounds in human breath and sweat. It genuinely nudges the mosquito share of the catch upward. It does not transform a UV trap into a CO₂ trap, and no lure can, but it is the single accessory that changes the outcome at all — which is why it, and not any particular model number, is the honest upgrade recommendation on this page.</p>
+          <p className="not-prose text-sm text-gray-600 mb-6"><BuyLink tag={AMZ_TAG} search="dynatrap atrakta mosquito lure">Compare Atrakta lure refills on Amazon.ca →</BuyLink></p>
+
+          <h2 id="bulb-replacement">DynaTrap Bulb Replacement: LED Models vs Legacy Fluorescent</h2>
+          <p><strong>This depends entirely on which generation you own, and most guidance online gets it wrong by treating the whole range as one product.</strong> The current US outdoor line is LED. The older line is fluorescent. Only one of those two has a bulb you buy.</p>
+          <div className="not-prose my-6 overflow-x-auto rounded-xl border border-navy-100 shadow-sm">
+            <table className="min-w-[560px] w-full text-sm">
+              <thead className="bg-brand-800 text-white">
+                <tr>
+                  <th className="px-4 py-3 text-left">Your unit</th>
+                  <th className="px-4 py-3 text-left">Replacement bulb</th>
+                  <th className="px-4 py-3 text-left">Cadence</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  ['Current LED outdoor line (DT2030, DT1130SR, DT030)', 'None — the LED array is not a user-replaceable consumable', 'No bulb budget. Budget for Atrakta lures instead'],
+                  ['DT2000XL / DT2000XLP series', '32050', 'Start of each season of continuous use'],
+                  ['Half-acre fluorescent models (DT1050 family)', '41050', 'Start of each season of continuous use'],
+                  ['DT1700 series (incl. DT1750, DT1775)', '43050', 'Start of each season of continuous use'],
+                  ['Flylight indoor unit', '21050', 'Start of each season of continuous use'],
+                ].map(([unit, bulb, cadence]) => (
+                  <tr key={unit} className="border-b border-navy-50 last:border-0">
+                    <td className="px-4 py-3 font-semibold text-brand-800 bg-brand-50 align-top">{unit}</td>
+                    <td className="px-4 py-3 font-mono text-gray-800 align-top">{bulb}</td>
+                    <td className="px-4 py-3 text-gray-700 align-top">{cadence}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p>Why the cadence matters on a fluorescent unit: <strong>UV output falls long before the tube stops lighting up</strong>. A bulb that still looks like it is working can be putting out roughly half its original ultraviolet intensity, and since UV intensity is the entire attraction mechanism, a visibly-fine bulb can quietly halve the catch. That is why the replacement schedule is written against hours of operation rather than failure. It is also why owners in long-season US regions — where a unit may run nine to twelve months instead of five — hit the replacement point roughly twice as fast as a Canadian owner does.</p>
+          <p>If you own an LED unit and someone tells you to budget for annual bulbs, they are describing the previous generation of this product. Spend that money on lures.</p>
+          <p className="not-prose text-sm text-gray-600 mb-6"><BuyLink tag={AMZ_TAG} search="dynatrap replacement bulb">Check DynaTrap replacement bulbs on Amazon.ca →</BuyLink></p>
+
+          <h2 id="us-mosquito-species">US Mosquito Species: Why a UV Trap Misses the One That Matters Most</h2>
+          <p>The Canadian sections above talk about &ldquo;mosquitoes&rdquo; as one category. In the United States the species question is the whole argument, and it makes the case against a UV trap <em>stronger</em>, not weaker.</p>
+          <p>According to the <strong>CDC</strong>, over 200 types of mosquito live in the continental United States and US territories, and about 12 of them spread germs that can make people sick. Those dozen are not distributed evenly, and they do not respond to light in the same way:</p>
+          <div className="not-prose my-6 overflow-x-auto rounded-xl border border-navy-100 shadow-sm">
+            <table className="min-w-[660px] w-full text-sm">
+              <thead className="bg-brand-800 text-white">
+                <tr>
+                  <th className="px-4 py-3 text-left">Genus</th>
+                  <th className="px-4 py-3 text-left">Where in the US</th>
+                  <th className="px-4 py-3 text-left">What the CDC associates it with</th>
+                  <th className="px-4 py-3 text-left">How a UV trap performs against it</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  ['Culex (Cx. pipiens, tarsalis, quinquefasciatus)', 'Across the continental US', 'West Nile virus — the most common mosquito-borne disease in the continental US — and St. Louis encephalitis', 'Worst case. Night-active, hunts by CO₂ and body odour, weakly phototactic'],
+                  ['Aedes (Ae. aegypti, Ae. albopictus)', 'FL, HI, TX, Puerto Rico, USVI, American Samoa; Ae. albopictus expanding north', 'Dengue, chikungunya, Zika', 'Poor. Day-biting and odour-driven; a night-weighted light trap misses its active window'],
+                  ['Anopheles (An. freeborni, An. quadrimaculatus)', 'Most of the continental United States', 'Malaria', 'Poor. Crepuscular and odour-driven'],
+                  ['Regional vectors (EEE, La Crosse, Jamestown Canyon, Cache Valley)', 'Region-specific; CDC tracks each', 'Encephalitic and febrile illness', 'No mechanism by which UV attraction would preferentially select them'],
+                ].map(([genus, where, disease, uv]) => (
+                  <tr key={genus} className="border-b border-navy-50 last:border-0">
+                    <td className="px-4 py-3 font-bold text-brand-800 align-top">{genus}</td>
+                    <td className="px-4 py-3 text-gray-700 align-top">{where}</td>
+                    <td className="px-4 py-3 text-gray-700 align-top">{disease}</td>
+                    <td className="px-4 py-3 text-gray-700 align-top">{uv}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p>Read the first row again, because it is the sharpest version of everything on this page. <strong>The mosquito that carries the most common mosquito-borne disease in the continental United States is the one a light trap is worst at catching.</strong> Culex hunts by carbon dioxide and body odour in the dark; a device whose sole long-range signal is ultraviolet light is bidding in a currency Culex does not spend. The trap will still fill with moths. It is not selecting for the genus that matters.</p>
+          <p>The practical consequence: if your reason for buying is disease risk rather than nuisance, a UV trap is not the tool. Source reduction (eliminating standing water, since Culex breeds readily in containers and catch basins), personal repellent use, and a residual treatment of the resting vegetation are the interventions that act on the actual vector. In Canada the same logic applies with a narrower species list; in the US it applies with a longer one and a longer season.</p>
+
+          <h2 id="us-season-length">When to Run a DynaTrap: US Regional Seasons vs the Canadian May–September Window</h2>
+          <p>Elsewhere on this page the operating maths is computed against a <strong>May–September Canadian outdoor season</strong> — an October deep clean and indoor storage over winter. That is correct for Toronto, Ottawa, Calgary and most of the northern US tier. It is badly wrong for Houston, Tampa or Honolulu, and everything downstream of it — bulb life, lure count, running cost — is wrong by the same factor.</p>
+          <p>DynaTrap&rsquo;s own guidance is temperature-based rather than calendar-based: mosquitoes typically become active once conditions hold above roughly <strong>45°F (about 7°C)</strong>. Use that, and the regional picture looks like this:</p>
+          <div className="not-prose my-6 overflow-x-auto rounded-xl border border-navy-100 shadow-sm">
+            <table className="min-w-[620px] w-full text-sm">
+              <thead className="bg-brand-800 text-white">
+                <tr>
+                  <th className="px-4 py-3 text-left">Region</th>
+                  <th className="px-4 py-3 text-left">Typical active window</th>
+                  <th className="px-4 py-3 text-left">Months running</th>
+                  <th className="px-4 py-3 text-left">What that changes</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  ['South Florida', 'From early February', '10–12', 'Effectively year-round. Lure budget roughly doubles vs the northern tier'],
+                  ['Gulf Coast, Florida, Hawaii', 'February – November, year-round in places', '9–12', 'Fluorescent bulbs hit the replacement point about twice as fast'],
+                  ['Texas, Louisiana', 'From early March', '8–10', 'No winter storage step; plan a mid-season deep clean instead'],
+                  ['Northeast (NY, NJ, PA, New England)', 'April – October, peak mid-May to late June', '6–7', 'Closest US analogue to the Canadian cadence, shifted a month earlier'],
+                  ['Northern tier / Upper Midwest', 'May – September, ends at first frost', '5', 'Matches the Canadian schedule used elsewhere on this page'],
+                  ['Canada (GTA and most of southern Ontario)', 'May – September', '5', 'The baseline the Canadian costings above assume'],
+                ].map(([region, window, months, effect]) => (
+                  <tr key={region} className="border-b border-navy-50 last:border-0">
+                    <td className="px-4 py-3 font-bold text-brand-800 align-top">{region}</td>
+                    <td className="px-4 py-3 text-gray-700 align-top">{window}</td>
+                    <td className="px-4 py-3 font-mono text-gray-800 align-top">{months}</td>
+                    <td className="px-4 py-3 text-gray-700 align-top">{effect}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p>Two consequences worth planning for. First, <strong>the recurring cost is proportional to season length, not to the purchase price</strong>. A Tampa owner buying the $79.99 half-acre unit will spend more on lures across two years than the unit cost. Second, the &ldquo;store it dry indoors over winter&rdquo; step in the maintenance section above simply does not apply in the Gulf states — substitute a mid-season teardown and deep clean at the point where a northern owner would be packing the unit away, because a fan and basket that have run eight months continuously will be carrying enough debris to cut airflow noticeably.</p>
+
+          <h2 id="epa-device-exemption">Why the EPA Never Tested Your DynaTrap</h2>
+          <p>This is a US-only regulatory point, and it explains something that confuses a lot of buyers: how a device can be sold nationwide as a mosquito trap without anyone having verified that it reduces mosquito bites.</p>
+          <p>Under <strong>FIFRA</strong> (the Federal Insecticide, Fungicide, and Rodenticide Act), the EPA draws a line between a <em>pesticide</em> and a <em>pesticide device</em>. A pesticide contains an active ingredient and must be registered with the EPA before sale, which means submitting efficacy and safety data for review. A <strong>device</strong> kills or traps pests by physical or mechanical means — light, suction, electrocution, sound — and contains no active ingredient. Devices are <strong>exempt from EPA product registration</strong>.</p>
+          <p>Exempt does not mean unregulated. A device must be produced in an EPA-registered establishment, must bear an EPA establishment number, and the manufacturer must hold data supporting any efficacy claims it makes. Device labelling is also restricted in a specific and revealing way: an exempt device may not link a pest to a particular disease. A label may say it controls mosquitoes; it may not say it controls mosquitoes that transmit West Nile virus.</p>
+          <p>What is absent from that list is any <strong>pre-market EPA review of whether the thing works</strong>. There is no agency sign-off on the efficacy claim. Nobody at the EPA ran a trial. That is not a scandal — it is how the statute is written, and it applies equally to every bug zapper, ultrasonic repeller and suction trap on the US market. But it does mean that a phrase like &ldquo;EPA registered establishment&rdquo; on a box is a statement about the <em>factory</em>, not an endorsement of the product, and it is why the university and AMCA data cited above is the evidence that actually matters. In Canada, a device like this similarly falls outside the Pest Control Products Act registration stream that governs registered insecticides — which is why the Health Canada&ndash;approved products we use professionally, and a UV trap, are not in the same regulatory category at all.</p>
+
+          <h2 id="us-ticks">Ticks in the United States: The Gap No DynaTrap Touches</h2>
+          <p>The tick point is made in Canadian terms above. It lands harder with the US numbers, so here they are.</p>
+          <p>Ticks do not fly. They are not drawn to ultraviolet light. They cannot be vacuumed out of the air. They sit on vegetation with their front legs extended — questing — and transfer onto whatever brushes past. <strong>No trap of this type has any effect on them whatsoever, in any country.</strong> That is not a criticism of DynaTrap specifically; it is a category boundary, and it matters because in much of the US the tick is the more consequential of the two pests.</p>
+          <ul>
+            <li><strong>Blacklegged tick (<em>Ixodes scapularis</em>)</strong> — the Lyme vector across the Northeast, Mid-Atlantic and Upper Midwest, with its range expanding south, west and north.</li>
+            <li><strong>Western blacklegged tick (<em>Ixodes pacificus</em>)</strong> — the Lyme vector along the Pacific coast.</li>
+            <li><strong>Lone star tick (<em>Amblyomma americanum</em>)</strong> — across the Eastern, Southeastern and South-Central states and moving north aggressively.</li>
+          </ul>
+          <p>On scale, the <strong>CDC</strong> reports over <strong>89,000 Lyme disease cases</strong> submitted by state health departments in 2023, while other CDC estimation methods based on insurance and laboratory data put the number of people <strong>diagnosed and treated for Lyme disease at approximately 476,000 each year</strong> in the United States. The gap between those two figures is the gap between what gets formally reported and what actually happens in clinics.</p>
+          <p>What does work on ticks is treating the environment they live in: the shaded, humid perimeter — leaf litter, the woodland edge, tall grass, ground cover and stone walls — rather than the open lawn, plus a physical barrier of wood chip or gravel between woods and yard, and keeping leaf litter cleared. That is a ground-level, vegetation-level application, which is why <strong>our own tick program is five treatments per season</strong>, timed to the nymph and adult activity peaks rather than sprayed once and forgotten. It is also why a trap and a tick program are not alternatives to one another — they do not overlap at any point.</p>
+          <p className="not-prose my-6 rounded-xl bg-emerald-50 border-l-4 border-emerald-500 p-5 text-sm text-gray-800 leading-relaxed">
+            <strong>Where BuzzSkito fits:</strong> we are a licensed mosquito and tick control company serving 19 cities across the Greater Toronto Area — Mississauga, Toronto, Brampton, Oakville, Burlington, Hamilton and beyond — with 150+ five-star Google reviews. If you are in the GTA, our <Link href="/mosquito-control">barrier spray program</Link> covers the whole property with a 21&ndash;30 day residual and our tick program runs five treatments a season. If you are reading from the United States, we cannot treat your yard, but everything on this page about what a UV trap does and does not do applies to you exactly as written — and a local licensed applicator can do the same work.
+          </p>
 
           <h2>Related Reading</h2>
           <ul>

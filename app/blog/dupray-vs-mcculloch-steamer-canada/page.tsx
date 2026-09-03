@@ -101,7 +101,7 @@ export default function DuprayVsMccullochSteamerCanadaPage() {
       </section>
 
       <AffiliateDisclosure />
-      <StickyBuyBar tag={AMZ_TAG} name="Dupray Neat steam cleaner" asin="B07C44DM6D" search="dupray neat steam cleaner" label="Bed-bug winner" />
+      <StickyBuyBar tag={AMZ_TAG} name="Dupray Neat steam cleaner" search="dupray neat steam cleaner" label="Bed-bug winner" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -198,6 +198,25 @@ export default function DuprayVsMccullochSteamerCanadaPage() {
 
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
+          <div className="not-prose bg-red-50 border-2 border-red-300 rounded-xl p-5 my-6">
+            <p className="text-xs font-extrabold uppercase tracking-wider text-red-700 mb-2">Safety recall &mdash; stop using this machine</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed">
+              Health Canada and the US CPSC recalled the <strong>Dupray Neat Steam Cleaner</strong> on 26 February 2026 over a <strong>burn hazard</strong>. If the boiler is overfilled or corroded and the pressure-release cap also fails, the boiler can rupture. As of 20 January 2026 Dupray had logged <strong>15 boiler ruptures and four injuries</strong>, including burns, lacerations and a broken wrist, plus seven reports of property damage. Roughly <strong>97,000 units were sold in Canada</strong> and 651,000 in the United States.
+            </p>
+            <p className="text-gray-800 text-[15px] leading-relaxed mt-2">
+              Affected units are model <strong>DUP020WNA</strong> with batch codes <strong>0118-01 through 0425-05</strong>, printed on the sticker at the base in MMYY-XX format. Codes 0525-XX and later are not affected. Health Canada&rsquo;s guidance is to <strong>stop using it immediately</strong> and contact Dupray for a free replacement boiler cap.
+            </p>
+            <p className="text-gray-800 text-[15px] leading-relaxed mt-2">
+              <a href="https://recalls-rappels.canada.ca/en/alert-recall/dupray-neat-steam-cleaner-recalled-due-burn-hazard" rel="nofollow noopener noreferrer" target="_blank" className="font-semibold underline decoration-red-400 underline-offset-2">Health Canada recall notice</a>
+              {' '}&middot;{' '}
+              <a href="https://www.dupray.com/recall" rel="nofollow noopener noreferrer" target="_blank" className="font-semibold underline decoration-red-400 underline-offset-2">Dupray recall page</a>
+              {' '}&middot;{' '}
+              <a href="https://cpsc.gov/Recalls/2026/Dupray-USA-Recalls-Neat-Steam-Cleaners-Due-to-Risk-of-Burn-Hazards-or-Serious-Injury" rel="nofollow noopener noreferrer" target="_blank" className="font-semibold underline decoration-red-400 underline-offset-2">US CPSC notice</a>
+            </p>
+            <p className="text-sm text-gray-600 mt-2">
+              We have removed our direct product link to this machine. Amazon does not let a buyer choose a batch code, so we cannot point you at unaffected stock.
+            </p>
+          </div>
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
 
           <h2>Dupray Neat vs McCulloch MC1275: The Short Version</h2>
@@ -250,7 +269,7 @@ export default function DuprayVsMccullochSteamerCanadaPage() {
             label="Winner — Best for Bed Bugs"
             name="Dupray Neat Steam Cleaner"
             blurb="The Dupray Neat wins the head-to-head for bed bugs. Its stainless-steel boiler delivers hotter, drier, more sustained vapour and a long continuous run, so you can hold a killing temperature at the fabric surface through a whole-room job without fighting refills or over-wetting the mattress. It is the premium, pest-focused choice — and the one that forgives imperfect technique. The McCulloch MC1275 remains the better-value all-round household cleaner if bed bugs are a secondary concern."
-            asin="B07C44DM6D"
+           
             search="dupray neat steam cleaner"
             score={9.1}
             pros={['Stainless-steel boiler holds heat', 'Dry vapour — kills eggs, dries fast', 'Long continuous run for whole-room jobs', 'Canadian-founded — easy warranty support']}

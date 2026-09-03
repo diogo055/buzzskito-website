@@ -105,7 +105,7 @@ export default function BedBugHeaterCanadaPage() {
       </section>
 
       <AffiliateDisclosure />
-      <StickyBuyBar tag={AMZ_TAG} name="ZappBug Oven 2 heat chamber" search="zappbug oven 2 bed bug heater" label="Best overall" />
+      <StickyBuyBar tag={AMZ_TAG} name="ZappBug Oven 2 heat chamber" search="zappbug oven 2 bed bug heater" asin="B00JU5G1PY" label="Best overall" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -136,6 +136,7 @@ export default function BedBugHeaterCanadaPage() {
                 name: 'ZappBug Oven 2 Heat Chamber',
                 why: 'The mid-size chamber that hits the sweet spot: big enough for checked luggage, boxes, bedding, and small furniture, hot enough to hold 49°C+ at the core, and collapsible flat between infestations and trips.',
                 search: 'zappbug oven 2 bed bug heater',
+                asin: 'B00JU5G1PY',
                 score: 9.0,
                 featured: true,
                 pros: ['Kills all life stages including eggs in one cycle', 'Fits luggage, boxes, bedding, small furniture', 'Folds flat for storage; reusable for years'],
