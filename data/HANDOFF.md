@@ -217,8 +217,19 @@ got nothing (rats chew through insect mesh — a "screen door for exclusion" lin
 actively wrong). The `advion` dehumidifier link was added by the writer and **removed by the
 auditor**: roaches drink liquid water from a leak, not ambient humidity.
 
-**Gap found: `/blog/best-air-purifier-for-allergies-canada` does not exist.** 11,226 US +
-3,300 CA monthly searches, $150–600 basket. Worth building.
+**~~Gap found: air purifier page~~ — CORRECTED 2026-09-03. Do NOT rebuild it.** The agents
+were right that it does not exist, and I was wrong to call it a gap. Eight air-purifier and
+appliance pages were **deliberately retired** on 2026-07-27 (commit `a63d273`) as "off-moat":
+
+> "These 8 posts drifted into generic consumer air-quality/allergy appliance reviews — a
+> category BuzzSkito, a licensed mosquito & tick control company, has no business publishing."
+
+That is a sound E-E-A-T decision — the site's defence against reading as a thin affiliate
+shell is that it is a genuine licensed service business. The retired URLs still show 7,330
+residual impressions in GSC (allergies 5,287, large-room 1,195, hepa-vacuum 848) at 0.3% CTR,
+308-redirecting to `/pest-product-guides`. That is the redirect doing its job on decaying
+URLs, not a bug. **Leave it. Rebuilding would undo deliberate moat work for a $150–600
+basket in a category with no service tie.**
 
 ## 10. Needed from the owner
 
