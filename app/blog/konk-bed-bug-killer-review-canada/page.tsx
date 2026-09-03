@@ -101,7 +101,7 @@ export default function KonkBedBugKillerReviewCanadaPage() {
       </section>
 
       <AffiliateDisclosure />
-      <StickyBuyBar tag={AMZ_TAG} name="Konk Bed Bug Killer aerosol" search="konk bed bug killer aerosol" label="Our verdict: 7.4/10" />
+      <StickyBuyBar tag={AMZ_TAG} name="Konk Bed Bug Killer aerosol" search="konk bed bug killer aerosol" asin="B07CGRLRNV" label="Our verdict: 7.4/10" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -129,6 +129,7 @@ export default function KonkBedBugKillerReviewCanadaPage() {
             name="Konk Bed Bug Killer — the Canadian-legal contact aerosol"
             blurb="Konk is the aerosol to reach for when your priority is a registered, Canadian-made product you can actually buy off a shelf rather than smuggle across the border. As a contact insecticide it does its core job well: spray a bed bug you can see and it goes down fast. What holds the score back is nothing unique to Konk and everything about the category — it is pyrethrin/pyrethroid chemistry, so the resistant bugs you don't hit directly may shrug it off, it won't reliably kill eggs cemented in seams, and a surface spray can't reach the harbourage where an infestation actually lives. Bought and used for what it is — legal knockdown and spot treatment inside a layered plan — it is a sound, honest pick. Bought as a one-can cure for an established infestation, it will disappoint, as every consumer spray does."
             search="konk bed bug killer aerosol"
+            asin="B07CGRLRNV"
             cta="Check price on Amazon.ca"
             score={7.4}
             pros={['PMRA-registered and Canadian-made — fully legal retail purchase', 'Fast, effective contact knockdown on bugs you spray directly', 'Widely available at Canadian stores — no grey-market importing', 'A reviewed label with defined safe-use directions to follow']}

@@ -225,6 +225,16 @@ export default function MosquitoMagnetVsDynatrapCanadaPage() {
 
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
+          <div className="not-prose bg-amber-50 border border-amber-300 rounded-xl p-4 my-6 text-[15px] leading-relaxed text-gray-800">
+            <p className="text-xs font-extrabold uppercase tracking-wider text-amber-800 mb-2">Buying used? Check the serial number</p>
+            <p>
+              A 2018 CPSC recall (18-114) covered part of the Mosquito Magnet line &mdash; Patriot/Patriot Plus, Independence, Executive and Commander &mdash; but only units built December 2014 to December 2016, serials <strong>PT01438&ndash;PT01642</strong> and <strong>EX01444&ndash;EX01637</strong>. The hazard was cleaning the trap <em>while it was still running</em> with a Quick Clear Cartridge kit, which could damage the gas regulator. One incident, no injuries. Later units carry a brass check valve on the gas hose and are unaffected.
+            </p>
+            <p className="mt-2">
+              Worth knowing second-hand, since a serial is not visible before purchase. Woodstream still offers the free regulator repair.{' '}
+              <a href="https://www.cpsc.gov/Recalls/2018/Woodstream-Recalls-Mosquito-Magnet-Traps-Due-to-Injury-Hazard" rel="nofollow noopener noreferrer" target="_blank" className="font-semibold underline decoration-amber-500 underline-offset-2">CPSC notice</a>. Note the same machine carries different model numbers in each country &mdash; Executive is MM3300 in the US and MM3302 in Canada &mdash; so match on the machine, not the code.
+            </p>
+          </div>
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
 
           <h2>Mosquito Magnet vs DynaTrap: The One Difference That Decides Everything</h2>

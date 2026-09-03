@@ -3097,3 +3097,1047 @@ The wave-4 auditor caught it. The pinning agent did not, because nothing on Amaz
 Also relevant: `best-wasp-nest-spray-canada` recommends Raid Max Wasp & Hornet Foam Bug
 Killer 2 (PCP 30746), also under an active Health Canada recall for leaking cans. That page
 now carries a recall notice.
+
+---
+
+## Wave 5 — batch C, 2026-09-03 (3 pages assessed, **0 pinned, 3 skipped**)
+
+Assigned: `best-bed-bug-spray-for-mattress-canada`, `best-thermal-fogger-canada`,
+`how-to-get-rid-of-cluster-flies-canada`. All three exist on disk. **No file was
+modified.** Every hero failed at the identity stage, so none reached the pin stage —
+and therefore none reached the recall gate either. Recorded honestly below: an
+unrun recall check is logged as unrun, not as a pass.
+
+| Page | Hero as written | Action | Reason | Recall check |
+|---|---|---|---|---|
+| best-bed-bug-spray-for-mattress-canada | EcoRaider Bed Bug Killer Spray | **skipped** | Brand absent from amazon.ca — re-confirmed live | n/a — no candidate reached pin stage |
+| best-thermal-fogger-canada | Longray Pulse-Jet Thermal Fogger | **skipped** | Longray sells only **cold ULV** foggers on amazon.ca; no thermal/pulse-jet unit exists there | n/a — no candidate reached pin stage |
+| how-to-get-rid-of-cluster-flies-canada | "Clear window fly traps" | **skipped** | Class-named hero, no brand in the editorial | n/a — no candidate reached pin stage |
+
+### 1. best-bed-bug-spray-for-mattress-canada — EcoRaider absent (skip)
+
+Hero is `StickyBuyBar name="EcoRaider Bed Bug Killer Spray (plant-based, mattress-safe)"`
+(line 144) plus the `featured: true` award card (line 172), both on
+`search="ecoraider bed bug killer spray"`.
+
+Live on amazon.ca 2026-09-03, two queries:
+- `ecoraider bed bug killer spray` → 24 results, **zero EcoRaider**. Shelf is Raid,
+  OnGuard, Ortho, KNOCK DOWN, KONK, ECOPEST, ECOGUARD.
+- `ecoraider` (bare brand) → **zero EcoRaider**, no "did you mean". Amazon returns
+  phonetically adjacent house brands: ECOGUARD, ECOPEST.
+
+Independently reproduces the standing wave-1 finding and the wave-4 auditor's
+recount. The article's #2 pick (Doktor Doom Sleep Tight) *is* Canadian-registered and
+likely stockable, **but it is not the hero** — pinning it would require moving the
+StickyBuyBar and the featured badge off EcoRaider, which is an editorial verdict
+change (rule 5) and outside the hero-only mandate (rule 3). Left as a search link.
+
+### 2. best-thermal-fogger-canada — right brand, wrong machine class (skip)
+
+Hero is `StickyBuyBar name="Longray pulse-jet thermal fogger"` (line 155) plus the
+`featured: true` award card "Longray Pulse-Jet Thermal Fogger" (line 168),
+`search="longray thermal fogger"`.
+
+**Longray is on amazon.ca — but only as a ULV cold-fogger brand.** Every Longray
+listing found:
+
+| ASIN | Title | Class |
+|---|---|---|
+| B0BF447GF5 | Longray **Q100 ULV Fogger** w/Adjustable Flow — $232.14, 3.7★ (6) | cold ULV |
+| B0C7LYMPWH | Longray **Basic ULV Fogger** with Adjustable Flow & Flex-Hose — $577.66, only 2 left | cold ULV |
+
+Queries run: `longray thermal fogger` (2 organic results — the Q100 and an unrelated
+Ranger bed bug heater), `longray fogger` (the two ULV units above and nothing else
+Longray), `longray pulse jet thermal fogger TF-35` (no Longray at all; Amazon falls
+back to a Bonide propane fogger and a generic LPG fumigation sprayer).
+
+This is a **trap worth naming for future waves**: the brand matches, the word "fogger"
+matches, and the $577 unit even sits inside the article's stated $500–$1,200 pro band.
+It is still the wrong product. This very page's FAQ #2 and its Quick Answer draw the
+thermal-vs-ULV line explicitly — *"A cold ULV fogger uses air pressure or a high-speed
+impeller instead of heat"* — and the page links out to a separate
+`/blog/best-ulv-cold-fogger-canada` guide for exactly that category. Pinning a Longray
+ULV to a hero labelled "pulse-jet thermal" would route the reader to the machine the
+article sends elsewhere, and would silently contradict the page's own teaching. Textbook
+near-miss substitute; worse than the search link. Skipped.
+
+Same failure shape as the yellow-jacket lure error recorded above: judged on what the
+product **is**, not on whether the brand string matched.
+
+### 3. how-to-get-rid-of-cluster-flies-canada — class-named hero (skip)
+
+Hero is `StickyBuyBar name="Clear window fly traps (for cluster flies at the glass)"`
+(line 104) and the matching `TopPick name="Clear window fly traps"` (line 131),
+`search="window fly trap clear sticky"`. The editorial names **no brand anywhere** — the
+blurb describes a format ("clear, sticky window trap", "the film disappears against the
+glass"), and the pros/cons are category properties.
+
+The amazon.ca shelf confirms why this must stay a search: it is an undifferentiated
+white-label commodity aisle — "60 Pack Window Fly Traps", "80 pcs Window Fly Traps",
+"40PCS Window Fly Trap Sticker", plus Kensizer and Coremaster. No listing is the
+product the article means, because the article means the *category*. Picking one
+would invent a brand recommendation the editorial never made.
+
+Same rule as the standing "Picaridin Insect Repellent" / "no-see-um mesh" /
+"Hydrocortisone 1%" / "Pet-hair vacuum" skips.
+
+### Batch result
+
+`npx tsc --noEmit` → **exit 0**, clean. `git status` confirms none of the three target
+files is modified (the one dirty blog file, `best-natural-bed-bug-spray-canada`, belongs
+to a concurrent agent). Zero pins is the correct outcome for this batch, consistent with
+the documented ~70% un-pinnable rate.
+
+---
+
+## Wave 5 — batch D, 2026-09-03 (3 pages assigned, **0 pinned, 3 skipped**)
+
+Assigned: `mosquito-magnet-vs-dynatrap-canada`, `best-ant-killer-outdoor-canada`,
+`best-mosquito-net-canada`. **Only one of the three exists on disk.** **No file was
+modified.**
+
+The one real page is the first case in this pilot where a hero passed every Amazon-side
+check and was then stopped by the recall gate. It is the Dupray scenario repeating, in a
+product category where the failure mode is a pressurised propane regulator.
+
+| Page | Hero as written | Action | Reason | Recall check |
+|---|---|---|---|---|
+| mosquito-magnet-vs-dynatrap-canada | Mosquito Magnet (propane CO₂ trap) | **skipped** | Entire Mosquito Magnet machine line is under an open recall-to-repair; hero also names no model | **RUN — recall found.** CPSC 2018 + Woodstream Canada notice (canadamosquito.com/recall). Health Canada DB: no listing |
+| best-ant-killer-outdoor-canada | — | **skipped** | Page does not exist | n/a — never reached pin stage |
+| best-mosquito-net-canada | — | **skipped** | Page does not exist | n/a — never reached pin stage |
+
+### 1. mosquito-magnet-vs-dynatrap-canada — recall gate stop (skip)
+
+Hero is `StickyBuyBar name="Mosquito Magnet (propane CO₂ trap)" search="mosquito magnet trap"`
+(line 102). Two Mosquito Magnet *machines* exist on amazon.ca and both looked pinnable:
+
+| ASIN | Amazon title | Item model number | State |
+|---|---|---|---|
+| B07QFNSC8Z | Mosquito Magnet **MM3300B** Executive — Protect Up to 1 Acre | **MM3302B** | In Stock, $1,135.99, 3.1★ (91) |
+| B07QJY2NL1 | Mosquito Magnet **MM4202B** Patriot Plus — Protects Up to 1 Acre | **MM4202B** | Ships in 3–5 days, $416.00, 3.4★ (400) |
+
+**The recall.** Woodstream recalled the Mosquito Magnet trap line (CPSC, 2018-03-06,
+~28,000 units US; Canadian notice dated 2018-03-07 at canadamosquito.com/recall). Cleaning
+a powered-on trap with the Quick Clear Cartridge kit can **damage the propane regulator and
+propel broken pieces**, an injury hazard. Remedy is a free regulator-hose repair, arranged
+only through Woodstream — "repair is not available in stores." The manufacturer still hosts
+the remedy page live at mosquitomagnet.com/recalltorepair, so the remedy is **open**.
+
+The Canadian notice lists the affected models by their **Canadian** designations:
+
+> Patriot/Patriot Plus (MM4102/**MM4202**) · Independence (MM3202) · Executive (**MM3302**)
+
+**Both amazon.ca machines match that list on the model-number field exactly.** The Executive
+listing is the sharper trap: its *title* reads MM3300B (the US catalogue number, which is
+**not** on the Canadian list), while its `Item model number` field and canonical URL slug
+both read **MM3302B**, which **is**. Reading the title alone would have cleared it.
+
+This is the yellow-jacket error run in reverse, and worth stating plainly for the next
+agent: there, an agent read an *absent* suffix as proof of safety. Here the title's model
+number is the one that looks clean and the spec field carries the recalled one. **Do not
+clear a product on the strength of the model number that happens to be printed in the
+title.** Check every model-number surface on the listing.
+
+**Why serial-bounding does not rescue the pin.** The recall is bounded to units manufactured
+2014–2016 (Executive EX01444–EX01630, Patriot Plus PT01438–PT01642), so new stock is in
+principle outside it. That argument fails on the only ground that matters: **the serial of
+the unit Amazon would actually ship is not visible from the listing, and never will be.**
+That is the entire premise of rule 2. Both listings are aged inventory of a wound-down line
+(Patriot Plus first listed May 2019, still only "ships within 3 to 5 days"), which makes
+old-stock exposure a live possibility rather than a hypothetical. Pinning would be a bet on
+an unverifiable serial, against a propane-regulator rupture hazard.
+
+**No substitute exists.** The recall covers Patriot/Patriot Plus, Independence, Executive
+*and* Commander — the whole machine line. The only non-recalled Mosquito Magnet items on
+amazon.ca are the OCTENOL3CAN attractant (B0…, $49.96) and a Patriot Plus replacement net
+(B07FQ2MK7N) — consumable accessories, not the hero product. Pinning the DynaTrap DT2000XL
+into the hero slot instead was rejected: it is the article's *runner-up on a different axis*
+(quiet/cheap general insect catch), and the page's verdict is explicit that it is **not** the
+mosquito-reduction pick. Swapping it into the hero would invert the editorial verdict —
+rules 5, 8 and 9.
+
+**Second, independent reason to skip.** Even with no recall, this hero names no model:
+"Mosquito Magnet (propane CO₂ trap)". The article deliberately declines to choose, saying the
+line "spans several models — Patriot Plus, Independence, and the top-end Executive" and
+routing model selection to `/blog/mosquito-magnet-canada`. Pinning would invent an editorial
+decision the page consciously withheld — the class-named-hero rule.
+
+**Recommended follow-up (not done here — outside a pinning agent's remit):** the page sells a
+propane trap line under an open recall-to-repair without saying so. Consider a recall notice,
+as `best-wasp-nest-spray-canada` already carries for the Raid Max foam.
+
+### 2–3. best-ant-killer-outdoor-canada, best-mosquito-net-canada — do not exist
+
+Neither slug exists under `app/blog/`. Near-neighbours **were** left alone by design, since
+concurrent agents may hold them: `best-ant-killer-canada`, `best-ant-traps-canada`,
+`mosquito-net-canada`, `best-gazebo-with-mosquito-net-canada`. Assigned slugs are matched
+exactly, never fuzzily.
+
+`npx tsc --noEmit` → **exit 0**, clean. `git status` confirms no target file modified.
+
+---
+
+## Wave 5 — cimexa / ant-trap / flea-spray batch (2026-09-03)
+
+**Result: 0 pinned, 3 skipped.** All three heroes fail for reasons the method already
+anticipates: one product does not exist on amazon.ca, and two heroes are class-named.
+Recall checks were still run on the two real candidate products found behind the
+class-named heroes, so a future wave does not have to redo that work.
+
+### Skipped — search link kept (3 pages)
+
+| Page | Reason | Recall check |
+| --- | --- | --- |
+| cimexa-bed-bug-review-canada | **CimeXa is not sold on amazon.ca — nothing to pin.** Checked 2026-09-03 on three queries: the page's own `cimexa insecticide dust` returns **54 results, zero CimeXa**; the bare brand query `cimexa` returns **23 results, zero CimeXa**; and `rockwell labs cimexa silica gel dust` returns **1 result — a rubber gasket seal (B0HG7DTHKX)**. The shelf the reader actually lands on is Knock Down / Doktor Doom / Ortho **diatomaceous earth**, OnGuard & ECOGUARD permethrin jugs, Raid bed bug aerosol, and bulb dusters. DE is the obvious near-miss substitute and is **expressly disqualified**: the article's own comparison table ranks DE below CimeXa ("Slower… needs a heavier deposit than silica gel"), so pinning it would recommend a worse product and contradict the page's central verdict. Independently corroborates the `crossfire-bed-bug-concentrate-review-canada` skip note above, which found the same 23-result, zero-CimeXa shelf on 2026-08-31. **Editorial flag for Diogo (not a link fix):** the FAQ "Is CimeXa available and legal in Canada?" states CimeXa "has appeared on Amazon.ca", and the TopPick pros list claims "Legitimate Canadian retail availability — no grey-market importing". Amazon.ca now clearly does not stock it, and the earlier wave found no PMRA registration for Rockwell Labs CimeXa. On a page that repeatedly tells readers to buy the Canada-cleared version, those two claims should be re-verified against the PMRA registry. Prose left untouched per rule 5 | n/a — no ASIN reached |
+| best-ant-traps-canada | **Class-named hero, and no leak to fix.** The StickyBuyBar is `name="Enclosed liquid ant bait stations"` and the featured AwardCard is `name="Enclosed Liquid Ant Bait Stations (TERRO-style, domestic class)"` — "TERRO-style" and "domestic class" both mark this as a *category* pick, not a product pick. The card's own reasoning steers to physical shelves ("Widely stocked by Canadian hardware, grocery and big-box retailers… Check the pack for a Canadian PCP registration number"), and the body at line 357 states the page deliberately "describes the gel format but does not link one" for exactly this PCP reason. Pinning one SKU would silently convert a category recommendation into a single-vendor one — the `best-mosquito-repellent-device-canada` / `best-upholstery-steam-cleaner-canada` call. **Second, independent reason: there is no revenue leak here.** The `terro liquid ant baits` shelf is clean — positions 1–7 are all genuine Terro, and **position 1 is already the exact right product**: B014H8NZ7U, "TERRO Liquid Ant Bait Stations **T300CAN** — 6 Count", $9.98, 4.x★/10,027 ratings. The `CAN` suffix is the Canadian-registered SKU, i.e. the search link already satisfies the article's own PCP instruction. Whole shelf is $6–$20, so a pin cannot raise basket size either. Editorial cost, zero upside — skip. **If a future wave wants this page pinned, the editorial has to name a brand first**; B014H8NZ7U is then the verified candidate | **Run and clear.** recalls-rappels.canada.ca full-text "Terro" → *"No results found"*. cpsc.gov → only Woodstream recall on file is **Mosquito Magnet traps (2018)**, a different product line, not Terro ant bait |
+| best-flea-spray-for-home-canada | **Class-named hero — names no brand at all.** StickyBuyBar is `name="Home flea spray with an IGR (carpet & upholstery)"` and the featured AwardCard is `name="Home Flea Spray with an IGR (Methoprene or Pyriproxyfen)"`. The card does not recommend a product; it teaches a **label test** — "Look for an insect growth regulator in the active ingredients, a label that names fleas and lists carpets and upholstery, and a Canadian PCP registration number on the container" — and its own listed con is *"You must verify the PCP number yourself; listings cross-list US stock."* Pinning would answer the question the article deliberately hands to the reader, changing the verdict's scope without changing a word. Textbook rule-5 / class-hero skip. **Noted honestly: this is the one page in the batch where the shelf really is bad.** `flea spray home carpet upholstery igr` returns only 12 results, and after position 1 it collapses into non-flea products — OnGuard/ECOGUARD permethrin jugs, Raid *bed bug* aerosol, BISSELL carpet pre-treat, Hoover odour powder, **FOLEX carpet spot remover** ($47.39) and a **urine remover** ($58.70). A reader clicking an IGR flea spray can land on carpet stain remover. **Candidate for a future wave if the editorial is changed to name a brand:** position 1 is B0C9N2WDX9, **Zodiac Premise Plus 710 mL Home Spray**, $37.99, brand byline "Zodiac", 520 ratings — and it genuinely meets the article's stated test, its bullets reading "Kills Adult and pre-adult fleas in the home" and "Breaks and prevents the flea's development into the adult biting stage for up to 210 days" (an IGR claim). Not pinned today, because the hero names no brand | **Run and clear.** recalls-rappels.canada.ca full-text "Zodiac Premise" → zero relevant entries (the 2 hits are a Daimler truck recall and a BrightMatter Guide device). cpsc.gov → no Zodiac / Central Garden & Pet flea-spray recall; the aerosol-can recalls on file are **Zevo** (P&G, 2023) and **Maggie's Farm** (2023), different brands |
+
+**Method note for the next wave.** Two of these three skips were decided by *editorial shape*,
+not by Amazon availability — the products were in stock and easy to verify. The check that
+settles a class-named hero is not "does a good ASIN exist" (one usually does) but "does the
+page name a brand". Where it does not, the pin changes what the article says. Both candidate
+ASINs are recorded above with their recall checks already done, so if Diogo decides to name
+brands on either page, the verification work is banked.
+
+---
+
+## Wave 5 — wondercide / solar-zapper / bed-bug-lookalike batch (2026-09-03)
+
+**Result: 0 pinned, 3 skipped.** One product line is absent from amazon.ca, one hero is
+class-named over a white-label category, and one is a real brand whose only Canadian
+listings are reseller-marked-up. Recall checks were run on the two real candidate
+products before they were ruled out on other grounds, so that work is banked.
+
+### Skipped — search link kept (3 pages)
+
+| Page | Reason | Recall check |
+| --- | --- | --- |
+| wondercide-canada-review | **The hero product is not sold on amazon.ca — nothing to pin.** Hero is the StickyBuyBar `name="Wondercide Flea & Tick Spray (cedarwood + lemongrass)"` plus the matching `TopPick` (score 7.6), both on `search="wondercide flea and tick spray"`. Checked 2026-09-03 four ways: the brand-refined query `s?k=wondercide&rh=p_89%3AWondercide` returns **exactly 1 result** — *Wondercide Fly and Flying Insect Trap, 1 Plug-in Light and 1 Cartridge*, $46.05, 3.7★ (964), delivery **Sep 17–28**, sellers CRK GLOBAL / Meighen Island (both 3P import). The page's own query `wondercide flea and tick spray pets home cedarwood` returns **11 results, zero Wondercide** (K9 Advantix, Myco Pet, Pet Spray Deterrent, and two oven mitts). The bare query `wondercide` returns 54 results whose shelf is EcoGuard P-22, Citrobug and Aspectek. And both US spray ASINs resolve to **"Page Not Found" on .ca**: **B01M626UN6** (Flea Tick & Mosquito Spray, Cedarwood 16 oz) and **B01MF595UM** (same line, 32 oz). The one Wondercide item that does exist is a **plug-in indoor fly trap** — a different product category from a pet/home flea-and-tick pump spray, so pinning it would be the near-miss substitute the method forbids. Adds Wondercide's spray line to the confirmed-absent list. **Editorial note for Diogo (not a link fix):** the page's "Where to Buy in Canada" table and Quick Answer both say Wondercide is sold "mostly through third-party sellers on Amazon.ca"; as of today Amazon.ca carries none of the sprays, only the fly trap. Worth re-checking that section next edit. Prose left untouched per rule 5 | **Run and clear.** recalls-rappels.canada.ca full-text "wondercide" → *"No results found for your search 'wondercide'."* Moot for pinning, since no ASIN was reached |
+| best-solar-bug-zapper-canada | **Class-named hero over a genuinely white-label category.** StickyBuyBar is `name="4,500V dual-charge solar bug zapper (solar + USB-C)"` — **no brand at all** — and the featured AwardCard is `name="4,500V dual-charge solar zapper (PALONE-class)"`. As with "TERRO-style" and "domestic class" in wave 5's ant-trap skip, *"-class"* marks a category pick, not a product pick. The article says so itself at the top of the body: **"every solar bug zapper sold in Canada is the same recipe"** — panel, 1,200–2,400 mAh cell, UV LED, 600–4,500 V grid — so a pin would convert a deliberate category recommendation into a single-vendor one. **The shelf confirms the editorial.** `PALONE solar bug zapper` returns 174 results with **no PALONE-brand solar zapper in them**; the front page is rotating white-labels — an unbranded *"Solar Bug Zapper Outdoor, 4500V"* ($107.99), *"Electric Solar Bug Zapper for Outdoor"* ($159.99), *"Bug Zapper Outdoor Solar Powered, 4000V"* ($199.99), Endbug ($49.99), a 4-pack stake lamp ($54.99). Note those prices sit **outside the article's own stated legitimate band of $30–60**, so no front-page listing matches the page's spec *and* price claim anyway. **Rule 8 also blocks the fallback:** the verdict is openly skeptical ("near-useless on the mosquitoes that bite"), and the alternative it names instead — the plug-in **Flowtron BK-40D** — was verified **absent from amazon.ca** by a prior wave, so there is no genuinely-recommended substitute to pin either | n/a — no ASIN reached. No candidate product was identified to check, because no brand is named by the hero and none surfaced on the shelf |
+| bugs-that-look-like-bed-bugs-canada | **Real brand, but its only Canadian listings are reseller-marked-up and the stated pack size does not exist.** Hero is StickyBuyBar `name="ClimbUp bed bug interceptors (the confirm-or-rule-out device)"` + featured AwardCard *"ClimbUp-Style Bed Bug Interceptors (set of 4+)"*, on `search="climbup bed bug interceptor"`. Unlike the two above, genuine Climbup **is** on amazon.ca — but only in two forms, and both fail rule 1. **B00743B6ZE** *ClimbUp Insect Interceptor – Box (12 Traps)*: brand byline "Climbup", UPC 851700002005, unit count 12 — all correct — but **$111.03 ($9.25/count)**, **Shipper/Seller BERRYDEALS INC** (a reseller, not Amazon.ca and not the manufacturer), **only 6 left in stock**, 3.1★ on just **3 ratings**, delivery Sep 9–11. Solutions Pest & Lawn lists the ClimbUp Original at **US$3.69 each** (~CAD $5), and the US Amazon 12-box runs ~US$30–40, so $9.25/cup is roughly **2–3× normal on a reseller-held buy box** — precisely the disqualifier in rule 1. The only other Climbup listing is a **144 ct bulk case**, $153.73, delivery **Sep 25 – Oct 19**. **There is no ClimbUp 4-pack on amazon.ca**, so the card's stated "(set of 4+)" quantity cannot be matched. **Substituting a generic is expressly worse:** the same shelf sells Bed Bug Blocker (Pro) 4-packs at $25.99, Aspectek 4-packs at $23.99 and TruGuard XL 4-packs at $35.99 — all cheaper and better-rated than the $111 Climbup — but the StickyBuyBar names **ClimbUp** specifically, so routing it to one of those is the near-miss substitute the method forbids, and pinning the $111 Climbup over $24 equivalents would violate rule 9 (never recommend worse value). Skip on both horns | **Run and clear, before the pricing ruled it out.** recalls-rappels.canada.ca full-text "climbup" → *"No results found."* Full-text "bed bug interceptor" → 216 items, **none an interceptor** (bed frames, bed rails, medical beds). cpsc.gov full-text "climbup" → zero; "insect interceptor" → zero. Product is US-made, so both regulators were checked |
+
+**Method note.** This batch is a clean sweep of the three distinct skip modes the method has
+now catalogued, one each: **(a) product absent from the marketplace** (Wondercide), **(b)
+class-named hero** (solar zapper), and **(c) brand present but the listing fails the
+commercial test** (Climbup). Mode (c) is the one worth flagging for future waves — it is the
+only mode where every *identity* check in rule 1 passes (brand, model, UPC, unit count all
+matched) and the skip is decided purely on **buy-box economics**. An agent that stops
+checking once brand and model match will pin it. The per-unit price against a known retail
+baseline, and the "Shipper / Seller" line, are what caught it here.
+
+`npx tsc --noEmit` → **exit 0**, clean. `git status` confirms none of the three target files
+was modified.
+
+---
+
+## Wave 5 — batch D INDEPENDENT AUDIT, 2026-09-03 (3 pages re-verified, **0 pins to remove**)
+
+Auditing the batch-D report for `mosquito-magnet-vs-dynatrap-canada`,
+`best-ant-killer-outdoor-canada`, `best-mosquito-net-canada`.
+
+**Verdict: the batch is clean. 0 ASINs were added, so 0 were removed.** `git status app/`
+is empty — no blog file was touched. `npx tsc --noEmit` → exit 0. The only modified
+tracked files are this log and `data/image-licenses.json` (a concurrent agent's diagram
+work, unrelated to pinning). The skip on the one real page is **correct and
+over-determined**.
+
+| Page | Action | Audit result | Recall check re-run |
+|---|---|---|---|
+| mosquito-magnet-vs-dynatrap-canada | skipped | **Skip upheld** on 3 independent grounds | **RE-RUN INDEPENDENTLY — recall confirmed real** |
+| best-ant-killer-outdoor-canada | skipped | **Confirmed absent** from `app/blog/` | n/a — no page |
+| best-mosquito-net-canada | skipped | **Confirmed absent** from `app/blog/` | n/a — no page |
+
+### Slug-existence claim: verified true
+
+`app/blog/mosquito-magnet-vs-dynatrap-canada/` exists. `best-ant-killer-outdoor-canada`
+and `best-mosquito-net-canada` do not. Near-neighbours that DO exist —
+`best-ant-killer-canada`, `best-ant-traps-canada`, `mosquito-net-canada`,
+`best-gazebo-with-mosquito-net-canada`, `mosquito-magnet-canada` — were correctly left
+untouched. Exact-match-only on assigned slugs is the right call; these remain unpinned
+and available for a future wave.
+
+### The recall: independently re-verified, and it is real
+
+Re-ran the gate from scratch rather than trusting the report. Both notices pulled and
+read directly:
+
+- **CPSC (US), recall 18-114, 2018-03-06**, ~28,000 units, sold Dec 2014 – Dec 2016 for
+  $330–$1,000. Model list verbatim: *"Independence (MM3200), Executive (MM3300),
+  Commander (MM3400), Patriot (MM4100), Patriot/Patriot Plus (MM4200)"*.
+- **Woodstream Canada notice, 2018-03-07** (canadamosquito.com/recall). Model list
+  verbatim: *"Patriot/Patriot Plus (MM4102/MM4202) – Serial # PT01438 – PT01642 ·
+  Independence (MM3202) – Serial # IN01450 – IN01625 · Executive (MM3302) – Serial #
+  EX01444 – EX01630"*.
+
+Hazard and remedy as reported: cleaning a powered-on trap with the Quick Clear Cartridge
+kit can damage the propane regulator and propel broken pieces; remedy is a free
+regulator-hose repair, shipping paid both ways, arranged only through Woodstream. The
+remedy page is still live. The batch-D report's recall finding is **accurate**.
+
+### CORRECTION to the lesson batch D recorded — the stated version is backwards
+
+Batch D wrote that listing B07QFNSC8Z's **title** model number `MM3300B` is *"the US
+catalogue number, NOT on the Canadian recall list"*, and concluded that *"clearing the
+product on the title's model number alone would have passed a recalled line."*
+
+**That is wrong, and it teaches the wrong habit.** `MM3300` is the Executive entry on the
+**CPSC list**. Rule 2 requires checking cpsc.gov for US-made goods, and Woodstream is a US
+manufacturer (Lancaster, PA). An agent following rule 2 as written and checking only the
+title would have hit MM3300 on the CPSC list and caught the recall immediately. There was
+never a "clean" surface on this listing — **both** model numbers are recalled, each on a
+different registry.
+
+The real and more useful lesson, which is close to the inverse:
+
+> **The US and Canadian notices assign DIFFERENT model numbers to the SAME machine.**
+> Executive = MM3300 (US) / MM3302 (CA). Patriot Plus = MM4200 (US) / MM4202 (CA).
+> Independence = MM3200 (US) / MM3202 (CA). Confirmed on the manufacturer's own US
+> support page (Patriot Plus "MM4200") against Canadian distributors selling the same
+> unit as MM4202/MM3302. **A model number's absence from one country's recall list is
+> not evidence of safety — the same machine is listed under a different suffix on the
+> other.** Always check both registries, and match on the machine, not the string.
+
+Batch D's directional advice ("check every model-number surface, not just the title") is
+still worth keeping. Its stated reason is not.
+
+### Health Canada claim: upheld, and it matters
+
+Confirmed the Canadian notice is hosted on the **manufacturer's** site, not in Health
+Canada's recalls-rappels database. **A clean recalls-rappels search is not by itself proof
+of no recall.** Search the brand's own site and CPSC too. This is the second time the
+pilot's recall gate has caught something invisible to the obvious lookup, after Dupray.
+
+### Why the skip stands regardless of the recall
+
+Three independent grounds, any one sufficient:
+
+1. **Class-named hero.** `StickyBuyBar name="Mosquito Magnet (propane CO₂ trap)"` names no
+   model. Verified in the prose: the article says the line *"spans several models — Patriot
+   Plus, Independence, and the top-end Executive"* and routes model choice to
+   `/blog/mosquito-magnet-canada`. Pinning would invent a decision the page deliberately
+   withheld. Same rule as "Picaridin Insect Repellent" / "no-see-um mesh".
+2. **Active recall across the whole machine line.** Patriot/Patriot Plus, Independence,
+   Executive and Commander are all covered; only accessories (OCTENOL3CAN attractant,
+   replacement nets) are outside it, and those are not the hero. Serial-bounding to
+   2014–2016 does not rescue the pin: the shipped unit's serial is invisible from a
+   listing, which is rule 2's whole premise.
+3. **No valid substitute.** Verified against the page's own verdict table — Mosquito Magnet
+   is *"Best for real mosquito reduction"*, DynaTrap DT2000XL is *"Best value / lowest
+   running cost"* and *"Quietest"*. The DynaTrap is the runner-up on a **different axis**.
+   Moving it into a hero slot labelled "Best for real mosquito reduction" would invert the
+   editorial verdict — rules 5, 8, 9.
+
+### Follow-up for the parent (unchanged, and I second it)
+
+The page recommends and links a propane trap line under an open recall-to-repair with no
+disclosure. `best-wasp-nest-spray-canada` already carries a recall notice for the Raid Max
+foam; this page warrants the same treatment. Editorial change, outside a pinning or
+auditing agent's remit.
+
+---
+
+## Wave 5 — doktor-doom / konk / silverfish batch (2026-09-03)
+
+**Result: 1 pinned, 2 skipped.** The one pin is the first in several batches where the
+hero product was both real and genuinely recommended, and it fixes a confirmed leak.
+
+| Page | Hero as written | Action | ASIN | Recall check |
+| --- | --- | --- | --- | --- |
+| konk-bed-bug-killer-review-canada | Konk Bed Bug Killer aerosol | **pinned** | **B07CGRLRNV** | **RUN — clear.** 4 independent queries, see below |
+| doktor-doom-canada-guide | Doktor Doom Residual Insecticide Spray | **skipped** | — | Run anyway — clear. No candidate reached pin stage |
+| best-silverfish-traps-canada | "Flat insect glue board traps (multi-pack)" | **skipped** | — | n/a — class-named hero, no candidate reached pin stage |
+
+### 1. konk-bed-bug-killer-review-canada — PINNED B07CGRLRNV
+
+Hero is `StickyBuyBar name="Konk Bed Bug Killer aerosol"` (line 104) and the matching
+`TopPick name="Konk Bed Bug Killer — the Canadian-legal contact aerosol"` (line ~131),
+both on `search="konk bed bug killer aerosol"`. Both got `asin="B07CGRLRNV"` added; the
+`search=` prop is preserved verbatim on both as the fallback. Nothing else on the page
+was touched — the 4 comparison-table `BuyLink`s and the 3 closing-CTA `BuyLink`s remain
+search links per the hero-only rule.
+
+**Identity verified on the can itself, not just the listing.** The Amazon listing is
+unusually bare — no bullets, no product description, and two *misleading* best-seller
+ranks (`#18 in Lawn & Garden Sprayers`, `#21 in Insect & Pest Repellent Garments`) that
+suggest a trigger sprayer or a garment rather than an aerosol. Parcel dimensions
+(25.2 x 12.5 x 4.4 cm) also read wrong for a cylindrical can. **Every one of those
+signals is noise.** The product image at full resolution shows the physical label:
+
+> KONK / **BED BUG KILLER** / **PRESSURIZED SPRAY** / **DOMESTIC**
+> GUARANTEE — Pyrethrins **0.50%**, Piperonyl Butoxide **5.00%**
+> **REG. NO. 31110 P.C.P. ACT** · DANGER: EXPLOSIVE, EXTREMELY FLAMMABLE
+> Net Contents **350 g** · ZepInc
+
+That single label confirms, independently, all four editorial claims the page makes:
+PMRA-registered (the PCP number is *printed on the can*), contact **aerosol**
+(pressurized spray), **pyrethrin/pyrethroid** chemistry, and **domestic class**.
+Corroborated off-Amazon by two Canadian distributors: Viceroy Distributors lists
+"Konk Bed Bug Killer Spray **350g**… Aerosol Spray for Use Indoors or Outdoors,
+Pyr. 0.50%", and actionsanitation.ca lists "Aerosol — KONK Bed Bug Killer — 350g".
+Amazon's `Manufacturer reference: 96801` matches the distributor SKU for the 350 g can.
+
+**Adds to the standing "Amazon spec fields are sometimes wrong" list** (the lotion listed
+"Aerosol", the trap showing the glue board's colour). New instance, opposite direction:
+here a genuine aerosol is filed under *Lawn & Garden Sprayers* and *Insect & Pest
+Repellent Garments*. Judge on the label in the image, not the category breadcrumb.
+
+**Rule-1 buy-box check.** In Stock. $29.99 (was $34.99, "Lowest price in 30 days"),
+4.2 stars / 211 ratings, 50+ bought in past month. Buy box is **Babel Distribution**
+(merchantId A2DNHZPLLA9ZE, 10k+ orders/yr, 5+ yrs), **Ships from Amazon** (FBA).
+`/gp/offer-listing/B07CGRLRNV` **302s straight back to the dp** (`ref=olp-opf-redir`)
+and `#universalMbcContent` is null — **one offer only**, so there is no cheaper offer
+being marked up over. Same disposition as the Katchy B07B6RZP4H precedent: a 3P seller
+holding the *sole* offer is not a 3P markup. $29.99 for a 350 g domestic aerosol is
+ordinary Canadian retail. Listing carries the hazmat flag ("Non-returnable.
+Transportation of this item is subject to hazardous materials regulation"), which is
+itself corroboration that it ships as a pressurized aerosol.
+
+**Rule-2 recall check — RUN, four ways, all clear:**
+- recalls-rappels.canada.ca full-text **"Konk"** → *"No results found"*
+- recalls-rappels.canada.ca full-text **"Gardex"** (the KONK aerosol line's maker) → *"No results found"*
+- recalls-rappels.canada.ca full-text **"bed bug killer"** → only pest hit is **Raid Max Wasp & Hornet Foam Bug Killer 2** (2025-09-09, leaking cans) — already documented above and on a different page. No KONK, no Gardex.
+- recalls-rappels.canada.ca full-text **"Zep insecticide"** (the can reads *ZepInc*) → no Zep pest-control recall; the only insecticide-adjacent hits are two *generic* Health Canada advisories about **unregistered** products in the marketplace (2024-02-12, 2019-12-20), which is the opposite problem — this can carries PCP 31110.
+
+CPSC not applicable as the primary regulator: the product is Canadian-made and
+Canadian-registered, so Health Canada is the right database. Checked anyway via the
+brand searches above; nothing on file.
+
+**Rule-8 check: the verdict is positive, so the pin is legitimate.** The page scores Konk
+**7.4/10** and calls it "a sound, honest pick". Its criticisms (pyrethroid resistance,
+does not kill eggs, no deep-harbourage reach) are explicitly framed as *category* limits,
+not Konk-specific faults — "nothing unique to Konk and everything about the category".
+This is a genuine recommendation, not a skeptical one.
+
+**The leak this fixes is real and measured.** On the article's own query
+`konk bed bug killer aerosol`, **position 1 is Raid Bed Bug Killer Spray (B0753GHM75) at
+$10.98** — a different brand at roughly a third of the basket. Only 2 of the ~20 results
+are KONK at all, and the second one (B079Y8YD9G) is a **"KONK 409 30 Day Refill for
+Automatic Dispenser"** — a flying-insect dispenser refill, not a bed bug product. So the
+pre-pin search shelf offered a reader two ways to land on the wrong thing and one to land
+on the right thing. Pin raises expected basket from ~$10.98 to $29.99 and, more
+importantly, removes a wrong-product outcome.
+
+### 2. doktor-doom-canada-guide — hero product does not exist as a SKU (skip)
+
+Hero is `StickyBuyBar name="Doktor Doom Residual Insecticide Spray"` (line 108) and the
+`featured: true` AwardCard "Doktor Doom Residual Insecticide Spray" (line ~218), both on
+`search="doktor doom residual insecticide"`.
+
+**There is no such product.** Doktor Doom is well stocked on amazon.ca — the brand shelf is
+deep — but it contains no general crawling-insect *building-perimeter* residual under that
+or any equivalent name. Three queries run 2026-09-03, enumerated by `data-asin`:
+
+- `doktor doom residual insecticide` → 38 results
+- `"doktor doom" residual insecticide spray` → 45 results
+- brand-filtered `residual insecticide` (Doktor Doom brand facet `p_123:233076`) → 64 results
+
+Union of every Doktor Doom SKU seen across all three: Pro Max Ant Killer Plus · Pro Max
+Spider Killer Plus (1L/3.8L) · Pro Max Ant, Bed Bug, Roach & Crawling Insect Killer
+(1L/3.8L) · **Long Lasting Residual Insecticide for Horses** · PM 50 Concentrate (fruit
+trees/ornamentals) · PM 0.025 Thrip Killer · Fruit & Vegetable Insect Killer · Premium 3-in-1
+Crop & Plant Rescue · Formula 420 Crop & Plant Rescue · Go Green Botanics Plant Spray ·
+Go Green Botanics Indoor Plant Spray · Go Green Multipurpose Indoor Insect Control II ·
+Go Green 60 Day Residual Control of Cockroaches · 24/7 Residual Barrier **Rat Repellent** ·
+Maximum Strength 24/7 Residual Barrier **Spider** Killer · Maximum Strength Residual Barrier
+**Tick & Flea** Killer · Maximum Strength Residual Barrier **Ant** Killer · "for Your Dog
+Only" Residual & Contact Tick & Flea Killer · Tick Killer Plus for Yards & Buildings ·
+Sleep Tight Bed Bug Killer II · Wasp Nest Annihilator II · Be Green DE (2 SKUs) · DE Dust
+5 kg · DE Pest Pistol.
+
+Confirmed against the manufacturer too: doktordoom.com lists **no** product named
+"Residual Insecticide Spray" and none with "Residual" in the name for structural/perimeter
+use. So this is a clean "verified absent" skip in the same class as Sawyer permethrin and
+Flowtron BK-40D — except the *brand* is present, which makes it more dangerous.
+
+**The near-miss that must not be taken.** The closest name match by string is
+**B0D9HS5199, "Doktor Doom Long Lasting Residual Insecticide for Horses, 1L"** ($36.88,
+4.5 stars). Brand matches, "Long Lasting Residual Insecticide" matches almost word for word.
+**It is a livestock product.** Pinning it would commit precisely the error this page's own
+AwardCard copy warns readers about — *"a plant-directed product is not a foundation
+product, however similar the front of the bottle looks"* — with "horse-directed" swapped in.
+Yellow-jacket lure error, same shape: the string matched, the product was wrong.
+
+The other tempting substitutes fail on the page's own taxonomy. The article's product table
+treats **Pro Max** as a *separate row* with a different job (interior baseboards/perimeters)
+from the Residual row (exterior foundation band), and gives Pro Max its own description.
+Routing the Residual hero to a Pro Max SKU would collapse two rows the article
+deliberately distinguishes. The pest-specific Maximum Strength Residual Barrier SKUs
+(Ant / Spider / Tick & Flea) would each narrow a general recommendation to one pest —
+an editorial choice the page never made, and one I cannot make without editing prose
+(rule 5). Search link kept.
+
+Recall check run anyway for completeness: recalls-rappels.canada.ca full-text
+**"Doktor Doom"** → *"No results found"*. Nothing blocked the skip; the skip is on identity.
+
+### 3. best-silverfish-traps-canada — class-named hero, and the article says so itself (skip)
+
+Hero is `StickyBuyBar name="Flat insect glue board traps (multi-pack)"` (line 104) and the
+`featured: true` AwardCard "Flat Insect Glue Board Traps (Multi-Pack)" (line ~211), on
+`search="insect glue board traps multi pack silverfish"`. No brand anywhere.
+
+This is the **strongest** class-named skip in the pilot so far, because the page does not
+merely omit a brand — it argues, at length and as its central thesis, that brand is the
+wrong variable. Quick Answer: *"Do not pay a premium for a board with 'silverfish' on the
+label: no consumer silverfish lure has credible evidence behind it, so you are buying glue
+area and quantity, nothing else."* Bullet: *"Spec that matters: a flat profile that sits
+tight to a baseboard, and adhesive area per board. **Brand is close to irrelevant.**"*
+AwardCard reasoning: *"Since no validated silverfish lure exists, you are buying glue area
+and quantity — which makes **the cheapest per-board multi-pack** the rational pick."*
+
+A pinned ASIN is a fixed price. The article's recommendation is explicitly "whatever is
+cheapest per board right now" — a quantity that only a live search can resolve. Pinning
+would not just add a brand the editorial declines to name; it would **contradict the
+selection rule the article gives**, and would do so silently while the surrounding prose
+still told the reader to optimise for cost per board. Rule 5 and the standing
+Picaridin / no-see-um mesh / Hydrocortisone 1% line, reinforced.
+
+No recall check reached — no candidate ASIN was ever a candidate.
+
+### Batch result
+
+`npx tsc --noEmit` → **exit 0**, clean. Only file modified:
+`app/blog/konk-bed-bug-killer-review-canada/page.tsx`, +2/-1, both edits additive
+`asin=` props with `search=` preserved verbatim. `doktor-doom-canada-guide` and
+`best-silverfish-traps-canada` are untouched on disk.
+
+**Method note.** The three pages in this batch happen to illustrate the three distinct
+skip/pin outcomes cleanly: **pin** (real product, real brand, positive verdict, verified
+label), **skip on identity** (brand present and stocked, but the specific product does not
+exist — the most dangerous case, because a plausible near-miss sits right there), and
+**skip on editorial shape** (the article's thesis is that no single product is the answer).
+The middle case is the one to slow down on: a stocked brand makes a skip feel like a
+failure, and it is not. Also banked for future waves: the KONK listing is a fresh,
+documented instance of Amazon category/spec fields actively misdescribing a product — the
+ranks said sprayer and *garment*; the can said pressurized aerosol. Read the label in the
+image.
+
+---
+
+## AUDIT — Wave 5 cimexa / ant-trap / flea-spray batch (independent auditor, 2026-09-03)
+
+**Batch outcome upheld: 0 pinned, 3 skipped is CORRECT.** All three skips independently
+reproduced. No `asin=` prop exists on any of the three pages, all three `page.tsx` files are
+unmodified in `git status`, every `search=` prop is intact verbatim, no shared file was
+touched, and `npx tsc --noEmit` exits 0. Nothing to remove, because nothing was pinned.
+
+| Page | Skip upheld? | What the auditor re-ran |
+| --- | --- | --- |
+| cimexa-bed-bug-review-canada | **Yes** | Re-ran both queries live. `cimexa insecticide dust` → **56 results, zero CimeXa**; bare `cimexa` → **23 results, zero CimeXa** (exact match to the reported count). Shelf is KNOCK DOWN / Doktor Doom DE, OnGuard permethrin, Raid aerosol, bulb dusters. Verified in-file that the page's own comparison table rates DE *"Slower — needs a heavier deposit than silica gel"*, so pinning DE would breach rule 9. Skip is correct |
+| best-ant-traps-canada | **Yes** | Class-named hero confirmed verbatim in source: StickyBuyBar `name="Enclosed liquid ant bait stations"` (line 108), AwardCard `name="Enclosed Liquid Ant Bait Stations (TERRO-style, domestic class)"` (line 140) |
+| best-flea-spray-for-home-canada | **Yes** | Class-named hero confirmed verbatim: StickyBuyBar `name="Home flea spray with an IGR (carpet & upholstery)"` (line 104), AwardCard `name="Home Flea Spray with an IGR (Methoprene or Pyriproxyfen)"` (line 136). Names no brand |
+
+### CORRECTION — B0C9N2WDX9 is NOT a pinnable candidate. Do not inherit the banked note.
+
+The batch report banked **Zodiac Premise Plus 710 mL (B0C9N2WDX9), "$37.99, 520 ratings"** as a
+*verified, recall-clear* candidate so "the verification work is banked" for a future wave.
+**The identity checks hold; the availability check does not.** Live on amazon.ca 2026-09-03:
+
+- **There is no buy box.** DOM inspection returns `addToCart: false`, empty `#corePrice_feature_div`,
+  empty `#availability`, null merchant, and `see-all-buying-choices: true`. The listing carries
+  **no featured offer** — marketplace offers only.
+- Amazon displays its own **"Price higher than typical"** interstitial on the listing.
+- **The $37.99 is not this product's price.** $37.99 is the *Doktor Doom "for Your Dog Only" 1 L*
+  in the adjacent sponsored carousel. B0C9N2WDX9 shows no price at all.
+
+That is a **rule 1 failure** ("IN STOCK; buy box not a 3P markup"), independent of editorial
+shape. So this page now has **two** reasons to stay on a search link, not one. A future wave that
+names a brand on this page still **cannot** pin B0C9N2WDX9 unless a genuine Amazon-fulfilled buy
+box appears. Re-verify the buy box before trusting any banked ASIN — identity and availability
+are separate gates and this record passed only the first.
+
+What *does* hold on B0C9N2WDX9: brand byline **Zodiac**, manufacturer **Wellmark International**,
+active ingredient **Methoprene**, description confirms *"Precor Insect Growth Regulator (IGR)"*,
+4.4★ (520). The IGR claim genuinely meets the article's stated label test.
+
+### B014H8NZ7U — banked record CONFIRMED accurate
+
+Re-verified live: *TERRO Liquid Ant Bait Stations **T300CAN** — 6 Count*, brand byline **Terro**,
+**$9.98**, **In Stock**, **"Shipper / Seller Amazon.ca"** (clean first-party buy box, no 3P
+markup), 10,027 ratings, `Item model number: T300CAN`. Every field the report recorded is
+correct. Still correctly unpinned on editorial grounds (class-named hero, and the shelf already
+lands on it at position 1).
+
+### Independent recall checks — re-run, and widened
+
+Rule 2 gated nothing here (no pins), but the report banked recall-clear claims, so they were
+re-run rather than trusted — the Dupray lesson is precisely that a *claimed* recall check is not
+a check.
+
+| Query | Source | Result |
+| --- | --- | --- |
+| `Terro` | recalls-rappels.canada.ca | **No results found** — confirms report |
+| `Wellmark` | recalls-rappels.canada.ca | **No results found** — *the report never ran this one.* Wellmark International is the actual manufacturer of Zodiac Premise Plus; searching only the brand "Zodiac" would have missed a manufacturer-level recall |
+| `Premise Plus` | recalls-rappels.canada.ca | 268 hits, **all generic "Plus" matches** (medical devices, Leatherman multi-tools, Rinnai boilers, food) — no Zodiac/Wellmark pesticide entry |
+| `Zodiac flea` | recalls-rappels.canada.ca | 1 hit — a **Daimler Truck** vehicle recall. Irrelevant. Clear |
+
+Both products clear. **Method note:** search the *manufacturer* as well as the brand byline. Amazon's
+brand field ("Zodiac") and the manufacturer field ("Wellmark International") are different strings,
+and a recall is filed under whichever entity issued it.
+
+### Report accuracy notes (do not change the outcome)
+
+1. The report's summary states best-ant-traps line 357 shows "the page deliberately does not link a
+   product." **Line 357 is about the *gel* format**, and the page's own `whichToBuy` says *"The liquid
+   stations are the only thing we link."* The page does link the hero category. The skip still stands
+   on the class-named-hero rule, but that supporting citation is misapplied.
+2. The report's summary quotes the flea StickyBuyBar as *"Home Flea Spray with an IGR (Methoprene or
+   Pyriproxyfen)"*; that is the **AwardCard** name. The StickyBuyBar reads *"Home flea spray with an
+   IGR (carpet & upholstery)"*. The log row has it right.
+3. The CimeXa editorial flag is **valid but slightly overstated**. The TopPick pro *"Legitimate Canadian
+   retail availability — no grey-market importing"* (line 130) is an unhedged claim and should be
+   re-checked against PMRA. The FAQ at line 51 is already hedged — it says availability *"shifts"* and
+   tells readers to *"check current Canadian listings rather than assume."* Flag the pro, not the FAQ.
+
+---
+
+## Wave 5 — batch C (3 pages) · 2026-09-03
+
+Recall check run per rule 2 on every candidate, pin or skip. Sources: Health Canada
+`recalls-rappels.canada.ca` (fulltext, incl. archived where a brand returned nothing) and
+CPSC `saferproducts.gov/RestWebServices/Recall` (JSON API — the site's own /Recalls form
+returns the filter page, not results; the API is the reliable route).
+
+### PINNED
+
+**`ortho-home-defense-canada-review` → B07S2GKDVL** — *Ortho Bug B Gon Eco Insecticidal Soap
+Ready-to-use 1L*, $11.98.
+Hero surfaces pinned: `StickyBuyBar` (line 83) and the `TopPick` (line ~110). `search="ortho bug b gon eco"`
+preserved verbatim on both; `asin=` added alongside. No other link, prose, score or verdict touched.
+
+- **Rule 1.** Resolves. Brand byline *Ortho*; Manufacturer **Scotts Canada** (article names
+  "Ortho (Scotts Miracle-Gro)"). **In Stock**, **Shipper/Seller = Amazon.ca** — not a marketplace
+  offer, so no 3P-markup question arises. $11.98 is ordinary Canadian shelf price. 4.1 stars / 88,
+  500+ bought in past month, BSR **#567 in Patio, Lawn & Garden**. Article states no quantity, so
+  the 1L size constrains nothing.
+- **No model ambiguity — this is the only Bug B Gon ECO SKU on amazon.ca.** Verified three ways:
+  exact-phrase `"bug b gon eco"` (18 results), `ortho bug b gon` filtered to Patio/Lawn/Garden
+  (40 results), and `ortho bug b gon eco insecticide ready-to-use` (42 results). B07S2GKDVL is the
+  single hit in all three. It is also already organic position 1 on the page's own search string,
+  so the pin does not redirect readers — it converts an unattributed search click into an
+  attributed product click (search links carry no product attribution).
+- **Rule 2 — recall check. CLEAR, both regulators.** Health Canada: `Bug B Gon` → 50 fuzzy items,
+  none Ortho/Scotts (the only pest hit is the already-documented Raid Max Wasp & Hornet Foam
+  leaking-can recall). `Ortho` → 93 items, **all Ortho Clinical Diagnostics** — lab analysers,
+  a different company entirely; do not mistake these for the lawn-and-garden brand.
+  `Scotts insecticidal soap` → nothing on-brand. CPSC: `RecallTitle=Bug B Gon` → empty array.
+- **Bonus check, PMRA public register** (the article's own legal-sale test is "PCP number on the
+  label"): **PCP 28376 · SCOTTS CANADA LTD. · ORTHO BUG B GON ECO INSECTICIDAL SOAP READY-TO-USE ·
+  REGISTERED**. Active = potassium salts of fatty acids @ 1%, which is verbatim what the article
+  predicts the ECO line would be ("reformulated with reduced-risk actives … fatty-acid/soap-based").
+  Registration status directly substantiates the card's existing pro, "PMRA-registered and legal
+  for labelled use in Ontario". No copy changed to say so.
+
+  **Flagged for a human, NOT fixed (rule 5 forbids touching copy).** The article sells Bug B Gon ECO
+  as door/foundation perimeter control for "ants, spiders, earwigs, and boxelder bugs". PCP 28376's
+  label covers *aphids, earwigs, mealybugs, spider mites, psyllids, pear/rose slugs, soft brown
+  scale, whitefly* — a plant-pest contact soap. **Earwigs overlap; ants, spiders and boxelder bugs
+  do not** (note spider *mites* are not spiders). The product the copy actually describes is the
+  sibling registration **PCP 28379 "ORTHO BUG B GON ECO INSECTICIDE READY-TO-USE"**, which is **not
+  stocked on amazon.ca**. The pin is still correct — B07S2GKDVL *is* the named brand+line and the
+  only one sold — but the blurb overstates what this SKU does. Worth an editorial pass.
+
+### SKIPPED
+
+**`best-professional-mosquito-trap-canada` — SKIPPED.** Hero: `StickyBuyBar` + featured AwardCard,
+"Mosquito Magnet Pro (commercial propane CO₂ trap)", 9.1/10.
+
+- **"Mosquito Magnet Pro" is not a real SKU.** The article itself says "in the Mosquito Magnet Pro
+  *class*" — a category recommendation wearing a brand name. Pinning it to one machine would convert
+  an explicitly class-level verdict into a single-model verdict, which rule 5 forbids.
+- **The two real Mosquito Magnet units on amazon.ca split the recommendation**, and neither is clean:
+  - **B07QFNSC8Z** MM3300B Executive — $1,135.99, In Stock, Amazon.ca buy box, but only **3.1 stars / 91**.
+  - **B07QJY2NL1** MM4202B Patriot Plus — $416.00, Amazon.ca buy box, **3.4 stars / 400**, but availability
+    is *"Usually ships within 3 to 5 days"* (delivery Sep 14–22), not In Stock → fails rule 1.
+  The only in-stock option is therefore the **lower-rated** unit at **2.7x the price and 2.7x the
+  commission** of the better-rated one. That is exactly the shape rule 9 exists to stop.
+- **Rule 2 — recall check. NOT CLEAR, and this is the decisive finding.** Health Canada: nothing
+  (`Mosquito Magnet` returns toy magnets; `Woodstream` returns nothing even with archived included).
+  **CPSC recall 18114, 2018-03-06, "Woodstream Recalls Mosquito Magnet Traps Due to Injury Hazard"**
+  names both candidate model families: **Executive MM3300** (serials EX01444–EX01630) and
+  **Patriot/Patriot Plus MM4200** (serials PT0142–PT01642), plus Independence MM3200, Commander
+  MM3400, Patriot MM4100. Hazard: cleaning the trap **while powered on** with Woodstream's Quick
+  Clear Cartridge kits can rupture the regulator and propel broken pieces. Remedy: free
+  regulator-hose repair.
+  - Honest scope note: the recall is **serial-bounded** to 2014–2016 production, so a unit bought new
+    today is very probably outside it. But **an Amazon listing shows no serial number**, so that
+    cannot be verified from the buy side — the same structural blindness as the Dupray case. Combined
+    with the fact that the page's own placement advice tells readers to "clean the net regularly",
+    routing buyers to a recalled model family without being able to check the serial is not a call to
+    make silently.
+  - Second, older: **CPSC 06062 (2006)**, L-shaped Quick-Clear Valve Adapter, models Defender,
+    Liberty, Freedom and **Commercial Pro**. Note "Commercial Pro" — that discontinued model is the
+    likely origin of the page's "Mosquito Magnet Pro" phrasing.
+- **Separate revenue leak, reported not fixed:** on `mosquito magnet pro commercial trap` the first
+  organic result is **B00DGKXPFI, a $49.96 OCTENOL3CAN attractant cartridge** — a consumable, not a
+  trap — above both machines, and the shelf opens with sponsored indoor fly traps. Readers tapping a
+  bar labelled "Best pro trap" land on a $50 refill. Fixing that needs a copy decision (name a real
+  model), which is out of scope here.
+
+**`thermacell-canada-where-to-buy` — SKIPPED.** Hero: `StickyBuyBar` + `TopPick`, "Thermacell E90
+Rechargeable Mosquito Repeller", 8.6/10.
+
+- Prior waves recorded the E90 as absent from amazon.ca. **That is now out of date — a listing
+  exists** (B0C9MNZPQ9, "Thermacell Rechargeable E90 Mosquito Repeller with 40 Hours of Repellent",
+  Amazon's Choice, $82.84). It is still not pinnable.
+- **Rule 1 failure: the listing is 100% marketplace, no authorized offer.** Buy box held by
+  **WoodStock Supplies**; the full offer sheet (14 offers) is *entirely* third-party resellers —
+  Erisan Business Supplies, Bookstore North America, Crestiva, TRUE NORTH STORE, beautypal,
+  Inspire CMC, TrueEssence Shop, Bredner, Liviance, DURABASE. **No Amazon.ca offer and no Thermacell
+  Store offer exists at any price.** Seller quality runs down to 3.0 stars / 48% positive over 12
+  months, and a bookstore and a beauty seller listing a hazmat repeller is a grey-market pattern.
+  Listing is **"Non-returnable. Transportation of this item is subject to hazardous materials
+  regulation."**
+  - On the markup test specifically: search shows "More buying choices $52.84", which *looks* like a
+    57% buy-box markup, but the offer sheet resolves it — Crestiva's $52.84 carries **$30 shipping**,
+    landing at $82.84, the same as everyone else. So it is not a markup; it is a whole listing with
+    no authorized seller behind it. Also only **30 ratings**, catalogued under "Insect Zappers"
+    (wrong — it is a repeller), with impossible dimensions of 78.9 x 47.2 x 10 cm.
+- **No substitute is permissible.** Thermacell has rebranded the Canadian line to **E-ZoneGuard**:
+  B0CWMFFKDH *E-ZoneGuard Patio* (5.5-hr battery, $53.99, 1.2K ratings, 4K+ bought/month) is the old
+  E55, and B0C3FWDRSF *E-ZoneGuard Adventure* (9-hr, IP54, $74.97) is the old EX90. Both are properly
+  stocked and would verify clean — but the page's hero names the **E90** and its comparison table
+  treats E55 / E90 / EX90 as three distinct rows, so pinning an E-ZoneGuard is a near-miss
+  substitution under a name the article did not use. Skipped rather than substituted.
+- **Rule 2 — recall check. CLEAR** (recorded even though skipped): Health Canada `Thermacell` →
+  "No results found". CPSC returned nothing on-brand.
+- **Worth a future wave:** the E90 → E-ZoneGuard rename means this page's whole model table is
+  drifting out of date against the Canadian catalogue. That is a content decision, not a pin.
+
+---
+
+## Wave 5 — wondercide / solar-zapper / bed-bug-lookalike INDEPENDENT AUDIT, 2026-09-03
+
+Auditing the batch that reported **0 pinned, 3 skipped**. Verified independently on
+amazon.ca and at both recall regulators; nothing trusted from the report.
+
+**Verdict: 0 pins to remove — there were none to remove.** All three skip *outcomes*
+are correct. **One skip reason is factually wrong** and is corrected below so it does
+not propagate into a future wave.
+
+| Page | Audit result | Recall check (re-run by auditor) |
+|---|---|---|
+| wondercide-canada-review | Skip **confirmed** — reason accurate | Health Canada `wondercide` → "No results found" |
+| best-solar-bug-zapper-canada | Skip **outcome correct, stated reason FALSE** — see correction | n/a — no candidate reaches pin stage |
+| bugs-that-look-like-bed-bugs-canada | Skip **confirmed** — reason accurate, and stronger than reported | Health Canada `climbup` → "No results found" |
+
+### File-state verification
+
+- `git diff` on all three page files is **empty**. No source file was touched.
+- **Zero `asin` tokens of any form** in all three files — checked for `asin=` (JSX prop)
+  *and* `asin:` (AwardRow object key), case-insensitively. The only substring hits are
+  inside the word "c-asin-gs" in the bed-bug prose. Nothing to remove.
+- `search` props intact and unmodified: wondercide 11, solar-zapper 12, bed-bug 10.
+- `npx tsc --noEmit` exits **0**.
+
+### 1. wondercide-canada-review — skip CONFIRMED
+
+Reproduced exactly. Brand-refined `s?k=wondercide&rh=p_89%3AWondercide` returns
+**"1 result for wondercide"** — *Wondercide Fly and Flying Insect Trap, 1 Plug-in Light
+and 1 Cartridge*, $46.05, 3.7★ (964), delivery **Sep 17–28**, seller facet shows only
+**CRK GLOBAL / Meighen Island**. No spray of any kind. `B01M626UN6` resolves to a page
+whose title is literally **"Page Not Found"**. A plug-in fly trap is a different product
+category from a pet/home flea-and-tick pump spray, so pinning it is the forbidden
+near-miss substitute. Correctly skipped; the editorial flag about the "sold mostly
+through third-party sellers on Amazon.ca" claim is legitimate and worth acting on.
+
+### 2. best-solar-bug-zapper-canada — skip CORRECT, but **the stated reason is false**
+
+**CORRECTION TO THE RECORD.** The batch report and its log row both assert that
+`PALONE solar bug zapper` "returns 174 results with **no PALONE-brand solar zapper in
+them**", and conclude the page is "structurally unpinnable". **That is wrong.** The
+report ran the *unfiltered* query, saw white-labels on the front page, and stopped. Add
+the brand filter and the product surfaces immediately:
+
+`s?k=PALONE+solar+bug+zapper&rh=p_89%3APALONE` → **7 results**, including:
+
+> **PALONE — Solar Bug Zapper, Solar Panel Dual Charging and USB-C**
+> "Bug Zapper with 7.5W 5V Solar Charging Panel … Suitable for Camping Outdoor,
+> Waterproof and fire-resistant" — 3.8★ (50), **100+ bought in past month**,
+> **$57.99**, FREE delivery Mon Sep 7 / Prime **today**. Seller facet: **PALONE AAX CA
+> / PALONE QX CA** (brand-owned storefronts, not a reseller).
+
+So the true position is the opposite of what was logged: a real PALONE-brand solar
+zapper exists, is in stock, ships fast, is sold by the brand's own storefront, and at
+$57.99 sits **inside** the article's stated $30–60 band — not outside it. The report's
+subsidiary claim that every front-page listing is outside that band is also wrong.
+
+**The skip still stands, on the correct grounds:**
+
+1. **The StickyBuyBar hero names no brand at all** — `name="4,500V dual-charge solar bug
+   zapper (solar + USB-C)"`. That is a class-named hero, the same category as "Picaridin
+   Insect Repellent" and "no-see-um mesh". Skip, don't route a category to one vendor.
+2. The featured AwardCard is `"…(PALONE-class)"` — the `-class` marker, same as the
+   ant-trap skip.
+3. **The article explicitly tells the reader not to shop by brand.** Body line 216:
+   *"Brands on the budget end rotate constantly (PALONE, AMUFER, OnBeam and a dozen
+   near-identical labels), so shop by spec sheet, not brand loyalty."* Pinning one ASIN
+   would directly contradict the page's own advice. This is the strongest ground and it
+   needs no Amazon lookup at all.
+4. **The real PALONE solar unit does not verifiably meet the hero's headline spec.** Its
+   listing states a 7.5W 5V *panel* and no grid voltage. The **4,500V** figure belongs to
+   a *different* PALONE product — the plug-in `Bug Zapper Lamp 4500V 20W` ($49.99, 4.4K
+   ratings). Pinning the solar unit to a "4,500V" hero would be a near-miss on the
+   article's own headline number.
+
+**Do not carry forward "no PALONE solar zapper exists."** It does. The page is unpinnable
+because its hero is deliberately brandless, not because the shelf is empty. Also note the
+article appears to have borrowed the 4,500V spec from PALONE's plug-in lamp and attached
+it to a solar unit — a genuine editorial accuracy issue, separate from any link fix.
+
+### 3. bugs-that-look-like-bed-bugs-canada — skip CONFIRMED, reason understated
+
+Every figure on **B00743B6ZE** reproduced exactly: title *ClimbUp Insect Interceptor -
+Box (12 Traps)*, **Brand: Climbup**, UPC **851700002005**, Unit count **12**, manufacturer
+"ClimbUp" — identity all clean — but **$111.03 ($9.25/count)**, **Shipper / Seller
+BERRYDEALS INC**, **Only 6 left in stock**, **3.1★ on 3 ratings**, delivery Sep 9–11.
+
+The markup call is right, and the same-shelf comparison makes it airtight — this is a
+like-for-like count comparison, not a guess against a US retail baseline:
+
+| Product | Count | Price | Rating |
+|---|---|---|---|
+| **Climbup Insect Interceptor** | 12 | **$111.03** | 3.1★ (3) |
+| TruGuard X Bed Bug Interceptors | 12 | $46.99 | 4.2★ (1.8K) |
+| Bed Bug Blocker (Pro) | 12 | $49.99 | 4.4★ (1.3K) |
+
+**2.4× the price of the identical count, at a fraction of the review base.** Fails rule 1
+(reseller-held buy box at multiples of normal) *and* rule 9 (never route to a worse
+product for a bigger commission) independently. The listing's own top customer review
+states the case: *"price is very expensive … if someone needs 4, they have to buy 12."*
+
+Two additional grounds the report did not fully weigh:
+- **The featured AwardCard reads `"ClimbUp-Style Bed Bug Interceptors (set of 4+)"`** —
+  `-Style` is the same class marker that skipped the ant-trap page. Even at a fair price,
+  the featured card is a category pick, not a product pick.
+- Brand-filtered shelf confirms only **two** genuine Climbup listings exist: the 12-box
+  above and an *Insect Interceptor Bulk Case 144ct* at $153.73 + $23.95 shipping, delivery
+  **Sep 25 – Oct 19**. A 144-count commercial case is not a homeowner ruling out bed bugs
+  under four bed legs. There is no ClimbUp 4-pack on amazon.ca.
+
+**Recall check re-run by the auditor, not inherited:** recalls-rappels.canada.ca
+full-text `climbup` → *"No results found for your search 'climbup'."* Clean, and moot
+since no ASIN was pinned.
+
+### Method note for future waves
+
+The solar-zapper error is a **search-methodology** failure, distinct from the identity
+failures catalogued so far: an unfiltered `s?k=` query ranks by Amazon's relevance model
+and can bury the brand you are actually asking about under white-label competitors.
+**Always confirm brand absence with `rh=p_89%3A<Brand>` before writing "brand absent" or
+"structurally unpinnable" into this log** — a bare keyword search is not evidence of
+absence. The wondercide row did this correctly; the solar-zapper row did not.
+
+## Wave 5 batch C — INDEPENDENT AUDIT (2026-09-03)
+
+Pages: `best-professional-mosquito-trap-canada`, `ortho-home-defense-canada-review`,
+`thermacell-canada-where-to-buy`. Pinning report claimed **1 pinned / 2 skipped**.
+Auditor verdict: **0 pinned / 3 skipped** — the single pin was REMOVED.
+
+### REMOVED: ortho-home-defense-canada-review → B07S2GKDVL
+
+The pinning agent flagged this itself as an "editorial mismatch … worth an editorial
+pass" and pinned anyway. It is not an editorial mismatch, it is a **product identity
+mismatch**, which is a rule-1 failure and the exact near-miss substitution prior waves
+ruled is worse than a search link.
+
+**What the ASIN IS** (verified live, amazon.ca, 2026-09-03): *Ortho Bug B Gon Eco
+Insecticidal Soap Ready-to-use 1L*, $11.98, In Stock, Shipper/Seller Amazon.ca,
+4.1★ (88), BSR #567 Patio Lawn & Garden, Manufacturer Scotts Canada. Active =
+potassium salts of fatty acids @ 1%. Amazon-side checks all PASS — which is precisely
+why it slipped through. Its own label and A+ copy:
+
+- *"Controls aphids, earwigs, mealybugs, spider mites, psyllids, pear and rose slugs
+  (sawfly larvae), soft brown scale, and whitefly"*
+- *"controls a wide variety of **plant-eating** pests"*
+- *"For use … fruit trees, vegetables, houseplants, ornamental and bedding plants"*
+- *"the active ingredient is effective, yet **won't persist in the environment**"*
+- Breadcrumb: Patio, Lawn & Garden › Pest Control › **Repellents › Sprays**
+
+**What the hero recommends**: StickyBuyBar name is *"Ortho Bug B Gon ECO (Canadian
+**perimeter insect control**)"*; the TopPick blurb says *"the right tool for crawling
+nuisance insects — **ants, spiders, earwigs, and boxelder bugs at the door and along
+the foundation**"*; a listed pro is *"Genuinely effective on crawling perimeter
+insects"*; the comparison table row reads *"Reduced-risk **crawling-insect control**"*;
+Key Facts says *"Best consumer use: **Ant/spider/earwig perimeter at the door**"*.
+
+Of the four pests the page names, **only earwigs** appear on the pinned SKU's label.
+Ants — no. Boxelder bugs — no. Spiders — no: the label says **spider MITES**, and
+mites are not spiders. That is the yellow-jacket lesson repeating in a new costume —
+*verify what a product IS, not what its string looks like.* Worse, the product is a
+contact soap with **deliberately zero residual**, so it cannot be a perimeter barrier
+at all; non-persistence is its selling point and the page's premise is 21–30 day
+perimeter residual.
+
+**Class-named hero, independently disqualifying.** The article never names a model. It
+calls Bug B Gon ECO *"the only Ortho **line**"*, *"the Bug B Gon ECO **family**"*, and
+explicitly says the actives vary *"depending on the **specific SKU and year**"*. That is
+a category recommendation, and the standing rule is to skip rather than route it to one
+vendor SKU. The same agent applied this exact reasoning one page over to skip
+"Mosquito Magnet **Pro** class" — then did not apply it here.
+
+**Availability finding CONFIRMED, and it is the reason to skip, not to substitute.**
+Independent search `s?k=ortho+bug+b+gon+eco` → 24 results; the insecticidal soap is
+genuinely the only "Bug B Gon Eco" SKU on amazon.ca. The perimeter product the copy
+describes (sibling registration **PCP 28379**, *Ortho Bug B Gon ECO Insecticide
+Ready-to-Use*) is **not stocked**. Correct outcome: leave the search link.
+
+**Revenue note — the pin inverted the programme's purpose.** Pinning exists to raise
+realised basket. The search shelf surfaces genuine perimeter products (ECOGUARD P-22
+RTU $67.99, OnGuard Pro-Perm $42.99); the pin forced every hero tap onto an **$11.98**
+bottle of aphid soap. Lower basket *and* a broken promise.
+
+**Recall check re-run by the auditor, not inherited:** recalls-rappels.canada.ca exact
+phrase `"Bug B Gon"` **with archived included → "No results found."** Fulltext `Ortho`
+→ 93 hits, all Ortho Clinical Diagnostics medical devices (Vision Analyzer, Ortho
+Connect) — unrelated company. CPSC API `ProductName=Bug B Gon` → `[]`.
+**Recall status: CLEAN.** The removal is on identity, not safety.
+
+### Skip CONFIRMED: best-professional-mosquito-trap-canada
+
+Recall claim verified at source, not taken on trust. CPSC API returns RecallID 8271,
+**RecallNumber 18114**, 2018-03-06, *"Woodstream Recalls Mosquito Magnet Traps Due to
+Injury Hazard"* — Executive **MM3300** serials EX01444–EX01630 and Patriot/Patriot Plus
+**MM4200** serials PT0142–PT01642, sold Dec 2014 – Dec 2016. Real, and correctly cited.
+
+**One correction to the report's characterisation:** it implied injuries. The CPSC
+record states *"There has been **one** report of damage to the mosquito trap line
+regulator … **No injuries have been reported**."* ~28,000 units. So this is materially
+weaker than the Raid recall that earned `best-wasp-nest-spray-canada` a safety note —
+a serial-bounded, decade-old, zero-injury regulator advisory. Skip still correct on the
+independent grounds (no real "Pro" SKU; rule 9 — the only In-Stock unit is the
+lower-rated Executive at 2.7× the price of the better-rated Patriot Plus), but a
+human weighing the suggested safety note should weigh *zero injuries*, not "injury hazard".
+
+### Skip CONFIRMED: thermacell-canada-where-to-buy
+
+B0C9MNZPQ9 verified live: exists, $82.84, In Stock, **Shipper/Seller = WoodStock
+Supplies**, "New (14) from $82.84", **non-returnable + hazmat-restricted**, 4.2★ (30),
+miscategorised under *Insect Zappers*, impossible dimensions 78.9 × 47.2 × 10 cm. No
+Amazon.ca offer and no Thermacell Store offer on the sheet. Fails rule 1 on authorized
+availability. Skip correct; substituting an E-ZoneGuard under the name "E90" would have
+been a near-miss.
+
+**Stale-intel correction stands and is worth propagating:** prior waves listed the
+Thermacell E90 among products "verified absent from amazon.ca". It is now present, just
+unpinnable for a different reason. Re-verify absences each wave rather than inheriting them.
+
+### Method note — the failure mode this batch exposes
+
+Every Amazon-side signal on B07S2GKDVL was green: exact brand string, sole SKU, Amazon
+holds the buy box, good rank, recall-clean. The pin was still wrong, because **brand
+string match is not product match**. Before pinning, read the listing's own pest list /
+use directions and check them against the pests and the *mechanism* the hero promises.
+A product that names the right brand but cannot perform the advertised job is a
+near-miss substitute — and the standing finding is that those are worse than a search link.
+
+---
+
+## Wave 5 — INDEPENDENT AUDIT of batch `doktor-doom-canada-guide` / `konk-bed-bug-killer-review-canada` / `best-silverfish-traps-canada` (2026-09-03)
+
+Auditor re-verified every ASIN and re-ran every recall check from scratch rather than
+inheriting the pinning report's. **Verdict: 1 pin UPHELD, 2 skips UPHELD, 0 props
+removed.** The diff is exactly `+2/-1` on one file, both additive `asin=` props.
+
+| Page | Action | ASIN | Auditor's recall check | Disposition |
+|---|---|---|---|---|
+| konk-bed-bug-killer-review-canada | pinned | B07CGRLRNV | **RE-RUN independently — clear.** Health Canada `konk` (with + without archived) → no results; `acuity holdings` (registrant) → 258 fuzzy hits, none the registrant or any pesticide. CPSC official recall API `ProductName=konk` → `[]`; `ProductName=bed bug killer` → 0 records | **UPHELD** |
+| doktor-doom-canada-guide | skipped | — | Health Canada `doktor doom` → clear (moot, no pin) | **UPHELD** |
+| best-silverfish-traps-canada | skipped | — | n/a — class-named hero, no candidate reached pin stage | **UPHELD** |
+
+### 1. konk-bed-bug-killer-review-canada — pin UPHELD, and verified harder than the report did
+
+The report judged identity off the label in the product image. The auditor verified it
+against **the regulator's own database**, which is a stronger primary source and is
+reproducible in one link. Health Canada PMRA Pesticide Label Search, registration 31110:
+
+- **Product Name: `KONK BED BUG KILLER`** — verbatim match to the Amazon title and the hero.
+- **Registration Status: `REGISTERED`** (first registered 2013-11-29, expiry 2027-12-31 —
+  active today, not `HISTORICAL`).
+- **Marketing Type: `DOMESTIC`** — i.e. consumer retail class, which is exactly the
+  "buy it legally off a Canadian shelf" claim the article is built on.
+- **Actives: `PYRETHRINS` 0.5% NOMINAL + `PIPERONYL BUTOXIDE` 5.0% NOMINAL.**
+
+That independently confirms all four editorial claims (Konk brand / bed bug product /
+pyrethrin+PBO chemistry / PMRA-registered) without relying on reading a photo. Amazon-side:
+title `KONK Bed Bug Killer`, Brand `KONK`, Active ingredients `pyrethrin`, Item form `Spray`,
+`$29.99`, **In Stock**, Amazon's Choice, breadcrumb *Pest Control > Repellents > Sprays*.
+Rule 8 satisfied — the verdict is a positive 7.4/10.
+
+Note PMRA also lists **31111 `KONK COMMERCIAL BED BUG KILLER`**. The pinned ASIN is the
+**31110 DOMESTIC** consumer can, which is the right one for this article's reader.
+
+**Two corrections to the pinning report — neither changes the disposition:**
+
+1. **"Sole offer" is wrong.** The dp shows *"Other sellers on Amazon — New (3) from
+   $29.99"*. There are three new offers, not one. The `/gp/offer-listing/` 302-back the
+   report relied on is a redirect behaviour, not proof of a single offer. The buy-box
+   test still **passes**, and on better evidence: the buy box price ($29.99, Babel
+   Distribution, FBA) *equals the lowest of the three offers*, and carries a "Lowest
+   price in 30 days" badge against a `Was: $34.99` list. Not a 3P markup.
+2. **The "position 1 is Raid" leak claim did not reproduce.** Live on 2026-09-03 the
+   query `konk bed bug killer aerosol` returns **B07CGRLRNV at position 1**, with Raid
+   B0753GHM75 at position 4. The report overstated the leak. The pin is still correct and
+   still worth having: positions 2-4 and 6-8 are OnGuard / Ortho / Raid at $10.98-$22.99,
+   so a reader sent to the search page still has nine cheaper, wrong-brand options in
+   front of them, and SERP order is not stable. Pin for basket control, not for a
+   position-1 rescue — and future waves should not cite a one-off SERP snapshot as if it
+   were a fixed property of the query.
+
+### 2. doktor-doom-canada-guide — skip UPHELD, now proven by brand facet
+
+The report's bare `s?k=` queries are exactly what this log's own method note warns against.
+The auditor re-ran it the required way, **brand-filtered**: `s?k=residual&rh=p_89%3ADoktor+Doom`
+→ **7 results, enumerated in full**:
+
+| ASIN | Title | Why it cannot be the hero |
+|---|---|---|
+| B0D9HS5199 | Long Lasting Residual Insecticide **for Horses**, 1L | Livestock — the yellow-jacket string-match error shape |
+| B0D3F9S8LB | **"for Your Dog Only"** Residual & Contact Tick & Flea Killer, 1L | Pet-directed |
+| B0CZ7JYJ5B | 24/7 Long Lasting Residual Barrier **Rat Repellent** Plus | Rodent repellent, not an insecticide |
+| B08244VZYR | Maximum Strength Residual Barrier **Tick & Flea** Killer, 515g | Narrows a general rec to one pest |
+| B0D42DQ2D3 | Maximum Strength 24/7 Residual Barrier **Spider** Killer Plus, 515g | Narrows a general rec to one pest |
+| B0D26F17WQ | Maximum Strength Residual Barrier **Ant** Killer, 515g | Page says ants are a bait job — *"Buy nothing here"* |
+| B07C2QVVHS | Go Green 60 Day Residual Control of **Cockroaches**, 515g | Page says roaches are a gel-bait job — *"Buy nothing here"* |
+
+No general crawling-insect **exterior foundation-band** residual exists under this brand.
+The hero as written — `"Doktor Doom Residual Insecticide Spray"`, table row *"Crawling
+insects around the outside of a building... foundation band, thresholds, window wells"* — has
+no SKU. Decisively, the page's **own featured AwardCard** warns: *"a plant-directed product
+is not a foundation product, however similar the front of the bottle looks."* Pinning the
+horse or dog SKU would commit verbatim the error the card cautions the reader against.
+Pro Max was correctly rejected too: the range table gives **Pro Max** and **Residual** their
+own rows with different jobs (interior baseboards vs exterior band).
+
+**Cross-page consistency note for Diogo (editorial, not a link fix):** the sibling
+`/blog/best-spider-spray-canada` carries the *same* hero name and a prior wave pinned it to
+**Pro Max Spider Killer Plus** — defensible there because that page *is* about spiders, and
+correctly refused here because this page is the general range guide. Both calls are
+consistent, but the shared hero string `"Doktor Doom Residual Insecticide Spray"` names a
+product that does not exist and should be renamed on **both pages together**. This is now
+the third wave to log it.
+
+### 3. best-silverfish-traps-canada — skip UPHELD
+
+Hero is `StickyBuyBar name="Flat insect glue board traps (multi-pack)"` — no brand anywhere,
+the pure class-name pattern (Picaridin / no-see-um mesh / Hydrocortisone 1% / pet-hair
+vacuum). Stronger than a normal class-name skip: the article argues brand is the *wrong
+variable*. Quick Answer — *"Do not pay a premium for a board with 'silverfish' on the
+label... you are buying glue area and quantity, nothing else."* Spec bullet — *"Brand is
+close to irrelevant."* A fixed ASIN is a fixed price and a fixed brand; the page's stated
+selection rule is cheapest-per-board *right now*, which only a live search can express.
+Correctly skipped. No recall check run, and none was owed — no candidate reached pin stage.
+
+### Auditor's mechanical checks
+
+- `git diff` on the three assigned pages: **one file, `+2/-1`**, both lines additive `asin=`
+  props. No title, meta, H1, Quick Answer, verdict, score, prose or existing link touched.
+- `search="konk bed bug killer aerosol"` **preserved verbatim** on both hero surfaces.
+- Hero-only rule honoured: the 4 comparison-table `BuyLink`s and 3 closing CTAs remain
+  search links.
+- `npx tsc --noEmit` → **exit 0**. `StickyBuyBar` and `TopPick` both declare `asin?: string`
+  and forward it to `BuyLink`; `amazonUrl()` returns `/dp/<asin>` when `asin` is set, so the
+  pin genuinely takes effect.
+- `doktor-doom-canada-guide` and `best-silverfish-traps-canada` untouched on disk.
+- Shared files clean: the concurrent edits to `data/image-licenses.json` and the four other
+  `app/blog/*` pages in the worktree belong to **parallel agents** (mosquito-diagram and
+  US-expansion work); grep confirms no konk/doktor/silverfish reference in any of them.
