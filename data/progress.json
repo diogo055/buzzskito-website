@@ -1,8 +1,8 @@
 {
   "program": "Affiliate Revenue Multiplication",
   "started": "2026-09-01",
-  "stage": "E/D-hybrid",
-  "task": "Stage E wave 1 shipped. Next: re-measure 2026-09-30, then wave 2 US pages.",
+  "stage": "I in progress; G not started",
+  "task": "Stage I AI-search application running on 6 pages. Next: Stage G commercial pages.",
   "completed": [
     "A1 repo map -> data/repo-map.md",
     "A2 GSC 12mo cached (corrected for multi-dim pruning)",
@@ -77,5 +77,6 @@
     "EDITORIAL: best-wasp-nest-spray-canada Best Overall pick is a recalled SKU family; consider promoting a different Best Overall",
     "EDITORIAL: mosquito-bits-canada-vs-dunks states $34.99-$45 for 30oz Bits; live .ca price is now $74.36 (38% above the stated range)"
   ],
-  "next_scheduled_measurement": "2026-09-30 \u2014 re-measure Stage E positions and the diagram CTR experiment together"
+  "next_scheduled_measurement": "2026-09-30 \u2014 re-measure Stage E positions and the diagram CTR experiment together",
+  "READ_THIS_FIRST": "data/HANDOFF.md \u2014 full session state, measured facts, gotchas, and what to do next."
 }
