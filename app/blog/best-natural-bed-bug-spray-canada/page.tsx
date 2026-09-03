@@ -53,7 +53,7 @@ const FAQS = [
   },
   {
     question: 'Where can I buy natural bed bug spray in Canada?',
-    answer: 'Plant-based bed-bug sprays are widely available on Amazon.ca, and some are carried seasonally at Canadian Tire, Home Depot Canada, and Home Hardware, plus specialty pest-supply retailers. Amazon.ca has the broadest year-round selection, but it is also where you have to be most careful about the PMRA issue: filter toward products that show a Canadian PCP registration number, and be wary of US-market listings shipped across the border that are not registered here. Doktor Doom is a Canadian brand you will find in domestic retail; EcoRaider and Proof are commonly listed on Amazon.ca — check the specific listing and label for Canadian registration before you buy.',
+    answer: 'Plant-based bed-bug sprays are widely available on Amazon.ca, and some are carried seasonally at Canadian Tire, Home Depot Canada, and Home Hardware, plus specialty pest-supply retailers. Amazon.ca has the broadest year-round selection, but it is also where you have to be most careful about the PMRA issue: filter toward products that show a Canadian PCP registration number, and be wary of US-market listings shipped across the border that are not registered here. Doktor Doom is a Canadian brand you will find in domestic retail, and Proof is listed on Amazon.ca. EcoRaider is the awkward one: as of September 2026 it is not stocked on Amazon.ca at all — searches for it return other brands entirely — so despite being the strongest plant-based contact killer on paper, Canadians generally cannot buy it here. Check any listing for a Canadian PCP registration number before you buy.',
   },
   {
     question: 'Is EcoRaider or Proof or Doktor Doom the better choice?',
@@ -106,6 +106,12 @@ export default function BestNaturalBedBugSprayCanadaPage() {
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
+          <div className="bg-amber-50 border-2 border-amber-300 rounded-xl p-5 my-6">
+            <p className="text-xs font-extrabold uppercase tracking-wider text-amber-800 mb-2">Availability note &mdash; checked September 2026</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed">
+              <strong>EcoRaider is not currently sold on Amazon.ca.</strong> We have checked three times and searches for it return other brands entirely. It remains the best plant-based contact killer on the evidence, which is why it keeps the top slot here &mdash; but if you want something you can actually buy in Canada today, <strong>Proof</strong> (listed on Amazon.ca) and <strong>Doktor Doom</strong> (Canadian brand, clear PCP registration) are the two picks below that are genuinely available.
+            </p>
+          </div>
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
             <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The best natural bed bug spray in Canada is a <strong>plant-based contact killer like <AmazonLink search="ecoraider bed bug killer spray" tag={AMZ_TAG} className="font-bold underline decoration-emerald-500 underline-offset-2 hover:text-emerald-900">EcoRaider</AmazonLink></strong>, worked directly into mattress seams, frame joints, and cracks. Botanical actives (geraniol, cedar) kill adults, nymphs, and directly-sprayed eggs with low odour and low toxicity &mdash; a good fit for bedrooms with kids or pets. <strong>Proof</strong> adds a longer-lasting botanical-plus-mineral residual; <strong>Doktor Doom</strong> is the pick when you want a Canadian brand with a clear PMRA registration number. The catch that applies to every spray: contact killers only kill what they wet, so no spray alone clears an infestation &mdash; pair it with heat, encasements, and interceptor traps.</p>
