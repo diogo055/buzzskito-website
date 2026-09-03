@@ -105,6 +105,38 @@ const FAQS = [
     question: 'What is the worst month for mosquitoes?',
     answer: 'It depends on your latitude. Across Canada and the northern United States, July is the worst month — it combines the highest temperatures with the accumulated output of every generation since spring. On the Gulf Coast and in Florida the peak is longer and rain-driven, roughly May through October, with late summer often the worst as salt-marsh and floodwater species respond to storms. In the desert Southwest, monsoon rain rather than temperature sets the peak, usually July into September.',
   },
+  {
+    question: 'What temperature kills mosquito larvae?',
+    answer: 'Mosquito larvae stop developing between about 8°C and 12°C (46–53°F) and die outright once the water they live in freezes solid. The lower developmental threshold measured for Aedes aegypti larvae is roughly 11.8°C (53°F); below that, growth halts and mortality climbs steeply. Backyard container water cools and freezes far faster than a pond, so plant saucers, tarps, tires and clogged gutters shut down before natural water does. Cold is still a slow and unreliable larvicide — draining the water, or treating what you cannot drain with a Bti (Bacillus thuringiensis israelensis) larvicide registered by Health Canada or the US EPA, works in days rather than months.',
+  },
+  {
+    question: 'What temperature kills mosquito eggs?',
+    answer: 'No temperature a Canadian winter produces reliably kills mosquito eggs. Aedes eggs are desiccation-resistant and freeze-tolerant, and stay viable for months in soil, leaf litter, gutters and on the dry inner walls of containers. They hatch within days once meltwater or spring rain covers them and warms past roughly 10°C (50°F). This is the reason a hard frost never clears a yard: it kills the adults you can see and leaves next year’s population untouched. Removing eggs is physical work rather than weather — scrub the inside walls of containers, store them upside down, and clear gutters and leaf litter in the fall.',
+  },
+  {
+    question: 'How long does it take for cold to kill a mosquito?',
+    answer: 'Hours at freezing, days at merely cool temperatures. An exposed adult mosquito dies within a couple of hours at -2°C (28°F) or below, which is the National Weather Service threshold for a hard freeze. At 10°C (50°F) it stops flying, host-seeking and feeding but dies slowly over several days — of starvation and exhaustion rather than of the cold itself. Between 0°C and 10°C (32–50°F) many adults survive indefinitely by finding shelter, which is exactly what diapausing Culex females do for an entire winter.',
+  },
+  {
+    question: 'At what temperature do mosquitoes come back in spring?',
+    answer: 'Mosquitoes become active again once temperatures hold above 10°C (50°F). Hibernating females wake from sheds, culverts, basements and hollow logs, take a blood meal, and lay the first generation of the year. Freeze-tolerant eggs hatch within days of spring meltwater and rain warming past that same 10°C line. In the Greater Toronto Area that threshold is usually crossed in late April and early May, which is why the treatment season here runs May through September.',
+  },
+  {
+    question: 'What temperature kills mosquitoes in Ontario, and when does that usually happen?',
+    answer: 'The killing temperature in Ontario is the same hard frost of about -2°C (28°F) sustained for a couple of hours, and it typically arrives in mid-to-late October across the Greater Toronto Area. Before that, overnight lows fall under 10°C (50°F) through September and biting pressure collapses on its own. Urban heat islands in Toronto, Mississauga and Brampton hold their first hard frost off a week or two longer than rural Caledon or Halton Hills, so the end of biting season is a neighbourhood question rather than a regional one.',
+  },
+  {
+    question: 'Is 50 degrees too cold for mosquitoes?',
+    answer: 'Yes — 50°F (10°C) is the temperature at which mosquitoes stop flying, host-seeking and biting. They do not die at 50°F, though. They shelter and wait, and a warm spell a few days later brings the same mosquitoes straight back out. That is why the number worth watching in spring and fall is the overnight low against 50°F rather than the daytime high: a 70°F afternoon following a 45°F night produces far fewer bites than the thermometer suggests.',
+  },
+  {
+    question: 'What are the key mosquito temperature thresholds?',
+    answer: 'There are six numbers worth remembering. Mosquitoes are most active above 26°C (80°F). Activity slows noticeably below 15°C (60°F). Mosquitoes stop flying and feeding below 10°C (50°F). Larvae stop developing between about 8°C and 12°C (46–53°F). Active adult mosquitoes die in a hard frost of about -2°C (28°F) held for a couple of hours. At the hot end, heat stress begins above roughly 35°C (95°F) and exposed adults die above about 38–40°C (100–104°F).',
+  },
+  {
+    question: 'When should you call a mosquito control professional instead of waiting for cold weather?',
+    answer: 'Call when biting pressure is high through the 15–30°C (60–86°F) window and the water producing the mosquitoes is not on your own property. Waiting for frost costs you the whole season, because the -2°C (28°F) killing frost does not reach the GTA until mid-to-late October. A licensed barrier treatment targets the shaded resting vegetation where adults spend the day; BuzzSkito treats GTA yards from $99 for a single visit, or $549–$2,049 for a full May-to-September season. Public Health Ontario tracks West Nile virus in Culex populations across the province every summer, which is the other reason not to simply wait the season out.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({
@@ -252,18 +284,22 @@ export default function WhatTemperatureKillsMosquitoesPage() {
         <div className="max-w-3xl mx-auto prose-brand">
 
           <h2>What temperature kills mosquitoes?</h2>
+          <p><strong>A hard frost of about -2&deg;C (28&deg;F), held for a couple of hours, kills active adult mosquitoes.</strong> A light frost near 0&deg;C (32&deg;F) only stuns them. Mosquitoes stop flying and biting below 10&deg;C (50&deg;F). Cold does not kill mosquito eggs or hibernating females, so a killing frost ends the flying season without ending the population.</p>
           <p>A hard, killing frost kills active adult mosquitoes &mdash; sustained temperatures at or below roughly <strong>-2&deg;C (28&deg;F)</strong>. A single light frost near 0&deg;C (32&deg;F) usually only stuns them. That is the number people are really after, but it comes with a catch that most 2019-era articles skip: killing the adults you can see does not end the mosquito population, because the next generation is already waiting out the cold as eggs and hibernating females.</p>
           <p>Mosquitoes are ectothermic (cold-blooded), meaning they have no internal way to keep warm. Their metabolism, flight muscles and feeding drive all rise and fall with the surrounding air. Warm it up and they swarm; cool it down and they shut off. That single fact explains every temperature threshold on this page.</p>
 
           <h2>What temperature do mosquitoes die at?</h2>
+          <p><strong>Active adult mosquitoes die at about -2&deg;C (28&deg;F) sustained</strong> &mdash; the temperature the US National Weather Service defines as a hard freeze. Mosquito larvae die once their water freezes solid. Hibernating <em>Culex</em>, <em>Anopheles</em> and <em>Culiseta</em> females do not die at that temperature at all; they spend the winter dormant in sheltered spots and survive it.</p>
           <p>Active adults die when temperatures hold below about <strong>-2&deg;C (28&deg;F)</strong> for a sustained stretch. They simply cannot survive prolonged freezing while active &mdash; their body fluids and flight muscles cannot operate. Larvae die when the water they live in freezes solid.</p>
           <p>But &ldquo;the temperature a mosquito dies at&rdquo; is not the same as &ldquo;the temperature that ends mosquitoes in your yard.&rdquo; Several GTA-common species never expose themselves to that killing cold in the first place. Instead, mated females enter <strong>diapause</strong> &mdash; a hibernation-like dormant state &mdash; and shelter through the whole winter. For the full picture of where they hide, see our guide on <Link href="/blog/where-do-mosquitoes-go-in-winter-ontario">where mosquitoes go in winter in Ontario</Link>.</p>
 
           <h2>At what temperature are mosquitoes inactive?</h2>
+          <p><strong>Mosquitoes go inactive below 10&deg;C (50&deg;F).</strong> Below that line they stop flying, stop host-seeking and stop feeding. They are already sluggish below 15&deg;C (60&deg;F), and they only reach full activity above 26&deg;C (80&deg;F). Because mosquitoes are cold-blooded, that switch tracks air temperature almost directly rather than the calendar date.</p>
           <p>Mosquitoes go inactive below <strong>10&deg;C (50&deg;F)</strong>. Below that threshold they stop flying and stop biting; they either find shelter to overwinter or die off. You will notice the slowdown well before then &mdash; below <strong>15&deg;C (60&deg;F)</strong> they are already lethargic and fly poorly, which is why a cool GTA evening in the mid-teens feels dramatically less buggy than a warm one.</p>
           <p>Full activity only returns above <strong>26&deg;C (80&deg;F)</strong>. That is the temperature band where mosquitoes feed and breed hardest, and it lines up neatly with when they bother us most &mdash; detailed in <Link href="/blog/when-are-mosquitoes-most-active">when mosquitoes are most active</Link>.</p>
 
           <h2>Do mosquitoes die in winter?</h2>
+          <p><strong>The active adults die, but the species does not.</strong> Mosquitoes survive a Canadian winter three ways: freeze-tolerant eggs in soil and dry containers, mated adult females dormant in diapause, and overwintering larvae in water that never freezes through. That is why mosquitoes reappear in the GTA every May, however cold the winter was.</p>
           <p>The adults you swatted in August largely die off, but the species survives an Ontario winter easily through three overwintering strategies:</p>
           <ul>
             <li><strong>Freeze-tolerant eggs.</strong> Many species (including the aggressive Aedes group) lay eggs in soil, leaf litter and dry containers. These eggs are physiologically built to survive freezing and simply wait &mdash; they hatch within days once spring meltwater and rain warm past roughly 10&deg;C.</li>
@@ -273,10 +309,12 @@ export default function WhatTemperatureKillsMosquitoesPage() {
           <p>This is exactly why mosquitoes reappear every May even after a brutal deep freeze &mdash; the cold never reached the eggs and dormant adults where they shelter.</p>
 
           <h2>What temperature is too cold for mosquitoes?</h2>
+          <p><strong>Below 10&deg;C (50&deg;F) is too cold for mosquitoes to function.</strong> They stop biting and go dormant. Below 15&deg;C (60&deg;F) they already fly poorly. In Ontario terms, mosquito activity collapses once autumn overnight lows sit consistently under 10&deg;C, and the first hard frost near -2&deg;C (28&deg;F) ends the active season outright.</p>
           <p>Anything below <strong>10&deg;C (50&deg;F)</strong> is too cold for mosquitoes to function normally &mdash; they go dormant and stop biting. In practical Ontario terms, once fall overnight lows sit consistently under 10&deg;C, mosquito activity collapses, and the first hard frost ends the active season. In a typical GTA autumn that means biting pressure fades through late September and October.</p>
           <p>Warm microclimates change the math. Urban heat islands, sheltered ravines and mild lakeside pockets can keep pockets of mosquitoes active a few weeks longer than the regional average, so a downtown Toronto backyard may see stragglers after a Caledon acreage has gone quiet. That spread is why the end of biting season is a local question rather than a regional one &mdash; our pages on <Link href="/toronto-mosquito-control">mosquito control in Toronto</Link> and <Link href="/caledon-mosquito-control">mosquito control in Caledon</Link> set out what a May-to-September plan covers in each.</p>
 
           <h2>Does frost kill mosquitoes?</h2>
+          <p><strong>A hard frost kills active adult mosquitoes; a light frost usually does not.</strong> A light frost near 0&deg;C (32&deg;F) stuns them, and many recover once the air warms. A hard, killing frost at about -2&deg;C (28&deg;F) kills exposed adults outright. Neither reaches the freeze-adapted eggs or the hibernating females sheltering below the frost line.</p>
           <p>A hard frost kills active adults; a light frost usually does not. The distinction matters:</p>
           <ul>
             <li><strong>Light frost (~0&deg;C / 32&deg;F):</strong> stuns and immobilizes active mosquitoes, but many recover when it warms back up.</li>
@@ -294,11 +332,57 @@ export default function WhatTemperatureKillsMosquitoesPage() {
           </aside>
 
           <h2>Why cold weather doesn&rsquo;t solve your mosquito problem</h2>
+          <p><strong>Cold sets the timing of mosquito season, not the size of the population.</strong> A frost kills the adults you can see, while freeze-tolerant eggs and diapausing females wait it out in gutters, tarps, sheds and window wells. Standing water and shaded resting habitat &mdash; not winter temperature &mdash; decide how bad next summer gets.</p>
           <p>Homeowners often assume the first frost is the finish line. It ends the <em>current</em> generation of biting adults, but the clock is already reset for next year. Freeze-tolerant eggs sit in your gutters, tarps, plant saucers and low spots; diapausing females shelter in your shed and window wells. When spring temperatures climb back over 10&deg;C and water pools warm up, hatching begins &mdash; and by the time GTA evenings hit the low 20s&deg;C, biting is back in full force.</p>
           <p>The practical takeaway: temperature controls the <em>timing</em> of mosquito season, not the total size of the population. What actually determines how bad your summer gets is standing water and resting habitat on and around your property. That is why draining containers, clearing leaf litter and treating resting zones matters far more than any cold snap. For the seasonal timeline, see <Link href="/blog/mosquito-season-gta-when-does-it-start">when mosquito season starts in the GTA</Link>.</p>
 
           <h2>Does hot weather kill mosquitoes?</h2>
+          <p><strong>Rarely in Ontario &mdash; mosquitoes tolerate heat far better than cold.</strong> Sustained temperatures above roughly 35&deg;C (95&deg;F) shorten adult lifespan and dry out breeding water, and exposed adults die above about 38&ndash;40&deg;C (100&ndash;104&deg;F). But the same heat speeds up the larval cycle, so a GTA heat wave usually produces more mosquitoes, not fewer.</p>
           <p>Rarely, in Ontario. Mosquitoes tolerate heat far better than cold &mdash; they stay active well into the 30s&deg;C. Sustained temperatures above roughly <strong>35&deg;C (95&deg;F)</strong> do stress adults and speed up water evaporation, but they also accelerate the larval cycle in whatever water remains. So a GTA heat wave usually means <em>more</em> mosquitoes within a couple of weeks, not fewer &mdash; unless the standing water they breed in dries out completely.</p>
+
+          <h2>What temperature kills mosquito larvae?</h2>
+          <p><strong>Mosquito larvae stop developing between about 8&deg;C and 12&deg;C (46&ndash;53&deg;F), and die outright once the water they live in freezes solid.</strong> The lower developmental threshold measured for <em>Aedes aegypti</em> larvae is roughly 11.8&deg;C (53&deg;F). Below that figure, growth halts and mortality climbs steeply, long before the water itself turns to ice.</p>
+          <p>Container water is the part that matters in a backyard, and it cools faster than anything natural. A plant saucer, a sagging tarp, a tire or a clogged gutter drops below the developmental threshold weeks before a pond does, which is why the breeding sites on your own property shut down first in the fall and restart first in the spring. Cold is still a slow and unreliable larvicide. Draining the water works in minutes; treating what you cannot drain with a <em>Bacillus thuringiensis israelensis</em> (Bti) larvicide &mdash; registered by Health Canada&rsquo;s Pest Management Regulatory Agency and by the US EPA &mdash; works in days.</p>
+
+          <h2>What temperature kills mosquito eggs?</h2>
+          <p><strong>No temperature a Canadian winter produces reliably kills mosquito eggs.</strong> <em>Aedes</em> eggs are desiccation-resistant and freeze-tolerant, and stay viable for months in soil, leaf litter, gutters and on the dry inner walls of containers. They hatch within days once meltwater or spring rain covers them and warms past roughly 10&deg;C (50&deg;F).</p>
+          <p>This is the single fact that undoes the &ldquo;wait for frost&rdquo; instinct. The frost kills the adults you can see and leaves next year&rsquo;s population entirely untouched, sitting a few metres from your patio door. Removing eggs is physical work rather than weather: scrub the inside walls of containers rather than just tipping them, store them upside down over winter, and clear gutters and leaf litter in the fall. Scrubbing matters because <em>Aedes</em> eggs are glued to the container wall above the waterline and survive a simple pour-out.</p>
+
+          <h2>How long does it take for cold to kill a mosquito?</h2>
+          <p><strong>Hours at freezing, days at merely cool temperatures.</strong> An exposed adult mosquito dies within a couple of hours at -2&deg;C (28&deg;F) or below. At 10&deg;C (50&deg;F) it stops flying, host-seeking and feeding but dies slowly over several days &mdash; of starvation and exhaustion rather than of the cold itself. Between 0&deg;C and 10&deg;C (32&ndash;50&deg;F), many adults survive indefinitely by finding shelter.</p>
+          <p>That middle band is the one people underestimate. A diapausing <em>Culex pipiens</em> female spends an entire Ontario winter in exactly those conditions, in a culvert, sewer, crawl space or unheated basement, and emerges alive in April. Duration only becomes lethal once the temperature is genuinely below freezing; above it, duration mostly determines how hungry the mosquito is when it wakes.</p>
+
+          <h2>At what temperature do mosquitoes come back in spring?</h2>
+          <p><strong>Mosquitoes become active again once temperatures hold above 10&deg;C (50&deg;F).</strong> Hibernating females wake from sheds, culverts, basements and hollow logs, take a blood meal, and lay the first generation of the year. Freeze-tolerant eggs hatch within days of spring meltwater and rain warming past that same 10&deg;C line.</p>
+          <p>In the Greater Toronto Area that threshold is usually crossed in late April and early May, which is why the treatment season here runs May through September. The first mosquitoes of the year are not new arrivals; they are last autumn&rsquo;s survivors. See <Link href="/blog/mosquito-season-gta-when-does-it-start">when mosquito season starts in the GTA</Link> for the month-by-month version of this timeline.</p>
+
+          <h2>What temperature kills mosquitoes in Ontario, and when does that usually happen?</h2>
+          <p><strong>The killing temperature in Ontario is the same hard frost of about -2&deg;C (28&deg;F) sustained for a couple of hours, and it typically arrives in mid-to-late October across the Greater Toronto Area.</strong> Overnight lows fall under 10&deg;C (50&deg;F) through September, and biting pressure collapses well before the frost ever lands.</p>
+          <p>The frost date is a neighbourhood question rather than a regional one. Urban heat islands in Toronto, Mississauga and Brampton hold their first hard frost off by a week or two compared with rural Caledon, Milton or Halton Hills, and sheltered ravines and lakeside pockets stretch it further again. <a href="https://www.publichealthontario.ca/" target="_blank" rel="noopener" className="text-emerald-700 underline">Public Health Ontario</a> runs provincial West Nile virus surveillance through the same window, which is the practical reason the season is treated as May to September rather than ending at the first cold night.</p>
+
+          <h2>Is 50 degrees too cold for mosquitoes?</h2>
+          <p><strong>Yes &mdash; 50&deg;F (10&deg;C) is the temperature at which mosquitoes stop flying, host-seeking and biting.</strong> They do not die at 50&deg;F, though. They shelter and wait, and a warm spell a few days later brings the same mosquitoes straight back out. Nothing about crossing that line is permanent until a hard freeze follows it.</p>
+          <p>The number worth watching in spring and fall is therefore the overnight low against 50&deg;F, not the daytime high. A 70&deg;F afternoon that follows a 45&deg;F night produces far fewer bites than the thermometer suggests, because the local population spent the night sheltering and takes hours to become active again.</p>
+
+          <h2>What are the key mosquito temperature thresholds?</h2>
+          <p><strong>Ten numbers cover almost every mosquito temperature question.</strong> They apply to the common temperate species on both sides of the border, and they vary by a few degrees between species. The list below restates the tables above as plain sentences, in Celsius first with the Fahrenheit equivalent in brackets.</p>
+          <ul>
+            <li>Mosquitoes are most active above 26&deg;C (80&deg;F).</li>
+            <li>Mosquitoes prefer roughly 21&ndash;27&deg;C (70&ndash;80&deg;F) and live longest in that band.</li>
+            <li>Mosquito activity slows noticeably below 15&deg;C (60&deg;F).</li>
+            <li>Mosquitoes stop flying, host-seeking and feeding below 10&deg;C (50&deg;F).</li>
+            <li>Mosquito larvae stop developing between about 8&deg;C and 12&deg;C (46&ndash;53&deg;F).</li>
+            <li>A light frost at 0&deg;C (32&deg;F) stuns adult mosquitoes but usually does not kill them.</li>
+            <li>A hard frost at -2&deg;C (28&deg;F), held for a couple of hours, kills exposed adult mosquitoes.</li>
+            <li>Mosquito eggs and hibernating adult females survive freezing and are not killed by frost.</li>
+            <li>Heat stress begins above roughly 35&deg;C (95&deg;F), and exposed adults die above about 38&ndash;40&deg;C (100&ndash;104&deg;F).</li>
+            <li>Mosquitoes resume activity in spring once temperatures hold above 10&deg;C (50&deg;F).</li>
+          </ul>
+          <p className="text-sm text-gray-600">The cold thresholds follow <a href="https://www.cdc.gov/mosquitoes/" target="_blank" rel="noopener" className="text-emerald-700 underline">CDC</a> and <a href="https://www.mosquito.org/mosquito-information/" target="_blank" rel="noopener" className="text-emerald-700 underline">American Mosquito Control Association</a> guidance; the 28&deg;F hard-freeze figure is the <a href="https://forecast.weather.gov/glossary.php?word=freeze" target="_blank" rel="noopener" className="text-emerald-700 underline">NOAA / National Weather Service</a> definition; the larval band reflects the published lower developmental threshold for <em>Aedes aegypti</em>.</p>
+
+          <h2>When should you call a mosquito control professional instead of waiting for cold weather?</h2>
+          <p><strong>Call when biting pressure is high through the 15&ndash;30&deg;C (60&ndash;86&deg;F) window and the water producing the mosquitoes is not on your own property.</strong> Waiting for frost costs you the whole season, because the -2&deg;C (28&deg;F) killing frost does not reach the GTA until mid-to-late October &mdash; five months after biting begins.</p>
+          <p>A licensed barrier treatment targets the shaded resting vegetation where adult mosquitoes spend the day, which is the half of a property that temperature alone never clears. BuzzSkito treats GTA yards from $99 for a single visit, or $549 to $2,049 for a full May-to-September season, across 19 cities. If the concern is disease rather than nuisance, <a href="https://www.publichealthontario.ca/" target="_blank" rel="noopener" className="text-emerald-700 underline">Public Health Ontario</a> tracks West Nile virus in <em>Culex</em> populations every summer, and the <a href="https://www.cdc.gov/mosquitoes/" target="_blank" rel="noopener" className="text-emerald-700 underline">CDC</a> publishes the bite-prevention guidance that applies on both sides of the border.</p>
 
           <h2>Does any of this change where you live in the United States?</h2>
           <p><strong>Yes &mdash; and for one region it changes the whole premise of this page.</strong> Everything above is written for Ontario and it transfers cleanly to the northern United States, because it is the same physics and the same winter. Maine, Michigan, Minnesota, upstate New York and Pennsylvania all get the frost that ends the flying season, and the 50&deg;F (10&deg;C) switch works identically there. But <strong>large parts of the US never get a killing freeze at all</strong>: South Florida, the Gulf Coast, South Texas, coastal Southern California, the low Arizona desert and Hawaii. If you live in any of those, &ldquo;wait for the first frost&rdquo; is not a plan, because the frost is not coming.</p>

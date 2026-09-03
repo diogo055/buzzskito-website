@@ -60,6 +60,42 @@ const FAQS = [
     question: 'Can a mosquito bite itch for two weeks?',
     answer: 'Yes, though it is not the norm. Ordinary bites resolve in 3 to 7 days, but a strong allergic reaction can stay itchy and swollen for a week or two. Constant scratching also prolongs things by re-triggering histamine and irritating the skin, and it risks breaking the skin and causing infection, which itches and hurts in a different way. If a bite is still worsening after two days, oozing pus, spreading redness, or accompanied by fever, see a healthcare provider rather than waiting it out.',
   },
+  {
+    question: 'How soon after a mosquito bite does it start to itch?',
+    answer: 'A mosquito bite usually starts to itch 5 to 20 minutes after the mosquito feeds. The U.S. Centers for Disease Control and Prevention (CDC) describes a puffy, reddish bump appearing a few minutes after the bite, followed a day or so later by a harder, itchier, reddish-brown bump. The bite itself is normally painless, so many people never feel the mosquito and only notice the welt once the histamine reaction is underway. If nothing appears within the first hour, a delayed bump can still surface the next morning.',
+  },
+  {
+    question: 'Why does scratching a mosquito bite make it itch more?',
+    answer: 'Scratching releases more histamine into the skin and restarts the exact reaction that caused the itch. It also irritates the nerve endings that report itch to the brain, which sets up a self-feeding itch-scratch cycle, and it can break the skin surface and let bacteria in. A bite you leave alone typically stops itching in 2 to 4 days, while a bite you keep scratching can stay irritated for a week or more and is far more likely to leave a lasting mark.',
+  },
+  {
+    question: 'How long does a mosquito bite stay swollen?',
+    answer: 'A normal mosquito bite stays swollen for about 1 to 3 days and flattens as the histamine clears. A large local allergic reaction — a hot, firm patch 5 cm (about 2 inches) or wider — can stay raised for up to two weeks. The swelling is leaked plasma, not pus or infection, so it settles on its own once the immune reaction fades. Mayo Clinic notes that these larger reactions are most common in young children and in people newly exposed to a mosquito species. Swelling that is still growing 48 hours after the bite, or that comes with fever or spreading redness, should be looked at by a healthcare provider.',
+  },
+  {
+    question: 'What is skeeter syndrome?',
+    answer: 'Skeeter syndrome is the informal name for a large local allergic reaction to mosquito saliva. Instead of a small welt, the skin swells into a hot, red, firm patch 5 cm (about 2 inches) or wider within hours of the bite, sometimes with blistering or a low-grade fever. Mayo Clinic notes that these severe reactions are most common in young children and in people newly exposed to a mosquito species. It is an allergy rather than an infection, and it usually settles with cold compresses, antihistamines, and 1% hydrocortisone.',
+  },
+  {
+    question: 'Do only female mosquitoes bite?',
+    answer: 'Only female mosquitoes bite. They need the protein and iron in a blood meal to develop their eggs, so biting is a reproductive requirement rather than a food source. Male mosquitoes feed entirely on flower nectar and plant sugars and cannot pierce skin. That means every itchy welt you have ever had came from a female. It also explains why mosquito control works the way it does: killing the resting adults in shaded vegetation removes the females before they ever reach you.',
+  },
+  {
+    question: 'Do mosquito bites leave scars?',
+    answer: 'Mosquito bites rarely leave true scars. The itchy welt forms in the upper layers of skin and heals without damaging the deeper tissue that produces scarring. What lingers is post-inflammatory pigmentation — a flat brown, pink, or greyish mark that fades over several weeks to a few months and is more visible, and slower to clear, on darker skin tones. Permanent marks almost always come from scratching deep enough to break the skin or from picking the scab. The U.S. Centers for Disease Control and Prevention (CDC) advises against scratching bites, because breaking the skin surface can lead to infection.',
+  },
+  {
+    question: 'When should you see a doctor about a mosquito bite?',
+    answer: 'See a healthcare provider if a mosquito bite shows spreading redness, growing warmth, increasing pain, pus, or red streaks trailing from the site, especially alongside a fever — those point to infection rather than a normal reaction. Call 911 for hives away from the bite, swelling of the lips or face, dizziness, or trouble breathing, which can signal anaphylaxis. The Public Health Agency of Canada also notes that mosquitoes in parts of Ontario carry West Nile virus, so fever, headache, or body aches in the days after being bitten are worth reporting to a doctor.',
+  },
+  {
+    question: 'When are mosquito bites worst in Ontario?',
+    answer: 'Mosquito season in Ontario runs from May through September, and bites peak in June and July once spring rain and warm nights have produced the largest broods. Public Health Ontario carries out West Nile virus mosquito surveillance each summer, and the Culex species that carry the virus feed most heavily at dusk and dawn from July into September. In the GTA that means the worst bite pressure sits squarely over backyard season, which is why barrier treatments here are scheduled from May through September rather than as one-off visits.',
+  },
+  {
+    question: 'How can you tell a mosquito bite from a bed bug bite?',
+    answer: 'A mosquito bite is a single round, puffy welt that appears within minutes on skin left uncovered outdoors, while bed bug bites usually appear overnight in lines or tight clusters of three or four on skin that was against the mattress. Mosquito welts fade in 3 to 7 days; bed bug bites often take longer and keep reappearing night after night because the source is indoors. Location and pattern are the fastest tell: outdoors and scattered points to mosquitoes, indoors and lined up points to bed bugs.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({
@@ -144,6 +180,7 @@ export default function WhyDoMosquitoBitesItchPage() {
               </tbody>
             </table>
           </div>
+          <p className="text-sm text-gray-700 leading-relaxed mt-4">In plain language: the bite itself takes seconds and is usually painless. An itchy welt appears 5 to 20 minutes later. The bump is firmest and itchiest 24 to 48 hours after the bite. A normal mosquito bite settles within 3 to 7 days. A strong allergic reaction can stay swollen and itchy for up to two weeks. A flat brown or pink mark can remain for several weeks after the itch has gone.</p>
           <p className="text-xs text-gray-500 mt-3">General timeline; individual reactions vary. Educational information aligned with public-health guidance from the Public Health Agency of Canada (PHAC) and the U.S. Centers for Disease Control and Prevention (CDC) &mdash; not a substitute for medical advice.</p>
         </div>
       </section>
@@ -153,6 +190,7 @@ export default function WhyDoMosquitoBitesItchPage() {
           <AuthorByline datePublished={DATE} />
 
           <h2>Why do mosquito bites itch?</h2>
+          <p>Mosquito bites itch because your immune system reacts to proteins in the mosquito&rsquo;s saliva, not because of the puncture. Mast cells release histamine, which leaks fluid into the skin and fires the nerve endings that signal itch. The U.S. Centers for Disease Control and Prevention (CDC) describes the result as a puffy, reddish bump that turns harder and itchier a day later.</p>
           <Figure
             src="/diagrams/mosquito-bite-mechanism.svg"
             alt="Diagram showing how a mosquito pierces skin with six mouthparts, injects saliva, and why the immune reaction to that saliva causes the itch"
@@ -165,22 +203,27 @@ export default function WhyDoMosquitoBitesItchPage() {
           <p>That is why the classic mosquito welt is red, raised, and maddeningly itchy all at once &mdash; it is your body&rsquo;s defence system overreacting to a harmless bit of insect spit. And it is why the treatments that actually work target the histamine, not the bite: antihistamines and 1% hydrocortisone calm the immune reaction, while picking at the puncture does nothing. Our companion guide on <Link href="/blog/mosquito-bite-treatment-relief">how to stop a mosquito bite from itching</Link> walks through exactly what to reach for.</p>
 
           <h2>Why are mosquito bites itchy for some people and not others?</h2>
+          <p>Sensitivity to mosquito saliva differs from person to person and shifts over a lifetime. People bitten thousands of times often become desensitized and barely react, while children and newcomers to a region react hardest. Mayo Clinic notes that severe reactions are most common in young children and in people newly exposed to a mosquito species. Being bitten more and reacting more are two separate things.</p>
           <p>Your reaction depends on how sensitized your immune system is to the specific saliva proteins of the mosquitoes biting you &mdash; and that changes over a lifetime. Allergists describe a rough sequence people move through with repeated exposure: at first no reaction at all, then a delayed itchy bump a day later, then both an immediate welt and a delayed bump, and finally &mdash; after enough bites &mdash; the reaction fades and many people barely respond. This is why long-time residents of a cottage often shrug off bites that leave visitors covered in welts.</p>
           <p>Children tend to react most strongly because they have had the fewest bites, and people who move to a new region can flare up for a season or two before their immune systems adjust to the local species. Genetics and overall immune status matter too. None of this changes how <em>attractive</em> you are to mosquitoes in the first place &mdash; that is a separate question we cover in <Link href="/blog/what-attracts-mosquitoes-to-you">what attracts mosquitoes to you</Link>.</p>
 
           <h2>What happens when a mosquito bites you?</h2>
+          <p>A biting mosquito is always a female, and she is after blood protein for her eggs. She pierces the skin with a needle-like proboscis, injects saliva that stops your blood clotting, and feeds for up to about 60 seconds. Everything you feel afterwards &mdash; itch, welt, swelling &mdash; is your immune reaction to the saliva she left behind, not damage from the puncture.</p>
           <p>Only female mosquitoes bite, because they need protein from a blood meal to develop their eggs. When one lands on you, she uses a slender mouthpart called a proboscis to probe through the skin until she finds a small blood vessel. As she draws blood &mdash; a process that can take up to a minute &mdash; she pumps saliva into the wound to keep the blood flowing and the vessel relaxed. When she is full, she flies off, leaving that saliva behind in your skin.</p>
           <p>The bite itself is usually painless, which is why you often do not notice it happening. Everything you feel afterward &mdash; the itch, the welt, the swelling &mdash; is your immune response to the leftover saliva, not damage from the puncture. That delay is exactly why you tend to discover mosquito bites after the fact, sometimes clustered on ankles, wrists, and other spots where skin is thin and blood vessels sit close to the surface.</p>
 
           <h2>How long do mosquito bites last (and how long do they itch)?</h2>
+          <p>Most mosquito bites last 3 to 7 days and itch for about 2 to 4 days. The itch peaks 24 to 48 hours after the bite, then fades as your body clears the histamine. A strong allergic reaction can stay swollen and itchy for up to two weeks. Scratching adds days to either timeline, and a flat mark can remain for several weeks afterwards.</p>
           <p>Most mosquito bites last 3 to 7 days and itch worst in the first 24 to 48 hours. The welt rises quickly, peaks as the delayed part of the immune reaction kicks in on the second day, then gradually flattens and stops itching as your body clears the histamine. For a routine bite that you leave alone, the itch is usually mostly gone within 2 to 4 days.</p>
           <p>Two things stretch that timeline out. A strong allergic reaction can keep a bite swollen and itchy for a week or two. And scratching &mdash; the most tempting and most counterproductive response &mdash; releases fresh histamine, re-inflames the skin, and can break the surface, which both prolongs the itch and opens the door to infection. Even after the bump is gone, a flat brown or pinkish mark (post-inflammatory pigmentation) can linger for several weeks, especially on darker skin or where a bite was scratched raw. The single best thing you can do to make a bite go away faster is to not scratch it.</p>
 
           <h2>Do mosquito bites leave marks or scars?</h2>
+          <p>Mosquito bites rarely leave true scars. What lingers is post-inflammatory pigmentation &mdash; a flat brown, pink, or greyish mark that fades over several weeks to a few months and shows longer on darker skin. Permanent marks come from scratching deep enough to break the skin. The U.S. Centers for Disease Control and Prevention (CDC) advises against scratching bites, because breaking the skin surface can lead to infection.</p>
           <p>Most mosquito bites do not scar, because the reaction plays out in the upper layers of the skin and heals without damaging the deeper tissue that forms true scars. What people usually notice weeks later is a flat brown, pink, or greyish spot called <strong>post-inflammatory pigmentation</strong> &mdash; the skin&rsquo;s temporary response to inflammation, not a scar. These marks fade on their own over several weeks to a few months and are more noticeable, and slower to clear, on darker skin tones.</p>
           <p>True scarring almost always comes from the same culprit that causes infection: scratching. Digging at a bite hard enough to break the skin, or picking at the scab that forms, can damage deeper skin and leave a small permanent mark. Two simple habits keep bites from leaving anything behind &mdash; resist the urge to scratch, and keep the healing spot out of strong sun, since UV exposure darkens post-inflammatory marks and makes them linger. If a bite mark is raised, growing, or changing long after the itch is gone, mention it to a healthcare provider.</p>
 
           <h2>Why are mosquito bites worse at night?</h2>
+          <p>Mosquito bites feel worse at night because the body&rsquo;s own brake on itching relaxes after dark. Cortisol, your natural anti-inflammatory hormone, falls to its lowest overnight, while skin temperature and water loss rise &mdash; all of which amplify itch. A quiet, dark room also leaves your brain nothing else to notice.</p>
           <p>If your bites seem to flare the moment your head hits the pillow, you are not imagining it &mdash; several factors line up against you at night. The leading explanation is your body clock: levels of cortisol, your body&rsquo;s own anti-inflammatory hormone, fall to their lowest point overnight, so there is less natural braking on the itch. Researchers studying nocturnal itch have also noted that skin temperature rises and the skin loses more water in the evening, both of which are known to intensify the sensation of itching.</p>
           <p>On top of the biology, there is attention. During the day, work, movement, and a hundred small distractions crowd out the itch; lying still in a quiet, dark room, your brain has nothing else to focus on, so the same signal feels much stronger. Timing plays a part too &mdash; many Ontario mosquitoes, including the <em>Culex</em> species tied to West Nile virus, feed most at dusk, so bites collected at a summer-evening barbecue are often reaching peak itch right at bedtime.</p>
 
@@ -189,11 +232,13 @@ export default function WhyDoMosquitoBitesItchPage() {
           </div>
 
           <h2>Why do mosquito bites swell up &mdash; and why is mine so big?</h2>
+          <p>Mosquito bite swelling is leaked fluid, not infection. Histamine makes nearby blood vessels leaky, so plasma seeps into the skin and lifts a firm welt called a wheal. The stronger your immune reaction to the saliva, the bigger the welt. A bite that swells past about 5 cm (2 inches) and turns hot and hard is a large local allergic reaction, not a bacterial one.</p>
           <p>The swelling is simply fluid. When histamine makes the blood vessels around the bite leaky, plasma seeps out into the skin and raises a firm, puffy welt called a wheal. The stronger your immune reaction to the saliva proteins, the more histamine floods the area and the bigger the swelling gets. That is why the same person can have a pinprick bump on one arm and a swollen lump on an ankle or eyelid, where the skin is thin and looser and puffs up more dramatically.</p>
           <p>Ankles collect more of those welts in the first place, too. Exhaled carbon dioxide is denser than air and pools near the ground, which is exactly where low-flying <em>Aedes</em> species hunt — the reason behind it is in <Link href="/blog/why-do-mosquitoes-bite-my-ankles">why mosquitoes go for your ankles</Link>.</p>
           <p>When a bite swells into a large, hot, hard, red patch several centimetres across &mdash; sometimes with blistering or a low-grade fever, usually within hours &mdash; that is a strong localized allergic reaction often nicknamed <strong>skeeter syndrome</strong>. It is most common in young children and in people newly exposed to an area&rsquo;s mosquitoes. It looks alarming and is easy to mistake for an infection, but it is an allergy, not bacteria, and it typically settles with cold compresses, antihistamines, and hydrocortisone. Because infection and a big allergic reaction can look similar, it is worth reading <Link href="/blog/when-to-worry-about-a-mosquito-bite">when to worry about a mosquito bite</Link> to tell them apart.</p>
 
           <h2>Do mosquito bites itch more the next day?</h2>
+          <p>Yes &mdash; for many people the second day is the worst. A mosquito bite produces two waves: an immediate welt within 5 to 20 minutes, then a delayed reaction that peaks 24 to 48 hours later. Mayo Clinic describes that delayed stage as a hard, itchy, reddish-brown bump appearing a day or so after the bite.</p>
           <p>For a lot of people, yes. The mosquito-bite reaction commonly comes in two waves: an <strong>immediate</strong> welt within minutes, driven by the first histamine release, and a <strong>delayed</strong> reaction that builds over the following 24 to 48 hours as immune cells migrate to the site and stir up deeper inflammation. That delayed phase is often the itchiest, which is why a bite that seemed trivial at bedtime can be at its worst the next morning. As you accumulate lifelong exposure to local mosquitoes, the delayed wave tends to shrink, and eventually many people are left with only the brief immediate welt &mdash; or no reaction at all.</p>
 
           <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
@@ -205,13 +250,38 @@ export default function WhyDoMosquitoBitesItchPage() {
             </div>
           </aside>
 
+          <h2>How soon after a mosquito bite does it start to itch?</h2>
+          <p>A mosquito bite usually starts to itch 5 to 20 minutes after the mosquito feeds. The CDC describes a puffy, reddish bump appearing a few minutes after the bite, followed a day or so later by a harder, itchier, reddish-brown one. The bite itself is normally painless, so most people never feel the mosquito and only find the welt afterwards.</p>
+          <p>If nothing shows up in the first hour, that does not mean you escaped. The delayed half of the reaction can surface the next morning as a firm bump, which is why bites collected at an evening barbecue are often discovered at breakfast.</p>
+
+          <h2>Why does scratching a mosquito bite make it itch more?</h2>
+          <p>Scratching releases more histamine into the skin and restarts the exact reaction that caused the itch. It also irritates the nerve endings that report itch to the brain, setting up a self-feeding itch&ndash;scratch cycle. A bite left alone typically stops itching in 2 to 4 days; a bite you keep scratching can stay irritated for a week or more.</p>
+          <p>Scratching is also the single biggest cause of the two outcomes people actually mind: infection, when a fingernail breaks the skin surface and lets bacteria in, and a lasting discoloured mark. The U.S. Centers for Disease Control and Prevention (CDC) advises against scratching bites for this reason. A cold compress interrupts the cycle without doing either.</p>
+
+          <h2>How long does a mosquito bite stay swollen?</h2>
+          <p>A normal mosquito bite stays swollen for about 1 to 3 days and flattens as the histamine clears. A large local allergic reaction &mdash; a hot, firm patch 5 cm (about 2 inches) or wider &mdash; can stay raised for up to two weeks. The swelling is leaked plasma rather than pus, so it settles on its own once the immune reaction fades. Mayo Clinic notes that these larger reactions are most common in young children and in people newly exposed to a mosquito species.</p>
+
+          <h2>What is skeeter syndrome?</h2>
+          <p>Skeeter syndrome is the informal name for a large local allergic reaction to mosquito saliva. Instead of a small welt, the skin swells into a hot, red, firm patch 5 cm (about 2 inches) or wider within hours of the bite, sometimes with blistering or a low-grade fever. Mayo Clinic notes these severe reactions are most common in young children.</p>
+          <p>It is an allergy, not an infection &mdash; the two look similar because both produce heat, redness, and swelling. The practical difference is timing: an allergic reaction is at its worst within hours and then improves, while an infection keeps getting worse after the first day or two.</p>
+
+          <h2>Do only female mosquitoes bite?</h2>
+          <p>Only female mosquitoes bite. They need the protein and iron in a blood meal to develop their eggs, so biting is a reproductive requirement rather than a food source. Male mosquitoes feed entirely on flower nectar and plant sugars and cannot pierce skin. Every itchy welt you have ever had came from a female.</p>
+
+          <h2>When are mosquito bites worst in Ontario?</h2>
+          <p>Mosquito season in Ontario runs from May through September, and bites peak in June and July once spring rain and warm nights have produced the largest broods. Public Health Ontario runs West Nile virus mosquito surveillance each summer, and the <em>Culex</em> species that carry the virus feed most heavily at dusk and dawn from July into September.</p>
+          <p>In the GTA that peak sits squarely over backyard season, which is why <Link href="/mosquito-control">barrier treatments here</Link> are scheduled across May to September rather than booked as one-off visits after the bites have already started.</p>
+
           <h2>When a mosquito bite is more than just an itch</h2>
+          <h3>When should you see a doctor about a mosquito bite?</h3>
+          <p>See a healthcare provider if a bite shows spreading redness, growing warmth, increasing pain, pus, or red streaks trailing from the site, especially with a fever &mdash; those point to infection rather than a normal reaction. Call 911 for hives away from the bite, swelling of the lips or face, dizziness, or trouble breathing, which can signal anaphylaxis.</p>
           <p>The vast majority of mosquito bites are harmless and heal on their own. But a few signs mean it is time to stop watching and see a healthcare provider. Get medical care if a bite shows signs of <strong>infection</strong> &mdash; spreading redness, warmth, increasing pain, pus, or red streaks trailing from the site, especially with a fever &mdash; which usually follows scratching that breaks the skin. Seek urgent care for any whole-body allergic reaction, such as hives away from the bite, swelling of the lips or face, dizziness, or trouble breathing; that can be anaphylaxis, and in an emergency you should call 911.</p>
           <p>The Public Health Agency of Canada also notes that mosquitoes in parts of Ontario can carry <strong>West Nile virus</strong>, so fever, headache, or body aches in the days after being bitten are worth mentioning to a doctor. For a full walkthrough of the warning signs versus a normal reaction, see <Link href="/blog/when-to-worry-about-a-mosquito-bite">when to worry about a mosquito bite</Link>. And if you are not certain a mark even came from a mosquito, comparing it against <Link href="/blog/why-mosquitoes-bite-some-people-more">why mosquitoes bite some people more than others</Link> can help you rule things in or out.</p>
 
           <p className="text-sm text-gray-500 italic mt-6">This article is general educational information and is not medical advice. It does not diagnose or treat any condition. For any bite that concerns you &mdash; or any symptom that is severe, spreading, or accompanied by fever or difficulty breathing &mdash; contact a healthcare provider, or call 911 in an emergency.</p>
 
           <h2>Mosquito Bite vs Other Bites</h2>
+          <p>A mosquito bite is a single round, puffy welt that appears within minutes on uncovered skin and fades in 3 to 7 days, while bed bug bites arrive overnight in lines or clusters, flea bites cluster as small red dots on the lower legs and ankles, chigger bites cluster where clothing sits tight against the skin, and no-see-um bites burn far out of proportion to their size.</p>
           <p>If a bite does not itch, swell, or heal the way this page describes, it may not be a mosquito at all. When bites arrive in lines or clusters, blister, or itch far out of proportion to their size, compare them against these common look-alikes:</p>
           <ul>
             <li><Link href="/blog/bed-bug-bites">Bed bug bites</Link> &mdash; often appear in lines or clusters on skin exposed while you sleep.</li>

@@ -54,6 +54,34 @@ const FAQS = [
     question: 'Do the same mosquitoes come back to bite you again?',
     answer: 'The individual mosquito that bit you is often the same one still trying to finish her meal moments later, but a mosquito does not remember you from one night to the next in any meaningful way. What makes it feel like the same mosquitoes return is that the conditions drawing them to you — carbon dioxide from your breath, body heat, and skin odour — do not change, so new females keep finding the same attractive host. Reducing the resting population in your yard with a professional barrier treatment is more effective than trying to outlast individual mosquitoes.',
   },
+  {
+    question: 'Can one mosquito bite you 10 times?',
+    answer: 'Yes, in principle, because a mosquito has no fixed bite limit. A female brushed away ten times can leave ten separate punctures while trying to complete a single blood meal, since every interruption forces her to start a new bite. In practice one mosquito usually leaves three to six welts before she either finishes feeding or gives up, so ten or more bites in one evening more often means several mosquitoes were feeding rather than one very persistent female. The count is driven by how often she was disturbed, not by a limit built into the insect.',
+  },
+  {
+    question: 'How long does a single mosquito bite take?',
+    answer: 'A single uninterrupted mosquito bite takes about 2 to 5 minutes from landing to takeoff. In that time the female draws roughly 2 to 5 microlitres of blood, about one-thousandth of a teaspoon, and her abdomen swells to as much as three times her own body weight. Most people never feel it happening. Mayo Clinic explains that the itchy bump is an immune reaction to proteins in mosquito saliva rather than damage from the puncture itself, which is why the welt often appears hours later and can take 24 to 48 hours to reach full size.',
+  },
+  {
+    question: 'How much blood does a mosquito take in one bite?',
+    answer: 'A mosquito takes about 2 to 5 microlitres of blood in one full bite, which is roughly one-thousandth of a teaspoon, or about 0.005 millilitres. That tiny volume still swells her abdomen to as much as three times her body weight, because an adult mosquito weighs only about 2 to 2.5 milligrams. The amount is far too small to matter to a person: an adult human carries roughly 5 litres of blood, so it would take more than a million full mosquito meals to drain one. The risk from a mosquito bite is the saliva and anything it carries, never the blood loss.',
+  },
+  {
+    question: 'Do male mosquitoes bite?',
+    answer: 'No. Male mosquitoes do not bite and cannot bite, because they lack the piercing mouthparts needed to break skin. Males feed entirely on flower nectar and plant juices and live only about a week, while females live about 2 to 3 weeks and need a blood meal to develop each batch of eggs. The U.S. Centers for Disease Control and Prevention notes that only female mosquitoes bite people and animals to take a blood meal. Every mosquito bite you have ever had came from a female.',
+  },
+  {
+    question: 'How many eggs does a mosquito lay after biting you?',
+    answer: 'A female mosquito lays about 100 to 300 eggs after each blood meal, and she can repeat that cycle several times across her 2 to 3 week life. The blood supplies the protein for those eggs, which is the entire reason she bites. The U.S. Centers for Disease Control and Prevention notes that mosquitoes lay their eggs in or near standing water, and that a container holding as little as a bottle cap of water can be enough. Emptying saucers, buckets, tarps, toys, and clogged gutters every week therefore does more to cut the next generation of mosquitoes than any amount of swatting.',
+  },
+  {
+    question: 'When should you see a doctor about a mosquito bite?',
+    answer: 'See a healthcare provider if a mosquito bite becomes steadily more red, warm, swollen, or painful over several days, which can signal a skin infection, or if you develop fever, headache, body aches, a rash, or a stiff neck in the days after being bitten. Mayo Clinic advises seeking medical attention for those symptoms. The U.S. Centers for Disease Control and Prevention reports that about 8 in 10 people infected with West Nile virus never develop symptoms, roughly 1 in 5 develop a fever, and about 1 in 150 develop a serious illness affecting the nervous system. Call 911 for a severe headache, confusion, or seizures after a bite. This is general information, not medical advice.',
+  },
+  {
+    question: 'When are mosquitoes most likely to bite you in Ontario?',
+    answer: 'In Ontario mosquitoes bite most heavily from May through September, with the worst biting pressure in June and July and the daily peak at dawn and dusk. The Culex mosquitoes that carry West Nile virus feed mainly from dusk to dawn, and Public Health Ontario places the highest West Nile risk in the province between mid-July and early September. Warm, humid evenings a week or two after rain are the worst, because fresh standing water produces a new generation of biting adults in roughly 7 to 10 days. That is why seasonal barrier programs across the GTA run on a two to four week cycle rather than as a single spray.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({
@@ -134,6 +162,9 @@ export default function HowManyTimesCanAMosquitoBiteYouPage() {
               </tbody>
             </table>
           </div>
+          <p className="text-sm text-gray-700 mt-4 leading-relaxed">
+            Stated plainly: only female mosquitoes bite, and she bites because she needs blood protein to produce a batch of 100 to 300 eggs. One full blood meal is about 2 to 5 microlitres &mdash; roughly one-thousandth of a teaspoon &mdash; and takes her about 2 to 5 minutes, which is normally a single uninterrupted bite. A female mosquito lives about 2 to 3 weeks and takes a fresh blood meal roughly every 3 to 4 days. Male mosquitoes live about a week and never bite at all; the U.S. Centers for Disease Control and Prevention notes that only females take blood, while males feed on plant nectar. And no mosquito dies from biting you &mdash; that is the honeybee, whose barbed stinger tears out when it stings.
+          </p>
           <p className="text-xs text-gray-500 mt-3">General figures drawn from public-health and entomological sources including the Public Health Agency of Canada (PHAC) and the U.S. Centers for Disease Control and Prevention (CDC); individual mosquitoes and species vary. Educational information, not medical advice.</p>
         </div>
       </section>
@@ -143,6 +174,7 @@ export default function HowManyTimesCanAMosquitoBiteYouPage() {
           <AuthorByline datePublished={DATE} />
 
           <h2>How many times can one mosquito bite you?</h2>
+          <p>There is no fixed limit. One female mosquito can bite you three, four, or more times in a single evening, because she starts a fresh bite every time she is interrupted before her abdomen is full. Left undisturbed she finishes in one bite of about 2 to 5 minutes. The number of welts tracks how often you swatted at her.</p>
           <Figure
             src="/diagrams/mosquito-bite-mechanism.svg"
             alt="Diagram showing how a mosquito feeds for two to four minutes and will land again if interrupted, leaving several bites"
@@ -154,7 +186,19 @@ export default function HowManyTimesCanAMosquitoBiteYouPage() {
           <p>One mosquito can bite you as many times as it takes her to get a full meal &mdash; often several times in a single sitting. A female mosquito does not have a bite budget that runs out; she is driven to keep feeding until her abdomen is stretched full of blood. If she manages that in one undisturbed bite, you get one welt. If she is knocked off, brushed away, or startled by a twitch before she finishes, she simply relands a short distance away and starts a new bite to top up. Each of those restarts can leave its own mark, which is why one persistent mosquito can be responsible for a whole cluster.</p>
           <p>Left completely alone, a female drinks roughly 2 to 5 microliters of blood over about 2 to 5 minutes, swelling to as much as three times her own body weight before she is satisfied. That single meal is usually enough to supply the protein she needs to develop a batch of 100 to 300 eggs. The takeaway for anyone counting welts: the number of bites you end up with has far more to do with how many times you disturbed her than with any fixed limit built into the mosquito.</p>
 
+          <h2>How many times can a mosquito bite you in one night?</h2>
+          <p>In one night a single mosquito commonly leaves one to four bites on the same person. One bite is the norm if she is left alone; three or four is normal if she is repeatedly brushed off, because each restart is a new puncture. A tight cluster of welts found in the morning is usually one mosquito, not a swarm.</p>
+          <p>Overnight bites are so common because of when mosquitoes feed. The U.S. Centers for Disease Control and Prevention notes that <em>Culex</em> mosquitoes &mdash; the group responsible for most West Nile virus transmission in Canada and the northern United States &mdash; bite mainly from dusk to dawn. Bites that line up in a row, or sit in a tight group on an ankle, a wrist, or the back of a knee, point to one persistent female working the same patch of thin skin rather than to a group of insects arriving at once.</p>
+
+          <h2>Can one mosquito bite you 10 times?</h2>
+          <p>Yes, in principle. A mosquito has no bite budget, so a female brushed away ten times can leave ten separate punctures while trying to finish one meal. In practice one mosquito usually leaves three to six welts before she either fills up or gives up. Ten or more bites in an evening usually means several mosquitoes were feeding.</p>
+
+          <h2>How long does a single mosquito bite take?</h2>
+          <p>A single uninterrupted mosquito bite takes about 2 to 5 minutes from landing to takeoff. In that time she draws roughly 2 to 5 microlitres of blood &mdash; about one-thousandth of a teaspoon &mdash; and swells to as much as three times her own body weight. Most people never feel the bite happening at all.</p>
+          <p>The delay is what confuses people. Mayo Clinic explains that the itchy bump is an immune reaction to proteins in mosquito saliva rather than damage from the puncture, which is why a welt can take 24 to 48 hours to reach full size. Bites collected over one evening therefore tend to surface together the following morning, making a handful of bites from one mosquito look like a night-long assault.</p>
+
           <h2>Does a mosquito die after biting?</h2>
+          <p>No. Biting costs a female mosquito nothing. She survives every bite, lives another 2 to 3 weeks, and feeds again roughly every 3 to 4 days, so one insect can bite dozens of times across its life. The creature that dies from a single sting is the honeybee, not the mosquito.</p>
           <p>No &mdash; a mosquito does not die after biting you. This is one of the most common insect myths, and it comes from mixing mosquitoes up with honeybees. A honeybee dies when it stings a person because its stinger is barbed: the barb catches in your skin, and when the bee pulls away it tears out part of its own abdomen, which is fatal. A mosquito has nothing like that. Her mouthpart, called a proboscis, is a smooth, needle-like tube that slides in and out cleanly, so she withdraws unharmed and flies off heavy with her meal.</p>
           <p>Far from dying, feeding is exactly how a female mosquito stays in business. The blood meal powers her egg production, so biting is central to her survival, not a suicidal act. After she feeds she rests for a few days to digest and develop her eggs, lays them, and then goes looking for her next blood meal &mdash; a cycle she repeats every 3 to 4 days. A female commonly lives 2 to 3 weeks, and in cool, humid, sheltered conditions can survive close to a month, biting again and again across that whole span. The only thing that reliably ends a mosquito after it bites you is your own hand.</p>
 
@@ -187,14 +231,17 @@ export default function HowManyTimesCanAMosquitoBiteYouPage() {
           </div>
 
           <h2>How many people can one mosquito bite?</h2>
+          <p>Several. Over a 2 to 3 week life a female takes a fresh blood meal roughly every 3 to 4 days, and each of those meals can come from a different person or animal. That is the mechanism behind mosquito-borne disease: one infected female, several hosts, spread across days.</p>
           <p>A single mosquito can bite more than one person. Most of the time a hungry female fills up on whichever host she reaches first, but if she is interrupted before finishing, she will often move to a different person or animal nearby to complete her meal. Across her life she also takes a series of separate blood meals &mdash; one for each batch of eggs &mdash; and there is nothing stopping those meals from coming from different hosts on different days.</p>
           <p>This is more than a curiosity. It is the entire reason mosquitoes matter for public health. When a female bites someone carrying a pathogen and later bites you, she can pass it along &mdash; which is how a single infected mosquito can transmit a virus to several people. In Ontario, the mosquito-borne illness public-health agencies watch most closely is West Nile virus, carried mainly by <em>Culex</em> mosquitoes that feed around dusk. The Public Health Agency of Canada notes that most people bitten by an infected mosquito never develop symptoms, but the fact that one mosquito can bite several hosts is precisely why reducing the biting population in shared outdoor spaces matters. On tight city lots where backyards adjoin, that shared population is exactly what a yard treatment is aimed at &mdash; the thinking behind our <Link href="/toronto-mosquito-control">mosquito control in Toronto</Link>, where properties sit close enough that the females resting in one shaded hedge are the same ones biting the yards on either side.</p>
 
           <h2>Why do I have so many bites from one mosquito?</h2>
+          <p>Usually because one female was interrupted repeatedly, not because a swarm found you. Three or four welts in a tight patch is the normal output of a single disturbed mosquito. The bumps then surface together 24 to 48 hours later, which makes one evening&rsquo;s bites look like several nights of them.</p>
           <p>If you are covered in welts but only ever saw one mosquito, interruption is almost always the answer. A feeding female that gets disturbed does not give up &mdash; she lifts off, relands nearby, and probes again, and she may poke the skin several times before she hits a blood vessel she likes. Each of those probes can trigger the small immune reaction that raises a welt, so a single determined mosquito can leave three, four, or more marks in a tight patch. A neat line or cluster of bites in one area is a classic signature of one insect, not a swarm.</p>
           <p>Two other things make it look like more bites than mosquitoes. First, the reaction is delayed: your immune system can take 24 to 48 hours to raise the itchy bumps, so bites collected over one evening often appear together the next morning. Second, mosquitoes concentrate on thin-skinned areas &mdash; ankles, wrists, the backs of knees &mdash; where blood vessels sit near the surface, so those spots collect a disproportionate share. If you want the full story on the swelling and itch itself, see our explainer on <Link href="/blog/why-do-mosquito-bites-itch">why mosquito bites itch</Link>. And if you always seem to be the one getting bitten, the reasons are in <Link href="/blog/what-attracts-mosquitoes-to-you">what attracts mosquitoes to you</Link>.</p>
 
           <h2>Do mosquitoes bite more than once?</h2>
+          <p>Yes, many times over. A female that lives 2 to 3 weeks completes several feeding cycles and can bite well over a dozen times in total, plus an extra welt each time she is swatted off mid-meal. Males never bite at all &mdash; they lack the mouthparts to pierce skin and feed on nectar.</p>
           <p>Yes &mdash; mosquitoes bite more than once, on two different timescales. Within a single feeding session, a disturbed female relands and bites again until she is full, so one meal can produce several welts. Across her lifetime, she runs a repeating loop that entomologists call the gonotrophic cycle: take a blood meal, rest and digest for 3 to 4 days, lay a batch of 100 to 300 eggs, then set off to find the next blood meal. A female that lives 2 to 3 weeks can complete several of these loops, which adds up to a lot of bites from one insect over its life.</p>
           <p>It is worth repeating the part that surprises people most: only female mosquitoes bite at all. Males do not have the mouthparts to pierce skin and live entirely on flower nectar and plant juices, contributing to pollination and never taking a drop of blood. So every bite you have ever received came from a female that needed protein to make eggs &mdash; and that same female was fully capable of coming back for more. For a broader set of these facts, our <Link href="/blog/mosquito-facts">mosquito facts guide</Link> collects the numbers in one place.</p>
 
@@ -207,7 +254,12 @@ export default function HowManyTimesCanAMosquitoBiteYouPage() {
             </div>
           </aside>
 
+          <h2>Can a mosquito bite through clothing?</h2>
+          <p>Yes. A mosquito can bite through thin, tight-fitting fabric such as a snug t-shirt, leggings, or thin socks, because her proboscis is long enough to reach skin through one stretched layer. Loose, thicker, or doubled-up clothing defeats her. This is why bites turn up on shoulders, knees, and ankles that felt fully covered.</p>
+          <p>The practical rule is fit, not coverage. A loose long-sleeved shirt protects better than tight athletic wear that exposes less skin, because the fabric sits away from the surface she is trying to reach. Health Canada registers repellents containing DEET and icaridin for use on skin, and some manufacturers also sell permethrin-treated clothing; follow the label directions on any product you use.</p>
+
           <h2>How to stop one mosquito turning into a dozen bites</h2>
+          <p>The way to stop one mosquito becoming a dozen bites is to remove her chances rather than swat her. Tip out standing water weekly, cover up at dawn and dusk when <em>Culex</em> mosquitoes feed, wear loose rather than tight clothing, apply a Health Canada registered repellent, run a fan on the patio, and treat the shaded vegetation where adults rest.</p>
           <p>Because most multi-bite nights trace back to a single interrupted female, the practical goal is to give fewer mosquitoes the chance to reach you and to remove the standing water where the next generation is being made. A few habits carry most of the weight:</p>
           <ul>
             <li><strong>Empty standing water weekly.</strong> A female lays 100 to 300 eggs at a time in still water &mdash; even a bottle cap&rsquo;s worth. Tip out saucers, buckets, toys, tarps, and clogged gutters to break the cycle at the source.</li>
@@ -216,6 +268,10 @@ export default function HowManyTimesCanAMosquitoBiteYouPage() {
             <li><strong>Move the air.</strong> A patio fan disrupts the carbon-dioxide plume a mosquito homes in on and makes it physically harder for a weak flyer to land.</li>
             <li><strong>Treat the yard.</strong> A professional barrier spray targets the shaded vegetation and fence lines where adults rest between meals, so the resting population never rebuilds to the point where one persistent female becomes a nightly problem. That is the whole job on a season plan &mdash; see how <Link href="/mississauga-mosquito-control">mosquito control in Mississauga</Link> is run through the May-to-September season, or what <Link href="/mosquito-control-cost">a single treatment and a full season cost</Link> for your lot size.</li>
           </ul>
+
+          <h2>When should you see a doctor about a mosquito bite?</h2>
+          <p>See a healthcare provider if a bite becomes steadily more red, warm, swollen, or painful over several days, which can signal a skin infection, or if you develop fever, headache, body aches, a rash, or a stiff neck in the days after being bitten. Mayo Clinic advises seeking medical attention for those symptoms.</p>
+          <p>Serious illness from a mosquito bite is uncommon. The U.S. Centers for Disease Control and Prevention reports that about 8 in 10 people infected with West Nile virus never develop any symptoms, roughly 1 in 5 develop a fever with other symptoms, and about 1 in 150 develop a serious illness affecting the nervous system. Public Health Ontario places the highest West Nile risk in the province between mid-July and early September. Go to an emergency department or call 911 for a severe headache, a stiff neck, confusion, or seizures in the days after a bite.</p>
 
           <p className="text-sm text-gray-500 italic mt-6">This article is general educational information and is not medical advice. Mosquito-borne illnesses such as West Nile virus are uncommon but possible in parts of Ontario; if you develop fever, headache, or body aches in the days after being bitten, or if a bite becomes increasingly red, swollen, or painful, contact a healthcare provider. In an emergency, call 911.</p>
 

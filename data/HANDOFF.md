@@ -51,7 +51,7 @@ conversion at 10.4% is strong. The funnel was never the problem. Revenue per ord
 | **F** Levanta | ⛔ Blocked on owner | Queue + catalogue findings ready |
 | **G** Commercial pages | ❌ Not started | **This is the revenue-per-order fix** |
 | **H** Vertical expansion | 🟡 6 fall pages shipped | |
-| **I** AI search | 🔵 In progress | Baseline done; 6-page application running |
+| **I** AI search | ✅ Done | Baseline + citation pattern found + applied to 6 pages |
 | **J** Conversion/maintenance | 🟡 Tracking live | Measures 2026-09-30 |
 
 ---
@@ -94,6 +94,34 @@ fire-hazard recalls in that class from other manufacturers.
 
 **Still open, owner decided to leave it:** `best-wasp-nest-spray-canada` keeps recalled Raid
 Max Wasp & Hornet Foam (PCP 30746) as Best Overall, under the notice added.
+
+---
+
+## 5b. THE BEST ANALYTICAL FINDING — read `data/ai-citation-pattern.md`
+
+Tested 18 real queries; the discriminator held **18/18**.
+
+**The gate on AI citation is the ANSWER FIELD, not our page.** We get cited when the field is
+peer commercial blogs. We never get cited when an institution already owns the canonical
+answer (CDC, Cleveland Clinic, an extension service, or the manufacturer).
+
+**Two hypotheses died.** Structure is NOT the differentiator — cited and non-cited pages have
+identical capsules, schema and FAQ counts. Position is NOT the gate — position 2.1 was not
+cited while position 6.7 was.
+
+**The cleanest experiment:** `/blog/deer-flies-horse-flies-ontario` was NOT cited for "deer
+fly vs horse fly" but WAS cited for "deer fly vs horse fly **Ontario**" — same page, same
+capsule, same day. The Canadian qualifier is a retrieval filter: it wins 7,683 geo-qualified
+impressions and loses 193,215 unqualified ones.
+
+**Three actionable negatives:** no table content was EVER extracted (9 cited pages, zero table
+lifts); metric-only numbers get passed over for imperial; and a geo token welded into a
+portable fact kills it — which explains the site's worst page, `deer-tick-vs-dog-tick-canada`
+at 8,721 impressions and 7 clicks (0.08% CTR).
+
+**Strategy: stop contesting institution-owned fields.** Concentrate on look-alike
+identification, gear comparison, folk-belief correction and geo-qualified questions — where
+we already beat ticksafety.com 3.4×.
 
 ---
 
