@@ -224,7 +224,7 @@ export default function HowToGetRidOfWaspsCanadaPage() {
           <p>Traps are the most misused tool in wasp control, because the two things that make them work — timing and placement — are printed nowhere on the box. A trap does not eliminate a nest; an established colony produces new workers faster than any trap catches them. What traps do brilliantly is <em>intercept</em>: spring queens before they found colonies, and late-summer foragers before they reach your table.</p>
           <p><strong>Rule one: hang traps in mid-April to May.</strong> Overwintered queens emerge with the first warm days, and each one caught is an entire colony — potentially thousands of late-summer wasps — that never gets built. Spring trapping is the single highest-leverage move on the wasp calendar, and almost nobody does it.</p>
           <p><strong>Rule two: 6+ metres from where people sit.</strong> A baited trap is an attractant. Hung on the patio umbrella, it pulls every forager in the neighbourhood toward your lunch. Hung at the fence line downwind, it pulls them away. Distance is the entire difference between a trap that helps and a trap that makes things worse.</p>
-          <p>Which trap? The RESCUE! WHY trap is our all-rounder because its lure attracts all three groups — paper wasps included, which most heptyl-butyrate yellowjacket lures ignore. We tore it down component by component in our <Link href="/blog/rescue-why-trap-review-canada">RESCUE! WHY trap review</Link>. If your problem is purely late-summer yellowjackets around food, a dedicated unit compared in our <Link href="/blog/best-yellow-jacket-trap-canada">yellowjacket trap guide</Link> is cheaper per catch, and the broader field — bag traps, bottle traps, DIY soda-bottle designs — is ranked in the <Link href="/blog/best-wasp-trap-canada">best wasp trap roundup</Link>.</p>
+          <p>Which trap? The RESCUE! WHY trap is our all-rounder because its lure attracts all three groups — paper wasps included, which most heptyl-butyrate yellowjacket lures ignore. We tore it down component by component in our <Link href="/blog/rescue-why-trap-review-canada">RESCUE! WHY trap review</Link>. If your problem is purely late-summer yellowjackets around food, a dedicated unit compared in our <Link href="/blog/best-yellow-jacket-trap-canada">yellowjacket trap guide</Link> is cheaper per catch, and the broader field — bag traps, bottle traps, DIY soda-bottle designs — is ranked in the <Link href="/blog/best-wasp-trap">best wasp trap roundup</Link>.</p>
 
           <div className="not-prose rounded-xl border border-navy-100 overflow-x-auto bg-white shadow-sm my-6 overflow-x-auto">
             <table className="min-w-[560px] w-full text-sm">
@@ -298,7 +298,7 @@ export default function HowToGetRidOfWaspsCanadaPage() {
 
           <h2>Related Wasp Guides</h2>
           <ul>
-            <li><Link href="/blog/best-wasp-trap-canada">Best Wasp Trap Canada — Every Trap Type Ranked</Link></li>
+            <li><Link href="/blog/best-wasp-trap">Best Wasp Trap Canada — Every Trap Type Ranked</Link></li>
             <li><Link href="/blog/rescue-why-trap-review-canada">RESCUE! WHY Trap Review — Full Canadian Teardown</Link></li>
             <li><Link href="/blog/best-yellow-jacket-trap-canada">Best Yellowjacket Trap Canada — Late-Summer Patio Defence</Link></li>
             <li><Link href="/blog/best-wasp-nest-spray-canada">Best Wasp Nest Spray Canada — PMRA-Registered Options Compared</Link></li>

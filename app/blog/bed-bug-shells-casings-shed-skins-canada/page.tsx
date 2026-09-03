@@ -125,7 +125,7 @@ export default function BedBugShellsCasingsPage() {
               <strong>This page is the husk</strong> &mdash; an empty moulted skin, and what growth evidence proves about how long it has been going on.
               <br className="hidden sm:block" />
               <strong className="block mt-2">Found dark marks rather than husks?</strong> Read <Link href="/blog/bed-bug-stains-poop-droppings-canada" className="text-emerald-700 underline font-semibold">bed bug stains and droppings</Link> &mdash; spotting is digested blood and it is the more <em>current</em> of the two signs.
-              <strong className="block mt-2">Found a live insect instead?</strong> Start with <Link href="/blog/bugs-that-look-like-bed-bugs-canada" className="text-emerald-700 underline font-semibold">bugs that look like bed bugs</Link>, or <Link href="/blog/baby-bed-bugs-nymphs-canada" className="text-emerald-700 underline font-semibold">baby bed bugs and nymph stages</Link> if it is very small and pale.
+              <strong className="block mt-2">Found a live insect instead?</strong> Start with <Link href="/blog/bugs-that-look-like-bed-bugs-canada" className="text-emerald-700 underline font-semibold">bugs that look like bed bugs</Link>, or <Link href="/blog/baby-bed-bugs-nymphs" className="text-emerald-700 underline font-semibold">baby bed bugs and nymph stages</Link> if it is very small and pale.
             </p>
           </div>
 
@@ -444,7 +444,7 @@ export default function BedBugShellsCasingsPage() {
             <li><strong>Next step if this is active:</strong> <Link href="/blog/how-to-get-rid-of-bed-bugs-canada">How to Get Rid of Bed Bugs in Canada — The Full Protocol</Link></li>
             <li><strong>The other evidence page:</strong> <Link href="/blog/bed-bug-stains-poop-droppings-canada">Bed Bug Stains and Droppings — What the Marks Actually Are</Link></li>
             <li><Link href="/blog/bugs-that-look-like-bed-bugs-canada">Bugs That Look Like Bed Bugs in Canada — The Nine Look-Alikes</Link></li>
-            <li><Link href="/blog/baby-bed-bugs-nymphs-canada">Baby Bed Bugs — What Nymphs Look Like at Each Stage</Link></li>
+            <li><Link href="/blog/baby-bed-bugs-nymphs">Baby Bed Bugs — What Nymphs Look Like at Each Stage</Link></li>
             <li><Link href="/blog/how-to-check-for-bed-bugs-canada">How to Check for Bed Bugs — Hotel, Apartment and Used Furniture</Link></li>
             <li><Link href="/blog/bed-bug-interceptor-traps-canada">Bed Bug Interceptor Traps — How to Set Them So They Actually Read</Link></li>
             <li><Link href="/blog/bed-bug-mattress-encasement-canada">Bed Bug Mattress Encasements in Canada — Sizing and the 12–18 Month Rule</Link></li>

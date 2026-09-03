@@ -321,7 +321,7 @@ export default function MosquitoBitsCanadaPage() {
             <li><strong>Habitat modification</strong> — drain anything you can drain, mow short, clear leaf litter</li>
             <li><strong>Professional barrier spray</strong> — <Link href="/mosquito-control">BuzzSkito&rsquo;s seasonal program</Link> targets adult mosquitoes flying onto your property, with Health Canada-approved residual formula that lasts 21–30 days per treatment</li>
           </ol>
-          <p>One note on the standing-water audit in step two, because it usually stops at the back door: the sump pit, the floor drain whose trap has dried out, and the laundry tub with a weeping trap are standing water too. They matter less for mosquitoes than a rain barrel does, and they matter a great deal for the damp-basement insects that share the same water &mdash; which is why our <Link href="/blog/best-silverfish-traps-canada">silverfish trap buying guide</Link> and <Link href="/blog/best-centipede-killer-canada">centipede product guide</Link> both start with the humidity rather than with a spray. Lidding the pit and pouring water down seldom-used drains takes ten minutes and closes several problems at once.</p>
+          <p>One note on the standing-water audit in step two, because it usually stops at the back door: the sump pit, the floor drain whose trap has dried out, and the laundry tub with a weeping trap are standing water too. They matter less for mosquitoes than a rain barrel does, and they matter a great deal for the damp-basement insects that share the same water &mdash; which is why our <Link href="/blog/best-silverfish-traps">silverfish trap buying guide</Link> and <Link href="/blog/best-centipede-killer-canada">centipede product guide</Link> both start with the humidity rather than with a spray. Lidding the pit and pouring water down seldom-used drains takes ten minutes and closes several problems at once.</p>
           <p>That three-part stack covers mosquitoes, but BTI is only one product on a much longer Canadian shelf — our <Link href="/pest-product-guides">pest product guides</Link> group everything we have researched, from larvicides and traps through to repellents, by pest and by category.</p>
           <p>One device deliberately left off the stack: the UV bug trap. It is the first thing most homeowners buy and the layer that does the least — independent trap research puts mosquitoes under 5% of what a UV-plus-fan trap catches. If you are weighing one against a season of BTI, we break down <Link href="/blog/dynatrap-canada-review">whether DynaTraps actually work on mosquitoes</Link>, model by model.</p>
 
@@ -333,7 +333,7 @@ export default function MosquitoBitsCanadaPage() {
             <li><Link href="/blog/how-to-get-rid-of-mosquitoes-in-yard-ontario">How to Get Rid of Mosquitoes in Your Yard (Ontario)</Link></li>
             <li><Link href="/blog/ultimate-backyard-mosquito-control-guide">The Ultimate Backyard Mosquito Control Guide</Link></li>
             <li><Link href="/blog/dynatrap-canada-review">Do DynaTraps Actually Work on Mosquitoes?</Link></li>
-            <li><Link href="/blog/best-wasp-trap-canada">Best Wasp Traps in Canada — Bag, Sticky &amp; Reusable Compared</Link></li>
+            <li><Link href="/blog/best-wasp-trap">Best Wasp Traps in Canada — Bag, Sticky &amp; Reusable Compared</Link></li>
             <li><Link href="/mosquito-control">BuzzSkito Professional Mosquito Control Service</Link></li>
           </ul>
         <h2>Frequently Asked Questions</h2>

@@ -329,7 +329,7 @@ export default function MosquitoScreensPatioCanadaPage() {
 
           <h2>Related Reading</h2>
           <ul>
-            <li><Link href="/blog/mosquito-net-canada">Mosquito Nets in Canada — Bed, Patio &amp; Travel Netting</Link></li>
+            <li><Link href="/blog/mosquito-net">Mosquito Nets in Canada — Bed, Patio &amp; Travel Netting</Link></li>
             <li><Link href="/blog/best-screen-tent-canada">Best Screen Tents in Canada — Portable Bug Shelters Compared</Link></li>
             <li><Link href="/blog/thermacell-canada-where-to-buy">Thermacell Canada — Where to Buy + Do They Work</Link></li>
             <li><Link href="/pool-backyard-mosquito-control">Pool &amp; Backyard Mosquito Control</Link></li>

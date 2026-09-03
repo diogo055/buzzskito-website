@@ -185,7 +185,7 @@ export default function MosquitoMagnetPage() {
           <h2>How a Mosquito Magnet Actually Works</h2>
           <p>Mosquito Magnet traps mimic a human breathing — they emit CO<sub>2</sub> from a propane tank, plus attractants like octenol or Lurex 3. Mosquitoes follow the CO<sub>2</sub> plume to the unit, get sucked into a fan-driven vacuum, and die in a collection net.</p>
           <p>It&rsquo;s clever. It captures real mosquitoes. But it&rsquo;s only one half of the equation — capturing flying adults — without addressing the population resting on your vegetation, breeding in nearby water, or arriving from off-property sources.</p>
-          <p>For model-by-model Canadian pricing (Patriot Plus vs Independence vs Executive), where to buy, and placement tips, see our full <Link href="/blog/mosquito-magnet-canada">Mosquito Magnet Canada guide</Link>. If you&rsquo;re weighing the wider trap category — UV, CO₂, and propane units side by side — our <Link href="/blog/best-mosquito-trap-canada">best mosquito trap Canada roundup</Link> ranks them all.</p>
+          <p>For model-by-model Canadian pricing (Patriot Plus vs Independence vs Executive), where to buy, and placement tips, see our full <Link href="/blog/mosquito-magnet-canada">Mosquito Magnet Canada guide</Link>. If you&rsquo;re weighing the wider trap category — UV, CO₂, and propane units side by side — our <Link href="/blog/best-mosquito-trap">best mosquito trap Canada roundup</Link> ranks them all.</p>
 
           <h2>Where Mosquito Magnets Make Sense</h2>
           <ul>
@@ -223,7 +223,7 @@ export default function MosquitoMagnetPage() {
           <ul>
             <li><Link href="/blog/mosquito-magnet-canada">Mosquito Magnet Canada — Where to Buy + Model Comparison</Link></li>
             <li><Link href="/blog/dynatrap-canada-review">DynaTrap Canada Review — Does It Actually Catch Mosquitoes?</Link></li>
-            <li><Link href="/blog/best-mosquito-trap-canada">Best Mosquito Trap Canada — Full Rankings</Link></li>
+            <li><Link href="/blog/best-mosquito-trap">Best Mosquito Trap Canada — Full Rankings</Link></li>
             <li><Link href="/blog/mosquito-repellent-guide-ontario-2026">Mosquito Repellent Guide Ontario 2026</Link></li>
             <li><Link href="/blog/natural-mosquito-repellent-ontario">Natural Mosquito Repellent — What Works</Link></li>
             <li><Link href="/blog/hidden-mosquito-breeding-spots-backyard">Hidden Mosquito Breeding Spots</Link></li>

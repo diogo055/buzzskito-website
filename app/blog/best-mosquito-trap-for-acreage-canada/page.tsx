@@ -335,7 +335,7 @@ export default function BestMosquitoTrapForAcreageCanadaPage() {
             <li><Link href="/blog/mosquito-magnet-canada">Mosquito Magnet Canada — Where to Buy + Do They Work</Link></li>
             <li><Link href="/blog/mosquito-magnet-vs-dynatrap-canada">Mosquito Magnet vs DynaTrap Canada — Head to Head</Link></li>
             <li><Link href="/blog/dynatrap-canada-review">DynaTrap Canada — Honest Review + Where to Buy</Link></li>
-            <li><Link href="/blog/best-mosquito-trap-canada">Best Mosquito Trap Canada — Every Type Compared</Link></li>
+            <li><Link href="/blog/best-mosquito-trap">Best Mosquito Trap Canada — Every Type Compared</Link></li>
             <li><Link href="/blog/backpack-sprayer-canada">Best Backpack Sprayer Canada — Cover a Big Lot Yourself</Link></li>
             <li><Link href="/blog/best-pest-control-equipment-canada">Best Pest Control Equipment Canada — The Full Device Hub</Link></li>
             <li><Link href="/mosquito-control">BuzzSkito Professional Mosquito Control Service</Link></li>

@@ -341,7 +341,7 @@ export default function BestDeerFenceForGardensCanadaPage() {
           <ul>
             <li><Link href="/blog/raccoon-and-skunk-proofing-under-a-deck-canada">Raccoon &amp; Skunk Proofing Under a Deck &mdash; The L-Footing Method</Link></li>
             <li><Link href="/blog/best-electric-fence-for-raccoons-canada">Best Electric Fence for Raccoons Canada &mdash; Energizers &amp; Wiring</Link></li>
-            <li><Link href="/blog/raccoon-deterrent-canada">Raccoon Deterrents Canada &mdash; The Honest Tier List</Link></li>
+            <li><Link href="/blog/raccoon-deterrent">Raccoon Deterrents Canada &mdash; The Honest Tier List</Link></li>
             <li><Link href="/blog/motion-activated-sprinkler-canada">Motion-Activated Sprinklers in Canada &mdash; Also Works on Deer</Link></li>
             <li><Link href="/blog/how-to-keep-ticks-out-of-yard-ontario">How to Keep Ticks Out of an Ontario Yard</Link></li>
             <li><Link href="/pest-product-guides">All BuzzSkito Pest Product Guides</Link></li>

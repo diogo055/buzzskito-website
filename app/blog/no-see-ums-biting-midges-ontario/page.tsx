@@ -190,7 +190,7 @@ export default function NoSeeUmsBitingMidgesOntarioPage() {
             <li><strong>Apply a proven repellent.</strong> Health Canada registered products with <strong>DEET</strong> or <strong>picaridin (icaridin)</strong> work against biting midges; oil of lemon eucalyptus is a plant-based option. Cover ankles, wrists, and the hairline well.</li>
             <li><strong>Treat clothing and gear.</strong> <strong>Permethrin</strong>-treated fabric adds a strong barrier for repeat exposure at the cottage or on trails.</li>
           </ol>
-          <p>Not sure which skin repellent to reach for? Our guide on <Link href="/blog/picaridin-vs-deet-canada">picaridin vs DEET in Canada</Link> breaks down which active fits which situation. To shop current options:</p>
+          <p>Not sure which skin repellent to reach for? Our guide on <Link href="/blog/picaridin-vs-deet">picaridin vs DEET in Canada</Link> breaks down which active fits which situation. To shop current options:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="picaridin insect repellent canada">Check picaridin repellent on Amazon.ca →</BuyLink>
             <BuyLink tag={AMZ_TAG} search="thermacell mosquito repeller">Check a Thermacell repeller →</BuyLink>
@@ -222,7 +222,7 @@ export default function NoSeeUmsBitingMidgesOntarioPage() {
 
           <h2>Related Reading</h2>
           <ul>
-            <li><Link href="/blog/picaridin-vs-deet-canada">Picaridin vs DEET in Canada — Which Repellent to Choose</Link></li>
+            <li><Link href="/blog/picaridin-vs-deet">Picaridin vs DEET in Canada — Which Repellent to Choose</Link></li>
             <li><Link href="/blog/black-flies-ontario-when-they-come-out">Black Flies in Ontario — When They Come Out</Link></li>
             <li><Link href="/blog/mosquito-season-gta-when-does-it-start">Mosquito Season in the GTA — When Does It Start?</Link></li>
             <li><Link href="/blog/thermacell-canada-where-to-buy">Thermacell Canada — Where to Buy + Do They Work</Link></li>

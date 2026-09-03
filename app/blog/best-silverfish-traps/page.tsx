@@ -11,7 +11,7 @@ import AuthorByline from '@/components/AuthorByline'
 import CTASection from '@/components/CTASection'
 import { tagForSlug } from '@/lib/amazon-clusters'
 
-const SLUG = 'best-silverfish-traps-canada'
+const SLUG = 'best-silverfish-traps'
 const DATE = '2026-07-28'
 const UPDATED = '2026-07-30'
 // This page is deliberately the EQUIPMENT half of the silverfish pair: which trap

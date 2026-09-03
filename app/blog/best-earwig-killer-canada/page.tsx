@@ -460,7 +460,7 @@ export default function BestEarwigKillerCanadaPage() {
             <li><strong>Start here for the method rather than the shopping:</strong> <Link href="/blog/how-to-get-rid-of-earwigs-canada">How to Get Rid of Earwigs in Canada — Traps, Moisture, and the Ear Myth</Link></li>
             <li><Link href="/blog/diatomaceous-earth-canada-buyers-guide">Diatomaceous Earth in Canada — Which Brands Are PMRA-Registered</Link></li>
             <li><Link href="/blog/ortho-home-defense-canada-review">Ortho Home Defense Canada — What You Can Actually Buy Here</Link></li>
-            <li><Link href="/blog/best-silverfish-traps-canada">Silverfish Traps in Canada — Which Type, How Many, Where They Go</Link></li>
+            <li><Link href="/blog/best-silverfish-traps">Silverfish Traps in Canada — Which Type, How Many, Where They Go</Link></li>
             <li><Link href="/blog/best-centipede-killer-canada">Centipede Killer Canada — What to Buy, and in What Order</Link></li>
             <li><Link href="/blog/how-to-get-rid-of-silverfish-canada">How to Get Rid of Silverfish in Canada — The Humidity Fix</Link></li>
             <li><Link href="/blog/best-dehumidifier-for-basement-canada">Best Basement Dehumidifier in Canada — Sizing Guide</Link></li>

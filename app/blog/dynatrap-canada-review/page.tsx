@@ -233,7 +233,7 @@ export default function DynaTrapCanadaPage() {
 
           <h3 className="text-lg font-extrabold text-brand-900 mt-6 mb-2">Does a DynaTrap really work for mosquitoes in a Canadian backyard?</h3>
           <p className="text-[15px] text-gray-700 leading-relaxed mb-4">
-            A GTA backyard makes the maths worse, not better. Most suburban mosquito pressure is re-invasion — adults flying in continuously from neighbours&rsquo; yards, ravines, and storm drainage. A single point-source trap has to out-compete you as an attractant while the supply keeps refilling, and a UV trap without CO₂ never wins that contest. It also does nothing about the second half of the season&rsquo;s problem: blacklegged ticks, which sit on vegetation and never fly. That is the gap a residual <Link href="/mosquito-control" className="text-emerald-700 underline font-semibold">whole-yard barrier spray</Link> is designed to fill, and why we treat traps as a supplement rather than a plan. If you want the full trap landscape — UV, CO₂, and propane compared side by side — start with our <Link href="/blog/best-mosquito-trap-canada" className="text-emerald-700 underline font-semibold">mosquito trap buyer&rsquo;s guide for Canada</Link>.
+            A GTA backyard makes the maths worse, not better. Most suburban mosquito pressure is re-invasion — adults flying in continuously from neighbours&rsquo; yards, ravines, and storm drainage. A single point-source trap has to out-compete you as an attractant while the supply keeps refilling, and a UV trap without CO₂ never wins that contest. It also does nothing about the second half of the season&rsquo;s problem: blacklegged ticks, which sit on vegetation and never fly. That is the gap a residual <Link href="/mosquito-control" className="text-emerald-700 underline font-semibold">whole-yard barrier spray</Link> is designed to fill, and why we treat traps as a supplement rather than a plan. If you want the full trap landscape — UV, CO₂, and propane compared side by side — start with our <Link href="/blog/best-mosquito-trap" className="text-emerald-700 underline font-semibold">mosquito trap buyer&rsquo;s guide for Canada</Link>.
           </p>
         </div>
       </section>
@@ -845,7 +845,7 @@ export default function DynaTrapCanadaPage() {
 
           <h2>Related Reading</h2>
           <ul>
-            <li><Link href="/blog/best-mosquito-trap-canada">Best Mosquito Trap Canada — UV, CO₂ &amp; Propane Compared</Link></li>
+            <li><Link href="/blog/best-mosquito-trap">Best Mosquito Trap Canada — UV, CO₂ &amp; Propane Compared</Link></li>
             <li><Link href="/blog/mosquito-magnet-canada">Mosquito Magnet Canada — Where to Buy + Do They Work</Link></li>
             <li><Link href="/blog/thermacell-canada-where-to-buy">Thermacell Canada Guide</Link></li>
             <li><Link href="/blog/mosquito-dunks-canada-guide">Mosquito Dunks Canada Guide</Link></li>

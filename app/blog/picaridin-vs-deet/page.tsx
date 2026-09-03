@@ -10,7 +10,7 @@ import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { tagForSlug } from '@/lib/amazon-clusters'
 
-const SLUG = 'picaridin-vs-deet-canada'
+const SLUG = 'picaridin-vs-deet'
 const DATE = '2026-05-01'
 const UPDATED = '2026-05-01'
 const TITLE = 'Picaridin vs DEET Canada 2026 — Which Repellent Wins?'

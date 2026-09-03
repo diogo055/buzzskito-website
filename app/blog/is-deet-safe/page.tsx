@@ -149,7 +149,7 @@ export default function IsDeetSafePage() {
 
           <h2>What is DEET?</h2>
           <p>DEET is the active ingredient in most conventional insect repellents — a synthetic compound that keeps mosquitoes, ticks, and biting flies from landing on and biting you. It has been the benchmark repellent for more than 60 years, and both Health Canada and the U.S. Centers for Disease Control and Prevention (CDC) list it among the ingredients proven to work. Importantly, DEET does not kill insects. It confuses the sensors mosquitoes and ticks use to detect the carbon dioxide, heat, and skin compounds that reveal a nearby host, so they effectively cannot find you.</p>
-          <p>In Canada, DEET is one of a small handful of repellent actives that Health Canada has reviewed and registered as both safe and effective when used as directed. The others include picaridin (icaridin) and oil of lemon eucalyptus. If you want a side-by-side of the two most popular options, our <Link href="/blog/picaridin-vs-deet-canada">picaridin vs DEET comparison</Link> breaks down which one wins for different Canadian activities.</p>
+          <p>In Canada, DEET is one of a small handful of repellent actives that Health Canada has reviewed and registered as both safe and effective when used as directed. The others include picaridin (icaridin) and oil of lemon eucalyptus. If you want a side-by-side of the two most popular options, our <Link href="/blog/picaridin-vs-deet">picaridin vs DEET comparison</Link> breaks down which one wins for different Canadian activities.</p>
 
           <h2>What does DEET stand for?</h2>
           <p>DEET stands for <strong>N,N-diethyl-meta-toluamide</strong> — sometimes written N,N-diethyl-3-methylbenzamide. It is simply the abbreviation of a long chemical name, not an acronym for anything descriptive. The compound was developed by the U.S. Army in 1946 to protect soldiers in insect-heavy regions and was released for civilian use in 1957. That long track record is a big reason toxicologists regard it as one of the most thoroughly studied repellents available.</p>
@@ -225,7 +225,7 @@ export default function IsDeetSafePage() {
 
           <h2>Related Reading</h2>
           <ul>
-            <li><Link href="/blog/picaridin-vs-deet-canada">Picaridin vs DEET Canada — Which Repellent Wins?</Link></li>
+            <li><Link href="/blog/picaridin-vs-deet">Picaridin vs DEET Canada — Which Repellent Wins?</Link></li>
             <li><Link href="/blog/best-bug-spray-for-kids-canada">Best Bug Spray for Kids in Canada</Link></li>
             <li><Link href="/blog/off-deep-woods-deet-bug-spray-canada">OFF! Deep Woods DEET Bug Spray — Canada Review</Link></li>
             <li><Link href="/blog/natural-mosquito-repellent-ontario">Natural Mosquito Repellent for Ontario — What Actually Works</Link></li>

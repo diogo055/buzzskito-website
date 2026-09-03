@@ -255,7 +255,7 @@ export default function BestSolarBugZapperCanadaPage() {
           <h2>The Mosquito Truth (Again, Because It Matters)</h2>
           <p>Every UV zapper — solar or plug-in — has the same blind spot: female mosquitoes don&rsquo;t hunt by ultraviolet light. They track the CO₂ you exhale, your body heat, and your skin chemistry. University of Delaware researchers famously dissected the catch of residential bug zappers and found mosquitoes made up a fraction of one percent to a few percent of insects killed; the rest were moths, beetles, midges, and beneficial insects. Follow-up work has repeated the finding for decades. We break down the full research in our honest <Link href="/blog/bug-zappers-canada-do-they-work">bug zappers guide for Canada</Link>.</p>
           <p>A solar zapper makes this math worse, not better. Its UV LED is a fraction of the brightness of a plug-in tube, its battery quits partway through the night, and its grid is weaker. If a 40W Flowtron catches 2% mosquitoes, a 2W solar unit catches fewer in absolute numbers — while your family provides the CO₂ plume that actually recruits mosquitoes to the patio.</p>
-          <p>The same logic applies to the viral high-tech alternative: laser-based devices promise mosquito-specific targeting, and we examined the claims in our <Link href="/blog/laser-mosquito-killer-photon-matrix-review">Photon Matrix laser mosquito killer review</Link>. Attraction-based devices that use CO₂ and heat — the cue mosquitoes actually follow — are the only trap category with real field results, and we ranked those in our <Link href="/blog/best-mosquito-trap-canada">best mosquito traps in Canada</Link> guide.</p>
+          <p>The same logic applies to the viral high-tech alternative: laser-based devices promise mosquito-specific targeting, and we examined the claims in our <Link href="/blog/laser-mosquito-killer-photon-matrix-review">Photon Matrix laser mosquito killer review</Link>. Attraction-based devices that use CO₂ and heat — the cue mosquitoes actually follow — are the only trap category with real field results, and we ranked those in our <Link href="/blog/best-mosquito-trap">best mosquito traps in Canada</Link> guide.</p>
 
           <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
             <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Solar zapper for the moths. Barrier spray for the bites.</h3>
@@ -274,7 +274,7 @@ export default function BestSolarBugZapperCanadaPage() {
             <tbody>
               <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Solar bug zapper</strong></td><td className="px-3 py-2">$30–60/unit</td><td className="px-3 py-2">Barely — moths &amp; gnats only</td><td className="px-3 py-2">No</td></tr>
               <tr className="border-t border-navy-50"><td className="px-3 py-2"><Link href="/blog/flowtron-bug-zapper-canada">Plug-in zapper (Flowtron)</Link></td><td className="px-3 py-2">$80–200</td><td className="px-3 py-2">Barely — but far more insects overall</td><td className="px-3 py-2">Yes</td></tr>
-              <tr className="border-t border-navy-50"><td className="px-3 py-2"><Link href="/blog/best-mosquito-trap-canada">CO₂ mosquito trap</Link></td><td className="px-3 py-2">$250–1,300 + consumables</td><td className="px-3 py-2">Yes — 70–90% over 6–8 weeks</td><td className="px-3 py-2">Varies</td></tr>
+              <tr className="border-t border-navy-50"><td className="px-3 py-2"><Link href="/blog/best-mosquito-trap">CO₂ mosquito trap</Link></td><td className="px-3 py-2">$250–1,300 + consumables</td><td className="px-3 py-2">Yes — 70–90% over 6–8 weeks</td><td className="px-3 py-2">Varies</td></tr>
               <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Professional barrier spray</strong></td><td className="px-3 py-2">From $99/treatment</td><td className="px-3 py-2">Yes — same day, 21–30 day residual, covers ticks</td><td className="px-3 py-2">No</td></tr>
             </tbody>
           </table>
@@ -300,7 +300,7 @@ export default function BestSolarBugZapperCanadaPage() {
           <ul>
             <li><Link href="/blog/bug-zappers-canada-do-they-work">Best Bug Zappers in Canada — Do They Actually Work?</Link></li>
             <li><Link href="/blog/flowtron-bug-zapper-canada">Flowtron Bug Zapper Canada — BK-15D vs BK-40D</Link></li>
-            <li><Link href="/blog/best-mosquito-trap-canada">Best Mosquito Traps in Canada (CO₂ Traps That Work)</Link></li>
+            <li><Link href="/blog/best-mosquito-trap">Best Mosquito Traps in Canada (CO₂ Traps That Work)</Link></li>
             <li><Link href="/blog/laser-mosquito-killer-photon-matrix-review">Photon Matrix Laser Mosquito Killer — Honest Review</Link></li>
             <li><Link href="/mosquito-control">BuzzSkito Professional Mosquito Control Service</Link></li>
           </ul>

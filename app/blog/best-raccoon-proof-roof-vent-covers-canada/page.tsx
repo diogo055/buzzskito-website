@@ -219,7 +219,7 @@ export default function BestRaccoonProofRoofVentCoversCanadaPage() {
             </p>
           </div>
           <p>Assuming the attic is empty, the calendar points to <strong>September and October</strong> in the GTA. Denning pressure climbs as the nights cool and animals start shopping for somewhere dry and defensible, so guards installed in early autumn are up before the search begins, and spring kits are long since mobile. The practical constraints line up too: sealant cures properly, shingles are pliable rather than brittle, and you are not standing on frost. By late November you are working against all three.</p>
-          <p>For the rest of the raccoon picture &mdash; why Ontario&rsquo;s one-kilometre relocation limit makes trapping self-defeating, and which yard-level deterrents have evidence behind them &mdash; our <Link href="/blog/raccoon-deterrent-canada">raccoon deterrent guide for Canada</Link> is the companion piece, and the <Link href="/blog/best-raccoon-live-trap-canada">raccoon live trap guide</Link> covers the legal limits honestly. The same exclusion logic runs at ground level in our <Link href="/blog/rodent-exclusion-kit-canada">rodent exclusion kit guide</Link> and the <Link href="/blog/how-to-keep-mice-out-of-your-house-winter">winter mouse-proofing guide</Link> &mdash; the quarter-inch end of the same job.</p>
+          <p>For the rest of the raccoon picture &mdash; why Ontario&rsquo;s one-kilometre relocation limit makes trapping self-defeating, and which yard-level deterrents have evidence behind them &mdash; our <Link href="/blog/raccoon-deterrent">raccoon deterrent guide for Canada</Link> is the companion piece, and the <Link href="/blog/best-raccoon-live-trap-canada">raccoon live trap guide</Link> covers the legal limits honestly. The same exclusion logic runs at ground level in our <Link href="/blog/rodent-exclusion-kit-canada">rodent exclusion kit guide</Link> and the <Link href="/blog/how-to-keep-mice-out-of-your-house-winter">winter mouse-proofing guide</Link> &mdash; the quarter-inch end of the same job.</p>
 
           <h2>Roof Vent Exclusion — Key Specifications</h2>
           <div className="not-prose rounded-xl border border-navy-100 overflow-x-auto my-6 overflow-x-auto">
@@ -263,7 +263,7 @@ export default function BestRaccoonProofRoofVentCoversCanadaPage() {
 
           <h2>Related Guides</h2>
           <ul>
-            <li><Link href="/blog/raccoon-deterrent-canada">Best Raccoon Deterrent Canada &mdash; The Honest Tier List</Link></li>
+            <li><Link href="/blog/raccoon-deterrent">Best Raccoon Deterrent Canada &mdash; The Honest Tier List</Link></li>
             <li><Link href="/blog/best-raccoon-live-trap-canada">Best Raccoon Live Trap Canada &mdash; And Why Ontario Law Limits It</Link></li>
             <li><Link href="/blog/rodent-exclusion-kit-canada">Rodent Exclusion Kit Canada &mdash; The Quarter-Inch End of the Same Job</Link></li>
             <li><Link href="/blog/how-to-keep-mice-out-of-your-house-winter">How to Keep Mice Out of Your House in Winter</Link></li>

@@ -11,7 +11,7 @@ import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 
-const SLUG = 'how-to-get-rid-of-fruit-flies-canada'
+const SLUG = 'how-to-get-rid-of-fruit-flies'
 const DATE = '2026-07-21'
 const UPDATED = '2026-07-21'
 const TITLE = 'How to Get Rid of Fruit Flies in Canada — Find the Source, Break the 8-Day Cycle'

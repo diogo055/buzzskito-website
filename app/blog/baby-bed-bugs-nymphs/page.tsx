@@ -11,7 +11,7 @@ import AuthorByline from '@/components/AuthorByline'
 import CTASection from '@/components/CTASection'
 import { tagForSlug } from '@/lib/amazon-clusters'
 
-const SLUG = 'baby-bed-bugs-nymphs-canada'
+const SLUG = 'baby-bed-bugs-nymphs'
 const DATE = '2026-07-30'
 const UPDATED = '2026-07-30'
 // This page is the LIFE-STAGE ID page: what a nymph looks like at each of the five

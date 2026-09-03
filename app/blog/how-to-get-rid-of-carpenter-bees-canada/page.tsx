@@ -421,7 +421,7 @@ export default function HowToGetRidOfCarpenterBeesCanadaPage() {
             <li><strong>Actually a stinging problem?</strong> <Link href="/blog/how-to-get-rid-of-wasps-canada">How to Get Rid of Wasps in Canada</Link></li>
             <li><Link href="/blog/how-to-get-rid-of-ground-wasps-canada">Ground Wasps and Yellow Jackets &mdash; Nests in the Lawn</Link></li>
             <li><Link href="/blog/best-wasp-nest-spray-canada">Best Wasp Nest Spray in Canada &mdash; PMRA-Registered Options</Link></li>
-            <li><Link href="/blog/best-wasp-trap-canada">Best Wasp Trap in Canada &mdash; When a Trap Helps and When It Does Not</Link></li>
+            <li><Link href="/blog/best-wasp-trap">Best Wasp Trap in Canada &mdash; When a Trap Helps and When It Does Not</Link></li>
             <li><Link href="/blog/carpenter-ants-canada">Carpenter Ants in Canada &mdash; The Other Insect Hollowing Out Your Wood</Link></li>
             <li><Link href="/blog/diatomaceous-earth-canada-buyers-guide">Diatomaceous Earth in Canada &mdash; Which Brands Are PMRA-Registered</Link></li>
             <li><Link href="/blog/june-bugs-ontario">June Bugs in Ontario &mdash; The Other Loud Summer Beetle</Link></li>

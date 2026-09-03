@@ -387,7 +387,7 @@ export default function PermethrinCanadaPage() {
             <li><Link href="/blog/mosquito-repellent-guide-ontario-2026">Mosquito Repellent Guide — Ontario 2026</Link></li>
             <li><Link href="/blog/best-screen-tent-canada">Best Screen Tents &amp; Screen Houses in Canada</Link></li>
             <li><Link href="/blog/dynatrap-canada-review">Do DynaTraps Actually Work on Mosquitoes?</Link></li>
-            <li><Link href="/blog/best-wasp-trap-canada">Best Wasp Traps in Canada — Bag, Sticky &amp; Reusable Compared</Link></li>
+            <li><Link href="/blog/best-wasp-trap">Best Wasp Traps in Canada — Bag, Sticky &amp; Reusable Compared</Link></li>
             <li><Link href="/tick-control">BuzzSkito Tick Control Service</Link></li>
           </ul>
         <h2>Frequently Asked Questions</h2>

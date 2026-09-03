@@ -357,7 +357,7 @@ export default function BestThermalFoggerCanadaPage() {
             <li><Link href="/blog/black-flag-electric-fogger-review-canada">Black Flag Electric &amp; Propane Fogger Review Canada</Link></li>
             <li><Link href="/blog/best-cordless-fogger-canada">Best Cordless Fogger Canada</Link></li>
             <li><Link href="/blog/backpack-sprayer-canada">Backpack Sprayer Canada — Buyer&rsquo;s Guide</Link></li>
-            <li><Link href="/blog/best-mosquito-trap-canada">Best Mosquito Trap Canada — Propane vs UV vs CO₂</Link></li>
+            <li><Link href="/blog/best-mosquito-trap">Best Mosquito Trap Canada — Propane vs UV vs CO₂</Link></li>
             <li><Link href="/mosquito-control">BuzzSkito Professional Mosquito Control Service</Link></li>
           </ul>
         </div>

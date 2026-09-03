@@ -233,7 +233,7 @@ export default function RaccoonAndSkunkProofingUnderADeckCanadaPage() {
           <p><strong>Galvanisation.</strong> Buried mesh sits in wet, road-salted, freeze-thaw soil for years and rusts through at the soil line first &mdash; which is exactly where the strength has to be. Uncoated or lightly coated mesh is a false economy on a job you do not want to repeat.</p>
           <p><strong>Gauge.</strong> Nineteen-gauge is the working minimum; sixteen-gauge is noticeably stiffer, easier to hold in a trench, and worth the difference on a long perimeter. Half-inch aperture is the right call because it also keeps rats and chipmunks out of the same void &mdash; the animals that move in after you have excluded the big ones. Be clear about its limit: a mouse fits through a half-inch opening. Quarter-inch hardware cloth is the mouse specification, so use that on vents, weep gaps and anywhere mice are the actual problem.</p>
           <p><strong>Fasteners.</strong> Galvanised staples or exterior screws with fender washers. Ordinary screws pull through mesh; ordinary staples rust out.</p>
-          <p>Where money is wasted: on lattice as a barrier, on chicken wire in any role, and on repellents purchased in parallel with this job. Once the perimeter is closed, the repellent has nothing to do. If you want a deterrent working on the yard generally rather than the structure, a <Link href="/blog/motion-activated-sprinkler-canada">motion-activated sprinkler</Link> on the approach route is the only category with a real track record &mdash; and our full <Link href="/blog/raccoon-deterrent-canada">raccoon deterrent tier list</Link> is blunt about which of the rest are decoration.</p>
+          <p>Where money is wasted: on lattice as a barrier, on chicken wire in any role, and on repellents purchased in parallel with this job. Once the perimeter is closed, the repellent has nothing to do. If you want a deterrent working on the yard generally rather than the structure, a <Link href="/blog/motion-activated-sprinkler-canada">motion-activated sprinkler</Link> on the approach route is the only category with a real track record &mdash; and our full <Link href="/blog/raccoon-deterrent">raccoon deterrent tier list</Link> is blunt about which of the rest are decoration.</p>
           <div className="not-prose my-4">
             <BuyLink tag={AMZ_TAG} search="hardware cloth 19 gauge 100 ft roll galvanized">Check 100 ft hardware cloth rolls on Amazon.ca →</BuyLink>
           </div>
@@ -289,7 +289,7 @@ export default function RaccoonAndSkunkProofingUnderADeckCanadaPage() {
 
           <h2>Related Guides</h2>
           <ul>
-            <li><Link href="/blog/raccoon-deterrent-canada">Raccoon Deterrents Canada &mdash; The Honest Tier List</Link></li>
+            <li><Link href="/blog/raccoon-deterrent">Raccoon Deterrents Canada &mdash; The Honest Tier List</Link></li>
             <li><Link href="/blog/best-raccoon-live-trap-canada">Best Raccoon Live Trap Canada &mdash; and Ontario Relocation Law</Link></li>
             <li><Link href="/blog/best-deer-fence-for-gardens-canada">Best Deer Fence for Gardens in Canada &mdash; The Other Autumn Exclusion Job</Link></li>
             <li><Link href="/blog/rodent-exclusion-kit-canada">Rodent Exclusion Kit Canada &mdash; Sealing the Smaller Gaps</Link></li>

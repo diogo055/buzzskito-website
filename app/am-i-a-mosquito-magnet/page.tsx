@@ -98,7 +98,7 @@ export default function MosquitoMagnetPage() {
 
           <h2 className="text-2xl font-extrabold text-brand-900 mt-10 mb-3">Related reading</h2>
           <ul className="text-gray-700 mb-4 space-y-1">
-            <li><Link href="/blog/picaridin-vs-deet-canada" className="text-brand-700 underline">Picaridin vs DEET Canada — Which Repellent Is Better?</Link></li>
+            <li><Link href="/blog/picaridin-vs-deet" className="text-brand-700 underline">Picaridin vs DEET Canada — Which Repellent Is Better?</Link></li>
             <li><Link href="/blog/permethrin-canada-yard-clothing-spray" className="text-brand-700 underline">Permethrin Canada — Where to Buy + Yard vs Clothing Spray</Link></li>
             <li><Link href="/blog/thermacell-canada-where-to-buy" className="text-brand-700 underline">Thermacell Canada — Where to Buy + Do They Actually Work?</Link></li>
             <li><Link href="/yard-risk-report" className="text-brand-700 underline font-semibold">Free GTA Yard Risk Report — Get Your Property&rsquo;s Score</Link></li>

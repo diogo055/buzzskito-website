@@ -149,7 +149,7 @@ export default function MosquitoNettingVsSprayPage() {
             <li><strong>Outdoor canopy nets</strong> — free-hanging mesh canopies that suspend from a pergola beam, shade-sail post, or tree branch over a daybed, hammock, or reading chair. The most flexible option for renters, since nothing attaches permanently to the house. <BuyLink tag={AMZ_TAG} search="outdoor canopy mosquito net">Check outdoor canopy nets on Amazon.ca &rarr;</BuyLink></li>
             <li><strong>Patio netting curtains</strong> — mesh panels with grommet or hook-and-loop edges that enclose a covered porch, pergola, or open gazebo. They tie back during the day and draw shut at dusk, so the space stays usable. <BuyLink tag={AMZ_TAG} search="patio mosquito netting curtains">Browse patio netting curtains on Amazon.ca &rarr;</BuyLink></li>
             <li><strong>Pop-up screen houses and screened gazebos</strong> — freestanding mesh rooms that drop over a patio table. Best value for open decks with nothing overhead.</li>
-            <li><strong>Bed, crib, and stroller nets</strong> — for sleeping spaces and infants; the full breakdown by use case is in our <Link href="/blog/mosquito-net-canada">mosquito net buyer&rsquo;s guide for Canada</Link>.</li>
+            <li><strong>Bed, crib, and stroller nets</strong> — for sleeping spaces and infants; the full breakdown by use case is in our <Link href="/blog/mosquito-net">mosquito net buyer&rsquo;s guide for Canada</Link>.</li>
           </ul>
 
           <TopPick tag={AMZ_TAG}
@@ -192,7 +192,7 @@ export default function MosquitoNettingVsSprayPage() {
 
           <h2>Related Reading</h2>
           <ul>
-            <li><Link href="/blog/mosquito-net-canada">Mosquito Net Canada — Buyer&rsquo;s Guide by Use (Bed, Head, Hammock)</Link></li>
+            <li><Link href="/blog/mosquito-net">Mosquito Net Canada — Buyer&rsquo;s Guide by Use (Bed, Head, Hammock)</Link></li>
             <li><Link href="/blog/mosquito-screens-patio-canada">Mosquito Screens for Your Patio — Canada Buyer&rsquo;s Guide</Link></li>
             <li><Link href="/blog/mosquito-repellent-guide-ontario-2026">Mosquito Repellent Guide Ontario 2026</Link></li>
             <li><Link href="/blog/mosquito-magnet-vs-professional-spray">Mosquito Magnet vs Professional Spray</Link></li>

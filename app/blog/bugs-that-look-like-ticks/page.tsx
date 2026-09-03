@@ -358,7 +358,7 @@ export default function BugsThatLookLikeTicksPage() {
           <li><strong>Where they live:</strong> Damp books, cardboard, paper, and mouldy areas — never attached to skin.</li>
         </ul>
         <p>Booklice do not bite, do not carry disease, and are simply a sign of humidity. Drying the area out and improving ventilation clears them.</p>
-        <p>That humidity signal is worth following, because booklice rarely turn up alone. The same damp basement or bathroom that produces them supports a whole cast of moisture-dependent household insects &mdash; and if what you found came from a storage box or a baseboard rather than off a trouser leg after a hike, it is far more likely one of those. Our companion buying guides cover what each one needs: <Link href="/blog/best-silverfish-traps-canada" className="text-brand-700 underline">which silverfish trap to buy</Link> if the insect is silver and wingless with three tails, and <Link href="/blog/best-centipede-killer-canada" className="text-brand-700 underline">what to buy for house centipedes</Link> if it was fast and long-legged. In both cases the fix is the same humidity work that clears booklice.</p>
+        <p>That humidity signal is worth following, because booklice rarely turn up alone. The same damp basement or bathroom that produces them supports a whole cast of moisture-dependent household insects &mdash; and if what you found came from a storage box or a baseboard rather than off a trouser leg after a hike, it is far more likely one of those. Our companion buying guides cover what each one needs: <Link href="/blog/best-silverfish-traps" className="text-brand-700 underline">which silverfish trap to buy</Link> if the insect is silver and wingless with three tails, and <Link href="/blog/best-centipede-killer-canada" className="text-brand-700 underline">what to buy for house centipedes</Link> if it was fast and long-legged. In both cases the fix is the same humidity work that clears booklice.</p>
 
         <h2>What Bugs Look Like Ticks on Dogs and Cats?</h2>
         <p>On a dog or cat, the things most often mistaken for ticks are scabs, skin tags, nipples, warts, matted debris and engorged fleas. A tick has 8 legs and a head buried in the skin, while a skin tag or nipple has no legs and slides with the skin when you move it. A flea is dark, flattened side-to-side and jumps.</p>
@@ -458,7 +458,7 @@ export default function BugsThatLookLikeTicksPage() {
           <li><Link href="/blog/tick-vs-bed-bug" className="text-brand-700 hover:underline">Tick vs Bed Bug: Full Comparison</Link></li>
           <li><Link href="/blog/tick-bite-vs-mosquito-bite" className="text-brand-700 hover:underline">Tick Bite vs Mosquito Bite</Link></li>
           <li><Link href="/blog/best-screen-tent-canada" className="text-brand-700 hover:underline">Best Screen Tents &amp; Screen Houses in Canada</Link></li>
-          <li><Link href="/blog/best-wasp-trap-canada" className="text-brand-700 hover:underline">Best Wasp Traps in Canada — Bag vs Sticky vs Reusable</Link></li>
+          <li><Link href="/blog/best-wasp-trap" className="text-brand-700 hover:underline">Best Wasp Traps in Canada — Bag vs Sticky vs Reusable</Link></li>
           <li><Link href="/tick-control" className="text-brand-700 hover:underline">BuzzSkito Tick Control Services</Link></li>
         </ul>
       </article>

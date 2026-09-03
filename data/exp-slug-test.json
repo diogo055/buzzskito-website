@@ -1,0 +1,183 @@
+{
+  "created": "2026-09-03",
+  "measureOn": "2026-10-15",
+  "stopRule": "At 6 weeks: if treatment does not beat control by >=25% on Canadian clicks per page, revert all 12 redirects.",
+  "excluded": [
+    "how-to-get-rid-of-ground-wasps-canada",
+    "best-rat-trap-canada",
+    "best-wasp-nest-spray-canada",
+    "mosquito-magnet-canada"
+  ],
+  "treatment": [
+    {
+      "slug": "advion-cockroach-gel-bait-canada",
+      "newSlug": "advion-cockroach-gel-bait",
+      "caImpr": 7081,
+      "caClicks": 137,
+      "pos": 7.8
+    },
+    {
+      "slug": "electric-fly-swatter-canada",
+      "newSlug": "electric-fly-swatter",
+      "caImpr": 2468,
+      "caClicks": 31,
+      "pos": 8
+    },
+    {
+      "slug": "baby-bed-bugs-nymphs-canada",
+      "newSlug": "baby-bed-bugs-nymphs",
+      "caImpr": 2309,
+      "caClicks": 2,
+      "pos": 7.4
+    },
+    {
+      "slug": "best-wasp-trap-canada",
+      "newSlug": "best-wasp-trap",
+      "caImpr": 2213,
+      "caClicks": 20,
+      "pos": 10.3
+    },
+    {
+      "slug": "mosquito-net-canada",
+      "newSlug": "mosquito-net",
+      "caImpr": 2123,
+      "caClicks": 2,
+      "pos": 10.8
+    },
+    {
+      "slug": "mosquito-repellent-for-dogs-canada",
+      "newSlug": "mosquito-repellent-for-dogs",
+      "caImpr": 1665,
+      "caClicks": 7,
+      "pos": 8.7
+    },
+    {
+      "slug": "raccoon-deterrent-canada",
+      "newSlug": "raccoon-deterrent",
+      "caImpr": 1640,
+      "caClicks": 20,
+      "pos": 8.1
+    },
+    {
+      "slug": "best-ant-killer-canada",
+      "newSlug": "best-ant-killer",
+      "caImpr": 1510,
+      "caClicks": 4,
+      "pos": 15.4
+    },
+    {
+      "slug": "best-mosquito-trap-canada",
+      "newSlug": "best-mosquito-trap",
+      "caImpr": 1458,
+      "caClicks": 28,
+      "pos": 10
+    },
+    {
+      "slug": "how-to-get-rid-of-fruit-flies-canada",
+      "newSlug": "how-to-get-rid-of-fruit-flies",
+      "caImpr": 1324,
+      "caClicks": 1,
+      "pos": 10.4
+    },
+    {
+      "slug": "picaridin-vs-deet-canada",
+      "newSlug": "picaridin-vs-deet",
+      "caImpr": 1281,
+      "caClicks": 8,
+      "pos": 6.2
+    },
+    {
+      "slug": "best-silverfish-traps-canada",
+      "newSlug": "best-silverfish-traps",
+      "caImpr": 1025,
+      "caClicks": 4,
+      "pos": 9.7
+    }
+  ],
+  "control": [
+    {
+      "slug": "mosquito-fogger-canada",
+      "newSlug": "mosquito-fogger",
+      "caImpr": 3899,
+      "caClicks": 77,
+      "pos": 6.5
+    },
+    {
+      "slug": "best-screen-tent-canada",
+      "newSlug": "best-screen-tent",
+      "caImpr": 3679,
+      "caClicks": 13,
+      "pos": 11.5
+    },
+    {
+      "slug": "best-cockroach-spray-canada",
+      "newSlug": "best-cockroach-spray",
+      "caImpr": 2229,
+      "caClicks": 13,
+      "pos": 10.5
+    },
+    {
+      "slug": "how-to-get-rid-of-wasps-canada",
+      "newSlug": "how-to-get-rid-of-wasps",
+      "caImpr": 2219,
+      "caClicks": 16,
+      "pos": 18.4
+    },
+    {
+      "slug": "how-to-get-rid-of-centipedes-canada",
+      "newSlug": "how-to-get-rid-of-centipedes",
+      "caImpr": 1906,
+      "caClicks": 7,
+      "pos": 9.6
+    },
+    {
+      "slug": "best-ant-traps-canada",
+      "newSlug": "best-ant-traps",
+      "caImpr": 1735,
+      "caClicks": 6,
+      "pos": 10.6
+    },
+    {
+      "slug": "bed-bug-mattress-encasement-canada",
+      "newSlug": "bed-bug-mattress-encasement",
+      "caImpr": 1624,
+      "caClicks": 7,
+      "pos": 11.4
+    },
+    {
+      "slug": "best-large-capacity-dehumidifier-canada",
+      "newSlug": "best-large-capacity-dehumidifier",
+      "caImpr": 1513,
+      "caClicks": 8,
+      "pos": 8.2
+    },
+    {
+      "slug": "bed-bug-spray-canada",
+      "newSlug": "bed-bug-spray",
+      "caImpr": 1396,
+      "caClicks": 19,
+      "pos": 12.4
+    },
+    {
+      "slug": "motion-activated-sprinkler-canada",
+      "newSlug": "motion-activated-sprinkler",
+      "caImpr": 1390,
+      "caClicks": 13,
+      "pos": 8.2
+    },
+    {
+      "slug": "how-to-get-rid-of-cockroaches-canada",
+      "newSlug": "how-to-get-rid-of-cockroaches",
+      "caImpr": 1175,
+      "caClicks": 0,
+      "pos": 11.3
+    },
+    {
+      "slug": "best-dehumidifier-for-basement-canada",
+      "newSlug": "best-dehumidifier-for-basement",
+      "caImpr": 1149,
+      "caClicks": 17,
+      "pos": 13.8
+    }
+  ]
+}

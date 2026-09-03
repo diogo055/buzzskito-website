@@ -1,0 +1,110 @@
+{
+ "advion-cockroach-gel-bait": {
+  "<BuyLink": 5,
+  "<AwardRow": 1,
+  "<AwardCard": 0,
+  "<StickyBuyBar": 1,
+  "<AmazonLink": 0,
+  "asin=": 0,
+  "search=": 6
+ },
+ "electric-fly-swatter": {
+  "<BuyLink": 11,
+  "<AwardRow": 1,
+  "<AwardCard": 0,
+  "<StickyBuyBar": 1,
+  "<AmazonLink": 1,
+  "asin=": 1,
+  "search=": 13
+ },
+ "baby-bed-bugs-nymphs": {
+  "<BuyLink": 5,
+  "<AwardRow": 1,
+  "<AwardCard": 0,
+  "<StickyBuyBar": 1,
+  "<AmazonLink": 0,
+  "asin=": 0,
+  "search=": 6
+ },
+ "best-wasp-trap": {
+  "<BuyLink": 10,
+  "<AwardRow": 1,
+  "<AwardCard": 0,
+  "<StickyBuyBar": 1,
+  "<AmazonLink": 1,
+  "asin=": 1,
+  "search=": 12
+ },
+ "mosquito-net": {
+  "<BuyLink": 10,
+  "<AwardRow": 0,
+  "<AwardCard": 0,
+  "<StickyBuyBar": 1,
+  "<AmazonLink": 0,
+  "asin=": 0,
+  "search=": 12
+ },
+ "mosquito-repellent-for-dogs": {
+  "<BuyLink": 11,
+  "<AwardRow": 1,
+  "<AwardCard": 0,
+  "<StickyBuyBar": 1,
+  "<AmazonLink": 0,
+  "asin=": 0,
+  "search=": 12
+ },
+ "raccoon-deterrent": {
+  "<BuyLink": 8,
+  "<AwardRow": 1,
+  "<AwardCard": 0,
+  "<StickyBuyBar": 1,
+  "<AmazonLink": 0,
+  "asin=": 1,
+  "search=": 9
+ },
+ "best-ant-killer": {
+  "<BuyLink": 11,
+  "<AwardRow": 1,
+  "<AwardCard": 0,
+  "<StickyBuyBar": 1,
+  "<AmazonLink": 0,
+  "asin=": 1,
+  "search=": 12
+ },
+ "best-mosquito-trap": {
+  "<BuyLink": 8,
+  "<AwardRow": 1,
+  "<AwardCard": 0,
+  "<StickyBuyBar": 1,
+  "<AmazonLink": 0,
+  "asin=": 1,
+  "search=": 9
+ },
+ "how-to-get-rid-of-fruit-flies": {
+  "<BuyLink": 5,
+  "<AwardRow": 0,
+  "<AwardCard": 0,
+  "<StickyBuyBar": 1,
+  "<AmazonLink": 0,
+  "asin=": 0,
+  "search=": 7
+ },
+ "picaridin-vs-deet": {
+  "<BuyLink": 7,
+  "<AwardRow": 0,
+  "<AwardCard": 0,
+  "<StickyBuyBar": 1,
+  "<AmazonLink": 0,
+  "asin=": 0,
+  "search=": 9
+ },
+ "best-silverfish-traps": {
+  "<BuyLink": 15,
+  "<AwardRow": 1,
+  "<AwardCard": 0,
+  "<StickyBuyBar": 1,
+  "<AmazonLink": 0,
+  "asin=": 0,
+  "search=": 16
+ }
+}

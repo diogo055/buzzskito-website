@@ -272,7 +272,7 @@ export default function Co2MosquitoTrapCanadaPage() {
             <li><strong>Electric Biogents + CO2 booster:</strong> add cylinder refills if you run compressed CO2; still no propane, and you only run the booster when pressure is high.</li>
             <li><strong>BG-GAT (passive):</strong> only water and refill lures — the cheapest of all to keep running.</li>
           </ul>
-          <p>For a standard 5,000–15,000 sq ft (465–1,400 m²) suburban lot in Mississauga or the wider GTA, the electric-plus-lure setup almost always makes more sense: lower running cost, no combustion, no tank storage in the garage. Propane only pulls ahead when raw coverage on a 1+ acre lot is the priority. If you are still weighing the whole category — UV, propane, electric, and everything else — our <Link href="/blog/best-mosquito-trap-canada">best mosquito trap in Canada guide</Link> ranks them head-to-head.</p>
+          <p>For a standard 5,000–15,000 sq ft (465–1,400 m²) suburban lot in Mississauga or the wider GTA, the electric-plus-lure setup almost always makes more sense: lower running cost, no combustion, no tank storage in the garage. Propane only pulls ahead when raw coverage on a 1+ acre lot is the priority. If you are still weighing the whole category — UV, propane, electric, and everything else — our <Link href="/blog/best-mosquito-trap">best mosquito trap in Canada guide</Link> ranks them head-to-head.</p>
 
           <h2>Where to place a CO2 trap in an Ontario yard</h2>
           <ul>
@@ -302,7 +302,7 @@ export default function Co2MosquitoTrapCanadaPage() {
           <h2>Related Reading</h2>
           <ul>
             <li><Link href="/blog/propane-mosquito-trap-canada">Propane Mosquito Traps in Canada — Bigger Coverage, More Fuel</Link></li>
-            <li><Link href="/blog/best-mosquito-trap-canada">Best Mosquito Trap in Canada — Every Type Ranked</Link></li>
+            <li><Link href="/blog/best-mosquito-trap">Best Mosquito Trap in Canada — Every Type Ranked</Link></li>
             <li><Link href="/blog/mosquito-magnet-canada">Mosquito Magnet Canada — Where to Buy + Do They Work</Link></li>
             <li><Link href="/blog/what-attracts-mosquitoes-to-you">What Attracts Mosquitoes to You</Link></li>
             <li><Link href="/mosquito-control">BuzzSkito Professional Mosquito Control Service</Link></li>

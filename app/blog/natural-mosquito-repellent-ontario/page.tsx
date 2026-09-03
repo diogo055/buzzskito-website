@@ -125,7 +125,7 @@ export default function NaturalMosquitoRepellentPage() {
             <p className="mt-3 text-xs text-gray-500">— BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
           </div>
 
-          <p className="lead text-xl text-gray-700 leading-relaxed mb-6">If you&rsquo;re trying to avoid DEET, you&rsquo;re not alone. Most Ontario homeowners would prefer a natural option — but the marketing claims for &ldquo;natural mosquito repellent&rdquo; products often outpace the science. Here&rsquo;s what the peer-reviewed research actually says works in Ontario backyards in 2026 — including why <Link href="/blog/picaridin-vs-deet-canada" className="text-emerald-800 underline underline-offset-2">picaridin</Link>, modelled on a black-pepper compound, is the best-tolerated non-DEET option for all-day wear.</p>
+          <p className="lead text-xl text-gray-700 leading-relaxed mb-6">If you&rsquo;re trying to avoid DEET, you&rsquo;re not alone. Most Ontario homeowners would prefer a natural option — but the marketing claims for &ldquo;natural mosquito repellent&rdquo; products often outpace the science. Here&rsquo;s what the peer-reviewed research actually says works in Ontario backyards in 2026 — including why <Link href="/blog/picaridin-vs-deet" className="text-emerald-800 underline underline-offset-2">picaridin</Link>, modelled on a black-pepper compound, is the best-tolerated non-DEET option for all-day wear.</p>
 
 
           <AwardRow tag={AMZ_TAG}
@@ -379,7 +379,7 @@ export default function NaturalMosquitoRepellentPage() {
             <li><strong>Essential oils (about 30 drops total):</strong> 12 drops lemon eucalyptus, 8 drops citronella, 6 drops lavender, 4 drops peppermint.</li>
             <li><strong>Use:</strong> shake before every application and re-apply every 30–60 minutes.</li>
           </ol>
-          <p><strong>Two honest caveats.</strong> First, the &ldquo;oil of lemon eucalyptus&rdquo; essential oil sold for DIY blends is <em>not</em> the same as the refined PMD in registered products like Off Botanicals — the raw oil is weaker and untested for safety, so don&rsquo;t treat your homemade spray as equivalent. Second, patch-test on your forearm first, and never use raw essential-oil sprays on infants under three or on broken skin. If you want dependable, all-day protection without DEET, a store-bought <Link href="/blog/picaridin-vs-deet-canada">picaridin</Link> product is the safer, longer-lasting choice.</p>
+          <p><strong>Two honest caveats.</strong> First, the &ldquo;oil of lemon eucalyptus&rdquo; essential oil sold for DIY blends is <em>not</em> the same as the refined PMD in registered products like Off Botanicals — the raw oil is weaker and untested for safety, so don&rsquo;t treat your homemade spray as equivalent. Second, patch-test on your forearm first, and never use raw essential-oil sprays on infants under three or on broken skin. If you want dependable, all-day protection without DEET, a store-bought <Link href="/blog/picaridin-vs-deet">picaridin</Link> product is the safer, longer-lasting choice.</p>
 
           <h2>The Strategy That Actually Works in Ontario</h2>
           <p>For a typical Ontario backyard, layer four natural strategies:</p>
@@ -397,7 +397,7 @@ export default function NaturalMosquitoRepellentPage() {
           <h2>Related Guides</h2>
           <ul>
             <li><Link href="/blog/mosquito-repellent-guide-ontario-2026">2026 Ontario Mosquito Repellent Guide (Every Type Ranked)</Link></li>
-            <li><Link href="/blog/picaridin-vs-deet-canada">Picaridin vs DEET in Canada — Which Should You Use?</Link></li>
+            <li><Link href="/blog/picaridin-vs-deet">Picaridin vs DEET in Canada — Which Should You Use?</Link></li>
             <li><Link href="/blog/mosquito-repellent-plants-ontario">10 Mosquito-Repellent Plants for Ontario</Link></li>
             <li><Link href="/blog/natural-eco-friendly-mosquito-control-ontario">Natural Eco-Friendly Mosquito Control</Link></li>
             <li><Link href="/blog/hidden-mosquito-breeding-spots-backyard">Hidden Mosquito Breeding Spots</Link></li>

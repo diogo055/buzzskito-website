@@ -128,7 +128,7 @@ export default function LaserMosquitoKillerPhotonMatrixPage() {
           <p className="text-xs font-extrabold text-amber-700 uppercase tracking-wider mb-2">Quick Answer</p>
           <h2 className="text-xl font-extrabold text-brand-900 mb-3">Is the laser mosquito killer (Photon Matrix) real?</h2>
           <p className="text-base text-gray-800 leading-relaxed speakable">
-            <strong>The science is real, but a safe, affordable, shipping backyard product is not &mdash; the Photon Matrix is best treated as a crowdfunded pre-order, not something you can count on this summer.</strong> The &ldquo;photonic fence&rdquo; idea (a sensor spots a mosquito and a laser zaps it) was demonstrated in labs over a decade ago, and prototype demo videos are genuinely impressive. What is missing in 2026 is independent testing, recognized eye-safety certification, and a normal in-stock Canadian price &mdash; so for real relief this season, stick with proven tools like a <Link href="/blog/best-mosquito-trap-canada" className="text-emerald-700 underline">propane CO₂ trap</Link>, Thermacell, or <Link href="/mosquito-control" className="text-emerald-700 underline">professional barrier spray</Link>.
+            <strong>The science is real, but a safe, affordable, shipping backyard product is not &mdash; the Photon Matrix is best treated as a crowdfunded pre-order, not something you can count on this summer.</strong> The &ldquo;photonic fence&rdquo; idea (a sensor spots a mosquito and a laser zaps it) was demonstrated in labs over a decade ago, and prototype demo videos are genuinely impressive. What is missing in 2026 is independent testing, recognized eye-safety certification, and a normal in-stock Canadian price &mdash; so for real relief this season, stick with proven tools like a <Link href="/blog/best-mosquito-trap" className="text-emerald-700 underline">propane CO₂ trap</Link>, Thermacell, or <Link href="/mosquito-control" className="text-emerald-700 underline">professional barrier spray</Link>.
           </p>
           <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
             <li>The Photon Matrix is a crowdfunded pre-order at roughly $450–$700 CAD before shipping and duty — more than a full season of professional service.</li>
@@ -203,7 +203,7 @@ export default function LaserMosquitoKillerPhotonMatrixPage() {
           </p>
           <div className="mt-5 rounded-xl bg-rose-50 border-l-4 border-rose-400 p-4">
             <p className="text-sm text-gray-800 leading-relaxed">
-              <strong className="text-rose-900">⚠️ Crowdfunding is not shopping.</strong> Backing a laser mosquito campaign means paying now for a product that may ship late, ship different, or never ship &mdash; and with no recognized eye-safety certification yet, it is not something we can recommend pointing at your backyard. For guaranteed relief this season, a <Link href="/blog/best-mosquito-trap-canada" className="text-emerald-700 underline font-semibold">proven trap</Link> or <Link href="/mosquito-control" className="text-emerald-700 underline font-semibold">professional barrier spray</Link> is the safe money.
+              <strong className="text-rose-900">⚠️ Crowdfunding is not shopping.</strong> Backing a laser mosquito campaign means paying now for a product that may ship late, ship different, or never ship &mdash; and with no recognized eye-safety certification yet, it is not something we can recommend pointing at your backyard. For guaranteed relief this season, a <Link href="/blog/best-mosquito-trap" className="text-emerald-700 underline font-semibold">proven trap</Link> or <Link href="/mosquito-control" className="text-emerald-700 underline font-semibold">professional barrier spray</Link> is the safe money.
             </p>
           </div>
         </div>
@@ -412,7 +412,7 @@ export default function LaserMosquitoKillerPhotonMatrixPage() {
           <p>While the laser idea matures, here is the honest, boring, effective toolkit that clears mosquitoes from a real Canadian backyard right now. Most homeowners get the best results by combining two or three of these rather than chasing a single silver-bullet gadget.</p>
 
           <h3>1. Propane CO₂ traps (the proven trap)</h3>
-          <p>A <Link href="/blog/best-mosquito-trap-canada">propane CO₂ trap</Link> like the Mosquito Magnet burns propane to make real CO₂, heat, and moisture &mdash; the exact cues a female mosquito hunts &mdash; then vacuums her in. Independent testing shows 70&ndash;90% population reduction over 6&ndash;8 weeks of continuous running. It is a real device you can order today, best suited to larger and cottage properties. Stocked at Costco Canada, Cabela&rsquo;s, Lee Valley, and Amazon.ca. <BuyLink tag={AMZ_TAG} search="mosquito magnet trap">Check Mosquito Magnet price →</BuyLink></p>
+          <p>A <Link href="/blog/best-mosquito-trap">propane CO₂ trap</Link> like the Mosquito Magnet burns propane to make real CO₂, heat, and moisture &mdash; the exact cues a female mosquito hunts &mdash; then vacuums her in. Independent testing shows 70&ndash;90% population reduction over 6&ndash;8 weeks of continuous running. It is a real device you can order today, best suited to larger and cottage properties. Stocked at Costco Canada, Cabela&rsquo;s, Lee Valley, and Amazon.ca. <BuyLink tag={AMZ_TAG} search="mosquito magnet trap">Check Mosquito Magnet price →</BuyLink></p>
 
           <h3>2. Thermacell (instant patio bubble)</h3>
           <p>For same-evening relief in a seating area, a Thermacell heats a repellent mat to create a roughly 20 sq metre &ldquo;bubble&rdquo; around you within minutes &mdash; no laser, no wiring. It is the closest thing to instant gratification on this list, ideal for a deck, dock, or campsite. Widely stocked at Canadian Tire, Home Depot Canada, and Costco. <BuyLink tag={AMZ_TAG} search="thermacell patio shield">Check Thermacell price →</BuyLink></p>
@@ -690,7 +690,7 @@ export default function LaserMosquitoKillerPhotonMatrixPage() {
 
           <h2>The Honest Verdict</h2>
           <p>The laser mosquito killer is one of the more exciting ideas in pest control, and the photonic-fence research behind it is genuinely real. But excitement is not the same as availability. As of 2026, the Photon Matrix and its cousins are crowdfunded pre-orders without independent testing or recognized eye-safety certification, priced above a full season of professional service, covering only a few metres, and doing nothing for ticks. Watch the category with interest &mdash; do not rely on it to keep the bites off you this July.</p>
-          <p>If you want a mosquito-free backyard <em>this</em> summer, put your money where the evidence is: a <Link href="/blog/best-mosquito-trap-canada">proven trap</Link>, a Thermacell on the patio, BTI dunks in the standing water, and <Link href="/mosquito-control">professional barrier spray</Link> for whole-yard, tick-inclusive coverage. When a certified, independently tested laser device finally ships to Canada, we will update this page.</p>
+          <p>If you want a mosquito-free backyard <em>this</em> summer, put your money where the evidence is: a <Link href="/blog/best-mosquito-trap">proven trap</Link>, a Thermacell on the patio, BTI dunks in the standing water, and <Link href="/mosquito-control">professional barrier spray</Link> for whole-yard, tick-inclusive coverage. When a certified, independently tested laser device finally ships to Canada, we will update this page.</p>
 
           <h3>Verdict update &mdash; September 2026</h3>
           <p>One sentence in the verdict above has aged and the rest has not, so here is the correction rather than a quiet rewrite. <strong>Availability changed.</strong> US outlets now report the Photon Matrix on sale online at roughly $988 to $1,088 USD with a 12-month warranty, so &ldquo;you cannot buy it&rdquo; is no longer the right objection and we have retired it.</p>
@@ -698,7 +698,7 @@ export default function LaserMosquitoKillerPhotonMatrixPage() {
 
           <h2>Related Reading</h2>
           <ul>
-            <li><Link href="/blog/best-mosquito-trap-canada">Best Mosquito Trap in Canada — Every Type Compared</Link></li>
+            <li><Link href="/blog/best-mosquito-trap">Best Mosquito Trap in Canada — Every Type Compared</Link></li>
             <li><Link href="/blog/mosquito-magnet-canada">Mosquito Magnet Canada — Where to Buy + Do They Work</Link></li>
             <li><Link href="/blog/dynatrap-canada-review">DynaTrap Canada — Honest Review</Link></li>
             <li><Link href="/blog/thermacell-canada-where-to-buy">Thermacell Canada Guide</Link></li>

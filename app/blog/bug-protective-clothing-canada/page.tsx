@@ -232,7 +232,7 @@ export default function BugProtectiveClothingCanadaPage() {
 
           <h3>3. Sea to Summit Mosquito Head Net — Best Everyday Head Net</h3>
           <p>If you buy exactly one item from this guide, buy a head net. It weighs about 35 grams (1.2 oz), packs smaller than a granola bar, and neutralizes the single most maddening thing biting insects do — swarming your face. The Sea to Summit Mosquito Head Net is our pick of the standard-mesh options because it gets the details right: black mesh (far easier to see through than pale mesh, because dark fibres don&rsquo;t scatter light into your eyes), a wide drawcord seal at the neck, and enough volume to fit over a brimmed hat so the mesh stays off your skin.</p>
-          <p>Standard mesh — openings around 1.2 mm — stops every mosquito and black fly species in Ontario. Keep one in the glovebox, one in the tackle box, and one in the stroller basket; at this size and price there&rsquo;s no reason not to. It&rsquo;s the same logic as the broader netting category we cover in our <Link href="/blog/mosquito-net-canada">mosquito net guide for Canada</Link> — a physical barrier exactly where the bugs concentrate.</p>
+          <p>Standard mesh — openings around 1.2 mm — stops every mosquito and black fly species in Ontario. Keep one in the glovebox, one in the tackle box, and one in the stroller basket; at this size and price there&rsquo;s no reason not to. It&rsquo;s the same logic as the broader netting category we cover in our <Link href="/blog/mosquito-net">mosquito net guide for Canada</Link> — a physical barrier exactly where the bugs concentrate.</p>
           <div className="not-prose my-4"><BuyLink tag={AMZ_TAG} search="sea to summit mosquito head net">Check price on Amazon.ca &rarr;</BuyLink></div>
 
           <h3>4. Sea to Summit Ultra-Mesh Head Net — For No-See-Um Country</h3>
@@ -304,7 +304,7 @@ export default function BugProtectiveClothingCanadaPage() {
             <li><Link href="/blog/black-flies-ontario-when-they-come-out">When Do Black Flies Come Out in Ontario?</Link></li>
             <li><Link href="/blog/no-see-ums-biting-midges-canada">No-See-Ums &amp; Biting Midges in Canada</Link></li>
             <li><Link href="/blog/permethrin-canada-yard-clothing-spray">Permethrin in Canada — Yard &amp; Clothing Guide</Link></li>
-            <li><Link href="/blog/mosquito-net-canada">Mosquito Nets in Canada — Bed Nets, Head Nets &amp; Canopies</Link></li>
+            <li><Link href="/blog/mosquito-net">Mosquito Nets in Canada — Bed Nets, Head Nets &amp; Canopies</Link></li>
             <li><Link href="/blog/best-screen-tent-canada">Best Screen Tents &amp; Screen Houses in Canada</Link></li>
           </ul>
         </div>

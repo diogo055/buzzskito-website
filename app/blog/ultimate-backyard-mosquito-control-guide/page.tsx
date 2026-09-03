@@ -153,14 +153,14 @@ export default function MosquitoPillarPage() {
           cons={['Only treats standing water — not resting adults', 'Needs replacing each month through the season']}
         />
         <p className="not-prose text-xs text-gray-500 mb-6">Score reflects BuzzSkito&rsquo;s own editorial rating, not an Amazon rating.</p>
-        <p>For the hours you&apos;re actually outside, a <strong>Thermacell repeller</strong> creates a roughly 20-foot zone of protection over a patio or deck without sprays or open flame, and the right skin repellent handles the rest. See how the options compare in our <Link href="/blog/picaridin-vs-deet-canada" className="text-brand-700 underline hover:text-brand-500">picaridin vs. DEET guide</Link> and <Link href="/blog/best-mosquito-trap-canada" className="text-brand-700 underline hover:text-brand-500">best mosquito traps in Canada</Link> — or <BuyLink tag={AMZ_TAG} search="thermacell mosquito repeller">Check price on Amazon.ca →</BuyLink></p>
+        <p>For the hours you&apos;re actually outside, a <strong>Thermacell repeller</strong> creates a roughly 20-foot zone of protection over a patio or deck without sprays or open flame, and the right skin repellent handles the rest. See how the options compare in our <Link href="/blog/picaridin-vs-deet" className="text-brand-700 underline hover:text-brand-500">picaridin vs. DEET guide</Link> and <Link href="/blog/best-mosquito-trap" className="text-brand-700 underline hover:text-brand-500">best mosquito traps in Canada</Link> — or <BuyLink tag={AMZ_TAG} search="thermacell mosquito repeller">Check price on Amazon.ca →</BuyLink></p>
         <p>These tools cut bites in the moment, but they don&apos;t clear the adult mosquitoes resting in your vegetation the way a professional barrier spray does. For a yard that stays bite-free all season, they work best alongside a treatment plan.</p>
 
         <h2>Gear &amp; Product Guides: Every Mosquito Device Reviewed</h2>
         <p>Thinking about buying a trap, fogger, or repeller before (or instead of) booking a treatment? We&apos;ve written honest, Canada-specific reviews of the most-searched mosquito gear — what each device actually does, what it can&apos;t do, and which yards it makes sense for:</p>
         <div className="not-prose grid grid-cols-1 sm:grid-cols-2 gap-3 my-6">
           {[
-            { href: '/blog/best-mosquito-trap-canada', title: 'Best Mosquito Traps in Canada', desc: 'Every trap type ranked — which ones actually reduce bites' },
+            { href: '/blog/best-mosquito-trap', title: 'Best Mosquito Traps in Canada', desc: 'Every trap type ranked — which ones actually reduce bites' },
             { href: '/blog/mosquito-magnet-canada', title: 'Mosquito Magnet Review (Canada)', desc: 'Is the famous CO2 trap worth it for a GTA yard?' },
             { href: '/blog/propane-mosquito-trap-canada', title: 'Propane Mosquito Traps in Canada', desc: 'How propane-to-CO2 traps work and which to pick' },
             { href: '/blog/dynatrap-canada-review', title: 'DynaTrap Review (Canada)', desc: 'The popular UV trap, tested against real mosquito pressure' },

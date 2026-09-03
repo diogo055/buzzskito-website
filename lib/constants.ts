@@ -816,7 +816,7 @@ export const NEW_BLOGS_14 = [
     category: 'mosquito' as const,
   },
   {
-    slug: 'mosquito-net-canada',
+    slug: 'mosquito-net',
     title: 'Mosquito Net Canada 2026: Best Nets by Use + Where to Buy',
     excerpt: 'The right mosquito net for every job: bed canopy, head net, hammock, and stroller nets compared — with real 2026 Canadian prices.',
     date: '2026-07-12',
@@ -837,7 +837,7 @@ export const NEW_BLOGS_14 = [
     category: 'mosquito' as const,
   },
   {
-    slug: 'best-mosquito-trap-canada',
+    slug: 'best-mosquito-trap',
     title: 'Best Mosquito Trap Canada 2026: Propane vs UV vs CO2',
     excerpt: 'Propane, UV+fan, CO2 lure, and indoor mosquito traps compared for Canadian yards — how each works, honest effectiveness, 2026 prices, and where to buy.',
     date: '2026-07-12',
@@ -865,7 +865,7 @@ export const NEW_BLOGS_14 = [
     category: 'mosquito' as const,
   },
   {
-    slug: 'mosquito-repellent-for-dogs-canada',
+    slug: 'mosquito-repellent-for-dogs',
     title: 'Mosquito Repellent for Dogs in Canada: Vet-Safe Picks',
     excerpt: 'Safe mosquito repellent for dogs in Canada: vet-approved picks, why never DEET, the permethrin-and-cats warning, and heartworm facts.',
     date: '2026-07-12',
@@ -1116,7 +1116,7 @@ export const NEW_BLOGS_17 = [
     category: 'mosquito' as const,
   },
   {
-    slug: 'electric-fly-swatter-canada',
+    slug: 'electric-fly-swatter',
     title: 'Best Electric Fly Swatter Canada 2026 — The Executioner vs Zap It vs Black Flag',
     excerpt: 'The Executioner vs Zap It vs Black Flag on Amazon.ca — grid voltage, single vs 3-layer mesh safety, battery vs USB, and what a bug zapper racket honestly kills.',
     date: '2026-07-14',
@@ -1591,7 +1591,7 @@ export const NEW_BLOGS_25 = [
 
 export const NEW_BLOGS_26 = [
   {
-    slug: 'best-wasp-trap-canada',
+    slug: 'best-wasp-trap',
     title: 'Best Wasp Traps in Canada: Bag, Sticky, Reusable and DIY Compared',
     excerpt: 'The four kinds of wasp trap compared for Canadian yards — what each one actually catches, where to hang them, the two timing windows that matter, and where to buy them.',
     date: '2026-07-21',
@@ -1633,7 +1633,7 @@ export const NEW_BLOGS_26 = [
     category: 'mosquito' as const,
   },
   {
-    slug: 'how-to-get-rid-of-fruit-flies-canada',
+    slug: 'how-to-get-rid-of-fruit-flies',
     title: 'How to Get Rid of Fruit Flies in Canada — Find the Source, Break the 8-Day Cycle',
     excerpt: 'Fruit flies explode because egg-to-adult takes 8 days. The source-first Canadian playbook: produce, drains, recycling, the TERRO trap, honest ACV DIY, and prevention.',
     date: '2026-07-21',
@@ -1675,7 +1675,7 @@ export const NEW_BLOGS_26 = [
     category: 'mosquito' as const,
   },
   {
-    slug: 'raccoon-deterrent-canada',
+    slug: 'raccoon-deterrent',
     title: 'Best Raccoon Deterrent Canada 2026 — What Actually Works (and What Ontario Law Allows)',
     excerpt: 'Toronto is the raccoon capital of the world and Ontario law bans relocating wildlife past 1 km — so deterrence is the whole game. The honest tier list of what actually works.',
     date: '2026-07-21',
@@ -1713,7 +1713,7 @@ export const NEW_BLOGS_27 = [
     category: 'mosquito' as const,
   },
   {
-    slug: 'advion-cockroach-gel-bait-canada',
+    slug: 'advion-cockroach-gel-bait',
     title: 'Advion Cockroach Gel Bait in Canada — The Honest Grey-Market Answer',
     excerpt: 'Can you buy Advion in Canada? The honest grey-market answer: PMRA classes, the 10-second PCP label check, and the legal bait-station toolkit that actually works on German cockroaches.',
     date: '2026-07-21',
@@ -1814,7 +1814,7 @@ export const NEW_BLOGS_28 = [
 // so NOT spread into sitemap.ts to avoid duplicate <loc>).
 export const NEW_BLOGS_29 = [
   { slug: 'permethrin-canada-yard-clothing-spray', title: 'Permethrin Canada: Where to Buy + Is It Legal? (2026)', excerpt: 'Where to buy permethrin in Canada, whether it is legal for clothing and yard use, and how to apply Sawyer-style sprays safely.', date: '2026-07-19', category: 'mosquito' as const },
-  { slug: 'picaridin-vs-deet-canada', title: 'Picaridin vs DEET Canada 2026 — Which Repellent Wins?', excerpt: 'Picaridin vs DEET for Canadian summers: which lasts longer, which is safer, and the best picaridin (icaridin) repellents to buy.', date: '2026-07-19', category: 'mosquito' as const },
+  { slug: 'picaridin-vs-deet', title: 'Picaridin vs DEET Canada 2026 — Which Repellent Wins?', excerpt: 'Picaridin vs DEET for Canadian summers: which lasts longer, which is safer, and the best picaridin (icaridin) repellents to buy.', date: '2026-07-19', category: 'mosquito' as const },
   { slug: 'mosquito-bits-canada-vs-dunks', title: 'Mosquito Bits vs Dunks (Canada 2026): Kills Larvae Faster', excerpt: 'Bits kill larvae in 24 hours, Dunks last 30 days — which BTI product to use and where to buy each cheapest in Canada.', date: '2026-07-15', category: 'mosquito' as const },
   { slug: 'mosquito-control-worth-the-cost', title: 'Is Professional Mosquito Control Worth the Cost?', excerpt: 'An honest look at whether professional mosquito control is worth it — what you get, what it costs, and when DIY is enough.', date: '2026-06-15', category: 'mosquito' as const },
   { slug: 'when-does-mosquito-season-start-toronto-2026', title: 'When Does Mosquito Season Start in Toronto? 2026 Guide', excerpt: 'When Toronto\'s mosquito season begins in 2026, the temperature triggers, peak months, and when to book the first treatment.', date: '2026-05-20', category: 'mosquito' as const },
@@ -1918,11 +1918,11 @@ export const NEW_BLOGS_33 = [
 // household-pest clusters (Jul 28 2026). best-earwig-killer-canada ships in
 // NEW_BLOGS_33 already — not repeated here.
 export const NEW_BLOGS_34 = [
-  { slug: "best-ant-killer-canada", title: "Best Ant Killer in Canada 2026 — What Actually Kills the Colony", excerpt: "Best ant killer in Canada 2026: why bait beats every contact spray, indoor vs outdoor vs perimeter picks, and the PCP number to check before you buy.", date: '2026-07-28', category: 'tick' as const },
+  { slug: "best-ant-killer", title: "Best Ant Killer in Canada 2026 — What Actually Kills the Colony", excerpt: "Best ant killer in Canada 2026: why bait beats every contact spray, indoor vs outdoor vs perimeter picks, and the PCP number to check before you buy.", date: '2026-07-28', category: 'tick' as const },
   { slug: "best-ant-traps-canada", title: "Best Ant Traps in Canada 2026 — Bait Stations vs Glue Traps, and What Actually Kills the Colony", excerpt: "Best ant traps in Canada 2026: liquid bait stations beat glue boards because the colony carries the bait to the queen. Placement, pet safety, PCP rules.", date: '2026-07-28', category: 'tick' as const },
   { slug: "best-cockroach-spray-canada", title: "Cockroach Spray in Canada — The Three Jobs Worth Buying a Can For", excerpt: "Which cockroach spray to buy in Canada, and when not to: the three jobs a can genuinely wins, how to read a PCP label, and why spraying near bait ruins it.", date: '2026-07-28', category: 'tick' as const },
   { slug: "best-roach-traps-canada", title: "Cockroach Traps in Canada — Glue Boards Find Them, Bait Stations Kill Them", excerpt: "Which cockroach trap to buy in Canada: glue boards diagnose where roaches live, enclosed bait stations do the killing. How many of each, placement, PCP check.", date: '2026-07-28', category: 'tick' as const },
-  { slug: "best-silverfish-traps-canada", title: "Silverfish Traps in Canada — Which Type to Buy, How Many, and Where Each One Goes", excerpt: "Which silverfish trap to buy in Canada: flat glue boards vs covered stations vs the free jar trap, how many you need, where each goes, and when to replace.", date: '2026-07-28', category: 'tick' as const },
+  { slug: "best-silverfish-traps", title: "Silverfish Traps in Canada — Which Type to Buy, How Many, and Where Each One Goes", excerpt: "Which silverfish trap to buy in Canada: flat glue boards vs covered stations vs the free jar trap, how many you need, where each goes, and when to replace.", date: '2026-07-28', category: 'tick' as const },
   { slug: "best-centipede-killer-canada", title: "Centipede Killer Canada — Which Product to Buy First, in What Order, and What the Label Must Say", excerpt: "What to buy for centipedes in Canada, in buying order: dehumidifier spec, which registered diatomaceous earth, how many glue boards, and the PCP label check.", date: '2026-07-28', category: 'tick' as const },
   { slug: "best-flea-spray-for-home-canada", title: "Best Flea Spray for Home Canada 2026 — Why the IGR Matters More Than the Kill", excerpt: "Flea spray for home use in Canada: why the IGR (methoprene or pyriproxyfen) matters more than the kill — adult fleas are only 5% of an infestation.", date: '2026-07-28', category: 'tick' as const },
   { slug: "best-flea-bomb-canada", title: "Best Flea Bomb in Canada 2026 — Why an IGR Spray Beats Every Fogger on the Shelf", excerpt: "Flea bomb guide for Canada: total-release foggers miss the 95% of fleas living as eggs, larvae and pupae in carpet base — here is what to buy instead.", date: '2026-07-28', category: 'tick' as const },
@@ -1943,7 +1943,7 @@ export const NEW_BLOGS_35 = [
 // second until it has 90 days of data). Numbered 38 to leave 36–37 free for the
 // sibling build waves shipping the same day.
 export const NEW_BLOGS_38 = [
-  { slug: "baby-bed-bugs-nymphs-canada", title: "Baby Bed Bugs in Canada — What Nymphs Look Like at Each Stage, and Why Finding One Changes the Plan", excerpt: "Baby bed bugs (nymphs) are 1–4.5 mm, translucent, and moult five times. How to tell them from carpet beetle larvae and booklice — and why finding one matters.", date: '2026-07-30', category: 'tick' as const },
+  { slug: "baby-bed-bugs-nymphs", title: "Baby Bed Bugs in Canada — What Nymphs Look Like at Each Stage, and Why Finding One Changes the Plan", excerpt: "Baby bed bugs (nymphs) are 1–4.5 mm, translucent, and moult five times. How to tell them from carpet beetle larvae and booklice — and why finding one matters.", date: '2026-07-30', category: 'tick' as const },
   { slug: "bed-bug-bites-vs-mosquito-bites", title: "Bed Bug Bites vs Mosquito Bites — Five Tells That Separate Them, and What to Do About Each", excerpt: "Bed bug bites vs mosquito bites: five tells that separate them — pattern, timing, where on the body, season and the room evidence that actually confirms it.", date: '2026-07-30', category: 'mosquito' as const },
   { slug: "doktor-doom-canada-guide", title: "Doktor Doom in Canada — Which Product Does Which Job, and the Three Jobs It Is Wrong For", excerpt: "Doktor Doom in Canada: which product does which job, what the PCP registration number on the can actually buys you, and the three jobs the brand is wrong for.", date: '2026-07-30', category: 'tick' as const },
   { slug: "traces-punaises-de-lit-matelas", title: "Traces de punaises de lit sur un matelas — lire les points noirs, les taches et les mues", excerpt: "Traces de punaises de lit sur un matelas : comment distinguer déjections, taches de sang, mues et œufs — et quoi faire avant d’acheter un produit.", date: '2026-07-30', category: 'tick' as const },

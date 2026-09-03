@@ -296,7 +296,7 @@ export default function FlowtronBugZapperCanadaPage() {
               <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Professional barrier spray</strong></td><td className="px-3 py-2">Residual treatment on vegetation</td><td className="px-3 py-2">Highest overall</td><td className="px-3 py-2">Whole-yard bite reduction + ticks</td></tr>
             </tbody>
           </table>
-          <p>The takeaway: no trap category — Flowtron included — beats a residual barrier treatment for actually reducing bites in a typical GTA yard. If you want to compare the whole trap market first, our <Link href="/blog/best-mosquito-trap-canada">best mosquito trap in Canada</Link> guide ranks the options, and if you specifically want a cordless, no-outlet unit, see our <Link href="/blog/best-solar-bug-zapper-canada">best solar bug zapper in Canada</Link> comparison.</p>
+          <p>The takeaway: no trap category — Flowtron included — beats a residual barrier treatment for actually reducing bites in a typical GTA yard. If you want to compare the whole trap market first, our <Link href="/blog/best-mosquito-trap">best mosquito trap in Canada</Link> guide ranks the options, and if you specifically want a cordless, no-outlet unit, see our <Link href="/blog/best-solar-bug-zapper-canada">best solar bug zapper in Canada</Link> comparison.</p>
 
           <h2>The Smart Way to Use a Flowtron in the GTA</h2>
           <p>Bought correctly and used correctly, a Flowtron earns its place — it just is not the whole answer. For a typical GTA suburban property, the combination we actually recommend is:</p>
@@ -312,7 +312,7 @@ export default function FlowtronBugZapperCanadaPage() {
             <li><Link href="/blog/bug-zappers-canada-do-they-work">Do Bug Zappers Actually Work? The Canadian Research</Link></li>
             <li><Link href="/blog/best-solar-bug-zapper-canada">Best Solar Bug Zapper in Canada</Link></li>
             <li><Link href="/blog/dynatrap-canada-review">DynaTrap Canada Review</Link></li>
-            <li><Link href="/blog/best-mosquito-trap-canada">Best Mosquito Trap in Canada</Link></li>
+            <li><Link href="/blog/best-mosquito-trap">Best Mosquito Trap in Canada</Link></li>
             <li><Link href="/mosquito-control">BuzzSkito Professional Mosquito Control Service</Link></li>
           </ul>
 

@@ -9,7 +9,7 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { tagForSlug } from '@/lib/amazon-clusters'
 
-const SLUG = 'best-mosquito-trap-canada'
+const SLUG = 'best-mosquito-trap'
 const DATE = '2026-07-12'
 const UPDATED = '2026-07-12'
 const TITLE = 'Best Mosquito Trap Canada 2026 — Propane vs UV vs CO₂ Compared'

@@ -374,7 +374,7 @@ export default function MosquitoFoggerCanadaPage() {
 
           <h2>Related Reading</h2>
           <ul>
-            <li><Link href="/blog/best-mosquito-trap-canada">Best Mosquito Trap Canada — CO₂, UV &amp; Propane Compared</Link></li>
+            <li><Link href="/blog/best-mosquito-trap">Best Mosquito Trap Canada — CO₂, UV &amp; Propane Compared</Link></li>
             <li><Link href="/blog/dynatrap-canada-review">Do DynaTraps Actually Work on Mosquitoes?</Link></li>
             <li><Link href="/blog/bug-zappers-canada-do-they-work">Bug Zappers Canada — Do They Actually Work?</Link></li>
             <li><Link href="/blog/backpack-sprayer-canada">Backpack Sprayer Canada — DIY Residual Spraying Guide</Link></li>
@@ -382,7 +382,7 @@ export default function MosquitoFoggerCanadaPage() {
             <li><Link href="/blog/ortho-home-defense-canada-review">Ortho Home Defense Canada Review</Link></li>
             <li><Link href="/mosquito-control">BuzzSkito Professional Mosquito Control Service</Link></li>
             <li><Link href="/blog/permethrin-canada-yard-clothing-spray">Permethrin Canada — Yard &amp; Clothing Spray Guide</Link></li>
-            <li><Link href="/blog/best-wasp-trap-canada">Best Wasp Traps Canada — Which Type Catches What</Link></li>
+            <li><Link href="/blog/best-wasp-trap">Best Wasp Traps Canada — Which Type Catches What</Link></li>
             <li><Link href="/free-yard-assessment">Get a Free Yard Assessment</Link></li>
             <li><Link href="/blog">More BuzzSkito mosquito &amp; tick guides</Link></li>
           </ul>

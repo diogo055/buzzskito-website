@@ -14,7 +14,7 @@ const SECTIONS: HubSection[] = [
     icon: '⚡',
     intro: 'Devices that lure and kill flying insects. CO₂-baited traps can genuinely thin a mosquito population on a large lot; electric zappers mostly kill harmless bugs. We separate the two here.',
     guides: [
-      { href: '/blog/best-mosquito-trap-canada', title: 'Best Mosquito Trap Canada', blurb: 'Our overall trap rankings — which units catch mosquitoes and which just catch moths.', tone: 'top' },
+      { href: '/blog/best-mosquito-trap', title: 'Best Mosquito Trap Canada', blurb: 'Our overall trap rankings — which units catch mosquitoes and which just catch moths.', tone: 'top' },
       { href: '/blog/mosquito-magnet-canada', title: 'Mosquito Magnet Canada', blurb: 'The premium propane CO₂ trap — where to buy in Canada and whether it earns its price.' },
       { href: '/blog/dynatrap-canada-review', title: 'DynaTrap Canada Review', blurb: 'The popular UV + CO₂ trap tested — what it actually catches in a real backyard.' },
       { href: '/blog/propane-mosquito-trap-canada', title: 'Propane Mosquito Traps Canada', blurb: 'How propane CO₂ traps work, real running costs, and which units are worth it.' },
@@ -22,7 +22,7 @@ const SECTIONS: HubSection[] = [
       { href: '/blog/bug-zappers-canada-do-they-work', title: 'Bug Zappers Canada — Do They Work?', blurb: 'The research on electric zappers — spoiler: they kill mostly non-biting insects.', tone: 'skip' },
       { href: '/blog/flowtron-bug-zapper-canada', title: 'Flowtron Bug Zapper Canada', blurb: 'Canada\'s best-known zapper brand reviewed against the actual evidence.' },
       { href: '/blog/best-solar-bug-zapper-canada', title: 'Best Solar Bug Zapper Canada', blurb: 'Cordless solar zappers ranked — and why their coverage claims run optimistic.' },
-      { href: '/blog/electric-fly-swatter-canada', title: 'Electric Fly Swatter Canada', blurb: 'The cheap electric racket that genuinely works indoors — our top picks.' },
+      { href: '/blog/electric-fly-swatter', title: 'Electric Fly Swatter Canada', blurb: 'The cheap electric racket that genuinely works indoors — our top picks.' },
       { href: '/blog/laser-mosquito-killer-photon-matrix-review', title: 'Laser Mosquito Killer — Photon Matrix Review', blurb: 'The viral laser \'mosquito turret\' — is Photon Matrix real or pure hype?' },
       { href: '/blog/best-indoor-fly-mosquito-trap-canada', title: 'Best Indoor Fly & Mosquito Trap Canada', blurb: 'Plug-in indoor traps that quietly clear flying insects out of a room.' },
     ],
@@ -54,7 +54,7 @@ const SECTIONS: HubSection[] = [
     icon: '🕸️',
     intro: 'Physical barriers are the only mosquito control that works 100% of the time — nothing gets through mesh. Screens, nets, and tight-weave clothing keep bites off without any chemistry at all.',
     guides: [
-      { href: '/blog/mosquito-net-canada', title: 'Mosquito Net Canada', blurb: 'Bed nets, canopy nets, and gazebo nets that actually seal mosquitoes out.' },
+      { href: '/blog/mosquito-net', title: 'Mosquito Net Canada', blurb: 'Bed nets, canopy nets, and gazebo nets that actually seal mosquitoes out.' },
       { href: '/blog/best-screen-tent-canada', title: 'Best Screen Tent Canada', blurb: 'Screen houses and gazebos to reclaim the deck on peak-season evenings.' },
       { href: '/blog/mosquito-screens-patio-canada', title: 'Mosquito Screens for Patios Canada', blurb: 'Retractable and magnetic screens for patios, porches, and doorways.' },
       { href: '/blog/bug-protective-clothing-canada', title: 'Bug Protective Clothing Canada', blurb: 'Permethrin-treated and tight-weave clothing for serious bug country.' },
@@ -67,7 +67,7 @@ const SECTIONS: HubSection[] = [
     guides: [
       { href: '/blog/off-deep-woods-deet-bug-spray-canada', title: 'OFF! Deep Woods DEET Bug Spray Canada', blurb: 'Canada\'s DEET benchmark — concentrations, protection hours, and safety.', tone: 'top' },
       { href: '/blog/best-bug-spray-for-kids-canada', title: 'Best Bug Spray for Kids Canada', blurb: 'Health Canada age rules and the safest repellent picks for children.' },
-      { href: '/blog/mosquito-repellent-for-dogs-canada', title: 'Mosquito Repellent for Dogs Canada', blurb: 'Dog-safe repellents — what is approved and what is toxic to pets.' },
+      { href: '/blog/mosquito-repellent-for-dogs', title: 'Mosquito Repellent for Dogs Canada', blurb: 'Dog-safe repellents — what is approved and what is toxic to pets.' },
       { href: '/blog/citronella-candles-canada-do-they-work', title: 'Citronella Candles Canada — Do They Work?', blurb: 'The honest answer on citronella — modest, close-range, and easily overrated.' },
       { href: '/blog/mosquito-coils-canada', title: 'Mosquito Coils Canada', blurb: 'Burning coils reviewed — how well they work and the smoke trade-off.' },
       { href: '/blog/mosquito-repellent-bracelets-canada', title: 'Mosquito Repellent Bracelets Canada', blurb: 'Wearable bands tested — why they protect a wrist, not a whole body.', tone: 'skip' },

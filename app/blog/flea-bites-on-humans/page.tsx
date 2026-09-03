@@ -270,7 +270,7 @@ export default function FleaBitesOnHumansPage() {
             </tbody>
           </table>
         </div>
-        <p>For the fine detail on each of those, we keep dedicated guides: <Link href="/blog/baby-bed-bugs-nymphs-canada">what bed bug nymphs look like</Link>, <Link href="/blog/bed-bug-shells-casings-shed-skins-canada">shed skins and casings</Link>, and <Link href="/blog/bed-bug-stains-poop-droppings-canada">bed bug stains and droppings</Link>. If the insect you found is not quite matching any of it, work through <Link href="/blog/bugs-that-look-like-bed-bugs-canada">the bugs that get mistaken for bed bugs</Link> before you spend a dollar on treatment.</p>
+        <p>For the fine detail on each of those, we keep dedicated guides: <Link href="/blog/baby-bed-bugs-nymphs">what bed bug nymphs look like</Link>, <Link href="/blog/bed-bug-shells-casings-shed-skins-canada">shed skins and casings</Link>, and <Link href="/blog/bed-bug-stains-poop-droppings-canada">bed bug stains and droppings</Link>. If the insect you found is not quite matching any of it, work through <Link href="/blog/bugs-that-look-like-bed-bugs-canada">the bugs that get mistaken for bed bugs</Link> before you spend a dollar on treatment.</p>
 
         <h2 id="first-signs-bed-bugs">What are the first signs that you have bed bugs?</h2>
         <p><strong>Bites first, evidence second.</strong> Most people notice unexplained bites on skin that was uncovered in bed &mdash; face, neck, shoulders, arms, hands &mdash; on waking, frequently in a line or loose row. Small blood smears on the sheets usually follow, then dark faecal spotting along mattress seams. Live bugs are typically the last thing anyone sees.</p>

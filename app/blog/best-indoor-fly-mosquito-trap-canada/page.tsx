@@ -215,7 +215,7 @@ export default function BestIndoorFlyMosquitoTrapCanadaPage() {
           </p>
           <div className="mt-5 rounded-xl bg-amber-50 border-l-4 border-amber-400 p-4">
             <p className="text-sm text-gray-800 leading-relaxed">
-              <strong className="text-amber-900">Reality check:</strong> indoor traps only manage insects <em>already</em> inside. The flies and mosquitoes bothering you almost all came from outside. The lasting fix is dropping the outdoor population so fewer get in — see our <Link href="/blog/best-mosquito-trap-canada" className="text-emerald-700 underline font-semibold">outdoor mosquito trap guide</Link> and <Link href="/mosquito-control" className="text-emerald-700 underline font-semibold">professional barrier spray</Link>.
+              <strong className="text-amber-900">Reality check:</strong> indoor traps only manage insects <em>already</em> inside. The flies and mosquitoes bothering you almost all came from outside. The lasting fix is dropping the outdoor population so fewer get in — see our <Link href="/blog/best-mosquito-trap" className="text-emerald-700 underline font-semibold">outdoor mosquito trap guide</Link> and <Link href="/mosquito-control" className="text-emerald-700 underline font-semibold">professional barrier spray</Link>.
             </p>
           </div>
         </div>
@@ -267,7 +267,7 @@ export default function BestIndoorFlyMosquitoTrapCanadaPage() {
 
           <h2>The Honest Truth About Catching Mosquitoes Indoors</h2>
           <p>Here is the part most product listings gloss over: <strong>indoor light traps are much better at catching flies and gnats than mosquitoes.</strong> Mosquitoes — mostly <em>Culex pipiens</em> (the common house mosquito that overwinters in warm basements) and sometimes <em>Aedes</em> species — do not home in on light the way a moth does. They track <strong>carbon dioxide, body heat, and skin odour</strong>. In a bedroom, a sleeping person is a far stronger beacon than any plug-in glow, so a light-only trap competes poorly.</p>
-          <p>Fan-suction and glue-board traps still catch a meaningful share of indoor mosquitoes — especially Culex drifting near a window at night — which is why they beat a bare zapper grid for mosquito duty. But if mosquitoes indoors are your main problem, the trap is a secondary tool. The primary fixes are stopping them getting in and killing the population outside. For yard-scale trapping, our <Link href="/blog/best-mosquito-trap-canada">best outdoor mosquito trap guide</Link> covers CO&#8322; and propane units built for that job, and our breakdown of whether <Link href="/blog/bug-zappers-canada-do-they-work">bug zappers actually work in Canada</Link> explains why the classic grid disappoints on mosquitoes.</p>
+          <p>Fan-suction and glue-board traps still catch a meaningful share of indoor mosquitoes — especially Culex drifting near a window at night — which is why they beat a bare zapper grid for mosquito duty. But if mosquitoes indoors are your main problem, the trap is a secondary tool. The primary fixes are stopping them getting in and killing the population outside. For yard-scale trapping, our <Link href="/blog/best-mosquito-trap">best outdoor mosquito trap guide</Link> covers CO&#8322; and propane units built for that job, and our breakdown of whether <Link href="/blog/bug-zappers-canada-do-they-work">bug zappers actually work in Canada</Link> explains why the classic grid disappoints on mosquitoes.</p>
           <p>A trap also works best alongside the non-product moves that carry most of the weight indoors: a fan aimed at where you sit or sleep, emptying the plant saucer or floor drain that is hatching them inside, and knowing which dark, humid corners a mosquito actually rests in during the day. Our guide to <Link href="/blog/how-to-get-rid-of-mosquitoes-in-the-house">where mosquitoes hide in a room and how to find them</Link> covers that side of the job.</p>
 
           <h2>How to Choose the Right Indoor Trap</h2>
@@ -318,7 +318,7 @@ export default function BestIndoorFlyMosquitoTrapCanadaPage() {
 
           <h2>Related Reading</h2>
           <ul>
-            <li><Link href="/blog/best-mosquito-trap-canada">Best Mosquito Trap Canada — Outdoor Buyer&rsquo;s Guide</Link></li>
+            <li><Link href="/blog/best-mosquito-trap">Best Mosquito Trap Canada — Outdoor Buyer&rsquo;s Guide</Link></li>
             <li><Link href="/blog/bug-zappers-canada-do-they-work">Do Bug Zappers Actually Work in Canada?</Link></li>
             <li><Link href="/mosquito-control">BuzzSkito Professional Mosquito Control Service</Link></li>
             <li><Link href="/free-yard-assessment">Get a Free Yard Assessment</Link></li>

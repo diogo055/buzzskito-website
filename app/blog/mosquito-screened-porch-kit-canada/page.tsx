@@ -309,7 +309,7 @@ export default function MosquitoScreenedPorchKitCanadaPage() {
             <li><Link href="/blog/hardtop-vs-soft-top-mosquito-gazebo-canada">Hardtop vs Soft-Top Gazebo for Mosquitoes</Link></li>
             <li><Link href="/blog/best-magnetic-screen-door-canada">Best Magnetic Screen Doors in Canada</Link></li>
             <li><Link href="/blog/best-screen-tent-canada">Best Screen Tents &amp; Screen Houses in Canada</Link></li>
-            <li><Link href="/blog/mosquito-net-canada">Mosquito Nets in Canada &mdash; Bed, Patio &amp; Travel Netting</Link></li>
+            <li><Link href="/blog/mosquito-net">Mosquito Nets in Canada &mdash; Bed, Patio &amp; Travel Netting</Link></li>
             <li><Link href="/mosquito-control">BuzzSkito Professional Mosquito Control Service</Link></li>
           </ul>
         </div>

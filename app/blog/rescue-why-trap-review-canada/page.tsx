@@ -155,7 +155,7 @@ export default function RescueWhyTrapReviewCanadaPage() {
           <h2>What Is the RESCUE! WHY Trap?</h2>
           <p>The WHY Trap is a reusable lure trap from Sterling International, the Spokane-based company behind the whole RESCUE! line, and the name is the pitch: <strong>W</strong>asps, <strong>H</strong>ornets, <strong>Y</strong>ellowjackets. Most traps on the shelf are really yellowjacket traps wearing a &ldquo;wasp trap&rdquo; label &mdash; sweet bait in a bottle, which yellowjackets love and paper wasps largely ignore. The WHY Trap is the one mainstream product engineered around the fact that those three groups forage differently, fly at different heights, and respond to different scent cues.</p>
           <p>Sterling claims coverage of 19 species across the three groups, and in a southern-Ontario yard that list maps onto exactly the insects that ruin an August dinner: German and common yellowjackets, northern paper wasps on the fence line, bald-faced hornets in the cedar hedge, and the occasional European hornet. It is sold in Canada with bilingual Canadian labelling &mdash; this is not a grey-market import you have to source from a US seller.</p>
-          <p>We have tested and researched this trap as part of our wider <Link href="/blog/best-wasp-trap-canada">best wasp trap in Canada</Link> roundup, where it took the top all-round slot. This page is the deep-dive: how the two-chamber system actually works, what the refill economics look like over a real Canadian season, what catch numbers to expect, and where the trap honestly falls short.</p>
+          <p>We have tested and researched this trap as part of our wider <Link href="/blog/best-wasp-trap">best wasp trap in Canada</Link> roundup, where it took the top all-round slot. This page is the deep-dive: how the two-chamber system actually works, what the refill economics look like over a real Canadian season, what catch numbers to expect, and where the trap honestly falls short.</p>
 
           <h2>How the Two-Chamber Design Works</h2>
           <p>Pick the trap up and you are holding two traps stacked into one lantern-shaped body:</p>
@@ -277,7 +277,7 @@ export default function RescueWhyTrapReviewCanadaPage() {
           </div>
 
           <h2>Our Verdict: Who Should Buy the WHY Trap?</h2>
-          <p>Buy it if you have general, source-unknown wasp pressure &mdash; the classic Canadian backyard situation where yellowjackets crash the barbecue, paper wasps patrol the fence, and you never actually find a nest. The two-chamber design is the only mainstream trap that addresses all of it, the insecticide-free mechanism makes it the easy choice around kids, pets, and pollinators, and spring queen-trapping gives it leverage no reactive product has. We score it <strong>8.6/10</strong>: docked for the perpetual refill cost and the mid-summer lull, but it is the trap we would hang first, and the one that took Best Overall in our <Link href="/blog/best-wasp-trap-canada">full Canadian wasp trap roundup</Link>.</p>
+          <p>Buy it if you have general, source-unknown wasp pressure &mdash; the classic Canadian backyard situation where yellowjackets crash the barbecue, paper wasps patrol the fence, and you never actually find a nest. The two-chamber design is the only mainstream trap that addresses all of it, the insecticide-free mechanism makes it the easy choice around kids, pets, and pollinators, and spring queen-trapping gives it leverage no reactive product has. We score it <strong>8.6/10</strong>: docked for the perpetual refill cost and the mid-summer lull, but it is the trap we would hang first, and the one that took Best Overall in our <Link href="/blog/best-wasp-trap">full Canadian wasp trap roundup</Link>.</p>
           <p>Skip it &mdash; or rather, do not <em>stop</em> at it &mdash; if you have found an active nest. Trapping next to a nest is bailing a boat without plugging the hole; go to a nest-directed treatment or a professional first, then run the trap for the stragglers and next spring&rsquo;s queens.</p>
           <div className="not-prose my-4">
             <BuyLink tag={AMZ_TAG} search="rescue why trap wasp hornet yellowjacket">Check RESCUE! WHY Trap on Amazon.ca &rarr;</BuyLink>
@@ -298,7 +298,7 @@ export default function RescueWhyTrapReviewCanadaPage() {
 
           <h2>Related Wasp Guides</h2>
           <ul>
-            <li><Link href="/blog/best-wasp-trap-canada">Best Wasp Trap Canada &mdash; Every Type Compared</Link></li>
+            <li><Link href="/blog/best-wasp-trap">Best Wasp Trap Canada &mdash; Every Type Compared</Link></li>
             <li><Link href="/blog/best-yellow-jacket-trap-canada">Best Yellowjacket Trap Canada &mdash; Late-Summer Specialists</Link></li>
             <li><Link href="/blog/best-wasp-nest-spray-canada">Best Wasp Nest Spray Canada &mdash; PMRA-Legal Options</Link></li>
             <li><Link href="/blog/how-to-get-rid-of-wasps-canada">How to Get Rid of Wasps in Canada &mdash; Full Playbook</Link></li>

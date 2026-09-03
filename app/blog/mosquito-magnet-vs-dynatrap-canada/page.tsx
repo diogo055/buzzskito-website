@@ -307,7 +307,7 @@ export default function MosquitoMagnetVsDynatrapCanadaPage() {
           <ul>
             <li><Link href="/blog/mosquito-magnet-canada">Mosquito Magnet Canada — Where to Buy + Do They Work</Link></li>
             <li><Link href="/blog/dynatrap-canada-review">DynaTrap Canada — Honest Review + Where to Buy</Link></li>
-            <li><Link href="/blog/best-mosquito-trap-canada">Best Mosquito Trap Canada — Propane vs UV vs CO₂ Compared</Link></li>
+            <li><Link href="/blog/best-mosquito-trap">Best Mosquito Trap Canada — Propane vs UV vs CO₂ Compared</Link></li>
             <li><Link href="/blog/best-mosquito-trap-for-acreage-canada">Best Mosquito Trap for Acreage in Canada</Link></li>
             <li><Link href="/blog/best-pest-control-equipment-canada">Best Pest Control Equipment in Canada — The Full Device Hub</Link></li>
             <li><Link href="/mosquito-control">BuzzSkito Professional Mosquito Control Service</Link></li>

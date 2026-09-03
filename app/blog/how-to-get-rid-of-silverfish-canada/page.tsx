@@ -121,7 +121,7 @@ export default function HowToGetRidOfSilverfishCanadaPage() {
           <div className="not-prose rounded-xl border-l-4 border-emerald-500 bg-emerald-50/60 p-5 mb-6">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Buying the trap line?</p>
             <p className="text-sm text-gray-800 leading-relaxed">
-              This page is the plan. The equipment decision is a separate job: <Link href="/blog/best-silverfish-traps-canada" className="text-emerald-700 underline font-semibold">which silverfish trap to buy in Canada</Link> compares flat glue boards against covered stations and the free jar trap, gives the right starting quantity (six to ten, not twenty), maps which trap belongs in which room, and explains how fast adhesive dies in a damp basement so you budget for replacement rather than volume.
+              This page is the plan. The equipment decision is a separate job: <Link href="/blog/best-silverfish-traps" className="text-emerald-700 underline font-semibold">which silverfish trap to buy in Canada</Link> compares flat glue boards against covered stations and the free jar trap, gives the right starting quantity (six to ten, not twenty), maps which trap belongs in which room, and explains how fast adhesive dies in a damp basement so you budget for replacement rather than volume.
             </p>
           </div>
 
@@ -292,7 +292,7 @@ export default function HowToGetRidOfSilverfishCanadaPage() {
 
           <h2>Step 2 — Sticky Traps: Your Scoreboard, Not Your Strategy</h2>
           <p>Glue boards catch silverfish well &mdash; silverfish run wall edges at night like little commuters, and a flat board tight against the baseboard sits directly in traffic. But their real job is intelligence. Lay a numbered line of boards: basement storage corners, under the laundry sink, behind the toilet, along the furnace-room wall (checking for firebrats), and inside any closet where you have seen one. Check weekly and keep a tally.</p>
-          <p>Which board to buy barely matters, and that is worth knowing before you overspend: there is no validated consumer silverfish lure, so you are buying glue area rather than a mechanism, and a &ldquo;silverfish&rdquo; label on the box is a costume. Our <Link href="/blog/best-silverfish-traps-canada">silverfish trap comparison</Link> covers flat boards vs covered stations vs the free tape-wrapped jar trap, and why adhesive dies fastest in exactly the damp, dusty rooms silverfish prefer.</p>
+          <p>Which board to buy barely matters, and that is worth knowing before you overspend: there is no validated consumer silverfish lure, so you are buying glue area rather than a mechanism, and a &ldquo;silverfish&rdquo; label on the box is a costume. Our <Link href="/blog/best-silverfish-traps">silverfish trap comparison</Link> covers flat boards vs covered stations vs the free tape-wrapped jar trap, and why adhesive dies fastest in exactly the damp, dusty rooms silverfish prefer.</p>
           <p>That tally answers the three questions that actually matter. <em>Where is the population?</em> The hot boards tell you which room gets the DE treatment and the storage overhaul. <em>Is the plan working?</em> The catch curve should bend down within a month of the dehumidifier holding target &mdash; if it does not, find the humid pocket you missed. <em>Are you done?</em> Four consecutive weeks of empty boards is a defensible all-clear. What traps will not do is eliminate the infestation alone: the breeding core lives in voids the boards cannot reach, and a trap line without moisture control is a subscription, not a solution.</p>
           <p>One thing the boards often reveal is a second resident. If your catch includes fast, long-legged arthropods rather than silverfish, you have a predator following the food &mdash; and the fix is the same dehumidifier, not a different can. Our guide to <Link href="/blog/best-centipede-killer-canada">centipede control products in Canada</Link> explains why killing the predator while leaving the silverfish in place makes the room worse, not better.</p>
           <div className="not-prose my-4">
@@ -340,7 +340,7 @@ export default function HowToGetRidOfSilverfishCanadaPage() {
 
           <h2>Related Household Pest Guides</h2>
           <ul>
-            <li><Link href="/blog/best-silverfish-traps-canada">Best Silverfish Traps in Canada — Glue Boards, Covered Stations &amp; the Jar Trap</Link></li>
+            <li><Link href="/blog/best-silverfish-traps">Best Silverfish Traps in Canada — Glue Boards, Covered Stations &amp; the Jar Trap</Link></li>
             <li><Link href="/blog/diatomaceous-earth-canada-buyers-guide">Diatomaceous Earth in Canada — Buyer&rsquo;s Guide and Application Technique</Link></li>
             <li><Link href="/blog/how-to-keep-spiders-out-of-your-house">How to Keep Spiders Out of Your House</Link></li>
             <li><Link href="/blog/best-spider-spray-canada">Best Spider Spray Canada — PMRA-Registered Options</Link></li>

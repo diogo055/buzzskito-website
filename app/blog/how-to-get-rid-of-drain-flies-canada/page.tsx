@@ -267,7 +267,7 @@ export default function DrainFliesCanadaPage() {
                   <td className="px-4 py-3 font-bold text-brand-800">Fruit fly</td>
                   <td className="px-4 py-3 text-gray-700">Smooth, tan-brown, often red-eyed; hovers around food and drink</td>
                   <td className="px-4 py-3 text-gray-700">Fermenting produce, recycling, green bins &mdash; and drain gunk too</td>
-                  <td className="px-4 py-3 text-gray-700">Remove the source, then a lure trap &mdash; see our <Link href="/blog/how-to-get-rid-of-fruit-flies-canada" className="text-emerald-700 underline">fruit fly guide</Link></td>
+                  <td className="px-4 py-3 text-gray-700">Remove the source, then a lure trap &mdash; see our <Link href="/blog/how-to-get-rid-of-fruit-flies" className="text-emerald-700 underline">fruit fly guide</Link></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Fungus gnat</td>
@@ -412,7 +412,7 @@ export default function DrainFliesCanadaPage() {
 
           <h2>Related Guides</h2>
           <ul>
-            <li><Link href="/blog/how-to-get-rid-of-fruit-flies-canada">How to Get Rid of Fruit Flies in Canada — Find the Source, Break the 8-Day Cycle</Link></li>
+            <li><Link href="/blog/how-to-get-rid-of-fruit-flies">How to Get Rid of Fruit Flies in Canada — Find the Source, Break the 8-Day Cycle</Link></li>
             <li><Link href="/blog/best-fruit-fly-trap-canada">Best Fruit Fly Trap in Canada — TERRO vs Katchy vs Sticky Ribbons</Link></li>
             <li><Link href="/blog/how-to-get-rid-of-fungus-gnats-houseplants">How to Get Rid of Fungus Gnats in Houseplants</Link></li>
             <li><Link href="/blog/how-to-get-rid-of-cluster-flies-canada">How to Get Rid of Cluster Flies in Canada</Link></li>

@@ -10,7 +10,7 @@ import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { tagForSlug } from '@/lib/amazon-clusters'
 
-const SLUG = 'mosquito-net-canada'
+const SLUG = 'mosquito-net'
 const DATE = '2026-07-12'
 const UPDATED = '2026-07-12'
 const TITLE = 'Mosquito Net Canada 2026 — Buyer’s Guide by Use (Bed, Head, Hammock)'

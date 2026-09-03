@@ -313,12 +313,12 @@ export default function OffDeepWoodsDeetPage() {
             </thead>
             <tbody>
               <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>OFF Deep Woods</strong></td><td className="px-3 py-2">25% DEET</td><td className="px-3 py-2">Greasy, strong smell, harms plastics</td><td className="px-3 py-2">Max staying power in the bush</td></tr>
-              <tr className="border-t border-navy-50"><td className="px-3 py-2"><Link href="/blog/picaridin-vs-deet-canada">Icaridin (picaridin)</Link></td><td className="px-3 py-2">20% icaridin</td><td className="px-3 py-2">Odourless, non-greasy, gear-safe</td><td className="px-3 py-2">All-day everyday · kids 6 mo+</td></tr>
+              <tr className="border-t border-navy-50"><td className="px-3 py-2"><Link href="/blog/picaridin-vs-deet">Icaridin (picaridin)</Link></td><td className="px-3 py-2">20% icaridin</td><td className="px-3 py-2">Odourless, non-greasy, gear-safe</td><td className="px-3 py-2">All-day everyday · kids 6 mo+</td></tr>
               <tr className="border-t border-navy-50"><td className="px-3 py-2">Lemon eucalyptus (OLE)</td><td className="px-3 py-2">30% OLE</td><td className="px-3 py-2">Herbal scent, plant-based</td><td className="px-3 py-2">Shorter outings, plant-based preference</td></tr>
               <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Professional barrier spray</strong></td><td className="px-3 py-2">Yard treatment</td><td className="px-3 py-2">Nothing on your skin</td><td className="px-3 py-2">Whole-yard, 21–30 days, ticks too</td></tr>
             </tbody>
           </table>
-          <p>The headline: at 20%, <strong>icaridin matches DEET for mosquito and tick protection</strong> without the grease, smell, or gear damage, and Health Canada prefers it for children. DEET still wins on raw longevity at 25–30%, which is why Deep Woods stays in the pack for serious backcountry days. If you are torn, our full <Link href="/blog/picaridin-vs-deet-canada">picaridin vs DEET comparison for Canada</Link> walks through every trade-off.</p>
+          <p>The headline: at 20%, <strong>icaridin matches DEET for mosquito and tick protection</strong> without the grease, smell, or gear damage, and Health Canada prefers it for children. DEET still wins on raw longevity at 25–30%, which is why Deep Woods stays in the pack for serious backcountry days. If you are torn, our full <Link href="/blog/picaridin-vs-deet">picaridin vs DEET comparison for Canada</Link> walks through every trade-off.</p>
 
           <h2 id="safe-use">Safe Use: Kids, Pets, and Your Gear</h2>
           <p>DEET is safe and effective when used as directed, but a few Canadian-specific rules matter:</p>
@@ -343,11 +343,11 @@ export default function OffDeepWoodsDeetPage() {
           </aside>
 
           <h2 id="verdict">The Bottom Line for Canadian Buyers</h2>
-          <p>If you want one can that does almost everything, buy <strong>OFF Deep Woods (25% DEET)</strong> for hikes and the cottage, and keep a cheaper <strong>OFF FamilyCare (15%)</strong> by the door for quick backyard trips. Reserve Sportsmen 30% for genuinely brutal blackfly country. For kids under 12, an all-day gear-safe option, or anyone who hates the DEET feel, a <Link href="/blog/picaridin-vs-deet-canada">20% icaridin spray</Link> is the smarter modern pick. And remember what no personal spray can do: keep your <em>yard</em> bite-free. That is what a <Link href="/mosquito-control">professional barrier treatment</Link> is for — so the spray in your bag is for the trail, not your own patio.</p>
+          <p>If you want one can that does almost everything, buy <strong>OFF Deep Woods (25% DEET)</strong> for hikes and the cottage, and keep a cheaper <strong>OFF FamilyCare (15%)</strong> by the door for quick backyard trips. Reserve Sportsmen 30% for genuinely brutal blackfly country. For kids under 12, an all-day gear-safe option, or anyone who hates the DEET feel, a <Link href="/blog/picaridin-vs-deet">20% icaridin spray</Link> is the smarter modern pick. And remember what no personal spray can do: keep your <em>yard</em> bite-free. That is what a <Link href="/mosquito-control">professional barrier treatment</Link> is for — so the spray in your bag is for the trail, not your own patio.</p>
 
           <h2>Related Reading</h2>
           <ul>
-            <li><Link href="/blog/picaridin-vs-deet-canada">Picaridin vs DEET in Canada — Which Repellent Wins?</Link></li>
+            <li><Link href="/blog/picaridin-vs-deet">Picaridin vs DEET in Canada — Which Repellent Wins?</Link></li>
             <li><Link href="/blog/mosquito-repellent-guide-ontario-2026">The Ontario Mosquito Repellent Guide (2026)</Link></li>
             <li><Link href="/mosquito-control">BuzzSkito Professional Mosquito Control Service</Link></li>
             <li><Link href="/free-yard-assessment">Get a Free Yard Assessment</Link></li>

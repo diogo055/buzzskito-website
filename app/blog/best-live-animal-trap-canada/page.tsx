@@ -176,7 +176,7 @@ export default function BestLiveAnimalTrapCanadaPage() {
             ]}
             whichToBuy={
               <>
-                <strong>Groundhog under your shed?</strong> The <em>Best for Groundhogs</em> medium single-door is the one common case where DIY trapping is defensible — check bylaws and avoid denning season. <strong>Squirrel or chipmunk?</strong> The <em>Best for Small Rodents</em> trap fits, but a homing squirrel released within 1 km often returns, so pair it with sealing the entry point. <strong>Skittish animal or feral cat?</strong> The <em>Highest Catch Rate</em> two-door earns its keep. <strong>Raccoon or skunk?</strong> Don’t — call a licensed operator. Start every case with the <Link href="/blog/raccoon-deterrent-canada">deterrence-first plan</Link>.
+                <strong>Groundhog under your shed?</strong> The <em>Best for Groundhogs</em> medium single-door is the one common case where DIY trapping is defensible — check bylaws and avoid denning season. <strong>Squirrel or chipmunk?</strong> The <em>Best for Small Rodents</em> trap fits, but a homing squirrel released within 1 km often returns, so pair it with sealing the entry point. <strong>Skittish animal or feral cat?</strong> The <em>Highest Catch Rate</em> two-door earns its keep. <strong>Raccoon or skunk?</strong> Don’t — call a licensed operator. Start every case with the <Link href="/blog/raccoon-deterrent">deterrence-first plan</Link>.
               </>
             }
           />
@@ -200,7 +200,7 @@ export default function BestLiveAnimalTrapCanadaPage() {
           <ul>
             <li><strong>Remove the food.</strong> Secure garbage and green-bin lids (raccoon-proof latches or a bungee cord), stop feeding pets outdoors, clean up fallen fruit and spilled birdseed, and harvest ripe vegetables promptly — a groundhog is there for your garden.</li>
             <li><strong>Seal the access.</strong> Cap chimneys, screen deck and shed gaps with heavy hardware cloth (extended below grade for diggers), close soffit and roofline gaps, and buy nothing until you have walked the perimeter looking for the entry point.</li>
-            <li><strong>Make the space unwelcoming.</strong> Motion-activated sprinklers, motion lights, and scent deterrents move animals along without capture. Our <Link href="/blog/motion-activated-sprinkler-canada">motion-activated sprinkler guide</Link> and <Link href="/blog/raccoon-deterrent-canada">raccoon deterrent guide</Link> cover which of these actually hold up in a Canadian yard and which are marketing.</li>
+            <li><strong>Make the space unwelcoming.</strong> Motion-activated sprinklers, motion lights, and scent deterrents move animals along without capture. Our <Link href="/blog/motion-activated-sprinkler-canada">motion-activated sprinkler guide</Link> and <Link href="/blog/raccoon-deterrent">raccoon deterrent guide</Link> cover which of these actually hold up in a Canadian yard and which are marketing.</li>
           </ul>
           <p>Do this first. In a large share of cases you will never need a trap at all — and if you do, you will at least have closed the entry point so the vacancy you create does not immediately refill.</p>
 
@@ -315,7 +315,7 @@ export default function BestLiveAnimalTrapCanadaPage() {
 
           <h2>Related Wildlife Guides</h2>
           <ul>
-            <li><Link href="/blog/raccoon-deterrent-canada">Raccoon Deterrents in Canada — What Actually Keeps Them Away</Link></li>
+            <li><Link href="/blog/raccoon-deterrent">Raccoon Deterrents in Canada — What Actually Keeps Them Away</Link></li>
             <li><Link href="/blog/motion-activated-sprinkler-canada">Motion-Activated Sprinklers in Canada — Do They Work?</Link></li>
             <li><Link href="/pest-control-cost-canada">Pest Control Cost in Canada — DIY vs Professional</Link></li>
             <li><Link href="/pest-product-guides">All BuzzSkito Independent Pest Product Guides</Link></li>

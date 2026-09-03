@@ -328,7 +328,7 @@ export default function BestGazeboWithMosquitoNetCanadaPage() {
               <tr className="border-t border-navy-50"><td className="px-3 py-2">Hard-top screened gazebo</td><td className="px-3 py-2">$$$$</td><td className="px-3 py-2">Sealed room, year-round frame</td><td className="px-3 py-2">Permanent outdoor room, exposed to wind</td></tr>
               <tr className="border-t border-navy-50"><td className="px-3 py-2">Soft-top screened gazebo</td><td className="px-3 py-2">$$$</td><td className="px-3 py-2">Sealed room, take down for winter</td><td className="px-3 py-2">Best all-round for most decks</td></tr>
               <tr className="border-t border-navy-50"><td className="px-3 py-2"><Link href="/blog/best-screen-tent-canada">Pop-up screen tent</Link></td><td className="px-3 py-2">$$</td><td className="px-3 py-2">Sealed but lightweight, semi-portable</td><td className="px-3 py-2">Camping, occasional, budget, moving it around</td></tr>
-              <tr className="border-t border-navy-50"><td className="px-3 py-2"><Link href="/blog/mosquito-net-canada">Hanging / patio mosquito net</Link></td><td className="px-3 py-2">$</td><td className="px-3 py-2">Covers a bed, table, or single seat</td><td className="px-3 py-2">One spot on a covered porch or pergola</td></tr>
+              <tr className="border-t border-navy-50"><td className="px-3 py-2"><Link href="/blog/mosquito-net">Hanging / patio mosquito net</Link></td><td className="px-3 py-2">$</td><td className="px-3 py-2">Covers a bed, table, or single seat</td><td className="px-3 py-2">One spot on a covered porch or pergola</td></tr>
               <tr className="border-t border-navy-50"><td className="px-3 py-2"><Link href="/blog/thermacell-canada-where-to-buy">Thermacell repellent zone</Link></td><td className="px-3 py-2">$$</td><td className="px-3 py-2">~4.5 m repellent bubble, no barrier</td><td className="px-3 py-2">No structure wanted; portable personal zone</td></tr>
               <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Professional barrier spray</strong></td><td className="px-3 py-2">Seasonal service</td><td className="px-3 py-2"><strong>Whole yard, 21–30 days, + ticks</strong></td><td className="px-3 py-2">You want the entire property usable, not one spot</td></tr>
             </tbody>
@@ -360,8 +360,8 @@ export default function BestGazeboWithMosquitoNetCanadaPage() {
           <h2>Related Reading</h2>
           <ul>
             <li><Link href="/blog/best-screen-tent-canada">Best Screen Tent Canada — Pop-Up Screen Houses Compared</Link></li>
-            <li><Link href="/blog/mosquito-net-canada">Mosquito Net Canada — Bed, Patio &amp; Hanging Nets Guide</Link></li>
-            <li><Link href="/blog/best-mosquito-trap-canada">Best Mosquito Trap Canada — Propane vs UV vs CO₂</Link></li>
+            <li><Link href="/blog/mosquito-net">Mosquito Net Canada — Bed, Patio &amp; Hanging Nets Guide</Link></li>
+            <li><Link href="/blog/best-mosquito-trap">Best Mosquito Trap Canada — Propane vs UV vs CO₂</Link></li>
             <li><Link href="/blog/thermacell-canada-where-to-buy">Thermacell Canada — Where to Buy + Do They Work</Link></li>
             <li><Link href="/mosquito-control">BuzzSkito Professional Mosquito Control Service</Link></li>
           </ul>

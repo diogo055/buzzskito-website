@@ -468,7 +468,7 @@ export default function BugZappersCanadaPage() {
             <li><strong>Eliminate breeding water</strong> — drain anything you can, treat permanent water with <Link href="/blog/mosquito-dunks-canada-guide">BTI dunks</Link> ($15/season)</li>
             <li><strong>Whole-yard barrier spray</strong> — <Link href="/mosquito-control">BuzzSkito&rsquo;s licensed application</Link> treats vegetation with Health Canada-approved residual formula. Mosquitoes resting on leaves die on contact for 21–30 days per treatment. Also kills ticks. ~$99 per treatment, $549–$994 for full-season programs — GTA homeowners can book the same treatment locally, including <Link href="/vaughan-mosquito-control">mosquito control in Vaughan</Link>.</li>
             <li><strong>Patio repellent zone</strong> — <Link href="/blog/thermacell-canada-where-to-buy">Thermacell</Link> creates a 4.5m mosquito-free bubble around your seating</li>
-            <li><strong>Personal repellent</strong> — <Link href="/blog/picaridin-vs-deet-canada">picaridin or DEET</Link> on exposed skin for active outdoor use</li>
+            <li><strong>Personal repellent</strong> — <Link href="/blog/picaridin-vs-deet">picaridin or DEET</Link> on exposed skin for active outdoor use</li>
             <li><strong>Cottage/rural CO₂ trap</strong> — <Link href="/blog/mosquito-magnet-canada">Mosquito Magnet</Link> for properties with chronic high populations</li>
           </ol>
 
@@ -487,7 +487,7 @@ export default function BugZappersCanadaPage() {
           <p>Barrier spray is the only row in that table that treats the whole property rather than one device radius, which is also why it is the only one priced by lot size rather than by unit — the full breakdown of <Link href="/mosquito-control-cost">what mosquito control costs in Ontario</Link> shows how a season program scales from a standard lot upward.</p>
 
           <h2>The Indoor Racket Zapper Exception</h2>
-          <p>One bug-zapper format does work: handheld electric racket zappers (Black Flag Executioner, Stinger Indoor Racket, etc.). These look like badminton rackets with electrified mesh. When a mosquito gets inside your house, you can swat it manually — the electrified mesh kills on contact. Costs $15–$30, available at Canadian Tire, Home Depot, Walmart, Dollarama. Lasts years. Genuinely useful for the occasional indoor mosquito. We&rsquo;ve ranked the models worth buying in our <Link href="/blog/electric-fly-swatter-canada">electric fly swatter Canada guide</Link>.</p>
+          <p>One bug-zapper format does work: handheld electric racket zappers (Black Flag Executioner, Stinger Indoor Racket, etc.). These look like badminton rackets with electrified mesh. When a mosquito gets inside your house, you can swat it manually — the electrified mesh kills on contact. Costs $15–$30, available at Canadian Tire, Home Depot, Walmart, Dollarama. Lasts years. Genuinely useful for the occasional indoor mosquito. We&rsquo;ve ranked the models worth buying in our <Link href="/blog/electric-fly-swatter">electric fly swatter Canada guide</Link>.</p>
           <p className="not-prose text-sm text-gray-600 mb-1">The one zapper we actually keep in the house — a rechargeable electric racket for the odd mosquito that sneaks in:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="electric fly swatter racket rechargeable">Check racket zappers on Amazon.ca →</BuyLink>
@@ -708,7 +708,7 @@ export default function BugZappersCanadaPage() {
             <li><Link href="/blog/mosquito-dunks-canada-guide">Mosquito Dunks Canada Guide</Link></li>
             <li><Link href="/blog/flowtron-bug-zapper-canada">Flowtron Bug Zapper Canada — BK-15D vs BK-40D vs BK-80D</Link></li>
             <li><Link href="/blog/best-solar-bug-zapper-canada">Best Solar Bug Zappers in Canada</Link></li>
-            <li><Link href="/blog/electric-fly-swatter-canada">Electric Fly Swatters in Canada — Ranked</Link></li>
+            <li><Link href="/blog/electric-fly-swatter">Electric Fly Swatters in Canada — Ranked</Link></li>
             <li><Link href="/mosquito-control">BuzzSkito Professional Mosquito Control Service</Link></li>
           </ul>
         </div>

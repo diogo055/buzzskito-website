@@ -180,7 +180,7 @@ export default function BestCockroachKillerCanadaPage() {
 
           <h2>What Is the Best Cockroach Killer in Canada?</h2>
           <p>Bait &mdash; specifically, a dense program of enclosed bait stations backed by boric acid in the voids, with glue monitors keeping score. That is the whole answer, and it is worth saying plainly because the roach aisle is engineered to sell you the opposite. The products with the action photography and the instant promises are contact sprays, and contact spray is the tool most strongly associated with DIY campaigns that fail. The products that end infestations are small, slow, and boring, and the reason is a piece of cockroach biology that rewards patience: roaches take poison home.</p>
-          <p>This guide ranks every product class a Canadian can actually buy, because the Canadian shelf is not the American shelf. The gel bait that dominates US forums &mdash; Advion &mdash; is a commercial-class product here, restricted to licensed applicators, and our <Link href="/blog/advion-cockroach-gel-bait-canada">Advion Canada deep dive</Link> covers that legality picture in full. What follows is the strategy that works with the domestic-class tier, which against light-to-moderate infestations is a real tier, not a consolation prize.</p>
+          <p>This guide ranks every product class a Canadian can actually buy, because the Canadian shelf is not the American shelf. The gel bait that dominates US forums &mdash; Advion &mdash; is a commercial-class product here, restricted to licensed applicators, and our <Link href="/blog/advion-cockroach-gel-bait">Advion Canada deep dive</Link> covers that legality picture in full. What follows is the strategy that works with the domestic-class tier, which against light-to-moderate infestations is a real tier, not a consolation prize.</p>
 
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the kit:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
@@ -298,7 +298,7 @@ export default function BestCockroachKillerCanadaPage() {
 
           <h2>Related Guides</h2>
           <ul>
-            <li><Link href="/blog/advion-cockroach-gel-bait-canada">Advion Cockroach Gel Bait in Canada &mdash; The Legality Deep Dive</Link></li>
+            <li><Link href="/blog/advion-cockroach-gel-bait">Advion Cockroach Gel Bait in Canada &mdash; The Legality Deep Dive</Link></li>
             <li><Link href="/blog/best-roach-traps-canada">Best Roach Traps Canada &mdash; Glue Boards vs Bait Stations</Link></li>
             <li><Link href="/blog/best-cockroach-spray-canada">Cockroach Spray Canada &mdash; The One Narrow Job Spray Still Has</Link></li>
             <li><Link href="/blog/how-to-get-rid-of-cockroaches-canada">How to Get Rid of Cockroaches in Canada &mdash; The Full Playbook</Link></li>

@@ -6,7 +6,7 @@
 // pages the StickyBuyBar owns bottom-0.
 // Regenerate by grepping app/blog for AdjacentPestCTA.
 export const ADJACENT_PEST_ROUTES = new Set<string>([
-  '/blog/advion-cockroach-gel-bait-canada',
+  '/blog/advion-cockroach-gel-bait',
   '/blog/battery-backup-sump-pump-canada',
   '/blog/bed-bug-bites',
   '/blog/bed-bug-control-canada-hub',
@@ -65,7 +65,7 @@ export const ADJACENT_PEST_ROUTES = new Set<string>([
   '/blog/best-ulv-cold-fogger-canada',
   '/blog/best-upholstery-steam-cleaner-canada',
   '/blog/best-wasp-nest-spray-canada',
-  '/blog/best-wasp-trap-canada',
+  '/blog/best-wasp-trap',
   '/blog/best-whole-house-dehumidifier-canada',
   '/blog/best-whole-room-bed-bug-heater-canada',
   '/blog/best-yellow-jacket-trap-canada',
@@ -104,7 +104,7 @@ export const ADJACENT_PEST_ROUTES = new Set<string>([
   '/blog/how-to-get-rid-of-boxelder-bugs-canada',
   '/blog/how-to-get-rid-of-cluster-flies-canada',
   '/blog/how-to-get-rid-of-cockroaches-canada',
-  '/blog/how-to-get-rid-of-fruit-flies-canada',
+  '/blog/how-to-get-rid-of-fruit-flies',
   '/blog/how-to-get-rid-of-fungus-gnats-houseplants',
   '/blog/how-to-get-rid-of-ground-wasps-canada',
   '/blog/how-to-get-rid-of-mice-canada',
@@ -134,7 +134,7 @@ export const ADJACENT_PEST_ROUTES = new Set<string>([
   '/blog/pergola-mosquito-curtains-canada',
   '/blog/pond-aerator-mosquito-larvae-canada',
   '/blog/raccoon-and-skunk-proofing-under-a-deck-canada',
-  '/blog/raccoon-deterrent-canada',
+  '/blog/raccoon-deterrent',
   '/blog/raccoon-proof-chimney-cap-canada',
   '/blog/rain-barrel-mosquito-proof-canada',
   '/blog/rescue-why-trap-review-canada',

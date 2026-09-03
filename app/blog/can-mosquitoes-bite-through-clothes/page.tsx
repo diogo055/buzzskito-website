@@ -190,7 +190,7 @@ export default function CanMosquitoesBiteThroughClothesPage() {
             pros={['Kills / repels through the fabric before a bite lands', 'Protects against ticks as well as mosquitoes', 'Factory treatment lasts many washes, no reapplying']}
             cons={['Costs more than an untreated shirt', 'Keep wet permethrin away from cats until fully dry']}
           />
-          <p>For the fully-covered approach, a <Link href="/blog/bug-protective-clothing-canada">bug-protective clothing setup</Link> (treated shirt, pants, and a mesh bug jacket or head net) removes bare skin from the equation almost entirely. In serious mosquito habitat — cottage country, near wetlands — a <Link href="/blog/mosquito-net-canada">mosquito net</Link> over a sleeping area or gazebo adds a physical barrier that no fabric-biting mosquito can cross.</p>
+          <p>For the fully-covered approach, a <Link href="/blog/bug-protective-clothing-canada">bug-protective clothing setup</Link> (treated shirt, pants, and a mesh bug jacket or head net) removes bare skin from the equation almost entirely. In serious mosquito habitat — cottage country, near wetlands — a <Link href="/blog/mosquito-net">mosquito net</Link> over a sleeping area or gazebo adds a physical barrier that no fabric-biting mosquito can cross.</p>
 
           <h2>Why fabric choice only goes so far</h2>
           <p>Dressing well cuts your bites significantly, but it does not shrink the mosquito population around you — and in a heavily infested yard, mosquitoes simply hunt for the gaps: your ankles, wrists, neck, and the spots where thin fabric pulls tight. If you are constantly reaching for long sleeves in your own backyard on a July evening in the GTA, the real problem is the number of mosquitoes breeding nearby, not your wardrobe.</p>
@@ -212,7 +212,7 @@ export default function CanMosquitoesBiteThroughClothesPage() {
           <ul>
             <li><Link href="/blog/bug-protective-clothing-canada">Bug-Protective Clothing Canada — Head Nets, Jackets &amp; Treated Gear</Link></li>
             <li><Link href="/blog/permethrin-canada-yard-clothing-spray">Permethrin Canada — Clothing Spray Guide &amp; Legal Status</Link></li>
-            <li><Link href="/blog/mosquito-net-canada">Mosquito Net Canada — Where to Buy + Which Type</Link></li>
+            <li><Link href="/blog/mosquito-net">Mosquito Net Canada — Where to Buy + Which Type</Link></li>
             <li><Link href="/mosquito-control">BuzzSkito Professional Mosquito Control Service</Link></li>
           </ul>
         <h2>Frequently Asked Questions</h2>

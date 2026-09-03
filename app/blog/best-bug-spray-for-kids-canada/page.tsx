@@ -199,7 +199,7 @@ export default function BestBugSprayForKidsCanadaPage() {
           </p>
           <div className="mt-5 rounded-xl bg-emerald-50 border-l-4 border-emerald-500 p-4">
             <p className="text-sm text-gray-800 leading-relaxed">
-              <strong className="text-emerald-900">The short version:</strong> icaridin 20% is the easiest choice for kids over 6 months &mdash; one product covers mosquitoes and ticks, no daily-application cap, and no melted sunglasses. Save DEET for older kids and adults, keep it to 10% or less for anyone under 12, and go barrier-only for babies. For a deeper DEET-vs-icaridin breakdown, see our <Link href="/blog/picaridin-vs-deet-canada" className="text-emerald-700 underline font-semibold">picaridin vs DEET guide</Link>.
+              <strong className="text-emerald-900">The short version:</strong> icaridin 20% is the easiest choice for kids over 6 months &mdash; one product covers mosquitoes and ticks, no daily-application cap, and no melted sunglasses. Save DEET for older kids and adults, keep it to 10% or less for anyone under 12, and go barrier-only for babies. For a deeper DEET-vs-icaridin breakdown, see our <Link href="/blog/picaridin-vs-deet" className="text-emerald-700 underline font-semibold">picaridin vs DEET guide</Link>.
             </p>
           </div>
         </div>
@@ -345,7 +345,7 @@ export default function BestBugSprayForKidsCanadaPage() {
           <h2>Related Reading</h2>
           <ul>
             <li><Link href="/blog/is-mosquito-spray-safe-kids-pets">Is Mosquito Spray Safe for Kids and Pets?</Link></li>
-            <li><Link href="/blog/picaridin-vs-deet-canada">Picaridin vs DEET in Canada — Which Repellent Wins?</Link></li>
+            <li><Link href="/blog/picaridin-vs-deet">Picaridin vs DEET in Canada — Which Repellent Wins?</Link></li>
             <li><Link href="/mosquito-control">BuzzSkito Professional Mosquito Control Service</Link></li>
             <li><Link href="/free-yard-assessment">Book a Free Yard Assessment</Link></li>
           </ul>

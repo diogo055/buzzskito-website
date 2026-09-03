@@ -216,14 +216,14 @@ export default function DeerFliesHorseFliesOntarioPage() {
             <li><strong>Repellents.</strong> DEET and picaridin (icaridin) help, though biting flies are somewhat less deterred than mosquitoes — reapply as directed. Follow the label and <a href="https://www.canada.ca/en/health-canada/services/consumer-product-safety/pesticides-pest-management.html" target="_blank" rel="noopener" className="underline">Health Canada</a> guidance.</li>
             <li><strong>Barrier spray on resting sites.</strong> Adults rest on shaded vegetation, fence lines, and shrubs between feeding. A professional <Link href="/mosquito-control">barrier treatment</Link> to those exact zones reduces the resting population lingering near your patio, on top of its main job against mosquitoes and ticks.</li>
           </ul>
-          <p>Traps like a blue sticky ball are especially worth it for cottages, acreages, and homes backing onto ravines or water &mdash; in the north GTA that means the Humber River valley lots we cover with <Link href="/vaughan-mosquito-control">mosquito control in Vaughan</Link> and the Oak Ridges Moraine properties behind <Link href="/richmond-hill-mosquito-control">Richmond Hill mosquito control</Link>. Compare them alongside the other backyard options in our <Link href="/blog/best-mosquito-trap-canada">best mosquito trap in Canada</Link> guide, since the same open, sunny placement rules apply.</p>
+          <p>Traps like a blue sticky ball are especially worth it for cottages, acreages, and homes backing onto ravines or water &mdash; in the north GTA that means the Humber River valley lots we cover with <Link href="/vaughan-mosquito-control">mosquito control in Vaughan</Link> and the Oak Ridges Moraine properties behind <Link href="/richmond-hill-mosquito-control">Richmond Hill mosquito control</Link>. Compare them alongside the other backyard options in our <Link href="/blog/best-mosquito-trap">best mosquito trap in Canada</Link> guide, since the same open, sunny placement rules apply.</p>
 
           <h2>Deer Flies, Horse Flies, and the Bigger Picture</h2>
           <p>Biting flies are the summer nuisance that no product fully solves, but they are also the least dangerous of Ontario&rsquo;s common biters when it comes to disease. The realistic goal is to <strong>reduce contact</strong> — trap the ones that circle you, dress to make yourself a poor target, avoid the hottest windless afternoons near water, and knock down the adults resting in your yard with a barrier spray. Stack those and the difference on your deck is obvious, even though the flies keep drifting in from the wetlands beyond your fence.</p>
 
           <h2>Related Reading</h2>
           <ul>
-            <li><Link href="/blog/best-mosquito-trap-canada">Best Mosquito Trap in Canada — What Actually Works</Link></li>
+            <li><Link href="/blog/best-mosquito-trap">Best Mosquito Trap in Canada — What Actually Works</Link></li>
             <li><Link href="/blog/black-flies-ontario-when-they-come-out">Black Flies in Ontario — When They Come Out</Link></li>
             <li><Link href="/mosquito-control">BuzzSkito Professional Mosquito Control Service</Link></li>
             <li><Link href="/free-yard-assessment">Get a Free Yard Assessment</Link></li>

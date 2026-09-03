@@ -466,7 +466,7 @@ export default function BestCentipedeKillerCanadaPage() {
             <li><Link href="/blog/best-dehumidifier-for-basement-canada">Best Dehumidifier for a Basement in Canada — Sizing &amp; Drainage</Link></li>
             <li><Link href="/blog/best-large-capacity-dehumidifier-canada">Best Large-Capacity Dehumidifier Canada — For Big or Wet Basements</Link></li>
             <li><Link href="/blog/diatomaceous-earth-canada-buyers-guide">Diatomaceous Earth in Canada — Buyer&rsquo;s Guide &amp; Technique</Link></li>
-            <li><Link href="/blog/best-silverfish-traps-canada">Silverfish Traps in Canada — Which Type, How Many, Where They Go</Link></li>
+            <li><Link href="/blog/best-silverfish-traps">Silverfish Traps in Canada — Which Type, How Many, Where They Go</Link></li>
             <li><Link href="/blog/best-earwig-killer-canada">Earwig Traps and Killers in Canada — What to Buy</Link></li>
             <li><Link href="/blog/best-spider-spray-canada">Best Spider Spray Canada — PMRA-Registered Options</Link></li>
             <li><Link href="/blog/ultrasonic-pest-repellers-do-they-work">Do Ultrasonic Pest Repellers Actually Work?</Link></li>

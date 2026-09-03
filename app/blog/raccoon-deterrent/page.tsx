@@ -11,7 +11,7 @@ import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 
-const SLUG = 'raccoon-deterrent-canada'
+const SLUG = 'raccoon-deterrent'
 const DATE = '2026-07-21'
 const UPDATED = '2026-07-21'
 const TITLE = 'Best Raccoon Deterrent Canada 2026 — What Actually Works (and What Ontario Law Allows)'

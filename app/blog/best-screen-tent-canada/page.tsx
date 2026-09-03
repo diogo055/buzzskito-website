@@ -319,7 +319,7 @@ export default function BestScreenTentCanadaPage() {
             <li><strong>Screened gazebo</strong> — a heavier steel-framed structure meant to stay up all season. Different category, different money.</li>
           </ul>
           <p>If that last category is what you actually want — something that lives on the deck from May to September instead of folding into a bag — our guide to the <Link href="/blog/best-gazebo-with-mosquito-net-canada">best gazebos with mosquito netting in Canada</Link> compares soft-top and hard-top screened models, footprint sizing, and how to anchor one against summer wind.</p>
-          <p>One thing no dedicated screen house includes: a floor. That&rsquo;s deliberate — you place them over grass, deck boards, or a campsite pad. If you want overhead-plus-under protection for sleeping outdoors, that&rsquo;s a bed net or camping tent problem; our <Link href="/blog/mosquito-net-canada">mosquito net guide for Canada</Link> covers those formats.</p>
+          <p>One thing no dedicated screen house includes: a floor. That&rsquo;s deliberate — you place them over grass, deck boards, or a campsite pad. If you want overhead-plus-under protection for sleeping outdoors, that&rsquo;s a bed net or camping tent problem; our <Link href="/blog/mosquito-net">mosquito net guide for Canada</Link> covers those formats.</p>
 
           <h2>What Size Screen Tent Do You Need? 8x8 Through 15x13</h2>
           <p>Footprint is the decision people get wrong most often, because a screen house that looks generous in a product photo shrinks the moment four people sit down and push their chairs back. Sizing by what actually goes underneath:</p>
@@ -390,7 +390,7 @@ export default function BestScreenTentCanadaPage() {
           <h2>Related Reading</h2>
           <ul>
             <li><Link href="/blog/mosquito-screens-patio-canada">Mosquito Screens for Your Patio — Every Option Compared</Link></li>
-            <li><Link href="/blog/mosquito-net-canada">Mosquito Nets in Canada — Bed Nets, Head Nets &amp; Canopies</Link></li>
+            <li><Link href="/blog/mosquito-net">Mosquito Nets in Canada — Bed Nets, Head Nets &amp; Canopies</Link></li>
             <li><Link href="/blog/mosquito-netting-vs-barrier-spray">Mosquito Netting vs Barrier Spray — Which Protects Better?</Link></li>
             <li><Link href="/blog/black-flies-ontario-when-they-come-out">When Do Black Flies Come Out in Ontario?</Link></li>
             <li><Link href="/mosquito-control">BuzzSkito Professional Mosquito Control Service</Link></li>

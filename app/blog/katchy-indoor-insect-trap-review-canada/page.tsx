@@ -158,7 +158,7 @@ export default function KatchyIndoorInsectTrapReviewCanadaPage() {
             <li><strong>House flies — poor.</strong> Adult house flies orient to daylight, food odours, and surfaces rather than a UV lamp in a dark room, and they are strong enough fliers that the quiet fan frequently cannot hold one even when it investigates. You will get the occasional sluggish catch, nothing more.</li>
             <li><strong>Mosquitoes — poor.</strong> Host-seeking mosquitoes hunt carbon dioxide, heat, and skin odour. The Katchy produces none of those, and studies of UV traps consistently find mosquitoes are a small fraction of the catch. A stray resting mosquito will occasionally end up on the board; a room full of them will not.</li>
           </ul>
-          <p>If your real problem is house flies in the kitchen or wasps finding their way indoors, this is the wrong product page — start with our guides to <Link href="/blog/how-to-get-rid-of-fruit-flies-canada">getting rid of fruit flies</Link> for small-fly sanitation tactics that transfer well, or the <Link href="/blog/rescue-why-trap-review-canada">RESCUE! WHY trap review</Link> for the outdoor stinging-insect side of the aisle.</p>
+          <p>If your real problem is house flies in the kitchen or wasps finding their way indoors, this is the wrong product page — start with our guides to <Link href="/blog/how-to-get-rid-of-fruit-flies">getting rid of fruit flies</Link> for small-fly sanitation tactics that transfer well, or the <Link href="/blog/rescue-why-trap-review-canada">RESCUE! WHY trap review</Link> for the outdoor stinging-insect side of the aisle.</p>
 
           <h2>Katchy vs TERRO vs Indoor Zapper: Which Should You Buy?</h2>
           <p>The Katchy is the highest-ticket device in the indoor fly-control aisle, so it has to justify itself against a lure trap that costs a fraction as much and the zappers hanging beside it. Here is the honest three-way comparison for Canadian kitchens:</p>
@@ -231,7 +231,7 @@ export default function KatchyIndoorInsectTrapReviewCanadaPage() {
           <h2>Kill the Source, or the Trap Never Wins</h2>
           <p>A trap — any trap — only mops up adults. Fungus gnats breed in the top layer of moist potting soil, and fruit flies breed in fermenting material: the over-ripe banana, the drain gunk, the forgotten potato in the pantry. While the breeding site keeps producing, the Katchy is running a treadmill.</p>
           <p>For fungus gnats, the source fix is drying out the top few centimetres of soil between waterings and treating the soil with BTI — a naturally occurring larvicide bacterium that kills fungus-gnat larvae and is PMRA-registered for consumer use. Our <Link href="/blog/mosquito-bits-canada-vs-dunks">Mosquito Bits vs Dunks comparison</Link> explains which BTI format works for houseplant soil (Bits, sprinkled and watered in), and the <Link href="/blog/mosquito-dunks-canada-guide">full BTI dunks guide</Link> covers the product family in depth. The Katchy catches the adults; BTI ends the production line — together they clear a gnat problem in two to three weeks.</p>
-          <p>For fruit flies, the fix is sanitation: fruit into the fridge, compost caddy emptied and rinsed, drains cleaned, recycling bin rinsed. The step-by-step lives in our <Link href="/blog/how-to-get-rid-of-fruit-flies-canada">fruit fly elimination guide</Link>. And if what you are fighting turns out to be bigger than a small-fly problem — persistent flies from an unknown dead-animal source, or a structural issue — our <Link href="/pest-control-cost-canada">Canadian pest control cost guide</Link> covers what professional help runs so you can decide when DIY has hit its limit.</p>
+          <p>For fruit flies, the fix is sanitation: fruit into the fridge, compost caddy emptied and rinsed, drains cleaned, recycling bin rinsed. The step-by-step lives in our <Link href="/blog/how-to-get-rid-of-fruit-flies">fruit fly elimination guide</Link>. And if what you are fighting turns out to be bigger than a small-fly problem — persistent flies from an unknown dead-animal source, or a structural issue — our <Link href="/pest-control-cost-canada">Canadian pest control cost guide</Link> covers what professional help runs so you can decide when DIY has hit its limit.</p>
 
           <h2>Katchy Review — Key Facts</h2>
           <div className="not-prose rounded-xl border border-navy-100 overflow-x-auto my-6 overflow-x-auto">
@@ -282,7 +282,7 @@ export default function KatchyIndoorInsectTrapReviewCanadaPage() {
 
           <h2>Related Guides</h2>
           <ul>
-            <li><Link href="/blog/how-to-get-rid-of-fruit-flies-canada">How to Get Rid of Fruit Flies in Canada — Full Playbook</Link></li>
+            <li><Link href="/blog/how-to-get-rid-of-fruit-flies">How to Get Rid of Fruit Flies in Canada — Full Playbook</Link></li>
             <li><Link href="/blog/best-fruit-fly-trap-canada">Best Fruit Fly Trap Canada — Every Type Ranked</Link></li>
             <li><Link href="/blog/mosquito-bits-canada-vs-dunks">Mosquito Bits vs Dunks — Which BTI Format for Fungus Gnats</Link></li>
             <li><Link href="/blog/mosquito-dunks-canada-guide">Mosquito Dunks Canada — The Complete BTI Guide</Link></li>

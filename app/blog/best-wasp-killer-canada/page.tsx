@@ -243,7 +243,7 @@ export default function BestWaspKillerCanadaPage() {
           <h2>Traps: Prevention, Honestly Priced</h2>
           <p>Traps occupy a strange position in the wasp aisle: genuinely useful, and almost universally bought for the wrong job. A baited trap &mdash; the reusable RESCUE! WHY being the Canadian standard, with disposable bag traps as the high-volume budget option &mdash; intercepts <em>foraging workers</em>. Hung correctly, it thins the traffic over a patio in a way you can see in the trap by the end of a weekend.</p>
           <p>What it cannot do is subtract a colony. A peak-season yellow jacket nest fields <strong>thousands of workers</strong> and rears replacements continuously; a trap catching fifty a day is skimming interest off a population that compounds faster than the trap collects. The arithmetic only flips in <strong>spring</strong>, when every wasp on the wing is a mated queen shopping for a nest site &mdash; one April catch genuinely is one August colony prevented, which makes early-season trapping the highest-value hang of the year.</p>
-          <p>Placement is the other half: a trap is a wasp <em>attractant</em>, so it goes at the yard&rsquo;s edge, upwind of and away from the table it is defending &mdash; never beside the seating. Our <Link href="/blog/best-wasp-trap-canada">wasp trap guide</Link> and <Link href="/blog/best-yellow-jacket-trap-canada">yellow jacket trap guide</Link> cover models, baiting through the season, and the placement geometry in detail.</p>
+          <p>Placement is the other half: a trap is a wasp <em>attractant</em>, so it goes at the yard&rsquo;s edge, upwind of and away from the table it is defending &mdash; never beside the seating. Our <Link href="/blog/best-wasp-trap">wasp trap guide</Link> and <Link href="/blog/best-yellow-jacket-trap-canada">yellow jacket trap guide</Link> cover models, baiting through the season, and the placement geometry in detail.</p>
 
           <h2>The Night Protocol That Makes Any of It Work</h2>
           <p>Whatever can you buy, the application discipline is identical, and it is where the outcome is decided:</p>
@@ -306,7 +306,7 @@ export default function BestWaspKillerCanadaPage() {
             <li><Link href="/blog/how-to-get-rid-of-ground-wasps-canada">How to Get Rid of Ground Wasps in Canada &mdash; The Dusk Foam Protocol</Link></li>
             <li><Link href="/blog/wasp-dust-canada">Wasp Dust in Canada &mdash; Why Pros Use It, and What Is Legal</Link></li>
             <li><Link href="/blog/best-wasp-nest-spray-canada">Best Wasp Nest Spray Canada &mdash; Every PMRA-Registered Can Compared</Link></li>
-            <li><Link href="/blog/best-wasp-trap-canada">Best Wasp Traps Canada &mdash; What Traps Can and Cannot Do</Link></li>
+            <li><Link href="/blog/best-wasp-trap">Best Wasp Traps Canada &mdash; What Traps Can and Cannot Do</Link></li>
             <li><Link href="/blog/best-yellow-jacket-trap-canada">Best Yellow Jacket Trap Canada &mdash; Baiting Through the Season</Link></li>
             <li><Link href="/blog/how-to-get-rid-of-wasps-canada">How to Get Rid of Wasps in Canada &mdash; The Complete Guide</Link></li>
           </ul>

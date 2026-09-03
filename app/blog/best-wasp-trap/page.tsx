@@ -12,7 +12,7 @@ import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 
-const SLUG = 'best-wasp-trap-canada'
+const SLUG = 'best-wasp-trap'
 const DATE = '2026-07-21'
 const UPDATED = '2026-07-21'
 const TITLE = 'Best Wasp Traps in Canada: Bag, Sticky, Reusable and DIY Compared'

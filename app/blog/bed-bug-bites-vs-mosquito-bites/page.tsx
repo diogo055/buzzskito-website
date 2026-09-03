@@ -388,7 +388,7 @@ export default function BedBugBitesVsMosquitoBitesPage() {
             <li><strong>Fecal spotting.</strong> Dark specks, like the tip of a fine felt pen, along mattress seams and piping, on the box spring, and where the headboard meets the wall. The confirming test is that they smear rusty-brown on a damp cotton bud, because that is digested blood rather than dirt. This is the most reliable and most common evidence.</li>
             <li><strong>Shed skins.</strong> Hollow, papery, correctly bed-bug-shaped shells. A bed bug moults five times before adulthood, so cast skins outnumber live insects and are frequently the first thing anyone spots.</li>
             <li><strong>Eggs.</strong> About a millimetre, pearly white, rice-shaped, cemented into cracks and seams in small clusters. They do not brush away.</li>
-            <li><strong>Live bugs.</strong> Adults are apple-seed sized and reddish-brown. The immature stages are much easier to miss &mdash; translucent and around a millimetre when newly hatched, showing a dark red centre once fed. Our guide to <Link href="/blog/baby-bed-bugs-nymphs-canada">baby bed bugs and nymphs</Link> covers the size-by-stage chart and the look-alikes, because carpet beetle larvae send a lot of people down the wrong road.</li>
+            <li><strong>Live bugs.</strong> Adults are apple-seed sized and reddish-brown. The immature stages are much easier to miss &mdash; translucent and around a millimetre when newly hatched, showing a dark red centre once fed. Our guide to <Link href="/blog/baby-bed-bugs-nymphs">baby bed bugs and nymphs</Link> covers the size-by-stage chart and the look-alikes, because carpet beetle larvae send a lot of people down the wrong road.</li>
           </ul>
           <p>Search with a bright, narrow-beam flashlight held almost flat against the fabric &mdash; the low angle throws shadows and makes a millimetre-long insect visible when a ceiling light will not. Work the seam, then the piping, then the tag, then the box spring corners, then the frame joints and screw holes, then behind the headboard, then the baseboard behind the bed. The full routine is in <Link href="/blog/how-to-check-for-bed-bugs-canada">how to check for bed bugs in Canada</Link>.</p>
           <p>And if you would rather not conduct a search at all, the low-effort version genuinely works: put interceptor cups under all four bed legs, pull the bed a few centimetres off the wall, keep the bedding from touching the floor, and read the cups each morning for a fortnight. The insects do the reporting for you.</p>
@@ -427,7 +427,7 @@ export default function BedBugBitesVsMosquitoBitesPage() {
           <h2>Related Guides</h2>
           <ul>
             <li><strong>Bed bug bites in depth:</strong> <Link href="/blog/bed-bug-bites">Bed Bug Bites — What They Look Like, How Long They Last &amp; How to Tell for Sure</Link></li>
-            <li><Link href="/blog/baby-bed-bugs-nymphs-canada">Baby Bed Bugs in Canada — What Nymphs Look Like at Each Stage</Link></li>
+            <li><Link href="/blog/baby-bed-bugs-nymphs">Baby Bed Bugs in Canada — What Nymphs Look Like at Each Stage</Link></li>
             <li><Link href="/blog/how-to-check-for-bed-bugs-canada">How to Check for Bed Bugs in Canada — Hotel, Apartment &amp; Used Furniture</Link></li>
             <li><Link href="/blog/bed-bug-control-canada-hub">Bed Bug Control Canada — The Complete DIY Treatment Hub</Link></li>
             <li><Link href="/blog/tick-bite-vs-mosquito-bite">Tick Bite vs Mosquito Bite — The 9-Point Chart</Link></li>

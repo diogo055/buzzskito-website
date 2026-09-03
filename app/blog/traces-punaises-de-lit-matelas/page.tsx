@@ -401,7 +401,7 @@ export default function TracesPunaisesDeLitMatelasPage() {
           <ul>
             <li><Link href="/blog/bed-bug-control-canada-hub">Bed Bug Control Canada</Link> &mdash; le protocole de traitement complet</li>
             <li><Link href="/blog/how-to-check-for-bed-bugs-canada">How to Check for Bed Bugs in Canada</Link> &mdash; la méthode d&rsquo;inspection</li>
-            <li><Link href="/blog/baby-bed-bugs-nymphs-canada">Baby Bed Bugs (Nymphs)</Link> &mdash; les stades juvéniles et les confusions fréquentes</li>
+            <li><Link href="/blog/baby-bed-bugs-nymphs">Baby Bed Bugs (Nymphs)</Link> &mdash; les stades juvéniles et les confusions fréquentes</li>
             <li><Link href="/blog/how-to-kill-bed-bug-eggs-canada">How to Kill Bed Bug Eggs</Link> &mdash; pourquoi la chaleur l&rsquo;emporte sur les aérosols</li>
             <li><Link href="/blog/bed-bug-mattress-encasement-canada">Bed Bug Mattress Encasements</Link> &mdash; choisir et dimensionner une housse</li>
             <li><Link href="/blog/bed-bug-interceptor-traps-canada">Bed Bug Interceptor Traps</Link> &mdash; pose et lecture des pièges</li>

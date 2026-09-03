@@ -204,7 +204,7 @@ export default function ClusterFliesInHouseCanadaPage() {
               </tbody>
             </table>
           </div>
-          <p>If the table points you elsewhere: fast kitchen flies in July are the territory of our <Link href="/blog/how-to-get-rid-of-fruit-flies-canada">fruit fly guide</Link>, and small mothy flies rising from sink drains belong to the <Link href="/blog/how-to-get-rid-of-drain-flies-canada">drain fly guide</Link>. Both of those are breeding indoors, which is exactly what the cluster fly never does.</p>
+          <p>If the table points you elsewhere: fast kitchen flies in July are the territory of our <Link href="/blog/how-to-get-rid-of-fruit-flies">fruit fly guide</Link>, and small mothy flies rising from sink drains belong to the <Link href="/blog/how-to-get-rid-of-drain-flies-canada">drain fly guide</Link>. Both of those are breeding indoors, which is exactly what the cluster fly never does.</p>
 
           <h2>Why They Appear in Fall — and Again on Warm Winter Days</h2>
           <p>Cluster flies spend the summer outdoors doing unremarkable fly things: sipping nectar and laying eggs in the soil of every lawn in Ontario. The story that involves your house begins with the first cool nights of late August. Adults of the year&rsquo;s final generation stop breeding and start looking for somewhere to spend the winter &mdash; and what they want is a dry, sheltered void that will stay above lethal cold: the space behind siding, the gap under fascia boards, attic insulation, the voids inside a frame wall. They stage on the warmest exterior wall in the afternoon sun, walk upward, and follow warm air leaking out of the building through whatever gap presents itself. By Thanksgiving, entry is over and the season&rsquo;s population is aboard.</p>
@@ -278,7 +278,7 @@ export default function ClusterFliesInHouseCanadaPage() {
           <h2>Related Guides</h2>
           <ul>
             <li><Link href="/blog/how-to-get-rid-of-cluster-flies-canada">How to Get Rid of Cluster Flies &mdash; The Farmhouse &amp; Cottage Guide</Link></li>
-            <li><Link href="/blog/how-to-get-rid-of-fruit-flies-canada">How to Get Rid of Fruit Flies &mdash; Break the 8-Day Cycle</Link></li>
+            <li><Link href="/blog/how-to-get-rid-of-fruit-flies">How to Get Rid of Fruit Flies &mdash; Break the 8-Day Cycle</Link></li>
             <li><Link href="/blog/how-to-get-rid-of-drain-flies-canada">How to Get Rid of Drain Flies in Canada</Link></li>
             <li><Link href="/blog/how-to-get-rid-of-boxelder-bugs-canada">Boxelder Bugs &mdash; The Other Sunny-Wall Invader</Link></li>
             <li><Link href="/blog/how-to-get-rid-of-spiders-in-house-canada">The Fall Spider Plan &mdash; Same Sealing, Different Tenant</Link></li>

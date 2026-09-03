@@ -331,7 +331,7 @@ export default function HowToKeepSpidersOutPage() {
           <p>Everything above manages spiders directly. The deepest fix manages their economy. Spiders settle where hunting is good — a house with abundant flies, gnats, moths, and other small insects will recruit and retain spiders no matter how many you remove, because the vacancy keeps getting re-advertised. Cut the prey base and the spider population follows it down without another intervention:</p>
           <ul>
             <li><strong>Exterior lighting.</strong> White outdoor lights are insect magnets, and spiders famously build where the buffet lands. Swap entry lights for warm-toned or yellow &ldquo;bug&rdquo; LEDs and you will notice fewer webs around the porch within weeks.</li>
-            <li><strong>Indoor fliers.</strong> A kitchen with a fruit fly problem is a spider feeding station. Our guides on <Link href="/blog/how-to-get-rid-of-fruit-flies-canada">getting rid of fruit flies</Link> and the <Link href="/blog/best-fruit-fly-trap-canada">best fruit fly traps</Link> shut that supply line down; for general small fliers, an indoor UV trap like the one in our <Link href="/blog/katchy-indoor-insect-trap-review-canada">Katchy review</Link> quietly reduces the prey base in a problem room.</li>
+            <li><strong>Indoor fliers.</strong> A kitchen with a fruit fly problem is a spider feeding station. Our guides on <Link href="/blog/how-to-get-rid-of-fruit-flies">getting rid of fruit flies</Link> and the <Link href="/blog/best-fruit-fly-trap-canada">best fruit fly traps</Link> shut that supply line down; for general small fliers, an indoor UV trap like the one in our <Link href="/blog/katchy-indoor-insect-trap-review-canada">Katchy review</Link> quietly reduces the prey base in a problem room.</li>
             <li><strong>Clutter and storage.</strong> Cardboard boxes on basement floors are spider condominiums — dark, undisturbed, corrugated hunting grounds. Move long-term storage into sealed plastic totes on shelving, and you remove both the habitat and the prey shelter in one upgrade.</li>
             <li><strong>Moisture.</strong> Damp basements feed the springtails, sowbugs, and silverfish at the bottom of the food chain. A dehumidifier is, indirectly, spider control.</li>
           </ul>
@@ -352,11 +352,11 @@ export default function HowToKeepSpidersOutPage() {
 
           <h2>Related Household Pest Guides</h2>
           <ul>
-            <li><Link href="/blog/how-to-get-rid-of-fruit-flies-canada">How to Get Rid of Fruit Flies — Full Playbook</Link></li>
+            <li><Link href="/blog/how-to-get-rid-of-fruit-flies">How to Get Rid of Fruit Flies — Full Playbook</Link></li>
             <li><Link href="/blog/best-fruit-fly-trap-canada">Best Fruit Fly Trap Canada — Tested Picks</Link></li>
             <li><Link href="/blog/katchy-indoor-insect-trap-review-canada">Katchy Indoor Insect Trap — Honest Canadian Review</Link></li>
             <li><Link href="/blog/how-to-get-rid-of-wasps-canada">How to Get Rid of Wasps — Canadian Guide</Link></li>
-            <li><Link href="/blog/raccoon-deterrent-canada">Raccoon Deterrents That Actually Work in Canada</Link></li>
+            <li><Link href="/blog/raccoon-deterrent">Raccoon Deterrents That Actually Work in Canada</Link></li>
             <li><Link href="/pest-control-cost-canada">Pest Control Cost in Canada — What Pros Charge</Link></li>
           </ul>
 

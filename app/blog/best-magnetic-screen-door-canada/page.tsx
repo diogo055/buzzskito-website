@@ -381,7 +381,7 @@ export default function BestMagneticScreenDoorCanadaPage() {
             <li><strong>Not sure which kind of screen you need?</strong> <Link href="/blog/mosquito-screens-patio-canada">Mosquito Screens for Your Patio &mdash; Five Formats Compared</Link></li>
             <li><Link href="/blog/best-screen-tent-canada">Best Screen Tent in Canada &mdash; Pop-Up Screen Houses</Link></li>
             <li><Link href="/blog/best-gazebo-with-mosquito-net-canada">Best Gazebo with Mosquito Netting in Canada</Link></li>
-            <li><Link href="/blog/mosquito-net-canada">Mosquito Netting in Canada &mdash; Mesh Grades and Where Each Works</Link></li>
+            <li><Link href="/blog/mosquito-net">Mosquito Netting in Canada &mdash; Mesh Grades and Where Each Works</Link></li>
             <li><Link href="/blog/no-see-ums-biting-midges-ontario">No-See-Ums and Biting Midges in Ontario</Link></li>
             <li><Link href="/blog/black-flies-ontario-when-they-come-out">Black Fly Season in Ontario &mdash; When They Come Out</Link></li>
             <li><Link href="/blog/how-to-get-rid-of-mosquitoes-in-the-house">How to Get Rid of Mosquitoes Inside the House</Link></li>

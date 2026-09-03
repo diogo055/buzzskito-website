@@ -413,10 +413,10 @@ export default function PantryMothTrapsCanadaPage() {
 
           <h2>Related Guides</h2>
           <ul>
-            <li><Link href="/blog/how-to-get-rid-of-fruit-flies-canada">How to Get Rid of Fruit Flies in Canada — Find the Source, Break the 8-Day Cycle</Link></li>
+            <li><Link href="/blog/how-to-get-rid-of-fruit-flies">How to Get Rid of Fruit Flies in Canada — Find the Source, Break the 8-Day Cycle</Link></li>
             <li><Link href="/blog/best-fruit-fly-trap-canada">Best Fruit Fly Trap in Canada — What Actually Catches Them</Link></li>
             <li><Link href="/blog/how-to-get-rid-of-fungus-gnats-houseplants">Fungus Gnats in Houseplants — The Watering Fix</Link></li>
-            <li><Link href="/blog/best-silverfish-traps-canada">Silverfish Traps in Canada — Which Type, How Many, Where They Go</Link></li>
+            <li><Link href="/blog/best-silverfish-traps">Silverfish Traps in Canada — Which Type, How Many, Where They Go</Link></li>
             <li><Link href="/blog/how-to-get-rid-of-mice-canada">How to Get Rid of Mice in Canada — Exclusion First</Link></li>
             <li><Link href="/blog/ultrasonic-pest-repellers-do-they-work">Do Ultrasonic Pest Repellers Work? The Honest Answer</Link></li>
             <li><Link href="/blog/diatomaceous-earth-canada-buyers-guide">Diatomaceous Earth in Canada — Which Brands Are PMRA-Registered</Link></li>

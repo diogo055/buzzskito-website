@@ -280,7 +280,7 @@ export default function BiogentsBgMosquitaireCanadaPage() {
             <li><strong>You need the yard usable this Saturday.</strong> No trap does that. A barrier treatment knocks the resting population down within hours and holds for weeks; that is a different tool for a different question.</li>
             <li><strong>You use the yard a handful of evenings a summer.</strong> A Thermacell-style personal repellent zone costs a fraction of a Biogents trap and protects the patio for the hours you are actually in it. Our <Link href="/blog/thermacell-canada-where-to-buy">Thermacell guide for Canada</Link> covers that end of the market.</li>
             <li><strong>Your yard is making its own mosquitoes.</strong> If there is standing water on the property &mdash; a saucer under a planter, a clogged eaves trough, a tarp with a puddle, an untreated rain barrel &mdash; you are breeding the problem faster than any trap removes it. Ten minutes with the checklist in <Link href="/blog/hidden-mosquito-breeding-spots-backyard">hidden mosquito breeding spots</Link> costs nothing and often outperforms a $400 machine.</li>
-            <li><strong>You have an acre or more, rural.</strong> Lure-only reach is not the answer at that scale. Read the acreage comparison in our <Link href="/blog/best-mosquito-trap-canada">best mosquito traps in Canada</Link> roundup before spending here.</li>
+            <li><strong>You have an acre or more, rural.</strong> Lure-only reach is not the answer at that scale. Read the acreage comparison in our <Link href="/blog/best-mosquito-trap">best mosquito traps in Canada</Link> roundup before spending here.</li>
           </ul>
 
           <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
@@ -328,7 +328,7 @@ export default function BiogentsBgMosquitaireCanadaPage() {
           <h2>Related Reading</h2>
           <ul>
             <li><Link href="/blog/co2-mosquito-trap-canada">CO2 Mosquito Traps in Canada &mdash; The Category Overview</Link></li>
-            <li><Link href="/blog/best-mosquito-trap-canada">Best Mosquito Traps in Canada &mdash; Every Type Compared</Link></li>
+            <li><Link href="/blog/best-mosquito-trap">Best Mosquito Traps in Canada &mdash; Every Type Compared</Link></li>
             <li><Link href="/blog/mosquito-magnet-canada">Mosquito Magnet in Canada &mdash; The Propane Alternative</Link></li>
             <li><Link href="/blog/propane-mosquito-trap-canada">Propane Mosquito Traps &mdash; Reach, Tanks &amp; Real Costs</Link></li>
             <li><Link href="/blog/west-nile-virus-mosquito-risk-ontario">West Nile Virus &amp; Mosquito Risk in Ontario</Link></li>

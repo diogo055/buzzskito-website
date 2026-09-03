@@ -25,6 +25,21 @@ const nextConfig = {
   },
   async redirects() {
     return [
+      // ── Geo-slug A/B test, 2026-09-03 (data/exp-slug-test.json) ─────────────
+      // Treatment arm: slug loses its `-canada` suffix, TITLE keeps the geo token.
+      // Revert these 12 entries and `git mv` back if the 6-week stop rule fires.
+      { source: '/blog/advion-cockroach-gel-bait-canada', destination: '/blog/advion-cockroach-gel-bait', permanent: true },
+      { source: '/blog/electric-fly-swatter-canada', destination: '/blog/electric-fly-swatter', permanent: true },
+      { source: '/blog/baby-bed-bugs-nymphs-canada', destination: '/blog/baby-bed-bugs-nymphs', permanent: true },
+      { source: '/blog/best-wasp-trap-canada', destination: '/blog/best-wasp-trap', permanent: true },
+      { source: '/blog/mosquito-net-canada', destination: '/blog/mosquito-net', permanent: true },
+      { source: '/blog/mosquito-repellent-for-dogs-canada', destination: '/blog/mosquito-repellent-for-dogs', permanent: true },
+      { source: '/blog/raccoon-deterrent-canada', destination: '/blog/raccoon-deterrent', permanent: true },
+      { source: '/blog/best-ant-killer-canada', destination: '/blog/best-ant-killer', permanent: true },
+      { source: '/blog/best-mosquito-trap-canada', destination: '/blog/best-mosquito-trap', permanent: true },
+      { source: '/blog/how-to-get-rid-of-fruit-flies-canada', destination: '/blog/how-to-get-rid-of-fruit-flies', permanent: true },
+      { source: '/blog/picaridin-vs-deet-canada', destination: '/blog/picaridin-vs-deet', permanent: true },
+      { source: '/blog/best-silverfish-traps-canada', destination: '/blog/best-silverfish-traps', permanent: true },
       // ── www → non-www canonical (CRITICAL — was splitting authority) ────────
       // GSC top-pages showed both https://buzzskito.ca/blog/... and
       // https://www.buzzskito.ca/blog/... as separate indexed URLs, splitting

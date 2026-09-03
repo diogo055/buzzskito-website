@@ -11,7 +11,7 @@ import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { tagForSlug } from '@/lib/amazon-clusters'
 
-const SLUG = 'electric-fly-swatter-canada'
+const SLUG = 'electric-fly-swatter'
 const DATE = '2026-07-14'
 const UPDATED = '2026-07-14'
 const TITLE = 'Best Electric Fly Swatter Canada 2026 — The Executioner vs Zap It vs Black Flag'

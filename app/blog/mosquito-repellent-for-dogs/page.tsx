@@ -10,7 +10,7 @@ import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { tagForSlug } from '@/lib/amazon-clusters'
 
-const SLUG = 'mosquito-repellent-for-dogs-canada'
+const SLUG = 'mosquito-repellent-for-dogs'
 const DATE = '2026-07-12'
 const UPDATED = '2026-07-12'
 const TITLE = 'Mosquito Repellent for Dogs Canada 2026 — Vet-Safe Picks + What Not to Use'

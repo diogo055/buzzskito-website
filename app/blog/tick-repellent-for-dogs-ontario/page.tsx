@@ -327,7 +327,7 @@ export default function TickRepellentForDogsPage() {
             <li><strong>Yard treatment</strong>, the layer most owners skip. Most dogs meet their ticks in the backyard, not on a hike. <Link href="/tick-control">A professional tick barrier spray</Link> targets the lawn-to-woods edge, leaf litter, fence lines, and shaded borders where ticks quest &mdash; the damp, shaded microhabitat they need to survive, which is why treating there does more than spraying open lawn. It does not end the problem permanently: ticks keep arriving on deer, mice and birds, so the treatment is repeated through the season. It is safe for pets once dry, roughly 30 minutes after application.</li>
           </ol>
           <p>Mow to 3&ndash;4 inches, clear leaf litter at the edges each spring and fall, and lay a 3-foot wood-chip strip between lawn and any woods or tall grass. Ticks avoid crossing dry, sunny barriers.</p>
-          <p>Ticks are not the only warm-weather pest your dog faces &mdash; mosquitoes carry heartworm, which is why many of the same yard and product measures overlap. See our companion guide on <Link href="/blog/mosquito-repellent-for-dogs-canada">mosquito repellent for dogs in Canada</Link> for the safe options there.</p>
+          <p>Ticks are not the only warm-weather pest your dog faces &mdash; mosquitoes carry heartworm, which is why many of the same yard and product measures overlap. See our companion guide on <Link href="/blog/mosquito-repellent-for-dogs">mosquito repellent for dogs in Canada</Link> for the safe options there.</p>
 
           <h2>Related Reading</h2>
           <ul>
@@ -336,7 +336,7 @@ export default function TickRepellentForDogsPage() {
             <li><Link href="/blog/tick-bite-on-dog-symptoms">Tick Bite on a Dog: Symptoms to Watch</Link></li>
             <li><Link href="/blog/what-does-tick-look-like-on-dog">What a Tick Looks Like on a Dog</Link></li>
             <li><Link href="/blog/deer-tick-vs-dog-tick-canada">Deer Tick vs Dog Tick</Link></li>
-            <li><Link href="/blog/mosquito-repellent-for-dogs-canada">Mosquito Repellent for Dogs in Canada</Link></li>
+            <li><Link href="/blog/mosquito-repellent-for-dogs">Mosquito Repellent for Dogs in Canada</Link></li>
             <li><Link href="/tick-control">BuzzSkito Tick Control Service</Link></li>
           </ul>
 

@@ -30,7 +30,7 @@ const FEATURED: Category[] = [
     tone: 'treat',
     blurb: 'The repellents, traps, foggers and area devices we recommend after spraying real GTA backyards for mosquitoes — what holds up on an actual property, what wastes money, and what you can legally buy in Canada.',
     posts: [
-      { href: '/blog/best-mosquito-trap-canada', label: 'Best Mosquito Traps', note: 'What actually catches them' },
+      { href: '/blog/best-mosquito-trap', label: 'Best Mosquito Traps', note: 'What actually catches them' },
       { href: '/blog/mosquito-magnet-canada', label: 'Mosquito Magnet', note: 'Propane CO₂ traps — do they work?' },
       { href: '/blog/thermacell-canada-where-to-buy', label: 'Thermacell Canada', note: 'Best patio repellent device' },
       { href: '/blog/best-mosquito-repellent-device-canada', label: 'Repellent Devices', note: 'Zone protection compared' },
@@ -92,7 +92,7 @@ const RESEARCH: Category[] = [
     posts: [
       { href: '/blog/best-raccoon-live-trap-canada', label: 'Raccoon Live Traps', note: 'Large humane cage traps' },
       { href: '/blog/best-electric-fence-for-raccoons-canada', label: 'Electric Fencing', note: 'What actually stops them' },
-      { href: '/blog/raccoon-deterrent-canada', label: 'Raccoon Deterrents', note: 'Try these before trapping' },
+      { href: '/blog/raccoon-deterrent', label: 'Raccoon Deterrents', note: 'Try these before trapping' },
       { href: '/blog/best-live-animal-trap-canada', label: 'Live Animal Traps', note: 'Sized by animal' },
     ],
   },
@@ -119,7 +119,7 @@ const RESEARCH: Category[] = [
     blurb: 'Traps, nest sprays and the safe way to deal with a nest — plus when a wasp is actually a protected pollinator worth leaving alone.',
     posts: [
       { href: '/blog/how-to-get-rid-of-wasps-canada', label: 'Get Rid of Wasps', note: 'The safe playbook' },
-      { href: '/blog/best-wasp-trap-canada', label: 'Best Wasp Traps', note: 'Lure traps compared' },
+      { href: '/blog/best-wasp-trap', label: 'Best Wasp Traps', note: 'Lure traps compared' },
       { href: '/blog/best-wasp-nest-spray-canada', label: 'Nest Sprays', note: 'Jet-distance knockdown' },
       { href: '/blog/best-yellow-jacket-trap-canada', label: 'Yellow Jacket Traps', note: 'For the aggressive ones' },
     ],
@@ -135,10 +135,10 @@ const RESEARCH: Category[] = [
       { href: '/blog/how-to-get-rid-of-cockroaches-canada', label: 'Get Rid of Cockroaches', note: 'The gel-bait method' },
       { href: '/blog/best-cockroach-spray-canada', label: 'Cockroach Spray', note: 'What to buy, what not' },
       { href: '/blog/best-roach-traps-canada', label: 'Cockroach Traps', note: 'Glue boards vs bait stations' },
-      { href: '/blog/advion-cockroach-gel-bait-canada', label: 'Advion Gel Bait', note: 'Is it legal in Canada?' },
+      { href: '/blog/advion-cockroach-gel-bait', label: 'Advion Gel Bait', note: 'Is it legal in Canada?' },
       { href: '/blog/best-spider-spray-canada', label: 'Best Spider Sprays', note: 'Perimeter control' },
       { href: '/blog/how-to-get-rid-of-silverfish-canada', label: 'Silverfish', note: 'Dry them out' },
-      { href: '/blog/best-silverfish-traps-canada', label: 'Silverfish Traps', note: 'Which type, and how many' },
+      { href: '/blog/best-silverfish-traps', label: 'Silverfish Traps', note: 'Which type, and how many' },
       { href: '/blog/best-earwig-killer-canada', label: 'Earwig Traps & Killers', note: 'What to buy, what to make' },
       { href: '/blog/best-centipede-killer-canada', label: 'Centipede Killer', note: 'What to buy, in what order' },
     ],
@@ -154,7 +154,7 @@ const RESEARCH: Category[] = [
       { href: '/blog/how-to-get-rid-of-ants-canada', label: 'Get Rid of Ants', note: 'Why baiting beats every spray' },
       { href: '/blog/carpenter-ants-canada', label: 'Carpenter Ants', note: 'Find the nest, or you’re just killing ants' },
       { href: '/blog/best-ant-traps-canada', label: 'Best Ant Traps', note: 'Bait stations vs glue traps' },
-      { href: '/blog/best-ant-killer-canada', label: 'Best Ant Killer', note: 'What actually kills the colony' },
+      { href: '/blog/best-ant-killer', label: 'Best Ant Killer', note: 'What actually kills the colony' },
     ],
   },
   {

@@ -277,7 +277,7 @@ export default function MotionActivatedSprinklerCanadaPage() {
             <li><strong>Move the unit every two to three days.</strong> Raccoons are the fastest habituators in your yard. A sprinkler that has stood in one spot for a week is furniture; a sprinkler that keeps appearing in new places is a threat.</li>
             <li><strong>Treat the grubs too.</strong> The sprinkler defends the turf; it does not close the restaurant. In Canada the practical consumer option is beneficial nematodes applied to moist soil in late August or September — most of the consumer chemical grub killers recommended on US lawn forums are not PMRA-registered for Canadian homeowners, so the biological route is both the legal and the effective one here.</li>
           </ul>
-          <p>Grub control, den-site exclusion, securing green bins, and the full raccoon playbook are covered in our companion guide to <Link href="/blog/raccoon-deterrent-canada">raccoon deterrents in Canada</Link> — the sprinkler is the anchor product of that strategy, but it works best as one layer of several.</p>
+          <p>Grub control, den-site exclusion, securing green bins, and the full raccoon playbook are covered in our companion guide to <Link href="/blog/raccoon-deterrent">raccoon deterrents in Canada</Link> — the sprinkler is the anchor product of that strategy, but it works best as one layer of several.</p>
 
           <h2>Placement Strategy: How to Beat Habituation</h2>
           <p>Every negative review of a motion-activated sprinkler tells the same story: &ldquo;worked great for two weeks, then the animals ignored it.&rdquo; That is not a defective sensor — it is a stationary one. Animals habituate to any fixed stimulus once they learn its exact boundaries. The fix is to run the sprinkler like a mobile patrol rather than a fixed turret:</p>
@@ -322,7 +322,7 @@ export default function MotionActivatedSprinklerCanadaPage() {
 
           <h2>Related Guides</h2>
           <ul>
-            <li><Link href="/blog/raccoon-deterrent-canada">Raccoon Deterrents Canada — The Full Humane Playbook</Link></li>
+            <li><Link href="/blog/raccoon-deterrent">Raccoon Deterrents Canada — The Full Humane Playbook</Link></li>
             <li><Link href="/pest-control-cost-canada">Pest Control Cost Canada — DIY vs Hiring a Pro</Link></li>
             <li><Link href="/blog/how-to-keep-spiders-out-of-your-house">How to Keep Spiders Out of Your House</Link></li>
             <li><Link href="/pest-product-guides">All BuzzSkito Pest Product Guides</Link></li>
