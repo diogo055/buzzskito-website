@@ -9,8 +9,7 @@
 
 The site earns ~$653/month (August peak) from Amazon.ca affiliate links across 358 blog
 pages. The programme brief targets $4,000–5,000/month at the 2027 peak. Stages A–D are done,
-E is 17/20, F is blocked on the owner's Levanta approval, G is untouched, H is partial, I is
-in progress. **The honest forecast is that the work shipped so far is worth about +23%
+E is 17/20, F is blocked on the owner's Levanta approval, G and I are done, H is partial. **The honest forecast is that the work shipped so far is worth about +23%
 (+$1,415/yr), and that $4,500/month requires BOTH ~2.5× traffic AND ~3× revenue per order —
 neither alone gets there.** The single biggest constraint is that the average basket is
 $46.53 and only 4 of the top 39 pages sell anything above $100.
@@ -49,7 +48,7 @@ conversion at 10.4% is strong. The funnel was never the problem. Revenue per ord
 | **D** Monetization sweep | ✅ Done | Only 3 pages qualified (~$12/mo) — NOT the workstream the brief expected |
 | **E** Striking distance | 🟡 17/20 US pages expanded | 3 remain |
 | **F** Levanta | ⛔ Blocked on owner | Queue + catalogue findings ready |
-| **G** Commercial pages | ❌ Not started | **This is the revenue-per-order fix** |
+| **G** Commercial pages | ✅ Done (reframed) | Premise was wrong — 72 high-basket pages already exist, starved. Routed instead of built. See `data/stage-g-finding.md` |
 | **H** Vertical expansion | 🟡 6 fall pages shipped | |
 | **I** AI search | ✅ Done | Baseline + citation pattern found + applied to 6 pages |
 | **J** Conversion/maintenance | 🟡 Tracking live | Measures 2026-09-30 |
@@ -200,6 +199,26 @@ Ranch $37.70, Harris $12–17.
 5. **2026-10-03: re-measure AI citations** with the exact call in `data/ai-search-baseline.md`.
 
 ---
+
+
+## 9b. Stage G was reframed — read `data/stage-g-finding.md`
+
+The brief said "build commercial pages". The site **already has 72** (20% of pages) earning
+980 of 8,663 clicks — 13.6 clicks/page vs a 24.2 average. They are built and starved, because
+high-basket queries are the hardest to rank (best mosquito trap KD 93, dynatrap 89, thermacell
+63, on a DR ~2 domain).
+
+The real bottleneck was that **13 of the top 25 pages had zero internal route** to any of
+them: 2,172 clicks/month landing where the ceiling is a $15 item. Fixed by routing, not
+building — 13 insertions, zero deletions, affiliate counts identical on all 9 pages.
+
+**The refusals are the quality signal**, not the additions. `rat-poison-canada-what-is-legal`
+got nothing (rats chew through insect mesh — a "screen door for exclusion" link would be
+actively wrong). The `advion` dehumidifier link was added by the writer and **removed by the
+auditor**: roaches drink liquid water from a leak, not ambient humidity.
+
+**Gap found: `/blog/best-air-purifier-for-allergies-canada` does not exist.** 11,226 US +
+3,300 CA monthly searches, $150–600 basket. Worth building.
 
 ## 10. Needed from the owner
 

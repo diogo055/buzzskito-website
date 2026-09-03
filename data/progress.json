@@ -1,8 +1,8 @@
 {
   "program": "Affiliate Revenue Multiplication",
   "started": "2026-09-01",
-  "stage": "I in progress; G not started",
-  "task": "Stage I AI-search application running on 6 pages. Next: Stage G commercial pages.",
+  "stage": "A-D, G, I done. E 17/20. F blocked. H partial.",
+  "task": "Next: build best-air-purifier-for-allergies-canada (gap found), finish 3 US pages, then measure 2026-09-30.",
   "completed": [
     "A1 repo map -> data/repo-map.md",
     "A2 GSC 12mo cached (corrected for multi-dim pruning)",
