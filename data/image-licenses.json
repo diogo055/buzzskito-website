@@ -155,6 +155,32 @@
       "depicts": "A crane fly (\"mosquito hawk\", family Tipulidae) and a mosquito (family Culicidae) drawn to a single shared millimetre/inch ruler: crane fly body 15-25mm with 1.0-6.5cm wingspan and very long fragile legs, mosquito body 3-6mm. Callouts label the crane fly's soft non-piercing snout and the mosquito's needle-like proboscis.",
       "factBasis": "Crane fly adult body length 15-25mm and wingspan 1.0-6.5cm, and mosquito adult body length 3-6mm, are standard entomological reference figures. Adult crane flies have reduced, non-functional mouthparts and are anatomically incapable of killing or consuming other insects; only female mosquitoes have a functional piercing proboscis used to take blood. Crane fly larvae (leatherjackets) develop in soil and decaying organic matter; mosquito larvae develop in standing water.",
       "notes": "Schematic silhouettes, not photographs. The shared ruler is the load-bearing element - the two insects must never be rescaled independently of it. Mirrors the labelled crane-fly-beside-a-mosquito scale asset that the US AI Overview reaches for on the 'mosquito hawk' query."
+    },
+    {
+      "file": "/diagrams/mosquito-temperature-scale-fahrenheit.svg",
+      "licence": "original",
+      "author": "BuzzSkito",
+      "created": "2026-09-02",
+      "attributionRequired": false,
+      "usedOn": [
+        "/blog/what-temperature-kills-mosquitoes"
+      ],
+      "depicts": "Vertical temperature scale, Fahrenheit-first with Celsius in brackets, mapping mosquito behaviour from heat stress above 100F down to a hard freeze at 28F.",
+      "factBasis": "50F/10C flight-and-feeding cessation and 28F/-2C hard-freeze adult mortality are the thresholds already published on the page and widely reported by CDC and AMCA. 95F/35C heat-stress onset and 100F+ shade-seeking follow published thermal-tolerance literature on Aedes and Culex. The 46-53F larval band reflects the published lower developmental threshold for Aedes aegypti larvae (~11.8C/53F) and the steep rise in larval mortality below 10C/50F. 28F hard-freeze terminology follows NOAA/National Weather Service.",
+      "notes": "Original schematic authored for the US expansion of this page. Fahrenheit is deliberately the leading unit; do not invert. No photographic content, no product imagery."
+    },
+    {
+      "file": "/diagrams/mosquito-activity-24-hour-clock.svg",
+      "licence": "original",
+      "author": "BuzzSkito",
+      "created": "2026-09-02",
+      "attributionRequired": false,
+      "usedOn": [
+        "/blog/when-are-mosquitoes-most-active"
+      ],
+      "depicts": "Relative mosquito biting activity across a 24-hour cycle for three species groups: Culex peaking in the 1-2 hours after local sunset, Aedes biting through daylight with a midday heat dip and a late-afternoon peak, and Anopheles holding a broad overnight plateau. Biting falls to its nightly floor between about 2 and 4 a.m.",
+      "factBasis": "Crepuscular/nocturnal Culex and Anopheles behaviour and diurnal Aedes behaviour are standard CDC and American Mosquito Control Association descriptions. Curves are schematic representations of relative biting pressure, not measured trap counts, and the chart is anchored to local sunrise/sunset rather than clock times.",
+      "notes": "Generated from a script; axis is anchored to local sun position because clock times are meaningless across latitudes. Do not relabel the x-axis with fixed city times."
     }
   ]
 }

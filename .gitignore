@@ -43,3 +43,6 @@ seo-audit/**/gsc_by_country.json
 # Large cached GSC/Ahrefs pulls (Stage A caches)
 data/gsc/*.json
 data/gsc/*.csv
+
+# Playwright MCP session artifacts (console logs / page snapshots)
+.playwright-mcp/

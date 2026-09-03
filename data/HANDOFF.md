@@ -9,7 +9,7 @@
 
 The site earns ~$653/month (August peak) from Amazon.ca affiliate links across 358 blog
 pages. The programme brief targets $4,000–5,000/month at the 2027 peak. Stages A–D are done,
-E is 17/20, F is blocked on the owner's Levanta approval, G and I are done, H is partial. **The honest forecast is that the work shipped so far is worth about +23%
+E is complete, F is blocked on the owner's Levanta approval, G and I are done, H is partial. **The honest forecast is that the work shipped so far is worth about +23%
 (+$1,415/yr), and that $4,500/month requires BOTH ~2.5× traffic AND ~3× revenue per order —
 neither alone gets there.** The single biggest constraint is that the average basket is
 $46.53 and only 4 of the top 39 pages sell anything above $100.
@@ -46,7 +46,7 @@ conversion at 10.4% is strong. The funnel was never the problem. Revenue per ord
 | **B** Technical baseline | ✅ Done | Indexation clean; 4 recommendations rejected after verification |
 | **C** Link infrastructure | ✅ Done | Per-link click tracking shipped (`components/AffiliateClickTracker.tsx`) |
 | **D** Monetization sweep | ✅ Done | Only 3 pages qualified (~$12/mo) — NOT the workstream the brief expected |
-| **E** Striking distance | 🟡 17/20 US pages expanded | 3 remain |
+| **E** Striking distance | DONE 20/20 US pages expanded | complete 2026-09-03 |
 | **F** Levanta | ⛔ Blocked on owner | Queue + catalogue findings ready |
 | **G** Commercial pages | ✅ Done (reframed) | Premise was wrong — 72 high-basket pages already exist, starved. Routed instead of built. See `data/stage-g-finding.md` |
 | **H** Vertical expansion | 🟡 6 fall pages shipped | |
@@ -180,6 +180,9 @@ Ranch $37.70, Harris $12–17.
 - No fabricated testing claims — this company does not test products.
 - Tick treatments are **5 sprays per season**, never 2.
 - Do NOT apply to Levanta brands or contact anyone — the owner does that.
+- **Do not create new pages with a `-canada` slug.** Put the geo token in the TITLE
+  only - measured at 2.4x the Canadian clicks per page and 7.5x the US impressions
+  (`data/geo-slug-finding.md`).
 - No new Amazon Associates accounts, no OneLink/geo-redirects (a prior account was banned
   over a US/OneLink setup).
 
@@ -230,6 +233,30 @@ residual impressions in GSC (allergies 5,287, large-room 1,195, hepa-vacuum 848)
 308-redirecting to `/pest-product-guides`. That is the redirect doing its job on decaying
 URLs, not a bug. **Leave it. Rebuilding would undo deliberate moat work for a $150–600
 basket in a category with no service tie.**
+
+## 9c. NEW 2026-09-03 - the `-canada` slug is costing traffic in BOTH markets
+
+Read `data/geo-slug-finding.md`. 203 of 359 slugs end in `-canada`; 201 also have a geo title.
+Holding content type constant, the three variants that already exist on the site show a
+**dose response** - each geo token costs retrieval, and it is a retrieval effect, not a CTR one:
+
+| | US impr/pg | CA clicks/pg |
+|---|---|---|
+| slug + title geo (201 pages) | 37 | 5.5 |
+| **title geo only (54 pages)** | **277** | **13.1** |
+| fully neutral (101 pages) | 953 | 4.6 |
+
+**The geo TITLE earns its keep in Canada; the geo SLUG does not.** Best configuration is geo
+title + neutral slug, and it wins in Canada by 2.4x - so this is a **Canadian revenue play,
+not a US one**. Canada is where the money is: every link is amazon.ca and OneLink is banned.
+
+Verified safe on attribution: no cluster rule in `lib/amazon-clusters.ts` mentions "canada" or
+anchors to end-of-string, and all 203 slugs keep the same tracking ID with the suffix stripped.
+
+**Observational, not causal** - page age, backlinks and topic volume are uncontrolled. A
+randomized 12-page matched-pair test with a pre-committed revert rule is specified in the
+finding file. **Needs owner sign-off: it changes live URLs, which is outside the
+additive-content mandate the rest of this programme has run under.**
 
 ## 10. Needed from the owner
 

@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 470" width="720" height="470" role="img" aria-label="Vertical temperature scale in Fahrenheit and Celsius showing what mosquitoes do at each temperature, from heat stress above 100 degrees Fahrenheit down to a hard freeze at 28 degrees Fahrenheit">
+  <title>What mosquitoes do at each temperature, in Fahrenheit and Celsius</title>
+  <desc>Mosquitoes are cold-blooded. Above 100 degrees Fahrenheit (38 Celsius) they stop flying in open sun and shelter in shade. Above 95 Fahrenheit (35 Celsius) adults enter heat stress and lifespan shortens. From 80 to 95 Fahrenheit (27 to 35 Celsius) biting and breeding peak. From 70 to 80 Fahrenheit (21 to 27 Celsius) is the preferred range, which is also the temperature of an air-conditioned house. Below 60 Fahrenheit (15 Celsius) they fly poorly. At 50 Fahrenheit (10 Celsius) they stop flying and feeding. Around 46 to 53 Fahrenheit (8 to 12 Celsius) larvae stop developing and begin dying. At 32 Fahrenheit (0 Celsius) a light frost stuns adults. At 28 Fahrenheit (minus 2 Celsius) a hard freeze kills active adults, but eggs and hibernating females survive.</desc>
+  <rect width="720" height="470" fill="#ffffff"/>
+
+  <text x="24" y="32" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#0f2942">What mosquitoes do at each temperature</text>
+  <text x="24" y="53" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="13" fill="#5a6b7c">&#176;F first, &#176;C in brackets. Mosquitoes are cold-blooded, so activity tracks air temperature almost directly.</text>
+
+  <!-- scale bar: 105F at y=70, 20F at y=400 -->
+  <g>
+    <rect x="60" y="70" width="52" height="38.8" fill="#7f1d1d"/>
+    <rect x="60" y="108.8" width="52" height="58.2" fill="#dc2626"/>
+    <rect x="60" y="167" width="52" height="38.9" fill="#f97316"/>
+    <rect x="60" y="205.9" width="52" height="38.8" fill="#fbbf24"/>
+    <rect x="60" y="244.7" width="52" height="38.8" fill="#a3e635"/>
+    <rect x="60" y="283.5" width="52" height="15.6" fill="#5eead4"/>
+    <rect x="60" y="299.1" width="52" height="54.3" fill="#38bdf8"/>
+    <rect x="60" y="353.4" width="52" height="15.5" fill="#2563eb"/>
+    <rect x="60" y="368.9" width="52" height="31.1" fill="#1e3a8a"/>
+    <rect x="60" y="70" width="52" height="330" fill="none" stroke="#0f2942" stroke-width="1.5" rx="4"/>
+  </g>
+
+  <!-- axis labels down the left of the bar -->
+  <g font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="11.5" fill="#0f2942" text-anchor="end">
+    <text x="52" y="93">100&#176;F</text>
+    <text x="52" y="113">95&#176;F</text>
+    <text x="52" y="171">80&#176;F</text>
+    <text x="52" y="210">70&#176;F</text>
+    <text x="52" y="249">60&#176;F</text>
+    <text x="52" y="287">50&#176;F</text>
+    <text x="52" y="357">32&#176;F</text>
+    <text x="52" y="373">28&#176;F</text>
+  </g>
+
+  <!-- HOT / COLD end caps -->
+  <text x="86" y="63" font-family="system-ui,sans-serif" font-size="11" font-weight="700" fill="#7f1d1d" text-anchor="middle">HOT</text>
+  <text x="86" y="416" font-family="system-ui,sans-serif" font-size="11" font-weight="700" fill="#1e3a8a" text-anchor="middle">COLD</text>
+
+  <!-- leader lines + labels -->
+  <g stroke="#94a3b8" stroke-width="1" fill="none">
+    <path d="M112,89 H124 L138,88 H146"/>
+    <path d="M112,138 H124 L138,126 H146"/>
+    <path d="M112,186 H124 L138,164 H146"/>
+    <path d="M112,225 H124 L138,202 H146"/>
+    <path d="M112,264 H124 L138,240 H146"/>
+    <path d="M112,283 H124 L138,278 H146"/>
+    <path d="M112,326 H124 L138,316 H146"/>
+    <path d="M112,361 H124 L138,354 H146"/>
+    <path d="M112,384 H124 L138,392 H146"/>
+  </g>
+
+  <g font-family="system-ui,-apple-system,Segoe UI,sans-serif">
+    <g transform="translate(152,88)">
+      <text x="0" y="0" font-size="13.5" font-weight="700" fill="#7f1d1d">100&#176;F+ (38&#176;C+)</text>
+      <text x="0" y="16" font-size="12.5" fill="#334155">Too hot to fly in the open &#8212; they hide in shade, mulch and crawl spaces</text>
+    </g>
+    <g transform="translate(152,126)">
+      <text x="0" y="0" font-size="13.5" font-weight="700" fill="#dc2626">95&#176;F (35&#176;C)</text>
+      <text x="0" y="16" font-size="12.5" fill="#334155">Heat stress begins &#8212; lifespan shortens, egg output falls, dehydration risk</text>
+    </g>
+    <g transform="translate(152,164)">
+      <text x="0" y="0" font-size="13.5" font-weight="700" fill="#c2410c">80&#8211;95&#176;F (27&#8211;35&#176;C)</text>
+      <text x="0" y="16" font-size="12.5" fill="#334155">Peak biting and fastest larval growth &#8212; the worst band for a homeowner</text>
+    </g>
+    <g transform="translate(152,202)">
+      <text x="0" y="0" font-size="13.5" font-weight="700" fill="#b45309">70&#8211;80&#176;F (21&#8211;27&#176;C)</text>
+      <text x="0" y="16" font-size="12.5" fill="#334155">The preferred range &#8212; also the temperature of an air-conditioned house</text>
+    </g>
+    <g transform="translate(152,240)">
+      <text x="0" y="0" font-size="13.5" font-weight="700" fill="#4d7c0f">60&#8211;70&#176;F (15&#8211;21&#176;C)</text>
+      <text x="0" y="16" font-size="12.5" fill="#334155">Slowing &#8212; clumsy flight, biting pressure drops noticeably</text>
+    </g>
+    <g transform="translate(152,278)">
+      <text x="0" y="0" font-size="13.5" font-weight="700" fill="#0f766e">50&#176;F (10&#176;C)</text>
+      <text x="0" y="16" font-size="12.5" fill="#334155">The switch &#8212; below this they stop flying, host-seeking and feeding</text>
+    </g>
+    <g transform="translate(152,316)">
+      <text x="0" y="0" font-size="13.5" font-weight="700" fill="#0369a1">~46&#8211;53&#176;F (8&#8211;12&#176;C)</text>
+      <text x="0" y="16" font-size="12.5" fill="#334155">Larvae stop developing and start dying &#8212; long before the water freezes</text>
+    </g>
+    <g transform="translate(152,354)">
+      <text x="0" y="0" font-size="13.5" font-weight="700" fill="#2563eb">32&#176;F (0&#176;C)</text>
+      <text x="0" y="16" font-size="12.5" fill="#334155">Light frost stuns exposed adults &#8212; many recover when it warms back up</text>
+    </g>
+    <g transform="translate(152,392)">
+      <text x="0" y="0" font-size="13.5" font-weight="700" fill="#1e3a8a">28&#176;F (-2&#176;C), held for hours</text>
+      <text x="0" y="16" font-size="12.5" fill="#334155">Hard freeze kills active adults &#8212; eggs and hibernating females survive it</text>
+    </g>
+  </g>
+
+  <line x1="24" y1="428" x2="696" y2="428" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="24" y="447" font-family="system-ui,sans-serif" font-size="11.5" fill="#5a6b7c">A hard freeze ends the flying season. It does not end the population &#8212; eggs and diapausing females restart it in spring.</text>
+  <text x="24" y="462" font-family="system-ui,sans-serif" font-size="11" fill="#94a3b8">Thresholds vary a few degrees by species. Sources: CDC, EPA, AMCA, NOAA/National Weather Service. Diagram: BuzzSkito.</text>
+</svg>
