@@ -18,9 +18,9 @@ const UPDATED = '2026-07-30'
 // instars, what it is not (carpet beetle larva, booklouse, roach nymph), and the one
 // conclusion that matters — nymphs mean eggs were laid here. The inspection routine
 // lives on how-to-check-for-bed-bugs-canada; the egg-killing protocol lives on
-// how-to-kill-bed-bug-eggs-canada; the full treatment plan on the hub. SERP title 40 chars.
-const TITLE = 'Baby Bed Bugs in Canada — What Nymphs Look Like at Each Stage, and Why Finding One Changes the Plan'
-const META_TITLE = 'Baby Bed Bugs Canada: 1–4.5 mm, 5 Moults'
+// how-to-kill-bed-bug-eggs-canada; the full treatment plan on the hub. SERP title 47 chars (59 rendered).
+const TITLE = 'What Baby Bed Bugs Look Like at Every Stage — and Why Finding One Means Eggs Were Laid in Your Home'
+const META_TITLE = 'What Baby Bed Bugs Look Like: 5 Stages, 1–4.5mm'
 
 const FAQS = [
   {
@@ -75,7 +75,7 @@ const FAQS = [
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'Baby bed bugs (nymphs) are 1–4.5 mm, translucent, and moult five times. How to tell them from carpet beetle larvae and booklice — and why finding one matters.',
+  description: 'Baby bed bugs are 1–4.5 mm, flat and translucent with a red centre once fed. Size and colour at all five stages, the look-alikes, and what finding one proves.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,

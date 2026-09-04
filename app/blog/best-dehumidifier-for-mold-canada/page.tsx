@@ -15,8 +15,8 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 const SLUG = 'best-dehumidifier-for-mold-canada'
 const DATE = '2026-07-21'
 const UPDATED = '2026-07-21'
-const TITLE = 'Best Dehumidifier for Mold Canada 2026 — Stop Mould by Controlling Humidity'
-const META_TITLE = 'Best Dehumidifier for Mold Canada 2026'
+const TITLE = 'Best Dehumidifier for Mold in Canada — Stop Mould by Holding Humidity Under 60%'
+const META_TITLE = 'Best Dehumidifier for Mold Canada: The 60% Rule'
 
 const FAQS = [
   {
@@ -71,7 +71,7 @@ const FAQS = [
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'The best dehumidifiers for mould control in Canada: why humidity below 60% starves mould, why a hygrostat and continuous drainage matter, how to size the unit, and our Frigidaire and Midea picks. Updated 2026.',
+  description: 'Mould needs humidity above 60% to grow. How to size a dehumidifier for a damp Canadian basement, why a hygrostat and continuous drain matter, plus our picks.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,

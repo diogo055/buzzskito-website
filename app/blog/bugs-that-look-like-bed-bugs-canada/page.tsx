@@ -20,8 +20,8 @@ const UPDATED = '2026-07-30'
 // how-to-get-rid-of-bed-bugs-canada, the inspection walk-through on
 // how-to-check-for-bed-bugs-canada, and the tick comparison on tick-vs-bed-bug.
 // Structural sibling of /blog/bugs-that-look-like-ticks.
-const TITLE = 'Bugs That Look Like Bed Bugs in Canada — The Nine Look-Alikes, and How to Tell Which One You Have'
-const META_TITLE = 'Bugs That Look Like Bed Bugs: Canada ID Guide'
+const TITLE = 'The 9 Bugs That Look Like Bed Bugs in Canada — and How to Tell Which One You Have'
+const META_TITLE = '9 Bugs That Look Like Bed Bugs: How to Tell'
 
 const FAQS = [
   {
@@ -76,7 +76,7 @@ const FAQS = [
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'Bugs that look like bed bugs in Canada: carpet beetles, booklice, spider beetles, bat bugs and cockroach nymphs — how to tell them apart before you buy.',
+  description: 'Carpet beetles, booklice, spider beetles, bat bugs, fleas and cockroach nymphs all get mistaken for bed bugs. The features that settle it, before you spend.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,

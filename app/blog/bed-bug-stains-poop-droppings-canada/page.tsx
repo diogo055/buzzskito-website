@@ -19,8 +19,8 @@ const UPDATED = '2026-07-30'
 // The five-sign inspection protocol (how to search a hotel room, used furniture,
 // a new apartment) stays on how-to-check-for-bed-bugs-canada. This page only does
 // stains and droppings: what they are, the differential, and what to do next.
-const TITLE = 'Bed Bug Stains and Droppings — What Bed Bug Poop Actually Looks Like, and the Five Marks It Gets Confused With'
-const META_TITLE = 'Bed Bug Poop and Stains: How to Tell for Sure'
+const TITLE = 'What Bed Bug Poop and Stains Actually Look Like — and the Five Marks They Get Confused With'
+const META_TITLE = "What Bed Bug Poop Looks Like, and What It Isn't"
 
 const FAQS = [
   {
@@ -71,7 +71,7 @@ const FAQS = [
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'Bed bug poop and stains explained: what the black pen-tip spots are, the damp-swab test that confirms them, and the five marks people confuse them with.',
+  description: 'Bed bug poop dries into clustered pen-tip black dots. The damp-swab test that confirms it, where staining is densest, and five marks it gets confused with.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,

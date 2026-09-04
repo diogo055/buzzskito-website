@@ -64,7 +64,14 @@ const RULES: Array<[RegExp, Cluster]> = [
   // attribution. Every mosquito repellent slug already carries "mosquito", and every
   // tick repellent slug is caught by the tick rule above, so nothing is lost.
   [/mosquito|dynatrap|mosquito-magnet|west-nile|thermacell|permethrin|picaridin|\bdeet\b|insect-repellent|bug-repellent|citronella|screen-door/, 'mosquito'],
-  [/raccoon|deer|electric-fence|fence-charger|fence-for|repeller|yard-enforcer|havahart|zareba|nuisance-wildlife|spray-away|live-animal-trap|live-trap|motion-activated-sprinkler/, 'wildlife'],
+  // `deer` MUST stay anchored with the (?!-fl) lookahead. Unanchored, the bare word
+  // swallowed the deer-FLY pages — deer-flies-horse-flies-ontario and
+  // horse-fly-and-deer-fly-bite-treatment — into the wildlife tag before the flies rule
+  // below ever ran. Measured 2026-09-03: that was 11,344 of the wildlife tag's 14,425
+  // Canadian impressions (70%), billing fly-identification traffic that sells no raccoon
+  // or sprinkler product against the wildlife tracking ID, and starving the flies tag of
+  // its own attribution. Both clusters' $/click were wrong as a result.
+  [/raccoon|deer(?!-fl)|electric-fence|fence-charger|fence-for|repeller|yard-enforcer|havahart|zareba|nuisance-wildlife|spray-away|live-animal-trap|live-trap|motion-activated-sprinkler/, 'wildlife'],
   [/mouse|mice|\brat\b|rat-|rats\b|rodent|attic|\brv\b|rv-|vole|chipmunk|\bmole|squirrel|gopher|exclusion|goodnature|\ba24\b|rat-zapper/, 'rodent'],
   // NOTE: `h-trap` (the H-Trap horse-fly trap) MUST stay anchored with \b — unanchored
   // it swallows any slug ending in "h" before "-trap", e.g. silverfis|h-trap|s and

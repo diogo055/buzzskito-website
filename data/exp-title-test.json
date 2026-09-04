@@ -118,5 +118,97 @@
    "baselinePos": 6.9,
    "newRenderedTitle": "Mouse Poop: 3-6 mm, Pointed — Fresh or Old? | BuzzSkito"
   }
- ]
+ ],
+ "wave2": {
+  "created": "2026-09-03",
+  "measureOn": "2026-10-15",
+  "basis": "Targeted by MEASURED cluster earnings from the Amazon Tracking-ID report, not by traffic. bedbug $0.784/blog click, dehumidifier $2.403, vs mosquito $0.164.",
+  "stopRule": "Same as wave 1: if Canadian CTR does not lift >=25% relative at six weeks, revert.",
+  "pages": [
+   {
+    "slug": "baby-bed-bugs-nymphs",
+    "baselineCaImpr": null,
+    "baselineCtr": null,
+    "cluster": null
+   },
+   {
+    "slug": "bed-bug-interceptor-traps-canada",
+    "baselineCaImpr": 572,
+    "baselineCtr": 0.7,
+    "cluster": "bedbug"
+   },
+   {
+    "slug": "bed-bug-shells-casings-shed-skins-canada",
+    "baselineCaImpr": 1053,
+    "baselineCtr": 0.19,
+    "cluster": "bedbug"
+   },
+   {
+    "slug": "bed-bug-stains-poop-droppings-canada",
+    "baselineCaImpr": 899,
+    "baselineCtr": 0.56,
+    "cluster": "bedbug"
+   },
+   {
+    "slug": "bed-bug-treatment-cost-canada",
+    "baselineCaImpr": 384,
+    "baselineCtr": 0,
+    "cluster": "bedbug"
+   },
+   {
+    "slug": "best-bed-bug-fogger-canada",
+    "baselineCaImpr": 309,
+    "baselineCtr": 0.97,
+    "cluster": "bedbug"
+   },
+   {
+    "slug": "best-bed-bug-spray-for-mattress-canada",
+    "baselineCaImpr": 961,
+    "baselineCtr": 0.31,
+    "cluster": "bedbug"
+   },
+   {
+    "slug": "best-dehumidifier-for-mold-canada",
+    "baselineCaImpr": 490,
+    "baselineCtr": 1.02,
+    "cluster": "dehumidifier"
+   },
+   {
+    "slug": "best-mouse-trap-canada",
+    "baselineCaImpr": 394,
+    "baselineCtr": 0.76,
+    "cluster": "rodent"
+   },
+   {
+    "slug": "best-natural-bed-bug-spray-canada",
+    "baselineCaImpr": 468,
+    "baselineCtr": 1.07,
+    "cluster": "bedbug"
+   },
+   {
+    "slug": "best-rodent-repellent-for-cars-canada",
+    "baselineCaImpr": 746,
+    "baselineCtr": 0.67,
+    "cluster": "rodent"
+   },
+   {
+    "slug": "bugs-that-look-like-bed-bugs-canada",
+    "baselineCaImpr": 734,
+    "baselineCtr": 0.82,
+    "cluster": "bedbug"
+   },
+   {
+    "slug": "tick-vs-bed-bug",
+    "baselineCaImpr": 923,
+    "baselineCtr": 0.22,
+    "cluster": "bedbug"
+   },
+   {
+    "slug": "what-kills-bed-bugs-instantly-canada",
+    "baselineCaImpr": 1015,
+    "baselineCtr": 0,
+    "cluster": "bedbug"
+   }
+  ]
+ }
 }

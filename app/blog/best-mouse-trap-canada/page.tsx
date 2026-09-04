@@ -15,8 +15,8 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 const SLUG = 'best-mouse-trap-canada'
 const DATE = '2026-07-16'
 const UPDATED = '2026-07-16'
-const TITLE = 'Best Mouse Trap Canada 2026 — Snap vs Electronic vs Catch-and-Release'
-const META_TITLE = 'Best Mouse Trap Canada 2026: Snap vs Electronic'
+const TITLE = 'Best Mouse Traps in Canada — Snap, Electronic, and Catch-and-Release Picks'
+const META_TITLE = 'Best Mouse Trap Canada: Victor M325 + 2 Picks'
 
 const FAQS = [
   {
@@ -71,7 +71,7 @@ const FAQS = [
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'Snap vs electronic vs catch-and-release vs glue mouse traps compared for Canadian homes. Top picks (Victor M325, M250S, Motel Mouse), placement science, and why traps beat poison under Canadian rodenticide rules. Updated 2026.',
+  description: 'Which mouse trap actually works in Canadian homes: our top snap, electronic, and catch-and-release picks, where to place them, and why traps beat poison here.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,

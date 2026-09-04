@@ -14,8 +14,8 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 const SLUG = 'bed-bug-interceptor-traps-canada'
 const DATE = '2026-07-16'
 const UPDATED = '2026-07-16'
-const TITLE = 'Bed Bug Interceptor Traps Canada 2026 — Detect Before You Spray'
-const META_TITLE = 'Bed Bug Interceptor Traps Canada: 14-Night Test'
+const TITLE = 'Bed Bug Interceptor Traps Canada — Which Cup to Buy and How to Read It'
+const META_TITLE = 'Bed Bug Interceptors Canada: Which Cup to Buy'
 
 const FAQS = [
   {
@@ -70,7 +70,7 @@ const FAQS = [
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'Bed bug interceptor traps for Canadian homes: how ClimbUp cups exploit bed bug climbing physiology, the 14-night monitoring protocol, how to read inner vs outer well catches, and why detection should always come before sprays. Independent research, updated 2026.',
+  description: 'Which bed bug interceptor to buy in Canada: ClimbUp vs generic cups, sizing by bed-leg width, how many you need, and how to read inner vs outer well catches.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,

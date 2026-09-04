@@ -19,8 +19,8 @@ const UPDATED = '2026-07-30'
 // the DIY-vs-pro line, Ontario tenancy, and how to read a quote. All third-party
 // service ranges are attributed inline. NO product prices anywhere — see the
 // "why there is no price beside the buy button" block.
-const TITLE = 'Bed Bug Treatment Cost in Canada — What Decides the Number, and When DIY Is Genuinely Cheaper'
-const META_TITLE = 'Bed Bug Treatment Cost Canada: DIY vs Pro'
+const TITLE = 'Bed Bug Treatment Cost in Canada — The Published Ranges, What Moves Your Number, and When DIY Is Cheaper'
+const META_TITLE = 'Bed Bug Treatment Cost Canada: $300–$3,000+'
 
 const FAQS = [
   {
@@ -71,7 +71,7 @@ const FAQS = [
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'Bed bug treatment cost in Canada: published heat and chemical ranges with sources, why quotes vary, who pays in an Ontario rental, when DIY is cheaper.',
+  description: 'Chemical bed bug treatment runs $300–$900 per room, heat $1,000–$3,000 whole home. Published Canadian ranges, sourced — plus who pays if you rent in Ontario.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,

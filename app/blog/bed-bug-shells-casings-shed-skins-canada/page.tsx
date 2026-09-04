@@ -18,8 +18,8 @@ const UPDATED = '2026-07-30'
 // found a translucent husk and wants to know what it is and what it proves. The
 // inspection protocol lives on how-to-check-for-bed-bugs-canada and the treatment
 // protocol on how-to-get-rid-of-bed-bugs-canada — do not restate either here.
-const TITLE = 'Bed Bug Shells, Casings and Shed Skins — What You Found, and What It Actually Proves'
-const META_TITLE = 'Bed Bug Shells and Shed Skins: What It Means'
+const TITLE = 'Bed Bug Shells, Casings and Shed Skins — What You Found, and Whether It Is Still Active'
+const META_TITLE = 'Bed Bug Shells and Shed Skins: Active or Old?'
 
 const FAQS = [
   {
@@ -70,7 +70,7 @@ const FAQS = [
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'Bed bug shells are moulted skins, not dead bugs. What a casing proves about feeding and breeding, how to tell one from a carpet beetle skin, what to do.',
+  description: 'Bed bug shells are moulted skins — proof a bug fed there and grew. How to tell them from hairy carpet beetle skins, plus the two-week test for active or old.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,

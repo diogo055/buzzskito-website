@@ -1,0 +1,146 @@
+[
+ {
+  "s": "baby-bed-bugs-nymphs-canada",
+  "c": "bedbug",
+  "i": 2309,
+  "cl": 2,
+  "ctr": 0.08661758336942399,
+  "pos": 7.39,
+  "upside": 43.6884
+ },
+ {
+  "s": "what-kills-bed-bugs-instantly-canada",
+  "c": "bedbug",
+  "i": 1015,
+  "cl": 0,
+  "ctr": 0,
+  "pos": 12.04,
+  "upside": 19.894000000000002
+ },
+ {
+  "s": "bed-bug-shells-casings-shed-skins-canada",
+  "c": "bedbug",
+  "i": 1053,
+  "cl": 2,
+  "ctr": 0.1899335232668566,
+  "pos": 8.46,
+  "upside": 19.070800000000002
+ },
+ {
+  "s": "best-dehumidifier-for-mold-canada",
+  "c": "dehumidifier",
+  "i": 490,
+  "cl": 5,
+  "ctr": 1.0204081632653061,
+  "pos": 8.04,
+  "upside": 17.42175
+ },
+ {
+  "s": "tick-vs-bed-bug",
+  "c": "bedbug",
+  "i": 923,
+  "cl": 2,
+  "ctr": 0.21668472372697725,
+  "pos": 8.58,
+  "upside": 16.522800000000004
+ },
+ {
+  "s": "best-bed-bug-spray-for-mattress-canada",
+  "c": "bedbug",
+  "i": 961,
+  "cl": 3,
+  "ctr": 0.31217481789802287,
+  "pos": 10.01,
+  "upside": 16.483600000000003
+ },
+ {
+  "s": "bed-bug-stains-poop-droppings-canada",
+  "c": "bedbug",
+  "i": 899,
+  "cl": 5,
+  "ctr": 0.5561735261401557,
+  "pos": 9.34,
+  "upside": 13.700400000000002
+ },
+ {
+  "s": "bugs-that-look-like-bed-bugs-canada",
+  "c": "bedbug",
+  "i": 734,
+  "cl": 6,
+  "ctr": 0.8174386920980926,
+  "pos": 8.15,
+  "upside": 9.682400000000001
+ },
+ {
+  "s": "bed-bug-interceptor-traps-canada",
+  "c": "bedbug",
+  "i": 572,
+  "cl": 4,
+  "ctr": 0.6993006993006993,
+  "pos": 10.59,
+  "upside": 8.0752
+ },
+ {
+  "s": "bed-bug-treatment-cost-canada",
+  "c": "bedbug",
+  "i": 384,
+  "cl": 0,
+  "ctr": 0,
+  "pos": 12.56,
+  "upside": 7.5264000000000015
+ },
+ {
+  "s": "best-natural-bed-bug-spray-canada",
+  "c": "bedbug",
+  "i": 468,
+  "cl": 5,
+  "ctr": 1.0683760683760684,
+  "pos": 6.89,
+  "upside": 5.2528000000000015
+ },
+ {
+  "s": "best-rat-trap-canada",
+  "c": "rodent",
+  "i": 2069,
+  "cl": 17,
+  "ctr": 0.8216529724504592,
+  "pos": 9.91,
+  "upside": 4.5142500000000005
+ },
+ {
+  "s": "best-bed-bug-fogger-canada",
+  "c": "bedbug",
+  "i": 309,
+  "cl": 3,
+  "ctr": 0.970873786407767,
+  "pos": 8.9,
+  "upside": 3.7044000000000006
+ },
+ {
+  "s": "best-rodent-repellent-for-cars-canada",
+  "c": "rodent",
+  "i": 746,
+  "cl": 5,
+  "ctr": 0.6702412868632708,
+  "pos": 8.81,
+  "upside": 1.7745000000000004
+ },
+ {
+  "s": "best-mouse-trap-canada",
+  "c": "rodent",
+  "i": 394,
+  "cl": 3,
+  "ctr": 0.7614213197969543,
+  "pos": 11.12,
+  "upside": 0.8905000000000002
+ },
+ {
+  "s": "best-roach-traps-canada",
+  "c": "roach",
+  "i": 336,
+  "cl": 4,
+  "ctr": 1.1904761904761905,
+  "pos": 11.02,
+  "upside": 0.7524000000000001
+ }
+]

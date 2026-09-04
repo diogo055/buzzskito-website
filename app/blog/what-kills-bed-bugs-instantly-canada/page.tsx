@@ -19,8 +19,8 @@ const UPDATED = '2026-07-30'
 // not a protocol (how-to-get-rid-of-bed-bugs-canada). This page answers exactly
 // one question — what kills a bed bug in seconds — and then explains honestly why
 // speed is the wrong thing to optimise for.
-const TITLE = 'What Kills Bed Bugs Instantly in Canada — The Short List That Works on Contact, and Why Instant Is the Wrong Goal'
-const META_TITLE = 'What Kills Bed Bugs Instantly? Canada Guide'
+const TITLE = 'What Kills Bed Bugs Instantly — and What Doesn’t: The Three Things That Work on Contact, and Why Instant Alone Never Ends It'
+const META_TITLE = 'What Kills Bed Bugs Instantly — and What Doesn’t'
 
 const FAQS = [
   {
@@ -75,7 +75,7 @@ const FAQS = [
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'What kills bed bugs instantly in Canada: steam, direct heat and a registered contact spray — plus why alcohol is a fire risk and foggers never reach them.',
+  description: 'Three things kill a bed bug on contact — steam, direct heat, a registered spray. Why alcohol is a fire risk, foggers miss, and slow dust is what finishes it.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,

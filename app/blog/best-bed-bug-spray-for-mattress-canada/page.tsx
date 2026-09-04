@@ -14,8 +14,8 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 const SLUG = 'best-bed-bug-spray-for-mattress-canada'
 const DATE = '2026-07-21'
 const UPDATED = '2026-07-21'
-const TITLE = 'Best Bed Bug Spray for a Mattress in Canada 2026 — Mattress-Safe, PMRA-Registered Picks'
-const META_TITLE = 'Best Bed Bug Spray for Mattress Canada 2026'
+const TITLE = 'Best Bed Bug Spray for a Mattress in Canada — Mattress-Safe Picks and the Label Rule'
+const META_TITLE = 'Best Mattress-Safe Bed Bug Spray in Canada'
 
 const FAQS = [
   {
@@ -110,7 +110,7 @@ const FAQS = [
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'The best mattress-safe bed bug sprays in Canada for 2026: why the PMRA registration number and a mattress-approved label matter, contact-kill vs residual, how to spray a mattress properly, and our EcoRaider, Doktor Doom Sleep Tight, and budget picks.',
+  description: 'Only some bed bug sprays are label-approved for the mattress you sleep on. Our Canadian mattress-safe picks, why the PMRA number matters, and how to spray.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,

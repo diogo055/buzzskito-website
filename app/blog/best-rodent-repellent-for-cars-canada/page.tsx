@@ -14,8 +14,8 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 const SLUG = 'best-rodent-repellent-for-cars-canada'
 const DATE = '2026-07-21'
 const UPDATED = '2026-07-21'
-const TITLE = 'Best Rodent Repellent for Cars Canada 2026 — Tape vs Strobe vs Peppermint'
-const META_TITLE = 'Best Rodent Repellent for Cars Canada: 4 Ways'
+const TITLE = 'Best Rodent Repellent for Cars in Canada — Tape vs Strobe vs Peppermint vs Traps'
+const META_TITLE = 'Best Car Rodent Repellent Canada: Tape vs Strobe'
 
 const FAQS = [
   {
@@ -74,7 +74,7 @@ const FAQS = [
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'The best rodent repellents for cars in Canada 2026: capsaicin deterrent tape vs under-hood strobe units vs peppermint pouches vs perimeter snap traps — honest evidence ratings, a winter-storage protocol, and what needs a PMRA number.',
+  description: 'Which rodent repellent actually protects a car in Canada: capsaicin deterrent tape vs under-hood strobes vs peppermint vs perimeter traps, plus a storage plan.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,

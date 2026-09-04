@@ -15,8 +15,8 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 const SLUG = 'best-natural-bed-bug-spray-canada'
 const DATE = '2026-07-21'
 const UPDATED = '2026-07-21'
-const TITLE = 'Best Natural Bed Bug Spray Canada 2026 — Plant-Based, Non-Toxic & PMRA-Legal Picks'
-const META_TITLE = 'Natural Bed Bug Spray Canada 2026: EcoRaider'
+const TITLE = 'Best Natural Bed Bug Spray Canada — Plant-Based, Low-Toxicity Picks and the PMRA Check'
+const META_TITLE = 'Best Natural Bed Bug Spray Canada: 4 Compared'
 
 const FAQS = [
   {
@@ -71,7 +71,7 @@ const FAQS = [
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'The best natural, plant-based bed bug sprays in Canada for 2026: EcoRaider vs Proof vs Doktor Doom, why PMRA registration matters, how contact sprays really work, and the spray-plus-heat-plus-encasement plan they belong in. Updated 2026.',
+  description: 'Plant-based bed bug sprays for Canadian bedrooms: EcoRaider, Proof and Doktor Doom compared, why PMRA registration matters, and what no contact spray can do.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,

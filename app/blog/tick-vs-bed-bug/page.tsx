@@ -15,7 +15,7 @@ const SLUG = 'tick-vs-bed-bug'
 const DATE = '2026-07-09'
 const UPDATED = '2026-09-02'
 const TITLE = 'Tick vs Bed Bug: How to Tell Them Apart (ID Chart)'
-const META_TITLE = 'Tick vs Bed Bug: 8 Legs vs 6, ID Chart'
+const META_TITLE = 'Tick vs Bed Bug: Count the Legs (ID Chart)'
 
 const FAQS = [
   {
@@ -90,7 +90,7 @@ const FAQS = [
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'Count the legs: ticks have 8, bed bugs have 6. Ticks attach for days outdoors; bed bugs feed 5–10 minutes and hide indoors. Full comparison chart, bite differences, and what to do about each.',
+  description: 'A tick attaches to skin for days; a bed bug feeds in minutes and hides in the mattress. Side-by-side ID chart, bite patterns, plus a flea and lice check.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,

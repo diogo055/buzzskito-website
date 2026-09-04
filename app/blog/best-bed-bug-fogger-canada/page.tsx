@@ -14,8 +14,8 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 const SLUG = 'best-bed-bug-fogger-canada'
 const DATE = '2026-07-21'
 const UPDATED = '2026-07-21'
-const TITLE = 'Best Bed Bug Fogger Canada 2026 — PMRA-Registered Total-Release Options (and Their Limits)'
-const META_TITLE = 'Best Bed Bug Fogger Canada 2026 + Honest Limits'
+const TITLE = 'Best Bed Bug Fogger in Canada — PMRA-Registered Picks, and Whether Foggers Actually Work'
+const META_TITLE = 'Best Bed Bug Fogger Canada: Do They Work?'
 
 const FAQS = [
   {
@@ -70,7 +70,7 @@ const FAQS = [
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'An honest Canadian guide to bed bug foggers and bug bombs: which total-release products are PMRA-registered, why foggers barely dent a bed-bug infestation, the resistance and reach problems, safety rules, and the heat-plus-residual plan that actually works. Updated 2026.',
+  description: 'The PMRA-registered foggers sold in Canada, why a fog never reaches bed bugs hiding in seams and cracks, and the heat-and-residual plan that works instead.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
