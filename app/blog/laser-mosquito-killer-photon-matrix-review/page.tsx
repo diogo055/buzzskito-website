@@ -12,7 +12,7 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'laser-mosquito-killer-photon-matrix-review'
 const DATE = '2026-07-12'
-const UPDATED = '2026-09-02'
+const UPDATED = '2026-09-04'
 const TITLE = 'Laser Mosquito Killer 2026 — Is the Photon Matrix Real? (Honest Review)'
 const META_TITLE = 'Laser Mosquito Killer: Is Photon Matrix Real?'
 
@@ -84,6 +84,38 @@ const FAQS = [
   {
     question: 'What is the best mosquito killer for a US backyard right now?',
     answer: 'There is no single product — there is a stack, and in the US the first step is free. Roughly 400 to 500 organised mosquito abatement and vector control districts operate across the country, plus 1,000 to 2,000 smaller health-department and municipal programmes, and many will larvicide standing water and inspect a property at no charge; find yours through the American Mosquito Control Association (mosquito.org) or your county health department. After that: BTI in every bit of standing water, a propane CO₂ trap or a licensed barrier treatment for adults, and a repellent zone on the patio. Your state land-grant extension entomology service is the right place to check any device claim before you buy. A laser is none of these things.',
+  },
+  {
+    question: 'Is the Photon Matrix a scam, or is it legit?',
+    answer: 'The manufacturer is real and the product is now in production, so "scam" is the wrong word for the company — but the scam risk around it is genuine and it sits in the storefronts. Photon Matrix Lab Limited (Changzhou and Gusu District, Suzhou, Jiangsu, China) raised roughly USD $2.7 million from more than 4,000 backers in 50 countries on Indiegogo against a $20,000 goal, CGTN reported mass production beginning on August 16, 2026, and shipments started that month. The company itself published an anti-counterfeit notice on August 9, 2026 stating that no genuine units had shipped as of that date and warning that fraudulent sites were selling the device using AI-generated copy and stolen product images; it names store.photonmatrixlab.com as its only official sales channel. So three separate answers: the company is not fake, many of the storefronts are, and the performance claims are still unproven by any independent lab. We do not think buyers are being defrauded by the manufacturer, and we still would not buy one.',
+  },
+  {
+    question: 'Has the Photon Matrix actually started shipping yet?',
+    answer: 'Yes, as of August 2026. CGTN reported on August 16, 2026 that mass production had begun, and first shipments to campaign backers started that month. This is the fact that most reporting on the device is stale about: NPR reported on June 7, 2026 that units were not yet shipping and not yet in production, and the company\'s own anti-counterfeit notice of August 9, 2026 confirmed no genuine units had shipped as of that date. Everything changed in the second half of August. Pre-orders placed now at the manufacturer\'s store carry a quoted 120-day shipping estimate, and delivery on the original campaign had already slipped from early summer to August, so treat any promised date as an estimate and get it in writing.',
+  },
+  {
+    question: 'What are the Photon Matrix complaints, and what do backers actually report?',
+    answer: 'The substantive complaints on record are about fulfilment and support rather than fraud. The Register reported on August 17, 2026 that refund requests were going unanswered, that refunds are available only up until an order ships, that delivery had slipped from early summer to August, and that backers asking whether the lasers could interfere with aircraft had not received an answer. What does not yet exist is a body of independent long-term owner reviews: shipments only began in August 2026, so almost nobody has run a unit through a full season, and most pages presenting themselves as reviews of this device are rewrites of the manufacturer\'s press material. A campaign that overshot its goal roughly 135-fold was always going to have a support backlog, which explains the pattern without excusing an unanswered safety question from a paying customer.',
+  },
+  {
+    question: 'Can you get a refund on a Photon Matrix order?',
+    answer: 'Only before it ships. Per The Register (August 17, 2026), the refund window closes at dispatch, and backers reported requests going unanswered inside that window. A 120-day shipping estimate is not 120 days of refund eligibility — the clock is controlled by the seller\'s dispatch schedule, not by the buyer. Three practical steps follow: send any refund request in writing early and keep the timestamp; pay with a card that gives you a chargeback path, because a card dispute is a separate remedy that survives an unanswered email while a bank transfer or crypto payment is not; and price the return, not just the purchase, because warranty service and returns run to China and a 12-month warranty is worth what the return shipping costs.',
+  },
+  {
+    question: 'Where do you buy a Photon Matrix, and how do you spot a fake store?',
+    answer: 'The manufacturer sells direct at store.photonmatrixlab.com and names it as its only official channel; the device is not stocked at any US or Canadian retailer and is not on Amazon.ca. The company maintains a scam-warning page because lookalike storefronts are the main way people lose money on this product. Checks that take about ninety seconds: compare the domain character by character against the official one, because counterfeits work through hyphens, extra words and swapped top-level domains; treat a price well under the roughly $988 indoor / $1,088 outdoor USD figures as a warning rather than a deal, since there is no legitimate discount channel; distrust any "in stock, ships in 2 to 3 days" claim, which contradicts the manufacturer\'s own 120-day estimate; confirm the seller publishes a company name and registered address; reverse-image-search the product photos, since stolen manufacturer imagery is the specific failure mode the company warned about; and pay with a method that has a chargeback path.',
+  },
+  {
+    question: 'What laser class is the Photon Matrix — has one finally been published?',
+    answer: 'A figure has now been reported, though not on a label we can find. Intelligent Living reports the device as Class 4, citing EN 60825-1, the European harmonised version of the IEC 60825-1 laser-safety standard and the counterpart to the ANSI Z136.1 scheme. If correct, that confirms rather than overturns the inference this page drew from the published wattage: 40-watt pulses sit eighty times above the 500 mW boundary separating Class 3B from Class 4. Class 4 is the highest and most hazardous class — the tier where the direct beam and even a diffuse reflection off a wall or patio table can be an eye hazard, and where a workplace is expected to control access and provide eye protection. Two cautions: a class reported in an article is not a class printed on the label or filed with the FDA\'s CDRH, and Class 4 is not by itself a scandal, since many legitimate industrial and medical lasers are Class 4 and are operated safely by trained people in controlled rooms. The narrower objection stands: a Class 4 device left running unattended on a patio or in a bedroom, near children, pets and reflective surfaces, on the strength of an untested software interlock, is an unusual deployment. EN 60825-1 is also a European standard — it is not Health Canada authorisation, CSA certification, or ISED authorisation for the millimetre-wave radar.',
+  },
+  {
+    question: 'How does the Photon Matrix compare with the Bzigo IRIS on price?',
+    answer: 'The shipping Bzigo product is the Bzigo IRIS at roughly USD $299, a little under a third of the Photon Matrix indoor unit at about $988. The gap buys a different promise, not a worse version of the same one: IRIS watches a room, locates the mosquito, and marks where it landed with a low-power pointer, leaving the kill to you. It never fires a killing laser, which is why its safety story is far simpler and why no laser class question hangs over it. It also does not work outdoors and will not clear a yard. If the bedroom rather than the deck is the real problem, an indoor mosquito trap or a UV-and-fan unit costs a fraction of either device and is stocked in Canada today.',
+  },
+  {
+    question: 'Does the Photon Matrix only target mosquitoes, or would it hit pollinators too?',
+    answer: 'The published target window is roughly 2 mm to 20 mm, and the upper end of that is the part most coverage omits. Twenty millimetres is not a mosquito — it is a honeybee, a hoverfly, a small moth, or a bumblebee at the top of the range. The device filters targets by size and speed (a stated minimum of about 2 mm, moving under about 1 metre per second), not by species. By contrast, the 2007 Intellectual Ventures lab system identified insects by wing-beat frequency precisely enough to distinguish species and even sex, so it could engage only biting females. A size-and-speed gate is a much blunter instrument, and that is worth knowing before leaving a unit running unattended beside a pollinator border or a flowering hedge.',
   },
   {
     question: 'Who invented the mosquito laser, and why did the original never ship?',
@@ -198,6 +230,12 @@ export default function LaserMosquitoKillerPhotonMatrixPage() {
               </table>
             </div>
           </div>
+          <div className="mt-4 rounded-xl border-2 border-sky-300 bg-sky-50 p-4">
+            <p className="text-xs font-extrabold uppercase tracking-wider text-sky-800 mb-1">Row 1 has since been superseded &mdash; current status, September 2026</p>
+            <p className="text-sm text-gray-800 leading-relaxed">
+              The Photon Matrix row above was written in July 2026, when the device was a pre-order, and it is kept exactly as published. <strong>Current status:</strong> it is on sale direct from the manufacturer at <strong>store.photonmatrixlab.com</strong> &mdash; the only channel the company recognises as its own &mdash; at roughly <strong>USD $988 indoor / $1,088 outdoor</strong> (Tom&rsquo;s Hardware, Fox Business), and CGTN reported on <strong>August 16, 2026</strong> that mass production had begun. What has <em>not</em> changed: no Canadian retail listing, no Canadian price, no Canadian warranty depot, and a quoted <strong>120-day</strong> shipping estimate on pre-orders. The dated timeline, the refund terms, and the counterfeit-storefront problem are in the section immediately below.
+            </p>
+          </div>
           <p className="text-xs text-gray-500 mt-3">
             Laser-device figures are crowdfunding pledge estimates converted to CAD before shipping, duty, and campaign risk &mdash; not confirmed Canadian retail prices. Retail device prices accurate as of July 2026 and vary by model and season.
           </p>
@@ -272,6 +310,100 @@ export default function LaserMosquitoKillerPhotonMatrixPage() {
         </div>
       </section>
 
+      <section className="bg-white border-b-4 border-rose-300 py-10 px-4">
+        <div className="max-w-4xl mx-auto">
+          <p className="text-xs font-extrabold text-rose-700 uppercase tracking-wider mb-2">Update · Production, Refunds &amp; Counterfeit Storefronts</p>
+          <h2 className="text-2xl font-extrabold text-brand-900 mb-3">It Is Now In Production &mdash; and That Created Three New Problems</h2>
+          <p className="text-sm text-gray-700 mb-4 leading-relaxed">
+            Between June and September 2026 this stopped being a &ldquo;does it exist&rdquo; question and turned into a &ldquo;did my money buy anything&rdquo; question. Three things happened in close succession: production actually started, backers who had been waiting since the campaign began asking publicly about refunds, and a crop of fake storefronts appeared selling a device that had not shipped to anyone yet. The order of those events matters more than any single headline, so here is the dated sequence with the source attached to each line.
+          </p>
+          <div className="rounded-xl border border-navy-100 overflow-x-auto bg-white shadow-sm">
+            <table className="min-w-[680px] w-full text-sm">
+              <thead className="bg-brand-800 text-white">
+                <tr>
+                  <th className="px-4 py-3 text-left">Date</th>
+                  <th className="px-4 py-3 text-left">What happened</th>
+                  <th className="px-4 py-3 text-left">Reported by</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-b border-navy-50">
+                  <td className="px-4 py-3 font-mono text-gray-800 whitespace-nowrap">2025&ndash;2026</td>
+                  <td className="px-4 py-3 text-gray-700">Indiegogo campaign raises roughly <strong>USD $2.7 million from 4,000+ backers across 50 countries</strong> against a stated goal of $20,000 &mdash; about <strong>135&times; oversubscribed</strong>. Delivery is indicated for early summer 2026.</td>
+                  <td className="px-4 py-3 text-xs text-gray-600">Campaign figures via press coverage</td>
+                </tr>
+                <tr className="border-b border-navy-50">
+                  <td className="px-4 py-3 font-mono text-gray-800 whitespace-nowrap">Jun 7, 2026</td>
+                  <td className="px-4 py-3 text-gray-700">Units reported as <strong>not yet shipping and not yet in production</strong>; price quoted near USD $638.</td>
+                  <td className="px-4 py-3 text-xs text-gray-600">NPR</td>
+                </tr>
+                <tr className="border-b border-navy-50">
+                  <td className="px-4 py-3 font-mono text-gray-800 whitespace-nowrap">Aug 9, 2026</td>
+                  <td className="px-4 py-3 text-gray-700">The company publishes an <strong>anti-counterfeit notice</strong> stating that <strong>no genuine units had shipped as of that date</strong>, and warns that fraudulent sites are selling the product using AI-generated copy and stolen product images.</td>
+                  <td className="px-4 py-3 text-xs text-gray-600">Photon Matrix Lab notice</td>
+                </tr>
+                <tr className="border-b border-navy-50">
+                  <td className="px-4 py-3 font-mono text-gray-800 whitespace-nowrap">Aug 16, 2026</td>
+                  <td className="px-4 py-3 text-gray-700"><strong>Mass production begins.</strong> This is the single fact most shoppers are checking in 2026, and it is the one our July section could not have.</td>
+                  <td className="px-4 py-3 text-xs text-gray-600">CGTN</td>
+                </tr>
+                <tr className="border-b border-navy-50">
+                  <td className="px-4 py-3 font-mono text-gray-800 whitespace-nowrap">Aug 17, 2026</td>
+                  <td className="px-4 py-3 text-gray-700">Backer complaints reported: <strong>unanswered refund requests</strong>, refunds available <strong>only until an order ships</strong>, delivery slipped from early summer to August, and unanswered backer questions about whether the lasers could interfere with aircraft.</td>
+                  <td className="px-4 py-3 text-xs text-gray-600">The Register</td>
+                </tr>
+                <tr className="border-b border-navy-50">
+                  <td className="px-4 py-3 font-mono text-gray-800 whitespace-nowrap">Aug 2026</td>
+                  <td className="px-4 py-3 text-gray-700"><strong>First shipments begin</strong> to campaign backers.</td>
+                  <td className="px-4 py-3 text-xs text-gray-600">Manufacturer / press coverage</td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-3 font-mono text-gray-800 whitespace-nowrap">Sep 2026</td>
+                  <td className="px-4 py-3 text-gray-700">On general sale at <strong>store.photonmatrixlab.com</strong> at roughly <strong>$988 indoor / $1,088 outdoor USD</strong>, 12-month warranty, free worldwide shipping with <strong>duties and VAT payable by the buyer</strong>, and a <strong>120-day</strong> shipping estimate quoted on pre-orders.</td>
+                  <td className="px-4 py-3 text-xs text-gray-600">Tom&rsquo;s Hardware · Fox Business · official store</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-gray-500 mt-3">
+            Dates and figures as reported by the named outlet or published by the manufacturer. We have not handled a unit, tested one, or bought one &mdash; BuzzSkito is a licensed spray company, not a test lab, and nothing on this page is a product test.
+          </p>
+
+          <div className="mt-6 grid gap-4 md:grid-cols-2">
+            <div className="rounded-xl border border-navy-100 bg-white p-5">
+              <p className="text-sm font-extrabold text-brand-900 mb-2">Who is actually behind it</p>
+              <p className="text-sm text-gray-800 leading-relaxed">The seller is <strong>Photon Matrix Lab Limited</strong>, with addresses given in <strong>Changzhou</strong> and in the <strong>Gusu District of Suzhou, Jiangsu province, China</strong>. That is a normal thing for a hardware company to be and it is not an accusation &mdash; but it is information that appears nowhere in most of the coverage, and it answers a question a lot of buyers are quietly asking. Two practical consequences follow from it: warranty service and returns run to China, and the company had no manufacturing track record before this product.</p>
+            </div>
+            <div className="rounded-xl border border-navy-100 bg-white p-5">
+              <p className="text-sm font-extrabold text-brand-900 mb-2">What 135&times; oversubscribed actually means</p>
+              <p className="text-sm text-gray-800 leading-relaxed">A campaign that asks for $20,000 and receives $2.7 million has not been validated by that result &mdash; it has been handed a manufacturing problem roughly a hundred times larger than the one it planned for. Delivery slipping from early summer to August, and refund requests going unanswered while the team scaled production, are the predictable shape of that gap rather than evidence of bad faith. It is also exactly why the shipping date and the refund window are the two things to pin down in writing before paying.</p>
+            </div>
+          </div>
+
+          <div className="mt-5 rounded-xl bg-rose-50 border-l-4 border-rose-500 p-5">
+            <p className="text-sm font-extrabold text-rose-900 mb-2">The counterfeit-storefront problem &mdash; read this before you type a card number</p>
+            <p className="text-sm text-gray-800 leading-relaxed mb-3">
+              The manufacturer itself maintains a scam-warning page and published an anti-counterfeit notice on <strong>August 9, 2026</strong> stating that <strong>no genuine units had shipped at that point</strong> &mdash; which means every &ldquo;in stock, ships today&rdquo; Photon Matrix listing that existed before mid-August was selling something the factory had not yet made. The notice describes fraudulent sites built with <strong>AI-generated product copy and stolen product images</strong>, and the company names <strong>store.photonmatrixlab.com</strong> as its only official sales channel.
+            </p>
+            <p className="text-sm text-gray-800 leading-relaxed mb-2"><strong>How to check a storefront in about ninety seconds:</strong></p>
+            <ul className="text-sm text-gray-800 space-y-1.5 list-disc pl-5">
+              <li><strong>Compare the domain character by character</strong> against the official one. Counterfeits in this category work by hyphens, extra words, and swapped top-level domains, not by looking obviously wrong.</li>
+              <li><strong>A price far under $988&ndash;$1,088 is the tell,</strong> not the bargain. There is no legitimate discount channel; the manufacturer sells direct.</li>
+              <li><strong>&ldquo;In stock, ships in 2&ndash;3 days&rdquo; contradicts the manufacturer&rsquo;s own 120-day estimate.</strong> Any store promising faster is either not selling this product or not selling anything.</li>
+              <li><strong>Look for a company name, a registered address and a warranty term.</strong> The real seller publishes Photon Matrix Lab Limited and a Jiangsu address; a fake storefront usually publishes a contact form and nothing else.</li>
+              <li><strong>Pay with a method that has a chargeback path.</strong> Bank transfer, crypto, or a &ldquo;friends and family&rdquo; payment removes the only recourse you have.</li>
+              <li><strong>Reverse-image-search the product photos.</strong> Stolen manufacturer imagery is the specific failure mode the company is warning about.</li>
+            </ul>
+            <p className="text-sm text-gray-800 leading-relaxed mt-3">We link to none of these stores, official or otherwise, and we earn nothing either way &mdash; the buttons on this page go to Amazon.ca for the proven alternatives, and the Photon Matrix is not one of them. If the fake-storefront problem is what brought you here, it is worth knowing that the whole gadget-repellent aisle attracts the same pattern: our <Link href="/blog/ultrasonic-pest-repellers-do-they-work" className="text-emerald-700 underline font-semibold">ultrasonic pest repeller breakdown</Link> covers a category where the marketing has outrun the evidence for forty years, and the <Link href="/blog/best-mosquito-repellent-device-canada" className="text-emerald-700 underline font-semibold">mosquito repellent device guide</Link> sorts the ones with published data from the ones without.</p>
+          </div>
+
+          <div className="mt-5 rounded-xl bg-amber-50 border-l-4 border-amber-500 p-5">
+            <p className="text-sm font-extrabold text-amber-900 mb-2">The refund clause worth reading twice</p>
+            <p className="text-sm text-gray-800 leading-relaxed">Per The Register&rsquo;s August 17, 2026 reporting, refunds on this product are available <strong>only up until the point an order ships</strong>, and backers described refund requests going unanswered. Put those two facts together and you get the practical rule: <strong>the window closes on the seller&rsquo;s schedule, not yours.</strong> If you are on a pre-order and having second thoughts, the decision is time-limited in a way an ordinary retail purchase is not &mdash; and a 120-day shipping estimate is not 120 days of refund eligibility. The same reporting notes that backers asking whether the lasers could interfere with aircraft did not get an answer; we cannot assess that question, and we have not seen anyone who can, but an unanswered safety question from a paying customer is itself a data point about support responsiveness.</p>
+          </div>
+        </div>
+      </section>
+
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">Laser Mosquito Killer — Key Facts</h2>
@@ -303,6 +435,16 @@ export default function LaserMosquitoKillerPhotonMatrixPage() {
                   ['Origin of the consumer device', 'Jim Wong, Changzhou, China — first and only Indiegogo project on record (New Atlas)'],
                   ['Origin of the underlying tech', 'Gates Foundation → Intellectual Ventures, 2007; Lowell Wood, Jordin Kare, Eric Johanson; ~50–100 mosquitoes/sec at ~30 m'],
                   ['Why the original stopped', 'Per New Atlas, the 2007–2017 Intellectual Ventures prototype still was not eye-safe when the programme wound down'],
+                  ['Manufacturer', 'Photon Matrix Lab Limited — Changzhou and Gusu District, Suzhou, Jiangsu, China'],
+                  ['Campaign result', '~USD $2.7M from 4,000+ backers in 50 countries against a $20,000 goal — roughly 135× oversubscribed'],
+                  ['Production status', 'Mass production began August 16, 2026 (CGTN); first shipments began August 2026'],
+                  ['Company anti-counterfeit notice', 'Published August 9, 2026 — states no genuine units had shipped as of that date and warns of fake sites using AI-generated copy and stolen product images'],
+                  ['Official sales channel', 'store.photonmatrixlab.com — the only channel the manufacturer recognises; free worldwide shipping, duties and VAT payable by the buyer'],
+                  ['Pre-order shipping estimate', '120 days, quoted by the manufacturer'],
+                  ['Refund window', 'Refunds available only until an order ships; unanswered refund requests reported (The Register, August 17, 2026)'],
+                  ['Reported laser class', 'Class 4 reported by Intelligent Living, citing EN 60825-1 — a third-party figure, not a class we can find on a label or in a CDRH filing'],
+                  ['Published target size window', '~2 mm to ~20 mm — the upper bound covers most flying insects, including pollinators'],
+                  ['Closest named alternative device', 'Bzigo IRIS, ~USD $299 — detects and marks a mosquito with a low-power pointer; deliberately does not fire a killing laser'],
                   ['Bottom line', 'Real science, unproven product — watch, don\'t rely'],
                 ].map(([k, v]) => (
                   <tr key={k} className="border-b border-navy-50 last:border-0">
@@ -465,6 +607,7 @@ export default function LaserMosquitoKillerPhotonMatrixPage() {
           </div>
           <p>Read the range row twice. <strong>Six metres is the maximum, on the more expensive unit, in a 90-degree cone.</strong> A typical suburban lot &mdash; in Texas or in Toronto &mdash; is many times that in every direction, and mosquitoes rest in the shaded vegetation around the edges of it during the day, then drift in from a neighbour&rsquo;s untreated yard at dusk. The device is a patio-corner appliance being sold with yard-scale expectations.</p>
           <p>The 1 metre-per-second target-speed ceiling deserves a second look too. Mosquitoes are slow flyers, so that ceiling is plausible for the intended target &mdash; but it also tells you what else falls inside the envelope. Commenters on New Atlas&rsquo;s coverage raised exactly this: a system that engages small, slow-flying objects is describing most pollinators as well. The 2007 Intellectual Ventures lab device solved that by identifying mosquitoes on wing-beat frequency, down to species and sex. The published consumer spec is a size-and-speed filter, not a species filter.</p>
+          <p>There is a second number in that filter that we published only half of, and the missing half sharpens the point. The spec table above lists a <strong>minimum</strong> target size of about 2 mm. The manufacturer&rsquo;s published target window is <strong>roughly 2 mm to 20 mm</strong> &mdash; and 20 mm is not a mosquito. Twenty millimetres is a honeybee, a hoverfly, a small moth, a bumblebee at the top of the range. A device advertised as a mosquito killer is describing an engagement envelope that comfortably contains most of the beneficial flying insects in a Canadian garden, and it identifies them by size and speed rather than by wingbeat. The 2007 lab system solved that with species-level wing-beat identification precise enough to spare males and target only biting females; a 2 mm-to-20 mm size gate is not that, and the difference is worth knowing before a unit runs unattended next to a pollinator border.</p>
 
           <h3>Indoor 976 nm vs. outdoor 450 nm &mdash; the split that matters most</h3>
           <p>The manufacturer&rsquo;s own FAQ divides the line by wavelength, and this is the single most useful thing on their site. It is also the piece almost every review skips.</p>
@@ -542,6 +685,35 @@ export default function LaserMosquitoKillerPhotonMatrixPage() {
           <p>What you will not find is the thing most shoppers assume exists: a shelf. <strong>In the United States</strong>, Amazon.com search results for &ldquo;laser mosquito killer&rdquo; are dominated by grey-market handheld modules rather than this device, so a listing that looks like the Photon Matrix on a marketplace deserves a very close look at the seller. <strong>In Canada</strong>, there is no Canadian Tire, Home Depot Canada, Costco or Amazon.ca stock, no Canadian warranty depot, and any purchase crosses the border with the duty and brokerage that implies.</p>
           <p>Three questions to put to the seller in writing before paying, all of which have specific correct answers: what is your CDRH accession number, what laser class is the product labelled with, and what is the actual ship date for the model I am ordering.</p>
 
+          <h2 id="is-the-photon-matrix-a-scam">Is the Photon Matrix a scam? Is it legit?</h2>
+          <p><strong>The company is real, the product is real, and it is now in production &mdash; so &ldquo;scam&rdquo; is the wrong word for the manufacturer. The scam problem is downstream of it: Photon Matrix Lab published its own anti-counterfeit notice on August 9, 2026 saying no genuine units had shipped yet, and warning that fraudulent sites were selling the device using AI-generated copy and stolen product images. The risk to your money is far more likely to be a fake storefront than the manufacturer.</strong></p>
+          <p>That distinction is the one almost nobody makes, and it changes what you should actually do. There are three separate questions hiding inside &ldquo;is it a scam,&rdquo; and they have three different answers:</p>
+          <ul>
+            <li><strong>Is the company fake?</strong> No. Photon Matrix Lab Limited is a real seller with addresses in Changzhou and the Gusu District of Suzhou, Jiangsu, China. It raised roughly USD $2.7 million from more than 4,000 backers in 50 countries on Indiegogo, mass production began on August 16, 2026 per CGTN, and shipments to backers started that month.</li>
+            <li><strong>Are the store pages you are looking at fake?</strong> Quite possibly. This is the live risk. The manufacturer names <strong>store.photonmatrixlab.com</strong> as its only official channel and maintains a page listing fraudulent sites. Anything at a materially lower price, or promising stock and fast dispatch against the manufacturer&rsquo;s own 120-day estimate, deserves the ninety-second check earlier on this page before a card number goes anywhere near it.</li>
+            <li><strong>Are the performance claims proven?</strong> No, and this is where our verdict has never moved. No independent lab has published a result. Every figure &mdash; 30 mosquitoes a second, three-millisecond detection, 90% cleared in ten minutes &mdash; traces back to the seller. &ldquo;Not a scam&rdquo; and &ldquo;proven to work&rdquo; are very far apart, and a lot of coverage collapses them.</li>
+          </ul>
+          <p>Our position, stated plainly so nobody has to infer it: <strong>we do not think you are being defrauded by the manufacturer, and we still would not buy one.</strong> Those are compatible. A legitimate company can sell an unproven product at a high price with an unpublished safety class, and the honest advice is still to wait.</p>
+
+          <h2 id="photon-matrix-reviews-and-complaints">Photon Matrix reviews and complaints &mdash; what backers actually report</h2>
+          <p><strong>The substantive complaints on record are about fulfilment and support, not about fraud. The Register reported on August 17, 2026 that refund requests were going unanswered, that refunds are available only until an order ships, that delivery had slipped from early summer to August, and that backers asking whether the lasers could interfere with aircraft had not received a reply.</strong></p>
+          <p>What you will not find, anywhere, is the thing a shopper most wants: a body of independent owner reviews from people who have run one through a full season. Shipments only began in August 2026, which means as of this update almost nobody has owned a unit long enough to say whether it survives rain, whether the interlock behaves around a dog, or whether bite counts actually fall. Anything presented as a &ldquo;review&rdquo; before that is a rewrite of the press release &mdash; and a large share of the pages competing for this search term are exactly that.</p>
+          <p>Reading the complaints fairly cuts both ways. A campaign that overshot its goal by roughly 135&times; was always going to have a support backlog and a slipped date; that pattern is the norm in hardware crowdfunding rather than a sign of bad faith. But an unanswered question about aircraft, from a paying customer, is a support failure regardless of the answer &mdash; and the refund clause below is the part that turns slow support into a real cost.</p>
+
+          <h2 id="photon-matrix-refund-policy">Can you get a refund on a Photon Matrix order?</h2>
+          <p><strong>Only before it ships. Per The Register&rsquo;s August 17, 2026 reporting, the refund window closes at dispatch, and backers described requests going unanswered inside that window. A 120-day shipping estimate is not 120 days of refund eligibility &mdash; the clock is controlled by the seller&rsquo;s dispatch schedule, not by you.</strong></p>
+          <p>Three practical consequences follow, and they are the same three whether you are in Houston or Mississauga:</p>
+          <ul>
+            <li><strong>Ask for the refund in writing, early, and keep the timestamp.</strong> If support is slow and the window closes at dispatch, a request sent late is a request that may be overtaken by a shipping label.</li>
+            <li><strong>Pay with a card that has a chargeback path.</strong> A card dispute is a separate remedy from the seller&rsquo;s own policy and survives an unanswered email; a bank transfer or crypto payment does not.</li>
+            <li><strong>Price the return, not just the purchase.</strong> Warranty service and returns run to China. A 12-month warranty is worth exactly what the return shipping costs, and for a Canadian buyer that sits on top of the duty and brokerage already paid to get it here.</li>
+          </ul>
+
+          <h2 id="where-to-buy-photon-matrix-safely">Where do you actually buy one &mdash; and how do you avoid the fake stores?</h2>
+          <p><strong>The manufacturer sells direct at store.photonmatrixlab.com and names it as its only official channel. It is not stocked at any US or Canadian retailer, it is not on Amazon.ca, and the company&rsquo;s own scam-warning page exists because fraudulent lookalike storefronts are the main way people are losing money on this product.</strong></p>
+          <p>We are not linking to any storefront for this device, official or otherwise, and we earn nothing from it either way &mdash; the price-check buttons elsewhere on this page go to Amazon.ca for the proven alternatives, and the Photon Matrix is not one of them. If you have decided to buy regardless, the checks are the ones listed in the counterfeit section above: match the domain character by character, treat a low price as a warning rather than a deal, distrust any &ldquo;ships in 2&ndash;3 days&rdquo; claim against the manufacturer&rsquo;s own 120-day estimate, confirm the seller publishes the company name and a registered address, and pay with something you can dispute.</p>
+          <p>One Canada-specific note that no US-written page will give you: <strong>free worldwide shipping does not mean free landing.</strong> The manufacturer&rsquo;s terms put duties and VAT on the buyer, so a $1,088 outdoor unit arrives in Ontario carrying the exchange spread, duty, and a courier brokerage fee on top &mdash; comfortably past $1,500 CAD before anything is switched on. For a like-for-like sense of what a device costs to <em>own</em> rather than to buy, our <Link href="/blog/mosquito-trap-running-cost-canada">mosquito trap running-cost breakdown</Link> does the same arithmetic for the traps that are actually stocked here.</p>
+
           <h2 id="is-the-laser-mosquito-killer-real">Is the laser mosquito killer real?</h2>
           <p><strong>The technology is real and older than most people realise. The Gates Foundation commissioned Intellectual Ventures to build a &ldquo;photonic fence&rdquo; in 2007; the team included Lowell Wood and Jordin Kare, and it demonstrably shot mosquitoes out of the air. What is new, small and unverified is the consumer version.</strong></p>
           <p>Keeping those two things apart is the whole skill of reading this category. A decade of serious, well-funded engineering proved the concept works. It did not produce a product. The consumer devices that followed inherited the idea and the demo-video appeal without inheriting the range, the species identification, or the eye-safety work &mdash; and, as the section on provenance below explains, the original never finished the eye-safety work either.</p>
@@ -555,6 +727,13 @@ export default function LaserMosquitoKillerPhotonMatrixPage() {
           <p>embedded.com describes pulses of roughly <strong>40 watts lasting 10 milliseconds</strong>. Multiply them: 40 W &times; 0.010 s = <strong>0.4 joules of energy per pulse</strong>. For scale on the power figure, the IEC and ANSI laser classification scheme puts the boundary between Class 3B and Class 4 &mdash; the highest and most hazardous class, the one that requires controlled access and eye protection in a workplace &mdash; at 500 milliwatts. <strong>Forty watts is eighty times that boundary.</strong> Pulsed operation and beam geometry change how that instantaneous power translates into an exposure at a given distance, which is precisely the point: the manufacturer publishes neither a class nor a beam divergence, so nobody outside the company can run that calculation.</p>
           <p>Now put that beside the interlock. Millimetre-wave radar plus an automatic shutdown for anything larger than about 2 cm² is a real engineering effort, and it deserves credit as one. It is also a software judgement made in milliseconds, and it has two failure modes it cannot cover by design. The first is anything smaller than the threshold &mdash; 2 cm² is roughly a postage stamp, and a fingertip or an eyelid at the wrong moment is a decision the software has to make correctly every single time. The second is reflection: a 450 nm blue beam bouncing off a window, a stainless barbecue lid, a glass patio table or a pool surface is not an object in the beam path, so there is nothing for the interlock to detect.</p>
           <p>None of this says the device will hurt you. It says something narrower and more useful: <strong>the manufacturer has not published the figures that would let anyone say it will not.</strong> A laser class on the label and an accession number on file are exactly the artefacts that would resolve it, and both are absent.</p>
+
+          <h3 id="laser-class-update">Update &mdash; a Class 4 figure has now been reported, and it confirms the arithmetic</h3>
+          <p>The argument above was written when no class appeared anywhere in the manufacturer&rsquo;s own materials, and it stays exactly as written, because the reasoning is what makes the rest of this page checkable by a reader who has never met us. What has changed is that a figure has surfaced in third-party coverage. <strong>Intelligent Living reports the Photon Matrix as Class 4</strong>, citing <strong>EN 60825-1</strong> &mdash; the European harmonised version of the IEC 60825-1 laser-safety standard, and the standard a CE mark on a laser product in the EU is declared against. It is the European counterpart to the <strong>ANSI Z136.1</strong> scheme referenced earlier on this page.</p>
+          <p>If that reporting is correct, it does not overturn the inference we drew from the published wattage &mdash; it confirms it. <strong>Class 4 is the highest and most hazardous class in the scheme.</strong> Under IEC/EN 60825-1 it is the tier where the direct beam is an eye and skin hazard, where even a <em>diffuse</em> reflection off a wall, a patio table or a fence board can be an eye hazard, and where a workplace running the equipment is expected to control access and provide eye protection. That is precisely where 40 watts lands: eighty times the 500 mW boundary that separates Class 3B from Class 4.</p>
+          <p>Two cautions before anyone quotes that number as settled. First, it is a class <strong>reported in an article, not one we can find printed on the product label or filed with CDRH</strong>, and those are different artefacts &mdash; a class in a blog post does not clear US customs and does not appear on a compliance certificate. Second, being Class 4 is not by itself a scandal. Plenty of legitimate industrial, research and medical lasers are Class 4 and are sold and operated safely every day, by trained people, in controlled rooms, behind interlocks, with eyewear on.</p>
+          <p>So the honest form of the objection is narrower than &ldquo;Class 4 is dangerous.&rdquo; It is this: <strong>a Class 4 laser is normally an equipment-controlled-area device, and this one is sold to be left running unattended on a patio or in a bedroom, where children, pets and reflective surfaces are, with a software interlock nobody outside the company has tested.</strong> That is a question about deployment context, not about physics &mdash; and it is the question a published class was always going to raise rather than close.</p>
+          <p>For a Canadian buyer there is a second half to it. EN 60825-1 is a European standard; it is not a Health Canada authorisation, a CSA certification, or an ISED radio authorisation for the millimetre-wave interlock, and none of those appear in the product materials either. A CE-referenced class tells you what the manufacturer says the beam is. It does not tell you that any Canadian body has looked at the product.</p>
 
           <h2 id="us-regulation-fda-epa-fcc">In the United States: FDA, EPA and FCC &mdash; the Paperwork a Laser Mosquito Device Should Have</h2>
           <p>Everything above about safety certification on this page is framed the way a Canadian buyer would frame it: Health Canada, CSA. That framing is correct in Canada and useless to an American, because the US regulates this device through three separate agencies and none of them does what people mean by &ldquo;approved.&rdquo; Here is the version that lets a US reader actually interrogate a seller.</p>
@@ -599,6 +778,7 @@ export default function LaserMosquitoKillerPhotonMatrixPage() {
           </table>
           </div>
           <p>Bzigo is worth understanding because it makes the trade-off visible. By choosing <em>not</em> to fire at a flying insect, it removes the entire eye-safety problem and accepts a smaller promise: it finds the mosquito in your bedroom and tells you where it is. That is an honest product boundary. The Photon Matrix takes the opposite bet, which is what makes it exciting &mdash; and exactly why the missing laser class and missing accession number matter so much more for it than they would for a camera.</p>
+          <p>Since the section above was written it is worth naming the actual product rather than the company, because &ldquo;Bzigo&rdquo; on its own is not something you can buy. The shipping device is the <strong>Bzigo IRIS</strong>, and it sells for roughly <strong>USD $299</strong> &mdash; a little under a third of the Photon Matrix indoor unit. What that third of the price buys is a genuinely different promise: IRIS watches a room, finds the mosquito, and puts a low-power marker on the wall where it landed, then leaves the killing to you. It does not clear a yard, it does not work outdoors, and it will not help anyone whose problem is the deck at dusk. But it is the honest indoor comparison, and if the bedroom is the actual problem, the two categories worth pricing against it are a <Link href="/blog/best-indoor-fly-mosquito-trap-canada">proper indoor mosquito trap</Link> and a <Link href="/blog/katchy-indoor-insect-trap-review-canada">Katchy-style UV-and-fan unit</Link>, both of which are stocked in Canada and cost a fraction of either laser device.</p>
           <div className="not-prose my-6 rounded-xl bg-rose-50 border-l-4 border-rose-500 p-5">
             <p className="text-sm font-extrabold text-rose-900 mb-1">On the cheap handhelds, we will not be balanced.</p>
             <p className="text-sm text-gray-800 leading-relaxed">A shopping page for &ldquo;laser mosquito killer&rdquo; in the US fills up with rechargeable handheld modules advertised at 40 W, 80 W, even 120 W, several of them at 915 nm &mdash; invisible near-infrared, inside the 400&ndash;1400 nm retinal hazard region, with no blink reflex to protect anyone, no sensor deciding what is a bug and what is a face, no interlock, no published class and no CDRH filing. There is no version of this we would point at anything, in any yard, in any country. Ignore the entire category.</p>
@@ -696,6 +876,10 @@ export default function LaserMosquitoKillerPhotonMatrixPage() {
           <p>One sentence in the verdict above has aged and the rest has not, so here is the correction rather than a quiet rewrite. <strong>Availability changed.</strong> US outlets now report the Photon Matrix on sale online at roughly $988 to $1,088 USD with a 12-month warranty, so &ldquo;you cannot buy it&rdquo; is no longer the right objection and we have retired it.</p>
           <p><strong>Nothing else changed.</strong> There is still no published laser class, still no FDA/CDRH accession number, still no independent efficacy test from any lab, still a maximum of three to six metres of coverage, and still nothing at all for ticks. The team that invented this technology worked on it for a decade with weapons-lab physicists and did not get it eye-safe. You can buy one now &mdash; and we still would not, in Houston or in Mississauga. When a device in this category publishes a laser class, files an accession number, and posts an independent test, this page will say so on the same day.</p>
 
+          <h3>Verdict update &mdash; production, refunds and counterfeits</h3>
+          <p>Two more sentences in the verdict above have now aged, and the correction runs in both directions, so here it is rather than a quiet rewrite. <strong>It is in production.</strong> CGTN reported mass production beginning on August 16, 2026 and first shipments started that month, so &ldquo;it may never ship&rdquo; has also been retired. <strong>And a laser class has now been reported</strong> &mdash; Class 4, per Intelligent Living, citing EN 60825-1. We inferred Class 4 from 40-watt pulses before anyone published a figure, and that inference now looks correct rather than cautious. A reported class in an article is still not a class on a label or a CDRH filing, but it is more than we had.</p>
+          <p>What replaced those objections is not nothing. There is still <strong>no independent efficacy test</strong>, still <strong>three to six metres</strong> of coverage, still <strong>nothing for ticks</strong>, and now three concrete consumer problems that did not exist in July: a refund window that <strong>closes when the seller ships</strong>, refund requests reported as going unanswered, and a counterfeit-storefront problem serious enough that the manufacturer published its own anti-counterfeit notice. The device got more real and the purchase got more complicated at the same time. Our advice is unchanged and now rests on different reasons: <strong>if you want fewer bites this season, this is not the purchase</strong> &mdash; and if you want to buy one anyway, buy it from the manufacturer&rsquo;s own store, pay with a card you can dispute, and get the ship date in writing.</p>
+
           <h2>Related Reading</h2>
           <ul>
             <li><Link href="/blog/best-mosquito-trap">Best Mosquito Trap in Canada — Every Type Compared</Link></li>
@@ -705,6 +889,12 @@ export default function LaserMosquitoKillerPhotonMatrixPage() {
             <li><Link href="/blog/bug-zappers-canada-do-they-work">Bug Zappers Canada — Do They Work?</Link></li>
             <li><Link href="/blog/flowtron-bug-zapper-canada">Flowtron Bug Zapper Canada Review</Link></li>
             <li><Link href="/mosquito-control">BuzzSkito Professional Mosquito Control Service</Link></li>
+            <li><Link href="/blog/ultrasonic-pest-repellers-do-they-work">Ultrasonic Pest Repellers — Do They Work?</Link> — the other gadget category where the marketing has outrun the published evidence for decades, and the closest cousin to the laser question.</li>
+            <li><Link href="/blog/best-mosquito-repellent-device-canada">Best Mosquito Repellent Devices in Canada</Link> — the devices that do publish data, sorted from the ones that do not.</li>
+            <li><Link href="/blog/mosquito-trap-running-cost-canada">What a Mosquito Trap Actually Costs to Run</Link> — the per-season arithmetic to hold against a $988 one-time purchase.</li>
+            <li><Link href="/blog/best-indoor-fly-mosquito-trap-canada">Best Indoor Mosquito Trap in Canada</Link> — the realistic alternative if the bedroom, not the yard, is what the indoor 976 nm model was tempting you to solve.</li>
+            <li><Link href="/blog/mosquito-magnet-vs-professional-spray">Mosquito Magnet vs. Professional Spray</Link> — device-versus-service, worked through on the one device in this category with independent testing behind it.</li>
+            <li><Link href="/blog/citronella-candles-canada-do-they-work">Do Citronella Candles Work?</Link> — the same evidence test applied to the cheapest end of the market, for contrast with the most expensive.</li>
           </ul>
         <h2>Frequently Asked Questions</h2>
         <div className="not-prose space-y-4">

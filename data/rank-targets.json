@@ -1,0 +1,1222 @@
+[
+ {
+  "p": "electric-fly-swatter-canada",
+  "c": "general",
+  "gain": 3.7553142857142854,
+  "impr": 1217,
+  "qs": [
+   {
+    "q": "electric fly swatter",
+    "p": "electric-fly-swatter-canada",
+    "c": "general",
+    "pos": 10.61,
+    "impr": 1217,
+    "clicks": 8,
+    "perMo": 434.6428571428571,
+    "gain": 3.7553142857142854
+   }
+  ],
+  "cur": "electric-fly-swatter",
+  "inb": 1
+ },
+ {
+  "p": "why-do-mosquito-bites-itch",
+  "c": "mosquito",
+  "gain": 5.090618571428572,
+  "impr": 3219,
+  "qs": [
+   {
+    "q": "how long do mosquito bites last",
+    "p": "why-do-mosquito-bites-itch",
+    "c": "mosquito",
+    "pos": 10.03,
+    "impr": 2354,
+    "clicks": 0,
+    "perMo": 840.7142857142858,
+    "gain": 3.7226828571428574
+   },
+   {
+    "q": "how long does a mosquito bite last",
+    "p": "why-do-mosquito-bites-itch",
+    "c": "mosquito",
+    "pos": 9.43,
+    "impr": 384,
+    "clicks": 0,
+    "perMo": 137.14285714285714,
+    "gain": 0.6072685714285715
+   },
+   {
+    "q": "how long does mosquito bite last",
+    "p": "why-do-mosquito-bites-itch",
+    "c": "mosquito",
+    "pos": 9.42,
+    "impr": 281,
+    "clicks": 0,
+    "perMo": 100.35714285714286,
+    "gain": 0.4443814285714286
+   },
+   {
+    "q": "how long are mosquito bites itchy",
+    "p": "why-do-mosquito-bites-itch",
+    "c": "mosquito",
+    "pos": 11.1,
+    "impr": 200,
+    "clicks": 0,
+    "perMo": 71.42857142857143,
+    "gain": 0.3162857142857143
+   }
+  ],
+  "cur": "why-do-mosquito-bites-itch",
+  "inb": 2
+ },
+ {
+  "p": "no-see-ums-biting-midges-ontario",
+  "c": "general",
+  "gain": 4.937520000000001,
+  "impr": 1891,
+  "qs": [
+   {
+    "q": "noseeums",
+    "p": "no-see-ums-biting-midges-ontario",
+    "c": "general",
+    "pos": 9.52,
+    "impr": 1285,
+    "clicks": 1,
+    "perMo": 458.92857142857144,
+    "gain": 3.9651428571428573
+   },
+   {
+    "q": "no see ums",
+    "p": "no-see-ums-biting-midges-ontario",
+    "c": "general",
+    "pos": 5.15,
+    "impr": 365,
+    "clicks": 0,
+    "perMo": 130.35714285714283,
+    "gain": 0.73
+   },
+   {
+    "q": "biting midges ontario",
+    "p": "no-see-ums-biting-midges-ontario",
+    "c": "general",
+    "pos": 4.85,
+    "impr": 241,
+    "clicks": 6,
+    "perMo": 86.07142857142857,
+    "gain": 0.24237714285714285
+   }
+  ],
+  "cur": "no-see-ums-biting-midges-ontario",
+  "inb": 5
+ },
+ {
+  "p": "laser-mosquito-killer-photon-matrix-review",
+  "c": "mosquito",
+  "gain": 7.025379285714285,
+  "impr": 6347,
+  "qs": [
+   {
+    "q": "laser mosquito killer",
+    "p": "laser-mosquito-killer-photon-matrix-review",
+    "c": "mosquito",
+    "pos": 5.84,
+    "impr": 1964,
+    "clicks": 29,
+    "perMo": 701.4285714285713,
+    "gain": 2.0130999999999997
+   },
+   {
+    "q": "photon matrix",
+    "p": "laser-mosquito-killer-photon-matrix-review",
+    "c": "mosquito",
+    "pos": 5.46,
+    "impr": 1830,
+    "clicks": 45,
+    "perMo": 653.5714285714286,
+    "gain": 1.87575
+   },
+   {
+    "q": "mosquito laser",
+    "p": "laser-mosquito-killer-photon-matrix-review",
+    "c": "mosquito",
+    "pos": 9.09,
+    "impr": 687,
+    "clicks": 11,
+    "perMo": 245.35714285714286,
+    "gain": 1.0864414285714286
+   },
+   {
+    "q": "photon matrix mosquito killer",
+    "p": "laser-mosquito-killer-photon-matrix-review",
+    "c": "mosquito",
+    "pos": 7.02,
+    "impr": 624,
+    "clicks": 9,
+    "perMo": 222.85714285714286,
+    "gain": 0.6396000000000001
+   },
+   {
+    "q": "photon matrix mosquito",
+    "p": "laser-mosquito-killer-photon-matrix-review",
+    "c": "mosquito",
+    "pos": 5.72,
+    "impr": 528,
+    "clicks": 10,
+    "perMo": 188.57142857142856,
+    "gain": 0.5412
+   },
+   {
+    "q": "mosquito laser killer",
+    "p": "laser-mosquito-killer-photon-matrix-review",
+    "c": "mosquito",
+    "pos": 6.79,
+    "impr": 467,
+    "clicks": 15,
+    "perMo": 166.78571428571428,
+    "gain": 0.4786750000000001
+   },
+   {
+    "q": "laser mosquito zapper",
+    "p": "laser-mosquito-killer-photon-matrix-review",
+    "c": "mosquito",
+    "pos": 9,
+    "impr": 247,
+    "clicks": 7,
+    "perMo": 88.21428571428572,
+    "gain": 0.39061285714285715
+   }
+  ],
+  "cur": "laser-mosquito-killer-photon-matrix-review",
+  "inb": 6
+ },
+ {
+  "p": "best-mosquito-repellent-device-canada",
+  "c": "mosquito",
+  "gain": 7.33557357142857,
+  "impr": 4805,
+  "qs": [
+   {
+    "q": "mosquito repellent machine",
+    "p": "best-mosquito-repellent-device-canada",
+    "c": "mosquito",
+    "pos": 9.79,
+    "impr": 3041,
+    "clicks": 19,
+    "perMo": 1086.0714285714284,
+    "gain": 4.809124285714285
+   },
+   {
+    "q": "mosquito killer machine",
+    "p": "best-mosquito-repellent-device-canada",
+    "c": "mosquito",
+    "pos": 9.82,
+    "impr": 499,
+    "clicks": 3,
+    "perMo": 178.21428571428572,
+    "gain": 0.7891328571428572
+   },
+   {
+    "q": "bug repellent machine",
+    "p": "best-mosquito-repellent-device-canada",
+    "c": "mosquito",
+    "pos": 9.26,
+    "impr": 474,
+    "clicks": 1,
+    "perMo": 169.2857142857143,
+    "gain": 0.7495971428571431
+   },
+   {
+    "q": "best mosquito repellent device",
+    "p": "best-mosquito-repellent-device-canada",
+    "c": "mosquito",
+    "pos": 5.76,
+    "impr": 473,
+    "clicks": 11,
+    "perMo": 168.92857142857144,
+    "gain": 0.4848250000000001
+   },
+   {
+    "q": "best mosquito killer",
+    "p": "best-mosquito-repellent-device-canada",
+    "c": "mosquito",
+    "pos": 9.17,
+    "impr": 318,
+    "clicks": 3,
+    "perMo": 113.57142857142857,
+    "gain": 0.5028942857142857
+   }
+  ],
+  "cur": "best-mosquito-repellent-device-canada",
+  "inb": 8
+ },
+ {
+  "p": "advion-cockroach-gel-bait-canada",
+  "c": "roach",
+  "gain": 6.372675321428572,
+  "impr": 4070,
+  "qs": [
+   {
+    "q": "advion cockroach gel bait",
+    "p": "advion-cockroach-gel-bait-canada",
+    "c": "roach",
+    "pos": 8.14,
+    "impr": 1702,
+    "clicks": 28,
+    "perMo": 607.8571428571429,
+    "gain": 2.806476428571429
+   },
+   {
+    "q": "advion cockroach gel",
+    "p": "advion-cockroach-gel-bait-canada",
+    "c": "roach",
+    "pos": 8.4,
+    "impr": 772,
+    "clicks": 14,
+    "perMo": 275.71428571428567,
+    "gain": 1.2729728571428571
+   },
+   {
+    "q": "advion cockroach gel bait canada",
+    "p": "advion-cockroach-gel-bait-canada",
+    "c": "roach",
+    "pos": 5.23,
+    "impr": 487,
+    "clicks": 15,
+    "perMo": 173.92857142857142,
+    "gain": 0.5204812500000001
+   },
+   {
+    "q": "cockroach gel bait canada",
+    "p": "advion-cockroach-gel-bait-canada",
+    "c": "roach",
+    "pos": 8.28,
+    "impr": 479,
+    "clicks": 11,
+    "perMo": 171.07142857142858,
+    "gain": 0.7898367857142858
+   },
+   {
+    "q": "cockroach gel bait",
+    "p": "advion-cockroach-gel-bait-canada",
+    "c": "roach",
+    "pos": 12.23,
+    "impr": 426,
+    "clicks": 2,
+    "perMo": 152.14285714285714,
+    "gain": 0.7648830000000001
+   },
+   {
+    "q": "advion cockroach gel canada",
+    "p": "advion-cockroach-gel-bait-canada",
+    "c": "roach",
+    "pos": 5.33,
+    "impr": 204,
+    "clicks": 15,
+    "perMo": 72.85714285714285,
+    "gain": 0.218025
+   }
+  ],
+  "cur": "advion-cockroach-gel-bait",
+  "inb": 8
+ },
+ {
+  "p": "baby-bed-bugs-nymphs-canada",
+  "c": "bedbug",
+  "gain": 5.5174,
+  "impr": 1126,
+  "qs": [
+   {
+    "q": "baby bed bugs",
+    "p": "baby-bed-bugs-nymphs-canada",
+    "c": "bedbug",
+    "pos": 6.41,
+    "impr": 666,
+    "clicks": 1,
+    "perMo": 237.85714285714286,
+    "gain": 3.2634000000000007
+   },
+   {
+    "q": "baby bed bug",
+    "p": "baby-bed-bugs-nymphs-canada",
+    "c": "bedbug",
+    "pos": 7.3,
+    "impr": 460,
+    "clicks": 0,
+    "perMo": 164.28571428571428,
+    "gain": 2.254
+   }
+  ],
+  "cur": "baby-bed-bugs-nymphs",
+  "inb": 8
+ },
+ {
+  "p": "tick-vs-bed-bug",
+  "c": "bedbug",
+  "gain": 4.96692,
+  "impr": 657,
+  "qs": [
+   {
+    "q": "tick vs bed bug",
+    "p": "tick-vs-bed-bug",
+    "c": "bedbug",
+    "pos": 9.94,
+    "impr": 449,
+    "clicks": 1,
+    "perMo": 160.35714285714283,
+    "gain": 3.3944399999999995
+   },
+   {
+    "q": "ticks vs bed bugs",
+    "p": "tick-vs-bed-bug",
+    "c": "bedbug",
+    "pos": 8.94,
+    "impr": 208,
+    "clicks": 0,
+    "perMo": 74.28571428571429,
+    "gain": 1.57248
+   }
+  ],
+  "cur": "tick-vs-bed-bug",
+  "inb": 8
+ },
+ {
+  "p": "best-dehumidifier-for-mold-canada",
+  "c": "dehumidifier",
+  "gain": 7.614506250000001,
+  "impr": 507,
+  "qs": [
+   {
+    "q": "best dehumidifier canada",
+    "p": "best-dehumidifier-for-mold-canada",
+    "c": "dehumidifier",
+    "pos": 7.85,
+    "impr": 507,
+    "clicks": 7,
+    "perMo": 181.07142857142856,
+    "gain": 7.614506250000001
+   }
+  ],
+  "cur": "best-dehumidifier-for-mold-canada",
+  "inb": 10
+ },
+ {
+  "p": "mosquito-larvae-identification",
+  "c": "mosquito",
+  "gain": 6.574320714285716,
+  "impr": 6670,
+  "qs": [
+   {
+    "q": "mosquito larvae",
+    "p": "mosquito-larvae-identification",
+    "c": "mosquito",
+    "pos": 7.98,
+    "impr": 5092,
+    "clicks": 6,
+    "perMo": 1818.5714285714287,
+    "gain": 5.219300000000001
+   },
+   {
+    "q": "what does mosquito larvae look like",
+    "p": "mosquito-larvae-identification",
+    "c": "mosquito",
+    "pos": 5.07,
+    "impr": 543,
+    "clicks": 5,
+    "perMo": 193.92857142857144,
+    "gain": 0.5565750000000002
+   },
+   {
+    "q": "mosquito larva",
+    "p": "mosquito-larvae-identification",
+    "c": "mosquito",
+    "pos": 7.51,
+    "impr": 520,
+    "clicks": 1,
+    "perMo": 185.71428571428572,
+    "gain": 0.5330000000000001
+   },
+   {
+    "q": "what do mosquito larvae look like",
+    "p": "mosquito-larvae-identification",
+    "c": "mosquito",
+    "pos": 4.87,
+    "impr": 515,
+    "clicks": 4,
+    "perMo": 183.92857142857144,
+    "gain": 0.2654457142857143
+   }
+  ],
+  "cur": "mosquito-larvae-identification",
+  "inb": 10
+ },
+ {
+  "p": "best-large-capacity-dehumidifier-canada",
+  "c": "dehumidifier",
+  "gain": 9.702112500000002,
+  "impr": 646,
+  "qs": [
+   {
+    "q": "best dehumidifier canada",
+    "p": "best-large-capacity-dehumidifier-canada",
+    "c": "dehumidifier",
+    "pos": 6.59,
+    "impr": 646,
+    "clicks": 4,
+    "perMo": 230.71428571428572,
+    "gain": 9.702112500000002
+   }
+  ],
+  "cur": "best-large-capacity-dehumidifier-canada",
+  "inb": 11
+ },
+ {
+  "p": "mosquito-fogger-canada",
+  "c": "mosquito",
+  "gain": 8.449297571428572,
+  "impr": 6541,
+  "qs": [
+   {
+    "q": "mosquito fogger",
+    "p": "mosquito-fogger-canada",
+    "c": "mosquito",
+    "pos": 8.79,
+    "impr": 3522,
+    "clicks": 36,
+    "perMo": 1257.857142857143,
+    "gain": 5.569791428571429
+   },
+   {
+    "q": "mosquito fogger liquid",
+    "p": "mosquito-fogger-canada",
+    "c": "mosquito",
+    "pos": 6.84,
+    "impr": 1035,
+    "clicks": 13,
+    "perMo": 369.6428571428571,
+    "gain": 1.060875
+   },
+   {
+    "q": "mosquito fogger liquid canada",
+    "p": "mosquito-fogger-canada",
+    "c": "mosquito",
+    "pos": 4.82,
+    "impr": 488,
+    "clicks": 22,
+    "perMo": 174.28571428571428,
+    "gain": 0.2515291428571428
+   },
+   {
+    "q": "mosquito fogger canada",
+    "p": "mosquito-fogger-canada",
+    "c": "mosquito",
+    "pos": 4.89,
+    "impr": 458,
+    "clicks": 17,
+    "perMo": 163.57142857142858,
+    "gain": 0.2360662857142857
+   },
+   {
+    "q": "black flag fogging insecticide canada",
+    "p": "mosquito-fogger-canada",
+    "c": "mosquito",
+    "pos": 5.46,
+    "impr": 348,
+    "clicks": 12,
+    "perMo": 124.28571428571429,
+    "gain": 0.3567000000000001
+   },
+   {
+    "q": "fogger for mosquitoes",
+    "p": "mosquito-fogger-canada",
+    "c": "mosquito",
+    "pos": 9.61,
+    "impr": 266,
+    "clicks": 3,
+    "perMo": 95,
+    "gain": 0.42066000000000003
+   },
+   {
+    "q": "insect fogger",
+    "p": "mosquito-fogger-canada",
+    "c": "mosquito",
+    "pos": 9.29,
+    "impr": 214,
+    "clicks": 1,
+    "perMo": 76.42857142857142,
+    "gain": 0.3384257142857142
+   },
+   {
+    "q": "mosquito fogger machine",
+    "p": "mosquito-fogger-canada",
+    "c": "mosquito",
+    "pos": 7.7,
+    "impr": 210,
+    "clicks": 1,
+    "perMo": 75,
+    "gain": 0.21525000000000005
+   }
+  ],
+  "cur": "mosquito-fogger-canada",
+  "inb": 11
+ },
+ {
+  "p": "natural-mosquito-repellent-ontario",
+  "c": "mosquito",
+  "gain": 5.972440714285715,
+  "impr": 4544,
+  "qs": [
+   {
+    "q": "mosquito repellent",
+    "p": "natural-mosquito-repellent-ontario",
+    "c": "mosquito",
+    "pos": 11.62,
+    "impr": 2141,
+    "clicks": 2,
+    "perMo": 764.6428571428571,
+    "gain": 3.3858385714285713
+   },
+   {
+    "q": "natural mosquito repellent",
+    "p": "natural-mosquito-repellent-ontario",
+    "c": "mosquito",
+    "pos": 5.92,
+    "impr": 1915,
+    "clicks": 12,
+    "perMo": 683.9285714285714,
+    "gain": 1.9628750000000004
+   },
+   {
+    "q": "best natural mosquito repellent",
+    "p": "natural-mosquito-repellent-ontario",
+    "c": "mosquito",
+    "pos": 7.06,
+    "impr": 266,
+    "clicks": 1,
+    "perMo": 95,
+    "gain": 0.27265
+   },
+   {
+    "q": "natural mosquito repellent for yard",
+    "p": "natural-mosquito-repellent-ontario",
+    "c": "mosquito",
+    "pos": 8.61,
+    "impr": 222,
+    "clicks": 0,
+    "perMo": 79.28571428571428,
+    "gain": 0.35107714285714287
+   }
+  ],
+  "cur": "natural-mosquito-repellent-ontario",
+  "inb": 12
+ },
+ {
+  "p": "mosquito-bits-canada-vs-dunks",
+  "c": "mosquito",
+  "gain": 15.678745571428575,
+  "impr": 15046,
+  "qs": [
+   {
+    "q": "mosquito bits",
+    "p": "mosquito-bits-canada-vs-dunks",
+    "c": "mosquito",
+    "pos": 5.77,
+    "impr": 12745,
+    "clicks": 363,
+    "perMo": 4551.785714285715,
+    "gain": 13.063625000000004
+   },
+   {
+    "q": "mosquito dunks canada",
+    "p": "mosquito-bits-canada-vs-dunks",
+    "c": "mosquito",
+    "pos": 9.26,
+    "impr": 963,
+    "clicks": 8,
+    "perMo": 343.9285714285714,
+    "gain": 1.5229157142857142
+   },
+   {
+    "q": "bti insecticide where to buy",
+    "p": "mosquito-bits-canada-vs-dunks",
+    "c": "mosquito",
+    "pos": 5.31,
+    "impr": 335,
+    "clicks": 7,
+    "perMo": 119.64285714285714,
+    "gain": 0.34337500000000004
+   },
+   {
+    "q": "bti insecticide where to buy canada",
+    "p": "mosquito-bits-canada-vs-dunks",
+    "c": "mosquito",
+    "pos": 4.34,
+    "impr": 294,
+    "clicks": 14,
+    "perMo": 105,
+    "gain": 0.15153599999999998
+   },
+   {
+    "q": "mosquito bits banned in canada",
+    "p": "mosquito-bits-canada-vs-dunks",
+    "c": "mosquito",
+    "pos": 4.07,
+    "impr": 254,
+    "clicks": 15,
+    "perMo": 90.71428571428571,
+    "gain": 0.13091885714285711
+   },
+   {
+    "q": "misquito bits",
+    "p": "mosquito-bits-canada-vs-dunks",
+    "c": "mosquito",
+    "pos": 5.93,
+    "impr": 238,
+    "clicks": 5,
+    "perMo": 85,
+    "gain": 0.24395000000000003
+   },
+   {
+    "q": "bti mosquito bits",
+    "p": "mosquito-bits-canada-vs-dunks",
+    "c": "mosquito",
+    "pos": 5.89,
+    "impr": 217,
+    "clicks": 10,
+    "perMo": 77.5,
+    "gain": 0.22242500000000004
+   }
+  ],
+  "cur": "mosquito-bits-canada-vs-dunks",
+  "inb": 15
+ },
+ {
+  "p": "bug-zappers-canada-do-they-work",
+  "c": "general",
+  "gain": 12.146217142857145,
+  "impr": 4086,
+  "qs": [
+   {
+    "q": "bug zapper",
+    "p": "bug-zappers-canada-do-they-work",
+    "c": "general",
+    "pos": 12.93,
+    "impr": 1837,
+    "clicks": 6,
+    "perMo": 656.0714285714287,
+    "gain": 6.172320000000001
+   },
+   {
+    "q": "bug zappers",
+    "p": "bug-zappers-canada-do-they-work",
+    "c": "general",
+    "pos": 12.81,
+    "impr": 562,
+    "clicks": 0,
+    "perMo": 200.71428571428572,
+    "gain": 1.88832
+   },
+   {
+    "q": "best bug zapper",
+    "p": "bug-zappers-canada-do-they-work",
+    "c": "general",
+    "pos": 5.62,
+    "impr": 519,
+    "clicks": 27,
+    "perMo": 185.35714285714286,
+    "gain": 1.038
+   },
+   {
+    "q": "mosquito zapper",
+    "p": "bug-zappers-canada-do-they-work",
+    "c": "general",
+    "pos": 13.13,
+    "impr": 342,
+    "clicks": 1,
+    "perMo": 122.14285714285714,
+    "gain": 1.14912
+   },
+   {
+    "q": "best bug zapper canada",
+    "p": "bug-zappers-canada-do-they-work",
+    "c": "general",
+    "pos": 5.67,
+    "impr": 317,
+    "clicks": 7,
+    "perMo": 113.21428571428571,
+    "gain": 0.6340000000000001
+   },
+   {
+    "q": "best mosquito zapper",
+    "p": "bug-zappers-canada-do-they-work",
+    "c": "general",
+    "pos": 6.97,
+    "impr": 282,
+    "clicks": 7,
+    "perMo": 100.71428571428572,
+    "gain": 0.5640000000000002
+   },
+   {
+    "q": "bug zapper canada",
+    "p": "bug-zappers-canada-do-they-work",
+    "c": "general",
+    "pos": 10.44,
+    "impr": 227,
+    "clicks": 1,
+    "perMo": 81.07142857142858,
+    "gain": 0.700457142857143
+   }
+  ],
+  "cur": "bug-zappers-canada-do-they-work",
+  "inb": 15
+ },
+ {
+  "p": "dynatrap-canada-review",
+  "c": "mosquito",
+  "gain": 15.833309714285715,
+  "impr": 10992,
+  "qs": [
+   {
+    "q": "dynatrap",
+    "p": "dynatrap-canada-review",
+    "c": "mosquito",
+    "pos": 10.19,
+    "impr": 5980,
+    "clicks": 20,
+    "perMo": 2135.714285714286,
+    "gain": 9.456942857142858
+   },
+   {
+    "q": "dynatrap reviews",
+    "p": "dynatrap-canada-review",
+    "c": "mosquito",
+    "pos": 7.97,
+    "impr": 1945,
+    "clicks": 12,
+    "perMo": 694.6428571428571,
+    "gain": 1.993625
+   },
+   {
+    "q": "dynatrap mosquito trap",
+    "p": "dynatrap-canada-review",
+    "c": "mosquito",
+    "pos": 11.75,
+    "impr": 1116,
+    "clicks": 7,
+    "perMo": 398.5714285714286,
+    "gain": 1.764874285714286
+   },
+   {
+    "q": "dynatrap canada",
+    "p": "dynatrap-canada-review",
+    "c": "mosquito",
+    "pos": 7.64,
+    "impr": 540,
+    "clicks": 12,
+    "perMo": 192.85714285714286,
+    "gain": 0.5535000000000001
+   },
+   {
+    "q": "dyna trap",
+    "p": "dynatrap-canada-review",
+    "c": "mosquito",
+    "pos": 11.43,
+    "impr": 482,
+    "clicks": 0,
+    "perMo": 172.14285714285714,
+    "gain": 0.7622485714285715
+   },
+   {
+    "q": "dynatrap mosquito",
+    "p": "dynatrap-canada-review",
+    "c": "mosquito",
+    "pos": 12.38,
+    "impr": 281,
+    "clicks": 0,
+    "perMo": 100.35714285714286,
+    "gain": 0.483882
+   },
+   {
+    "q": "dynatrap insect trap",
+    "p": "dynatrap-canada-review",
+    "c": "mosquito",
+    "pos": 12.76,
+    "impr": 221,
+    "clicks": 1,
+    "perMo": 78.92857142857143,
+    "gain": 0.380562
+   },
+   {
+    "q": "does dynatrap work",
+    "p": "dynatrap-canada-review",
+    "c": "mosquito",
+    "pos": 5.22,
+    "impr": 216,
+    "clicks": 5,
+    "perMo": 77.14285714285715,
+    "gain": 0.22140000000000007
+   },
+   {
+    "q": "dynatrap mosquito trap review",
+    "p": "dynatrap-canada-review",
+    "c": "mosquito",
+    "pos": 7.85,
+    "impr": 211,
+    "clicks": 5,
+    "perMo": 75.35714285714286,
+    "gain": 0.21627500000000002
+   }
+  ],
+  "cur": "dynatrap-canada-review",
+  "inb": 16
+ },
+ {
+  "p": "mosquito-magnet-canada",
+  "c": "mosquito",
+  "gain": 6.2062285714285705,
+  "impr": 4619,
+  "qs": [
+   {
+    "q": "mosquito magnet",
+    "p": "mosquito-magnet-canada",
+    "c": "mosquito",
+    "pos": 9.51,
+    "impr": 2259,
+    "clicks": 15,
+    "perMo": 806.7857142857142,
+    "gain": 3.5724471428571425
+   },
+   {
+    "q": "mosquito magnet canada",
+    "p": "mosquito-magnet-canada",
+    "c": "mosquito",
+    "pos": 7.41,
+    "impr": 1974,
+    "clicks": 82,
+    "perMo": 705,
+    "gain": 2.02335
+   },
+   {
+    "q": "mosquito magnet patriot plus",
+    "p": "mosquito-magnet-canada",
+    "c": "mosquito",
+    "pos": 10.19,
+    "impr": 386,
+    "clicks": 3,
+    "perMo": 137.85714285714283,
+    "gain": 0.6104314285714285
+   }
+  ],
+  "cur": "mosquito-magnet-canada",
+  "inb": 17
+ },
+ {
+  "p": "permethrin-canada-yard-clothing-spray",
+  "c": "mosquito",
+  "gain": 18.92473314285715,
+  "impr": 15875,
+  "qs": [
+   {
+    "q": "permethrin spray",
+    "p": "permethrin-canada-yard-clothing-spray",
+    "c": "mosquito",
+    "pos": 9.03,
+    "impr": 4703,
+    "clicks": 40,
+    "perMo": 1679.6428571428573,
+    "gain": 7.437458571428572
+   },
+   {
+    "q": "permethrin canada",
+    "p": "permethrin-canada-yard-clothing-spray",
+    "c": "mosquito",
+    "pos": 5.61,
+    "impr": 3284,
+    "clicks": 96,
+    "perMo": 1172.857142857143,
+    "gain": 3.3661000000000003
+   },
+   {
+    "q": "permethrin spray canada",
+    "p": "permethrin-canada-yard-clothing-spray",
+    "c": "mosquito",
+    "pos": 5.97,
+    "impr": 2343,
+    "clicks": 77,
+    "perMo": 836.7857142857142,
+    "gain": 2.4015750000000002
+   },
+   {
+    "q": "sawyer permethrin",
+    "p": "permethrin-canada-yard-clothing-spray",
+    "c": "mosquito",
+    "pos": 9.33,
+    "impr": 746,
+    "clicks": 19,
+    "perMo": 266.42857142857144,
+    "gain": 1.1797457142857144
+   },
+   {
+    "q": "why is permethrin banned in canada",
+    "p": "permethrin-canada-yard-clothing-spray",
+    "c": "mosquito",
+    "pos": 7.16,
+    "impr": 532,
+    "clicks": 8,
+    "perMo": 190,
+    "gain": 0.5453
+   },
+   {
+    "q": "permethrin clothing canada",
+    "p": "permethrin-canada-yard-clothing-spray",
+    "c": "mosquito",
+    "pos": 6.37,
+    "impr": 516,
+    "clicks": 18,
+    "perMo": 184.2857142857143,
+    "gain": 0.5289000000000001
+   },
+   {
+    "q": "permethrin treated clothing canada",
+    "p": "permethrin-canada-yard-clothing-spray",
+    "c": "mosquito",
+    "pos": 5.84,
+    "impr": 472,
+    "clicks": 22,
+    "perMo": 168.57142857142856,
+    "gain": 0.48380000000000006
+   },
+   {
+    "q": "sawyer permethrin canada",
+    "p": "permethrin-canada-yard-clothing-spray",
+    "c": "mosquito",
+    "pos": 4.91,
+    "impr": 436,
+    "clicks": 23,
+    "perMo": 155.71428571428572,
+    "gain": 0.22472685714285712
+   },
+   {
+    "q": "permethrin concentrate canada",
+    "p": "permethrin-canada-yard-clothing-spray",
+    "c": "mosquito",
+    "pos": 4.8,
+    "impr": 423,
+    "clicks": 17,
+    "perMo": 151.07142857142856,
+    "gain": 0.21802628571428567
+   },
+   {
+    "q": "permethrin spray for clothes",
+    "p": "permethrin-canada-yard-clothing-spray",
+    "c": "mosquito",
+    "pos": 8.43,
+    "impr": 415,
+    "clicks": 13,
+    "perMo": 148.21428571428572,
+    "gain": 0.6562928571428571
+   },
+   {
+    "q": "sawyer permethrin spray canada",
+    "p": "permethrin-canada-yard-clothing-spray",
+    "c": "mosquito",
+    "pos": 4.52,
+    "impr": 350,
+    "clicks": 14,
+    "perMo": 125.00000000000001,
+    "gain": 0.18039999999999998
+   },
+   {
+    "q": "where to buy permethrin",
+    "p": "permethrin-canada-yard-clothing-spray",
+    "c": "mosquito",
+    "pos": 6.81,
+    "impr": 328,
+    "clicks": 7,
+    "perMo": 117.14285714285714,
+    "gain": 0.33620000000000005
+   },
+   {
+    "q": "where to buy permethrin in canada",
+    "p": "permethrin-canada-yard-clothing-spray",
+    "c": "mosquito",
+    "pos": 4.66,
+    "impr": 317,
+    "clicks": 18,
+    "perMo": 113.21428571428571,
+    "gain": 0.16339085714285712
+   },
+   {
+    "q": "permethrin clothing",
+    "p": "permethrin-canada-yard-clothing-spray",
+    "c": "mosquito",
+    "pos": 8.87,
+    "impr": 302,
+    "clicks": 5,
+    "perMo": 107.85714285714286,
+    "gain": 0.4775914285714286
+   },
+   {
+    "q": "permethrin spray for clothes canada",
+    "p": "permethrin-canada-yard-clothing-spray",
+    "c": "mosquito",
+    "pos": 4.57,
+    "impr": 263,
+    "clicks": 14,
+    "perMo": 93.92857142857143,
+    "gain": 0.13555771428571428
+   },
+   {
+    "q": "permethrin spray for clothing",
+    "p": "permethrin-canada-yard-clothing-spray",
+    "c": "mosquito",
+    "pos": 8.28,
+    "impr": 240,
+    "clicks": 9,
+    "perMo": 85.71428571428572,
+    "gain": 0.3795428571428572
+   },
+   {
+    "q": "can you buy permethrin in canada",
+    "p": "permethrin-canada-yard-clothing-spray",
+    "c": "mosquito",
+    "pos": 5.71,
+    "impr": 205,
+    "clicks": 3,
+    "perMo": 73.21428571428572,
+    "gain": 0.21012500000000003
+   }
+  ],
+  "cur": "permethrin-canada-yard-clothing-spray",
+  "inb": 19
+ },
+ {
+  "p": "mosquito-dunks-canada-guide",
+  "c": "mosquito",
+  "gain": 11.85746357142857,
+  "impr": 10900,
+  "qs": [
+   {
+    "q": "mosquito dunks canada",
+    "p": "mosquito-dunks-canada-guide",
+    "c": "mosquito",
+    "pos": 7.35,
+    "impr": 5869,
+    "clicks": 71,
+    "perMo": 2096.0714285714284,
+    "gain": 6.015725
+   },
+   {
+    "q": "mosquito dunks",
+    "p": "mosquito-dunks-canada-guide",
+    "c": "mosquito",
+    "pos": 5.84,
+    "impr": 2397,
+    "clicks": 20,
+    "perMo": 856.0714285714286,
+    "gain": 2.4569250000000005
+   },
+   {
+    "q": "mosquito dunks near me",
+    "p": "mosquito-dunks-canada-guide",
+    "c": "mosquito",
+    "pos": 9.43,
+    "impr": 573,
+    "clicks": 4,
+    "perMo": 204.64285714285714,
+    "gain": 0.9061585714285715
+   },
+   {
+    "q": "bti mosquito dunks",
+    "p": "mosquito-dunks-canada-guide",
+    "c": "mosquito",
+    "pos": 6.3,
+    "impr": 408,
+    "clicks": 3,
+    "perMo": 145.7142857142857,
+    "gain": 0.4182
+   },
+   {
+    "q": "where to buy mosquito dunks",
+    "p": "mosquito-dunks-canada-guide",
+    "c": "mosquito",
+    "pos": 9.01,
+    "impr": 387,
+    "clicks": 0,
+    "perMo": 138.2142857142857,
+    "gain": 0.612012857142857
+   },
+   {
+    "q": "mosquito dunks dollarama",
+    "p": "mosquito-dunks-canada-guide",
+    "c": "mosquito",
+    "pos": 7.44,
+    "impr": 315,
+    "clicks": 2,
+    "perMo": 112.5,
+    "gain": 0.322875
+   },
+   {
+    "q": "mosquito dunks edmonton",
+    "p": "mosquito-dunks-canada-guide",
+    "c": "mosquito",
+    "pos": 10.21,
+    "impr": 271,
+    "clicks": 2,
+    "perMo": 96.78571428571429,
+    "gain": 0.42856714285714287
+   },
+   {
+    "q": "mosquito bits canada",
+    "p": "mosquito-dunks-canada-guide",
+    "c": "mosquito",
+    "pos": 6.31,
+    "impr": 264,
+    "clicks": 1,
+    "perMo": 94.28571428571428,
+    "gain": 0.2706
+   },
+   {
+    "q": "mosquito dunk canada",
+    "p": "mosquito-dunks-canada-guide",
+    "c": "mosquito",
+    "pos": 7.21,
+    "impr": 211,
+    "clicks": 1,
+    "perMo": 75.35714285714286,
+    "gain": 0.21627500000000002
+   },
+   {
+    "q": "bacillus thuringiensis israelensis canada",
+    "p": "mosquito-dunks-canada-guide",
+    "c": "mosquito",
+    "pos": 6.73,
+    "impr": 205,
+    "clicks": 7,
+    "perMo": 73.21428571428572,
+    "gain": 0.21012500000000003
+   }
+  ],
+  "cur": "mosquito-dunks-canada-guide",
+  "inb": 26
+ },
+ {
+  "p": "best-dehumidifier-for-basement-canada",
+  "c": "dehumidifier",
+  "gain": 6.68334375,
+  "impr": 445,
+  "qs": [
+   {
+    "q": "best dehumidifier for basement canada",
+    "p": "best-dehumidifier-for-basement-canada",
+    "c": "dehumidifier",
+    "pos": 7.68,
+    "impr": 445,
+    "clicks": 8,
+    "perMo": 158.92857142857142,
+    "gain": 6.68334375
+   }
+  ],
+  "cur": "best-dehumidifier-for-basement-canada",
+  "inb": 30
+ }
+]

@@ -96,6 +96,50 @@ const FAQS = [
     question: 'How can you tell a mosquito bite from a bed bug bite?',
     answer: 'A mosquito bite is a single round, puffy welt that appears within minutes on skin left uncovered outdoors, while bed bug bites usually appear overnight in lines or tight clusters of three or four on skin that was against the mattress. Mosquito welts fade in 3 to 7 days; bed bug bites often take longer and keep reappearing night after night because the source is indoors. Location and pattern are the fastest tell: outdoors and scattered points to mosquitoes, indoors and lined up points to bed bugs.',
   },
+  {
+    question: 'Why do some mosquito bites last longer than others?',
+    answer: 'Five factors explain almost every long-lasting bite. Scratching is the biggest — it releases fresh histamine and routinely turns a 3-day bite into 7 to 14 days. How sensitised your immune system is matters next: children and people new to a region react hardest and longest. A cluster of bites at once keeps the whole area inflamed longer than any single welt would. Bite location counts, because thin, loose skin like eyelids, ankles and the tops of the feet swells more and stays raised longer. And friction from a sock elastic, waistband, or watch strap re-irritates the bite every time you move.',
+  },
+  {
+    question: 'How long do mosquito bites take to disappear?',
+    answer: 'There are two answers. The bump disappears in 3 to 7 days, or up to two weeks for a strong allergic reaction. The mark can take several weeks to a few months, because that flat brown or pink spot is post-inflammatory pigmentation rather than an active bite. The practical test is whether you can feel it: a raised, itchy, warm bump is still reacting, while a flat, painless, discoloured patch has finished healing and is simply fading. Keeping the spot out of direct sun helps it even out faster.',
+  },
+  {
+    question: 'What are the stages of mosquito bite healing?',
+    answer: 'Mosquito bite healing runs through five stages. The bite itself is usually painless. An immediate pale, itchy welt rises within 5 to 20 minutes. A firmer, redder, delayed bump peaks 24 to 48 hours later and is the itchiest point. Between days 3 and 5 the swelling starts going down and the redness fades from the centre outward. Most bites are flat and no longer itchy by day 5 to 7. A flat discoloured mark may then remain for several weeks to a few months. Bites that were scratched open, or that swelled into a large local allergic reaction, run the same sequence roughly twice as slowly.',
+  },
+  {
+    question: 'How long do mosquito bites last on a child?',
+    answer: 'Children’s mosquito bites typically last longer than adults’ — commonly 5 to 10 days rather than 3 to 7 — because a child’s immune system has had the fewest previous exposures to mosquito saliva and reacts most strongly. A large local reaction in a young child can take up to about 10 days to heal completely. Mayo Clinic notes that these severe local reactions are most common in young children and in people newly exposed to a mosquito species. Keeping fingernails short and covering the bite shortens the timeline more than anything applied to it.',
+  },
+  {
+    question: 'Are mosquito bites worse after 2 days?',
+    answer: 'A bite getting worse on day two is normal — that is the delayed immune reaction peaking at 24 to 48 hours. A bite still getting worse on day three is not. The useful rule is direction of travel: a normal bite improves after about 48 hours, so a bite that is redder, hotter, more painful, or larger on day 3 than on day 2 should be looked at. Allergy and infection run on opposite clocks — an allergic reaction is worst within hours and then eases, while a bacterial infection escalates day over day. Mayo Clinic names increasing pain, a change in skin colour, and oozing as the signs to check.',
+  },
+  {
+    question: 'Why is my mosquito bite still itching after a week?',
+    answer: 'A bite still itching after seven days is outside the normal 3 to 7 day range but is usually still benign. Four causes account for nearly all of them: it has been scratched repeatedly, so the histamine reaction keeps restarting; it was a large local allergic reaction from the start, which can legitimately stay itchy for up to two weeks; the skin has been broken and become infected, which brings spreading redness, warmth, pain, or pus; or it was never a mosquito bite. A flat, discoloured, non-itchy mark at one week is not a bite that is lasting — it is post-inflammatory pigmentation and fades on its own.',
+  },
+  {
+    question: 'Do mosquito bites last longer if you scratch them?',
+    answer: 'Yes, substantially. Scratching triggers more histamine release and restarts the reaction you were waiting out. A bite left alone typically stops itching in 2 to 4 days and is gone in under a week; the same bite scratched repeatedly can stay inflamed for one to two weeks, is far more likely to leave a lasting discoloured mark, and can be broken open enough to let bacteria in. This is the one variable fully under your control, and it moves the timeline more than any product. Covering the bite with a plaster is more reliable than willpower.',
+  },
+  {
+    question: 'What helps mosquito bites go away quicker?',
+    answer: 'The fastest measures target histamine and the itch nerves rather than the puncture: a cold compress for about 10 minutes, 0.5% to 1% hydrocortisone cream, an oral antihistamine when you have several bites at once, and calamine lotion or a paste of baking soda and water — the last two are among the home remedies Mayo Clinic lists for insect bites. Covering the bite so it cannot be scratched shortens the timeline more than any of them. Keeping the fading mark out of direct sun stops post-inflammatory pigmentation from lingering. Antibiotic ointment on an uninfected bite does nothing.',
+  },
+  {
+    question: 'How long after a mosquito bite do West Nile symptoms appear?',
+    answer: 'The Public Health Agency of Canada describes West Nile virus symptoms appearing 2 to 14 days after an infected mosquito bite, and also notes that most people who are infected never develop symptoms at all. Because the bite and any illness are separated by more than a week in most cases, people rarely connect the two — so if you develop fever, headache, or body aches in the one to two weeks after being bitten, tell your doctor when and where the bites happened. In Ontario, West Nile is carried by Culex mosquitoes, which feed most heavily at dusk and dawn from July into September.',
+  },
+  {
+    question: 'Do mosquito bites last longer than bed bug bites?',
+    answer: 'No — mosquito bites are the shorter of the two. A mosquito welt appears on uncovered skin, is itchiest at 24 to 48 hours, and is essentially finished within 3 to 7 days. Bed bug bites appear on skin that was against the mattress, often take one to two weeks, and keep arriving night after night because the source is indoors. That recurrence, more than the appearance of any single bite, is what settles it: outdoors, scattered and gone in a week points to mosquitoes; indoors, lined up and repeating points to bed bugs.',
+  },
+  {
+    question: 'Can a mosquito bite cause Lyme disease?',
+    answer: 'No. The Public Health Agency of Canada attributes Lyme disease to blacklegged (deer) ticks, not mosquitoes. The relevant red flag is an expanding bull’s-eye rash spreading outward in a ring over days, which points to a tick bite rather than a mosquito bite and warrants medical assessment. Mosquitoes in Ontario are associated with West Nile virus instead, with symptoms appearing 2 to 14 days after an infected bite. If a mark is growing outward rather than shrinking, have it assessed rather than treating it as a slow-healing mosquito bite.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({
@@ -217,6 +261,79 @@ export default function WhyDoMosquitoBitesItchPage() {
           <p>Most mosquito bites last 3 to 7 days and itch worst in the first 24 to 48 hours. The welt rises quickly, peaks as the delayed part of the immune reaction kicks in on the second day, then gradually flattens and stops itching as your body clears the histamine. For a routine bite that you leave alone, the itch is usually mostly gone within 2 to 4 days.</p>
           <p>Two things stretch that timeline out. A strong allergic reaction can keep a bite swollen and itchy for a week or two. And scratching &mdash; the most tempting and most counterproductive response &mdash; releases fresh histamine, re-inflames the skin, and can break the surface, which both prolongs the itch and opens the door to infection. Even after the bump is gone, a flat brown or pinkish mark (post-inflammatory pigmentation) can linger for several weeks, especially on darker skin or where a bite was scratched raw. The single best thing you can do to make a bite go away faster is to not scratch it.</p>
 
+          <h2>Why do some mosquito bites last longer than others?</h2>
+          <p>Two bites from the same evening can be gone in three days and still itching in ten. The difference is rarely the mosquito &mdash; it is scratching, how sensitised your immune system already is, how many bites landed at once, where on the body the bite sits, and whether clothing keeps rubbing it. Those five factors explain almost every unusually long-lasting bite.</p>
+
+          <div className="not-prose my-6 overflow-x-auto rounded-xl border border-gray-200">
+            <table className="w-full text-sm min-w-[600px]">
+              <thead className="bg-brand-50">
+                <tr>
+                  <th className="px-3 py-2 text-left">Factor</th>
+                  <th className="px-3 py-2 text-left">Effect on how long the bite lasts</th>
+                  <th className="px-3 py-2 text-left">What helps</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  ['Scratching', 'The biggest single factor — routinely turns a 3-day bite into 7–14 days, and is the main route to infection and a lasting mark', 'Cold compress, 1% hydrocortisone, an oral antihistamine, or simply covering the bite with a plaster so fingers cannot reach it'],
+                  ['How sensitised you are', 'Children and people newly arrived in a region react hardest and longest; long-term residents often settle in 2–3 days', 'Nothing to fix — the reaction shrinks naturally with years of exposure'],
+                  ['Several bites at once', 'A cluster of bites keeps total histamine high, so the whole area stays inflamed longer than any single bite would', 'Treat the whole area at once; an oral antihistamine works better than spot-treating six welts'],
+                  ['Where the bite is', 'Thin, loose skin — eyelids, ankles, tops of feet, backs of hands — swells far more and stays raised longer than skin on the forearm', 'Cold compress and elevation on ankles and feet, where gravity keeps the fluid in place'],
+                  ['Friction from clothing', 'A bite under a sock elastic, waistband, bra strap, or watch strap is re-irritated every time you move, which restarts the itch cycle', 'Loose clothing over the spot until the welt flattens'],
+                  ['Broken skin', 'Once the surface is broken the timeline is no longer a bite timeline — a bacterial infection gets worse day over day instead of better', 'Clean it, keep it covered, and see a healthcare provider if redness or pain is spreading'],
+                  ['Sun on the fading mark', 'UV darkens post-inflammatory pigmentation, so the flat brown spot left behind lingers weeks longer', 'Keep the healing spot covered or shaded until the colour has evened out'],
+                ].map(([factor, effect, help]) => (
+                  <tr key={factor} className="border-t border-gray-100 align-top">
+                    <td className="px-3 py-2 font-semibold text-brand-800">{factor}</td>
+                    <td className="px-3 py-2 text-gray-700">{effect}</td>
+                    <td className="px-3 py-2 text-gray-700">{help}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p>The cluster factor is worth spelling out, because people routinely assume a bad night means one relentless mosquito. It often does &mdash; a single interrupted female will return and feed again, which is why bites arrive in threes and fours. We work through that in <Link href="/blog/how-many-times-can-a-mosquito-bite-you">how many times one mosquito can bite you</Link>, and it matters here because the more welts you are carrying at once, the longer the whole area stays inflamed.</p>
+
+          <h2>How long does it take for mosquito bites to stop itching?</h2>
+          <p>A mosquito bite you leave alone usually stops itching in 2 to 4 days. The itch is at its sharpest somewhere between hour 24 and hour 48, when the delayed part of the immune reaction arrives, then tapers off as your body clears the histamine. By day three most people notice the bite only when something brushes it.</p>
+          <p>That figure assumes you are not scratching. Every scratch releases fresh histamine into the skin and restarts the reaction from the beginning, which is why a bite that is picked at can stay actively itchy for a week or more. If the itch is stopping you sleeping, the fastest interventions are the ones aimed at histamine rather than at the bite: an oral antihistamine, 1% hydrocortisone cream, and a cold compress to numb the nerve endings while the cream works.</p>
+
+          <h2>How long do mosquito bites take to disappear?</h2>
+          <p>There are two answers, and mixing them up is why people think their bite is dragging on. The <strong>bump</strong> disappears in 3 to 7 days &mdash; up to two weeks for a strong allergic reaction. The <strong>mark</strong> can take several weeks to a few months, because that flat brown or pink spot is post-inflammatory pigmentation, not a bite that is still going.</p>
+          <p>The practical test is whether you can feel it. A raised, itchy, warm bump is still an active reaction. A flat, painless, discoloured patch is finished healing and is simply fading. If a bite has flattened and stopped itching but the colour remains, nothing is wrong and nothing needs treating &mdash; keep it out of direct sun and it will even out on its own.</p>
+
+          <h2>Stages of mosquito bite healing, day by day</h2>
+          <p>Mosquito bite healing runs through five stages: the painless bite itself, an immediate welt at 5 to 20 minutes, a firmer delayed bump peaking at 24 to 48 hours, flattening and fading between days 3 and 7, and a flat discoloured mark that clears over the following weeks.</p>
+          <ul>
+            <li><strong>Day 0, the first hour.</strong> The bite is usually painless. A pale, soft, itchy welt rises within about 5 to 20 minutes as histamine leaks fluid into the skin.</li>
+            <li><strong>Day 1 to 2, the peak.</strong> Immune cells arrive and the welt becomes firmer, redder, and hotter. This delayed phase is the itchiest point for most people &mdash; a bite that seemed trivial at bedtime is often worst the next morning.</li>
+            <li><strong>Day 3 to 5, the turn.</strong> Swelling starts to go down and the redness fades from the centre outward. A normal bite should be clearly <em>improving</em> by now; this is the point where a bite that is still getting worse stops being a normal bite.</li>
+            <li><strong>Day 5 to 7, resolution.</strong> The bump flattens and the itch stops. Most mosquito bites are finished here.</li>
+            <li><strong>Week 2 and beyond, the aftermark.</strong> A flat brown, pink, or greyish patch of post-inflammatory pigmentation may remain and fades over several weeks to a few months, more slowly on darker skin tones and on bites that were scratched.</li>
+          </ul>
+          <p>Bites that were scratched open, or that swelled into a large local allergic reaction, run this sequence roughly twice as slowly &mdash; expect up to two weeks rather than one.</p>
+
+          <h2>How long do mosquito bites last on a child?</h2>
+          <p>Children&rsquo;s mosquito bites typically last longer than adults&rsquo; &mdash; commonly 5 to 10 days rather than 3 to 7 &mdash; because a child&rsquo;s immune system has had the fewest previous exposures to mosquito saliva and mounts the strongest reaction. A large local reaction in a young child can take up to about 10 days to heal completely.</p>
+          <p>Mayo Clinic notes that the severe local reactions sometimes called skeeter syndrome are most common in young children and in people newly exposed to a mosquito species, which is exactly the combination most parents are dealing with in a first or second summer. A toddler&rsquo;s bite that swells to the size of a loonie, feels hot and firm, and appears within hours of being outside is usually this allergic reaction rather than an infection &mdash; alarming to look at, and not dangerous in itself.</p>
+          <p>Two things shorten a child&rsquo;s bite more than anything applied to it: keeping fingernails short, and covering the bite so it cannot be scratched. For prevention, Health Canada&rsquo;s repellent guidance is age-banded rather than one-size-fits-all &mdash; no DEET at all under 6 months, up to 10% DEET for children aged 6 months to 12 years, and icaridin (the Canadian name for picaridin) at 20% permitted from 6 months of age. We set the products against those age bands in <Link href="/blog/best-bug-spray-for-kids-canada">the best bug spray for kids in Canada</Link>. If a child&rsquo;s bite comes with a fever, spreading redness, or swelling that is still growing after two days, see a healthcare provider.</p>
+
+          <h2>Do mosquito bites last longer if you scratch them?</h2>
+          <p>Yes, substantially. Scratching mechanically triggers more histamine release, which restarts the reaction you were waiting out. A bite left alone typically stops itching in 2 to 4 days and is gone in under a week; the same bite scratched repeatedly can stay inflamed for one to two weeks, is far more likely to leave a lasting discoloured mark, and can be broken open enough to let bacteria in.</p>
+          <p>This is the one variable on the whole page that is fully under your control, and it moves the timeline more than any product. If willpower is not enough &mdash; and at 2am it usually is not &mdash; the reliable trick is physical: cover the bite with a plaster or a light dressing so a sleeping hand cannot reach it.</p>
+
+          <h2>What helps mosquito bites go away quicker?</h2>
+          <p>The fastest-acting measures target histamine and the itch nerves, not the puncture: a cold compress for about 10 minutes, 0.5% to 1% hydrocortisone cream, an oral antihistamine, and calamine lotion or a paste of baking soda and water &mdash; the last two are among the home remedies Mayo Clinic lists for insect bites. Above all, do not scratch, which is what actually determines whether the bite takes three days or ten.</p>
+          <ul>
+            <li><strong>Cold, first.</strong> A cold compress or a cloth-wrapped ice pack held on for around 10 minutes constricts the leaky blood vessels and numbs the nerve endings reporting the itch. It works within seconds and can be repeated.</li>
+            <li><strong>Hydrocortisone 0.5&ndash;1%.</strong> An over-the-counter steroid cream calms the inflammation driving the swelling. Apply thinly, a few times a day, on unbroken skin.</li>
+            <li><strong>An oral antihistamine.</strong> Better than any cream when you are dealing with a cluster of bites rather than one, since it works on the whole reaction at once.</li>
+            <li><strong>Calamine lotion or baking-soda paste.</strong> Both are listed by Mayo Clinic among its home remedies for insect bites and stings; they soothe the surface itch without a steroid.</li>
+            <li><strong>Cover it.</strong> A plaster over the bite removes the scratching variable entirely, which shortens the timeline more than anything on this list.</li>
+            <li><strong>Keep the fading mark out of the sun.</strong> UV darkens post-inflammatory pigmentation and makes the leftover spot last weeks longer.</li>
+          </ul>
+          <p>What does not speed anything up: antibiotic ointment on a bite that is not infected, heat, or squeezing the welt. Our full step-by-step, including what to reach for at 2am, is in <Link href="/blog/mosquito-bite-treatment-relief">the mosquito bite treatment guide</Link>.</p>
+
           <h2>Do mosquito bites leave marks or scars?</h2>
           <p>Mosquito bites rarely leave true scars. What lingers is post-inflammatory pigmentation &mdash; a flat brown, pink, or greyish mark that fades over several weeks to a few months and shows longer on darker skin. Permanent marks come from scratching deep enough to break the skin. The U.S. Centers for Disease Control and Prevention (CDC) advises against scratching bites, because breaking the skin surface can lead to infection.</p>
           <p>Most mosquito bites do not scar, because the reaction plays out in the upper layers of the skin and heals without damaging the deeper tissue that forms true scars. What people usually notice weeks later is a flat brown, pink, or greyish spot called <strong>post-inflammatory pigmentation</strong> &mdash; the skin&rsquo;s temporary response to inflammation, not a scar. These marks fade on their own over several weeks to a few months and are more noticeable, and slower to clear, on darker skin tones.</p>
@@ -272,6 +389,58 @@ export default function WhyDoMosquitoBitesItchPage() {
           <p>Mosquito season in Ontario runs from May through September, and bites peak in June and July once spring rain and warm nights have produced the largest broods. Public Health Ontario runs West Nile virus mosquito surveillance each summer, and the <em>Culex</em> species that carry the virus feed most heavily at dusk and dawn from July into September.</p>
           <p>In the GTA that peak sits squarely over backyard season, which is why <Link href="/mosquito-control">barrier treatments here</Link> are scheduled across May to September rather than booked as one-off visits after the bites have already started.</p>
 
+          <h2>Are mosquito bites worse after 2 days? The day-3 rule</h2>
+          <p>A mosquito bite getting worse on day two is normal &mdash; that is the delayed immune reaction peaking at 24 to 48 hours. A bite still getting worse on day three is not. The single most useful thing to know about bite timing is the direction of travel: a normal bite improves after about 48 hours, so <strong>a bite that is redder, hotter, more painful, or larger on day 3 than it was on day 2 is the signal to have it looked at</strong>.</p>
+          <p>That rule works because allergy and infection run on opposite clocks. A large local allergic reaction is at its worst within hours to a day and then eases; a bacterial skin infection is mild at first and escalates day over day. Mayo Clinic names the signs to check for alongside the timing &mdash; increasing pain, a change in skin colour around the site, and oozing &mdash; and pain in particular is telling, because a normal mosquito bite itches rather than hurts.</p>
+          <p>Put together, the practical version is: <em>peaks at 48 hours then improves</em> is a bite; <em>keeps escalating past 72 hours</em>, or hurts more than it itches, or comes with a fever, is a reason to see a healthcare provider. We break the visual signs down side by side in <Link href="/blog/when-to-worry-about-a-mosquito-bite">when to worry about a mosquito bite</Link>.</p>
+
+          <h2>My mosquito bite is still itching after a week &mdash; what now?</h2>
+          <p>A bite still itching after seven days is outside the normal 3 to 7 day range but is usually still benign. Four things account for nearly all of them: it has been scratched repeatedly, it was a large local allergic reaction from the start, the skin has been broken and become infected, or it was never a mosquito bite.</p>
+          <ul>
+            <li><strong>It has been scratched.</strong> By far the most common answer. Each scratch restarts the histamine reaction, so the clock never gets a chance to run out. Cover it, and the itch usually resolves within a couple of days.</li>
+            <li><strong>It was a large local reaction.</strong> A hot, firm patch 5 cm (about 2 inches) or wider can legitimately stay itchy and raised for up to two weeks. It should be shrinking, even if slowly. Antihistamines and hydrocortisone are the right tools.</li>
+            <li><strong>It is infected.</strong> Spreading redness, warmth, increasing pain, pus, or red streaks &mdash; particularly with a fever &mdash; mean this is no longer a bite reaction. See a healthcare provider; in Ontario, Health Connect Ontario at 811 can advise on urgency.</li>
+            <li><strong>It is not a mosquito bite.</strong> Bites that persist for weeks, recur nightly, arrive in lines, or cluster where clothing sits tight are usually something else. Compare against <Link href="/blog/bed-bug-bites-vs-mosquito-bites">bed bug bites versus mosquito bites</Link> and <Link href="/blog/chigger-bites">chigger bites</Link> before assuming a mosquito.</li>
+          </ul>
+          <p>A flat, discoloured, <em>non-itchy</em> mark at the one-week point is a different thing entirely and is not a bite that is lasting &mdash; it is post-inflammatory pigmentation, and it fades on its own over weeks.</p>
+
+          <h2>How long after a mosquito bite would disease symptoms appear?</h2>
+          <p>Mosquito-borne illness does not follow the bite immediately &mdash; there is an incubation period of days to weeks. In Ontario the one to know is <strong>West Nile virus</strong>, which the Public Health Agency of Canada describes as producing symptoms 2 to 14 days after an infected bite, though it also notes that most people infected never develop symptoms at all. Everything else on the list below is travel-acquired in Canada rather than picked up in a GTA backyard.</p>
+
+          <div className="not-prose my-6 overflow-x-auto rounded-xl border border-gray-200">
+            <table className="w-full text-sm min-w-[620px]">
+              <thead className="bg-brand-50">
+                <tr>
+                  <th className="px-3 py-2 text-left">Illness</th>
+                  <th className="px-3 py-2 text-left">Mosquito group</th>
+                  <th className="px-3 py-2 text-left">Symptoms appear</th>
+                  <th className="px-3 py-2 text-left">Relevance in Canada</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  ['West Nile virus', 'Culex', '2–14 days', 'Locally acquired in southern Ontario, including the GTA; Public Health Ontario runs mosquito surveillance each summer'],
+                  ['Eastern equine encephalitis', 'Culiseta, Aedes', '4–10 days', 'Rare but present in parts of Ontario and Quebec'],
+                  ['Dengue', 'Aedes', '4–10 days', 'Travel-acquired — the Aedes species that spread it are not established here'],
+                  ['Zika virus', 'Aedes', '3–14 days', 'Travel-acquired; Health Canada issues travel advice for pregnancy'],
+                  ['Chikungunya', 'Aedes', '3–7 days', 'Travel-acquired'],
+                  ['Malaria', 'Anopheles', '7 days to several months', 'Travel-acquired; Canada has been free of locally transmitted malaria for decades'],
+                  ['Yellow fever', 'Aedes', '3–6 days', 'Travel-acquired; vaccine-preventable'],
+                ].map(([illness, genus, onset, relevance]) => (
+                  <tr key={illness} className="border-t border-gray-100 align-top">
+                    <td className="px-3 py-2 font-semibold text-brand-800">{illness}</td>
+                    <td className="px-3 py-2 text-gray-700 whitespace-nowrap"><em>{genus}</em></td>
+                    <td className="px-3 py-2 text-gray-700 whitespace-nowrap">{onset}</td>
+                    <td className="px-3 py-2 text-gray-700">{relevance}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-gray-500">Incubation ranges as described by the Public Health Agency of Canada, Health Canada travel health notices, and the U.S. Centers for Disease Control and Prevention. Educational information only.</p>
+          <p>The timing matters because the bite and the illness are separated by more than a week in most cases, so people rarely connect the two. If you develop fever, headache, body aches, or a rash in the one to two weeks after being bitten &mdash; or after returning from travel &mdash; tell the doctor when and where you were bitten. Our Ontario-specific rundown is in <Link href="/blog/west-nile-virus-symptoms">West Nile virus symptoms</Link>.</p>
+          <p>One red flag that is <em>not</em> a mosquito problem: an expanding <strong>bull&rsquo;s-eye rash</strong>. That pattern points to Lyme disease, which the Public Health Agency of Canada attributes to blacklegged (deer) ticks &mdash; mosquitoes do not transmit Lyme disease. If a mark is spreading outward in a ring over days rather than shrinking, read <Link href="/blog/tick-bite-vs-mosquito-bite">tick bite versus mosquito bite</Link> and <Link href="/blog/lyme-disease-symptoms-guide">the Lyme disease symptoms guide</Link>, and see a healthcare provider.</p>
+
           <h2>When a mosquito bite is more than just an itch</h2>
           <h3>When should you see a doctor about a mosquito bite?</h3>
           <p>See a healthcare provider if a bite shows spreading redness, growing warmth, increasing pain, pus, or red streaks trailing from the site, especially with a fever &mdash; those point to infection rather than a normal reaction. Call 911 for hives away from the bite, swelling of the lips or face, dizziness, or trouble breathing, which can signal anaphylaxis.</p>
@@ -291,6 +460,49 @@ export default function WhyDoMosquitoBitesItchPage() {
             <li><Link href="/blog/mosquito-bite-vs-spider-bite">Mosquito bite vs spider bite</Link> &mdash; how to tell a harmless welt from a bite worth watching.</li>
           </ul>
 
+          <h2>How long do other bites last, compared with a mosquito bite?</h2>
+          <p>Duration is one of the most reliable ways to tell bites apart, and it is the reason so many people searching &ldquo;how long do mosquito bites last&rdquo; are actually looking at something else. Mosquito bites are the <em>short</em> ones. If a bite is still going strong at day ten, or new ones keep appearing every morning, the duration itself is the clue.</p>
+
+          <div className="not-prose my-6 overflow-x-auto rounded-xl border border-gray-200">
+            <table className="w-full text-sm min-w-[600px]">
+              <thead className="bg-brand-50">
+                <tr>
+                  <th className="px-3 py-2 text-left">Bite</th>
+                  <th className="px-3 py-2 text-left">Typically lasts</th>
+                  <th className="px-3 py-2 text-left">The giveaway</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  ['Mosquito', '3–7 days (up to 2 weeks if strongly allergic)', 'One round puffy welt on uncovered skin, itchiest at 24–48 hours, then improving'],
+                  ['Bed bug', 'Often 1–2 weeks, and new ones appear night after night', 'Lines or tight clusters on skin that was against the mattress; the source is indoors, so it recurs'],
+                  ['Flea', 'Roughly 1–2 weeks', 'Small red dots grouped on the lower legs and ankles, usually where a pet has been'],
+                  ['Chigger', 'Itch peaks at 1–2 days; welts can persist 1–2 weeks', 'Clusters exactly where clothing sits tight — sock line, waistband'],
+                  ['No-see-um (biting midge)', 'Itch for several days; marks can linger 1–2 weeks', 'A burn far out of proportion to a nearly invisible bite, often at dusk near water'],
+                  ['Tick', 'The attachment mark is minor; a spreading rash can develop over days to weeks', 'The tick may still be attached; an expanding bull’s-eye rash needs medical assessment'],
+                ].map(([bite, lasts, tell]) => (
+                  <tr key={bite} className="border-t border-gray-100 align-top">
+                    <td className="px-3 py-2 font-semibold text-brand-800">{bite}</td>
+                    <td className="px-3 py-2 text-gray-700">{lasts}</td>
+                    <td className="px-3 py-2 text-gray-700">{tell}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-gray-500">Typical ranges for otherwise healthy adults; individual reactions vary widely. General educational information, not a diagnosis.</p>
+          <p>The single most useful contrast here is the first two rows. Mosquito welts appear on skin that was uncovered outdoors and are essentially finished inside a week; bed bug bites appear on skin that was covered in bed, take longer, and &mdash; crucially &mdash; keep arriving each night because the source is in the room with you. That recurrence, more than the look of any one bite, is what settles it. We put them side by side in <Link href="/blog/bed-bug-bites-vs-mosquito-bites">bed bug bites vs mosquito bites</Link>, and against the bite people most often fear in <Link href="/blog/tick-bite-vs-mosquito-bite">tick bite vs mosquito bite</Link>.</p>
+
+          <h2>Fewer bites to wait out: what Health Canada actually registers</h2>
+          <p>Every timeline on this page is a waiting game. The only way to shorten it to zero is to be bitten less. For personal protection in Canada, Health Canada describes <strong>DEET</strong> and <strong>icaridin</strong> as the most effective personal insect repellents available here &mdash; icaridin being the name used in Canada for what the US market calls picaridin. Health Canada also registers other actives for use on skin, including p-menthane-3,8-diol (oil of lemon eucalyptus) and soybean oil, but they give shorter protection per application.</p>
+          <ul>
+            <li><strong>DEET</strong> &mdash; Health Canada permits up to 30% for adults, up to 10% for children aged 2 to 12, and 10% applied no more than once a day for infants aged 6 months to 2 years. It is not recommended at all under 6 months. Higher concentrations do not repel better; they last longer between applications. We cover the safety evidence in <Link href="/blog/is-deet-safe">is DEET safe</Link>.</li>
+            <li><strong>Icaridin (picaridin)</strong> &mdash; registered in Canada at up to 20%, odourless, and it does not damage plastics and synthetic fabrics the way DEET can. The Canadian Paediatric Society favours icaridin 20% for children from 6 months of age, which makes it the usual first choice for families. The head-to-head is in <Link href="/blog/picaridin-vs-deet">picaridin vs DEET</Link>.</li>
+            <li><strong>Permethrin 0.5% on clothing and gear</strong> &mdash; the U.S. Centers for Disease Control and Prevention recommends treating clothing, boots, and camping gear with 0.5% permethrin, and is explicit that it is applied to fabric and <em>never</em> to skin. Treated clothing is far more common in the US than in Canada, so check availability and the label before assuming you can buy it here.</li>
+            <li><strong>Cover the skin that gets bitten.</strong> Mosquitoes can and do bite through thin, tight fabric &mdash; the physics of that is in <Link href="/blog/can-mosquitoes-bite-through-clothes">can mosquitoes bite through clothes</Link> &mdash; so loose and long beats thin and tight.</li>
+          </ul>
+          <p>Repellent protects the person wearing it. Reducing the number of mosquitoes in the yard in the first place is a different job: adult females rest through the day in shaded shrubs, under decks, and along fence lines, and a <Link href="/mosquito-control">barrier treatment</Link> targets them there before they ever reach the patio.</p>
+
           <h2>Related Reading</h2>
           <ul>
             <li><Link href="/blog/mosquito-bite-treatment-relief">Mosquito Bite Treatment &mdash; How to Stop the Itch Fast</Link></li>
@@ -298,6 +510,10 @@ export default function WhyDoMosquitoBitesItchPage() {
             <li><Link href="/blog/what-attracts-mosquitoes-to-you">What Attracts Mosquitoes to You?</Link></li>
             <li><Link href="/blog/why-mosquitoes-bite-some-people-more">Why Mosquitoes Bite Some People More Than Others</Link></li>
             <li><Link href="/mosquito-control">BuzzSkito Professional Mosquito Control Service</Link></li>
+            <li><Link href="/blog/bed-bug-bites-vs-mosquito-bites">Bed Bug Bites vs Mosquito Bites</Link> &mdash; the duration and recurrence test, side by side</li>
+            <li><Link href="/blog/west-nile-virus-symptoms">West Nile Virus Symptoms</Link> &mdash; what the 2-to-14-day window after a bite actually looks like in Ontario</li>
+            <li><Link href="/blog/how-many-times-can-a-mosquito-bite-you">How Many Times Can One Mosquito Bite You?</Link> &mdash; why bites arrive in clusters, and why clusters last longer</li>
+            <li><Link href="/blog/picaridin-vs-deet">Picaridin vs DEET</Link> &mdash; choosing between the two repellents Health Canada calls the most effective for skin</li>
           </ul>
         <h2>Frequently Asked Questions</h2>
         <div className="not-prose space-y-4">
