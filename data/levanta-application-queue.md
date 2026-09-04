@@ -1,3 +1,26 @@
+> # SUPERSEDED 2026-09-03 — READ data/amazon-reports-2026-09.md FIRST
+>
+> The Amazon Top-Sellers and Tracking-ID reports arrived and they overturn this ranking.
+>
+> **This queue ranked brands on estimated basket size x clicks. That basis has now been wrong
+> twice** — it also drove Stage G, whose 72 high-basket pages earn 13.6 clicks each against a
+> 24.2 site average.
+>
+> **Four of the five actual best-selling products sit at rank 12, 16, 18 and "tail — never
+> spend an application form on these":** Orbit 62100 sprinkler (#1 seller, ranked 12), The
+> Executioner swatter (#2, tail), Combat Max roach bait (#3, tail), Natrapel (#4, ranked 18),
+> Wilson ONE Shot (#5, ranked 16). Not one high-basket item appears in the top five.
+>
+> **The corrected priority is bed-bug first** — Premo Guard (2.49/conv) then Harris
+> (2-16.81) — because bedbug is the best-sampled high-value cluster (n=42, $129.38 earned,
+> $0.347 per Amazon click) and carries the catalogue's best rates.
+>
+> **Every "vs $2.21" multiple below is on the wrong basis.** Levanta pays per conversion
+> (order); Amazon pays this site $3.32 per ORDER (300 items across 198 orders). Divide every
+> multiple in this document by ~1.5. The Harris headline is **5.1x, not 7.6x**.
+>
+> Also: returns cost **7.3% of gross earnings** (17 of 311 items). Nothing here models that.
+
 > # ⚠ READ data/levanta-catalogue-findings.md FIRST
 >
 > On 2026-09-02 the Levanta catalogue was inspected directly in the account (it is browsable

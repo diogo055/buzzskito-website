@@ -258,11 +258,40 @@ randomized 12-page matched-pair test with a pre-committed revert rule is specifi
 finding file. **Needs owner sign-off: it changes live URLs, which is outside the
 additive-content mandate the rest of this programme has run under.**
 
+## 9d. THE AMAZON REPORTS ARRIVED 2026-09-03 — read `data/amazon-reports-2026-09.md`
+
+The weakest point in this whole project is now measured rather than inferred.
+
+**Confirmed:** the funnel model was right to ~2% (2,795 clicks vs 2,833 inferred; $656.48 vs
+$651; 4.80% commission vs 4.75%).
+
+**Corrected:** Amazon pays **$3.32 per ORDER**, not $2.21 — that is per *item*, and there are
+1.52 items per order. Levanta comparisons must use $3.32. Harris is **5.1x, not 7.6x**.
+Returns cost **7.3% of gross earnings** and were never modelled.
+
+**The finding that matters — earnings by cluster:**
+
+| | $/blog click | blog clicks |
+|---|---|---|
+| dehumidifier | **$2.403** | 32 |
+| steamer | **$1.421** | 14 |
+| bedbug | **$0.784** | 165 |
+| mosquito | $0.164 | **1,310** |
+| wasp | $0.100 | **383** |
+| tick | **$0.000** | **219** |
+
+**A dehumidifier click is worth 15x a mosquito click, and the site sends 41x more traffic to
+mosquito.** Four clusters (fogger, tick, sprayer, ant) have earned exactly $0 — including
+`tick`, with 55 pages, which is the company's core service and should stop being counted as
+affiliate inventory.
+
+**Extend the Stage G routing pass using these numbers instead of basket-size estimates.**
+
 ## 10. Needed from the owner
 
 | Item | Asked | Impact |
 |---|---|---|
-| **Amazon Top-Sellers + Linked-Product reports** | 5× | Would replace inference about what actually sells — the weakest part of the current picture |
+| ~~Amazon Top-Sellers + Linked-Product reports~~ | **RECEIVED 2026-09-03** | See `data/amazon-reports-2026-09.md`. Funnel inference confirmed to ~2%. Overturned the Levanta ranking and revealed a 15x revenue mismatch between traffic and earnings. |
 | **Levanta approval** | pending | Unblocks Stage F and the API key |
 | Raid Best Overall decision | answered — leave it | closed |
 
