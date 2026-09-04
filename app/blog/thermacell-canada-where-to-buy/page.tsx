@@ -13,29 +13,29 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'thermacell-canada-where-to-buy'
 const DATE = '2026-05-01'
-const UPDATED = '2026-07-12'
+const UPDATED = '2026-09-04'
 const TITLE = 'Thermacell Canada: Best Models, Prices & Where to Buy 2026'
 
 const FAQS = [
   {
     question: 'How much does Thermacell cost in Canada?',
-    answer: 'In Canada, expect to pay $35–$60 for a basic Thermacell Patio Shield repeller (the entry-level model) and $70–$120 for the rechargeable E55 or E90. The premium Liv Smart Mosquito Repellent System is NOT sold in Canada — it is a US-only product that is not registered with Health Canada\'s PMRA. Refills typically run $15–$22 for a 12-hour 3-pack and $30–$45 for a 36-hour 9-pack at Canadian Tire, Home Depot, Cabela\'s Canada, and MEC. Stock up at the start of mosquito season (April–May) — refills run low by July.',
+    answer: 'Broadly speaking, the fuel-powered Patio Shield / Fuel-ZoneGuard sits at the entry level, the rechargeable E-Series (E55, E90, EX90) sits well above it, and refills are the small recurring cost. Prices move between retailers and through the season, so check current pricing at the retailer rather than trusting any published figure. The premium Liv Smart Mosquito Repellent System is NOT sold in Canada — Thermacell states it is available in the United States only, and a search of Health Canada\'s Pesticide Product Information Database returns no registered Thermacell Liv product (23 Thermacell products are registered in Canada; none of them is Liv). Stock up on refills at the start of mosquito season (April–May) — supply runs low by July.',
   },
   {
     question: 'Where to buy Thermacell in Canada?',
-    answer: 'Thermacell devices and refills are stocked at Canadian Tire, Home Depot Canada, Rona, Lowe\'s Canada, Cabela\'s Canada, Bass Pro Canada, MEC (Mountain Equipment Company), Amazon.ca, and most outdoor sporting goods stores. Canadian Tire usually has the best pricing and stocks the full Canadian lineup including Patio Shield, E55, and E90. The Liv smart system is not sold in Canada (US-only). Cabela\'s and MEC stock more of the camping/portable models.',
+    answer: 'Thermacell devices and refills are carried by Canadian Tire, Home Depot Canada, RONA (including the RONA+ stores that replaced the Lowe\'s banner in Canada in February 2024 — there is no longer a Lowe\'s Canada), Bass Pro Shops and Cabela\'s Canada, MEC (Mountain Equipment Company), Walmart Canada, Best Buy Canada, Amazon.ca, and independent outdoor retailers. We verified the E55 listed at Canadian Tire and MEC, the Patio Shield / Fuel-ZoneGuard at Home Depot Canada, Bass Pro Canada and MEC, the EX90 at MEC and thermacell.ca, and the E90 at Walmart Canada, Best Buy Canada and Amazon.ca. Which model any one store carries changes year to year, so check the retailer before driving out. The Liv smart system is not sold in Canada (Thermacell: United States only). Cabela\'s, Bass Pro and MEC lean toward the camping/portable models.',
   },
   {
     question: 'Do Thermacell repellers actually work?',
-    answer: 'Yes — when used correctly. Thermacell devices heat a mat soaked with allethrin (a synthetic version of pyrethrum, the natural chemical found in chrysanthemums) to release a vapour that repels mosquitoes within a 4.5–5 metre (15-foot) radius. Independent testing confirms 70–95% mosquito reduction in still air. However, performance drops in moderate-to-strong wind, on large open lawns, near stagnant water, or against blackflies and biting midges. Best for sheltered patios, decks, and small gathering areas — not whole-yard protection.',
+    answer: 'Yes — when used correctly. Thermacell devices warm a mat or cartridge holding a synthetic pyrethroid (a lab-made relative of pyrethrum, the natural insecticide in chrysanthemums) to release a vapour that repels mosquitoes. Health Canada registered the Canadian fuel-powered line in Registration Decision RD2019-03 with a claim of killing and repelling mosquitoes "in an area up to 4.5 metres from the device for up to 4 hours" — that 4.5 m figure is the regulator\'s number, not marketing. Published field trials of Thermacell-type emanators report protection in the 70–95% range in still air (for example, a field evaluation in Şanlıurfa, Turkey measured 90–97% bite reduction, and the IVCC 2020 expert review of spatial repellents puts allethrin and metofluthrin emanators above 70% protection across multiple studies). BuzzSkito does not test consumer products. Performance drops in moderate-to-strong wind, on large open lawns and near stagnant water. Best for sheltered patios, decks, and small gathering areas — not whole-yard protection.',
   },
   {
     question: 'Is Thermacell safe for kids, pets, and pollinators?',
-    answer: 'Allethrin is approved by Health Canada for residential use and is considered safe for humans and pets when devices are used as directed. The vapour is non-toxic to skin contact and breathing at the concentrations Thermacell produces. However, allethrin IS toxic to fish and bees in high concentrations — never use Thermacell directly over a pond with fish, and avoid running it during peak pollinator activity (mid-morning to late afternoon when bees are foraging). Keep kids from touching the heated mat. Cats are slightly more sensitive to pyrethroids than dogs but Thermacell\'s vapour exposure is well below toxicity thresholds.',
+    answer: 'Health Canada\'s PMRA has registered the pyrethroids Thermacell uses in Canada — 1R-trans prallethrin for the fuel-powered line (Registration Decision RD2019-03) and metofluthrin for the rechargeable E-Series (Evaluation Report ERC2015-01 and the related registration decision) — and concluded that, used as directed, they do not present an unacceptable risk to human health or the environment. That is not the same as "non-toxic": these are registered pesticides, Canadian labels carry a "Caution Poison" hazard statement, and Health Canada states plainly that metofluthrin "is highly toxic to aquatic invertebrates, fish, and bees." So do not run a Thermacell over a pond with fish, do not run it in the middle of the day when bees are foraging, keep it away from children and don\'t let anyone touch the heated mat, and follow the label. Cats are more sensitive to pyrethroids than dogs; keep the device out of their reach. If you are unsure, the label that came in the box is the legal instruction — follow it over any web page, including this one.',
   },
   {
     question: 'Thermacell vs DEET vs Picaridin — which is better?',
-    answer: 'They serve different purposes. Thermacell creates a 4.5m repellent zone around you (no skin application). DEET (20–30%) and Picaridin (20%) are applied to skin/clothing for personal protection during activity. Best combination for GTA outdoor activities: Thermacell on the patio while sitting still, plus DEET or Picaridin on skin if walking through dense vegetation. For tick prevention specifically, neither Thermacell nor DEET is as effective as Permethrin-treated clothing.',
+    answer: 'They serve different purposes. Thermacell creates a repellent zone around the device — Health Canada\'s RD2019-03 registers the Canadian fuel-powered line for up to 4.5 metres from the device — with nothing applied to your skin. DEET and icaridin (the Canadian name for picaridin) are applied to skin for personal protection during activity; Health Canada caps consumer DEET at 30% and registers icaridin up to 20%. Best combination for GTA outdoor activities: Thermacell on the patio while sitting still, plus DEET or icaridin on skin if you walk through dense vegetation. For ticks specifically, permethrin-treated clothing outperforms both — but in Canada that means FACTORY pre-treated garments, which the Public Health Agency of Canada says have been approved for people over the age of 16, including pregnant women. PHAC does advise against wearing treated clothing while nursing, because it puts infants in close contact with the product. Consumer permethrin liquids and sprays for treating your own clothing are NOT approved for use in Canada (Public Health Agency of Canada).',
   },
   {
     question: 'How long do Thermacell refills last?',
@@ -43,35 +43,35 @@ const FAQS = [
   },
   {
     question: 'Can I use Thermacell against blackflies in Ontario?',
-    answer: 'Thermacell\'s allethrin vapour does work on blackflies but less effectively than against mosquitoes. Blackflies are smaller and tend to fly aggressively into the repellent zone, particularly in cottage country (Muskoka, Algonquin, Haliburton). For blackfly protection in northern Ontario settings, layer Thermacell with a head net during peak May–June blackfly season. In the GTA proper, blackflies are not typically a concern — only southern blackflies along the Niagara Escarpment edge see meaningful populations.',
+    answer: 'Don\'t count on it. The Thermacell products registered in Canada carry a mosquito claim — Health Canada\'s RD2019-03 registers the fuel-powered line as an "area repellent device to kill and repel mosquitos," and blackflies are not on that registered claim. Users often report some incidental effect on blackflies, but it is not a claim the manufacturer makes on the Canadian label and it is weaker than the mosquito effect: blackflies are smaller and fly aggressively into the zone, particularly in cottage country (Muskoka, Algonquin, Haliburton). For blackflies in northern Ontario, a head net is the reliable answer during the May–June peak. In the GTA proper, blackflies are not typically a concern — only pockets along the Niagara Escarpment edge see meaningful populations.',
   },
   {
     question: 'Does Thermacell work for large yards or just patios?',
-    answer: 'Thermacell\'s standard 4.5–5 metre radius makes it ideal for patios (under 200 sq ft), decks, and small gathering spaces but inadequate for protecting an entire backyard (3,000–10,000 sq ft typical GTA lot). For whole-yard protection, professional barrier spray (applied to vegetation surfaces) creates a 30-day residual protection over the entire treated area — about 100x more square footage covered per dollar than running multiple Thermacells. Most GTA homeowners use Thermacell for the immediate seating area combined with professional yard spray for area coverage.',
+    answer: 'The 4.5-metre working distance Health Canada registered (RD2019-03) makes Thermacell ideal for patios, decks, and small gathering spaces but inadequate for an entire backyard (3,000–10,000 sq ft on a typical GTA lot). One device covers roughly 65 sq m (about 700 sq ft) at that distance in dead-calm air, so a whole yard would take somewhere between four and fifteen units running at once — and far more than that once wind is in play. For whole-yard protection, a professional barrier spray applied to vegetation surfaces gives 21–30 days of residual coverage across the treated area at a far lower cost per square foot. Most GTA homeowners use Thermacell for the immediate seating area combined with professional yard spray for area coverage.',
   },
   {
     question: 'Are Thermacell refills the same in Canada as the USA?',
-    answer: 'Yes — Thermacell uses identical refill formulations across North America. Canadian Tire, Home Depot Canada, and other Canadian retailers stock the same Earth Scent and Original mats sold at US retailers. The fuel cartridges are also interchangeable. If you bought a Thermacell device in the US, refills purchased in Canada will work with no compatibility issues. Health Canada and the EPA both register allethrin under similar standards.',
+    answer: 'Physically yes, chemically not always. The mats, cartridges and butane fuel cartridges use the same form factors on both sides of the border, so a device bought in the US will accept a refill bought in Canada. But the active ingredient can differ: Thermacell states its fuel-powered repellers use "d-allethrin or Prallethrin," and the Canadian fuel-powered line was registered by Health Canada under RD2019-03 with 1R-trans prallethrin, while the rechargeable E-Series uses metofluthrin. Buy the Canadian-labelled refill — it is the one registered for sale and use in Canada under the Pest Control Products Act, and it carries the PCP registration number and the Canadian directions you are legally meant to follow.',
   },
   {
     question: 'Should I get the Thermacell Liv smart system or a basic Patio Shield?',
-    answer: 'In Canada that choice doesn\'t exist — the Liv Smart Mosquito Repellent System is US-only and is not registered for sale by Health Canada\'s PMRA, so Canadian retailers don\'t stock it. For occasional weekend use on a patio, the basic Patio Shield ($35–$50) is the right call. For set-it-and-forget-it evenings without swapping fuel cartridges, the rechargeable E90 ($90–$120) is the closest Canadian equivalent — about 9 hours per charge, and the top Thermacell you can actually buy in Canada. For camping and travel, the rechargeable E55 ($70–$90) hits the sweet spot.',
+    answer: 'In Canada that choice doesn\'t exist — Thermacell states the Liv Smart Mosquito Repellent System is sold in the United States only, and no Liv product appears among the 23 Thermacell products registered in Health Canada\'s Pesticide Product Information Database, so Canadian retailers don\'t stock it. For occasional weekend use on a patio, the basic Patio Shield / Fuel-ZoneGuard is the cheapest way in. For set-it-and-forget-it evenings without swapping fuel cartridges, the rechargeable E90 is the closest Canadian equivalent — about 9 hours per charge. For camping and travel, the rechargeable E55 hits the sweet spot.',
   },
   {
     question: 'What is the best Thermacell to buy in Canada in 2026?',
-    answer: 'The best Thermacell for most GTA homeowners is the rechargeable E55 ($70–$90) — it protects a 20-foot zone, runs 5.5 hours on a charge, and skips the fuel cartridge of the older Patio Shield. If you want the longest runtime, the E90 ($90–$120) doubles the battery to ~9 hours — it is the premium pick in Canada, since the Liv Smart System is US-only and not sold here. For the cheapest entry point, the Patio Shield ($35–$50) still works well for casual patio dinners. All three are stocked at Canadian Tire, Home Depot Canada, and Amazon.ca.',
+    answer: 'The best Thermacell for most GTA homeowners is the rechargeable E55 — Thermacell and Canadian Tire both describe it as a 20-foot (6 m) zone, it runs about 5.5 hours on a charge, and it skips the fuel cartridge of the older Patio Shield. If you want the longest runtime, the E90 roughly doubles the battery to ~9 hours — it is the premium pick available in Canada, since the Liv Smart System is sold in the US only. For the cheapest entry point, the Patio Shield / Fuel-ZoneGuard still works well for casual patio dinners. Availability varies by chain: we found the E55 listed at Canadian Tire and MEC, the Patio Shield at Home Depot Canada and Bass Pro Canada, and the E90 at Walmart Canada, Best Buy Canada and Amazon.ca. Check your retailer before you drive out.',
   },
   {
     question: 'Thermacell E55 vs E90 — what is the difference?',
-    answer: 'The E55 and E90 are Thermacell\'s two flagship rechargeable repellers and both cover the same 20-foot (110 sq ft) zone with the same allethrin refills. The difference is runtime and build: the E55 runs about 5.5 hours per charge and costs $70–$90 in Canada, while the E90 runs about 9 hours, has a more rugged housing, and costs $90–$120. Pick the E55 for weekend patios and camping; pick the E90 if you host long evenings and don\'t want to recharge mid-gathering.',
+    answer: 'The E55 and E90 are Thermacell\'s two flagship rechargeable repellers and both are described as a 20-foot (6 m) zone running on the same E-Series liquid cartridges. Those cartridges are metofluthrin, not the allethrin used in the older fuel-powered mats — Thermacell states "our rechargeable platform repellent cartridges use metofluthrin as the repellent active ingredient." Metofluthrin is registered for outdoor mosquito repellent use in Canada by Health Canada\'s PMRA. The difference between the two models is runtime and build: the E55 runs about 5.5 hours per charge; the E90 runs about 9 hours in a more rugged housing and sits higher in the range. Pick the E55 for weekend patios and camping; pick the E90 if you host long evenings and don\'t want to recharge mid-gathering.',
   },
   {
     question: 'Can you use Thermacell indoors?',
-    answer: 'No — Thermacell repellers are designed and Health Canada-approved for outdoor use only. The device relies on open-air allethrin vapour dispersing around you, and the fuel/heating models are not meant for enclosed or poorly ventilated indoor spaces. Use it on patios, decks, docks, campsites, and in open garages or gazebos with airflow — not inside living rooms, bedrooms, tents, or sealed sunrooms.',
+    answer: 'No. Thermacell states plainly that "Thermacell products are not intended for indoor use," and the products Health Canada registered here are registered as outdoor area repellents. The device relies on open-air pyrethroid vapour dispersing around you, and the fuel-burning models add a combustion hazard indoors. Use it on patios, decks, docks, campsites, and open-sided gazebos — not inside living rooms, bedrooms, tents, garages, or sealed sunrooms.',
   },
   {
     question: 'How much are Thermacell refills in Canada?',
-    answer: 'In Canada, a standard mat refill 3-pack (12 hours of protection) runs $15–$22, a 12-hour fuel cartridge for Patio Shield models runs $12–$18, and the 36-hour mega value pack runs $30–$45. E-Series liquid cartridges for the rechargeable E55 and E90 run $15–$20 and last about 40 hours each. Canadian Tire, Home Depot Canada, and Amazon.ca all stock them. Buy refills in spring — stock runs low and prices creep up during the June–July peak.',
+    answer: 'Refills are the cheap part of owning a Thermacell, but the cost per hour differs sharply by family, and that — not the sticker — is what to compare. The fuel-powered line runs on 4-hour mats plus a 12-hour butane cartridge, so you are buying two consumables. The rechargeable E-Series runs on a single liquid cartridge rated at roughly 40 hours with no fuel at all, which is why it usually works out cheaper per evening despite the higher price on the device. Canadian Tire, Home Depot Canada, Costco and Amazon.ca all carry refills; buy in spring, because supply thins out during the June–July peak. Prices move week to week and by retailer, so check the current listing rather than any figure published on a blog.',
   },
 ]
 
@@ -107,7 +107,7 @@ export default function ThermacellCanadaPage() {
             <span className="text-white">Thermacell Canada</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
-          <p className="text-xl text-brand-100 max-w-3xl">Pricing across Canadian retailers, how the allethrin technology actually repels mosquitoes, and where it falls short for GTA yards.</p>
+          <p className="text-xl text-brand-100 max-w-3xl">Which models Canada actually gets, how the pyrethroid vapour technology really repels mosquitoes, and where it falls short for GTA yards.</p>
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
@@ -120,13 +120,13 @@ export default function ThermacellCanadaPage() {
         <div className="max-w-4xl mx-auto">
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">For most GTA backyards the rechargeable Thermacell E90 is the best model you can actually buy in Canada &mdash; the Liv smart system is US-only &mdash; and it&rsquo;s stocked with refills at Canadian Tire, Home Depot, Cabela&rsquo;s, MEC, and Amazon.ca. Buy refills in spring before June&ndash;July stock runs low.</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">For most GTA backyards the rechargeable Thermacell E90 is the strongest model you can actually buy in Canada &mdash; Thermacell sells the Liv smart system in the United States only, and no Liv product is registered with Health Canada. Thermacell devices and refills are carried across Canadian Tire, Home Depot, Bass Pro/Cabela&rsquo;s, MEC, Walmart, Best Buy and Amazon.ca, though which model each chain stocks moves year to year. Buy refills in spring before June&ndash;July supply runs low.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
-              <li>A basic Patio Shield runs $35&ndash;$60; the rechargeable E55 and E90 run $70&ndash;$120.</li>
-              <li>Thermacell heats allethrin to repel mosquitoes within a 4.5&ndash;5 metre (15-foot) radius.</li>
-              <li>Independent testing shows 70&ndash;95% mosquito reduction in still air.</li>
-              <li>A mat refill 3-pack (12 hours) costs $15&ndash;$22; effectiveness drops 50%+ in moderate wind.</li>
-              <li>Covering a 3,000&ndash;10,000 sq ft GTA yard would need 4&ndash;8 units running at once.</li>
+              <li>Two different actives: the fuel-powered Patio Shield line uses allethrin or prallethrin; the rechargeable E55/E90/EX90 use metofluthrin.</li>
+              <li>Health Canada (RD2019-03) registers the Canadian fuel-powered line to repel mosquitoes up to 4.5 metres from the device for up to 4 hours.</li>
+              <li>Published field trials of these emanators report roughly 70&ndash;95% bite reduction in still air. BuzzSkito does not test consumer products.</li>
+              <li>Effectiveness drops 50%+ in moderate wind, and the Canadian label carries a mosquito claim &mdash; not a blackfly one.</li>
+              <li>Covering a 3,000&ndash;10,000 sq ft GTA yard would need roughly 4&ndash;15 units running at once.</li>
               <li>One professional barrier spray from $99 protects the whole yard for 21&ndash;30 days.</li>
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
@@ -146,45 +146,44 @@ export default function ThermacellCanadaPage() {
       {/* WHERE TO BUY */}
       <section className="bg-gradient-to-br from-emerald-50 to-white border-b border-emerald-200 py-10 px-4">
         <div className="max-w-4xl mx-auto">
-          <p className="text-xs font-extrabold text-emerald-700 uppercase tracking-wider mb-2">Where to Buy Thermacell in Canada · Updated July 2026</p>
-          <h2 className="text-2xl font-extrabold text-brand-900 mb-4">Thermacell Canada: Where to Buy + Pricing</h2>
+          <p className="text-xs font-extrabold text-emerald-700 uppercase tracking-wider mb-2">Where to Buy Thermacell in Canada</p>
+          <h2 className="text-2xl font-extrabold text-brand-900 mb-4">Thermacell Canada: Which Chain Carries What</h2>
           <p className="text-sm text-gray-700 mb-5 leading-relaxed">
-            Thermacell is widely stocked across Canada. Pricing varies $5–$15 between retailers depending on the model and time of year. Canadian Tire usually has the most consistent stock of the Canadian lineup; Cabela&rsquo;s and MEC are best for the camping/portable models. One important caveat: the premium <strong>Liv Smart System is not sold in Canada</strong> — it is a US-only product that is not registered with Health Canada&rsquo;s PMRA, so the rechargeable E90 is the top model Canadians can actually buy.
+            Thermacell is widely carried across Canada, but the lineup is not identical at every chain and it shifts season to season — Thermacell renamed the families in 2026 (Patio Shield became <em>Fuel-ZoneGuard</em>, the E-Series became <em>E-ZoneGuard</em>), so you will see both sets of names on shelves. We deliberately do not publish a price table: retail pricing moves week to week and a stale table is worse than none. Check the retailer&rsquo;s own listing before you drive out. One caveat worth knowing: the premium <strong>Liv Smart System is not sold in Canada</strong> — Thermacell states it is available in the United States only, and a search of Health Canada&rsquo;s Pesticide Product Information Database returns 23 registered Thermacell products, none of which is Liv. That makes the rechargeable E90 the top model Canadians can actually buy.
           </p>
           <div className="rounded-xl border border-navy-100 overflow-x-auto bg-white shadow-sm">
             <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Retailer</th>
-                  <th className="px-4 py-3 text-left">Patio Shield</th>
-                  <th className="px-4 py-3 text-left">E55 Rechargeable</th>
-                  <th className="px-4 py-3 text-left">E90 Rechargeable</th>
+                  <th className="px-4 py-3 text-left">What we found listed</th>
+                  <th className="px-4 py-3 text-left">Best for</th>
                 </tr>
               </thead>
               <tbody>
                 {[
-                  { name: 'Canadian Tire',     basic: '$39.99 – $44.99', e55: '$79.99 – $89.99',   e90: '$99.99 – $119.99' },
-                  { name: 'Home Depot Canada', basic: '$37.97 – $44.97', e55: '$84.97 – $94.97',   e90: '$94.97 – $114.97' },
-                  { name: 'Rona',              basic: '$39.99 – $49.99', e55: '$84.99 – $99.99',   e90: '$99.99 – $119.99' },
-                  { name: 'Cabela\'s Canada',  basic: '$44.99 – $54.99', e55: '$84.99 – $99.99',   e90: '$99.99 – $114.99' },
-                  { name: 'MEC',               basic: '$44.95 – $54.95', e55: '$84.95 – $94.95',   e90: '$99.95 – $114.95' },
-                ].map(({ name, basic, e55, e90 }) => (
+                  { name: 'Canadian Tire',      has: 'E55 (several colourways), rechargeable refills, older Radius/MR300 stock', best: 'Widest walk-in availability of the rechargeables' },
+                  { name: 'Home Depot Canada',  has: 'Fuel-ZoneGuard / Patio Shield fuel-powered units and refills',            best: 'Entry-level fuel-powered patio units' },
+                  { name: 'RONA / RONA+',       has: 'Seasonal Thermacell assortment',                                          best: 'Garden-centre pickup (the Lowe\'s Canada banner ended Feb 2024)' },
+                  { name: 'Bass Pro / Cabela\'s Canada', has: 'Backpacker and Patio Shield portables',                         best: 'Camping, hunting, portable models' },
+                  { name: 'MEC',                has: 'E55, EX90, Backpacker, Patio Shield, refills',                            best: 'Backcountry and rugged EX90' },
+                  { name: 'Walmart · Best Buy · Amazon.ca', has: 'E90 rechargeable and E-Series refills',                       best: 'The E90 specifically' },
+                ].map(({ name, has, best }) => (
                   <tr key={name} className="border-b border-navy-50 last:border-0">
                     <td className="px-4 py-3 font-bold text-brand-800">{name}</td>
-                    <td className="px-4 py-3 font-mono text-gray-800">{basic}</td>
-                    <td className="px-4 py-3 font-mono text-gray-800">{e55}</td>
-                    <td className="px-4 py-3 font-mono text-gray-800">{e90}</td>
+                    <td className="px-4 py-3 text-gray-800">{has}</td>
+                    <td className="px-4 py-3 text-gray-700">{best}</td>
                   </tr>
                 ))}
               </tbody>
             </table>
           </div>
           <p className="text-xs text-gray-500 mt-3">
-            Prices accurate as of July 2026. Refills (mat 3-packs) run $15–$22; 12-hour fuel cartridges $12–$18; 36-hour mega-pack $30–$45. Buy refills in spring before peak-season markup. The Liv Smart System does not appear here because it is not sold in Canada (US-only; not PMRA-registered).
+            Retailer assortments checked against each chain&rsquo;s own online listings; stock varies by store and by season, so treat this as a starting point rather than a guarantee. We do not publish retail prices here — they go stale faster than we can update them. The Liv Smart System does not appear because Thermacell sells it in the United States only and it is not among the Thermacell products registered with Health Canada.
           </p>
           <div className="mt-5 rounded-xl bg-amber-50 border-l-4 border-amber-400 p-4">
             <p className="text-sm text-gray-800 leading-relaxed">
-              <strong className="text-amber-900">⚠️ Thermacell only protects a 4.5-metre zone around the device.</strong> For a full GTA backyard (3,000–10,000 sq ft) you&rsquo;d need 4–8 units running constantly — which costs more than a single <Link href="/mosquito-control" className="text-emerald-700 underline font-semibold">professional barrier spray</Link> treatment that protects your entire property for 21–30 days. Most homeowners use Thermacell on the deck and barrier spray for the yard.
+              <strong className="text-amber-900">⚠️ Thermacell only protects a 4.5-metre zone around the device.</strong> That is Health Canada&rsquo;s own registered figure, from Registration Decision RD2019-03: an area repellent device to kill and repel mosquitoes &ldquo;in an area up to 4.5 metres from the device for up to 4 hours.&rdquo; For a full GTA backyard (3,000&ndash;10,000 sq ft) you&rsquo;d need roughly 4&ndash;15 units running constantly — which costs more than a single <Link href="/mosquito-control" className="text-emerald-700 underline font-semibold">professional barrier spray</Link> treatment that protects your entire property for 21–30 days. Most homeowners use Thermacell on the deck and barrier spray for the yard.
             </p>
           </div>
         </div>
@@ -196,7 +195,7 @@ export default function ThermacellCanadaPage() {
           <p className="text-xs font-extrabold text-amber-700 uppercase tracking-wider mb-2">Quick Answer</p>
           <h2 className="text-xl font-extrabold text-brand-900 mb-3">Do Thermacell repellers actually work in Canadian backyards?</h2>
           <p className="text-base text-gray-800 leading-relaxed">
-            <strong>Yes — Thermacell works in still air, providing a 4.5–5 metre repellent zone around the device using heated allethrin vapour, with 70–95% mosquito reduction in independent tests.</strong> However, performance drops sharply in wind, on open lawns, or near stagnant water. Best for patios, decks, and small gathering spots — NOT whole-yard protection. Pricing ranges from $35 (basic Patio Shield) to about $120 (rechargeable E90) at Canadian Tire and Home Depot. For a typical GTA 5,000 sq ft yard you&rsquo;d need 4+ units running simultaneously — which costs more than professional barrier spray that covers the entire yard for 21–30 days.
+            <strong>Yes — Thermacell works in still air. Health Canada registered the Canadian fuel-powered line (RD2019-03) to kill and repel mosquitoes up to 4.5 metres from the device for up to 4 hours, and published field trials of these heated-pyrethroid emanators report roughly 70–95% bite reduction in calm conditions.</strong> The vapour is allethrin or prallethrin in the fuel-powered models and metofluthrin in the rechargeable E-Series. Performance drops sharply in wind, on open lawns, or near stagnant water, and the Canadian registration covers mosquitoes — not blackflies. Best for patios, decks, and small gathering spots — NOT whole-yard protection. For a typical GTA 5,000 sq ft yard you&rsquo;d need something like seven units running simultaneously — which costs more than professional barrier spray that covers the entire yard for 21–30 days.
           </p>
         </div>
       </section>
@@ -209,20 +208,22 @@ export default function ThermacellCanadaPage() {
             <table className="w-full text-sm">
               <tbody>
                 {[
-                  ['Active ingredient', 'Allethrin (synthetic pyrethroid)'],
-                  ['Coverage radius', '4.5–5 metres (15 feet)'],
-                  ['Effective area', '~75 sq m (~800 sq ft) in still air'],
+                  ['Active ingredient — fuel-powered', 'd-Allethrin or 1R-trans prallethrin (synthetic pyrethroids)'],
+                  ['Active ingredient — rechargeable', 'Metofluthrin (E-Series liquid cartridges)'],
+                  ['Registered working distance', 'Up to 4.5 m from the device (Health Canada RD2019-03)'],
+                  ['Effective area', '~65 sq m (~700 sq ft) in dead-calm air'],
                   ['Mat refill duration', '4 hours each'],
-                  ['Fuel cartridge duration', '12 hours (Patio Shield models)'],
-                  ['Rechargeable battery', '5.5–9 hours (E55, E90)'],
-                  ['Effectiveness', '70–95% mosquito reduction in still air'],
+                  ['Fuel cartridge duration', '12 hours (Patio Shield / Fuel-ZoneGuard)'],
+                  ['Rechargeable battery', '5.5–9 hours (E55, E90, EX90)'],
+                  ['Effectiveness', '~70–95% bite reduction in still air (published field trials)'],
                   ['Wind sensitivity', 'High — drops 50%+ in moderate wind'],
-                  ['Safe for', 'Humans, pets, pollinators (when used as directed)'],
-                  ['Toxic to', 'Fish (don\'t use over ponds)'],
-                  ['Health Canada approved', 'Yes — registered residential use'],
-                  ['Price range Canada', '$35 (Patio Shield) – ~$120 (E90 rechargeable)'],
+                  ['Registered pest claim', 'Mosquitoes (blackflies are not on the Canadian label)'],
+                  ['Use site', 'Outdoors only — Thermacell: not intended for indoor use'],
+                  ['Toxic to', 'Fish, aquatic invertebrates AND bees — Health Canada calls metofluthrin "highly toxic" to all three'],
+                  ['Label hazard statement', '"Caution Poison" — keep away from children'],
+                  ['Health Canada status', 'Registered under the Pest Control Products Act (23 Thermacell products; Liv is not one of them)'],
                   ['Best use case', 'Patios, decks, small gathering spaces'],
-                  ['Not recommended for', 'Whole-yard protection, windy locations'],
+                  ['Not recommended for', 'Whole-yard protection, windy locations, indoor use'],
                 ].map(([k, v]) => (
                   <tr key={k} className="border-b border-navy-50 last:border-0">
                     <td className="px-4 py-2 font-semibold text-brand-800 bg-brand-50 w-1/3">{k}</td>
@@ -245,73 +246,74 @@ export default function ThermacellCanadaPage() {
           </div>
 
           <h2>Best Thermacell Models in Canada (2026 Comparison)</h2>
-          <p>Thermacell sells three main mosquito repellers in Canada: the entry-level <strong>Patio Shield</strong> and the two rechargeable flagships <strong>E55</strong> and <strong>E90</strong>. The premium <strong>Liv Smart System</strong> you may see in US reviews is <strong>not sold in Canada</strong> — it is not registered with Health Canada&rsquo;s PMRA, so no Canadian retailer stocks it. The Patio Shield runs on Original allethrin mats while the E55 and E90 use E-Series liquid cartridges; the practical differences are coverage, runtime, and how hands-off you want to be. Here is how each stacks up, with a live Amazon.ca price check per model.</p>
+          <p>Thermacell sells three main mosquito repellers in Canada: the entry-level <strong>Patio Shield</strong> (now also branded Fuel-ZoneGuard) and the two rechargeable flagships <strong>E55</strong> and <strong>E90</strong>, with the rugged <strong>EX90</strong> alongside them. The premium <strong>Liv Smart System</strong> you may see in US reviews is <strong>not sold in Canada</strong> — Thermacell states it is available in the United States only, and no Liv product appears among the 23 Thermacell products registered in Health Canada&rsquo;s Pesticide Product Information Database, so no Canadian retailer stocks it. The two families are also chemically different, which is worth knowing before you buy refills: the Patio Shield runs on Original mats using allethrin or prallethrin, while the E55 and E90 use E-Series liquid cartridges whose active ingredient is <strong>metofluthrin</strong> — Thermacell&rsquo;s own words are &ldquo;our rechargeable platform repellent cartridges use metofluthrin as the repellent active ingredient.&rdquo; Both actives are registered for outdoor mosquito use in Canada by Health Canada&rsquo;s PMRA. The practical differences are coverage, runtime, and how hands-off you want to be. Here is how each stacks up, with a live Amazon.ca price check per model.</p>
           <div className="not-prose my-5 overflow-x-auto rounded-xl border border-navy-100 shadow-sm">
             <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-3 py-3 text-left">Model</th>
+                  <th className="px-3 py-3 text-left">Active ingredient</th>
                   <th className="px-3 py-3 text-left">Coverage</th>
                   <th className="px-3 py-3 text-left">Runtime / power</th>
                   <th className="px-3 py-3 text-left">Best for</th>
-                  <th className="px-3 py-3 text-left">Canada price</th>
                   <th className="px-3 py-3 text-left">Check price on Amazon.ca</th>
                 </tr>
               </thead>
               <tbody>
                 <tr className="border-b border-navy-50 align-top">
-                  <td className="px-3 py-3 font-bold text-brand-800">Patio Shield</td>
-                  <td className="px-3 py-3 text-gray-700">15 ft (4.5 m) radius</td>
+                  <td className="px-3 py-3 font-bold text-brand-800">Patio Shield<br /><span className="text-xs font-normal text-gray-500">(Fuel-ZoneGuard)</span></td>
+                  <td className="px-3 py-3 text-gray-700">Allethrin / prallethrin mat</td>
+                  <td className="px-3 py-3 text-gray-700">Up to 4.5 m from device (Health Canada RD2019-03)</td>
                   <td className="px-3 py-3 text-gray-700">12-hr fuel cartridge</td>
                   <td className="px-3 py-3 text-gray-700">Cheapest pick · casual patio dinners</td>
-                  <td className="px-3 py-3 font-mono text-gray-800">$35–$50</td>
                   <td className="px-3 py-3"><BuyLink tag={AMZ_TAG} search="thermacell patio shield" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-3 py-3 font-bold text-brand-800">E55 Rechargeable</td>
-                  <td className="px-3 py-3 text-gray-700">20 ft (~110 sq ft)</td>
+                  <td className="px-3 py-3 text-gray-700">Metofluthrin cartridge</td>
+                  <td className="px-3 py-3 text-gray-700">20-ft (6 m) zone, per Thermacell &amp; Canadian Tire</td>
                   <td className="px-3 py-3 text-gray-700">~5.5 hr rechargeable</td>
                   <td className="px-3 py-3 text-gray-700">Best all-rounder · camping &amp; travel</td>
-                  <td className="px-3 py-3 font-mono text-gray-800">$70–$90</td>
                   <td className="px-3 py-3"><BuyLink tag={AMZ_TAG} search="thermacell e55 rechargeable mosquito repeller" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-3 py-3 font-bold text-brand-800">E90 Rechargeable</td>
-                  <td className="px-3 py-3 text-gray-700">20 ft (~110 sq ft)</td>
+                  <td className="px-3 py-3 text-gray-700">Metofluthrin cartridge</td>
+                  <td className="px-3 py-3 text-gray-700">20-ft (6 m) zone, per Thermacell</td>
                   <td className="px-3 py-3 text-gray-700">~9 hr rechargeable · rugged build</td>
                   <td className="px-3 py-3 text-gray-700">Longest runtime · all-evening hosting</td>
-                  <td className="px-3 py-3 font-mono text-gray-800">$90–$120</td>
                   <td className="px-3 py-3"><BuyLink tag={AMZ_TAG} search="thermacell e90 rechargeable mosquito repeller" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-3 py-3 font-bold text-brand-800">Liv Smart System</td>
-                  <td className="px-3 py-3 text-gray-700">Up to 900 sq ft (84 sq m)</td>
+                  <td className="px-3 py-3 text-gray-700">US EPA-registered; no Canadian registration</td>
+                  <td className="px-3 py-3 text-gray-700">Thermacell claims ~315 sq ft per repeller pod, multiple pods per system</td>
                   <td className="px-3 py-3 text-gray-700">Plug-in · app-scheduled smart pods</td>
-                  <td className="px-3 py-3 text-gray-700">US-only — not PMRA-registered</td>
-                  <td className="px-3 py-3 font-mono text-gray-800">Not sold in Canada</td>
+                  <td className="px-3 py-3 text-gray-700"><strong>Not sold in Canada.</strong> Thermacell: United States only; no Liv product among the 23 Thermacell products registered with Health Canada</td>
                   <td className="px-3 py-3 text-gray-500">—</td>
                 </tr>
               </tbody>
             </table>
           </div>
-          <p className="not-prose text-sm text-gray-600 mb-6"><strong>Bottom line:</strong> the <strong>E55</strong> is the best Thermacell for most GTA backyards; step up to the <strong>E90</strong> for longer evenings — we tested it across a full GTA season in our <Link href="/blog/thermacell-e90-canada-review">Thermacell E90 Canada review</Link>. Skip searching for the Liv: it is not sold in Canada. Whichever you pick, it covers where you sit — not the whole yard. For full-property coverage, pair it with <Link href="/mosquito-control">professional barrier spray</Link>.</p>
+          <p className="not-prose text-sm text-gray-600 mb-6"><strong>Bottom line:</strong> the <strong>E55</strong> is the best Thermacell for most GTA backyards; step up to the <strong>E90</strong> for longer evenings — our <Link href="/blog/thermacell-e90-canada-review">Thermacell E90 Canada guide</Link> goes deeper on runtime and where it earns the upgrade. Skip searching for the Liv: it is not sold in Canada. Whichever you pick, it covers where you sit — not the whole yard. For full-property coverage, pair it with <Link href="/mosquito-control">professional barrier spray</Link>.</p>
 
-          <h2>Thermacell Refills in Canada: Cost &amp; Where to Buy</h2>
-          <p>Every Thermacell model runs on inexpensive allethrin refills, and the refill formulations are identical across Canada and the USA — so a pack bought at Canadian Tire works in a device you brought back from the States. Here is what refills cost in Canada in 2026:</p>
+          <h2>Thermacell Refills in Canada: What Fits What</h2>
+          <p>Every Thermacell model runs on inexpensive refills, but they are not one family and they are not one chemical. The fuel-powered line uses mats — allethrin or prallethrin, with the Canadian units registered by Health Canada under RD2019-03 as 1R-trans prallethrin — plus a separate butane cartridge. The rechargeable E-Series uses a single liquid cartridge whose active is metofluthrin. The form factors match the US versions, so a pack bought at Canadian Tire will fit a device you brought back from the States; buy the Canadian-labelled refill, since that is the one registered for sale and use in Canada. Here is how the families compare:</p>
           <div className="not-prose my-5 overflow-x-auto rounded-xl border border-navy-100 shadow-sm">
             <table className="w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-3 py-3 text-left">Refill type</th>
                   <th className="px-3 py-3 text-left">Protection</th>
-                  <th className="px-3 py-3 text-left">Canada price</th>
+                  <th className="px-3 py-3 text-left">Active ingredient</th>
+                  <th className="px-3 py-3 text-left">Fits</th>
                 </tr>
               </thead>
               <tbody>
-                <tr className="border-b border-navy-50"><td className="px-3 py-3 text-gray-700">Mat refill 3-pack</td><td className="px-3 py-3 text-gray-700">12 hours</td><td className="px-3 py-3 font-mono text-gray-800">$15–$22</td></tr>
-                <tr className="border-b border-navy-50"><td className="px-3 py-3 text-gray-700">12-hour fuel cartridge (Patio Shield)</td><td className="px-3 py-3 text-gray-700">12 hours</td><td className="px-3 py-3 font-mono text-gray-800">$12–$18</td></tr>
-                <tr className="border-b border-navy-50"><td className="px-3 py-3 text-gray-700">36-hour mega value pack</td><td className="px-3 py-3 text-gray-700">36 hours</td><td className="px-3 py-3 font-mono text-gray-800">$30–$45</td></tr>
-                <tr><td className="px-3 py-3 text-gray-700">E-Series liquid cartridge (E55/E90)</td><td className="px-3 py-3 text-gray-700">~40 hours</td><td className="px-3 py-3 font-mono text-gray-800">$15–$20</td></tr>
+                <tr className="border-b border-navy-50"><td className="px-3 py-3 text-gray-700">Mat refill 3-pack</td><td className="px-3 py-3 text-gray-700">12 hours (4 hrs per mat)</td><td className="px-3 py-3 text-gray-700">Allethrin / 1R-trans prallethrin</td><td className="px-3 py-3 text-gray-700">Fuel-powered only</td></tr>
+                <tr className="border-b border-navy-50"><td className="px-3 py-3 text-gray-700">12-hour fuel cartridge (Patio Shield)</td><td className="px-3 py-3 text-gray-700">12 hours</td><td className="px-3 py-3 text-gray-700">Butane — fuel, not repellent</td><td className="px-3 py-3 text-gray-700">Fuel-powered only</td></tr>
+                <tr className="border-b border-navy-50"><td className="px-3 py-3 text-gray-700">36-hour mega value pack</td><td className="px-3 py-3 text-gray-700">36 hours</td><td className="px-3 py-3 text-gray-700">Allethrin / 1R-trans prallethrin</td><td className="px-3 py-3 text-gray-700">Fuel-powered only</td></tr>
+                <tr><td className="px-3 py-3 text-gray-700">E-Series liquid cartridge (E55/E90/EX90)</td><td className="px-3 py-3 text-gray-700">~40 hours</td><td className="px-3 py-3 text-gray-700">Metofluthrin</td><td className="px-3 py-3 text-gray-700">Rechargeables only</td></tr>
               </tbody>
             </table>
           </div>
@@ -332,8 +334,8 @@ export default function ThermacellCanadaPage() {
           <p>Simple rule of thumb: E55 for the patio table, E90 for long hosting evenings, EX90 for the cottage and backcountry. Whichever you choose, stock up on E-Series cartridges in spring — our <Link href="/blog/thermacell-refills-recharge-canada">refills &amp; recharge guide</Link> shows the cheapest way to buy them in Canada.</p>
 
           <h2>How Thermacell Actually Works</h2>
-          <p>Thermacell devices warm a small synthetic mat soaked with allethrin — a lab-made version of the natural insecticide found in chrysanthemum flowers. When the mat heats up, it releases allethrin vapour into the air around the device. Mosquitoes flying through the vapour cloud are repelled (and at higher concentrations, killed). The vapour is undetectable to humans at normal concentrations.</p>
-          <p>Two things matter for performance: <strong>still air and proximity</strong>. The vapour cloud forms a roughly spherical zone about 4.5 metres in radius. In dead-calm conditions you get full mosquito knockdown within minutes. In a 10–15 km/h breeze, the vapour disperses faster than it can build up, dropping effectiveness by 50% or more.</p>
+          <p>Thermacell devices warm a small mat or liquid cartridge holding a synthetic pyrethroid — a lab-made relative of the natural insecticide found in chrysanthemum flowers. On the fuel-powered models a butane cartridge heats a mat of allethrin or prallethrin; on the rechargeable E-Series a battery warms a metofluthrin cartridge. Either way the heat releases a vapour into the air around the device, and mosquitoes flying through the cloud are repelled — and at higher concentrations killed, which is how Health Canada worded the registered claim in RD2019-03 (&ldquo;kill and repel mosquitos&rdquo;). The vapour is essentially undetectable to humans at normal concentrations, but it is still a registered pesticide: the Canadian label carries a &ldquo;Caution Poison&rdquo; hazard statement, and Health Canada notes metofluthrin is highly toxic to fish, aquatic invertebrates and bees.</p>
+          <p>Two things matter for performance: <strong>still air and proximity</strong>. Health Canada registered the Canadian fuel-powered line for an area &ldquo;up to 4.5 metres from the device for up to 4 hours&rdquo; — that works out to roughly 65 sq m, about 700 sq ft, and only in dead-calm conditions. In a 10–15 km/h breeze, the vapour disperses faster than it can build up, dropping effectiveness by 50% or more.</p>
 
           <InlineYardRiskCTA variant="emerald" pretext="Free 60-second tool · 1-100 score by address" />
 
@@ -353,21 +355,21 @@ export default function ThermacellCanadaPage() {
             <li><strong>Windy locations</strong> — Lake Ontario waterfront patios with consistent breezes, which is why lakefront lots on our <Link href="/oakville-mosquito-control">Oakville mosquito control</Link> and <Link href="/burlington-mosquito-spray">Burlington mosquito spray</Link> routes do better with a residual barrier treatment than with a vapour zone the wind carries away</li>
             <li><strong>Open lawns away from a single seating point</strong></li>
             <li><strong>Yards backing onto ravines or creeks</strong> — mosquito pressure overwhelms the small repellent zone, a recurring pattern on the ravine lots we treat with <Link href="/vaughan-mosquito-control">mosquito control in Vaughan</Link></li>
-            <li><strong>Tick protection</strong> — Thermacell doesn&rsquo;t work on ticks (they don&rsquo;t fly)</li>
+            <li><strong>Tick protection</strong> — a Thermacell repeller does nothing for ticks (they don&rsquo;t fly). Thermacell&rsquo;s separate Tick Control Tubes are a different product entirely, registered with Health Canada as PCP 33858</li>
             <li><strong>Daytime backyard use</strong> — pollinators are foraging; better to wait until evening</li>
           </ul>
 
           <h2>Thermacell vs Other Mosquito Solutions in Canada</h2>
           <table className="min-w-[560px] not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
             <thead className="bg-brand-50">
-              <tr><th className="px-3 py-2 text-left">Solution</th><th className="px-3 py-2 text-left">Coverage</th><th className="px-3 py-2 text-left">Cost</th><th className="px-3 py-2 text-left">Best for</th></tr>
+              <tr><th className="px-3 py-2 text-left">Solution</th><th className="px-3 py-2 text-left">Coverage</th><th className="px-3 py-2 text-left">Relative cost</th><th className="px-3 py-2 text-left">Best for</th></tr>
             </thead>
             <tbody>
-              <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Thermacell Patio Shield</strong></td><td className="px-3 py-2">4.5m radius</td><td className="px-3 py-2">$40 + refills</td><td className="px-3 py-2">Patio dinners</td></tr>
-              <tr className="border-t border-navy-50"><td className="px-3 py-2">DEET/Picaridin spray</td><td className="px-3 py-2">Skin only</td><td className="px-3 py-2">$10–$15</td><td className="px-3 py-2">Walking, hiking</td></tr>
-              <tr className="border-t border-navy-50"><td className="px-3 py-2">Citronella candles</td><td className="px-3 py-2">~1m</td><td className="px-3 py-2">$5–$15</td><td className="px-3 py-2">Ambiance only — limited efficacy</td></tr>
-              <tr className="border-t border-navy-50"><td className="px-3 py-2"><Link href="/blog/mosquito-dunks-canada-guide">Mosquito dunks (BTI)</Link></td><td className="px-3 py-2">Standing water only</td><td className="px-3 py-2">$15/season</td><td className="px-3 py-2">Rain barrels, ponds</td></tr>
-              <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Professional barrier spray</strong></td><td className="px-3 py-2">Entire property</td><td className="px-3 py-2">$99+/treatment</td><td className="px-3 py-2">Whole-yard, 21–30 days</td></tr>
+              <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Thermacell Patio Shield</strong></td><td className="px-3 py-2">Up to 4.5 m from the device (Health Canada RD2019-03)</td><td className="px-3 py-2">Low up-front, ongoing refills</td><td className="px-3 py-2">Patio dinners</td></tr>
+              <tr className="border-t border-navy-50"><td className="px-3 py-2">DEET / icaridin spray</td><td className="px-3 py-2">Skin only</td><td className="px-3 py-2">Lowest</td><td className="px-3 py-2">Walking, hiking</td></tr>
+              <tr className="border-t border-navy-50"><td className="px-3 py-2">Citronella candles</td><td className="px-3 py-2">~1m</td><td className="px-3 py-2">Lowest</td><td className="px-3 py-2">Ambiance only — limited efficacy</td></tr>
+              <tr className="border-t border-navy-50"><td className="px-3 py-2"><Link href="/blog/mosquito-dunks-canada-guide">Mosquito dunks (BTI)</Link></td><td className="px-3 py-2">Standing water only</td><td className="px-3 py-2">Low per season</td><td className="px-3 py-2">Rain barrels, ponds</td></tr>
+              <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Professional barrier spray</strong></td><td className="px-3 py-2">Entire property</td><td className="px-3 py-2">From $99 per treatment (BuzzSkito)</td><td className="px-3 py-2">Whole-yard, 21–30 days</td></tr>
             </tbody>
           </table>
 
@@ -375,14 +377,14 @@ export default function ThermacellCanadaPage() {
           <p>The most effective mosquito control for GTA backyards stacks three layers:</p>
           <ol>
             <li><strong>Eliminate breeding sites</strong> — drain standing water, treat unavoidable sources with <Link href="/blog/mosquito-dunks-canada-guide">BTI dunks</Link></li>
-            <li><strong>Whole-yard barrier spray</strong> — <Link href="/mosquito-control">BuzzSkito&rsquo;s seasonal program</Link> applies Health Canada-approved formula to vegetation, providing 21–30 days of residual coverage across your entire property</li>
+            <li><strong>Whole-yard barrier spray</strong> — <Link href="/mosquito-control">BuzzSkito&rsquo;s seasonal program</Link> applies a Health Canada-registered product to vegetation under Ontario Pesticide Operator Licence L-240-2436835197, providing 21–30 days of residual coverage across your entire property</li>
             <li><strong>Personal protection at the seating point</strong> — Thermacell on the deck gives you a final repellent zone where you actually sit, plus DEET/Picaridin if you walk into the yard at dusk</li>
           </ol>
           <p>This stacked approach is what most experienced GTA outdoor entertainers run — Thermacell alone is rarely enough for a yard that backs onto ravines, water features, or conservation lands.</p>
 
           <h2>Related Reading</h2>
           <ul>
-            <li><Link href="/blog/thermacell-e90-canada-review">Thermacell E90 Canada Review — Full Season Test</Link></li>
+            <li><Link href="/blog/thermacell-e90-canada-review">Thermacell E90 Canada Review — Runtime, Coverage &amp; Refills</Link></li>
             <li><Link href="/blog/thermacell-refills-recharge-canada">Thermacell Refills &amp; Recharge Canada — Costs + Compatibility</Link></li>
             <li><Link href="/blog/mosquito-dunks-canada-guide">Mosquito Dunks Canada — Where to Buy + How They Work</Link></li>
             <li><Link href="/blog/mosquito-repellent-guide-ontario-2026">Mosquito Repellent Guide — Ontario 2026</Link></li>

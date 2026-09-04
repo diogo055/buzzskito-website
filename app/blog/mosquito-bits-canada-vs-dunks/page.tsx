@@ -20,11 +20,11 @@ const META_TITLE = 'Mosquito Bits Canada 2026: vs Dunks + Prices'
 const FAQS = [
   {
     question: 'What are mosquito bits?',
-    answer: 'Mosquito Bits are small corn-cob granules coated with BTI (Bacillus thuringiensis subspecies israelensis) — the same naturally-occurring bacterial larvicide found in mosquito dunks, but in a fast-release format. Sprinkle the bits onto standing water and BTI is released into the water within minutes, killing mosquito larvae within 24 hours. Each 8-oz container of Summit Mosquito Bits treats 500–1000 sq ft of water surface area. Bits are sold in Canada at Canadian Tire, Home Depot, Rona, and most garden centres for $15–$25 per 8-oz container.',
+    answer: 'Mosquito Bits are small corn-cob granules coated with BTI (Bacillus thuringiensis subspecies israelensis) — the same naturally-occurring bacterial larvicide found in mosquito dunks, but in a fast-release format. Sprinkle the bits onto standing water and BTI is released into the water within minutes, killing mosquito larvae within 24 hours. At Summit’s label rate of 4 oz per 1,000 sq ft in relatively clean water, an 8-oz container treats roughly 2,000 sq ft of water surface — about half that in deep or organic-heavy water, which calls for the higher 8 oz per 1,000 sq ft rate. Bits are sold in Canada through Home Depot Canada, Home Hardware, Canadian Tire, RONA, independent garden centres, and Amazon.ca; stock is seasonal, so check your own store rather than assuming.',
   },
   {
     question: 'Where to buy mosquito bits in Canada?',
-    answer: 'Mosquito Bits are widely available across Canadian retailers: Canadian Tire, Home Depot Canada, Rona, Lowe\'s Canada, garden centres, and Amazon.ca. The brand Canadian stores commonly carry is Summit Chemical (orange and green container — same brand as the dunks). A typical 8-oz container runs $15–$25. The 30-oz value pack at Costco runs $35–$55 and treats 4–8 times the area, making it the better deal for properties with multiple rain barrels or standing water sources.',
+    answer: 'Mosquito Bits are sold across Canadian retailers: Home Depot Canada, Home Hardware, Canadian Tire, RONA, independent garden centres, and Amazon.ca. (The former Lowe’s Canada stores now trade under the RONA banner — all Lowe’s-branded Canadian locations were converted by early 2024.) The brand Canadian stores commonly carry is Summit Chemical (orange and green container — same brand as the dunks), in an 8 oz size and a 30 oz size. The 30 oz bag holds nearly four times as much as the 8 oz and treats roughly four times the water area, which usually makes it the better value per ounce for properties with multiple rain barrels or standing-water sources — compare the unit price rather than the sticker price, and check stock by postal code, because BTI is a seasonal line that thins out from mid-June onward.',
   },
   {
     question: 'Mosquito Bits vs Mosquito Dunks — which should I use?',
@@ -32,11 +32,11 @@ const FAQS = [
   },
   {
     question: 'How much do mosquito bits cost in Canada?',
-    answer: 'In Canada (May 2026 pricing): Canadian Tire and Home Depot Canada list 8-oz Summit Mosquito Bits at $14.99–$19.99. Rona is typically $15.49–$21.49. The 30-oz value container is $34.99–$54.99 — three times the size for roughly twice the price, making it 33% cheaper per ounce. Garden centres often have the same 8-oz pack for $15–$22.',
+    answer: 'Mosquito Bits sit in the low-to-mid tens of dollars for the 8 oz container at Canadian retailers, with the 30 oz bag priced well below four times that — but we deliberately do not publish a per-retailer price table. Larvicide pricing moves with the season and with shortages (the June 2026 national dunk shortage is the obvious example), so any precise figure written here goes stale fast and a stale price is worse than no price. Check homedepot.ca, canadiantire.ca, rona.ca or your local garden centre directly, and compare on unit price per ounce rather than sticker price — that is the comparison that actually decides whether the 8 oz or the 30 oz is the better buy for your yard.',
   },
   {
     question: 'Are mosquito bits safe for pets, kids, fish, and pollinators?',
-    answer: 'Yes — Mosquito Bits are extremely safe. The active ingredient (BTI) is a naturally-occurring soil bacterium that specifically targets mosquito and black fly larvae. It does not affect humans, dogs, cats, fish, frogs, dragonflies, beneficial insects, pollinators, or birds. Health Canada approves BTI for use in drinking water reservoirs in some provinces. Your dog can technically eat the bits without harm (it might cause mild digestive upset like any unfamiliar food, but no toxicity). Always store the container away from kids — not because of toxicity, but because the corn-cob looks like cereal and you don\'t want kids snacking on it.',
+    answer: 'Yes — Mosquito Bits are extremely safe. The active ingredient (BTI) is a naturally-occurring soil bacterium that specifically targets mosquito and black fly larvae. It does not affect humans, dogs, cats, fish, frogs, dragonflies, beneficial insects, pollinators, or birds. On drinking water specifically, Health Canada’s PMRA states that no product containing Bti may be applied to treated, finished drinking water for human consumption — while separately stating it has no human health and safety concerns about applying registered Bt products to bodies of water that will be used for human consumption. Your dog can technically eat the bits without harm (it might cause mild digestive upset like any unfamiliar food, but no toxicity). Always store the container away from kids — not because of toxicity, but because the corn-cob looks like cereal and you don\'t want kids snacking on it.',
   },
   {
     question: 'How fast do mosquito bits work?',
@@ -56,11 +56,11 @@ const FAQS = [
   },
   {
     question: 'Where can I buy BTI for mosquitoes near me in Canada?',
-    answer: 'You can buy BTI for mosquitoes — sold as Mosquito Bits (granules) and Mosquito Dunks (tablets) — at Canadian Tire, Home Depot, Rona, Lowe\'s, independent garden centres, and Amazon.ca. Both products use the same BTI bacterium; Bits act within about 30 minutes while Dunks slow-release for roughly 30 days. To find local stock fast, search \'Mosquito Bits\' or \'Mosquito Dunks\' on a retailer\'s website and check availability by postal code. Buy in April–May before peak-season shelves thin out.',
+    answer: 'You can buy BTI for mosquitoes — sold as Mosquito Bits (granules) and Mosquito Dunks (tablets) — at Home Depot Canada, Home Hardware, Canadian Tire, RONA, independent garden centres, and Amazon.ca. Both products use the same BTI bacterium; Bits act within about 30 minutes while Dunks slow-release for roughly 30 days. To find local stock fast, search \'Mosquito Bits\' or \'Mosquito Dunks\' on a retailer\'s website and check availability by postal code. Buy in April–May before peak-season shelves thin out.',
   },
   {
     question: 'What is BTI (Bacillus thuringiensis israelensis)?',
-    answer: 'BTI (Bacillus thuringiensis israelensis) is a naturally occurring soil bacterium used as a biological larvicide. When mosquito or black fly larvae eat it, its proteins destroy their gut and kill them within about 24 hours, while leaving everything else unharmed. According to Health Canada and public-health agencies, BTI is highly specific to these larvae and poses no risk to humans, pets, fish, frogs, bees, or birds — some provinces even approve it for treating drinking-water reservoirs. It is the active ingredient in both Mosquito Bits and Dunks.',
+    answer: 'BTI (Bacillus thuringiensis israelensis) is a naturally occurring soil bacterium used as a biological larvicide. When mosquito or black fly larvae eat it, its proteins destroy their gut and kill them within about 24 hours, while leaving everything else unharmed. According to Health Canada and public-health agencies, BTI is highly specific to these larvae and poses no risk to humans, pets, fish, frogs, bees, or birds. Note that Health Canada’s PMRA does not permit any Bti product to be applied to treated, finished drinking water for human consumption, even though it raises no health concern about Bt applied to raw water bodies later used for consumption. It is the active ingredient in both Mosquito Bits and Dunks.',
   },
   {
     question: 'Are mosquito dunks the same as mosquito bits?',
@@ -80,7 +80,7 @@ const FAQS = [
   },
   {
     question: 'Are mosquito bits legal in Canada?',
-    answer: 'Yes. BTI larvicides are registered for sale in Canada and are stocked at Canadian Tire, Home Depot, Rona, and Home Hardware. Every pesticide sold in Canada is registered by Health Canada\u2019s Pest Management Regulatory Agency (PMRA) and carries a PCP registration number on the label. The confusion comes from the PMRA\u2019s Bti fact sheet, which states that nearly all Bti products used against mosquito and black fly larvae are classified as Restricted because they must be applied only to the water where the larvae exist, and that commercial class products may be used only in private ponds and farm dugouts with no outflow past the property line. Those classes govern the large-volume products licensed applicators use on open water, not the small consumer packs sold for containerized water around a home. Note that the PMRA fact sheet is marked ARCHIVED (last updated 4 May 2017); to verify any specific product, look up the PCP number printed on the package in the PMRA Pesticide Label Search database. A US EPA registration number on an imported bag is not a Canadian registration.',
+    answer: 'Yes. BTI larvicides are registered for sale in Canada and are stocked at Canadian Tire, Home Depot, Rona, and Home Hardware. Every pesticide sold in Canada is registered by Health Canada\u2019s Pest Management Regulatory Agency (PMRA) and carries a PCP registration number on the label. The confusion comes from the PMRA\u2019s Bti fact sheet, which states that nearly all products containing Bti are Restricted class products used to control black fly and mosquito larvae in aquatic situations where the flow of water is not confined to a small area, and that commercial class Bti products may be used only in private ponds and farm dugouts where no outflow beyond the property limits exists. Those classes govern the large-volume products licensed applicators use on open and flowing water \u2014 not the small consumer packs sold for containerized water around a home, which is about as confined to a small area as water gets. Note that the PMRA fact sheet is marked ARCHIVED (last updated 4 May 2017); to verify any specific product, look up the PCP number printed on the package in the PMRA Pesticide Label Search database. A US EPA registration number on an imported bag is not a Canadian registration.',
   },
   {
     question: 'How much mosquito bits do I use per square foot?',
@@ -88,7 +88,7 @@ const FAQS = [
   },
   {
     question: 'Does Home Depot carry mosquito bits?',
-    answer: 'Yes \u2014 Home Depot Canada stocks Summit Mosquito Bits and Mosquito Dunks in-store and on homedepot.ca, usually in the lawn and garden or pest control aisle, with same-day pickup at most GTA locations. One search trap worth knowing: the Home Depot listing that ranks highest on Google.ca for "mosquito bits" is often the US homedepot.com product page, which shows US sizes, US pricing, and US stock that will not match your local store. Search homedepot.ca directly and check availability by postal code rather than clicking through from a general Google result. Canadian Tire, Rona, Lowe\u2019s Canada, Home Hardware, and independent garden centres carry the same Summit products.',
+    answer: 'Yes \u2014 Home Depot Canada stocks Summit Mosquito Bits and Mosquito Dunks in-store and on homedepot.ca, usually in the lawn and garden or pest control aisle, with same-day pickup at most GTA locations. One search trap worth knowing: the Home Depot listing that ranks highest on Google.ca for "mosquito bits" is often the US homedepot.com product page, which shows US sizes, US pricing, and US stock that will not match your local store. Search homedepot.ca directly and check availability by postal code rather than clicking through from a general Google result. Canadian Tire, RONA (the banner that replaced Lowe\u2019s Canada in 2024), Home Hardware, and independent garden centres carry the same Summit products.',
   },
   {
     question: 'Do mosquito bits kill black flies?',
@@ -100,17 +100,17 @@ const FAQS = [
   },
   {
     question: 'Are Doktor Doom 90-day briquettes the same as mosquito dunks?',
-    answer: 'No \u2014 and the difference is worth understanding, because they sit on the same Canadian Tire shelf. Doktor Doom 90-Day Larva Killer briquettes are made by a Canadian company and are not BTI at all. The active ingredient is novaluron, an insect growth regulator that stops larvae from moulting successfully rather than destroying their gut the way BTI does. One briquette treats standing water up to 200 litres and is rated for 90 days, versus roughly 30 days for a BTI dunk. The trade-off is speed and mode of action: BTI kills feeding larvae within about 24 hours, while an insect growth regulator works as larvae try to develop, so it prevents adults from emerging rather than clearing visible wrigglers quickly. For a rain barrel you check rarely, the longer interval is genuinely convenient; for water where you just found larvae and want them gone, BTI Bits act faster.',
+    answer: 'No \u2014 and the difference is worth understanding, because they often sit on the same seasonal shelf. Doktor Doom 90-Day Mosquito Larva Killer briquettes are made by a Canadian company and are not BTI at all. The active ingredient is novaluron, an insect growth regulator (Health Canada domestic class, PCP registration number 34197) that stops larvae from moulting successfully rather than destroying their gut the way BTI does. One briquette treats standing water up to 200 litres and is rated for 90 days, versus roughly 30 days for a BTI dunk. The trade-off is speed and mode of action: BTI kills feeding larvae within about 24 hours, while an insect growth regulator works as larvae try to develop, so it prevents adults from emerging rather than clearing visible wrigglers quickly. For a rain barrel you check rarely, the longer interval is genuinely convenient; for water where you just found larvae and want them gone, BTI Bits act faster.',
   },
   {
     question: 'Where can I buy mosquito bits in Calgary or Edmonton?',
-    answer: 'Summit Mosquito Bits and Dunks are distributed nationally, so the same Canadian Tire, Home Depot, Rona, Lowe\u2019s, and Home Hardware chains stock them in Alberta as in Ontario, along with independent garden centres and Amazon.ca. Prairie buyers should shop earlier than Ontario buyers: the Alberta mosquito season is driven by snowmelt and summer rainfall pooling in low ground, so demand spikes fast after a wet stretch and BTI is one of the first seasonal lines to clear the shelves \u2014 the 2026 national dunk shortage hit well before peak season. Buying the 30 oz bag rather than the 8 oz is the usual hedge. Note that BuzzSkito is a GTA-only service company; we do not offer treatments in Alberta, and this is product availability information only.',
+    answer: 'Summit Mosquito Bits and Dunks are distributed nationally, so the same Canadian Tire, Home Depot, RONA, and Home Hardware chains stock them in Alberta as in Ontario, along with independent garden centres and Amazon.ca. Prairie buyers should shop earlier than Ontario buyers: the Alberta mosquito season is driven by snowmelt and summer rainfall pooling in low ground, so demand spikes fast after a wet stretch and BTI is one of the first seasonal lines to clear the shelves \u2014 the 2026 national dunk shortage hit well before peak season. Buying the 30 oz bag rather than the 8 oz is the usual hedge. Note that BuzzSkito is a GTA-only service company; we do not offer treatments in Alberta, and this is product availability information only.',
   },
 ]
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'Same BTI, different speed: Bits work in 30 minutes and last 7–14 days, Dunks last 30. Canada: $14.97–$21.49 per 8 oz at Canadian Tire, Home Depot, Rona.',
+  description: 'Same BTI, different speed: Bits work in 30 minutes and last 7–14 days, Dunks last 30. Where to buy in Canada, Summit label rates, and what the PMRA actually says.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -152,9 +152,9 @@ export default function MosquitoBitsCanadaPage() {
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
               <li>Mosquito Bits start releasing BTI within about 30 minutes and reach full larvae kill within 24 hours.</li>
               <li>Mosquito Dunks slow-release BTI for roughly 30 days; Bits last about 7 to 14 days per application.</li>
-              <li>An 8-oz container of Bits treats 500&ndash;1,000 sq ft of water surface and costs about $15&ndash;$22 in Canada.</li>
-              <li>Both use BTI (Bacillus thuringiensis israelensis) and are Health Canada-approved &mdash; safe for humans, pets, fish, frogs, and pollinators.</li>
-              <li>Bits and Dunks are stocked at Canadian Tire, Home Depot, Rona, Lowe&rsquo;s, and Amazon.ca.</li>
+              <li>At Summit&rsquo;s label rate, an 8-oz container of Bits treats about 2,000 sq ft of relatively clean water surface &mdash; roughly half that in deep or organic-heavy water.</li>
+              <li>Both use BTI (Bacillus thuringiensis israelensis) &mdash; safe for humans, pets, fish, frogs, and pollinators. BTI larvicides are registered in Canada by Health Canada&rsquo;s PMRA; check the PCP number on the package in front of you to confirm the one you are buying is.</li>
+              <li>Bits and Dunks are sold through Home Depot Canada, Home Hardware, Canadian Tire, RONA, garden centres, and Amazon.ca &mdash; stock is seasonal.</li>
               <li>BTI only treats the water you apply it to; adult mosquitoes flying in still need a barrier spray.</li>
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
@@ -171,31 +171,29 @@ export default function MosquitoBitsCanadaPage() {
           <p className="text-xs font-extrabold text-emerald-700 uppercase tracking-wider mb-2">Where to Buy in Canada · Updated July 2026</p>
           <h2 className="text-2xl font-extrabold text-brand-900 mb-4">Mosquito Bits: Where to Buy in Canada</h2>
           <p className="text-sm text-gray-700 mb-5 leading-relaxed">
-            Summit Chemical Mosquito Bits (orange and green container) is the version you will usually find on Canadian shelves. Pricing varies by retailer and time of year — buy in spring before peak-season markup.
+            Summit Chemical Mosquito Bits (orange and green container) is the version you will usually find on Canadian shelves, in an 8 oz size and a 30 oz size. We do not publish a retailer price table, because larvicide pricing moves with the season and a stale number is worse than none &mdash; check the retailer directly and compare on unit price, not sticker price.
           </p>
           <div className="rounded-xl border border-navy-100 overflow-x-auto bg-white shadow-sm">
             <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
-                  <th className="px-4 py-3 text-left">Retailer</th>
-                  <th className="px-4 py-3 text-left">8 oz container</th>
-                  <th className="px-4 py-3 text-left">30 oz value pack</th>
-                  <th className="px-4 py-3 text-left">Availability</th>
+                  <th className="px-4 py-3 text-left">Where to look</th>
+                  <th className="px-4 py-3 text-left">What to expect</th>
+                  <th className="px-4 py-3 text-left">How to check stock</th>
                 </tr>
               </thead>
               <tbody>
                 {[
-                  { name: 'Canadian Tire',     small: '$14.99 – $19.99', large: '$34.99 – $44.99', avail: 'In-store + online · most consistent stock' },
-                  { name: 'Home Depot Canada', small: '$14.97 – $18.97', large: '$36.97 – $46.97', avail: 'In-store + same-day pickup' },
-                  { name: 'Rona',              small: '$15.49 – $21.49', large: '$38.99 – $48.49', avail: 'In-store + online' },
-                  { name: 'Lowe\'s Canada',    small: '$14.99 – $19.99', large: '$36.99 – $46.99', avail: 'In-store + online' },
-                  { name: 'Garden centres',    small: '$15 – $22',        large: '$38 – $52',       avail: 'Independent stocks vary' },
-                ].map(({ name, small, large, avail }) => (
+                  { name: 'Home Depot Canada', note: 'Carries Summit Bits and Dunks in the pest & insect control category', how: 'Search homedepot.ca and set your store — not a Google result' },
+                  { name: 'Home Hardware',     note: 'Lists Dunks; one Ottawa store and its warehouse were sold out by mid-June 2026 (CBC)', how: 'Call the branch — independent stores order separately' },
+                  { name: 'Canadian Tire',     note: 'Seasonal lawn & garden aisle; also carries Doktor Doom briquettes', how: 'Check canadiantire.ca availability by postal code' },
+                  { name: 'RONA',              note: 'The former Lowe’s Canada stores now trade under the RONA banner', how: 'Check rona.ca by store' },
+                  { name: 'Garden centres',    note: 'Independent stocks vary; often have product when chains are out', how: 'Phone ahead in June and July' },
+                ].map(({ name, note, how }) => (
                   <tr key={name} className="border-b border-navy-50 last:border-0">
                     <td className="px-4 py-3 font-bold text-brand-800">{name}</td>
-                    <td className="px-4 py-3 font-mono text-gray-800">{small}</td>
-                    <td className="px-4 py-3 font-mono text-gray-800">{large}</td>
-                    <td className="px-4 py-3 text-xs text-gray-600">{avail}</td>
+                    <td className="px-4 py-3 text-gray-800">{note}</td>
+                    <td className="px-4 py-3 text-xs text-gray-600">{how}</td>
                   </tr>
                 ))}
               </tbody>
@@ -206,7 +204,7 @@ export default function MosquitoBitsCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="summit mosquito dunks">Compare with Mosquito Dunks →</BuyLink>
           </div>
           <p className="text-xs text-gray-500 mt-3">
-            Prices accurate as of May 2026. The 30-oz value pack is roughly 33% cheaper per ounce — buy it if you have multiple rain barrels, a pond, or want to share with a neighbour. Stock up in April–May before peak-season demand.
+            Availability is the thing to plan around, not price. BTI is a seasonal line: the full range is on shelves in April and May, and the 2026 national shortage showed how fast a warehouse can empty once peak season hits. If you have more than one water source, the 30 oz bag is usually the better value per ounce — check the unit price on the shelf tag to confirm.
           </p>
           <div className="mt-5 rounded-xl bg-amber-50 border-l-4 border-amber-400 p-4">
             <p className="text-sm text-gray-800 leading-relaxed">
@@ -231,16 +229,16 @@ export default function MosquitoBitsCanadaPage() {
               {
                 badge: 'Best Value for Multiple Sources',
                 name: 'Summit Mosquito Bits — 30 oz Value Pack',
-                why: 'Three times the size of the 8-oz container for roughly twice the price — about 33% cheaper per ounce. The right buy for properties with multiple rain barrels, a pond, or a neighbour to split with.',
+                why: 'Nearly four times the contents of the 8-oz container, and normally the cheaper option per ounce. The right buy for properties with multiple rain barrels, a pond, or a neighbour to split with — compare the unit price on the shelf tag.',
                 search: 'summit mosquito bits',
                 score: 8.5,
-                pros: ['Roughly 33% cheaper per ounce than the 8 oz', 'Treats 4–8x the area of the small container', 'Sealed bits keep 2–3 years in dry storage'],
+                pros: ['Usually cheaper per ounce than the 8 oz — check the unit price', 'Treats roughly 4x the area of the small container', 'Sealed bits keep 2–3 years in dry storage'],
                 cons: ['Overkill for a single rain barrel — the 8 oz covers a typical yard', 'Once opened, use within a year and keep it dry'],
               },
               {
                 badge: 'Best Overall — Fastest Kill',
                 name: 'Summit Mosquito Bits (8 oz)',
-                why: 'The fastest larvae kill you can buy — starts releasing BTI within 30 minutes and clears treated water within 24 hours. One container treats 500–1,000 sq ft of water surface.',
+                why: 'The fastest larvae kill you can buy — starts releasing BTI within 30 minutes and clears treated water within 24 hours. At Summit’s label rate, one container treats about 2,000 sq ft of relatively clean water surface.',
                 search: 'summit mosquito bits',
                 score: 8.7,
                 featured: true,
@@ -259,7 +257,7 @@ export default function MosquitoBitsCanadaPage() {
             ]}
             whichToBuy={
               <>
-                <strong>Found wrigglers right now?</strong> The <em>Best Overall</em> 8-oz Bits clear treated water within 24 hours &mdash; keep a container in the shed for every surprise find. <strong>Rain barrel or pond you check monthly?</strong> Drop in a <em>Dunk</em> &mdash; one tablet lasts about 30 days versus 7&ndash;14 for Bits. <strong>Several barrels, a pond, or a neighbour to split with?</strong> The 30-oz <em>Best Value</em> pack runs about 33% cheaper per ounce. Whichever you pick, BTI only handles larvae in the water you treat &mdash; the adults flying in are the job of a <Link href="/mosquito-control">whole-yard barrier spray</Link>.
+                <strong>Found wrigglers right now?</strong> The <em>Best Overall</em> 8-oz Bits clear treated water within 24 hours &mdash; keep a container in the shed for every surprise find. <strong>Rain barrel or pond you check monthly?</strong> Drop in a <em>Dunk</em> &mdash; one tablet lasts about 30 days versus 7&ndash;14 for Bits. <strong>Several barrels, a pond, or a neighbour to split with?</strong> The 30-oz <em>Best Value</em> pack holds nearly four times as much and is normally the better buy per ounce. Whichever you pick, BTI only handles larvae in the water you treat &mdash; the adults flying in are the job of a <Link href="/mosquito-control">whole-yard barrier spray</Link>.
               </>
             }
           />
@@ -287,8 +285,7 @@ export default function MosquitoBitsCanadaPage() {
                   ['Duration', '7–14 days per application', '~30 days per dunk'],
                   ['Best for', 'Quick knockdown, small water', 'Long-term water sources'],
                   ['Visibility in water', 'Disperses, less visible', 'Floating tablet visible'],
-                  ['Coverage per dose', '500–1000 sq ft (8 oz)', '100 sq ft per dunk'],
-                  ['Typical Canada price', '$15–$22 (8 oz)', '$14–$20 (6-pack)'],
+                  ['Coverage per dose', '~2,000 sq ft (8 oz, clean water)', '100 sq ft per dunk'],
                   ['Application method', 'Sprinkle / spread', 'Drop in water'],
                   ['Storage life sealed', '2–3 years', '3+ years'],
                   ['Safe for fish/pets', 'Yes — completely', 'Yes — completely'],
@@ -317,7 +314,7 @@ export default function MosquitoBitsCanadaPage() {
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
           <h2>How Mosquito Bits Work</h2>
           <p>Mosquito Bits are corn-cob granules coated with BTI (<em>Bacillus thuringiensis</em> subspecies <em>israelensis</em>) — a soil bacterium discovered in 1976 that specifically targets the digestive systems of mosquito and black fly larvae. The corn-cob granules float briefly when sprinkled onto water, then sink as they absorb moisture. As the bits dissolve, they release BTI proteins into the water column where larvae filter-feed. Not sure the wrigglers you found are mosquito larvae? Our <Link href="/blog/mosquito-larvae-identification">mosquito larvae identification guide</Link> shows exactly what to look for before you treat.</p>
-          <p>BTI is one of the most species-specific insecticides ever developed. It only affects mosquito larvae, black fly larvae, and a few related midge species. Humans, pets, fish, frogs, dragonflies, water beetles, beneficial insects, pollinators, and birds are completely unaffected. Health Canada has approved BTI for residential use, and some provinces approve it for drinking water reservoirs. The timings quoted throughout this guide — full larvae kill within 24 hours, 7&ndash;14 days of control from Bits, about 30 days from a Dunk — are Summit&rsquo;s own product-label figures, not our field measurements.</p>
+          <p>BTI is one of the most species-specific insecticides ever developed. It only affects mosquito larvae, black fly larvae, and a few related midge species. Humans, pets, fish, frogs, dragonflies, water beetles, beneficial insects, pollinators, and birds are completely unaffected. Health Canada&rsquo;s PMRA registers BTI larvicides for sale in Canada. On drinking water its position is precise and worth stating exactly, because it is widely misreported in both directions: no product containing Bti may be applied to treated, finished drinking water for human consumption, but the PMRA has no human health and safety concerns about applying registered Bt products to bodies of water that will later be used for human consumption. The timings quoted throughout this guide — full larvae kill within 24 hours, 7&ndash;14 days of control from Bits, about 30 days from a Dunk — are Summit&rsquo;s own product-label figures, not our field measurements.</p>
 
           <h2>How Much to Actually Use: The Label Rates</h2>
           <p>The number on the front of the bag is a coverage area, not a dose, which is why most people badly over-apply. Summit&rsquo;s registered label (US EPA Reg. No. 6218-86) gives the real rates, and they are small:</p>
@@ -391,7 +388,8 @@ export default function MosquitoBitsCanadaPage() {
 
           <h2>Are Mosquito Bits Legal in Canada? What the PMRA Actually Says</h2>
           <p>Yes &mdash; BTI larvicides are registered for sale in Canada and sit on the shelf at Canadian Tire, Home Depot, Rona and Home Hardware. The question keeps resurfacing because the regulatory picture has two layers, and searchers keep landing on the wrong one.</p>
-          <p>Health Canada&rsquo;s <strong>Pest Management Regulatory Agency (PMRA)</strong> registers every pesticide sold in Canada, and each registered product carries a PCP (Pest Control Products Act) number on its label. In its Bti fact sheet, the PMRA states that it has classified nearly all Bti products used against mosquito and black fly larvae as <strong>Restricted</strong>, on the grounds that they must be applied only to the water where the larvae exist; it adds that <strong>commercial class</strong> Bti products may be used against black fly and mosquito larvae only in private ponds and farm dugouts where there is no outflow past the property line. Those classes govern the large-volume products a municipality or licensed applicator uses on open water &mdash; not the small consumer packs sold for containerized water around a house, which is why you can buy Bits and Dunks without a licence and why nothing here is banned.</p>
+          <p>Health Canada&rsquo;s <strong>Pest Management Regulatory Agency (PMRA)</strong> registers every pesticide sold in Canada, and each registered product carries a PCP (Pest Control Products Act) number on its label. In its Bti fact sheet, the PMRA states that nearly all products containing Bti are <strong>Restricted</strong> class products &ldquo;used to control black fly and mosquito larvae in aquatic situations where the flow of water is not confined to a small area,&rdquo; and adds that <strong>commercial class</strong> Bti products can only be used against black fly and mosquito larvae in private ponds and farm dugouts where no outflow beyond the property limits exists. Both of those classes describe the large-volume job a municipality or licensed applicator does on open water &mdash; a creek, a marsh, a farm dugout &mdash; rather than anything in a backyard.</p>
+          <p>One honest caveat about that reasoning, because the same fact sheet says two different things. In a later section it gives a different ground for the same classification: that the PMRA has classified nearly all Bti products as Restricted &ldquo;since they must be applied only in the water where the larvae exist.&rdquo; That sentence would apply to a rain barrel as readily as to a creek, so the confined-water wording is not by itself a complete explanation, and we are not going to pretend it is. What actually decides the question is narrower and checkable: <strong>a pesticide&rsquo;s class is set by its own registration, product by product</strong>, and domestic-class products are the ones sold to consumers without a licence. That is why the number on your package, not the general wording of an archived fact sheet, is the thing to look up.</p>
           <p>Two caveats worth stating plainly. That PMRA fact sheet is marked ARCHIVED, last updated 4 May 2017, so treat it as background rather than the current rulebook. And the authoritative check for any specific product is the live <strong>PMRA Pesticide Label Search</strong> database: take the PCP number printed on the package in your hand and look it up. A US EPA registration number on an imported bag is not a Canadian registration &mdash; that distinction is the actual substance behind most &ldquo;is this legal here&rdquo; confusion.</p>
           <p>On safety, the same PMRA fact sheet is worth quoting precisely, because it is routinely paraphrased too loosely in both directions. The PMRA states that no product containing Bti may be applied to <em>treated, finished drinking water</em> for human consumption. Separately, it states that the agency has no human health and safety concerns about the application of registered Bt products to bodies of water that will be used for human consumption. In plain terms: BTI is not something you add to a municipal system or a kitchen tap, and it is not regarded as a health hazard where it is applied to raw water bodies under its registered uses.</p>
 
@@ -409,7 +407,7 @@ export default function MosquitoBitsCanadaPage() {
             <li><strong>Gnatrol</strong> &mdash; a BTI formulation made specifically for fungus gnat larvae in greenhouse and nursery growing media. It is the professional counterpart to steeping Bits for a gnat drench, and it is bought through horticultural suppliers rather than hardware stores.</li>
             <li><strong>BTI briquets</strong> (Bactimos and similar) &mdash; the slow-release tablet format under other brand names, essentially the same idea as a Dunk.</li>
           </ul>
-          <p>The important shelf competitor in Canada is not BTI at all. <strong>Doktor Doom 90-Day Larva Killer briquettes</strong> are made by a Canadian company and stocked at Canadian Tire right beside the Summit products, and their active ingredient is <strong>novaluron</strong>, an insect growth regulator. Novaluron does not destroy the larval gut the way BTI does; it stops larvae from moulting successfully, so they never emerge as adults. One briquette treats standing water up to <strong>200 litres</strong> and is rated for <strong>90 days</strong>, against roughly 30 days for a BTI dunk.</p>
+          <p>The important shelf competitor in Canada is not BTI at all. <strong>Doktor Doom 90-Day Mosquito Larva Killer briquettes</strong> are made by a Canadian company and often sit on the same seasonal shelf as the Summit products, and their active ingredient is <strong>novaluron</strong>, an insect growth regulator. It is registered with Health Canada as a <em>domestic</em> class product under PCP registration number 34197 &mdash; a useful thing to see, because it is a concrete example of a Canadian-registered consumer larvicide you can look up yourself in the PMRA database. Novaluron does not destroy the larval gut the way BTI does; it stops larvae from moulting successfully, so they never emerge as adults. One briquette treats standing water up to <strong>200 litres</strong> and is rated for <strong>90 days</strong>, against roughly 30 days for a BTI dunk.</p>
           <p>The trade-off is real in both directions. If you want a rain barrel handled with one decision in May, a 90-day novaluron briquette is a genuinely longer interval than any BTI product offers. If you have just lifted a lid and found the water squirming, BTI is the faster answer &mdash; it kills feeding larvae within about 24 hours, whereas a growth regulator has to wait for those larvae to attempt their next moult. The two are not interchangeable, and a page that only ever mentions BTI is leaving out the product most likely to be sitting next to it on a Canadian shelf.</p>
 
           <h2>Black Flies: Why Bits Work on the Label but Not in Your Yard</h2>

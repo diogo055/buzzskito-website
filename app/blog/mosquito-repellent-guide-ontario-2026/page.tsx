@@ -12,14 +12,14 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'mosquito-repellent-guide-ontario-2026'
 const DATE = '2026-04-26'
-const UPDATED = '2026-04-26'
+const UPDATED = '2026-09-04'
 const TITLE = 'Mosquito Repellent Guide — Ontario 2026 (What Actually Works)'
 const META_TITLE = 'Best Mosquito Repellent Canada 2026: Ranked'
 
 const FAQS = [
   {
     question: 'What is the most effective mosquito repellent in 2026?',
-    answer: 'For personal skin protection, DEET (20–30%) and picaridin (20%) remain the gold standard, providing 6–10 hours of effective coverage. Oil of Lemon Eucalyptus (OLE / PMD) is the most effective natural option with 4–6 hour duration. For yard-wide protection, professional barrier spray applied to vegetation is dramatically more effective than personal repellents because it controls the population in your space rather than just on your skin.',
+    answer: 'For personal skin protection, DEET (up to 30% for adults, per Health Canada) and icaridin/picaridin (20%) remain the gold standard. Canadian labels put 25% DEET at up to 8 hours and 20% icaridin at up to 12; the Canadian Paediatric Society is more conservative at 5–8 hours for DEET and 5–7 for icaridin. Oil of lemon eucalyptus is the best-evidenced natural option, but check which lemon-eucalyptus active the label names: every synthetic PMD product registered in Canada is 10% PMD (Health Canada re-evaluation decision RVD2022-11), which the Canadian Paediatric Society rates at about 2 hours against mosquitoes, while the naturally sourced form — oil of lemon eucalyptus, hydrated, cyclized, sold as Citriodiol — is separately registered here at up to 30% and claims around 6 hours. For yard-wide protection, professional barrier spray applied to vegetation is dramatically more effective than personal repellents because it controls the population in your space rather than just on your skin.',
   },
   {
     question: 'Is DEET safe?',
@@ -27,23 +27,23 @@ const FAQS = [
   },
   {
     question: 'Picaridin vs DEET — which is better?',
-    answer: 'Picaridin offers similar duration to DEET (6–10 hours at 20% concentration) without DEET\'s plastic/fabric-melting side effects. It\'s odourless and non-greasy. Many people prefer picaridin for everyday use; DEET still wins in extreme conditions (tropical jungles, dense bug pressure) at 30%+ concentration. For Ontario backyard use, 20% picaridin is excellent.',
+    answer: 'Picaridin offers similar duration to DEET (6–10 hours at 20% concentration) without DEET\'s plastic/fabric-melting side effects. It\'s odourless and non-greasy. Many people prefer picaridin for everyday use; DEET still wins in extreme conditions (tropical jungles, dense bug pressure) at 30% — which is also the maximum concentration Health Canada permits for adults, so nothing stronger is sold here. For Ontario backyard use, 20% picaridin is excellent.',
   },
   {
     question: 'What about ultrasonic mosquito repellent devices?',
-    answer: 'Multiple peer-reviewed studies have shown ultrasonic mosquito repellent devices have no measurable effect. The frequencies they produce do not deter mosquitoes. Save your money — these are marketing, not science.',
+    answer: 'Multiple peer-reviewed studies have shown ultrasonic mosquito repellent devices have no measurable effect. The frequencies they produce do not deter mosquitoes. Health Canada agrees, listing electronic and ultrasonic devices among the products that do not protect well against biting insects. Save your money — these are marketing, not science.',
   },
   {
     question: 'Do mosquito-repellent bracelets work?',
-    answer: 'No. Mosquito-repellent bracelets protect a few centimetres of skin around the wrist. Mosquitoes will simply bite your ankles, neck, or anywhere else exposed. Studies show they fail in real-world conditions despite marketing claims.',
+    answer: 'No. Mosquito-repellent bracelets protect a few centimetres of skin around the wrist. Mosquitoes will simply bite your ankles, neck, or anywhere else exposed. Studies show they fail in real-world conditions despite marketing claims, and Health Canada lists repellent wristbands, neckbands and ankle bands among the products that do not protect well against biting insects.',
   },
   {
     question: 'What\'s the cheapest effective mosquito repellent?',
-    answer: 'For personal use, generic 20% picaridin or 20–30% DEET in spray form is around $8–$15 for a 200ml bottle that lasts a season. For yard-level control, BTI Mosquito Dunks ($15 for a season supply) treat standing water at the source. For full yard protection without personal repellent, professional barrier spray costs $99 per visit and controls the population for up to 30 days.',
+    answer: 'For personal use, a bottle of 20% icaridin or 25–30% DEET spray runs roughly $12–$25 and lasts most households a season — check current retail, since prices move. For yard-level control, Bti mosquito dunks (Summit Mosquito Dunks carry a Canadian label registered under the Pest Control Products Act — the PCP registration number is printed on the package) treat standing water at the source for well under the cost of a season of sprays. For full yard protection without personal repellent, professional barrier spray costs $99 per visit and controls the population for up to 30 days.',
   },
   {
     question: 'Are there mosquito repellents safe for babies?',
-    answer: 'Health Canada does not recommend any chemical insect repellent for babies under 6 months. For infants, use physical barriers: mosquito netting over strollers, long sleeves and pants, and avoid peak biting hours (dawn and dusk). For children 6 months to 2 years, only one application per day of 10% DEET or equivalent is permitted. Older children can use higher concentrations more frequently.',
+    answer: 'Health Canada says not to use a DEET repellent on an infant younger than 6 months, and that icaridin products should not be used under 6 months either — for babies, use a mosquito net over the crib or stroller. Two options do carry no age restriction on Health Canada’s personal insect repellents page: soybean-oil repellents, and metofluthrin clip-on devices (children should not change the refill disks). For children 6 months to 2 years, DEET is capped at 10% and no more than one application per day. Children 2 to 12 stay at that same 10% DEET ceiling but may apply up to 3 times daily — the concentration does not rise until after age 12, when Health Canada allows up to 30%.',
   },
   {
     question: 'When should I use repellent vs barrier spray?',
@@ -51,15 +51,15 @@ const FAQS = [
   },
   {
     question: 'What is the best mosquito repellent in Canada?',
-    answer: 'For skin, 20% picaridin (Natrapel, Sawyer) is the best all-round mosquito repellent for most Canadians — 6–10 hours of protection, odourless, and it will not damage plastics or fabrics. For the heaviest bug pressure such as cottage country or canoe trips, 25–30% DEET (OFF Deep Woods) edges it out. And for a hands-off backyard, a Thermacell device or a professional barrier spray beats anything you put on your skin.',
+    answer: 'For skin, 20% icaridin (picaridin) is the best all-round mosquito repellent for most Canadians — odourless, and it will not damage plastics or fabrics. Natrapel is the version registered for sale in Canada under the Pest Control Products Act; its Canadian label claims up to 12 hours against mosquitoes and ticks, while the Canadian Paediatric Society uses a more conservative 5–7 hours. Imported bottles of other brands may not carry a Canadian PCP number — check the label. For the heaviest bug pressure such as cottage country or canoe trips, DEET edges it out; OFF Deep Woods sold in Canada is 25% DEET on an 8-hour label, and Health Canada allows adults up to 30%. And for a hands-off backyard, a Thermacell device or a professional barrier spray beats anything you put on your skin.',
   },
   {
     question: 'What is the best mosquito repellent device?',
-    answer: 'The Thermacell patio repeller is the best mosquito repellent device for real-world use. It warms a repellent mat to create roughly a 20-foot (6 m) zone of protection around a still patio or campsite, with no spray on your skin and no smoke. Skip ultrasonic plug-ins and repellent bracelets — peer-reviewed studies show they have no measurable effect. For whole-yard, multi-week control, a professional barrier spray works on a different principle: it leaves a residual on the shaded vegetation where mosquitoes rest, so it covers the entire property instead of one seating area and keeps working between visits.',
+    answer: 'The Thermacell patio repeller is the best mosquito repellent device for real-world use. Thermacell rates its fuel-powered repellers, including the Patio Shield, at a 15-foot (about 4.5 m) zone — roughly 225 sq ft, the size of an average deck — with no spray on your skin and no smoke; the 20-foot zone belongs to Thermacell’s larger rechargeable models. Skip ultrasonic plug-ins and repellent bracelets — peer-reviewed studies show they have no measurable effect, and Health Canada lists both electronic/ultrasonic devices and repellent wristbands among products that do not protect well against biting insects. For whole-yard, multi-week control, a professional barrier spray works on a different principle: it leaves a residual on the shaded vegetation where mosquitoes rest, so it covers the entire property instead of one seating area and keeps working between visits.',
   },
   {
     question: 'Do mosquito foggers work?',
-    answer: 'Yard foggers (Cutter, Black Flag) do knock down adult mosquitoes for a few hours, which makes them handy right before a party or barbecue. But the effect wears off the same evening once fresh mosquitoes drift in from neighbouring yards, and repeated fogging can harm pollinators. For lasting control, a professional barrier spray applied to resting vegetation lasts 21–30 days per treatment.',
+    answer: 'Yard foggers (Cutter, Black Flag) do knock down adult mosquitoes for a few hours, which makes them handy right before a party or barbecue. One Canadian caveat: the fogger hardware is legal to own, but the fogging insecticide you put in it must carry a Health Canada PCP registration number — the US Cutter and Black Flag fogging concentrates are EPA-registered, not PMRA-registered, so do not import them. But the effect wears off the same evening once fresh mosquitoes drift in from neighbouring yards, and repeated fogging can harm pollinators. For lasting control, a professional barrier spray applied to resting vegetation lasts 21–30 days per treatment.',
   },
 ]
 
@@ -102,13 +102,13 @@ export default function MosquitoRepellentGuidePage() {
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
           <div className="not-prose bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The best all-round mosquito repellent for Canada in 2026 is 20% picaridin (Natrapel or Sawyer) — 6–10 hours of odourless protection that won&rsquo;t melt plastics or fabrics. For heavy cottage-country bug pressure, 25–30% DEET (OFF Deep Woods) still wins.</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The best all-round mosquito repellent for Canada in 2026 is 20% icaridin (picaridin) — 6–10 hours of odourless protection that won&rsquo;t melt plastics or fabrics. Natrapel is the 20% icaridin brand registered for sale in Canada under the Pest Control Products Act. For heavy cottage-country bug pressure, DEET still wins — the OFF Deep Woods sold in Canada is 25% DEET, and Health Canada allows adults up to 30%.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
               <li>20% picaridin protects for 6–10 hours, is odourless, and is safe on gear and plastics.</li>
-              <li>25–30% DEET protects for 6–10 hours and is the pick for cottage docks and dense bush.</li>
-              <li>Oil of lemon eucalyptus (OLE/PMD, 30%) is the most effective natural option, lasting 4–6 hours.</li>
-              <li>The Thermacell patio repeller creates roughly a 20-foot (6 m) protection zone with no spray on your skin.</li>
-              <li>Ultrasonic devices and repellent bracelets show no measurable effect in peer-reviewed studies.</li>
+              <li>25–30% DEET is the pick for cottage docks and dense bush — Canadian labels claim up to 8 hours, and Health Canada caps adults at 30%.</li>
+              <li>Oil of lemon eucalyptus is the best-evidenced natural option, but read the active: synthetic PMD is registered in Canada only at 10% (Health Canada RVD2022-11), roughly 2 hours against mosquitoes, while the natural Citriodiol form is registered here at up to 30% and claims about 6 hours.</li>
+              <li>The Thermacell Patio Shield creates a 15-foot (about 4.5 m) protection zone — roughly 225 sq ft — with no spray on your skin.</li>
+              <li>Ultrasonic devices and repellent bracelets show no measurable effect in peer-reviewed studies — Health Canada lists both among products that do not protect well.</li>
               <li>For whole-yard control, professional barrier spray from $99 lasts 21–30 days per treatment.</li>
             </ul>
             <p className="mt-3 text-xs text-gray-500">— BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
@@ -119,7 +119,7 @@ export default function MosquitoRepellentGuidePage() {
             <BuyLink tag={AMZ_TAG} search="natrapel picaridin insect repellent">Picaridin repellent on Amazon.ca →</BuyLink>
             <BuyLink tag={AMZ_TAG} search="thermacell patio shield mosquito repeller">Thermacell patio repeller →</BuyLink>
           </div>
-          <p className="lead text-xl text-gray-700 leading-relaxed mb-6">The <strong>best mosquito repellent</strong> in Canada for 2026 is 20% picaridin (Natrapel or Sawyer) for everyday use, and 25–30% DEET when the bug pressure is heaviest; the best mosquito repellent device is the Thermacell patio repeller. Dozens of other bottles line the shelves at Canadian Tire, Home Depot, and Shoppers Drug Mart, and most don&rsquo;t work as advertised — here is what the peer-reviewed research and Health Canada approvals say about each one.</p>
+          <p className="lead text-xl text-gray-700 leading-relaxed mb-6">The <strong>best mosquito repellent</strong> in Canada for 2026 is 20% icaridin/picaridin (Natrapel is the brand registered here under the Pest Control Products Act) for everyday use, and 25–30% DEET when the bug pressure is heaviest — 30% being Health Canada&rsquo;s adult ceiling; the best mosquito repellent device is the Thermacell patio repeller. Dozens of other bottles line the shelves at Canadian Tire, Home Depot, and Shoppers Drug Mart, and most don&rsquo;t work as advertised — here is what the peer-reviewed research and Health Canada approvals say about each one.</p>
 
           <h2 id="best-repellents">Best Mosquito Repellents in Canada (2026)</h2>
           <p>Ranked by how well they hold up in real-world use and peer-reviewed testing. Every one below is protection you wear or place — for hands-off, whole-yard control skip to the strategy section. And if you only care about devices — Thermacell, traps, zappers — we&rsquo;ve ranked those head-to-head in our <Link href="/blog/best-mosquito-repellent-device-canada">best mosquito repellent device guide</Link>.</p>
@@ -131,40 +131,40 @@ export default function MosquitoRepellentGuidePage() {
                 {
                   badge: 'Best Overall',
                   name: 'Natrapel 20% Picaridin',
-                  why: 'Odourless, 6–10 hours of protection, and it won’t melt plastics or fabrics. The best all-round everyday backyard and travel pick for Ontario.',
+                  why: 'Odourless, long-wearing, and it won’t melt plastics or fabrics — and it is registered for sale in Canada under the Pest Control Products Act. The best all-round everyday backyard and travel pick for Ontario.',
                   search: 'natrapel picaridin insect repellent',
                   asin: 'B0BYFF3S3V',
                   score: 9.1,
                   featured: true,
-                  pros: ['6–10 hours of protection', 'Odourless and non-greasy', 'Safe on gear, plastics and fabrics'],
+                  pros: ['Canadian label claims up to 12 hrs vs mosquitoes and ticks', 'Odourless and non-greasy', 'Safe on gear, plastics and fabrics'],
                   cons: ['Slightly pricier than generic DEET', 'Protects skin only, not the yard'],
                 },
                 {
                   badge: 'Best for Heavy Bug Pressure',
-                  name: 'OFF Deep Woods (25–30% DEET)',
+                  name: 'OFF Deep Woods (25% DEET in Canada)',
                   why: 'The most-studied repellent in history and the pick when the bugs are relentless — cottage docks, canoe trips, and dense bush.',
                   search: 'off deep woods insect repellent',
                   score: 8.7,
-                  pros: ['6–10 hours in heavy pressure', 'Decades of peer-reviewed evidence', 'Widely stocked'],
+                  pros: ['Up to 8 hours on the Canadian label', 'Decades of peer-reviewed evidence', 'Widely stocked in Canada'],
                   cons: ['Can damage plastics and synthetics', 'Noticeable odour'],
                 },
                 {
                   badge: 'Best Device',
                   name: 'Thermacell Patio Shield',
-                  why: 'Warms a repellent mat to create roughly a 20-foot scent-free zone around a still patio or campsite — no spray on your skin.',
+                  why: 'Warms a repellent mat to create the 15-foot (about 225 sq ft) zone Thermacell rates its fuel-powered repellers at — no spray on your skin.',
                   search: 'thermacell patio shield mosquito repeller',
                   score: 8.5,
-                  pros: ['~20 ft protection zone', 'No skin spray or smoke', 'Great for still patios and campsites'],
+                  pros: ['15 ft protection zone (~225 sq ft)', 'No skin spray or smoke', 'Great for still patios and campsites'],
                   cons: ['Needs calm, still air', 'Mats and fuel are consumables'],
                 },
                 {
                   badge: 'Best DEET-Free',
-                  name: 'Repel Oil of Lemon Eucalyptus (30%)',
-                  why: 'Plant-derived PMD with real evidence — the only natural option with DEET-comparable performance for those who want to skip synthetics.',
+                  name: 'Repel Oil of Lemon Eucalyptus',
+                  why: 'Lemon eucalyptus is the one natural repellent family Health Canada registers with real repellency evidence. Read the active before you buy: synthetic PMD is registered in Canada only at 10% (Health Canada RVD2022-11), while the naturally sourced Citriodiol form is registered here at up to 30%. Either way, check the label for a Canadian PCP number.',
                   search: 'repel lemon eucalyptus insect repellent',
                   score: 7.9,
-                  pros: ['Only natural option with strong evidence', 'DEET-free', 'Pleasant lemon scent'],
-                  cons: ['Shorter 4–6 hour duration', 'Not for children under 3'],
+                  pros: ['Best-evidenced natural active', 'DEET-free', 'Pleasant lemon scent'],
+                  cons: ['Short duration — the Canadian Paediatric Society rates PMD at about 2 hrs vs mosquitoes', 'Health Canada: not for children under 3'],
                 },
               ]}
               whichToBuy={
@@ -187,13 +187,13 @@ export default function MosquitoRepellentGuidePage() {
               </thead>
               <tbody className="align-top text-gray-700">
                 <tr className="border-b border-gray-200">
-                  <td className="py-3 pr-4 font-semibold text-gray-900">Natrapel / Sawyer Picaridin (20%)</td>
+                  <td className="py-3 pr-4 font-semibold text-gray-900">Natrapel Icaridin (20%)</td>
                   <td className="py-3 pr-4">Skin spray</td>
-                  <td className="py-3 pr-4"><strong>Best overall</strong> — odourless everyday backyard &amp; travel pick, 6–10 hrs.</td>
+                  <td className="py-3 pr-4"><strong>Best overall</strong> — odourless everyday backyard &amp; travel pick; Canadian PCP-registered, label claims up to 12 hrs.</td>
                   <td className="py-3"><BuyLink tag={AMZ_TAG} search="natrapel picaridin insect repellent" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-gray-200">
-                  <td className="py-3 pr-4 font-semibold text-gray-900">OFF Deep Woods (25–30% DEET)</td>
+                  <td className="py-3 pr-4 font-semibold text-gray-900">OFF Deep Woods (25% DEET in Canada)</td>
                   <td className="py-3 pr-4">Skin spray</td>
                   <td className="py-3 pr-4"><strong>Best for heavy bug pressure</strong> — cottage docks, canoe trips, dense bush.</td>
                   <td className="py-3"><BuyLink tag={AMZ_TAG} search="off deep woods insect repellent" block>Check price on Amazon.ca →</BuyLink></td>
@@ -201,25 +201,25 @@ export default function MosquitoRepellentGuidePage() {
                 <tr className="border-b border-gray-200">
                   <td className="py-3 pr-4 font-semibold text-gray-900">Thermacell Patio Shield</td>
                   <td className="py-3 pr-4">Area device</td>
-                  <td className="py-3 pr-4"><strong>Best device</strong> — a ~20&nbsp;ft scent-free zone for still patios &amp; campsites, no skin spray.</td>
+                  <td className="py-3 pr-4"><strong>Best device</strong> — a 15&nbsp;ft (~225 sq ft) zone for still patios &amp; campsites, no skin spray.</td>
                   <td className="py-3"><BuyLink tag={AMZ_TAG} search="thermacell patio shield mosquito repeller" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-gray-200">
-                  <td className="py-3 pr-4 font-semibold text-gray-900">Oil of Lemon Eucalyptus (Repel, 30%)</td>
+                  <td className="py-3 pr-4 font-semibold text-gray-900">Oil of Lemon Eucalyptus / PMD (Repel)</td>
                   <td className="py-3 pr-4">Natural skin spray</td>
-                  <td className="py-3 pr-4"><strong>Best DEET-free pick</strong> — plant-derived PMD with real evidence, 4–6 hrs.</td>
+                  <td className="py-3 pr-4"><strong>Best DEET-free pick</strong> — plant-derived, real evidence; synthetic PMD is 10% in Canada (~2 hrs), natural Citriodiol up to 30% (~6 hrs).</td>
                   <td className="py-3"><BuyLink tag={AMZ_TAG} search="repel lemon eucalyptus insect repellent" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-gray-200">
                   <td className="py-3 pr-4 font-semibold text-gray-900">Backyard fogger (Cutter / Black Flag)</td>
                   <td className="py-3 pr-4">Yard fogger</td>
-                  <td className="py-3 pr-4"><strong>Best one-off knockdown</strong> — clears a yard for hours before a party, not weeks.</td>
+                  <td className="py-3 pr-4"><strong>Best one-off knockdown</strong> — clears a yard for hours before a party, not weeks. In Canada the fogging insecticide must carry a Health Canada PCP number; US concentrates are EPA-registered only.</td>
                   <td className="py-3"><BuyLink tag={AMZ_TAG} search="cutter backyard mosquito fogger" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr>
                   <td className="py-3 pr-4 font-semibold text-gray-900">Repellent bracelet / wristband</td>
                   <td className="py-3 pr-4">Wearable</td>
-                  <td className="py-3 pr-4"><strong>Skip it</strong> — protects only a few cm around your wrist; you&rsquo;ll still get bitten on the ankles and neck.</td>
+                  <td className="py-3 pr-4"><strong>Skip it</strong> — Health Canada lists repellent wristbands among products that do not protect well; you&rsquo;ll still get bitten on the ankles and neck.</td>
                   <td className="py-3"><BuyLink tag={AMZ_TAG} search="mosquito repellent bracelet" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
               </tbody>
@@ -228,43 +228,43 @@ export default function MosquitoRepellentGuidePage() {
           <p>Notice the pattern: every pick above protects <em>you</em>, not your yard. To stop reaching for repellent at home, pair any of them with a <Link href="/mosquito-control">professional yard barrier spray</Link> — and if ticks are a concern, our <Link href="/tick-control">tick control program</Link> treats the same visit.</p>
 
           <h2>The Tier System — Ranked by Evidence</h2>
+          <p className="not-prose text-sm text-gray-600 mb-4 border-l-4 border-emerald-300 pl-4 py-2 bg-emerald-50 rounded-r">The actives Health Canada lists as registered for personal insect repellents in Canada are: <strong>DEET, icaridin, permethrin (factory-treated clothing only), soybean oil, metofluthrin, p-menthane-3,8-diol / oil of lemon eucalyptus,</strong> and a specific <strong>mixture of lemon, camphor, geranium, eucalyptus and pine-needle essential oils</strong>. Anything not on that list is not a registered personal repellent here, whatever its status in the United States. Look for a PCP number on the label.</p>
 
-          <h3>🟢 Tier 1: Gold Standard (Health Canada-approved, peer-reviewed)</h3>
+          <h3>🟢 Tier 1: Gold Standard (registered by Health Canada, peer-reviewed)</h3>
           <ul>
-            <li><strong>DEET (20–30%)</strong> — 6–10 hours of protection. The most-studied repellent in history. Brands: Off Deep Woods, Watkins.</li>
-            <li><strong>Picaridin (20%)</strong> — 6–10 hours, no plastic/fabric damage, odourless. Brands: Sawyer, Natrapel.</li>
-            <li><strong>IR3535 (15–20%)</strong> — 4–8 hours. Less common in Canadian retail but evidence-backed.</li>
+            <li><strong>DEET (up to 30% for adults)</strong> — the most-studied repellent in history. Canadian labels claim up to 8 hours (OFF Deep Woods 25%); the Canadian Paediatric Society rates 30% DEET at 5–8 hours. Health Canada caps adults at 30% and children 2–12 at 10%. Brands: OFF Deep Woods, Watkins.</li>
+            <li><strong>Icaridin / picaridin (20%)</strong> — no plastic or fabric damage, odourless. Natrapel&rsquo;s Canadian label claims up to 12 hours against mosquitoes and ticks and 10 against black flies; the Canadian Paediatric Society uses a more conservative 5–7 hours. Health Canada: not for infants under 6 months.</li>
           </ul>
+          <p className="text-sm text-gray-600"><strong>Correction (Sept 2026):</strong> this tier previously listed <strong>IR3535 (15–20%)</strong> as a Health Canada-approved option. It is not. IR3535 is EPA-registered in the United States, but it does not appear among the personal insect repellent actives Health Canada lists as registered in Canada, and we could not find a PCP-registered IR3535 product for the Canadian market.</p>
 
           <h3>🟡 Tier 2: Effective natural options</h3>
           <ul>
-            <li><strong>Oil of Lemon Eucalyptus (OLE / PMD, 30%)</strong> — 4–6 hours. The only natural option with DEET-comparable evidence. Brands: Off Botanicals, Repel Lemon Eucalyptus.</li>
-            <li><strong>2-Undecanone (BioUD)</strong> — Comparable to OLE, less common in Canadian retail.</li>
+            <li><strong>Oil of lemon eucalyptus / PMD</strong> — the best-evidenced natural active, and registered by Health Canada. Health Canada registers two related lemon-eucalyptus actives, and the difference matters when you read a label. <strong>p-Menthane-3,8-diol (PMD)</strong> is the synthetic form: every PMD end-use product registered in Canada is <strong>10% PMD</strong> (Health Canada re-evaluation decision RVD2022-11 lists them all — they are the OFF! Botanicals line), and the Canadian Paediatric Society rates PMD at about 2 hours against mosquitoes and up to 5 against black flies. <strong>Oil of lemon eucalyptus, hydrated, cyclized</strong> (sold as Citriodiol) is the naturally sourced form and is separately registered here — Druide&rsquo;s made-in-Canada 30% Citriodiol repellent is registered with Health Canada and claims about 6 hours. So a 30% lemon-eucalyptus bottle is not automatically a US-only product; check which of the two actives the label names, and look for a PCP number. Health Canada: not for children under 3. Brands: OFF Botanicals (10% PMD), Druide (30% Citriodiol).</li>
           </ul>
 
           <h3>🟠 Tier 3: Real but short-duration</h3>
           <ul>
-            <li><strong>Citronella oil sprays</strong> — 30–60 minutes.</li>
-            <li><strong>Soybean oil products</strong> (Bite Blocker) — ~1.5 hours.</li>
-            <li><strong>Geraniol</strong> — 1–2 hours.</li>
+            <li><strong>Soybean oil products</strong> (Bite Blocker) — ~1.5 hours. Registered in Canada; Health Canada states there are no age restrictions on these products.</li>
+            <li><strong>Registered essential-oil blend sprays</strong> — short-lived, roughly an hour or two, but legitimately registered. Not for children under 2.</li>
+            <li><strong>Citronella oil skin sprays — no longer a registered option in Canada.</strong> Health Canada&rsquo;s PMRA proposed phasing out citronella-oil <em>personal</em> insect repellents after its 2004 re-evaluation, reconsidered following public feedback, and set out a new framework for essential-oil repellents in regulatory directive DIR2017-02. The outcome for buyers today: citronella does not appear on Health Canada&rsquo;s current list of registered personal repellent actives — the only essential-oil entry on that list is a specific mixture of lemon, camphor, geranium, eucalyptus and pine-needle oils. Citronella candles, coils and torches remain registered as <em>area</em> repellents — a different, and weak, product class.</li>
           </ul>
 
           <h3>🔴 Tier 4: Marketing more than mosquitoes (avoid)</h3>
           <ul>
-            <li><strong>Ultrasonic devices</strong> — Studies confirm: zero effect.</li>
-            <li><strong>Bracelets and wristbands</strong> — Protects only the wrist.</li>
+            <li><strong>Ultrasonic devices</strong> — Studies confirm: zero effect. Health Canada lists electronic and ultrasonic devices among products that do not protect well.</li>
+            <li><strong>Bracelets and wristbands</strong> — Protects only the wrist. Health Canada lists repellent wristbands, neckbands and ankle bands among products that do not protect well.</li>
             <li><strong>Generic essential oil blends</strong> — 15–60 minutes weak repellency.</li>
-            <li><strong>Bug zappers</strong> — Kill mostly beneficial insects, not biting mosquitoes. (CO2 traps are the one trap category with real evidence behind it — see our <Link href="/blog/mosquito-magnet-canada">Mosquito Magnet review</Link>.)</li>
-            <li><strong>Mosquito-repelling plant beds</strong> — Tiny effect; oils only release when leaves are crushed.</li>
+            <li><strong>Bug zappers</strong> — Kill mostly beneficial insects, not biting mosquitoes; Health Canada lists electrocuting devices among products that do not protect well against biting insects. (CO2 traps have the strongest trapping research of any trap category, but note that Health Canada also lists odour-baited mosquito traps as not protecting people from bites as well as a personal repellent — see our <Link href="/blog/mosquito-magnet-canada">Mosquito Magnet review</Link>.)</li>
+            <li><strong>Mosquito-repelling plant beds</strong> — Tiny effect; oils only release when leaves are crushed. Health Canada names citrosa houseplants specifically as a product that does not protect well.</li>
           </ul>
 
           <h2>What to Buy for What Situation</h2>
           <ul>
             <li><strong>Backyard BBQ (2–3 hours):</strong> 20% picaridin spray.</li>
-            <li><strong>Long hike or camping:</strong> 30% DEET or 20% picaridin.</li>
-            <li><strong>Kids 2–12 years:</strong> 10% DEET or 20% picaridin (one application per day max for under 2).</li>
-            <li><strong>Babies under 6 months:</strong> No chemical repellent. Use mosquito netting + long sleeves.</li>
-            <li><strong>Pregnant women:</strong> Picaridin or DEET both Health Canada-approved during pregnancy.</li>
+            <li><strong>Long hike or camping:</strong> 30% DEET (Health Canada&rsquo;s adult maximum) or 20% icaridin.</li>
+            <li><strong>Kids 2–12 years:</strong> DEET no stronger than 10%, up to 3 times a day — or 20% icaridin, which the Public Health Agency of Canada&rsquo;s travel-medicine committee and the Canadian Paediatric Society name as first choice for ages 6 months to 12 years. Health Canada&rsquo;s 10% DEET ceiling holds all the way to age 12; it does not rise with age within that band. For 6 months to 2 years, DEET is limited to one application per day.</li>
+            <li><strong>Babies under 6 months:</strong> Health Canada says no DEET and no icaridin. Use a mosquito net over the crib or stroller plus long sleeves. Soybean-oil repellents and metofluthrin clip-ons are the two categories Health Canada lists with no age restriction.</li>
+            <li><strong>Pregnant women:</strong> The Public Health Agency of Canada&rsquo;s travel-medicine guidance considers DEET (20–30%) and icaridin (20%) safe in pregnancy and while breastfeeding, and Health Canada states adults including pregnant women may wear permethrin-treated clothing. Health Canada&rsquo;s repellent page itself sets no separate pregnancy approval, so treat this as PHAC guidance rather than a label approval.</li>
             <li><strong>Pets in yard:</strong> Don&rsquo;t apply human repellents to pets. Use vet-prescribed flea/tick preventatives + professional yard barrier spray.</li>
           </ul>
 
@@ -274,8 +274,8 @@ export default function MosquitoRepellentGuidePage() {
 
           <h2>Cost Comparison (per Ontario season)</h2>
           <ul>
-            <li><strong>DIY personal repellent only:</strong> $30–$60/season for sprays + reapplications</li>
-            <li><strong>BTI Mosquito Dunks (water source treatment):</strong> $15/season</li>
+            <li><strong>DIY personal repellent only:</strong> roughly $30–$60 a season for sprays and reapplications (approximate — retail prices move)</li>
+            <li><strong>Bti mosquito dunks (water source treatment):</strong> a season&rsquo;s supply is the cheapest line on this list; Summit Mosquito Dunks are sold in Canada under a Health Canada label registered per the Pest Control Products Act, with the PCP number printed on the package</li>
             <li><strong>BuzzSkito Basic seasonal (5 sprays):</strong> $549</li>
             <li><strong>BuzzSkito Standard seasonal (10 sprays):</strong> $994</li>
           </ul>
@@ -285,7 +285,7 @@ export default function MosquitoRepellentGuidePage() {
           <ul>
             <li>Ultrasonic plug-ins or yard devices (zero evidence)</li>
             <li>Mosquito-repelling bracelets/wristbands</li>
-            <li>Citronella tiki torches (1-metre downwind effect only)</li>
+            <li>Citronella tiki torches — registered in Canada as area repellents, but Health Canada notes lanterns and coils do not protect people from bites as well as a personal repellent (roughly a 1-metre downwind effect)</li>
             <li>Bug zappers (kill the wrong insects)</li>
             <li>&ldquo;DIY essential oil&rdquo; sprays from Pinterest (most don&rsquo;t work)</li>
           </ul>

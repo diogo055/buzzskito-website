@@ -19,23 +19,23 @@ const TITLE = 'Best Bug Zappers in Canada 2026 (Do They Work?)'
 const FAQS = [
   {
     question: 'Do bug zappers actually kill mosquitoes?',
-    answer: 'Mostly no. Multiple peer-reviewed studies — University of Delaware (1996), University of Notre Dame (2017), University of Florida (multiple) — consistently find that bug zappers catch 0.13% to 4% mosquitoes by total catch volume. The other 96–99% of zapped insects are non-biting moths, beetles, midges, lacewings, and beneficial insects. Female mosquitoes (the only ones that bite) hunt humans using CO₂, body heat, and skin scent — they don\'t respond strongly to UV light. Bug zappers feel satisfying because of the audible "zap" but actually do very little for the mosquito problem you\'re trying to solve.',
+    answer: 'Mostly no. The published counts agree: the University of Delaware study (Frick & Tallamy, 1996) found 31 of 13,789 electrocuted insects — 0.22% — were mosquitoes and other biting flies, and the American Mosquito Control Association reports 0.13% female mosquitoes in one backyard study and 4.1% and 6.4% of the daily catch in the two controlled University of Notre Dame yard trials, with no significant difference in mosquito numbers between yards with a zapper and yards without. So mosquitoes are a low single-digit share of the catch at best; the rest are non-biting moths, beetles, midges, lacewings, and beneficial insects. Female mosquitoes (the only ones that bite) hunt humans using CO₂, body heat, and skin scent — they don\'t respond strongly to UV light. Bug zappers feel satisfying because of the audible "zap" but actually do very little for the mosquito problem you\'re trying to solve.',
   },
   {
     question: 'Where to buy bug zappers in Canada?',
-    answer: 'Bug zappers are widely available across Canadian retailers: Canadian Tire ($30–$120), Home Depot Canada ($25–$150), Rona ($30–$120), Lowe\'s Canada ($30–$130), and Costco Canada (often the best pricing on larger units). The most-stocked brands are Flowtron (the most common big outdoor zapper), Stinger, Black+Decker, and assorted house brands. Indoor electric racket zappers (Black Flag, Executioner) run $15–$30 and are surprisingly effective at swatting individual mosquitoes manually — these are the only "bug zappers" we\'d genuinely recommend.',
+    answer: 'Bug zappers are widely available across Canadian retailers: Canadian Tire, Home Depot Canada, RONA / RONA+ (the banner that absorbed the former Lowe\'s Canada stores — Lowe\'s no longer operates retail stores in Canada), Walmart Canada, Costco Canada seasonally, and Amazon.ca. Brands we can confirm on Canadian shelves include Stinger and store-brand corded units at Canadian Tire and Flowtron at Home Depot Canada and Amazon.ca; selection changes by season and store, so check stock before driving. Inexpensive handheld electric racket zappers are widely carried and are surprisingly effective at swatting individual mosquitoes manually — these are the only "bug zappers" we\'d genuinely recommend. One Canadian labelling note worth knowing: under Schedule 2 of the Pest Control Products Regulations, an outdoor electric insect killer sold in Canada without registration must carry the statement "This device does not control blackflies, mosquitoes or other biting flies."',
   },
   {
     question: 'How much do bug zappers cost in Canada?',
-    answer: 'Typical 2026-season pricing across Canadian retailers: Small indoor racket zappers $15–$30 (Black Flag, Executioner brands); small outdoor zappers (Black+Decker, Stinger) $30–$80 covering 1/4 to 1/2 acre; large outdoor zappers (Flowtron BK-15D, BK-40D) $80–$200 covering 1/2 to 1.5 acres; commercial-grade zappers (Flowtron PV-440, used in restaurant patios) $200–$400. Operating cost is just electricity — typically $20–$40/season. Replacement UV bulbs cost $15–$25 and need replacement annually.',
+    answer: 'Prices move constantly and we do not track them, so treat these as rough bands rather than current quotes and check the retailer before you go. Broadly: handheld racket zappers are the cheapest format by a wide margin; small outdoor units covering a quarter to half an acre sit in the low-to-mid double digits; acre-rated outdoor units run into the low hundreds; and commercial-grade units cost several times a residential one. The running costs are more predictable than the purchase price: electricity for a large unit run long hours works out to roughly $20–$40 across a season, and a replacement UV tube — needed annually, because a fluorescent tube loses ultraviolet output long before it stops glowing — is the recurring consumable.',
   },
   {
     question: 'Bug zappers vs Mosquito Magnet — which is better?',
-    answer: 'Mosquito Magnet is significantly more effective for actual mosquito reduction. Bug zappers catch 0.13–4% mosquitoes; Mosquito Magnet (which uses CO₂ instead of UV) catches mosquitoes specifically — 70–90% population reduction over 6–8 weeks. Bug zappers cost $30–$200; Mosquito Magnet costs $400–$1,300 plus $400–$600/year in propane and attractant. If your goal is mosquitoes specifically, Mosquito Magnet is worth the extra cost for serious mosquito problems. If you just want a satisfying nighttime "zap" sound and don\'t mind that you\'re mostly killing moths, bug zappers are cheaper but largely ineffective for the actual problem.',
+    answer: 'A CO₂-baited propane trap is aimed at the right insect; a UV zapper is not. Mosquito Magnet baits its airflow with carbon dioxide and octenol, the cues a host-seeking female is actually following, so it catches mosquitoes specifically rather than moths. Be careful with the numbers, though: the manufacturer says to expect noticeable results in 7–10 days and meaningful population reduction over roughly four weeks, while the American Mosquito Control Association\'s review of the independent trials is blunter — "neither study could demonstrate any meaningful reduction in biting pressure attributable to these devices," and "the advertising claims for acre-wide control by these devices appear to be overstated." So the honest comparison is: a zapper catches almost no mosquitoes at all, a CO₂ trap catches real ones but should not be relied on alone, and both cost far more per bite avoided than draining standing water and treating resting vegetation. A propane trap also costs several hundred dollars up front plus ongoing propane and attractant, against a fraction of that for a zapper.',
   },
   {
     question: 'Do bug zappers harm beneficial insects?',
-    answer: 'Yes, significantly. Bug zappers attract and kill huge volumes of non-biting beneficial insects — moths (key nighttime pollinators that pollinate ~80% of nighttime flowering plants), lacewings (which eat aphids), beetles, mayflies, and other species. The Xerces Society and Audubon Society both recommend AGAINST using outdoor UV bug zappers for this reason — they kill thousands of beneficial insects per season per device with negligible mosquito reduction. For ecologically-conscious Canadian homeowners, bug zappers should be avoided in favor of targeted barrier spray (kills ONLY insects landing on treated vegetation surfaces) or BTI dunks (only kills mosquito and blackfly larvae).',
+    answer: 'Yes, significantly. Bug zappers attract and kill huge volumes of non-biting beneficial insects — moths (which pollination research increasingly shows are important nocturnal pollinators, in some plant systems moving as much pollen as daytime visitors), lacewings (which eat aphids), beetles, mayflies, and other species. The Xerces Society for Invertebrate Conservation recommends AGAINST outdoor UV bug zappers for this reason, describing them as "ludicrously bad at killing pest insects, instead killing scores of benign and beneficial insects" — they kill thousands of beneficial insects per season per device with negligible mosquito reduction. For ecologically-conscious Canadian homeowners, bug zappers should be avoided in favor of targeted barrier spray (kills ONLY insects landing on treated vegetation surfaces) or BTI dunks (only kills mosquito and blackfly larvae).',
   },
   {
     question: 'Do indoor bug zappers work for mosquitoes?',
@@ -43,11 +43,11 @@ const FAQS = [
   },
   {
     question: 'What works better than bug zappers for Ontario mosquitoes?',
-    answer: 'For Ontario mosquito control, ranked by effectiveness: (1) Professional barrier spray treats vegetation surfaces with residual formula — kills mosquitoes resting on leaves for 21–30 days, also handles ticks (~$99/treatment); (2) BTI dunks/bits in any standing water — eliminate mosquito larvae before they become biting adults ($30/season); (3) Thermacell on the patio — creates a 4.5m repellent zone around your seating area ($80–$150 first year); (4) Mosquito Magnet propane traps for cottage/rural properties ($850 first year); (5) Skin repellent (picaridin or DEET) for active outdoor use. Bug zappers don\'t make this list because they don\'t meaningfully reduce mosquito populations.',
+    answer: 'For Ontario mosquito control, ranked by effectiveness: (1) Professional barrier spray treats vegetation surfaces with residual formula — kills mosquitoes resting on leaves for 21–30 days, also handles ticks (~$99/treatment); (2) BTI dunks/bits in any standing water — eliminate mosquito larvae before they become biting adults ($30/season); (3) Thermacell on the patio — a manufacturer-rated repellent zone about 15 ft (4.5 m) across around your seating area, roughly $80–$150 in the first year as an approximate figure; (4) Mosquito Magnet propane traps for cottage/rural properties ($850 first year); (5) Skin repellent (picaridin or DEET) for active outdoor use. Bug zappers don\'t make this list because they don\'t meaningfully reduce mosquito populations.',
   },
   {
     question: 'Are bug zappers safe for kids and pets?',
-    answer: 'Yes from electrocution risk — modern outdoor bug zappers have proper grills and are weather-rated. The risks are different: (1) the device gets hot, kids should not touch the metal grill while running; (2) UV light exposure for prolonged periods isn\'t recommended — keep zappers at least 3 metres from where people sit; (3) zapped insects scatter as fine particles around the device — not toxic but can be inhaled if you stand close (don\'t place near outdoor dining tables); (4) the constant zapping noise can disturb sleep — don\'t place near bedroom windows. Pets generally avoid the loud zap sound on their own.',
+    answer: 'Yes from electrocution risk — modern outdoor bug zappers have proper grills and are weather-rated. The risks are different: (1) the device gets hot, kids should not touch the metal grill while running; (2) UV light exposure for prolonged periods isn\'t recommended — keep zappers at least 3 metres from where people sit; (3) electrocuting an insect scatters fragments — Kansas State University research (Urban and Broce, published 2000) found the blast can carry bacteria and viruses the insect was carrying up to roughly 2 metres (about 6 feet) from the grid, which is why no unit belongs near an outdoor dining table or a food-prep surface; (4) the constant zapping noise can disturb sleep — don\'t place near bedroom windows. Pets generally avoid the loud zap sound on their own.',
   },
   {
     question: 'Why does it FEEL like bug zappers work if they don\'t?',
@@ -59,7 +59,7 @@ const FAQS = [
   },
   {
     question: 'What are the best bug zappers in Canada in 2026?',
-    answer: 'If your goal is nuisance flying insects (moths, gnats, midges, beetles) rather than mosquitoes, the units Canadians buy most in 2026 are: (1) Flowtron BK-40D — best large outdoor coverage up to 1 acre ($99–$169); (2) Stinger Cordless Rechargeable — best portable / no-outlet option ($49–$89); (3) Black+Decker Outdoor Zapper — best small patio ($34–$69); (4) Aspectek 20W — best value for a covered porch ($39–$59); and (5) the Black Flag Executioner racket — best handheld indoor swatter ($15–$30). All are stocked at Canadian Tire, Home Depot, Walmart, and Amazon.ca. Important caveat: even the best-rated zapper catches only 0.13–4% mosquitoes — for the biting problem you still want barrier spray, a Thermacell, or a CO₂ trap.',
+    answer: 'If your goal is nuisance flying insects (moths, gnats, midges, beetles) rather than mosquitoes, the units most often cross-shopped in Canada in 2026 are: (1) Flowtron BK-40D — best large outdoor coverage, rated up to 1 acre by the manufacturer; (2) Stinger Cordless Rechargeable — best portable / no-outlet option; (3) Black+Decker Outdoor Zapper — best small patio; (4) Aspectek 20W — best value for a covered porch; and (5) the Black Flag Executioner racket — best handheld indoor swatter. Availability differs by chain and by month: Stinger units and handheld rackets are carried at Canadian Tire, Flowtron is stocked at Home Depot Canada and Amazon.ca, and seasonal lines clear out by late summer — check stock rather than assuming. Important caveat: even the best-built zapper barely touches biting mosquitoes — for that you still want barrier spray, a repellent zone device, or a CO₂ trap.',
   },
   {
     question: 'What is the best solar bug zapper for outdoors?',
@@ -71,11 +71,11 @@ const FAQS = [
   },
   {
     question: 'Do bug zappers actually work?',
-    answer: 'They work — just not on the insect you bought one for. Peer-reviewed catch counts put mosquitoes at 0.13% to 4% of everything a residential bug zapper kills; the rest are moths, midges, beetles, lacewings and other non-biting insects. The American Mosquito Control Association reports no significant difference in mosquito numbers between yards with a zapper and yards without one, based on the University of Notre Dame yard trials in which mosquitoes were roughly 4.1% and 6.4% of the daily catch. So: effective at killing insects, ineffective at reducing bites.',
+    answer: 'They work — just not on the insect you bought one for. Published catch counts put mosquitoes at a low single-digit share of everything a residential bug zapper kills, from 0.22% of 13,789 insects in the University of Delaware count up to 4.1% and 6.4% of the daily catch in the Notre Dame yard trials; the rest are moths, midges, beetles, lacewings and other non-biting insects. The American Mosquito Control Association reports no significant difference in mosquito numbers between yards with a zapper and yards without one, based on the University of Notre Dame yard trials in which mosquitoes were roughly 4.1% and 6.4% of the daily catch. So: effective at killing insects, ineffective at reducing bites.',
   },
   {
     question: 'Why did people stop using bug zappers?',
-    answer: 'Three things turned opinion between the late 1990s and today. First, the catch data went public — the University of Delaware count (Frick & Tallamy, 1996) found just 0.22% of 13,789 zapped insects were mosquitoes. Second, the ecological cost got quantified: the American Mosquito Control Association estimates electrocuting devices kill 71 billion to 350 billion beneficial insects a year in the United States, and both the Xerces Society and the Audubon Society now recommend against residential outdoor UV zappers. Third, better targeted tools arrived — CO₂-baited traps, repellent zone devices, and licensed residual barrier spray, all of which attack the mosquito rather than attracting whatever flies at a light.',
+    answer: 'Three things turned opinion between the late 1990s and today. First, the catch data went public — the University of Delaware count (Frick & Tallamy, 1996), which identified everything six residential zappers killed in suburban Newark, Delaware over one summer, found just 31 of 13,789 insects (0.22%) were mosquitoes or other biting flies. Second, the ecological cost got quantified: the American Mosquito Control Association estimates electrocuting devices kill 71 billion to 350 billion beneficial insects a year in the United States, and the Xerces Society for Invertebrate Conservation recommends against residential outdoor UV zappers. Third, better targeted tools arrived — CO₂-baited traps, repellent zone devices, and licensed residual barrier spray, all of which attack the mosquito rather than attracting whatever flies at a light.',
   },
   {
     question: 'What is the most effective bug zapper?',
@@ -91,7 +91,7 @@ const FAQS = [
   },
   {
     question: 'What kind of bugs does a bug zapper kill?',
-    answer: 'Overwhelmingly non-biting night-flying insects: moths (the single largest category), midges, caddisflies, mayflies, June beetles, lacewings, and assorted small flies. Mosquitoes are 0.13% to 4% of the catch. It will kill house flies and fungus gnats that come to the light. It does very little for fruit flies (they are drawn to fermenting fruit, not UV — a cider-vinegar trap works far better), essentially nothing for wasps (day-active and not strongly UV-attracted), and nothing at all for fleas, which live on hosts and in carpet and never fly to a light.',
+    answer: 'Overwhelmingly non-biting night-flying insects: moths (the single largest category), midges, caddisflies, mayflies, June beetles, lacewings, and assorted small flies. Mosquitoes are a low single-digit share of the catch. It will kill house flies and fungus gnats that come to the light. It does very little for fruit flies (they are drawn to fermenting fruit, not UV — a cider-vinegar trap works far better), essentially nothing for wasps (day-active and not strongly UV-attracted), and nothing at all for fleas, which live on hosts and in carpet and never fly to a light.',
   },
   {
     question: 'Do bug zappers work in daylight?',
@@ -107,7 +107,7 @@ const FAQS = [
   },
   {
     question: 'What are the disadvantages of a bug zapper?',
-    answer: 'Six, in rough order of importance. (1) It does not reduce mosquito bites — 0.13% to 4% of the catch. (2) It kills large volumes of beneficial insects, including nighttime pollinating moths and aphid-eating lacewings. (3) It draws insects toward the area you put it in, so poor placement makes things worse. (4) Electrocution scatters insect fragments and can aerosolize bacteria and viral particles for several feet (Kansas State University, Urban & Broce), so it should never sit near food. (5) The constant zap is genuinely disruptive near bedrooms and patios. (6) Ongoing cost and maintenance: annual bulb replacement plus a debris tray and grid that need cleaning every two to four weeks.',
+    answer: 'Six, in rough order of importance. (1) It does not reduce mosquito bites — mosquitoes are a low single-digit share of the catch, and an outdoor unit sold in Canada without registration has to say so on its own label (Pest Control Products Regulations, Schedule 2, item 6). (2) It kills large volumes of beneficial insects, including nighttime pollinating moths and aphid-eating lacewings. (3) It draws insects toward the area you put it in, so poor placement makes things worse. (4) Electrocution scatters insect fragments and can aerosolize bacteria and viral particles for several feet (Kansas State University, Urban & Broce), so it should never sit near food. (5) The constant zap is genuinely disruptive near bedrooms and patios. (6) Ongoing cost and maintenance: annual bulb replacement plus a debris tray and grid that need cleaning every two to four weeks.',
   },
   {
     question: 'Should I turn my bug zapper off in the rain?',
@@ -119,7 +119,7 @@ const FAQS = [
   },
   {
     question: 'How many volts is a bug zapper?',
-    answer: 'US retail listings commonly advertise grid voltages between about 2,000 V and 4,500 V, with 3,000 V and 4,000 V the most common figures on the shelf. The number is close to meaningless as a buying signal: the grid runs at high voltage and very low current, and once it is high enough to arc across an insect bridging the wires, more volts do not produce more kills. Wattage and rated coverage area are the specifications that actually change what the device catches. Treat a 4,500 V badge the way you would treat a horsepower sticker on a lawnmower box.',
+    answer: 'US retail listings advertise grid voltages anywhere from roughly 2,000 V to 5,600 V, with figures around 3,000-4,000 V common on the shelf. The number is close to meaningless as a buying signal: the grid runs at high voltage and very low current, and once it is high enough to arc across an insect bridging the wires, more volts do not produce more kills. Wattage and rated coverage area are the specifications that actually change what the device catches. Treat a 4,500 V badge the way you would treat a horsepower sticker on a lawnmower box.',
   },
   {
     question: 'What happens if you touch a bug zapper?',
@@ -139,7 +139,7 @@ const FAQS = [
   },
   {
     question: 'Can you use a bug zapper indoors?',
-    answer: 'Only a unit the manufacturer rates for indoor use, and not everywhere indoors. Keep it well away from food preparation and dining areas: Kansas State University research (Urban & Broce) documented that electrocution scatters insect fragments and can aerosolize bacteria and viral particles for several feet around the grid. Commercial kitchens use glue-board insect light traps instead of electrocuting units for exactly that reason — the insect is caught on an adhesive sheet rather than blown apart. For a house, screens plus a handheld electric racket handle indoor mosquitoes far better than any plug-in UV device.',
+    answer: 'Only a unit the manufacturer rates for indoor use, and not everywhere indoors. Keep it well away from food preparation and dining areas — in Canada that is a labelling requirement, not just advice: an indoor electric insect killer sold here without registration must carry the statement "This device should not be installed directly on or over surfaces where food is exposed, processed or prepared" (Pest Control Products Regulations, Schedule 2, item 5). The reason is physical: Kansas State University research (Urban & Broce) documented that electrocution scatters insect fragments and can aerosolize bacteria and viral particles for several feet around the grid. Commercial kitchens use glue-board insect light traps instead of electrocuting units for exactly that reason — the insect is caught on an adhesive sheet rather than blown apart. For a house, screens plus a handheld electric racket handle indoor mosquitoes far better than any plug-in UV device.',
   },
   {
     question: 'Is the UV light in a bug zapper dangerous?',
@@ -151,7 +151,7 @@ const FAQS = [
   },
   {
     question: 'Where can I buy a bug zapper in the United States?',
-    answer: 'The Home Depot and Lowe\'s carry the full outdoor line plus replacement UV bulbs ($25–$180); Walmart is the cheapest entry point but rarely stocks spare tubes ($15–$130); Ace Hardware, including Westlake Ace, has a smaller range but staff who can match a replacement bulb ($20–$150); Tractor Supply is the best option for acreage-rated units and outbuildings ($30–$200); and Harbor Freight is the cheapest place in the country to buy a handheld electric racket, the one format actually worth owning ($5–$20). Amazon carries the widest model range if you need a specific unit. Canadian readers should use the Canadian Tire, Rona, Costco Canada and Home Depot Canada pricing above instead.',
+    answer: 'The Home Depot and Lowe\'s carry the full outdoor line plus replacement UV bulbs; Walmart is the cheapest entry point but rarely stocks spare tubes; Ace Hardware, including Westlake Ace, has a smaller range but staff who can match a replacement bulb; Tractor Supply is the best option for acreage-rated units and outbuildings; and Harbor Freight is where to look for a cheap handheld electric racket, the one format actually worth owning. Amazon carries the widest model range if you need a specific unit. Stock and pricing move week to week and we do not track them — call ahead for anything specific, especially a replacement tube. Canadian readers should use the Canadian Tire, RONA, Costco Canada and Home Depot Canada section above instead; note that Lowe\'s no longer operates retail stores in Canada, having been rebranded to RONA+ by 2024.',
   },
   {
     question: 'Do bug zappers work on flies?',
@@ -171,11 +171,11 @@ const FAQS = [
   },
   {
     question: 'Do bug zappers kill moths?',
-    answer: 'Yes — moths are the single largest category in almost every published bug zapper catch count, and that is precisely the problem. In the University of Delaware count (Frick & Tallamy, 1996) the overwhelming majority of the 13,789 zapped insects were non-target species, mosquitoes being 0.22%. Moths pollinate a large share of night-flowering plants, which is why the Xerces Society and the Audubon Society both recommend against residential outdoor UV zappers. One exception worth knowing: pantry moths in a kitchen cupboard are not caught by a yard zapper at all — those are handled with pheromone traps that target the male moth specifically.',
+    answer: 'Yes — moths are among the largest categories in published bug zapper catch counts, and that is precisely the problem. In the University of Delaware count (Frick & Tallamy, 1996) the overwhelming majority of the 13,789 zapped insects were non-target species; mosquitoes and other biting flies were 0.22%, while midges and other harmless aquatic insects alone made up roughly half the catch. Moths are significant nocturnal pollinators, which is why the Xerces Society for Invertebrate Conservation recommends against residential outdoor UV zappers. One exception worth knowing: pantry moths in a kitchen cupboard are not caught by a yard zapper at all — those are handled with pheromone traps that target the male moth specifically.',
   },
   {
     question: 'What does Consumer Reports say about bug zappers?',
-    answer: 'Consumer Reports advises against relying on a bug zapper for mosquitoes, and its reporting quotes mosquito scientists rather than product testers: Daniel Markowski, PhD, a technical advisor to the American Mosquito Control Association; Eva Buckner, PhD, of the University of Florida\'s Florida Medical Entomology Laboratory; and Kristin Healy, PhD, of Louisiana State University and a past AMCA president. Their consistent position is the one the catch data supports — electrocuting devices kill large volumes of non-target insects and do not reduce the mosquitoes biting you. It is worth knowing that no consumer-testing organisation has ever identified a bug zapper that solves a mosquito problem, because the limitation is entomological rather than a question of build quality.',
+    answer: 'Consumer Reports advises against relying on a bug zapper for mosquitoes, and its reporting quotes mosquito scientists rather than product testers: Daniel Markowski, PhD, a technical advisor to the American Mosquito Control Association; Eva Buckner, PhD, of the University of Florida\'s Florida Medical Entomology Laboratory; and Kristen Healy, PhD, of Louisiana State University and a past AMCA president. Their consistent position is the one the catch data supports — as Markowski puts it, a zapper running all night is "killing moths and midges and beetles, beneficial good insects, and very few if any mosquitoes at all." We are not aware of any consumer-testing organisation that has identified a bug zapper which solves a mosquito problem, because the limitation is entomological rather than a question of build quality.',
   },
   {
     question: 'What traps actually work for mosquitoes instead of a bug zapper?',
@@ -187,7 +187,7 @@ const FAQS = [
   },
   {
     question: 'Who invented the bug zapper, and when?',
-    answer: 'The idea is over a century old. Popular Mechanics published a design for an electrical insect killer in 1911, and the patent usually credited with setting the modern template — a fluorescent ultraviolet tube in front of an electrified wire grid — was granted in 1934 to William F. Folmer and Harrison L. Chapin (US patent 1,962,439), on an application filed in 1931. The device stayed largely commercial until cheap moulded housings put it on suburban lawns through the 1970s, 1980s and 1990s. Its decline is well dated too: the University of Delaware catch count (Frick & Tallamy) was published in 1996, the American Mosquito Control Association\'s estimate that electrocuting devices kill 71 billion to 350 billion beneficial insects a year in the United States followed, and the Xerces Society and Audubon Society positions against residential outdoor UV zappers came after that. Ninety years on the hardware has moved from fluorescent tubes to UV LEDs and the premise has not moved at all.',
+    answer: 'The idea is over a century old. Popular Mechanics published a design for an electrical insect killer in 1911, and the patent usually credited with setting the template — light bulbs to attract insects in front of an electrified wire grid to kill them — was granted on 12 June 1934 to William F. Folmer and Harrison L. Chapin (US patent 1,962,439), on an application filed in 1931. That original used ordinary incandescent bulbs; the fluorescent ultraviolet tube that defines the modern unit came later. The device stayed largely commercial until cheap moulded housings put it on suburban lawns through the 1970s, 1980s and 1990s. Its decline is well dated too: the University of Delaware catch count (Frick & Tallamy) was published in 1996, the American Mosquito Control Association\'s estimate that electrocuting devices kill 71 billion to 350 billion beneficial insects a year in the United States followed, and the Xerces Society position against residential outdoor UV zappers came after that. Ninety years on the hardware has moved from fluorescent tubes to UV LEDs and the premise has not moved at all.',
   },
   {
     question: 'Is there a cordless or rechargeable bug zapper worth buying in Canada?',
@@ -195,15 +195,15 @@ const FAQS = [
   },
   {
     question: 'Where can I buy a bug zapper near me in Canada?',
-    answer: 'Beyond the big four, the stores people forget are often the ones with stock left in August. Home Hardware and its Building Centre stores carry small-to-mid outdoor units and, usefully, replacement UV tubes. Princess Auto stocks handheld electric rackets and occasional corded units as seasonal buys. Peavey Mart and rural farm-supply co-ops are the Canadian equivalent of the American acreage channel and the best bet for a 1-acre-plus unit or a barn model. Dollarama carries the cheap handheld rackets. Costco Canada has the best pricing on large units during its spring sale but clears them by mid-summer and stocks no bulbs. Canadian Tire remains the reliable year-round walk-in default for both units and parts.',
+    answer: 'Beyond the big four, the stores people forget are often the ones with stock left in August. Stock varies by store and by week and we do not audit it, so treat this as where to look rather than a guarantee: Home Hardware and its Building Centre stores for small-to-mid outdoor units and, usefully, replacement UV tubes; Princess Auto for handheld electric rackets and the occasional corded unit bought as seasonal lots; Peavey Mart and rural farm-supply co-ops as the Canadian equivalent of the American acreage channel, for a 1-acre-plus unit or a barn model; Dollarama for the cheap handheld racket. Costco Canada carries large units as a spring seasonal line, clears them, and does not carry replacement tubes. Canadian Tire is the most reliable year-round walk-in default — we can confirm Stinger units, store-brand corded zappers and handheld rackets in its current range. Phone ahead for anything specific, especially a bulb.',
   },
   {
     question: 'Where do I buy replacement bug zapper bulbs in Canada?',
-    answer: 'Replacement UV-A tubes are the part most retailers do not carry, so plan for it. Canadian Tire and Home Hardware are the two most reliable walk-in sources; Home Depot Canada stocks tubes for the models it sells; Rona carries them inconsistently; Costco and most Walmart locations carry none at all. Bring the old tube or the model number, because the Flowtron BK-15D, BK-40D and BK-80D take different tubes. Expect $15–$25, and replace annually rather than waiting for failure — a fluorescent UV tube loses a substantial share of its ultraviolet output long before it stops visibly lighting, and a dim tube quietly stops attracting anything.',
+    answer: 'Replacement UV-A tubes are the part most retailers do not carry, so plan for it. In our experience Canadian Tire and Home Hardware are the likeliest walk-in sources and Home Depot Canada tends to stock tubes for the models it sells, while Costco and most Walmart locations carry none — but tube stock is thin and seasonal everywhere, so phone the store with your model number rather than driving over on the strength of a web page. Bring the old tube or the model number, because Flowtron\'s BK-15D, BK-40D and BK-80D do not all take the same tube. Budget roughly $15–$25 as an approximate figure, and replace annually rather than waiting for failure — a fluorescent UV tube loses a substantial share of its ultraviolet output long before it stops visibly lighting, and a dim tube quietly stops attracting anything.',
   },
   {
     question: 'What is the best outdoor bug zapper in Canada?',
-    answer: 'For nuisance flying insects on an open yard the 40 W acre-rated class is the sensible default, and the Flowtron BK-40D is the unit Canadians buy most; for a small deck or balcony a compact outdoor unit is enough; and for a spot with no outlet a cordless or solar stake buys you placement rather than power. Match the wattage to the lot, hang it 6 to 8 feet up at the edge of the space rather than beside the table, and budget for an annual tube. What no outdoor unit will do is reduce mosquito bites — published catch counts put mosquitoes at 0.13% to 4% of everything a residential zapper kills, so treat the purchase as moth and midge control and handle the biting problem separately.',
+    answer: 'For nuisance flying insects on an open yard the 40 W acre-rated class is the sensible default, and the Flowtron BK-40D is the model most often cross-shopped here; for a small deck or balcony a compact outdoor unit is enough; and for a spot with no outlet a cordless or solar stake buys you placement rather than power. Match the wattage to the lot, hang it 6 to 8 feet up at the edge of the space rather than beside the table, and budget for an annual tube. What no outdoor unit will do is reduce mosquito bites — published catch counts put mosquitoes at a low single-digit share of everything a residential zapper kills, and Canadian law is unusually direct about it: an outdoor electric insect killer sold here without registration must carry the label statement "This device does not control blackflies, mosquitoes or other biting flies" (Pest Control Products Regulations, Schedule 2). Treat the purchase as moth and midge control and handle the biting problem separately.',
   },
   {
     question: 'What is the best indoor mosquito zapper?',
@@ -211,7 +211,7 @@ const FAQS = [
   },
   {
     question: 'How many square feet does a bug zapper cover?',
-    answer: 'Small indoor and porch units are typically rated for 800 to 6,000 sq ft. A 15 W outdoor unit is usually rated for half an acre, about 21,780 sq ft; a 40 W unit for one acre, 43,560 sq ft; and an 80 W unit for about 1.5 acres, roughly 65,340 sq ft. Treat every one of those figures as a manufacturer attraction-radius claim rather than a verified kill zone: the US EPA regulates bug zappers as pesticide devices under FIFRA and does not review efficacy claims before sale, and Canada has no equivalent pre-market efficacy check either.',
+    answer: 'Small indoor and porch units are typically rated for 800 to 6,000 sq ft. A 15 W outdoor unit is usually rated for half an acre, about 21,780 sq ft; a 40 W unit for one acre, 43,560 sq ft; and an 80 W unit for about 1.5 acres, roughly 65,340 sq ft. Treat every one of those figures as a manufacturer attraction-radius claim rather than a verified kill zone: the US EPA treats a bug zapper as a pesticide device under FIFRA, which is not registered under section 3 and whose coverage claims are not reviewed before sale, and Health Canada does not review device efficacy before sale either. What Canada does require is blunter than an efficacy review — under Schedule 2 of the Pest Control Products Regulations, an outdoor electric insect killer may be sold here unregistered only if it is CSA-certified and its label states "This device does not control blackflies, mosquitoes or other biting flies."',
   },
 ]
 
@@ -255,10 +255,10 @@ export default function BugZappersCanadaPage() {
         <div className="max-w-4xl mx-auto">
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">No &mdash; peer-reviewed research consistently finds bug zappers catch just 0.13% to 4% mosquitoes by total catch volume; the other 96&ndash;99% are non-biting moths, beetles, and midges. Female mosquitoes hunt by CO&#8322;, heat, and skin scent, not UV light, so zappers do not meaningfully reduce the mosquitoes biting you.</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">No &mdash; published catch counts put mosquitoes at 0.13% to 6.4% of everything a residential zapper kills, with most counts near the bottom of that range; the rest are non-biting moths, beetles, and midges. Health Canada is blunt about it: an outdoor electric insect killer sold in Canada without registration must carry the label statement &ldquo;This device does not control blackflies, mosquitoes or other biting flies.&rdquo; Female mosquitoes hunt by CO&#8322;, heat, and skin scent, not UV light, so zappers do not meaningfully reduce the mosquitoes biting you.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
-              <li>Peer-reviewed research finds bug zappers catch only 0.13%&ndash;4% mosquitoes by total catch volume.</li>
-              <li>The other 96&ndash;99% of what zappers kill are non-biting moths, beetles, midges, and beneficial insects.</li>
+              <li>Published catch counts find mosquitoes are 0.13%&ndash;6.4% of the total catch, most of them near the low end.</li>
+              <li>The rest of what zappers kill &mdash; over 93% in every published count &mdash; are non-biting moths, beetles, midges, and beneficial insects.</li>
               <li>Female mosquitoes (the ones that bite) hunt using CO&#8322;, heat, and skin scent, not UV light.</li>
               <li>Handheld electric racket zappers ($15&ndash;$30) are the only zapper format worth buying, for swatting individual mosquitoes.</li>
               <li>The <AmazonLink search="flowtron bk-40d bug zapper" tag={AMZ_TAG} className="font-bold underline decoration-emerald-500 underline-offset-2 hover:text-emerald-900">Flowtron BK-40D</AmazonLink> covers up to 1 acre for moths, gnats, and beetles &mdash; not mosquitoes.</li>
@@ -277,30 +277,30 @@ export default function BugZappersCanadaPage() {
           <p className="text-xs font-extrabold text-emerald-700 uppercase tracking-wider mb-2">Where to Buy in Canada · 2026 Season</p>
           <h2 className="text-2xl font-extrabold text-brand-900 mb-4">Bug Zappers: Where to Buy in Canada</h2>
           <p className="text-sm text-gray-700 mb-5 leading-relaxed">
-            Bug zappers are widely stocked at Canadian retailers, but read the section below before buying — the research is clear that they don&rsquo;t reduce mosquito populations meaningfully.
+            Bug zappers are widely stocked at Canadian retailers, but read the section below before buying — the research is clear that they don&rsquo;t reduce mosquito populations meaningfully. We don&rsquo;t publish shelf prices, because they change weekly and go stale the moment they&rsquo;re printed; what follows is where each chain fits and what to check before you drive over.
           </p>
           <div className="rounded-xl border border-navy-100 overflow-x-auto bg-white shadow-sm">
             <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">Retailer</th>
-                  <th className="px-4 py-3 text-left">Small (½ acre)</th>
-                  <th className="px-4 py-3 text-left">Large (1+ acre)</th>
-                  <th className="px-4 py-3 text-left">Notes</th>
+                  <th className="px-4 py-3 text-left">What you tend to find</th>
+                  <th className="px-4 py-3 text-left">Replacement UV tubes</th>
+                  <th className="px-4 py-3 text-left">Check before you go</th>
                 </tr>
               </thead>
               <tbody>
                 {[
-                  { name: 'Canadian Tire',     small: '$29.99 – $79.99',  large: '$99 – $199',  note: 'Flowtron + Stinger lineup' },
-                  { name: 'Home Depot Canada', small: '$24.99 – $69.97',  large: '$89 – $179',  note: 'Spring + summer stock' },
-                  { name: 'Rona',              small: '$32.99 – $79.99',  large: '$99 – $189',  note: 'In-store + online' },
-                  { name: 'Costco Canada',     small: '$39 – $59 (sale)', large: '$89 – $159',  note: 'Best large-zapper pricing on sale' },
-                  { name: 'Walmart Canada',    small: '$22 – $59',         large: '$79 – $129', note: 'Budget options' },
-                ].map(({ name, small, large, note }) => (
+                  { name: 'Canadian Tire',     range: 'Stinger units, store-brand corded zappers and handheld rackets — confirmed in its current range', bulbs: 'Usually the best walk-in bet', note: 'Year-round default; take your model number for a tube' },
+                  { name: 'Home Depot Canada', range: 'Flowtron outdoor units and the Ryobi 18V ONE+ cordless zapper', bulbs: 'For the models it sells', note: 'Some models are online-order only' },
+                  { name: 'RONA / RONA+',      range: 'Small-to-mid outdoor units, seasonal', bulbs: 'Inconsistent', note: 'The banner that absorbed the former Lowe’s Canada stores in 2024' },
+                  { name: 'Costco Canada',     range: 'Large units as a spring seasonal line', bulbs: 'No', note: 'Cleared by mid-summer; buy the tube elsewhere' },
+                  { name: 'Walmart Canada',    range: 'Budget corded units and rackets', bulbs: 'Rarely — assume no', note: 'Thinnest on parts and accessories' },
+                ].map(({ name, range, bulbs, note }) => (
                   <tr key={name} className="border-b border-navy-50 last:border-0">
                     <td className="px-4 py-3 font-bold text-brand-800">{name}</td>
-                    <td className="px-4 py-3 font-mono text-gray-800">{small}</td>
-                    <td className="px-4 py-3 font-mono text-gray-800">{large}</td>
+                    <td className="px-4 py-3 text-gray-800">{range}</td>
+                    <td className="px-4 py-3 text-gray-800">{bulbs}</td>
                     <td className="px-4 py-3 text-xs text-gray-600">{note}</td>
                   </tr>
                 ))}
@@ -308,11 +308,11 @@ export default function BugZappersCanadaPage() {
             </table>
           </div>
           <p className="text-xs text-gray-500 mt-3">
-            Typical 2026-season pricing. Indoor handheld racket zappers (the only style we&rsquo;d actually recommend) run $15–$30 at the same retailers and Dollarama. Replacement UV bulbs $15–$25 (annual replacement needed).
+            Stock varies by store and by week, so call ahead for anything specific. Indoor handheld racket zappers — the only style we&rsquo;d actually recommend — are the cheapest format by a wide margin and turn up at the same retailers plus Dollarama. One regulatory detail worth knowing: an outdoor electric insect killer sold in Canada without registration must be CSA-certified and must carry the label statement &ldquo;This device does not control blackflies, mosquitoes or other biting flies&rdquo; (Pest Control Products Regulations, Schedule 2).
           </p>
           <div className="mt-5 rounded-xl bg-rose-50 border-l-4 border-rose-400 p-4">
             <p className="text-sm text-gray-800 leading-relaxed">
-              <strong className="text-rose-900">⚠️ The research is unambiguous: bug zappers catch 0.13–4% mosquitoes.</strong> The other 96%+ of zapped insects are non-biting moths, beetles, and beneficial pollinators. For actual mosquito reduction, <Link href="/mosquito-control" className="text-emerald-700 underline font-semibold">professional barrier spray</Link> (~$99/treatment, 21–30 day residual) is dramatically more effective per dollar. Save the bug-zapper money and invest in something that works.
+              <strong className="text-rose-900">⚠️ The research is unambiguous: mosquitoes are 0.13–6.4% of what a bug zapper catches, most counts near the low end.</strong> The overwhelming majority of zapped insects are non-biting moths, beetles, and beneficial pollinators. For actual mosquito reduction, <Link href="/mosquito-control" className="text-emerald-700 underline font-semibold">professional barrier spray</Link> (~$99/treatment, 21–30 day residual) is dramatically more effective per dollar. Save the bug-zapper money and invest in something that works.
             </p>
           </div>
         </div>
@@ -323,7 +323,7 @@ export default function BugZappersCanadaPage() {
           <p className="text-xs font-extrabold text-amber-700 uppercase tracking-wider mb-2">The Bottom Line</p>
           <h2 className="text-xl font-extrabold text-brand-900 mb-3">Do bug zappers actually work for mosquitoes?</h2>
           <p className="text-base text-gray-800 leading-relaxed">
-            <strong>No — peer-reviewed research consistently finds bug zappers catch 0.13% to 4% mosquitoes by total catch volume. The other 96–99% are non-biting moths, beetles, midges, and beneficial insects.</strong> Female mosquitoes (the ones that bite) hunt humans using CO₂, heat, and skin scent — they don&rsquo;t strongly respond to UV light. Bug zappers create a satisfying audible zap and reduce general flying-insect nuisance, but they don&rsquo;t meaningfully reduce the mosquito population biting you. For real mosquito control in Canadian backyards, invest in <Link href="/mosquito-control" className="text-emerald-700 underline">professional barrier spray</Link>, BTI dunks for water sources, or a Thermacell for personal patio use. The only bug zappers actually worth buying are the handheld electric racket zappers ($15–$30) for swatting individual house mosquitoes.
+            <strong>No — published catch counts put mosquitoes at 0.13% to 6.4% of total catch volume, most of them near the low end. The rest are non-biting moths, beetles, midges, and beneficial insects.</strong> Female mosquitoes (the ones that bite) hunt humans using CO₂, heat, and skin scent — they don&rsquo;t strongly respond to UV light. Bug zappers create a satisfying audible zap and reduce general flying-insect nuisance, but they don&rsquo;t meaningfully reduce the mosquito population biting you. For real mosquito control in Canadian backyards, invest in <Link href="/mosquito-control" className="text-emerald-700 underline">professional barrier spray</Link>, BTI dunks for water sources, or a Thermacell for personal patio use. The only bug zappers actually worth buying are the handheld electric racket zappers ($15–$30) for swatting individual house mosquitoes.
           </p>
         </div>
       </section>
@@ -397,16 +397,16 @@ export default function BugZappersCanadaPage() {
               <tbody>
                 {[
                   ['Mechanism', 'UV light attracts insects → electric grid kills on contact'],
-                  ['Mosquito catch percentage', '0.13–4% of total catch (multiple studies)'],
-                  ['Non-target catch', '96–99% (moths, beetles, midges, beneficial insects)'],
+                  ['Mosquito catch percentage', '0.13–6.4% of total catch across published counts; most sit near the bottom of that range'],
+                  ['Non-target catch', 'Over 93% in every published count (moths, beetles, midges, beneficial insects)'],
                   ['Why mosquitoes don\'t respond well', 'Females hunt by CO₂ + heat, not UV'],
-                  ['Univ. of Delaware (1996)', '0.22% mosquitoes of 13,789 insects zapped'],
-                  ['Univ. of Notre Dame (2017)', '4.1% mosquitoes (still mostly moths)'],
-                  ['Univ. of Florida studies', 'Consistently <5% mosquitoes'],
+                  ['Univ. of Delaware (Frick & Tallamy, 1996)', '31 of 13,789 zapped insects (0.22%) were mosquitoes or other biting flies'],
+                  ['Univ. of Notre Dame yard trials (via AMCA)', '4.1% and 6.4% of daily catch; no significant difference in mosquito numbers between yards with and without a zapper'],
+                  ['Univ. of Florida (FMEL, via Consumer Reports)', 'Only a minuscule fraction of the catch is mosquitoes'],
                   ['Pollinator impact', 'High — kills moths (nighttime pollinators)'],
                   ['Xerces Society recommendation', 'Avoid outdoor UV bug zappers'],
                   ['Operating cost', '$20–$40/season electricity + bulbs'],
-                  ['Annual UV bulb replacement', '$15–$25'],
+                  ['Annual UV bulb replacement', 'Needed every season — the tube loses UV output long before it stops glowing'],
                   ['Best use case', 'Indoor racket zappers for house mosquitoes'],
                 ].map(([k, v]) => (
                   <tr key={k} className="border-b border-navy-50 last:border-0">
@@ -433,11 +433,11 @@ export default function BugZappersCanadaPage() {
           <p>The University of Delaware study (Frick &amp; Tallamy, 1996) is the most-cited research. It examined 13,789 insects killed by residential bug zappers over a season. Mosquitoes were 0.22% of total catches. The other 99.78% were beneficial or harmless insects.</p>
 
           <h2>The Pollinator Problem</h2>
-          <p>Outdoor bug zappers contribute to nighttime pollinator decline. Moths are the unsung pollinators of the night — about 80% of nighttime flowering plants are moth-pollinated. Lacewings (commonly zapped) eat aphids and improve garden health. Beetles play roles in nutrient cycling.</p>
-          <p>The Xerces Society for Invertebrate Conservation and the Audubon Society both formally recommend against residential outdoor UV bug zappers because of the disproportionate impact on beneficial insects relative to the negligible mosquito reduction.</p>
+          <p>Outdoor bug zappers contribute to nighttime pollinator decline. Moths are the unsung pollinators of the night: a global meta-analysis of 139 plant species found no significant difference in pollination success between day and night for about 90% of them, with nocturnal visitors &mdash; overwhelmingly moths &mdash; producing significantly greater seed set. Lacewings (commonly zapped) eat aphids and improve garden health. Beetles play roles in nutrient cycling.</p>
+          <p>The Xerces Society for Invertebrate Conservation recommends against residential outdoor UV bug zappers because of the disproportionate impact on beneficial insects relative to the negligible mosquito reduction, calling them &ldquo;ludicrously bad at killing pest insects, instead killing scores of benign and beneficial insects.&rdquo; Xerces also sets out the arithmetic behind the AMCA&rsquo;s billions figure: roughly 4 million zappers running an average of forty nights a year.</p>
 
           <h2>Best Bug Zappers in Canada 2026 (For the Flies &amp; Moths They DO Kill)</h2>
-          <p>Let&rsquo;s be honest about what a bug zapper is actually good for: nuisance flying insects &mdash; moths, gnats, midges, June beetles, the odd wasp &mdash; that swarm a patio light on a summer evening. If that&rsquo;s your goal (a deck that <em>feels</em> less buggy, not fewer mosquito bites), these are the units Canadians buy most in 2026, ranked by the job each one does best. Prices are typical Canadian Tire ranges.</p>
+          <p>Let&rsquo;s be honest about what a bug zapper is actually good for: nuisance flying insects &mdash; moths, gnats, midges, June beetles, the odd wasp &mdash; that swarm a patio light on a summer evening. If that&rsquo;s your goal (a deck that <em>feels</em> less buggy, not fewer mosquito bites), these are the units most often cross-shopped in Canada in 2026, ranked by the job each one does best. We don&rsquo;t list prices &mdash; they change weekly and we don&rsquo;t track them.</p>
           <div className="not-prose overflow-x-auto my-4">
             <table className="min-w-[560px] w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden">
               <thead className="bg-brand-50">
@@ -446,23 +446,23 @@ export default function BugZappersCanadaPage() {
                   <th className="px-3 py-2 text-left">Bug Zapper</th>
                   <th className="px-3 py-2 text-left">Best For</th>
                   <th className="px-3 py-2 text-left">Coverage</th>
-                  <th className="px-3 py-2 text-left">Price (CAD)</th>
+                  <th className="px-3 py-2 text-left">Where it turns up in Canada</th>
                 </tr>
               </thead>
               <tbody>
                 {[
-                  { rank: '1', name: 'Flowtron BK-40D Electronic Insect Killer', best: 'Best large outdoor (moths & beetles)', cov: 'Up to 1 acre', price: '$99 – $169' },
-                  { rank: '2', name: 'Stinger Cordless Rechargeable Zapper', best: 'Best portable / no outlet', cov: '½ acre', price: '$49 – $89' },
-                  { rank: '3', name: 'Black+Decker Outdoor Bug Zapper', best: 'Best small patio', cov: '¼ – ½ acre', price: '$34 – $69' },
-                  { rank: '4', name: 'Aspectek 20W Bug Zapper', best: 'Best value / covered porch', cov: '½ acre', price: '$39 – $59' },
-                  { rank: '5', name: 'Black Flag Executioner Racket', best: 'Best indoor swatter', cov: 'Handheld', price: '$15 – $30' },
+                  { rank: '1', name: 'Flowtron BK-40D Electronic Insect Killer', best: 'Best large outdoor (moths & beetles)', cov: 'Manufacturer-rated up to 1 acre', price: 'Home Depot Canada, Amazon.ca' },
+                  { rank: '2', name: 'Stinger Cordless Rechargeable Zapper', best: 'Best portable / no outlet', cov: 'Manufacturer-rated ½ acre', price: 'Canadian Tire, Amazon.ca' },
+                  { rank: '3', name: 'Black+Decker Outdoor Bug Zapper', best: 'Best small patio', cov: 'Manufacturer-rated ¼ – ½ acre', price: 'Mostly online listings' },
+                  { rank: '4', name: 'Aspectek 20W Bug Zapper', best: 'Best value / covered porch', cov: 'Manufacturer-rated ½ acre', price: 'Mostly online listings' },
+                  { rank: '5', name: 'Black Flag Executioner Racket', best: 'Best indoor swatter', cov: 'Handheld', price: 'Widely carried, incl. Dollarama-tier rackets' },
                 ].map(({ rank, name, best, cov, price }) => (
                   <tr key={rank} className="border-t border-navy-50">
                     <td className="px-3 py-2 font-bold text-brand-800">{rank}</td>
                     <td className="px-3 py-2 font-semibold">{name}</td>
                     <td className="px-3 py-2 text-gray-700">{best}</td>
                     <td className="px-3 py-2 text-gray-700">{cov}</td>
-                    <td className="px-3 py-2 font-mono text-gray-800">{price}</td>
+                    <td className="px-3 py-2 text-xs text-gray-600">{price}</td>
                   </tr>
                 ))}
               </tbody>
@@ -507,7 +507,7 @@ export default function BugZappersCanadaPage() {
                     verdict: 'Yes — and that is the problem',
                     vcolor: 'text-amber-700',
                     why: 'The single largest category in almost every published catch count. Moths navigate by moonlight, which is exactly what a UV-A tube imitates.',
-                    alt: <>Nothing. This is the ecological cost of owning a zapper, not a feature &mdash; the Xerces Society and Audubon Society both object on precisely this basis.</>,
+                    alt: <>Nothing. This is the ecological cost of owning a zapper, not a feature &mdash; the Xerces Society objects on precisely this basis.</>,
                   },
                   {
                     bug: 'Pantry moths',
@@ -583,7 +583,7 @@ export default function BugZappersCanadaPage() {
                     bug: 'Mosquitoes',
                     verdict: 'No',
                     vcolor: 'text-rose-700',
-                    why: 'Host-seeking females follow carbon dioxide, body heat and skin chemistry. Published catch counts put mosquitoes at 0.13% to 4% of everything a residential zapper kills.',
+                    why: 'Host-seeking females follow carbon dioxide, body heat and skin chemistry. Published catch counts put mosquitoes at 0.13% to 6.4% of everything a residential zapper kills, and an outdoor unit sold in Canada without registration must state on its own label that it does not control mosquitoes or other biting flies (Pest Control Products Regulations, Schedule 2, item 6).',
                     alt: <>Larval control, a CO₂-baited trap, a repellent zone, or licensed <Link href="/mosquito-control">residual barrier spray</Link>, which treats the leaf surfaces mosquitoes rest on rather than advertising to the sky.</>,
                   },
                   {
@@ -616,28 +616,26 @@ export default function BugZappersCanadaPage() {
           <p>We&rsquo;ve tested the solar category in depth — coverage radius, battery life after cloudy days, and which units survive a Canadian season — in our <Link href="/blog/best-solar-bug-zapper-canada">best solar bug zappers in Canada guide</Link>.</p>
 
           <h2>Where to Buy Bug Zappers in Canada (Costco vs Canadian Tire vs Amazon)</h2>
-          <p>All the big Canadian retailers stock zappers from spring through late summer, but they&rsquo;re good at different things. Here is the honest comparison &mdash; who has the best pricing, who actually has stock in July, and where to go for a specific model:</p>
+          <p>All the big Canadian retailers stock zappers from spring through late summer, but they&rsquo;re good at different things. Here is the honest comparison &mdash; who actually has stock in July, and where to go for a specific model. Prices are deliberately left out: they move week to week and a printed figure is wrong within a month.</p>
           <div className="not-prose overflow-x-auto my-4">
             <table className="min-w-[560px] w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden">
               <thead className="bg-brand-50">
                 <tr>
                   <th className="px-3 py-2 text-left">Retailer</th>
                   <th className="px-3 py-2 text-left">Selection</th>
-                  <th className="px-3 py-2 text-left">Typical pricing</th>
                   <th className="px-3 py-2 text-left">Honest verdict</th>
                 </tr>
               </thead>
               <tbody>
                 {[
-                  { name: 'Costco Canada', sel: 'Large units only, seasonal (spring sale)', price: '$39 – $159', verdict: 'Best pricing on big zappers when in stock — but sells out by mid-summer and carries no replacement bulbs' },
-                  { name: 'Canadian Tire', sel: 'Widest walk-in range: Flowtron, Stinger, rackets, bulbs', price: '$29.99 – $199', verdict: 'The reliable default — year-round stock, easy returns, and the place to grab replacement UV bulbs' },
-                  { name: 'Home Depot Canada', sel: 'Small-to-large outdoor units, spring/summer', price: '$24.99 – $179', verdict: 'Solid mid-range pricing; some models are online-order only' },
-                  { name: 'Amazon.ca', sel: 'Largest model range — incl. solar, rechargeable rackets, and specific Flowtron models', price: 'Changes daily — check live', verdict: 'Best for finding a specific model (like the BK-40D) or buying off-season when stores have cleared shelves' },
-                ].map(({ name, sel, price, verdict }) => (
+                  { name: 'Costco Canada', sel: 'Large units only, seasonal (spring)', verdict: 'Aggressive pricing on big zappers when in stock — but sells out by mid-summer and carries no replacement bulbs' },
+                  { name: 'Canadian Tire', sel: 'Widest confirmed walk-in range: Stinger units, store-brand corded zappers, handheld rackets', verdict: 'The reliable default — year-round stock, easy returns, and the likeliest place to find a replacement UV tube' },
+                  { name: 'Home Depot Canada', sel: 'Flowtron outdoor units, the Ryobi 18V ONE+ cordless zapper, spring/summer', verdict: 'The Canadian home of the Flowtron line; some models are online-order only' },
+                  { name: 'Amazon.ca', sel: 'Largest model range — incl. solar, rechargeable rackets, and specific Flowtron models', verdict: 'Best for finding a specific model (like the BK-40D) or buying off-season when stores have cleared shelves' },
+                ].map(({ name, sel, verdict }) => (
                   <tr key={name} className="border-t border-navy-50">
                     <td className="px-3 py-2 font-bold text-brand-800">{name}</td>
                     <td className="px-3 py-2 text-gray-700">{sel}</td>
-                    <td className="px-3 py-2 font-mono text-gray-800">{price}</td>
                     <td className="px-3 py-2 text-xs text-gray-600">{verdict}</td>
                   </tr>
                 ))}
@@ -666,10 +664,10 @@ export default function BugZappersCanadaPage() {
               <tbody>
                 {[
                   { m: 'Ryobi 18V ONE+ cordless zapper', f: 'Battery lantern-style grid unit', w: 'Home Depot Canada, alongside the rest of the ONE+ tool line', c: 'You need a charged ONE+ battery. This is a placement product for a dock, campsite or far fence corner with no outlet — not a coverage upgrade.' },
-                  { m: 'Black Flag BZ-20 Octenol', f: 'Corded outdoor grid with an octenol cartridge', w: 'Canadian shopping carousels and online listings', c: 'The octenol lure is the only thing here aimed at biting insects, and it is a consumable. Confirm the cartridge is available in Canada before committing to the model.' },
+                  { m: 'Black Flag BZ-20 Octenol', f: 'Corded outdoor grid with an octenol cartridge', w: 'Canadian shopping carousels and online listings', c: 'The octenol lure is the only thing here aimed at biting insects, and it is a consumable. In Canada an octenol lure is a registered pest control product in its own right: Health Canada’s re-evaluation decision RVD2024-07 lists eight registered octenol products, including Flowtron’s (PCP 28456) and Stinger’s (PCP 29062). No Black Flag cartridge appears on that list, so confirm a Canadian-registered replacement lure exists before committing to the model.' },
                   { m: 'Bell & Howell Monster Zapper', f: 'Corded outdoor grid, as-seen-on-TV branding', w: 'Online listings and seasonal retail', c: 'Marketing-led coverage claims. Compare the stated wattage against the Flowtron ladder further down this page rather than the advertised acreage.' },
                   { m: 'PIC and Greenstrike', f: 'Mixed range — grids, stakes and lure-based devices', w: 'Garden centres, hardware chains and online', c: 'These brand names cover several different device types. Read the product page carefully: a lure-based larval device and a UV grid are not the same purchase.' },
-                  { m: 'Zap T6 Pro, Coremaster, Yissvic, BoostX, Elektra 969', f: 'Imported corded and rechargeable grid units', w: 'Almost entirely online marketplace listings', c: 'Canadian electrical certification (CSA or cUL mark) and whether replacement tubes exist. Unbranded imports frequently fail both tests, which makes a cheap unit disposable.' },
+                  { m: 'Zap T6 Pro, Coremaster, Yissvic, BoostX, Elektra 969', f: 'Imported corded and rechargeable grid units', w: 'Almost entirely online marketplace listings', c: 'Canadian certification and whether replacement tubes exist. This is law, not just good practice: Schedule 2 of the Pest Control Products Regulations lets an electric insect killer be sold in Canada unregistered only if it is CSA-certified to CAN/CSA-C22.2 No. 189-M89, High-Voltage Insect Killers, and carries the required label statements. Unbranded imports frequently fail both the certification and the spare-tube test, which makes a cheap unit disposable.' },
                   { m: 'Aspectek 20 W and similar covered-porch units', f: 'Compact corded indoor/covered grid', w: 'Widely listed online; occasionally in-store', c: 'That it is rated for the site. A unit sold as indoor-only still meets humidity and blowing rain under a porch roof.' },
                 ].map(({ m, f, w, c }) => (
                   <tr key={m} className="border-t border-navy-50 align-top">
@@ -726,7 +724,7 @@ export default function BugZappersCanadaPage() {
           <ol>
             <li><strong>Eliminate breeding water</strong> — drain anything you can, treat permanent water with <Link href="/blog/mosquito-dunks-canada-guide">BTI dunks</Link> ($15/season)</li>
             <li><strong>Whole-yard barrier spray</strong> — <Link href="/mosquito-control">BuzzSkito&rsquo;s licensed application</Link> treats vegetation with Health Canada-approved residual formula. Mosquitoes resting on leaves die on contact for 21–30 days per treatment. Also kills ticks. ~$99 per treatment, $549–$994 for full-season programs — GTA homeowners can book the same treatment locally, including <Link href="/vaughan-mosquito-control">mosquito control in Vaughan</Link>.</li>
-            <li><strong>Patio repellent zone</strong> — <Link href="/blog/thermacell-canada-where-to-buy">Thermacell</Link> creates a 4.5m mosquito-free bubble around your seating</li>
+            <li><strong>Patio repellent zone</strong> — <Link href="/blog/thermacell-canada-where-to-buy">Thermacell</Link> creates a repellent zone the manufacturer rates at about 15 ft (4.5 m) across around your seating</li>
             <li><strong>Personal repellent</strong> — <Link href="/blog/picaridin-vs-deet">picaridin or DEET</Link> on exposed skin for active outdoor use</li>
             <li><strong>Cottage/rural CO₂ trap</strong> — <Link href="/blog/mosquito-magnet-canada">Mosquito Magnet</Link> for properties with chronic high populations</li>
           </ol>
@@ -742,7 +740,7 @@ export default function BugZappersCanadaPage() {
           <ul>
             <li><strong>Daniel Markowski, PhD</strong> &mdash; technical advisor to the American Mosquito Control Association, the body whose 71 billion to 350 billion beneficial-insect estimate is cited throughout this page.</li>
             <li><strong>Eva Buckner, PhD</strong> &mdash; of the University of Florida&rsquo;s Florida Medical Entomology Laboratory, the research station behind much of the North American field data on trap efficacy.</li>
-            <li><strong>Kristin Healy, PhD</strong> &mdash; Louisiana State University, and a past president of the American Mosquito Control Association.</li>
+            <li><strong>Kristen Healy, PhD</strong> &mdash; Louisiana State University, and a past president of the American Mosquito Control Association (she served as AMCA president in 2022).</li>
           </ul>
           <p>Their position is consistent with the catch data rather than an opinion layered on top of it: electrocuting devices kill large volumes of non-target insects and do not reduce the mosquitoes biting a person in a yard. It is worth stating plainly what this means for anyone searching for a &ldquo;Consumer Reports best bug zapper&rdquo; verdict. No consumer-testing organisation has identified a bug zapper that solves a mosquito problem, and none will, because the limitation is entomological rather than a matter of build quality or price. A better-made zapper is a better-made moth trap.</p>
           <p>We are a licensed mosquito and tick control company in Mississauga, so we have a commercial interest in this conclusion, and readers should weigh that. The counterweight is that the finding is not ours: it is the University of Delaware in 1996, the University of Notre Dame yard trials, the AMCA, the Xerces Society, the Audubon Society and the researchers named above, all reaching the same result independently over four decades.</p>
@@ -760,12 +758,12 @@ export default function BugZappersCanadaPage() {
           <h2>Bug Zappers vs Real Solutions — Cost-Effectiveness</h2>
           <table className="min-w-[560px] not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
             <thead className="bg-brand-50">
-              <tr><th className="px-3 py-2 text-left">Solution</th><th className="px-3 py-2 text-left">First-year cost</th><th className="px-3 py-2 text-left">Mosquito reduction</th><th className="px-3 py-2 text-left">Pollinator impact</th></tr>
+              <tr><th className="px-3 py-2 text-left">Solution</th><th className="px-3 py-2 text-left">Approximate first-year cost</th><th className="px-3 py-2 text-left">Mosquito reduction</th><th className="px-3 py-2 text-left">Pollinator impact</th></tr>
             </thead>
             <tbody>
-              <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Outdoor bug zapper</strong></td><td className="px-3 py-2">$80–$200</td><td className="px-3 py-2">~2% of catch</td><td className="px-3 py-2">High (negative)</td></tr>
-              <tr className="border-t border-navy-50"><td className="px-3 py-2"><Link href="/blog/dynatrap-canada-review">DynaTrap</Link></td><td className="px-3 py-2">$290–$380</td><td className="px-3 py-2">~5% of catch</td><td className="px-3 py-2">Moderate (negative)</td></tr>
-              <tr className="border-t border-navy-50"><td className="px-3 py-2"><Link href="/blog/thermacell-canada-where-to-buy">Thermacell</Link></td><td className="px-3 py-2">$80–$150</td><td className="px-3 py-2">70–95% in 4.5m</td><td className="px-3 py-2">Low</td></tr>
+              <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Outdoor bug zapper</strong></td><td className="px-3 py-2">$80–$200</td><td className="px-3 py-2">Mosquitoes are a low single-digit share of the catch</td><td className="px-3 py-2">High (negative)</td></tr>
+              <tr className="border-t border-navy-50"><td className="px-3 py-2"><Link href="/blog/dynatrap-canada-review">DynaTrap</Link></td><td className="px-3 py-2">$290–$380</td><td className="px-3 py-2">Catches some mosquitoes; far fewer than a CO₂-baited trap</td><td className="px-3 py-2">Moderate (negative)</td></tr>
+              <tr className="border-t border-navy-50"><td className="px-3 py-2"><Link href="/blog/thermacell-canada-where-to-buy">Thermacell</Link></td><td className="px-3 py-2">$80–$150</td><td className="px-3 py-2">Manufacturer-rated zone about 15 ft (4.5 m) across</td><td className="px-3 py-2">Low</td></tr>
               <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Professional barrier spray</strong></td><td className="px-3 py-2">$549–$994/season</td><td className="px-3 py-2">Whole yard 21–30 days</td><td className="px-3 py-2">Low (targeted)</td></tr>
             </tbody>
           </table>
@@ -780,7 +778,7 @@ export default function BugZappersCanadaPage() {
           <p>But for OUTDOOR yard mosquito control, racket zappers obviously don&rsquo;t scale. You can&rsquo;t swat a yard&rsquo;s worth of mosquitoes one at a time. The closest thing to an automated version is a <Link href="/blog/laser-mosquito-killer-photon-matrix-review">laser mosquito killer</Link>, which detects and shoots individual mosquitoes instead of waiting for them to fly into a grid &mdash; clever engineering, but short-range and far pricier than a $20 racket.</p>
 
           <h2>Do bug zappers actually work?</h2>
-          <p>They work &mdash; just not on the insect you bought one for. Peer-reviewed catch counts put mosquitoes at 0.13% to 4% of everything a residential zapper kills. The American Mosquito Control Association reports no significant difference in mosquito numbers between yards with a zapper and yards without one. They are genuinely effective on moths, midges and beetles.</p>
+          <p>They work &mdash; just not on the insect you bought one for. Published catch counts put mosquitoes at 0.13% to 6.4% of everything a residential zapper kills. The American Mosquito Control Association reports no significant difference in mosquito numbers between yards with a zapper and yards without one. They are genuinely effective on moths, midges and beetles.</p>
           <p>The distinction matters because &ldquo;does it work&rdquo; hides two different questions. <em>Does the device kill insects?</em> Yes, thousands per season. <em>Does it reduce the number of mosquitoes biting you?</em> No. The American Mosquito Control Association&rsquo;s summary of the University of Notre Dame yard trials is the cleanest statement of it: mosquitoes made up roughly 4.1% and 6.4% of the daily catch, and comparing yards with and without a zapper produced no significant difference in the mosquitoes actually present.</p>
           <p>That is the same finding the University of Delaware reached in 1996 (Frick &amp; Tallamy), the University of Florida&rsquo;s extension work has repeated, and Wirecutter reached independently. Four decades of counting, one answer.</p>
 
@@ -789,7 +787,7 @@ export default function BugZappersCanadaPage() {
           <p>The peak of the backyard bug zapper was roughly 1975 to 2000, before the entomology caught up with the marketing. What broke the habit, in order:</p>
           <ul>
             <li><strong>The catch data went public.</strong> Once homeowners learned the zapper was killing moths and lacewings at a ratio of several hundred to one biting mosquito, the value proposition collapsed.</li>
-            <li><strong>The ecological cost got quantified.</strong> The Xerces Society for Invertebrate Conservation and the National Audubon Society both formally recommend against residential outdoor UV zappers. The AMCA&rsquo;s 71&ndash;350 billion beneficial-insect estimate is a United States figure &mdash; the scale is national, not per-yard.</li>
+            <li><strong>The ecological cost got quantified.</strong> The Xerces Society for Invertebrate Conservation recommends against residential outdoor UV zappers. The AMCA&rsquo;s 71&ndash;350 billion beneficial-insect estimate is a United States figure &mdash; the scale is national, not per-yard.</li>
             <li><strong>Substitutes got better.</strong> CO&#8322;-baited traps target the actual host cue. Repellent zone devices protect a seating area. Licensed barrier spray treats the vegetation mosquitoes rest on. All three attack the mosquito instead of attracting whatever flies at a light.</li>
             <li><strong>The noise and the mess.</strong> A grid firing every few seconds all night is not a small thing next to a bedroom window, and the debris tray is unpleasant.</li>
           </ul>
@@ -826,9 +824,9 @@ export default function BugZappersCanadaPage() {
                   { c: 'Power source', spec: 'Corded 120 V (US) / 120 V (Canada), solar panel + battery, or USB-rechargeable handheld', ctrl: 'Where you can put it. Corded units run all night at full output; solar units are placement-free but dim, and a cloudy day can cut runtime to a couple of hours.' },
                   { c: 'Indoor vs outdoor rating', spec: 'IPX4 / IPX5 weather rating on outdoor listings; "indoor use only" on plug-in units', ctrl: 'Whether rain ruins it. An indoor-only unit under a porch roof still meets humidity and blowing rain. Match the rating to the site, not the shape of the housing.' },
                   { c: 'Coverage area', spec: '800 sq ft, 2,100 sq ft, 6,000 sq ft, ½ acre, 1 acre, 1.5 acres', ctrl: 'How far the UV is visible to insects. Treat it as an attraction radius claim from the manufacturer, not a verified kill zone — no US agency reviews these figures before sale.' },
-                  { c: 'Grid voltage', spec: 'Commonly 2,000 V – 4,500 V on US retail listings', ctrl: 'Almost nothing you care about. Above roughly 2,000 V the grid kills anything that bridges it; a higher number is a marketing figure, not more mosquitoes.' },
+                  { c: 'Grid voltage', spec: 'Roughly 2,000 V – 5,600 V on US retail listings', ctrl: 'Almost nothing you care about. Above roughly 2,000 V the grid kills anything that bridges it; a higher number is a marketing figure, not more mosquitoes.' },
                   { c: 'Bulb type and wattage', spec: '15 W / 20 W / 40 W / 80 W fluorescent UV-A tube, or newer UV LED', ctrl: 'Attraction range and running cost. Fluorescent tubes dim measurably over a season and are the annual replacement part; LED units hold output longer and draw less power.' },
-                  { c: 'Bait / attractant', spec: 'Octenol cartridge sold separately, sometimes "mosquito lure"', ctrl: 'Whether the device is even aimed at mosquitoes. Octenol mimics a mammal breath cue. Note that adding it changes the product\'s US regulatory status — see the EPA section below.' },
+                  { c: 'Bait / attractant', spec: 'Octenol cartridge sold separately, sometimes "mosquito lure"', ctrl: 'Whether the device is even aimed at mosquitoes. Octenol mimics a mammal breath cue. Adding it changes the product\'s regulatory status on both sides of the border: in the US the entire product becomes a pesticide requiring FIFRA registration, and in Canada the octenol lure is itself a registered pest control product (Health Canada, RVD2024-07) — see the EPA section below.' },
                 ].map(({ c, spec, ctrl }) => (
                   <tr key={c} className="border-t border-navy-50 align-top">
                     <td className="px-3 py-2 font-bold text-brand-800">{c}</td>
@@ -874,7 +872,7 @@ export default function BugZappersCanadaPage() {
               </tbody>
             </table>
           </div>
-          <p><strong>On voltage:</strong> US listings advertise grid voltages from about 2,000 V to 4,500 V, and the number is close to meaningless as a buying signal. The grid runs at high voltage and very low current; once it is high enough to arc across an insect bridging the wires, more volts do not produce more kills. Wattage and coverage are the specifications that change the result. Treat a 4,500 V badge the way you would treat a horsepower sticker on a lawnmower box.</p>
+          <p><strong>On voltage:</strong> US listings advertise grid voltages from roughly 2,000 V to 5,600 V, and the number is close to meaningless as a buying signal. The grid runs at high voltage and very low current; once it is high enough to arc across an insect bridging the wires, more volts do not produce more kills. Wattage and coverage are the specifications that change the result. Treat a 4,500 V badge the way you would treat a horsepower sticker on a lawnmower box.</p>
           <p><strong>Metric-to-US conversions used elsewhere on this page,</strong> for readers working in feet: a 4.5 m repellent zone is about 15 ft across; the 3 m minimum standoff distance from a running zapper is about 10 ft; ½ acre is about 21,780 sq ft and 1 acre is 43,560 sq ft. Model-by-model detail on the BK-15D, BK-40D and BK-80D, including the octenol-cartridge question, is in our dedicated <Link href="/blog/flowtron-bug-zapper-canada">Flowtron bug zapper review</Link>.</p>
 
           <h2>The Four Specs Reviews Score and the Box Buries</h2>
@@ -914,31 +912,29 @@ export default function BugZappersCanadaPage() {
                 <tr>
                   <th className="px-3 py-2 text-left">US retailer</th>
                   <th className="px-3 py-2 text-left">What they stock</th>
-                  <th className="px-3 py-2 text-left">Typical price (USD)</th>
                   <th className="px-3 py-2 text-left">Honest verdict</th>
                 </tr>
               </thead>
               <tbody>
                 {[
-                  { name: 'The Home Depot', sel: 'Full outdoor line plus replacement UV bulbs, spring through late summer', price: '$25 – $180', verdict: 'The default walk-in option in most US metros, and one of the few that reliably carries replacement tubes' },
-                  { name: 'Lowe’s', sel: 'Flowtron and Stinger outdoor units, rackets, seasonal endcaps', price: '$25 – $170', verdict: 'Comparable to Home Depot; stock thins fast after the Fourth of July' },
-                  { name: 'Walmart', sel: 'Budget through mid-range outdoor units, solar stakes, rackets', price: '$15 – $130', verdict: 'Cheapest entry point, thinnest on parts — assume no replacement bulbs' },
-                  { name: 'Ace Hardware (incl. Westlake Ace)', sel: 'Neighbourhood-hardware selection, strong on bulbs and accessories', price: '$20 – $150', verdict: 'Smaller range but staff who can find you the right replacement tube; the local-pack answer for "bug zapper near me"' },
-                  { name: 'Harbor Freight', sel: 'Handheld electric racket swatters, budget corded units', price: '$5 – $20', verdict: 'The cheapest place in the US to buy the one zapper format that actually works — the handheld racket' },
-                  { name: 'Tractor Supply', sel: 'Acreage-rated outdoor units, barn and stable models, bulk bulbs', price: '$30 – $200', verdict: 'The rural-US equivalent of the Canadian Tire slot; best for 1-acre-plus properties and outbuildings' },
-                  { name: 'Amazon', sel: 'Widest model range, including specific Flowtron models, solar stakes and rechargeable rackets', price: 'Changes daily — check live', verdict: 'Best for a specific model or an off-season purchase when store shelves have been cleared' },
-                ].map(({ name, sel, price, verdict }) => (
+                  { name: 'The Home Depot', sel: 'Full outdoor line plus replacement UV bulbs, spring through late summer', verdict: 'The default walk-in option in most US metros, and one of the few that reliably carries replacement tubes' },
+                  { name: 'Lowe’s', sel: 'Flowtron and Stinger outdoor units, rackets, seasonal endcaps', verdict: 'Comparable to Home Depot; stock thins fast after the Fourth of July. US only — Lowe’s left the Canadian retail market and its stores became RONA+ in 2024' },
+                  { name: 'Walmart', sel: 'Budget through mid-range outdoor units, solar stakes, rackets', verdict: 'Cheapest entry point, thinnest on parts — assume no replacement bulbs' },
+                  { name: 'Ace Hardware (incl. Westlake Ace)', sel: 'Neighbourhood-hardware selection, strong on bulbs and accessories', verdict: 'Smaller range but staff who can find you the right replacement tube; the local-pack answer for "bug zapper near me"' },
+                  { name: 'Harbor Freight', sel: 'Handheld electric racket swatters, budget corded units', verdict: 'Where to look for a cheap handheld racket — the one zapper format that actually works' },
+                  { name: 'Tractor Supply', sel: 'Acreage-rated outdoor units, barn and stable models, bulk bulbs', verdict: 'The rural-US equivalent of the Canadian Tire slot; best for 1-acre-plus properties and outbuildings' },
+                  { name: 'Amazon', sel: 'Widest model range, including specific Flowtron models, solar stakes and rechargeable rackets', verdict: 'Best for a specific model or an off-season purchase when store shelves have been cleared' },
+                ].map(({ name, sel, verdict }) => (
                   <tr key={name} className="border-t border-navy-50 align-top">
                     <td className="px-3 py-2 font-bold text-brand-800">{name}</td>
                     <td className="px-3 py-2 text-gray-700">{sel}</td>
-                    <td className="px-3 py-2 font-mono text-gray-800">{price}</td>
                     <td className="px-3 py-2 text-xs text-gray-600">{verdict}</td>
                   </tr>
                 ))}
               </tbody>
             </table>
           </div>
-          <p className="not-prose text-xs text-gray-500 mb-4">Typical 2026-season US shelf pricing, for planning only &mdash; confirm before you drive. Canadian pricing and retailers are in the Canadian tables above.</p>
+          <p className="not-prose text-xs text-gray-500 mb-4">Stock and pricing change constantly and we do not track them &mdash; confirm before you drive, especially for a replacement tube. Canadian retailers are covered in the tables above. US devices are regulated differently from Canadian ones: see the EPA vs Health Canada section below.</p>
           <p className="not-prose text-sm text-gray-600 mb-1">Comparing models before you go to a store?</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="bug zapper outdoor 1 acre">Compare acre-rated bug zappers →</BuyLink>
@@ -971,7 +967,7 @@ export default function BugZappersCanadaPage() {
             <li><strong><em>Aedes albopictus</em> (Asian tiger mosquito)</strong> &mdash; the same container-breeding, day-biting profile, spreading steadily north through the mid-Atlantic and lower Midwest.</li>
           </ul>
           <p><strong>This is the US-specific reason a bug zapper is an even worse purchase in Houston, Miami or Atlanta than in Mississauga.</strong> A UV zapper is a night-time device. The mosquitoes doing most of the biting in the American South and increasingly the mid-Atlantic are <em>Aedes</em> species that bite in daylight, breed in a saucer under a flowerpot, and never see the tube. A device that only advertises at night against an insect that bites at noon is not underperforming &mdash; it is aimed at the wrong half of the day.</p>
-          <p>The health context is not hypothetical. The US Centers for Disease Control and Prevention reported the 2026 West Nile season off to its earliest and heaviest start since 2004: 48 human cases by June 30, 38 of them neuroinvasive, with activity in 23 states &mdash; the most states reporting at that point in the year in a decade. CDC surveillance has also recorded more than 500 US dengue cases this year. CDC&rsquo;s prevention guidance is EPA-registered repellent, covering up, avoiding exposure between dusk and dawn, and screening the house, while its Integrated Mosquito Management framework adds eliminating standing water and treating larval and resting habitat &mdash; lists on which UV electrocution appears nowhere.</p>
+          <p>The health context is not hypothetical. The US Centers for Disease Control and Prevention reported the 2026 West Nile season off to its earliest and heaviest start since 2004: 48 human cases by June 30, 38 of them neuroinvasive, with activity in 23 states &mdash; the most states reporting at that point in the year in a decade. Dengue is a separate and growing pressure: CDC records thousands of US dengue cases a year, the large majority of them travel-associated, with a small number of locally acquired cases in Florida and other Gulf-state jurisdictions &mdash; see CDC&rsquo;s dengue surveillance pages for the current count, which we do not attempt to track here. CDC&rsquo;s prevention guidance is EPA-registered repellent, covering up, avoiding exposure between dusk and dawn, and screening the house, while its Integrated Mosquito Management framework adds eliminating standing water and treating larval and resting habitat &mdash; lists on which UV electrocution appears nowhere.</p>
           <p>For US readers who want a local, non-commercial source rather than a company blog, the land-grant extension services are the American equivalent of provincial public health here: the University of Florida&rsquo;s UF/IFAS Extension and Mississippi State University Extension both publish plain-language mosquito guidance for their regions, and the National Pesticide Information Center (Oregon State University, 1-800-858-7378) answers device and pesticide questions directly by phone. The Kansas State University work by Urban and Broce is the source for the aerosolization caution about siting a zapper near food.</p>
 
           <h2>When Is Mosquito Season Where You Live? US Regions vs Canada</h2>
@@ -987,7 +983,7 @@ export default function BugZappersCanadaPage() {
               </thead>
               <tbody>
                 {[
-                  { r: 'Gulf Coast, Florida, South Texas, southern California and Arizona', s: 'Effectively year-round', n: 'No off-season, so bulbs dim and debris accumulates continuously. Miami-Dade surveillance shows Aedes aegypti peaking in the summer wet season while Culex quinquefasciatus peaks in winter — two different peaks, neither answered by UV.' },
+                  { r: 'Gulf Coast, Florida, South Texas, southern California and Arizona', s: 'Effectively year-round', n: 'No off-season, so bulbs dim and debris accumulates continuously. Container-breeding Aedes aegypti and the night-active Culex quinquefasciatus peak at different times of year in south Florida — two separate problems, neither answered by UV.' },
                   { r: 'Southeast and mid-Atlantic', s: 'Roughly March – November', n: 'Long season, heavy Aedes albopictus daytime biting pressure. A night-only device misses most of the problem.' },
                   { r: 'Midwest', s: 'Roughly April – October', n: 'Culex-dominated and night-active, so the zapper at least overlaps the biting window — it still does not reduce it.' },
                   { r: 'Northeast and Upper Midwest', s: 'Roughly May – September', n: 'The one US band where the Canadian framing on this page transfers unchanged.' },
@@ -1005,10 +1001,16 @@ export default function BugZappersCanadaPage() {
           <p>The practical consequence: a homeowner in Minnesota can buy one UV tube a year and store the unit for seven months. A homeowner in south Florida is running the same device continuously, replacing tubes more often, and still contending with a daytime biter it cannot see.</p>
 
           <h2>How Bug Zappers Are Regulated: US EPA vs Health Canada</h2>
-          <p>Neither country tests whether a bug zapper works before it goes on sale, but they get there by different routes, and the distinction explains a lot about the marketing.</p>
-          <p><strong>In the United States,</strong> the Environmental Protection Agency treats a bug zapper as a <em>pesticide device</em> under FIFRA rather than as a pesticide product. A device is not registered and its efficacy is not reviewed before sale; what the EPA does require is that it be produced in an EPA-registered establishment carrying an establishment number, and that the maker hold data substantiating any efficacy claim printed on the box. That is why the coverage figures on the shelf are attraction claims rather than verified kill zones &mdash; nobody checked them. Crucially, the moment a manufacturer adds an octenol attractant cartridge, the product stops being a bare device and moves toward registered-pesticide territory, with the substantiation that entails.</p>
-          <p><strong>In Canada,</strong> the Health Canada line quoted elsewhere on this page refers to something different and stronger: the residual insecticide used in a licensed barrier application is a <em>registered pest control product</em> reviewed under the Pest Control Products Act, applied by a licensed technician. A zapper is not that. When you read &ldquo;Health Canada-approved&rdquo; in our service section, it describes the product a licensed applicator sprays, not the device you plug in.</p>
-          <p>The practical takeaway is the same on both sides of the border: no regulator has ever told a bug zapper manufacturer to prove it reduces mosquitoes, because none of them claims to reduce mosquitoes in the fine print. Read the box carefully and you will find it claims to attract and kill <em>flying insects</em> &mdash; which is precisely, and only, what it does.</p>
+          <p>Neither country tests whether a bug zapper works before it goes on sale, but they get there by different routes, and Canada&rsquo;s route ends somewhere most buyers would never guess: a mandatory label statement saying the device does <em>not</em> control mosquitoes.</p>
+          <p><strong>In the United States,</strong> the Environmental Protection Agency treats a bug zapper as a <em>pesticide device</em> under FIFRA rather than as a pesticide product. A device &ldquo;is not required to be registered under FIFRA section 3,&rdquo; in the EPA&rsquo;s own words, and its efficacy is not reviewed before sale; what the EPA does require is that it be produced in a registered pesticide-producing establishment whose establishment number appears on the label, and that the labelling bear no statements that are false or misleading. That is why the coverage figures on the shelf are attraction claims rather than verified kill zones &mdash; nobody checked them. Crucially, the moment a manufacturer adds an octenol attractant cartridge the product stops being a bare device: EPA&rsquo;s rule is that if a product &ldquo;incorporates a substance or mixture of substances intended to prevent, destroy, repel, or mitigate any pest, the entire product is considered to be a pesticide and is subject to registration under FIFRA section 3.&rdquo;</p>
+          <p><strong>In Canada,</strong> a bug zapper is not outside the pesticide law at all, which is a common misconception. Under the <em>Pest Control Products Act</em>, a &ldquo;device&rdquo; is a pest control product, and Schedule 1 of the Pest Control Products Regulations names, at item 2, &ldquo;devices that are manufactured, represented or sold as a means to attract or destroy flying insects, or to attract and destroy them.&rdquo; That is a bug zapper, exactly. Such a device may be sold here <em>without</em> registration only if it meets the conditions in Schedule 2, and those conditions are specific:</p>
+          <ul>
+            <li><strong>Outdoor units (Schedule 2, item 6)</strong> must be certified by the Canadian Standards Association to CAN/CSA-C22.2 No. 189-M89, <em>High-Voltage Insect Killers</em>, and the label must carry both &ldquo;For Outdoor Use Only&rdquo; and the sentence <strong>&ldquo;This device does not control blackflies, mosquitoes or other biting flies.&rdquo;</strong></li>
+            <li><strong>Indoor units (Schedule 2, item 5)</strong> need the same CSA certification, plus the statements &ldquo;This device should not be installed directly on or over surfaces where food is exposed, processed or prepared&rdquo; and a note to use it alongside sanitary practices.</li>
+            <li>Both exemptions apply only to devices that work &ldquo;by means other than the use of an active ingredient that is a chemical.&rdquo; Bolt an octenol lure onto the unit and you have added a chemical attractant &mdash; and octenol is itself a registered pest control product in Canada, confirmed in Health Canada&rsquo;s re-evaluation decision RVD2024-07 (June 2024) as &ldquo;registered as a mosquito attractant for outdoor use only in devices which trap and kill mosquitos.&rdquo;</li>
+          </ul>
+          <p>So the Canadian regulator has not measured whether your zapper works, but it has decided what the box is allowed to say &mdash; and what it requires the outdoor box to say is that the thing does not control mosquitoes. Separately, when you read &ldquo;Health Canada-approved&rdquo; in our service section, that refers to something different again: the residual insecticide used in a licensed barrier application is a <em>registered</em> pest control product reviewed under the Act and applied by a licensed technician, which is a far higher bar than a device exemption.</p>
+          <p>The practical takeaway on both sides of the border: no regulator has told a bug zapper manufacturer to prove it reduces mosquitoes. In the United States that is because efficacy is simply not reviewed for devices; in Canada it is because the label has to disclaim the mosquito claim outright. Read the box carefully and you will find it promises to attract and kill <em>flying insects</em> &mdash; which is precisely, and only, what it does.</p>
 
           <h2>Other Names for Bug Zappers &mdash; and How the Technology Changed</h2>
           <p>Searching for these devices is harder than it should be because they carry at least five names. The formal engineering term is an <strong>electrical discharge insect control system</strong>. Trade and regulatory documents use <strong>electric insect killer</strong> and <strong>insect electrocutor trap</strong>. Consumers say <strong>bug zapper</strong>, and in commercial food-service contexts you will see <strong>fly killer unit</strong> or <strong>insect light trap</strong> &mdash; though the last of those usually means a glue-board unit, which catches insects on an adhesive sheet instead of electrocuting them, and is the format health inspectors prefer near food precisely because nothing gets scattered.</p>
@@ -1024,13 +1026,15 @@ export default function BugZappersCanadaPage() {
           <ul>
             <li><strong>0.22% of 13,789 insects.</strong> University of Delaware residential bug zapper catch count &mdash; Frick &amp; Tallamy, 1996. The single most-cited number in the field.</li>
             <li><strong>4.1% and 6.4% of daily catch.</strong> University of Notre Dame yard trials, as summarised by the American Mosquito Control Association, which reports no significant difference in mosquito numbers between yards with a zapper and yards without one.</li>
-            <li><strong>0.13% to 4%.</strong> The range across published residential catch studies, including University of Florida extension work.</li>
+            <li><strong>0.13% to 6.4%.</strong> The full range across the published residential catch figures cited above &mdash; 0.13% female mosquitoes in one backyard study, 0.22% biting flies in the Delaware count, and 4.1% and 6.4% of daily catch in the two Notre Dame yard trials. Most counts sit at the bottom of that range.</li>
             <li><strong>71 billion to 350 billion beneficial insects a year.</strong> American Mosquito Control Association estimate of the annual toll of electrocuting devices in the United States. A national figure, not a per-yard one.</li>
             <li><strong>Fragments and aerosolized bacteria for several feet.</strong> Kansas State University, Urban &amp; Broce &mdash; the source of the standing advice never to site a zapper near food.</li>
-            <li><strong>Recommends against residential outdoor UV zappers.</strong> The Xerces Society for Invertebrate Conservation and the National Audubon Society, independently.</li>
+            <li><strong>Recommends against residential outdoor UV zappers.</strong> The Xerces Society for Invertebrate Conservation, which calls them &ldquo;ludicrously bad at killing pest insects, instead killing scores of benign and beneficial insects.&rdquo;</li>
             <li><strong>Regulated as a pesticide device under FIFRA, efficacy not reviewed before sale.</strong> US Environmental Protection Agency. Coverage figures on the box are unverified manufacturer attraction claims.</li>
-            <li><strong>Registered pest control products reviewed under the Pest Control Products Act.</strong> Health Canada &mdash; which applies to the residual insecticide a licensed applicator sprays, not to a plug-in device.</li>
-            <li><strong>Advises against relying on a zapper for mosquitoes.</strong> Consumer Reports, quoting Daniel Markowski PhD (AMCA), Eva Buckner PhD (University of Florida FMEL) and Kristin Healy PhD (Louisiana State University).</li>
+            <li><strong>Registered pest control products reviewed under the Pest Control Products Act.</strong> Health Canada &mdash; which applies to the residual insecticide a licensed applicator sprays.</li>
+            <li><strong>&ldquo;This device does not control blackflies, mosquitoes or other biting flies.&rdquo;</strong> The label statement Canadian law requires on an outdoor electric insect killer sold without registration, together with CSA certification to CAN/CSA-C22.2 No. 189-M89 &mdash; Pest Control Products Regulations, Schedule 1 item 2 and Schedule 2 item 6. The indoor equivalent must state that it should not be installed over exposed food.</li>
+            <li><strong>Registered as a mosquito attractant for outdoor use only in devices which trap and kill mosquitoes.</strong> Health Canada&rsquo;s octenol re-evaluation decision RVD2024-07 (28 June 2024), which lists eight registered octenol products in Canada, including the Flowtron Mosquito Attractant (PCP 28456) and the Stinger octenol lure (PCP 29062).</li>
+            <li><strong>Advises against relying on a zapper for mosquitoes.</strong> Consumer Reports, quoting Daniel Markowski PhD (AMCA), Eva Buckner PhD (University of Florida FMEL) and Kristen Healy PhD (Louisiana State University).</li>
             <li><strong>1 acre = 43,560 sq ft.</strong> The conversion behind every coverage claim on this page.</li>
           </ul>
 

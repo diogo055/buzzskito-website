@@ -13,7 +13,7 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'mosquito-fogger-canada'
 const DATE = '2026-07-12'
-const UPDATED = '2026-07-12'
+const UPDATED = '2026-09-04'
 const TITLE = 'Mosquito Fogger Canada 2026 — Do They Work? Best Models + Fogging Liquid Guide'
 const META_TITLE = 'Mosquito Fogger Canada 2026: Models & Liquid'
 
@@ -28,7 +28,7 @@ const FAQS = [
   },
   {
     question: 'What liquid or insecticide goes in a mosquito fogger?',
-    answer: 'Thermal propane foggers use a ready-to-use oil-based fogging insecticide — the classic options are Black Flag Fogging Insecticide, Repel Fogging Insecticide, and Burgess-brand fogging insecticide, all pyrethrin or pyrethroid based and designed to vaporize cleanly through a heated coil. Cold/ULV electric foggers instead use a water-based concentrate that you dilute per the label (permethrin, deltamethrin, or pyrethrin concentrates). Always match the liquid to the machine: oil-based fogging insecticide is formulated for thermal heat foggers, while water-based concentrates are formulated for cold ULV units, and swapping them can clog or damage the machine. In Canada, only products carrying a PMRA / Health Canada registration number are legal to use, so check the label before buying.',
+    answer: 'Mechanically, thermal propane foggers take a ready-to-use oil-based fogging insecticide that vaporizes through a heated coil, while cold/ULV electric foggers take a water-based concentrate diluted per the label — and putting the wrong one in clogs or damages the machine. The Canadian regulatory answer, though, is much more restrictive than the mechanical one. Under the Pest Control Products Act a pesticide may only be used in Canada if Health Canada has registered it and it carries a Canadian PCP number, and the familiar US fogging liquids do not have one: Black Flag Fogging Insecticide Formula 2, for example, is registered with the US EPA (EPA Reg. No. 1021-1866-53853), and Health Canada\'s own incident record for that product shows no Canadian registration number. More decisively, Health Canada\'s Re-evaluation Decision RVD2023-06 (Pyrethrins and Its Associated End-use Products, 2 March 2023) cancelled "domestic handler applications using handheld and stationary foggers" and "space spray uses on domestic-class liquid product labels". Homeowner handheld fogging with pyrethrin liquid is therefore a cancelled use in Canada, not merely a hard-to-source one. Outdoor mosquito fogging survives in that decision as a commercial-class use with a capped application rate — which is why fogging here is done by licensed operators and municipal abatement programs rather than homeowners.',
   },
   {
     question: 'How long does mosquito fogging last?',
@@ -40,7 +40,7 @@ const FAQS = [
   },
   {
     question: 'Where can I buy a mosquito fogger and fogging liquid in Canada?',
-    answer: 'The foggers themselves — Black Flag, Repel, and Burgess propane units, plus electric ULV cold foggers — are stocked on Amazon.ca year-round and appear seasonally at Canadian Tire, Home Depot Canada, and outdoor retailers like Cabela\'s Canada during the May–July peak. The trickier part is the fogging liquid: many US ready-to-use fogging insecticides are not registered with Health Canada\'s PMRA, so Canadian stock of the branded fogging insecticide can be inconsistent and sells out fast in mid-summer. Buy the hardware and a couple of bottles of liquid together in spring, confirm the liquid carries a Canadian registration (PCP) number, and stock up before the July shortage.',
+    answer: 'The machines are the easy half — propane thermal foggers and electric ULV cold foggers are listed on Amazon.ca, and the fogger itself is equipment rather than a registered pest control product. We are not going to tell you which chains stock them, because we could not verify that: when we checked, Canadian Tire\'s mosquito and insect control range showed repellents, zappers, traps and aerosols, not propane fogging machines or fogging insecticide. Check any retailer directly rather than trusting a list. The liquid is the part that stops the project. The branded US fogging insecticides are not registered in Canada, and Health Canada is explicit that "online purchases of unregistered pesticides and their shipment to Canada are not permitted", that the Canada Border Services Agency will refuse entry to ineligible pesticides, and that Health Canada may impose a monetary penalty on the importer. Separately, Re-evaluation Decision RVD2023-06 cancelled domestic handheld-fogger use of pyrethrins outright. So the honest answer to "where do I buy fogging liquid in Canada" is that for a homeowner-operated handheld fogger there is no compliant answer we can point you to — not a shortage, a registration bar.',
   },
   {
     question: 'Is fogging better than professional barrier spray for mosquitoes?',
@@ -50,7 +50,7 @@ const FAQS = [
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'Propane foggers run $60–$110, electric ULV $80–$250 — knockdown lasts 6–24 hours, not weeks. Best models plus which fogging liquid is PMRA-registered.',
+  description: 'Propane foggers run $60–$110, electric ULV $80–$250 — knockdown lasts 6–24 hours, not weeks. And Health Canada cancelled homeowner handheld-fogger use of pyrethrin liquid.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -75,7 +75,7 @@ export default function MosquitoFoggerCanadaPage() {
             <span className="text-white">Mosquito Fogger Canada</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
-          <p className="text-xl text-brand-100 max-w-3xl">A mosquito fogger clears the adult mosquitoes from a yard 20&ndash;30 minutes after you walk the perimeter, and that knockdown holds roughly 6&ndash;24 hours &mdash; real relief, almost no residual. Here is propane vs electric ULV, which fogging liquid is legal in Canada, and the top models and 2026 prices.</p>
+          <p className="text-xl text-brand-100 max-w-3xl">A mosquito fogger clears the adult mosquitoes from a yard 20&ndash;30 minutes after you walk the perimeter, and that knockdown holds roughly 6&ndash;24 hours &mdash; real relief, almost no residual. Here is propane vs electric ULV, how the machines compare, and what Health Canada actually permits a homeowner to fog &mdash; which is less than most buying guides suggest.</p>
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
@@ -87,13 +87,14 @@ export default function MosquitoFoggerCanadaPage() {
         <div className="max-w-4xl mx-auto">
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Mosquito foggers work for fast, temporary knockdown but not lasting control &mdash; and for most GTA yards a propane thermal fogger like the <AmazonLink search="black flag propane fogger" tag={AMZ_TAG} className="font-bold underline decoration-emerald-500 underline-offset-2 hover:text-emerald-900">Black Flag</AmazonLink> is the best pick because it&rsquo;s cordless, cheap, and clears adult mosquitoes 20&ndash;30 minutes before guests arrive. For weeks of hands-off protection, pair it with a <Link href="/mosquito-control" className="text-emerald-700 underline">professional barrier spray</Link>.</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Mosquito foggers work for fast, temporary knockdown but not lasting control &mdash; and of the machines sold to homeowners, a propane thermal unit like the <AmazonLink search="black flag propane fogger" tag={AMZ_TAG} className="font-bold underline decoration-emerald-500 underline-offset-2 hover:text-emerald-900">Black Flag</AmazonLink> is the most practical design: cordless, cheap, and it clears adult mosquitoes 20&ndash;30 minutes before guests arrive. The catch is the liquid, not the machine &mdash; Health Canada has cancelled homeowner handheld-fogger use of pyrethrin fogging insecticide, so read the regulatory note below before you buy anything. For weeks of hands-off protection, use a <Link href="/mosquito-control" className="text-emerald-700 underline">professional barrier spray</Link>.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
               <li>A fogger disperses pyrethrin/pyrethroid insecticide that kills adult mosquitoes on contact; a yard is noticeably clearer 20&ndash;30 minutes after fogging.</li>
               <li>Fogging leaves almost no residual &mdash; knockdown lasts roughly 6 to 24 hours before mosquitoes drift back.</li>
               <li>Propane thermal foggers cost about $60&ndash;$110; electric ULV cold foggers run $80&ndash;$250.</li>
               <li>Thermal foggers use oil-based fogging insecticide; cold ULV foggers use a diluted water-based concentrate.</li>
-              <li>In Canada only fogging liquid carrying a Health Canada PMRA / PCP registration number is legal to use.</li>
+              <li><strong>Health Canada&rsquo;s Re-evaluation Decision RVD2023-06 (Pyrethrins, 2 March 2023) cancelled &ldquo;domestic handler applications using handheld and stationary foggers&rdquo; and &ldquo;space spray uses on domestic-class liquid product labels&rdquo;.</strong> Outdoor mosquito fogging remains a commercial-class use with a capped rate.</li>
+              <li>Any pesticide used in Canada must be registered by Health Canada and carry a PCP number; the US fogging liquids do not, and Health Canada does not permit unregistered pesticides to be ordered online and shipped here.</li>
               <li>Foggers barely touch ticks, which hide low in leaf litter; a barrier spray lasts 21&ndash;30 days and covers ticks.</li>
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
@@ -106,41 +107,64 @@ export default function MosquitoFoggerCanadaPage() {
 
       <section className="bg-gradient-to-br from-emerald-50 to-white border-b border-emerald-200 py-10 px-4">
         <div className="max-w-4xl mx-auto">
-          <p className="text-xs font-extrabold text-emerald-700 uppercase tracking-wider mb-2">Where to Buy in Canada · Updated July 2026</p>
-          <h2 className="text-2xl font-extrabold text-brand-900 mb-4">Mosquito Foggers: Where to Buy in Canada</h2>
+          <p className="text-xs font-extrabold text-emerald-700 uppercase tracking-wider mb-2">Canadian Legal Status · Verified against Health Canada, September 2026</p>
+          <h2 className="text-2xl font-extrabold text-brand-900 mb-4">Mosquito Foggers in Canada: What Health Canada Actually Allows</h2>
+          <div className="mb-5 rounded-xl bg-red-50 border-l-4 border-red-500 p-4">
+            <p className="text-sm text-gray-900 leading-relaxed">
+              <strong className="text-red-900">Read this before you buy the liquid.</strong> Health Canada&rsquo;s <a href="https://www.canada.ca/en/health-canada/services/consumer-product-safety/reports-publications/pesticides-pest-management/decisions-updates/reevaluation-decision/2023/pyrethrins.html" target="_blank" rel="noopener noreferrer" className="text-red-800 underline font-semibold">Re-evaluation Decision RVD2023-06, Pyrethrins and Its Associated End-use Products</a> (2 March 2023) <strong>cancelled</strong> &ldquo;domestic handler applications using handheld and stationary foggers&rdquo; and &ldquo;space spray uses on domestic-class liquid product labels&rdquo;, with phase-out periods of 18 months to 3 years. In plain terms: a homeowner walking the yard with a handheld pyrethrin fogger is a use Health Canada has withdrawn. Outdoor mosquito fogging survives in the same decision only as a <em>commercial-class</em> use with a capped maximum application rate &mdash; which is why fogging in Canada is done by licensed operators and municipal abatement programs. We are a licensed Ontario operator (Pesticide Operator Licence L-240-2436835197) and we would rather lose the sale than tell you otherwise.
+            </p>
+          </div>
           <p className="text-sm text-gray-700 mb-5 leading-relaxed">
-            The foggers are easy to find; the <strong>fogging liquid</strong> is the tricky part. Many US ready-to-use fogging insecticides are not registered with Health Canada&rsquo;s PMRA, so Canadian stock is inconsistent and sells out in mid-summer. Buy the machine and liquid together in spring, and confirm the liquid carries a Canadian PCP registration number.
+            The <strong>machine</strong> and the <strong>liquid</strong> are regulated completely differently, and almost every fogger buying guide blurs the two. Here is where each part actually stands. We have deliberately removed the retailer price table that used to sit here: we could not verify the per-chain stock it claimed, and prices go stale within a season.
           </p>
           <div className="rounded-xl border border-navy-100 overflow-x-auto bg-white shadow-sm">
             <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
-                  <th className="px-4 py-3 text-left">Retailer</th>
-                  <th className="px-4 py-3 text-left">Propane fogger</th>
-                  <th className="px-4 py-3 text-left">Fogging liquid</th>
-                  <th className="px-4 py-3 text-left">Notes</th>
+                  <th className="px-4 py-3 text-left">What you are buying</th>
+                  <th className="px-4 py-3 text-left">How it is regulated</th>
+                  <th className="px-4 py-3 text-left">Canadian status</th>
                 </tr>
               </thead>
               <tbody>
                 {[
-                  { name: 'Canadian Tire',     fog: '$70 – $120',   liq: 'Seasonal only',      note: 'May–July stock' },
-                  { name: 'Home Depot Canada', fog: '$65 – $120',   liq: 'Limited',            note: 'Spring outdoor stock' },
-                  { name: 'Cabela\'s Canada',  fog: '$75 – $140',   liq: 'Limited',            note: 'Outdoor / cottage specialty' },
-                  { name: 'Costco Canada',     fog: 'Seasonal',     liq: 'Rare',               note: 'Occasional spring promo' },
-                  { name: 'Local garden centre', fog: '$70 – $130', liq: 'PMRA-registered',    note: 'Best for legal Canadian liquid' },
-                ].map(({ name, fog, liq, note }) => (
-                  <tr key={name} className="border-b border-navy-50 last:border-0">
+                  {
+                    name: 'The fogger machine (propane thermal or electric ULV)',
+                    reg: 'Equipment — not itself a registered pest control product',
+                    status: 'Sold in Canada, including on Amazon.ca. The restrictions below land on what you put in it, not on owning it.',
+                  },
+                  {
+                    name: 'Pyrethrin fogging liquid, domestic class, handheld fogger',
+                    reg: 'Pest control product (PCPA)',
+                    status: 'Use cancelled. RVD2023-06 cancelled domestic handler applications using handheld and stationary foggers.',
+                  },
+                  {
+                    name: 'US ready-to-use fogging insecticide (e.g. Black Flag Fogging Insecticide Formula 2)',
+                    reg: 'Pest control product (PCPA)',
+                    status: 'Not registered in Canada — EPA-registered only (EPA Reg. No. 1021-1866-53853). Health Canada does not permit unregistered pesticides to be ordered online and shipped here; CBSA refuses entry and a monetary penalty may apply.',
+                  },
+                  {
+                    name: 'Outdoor ULV mosquito fogging (pyrethrins or deltamethrin)',
+                    reg: 'Pest control product — commercial class',
+                    status: 'Permitted, with a capped application rate. Health Canada authorized deltamethrin for adult mosquito control in residential and recreational areas in 2017, applied by ULV sprayer — an operator-level use.',
+                  },
+                  {
+                    name: 'Permethrin products',
+                    reg: 'Pest control product (PCPA)',
+                    status: 'RVD2019-11 cancelled total release fumigating foggers and attic mistblower use, reduced residential yard rates, and limited indoor residential use to perimeter, spot, or crack-and-crevice.',
+                  },
+                ].map(({ name, reg, status }) => (
+                  <tr key={name} className="border-b border-navy-50 last:border-0 align-top">
                     <td className="px-4 py-3 font-bold text-brand-800">{name}</td>
-                    <td className="px-4 py-3 font-mono text-gray-800">{fog}</td>
-                    <td className="px-4 py-3 font-mono text-gray-800">{liq}</td>
-                    <td className="px-4 py-3 text-xs text-gray-600">{note}</td>
+                    <td className="px-4 py-3 text-gray-800">{reg}</td>
+                    <td className="px-4 py-3 text-xs text-gray-600">{status}</td>
                   </tr>
                 ))}
               </tbody>
             </table>
           </div>
           <p className="text-xs text-gray-500 mt-3">
-            Prices accurate as of July 2026. Propane foggers use a ready-to-use oil-based fogging insecticide (roughly $15–$30 per bottle); electric ULV cold foggers use a diluted water-based concentrate. A propane tank or cylinder adds $10–$40 depending on the model.
+            Sources: Health Canada Re-evaluation Decision RVD2023-06 (Pyrethrins, 2 March 2023); RVD2019-11 (Permethrin, uses on structures); Health Canada, <em>Importing pesticides for personal use in Canada</em>; Health Canada, <em>Use of Deltamethrin for Mosquito Control</em>. Always confirm the current label and PCP registration number before using any product in a fogger. We do not publish retailer prices; check the retailer directly.
           </p>
           <div className="mt-5 rounded-xl bg-amber-50 border-l-4 border-amber-400 p-4">
             <p className="text-sm text-gray-800 leading-relaxed">
@@ -158,12 +182,12 @@ export default function MosquitoFoggerCanadaPage() {
               {
                 badge: 'Best Overall',
                 name: 'Black Flag Propane Mosquito Fogger',
-                why: 'The classic backyard knockdown unit — cordless, budget-friendly, and clears the adult mosquitoes from your yard 20–30 minutes before guests arrive. Pair it with a PMRA-registered fogging insecticide.',
+                why: 'The classic backyard knockdown unit — cordless, budget-friendly, and clears the adult mosquitoes from your yard 20–30 minutes before guests arrive. Canadian caveat: Health Canada cancelled domestic handheld-fogger use of pyrethrin fogging liquid in RVD2023-06, so confirm the current label and PCP registration of anything you intend to run through it.',
                 search: 'black flag propane fogger',
                 score: 8.4,
                 featured: true,
                 pros: ['Cordless and portable', 'Budget-friendly to buy', 'Fast visible knockdown'],
-                cons: ['Almost no residual', 'Needs oil-based fogging liquid'],
+                cons: ['Almost no residual', 'Canadian fogging liquid is restricted — see RVD2023-06'],
               },
               {
                 badge: 'Best for Campsites',
@@ -172,7 +196,7 @@ export default function MosquitoFoggerCanadaPage() {
                 search: 'repel propane insect fogger',
                 score: 8.0,
                 pros: ['Great for cottages & camping', 'Runs anywhere on propane', 'Simple to operate'],
-                cons: ['Knockdown only, no residual', 'Refill liquid sells out in summer'],
+                cons: ['Knockdown only, no residual', 'Canadian refill liquid is restricted, not merely scarce'],
               },
               {
                 badge: 'Best Large Tank',
@@ -218,9 +242,9 @@ export default function MosquitoFoggerCanadaPage() {
                   ['Active ingredients', 'Pyrethrin / pyrethroid fogging insecticides'],
                   ['Best use', 'Right before an event — fast on-demand knockdown'],
                   ['Reapplication', 'Before each outing (no lasting protection)'],
-                  ['Canada availability', 'Foggers widely sold; PMRA-registered fogging liquid less consistent'],
+                  ['Canada availability', 'Machines are sold in Canada; there is no domestic-class handheld fogging liquid we can point a homeowner to'],
                   ['Pollinator caution', 'Non-selective — never fog blooming plants when bees are active'],
-                  ['Health Canada status', 'Fogging liquid must carry a PMRA / PCP registration number'],
+                  ['Health Canada status', 'RVD2023-06 (2 Mar 2023) cancelled domestic handheld and stationary fogger use of pyrethrins; outdoor mosquito fogging is a commercial-class use with a capped rate'],
                 ].map(([k, v]) => (
                   <tr key={k} className="border-b border-navy-50 last:border-0">
                     <td className="px-4 py-2 font-semibold text-brand-800 bg-brand-50 w-1/3">{k}</td>
@@ -295,14 +319,15 @@ export default function MosquitoFoggerCanadaPage() {
               </tbody>
             </table>
           </div>
-          <p className="not-prose text-sm text-gray-600 mb-6">The machine is only half the purchase &mdash; you also need the <strong>fogging liquid</strong>. Thermal foggers take an oil-based fogging insecticide; confirm it carries a Canadian PCP number before buying. <BuyLink tag={AMZ_TAG} search="black flag fogging insecticide">Check fogging liquid price →</BuyLink></p>
+          <p className="not-prose text-sm text-gray-600 mb-6">The machine is only half the purchase &mdash; a thermal fogger is useless without an oil-based fogging insecticide. In Canada that half is the problem: Health Canada cancelled domestic handheld-fogger use of pyrethrin fogging liquid in RVD2023-06, and any product you use must carry a Canadian PCP registration number on its label. Check that before you buy anything. <BuyLink tag={AMZ_TAG} search="black flag fogging insecticide">Check fogging liquid listings →</BuyLink></p>
 
           <h3>Fogging Liquid &amp; Insecticide: Match It to the Machine</h3>
-          <p>The most common mistake first-time buyers make is putting the wrong liquid in the tank. <strong>Thermal propane foggers</strong> need an <em>oil-based, ready-to-use fogging insecticide</em> &mdash; the classic Black Flag, Repel, and Burgess fogging insecticides are all pyrethrin or pyrethroid formulations designed to vaporize cleanly through a heated coil. <strong>Cold / ULV foggers</strong> instead take a <em>water-based concentrate</em> that you dilute per the label (permethrin, deltamethrin, or pyrethrin concentrates). Swapping oil-based liquid into a cold fogger, or water-based concentrate into a thermal coil, clogs or damages the machine &mdash; and in Canada, only liquids carrying a Health Canada PMRA / PCP registration number are legal to use.</p>
+          <p>Mechanically, the most common mistake first-time buyers make is putting the wrong liquid in the tank. <strong>Thermal propane foggers</strong> need an <em>oil-based, ready-to-use fogging insecticide</em> designed to vaporize cleanly through a heated coil. <strong>Cold / ULV foggers</strong> instead take a <em>water-based concentrate</em> diluted per the label. Swapping oil-based liquid into a cold fogger, or water-based concentrate into a thermal coil, clogs or damages the machine.</p>
+          <p><strong>The Canadian regulatory picture is the part that decides the purchase, and it is stricter than the mechanical one.</strong> The classic branded fogging insecticides sold with these machines are US products: Black Flag Fogging Insecticide Formula 2 carries US EPA Reg. No. 1021-1866-53853, and Health Canada&rsquo;s own incident record for it lists no Canadian registration number. Under the Pest Control Products Act a pesticide may only be used in Canada if Health Canada has registered it and it carries a PCP number, and Health Canada states plainly that &ldquo;online purchases of unregistered pesticides and their shipment to Canada are not permitted&rdquo; &mdash; the Canada Border Services Agency refuses entry, and a monetary penalty may be imposed on the importer. Beyond registration, the specific <em>use</em> has been withdrawn: <a href="https://www.canada.ca/en/health-canada/services/consumer-product-safety/reports-publications/pesticides-pest-management/decisions-updates/reevaluation-decision/2023/pyrethrins.html" target="_blank" rel="noopener noreferrer">Re-evaluation Decision RVD2023-06</a> cancelled &ldquo;domestic handler applications using handheld and stationary foggers&rdquo; and &ldquo;space spray uses on domestic-class liquid product labels&rdquo;. Nor is there a homeowner workaround on the cold-fogger side: outdoor mosquito fogging with pyrethrins is a commercial-class use with a capped rate, deltamethrin mosquito fogging is authorized as a ULV operator application, and permethrin&rsquo;s <a href="https://www.canada.ca/en/health-canada/services/publications/product-safety/changes-registration-permethrin-pesticides-uses-structures.html" target="_blank" rel="noopener noreferrer">re-evaluation (RVD2019-11)</a> cancelled total release fumigating foggers and attic mistblower use and cut residential yard rates. If you own a fogger in Canada, the compliant path is to check the current PMRA label for a product that names your equipment and site &mdash; and in practice, for a homeowner, that path is largely closed.</p>
 
           <h2 id="fogger-liquid-refills">Fogger Liquid &amp; Refills in Canada</h2>
-          <p>The fogging liquid is the real recurring cost of owning a fogger &mdash; the machine is a one-time buy, but the liquid empties with every use. A typical bottle of ready-to-use fogging insecticide covers a small-to-medium yard a handful of times, so a household that fogs before every weekend gathering runs through several bottles between May and September. The branded liquids (Black Flag, Repel, Burgess &ldquo;fogger fuel&rdquo;) are interchangeable across the classic propane units, so shop on price and availability rather than matching the sticker to your machine &mdash; just keep it oil-based for a thermal fogger and confirm the Canadian PCP registration number on the label.</p>
-          <p>Because PMRA-registered fogging liquid is exactly what sells out first in a GTA July, the practical move is to buy two or three bottles in spring alongside the machine, then restock the moment your supply drops to one bottle:</p>
+          <p>The fogging liquid is the real recurring cost of owning a fogger &mdash; the machine is a one-time buy, but the liquid empties with every use. A typical bottle of ready-to-use fogging insecticide covers a small-to-medium yard a handful of times, so a household that fogs before every weekend gathering runs through several bottles between May and September. That is the American arithmetic, and it is the arithmetic every fogger review you will read online is built on. In Canada it does not apply, because the recurring purchase is the one Health Canada has closed off for domestic handheld use.</p>
+          <p>We previously told readers here to buy two or three bottles in spring and beat the July shortage. That was wrong, and we have removed it: the constraint is not seasonal stock, it is registration. Health Canada&rsquo;s RVD2023-06 cancelled domestic handler applications using handheld and stationary foggers, and the branded US fogging liquids carry EPA registrations rather than Canadian PCP numbers &mdash; which also means they cannot lawfully be ordered online and shipped into Canada. If you are shopping fogging liquid at all, do it with the PMRA label database open, and buy only a product whose current Canadian label names both your equipment type and your site:</p>
           <div className="not-prose my-4 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="mosquito fogger insecticide liquid">Fogging insecticide liquid →</BuyLink>
             <BuyLink tag={AMZ_TAG} search="black flag fogger fuel">Black Flag fogger fuel →</BuyLink>
@@ -348,7 +373,7 @@ export default function MosquitoFoggerCanadaPage() {
             <li><strong>Never fog in wind</strong> &mdash; drift onto neighbouring yards, ponds with fish, and vegetable gardens is both unsafe and wasteful.</li>
             <li><strong>Protect pollinators</strong> &mdash; do not fog blooming flowers or gardens when bees are active; fog at dusk or dawn when pollinators are least present.</li>
             <li><strong>Wear eye protection and a mask</strong>, and keep the fog away from open water, food, and play areas.</li>
-            <li><strong>Use the right registered liquid</strong> &mdash; only PMRA / PCP-registered fogging insecticides are legal in Canada, and always follow the label rate.</li>
+            <li><strong>Use the right registered liquid &mdash; and check the use is still permitted</strong>. Only pesticides Health Canada has registered, carrying a Canadian PCP number, may lawfully be used here, and the label rate is binding. Note that Health Canada&rsquo;s RVD2023-06 cancelled domestic handheld and stationary fogger applications of pyrethrins, so a registration number alone is not enough &mdash; the label has to permit your equipment and your site.</li>
           </ul>
           <p>If you would rather not handle insecticide clouds at all &mdash; or you want protection that also covers your clothing and gear for hikes and yard work &mdash; a treated-fabric approach is a useful complement. See our <Link href="/blog/permethrin-canada-yard-clothing-spray">permethrin Canada guide for yard and clothing spray</Link> for how residual permethrin differs from a short-lived fog.</p>
 
@@ -367,7 +392,7 @@ export default function MosquitoFoggerCanadaPage() {
           </table>
 
           <h2 id="verdict">The Honest Verdict for GTA Buyers</h2>
-          <p>A fogger is a genuinely useful tool &mdash; for the narrow job of clearing your yard right before you use it. If you host the occasional backyard gathering, a $60&ndash;$90 propane fogger plus a bottle of registered fogging liquid is a smart, cheap thing to keep in the shed. What a fogger cannot do is keep your yard livable all summer: the knockdown is over in hours, ticks are largely unaffected, and you would be re-fogging constantly to stay ahead of reinvasion. For baseline, weeks-long control &mdash; and for tick protection &mdash; a residual <Link href="/mosquito-control">professional barrier spray</Link> does far more per dollar and per hour of your time. The best setup for most GTA homeowners is both: a seasonal barrier program for the baseline, and a fogger on the shelf for event-day touch-ups. If your lot is bigger or backs onto a woodlot, that baseline matters more rather than less &mdash; our <Link href="/vaughan-mosquito-control">mosquito control in Vaughan</Link> page walks through how a seasonal program is scheduled on properties like that.</p>
+          <p>A fogger is a genuinely useful tool &mdash; for the narrow job of clearing your yard right before you use it. That is the case on its merits, and it is why these machines sell. In Canada, though, the honest verdict has to account for the liquid: Health Canada has cancelled domestic handheld-fogger use of pyrethrin fogging insecticide, and the branded US liquids are not registered here, so a homeowner cannot assume the machine in the shed has a compliant thing to put in it. What a fogger cannot do, even where the liquid is available, is keep your yard livable all summer: the knockdown is over in hours, ticks are largely unaffected, and you would be re-fogging constantly to stay ahead of reinvasion. For baseline, weeks-long control &mdash; and for tick protection &mdash; a residual <Link href="/mosquito-control">professional barrier spray</Link> does far more per dollar and per hour of your time. Given where Health Canada has landed, the setup we can actually recommend to a GTA homeowner is the seasonal barrier program for the baseline &mdash; and, if you already own a fogger, running it only with a product whose current Canadian label names both handheld fogging equipment and your site. If your lot is bigger or backs onto a woodlot, that baseline matters more rather than less &mdash; our <Link href="/vaughan-mosquito-control">mosquito control in Vaughan</Link> page walks through how a seasonal program is scheduled on properties like that.</p>
           <p>The other way to buy yourself a bite-free evening is to stop fighting the air and enclose the space instead. A <Link href="/blog/best-screen-tent-canada">screen tent or screen house</Link> over the table protects that footprint the moment the last stake goes in &mdash; nothing to reapply, nothing that wears off in three hours, and it works on black flies as well as mosquitoes. It is the honest alternative to fogging before every dinner, and at a cottage, dock or campsite where no barrier spray applies, it is the only alternative.</p>
           <p>A fogger is also just one machine in the DIY pest-control toolkit &mdash; if you are weighing backpack sprayers, steamers, or ULV units against each other, the equipment section of our <Link href="/pest-product-guides">pest product guides</Link> sizes and compares that heavier gear for Canadian buyers.</p>
           <p>The device most people compare a fogger against is a plug-in UV trap, and that comparison is not close. A fogger at least applies a registered insecticide to the air and foliage where mosquitoes rest; a UV-plus-fan trap emits no CO&#8322; and, in independent trap research, catches under 5% mosquitoes. Before you buy one instead of a fogger, read <Link href="/blog/dynatrap-canada-review">our DynaTrap review &mdash; do they actually work on mosquitoes?</Link></p>
