@@ -13,7 +13,7 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 const SLUG = 'deer-tick-vs-dog-tick-canada'
 const DATE = '2026-04-28'
 const UPDATED = '2026-07-12'
-const TITLE = 'Dog Tick vs Deer Tick — How to Tell Them Apart (Canada 2026)'
+const TITLE = 'Deer Tick vs Dog Tick: Which Is It, Lyme or Not'
 
 const FAQS = [
   {
@@ -78,13 +78,21 @@ const FAQS = [
   },
 ]
 
-// TITLE NOTE (Jul 2026): the dominant query is "deer tick vs dog tick" (2,800/mo),
-// but this page's title led with "Dog Tick vs Deer Tick" — reversed from how people
-// search it. CTR sat at 0.13% on ~4,600 impressions. Re-ordered to match query order
-// and trimmed under 60 chars so Google stops truncating. Measure before changing again.
+// TITLE NOTE (Aug 2026): the Jul 2026 re-order never reached the SERP. Only
+// `metadata.title` was changed; the TITLE constant (the H1, also fed to
+// blogPostingSchema) still led with "Dog Tick vs Deer Tick — ... (Canada 2026)",
+// so Google discarded the new title tag and rewrote the snippet from the H1.
+// CTR went 0.13% → 0.1% because the experiment never actually ran.
+// Fixed now: H1 and title tag are IDENTICAL strings and must stay that way.
+// Also dropped "(Canada 2026)" — the 3 mm vs 5 mm size/pattern difference is
+// universal biology, not Canadian or annual, and welding a geo+year qualifier
+// onto a universal fact suppresses the unqualified query (see
+// data/ai-citation-pattern.md). The genuinely Canadian claim (only the deer tick
+// is a Lyme vector here) now carries the geo weight inside the description.
+// Rendered <title> is 59 chars incl. the " | BuzzSkito" template suffix.
 export const metadata: Metadata = buildMetadata({
-  title: 'Deer Tick vs Dog Tick: Size, Colour & Lyme Risk',
-  description: 'Deer tick vs dog tick: 3 mm and plain dark vs 5 mm with a mottled grey shield. Only deer ticks carry Lyme in Canada. Full ID table and what to do next.',
+  title: TITLE,
+  description: 'Deer tick vs dog tick: 3 mm and plain dark, or 5 mm with a mottled grey shield. Only the deer tick carries Lyme in Canada. Full ID chart plus how to remove it.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,

@@ -14,7 +14,7 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 const SLUG = 'deer-flies-horse-flies-ontario'
 const DATE = '2026-07-12'
 const UPDATED = '2026-07-12'
-const TITLE = 'Deer Flies vs Horse Flies in Ontario: ID, Bites & Yard Control'
+const TITLE = 'Deer Flies vs Horse Flies: What to Look At, Why the Bite Bleeds, and What Stops Them'
 
 const FAQS = [
   {
@@ -52,8 +52,8 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Deer Fly vs Horse Fly: 1 cm vs 2–3 cm (Ontario)',
-  description: 'Deer flies are about 1 cm with banded wings and circle your head; horse flies are 2–3 cm and bite your legs. Why the bite bleeds, and what stops them.',
+  title: 'Deer Fly vs Horse Fly: Wings, Bites & Control',
+  description: 'Banded wings and patterned eyes settle it. What to look at on the fly, why the bite cuts and bleeds, and what cuts how many reach you in an Ontario yard.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,

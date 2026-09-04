@@ -14,8 +14,8 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 const SLUG = 'dynatrap-canada-review'
 const DATE = '2026-05-01'
 const UPDATED = '2026-07-30'
-const TITLE = 'Do DynaTraps Actually Work on Mosquitoes? An Honest Canadian Review'
-const META_TITLE = 'Do DynaTraps Actually Work on Mosquitoes?'
+const TITLE = 'DynaTrap Review: What It Really Catches, Which Model to Buy, and What Works Instead in Canada'
+const META_TITLE = 'DynaTrap Review: What It Really Catches'
 
 const FAQS = [
   {
@@ -142,7 +142,7 @@ const FAQS = [
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'Do DynaTraps actually work on mosquitoes? Independent studies put mosquitoes under 5% of a UV trap catch. What they really catch, and what works in Canada.',
+  description: 'A DynaTrap review built on independent trap studies and third-party hands-on tests: what it really catches, which model to buy, and what works better in Canada.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,

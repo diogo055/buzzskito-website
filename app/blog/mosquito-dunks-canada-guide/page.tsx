@@ -16,7 +16,7 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 const SLUG = 'mosquito-dunks-canada-guide'
 const DATE = '2026-04-28'
 const UPDATED = '2026-04-28'
-const TITLE = 'Mosquito Dunks Canada 2026: Where to Buy + 3 Common Mistakes'
+const TITLE = 'Mosquito Dunks in Canada: What BTI Is, Where to Buy, and How to Use Them'
 
 const FAQS = [
   {
@@ -166,8 +166,8 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Mosquito Dunks Canada 2026: Prices + 3 Mistakes',
-  description: 'One dunk treats 100 sq ft of water for 30 days. Canada 2026 prices compared: $13.97–$16.49 a 6-pack at Canadian Tire, Home Depot, Rona and Lowe\'s.',
+  title: 'Mosquito Dunks Canada: BTI Tablets, Where to Buy',
+  description: 'Yes, mosquito dunks are sold across Canada — pure BTI, and the Summit brand is Health Canada-registered (PCP #18158). One dunk treats 100 sq ft for 30 days.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,

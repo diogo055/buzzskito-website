@@ -15,8 +15,8 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 const SLUG = 'chigger-bites'
 const DATE = '2026-07-19'
 const UPDATED = '2026-07-19'
-const TITLE = 'Chigger Bites: What They Look Like, How Long They Last & How to Treat Them (2026)'
-const META_TITLE = 'Chigger Bites: What They Look Like and How Long'
+const TITLE = 'Chiggers and Chigger Bites: What They Look Like, Whether They Burrow, and How to Treat the Itch'
+const META_TITLE = 'Chigger Bites: Look-Alikes & Do They Burrow?'
 
 const FAQS = [
   {
@@ -179,7 +179,7 @@ const FAQS = [
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
   description:
-    'What chigger bites look like, why they cluster at ankles and waistbands, how long they last, treatment that actually calms the itch, and the skin-burrowing myth debunked. Updated 2026.',
+    'A chigger is a mite larva no bigger than 0.3 mm — too small to see. What they look like, why they do not burrow into skin, and how long the bites itch.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -206,7 +206,7 @@ export default function ChiggerBitesPage() {
           </nav>
           <div className="text-emerald-400 text-xs font-bold uppercase tracking-wide mb-3">Bite Identification &middot; Independent Research</div>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-5 leading-tight">
-            Chigger Bites: What They Look Like, How Long They Last &amp; How to Treat Them
+            Chiggers and Chigger Bites: What They Look Like, Whether They Burrow, and How to Treat the Itch
           </h1>
           <p className="text-xl text-brand-100 leading-relaxed">
             The nearly invisible mite behind some of the itchiest bites in the grass &mdash; where the welts cluster, how to tell them from mosquito and bed bug bites, the burrowing myth debunked, and what genuinely calms the itch.

@@ -24,8 +24,8 @@ const UPDATED = '2026-09-02'
 // at 3%. Traps and exclusion hardware are 6%. The lead is deliberately the trap, which is
 // also the honest next step — and a sealed-HEPA vacuum is explicitly NOT recommended for
 // dry droppings, because public-health cleanup guidance says do not vacuum or sweep them.
-const TITLE = 'What Does Mouse Poop Look Like? — The Canadian ID Guide, and the Cleanup Order That Matters'
-const META_TITLE = 'What Does Mouse Poop Look Like? Canada Guide'
+const TITLE = 'What Does Mouse Poop Look Like? Size, Shape, Fresh vs Old, and Safe Cleanup'
+const META_TITLE = 'Mouse Poop: 3-6 mm, Pointed — Fresh or Old?'
 
 const FAQS = [
   {
@@ -124,7 +124,7 @@ const FAQS = [
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'What does mouse poop look like? Dark rice-grain pellets 3-6 mm, pointed at both ends — and how to tell them from rat, bat and roach droppings.',
+  description: 'Mouse poop: dark 3-6 mm pellets, pointed at both ends, scattered not piled. Rat droppings are 12-19 mm and blunt. Plus the free 48-hour test for fresh vs old.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,

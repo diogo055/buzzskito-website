@@ -13,7 +13,7 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 const SLUG = 'mosquito-larvae-identification'
 const DATE = '2026-04-28'
 const UPDATED = '2026-07-12'
-const TITLE = 'Mosquito Larvae — Identification, Lifecycle & Removal (2026)'
+const TITLE = 'Mosquito Larvae — Identification, Look-Alikes & Removal'
 
 const FAQS = [
   {
@@ -167,10 +167,15 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  // Head term (~pos 15). Title front-loads the keyword, matches "what they look
-  // like" + the dominant "kill them" intent, and stays under 60 chars.
-  title: 'Mosquito Larvae: What They Look Like (5-8 mm)',
-  description: 'Mosquito larvae are 5-8 mm wigglers that hang head-down and dart in an S-shape when disturbed. Draining kills them instantly, BTI in 24-48 hours.',
+  // Head term "mosquito larvae" carries a two-part intent: confirm the ID, then
+  // kill them. The old title stopped at appearance and spent its differentiator
+  // on "(5-8 mm)" — a metric spec nobody searched. This one front-loads the head
+  // term, answers both halves, and leads on the look-alike key (two comparison
+  // tables + the Anopheles exception), which is what the image pack above the
+  // blue links cannot give. 47 chars raw, 59 with the " | BuzzSkito" template.
+  // Deliberately no geo token — this is a universal biology page.
+  title: 'Mosquito Larvae or Look-Alike? How to Kill Them',
+  description: 'Mosquito larvae hang head-down and dart in an S-shape when disturbed. Tell them apart from midge, mayfly and crane fly larvae, then drain or treat with BTI.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,

@@ -14,8 +14,8 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 const SLUG = 'horse-fly-and-deer-fly-bite-treatment'
 const DATE = '2026-07-13'
 const UPDATED = '2026-07-13'
-const TITLE = 'Horse Fly & Deer Fly Bite Treatment: Relief, Healing, Risks'
-const META_TITLE = 'Deer Fly Bite: Treatment + How Long It Lasts'
+const TITLE = 'Horse Fly & Deer Fly Bites: Why They Hurt and How to Treat Them'
+const META_TITLE = 'Horse Fly vs Deer Fly Bite: Why It Hurts'
 
 const FAQS = [
   {
@@ -54,7 +54,7 @@ const FAQS = [
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'Deer fly bites hurt because the fly slices the skin open. Wash, ice 10–15 min, hydrocortisone — painful for hours, itchy 2–4 days, healed in a week.',
+  description: 'Horse fly and deer fly bites sting because the fly cuts the skin. Wash, ice 10–15 min, hydrocortisone — sore for hours, itchy 2–4 days, healed in a week.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,

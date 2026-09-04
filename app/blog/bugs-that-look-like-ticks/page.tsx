@@ -16,7 +16,7 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 const SLUG = 'bugs-that-look-like-ticks'
 const DATE = '2026-04-26'
 const UPDATED = '2026-07-12'
-const TITLE = '7 Bugs That Look Like Ticks (And How to Tell Them Apart)'
+const TITLE = '7 Bugs That Look Like Ticks — And Where Each One Turns Up'
 const EXCERPT = 'Bed bugs, spider beetles, weevils, carpet beetles, bat bugs, booklice, and stink bug nymphs — plus poppy seeds and deer-tick vs dog-tick ID. A visual look-alike guide for Ontario homeowners, and why misidentification matters for Lyme disease risk.'
 
 const FAQS = [
@@ -98,18 +98,29 @@ const FAQS = [
   },
 ]
 
-// TITLE NOTE (Jul 27 2026): third title on this URL. Previous was 'Bugs That Look
-// Like Ticks: 7 Lookalikes & ID Chart' (50 chars, set Jul 12 2026); now 'Bugs That
-// Look Like Ticks: 8 Legs or 6? ID Chart' (48 chars, 60 rendered with the layout
-// template) to lead with the leg-count angle that actually answers the query.
-// This page carries ~39,600 impressions/mo at position ~7.9 with 0.87% CTR — the
-// single largest CTR upside on the site (~650 clicks/mo). Caveat: part of the low
-// CTR is structural — an AI Overview answers this query and cites us. Note the
-// Jul 12 title only ran 14 of its intended 28 days, so that test is unattributable.
-// New measurement window runs to ~Aug 24 2026; don't churn the title before then.
+// TITLE NOTE (Sep 3 2026): fourth title on this URL. History: 'Bugs That Look Like
+// Ticks: 7 Lookalikes & ID Chart' (50 chars, Jul 12 2026, ran only 14 days —
+// unattributable), then 'Bugs That Look Like Ticks: 8 Legs or 6? ID Chart' (48
+// chars, Jul 27 2026). That window closed Aug 24 2026. Trailing-84-day GSC
+// (data/gsc/q84_all.json): head query 'bugs that look like ticks' 21 clicks /
+// 2,776 impressions = 0.76% CTR at position 6.98 — still far under benchmark for
+// that position, so the leg-count angle did not fix the click. The leg-count
+// queries it was aimed at are small and weak on their own ('6 legged bug looks
+// like tick' 1 click / 210 impressions at 8.42), and an AI Overview on this SERP
+// already paraphrases our Quick Answer, so leading with the leg rule spends the
+// title on a fact the searcher gets for free above the fold. The modifiers people
+// actually type are physical and locational (black, little, round, hard shell, in
+// house, in the yard, jumps, wings) — specimen matching, not taxonomy.
+// Now '7 Bugs That Look Like Ticks & Where They Turn Up' (48 chars; renders at 60
+// with the '%s | BuzzSkito' template in app/layout.tsx): restores the countable
+// list signal and promises the table's 'Where you find it' column, the one axis an
+// AI Overview does not reproduce. Deliberately geo-free — the Ontario variants are
+// ~109 impressions against 2,776 on the unqualified head query, and welding a geo
+// token on would cost the much larger unqualified set (data/ai-citation-pattern.md).
+// New measurement window runs to ~Oct 1 2026; don't churn the title before then.
 export const metadata: Metadata = buildMetadata({
-  title: 'Bugs That Look Like Ticks: 8 Legs or 6? ID Chart',
-  description: 'Ticks have 8 legs and no antennae. Bed bugs, spider beetles, weevils, carpet beetles, bat bugs and booklice have 6 — the full ID chart, side by side.',
+  title: '7 Bugs That Look Like Ticks & Where They Turn Up',
+  description: 'Bed bugs, spider beetles, weevils, carpet beetles, bat bugs, booklice and stink bug nymphs: what each one is, where you find it, and when it really is a tick.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,

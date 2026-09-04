@@ -14,8 +14,8 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 const SLUG = 'best-mosquito-repellent-device-canada'
 const DATE = '2026-07-12'
 const UPDATED = '2026-07-13'
-const TITLE = 'Best Mosquito Repellent Device Canada 2026 — Machines Ranked'
-const META_TITLE = 'Best Mosquito Repellent Device Canada: 5 Ranked'
+const TITLE = 'Best Mosquito Repellent Machines and Devices in Canada — What Actually Works'
+const META_TITLE = 'Mosquito Repellent Machines: What Works'
 
 const FAQS = [
   {
@@ -58,7 +58,7 @@ const FAQS = [
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'The best mosquito repellent device in Canada for 2026 — Thermacell, DynaTrap, propane CO₂ traps, foggers and bug zappers ranked by coverage, price, and what actually works.',
+  description: 'Mosquito repellent machines vs killer machines: five types compared for Canadian yards — which actually cut bites, and which mostly catch moths and beetles.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,

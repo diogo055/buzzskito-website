@@ -1,0 +1,122 @@
+{
+ "created": "2026-09-03",
+ "measureOn": "2026-10-15",
+ "hypothesis": "Titles that match what the searcher actually typed will lift CTR toward the site own top-quartile rate at the same position. Baseline: these 16 pages carry ~98,000 Canadian impressions at ~0.5% CTR while sibling pages at the same positions earn 2.8-4.5%.",
+ "stopRule": "At 6 weeks compare Canadian CTR per page against the baseline below, holding position roughly constant. If the set does not lift >=25% relative, revert the titles and stop the programme at 16 pages.",
+ "confound": "Runs concurrently with the slug A/B test (data/exp-slug-test.json) but on a DISJOINT page set, so the two remain separately attributable.",
+ "note": "Rendered SERP title = META_TITLE + \" | BuzzSkito\" (12 chars) via the app/layout.tsx template. Target <=60 RENDERED. Ten of these needed shortening after the agents optimised to the raw 60.",
+ "pages": [
+  {
+   "slug": "best-fruit-fly-trap-canada",
+   "baselineCaImpr": 2221,
+   "baselineCtr": 0.45,
+   "baselinePos": 7.7,
+   "newRenderedTitle": "Best Fruit Fly Traps Canada: Scent Beats Light | BuzzSkito"
+  },
+  {
+   "slug": "best-mosquito-repellent-device-canada",
+   "baselineCaImpr": 5346,
+   "baselineCtr": 0.79,
+   "baselinePos": 9.2,
+   "newRenderedTitle": "Mosquito Repellent Machines: What Works | BuzzSkito"
+  },
+  {
+   "slug": "black-flies-ontario-when-they-come-out",
+   "baselineCaImpr": 11489,
+   "baselineCtr": 1.15,
+   "baselinePos": 5.5,
+   "newRenderedTitle": "Black Flies Ontario: Season &amp; How to Stop Them | BuzzSkito"
+  },
+  {
+   "slug": "bugs-that-look-like-ticks",
+   "baselineCaImpr": 3846,
+   "baselineCtr": 0.83,
+   "baselinePos": 7.3,
+   "newRenderedTitle": "7 Bugs That Look Like Ticks &amp; Where They Turn Up | BuzzSkito"
+  },
+  {
+   "slug": "chigger-bites",
+   "baselineCaImpr": null,
+   "baselineCtr": null,
+   "baselinePos": null,
+   "newRenderedTitle": "Chigger Bites: Look-Alikes &amp; Do They Burrow? | BuzzSkito"
+  },
+  {
+   "slug": "deer-flies-horse-flies-ontario",
+   "baselineCaImpr": 6818,
+   "baselineCtr": 0.16,
+   "baselinePos": 6.7,
+   "newRenderedTitle": "Deer Fly vs Horse Fly: Wings, Bites &amp; Control | BuzzSkito"
+  },
+  {
+   "slug": "deer-tick-vs-dog-tick-canada",
+   "baselineCaImpr": 6861,
+   "baselineCtr": 0.1,
+   "baselinePos": 9.1,
+   "newRenderedTitle": "Deer Tick vs Dog Tick: Which Is It, Lyme or Not | BuzzSkito"
+  },
+  {
+   "slug": "dynatrap-canada-review",
+   "baselineCaImpr": 4272,
+   "baselineCtr": 1.08,
+   "baselinePos": 7.2,
+   "newRenderedTitle": "DynaTrap Review: What It Really Catches | BuzzSkito"
+  },
+  {
+   "slug": "horse-fly-and-deer-fly-bite-treatment",
+   "baselineCaImpr": 6079,
+   "baselineCtr": 0.25,
+   "baselinePos": 8.1,
+   "newRenderedTitle": "Horse Fly vs Deer Fly Bite: Why It Hurts | BuzzSkito"
+  },
+  {
+   "slug": "mosquito-dunks-canada-guide",
+   "baselineCaImpr": 19450,
+   "baselineCtr": 1.02,
+   "baselinePos": 6.9,
+   "newRenderedTitle": "Mosquito Dunks Canada: BTI Tablets, Where to Buy | BuzzSkito"
+  },
+  {
+   "slug": "mosquito-larvae-identification",
+   "baselineCaImpr": 6887,
+   "baselineCtr": 0.23,
+   "baselinePos": 7.5,
+   "newRenderedTitle": "Mosquito Larvae or Look-Alike? How to Kill Them | BuzzSkito"
+  },
+  {
+   "slug": "mosquito-season-gta-when-does-it-start",
+   "baselineCaImpr": 3418,
+   "baselineCtr": 0.47,
+   "baselinePos": 4.2,
+   "newRenderedTitle": "Mosquito Season Ontario: Start, Peak, End Dates | BuzzSkito"
+  },
+  {
+   "slug": "natural-mosquito-repellent-ontario",
+   "baselineCaImpr": 2403,
+   "baselineCtr": 0.54,
+   "baselinePos": 6.3,
+   "newRenderedTitle": "Natural Mosquito Repellent: Lemon Eucalyptus | BuzzSkito"
+  },
+  {
+   "slug": "no-see-ums-biting-midges-ontario",
+   "baselineCaImpr": 2023,
+   "baselineCtr": 0.35,
+   "baselinePos": 7.7,
+   "newRenderedTitle": "What Are No-See-Ums? Bites &amp; Control | BuzzSkito"
+  },
+  {
+   "slug": "tick-bite-vs-mosquito-bite",
+   "baselineCaImpr": 2183,
+   "baselineCtr": 1.19,
+   "baselinePos": 6.7,
+   "newRenderedTitle": "Tick Bite vs Mosquito Bite: Ticks Stay Attached | BuzzSkito"
+  },
+  {
+   "slug": "what-does-mouse-poop-look-like-canada",
+   "baselineCaImpr": 2732,
+   "baselineCtr": 0.55,
+   "baselinePos": 6.9,
+   "newRenderedTitle": "Mouse Poop: 3-6 mm, Pointed — Fresh or Old? | BuzzSkito"
+  }
+ ]
+}

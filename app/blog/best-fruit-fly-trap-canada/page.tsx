@@ -15,8 +15,8 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 const SLUG = 'best-fruit-fly-trap-canada'
 const DATE = '2026-07-21'
 const UPDATED = '2026-07-21'
-const TITLE = 'Best Fruit Fly Trap Canada 2026 — TERRO vs Katchy vs Sticky Ribbons'
-const META_TITLE = 'Best Fruit Fly Trap Canada 2026: TERRO vs Katchy'
+const TITLE = 'The 4 Best Fruit Fly Traps in Canada: Why a Scent Lure Beats UV and Sticky Traps'
+const META_TITLE = 'Best Fruit Fly Traps Canada: Scent Beats Light'
 
 const FAQS = [
   {
@@ -111,7 +111,7 @@ const FAQS = [
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'TERRO vs Katchy vs Zevo vs sticky ribbons — the best fruit fly traps you can actually buy in Canada, compared on lure science, refill economics, and the 2–3 week kill cycle. Updated 2026.',
+  description: 'Fruit flies hunt by fermentation smell, not light, so a vinegar-lure trap out-catches UV, plug-in and sticky traps. Four picks ranked for Canadian kitchens.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,

@@ -63,9 +63,9 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Mosquito Season Ontario: When They Come Out 2026',
+  title: 'Mosquito Season Ontario: Start, Peak, End Dates',
   description:
-    'Ontario mosquito season starts in late April above 10°C, peaks June–July, and ends in early October. Month-by-month GTA timeline and 5-spray schedule.',
+    'Ontario mosquito season starts late April above 10°C, peaks June–July, and mosquitoes go away by early October. Month-by-month GTA timeline and 5-spray plan.',
   canonical: `/blog/${POST.slug}`,
   type: 'article',
   publishedTime: POST.date,

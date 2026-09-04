@@ -17,9 +17,9 @@ const DATE = '2026-04-07'
 const UPDATED = '2026-07-12'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Tick Bite vs Mosquito Bite: 9-Point Chart + Lyme',
+  title: 'Tick Bite vs Mosquito Bite: Ticks Stay Attached',
   description:
-    'Mosquito bite: itchy welt in minutes, insect gone. Tick bite: painless, tick still attached — plus the 3–30 day bull’s-eye rash that signals Lyme.',
+    'Mosquitoes bite and fly off; a tick stays attached and painless. How to tell which bite you have, remove a tick safely, and spot the Lyme bull’s-eye rash.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,

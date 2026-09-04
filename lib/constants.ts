@@ -246,7 +246,7 @@ export const MOSQUITO_BLOGS = {
   supporting: [
     {
       slug: 'mosquito-season-gta-when-does-it-start',
-      title: 'When Does Mosquito Season Start in the GTA? (2026 Guide)',
+      title: 'When Does Mosquito Season Start and End in Ontario?',
       excerpt: 'Exact dates, temperature triggers, and peak mosquito activity windows for Toronto, Mississauga, Brampton, Oakville, Burlington, and Hamilton.',
       date: '2026-03-20',
     },

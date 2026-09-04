@@ -15,7 +15,7 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 const SLUG = 'black-flies-ontario-when-they-come-out'
 const DATE = '2026-04-26'
 const UPDATED = '2026-07-13'
-const TITLE = 'Black Flies in Ontario: When They Come Out and How to Stop Them'
+const TITLE = 'Black Flies in Ontario: When Black Fly Season Starts and How to Stop Them'
 const EXCERPT = 'Black fly season in Ontario peaks May through July. Learn when black flies come out, where they breed, why GTA properties near rivers and ravines are at risk, and how professional barrier spray controls them.'
 
 const FAQS = [
@@ -54,8 +54,8 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Black Flies in Ontario: GTA & Muskoka 2026 Dates',
-  description: 'Black flies are 1–5 mm biting flies that cut the skin. In Ontario they emerge mid-May at 13–15°C, peak in June, fade by mid-July. GTA + Muskoka dates.',
+  title: 'Black Flies Ontario: Season & How to Stop Them',
+  description: 'Black flies are 1–5 mm humpbacked flies that cut the skin, so bites bleed. Ontario black fly season runs mid-May to mid-July. Bite care and how to stop them.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,

@@ -13,8 +13,8 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 const SLUG = 'no-see-ums-biting-midges-ontario'
 const DATE = '2026-07-12'
 const UPDATED = '2026-07-12'
-const TITLE = 'No-See-Ums & Biting Midges in Ontario: Bites, Screens & Control'
-const META_TITLE = 'No-See-Ums Ontario: You Need 20 Mesh Screens'
+const TITLE = 'What Are No-See-Ums? Biting Midge Bites, Screens & Control in Ontario'
+const META_TITLE = 'What Are No-See-Ums? Bites & Control'
 
 const FAQS = [
   {
@@ -53,7 +53,7 @@ const FAQS = [
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'No-see-ums (biting midges) in Ontario: what they are, how their bites differ from mosquito bites, why they slip through window screens, when they swarm, and how to prevent and treat them. Updated 2026.',
+  description: 'No-see-ums are biting midges just 1–3 mm long. How their bites differ from mosquito bites, why they slip through screens, and how to stop them in Ontario.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,

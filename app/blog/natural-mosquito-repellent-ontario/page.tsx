@@ -13,7 +13,7 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 const SLUG = 'natural-mosquito-repellent-ontario'
 const DATE = '2026-04-26'
 const UPDATED = '2026-04-26'
-const TITLE = 'Natural Mosquito Repellent — What Actually Works in Ontario (2026)'
+const TITLE = 'Natural Mosquito Repellent — What Actually Works in Ontario'
 
 const FAQS = [
   {
@@ -75,8 +75,8 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Natural Mosquito Repellent: What Works, Ranked',
-  description: 'Natural mosquito repellent ranked: oil of lemon eucalyptus gives about 95% protection for 4-6 hours, soybean oil 1.5 hours, a patio fan cuts landings 60-80%.',
+  title: 'Natural Mosquito Repellent: Lemon Eucalyptus',
+  description: 'Oil of lemon eucalyptus: about 95% protection for 4-6 hours, the only botanical Health Canada rates near low-concentration DEET. Candles and bracelets do not.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
