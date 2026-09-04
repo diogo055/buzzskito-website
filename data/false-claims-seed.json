@@ -1,0 +1,484 @@
+{
+ "created": "2026-09-04",
+ "purpose": "Seed set for triaging the 157 unaudited pages that make hard legal/approval claims. Each entry is a claim VERIFIED FALSE against Health Canada, PMRA, EPA or a manufacturer label during the 2026-09-04 audit of the top 10 pages by traffic. Use as query vectors: embed these, then semantic-search every sentence on the unaudited pages for near neighbours, and hand the ranked output to a human. TRIAGE ONLY — the benchmark ceiling for grounding models is ~77% balanced accuracy, so roughly one judgement in four is wrong. Nothing this flags is proven false and nothing it clears is proven true.",
+ "sourceWorkflow": "wf_5aafd398-0e1",
+ "count": 119,
+ "claims": [
+  {
+   "page": "mosquito-bits-canada-vs-dunks",
+   "claim": "FAQ 'Are mosquito bits safe...': 'Health Canada approves BTI for use in drinking water reservoirs in some provinces' — no such approval exists; PMRA says the opposite about finished drinking water"
+  },
+  {
+   "page": "mosquito-bits-canada-vs-dunks",
+   "claim": "FAQ 'What is BTI': 'some provinces even approve it for treating drinking-water reservoirs' — same false claim, second instance"
+  },
+  {
+   "page": "mosquito-bits-canada-vs-dunks",
+   "claim": "Prose 'How Mosquito Bits Work': 'some provinces approve it for drinking water reservoirs' — same false claim, third instance"
+  },
+  {
+   "page": "mosquito-bits-canada-vs-dunks",
+   "claim": "Prose + FAQ 'Are mosquito bits legal in Canada': PMRA's Restricted-class rationale misquoted as 'because they must be applied only to the water where the larvae exist'. PMRA actually says Restricted products are those 'used to control black fly and mosquito larvae in aquatic situations where the flow of water is not confined to a small area' (2 places)"
+  },
+  {
+   "page": "mosquito-bits-canada-vs-dunks",
+   "claim": "Coverage claim '8-oz container treats 500–1000 sq ft' understates by roughly half — Summit's own label rate of 4 oz/1,000 sq ft gives ~2,000 sq ft in clean water (4 places: FAQ, Quick Answer, AwardRow copy, comparison table)"
+  },
+  {
+   "page": "mosquito-bits-canada-vs-dunks",
+   "claim": "'30-oz value pack treats 4–8 times the area' — it is ~4x (Summit: 8 oz treats over 2,000 sq ft, 30 oz over 8,000 sq ft) (2 places)"
+  },
+  {
+   "page": "mosquito-bits-canada-vs-dunks",
+   "claim": "'Lowe's Canada' listed as a current Canadian retailer in 5 places including the price table — the Lowe's banner no longer exists in Canada; all Lowe's-branded stores were converted to RONA by 29 Feb 2024"
+  },
+  {
+   "page": "mosquito-fogger-canada",
+   "claim": "CORE FALSE PREMISE: the page presented homeowner handheld fogging with pyrethrin fogging liquid as a legal, routine Canadian purchase. Health Canada's Re-evaluation Decision RVD2023-06 (Pyrethrins and Its Associated End-use Products, 2 March 2023) CANCELLED 'domestic handler applications using handheld and stationary foggers' and 'space spray uses on liquid domestic-class product labels', with 18-month to 3-year phase-outs. This is the same failure mode as the permethrin page."
+  },
+  {
+   "page": "mosquito-fogger-canada",
+   "claim": "'The classic options are Black Flag Fogging Insecticide, Repel Fogging Insecticide, and Burgess-brand fogging insecticide' — presented as the liquids a Canadian buyer should use. These are US EPA-registered products with no Canadian PCP registration."
+  },
+  {
+   "page": "mosquito-fogger-canada",
+   "claim": "'Cold/ULV electric foggers instead use a water-based concentrate that you dilute per the label (permethrin, deltamethrin, or pyrethrin concentrates)' — presented as homeowner guidance. Deltamethrin mosquito fogging is an operator/ULV commercial use; pyrethrins domestic handheld fogging is cancelled; permethrin's RVD2019-11 cancelled total release fumigating foggers and attic mistblower use, reduced residential yard rates, and limited indoor residential use to perimeter/spot/crack-and-crevice."
+  },
+  {
+   "page": "mosquito-fogger-canada",
+   "claim": "Retail price table row 'Local garden centre | $70–$130 | Fogging liquid: PMRA-registered | Best for legal Canadian liquid' — an affirmative claim that a PMRA-registered consumer fogging liquid is stocked at Canadian garden centres. Could not be sourced anywhere, and RVD2023-06 makes the underlying use a cancelled one."
+  },
+  {
+   "page": "mosquito-fogger-canada",
+   "claim": "Scarcity narrative: 'Canadian stock ... sells out fast in mid-summer', 'stock up before the July shortage', 'buy two or three bottles in spring', Key Facts row 'PMRA-registered fogging liquid less consistent'. The constraint is a registration/cancelled-use bar, not seasonal stock — materially misleading framing that told readers to stockpile a product they cannot lawfully buy."
+  },
+  {
+   "page": "mosquito-fogger-canada",
+   "claim": "AwardRow (Black Flag, Best Overall): 'Pair it with a PMRA-registered fogging insecticide' — instructs a purchase we cannot source in Canada for this equipment type."
+  },
+  {
+   "page": "mosquito-fogger-canada",
+   "claim": "Verdict: 'a $60–$90 propane fogger plus a bottle of registered fogging liquid is a smart, cheap thing to keep in the shed' — same false premise in the page's closing recommendation."
+  },
+  {
+   "page": "mosquito-fogger-canada",
+   "claim": "META DESCRIPTION carried the false claim: '... Best models plus which fogging liquid is PMRA-registered.' The page cannot identify a PMRA-registered fogging liquid for domestic handheld fogging, because that use is cancelled. Hero paragraph carried the same implication ('which fogging liquid is legal in Canada')."
+  },
+  {
+   "page": "mosquito-fogger-canada",
+   "claim": "Key Facts row 'Health Canada status: Fogging liquid must carry a PMRA / PCP registration number' — true but materially incomplete: a registration number alone is not sufficient when the use itself has been withdrawn."
+  },
+  {
+   "page": "best-cockroach-spray-canada",
+   "claim": "ADVION: the page said Advion is \"a professional-tier product\" whose Canadian access \"runs through Health Canada's PMRA class system — domestic class for consumers, commercial class for licensed applicators,\" which implies a legal Canadian commercial-class Advion exists. Health Canada's Pesticide Label Search returns ZERO records for any product named Advion — it is not registered in Canada in any class, for anyone."
+  },
+  {
+   "page": "best-cockroach-spray-canada",
+   "claim": "BORIC ACID (5 locations): the page repeatedly told Canadian consumers to buy and puff a registered boric acid DUST into cracks and voids, and said \"registered boric acid products remain a legitimate domestic-class option in Canada\" and \"registered boric acid dusts work the same way and are equally good.\" Health Canada Re-evaluation Decision RVD2016-01 cancelled ALL domestic-class boric acid dust, powder and granular formulations (last retail sale 22 Jul 2018, last allowable use 22 Jul 2019), retaining domestic boric acid only in enclosed bait stations and gel spot treatments. PMRA Label Search confirms no domestic-class boric acid dust is registered; the only registered pressurized boric acid dust is BASF's commercial Prescription Treatment Perma-Dust (Reg. No. 27023)."
+  },
+  {
+   "page": "best-cockroach-spray-canada",
+   "claim": "COMBAT: the top pick claimed Combat is \"a named brand you can actually find on a Canadian shelf\" and instructed readers to \"buy the Canadian-labelled pack.\" PMRA Label Search lists COMBAT ROACH KILLING SYSTEM (Reg. No. 26519, Clorox Canada) as HISTORICAL; no product named Combat is currently registered in Canada for cockroaches. There is no Canadian-labelled pack to buy."
+  },
+  {
+   "page": "best-cockroach-spray-canada",
+   "claim": "RAID PRODUCT NAME: \"Raid Ant & Roach Killer is sold through Canadian retail with a Canadian PCP-registered label\" — that is the US name. The Canadian registrations are Raid Ant, Roach & Earwig (Reg. No. 30355, 32434). On a page whose core advice is \"check the exact pack for a PCP number,\" naming a SKU that does not exist here defeats the check."
+  },
+  {
+   "page": "best-cockroach-spray-canada",
+   "claim": "ONTARIO COSMETIC BAN (5 locations): the page framed the exterior perimeter band as likely blocked by provincial cosmetic-pesticide rules. Ontario states its ban covers cosmetic use on lawns, vegetable and ornamental gardens, patios, driveways, parks and schoolyards, and does NOT restrict pesticides used against indoor pests or pests threatening health, safety or the structure of a home. A foundation band to stop insects entering a building is not the use the ban targets. The real controlling limit is the product's own Canadian label sites."
+  },
+  {
+   "page": "best-cockroach-spray-canada",
+   "claim": "BORDER SEIZURE: \"border officers can seize unregistered pesticides\" could not be sourced to Health Canada, CBSA or the PCPA text within this pass."
+  },
+  {
+   "page": "mosquito-repellent-guide-ontario-2026",
+   "claim": "IR3535 (15-20%) was listed under a heading reading 'Tier 1: Gold Standard (Health Canada-approved)' and described as 'less common in Canadian retail'. IR3535 does NOT appear among the personal insect repellent actives Health Canada lists as registered in Canada. This was the single highest-risk false approval claim on the page."
+  },
+  {
+   "page": "mosquito-repellent-guide-ontario-2026",
+   "claim": "2-Undecanone (BioUD) presented as an effective natural option 'less common in Canadian retail'. It is EPA-registered in the US only and is not on Health Canada's registered actives list."
+  },
+  {
+   "page": "mosquito-repellent-guide-ontario-2026",
+   "claim": "Citronella oil skin sprays listed as a real 30-60 minute personal repellent option. Health Canada's PMRA moved to phase out citronella-oil PERSONAL insect repellents after re-evaluation, and citronella is absent from Health Canada's current registered-actives list. (Candles/coils/torches remain registered as area repellents.)"
+  },
+  {
+   "page": "mosquito-repellent-guide-ontario-2026",
+   "claim": "Geraniol listed as a standalone 1-2 hour repellent option. Not a Health Canada-registered personal repellent active; only a specific lemon/camphor/geranium/eucalyptus/pine-needle blend is registered."
+  },
+  {
+   "page": "mosquito-repellent-guide-ontario-2026",
+   "claim": "'Oil of Lemon Eucalyptus (OLE / PMD, 30%)' and 'Repel Oil of Lemon Eucalyptus (30%)' presented as the Canadian product. Health Canada re-evaluation decision RVD2022-11 shows EVERY registered PMD personal repellent in Canada is 10% PMD. 30% is a US concentration."
+  },
+  {
+   "page": "mosquito-repellent-guide-ontario-2026",
+   "claim": "OLE duration given as '4-6 hours'. The Canadian Paediatric Society rates the Canadian 10% PMD product at about 2 hours against mosquitoes (5 against black flies). 4-6 hours is the US 30% OLE figure."
+  },
+  {
+   "page": "mosquito-repellent-guide-ontario-2026",
+   "claim": "Thermacell Patio Shield described as 'roughly a 20-foot (6 m) zone of protection' in four separate places. Thermacell's own spec for its fuel-powered repellers, Patio Shield included, is a 15-foot diameter zone / 225 sq ft. The 20-foot zone belongs to their larger rechargeable (LIV/E-series) line."
+  },
+  {
+   "page": "mosquito-repellent-guide-ontario-2026",
+   "claim": "'OFF Deep Woods (25-30% DEET)' as a product name. The OFF Deep Woods sold in Canada is 25% DEET on an 8-hour label (verified on canadiantire.ca)."
+  },
+  {
+   "page": "mosquito-repellent-guide-ontario-2026",
+   "claim": "DEET stated as giving '6-10 hours of protection' in four places. Canadian label claim is up to 8 hours; the Canadian Paediatric Society rates 30% DEET at 5-8 hours. The 10-hour top end is unsupported."
+  },
+  {
+   "page": "mosquito-repellent-guide-ontario-2026",
+   "claim": "'Older children can use higher concentrations more frequently.' False for 2-12 year olds: Health Canada holds the DEET ceiling at 10% all the way to age 12; only the frequency rises (to 3x daily). Concentration does not rise until after 12."
+  },
+  {
+   "page": "mosquito-repellent-guide-ontario-2026",
+   "claim": "'Health Canada does not recommend any chemical insect repellent for babies under 6 months.' Overbroad. Health Canada bars DEET and icaridin under 6 months, but explicitly states soybean-oil repellents and metofluthrin clip-on devices have NO age restrictions."
+  },
+  {
+   "page": "mosquito-repellent-guide-ontario-2026",
+   "claim": "'Pregnant women: Picaridin or DEET both Health Canada-approved during pregnancy.' Misattributed. Health Canada's repellent page says nothing about DEET/icaridin in pregnancy (only that pregnant women may wear permethrin-treated clothing). The pregnancy safety position belongs to PHAC's travel-medicine guidance (CATMAT)."
+  },
+  {
+   "page": "mosquito-repellent-guide-ontario-2026",
+   "claim": "'DEET still wins ... at 30%+ concentration.' Nothing above 30% is permitted for adult consumer sale in Canada per Health Canada."
+  },
+  {
+   "page": "mosquito-repellent-guide-ontario-2026",
+   "claim": "'CO2 traps are the one trap category with real evidence behind it.' Contradicts Health Canada, which lists 'odour-baited mosquito traps' among products that do not protect well against biting insects."
+  },
+  {
+   "page": "mosquito-repellent-guide-ontario-2026",
+   "claim": "Backyard fogger row (Cutter / Black Flag) offered as a Canadian buy with no regulatory caveat. In Canada the fogging insecticide must carry a Health Canada PCP number; the US Cutter and Black Flag fogging concentrates are EPA-registered only."
+  },
+  {
+   "page": "mosquito-repellent-guide-ontario-2026",
+   "claim": "'BTI Mosquito Dunks ($15 for a season supply)' and 'BTI Mosquito Dunks: $15/season' presented as current retail fact."
+  },
+  {
+   "page": "laser-mosquito-killer-photon-matrix-review",
+   "claim": "Tick FAQ told Canadian readers to use 'permethrin-treated clothing' with no distinction — PHAC states permethrin liquids/sprays for consumers to treat their own clothing are NOT approved in Canada; only factory pre-treated clothing is, for people over 16"
+  },
+  {
+   "page": "laser-mosquito-killer-photon-matrix-review",
+   "claim": "EPA claim: page said a device must 'hold scientific data substantiating its efficacy claims'. EPA is explicit that FIFRA requires NO safety or efficacy data to be submitted before distribution or sale"
+  },
+  {
+   "page": "laser-mosquito-killer-photon-matrix-review",
+   "claim": "Class 4 attribution: page said Intelligent Living reported Class 4 'citing EN 60825-1'. Intelligent Living describes the diode as IEC 60825-1 Class 4 and separately says NO approvals against EN 60825-1/CE, FDA or Chinese national standards have been published — the page implied a CE declaration exists"
+  },
+  {
+   "page": "laser-mosquito-killer-photon-matrix-review",
+   "claim": "Canadian regulatory framing: page repeatedly said only that there is 'no recognized Health Canada or CSA certification', and the ask-the-seller table told Canadians to 'ask instead for CSA or cUL marks'. That is the wrong instrument — CSA/cUL are electrical marks. Health Canada's Radiation Emitting Devices Regulations (SOR/2024-196, in force Oct 9 2025) require IEC 60825-1 classification and labelling on any laser product sold, leased, advertised or imported into Canada"
+  },
+  {
+   "page": "laser-mosquito-killer-photon-matrix-review",
+   "claim": "Handheld laser wands described twice as 'unregulated'. Health Canada considers Class 3B and Class 4 handheld portable lasers a danger to human health or safety and PROHIBITS their import, manufacture, advertising and sale under the Canada Consumer Product Safety Act"
+  },
+  {
+   "page": "laser-mosquito-killer-photon-matrix-review",
+   "claim": "CPSC recall serial range: page gave Executive as EX01444–EX01637. The CPSC notice says EX01444–EX01630"
+  },
+  {
+   "page": "laser-mosquito-killer-photon-matrix-review",
+   "claim": "CPSC recall model coverage: page named only Patriot/Patriot Plus and Executive. The recall covers five models — Independence, Executive, Commander, Patriot, and Patriot/Patriot Plus"
+  },
+  {
+   "page": "laser-mosquito-killer-photon-matrix-review",
+   "claim": "Quick Answer block (the speakable/SERP-facing summary) asserted in present tense that the Photon Matrix 'is best treated as a crowdfunded pre-order' and that a shipping product does not exist. The page's own later sections say mass production began August 16, 2026 and units are on sale"
+  },
+  {
+   "page": "laser-mosquito-killer-photon-matrix-review",
+   "claim": "Culex biting window given as 'dusk through the night'. CDC says the mosquitoes that spread West Nile bite at dawn as well as dusk — the omission understated the point the section was making"
+  },
+  {
+   "page": "laser-mosquito-killer-photon-matrix-review",
+   "claim": "Aedes aegypti row claimed it was 'found positive for West Nile in CDC surveillance'. Could not source that for aegypti; only Ae. albopictus turns up as an occasional secondary vector"
+  },
+  {
+   "page": "how-to-get-rid-of-ground-wasps-canada",
+   "claim": "Delta Dust described as a COMMERCIAL-class Canadian product 'restricted to licensed applicators'. Health Canada's PPID shows DELTADUST POWDER, PCP 33495, is RESTRICTED class — a tighter tier than commercial — and its ONLY registered Canadian use site is black-tailed prairie dog burrows, for fleas. There is no lawful Canadian wasp-nest use of Delta Dust by anyone, homeowner or licensed applicator. This appeared in 3 places (FAQ, body, comparison table)."
+  },
+  {
+   "page": "how-to-get-rid-of-ground-wasps-canada",
+   "claim": "Comparison table row 'Insecticidal dust — Delta Dust, Sevin — Commercial class — licensed applicators only — the professional method'. Neither product is a legal Canadian wasp dust. The commercial-class dust that IS registered for wasp nests in Canada is Drione Insecticide Dust, PCP 15255 (pyrethrins + piperonyl butoxide + silica aerogel)."
+  },
+  {
+   "page": "how-to-get-rid-of-ground-wasps-canada",
+   "claim": "'Canadian-label Raid Max Wasp & Hornet gives a longer straight-line jet' / 'Best Long-Range Jet' / 'liquid jet'. The only Raid Max wasp product with a current Canadian registration is Raid Max Wasp & Hornet FOAM Bug Killer 2 (PCP 30746) — a foam, not a jet."
+  },
+  {
+   "page": "how-to-get-rid-of-ground-wasps-canada",
+   "claim": "'Its straight jet reaches from roughly 5–6 metres' / 'up to about 6 m' / table cell 'Low (5–6 m stand-off)'. Home Depot Canada quotes the manufacturer as 'Sprays nests from 2 to 2.5 metres'; raid.ca states up to 3 m. The real long-reach Canadian can is the plain Raid Wasp & Hornet Killer Spray (PCP 29776), which S.C. Johnson lists at up to about 7.5 m."
+  },
+  {
+   "page": "how-to-get-rid-of-ground-wasps-canada",
+   "claim": "Table cell for the RESCUE! WHY Trap: 'Device, no registration needed'. Under PCPA s.2 a product made to ATTRACT a pest is a pest control product. Sterling International holds current DOMESTIC registrations for baited yellowjacket traps — PCP 35529, 35530, 35531 (heptyl butyrate). Baited wasp traps sold here are registered products, not unregulated devices."
+  },
+  {
+   "page": "how-to-get-rid-of-ground-wasps-canada",
+   "claim": "'no Canadian extension or public-health source recommends it [boiling water]' and table cell 'Legal but universally unrecommended'. The Province of British Columbia's 'Managing Yellow Jacket Pests' page tells homeowners they can 'apply pyrethrins spray or pour several gallons of boiling water into the nest.'"
+  },
+  {
+   "page": "how-to-get-rid-of-ground-wasps-canada",
+   "claim": "'Wilson, Canadian-label Raid, Doktor Doom, and Knockdown all carry one [a PCP number]' — stale as to Knockdown: both Knockdown wasp/hornet cans (KD130P PCP 30087, KD131P PCP 30086) are cancelled registrations."
+  },
+  {
+   "page": "mosquito-fogger-canada",
+   "claim": "THE AUDITOR MISQUOTED THE REGULATOR, in quotation marks, in FOUR places (FAQ answer, Quick Answer bullet, the new red regulatory box, and the body prose). The page rendered RVD2023-06 as cancelling \"space spray uses on liquid domestic-class product labels\". Health Canada's actual wording is \"space spray uses on domestic-class liquid product labels\" — 'domestic-class' and 'liquid' are transposed. The substance was right, but a licensed operator presenting a scrambled string inside quotation marks as a verbatim regulator quote is precisely the precision failure this pass exists to catch, and it appeared in the most prominent red-bordered legal notice on the page."
+  },
+  {
+   "page": "mosquito-fogger-canada",
+   "claim": "THE CLOSING VERDICT STILL RECOMMENDED THE CANCELLED USE. The auditor rewrote most of the verdict paragraph but left its final recommendation standing: 'The best setup for most GTA homeowners is both: a seasonal barrier program for the baseline, and a fogger on the shelf for event-day touch-ups.' Three sentences after correctly telling the reader Health Canada has cancelled domestic handheld-fogger use of pyrethrin liquid and that the US liquids are not registered here, the page's parting advice was still to keep a fogger on the shelf for homeowner touch-up fogging. Internally contradictory, and it left the page's single most quotable line still endorsing the withdrawn use."
+  },
+  {
+   "page": "thermacell-canada-where-to-buy",
+   "claim": "ACTIVE INGREDIENT — the biggest error on the page. It asserted allethrin as the active ingredient for every model, in eight places including the Key Facts table, the hero subtitle, the answer capsule and four FAQs. Thermacell's own FAQ: 'Our rechargeable platform repellent cartridges use metofluthrin as the repellent active ingredient' and 'the fuel powered repellers use allethrin' (or prallethrin). Health Canada RD2019-03 registered the Canadian fuel-powered line as 1R-trans prallethrin, not allethrin. So the E55/E90/EX90 the page recommends most heavily are metofluthrin devices and were labelled allethrin throughout."
+  },
+  {
+   "page": "thermacell-canada-where-to-buy",
+   "claim": "'Safe for: Humans, pets, pollinators (when used as directed)' in the Key Facts table — contradicted by Health Canada ERC2015-01, which states metofluthrin 'is highly toxic to aquatic invertebrates, fish, and bees.' The page also contradicted itself: an FAQ two screens down said allethrin IS toxic to bees."
+  },
+  {
+   "page": "thermacell-canada-where-to-buy",
+   "claim": "'The vapour is non-toxic to skin contact and breathing' — overstated for a registered pesticide whose Canadian label carries a 'Caution Poison' hazard statement."
+  },
+  {
+   "page": "thermacell-canada-where-to-buy",
+   "claim": "'Stocked at ... Lowe's Canada' — the Lowe's banner in Canada was sunset in February 2024 and every store converted to RONA+. There is no Lowe's Canada to buy anything at."
+  },
+  {
+   "page": "thermacell-canada-where-to-buy",
+   "claim": "'Thermacell uses identical refill formulations across North America' and 'Health Canada and the EPA both register allethrin under similar standards' — the Canadian fuel line is registered under 1R-trans prallethrin (RD2019-03) while Thermacell describes its fuel repellers as 'd-allethrin or Prallethrin'. Same form factor, not the same chemistry."
+  },
+  {
+   "page": "thermacell-canada-where-to-buy",
+   "claim": "'Thermacell's allethrin vapour does work on blackflies' stated as fact — blackflies are not on the Canadian registered claim. RD2019-03 registers the device to 'kill and repel mosquitos'. A licensed operator should not assert an off-label pest claim."
+  },
+  {
+   "page": "thermacell-canada-where-to-buy",
+   "claim": "'we tested it across a full GTA season in our Thermacell E90 Canada review' — a fabricated testing claim. BuzzSkito does not test consumer products. Also the Related Reading label 'Full Season Test'."
+  },
+  {
+   "page": "thermacell-canada-where-to-buy",
+   "claim": "'Effective area: ~75 sq m (~800 sq ft) in still air' — inflated. At Health Canada's own 4.5 m the area is ~64 sq m (~685 sq ft)."
+  },
+  {
+   "page": "thermacell-canada-where-to-buy",
+   "claim": "'you'd need 4–8 units' for a 3,000–10,000 sq ft yard, and '4+ units' for 5,000 sq ft — arithmetic that doesn't follow from any coverage figure on the page. At ~700 sq ft per unit the real range is roughly 4–15, and ~7 for a 5,000 sq ft yard."
+  },
+  {
+   "page": "thermacell-canada-where-to-buy",
+   "claim": "A five-retailer x three-model retail PRICE TABLE captioned 'Prices accurate as of July 2026', with 30 specific dollar figures down to the cent ($39.99, $37.97, $84.95...). Unverifiable, stale, and presented as current fact."
+  },
+  {
+   "page": "best-wasp-nest-spray-canada",
+   "claim": "FALSE: 'Ortho Home Defense Hornet & Wasp Jet' presented as a Canadian PCP-registered pick ('Legal - PCP-registered'). Health Canada's pesticide label database has NO Ortho Home Defense wasp registration. The Ortho wasp aerosols registered in Canada are ORTHO WASP B GON MAX WASP KILLER SPRAY I (PCP 33723) and FOAM I (PCP 33724), Scotts Canada Ltd. Ortho Home Defense Hornet & Wasp Killer 7 is a US EPA product. The page was recommending a US grey-market product as a Canadian-legal pick - the exact error this audit exists to catch."
+  },
+  {
+   "page": "best-wasp-nest-spray-canada",
+   "claim": "FALSE: 'Longest reach of the Canadian picks' for the Ortho pick. Scotts Canada rates Wasp B Gon MAX foam at 2-2.5 m (6-8 ft); SC Johnson rates the Canadian Raid can at up to 5.7 m. The Ortho SKU is the SHORTEST-reaching pick on the page, not the longest."
+  },
+  {
+   "page": "best-wasp-nest-spray-canada",
+   "claim": "WRONG: 'Canadian jets typically throw roughly 2 to 6.7 metres' (4 places). The 6.7 m top end is 22 ft, which is the US Raid Wasp & Hornet Killer 33 figure, not a Canadian label figure. Canadian-registered range is roughly 2 m to 5.7 m."
+  },
+  {
+   "page": "best-wasp-nest-spray-canada",
+   "claim": "WRONG: reach table row 'Raid Wasp & Hornet Killer - 22 ft'. 22 ft is the US Raid 33 spec. SC Johnson's Canadian page states up to 5.7 m for Raid Wasp & Hornet Bug Killer 7 (PCP 29776)."
+  },
+  {
+   "page": "best-wasp-nest-spray-canada",
+   "claim": "WRONG: 'Raid rates its wasp and hornet cans to 32,500 volts' (2 places). SC Johnson rates the CANADIAN Raid Wasp & Hornet can electrically non-conducting up to 41,000 volts; 32,500 V is the US Raid Wasp & Hornet Killer 33 figure."
+  },
+  {
+   "page": "best-wasp-nest-spray-canada",
+   "claim": "WRONG: professional-products table and FAQ said PT Wasp-Freeze II, Delta Dust and Tempo Dust are 'commercial class' in Canada, implying they are legally available to certified applicators here. All three return ZERO records in Health Canada's pesticide label database - they are not registered in Canada at all. (Demand CS PCP 27428 and Tempo 20 WP PCP 25673 ARE registered, commercial class.)"
+  },
+  {
+   "page": "best-rat-trap-canada",
+   "claim": "Victor Electronic Rat Trap stated as delivering an '8,000-volt shock' in 7 places (Quick Answer, 2 FAQs, AwardRow copy, body prose, comparison table, model-number table) — Victor's own M241 support FAQ says 6,000 volts"
+  },
+  {
+   "page": "best-rat-trap-canada",
+   "claim": "'Electronic traps are indoor-only: no consumer electronic rat trap is rated for rain or snow' (FAQ + Outdoors section) — Victor sells the Zapper Max Outdoor Electronic Rat Trap (M460UC), marketed as weather-resistant and water-resistant to 1 m for indoor and outdoor use"
+  },
+  {
+   "page": "best-rat-trap-canada",
+   "claim": "US consumer bait stations described as containing 'bromethalin, cholecalciferol and zinc phosphide' — EPA states the consumer-market ready-to-use stations contain one of only three actives: bromethalin, chlorophacinone or diphacinone"
+  },
+  {
+   "page": "best-rat-trap-canada",
+   "claim": "New York State bills 'A.10193 and S.3046 would bar use in government buildings' (2 places) — S.3046 is the state-buildings bill; A.10193 would ban import, manufacture, sale, distribution and use statewide"
+  },
+  {
+   "page": "best-rat-trap-canada",
+   "claim": "Ultrasonic repellers: 'Health Canada does not evaluate or register these devices for efficacy because they're not pesticides' — sound-repelling devices ARE prescribed devices under Schedule 1 of the Pest Control Products Regulations and do carry PMRA registrations (e.g. Tomcat Ultrasonic Rodent Repeller PCP 33070); what is true is that the registry records them as 'device, no guarantee required', i.e. no efficacy assessed"
+  },
+  {
+   "page": "best-rat-trap-canada",
+   "claim": "Predator-scent products called 'devices' that 'Health Canada does not register for efficacy' — predator urine is not a device, and the registry lists no predator-scent product registered in Canada for rats or mice at all"
+  },
+  {
+   "page": "best-rat-trap-canada",
+   "claim": "Glue-trap ordinances: 'Ojai and Culver City in late 2024' — Ojai adopted its ordinance in March 2024"
+  },
+  {
+   "page": "best-rat-trap-canada",
+   "claim": "Canadian SGARs described as 'restricted to licensed commercial applicators' (3 places) — they are commercial class, which also covers agricultural producers, not solely licensed applicators"
+  },
+  {
+   "page": "mosquito-repellent-guide-ontario-2026",
+   "claim": "THE AUDIT INTRODUCED A NEW FALSE CLAIM. In five places the corrected page asserted that 30% oil-of-lemon-eucalyptus and its ~6-hour duration are 'stronger US formulations' not available registered in Canada. That is false. Health Canada registers TWO distinct lemon-eucalyptus actives, which the auditor conflated: synthetic p-menthane-3,8-diol (PMD), where RVD2022-11 does cap Canadian registrations at 10%, AND 'oil of lemon eucalyptus, hydrated, cyclized' (Citriodiol), a separate line item on Health Canada's own actives list. Druide's Lemon Eucalyptus repellent is 30.0% Citriodiol, MADE IN CANADA, registered with Health Canada, claiming ~6 hours. So a 30% lemon-eucalyptus bottle is emphatically not automatically a US-only product."
+  },
+  {
+   "page": "mosquito-repellent-guide-ontario-2026",
+   "claim": "Compounding it, the auditor wrote 'Brands: OFF Botanicals, Druide' immediately after asserting every registered Canadian product is 10% PMD - naming as its own example the one brand that disproves the sentence. Self-contradictory on the page."
+  },
+  {
+   "page": "mosquito-repellent-guide-ontario-2026",
+   "claim": "PCP #18158 for Summit Mosquito Dunks does not survive verification and I removed it. The auditor asserted this registration number as fact in two places. Every search hit for '18158' traces back to buzzskito.ca's own blog - circular self-citation, not a primary source. The only genuine Canadian Mosquito Dunks label I could obtain (Summit Chemical Co. registrant, archived by the City of Winnipeg) reads 'REG. NO. 28888 P.C.P. ACT'. A licensed operator asserting a specific wrong PCP number is exactly the liability this pass exists to remove."
+  },
+  {
+   "page": "mosquito-repellent-guide-ontario-2026",
+   "claim": "The citronella entry was one-sided. It said PMRA 'moved to phase out' citronella personal repellents 'following re-evaluation' without noting that Health Canada reconsidered after public feedback in 2014 and established a new essential-oil framework in DIR2017-02. The conclusion (citronella is not on the current registered-actives list) is correct and verified, but the history as written implied a settled ban."
+  },
+  {
+   "page": "mosquito-bits-canada-vs-dunks",
+   "claim": "AUDITOR OVERREACH (fixed): the corrected legality passage declared the PMRA's confined-water wording 'the whole answer' for why consumer BTI packs are legal. The SAME fact sheet gives a SECOND, different ground in its 'role of the PMRA' section — 'since they must be applied only in the water where the larvae exist' — which would apply to a rain barrel exactly as much as to a creek. Building a load-bearing legality conclusion on one rationale while the source supplies a contradicting one is an overreach on a licensed operator's site."
+  },
+  {
+   "page": "mosquito-bits-canada-vs-dunks",
+   "claim": "AUDITOR REPORT MISCHARACTERIZATION: the auditor reported the ORIGINAL wording ('because they must be applied only to the water where the larvae exist') as a 'misquote' of the PMRA. It is not a misquote — it is verbatim from the same fact sheet's PMRA-role section. The fact sheet states both rationales. No false claim reached the page from this, but the auditor's stated grounds for the edit were wrong."
+  },
+  {
+   "page": "mosquito-bits-canada-vs-dunks",
+   "claim": "AUDITOR-INTRODUCED OVERSTATEMENT (fixed): new Where-to-Buy table cell read 'Stocks Dunks; sold out nationally at the June 2026 peak (CBC)'. The CBC story supports one Home Hardware on Bank Street in Ottawa plus that company's warehouse — not a national sell-out. Home Hardware currently lists Mosquito Dunks online. The page's own prose states this correctly; only the new table cell overstated it."
+  },
+  {
+   "page": "mosquito-bits-canada-vs-dunks",
+   "claim": "AUDITOR-SHARPENED CLAIM I COULD NOT SUPPORT (fixed): Quick Answer bullet was changed to 'Both use BTI ..., registered for sale in Canada by Health Canada's PMRA'. 'Both' asserts that Mosquito Bits specifically holds a Canadian registration. I could not verify that — see notes; the complete PMRA label database contains no product named 'Mosquito Bits', and the Mosquito Bits SDS carries only a US EPA number."
+  },
+  {
+   "page": "bug-zappers-canada-do-they-work",
+   "claim": "FALSE REGULATORY CLAIM: 'Canada has no equivalent pre-market efficacy check either' and 'A zapper is not that [a pest control product]' — a bug zapper IS a prescribed device under Schedule 1 item 2 of the Pest Control Products Regulations and is only sellable unregistered if it meets Schedule 2"
+  },
+  {
+   "page": "bug-zappers-canada-do-they-work",
+   "claim": "FALSE REGULATORY CLAIM: 'no regulator has ever told a bug zapper manufacturer to prove it reduces mosquitoes, because none of them claims to reduce mosquitoes in the fine print' — Canada requires the outdoor label to state the device does NOT control mosquitoes"
+  },
+  {
+   "page": "bug-zappers-canada-do-they-work",
+   "claim": "'Lowe's Canada ($30–$130)' listed as a place to buy in Canada — Lowe's exited Canadian retail; the last stores became RONA+ in Feb 2024"
+  },
+  {
+   "page": "bug-zappers-canada-do-they-work",
+   "claim": "'University of Notre Dame (2017)' — AMCA attaches no year to the Notre Dame trials and the date is unsourced"
+  },
+  {
+   "page": "bug-zappers-canada-do-they-work",
+   "claim": "'0.22% of 13,789 zapped insects were mosquitoes' — the 31 insects (0.22%) were mosquitoes AND other biting flies, not mosquitoes alone"
+  },
+  {
+   "page": "bug-zappers-canada-do-they-work",
+   "claim": "'0.13% to 4%' presented as the full published range — contradicted by the page's own AMCA figures of 4.1% and 6.4%"
+  },
+  {
+   "page": "bug-zappers-canada-do-they-work",
+   "claim": "'the patent … a fluorescent ultraviolet tube in front of an electrified wire grid … granted in 1934' — the 1934 Folmer/Chapin device used incandescent bulbs; fluorescent UV tubes came later"
+  },
+  {
+   "page": "bug-zappers-canada-do-they-work",
+   "claim": "'Mosquito Magnet … 70–90% population reduction over 6–8 weeks' — unsupported; manufacturer claims noticeable results in 7–10 days and reduction over ~4 weeks, and AMCA says 'neither study could demonstrate any meaningful reduction in biting pressure attributable to these devices'"
+  },
+  {
+   "page": "bug-zappers-canada-do-they-work",
+   "claim": "'Thermacell creates a 4.5m mosquito-free bubble' / '70–95% in 4.5m' — overclaim; 15 ft (4.5 m) is a manufacturer-rated repellency zone, not a mosquito-free guarantee"
+  },
+  {
+   "page": "bug-zappers-canada-do-they-work",
+   "claim": "Canadian Tire described as stocking the 'Flowtron + Stinger lineup' and as the source for all five ranked units — Flowtron could not be confirmed at Canadian Tire"
+  },
+  {
+   "page": "bug-zappers-canada-do-they-work",
+   "claim": "'moths … pollinate ~80% of nighttime flowering plants' — no source found for the 80% figure"
+  },
+  {
+   "page": "bug-zappers-canada-do-they-work",
+   "claim": "'the Audubon Society formally recommends against residential outdoor UV zappers' (5 places) — no such Audubon position could be sourced"
+  },
+  {
+   "page": "bug-zappers-canada-do-they-work",
+   "claim": "'more than 500 US dengue cases this year' attributed to CDC surveillance — not confirmable from CDC"
+  },
+  {
+   "page": "bug-zappers-canada-do-they-work",
+   "claim": "Advertised grid voltage ceiling given as 4,500 V — retail listings go to at least 5,600 V (Flowtron 40W)"
+  },
+  {
+   "page": "bug-zappers-canada-do-they-work",
+   "claim": "Author name 'Kristin Healy' — the LSU/AMCA entomologist is Kristen Healy"
+  },
+  {
+   "page": "laser-mosquito-killer-photon-matrix-review",
+   "claim": "NEW ERROR THE AUDITOR MISSED AND PARTLY PROPAGATED — the shipping claim. The page asserted in five places that first shipments 'started' or 'began' in August 2026, attributed to CGTN. I fetched the CGTN article: it says mass production began in August with 'the first batch of units expected to ship later this month' — expected, not started. No source confirms any unit has been delivered, the manufacturer's own August 9 anti-counterfeit notice said no genuine units had shipped, and new orders carry a 120-day estimate. The worst instance was the FAQ 'Has the Photon Matrix actually started shipping yet?' answered flatly 'Yes, as of August 2026.' The auditor not only left this in place but wrote a fresh version of it into the new key-facts row ('first shipments began August 2026')."
+  },
+  {
+   "page": "laser-mosquito-killer-photon-matrix-review",
+   "claim": "Regulatory scope overstated in the auditor's own new text. Six places said the Radiation Emitting Devices Regulations apply to a laser product 'sold, leased, advertised or imported into Canada'. I checked the Act and the Gazette text: REDA s.4 prohibits sale, lease and import of a non-compliant device; the Regulations' own scope is 'imported into or sold or leased in Canada'. Advertising is dealt with separately under s.5 (false, misleading or deceptive labelling, packaging and advertising) and is not part of the classification-and-labelling duty. Attaching 'advertised' to that duty overstates the instrument — a small error, but the same species of error as the one this pass exists to catch."
+  },
+  {
+   "page": "laser-mosquito-killer-photon-matrix-review",
+   "claim": "Attribution stretched on the laser class. The auditor wrote that Intelligent Living 'describes the internal diode as an IEC 60825-1 Class 4 laser'. The article actually says 'Photon Matrix uses a Class 4 laser, the highest classification for consumer-visible lasers' — it neither names IEC 60825-1 as the classifying standard for that figure nor attributes the class to the diode specifically (laser class is a product-level classification, not a component one)."
+  },
+  {
+   "page": "laser-mosquito-killer-photon-matrix-review",
+   "claim": "True claims deleted for lack of a source. The auditor stripped Home Depot Canada and Costco from the Thermacell availability claims and escalated the surviving AwardRow line as an owner decision. I checked all three retailers directly: canadiantire.ca, homedepot.ca and costco.ca each list Thermacell repellers and refills right now. The claim was true; softening it removed accurate buying guidance and left the prose contradicting the AwardRow immediately above it."
+  },
+  {
+   "page": "thermacell-canada-where-to-buy",
+   "claim": "NEW FALSE CLAIM INTRODUCED BY THE AUDITOR — the worst outcome this pass was supposed to catch, and it is safety-relevant. The corrected DEET/picaridin FAQ asserted that factory pre-treated permethrin clothing is approved by Health Canada 'for people over 16 including pregnant and breastfeeding women.' PHAC says the opposite about the last two words: pre-treated clothing 'has been approved for people over the age of 16, including pregnant women' — and it specifically advises AGAINST wearing it while nursing, 'as it places infants in close contact with the product.' The audit brief itself only ever said '16+'; the words 'and breastfeeding' were added during the correction pass and invert the regulator's advice for the single most vulnerable reader. Fixed."
+  },
+  {
+   "page": "thermacell-canada-where-to-buy",
+   "claim": "FABRICATED VERBATIM QUOTATION attributed to the manufacturer. The page put inside quotation marks, twice presented as Thermacell speaking: 'Thermacell products are for outdoor use only and should not be used in enclosed spaces.' That sentence does not appear in Thermacell's support material. What Thermacell actually says is 'Thermacell products are not intended for indoor use.' The substance was right, the quote was invented — which on a licensed operator's site is the same category of problem as the permethrin retail claim that started this audit. Fixed to the real wording."
+  },
+  {
+   "page": "thermacell-canada-where-to-buy",
+   "claim": "UNVERIFIED CHEMICAL ASSERTION in the Liv comparison row: 'Metofluthrin (US EPA-registered)'. Neither Thermacell's LIV product page, its LIV support page, nor its series page states the LIV active ingredient, and I could not source it. Plausible, but this page is being scrubbed precisely for plausible-sounding unsourced specifics. Softened."
+  },
+  {
+   "page": "how-to-get-rid-of-ground-wasps-canada",
+   "claim": "THE CORRECTION PASS INTRODUCED A NEW FALSE CLAIM, and it is the one thing here that needed catching. In four places the page asserted that S.C. Johnson lists the plain Raid Wasp & Hornet Killer Spray, PCP 29776, at 'up to about 7.5 metres'. S.C. Johnson's OWN Canadian product page for that exact registration — raid.ca/en-ca/products/spray/wasp-hornet-bug-killer-7 — states 5.7 metres. The 7.5 m number comes from an Amazon.ca listing TITLE ('Sprays Up To 7.5M'), not from the manufacturer. Attaching a retail-listing figure to a specific PCP number and crediting it to the manufacturer is precisely the false-precision failure this pass exists to prevent, and it was worse than the error it replaced because it read as freshly sourced. Locations: FAQ line 52, whichToBuy line 179, body line 225, comparison table line 250."
+  },
+  {
+   "page": "how-to-get-rid-of-ground-wasps-canada",
+   "claim": "FALSE EXCLUSIVITY on an availability claim, left in place by the auditor. The whichToBuy read 'Real stand-off distance means a straight-jet can — on the Canadian market that is the plain Raid Wasp & Hornet Killer Spray', asserting it is the only such can. It is not: Premier Tech — the maker of the page's own top pick — holds current DOMESTIC registration PCP 30192, WILSON ONESHOT WASP & HORNET LONG SHOT, Full Registration, same d-phenothrin/tetramethrin pair, with HORNET/WASP/YELLOWJACKET NESTS as registered use sites."
+  },
+  {
+   "page": "best-rat-trap-canada",
+   "claim": "THE AUDITOR INTRODUCED A NEW UNSUPPORTABLE CLAIM. Having correctly removed the unsourced 'kills in under 5 seconds', the auditor replaced it in 5 places with a two-minute shock duration attributed to Victor with new confidence — 'Victor's own published spec', 'Victor's own published specifications for the M241', 'Both figures are Victor's own published specifications'. I could not find a shock duration published by Victor anywhere. I read all 11 questions on the M241 support FAQ (the page that DOES publish the 6,000 V figure): it gives voltage and battery life, and no duration. The M241 product page, the M241B page, the CM241B page and the M241 support landing page all state no duration either. The 'applies shock for 2 minutes' language appears only in third-party retailer listings (Solutions Stores, Nexles, Jackson's Hardware, Amazon). Swapping one unsourced kill-speed figure for another and upgrading it to a named-manufacturer citation is precisely the failure mode this pass exists to catch."
+  },
+  {
+   "page": "best-wasp-nest-spray-canada",
+   "claim": "OVERCLAIM introduced by the correction pass: 'Canadian labels state roughly 2-5.7 m' (3 places - lines 170, 298, 348). The 5.7 m figure could not be read off a label: PMRA exposes no label PDF for PCP 29776 and raid.ca returns HTTP 429 to automated fetching. The 2-2.5 m figure comes from Scotts Canada's product page, not a label. Asserting both are LABEL-PRINTED figures is a stronger claim than the evidence supports."
+  },
+  {
+   "page": "best-wasp-nest-spray-canada",
+   "claim": "UNSUPPORTED claim introduced by the correction pass: professional-kit dusts row read 'Canada: these brands not registered - technicians use other registered dusts'. A PMRA label search on 'dust' returns essentially no currently-registered insecticidal dust for structural/wasp work (dust entries are overwhelmingly HISTORICAL; the one registered hit is an ant/roach pyrodust, PCP 13074). The page had no basis for asserting Canadian technicians have registered dust alternatives."
+  },
+  {
+   "page": "best-wasp-nest-spray-canada",
+   "claim": "AUDITOR REPORT OVERSTATEMENT (report only, page wording is fine): the auditor's report says Health Canada has 'NO Ortho Home Defense wasp registration'. PMRA in fact lists ORTHO HOME DEFENSE MAX HORNET & WASP ELIMINATOR FOAM (PCP 28205) and ORTHO HOME DEFENSE MAX, HORNET & WASP ELIMINATOR SPRAY (PCP 30557) - but both are HISTORICAL, and neither is the 'Hornet & Wasp Killer 7' the page names. The published on-page wording names Killer 7 specifically, so no page edit was needed."
+  },
+  {
+   "page": "bug-zappers-canada-do-they-work",
+   "claim": "UNVERIFIABLE PRECISION INTRODUCED BY THE AUDITOR: the auditor replaced an unverifiable dengue claim ('more than 500 US dengue cases this year') with a differently precise one I could not confirm — '3,798 US dengue cases in 2024, 97% of them travel-associated, a 359% increase over the 2010-2023 annual average (MMWR, May 2026)'. CDC's dengue facts-and-stats, historic-data and current-year pages carry none of these figures, and the cited MMWR issue could not be located. Swapping one unsourceable number for a more specific unsourceable number with a named citation is worse than the original, not better — a precise cite invites trust it has not earned."
+  },
+  {
+   "page": "bug-zappers-canada-do-they-work",
+   "claim": "OVERGENERALIZED REGULATORY CLAIM IN TWO PLACES: the auditor's own correction was stated precisely in the main regulated section and in the Quick Answer ('sold in Canada without registration must carry...'), but two other placements dropped the qualifier and asserted flatly that 'Canadian law requires outdoor units sold here to state on the label that they do not control mosquitoes'. The Schedule 2 label statement is a condition of the exemption that allows sale WITHOUT registration — a registered device would not carry it. Stated unqualified, it is a false description of what the law requires."
+  }
+ ]
+}
