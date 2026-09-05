@@ -127,6 +127,7 @@ export default function BlackFliesOntarioPage() {
           <li><strong>Mid-July onward:</strong> Most black flies have completed their adult stage. Pressure drops to background levels for the rest of the summer.</li>
         </ul>
         <p>This is very different from <Link href="/blog/mosquito-season-gta-when-does-it-start" className="text-brand-700 underline">mosquito season in the GTA</Link>, which builds slowly through May and peaks in July and August. Black flies are an early-summer problem; mosquitoes are a mid-to-late-summer problem. Many homeowners who book their first <Link href="/mosquito-control" className="text-brand-700 underline">professional mosquito treatment</Link> in mid-May get the dual benefit of cutting black fly pressure during the peak weeks.</p>
+        <p>The end of black fly season does not mean the end of biting flies. As black fly numbers collapse in early July, their much larger relatives in the same order take over — deer flies and horse flies peak from late June through August, on hot, still, sunny afternoons, in exactly the wooded and waterside spots black flies just vacated. So if something drew blood in your yard in late July, it was almost certainly not a black fly, and <Link href="/blog/deer-flies-horse-flies-ontario" className="text-brand-700 underline">telling a deer fly from a horse fly</Link> comes down to two things you can see: the banding on the wings and the pattern in the eyes.</p>
 
         <h2>Black Flies vs Mosquitoes: How to Tell the Difference</h2>
         <p>Both are small biting insects, but the differences matter when deciding how to deal with them.</p>
@@ -209,6 +210,7 @@ export default function BlackFliesOntarioPage() {
           <li><strong>Calm the itch.</strong> An after-bite itch relief product, hydrocortisone cream, or an oral antihistamine can take the edge off the itch and swelling. <BuyLink tag={AMZ_TAG} search="after bite itch relief">Check after-bite itch relief on Amazon.ca →</BuyLink></li>
           <li><strong>Do not scratch.</strong> Scratching reopens the wound and is the main way black fly bites become infected. Keep it covered if you cannot leave it alone.</li>
         </ul>
+        <p>One thing worth checking before you treat: if the wound is much bigger than a pinprick and stung sharply the instant it landed, it may not be a black fly bite at all. Horse flies and deer flies cut the skin the same way, but at several times the size, so they bleed more, raise a wider welt, and take longer to settle — <Link href="/blog/horse-fly-and-deer-fly-bite-treatment" className="text-brand-700 underline">treating a horse fly or deer fly bite</Link> follows the same wash-cool-soothe order but with different healing timelines and infection signs to watch for.</p>
 
         <h3>Signs of Infection or Allergy — When to See a Doctor</h3>
         <p>Most black fly bites are harmless and heal on their own, but watch for these warning signs and seek medical care if they appear:</p>

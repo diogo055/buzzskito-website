@@ -1,0 +1,2530 @@
+[
+ {
+  "donor": "natural-mosquito-repellent-ontario",
+  "donorImpr": 5617,
+  "donorOut": 11,
+  "cluster": "mosquito",
+  "candidates": [
+   {
+    "slug": "mosquito-repellent-bracelets-canada",
+    "impr": 820,
+    "pos": 7.85,
+    "inbound": 0,
+    "overlap": 2,
+    "sameCluster": true
+   },
+   {
+    "slug": "mosquito-repellent-stickers-patches-canada",
+    "impr": 266,
+    "pos": 11.49,
+    "inbound": 0,
+    "overlap": 2,
+    "sameCluster": true
+   },
+   {
+    "slug": "why-do-mosquito-bites-itch",
+    "impr": 3986,
+    "pos": 9.41,
+    "inbound": 2,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "male-vs-female-mosquito",
+    "impr": 1447,
+    "pos": 8.98,
+    "inbound": 1,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "mosquito-bite-vs-spider-bite",
+    "impr": 839,
+    "pos": 7.85,
+    "inbound": 4,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "mosquito-coils-canada",
+    "impr": 656,
+    "pos": 8.97,
+    "inbound": 1,
+    "overlap": 1,
+    "sameCluster": true
+   }
+  ]
+ },
+ {
+  "donor": "horse-fly-and-deer-fly-bite-treatment",
+  "donorImpr": 5158,
+  "donorOut": 5,
+  "cluster": "flies",
+  "candidates": [
+   {
+    "slug": "deer-flies-horse-flies-ontario",
+    "impr": 6186,
+    "pos": 6.88,
+    "inbound": 2,
+    "overlap": 2,
+    "sameCluster": true
+   },
+   {
+    "slug": "what-does-a-spider-bite-look-like",
+    "impr": 1737,
+    "pos": 8.97,
+    "inbound": 4,
+    "overlap": 1,
+    "sameCluster": false
+   },
+   {
+    "slug": "mosquito-bite-vs-spider-bite",
+    "impr": 839,
+    "pos": 7.85,
+    "inbound": 4,
+    "overlap": 1,
+    "sameCluster": false
+   },
+   {
+    "slug": "can-mosquitoes-bite-through-clothes",
+    "impr": 530,
+    "pos": 9.21,
+    "inbound": 4,
+    "overlap": 1,
+    "sameCluster": false
+   },
+   {
+    "slug": "what-blood-type-do-mosquitoes-bite",
+    "impr": 407,
+    "pos": 9.42,
+    "inbound": 1,
+    "overlap": 1,
+    "sameCluster": false
+   },
+   {
+    "slug": "can-ticks-fly-jump-swim",
+    "impr": 294,
+    "pos": 5.93,
+    "inbound": 1,
+    "overlap": 1,
+    "sameCluster": false
+   }
+  ]
+ },
+ {
+  "donor": "black-flies-ontario-when-they-come-out",
+  "donorImpr": 4942,
+  "donorOut": 11,
+  "cluster": "flies",
+  "candidates": [
+   {
+    "slug": "deer-flies-horse-flies-ontario",
+    "impr": 6186,
+    "pos": 6.88,
+    "inbound": 2,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "horse-fly-and-deer-fly-bite-treatment",
+    "impr": 5158,
+    "pos": 7.83,
+    "inbound": 3,
+    "overlap": 0,
+    "sameCluster": true
+   }
+  ]
+ },
+ {
+  "donor": "mosquito-repellent-guide-ontario-2026",
+  "donorImpr": 4050,
+  "donorOut": 8,
+  "cluster": "mosquito",
+  "candidates": [
+   {
+    "slug": "mosquito-repellent-bracelets-canada",
+    "impr": 820,
+    "pos": 7.85,
+    "inbound": 0,
+    "overlap": 2,
+    "sameCluster": true
+   },
+   {
+    "slug": "mosquito-repellent-stickers-patches-canada",
+    "impr": 266,
+    "pos": 11.49,
+    "inbound": 0,
+    "overlap": 2,
+    "sameCluster": true
+   },
+   {
+    "slug": "why-do-mosquito-bites-itch",
+    "impr": 3986,
+    "pos": 9.41,
+    "inbound": 2,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "male-vs-female-mosquito",
+    "impr": 1447,
+    "pos": 8.98,
+    "inbound": 1,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "mosquito-bite-vs-spider-bite",
+    "impr": 839,
+    "pos": 7.85,
+    "inbound": 4,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "mosquito-coils-canada",
+    "impr": 656,
+    "pos": 8.97,
+    "inbound": 1,
+    "overlap": 1,
+    "sameCluster": true
+   }
+  ]
+ },
+ {
+  "donor": "thermacell-canada-where-to-buy",
+  "donorImpr": 3859,
+  "donorOut": 11,
+  "cluster": "mosquito",
+  "candidates": [
+   {
+    "slug": "why-do-mosquito-bites-itch",
+    "impr": 3986,
+    "pos": 9.41,
+    "inbound": 2,
+    "overlap": 0,
+    "sameCluster": true
+   },
+   {
+    "slug": "what-temperature-kills-mosquitoes",
+    "impr": 1932,
+    "pos": 6.71,
+    "inbound": 3,
+    "overlap": 0,
+    "sameCluster": true
+   },
+   {
+    "slug": "male-vs-female-mosquito",
+    "impr": 1447,
+    "pos": 8.98,
+    "inbound": 1,
+    "overlap": 0,
+    "sameCluster": true
+   },
+   {
+    "slug": "mosquito-bite-vs-spider-bite",
+    "impr": 839,
+    "pos": 7.85,
+    "inbound": 4,
+    "overlap": 0,
+    "sameCluster": true
+   },
+   {
+    "slug": "mosquito-repellent-bracelets-canada",
+    "impr": 820,
+    "pos": 7.85,
+    "inbound": 0,
+    "overlap": 0,
+    "sameCluster": true
+   },
+   {
+    "slug": "do-cedar-trees-attract-mosquitoes",
+    "impr": 819,
+    "pos": 5.1,
+    "inbound": 3,
+    "overlap": 0,
+    "sameCluster": true
+   }
+  ]
+ },
+ {
+  "donor": "best-screen-tent-canada",
+  "donorImpr": 3679,
+  "donorOut": 10,
+  "cluster": "general",
+  "candidates": [
+   {
+    "slug": "what-does-a-spider-bite-look-like",
+    "impr": 1737,
+    "pos": 8.97,
+    "inbound": 4,
+    "overlap": 0,
+    "sameCluster": true
+   },
+   {
+    "slug": "chigger-bites",
+    "impr": 1156,
+    "pos": 7.41,
+    "inbound": 4,
+    "overlap": 0,
+    "sameCluster": true
+   },
+   {
+    "slug": "no-see-um-bites",
+    "impr": 984,
+    "pos": 6.67,
+    "inbound": 4,
+    "overlap": 0,
+    "sameCluster": true
+   },
+   {
+    "slug": "ortho-home-defense-canada-review",
+    "impr": 834,
+    "pos": 7.23,
+    "inbound": 4,
+    "overlap": 0,
+    "sameCluster": true
+   },
+   {
+    "slug": "best-flea-bomb-canada",
+    "impr": 657,
+    "pos": 8.52,
+    "inbound": 4,
+    "overlap": 0,
+    "sameCluster": true
+   },
+   {
+    "slug": "doktor-doom-canada-guide",
+    "impr": 599,
+    "pos": 6.61,
+    "inbound": 3,
+    "overlap": 0,
+    "sameCluster": true
+   }
+  ]
+ },
+ {
+  "donor": "mosquito-dunks-canada-guide",
+  "donorImpr": 3475,
+  "donorOut": 7,
+  "cluster": "mosquito",
+  "candidates": [
+   {
+    "slug": "why-do-mosquito-bites-itch",
+    "impr": 3986,
+    "pos": 9.41,
+    "inbound": 2,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "male-vs-female-mosquito",
+    "impr": 1447,
+    "pos": 8.98,
+    "inbound": 1,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "mosquito-bite-vs-spider-bite",
+    "impr": 839,
+    "pos": 7.85,
+    "inbound": 4,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "mosquito-repellent-bracelets-canada",
+    "impr": 820,
+    "pos": 7.85,
+    "inbound": 0,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "mosquito-coils-canada",
+    "impr": 656,
+    "pos": 8.97,
+    "inbound": 1,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "best-professional-mosquito-trap-canada",
+    "impr": 393,
+    "pos": 11.59,
+    "inbound": 2,
+    "overlap": 1,
+    "sameCluster": true
+   }
+  ]
+ },
+ {
+  "donor": "mosquito-larvae-identification",
+  "donorImpr": 3211,
+  "donorOut": 10,
+  "cluster": "mosquito",
+  "candidates": [
+   {
+    "slug": "why-do-mosquito-bites-itch",
+    "impr": 3986,
+    "pos": 9.41,
+    "inbound": 2,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "male-vs-female-mosquito",
+    "impr": 1447,
+    "pos": 8.98,
+    "inbound": 1,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "mosquito-bite-vs-spider-bite",
+    "impr": 839,
+    "pos": 7.85,
+    "inbound": 4,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "mosquito-repellent-bracelets-canada",
+    "impr": 820,
+    "pos": 7.85,
+    "inbound": 0,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "mosquito-coils-canada",
+    "impr": 656,
+    "pos": 8.97,
+    "inbound": 1,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "best-professional-mosquito-trap-canada",
+    "impr": 393,
+    "pos": 11.59,
+    "inbound": 2,
+    "overlap": 1,
+    "sameCluster": true
+   }
+  ]
+ },
+ {
+  "donor": "no-see-ums-biting-midges-ontario",
+  "donorImpr": 2717,
+  "donorOut": 7,
+  "cluster": "general",
+  "candidates": [
+   {
+    "slug": "no-see-um-bites",
+    "impr": 984,
+    "pos": 6.67,
+    "inbound": 4,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "what-does-a-spider-bite-look-like",
+    "impr": 1737,
+    "pos": 8.97,
+    "inbound": 4,
+    "overlap": 0,
+    "sameCluster": true
+   },
+   {
+    "slug": "chigger-bites",
+    "impr": 1156,
+    "pos": 7.41,
+    "inbound": 4,
+    "overlap": 0,
+    "sameCluster": true
+   },
+   {
+    "slug": "ortho-home-defense-canada-review",
+    "impr": 834,
+    "pos": 7.23,
+    "inbound": 4,
+    "overlap": 0,
+    "sameCluster": true
+   },
+   {
+    "slug": "best-flea-bomb-canada",
+    "impr": 657,
+    "pos": 8.52,
+    "inbound": 4,
+    "overlap": 0,
+    "sameCluster": true
+   },
+   {
+    "slug": "doktor-doom-canada-guide",
+    "impr": 599,
+    "pos": 6.61,
+    "inbound": 3,
+    "overlap": 0,
+    "sameCluster": true
+   }
+  ]
+ },
+ {
+  "donor": "when-are-mosquitoes-most-active",
+  "donorImpr": 2675,
+  "donorOut": 8,
+  "cluster": "mosquito",
+  "candidates": [
+   {
+    "slug": "what-temperature-kills-mosquitoes",
+    "impr": 1932,
+    "pos": 6.71,
+    "inbound": 3,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "do-cedar-trees-attract-mosquitoes",
+    "impr": 819,
+    "pos": 5.1,
+    "inbound": 3,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "can-mosquitoes-bite-through-clothes",
+    "impr": 530,
+    "pos": 9.21,
+    "inbound": 4,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "what-blood-type-do-mosquitoes-bite",
+    "impr": 407,
+    "pos": 9.42,
+    "inbound": 1,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "what-colors-attract-mosquitoes",
+    "impr": 376,
+    "pos": 7.26,
+    "inbound": 2,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "what-eats-ticks-and-mosquitoes",
+    "impr": 453,
+    "pos": 8.42,
+    "inbound": 1,
+    "overlap": 1,
+    "sameCluster": false
+   }
+  ]
+ },
+ {
+  "donor": "how-many-times-can-a-mosquito-bite-you",
+  "donorImpr": 2400,
+  "donorOut": 9,
+  "cluster": "mosquito",
+  "candidates": [
+   {
+    "slug": "mosquito-bite-vs-spider-bite",
+    "impr": 839,
+    "pos": 7.85,
+    "inbound": 4,
+    "overlap": 2,
+    "sameCluster": true
+   },
+   {
+    "slug": "why-do-mosquito-bites-itch",
+    "impr": 3986,
+    "pos": 9.41,
+    "inbound": 2,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "male-vs-female-mosquito",
+    "impr": 1447,
+    "pos": 8.98,
+    "inbound": 1,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "mosquito-repellent-bracelets-canada",
+    "impr": 820,
+    "pos": 7.85,
+    "inbound": 0,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "mosquito-coils-canada",
+    "impr": 656,
+    "pos": 8.97,
+    "inbound": 1,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "can-mosquitoes-bite-through-clothes",
+    "impr": 530,
+    "pos": 9.21,
+    "inbound": 4,
+    "overlap": 1,
+    "sameCluster": true
+   }
+  ]
+ },
+ {
+  "donor": "mosquito-season-gta-when-does-it-start",
+  "donorImpr": 1762,
+  "donorOut": 8,
+  "cluster": "mosquito",
+  "candidates": [
+   {
+    "slug": "why-do-mosquito-bites-itch",
+    "impr": 3986,
+    "pos": 9.41,
+    "inbound": 2,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "male-vs-female-mosquito",
+    "impr": 1447,
+    "pos": 8.98,
+    "inbound": 1,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "mosquito-bite-vs-spider-bite",
+    "impr": 839,
+    "pos": 7.85,
+    "inbound": 4,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "mosquito-repellent-bracelets-canada",
+    "impr": 820,
+    "pos": 7.85,
+    "inbound": 0,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "mosquito-coils-canada",
+    "impr": 656,
+    "pos": 8.97,
+    "inbound": 1,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "best-professional-mosquito-trap-canada",
+    "impr": 393,
+    "pos": 11.59,
+    "inbound": 2,
+    "overlap": 1,
+    "sameCluster": true
+   }
+  ]
+ },
+ {
+  "donor": "male-vs-female-mosquito",
+  "donorImpr": 1447,
+  "donorOut": 6,
+  "cluster": "mosquito",
+  "candidates": [
+   {
+    "slug": "why-do-mosquito-bites-itch",
+    "impr": 3986,
+    "pos": 9.41,
+    "inbound": 2,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "mosquito-bite-vs-spider-bite",
+    "impr": 839,
+    "pos": 7.85,
+    "inbound": 4,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "mosquito-repellent-bracelets-canada",
+    "impr": 820,
+    "pos": 7.85,
+    "inbound": 0,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "mosquito-coils-canada",
+    "impr": 656,
+    "pos": 8.97,
+    "inbound": 1,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "best-professional-mosquito-trap-canada",
+    "impr": 393,
+    "pos": 11.59,
+    "inbound": 2,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "mosquito-repellent-stickers-patches-canada",
+    "impr": 266,
+    "pos": 11.49,
+    "inbound": 0,
+    "overlap": 1,
+    "sameCluster": true
+   }
+  ]
+ },
+ {
+  "donor": "how-long-do-ticks-live",
+  "donorImpr": 1367,
+  "donorOut": 10,
+  "cluster": "tick",
+  "candidates": [
+   {
+    "slug": "baby-ticks-nymphs-seed-ticks-ontario",
+    "impr": 704,
+    "pos": 7.96,
+    "inbound": 3,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "what-eats-ticks-and-mosquitoes",
+    "impr": 453,
+    "pos": 8.42,
+    "inbound": 1,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "can-ticks-fly-jump-swim",
+    "impr": 294,
+    "pos": 5.93,
+    "inbound": 1,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "best-raccoon-live-trap-canada",
+    "impr": 496,
+    "pos": 9.87,
+    "inbound": 3,
+    "overlap": 1,
+    "sameCluster": false
+   },
+   {
+    "slug": "lone-star-tick-alpha-gal-canada",
+    "impr": 395,
+    "pos": 8.35,
+    "inbound": 2,
+    "overlap": 0,
+    "sameCluster": true
+   },
+   {
+    "slug": "what-does-tick-look-like-on-dog",
+    "impr": 394,
+    "pos": 10.13,
+    "inbound": 1,
+    "overlap": 0,
+    "sameCluster": true
+   }
+  ]
+ },
+ {
+  "donor": "red-ticks-and-clover-mites",
+  "donorImpr": 1311,
+  "donorOut": 10,
+  "cluster": "tick",
+  "candidates": [
+   {
+    "slug": "how-long-do-ticks-live",
+    "impr": 1367,
+    "pos": 8.05,
+    "inbound": 1,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "baby-ticks-nymphs-seed-ticks-ontario",
+    "impr": 704,
+    "pos": 7.96,
+    "inbound": 3,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "what-eats-ticks-and-mosquitoes",
+    "impr": 453,
+    "pos": 8.42,
+    "inbound": 1,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "can-ticks-fly-jump-swim",
+    "impr": 294,
+    "pos": 5.93,
+    "inbound": 1,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "lone-star-tick-alpha-gal-canada",
+    "impr": 395,
+    "pos": 8.35,
+    "inbound": 2,
+    "overlap": 0,
+    "sameCluster": true
+   },
+   {
+    "slug": "what-does-tick-look-like-on-dog",
+    "impr": 394,
+    "pos": 10.13,
+    "inbound": 1,
+    "overlap": 0,
+    "sameCluster": true
+   }
+  ]
+ },
+ {
+  "donor": "tick-bite-vs-mosquito-bite",
+  "donorImpr": 1178,
+  "donorOut": 10,
+  "cluster": "tick",
+  "candidates": [
+   {
+    "slug": "mosquito-bite-vs-spider-bite",
+    "impr": 839,
+    "pos": 7.85,
+    "inbound": 4,
+    "overlap": 2,
+    "sameCluster": false
+   },
+   {
+    "slug": "lone-star-tick-alpha-gal-canada",
+    "impr": 395,
+    "pos": 8.35,
+    "inbound": 2,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "what-does-tick-look-like-on-dog",
+    "impr": 394,
+    "pos": 10.13,
+    "inbound": 1,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "horse-fly-and-deer-fly-bite-treatment",
+    "impr": 5158,
+    "pos": 7.83,
+    "inbound": 3,
+    "overlap": 1,
+    "sameCluster": false
+   },
+   {
+    "slug": "why-do-mosquito-bites-itch",
+    "impr": 3986,
+    "pos": 9.41,
+    "inbound": 2,
+    "overlap": 1,
+    "sameCluster": false
+   },
+   {
+    "slug": "what-does-a-spider-bite-look-like",
+    "impr": 1737,
+    "pos": 8.97,
+    "inbound": 4,
+    "overlap": 1,
+    "sameCluster": false
+   }
+  ]
+ },
+ {
+  "donor": "best-yellow-jacket-trap-canada",
+  "donorImpr": 1017,
+  "donorOut": 11,
+  "cluster": "wasp",
+  "candidates": [
+   {
+    "slug": "best-raccoon-live-trap-canada",
+    "impr": 496,
+    "pos": 9.87,
+    "inbound": 3,
+    "overlap": 1,
+    "sameCluster": false
+   },
+   {
+    "slug": "best-professional-mosquito-trap-canada",
+    "impr": 393,
+    "pos": 11.59,
+    "inbound": 2,
+    "overlap": 1,
+    "sameCluster": false
+   },
+   {
+    "slug": "best-bed-bug-trap-canada",
+    "impr": 282,
+    "pos": 15.96,
+    "inbound": 3,
+    "overlap": 1,
+    "sameCluster": false
+   }
+  ]
+ },
+ {
+  "donor": "what-ticks-look-like-ontario",
+  "donorImpr": 889,
+  "donorOut": 10,
+  "cluster": "tick",
+  "candidates": [
+   {
+    "slug": "how-long-do-ticks-live",
+    "impr": 1367,
+    "pos": 8.05,
+    "inbound": 1,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "baby-ticks-nymphs-seed-ticks-ontario",
+    "impr": 704,
+    "pos": 7.96,
+    "inbound": 3,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "what-eats-ticks-and-mosquitoes",
+    "impr": 453,
+    "pos": 8.42,
+    "inbound": 1,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "can-ticks-fly-jump-swim",
+    "impr": 294,
+    "pos": 5.93,
+    "inbound": 1,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "lone-star-tick-alpha-gal-canada",
+    "impr": 395,
+    "pos": 8.35,
+    "inbound": 2,
+    "overlap": 0,
+    "sameCluster": true
+   },
+   {
+    "slug": "what-does-tick-look-like-on-dog",
+    "impr": 394,
+    "pos": 10.13,
+    "inbound": 1,
+    "overlap": 0,
+    "sameCluster": true
+   }
+  ]
+ },
+ {
+  "donor": "co2-mosquito-trap-canada",
+  "donorImpr": 875,
+  "donorOut": 9,
+  "cluster": "mosquito",
+  "candidates": [
+   {
+    "slug": "best-professional-mosquito-trap-canada",
+    "impr": 393,
+    "pos": 11.59,
+    "inbound": 2,
+    "overlap": 2,
+    "sameCluster": true
+   },
+   {
+    "slug": "why-do-mosquito-bites-itch",
+    "impr": 3986,
+    "pos": 9.41,
+    "inbound": 2,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "male-vs-female-mosquito",
+    "impr": 1447,
+    "pos": 8.98,
+    "inbound": 1,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "mosquito-bite-vs-spider-bite",
+    "impr": 839,
+    "pos": 7.85,
+    "inbound": 4,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "mosquito-repellent-bracelets-canada",
+    "impr": 820,
+    "pos": 7.85,
+    "inbound": 0,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "mosquito-coils-canada",
+    "impr": 656,
+    "pos": 8.97,
+    "inbound": 1,
+    "overlap": 1,
+    "sameCluster": true
+   }
+  ]
+ },
+ {
+  "donor": "best-bug-spray-for-kids-canada",
+  "donorImpr": 869,
+  "donorOut": 5,
+  "cluster": "general",
+  "candidates": [
+   {
+    "slug": "off-deep-woods-deet-bug-spray-canada",
+    "impr": 207,
+    "pos": 7.02,
+    "inbound": 2,
+    "overlap": 2,
+    "sameCluster": false
+   },
+   {
+    "slug": "best-solar-bug-zapper-canada",
+    "impr": 573,
+    "pos": 8.75,
+    "inbound": 3,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "best-flea-spray-for-home-canada",
+    "impr": 426,
+    "pos": 10.58,
+    "inbound": 3,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "crossfire-bed-bug-concentrate-review-canada",
+    "impr": 988,
+    "pos": 7.57,
+    "inbound": 3,
+    "overlap": 1,
+    "sameCluster": false
+   },
+   {
+    "slug": "best-bed-bug-trap-canada",
+    "impr": 282,
+    "pos": 15.96,
+    "inbound": 3,
+    "overlap": 1,
+    "sameCluster": false
+   },
+   {
+    "slug": "what-does-a-spider-bite-look-like",
+    "impr": 1737,
+    "pos": 8.97,
+    "inbound": 4,
+    "overlap": 0,
+    "sameCluster": true
+   }
+  ]
+ },
+ {
+  "donor": "mosquito-bite-vs-spider-bite",
+  "donorImpr": 839,
+  "donorOut": 7,
+  "cluster": "mosquito",
+  "candidates": [
+   {
+    "slug": "what-does-a-spider-bite-look-like",
+    "impr": 1737,
+    "pos": 8.97,
+    "inbound": 4,
+    "overlap": 2,
+    "sameCluster": false
+   },
+   {
+    "slug": "why-do-mosquito-bites-itch",
+    "impr": 3986,
+    "pos": 9.41,
+    "inbound": 2,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "male-vs-female-mosquito",
+    "impr": 1447,
+    "pos": 8.98,
+    "inbound": 1,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "mosquito-repellent-bracelets-canada",
+    "impr": 820,
+    "pos": 7.85,
+    "inbound": 0,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "mosquito-coils-canada",
+    "impr": 656,
+    "pos": 8.97,
+    "inbound": 1,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "can-mosquitoes-bite-through-clothes",
+    "impr": 530,
+    "pos": 9.21,
+    "inbound": 4,
+    "overlap": 1,
+    "sameCluster": true
+   }
+  ]
+ },
+ {
+  "donor": "ortho-home-defense-canada-review",
+  "donorImpr": 834,
+  "donorOut": 5,
+  "cluster": "general",
+  "candidates": [
+   {
+    "slug": "wondercide-canada-review",
+    "impr": 434,
+    "pos": 7.73,
+    "inbound": 3,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "best-flea-spray-for-home-canada",
+    "impr": 426,
+    "pos": 10.58,
+    "inbound": 3,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "crossfire-bed-bug-concentrate-review-canada",
+    "impr": 988,
+    "pos": 7.57,
+    "inbound": 3,
+    "overlap": 1,
+    "sameCluster": false
+   },
+   {
+    "slug": "what-does-a-spider-bite-look-like",
+    "impr": 1737,
+    "pos": 8.97,
+    "inbound": 4,
+    "overlap": 0,
+    "sameCluster": true
+   },
+   {
+    "slug": "chigger-bites",
+    "impr": 1156,
+    "pos": 7.41,
+    "inbound": 4,
+    "overlap": 0,
+    "sameCluster": true
+   },
+   {
+    "slug": "no-see-um-bites",
+    "impr": 984,
+    "pos": 6.67,
+    "inbound": 4,
+    "overlap": 0,
+    "sameCluster": true
+   }
+  ]
+ },
+ {
+  "donor": "mosquito-repellent-bracelets-canada",
+  "donorImpr": 820,
+  "donorOut": 9,
+  "cluster": "mosquito",
+  "candidates": [
+   {
+    "slug": "mosquito-repellent-stickers-patches-canada",
+    "impr": 266,
+    "pos": 11.49,
+    "inbound": 0,
+    "overlap": 2,
+    "sameCluster": true
+   },
+   {
+    "slug": "why-do-mosquito-bites-itch",
+    "impr": 3986,
+    "pos": 9.41,
+    "inbound": 2,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "male-vs-female-mosquito",
+    "impr": 1447,
+    "pos": 8.98,
+    "inbound": 1,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "mosquito-bite-vs-spider-bite",
+    "impr": 839,
+    "pos": 7.85,
+    "inbound": 4,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "mosquito-coils-canada",
+    "impr": 656,
+    "pos": 8.97,
+    "inbound": 1,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "best-professional-mosquito-trap-canada",
+    "impr": 393,
+    "pos": 11.59,
+    "inbound": 2,
+    "overlap": 1,
+    "sameCluster": true
+   }
+  ]
+ },
+ {
+  "donor": "do-cedar-trees-attract-mosquitoes",
+  "donorImpr": 819,
+  "donorOut": 7,
+  "cluster": "mosquito",
+  "candidates": [
+   {
+    "slug": "what-colors-attract-mosquitoes",
+    "impr": 376,
+    "pos": 7.26,
+    "inbound": 2,
+    "overlap": 2,
+    "sameCluster": true
+   },
+   {
+    "slug": "what-temperature-kills-mosquitoes",
+    "impr": 1932,
+    "pos": 6.71,
+    "inbound": 3,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "can-mosquitoes-bite-through-clothes",
+    "impr": 530,
+    "pos": 9.21,
+    "inbound": 4,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "what-blood-type-do-mosquitoes-bite",
+    "impr": 407,
+    "pos": 9.42,
+    "inbound": 1,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "what-eats-ticks-and-mosquitoes",
+    "impr": 453,
+    "pos": 8.42,
+    "inbound": 1,
+    "overlap": 1,
+    "sameCluster": false
+   },
+   {
+    "slug": "why-do-mosquito-bites-itch",
+    "impr": 3986,
+    "pos": 9.41,
+    "inbound": 2,
+    "overlap": 0,
+    "sameCluster": true
+   }
+  ]
+ },
+ {
+  "donor": "are-ticks-dangerous-ontario",
+  "donorImpr": 770,
+  "donorOut": 11,
+  "cluster": "tick",
+  "candidates": [
+   {
+    "slug": "how-long-do-ticks-live",
+    "impr": 1367,
+    "pos": 8.05,
+    "inbound": 1,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "baby-ticks-nymphs-seed-ticks-ontario",
+    "impr": 704,
+    "pos": 7.96,
+    "inbound": 3,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "what-eats-ticks-and-mosquitoes",
+    "impr": 453,
+    "pos": 8.42,
+    "inbound": 1,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "can-ticks-fly-jump-swim",
+    "impr": 294,
+    "pos": 5.93,
+    "inbound": 1,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "lone-star-tick-alpha-gal-canada",
+    "impr": 395,
+    "pos": 8.35,
+    "inbound": 2,
+    "overlap": 0,
+    "sameCluster": true
+   },
+   {
+    "slug": "what-does-tick-look-like-on-dog",
+    "impr": 394,
+    "pos": 10.13,
+    "inbound": 1,
+    "overlap": 0,
+    "sameCluster": true
+   }
+  ]
+ },
+ {
+  "donor": "mosquito-repellent-plants-ontario",
+  "donorImpr": 760,
+  "donorOut": 6,
+  "cluster": "mosquito",
+  "candidates": [
+   {
+    "slug": "mosquito-repellent-bracelets-canada",
+    "impr": 820,
+    "pos": 7.85,
+    "inbound": 0,
+    "overlap": 2,
+    "sameCluster": true
+   },
+   {
+    "slug": "mosquito-repellent-stickers-patches-canada",
+    "impr": 266,
+    "pos": 11.49,
+    "inbound": 0,
+    "overlap": 2,
+    "sameCluster": true
+   },
+   {
+    "slug": "why-do-mosquito-bites-itch",
+    "impr": 3986,
+    "pos": 9.41,
+    "inbound": 2,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "male-vs-female-mosquito",
+    "impr": 1447,
+    "pos": 8.98,
+    "inbound": 1,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "mosquito-bite-vs-spider-bite",
+    "impr": 839,
+    "pos": 7.85,
+    "inbound": 4,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "mosquito-coils-canada",
+    "impr": 656,
+    "pos": 8.97,
+    "inbound": 1,
+    "overlap": 1,
+    "sameCluster": true
+   }
+  ]
+ },
+ {
+  "donor": "baby-ticks-nymphs-seed-ticks-ontario",
+  "donorImpr": 704,
+  "donorOut": 8,
+  "cluster": "tick",
+  "candidates": [
+   {
+    "slug": "how-long-do-ticks-live",
+    "impr": 1367,
+    "pos": 8.05,
+    "inbound": 1,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "what-eats-ticks-and-mosquitoes",
+    "impr": 453,
+    "pos": 8.42,
+    "inbound": 1,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "can-ticks-fly-jump-swim",
+    "impr": 294,
+    "pos": 5.93,
+    "inbound": 1,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "lone-star-tick-alpha-gal-canada",
+    "impr": 395,
+    "pos": 8.35,
+    "inbound": 2,
+    "overlap": 0,
+    "sameCluster": true
+   },
+   {
+    "slug": "what-does-tick-look-like-on-dog",
+    "impr": 394,
+    "pos": 10.13,
+    "inbound": 1,
+    "overlap": 0,
+    "sameCluster": true
+   }
+  ]
+ },
+ {
+  "donor": "mosquito-coils-canada",
+  "donorImpr": 656,
+  "donorOut": 9,
+  "cluster": "mosquito",
+  "candidates": [
+   {
+    "slug": "why-do-mosquito-bites-itch",
+    "impr": 3986,
+    "pos": 9.41,
+    "inbound": 2,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "male-vs-female-mosquito",
+    "impr": 1447,
+    "pos": 8.98,
+    "inbound": 1,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "mosquito-bite-vs-spider-bite",
+    "impr": 839,
+    "pos": 7.85,
+    "inbound": 4,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "mosquito-repellent-bracelets-canada",
+    "impr": 820,
+    "pos": 7.85,
+    "inbound": 0,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "best-professional-mosquito-trap-canada",
+    "impr": 393,
+    "pos": 11.59,
+    "inbound": 2,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "mosquito-repellent-stickers-patches-canada",
+    "impr": 266,
+    "pos": 11.49,
+    "inbound": 0,
+    "overlap": 1,
+    "sameCluster": true
+   }
+  ]
+ },
+ {
+  "donor": "how-to-get-rid-of-mosquitoes-in-yard-ontario",
+  "donorImpr": 641,
+  "donorOut": 7,
+  "cluster": "mosquito",
+  "candidates": [
+   {
+    "slug": "how-to-get-rid-of-voles-canada",
+    "impr": 253,
+    "pos": 13.08,
+    "inbound": 4,
+    "overlap": 2,
+    "sameCluster": false
+   },
+   {
+    "slug": "what-temperature-kills-mosquitoes",
+    "impr": 1932,
+    "pos": 6.71,
+    "inbound": 3,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "do-cedar-trees-attract-mosquitoes",
+    "impr": 819,
+    "pos": 5.1,
+    "inbound": 3,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "can-mosquitoes-bite-through-clothes",
+    "impr": 530,
+    "pos": 9.21,
+    "inbound": 4,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "what-blood-type-do-mosquitoes-bite",
+    "impr": 407,
+    "pos": 9.42,
+    "inbound": 1,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "what-colors-attract-mosquitoes",
+    "impr": 376,
+    "pos": 7.26,
+    "inbound": 2,
+    "overlap": 1,
+    "sameCluster": true
+   }
+  ]
+ },
+ {
+  "donor": "lyme-disease-risk-areas-ontario-2026",
+  "donorImpr": 592,
+  "donorOut": 9,
+  "cluster": "tick",
+  "candidates": [
+   {
+    "slug": "how-long-do-ticks-live",
+    "impr": 1367,
+    "pos": 8.05,
+    "inbound": 1,
+    "overlap": 0,
+    "sameCluster": true
+   },
+   {
+    "slug": "baby-ticks-nymphs-seed-ticks-ontario",
+    "impr": 704,
+    "pos": 7.96,
+    "inbound": 3,
+    "overlap": 0,
+    "sameCluster": true
+   },
+   {
+    "slug": "what-eats-ticks-and-mosquitoes",
+    "impr": 453,
+    "pos": 8.42,
+    "inbound": 1,
+    "overlap": 0,
+    "sameCluster": true
+   },
+   {
+    "slug": "lone-star-tick-alpha-gal-canada",
+    "impr": 395,
+    "pos": 8.35,
+    "inbound": 2,
+    "overlap": 0,
+    "sameCluster": true
+   },
+   {
+    "slug": "what-does-tick-look-like-on-dog",
+    "impr": 394,
+    "pos": 10.13,
+    "inbound": 1,
+    "overlap": 0,
+    "sameCluster": true
+   },
+   {
+    "slug": "can-ticks-fly-jump-swim",
+    "impr": 294,
+    "pos": 5.93,
+    "inbound": 1,
+    "overlap": 0,
+    "sameCluster": true
+   }
+  ]
+ },
+ {
+  "donor": "smells-mosquitoes-hate",
+  "donorImpr": 576,
+  "donorOut": 5,
+  "cluster": "mosquito",
+  "candidates": [
+   {
+    "slug": "what-temperature-kills-mosquitoes",
+    "impr": 1932,
+    "pos": 6.71,
+    "inbound": 3,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "do-cedar-trees-attract-mosquitoes",
+    "impr": 819,
+    "pos": 5.1,
+    "inbound": 3,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "can-mosquitoes-bite-through-clothes",
+    "impr": 530,
+    "pos": 9.21,
+    "inbound": 4,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "what-blood-type-do-mosquitoes-bite",
+    "impr": 407,
+    "pos": 9.42,
+    "inbound": 1,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "what-colors-attract-mosquitoes",
+    "impr": 376,
+    "pos": 7.26,
+    "inbound": 2,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "what-eats-ticks-and-mosquitoes",
+    "impr": 453,
+    "pos": 8.42,
+    "inbound": 1,
+    "overlap": 1,
+    "sameCluster": false
+   }
+  ]
+ },
+ {
+  "donor": "best-solar-bug-zapper-canada",
+  "donorImpr": 573,
+  "donorOut": 11,
+  "cluster": "general",
+  "candidates": [
+   {
+    "slug": "crossfire-bed-bug-concentrate-review-canada",
+    "impr": 988,
+    "pos": 7.57,
+    "inbound": 3,
+    "overlap": 1,
+    "sameCluster": false
+   },
+   {
+    "slug": "best-bed-bug-trap-canada",
+    "impr": 282,
+    "pos": 15.96,
+    "inbound": 3,
+    "overlap": 1,
+    "sameCluster": false
+   },
+   {
+    "slug": "off-deep-woods-deet-bug-spray-canada",
+    "impr": 207,
+    "pos": 7.02,
+    "inbound": 2,
+    "overlap": 1,
+    "sameCluster": false
+   },
+   {
+    "slug": "what-does-a-spider-bite-look-like",
+    "impr": 1737,
+    "pos": 8.97,
+    "inbound": 4,
+    "overlap": 0,
+    "sameCluster": true
+   },
+   {
+    "slug": "chigger-bites",
+    "impr": 1156,
+    "pos": 7.41,
+    "inbound": 4,
+    "overlap": 0,
+    "sameCluster": true
+   },
+   {
+    "slug": "no-see-um-bites",
+    "impr": 984,
+    "pos": 6.67,
+    "inbound": 4,
+    "overlap": 0,
+    "sameCluster": true
+   }
+  ]
+ },
+ {
+  "donor": "can-mosquitoes-bite-through-clothes",
+  "donorImpr": 530,
+  "donorOut": 7,
+  "cluster": "mosquito",
+  "candidates": [
+   {
+    "slug": "what-blood-type-do-mosquitoes-bite",
+    "impr": 407,
+    "pos": 9.42,
+    "inbound": 1,
+    "overlap": 2,
+    "sameCluster": true
+   },
+   {
+    "slug": "what-temperature-kills-mosquitoes",
+    "impr": 1932,
+    "pos": 6.71,
+    "inbound": 3,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "mosquito-bite-vs-spider-bite",
+    "impr": 839,
+    "pos": 7.85,
+    "inbound": 4,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "do-cedar-trees-attract-mosquitoes",
+    "impr": 819,
+    "pos": 5.1,
+    "inbound": 3,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "what-colors-attract-mosquitoes",
+    "impr": 376,
+    "pos": 7.26,
+    "inbound": 2,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "horse-fly-and-deer-fly-bite-treatment",
+    "impr": 5158,
+    "pos": 7.83,
+    "inbound": 3,
+    "overlap": 1,
+    "sameCluster": false
+   }
+  ]
+ },
+ {
+  "donor": "best-raccoon-live-trap-canada",
+  "donorImpr": 496,
+  "donorOut": 4,
+  "cluster": "wildlife",
+  "candidates": [
+   {
+    "slug": "how-long-do-ticks-live",
+    "impr": 1367,
+    "pos": 8.05,
+    "inbound": 1,
+    "overlap": 1,
+    "sameCluster": false
+   },
+   {
+    "slug": "best-professional-mosquito-trap-canada",
+    "impr": 393,
+    "pos": 11.59,
+    "inbound": 2,
+    "overlap": 1,
+    "sameCluster": false
+   },
+   {
+    "slug": "best-bed-bug-trap-canada",
+    "impr": 282,
+    "pos": 15.96,
+    "inbound": 3,
+    "overlap": 1,
+    "sameCluster": false
+   }
+  ]
+ },
+ {
+  "donor": "best-indoor-fly-mosquito-trap-canada",
+  "donorImpr": 474,
+  "donorOut": 6,
+  "cluster": "mosquito",
+  "candidates": [
+   {
+    "slug": "best-professional-mosquito-trap-canada",
+    "impr": 393,
+    "pos": 11.59,
+    "inbound": 2,
+    "overlap": 2,
+    "sameCluster": true
+   },
+   {
+    "slug": "why-do-mosquito-bites-itch",
+    "impr": 3986,
+    "pos": 9.41,
+    "inbound": 2,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "male-vs-female-mosquito",
+    "impr": 1447,
+    "pos": 8.98,
+    "inbound": 1,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "mosquito-bite-vs-spider-bite",
+    "impr": 839,
+    "pos": 7.85,
+    "inbound": 4,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "mosquito-repellent-bracelets-canada",
+    "impr": 820,
+    "pos": 7.85,
+    "inbound": 0,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "mosquito-coils-canada",
+    "impr": 656,
+    "pos": 8.97,
+    "inbound": 1,
+    "overlap": 1,
+    "sameCluster": true
+   }
+  ]
+ },
+ {
+  "donor": "what-eats-ticks-and-mosquitoes",
+  "donorImpr": 453,
+  "donorOut": 3,
+  "cluster": "tick",
+  "candidates": [
+   {
+    "slug": "how-long-do-ticks-live",
+    "impr": 1367,
+    "pos": 8.05,
+    "inbound": 1,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "baby-ticks-nymphs-seed-ticks-ontario",
+    "impr": 704,
+    "pos": 7.96,
+    "inbound": 3,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "can-ticks-fly-jump-swim",
+    "impr": 294,
+    "pos": 5.93,
+    "inbound": 1,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "what-temperature-kills-mosquitoes",
+    "impr": 1932,
+    "pos": 6.71,
+    "inbound": 3,
+    "overlap": 1,
+    "sameCluster": false
+   },
+   {
+    "slug": "do-cedar-trees-attract-mosquitoes",
+    "impr": 819,
+    "pos": 5.1,
+    "inbound": 3,
+    "overlap": 1,
+    "sameCluster": false
+   },
+   {
+    "slug": "can-mosquitoes-bite-through-clothes",
+    "impr": 530,
+    "pos": 9.21,
+    "inbound": 4,
+    "overlap": 1,
+    "sameCluster": false
+   }
+  ]
+ },
+ {
+  "donor": "tick-season-ontario-when-are-ticks-active",
+  "donorImpr": 441,
+  "donorOut": 4,
+  "cluster": "tick",
+  "candidates": [
+   {
+    "slug": "how-long-do-ticks-live",
+    "impr": 1367,
+    "pos": 8.05,
+    "inbound": 1,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "baby-ticks-nymphs-seed-ticks-ontario",
+    "impr": 704,
+    "pos": 7.96,
+    "inbound": 3,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "what-eats-ticks-and-mosquitoes",
+    "impr": 453,
+    "pos": 8.42,
+    "inbound": 1,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "lone-star-tick-alpha-gal-canada",
+    "impr": 395,
+    "pos": 8.35,
+    "inbound": 2,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "what-does-tick-look-like-on-dog",
+    "impr": 394,
+    "pos": 10.13,
+    "inbound": 1,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "can-ticks-fly-jump-swim",
+    "impr": 294,
+    "pos": 5.93,
+    "inbound": 1,
+    "overlap": 1,
+    "sameCluster": true
+   }
+  ]
+ },
+ {
+  "donor": "wondercide-canada-review",
+  "donorImpr": 434,
+  "donorOut": 5,
+  "cluster": "general",
+  "candidates": [
+   {
+    "slug": "ortho-home-defense-canada-review",
+    "impr": 834,
+    "pos": 7.23,
+    "inbound": 4,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "crossfire-bed-bug-concentrate-review-canada",
+    "impr": 988,
+    "pos": 7.57,
+    "inbound": 3,
+    "overlap": 1,
+    "sameCluster": false
+   },
+   {
+    "slug": "what-does-a-spider-bite-look-like",
+    "impr": 1737,
+    "pos": 8.97,
+    "inbound": 4,
+    "overlap": 0,
+    "sameCluster": true
+   },
+   {
+    "slug": "chigger-bites",
+    "impr": 1156,
+    "pos": 7.41,
+    "inbound": 4,
+    "overlap": 0,
+    "sameCluster": true
+   },
+   {
+    "slug": "no-see-um-bites",
+    "impr": 984,
+    "pos": 6.67,
+    "inbound": 4,
+    "overlap": 0,
+    "sameCluster": true
+   },
+   {
+    "slug": "best-flea-bomb-canada",
+    "impr": 657,
+    "pos": 8.52,
+    "inbound": 4,
+    "overlap": 0,
+    "sameCluster": true
+   }
+  ]
+ },
+ {
+  "donor": "flowtron-bug-zapper-canada",
+  "donorImpr": 414,
+  "donorOut": 9,
+  "cluster": "general",
+  "candidates": [
+   {
+    "slug": "best-solar-bug-zapper-canada",
+    "impr": 573,
+    "pos": 8.75,
+    "inbound": 3,
+    "overlap": 2,
+    "sameCluster": true
+   },
+   {
+    "slug": "crossfire-bed-bug-concentrate-review-canada",
+    "impr": 988,
+    "pos": 7.57,
+    "inbound": 3,
+    "overlap": 1,
+    "sameCluster": false
+   },
+   {
+    "slug": "best-bed-bug-trap-canada",
+    "impr": 282,
+    "pos": 15.96,
+    "inbound": 3,
+    "overlap": 1,
+    "sameCluster": false
+   },
+   {
+    "slug": "off-deep-woods-deet-bug-spray-canada",
+    "impr": 207,
+    "pos": 7.02,
+    "inbound": 2,
+    "overlap": 1,
+    "sameCluster": false
+   },
+   {
+    "slug": "what-does-a-spider-bite-look-like",
+    "impr": 1737,
+    "pos": 8.97,
+    "inbound": 4,
+    "overlap": 0,
+    "sameCluster": true
+   },
+   {
+    "slug": "chigger-bites",
+    "impr": 1156,
+    "pos": 7.41,
+    "inbound": 4,
+    "overlap": 0,
+    "sameCluster": true
+   }
+  ]
+ },
+ {
+  "donor": "what-blood-type-do-mosquitoes-bite",
+  "donorImpr": 407,
+  "donorOut": 7,
+  "cluster": "mosquito",
+  "candidates": [
+   {
+    "slug": "can-mosquitoes-bite-through-clothes",
+    "impr": 530,
+    "pos": 9.21,
+    "inbound": 4,
+    "overlap": 2,
+    "sameCluster": true
+   },
+   {
+    "slug": "what-temperature-kills-mosquitoes",
+    "impr": 1932,
+    "pos": 6.71,
+    "inbound": 3,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "mosquito-bite-vs-spider-bite",
+    "impr": 839,
+    "pos": 7.85,
+    "inbound": 4,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "do-cedar-trees-attract-mosquitoes",
+    "impr": 819,
+    "pos": 5.1,
+    "inbound": 3,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "what-colors-attract-mosquitoes",
+    "impr": 376,
+    "pos": 7.26,
+    "inbound": 2,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "horse-fly-and-deer-fly-bite-treatment",
+    "impr": 5158,
+    "pos": 7.83,
+    "inbound": 3,
+    "overlap": 1,
+    "sameCluster": false
+   }
+  ]
+ },
+ {
+  "donor": "lone-star-tick-alpha-gal-canada",
+  "donorImpr": 395,
+  "donorOut": 8,
+  "cluster": "tick",
+  "candidates": [
+   {
+    "slug": "what-does-tick-look-like-on-dog",
+    "impr": 394,
+    "pos": 10.13,
+    "inbound": 1,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "how-long-do-ticks-live",
+    "impr": 1367,
+    "pos": 8.05,
+    "inbound": 1,
+    "overlap": 0,
+    "sameCluster": true
+   },
+   {
+    "slug": "baby-ticks-nymphs-seed-ticks-ontario",
+    "impr": 704,
+    "pos": 7.96,
+    "inbound": 3,
+    "overlap": 0,
+    "sameCluster": true
+   },
+   {
+    "slug": "what-eats-ticks-and-mosquitoes",
+    "impr": 453,
+    "pos": 8.42,
+    "inbound": 1,
+    "overlap": 0,
+    "sameCluster": true
+   },
+   {
+    "slug": "can-ticks-fly-jump-swim",
+    "impr": 294,
+    "pos": 5.93,
+    "inbound": 1,
+    "overlap": 0,
+    "sameCluster": true
+   }
+  ]
+ },
+ {
+  "donor": "what-does-tick-look-like-on-dog",
+  "donorImpr": 394,
+  "donorOut": 8,
+  "cluster": "tick",
+  "candidates": [
+   {
+    "slug": "lone-star-tick-alpha-gal-canada",
+    "impr": 395,
+    "pos": 8.35,
+    "inbound": 2,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "how-long-do-ticks-live",
+    "impr": 1367,
+    "pos": 8.05,
+    "inbound": 1,
+    "overlap": 0,
+    "sameCluster": true
+   },
+   {
+    "slug": "baby-ticks-nymphs-seed-ticks-ontario",
+    "impr": 704,
+    "pos": 7.96,
+    "inbound": 3,
+    "overlap": 0,
+    "sameCluster": true
+   },
+   {
+    "slug": "what-eats-ticks-and-mosquitoes",
+    "impr": 453,
+    "pos": 8.42,
+    "inbound": 1,
+    "overlap": 0,
+    "sameCluster": true
+   },
+   {
+    "slug": "can-ticks-fly-jump-swim",
+    "impr": 294,
+    "pos": 5.93,
+    "inbound": 1,
+    "overlap": 0,
+    "sameCluster": true
+   }
+  ]
+ },
+ {
+  "donor": "what-colors-attract-mosquitoes",
+  "donorImpr": 376,
+  "donorOut": 7,
+  "cluster": "mosquito",
+  "candidates": [
+   {
+    "slug": "do-cedar-trees-attract-mosquitoes",
+    "impr": 819,
+    "pos": 5.1,
+    "inbound": 3,
+    "overlap": 2,
+    "sameCluster": true
+   },
+   {
+    "slug": "what-temperature-kills-mosquitoes",
+    "impr": 1932,
+    "pos": 6.71,
+    "inbound": 3,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "can-mosquitoes-bite-through-clothes",
+    "impr": 530,
+    "pos": 9.21,
+    "inbound": 4,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "what-blood-type-do-mosquitoes-bite",
+    "impr": 407,
+    "pos": 9.42,
+    "inbound": 1,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "what-eats-ticks-and-mosquitoes",
+    "impr": 453,
+    "pos": 8.42,
+    "inbound": 1,
+    "overlap": 1,
+    "sameCluster": false
+   },
+   {
+    "slug": "why-do-mosquito-bites-itch",
+    "impr": 3986,
+    "pos": 9.41,
+    "inbound": 2,
+    "overlap": 0,
+    "sameCluster": true
+   }
+  ]
+ },
+ {
+  "donor": "best-tick-repellent-yard-canada",
+  "donorImpr": 366,
+  "donorOut": 5,
+  "cluster": "tick",
+  "candidates": [
+   {
+    "slug": "lone-star-tick-alpha-gal-canada",
+    "impr": 395,
+    "pos": 8.35,
+    "inbound": 2,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "what-does-tick-look-like-on-dog",
+    "impr": 394,
+    "pos": 10.13,
+    "inbound": 1,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "mosquito-repellent-bracelets-canada",
+    "impr": 820,
+    "pos": 7.85,
+    "inbound": 0,
+    "overlap": 1,
+    "sameCluster": false
+   },
+   {
+    "slug": "best-rodent-repellent-for-cars-canada",
+    "impr": 746,
+    "pos": 8.81,
+    "inbound": 4,
+    "overlap": 1,
+    "sameCluster": false
+   },
+   {
+    "slug": "mosquito-repellent-stickers-patches-canada",
+    "impr": 266,
+    "pos": 11.49,
+    "inbound": 0,
+    "overlap": 1,
+    "sameCluster": false
+   },
+   {
+    "slug": "how-long-do-ticks-live",
+    "impr": 1367,
+    "pos": 8.05,
+    "inbound": 1,
+    "overlap": 0,
+    "sameCluster": true
+   }
+  ]
+ },
+ {
+  "donor": "thermacell-e90-canada-review",
+  "donorImpr": 343,
+  "donorOut": 8,
+  "cluster": "mosquito",
+  "candidates": [
+   {
+    "slug": "crossfire-bed-bug-concentrate-review-canada",
+    "impr": 988,
+    "pos": 7.57,
+    "inbound": 3,
+    "overlap": 1,
+    "sameCluster": false
+   },
+   {
+    "slug": "ortho-home-defense-canada-review",
+    "impr": 834,
+    "pos": 7.23,
+    "inbound": 4,
+    "overlap": 1,
+    "sameCluster": false
+   },
+   {
+    "slug": "wondercide-canada-review",
+    "impr": 434,
+    "pos": 7.73,
+    "inbound": 3,
+    "overlap": 1,
+    "sameCluster": false
+   },
+   {
+    "slug": "why-do-mosquito-bites-itch",
+    "impr": 3986,
+    "pos": 9.41,
+    "inbound": 2,
+    "overlap": 0,
+    "sameCluster": true
+   },
+   {
+    "slug": "what-temperature-kills-mosquitoes",
+    "impr": 1932,
+    "pos": 6.71,
+    "inbound": 3,
+    "overlap": 0,
+    "sameCluster": true
+   },
+   {
+    "slug": "male-vs-female-mosquito",
+    "impr": 1447,
+    "pos": 8.98,
+    "inbound": 1,
+    "overlap": 0,
+    "sameCluster": true
+   }
+  ]
+ },
+ {
+  "donor": "katchy-indoor-insect-trap-review-canada",
+  "donorImpr": 319,
+  "donorOut": 11,
+  "cluster": "general",
+  "candidates": [
+   {
+    "slug": "ortho-home-defense-canada-review",
+    "impr": 834,
+    "pos": 7.23,
+    "inbound": 4,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "wondercide-canada-review",
+    "impr": 434,
+    "pos": 7.73,
+    "inbound": 3,
+    "overlap": 1,
+    "sameCluster": true
+   },
+   {
+    "slug": "crossfire-bed-bug-concentrate-review-canada",
+    "impr": 988,
+    "pos": 7.57,
+    "inbound": 3,
+    "overlap": 1,
+    "sameCluster": false
+   },
+   {
+    "slug": "best-raccoon-live-trap-canada",
+    "impr": 496,
+    "pos": 9.87,
+    "inbound": 3,
+    "overlap": 1,
+    "sameCluster": false
+   },
+   {
+    "slug": "best-professional-mosquito-trap-canada",
+    "impr": 393,
+    "pos": 11.59,
+    "inbound": 2,
+    "overlap": 1,
+    "sameCluster": false
+   },
+   {
+    "slug": "best-bed-bug-trap-canada",
+    "impr": 282,
+    "pos": 15.96,
+    "inbound": 3,
+    "overlap": 1,
+    "sameCluster": false
+   }
+  ]
+ },
+ {
+  "donor": "june-bugs-ontario",
+  "donorImpr": 317,
+  "donorOut": 5,
+  "cluster": "general",
+  "candidates": [
+   {
+    "slug": "what-kills-bed-bugs-instantly-canada",
+    "impr": 1015,
+    "pos": 12.04,
+    "inbound": 4,
+    "overlap": 1,
+    "sameCluster": false
+   },
+   {
+    "slug": "what-does-a-spider-bite-look-like",
+    "impr": 1737,
+    "pos": 8.97,
+    "inbound": 4,
+    "overlap": 0,
+    "sameCluster": true
+   },
+   {
+    "slug": "chigger-bites",
+    "impr": 1156,
+    "pos": 7.41,
+    "inbound": 4,
+    "overlap": 0,
+    "sameCluster": true
+   },
+   {
+    "slug": "no-see-um-bites",
+    "impr": 984,
+    "pos": 6.67,
+    "inbound": 4,
+    "overlap": 0,
+    "sameCluster": true
+   },
+   {
+    "slug": "ortho-home-defense-canada-review",
+    "impr": 834,
+    "pos": 7.23,
+    "inbound": 4,
+    "overlap": 0,
+    "sameCluster": true
+   },
+   {
+    "slug": "best-flea-bomb-canada",
+    "impr": 657,
+    "pos": 8.52,
+    "inbound": 4,
+    "overlap": 0,
+    "sameCluster": true
+   }
+  ]
+ }
+]

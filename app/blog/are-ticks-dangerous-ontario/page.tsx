@@ -150,6 +150,7 @@ export default function AreTicksDangerousPage() {
         <h3>Lone Star Tick (<em>Amblyomma americanum</em>) — Emerging</h3>
         <p>The lone star tick is occasionally found in Southern Ontario, likely transported by migratory birds from the eastern United States. It is associated with alpha-gal syndrome (a red meat allergy triggered by tick saliva), ehrlichiosis, and STARI. The lone star tick is not yet considered established in Ontario, but detections are increasing.</p>
         <p>See: <Link href="/blog/what-ticks-look-like-ontario" className="text-brand-700 hover:underline">How to Identify Ticks in Ontario</Link></p>
+        <p>One thing worth ruling out before you worry: the bright scarlet specks that swarm sunny windowsills, brick walls, and patio stone in spring and fall are almost always clover mites, not ticks. They are roughly 0.75 mm &mdash; smaller than a pinhead &mdash; feed only on plant sap, and do not bite people or pets, and the size-and-setting test that separates them from a real tick is set out in our guide to <Link href="/blog/red-ticks-and-clover-mites" className="text-brand-700 hover:underline">red ticks and tiny red bugs</Link>.</p>
 
         <h2>How Common Is Tick-Borne Disease in the GTA?</h2>
         <p>Lyme disease is a reportable disease in Ontario, meaning every confirmed case must be reported to public health authorities. The numbers tell a clear story of escalating risk:</p>
@@ -180,6 +181,7 @@ export default function AreTicksDangerousPage() {
           <li><strong>Deer population growth:</strong> White-tailed deer — the primary host for adult blacklegged ticks — have thrived in suburban environments across Southern Ontario</li>
           <li><strong>Longer active season:</strong> Blacklegged ticks are active on any day above 4°C, and Ontario is experiencing more warm days earlier in spring and later into fall</li>
         </ul>
+        <p>The winter point is the one that surprises homeowners most, because a hard frost does not reset the population. Blacklegged ticks wait out the cold in leaf litter beneath an insulating layer of snow, and a single tick lives roughly two to three years across its larva, nymph, and adult stages &mdash; so the ticks on your property in September are largely the same ones that will be questing next May. That multi-year clock, and why a tick carried indoors dies within days while one in the yard survives for seasons, is explained in our guide to <Link href="/blog/how-long-do-ticks-live" className="text-brand-700 hover:underline">how long ticks live</Link>.</p>
 
         <h2>Ticks in Your Own Backyard</h2>
         <p>One of the most important things GTA homeowners need to understand is that tick exposure does not require a hike in a provincial park. Ticks live in:</p>
@@ -226,6 +228,7 @@ export default function AreTicksDangerousPage() {
           <li>Monitor for symptoms for 30 days — especially a bull&apos;s-eye rash, fever, or joint pain</li>
           <li>Consult your doctor if any symptoms develop</li>
         </ul>
+        <p>Often there is no tick to find &mdash; just a mark noticed a day later &mdash; and the 24-hour removal window and 30-day symptom watch above only apply if it was a tick that made it. The quickest tell is behaviour rather than appearance: a mosquito welt rises within minutes and itches immediately, while a tick bite is usually painless at the time and the tick stays attached instead of flying off. Our side-by-side on <Link href="/blog/tick-bite-vs-mosquito-bite" className="text-brand-700 hover:underline">telling a tick bite from a mosquito bite</Link> covers both, including how the bite site looks once the tick is off.</p>
         <p>See: <Link href="/blog/how-to-remove-tick-safely" className="text-brand-700 hover:underline">How to Remove a Tick Safely</Link> | <Link href="/blog/tick-bite-symptoms-what-to-do-ontario" className="text-brand-700 hover:underline">Tick Bite Symptoms &amp; What to Do</Link> | <Link href="/blog/tick-removal-tool-guide" className="text-brand-700 hover:underline">Best Tick-Removal Tools Compared</Link></p>
         <AffiliateDisclosure />
         <p className="not-prose text-gray-700">A dedicated tick-removal tool grips the head close to the skin more reliably than household tweezers, reducing the chance of leaving mouthparts behind. See how the options compare in our <Link href="/blog/tick-removal-tool-guide" className="text-brand-700 underline">tick-removal tool guide</Link>, or <BuyLink tag={AMZ_TAG} search="tick removal tool tweezers">check tick-removal tools on Amazon.ca →</BuyLink></p>

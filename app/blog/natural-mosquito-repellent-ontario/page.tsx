@@ -258,6 +258,7 @@ export default function NaturalMosquitoRepellentPage() {
             <li><strong>Bug zappers</strong> — kill mostly beneficial insects, not biting mosquitoes.</li>
             <li><strong>Bracelets and wristbands</strong> — protect a few centimetres around the wrist, useless for full body.</li>
           </ul>
+          <p>Two of those wearables are worth a longer answer, because the one-line dismissal above hides a real distinction. Bracelets vent their oil into the air immediately around the band, which is exactly why <Link href="/blog/mosquito-repellent-bracelets-canada">mosquito repellent bracelets leave your ankles, neck, and far arm unprotected</Link>. Clip-on stickers and patches share that short range, but they answer a question this page otherwise leaves open: Health Canada advises against DEET on infants under six months, and the lemon-eucalyptus pick above is not for children under three, so <Link href="/blog/mosquito-repellent-stickers-patches-canada">repellent stickers and patches for babies too young for skin repellents</Link> go on the stroller or clothing instead of the skin — a supplement to mosquito netting, not a replacement for it.</p>
 
           <h2>Natural Repellents Compared — And Where to Buy</h2>
           <p>Every pick below is stocked in Canada and evidence-ranked above. Prices change constantly, so the buttons go straight to the live Amazon.ca listing (US visitors are auto-routed to Amazon.com). For the full rundown of every repellent type — including DEET and picaridin concentrations — see our <Link href="/blog/mosquito-repellent-guide-ontario-2026">2026 Ontario mosquito repellent guide</Link>.</p>
@@ -389,6 +390,7 @@ export default function NaturalMosquitoRepellentPage() {
             <li><strong>Run a fan</strong> on the patio when you&rsquo;re outside. Cheapest, most effective active deterrent.</li>
             <li><strong>Carry an OLE-based spray</strong> for personal use during long outings or peak dusk activity.</li>
           </ol>
+          <p>Layer all four and you will still take the occasional bite, because every natural repellent above runs out on a schedule. Worth knowing when it happens: the welt is a histamine reaction to proteins in the mosquito&rsquo;s saliva rather than to the puncture itself, which is <Link href="/blog/why-do-mosquito-bites-itch">why mosquito bites itch for days and how long they take to fade</Link>.</p>
 
           <h2>When Natural Isn&rsquo;t Enough</h2>
           <p>For most Ontario yards under low-to-moderate mosquito pressure, the strategy above works. But if your property backs onto a ravine, creek, river, conservation area, or stormwater pond, you&rsquo;re fighting an unwinnable battle with personal repellents alone. The mosquito source — adjacent natural habitat — is producing thousands of mosquitoes per night, and personal repellents only protect you when you remember to apply them.</p>
