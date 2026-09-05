@@ -6,7 +6,7 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 
 const SLUG = 'what-temperature-kills-mosquitoes'
 const DATE = '2026-07-16'
-const TITLE = 'What Temperature Kills Mosquitoes? (Cold, Frost & Winter Explained)'
+const TITLE = 'What Temperature Kills Mosquitoes? 28°F (-2°C) Hard Freeze'
 
 const FAQS = [
   {
@@ -140,8 +140,8 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'What Temperature Kills Mosquitoes? Cold vs Heat',
-  description: 'Active adults die in a hard frost around -2°C (28°F) and stop flying below 10°C (50°F) — but eggs and hibernating females survive winter. Full temp table.',
+  title: 'What Temperature Kills Mosquitoes? 28°F',
+  description: 'Active adult mosquitoes die in a 28°F (-2°C) hard freeze held for hours, and stop flying below 50°F (10°C) — but eggs and hibernating females survive winter.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,

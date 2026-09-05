@@ -15,9 +15,9 @@ const POST = NEW_BLOGS_2[0]
 const UPDATED = POST.date
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Mosquito Repellent Plants: 10 Best for Ontario',
+  title: 'Mosquito Repellent Plants: What Works in Ontario',
   description:
-    'Mosquito repellent plants for Ontario: the 10 that actually work, from lavender to catnip, and the honest limit — they only act on the air right beside them.',
+    'Which mosquito-repelling plants actually work in Ontario gardens: lavender, basil and catnip earn their spot, the garden-centre citronella geranium does not.',
   canonical: `/blog/${POST.slug}`,
   type: 'article',
   publishedTime: POST.date,
@@ -72,7 +72,7 @@ export default function MosquitoRepellentPlantsPage() {
             <span className="text-white">Mosquito-Repelling Plants Ontario</span>
           </nav>
           <span className="bg-brand-800 text-brand-200 text-xs px-3 py-1 rounded-full mb-4 inline-block">Mosquito Control</span>
-          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold mb-4 leading-tight">10 Plants That Repel Mosquitoes in Ontario (Tested in GTA Climate, 2026)</h1>
+          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold mb-4 leading-tight">10 Plants That Repel Mosquitoes in Ontario — and the Ones That Don&apos;t</h1>
           <p className="text-brand-300 text-sm">Plants that actually reduce mosquito pressure in Ontario gardens — what works, what doesn&apos;t, and how to combine them with professional barrier spray.</p>
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>

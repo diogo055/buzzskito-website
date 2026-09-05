@@ -14,7 +14,7 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 const SLUG = 'when-are-mosquitoes-most-active'
 const DATE = '2026-07-13'
 const UPDATED = '2026-09-02'
-const TITLE = 'When Are Mosquitoes Most Active? Time of Day & Temperature'
+const TITLE = 'When Are Mosquitoes Most Active — and When Do They Stop?'
 
 const FAQS = [
   {
@@ -92,10 +92,15 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  // AI Overview answers "dawn and dusk" outright, so the SERP title now sells the
-  // thing the snippet has no room for: the time-of-day + temperature table.
-  title: 'What Time Are Mosquitoes Most Active? Temp Table',
-  description: 'Dawn and dusk are peak — the hour around sunrise and sunset — but Aedes bite in shade all day. Time-of-day table plus the 24-28 C activity sweet spot.',
+  // The head terms here are answered outright by the AI Overview ("dawn and dusk"),
+  // which is why an exact-match title sat at position 4.0 on 6,455 impressions and
+  // still took 0.12%. Restating the question cannot win. So the title now leads with
+  // the half of the answer the snippet never carries — when biting *stops* — which is
+  // also the second-largest query family on this page ("when do mosquitoes go away at
+  // night", "when are mosquitoes least active", "when do mosquitoes stop biting":
+  // ~2,900 impressions between them, all under 0.5%).
+  title: 'When Mosquitoes Are Active, and When They Stop',
+  description: 'Dusk is the peak, from 30 min before sunset to 90 after, and biting bottoms out by 2-4 a.m. Aedes bite in shade all day. Hour-by-hour chart plus temp table.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,

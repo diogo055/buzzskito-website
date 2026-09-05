@@ -13,8 +13,8 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 const SLUG = 'mosquito-repellent-bracelets-canada'
 const DATE = '2026-07-12'
 const UPDATED = '2026-07-12'
-const TITLE = 'Mosquito Repellent Bracelets Canada 2026 — Do They Actually Work?'
-const META_TITLE = 'Do Mosquito Repellent Bracelets Work? Canada'
+const TITLE = 'Mosquito Repellent Bracelets in Canada: Do They Work? Barely.'
+const META_TITLE = 'Do Mosquito Bracelets Work? Barely — Canada'
 
 const FAQS = [
   {
@@ -49,7 +49,7 @@ const FAQS = [
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'Do mosquito repellent bracelets work? The honest 2026 verdict for Canada — citronella vs DEET, when bands actually help (kids, short trips), best-rated options, and where to buy.',
+  description: 'Barely — a band guards only the few centimetres of skin beside it, so ankles and neck still get bitten. When one helps, which bands last, and what beats them.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,

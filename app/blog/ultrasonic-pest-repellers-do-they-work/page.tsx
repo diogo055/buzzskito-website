@@ -14,9 +14,9 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 const SLUG = 'ultrasonic-pest-repellers-do-they-work'
 const DATE = '2026-07-16'
 const UPDATED = '2026-07-16'
-const TITLE = 'Do Ultrasonic Pest Repellers Actually Work? The Evidence Review (2026)'
+const TITLE = 'Do Ultrasonic Pest Repellers Work? The Evidence Says No'
 // SERP title only (H1 + schema keep TITLE). Layout appends ' | BuzzSkito' (12 chars) — keep <= 48.
-const SEO_TITLE = 'Do Ultrasonic Pest Repellers Work? 2026 Evidence'
+const SEO_TITLE = 'Ultrasonic Pest Repellers: The Evidence Says No'
 
 const FAQS = [
   {
@@ -63,7 +63,7 @@ const FAQS = [
 
 export const metadata: Metadata = buildMetadata({
   title: SEO_TITLE,
-  description: 'Do ultrasonic pest repellers work? The FTC warned 60+ makers in 2001 and rodents habituate in 3-7 days. The evidence, the Canadian gap, what works.',
+  description: 'No. The FTC warned 60+ companies in 2001, rodents habituate to the sound within days, and no Canadian regulator checks the box claims. What works instead.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,

@@ -13,8 +13,8 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 const SLUG = 'best-bug-spray-for-kids-canada'
 const DATE = '2026-07-12'
 const UPDATED = '2026-07-12'
-const TITLE = 'Best Bug Spray for Kids in Canada 2026 — Safe Picks by Age'
-const META_TITLE = 'Best Bug Spray for Kids Canada 2026: DEET Ages'
+const TITLE = 'Best Bug Spray for Kids in Canada: Safe Picks by Age'
+const META_TITLE = 'Best Bug Spray for Kids in Canada: Safe by Age'
 
 const FAQS = [
   {
@@ -49,7 +49,7 @@ const FAQS = [
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'Best bug spray for kids in Canada: Health Canada age limits for DEET and icaridin, DEET-free picks, baby vs toddler guidance, and a safe-pick table with where to buy. Updated 2026.',
+  description: 'Health Canada age rules for DEET and icaridin, kid-safe picks from 6 months up, DEET-free options, and how to protect a baby too young for any repellent.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,

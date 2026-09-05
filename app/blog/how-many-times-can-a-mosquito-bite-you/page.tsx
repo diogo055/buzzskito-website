@@ -85,10 +85,15 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  // Snippet-answered question. Title narrows to the "in one night" framing and the
-  // description leads with the cluster-of-bites specific the AI Overview omits.
-  title: 'How Many Times Can a Mosquito Bite in One Night',
-  description: 'No fixed limit: undisturbed, a female fills up in one 2-5 minute bite. Swat at her and she relands — a cluster of 3-4 welts is one mosquito, not a swarm.',
+  // The SERP for the head term is a wall of identical brand-suffixed titles, so the title
+  // carries the exact query PLUS the answer ("No Limit") that none of them state. The old
+  // title narrowed to "in one night", a sub-question, and left the head term unmatched.
+  // Description answers the three sub-questions this page actually owns — the limit, the
+  // interruption mechanic, and the does-she-die myth — and deliberately carries no
+  // itch/welt vocabulary, which was pulling this page onto "why do mosquito bites itch"
+  // (position 2.1, zero clicks) against the page that genuinely answers it.
+  title: 'How Many Times Can a Mosquito Bite You? No Limit',
+  description: 'No fixed limit. Left alone she fills up in one 2-5 minute bite; swat and she relands. She does not die after biting, so a cluster of 3-4 bites is one mosquito.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,

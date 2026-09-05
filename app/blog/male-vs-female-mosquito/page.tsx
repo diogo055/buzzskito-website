@@ -45,8 +45,8 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Male vs Female Mosquito: 8 Differences Compared',
-  description: 'Male vs female mosquito compared across 8 traits — diet, mouthparts, antennae, lifespan (1-2 weeks vs 2-8 weeks) — and why it changes how you treat a yard.',
+  title: 'Male vs Female Mosquito: Only Females Bite',
+  description: 'Only female mosquitoes bite — blood protein and iron build her eggs. Males feed on nectar and cannot pierce skin. Compare antennae, lifespan and behaviour.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,

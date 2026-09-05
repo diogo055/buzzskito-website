@@ -14,7 +14,7 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 const SLUG = 'do-cedar-trees-attract-mosquitoes'
 const DATE = '2026-04-26'
 const UPDATED = '2026-07-12'
-const TITLE = 'Do Cedar Trees Attract Mosquitoes? The Honest Answer'
+const TITLE = 'Do Cedar Trees Attract Mosquitoes? No — The Hedge Hides Them'
 const EXCERPT = 'Cedar trees do not attract mosquitoes — cedar oil actually repels them. But dense cedar hedges create damp, shaded micro-environments where mosquitoes rest during the day. Here is what to do.'
 
 const FAQS = [
@@ -61,8 +61,8 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Do Cedar Trees Attract Mosquitoes? Hedge vs Tree',
-  description: 'Cedar trees do not attract mosquitoes — cedar oil mildly repels them. Dense untrimmed hedges are the problem: prune, clear the base, treat the underside.',
+  title: 'Do Cedars Attract Mosquitoes? No, They Hide Them',
+  description: 'No — cedar oil mildly repels them. Mosquitoes rest in the cool, damp shade inside a dense cedar hedge, then feed at dusk. Manage the hedge, do not remove it.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,

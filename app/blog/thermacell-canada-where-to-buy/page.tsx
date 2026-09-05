@@ -14,7 +14,7 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 const SLUG = 'thermacell-canada-where-to-buy'
 const DATE = '2026-05-01'
 const UPDATED = '2026-09-04'
-const TITLE = 'Thermacell Canada: Best Models, Prices & Where to Buy 2026'
+const TITLE = 'Thermacell Canada: Which Model to Buy and Where to Buy It'
 
 const FAQS = [
   {
@@ -76,13 +76,16 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  // "thermacell canadian tire" (6.4K impr, pos 7.6) is retailer-owned intent —
-  // canadiantire.ca wins that click and no description changes that. This one
-  // serves the adjacent, winnable job: price-checking across retailers before
-  // driving to a store. Leads with the three model prices, names the retailers
-  // the page actually tabulates, and flags the Liv (US-only) gotcha.
-  title: 'Thermacell Canada: E55 vs E90 vs Patio Shield',
-  description: 'Thermacell Canada prices: Patio Shield $35-$50, E55 $70-$90, E90 $90-$120. Sold at Canadian Tire, Home Depot, Rona & MEC. Refills $15-$22. Liv is US-only.',
+  // "thermacell canadian tire" (11.3K impr, pos 8.9, 0.08% CTR) is retailer-owned
+  // intent — canadiantire.ca wins that click and no title changes that. This one
+  // aims at the non-retailer demand on the same URL: "buy thermacell (near me)",
+  // "best thermacell", "thermacell e55 vs e90", "thermacell liv canada". Every
+  // promise below is delivered on the page: the model table, the which-chain-
+  // carries-what table, the refill compatibility table, and the Liv (US-only)
+  // note. No prices — the page deliberately publishes none, and the previous
+  // description promised a price table that does not exist.
+  title: 'Thermacell Canada: Which Model & Where to Buy',
+  description: 'Which Thermacell models sell in Canada (Patio Shield, E55, E90, EX90), which retailers stock what, which refills fit, and the model Thermacell keeps US-only.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,

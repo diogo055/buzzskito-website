@@ -14,8 +14,8 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 const SLUG = 'no-see-um-bites'
 const DATE = '2026-07-19'
 const UPDATED = '2026-07-19'
-const TITLE = 'No-See-Um Bites: What They Look Like, Why They Itch So Much & How to Treat Them (2026)'
-const META_TITLE = 'No-See-Um Bites: 3 Look-Alikes and How to Treat'
+const TITLE = 'No-See-Um Bites: What They Look Like, How Long They Last & How to Treat Them'
+const META_TITLE = 'How No-See-Um Bites Look & How Long They Last'
 
 const FAQS = [
   {
@@ -95,7 +95,7 @@ const FAQS = [
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
   description:
-    'What do no-see-um bites look like, why do they itch more than mosquito bites, and how long do they last? A bite-ID guide with a no-see-um vs mosquito vs flea vs chigger comparison, itch-relief treatment, why they slip through screens, and prevention.',
+    'Clustered red welts and a burning first sting: what no-see-um bites look like, how long they last, how to ease the itch, and why window screens let them in.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,

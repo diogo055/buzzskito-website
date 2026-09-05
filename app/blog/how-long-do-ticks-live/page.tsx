@@ -8,7 +8,7 @@ const SLUG = 'how-long-do-ticks-live'
 const DATE = '2026-07-15'
 const UPDATED = '2026-07-15'
 const TITLE = 'How Long Do Ticks Live — and Can They Live in Your House? (Ontario)'
-const META_TITLE = 'How Long Do Ticks Live? Without a Host, Indoors'
+const META_TITLE = 'How Long Do Ticks Live? 2–3 Years, Days Indoors'
 
 const FAQS = [
   {
@@ -83,7 +83,7 @@ const FAQS = [
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'Ticks live 2–3 years outdoors but only days to about two weeks indoors — the air is too dry. Lifespan by stage, winter survival, and time spent on a dog.',
+  description: 'Ticks live 2–3 years outdoors but only days in dry indoor air, so they can’t infest a home. Why a frost doesn’t kill them all, and how long they stay on a dog.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,

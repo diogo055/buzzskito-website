@@ -5,8 +5,8 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 
 const SLUG = 'what-does-a-spider-bite-look-like'
 const DATE = '2026-07-19'
-const TITLE = 'What Does a Spider Bite Look Like? Identification, Stages & When to Worry (2026)'
-const META_TITLE = 'What Does a Spider Bite Look Like? ID Guide'
+const TITLE = 'What Does a Spider Bite Look Like? Identification, Look-Alikes & When to Worry'
+const META_TITLE = "Is It a Spider Bite? How to Tell (Most Aren't)"
 
 const FAQS = [
   {
@@ -114,7 +114,7 @@ const FAQS = [
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
   description:
-    'What does a spider bite look like? How to identify one, why most suspected spider bites are something else, brown recluse and black widow warning signs, healing timeline, and when to get urgent care.',
+    'Most suspected spider bites are something else, often a skin infection. How to tell one from mosquito, bed bug and tick bites, and when to see a doctor.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,

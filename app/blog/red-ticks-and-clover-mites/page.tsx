@@ -84,8 +84,8 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Red Ticks or Clover Mites? Tell Apart by Size',
-  description: 'Red ticks are usually clover mites: 0.75 mm, bright red, swarming sunny walls. An engorged tick is 4–10 mm and attached to skin. Side-by-side size chart.',
+  title: 'Red Ticks: What That Tiny Red Bug Actually Is',
+  description: 'No common tick is bright red. A 0.75 mm scarlet speck swarming a sunny wall is a harmless clover mite; a 4–10 mm rust-red bug on skin is a fed tick.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,

@@ -5,8 +5,8 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 
 const SLUG = 'mosquito-bite-vs-spider-bite'
 const DATE = '2026-07-16'
-const TITLE = 'Mosquito Bite vs Spider Bite: How to Tell the Difference (2026)'
-const META_TITLE = 'Mosquito Bite vs Spider Bite: How to Tell'
+const TITLE = 'Mosquito Bite vs Spider Bite: How to Tell Them Apart'
+const META_TITLE = 'Mosquito vs Spider Bite: One Mark or Several?'
 
 const FAQS = [
   {
@@ -49,7 +49,7 @@ const FAQS = [
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'Mosquito bite vs spider bite: mosquito bites come in itchy clusters within minutes; spider bites are usually a single painful mark. Compare appearance, number, pain, timing, and danger — plus when to see a doctor. Ontario 2026 guide.',
+  description: 'Mosquito bites come in itchy clusters and rarely hurt; a spider bite is usually one painful mark. Compare number, pain, timing, and when to see a doctor.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,

@@ -15,8 +15,8 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 const SLUG = 'best-yellow-jacket-trap-canada'
 const DATE = '2026-07-21'
 const UPDATED = '2026-07-21'
-const TITLE = 'Best Yellow Jacket Trap Canada 2026 — And the SKU Mistake Everyone Makes'
-const META_TITLE = 'Best Yellow Jacket Trap Canada 2026: SKU Warning'
+const TITLE = 'Best Yellow Jacket Traps in Canada — And the Lure Mistake That Leaves Ontario Traps Empty'
+const META_TITLE = 'Best Yellow Jacket Traps & Bait in Canada'
 
 const FAQS = [
   {
@@ -75,7 +75,7 @@ const FAQS = [
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'The best yellow jacket traps in Canada for 2026 — and the RESCUE! "West of the Rockies" SKU mistake that leaves Ontario traps empty. Protein vs sugar bait timing, placement science, and honest trap-out expectations.',
+  description: 'Four yellow jacket traps ranked for Canadian yards, the East vs West lure mix-up on RESCUE! disposables, protein-vs-sugar bait timing, and where to hang them.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,

@@ -13,8 +13,8 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 const SLUG = 'ortho-home-defense-canada-review'
 const DATE = '2026-07-12'
 const UPDATED = '2026-07-12'
-const TITLE = 'Ortho Home Defense Canada 2026 — Review + What You Can Actually Buy'
-const META_TITLE = 'Ortho Home Defense Canada 2026: What\'s Sold Here'
+const TITLE = 'Ortho Home Defense in Canada: Does It Actually Kill Mosquitoes and Ticks?'
+const META_TITLE = 'Ortho Home Defense: Does It Kill Mosquitoes?'
 
 const FAQS = [
   {
@@ -49,7 +49,7 @@ const FAQS = [
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'Honest Ortho Home Defense, Bug B Gon & mosquito review for Canada: which SKUs are US-only, what is PMRA-registered here, Canadian equivalents, safe use, and when to hire a pro. Updated 2026.',
+  description: 'What Ortho Home Defense and Bug B Gon actually handle around a Canadian home, why neither is a whole-yard mosquito or tick answer, and what to use instead.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,

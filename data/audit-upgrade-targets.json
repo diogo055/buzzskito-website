@@ -1,0 +1,317 @@
+[
+ {
+  "s": "thermacell-canada-where-to-buy",
+  "c": "mosquito",
+  "i": 3859,
+  "cl": 7,
+  "ctr": 0.1813941435605079,
+  "pos": 9.34,
+  "gain": 11.509520000000002
+ },
+ {
+  "s": "when-are-mosquitoes-most-active",
+  "c": "mosquito",
+  "i": 2675,
+  "cl": 3,
+  "ctr": 0.11214953271028037,
+  "pos": 8.27,
+  "gain": 8.282
+ },
+ {
+  "s": "how-many-times-can-a-mosquito-bite-you",
+  "c": "mosquito",
+  "i": 2400,
+  "cl": 5,
+  "ctr": 0.20833333333333334,
+  "pos": 7.88,
+  "gain": 7.0520000000000005
+ },
+ {
+  "s": "what-temperature-kills-mosquitoes",
+  "c": "mosquito",
+  "i": 1932,
+  "cl": 8,
+  "ctr": 0.4140786749482402,
+  "pos": 6.71,
+  "gain": 5.02496
+ },
+ {
+  "s": "what-does-a-spider-bite-look-like",
+  "c": "general",
+  "i": 1737,
+  "cl": 4,
+  "ctr": 0.23028209556706966,
+  "pos": 8.97,
+  "gain": 9.8368
+ },
+ {
+  "s": "male-vs-female-mosquito",
+  "c": "mosquito",
+  "i": 1447,
+  "cl": 2,
+  "ctr": 0.138217000691085,
+  "pos": 8.98,
+  "gain": 4.41816
+ },
+ {
+  "s": "how-long-do-ticks-live",
+  "c": "tick",
+  "i": 1367,
+  "cl": 3,
+  "ctr": 0.2194586686174104,
+  "pos": 8.05,
+  "gain": 3.8944
+ },
+ {
+  "s": "red-ticks-and-clover-mites",
+  "c": "tick",
+  "i": 1311,
+  "cl": 3,
+  "ctr": 0.2288329519450801,
+  "pos": 7.18,
+  "gain": 3.7152
+ },
+ {
+  "s": "best-yellow-jacket-trap-canada",
+  "c": "wasp",
+  "i": 1017,
+  "cl": 11,
+  "ctr": 1.0816125860373649,
+  "pos": 9.31,
+  "gain": 0.934
+ },
+ {
+  "s": "no-see-um-bites",
+  "c": "general",
+  "i": 984,
+  "cl": 10,
+  "ctr": 1.016260162601626,
+  "pos": 6.67,
+  "gain": 3.0976
+ },
+ {
+  "s": "best-pump-pressure-sprayer-canada",
+  "c": "sprayer",
+  "i": 914,
+  "cl": 3,
+  "ctr": 0.3282275711159737,
+  "pos": 10.85,
+  "gain": 2.4448000000000003
+ },
+ {
+  "s": "best-bug-spray-for-kids-canada",
+  "c": "general",
+  "i": 869,
+  "cl": 5,
+  "ctr": 0.5753739930955121,
+  "pos": 10.57,
+  "gain": 3.9616
+ },
+ {
+  "s": "mosquito-bite-vs-spider-bite",
+  "c": "mosquito",
+  "i": 839,
+  "cl": 0,
+  "ctr": 0,
+  "pos": 7.85,
+  "gain": 2.75192
+ },
+ {
+  "s": "ortho-home-defense-canada-review",
+  "c": "general",
+  "i": 834,
+  "cl": 6,
+  "ctr": 0.7194244604316546,
+  "pos": 7.23,
+  "gain": 3.4176
+ },
+ {
+  "s": "mosquito-repellent-bracelets-canada",
+  "c": "mosquito",
+  "i": 820,
+  "cl": 5,
+  "ctr": 0.6097560975609756,
+  "pos": 7.85,
+  "gain": 1.8696
+ },
+ {
+  "s": "do-cedar-trees-attract-mosquitoes",
+  "c": "mosquito",
+  "i": 819,
+  "cl": 1,
+  "ctr": 0.1221001221001221,
+  "pos": 5.1,
+  "gain": 2.52232
+ },
+ {
+  "s": "ultrasonic-pest-repellers-do-they-work",
+  "c": "wildlife",
+  "i": 798,
+  "cl": 1,
+  "ctr": 0.12531328320802004,
+  "pos": 8.97,
+  "gain": 6.627280000000001
+ },
+ {
+  "s": "mosquito-repellent-plants-ontario",
+  "c": "mosquito",
+  "i": 760,
+  "cl": 1,
+  "ctr": 0.13157894736842105,
+  "pos": 7.46,
+  "gain": 2.3288
+ },
+ {
+  "s": "baby-ticks-nymphs-seed-ticks-ontario",
+  "c": "tick",
+  "i": 704,
+  "cl": 2,
+  "ctr": 0.2840909090909091,
+  "pos": 7.96,
+  "gain": 1.9328
+ },
+ {
+  "s": "mosquito-coils-canada",
+  "c": "mosquito",
+  "i": 656,
+  "cl": 3,
+  "ctr": 0.4573170731707317,
+  "pos": 8.97,
+  "gain": 1.6596800000000003
+ },
+ {
+  "s": "best-earwig-killer-canada",
+  "c": "general",
+  "i": 606,
+  "cl": 6,
+  "ctr": 0.9900990099009901,
+  "pos": 9.94,
+  "gain": 1.9584000000000004
+ },
+ {
+  "s": "doktor-doom-canada-guide",
+  "c": "general",
+  "i": 599,
+  "cl": 2,
+  "ctr": 0.333889816360601,
+  "pos": 6.61,
+  "gain": 3.1936
+ },
+ {
+  "s": "smells-mosquitoes-hate",
+  "c": "mosquito",
+  "i": 576,
+  "cl": 1,
+  "ctr": 0.1736111111111111,
+  "pos": 6.06,
+  "gain": 1.72528
+ },
+ {
+  "s": "best-solar-bug-zapper-canada",
+  "c": "general",
+  "i": 573,
+  "cl": 7,
+  "ctr": 1.2216404886561956,
+  "pos": 8.75,
+  "gain": 1.4272000000000002
+ },
+ {
+  "s": "can-mosquitoes-bite-through-clothes",
+  "c": "mosquito",
+  "i": 530,
+  "cl": 0,
+  "ctr": 0,
+  "pos": 9.21,
+  "gain": 1.7384
+ },
+ {
+  "s": "best-raccoon-live-trap-canada",
+  "c": "wildlife",
+  "i": 496,
+  "cl": 4,
+  "ctr": 0.8064516129032258,
+  "pos": 9.87,
+  "gain": 2.62256
+ },
+ {
+  "s": "flea-bites-on-humans",
+  "c": "general",
+  "i": 484,
+  "cl": 2,
+  "ctr": 0.4132231404958678,
+  "pos": 10.26,
+  "gain": 2.4576
+ },
+ {
+  "s": "best-centipede-killer-canada",
+  "c": "general",
+  "i": 462,
+  "cl": 4,
+  "ctr": 0.8658008658008658,
+  "pos": 11.51,
+  "gain": 1.6768
+ },
+ {
+  "s": "what-eats-ticks-and-mosquitoes",
+  "c": "tick",
+  "i": 453,
+  "cl": 0,
+  "ctr": 0,
+  "pos": 8.42,
+  "gain": 1.4496
+ },
+ {
+  "s": "tick-season-ontario-when-are-ticks-active",
+  "c": "tick",
+  "i": 441,
+  "cl": 3,
+  "ctr": 0.6802721088435374,
+  "pos": 8.96,
+  "gain": 0.9312
+ },
+ {
+  "s": "best-spider-spray-canada",
+  "c": "general",
+  "i": 438,
+  "cl": 5,
+  "ctr": 1.1415525114155252,
+  "pos": 8.48,
+  "gain": 1.2032
+ },
+ {
+  "s": "ultimate-tick-control-guide-ontario",
+  "c": "tick",
+  "i": 429,
+  "cl": 4,
+  "ctr": 0.9324009324009324,
+  "pos": 13.91,
+  "gain": 0.7328
+ },
+ {
+  "s": "best-flea-spray-for-home-canada",
+  "c": "general",
+  "i": 426,
+  "cl": 3,
+  "ctr": 0.704225352112676,
+  "pos": 10.58,
+  "gain": 1.7664
+ },
+ {
+  "s": "flowtron-bug-zapper-canada",
+  "c": "general",
+  "i": 414,
+  "cl": 2,
+  "ctr": 0.4830917874396135,
+  "pos": 7.41,
+  "gain": 2.0096
+ },
+ {
+  "s": "what-blood-type-do-mosquitoes-bite",
+  "c": "mosquito",
+  "i": 407,
+  "cl": 1,
+  "ctr": 0.2457002457002457,
+  "pos": 9.42,
+  "gain": 1.1709600000000002
+ }
+]

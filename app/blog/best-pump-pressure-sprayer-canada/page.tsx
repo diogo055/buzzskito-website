@@ -14,8 +14,8 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 const SLUG = 'best-pump-pressure-sprayer-canada'
 const DATE = '2026-07-21'
 const UPDATED = '2026-07-21'
-const TITLE = 'Best Pump Pressure Sprayer Canada 2026 — Chapin vs Solo Hand-Pump Tank Sprayers Compared'
-const META_TITLE = 'Best Pump Pressure Sprayer Canada 2026 Compared'
+const TITLE = 'Best Pump Sprayer Canada — Chapin vs Solo Hand-Pump Tank Sprayers Compared'
+const META_TITLE = 'Best Pump Sprayer Canada: Chapin vs Solo'
 
 const FAQS = [
   {
@@ -70,7 +70,7 @@ const FAQS = [
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'The best pump pressure sprayers in Canada for 2026: Chapin vs Solo hand-pump tank sprayers compared on seal quality, tank size, wand, and value — plus how to size one, why Viton seals matter, and maintenance that makes it last. Updated 2026.',
+  description: 'Chapin vs Solo hand-pump sprayers compared for Canadian yards: which seals survive harsh concentrates, what tank size you need, and how to make one last.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
