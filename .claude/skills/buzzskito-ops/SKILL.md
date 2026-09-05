@@ -197,3 +197,52 @@ and prefer within-page or within-country comparisons.
 | `data/geo-slug-finding.md` | the slug/title measurement behind rule 6 |
 | `data/false-claims-seed.json` | 119 verified-false claims, for triaging the unaudited pages |
 | `data/ai-citation-pattern.md` | what earns an AI-engine citation here |
+
+## 11. Do not re-path URLs. The `/blog/` prefix is not a problem.
+
+Researched 2026-09-05 against Google's own statements, then checked against this site's data.
+This question comes up repeatedly and the answer is settled.
+
+**Google's position, in their own words:**
+- Their only URL-structure document is about *crawlability*, not ranking, and `/blog/<slug>`
+  already satisfies every requirement in it.
+- Mueller: *"we don't count slashes in the URLs"* — folder depth is not counted. **Click depth**
+  is what matters, and that is a linking property, not a path property. Moving `/blog/x` to `/x`
+  changes zero clicks.
+- Mueller: *"the URL alone brings minimal additional signal for search engines."*
+- Asked in June 2026 about a `/blog/` prefix specifically: *"this likely isn't going to make or
+  break your site"* — he treated it as an analytics decision.
+- On re-pathing for SEO: *"Some risk + usually no gain."* And *"change only one thing at a time."*
+
+**This site's own data refutes the hypothesis outright.** If `/blog/` suppressed pages, the
+root-level pages would do better. Measured, Canada, one month:
+
+| | Pages | Impressions/page | CTR | Avg position |
+|---|---|---|---|---|
+| `/blog/*` | 331 | **720** | **0.93%** | **8.7** |
+| root-level | 118 | 157 | 0.43% | 15.3 |
+
+The blog pages outrank the root pages by six and a half positions.
+
+**Folklore killed:** "money pages belong at root"; "flat URLs outrank deep URLs"; "shorter URLs
+rank better" (the one study behind it attributes its own correlation to click depth); the
+subdomain-vs-subfolder migration case studies (those changed *hostnames* — a prefix does not).
+
+**The real structural lever is internal linking, and it needs no URL change.** Measured here:
+
+| Inbound internal links | Pages | Impressions/page | Clicks/page |
+|---|---|---|---|
+| 0-4 | 121 | 357 | 1.5 |
+| 10-19 | 65 | **1,204** | **13.5** |
+| 45+ | 5 | 949 | 8.2 |
+
+3.4x the impressions in the useful band, plateauing past 45 — independently reproducing the
+Zyppy 23M-link finding on this site. **121 pages sit at 0-4.** Correlational, and reverse
+causation is plausible, but the fix is additive and carries no URL risk either way.
+
+**Confirmed service-side cannibalization** — worth more than any blog work because it is the
+$1,222 side. Nine URLs compete for "mosquito control toronto": best-mosquito-control-companies-toronto
+(pos 7.3), toronto-mosquito-control (24.7), pest-control-toronto (45.7), the homepage (19.4),
+and the Vaughan and Etobicoke city pages at 66 and 91. ~2,240 impressions split nine ways.
+Consolidating is the highest-value structural fix available — and it touches the service pages,
+so it needs the owner's explicit approval before anyone starts.
