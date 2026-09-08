@@ -48,7 +48,7 @@ const FAQS = [
   },
   {
     question: 'When is dust the wrong tool for wasps?',
-    answer: 'On exposed aerial nests — the grey paper basketballs hanging from a branch, eave, or soffit, and the small open umbrella combs under railings. Dust earns its keep inside tunnels and voids, where wasps must walk through a powdered passage; on an exposed nest there is no tunnel to contaminate, and standing under a live colony puffing powder upward is a bad afternoon. Aerial nests are what jet foams and long-range liquid sprays are for: a rated 3-plus-metre stream, applied at night, saturating the envelope and the single entrance hole at the bottom. Match the weapon to the architecture — dust for ground and voids, foam and jet spray for exposed paper — and most wasp jobs pick their own tool.',
+    answer: 'On exposed aerial nests — the grey paper basketballs hanging from a branch, eave, or soffit, and the small open umbrella combs under railings. Dust earns its keep inside tunnels and voids, where wasps must walk through a powdered passage; on an exposed nest there is no tunnel to contaminate, and standing under a live colony puffing powder upward is a bad afternoon. Aerial nests are what the pressurised foam and stream cans are for: applied at night from the full distance the manufacturer publishes for your can, saturating the envelope and the single entrance hole at the bottom. Match the weapon to the architecture — dust for ground and voids, foam and jet spray for exposed paper — and most wasp jobs pick their own tool.',
   },
   {
     question: 'What time of day should a wasp nest be treated?',
@@ -108,7 +108,7 @@ export default function WaspDustCanadaPage() {
               <li><strong>Why dust wins in tunnels:</strong> wasps keep using a dusted entrance and deliver the poison to the galleries themselves &mdash; a 24&ndash;48 hour colony kill.</li>
               <li><strong>The legal line:</strong> Delta Dust is commercial-class here; carbaryl (Sevin) consumer dusts left the Canadian market years ago. Check any can for a PCP number.</li>
               <li><strong>The DIY lane that is legal:</strong> jet foam down a single-entrance lawn nest at dusk &mdash; foam expands into the tunnel and does a physical version of the same job.</li>
-              <li><strong>Where dust is wrong anyway:</strong> exposed aerial paper nests &mdash; those are foam and long-range jet spray territory.</li>
+              <li><strong>Where dust is wrong anyway:</strong> exposed aerial paper nests &mdash; those are foam and stream-aerosol territory.</li>
               <li><strong>Wall voids are the hardest no:</strong> commercial product, unforgiving technique, and sealing a live void drives wasps indoors through the drywall.</li>
               <li><strong>Diatomaceous earth is not a substitute</strong> &mdash; domestic-class, yes; fast enough for a defended colony, no.</li>
             </ul>
@@ -131,7 +131,7 @@ export default function WaspDustCanadaPage() {
                 score: 9.0,
                 featured: true,
                 pros: ['Canadian label, PCP-registered, homeowner-legal', 'Foam physically fills the tunnel — the geometry dust exploits', 'Nest typically uninhabitable within about 48 hours'],
-                cons: ['Single-entrance lawn nests only — voids and multi-hole nests need a pro', 'Shorter jet than the long-range liquid cans'],
+                cons: ['Single-entrance lawn nests only — voids and multi-hole nests need a pro', 'Shorter jet than a pressurised aerosol can'],
               },
               {
                 badge: 'Best Applicator',
@@ -199,7 +199,7 @@ export default function WaspDustCanadaPage() {
 
           <h2>The Legal Playbook, by Nest Type</h2>
           <p><strong>Ground nest, one entrance hole:</strong> this is the legitimate DIY lane, and the tool is a PMRA-registered <strong>jet foam</strong> &mdash; Wilson OneShot Jet Foam is the Canadian standard &mdash; applied at dusk from two to three metres. Expanding foam is the physical cousin of the dust trick: it fills the tunnel dust would have coated, pushes product toward the galleries, and persists so returning foragers must dig through it. Soak the entrance, leave the hole open, walk away, and expect near-zero traffic within 48 hours. The complete protocol, including the boiling-water and gasoline myths, lives in our <Link href="/blog/how-to-get-rid-of-ground-wasps-canada">ground wasp guide</Link>.</p>
-          <p><strong>Exposed aerial nest:</strong> dust was never the right tool here anyway &mdash; see the next section. Reach for a foam or long-range liquid jet from our <Link href="/blog/best-wasp-nest-spray-canada">Canadian wasp spray round-up</Link>, at night, from the full rated distance.</p>
+          <p><strong>Exposed aerial nest:</strong> dust was never the right tool here anyway &mdash; see the next section. Reach for a foam or stream aerosol from our <Link href="/blog/best-wasp-nest-spray-canada">Canadian wasp spray round-up</Link>, at night, from the full rated distance.</p>
           <p><strong>Wall void, deck, soffit, retaining wall, or any nest with more than one entrance:</strong> hire the dust. A licensed operator injects it into the void, leaves the entries open so the colony tracks it home, confirms the kill in a day or two, and only then seals. A single-nest call is one of the cheapest jobs in Canadian pest control &mdash; our <Link href="/pest-control-cost-canada">cost guide</Link> carries current ranges &mdash; and it buys the one thing no retail product provides: someone who has done the unforgiving version of this before.</p>
           <div className="not-prose my-6 rounded-xl bg-amber-50 border-l-4 border-amber-400 p-4">
             <p className="text-sm text-gray-800 leading-relaxed">
@@ -221,7 +221,7 @@ export default function WaspDustCanadaPage() {
 
           <h2>When Dust Is the Wrong Tool Entirely</h2>
           <p>Dust&rsquo;s superpower is the enclosed passage, so it has a sharply defined failure case: <strong>the exposed aerial nest</strong>. The grey paper basketball on a branch or under an eave, and the open umbrella comb of a paper wasp under a railing, offer no tunnel to contaminate &mdash; the envelope and comb are right there in the open air. Puffing powder up at one from below deposits a little dust on the outside, thoroughly announces your presence, and leaves the colony largely intact and entirely annoyed.</p>
-          <p>Exposed nests are what the pressurized can was born for: saturate the envelope and the entrance hole at the bottom with a foam or long-range jet, at night, from the product&rsquo;s full rated distance. Our <Link href="/blog/best-wasp-killer-canada">best wasp killer guide</Link> matches every nest architecture to its weapon &mdash; foam, jet, dust, and trap &mdash; and our <Link href="/blog/how-to-get-rid-of-wasps-canada">complete Canadian wasp guide</Link> covers identification if you are not sure what is building what. If you are working anywhere near a colony in the meantime, dress for it &mdash; our <Link href="/blog/bug-protective-clothing-canada">protective clothing guide</Link> covers what actually stops a stinger.</p>
+          <p>Exposed nests are what the pressurized can was born for: saturate the envelope and the entrance hole at the bottom with a foam or stream aerosol, at night, from the product&rsquo;s full rated distance. Our <Link href="/blog/best-wasp-killer-canada">best wasp killer guide</Link> matches every nest architecture to its weapon &mdash; foam, jet, dust, and trap &mdash; and our <Link href="/blog/how-to-get-rid-of-wasps-canada">complete Canadian wasp guide</Link> covers identification if you are not sure what is building what. If you are working anywhere near a colony in the meantime, dress for it &mdash; our <Link href="/blog/bug-protective-clothing-canada">protective clothing guide</Link> covers what actually stops a stinger.</p>
 
           <h2>Wasp Dust in Canada &mdash; Key Facts</h2>
           <div className="not-prose rounded-xl border border-navy-100 overflow-x-auto my-6">
@@ -232,7 +232,7 @@ export default function WaspDustCanadaPage() {
                   ['Why it works', 'Wasps track dust through the tunnel into the galleries — reaches queen and brood'],
                   ['Kill timeline', '24–48 hours for a professionally dusted colony'],
                   ['Best targets', 'Ground nests and wall-void nests — any enclosed entrance passage'],
-                  ['Wrong target', 'Exposed aerial paper nests — use foam or long-range jet spray at night'],
+                  ['Wrong target', 'Exposed aerial paper nests — use foam or stream aerosol at night'],
                   ['Canadian legality', 'Delta Dust is commercial class — licensed applicators only; Sevin-type consumer dusts long off the market'],
                   ['Grey-market imports', 'No Canadian label, no PCP number, no legal homeowner use'],
                   ['Legal DIY equivalent', 'PMRA-registered jet foam into a single-entrance ground nest at dusk'],

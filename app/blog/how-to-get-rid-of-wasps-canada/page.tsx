@@ -40,7 +40,7 @@ const FAQS = [
   },
   {
     question: 'What wasp sprays are legal in Canada?',
-    answer: 'Look for a Pest Control Products (PCP) registration number on the can — that is the marker of a Health Canada / PMRA-registered domestic-class product. Legitimate Canadian options include Raid Max Wasp & Hornet Killer, Ortho Home Defense Hornet & Wasp Killer foam, Wilson WaspOut, and KONK aerosols, all of which throw a 2–4 metre jet or foam. What you should not use: US-label products that cross the border through marketplace sellers — US Spectracide formulations, professional Wasp-Freeze aerosols, carbaryl (Sevin) dust, and deltamethrin dusts like Delta Dust are either not registered for Canadian residential use or restricted to licensed commercial applicators here. No PCP number on the label means it is not legal to use in Canada.',
+    answer: 'Look for a Pest Control Products (PCP) registration number on the can — that is the marker of a Health Canada / PMRA-registered domestic-class product. Legitimate Canadian options include Raid Max Wasp & Hornet Killer, Ortho Wasp B Gon MAX, Wilson WaspOut, and KONK aerosols, all of which throw a 2–4 metre jet or foam. What you should not use: US-label products that cross the border through marketplace sellers — US Spectracide formulations, professional Wasp-Freeze aerosols, carbaryl (Sevin) dust, and deltamethrin dusts like Delta Dust are either not registered for Canadian residential use or restricted to licensed commercial applicators here. No PCP number on the label means it is not legal to use in Canada.',
   },
   {
     question: 'How do I find a wasp nest in my yard?',
@@ -267,7 +267,7 @@ export default function HowToGetRidOfWaspsCanadaPage() {
 
           <h2>The PMRA Line: What Is Legal in Canada (and What Is Not)</h2>
           <p>This is where Canadian and American advice diverge sharply, and where a lot of imported internet wisdom goes wrong. In Canada, any pesticide sold for home use must carry a <strong>Pest Control Products (PCP) registration number</strong> from Health Canada&rsquo;s PMRA on the label. Flip the can over; if there is no PCP number, it is not legal to sell or use here.</p>
-          <p>The registered domestic-class options — Raid Max Wasp &amp; Hornet Killer, Ortho Home Defense Hornet &amp; Wasp Killer foam, Wilson WaspOut, KONK — are all pyrethroid jet or foam aerosols that do the job on exposed nests. What keeps showing up in US forums and grey-market marketplace listings, and does <em>not</em> belong in a Canadian garage:</p>
+          <p>The registered domestic-class options — Raid Max Wasp &amp; Hornet Killer, Ortho Wasp B Gon MAX, Wilson WaspOut, KONK — are all pyrethroid jet or foam aerosols that do the job on exposed nests. What keeps showing up in US forums and grey-market marketplace listings, and does <em>not</em> belong in a Canadian garage:</p>
           <ul>
             <li><strong>Sevin (carbaryl) dust</strong> — the classic US forum answer for ground nests. Residential carbaryl uses of this kind are not registered in Canada; the US-label dust is a grey-market import here.</li>
             <li><strong>Delta Dust and other deltamethrin dusts</strong> — the product professionals inject into wall voids. Commercial class in Canada: legal for licensed applicators, not for homeowners, which is precisely why void nests are a hire-a-pro job.</li>

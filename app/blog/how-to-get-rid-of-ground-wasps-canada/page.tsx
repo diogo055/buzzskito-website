@@ -199,7 +199,7 @@ export default function HowToGetRidOfGroundWaspsCanadaPage() {
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the gear this guide uses:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="wilson one shot foam wasp hornet killer">Wilson OneShot Jet Foam →</BuyLink>
-            <BuyLink tag={AMZ_TAG} search="raid max wasp hornet bug killer">Raid Max long-range jet →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="raid max wasp hornet bug killer">Raid Max Wasp &amp; Hornet Foam →</BuyLink>
             <BuyLink tag={AMZ_TAG} search="rescue why trap wasp hornet yellowjacket">RESCUE! WHY Trap →</BuyLink>
           </div>
 
