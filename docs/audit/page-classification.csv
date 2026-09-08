@@ -1,0 +1,701 @@
+url,clicks,impressions,position,actual_ctr,expected_ctr,ctr_residual,lost_clicks,intent,top_query,queries_seen,has_affiliate_link,word_count,benchmark_covers_position
+/blog/when-are-mosquitoes-most-active,328,87483,5.6,0.375,2.08,-1.705,-1492,question,what time of day are mosquitoes most active,72,yes,6068,yes
+/blog/how-many-times-can-a-mosquito-bite-you,294,56945,5.2,0.516,2.74,-2.224,-1266,question,how many times can a mosquito bite you,82,no,4399,yes
+/blog/bugs-that-look-like-ticks,1222,139613,7.4,0.875,1.45,-0.575,-802,commercial,bugs that look like ticks,179,yes,6268,yes
+/blog/mosquito-season-gta-when-does-it-start,273,37574,4.8,0.727,2.74,-2.013,-757,other,mosquito season ontario,34,yes,1692,yes
+/blog/black-flies-ontario-when-they-come-out,1269,90033,6.3,1.409,2.08,-0.671,-604,other,black flies ontario,1234,yes,3358,yes
+/blog/what-temperature-kills-mosquitoes,118,36534,6.5,0.323,1.45,-1.127,-412,other,at what temperature do mosquitoes die,24,no,8666,yes
+/blog/how-long-does-mosquito-spray-last,113,24009,6.1,0.471,2.08,-1.609,-386,question,how long does mosquito spray last,12,yes,1846,yes
+/blog/why-do-mosquito-bites-itch,82,41947,7.7,0.195,1.09,-0.895,-375,question,how long do mosquito bites last,18,no,5615,yes
+/blog/mosquito-larvae-identification,171,62990,8.7,0.271,0.83,-0.559,-352,other,mosquito larvae,27,yes,7778,yes
+/blog/do-cedar-trees-attract-mosquitoes,102,18365,6,0.555,2.08,-1.525,-280,question,do cedar trees attract mosquitoes,14,yes,2554,yes
+/blog/horse-fly-and-deer-fly-bite-treatment,266,36491,7,0.729,1.45,-0.721,-263,other,deer fly bite,49,yes,2124,yes
+/deadliest-animal-in-canada,177,20011,6.3,0.885,2.08,-1.195,-239,other,most dangerous animal in canada,28,no,2760,yes
+/blog/how-long-do-ticks-live,65,27056,8,0.24,1.09,-0.85,-230,question,how long can ticks live in a house,17,no,4858,yes
+/blog/why-do-mosquitoes-bite-my-ankles,44,12831,5.8,0.343,2.08,-1.737,-223,question,why do mosquitoes bite ankles,8,no,2383,yes
+/pest-control-cost-canada,75,20130,6.9,0.373,1.45,-1.077,-217,commercial,how much does pest control cost,18,no,2592,yes
+/blog/red-ticks-and-clover-mites,84,19821,6.7,0.424,1.45,-1.026,-203,other,red ticks,21,yes,3578,yes
+/blog/best-wasp-nest-spray-canada,444,31021,6.2,1.431,2.08,-0.649,-201,commercial,wasp spray,1089,yes,8530,yes
+/blog/deer-flies-horse-flies-ontario,96,19677,6.7,0.488,1.45,-0.962,-189,commercial,deer fly vs horse fly,29,yes,2110,yes
+/blog/can-mosquitoes-bite-through-clothes,62,16963,6.7,0.366,1.45,-1.084,-184,question,can mosquitoes bite through clothes,7,yes,2323,yes
+/blog/male-vs-female-mosquito,23,18964,8.3,0.121,1.09,-0.969,-184,commercial,male mosquito vs female,5,no,1600,yes
+/blog/thermacell-canada-where-to-buy,53,28348,8.8,0.187,0.83,-0.643,-182,commercial,thermacell canadian tire,8,yes,3763,yes
+/blog/can-ticks-fly-jump-swim,31,14013,7.6,0.221,1.09,-0.869,-122,question,can ticks swim,8,yes,1286,yes
+/blog/ultrasonic-pest-repellers-do-they-work,95,19600,7.6,0.485,1.09,-0.605,-119,commercial,do ultrasonic pest repellers work,15,yes,1596,yes
+/blog/mosquito-dunks-canada-guide,614,50407,7.2,1.218,1.45,-0.232,-117,commercial,mosquito dunks canada,89,yes,8177,yes
+/,208,11822,5.2,1.759,2.74,-0.981,-116,other,mosquito control,597,no,1049,yes
+/blog/is-mosquito-spray-safe-kids-pets,99,18758,7.8,0.528,1.09,-0.562,-105,other,mosquito spray for yard safe for dogs,11,yes,1889,yes
+/blog/deer-tick-vs-dog-tick-canada,22,13548,9.1,0.162,0.83,-0.668,-90,commercial,deer tick vs dog tick,3,yes,2565,yes
+/blog/smells-mosquitoes-hate,22,4098,5,0.537,2.74,-2.203,-90,other,scents that mosquitoes hate,8,yes,1539,yes
+/blog/what-colors-attract-mosquitoes,23,10017,7.6,0.23,1.09,-0.86,-86,commercial,colours that attract mosquitoes,5,no,1383,yes
+/blog/dynatrap-canada-review,284,33759,8.2,0.841,1.09,-0.249,-84,commercial,dynatrap,60,yes,8158,yes
+/blog/do-tiki-torches-repel-mosquitoes,53,9373,6.8,0.565,1.45,-0.885,-83,commercial,do tiki torches keep mosquitoes away,10,yes,2431,yes
+/blog/tick-vs-bed-bug,42,14402,8.5,0.292,0.83,-0.538,-78,commercial,tick vs bed bug,17,yes,6803,yes
+/blog/tick-bite-vs-mosquito-bite,298,25837,6.5,1.153,1.45,-0.297,-77,commercial,tick bite vs mosquito bite,45,yes,2493,yes
+/blog/flea-bites-on-humans,52,15384,9.4,0.338,0.83,-0.492,-76,commercial,what do flea bites look like,14,yes,7558,yes
+/blog/mosquito-bite-vs-spider-bite,25,9048,8,0.276,1.09,-0.814,-74,commercial,spider bite vs mosquito bite,7,no,2087,yes
+/blog/how-to-get-rid-of-ground-wasps-canada,966,49651,6.2,1.946,2.08,-0.134,-67,other,delta dust canada,174,yes,4623,yes
+/blog/what-does-a-spider-bite-look-like,46,13513,8.6,0.34,0.83,-0.49,-66,question,what does a spider bite look like,13,no,8238,yes
+/blog/do-ticks-die-in-the-washing-machine,13,3780,6.2,0.344,2.08,-1.736,-66,other,washing clothes with ticks,1,no,2338,yes
+/blog/picaridin-vs-deet-canada,116,12320,6.7,0.942,1.45,-0.508,-63,commercial,picaridin insect repellent canada,21,PAGE-NOT-ON-DISK,,yes
+/blog/what-blood-type-do-mosquitoes-bite,16,9474,9.2,0.169,0.83,-0.661,-63,other,which blood type do mosquitoes hate,5,yes,5542,yes
+/blog/what-does-mouse-poop-look-like-canada,35,8427,7.6,0.415,1.09,-0.675,-57,other,mouse poop,7,yes,7768,yes
+https://www.buzzskito.ca/blog/mosquito-season-gta-when-does-it-start,47,3689,4.8,1.274,2.74,-1.466,-54,question,when do mosquitoes come out ontario,7,PAGE-NOT-ON-DISK,,yes
+/blog/best-air-purifier-for-allergies-canada,5,5391,8.4,0.093,1.09,-0.997,-54,commercial,best air purifiers for allergies,77,PAGE-NOT-ON-DISK,,yes
+/blog/june-bugs-ontario,16,3211,6.3,0.498,2.08,-1.582,-51,other,june bug ontario,1,yes,2036,yes
+/buzzskito-2026-gta-mosquito-tick-report,84,6370,6.3,1.319,2.08,-0.761,-48,other,ticks in toronto 2026,2,no,2529,yes
+/blog/ultimate-tick-control-guide-ontario,147,17569,8.4,0.837,1.09,-0.253,-45,other,tick map ontario 2026,16,yes,2119,yes
+/blog/natural-mosquito-repellent-ontario,114,19146,8.6,0.595,0.83,-0.235,-45,commercial,mosquito repellent,31,yes,2942,yes
+/blog/what-eats-ticks-and-mosquitoes,13,5215,8.1,0.249,1.09,-0.841,-44,question,what eats ticks,4,yes,2404,yes
+/blog/are-ticks-arachnids-or-insects,4,3293,7.1,0.121,1.45,-1.329,-44,question,are ticks arachnids,163,yes,1613,yes
+/blog/how-to-get-rid-of-mice-canada,8,1823,4.9,0.439,2.74,-2.301,-42,other,vamoose to get rid of mice,1,yes,2960,yes
+/blog/when-does-mosquito-season-start-toronto-2026,54,6462,7,0.836,1.45,-0.614,-40,other,toronto mosquitoes,1,no,1627,yes
+/blog/baby-ticks-nymphs-seed-ticks-ontario,18,5286,7.9,0.341,1.09,-0.749,-40,other,baby tick,279,yes,1949,yes
+/blog/ortho-home-defense-canada-review,34,5011,6.7,0.679,1.45,-0.771,-39,commercial,ortho home defense,8,yes,2261,yes
+/blog/how-to-get-rid-of-centipedes-canada,33,8544,9.1,0.386,0.83,-0.444,-38,commercial,how to get rid of centipedes in house,7,yes,6212,yes
+/blog/baby-bed-bugs-nymphs-canada,3,3766,7.6,0.08,1.09,-1.01,-38,other,baby bed bugs,183,PAGE-NOT-ON-DISK,,yes
+/blog/no-see-ums-biting-midges-ontario,148,8303,6.3,1.782,2.08,-0.298,-25,other,noseeums,12,yes,1964,yes
+/blog/best-fruit-fly-trap-canada,69,11361,8.8,0.607,0.83,-0.223,-25,commercial,best fruit fly trap,394,yes,8517,yes
+/blog/off-deep-woods-deet-bug-spray-canada,9,2191,6.6,0.411,1.45,-1.039,-23,commercial,off family care vs deep woods,2,yes,2084,yes
+/blog/bed-bug-shells-casings-shed-skins-canada,22,3997,7.9,0.55,1.09,-0.54,-22,other,bed bug shells,236,yes,4185,yes
+/blog/katchy-indoor-insect-trap-review-canada,12,2316,7,0.518,1.45,-0.932,-22,commercial,katchy indoor trap,3,yes,3170,yes
+/blog/lone-star-tick-alpha-gal-canada,8,2713,7.7,0.295,1.09,-0.795,-22,other,lone star tick canada,3,no,2634,yes
+/blog/best-large-capacity-dehumidifier-canada,27,4434,8.4,0.609,1.09,-0.481,-21,commercial,best dehumidifier canada,206,yes,3528,yes
+/blog/is-deet-safe,11,2938,7.9,0.374,1.09,-0.716,-21,commercial,why is deet banned,3,no,2492,yes
+/lyme-disease-canada-statistics,55,6870,7.6,0.801,1.09,-0.289,-20,other,lyme disease map canada 2026,2,no,3009,yes
+/blog/thermacell-refills-recharge-canada,15,3200,8.1,0.469,1.09,-0.621,-20,commercial,thermacell refills canada,2,yes,1859,yes
+/blog/mosquito-magnet-vs-professional-spray,14,3053,7.5,0.459,1.09,-0.631,-19,other,mosquito magnet competitors,1,yes,1386,yes
+/blog/why-do-mosquitoes-exist,0,1676,7.9,0,1.09,-1.09,-18,other,,0,no,2699,yes
+/blog/do-fire-pits-repel-mosquitoes-canada,3,1383,6.9,0.217,1.45,-1.233,-17,other,,0,yes,3462,yes
+/blog/thermacell-e90-canada-review,91,5124,6.2,1.776,2.08,-0.304,-16,commercial,thermacell e90,15,yes,2839,yes
+/blog/mosquito-control-worth-the-cost,9,1717,7.1,0.524,1.45,-0.926,-16,other,,0,yes,1823,yes
+/blog/doktor-doom-canada-guide,24,2674,6.8,0.898,1.45,-0.552,-15,commercial,doktor doom bed bug spray reviews,2,yes,4286,yes
+/blog/citronella-candles-canada-do-they-work,13,2544,8,0.511,1.09,-0.579,-15,question,do citronella candles work,1,yes,2122,yes
+/blog/what-percentage-of-ticks-carry-lyme-ontario,10,1216,6.1,0.822,2.08,-1.258,-15,question,what percentage of ticks carry lyme disease in southern ontario,2,no,2451,yes
+/blog/west-nile-virus-ontario-2026,11,1202,6.3,0.915,2.08,-1.165,-14,other,,0,no,1578,yes
+/blog/mosquito-repellent-for-dogs-canada,48,5572,7.9,0.861,1.09,-0.229,-13,commercial,mosquito repellent for dogs,14,PAGE-NOT-ON-DISK,,yes
+/blog/flowtron-bug-zapper-canada,20,3061,7.7,0.653,1.09,-0.437,-13,commercial,flowtron bug zapper,6,yes,2819,yes
+/blog/bed-bug-bites,25,10201,9.6,0.245,0.35,-0.105,-11,other,cdc bed bug bites appearance clusters lines,816,yes,3299,yes
+/blog,1,3468,18,0.029,0.35,-0.321,-11,commercial,mosquito buzz,91,no,274,no
+/pest-control-north-york,10,5702,13.3,0.175,0.35,-0.175,-10,other,pest control north york,2,no,2124,no
+/tick-control,9,2315,9.2,0.389,0.83,-0.441,-10,other,commercial tick spray,2,no,1268,yes
+/blog/mosquito-facts,5,1338,8,0.374,1.09,-0.716,-10,other,,0,yes,2015,yes
+/blog/tick-season-ontario-when-are-ticks-active,43,4811,7.7,0.894,1.09,-0.196,-9,question,when do ticks go away in ontario,6,no,1289,yes
+/blog/mouse-bait-station-canada,30,1895,5.5,1.583,2.08,-0.497,-9,commercial,mouse bait blocks canada,3,yes,2795,yes
+/blog/best-live-animal-trap-canada,19,1932,7.1,0.983,1.45,-0.467,-9,commercial,wildlife traps,79,yes,3293,yes
+/blog/mosquito-hawk-explained,5,3996,10.5,0.125,0.35,-0.225,-9,other,hawk fly,2,yes,6049,yes
+/pest-control-etobicoke,5,3865,10.5,0.129,0.35,-0.221,-9,other,pest control etobicoke,1,no,2364,yes
+/blog/i-found-tick-on-my-dog-what-to-do,4,639,5.8,0.626,2.08,-1.454,-9,other,,0,yes,1607,yes
+/milton-mosquito-control,4,1165,8.4,0.343,1.09,-0.747,-9,other,milton mosquito control,1,no,1248,yes
+/blog/what-flowers-attract-mosquitoes,2,722,7.3,0.277,1.45,-1.173,-8,other,,0,no,2619,yes
+/blog/best-natural-bed-bug-spray-canada,46,3670,7.1,1.253,1.45,-0.197,-7,commercial,bed bug spray,475,yes,3644,yes
+/blog/best-bug-spray-for-kids-canada,34,4942,8.9,0.688,0.83,-0.142,-7,commercial,best bug spray for kids,420,yes,1929,yes
+/blog/bed-bug-bites-vs-mosquito-bites,26,3946,9.4,0.659,0.83,-0.171,-7,commercial,bed bug bites vs mosquito bites,295,yes,4519,yes
+/blog/best-air-purifier-for-large-room-canada,17,1639,7,1.037,1.45,-0.413,-7,commercial,best air purifier canada,134,PAGE-NOT-ON-DISK,,yes
+/brampton-tick-spray,17,1638,6.7,1.038,1.45,-0.412,-7,other,ticks in brampton,4,no,1953,yes
+/buzzskito-history,6,629,5.7,0.954,2.08,-1.126,-7,other,,0,no,863,yes
+https://www.buzzskito.ca/mississauga-mosquito-control,3,703,6.8,0.427,1.45,-1.023,-7,other,,0,PAGE-NOT-ON-DISK,,yes
+/blog/mosquito-vs-diy-vs-professional-control,1,717,8.2,0.139,1.09,-0.951,-7,other,,0,yes,1091,yes
+/blog/how-to-get-rid-of-fruit-flies-canada,40,5590,8.5,0.716,0.83,-0.114,-6,commercial,green gobbler fruit fly killer canadian tire,2,PAGE-NOT-ON-DISK,,yes
+/blog/mosquito-repellent-bracelets-canada,34,3645,8,0.933,1.09,-0.157,-6,commercial,mosquito repellent bracelet canada,8,yes,2029,yes
+/blog/ultimate-backyard-mosquito-control-guide,21,3251,8.6,0.646,0.83,-0.184,-6,commercial,mosquito spray for yard,4,yes,1759,yes
+https://www.buzzskito.ca/brampton-tick-spray,4,372,4.9,1.075,2.74,-1.665,-6,other,ticks brampton,1,PAGE-NOT-ON-DISK,,yes
+/pest-control-milton,1,1960,46.5,0.051,0.35,-0.299,-6,other,,0,no,1765,no
+/blog/mosquito-magnet-vs-dynatrap-canada,22,1276,6,1.724,2.08,-0.356,-5,commercial,mosquito magnet,3,yes,3143,yes
+/estate-property-mosquito-control,13,874,6.3,1.487,2.08,-0.593,-5,other,mosquito control for acreage,3,no,1637,yes
+/golf-course-mosquito-control,6,540,6,1.111,2.08,-0.969,-5,question,do golf courses spray for mosquitoes,1,no,1190,yes
+/blog/do-ticks-fly-or-jump,5,722,6.6,0.693,1.45,-0.757,-5,question,how far can ticks jump,2,yes,1509,yes
+/home/f/mosquito-tick-control-calendar-the-best-times-to-spray-ontario,5,695,7.1,0.719,1.45,-0.731,-5,other,,0,PAGE-NOT-ON-DISK,,yes
+/richmond-hill-tick-spray,5,879,8,0.569,1.09,-0.521,-5,other,ticks in richmond hill,1,no,985,yes
+/blog/what-does-a-tick-bite-look-like,2,796,8.9,0.251,0.83,-0.579,-5,question,what a tick bite looks like,2,yes,3330,yes
+/f/understanding-the-mosquito-problem-in-mississauga-and-the-gta,0,85,3.6,0,5.3,-5.3,-5,other,,0,PAGE-NOT-ON-DISK,,yes
+/blog/how-much-does-tick-treatment-cost-ontario,75,2881,5.4,2.603,2.74,-0.137,-4,question,how much does it cost to spray for ticks,9,no,1754,yes
+/blog/bugs-that-look-like-bed-bugs-canada,35,3610,8.1,0.97,1.09,-0.12,-4,other,bugs that look like bed bugs,9,yes,4566,yes
+/blog/ontario-tick-surge-2026,34,1837,5.8,1.851,2.08,-0.229,-4,other,ticks in ontario 2026,4,no,1653,yes
+/blog/how-to-get-rid-of-silverfish-canada,29,2289,7.3,1.267,1.45,-0.183,-4,other,silverfish traps canada,2,yes,3769,yes
+/blog/konk-bed-bug-killer-review-canada,25,1411,5.8,1.772,2.08,-0.308,-4,commercial,konk bed bug killer,2,yes,3974,yes
+/blog/tick-prevention-yard-ontario-safe-for-kids,8,844,6.6,0.948,1.45,-0.502,-4,other,,0,yes,2350,yes
+/blog/why-mosquitoes-bite-some-people-more,6,2922,15.4,0.205,0.35,-0.145,-4,question,do mosquitoes prefer fat or skinny people? explain why co2 attracts mosquitoes,1,yes,2373,no
+/blog/levoit-vs-coway-air-purifier-canada,5,633,6.9,0.79,1.45,-0.66,-4,other,,0,PAGE-NOT-ON-DISK,,yes
+/blog/outdoor-event-mosquito-control-gta,3,359,6,0.836,2.08,-1.244,-4,other,mosquito spray outdoor,1,no,1188,yes
+/blog/west-nile-virus-symptoms,2,755,9.1,0.265,0.83,-0.565,-4,other,,0,no,2652,yes
+/f/when-to-spray-for-mosquitoes-in-ontario-the-ultimate-guide,2,525,7.8,0.381,1.09,-0.709,-4,other,,0,PAGE-NOT-ON-DISK,,yes
+/home/f/how-long-does-mosquito-and-tick-spray-last,1,350,7,0.286,1.45,-1.164,-4,other,,0,PAGE-NOT-ON-DISK,,yes
+/blog/bed-bug-interceptor-traps-canada,24,2501,8.4,0.96,1.09,-0.13,-3,commercial,bed bug interceptors canadian tire,126,yes,3161,yes
+/buzzskito-vs-mosquito-buzz,22,2337,7.6,0.941,1.09,-0.149,-3,commercial,mosquito buzz,4,no,742,yes
+/blog/rescue-why-trap-review-canada,19,1517,6.6,1.252,1.45,-0.198,-3,other,whytrap,1,yes,3331,yes
+/blog/best-dehumidifier-for-mold-canada,15,1675,8.2,0.896,1.09,-0.194,-3,commercial,best dehumidifier canada,64,yes,3252,yes
+/blog/mosquito-season-scarborough-east-toronto,14,1515,7.9,0.924,1.09,-0.166,-3,other,,0,no,1098,yes
+/blog/mosquito-bite-treatment-relief,9,3324,16.4,0.271,0.35,-0.079,-3,other,bad mosquito bites treatment,1,yes,2513,no
+/pest-control-mississauga,3,1693,26.2,0.177,0.35,-0.173,-3,other,buzzskito,1,no,1741,no
+/best-mosquito-control-companies-vaughan,2,1421,18.3,0.141,0.35,-0.209,-3,commercial,mosquito control vaughan,48,no,832,no
+/blog/where-do-mosquitoes-go-in-winter-ontario,2,451,7.7,0.443,1.09,-0.647,-3,other,,0,no,2005,yes
+/blog/mosquito-netting-vs-barrier-spray,1,278,7.3,0.36,1.45,-1.09,-3,other,,0,yes,1526,yes
+/kleinburg-mosquito-control,1,257,6.7,0.389,1.45,-1.061,-3,other,,0,no,1146,yes
+/mosquito-spray-safety,0,162,6.4,0,2.08,-2.08,-3,other,,0,no,1019,yes
+/blog/wondercide-canada-review,30,2173,6.9,1.381,1.45,-0.069,-2,commercial,wondercide,9,yes,2412,yes
+/best-mosquito-control-companies-gta,28,2753,8,1.017,1.09,-0.073,-2,commercial,mosquito hero reviews,97,no,1262,yes
+/blog/best-pump-pressure-sprayer-canada,17,2312,9.1,0.735,0.83,-0.095,-2,commercial,pump sprayer canadian tire,136,yes,3456,yes
+/blog/diatomaceous-earth-for-bed-bugs,13,1817,9.1,0.715,0.83,-0.115,-2,other,diatomaceous earth bed bugs,3,yes,2520,yes
+/blog/victor-electronic-mouse-trap-review-canada,8,959,7.7,0.834,1.09,-0.256,-2,commercial,victor m250s electronic mouse trap,2,yes,2959,yes
+/blog/zappbug-heater-review-canada,7,816,7.7,0.858,1.09,-0.232,-2,commercial,zappbug,1,yes,3248,yes
+/blog/harris-bed-bug-killer-review-canada,5,481,7.1,1.04,1.45,-0.41,-2,commercial,harris toughest bed bug killer,1,yes,3775,yes
+/blog/what-kills-bed-bugs-instantly-canada,5,1967,11.2,0.254,0.35,-0.096,-2,other,,0,yes,4831,no
+/blog/battery-backup-sump-pump-canada,4,416,7.2,0.962,1.45,-0.488,-2,other,sump pump battery backup,32,yes,3022,yes
+/blog/field-king-backpack-sprayer-review-canada,4,408,7.2,0.98,1.45,-0.47,-2,other,field king backpack sprayer,1,yes,3309,yes
+/blog/raccoon-and-skunk-proofing-under-a-deck-canada,4,285,5.5,1.404,2.08,-0.676,-2,other,,0,yes,3345,yes
+/blog/tick-tubes-canada,4,530,7.7,0.755,1.09,-0.335,-2,other,tick tubes how do they work,1,yes,2866,yes
+/blog/ortho-home-defense-bed-bug-review-canada,3,432,7.6,0.694,1.09,-0.396,-2,other,,0,yes,3201,yes
+/blog/sureguard-mattress-encasement-review-canada,2,258,7.3,0.775,1.45,-0.675,-2,other,,0,yes,3387,yes
+/blog/are-there-ticks-in-canada,1,866,10.6,0.115,0.35,-0.235,-2,question,where are there no ticks in canada,235,no,2931,no
+/blog/bed-bugs-in-a-car-heat-treatment-canada,1,192,6.6,0.521,1.45,-0.929,-2,other,bed bug treatment for car,8,yes,2993,yes
+/pest-control-scarborough,1,978,25.8,0.102,0.35,-0.248,-2,other,,0,no,1743,no
+https://www.buzzskito.ca/tick-control,1,192,7.4,0.521,1.45,-0.929,-2,other,,0,PAGE-NOT-ON-DISK,,yes
+https://www.buzzskito.ca/woodbridge-mosquito-control,1,61,3.5,1.639,5.3,-3.661,-2,other,buzzskito,1,PAGE-NOT-ON-DISK,,yes
+/blog/goodnature-a24-review-canada,0,255,9.1,0,0.83,-0.83,-2,other,,0,yes,2921,yes
+/blog/how-to-remove-tick-from-dog-ontario,0,186,8.3,0,1.09,-1.09,-2,other,,0,yes,1722,yes
+/blog/outdoor-fan-mosquito-control-canada,0,121,7.1,0,1.45,-1.45,-2,other,,0,yes,3574,yes
+/f/how-long-does-mosquito-and-tick-spray-last,0,232,8.7,0,0.83,-0.83,-2,other,,0,PAGE-NOT-ON-DISK,,yes
+/georgetown-mosquito-control,0,513,20.1,0,0.35,-0.35,-2,other,,0,no,1083,no
+/home/f/mississauga-brampton-mosquito-tick-treatment-the-gta%E2%80%99s-best?s=%7,0,42,2.1,0,5.69,-5.69,-2,other,,0,PAGE-NOT-ON-DISK,,yes
+/learn/mosquito-life-cycle,0,600,10.4,0,0.35,-0.35,-2,other,,0,no,1055,yes
+/pest-control-caledon,0,432,17.5,0,0.35,-0.35,-2,other,,0,no,1755,no
+/blog/best-silverfish-traps-canada,21,2632,8.8,0.798,0.83,-0.032,-1,commercial,silverfish traps,89,PAGE-NOT-ON-DISK,,yes
+/blog/rodent-exclusion-kit-canada,20,1439,7.1,1.39,1.45,-0.06,-1,other,yes,3,yes,4233,yes
+/blog/do-bed-bug-sprays-actually-work,8,1100,8.5,0.727,0.83,-0.103,-1,question,do bug sprays work,1,yes,2956,yes
+/pest-product-guides/rodent-control,8,1132,8.8,0.707,0.83,-0.123,-1,commercial,best poison to kill mice,1,no,1448,yes
+/blog/best-cordless-fogger-canada,7,408,6.1,1.716,2.08,-0.364,-1,commercial,cordless fogger,58,yes,3610,yes
+/blog/what-size-dehumidifier-do-i-need-canada,6,352,5.8,1.705,2.08,-0.375,-1,other,,0,yes,3127,yes
+/blog/bed-bug-treatment-cost-canada,4,1397,10.7,0.286,0.35,-0.064,-1,other,bed bug treatment cost,137,yes,3481,no
+/blog/professional-vs-diy-mosquito-control-gta-comparison,4,1375,12.6,0.291,0.35,-0.059,-1,other,mosquito treatment yard,1,yes,3716,no
+/pest-control-brampton,4,1526,26.8,0.262,0.35,-0.088,-1,other,,0,no,1735,no
+/blog/chapin-battery-backpack-sprayer-review-canada,3,433,8.7,0.693,0.83,-0.137,-1,other,,0,yes,3216,yes
+/f/mississauga-brampton-mosquito-tick-treatment-the-gta%E2%80%99s-best,3,149,5.4,2.013,2.74,-0.727,-1,commercial,best mosquito service near me,1,PAGE-NOT-ON-DISK,,yes
+/blog/best-bed-bug-box-spring-encasement-canada,2,284,7.9,0.704,1.09,-0.386,-1,commercial,bed bug box spring encasement,14,yes,3291,yes
+/blog/how-to-get-rid-of-bed-bugs-yourself-diy-canada,2,337,8.9,0.593,0.83,-0.237,-1,other,,0,yes,3799,yes
+/learn/ontario-mosquito-tick-diseases,2,251,7.7,0.797,1.09,-0.293,-1,other,,0,no,1128,yes
+/thornhill-mosquito-control,2,875,15.1,0.229,0.35,-0.121,-1,other,,0,no,1094,no
+/best-mosquito-control-companies-hamilton,1,634,27,0.158,0.35,-0.192,-1,commercial,mosquito man hamilton,19,no,933,no
+/blog/best-commercial-lgr-dehumidifier-canada,1,149,7.5,0.671,1.09,-0.419,-1,commercial,lgr dehumidifier,14,yes,3205,yes
+/blog/how-to-get-rid-of-fungus-gnats-houseplants,1,697,17.2,0.143,0.35,-0.207,-1,other,,0,yes,4017,no
+/blog/how-to-kill-bed-bug-eggs-canada,1,623,12.3,0.161,0.35,-0.189,-1,other,,0,yes,3704,no
+/blog/how-to-prevent-mosquitoes-in-your-backyard,1,634,22.2,0.158,0.35,-0.192,-1,other,,0,yes,1204,no
+/blog/mosquito-mistakes-ontario-homeowners-make,1,158,7.1,0.633,1.45,-0.817,-1,other,,0,yes,1260,yes
+/blog/mosquito-repellent-for-dogs,1,201,7.7,0.498,1.09,-0.592,-1,commercial,best dog mosquito repellent,1,yes,2177,yes
+/blog/when-to-spray-mosquitoes-mississauga-2026,1,218,7.6,0.459,1.09,-0.631,-1,other,,0,no,1869,yes
+/home/f/tick-spray-for-yards-what-works-best-in-ontario-backyards,1,441,9.6,0.227,0.35,-0.123,-1,other,,0,PAGE-NOT-ON-DISK,,yes
+/pest-control-oakville,1,658,31.8,0.152,0.35,-0.198,-1,other,mosquito control oakville,1,no,1759,no
+/pest-control-thornhill,1,699,31.9,0.143,0.35,-0.207,-1,other,,0,no,1772,no
+https://www.buzzskito.ca/caledon-tick-spray,1,32,3.6,3.125,5.3,-2.175,-1,other,tick spraying near me,1,PAGE-NOT-ON-DISK,,yes
+/best-mosquito-control-companies-burlington,0,162,15.2,0,0.35,-0.35,-1,other,bruington mosquito control,6,no,945,no
+/best-mosquito-control-companies-markham,0,146,20.5,0,0.35,-0.35,-1,commercial,mosquito control durham region,8,no,969,no
+/best-mosquito-control-companies-north-york,0,295,33.8,0,0.35,-0.35,-1,commercial,mosquito control york region,12,no,1004,no
+/best-mosquito-control-companies-scarborough,0,220,29.4,0,0.35,-0.35,-1,other,mosquito control scarborough,6,no,958,no
+/blog/best-commercial-steam-cleaner-canada,0,188,24.4,0,0.35,-0.35,-1,commercial,industrial steam cleaner,13,yes,3203,no
+/blog/can-lyme-disease-kill-you,0,166,13.3,0,0.35,-0.35,-1,other,,0,no,2616,no
+/blog/dupray-neat-vs-hill-injection-canada,0,49,5.6,0,2.08,-2.08,-1,other,,0,yes,3188,yes
+/blog/green-pool-mosquito-breeding-ontario,0,65,6,0,2.08,-2.08,-1,other,,0,yes,3460,yes
+/blog/hidden-mosquito-breeding-spots-backyard,0,383,11.9,0,0.35,-0.35,-1,other,,0,yes,1417,no
+/blog/how-to-check-for-bed-bugs-canada,0,153,19.8,0,0.35,-0.35,-1,other,,0,yes,3323,no
+/blog/longray-thermal-fogger-review-canada,0,100,6.8,0,1.45,-1.45,-1,other,,0,yes,3608,yes
+/blog/lyme-disease-symptoms-guide,0,148,51.2,0,0.35,-0.35,-1,other,,0,yes,2886,no
+/blog/lyme-disease-tick-prevention-ontario,0,250,25.1,0,0.35,-0.35,-1,other,,0,yes,2299,no
+/blog/mosquito-control-milton-georgetown,0,205,10.4,0,0.35,-0.35,-1,other,,0,no,1150,yes
+/blog/patio-heater-vs-fire-table-canada,0,71,6.6,0,1.45,-1.45,-1,other,,0,yes,3695,yes
+/blog/pond-aerator-mosquito-larvae-canada,0,93,8.4,0,1.09,-1.09,-1,other,,0,yes,3460,yes
+/blog/zappbug-room-review-canada,0,81,9,0,0.83,-0.83,-1,other,,0,yes,3378,yes
+/danforth-mosquito-control,0,186,40.4,0,0.35,-0.35,-1,other,,0,no,980,no
+/east-york-mosquito-control,0,310,49.8,0,0.35,-0.35,-1,other,,0,no,958,no
+/f/mosquito-control-in-vaughan-%E2%80%93-2025-guide,0,57,7.5,0,1.09,-1.09,-1,other,,0,PAGE-NOT-ON-DISK,,yes
+/f/mosquito-tick-control-in-the-gta-homes-need-a-year-round-strat?s=%7Bsearch_te,0,25,6,0,2.08,-2.08,-1,other,,0,PAGE-NOT-ON-DISK,,yes
+/f/top-5-reasons-you-need-buzzskito-for-a-safer-more-enjoyable-yard,0,38,4.9,0,2.74,-2.74,-1,other,,0,PAGE-NOT-ON-DISK,,yes
+/hoa-condo-community-mosquito-control,0,128,8.9,0,0.83,-0.83,-1,other,,0,no,1493,yes
+/home/f/mosquito-tick-control-in-toronto-protect-your-family,0,415,18.8,0,0.35,-0.35,-1,other,,0,PAGE-NOT-ON-DISK,,no
+/home/f/mosquito-vs-tick-biteshow-to-tell-the-difference-when-to-worry,0,261,19.4,0,0.35,-0.35,-1,other,,0,PAGE-NOT-ON-DISK,,no
+/home/f/the-complete-guide-to-tick-prevention-for-yards-in-south-ontario,0,413,14.9,0,0.35,-0.35,-1,other,,0,PAGE-NOT-ON-DISK,,no
+/learn/tick-life-cycle,0,214,11.1,0,0.35,-0.35,-1,other,,0,no,1167,no
+/millcroft-mosquito-control,0,289,67.8,0,0.35,-0.35,-1,other,,0,no,921,no
+/mosquito-hamilton,0,25,1.2,0,5.69,-5.69,-1,other,,0,PAGE-NOT-ON-DISK,,no
+/north-york-mosquito-control,0,410,26.3,0,0.35,-0.35,-1,other,,0,no,1727,no
+/pest-control-burlington,0,370,45.1,0,0.35,-0.35,-1,other,,0,no,1733,no
+/blog/best-bed-bug-spray-for-mattress-canada,21,2476,9.3,0.848,0.83,0.018,0,commercial,bed bug spray,250,yes,7649,yes
+/blog/diatomaceous-earth-canada-buyers-guide,15,1066,6.7,1.407,1.45,-0.043,0,other,diatomaceous earth food grade canada,2,yes,2441,yes
+/buzzskito-vs-mosquitoman,13,1587,8.7,0.819,0.83,-0.011,0,commercial,mosquito man toronto reviews,3,no,696,yes
+/blog/natural-eco-friendly-mosquito-control-ontario,10,1220,9.2,0.82,0.83,-0.01,0,other,organic mosquito control,1,yes,1511,yes
+/blog/mosquito-repellent-stickers-patches-canada,8,2190,9.5,0.365,0.35,0.015,0,question,are citronella stickers safe for babies,2,yes,2222,yes
+/blog/propane-vs-electric-fogger-canada,8,406,6.4,1.97,2.08,-0.11,0,other,,0,yes,3127,yes
+/contact,8,534,7.4,1.498,1.45,0.048,0,other,buzzskito,1,no,145,yes
+/blog/best-wasp-trap,6,514,8.1,1.167,1.09,0.077,0,commercial,best wasp trap,44,yes,4107,yes
+/blog/rodent-proof-compost-bin-canada,6,588,7.8,1.02,1.09,-0.07,0,other,rodent proof compost,1,yes,3338,yes
+/mosquito-mississauga,6,587,8.4,1.022,1.09,-0.068,0,other,buzzskito,3,PAGE-NOT-ON-DISK,,yes
+/blog/backpack-sprayer-canada,5,475,8.3,1.053,1.09,-0.037,0,commercial,backpack sprayer canadian tire,18,yes,2890,yes
+/blog/how-to-stop-deer-eating-cedars-ontario,4,154,4.7,2.597,2.74,-0.143,0,other,,0,yes,3271,yes
+/blog/mouse-proof-garage-door-seal-canada,4,214,6.4,1.869,2.08,-0.211,0,other,,0,yes,3285,yes
+/blog/packtite-portable-review-canada,4,164,5.3,2.439,2.74,-0.301,0,other,,0,yes,3331,yes
+/blog/pantry-moth-traps-canada,4,1058,9.9,0.378,0.35,0.028,0,other,,0,yes,4306,yes
+/best-mosquito-control-companies-oakville,3,747,12.1,0.402,0.35,0.052,0,other,oakville mosquito service,25,no,857,no
+/blog/best-bed-bug-heat-chamber-canada,3,239,7.6,1.255,1.09,0.165,0,commercial,heat chamber,18,yes,3867,yes
+/blog/knock-down-bed-bug-killer-review-canada,3,141,5.8,2.128,2.08,0.048,0,other,,0,yes,3546,yes
+/frequently-asked-question,3,294,8.2,1.02,1.09,-0.07,0,other,,0,no,717,yes
+/milton-tick-spray,3,827,12.1,0.363,0.35,0.013,0,other,,0,no,933,no
+/best-mosquito-control-companies-brampton,2,531,11.4,0.377,0.35,0.027,0,commercial,mosquito man brampton,34,no,883,no
+/blog/bed-bug-heater-rental-vs-buying-canada,2,196,8.6,1.02,0.83,0.19,0,commercial,bed bug heater rental,33,yes,3235,yes
+/blog/best-commercial-fly-light-trap-canada,2,627,10.4,0.319,0.35,-0.031,0,commercial,fly lights toronto,27,yes,3839,yes
+/blog/best-magnetic-screen-door-canada,2,291,8.6,0.687,0.83,-0.143,0,commercial,best magnetic screen door canada,25,yes,4093,yes
+/blog/mcculloch-mc1275-steamer-review-canada,2,77,6.1,2.597,2.08,0.517,0,other,mc 1275,1,yes,3676,yes
+/blog/mosquito-control-etobicoke-north-york,2,577,22.7,0.347,0.35,-0.003,0,other,,0,no,1161,no
+/blog/mouse-repellent-canada,2,685,11.5,0.292,0.35,-0.058,0,other,,0,yes,4054,no
+/blog/picaridin-vs-deet,2,120,6.6,1.667,1.45,0.217,0,commercial,sawyer picaridin insect repellent canada,1,yes,2132,yes
+/blog/tick-borne-diseases-ontario-complete-list,2,439,20.2,0.456,0.35,0.106,0,other,,0,no,1702,no
+/etobicoke-mosquito-control,2,509,25.7,0.393,0.35,0.043,0,other,,0,no,1604,no
+/home/f/mosquito-control-in-brampton-%E2%80%93-2025-guide,2,84,5,2.381,2.74,-0.359,0,other,buzzskito,2,PAGE-NOT-ON-DISK,,yes
+/york-region-mosquito-control,2,459,12.9,0.436,0.35,0.086,0,other,,0,no,1056,no
+/blog/alpha-gal-syndrome,1,202,14.8,0.495,0.35,0.145,0,other,alpha gal,36,no,2975,no
+/blog/cluster-flies-in-house-canada,1,65,5.8,1.538,2.08,-0.542,0,other,,0,yes,3374,yes
+/blog/crawl-space-dehumidifier-vs-vapour-barrier-canada,1,64,9.3,1.563,0.83,0.733,0,other,crawl space dehumidifier canada,1,yes,2905,yes
+/blog/how-to-get-rid-of-bed-bugs-in-apartment-canada,1,352,12.3,0.284,0.35,-0.066,0,other,,0,yes,3830,no
+/blog/how-to-get-rid-of-spiders-in-house-canada,1,68,9.3,1.471,0.83,0.641,0,other,,0,yes,3186,yes
+/blog/how-to-get-rid-of-stink-bugs-canada,1,269,10.3,0.372,0.35,0.022,0,other,,0,yes,4074,yes
+/blog/how-to-keep-mice-out-of-your-house-winter,1,337,17,0.297,0.35,-0.053,0,other,,0,yes,3246,no
+/blog/mosquito-control-vaughan-york-region,1,402,13.2,0.249,0.35,-0.101,0,other,,0,no,1175,no
+/blog/mosquito-spray-companies-gta,1,194,12.1,0.515,0.35,0.165,0,other,,0,no,1443,no
+/blog/tick-repellent-for-dogs-ontario,1,201,10.6,0.498,0.35,0.148,0,other,,0,yes,2040,no
+/buzzskito-vs-lawnsavers,1,140,9.2,0.714,0.83,-0.116,0,other,,0,no,911,yes
+/commercial-mosquito-control,1,212,27.3,0.472,0.35,0.122,0,other,,0,no,974,no
+/fletcher-meadows-mosquito-control,1,150,34.3,0.667,0.35,0.317,0,other,,0,no,915,no
+/georgetown-tick-spray,1,163,12,0.613,0.35,0.263,0,other,,0,no,970,no
+/home/f/mosquito-control-near-me-in-ontario-what-to-do-and-who-to-trust,1,327,27.8,0.306,0.35,-0.044,0,other,,0,PAGE-NOT-ON-DISK,,no
+/king-city-tick-spray,1,345,15.5,0.29,0.35,-0.06,0,other,,0,no,1005,no
+/learn/how-to-combat-ticks,1,246,25.9,0.407,0.35,0.057,0,other,,0,no,1268,no
+/markham-tick-spray,1,351,23.8,0.285,0.35,-0.065,0,other,,0,no,927,no
+/pest-control-halton-hills,1,240,13.7,0.417,0.35,0.067,0,other,pest control halton hills,1,no,1749,no
+/pickering-mosquito-control,1,166,26.4,0.602,0.35,0.252,0,other,,0,no,987,no
+/restaurant-patio-mosquito-control,1,70,6.2,1.429,2.08,-0.651,0,other,,0,no,1016,yes
+/service-areas,1,206,17.7,0.485,0.35,0.135,0,other,,0,no,241,no
+/toronto-protection,1,173,33.3,0.578,0.35,0.228,0,other,,0,PAGE-NOT-ON-DISK,,no
+/woodbridge-tick-spray,1,343,22.8,0.292,0.35,-0.058,0,other,,0,no,916,no
+/%231-mosquito-control-gta,0,6,7.3,0,1.45,-1.45,0,other,mosquito control backyard spray,1,PAGE-NOT-ON-DISK,,yes
+/aldershot-mosquito-control,0,14,37,0,0.35,-0.35,0,other,,0,no,946,no
+/alton-village-mosquito-control,0,6,25.7,0,0.35,-0.35,0,other,buzzskito,2,no,900,no
+/baby-point-mosquito-control,0,17,25.1,0,0.35,-0.35,0,other,buzzskito,2,no,974,no
+/bag/when-are-mosquitoes-most-active,0,1,1,0,5.69,-5.69,0,question,are mosquitoes worse during the day or at night,1,PAGE-NOT-ON-DISK,,no
+/best-gta-mosquito-control,0,130,43.7,0,0.35,-0.35,0,other,mosquito control toronto,3,PAGE-NOT-ON-DISK,,no
+/best-mosquito-control-companies-richmond-hill,0,104,15.8,0,0.35,-0.35,0,commercial,mosquito control vaughan,6,no,999,no
+/blog/Advion-Cockroach-Gel-Bait-Canada,0,1,1,0,5.69,-5.69,0,other,,0,PAGE-NOT-ON-DISK,,no
+/blog/bed-bug-control-canada-hub,0,36,12.4,0,0.35,-0.35,0,question,is there an alternative?,2,yes,3379,no
+/blog/bed-bug-poop-and-stains-droppings-canada,0,1,1,0,5.69,-5.69,0,other,,0,PAGE-NOT-ON-DISK,,no
+/blog/best-flea-spray-for-home-canada-2026-igr-guide,0,1,1,0,5.69,-5.69,0,other,,0,PAGE-NOT-ON-DISK,,no
+/blog/best-fruit-fly-trap-canada-terro-vs-katchy,0,1,1,0,5.69,-5.69,0,other,,0,PAGE-NOT-ON-DISK,,no
+/blog/best-hepa-vacuum-for-bed-and-fleas-canada,0,1,1,0,5.69,-5.69,0,other,,0,PAGE-NOT-ON-DISK,,no
+/blog/best-large-room-canada,0,1,5,0,2.74,-2.74,0,other,800 square feet,1,PAGE-NOT-ON-DISK,,yes
+/blog/best-rat-trap-canada#biggest-fear,0,9,9.9,0,0.35,-0.35,0,other,rat zapper,3,PAGE-NOT-ON-DISK,,yes
+/blog/best-rat-trap-canada#comparison,0,8,7.9,0,1.09,-1.09,0,other,electric rat trap,2,PAGE-NOT-ON-DISK,,yes
+/blog/best-rat-trap-canada#mouse-traps-fail,0,3,7,0,1.45,-1.45,0,other,,0,PAGE-NOT-ON-DISK,,yes
+/blog/best-rat-trap-canada#outdoors,0,25,8.2,0,1.09,-1.09,0,commercial,rat zapper,8,PAGE-NOT-ON-DISK,,yes
+/blog/best-rat-trap-canada#placement,0,12,7.8,0,1.09,-1.09,0,commercial,rat zapper,5,PAGE-NOT-ON-DISK,,yes
+/blog/best-rat-trap-canada#poison-canada,0,8,8.5,0,0.83,-0.83,0,other,rat zapper,5,PAGE-NOT-ON-DISK,,yes
+/blog/best-rat-trap-canada#poison-us,0,11,9.8,0,0.35,-0.35,0,other,rat zapper,7,PAGE-NOT-ON-DISK,,yes
+/blog/best-rat-trap-canada#pre-baiting,0,5,9.4,0,0.83,-0.83,0,other,electric rat trap,2,PAGE-NOT-ON-DISK,,yes
+/blog/best-rat-trap-canada#trap-types,0,7,6.7,0,1.45,-1.45,0,other,top rated rat traps,4,PAGE-NOT-ON-DISK,,yes
+/blog/best-rat-trap-canada#us-species,0,14,8.7,0,0.83,-0.83,0,other,rat zapper,7,PAGE-NOT-ON-DISK,,yes
+/blog/best-rat-trap-canada#victor-vs-tomcat,0,1,10,0,0.35,-0.35,0,other,,0,PAGE-NOT-ON-DISK,,yes
+/blog/best-rat-trap-canada#which-trap,0,20,8.2,0,1.09,-1.09,0,other,rat zapper,6,PAGE-NOT-ON-DISK,,yes
+/blog/best-wasp-nest-nest-canada,0,1,1,0,5.69,-5.69,0,commercial,best wasp spray for voids,1,PAGE-NOT-ON-DISK,,no
+/blog/boxelder-bugs-canada-how-to-get-rid-of-them,0,1,1,0,5.69,-5.69,0,other,,0,PAGE-NOT-ON-DISK,,no
+/blog/bug-zappers-canada-do-they-work/,0,1,7,0,1.45,-1.45,0,other,,0,yes,14697,yes
+/blog/bugs-that-look-like-ticks-8-legs-or-6,0,1,1,0,5.69,-5.69,0,other,,0,PAGE-NOT-ON-DISK,,no
+/blog/bugs-that-look-like-ticks-8-legs-or-6-id-chart,0,1,1,0,5.69,-5.69,0,other,,0,PAGE-NOT-ON-DISK,,no
+/blog/bugs-that-look-like-ticks-where-they-turn-up/,0,1,1,0,5.69,-5.69,0,other,,0,PAGE-NOT-ON-DISK,,no
+/blog/can-dogs-get-lyme-disease,0,60,27.4,0,0.35,-0.35,0,other,,0,no,2926,no
+/blog/can-mosquitoes-bite-through-clothes-8-fabrics,0,1,1,0,5.69,-5.69,0,other,,0,PAGE-NOT-ON-DISK,,no
+/blog/can-mosquitoes-bite-through-clothes/,0,2,1,0,5.69,-5.69,0,other,,0,yes,2323,no
+/blog/chigger-beta,0,1,1,0,5.69,-5.69,0,other,,0,PAGE-NOT-ON-DISK,,no
+/blog/diatomaceous-earth-buyers-guide,0,1,1,0,5.69,-5.69,0,other,,0,PAGE-NOT-ON-DISK,,no
+/blog/diy-outdoor-misting-system-kit-canada,0,103,9.9,0,0.35,-0.35,0,other,,0,yes,3502,yes
+/blog/do-ticks-die-when-put-into-a-washing-machine,0,1,1,0,5.69,-5.69,0,other,,0,PAGE-NOT-ON-DISK,,no
+/blog/fall-yard-cleanup-leaf-blower-canada,0,30,9.4,0,0.83,-0.83,0,other,,0,yes,3283,yes
+/blog/flea-bites-on-humans#bite-from-a-flea,0,1,9,0,0.83,-0.83,0,other,,0,PAGE-NOT-ON-DISK,,yes
+/blog/flea-bites-on-humans#flea-bite-appearance,0,4,9.8,0,0.35,-0.35,0,other,,0,PAGE-NOT-ON-DISK,,yes
+/blog/flea-bites-on-humans#flea-or-bed-bug,0,3,10,0,0.35,-0.35,0,other,,0,PAGE-NOT-ON-DISK,,yes
+/blog/flea-bites-on-humans#how-long-do-bites-last,0,3,10,0,0.35,-0.35,0,other,,0,PAGE-NOT-ON-DISK,,yes
+/blog/flea-bites-on-humans#treatment,0,1,9,0,0.83,-0.83,0,other,,0,PAGE-NOT-ON-DISK,,yes
+/blog/flea-bites-on-humans-vs-bed-bug-bites-2026,0,1,1,0,5.69,-5.69,0,other,,0,PAGE-NOT-ON-DISK,,no
+/blog/get-rid-of-wasps-canada-id-3-types-nest,0,1,1,0,5.69,-5.69,0,other,,0,PAGE-NOT-ON-DISK,,no
+/blog/gutter-guards-mosquito-breeding-canada,0,44,8.2,0,1.09,-1.09,0,other,,0,yes,3201,yes
+/blog/home-to-get-rid-of-fruit-flies-canada,0,1,1,0,5.69,-5.69,0,other,,0,PAGE-NOT-ON-DISK,,no
+/blog/how-get-rid-of-cockroaches-canada,0,1,1,0,5.69,-5.69,0,other,,0,PAGE-NOT-ON-DISK,,no
+/blog/how-get-rid-of-wasps-canada,0,1,1,0,5.69,-5.69,0,other,,0,PAGE-NOT-ON-DISK,,no
+/blog/how-many-times-can-a-bite-you,0,1,1,0,5.69,-5.69,0,other,,0,PAGE-NOT-ON-DISK,,no
+/blog/how-many-times-can-a-mosquito-bite-in-one-night,0,6,1,0,5.69,-5.69,0,other,,0,PAGE-NOT-ON-DISK,,no
+/blog/how-many-times-can-a-mosquito-bite-one-night,0,1,1,0,5.69,-5.69,0,other,,0,PAGE-NOT-ON-DISK,,no
+/blog/how-many-times-can-a-mosquito-byte-you,0,1,1,0,5.69,-5.69,0,other,,0,PAGE-NOT-ON-DISK,,no
+/blog/how-to-get-rid-of-bed-bugs-canada,0,44,10.5,0,0.35,-0.35,0,other,,0,yes,4005,yes
+/blog/how-to-get-rid-of-ground-waps-canada,0,1,1,0,5.69,-5.69,0,other,,0,PAGE-NOT-ON-DISK,,no
+/blog/how-to-get-rid-of-ground-wasp-canada,0,1,1,0,5.69,-5.69,0,other,,0,PAGE-NOT-ON-DISK,,no
+/blog/how-to-get-rid-of-ground-wasp-nest,0,1,1,0,5.69,-5.69,0,other,,0,PAGE-NOT-ON-DISK,,no
+/blog/how-to-get-rid-of-ground-wasps,0,1,1,0,5.69,-5.69,0,other,,0,PAGE-NOT-ON-DISK,,no
+/blog/how-to-get-rid-of-house-centipedes-canada,0,2,1,0,5.69,-5.69,0,other,,0,PAGE-NOT-ON-DISK,,no
+/blog/is-mosquito-spray-kids-pets,0,1,1,0,5.69,-5.69,0,other,,0,PAGE-NOT-ON-DISK,,no
+/blog/laser-mosquito-killer-is-photon-matrix-real/,0,1,1,0,5.69,-5.69,0,other,,0,PAGE-NOT-ON-DISK,,no
+/blog/male-vs-female-mosquito:8-Differences-Compared/,0,1,1,0,5.69,-5.69,0,other,,0,PAGE-NOT-ON-DISK,,no
+/blog/male-vs-female-mosquitoes,0,1,1,0,5.69,-5.69,0,other,,0,PAGE-NOT-ON-DISK,,no
+/blog/mosquito-bite-vs-spider-bite-how-to-tell,0,1,1,0,5.69,-5.69,0,other,,0,PAGE-NOT-ON-DISK,,no
+/blog/mosquito-bite-vs-spider-bite/,0,1,1,0,5.69,-5.69,0,other,,0,no,2087,no
+/blog/mosquito-canada,0,1,1,0,5.69,-5.69,0,other,,0,PAGE-NOT-ON-DISK,,no
+/blog/mosquito-magnet-vs-dynatrap-canada-which-wins/,0,1,1,0,5.69,-5.69,0,other,,0,PAGE-NOT-ON-DISK,,no
+/blog/mosquito-screened-porch-kit-canada,0,25,7.3,0,1.45,-1.45,0,other,,0,yes,3228,yes
+/blog/mosquito-trap-running-cost-canada,0,67,13,0,0.35,-0.35,0,other,,0,yes,3058,no
+/blog/natural-mosquito-repellent-ontario/,0,1,1,0,5.69,-5.69,0,other,,0,yes,2942,no
+/blog/no-see-um-bites-3-look-alikes-and-how-to-treat,0,1,1,0,5.69,-5.69,0,other,,0,PAGE-NOT-ON-DISK,,no
+/blog/no-see-ums-ontario,0,1,4,0,5.3,-5.3,0,other,,0,PAGE-NOT-ON-DISK,,yes
+/blog/no-see-ums-ontario-towards-mesh-screens,0,1,1,0,5.69,-5.69,0,other,,0,PAGE-NOT-ON-DISK,,no
+/blog/no-see-ums-ontario-zone-20-mesh-screens/,0,1,1,0,5.69,-5.69,0,other,,0,PAGE-NOT-ON-DISK,,no
+/blog/ortho-home-defense-bug-review-canada,0,1,5,0,2.74,-2.74,0,other,,0,PAGE-NOT-ON-DISK,,yes
+/blog/ortho-home-defense-mosquito-kill-and-prevent,0,1,1,0,5.69,-5.69,0,other,,0,PAGE-NOT-ON-DISK,,no
+/blog/rain-barrel-mosquito-proof-canada,0,59,9,0,0.83,-0.83,0,other,,0,yes,3349,yes
+/blog/red-ticks-and-clover-mites/,0,1,1,0,5.69,-5.69,0,other,,0,yes,3578,no
+/blog/tick-bike-vs-mosquito-bite,0,1,1,0,5.69,-5.69,0,other,,0,PAGE-NOT-ON-DISK,,no
+/blog/tick-bites-that-weont-heal-when-to-worry-ontario,0,1,1,0,5.69,-5.69,0,other,,0,PAGE-NOT-ON-DISK,,no
+/blog/tick-vs-bed-bug-how-to-tell-the-difference-id-chart-2026,0,1,1,0,5.69,-5.69,0,other,,0,PAGE-NOT-ON-DISK,,no
+/blog/ticks-have-8-legs-as-adults-6-as-larvae-and-no-antennae-common-look-alikes,0,1,1,0,5.69,-5.69,0,other,,0,PAGE-NOT-ON-DISK,,no
+/blog/to-get-rid-of-fruit-flies-canada,0,1,1,0,5.69,-5.69,0,other,,0,PAGE-NOT-ON-DISK,,no
+/blog/traces-punaises-de-lit-matelas,0,18,16.8,0,0.35,-0.35,0,other,,0,yes,3508,no
+/blog/types-of-ticks-5-species-id-chart-sizes,0,1,1,0,5.69,-5.69,0,other,,0,PAGE-NOT-ON-DISK,,no
+/blog/ultrasonic-repellers-do-they-work,0,1,1,0,5.69,-5.69,0,other,,0,PAGE-NOT-ON-DISK,,no
+/blog/west-nile-virus-mosquito-risk-ontario,0,54,8.5,0,0.83,-0.83,0,other,,0,no,1196,yes
+/blog/what-attracts-mosquitoes-to-you,0,118,14.7,0,0.35,-0.35,0,other,,0,yes,2243,no
+/blog/what-blood-type-bite-myth-data,0,1,1,0,5.69,-5.69,0,other,,0,PAGE-NOT-ON-DISK,,no
+/blog/what-blood-type-do-mosquitoes-bite-myth-data,0,1,1,0,5.69,-5.69,0,other,,0,PAGE-NOT-ON-DISK,,no
+/blog/what-blood-type-do-mosquitoes-bite-myth-vs-data,0,1,1,0,5.69,-5.69,0,other,,0,PAGE-NOT-ON-DISK,,no
+/blog/what-blood-type-do-mosquitos-bite,0,1,1,0,5.69,-5.69,0,other,,0,PAGE-NOT-ON-DISK,,no
+/blog/what-colors-attract-mosquitoes/,0,3,1,0,5.69,-5.69,0,other,,0,no,1383,no
+/blog/what-does-a-spider-bite-look-like-id-guide/,0,1,1,0,5.69,-5.69,0,other,,0,PAGE-NOT-ON-DISK,,no
+/blog/what-eats-ticks-and-mosquitoes-predators-ranked-ontario,0,1,1,0,5.69,-5.69,0,other,,0,PAGE-NOT-ON-DISK,,no
+/blog/what-time-are-mosquitoes-most-active-temp-table,0,1,1,0,5.69,-5.69,0,other,,0,PAGE-NOT-ON-DISK,,no
+/blog/when-are-mosquitoes-more-active,0,2,1,0,5.69,-5.69,0,other,,0,PAGE-NOT-ON-DISK,,no
+/blog/when-are-mosquitoes-most-active/,0,1,1,0,5.69,-5.69,0,other,,0,yes,6068,no
+/blog/when-do-mosquitoes-go-away-at-night,0,1,1,0,5.69,-5.69,0,other,,0,PAGE-NOT-ON-DISK,,no
+/blog/when-to-worried-about-a-mosquito-bite-red-flags---buzzskito,0,1,1,0,5.69,-5.69,0,other,,0,PAGE-NOT-ON-DISK,,no
+/blog/when-to-worry-about-a-mosquito-bite-red-flags,0,1,1,0,5.69,-5.69,0,other,,0,PAGE-NOT-ON-DISK,,no
+/blog/why-are-mosquitoes-most-active,0,1,1,0,5.69,-5.69,0,other,,0,PAGE-NOT-ON-DISK,,no
+/blog/why-do-mosquito-bhite-itch,0,1,1,0,5.69,-5.69,0,other,,0,PAGE-NOT-ON-DISK,,no
+/blog/why-do-mosquito-bite-itch,0,2,1,0,5.69,-5.69,0,other,,0,PAGE-NOT-ON-DISK,,no
+/blog/why-do-mosquito-bites-last,0,4,1,0,5.69,-5.69,0,other,,0,PAGE-NOT-ON-DISK,,no
+/blog/why-do-mosquito-bites-last-full-timeline,0,2,1,0,5.69,-5.69,0,other,,0,PAGE-NOT-ON-DISK,,no
+/blog/why-do-mosquitoes-my-ankles-how-to-stop-it,0,1,1,0,5.69,-5.69,0,other,,0,PAGE-NOT-ON-DISK,,no
+/bramalea-mosquito-control,0,17,17.9,0,0.35,-0.35,0,other,,0,no,926,no
+/brampton-protection,0,8,13.6,0,0.35,-0.35,0,other,,0,PAGE-NOT-ON-DISK,,no
+/brampton-tick-spray-1,0,33,7.8,0,1.09,-1.09,0,other,,0,PAGE-NOT-ON-DISK,,yes
+/bridle-path-mosquito-control,0,11,13.5,0,0.35,-0.35,0,other,,0,no,985,no
+/bronte-mosquito-control,0,4,9.5,0,0.35,-0.35,0,other,,0,no,945,yes
+/casa-loma-mosquito-control,0,9,17.6,0,0.35,-0.35,0,other,,0,no,959,no
+/castlemore-mosquito-control,0,42,52.3,0,0.35,-0.35,0,other,,0,no,917,no
+/clearview-mosquito-control,0,5,6.8,0,1.45,-1.45,0,other,,0,no,920,yes
+/college-park-mosquito-control,0,12,38.8,0,0.35,-0.35,0,other,,0,no,941,no
+/davisville-mosquito-control,0,40,57.5,0,0.35,-0.35,0,other,,0,no,963,no
+/don-mills-mosquito-control,0,9,40.4,0,0.35,-0.35,0,other,,0,no,968,no
+/eastlake-mosquito-control,0,16,34.1,0,0.35,-0.35,0,other,,0,no,946,no
+/f/5-surprising-facts-about-mosquitoes-you-need-to-know,0,55,9.5,0,0.35,-0.35,0,other,,0,PAGE-NOT-ON-DISK,,yes
+/f/bloodsuckers-in-your-yard-kill-mosquitoes-ticks-for-good,0,5,24,0,0.35,-0.35,0,other,,0,PAGE-NOT-ON-DISK,,no
+/f/enjoy-a-mosquito-free-yard-how-buzzskito-protects-your-outdoors,0,56,17.6,0,0.35,-0.35,0,other,,0,PAGE-NOT-ON-DISK,,no
+/f/gta-mosquito-tick-%E2%80%93-media-brief-2025,0,11,5.1,0,2.74,-2.74,0,other,,0,PAGE-NOT-ON-DISK,,yes
+/f/hidden-mosquito-hotspots-in-torontos-urban-landscape,0,9,5.9,0,2.08,-2.08,0,other,,0,PAGE-NOT-ON-DISK,,yes
+/f/how-to-protect-your-family-from-mosquitoes-this-summer,0,83,29.2,0,0.35,-0.35,0,other,,0,PAGE-NOT-ON-DISK,,no
+/f/is-your-backyard-a-mosquito-breeding-ground,0,4,27.5,0,0.35,-0.35,0,other,,0,PAGE-NOT-ON-DISK,,no
+/f/mosquito-control-in-halton-hills-%E2%80%93-2025-guide,0,2,5.5,0,2.08,-2.08,0,other,,0,PAGE-NOT-ON-DISK,,yes
+/f/mosquito-control-in-hamilton-%E2%80%93-2025-guide?s=%7Bsearch_term_string%7D,0,11,24.1,0,0.35,-0.35,0,other,,0,PAGE-NOT-ON-DISK,,no
+/f/mosquito-control-in-toronto-keep-your-backyard-bite-free,0,20,7.7,0,1.09,-1.09,0,other,,0,PAGE-NOT-ON-DISK,,yes
+/f/mosquito-tick-control-in-the-gta-homes-need-a-year-round-strat,0,15,24.3,0,0.35,-0.35,0,other,,0,PAGE-NOT-ON-DISK,,no
+/f/oakville-etobicoke-western-gta-mosquito-tick-shield-a-plan,0,34,12.2,0,0.35,-0.35,0,other,,0,PAGE-NOT-ON-DISK,,no
+/f/oakville-tick-control-guide-protect-your-family-pets,0,4,19.8,0,0.35,-0.35,0,other,,0,PAGE-NOT-ON-DISK,,no
+/f/protecting-pets-from-mosquito-tick-bites-in-your-backyard,0,8,15.6,0,0.35,-0.35,0,other,,0,PAGE-NOT-ON-DISK,,no
+/f/the-best-mosquito-control-for-your-backyard-in-toronto,0,73,14.9,0,0.35,-0.35,0,other,,0,PAGE-NOT-ON-DISK,,no
+/f/the-mississauga-mosquito-mystery-why-your-backyard-has-ticks,0,58,8.6,0,0.83,-0.83,0,other,,0,PAGE-NOT-ON-DISK,,yes
+/f/the-truth-about-mosquito-spraying-near-you-does-it-really-work,0,93,11.4,0,0.35,-0.35,0,other,,0,PAGE-NOT-ON-DISK,,no
+/f/tick-repellent-for-lawns-in-ontario-everything-you-need-to-know,0,12,23,0,0.35,-0.35,0,other,,0,PAGE-NOT-ON-DISK,,no
+/f/tick-spray-for-yards-what-works-best-in-ontario-backyards,0,57,26.9,0,0.35,-0.35,0,other,,0,PAGE-NOT-ON-DISK,,no
+/f/top-7-signs-you-need-mosquito-and-tick-control-immediately,0,6,13.8,0,0.35,-0.35,0,other,,0,PAGE-NOT-ON-DISK,,no
+/f/why-mosquito-prevention-should-be-a-year-round-effort,0,13,14.4,0,0.35,-0.35,0,other,,0,PAGE-NOT-ON-DISK,,no
+/falgarwood-mosquito-control,0,14,12.7,0,0.35,-0.35,0,other,,0,no,910,no
+/forest-hill-mosquito-control,0,18,12.4,0,0.35,-0.35,0,other,,0,no,948,no
+/free-yard-assessment,0,20,10.2,0,0.35,-0.35,0,other,,0,no,66,yes
+/glen-abbey-mosquito-control,0,17,56.9,0,0.35,-0.35,0,other,,0,no,928,no
+/heart-lake-mosquito-control,0,23,10,0,0.35,-0.35,0,other,,0,no,938,yes
+/home#0e84285a-78f0-4105-8f81-760af7d6d289,0,5,4.6,0,2.74,-2.74,0,other,,0,PAGE-NOT-ON-DISK,,yes
+/home#f6cbbeb7-628b-48b3-8dd4-3c604a5b726a,0,5,4.6,0,2.74,-2.74,0,other,,0,PAGE-NOT-ON-DISK,,yes
+/home/f/how-wildlife-brings-ticks-to-your-backyard,0,15,12.3,0,0.35,-0.35,0,other,,0,PAGE-NOT-ON-DISK,,no
+/home/f/mosquito-control-in-mississauga-%E2%80%93-2025-guide-1,0,7,17.1,0,0.35,-0.35,0,other,,0,PAGE-NOT-ON-DISK,,no
+/home/f/mosquito-control-in-toronto-%E2%80%93-2025-guide,0,8,8.1,0,1.09,-1.09,0,other,,0,PAGE-NOT-ON-DISK,,yes
+/home/f/oakville-tick-control-guide-protect-your-family-pets,0,34,13.3,0,0.35,-0.35,0,other,,0,PAGE-NOT-ON-DISK,,no
+/home/f/oakville-tick-control-guide-protect-your-family-pets?s=%7Bsearch_term_st,0,26,12.5,0,0.35,-0.35,0,other,,0,PAGE-NOT-ON-DISK,,no
+/home/f/tick-control-for-dogs-and-kids-what-homeowners-in-the-gta-need,0,5,6.6,0,1.45,-1.45,0,other,,0,PAGE-NOT-ON-DISK,,yes
+/home/f/tick-repellent-for-lawns-in-ontario-everything-you-need-to-know,0,98,18.3,0,0.35,-0.35,0,other,,0,PAGE-NOT-ON-DISK,,no
+/home/f/tick-spray-for-yards-what-works-best-in-ontario-backyards?s=%7Bsearch_te,0,35,28.8,0,0.35,-0.35,0,other,,0,PAGE-NOT-ON-DISK,,no
+/home/f/top-5-reasons-you-need-buzzskito-for-a-safer-more-enjoyable-yard,0,4,7.8,0,1.09,-1.09,0,other,,0,PAGE-NOT-ON-DISK,,yes
+/home/f/top-strategies-for-mosquito-tick-control-in-your-yard,0,28,11.8,0,0.35,-0.35,0,other,,0,PAGE-NOT-ON-DISK,,no
+/home/f/understanding-the-life-cycle-of-mosquitoes-and-ticks,0,16,20.9,0,0.35,-0.35,0,other,,0,PAGE-NOT-ON-DISK,,no
+/home/f/understanding-the-threat-ticks-and-mosquitoes,0,30,27.5,0,0.35,-0.35,0,other,,0,PAGE-NOT-ON-DISK,,no
+/home/f/what%E2%80%99s-the-best-mosquito-spray-for-your-backyard-in-ontario,0,54,17,0,0.35,-0.35,0,other,,0,PAGE-NOT-ON-DISK,,no
+/joshua-creek-mosquito-control,0,37,33.2,0,0.35,-0.35,0,other,,0,no,969,no
+/lawrence-park-mosquito-control,0,24,18.1,0,0.35,-0.35,0,other,,0,no,944,no
+/learn,0,74,56.2,0,0.35,-0.35,0,other,,0,no,346,no
+/leslieville-mosquito-control,0,51,28.7,0,0.35,-0.35,0,other,,0,no,962,no
+/moore-park-mosquito-control,0,44,27.8,0,0.35,-0.35,0,other,,0,no,989,no
+/mosquito-control-cost-canada,0,1,1,0,5.69,-5.69,0,other,,0,PAGE-NOT-ON-DISK,,no
+/mosquito-control-diy-vs-professional,0,52,8.7,0,0.83,-0.83,0,other,,0,no,1643,yes
+/mosquito-life-cycle,0,126,41.3,0,0.35,-0.35,0,other,,0,PAGE-NOT-ON-DISK,,no
+/mount-pleasant-mosquito-control,0,21,18.7,0,0.35,-0.35,0,other,,0,no,933,no
+/north-oakville-mosquito-control,0,94,19.8,0,0.35,-0.35,0,other,,0,no,932,no
+/oakville-tick-spray-1,0,23,11.5,0,0.35,-0.35,0,other,,0,PAGE-NOT-ON-DISK,,no
+/old-oakville-mosquito-control,0,60,21.6,0,0.35,-0.35,0,other,,0,no,962,no
+/orchard-mosquito-control,0,22,19.4,0,0.35,-0.35,0,other,,0,no,926,no
+/palmer-mosquito-control,0,16,6.6,0,1.45,-1.45,0,other,,0,no,909,yes
+/blog/best-mosquito-repellent-device-canada,160,14550,8.4,1.1,1.09,0.01,1,commercial,mosquito repellent machine,778,yes,2770,yes
+/blog/best-yellow-jacket-trap-canada,55,4966,8.1,1.108,1.09,0.018,1,commercial,yellow jacket trap,184,yes,3346,yes
+/blog/dupray-vs-mcculloch-steamer-canada,33,1549,6.4,2.13,2.08,0.05,1,commercial,dupray neat steam cleaner bed bugs,5,yes,3432,yes
+/blog/best-earwig-killer-canada,24,2072,8.3,1.158,1.09,0.068,1,commercial,earwig traps indoor,131,yes,5080,yes
+/blog/best-roach-traps-canada,24,2821,9.4,0.851,0.83,0.021,1,commercial,cockroach traps,160,yes,4895,yes
+/reviews,13,1137,7.5,1.143,1.09,0.053,1,commercial,buzzskito reviews,2,no,787,yes
+/blog/doktor-doom-sleep-tight-review-canada,12,528,5.7,2.273,2.08,0.193,1,commercial,doktor doom bed bug spray reviews,1,yes,3292,yes
+/blog/best-bed-bug-fogger-canada,11,895,8.3,1.229,1.09,0.139,1,other,bug bomb canada,71,yes,3542,yes
+/blog/when-to-worry-about-a-mosquito-bite,11,2904,10.6,0.379,0.35,0.029,1,other,mosquito bite turned purple,3,no,2699,no
+/blog/best-air-purifier-for-dust-mites-canada,10,861,8.3,1.161,1.09,0.071,1,commercial,air purifier for dust mites,57,yes,3210,yes
+/blog/west-nile-virus-mississauga-2026,10,598,7.2,1.672,1.45,0.222,1,other,west nile virus mississauga,1,yes,2047,yes
+/mosquito-control,10,2436,20.2,0.411,0.35,0.061,1,other,,0,no,974,no
+/pest-control-hamilton,7,1840,41,0.38,0.35,0.03,1,other,tick spray service near me,1,no,1755,no
+/pest-control-vaughan,7,1844,41.1,0.38,0.35,0.03,1,other,buzzskito,2,no,1747,no
+/north-york-tick-spray,5,1053,22.2,0.475,0.35,0.125,1,other,,0,no,1012,no
+/blog/best-gazebo-with-mosquito-net-canada,4,961,9.5,0.416,0.35,0.066,1,commercial,best gazebo for canadian winter,27,yes,3610,yes
+/blog/biogents-bg-mosquitaire-mosquito-trap-canada,4,202,7.4,1.98,1.45,0.53,1,commercial,"bg-home" mosquito trap study,24,yes,3209,yes
+/blog/west-nile-virus-toronto-2026,4,237,6.9,1.688,1.45,0.238,1,other,toronto virus 2026,1,yes,1662,yes
+/blog/zappbug-oven-2-review-canada,4,315,7.8,1.27,1.09,0.18,1,other,,0,yes,4196,yes
+/daycare-camp-mosquito-tick-control,4,278,8,1.439,1.09,0.349,1,other,,0,no,1423,yes
+/blog/does-standing-water-attract-mosquitoes,3,646,9.6,0.464,0.35,0.114,1,other,,0,yes,2605,yes
+/blog/thermal-vs-ulv-fogger-canada,3,192,7.8,1.563,1.09,0.472,1,other,,0,yes,3267,yes
+/pest-product-guides/mosquito-gear,3,626,13.5,0.479,0.35,0.129,1,commercial,best mosquito repellent device canada,1,no,1826,no
+/wedding-mosquito-control,3,117,5.6,2.564,2.08,0.484,1,other,,0,no,1170,yes
+/ajax-mosquito-control,2,327,25.3,0.612,0.35,0.262,1,commercial,ajax ontario,5,no,987,no
+/blog/best-atv-sprayer-for-tick-yard-canada,2,240,9.5,0.833,0.35,0.483,1,commercial,atv sprayer,22,yes,3613,yes
+/blog/best-ozone-generator-canada,2,302,12.4,0.662,0.35,0.312,1,commercial,ozone generator,42,PAGE-NOT-ON-DISK,,no
+/blog/best-upholstery-steam-cleaner-canada,2,272,11.5,0.735,0.35,0.385,1,commercial,steam cleaners for upholstery,49,yes,3195,no
+/blog/best-wasp-killer-canada,2,28,5.1,7.143,2.74,4.403,1,commercial,best wasp killer canada,4,yes,3276,yes
+/blog/fix-standing-water-yard-mosquitoes-canada,2,70,7.4,2.857,1.45,1.407,1,other,,0,yes,3330,yes
+/blog/how-to-remove-tick-safely,2,230,28.4,0.87,0.35,0.52,1,question,how to remove,1,yes,1154,no
+/blog/spring-tick-season-ontario,2,247,10.6,0.81,0.35,0.46,1,other,,0,no,1925,no
+/blog/tick-bite-on-dog-symptoms,2,389,21.7,0.514,0.35,0.164,1,other,,0,yes,1587,no
+/f/tick-control-services-in-mississauga-%E2%80%93-protect-your-family,2,280,10.5,0.714,0.35,0.364,1,other,buzzskito,2,PAGE-NOT-ON-DISK,,yes
+/high-park-mosquito-control,2,172,13.4,1.163,0.35,0.813,1,other,,0,no,975,no
+/scarborough-mosquito-control,2,254,19.2,0.787,0.35,0.437,1,other,,0,no,1681,no
+/blog/bed-bug-equipment-kit-for-landlords-canada,1,37,10.8,2.703,0.35,2.353,1,commercial,bed bug kit,4,yes,2911,no
+/blog/best-whole-room-bed-bug-heater-canada,1,123,22.7,0.813,0.35,0.463,1,other,bed bug heater canada,19,yes,3828,no
+/blog/desiccant-vs-compressor-dehumidifier-canada,1,81,11.6,1.235,0.35,0.885,1,other,,0,yes,2787,no
+/blog/laser-mosquito-killer-is-photon-matrix-real-,1,1,1,100,5.69,94.31,1,other,,0,PAGE-NOT-ON-DISK,,no
+/bram-west-mosquito-control,1,38,27.6,2.632,0.35,2.282,1,other,,0,no,959,no
+/caledon-east-mosquito-control,1,34,12.9,2.941,0.35,2.591,1,other,,0,no,980,no
+/credit-valley-mosquito-control,1,15,9.7,6.667,0.35,6.317,1,other,,0,no,958,yes
+/dundas-mosquito-control,1,56,14.6,1.786,0.35,1.436,1,other,,0,no,1036,no
+/hamilton-tick-spray-1,1,32,15.3,3.125,0.35,2.775,1,other,,0,PAGE-NOT-ON-DISK,,no
+/home/f/backyard-mosquito-spray-that-actually-works-in-ontario,1,120,12.8,0.833,0.35,0.483,1,other,,0,PAGE-NOT-ON-DISK,,no
+/home/f/mosquito-control-in-oakville-%E2%80%93-what-works,1,49,11.4,2.041,0.35,1.691,1,other,,0,PAGE-NOT-ON-DISK,,no
+/home/f/why-mosquitoes-love-mississauga,1,41,8.7,2.439,0.83,1.609,1,other,,0,PAGE-NOT-ON-DISK,,yes
+/leaside-mosquito-control,1,42,62.7,2.381,0.35,2.031,1,other,buzzskito,1,no,909,no
+/same-day-mosquito-control,1,3,6.3,33.333,2.08,31.253,1,other,,0,PAGE-NOT-ON-DISK,,yes
+/terms,1,83,16.8,1.205,0.35,0.855,1,other,,0,no,979,no
+/waterdown-mosquito-control,1,66,11.2,1.515,0.35,1.165,1,other,,0,no,950,no
+https://www.buzzskito.ca/blog/tick-prevention-yard-ontario-safe-for-kids,1,12,6.3,8.333,2.08,6.253,1,other,,0,PAGE-NOT-ON-DISK,,yes
+https://www.buzzskito.ca/halton-hills-tick-spray,1,18,20.8,5.556,0.35,5.206,1,other,,0,PAGE-NOT-ON-DISK,,no
+https://www.buzzskito.ca/how-it-works,1,31,11.9,3.226,0.35,2.876,1,other,,0,PAGE-NOT-ON-DISK,,no
+https://www.buzzskito.ca/vaughan-mosquito-control,1,27,7.3,3.704,1.45,2.254,1,other,,0,PAGE-NOT-ON-DISK,,yes
+/blog/best-flea-spray-for-home-canada,37,3219,8.3,1.149,1.09,0.059,2,commercial,best flea treatments for cats,252,yes,4942,yes
+/brampton-mosquito-control,19,1204,6.6,1.578,1.45,0.128,2,other,mosquito control brampton,6,no,3003,yes
+/blog/best-raccoon-live-trap-canada,18,1896,8.7,0.949,0.83,0.119,2,other,raccoon trap,122,yes,3518,yes
+/blog/how-to-get-rid-of-cluster-flies-canada,18,1447,8.1,1.244,1.09,0.154,2,question,how to get rid of cluster flies,4,yes,3688,yes
+/blog/what-does-tick-look-like-on-dog,12,2781,10.4,0.431,0.35,0.081,2,question,what do ticks look like on dogs skin,3,yes,1630,yes
+/lyme-disease-risk-calculator,11,653,6.7,1.685,1.45,0.235,2,other,ticks in the gta,1,no,1350,yes
+/blog/best-bed-bug-spray-for-travel-canada,10,540,6.8,1.852,1.45,0.402,2,commercial,bed bug spray for travel,40,yes,3495,yes
+/pest-control-toronto,9,2083,31.2,0.432,0.35,0.082,2,other,mosquito control toronto,2,no,1764,no
+/blog/how-to-get-rid-of-ants-canada,8,1604,12.2,0.499,0.35,0.149,2,other,,0,yes,6484,no
+/blog/best-raccoon-proof-roof-vent-covers-canada,7,317,7.1,2.208,1.45,0.758,2,commercial,gable vent canadian tire,10,yes,3347,yes
+/blog/patio-misting-system-canada,7,360,6.6,1.944,1.45,0.494,2,other,,0,yes,3009,yes
+/blog/best-patio-heater-canada,6,247,6.9,2.429,1.45,0.979,2,commercial,best patio heater canada,26,yes,3022,yes
+/blog/best-pest-control-equipment-canada,6,424,8.6,1.415,0.83,0.585,2,commercial,what are the best value pest control kits for treating an entire home?,33,yes,3544,yes
+/blog/how-to-keep-spiders-out-of-your-house,5,819,10.4,0.611,0.35,0.261,2,other,,0,yes,3728,yes
+/blog/tick-bite-symptoms-what-to-do-ontario,5,732,14,0.683,0.35,0.333,2,other,,0,yes,1663,no
+/blog/packtite-closet-review-canada,4,102,6.3,3.922,2.08,1.842,2,other,,0,yes,3472,yes
+/burlington-mosquito-spray,4,607,13.1,0.659,0.35,0.309,2,other,,0,no,2862,no
+/pool-backyard-mosquito-control,4,628,12.4,0.637,0.35,0.287,2,other,,0,no,1430,no
+/richmond-hill-mosquito-control,4,544,13.4,0.735,0.35,0.385,2,other,mosquito control near me,2,no,1360,no
+/best-mosquito-control-companies-etobicoke,3,234,31.8,1.282,0.35,0.932,2,commercial,mosquito control toronto,17,no,939,no
+/blog/best-crawl-space-dehumidifier-canada,3,380,12.5,0.789,0.35,0.439,2,commercial,crawl space dehumidifier,18,yes,3316,no
+/blog/best-squirrel-proof-bird-feeder-canada,3,392,13.4,0.765,0.35,0.415,2,commercial,squirrel proof bird feeder,32,yes,3183,no
+/blog/best-steam-mop-for-hardwood-floors-canada,3,264,11,1.136,0.35,0.786,2,commercial,best steam mop for hardwood floors,32,yes,3328,no
+/blog/best-whole-house-dehumidifier-canada,3,246,12.9,1.22,0.35,0.87,2,commercial,whole house dehumidifier,25,yes,3139,no
+/blog/brush-cutter-for-overgrown-yard-canada,3,179,9,1.676,0.83,0.846,2,commercial,brush cutting,11,yes,3253,yes
+/blog/heat-vs-chemical-bed-bug-treatment-canada,3,383,9.7,0.783,0.35,0.433,2,other,,0,yes,3908,yes
+/blog/how-to-do-a-tick-check,3,84,7.4,3.571,1.45,2.121,2,other,,0,yes,1907,yes
+/blog/how-to-get-rid-of-bed-bugs-in-couch-canada,3,405,10.9,0.741,0.35,0.391,2,question,how to get rid of bed bugs in sofa,1,yes,3576,no
+/blog/packtite-vs-zappbug-canada,3,67,8.8,4.478,0.83,3.648,2,other,,0,yes,3720,yes
+/home/f/the-best-mosquito-spray-for-yards-in-ontario-what-actually-works,3,311,16.4,0.965,0.35,0.615,2,other,buzzskito,2,PAGE-NOT-ON-DISK,,no
+/king-city-mosquito-control,3,396,21.7,0.758,0.35,0.408,2,other,,0,no,1091,no
+/ancaster-mosquito-control,2,123,36.9,1.626,0.35,1.276,2,other,mosquito spray hamilton,6,no,1014,no
+/blog/hardtop-vs-soft-top-mosquito-gazebo-canada,2,18,14.5,11.111,0.35,10.761,2,other,,0,yes,3102,no
+/blog/how-to-choose-mosquito-control-company-gta,2,95,13.9,2.105,0.35,1.755,2,other,,0,no,1219,no
+/flamborough-mosquito-control,2,84,36,2.381,0.35,2.031,2,other,,0,no,968,no
+/hamilton-protection,2,10,6.1,20,2.08,17.92,2,other,,0,PAGE-NOT-ON-DISK,,yes
+/home/f/mosquito-control-in-etobicoke-%E2%80%93-2025-guide,2,26,6.8,7.692,1.45,6.242,2,other,,0,PAGE-NOT-ON-DISK,,yes
+/stoney-creek-mosquito-control,2,108,20.6,1.852,0.35,1.502,2,other,,0,no,1012,no
+/blog/best-bed-bug-powder-canada,31,1348,6.4,2.3,2.08,0.22,3,commercial,cimexa canada,106,yes,3237,yes
+/blog/how-to-get-rid-of-earwigs-canada,13,1183,9,1.099,0.83,0.269,3,other,earwigs,3,yes,5863,yes
+/blog/tick-head-stuck-in-skin,12,2695,12.7,0.445,0.35,0.095,3,other,tick head stuck in skin,2,yes,2432,no
+/blog/vapamore-mr100-steamer-review-canada,8,365,6.5,2.192,1.45,0.742,3,commercial,vapamore,1,yes,3631,yes
+/learn/how-to-combat-mosquitoes,8,1355,21.5,0.59,0.35,0.24,3,other,ontario mosquito control,3,no,1130,no
+/burlington-tick-spray,7,1142,10.3,0.613,0.35,0.263,3,other,buzzskito,1,no,1611,yes
+/mosquito-control-near-me,7,1266,18.7,0.553,0.35,0.203,3,commercial,mosquito and tick control near me,3,no,1012,no
+/mosquito-tick-control-glossary,7,1024,10.1,0.684,0.35,0.334,3,other,,0,no,2273,yes
+/pest-control-richmond-hill,7,1173,27.8,0.597,0.35,0.247,3,other,buzzskito,2,no,1763,no
+/blog/american-dog-tick-canada,6,379,8.8,1.583,0.83,0.753,3,other,american dog tick,31,yes,1685,yes
+https://www.buzzskito.ca/blog/tick-control-ancaster-dundas-hamilton,6,139,5.7,4.317,2.08,2.237,3,other,,0,PAGE-NOT-ON-DISK,,yes
+/blog/blacklegged-deer-tick-ontario,5,700,13.3,0.714,0.35,0.364,3,commercial,deer tick,110,yes,2042,no
+/caledon-mosquito-control,5,535,14.1,0.935,0.35,0.585,3,other,,0,no,1071,no
+/pest-control-gta,5,638,13.8,0.784,0.35,0.434,3,other,buzzskito,1,no,1347,no
+/blog/raccoon-proof-chimney-cap-canada,4,85,9.2,4.706,0.83,3.876,3,other,,0,yes,3359,yes
+/halton-hills-tick-spray,4,233,16.4,1.717,0.35,1.367,3,other,,0,no,1044,no
+/how-it-works,4,377,18.7,1.061,0.35,0.711,3,other,spray for mosquitoes,1,no,805,no
+/pest-product-guides/tick-gear,4,266,13,1.504,0.35,1.154,3,other,,0,no,1516,no
+/blog/mosquito-net-canada,24,5826,10.4,0.412,0.35,0.062,4,other,mosquito nets,4,PAGE-NOT-ON-DISK,,yes
+/blog/best-hepa-vacuum-for-bed-bugs-and-fleas-canada,16,440,5.4,3.636,2.74,0.896,4,commercial,best vacuum for bed bugs,18,yes,3691,yes
+/blog/mosquito-coils-canada,16,3410,10.7,0.469,0.35,0.119,4,commercial,canadian tire mosquito coils,2,yes,2185,no
+/blog/how-to-get-rid-of-drain-flies-canada,12,2191,11.2,0.548,0.35,0.198,4,other,,0,yes,3686,no
+/blog/thermalstrike-ranger-review-canada,12,388,5.9,3.093,2.08,1.013,4,other,thermal strike ranger,4,yes,3773,yes
+/blog/best-gas-backpack-fogger-canada,11,602,7.9,1.827,1.09,0.737,4,other,mist blower,46,yes,3390,yes
+/blog/how-to-get-rid-of-carpenter-bees-canada,11,844,9.2,1.303,0.83,0.473,4,other,carpenter bee insecticide canada,1,yes,4189,yes
+/blog/how-to-get-rid-of-boxelder-bugs-canada,10,1618,10.7,0.618,0.35,0.268,4,other,boxelder bug nymph how to get rid of,1,yes,6208,no
+/blog/how-to-get-rid-of-mosquitoes-in-the-house,9,1362,11.2,0.661,0.35,0.311,4,question,how to get rid of mosquitoes inside the house fast,2,no,3054,no
+/best-mosquito-control-companies-mississauga,6,641,10.2,0.936,0.35,0.586,4,other,mosquito control mississauga,47,no,1037,yes
+/blog/mosquito-tick-control-stoney-creek,6,558,17.1,1.075,0.35,0.725,4,other,,0,no,1461,no
+/pest-product-guides,6,525,23.3,1.143,0.35,0.793,4,other,,0,no,2135,no
+/blog/best-deer-fence-for-gardens-canada,5,325,16.4,1.538,0.35,1.188,4,commercial,deer fence canada,12,yes,3485,no
+/blog/steamer-vs-heater-for-bed-bugs-canada,5,298,9.5,1.678,0.35,1.328,4,commercial,bed bug steamer canadian tire,2,yes,3542,yes
+/burlington-protection,5,43,5.5,11.628,2.08,9.548,4,other,mosquito control burlington,2,PAGE-NOT-ON-DISK,,yes
+/mississauga-tick-spray,32,2444,7.7,1.309,1.09,0.219,5,other,ticks in mississauga,4,no,2165,yes
+/blog/dupray-steamer-review-canada,28,1602,7.3,1.748,1.45,0.298,5,commercial,best steam cleaner for bed bugs canada,6,yes,3463,yes
+/blog/best-flea-bomb-canada,26,1895,8.3,1.372,1.09,0.282,5,other,flea bomb,156,yes,5471,yes
+/blog/mosquito-tick-control-hamilton-burlington,19,1710,8.8,1.111,0.83,0.281,5,other,ticks burlington ontario,1,no,1101,yes
+/blog/best-mosquito-trap-for-acreage-canada,12,495,7.2,2.424,1.45,0.974,5,commercial,acreage mosquito control,54,yes,3366,yes
+/blog/best-air-purifier-for-pet-dander-canada,8,928,10.2,0.862,0.35,0.512,5,commercial,best air purifiers for pets,95,PAGE-NOT-ON-DISK,,yes
+/blog/mosquito-screens-patio-canada,7,510,9.7,1.373,0.35,1.023,5,other,,0,yes,2458,yes
+/blog/pergola-mosquito-curtains-canada,6,74,7.5,8.108,1.09,7.018,5,other,mosquito curtains canada,2,yes,3459,yes
+/blog/propane-mosquito-trap-canada,6,398,10.2,1.508,0.35,1.158,5,other,mosquito gas trap,1,yes,3199,yes
+/caledon-tick-spray,6,355,21.6,1.69,0.35,1.34,5,other,,0,no,1016,no
+/blog/bed-bug-stains-poop-droppings-canada,81,6918,7.7,1.171,1.09,0.081,6,other,bed bug poop,436,yes,4253,yes
+/blog/types-of-ticks-identification,22,4579,12.9,0.48,0.35,0.13,6,question,what type of tick is this,2,yes,2433,no
+/vaughan-mosquito-control,14,2248,11.7,0.623,0.35,0.273,6,other,mosquito control vaughan,6,no,2582,no
+/blog/misting-fan-canada,13,686,8.4,1.895,1.09,0.805,6,commercial,best outdoor misting fans,2,yes,3149,yes
+/blog/how-to-get-rid-of-rats-canada,10,1063,12.2,0.941,0.35,0.591,6,other,,0,yes,4140,no
+/blog/bug-protective-clothing-canada,8,702,10,1.14,0.35,0.79,6,commercial,mosquito jacket canadian tire,49,yes,3098,yes
+/ticks-in-ontario-statistics,114,9780,7.8,1.166,1.09,0.076,7,other,worst areas for ticks in ontario,17,no,3017,yes
+/blog/motion-activated-sprinkler-canada,74,4626,7,1.6,1.45,0.15,7,commercial,motion activated sprinkler,12,yes,3356,yes
+/blog/best-hepa-vacuum-for-allergies-canada,16,1086,8.8,1.473,0.83,0.643,7,commercial,best hepa vacuum,86,PAGE-NOT-ON-DISK,,yes
+/blog/best-centipede-killer-canada,13,1767,10.6,0.736,0.35,0.386,7,commercial,centipede killer,136,yes,4773,no
+/blog/bed-bug-heat-treatment-diy-canada,11,1048,13.4,1.05,0.35,0.7,7,other,bed bug heat treatment,59,yes,3890,no
+/markham-mosquito-control,10,715,14.7,1.399,0.35,1.049,7,other,mosquito truck spray,1,no,1506,no
+/blog/bed-bug-mattress-encasement-canada,49,4931,8.8,0.994,0.83,0.164,8,other,bed bug mattress encasement,327,yes,3245,yes
+/mississauga-mosquito-control,34,3076,8.8,1.105,0.83,0.275,8,other,mosquito control mississauga,6,no,3943,yes
+/blog/how-to-get-rid-of-cockroaches-canada,23,4420,11.1,0.52,0.35,0.17,8,commercial,how to get rid of german cockroaches canada,4,yes,4589,no
+/toronto-tick-spray,18,2944,10.2,0.611,0.35,0.261,8,other,ok,2,no,2334,yes
+/mosquito-control-ontario,16,2327,31.5,0.688,0.35,0.338,8,other,buzzskito,1,no,1110,no
+/blog/ecoraider-bed-bug-spray-review-canada,14,271,6.3,5.166,2.08,3.086,8,commercial,ecoraider bed bug killer spray,2,yes,4233,yes
+/blog/best-battery-backpack-sprayer-canada,13,641,8.9,2.028,0.83,1.198,8,commercial,battery backpack sprayer,50,yes,3533,yes
+/blog/best-sump-pump-for-basement-canada,13,636,8.8,2.044,0.83,1.214,8,commercial,best sump pump canada,42,yes,3612,yes
+/blog/lyme-disease-cases-mississauga-oakville-2026,13,351,7.2,3.704,1.45,2.254,8,other,in 2026,1,no,2837,yes
+/blog/when-to-schedule-first-mosquito-treatment-ontario,13,1535,9.5,0.847,0.35,0.497,8,commercial,ontario mosquito control,3,no,1220,yes
+/am-i-a-mosquito-magnet,12,457,9,2.626,0.83,1.796,8,other,i'm a mosquito magnet,27,no,1045,yes
+/blog/best-indoor-fly-mosquito-trap-canada,45,2451,6.7,1.836,1.45,0.386,9,commercial,indoor mosquito trap,225,yes,1997,yes
+/blog/how-to-get-rid-of-mosquitoes-in-yard-ontario,19,2970,16.8,0.64,0.35,0.29,9,question,how to get rid of mosquitoes at home in canada,4,yes,1762,no
+/etobicoke-tick-spray,12,825,14.4,1.455,0.35,1.105,9,other,,0,no,913,no
+/home/f/tick-repellent-that-actually-works-in-ontario-yards-2025-update,12,864,10,1.389,0.35,1.039,9,other,company to spray for ticks,2,PAGE-NOT-ON-DISK,,yes
+/vaughan-tick-spray,12,746,13,1.609,0.35,1.259,9,other,,0,no,1475,no
+/blog/best-ulv-cold-fogger-canada,11,569,10.8,1.933,0.35,1.583,9,other,ulv fogger,57,yes,3334,no
+/blog/best-bed-bug-luggage-heater-canada,10,359,10,2.786,0.35,2.436,9,commercial,bed bug heater canada,25,yes,3702,yes
+/mosquito-control-cost,157,7052,6.4,2.226,2.08,0.146,10,other,mosquito buzz cost,22,no,1859,yes
+/blog/tick-prevention-caledon-halton-hills,43,2272,7.3,1.893,1.45,0.443,10,other,ticks in halton region,1,no,1124,yes
+/blog/cimexa-bed-bug-review-canada,32,1538,6.6,2.081,1.45,0.631,10,commercial,cimexa,6,yes,3648,yes
+/blog/best-dehumidifier-for-cold-garage-canada,17,612,8.4,2.778,1.09,1.688,10,commercial,garage dehumidifier,50,yes,3225,yes
+/tick-control-ontario,16,1754,20.3,0.912,0.35,0.562,10,other,buzzskito,2,no,1295,no
+/mosquito-control-pricing,15,1306,10.6,1.149,0.35,0.799,10,other,,0,no,1289,no
+/blog/black-flies-mississauga-toronto-gta-2026,40,2704,7.6,1.479,1.09,0.389,11,other,black fly season ontario 2026,53,yes,2714,yes
+/blog/best-thermal-fogger-canada,25,946,7.2,2.643,1.45,1.193,11,commercial,thermal fogger,130,yes,3357,yes
+/oakville-mosquito-control,25,1700,9.2,1.471,0.83,0.641,11,other,oakville mosquito control,3,no,4027,yes
+/blog/best-mouse-trap-canada,18,1978,10.2,0.91,0.35,0.56,11,commercial,best mouse trap,156,yes,3033,yes
+/hamilton-mosquito-control,17,1621,10.3,1.049,0.35,0.699,11,commercial,mosquito control hamilton,4,no,2879,yes
+/blog/rat-poison-canada-what-is-legal,118,5084,6.1,2.321,2.08,0.241,12,commercial,best mouse poison in canada,14,yes,2570,yes
+/blog/bed-bugs-on-the-ttc-toronto,38,1245,6.4,3.052,2.08,0.972,12,other,ttc bed bugs,21,yes,3756,yes
+/blog/how-to-get-rid-of-carpet-beetles-canada,19,1926,10.3,0.987,0.35,0.637,12,other,carpet beetles,2,yes,4613,yes
+/blog/how-to-keep-ticks-out-of-yard-ontario,19,1979,10.3,0.96,0.35,0.61,12,other,canadian shield land,2,yes,1323,yes
+/halton-hills-mosquito-control,15,931,11.7,1.611,0.35,1.261,12,other,buzzskito,5,no,1084,no
+/blog/best-spider-spray-canada,57,3039,7.2,1.876,1.45,0.426,13,commercial,spider spray,265,yes,3773,yes
+/blog/black-flag-electric-fogger-review-canada,27,976,7.3,2.766,1.45,1.316,13,commercial,black flag fogging insecticide canada,72,yes,3170,yes
+/blog/how-to-get-rid-of-voles-canada,17,1003,9.5,1.695,0.35,1.345,13,other,voles,6,yes,4951,yes
+/oakville-tick-spray,17,1235,9.6,1.377,0.35,1.027,13,other,tick spray company,1,no,1926,yes
+/blog/carpenter-ants-canada,24,2845,11.9,0.844,0.35,0.494,14,other,carpenter ant bait,1,yes,6031,no
+/blog/best-bed-bug-detector-canada,23,1037,9.3,2.218,0.83,1.388,14,commercial,bed bug detector,74,yes,3722,yes
+/blog/tick-season-mississauga-when-are-ticks-active,65,2408,6,2.699,2.08,0.619,15,other,ticks in mississauga,4,no,1870,yes
+/blog/best-electric-fence-for-raccoons-canada,29,1330,7.7,2.18,1.09,1.09,15,commercial,electric fence for raccoons,35,yes,3409,yes
+/blog/tick-control-ancaster-dundas-hamilton,19,1014,10.8,1.874,0.35,1.524,15,other,,0,no,1678,no
+/pest-product-guides/bed-bug-control,51,2435,6.7,2.094,1.45,0.644,16,commercial,temprid fx canada,12,no,2239,yes
+/blog/tick-season-burlington-when-are-ticks-active,53,1319,4.8,4.018,2.74,1.278,17,other,ticks in burlington ontario,4,yes,2275,yes
+/blog/best-ant-traps-canada,31,4127,9.5,0.751,0.35,0.401,17,commercial,ant traps,389,yes,5808,yes
+/toronto-mosquito-control,45,7626,14.4,0.59,0.35,0.24,18,commercial,mosquito control toronto,12,no,4523,no
+/blog/best-solar-bug-zapper-canada,44,2372,7.7,1.855,1.09,0.765,18,commercial,solar bug zapper,181,yes,2586,yes
+/blog/best-ant-killer-canada,33,4280,10.7,0.771,0.35,0.421,18,commercial,ant killer,479,PAGE-NOT-ON-DISK,,no
+/blog/best-rodent-repellent-for-cars-canada,62,3911,7.5,1.585,1.09,0.495,19,commercial,rodent repellent for cars,248,yes,4012,yes
+/best-mosquito-control-companies-toronto,32,3797,11,0.843,0.35,0.493,19,commercial,mosquito control toronto,143,no,1469,no
+/blog/tick-hot-spots-oakville-burlington-2026,32,876,7,3.653,1.45,2.203,19,other,ticks in oakville,1,no,2358,yes
+/blog/best-tick-control-yard-treatment,97,7095,8.1,1.367,1.09,0.277,20,commercial,tick control,437,yes,1158,yes
+/blog/tick-season-oakville-when-are-ticks-active,47,1860,6.6,2.527,1.45,1.077,20,other,ticks in oakville,4,yes,2360,yes
+/hamilton-tick-spray,25,1295,11.8,1.931,0.35,1.581,20,other,hamilton area,2,no,1477,no
+/blog/best-bed-bug-trap-canada,26,1310,9.5,1.985,0.35,1.635,21,commercial,bed bug traps,98,yes,3539,yes
+/blog/best-professional-mosquito-trap-canada,25,1108,10.4,2.256,0.35,1.906,21,commercial,propane mosquito trap,139,yes,3433,yes
+/blog/best-rat-trap-canada,84,7473,8.7,1.124,0.83,0.294,22,commercial,rat traps,474,yes,9201,yes
+/blog/wasp-dust-canada,40,614,5.2,6.515,2.74,3.775,23,commercial,wasp powder canada,7,yes,3236,yes
+/blog/best-dehumidifier-for-basement-canada,36,3609,11,0.998,0.35,0.648,23,commercial,best dehumidifier for basement canada,157,yes,3299,no
+/blog/lyme-disease-cases-ontario-2026,27,1192,12.1,2.265,0.35,1.915,23,other,,0,no,1781,no
+/blog/electric-fly-swatter-canada,185,14805,8.1,1.25,1.09,0.16,24,commercial,electric fly swatter,35,PAGE-NOT-ON-DISK,,yes
+/blog/best-tick-repellent-yard-canada,136,10269,8.4,1.324,1.09,0.234,24,commercial,cedarcide canada,584,yes,1557,yes
+/blog/how-to-keep-mice-out-of-your-car,38,4004,11.3,0.949,0.35,0.599,24,other,stop mice from getting in car,3,yes,4164,no
+/blog/mosquito-repellent-plants-ontario,138,10280,7.5,1.342,1.09,0.252,26,commercial,mosquito repellent plants,10,yes,1900,yes
+/blog/tick-bites-that-wont-heal-when-to-worry,75,4458,7.6,1.682,1.09,0.592,26,other,tick bite not healing,15,no,1075,yes
+/blog/co2-mosquito-trap-canada,65,2719,7.2,2.391,1.45,0.941,26,commercial,co2 mosquito trap,20,yes,2850,yes
+/blog/crossfire-bed-bug-concentrate-review-canada,71,2952,6.9,2.405,1.45,0.955,28,commercial,crossfire bed bug,14,yes,3110,yes
+/blog/best-steam-cleaner-for-pest-control-canada,32,1217,10.3,2.629,0.35,2.279,28,commercial,bed bug vacuum steamer richmond hill,86,yes,3563,yes
+/blog/what-ticks-look-like-ontario,170,12901,7.9,1.318,1.09,0.228,29,other,tick identification ontario,21,yes,1489,yes
+/blog/bed-bug-heater-canada,45,1918,8.5,2.346,0.83,1.516,29,commercial,bed bug heater,188,yes,3968,yes
+/blog/tick-control-richmond-hill-markham,96,2304,4.9,4.167,2.74,1.427,33,other,ticks in markham,6,no,1381,yes
+/west-nile-virus-ontario-tracker,198,11238,6.9,1.762,1.45,0.312,35,other,west nile virus ontario,12,no,2500,yes
+/blog/best-bed-bug-steamer-canada,97,3002,5.9,3.231,2.08,1.151,35,commercial,steam cleaner for bed bugs,197,yes,2870,yes
+/blog/best-mosquito-trap-canada,65,3503,9.1,1.856,0.83,1.026,36,commercial,propane mosquito trap,240,PAGE-NOT-ON-DISK,,yes
+/blog/best-wasp-trap-canada,89,6233,8.6,1.428,0.83,0.598,37,commercial,best wasp trap,238,PAGE-NOT-ON-DISK,,yes
+/blog/best-cockroach-spray-canada,71,8508,9.5,0.835,0.35,0.485,41,commercial,cockroach spray,602,yes,5755,yes
+/blog/raccoon-deterrent-canada,147,7035,6.8,2.09,1.45,0.64,45,commercial,raccoon deterrent,22,PAGE-NOT-ON-DISK,,yes
+/blog/tick-control-vaughan-king-city-woodbridge,85,1902,6,4.469,2.08,2.389,45,other,ticks in vaughan,4,no,1275,yes
+/blog/mosquito-repellent-guide-ontario-2026,278,11116,6.3,2.501,2.08,0.421,47,commercial,best mosquito repellent,52,yes,2793,yes
+/blog/no-see-um-bites,313,18096,6.7,1.73,1.45,0.28,51,other,no see ums,59,yes,6895,yes
+/blog/how-to-get-rid-of-wasps-canada,96,10682,9.7,0.899,0.35,0.549,59,commercial,wasp nest removal,15,yes,3415,yes
+/blog/bed-bug-spray-canada,129,6179,7.7,2.088,1.09,0.998,62,commercial,best bed bug killer in canada,467,yes,4267,yes
+/blog/chigger-bites,157,26507,9.8,0.592,0.35,0.242,64,other,chiggers,44,yes,8289,yes
+/blog/bug-zappers-canada-do-they-work,238,19895,8.6,1.196,0.83,0.366,73,commercial,bug zapper,654,yes,14697,yes
+/blog/lyme-disease-risk-areas-ontario-2026,383,14805,6.4,2.587,2.08,0.507,75,other,tick map ontario 2026,22,no,2107,yes
+/blog/tick-removal-tool-guide,124,5637,8.6,2.2,0.83,1.37,77,commercial,best tick removal tool,19,yes,1824,yes
+/blog/toronto-tick-hot-spot-2026,195,5583,6.1,3.493,2.08,1.413,79,other,ticks in toronto 2026,14,no,1398,yes
+/blog/advion-cockroach-gel-bait-canada,422,21363,7,1.975,1.45,0.525,112,commercial,advion cockroach gel bait,878,PAGE-NOT-ON-DISK,,yes
+/blog/tick-hot-spots-mississauga-2026,153,1490,5.2,10.268,2.74,7.528,112,other,mississauga ticks,3,no,1936,yes
+/blog/best-screen-tent-canada,160,11485,9.6,1.393,0.35,1.043,120,other,screen tent,457,yes,5007,yes
+/gta-mosquito-pressure-map,207,5035,6.6,4.111,1.45,2.661,134,other,toronto tick map,11,no,2295,yes
+/blog/are-ticks-dangerous-ontario,624,17790,5.1,3.508,2.74,0.768,137,other,worst areas for ticks in ontario,821,yes,2644,yes
+/blog/mosquito-magnet-canada,315,15521,8.2,2.03,1.09,0.94,146,commercial,mosquito magnet,37,yes,7227,yes
+/blog/mosquito-fogger-canada,454,21167,7.4,2.145,1.45,0.695,147,commercial,mosquito fogger,82,yes,3862,yes
+/ontario-lyme-disease-tracker-2026,477,21880,8.1,2.18,1.09,1.09,239,other,tick map ontario 2026,26,no,4832,yes
+/,389,10013,14.5,3.885,0.35,3.535,354,other,mosquito control toronto,376,no,1049,no
+/blog/permethrin-canada-yard-clothing-spray,1431,59650,6.5,2.399,1.45,0.949,566,commercial,permethrin spray,183,yes,7052,yes
+/blog/laser-mosquito-killer-photon-matrix-review,2167,97091,6.9,2.232,1.45,0.782,759,commercial,photon matrix,165,yes,14341,yes
+/blog/mosquito-bits-canada-vs-dunks,2118,62275,5.8,3.401,2.08,1.321,823,commercial,mosquito bits,141,yes,6137,yes
