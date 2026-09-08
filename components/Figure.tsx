@@ -1,4 +1,4 @@
-import Image from 'next/image'
+import FigureZoom from './FigureZoom'
 
 /**
  * A captioned, schema-annotated figure for identification and comparison content.
@@ -63,16 +63,7 @@ export default function Figure({
   return (
     <figure className="not-prose my-8">
       <div className="rounded-xl border border-navy-100 bg-white overflow-hidden">
-        <Image
-          src={src}
-          alt={alt}
-          width={width}
-          height={height}
-          priority={priority}
-          loading={priority ? undefined : 'lazy'}
-          sizes="(max-width: 768px) 100vw, 720px"
-          className="w-full h-auto"
-        />
+        <FigureZoom src={src} alt={alt} width={width} height={height} priority={priority} />
       </div>
       <figcaption className="mt-2 text-sm text-gray-600 leading-relaxed">
         {caption}

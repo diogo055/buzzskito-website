@@ -12,6 +12,7 @@ import Figure from '@/components/Figure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { TICK_BLOGS } from '@/lib/constants'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import RelatedProducts from '@/components/RelatedProducts'
 
 const SLUG = 'bugs-that-look-like-ticks'
 const DATE = '2026-04-26'
@@ -267,6 +268,14 @@ export default function BugsThatLookLikeTicksPage() {
           </table>
         </div>
 
+        <RelatedProducts
+          heading="If it is a tick"
+          items={[
+            { href: '/blog/tick-removal-tool-guide', title: 'How to get a tick out properly', why: 'The pull-straight-up method, and which tools actually grip a nymph.' },
+            { href: '/blog/permethrin-canada-yard-clothing-spray', title: 'What permethrin can and cannot do in Canada', why: 'Where the yard products are registered, and what PHAC says about clothing spray.' },
+            { href: '/blog/are-ticks-dangerous-ontario', title: 'How dangerous is an Ontario tick bite?', why: 'Which species carry Lyme, and the attachment window that matters.' },
+          ]}
+        />
         <h2>Ticks vs Other Bugs: The One-Sentence Differences</h2>
         <p>A tick is an 8-legged arachnid with no antennae that attaches to skin and feeds on blood, while a bed bug is a flat 6-legged insect that hides in mattress seams, a spider beetle is a hard-shelled 6-legged beetle with antennae longer than its body, a weevil is a 6-legged beetle with a long snout, a carpet beetle is a 6-legged beetle with a mottled shell that flies, a bat bug is a bed-bug look-alike from attic roosts, and a booklouse is a 1 mm translucent insect that lives on damp paper.</p>
         <p>Restated as plain sentences, the three rows that settle most cases are these. A spider beetle has 6 legs, antennae often longer than its own body, a hard shiny shell and a fast run, whereas a tick has 8 legs, no antennae and a slow crawl. A bed bug is a flat, apple-seed-shaped oval with antennae that lives in mattress seams and never stays attached to skin, whereas a tick grips and stays put for hours or days. A poppy seed has no legs at all and brushes straight off, whereas a poppy-seed-sized nymph tick has 8 legs and holds on.</p>

@@ -10,6 +10,7 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import Figure from '@/components/Figure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import RelatedProducts from '@/components/RelatedProducts'
 
 const SLUG = 'horse-fly-and-deer-fly-bite-treatment'
 const DATE = '2026-07-13'
@@ -197,6 +198,14 @@ export default function HorseFlyDeerFlyBiteTreatmentPage() {
           <h2>How Long Does a Horse Fly Bite Take to Heal?</h2>
           <p>For most people the timeline looks like this: a sharp <strong>sting for the first few hours</strong>, then an itchy, swollen red bump that peaks over <strong>2–4 days</strong>, and full healing within about <strong>a week</strong>. Because the skin was cut rather than cleanly pierced, a horse fly bite can stay raised and pink a little longer than a mosquito bite, and a small scab is normal. The key thing to track is <em>direction</em>: a normal bite gets better each day. A bite that gets redder, hotter, more swollen or more painful after the first 48 hours is a warning sign, not part of normal healing.</p>
 
+          <RelatedProducts
+            heading="The other biting flies, and what repels them"
+            items={[
+              { href: '/blog/black-flies-ontario-when-they-come-out', title: 'Black flies: when they show up in Ontario', why: 'The spring window, and why they swarm your head specifically.' },
+              { href: '/blog/best-mosquito-repellent-device-canada', title: 'Area repellent devices, compared', why: 'What a zone device covers outdoors, and where it falls over.' },
+              { href: '/blog/no-see-um-bites', title: 'No-see-um bites and how they differ', why: 'The burning pinprick bite that peaks at dawn and dusk.' },
+            ]}
+          />
           <h2>Signs a Bite Is Infected or Turning Serious</h2>
           <p>Scratching an open tabanid bite can let bacteria in and cause a skin infection such as <strong>cellulitis</strong>. See a clinician promptly if you notice any of these:</p>
           <ul>

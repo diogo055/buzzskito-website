@@ -11,6 +11,7 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { MOSQUITO_BLOGS } from '@/lib/constants'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import RelatedProducts from '@/components/RelatedProducts'
 
 const SLUG = 'black-flies-ontario-when-they-come-out'
 const DATE = '2026-04-26'
@@ -187,6 +188,14 @@ export default function BlackFliesOntarioPage() {
         <p>Black flies are strong fliers and can travel several kilometres from their breeding sites in search of hosts. If your property is anywhere within a few kilometres of a clean, flowing waterway — and most of the GTA is — you will see black flies during the spring emergence. <Link href="/toronto-mosquito-control" className="text-brand-700 underline">Toronto homeowners</Link> with properties backing onto Don Valley ravines, Humber River corridors, or High Park feel this acutely each year.</p>
         <p>For a neighbourhood-level breakdown of which streets those watersheds actually hit hardest, our <Link href="/blog/black-flies-mississauga-toronto-gta-2026" className="text-brand-700 underline">2026 GTA black fly map</Link> walks the Credit River corridor, the Don Valley, 16 Mile Creek, and the escarpment foot city by city.</p>
 
+        <RelatedProducts
+          heading="What actually keeps them off you"
+          items={[
+            { href: '/blog/mosquito-repellent-guide-ontario-2026', title: 'Which repellents work on biting flies', why: 'DEET, picaridin and what the concentration actually buys you.' },
+            { href: '/blog/best-mosquito-repellent-device-canada', title: 'Area repellent devices, compared', why: 'What a zone device covers on a still evening, and what it does not.' },
+            { href: '/blog/no-see-um-bites', title: 'No-see-ums bite differently again', why: 'The other tiny biter people mistake for black flies.' },
+          ]}
+        />
         <h2>Why Black Fly Bites Are Different</h2>
         <p>Black flies do not pierce the skin like mosquitoes — they cut it. Their mouthparts are designed to slice a small wound and lap up the pooling blood, similar to a horsefly but on a much smaller scale. The bite is often felt sharply when it happens, unlike a mosquito bite which usually goes unnoticed until the welt forms.</p>
         <p>The aftermath is also distinct:</p>
