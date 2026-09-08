@@ -161,7 +161,7 @@ export default function TickPillarPage() {
           <li>Control deer access to your property — deer carry adult ticks onto your land</li>
         </ul>
 
-        <p>Beyond habitat work, treating the clothing and gear you wear in high-risk zones adds a personal layer of protection. Permethrin is a repellent you apply to fabric — not skin — that kills ticks on contact and survives several washes. A pre-mixed spray is the simplest way to treat boots, socks, and pant legs before yard work: <BuyLink tag={AMZ_TAG} search="sawyer permethrin clothing spray">Check price on Amazon.ca →</BuyLink></p>
+        <p>Beyond habitat work, what you wear into the high-risk zones adds a personal layer of protection. Permethrin belongs on fabric, not skin — it kills ticks on contact with the cloth rather than simply repelling them. In Canada, though, the do-it-yourself version is off the table: Health Canada does not approve permethrin liquids and sprays for consumers to treat their own clothing. The route that is approved is buying the treatment already in the garment — factory-treated clothing, where the permethrin is bonded in at manufacture and lasts up to 70 wash cycles. Treated socks and trouser legs cover the ankles and lower legs a questing tick reaches first, so those are the pieces worth owning before yard work: <BuyLink tag={AMZ_TAG} search="insect shield permethrin treated clothing">Check treated clothing on Amazon.ca →</BuyLink></p>
         <p>For the full breakdown, see our guides to <Link href="/blog/permethrin-canada-yard-clothing-spray" className="text-brand-700 underline hover:text-brand-500">permethrin for yard &amp; clothing in Canada</Link> and the <Link href="/blog/best-tick-repellent-yard-canada" className="text-brand-700 underline hover:text-brand-500">best tick repellents for your yard</Link>.</p>
 
         <h2>Tick Control Product Stack: What Works and What Doesn&apos;t</h2>
@@ -169,7 +169,7 @@ export default function TickPillarPage() {
 
         <h3>Worth Your Money</h3>
         <ul>
-          <li><strong>Permethrin-treated clothing:</strong> The single best personal-protection step for anyone working in Zone 1 or Zone 2. It kills ticks on contact with the fabric and survives multiple washes.</li>
+          <li><strong>Factory-treated permethrin clothing:</strong> The single best personal-protection step for anyone working in Zone 1 or Zone 2. The permethrin is bonded into the fabric at manufacture, so it kills ticks on contact and lasts up to 70 wash cycles. Buy the garments already treated — Health Canada does not approve permethrin sprays for consumers to treat their own clothing.</li>
           <li><strong>Tick tubes:</strong> Biodegradable tubes filled with permethrin-treated cotton that mice carry back to their nests, killing larval ticks at the source. Slow-acting — expect results over a full season, not overnight — but genuinely effective at breaking the Lyme cycle around woodpiles, sheds, and stone walls. Thermacell Tick Control Tubes are the widely available option in Canada: <BuyLink tag={AMZ_TAG} search="thermacell tick control tubes 12 pack">Check price on Amazon.ca →</BuyLink></li>
           <li><strong>Icaridin (picaridin) or DEET on skin:</strong> Health Canada–approved and proven against ticks, not just mosquitoes. Apply to ankles and lower legs before yard work.</li>
           <li><strong>A proper tick removal tool:</strong> Cheap insurance in the first-aid kit. Clean removal within 24–36 hours of attachment dramatically reduces Lyme transmission risk.</li>

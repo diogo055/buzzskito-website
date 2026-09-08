@@ -256,7 +256,7 @@ export default function BlackFliesOntarioPage() {
           <li><strong>Wear light colours.</strong> Black flies are strongly attracted to dark blue, brown, and black. Light grey, beige, and white are far less attractive.</li>
           <li><strong>Cover up.</strong> Long sleeves, pants, and a hat block most bites — black flies are notorious for crawling into hairlines and behind ears.</li>
           <li><strong>Use DEET or picaridin repellent</strong> on exposed skin. Picaridin (also sold as icaridin) is odourless, non-greasy, and does not damage plastics or gear the way DEET can, which makes it popular for all-day spring wear. <BuyLink tag={AMZ_TAG} search="picaridin insect repellent canada">Check picaridin repellents on Amazon.ca →</BuyLink> See our full <Link href="/blog/picaridin-vs-deet" className="text-brand-700 underline">picaridin vs DEET comparison</Link> to pick the right active.</li>
-          <li><strong>Treat your clothing with permethrin.</strong> Permethrin-treated clothing is highly effective for outdoor workers, hikers, and anyone spending long hours near waterways during the May–June emergence — it kills black flies on contact and lasts through several washes. <BuyLink tag={AMZ_TAG} search="sawyer permethrin clothing spray">Check permethrin clothing spray on Amazon.ca →</BuyLink> Read our <Link href="/blog/permethrin-canada-yard-clothing-spray" className="text-brand-700 underline">permethrin guide for Canada</Link> for safe application.</li>
+          <li><strong>Buy permethrin-treated clothing.</strong> Factory-treated shirts, pants, and socks are highly effective for outdoor workers, hikers, and anyone spending long hours near waterways during the May–June emergence — the permethrin is bonded into the fabric at the factory, kills black flies on contact, and lasts up to 70 wash cycles on Insect Shield garments. Health Canada does not approve permethrin liquids and sprays for consumers to treat their own clothing, so buy the garments already treated rather than treating your own. <BuyLink tag={AMZ_TAG} search="insect shield permethrin treated clothing">Check permethrin-treated clothing on Amazon.ca →</BuyLink> Read our <Link href="/blog/permethrin-canada-yard-clothing-spray" className="text-brand-700 underline">permethrin guide for Canada</Link> for what is and is not approved here.</li>
           <li><strong>Stay away from waterways during peak emergence.</strong> The closer you are to a river or stream in late May and early June, the heavier the pressure.</li>
           <li><strong>Eliminate yard rest sites.</strong> Trim back overgrown shrubs and dense vegetation along the property edge.</li>
           <li><strong>Schedule a barrier spray.</strong> A professional treatment in mid-May provides the strongest coverage during the worst three weeks.</li>
@@ -268,7 +268,7 @@ export default function BlackFliesOntarioPage() {
         <h3>1. Personal Protection First</h3>
         <ul>
           <li><strong>Cover up and go light.</strong> Long sleeves, pants, and a hat block most bites, and black flies are far less drawn to light grey, beige, and white than to dark blue, brown, and black.</li>
-          <li><strong>Use repellent.</strong> DEET or picaridin on exposed skin, and permethrin-treated clothing for long hours near waterways during the May&ndash;June emergence.</li>
+          <li><strong>Use repellent.</strong> DEET or picaridin on exposed skin, and factory-treated permethrin clothing for long hours near waterways during the May&ndash;June emergence.</li>
           <li><strong>Skip the scents.</strong> Floral perfumes, scented sunscreens, and hair products all attract black flies.</li>
         </ul>
 
@@ -279,7 +279,7 @@ export default function BlackFliesOntarioPage() {
           search="picaridin insect repellent canada"
           score={8.7}
           pros={['Odourless and non-greasy', 'Safe on plastics, sunglasses, and gear', 'All-day protection against black flies and mosquitoes']}
-          cons={['Needs reapplication after heavy sweating', 'Does not cover clothing — pair with permethrin for that']}
+          cons={['Needs reapplication after heavy sweating', 'Does not cover clothing — pair with factory-treated permethrin clothing for that']}
         />
 
         <h3>2. Make Your Yard Less Hospitable</h3>

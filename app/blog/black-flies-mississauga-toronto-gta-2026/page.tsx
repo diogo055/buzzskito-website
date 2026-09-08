@@ -171,7 +171,7 @@ export default function BlackFliesMississaugaTorontoGTAPage() {
           label="Best Personal Protection"
           name="Permethrin clothing treatment spray (0.5%)"
           blurb="Because black flies cut rather than pierce, they shrug off skin repellents faster than mosquitoes do — so the gold standard is treating the clothing itself. One application binds to fabric, survives weeks of wear and several washes, and keeps working hands-free while you garden or walk the ravines during the worst three weeks. Treat clothing only, never skin."
-          search="permethrin clothing spray"
+          search="insect shield permethrin treated clothing"
           score={8.8}
           pros={['Gold standard for black fly protection', 'One treatment lasts several weeks and washes', 'Hands-free — no reapplying to skin', 'Ideal for ravine walkers and gardeners']}
           cons={['For fabric only, never applied to skin', 'Needs to dry fully before wearing']}
@@ -226,7 +226,7 @@ export default function BlackFliesMississaugaTorontoGTAPage() {
         </div>
       </section>
 
-      <StickyBuyBar tag={AMZ_TAG} name="Permethrin clothing spray (0.5%)" search="permethrin clothing spray" label="Best personal protection" />
+      <StickyBuyBar tag={AMZ_TAG} name="Permethrin-treated clothing" search="insect shield permethrin treated clothing" label="Best personal protection" />
 
       <CTASection heading="GTA black fly season is on now — get your yard protected" subtext="Free custom quote based on your address and lot. Sent within 24 hours. Same-week service across the GTA." />
     </>

@@ -91,12 +91,12 @@ export default function BestTickControlPage() {
             },
             {
               badge: 'Best Wearable Defence',
-              name: 'Sawyer Permethrin Clothing Spray',
-              why: 'Treats clothing and gear for long-lasting, wearable protection that skin repellent alone can’t match — ideal for hikes and yard work.',
-              search: 'sawyer permethrin clothing spray',
+              name: 'Insect Shield Permethrin-Treated Clothing',
+              why: 'Factory-treated garments give the long-lasting, wearable protection that skin repellent alone can’t match — ideal for hikes and yard work. Health Canada has not approved permethrin liquids or sprays for consumers to treat their own clothing, so in Canada the permethrin you wear should come pre-treated.',
+              search: 'insect shield permethrin treated clothing',
               score: 8.2,
-              pros: ['Long-lasting on clothing & gear', 'Protection skin repellent can’t match', 'Ideal for hikes & yard work'],
-              cons: ['Apply to garments — never skin', 'Doesn’t treat the yard itself'],
+              pros: ['Permethrin bonded at the factory — lasts up to 70 wash cycles', 'Protection skin repellent can’t match', 'No handling of liquid permethrin at all'],
+              cons: ['Only covers the garments you buy', 'Doesn’t treat the yard itself'],
             },
             {
               badge: 'Best Passive Layer',
@@ -110,7 +110,7 @@ export default function BestTickControlPage() {
           ]}
           whichToBuy={
             <>
-              <strong>Want the fastest DIY layer?</strong> The <em>Best DIY Yard Spray</em> handles small problem zones between visits. <strong>Heading into the woods?</strong> The <em>Best Wearable Defence</em> permethrin spray protects your clothing. <strong>Playing the long game?</strong> The <em>Best Passive Layer</em> tick tubes quietly thin next year’s population. None of them replaces whole-yard <Link href="/tick-control">professional tick control</Link>, which kills every life stage for up to 30 days.
+              <strong>Want the fastest DIY layer?</strong> The <em>Best DIY Yard Spray</em> handles small problem zones between visits. <strong>Heading into the woods?</strong> The <em>Best Wearable Defence</em> permethrin-treated clothing goes with you where a yard treatment can&rsquo;t. <strong>Playing the long game?</strong> The <em>Best Passive Layer</em> tick tubes quietly thin next year’s population. None of them replaces whole-yard <Link href="/tick-control">professional tick control</Link>, which kills every life stage for up to 30 days.
             </>
           }
         />
@@ -178,8 +178,8 @@ export default function BestTickControlPage() {
             <BuyLink tag={AMZ_TAG} search="wondercide tick yard spray">Check price on Amazon.ca &rarr;</BuyLink>
           </li>
           <li>
-            <strong>Permethrin clothing spray:</strong> For hikes and yard work, treating clothing and gear with a <Link href="/blog/permethrin-canada-yard-clothing-spray" className="text-brand-700 hover:underline">permethrin spray</Link> such as Sawyer&rsquo;s gives long-lasting, wearable protection that skin repellent alone can&rsquo;t match. Apply to garments &mdash; never skin.{' '}
-            <BuyLink tag={AMZ_TAG} search="sawyer permethrin clothing spray">Check price on Amazon.ca &rarr;</BuyLink>
+            <strong>Permethrin-treated clothing:</strong> For hikes and yard work, wearing <Link href="/blog/permethrin-canada-yard-clothing-spray" className="text-brand-700 hover:underline">factory permethrin-treated clothing</Link> gives long-lasting, wearable protection that skin repellent alone can&rsquo;t match. Buy the garments already treated rather than treating your own &mdash; Health Canada has not approved permethrin liquids or sprays for consumers to treat their own clothing.{' '}
+            <BuyLink tag={AMZ_TAG} search="insect shield permethrin treated clothing">Check price on Amazon.ca &rarr;</BuyLink>
           </li>
         </ul>
         <p>For a fuller rundown of what actually works, see our guide to the{' '}

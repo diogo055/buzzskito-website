@@ -100,10 +100,10 @@ export default function BestTickRepellentYardPage() {
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
           </div>
-          <p className="not-prose text-sm text-gray-600 mb-1">DIY yard-scale tick products Canadians buy most (nothing replaces a professional barrier spray, but these help):</p>
+          <p className="not-prose text-sm text-gray-600 mb-1">What Canadians buy most for yard-scale tick pressure, plus the personal-wear layer (nothing replaces a professional barrier spray, but these help):</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="wondercide tick yard spray">Check yard tick sprays on Amazon.ca →</BuyLink>
-            <BuyLink tag={AMZ_TAG} search="sawyer permethrin clothing spray">Sawyer Permethrin (clothing) →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="insect shield permethrin treated clothing">Insect Shield permethrin-treated clothing →</BuyLink>
           </div>
           <p className="lead text-xl text-gray-700 leading-relaxed mb-6">Personal tick repellents on your skin protect <em>you</em>. Yard-scale tick repellents protect your <em>property</em> — and that&rsquo;s a different problem with different solutions. Here&rsquo;s what works in Canadian yards in 2026.</p>
 
@@ -140,17 +140,17 @@ export default function BestTickRepellentYardPage() {
               },
               {
                 badge: 'Best for Personal Wear',
-                name: 'Sawyer Permethrin Clothing & Gear Spray',
-                why: 'Not a yard treatment — a clothing treatment that kills ticks on contact and lasts weeks per application. The best add-on for anyone working, hiking, or gardening in a tick zone.',
-                search: 'sawyer permethrin clothing spray',
+                name: 'Insect Shield Permethrin-Treated Clothing',
+                why: 'Not a yard treatment — factory-treated garments that kill ticks on contact with the fabric. In Canada this is the route to take: Health Canada does not approve permethrin liquids and sprays for consumers to treat their own clothing, so buy the treatment already in the garment rather than applying it yourself. The best add-on for anyone working, hiking, or gardening in a tick zone.',
+                search: 'insect shield permethrin treated clothing',
                 score: 8.0,
-                pros: ['Kills ticks on contact with treated fabric', 'Lasts several washes per treatment', 'Ideal for yard-work and trail days'],
-                cons: ['Clothing/gear only — not for skin', 'Does not treat the yard itself'],
+                pros: ['Kills ticks on contact with the treated fabric', 'Factory treatment lasts up to 70 wash cycles', 'Nothing to mix, spray, or re-apply yourself'],
+                cons: ['Clothing only — not a skin repellent', 'Does not treat the yard itself'],
               },
             ]}
             whichToBuy={
               <>
-                <strong>Going fully natural?</strong> The <em>Best Overall DIY</em> Wondercide cedar-oil spray is the strongest layer — plan on bi-weekly application. <strong>Want maximum DIY knockdown?</strong> The <em>Best Granular</em> permethrin option holds the longest residual of the DIY choices, provided you spread it evenly. <strong>Spending real time in the yard or on trails?</strong> Add the <em>Best for Personal Wear</em> Sawyer Permethrin to your clothing. But for placing a longer-lasting residual precisely where ticks actually live, nothing DIY matches <Link href="/tick-control">professional barrier spray</Link>.
+                <strong>Going fully natural?</strong> The <em>Best Overall DIY</em> Wondercide cedar-oil spray is the strongest layer — plan on bi-weekly application. <strong>Want maximum DIY knockdown?</strong> The <em>Best Granular</em> permethrin option holds the longest residual of the DIY choices, provided you spread it evenly. <strong>Spending real time in the yard or on trails?</strong> Add the <em>Best for Personal Wear</em> factory permethrin-treated Insect Shield clothing &mdash; Health Canada doesn&rsquo;t approve permethrin sprays for consumers to treat their own clothing, so in Canada buy the treatment already in the garment. But for placing a longer-lasting residual precisely where ticks actually live, nothing DIY matches <Link href="/tick-control">professional barrier spray</Link>.
               </>
             }
           />

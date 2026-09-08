@@ -68,7 +68,7 @@ export default function HowToKeepTicksOutOfYardOntarioPage() {
               <li>Mice are the primary Lyme reservoir, so keep woodpiles, bird feeders, and compost at least 30 feet from play areas.</li>
               <li>Professional tick barrier spray is applied five times per season &mdash; roughly monthly from May through September, so there is no gap through the May&ndash;July nymph peak and coverage still holds when adults return in autumn; single treatments start at $99.</li>
               <li>Blacklegged ticks generally need 24&ndash;36 hours attached to transmit Lyme disease bacteria, so daily tick checks matter.</li>
-              <li>Permethrin-treated clothing kills ticks on contact and lasts about 6 washes on home-treated gear (never apply to skin).</li>
+              <li>Factory permethrin-treated clothing kills ticks on contact and holds its protection for up to 70 wash cycles &mdash; Health Canada has not approved consumer sprays for treating your own clothing (and permethrin never goes on skin).</li>
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
           </div>
@@ -105,19 +105,19 @@ export default function HowToKeepTicksOutOfYardOntarioPage() {
         <p>Lyme disease bacteria typically require 24–36 hours of tick attachment to transmit. Daily tick checks dramatically reduce infection risk. Focus checks on warm, hidden areas: behind ears, scalp, armpits, groin, behind knees. For dogs: between toes, under collars, around ears.</p>
         <p>Pair the body check with the laundry step most people skip: put the clothes you wore straight into a hot dryer <em>before</em> washing them. Ten minutes on high heat kills ticks on dry fabric, while a normal wash on its own often does not &mdash; <Link href="/blog/do-ticks-die-in-the-washing-machine" className="text-brand-700 hover:underline">the post-hike laundry sequence</Link> lays out the temperatures behind it.</p>
 
-        <h3>9. Use Permethrin-Treated Clothing for High-Risk Outdoor Activity</h3>
-        <p>Permethrin kills blacklegged ticks on contact and is the active ingredient recommended for clothing treatment (never apply it to skin). You can buy pre-treated clothing or treat your own outdoor clothes with a spray like Sawyer permethrin &mdash; one application lasts roughly 6 washes on home-treated gear. Especially valuable for hiking the Bruce Trail, working in conservation-area-adjacent yards, or outdoor events in tick zones.</p>
+        <h3>9. Wear Factory Permethrin-Treated Clothing for High-Risk Outdoor Activity</h3>
+        <p>Permethrin kills blacklegged ticks on contact through treated fabric, and it never goes on skin. In Canada the route to that protection is a garment, not a bottle: Health Canada states that permethrin liquids and sprays sold for consumers to treat their <em>own</em> clothing are not approved for use here. So buy the pants, socks, and shirts already treated at the factory rather than spraying gear yourself &mdash; Insect Shield factory-treated clothing holds its protection for up to 70 wash cycles, where a home treatment would need redoing every few washes. Especially valuable for hiking the Bruce Trail, working in conservation-area-adjacent yards, or outdoor events in tick zones.</p>
         <TopPick tag={AMZ_TAG}
           label="Our Top Pick for Tick-Zone Clothing"
-          name="Sawyer Permethrin Clothing & Gear Spray"
-          blurb="For anyone working, hiking, or gardening in the lawn-to-woods transition zone, permethrin-treated clothing is the highest-impact personal defence: it kills blacklegged ticks on contact before they ever reach skin. Treat your own boots, socks, and pants (never skin) and the protection survives several washes."
-          search="sawyer permethrin clothing spray"
+          name="Insect Shield Permethrin-Treated Clothing"
+          blurb="For anyone working, hiking, or gardening in the lawn-to-woods transition zone, permethrin-treated clothing is the highest-impact personal defence: it kills blacklegged ticks on contact before they ever reach skin. Buy it factory-treated rather than treating your own gear — Health Canada has not approved consumer permethrin sprays for treating your own clothing, and the factory-bonded permethrin lasts far longer anyway."
+          search="insect shield permethrin treated clothing"
           score={9.0}
-          pros={['Kills ticks on contact, not just repels', 'One treatment lasts several washes', 'Ideal for high-risk conservation-adjacent yards']}
-          cons={['For clothing and gear only — never apply to skin', 'Needs re-treating after roughly six washes']}
+          pros={['Kills ticks on contact, not just repels', 'Factory-bonded permethrin lasts up to 70 wash cycles', 'Nothing to mix, spray, or re-apply yourself']}
+          cons={['Protects only the garments you buy — boots and packs are not covered', 'Costs more upfront than the same garment untreated']}
         />
-        <p><BuyLink tag={AMZ_TAG} search="sawyer permethrin clothing spray">Check permethrin clothing sprays on Amazon.ca &rarr;</BuyLink></p>
-        <p>For a full walkthrough of treating clothes and yard gear, see our <Link href="/blog/permethrin-canada-yard-clothing-spray" className="text-brand-700 hover:underline">permethrin for yard &amp; clothing guide (Canada)</Link>, and compare skin-safe options in our <Link href="/blog/best-tick-repellent-yard-canada" className="text-brand-700 hover:underline">best tick repellents for the yard in Canada</Link> roundup.</p>
+        <p><BuyLink tag={AMZ_TAG} search="insect shield permethrin treated clothing">Shop permethrin-treated clothing on Amazon.ca &rarr;</BuyLink></p>
+        <p>For which permethrin formats Health Canada approves and which it does not, see our <Link href="/blog/permethrin-canada-yard-clothing-spray" className="text-brand-700 hover:underline">permethrin for yard &amp; clothing guide (Canada)</Link>, and compare skin-safe options in our <Link href="/blog/best-tick-repellent-yard-canada" className="text-brand-700 hover:underline">best tick repellents for the yard in Canada</Link> roundup.</p>
 
         <h3>10. Know the GTA's High-Risk Zones</h3>
         <p>Public Health Ontario confirms blacklegged tick populations across the GTA. Highest-risk areas: Oak Ridges Moraine (King City, Caledon, Richmond Hill), Rouge National Urban Park (Scarborough, Markham), Niagara Escarpment (Hamilton, Burlington north end), Don Valley and ravine system (Toronto), Bronte Creek Provincial Park (Oakville/Burlington edge), and Boyd Conservation Area (Vaughan/Woodbridge). Properties within 1 km of these areas should run the full five-treatment season on their barrier zones — monthly May through September — rather than a single spring visit.</p>
@@ -150,7 +150,7 @@ export default function HowToKeepTicksOutOfYardOntarioPage() {
 
       </article>
 
-      <StickyBuyBar tag={AMZ_TAG} name="Sawyer Permethrin Clothing Spray" search="sawyer permethrin clothing spray" label="Best clothing spray" />
+      <StickyBuyBar tag={AMZ_TAG} name="Permethrin-Treated Clothing (Insect Shield)" search="insect shield permethrin treated clothing" label="Best tick-zone clothing" />
 
       <CTASection heading="Specialist Mosquito & Tick Control for Ontario" subtext="From $99 per treatment. BuzzSkito Bite-Free Guarantee. 150+ five-star reviews." />
     </>

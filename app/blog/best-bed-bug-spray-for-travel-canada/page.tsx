@@ -150,7 +150,7 @@ export default function BestBedBugSprayForTravelCanadaPage() {
                 badge: 'Best Fabric / Gear Pre-Treat',
                 name: 'Permethrin Luggage & Gear Treatment Spray',
                 why: 'A different category, labelled specifically to bond to fabric — for pre-treating luggage liners, travel sacks, and gear rather than surfaces. Only use products whose label authorises fabric application, and never on clothing that touches skin off-label.',
-                search: 'permethrin gear clothing treatment spray',
+                search: 'insect shield permethrin treated clothing',
                 score: 7.8,
                 pros: ['Made to bond to fabric and gear', 'Long-lasting on treated items', 'Good for a travel sack or liner'],
                 cons: ['Fabric-only — read the label carefully', 'Not a hotel-room surface product'],
@@ -212,7 +212,7 @@ export default function BestBedBugSprayForTravelCanadaPage() {
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Bonding to</strong> travel sacks, liners, gear</td>
                   <td className="px-4 py-3 text-gray-700">Small pumps can be; check the size</td>
                   <td className="px-4 py-3 text-gray-700">Fabric-only; never off-label on worn clothing</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="permethrin gear clothing treatment spray" block>Check price on Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="insect shield permethrin treated clothing" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Natural / plant-oil<br /><span className="font-normal text-xs text-gray-500">botanical</span></td>
@@ -247,7 +247,7 @@ export default function BestBedBugSprayForTravelCanadaPage() {
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="doktor doom travel pro bed bug spray">Doktor Doom Travel Pro →</BuyLink>
             <BuyLink tag={AMZ_TAG} search="proof bed bug dust mite spray travel size">Proof travel spray →</BuyLink>
-            <BuyLink tag={AMZ_TAG} search="permethrin gear clothing treatment spray">Fabric / gear spray →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="insect shield permethrin treated clothing">Treated clothing &amp; gear →</BuyLink>
             <BuyLink tag={AMZ_TAG} search="natural plant based bed bug spray travel">Natural travel spray →</BuyLink>
           </div>
 
