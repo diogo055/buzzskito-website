@@ -20,7 +20,7 @@ const META_TITLE = 'Best Wasp Killer Canada'
 const FAQS = [
   {
     question: 'What is the best wasp killer in Canada?',
-    answer: 'There is no single best wasp killer — there is a best killer per nest type, and matching them is the entire game. For an exposed aerial paper nest, a PMRA-registered foam or long-range liquid jet applied at night: Raid and Wilson foams and the Ortho long-reach jet are the mainstream Canadian cans. For a ground nest with one entrance hole, a jet foam soaked into the entrance at dusk — foam expands down the tunnel where liquid only wets the rim. For a nest inside a wall void, none of the above: that is professional insecticidal-dust territory, and sealing or spraying the gap yourself usually drives the colony indoors. And if you cannot find a nest at all, traps reduce foraging pressure but eliminate nothing. Identify the architecture first; the product picks itself.',
+    answer: 'There is no single best wasp killer — there is a best killer per nest type, and matching them is the entire game. For an exposed aerial paper nest, a PMRA-registered foam or stream can applied at night: the Wilson and Raid foams and the Ortho Wasp B Gon MAX spray are the mainstream Canadian cans, and the Raid can throws the farthest of the three. For a ground nest with one entrance hole, a jet foam soaked into the entrance at dusk — foam expands down the tunnel where liquid only wets the rim. For a nest inside a wall void, none of the above: that is professional insecticidal-dust territory, and sealing or spraying the gap yourself usually drives the colony indoors. And if you cannot find a nest at all, traps reduce foraging pressure but eliminate nothing. Identify the architecture first; the product picks itself.',
   },
   {
     question: 'What kills wasps instantly?',
@@ -28,7 +28,7 @@ const FAQS = [
   },
   {
     question: 'Foam or liquid spray for a wasp nest — which is better?',
-    answer: 'Foam for most jobs, liquid jet for reach. Foam expands on contact, clings to the nest envelope instead of running off, blankets the entrance hole so returning wasps must crawl through treated material, and — critically for ground nests — physically expands down the entrance tunnel toward the galleries. Its trade-off is a shorter jet, typically in the 2 to 2.5 metre range. Long-range liquid cans throw a narrow stream 3 to 6 metres, which is what you want for a nest at the second-storey eave you can hit from the ground, but the liquid wets surfaces and drips rather than filling cavities. The working rule: foam whenever you can safely stand within its rated distance, liquid jet when the extra metres are the difference between standing on the ground and standing on a ladder — because the ladder is the wrong answer every time.',
+    answer: 'Foam for most jobs, and reach decided by the individual can rather than by the format. Foam expands on contact, clings to the nest envelope instead of running off, blankets the entrance hole so returning wasps must crawl through treated material, and — critically for ground nests — physically expands down the entrance tunnel toward the galleries. Its trade-off is usually reach: Wilson WaspOut throws 2 to 2.5 m, and Scotts Canada rates the Ortho Wasp B Gon MAX foam over the same 2 to 2.5 m. Reach does not split neatly by format, though. The longest throw of any can registered in Canada belongs to Raid Wasp & Hornet Bug Killer 7 (PCP 29776), which SC Johnson publishes at up to 5.7 m on its Canadian product page — and that is the can you want for a nest at the second-storey eave you can only hit from the ground. The working rule: any registered foam whenever you can safely stand within a couple of metres, and the Raid can when the extra metres are the difference between standing on the ground and standing on a ladder — because the ladder is the wrong answer every time. The Ortho stream is the one to skip for height; it is a close-range can, not a distance one.',
   },
   {
     question: 'What is the best way to kill a ground wasp nest?',
@@ -103,10 +103,10 @@ export default function BestWaspKillerCanadaPage() {
         <div className="max-w-4xl mx-auto">
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The best wasp killer in Canada is <strong>a PMRA-registered foam matched to the nest</strong>: a <strong>foam or long-range jet</strong> for exposed aerial nests, applied after dusk from the can&rsquo;s full rated distance; a <strong>jet foam flooded into the entrance</strong> for single-hole ground nests; a <strong>licensed professional with insecticidal dust</strong> for anything inside a wall, soffit, deck, or retaining wall &mdash; and <strong>traps only as pressure reduction</strong> when there is no findable nest, because no trap eliminates a colony. Night application is non-negotiable: it is the difference between dosing the whole colony and enraging a third of it.</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The best wasp killer in Canada is <strong>a PMRA-registered foam matched to the nest</strong>: a <strong>foam, or the longest-throwing registered can</strong> for exposed aerial nests, applied after dusk from the can&rsquo;s full rated distance; a <strong>jet foam flooded into the entrance</strong> for single-hole ground nests; a <strong>licensed professional with insecticidal dust</strong> for anything inside a wall, soffit, deck, or retaining wall &mdash; and <strong>traps only as pressure reduction</strong> when there is no findable nest, because no trap eliminates a colony. Night application is non-negotiable: it is the difference between dosing the whole colony and enraging a third of it.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
               <li><strong>Foam beats liquid</strong> wherever you can stand within 2&ndash;2.5 m: it clings to the envelope, blankets the entrance, and expands down ground tunnels.</li>
-              <li><strong>Liquid jet earns its place at range</strong> &mdash; 3&ndash;6 m streams for high eaves you can reach from the ground. Never from a ladder.</li>
+              <li><strong>Reach comes from one specific can</strong> &mdash; SC Johnson publishes up to 5.7 m for Raid Wasp &amp; Hornet Bug Killer 7, the longest of the Canadian-registered cans, for high eaves you can reach from the ground. Never from a ladder.</li>
               <li><strong>Wall-void nests are not a DIY job</strong> &mdash; and sealing or spraying the gap usually drives the colony through the drywall.</li>
               <li><strong>Traps are prevention, not elimination:</strong> spring queen-trapping and patio pressure relief, nothing more.</li>
               <li><strong>Fake-nest deterrents:</strong> weak evidence, harmless, and no substitute for sealing gaps and treating real nests.</li>
@@ -131,25 +131,25 @@ export default function BestWaspKillerCanadaPage() {
                 score: 9.1,
                 featured: true,
                 pros: ['Foam clings and blankets the entrance hole', 'The right physics for ground-nest tunnels', 'Canadian domestic-class, PMRA-registered'],
-                cons: ['2–2.5 m jet — high nests need the long-range liquid instead', 'One nest can empty most of a can — buy two'],
+                cons: ['2–2.5 m jet — a nest higher than that needs the longer-throwing Raid can', 'One nest can empty most of a can — buy two'],
               },
               {
-                badge: 'Best Foam Alternative',
-                name: 'Raid Wasp & Hornet Bug Killer (Canadian label)',
-                why: 'The most widely stocked can in the country, and the one to grab when the hardware store is out of the Wilson. Same class of pyrethroid knockdown in a foaming formula; check the shelf for the Canadian-labelled can with a PCP registration number rather than a US import.',
+                badge: 'Longest Reach',
+                name: 'Raid Wasp & Hornet Bug Killer 7 (Canada, PCP 29776)',
+                why: 'The distance pick, and also the most widely stocked can in the country. SC Johnson publishes up to 5.7 m for Raid Wasp & Hornet Bug Killer 7 (PCP 29776) on its Canadian product page — the longest throw of anything registered here, which is what you want for the nest under a second-storey eave that foam cannot touch from the ground. Same class of pyrethroid knockdown in a foaming formula; check the shelf for the Canadian-labelled can with a PCP registration number rather than a US import.',
                 search: 'raid wasp hornet killer',
                 score: 8.7,
-                pros: ['On the shelf at every Canadian Tire, Home Depot, and grocery chain', 'Fast knockdown of contacted wasps', 'Foaming action covers the entrance'],
-                cons: ['Jet distance is mid-pack — respect the label figure', 'US-label versions circulate online; buy the Canadian can'],
+                pros: ['Up to 5.7 m per SC Johnson — the longest reach registered in Canada', 'On the shelf at every Canadian Tire, Home Depot, and grocery chain', 'Foaming action covers the entrance'],
+                cons: ['Up to 5.7 m is a best-case figure — plan on standing well inside it, and pick a calm night', 'US-label versions circulate online; buy the Canadian can'],
               },
               {
-                badge: 'Best Long Reach',
-                name: 'Ortho Home Defense Hornet & Wasp Jet',
-                why: 'The distance pick: a narrow liquid stream with the longest practical reach of the mainstream Canadian cans, for the nest under a second-storey eave that foam cannot touch from the ground. The extra metres exist to keep both of your feet on the lawn — that is the whole reason to choose liquid over foam.',
-                search: 'ortho home defense hornet wasp killer',
+                badge: 'Best Straight Stream',
+                name: 'Ortho Wasp B Gon MAX Wasp Killer Spray',
+                why: 'The Ortho can that is actually registered in Canada: Wasp B Gon MAX Wasp Killer Spray, Health Canada PCP 33723, Scotts Canada Ltd. (the foam is PCP 33724). It lays down a narrow, pointed stream instead of a spreading foam blanket, which is what you want for a defined entrance hole you would rather not coat the whole eave around. What it is not is a distance can. Scotts Canada rates the companion Wasp B Gon MAX foam (PCP 33724) at 2 to 2.5 m (6 to 8 feet) and publishes no reach figure for the spray, so treat it as close range and plan for the low end. The Ortho Home Defense Hornet & Wasp Killer 7 that fills American search results is a US product with no Canadian registration at all.',
+                search: 'ortho wasp b gon max',
                 score: 8.5,
-                pros: ['Longest rated jet of the mainstream cans', 'Reaches high eaves with both feet on the ground', 'Precise stream for a defined entrance hole'],
-                cons: ['Liquid runs off rather than clinging like foam', 'Wind shreds a long stream — pick a still night'],
+                pros: ['PCP 33723 — registered with Health Canada to Scotts Canada Ltd.', 'Precise stream for a defined entrance hole', 'No spreading foam across the surrounding siding'],
+                cons: ['Stream runs off rather than clinging like foam', 'Not a distance can — Scotts Canada rates the companion foam at 2 to 2.5 m and publishes no figure for the spray, so stay off high nests'],
               },
               {
                 badge: 'Best Prevention',
@@ -172,7 +172,7 @@ export default function BestWaspKillerCanadaPage() {
             ]}
             whichToBuy={
               <>
-                <strong>Grey paper nest hanging in the open, reachable from the ground?</strong> The <em>Best Overall</em> Wilson foam &mdash; or the <em>Best Foam Alternative</em> Raid can &mdash; after dusk, full saturation. <strong>Nest up at a second-storey eave?</strong> The <em>Best Long Reach</em> Ortho jet, from the ground; if it cannot reach, neither can you &mdash; make the call instead of climbing. <strong>Hole in the lawn with commuter traffic?</strong> Foam again, flooded into the entrance at dusk &mdash; the full protocol is in our <Link href="/blog/how-to-get-rid-of-ground-wasps-canada">ground wasp guide</Link>. <strong>Wasps disappearing into siding, soffit, or deck?</strong> None of the above: that is professional dust territory. <strong>No findable nest, just patio pressure?</strong> The <em>Best Prevention</em> WHY trap, placed away from the seating &mdash; and skip the decoy unless you enjoy the aesthetic.
+                <strong>Grey paper nest hanging in the open, reachable from the ground?</strong> The <em>Best Overall</em> Wilson foam &mdash; or the <em>Longest Reach</em> Raid can &mdash; after dusk, full saturation. <strong>Nest up at a second-storey eave?</strong> The <em>Longest Reach</em> Raid can, which SC Johnson publishes at up to 5.7 m, from the ground; if it cannot reach, neither can you &mdash; make the call instead of climbing. Not the Ortho: the Ortho SKU registered in Canada is a close-range can, not the distance one. <strong>Hole in the lawn with commuter traffic?</strong> Foam again, flooded into the entrance at dusk &mdash; the full protocol is in our <Link href="/blog/how-to-get-rid-of-ground-wasps-canada">ground wasp guide</Link>. <strong>Wasps disappearing into siding, soffit, or deck?</strong> None of the above: that is professional dust territory. <strong>No findable nest, just patio pressure?</strong> The <em>Best Prevention</em> WHY trap, placed away from the seating &mdash; and skip the decoy unless you enjoy the aesthetic.
               </>
             }
           />
@@ -195,7 +195,7 @@ export default function BestWaspKillerCanadaPage() {
               <tbody>
                 {[
                   { s: 'Exposed aerial nest, within ~2.5 m', w: 'Foam', why: 'Clings to the envelope, blankets the entrance', search: 'wilson waspout wasp hornet foam' },
-                  { s: 'Aerial nest at height, reachable from ground', w: 'Long-range liquid jet', why: '3–6 m stream keeps you off the ladder', search: 'ortho home defense hornet wasp killer' },
+                  { s: 'Aerial nest at height, reachable from ground', w: 'The longest-throwing registered can', why: 'SC Johnson publishes up to 5.7 m for the Raid can — enough to stay off the ladder', search: 'raid wasp hornet killer' },
                   { s: 'Ground nest, one entrance hole', w: 'Jet foam at dusk', why: 'Foam expands down the tunnel toward the galleries', search: 'wilson one shot foam wasp hornet killer' },
                   { s: 'Wall void, soffit, deck, retaining wall', w: 'Professional insecticidal dust', why: 'Commercial-class tool; DIY sealing drives wasps indoors', search: '' },
                   { s: 'No findable nest — patio pressure', w: 'Baited trap, placed away from people', why: 'Thins foragers; eliminates nothing', search: 'rescue why trap wasp hornet yellowjacket' },
@@ -219,22 +219,23 @@ export default function BestWaspKillerCanadaPage() {
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
 
           <h2>What Is the Best Wasp Killer in Canada?</h2>
-          <p>A foam can matched to the nest in front of you &mdash; and the honest expansion of that answer is that <strong>the nest picks the product</strong>. The wasp aisle sells four different weapons that look interchangeable on the shelf and are not: foams, long-range liquid jets, insecticidal dusts, and traps. Each one is excellent at exactly one nest architecture and mediocre-to-useless at the others, and nearly every wasp-control failure we hear about traces back to a mismatch &mdash; liquid sprayed at a ground hole, a trap hung beside a wall-void nest, dust puffed at an aerial globe.</p>
+          <p>A foam can matched to the nest in front of you &mdash; and the honest expansion of that answer is that <strong>the nest picks the product</strong>. The wasp aisle sells four different weapons that look interchangeable on the shelf and are not: foams, straight-stream aerosols, insecticidal dusts, and traps. Each one is excellent at exactly one nest architecture and mediocre-to-useless at the others, and nearly every wasp-control failure we hear about traces back to a mismatch &mdash; liquid sprayed at a ground hole, a trap hung beside a wall-void nest, dust puffed at an aerial globe.</p>
           <p>So before buying anything, answer one question: <strong>where is the nest?</strong> Hanging in the open; in the ground; inside the structure; or nowhere you can find. Those four answers map to four different purchases, and the sections below take them in order &mdash; with the September caveat up front that late-season colonies are at maximum size and maximum irritability, which makes the protocol discipline matter more now than in June.</p>
 
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="wilson waspout wasp hornet foam">Wilson WaspOut foam &rarr;</BuyLink>
             <BuyLink tag={AMZ_TAG} search="raid wasp hornet killer">Raid Wasp &amp; Hornet &rarr;</BuyLink>
-            <BuyLink tag={AMZ_TAG} search="ortho home defense hornet wasp killer">Ortho long-reach jet &rarr;</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="ortho wasp b gon max">Ortho Wasp B Gon MAX &rarr;</BuyLink>
             <BuyLink tag={AMZ_TAG} search="rescue why trap wasp hornet yellowjacket">RESCUE! WHY trap &rarr;</BuyLink>
           </div>
 
-          <h2>Foam vs Liquid Jet: The Distance Rating Is the Product</h2>
-          <p>The two can formats on Canadian shelves split one job between them, and the split is measured in metres.</p>
-          <p><strong>Foam is the better killer.</strong> It expands on contact, clings to a nest envelope instead of sheeting off, blankets the entrance hole so every returning forager crawls through treated material, and &mdash; the property nothing else in the aisle has &mdash; expands down enclosed passages. On a ground nest, that expansion carries product toward galleries a liquid stream can never reach; on an aerial nest, it turns the envelope into a treated surface rather than a wet one. The cost is reach: mainstream Canadian foams are rated in the <strong>2 to 2.5 metre</strong> band, and the honest planning figure is the low end of whatever the label says, because arcs droop and nerves shorten throws.</p>
-          <p><strong>Liquid jet is the better arm.</strong> The narrow-stream cans rate <strong>3 to 6 metres</strong>, and that number exists for one purpose: hitting a nest under a second-storey eave with both of your feet on the lawn. A ladder plus a defensive swarm is the worst risk-stack in home maintenance &mdash; the sting is survivable, the fall is the injury &mdash; so the extra metres are a safety feature, not a convenience. The trade is that liquid wets and drips rather than filling and clinging, which is why it loses to foam everywhere the foam can physically reach.</p>
-          <p>Rule of thumb: <strong>buy foam by default, buy the long jet when the nest is high, and if the long jet cannot reach it from the ground, neither can you</strong> &mdash; that nest belongs to a professional. Our <Link href="/blog/best-wasp-nest-spray-canada">full Canadian wasp spray round-up</Link> compares every registered can label by label.</p>
+          <h2>Foam vs Straight Stream: The Distance Rating Is the Product</h2>
+          <p>The two can formats on Canadian shelves do different jobs &mdash; and reach does not follow the format line, so read the figure published for each can.</p>
+          <p><strong>Foam is the better killer.</strong> It expands on contact, clings to a nest envelope instead of sheeting off, blankets the entrance hole so every returning forager crawls through treated material, and &mdash; the property nothing else in the aisle has &mdash; expands down enclosed passages. On a ground nest, that expansion carries product toward galleries a liquid stream can never reach; on an aerial nest, it turns the envelope into a treated surface rather than a wet one. The cost is usually reach: Wilson WaspOut and the Ortho Wasp B Gon MAX foam are both rated in the <strong>2 to 2.5 metre</strong> band, and the honest planning figure is the low end of whatever range the manufacturer publishes, because arcs droop and nerves shorten throws.</p>
+          <p><strong>Reach is a property of the can, not of the format.</strong> The longest throw of anything registered in Canada belongs to <strong>Raid Wasp &amp; Hornet Bug Killer 7</strong> (PCP 29776), which SC Johnson publishes at <strong>up to 5.7 m</strong> on its Canadian product page, and that distance exists for one purpose: hitting a nest under a second-storey eave with both of your feet on the lawn. A ladder plus a defensive swarm is the worst risk-stack in home maintenance &mdash; the sting is survivable, the fall is the injury &mdash; so the extra metres are a safety feature, not a convenience. Note which can that is <em>not</em>. The Ortho aerosol registered here is <em>Wasp B Gon MAX</em> (PCP 33723, Scotts Canada Ltd.), and Scotts Canada rates the Wasp B Gon MAX foam at 2 to 2.5 m while publishing no figure for the spray &mdash; either way, not the distance choice. The <em>Ortho Home Defense Hornet &amp; Wasp Killer 7</em> that fills American search results is a US product and has never been registered in Canada, so if you have read that an Ortho can is the distance choice up here, that advice was written about a can you cannot legally buy.</p>
+          <p>A pointed stream still earns its place: it runs off vertical surfaces and leaves a thinner residual than foam, but it puts product exactly where you aim it, which suits a single defined entrance hole. Just do not buy one expecting metres.</p>
+          <p>Rule of thumb: <strong>buy foam by default, buy the longest-throwing registered can when the nest is high, and if that can cannot reach it from the ground, neither can you</strong> &mdash; that nest belongs to a professional. Our <Link href="/blog/best-wasp-nest-spray-canada">full Canadian wasp spray round-up</Link> compares every registered can, PCP number by PCP number.</p>
 
           <h2>Dust: The Best Weapon You Mostly Cannot Buy</h2>
           <p>For nests inside things &mdash; wall voids, soffits, deck framing, retaining walls, multi-entrance ground colonies &mdash; the professional answer is insecticidal <strong>dust</strong>, puffed into the entrance so that every wasp walking through tracks it into the galleries and onto the queen. It is the single most effective wasp-killing technique ever developed for enclosed nests, and in Canada its benchmark product, Delta Dust, is <strong>commercial-class: licensed applicators only</strong>. The American puff-it-yourself advice that dominates search results does not survive the border crossing, and grey-market cans carry no legal homeowner use here.</p>
@@ -266,12 +267,13 @@ export default function BestWaspKillerCanadaPage() {
             <table className="w-full text-sm">
               <tbody>
                 {[
-                  ['Exposed aerial nest', 'Foam within ~2.5 m; long-range liquid jet for height — always at night'],
+                  ['Exposed aerial nest', 'Foam within ~2.5 m; the longest-throwing registered can for height — always at night'],
                   ['Ground nest, single hole', 'Jet foam flooded into the entrance at dusk; leave the hole open'],
                   ['Wall void / soffit / deck', 'Professional insecticidal dust — never DIY-seal or spray the gap'],
                   ['No findable nest', 'Baited traps as pressure relief, placed away from people'],
-                  ['Foam rated reach', '~2–2.5 m on mainstream Canadian cans'],
-                  ['Liquid jet rated reach', '~3–6 m — the keep-off-the-ladder allowance'],
+                  ['Foam rated reach', 'Wilson WaspOut and the Ortho Wasp B Gon MAX foam — 2–2.5 m'],
+                  ['Longest reach registered in Canada', 'Raid Wasp & Hornet Bug Killer 7 — up to 5.7 m published by SC Johnson'],
+                  ['Ortho can registered in Canada', 'Wasp B Gon MAX — spray PCP 33723, foam PCP 33724 (Scotts Canada); foam rated 2–2.5 m, no published figure for the spray'],
                   ['Trap honest role', 'Forager interception and spring queen-trapping; never elimination'],
                   ['Fake nest decoys', 'Weak, species-limited evidence; harmless; not a control plan'],
                   ['Best treatment window', 'After dusk or pre-dawn — whole colony home, flight-sluggish'],
