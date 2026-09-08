@@ -53,7 +53,7 @@ const FAQS = [
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'Thermacell refills and recharge guide for Canada: where to buy E-Series cartridges, Original mats + butane, and Liv refills, cost per hour, refill compatibility by model (E55, E90, Patio Shield, Liv), and how to recharge and replace. Updated 2026.',
+  description: 'Thermacell refills in Canada: Canadian Tire, Home Depot, Amazon.ca. E-Series 40-hr cartridge $15–20 CAD (~$0.40/hr); Original 60-hr pack $25–32.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,

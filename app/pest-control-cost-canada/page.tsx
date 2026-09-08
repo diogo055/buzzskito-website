@@ -172,7 +172,7 @@ const FAQS = [
 
 export const metadata: Metadata = buildMetadata({
   title: `Pest Control Cost Canada 2026: $414-$617/Visit`,
-  description: `Pest control cost in Canada averages $414-$617 a visit; a typical GTA treatment runs $200-$450. See 2026 prices by pest: ants, mice, wasps, bed bugs, ticks.`,
+  description: `How much does pest control cost in Canada? Averages $414-$617 a visit nationally, $200-$450 in the GTA. 2026 prices: ants, mice, wasps, bed bugs, ticks.`,
   canonical: SLUG,
 })
 

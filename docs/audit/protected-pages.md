@@ -14,7 +14,7 @@ pages by name but are actually the affiliate hubs.
 
 | | Count |
 |---|---|
-| **PROTECTED — do not modify** | **185** |
+| **PROTECTED — do not modify** | **184** |
 | In scope: `/blog/*` articles | 358 |
 | In scope: affiliate hubs (`/pest-product-guides`, `/bed-bug-control`, `/rodent-control`) | 3 |
 | Total routes on the site | 546 |
@@ -22,7 +22,7 @@ pages by name but are actually the affiliate hubs.
 | Reason protected | Pages |
 |---|---|
 | LocalBusiness schema | 134 |
-| Service or brand page | 30 |
+| Service or brand page | 29 |
 | City service page | 13 |
 | Captures leads | 5 |
 | Legal | 2 |
@@ -180,7 +180,7 @@ could do real damage while appearing to succeed.
 - `/york-mills-mosquito-control`
 - `/york-region-mosquito-control`
 
-### Service or brand page (30)
+### Service or brand page (29)
 
 - `/blog`
 - `/buzzskito-2026-gta-mosquito-tick-report`
@@ -205,7 +205,6 @@ could do real damage while appearing to succeed.
 - `/mosquito-spray-safety`
 - `/mosquito-tick-control-glossary`
 - `/ontario-lyme-disease-tracker-2026`
-- `/pest-control-cost-canada`
 - `/pest-product-guides/mosquito-gear`
 - `/pest-product-guides/tick-gear`
 - `/service-areas`
@@ -245,3 +244,34 @@ could do real damage while appearing to succeed.
 ### Homepage (1)
 
 - `/`
+
+## Amendment — 2026-09-08
+
+`/pest-control-cost-canada` was **unprotected on Diogo's explicit instruction** and moved into
+scope for Phase 3.
+
+It was originally protected by my Phase 0 catch-all for non-blog routes, not by a real signal:
+the file carries **no LocalBusiness schema and no lead form**. Guardrail 2's word "pricing" is
+what made it ambiguous, but BuzzSkito's own pricing lives at `/mosquito-control-pricing`; this
+page is a national cost-guide content page. The brief itself named it as a Tier 1 member, which
+is why the conflict was raised rather than resolved silently.
+
+**One caveat carried forward:** it ranks at position 2.1 for "pest control near me" and 2.4 for
+"pest control". Those are local-intent queries feeding the $1,222 service side, not the affiliate
+side. Any future work on this page must not weaken that. Phase 3 changes the description only.
+
+### Detector gap found while unprotecting it
+
+The Phase 0 detector looked for `CTASection`, `LocalBusiness` schema and `QuoteForm`.
+`/pest-control-cost-canada` has none of those — but it **does** capture leads, through a
+hand-rolled CTA block at lines 512-515 linking to `/free-yard-assessment` and `BUSINESS.phoneHref`.
+So the "captures leads (5)" count in the summary above is an undercount of bespoke CTAs.
+
+I re-scanned all 546 routes for `free-yard-assessment|phoneHref|BUSINESS.phone` without
+`CTASection`. **Exactly one in-scope page matches, and it is this one.** Every other in-scope
+route is either a `/blog/*` article or one of the three `/pest-product-guides` hubs. The guardrail
+is intact; the gap had a blast radius of one.
+
+The Phase 0 standing condition now extends to this page: **no phase may remove, move or weaken
+the `/free-yard-assessment` CTA at lines 512-515.** It ranks 2.1 for "pest control near me",
+which is service-side demand, not affiliate demand.

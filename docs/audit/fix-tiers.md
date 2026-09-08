@@ -211,3 +211,29 @@ flagged for Diogo rather than actioned. Worth checking whether the www host 301s
 | `https://www.buzzskito.ca/vaughan-mosquito-control` | 27 | 1 | 7.3 |
 | `https://www.buzzskito.ca/halton-hills-tick-spray` | 18 | 1 | 20.8 |
 | `https://www.buzzskito.ca/blog/tick-prevention-yard-ontario-safe-for-kids` | 12 | 1 | 6.3 |
+---
+
+## Amendment — 2026-09-08, decisions applied
+
+**1. `/pest-control-cost-canada` unprotected** on Diogo's instruction and moved into Tier 1.
+See the amendment in `protected-pages.md` for why it was protected in the first place and the one
+caveat carried forward (it ranks 2.1 for "pest control near me", which feeds the service side).
+
+**2. Tier 4 is HELD until 2026-10-15**, not "no action". Approved 2026-09-08. 313,398 impressions
+stay parked until the title experiment reports and tells us whether question-page CTR is
+recoverable at all.
+
+**3. Two Tier 1 pages moved to Tier 4 and held.** `/blog/what-colors-attract-mosquitoes` and
+`/blog/do-tiki-torches-repel-mosquitoes` reached Tier 1 through an impression-weighting defect in
+the Phase 1 intent rule — 7 and 16 impressions respectively flipped pages of ~10,000. Both are
+question-intent. Full detail and blast radius in `intent-rule-defect.md`.
+
+### Tier 1 after the amendment
+
+| URL | status |
+|---|---|
+| `/blog/best-wasp-nest-spray-canada` | Phase 3 — title + description |
+| `/blog/thermacell-refills-recharge-canada` | Phase 3 — description |
+| `/pest-control-cost-canada` | Phase 3 — description |
+| `/blog/what-colors-attract-mosquitoes` | moved to Tier 4, held |
+| `/blog/do-tiki-torches-repel-mosquitoes` | moved to Tier 4, held |

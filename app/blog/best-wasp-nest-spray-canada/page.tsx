@@ -16,7 +16,7 @@ const SLUG = 'best-wasp-nest-spray-canada'
 const DATE = '2026-07-21'
 const UPDATED = '2026-07-21'
 const TITLE = 'Best Wasp Nest Spray Canada 2026 — PMRA-Legal Foams & Jets Compared'
-const META_TITLE = 'Best Wasp Nest Spray Canada 2026: Foam vs Jet'
+const META_TITLE = 'Best Wasp Spray Canada 2026: Foam vs Jet'
 
 const FAQS = [
   {
@@ -111,7 +111,7 @@ const FAQS = [
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'The best PMRA-registered wasp nest sprays in Canada for 2026: Raid Wasp & Hornet Bug Killer, Wilson WaspOut foam, and long-reach jets compared — foam vs jet, dusk application, safe standoff distance, and why US 27-foot sprays are grey-market here.',
+  description: '3 PMRA-registered wasp sprays compared for Canada: foam vs jet, dusk timing, roughly 2–5.7 m standoff, colony kill in 24–48 hours. Skip US 27-ft cans.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
