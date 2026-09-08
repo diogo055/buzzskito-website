@@ -83,6 +83,12 @@
     </g>
   </g>
 
-  <text x="24" y="316" font-family="system-ui,sans-serif" font-size="12" fill="#5a6b7c">Search order that finds them fastest: mattress piping &#8594; box-spring underside &#8594; headboard back &#8594; bed-frame joints &#8594; skirting behind the bed.</text>
-  <text x="24" y="338" font-family="system-ui,sans-serif" font-size="12" fill="#5a6b7c">Bed bugs stay within a few metres of where you sleep &#8212; sofas count if that is where someone sleeps.</text>
+  <!-- footer notes: wrapped to the free space under the mattress panel, kept clear of the callout box (x >= 360) -->
+  <g font-family="system-ui,sans-serif" font-size="12" fill="#5a6b7c">
+    <text x="24" y="310">Search order that finds them fastest: mattress piping &#8594;</text>
+    <text x="24" y="325">box-spring underside &#8594; headboard back &#8594;</text>
+    <text x="24" y="340">bed-frame joints &#8594; skirting behind the bed.</text>
+    <text x="24" y="358">Bed bugs stay within a few metres of where you sleep &#8212;</text>
+    <text x="24" y="373">sofas count if that is where someone sleeps.</text>
+  </g>
 </svg>

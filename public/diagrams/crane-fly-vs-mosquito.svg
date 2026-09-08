@@ -43,7 +43,8 @@
 
     <!-- ── MOSQUITO ── same 6 px per mm, body 5 mm = 30 px ── -->
     <text x="418" y="26" font-family="system-ui,sans-serif" font-size="14.5" font-weight="700" fill="#0f2942">Mosquito &#183; family Culicidae</text>
-    <text x="418" y="45" font-family="system-ui,sans-serif" font-size="11.5" fill="#5a6b7c">Body 3&#8211;6 mm (about &#8539;&#8211;&#188; in) &#183; true size, same ruler</text>
+    <text x="418" y="45" font-family="system-ui,sans-serif" font-size="11.5" fill="#5a6b7c">Body 3&#8211;6 mm (about &#8539;&#8211;&#188; in)</text>
+    <text x="418" y="61" font-family="system-ui,sans-serif" font-size="11.5" fill="#5a6b7c">true size, same ruler</text>
 
     <g transform="translate(470,132)">
       <ellipse cx="-4" cy="-5" rx="15" ry="3.5" fill="#cfd9e0" opacity="0.55" transform="rotate(-12)"/>
@@ -76,15 +77,16 @@
       <text x="84" y="19" text-anchor="middle" font-family="system-ui,sans-serif" font-size="10.5" fill="#33566b">30 mm</text>
       <text x="144" y="19" text-anchor="middle" font-family="system-ui,sans-serif" font-size="10.5" fill="#33566b">40 mm (1.6 in)</text>
     </g>
-    <text x="418" y="210" font-family="system-ui,sans-serif" font-size="11" fill="#5a6b7c">Same ruler &#8212; the mosquito is roughly <tspan font-weight="700">4&#8211;8&#215; shorter</tspan>.</text>
+    <text x="656" y="210" text-anchor="end" font-family="system-ui,sans-serif" font-size="11" fill="#5a6b7c">Same ruler &#8212; the mosquito is roughly <tspan font-weight="700">4&#8211;8&#215; shorter</tspan>.</text>
   </g>
 
   <!-- ═══ BOTTOM STRIP: THE MYTH ═══ -->
-  <g transform="translate(24,314)">
-    <rect x="0" y="0" width="672" height="86" rx="10" fill="#f0fdf4" stroke="#86c9a4"/>
-    <text x="16" y="24" font-family="system-ui,sans-serif" font-size="12.5" font-weight="700" fill="#166534">The &#8220;mosquito hawk&#8221; does not hunt mosquitoes &#8212; at any life stage</text>
-    <text x="16" y="45" font-family="system-ui,sans-serif" font-size="11.5" fill="#14532d">Adult crane flies have reduced mouthparts and are anatomically incapable of killing or eating another insect; most do not feed at all in their short adult life.</text>
-    <text x="16" y="63" font-family="system-ui,sans-serif" font-size="11.5" fill="#14532d">Crane fly larvae (&#8220;leatherjackets&#8221;) live in soil and eat roots and decaying matter. Mosquito larvae live in standing water. The two never meet.</text>
-    <text x="16" y="80" font-family="system-ui,sans-serif" font-size="11.5" fill="#14532d">The insects that really do eat mosquitoes: dragonflies, damselflies, bats, mosquitofish and frogs.</text>
+  <g transform="translate(24,310)">
+    <rect x="0" y="0" width="672" height="100" rx="10" fill="#f0fdf4" stroke="#86c9a4"/>
+    <text x="16" y="23" font-family="system-ui,sans-serif" font-size="12.5" font-weight="700" fill="#166534">The &#8220;mosquito hawk&#8221; does not hunt mosquitoes &#8212; at any life stage</text>
+    <text x="16" y="42" font-family="system-ui,sans-serif" font-size="11.5" fill="#14532d">Adult crane flies have reduced mouthparts and are anatomically incapable of killing or eating another insect;</text>
+    <text x="16" y="58" font-family="system-ui,sans-serif" font-size="11.5" fill="#14532d">most do not feed at all in their short adult life. Crane fly larvae (&#8220;leatherjackets&#8221;) live in soil and eat</text>
+    <text x="16" y="74" font-family="system-ui,sans-serif" font-size="11.5" fill="#14532d">roots and decaying matter. Mosquito larvae live in standing water. The two never meet.</text>
+    <text x="16" y="90" font-family="system-ui,sans-serif" font-size="11.5" fill="#14532d">The insects that really do eat mosquitoes: dragonflies, damselflies, bats, mosquitofish and frogs.</text>
   </g>
 </svg>

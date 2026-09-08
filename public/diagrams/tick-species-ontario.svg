@@ -86,5 +86,6 @@
     <text x="12" y="21" font-family="system-ui,sans-serif" font-size="11.5" font-weight="700" fill="#92400e">Linked to alpha-gal allergy</text>
   </g>
 
-  <text x="24" y="380" font-family="system-ui,sans-serif" font-size="11.5" fill="#5a6b7c">Nymphs cause most Lyme cases because they are poppy-seed sized and easy to miss. A tick attached under 24 hours rarely transmits &#8212; check the same day you come in from long grass.</text>
+  <text x="24" y="373" font-family="system-ui,sans-serif" font-size="11.5" fill="#5a6b7c">Nymphs cause most Lyme cases because they are poppy-seed sized and easy to miss.</text>
+  <text x="24" y="389" font-family="system-ui,sans-serif" font-size="11.5" fill="#5a6b7c">A tick attached under 24 hours rarely transmits &#8212; check the same day you come in from long grass.</text>
 </svg>
