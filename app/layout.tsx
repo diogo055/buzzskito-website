@@ -11,6 +11,7 @@ import PressMentionBanner from '@/components/PressMentionBanner'
 import ExitIntentPopup from '@/components/ExitIntentPopup'
 import LeadBarGate from '@/components/LeadBarGate'
 import AffiliateClickTracker from '@/components/AffiliateClickTracker'
+import AttributionBeacon from '@/components/AttributionBeacon'
 import { BUSINESS, SITE_URL } from '@/lib/constants'
 import { websiteSchema, organizationSchema, personSchema } from '@/lib/seo'
 
@@ -132,6 +133,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <link rel="dns-prefetch" href="//d3ey4dbjkt2f6s.cloudfront.net" />
       </head>
       <body className="bg-white text-gray-900 antialiased min-h-screen flex flex-col font-sans pb-16 sm:pb-0">
+        <AttributionBeacon />
         <SmoothScroll />
         <Header />
         <PressMentionBanner />
