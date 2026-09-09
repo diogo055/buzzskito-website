@@ -183,8 +183,13 @@ Ranch $37.70, Harris $12–17.
 - **Do not create new pages with a `-canada` slug.** Put the geo token in the TITLE
   only - measured at 2.4x the Canadian clicks per page and 7.5x the US impressions
   (`data/geo-slug-finding.md`).
-- No new Amazon Associates accounts, no OneLink/geo-redirects (a prior account was banned
-  over a US/OneLink setup).
+- No new Amazon Associates accounts, and never geo-swap an Amazon link. CORRECTED 2026-09-09:
+  the prior rejection was NOT a OneLink setup — OneLink was never involved. Per AMAZON_AUDIT.md,
+  `components/BuyLink.tsx` server-rendered the .ca link then swapped it client-side to amazon.com
+  with a different tag; Amazon's US-based reviewer saw a tag not belonging to the account under
+  review ("unable to determine the source of traffic"). It was an application-review rejection,
+  and a compliant re-application was approved the next day (b6467a7, `buzzskito200b-20`).
+  The lesson is crawler/visitor parity, not "OneLink is banned". See docs/audit/us-affiliate-scope.md.
 
 ---
 
@@ -248,7 +253,8 @@ Holding content type constant, the three variants that already exist on the site
 
 **The geo TITLE earns its keep in Canada; the geo SLUG does not.** Best configuration is geo
 title + neutral slug, and it wins in Canada by 2.4x - so this is a **Canadian revenue play,
-not a US one**. Canada is where the money is: every link is amazon.ca and OneLink is banned.
+not a US one**. Canada is where the money is: every link is amazon.ca. (OneLink is not in fact
+what caused the prior rejection — see the corrected note above and docs/audit/us-affiliate-scope.md.)
 
 Verified safe on attribution: no cluster rule in `lib/amazon-clusters.ts` mentions "canada" or
 anchors to end-of-string, and all 203 slugs keep the same tracking ID with the suffix stripped.
