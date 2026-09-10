@@ -146,7 +146,7 @@ export default function BestMosquitoRepellentDeviceCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Up to 1 acre</td>
                   <td className="px-4 py-3 text-gray-700">Cottages, rural acreage</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$400 – $1,300</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="mosquito magnet trap" block>Check price on Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="mosquito magnet patriot plus" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">UV + fan trap (DynaTrap)</td>
@@ -205,7 +205,7 @@ export default function BestMosquitoRepellentDeviceCanadaPage() {
                 badge: 'Best for Large Lots',
                 name: 'Mosquito Magnet (propane CO₂ trap)',
                 why: 'The only device category with strong independent evidence of actually reducing mosquito numbers — 70–90% over 6–8 weeks within about a 1-acre radius by mimicking a breathing human.',
-                search: 'mosquito magnet trap',
+                search: 'mosquito magnet patriot plus',
                 score: 8.4,
                 pros: ['Genuinely thins the population', 'Covers up to ~1 acre', 'Targets biting females'],
                 cons: ['Premium up-front cost plus propane', 'Takes 6–8 weeks — nothing tonight'],
@@ -273,7 +273,7 @@ export default function BestMosquitoRepellentDeviceCanadaPage() {
           <p className="not-prose text-sm text-gray-600 mb-1">Jump straight to a live Canadian price check by device type:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="thermacell patio shield">Thermacell on Amazon.ca →</BuyLink>
-            <BuyLink tag={AMZ_TAG} search="mosquito magnet trap">Propane CO₂ trap →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="mosquito magnet patriot plus">Propane CO₂ trap →</BuyLink>
             <BuyLink tag={AMZ_TAG} search="dynatrap insect trap">UV trap →</BuyLink>
           </div>
 
@@ -293,7 +293,7 @@ export default function BestMosquitoRepellentDeviceCanadaPage() {
           <p>Propane traps such as the Mosquito Magnet burn propane to generate CO₂, heat, and moisture that mimic a breathing human. Female mosquitoes are lured in and vacuumed into a net. This is the only device category with strong independent evidence of actually <em>reducing</em> mosquito numbers — 70–90% over 6–8 weeks of continuous running within about a 1-acre radius.</p>
           <p>The catch is cost and patience: $400–$1,300 for the device plus $400–$600 a season in propane and attractant cartridges, and it does nothing for tonight&rsquo;s barbecue because it works over weeks, not hours. It earns its keep on cottage and rural acreage, not on a fenced suburban lot where the neighbours&rsquo; yards keep restocking the population.</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink tag={AMZ_TAG} search="mosquito magnet trap">Check propane trap price on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="mosquito magnet patriot plus">Check propane trap price on Amazon.ca →</BuyLink>
           </div>
           <p>Full breakdown: <Link href="/blog/mosquito-magnet-canada">Mosquito Magnet Canada — where to buy and do they work</Link>.</p>
 
@@ -332,7 +332,7 @@ export default function BestMosquitoRepellentDeviceCanadaPage() {
           <p>Rule of thumb: buy a <strong>repellent machine</strong> (Thermacell) for same-day patio comfort, and only add a <strong>killer machine</strong> (a propane CO₂ trap) if you have rural acreage worth thinning over the whole season. For a whole yard plus ticks — which no machine of either type controls — pair either with <Link href="/mosquito-control">professional barrier spray</Link>.</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="thermacell patio shield">Repellent machine (Thermacell) →</BuyLink>
-            <BuyLink tag={AMZ_TAG} search="mosquito magnet trap">Killer machine (propane CO₂ trap) →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="mosquito magnet patriot plus">Killer machine (propane CO₂ trap) →</BuyLink>
           </div>
 
           <h2>Repel vs Kill: Which Do You Actually Need?</h2>

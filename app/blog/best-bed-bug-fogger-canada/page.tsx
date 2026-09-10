@@ -217,7 +217,7 @@ export default function BestBedBugFoggerCanadaPage() {
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Yes</strong> &mdash; blown into voids</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">No</strong> &mdash; physical, not chemical</td>
                   <td className="px-4 py-3 text-gray-700">Long-term kill in wall voids &amp; edges</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="safers diatomaceous earth" block>Check price on Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="safers insect killing diatomaceous earth" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
               </tbody>
             </table>

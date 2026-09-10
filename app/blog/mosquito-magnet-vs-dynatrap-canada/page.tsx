@@ -99,7 +99,7 @@ export default function MosquitoMagnetVsDynatrapCanadaPage() {
       </section>
 
       <AffiliateDisclosure />
-      <StickyBuyBar tag={AMZ_TAG} name="Mosquito Magnet (propane CO₂ trap)" search="mosquito magnet trap" label="Best for real mosquito reduction" />
+      <StickyBuyBar tag={AMZ_TAG} name="Mosquito Magnet (propane CO₂ trap)" search="mosquito magnet patriot plus" label="Best for real mosquito reduction" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -178,7 +178,7 @@ export default function MosquitoMagnetVsDynatrapCanadaPage() {
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Price check</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="mosquito magnet trap" block>Check price on Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="mosquito magnet patriot plus" block>Check price on Amazon.ca →</BuyLink></td>
                   <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="dynatrap dt2000xl" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
               </tbody>
@@ -243,7 +243,7 @@ export default function MosquitoMagnetVsDynatrapCanadaPage() {
 
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian pricing on both traps:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink tag={AMZ_TAG} search="mosquito magnet trap">Mosquito Magnet on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="mosquito magnet patriot plus">Mosquito Magnet on Amazon.ca →</BuyLink>
             <BuyLink tag={AMZ_TAG} search="dynatrap dt2000xl">DynaTrap DT2000XL →</BuyLink>
           </div>
 

@@ -223,14 +223,14 @@ export default function LymeDiseasePage() {
         <AffiliateDisclosure />
         <p>
           A purpose-made removal hook like the Tick Twister grips the mouthparts at skin level without squeezing the body — worth keeping in the first-aid kit if you live near a ravine or walk a dog daily.{' '}
-          <BuyLink tag={AMZ_TAG} search="tick twister removal tool">Check price on Amazon.ca →</BuyLink>
+          <BuyLink tag={AMZ_TAG} search="otom tick twister">Check price on Amazon.ca →</BuyLink>
         </p>
 
         <TopPick tag={AMZ_TAG}
           label="Best Tick Remover"
           name="Tick Twister Removal Hook"
           blurb="Because the Lyme bacterium transfers only after hours of attachment, a fast, clean removal is your single biggest lever. A slotted hook slides under the tick and lifts it out mouthparts-and-all — no squeezing the body, which is exactly what tweezers risk. Keep one in the first-aid kit if you walk a dog or live near a ravine."
-          search="tick twister removal tool"
+          search="otom tick twister"
           score={8.7}
           pros={['Lifts the tick without crushing the body', 'Grips at skin level so mouthparts come free', 'Pocket-sized and reusable for people and pets']}
           cons={['Two sizes needed to cover nymphs and adults', 'Fine-tipped tweezers still handle the tiniest nymphs']}
@@ -332,7 +332,7 @@ export default function LymeDiseasePage() {
 
       <StickyBuyBar
         name="Tick Twister Removal Hook"
-        search="tick twister removal tool"
+        search="otom tick twister"
         label="Best tick remover"
         tag={AMZ_TAG}
       />

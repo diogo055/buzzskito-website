@@ -165,7 +165,7 @@ export default function BestAntKillerCanadaPage() {
                 badge: 'Best Crack & Crevice Backup',
                 name: 'Safer’s Diatomaceous Earth (PMRA-registered insect dust) + Bulb Duster',
                 why: 'A barely visible dust film in dry voids, under appliances and along sill plates keeps killing crossings by abrading the waxy cuticle. Buy the registered insecticidal grade by name — Safer’s, Knock Down or Doktor Doom Be Green all carry a PCP number and pest-use directions. Food-grade DE sold as a feed additive is chemically similar and legally different: no registration, no label directions, no legal standing as a pesticide. A slow supporting player — never a substitute for bait, and never placed where it would block a bait trail.',
-                search: 'safers diatomaceous earth',
+                search: 'safers insect killing diatomaceous earth',
                 pros: ['PCP-registered for insect control, unlike food-grade DE', 'Mechanical kill — resistance is not possible', 'Reaches voids a station cannot'],
                 cons: ['Inert the moment it gets damp', 'Visible piles get walked around — thin films only'],
               },
@@ -253,7 +253,7 @@ export default function BestAntKillerCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Indoor &mdash; dry voids, sill plates, under appliances</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Stragglers</strong> that cross the film</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Useful supplement</strong> &mdash; dry areas only, never near bait. Buy the PCP-registered insecticidal grade by name, not unregistered food-grade DE</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="safers diatomaceous earth" block>Check price on Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="safers insect killing diatomaceous earth" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Ultrasonic repellers<br /><span className="font-normal text-xs text-gray-500">Plug-in devices</span></td>

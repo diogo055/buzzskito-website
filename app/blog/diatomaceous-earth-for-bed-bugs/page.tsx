@@ -150,7 +150,7 @@ export default function DiatomaceousEarthForBedBugsPage() {
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the registered dust and a proper applicator:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink tag={AMZ_TAG} search="safers diatomaceous earth">Safer&rsquo;s Diatomaceous Earth &rarr;</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="safers insect killing diatomaceous earth">Safer&rsquo;s Diatomaceous Earth &rarr;</BuyLink>
             <BuyLink tag={AMZ_TAG} search="diatomaceous earth duster applicator">Bulb duster applicator &rarr;</BuyLink>
           </div>
 
@@ -158,7 +158,7 @@ export default function DiatomaceousEarthForBedBugsPage() {
             label="Our Top Pick — the DE to actually buy"
             name="Safer’s Diatomaceous Earth (PMRA-registered insecticide)"
             blurb="The one grade that’s legal to use on bed bugs in Canada — it carries a Pest Control Products (PCP) registration number, so its label directions are the rules you follow. Amorphous, low-crystalline-silica dust: resistance-proof, and safe to apply into cracks and voids when used as a barely-visible film with a bulb duster. Pair it with a proper puffer applicator for the light, even haze that actually kills."
-            search="safers diatomaceous earth"
+            search="safers insect killing diatomaceous earth"
             score={8.2}
             pros={['The only PMRA-registered DE grade for pest use', 'Resistance-proof — bed bugs can’t adapt to a desiccant', 'Low crystalline silica, safe applied to label into cracks and voids']}
             cons={['Slow — works over days, not on contact', 'Only works dry, undisturbed, and thinly applied', 'Not a standalone cure — one layer of a full plan']}
@@ -205,7 +205,7 @@ export default function DiatomaceousEarthForBedBugsPage() {
           </ul>
           <p>The honest Canadian recommendation is the registered dust, used to the label &mdash; not the strongest thing a cross-border seller will ship you.</p>
           <div className="not-prose my-4 flex flex-wrap gap-3">
-            <BuyLink tag={AMZ_TAG} search="safers diatomaceous earth">Check Safer&rsquo;s DE on Amazon.ca &rarr;</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="safers insect killing diatomaceous earth">Check Safer&rsquo;s DE on Amazon.ca &rarr;</BuyLink>
             <BuyLink tag={AMZ_TAG} search="diatomaceous earth duster applicator">Bulb duster applicator &rarr;</BuyLink>
           </div>
 
@@ -257,7 +257,7 @@ export default function DiatomaceousEarthForBedBugsPage() {
         <AdjacentPestCTA pest="bed bugs" />
       </article>
 
-      <StickyBuyBar tag={AMZ_TAG} name="Safer’s Diatomaceous Earth" search="safers diatomaceous earth" label="The DE to buy" />
+      <StickyBuyBar tag={AMZ_TAG} name="Safer’s Diatomaceous Earth" search="safers insect killing diatomaceous earth" label="The DE to buy" />
     </>
   )
 }

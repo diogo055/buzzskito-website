@@ -79,7 +79,7 @@ export default function BestMosquitoTrapCanadaPage() {
       </section>
 
       <AffiliateDisclosure />
-      <StickyBuyBar tag={AMZ_TAG} name="Mosquito Magnet Patriot Plus (propane CO₂ trap)" search="mosquito magnet trap" asin="B07QJY2NL1" label="Best overall trap" />
+      <StickyBuyBar tag={AMZ_TAG} name="Mosquito Magnet Patriot Plus (propane CO₂ trap)" search="mosquito magnet patriot plus" asin="B07QJY2NL1" label="Best overall trap" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -96,7 +96,7 @@ export default function BestMosquitoTrapCanadaPage() {
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
             <div className="mt-4">
-              <BuyLink search="mosquito magnet trap" tag={AMZ_TAG} block className="sm:w-auto sm:min-h-0 sm:inline-flex sm:rounded-full sm:px-4 sm:py-2">Check price on Amazon.ca →</BuyLink>
+              <BuyLink search="mosquito magnet patriot plus" tag={AMZ_TAG} block className="sm:w-auto sm:min-h-0 sm:inline-flex sm:rounded-full sm:px-4 sm:py-2">Check price on Amazon.ca →</BuyLink>
             </div>
           </div>
         </div>
@@ -111,7 +111,7 @@ export default function BestMosquitoTrapCanadaPage() {
                 badge: 'Best Overall',
                 name: 'Mosquito Magnet Patriot Plus (propane CO₂)',
                 why: 'The only trap type that makes real CO₂ — the cue biting females hunt for. Independent testing supports 70–90% population reduction over 6–8 weeks on up to 1 acre.',
-                search: 'mosquito magnet trap',
+                search: 'mosquito magnet patriot plus',
                 asin: 'B07QJY2NL1',
                 score: 9.2,
                 featured: true,
@@ -179,7 +179,7 @@ export default function BestMosquitoTrapCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Burns propane → real CO₂ + heat + moisture, then vacuums females into a net</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best</strong> — 70–90% over 6–8 weeks</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$399 – $1,299</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="mosquito magnet trap" block>Check price on Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="mosquito magnet patriot plus" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">CO₂ / octenol lure<br /><span className="font-normal text-xs text-gray-500">BG-Mosquitaire, Flowtron</span></td>
@@ -261,7 +261,7 @@ export default function BestMosquitoTrapCanadaPage() {
           </div>
           <p className="not-prose text-sm text-gray-600 mb-1">Compare current Canadian prices across the main trap types:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink tag={AMZ_TAG} search="mosquito magnet trap">Propane trap on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="mosquito magnet patriot plus">Propane trap on Amazon.ca →</BuyLink>
             <BuyLink tag={AMZ_TAG} search="dynatrap insect trap">UV + fan trap →</BuyLink>
             <BuyLink tag={AMZ_TAG} search="katchy indoor insect trap">Indoor trap →</BuyLink>
           </div>

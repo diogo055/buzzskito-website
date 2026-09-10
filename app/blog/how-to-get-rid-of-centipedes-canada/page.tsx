@@ -236,7 +236,7 @@ export default function HowToGetRidOfCentipedesCanadaPage() {
                   <td className="px-4 py-3 font-bold text-brand-800">Diatomaceous earth<br /><span className="font-normal text-xs text-gray-500">Thin dust in dry cracks</span></td>
                   <td className="px-4 py-3 text-gray-700">Abrades the cuticle of anything that walks through it &mdash; while it stays dry</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Useful supplement</strong> &mdash; inert once damp, so sequence it after the dehumidifier; buy a registered insecticidal DE with a PCP number, not food-grade</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="safers diatomaceous earth" block>Check price on Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="safers insect killing diatomaceous earth" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Residual perimeter spray<br /><span className="font-normal text-xs text-gray-500">Consumer barrier products</span></td>

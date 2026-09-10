@@ -204,7 +204,7 @@ export default function WhatTicksLookLikePage() {
           label="Our Top Pick"
           name="Tick Twister-style removal hook set"
           blurb="A curved hook slides under the tick's head and lifts it out with a gentle twist — no squeezing the body, which is what pushes pathogens back into the bite. The best keep-in-your-kit tool for the sesame-seed-sized adults and near-invisible nymphs this guide describes."
-          search="tick twister removal tool"
+          search="otom tick twister"
           score={8.7}
           pros={['Grips at the head, so the body is never squeezed', 'Works on tiny nymphs and larger engorged adults', 'Cheap, reusable, and pocket-sized for the car or first-aid kit']}
           cons={['Very small — easy to misplace without a keyring loop', 'Fine-tipped tweezers are still handy as a backup']}
@@ -248,7 +248,7 @@ export default function WhatTicksLookLikePage() {
         </ul>
       </article>
 
-      <StickyBuyBar tag={AMZ_TAG} name="Tick Twister-style removal hook" search="tick twister removal tool" label="For removal" />
+      <StickyBuyBar tag={AMZ_TAG} name="Tick Twister-style removal hook" search="otom tick twister" label="For removal" />
 
       <CTASection heading="Protect Your Yard from Ticks This Season" subtext="Professional tick spray kills ticks at all life stages. Free quote for your GTA property." variant="dark" />
     </>

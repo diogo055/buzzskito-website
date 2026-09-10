@@ -216,7 +216,7 @@ export default function HowToGetRidOfCarpetBeetlesCanadaPage() {
                 badge: 'Best Crack and Crevice',
                 name: 'Safer’s Diatomaceous Earth + Bulb Duster',
                 why: 'For the carpet edge, the tack strip, and the void behind a baseboard that a vacuum nozzle cannot physically enter. Registered insecticidal diatomaceous earth kills mechanically by abrading and absorbing the waxy layer that holds an insect’s moisture in, so nothing develops resistance to it and the powder does not expire. Buy the duster with it — a barely visible film is what works, and you cannot lay one from the bag. Read the label’s pest list and use sites before you apply it.',
-                search: 'safers diatomaceous earth',
+                search: 'safers insect killing diatomaceous earth',
                 pros: ['PMRA-registered — the PCP number is printed on the bag', 'Reaches the void spaces a vacuum cannot', 'Mechanical kill, so no resistance can develop'],
                 cons: ['Goes inert once damp', 'A supporting move only — it finds nothing and removes no food source'],
               },
@@ -389,7 +389,7 @@ export default function HowToGetRidOfCarpetBeetlesCanadaPage() {
           </ul>
           <p>Two products deserve a specific warning. <strong>Total-release foggers</strong> are close to worthless for carpet beetles: the fog settles on exposed horizontal surfaces, while the larvae are inside carpet pile, under the underpad, in closet corners and inside wall voids. You get the residue and none of the result. And <strong>mothballs</strong> are a pesticide in Canada, not a deodoriser &mdash; the registered products are labelled for use inside sealed containers where the vapour is contained, and scattering them loose in a closet, drawer, attic, or under a bed is both ineffective and a straightforward label violation, with a genuine inhalation exposure for the household. Cedar blocks and cedar chests sell on aroma; do not put one in place of cleaning and sealing.</p>
           <div className="not-prose my-4">
-            <BuyLink tag={AMZ_TAG} search="safers diatomaceous earth">Check Safer&rsquo;s DE and duster kits on Amazon.ca &rarr;</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="safers insect killing diatomaceous earth">Check Safer&rsquo;s DE and duster kits on Amazon.ca &rarr;</BuyLink>
           </div>
 
           <h2>Keeping the Next Generation Out</h2>

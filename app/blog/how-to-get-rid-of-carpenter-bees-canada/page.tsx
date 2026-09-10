@@ -203,7 +203,7 @@ export default function HowToGetRidOfCarpenterBeesCanadaPage() {
                   <td className="px-4 py-3 font-bold text-brand-800">One or two fresh holes in a deck rail, mid-season</td>
                   <td className="px-4 py-3 text-gray-700">Dust the open hole, leave it open a few days, plug in the fall, then paint</td>
                   <td className="px-4 py-3 text-gray-700">Plug it today</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="safers diatomaceous earth" block>Registered dust &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="safers insect killing diatomaceous earth" block>Registered dust &rarr;</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Bees patrolling the eaves every spring</td>
@@ -259,7 +259,7 @@ export default function HowToGetRidOfCarpenterBeesCanadaPage() {
                 badge: 'Best Canada-Legal Dust',
                 name: 'Safer’s Diatomaceous Earth + Bulb Duster',
                 why: 'The dust every American guide names for carpenter bees is a US product, and a US registration means nothing here. PMRA-registered insecticidal diatomaceous earth is the desiccant a Canadian homeowner can actually buy — Safer’s is the most widely stocked, with Knock Down and Doktor Doom Be Green as registered alternatives. Puff it into the open entrance with a bulb duster and leave the hole open for several days. Read the label’s pest list and use sites first: the mechanism being right does not make every application legal.',
-                search: 'safers diatomaceous earth',
+                search: 'safers insect killing diatomaceous earth',
                 pros: ['PMRA-registered — the PCP number is printed on the bag', 'A dry gallery is exactly the condition DE needs to keep working', 'Mechanical kill, so no resistance can develop'],
                 cons: ['Goes inert once damp — useless on a rain-exposed surface', 'The label governs; check that your intended use is on it'],
               },
@@ -346,7 +346,7 @@ export default function HowToGetRidOfCarpenterBeesCanadaPage() {
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the short list:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="carpenter bee trap wooden hanging">Carpenter bee traps &rarr;</BuyLink>
-            <BuyLink tag={AMZ_TAG} search="safers diatomaceous earth">Registered dust &rarr;</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="safers insect killing diatomaceous earth">Registered dust &rarr;</BuyLink>
             <BuyLink tag={AMZ_TAG} search="exterior wood filler epoxy dowel">Filler and dowels &rarr;</BuyLink>
           </div>
 
@@ -363,7 +363,7 @@ export default function HowToGetRidOfCarpenterBeesCanadaPage() {
           <p>On the domestic Canadian shelf, the dust a homeowner can genuinely buy is PMRA-registered insecticidal diatomaceous earth: <strong>Safer&rsquo;s Diatomaceous Earth</strong> is the most widely stocked, with <strong>Knock Down</strong> and <strong>Doktor Doom Be Green</strong> as registered alternatives. It kills mechanically, by abrading and absorbing the waxy layer that holds an insect&rsquo;s moisture in, which means nothing develops resistance to it and the powder does not expire. A carpenter bee gallery in weathered fascia is a dry, enclosed space, which happens to be the condition DE needs &mdash; its normal weakness, going inert when damp, matters much less inside a tunnel than it does on an exposed surface. Buy a bulb duster with it, wear a dust mask while applying, and read the label&rsquo;s pest list and use sites before you start, because the mechanism being right does not make every application a legal one. Our <Link href="/blog/diatomaceous-earth-canada-buyers-guide">Canadian diatomaceous earth buyer&rsquo;s guide</Link> covers grades, the food-grade and pool-grade distinction, and application technique in full.</p>
           <p>Do not buy a US-only formula from a marketplace seller shipping north. It is an unregistered pesticide in Canada, it carries a US-only label that gives you no Canadian directions to rely on, and it can be stopped at the border.</p>
           <div className="not-prose my-4">
-            <BuyLink tag={AMZ_TAG} search="safers diatomaceous earth">Check Safer&rsquo;s DE and duster kits on Amazon.ca &rarr;</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="safers insect killing diatomaceous earth">Check Safer&rsquo;s DE and duster kits on Amazon.ca &rarr;</BuyLink>
           </div>
 
           <h2>Carpenter Bee Traps: What They Do, and What They Cannot Do</h2>

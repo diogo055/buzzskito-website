@@ -220,7 +220,7 @@ export default function BestCockroachSprayCanadaPage() {
                 badge: 'Best for Wall Voids',
                 name: "Safer's Diatomaceous Earth (PMRA-registered insect dust) + bulb duster",
                 why: 'Inexpensive, and one of the most effective things you can put into a dry void. A barely-visible dust film behind kick plates and under appliances kills by desiccation and by ingestion during grooming, and unlike a spray it stays put for months where nothing disturbs it. We name a registered brand here on purpose: a generic "diatomaceous earth" or "boric acid powder" search returns mostly food- and craft-grade material that carries no PCP number and no Canadian label directions for killing insects. The Canadian pack is Safer\'s Ant & Crawling Insect Killer — Reg. No. 32278 P.C.P. Act, domestic class, 80% diatomaceous earth, currently registered per Health Canada\'s Pesticide Label Search. Do not substitute a boric acid dust: Health Canada cancelled every domestic-class boric acid dust and powder in Re-evaluation Decision RVD2016-01, so in Canada a consumer-legal roach dust means diatomaceous earth.',
-                search: 'safers diatomaceous earth',
+                search: 'safers insect killing diatomaceous earth',
                 pros: ['Long-lasting in dry, undisturbed voids', 'One container covers a lot of void area', 'Complements bait instead of fighting it'],
                 cons: ['A visible pile repels roaches — thin film only', 'Useless once damp; wrong tool under a leaking sink', 'Keep away from children, pets and food surfaces'],
               },
@@ -274,7 +274,7 @@ export default function BestCockroachSprayCanadaPage() {
                   <td className="px-4 py-3 font-bold text-brand-800">Registered insecticidal dust<br /><span className="font-normal text-xs text-gray-500">Diatomaceous earth + bulb duster</span></td>
                   <td className="px-4 py-3 text-gray-700">Thin film in dry voids; ingested during grooming, kills over several days</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Great value</strong> &mdash; long-lasting where it stays dry. Buy a registered brand; food- and craft-grade powders carry no PCP number. Boric acid <em>dusts</em> are not a consumer option here &mdash; Health Canada cancelled the domestic-class ones in RVD2016-01</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="safers diatomaceous earth" block>Check price on Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="safers insect killing diatomaceous earth" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Glue monitors<br /><span className="font-normal text-xs text-gray-500">Flat sticky boards</span></td>
@@ -359,7 +359,7 @@ export default function BestCockroachSprayCanadaPage() {
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="combat roach killing bait stations">Combat roach bait stations →</BuyLink>
             <BuyLink tag={AMZ_TAG} search="raid ant and roach killer">Raid crack-and-crevice aerosol →</BuyLink>
-            <BuyLink tag={AMZ_TAG} search="safers diatomaceous earth">Safer&rsquo;s registered insect dust →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="safers insect killing diatomaceous earth">Safer&rsquo;s registered insect dust →</BuyLink>
           </div>
 
           <h2>Read This First: Why Spraying Scatters Roaches</h2>
@@ -405,7 +405,7 @@ export default function BestCockroachSprayCanadaPage() {
           <p><strong>Buy a registered dust, not a bag of powder.</strong> This is the one place on the page where a bare keyword search will actively mislead you. Search &ldquo;boric acid powder&rdquo; or &ldquo;diatomaceous earth&rdquo; on a marketplace and most of what comes back is laundry-, craft- or food-grade material sold for cleaning, gardening or supplements. That material carries no PCP registration and no Canadian label directions for killing insects &mdash; which means the same page that tells you to check for a registration number would be sending you to products that do not have one. So we name the pack instead: Safer&rsquo;s Ant &amp; Crawling Insect Killer is a PMRA-registered, domestic-class diatomaceous earth insect dust sold in Canadian retail (Reg. No. 32278 P.C.P. Act). A pack with no registration number on it is not, whatever the listing title says it is for &mdash; and, as above, a boric acid <em>powder</em> is not the substitute it is in American guides.</p>
           <p>Two limits, stated honestly. A dust is useless once damp &mdash; it cakes, and the damp cabinet under a slow-leaking trap is exactly where you want product, so fix the leak first. And it only kills roaches that cross the film, which means it complements bait rather than replacing it. Keep it out of reach of children and pets and off any food-preparation surface, and follow the Canadian label directions on the pack you buy. The thin-film rule applies to every dust &mdash; we cover application technique in the <Link href="/blog/diatomaceous-earth-canada-buyers-guide">Canadian diatomaceous earth buyer&rsquo;s guide</Link>.</p>
           <div className="not-prose my-4">
-            <BuyLink tag={AMZ_TAG} search="safers diatomaceous earth">Check Safer&rsquo;s registered insect dust on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="safers insect killing diatomaceous earth">Check Safer&rsquo;s registered insect dust on Amazon.ca →</BuyLink>
           </div>
 
           <h2>What Not to Buy, and Why We Are Telling You</h2>

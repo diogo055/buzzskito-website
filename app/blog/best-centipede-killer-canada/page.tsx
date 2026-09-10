@@ -98,7 +98,7 @@ export default function BestCentipedeKillerCanadaPage() {
       </section>
 
       <AffiliateDisclosure />
-      <StickyBuyBar tag={AMZ_TAG} name="Safer's Diatomaceous Earth (PMRA-registered insect dust)" search="safers diatomaceous earth" label="Best actual killer" />
+      <StickyBuyBar tag={AMZ_TAG} name="Safer's Diatomaceous Earth (PMRA-registered insect dust)" search="safers insect killing diatomaceous earth" label="Best actual killer" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -169,7 +169,7 @@ export default function BestCentipedeKillerCanadaPage() {
                   <td className="px-4 py-3 font-bold text-brand-800">Room is dry, they are still coming out of a crack</td>
                   <td className="px-4 py-3 text-gray-700">Registered insecticidal DE plus a bulb duster &mdash; the duster is the part people forget</td>
                   <td className="px-4 py-3 text-gray-700">Food-grade or pool-grade DE</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="safers diatomaceous earth" block>Registered DE &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="safers insect killing diatomaceous earth" block>Registered DE &rarr;</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Autumn walk-in, older house, every September</td>
@@ -207,7 +207,7 @@ export default function BestCentipedeKillerCanadaPage() {
                 badge: 'Best Actual Killer',
                 name: 'Safer’s Diatomaceous Earth (PMRA-Registered Insect Dust)',
                 why: 'The one insecticide that suits this animal, and a named Canadian-registered product rather than a bag of unlabelled dust. DE abrades the waxy layer holding a centipede’s moisture in, so it kills by dehydration rather than by dose — long legs do not save it the way they do against a spray band. Pair it with a cheap bulb duster and lay a thin film in voids. Confirm the label carries a PCP number and lists centipedes or crawling insects before you apply it.',
-                search: 'safers diatomaceous earth',
+                search: 'safers insect killing diatomaceous earth',
                 pros: ['Mechanical kill — no resistance possible, ever', 'Registered in Canada, with a PCP number and real label directions', 'Reaches sill-plate gaps and voids a spray never coats'],
                 cons: ['Completely inert once damp — dehumidify first, then dust', 'Visible piles get walked around; whisper-thin films only', 'Buy a bulb duster separately — the bag alone will not apply it thin enough'],
               },
@@ -279,7 +279,7 @@ export default function BestCentipedeKillerCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">One consumer bag covers an average house several times over</td>
                   <td className="px-4 py-3 text-gray-700">Re-dust only where it has got damp or been disturbed</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Yes</strong> &mdash; insecticidal DE is a pesticide</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="safers diatomaceous earth" block>Check price on Amazon.ca &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="safers insect killing diatomaceous earth" block>Check price on Amazon.ca &rarr;</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Glue boards<br /><span className="font-normal text-xs text-gray-500">Device, not pesticide</span></td>
@@ -362,7 +362,7 @@ export default function BestCentipedeKillerCanadaPage() {
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the picks:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="50 pint dehumidifier basement energy star">Basement dehumidifier &rarr;</BuyLink>
-            <BuyLink tag={AMZ_TAG} search="safers diatomaceous earth">Safer&rsquo;s DE &rarr;</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="safers insect killing diatomaceous earth">Safer&rsquo;s DE &rarr;</BuyLink>
             <BuyLink tag={AMZ_TAG} search="insect glue board traps multi pack">Glue board monitors &rarr;</BuyLink>
           </div>
 
@@ -382,7 +382,7 @@ export default function BestCentipedeKillerCanadaPage() {
           <p><strong>The applicator, which is a separate purchase.</strong> A bag on its own will not put down what you need, which is a barely visible film. Shaking dust out of a container leaves visible drifts, and insects detect and walk around visible piles &mdash; a common reason people conclude DE does not work. Budget for a bulb or hand duster in the same order. Wear a dust mask while applying; any fine dust is an irritant to breathe.</p>
           <p><strong>Sequence, because it is a purchase-timing issue.</strong> DE only works while it is dry, and centipedes live where it is damp. Buying the dust before the dehumidifier means dusting a damp floor and making mud. Dry the space first, then dust the sill-plate gap, baseboard cracks, behind and under appliances, plumbing penetrations, under the laundry tub, the sump-pit rim and cabinet kick spaces. Grade distinctions and room-by-room technique are covered in our <Link href="/blog/diatomaceous-earth-canada-buyers-guide">diatomaceous earth buyer&rsquo;s guide for Canada</Link>.</p>
           <div className="not-prose my-4">
-            <BuyLink tag={AMZ_TAG} search="safers diatomaceous earth">Check Safer&rsquo;s registered DE on Amazon.ca &rarr;</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="safers insect killing diatomaceous earth">Check Safer&rsquo;s registered DE on Amazon.ca &rarr;</BuyLink>
           </div>
 
           <h2>Purchase #3: Glue Boards &mdash; Buy One Pack, Not Three</h2>

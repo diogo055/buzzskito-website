@@ -84,7 +84,7 @@ export default function RemoveTickPage() {
         </ul>
         <p>A dedicated fine-tipped tick tool grips the mouthparts cleanly right at the skin, which makes a clean removal much easier than fumbling with wide household tweezers. <BuyLink tag={AMZ_TAG} search="tick removal tool tweezers">Check price on Amazon.ca &rarr;</BuyLink> For a breakdown of the different styles (fine-tip tweezers, tick keys, and lifter tools), see our <Link href="/blog/tick-removal-tool-guide" className="text-brand-700 hover:underline">tick removal tool guide</Link>.</p>
 
-        <p>Hook-style &ldquo;tick twister&rdquo; tools are a popular alternative: you slide the notched end under the tick at skin level and lift with a gentle rotation, which many people find easier on pets and in awkward, hard-to-reach spots than a straight pull. <BuyLink tag={AMZ_TAG} search="tick twister removal tool">Check price on a tick twister tool &rarr;</BuyLink></p>
+        <p>Hook-style &ldquo;tick twister&rdquo; tools are a popular alternative: you slide the notched end under the tick at skin level and lift with a gentle rotation, which many people find easier on pets and in awkward, hard-to-reach spots than a straight pull. <BuyLink tag={AMZ_TAG} search="otom tick twister">Check price on a tick twister tool &rarr;</BuyLink></p>
 
         <TopPick tag={AMZ_TAG}
           label="Our Top Pick"

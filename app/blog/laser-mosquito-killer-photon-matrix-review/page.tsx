@@ -176,7 +176,7 @@ export default function LaserMosquitoKillerPhotonMatrixPage() {
       </section>
 
       <AffiliateDisclosure />
-      <StickyBuyBar tag={AMZ_TAG} name="Mosquito Magnet Propane CO₂ Trap" asin="B07QFNSC8Z" search="mosquito magnet trap" label="Proven pick instead" />
+      <StickyBuyBar tag={AMZ_TAG} name="Mosquito Magnet Propane CO₂ Trap" asin="B07QFNSC8Z" search="mosquito magnet patriot plus" label="Proven pick instead" />
 
       <section className="bg-gradient-to-br from-emerald-50 to-white border-b border-emerald-200 py-10 px-4">
         <div className="max-w-4xl mx-auto">
@@ -207,7 +207,7 @@ export default function LaserMosquitoKillerPhotonMatrixPage() {
                     <td className="px-4 py-3 font-bold text-brand-800">Propane CO₂ trap (Mosquito Magnet)</td>
                     <td className="px-4 py-3 text-gray-700">Proven · in stock</td>
                     <td className="px-4 py-3 text-gray-800">Premium up front, plus propane and attractant cartridges every season</td>
-                    <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="mosquito magnet trap" block>Check price on Amazon.ca →</BuyLink></td>
+                    <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="mosquito magnet patriot plus" block>Check price on Amazon.ca →</BuyLink></td>
                   </tr>
                   <tr className="border-b border-navy-50">
                     <td className="px-4 py-3 font-bold text-brand-800">Thermacell patio repellent</td>
@@ -482,7 +482,7 @@ export default function LaserMosquitoKillerPhotonMatrixPage() {
                 badge: 'Best Real Alternative',
                 name: 'Mosquito Magnet Propane CO₂ Trap',
                 why: 'The device with real independent testing behind it — it burns propane to make genuine CO₂, heat, and moisture, the exact cues an egg-laying female hunts, then vacuums her in. Best suited to larger and cottage properties, in stock now, no pre-order lottery.',
-                search: 'mosquito magnet trap',
+                search: 'mosquito magnet patriot plus',
                 asin: 'B07QFNSC8Z',
                 score: 8.9,
                 featured: true,
@@ -557,7 +557,7 @@ export default function LaserMosquitoKillerPhotonMatrixPage() {
           <p>While the laser idea matures, here is the honest, boring, effective toolkit that clears mosquitoes from a real Canadian backyard right now. Most homeowners get the best results by combining two or three of these rather than chasing a single silver-bullet gadget.</p>
 
           <h3>1. Propane CO₂ traps (the proven trap)</h3>
-          <p>A <Link href="/blog/best-mosquito-trap">propane CO₂ trap</Link> like the Mosquito Magnet burns propane to make real CO₂, heat, and moisture &mdash; the exact cues a female mosquito hunts &mdash; then vacuums her in. Independent testing shows 70&ndash;90% population reduction over 6&ndash;8 weeks of continuous running. It is a real device you can order today, best suited to larger and cottage properties. Woodstream sells the line into Canada under Canadian model numbers &mdash; the Executive MM3302B and Patriot Plus MM4202B are both listed on the brand&rsquo;s own Canadian site &mdash; and it is carried on Amazon.ca. Which bricks-and-mortar chains have it on the shelf moves through the season, so check the brand&rsquo;s where-to-buy listing before driving anywhere. <BuyLink tag={AMZ_TAG} search="mosquito magnet trap">Check Mosquito Magnet price →</BuyLink></p>
+          <p>A <Link href="/blog/best-mosquito-trap">propane CO₂ trap</Link> like the Mosquito Magnet burns propane to make real CO₂, heat, and moisture &mdash; the exact cues a female mosquito hunts &mdash; then vacuums her in. Independent testing shows 70&ndash;90% population reduction over 6&ndash;8 weeks of continuous running. It is a real device you can order today, best suited to larger and cottage properties. Woodstream sells the line into Canada under Canadian model numbers &mdash; the Executive MM3302B and Patriot Plus MM4202B are both listed on the brand&rsquo;s own Canadian site &mdash; and it is carried on Amazon.ca. Which bricks-and-mortar chains have it on the shelf moves through the season, so check the brand&rsquo;s where-to-buy listing before driving anywhere. <BuyLink tag={AMZ_TAG} search="mosquito magnet patriot plus">Check Mosquito Magnet price →</BuyLink></p>
 
           <h3>2. Thermacell (instant patio bubble)</h3>
           <p>For same-evening relief in a seating area, a Thermacell heats a repellent mat to create a roughly 20 sq metre &ldquo;bubble&rdquo; around you within minutes &mdash; no laser, no wiring. It is the closest thing to instant gratification on this list, ideal for a deck, dock, or campsite. Canadian Tire, Home Depot Canada and Costco Canada all carry Thermacell repellers and refills on their own Canadian sites; which individual model is on a given shelf varies through the season. <BuyLink tag={AMZ_TAG} search="thermacell patio shield">Check Thermacell price →</BuyLink></p>
@@ -871,7 +871,7 @@ export default function LaserMosquitoKillerPhotonMatrixPage() {
             </tbody>
           </table>
           </div>
-          <p>For Canadian readers, the price-check buttons throughout this page go straight to Amazon.ca: <BuyLink tag={AMZ_TAG} search="mosquito magnet trap">Check Mosquito Magnet price →</BuyLink> or <BuyLink tag={AMZ_TAG} search="thermacell patio shield">check Thermacell price →</BuyLink>.</p>
+          <p>For Canadian readers, the price-check buttons throughout this page go straight to Amazon.ca: <BuyLink tag={AMZ_TAG} search="mosquito magnet patriot plus">Check Mosquito Magnet price →</BuyLink> or <BuyLink tag={AMZ_TAG} search="thermacell patio shield">check Thermacell price →</BuyLink>.</p>
           <p>And one piece of honesty about our own service: <strong>BuzzSkito treats yards in the Greater Toronto Area only.</strong> We cannot spray a yard in Houston or Minneapolis, and we are not going to pretend otherwise to keep you on the page. If you are in the US, check your abatement district first, then your state extension service for a device recommendation, then a licensed local applicator &mdash; and if you are anywhere from Mississauga to Hamilton, the <Link href="/free-yard-assessment">free yard assessment</Link> is ours and it takes two minutes.</p>
 
           <h2>The Honest Verdict</h2>

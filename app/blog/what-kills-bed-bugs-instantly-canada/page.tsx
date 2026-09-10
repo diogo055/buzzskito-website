@@ -253,7 +253,7 @@ export default function WhatKillsBedBugsInstantlyCanadaPage() {
                 badge: 'Best Reach (Slow on Purpose)',
                 name: 'Safer’s Diatomaceous Earth + Bulb Duster',
                 why: 'The opposite of instant, and the reason a treatment holds. A barely visible film of desiccant dust laid into frame joints, screw holes, the void behind a headboard and along baseboard gaps keeps killing for weeks after you leave the room — which is exactly the coverage a contact spray cannot buy at any price. Safer’s is the PMRA-registered insecticidal diatomaceous earth most widely stocked in Canada, and the PCP registration number is printed on the bag — confirm bed bugs are on the pest list of the bag you pick, because label pest lists differ from product to product. Budget for a bulb duster in the same order; the thin film is what kills.',
-                search: 'safers diatomaceous earth',
+                search: 'safers insect killing diatomaceous earth',
                 pros: ['Reaches the voids where the population actually lives', 'Mechanical kill — resistance cannot develop', 'Keeps working long after application'],
                 cons: ['Takes days, not seconds — never a panic purchase', 'A visible pile gets walked around; you need a duster for a thin film'],
               },
@@ -347,7 +347,7 @@ export default function WhatKillsBedBugsInstantlyCanadaPage() {
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the tools that do the work:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="bed bug steamer dry vapour">Dry-vapour steamer &rarr;</BuyLink>
-            <BuyLink tag={AMZ_TAG} search="safers diatomaceous earth">Safer&rsquo;s registered DE &rarr;</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="safers insect killing diatomaceous earth">Safer&rsquo;s registered DE &rarr;</BuyLink>
             <BuyLink tag={AMZ_TAG} search="bed bug heater bag luggage heat treatment">Heated chamber &rarr;</BuyLink>
           </div>
 
@@ -385,7 +385,7 @@ export default function WhatKillsBedBugsInstantlyCanadaPage() {
           <p>Application decides everything. Use a duster to lay a <em>barely visible film</em> &mdash; insects detect and walk around a visible pile, so a heavy application is worse than a light one &mdash; into joints, screw holes, the headboard void, the gap behind baseboards, and under a bed frame. Keep it out of the airway while applying, and keep it off surfaces people touch and sleep on.</p>
           <p><strong>Buy a dust sold as an insecticide, not as a food additive.</strong> That is a legal distinction in Canada rather than a mineralogical one: an insecticidal dust carries a PCP registration number and label directions that legally govern where you may put it, while &ldquo;food-grade&rdquo; diatomaceous earth sold as an anti-caking agent or feed additive carries no registration and no pest-use directions at all. <strong>Safer&rsquo;s Diatomaceous Earth</strong> is the registered insecticidal DE most widely stocked here and the PCP number is printed on the bag &mdash; check that bed bugs appear on the pest list of whichever bag you pick, since label pest lists differ from product to product. Our <Link href="/blog/best-bed-bug-powder-canada">bed bug powder guide</Link> compares silica gel against diatomaceous earth for this specific job, and <Link href="/blog/diatomaceous-earth-for-bed-bugs">diatomaceous earth for bed bugs</Link> covers what DE can and cannot do here.</p>
           <div className="not-prose my-4">
-            <BuyLink tag={AMZ_TAG} search="safers diatomaceous earth">Check Safer&rsquo;s registered DE on Amazon.ca &rarr;</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="safers insect killing diatomaceous earth">Check Safer&rsquo;s registered DE on Amazon.ca &rarr;</BuyLink>
           </div>
 
           <h2>What Never Kills Bed Bugs, No Matter What the Listing Says</h2>

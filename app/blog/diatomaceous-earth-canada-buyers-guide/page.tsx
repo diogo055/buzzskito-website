@@ -96,7 +96,7 @@ export default function DiatomaceousEarthCanadaBuyersGuidePage() {
       </section>
 
       <AffiliateDisclosure />
-      <StickyBuyBar tag={AMZ_TAG} name="Safer's Diatomaceous Earth insect killer" search="safers diatomaceous earth" label="Our top pick" />
+      <StickyBuyBar tag={AMZ_TAG} name="Safer's Diatomaceous Earth insect killer" search="safers insect killing diatomaceous earth" label="Our top pick" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -129,7 +129,7 @@ export default function DiatomaceousEarthCanadaBuyersGuidePage() {
                 badge: 'Best Overall',
                 name: 'Safer’s Diatomaceous Earth',
                 why: 'The most widely stocked PMRA-registered domestic-class DE in Canada. Its label legally covers indoor crawling-insect use, so you get tested directions instead of internet folklore.',
-                search: 'safers diatomaceous earth',
+                search: 'safers insect killing diatomaceous earth',
                 score: 9.0,
                 featured: true,
                 pros: ['PMRA-registered, domestic class', 'Easy to find in stock', 'Clear labelled pest list & directions'],
@@ -209,7 +209,7 @@ export default function DiatomaceousEarthCanadaBuyersGuidePage() {
 
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the registered products and a duster:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink tag={AMZ_TAG} search="safers diatomaceous earth">Safer&rsquo;s DE →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="safers insect killing diatomaceous earth">Safer&rsquo;s DE →</BuyLink>
             <BuyLink tag={AMZ_TAG} search="knock down diatomaceous earth">Knock Down DE →</BuyLink>
             <BuyLink tag={AMZ_TAG} search="doktor doom diatomaceous earth">Doktor Doom Be Green →</BuyLink>
             <BuyLink tag={AMZ_TAG} search="diatomaceous earth duster applicator">Bulb duster →</BuyLink>

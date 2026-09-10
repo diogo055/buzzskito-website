@@ -206,7 +206,7 @@ export default function MosquitoMagnetCanadaPage() {
             Prices accurate as of May 2026. Annual operating cost (propane + attractant cartridges) adds $400–$600/season. Total year-one investment: $850–$1,100 for Patriot Plus, $1,300–$1,900 for Executive.
           </p>
           <p className="mt-4 text-sm text-gray-700">
-            Amazon.ca carries the full Mosquito Magnet lineup with Prime shipping. <BuyLink tag={AMZ_TAG} search="mosquito magnet trap" className="!px-3 !py-1.5 !text-xs">Check price on Amazon.ca</BuyLink>
+            Amazon.ca carries the full Mosquito Magnet lineup with Prime shipping. <BuyLink tag={AMZ_TAG} search="mosquito magnet patriot plus" className="!px-3 !py-1.5 !text-xs">Check price on Amazon.ca</BuyLink>
           </p>
           <div className="mt-5 rounded-xl bg-amber-50 border-l-4 border-amber-400 p-4">
             <p className="text-sm text-gray-800 leading-relaxed">
@@ -395,7 +395,7 @@ export default function MosquitoMagnetCanadaPage() {
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
           <p className="not-prose text-sm text-gray-600 mb-1">Compare current Canadian prices and models (Patriot Plus, Independence, Executive):</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink tag={AMZ_TAG} search="mosquito magnet trap">Check Mosquito Magnet price on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="mosquito magnet patriot plus">Check Mosquito Magnet price on Amazon.ca →</BuyLink>
             <BuyLink tag={AMZ_TAG} search="mosquito magnet executive">Executive model →</BuyLink>
             <BuyLink tag={AMZ_TAG} search="mosquito magnet patriot plus">Patriot Plus →</BuyLink>
             <BuyLink tag={AMZ_TAG} search="mosquito magnet lurex3 attractant">Attractant refills →</BuyLink>

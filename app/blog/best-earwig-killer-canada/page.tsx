@@ -101,7 +101,7 @@ export default function BestEarwigKillerCanadaPage() {
       </section>
 
       <AffiliateDisclosure />
-      <StickyBuyBar tag={AMZ_TAG} name="Safer's Diatomaceous Earth (PMRA-registered insect dust)" search="safers diatomaceous earth" label="Best product you can buy" />
+      <StickyBuyBar tag={AMZ_TAG} name="Safer's Diatomaceous Earth (PMRA-registered insect dust)" search="safers insect killing diatomaceous earth" label="Best product you can buy" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -166,7 +166,7 @@ export default function BestEarwigKillerCanadaPage() {
                   <td className="px-4 py-3 font-bold text-brand-800">You want one product that genuinely kills</td>
                   <td className="px-4 py-3 text-gray-700">Registered insecticidal DE plus a bulb duster &mdash; dry crossing zones only</td>
                   <td className="px-4 py-3 text-gray-700">Food-grade or pool-grade DE</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="safers diatomaceous earth" block>Registered DE &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="safers insect killing diatomaceous earth" block>Registered DE &rarr;</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Dozens crossing the foundation nightly, right now</td>
@@ -201,7 +201,7 @@ export default function BestEarwigKillerCanadaPage() {
                 badge: 'Best Overall Killer',
                 name: 'Safer’s Diatomaceous Earth + Bulb Duster',
                 why: 'The registered earwig product that kills mechanically rather than chemically — an earwig that crosses a dry film loses moisture it cannot replace — so no earwig can develop resistance to it and the powder never expires. Buy the duster with it; a barely visible film is what kills, and you cannot lay one from the bag.',
-                search: 'safers diatomaceous earth',
+                search: 'safers insect killing diatomaceous earth',
                 featured: true,
                 pros: ['Registered for domestic use in Canada — the PCP number is on the bag', 'Mechanical kill, so resistance cannot develop', 'One bag treats a whole house many times over'],
                 cons: ['Goes inert the moment it is damp — reapply after rain', 'Wrong tool for wet mulch beds, which is where earwigs live'],
@@ -376,7 +376,7 @@ export default function BestEarwigKillerCanadaPage() {
 
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the short list that is genuinely worth buying:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink tag={AMZ_TAG} search="safers diatomaceous earth">Safer&rsquo;s DE &rarr;</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="safers insect killing diatomaceous earth">Safer&rsquo;s DE &rarr;</BuyLink>
             <BuyLink tag={AMZ_TAG} search="diatomaceous earth duster applicator">Bulb duster &rarr;</BuyLink>
             <BuyLink tag={AMZ_TAG} search="door sweep garage door bottom seal weatherstrip">Door sweeps &rarr;</BuyLink>
           </div>
@@ -395,7 +395,7 @@ export default function BestEarwigKillerCanadaPage() {
           <p><strong>Budget for the duster in the same order.</strong> What kills is a thin, barely visible film; insects detect and walk around a visible pile, so a heavy application is worse than a light one, and you cannot lay a light one out of the bag. A bulb or hand duster is inexpensive and it is the difference between a bag that works and a bag that sits in the garage. Wear a dust mask while applying.</p>
           <p><strong>Where it may legally and usefully go</strong> &mdash; and this is a severe, pest-specific limit rather than a footnote, because DE stops working the instant it is damp and earwigs live in wet mulch and dew-soaked soil. Dry crossings only: under exterior door thresholds and along garage sill plates; inside crawl spaces and along unfinished basement perimeters; under decks, porches and overhangs the rain does not reach; window wells once the leaves are out of them; and the bare gravel band at the foundation, which is exactly why creating that band is worth the hour with a rake. Reapply after rain and heavy dew. Grade differences and full registered-brand comparison are in our <Link href="/blog/diatomaceous-earth-canada-buyers-guide">Canadian diatomaceous earth buyer&rsquo;s guide</Link>.</p>
           <div className="not-prose my-4">
-            <BuyLink tag={AMZ_TAG} search="safers diatomaceous earth">Check Safer&rsquo;s DE and duster kits on Amazon.ca &rarr;</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="safers insect killing diatomaceous earth">Check Safer&rsquo;s DE and duster kits on Amazon.ca &rarr;</BuyLink>
           </div>
 
           <h2>Perimeter Sprays and Granules: What Canada Actually Allows You to Buy</h2>

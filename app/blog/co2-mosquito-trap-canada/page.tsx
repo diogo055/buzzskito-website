@@ -154,7 +154,7 @@ export default function Co2MosquitoTrapCanadaPage() {
                 badge: 'Best for Acreage',
                 name: 'Propane CO₂ Trap (Mosquito Magnet)',
                 why: 'Burns propane for a strong CO₂ plume that reaches up to about 1 acre — the right call for rural lots and cottage country if you accept the tank and premium running cost.',
-                search: 'mosquito magnet trap',
+                search: 'mosquito magnet patriot plus',
                 score: 7.6,
                 pros: ['Reaches up to ~1 acre', 'Strong, steady CO₂ plume', 'Best for large rural lots'],
                 cons: ['Mandatory 20 lb propane tank', 'Premium fuel + cartridge cost'],

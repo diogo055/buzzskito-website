@@ -207,7 +207,7 @@ export default function BestWaspNestSprayCanadaPage() {
                 badge: 'Best Straight Stream',
                 name: 'Ortho Wasp B Gon MAX Wasp Killer Spray',
                 why: 'Ortho sells wasp aerosols under different names on each side of the border, and only one of them is registered here. The Canadian SKU is Wasp B Gon MAX — Health Canada PCP 33723 (spray) and PCP 33724 (foam), registered to Scotts Canada Ltd. The 20-foot Ortho Home Defense Hornet & Wasp Killer 7 that dominates US results is EPA-registered and carries no Canadian registration. The spray format gives a pointed stream rather than a spreading foam blanket.',
-                search: 'ortho wasp b gon max',
+                search: '',
                 score: 8.1,
                 pros: ['PCP 33723 — registered with Health Canada', 'Straight stream, not a spreading foam', 'Same tetramethrin + d-phenothrin actives as the Raid can'],
                 cons: ['Stream runs off — thinner residual than foam', 'Not a long-range can: Scotts Canada rates the foam version at 2–2.5 m'],
@@ -260,7 +260,7 @@ export default function BestWaspNestSprayCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Narrow pointed stream rather than a foam blanket; fast knockdown, thinner residual</td>
                   <td className="px-4 py-3 text-gray-700">Pointed application where spreading foam is unwanted</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Legal</strong> &mdash; PCP 33723</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="ortho wasp b gon max" block>Check price on Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">US grey-market<br /><span className="font-normal text-xs text-gray-500">Spectracide &ldquo;27 ft&rdquo;, Hot Shot, Ortho Home Defense Hornet &amp; Wasp Killer 7</span></td>
@@ -327,7 +327,7 @@ export default function BestWaspNestSprayCanadaPage() {
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="raid wasp hornet killer">Raid Wasp &amp; Hornet foam →</BuyLink>
             <BuyLink tag={AMZ_TAG} search="wilson waspout wasp hornet foam">Wilson WaspOut foam →</BuyLink>
-            <BuyLink tag={AMZ_TAG} search="ortho wasp b gon max">Ortho wasp aerosol →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="">Ortho wasp aerosol →</BuyLink>
           </div>
 
           <h2>Why Foam Wins for Most Canadian Wasp Nests</h2>

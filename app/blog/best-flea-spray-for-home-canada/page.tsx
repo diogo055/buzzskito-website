@@ -223,7 +223,7 @@ export default function BestFleaSprayForHomeCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Larvae and adults that crawl through a dry film, slowly, by dehydration</td>
                   <td className="px-4 py-3 text-gray-700">Anything in humid air; anything that avoids the visible dust</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Cracks and voids only</strong> &mdash; not in carpet pile</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="safers diatomaceous earth" block>Safer&rsquo;s DE →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="safers insect killing diatomaceous earth" block>Safer&rsquo;s DE →</BuyLink></td>
                 </tr>
               </tbody>
             </table>

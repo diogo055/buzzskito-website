@@ -146,7 +146,7 @@ export default function BestWaspKillerCanadaPage() {
                 badge: 'Best Straight Stream',
                 name: 'Ortho Wasp B Gon MAX Wasp Killer Spray',
                 why: 'The Ortho can that is actually registered in Canada: Wasp B Gon MAX Wasp Killer Spray, Health Canada PCP 33723, Scotts Canada Ltd. (the foam is PCP 33724). It lays down a narrow, pointed stream instead of a spreading foam blanket, which is what you want for a defined entrance hole you would rather not coat the whole eave around. What it is not is a distance can. Scotts Canada rates the companion Wasp B Gon MAX foam (PCP 33724) at 2 to 2.5 m (6 to 8 feet) and publishes no reach figure for the spray, so treat it as close range and plan for the low end. The Ortho Home Defense Hornet & Wasp Killer 7 that fills American search results is a US product with no Canadian registration at all.',
-                search: 'ortho wasp b gon max',
+                search: '',
                 score: 8.5,
                 pros: ['PCP 33723 — registered with Health Canada to Scotts Canada Ltd.', 'Precise stream for a defined entrance hole', 'No spreading foam across the surrounding siding'],
                 cons: ['Stream runs off rather than clinging like foam', 'Not a distance can — Scotts Canada rates the companion foam at 2 to 2.5 m and publishes no figure for the spray, so stay off high nests'],
@@ -226,7 +226,7 @@ export default function BestWaspKillerCanadaPage() {
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="wilson waspout wasp hornet foam">Wilson WaspOut foam &rarr;</BuyLink>
             <BuyLink tag={AMZ_TAG} search="raid wasp hornet killer">Raid Wasp &amp; Hornet &rarr;</BuyLink>
-            <BuyLink tag={AMZ_TAG} search="ortho wasp b gon max">Ortho Wasp B Gon MAX &rarr;</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="">Ortho Wasp B Gon MAX &rarr;</BuyLink>
             <BuyLink tag={AMZ_TAG} search="rescue why trap wasp hornet yellowjacket">RESCUE! WHY trap &rarr;</BuyLink>
           </div>
 

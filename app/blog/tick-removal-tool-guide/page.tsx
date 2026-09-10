@@ -83,7 +83,7 @@ export default function TickRemovalToolGuidePage() {
       </section>
 
       <AffiliateDisclosure />
-      <StickyBuyBar tag={AMZ_TAG} name="Tick Twister / O’Tom Tick Twister removal tool" asin="B0D4DTM25H" search="tick twister removal tool" label="Best overall tool" />
+      <StickyBuyBar tag={AMZ_TAG} name="Tick Twister / O’Tom Tick Twister removal tool" asin="B0D4DTM25H" search="otom tick twister" label="Best overall tool" />
 
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
@@ -103,7 +103,7 @@ export default function TickRemovalToolGuidePage() {
           </div>
           <p className="not-prose text-sm text-gray-600 mb-1">The two tools vets and Canadian hikers keep on hand — a fine-tipped tweezer and a tick-hook set (under $15):</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink tag={AMZ_TAG} search="tick twister removal tool">Check tick-removal tools on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="otom tick twister">Check tick-removal tools on Amazon.ca →</BuyLink>
             <BuyLink tag={AMZ_TAG} search="fine tip tick tweezers">Fine-tip tick tweezers →</BuyLink>
           </div>
           <p className="lead text-xl text-gray-700 leading-relaxed mb-6">Removing a tick correctly takes 30 seconds with the right tool. Done wrong, you can break off the mouthparts, squeeze the tick&rsquo;s body and increase Lyme disease risk, or just panic. Here&rsquo;s the honest 2026 guide to what tools actually work.</p>
@@ -116,7 +116,7 @@ export default function TickRemovalToolGuidePage() {
                 name: 'Tick Twister / O’Tom Tick Twister',
                 why: 'The hooked notch slides under the tick and twists it free without squeezing the body — the standard tool most veterinarians recommend, and budget-friendly.',
                 asin: 'B0D4DTM25H',
-                search: 'tick twister removal tool',
+                search: 'otom tick twister',
                 score: 9.1,
                 featured: true,
                 pros: ['Can’t squeeze the tick body', 'Works on nymphs to engorged adults', 'Stocked at most pet stores'],
@@ -180,7 +180,7 @@ export default function TickRemovalToolGuidePage() {
               </thead>
               <tbody>
                 {[
-                  { tool: 'Tick Twister / O’Tom', mech: 'Hook slides under the tick, twist to release', best: 'All-round use, nymphs to engorged adults', price: 'Budget', search: 'tick twister removal tool' },
+                  { tool: 'Tick Twister / O’Tom', mech: 'Hook slides under the tick, twist to release', best: 'All-round use, nymphs to engorged adults', price: 'Budget', search: 'otom tick twister' },
                   { tool: 'TickKey', mech: 'Tear-drop slot captures the tick, pull straight back', best: 'Beginners, keychain carry', price: 'Budget', search: 'tickkey tick removal tool' },
                   { tool: 'Tick removal card', mech: 'Credit-card-sized notch slides under the tick', best: 'Wallet backup, travel, glovebox', price: 'Cheapest', search: 'tick removal card' },
                   { tool: 'Fine-tipped tweezers', mech: 'Grip the head at skin level, pull straight up', best: 'Occasional use, already owned', price: 'Free to budget', search: 'fine tip tick tweezers' },
